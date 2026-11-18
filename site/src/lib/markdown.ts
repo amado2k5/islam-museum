@@ -2,6 +2,7 @@
 import { Marked } from "marked";
 import { byId, href, labelOf, realNodes, NEEDS_SOURCE } from "./graph";
 import type { Lang } from "./i18n";
+import { parsePerspectiveLine } from "./perspectives";
 
 export interface Cite { n: number; source: string; locator?: string }
 export interface Rendered { html: string; cites: Cite[]; perspectives: { tradition: string; html: string }[] }
@@ -56,6 +57,7 @@ const HON_PATTERNS: Record<Lang, RegExp> = {
 // ﷺ belongs to Muhammad alone: "النبي صموئيل", "the Prophet Daniel" (a person, shrine or village) name another prophet, and
 // "النبي الوحيد" speaks of a prophet in general, so neither gets the mark.
 const OTHER_PROPHETS: Record<Lang, string[]> = {
+  fr: ["Adam", "Idris", "Noé", "Houd", "Salih", "Abraham", "Loth", "Ismaël", "Isaac", "Jacob", "Joseph", "Job", "Chouayb", "Moïse", "Aaron", "David", "Salomon", "Élie", "Élisée", "Jonas", "Zacharie", "Jean", "Jésus", "Samuel", "Daniel", "Josué", "Ézéchiel", "Jérémie", "Isaïe"],
   ar: [
     "آدم", "إدريس", "أخنوخ", "نوح", "هود", "صالح", "إبراهيم", "لوط", "إسماعيل", "إسحاق", "يعقوب", "يوسف", "أيوب", "شعيب",
     "موسى", "هارون", "ذا الكفل", "ذي الكفل", "ذو الكفل", "داود", "سليمان", "إلياس", "الياس", "اليسع", "أليشع", "اليشع",
@@ -80,13 +82,6 @@ const OTHER_PROPHETS: Record<Lang, string[]> = {
     "موسی", "ہارون", "ذوالکفل", "ذو الکفل", "داؤد", "داود", "سلیمان", "الیاس", "الیسع", "یونس", "زکریا", "یحییٰ", "یحیی",
     "عیسیٰ", "عیسی", "مسیح", "سموئیل", "شموئیل", "دانیال", "یوشع", "شیث", "حزقیل", "حزقی ایل", "یرمیاہ", "ارمیا", "عزیر",
     "خضر", "جرجیس", "لقمان",
-  ],
-  fr: [
-    "Adam", "Idris", "Hénoch", "Nuh", "Noé", "Hud", "Salih", "Ibrahim", "Abraham", "Lut", "Loth", "Ismail", "Ismaïl", "Ismaël", "Ishaq",
-    "Isaac", "Yaqub", "Jacob", "Yusuf", "Joseph", "Ayyub", "Job", "Shuayb", "Chouaïb", "Jéthro", "Musa", "Moïse", "Harun", "Aaron",
-    "Dhu al-Kifl", "Dawud", "David", "Sulayman", "Salomon", "Ilyas", "Élie", "al-Yasa", "Élisée", "Yunus", "Jonas", "Zakariyya",
-    "Zacharie", "Yahya", "Jean", "Isa", "Jésus", "Samuel", "Daniel", "Yusha", "Josué", "Shith", "Seth", "Ézéchiel", "Jérémie", "Isaïe",
-    "Uzayr", "Esdras", "Khidr", "al-Khidr", "Luqman",
   ],
   es: [
     "Adán", "Idris", "Enoc", "Nuh", "Noé", "Hud", "Salih", "Ibrahim", "Abraham", "Lut", "Lot", "Ismail", "Ismael", "Ishaq", "Isaac",
@@ -227,8 +222,8 @@ export function renderProse(md: string, lang: Lang, hon?: HonState): Rendered {
   const perspectives: Rendered["perspectives"] = [];
   md = md.replace(/^:::perspectives\n([\s\S]*?)\n:::\s*$/gm, (_m, body: string) => {
     for (const line of body.split("\n")) {
-      const m = line.match(/^- \*\*(.+?)\*\*:\s*(.+)$/);
-      if (m) perspectives.push({ tradition: m[1].replace(NEEDS_SOURCE, "").trim(), html: transform(markedSafe.parseInline(m[2], { async: false }) as string) });
+      const entry = parsePerspectiveLine(line);
+      if (entry?.body) perspectives.push({ tradition: entry.label.replace(NEEDS_SOURCE, "").trim(), html: transform(markedSafe.parseInline(entry.body, { async: false }) as string) });
     }
     return "";
   });

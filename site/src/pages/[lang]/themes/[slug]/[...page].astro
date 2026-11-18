@@ -24,7 +24,7 @@ const items = realNodes.filter((n) => n.themes.includes(theme.id)).sort((a, b) =
 const byClass = new Map<string, typeof items>();
 for (const n of items) byClass.set(n.class, [...(byClass.get(n.class) ?? []), n]);
 const paged = pageView([...byClass.entries()].map(([id, list]) => ({ id, items: list })), Astro.props as PagedProps, `/${lang}/themes/${theme.id}/`);
-const pagedTitle = paged.landing ? theme.label[lang] : `${theme.label[lang]} · ${T.class[paged.sections[0].id]}${paged.pager && paged.pager.pageNo > 1 ? ` · ${paged.pager.pageNo}` : ""}`;
+const pagedTitle = paged.landing ? (theme.label[lang] ?? theme.label.en) : `${theme.label[lang] ?? theme.label.en} · ${T.class[paged.sections[0].id]}${paged.pager && paged.pager.pageNo > 1 ? ` · ${paged.pager.pageNo}` : ""}`;
 // a card carries the head of the summary; the record page has it whole
 const brief = (t: string) => (t.length > 360 ? `${t.slice(0, 360).replace(/\s+\S*$/, "")}…` : t);
 const tensions = items.flatMap((n) => (n.data.tensions ?? []).map((t: any) => ({ t, n })));
@@ -33,7 +33,7 @@ const dateOf = (n: any) => formatDate(n.data.born ?? n.data.date?.start ?? n.dat
 const CONTROVERSIAL = ["sexuality-gender-diversity", "dissent-heresy-freethought", "takfir-and-its-critics", "islam-and-secular-thought", "converts-and-leavers", "violent-extremism-and-the-muslim-response", "conquest-and-its-debates", "images-and-figural-art"];
 const controversial = themes.filter((t) => CONTROVERSIAL.includes(t.id) && t.id !== theme.id);
 ---
-<BaseLayout lang={lang} title={pagedTitle} description={fam.label[lang]} path={paged.path}>
+<BaseLayout lang={lang} title={pagedTitle} description={fam.label[lang] ?? fam.label.en} path={paged.path}>
   <div class="wrap" style="padding-block:10px 20px">
     <nav class="ui muted" style="font-size:.88rem;margin-bottom:14px"><a href={`/${lang}/themes/`} style="color:inherit">{T.themes.title}</a> › {fam.label[lang]}</nav>
     <h1>{theme.label[lang]}</h1>

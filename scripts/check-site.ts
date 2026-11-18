@@ -5,6 +5,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
 import { listFiles, p, rel } from "./lib.js";
+import { ui, type Lang } from "../site/src/lib/i18n";
 
 // Accepts a lazy iterable so callers can read one page at a time; holding every page's HTML in memory
 // at once exhausted the Node heap on the full site (about 4 GB).
@@ -166,9 +167,9 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   // audit of 5 November 2026: each exhibit appears once on the exhibits index, entity pages show no review state or
   // completeness score, every language has its embed index and its own not-found page
   for (const lang of ["ar", "en", "ur", "fr", "es"]) {
-    // A language whose strings file is still partial (docs/agents/lanes/french.md) renders the English string, as ui() does.
-    const fill = (t: any, base: any): any => { for (const k of Object.keys(base)) { const v = base[k]; if (v && typeof v === "object" && !Array.isArray(v)) t[k] = fill(t[k] && typeof t[k] === "object" ? t[k] : {}, v); else if (t[k] === undefined) t[k] = v; } return t; };
-    const T = fill(parse(readFileSync(p("i18n", `${lang}.yaml`), "utf8")) ?? {}, parse(readFileSync(p("i18n", "en.yaml"), "utf8")));
+    // The same strings the pages were rendered with: a key a language has not translated yet is filled from English
+    // (site/src/lib/i18n.ts), so a partly translated language is checked against what its pages really show.
+    const T = ui(lang as Lang);
     const index = p("dist", lang, "exhibits", "index.html");
     if (!existsSync(index)) errors.push(`missing page: ${lang}/exhibits/index.html`);
     else {
