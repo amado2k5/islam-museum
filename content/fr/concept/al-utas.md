@@ -1,0 +1,16 @@
+---
+id: concept/al-utas
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+translation_of: ar@120025f884a54cebd431d7f0d8a7cdd99597ee9d
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-02-07
+  source: content/en/concept/al-utas.md
+---
+## Ce qu’est l’éternuement et comment il se produit
+Selon le Canon, l’éternuement est un mouvement chaud venu du cerveau qui, à l’aide de l’air inspiré, chasse une humeur ou un autre élément gênant par le nez et la bouche. L’éternuement est au cerveau ce que la toux est au poumon et aux parties voisines. Certains ont pensé que le cerveau ne se vide en éternuant qu’une fois l’humeur gênante changée en air, que l’air inspiré expulse alors. Selon le livre, cette transformation n’est pas nécessaire : l’air n’est chassé que pour que le corps soit rempli d’air en continuité avec celui qui est attiré vers le siège de l’humeur. Ainsi, lorsque les muscles de la poitrine et du diaphragme ébranlent tout cet air d’un mouvement violent, il jaillit de l’intérieur vers l’extérieur, délogeant ce qui se trouve au-delà de la poitrine, et contribue à l’expulsion et à l’arrachement. L’air voisin s’ébranle à son tour et aide la force expulsive à vaincre la matière et à la chasser (l’hypothèse de ces auteurs est rapportée comme une opinion rejetée par le livre) {cite:canon-ibn-sina-print-v2 p.250} {cite:canon-ibn-sina-print-v2 p.251}
+## Nuisances, bienfaits et signes
+L’éternuement est, selon le Canon, très nuisible au début d’une nazla ou d’un zukam, car l’humeur qui doit mûrir a besoin de repos. Dans les fièvres et les affections semblables, il peut se répéter jusqu’à abattre les forces et à remplir la tête ou jusqu’à déclencher un saignement de nez grave, qu’il faut alors s’empresser d’arrêter. Il dissipe pourtant le hoquet dû à une matière en l’ébranlant. Certains éternuements surviennent au début des accès de fièvre. Les Indiens soutenaient que la meilleure façon d’éviter tout mal en éternuant est de garder la tête de face dans l’axe de la poitrine, sans tourner ni se pencher ; cette opinion n’est pas tenue pour juste (jugement du livre lui-même). L’éternuement est le meilleur moyen d’assécher la tête lorsque la matière est peu abondante et qu’elle peut être chassée par ébranlement malgré son immaturité, ou lorsqu’elle est venteuse. Si la matière est abondante ou vaporeuse, il est ce qu’il y a de plus utile contre la réplétion de vapeurs dans la tête ; il est également utile si la matière est épaisse mais mûre. S’il va au-delà de cela, il témoigne de la vigueur du cerveau : voilà pourquoi celui qui est près de mourir ne peut éternuer, et pourquoi il n’y a aucun espoir de guérison pour celui qui, dans cet état, n’éternue pas même sous l’effet de sternutatoires. L’éternuement aide à chasser les déchets retenus en les ébranlant, facilite l’accouchement et la délivrance (mention signalée et mise à part pour décision du fondateur) et calme la lourdeur de tête. En revanche, il nuit à celui dont la tête contient une matière qui doit rester au repos pour mûrir et dont il ne faut ni échauffer ni remuer les alentours, de crainte d’y attirer une autre matière. Il nuit également à celui qui a dans la poitrine une matière abondante ou crue {cite:canon-ibn-sina-print-v2 p.251}
