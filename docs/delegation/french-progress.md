@@ -1,11 +1,18 @@
 # french lane — progress
 
+## 2026-11-18 — building corpus packet 12 (Devin)
+
+- Run `fr-corpus-building-12`: 25 English-to-French building prose records, `nilufer-hatun-imaret-iznik` → `qasr-sindad`, with French labels and summaries; YAML layout retained.
+- `check-packet: PASS (25 entities, 50 files, 0 error(s), 26 warning(s), 0.2s)`. Inherited status/provenance warnings only. Targeted queue/packet tests: 15 passed. Citation sequences, wiki-link IDs, needs_source markers, section counts and heading distinctions checked; removing French fields restores original parsed data.
+- Inherited-defect fixes: none. Left out: `building/bibi-maryam-complex-narayanganj` and `building/khizirpur-fort` — inherited missing Urdu pages. Frozen-hook blocked list: empty. No Urdu edits.
+- Retained total: 299. Label-only work not started. Commit 2 of 4 since last plain push.
+
 ## 2026-11-18 — building corpus packet 11 (Devin)
 
 - Run `fr-corpus-building-11`: 25 English-to-French building prose records, `mausoleum-of-imam-al-shafii` → `nilometer-of-rawda`, with French labels and summaries, without re-dumping YAML.
 - `check-packet: PASS (25 entities, 50 files, 0 error(s), 19 warning(s), 0.2s)`. Inherited status/provenance warnings only. Targeted queue/packet tests: 15 passed. Citation sequences, wiki-link IDs, needs_source markers, section counts and heading distinctions preserved; original parsed data unchanged except French fields.
 - Inherited-defect fixes: none. Left out: `building/bibi-maryam-complex-narayanganj` and `building/khizirpur-fort` — inherited missing Urdu pages. Frozen-hook blocked list: empty. No Urdu edits.
-- Retained total: 274. Next record: `building/nim-pir-mosque`. Label-only work not started. Commit 1 of 4 since last plain push.
+- Retained total: 274. Next record: `building/nilufer-hatun-imaret-iznik`. Label-only work not started. Commit 1 of 4 since last plain push.
 
 ## 2026-11-18 — building corpus packet 10 (Devin)
 
