@@ -58,6 +58,12 @@ describe("proseUnsafeHtml: the validator rejects the payload at authoring time",
 
 describe("renderProse: ﷺ goes only to Muhammad", () => {
   const mark = '<span lang="ar">ﷺ</span>';
+  it("protects French prophet names and their word boundaries", () => {
+    expect(renderProse("le Prophète Moïse", "fr").html).not.toContain(mark);
+    expect(renderProse("le Prophète Daniel", "fr").html).not.toContain(mark);
+    expect(renderProse("le Prophète Muhammad", "fr").html).toContain(mark);
+    expect(renderProse("", "fr").html).not.toContain(mark);
+  });
   it("marks the first plain mention of the Prophet", () => {
     expect(renderProse("قال النبي إن الدين يسر.", "ar").html).toContain(`النبي ${mark}`);
     expect(renderProse("The Prophet said so; the Prophet left.", "en").html).toContain(`the Prophet ${mark}`);

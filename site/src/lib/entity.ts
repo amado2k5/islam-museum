@@ -172,8 +172,8 @@ export function jsonLd(n: Node, lang: Lang, path: string) {
 }
 
 // ---- themes (docs/plan/14) ----
-export interface Theme { id: string; family: string; label: { en: string; ar: string } }
-export interface ThemeFamily { id: string; label: { en: string; ar: string } }
+export interface Theme { id: string; family: string; label: { en: string; ar: string; ur?: string; fr?: string } }
+export interface ThemeFamily { id: string; label: { en: string; ar: string; ur?: string; fr?: string } }
 export const themes: Theme[] = parse(readFileSync(repoPath("schema", "enums", "themes.yaml"), "utf8"));
 export const themeFamilies: ThemeFamily[] = parse(readFileSync(repoPath("schema", "enums", "theme-families.yaml"), "utf8"));
 export const themeById = new Map(themes.map((t) => [t.id, t]));

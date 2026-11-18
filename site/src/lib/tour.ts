@@ -60,7 +60,7 @@ export function loadJourneys(): Journey[] {
 /** Select the page language for each journey; narration lines stay plain text.
  *  A language the data has not been translated into yet (ur) falls back to English, as i18n/ui() does for UI strings. */
 export function viewJourneys(journeys: Journey[], lang: Lang): JourneyView[] {
-  const pick = <T,>(b: Record<string, T>): T => b[lang] ?? b.en;
+  const pick = <T,>(b: { ar: T; en: T } & Partial<Record<Lang, T>>): T => b[lang] ?? b.en;
   return journeys.map((j) => ({
     id: j.id,
     kind: j.kind,
@@ -124,8 +124,8 @@ export function viewExhibits(list: Exhibit[], lang: Lang): ExhibitView[] {
     id: e.id,
     build: e.build,
     record: e.record,
-    label: e.label[lang],
-    desc: e.desc[lang],
+    label: e.label[lang] ?? e.label.en,
+    desc: e.desc[lang] ?? e.desc.en,
     material: e.material?.[lang] ?? (lang === "fr" ? e.material?.en : e.material?.ar) ?? "",
     museum: e.museum?.[lang] ?? (lang === "fr" ? e.museum?.en : e.museum?.ar) ?? "",
   }));
@@ -176,6 +176,6 @@ export function loadHalls(): Hall[] {
 export function viewHalls(list: Hall[], lang: Lang): HallView[] {
   return list.map((h) => ({
     wing: h.wing,
-    stops: h.stops.map((s) => ({ id: s.id, record: s.record, art: s.art ?? "", label: s.label[lang], desc: s.desc[lang] })),
+    stops: h.stops.map((s) => ({ id: s.id, record: s.record, art: s.art ?? "", label: s.label[lang] ?? s.label.en, desc: s.desc[lang] ?? s.desc.en })),
   }));
 }

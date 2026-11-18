@@ -55,6 +55,7 @@ const HON_PATTERNS: Record<Lang, RegExp> = {
 // ﷺ belongs to Muhammad alone: "النبي صموئيل", "the Prophet Daniel" (a person, shrine or village) name another prophet, and
 // "النبي الوحيد" speaks of a prophet in general, so neither gets the mark.
 const OTHER_PROPHETS: Record<Lang, string[]> = {
+  fr: ["Adam", "Idris", "Noé", "Houd", "Salih", "Abraham", "Loth", "Ismaël", "Isaac", "Jacob", "Joseph", "Job", "Chouayb", "Moïse", "Aaron", "David", "Salomon", "Élie", "Élisée", "Jonas", "Zacharie", "Jean", "Jésus", "Samuel", "Daniel", "Josué", "Ézéchiel", "Jérémie", "Isaïe"],
   ar: [
     "آدم", "إدريس", "أخنوخ", "نوح", "هود", "صالح", "إبراهيم", "لوط", "إسماعيل", "إسحاق", "يعقوب", "يوسف", "أيوب", "شعيب",
     "موسى", "هارون", "ذا الكفل", "ذي الكفل", "ذو الكفل", "داود", "سليمان", "إلياس", "الياس", "اليسع", "أليشع", "اليشع",
@@ -94,7 +95,7 @@ for (const n of realNodes) {
     }
   }
 }
-const NAME_END: Record<Lang, string> = { ar: "(?![\u0621-\u064A])", en: "(?![A-Za-z])", ur: "(?![\u0621-\u06D3])" };
+const NAME_END: Record<Lang, string> = { ar: "(?![\u0621-\u064A])", en: "(?![A-Za-z])", ur: "(?![\u0621-\u06D3])", fr: "(?![A-Za-zÀ-ÿ])" };
 const reEsc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const OTHER_AFTER = Object.fromEntries(
   (Object.keys(OTHER_PROPHETS) as Lang[]).map((l) => {

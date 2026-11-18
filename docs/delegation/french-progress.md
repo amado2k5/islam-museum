@@ -1,5 +1,15 @@
 # french lane — progress
 
+## Checks run — 2026-11-18 (verification, interim)
+
+- `npm run validate`: exit 0; 266/266 decision records valid, 112/112 benchmark cases match.
+- Full `npm test` initially: 5 failed files, 41 passed; 7 failed tests, 615 passed, 5 skipped. Missing `.cache/graph.json` broke Tafsir/Timeline Explorer on a clean checkout; main has the same missing CI prerequisite. Added `npm run graph` before the Validate test job's `npm test`. A repeat suite with the generated cache is running.
+- Root/site `npx tsc --noEmit`: fail on existing main errors; after fixes the diagnostic sets match main. `npm --prefix site run check`: 394 errors (main: 406); French-specific type errors fixed without translating datasets.
+- `node --test workers/site/test/*.mjs workers/r2-sync/test/archive-test.mjs workers/r2-sync/test/publish.test.mjs`: 35 passed, 0 failed, including new French routing and sync-prefix assertions. The separate parallel integration harness requires an R2 test endpoint/credentials and is not a local unit test.
+- Fixed missing queue import, French honorific name guards, tour field fallback, optional French localized types, and unlocalized gallery/world dataset lookups. No content translations added.
+- Assigned elsewhere, left unchanged: level headings/RTL/Arabic-only sacred queue coverage (#7416); tour dataset parity (#7417); Wikipedia reach fixture and pipeline French prose fixture (general i18n session).
+- Full `SAMPLE_BUILD=0 npm run build` is still running (API export at interim handoff). R2 dry run and local `/fr/` axe/Lighthouse remain pending that build. No deployment or real R2 publish was performed.
+
 Proposal: `docs/delegation/french-language-proposal.md` (approved 18 Nov 2026). Lane: `docs/agents/lanes/french.md`.
 
 ## 2026-11-18 — infrastructure landed (session 1)
