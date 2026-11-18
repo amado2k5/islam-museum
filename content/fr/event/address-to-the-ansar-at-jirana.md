@@ -1,18 +1,19 @@
 ---
 id: event/address-to-the-ansar-at-jirana
 lang: fr
-source_lang: en
+source_lang: ar
+translation_of: ar@dc04761735f184febd0ad659e7fa877c18e8c3c689aea2c0d31500d8d585f8e8
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin
   model: unknown
   run: fr-corpus-event-01
-  source: content/en/event/address-to-the-ansar-at-jirana.md
+  source: content/ar/event/address-to-the-ansar-at-jirana.md
 ---
 ## Résumé
 Lorsque [[event/distribution-of-hunayn-spoils|le Prophète partagea le butin de Hunayn]] à [[place/al-jirana|al-Ji'rana]] et combla de dons les chefs des Quraysh et les dirigeants tribaux pour rallier leurs cœurs, alors que les [[group/ansar|Ansar]] n’en reçurent rien, ceux-ci en furent peinés, jusqu’à ce que l’un d’eux dise : le Messager de Dieu a retrouvé les siens {cite:mubarakpuri-raheeq p. 420}. [[person/sad-ibn-ubada|Sa'd ibn Ubada]] les réunit dans un enclos et le Prophète leur parla jusqu’à les faire pleurer et mouiller leurs barbes ; ils dirent : nous sommes satisfaits d’avoir le Messager de Dieu pour part et pour lot {cite:mubarakpuri-raheeq p. 421}.
 
-## La peine des Ansar
+## Le ressentiment des Ansar
 Ibn Ishaq rapporte d’[[person/abu-said-al-khudri|Abu Sa'id al-Khudri]] que, lorsque les Ansar virent les grands dons aller aux Quraysh et aux tribus arabes sans rien recevoir, les murmures se répandirent parmi eux. Sa'd ibn Ubada entra auprès du Prophète et lui dit leur peine. Il demanda : « Et toi, Sa'd, où te situes-tu dans cette affaire ? » Il répondit : Messager de Dieu, je ne suis qu’un des miens. Il lui ordonna donc de les réunir dans un enclos {cite:mubarakpuri-raheeq p. 420}.
 
 ## Le discours

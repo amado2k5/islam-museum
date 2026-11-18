@@ -1,18 +1,19 @@
 ---
 id: event/abu-bakr-leads-the-prayers
 lang: fr
-source_lang: en
+source_lang: ar
+translation_of: ar@4f9a4ffd5ac0172bce7d25ac77ac295d494a2ae6c953323e841bf23e7a6697b4
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin
   model: unknown
   run: fr-corpus-event-01
-  source: content/en/event/abu-bakr-leads-the-prayers.md
+  source: content/ar/event/abu-bakr-leads-the-prayers.md
 ---
 ## Résumé
 Lorsque la maladie du Prophète s’aggrava, il ordonna à Abu Bakr de diriger la prière des gens. Abu Bakr dirigea dix-sept prières. Une fois, le Prophète sortit et s’assit à la gauche d’Abu Bakr, qui suivit sa prière {cite:mubarakpuri-raheeq p.467}.
 
-## L’événement
+## Le récit de l’événement
 Au moment de la prière d’isha, la maladie s’aggrava et le Prophète ne put sortir. Il demanda trois fois : « Les gens ont-ils prié ? » Chaque fois qu’il tenta de se lever après s’être baigné, il perdit connaissance {cite:mubarakpuri-raheeq p.467؛ sahih-al-bukhari}. Il fit donc dire à Abu Bakr de diriger la prière ; durant ces jours, Abu Bakr dirigea dix-sept prières du vivant du Prophète {cite:mubarakpuri-raheeq p.467}. Aïcha revint auprès du Prophète trois ou quatre fois, demandant que la direction de la prière ne soit pas confiée à Abu Bakr, pour que les gens ne voient pas en lui un mauvais présage. Il refusa et dit : « Vous êtes comme les femmes de Yusuf ; ordonnez à Abu Bakr de diriger la prière des gens » {cite:mubarakpuri-raheeq p.467؛ sahih-al-bukhari}.
 
 Le samedi ou le dimanche, le Prophète ressentit quelque soulagement et sortit entre deux hommes pour la prière de midi, tandis qu’Abu Bakr dirigeait la prière. Abu Bakr voulut reculer, mais le Prophète lui fit signe de ne pas le faire et se fit asseoir à sa gauche. Abu Bakr suivit la prière du Prophète, tandis que les gens entendaient le takbir {cite:mubarakpuri-raheeq p.467؛ sahih-al-bukhari}.

@@ -1,13 +1,14 @@
 ---
 id: event/abu-bakr-ten-commands-to-yazid-and-usama-farewell
 lang: fr
-source_lang: en
+source_lang: ar
+translation_of: ar@f8e3b1cab45423f09ee0e111e20998d9c36fd1b9948bb6a6b23295f7f27d17b6
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin
   model: unknown
   run: fr-corpus-event-01
-  source: content/en/event/abu-bakr-ten-commands-to-yazid-and-usama-farewell.md
+  source: content/ar/event/abu-bakr-ten-commands-to-yazid-and-usama-farewell.md
 ---
 ## Résumé
 Abu Bakr donnait des recommandations aux commandants des armées qu’il envoyait, marchant à leurs côtés pour les accompagner au départ. Malik rapporte de Yahya ibn Sa'id qu’il sortit à pied avec [[person/yazid-ibn-abi-sufyan|Yazid ibn Abi Sufyan]], commandant du quart des armées destinées à la Syrie, et lui donna dix recommandations, dont ne tuer ni femme, ni garçon, ni homme très âgé, et ne pas couper les arbres fruitiers. {cite:muwatta-maruf-1997 p. 577} Ibn al-Athir rapporte qu’il accompagna aussi à pied l’armée d’[[person/usama-ibn-zayd|Usama ibn Zayd]], tandis qu’Usama était à cheval, et interdit ensuite à l’armée la trahison, la mutilation et le meurtre des faibles. {cite:kamil-ibn-al-athir scan vol. 1 p. 195} {cite:kamil-ibn-al-athir scan vol. 1 p. 196}
@@ -21,7 +22,7 @@ Malik rapporte de Yahya ibn Sa'id qu’Abu Bakr al-Siddiq envoya des armées en 
 Il lui recommanda ensuite dix choses ; le récit en nomme notamment : ne tuer ni femme, ni garçon, ni homme très âgé ; ne pas couper les arbres fruitiers ; ne pas détruire les lieux habités ; ne pas abattre de moutons ou de chameaux sauf pour manger ; ne pas brûler les abeilles ; ne pas détourner le butin ; ne pas être lâche. {cite:muwatta-maruf-1997 p. 577} Le passage possède sa propre notice : [[passage/muwatta-7-1292|Muwatta 1292]].
 
 ## Le départ d’Usama ibn Zayd
-Ibn al-Athir rapporte que, lorsque l’armée sortit pour camper à al-Jurf, Usama envoya Omar ibn al-Khattab demander à Abu Bakr la permission de revenir avec les hommes : il avait avec lui les notables et ne se sentait pas rassuré pour le successeur du Messager, la famille du Messager et les musulmans. Certains Ansar auprès d’Usama demandèrent qu’on leur donnât un commandant plus âgé. Abu Bakr dit que, même si les chiens et les loups l’emportaient, il accomplirait l’expédition comme le Messager de Dieu l’avait ordonné et ne révoquerait pas sa décision. Lorsqu’Omar lui transmit le souhait des Ansar d’avoir un homme plus âgé qu’Usama, Abu Bakr bondit, saisit Omar par la barbe et dit : « Que ta mère soit privée de toi, fils d’al-Khattab ; le Messager de Dieu l’a nommé et tu me dis de le destituer. » {cite:kamil-ibn-al-athir scan vol. 1 p. 195} Pour l’expédition elle-même, voir [[event/expedition-of-usama|l’expédition d’Usama ibn Zayd]].
+Ibn al-Athir rapporte que, lorsque l’armée sortit pour camper à al-Jurf, Usama envoya Omar ibn al-Khattab demander à Abu Bakr la permission de revenir avec les hommes : les notables étaient avec lui, et il craignait pour la sécurité du successeur du Messager de Dieu et de la famille de celui-ci. Les Ansar avaient demandé qu’on nommât à leur tête un homme plus âgé qu’Usama. Abu Bakr répondit que, même si les chiens et les loups l’emportaient, il ferait partir l’expédition selon l’ordre du Messager de Dieu et ne révoquerait pas sa décision. Lorsqu’Omar lui transmit le souhait des Ansar d’avoir un homme plus âgé qu’Usama, Abu Bakr bondit, le saisit par la barbe et dit : « Que ta mère soit privée de toi, fils d’al-Khattab ! Le Messager de Dieu l’a nommé et tu m’ordonnes de le destituer. » {cite:kamil-ibn-al-athir scan vol. 1 p. 195} Pour l’expédition elle-même, voir [[event/expedition-of-usama|l’expédition d’Usama ibn Zayd]].
 
 Abu Bakr sortit ensuite auprès d’eux, les accompagna au départ et marcha tandis qu’Usama était à cheval. Usama dit : « Successeur du Messager, soit tu montes, soit je descends. » Abu Bakr répondit : « Par Dieu, tu ne descendras pas et je ne monterai pas ; quel mal y a-t-il pour moi à couvrir mes pieds de poussière pendant une heure dans la voie de Dieu ? » Il ajouta que chaque pas d’un combattant lui vaut sept cents bonnes actions inscrites, sept cents degrés élevés et sept cents mauvaises actions effacées. {cite:kamil-ibn-al-athir scan vol. 1 p. 195}
 

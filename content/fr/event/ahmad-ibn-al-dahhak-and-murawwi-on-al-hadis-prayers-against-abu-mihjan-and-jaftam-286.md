@@ -1,18 +1,19 @@
 ---
 id: event/ahmad-ibn-al-dahhak-and-murawwi-on-al-hadis-prayers-against-abu-mihjan-and-jaftam-286
 lang: fr
-source_lang: en
+source_lang: ar
+translation_of: ar@65c05e74ab8b5dff46b4ffb6a309f1bf47847d0e125380794f783aee9d5636a7
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin
   model: unknown
   run: fr-corpus-event-01
-  source: content/en/event/ahmad-ibn-al-dahhak-and-murawwi-on-al-hadis-prayers-against-abu-mihjan-and-jaftam-286.md
+  source: content/ar/event/ahmad-ibn-al-dahhak-and-murawwi-on-al-hadis-prayers-against-abu-mihjan-and-jaftam-286.md
 ---
 ## Vue d’ensemble
 [[person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi|Ali ibn Muhammad]] dit : [[person/muhammad-ibn-sulayman-al-kufi|Muhammad ibn Sulayman]] m’a rapporté : [[person/ahmad-ibn-al-dahhak-qadi-of-hamdan|Ahmad ibn al-Dahhak]], « cadi de Hamdan, son juriste et son savant, auquel ils s’adressent à ce sujet et pour tout ce dont ils ont besoin sur le licite et l’illicite », m’a rapporté : « Lui et Murawwi ibn Abdullah al-Sa'idi m’ont dit : nous avons prêté allégeance à Yahya ibn al-Husayn sachant que personne sur terre n’est plus droit que lui envers les droits de Dieu et que rien de Muhammad ne manque hormis sa personne. » {cite:sira-hadi-ila-al-haqq p.140} Ce jugement des deux narrateurs, rapporté dans le livre, fait partie des éloges de l’imam dans ce récit zaydite ; le musée le présente en l’attribuant, sans le confirmer ni le démentir. Voir [[person/murawwi-ibn-abdullah-al-saidi|Murawwi ibn Abdullah al-Sa'idi]].
 
-## Le signe qu’ils désignent
+## Le signe mentionné
 Ils dirent : « Nous en avons vu un signe en lui dans les suites de sa prière contre Abu Mihjan, esclave des Al Ya'fur, et de sa prière contre Jaftam, qui fut frappé par ce qu’il avait demandé contre lui. » {cite:sira-hadi-ila-al-haqq p.140}
 
 ## Abu Mihjan

@@ -1,19 +1,20 @@
 ---
 id: event/abu-qatada-dream-ruling
 lang: fr
-source_lang: en
+source_lang: ar
+translation_of: ar@cf5180fc78a60e87a1b31044316eb2299755d618a24da55e1dd7b121625f069b
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin
   model: unknown
   run: fr-corpus-event-01
-  source: content/en/event/abu-qatada-dream-ruling.md
+  source: content/ar/event/abu-qatada-dream-ruling.md
 ---
 ## Le récit
-Al-Muwatta rapporte d’Abu Qatada ibn Rib'i que le Prophète dit : « Le bon rêve vient de Dieu et le mauvais rêve du shaytan » {cite:muwatta-maruf-1997} [[passage/muwatta-31-2750|Muwatta 31:2750]].
+Le Muwatta rapporte d’Abu Qatada ibn Rib'i cette parole du Prophète : « La bonne vision vient de Dieu, et le mauvais rêve du diable. » {cite:muwatta-maruf-1997} [[passage/muwatta-31-2750|Muwatta 31:2750]].
 
 ## L’instruction
-Le Prophète enseigna à celui qui voit un rêve de chercher refuge auprès de Dieu, de cracher trois fois à sa gauche et d’éviter d’en parler {cite:muwatta-maruf-1997}. Cette instruction figure parmi les preuves que le shaytan a une part dans les rêves trompeurs {cite:muwatta-maruf-1997}.
+Le Prophète recommanda à celui qui fait un mauvais rêve de chercher refuge auprès de Dieu, de crachoter trois fois à sa gauche et de s’abstenir de le raconter {cite:muwatta-maruf-1997}. Cette recommandation figure parmi les éléments indiquant que le diable intervient dans les rêves trompeurs {cite:muwatta-maruf-1997}.
 
 ## Notes
-Ce hadith appartient aux chapitres des rêves dans les Sunan et le Muwatta ; cette interface le présente dans les sections des rêves et des diables, car il les relie {cite:muwatta-maruf-1997}.
+Ce hadith figure dans les chapitres sur les visions des Sunan et du Muwatta. Le navigateur le présente à la fois dans la section des rêves et dans celle des diables, puisqu’il réunit ces deux sujets {cite:muwatta-maruf-1997}.
