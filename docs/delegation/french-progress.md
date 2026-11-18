@@ -2,6 +2,13 @@
 
 Proposal: `docs/delegation/french-language-proposal.md` (approved 18 Nov 2026). Lane: `docs/agents/lanes/french.md`.
 
+## 2026-11-18 — French homework search wiring (PR #7417)
+
+- PR #7439 review comment 4613301532 identified that `devoir sur les croisades` never enters the English synonym shards loaded by French search. The existing French homework dataset is complete; no dataset changes are needed.
+- Added French synonym generation/shard export in `scripts/derive.ts`, selected those shards on the French search page, and passed French synonyms to the French canon search index in `scripts/export-api.ts`. English/Arabic generation and Urdu’s Arabic shard selection are unchanged. French retains existing English topical phrases alongside any French topical phrases.
+- Regression coverage in `scripts/search-synonyms.test.ts` exercises all French homework phrases through the browser’s normalization and shard selection, localized/fallback target labels, canon lookup, missing targets and unknown queries. Before the fix, the French selector test fails with `expected 'en' to be 'fr'`.
+- Checks: education + synonym + canon search suites passed 3 files / 110 tests; full `npm test` passed 46 files / 635 tests, with 2 existing skips. `npm run validate` exited 0 (0 errors, 5,343 warnings). Generated French shard files were checked against the real graph: all 150 homework phrases resolve to their target labels. A full local build was stopped after more than an hour; no successful build or browser verification is claimed. The known baseline `OTHER_AFTER.fr` renderer issue remains outside this change.
+
 ## 2026-11-18 — batch 1, kids group
 
 - Added French to all 232 localized mappings in the ten `kids/*.yaml` files, including lesson objectives, timed teaching plans, worksheets, pilot checklists and retelling prompts. Existing locale values, IDs, statuses, provenance and non-language fields remain unchanged.
