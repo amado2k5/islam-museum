@@ -463,7 +463,11 @@ export function validateAll(extra: { entity: any; file: string }[] = [], options
     // ﷺ belongs to Muhammad alone, in every language: a frozen source text keeps it only where it stands beside his name or title
     if (entity.class === "passage") for (const [path, s] of textFields(entity)) for (const m of s.matchAll(/ﷺ/g)) if (!SALAWAT_BESIDE.test(s.slice(Math.max(0, m.index! - 30), m.index))) err(file, `${path}: ﷺ is written only beside Muhammad (AGENTS.md)`);
     // Arabic-script parentheticals in right-to-left text must be wrapped in U+2066 ... U+2069 (AGENTS.md)
-    for (const [path, s] of allStrings(entity)) if (ARABIC_PAREN_UNISOLATED.test(s)) err(file, `${path}: wrap Arabic-script parentheses in U+2066 ... U+2069 (AGENTS.md)`);
+    // The Qur'an passage files are frozen (docs/plan/15 §6.3, .githooks/pre-commit): nothing is inserted into them, not even
+    // the direction marks, so they are outside this rule (founder's instruction, 18 November 2026). Their parentheses are
+    // a matter for the page renderer, not for the stored text.
+    const frozenQuranPassage = entity.class === "passage" && entity.work === "work/quran";
+    if (!frozenQuranPassage) for (const [path, s] of allStrings(entity)) if (ARABIC_PAREN_UNISOLATED.test(s)) err(file, `${path}: wrap Arabic-script parentheses in U+2066 ... U+2069 (AGENTS.md)`);
 
     // dates
     for (const [path, d] of walkDates(entity)) {
