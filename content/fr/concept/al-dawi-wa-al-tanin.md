@@ -1,0 +1,19 @@
+---
+id: concept/al-dawi-wa-al-tanin
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-concept-01-packet-07
+  source: content/en/concept/al-dawi-wa-al-tanin.md
+---
+## Sa nature
+Cet état est un son qu’une personne entend continuellement sans cause extérieure ; il est à l’ouïe ce que sont à la vue les fantômes et les obscurités que l’œil perçoit sans cause extérieure. Puisque la cause du son est une ondulation survenant dans l’air et transmise au sens, cette apparition de tintements et de bourdonnements doit comporter un mouvement d’air ; cet air, n’étant pas extérieur, est l’air intérieur — la vapeur répandue dans les cavités {cite:canon-ibn-sina-print-v2 p.225}
+## Ses causes
+Cette ondulation est soit faible, à peine perceptible, soit plus forte. Si elle est faible et de celles dont les corps ne peuvent guère être exempts, mais que certains corps entendent des tintements et des bourdonnements à partir de son semblable et d’autres non, cela vient soit de l’acuité du sens chez les uns et non chez les autres — comme on l’a dit de la perception imaginaire des fantômes —, soit de sa faiblesse, qui le rend sensible à la moindre ondulation, comme les faibles sont refroidis par le moindre froid et échauffés par la moindre chaleur ; les formes de faiblesse sont les formes connues de mauvais tempérament. Si elle dépasse ce faible degré, au-delà de ce qui varie entre forts et faibles, sa cause est alors un moteur faisant onduler la vapeur au-delà du mouvement habituel : soit un vent qui se forme dans la région de la tête et s’y déplace, soit le sifflement d’un pus qui s’y forme, une ébullition de pus dans ses parties ou le mouvement de vers survenant souvent dans ses conduits {cite:canon-ibn-sina-print-v2 p.225}
+## Les causes sous-jacentes et son siège
+La cause de ces causes est soit une agitation qui fait bouillir les humeurs de tout le corps, comme dans les fièvres, soit une réplétion extrême dans le corps ou particulièrement dans la tête, comme après une forte ivresse, soit une agitation dirigée spécialement vers le cerveau, comme après des vomissements violents, une collision ou un coup ; ou bien elle ne vient pas d’une agitation du mouvement, mais d’une matière collante qui libère un peu de vent, de sorte qu’il persiste ; ou encore d’un grand vide — une agitation de l’humidité dispersée dans le corps lorsque la nature ne trouve pas de nourriture et s’emploie à la dissoudre et à la remuer ; le tintement peut aussi suivre la prise de médicaments dont l’action est de retenir les humeurs et les vents. Ce tintement peut se situer dans l’oreille elle-même ou résulter d’une participation de l’estomac et d’autres organes qui lui envoient ces vents {cite:canon-ibn-sina-print-v2 p.225} {cite:canon-ibn-sina-print-v2 p.226}
+## Ses signes
+Dans la forme continue et constante, la cause est établie dans la tête ; si elle s’apaise puis s’agite avec la réplétion, le vide ou le mouvement, et lors d’une aggravation de la chaleur ou du froid, elle résulte d’une participation. La forme du son la révèle : comme quelque chose qui bout en montant — le plus souvent par participation du corps ou de l’estomac ; ou comme quelque chose qui tourne sur soi, un bruissement d’arbres — cela indique un vent établi ; accompagné de fièvre et de douleur conduisant au frisson, il indique une accumulation de pus ; s’il se forme par une faible augmentation continue, c’est une humeur visqueuse. La forme due à l’acuité du sens se reconnaît à l’absence des causes des vents et de la réplétion, au maintien de l’ouïe et à son agitation avec le vide et la faim ; celle due à la sécheresse suit les évacuations et les fièvres ; celle due à la faiblesse se reconnaît aux excès passés et peut apparaître soudainement avec un tempérament chaud et une inflammation, l’inverse se produisant pour le froid {cite:canon-ibn-sina-print-v2 p.226}
