@@ -50,6 +50,10 @@ Order of work:
 4. Records with reading-level sections (`## For Sprouts` and its siblings): held for a separate pass, because `scripts/validate.ts` caps those sections at 80, 160 and 300 words in every language that has a registered heading and Spanish runs longer than English.
 5. Datasets (`edu/`, `kids/`, `tour/`, `cards/`) and `label.es`/`summary.es` on `data/`: **held until the French lane has added its own keys to the same lines**, so that Spanish appends after French instead of conflicting on every record.
 
+Wave 7 landed (same day, one agent at a time): 679 short records of the `object` and `building` classes (about 46,000 English words), in eight packets run in sequence. All 679 pass the packet check. `content/es/` now holds **1,412 files** (`es-queue.ts stats`: `prose: 1412/34836`), about 679,000 English words of the 11.2 million (roughly 6 %). `npm run validate`: exit 0, "validated 81027 entities, 106100 prose files: 0 errors, 5343 warnings"; extremism 0 errors. 231 eligible `object` and `building` records remain (the longer ones).
+
+Method change for short records, from packet 2 of wave 7: the agent reads one bundled file of its English sources and writes the Spanish back in a few bundled parts, which `split.py` cuts into the individual files before the same packet check runs. Packet 1, written one file per tool call, took 94 tool calls and about five minutes; the bundled packets took 8 to 12 tool calls and about three minutes each for the same 85 records. Corrected by the lead agent: three Arabic names respelled in Spanish fashion (`zanŷ`, `Burŷ`, `al-Mujtara`) were put back to the English transliteration.
+
 Wave 6 landed (same day): the last eligible `importance: 2` records, the long ones (60 files, about 100,000 English words), same method and checks, all pass. `content/es/` now holds **733 files** (`es-queue.ts stats`: `prose: 733/34836`), about 633,000 English words of the 11.2 million (roughly 6 %). `npm run validate`: exit 0, "validated 81027 entities, 105421 prose files: 0 errors, 5343 warnings"; extremism 0 errors.
 
 **Held for the founder (not landed): records on the firewall exceptions list.** `person/sayyid-qutb` and `person/yusuf-al-qaradawi` are on `docs/delegation/extremism-firewall-exceptions.md`; their English prose mentions a blocked organisation under a founder-approved exception, and `AGENTS.md` says an exception is never a precedent for new content. A Spanish translation would be a new mention in a new language, so neither file is in `content/es/`, and the wave builder now skips every record on that list (164 records). Proposal for the founder: either translate the excepted records as they stand, or translate them with the mention written neutrally, or leave them English-only under `/es/`. Until he rules, they stay untranslated. No record landed in waves 1 to 6 is on the list. A scan of `content/es/` for the Spanish spellings of the blocked names found only non-matches (the generic "Estado islámico" in three history records, the personal name Nusrat).
@@ -94,7 +98,7 @@ Terms a Spanish-speaking reader should review in the prose: `anticalifa`, `los S
 
 ## Explicit gaps
 
-- `content/es/`: 733 files of about 34,800 (waves 1 to 6 above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
+- `content/es/`: 1,412 files of about 34,800 (waves 1 to 7 above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
 - `data/*.yaml`: no `label.es` / `summary.es`.
 - Datasets (`edu/`, `kids/`, `tour/`, `cards/`): no `es` fields; the strict loaders still require only ar, en and ur.
 - Spanish Qur'an translation for passage pages: no source chosen or registered (`scripts/harvest/quran/translations.py` takes English and Urdu only). The translation and its licence are pending the founder's confirmation.
