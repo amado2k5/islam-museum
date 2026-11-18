@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/miraj-nameh.md
 ---
 ## Vue d’ensemble
-Un manuscrit du XVe siècle du Miraj-nama, avec un texte turc en vieil ouïghour et des miniatures timourides du voyage nocturne ; l’un des manuscrits islamiques les plus connus à Paris. {cite:wikidata}
+Un manuscrit du XVe siècle du Miraj-nama, avec un texte turcique en écriture ouïghoure et des miniatures timourides du voyage de l’ascension ; l’un des manuscrits islamiques les plus connus à Paris. {cite:wikidata}

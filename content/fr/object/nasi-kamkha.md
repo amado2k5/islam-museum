@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/nasi-kamkha.md
 ---
 ## Vue d’ensemble
-Un lé complet de tissu kamkha de soie et de métal à branches ondulantes, Turquie ; vers 1565–1580, époque ottomane. Conservé au Metropolitan Museum of Art. {cite:met-open-access}
+Un fragment de lé de tissu kamkha de soie et de métal à branches ondulantes, Turquie ; vers 1565–1580, époque ottomane. Conservé au Metropolitan Museum of Art. {cite:met-open-access}

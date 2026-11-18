@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/manafi-nisr.md
 ---
 ## Vue d’ensemble
-Une page du Manafi’ al-Hayawan : les usages des parties de l’aigle ; fin du XIIIe siècle, Maragha ilkhanide. Au Cleveland Museum of Art. {cite:cleveland-open-access}
+Une page du Manafi’ al-Hayawan : les usages des parties des vautours ; fin du XIIIe siècle, Maragha ilkhanide. Au Cleveland Museum of Art. {cite:cleveland-open-access}
