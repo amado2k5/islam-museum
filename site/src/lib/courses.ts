@@ -153,7 +153,7 @@ export function lessonView(course: Course, lesson: Node, lang: Lang): LessonView
   const strand = course.strands.find((s) => s.lessons.includes(lesson))!;
   const index = course.lessons.indexOf(lesson);
   const proseLang = lesson.prose?.[lang] ? lang : lesson.prose?.ar ? "ar" : "en";
-  const hon = newHonState();
+  const hon = newHonState(lesson);
   const cites: LessonView["cites"] = [];
   const render = (md: string) => {
     const r = renderProse(md, lang, hon);

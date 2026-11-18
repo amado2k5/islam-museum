@@ -19,7 +19,7 @@ const n = item.node;
 const T = ui(lang);
 const A = (T as any).angels;
 const title = labelOf(n, lang);
-const ledeR = renderProse(summaryRaw(n, lang), lang, newHonState());
+const ledeR = renderProse(summaryRaw(n, lang), lang, newHonState(n));
 // citation numbers are per-render; re-number globally and collect them for the footnote list
 const citeList: { source: string; locator?: string }[] = [];
 const citeIndex = (c: { source: string; locator?: string }) => {
