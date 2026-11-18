@@ -2,6 +2,7 @@
 import { Marked } from "marked";
 import { byId, href, labelOf, realNodes, NEEDS_SOURCE } from "./graph";
 import type { Lang } from "./i18n";
+import { parsePerspectiveLine } from "./perspectives";
 
 export interface Cite { n: number; source: string; locator?: string }
 export interface Rendered { html: string; cites: Cite[]; perspectives: { tradition: string; html: string }[] }
@@ -212,8 +213,8 @@ export function renderProse(md: string, lang: Lang, hon?: HonState): Rendered {
   const perspectives: Rendered["perspectives"] = [];
   md = md.replace(/^:::perspectives\n([\s\S]*?)\n:::\s*$/gm, (_m, body: string) => {
     for (const line of body.split("\n")) {
-      const m = line.match(/^- \*\*(.+?)\*\*:\s*(.+)$/);
-      if (m) perspectives.push({ tradition: m[1].replace(NEEDS_SOURCE, "").trim(), html: transform(markedSafe.parseInline(m[2], { async: false }) as string) });
+      const entry = parsePerspectiveLine(line);
+      if (entry?.body) perspectives.push({ tradition: entry.label.replace(NEEDS_SOURCE, "").trim(), html: transform(markedSafe.parseInline(entry.body, { async: false }) as string) });
     }
     return "";
   });

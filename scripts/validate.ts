@@ -11,13 +11,17 @@ import edtf from "edtf";
 import { CLASSES, LANGS, PUBLISHED_LANGS, loadEntities, loadPredicates, loadProse, loadProseFor, loadStubs, p, readYaml, rel, resolvePredicate, type Prose } from "./lib.js";
 import { hijriToCivil, toJDN } from "./hijri/convert.js";
 import { inWindow } from "./modern/sections.js";
+import { parsePerspectiveLine } from "../site/src/lib/perspectives.js";
 
 export interface Issue { level: "error" | "warn"; file: string; msg: string }
 
 export function prosePerspectiveIssues(body: string): Omit<Issue, "file">[] {
   const issues: Omit<Issue, "file">[] = [];
   for (const blk of body.matchAll(/^:::perspectives\n([\s\S]*?)\n:::/gm)) {
-    const labels = [...blk[1].matchAll(/^- \*\*(.+?)\*\*:/gm)].map((m) => m[1].toLowerCase());
+    const labels = blk[1].split("\n").flatMap((line) => {
+      const entry = parsePerspectiveLine(line);
+      return entry ? [entry.label.toLowerCase()] : [];
+    });
     const frenchSunni = labels.length > 0 && /\bsunnites?\b/u.test(labels[0]) && !/\bnon[\s\-‐‑]+sunnites?\b/u.test(labels[0]);
     if (labels.length && !(labels[0].startsWith("sunni") || labels[0].includes("أهل السنة") || labels[0].startsWith("سني") || frenchSunni)) {
       issues.push({ level: "error", msg: "the perspectives block must start with the Sunni entry (docs/scope.md)" });

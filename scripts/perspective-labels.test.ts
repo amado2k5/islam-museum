@@ -4,6 +4,13 @@ import { prosePerspectiveIssues } from "./validate";
 const block = (...labels: string[]) => `:::perspectives\n${labels.map((label) => `- **${label}**: Text.`).join("\n")}\n:::`;
 
 describe("prose perspective labels", () => {
+  it.each(["", " ", "\u00a0", "\u202f"])("accepts whitespace %j before the colon without dropping non-Sunni labels", (space) => {
+    const prose = (label: string) => `:::perspectives\n- **${label}**${space}: Text.\n:::`;
+    for (const label of ["Sunnites", "Point de vue sunnite", "Sunni", "أهل السنة"]) {
+      expect(prosePerspectiveIssues(prose(label))).toEqual([]);
+    }
+    expect(prosePerspectiveIssues(prose("Point de vue chiite"))).toEqual([expect.objectContaining({ level: "error" })]);
+  });
   it.each(["Point de vue sunnite", "Perspective sunnite", "Sunnite", "sunni", "Sunni Hanafi", "أهل السنة", "سني"])("accepts the Sunni lead label %s", (label) => {
     expect(prosePerspectiveIssues(block(label, "Point de vue académique", "Point de vue chiite"))).toEqual([]);
   });
