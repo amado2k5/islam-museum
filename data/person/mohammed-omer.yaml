@@ -1,0 +1,47 @@
+id: person/mohammed-omer
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: محمد عمر
+  en: Mohammed Omer
+  ur: محمد عمر
+names:
+- value: محمد عمر
+  kind: full
+- value: Mohammed Omer
+  kind: full
+gender: male
+summary:
+  ar: محمد عمر ⁦(1984–)⁩ صحفي فلسطيني من رفح بغزة، حائز جائزة مارثا غيلهورن للصحافة سنة 2008، ومؤلف كتاب «Shell Shocked» عن الحرب على غزة.
+  en: 'Mohammed Omer (born 1984) is a Palestinian journalist from Rafah, Gaza, who won the 2008 Martha Gellhorn Prize for Journalism and authored Shell Shocked: On the Ground Under Israel''s Gaza Assault.'
+  ur: محمد عمر ⁦(1984–)⁩ غزہ کے رفح سے فلسطینی صحافی ہیں جنھیں 2008 کا مارتا گیلہورن صحافت انعام ملا اور «Shell Shocked» کی تصنیف کی، جو غزہ کی جنگ کے میدانی مشاہدے پر ہے۔
+roles:
+- journalist
+- writer
+wings:
+- people
+- living
+born:
+  edtf: '1984'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-mohammed-omer
+  - source/muslim500-mohammed-omer
+faith:
+- value: unknown
+  basis: unknown
+  note: Sources consulted document Omer as a Palestinian journalist from Rafah; none names a personal religious affiliation or school for him, so the value is recorded unknown.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Founder-compiled Muslim 500 ⁦(2026 edition)⁩ extract + Wikipedia, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-supp3-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

@@ -1,0 +1,49 @@
+id: person/mohamed-bazoum
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: محمد بازوم
+  en: Mohamed Bazoum
+  ur: محمد بازوم
+names:
+- value: محمد بازوم
+  kind: full
+- value: Mohamed Bazoum
+  kind: full
+gender: male
+summary:
+  ar: محمد بازوم ⁦(1960–)⁩ رئيس النيجر المنتخب سنة 2021 في أول تداول ديمقراطي سلمي للسلطة في البلاد؛ أُطيح به في انقلاب عسكري في يوليو 2023 ووُضع قيد الإقامة الجبرية.
+  en: Mohamed Bazoum (born 1960) is the Nigerien politician elected president of Niger in 2021 in the country's first peaceful democratic transfer of power; he was deposed in the military coup of July 2023
+    and held under house arrest.
+  ur: محمد بازوم ⁦(1960–)⁩ نائجر کے سیاست دان ہیں جو 2021 میں ملک کی پہلی پرامن جمہوری منتقلیِ اقتدار میں صدر منتخب ہوئے؛ جولائی 2023 کی فوجی بغاوت میں معزول کر کے نظر بند رکھے گئے۔
+roles:
+- politician
+- president
+wings:
+- people
+- living
+born:
+  edtf: '1960'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-mohamed-bazoum
+  - source/muslim500-mohamed-bazoum
+faith:
+- value: unknown
+  basis: unknown
+  note: Sources consulted describe Bazoum as a Muslim president of a Muslim-majority country without naming a personal school or affiliation for him; office and majority context are never attestation, so
+    the value is recorded unknown.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Founder-compiled Muslim 500 ⁦(2026 edition)⁩ extract + Wikipedia, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-supp3-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

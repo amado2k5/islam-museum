@@ -1,0 +1,49 @@
+id: person/mohammed-magid
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: محمد ماجد
+  en: Mohammed Magid
+  ur: محمد ماجد
+names:
+- value: محمد ماجد
+  kind: full
+- value: Mohammed Magid
+  kind: full
+gender: male
+summary:
+  ar: محمد ماجد ⁦(1965–)⁩ إمام سوداني أمريكي، مدير مركز ADAMS في فرجينيا ورئيس سابق للجمعية الإسلامية لأمريكا الشمالية ⁦(ISNA)⁩، معروف ببناء الجسور بين الأديان وبمكافحة التطرف.
+  en: Mohammed Magid (born 1965) is a Sudanese-American imam, executive director and imam of the ADAMS Centre in Virginia and a past president of the Islamic Society of North America (ISNA), known for interfaith
+    bridge-building and counter-extremism work.
+  ur: محمد ماجد ⁦(1965–)⁩ سوڈانی نژاد امریکی امام ہیں، ورجینیا کے ADAMS سینٹر کے ایگزیکٹو ڈائریکٹر و امام اور ISNA کے سابق صدر؛ بین المذاہب پُل اور انتہا پسندی کے خلاف کام کے لیے مشہور ہیں۔
+roles:
+- imam
+- preacher
+- leader
+wings:
+- people
+- living
+born:
+  edtf: '1965'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-mohammed-magid
+  - source/muslim500-mohammed-magid
+faith:
+- value: sunni
+  basis: documented
+  note: Imam of the ADAMS Centre, a mainstream Sunni mosque community in Virginia, and past president of the Islamic Society of North America; the offices attest the affiliation.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Founder-compiled Muslim 500 ⁦(2026 edition)⁩ extract + Wikipedia, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-supp3-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

@@ -1,0 +1,54 @@
+id: person/sinead-oconnor
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: شينيد أوكونور
+  en: Sinead O'Connor
+  ur: شینایڈ اوکونر
+names:
+- value: شينيد أوكونور
+  kind: full
+- value: Sinead O'Connor
+  kind: full
+gender: female
+summary:
+  ar: شينيد أوكونور ⁦(1966–2023)⁩ مغنية وموسيقية أيرلندية حائزة جائزة غرامي، اشتهرت بأغنية Nothing Compares 2 U؛ اعتنقت الإسلام سنة 2018 متخذةً اسم شهادة صداقة؛ توفيت في 26 يوليو 2023.
+  en: Sinéad O'Connor ⁦(1966–2023)⁩ was an Irish singer and musician, a Grammy-winning artist famous for Nothing Compares 2 U, who converted to Islam in 2018 taking the name Shuhada' Sadaqat; she died on
+    26 July 2023.
+  ur: شینایڈ اوکونر ⁦(1966–2023)⁩ آئرش گلوکارہ اور موسیقار تھیں، گرامی یافتہ فنکارہ جو Nothing Compares 2 U سے مشہور ہوئیں، 2018 میں اسلام قبول کر کے شہادت صداقت نام رکھا؛ 26 جولائی 2023 کو وفات پائی۔
+roles:
+- musician
+- singer
+- activist
+wings:
+- people
+born:
+  edtf: '1966'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-sinead-oconnor
+  - source/muslim500-sinead-oconnor
+died:
+  edtf: '2023'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: *id001
+faith:
+- value: unknown
+  basis: unknown
+  note: O'Connor's conversion to Islam in 2018 — taking the name Shuhada' Sadaqat — is documented, but no source consulted names a school for her, so the value is recorded unknown.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Founder-compiled Muslim 500 ⁦(2026 edition)⁩ extract + Wikipedia, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-supp3-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)
