@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/mira-sfinks.md
 ---
 ## Vue d’ensemble
-Un miroir en bronze avec deux sphinx adossés ; XIIIe siècle, Anatolie orientale ou nord artuqide de la Djézireh. Au Cleveland Museum of Art. {cite:cleveland-open-access}
+Un miroir en bronze avec deux lions ailés affrontés ; XIIIe siècle, Anatolie orientale ou nord artuqide de la Djézireh. Au Cleveland Museum of Art. {cite:cleveland-open-access}
