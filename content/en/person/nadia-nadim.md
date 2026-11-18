@@ -24,22 +24,22 @@ She is celebrated as a rare figure combining elite sport and medicine, and as a 
 She qualified as a reconstructive surgeon while playing professionally — studying through club seasons and international duty — a dual trajectory that Danish and international press regularly highlight as exceptional. {cite:wikipedia-nadia-nadim}
 
 ## Refugee story
-Her account of fleeing Taliban-era Afghanistan — her father killed, the family's escape to Denmark — and becoming a national-team player is cited in refugee-representation discussions across media and sport. {cite:wikipedia-nadia-nadim}
+Her account of fleeing war-torn Afghanistan — her father killed by militants, the family's escape to Denmark — and becoming a national-team player is cited in refugee-representation discussions across media and sport. {cite:wikipedia-nadia-nadim}
 
 ## Broadcasting
 Post-playing she works as a pundit — including coverage of major international tournaments for British broadcasters — extending her public profile beyond football. {cite:wikipedia-nadia-nadim} {cite:muslim500-nadia-nadim}
 
 ## Origins
-Born in Herat in 1988, she fled Afghanistan with her family after her father was killed under the Taliban — a refugee journey to Denmark that press coverage describes as the foundation of her remarkable dual career. {cite:wikipedia-nadia-nadim}
+Born in Herat in 1988, she fled Afghanistan with her family after her father was killed by militants — a refugee journey to Denmark that press coverage describes as the foundation of her remarkable dual career. {cite:wikipedia-nadia-nadim}
 
 ## The dual career
 Her simultaneous pursuit of professional football and medical qualification — playing for major clubs and Denmark's national team while qualifying as a reconstructive surgeon — made her a global case study in combining elite sport and professional education. {cite:wikipedia-nadia-nadim}
 
 ## The refugee story
-Her public account of fleeing Taliban-era Afghanistan — and her use of her platform to advocate for refugee education and women's rights — made her among the most-recognised refugee athletes in international media. {cite:wikipedia-nadia-nadim} {cite:muslim500-nadia-nadim}
+Her public account of fleeing Afghanistan under militant rule — and her use of her platform to advocate for refugee education and women's rights — made her among the most-recognised refugee athletes in international media. {cite:wikipedia-nadia-nadim} {cite:muslim500-nadia-nadim}
 
 ## The dual-career model
-Nadia Nadim's simultaneous pursuit of professional football and medical qualification — playing for major clubs and Denmark's national team while qualifying as a reconstructive surgeon — made her a global case study in combining elite sport and professional education. Her public account of fleeing Taliban-era Afghanistan — and her use of her platform to advocate for refugee education and women's rights — made her among the most-recognised refugee athletes in international media, while her post-playing work as a pundit extends her public profile beyond football. {cite:wikipedia-nadia-nadim}
+Nadia Nadim's simultaneous pursuit of professional football and medical qualification — playing for major clubs and Denmark's national team while qualifying as a reconstructive surgeon — made her a global case study in combining elite sport and professional education. Her public account of fleeing Afghanistan under militant rule — and her use of her platform to advocate for refugee education and women's rights — made her among the most-recognised refugee athletes in international media, while her post-playing work as a pundit extends her public profile beyond football. {cite:wikipedia-nadia-nadim}
 
 ## The Muslim 500 listing
 The Muslim 500 lists her among the most influential Muslims in sports, citing her dual career in football and medicine and her role as a visible advocate for refugee and women's causes. {cite:muslim500-nadia-nadim}
