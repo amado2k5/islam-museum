@@ -1215,3 +1215,450 @@ entrances:
   themes:
     title: Thèmes
     blurb: Femmes, guerre, médecine, cuisine, charité et 120 autres, à travers toutes les ailes.
+themes:
+  title: Thèmes
+  lede: Des sujets qui traversent toutes les ailes, des femmes et des minorités à la guerre, la charité, la cuisine et les sciences.
+  family: Famille
+  entries: Entrées sur ce thème
+  guide: Guide
+  no_guide: Ce thème n''a pas encore de guide rédigé.
+  empty: Aucune entrée n''est encore étiquetée avec ce thème. La cellule est montrée vide à dessein.
+  missing: Que manque-t-il ? Dites-le-nous
+  minimum: Un thème est ouvert quand il a un guide relu, 10 questions, 25 entrées dans 5 classes, et des voix de plusieurs traditions et régions.
+  open_count: entrées
+  tensions: Tensions sur ce thème
+  controversial: Sujets controversés
+  on_this_theme: Étiqueté avec
+screen:
+  title: Salle de projection
+  lede: 'Un index de films, séries et programmes sur l''islam. Répertorié, pas approuvé : pas de notes, pas de critiques, pas d''extraits.'
+  empty: Aucun titre n''est encore indexé.
+  about: À propos
+  set_in: Situé en
+  format: Format
+  relevance: Pertinence
+  released: Sorti
+  countries: Pays
+  languages: Langues
+  original: original
+  dubbed: doublé
+  approach: Approche
+  depiction: Représentation des figures sacrées
+  prophet: Le Prophète
+  companions: Compagnons
+  imams: Imams
+  titles: Titres dans d''autres langues
+  reception: Réception
+  watch: Où regarder officiellement
+  no_watch: Aucun lien officiel enregistré.
+  check: Vérifier face à la notice
+  on_screen: À l''écran
+  not_endorsed: Répertorié, pas approuvé.
+  all: Tout
+  filter: Filtrer
+  format_values:
+    film: Film
+    short: Court métrage
+    tv_film: Téléfilm
+    series: Série
+    miniseries: Minisérie
+    episode: Épisode
+    documentary: Documentaire
+    documentary_series: Série documentaire
+    animation: Dessin animé
+    children: Jeunesse
+    programme: Programme
+    web_series: Websérie
+    recorded_performance: Spectacle enregistré
+  relevance_values:
+    primary: Sur l''islam
+    substantial: L''histoire ou la vie musulmane porte le récit
+    setting: La société musulmane comme toile de fond
+  depiction_values:
+    not-shown: Non montré
+    voice: Voix seulement
+    point-of-view: Point de vue
+    figure-without-face: Figure sans visage
+    face: Visage montré
+    not-applicable: Sans objet
+    none: Aucune
+    some-shown: Certains montrés
+    shown: Montré
+    light: Montré en lumière
+  reception_values:
+    approval: Approbation
+    objection: Objection
+    fatwa: Fatwa
+    ban: Interdiction
+    cut: Coupure
+    award: Prix
+    protest: Manifestation
+    release: Sortie
+    withdrawal: Retrait
+    other: Autre
+  approach_values:
+    devotional: dévotionnel
+    historical-drama: drame historique
+    documentary: documentaire
+    journalism: journalisme
+    educational: éducatif
+    children: pour enfants
+    drama-of-muslim-life: drame de la vie musulmane
+    comedy: comédie
+    travel: voyage
+    recitation-or-lecture: récitation ou conférence
+    critical: critique
+    polemical: polémique
+  viz:
+    title: "La bobine des décennies"
+    note: "Une vignette pour chacun des {n} titres avec une année de sortie enregistrée, placée dans la décennie de sa sortie, de {a} à {b}. La forme et la tonalité d''une vignette donnent le genre de titre. Les {u} titres sans année enregistrée sont comptés dans le dernier cadre, non placés. Dans les décennies les plus denses, les vignettes ne sont que des marques : appuyez sur la décennie pour lister ses titres."
+    legend_title: "Genres de titre"
+    families:
+      film: "Films"
+      series: "Séries et programmes"
+      documentary: "Documentaires"
+      animation: "Animation et jeunesse"
+    decade: "années {d}"
+    undated: "Non daté"
+    undated_note: "Aucune année de sortie n''est enregistrée pour ces titres ; ils sont dans la liste ci-dessous."
+    scroll_hint: "Balayez latéralement le long des décennies."
+    scroll_label: "Bande de titres par décennie de sortie, déroulable latéralement"
+    group_label: "Titres par décennie de sortie"
+    hint: "Survolez, focalisez ou touchez une vignette pour la lire ici."
+    open: "Ouvrir le titre"
+    close: "Fermer"
+    panel_title: "Titres des"
+story:
+  title: Place dans le récit
+  others: Comment les autres les ont nommés
+  toward: envers
+  from: de
+  stance_note: Les rôles sont datés et sourcés ; le musée décrit l''acte et attribue le jugement.
+tension:
+  title: Une question difficile
+  statement: La tension
+  raised: Soulevée par
+  responses: Réponses, dans les mots de ceux qui les donnent
+  passages: Passages
+  no_verdict: Le musée ne tranche pas cette tension.
+  kinds:
+    textual: Textuelle
+    between-schools: Entre écoles
+    ideal-and-history: Idéal et histoire
+    tradition-and-modernity: Tradition et modernité
+conflict:
+  sides: Camps
+  commanders: Commandants
+  strength: Effectifs
+  casualties: Pertes
+  one_sided: Cette entrée n''a pas encore enregistré l''autre camp.
+passage:
+  attribution: 'Texte : Tanzil Project,'
+  verbatim: verbatim et inchangé
+  prev: verset précédent
+  next: verset suivant
+  excerpt: Un extrait verbatim du texte, quarante mots au plus ; le texte intégral est dans l''édition citée sous les sources
+figure:
+  title: Images
+  licence: Licence
+  details: Notice du média
+  open: Ouvrir l''image entière
+  deepzoom: Zoom profond (IIIF)
+  deepzoom_nojs: Le zoom profond nécessite JavaScript ; ouvrez le manifeste IIIF ou l''image entière.
+licenses:
+  title: Licences
+  lede: Chaque couche du musée et la licence qu''elle porte.
+  layers: Le travail propre au musée
+  col_layer: Couche
+  col_license: Licence
+  col_note: Note
+  col_records: Notices
+  layer_code: Code du site
+  layer_code_note: Libre sous MIT ; voir LICENSE dans le dépôt.
+  layer_data: Notices du graphe de connaissances
+  layer_data_note: Dédiées au domaine public sous CC0.
+  layer_prose: Pages, essais et descriptions
+  layer_prose_note: Partage dans les mêmes conditions sous CC BY-SA 4.0 ; attribuez islam.museum et liez en retour.
+  quran_title: Le texte coranique
+  quran_body: Le texte coranique est la transmission Tanzil v1.1, gardée verbatim et jamais modifiée ; l''attribution à <a href="{url}">Tanzil</a> est requise et donnée
+    partout où il apparaît.
+  media_title: Médias et images
+  media_body: Chaque notice de média porte l''une de ces licences approuvées ; toute autre est refusée. Le musée lie plutôt qu''il ne copie partout où il peut.
+  records: '{n} notices'
+  ext_title: Catalogues de musées et IIIF
+  ext_body: Les pages d''objets lient aux catalogues des institutions détentrices ; {n} objets portent aussi des liens de manifeste IIIF. Ces images et manifestes
+    restent la propriété de l''institution.
+  versions_title: Registre par version
+  versions_body: 'Le musée publie depuis git : chaque version est un commit et chaque notice porte sa propre provenance. L''état des licences à chaque instant est
+    le <a href="{url}">journal des commits</a>.'
+  layer_vendor: Bibliothèques intégrées
+  layer_vendor_note: OpenSeadragon 5.0.1 pour le zoom profond IIIF, sous BSD-3-Clause.
+  data_title: Accéder aux données
+  data_body: Les données sont dédiées au domaine public (CC0), chacun peut donc les réutiliser. Le guide des données ouvertes est <a href="{doc}">ici</a>.
+ids:
+  iiif: Manifeste IIIF
+  wikidata: Wikidata
+  viaf: VIAF
+  openiti: OpenITI
+  pleiades: Pleiades
+  geonames: GeoNames
+  archnet: ArchNet
+  unesco: UNESCO
+  getty-tgn: Getty TGN
+learn:
+  title: Visite / Apprendre
+  badge: En préparation
+  lede: Le musée est grand et vous ne savez peut-être pas par où commencer. Visite / Apprendre propose des parcours courts et ordonnés, chacun avec un but clair, qui
+    vous mènent étape par étape à travers les pages du musée, ou vous montrent toute la route d''un coup.
+  status: Cette section grandit. Environ trois cents parcours sont rédigés sur les pages actuelles du musée ; le sélecteur et la marche étape par étape sont en
+    service, et la révision du catalogue continue. Le reste du musée reste tel quel.
+  available_title: Parcours que vous pouvez suivre maintenant
+  available_note: Suivez chaque parcours étape par étape, ou voyez toute la route d''un coup. Votre progression reste dans votre navigateur.
+  minutes: min
+  steps: étapes
+  kind_tour: Visite
+  kind_lesson: Leçon
+  kind_trail: Parcours
+  offer_title: Ce que vous trouverez ici
+  offer:
+  - 'Choisissez ce que vous voulez comprendre : une phase de l''histoire, un groupe de personnalités, un groupe d''événements, une idée, un lieu, un texte ou une question difficile.'
+  - Suivez-le étape par étape, ou voyez toute la route d''un coup en liste, en chronologie et en carte.
+  - 'Chaque parcours énonce son but : ce que vous saurez, et saurez situer, à la fin.'
+  - 'Un temps honnête pour chacun : dix minutes, une demi-heure, deux heures ou une semaine de soirées.'
+  - 'Votre progression est gardée dans votre navigateur seul, sans compte et sans IA qui vous répond : les parcours sont écrits et relus.'
+  - Chaque étape est une page citée du musée, avec des pas de côté pour approfondir ou entendre l''autre point de vue, qui ne bloquent jamais le chemin.
+  kinds_title: Trois cents parcours en préparation
+  kinds_note: Pendant la planification, l''IA propose la liste des parcours, puis des personnes la relisent et l''ordonnent. Rien de tout cela ne tourne pendant votre visite.
+  kinds:
+  - k: Époques et phases
+    n: 40
+  - k: Personnalités et groupes
+    n: 55
+  - k: Événements regroupés
+    n: 40
+  - k: Idées, croyances et pratiques
+    n: 45
+  - k: Lieux et villes
+    n: 30
+  - k: Textes et sciences
+    n: 30
+  - k: Art, architecture et objets
+    n: 20
+  - k: Culture vivante d''aujourd''hui
+    n: 15
+  - k: Questions difficiles avec leurs voix
+    n: 15
+  - k: Parcours de départ par visiteur et temps
+    n: 10
+  meanwhile: En attendant
+  start: Commencer par la Hijra
+  questions: Questions pour les nouveaux venus
+  themes: Thèmes
+  suggest: Dites-nous ce que vous voulez apprendre
+  plan: Le document de conception
+  chooser_title: Que voulez-vous comprendre ?
+  filter_kind: Par but
+  filter_region: Par région
+  filter_audience: Pour
+  filter_reset: Tout afficher
+pathway:
+  title: Suivez ce parcours
+  steps: étapes
+  minutes: min
+  walk: Suivre étape par étape
+  see_all: Tout voir
+  resume: Reprendre
+  prev: Retour
+  next: Suivant
+  skip: Sauter ce pas de côté
+  optional: approfondir
+  recap: Ce que vous savez maintenant
+  before: 'D''abord :'
+  after: 'Ensuite :'
+  aud_newcomer: nouveau venu
+  aud_student: étudiant
+  aud_teacher: enseignant
+  aud_family: famille
+  aud_researcher: chercheur
+  level_intro: intro
+  level_standard: standard
+  level_deep: approfondi
+  depth_brief: bref
+  depth_standard: standard
+  depth_deep: approfondi
+  print: Imprimer en polycopié
+  pk_era: une époque
+  pk_personalities: des personnalités
+  pk_events: des événements
+  pk_ideas: des idées et pratiques
+  pk_places: des lieux
+  pk_texts: des textes et sciences
+  pk_art: de l''art et des objets
+  pk_culture: de la culture vivante
+  pk_hard_question: des questions difficiles
+  pk_starter: commencer ici
+calendar:
+  months_index: "Mois et années"
+  months_of: "Les mois de {year} H"
+  static_note: "Chaque mois de {from}–{to} H a sa propre page. Les autres années s''ouvrent dans le calendrier ci-dessus."
+  open_calendar: "Calendrier et convertisseur"
+  title: Calendrier hégirien
+  lede: L''année islamique comme un mois que l''on parcourt — les jours hégiriens avec leurs jumeaux grégoriens, les observances de l''année liées à leurs pages du
+    musée, et un convertisseur dans les deux sens. Les dates avant 1318 H ou après 1500 H suivent le calendrier tabulaire et peuvent différer d''un jour ou deux
+    d''autres comptes.
+  today: Aujourd''hui
+  is_today: Nous sommes le
+  prev_month: Mois précédent
+  next_month: Mois suivant
+  jump: Aller
+  observances: Observances de ce mois
+  obs_none: Aucune observance ce mois-ci.
+  convert: Convertir une date
+  convert_to_hijri: Grégorien → Hégirien
+  convert_result: est
+  approx: calendrier tabulaire (approximatif)
+  umalqura: Umm al-Qura
+  download_ics: Télécharger les observances de cette année (.ics)
+  weekday_names:
+  - di
+  - lu
+  - ma
+  - me
+  - je
+  - ve
+  - sa
+  months:
+  - Mouharram
+  - Safar
+  - Rabi' al-Awwal
+  - Rabi' al-Thani
+  - Joumada al-Ula
+  - Joumada al-Akhirah
+  - Rajab
+  - Cha'bane
+  - Ramadan
+  - Chawwal
+  - Dhou al-Qa'da
+  - Dhou al-Hijja
+  obs:
+    new_year: Nouvel An hégirien
+    ashura: Achoura
+    mawlid: Mawlid
+    isra: Isra et Mi'raj
+    mid_shaban: Mi-Cha'bane
+    ramadan: Ramadan
+    qadr: Nuits de Laylat al-Qadr
+    eid_fitr: Aïd al-Fitr
+    hajj: Jours du hajj
+    arafah: Jour d''Arafat
+    eid_adha: Aïd al-Adha
+mytour:
+  title: Ma visite
+  lede: Les entrées que vous avez gardées en chemin dans le musée. La liste vit dans ce navigateur seulement — pas de compte, rien n''est envoyé nulle part.
+    Partagez-la en lien ou imprimez-la.
+  save: Garder dans ma visite
+  saved: Dans ma visite
+  remove: Retirer
+  clear: Tout effacer
+  share: Copier le lien de partage
+  copied: Copié
+  print: Imprimer
+  add_all: Tout ajouter à ma visite
+  items: entrées
+  empty: Rien de gardé encore. Ouvrez une entrée et choisissez « Garder dans ma visite ».
+foundation:
+  'title': 'À propos de la fondation Islam Museum'
+  'lede': 'Un musée de l''islam libre, ouvert et entièrement numérique : la foi, la civilisation, les peuples, les lieux, les idées, les objets, les textes et la
+    culture vivante, du monde où l''islam est né jusqu''à aujourd''hui.'
+  'logo_title': 'Le logo'
+  'logo_intro': 'Le symbole rassemble trois éléments de l''architecture islamique et du livre en une seule forme.'
+  'logo_star': 'L''étoile à huit branches, issue de la géométrie islamique : le temps et l''espace ensemble, ni l''un ni l''autre compris sans l''autre.'
+  'logo_arch': 'Le mihrab : la porte par laquelle le visiteur entre, et le tournant vers la qibla.'
+  'logo_book': 'Le livre ouvert : le savoir et les mots, et la lecture avant le jugement.'
+  'logo_download': 'Symbole (PNG)'
+  'emblem_alt': 'L''emblème du musée : une étoile à huit branches dorée autour d''un disque de lapis avec une arche de mihrab cuivrée sur un livre ouvert'
+  'emblem_download': 'Emblème complet (image)'
+  'logo_dark_download': 'Symbole pour fonds sombres'
+  'logo_lockup_download': 'Télécharger le symbole avec le nom'
+  'story_title': 'L''histoire'
+  'story_1': 'Le projet est né d''une question simple : pourquoi n''existe-t-il pas un seul endroit en ligne qui rassemble toute l''histoire de l''islam, où un
+    étranger puisse entrer et apprendre, et un chercheur vérifier une affirmation et remonter à la source ? Ce que l''on sait de l''islam est dispersé entre sites
+    d''écritures, archives de musées, articles d''encyclopédie, études académiques et couverture de presse, et une grande partie est écrite pour défendre ou
+    attaquer plutôt que pour comprendre.'
+  'story_2': 'Le projet a choisi d''être construit comme un musée, non comme un long article : neuf ailes (Temps, Lieux, Personnes, Idées, Objets, Paroles, Islam
+    vivant, Aujourd''hui et Réalisations) regardent le même sujet sous des angles différents, et chaque personne, lieu, événement, idée ou objet est un nœud d''un
+    graphe qui le relie à ce qui l''entoure dans le temps et dans l''espace.'
+  'story_3': 'Le matériau est conservé en fichiers simples et lisibles, chaque fait lié à une source et chaque date écrite dans sa forme précise avec ses
+    calendriers hégirien et grégorien. Le site lui-même est un ensemble de pages statiques : pas de serveur, pas de base de données, pas de service payant, et
+    aucun modèle d''IA qui tourne à l''arrivée d''un visiteur.'
+  'story_4': 'Quand le musée a choisi son identité visuelle, ses couleurs sont venues de l''architecture islamique et de la fabrication des manuscrits : le bleu
+    lapis profond, l''or discret des pages de manuscrit, l''albâtre chaud et le sable des carreaux. Aucun ornement n''a été copié d''une œuvre existante ; les
+    motifs croissent de la géométrie de l''étoile, du carré et du cercle.'
+  'story_5': 'Puis vint le travail partagé : contributeurs et sessions de travail parallèles ajoutent de petits lots de matériau, et la relecture transforme les
+    brouillons en entrées relues avant qu''elles ne soient marquées ainsi. Le musée est encore en construction, et il le dit sur chaque page ; la page de
+    couverture compte ce qui est complet et ce qui attend encore.'
+  'founder_title': 'Le fondateur'
+  'founder_line': 'Fondé par {name}, Canadien d''origine égyptienne, résidant à Oakville, Ontario.'
+  'founder_name': 'Ahmed Abdel Aal'
+  'founder_body': 'Une personne a fondé le projet et écrit son premier plan dans le dépôt lui-même, puis a ouvert la porte à quiconque voulait ajouter ou
+    corriger. Le plan est construit pour que le musée survive même si son fondateur s''arrête : son texte est dans git, ses données sont ouvertes, et chacun peut
+    copier le musée entier sur son propre ordinateur. Cette page décrit le projet et son but, pas la vie de la personne derrière.'
+  'independence_title': 'Indépendance'
+  'independence_1': 'islam.museum est le projet personnel de son fondateur, qui le dirige seul. Sa gestion, sa propriété et ses décisions ne sont jamais
+    partagées, et il n''est pas à vendre : aucun financement, partenariat ou soutien de quelque sorte ne donne à quiconque un contrôle sur lui.'
+  'independence_2': 'Le musée ne sera jamais fusionné à un autre projet, et il ne se place sous aucune ombrelle ni aucune tutelle — ni gouvernement, ni
+    institution religieuse, ni société, ni fondation. Tout le monde est bienvenu pour aider : retours et corrections, bénévolat, financement et collecte de
+    fonds, matériaux, tests, code, écrits sur le musée et diffusion du message. L''aide est remerciée et créditée, et elle n''apporte aucune autorité avec elle :
+    le musée reste indépendant, des gens pour les gens.'
+  'terms_title': 'Libre d''usage — et à quelles conditions'
+  'terms_1': 'Tout ici est libre d''usage, sans demander : toutes les données, ressources et services du musée, présents et futurs, de toute manière et sans
+    limite, et sans aucun contrôle de notre part. Vous pouvez cloner, fourcher ou copier tout le code et lancer un projet similaire, modifié ou entièrement
+    nouveau — le fondateur ne portera aucune réclamation de droit d''auteur ni tentative légale contre de telles entreprises. Les données sont CC0, les textes
+    CC BY-SA 4.0 et le code MIT.'
+  'terms_2': 'Le musée peut changer n''importe quoi à tout moment — le site, son contenu, son code, son hébergement, ses performances, son architecture et son
+    déploiement — sans consentement préalable, sans approbation et sans préavis à quiconque. Il n''y a aucun accord de niveau de service ni garantie d''aucune
+    sorte : si le site dysfonctionne, tombe en panne, est indisponible ou est modifié, aucune réclamation ne peut être faite au musée ou à son propriétaire à ce
+    titre.'
+  'terms_3': 'Ce que vous faites de ce que vous trouvez ici relève de votre responsabilité. Ni le site ni son propriétaire, ni l''hébergeur, ne sont
+    responsables du comportement, des actes, de l''adoption, de l''application, de la reproduction ou de la réutilisation du contenu publié par quiconque, ni
+    d''aucun malentendu, erreur de présentation, mauvais usage ou tort qui suivrait les actes d''un visiteur. Chaque notice cite ses sources et montre son état
+    de relecture, mais l''exactitude est citée, pas garantie — la source citée est où une affirmation se vérifie en dernier — et les sites que nous lions
+    relèvent de la responsabilité de leurs propriétaires.'
+  'terms_4': 'Tout auteur ou entité ayant une réclamation sur un contenu peut demander à tout moment son retrait ou sa modification : les outils de signalement
+    de ce site sont toujours ouverts exactement pour cela, et de telles demandes sont traitées en premier. Toutes les opinions et vues exprimées sur ce site
+    sont celles du fondateur seul et ne reflètent pas les vues ou opinions de son employeur.'
+  'purpose_title': 'Ni lucratif, ni pour un agenda'
+  'purpose_1': 'islam.museum n''est pas géré pour le profit ou le gain. Il ne poursuit aucun agenda et ne sert aucun besoin gouvernemental ou commercial. Il est
+    gratuit pour tous : pas d''abonnements, pas de pistage, et aucune intention d''utiliser ou de vendre les informations de quiconque à quiconque.'
+  'purpose_2': 'Faire fonctionner le musée coûte de l''argent réel chaque mois, et son fondateur porte ces coûts personnellement. Les bénévoles sont les
+    bienvenus, et quiconque le souhaite peut donner pour les coûts, comme il veut — sans engagement, sans obligation, et sans contrôle en retour.'
+  'purpose_3': 'À l''avenir, le musée prévoit une boutique / bazar en ligne dans sa propre section claire et séparée du site, où des articles pourront être
+    listés et vendus pour quiconque voudra les parcourir ou y acheter, pour aider aux coûts. Elle ne portera ni publicités, ni spam, ni sollicitation, et la
+    visiter sera toujours optionnel ; jusqu''à son ouverture, il n''y a pas de boutique, et le musée lui-même reste gratuit.'
+  'purpose_4': 'Le musée s''oppose fermement à la haine, aux discours de haine et au tort — contre l''islamophobie, l''antisémitisme, le racisme, le génocide,
+    le nettoyage ethnique et tout ce que les Nations unies classent comme haine ou racisme — et soutient et promeut la diversité, la différence d''opinion et la
+    paix. Il ne soutient aucune opinion contre une autre, ni aucune narration de l''histoire contre une autre : c''est une archive et une bibliothèque du
+    patrimoine humain, présentant ce que d''autres ont fait et écrit tel quel, de leur propre point de vue. Leurs vues sont les leurs seules ; le musée
+    n''approuve personne, ne prêche rien, et n''offre ni consultation, ni services ni conseils d''aucune sorte. La Charte l''énonce en entier (Article 10). Le
+    musée ne réclame aucun droit d''auteur, brevet ou propriété sur ce qu''il présente, et il n''offre ni incitation, ni argent ni gain à quiconque pour le
+    visiter, le voir ou le promouvoir — quiconque vient, vient de son propre gré.'
+  'contact_title': 'À qui écrire'
+  'contact_press': 'Presse et médias'
+  'contact_copyright': 'Réclamations de droit d''auteur'
+  'contact_concerns': 'Toutes autres questions'
+  'goal_title': 'Le but'
+  'goal_intro': 'Le but du musée est de montrer l''islam entier, de ses débuts au moment présent, équitablement et sans parti pris. À cette fin il s''engage
+    à ce qui suit :'
+  'goal_1': 'Il décrit plutôt qu''il ne prescrit : des faits avec dates et sources, et des jugements attribués à ceux qui les ont portés.'
+  'goal_2': 'Le récit sunnite est le cadre principal de recherche, et tout autre point de vue n''est énoncé qu''après avoir été clairement étiqueté.'
+  'goal_3': 'Adversaires, critiques et alliés apparaissent avec leurs rôles en leur temps, décrits sans le langage de l''inimitié.'
+  'goal_4': 'Les questions disputées apparaissent en cartes de tension : deux voix ou plus, chacune citée, sans verdict du musée.'
+  'goal_5': 'Chaque affirmation est liée à une source ; Wikipédia est un pointeur, jamais une source.'
+  'goal_6': 'Il commence en arabe, et il sert le visiteur qui ne sait rien de l''islam aussi bien que le spécialiste.'
+  'take_title': 'Prenez part à sa construction'
+  'take_body': 'Le contenu et le code sont ouverts à tous. Vous pouvez lire le dépôt, signaler une erreur, proposer une nouvelle entrée, ou demander une
+    traduction dans une autre langue.'
+  'take_repo': 'Le dépôt sur GitHub'
+  'take_suggest': 'Proposer une entrée ou une correction'
+  'license': 'Licence : textes CC BY-SA 4.0 · données CC0 · code MIT'
+  'breadcrumb': 'Musée'
