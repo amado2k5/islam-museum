@@ -1,5 +1,13 @@
 # french lane — progress
 
+## 2026-11-18 — building corpus packet 6 (Devin)
+
+- Run `fr-corpus-building-6`: original queue records 126–150, `eski-mosque-edirne` → `great-mosque-of-diyarbakir`; 25 English-to-French prose translations and corresponding French labels/summaries without YAML re-dumping.
+- Scoped packet check: PASS, 25 entities, 50 files, 0 errors, 16 inherited provenance/status warnings. Citation sequences, wiki-link IDs, needs_source markers and section counts match English; original data unchanged apart from French fields.
+- Informal notes use `Pour les jeunes visiteurs`; actual levels use `Pour les Petits`, `Pour les Explorateurs`, `Pour les Chercheurs`. Qur’an objects and inscriptions described, no sacred text typed.
+- Inherited-defect fixes: none needed. Left-out list: `building/bibi-maryam-complex-narayanganj` — inherited missing Urdu page, required by the packet four-language gate. No Urdu edits in this batch. Frozen-hook blocked list: empty.
+- Targeted tests: 15 passed (queue and packet). Retained total: 149 prose records. Next unattempted record: `building/great-mosque-of-kufa`. Plain push after this fourth new commit (including the two requested corrections), no gate bypass. Label-only work not started.
+
 ## 2026-11-18 — distinguish visitor notes from audience levels (Devin)
 
 - In every French building page whose English pivot has `For young visitors`, use `Pour les jeunes visiteurs`. This is an informal note, not the Sprouts level.
