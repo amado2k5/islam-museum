@@ -15,8 +15,8 @@ const HIJRI = {
 // Era and approximation labels per language. Urdu uses its own forms; Arabic keeps the Hijri-era marks.
 export const ERA = {
   en: { ce: "CE", bce: "BCE", ah: "AH", bh: "BH", approx: "c. ", approxTail: " (approx.)" },
-  ar: { ce: "م", bce: "ق.م", ah: "هـ", bh: "ق.هـ", approx: "نحو ", approxTail: " (تقريبًا)" },
-  ur: { ce: "عیسوی", bce: "قبل مسیح", ah: "ھ", bh: "قبل ہجرت", approx: "تقریباً ", approxTail: " (تقریباً)" },
+  ar: { ce: "م", bce: "ق.م", ah: "هـ", bh: "ق.هـ", approx: "نحو ", approxTail: " ⁦(تقريبًا)⁩" },
+  ur: { ce: "عیسوی", bce: "قبل مسیح", ah: "ھ", bh: "قبل ہجرت", approx: "تقریباً ", approxTail: " ⁦(تقریباً)⁩" },
 } as const;
 export const GREG_MONTHS = GREG;
 export const HIJRI_MONTHS = HIJRI;
