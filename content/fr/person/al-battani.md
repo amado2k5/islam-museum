@@ -44,8 +44,8 @@ Al-Bayhaqi rapporte de lui deux maximes : que le malheur de la vie réside dans 
 
 ## La question de sa foi
 :::perspectives
-- **Sunnite : Ibn Khallikan et Abu al-Fida** : Ibn Khallikan dit n’avoir pas trouvé qu’al-Battani embrassa l’islam, mais que son nom Muhammad montre qu’il devint musulman ; Abu al-Fida ajouta que la préface de son Zij le montre aussi. {cite:nallino-albatenii-opus-astronomicum p. 18} {cite:nallino-albatenii-opus-astronomicum p. 19}
-- **Académique : Nallino** : le témoignage le plus sûr de son islam est la préface du Zij, qui cite de nombreux versets coraniques, et les formules musulmanes concluant ses chapitres ; la nisba al-Sabi pouvait passer de père en fils ou rester attachée à un Harranien ; Reiske, Montucla et Reinaud l’avaient qualifié de Sabéen. {cite:nallino-albatenii-opus-astronomicum p. 24} {cite:nallino-albatenii-opus-astronomicum p. 25}
+- **Sunnite : Ibn Khallikan et Abu al-Fida**: Ibn Khallikan dit n’avoir pas trouvé qu’al-Battani embrassa l’islam, mais que son nom Muhammad montre qu’il devint musulman ; Abu al-Fida ajouta que la préface de son Zij le montre aussi. {cite:nallino-albatenii-opus-astronomicum p. 18} {cite:nallino-albatenii-opus-astronomicum p. 19}
+- **Académique : Nallino**: le témoignage le plus sûr de son islam est la préface du Zij, qui cite de nombreux versets coraniques, et les formules musulmanes concluant ses chapitres ; la nisba al-Sabi pouvait passer de père en fils ou rester attachée à un Harranien ; Reiske, Montucla et Reinaud l’avaient qualifié de Sabéen. {cite:nallino-albatenii-opus-astronomicum p. 24} {cite:nallino-albatenii-opus-astronomicum p. 25}
 :::
 
 ## Héritage
