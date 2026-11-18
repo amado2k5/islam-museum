@@ -104,9 +104,13 @@ A fourth build blocker, fixed: `scripts/time-browser.ts` wrote its per-language 
 
 Terms a Spanish-speaking reader should review in the prose: `anticalifa`, `los Siete Juristas`, `Sucesores` (for the Successors), `burchíes`, `benimerín`, `ilkhánidas`, `Hiyaz`, `Jorasán`, `Bujará`, `Solimán`, `derecho anglo-muhammadan`, and the translated titles of television programmes and books.
 
+### Packet log (one agent at a time)
+
+- Wave 8, packet 5: landed and merged; `content/es/` holds 1,554 files; `npm run validate` 0 errors.
+
 ## Explicit gaps
 
-- `content/es/`: 1,525 files of about 34,800 (waves 1 to 8 so far, above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
+- `content/es/`: 1,554 files of about 34,800 (waves 1 to 8 so far, above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
 - `data/*.yaml`: no `label.es` / `summary.es`.
 - Datasets (`edu/`, `kids/`, `tour/`, `cards/`): no `es` fields; the strict loaders still require only ar, en and ur.
 - Spanish Qur'an translation for passage pages: no source chosen or registered (`scripts/harvest/quran/translations.py` takes English and Urdu only). The translation and its licence are pending the founder's confirmation.
