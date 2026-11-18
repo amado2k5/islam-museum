@@ -129,10 +129,11 @@ Terms a Spanish-speaking reader should review in the prose: `anticalifa`, `los S
 - Wave 10, packet 2: landed and merged; `content/es/` holds 3,138 files; `npm run validate` 0 errors.
 - Wave 10, packet 3: landed and merged; `content/es/` holds 3,247 files; `npm run validate` 0 errors.
 - Wave 10, packet 4: landed and merged; `content/es/` holds 3,355 files; `npm run validate` 0 errors.
+- Wave 10, packet 5: landed and merged; `content/es/` holds 3,464 files; `npm run validate` 0 errors.
 
 ## Explicit gaps
 
-- `content/es/`: 3,355 files of about 34,800 (waves 1 to 8 so far, above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
+- `content/es/`: 3,464 files of about 34,800 (waves 1 to 8 so far, above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
 - `data/*.yaml`: no `label.es` / `summary.es`.
 - Datasets (`edu/`, `kids/`, `tour/`, `cards/`): no `es` fields; the strict loaders still require only ar, en and ur.
 - Spanish Qur'an translation for passage pages: no source chosen or registered (`scripts/harvest/quran/translations.py` takes English and Urdu only). The translation and its licence are pending the founder's confirmation.
