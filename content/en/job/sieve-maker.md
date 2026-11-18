@@ -14,7 +14,7 @@ provenance:
 
 ## Summary
 
-The ghirbali made sieves and riddles of horse-hair and of skin, the assistant craft of millers and bakers {cite:evliya-seyahatname-hammer sec. 85, p. 125}. Ibn al-Ukhuwwa gives the sieve-makers their own chapter of the hisba — the hair washed, the dead-beast's hair barred, the copperas dye exposed as fraud {cite:ibn-ukhuwwa-maalim-levy ch. LXII, pp. 91-92} — and Evliya marches them three hundred strong in two hundred shops {cite:evliya-seyahatname-hammer sec. 85, p. 125}.
+The ghirbali made sieves and riddles of horse-hair and of skin, the assistant craft of millers and bakers {cite:evliya-seyahatname-hammer sec. 85, p. 125}. Ibn al-Ukhuwwa gives the sieve-makers their own chapter of the hisba — the hair washed, the hair of dead animals barred, the copperas dye exposed as fraud {cite:ibn-ukhuwwa-maalim-levy ch. LXII, pp. 91-92} — and Evliya marches them three hundred strong in two hundred shops {cite:evliya-seyahatname-hammer sec. 85, p. 125}.
 
 ## Washed hair
 
@@ -22,7 +22,7 @@ A trustworthy man experienced in the sieve-makers' deceptions must be appointed 
 
 ## The copperas fraud
 
-Hair used must be utilized as it is, without dyeing {cite:ibn-ukhuwwa-maalim-levy ch. LXII, pp. 91-92}. Some makers take copperas, boil it and leave the hair in it; this weakens the hair so that it snaps in use and holds nothing {cite:ibn-ukhuwwa-maalim-levy ch. LXII, p. 92}. They sell it without informing the purchaser that it is dyed, which is fraudulent {cite:ibn-ukhuwwa-maalim-levy ch. LXII, p. 92}.
+Hair used must be used as it is, without dyeing {cite:ibn-ukhuwwa-maalim-levy ch. LXII, pp. 91-92}. Some makers take copperas, boil it and leave the hair in it; this weakens the hair so that it snaps in use and holds nothing {cite:ibn-ukhuwwa-maalim-levy ch. LXII, p. 92}. They sell it without informing the purchaser that it is dyed, which is fraudulent {cite:ibn-ukhuwwa-maalim-levy ch. LXII, p. 92}.
 
 ## The skin sieve
 

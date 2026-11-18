@@ -30,7 +30,7 @@ The entry reports Evliya Çelebi's guild lore: the hamamcılar's pir is Muhsin b
 
 ## Fiqh and earnings
 
-Most jurists permitted entering the bath provided the awrah is covered, and in principle permitted building, selling, leasing and operating baths {cite:tdv-hamam III}. Those who were hesitant about the bath keeper's earnings looked at the looseness over covering; their stance can be read as a warning that keeps people from the harm rather than a ban on the trade itself {cite:tdv-hamam III}.
+Most jurists permitted entering the bath provided the awrah is covered, and in principle permitted building, selling, leasing and operating baths {cite:tdv-hamam III}. Those who hesitated over the bath keeper's earnings pointed to the laxity about covering; their stance can be read as a warning that keeps people from the harm rather than a ban on the trade itself {cite:tdv-hamam III}.
 
 ## Today
 

@@ -18,7 +18,7 @@ The muslih works to mend people's faith and world — through teaching, guidance
 
 ## The jurists' definition
 
-Islah stands in fiqh and language opposite fasad: returning a matter to what it was, or to what it ought to be — in soul, community and rule {cite:tdv-islahat}. It requires no office: the reformer works from his place as teacher, preacher, writer and founder, renewal being God's way in His creation, as they say {cite:tdv-islahat}.
+In fiqh and in language, islah stands opposite fasad: returning a matter to what it was, or to what it ought to be — in soul, community and rule {cite:tdv-islahat}. It requires no office: the reformer works from his place as teacher, preacher, writer and founder, renewal being God's way in His creation, as they say {cite:tdv-islahat}.
 
 ## In history
 
@@ -26,7 +26,7 @@ Among the earliest reformers were the founders of schools and associations: Abd 
 
 ## His instruments
 
-The written and spoken word: lesson, sermon, book, newspaper and school {cite:tdv-matbuat}. Organisation: association, waqfs and libraries to preserve what he taught. And example: people see in him what he calls to {cite:tdv-islahat}.
+The written and spoken word: lesson, sermon, book, newspaper and school {cite:tdv-matbuat}. Organisation: associations, waqfs and libraries to preserve what he taught. And example: people see in him what he calls to {cite:tdv-islahat}.
 
 ## His boundary from the rebel
 
