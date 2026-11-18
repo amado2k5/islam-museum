@@ -32,6 +32,6 @@ Souffle : le livre dit que l’urine des garçons allaités aide contre la respi
 
 Digestion : urines humaine et de chameau aideraient contre hydropisie et rate dure, surtout avec du lait de jument ; celle de chèvre, surtout montagnarde, contre la fièvre {cite:canon-ibn-sina-print-v1 p.413}.
 
-Organes excréteurs : celle de porc briserait et déplacerait les calculs rénaux et vésicaux ; celle d’âne aiderait contre les douleurs rénales ; l’humaine bouillie avec du poireau est indiquée pour les douleurs utérines en bain de siège quotidien durant cinq jours {cite:canon-ibn-sina-print-v1 p.413}.
+Organes excréteurs : celle de porc briserait et déplacerait les calculs rénaux et vésicaux ; celle d’âne aiderait contre les douleurs rénales ; l’humaine bouillie avec du poireau serait employée, selon le livre, contre les douleurs utérines en bain de siège quotidien durant cinq jours {cite:canon-ibn-sina-print-v1 p.413}.
 
 Poisons : l’urine humaine bue ou versée aiderait contre les morsures de serpents, surtout des rochers ; avec du natron, contre celles de chien et toutes morsures et piqûres ; la vieille urine aiderait contre tous les poisons {cite:canon-ibn-sina-print-v1 p.413}.
