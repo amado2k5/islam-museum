@@ -553,7 +553,8 @@
     // On a narrow screen the open sheet is the list; the ring comes back when it is folded.
     if (narrow() && !panel.classList.contains("is-closed")) slice = [];
     slice.forEach(function (it) {
-      var b = h("button", "pm-node" + (it.from != null && !isActive(it) ? " is-dim" : "")); b.type = "button";
+      var dim = it.from != null && !isActive(it);
+      var b = h("button", "pm-node" + (dim ? " is-dim" : "")); b.type = "button";
       b.appendChild(h("span", "pm-shape c-" + it.cls));
       var t = h("span"); t.appendChild(auto("span", "pm-node-t", it.label)); var sub = it.rels[0] || it.years; if (sub) t.appendChild(h("small", null, sub)); b.appendChild(t);
       b.title = [it.label].concat(it.rels, it.years ? [it.years] : []).join(" · "); b.dataset.key = "e" + it.id;
@@ -561,7 +562,7 @@
       b.addEventListener("mouseenter", function () { hot("e" + it.id, true); }); b.addEventListener("mouseleave", function () { hot("e" + it.id, false); });
       b.addEventListener("focus", function () { hot("e" + it.id, true); }); b.addEventListener("blur", function () { hot("e" + it.id, false); });
       over.appendChild(b);
-      var line = svgEl("line"); links.appendChild(line);
+      var line = svgEl("line"); if (dim) line.setAttribute("class", "is-dim"); links.appendChild(line);
       orbit.nodes.push({ el: b, key: "e" + it.id, line: line });
     });
     layoutNames();
