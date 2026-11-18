@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/balata-lutus.md
 ---
 ## Vue d’ensemble
-Un carreau mural à fleur de lotus ; vers 1300–1350, probablement de Sultaniyya à l’époque ilkhanide. Au Cleveland Museum of Art. {cite:cleveland-open-access}
+Un carreau mural à fleur de lotus ; vers 1300–1350, probablement de Sultanabad à l’époque ilkhanide. Au Cleveland Museum of Art. {cite:cleveland-open-access}

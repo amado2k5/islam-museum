@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/balata-zahra.md
 ---
 ## Vue d’ensemble
-Un carreau de céramique d’Iznik à décor coloré sous glaçure, avec des fleurs et des rubans de nuages dans le style des plateaux, vers 1578. Conservé au Metropolitan Museum of Art. {cite:met-open-access}
+Un carreau de céramique d’Iznik à décor coloré sous glaçure, avec des fleurs et des rubans de nuages de style chinois, vers 1578. Conservé au Metropolitan Museum of Art. {cite:met-open-access}

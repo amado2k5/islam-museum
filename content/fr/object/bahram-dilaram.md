@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/bahram-dilaram.md
 ---
 ## Vue d’ensemble
-Une page illustrée de la Khamsa de Nizami : Bahram Gur voit un troupeau de gazelles et est enchanté par la musique de Dilaram, Inde ; 1597–1598. Conservée au Metropolitan Museum of Art. {cite:met-open-access}
+Une page illustrée de la Khamsa de Nizami : Bahram Gur voit un troupeau de gazelles captivées par la musique de Dilaram, Inde ; 1597–1598. Conservée au Metropolitan Museum of Art. {cite:met-open-access}

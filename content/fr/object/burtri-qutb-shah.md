@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/burtri-qutb-shah.md
 ---
 ## Vue d’ensemble
-Un portrait du sultan de Golconde, Muhammad Quli Qutb Shah ; 1623–1625, Deccan. Au Victoria and Albert Museum, à Londres. {cite:vam-collection}
+Un portrait du sultan de Golconde, Muhammad Qutb Shah ; 1623–1625, Deccan. Au Victoria and Albert Museum, à Londres. {cite:vam-collection}
