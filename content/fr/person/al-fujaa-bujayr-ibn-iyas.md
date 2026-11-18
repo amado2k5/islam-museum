@@ -17,7 +17,7 @@ Il vint à [[person/abu-bakr|Abu Bakr]] et lui demanda une monture et des moyens
 
 Il partit ensuite intercepter les gens, tua musulmans et apostats et rassembla une troupe. Abu Bakr écrivit à Tarifa ibn Hajiza pour lui ordonner de le combattre ; Tarifa le captura et l’envoya à Abu Bakr. {cite:futuh-buldan-maarif-1407}
 
-Abu Bakr ordonna de le brûler dans les environs de la musalla. Selon un autre récit, Abu Bakr écrivit à Ma’n, et Tarifa envoya son frère le capturer. {cite:futuh-buldan-maarif-1407}
+Abu Bakr ordonna de le brûler dans les environs de la musalla. Selon un autre récit, Abu Bakr écrivit à Ma’n, qui envoya son frère Tarifa le capturer. {cite:futuh-buldan-maarif-1407}
 
 Al-Baladhuri dit qu’Abu Bakr le regretta et déclara qu’il aurait souhaité le tuer sans le brûler. {cite:futuh-buldan-maarif-1407}
 
