@@ -1,0 +1,50 @@
+id: person/enes-karic
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: أنس كاريتش
+  en: Enes Karic
+  ur: انس کاریچ
+names:
+- value: أنس كاريتش
+  kind: full
+- value: Enes Karic
+  kind: full
+gender: male
+summary:
+  ar: أنس كاريتش ⁦(1958–)⁩ أستاذ بوسني في الدراسات القرآنية بجامعة سراييفو، ووزير سابق للتعليم والثقافة ⁦(1994–1996)⁩ أثناء حصار سراييفو، ومن أشهر كتّاب البوسنة في القرآن وتاريخ الفكر الإسلامي.
+  en: Enes Karic (born 1958) is a Bosnian scholar, professor of Qur'anic studies at the University of Sarajevo and former Minister of Education, Science, Culture and Sports (1994–1996) during the siege
+    of Sarajevo, widely published on the Qur'an and Islamic intellectual history.
+  ur: انس کاریچ ⁦(1958–)⁩ بوسنیائی محقق اور سرائیوو یونیورسٹی میں مطالعاتِ قرآن کے پروفیسر ہیں اور محاصرے کے زمانے میں ⁦(1994–1996)⁩ وزیرِ تعلیم، سائنس، ثقافت و کھیل رہے؛ قرآن اور اسلامی فکری تاریخ پر ان
+    کی تصانیف وسیع ہیں۔
+roles:
+- scholar
+- professor
+- writer
+wings:
+- people
+- living
+born:
+  edtf: '1958'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-enes-karic
+  - source/muslim500-enes-karic
+faith:
+- value: sunni
+  basis: documented
+  note: Professor of Qur'anic studies and former dean of the Faculty of Islamic Studies in Sarajevo, a Sunni institution; his scholarship and office attest the affiliation.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Founder-compiled Muslim 500 ⁦(2026 edition)⁩ extract + Wikipedia, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-supp3-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)
