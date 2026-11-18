@@ -2,6 +2,13 @@
 
 Proposal: `docs/delegation/french-language-proposal.md` (approved 18 Nov 2026). Lane: `docs/agents/lanes/french.md`.
 
+## 2026-11-18 — batch 1, kids group
+
+- Added French to all 232 localized mappings in the ten `kids/*.yaml` files, including lesson objectives, timed teaching plans, worksheets, pilot checklists and retelling prompts. Existing locale values, IDs, statuses, provenance and non-language fields remain unchanged.
+- Coverage: `kids: 10 data files, 232 localized mappings, 0 missing fr`. Focused education/kids/tour/cards tests: 4 files, 160 tests passed. Standalone card validators: lists 12, explainers 13, stories 8 decks OK.
+- `edu/levels.yaml` is reserved for another PR and excluded from this batch's coverage expectations. Where other datasets mention the French levels, use `Pour les Petits`, `Pour les Explorateurs`, `Pour les Chercheurs` verbatim. No RTL/page-direction code or `scripts/fr-queue.ts` edits belong to this batch.
+- Next: cards, then the remaining education datasets in the agreed order; final repository validation, tests and citation check remain outstanding.
+
 ## 2026-11-18 — infrastructure landed (session 1)
 
 Done:
