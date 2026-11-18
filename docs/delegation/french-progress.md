@@ -1,5 +1,12 @@
 # french lane — progress
 
+## 2026-11-18 — building corpus packet 17: prose queue complete (Devin)
+
+- Final run `fr-corpus-building-17`: nine retained records, `yavuz-selim-mosque` → `zal-mahmud-pasha-mosque`, with French labels and summaries.
+- `check-packet: PASS (9 entities, 18 files, 0 error(s), 2 warning(s), 0.1s)`. Targeted tests: 15 passed. Preservation checks passed for all nine prose/YAML pairs; `git diff --check` clean.
+- Final prose queue lists only `building/bibi-maryam-complex-narayanganj` and `building/khizirpur-fort` (`listed 2`), both left out for inherited missing Urdu pages. Retained prose total: 408. No new inherited-defect fixes or frozen-hook exclusions. No Urdu edits. Label-only shards not started.
+- Completion is the third batch commit since the last push (after packets 15 and 16); the four-commit push boundary has not been reached.
+
 ## 2026-11-18 — building corpus packet 16 (Devin)
 
 - Run `fr-corpus-building-16`: 25 English-to-French building prose records, `tomb-of-aurangzeb-khuldabad` → `yavasca-sahin-mosque`, with French labels and summaries; YAML layout retained.
