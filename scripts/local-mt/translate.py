@@ -193,6 +193,7 @@ def check(en_body, tr_body, lang):
     heads = lambda b: [m.group(1) for m in re.finditer(r"^(#{1,6}) .+$", b, re.M)]
     paras = lambda b: len([x for x in re.split(r"\n\s*\n", b) if x.strip()])
     words = lambda b: len(re.sub(r"\{cite:[^}]*\}", "", b).split())
+    if re.search(r"</?[sx]\d+>|\[\[\d+\]\]", tr_body): return "internal marker left in the text"
     if links(en_body) != links(tr_body): return "wiki-link ids differ"
     if cites(en_body) != cites(tr_body): return "cite markers differ"
     if heads(en_body) != heads(tr_body): return "heading structure differs"
