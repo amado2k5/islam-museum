@@ -39,7 +39,7 @@ Le cheikh raconte qu'à la mort d'Abdullah ibn Ubayy, les gens demandèrent au P
 Il cite un verset, qu'il ne nomme pas, et qu'il présente comme une interdiction de prier sur les morts parmi les hypocrites et de se tenir devant leurs tombes. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:23:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:24:00}
 
 :::perspectives
-- **Point de vue sunnite : pas encore sourcé**: pas encore attribué.
+- **Sunnites : point de vue pas encore sourcé**: pas encore attribué.
 - **Point de vue de l'orateur (Omar Abdelkafy)**: Le cheikh donne le récit et le verset dont il tire une interdiction de prier sur les hypocrites qui meurent {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:21:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:23:30}.
 - **Point de vue académique : pas encore sourcé**: pas encore attribué.
 - **Autre point de vue : pas encore sourcé**: pas encore attribué.
