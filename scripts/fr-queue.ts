@@ -6,7 +6,7 @@
 //   npx tsx scripts/fr-queue.ts stats                                  # counts
 import { readdirSync, existsSync, readFileSync } from "node:fs";
 import { parse } from "yaml";
-import { repoPath } from "./lib.js";
+import { p as repoPath } from "./lib.js";
 
 const SPINE = ["person", "event", "place", "work", "concept", "building", "object"];
 const SACRED = new Set(["passage", "practice", "question"]);
