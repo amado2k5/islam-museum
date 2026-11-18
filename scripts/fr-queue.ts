@@ -6,7 +6,7 @@
 //   npx tsx scripts/fr-queue.ts stats                                  # counts
 import { readdirSync, existsSync, readFileSync } from "node:fs";
 import { parse } from "yaml";
-import { repoPath } from "./lib.js";
+import { p as repoPath } from "./lib.js";
 
 const SPINE = ["person", "event", "place", "work", "concept", "building", "object"];
 const SACRED = new Set(["passage", "practice", "question"]);
@@ -55,11 +55,13 @@ if (mode === "prose") {
   }
   console.error(`listed ${n}`);
 } else if (mode === "labels") {
+  const only = arg("class");
   const limit = Number(arg("limit") ?? 500);
   let n = 0;
   for (const f of walk(repoPath("data"))) {
     if (n >= limit) break;
     const d = parse(readFileSync(f, "utf8"));
+    if (only && d?.class !== only) continue;
     if (d?.label && !d.label.fr) { console.log(d.id ?? f); n++; }
   }
   console.error(`listed ${n}`);

@@ -1,5 +1,15 @@
 # french lane — progress
 
+## 2026-11-18 — building corpus packet 1 (Devin)
+
+- Branch: `devin/fr-corpus-building`, based on `origin/release/french`; no main changes.
+- Run `fr-corpus-building-1`: first 25 queued building records, `abdurrahman-abdi-pasha-memorial-buda` → `al-madrasa-al-bayhaqiyya`; full English-to-French prose plus `label.fr`/`summary.fr`, inserted without re-dumping YAML.
+- Queue: same `p as repoPath` import fix as #7416; labels mode now honours `--class`, with regression tests.
+- Scoped packet check: PASS, 25 entities, 50 files, 0 errors, 18 inherited provenance/status warnings. Citation sequences, wiki-link IDs, needs_source markers and section counts match English. Targeted tests: 15 passed.
+- Inherited-defect fixes: none needed; frozen-hook exclusions: none. No audience-level sections occur in this packet.
+- Non-impacting translation-only content; no new entities or submission claims. Full validation and coverage remain train-level work. Not pushed in this handoff.
+- Next prose record: `building/al-madrasa-al-nizamiyya-baghdad`. Building label-only shards remain separate work.
+
 Proposal: `docs/delegation/french-language-proposal.md` (approved 18 Nov 2026). Lane: `docs/agents/lanes/french.md`.
 
 ## 2026-11-18 — infrastructure landed (session 1)
