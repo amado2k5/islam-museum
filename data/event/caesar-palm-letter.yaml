@@ -1,10 +1,11 @@
 id: event/caesar-palm-letter
 class: event
 kind: other
-label: { ar: "مكاتبة قيصر لعمر في شجرة النخل", en: "Caesar's Palm-Tree Letter to Umar" }
+label: { ar: "مكاتبة قيصر لعمر في شجرة النخل", en: "Caesar's Palm-Tree Letter to Umar", fr: "La lettre de César à Umar sur le palmier" }
 summary:
   ar: "كتب قيصر إلى عمر بن الخطاب إن رسلي أتتني من قبلك فزعمت أن قبلكم شجرة ليست بخليقة بشيء من الخير تخرج مثل آذان الحمير ثم تشقق مثل اللؤلؤ ثم تخضر فتكون مثل الزمرد الأخضر ثم تحمر فتكون كالياقوت الأحمر ثم تينع فتنضج فتكون كأطيب فالوذج أكلاً ثم تيبس فتكون عصمة للمقيم وزاداً للمسافر فإن تكن رسلي صدقتني فلا أدري هذه الشجرة إلا من شجر الجنة فكتب إليه عمر من عبد الله عمر أمير المؤمنين إلى قيصر ملك الروم إن رسلك قد صدقوك هذه الشجرة عندنا هي الشجرة التي أنبتها الله على مريم حين ولدت عيسى ابنها فاتق الله ولا تتخذ عيسى إلهاً من دون الله."
   en: "Caesar wrote to Umar ibn al-Khattab: my envoys came from your quarter claiming your land has a tree no creation equals — it puts out like donkey-ears, splits like pearls, greens like emerald, reddens like ruby, ripens to the sweetest faludhaj to eat, then dries to provision for the settler and wayfarer — 'if my envoys spoke true, I know this tree only as a tree of paradise'. Umar wrote back, from Abdallah Umar Commander of the Faithful to Caesar king of the Romans: your envoys spoke true — this tree with us is the tree God grew for Maryam when she bore Isa her son; fear God and take not Isa as a god beside Him."
+  fr: "César écrivit à Umar ibn al-Khattab : mes envoyés sont venus de ta contrée en affirmant que ta terre porte un arbre auquel nulle créature n'est égale : il pousse comme des oreilles d'âne, s'ouvre comme des perles, verdit comme l'émeraude, rougit comme le rubis, mûrit en le plus doux faludhaj à manger, puis sèche pour devenir provision du sédentaire et du voyageur ; « si mes envoyés ont dit vrai, je ne connais cet arbre que comme un arbre du paradis ». Umar répondit, de la part d'Abdallah Umar, Commandeur des croyants, à César, roi des Romains : tes envoyés ont dit vrai ; cet arbre chez nous est l'arbre que Dieu fit pousser pour Maryam quand elle enfanta Isa, son fils ; crains Dieu et ne prends pas Isa pour un dieu à côté de Lui."
 periods: [period/rashidun]
 relations:
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "المكاتب", sources: [source/tarikh-khulafa-minhaj-1434] }
@@ -15,5 +16,6 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+  source: "source/tarikh-khulafa-minhaj-1434"
 
 tags: [mukatabat-browser, mukatabat-royal]
