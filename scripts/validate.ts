@@ -858,6 +858,7 @@ export function validateAll(extra: { entity: any; file: string }[] = [], options
   // (a repository-wide scan, so it is not repeated for a check of only the extra entities)
   if (!onlyExtra) {
     for (const lang of ["ar", "ur"]) for (const [path, s] of allStrings(readYaml(p("i18n", `${lang}.yaml`)))) if (ARABIC_PAREN_UNISOLATED.test(s)) err(`i18n/${lang}.yaml`, `${path}: wrap Arabic-script parentheses in U+2066 ( ... ) U+2069 (AGENTS.md)`);
+    for (const name of readdirSync(p("site", "src", "data")).filter((n) => n.endsWith(".json"))) for (const [path, s] of allStrings(readYamlJson(`site/src/data/${name}`))) if (ARABIC_PAREN_UNISOLATED.test(s)) err(`site/src/data/${name}`, `${path}: wrap Arabic-script parentheses in U+2066 ( ... ) U+2069 (AGENTS.md)`);
     for (const d of readdirSync(p("content"), { recursive: true, withFileTypes: true }) as any[]) {
       if (d.isFile() && !d.name.endsWith(".md") && !d.name.startsWith(".")) err(rel(join(d.parentPath ?? d.path, d.name)), "content/ holds .md prose only (data belongs in data/<class>/<slug>.yaml)");
     }
