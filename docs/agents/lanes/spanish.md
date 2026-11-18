@@ -16,6 +16,13 @@ Brings Spanish (`es`) to full parity with Arabic, English, Urdu and French: `i18
 - `translation_of` still names the Arabic original where the chain is ar → en → es.
 - Spanish is never translated from French.
 
+## From wave 11: local machine translation (founder, 18 November 2026)
+
+- The translation runs on the founder's Mac with TranslateGemma 27B through `scripts/local-mt/` (`translate.py`, `run.sh`); Claude manages the queue, the checks and the merges. Spanish and French run side by side.
+- **Always from English**, for every class (this replaces the Arabic pivot for the sacred classes written above). The Qur'an passage pages stay held: no Spanish Qur'an translation source is chosen.
+- Everything, French included, is raised and merged against `release/spanish` only.
+- Logs, lists and the model are on the microSD: `/Volumes/exmicroSD/islam-museum-local-mt/`.
+
 ## Working beside the French lane
 
 - Never edit a French file: `i18n/fr.yaml`, `content/fr/`, `docs/agents/lanes/french.md`, `docs/delegation/french-progress.md`, `scripts/fr-queue.ts`.
