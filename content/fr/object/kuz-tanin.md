@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/kuz-tanin.md
 ---
 ## Vue d’ensemble
-Une aiguière en laiton à deux anses en forme de dragons et portant une inscription, Afghanistan ; début du XVIe siècle. Conservée au Metropolitan Museum of Art. {cite:met-open-access}
+Une cruche en laiton à deux anses en forme de dragons et portant une inscription, Afghanistan ; début du XVIe siècle. Conservée au Metropolitan Museum of Art. {cite:met-open-access}

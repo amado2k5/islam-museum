@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/hawun-saljuqi.md
 ---
 ## Vue d’ensemble
-Un mortier de pharmacie en laiton ; XIIe–XIIIe siècle, Iran seldjoukide. Au Cleveland Museum of Art. {cite:cleveland-open-access}
+Un mortier de pharmacie en bronze ; XIIe–XIIIe siècle, Iran seldjoukide. Au Cleveland Museum of Art. {cite:cleveland-open-access}

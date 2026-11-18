@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/sajjada-mamlukiyya.md
 ---
 ## Vue d’ensemble
-Un tapis de prière mamelouk en laine à motif géométrique central symétrique, probablement d’Égypte ; début du XVIe siècle, l’un des rares tapis du Caire mamelouk. Conservé au Metropolitan Museum of Art. {cite:met-open-access}
+Un tapis mamelouk en laine à motif géométrique central symétrique, probablement d’Égypte ; début du XVIe siècle, l’un des rares tapis du Caire mamelouk. Conservé au Metropolitan Museum of Art. {cite:met-open-access}

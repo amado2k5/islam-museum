@@ -10,7 +10,7 @@ provenance:
   source: content/en/object/pyxis-al-mughira.md
 ---
 ## Vue d’ensemble
-Un coffret d’ivoire sculpté à Cordoue en 968 ap. J.-C. pour le prince omeyyade al-Mughira ibn Abd al-Rahman III, avec des scènes de chasse, des musiciens et des motifs monastiques sculptés dans un ivoire andalou très fin. {cite:wikidata}
+Un coffret d’ivoire sculpté à Cordoue en 968 ap. J.-C. pour le prince omeyyade al-Mughira ibn Abd al-Rahman III, avec des scènes de chasse, des musiciens et des motifs dynastiques sculptés dans un ivoire andalou très fin. {cite:wikidata}
 
 ## Rayonnement
 Conservé au Louvre ; il est considéré comme un sommet de la sculpture islamique de l’ivoire et l’un des plus célèbres objets rares conservés d’al-Andalus. {cite:wikidata}

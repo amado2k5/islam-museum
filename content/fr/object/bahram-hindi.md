@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/bahram-hindi.md
 ---
 ## Vue d’ensemble
-Une page de la Khamsa de Nizami : Bahram Gur rend visite à la princesse de l’Inde dans l’aile noire ; vers 1400–1410, époque timouride. Au Cleveland Museum of Art. {cite:cleveland-open-access}
+Une page de la Khamsa de Nizami : Bahram Gur rend visite à la princesse de l’Inde dans le pavillon noir ; vers 1400–1410, époque timouride. Au Cleveland Museum of Art. {cite:cleveland-open-access}

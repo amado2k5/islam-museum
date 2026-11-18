@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/kuz-fatimi.md
 ---
 ## Vue d’ensemble
-Une aiguière en verre ou en cristal de roche ; 1080–1100, Égypte fatimide. Au Victoria and Albert Museum, à Londres. {cite:vam-collection}
+Une cruche en verre ou en cristal de roche ; 1080–1100, Égypte fatimide. Au Victoria and Albert Museum, à Londres. {cite:vam-collection}

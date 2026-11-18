@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/akbar-asad.md
 ---
 ## Vue d’ensemble
-Un feuillet de l’album de Shah Jahan : l’empereur Akbar avec un lion et un taureau, allégorie de la paix entre les contraires, Inde ; vers 1630. Conservé au Metropolitan Museum of Art. {cite:met-open-access}
+Un feuillet de l’album de Shah Jahan : l’empereur Akbar avec un lion et un veau, allégorie de la paix entre les contraires, Inde ; vers 1630. Conservé au Metropolitan Museum of Art. {cite:met-open-access}

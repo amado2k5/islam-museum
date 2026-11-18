@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/kuz-basra-azraq.md
 ---
 ## Vue d’ensemble
-Une aiguière en terre cuite à engobe bleu et turquoise ; IXe siècle, Bassora abbasside, parmi les premières céramiques à glaçure bleue. Au Cleveland Museum of Art. {cite:cleveland-open-access}
+Une cruche en terre cuite à engobe bleu et turquoise ; IXe siècle, Bassora abbasside, parmi les premières céramiques à glaçure bleue. Au Cleveland Museum of Art. {cite:cleveland-open-access}

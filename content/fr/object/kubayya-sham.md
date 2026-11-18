@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/kubayya-sham.md
 ---
 ## Vue d’ensemble
-Un flacon en verre émaillé ; 1250, Syrie ayyoubide-mamelouke. Au Victoria and Albert Museum, à Londres. {cite:vam-collection}
+Un gobelet en verre émaillé ; 1250, Syrie ayyoubide-mamelouke. Au Victoria and Albert Museum, à Londres. {cite:vam-collection}

@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/sajjada-salur.md
 ---
 ## Vue d’ensemble
-Un grand tapis turkmène tissé par la tribu salur ; fin du XVIIIe–début du XIXe siècle. Conservé au Metropolitan Museum of Art, à New York. {cite:met-open-access}
+Un tapis principal turkmène tissé par la tribu salur ; fin du XVIIIe–début du XIXe siècle. Conservé au Metropolitan Museum of Art, à New York. {cite:met-open-access}

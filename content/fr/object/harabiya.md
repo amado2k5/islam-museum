@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/harabiya.md
 ---
 ## Vue d’ensemble
-Une sculpture de harabiya (créature à tête humaine et corps d’oiseau) ; XIe–XIIe siècle, Iran seldjoukide. Au Cleveland Museum of Art. {cite:cleveland-open-access}
+Une sculpture de harpie (créature à tête humaine et corps d’oiseau) ; XIe–XIIe siècle, Iran seldjoukide. Au Cleveland Museum of Art. {cite:cleveland-open-access}

@@ -10,7 +10,7 @@ provenance:
   source: content/en/object/kitab-tamim-al-dari.md
 ---
 ## Vue d’ensemble
-Un morceau de cuir écrit en coufique, portant le texte d’une concession de terres à [[person/tamim-al-dari|Tamim al-Dari]] et à ses frères : Hébron, al-Marsum, Bayt Aynun et Bayt Ibrahim. {cite:umari-masalik-1924 p.173-175}
+Un morceau de cuir écrit en coufique, portant le texte d’une concession de terres à [[person/tamim-al-dari|Tamim al-Dari]] et à ses frères : Hébron, al-Martum, Bayt Aynun et Bayt Ibrahim. {cite:umari-masalik-1924 p.173-175}
 
 ## L’examen d’al-Umari
 Ibn Fadl Allah al-Umari l’examina lui-même en 745 H, lorsque Nasir al-Din Muhammad ibn al-Khalili al-Tamimi al-Dari le lui apporta. Il est conservé dans un tissu noir de coton et de soie provenant de la manche du calife al-Mustadi’, dans un coffret d’ébène enveloppé de soie. {cite:umari-masalik-1924 p.173-175}

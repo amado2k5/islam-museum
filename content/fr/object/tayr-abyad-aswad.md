@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/tayr-abyad-aswad.md
 ---
 ## Vue d’ensemble
-Un dessin d’un oiseau noir et blanc dans un buisson ; 1651–1652, Ispahan safavide, parmi les plus fines études de la nature. Au Cleveland Museum of Art. {cite:cleveland-open-access}
+Un dessin d’un oiseau noir et blanc perché sur un arbuste ; 1651–1652, Ispahan safavide, parmi les plus fines études de la nature. Au Cleveland Museum of Art. {cite:cleveland-open-access}

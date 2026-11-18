@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/krishna-jabal.md
 ---
 ## Vue d’ensemble
-Une page moghole du Hamzanama : Krishna soulève le mont Govardhan pour abriter les villageois, Pakistan ; vers 1590–1595, sous le règne d’Akbar. Conservée au Metropolitan Museum of Art. {cite:met-open-access}
+Une page moghole du Hazar Afsaneh : Krishna soulève le mont Govardhan pour abriter les villageois, Pakistan ; vers 1590–1595, sous le règne d’Akbar. Conservée au Metropolitan Museum of Art. {cite:met-open-access}

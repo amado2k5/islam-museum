@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/ibriq-harabish.md
 ---
 ## Vue d’ensemble
-Une aiguière en céramique ajourée datée de 612 H / 1215–1216 ap. J.-C., décorée de créatures harabiyya et d’ailes, Iran ; l’une des plus belles pièces de céramique de Kashan. Conservée au Metropolitan Museum of Art. {cite:met-open-access}
+Une aiguière en céramique ajourée datée de 612 H / 1215–1216 ap. J.-C., décorée de harpies et d’ailes, Iran ; l’une des plus belles pièces de céramique de Kashan. Conservée au Metropolitan Museum of Art. {cite:met-open-access}

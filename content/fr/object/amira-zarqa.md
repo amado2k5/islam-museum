@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/amira-zarqa.md
 ---
 ## Vue d’ensemble
-Une page illustrée de la Khamsa de Nizami : l’histoire de la princesse de l’aile bleue, Inde ; 1597–1598. Conservée au Metropolitan Museum of Art. {cite:met-open-access}
+Une page illustrée de la Khamsa de Nizami : l’histoire de la princesse du pavillon bleu, Inde ; 1597–1598. Conservée au Metropolitan Museum of Art. {cite:met-open-access}

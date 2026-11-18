@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/mushaf-timuri.md
 ---
 ## Vue d’ensemble
-Un immense Coran de l’époque timouride (XVe siècle), attribué à Ja’far Bayasanghuri et à Umar al-Aqta’ ; l’une des plus grandes œuvres de la calligraphie persane. {cite:wikidata}
+Un immense Coran de l’époque timouride (XVe siècle), attribué aux ateliers de Baysunghur et d’Umar al-Aqta’ ; l’une des plus grandes œuvres de la calligraphie persane. {cite:wikidata}

@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/ibriq-marsus.md
 ---
 ## Vue d’ensemble
-Une aiguière en laiton moulé incrusté d’argent, Iran ou Afghanistan ; vers 1180–1210, Khorasan. Conservée au Metropolitan Museum of Art. {cite:met-open-access}
+Une aiguière en laiton façonné incrusté d’argent, Iran ou Afghanistan ; vers 1180–1210, Khorasan. Conservée au Metropolitan Museum of Art. {cite:met-open-access}

@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/mustariq.md
 ---
 ## Vue d’ensemble
-Une page du Haft Paykar de Nizami : al-Mustariq ; vers 1430, Hérat timouride. Conservée au Metropolitan Museum of Art, à New York. {cite:met-open-access}
+Une page du Haft Paykar de Nizami : l’Indiscret ; vers 1430, Hérat timouride. Conservée au Metropolitan Museum of Art, à New York. {cite:met-open-access}

@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/kuz-iran-900.md
 ---
 ## Vue d’ensemble
-Une aiguière en céramique ; Xe–XIe siècle, Iran. Au Cleveland Museum of Art. {cite:cleveland-open-access}
+Une cruche en céramique ; Xe–XIe siècle, Iran. Au Cleveland Museum of Art. {cite:cleveland-open-access}

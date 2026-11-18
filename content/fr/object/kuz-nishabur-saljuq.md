@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/kuz-nishabur-saljuq.md
 ---
 ## Vue d’ensemble
-Une aiguière en céramique ; XIIe siècle, Nishapur seldjoukide. Au Cleveland Museum of Art. {cite:cleveland-open-access}
+Une cruche en céramique ; XIIe siècle, Nishapur seldjoukide. Au Cleveland Museum of Art. {cite:cleveland-open-access}

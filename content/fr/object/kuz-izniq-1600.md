@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/kuz-izniq-1600.md
 ---
 ## Vue d’ensemble
-Une aiguière d’Iznik ; vers 1600, à la fin de l’âge d’or de la céramique d’Iznik. Au Victoria and Albert Museum, à Londres. {cite:vam-collection}
+Une cruche d’Iznik ; vers 1600, à la fin de l’âge d’or de la céramique d’Iznik. Au Victoria and Albert Museum, à Londres. {cite:vam-collection}

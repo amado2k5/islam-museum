@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/kuz-rayy-1100.md
 ---
 ## Vue d’ensemble
-Une aiguière en céramique ; fin du XIIe siècle, Rayy seldjoukide. Au Cleveland Museum of Art. {cite:cleveland-open-access}
+Une cruche en céramique ; fin du XIIe siècle, Rayy seldjoukide. Au Cleveland Museum of Art. {cite:cleveland-open-access}

@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/kuz-hayawanat.md
 ---
 ## Vue d’ensemble
-Une aiguière en céramique décorée d’animaux courant ; 1150–1220, probablement Kashan. Au Cleveland Museum of Art. {cite:cleveland-open-access}
+Une cruche en céramique décorée d’animaux courant ; 1150–1220, probablement Kashan. Au Cleveland Museum of Art. {cite:cleveland-open-access}

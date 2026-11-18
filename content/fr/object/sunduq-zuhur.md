@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/sunduq-zuhur.md
 ---
 ## Vue d’ensemble
-Une commode incrustée à décor floral ; XVIIe siècle, Inde moghole. Conservée au Metropolitan Museum of Art, à New York. {cite:met-open-access}
+Un coffret à tiroirs incrusté à décor floral ; XVIIe siècle, Inde moghole. Conservé au Metropolitan Museum of Art, à New York. {cite:met-open-access}

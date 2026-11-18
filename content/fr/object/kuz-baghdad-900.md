@@ -10,4 +10,4 @@ provenance:
   source: content/en/object/kuz-baghdad-900.md
 ---
 ## Vue d’ensemble
-Une aiguière ; fin du Xe siècle, Bagdad bouyide. Au Cleveland Museum of Art. {cite:cleveland-open-access}
+Une cruche ; fin du Xe siècle, Bagdad bouyide. Au Cleveland Museum of Art. {cite:cleveland-open-access}
