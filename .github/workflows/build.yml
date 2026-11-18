@@ -123,8 +123,28 @@ jobs:
             site/package-lock.json
       - name: Install
         run: npm ci && npm ci --prefix site
+      # The build of 18 November 2026 on release/spanish (run 44362983867) ended with "the hosted runner lost
+      # communication" two hours in and left no log, so nobody could tell whether memory or disk ran out. The step
+      # below therefore prints the runner's free disk and memory before the build and every five minutes while it
+      # runs, as lines in its own output and as warnings once either is nearly gone, so the last reading before a runner dies shows which one was running
+      # out. The reporter only reads, and it is stopped when the build ends, whatever the result.
       - name: Validate, compile and build (validate → graph → derive → api → astro → pagefind)
-        run: npm run build
+        run: |
+          report() {
+            disk=$(df -BM --output=avail "$GITHUB_WORKSPACE" | tail -1 | tr -dc '0-9')
+            mem=$(free -m | awk '/^Mem:/ {print $7}')
+            swap=$(free -m | awk '/^Swap:/ {print $3}')
+            node=$(ps -eo rss,comm --sort=-rss | awk '$2 ~ /node/ {printf "%d", $1/1024; exit}')
+            line="runner resources $(date -u +%H:%M) UTC: disk free ${disk} MB, memory available ${mem} MB, swap used ${swap} MB, largest node process ${node:-0} MB"
+            # A plain line every time; a warning (kept on the run page, at most ten per step) only when one is nearly gone.
+            if [ "${disk:-0}" -lt 4096 ] || [ "${mem:-0}" -lt 1024 ]; then echo "::warning title=Runner nearly out of disk or memory::${line}"; else echo "$line"; fi
+          }
+          echo "cores: $(nproc)"; df -h "$GITHUB_WORKSPACE"; free -m
+          report
+          ( while sleep 300; do report; done ) &
+          reporter=$!
+          trap 'pkill -P "$reporter" 2>/dev/null || true; kill "$reporter" 2>/dev/null || true' EXIT
+          npm run build
         env:
           # Pagefind indexes are uploaded to R2 and served from there.
           # Set PAGEFIND_BASE_URL as a GitHub Actions variable to the R2 public URL.
