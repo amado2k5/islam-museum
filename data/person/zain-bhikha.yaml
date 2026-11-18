@@ -1,5 +1,6 @@
 id: person/zain-bhikha
 class: person
+aliases: [person/zayn-bikha]   # the same artist filed twice (Wikidata culture-lane card + ulama/muslim500 record); merged 17 Nov 2026, the id still resolves
 tags:
 - ulama-browser
 - ulama-mashahir
@@ -12,6 +13,8 @@ names:
   kind: full
 - value: Zain Bhikha
   kind: full
+- value: Zayn Bikha
+  kind: alternate
 gender: male
 summary:
   ar: مغنٍّ ومنشد جنوب إفريقي وُلد سنة 1974 في بريتوريا؛ من روّاد النشيد بالإنجليزية، أصدر ألبومات منذ 1996 منها «Mountains of Makkah» و«City of Medina»، وتعاون مع يوسف إسلام ويغني للأطفال والأسر في العالم.
@@ -26,6 +29,11 @@ roles:
 wings:
 - people
 - living
+themes:
+- music
+external_ids:
+  wikidata: Q144371
+  viaf: "5245136"
 born:
   edtf: '1974'
   calendar: gregorian
@@ -39,7 +47,22 @@ faith:
   basis: documented
   note: Documented as a South African Muslim nasheed singer; his entire career is Islamic devotional song.
   sources: *id001
-sources: *id001
+occupations:
+- job: job/musician
+  kind: primary
+  status: historical
+  note: "merge-map link from role 'musician', Job Browser linking wave 21 (from merged record person/zayn-bikha)"
+  sources: [source/wikidata]
+relations:
+- type: born_in
+  target: place/pretoria
+  sources: [source/wikidata]
+  confidence: medium
+  note: "Wikidata P19 place of birth (Wikidata Q3926), carried from merged record person/zayn-bikha"
+sources:
+- source/wikipedia-zain-bhikha
+- source/muslim500-zain-bhikha
+- source/wikidata
 provenance:
   layer: own-research
   source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026

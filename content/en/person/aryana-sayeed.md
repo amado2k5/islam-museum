@@ -14,7 +14,7 @@ She left Afghanistan as a child during the civil war, living in Pakistan and Swi
 Singing mainly in Dari, she released hits including Banoo-ye Ahanin ⁦(Lady of Iron)⁩, Afghan Pesarak and a popular rendition of the national anthem, mixing pop production with Afghan melodic traditions and themes of love and women's strength. {cite:wikipedia-aryana-sayeed}
 
 ## Advocacy
-Her concerts in Kabul — including a 2017 show held despite security threats and a stadium performance on Afghan Independence Day — were treated in the press as statements for women's public presence. She left Afghanistan in August 2021 during the Taliban takeover and continued performing abroad. {cite:wikipedia-aryana-sayeed}
+Her concerts in Kabul — including a 2017 show held despite security threats and a stadium performance on Afghan Independence Day — were treated in the press as statements for women's public presence. She left Afghanistan in August 2021 during the August 2021 takeover of Afghanistan by an armed group and continued performing abroad. {cite:wikipedia-aryana-sayeed}
 
 ## Assessment
 Supporters see her as a symbol of Afghan women's freedom of expression; religious conservatives criticised her stage presence. The museum reports these positions attributed to their sources, without verdict. {cite:wikipedia-aryana-sayeed} {cite:muslim500-aryana-sayeed}
