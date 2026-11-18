@@ -17,5 +17,5 @@ Al-Suyuti dit qu'il ordonna la justice et fit respecter la sunna. Il prescrivit 
 
 Il ajoute qu'après lui aucun d'entre eux ne s'imposa et qu'ils se dispersèrent. {cite:tarikh-khulafa-minhaj-1434 p.735}
 
-## Notes pour les chercheurs
+## Pour les Chercheurs
 - Il s'agit du seul récit d'al-Suyuti ; une source supplémentaire est nécessaire.

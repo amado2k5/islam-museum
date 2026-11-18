@@ -17,5 +17,5 @@ Ibn Khaldun rapporte que le sultan Abu al-Hasan al-Marini transféra la maison d
 
 Après le désastre de Kairouan, ils passèrent par Tunis puis rejoignirent le Chélif. Les leurs se rassemblèrent autour d'eux et prêtèrent allégeance à Uthman, sur le bouclier, à la porte du lieu de prière de l'Aïd à Tunis. Lui et son frère conclurent un pacte avec Ali ibn Rashid, émir des Maghrawa, et reconquirent le royaume de Tlemcen. {cite:tarikh-ibn-khaldun-ibar}
 
-## Notes pour les chercheurs
+## Pour les Chercheurs
 - Les données ne précisent ni son année de décès ni le numéro de page ; une seconde source est nécessaire.

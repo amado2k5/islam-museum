@@ -12,5 +12,5 @@ provenance:
 ## Vue d'ensemble
 Abu Salama al-Zutti commandait les Sayabija, gardiens du trésor de Bassora, lorsqu'ils furent tués par les partisans du Chameau. La source le décrit comme un homme vertueux. {cite:futuh-buldan-maarif-1407}
 
-## Notes pour les chercheurs
+## Pour les Chercheurs
 - Les données ne précisent ni la page ni d'autres événements de sa vie ; une seconde source est nécessaire.

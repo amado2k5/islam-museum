@@ -19,5 +19,5 @@ Lorsque Marrakech le refusa, il se jeta sur les terres des Ghumara, dont les tri
 
 Il entra dans la nouvelle capitale au milieu de chaabane 760 H, tua Mansur ibn Sulayman et nomma Mas'ud ibn Masai vizir. {cite:tarikh-ibn-khaldun-ibar}
 
-## Notes pour les chercheurs
+## Pour les Chercheurs
 - Les données ne précisent ni son année de décès ni le numéro de page ; une seconde source est nécessaire.
