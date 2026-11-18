@@ -1,0 +1,43 @@
+---
+id: person/ali-javan
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-person-06-batch-5
+  source: content/en/person/ali-javan.md
+---
+## Résumé
+Ali Javan (26 décembre 1926 – 12 septembre 2016) était un physicien et inventeur irano-américain, né à Téhéran et mort à Los Angeles. {cite:wikipedia-ali-javan-en} {cite:nihf-ali-javan} Il fut le premier à proposer le concept du laser à gaz, en 1959 aux Bell Telephone Laboratories, et construisit avec W. R. Bennett Jr. et D. R. Herriott son premier modèle fonctionnel en 1960 : le laser hélium-néon, premier laser fonctionnant en continu. {cite:wikipedia-ali-javan-en} Ses autres contributions portèrent sur la physique quantique et la spectroscopie, et il passa l’essentiel de sa carrière comme professeur au Massachusetts Institute of Technology. {cite:wikipedia-ali-javan-en} {cite:optica-ali-javan-obituary}
+
+## Jeunesse et formation
+Javan naquit à Téhéran de parents iraniens azéris originaires de Tabriz. {cite:wikipedia-ali-javan-en} Son père était avocat et sa mère avait des dispositions artistiques ; il commença ses études à l’université de Téhéran en 1947–1948 avant de s’installer aux États-Unis en 1949. {cite:ethw-ali-javan} Il fréquenta une école tenue par des zoroastriens, obtint son diplôme du lycée Alborz et étudia un an à la faculté des sciences de l’université de Téhéran. {cite:wikipedia-ali-javan-en} Lors d’une visite à New York en 1948, il suivit plusieurs cours de troisième cycle à l’université Columbia et obtint son doctorat en 1954 sous la direction de Charles Townes, sans avoir obtenu de licence ni de master. {cite:wikipedia-ali-javan-en} À Columbia, il suivit aussi les cours de musique du compositeur Henry Cowell. {cite:ethw-ali-javan}
+
+## Carrière scientifique
+Après son doctorat, Javan occupa un poste postdoctoral au laboratoire de rayonnement de Columbia et travailla avec Townes sur les horloges atomiques, utilisant le spectromètre à jet atomique et à micro-ondes pour étudier la structure hyperfine d’atomes comme le cuivre et le thallium. {cite:wikipedia-ali-javan-en} En 1957, il publia un article sur la théorie d’un maser à trois niveaux ; sa découverte de l’effet Raman stimulé montra qu’une transition Raman décalée vers Stokes peut produire une amplification sans inversion de population, préfigurant la classe d’effets connus comme lasers sans inversion. {cite:wikipedia-ali-javan-en}
+
+Il rejoignit les Bell Telephone Laboratories en 1958, peu après avoir conçu le principe de fonctionnement de son laser hélium-néon à décharge gazeuse, et soumit son article à publication ; Samuel Goudsmit l’examina en 1960. {cite:wikipedia-ali-javan-en} Il passa ensuite au MIT : l’article anglais dit qu’il débuta comme professeur associé de physique en 1961 et devint professeur en 1964, tandis qu’Optica et l’Engineering and Technology History Wiki situent son arrivée en 1962 ; il resta professeur émérite de physique titulaire de la chaire Francis Wright Davis jusqu’à sa mort. {cite:wikipedia-ali-javan-en} {cite:optica-ali-javan-obituary} {cite:ethw-ali-javan}
+
+## Le laser à gaz
+Le laser à gaz de Javan fut le premier laser fonctionnant en continu, avec une très faible alimentation d’environ 25 watts dans le premier modèle, contre les milliers de watts nécessaires aux brèves impulsions des lasers à rubis ; sa puissance de sortie était d’environ un milliwatt. {cite:wikipedia-ali-javan-en} Il surpassait largement le laser à rubis par l’étroitesse de ses longueurs d’onde de sortie : son faisceau infrarouge mesurait un peu moins d’un demi-pouce de large et ne s’élargissait pas de plus d’un pied sur un mile. {cite:wikipedia-ali-javan-en} Un jour après sa réalisation, on l’utilisa pour transmettre un appel téléphonique ; Javan raconta plus tard avoir appelé le laboratoire, où un membre de l’équipe lui demanda de patienter, avant d’entendre une voix un peu tremblante dans la transmission lui dire que c’était la lumière du laser qui lui parlait. {cite:wikipedia-ali-javan-en} Le brevet américain du laser hélium-néon porte le numéro 3 149 290. {cite:nihf-ali-javan}
+
+## Autres travaux
+En 1961, Javan réalisa la première démonstration de battements hétérodynes optiques avec des lasers et observa le creux de désaccord appelé creux de Lamb en balayant, avec un laser monomode, son profil de gain élargi par effet Doppler ; avec ses collègues, il fut un pionnier de la stabilisation des fréquences laser par des techniques utilisant ce creux. {cite:wikipedia-ali-javan-en} En 1964, il conçut avec Townes des expériences laser pour tester la relativité restreinte, dont une variante de l’expérience de dérive de l’éther de Michelson-Morley ; son groupe la répéta avec une sensibilité permettant de détecter un changement de seulement 0,03 millimètre par seconde. {cite:wikipedia-ali-javan-en} Au MIT, il introduisit le concept d’antenne optique, permettant le confinement presque complet d’un champ optique incident dans une structure réceptrice infinitésimale ; par cette méthode, il développa la première mesure absolument exacte de la vitesse de la lumière. {cite:wikipedia-ali-javan-en} {cite:ethw-ali-javan} Il poursuivit ses recherches dans ce qu’il appelait « l’électronique optique », en adaptant les éléments électroniques à des fréquences aussi élevées que celles du rayonnement optique visible. {cite:wikipedia-ali-javan-en}
+
+## Distinctions
+Javan reçut la médaille Stuart Ballantine du Franklin Institute en 1962 « pour la conception et le développement du premier laser optique continu utilisant le néon et l’hélium », la médaille Frederic Ives de l’Optical Society of America en 1975, le prix mondial des sciences Albert Einstein en 1993 et fut admis au National Inventors Hall of Fame en 2006. {cite:wikipedia-ali-javan-en} {cite:nihf-ali-javan} En 1966, il partagea avec Theodore Maiman un prix en espèces remis par le président Johnson en hommage à leurs travaux ; en 1971, il dirigea le Symposium sur la physique des lasers à l’université d’Ispahan. {cite:wikipedia-ali-javan-en} L’article ourdou mentionne des nominations au prix Nobel de physique en 1962 et 1963, citant la Fondation Nobel ; en 2007, le Daily Telegraph le classa douzième de sa liste des « 100 plus grands génies vivants ». {cite:wikipedia-ali-javan-ur} {cite:wikipedia-ali-javan-en}
+
+## Positions et critiques
+Cette section présente les désaccords et variantes tels que les rapportent les sources ; elle n’est pas un verdict du musée. L’article anglais présente Javan comme « le premier à proposer le concept du laser à gaz », tandis qu’Optica le qualifie de co-inventeur avec William R. Bennett et que l’article ajoute Herriott comme troisième constructeur du prototype ; la différence de formulation de la priorité est consignée selon les sources. {cite:wikipedia-ali-javan-en} {cite:optica-ali-javan-obituary} Elles divergent aussi sur de petits détails : la notice du Marquis Who’s Who reprise par Prabook situe sa naissance au 27 décembre 1926 plutôt qu’au 26 retenu ici, et son arrivée au MIT est donnée en 1961 ou 1962, comme indiqué plus haut. {cite:wikipedia-ali-javan-en} {cite:optica-ali-javan-obituary} Quant à sa religion, l’infobox de l’article arabe indique l’islam chiite, et la « Liste des musulmans chiites » en anglais le compte parmi les scientifiques ; ces deux éléments appartiennent au même écosystème Wikipédia/Wikidata et aucune source extérieure consultée pour cette fiche — la nécrologie d’Optica, la biographie d’ETHW — ne nomme de religion ni d’école ; le musée n’inscrit donc aucune école dans ses données et ne rapporte cette affirmation qu’ici. {cite:wikipedia-ali-javan-ar} {cite:optica-ali-javan-obituary} {cite:ethw-ali-javan}
+
+## Vie personnelle
+Javan mourut le 12 septembre 2016, laissant son épouse Marjorie et leurs deux filles Lila et Maia. {cite:wikipedia-ali-javan-en} Le musée ne consigne pas d’autres détails familiaux.
+
+## Héritage
+Le laser hélium-néon qu’il co-inventa devint, selon le National Inventors Hall of Fame, le type de laser en usage le plus utile et le plus pratique ; les générations suivantes de lasers à gaz contribuèrent à la transmission de données sur Internet, aux lecteurs de codes-barres, aux imprimantes laser et aux technologies médicales. {cite:nihf-ali-javan} {cite:optica-ali-javan-obituary} Robert J. Scully et Marlan O. Scully rédigèrent sa notice biographique pour la National Academy of Sciences en 2019. {cite:wikipedia-ali-javan-en}
+
+## Sources
+- Les entités sources définies citées ci-dessus, enregistrées dans `data/source/`.
+- Les révisions de cet article doivent être datées et nommer la source ayant modifié chaque fait.
