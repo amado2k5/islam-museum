@@ -104,6 +104,12 @@ A fourth build blocker, fixed: `scripts/time-browser.ts` wrote its per-language 
 
 Terms a Spanish-speaking reader should review in the prose: `anticalifa`, `los Siete Juristas`, `Sucesores` (for the Successors), `burchíes`, `benimerín`, `ilkhánidas`, `Hiyaz`, `Jorasán`, `Bujará`, `Solimán`, `derecho anglo-muhammadan`, and the translated titles of television programmes and books.
 
+### Held records and English-source defects found while translating
+
+- `event/al-nawawi-minhaj-rawda-669`: the English prose file ends with a stray quotation mark and an `ur:` line of Urdu text that leaked in from a frontmatter mix-up. Not translated; the English file needs repair first (not edited by this lane).
+- `person/sayyid-qutb`, `person/yusuf-al-qaradawi` and the other records on the firewall exceptions list: held for the founder (see above).
+- Place-name spelling varies between packets (Basra / Basora, Aleppo / Alepo, Khurasan / Jorasán, Tunis / Túnez): a normalising pass is owed.
+
 ### Packet log (one agent at a time)
 
 - Wave 8, packet 5: landed and merged; `content/es/` holds 1,554 files; `npm run validate` 0 errors.
@@ -118,10 +124,11 @@ Terms a Spanish-speaking reader should review in the prose: `anticalifa`, `los S
 - Wave 9, packet 6: landed and merged; `content/es/` holds 2,601 files; `npm run validate` 0 errors.
 - Wave 9, packet 7: landed and merged; `content/es/` holds 2,761 files; `npm run validate` 0 errors.
 - Wave 9, packet 8: landed and merged; `content/es/` holds 2,921 files; `npm run validate` 0 errors.
+- Wave 10, packet 1: landed and merged; `content/es/` holds 3,029 files; `npm run validate` 0 errors.
 
 ## Explicit gaps
 
-- `content/es/`: 2,921 files of about 34,800 (waves 1 to 8 so far, above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
+- `content/es/`: 3,029 files of about 34,800 (waves 1 to 8 so far, above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
 - `data/*.yaml`: no `label.es` / `summary.es`.
 - Datasets (`edu/`, `kids/`, `tour/`, `cards/`): no `es` fields; the strict loaders still require only ar, en and ur.
 - Spanish Qur'an translation for passage pages: no source chosen or registered (`scripts/harvest/quran/translations.py` takes English and Urdu only). The translation and its licence are pending the founder's confirmation.
