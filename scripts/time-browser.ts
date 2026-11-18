@@ -12,7 +12,7 @@ export const TOPICS = [
 ] as const
 export type Topic = (typeof TOPICS)[number]
 export const LAUNCH_PER_TOPIC = 50
-const LANGS = ['ar', 'en', 'ur'] as const
+const LANGS = ['ar', 'en', 'ur', 'fr', 'es'] as const
 
 export interface GraphNode {
   id: string
