@@ -1,0 +1,34 @@
+---
+id: event/capture-and-islam-of-thumama-ibn-uthal
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-02
+  source: content/en/event/capture-and-islam-of-thumama-ibn-uthal.md
+---
+## Vue d'ensemble
+Ibn Ishaq compte parmi les expéditions « l'expédition qui captura [[person/thumama-ibn-uthal|Thumama ibn Uthal al-Hanafi]] », et la rapporte sur la mention « il m'est parvenu », d'après Abu Sa'id al-Maqbari, d'après [[person/abu-hurayra|Abu Hurayra]]. {cite:ibn-hisham-saqqa 4/287}
+
+## La capture et le bon traitement du captif
+Des cavaliers du Prophète sortirent et prirent un homme des [[group/banu-hanifa|Banu Hanifa]] sans savoir qui il était. Quand ils l'amenèrent, le Prophète dit : « Savez-vous qui vous avez pris ? C'est Thumama ibn Uthal al-Hanafi ; traitez bien sa captivité. » {cite:ibn-hisham-saqqa 4/287} Puis il retourna auprès de sa maisonnée et dit : « Rassemblez ce que vous avez de nourriture et envoyez-le-lui », et il ordonna qu'on lui amène sa chamelle laitière matin et soir, mais cela ne fit aucun effet sur Thumama. {cite:ibn-hisham-saqqa 4/287}
+
+## L'invitation et la libération
+Le Prophète venait le voir et lui disait : « Embrasse l'islam, ô Thumama. » Il répondait : « Parle, ô Muhammad ; si tu tues, tu tues un homme qui a du sang à venger, et si tu veux une rançon, demande ce que tu veux. » Il resta ainsi aussi longtemps que Dieu le voulut. Puis le Prophète dit un jour : « Libérez Thumama. » {cite:ibn-hisham-saqqa 4/287} Une fois libéré, il sortit vers al-Baqi', se lava et se lava bien, puis vint prêter serment au Prophète sur l'islam. {cite:ibn-hisham-saqqa 4/287} {cite:ibn-hisham-saqqa 4/288} Le soir venu, on lui apporta la nourriture qu'on lui apportait d'ordinaire, et il n'en prit qu'un peu, et du lait de la chamelle il ne tira qu'un peu, et les musulmans s'en étonnèrent. Le Prophète dit : « Pourquoi vous étonnez-vous ? D'un homme qui a mangé au début du jour dans le ventre d'un incroyant et a mangé à la fin du jour dans le ventre d'un musulman ! L'incroyant mange dans sept intestins, et le musulman mange dans un seul intestin. » {cite:ibn-hisham-saqqa 4/288}
+
+## Les ajouts d'Ibn Hisham
+Ibn Hisham dit : « Il m'est parvenu qu'il sortit accomplir le petit pèlerinage, et lorsqu'il fut dans la vallée de La Mecque, il prononça la talbiya, et il fut le premier à entrer à La Mecque en la prononçant. Les Quraysh se saisirent de lui et dirent : "Tu as osé t'en prendre à nous." Quand ils l'amenèrent pour lui trancher le cou, quelqu'un dit : "Laissez-le, car vous aurez besoin d'al-Yamama pour votre nourriture", et ils le laissèrent aller. » Ibn Hisham dit aussi que le Hanafite composa un vers à ce propos, se glorifiant de celui qui prononça la talbiya à La Mecque, la proclamant au défi d'Abu Sufyan pendant les mois sacrés. {cite:ibn-hisham-saqqa 4/288} On rapporta à Ibn Hisham qu'il dit au Prophète en devenant musulman : « Ton visage était pour moi le plus haï des visages, et il est devenu pour moi le plus cher des visages », et il en dit autant de la religion et des contrées. {cite:ibn-hisham-saqqa 4/288} Quand il vint à La Mecque, on lui dit : « T'es-tu détourné, Thumam ? » Il répondit : « Non, mais j'ai suivi la meilleure des religions, la religion de Muhammad ; et par Dieu, pas un grain ne vous parviendra d'al-Yamama tant que le Messager de Dieu ne l'aura pas permis. » Il partit pour [[place/al-yamama|al-Yamama]] et les empêcha de rien transporter vers La Mecque. Les Quraysh écrivirent au Prophète : « Tu ordonnes de maintenir les liens de parenté, et tu as rompu nos liens, et tu as tué les pères par l'épée et les fils par la faim. » Le Prophète lui écrivit de les laisser transporter leurs marchandises. {cite:ibn-hisham-saqqa 4/288}
+
+## Au musée
+Le récit est un modèle, chez les auteurs de la sira, du « noble captif » : bon traitement de la captivité, puis libération sans rançon, puis islam par choix, puis un effet économique sur le blocus de Quraysh, et l'intervention du Prophète pour le lever à la demande de ses adversaires eux-mêmes. Al-Bukhari le rapporte d'après al-Maqbari sous une forme proche, avec Thumama attaché à un pilier de la mosquée, ce qui ne figure pas ici dans le texte d'Ibn Ishaq. {cite:ibn-hisham-saqqa 4/287}
+
+## Marques du récit
+- La chaîne : « Il m'est parvenu d'Abu Sa'id al-Maqbari, d'après Abu Hurayra. » {cite:ibn-hisham-saqqa 4/287}
+- La phrase « et tu as tué les pères par l'épée et les fils par la faim » manque dans une copie. {cite:ibn-hisham-saqqa 4/288}
+- Les récits sur le petit pèlerinage, la talbiya et l'interdiction des approvisionnements viennent d'Ibn Hisham avec « il m'est parvenu » et « on m'a rapporté ». {cite:ibn-hisham-saqqa 4/288}
+- L'événement n'est pas daté.
+
+## Dans le programme de Ragheb El-Sergani, Qu'ont apporté les musulmans au monde
+[[person/ragheb-al-sergani|Ragheb El-Sergani]] raconte l'histoire dans le quinzième épisode comme témoignage du traitement des captifs : dans son récit, Thumama ibn Uthal des Banu Hanifa vint à Médine dans l'intention de tuer le Prophète, les musulmans se saisirent de lui et l'attachèrent dans la mosquée du Prophète, et le Prophète lui demanda ce qu'il attendait ; il répondit que s'il faisait grâce, ce serait à un homme reconnaissant, que s'il voulait des richesses, on lui donnerait ce qu'il souhaitait, et que s'il tuait, il tuerait un homme dont le sang serait vengé. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep15 00:25:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep15 00:26:00} Il dit que le Prophète demanda à ses Compagnons d'honorer leur captif ; ils lui apportèrent donc de la nourriture, la scène se répéta pendant trois jours, puis il le libéra sans rançon ; Thumama revint et embrassa l'islam, disant que Médine avait été pour lui la plus haïe des contrées et était devenue la plus aimée, et que le Prophète avait été pour lui le plus haï des hommes et était devenu le plus aimé. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep15 00:26:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep15 00:27:00} Il conclut en notant que Thumama mangeait beaucoup comme captif et peu après son islam, et que le Prophète remarqua que l'incroyant mange avec sept estomacs et le croyant avec un seul. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep15 00:27:00} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep15 00:27:30} Les récits donnés sur cette page disent qu'un détachement de cavaliers du Prophète le captura ; son intention de tuer le Prophète relève du récit de l'orateur. Dans le onzième épisode, il renvoie à cette histoire dans son exposé sur les droits humains. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep11 00:23:00}
