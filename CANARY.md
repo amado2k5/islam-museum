@@ -28,6 +28,7 @@ open a new block on top with the new version and today's date.
 
 ### Tests
 - **The site check reads a partly translated strings file.** `scripts/check-site.ts` crashed on a language whose `i18n` file lacks a section (French today); it now falls back to the English string, as the pages do.
+- **The accessible books step runs in five languages.** `scripts/a11y-books.ts` kept one list per language for four of the five and crashed on Spanish at the very end of the first full build of `release/spanish` (after 460,598 pages had been built and checked with 0 errors). French and Spanish now also go through their own braille tables instead of the Arabic path. Known limit: the Spanish and French braille files lose accented letters.
 - **Three tests assert the published languages again.** `pipeline.test.ts`, `tour.test.ts` and `modern.test.ts` expected French prose, French tour fields and a four-language fixture that do not exist yet, which failed the build workflow on the release branches. All 634 tests pass.
 
 ## v2.23.0 — 2026-11-17

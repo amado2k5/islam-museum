@@ -20,7 +20,11 @@ const BRL_TABLE: Record<string, string> = {
   ar: "/tables/ar-ar-g1.utb", // liblouis has no Arabic contracted table
   en: "/tables/en-ueb-g2.ctb",
   ur: "/tables/ur-pk-g2.ctb",
+  fr: "/tables/fr-fr-g1.utb", // uncontracted French
+  es: "/tables/es-g1.ctb", // uncontracted Spanish
 };
+// Languages written in Latin script: the whole paragraph goes through the language's own table.
+const LATIN_BRL = new Set(["en", "fr", "es"]);
 const LIBLOUIS_VERSION = "3.2.0"; // must match the liblouis-build wasm in node_modules
 
 const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -84,7 +88,7 @@ function brailleOf(text: string, lang: string): string {
     .replace(/[0-9]+/g, "#$&")
     .replace(/[^\x20-\x7E]/g, " ");
   const braillePara = (words: string): string => {
-    if (lang === "en") return toBrfAscii(passthrough(safe(words)));
+    if (LATIN_BRL.has(lang)) return toBrfAscii(passthrough(safe(words)));
     let out = "", last = 0;
     for (const m of words.matchAll(ARABIC_RUN)) {
       out += passthrough(words.slice(last, m.index)) + toBrfAscii(safe(m[0]));
@@ -210,7 +214,7 @@ for (const lang of LANGS) {
 }
 
 let made = 0, skipped = 0;
-const indexLinks: Record<string, { slug: string; title: string }[]> = { ar: [], en: [], ur: [], fr: [] };
+const indexLinks: Record<string, { slug: string; title: string }[]> = Object.fromEntries(LANGS.map((l) => [l, []]));
 for (const lang of LANGS) {
   for (const c of corpus) {
     if (!c.dir.includes(`/${lang}/`)) continue;
