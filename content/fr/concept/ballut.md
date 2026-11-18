@@ -13,7 +13,7 @@ provenance:
 Il est bien connu et astringent. Le type châtaignier est le moins astringent. Sa partie la plus resserrante est la jiffa, l’écorce intérieure {cite:canon-ibn-sina-print-v1 p.408}. La note décrit l’arbre d’après une référence moderne, non utilisée ici.
 
 ## Tempérament et actions
-Le chêne est froid et sec au deuxième degré et froid au premier. Le châtaignier possède un peu de chaleur du fait de sa douceur. La feuille de chêne est plus astringente et moins desséchante {cite:canon-ibn-sina-print-v1 p.408}.
+Le chêne est froid et sec : sec au deuxième degré, froid au premier. Le châtaignier possède un peu de chaleur du fait de sa douceur. La feuille de chêne est plus astringente et moins desséchante {cite:canon-ibn-sina-print-v1 p.408}.
 
 ## Usages par organe
 Actions : la châtaigne a un lustre ; toutes les espèces produisent des vents dans le bas-ventre, resserrent, arrêtent les écoulements, surtout l’écorce intérieure, et fortifient les organes {cite:canon-ibn-sina-print-v1 p.408}.
