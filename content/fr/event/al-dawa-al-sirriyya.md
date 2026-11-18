@@ -2,7 +2,6 @@
 id: event/al-dawa-al-sirriyya
 lang: fr
 source_lang: ar
-translation_of: ar@47d431dd80212e2babfa75e3130508778540e8a1c4b8bdbe37956dd11b418891
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

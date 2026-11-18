@@ -2,7 +2,6 @@
 id: event/al-daam-weighs-peace-with-al-hadi-and-sets-conditions-286
 lang: fr
 source_lang: en
-translation_of: ar@bbef03e4903a367fe625763850e5e794d93f7a919ca9ea7e5e30199645b61a9c
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

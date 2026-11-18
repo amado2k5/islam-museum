@@ -2,7 +2,6 @@
 id: event/ahmad-ibn-al-dahhak-and-murawwi-on-al-hadis-prayers-against-abu-mihjan-and-jaftam-286
 lang: fr
 source_lang: ar
-translation_of: ar@65c05e74ab8b5dff46b4ffb6a309f1bf47847d0e125380794f783aee9d5636a7
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

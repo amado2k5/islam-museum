@@ -2,7 +2,6 @@
 id: event/akhlat-fitna-604
 lang: fr
 source_lang: en
-translation_of: ar@623af1152fa0bd833e3c15e54263f765c66bd199691580cf4cc2011c5daa1fb6
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

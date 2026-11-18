@@ -2,7 +2,6 @@
 id: event/al-ashari-studies-jubbai-basra
 lang: fr
 source_lang: en
-translation_of: ar@3230183e6b75291341ebeeb729342c1daeb4813c78c674fda38c0db5aeddd062
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

@@ -2,7 +2,6 @@
 id: event/address-to-the-ansar-at-jirana
 lang: fr
 source_lang: ar
-translation_of: ar@dc04761735f184febd0ad659e7fa877c18e8c3c689aea2c0d31500d8d585f8e8
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

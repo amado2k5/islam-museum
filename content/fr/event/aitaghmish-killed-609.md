@@ -2,7 +2,6 @@
 id: event/aitaghmish-killed-609
 lang: fr
 source_lang: en
-translation_of: ar@aacda0f9e4c804d3f2e8086626625b93438d7769233b668eeb56c16bea0e994b
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

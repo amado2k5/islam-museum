@@ -2,7 +2,6 @@
 id: event/al-ashari-moves-baghdad
 lang: fr
 source_lang: en
-translation_of: ar@5f1d965e902c47a5b371958200582a7e0819c0fac8da593925e6115ff6142a87
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

@@ -2,7 +2,6 @@
 id: event/akbar-annexes-gujarat-980
 lang: fr
 source_lang: en
-translation_of: ar@1584be2ca9ece30ae871b2fb396cfab6443e747c22679f4418c598db4690b7ef
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

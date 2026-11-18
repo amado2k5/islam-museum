@@ -2,7 +2,6 @@
 id: event/al-daam-gives-up-the-fight-and-leaves-khiwan-for-ghuraq-286
 lang: fr
 source_lang: en
-translation_of: ar@4a04f555e627224af5dae2891e7eea8036bfdaaca6c0153aecd3006c2cb532f8
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

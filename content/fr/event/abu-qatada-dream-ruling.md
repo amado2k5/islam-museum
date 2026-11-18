@@ -2,7 +2,6 @@
 id: event/abu-qatada-dream-ruling
 lang: fr
 source_lang: ar
-translation_of: ar@cf5180fc78a60e87a1b31044316eb2299755d618a24da55e1dd7b121625f069b
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

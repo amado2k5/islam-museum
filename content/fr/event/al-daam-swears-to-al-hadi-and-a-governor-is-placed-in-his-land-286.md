@@ -2,7 +2,6 @@
 id: event/al-daam-swears-to-al-hadi-and-a-governor-is-placed-in-his-land-286
 lang: fr
 source_lang: en
-translation_of: ar@4951ca80c072a73a716e5f12fb3f71948a6fc672d7ccf5cc3500c1a911444c3b
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

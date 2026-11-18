@@ -2,7 +2,6 @@
 id: event/abu-bakr-address-on-the-day-of-the-prophets-death
 lang: fr
 source_lang: ar
-translation_of: ar@58b0ce7a89ec6b472469aee4823df00980f70b3be16060ac7074e5a85b9a0656
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

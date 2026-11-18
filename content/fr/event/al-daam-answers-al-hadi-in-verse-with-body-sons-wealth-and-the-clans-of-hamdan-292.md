@@ -2,7 +2,6 @@
 id: event/al-daam-answers-al-hadi-in-verse-with-body-sons-wealth-and-the-clans-of-hamdan-292
 lang: fr
 source_lang: en
-translation_of: ar@5ede708fc99ec5945763177ed5790f29b1328ce1e5112389fa6bbaa0ae3a7c4a
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

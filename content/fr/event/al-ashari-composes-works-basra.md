@@ -2,7 +2,6 @@
 id: event/al-ashari-composes-works-basra
 lang: fr
 source_lang: en
-translation_of: ar@3c78c6bec396812218ceb494a1f02aecff7939413e4a5cd8897b516e0d51f527
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

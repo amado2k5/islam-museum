@@ -2,7 +2,6 @@
 id: event/abu-quhafa-conversion
 lang: fr
 source_lang: ar
-translation_of: ar@d3837316350f2f2fc7b72f79b0458453705ea74c6245e26ea00caa42dc0430b3
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

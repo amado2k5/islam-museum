@@ -2,7 +2,6 @@
 id: event/al-dhahabi-begins-hadith-690
 lang: fr
 source_lang: en
-translation_of: ar@25f44d09feb56a1ad8554d76f7af190e4ab8a88d75171b43b438ce219058896b
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

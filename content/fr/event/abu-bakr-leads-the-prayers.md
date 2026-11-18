@@ -2,7 +2,6 @@
 id: event/abu-bakr-leads-the-prayers
 lang: fr
 source_lang: ar
-translation_of: ar@4f9a4ffd5ac0172bce7d25ac77ac295d494a2ae6c953323e841bf23e7a6697b4
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

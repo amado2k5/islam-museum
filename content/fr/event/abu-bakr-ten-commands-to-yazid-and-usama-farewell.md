@@ -2,7 +2,6 @@
 id: event/abu-bakr-ten-commands-to-yazid-and-usama-farewell
 lang: fr
 source_lang: ar
-translation_of: ar@f8e3b1cab45423f09ee0e111e20998d9c36fd1b9948bb6a6b23295f7f27d17b6
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

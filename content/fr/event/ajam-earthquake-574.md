@@ -2,7 +2,6 @@
 id: event/ajam-earthquake-574
 lang: fr
 source_lang: en
-translation_of: ar@9df6228ce3160c7baa3fa3f2a53f11ec2c1b72657df16068c3000b12444f329b
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

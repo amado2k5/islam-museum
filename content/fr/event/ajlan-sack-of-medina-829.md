@@ -2,7 +2,6 @@
 id: event/ajlan-sack-of-medina-829
 lang: fr
 source_lang: en
-translation_of: ar@00f708b1012b892dfc9d2d189ba68805dfa56dbc53b6e71ff230aa7033d37a4d
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

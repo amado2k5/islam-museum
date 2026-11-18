@@ -2,7 +2,6 @@
 id: event/al-adil-takes-damascus-592
 lang: fr
 source_lang: en
-translation_of: ar@27ebe977b4181194f57405da6588f46ea743a7299c191342a101aec32587cbd2
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

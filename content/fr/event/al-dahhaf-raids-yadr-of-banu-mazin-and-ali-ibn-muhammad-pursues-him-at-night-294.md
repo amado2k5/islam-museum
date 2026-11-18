@@ -2,7 +2,6 @@
 id: event/al-dahhaf-raids-yadr-of-banu-mazin-and-ali-ibn-muhammad-pursues-him-at-night-294
 lang: fr
 source_lang: en
-translation_of: ar@21bcb6604aa259a70969ab926e16e8d19aa6f0fcbd2a75d9d22ffc55299e5815
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

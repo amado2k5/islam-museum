@@ -2,7 +2,6 @@
 id: event/al-awzai-letter-to-salih
 lang: fr
 source_lang: ar
-translation_of: ar@365091f04c37cd96dc97c4b2072f29db0504aa20c27abdd2efc980e30d52a3b6
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

@@ -2,7 +2,6 @@
 id: event/abu-dharr-lags-behind-on-the-march
 lang: fr
 source_lang: ar
-translation_of: ar@564506083b6ca1b4c4f5d7f538611755c3be65788e60f38848e497b163db62ee
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

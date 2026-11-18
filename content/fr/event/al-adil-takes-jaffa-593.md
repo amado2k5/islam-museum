@@ -2,7 +2,6 @@
 id: event/al-adil-takes-jaffa-593
 lang: fr
 source_lang: en
-translation_of: ar@916baf70184a56aa436163b03c1f4f7a392ae6f1e060e2f58cc01a40d58a59a6
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

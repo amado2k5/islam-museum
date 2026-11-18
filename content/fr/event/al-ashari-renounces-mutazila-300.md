@@ -2,7 +2,6 @@
 id: event/al-ashari-renounces-mutazila-300
 lang: fr
 source_lang: en
-translation_of: ar@aba915dbe16911f7ef33ca1d28e90a20167e6aa052cb58879f9f4a914b4699fa
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

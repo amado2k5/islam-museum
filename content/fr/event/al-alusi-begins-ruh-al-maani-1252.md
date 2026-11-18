@@ -2,7 +2,6 @@
 id: event/al-alusi-begins-ruh-al-maani-1252
 lang: fr
 source_lang: en
-translation_of: ar@41e18f7c5d8bc414bfa8a6683d42a91174db670799c5d99b3ef6309352dda48c
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

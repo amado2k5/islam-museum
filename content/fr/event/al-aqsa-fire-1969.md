@@ -2,7 +2,6 @@
 id: event/al-aqsa-fire-1969
 lang: fr
 source_lang: en
-translation_of: ar@3327f38bdc3592d8481807ba91a6eebe695b0ffed5fb76ff77668a8ee4b14784
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

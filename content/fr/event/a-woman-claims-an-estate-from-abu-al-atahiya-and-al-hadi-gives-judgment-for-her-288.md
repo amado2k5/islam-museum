@@ -2,7 +2,6 @@
 id: event/a-woman-claims-an-estate-from-abu-al-atahiya-and-al-hadi-gives-judgment-for-her-288
 lang: fr
 source_lang: ar
-translation_of: ar@40a480b0e5e9935808927b7ba4fd792f0906c5726d070c2981fa4efc5b301732
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

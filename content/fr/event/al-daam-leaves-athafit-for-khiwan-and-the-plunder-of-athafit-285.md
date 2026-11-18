@@ -2,7 +2,6 @@
 id: event/al-daam-leaves-athafit-for-khiwan-and-the-plunder-of-athafit-285
 lang: fr
 source_lang: en
-translation_of: ar@f9fb0008a1c0b764bed4ab9f1f1d3b156173b311df00093892d6d9c46b98a0cf
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

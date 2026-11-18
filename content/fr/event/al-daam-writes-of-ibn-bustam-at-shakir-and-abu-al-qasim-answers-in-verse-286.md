@@ -2,7 +2,6 @@
 id: event/al-daam-writes-of-ibn-bustam-at-shakir-and-abu-al-qasim-answers-in-verse-286
 lang: fr
 source_lang: en
-translation_of: ar@72f92545855740c75059c2b8484e540552c5326ce4d0799c68552df9cd4a3171
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

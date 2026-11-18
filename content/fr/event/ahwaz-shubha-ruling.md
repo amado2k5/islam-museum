@@ -2,7 +2,6 @@
 id: event/ahwaz-shubha-ruling
 lang: fr
 source_lang: ar
-translation_of: ar@ee7a6999890825526eb7af3105268fa644535b1313fdfa370dca0e272c153fde
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin

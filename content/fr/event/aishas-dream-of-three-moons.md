@@ -2,7 +2,6 @@
 id: event/aishas-dream-of-three-moons
 lang: fr
 source_lang: ar
-translation_of: ar@dcdfa9068d8099cb81a28801d204d9655b33290443ad8818cefa998fe19af5b2
 translators: ["Devin, draft translation"]
 provenance:
   generated_by: Devin
