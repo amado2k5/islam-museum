@@ -1,5 +1,15 @@
 # french lane — progress
 
+## 2026-11-18 — founder-lane boundary correction (Devin)
+
+- Removed `content/ur/building/bibi-maryam-complex-narayanganj.md`: Urdu belongs to the founder’s lane; no further Urdu edits are authorized.
+- Rechecking packet 3 without that companion failed: `no ur file: new prose ships in ar, en, ur and fr together` (25 entities, 50 files, 1 error, 25 warnings).
+- Left out: `building/bibi-maryam-complex-narayanganj` — inherited missing Urdu page. Removed its French prose and `label.fr`/`summary.fr` rather than modifying the founder’s lane. Packet 3 now contains 24 retained French entities; the original 25-record range is unchanged.
+- Any future record requiring a missing Urdu companion is left out and listed here, never repaired under `content/ur/`. This left-out record remains visible in the raw queue and must not be retried until the founder supplies its Urdu page.
+- Current retained total: 99 French prose records. Previous packet-3 Urdu defect repair is withdrawn; frozen-hook blocked list remains empty.
+- Rechecked packet 3: PASS, 24 entities, 48 files, 0 errors, 25 inherited provenance/status warnings.
+- Push permission restored: plain `git push` after four new commits; stop and report any pre-push gate block. Label-only work remains out of scope until prose is finished.
+
 ## 2026-11-18 — building corpus packet 4 (Devin)
 
 - Run `fr-corpus-building-4`: records 76–100, `bir-zamzam` → `dar-al-nadwa`; full English-to-French prose, labels and summaries, preserving existing YAML formatting.
