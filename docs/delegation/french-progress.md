@@ -26,6 +26,14 @@ Proposal: `docs/delegation/french-language-proposal.md` (approved 18 Nov 2026). 
 - Citation check: `npm run cite-check -- <373 existing non-source graph record IDs referenced in changed YAML>` reports **373 pass, 0 fail of 373 records**. The CLI operates on `data/<class>/<slug>.yaml`, not directly on these dataset files; deck `source_card` identifiers are not graph record IDs. Logs are local, outside git: `/home/ubuntu/fr-final-{validate,test,cite-check}.log` and `/home/ubuntu/fr-edu-focused.log`.
 - This is a partial checkpoint, not batch-1 completion or merge readiness: the two full-suite failures and the 6,936 untranslated education mappings remain outstanding. No RTL/page-direction code, queue script, schema or loader changes were made.
 
+## 2026-11-18 — dataset branch rebased onto baseline fixtures
+
+- Rebased `devin/1794998195-fr-datasets` onto `origin/devin/1794999224-french-baseline-fixtures` (PR #7425). Dropped this branch’s original tour commit; tour data and its release notes now come solely from that base. This branch adds kids, cards and the eight education support datasets only.
+- Resolved the progress/release-note overlap without removing the baseline tour or test-fix entries. The two full-suite failures recorded above describe the old base; the baseline fixtures branch carries their fixes.
+- The requested first-five story-card slice was cancelled before any file edits. There are no completed or partial story-card translations to carry forward. Remaining coverage is still 6,936 mappings in `edu/topics-50.yaml` and the 72 recursive education files; `edu/levels.yaml` is untouched and excluded.
+- Rebased coverage: tour 4 files / 136 mappings / 0 missing French; kids 10 / 232 / 0; cards 39 / 698 / 0; education 81 / 7,511 / 6,936. Focused tests passed 4 files / 160 tests; card validators reported lists 12, explainers 13, stories 8 decks OK.
+- Rebased full gates: `npm run validate` exited 0 (81,027 entities and 104,688 prose files, 0 errors, 5,343 warnings; encoding 185,900 files with no U+FFFD). `npm test`: 46 files passed, 632 tests passed, 2 skipped. Scoped `npm run cite-check` on 346 existing non-source graph records referenced by the changed kids/cards/education YAML datasets: 346 pass, 0 fail. Dataset values match the pre-rebase branch; tour and `edu/levels.yaml` match the new base exactly. Visually unverified.
+
 ## 2026-11-18 — infrastructure landed (session 1)
 
 Done:
