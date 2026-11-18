@@ -10,7 +10,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0636~", hijri: "0015~", calendar: julian, precision: year, status: tradition, derived: true, note: "أيام أبي عبيدة على الشام (البلاذري ص 215–216). التحويل مشتق." }
+  start: { edtf: "0636~", hijri: "0015~", calendar: julian, precision: year, status: tradition, derived: true, note: "أيام أبي عبيدة على الشام ⁦(البلاذري ص 215–216)⁩. التحويل مشتق." }
 relations:
   - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah, role: "عاقد الصلح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: group/samaritans, role: "المصالَحون على العيون والدلالة", sources: [source/futuh-buldan-maarif-1407] }
@@ -19,7 +19,7 @@ relations:
   - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 215–216"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 215–216"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-11
 sources: [source/futuh-buldan-maarif-1407]

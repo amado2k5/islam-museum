@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b71, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/159-160" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b71, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/159-160" }
 ---
 ## موجز
 أبو الوليد العباس بن المؤمل الصوفي، امتُحن فصبر في محنته فوُفّي، راحته في البكاء والأحزان، ومفزعه إلى المقابر والجبّان. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 528)⁩ في الصفحة 159، وتسلسله 529. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/159}

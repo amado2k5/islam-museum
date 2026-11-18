@@ -11,7 +11,7 @@ wings: [people]
 periods: [period/abbasid-early]
 provenance:
   layer: own-research
-  source: "وفيات الأعيان لابن خلكان — الجزء الثاني (ترجمة أبي موسى الحامض)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  source: "وفيات الأعيان لابن خلكان — الجزء الثاني ⁦(ترجمة أبي موسى الحامض)⁩، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-19
 sources: [source/wafayat-ayan]
@@ -28,4 +28,4 @@ occupations:
     note: "merge-map link from role 'philologist', Job Browser linking wave 47"
     sources: [source/wafayat-ayan]
 relations:
-  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/wafayat-ayan], confidence: low }
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name ⁦(البغدادي)⁩; denotes association, not proven residence.", sources: [source/wafayat-ayan], confidence: low }

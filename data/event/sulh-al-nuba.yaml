@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [egypt-nile, east-africa]
 date:
-  start: { edtf: "0645~", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية عبد الله بن سعد على مصر (البلاذري ص 331–332). التحويل مشتق." }
+  start: { edtf: "0645~", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية عبد الله بن سعد على مصر ⁦(البلاذري ص 331–332)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/nuba }
   - { type: had_participant, target: person/abdullah-ibn-sad-ibn-abi-sarh, role: "المصالح", sources: [source/futuh-buldan-maarif-1407] }
@@ -20,7 +20,7 @@ relations:
   - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 331–333"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 331–333"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-25
 sources: [source/futuh-buldan-maarif-1407]

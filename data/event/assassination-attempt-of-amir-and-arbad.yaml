@@ -10,14 +10,14 @@ themes: [battles, peace-making-and-coexistence]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "ضمن سنة الوفود عند ابن إسحاق (ص213)؛ الرحيق ص453.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "ضمن سنة الوفود عند ابن إسحاق ⁦(ص213)⁩؛ الرحيق ص453.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 relations:
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: person/amir-ibn-al-tufayl, role: "صاحب التدبير؛ شغل النبي بالكلام", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/arbad-ibn-qays, role: "المكلَّف بالضرب بالسيف فلم يفعل", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/jabbar-ibn-salma, role: "ثالث رؤساء الوفد", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
-  - { type: had_participant, target: group/banu-amir-ibn-sasaa, role: "الوفد (بنو عامر بن صعصعة؛ كان المعرّف السابق يشير خطأً إلى بني عامر بن لؤي)", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-amir-ibn-sasaa, role: "الوفد ⁦(بنو عامر بن صعصعة؛ كان المعرّف السابق يشير خطأً إلى بني عامر بن لؤي)⁩", sources: [source/ibn-hisham-saqqa] }
   - { type: has_part, target: event/death-of-amir-ibn-al-tufayl, sources: [source/ibn-hisham-saqqa] }
   - { type: has_part, target: event/death-of-arbad-ibn-qays, sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: event/year-of-delegations }

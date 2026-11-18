@@ -2,7 +2,7 @@ id: person/muhammad-al-baqir
 class: person
 label: { ar: "محمد بن علي بن الحسين بن علي بن أبي طالب ⁦(الباقر)⁩", en: "Muhammad al-Baqir ibn Ali ibn al-Husayn" }
 names:
-  - { kind: full, lang: ar, value: "محمد بن علي بن الحسين بن علي بن أبي طالب (الباقر)" }
+  - { kind: full, lang: ar, value: "محمد بن علي بن الحسين بن علي بن أبي طالب ⁦(الباقر)⁩" }
 gender: male
 roles: [jurist]
 traditions: [sunni]
@@ -12,12 +12,12 @@ summary:
 wings: [people]
 themes: [scripture-and-its-sciences]
 regions: [arabia]
-died: { hijri: "0114", edtf: "0732~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي (ط. إحسان عباس، PDF ص35): قال مصعب مات سنة أربع عشرة ومائة، والباقي في الصفحة مقطوع في النسخة.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+died: { hijri: "0114", edtf: "0732~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي ⁦(ط. إحسان عباس، PDF ص35)⁩: قال مصعب مات سنة أربع عشرة ومائة، والباقي في الصفحة مقطوع في النسخة.", sources: [source/tabaqat-fuqaha-abbas-1981] }
 relations:
   - { type: lived_in, target: place/medina, sources: [source/tabaqat-fuqaha-abbas-1981] }
 provenance:
   layer: "own-research"
-  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص35–36"
+  source: "طبقات الفقهاء ⁦(تحقيق إحسان عباس)⁩ PDF ص35–36"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch126

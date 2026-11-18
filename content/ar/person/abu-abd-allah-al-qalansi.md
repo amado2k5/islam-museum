@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b71, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/160-161" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b71, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/160-161" }
 ---
 ## موجز
 أبو عبد الله القلانسي، كان بالمهد وافيًا، فكان الحق له في المعاطب ناجيًا. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 530)⁩ في الصفحتين 160 و161، وتسلسله 531. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/160} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/161}

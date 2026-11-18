@@ -6,7 +6,7 @@ translators: ["Claude Code (OCR-harvest worker E), claude-opus-5-5, translation"
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sifat-al-safwa-tartusi-2012 p.716" }
 ---
 ## خلاصہ
-راہبہ [[work/sifat-al-safwa|صفۃ الصفوہ]] میں [[place/basra|بصرہ]] کی عابدات میں ہیں (نمبر 609)؛ وہ عثمان بن سودہ الطفاوی کی والدہ تھیں جو ان کا واقعہ روایت کرتے ہیں۔ {cite:sifat-al-safwa-tartusi-2012 p.716}
+راہبہ [[work/sifat-al-safwa|صفۃ الصفوہ]] میں [[place/basra|بصرہ]] کی عابدات میں ہیں ⁦(نمبر 609)⁩؛ وہ عثمان بن سودہ الطفاوی کی والدہ تھیں جو ان کا واقعہ روایت کرتے ہیں۔ {cite:sifat-al-safwa-tartusi-2012 p.716}
 
 ## موت کے وقت دعا
 عثمان کہتے ہیں کہ جب ان کی وفات کا وقت آیا تو آسمان کی طرف سر اٹھا کر کہا: «اے میرے ذخیرے اور سرمائے، اے وہ جس پر زندگی میں اور موت کے بعد میرا بھروسہ ہے، موت کے وقت مجھے بے یار و مددگار نہ چھوڑنا اور قبر میں مجھے وحشت میں نہ ڈالنا»؛ پھر وفات پا گئیں۔ {cite:sifat-al-safwa-tartusi-2012 p.716}

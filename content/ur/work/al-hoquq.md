@@ -30,12 +30,12 @@ translators: []
 ### قسط 4
 - [[concept/huquq-al-walidayn|والدین کے حقوق]] {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:01:00}
 - [[concept/uquq-al-walidayn|والدین کی نافرمانی]] {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:05:00}
-- [[practice/birr-al-walidayn|والدین کے ساتھ نیکی (بر الوالدین)]] {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:18:30}
+- [[practice/birr-al-walidayn|والدین کے ساتھ نیکی ⁦(بر الوالدین)⁩]] {cite:assabile-omar-abdelkafy al-hoquq/ep04 00:18:30}
 
 ### قسط 5
 - [[concept/huquq-al-abna|اولاد کے حقوق]] {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:01:00}
-- [[concept/tasmiya-naming|تسمیہ (نام رکھنا اور نام کے احکام)]] {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:04:00}
+- [[concept/tasmiya-naming|تسمیہ ⁦(نام رکھنا اور نام کے احکام)⁩]] {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:04:00}
 - [[practice/aqiqa|العقيقة]] {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:07:00}
-- [[practice/tahnik|تحنیک (نومولود کے تالو پر کھجور)]] {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:08:00}
+- [[practice/tahnik|تحنیک ⁦(نومولود کے تالو پر کھجور)⁩]] {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:08:00}
 - [[practice/hifz-al-quran|حفظ القرآن]] {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:11:30}
-- [[concept/hudud-penalties|حدود (شرعی سزائیں)]] {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:21:30}
+- [[concept/hudud-penalties|حدود ⁦(شرعی سزائیں)⁩]] {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:21:30}

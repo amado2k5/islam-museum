@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun, period/umayyad, period/abbasid-early]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0637~", hijri: "0018~", calendar: julian, precision: year, status: tradition, derived: true, note: "الفتح الأول أيام أبي عبيدة؛ ثم عمارات وخُرِّبات متتابعة إلى خلافة المهدي (البلاذري ص 265–266). التحويل مشتق." }
+  start: { edtf: "0637~", hijri: "0018~", calendar: julian, precision: year, status: tradition, derived: true, note: "الفتح الأول أيام أبي عبيدة؛ ثم عمارات وخُرِّبات متتابعة إلى خلافة المهدي ⁦(البلاذري ص 265–266)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/marash }
   - { type: part_of, target: event/conquest-of-jazira }
@@ -24,7 +24,7 @@ relations:
   - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 265–266"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 265–266"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-15
 external_ids: { wikidata: "Q586338" }

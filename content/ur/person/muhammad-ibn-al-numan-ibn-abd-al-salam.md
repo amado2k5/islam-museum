@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b89, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/391" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b89, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/391" }
 ---
 ## خلاصہ
 محمد بن نعمان بن عبد السلام نے وکیع، سفیان بن عیینہ اور ابو بکر بن عیاش کی صحبت کی، ان میں سخت پرہیزگاری اور مضبوط عقل تھی۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 667)⁩ صفحہ 391 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 667 ہے، تسلسل میں 668۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/391}

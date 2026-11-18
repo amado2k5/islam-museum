@@ -7,7 +7,7 @@ translators: []
 
 ## خلاصہ
 
-خواجہ نظام الدین اولیاء (1238ء – 3 اپریل 1325ء) سلسلہ چشتیہ کے معروف صوفی بزرگ تھے {cite:wikipedia-nizam-al-din-awliya-ur}. عربی مقالہ انہیں متن میں طریقہ چشتیہ کا صوفی کہتا ہے {cite:wikipedia-nizam-al-din-awliya-ar}. وہ بابا فرید الدین گنج شکر کے مرید و خلیفہ تھے {cite:wikipedia-nizam-al-din-awliya-ur}.
+خواجہ نظام الدین اولیاء ⁦(1238ء – 3 اپریل 1325ء)⁩ سلسلہ چشتیہ کے معروف صوفی بزرگ تھے {cite:wikipedia-nizam-al-din-awliya-ur}. عربی مقالہ انہیں متن میں طریقہ چشتیہ کا صوفی کہتا ہے {cite:wikipedia-nizam-al-din-awliya-ar}. وہ بابا فرید الدین گنج شکر کے مرید و خلیفہ تھے {cite:wikipedia-nizam-al-din-awliya-ur}.
 
 ## زندگی اور خلافت
 

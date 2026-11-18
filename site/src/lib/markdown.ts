@@ -24,13 +24,21 @@ const cleanHref = (h: string | null): string | null => {
 const markedSafe = new Marked({
   renderer: {
     html: ({ text }) => esc(text),
-    link({ href, title, tokens }) {
-      const text = this.parser.parseInline(tokens);
+    link({ href, title, tokens, raw }) {
+      let text = this.parser.parseInline(tokens);
+      // A bare address ("www.example.org" or "https://…" typed without brackets) ends before Arabic or Urdu
+      // punctuation, as it already does before "." "," ";": «الموقع www.example.org؛ ثم» links the address alone and
+      // leaves «؛» as text. Without this the mark became part of the address and the link was broken.
+      let tail = "";
+      if (!/^[\[<]/.test(raw)) {
+        tail = /[؛،؟۔]+$/.exec(href)?.[0] ?? "";
+        if (tail && text.endsWith(tail)) { href = href.slice(0, -tail.length); text = text.slice(0, -tail.length); } else tail = "";
+      }
       const clean = cleanHref(href);
-      if (clean === null) return text;
+      if (clean === null) return text + tail;
       let out = '<a href="' + clean + '"';
       if (title) out += ` title="${escTitle(title)}"`;
-      return out + ">" + text + "</a>";
+      return out + ">" + text + "</a>" + tail;
     },
     image({ href, title, text, tokens }) {
       const alt = tokens ? this.parser.parseInline(tokens, this.parser.textRenderer) : text;

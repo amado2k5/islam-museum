@@ -17,7 +17,7 @@ translators: []
 - [[concept/masjid|مسجد]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:00:30}
 - [[concept/ilm|طلب العلم]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:01:00}
 - [[concept/nasiha|النصيحة]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:01:30}
-- [[concept/kibr|تکبر (کبر)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:02:00}
+- [[concept/kibr|تکبر ⁦(کبر)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:02:00}
 - [[concept/tafsir|تفسیر]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:05:00}
 - [[concept/yawm-al-qiyama|یوم قیامت]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:07:30}
 - [[concept/shukr|شکر]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:09:30}
@@ -31,7 +31,7 @@ translators: []
 - [[concept/kursi-allah|کرسی]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:43:00}
 - [[concept/istiwa-ala-al-arsh|استواء علی العرش]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:43:30}
 - [[person/yahya-ibn-main|يحيى بن معين]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:53:00}
-- [[concept/mawt|موت (میت کے حقوق و ذمہ داریوں پر اس کے اثرات)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:54:00}
+- [[concept/mawt|موت ⁦(میت کے حقوق و ذمہ داریوں پر اس کے اثرات)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:54:00}
 - [[person/khawla-bint-thalaba|خولة بنت ثعلبة]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep01 00:55:30}
 
 ### قسط 2
@@ -42,10 +42,10 @@ translators: []
 - [[concept/zakat|الزكاة]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:07:30}
 - [[practice/adhan|الأذان]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:10:00}
 - [[practice/tajwid|التجويد]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:11:00}
-- [[concept/tatfif-short-measure|تطفیف (ناپ تول میں کمی)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:12:00}
+- [[concept/tatfif-short-measure|تطفیف ⁦(ناپ تول میں کمی)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:12:00}
 - [[concept/ghayb|غیب]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:14:30}
-- [[concept/tasweer-images-and-picturing|تصویر (تصویر بنانا اور رکھنا)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:15:30}
-- [[concept/khawf|خوفِ خدا (خوف)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:16:00}
+- [[concept/tasweer-images-and-picturing|تصویر ⁦(تصویر بنانا اور رکھنا)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:15:30}
+- [[concept/khawf|خوفِ خدا ⁦(خوف)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:16:00}
 - [[concept/mirath|میراث]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:23:30}
 - [[place/al-aqsa-mosque|المسجد الأقصى]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:25:00}
 - [[concept/sabr|الصبر]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:25:30}
@@ -54,7 +54,7 @@ translators: []
 - [[concept/taaddud|تعدد ازدواج]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:29:00}
 - [[concept/dawa|دعوت]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:31:30}
 - [[concept/hilm|حلم]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:32:30}
-- [[concept/ibtisama|مسکراہٹ (ابتسامہ)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:33:00}
+- [[concept/ibtisama|مسکراہٹ ⁦(ابتسامہ)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:33:00}
 - [[concept/dajjal|دجال]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:34:30}
 - [[practice/dua|الدعاء]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:36:30}
 - [[concept/tarbiya|التربية]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:38:30}
@@ -84,11 +84,11 @@ translators: []
 - [[person/abd-al-malik-ibn-marwan|عبد الملک بن مروان]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:51:30}
 - [[person/ali-zayn-al-abidin|علي بن الحسين السجاد]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:52:30}
 - [[person/abu-hanifa|أبو حنيفة النعمان بن ثابت]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:53:30}
-- [[event/battle-of-the-trench|غزوة الأحزاب (الخندق)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:55:00}
+- [[event/battle-of-the-trench|غزوة الأحزاب ⁦(الخندق)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:55:00}
 - [[concept/tawakkul|التوكل]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:59:00}
 
 ### قسط 4
-- [[concept/hidaya|الهداية (هداية الدلالة وهداية المعونة)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:01:00}
+- [[concept/hidaya|الهداية ⁦(هداية الدلالة وهداية المعونة)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:01:00}
 - [[concept/malaika|فرشتے]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:09:30}
 - [[concept/iman|الإيمان]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:14:00}
 - [[person/firawn|فرعون]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:20:30}
@@ -104,13 +104,13 @@ translators: []
 - [[concept/dunya|دنیا]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:44:00}
 - [[practice/sadaqa|الصدقة]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:45:30}
 - [[person/amr-ibn-al-as|عمرو بن العاص]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:46:30}
-- [[concept/kitab-al-amal|کتابُ الاعمال (اعمال نامہ)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:55:00}
-- [[concept/fudul|فضول ٹوہ (فضول)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:58:30}
+- [[concept/kitab-al-amal|کتابُ الاعمال ⁦(اعمال نامہ)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:55:00}
+- [[concept/fudul|فضول ٹوہ ⁦(فضول)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:58:30}
 - [[concept/amana|الأمانة]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:59:30}
 
 ### قسط 5
 - [[concept/hasad|الحسد]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:02:30}
-- [[concept/namimah|نمیمہ (چغلی)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:16:30}
+- [[concept/namimah|نمیمہ ⁦(چغلی)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:16:30}
 - [[concept/ibtila|الابتلاء والامتحان]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:32:00}
 
 ### قسط 6
@@ -122,11 +122,11 @@ translators: []
 - [[person/abu-lahab|أبو لهب]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:34:00}
 - [[person/abu-bakr|ابوبکر صدیق]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:35:00}
 - [[concept/al-sidq-truthfulness|الصدق في الحديث]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:43:00}
-- [[concept/laghw-fiqh|لغو (فقہی احکام)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:44:00}
+- [[concept/laghw-fiqh|لغو ⁦(فقہی احکام)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:44:00}
 - [[concept/al-nafs-wal-ruh|نفس اور روح]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:50:00}
 
 ### قسط 7
-- [[concept/mumathala|مماثلت (برابری)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:02:30}
+- [[concept/mumathala|مماثلت ⁦(برابری)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:02:30}
 - [[person/umm-sulaym|أم سليم بنت ملحان]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:20:30}
 - [[person/hassan-ibn-thabit|حسان بن ثابت]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:22:00}
 - [[concept/haya|حیا]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:23:00}
@@ -136,10 +136,10 @@ translators: []
 ### قسط 8
 - [[concept/marahil-hayat-al-insan|انسانی زندگی کے مراحل]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:01:30}
 - [[concept/firasa|فراست]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:07:30}
-- [[concept/karam|کرم (سخاوت)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:13:00}
+- [[concept/karam|کرم ⁦(سخاوت)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:13:00}
 - [[concept/khushu-fiqh|خشوع]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:16:00}
 - [[person/ibn-taymiyya|ابن تيمية]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:26:00}
-- [[concept/ruya-fiqh|خواب (رؤیا، فقہی احکام اور تعبیر)]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:28:30}
+- [[concept/ruya-fiqh|خواب ⁦(رؤیا، فقہی احکام اور تعبیر)⁩]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:28:30}
 - [[concept/sakarat-al-mawt|سکراتِ موت]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:36:30}
 - [[person/harun-al-rashid|هارون الرشيد]] {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:47:30}
 

@@ -11,7 +11,7 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-
 «[[work/bidayat-al-mujtahid|بدایۃ المجتہد]]» کی کتاب الغسل میں [[person/ibn-rushd|ابن رشد]] حاملہ کو نظر آنے والے خون کا مسئلہ لاتے ہیں اور کہتے ہیں کہ فقہا «پہلے بھی اور بعد میں بھی» اس میں مختلف رہے کہ یہ [[concept/hayd-menstruation|حیض]] ہے یا استحاضہ۔ {cite:bidaya-bakri-bayt-al-afkar p. 71}
 
 ## اقوال
-- **حاملہ کو حیض آتا ہے**: [[person/malik-ibn-anas|مالک]]، [[person/al-shafii|شافعی]] (اپنے دو اقوال میں زیادہ صحیح میں) اور دوسرے۔ {cite:bidaya-bakri-bayt-al-afkar p. 71}
+- **حاملہ کو حیض آتا ہے**: [[person/malik-ibn-anas|مالک]]، [[person/al-shafii|شافعی]] ⁦(اپنے دو اقوال میں زیادہ صحیح میں)⁩ اور دوسرے۔ {cite:bidaya-bakri-bayt-al-afkar p. 71}
 - **حاملہ کو حیض نہیں آتا**: [[person/abu-hanifa|ابو حنیفہ]]، [[person/ahmad-ibn-hanbal|احمد]]، [[person/sufyan-al-thawri|ثوری]] اور دوسرے، جو کہتے ہیں کہ یہ فساد اور بیماری کا خون ہے۔ {cite:bidaya-bakri-bayt-al-afkar p. 71}
 - **اجماع کا مقام**: سب کا اتفاق ہے کہ دردِ زہ شروع ہونے پر خون نفاس ہے، جس کا حکم نماز وغیرہ سے روکنے میں حیض کا ہے۔ {cite:bidaya-bakri-bayt-al-afkar p. 71}
 

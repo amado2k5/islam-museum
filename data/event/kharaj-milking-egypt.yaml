@@ -10,7 +10,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [egypt-nile]
 date:
-  start: { hijri: "0025~", precision: year, status: tradition, derived: true, note: "في خلافة عثمان لعزل عمرو وتولية ابن أبي سرح (البلاذري ص 303). التحويل مشتق." }
+  start: { hijri: "0025~", precision: year, status: tradition, derived: true, note: "في خلافة عثمان لعزل عمرو وتولية ابن أبي سرح ⁦(البلاذري ص 303)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/al-fustat }
   - { type: had_participant, target: person/amr-ibn-al-as, role: "الجابي الأول وصاحب الجواب", sources: [source/futuh-buldan-maarif-1407] }
@@ -18,7 +18,7 @@ relations:
   - { type: had_participant, target: person/uthman-ibn-affan, role: "صاحب المثل", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 303، 307"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 303، 307"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-19, lib-futuh-misr-batch-4-2026-10-31
 sources: [source/futuh-buldan-maarif-1407, source/futuh-misr-amir-1999]
