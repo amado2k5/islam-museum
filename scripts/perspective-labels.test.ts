@@ -7,7 +7,7 @@ describe("prose perspective labels", () => {
   it.each(["Point de vue sunnite", "Perspective sunnite", "Sunnite", "sunni", "Sunni Hanafi", "أهل السنة", "سني"])("accepts the Sunni lead label %s", (label) => {
     expect(prosePerspectiveIssues(block(label, "Point de vue académique", "Point de vue chiite"))).toEqual([]);
   });
-  it.each(["Point de vue académique", "Point de vue chiite", "academic", "Shia", "غير سني", "antisunnite"])("rejects a non-Sunni lead label %s", (label) => {
+  it.each(["Point de vue académique", "Point de vue chiite", "academic", "Shia", "غير سني", "antisunnite", "Point de vue non sunnite", "Perspective non-sunnite", "Perspective non‑sunnite"])("rejects a non-Sunni lead label %s", (label) => {
     expect(prosePerspectiveIssues(block(label, "Point de vue sunnite"))).toEqual([expect.objectContaining({ level: "error" })]);
   });
   it("accepts empty prose and an empty perspective block", () => {
