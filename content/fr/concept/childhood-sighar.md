@@ -1,0 +1,58 @@
+---
+id: concept/childhood-sighar
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-concept-04
+  source: content/en/concept/childhood-sighar.md
+---
+## Définition et étapes
+Dans la langue, sighar désigne la petitesse de taille ou d'âge ; comme terme technique, c'est l'état d'une personne de la naissance à la puberté. Il comporte deux étapes : avant le discernement et avec discernement, ce dernier n'ayant pas d'âge fixe, mais se manifestant par des signes de maturité et prenant fin à la puberté. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10382} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10383}
+La capacité de l'enfant est de deux sortes : la capacité de jouissance, c'est-à-dire d'avoir des droits et des obligations, qui appartient à l'enfant comme à l'adulte du fait de leur humanité ; et la capacité d'exercice, qui dépend du discernement. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10383}
+
+## Les droits du nouveau-né
+Il est recommandé de prononcer l'adhan dans l'oreille droite du nouveau-né et l'iqama dans la gauche, de frotter son palais avec des dattes mâchées (tahnik) et de lui donner un beau nom. La 'aqiqa est recommandée par Malik, al-Shafi'i, Ahmad et Ishaq ; les hanafites estiment qu'elle a été abrogée par le sacrifice. La circoncision est une sunna pour les hanafites et les malikites, et une obligation pour les chaféites et les hanbalites selon l'avis indiqué. L'enfant a aussi des droits à la filiation, à l'entretien, à l'instruction et à l'éducation. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10384} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10385}
+
+## Les charges grevant les biens de l'enfant
+Les dommages causés par l'enfant, l'entretien dû par lui, la dîme, l'impôt foncier, la zakat sur les biens, la zakat al-fitr et le sacrifice grèvent son patrimoine ; son tuteur ou l'exécuteur testamentaire doit les acquitter sur celui-ci. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10385}
+
+## La tutelle de l'enfant
+La tutelle est une autorité légale sur la personne et les biens de l'enfant, de la naissance jusqu'à la maturité de jugement, requise dans l'intérêt de tout mineur. La tutelle de la personne couvre l'éducation, l'instruction, les soins et le mariage de l'enfant ; celle des biens couvre les dépenses, les contrats, la conservation et l'investissement. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10385}
+Le tuteur doit apprendre aux enfants une bonne conduite, notamment leur ordonner de prier. Il peut autoriser un médecin à soigner et circoncire l'enfant ; le tuteur des biens ne le peut qu'en cas de nécessité pressante, en l'absence du tuteur de la personne. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10385} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10386}
+Le tuteur doit administrer les biens de l'enfant pour son bien et sans préjudice. Tous s'accordent à interdire au tuteur riche de consommer les biens de l'orphelin, et à permettre au pauvre d'en consommer selon l'usage, sans excès. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10386}
+
+## Urine et vomissures de l'enfant
+Quand l'enfant mange des aliments et a atteint deux ans, son urine est impure comme celle de l'adulte, et le tissu doit être lavé. Avant cela, les hanafites et les malikites la traitent comme les autres impuretés, les malikites excusant ce que reçoivent les vêtements d'une mère allaitante si elle prend soin de l'éviter. Les chaféites et les hanbalites distinguent : l'urine du garçon est aspergée d'eau, celle de la fille doit être lavée. Ce qui est dit de l'urine vaut pour les vomissures. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10387}
+
+## Adhan, prière, nudité et direction de la prière
+L'adhan d'un enfant sans discernement n'est pas valable de l'avis unanime ; la majorité valide celui d'un enfant doué de discernement, et les malikites exigent qu'il s'appuie sur un adulte pour connaître l'heure. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10388}
+La prière n'est pas obligatoire pour l'enfant avant la puberté, mais on la lui ordonne à sept ans et on le frappe pour cela à dix ans. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10388}
+Les limites de la nudité varient : les hanafites n'en reconnaissent pas avant quatre ans, puis l'étendent jusqu'à dix ans ; les malikites distinguent garçons et filles ; les chaféites traitent la nudité de l'enfant comme celle de l'homme, même sans discernement ; les hanbalites n'en reconnaissent pas avant sept ans, puis retiennent les deux parties intimes jusqu'à dix ans. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10388} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10389}
+Une prière collective peut se former derrière un enfant imam selon les hanafites, les chaféites et un avis d'Ahmad ; les malikites et l'autre avis d'Ahmad n'autorisent pas un enfant à diriger une prière obligatoire. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10389} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10390}
+
+## Actes cultuels et serments
+Le jeûne et le pèlerinage ne sont pas obligatoires pour l'enfant ; son jeûne est valable s'il l'observe, et on le lui ordonne à sept ans et le frappe à dix s'il en est capable. Son pèlerinage compte comme volontaire et ne remplace pas le pèlerinage obligatoire de l'islam. Ses serments et ses vœux ne l'engagent pas. La zakat est due sur ses biens selon les malikites, les chaféites et les hanbalites ; les hanafites ne l'exigent que sur les récoltes et les fruits. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10390}
+
+## La permission d'entrer
+La majorité ordonne à l'enfant doué de discernement de demander la permission d'entrer aux trois moments où le corps est habituellement découvert : avant la prière de l'aube, à midi quand on retire ses vêtements, et après la prière de la nuit. Abu Qilaba y voyait une recommandation. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10391}
+
+## Remise des biens et autorisation de commercer
+On ne remet ses biens à l'enfant qu'une fois la puberté et la maturité de jugement atteintes. S'il atteint la puberté sans cette maturité, il reste frappé d'interdiction pour prodigalité de l'avis unanime ; Abu Hanifa estimait que cette restriction dure jusqu'à vingt-cinq ans, puis que les biens lui sont remis. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10391} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10392}
+On éprouve l'enfant doué de discernement en lui confiant les transactions pratiquées par des personnes de sa condition. Les hanafites, les malikites et, selon l'avis préféré, les hanbalites permettent au tuteur de l'autoriser à commercer s'il en montre l'aptitude ; la permission peut être expresse ou résulter du silence, mais les hanbalites et Zufar n'acceptent pas la permission tacite. Les chaféites n'autorisent pas cette licence ; les biens sont remis et il est mis à l'épreuve. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10392} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10393}
+
+## Legs, mariage, divorce et délais d'attente
+Les hanafites et, selon leur avis préféré, les chaféites exigent la puberté pour la validité d'un legs ; les hanafites admettent celui d'un enfant doué de discernement pour ses propres funérailles. Les malikites et les hanbalites l'admettent pour un enfant doué de discernement, âgé d'environ dix ans ou moins, qui comprend l'acte de dévotion. Un legs fait à un enfant sans discernement est accepté par son tuteur. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10393}
+Le tuteur marie l'enfant : celui d'un garçon le marie à la dot habituelle, et celui d'une fille la marie à un homme de bien qui la protège. Le divorce prononcé par un enfant n'est pas valable, bien que les hanbalites l'admettent chez un enfant doué de discernement qui le comprend. Une fille mineure divorcée observe trois mois ; une veuve, quatre mois et dix jours ; elle reçoit entretien et logement de son ancien mari. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10393} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10394}
+
+## Fonction de juge, témoignage et sanctions
+Un enfant ne peut exercer la fonction de juge. Son témoignage n'est pas accepté avant l'âge requis ; contre la majorité, Malik autorisait les témoignages d'enfants les uns contre les autres en matière de blessures et d'homicide. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10395}
+L'enfant sans discernement ne subit pas de peine corporelle ; celui qui en est doué ne subit ni peine fixe ni talion, mais une correction. Il paie sur ses biens ce qu'il détruit, et le prix du sang d'un homicide accidentel est payé sur son patrimoine. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10395}
+Si le seul ayant droit au talion est un enfant, les hanafites ont deux avis : attendre qu'il grandisse ou laisser le juge agir pour lui ; les malikites laissent son tuteur apprécier l'intérêt ; les chaféites et les hanbalites attendent sa majorité. Si les enfants partagent ce droit avec des adultes, ceux-ci peuvent l'exercer selon Abu Hanifa et Malik. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10396}
+
+## Dans l'émission « Ahalina » d'Abd al-Rahman Mansour
+[[person/abd-al-rahman-mansour|Abd al-Rahman Mansour]] répartit l'apprentissage de l'amour de la prière chez les enfants en quatre étapes de la vie dans son émission [[work/ahaleena|'Ahalina']], à raison d'un épisode par étape, chacune ayant selon lui des traits que le père doit connaître. {cite:assabile-abd-al-rahman-mansour ahaleena/ep10 00:12:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:06:30} La première est la « petite enfance », de trois à cinq ans, appellation qu'il attribue aux psychologues : étape de la première autonomie et de la conscience de soi, mais aussi du goût de l'imitation. Un petit peut ainsi subir davantage l'influence d'un aîné que celle de ses parents, d'où son insistance sur l'attention portée à l'aîné. {cite:assabile-abd-al-rahman-mansour ahaleena/ep07 00:06:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep07 00:07:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep07 00:07:30} Il qualifie le refus des ordres à cet âge d'« obstination naturelle ». {cite:assabile-abd-al-rahman-mansour ahaleena/ep07 00:08:30} Il laisserait l'enfant imiter librement une personne qui prie, s'incliner, se prosterner et jouer, sans remarque ni colère. {cite:assabile-abd-al-rahman-mansour ahaleena/ep07 00:09:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep07 00:10:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep07 00:10:30}
+
+La deuxième est l'« enfance moyenne », de cinq à sept ans : paroles douces et accessibles sur les dons de Dieu, exemple personnel et introduction graduelle des prières, en commençant par celle de l'aube. {cite:assabile-abd-al-rahman-mansour ahaleena/ep08 00:01:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep08 00:01:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep08 00:11:30} La troisième est la « fin de l'enfance », de sept à dix ans, qu'il décrit comme une période de révolte et de difficulté à suivre les ordres, où l'enfant se dérobe à la prière même s'il en avait l'habitude. {cite:assabile-abd-al-rahman-mansour ahaleena/ep09 00:01:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep09 00:01:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep09 00:02:00} La quatrième est l'« adolescence », qu'il qualifie d'étape la plus dangereuse, marquée par l'obstination, le refus, le désir de s'affirmer même en défiant ses parents, et l'influence des amis. {cite:assabile-abd-al-rahman-mansour ahaleena/ep10 00:00:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep10 00:01:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep10 00:01:30} Un petit enfant qui raconte des histoires imaginaires, dit-il, ne comprend pas le mensonge et ne doit pas être traité de menteur. {cite:assabile-abd-al-rahman-mansour ahaleena/ep04 00:08:30}
