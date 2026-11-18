@@ -3576,3 +3576,408 @@ places:
     lens_sub: "lieux situés à environ {km} km"
     km: "{n} km"
     outline_title: "Les lieux sous forme de texte"
+signs:
+  title: "Explorateur des signes de l’Heure"
+  lede: "Les signes de l’Heure ⁦(أشراط الساعة)⁩ dans les sources du musée, dans l’ordre : les signes en général, le Mahdi, le Dajjal, Yajuj et Majuj, puis l’Heure elle-même. Le Jour du jugement, le Paradis et le Feu ont leurs propres explorateurs."
+  badge: "Exploration de l’eschatologie"
+  status: "Cette version contient {n} notices réparties en {s} sections ; les textes restent des brouillons jusqu’à leur lecture par un humain."
+  method_title: "La méthode de l’explorateur"
+  method_note: "Chaque notice est une notice ordinaire du musée, avec ses sources et ses textes en trois langues. Les mentions eschatologiques sont repérées à la génération du site par un lexique assorti de garde-fous : formes univoques directement, formes ambiguës comme al-sa'a (l’Heure ou une heure), al-janna (Paradis ou jardin), al-nar (Enfer ou feu), al-akhira (au-delà ou dernière d’une série), al-sirat (Pont ou chemin), al-mizan (Balance ou balance ordinaire) uniquement auprès de leurs associations de termes. Les faux positifs vérifiés sont exclus par identifiant ; chaque livre dépouillé par la suite apporte automatiquement ses mentions dès que ses passages intègrent le graphe ; les notices thématiques les rejoignent par l’étiquette eschatology-browser."
+  api: "L’ensemble est disponible à l’adresse"
+  sections_title: "Les sections de l’explorateur"
+  filter_label: "Filtrer les notices des signes"
+  filter_none: "Aucun résultat."
+  empty: "Cette version ne contient pas encore de notices des signes."
+  signs_status: "Cette version contient {n} notices sur les signes de l’Heure en {s} étapes, sur {all} notices eschatologiques au total ; les textes restent des brouillons jusqu’à leur lecture par un humain."
+  path_title: "Les signes dans l’ordre"
+  path_note: "L’ordre ci-dessous suit la disposition habituelle des livres de croyance : signes en général, figures nommées par les sources, puis l’Heure. Aucun texte ne fixe cette succession ; le musée ne tranche pas sur le signe qui vient en premier. À chaque étape, les notices du musée précèdent les passages mentionnant le signe."
+  steps:
+    ashrat: { title: "Les signes en général", desc: "Les signes annonciateurs de l’Heure : signes mineurs et majeurs, épreuves et grandes batailles, Bête et soleil se levant à l’ouest." }
+    mahdi: { title: "Le Mahdi", desc: "Ce que les sources rapportent du Mahdi." }
+    dajjal: { title: "Le Dajjal", desc: "Le Dajjal, son épreuve et son apparition." }
+    yajuj-majuj: { title: "Yajuj et Majuj", desc: "Yajuj et Majuj et la barrière." }
+    saa: { title: "L’Heure elle-même", desc: "L’Heure, sa proximité et la fin des temps, avec la descente de Jésus telle que les notices la situent." }
+  groups: { curated: "Les notices du musée", passages: "Les passages qui le mentionnent" }
+  all:
+    title: "Toutes les notices eschatologiques, par source"
+    lede: "L’index complet des quatre explorateurs de l’au-delà : chaque notice sur les signes de l’Heure, le Jour du jugement, le Paradis et le Feu, classée selon sa source."
+  scope:
+    title: "Quatre explorateurs, quatre sujets"
+    signs: { title: "Signes de l’Heure", text: "ce qui précède l’Heure : signes annonciateurs, Mahdi, Dajjal, Yajuj et Majuj." }
+    qiyama: { title: "Résurrection et reddition des comptes", text: "le Jour lui-même : Trompe, relèvement et rassemblement, comptes, Balance, Sirat et Bassin." }
+    janna: { title: "Paradis", text: "le Jardin : ses noms, portes, fleuves, degrés et habitants." }
+    nar: { title: "Le Feu", text: "le Feu : ses noms, gardiens, tourment et habitants." }
+    all_note: "Toutes les notices des quatre explorateurs, classées par source, figurent dans"
+    all_link: "l’index eschatologique complet"
+  topics:
+    ashrat: "Signes de l’Heure"
+    saa: "L’Heure et la fin des temps"
+    qiyama: "Le Jour du jugement"
+    barzakh: "Le barzakh et la tombe"
+    hisab: "Reddition des comptes"
+    mizan: "La Balance"
+    sirat: "Le Pont"
+    hawd: "Le Bassin"
+    jannah: "Paradis"
+    jahannam: "Enfer"
+    akhira: "L’au-delà"
+    dajjal: "Le Dajjal"
+    yajuj-majuj: "Yajuj et Majuj"
+    mahdi: "Le Mahdi"
+    malakut: "La Trompe et les anges"
+  sections:
+    quran: { title: "Dans le Coran", desc: "Signes de l’Heure, Jour, barzakh, résurrection, comptes, Balance, Sirat, Bassin, Paradis et Enfer dans la révélation — sourates eschatologiques et versets qui les nomment." }
+    sunnah: { title: "Dans la sunna", desc: "Les hadiths des signes de l’Heure, du Dajjal, de Yajuj et Majuj, des présages de l’Heure, du barzakh et de la tombe, de la résurrection et du rassemblement, des comptes et de la Balance, du Sirat et du Bassin, du Paradis et de l’Enfer — deux Sahih, Sunan, Muwatta et Arba'in." }
+    seerah: { title: "Dans la sira", desc: "Les signes de l’Heure et l’au-delà dans les ouvrages de sira et d’histoire — cette section s’enrichit avec les nouveaux textes." }
+    books: { title: "Dans les autres livres", desc: "L’eschatologie dans chaque livre dépouillé hors du Coran, du hadith et de la sira — poésie, histoire, fiqh et les ouvrages à venir." }
+    hereafter: { title: "Dans l’au-delà", desc: "Les notices thématiques sur l’au-delà : barzakh, tombe, résurrection, rassemblement, comptes, Balance, Sirat et Bassin." }
+    dwelling: { title: "Dans la demeure finale", desc: "Les notices thématiques sur la demeure finale : Paradis et ses degrés, Enfer et ses gardiens, houris et félicité." }
+    concepts: { title: "Les notices sur les signes", desc: "Les notices thématiques du musée sur les signes de l’Heure et le Jour du jugement : signes majeurs et mineurs, figures de la fin des temps, étapes du Jour et événements eschatologiques." }
+  viz:
+    title: "La route des signes"
+    note: "Cinq jalons dans l’ordre habituel des livres de croyance. Les petites marques avant chacun sont les notices du musée relatives à cette étape ; chacune mène à sa page."
+    region: "La route des signes de l’Heure : cinq jalons et les notices du musée le long du parcours"
+    counts: "Notices du musée : {r} · passages : {p}"
+    hint: "Survolez un jalon, donnez-lui le focus ou touchez-le pour découvrir l’étape. Chaque jalon et chaque marque sont aussi des liens."
+    close: "Fermer"
+    records_title: "Les notices du musée à cette étape"
+    none: "À cette étape, le musée ne conserve que des passages ; ils figurent dans la section ci-dessous."
+    go: "Aller à la section de cette étape"
+    caption: "Ce qui est compté : les notices du musée sur chaque étape et les passages qui la mentionnent. L’ordre est celui habituel des livres de croyance ; aucun texte ne le fixe, et le musée ne tranche pas sur la priorité des signes."
+jinn-devils:
+  title: "Explorateur des djinns et des démons"
+  lede: "Djinns, diables et démons, anges et rêves les mettant en scène — chaque être, rencontre et récit du Coran, du hadith, de la sira et des livres dépouillés, réunis dans un explorateur avec leurs sources."
+  badge: "Exploration des êtres invisibles"
+  status: "Cette version contient {n} notices réparties en {s} sections ; les textes restent des brouillons jusqu’à leur lecture par un humain."
+  method_title: "La méthode de l’explorateur"
+  method_note: "Chaque notice est une notice ordinaire du musée — sourcée, trilingue — regroupée par les étiquettes jinn-devils-browser et jd-<section> dans le graphe commun, non dans une table distincte ; les notices d’anges présentes dans leur explorateur figurent aussi ici dans la section des anges. Le texte coranique est celui, figé, de Tanzil, affiché par référence sur les pages thématiques ; les cartes de hadiths mènent aux pages des récits. Les livres dépouillés à l’avenir rejoignent automatiquement l’explorateur dès que leurs notices portent l’étiquette. Dans chaque thème, les notices sont classées selon leur classe et leur type : êtres eux-mêmes, enseignements, événements, figures nommées, questions et œuvres."
+  api: "L’ensemble des données est disponible à l’adresse"
+  sections_title: "Les sections de l’explorateur"
+  filter_label: "Filtrer les thèmes"
+  filter_none: "Aucun résultat correspondant."
+  empty: "Cette version ne contient pas encore de notices sur les djinns et les démons."
+  entity_page: "Notice du musée"
+  quran_title: "Dans le Coran"
+  hadith_title: "Dans le hadith"
+  quran_ref: "Coran"
+  related_title: "Également au musée"
+  elsewhere:
+    angels: "Les anges ont leur propre explorateur : ouvrir l’explorateur des anges."
+    dreams: "Les rêves ont leur propre explorateur : ouvrir l’explorateur des rêves."
+  groups:
+    beings: { title: "Les êtres eux-mêmes", note: "Notices dont le sujet est lui-même un ange, un djinn ou un démon." }
+    teachings: { title: "Enseignements et termes", note: "" }
+    events: { title: "Événements et rencontres", note: "" }
+    figures: { title: "Figures nommées dans ces récits", note: "Chaque notice de la classe person liée à ces récits : anges et démons nommés individuellement par les sources, et à leurs côtés prophètes, Compagnons, transmetteurs et autres figures des récits. Un humain présent ici participe au récit ; le musée ne classe aucun humain comme ange, djinn ou démon." }
+    questions: { title: "Questions", note: "" }
+    works: { title: "Livres et avis juridiques", note: "" }
+  sections:
+    jinn: { title: "Les djinns", desc: "Le peuple caché des textes : types, demeures et chemins, délégation venue au Prophète et récits de rencontres." }
+    devils: { title: "Diables et démons", desc: "Iblis et les shayatin, insinuations et envie, sorcellerie et divination, chaque rencontre entre démons et humains consignée par les textes." }
+    angels: { title: "Anges", desc: "Les nobles messagers de Dieu : Gabriel, anges scribes, anges des batailles et des voyages, rencontres avec les humains." }
+    dreams: { title: "Rêves et visions", desc: "La science des rêves dans la tradition : rêves véridiques, cauchemars, interprétation et récits de rêves mettant en scène des êtres invisibles." }
+  viz:
+    title: "Quatre cercles qui se recoupent"
+    caption: "Chaque colonne représente une combinaison de sections présente dans les notices, la plus nombreuse d’abord : la barre compte les notices appartenant exactement à cette combinaison, colorées selon leur nature ; les points dessous indiquent les sections incluses. Une notice comptée dans une colonne appartient exactement à ces sections selon les étiquettes du musée ; les barres auprès des noms des sections comptent toutes leurs notices, donc une notice de deux sections compte dans les deux."
+    legend_title: "La nature de la notice"
+    region: "Graphique des recoupements des quatre sections : une colonne par combinaison"
+    axis: "Notices appartenant exactement à cette combinaison"
+    col: "{sets} : {n} notices"
+    hint: "Sélectionnez une colonne pour lister les notices de cette combinaison selon leur nature."
+    close: "Fermer la liste"
+    outline: "Toutes les combinaisons en liste"
+    count: "{n} notices"
+messengers:
+  title: "Explorateur des messagers et des prophètes"
+  lede: "Chaque mention des messagers et des prophètes dans les sources du musée : figures nommées du Coran, de la sunna et de la sira, porteurs de récits, de lignées et de missions, prophètes non nommés, chaque mention dans chaque livre dépouillé — des notices sourcées qui s’enrichissent avec les nouveaux textes."
+  badge: "Exploration des messagers et des prophètes"
+  status: "Cette version contient {n} notices en {s} sections et {p} pages thématiques ; les textes restent des brouillons jusqu’à leur lecture par un humain."
+  method_title: "La méthode de l’explorateur"
+  method_note: "Chaque notice est une notice ordinaire du musée, avec ses sources et ses textes en trois langues. Les mentions sont repérées à la génération du site par un lexique assorti de garde-fous : noms explicites directement, formes ambiguës comme Salih et Yahya uniquement auprès de leurs associations de termes ; ibn Adam est écarté car il désigne l’humanité et non Adam ; les faux positifs vérifiés sont exclus par identifiant. Les versets et récits déjà reliés par des relations mentions explicites entrent également. Chaque livre dépouillé par la suite apporte automatiquement ses mentions dès que ses passages intègrent le graphe ; les notices thématiques les rejoignent par l’étiquette messengers-browser."
+  api: "L’ensemble est disponible à l’adresse"
+  subjects_title: "Pages des prophètes et des messagers"
+  subjects_note: "Chaque prophète ou messager consigné au musée a une page thématique réunissant ses versets, traditions et récits de toutes les sections."
+  feed_title: "Chaque mention dans les sources"
+  mentions_count: "{n} mentions"
+  sections_title: "Les sections de l’explorateur"
+  filter_label: "Filtrer les notices des messagers"
+  filter_none: "Aucun résultat."
+  empty: "Cette version ne contient pas encore de notices de messagers."
+  entity_page: "Notice du musée"
+  quran_title: "Dans le Coran"
+  sunnah_title: "Dans la sunna"
+  seerah_title: "Dans la sira"
+  books_title: "Dans les autres livres"
+  curated_title: "Notices thématiques"
+  quran_ref: "Coran"
+  related_title: "Également au musée"
+  unnamed_title: "Prophètes et messagers non nommés"
+  unnamed_note: "Passages parlant d’un prophète, messager ou envoyé sans le nommer — présentés tels quels, sans supposer son identité."
+  generic_title: "Mentions collectives des prophètes et des messagers"
+  tree:
+    title: "L’arbre des prophètes"
+    note: "Un arbre tiré du graphe du musée, avec Adam à la racine et Muhammad au sommet. Une branche pleine n’est tracée que lorsque le graphe consigne un père et un fils ; la liane d’Ismaël à Muhammad est la chaîne de l’explorateur des généalogies, avec ses parties admises et contestées ; le reste est en tirets ou pointillés : place dans l’ordre ou appartenance à la descendance, non filiation établie. Choisissez un prophète pour éclairer son chemin jusqu’à la racine."
+    legend_title: "Légende des lignes"
+    legend:
+      child: "Père et fils, relation du graphe"
+      vine: "Chaîne de filiation admise"
+      vine_disputed: "Chaîne de filiation contestée"
+      progeny: "Compté dans la descendance selon les versets d’al-An'am ; aucune chaîne de pères consignée"
+      order: "Ordre de mention, non lignée consignée"
+      tie: "Parenté ou compagnonnage consigné"
+    hint: "Choisissez un prophète dans l’arbre : son chemin vers la racine s’éclaire et sa carte apparaît ici."
+    close: "Fermer la carte"
+    open: "Ouvrir sa page"
+    outline_title: "Lire l’arbre sous forme de texte"
+    parents: "Parents consignés dans le graphe :"
+    tie_sibling: "Frère de {p}, relation du graphe"
+    tie_related: "Lien consigné avec {p}"
+    chain_link: "La chaîne, nom par nom, dans l’explorateur des généalogies"
+    vine_agreed: "{n} ancêtres admis"
+    vine_disputed: "{n} noms contestés"
+    basis:
+      root: "La racine de l’arbre"
+      child: "Fils de {p}, relation père-fils du graphe du musée"
+      progeny: "Compté dans la descendance ; aucune chaîne de pères n’est consignée pour lui au musée. Le verset :"
+      kin: "Rattaché à l’arbre par un lien consigné, non par une lignée tracée"
+      lineage_agreed: "Descendant de {p}, avec {n} ancêtres intermédiaires admis par les généalogistes"
+      lineage_disputed: "Descendant de {p}, avec {n} noms intermédiaires contestés par les généalogistes"
+      order: "Placé après {p} selon l’ordre de mention, non selon une lignée consignée"
+      order_stem: "Placé sur le tronc selon l’ordre de mention, non selon une lignée consignée"
+  topics: { prophets: "Les prophètes", messengers: "Les messagers", sending: "Envoi et mission", unnamed: "Mention sans nom" }
+  sections:
+    quran: { title: "Dans le Coran", desc: "Les prophètes et messagers dans la révélation : figures nommées dans les récits des peuples et les versets, missions, descriptions collectives et figures non nommées." }
+    sunnah: { title: "Dans la sunna", desc: "Les hadiths des deux Sahih, du Muwatta, des Arba'in et des Sunan : récits des prophètes et messagers et de leurs états, hadiths les mentionnant, chapitres juridiques et spirituels les concernant." }
+    seerah: { title: "Dans la sira", desc: "Les prophètes et messagers dans les ouvrages de sira et d’histoire — cette section s’enrichit avec les nouveaux textes les mentionnant." }
+    books: { title: "Dans les autres livres", desc: "Les messagers et prophètes dans chaque livre dépouillé hors du Coran, du hadith et de la sira — poésie, histoire, fiqh, tafsir et les ouvrages à venir." }
+    curated: { title: "Notices thématiques", desc: "Les notices thématiques du musée sur les messagers et prophètes : vies, récits et sources, sous l’étiquette messengers-browser." }
+miracles:
+  title: "Explorateur des miracles divins et prophétiques"
+  lede: "Chaque mention des miracles divins et des prophètes dans les sources du musée : miracle du Coran et son inimitabilité, signes du Prophète — lune fendue, Voyage nocturne et Ascension, descente de Jésus — bâton, mer, chamelle, arche, feu, oiseau d’argile, parole au berceau, table céleste, signes de Salomon, rêves, annonciation, coffre de l’Alliance, signes cosmiques de la création, destruction des peuples négateurs et chaque livre qui en traite — des notices sourcées qui s’enrichissent avec les nouveaux textes."
+  badge: "Exploration des miracles"
+  status: "Cette version contient {n} notices en {s} sections et {p} pages thématiques ; les textes restent des brouillons jusqu’à leur lecture par un humain."
+  method_title: "La méthode de l’explorateur"
+  method_note: "Chaque notice est une notice ordinaire du musée, avec ses sources et ses textes en trois langues. Les mentions de miracles sont repérées à la génération du site par un lexique assorti de garde-fous : mu'jiz ne compte jamais dans le Coran au sens de mettre en échec ; a'jaz nakhl désigne les souches de palmiers, non l’inimitabilité ; les formes ambiguës ne comptent qu’auprès de leurs associations de termes ; les faux positifs vérifiés sont exclus par identifiant. Les passages déjà reliés aux sujets de miracles par des relations mentions explicites entrent également. Chaque livre dépouillé par la suite apporte automatiquement ses mentions dès que ses passages intègrent le graphe ; les notices thématiques les rejoignent par l’étiquette miracles-browser."
+  api: "L’ensemble est disponible à l’adresse"
+  subjects_title: "Pages des miracles et des prophètes"
+  subjects_note: "Chaque prophète, concept et événement associé à un miracle dans le musée a une page thématique réunissant ses versets, traditions et récits de toutes les sections."
+  feed_title: "Chaque mention dans les sources"
+  mentions_count: "{n} mentions"
+  sections_title: "Les sections de l’explorateur"
+  filter_label: "Filtrer les notices de miracles"
+  filter_none: "Aucun résultat."
+  empty: "Cette version ne contient pas encore de notices de miracles."
+  entity_page: "Notice du musée"
+  quran_title: "Dans le Coran"
+  sunnah_title: "Dans la sunna"
+  seerah_title: "Dans la sira"
+  books_title: "Dans les autres livres"
+  curated_title: "Notices thématiques"
+  quran_ref: "Coran"
+  related_title: "Également au musée"
+  unnamed_title: "Signes et miracles non nommés"
+  unnamed_note: "Passages parlant d’un signe ou miracle sans le nommer — présentés tels quels, sans supposition."
+  generic_title: "Mentions collectives des miracles"
+  topics:
+    doctrine: "Le miracle et ses preuves"
+    challenge: "Le défi et sa réponse"
+    i3jaz: "Inimitabilité"
+    karamat: "Grâces des saints"
+    unnamed: "Signes sans nom"
+    cosmic-signs: "Signes cosmiques"
+    moon: "La lune fendue"
+    isra-miraj: "Le Voyage nocturne et l’Ascension"
+    descent: "La descente de Jésus"
+    staff: "Le bâton de Moïse"
+    sea: "La mer fendue"
+    provision: "La subsistance venue du ciel"
+    fire: "Le feu d’Abraham"
+    she-camel: "La chamelle de Salih"
+    ad-destruction: "La destruction des Aad"
+    thamud-destruction: "La destruction des Thamud"
+    madyan-destruction: "La destruction de Madyan"
+    lut-destruction: "La destruction du peuple de Loth"
+    pharaoh-destruction: "La noyade du peuple de Pharaon"
+    generic-destruction: "La destruction des négateurs"
+    elephant: "Les Gens de l’Éléphant"
+    fish: "Le poisson et la baleine"
+    ark: "L’arche de Noé"
+    basket: "Le panier de Moïse"
+    healing: "La guérison par Jésus et Job"
+    clay-bird: "L’oiseau d’argile"
+    cradle: "La parole au berceau"
+    table: "La table céleste"
+    sulayman: "Les signes de Salomon"
+    dreams: "Les rêves de Joseph"
+    annunciation: "L’annonce de la naissance de Jean"
+    covenant-ark: "Le coffre de l’Alliance"
+    prophet-signs: "Les signes du Prophète"
+  sections:
+    quran: { title: "Dans le Coran", desc: "Les miracles divins et prophétiques dans la révélation : miracle du Livre, signes de la création, bâton, mer, chamelle, arche, feu, oiseau d’argile, parole au berceau, table céleste, coffre de l’Alliance, lune fendue, Voyage nocturne et Ascension, descente, signes du Prophète, destruction des peuples et signes cosmiques." }
+    sunnah: { title: "Dans la sunna", desc: "Les hadiths des deux Sahih, du Muwatta, des Arba'in et des Sunan contenant des miracles : signes du Prophète, guérison de Jésus et de Job, eau entre ses doigts, tronc qui pleure, rêves et récits des Compagnons et des Successeurs." }
+    seerah: { title: "Dans la sira", desc: "Les miracles et leurs récits dans les ouvrages de sira et d’histoire — cette section s’enrichit avec les nouveaux textes les mentionnant." }
+    books: { title: "Dans les autres livres", desc: "Les miracles dans chaque livre dépouillé hors du Coran, du hadith et de la sira — tafsir, théologie, histoire, poésie et les ouvrages à venir — lorsque leur vocabulaire signale une mention." }
+    curated: { title: "Notices thématiques", desc: "Les notices du musée sur les miracles : concepts et événements qui les réunissent — inimitabilité du Coran, signes cosmiques, karamat, lune fendue, Voyage nocturne et Ascension, descente — sous l’étiquette miracles-browser." }
+  viz:
+    title: "Les signes, prophète par prophète"
+    note: "Les prophètes d’un côté, les thèmes des signes de l’autre, dans l’ordre de l’arbre des prophètes. Un fil relie un prophète à un thème dont l’explorateur lui rattache des passages ; son épaisseur croît avec leur nombre. {p} prophètes, {t} thèmes, {k} fils."
+    col_prophets: "Prophètes"
+    col_themes: "Thèmes des signes"
+    prophet_line: "Passages : {n} · Thèmes : {k}"
+    topic_line: "Passages : {n} · Prophètes : {k}"
+    h_topics: "Thèmes liés à ce prophète"
+    h_prophets: "Prophètes liés à ce thème"
+    loose: "Thèmes ne relevant pas d’un seul prophète : miracle en général, inimitabilité du Coran, signes cosmiques et autres. Appuyez sur l’un pour filtrer les notices ci-dessous."
+    hint: "Survolez un prophète ou un thème, donnez-lui le focus ou touchez-le pour voir ses fils."
+    caption: "Décompte issu des passages de l’explorateur : le nombre auprès d’un prophète correspond aux passages de sa page ; celui d’un thème, aux passages qui en relèvent. Un passage peut relever de plusieurs thèmes. Appuyez sur un thème pour filtrer les notices ci-dessous."
+qurun:
+  title: "Explorateur des siècles, des années et des mois"
+  lede: "Chaque mention des siècles et générations, des années et des années nommées, des mois importants et sacrés dans les sources du musée : qurun et générations, années de la sira — Éléphant, Tristesse, Délégations, al-Ramada — douze mois lunaires de Mouharram à Dhu al-Hijja, quatre mois sacrés et intercalation (al-Nasi'), jours de Tashriq, jour d’Arafat, Nuit du Destin et dix dernières nuits, noms préislamiques des mois et mois persans, chaque livre qui en traite — des notices sourcées qui s’enrichissent avec les nouveaux textes."
+  badge: "Exploration des siècles et des mois"
+  status: "Cette version contient {n} notices en {s} sections et {p} pages thématiques ; les textes restent des brouillons jusqu’à leur lecture par un humain."
+  method_title: "La méthode de l’explorateur"
+  method_note: "Chaque notice est une notice ordinaire du musée, avec ses sources et ses textes en trois langues. Les mentions sont repérées à la génération du site par un lexique assorti de garde-fous : sana au singulier ne compte jamais au sens de sunna ou pratique ; am uniquement dans les formules d’années nommées ou les associations temporelles ; qurun près des bovins désigne les cornes, non les générations ; safar le chiffre, Rajab le prénom et muharram le terme juridique ne comptent qu’auprès de leurs associations de mois. Les faux positifs vérifiés sont exclus par identifiant ; les passages déjà reliés aux sujets temporels par des relations mentions explicites entrent aussi. Chaque livre dépouillé par la suite apporte automatiquement ses mentions dès que ses passages intègrent le graphe ; les notices thématiques les rejoignent par l’étiquette qurun-browser."
+  api: "L’ensemble est disponible à l’adresse"
+  subjects_title: "Pages thématiques des mois et des années"
+  subjects_note: "Chaque mois lunaire, concept temporel et année consignée au musée a une page thématique réunissant ses versets, traditions et récits de toutes les sections."
+  feed_title: "Chaque mention dans les sources"
+  mentions_count: "{n} mentions"
+  sections_title: "Les sections de l’explorateur"
+  filter_label: "Filtrer les notices temporelles"
+  filter_none: "Aucun résultat."
+  empty: "Cette version ne contient pas encore de notices temporelles."
+  entity_page: "Notice du musée"
+  quran_title: "Dans le Coran"
+  sunnah_title: "Dans la sunna"
+  seerah_title: "Dans la sira"
+  books_title: "Dans les autres livres"
+  curated_title: "Notices thématiques"
+  quran_ref: "Coran"
+  related_title: "Également au musée"
+  topics:
+    qurun: "Les siècles et les générations"
+    sunnin: "Années et saisons"
+    named-years: "Les années nommées de la sira"
+    shuhur: "Les mois et leur nombre"
+    sacred: "Les mois sacrés"
+    jahiliyya-time: "Le temps préislamique et les mois persans"
+    muharram: "Mouharram"
+    safar: "Safar"
+    rabi: "Rabi' al-Awwal et al-Akhir"
+    jumada: "Jumada al-Ula et al-Akhira"
+    rajab: "Rajab"
+    shaban: "Chaabane"
+    ramadan: "Ramadan"
+    shawwal: "Chawwal"
+    dhul-qada: "Dhu al-Qa'da"
+    dhul-hijja: "Dhu al-Hijja"
+  sections:
+    quran: { title: "Dans le Coran", desc: "Les siècles, générations, années, mois et temps nommés dans la révélation : douze mois, mois sacrés, intercalation, Ramadan, Nuit du Destin, pèlerinage et générations des peuples." }
+    sunnah: { title: "Dans la sunna", desc: "Les hadiths des deux Sahih, du Muwatta, des Arba'in et des Sunan sur les mois et années — Ramadan, Chaabane, Chawwal, Achoura, Arafat, jours de Tashriq, dix jours de Dhu al-Hijja, mois sacrés, années nommées et récits des Compagnons et des Successeurs." }
+    seerah: { title: "Dans la sira", desc: "Les mois et années nommées dans les ouvrages de sira et d’histoire — années de l’Éléphant, de la Tristesse, des Délégations, d’al-Ramada — à mesure que de nouveaux textes et leurs mentions temporelles sont intégrés." }
+    books: { title: "Dans les autres livres", desc: "Siècles, années et mois dans chaque livre dépouillé hors du Coran, du hadith et de la sira — tafsir, fiqh, histoire, poésie et les ouvrages à venir — lorsque le vocabulaire temporel signale la mention." }
+    curated: { title: "Notices thématiques", desc: "Les notices temporelles du musée : douze mois, mois sacrés, intercalation, calendrier hégirien, année arabe, mois persans, noms préislamiques des jours et des mois, siècles et années nommées — sous l’étiquette qurun-browser." }
+  viz:
+    title: "La roue de l’année hégirienne"
+    caption: "Les douze mois lunaires autour de l’année, le premier en haut. La barre dorée de chaque mois croît avec la racine carrée du nombre de passages du musée qui le mentionnent, rapportée au mois le plus cité. Rabi' et Jumada constituent chacun une notice pour deux mois, selon les sources. Les passages des mois sacrés sont comptés ensemble au centre."
+    label: "Roue des mois hégiriens avec le nombre de passages mentionnant chacun"
+    sacred_sub: "passages sur les mois sacrés"
+    hint: "Survolez un mois, donnez-lui le focus ou touchez-le pour le lire ; touchez-le à nouveau pour ouvrir sa page. Les flèches du clavier parcourent la roue."
+    month_of: "Mois {o} sur {t}"
+    months_of: "Mois {o} sur {t}"
+    passages: "{n} passages"
+    open: "Ouvrir la page du mois"
+    months_nav: "Les mois de l’année"
+    sacred_note: "Comptés au centre :"
+    years_title: "Années nommées"
+madhahib:
+  also_under: "Également sous :"
+  title: "Explorateur des quatre écoles juridiques"
+  lede: "Les quatre imams — Abou Hanifa, Malik, al-Shafi'i et Ahmad — et les écoles qu’ils ont fondées, les premières générations et Successeurs sur lesquels repose le fiqh, les livres consignant les écoles — dont les manuels d’étude de l’Ajurrumiyya à la Jazariyya et à la Shatibiyya — et tout ce qu’en disent les livres sunnites en histoire, fatwas et questions juridiques — réunis avec leurs sources."
+  badge: "Exploration des écoles juridiques"
+  status: "Cette version contient {n} notices réparties en {s} sections ; les textes restent des brouillons jusqu’à leur lecture par un humain."
+  method_title: "La méthode de l’explorateur"
+  method_note: "Chaque notice est une notice ordinaire du musée — sourcée, trilingue — sans table distincte. Les notices thématiques portent madhahib-browser et mh-<section> ; tout ouvrage, passage ou question dont la relation mentions nomme une école ou le concept de madhhab rejoint « Mentions dans les sources » ; une mention de l’école hanafite, malikite, chaféite ou hanbalite rejoint aussi sa section. Un livre dépouillé par la suite apparaît automatiquement dès l’écriture de ses relations ; les sources ne pouvant porter de relation mentions entrent par leurs étiquettes."
+  api: "L’ensemble des données est disponible à l’adresse"
+  sections_title: "Les sections de l’explorateur"
+  filter_label: "Filtrer les notices"
+  filter_none: "Aucun résultat correspondant."
+  empty: "Cette version ne contient pas encore de notices d’écoles juridiques."
+  sections:
+    aima: { title: "Les quatre imams", desc: "Les imams mujtahid autour desquels s’est organisé le fiqh : Abou Hanifa al-Nu'man, Malik ibn Anas, Muhammad ibn Idris al-Shafi'i et Ahmad ibn Hanbal — vies, écoles, écrits et transmissions." }
+    hanafi: { title: "Les hanafites", desc: "L’école d’Abou Hanifa : disciples, livres, méthode de raisonnement juridique et récits de ses tabaqat." }
+    maliki: { title: "Les malikites", desc: "L’école de Malik ibn Anas et des Médinois : disciples, livres, pratique de Médine qui la fonde et récits de ses tabaqat." }
+    shafii: { title: "Les chaféites", desc: "L’école d’al-Shafi'i : disciples, livres, méthode d’usul et de qiyas, voies suivies par les savants ultérieurs." }
+    hanbali: { title: "Les hanbalites", desc: "L’école d’Ahmad ibn Hanbal : disciples, livres, méthode de transmission, doctrine et textes révélés." }
+    ukhra: { title: "Autres écoles", desc: "Les écoles hors des quatre selon la tradition : zahirite, ja'farite et ibadite — présentées à part afin que les quatre madhhabs restent le cadre." }
+    salaf: { title: "Les premières générations et les Successeurs", desc: "Les générations fondatrices du fiqh avant la stabilisation des écoles : imams de Koufa, Bassora et du Hedjaz parmi les Successeurs et leurs successeurs — Ibrahim al-Nakha'i, al-Sha'bi, al-Awza'i, Sufyan al-Thawri et leurs semblables." }
+    kutub: { title: "Les livres", desc: "Les recueils et traités ayant établi ou comparé les écoles, et les manuels didactiques mémorisés par les étudiants : Ajurrumiyya, Alfiyyas, Quduri, Risala de Qayrawan, Matn Ibn Ashir, Matn Abi Shuja', Tahawiyya, Waraqat, Bayquniyya, Jazariyya et Shatibiyya — aux côtés du Muwatta, de la Hidaya, du Mughni, des études comparatives et des histoires des écoles." }
+    mafahim: { title: "Les concepts", desc: "Les termes du fiqh et des usul liés aux écoles : madhhab, ijtihad, qiyas, istihsan, taqlid, ikhtilaf, partisans du hadith et du ra'y." }
+    dhikr: { title: "Mentions dans les sources", desc: "Chaque livre, passage ou question du musée mentionnant les quatre écoles ou l’une d’elles — histoires des écoles, tabaqat des juristes, fatwas et questions comparatives — avec sa source." }
+  viz:
+    title: "Quatre écoles côte à côte dans le temps"
+    note: "Chaque colonne est une école, toutes partageant un axe en siècles hégiriens. Une barre est la vie d’un savant de sa naissance à sa mort ; une barre courte avec butée au pied indique que seule l’année de mort est connue ; un losange est un livre, placé à l’année de mort de son auteur. Survolez, donnez le focus ou touchez pour lire ; les arcs montrent qui a étudié auprès de qui. Seules les notices datées sont représentées."
+    hint: "Survolez une barre ou un losange, donnez-lui le focus ou touchez-le pour le lire ici."
+    swipe: "Faites défiler horizontalement pour voir les quatre écoles."
+    legend_title: "Comment lire le graphique"
+    lg_life: "Vie d’un savant, de la naissance à la mort"
+    lg_death: "Seule l’année de mort est consignée"
+    lg_book: "Livre placé à l’année de mort de son auteur"
+    lg_teacher: "De maître à élève, selon les notices"
+    outside: "Hors des quatre, dans la liste ci-dessous :"
+    imam: "Imam"
+    foot: "{n} savants · {m} livres"
+    foot_people: "{n} savants sans dates consignées"
+    foot_books: "{n} livres sans auteur daté"
+    died: "Mort en {ah} · {ce} ; naissance non consignée"
+    born: "Né en {ah} · {ce} ; mort non consignée"
+    school: "École :"
+    studied: "A étudié auprès de :"
+    taught: "A enseigné à :"
+    open: "Ouvrir la page"
+    close: "Fermer"
+    book: "Livre"
+    book_at: "Placé à la mort de son auteur, {a} :"
+    outline_title: "Le même graphique en liste"
+bayt:
+  title: "Explorateur de la famille du Prophète"
+  lede: "Tout ce que les sources du musée rapportent de la maison et de la famille du Prophète : versets des Gens de la Maison et de ses épouses dans le Coran, hadiths des Deux Poids, du Manteau, de Ghadir, de Fadak et de l’héritage de Fatima dans les deux Sahih, le Muwatta et les Sunan, transmissions des Compagnons et des Successeurs, chaque mention de chaque livre dépouillé — des notices sourcées qui s’enrichissent avec les nouveaux textes."
+  badge: "Exploration de la maison du Prophète"
+  status: "Cette version contient {n} notices réparties en {s} sections ; les textes restent des brouillons jusqu’à leur lecture par un humain."
+  method_title: "La méthode de l’explorateur"
+  method_note: "Chaque notice est une notice ordinaire du musée, sourcée et trilingue. Les mentions familiales sont repérées à la génération du site par un lexique assorti de garde-fous : termes univoques comme Ahl al-Bayt, itra et Banu Hashim directement ; noms ambigus comme Fatima, Zaynab et Safiyya uniquement dans leurs formes qualifiées ou après audit des faux positifs. Chaque livre dépouillé par la suite apporte automatiquement ses mentions dès l’arrivée de son texte ; les notices thématiques sur la famille les rejoignent par l’étiquette bayt-browser."
+  api: "L’ensemble des données est disponible à l’adresse"
+  sections_title: "Les sections de l’explorateur"
+  filter_label: "Filtrer les notices familiales"
+  filter_none: "Aucun résultat correspondant."
+  empty: "Cette version ne contient pas encore de notices de la famille."
+  sections:
+    quran: { title: "Dans le Coran", desc: "Les versets des Gens de la Maison dans la purification et la mubahala, ceux des épouses dans al-Ahzab, le verset de Sawda et les autres — chacun avec sa source." }
+    sunnah: { title: "Dans la sunna", desc: "Les hadiths des Deux Poids, du Manteau, de Ghadir, de Fadak et de l’héritage de Fatima dans les deux Sahih, le Muwatta, les Quarante et les Sunan — chaque récit avec sa source." }
+    seerah: { title: "Dans la sira", desc: "Les Gens de la Maison, Banu Hashim, les épouses et les enfants du Prophète dans les ouvrages de sira et de maghazi — cette section s’enrichit avec les nouveaux textes." }
+    books: { title: "Dans les autres livres", desc: "Chaque mention de la famille du Prophète en poésie, histoire, fiqh et dans chaque ouvrage dépouillé hors du Coran, du hadith et de la sira." }
+    ahl: { title: "La famille et le clan", desc: "Les notices thématiques sur les membres de la famille : Fatima, Ali, Hasan, Husayn, Khadija, filles et épouses, Banu Hashim, Banu Abd al-Muttalib, grand-père et oncles." }
+    mawaqif: { title: "Épisodes et événements", desc: "Les épisodes liés à la famille : Ghadir Khumm, Manteau, mubahala, Fadak, héritage de Fatima, Karbala et allégeance à Ali." }
+    concepts: { title: "Concepts et sources", desc: "Les notices thématiques sur les concepts familiaux : itra, Gens du Manteau, Deux Poids, Mères des croyants, Douze Imams, livres de sira et de shamail." }
+  viz:
+    title: "La famille telle que la consigne le graphe"
+    note: "La famille du Prophète est tracée uniquement à partir des relations de parenté du graphe : une ligne unit deux personnes lorsqu’une notice consigne leur lien. Ses parents et la lignée de son grand-père sont au-dessus, ses épouses à ses côtés, ses enfants et petits-enfants en dessous. {n} personnes sont placées, avec {c} lignes parent-enfant et {s} lignes de mariage. Les épouses suivent la date de mariage inscrite sur la relation ({d} sur {w} en ont une), puis viennent celles sans date ; les mères d’un enfant représenté ici figurent sur la ligne inférieure. {b} liens fraternels apparaissent à la sélection d’une personne."
+    legend_title: "Lignes"
+    lg_child: "Du parent à l’enfant"
+    lg_spouse: "Mariage"
+    lg_sib: "Fratries, visibles à la sélection"
+    groups_title: "Groupes familiaux"
+    hint: "Survolez une personne, donnez-lui le focus ou touchez-la pour éclairer ses relations immédiates et découvrir qui elle est. Les marques colorées au pied d’une carte indiquent ses groupes familiaux selon les relations d’appartenance ; choisissez un groupe pour estomper les autres personnes."
+    swipe: "Faites défiler horizontalement pour voir tout le graphique."
+    unlinked: "{n} personnes de la section familiale sans relation de parenté avec ce graphique pour le moment"
+    close: "Fermer"
+    events_title: "Moments familiaux dans l’ordre des dates consignées dans les notices"
+    events_undated: "{n} autres n’ont pas de date dans leur notice :"
+    outline_title: "Le même graphique en texte, personne par personne"
+    r_parents: "Parents"
+    r_spouses: "Conjoints"
+    r_children: "Enfants"
+    r_siblings: "Fratrie"
+    r_groups: "Groupes"
+    r_none: "Aucune relation de parenté avec le graphique pour le moment."
+    open: "Ouvrir la page"
