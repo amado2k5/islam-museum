@@ -23,7 +23,7 @@ periods: [period/prophetic-era, period/rashidun]
 regions: [arabia, levant-iraq]
 story_roles:
   - { role: companion, start: { edtf: "0625~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
-  - { role: official, toward: person/muhammad, start: { edtf: "0628" }, status: historical, note: "سفير النبي إلى هرقل قيصر الروم (الرحيق ص356).", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { role: official, toward: person/muhammad, start: { edtf: "0628" }, status: historical, note: "سفير النبي إلى هرقل قيصر الروم ⁦(الرحيق ص356)⁩.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0625~" }, note: "صحابي جليل وسفير النبي." }
 died: { edtf: "0660~", hijri: "0040~", calendar: julian, precision: year, status: tradition, derived: true, note: "Settled at Damascus in al-Mizza and lived into Mu'awiya's caliphate (al-Isaba p. 427); CE year approximated to 40 AH", sources: [source/ibn-hajar-isaba] }

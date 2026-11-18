@@ -30,7 +30,7 @@ provenance:
 ## شناخت اور الزامات
 
 :::perspectives
-- **Sunni (اہلِ سنت): اسلام ویب کی قرأت اور واضح سیاق**: اسلام ویب کے مطابق صنعتوں سے وابستہ طعنوں کے باوجود الحاد ثابت نہیں؛ یہ سائٹ کی رائے ہے، میوزیم کا حکم نہیں {cite:islamweb-firnas-406804 Ibn Firnas discussion}۔ مسلم شناخت کی بنیاد حسن کا صریح بیان ہے؛ اموی قرطبہ کا سنی فریم میوزیم کا ہے، ذاتی فقہی مسلک کی شہادت نہیں {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382} {cite:tdv-abbas-firnas-kirbiyik biography}۔
+- **Sunni ⁦(اہلِ سنت)⁩: اسلام ویب کی قرأت اور واضح سیاق**: اسلام ویب کے مطابق صنعتوں سے وابستہ طعنوں کے باوجود الحاد ثابت نہیں؛ یہ سائٹ کی رائے ہے، میوزیم کا حکم نہیں {cite:islamweb-firnas-406804 Ibn Firnas discussion}۔ مسلم شناخت کی بنیاد حسن کا صریح بیان ہے؛ اموی قرطبہ کا سنی فریم میوزیم کا ہے، ذاتی فقہی مسلک کی شہادت نہیں {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382} {cite:tdv-abbas-firnas-kirbiyik biography}۔
 - **علمی رائے: قاسم قربِیق**: جادو و زندقہ کے الزامات نقل کر کے کامیابی پر حسد سے منسوب کرتے ہیں؛ الزام اور مجوزہ محرک دونوں سوانح نگار کے منسوب بیانات رہتے ہیں {cite:tdv-abbas-firnas-kirbiyik biography}۔
 :::
 

@@ -9,7 +9,7 @@ translators: []
 
 ## الملخص
 
-عمر القزابري (وُلد 4 أغسطس 1974) قارئ وإمام مغربي، إمام [[building/hassan-ii-mosque|مسجد الحسن الثاني]] بالدار البيضاء منذ رمضان 2005، وخطيب مسجد النسيم بالمدينة نفسها. {cite:wikipedia-omar-al-qazabri-ar} {cite:wikidata-omar-al-qazabri}
+عمر القزابري ⁦(وُلد 4 أغسطس 1974)⁩ قارئ وإمام مغربي، إمام [[building/hassan-ii-mosque|مسجد الحسن الثاني]] بالدار البيضاء منذ رمضان 2005، وخطيب مسجد النسيم بالمدينة نفسها. {cite:wikipedia-omar-al-qazabri-ar} {cite:wikidata-omar-al-qazabri}
 
 ## النشأة
 
@@ -31,7 +31,7 @@ translators: []
 
 ## الحضور الرقمي
 
-له مقالتان في ويكيبيديا (العربية والأردية) بحسب ويكيداتا في 6 نوفمبر 2026. {cite:wikidata-omar-al-qazabri}
+له مقالتان في ويكيبيديا ⁦(العربية والأردية)⁩ بحسب ويكيداتا في 6 نوفمبر 2026. {cite:wikidata-omar-al-qazabri}
 
 ## المراجع
 

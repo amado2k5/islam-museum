@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/abbasid-early]
 regions: [maghreb]
 date:
-  start: { edtf: "0795/0800", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافة هارون الرشيد بعد هرثمة وابن العكي (البلاذري ص 327). التحويل مشتق." }
+  start: { edtf: "0795/0800", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافة هارون الرشيد بعد هرثمة وابن العكي ⁦(البلاذري ص 327)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/ifriqiya }
   - { type: occurred_at, target: place/al-zab, sources: [source/futuh-buldan-maarif-1407] }
@@ -19,7 +19,7 @@ relations:
   - { type: during_reign, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 327"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 327"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-23
 sources: [source/futuh-buldan-maarif-1407]

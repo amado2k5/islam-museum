@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { hijri: "0014~", precision: year, status: tradition, note: "سنة 14؛ والقادسية بعدها بثمانية عشر شهراً (البلاذري ص 354–356)" }
+  start: { hijri: "0014~", precision: year, status: tradition, note: "سنة 14؛ والقادسية بعدها بثمانية عشر شهراً ⁦(البلاذري ص 354–356)⁩" }
 relations:
   - { type: occurred_at, target: place/al-buwayb }
   - { type: had_participant, target: person/jarir-ibn-abd-allah-al-bajali, role: "أمير بجيلة ومدعي قتل مهران", sources: [source/futuh-buldan-maarif-1407] }
@@ -22,7 +22,7 @@ relations:
   - { type: had_participant, target: person/qurt-ibn-jammakh-al-abdi, role: "صاحب السيف المنثني", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 354–355"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 354–355"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-30, lib-akhbar-tiwal-batch-3-2026-10-31
 sides:

@@ -9,14 +9,14 @@ wings: [time]
 periods: [period/rashidun]
 regions: [egypt-nile]
 date:
-  start: { hijri: "0020~", precision: year, status: tradition, derived: true, note: "في ولاية عمرو على مصر (البلاذري ص 307–308). التحويل مشتق." }
+  start: { hijri: "0020~", precision: year, status: tradition, derived: true, note: "في ولاية عمرو على مصر ⁦(البلاذري ص 307–308)⁩. التحويل مشتق." }
 relations:
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الآمر بالقسامة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/amr-ibn-al-as, role: "المقاسَم", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/muhammad-ibn-maslama, role: "الموفَد للقسامة", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 307–308"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 307–308"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-20
 sources: [source/futuh-buldan-maarif-1407]

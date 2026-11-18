@@ -24,7 +24,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 قبول فعل سے بھی ہو سکتا ہے؛ مالکیہ اور حنابلہ قبول میں تاخیر جائز کہتے ہیں، جبکہ حنفیہ، شافعیہ اور حنابلہ معلق ہبہ کو درست نہیں مانتے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16786} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16789}
 
 ## عوض والا ہبہ
-عوض پر ہبہ کے جواز اور اس کی تکییف (بیع یا ابتداءً ہبہ اور انتہاءً بیع) میں فقہاء مختلف ہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16792} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16795}
+عوض پر ہبہ کے جواز اور اس کی تکییف ⁦(بیع یا ابتداءً ہبہ اور انتہاءً بیع)⁩ میں فقہاء مختلف ہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16792} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16795}
 
 ## رجوع
 جمہور کے نزدیک باپ کے سوا کسی کو اولاد کو دیے ہوئے ہبہ سے رجوع جائز نہیں، حنفیہ اسے مکروہ کے ساتھ جائز کہتے ہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16800} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16801}

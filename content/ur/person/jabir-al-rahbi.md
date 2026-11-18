@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b76, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/166-167" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b76, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/166-167" }
 ---
 ## خلاصہ
 جابر رحبی، نازک احوال اور عمدہ الطاف والے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 543)⁩ صفحات 166 اور 167 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 543 ہے، تسلسل میں 544۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/166} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/167}

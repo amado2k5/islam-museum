@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0757~", hijri: "0140~", calendar: julian, precision: year, status: tradition, derived: true, note: "الأمر سنة 139 والتوجه سنة 140 والفراغ في ستة أشهر (البلاذري ص 263–265). التحويل مشتق." }
+  start: { edtf: "0757~", hijri: "0140~", calendar: julian, precision: year, status: tradition, derived: true, note: "الأمر سنة 139 والتوجه سنة 140 والفراغ في ستة أشهر ⁦(البلاذري ص 263–265)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/malatya }
   - { type: had_participant, target: person/al-mansur, role: "الآمر بالبناء والمقطِع للجند", sources: [source/futuh-buldan-maarif-1407] }
@@ -19,7 +19,7 @@ relations:
   - { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 263–265"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 263–265"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-15
 sources: [source/futuh-buldan-maarif-1407]

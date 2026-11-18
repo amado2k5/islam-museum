@@ -12,7 +12,7 @@ periods: [period/prophetic-era]
 regions: [arabia]
 died: { edtf: "624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham (al-Sirah)" }
 relations:
-  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/assabile-mustafa-hosny], confidence: low }
+  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name ⁦(القرشي)⁩; denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/assabile-mustafa-hosny], confidence: low }
   - { type: member_of, target: group/quraysh, sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/nullification-of-boycott-covenant, sources: [source/mubarakpuri-raheeq] }
 provenance:

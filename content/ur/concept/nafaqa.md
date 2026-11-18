@@ -10,7 +10,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ## بیوی کا نفقہ
 دلیل: قرآن، سنت، اجماع اور عقل۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15864}
 شرائط: بالغہ یا وطء کے قابل ہو، اور نکاح صحیح ہو۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15866} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15867}
-نفقہ کی مقدار: کفایت کے مطابق (حنفیہ، مالکیہ اور اکثر حنابلہ)، شافعیہ کے معتمد قول میں مقررہ مقدار۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15868} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15870}
+نفقہ کی مقدار: کفایت کے مطابق ⁦(حنفیہ، مالکیہ اور اکثر حنابلہ)⁩، شافعیہ کے معتمد قول میں مقررہ مقدار۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15868} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15870}
 نشوز: نافرمان بیوی کا نفقہ ساقط ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15885}
 تفریق: عدم نفقہ پر عورت تفریق مانگ سکتی ہے، مالکیہ، شافعیہ کے اظہر اور حنابلہ کے نزدیک، جبکہ حنفیہ اس کے قائل نہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15896} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15898}
 

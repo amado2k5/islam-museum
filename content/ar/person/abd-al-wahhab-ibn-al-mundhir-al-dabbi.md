@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b95, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/393" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b95, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/393" }
 ---
 ## موجز
 عبد الوهاب بن المنذر الضبي، فقيه عابد صوّام قوّام. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 673)⁩ في الصفحة 393، وتسلسله 674. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/393}

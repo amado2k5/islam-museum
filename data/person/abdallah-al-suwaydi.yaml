@@ -32,6 +32,6 @@ occupations:
     note: "merge-map link from role 'jurist', Job Browser linking wave 40"
     sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 relations:
-  - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (عراقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name ⁦(عراقي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: born_in, target: place/baghdad, note: "Al-Zirikli, al-A'lam vol. 4 p. 57: born in the Karkh quarter of Baghdad.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
   - { type: died_in, target: place/baghdad, note: "Al-Zirikli, al-A'lam vol. 4 p. 57: died in Baghdad.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

@@ -2,7 +2,7 @@
 id: invention/coffeehouse-yemen
 lang: ar
 source_lang: ar
-title: "بيت القهوة (المقهى) مؤسسةً اجتماعية جديدة"
+title: "بيت القهوة ⁦(المقهى)⁩ مؤسسةً اجتماعية جديدة"
 status: { review: published }
 provenance: { generated_by: devin-drafter-w2-27, model: SWE-2, run: inventions-w2-27, source: "Ukers pp. 16-20; EI2 KAHWA; Hattox bibliographic" }
 ---

@@ -7,7 +7,7 @@ translators: []
 
 ## خلاصہ
 
-امام عبد العزیز بن محمد آل سعود (1720ء – 1803ء) امارت درعیہ اور پہلی سعودی ریاست کے دوسرے حکمران تھے، 1765ء میں اپنے والد کے جانشین ہوئے {cite:wikipedia-abdulaziz-bin-muhammad-en} {cite:wikipedia-abdulaziz-bin-muhammad-ar}۔
+امام عبد العزیز بن محمد آل سعود ⁦(1720ء – 1803ء)⁩ امارت درعیہ اور پہلی سعودی ریاست کے دوسرے حکمران تھے، 1765ء میں اپنے والد کے جانشین ہوئے {cite:wikipedia-abdulaziz-bin-muhammad-en} {cite:wikipedia-abdulaziz-bin-muhammad-ar}۔
 
 ## پرورش اور تعلیم
 

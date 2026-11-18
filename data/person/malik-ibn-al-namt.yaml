@@ -17,9 +17,9 @@ themes: [converts-and-leavers, literature]
 periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
-  - { role: convert, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "وافد همدان مرجع النبي من تبوك (ابن هشام ص244).", sources: [source/ibn-hisham-saqqa] }
-  - { role: poet, status: tradition, note: "ارتجز بالقوم وقال قصيدة في النبي (ابن هشام ص244-246).", sources: [source/ibn-hisham-saqqa] }
-  - { role: official, start: { edtf: "0631~" }, status: tradition, note: "أمّره النبي على من أسلم من قومه (الرحيق ص449).", sources: [source/mubarakpuri-raheeq] }
+  - { role: convert, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "وافد همدان مرجع النبي من تبوك ⁦(ابن هشام ص244)⁩.", sources: [source/ibn-hisham-saqqa] }
+  - { role: poet, status: tradition, note: "ارتجز بالقوم وقال قصيدة في النبي ⁦(ابن هشام ص244-246)⁩.", sources: [source/ibn-hisham-saqqa] }
+  - { role: official, start: { edtf: "0631~" }, status: tradition, note: "أمّره النبي على من أسلم من قومه ⁦(الرحيق ص449)⁩.", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631~" }, sources: [source/ibn-hisham-saqqa] }
 died: { edtf: "633~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }

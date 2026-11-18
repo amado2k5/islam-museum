@@ -12,10 +12,10 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 میوزیم میں اس دور کا مواد آج یہ ہے: نمایاں واقعات: 1، ریاستیں: 1، گروہ: 1، سب سے زیادہ ذکر ہونے والی شخصیات: 148، عمارات: 1۔
 
 ### نمایاں واقعات
-- [[event/umar-dismisses-al-numan-ibn-adi|عمر کا نعمان بن عدی کو میسان کی گورنری سے معزول کرنا]] (634ء)
+- [[event/umar-dismisses-al-numan-ibn-adi|عمر کا نعمان بن عدی کو میسان کی گورنری سے معزول کرنا]] ⁦(634ء)⁩
 
 ### ریاستیں
-- [[polity/rashidun-caliphate|خلافتِ راشدہ]] (632ء تا 661ء)
+- [[polity/rashidun-caliphate|خلافتِ راشدہ]] ⁦(632ء تا 661ء)⁩
 
 ### گروہ
 - [[group/mothers-of-the-believers|امہات المؤمنین]]

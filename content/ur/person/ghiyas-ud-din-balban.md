@@ -7,7 +7,7 @@ translators: []
 
 ## خلاصہ
 
-غیاث الدین بلبن (1216ء – 13 جنوری 1287ء)، جو سلطنت سے پہلے الغ خان کے لقب سے معروف تھے، دہلی کی مملوک سلطنت کے نویں سلطان اور اس کے سب سے طاقتور حکمران تھے۔ {cite:wikipedia-ghiyas-ud-din-balban-en} وہ ایلبری ترک تھے جنہیں بچپن میں منگولوں نے پکڑا؛ التتمش نے 1232ء میں انھیں خرید کر چہلگانی میں شامل کیا۔ {cite:wikipedia-ghiyas-ud-din-balban-en} {cite:wikipedia-ghiyas-ud-din-balban-ur} پھر وہ سلطان ناصر الدین محمود کے نائب و وزیر بنے اور 1266ء میں تخت پر بیٹھے۔ {cite:wikipedia-ghiyas-ud-din-balban-en} {cite:wikipedia-ghiyas-ud-din-balban-ar}
+غیاث الدین بلبن ⁦(1216ء – 13 جنوری 1287ء)⁩، جو سلطنت سے پہلے الغ خان کے لقب سے معروف تھے، دہلی کی مملوک سلطنت کے نویں سلطان اور اس کے سب سے طاقتور حکمران تھے۔ {cite:wikipedia-ghiyas-ud-din-balban-en} وہ ایلبری ترک تھے جنہیں بچپن میں منگولوں نے پکڑا؛ التتمش نے 1232ء میں انھیں خرید کر چہلگانی میں شامل کیا۔ {cite:wikipedia-ghiyas-ud-din-balban-en} {cite:wikipedia-ghiyas-ud-din-balban-ur} پھر وہ سلطان ناصر الدین محمود کے نائب و وزیر بنے اور 1266ء میں تخت پر بیٹھے۔ {cite:wikipedia-ghiyas-ud-din-balban-en} {cite:wikipedia-ghiyas-ud-din-balban-ar}
 
 ## زندگی
 

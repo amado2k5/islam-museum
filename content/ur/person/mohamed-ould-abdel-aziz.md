@@ -7,7 +7,7 @@ translators: []
 
 # محمد ولد عبد العزیز
 
-محمد ولد عبد العزیز (پیدائش 20 دسمبر 1956ء) موریتانی کے ریٹائرڈ فوجی افسر و سیاست دان ہیں، 2009ء تا 2019ء ملک کے آٹھویں صدر رہے۔ {cite:wikipedia-mohamed-ould-abdel-aziz-en} {cite:wikidata-mohamed-ould-abdel-aziz} {cite:wikipedia-mohamed-ould-abdel-aziz-ur}
+محمد ولد عبد العزیز ⁦(پیدائش 20 دسمبر 1956ء)⁩ موریتانی کے ریٹائرڈ فوجی افسر و سیاست دان ہیں، 2009ء تا 2019ء ملک کے آٹھویں صدر رہے۔ {cite:wikipedia-mohamed-ould-abdel-aziz-en} {cite:wikidata-mohamed-ould-abdel-aziz} {cite:wikipedia-mohamed-ould-abdel-aziz-ur}
 
 ## دو بغاوتیں
 
