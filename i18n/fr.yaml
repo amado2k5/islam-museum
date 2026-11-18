@@ -1662,3 +1662,344 @@ foundation:
   'take_suggest': 'Proposer une entrée ou une correction'
   'license': 'Licence : textes CC BY-SA 4.0 · données CC0 · code MIT'
   'breadcrumb': 'Musée'
+explore:
+  groups:
+    texts: "Textes"
+    people: "Personnes"
+    places: "Lieux et temps"
+    unseen: "L''invisible"
+    conduct: "Culte, conduite et faire"
+    tools: "Outils"
+    more: "Autres portes"
+  label: Outils d''exploration
+  wings: Ailes
+  share: Partager
+  copied: Lien copié
+  top: Haut de page
+  next: Continuer l''exploration
+  wing_card: Aile
+  related_card: Lié
+  font: Police
+  pages:
+    heroes:
+      title: Héros de l''islam
+      desc: "La salle des héros : six salles de vertu — sacrifice, courage, miséricorde, générosité, savoir et constance — chacune avec quatre héros, leurs récits complets et leurs sources."
+      menu: Six salles de vertu, vingt-quatre héros
+    courses:
+      title: "L''Explorateur scolaire"
+      desc: "Votre matière scolaire avec le musée dedans : choisissez votre système scolaire, votre année et votre matière, et chaque leçon de votre programme s''ouvre avec les savants, inventions, lieux et versets qui vont avec, chacun cité, avec un auto-test, une vue pour la classe et un polycopié imprimable."
+      menu: "Les cours de l''école avec le musée dans chaque leçon"
+    seerah:
+      title: Sira et vie quotidienne
+      desc: 'La Sira comme méthode de vie : des cartes pratiques qui organisent votre journée, semaine, mois, année et étapes de vie sur le modèle prophétique.'
+      menu: Un guide pratique de la vie quotidienne sur la Sira
+    tafsir:
+      title: Navigateur du tafsir
+      desc: "Les commentaires du Coran, volume par volume : le Jami' al-Bayan d''al-Tabari d''abord, chaque volume lié aux versets qu''il couvre et à sa source, et les autres tafsirs du musée."
+      menu: Lire les commentaires du Coran
+    quran:
+      title: "Le Mushaf"
+      desc: Le Coran entier en lecture continue, sourate par sourate — le texte gelé de Tanzil, chaque verset une porte vers sa page du musée.
+      menu: Lire le Coran, sourate par sourate
+    hadith:
+      title: "La Bibliothèque du hadith"
+      desc: Les recueils de hadith du musée — parcourez chaque œuvre par livre et récit, avec des liens vers Sunnah.com.
+      menu: Parcourir les recueils de hadith
+    timeline:
+      title: "Temps"
+      desc: Quatorze siècles sur un axe hégirien interactif, avec le grégorien en seconde lecture.
+      menu: "L''axe entier : chaque entrée datée, par année et par siècle"
+    calendar:
+      title: Calendrier hégirien
+      desc: 'Parcourez l''année hégirienne mois par mois : chaque jour avec son jumeau grégorien, les observances, un convertisseur et un téléchargement .ics.'
+      menu: Parcourir l''année hégirienne mois par mois
+    journeys:
+      title: "Voyages"
+      desc: 'Suivez la route de la Hijra jour par jour : les étapes, les distances et les nuits.'
+      menu: Suivre la route de la Hijra jour par jour
+    graph:
+      title: Explorateur de liens
+      desc: Personnes, événements et lieux dessinés en constellation de relations.
+      menu: Relations entre personnes, événements et lieux
+    map:
+      title: "Lieux"
+      desc: 'Le monde islamique en carte interactive à travers le temps : régions, puis villes, puis les personnes et événements liés à chaque lieu, sur un curseur de temps hégirien.'
+      menu: La carte interactive à travers le temps
+    revelation:
+      title: Révélation et histoire
+      desc: Lisez le Coran dans l''ordre où il fut révélé, à côté des événements.
+      menu: Le Coran tel que révélé, avec les événements
+    surahmaps:
+      title: Cartes des sourates
+      desc: 'Chaque sourate en carte interactive : ses thèmes et stations, verset par verset.'
+      menu: Cartes interactives des sourates
+    cards:
+      title: Cartes du musée
+      desc: 'Cartes d''étude interactives : cartes de mots, listes et récits.'
+      menu: Cartes d''étude interactives
+    sighar:
+      title: Aile des enfants
+      desc: 'Le coin des enfants du musée : le Jardin des mots et la Quête du Prophète avec Hudhud.'
+      menu: Coin interactif des enfants
+    timeexplorer:
+      title: "Explorateur de chronologie"
+      desc: "Suivez le récit d''une personne, d''une époque ou d''une ville étape par étape sur une chronologie interactive."
+      menu: "Promenades guidées : le récit d''une personne, d''une époque ou d''une ville, étape par étape"
+    khutab:
+      title: "Explorateur des khutab et durus"
+      desc: "Sermons historiques des recueils de khutab et séries de leçons enregistrées, chacun lié à son texte et à sa source."
+    fatwa:
+      title: "Explorateur des fatwas"
+      desc: "Fatwas issues des recueils de fatwas et des sites officiels et connus de fatwa, groupées par source, chacune résumée dans les mots du musée et liée à sa page d''origine."
+    poetry:
+      title: "L''Anthologie poétique"
+      desc: "Les poèmes documentés rangés sous leurs poètes, chacun avec son occasion et son contexte."
+      menu: "Lire la poésie par ses poètes"
+    qudsi:
+      title: "Navigateur du hadith qudsi"
+      desc: "Les hadiths que le Prophète rapporte de son Seigneur dans les six livres et la Muwatta de Malik : chaque hadith avec ses transmissions dans chaque recueil, rangé par thème."
+      menu: "Parcourir les hadiths sacrés (hadith qudsi)"
+    jobs:
+      title: "Navigateur des métiers"
+      desc: "Les métiers que les gens exerçaient dans l''histoire islamique, du juge au scribe et à l''artisan : chaque métier avec les personnes que le musée y a jusqu''ici enregistrées. Beaucoup de métiers n''en ont encore aucune, et chacun le dit."
+      menu: "Parcourir métiers et artisanats à travers l''histoire"
+    inventions:
+      title: "Navigateur des inventions"
+      desc: "Inventions et découvertes sourcées, de leurs auteurs et contextes aux travaux bâtis dessus."
+      menu: "Parcourir les inventions et leurs chaînes"
+    modern:
+      title: 'Navigateur de l''islam moderne'
+      desc: 'Les cinquante dernières années de l''islam et des musulmans : sites web, musique, films, conférences, figures, organisations, sport, récompenses, et ce qui vient.'
+      menu: 'Parcourir les cinquante dernières années'
+    companions:
+      title: 'Navigateur des Compagnons'
+      desc: 'Les Compagnons du Prophète en toile de personnes : les Dix, les Muhajirun et les Ansar, la maisonnée du Prophète, les femmes Compagnons, leurs clans, les événements où ils se tinrent, et quand ils moururent.'
+      menu: 'Parcourir les Compagnons'
+    asma:
+      title: "Navigateur des Plus Beaux Noms"
+      desc: "Les quatre-vingt-dix-neuf noms de Dieu, chacun avec son sens et les récits que les notices du musée portent pour lui."
+      menu: "Parcourir les quatre-vingt-dix-neuf noms et leurs récits"
+    khulafa:
+      title: "Navigateur des califes"
+      desc: "Chaque calife groupé par son califat — des Rachidun à Sokoto — avec son règne, sa chaîne de succession, les événements que son règne a vus et la notice citée."
+      menu: "Parcourir les califes et leurs règnes"
+    ghayb:
+      title: Navigateur du ghayb
+      desc: "Djinns et anges, l''âme, les mesures du temps, l''Ascension, la barzakh et les signes de l''Heure — l''invisible avec ses sources."
+      menu: "Parcourir le monde de l''invisible"
+    nature:
+      title: Explorateur de la nature
+      desc: "Animaux, oiseaux, insectes, créatures de la mer, plantes et phénomènes de la création dans le Coran et le hadith — chaque verset et récit avec sa source."
+      menu: "Parcourir la nature dans le Coran et le hadith"
+    angels:
+      title: "Navigateur des anges"
+      desc: "Chaque mention des anges dans le Coran, le hadith, la Sira et les livres sunnites — Gabriel, Michel, Israfil, les scribes enregistreurs, les anges de Badr et Hunayn — groupée par rôle avec chaque verset et récit cité."
+      menu: "Parcourir les anges et leurs mentions"
+    dreams:
+      title: Navigateur des rêves
+      desc: "Chaque vision et rêve mentionné dans le Coran, le hadith, la sira et chaque livre récolté — du rêve de Joseph au rêve de Laylat al-Qadr, et chaque rêve classé le jour où sa source arrive."
+      menu: "Parcourir les rêves dans le Coran, le hadith et la sira"
+    dua:
+      title: "Navigateur des invocations"
+      desc: "Chaque invocation mentionnée dans le Coran, la Sunna, la sira et chaque livre récolté — les prières nocturnes du Prophète et les invocations des Compagnons — avec chaque verset et récit cité."
+      menu: "Parcourir les invocations dans le Coran, le hadith et les livres"
+    ibadat:
+      title: "Navigateur du culte et des adhkar"
+      desc: "Chaque acte d''adoration et de rappel mentionné dans le Coran, la Sunna, la sira et chaque livre récolté — prière, purification, jeûne, zakat et charité, hajj et umrah, dhikr et invocation, glorification et demande de pardon, récitation, repentir et ruqya — avec chaque verset et récit cité."
+      menu: "Parcourir le culte et les adhkar dans le Coran, le hadith et les livres"
+    nar:
+      title: "Navigateur du Feu"
+      desc: "Chaque mention du Feu dans le Coran, la Sunna, la sira et chaque livre récolté — Jahannam, Saqar, al-Jahim, al-Hutama, Ladha, al-Hamiya et al-Sa'ir, ses gardiens, son combustible, sa nourriture et le pont dessus — et le feu d''ici-bas aussi : le feu d''Ibrahim, l''arbre enflammé de Moussa et le feu de la guerre — chaque verset et récit cité."
+      menu: "Parcourir le Feu dans le Coran, le hadith et les livres"
+    janna:
+      title: "Navigateur du Paradis"
+      desc: "Chaque mention du Paradis (al-janna) dans le Coran, la Sunna, la sira et chaque livre récolté — al-Firdaws, les jardins d''Adn, Dar al-Salam, ses fleuves, portes, degrés, sol et habitants, et chaque récit des Compagnons et Successeurs — avec chaque verset et récit cité."
+      menu: "Parcourir le Paradis dans le Coran, le hadith et les livres"
+    qiyama:
+      title: "Navigateur de la Résurrection et du Compte"
+      desc: "Chaque mention de la Résurrection, du Jour du Jugement et du Compte dans le Coran, la Sunna, la sira et chaque livre récolté — les noms du Jour, la Trompe, le relèvement et le rassemblement, les terreurs, la présentation et les registres, la Balance, l''Ombre, le Hawd, l''intercession et le Sirat — avec chaque verset et récit cité."
+      menu: "Parcourir la Résurrection, le Jour et le Compte"
+    tibb:
+      title: "Navigateur de la médecine : médecine prophétique, médecine, anatomie, chirurgie, remèdes et traitement en islam"
+      desc: "Tout ce qui est mentionné de la médecine prophétique, de la médecine, de l''anatomie, de la chirurgie, des remèdes et de la recherche de traitement dans le Coran, la Sunna, la sira, les récits des Compagnons et Successeurs, les classiques médicaux et chaque livre récolté — ventouses, miel, nigelle, cautère et ruqya ; maladie, contagion, peste et visite aux malades ; les étapes de la création et les organes du corps ; le soin des blessés ; remèdes et poisons ; le statut du traitement — avec chaque verset et récit cité."
+      menu: "Parcourir médecine prophétique, médecine, anatomie, chirurgie, remèdes et traitement"
+    usra:
+      title: "Navigateur de la famille et des mariages"
+      desc: "Les mariages célèbres en islam, la famille musulmane et sa vie quotidienne — chaque mention du mariage, des époux et des enfants, des demeures, de la subsistance et des coutumes sociales dans le Coran, la Sunna, la sira et chaque livre récolté, avec chaque verset et récit cité."
+      menu: "Parcourir mariages, familles et vie quotidienne dans le Coran et les livres"
+    ubuwwa:
+      title: "Navigateur de la paternité en islam"
+      desc: "Chaque mention du père et de la paternité en islam — les pères coraniques et leurs conseils, le respect et la désobéissance aux parents, le Prophète comme père, la paternité et la filiation, et l''orphelin dont le père est perdu — dans le Coran, la Sunna, la sira, les récits des Compagnons et Tabi'in et chaque livre récolté, avec chaque verset et récit cité."
+      menu: "Parcourir le père et la paternité dans le Coran et les livres"
+    ukhuwwa:
+      title: "Navigateur de la fraternité en islam"
+      desc: "Fraternité et sororité en islam — chaque mention des frères et sœurs dans la foi, la mu'akhat des Muhajirun et des Ansar, l''amour pour Dieu, l''altruisme et l''entraide, les droits qu''un musulman doit à un musulman et ce qui brise la fraternité — dans le Coran, la Sunna, la sira et chaque livre récolté, avec chaque verset et récit cité."
+      menu: "Parcourir fraternité, mu'akhat et droits des frères dans le Coran et les livres"
+    sport:
+      title: "Navigateur des sports et compétitions en islam"
+      desc: "Équitation, natation, tir à l''arc et chaque sport et concours des musulmans — lutte et force, courses et concours pariés, jeu de lance, jeux de balle et de plateau, chasse et le jeu moderne — dans le Coran, la Sunna, la sira, les récits des Compagnons et Tabi'in et chaque livre récolté, avec chaque verset et récit cité."
+      menu: "Parcourir équitation, natation, tir à l''arc et tous les sports des musulmans dans le Coran et les livres"
+    umuma:
+      title: "Navigateur de la maternité en islam"
+      desc: "Tout ce que les sources mentionnent de la maternité — la mère et son rang, la grossesse, l''accouchement, l''allaitement, la garde et l''éducation des enfants, et le respect des parents — dans le Coran, la Sunna, la sira et chaque livre récolté, chaque verset et récit avec sa source."
+      menu: "Parcourir la maternité et les mères dans le Coran et les livres"
+    bunuwwa:
+      title: "Navigateur de la filiation en islam"
+      desc: "Tout ce que les sources mentionnent des fils et filles, de la descendance et du lien filial — dans le Coran, la Sunna, la sira, les récits des Compagnons et Successeurs, et chaque livre récolté : la bonté envers les parents et son contraire, les orphelins et l''allaitement, les droits de l''enfant, et les fils et filles nommés des récits — avec chaque verset et récit cité."
+      menu: "Parcourir la filiation dans le Coran et les livres"
+    islamiceconomy:
+      title: "Navigateur de l''économie islamique"
+      desc: "Chaque mention de la monnaie et de l''économie islamique, des actes et des pactes, et des dotations dans le Coran, la Sunna, la sira et chaque livre récolté — monnaies, usure, dette, contrats commerciaux, poids et mesures, impôts, waqf et sadaqa jariya — avec chaque verset et récit cité."
+      menu: "Parcourir monnaie, sukuk et waqf dans le Coran, le hadith et les livres"
+    trade:
+      title: "Navigateur du commerce — les caravanes d''hiver et d''été, la Route de la soie et le commerce musulman"
+      desc: "Chaque mention des caravanes d''hiver et d''été, de l''ilaf de Quraysh, de la Route de la soie et du commerce musulman dans le Coran, la Sunna, la sira et chaque livre récolté — caravanes, l''Ir et le rukb, khans et ribats, routes commerciales, marchés, marchands, marchandises, poids et mesures, et commerce maritime — chaque verset et récit avec sa source."
+      menu: "Parcourir les caravanes, la Route de la soie et le commerce dans le Coran, le hadith et les livres"
+    sayyiat:
+      title: "Navigateur des sayyi'at"
+      desc: "Chaque mention des sayyi'at et de tout ce qui s''y rattache — péché, faute, désobéissance, péchés majeurs et mineurs, repentir et demande de pardon — dans le Coran, la Sunna, la sira et chaque livre récolté, avec chaque verset et récit cité."
+      menu: "Parcourir les sayyi'at et les péchés dans le Coran et les livres"
+    hudud:
+      title: "Navigateur des hudud Allah et des kaba'ir"
+      desc: "Chaque mention des limites de Dieu et des grands péchés — les peines prescrites de la lapidation, du fouet, de la main coupée et du châtiment discrétionnaire, les crimes de hadd de la fornication, du vol, de la calomnie, du vin, de l''apostasie et du brigandage, et les kaba'ir et les sept destructeurs — dans le Coran, la Sunna, la sira, les récits des Compagnons et Tabi'i et chaque livre récolté, avec chaque verset et récit cité."
+      menu: "Parcourir hudud Allah et kaba'ir dans le Coran et les livres"
+    arkan:
+      title: "Navigateur des piliers de l''islam, piliers de la foi, branches de la foi et traits du croyant"
+      desc: "Chaque mention des cinq piliers de l''islam, des six piliers de la foi, des quelque soixante-dix branches de la foi et des traits du croyant dans le Coran, la Sunna, la sira, les récits des Compagnons et Successeurs et chaque livre récolté, chaque verset et récit avec sa source."
+      menu: "Parcourir les piliers de l''islam et de la foi, les branches de la foi et les traits du croyant"
+    halal:
+      title: "Navigateur du halal et du haram"
+      desc: "Chaque mention du licite et de l''illicite en islam — ce que Dieu a permis et ce qu''Il a interdit en nourriture, boisson, habillement, mariage et gains — dans le Coran, la Sunna, la sira, les récits des Compagnons et Successeurs et chaque livre récolté, avec des notices détaillées sur ses principes et ses chapitres."
+      menu: "Parcourir halal et haram dans le Coran, la Sunna et les livres"
+    hasanat:
+      title: "Navigateur des hasanat"
+      desc: "Chaque mention des bonnes actions (al-hasanat) dans le Coran, la Sunna, la sira et chaque livre récolté — l''écriture des bonnes actions, le bon prêt à Dieu — avec chaque verset et récit cité."
+      menu: "Parcourir les bonnes actions (al-hasanat) dans le Coran et les livres"
+    hisab:
+      title: "Registre, calculateur et compteur des hasanat et sayyi'at"
+      desc: "Chaque texte qui compte, écrit, multiplie, efface ou pèse une action dans le Coran, la Sunna, la sira et chaque livre récolté, avec un calculateur qui lit les chiffres que les textes nomment et un compteur ; chaque chiffre est attribué à son texte."
+      menu: "Registre, calculateur et compteur des bonnes et mauvaises actions"
+    mukatabat:
+      title: "Navigateur des mukatabat"
+      desc: "Chaque mention de la correspondance dans le Coran, la Sunna, la sira et chaque livre récolté — les lettres du Prophète aux rois et empereurs, les lettres des califes et les réponses écrites, la lettre de Sulayman à la reine de Saba — avec chaque verset et récit cité."
+      menu: "Parcourir lettres et correspondance dans le Coran et les livres"
+    munazarat:
+      title: "Navigateur des munazarat"
+      desc: "Chaque mention des débats et disputes dans le Coran, la Sunna, la sira et chaque livre récolté — les arguments d''Ibrahim avec son peuple et Nimrod, la mubahala avec les chrétiens de Najran, l''échange devant le Négus, le débat d''Ibn Abbas avec les Kharéjites — avec chaque verset et récit cité."
+      menu: "Parcourir les débats et disputes dans le Coran et les livres"
+    magic:
+      title: "Navigateur de la magie et des magiciens"
+      desc: "Chaque mention de la magie et des magiciens dans le Coran, la Sunna, la sira et chaque livre récolté — sorcellerie, devins, ruqyah, mauvais œil et envie — avec chaque verset et récit cité."
+      menu: "Parcourir magie et magiciens dans le Coran et les livres"
+    cosmos:
+      title: "Navigateur du cosmos : êtres, nations antérieures et secrets de l''univers"
+      desc: "Ce que le Coran, la Sunna et les livres disent des créatures au-delà de la terre, des sept cieux et terres, de qui tenait la terre avant Adam, des peuples disparus et des secrets du cosmos — chaque verset et récit cité, chaque point de vue étiqueté."
+      menu: "Parcourir êtres, nations antérieures et secrets cosmiques"
+    qiraat:
+      title: "Navigateur des lectures du Coran, de l''orthographe, des écritures et des points"
+      desc: "Les sept ahruf, les lectures et leurs imams, la collecte du Coran et la copie des codex, l''orthographe du mushaf et le débat sur l''orthographe ordinaire, ses points et voyelles, et les écritures dans lesquelles il fut écrit — chaque verset et récit cité, chaque point de vue attribué."
+      menu: "Parcourir les lectures, le rasm, les écritures et les points du Coran"
+    ulama:
+      title: "Navigateur des ulama : penseurs, savants, littérateurs, muhaddiths et écrivains"
+      desc: "Chaque penseur, savant, littérateur, muhaddith et écrivain du musée — et tout ce que le Coran, la Sunna, la sira et chaque livre récolté disent d''eux : leurs vies, leur mission, leurs citations, leurs livres, leurs interviews et leur héritage — chaque mention avec sa source."
+      menu: "Parcourir les penseurs, savants, écrivains et muhaddiths et leurs mentions"
+    wasaya:
+      title: "Navigateur des testaments : derniers conseils, héritages, reliques et demeures dernières"
+      desc: "Les derniers testaments des prophètes, des califes, des Compagnons, des Successeurs, des imams et des justes avant leurs morts ; ce qu''ils ont laissé ; leurs reliques ; et leurs tombes — dans le Coran, la Sunna, la sira et chaque livre récolté, chaque verset et récit cité."
+      menu: "Parcourir les testaments, héritages, reliques et tombes"
+    signs:
+      title: "Navigateur des signes de l''Heure"
+      desc: "Chaque mention des signes de l''Heure, du Jour du Jugement et de toute l''eschatologie dans le Coran, la Sunna, la sira et chaque livre récolté — les signes majeurs et mineurs, la barzakh, la résurrection, le compte, le Paradis et l''Enfer — avec chaque verset et récit cité."
+      menu: "Parcourir les signes de l''Heure et l''au-delà"
+    jinn-devils:
+      title: "Navigateur des djinns et démons"
+      desc: "Djinns, démons et diables, anges, et les rêves qui les portent — chaque mention dans le Coran, le hadith et la sira avec sa source."
+      menu: "Parcourir djinns, démons et anges"
+    messengers:
+      title: "Navigateur des messagers et prophètes"
+      desc: "Chaque mention des messagers et des prophètes dans le Coran, la Sunna, la sira et chaque livre récolté — les prophètes nommés, les messagers, les porteurs de récits, et chaque verset et récit cité."
+      menu: "Parcourir les messagers, les prophètes et leurs mentions"
+    miracles:
+      title: "Navigateur des miracles divins et prophétiques"
+      desc: "Chaque mention des miracles divins et des miracles des prophètes dans le Coran, la Sunna, la sira et chaque livre récolté — le miracle du Coran, la lune fendue, l''Isra'' et le Mi'raj, le bâton, la mer, la chamelle, l''arche, le feu, l''oiseau d''argile, la parole du berceau, la table céleste, les signes de Sulayman, les rêves, l''annonciation et le coffre de l''alliance, avec chaque verset et récit cité."
+      menu: "Parcourir les miracles divins et prophétiques"
+    qurun:
+      title: "Navigateur des siècles, années et mois"
+      desc: "Chaque mention des siècles, des années, des mois importants et des mois sacrés dans le Coran, la Sunna, la sira et chaque livre récolté — les années nommées de la sira, les douze mois lunaires, les quatre mois sacrés et l''intercalation — avec chaque verset et récit cité."
+      menu: "Parcourir les siècles, années, mois et mois sacrés"
+    madhahib:
+      title: "Navigateur des quatre madhhabs"
+      desc: "Les quatre imams et les écoles qu''ils fondèrent, le salaf, les livres canoniques et les mutun d''école qui les portent — chaque mention des madhhabs dans les livres sunnites avec sa source."
+      menu: "Parcourir les quatre madhhabs et leurs mentions"
+    umam:
+      title: "Navigateur des nations, religions, sectes et peuples non musulmans"
+      desc: "Chaque nation, religion, secte et peuple non musulman nommé dans le Coran, le hadith, la sira, les récits des Compagnons et Successeurs et chaque livre récolté — les nations disparues, les Gens du Livre, les polythéistes, les rois et figures de la terre — chaque mention avec sa source."
+      menu: "Parcourir les nations, religions et peuples et leurs mentions"
+    bayt:
+      title: "Navigateur de la maisonnée du Prophète"
+      desc: "Tout ce qui est mentionné de la maisonnée et de la famille du Prophète — les Gens de la Maison, le clan du Prophète, ses épouses, filles et descendants — dans le Coran, la Sunna, la sira et les livres récoltés."
+      menu: "Parcourir la maisonnée et la famille du Prophète"
+    nubuwat:
+      title: "Navigateur des prophéties et miracles"
+      desc: "Chaque prophétie du Prophète, preuve de la prophétie, secret et merveille du Coran, miracle et prédiction eschatologique dans le Coran, la Sunna, la sira et chaque livre récolté — avec chaque verset et récit cité."
+      menu: "Parcourir les prophéties du Prophète, les secrets du Coran et les miracles"
+    places:
+      title: "Navigateur des lieux sacrés"
+      desc: "Chaque lieu de sainteté, d''importance et de valeur en islam que le Coran, la Sunna, la sira, les Compagnons et Successeurs, et chaque livre récolté mentionnent — les trois sanctuaires, les stations du hajj, les sites de la sira, les lieux nommés dans le Coran et chaque lieu qu''un passage nomme."
+      menu: "Parcourir les lieux sacrés et importants de l''islam"
+    akhlaq:
+      title: "Navigateur de l''éthique et des transactions"
+      desc: "Chaque mention de l''éthique et des transactions dans le Coran, la Sunna, la sira, les récits des Compagnons et Tabi'i et chaque livre récolté — vérité, fiabilité, fidélité, patience, gratitude, humilité, excellence, pudeur, indulgence, pardon, sincérité, repentir, générosité, bonté aux parents, liens de parenté et droit du voisin ; mensonge, trahison, orgueil, ostentation, envie, avarice, médisance, calomnie, colère, injustice, désobéissance aux parents, hypocrisie et tromperie ; et vente, riba, dette, gage, location, legs, héritage, mariage, divorce, serments, témoignage, jugement, poids et mesures, réconciliation, dons, garanties, mandat, association, salam, transfert, prêts, usurpation, préemption, thésaurisation, coercition et interdiction — chaque verset et récit avec sa source."
+      menu: "Parcourir l''éthique et les transactions dans le Coran, le hadith et les livres"
+    ansab:
+      title: "Navigateur des généalogies, peuples, subdivisions tribales et arbre des prophètes"
+      desc: "Chaque mention des généalogies, des peuples, des subdivisions tribales et de l''arbre des prophètes dans le Coran, la Sunna, la sira et chaque livre récolté — la lignée du Prophète en ses trois parties, les tribus arabes et leurs butun et les peuples — chaque récit cité."
+      menu: "Parcourir généalogies, peuples, subdivisions tribales et arbre des prophètes"
+    i3lam:
+      title: "Navigateur des faiseurs de médias musulmans"
+      desc: "Chaque mention des faiseurs de médias — le muezzin, le héraut, le khatib, le porte-parole d''État, le katib, le journaliste, l''homme de médias, l''influenceur, le réformateur et le révolutionnaire — dans le Coran, la Sunna, la sira et chaque livre récolté, avec les personnes qui ont porté la parole."
+      menu: "Parcourir les faiseurs de médias musulmans"
+    battles:
+      title: "Navigateur des batailles, guerres et conquêtes"
+      desc: "Les expéditions, batailles, sièges, conquêtes et guerres de l''histoire islamique — les ghazawat et saraya d''abord, puis par genre et par époque."
+      menu: "Parcourir les ghazawat, batailles et conquêtes"
+    timemachine:
+      title: Machine à voyager dans le temps
+      menu: Voyagez à n''importe quelle date, dans les deux calendriers
+    wander:
+      title: Flâner
+      menu: Une page du musée au hasard
+by_values:
+  Islamic tradition: la tradition islamique
+  Sunni tradition: la tradition sunnite
+  Muslim tradition: la tradition musulmane
+  later Muslim tradition: la tradition musulmane tardive
+  the Islamic sources: les sources islamiques
+  the Muslim community: la communauté musulmane
+  a saying attributed to the Prophet in the tradition: un propos attribué au Prophète dans la tradition
+  the Muslim community, polemically reversing his honorific: la communauté musulmane, inversant polémiquement son honorifique
+  usage in the sira tradition, possibly from a striking complexion: usage dans la tradition de la sira, peut-être pour un teint remarquable
+  the Prophet's household and the tradition (her kunya, better known than her given name Baraka): la maisonnée du Prophète et la tradition (sa kunya, plus connue
+    que son nom Baraka)
+  Islamic tradition, for marrying two daughters of the Prophet in succession: la tradition islamique, pour avoir épousé successivement deux filles du Prophète
+references:
+  title: Références
+  lede: Chaque livre, site web et jeu de données sur lequel s''appuient les textes, les données et les outils du musée, groupé par type. Les récits classiques cités
+    dans les textes utilisent les mêmes codes listés ici.
+  books: Livres et sources imprimées
+  web: Sites web et sources en ligne
+  datasets: Jeux de données
+  unrecorded: Sources nommées dans les données sans notice encore
+  unrecorded_note: Ce sont des sources recherchées listées dans les fichiers stubs de livres en cours (comme Jami al-Ulum wa-l-Hikam) ; aucun texte publié ne les cite
+    encore. Une notice sera faite pour chacune une fois ses détails vérifiés.
+  resources: Textes licenciés et données de référence
+  software: Logiciels et bibliothèques
+  author: Auteur
+  publisher: Éditeur
+  edition: Édition
+  year: Année
+  isbn: ISBN
+  url: Lien
+  licence: Licence
+  language: Langue
+  none: aucune
