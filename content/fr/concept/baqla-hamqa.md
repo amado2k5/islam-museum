@@ -28,6 +28,6 @@ Souffle : son suc aiderait contre les crachements de sang par sa force astringen
 
 Estomac et foie : bue ou appliquée, elle aiderait contre l’inflammation de l’estomac et du foie, préviendrait les vomissements bilieux et affaiblirait l’appétit {cite:canon-ibn-sina-print-v1 p.405}.
 
-Organes excréteurs : injectée pour les érosions intestinales et la diarrhée bilieuse, elle aiderait contre les douleurs et ulcères des reins et de la vessie {cite:canon-ibn-sina-print-v1 p.405}. Masarjawayh lui attribuait une augmentation du désir, qu’il jugeait valable pour les tempéraments chauds, non secs, et l’arrêt du flux menstruel {cite:canon-ibn-sina-print-v1 p.405}. Grillée et mangée, elle arrêterait la diarrhée {cite:canon-ibn-sina-print-v1 p.405}.
+Organes excréteurs : administrée en lavement pour les érosions intestinales et la diarrhée bilieuse, elle aiderait contre les douleurs et ulcères des reins et de la vessie {cite:canon-ibn-sina-print-v1 p.405}. Masarjawayh lui attribuait une augmentation du désir, qu’il jugeait valable pour les tempéraments chauds, non secs, et l’arrêt du flux menstruel {cite:canon-ibn-sina-print-v1 p.405}. Grillée et mangée, elle arrêterait la diarrhée {cite:canon-ibn-sina-print-v1 p.405}.
 
 Fièvres : elle aiderait contre les fièvres chaudes {cite:canon-ibn-sina-print-v1 p.405}.
