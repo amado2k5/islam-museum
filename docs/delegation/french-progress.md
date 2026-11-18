@@ -2,15 +2,6 @@
 
 Proposal: `docs/delegation/french-language-proposal.md` (approved 18 Nov 2026). Lane: `docs/agents/lanes/french.md`.
 
-## 2026-11-18 — batch 1, tour group
-
-- Added French to all 136 localized mappings in `tour/exhibits.yaml`, `tour/halls.yaml` and `tour/journeys.yaml`, including the seven narration arrays that previously had only Arabic and English. `tour/grand-tour.yaml` is an ID-only manifest and needs no translation.
-- Translated from English for general material and Arabic for sacred/practice/fiqh material; retained existing IDs, sources, statuses, provenance, locale values and array shapes. The planned `i18n/glossary.yaml` does not exist on this branch; French terminology follows the lane conventions without adding a glossary file.
-- Read-only coverage checker: `/home/ubuntu/fr-datasets-check.mjs` (local working tool, not committed). Tour coverage: 4 data files, 136 localized mappings, 0 missing `fr`.
-- Group checks: `npx vitest run scripts/edu.test.ts scripts/kids.test.ts scripts/tour.test.ts scripts/cards.test.ts` — 4 files, 160 tests passed; the standalone lists/explainers/stories validators reported 12/13/8 decks OK. A parsed-data comparison against the starting commit confirmed all pre-existing tour data unchanged.
-- Batch 1 is **partial**: kids, cards, recursive education datasets and word-map regeneration remain. Stop after the first tour commit/push for the PR handoff; all PRs target `release/french`.
-- Full validation/test suite and visual verification remain for the later batch milestone; dataset loaders are still transitional and no schema requirements were tightened.
-
 ## 2026-11-18 — infrastructure landed (session 1)
 
 Done:

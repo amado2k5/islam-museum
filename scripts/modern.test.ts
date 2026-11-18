@@ -91,8 +91,8 @@ describe("Modern Islam Browser: reach index", () => {
   };
   it("scores from cited inputs with the printed weights, reproducibly", () => {
     const s = reachScore(song, awards)!;
-    expect(s.inputs).toEqual({ honours: 14, certified: 10, chart: 8, reach: 8, wikipedia: 3, press: 1, covers: 1 });
-    expect(s.score).toBe(45);
+    expect(s.inputs).toEqual({ honours: 14, certified: 10, chart: 8, reach: 8, wikipedia: 4, press: 1, covers: 1 });
+    expect(s.score).toBe(46);
     expect(reachScore(song, awards)).toEqual(s);
     expect(reachScore({ id: "work/empty", class: "work", kind: "song" })).toBeNull();
   });

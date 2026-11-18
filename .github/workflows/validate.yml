@@ -36,6 +36,8 @@ jobs:
       # First, so a content error answers in about two minutes instead of after the build.
       - name: Validate the content
         run: npm run validate
+      - name: Build graph cache for unit tests
+        run: npm run graph
       - name: Unit tests
         run: npm test
 
