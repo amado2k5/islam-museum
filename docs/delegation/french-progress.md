@@ -1,5 +1,14 @@
 # french lane — progress
 
+## 2026-11-18 — building corpus packet 4 (Devin)
+
+- Run `fr-corpus-building-4`: records 76–100, `bir-zamzam` → `dar-al-nadwa`; full English-to-French prose, labels and summaries, preserving existing YAML formatting.
+- Scoped packet check: PASS, 25 entities, 50 files, 0 errors, 22 inherited provenance/status warnings. Citation sequences, wiki-link IDs, needs_source markers and section counts match English; removing French data fields leaves original data unchanged. Targeted tests: 15 passed.
+- Audience headings use exactly `Pour les Petits`, `Pour les Explorateurs`, `Pour les Chercheurs` where present. No Qur’an text typed.
+- Inherited-defect fixes: none needed. Frozen-hook exclusions: none.
+- Non-impacting translation-only content; no new entities or submission claims. Next prose record: `building/dar-al-raml-fustat`.
+- Latest instruction supersedes the earlier push cadence: no more pushes until explicitly authorized; never bypass the pre-push gate. Batches remain committed locally pending a later requested rebase.
+
 ## 2026-11-18 — building corpus packet 3 (Devin)
 
 - Run `fr-corpus-building-3`: records 51–75, `bab-al-nasr` → `bir-yusuf-cairo`; full French prose, labels and summaries. Audience headings use the required French forms.
