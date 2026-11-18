@@ -1,0 +1,30 @@
+---
+id: concept/al-ladud-wal-saut
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+status:
+  review: draft
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-concept-01-packet-12
+  source: content/en/concept/al-ladud-wal-saut.md
+---
+## Résumé
+Le ladud est ce que l’on administre à une personne par l’un des côtés de la bouche, et le sa'ut ce que l’on verse dans le nez {cite:zad-al-maad p.619} {cite:zad-al-maad p.624}. Les récits rapportent que le Prophète utilisait une instillation nasale {cite:sahih-al-bukhari 5691}, et que les gens de sa maison lui administrèrent une instillation buccale pendant sa maladie alors qu’il leur faisait signe de ne pas le faire, après quoi il dit : « Il ne restera personne dans la maison sans recevoir une instillation, sauf al-Abbas » {cite:sahih-al-bukhari 5709} ; et que le bois d’aloès indien « s’emploie en instillation nasale pour le mal de gorge et en instillation buccale pour la pleurésie » {cite:sahih-al-bukhari 5692}. Chez al-Tirmidhi : « Le meilleur de ce par quoi vous vous soignez est l’instillation nasale, l’instillation buccale, la ventouse et le purgatif », dont l’éditeur qualifie la chaîne de faible {cite:zad-al-maad p.616}.
+
+## Définition
+Ibn al-Qayyim rapporte, d’après Abu Ubayd, d’après al-Asma'i, que le ladud est ce que l’on administre à une personne par l’un des deux côtés de la bouche, mot tiré des « ladidayn » d’une vallée, ses deux flancs, tandis que le « wajur » se donne au milieu de la bouche ; il dit que le ladud, avec fatha, est le remède ainsi administré, et que le sa'ut est ce que l’on introduit par le nez {cite:zad-al-maad p.619}. Il décrit le sa'ut comme ce que l’on verse dans le nez, qui peut être composé de remèdes simples ou composés, pilés, tamisés, pétris et séchés puis dissous au besoin, et appliqué dans le nez d’une personne couchée sur le dos, quelque chose placé sous ses épaules pour les surélever afin que sa tête soit abaissée, de sorte que l’instillation atteigne le cerveau et en fasse sortir la maladie par l’éternuement {cite:zad-al-maad p.624}.
+
+## Le sa'ut dans les récits
+Al-Bukhari rapporte d’Ibn Abbas que le Prophète se fit poser des ventouses, donna au poseur de ventouses son salaire et utilisa une instillation nasale {cite:sahih-al-bukhari 5691} [[passage/bukhari-api-5691|al-Bukhari 5691]], et Abu Dawud rapporte qu’il en utilisa une {cite:sunan-abi-dawud 3867} [[passage/abudawud-api-3867|Abu Dawud 3867]]. Ibn al-Qayyim dit que le Prophète loua le traitement par le sa'ut là où il est nécessaire {cite:zad-al-maad p.624}. Chez al-Tirmidhi, d’après Ibn Abbas, vient : « Le meilleur de ce par quoi vous vous soignez est l’instillation nasale, l’instillation buccale, la ventouse et le purgatif », le « mashiyy » étant le remède qui met en mouvement et assouplit l’intestin et facilite ce qui doit être évacué, et l’éditeur note que la chaîne est faible {cite:zad-al-maad p.616} [[passage/tirmidhi-api-2048|al-Tirmidhi 2048]]. Du bois d’aloès indien : « il s’emploie en instillation nasale pour le mal de gorge et en instillation buccale pour la pleurésie » {cite:sahih-al-bukhari 5692} [[passage/bukhari-api-5692|al-Bukhari 5692]] [[passage/abudawud-api-3877|Abu Dawud 3877]] ; pour le détail, voir [[concept/al-qust-al-hindi|le costus indien et le costus marin]].
+
+## Le ladud dans les récits
+Abu Dawud rapporte de Sa'd ibn Abi Waqqas qu’il tomba malade et que le Prophète vint lui rendre visite, posant la main entre ses seins jusqu’à ce que Sa'd en sente la fraîcheur sur son cœur, et dit : « Tu es un homme atteint d’un mal au cœur ; va trouver al-Harith ibn Kalada, de Thaqif, qui pratique la médecine ; qu’il prenne sept dattes ajwa de Médine, les écrase avec leurs noyaux et te les administre en instillation buccale » {cite:sunan-abi-dawud 3875} {cite:zad-al-maad p.624} [[passage/abudawud-api-3875|Abu Dawud 3875]]. Ibn al-Qayyim explique que le « mafud » est celui dont le cœur est atteint, et dit que les dattes ont une propriété merveilleuse pour ce mal, en particulier les dattes de Médine et surtout l’ajwa, le nombre sept ayant une autre propriété connue par la révélation, et il ajoute le récit : « Celui qui commence la journée par sept dattes d’al-Aliya ne sera atteint ce jour-là ni par le poison ni par la magie » {cite:zad-al-maad p.624}. Il s’agit de sa propre affirmation sur les dattes et de son attribution de celle-ci à une propriété particulière.
+
+## L’instillation buccale administrée au Prophète pendant sa maladie
+Al-Bukhari rapporte d’A'isha : nous lui administrâmes une instillation buccale pendant sa maladie et il se mit à nous faire signe de ne pas la lui donner ; nous dîmes que c’était l’aversion du malade pour le remède ; lorsqu’il se rétablit, il dit : « Ne vous avais-je pas interdit de me donner une instillation ? » Nous dîmes que c’était l’aversion du malade pour le remède ; il dit : « Il ne restera personne dans la maison sans recevoir une instillation sous mes yeux, sauf al-Abbas, car il n’était pas avec vous » {cite:sahih-al-bukhari 5709} [[passage/bukhari-api-5709|al-Bukhari 5709]] [[passage/bukhari-api-4458|al-Bukhari 4458]]. Ibn al-Qayyim cite aussi un récit selon lequel Umm Salama et Asma' bint Umays craignirent qu’il ne souffrît de pleurésie et lui administrèrent une instillation de bois d’aloès indien avec un peu de wars et quelques gouttes d’huile, et il dit : « Dieu ne me frapperait pas de cette maladie » ; l’éditeur note que sa chaîne est très faible et que Abd al-Razzaq a un récit semblable avec une chaîne authentique {cite:zad-al-maad p.619}. De ce récit, Ibn al-Qayyim tire que l’auteur d’un tort est puni par l’équivalent de ce qu’il a fait si son acte n’est pas interdit par un droit de Dieu, et dit que c’est la position énoncée d’Ahmad et qu’elle est établie par les califes bien guidés {cite:zad-al-maad p.619}. Pour le sujet plus large, voir [[concept/al-tibb-al-nabawi|la médecine prophétique]] et [[concept/hijama|la ventouse]].
+
+## Une note
+Cette page décrit les récits et ce que dit Ibn al-Qayyim des instillations buccales et nasales ; elle ne donne aucun conseil médical.
