@@ -3045,3 +3045,534 @@ sayyiat:
     sunnah_note: "{n} recueils de hadiths contiennent un passage ici, les plus fournis en premier."
     count_in: "{n} passages"
     count_split: "{n} passages : {a} avec le mot, {r} sur le thème élargi"
+arkan:
+  title: "Explorateur des piliers de l’islam, des piliers et des branches de la foi et des qualités du croyant"
+  lede: "Quatre portes dans un même explorateur : les cinq piliers sur lesquels repose l’islam, les six piliers de la foi du hadith de Gabriel, les branches de la foi que le hadith dénombre à plus de soixante-dix et les qualités du croyant décrites par les versets et les hadiths. Sont réunies leurs mentions dans le Coran, la sunna, la sira, les récits des Compagnons et des Successeurs, les ouvrages de foi, de commentaire, de renoncement et d’histoire, et chaque livre dépouillé à l’avenir. Le musée décrit les sources et attribue chaque propos à son auteur ; il ne prononce aucun avis juridique."
+  badge: "Exploration des piliers, branches et qualités"
+  status: "Cette version contient {n} notices réparties en {s} sections, chacune référencée à sa source."
+  method_title: "Comment fonctionne l’explorateur"
+  method_note: "Chaque notice est une notice ordinaire du musée avec ses sources. Les versets viennent d’une table vérifiée indiquant ceux que les recueils de hadiths et les commentaires rattachent à chaque thème : le Coran n’emploie pas les termes postérieurs de piliers ou de branches de la foi. Leur texte est celui, figé, de Tanzil dans leur notice. Les autres passages sont repérés à la génération du site par un lexique assorti de garde-fous : les quatre termes eux-mêmes, le hadith de l’islam bâti sur cinq fondements, les réponses aux questions sur l’islam et la foi, la prière, la zakat, le jeûne et le pèlerinage cités ensemble, la foi en Dieu, Ses anges, Ses livres, Ses messagers, le Dernier Jour et le décret, les soixante-dix et quelques branches, ce qu’un texte considère comme relevant de la foi, les conditions de la foi complète et les descriptions du croyant et du musulman. Les indices faibles, tel un article de foi isolé ou la foi qui augmente et diminue, ne comptent qu’auprès d’un indice fort ou par deux. Chaque livre dépouillé par la suite apporte automatiquement ses mentions dès que ses passages intègrent le graphe ; les notices thématiques les rejoignent par l’étiquette arkan-browser. Les extraits de livres numérisés sont lus automatiquement, sans correction ; chaque notice concernée le précise."
+  api: "L’ensemble des données est disponible à l’adresse"
+  sections_title: "Sections"
+  filter_label: "Filtrer les notices"
+  filter_none: "Aucun résultat correspondant."
+  empty: "Cette version ne contient pas encore de notices sur ce thème."
+  sections:
+    quran:
+      title: "Dans le Coran"
+      desc: "Les versets que les recueils de hadiths et les commentaires rattachent aux quatre thèmes : témoignage, prière associée à la zakat, jeûne et pèlerinage, foi en Dieu, Ses anges, Ses livres, Ses messagers, le Dernier Jour et le décret, augmentation de la foi, descriptions des croyants et des serviteurs du Miséricordieux."
+    sunnah:
+      title: "Dans la sunna"
+      desc: "Les hadiths des deux Sahih, des Sunan et du Muwatta et leurs commentaires : hadith de Gabriel, islam bâti sur cinq fondements, délégation d’Abd al-Qays, envoi de Mu'adh au Yémen, branches et douceur de la foi, conditions de la foi complète, comparaisons et descriptions du croyant."
+    seerah:
+      title: "Dans la sira"
+      desc: "Ce que les ouvrages de sira rapportent des piliers, de la foi et des qualités des croyants : l’enseignement religieux aux délégations, les lettres du Prophète aux tribus et les attitudes des Compagnons ; cette section s’enrichit avec les nouveaux textes de sira."
+    books:
+      title: "Dans les autres livres"
+      desc: "Les quatre thèmes dans chaque ouvrage dépouillé hors du Coran, du hadith et de la sira : livres de foi et de croyance, biographies et récits des Compagnons et des Successeurs, livres de renoncement, de fiqh et d’histoire, et les ouvrages à venir."
+    curated:
+      title: "Notices sur les piliers, branches et qualités"
+      desc: "Les notices thématiques du musée : les cinq piliers de l’islam et chacun d’eux, les six piliers de la foi et chaque article, les branches de la foi et le livre qu’al-Bayhaqi leur consacre, les qualités du croyant et les concepts associés."
+  topics:
+    islam:
+      title: "Les piliers de l’islam"
+      short: "Les cinq fondements de l’islam : les deux témoignages, l’accomplissement de la prière, le versement de la zakat, le jeûne du Ramadan et le pèlerinage à la Maison."
+      desc: "Tout ce que les sources du musée rapportent des cinq piliers : deux témoignages, prière, zakat, jeûne du Ramadan et pèlerinage, dans le Coran, la sunna, la sira et les autres livres."
+      scope: "Ici figurent les textes nommant les piliers, les énumérant ensemble ou définissant l’islam par eux, et les versets du témoignage, de la prière, de la zakat, du jeûne et du pèlerinage inscrits dans la table coranique. Le détail de chaque acte est dans l’explorateur du culte et des évocations."
+    iman:
+      title: "Les piliers de la foi"
+      short: "Les six du hadith de Gabriel : foi en Dieu, Ses anges, Ses livres, Ses messagers, le Dernier Jour et le décret, dans son bien comme dans son mal."
+      desc: "Tout ce que les sources du musée rapportent des six piliers de la foi : Dieu, Ses anges, Ses livres, Ses messagers, le Dernier Jour et le décret, dans le Coran, la sunna, la sira et les autres livres."
+      scope: "Ici figurent les textes nommant les piliers de la foi, les énumérant ensemble ou répondant à la question sur la foi, ainsi que la foi au décret. Les anges, le Dernier Jour et les messagers ont leurs explorateurs détaillés."
+    shuab:
+      title: "Les branches de la foi"
+      short: "Soixante-dix et quelques branches : la plus haute est l’affirmation de l’unicité divine, la plus basse le retrait d’un obstacle du chemin ; la pudeur en est une."
+      desc: "Tout ce que les sources du musée rapportent des branches de la foi : le hadith des soixante-dix et quelques branches, ce qu’un texte compte dans la foi, sa douceur, sa plénitude et ses conditions, dans le Coran, la sunna, la sira et les autres livres."
+      scope: "Ici figurent les textes nommant les branches ou comptant un acte, une parole ou un état dans la foi, ceux liant un acte à la foi en Dieu et au Dernier Jour, les versets de l’augmentation de la foi. Une note citant le titre du livre d’al-Bayhaqi ne compte pas comme mention."
+    khisal:
+      title: "Les qualités du croyant"
+      short: "Les qualités décrites par les versets et hadiths : humilité dans la prière, loyauté, miséricorde envers les croyants, patience et véracité."
+      desc: "Tout ce que les sources du musée rapportent des qualités du croyant : versets décrivant les croyants et les serviteurs du Miséricordieux, hadiths de comparaisons, descriptions du croyant et du musulman et devoirs réciproques, récits des Compagnons et des Successeurs."
+      scope: "Ici figurent les textes décrivant le croyant ou le musulman, les comparant ou énumérant leurs qualités. Le caractère en général relève de l’explorateur de l’éthique."
+  topics_ui:
+    status: "Ce thème contient {n} notices : {c} thématiques, {q} versets, {s} de la sunna, {r} de la sira et {b} d’autres livres."
+    record: "Lire la notice du musée sur ce thème"
+  viz:
+    title: "Les quatre portes"
+    note: "Quatre thèmes côte à côte, chacun avec les éléments qu’y comptent les sources et le nombre de notices par section. Les piliers de l’islam sont les cinq du hadith de ses fondements ; ceux de la foi, les six du hadith de Gabriel ; chaque nom mène à sa notice. Les nombres sont calculés à la génération du site à partir des notices du musée, sans classement de valeur ni avis juridique."
+    count: "{n} notices"
+    members: { islam: "Les cinq piliers", iman: "Les six piliers", shuab: "Notices du thème", khisal: "Notices du thème" }
+    shuab_groups: "Al-Ayni, dans Umdat al-Qari, les répartit en trois groupes : trente branches de croyance, sept de la langue et quarante du corps."
+    record: "La notice du thème"
+    open: "Tout le contenu associé"
+hudud:
+  title: "Explorateur des limites de Dieu et des péchés majeurs"
+  lede: "Chaque mention des limites de Dieu et des péchés majeurs dans les sources du musée : les versets qui nomment ces limites et leur transgression, les peines de fornication, de vol et de calomnie dans les deux Sahih, le Muwatta et les Sunan, leur application dans la sira et les récits des Compagnons et des Successeurs, les listes de kaba'ir et des sept péchés destructeurs, et chaque mention de chaque livre dépouillé — des notices sourcées qui s’enrichissent avec les nouveaux textes."
+  badge: "Exploration des hudud et des kaba'ir"
+  status: "Cette version contient {n} notices réparties en {s} sections ; les textes restent des brouillons jusqu’à leur lecture par un humain."
+  method_title: "La méthode de l’explorateur"
+  method_note: "Chaque notice est une notice ordinaire du musée, avec ses sources et ses textes en trois langues. Les mentions sont repérées à la génération du site par un lexique assorti de garde-fous : hudud Allah dans ses différentes formes, application du hadd, peines fixes — lapidation, flagellation dans ses formes pénales, main coupée et peine discrétionnaire — kaba'ir et mubiqat. Les indices faibles — hudud et hadd sans restriction, jald ambigu, infractions de fornication, vol, calomnie, vin, apostasie et brigandage, talion, kabira ambigu — ne comptent qu’auprès d’un indice fort ou par deux ; les faux positifs vérifiés sont exclus par identifiant. Chaque livre dépouillé par la suite apporte automatiquement ses mentions dès que ses passages intègrent le graphe ; les notices thématiques les rejoignent par l’étiquette hudud-browser. Chaque passage porte le type hudud ou kabair selon ses indices."
+  api: "La collection complète est disponible à l’adresse"
+  sections_title: "Les sections de l’explorateur"
+  filter_label: "Filtrer les mentions des hudud et des kaba'ir"
+  filter_none: "Aucun résultat correspondant."
+  empty: "Cette version ne contient pas encore de notices sur les hudud ou les kaba'ir."
+  kinds: { hudud: "les limites de Dieu et les peines fixes", kabair: "les péchés majeurs" }
+  sections:
+    quran:
+      title: "Dans le Coran"
+      desc: "Les limites de Dieu et les péchés majeurs dans la révélation : interdiction d’approcher ces limites, tort que leur transgression cause à soi-même, flagellation pour fornication, amputation pour vol, peine du brigandage, talion et kaba'ir."
+    sunnah:
+      title: "Dans la sunna"
+      desc: "Les hadiths des deux Sahih, du Muwatta et des Sunan : mise en garde contre les sept péchés destructeurs, application des hudud aux personnes ayant avoué, lapidation de Ma'iz et de la femme de Ghamid, peines de calomnie, de vin et de vol, chapitres des hudud dans les recueils méthodiques."
+    seerah:
+      title: "Dans la sira"
+      desc: "Les mentions des hudud et des kaba'ir dans les ouvrages de sira et d’histoire — application des peines à Médine, épisodes des Compagnons et des Successeurs face aux grands péchés — à mesure que de nouveaux textes sont intégrés."
+    books:
+      title: "Dans les autres livres"
+      desc: "Les mentions des hudud et des kaba'ir dans chaque ouvrage dépouillé hors du Coran, du hadith et de la sira — fiqh, zuhd, tafsir, histoire, poésie et les ouvrages à venir — classées selon le genre de l’ouvrage dès l’arrivée de ses passages."
+    curated:
+      title: "Notices sur les hudud et les kaba'ir"
+      desc: "Les notices thématiques du musée sur les limites de Dieu et les péchés majeurs : hudud Allah, peines fixes, kaba'ir, lapidation, peine discrétionnaire, fornication et concepts associés."
+  viz:
+    title: "Limites et péchés graves, selon les termes des sources"
+    note: "Uniquement les passages des sources du musée employant ces termes. Un panneau énumère les mots et expressions repérés pour les limites de Dieu ; l’autre, ceux des péchés majeurs. La barre d’une ligne indique son nombre de passages ; chaque étiquette est une référence ouvrant la notice. Cet index compte le contenu des sources sans avis juridique ni classement de valeur. {curated} notices thématiques figurent dans la liste ci-dessous, sans texte de passage à analyser."
+    region: "Deux panneaux de termes et des passages qui les emploient"
+    panel_hudud: "Les limites"
+    panel_kabair: "Les péchés graves"
+    terms_note: "Mots et expressions du lexique repérés dans au moins un passage"
+    passages: "{n} passages"
+    both_title: "Nommés dans les deux"
+    both_note: "Passages contenant des termes des deux panneaux"
+    filter: "Afficher les passages de"
+    hint: "Survolez une référence, donnez-lui le focus ou touchez-la pour découvrir son ouvrage et son résumé."
+    ref: "Référence"
+    work: "Œuvre"
+    sec_quran: "Coran"
+    sec_sunnah: "Sunna"
+    sec_seerah: "Sira"
+    sec_books: "Autres livres"
+    terms:
+      hudud-allah: "« hudud Allah »"
+      hududuhu: "« hududuhu »"
+      iqama: "« iqamat al-hadd »"
+      rajm: "« al-rajm »"
+      tazir: "« al-ta'zir »"
+      qat-yad: "« qat' al-yad »"
+      jald: "« al-jald », dans ses formes pénales"
+      jald-bare: "« jald »"
+      hudud: "« hudud »"
+      hadd: "« al-hadd »"
+      qadhf: "« al-qadhf »"
+      zina: "« al-zina »"
+      sariq: "« al-sariqa »"
+      khamr: "« al-khamr »"
+      ridda: "« al-ridda »"
+      hiraba: "« al-hiraba »"
+      qisas: "« al-qisas »"
+      kabair: "« al-kaba'ir »"
+      mubiqat: "« al-mubiqat »"
+      kabira: "« kabira »"
+      ithm-kabir: "« ithman kabiran »"
+halal:
+  title: "Explorateur du licite et de l’illicite"
+  lede: "Chaque mention du licite et de l’illicite dans les sources du musée : les versets d’autorisation et d’interdiction d’al-Baqara, al-Ma'ida, al-An'am, al-A'raf et al-Nahl ; les hadiths sur leur clarté, l’interdiction de tout enivrant et ce qui n’est pas permis au musulman dans les deux Sahih, le Muwatta et les Sunan ; la prudence face à l’illicite et la recherche de gains licites dans la sira et les récits des Compagnons et des Successeurs ; les juristes sur le permis et l’interdit ; chaque mention dans les livres dépouillés à l’avenir. Le musée décrit les sources et attribue chaque avis à son auteur ; il ne prononce aucun avis juridique."
+  badge: "Exploration du licite et de l’illicite"
+  status: "Cette version contient {n} notices réparties en {s} sections ; les textes restent des brouillons jusqu’à leur lecture par un humain."
+  method_title: "Comment fonctionne cet explorateur"
+  method_note: "Chaque notice est une notice ordinaire du musée, avec ses sources et ses textes en trois langues. Les mentions sont repérées à la génération du site par un lexique assorti de garde-fous : halal et haram dans leurs formes ; verbe de permission avec son auteur ou bénéficiaire (Dieu permet, permission accordée, ce qui n’est pas permis à une personne) ; verbe d’interdiction avec son auteur ou destinataire (Dieu interdit, ce qui est interdit aux destinataires) ; tahrim, muharramat, maharim Allah et istihlal. Les verbes isolés et les mots voisins — tayyibat, khaba'ith, shubuhat, mubah, makruh — ne comptent qu’auprès d’un terme fort. Sont retirés avant détection : Mosquée sacrée, Maison sacrée, mois sacré, nom propre Haram, état d’ihram et sortie de cet état, protection divine contre le Feu. Chaque livre dépouillé par la suite apporte ses mentions dès l’arrivée de ses passages, sans étiquetage préalable. En cas de désaccord des juristes, chaque avis est attribué à son auteur, sans choix du musée."
+  api: "L’ensemble est disponible à l’adresse"
+  sections_title: "Sections"
+  filter_label: "Filtrer les mentions du licite et de l’illicite"
+  filter_none: "Aucun résultat correspondant."
+  empty: "Cette version ne contient pas encore de notices sur le licite ou l’illicite."
+  kinds: { halal: "le licite", haram: "l’illicite", both: "le licite et l’illicite ensemble" }
+  sections:
+    quran:
+      title: "Dans le Coran"
+      desc: "Les versets d’autorisation et d’interdiction : aliments interdits dans al-Baqara, al-Ma'ida, al-An'am et al-Nahl ; bonnes choses rendues licites, nourriture des Gens du Livre et gibier marin ; femmes qu’on ne peut épouser dans al-Nisa' ; interdiction de l’usure et des turpitudes ; mise en garde contre l’interdiction de ce que Dieu permet et les déclarations sans savoir sur le licite et l’illicite."
+    sunnah:
+      title: "Dans la sunna"
+      desc: "Les hadiths des deux Sahih, du Muwatta et des Sunan, les récits des Compagnons et des Successeurs dans les deux Musannaf et les livres de zuhd : clarté du licite et de l’illicite et questions douteuses entre eux, interdiction de tout enivrant, deux animaux morts et deux sangs permis, soie et or interdits aux hommes, interdits créés par l’allaitement, inviolabilité du musulman pour le musulman."
+    seerah:
+      title: "Dans la sira"
+      desc: "Les récits des ouvrages de sira, de maghazi et de dala'il : sermon d’adieu sur l’inviolabilité des vies et des biens, interdiction du vin et des ânes domestiques à Khaybar, caractère sacré de La Mecque proclamé à la conquête, règles du butin — à mesure que de nouveaux textes sont intégrés."
+    books:
+      title: "Dans les autres livres"
+      desc: "Les mentions dans chaque ouvrage dépouillé hors du Coran, du hadith et de la sira : biographies des Compagnons et des Successeurs et récits de leur scrupule dans la Hilya, Sifat al-Safwa et Hayat al-Sahaba ; livres de fiqh — al-Mughni, Mudawwana, Bidayat al-Mujtahid, Fiqh al-Sunna et Encyclopédie koweïtienne ; Ihya', Muwafaqat et commentaires ; ouvrages à venir, classés selon leur genre dès l’arrivée de leurs passages."
+    curated:
+      title: "Notices sur le licite et l’illicite"
+      desc: "Les notices détaillées du musée : licite, illicite et douteux, présomption de permission, autorité pour déclarer le licite et l’illicite, bon et mauvais, aliments et boissons interdits, nécessité, scrupule, gains licites, récits des Compagnons et des Successeurs recherchant le licite."
+  subjects_ui:
+    title: "Explorer par sujet"
+    note: "Choisissez le sujet de votre recherche. Chaque sujet s’ouvre sur les notices du musée et les versets du Coran, puis les hadiths, la sira et les autres livres. Le musée montre ce que disent les sources et où elles le disent ; il ne prononce aucun avis juridique. L’avis sur un cas personnel relève d’un savant, non du musée."
+    region: "Douze sujets du licite et de l’illicite, chacun avec son nombre de notices et celles nommant le licite, l’illicite ou les deux"
+    count: "{n} notices"
+    bar: "{h} nomment le licite, {b} les deux, {r} l’illicite"
+    all: "Tous les sujets"
+    crumb: "Sujets"
+    status: "{n} notices relèvent de ce sujet : {c} notices détaillées, {q} versets coraniques, {s} récits de la sunna, {r} extraits de sira et {b} extraits d’autres livres."
+    how_title: "Comment un sujet est attribué à une notice"
+    how: "Les sujets sont attribués à la génération du site par une liste de mots appliquée à chaque passage : aliments, boissons, ventes, mariage et autres. Un passage peut relever de plusieurs sujets. La liste peut manquer un passage ou en inclure un où le mot n’apparaît qu’incidemment ; ceux sans correspondance figurent dans « Autres mentions ». Le sujet indique de quoi parle la source, jamais un avis juridique."
+    row: "Sujets"
+    other_subjects: "Autres sujets"
+  subjects:
+    principles: { title: "Principes", desc: "Qui peut déclarer une chose licite ou illicite, le clair et le douteux, la nécessité et l’interdiction de ce que Dieu permet selon les sources." }
+    food: { title: "Aliments", desc: "Charogne, sang, porc, animaux sacrifiés à un autre que Dieu, prédateurs, ânes domestiques et bons aliments nommés licites par les sources." }
+    drink: { title: "Boissons", desc: "Vin, tout enivrant, nabidh et récipients de sa préparation." }
+    hunting-slaughter: { title: "Chasse et abattage", desc: "Gibier terrestre et marin, chien dressé, abattage des Gens du Livre, sacrifice et chasse en état d’ihram." }
+    earnings: { title: "Gains et commerce", desc: "Riba, ventes interdites, corruption, prix de l’interdit, biens de l’orphelin et gains licites." }
+    marriage-family: { title: "Mariage et famille", desc: "Femmes qu’on ne peut épouser, parenté de lait, divorce et reprise, formes interdites de mariage et deuil." }
+    dress: { title: "Vêtements et parure", desc: "Soie et or, bagues, vêtements, récipients d’or et d’argent et modification du corps." }
+    life-honour: { title: "Vie, biens et honneur", desc: "Inviolabilité du sang, des biens et de l’honneur du musulman, vie que Dieu a rendue sacrée." }
+    conduct: { title: "Parole et conduite", desc: "Rupture avec un frère au-delà de trois jours, médisance, injustice, tromperie, jeux de hasard, images et divination." }
+    worship: { title: "Culte et vœux", desc: "Aumône et bénéficiaires autorisés, jeûne, ihram et ses interdits, vœux et serments." }
+    sanctuary: { title: "Les sanctuaires de La Mecque et de Médine", desc: "Les récits proclamant l’inviolabilité de La Mecque et de Médine : gibier, arbres et objets perdus." }
+    other: { title: "Autres mentions", desc: "Passages nommant le licite ou l’illicite sans correspondance avec les mots d’un sujet." }
+  viz:
+    title: "L’équilibre du licite et de l’illicite, selon les termes des sources"
+    note: "Uniquement les passages des sources du musée où figurent ces mots. La barre indique combien nomment seulement le licite, seulement l’illicite ou les deux. Les panneaux énumèrent les termes repérés de chaque côté et leur nombre de passages dans le Coran, la sunna, la sira et les autres livres. Un passage est compté sous chaque terme qu’il contient."
+    region: "Une barre et deux panneaux des termes du licite et de l’illicite et de leurs passages"
+    bar_label: "Passages selon ce qu’ils nomment"
+    panel_halal: "Le côté du licite"
+    panel_haram: "Le côté de l’illicite"
+    panel_between: "Entre les deux"
+    term: "Terme"
+    total: "Total"
+    passages: "{n} passages"
+    curated: "Et {n} notices détaillées dans la première section ci-dessous."
+    sec_quran: "Coran"
+    sec_sunnah: "Sunna"
+    sec_seerah: "Sira"
+    sec_books: "Autres livres"
+    terms:
+      halal: "« halal »"
+      ahalla-li: "permission accordée à…"
+      ahalla-allah: "permission divine"
+      la-yahill: "absence de permission"
+      istihlal: "traité comme licite"
+      ahalla: "le verbe de permission isolé"
+      tayyibat: "les bonnes choses"
+      mubah: "permis"
+      rukhsa: "dispense"
+      haram: "« haram »"
+      harrama-allah: "interdiction divine"
+      harrama-ala: "interdiction adressée à…"
+      harramna: "formes verbales : Nous avons interdit, ils interdisent"
+      tahrim: "interdiction"
+      muharramat: "les choses interdites"
+      harrama: "le verbe d’interdiction isolé"
+      khabaith: "les choses mauvaises"
+      makruh: "réprouvé"
+      shubuhat: "les choses douteuses"
+hasanat:
+  title: "Explorateur des bonnes actions"
+  lede: "Chaque mention des bonnes actions (al-hasanat) dans les sources du musée : les versets sur leur inscription, leur multiplication et leur effacement, les hadiths sur l’enregistrement des intentions et des actes, le beau prêt à Dieu, la bonne intercession et la récompense al-husna, chaque mention dans la sira, les récits, les traditions des Compagnons et des Successeurs et chaque livre dépouillé — des notices sourcées qui s’enrichissent avec les nouveaux textes."
+  badge: "Exploration des bonnes actions"
+  status: "Cette version contient {n} notices réparties en {s} sections ; les textes restent des brouillons jusqu’à leur lecture par un humain."
+  method_title: "La méthode de l’explorateur"
+  method_note: "Chaque notice est une notice ordinaire du musée, avec ses sources et ses textes en trois langues. Les mentions sont repérées à la génération du site par un lexique assorti de garde-fous : al-hasanat, hasanat, al-hasana, hasana, al-husna sous conditions (emplois des noms divins exclus), expressions fixes du beau prêt et du bien substitué au mal. Hasan et al-Hasan isolés (noms propres, degré de hadith), l’adverbe hasanan et hasana adjectif féminin rattaché à un nom sont écartés ; les faux positifs vérifiés sont exclus par identifiant. Chaque livre dépouillé par la suite apporte automatiquement ses mentions dès que ses passages intègrent le graphe ; les notices thématiques les rejoignent par l’étiquette hasanat-browser. Chaque passage porte le type hasanat, hasana ou husna selon le terme dominant."
+  api: "L’ensemble est disponible à l’adresse"
+  sections_title: "Les sections de l’explorateur"
+  filter_label: "Filtrer les bonnes actions"
+  filter_none: "Aucun résultat."
+  empty: "Cette version ne contient pas encore de notices sur les bonnes actions."
+  kinds: { hasanat: "al-hasanat — les bonnes actions", hasana: "hasana — une bonne action", husna: "al-husna — la meilleure récompense" }
+  sections:
+    quran:
+      title: "Dans le Coran"
+      desc: "Chaque mention coranique des bonnes actions : leur effacement des mauvaises, leur récompense décuplée, la transformation des mauvaises actions en bonnes, le beau prêt à Dieu, al-husna comme récompense de l’ihsan et les versets où hasana désigne un bien terrestre."
+    sunnah:
+      title: "Dans la sunna"
+      desc: "Les hadiths des deux Sahih, du Muwatta, des Arba'in et des Sunan : hadith qudsi sur l’inscription des bonnes et mauvaises actions, multiplication des actes humains, instauration d’un bon usage en islam, gecko et récits semblables, chaque récit citant ou enseignant les bonnes actions."
+    seerah:
+      title: "Dans la sira"
+      desc: "Ce que les ouvrages de sira et d’histoire rapportent des bonnes actions — cette section s’enrichit avec les nouveaux textes de sira les mentionnant."
+    books:
+      title: "Dans les autres livres"
+      desc: "Les mentions des bonnes actions dans tous les autres ouvrages dépouillés — poésie, histoire, fiqh et les ouvrages à venir — classées selon le genre de l’ouvrage dès l’arrivée de ses passages."
+    curated:
+      title: "Les notices sur les bonnes actions"
+      desc: "Les notices thématiques du musée : concept des bonnes actions, beau prêt à Dieu, livre des actes, notices sur l’intention et la résolution, récits où les bonnes actions sont pesées, multipliées ou effacent les péchés."
+  viz:
+    title: "Où les bonnes actions sont nommées"
+    caption: "Les passages des sources du musée nommant les bonnes actions, comptés selon leur emplacement : Coran par sourate, hadith par recueil. Chaque étagère est mise à l’échelle de son dos de livre le plus haut. {n} passages figurent sur les deux étagères ; {e} autres, issus de la sira, des autres livres et des notices thématiques, figurent ci-dessous."
+    how: "Choisissez une forme du mot pour ne colorer les dos que selon cette forme ; choisissez-la à nouveau pour tout voir."
+    hint: "Survolez un dos de livre, donnez-lui le focus ou touchez-le pour voir où il mène."
+    quran_title: "Le Coran, dans l’ordre du mushaf"
+    quran_note: "{n} des {total} sourates contiennent un passage nommant les bonnes actions ; les dos vides sont estompés."
+    sunnah_title: "La sunna, par recueil"
+    sunnah_note: "{n} recueils de hadiths contiennent un passage ici, les plus fournis en premier."
+    count_in: "{n} passages"
+mukatabat:
+  title: "Explorateur de la correspondance"
+  lede: "Chaque mention de correspondance dans les sources du musée : lettres du Prophète aux rois et empereurs et lettres, réponses et rapports reçus, lettres des califes aux gouverneurs et rapports qui leur étaient adressés, lettre de Salomon à la reine de Saba dans le Coran, chaque mention dans la sira, les recueils de hadiths et chaque livre dépouillé — des notices sourcées qui s’enrichissent avec les nouveaux textes."
+  badge: "Exploration de la correspondance"
+  status: "Cette version contient {n} notices réparties en {s} sections ; les textes restent des brouillons jusqu’à leur lecture par un humain."
+  method_title: "La méthode de l’explorateur"
+  method_note: "Chaque notice est une notice ordinaire du musée, avec ses sources et ses textes en trois langues. La correspondance est repérée à la génération du site par un détecteur assorti de garde-fous : indices d’envoi, d’apport, d’ouverture, de découverte, de lecture et de réponse, débuts de lettres cités (de Muhammad à Héraclius, d’Omar à Mu'awiya), en-têtes avec basmala, institutions de chancellerie (diwan al-khatam, diwan al-barid, diwan al-insha, sahib al-barid), noms de genres mukatabat et murasalat. Sont écartés le contrat d’affranchissement mukataba, le sens de livre ou prescription divine, les scribes des contrats de dette, ila quantitatif et les sens de page du mushaf ; les faux positifs vérifiés sont exclus par identifiant. Chaque livre dépouillé par la suite apporte automatiquement ses lettres dès que ses passages intègrent le graphe ; les notices thématiques les rejoignent par l’étiquette mukatabat-browser. Chaque passage porte le type letter s’il contient une lettre, mention s’il parle seulement de correspondance ; les étiquettes d’expéditeur distinguent correspondance prophétique, califale, royale ou autre."
+  api: "L’ensemble est disponible à l’adresse"
+  sections_title: "Les sections de l’explorateur"
+  senders_title: "Expéditeur"
+  all_senders: "Tous les expéditeurs"
+  filter_label: "Filtrer la correspondance"
+  filter_none: "Aucun résultat."
+  empty: "Cette version ne contient pas encore de notices de correspondance."
+  kinds: { letter: "Contient une lettre", mention: "Parle de correspondance" }
+  senders: { prophetic: "Prophétique", caliphal: "Califale", royal: "Royale", other: "Autre" }
+  sections:
+    quran:
+      title: "Dans le Coran"
+      desc: "La correspondance dans le Coran : lettre de Salomon à la reine de Saba, avec son attribution et son ouverture au nom de Dieu, et chaque verset mentionnant lettres, messages ou rapports écrits."
+    sunnah:
+      title: "Dans la sunna"
+      desc: "Les lettres du Prophète et les réponses des rois dans les deux Sahih, le Muwatta et les Sunan : lettres à Héraclius, Chosroès et au Négus, apposition du sceau du Prophète, récits des envoyés, lettres des califes aux gouverneurs et rapports reçus en retour."
+    seerah:
+      title: "Dans la sira"
+      desc: "La correspondance dans les ouvrages de sira et d’histoire — lettres du Prophète aux rois, réponses des rois, échanges des califes avec leurs territoires — à mesure que de nouveaux textes sont intégrés."
+    books:
+      title: "Dans les autres livres"
+      desc: "Les mentions de correspondance dans tous les autres ouvrages dépouillés — poésie, histoire, manuels de chancellerie et les ouvrages à venir — classées selon le genre de l’ouvrage dès l’arrivée de ses passages."
+    curated:
+      title: "Les notices sur la correspondance"
+      desc: "Les notices thématiques du musée : genre épistolaire, chancellerie (diwan al-insha), sceau et poste du barid, lettres identifiées conservées par la tradition."
+  viz:
+    title: "Les lettres et leurs expéditeurs"
+    note: "De gauche à droite : qui a envoyé la correspondance, si la notice contient le texte d’une lettre ou en parle seulement, et où elle a été trouvée dans les sources du musée. La largeur d’un ruban correspond au nombre de notices ; le flux gris réunit celles sans classe d’expéditeur. Sont comptées ici {n} notices, toutes dans les listes ci-dessous. Les types viennent du détecteur et des notices thématiques, non d’un jugement du musée."
+    hint: "Survolez un bloc ou un ruban, donnez-lui le focus ou touchez-le pour voir ses décomptes et trois exemples."
+    region: "Flux des notices de correspondance : expéditeur, type et section source"
+    col_sender: "Qui l’a envoyée"
+    col_kind: "De quoi il s’agit"
+    col_section: "Où elle a été trouvée"
+    unclassified: "Sans classe d’expéditeur"
+    kind_letter: "Texte de lettre"
+    kind_mention: "Mention"
+    kind_record: "Notice thématique"
+    sec_quran: "Coran"
+    sec_sunnah: "Sunna"
+    sec_seerah: "Sira"
+    sec_books: "Autres livres"
+    sec_curated: "Notices thématiques"
+    count: "{n} notices sur {total}"
+    samples: "Trois exemples"
+    open: "Ouvrir dans la liste ci-dessous"
+    table: "Les décomptes en tableau"
+    th_from: "De"
+    th_to: "À"
+    th_n: "Notices"
+    block: "{name} : {n} notices"
+munazarat:
+  title: "Explorateur des débats"
+  lede: "Chaque mention des débats et controverses dans les sources du musée : les argumentations coraniques — Abraham avec son peuple et Nemrod, Moïse devant Pharaon, verset de la mubahala, appel à discuter de la meilleure manière — les débats du Prophète, des Compagnons et des Successeurs avec les juifs, les chrétiens et les polythéistes, celui d’Ibn Abbas avec les kharijites à Harura, les controverses savantes en assemblées et dans les cours, les débats modernes — des notices sourcées qui s’enrichissent avec les nouveaux textes."
+  badge: "Exploration des débats"
+  status: "Cette version contient {n} notices réparties en {s} sections ; les textes restent des brouillons jusqu’à leur lecture par un humain."
+  method_title: "La méthode de l’explorateur"
+  method_note: "Chaque notice est une notice ordinaire du musée, avec ses sources et ses textes en trois langues. Les débats sont repérés à la génération du site par un détecteur assorti de garde-fous : verbes de controverse (nazara, tanazara, jadala, hajja, ihtajja, bahala, hawara, ikhtasama), noms de genres (munazara, jidal, muhajja, mubahala), repères d’épisodes nommés (chrétiens de Najran avec mubahala, Harura avec Ibn Abbas et les kharijites, Négus avec Ja'far et Amr ibn al-As). Sont écartés le serment juridique de li'an, la tresse jadila, hajj pèlerinage, ihtaja besoin et nazir spectateur ; les faux positifs vérifiés sont exclus par identifiant. Chaque livre dépouillé par la suite apporte automatiquement ses débats dès que ses passages intègrent le graphe ; les notices thématiques les rejoignent par l’étiquette munazarat-browser. Chaque passage porte le type debate s’il contient un échange, mention s’il parle seulement de controverse ; les étiquettes d’interlocuteur distinguent Gens du Livre, polythéistes, débats internes à la communauté ou autres."
+  api: "L’ensemble est disponible à l’adresse"
+  sections_title: "Les sections de l’explorateur"
+  opponents_title: "Interlocuteur"
+  all_opponents: "Tous les interlocuteurs"
+  named_title: "Les débats identifiés"
+  named_note: "Les confrontations que les sources conservent par nom et événement — les deux parties sur leurs bancs, le lieu, la date et la classe d’interlocuteur — chaque carte ouvrant sa notice complète et sourcée."
+  vs: "face à"
+  filter_label: "Filtrer les débats"
+  filter_none: "Aucun résultat."
+  empty: "Cette version ne contient pas encore de notices de débats."
+  kinds: { debate: "Contient un échange", mention: "Parle de débat" }
+  opponents: { scriptuaries: "Gens du Livre", polytheists: "Polythéistes", intra: "Au sein de la communauté", other: "Autre" }
+  sections:
+    quran:
+      title: "Dans le Coran"
+      desc: "Les débats et controverses du Coran : Abraham avec Nemrod et son peuple, le raisonnement sur l’étoile, la lune et le soleil, Moïse et les magiciens devant Pharaon, le verset de la mubahala, les injonctions sur la manière de discuter et les échanges avec les Gens du Livre, chaque verset portant preuve, confrontation ou imprécation réciproque."
+    sunnah:
+      title: "Dans la sunna"
+      desc: "Les controverses des deux Sahih, du Muwatta et des Sunan : les juifs guidant la main du Prophète vers la Torah, leurs questions sur l’Esprit, les dormants de la Caverne et Dhu al-Qarnayn, les débats des Compagnons après lui — chaque récit avec sa source et sa numérotation."
+    seerah:
+      title: "Dans la sira"
+      desc: "Les débats des ouvrages de sira et d’histoire — mubahala avec les chrétiens de Najran, échange devant le Négus entre Ja'far ibn Abi Talib et les envoyés des Quraych, controverses avec les savants juifs à Médine — à mesure que de nouveaux textes sont intégrés."
+    books:
+      title: "Dans les autres livres"
+      desc: "Les mentions de débats dans tous les autres ouvrages dépouillés — histoires, générations de savants, hérésiographie et adab — classées selon le genre de l’ouvrage dès l’arrivée de ses passages."
+    curated:
+      title: "Les notices sur les débats"
+      desc: "Les notices thématiques du musée sur la controverse : genre et convenances, confrontations nommées dans les sources — mubahala de Najran, Harura, assemblées des théologiens — chaque partie et interlocuteur référencés."
+  viz:
+    title: "L’espace des débats"
+    note: "De gauche à droite : avec qui se déroule le débat, si la notice contient un échange ou en parle seulement, et où elle a été trouvée dans les sources du musée. La largeur d’un ruban correspond au nombre de notices ; le flux gris réunit celles sans classe d’interlocuteur. Sont comptées ici {n} notices, toutes dans les listes ci-dessous. Les types viennent du détecteur et des notices thématiques, non d’un jugement du musée."
+    hint: "Survolez un bloc ou un ruban, donnez-lui le focus ou touchez-le pour voir ses décomptes et trois exemples."
+    region: "Flux des notices de débats : interlocuteur, type et section source"
+    col_opponent: "Avec qui"
+    col_kind: "De quoi il s’agit"
+    col_section: "Où il a été trouvé"
+    unclassified: "Sans classe d’interlocuteur"
+    kind_debate: "Un échange"
+    kind_mention: "Mention"
+    kind_record: "Notice thématique"
+    sec_quran: "Coran"
+    sec_sunnah: "Sunna"
+    sec_seerah: "Sira"
+    sec_books: "Autres livres"
+    sec_curated: "Notices thématiques"
+    count: "{n} notices sur {total}"
+    samples: "Trois exemples"
+    open: "Ouvrir dans la liste ci-dessous"
+    table: "Les décomptes en tableau"
+    th_from: "De"
+    th_to: "À"
+    th_n: "Notices"
+    block: "{name} : {n} notices"
+magic:
+  title: "Explorateur de la magie et des magiciens"
+  lede: "Chaque mention de la magie et des magiciens dans les sources du musée : sorcellerie dans le Coran, des magiciens de Pharaon à l’épreuve de Harut et Marut, hadiths sur la sorcellerie et la divination, guérison du Prophète par ruqya, mauvais œil et envie, chaque mention dans chaque livre dépouillé — des notices sourcées qui s’enrichissent avec les nouveaux textes."
+  badge: "Exploration de la magie"
+  status: "Cette version contient {n} notices réparties en {s} sections ; les textes restent des brouillons jusqu’à leur lecture par un humain."
+  method_title: "La méthode de l’explorateur"
+  method_note: "Chaque notice est une notice ordinaire du musée, avec ses sources et ses textes en trois langues. Les mentions sont repérées à la génération du site par un lexique assorti de garde-fous : formes univoques directement, formes ambiguës comme sihr/sahar (sorcellerie ou veille nocturne), ruqya (incantation ou prénom), al-ayn (mauvais œil ou œil) uniquement auprès de leurs associations de termes ; les faux positifs vérifiés sont exclus par identifiant. Chaque livre dépouillé par la suite apporte automatiquement ses mentions dès que ses passages intègrent le graphe ; les notices thématiques les rejoignent par l’étiquette magic-browser."
+  api: "L’ensemble est disponible à l’adresse"
+  sections_title: "Les sections de l’explorateur"
+  filter_label: "Filtrer les notices sur la magie"
+  filter_none: "Aucun résultat."
+  empty: "Cette version ne contient pas encore de notices sur la magie."
+  topics:
+    sihr: "Sorcellerie"
+    sahara: "Le sahar (avant l’aube)"
+    kahana: "Divination et augures"
+    ruqyah: "Ruqya"
+    ayn: "Le mauvais œil"
+    hasad: "L’envie"
+    waswasah: "Waswasa (insinuations)"
+    kashf: "Kashf (dévoilement)"
+    irafa: "Irafa (discernement mystique)"
+    jinn: "Djinns"
+    nujum: "Astrologie"
+  sections:
+    quran:
+      title: "Dans le Coran"
+      desc: "Sorcellerie et magiciens dans la révélation : les magiciens de Pharaon face à Moïse, l’accusation visant le Prophète, l’épreuve de Harut et Marut, le ciel voilé et les versets nommant sorcellerie, divination et maux invisibles."
+    sunnah:
+      title: "Dans la sunna"
+      desc: "Les hadiths des deux Sahih, du Muwatta, des Arba'in et des Sunan : sorcellerie parmi les sept péchés destructeurs, interdiction de consulter les devins, guérison du Prophète par ruqya, mauvais œil et chapitres de ruqya dans les livres de fiqh."
+    seerah:
+      title: "Dans la sira"
+      desc: "La magie et les magiciens dans les ouvrages de sira et d’histoire — cette section s’enrichit avec les nouveaux textes les mentionnant."
+    books:
+      title: "Dans les autres livres"
+      desc: "La magie dans chaque livre dépouillé hors du Coran, du hadith et de la sira — poésie, histoire, fiqh et les ouvrages à venir."
+    concepts:
+      title: "Les notices sur la magie"
+      desc: "Les notices thématiques du musée sur la magie et les maux invisibles associés : sorcellerie et sahara, divination et augures, ruqya et ses règles, mauvais œil, envie, waswasa, kashf et irafa."
+  viz:
+    title: "Un vocabulaire des arts interdits"
+    caption: "Les termes mêmes des sources, consignés selon leur traitement, sans instruction pratique. Chaque arc représente un thème, sa longueur correspondant au nombre de notices ; une notice relevant de deux thèmes compte dans les deux. L’anneau extérieur fin partage chaque arc selon la section des notices. {n} notices portent au moins un thème et sont représentées ; {u} n’en portent aucun et ne sont pas placées."
+    chords_note: "Une corde relie deux thèmes pour les notices qui relèvent des deux ; sa largeur correspond à leur nombre commun : {c} paires apparaissent."
+    no_chords: "Aucune notice ne relève de deux thèmes ; la roue n’a donc pas de cordes."
+    legend_topics: "Thèmes, depuis le haut dans le sens horaire"
+    legend_sections: "Sections de l’anneau extérieur fin"
+    empty: "Aucun passage pour le moment : {list}."
+    hint: "Pointez un arc ou un nom pour voir son décompte, ses sections et quelques notices ; pointez une corde pour voir la paire qu’elle relie."
+    pair: "{a} et {b}, notices communes : {n}"
+    count: "{n} notices"
+    outline: "Thèmes et notices communes sous forme de liste"
+    apply: "Filtrer la liste ci-dessous selon ce thème"
+nubuwat:
+  title: "Explorateur des prophéties et des miracles"
+  lede: "Chaque prophétie du Prophète, preuve de la prophétie, secret et merveille du Coran, miracle du Prophète et prédiction eschatologique dans les sources du musée : annonces coraniques et récits sur l’après-Prophète, preuves de la prophétie (dala'il al-nubuwwa), inimitabilité du Coran et ses secrets, lune fendue, Voyage nocturne, nourriture multipliée et chaque merveille consignée par la tradition — des notices sourcées qui s’enrichissent avec les nouveaux textes."
+  badge: "Exploration des prophéties"
+  status: "Cette version contient {n} notices réparties en {s} sections ; les textes restent des brouillons jusqu’à leur lecture par un humain."
+  method_title: "La méthode de l’explorateur"
+  method_note: "Chaque notice est une notice ordinaire du musée, avec ses sources et ses textes en trois langues. Les mentions de prophétie, de mission prophétique, de merveilles coraniques et d’eschatologie sont repérées à la génération du site par un lexique assorti de garde-fous : formes univoques directement, formes ambiguës comme al-nabi (le Prophète ou un prophète), al-mu'jiz (merveille ou auteur de merveilles), al-sirr (secret ou affaire), al-ghayb (invisible ou domaine invisible), al-akhira (au-delà ou dernière d’une série) uniquement auprès de leurs associations de termes ; les faux positifs vérifiés sont exclus par identifiant. Chaque livre dépouillé par la suite apporte automatiquement ses prophéties et merveilles dès que ses passages intègrent le graphe ; les notices thématiques les rejoignent par l’étiquette nubuwat-browser."
+  api: "L’ensemble est disponible à l’adresse"
+  sections_title: "Les sections de l’explorateur"
+  filter_label: "Filtrer les notices de prophéties"
+  filter_none: "Aucun résultat."
+  empty: "Cette version ne contient pas encore de notices de prophéties."
+  topics:
+    nubuwwa: "Mission prophétique et ses preuves"
+    nubuwat: "Prophéties et prédictions"
+    muajizat: "Miracles du Prophète"
+    ijaz: "Inimitabilité du Coran"
+    asrar: "Secrets du Coran"
+    ilm-ghayb: "Connaissance de l’invisible"
+    akhira: "Signes de l’Heure"
+  sections:
+    quran:
+      title: "Dans le Coran"
+      desc: "Les prophéties et prédictions de la révélation : annonces à venir, preuves de la prophétie, inimitabilité du Coran et ses secrets, récits de connaissance de l’invisible et versets eschatologiques."
+    sunnah:
+      title: "Dans la sunna"
+      desc: "Les prophéties et preuves de la mission prophétique dans les deux Sahih, le Muwatta et les Sunan : récits sur l’après-Prophète, preuves, miracles du Prophète, connaissance de l’invisible et hadiths des signes de l’Heure."
+    seerah:
+      title: "Dans la sira"
+      desc: "Prophéties, mission prophétique et merveilles dans les ouvrages de sira et d’histoire — cette section s’enrichit avec les nouveaux textes."
+    books:
+      title: "Dans les autres livres"
+      desc: "Prophéties, preuves de la mission prophétique, secrets et merveilles du Coran dans chaque livre dépouillé hors du Coran, du hadith et de la sira — poésie, histoire, tafsir et les ouvrages à venir."
+    curated:
+      title: "Les notices sur les prophéties"
+      desc: "Les notices thématiques du musée sur la mission prophétique, les prophéties et les merveilles du Coran : preuves, inimitabilité, secrets, miracles et prédictions eschatologiques réunis par la tradition."
+  viz:
+    title: "Sept fils"
+    note: "Chacun des sept axes représente un thème. Une marque indique combien de notices d’un corpus relèvent de ce thème : plus elle est loin du centre, plus elles sont nombreuses, sur une échelle en racine carrée pour garder visibles les petits corpus. Chaque corpus relie ses marques en un contour propre. Des cordes pâles relient les thèmes d’une même notice ; leur épaisseur croît avec le nombre de notices. Survolez un axe, donnez-lui le focus ou touchez-le pour le lire."
+    legend_title: "Corpus ; appuyez sur l’un pour l’isoler"
+    keys_title: "Les sept thèmes"
+    hint: "Survolez un axe, donnez-lui le focus ou touchez-le pour lire ses décomptes."
+    caption: "Décompte issu des notices de l’explorateur : une notice compte une fois dans son corpus pour chaque thème qu’elle porte ; avec deux thèmes, elle figure donc sur deux axes. Appuyez sur un thème pour filtrer les notices ci-dessous."
+    outline: "Le même graphique en liste"
+    total_line: "Notices relevant de ce thème : {n}"
+    mate_line: "Le plus souvent associé à {name} : {n} notices"
+    h_items: "Quelques notices"
+    filter: "Filtrer les notices ci-dessous selon ce thème"
+    corpora: { quran: "Coran", sunnah: "Sunna", seerah: "Sira", books: "Autres livres", curated: "Notices thématiques" }
+places:
+  title: "Explorateur des lieux sacrés"
+  lede: "Chaque lieu de sainteté, d’importance et de valeur en islam mentionné par les sources du musée : les trois sanctuaires de La Mecque, Médine et Jérusalem, les étapes du hajj, les sites de la sira et des batailles, les lieux nommés par le Coran et les peuples qu’il raconte, les autres sites vénérés, chaque lieu ou édifice nommé par un passage du Coran, de la sunna, de la sira, des récits des Compagnons et des Successeurs ou d’un livre dépouillé — avec chaque verset et récit référencés."
+  badge: "Exploration des lieux sacrés"
+  status: "Cette version contient {n} notices réparties en {s} sections ; les textes restent des brouillons jusqu’à leur lecture par un humain."
+  method_title: "La méthode de l’explorateur"
+  method_note: "Chaque notice est une notice ordinaire du musée : un nœud de lieu ou d’édifice du graphe commun, avec ses sources et ses textes en trois langues. L’appartenance dépend du graphe : une notice entre par l’étiquette places-browser ou par la relation mentions d’un passage ; un lieu nommé dans un livre dépouillé par la suite apparaît donc dès l’arrivée de sa notice de passage. Sur chaque page thématique, les passages sont groupés par corpus — texte coranique figé de Tanzil (affiché par référence, jamais retapé), récits de la sunna, de la sira et des autres livres — et chaque carte renvoie aux pages ordinaires d’entités et de passages."
+  api: "L’ensemble est disponible à l’adresse"
+  sections_title: "Les sections de l’explorateur"
+  filter_label: "Filtrer les lieux"
+  filter_none: "Aucun résultat."
+  empty: "Cette version ne contient pas encore de notices de lieux."
+  entity_page: "Notice du musée"
+  quran_ref: "Coran"
+  related_title: "Également au musée"
+  corpora:
+    quran: { name: "Coran", title: "Dans le Coran" }
+    sunnah: { name: "Sunna", title: "Dans la sunna" }
+    seerah: { name: "Sira", title: "Dans la sira" }
+    books: { name: "Livres", title: "Dans les autres livres" }
+  sections:
+    sanctuaries:
+      title: "Les trois sanctuaires"
+      desc: "La Mecque, la Mosquée sacrée et la Kaaba, Médine et la Mosquée du Prophète, Jérusalem et al-Aqsa — les lieux les plus saints de l’islam, avec chaque verset et récit les mentionnant."
+    hajj:
+      title: "Les étapes du hajj"
+      desc: "La géographie du rite : al-Safa et al-Marwa, Mina, Arafat, Muzdalifa, les Jamarat et les stations de miqat où les pèlerins entrent en ihram."
+    seerah:
+      title: "Les sites de la sira"
+      desc: "Les lieux parcourus par la vie du Prophète : grottes de Hira et de Thawr, Quba, Uhud, Badr, Hunayn, al-Hudaybiyya, Khaybar, al-Ta'if, al-Baqi' et les autres lieux nommés dans la biographie et les campagnes."
+    quran:
+      title: "Lieux nommés dans le Coran"
+      desc: "Les villes, terres et montagnes nommées par le Coran : Madyan, Saba, Misr, Babil, Iram, al-Ahqaf, mont Judi, mont Sinaï, Najran, Yathrib et les terres des peuples qu’il raconte."
+    sacred:
+      title: "Autres sites vénérés"
+      desc: "Les lieux honorés par la tradition au-delà des trois sanctuaires et du parcours de la sira : al-Haram al-Ibrahimi, mosquées historiques, puits, montagnes et sanctuaires vénérés dans les sources."
+    mentioned:
+      title: "Mentionnés dans les sources"
+      desc: "Tout autre lieu ou édifice mentionné par un passage — la rubrique automatique qui s’enrichit dès qu’un nouveau livre dépouillé nomme un lieu."
+  viz:
+    title: "La géographie sacrée"
+    caption: "Chaque marque est un lieu ou édifice mentionné par les sources du musée. Sa forme et sa couleur indiquent sa section ; sa taille croît avec la racine carrée du nombre de passages le mentionnant, de {min} à {max}. À cette échelle, les environs de La Mecque et de Médine se confondent en un point : chacun est agrandi dans une loupe ci-dessous, à partir des lieux situés à environ {km} km de la ville ; les lieux superposés sont légèrement écartés."
+    not_located: "Pas encore situés sur la carte :"
+    legend_title: "Sections de la carte"
+    map_label: "Carte des lieux sacrés, avec loupes sur La Mecque et Médine"
+    hint: "Touchez ou survolez une marque pour découvrir le lieu. Appuyez sur une section ci-dessus pour estomper les autres."
+    close: "Effacer la sélection"
+    open: "Ouvrir la page"
+    no_mentions: "Aucun passage des sources du musée ne le mentionne encore"
+    lens_title: "Autour de {city}"
+    lens_sub: "lieux situés à environ {km} km"
+    km: "{n} km"
+    outline_title: "Les lieux sous forme de texte"
