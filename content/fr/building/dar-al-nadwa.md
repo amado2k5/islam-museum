@@ -21,5 +21,5 @@ Qusayy légua la présidence de la maison à son fils Abd al-Dar. Après le part
 ## Ce qui n’est pas couvert ici
 La réunion de Quraysh à Dar al-Nadwa pour comploter contre le Prophète avant l’Hégire (Le Nectar cacheté, p. 158) sera présentée lorsque l’article atteindra ce passage.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Dar al-Nadwa était le grand conseil de La Mecque, où les anciens de Quraysh se réunissaient pour s’accorder sur leurs affaires importantes.

@@ -15,7 +15,7 @@ Le külliye d’Emir Sultan à Bursa, à l’est de Yeşil Cami, porte le nom d�
 ## La mosquée
 Le külliye comprenait une mosquée, une medrese et un hammam — le bain est aujourd’hui un bâtiment moderne — tandis que la mosquée actuelle est une reconstruction complète sous Selim III (r. 1789–1807), après l’incendie de l’original à la fin du XVIIIe siècle ; elle fut de nouveau reconstruite après le séisme de 1855 {cite:freely-ottoman-architecture-2011 p.64}.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Une princesse ottomane fonda tout un complexe à Bursa au nom de son mari, le religieux Emir Sultan ; la mosquée actuelle remplace depuis le XVIIIe siècle l’édifice original incendié.
 
 ## Notes de conservation

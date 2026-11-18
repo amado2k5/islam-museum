@@ -1,5 +1,11 @@
 # french lane — progress
 
+## 2026-11-18 — distinguish visitor notes from audience levels (Devin)
+
+- In every French building page whose English pivot has `For young visitors`, use `Pour les jeunes visiteurs`. This is an informal note, not the Sprouts level.
+- Reserve `Pour les Petits`, `Pour les Explorateurs`, `Pour les Chercheurs` for actual `For Sprouts`, `For Explorers`, `For Scholars` level headings. Apply this distinction to all future batches.
+- Heading-only correction; prose, citation markers, provenance and data unchanged. Earlier packet notes about exact level forms do not classify informal visitor notes as levels.
+
 ## 2026-11-18 — building corpus packet 5 (Devin)
 
 - Run `fr-corpus-building-5`: original queue records 101–125, `dar-al-raml-fustat` → `eski-cami-thessaloniki-acropolis`; 25 English-to-French prose translations and French labels/summaries without YAML re-dumping.

@@ -15,7 +15,7 @@ Edirne Sarayı était l’ancien palais impérial d’Edirne, où Mehmet le Conq
 ## Règnes et ruine
 Même après qu’Istanbul fut devenue capitale, Mehmet et ses successeurs continuèrent d’y passer autant de temps que possible, et Soliman chargea Sinan d’y construire deux kiosques palatiaux, Adalet Kasrı et Terazi Kasrı {cite:freely-ottoman-architecture-2011 p.103-104}. Mehmet IV (r. 1648–1687) abandonna presque Istanbul et passa l’essentiel de son règne au palais, chassant dans la campagne d’Edirne tandis que les grands vizirs gouvernaient {cite:freely-ottoman-architecture-2011 p.104}. Le palais fut détruit en 1877 lors de la prise d’Edirne par l’armée russe ; il ne reste aujourd’hui à Sarayiçi que quatre structures ruinées, dont une restaurée : Adalet Kasrı, l’un des deux pavillons de Sinan pour Soliman {cite:freely-ottoman-architecture-2011 p.103-104}.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Le palais où naquit le Conquérant fut détruit par la guerre en 1877 — seul subsiste le petit pavillon de Justice que Sinan restaura.
 
 ## Notes de conservation

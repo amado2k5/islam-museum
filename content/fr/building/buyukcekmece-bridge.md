@@ -15,7 +15,7 @@ Le pont de Soliman le Magnifique à Büyükçekmece est l’un des monuments les
 ## L’ensemble au bord de la route
 Cinq monuments ottomans se dressent à Büyükçekmece : le plus ancien, Fatih Camii, construit par Mehmet II peu après la conquête de Constantinople ; les quatre autres sont tous de Sinan — un caravansérail et ce pont pour Soliman, une medrese et une petite mosquée pour Sokollu Mehmet Pacha {cite:freely-ottoman-architecture-2011 p.109-110}.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Un pont à vingt-huit arches construit par Sinan il y a plus de 450 ans porte encore la grande route de l’ouest.
 
 ## Notes de conservation

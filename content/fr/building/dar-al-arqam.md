@@ -18,7 +18,7 @@ Se réunir en secret était nécessaire au début de la mission. Si les polythé
 ## Ce qui n’est pas couvert ici
 Le livre ne décrit ni la maison, ni son emplacement exact sur al-Safa, ni ce qui s’y passa après l’Hégire. Ces sujets sont traités à leurs places respectives.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 La maison d’al-Arqam était une demeure sur la colline d’al-Safa, où le Prophète retrouvait ses compagnons en secret alors que les gens craignaient Quraysh.
 
 ## Dans la série de conférences Al Dinu Al Qayem du cheikh Omar Abdelkafy

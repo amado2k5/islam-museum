@@ -18,7 +18,7 @@ Nurbanu naquit sous le nom de Cecelia Venier-Baffo sur l’île égéenne de Par
 ## La mosquée
 Une ruelle près du cimetière mène à l’une des plus belles cours de la ville — un grand cloître de travées à coupoles sur colonnes de marbre, autour d’un şadırvan à grilles de marbre flanqué de deux immenses platanes creux {cite:freely-ottoman-architecture-2011 p.289}. La salle de prière est un large rectangle sous une coupole centrale de 12,7 mètres de diamètre, portée par un dispositif hexagonal de piles et de colonnes de granit thébain ; le mihrab occupe une abside carrée saillante revêtue de magnifiques carreaux d’Iznik de la meilleure période {cite:freely-ottoman-architecture-2011 p.290-291}. Freely montre que les bas-côtés est et ouest sont des ajouts ultérieurs — la Hadika nomme Pir Ali, administrateur de la fondation, et Davut Ağa est plausible — car aucun architecte n’aurait volontairement conçu des piles engagées devenues isolées {cite:freely-ottoman-architecture-2011 p.291}.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 La dernière grande mosquée que Sinan construisit, à quatre-vingt-treize ans, était destinée à une reine capturée enfant sur une île grecque et devenue mère de l’Empire ottoman.
 
 ## Notes de conservation

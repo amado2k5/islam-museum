@@ -18,7 +18,7 @@ L’avlu de la mosquée mesure 50 sur 40 mètres, entouré d’une arcade de 22 
 ## Hôpital et école de médecine
 À l’ouest de la mosquée, le darüşşifa comprenait un timarhane pour les malades mentaux et une tıp medresesi ; l’hôpital est un hexagone de douze travées à coupoles autour d’une cour hexagonale et d’un şadırvan sous une coupole de plus de 14 mètres couronnée d’un lanternon {cite:freely-ottoman-architecture-2011 p.88}. Le vakfiye de Beyazit recense 167 employés, dont 21 à l’hôpital — médecin-chef, deux assistants, deux chirurgiens, deux oculistes, un pharmacien — et 18 étudiants en médecine {cite:freely-ottoman-architecture-2011 p.88}. Evliya Çelebi rapporte que l’on jouait de la musique sous la grande coupole trois fois par semaine, comme « un traitement pour les malades, un médicament pour les affligés, une nourriture spirituelle pour les aliénés et un remède contre la mélancolie » {cite:freely-ottoman-architecture-2011 p.88}.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Un hôpital vieux de cinq cents ans qui soignait les malades par la musique — avec sa propre école de médecine et une cuisine nourrissant gratuitement les gens.
 
 ## Notes de conservation
