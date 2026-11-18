@@ -81,6 +81,13 @@ const OTHER_PROPHETS: Record<Lang, string[]> = {
     "عیسیٰ", "عیسی", "مسیح", "سموئیل", "شموئیل", "دانیال", "یوشع", "شیث", "حزقیل", "حزقی ایل", "یرمیاہ", "ارمیا", "عزیر",
     "خضر", "جرجیس", "لقمان",
   ],
+  fr: [
+    "Adam", "Idris", "Hénoch", "Nuh", "Noé", "Hud", "Salih", "Ibrahim", "Abraham", "Lut", "Loth", "Ismail", "Ismaïl", "Ismaël", "Ishaq",
+    "Isaac", "Yaqub", "Jacob", "Yusuf", "Joseph", "Ayyub", "Job", "Shuayb", "Chouaïb", "Jéthro", "Musa", "Moïse", "Harun", "Aaron",
+    "Dhu al-Kifl", "Dawud", "David", "Sulayman", "Salomon", "Ilyas", "Élie", "al-Yasa", "Élisée", "Yunus", "Jonas", "Zakariyya",
+    "Zacharie", "Yahya", "Jean", "Isa", "Jésus", "Samuel", "Daniel", "Yusha", "Josué", "Shith", "Seth", "Ézéchiel", "Jérémie", "Isaïe",
+    "Uzayr", "Esdras", "Khidr", "al-Khidr", "Luqman",
+  ],
   es: [
     "Adán", "Idris", "Enoc", "Nuh", "Noé", "Hud", "Salih", "Ibrahim", "Abraham", "Lut", "Lot", "Ismail", "Ismael", "Ishaq", "Isaac",
     "Yaqub", "Jacob", "Yusuf", "José", "Ayyub", "Job", "Shuayb", "Shu'ayb", "Jetró", "Musa", "Moisés", "Harun", "Aarón", "Dhu al-Kifl",
@@ -102,7 +109,7 @@ for (const n of realNodes) {
     }
   }
 }
-const NAME_END: Record<Lang, string> = { ar: "(?![\u0621-\u064A])", en: "(?![A-Za-z])", ur: "(?![\u0621-\u06D3])", es: "(?![A-Za-zÀ-ÿ])" };
+const NAME_END: Record<Lang, string> = { ar: "(?![\u0621-\u064A])", en: "(?![A-Za-z])", ur: "(?![\u0621-\u06D3])", fr: "(?![A-Za-zÀ-ÿ])", es: "(?![A-Za-zÀ-ÿ])" };
 const reEsc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const OTHER_AFTER = Object.fromEntries(
   (Object.keys(OTHER_PROPHETS) as Lang[]).map((l) => {
