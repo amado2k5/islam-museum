@@ -21,7 +21,7 @@ const S = sectionsOf(n.id);
 const meta = (n.data as any).name_meta ?? {};
 const proseLang = n.prose?.[lang] ? lang : n.prose?.ar ? "ar" : n.prose?.en ? "en" : null;
 const prose = proseLang ? n.prose![proseLang] : null;
-const hon = newHonState();
+const hon = newHonState(n);
 // citation numbers are per-section in renderProse; re-number globally and collect them for the footnote list
 const citeList: { source: string; locator?: string }[] = [];
 const citeIndex = (c: { source: string; locator?: string }) => {

@@ -21,7 +21,7 @@ const n = subject.node;
 const T = ui(lang);
 const G = (T as any).qurun;
 const title = labelOf(n, lang);
-const ledeR = renderProse(summaryRaw(n, lang), lang, newHonState());
+const ledeR = renderProse(summaryRaw(n, lang), lang, newHonState(n));
 const citeList: { source: string; locator?: string }[] = [];
 const citeIndex = (c: { source: string; locator?: string }) => {
   let i = citeList.findIndex((x) => x.source === c.source && x.locator === c.locator);

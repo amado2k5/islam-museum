@@ -86,7 +86,7 @@ const places = placesOf(n.id);
 const groups = connectionsOf(n.id, lang);
 
 // --- sources: the entity's own + any cited in prose
-const hon = newHonState(); // one honorific state per article, so the first mention is marked once across all sections
+const hon = newHonState(n); // one honorific state per article, so the first mention is marked once across all sections
 // the lede is read first on the page, so its summary renders before the sections: {cite:…} markers
 // in summaries become footnotes and [[wiki-links]] become links, matching the prose pipeline
 const ledeR = renderProse(summaryRaw(n, lang), lang, hon);
@@ -122,7 +122,7 @@ const sectionHtml = sections.map((s) => {
 // a job article's "not yet covered" section is shown as a note after the job sections, not inside the prose (docs/jobs/site.md section 2)
 const jobNotYet = n.class === "job" ? sectionHtml.find((s) => JOB_NOT_YET.includes(s.heading)) : undefined;
 // each level is read on its own, so each gets its own honorific state; its citations join the page's footnote list
-const levelHtml = levelSecs.map((s) => { const r = renderProse(s.markdown, lang, newHonState()); return { id: levelOf(s.heading, proseLang!)!.id, heading: s.heading, html: renumberR(r)(r.html) }; });
+const levelHtml = levelSecs.map((s) => { const r = renderProse(s.markdown, lang, newHonState(n)); return { id: levelOf(s.heading, proseLang!)!.id, heading: s.heading, html: renumberR(r)(r.html) }; });
 const kidsReadHref = d.education?.flagged_for_kids ? `/${lang}/sighar/read/${SEGMENT[n.class] ?? n.class}/${n.slug}/` : undefined;
 // the Tafsir section: each block under its commentator and work; rendered after the prose so its notes number after it
 const plainHeading = (h: string) => h.replace(/\[\[[a-z]+\/[a-z0-9-]+\|([^\]]*)\]\]/g, "$1").replace(/\[\[([a-z]+\/[a-z0-9-]+)\]\]/g, (_m, id: string) => { const t = byId.get(id); return t ? labelOf(t, lang) : id; });

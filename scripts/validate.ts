@@ -128,6 +128,8 @@ function* walkDates(node: any, path = ""): Generator<[string, any]> {
 // a "(" ... ")" group containing Arabic script that is not preceded by the left-to-right isolate U+2066
 export const ARABIC_PAREN_UNISOLATED = /(?<!\u2066)\([^()\n]*[\u0600-\u06FF][^()\n]*\)/;
 export const HONORIFIC = /(peace be upon him|\bpbuh\b|\(saw\)|ﷺ|صلى الله عليه|صلى اللّٰه عليه|عليه السلام|عليها السلام|رضي الله ع|رضي اللّٰه ع|رحمه الله|رحمه اللّٰه)/i;
+// What a source text may put right before ﷺ: Muhammad's name or his titles, in Arabic, Urdu and English.
+export const SALAWAT_BESIDE = /(محمد|أحمد|احمد|مصطف[ىیٰے]+|النبي|رسول الله|رسوله|پیغمبر|رسول|نبی|Muhammad|Prophet|Messenger)[\s(!)\u2066-\u2069]*$/;
 export function* textFields(o: any, path = ""): Generator<[string, string]> {
   if (typeof o === "string") yield [path, o];
   else if (Array.isArray(o)) for (let i = 0; i < o.length; i++) yield* textFields(o[i], `${path}[${i}]`);
@@ -422,6 +424,8 @@ export function validateAll(extra: { entity: any; file: string }[] = [], options
 
     // honorifics are rendered by the UI: never typed into any label, summary or note (passages hold scripture/hadith text verbatim and are exempt)
     if (entity.class !== "passage") for (const [path, s] of textFields(entity)) if (HONORIFIC.test(s)) err(file, `${path}: honorifics must not be typed (the UI renders them)`);
+    // ﷺ belongs to Muhammad alone, in every language: a frozen source text keeps it only where it stands beside his name or title
+    if (entity.class === "passage") for (const [path, s] of textFields(entity)) for (const m of s.matchAll(/ﷺ/g)) if (!SALAWAT_BESIDE.test(s.slice(Math.max(0, m.index! - 30), m.index))) err(file, `${path}: ﷺ is written only beside Muhammad (AGENTS.md)`);
     // Arabic-script parentheticals in right-to-left text must be wrapped in U+2066 ... U+2069 (AGENTS.md)
     for (const [path, s] of textFields(entity)) if (/(^|\.)(ar|ur)(\.|$)|\[\d+\]\.ar$/.test(path) && ARABIC_PAREN_UNISOLATED.test(s)) err(file, `${path}: wrap Arabic-script parentheses in U+2066 ... U+2069 (AGENTS.md)`);
 

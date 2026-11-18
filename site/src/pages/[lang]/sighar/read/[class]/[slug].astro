@@ -30,7 +30,7 @@ const path = `/${lang}/sighar/read/${seg}/${n.slug}/`;
 const secs = n.prose[lang].sections;
 const text = (id: string): string | null => {
   const s = secs.find((x) => levelOf(x.heading, lang)?.id === id);
-  return s ? renderProse(plainChildMarkdown(s.markdown, lang), lang, newHonState()).html : null;
+  return s ? renderProse(plainChildMarkdown(s.markdown, lang), lang, newHonState(n)).html : null;
 };
 const sprouts = text("sprouts");
 const explorers = text("explorers");
