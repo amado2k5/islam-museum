@@ -42,6 +42,7 @@ open a new block on top with the new version and today's date.
 ### Changed
 - The virtual tour now includes French exhibit labels, gallery descriptions and journey narration.
 ### Fixed
+- **French release verification:** missing French dataset fields now have safe tour, gallery and world-page fallbacks, French prophet-name guards keep honorific rendering scoped correctly, and localized component types accept optional French fields during the rollout. The French queue imports the existing repository path helper correctly. Validate now builds the graph cache before its unit tests; regression tests cover French routes, search-index routing and the R2 sync prefix configuration.
 - **ﷺ now appears only for Prophet Muhammad, in Arabic, English and Urdu.** The page renderer used to add it to the first «النبي» / "the Prophet" / «رسول اللہ» of every article, so «معركة النبي صموئيل», "the Prophet Daniel", «عيسى رسول الله» and a bare «النبي» on another prophet's own page carried Muhammad's mark (about fifty such marks across the site, found by rendering every article before and after). A title with another prophet named beside it is now left unmarked; the rule for new content is in `AGENTS.md`, and `npm run validate` checks that source texts keep ﷺ only beside Muhammad.
 ### Tests
 - The reach-index test counts French Wikipedia, the graph test checks a record that already has French prose, and CI builds the graph cache before running tests.
