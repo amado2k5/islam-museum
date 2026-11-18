@@ -47,6 +47,19 @@ describe("renderProse: raw HTML and script URLs are inert", () => {
   });
 });
 
+describe("renderProse: a bare address stops before Arabic and Urdu punctuation", () => {
+  it("keeps «؛» «،» «؟» and «۔» out of the link", () => {
+    expect(renderProse("الموقع www.semerkand.tv؛ تُستخدم لوقائع الكيان فقط.", "ar").html).toContain('<a href="http://www.semerkand.tv">www.semerkand.tv</a>؛ ');
+    expect(renderProse("الموقع www.semerkand.tv، ثم غيره.", "ar").html).toContain('<a href="http://www.semerkand.tv">www.semerkand.tv</a>، ');
+    expect(renderProse("هل هو https://example.org/a؟ نعم.", "ar").html).toContain('<a href="https://example.org/a">https://example.org/a</a>؟ ');
+    expect(renderProse("ویب سائٹ www.example.org۔ پھر", "ur").html).toContain('<a href="http://www.example.org">www.example.org</a>۔ ');
+  });
+  it("leaves a bracketed link and an English sentence as they were", () => {
+    expect(renderProse("[الموقع؛](https://example.org/a)", "ar").html).toContain('<a href="https://example.org/a">الموقع؛</a>');
+    expect(renderProse("The website is www.semerkand.tv; used for facts.", "en").html).toContain('<a href="http://www.semerkand.tv">www.semerkand.tv</a>; used');
+  });
+});
+
 describe("proseUnsafeHtml: the validator rejects the payload at authoring time", () => {
   it("flags raw HTML tags", async () => {
     const { proseUnsafeHtml } = await import("./validate");
