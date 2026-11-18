@@ -265,7 +265,6 @@ status:
   ai_narrative: "Ce récit a été rédigé avec l'aide de l'IA à partir des sources citées, et n'a pas encore été relu par un éditeur humain."
   reviewed: Relu
   verified: Vérifié
-claim:
 map:
   caption: Carte schématique, tracée à partir de positions sourcées
   details: À propos de cette carte
@@ -389,3 +388,830 @@ map:
       mentions: Mentionne ce lieu
     cls:
       place: Lieu
+claim:
+  scriptural: Scripturaire
+  tradition: Tradition
+  historical: Historique
+  debated: Débattu
+  legend: Légende
+class:
+  person: Personne
+  group: Groupe
+  polity: État
+  event: Événement
+  period: Période
+  journey: Voyage
+  place: Lieu
+  building: Édifice
+  object: Objet
+  media: Média
+  work: Œuvre
+  passage: Passage
+  concept: Concept
+  language: Langue
+  practice: Pratique
+  exhibit: Exposition
+  question: Question
+  source: Source
+  dataset: Jeu de données
+  listing: Liste
+  screen: Salle de projection
+  job: "Métier"
+  invention: Invention
+  award: Récompense
+  course: Cours
+  sport: Sport
+modernSections:
+  web: 'Sites web, applications, jeux et appareils'
+  music: 'Musique et anasheed'
+  film: 'Films'
+  tv: 'Séries et programmes'
+  conferences: 'Conférences et conventions'
+  heritage: 'Mois du patrimoine et festivals'
+  rights: 'Droits et protestations'
+  books: 'Livres et éditeurs'
+  upcoming: 'À venir'
+  figures: 'Figures des cinquante dernières années'
+  organizations: 'Organisations'
+  media: 'Médias'
+  sports: 'Sport'
+  awards: 'Récompenses et concours'
+  achievements: 'Réalisations et premières'
+  enterprise: 'Entreprise, marques et finance'
+  arts: 'Arts et culture'
+  built: 'Construits depuis 1976'
+  learning: 'Apprentissage et savoir'
+modernFields:
+  scholars-preachers: 'Savants et prédicateurs'
+  politics-state: 'Politique et État'
+  diplomacy: 'Diplomatie'
+  finance-economics: 'Finance et économie'
+  science: 'Sciences'
+  medicine: 'Médecine'
+  history-academy: 'Histoire et monde académique'
+  teaching: 'Enseignement'
+  writing: 'Écriture'
+  arts: 'Arts'
+  media-creators: 'Médias et créateurs'
+  activism: 'Militantisme'
+  sport: 'Sport'
+awardKinds:
+  prize: 'Prix'
+  medal: 'Médaille'
+  certification: 'Certification de ventes'
+  ranking: 'Classement'
+  title: 'Titre'
+  scholarship: 'Bourse'
+  competition-prize: 'Prix de concours'
+  chart: 'Palmarès'
+honourResults:
+  won: 'Remporté'
+  nominated: 'Nommé'
+  shortlisted: 'Présélectionné'
+  longlisted: 'Sélection longue'
+  certified: 'Certifié'
+  ranked: 'Classé'
+  honoured: 'Honoré'
+  finalist: 'Finaliste'
+  participant: 'Participant'
+horizonStages:
+  announced: 'Annoncé'
+  in-development: 'En développement'
+  in-production: 'En production'
+  under-construction: 'En construction'
+  scheduled: 'Programmé'
+  beta: 'Bêta'
+  bid: 'Candidature'
+  postponed: 'Reporté'
+  cancelled: 'Annulé'
+modernGenres:
+  nasheed: 'Nasheed'
+  naat: 'Naat'
+  qawwali: 'Qawwali'
+  ilahi: 'Ilahi'
+  inshad: 'Inshad (chant religieux)'
+  madih: 'Madih'
+  sufi: 'Musique soufie'
+  religious-pop: 'Pop religieuse'
+  hip-hop: 'Hip-hop'
+  folk: 'Folk'
+  film-song: 'Chanson de film'
+  choral: 'Choral'
+  recitation-based: 'Basé sur la récitation'
+modernSports:
+  football: 'Football'
+  cricket: 'Cricket'
+  basketball: 'Basket-ball'
+  boxing: 'Boxe'
+  mixed-martial-arts: 'Arts martiaux mixtes'
+  wrestling: 'Lutte'
+  judo: 'Judo'
+  taekwondo: 'Taekwondo'
+  karate: 'Karaté'
+  athletics: 'Athlétisme'
+  swimming: 'Natation'
+  fencing: 'Escrime'
+  weightlifting: 'Haltérophilie'
+  gymnastics: 'Gymnastique'
+  tennis: 'Tennis'
+  squash: 'Squash'
+  table-tennis: 'Tennis de table'
+  badminton: 'Badminton'
+  cycling: 'Cyclisme'
+  motorsport: 'Sport automobile'
+  golf: 'Golf'
+  chess: 'Échecs'
+  rowing: 'Aviron'
+  sailing: 'Voile'
+  equestrian: 'Équitation'
+  archery: 'Tir à l''arc'
+  shooting: 'Tir'
+  volleyball: 'Volley-ball'
+  handball: 'Handball'
+  rugby: 'Rugby'
+  american-football: 'Football américain'
+  baseball: 'Baseball'
+  ice-hockey: 'Hockey sur glace'
+  skiing: 'Ski'
+  mountaineering: 'Alpinisme'
+  bodybuilding: 'Musculation'
+  kabaddi: 'Kabaddi'
+  hockey: 'Hockey'
+  esports: 'Esport'
+  paralympic: 'Paralympique'
+modern:
+  sections_reconcile: "Les sections ci-dessous totalisent {sum} places pour {records} notices distinctes : une notice qui appartient à deux sections est comptée dans chacune."
+  title: 'Navigateur de l''islam moderne'
+  lede: 'Les cinquante dernières années de l''islam et des musulmans, du 1er Mouharram 1396 (3 janvier 1976) à aujourd''hui et vers ce qui vient : dix-neuf sections sur le graphe unique du musée, chaque notice sourcée, chaque chiffre calculé à la compilation.'
+  badge: "Explorateur de l'islam moderne"
+  status: 'Notices dans la fenêtre du navigateur pour cette compilation : {records}, réparties sur {sections} sections ayant au moins une notice. Le pilote ajoute une notice sourcée à chaque section ; les vagues suivent. Comptes au jour de la dernière compilation.'
+  listed_note: 'Répertorié ne veut pas dire approuvé : le musée consigne ce qui est documenté et renvoie à la source. Il ne classe rien au goût.'
+  ribbon_title: 'Année par année'
+  ribbon_note: 'Chaque notice avec un fait daté de cette année. Chaque barre ouvre l''année ; les années hégiriennes figurent sur chaque page d''année.'
+  ribbon_span: 'De {h1} H ({y1}) à {h2} H ({y2}).'
+  miraj_title: "La route du Mi'raj"
+  miraj_desc: "La route telle que les notices la consignent : du Haram à al-Aqsa, puis l'ascension à travers les cieux."
+  signs_title: "Chronologie des signes"
+  signs_desc: "Les grands signes tels que le hadith de Hudhayfa ibn Usayd les énumère, dans l'ordre rapporté."
+  sections_title: 'Les sections'
+  sections_note: 'La section d''une notice découle de ce qu''elle est et de sa date ; une notice peut figurer dans plusieurs.'
+  count_records: 'Notices : {n}'
+  no_records: 'Aucune notice ici pour l''instant.'
+  upcoming_title: 'À venir'
+  upcoming_none: 'Rien d''annoncé pour l''instant.'
+  expected: 'Attendu'
+  announced: 'Annoncé'
+  all_records: 'Toutes les notices'
+  new_title: 'Nouveautés des 30 derniers jours'
+  new_none: 'Aucune notice n''a été ajoutée ou modifiée dans les 30 derniers jours.'
+  new_lede: 'Notices ajoutées ou modifiées dans les 30 jours précédant cette compilation, de la plus récente à la plus ancienne.'
+  new_capped: "Les {n} notices les plus récemment modifiées sur {total} sont affichées. Chaque notice figure aussi dans sa propre section du navigateur."
+  top_title: 'Indices de portée'
+  top_note: 'L''ampleur de la documentation d''une œuvre, calculée à partir d''entrées citées avec la formule imprimée sur chaque liste. Jamais un classement au goût.'
+  top_lede: '{list} : {n} notices notées, de la plus grande portée à la plus petite.'
+  top_none: 'Aucune notice notée encore : les scores exigent des distinctions, certifications, positions dans les palmarès, chiffres de plateforme datés, langues Wikipédia ou articles de presse sourcés.'
+  score: 'Score'
+  inputs:
+    honours: 'Distinctions'
+    certified: 'Certifications'
+    chart: 'Positions dans les palmarès'
+    reach: 'Chiffres de plateforme'
+    wikipedia: 'Langues Wikipédia'
+    press: 'Articles de presse'
+    covers: 'Reprises'
+  lists:
+    songs: 'Chansons'
+    albums: 'Albums'
+    websites: 'Sites web et applications'
+    channels: 'Chaînes et médias'
+    books: 'Livres'
+  formula_title: 'Comment le score est calculé'
+  formula_version: 'Version de la formule {v}'
+  tie_break: 'Les égalités sont départagées par date de sortie, la plus ancienne d''abord.'
+  formula_honours: '{won} points par prix remporté, {nominated} par nomination, présélection ou place de finaliste ; au plus {cap}.'
+  formula_certified: 'Or {gold}, platine {platinum}, multi-platine {multi} ; au plus {cap}.'
+  formula_chart: 'Top dix {top10}, top quarante {top40}, classé {charted} ; au plus {cap}.'
+  formula_reach: 'Le logarithme décimal du plus grand chiffre daté par plateforme, sommé sur au plus {max} plateformes ; au plus {cap}.'
+  formula_wikipedia: '{per} par langue Wikipédia ; au plus {cap}.'
+  formula_press: '{per} par article de presse daté ; au plus {cap}.'
+  formula_covers: '{per} par reprise ou réutilisation ; au plus {cap}.'
+  countries_title: 'Par pays'
+  countries_note: 'Les pays tels que les notices les indiquent. Une notice qui ne nomme aucun pays ne figure sur aucune page de pays.'
+  languages_title: 'Par langue'
+  filter_label: 'Filtrer par nom'
+  filter_none: 'Aucune notice ne correspond à ce filtre.'
+  by_kind: 'Par genre'
+  by_decade: 'Par décennie'
+  by_country: 'Par pays'
+  by_field: 'Par domaine'
+  field_other: 'Autres domaines'
+  year_title: '{y} · {h} H'
+  year_lede: 'Toutes les notices avec un fait daté de {y} ({h} H).'
+  year_none: 'Aucune notice n''a encore de fait daté de cette année.'
+  country_lede: 'Toutes les notices de {c} dans le navigateur.'
+  language_lede: 'Toutes les notices en {l}.'
+  strip_title: 'Dans le navigateur de l''islam moderne'
+  horizon_title: 'À venir'
+  award_kind: 'Genre'
+  awarded_by: 'Décerné par'
+  since: 'Depuis'
+  categories: 'Catégories'
+  winners_title: 'Lauréats'
+  no_winners: 'Aucune distinction enregistrée pour l''instant.'
+  col_year: 'Année'
+  col_who: 'Qui'
+  col_result: 'Résultat'
+  col_category: 'Catégorie'
+  year_unknown: 'non daté'
+  honours_title: 'Distinctions'
+  footprint_title: 'Empreinte'
+  wikipedia_in: 'Sur Wikipédia en'
+  wikidata: 'Wikidata'
+  read_on: 'lu le {d}'
+  press_title: 'Dans les actualités'
+  reach_title: 'Portée'
+  reach_note: 'Chiffres de plateforme relevés à la date indiquée ; ce sont ce que la plateforme affichait ce jour-là, pas des faits du musée.'
+  metrics:
+    subscribers: 'abonnés'
+    followers: 'abonnés'
+    views: 'vues'
+    monthly-listeners: 'auditeurs mensuels'
+    streams: 'écoutes'
+    downloads: 'téléchargements'
+    circulation: 'diffusion'
+    monthly-visits: 'visites mensuelles'
+    installs: 'installations'
+    ratings-count: 'notes'
+  section_ledes:
+    web: 'Sites web, portails, forums, bibliothèques numériques, applications, jeux et appareils créés par des musulmans ou sur l''islam, en toute langue.'
+    music: 'Albums, chansons et artistes de nasheed, qawwali, naat, ilahi, inshad et toute chanson d''un musulman sur l''islam ou la religion, avec leurs distinctions et leur portée datée.'
+    film: 'Films, documentaires, courts métrages et dessins animés sur l''islam réalisés depuis 1976, issus de la salle de projection.'
+    tv: 'Séries, programmes et saisons de Ramadan sur l''islam depuis 1976, issus de la salle de projection.'
+    conferences: 'Conférences, conventions, sommets et ijtemas récurrents, avec leurs éditions.'
+    heritage: 'Mois et journées du patrimoine, festivals, commémorations et rassemblements.'
+    rights: 'Manifestations pour la défense de l''islam et contre l''islamophobie, et les incidents, lois, jugements et rapports auxquels elles répondent ; deux voix là où les vues diffèrent, sans verdict.'
+    books: 'Livres sur l''islam et d''écrivains musulmans depuis 1976, leurs éditeurs, librairies, foires et prix.'
+    upcoming: 'Ce qui est annoncé et pas encore fait : édifices en construction, films en production, conférences et compétitions programmées, livres et albums annoncés.'
+    figures: 'Les musulmans des cinquante dernières années par domaine : savants et prédicateurs, politique, diplomatie, finance, sciences, médecine, monde académique, enseignement, écriture, arts, médias et créateurs, militantisme, sport.'
+    organizations: 'Organisations musulmanes par pays, mondiales et virtuelles : conseils, œuvres caritatives, organismes étudiants et professionnels, da''wa, interreligieux, think tanks et communautés en ligne.'
+    media: 'Journaux, magazines, infolettres, sites d''information, chaînes de télévision, stations de radio, chaînes et podcasts sur l''islam et les musulmans.'
+    sports: 'Les musulmans dans le sport : athlètes, équipes, tournois, résultats et premières.'
+    awards: 'Récompenses, prix, médailles, classements et compétitions, dont les concours du Coran, avec leurs éditions et lauréats.'
+    achievements: 'Lauréats, premières et records : prix Nobel et autres lauréats, astronautes, premières olympiques, premiers titulaires de fonctions.'
+    enterprise: 'Tout type d''entreprise fondée ou détenue par des musulmans depuis 1976 : sociétés, industries, chaînes, épiceries, voyages, marques, mode, boutiques, cliniques, fonds et banques ; répertorié, pas approuvé.'
+    arts: 'Calligraphie, arts visuels, mode, humour, poésie, théâtre, expositions, musées et biennales.'
+    built: 'Mosquées, centres islamiques, musées et campus construits ou achevés depuis 1976, et les travaux des deux mosquées sacrées.'
+    learning: 'Universités, collèges, séminaires, académies en ligne, bourses, traductions et bibliothèques numériques.'
+  kinds:
+    website: 'Site web'
+    online-library: 'Bibliothèque numérique'
+    app: 'Application'
+    software: 'Logiciel'
+    platform: 'Plateforme'
+    game: 'Jeu'
+    device: 'Appareil'
+    album: 'Album'
+    song: 'Chanson'
+    composition: 'Composition'
+    film: 'Film'
+    short: 'Court métrage'
+    tv_film: 'Téléfilm'
+    documentary: 'Documentaire'
+    animation: 'Dessin animé'
+    series: 'Série'
+    miniseries: 'Minisérie'
+    programme: 'Programme'
+    web_series: 'Websérie'
+    documentary_series: 'Série documentaire'
+    children: 'Jeunesse'
+    episode: 'Épisode'
+    conference: 'Conférence'
+    congress: 'Congrès'
+    gathering: 'Rassemblement'
+    council: 'Conseil'
+    declaration: 'Déclaration'
+    heritage-month: 'Mois du patrimoine'
+    festival: 'Festival'
+    pilgrimage-season: 'Saison du pèlerinage'
+    protest: 'Manifestation'
+    attack: 'Attaque'
+    law-enacted: 'Loi'
+    court-ruling: 'Décision de justice'
+    persecution: 'Persécution'
+    report: 'Rapport'
+    law: 'Loi'
+    court-judgment: 'Jugement'
+    book: 'Livre'
+    publisher: 'Éditeur'
+    bookshop: 'Librairie'
+    record-label: 'Label'
+    production-company: 'Société de production'
+    newspaper: 'Journal'
+    magazine: 'Magazine'
+    newsletter: 'Infolettre'
+    media: 'Site d''information'
+    podcast: 'Podcast'
+    tv-channel: 'Chaîne de télévision'
+    radio-station: 'Station de radio'
+    channel: 'Chaîne'
+    team: 'Équipe'
+    band: 'Groupe'
+    tournament: 'Tournoi'
+    competition: 'Compétition'
+    award-ceremony: 'Cérémonie de remise de prix'
+    prize: 'Prix'
+    medal: 'Médaille'
+    certification: 'Certification'
+    ranking: 'Classement'
+    title: 'Titre'
+    scholarship: 'Bourse'
+    competition-prize: 'Prix de concours'
+    chart: 'Palmarès'
+    company: 'Société'
+    startup: 'Start-up'
+    conglomerate: 'Conglomérat'
+    manufacturer: 'Fabricant'
+    brand: 'Marque'
+    fashion: 'Mode'
+    chain: 'Chaîne'
+    grocery: 'Épicerie'
+    shop: 'Boutique'
+    restaurant: 'Restaurant'
+    food_product: 'Produit alimentaire'
+    travel: 'Voyage'
+    airline: 'Compagnie aérienne'
+    hotel: 'Hôtel'
+    product: 'Produit'
+    craft: 'Artisanat'
+    clinic: 'Clinique'
+    fund: 'Fonds'
+    bank: 'Banque'
+    standards-body: 'Organisme de normalisation'
+    certifier: 'Certificateur'
+    poem: 'Poème'
+    diwan: 'Diwan'
+    exhibition: 'Exposition'
+    museum: 'Musée'
+    mosque: 'Mosquée'
+    madrasa: 'Médersa'
+    library: 'Bibliothèque'
+    islamic-centre: 'Centre islamique'
+    university-campus: 'Campus universitaire'
+    university: 'Université'
+    seminary: 'Séminaire'
+    institution: 'Institution'
+    school: 'École'
+    curriculum: 'Programme scolaire'
+    organization: 'Organisation'
+    charity: 'Œuvre caritative'
+    relief-agency: 'Agence de secours'
+    foundation: 'Fondation'
+    student-association: 'Association étudiante'
+    'women''s-organisation': 'Organisation de femmes'
+    professional-association: 'Association professionnelle'
+    interfaith-body: 'Organisme interreligieux'
+    international-organisation: 'Organisation internationale'
+    community-organisation: 'Organisation communautaire'
+    mosque-association: 'Association de mosquée'
+    movement: 'Mouvement'
+    party: 'Parti'
+    think-tank: 'Think tank'
+    online-community: 'Communauté en ligne'
+    founding: 'Fondation'
+    launch: 'Lancement'
+    other: 'Autre'
+pressKinds:
+  news: 'Actualité'
+  feature: 'Reportage'
+  interview: 'Interview'
+  review: 'Critique'
+  obituary: 'Nécrologie'
+  investigation: 'Enquête'
+  opinion: 'Opinion'
+  profile: 'Portrait'
+  listing: 'Fiche'
+inventionDomains:
+  astronomy-instruments: Astronomie et ses instruments
+  mathematics: Mathématiques et calcul
+  medicine-surgery: Médecine et chirurgie
+  pharmacy-chemistry: Pharmacie, chimie et distillation
+  optics-physics: Optique et physique
+  mechanics-automata: Mécanique, automates et horloges
+  water-agriculture: Eau, irrigation et agriculture
+  navigation-geography: Navigation, cartographie et géographie
+  architecture-building: Architecture et techniques de construction
+  materials-industry: Matériaux et industrie
+  military: Technologie militaire
+  food-drink: Boisson, nourriture et la table
+  music-instruments: Musique et instruments
+  timekeeping: Mesure du temps
+  institutions-systems: Institutions et systèmes
+  everyday-life: Vie quotidienne
+  modern-science: Science moderne
+  modern-technology: Technologie moderne
+  modern-medicine: Médecine moderne et biotechnologie
+search:
+  searching: "Recherche en cours…"
+  canon_label: "Pierre angulaire du musée"
+  title: Recherche
+  placeholder: Rechercher dans le musée
+  needs_build: La recherche est temporairement indisponible. Réessayez dans quelques minutes.
+  filter_class: Classe
+  filter_wing: Aile
+  noscript: La recherche nécessite JavaScript. Vous pouvez toujours parcourir les ailes depuis la page d''accueil.
+  hint: 'Essayez, par exemple :'
+  zero_results: 'Aucun résultat pour « [SEARCH_TERM] ». Essayez un mot plus court ou vérifiez l''orthographe, ou essayez : La Mecque, prière, Andalousie.'
+  examples:
+  - Hijra
+  - Badr
+  - La Mecque
+  - Aïcha
+  - Coran
+wander:
+  title: Flâner
+  lede: Laissez le musée choisir. Chaque clic vous mène vers une entrée que vous n''avez pas demandée.
+  button: Emmenez-moi quelque part
+timeline:
+  title: Chronologie hégirienne
+  all_events_link: "Afficher tous les événements"
+  all_events_title: "Tous les événements datés"
+  all_events_lede: "Tous les événements datés de la chronologie hégirienne, dans l''ordre des dates."
+  legend: † Date hégirienne calculée depuis le grégorien — peut différer d''un jour ou deux de la date transmise
+  lede: Quatorze siècles sur un axe hégirien ; faites glisser le curseur, cliquez sur un point pour voir les événements de cette année, cliquez sur une époque pour zoomer. Le grégorien est une seconde lecture.
+  calendar: Calendrier
+  year: Année
+  events_in: événements en
+  before: avant l''axe
+  close: Fermer
+  all: Tous les siècles
+  playhead: Curseur d''année
+  note: Chaque point est une année hégirienne et son chiffre est le nombre d''événements. Les événements non datés n''y figurent pas ; ils restent dans la liste ci-dessous.
+journey:
+  title: Suivez le voyage jour par jour
+  station: Étape
+  of: sur
+  day: Jour
+  play: Lire
+  pause: Pause
+  stations: Étapes
+  all_stations: Toutes les étapes
+  distance: Distance
+  about: environ
+  km: km
+  companions: Compagnons
+  approx_place: position approximative sur la carte
+  schematic: 'Carte schématique : l''ordre des étapes est exact ; leurs positions sur le dessin sont illustratives.'
+  prev: Étape précédente
+  next: Étape suivante
+graph:
+  search_placeholder: "Un nom, par exemple Saladin"
+  suggestions: "Entrées correspondantes"
+  suggest_none: "Aucune entrée de ce nom dans le canon du musée. Vous pouvez aussi taper un identifiant, comme person/abu-bakr."
+  notfound: "« {q} » n''a pas pu être dessiné : aucune entrée de ce nom ou de cet identifiant n''a de liens enregistrés. Essayez un autre nom."
+  trail: "Centres visités"
+  filter_on: "Affichage seulement : {types}"
+  title: Explorateur de liens
+  lede: 'Personnes, événements et lieux dessinés en constellation : une entrée au centre, ce qui s''y relie directement autour, puis ce qui se relie à celles-ci. Cliquez
+    sur une étoile pour en faire le centre.'
+  from_label: Entrée au centre
+  go: Afficher
+  hint: 'Tapez un nom et choisissez dans la liste ; un identifiant comme person/abu-bakr fonctionne aussi.'
+  legend: Légende
+  neighbours: Liens
+  centre: Centre
+  open: Ouvrir la page
+  recentre: En faire le centre
+  close: Fermer la fiche
+  loading: Chargement…
+  failed: Cette entrée n''a pas pu être chargée. Essayez un autre identifiant.
+  hops: à deux pas
+  other: Autre
+  note: La constellation est limitée à deux pas et environ quarante entrées ; la liste à côté dit les mêmes liens en mots.
+  explore_link: Explorer les liens
+  cross: Afficher les liens entre voisins
+  filter: Afficher seulement
+  filter_hint: Cliquez sur un type pour n''afficher que lui ; cliquez sur d''autres types pour les ajouter.
+  all: Tout afficher
+  empty: Aucun lien du type choisi autour de cette entrée.
+revelation:
+  title: Révélation et histoire
+  lede: Lisez le Coran dans l''ordre où il fut révélé, à côté des événements. Chaque ligne est une sourate dans son ordre de révélation, avec les événements du musée
+    que la tradition lui relie.
+  order_revelation: Ordre de révélation
+  order_mushaf: Ordre du mushaf
+  order_label: Ordre
+  meccan: Mecquoise
+  medinan: Médinoise
+  order_n: Révélée {n}
+  mushaf_n: Mushaf {n}
+  verses: '{n} versets'
+  opening: Verset d''ouverture
+  paired: Révélée à propos de
+  transmitted: transmis
+  estimated: estimé
+  none: Aucun événement du musée n''est encore enregistré pour cette sourate ; le contexte est sa classification mecquoise ou médinoise.
+  source_note: L''ordre de révélation et la classification mecquoise/médinoise suivent l''édition du Caire (1924) telle que la porte Tanzil ; un ordre bien connu, pas
+    unanime. Le raffinement verset par verset viendra plus tard.
+  legend: 'Transmis : porté par les œuvres de sira et de tafsir citées sur le lien. Estimé : un lien que le musée a enregistré sans source encore.'
+surahmap:
+  title: Cartes des sourates
+  lede: 'Chaque sourate en carte interactive : ses stations et ses thèmes, verset par verset, du début à la fin.'
+  map_title: 'Carte de {name}'
+  map_lede: Un voyage interactif à travers {n} versets — du premier verset de la sourate au dernier.
+  hint: Faites glisser la poignée sur la piste pour voyager à travers les versets, cliquez sur n''importe quelle station de la carte — ou lancez un voyage automatique.
+  journey: Voyage automatique
+  stop: Arrêter
+  close_card: Fermer la fiche
+  prev: Précédent
+  next: Suivant
+  verse_n: Verset {n}
+  verses_of: '{a}–{b}'
+  meccan: Mecquoise
+  medinan: Médinoise
+  rev_order: Révélée {n}
+  mushaf_order: Mushaf {n}
+  family_faith: Foi
+  family_stories: Récits
+  family_law: Loi
+  row_map: Carte
+  zoom_in: 'Zoom avant'
+  zoom_out: 'Zoom arrière'
+  zoom_reset: 'Réinitialiser le zoom'
+reader:
+  title: Le Mushaf
+  lede: Le Coran intégral en lecture continue, sourate par sourate — depuis le texte gelé de Tanzil, chaque verset une porte vers sa page du musée.
+  index_note: Les sourates dans l''ordre du mushaf ; ouvrez-en une pour la lire en entier, et cliquez sur n''importe quel verset pour sa page du musée avec contexte et liens.
+  sura_n: Sourate {n}
+  read_title: Sourate {name} — lire
+  read_lede: Lisez {name} en entier, {n} versets dans le texte othmanien de Tanzil ; chaque verset mène à sa page du musée.
+  open_ayah: Page du musée du verset {ref}
+  map_link: La carte thématique de la sourate
+  revelation_link: Le Coran dans l''ordre de révélation
+  named_in: Nommé dans cette sourate
+  sura_nav: Entre les sourates
+  credit: 'Texte coranique : Tanzil Project v1.1 (écriture othmanienne), copié verbatim et gelé dans les données du musée ; source :'
+  credit_source: page source
+  translation_title: Traduction verset par verset
+  translation_credit: 'Traduction : {tr} ; domaine public, distribuée par le Tanzil Project.'
+  juz_nav: Les trente juz'' du mushaf
+  juz_n: Juz {n}
+  juz_starts: Le juz {n} commence à
+poetry:
+  title: L''Anthologie poétique
+  lede: Les poèmes et pièces de vers documentés au musée, rangés sous leurs poètes — chaque poème une page avec son occasion, son contexte et ses liens.
+  index_note: Les poèmes du musée jusqu''ici, attribués à leurs auteurs là où les données l''attestent ; ce qui n''a pas d''attribution attestée est rassemblé dans une
+    dernière section, sans deviner.
+  died: m.
+  unattributed: Poèmes pas encore attribués dans les données
+  verses_title: "Vers"
+  verses_note: "{n} vers de {p} poèmes, chacun avec la traduction propre au musée et sa page d''édition."
+  verses_jump: "Poèmes avec vers"
+  verses_by_poet: "Vers par poète"
+  verses_by_metre: "Vers par mètre"
+  verses_by_rhyme: "Vers par lettre de rime"
+  verse_ref: "Vers"
+  metre: "Mètre"
+  rhyme: "Lettre de rime"
+  verse_page: "Page du vers"
+hadith:
+  title: La Bibliothèque du hadith
+  lede: 'Les recueils de hadith du musée : parcourez chaque œuvre par livre et par récit, et de chaque récit vers sa page avec sa chaîne et ses liens.'
+  index_note: Chaque carte est une œuvre dont les récits sont vérifiés dans le musée ; la numérotation suit les éditions nommées sur la page de chaque récit.
+  reports: '{n} récits'
+  books: '{n} livres'
+  collection_title: '{name} — bibliothèque de hadith'
+  collection_lede: '{n} récits vérifiés de cette œuvre au musée.'
+  kitab_lede: '{n} récits dans ce livre de {name}.'
+  kitab_page: La page du livre au musée
+  no_reports: "Aucun récit de ce livre n''est encore au musée"
+  loose_title: "Non classé sous un livre"
+  loose_note: "Récits dont le texte n''a pas pu être rattaché à un récit numéroté de l''édition dont sont tirés les livres, et extraits classés par page imprimée. Ils font partie de la collection et attendent un livre."
+  on_sunnah: Parcourir ce recueil sur Sunnah.com
+  isnad: Chaîne de transmission
+  isnad_from: de
+cards:
+  title: Cartes du musée
+  lede: 'Cartes d''étude interactives : cartes de mots, listes, explications et récits.'
+  wordmaps: Cartes de mots
+  wordmaps_lede: Chaque carte générée automatiquement à partir du texte coranique (Tanzil) — formes, collocations, occurrences, aucune transcription manuelle.
+  more_soon: Bientôt
+  more_soon_lede: Listes, explications et récits — construits par phases.
+  generated_from: Généré depuis
+  occurrences: occurrences
+  collocations: Collocations
+  all_occurrences: Toutes les occurrences
+  close: Fermer
+  quiz_title: Testez-vous
+  quiz_start: 🎯 Testez-vous
+  quiz_next: Nouvelle question
+  lists: Listes
+  lists_lede: 'Cartes à retourner pour le matériau numéroté : clés, adhkar, noms, prophètes.'
+  all_decks: Tous les jeux
+  items: cartes
+  flip: Retourner la carte
+  tap_to_flip: Touchez pour retourner
+  prev: Précédente
+  next: Suivante
+  all_items: Tous les éléments
+  explainers: Explications
+  explainers_lede: 'Explications pas à pas : questions-réponses, arbres de décision, chronologies, comparaisons.'
+  all_explainers: Toutes les explications
+  stories: Récits
+  stories_lede: 'Récits coraniques en stations numérotées : faits, leçons, à retenir.'
+  all_stories: Tous les récits
+  stations: Stations
+  stations_count: stations
+  facts: Faits en bref
+  lessons: Leçons
+  challenge: Défi de 30 jours
+  challenge_lede: Douze habitudes sur trente jours — cochez chaque jour et suivez vos progrès.
+  reset: Réinitialiser
+  reset_confirm: Réinitialiser ? Cliquez encore pour confirmer
+  habit: Habitude
+  day: Jour
+  printable: Version imprimable
+  today: Carte du jour
+  restart: Recommencer
+  js_needed: Ce widget nécessite JavaScript pour être interactif.
+  widget_names:
+    stepper: Étapes
+    decision-tree: Arbre de décision
+    timeline: Chronologie
+    compare: Comparaison
+today:
+  title: Aujourd''hui
+  lede: Là où les calendriers islamique et grégorien se rencontrent.
+  gregorian: Grégorien
+  hijri: Hégirien
+  on_this_day: Ce jour-là au musée
+  none: Aucune entrée du musée n''est encore datée de ce jour.
+  note: Les entrées apparaissent ici quand elles ont une date à précision journalière. Les dates historiques suivent leurs sources.
+  in_hijri: Dans le calendrier hégirien
+  in_gregorian: Dans le calendrier grégorien
+  read_story: Lire le récit
+  random: Un autre événement au hasard
+  nearest: Jour le plus proche avec des événements
+  all_h: Tous les événements de ce jour hégirien
+  all_g: Tous les événements de ce jour grégorien
+  wing_note: 'Aussi dans cette aile : nations, institutions, données et les gens du présent.'
+  random_day: Un autre jour au hasard
+questions:
+  title: Questions
+  lede: Des réponses simples pour les nouveaux venus, avec leurs sources.
+  empty: Les premières questions sont en cours de rédaction. Elles apparaîtront ici.
+exhibits:
+  title: Expositions
+  lede: Visites, récits et parcours choisis dans la collection.
+  empty: Les premières expositions sont en préparation. Elles apparaîtront ici.
+coverage:
+  learn_title: Visite / Apprendre, en préparation
+  learn_text: Une nouvelle section de parcours d''apprentissage guidés. Les parcours prêts seront comptés ici à leur ouverture, et chacun listera les entrées qu''il lui
+    manque encore. Commencez par l''un des cinq parcours ouverts, ou parcourez les {learnPaths}.
+  learn_ready: Parcours prêts
+  learn_planned: Parcours prévus
+  title: Couverture
+  lede: Ce que le musée détient aujourd''hui, et ce qu''il veut encore. Les manques sont montrés, pas cachés.
+  entities: Entrées
+  wanted: Recherchées
+  by_class: Par classe
+  by_wing: "Par aile (entrées étiquetées avec l''aile, brouillons inclus)"
+  by_review: Par statut de relecture
+  prose: Textes par langue
+  sources_avg: Sources moyennes par entrée
+not_found:
+  title: Page introuvable
+  body: Cette page n''est pas au musée, du moins pas encore.
+  home: Retour à l''atrium
+footer:
+  open: Un projet ouvert en construction
+  social_title: Contact, médias et diffusion
+  github: Suivre le travail sur GitHub
+  licenses: Textes CC BY-SA 4.0 · Données CC0 · Code MIT
+  api: API de données
+  privacy: Pas de cookies. Pas de pistage. Pas de publicité.
+  about: À propos du musée
+  about_project: À propos du projet
+  editorial: Notre méthode éditoriale
+  faq: Questions fréquentes
+  interactive_tour: Visite interactive
+  resources: Ressources
+  open_data: Données ouvertes (JSON)
+  engineering: Ingénierie
+  contribute: Contribuer sur GitHub
+  follow: Suivre
+  news: Actualités du musée
+  contact: Contact
+  privacy_policy: Politique de confidentialité
+  disclaimer: Avertissement
+  backstage: Coulisses
+  accessibility: 'Accessibilité'
+  authenticity: Comment nous décidons quoi montrer
+  method: Méthode
+  no_tracking: Sans pistage ni publicité
+  changelog: Journal des modifications
+  report: Signaler une erreur ou proposer une correction
+  discuss: Discussions du projet
+  support: Soutenir le musée
+  browse_all: Parcourir les types
+roles:
+  prophet-figure: Prophète
+  family-of-the-prophet: Famille du Prophète
+  companion: Compagnon
+  successor: Successeur
+  scholar: Savant
+  jurist: Juriste
+  transmitter: Transmetteur
+  preacher: Prédicateur
+  saint: Saint (tel que vénéré)
+  reformer: Réformateur
+  revivalist: Rénovateur
+  founder: Fondateur
+  missionary: Missionnaire
+  ruler: Souverain
+  commander: Commandant
+  official: Fonctionnaire
+  tribal-leader: Chef tribal
+  notable: Notable
+  general: Général
+  politician: Homme/femme politique
+  caliph: Calife
+  agent: Agent
+  diplomat: Diplomate
+  astronomer: Astronome
+  vizier: Vizir
+  prophet: Prophète
+  statesman: Homme d''État
+  guide: Guide
+  wet-nurse: Nourrice
+  monk: Moine
+  envoy: Envoyé
+  patron: Protecteur
+  legislator: Législateur
+  colonial-administrator: Administrateur colonial
+  resistance-leader: Chef de résistance
+  opponent: Adversaire
+  military-opponent: Adversaire militaire
+  persecutor: Persécuteur
+  rival-claimant: Prétendant rival
+  rebel: Rebelle
+  protector: Protecteur
+  ally: Allié
+  host: Hôte
+  interlocutor: Interlocuteur
+  collaborator: Collaborateur
+  convert: Converti à l''islam
+  left-islam: A quitté l''islam
+  changed-sides: A changé de camp
+  critic: Critique
+  polemicist: Polémiste
+  apologist: Apologiste
+  orientalist-scholar: Orientaliste
+  historian: Historien
+  translator: Traducteur
+  traveller-observer: Voyageur et observateur
+  journalist: Journaliste
+  artist-on-islam: Artiste sur l''islam
+  scientist: Scientifique
+  physician: Médecin
+  philosopher: Philosophe
+  poet: Poète
+  artist: Artiste
+  architect: Architecte
+  traveller: Voyageur
+  merchant: Marchand
+  martyr: Martyr (tel que considéré)
+  victim: Victime
+  witness: Témoin
+faith:
+  sunni: Sunnite
+  arabian-polytheism: Polythéisme arabique
+  christian: Chrétien
+  jewish: Juif
+  zoroastrian: Zoroastrien
+  hanif: Hanif
+  other: Autre
+  unknown: Inconnu
+basis:
+  tradition: transmis
+  documented: documenté
+  debated: débattu
+  unknown: inconnu
+  self-identified: auto-identifié
+entrances:
+  title: Cinq portes d''entrée
+  learn:
+    title: Visite / Apprendre
+    blurb: Des parcours guidés, étape par étape, vers un but que vous choisissez. En préparation.
+    badge: En préparation
+  questions:
+    title: Questions
+    blurb: Des réponses simples pour les nouveaux venus.
+  exhibits:
+    title: Expositions
+    blurb: Visites et récits choisis.
+  screen:
+    title: Salle de projection
+    blurb: Films, séries et programmes sur l''islam, en toute langue.
+  themes:
+    title: Thèmes
+    blurb: Femmes, guerre, médecine, cuisine, charité et 120 autres, à travers toutes les ailes.
