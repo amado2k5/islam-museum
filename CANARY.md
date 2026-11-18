@@ -15,6 +15,7 @@ open a new block on top with the new version and today's date.
 
 ## v2.23.0 — 2026-11-17
 ### Added
+- **French topic lessons:** the ten lessons from Medina through Fatima al-Fihri now include French summaries, glossaries and practice questions with answer explanations. Other topic lessons are unchanged.
 - **French dataset rollout scope:** the kids, museum-card and education-support translations are based on the separate French tour/baseline-fixtures work. The large topic lessons and recursive education activities remain untranslated; this partial rollout does not claim full French coverage.
 - **French education support datasets:** age-band introductions, stamp names, seasonal packs, family activities, homework search phrases, location riddles and the approved leveled-reading record labels now include French. The large topic lessons and recursive education activities are not yet translated in this batch.
 - **French museum-card datasets:** all card decks, daily prompts, the thirty-day challenge and editorial word-map titles now include French. Verse-quoting fields use clearly signalled explanatory paraphrases, not newly typed scripture; references, verification notes and age-gating are retained.
