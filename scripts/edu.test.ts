@@ -14,7 +14,7 @@ if (!existsSync(".cache/graph.json")) {
 }
 
 const HONORIFIC = /(peace be upon him|\bpbuh\b|\(saw\)|ﷺ|صلى الله عليه|صلى اللّٰه عليه|عليه السلام|عليها السلام|رضي الله ع|رضي اللّٰه ع|رحمه الله|رحمها الله)/;
-const LANGS = ["ar", "en", "ur"] as const;
+const LANGS = ["ar", "en", "ur"] as const; // fr joins when its dataset fields land (french lane batch 1)
 const i18n = (l: string) => parse(readFileSync(`i18n/${l}.yaml`, "utf8"));
 const bands = () => parse(readFileSync("edu/bands.yaml", "utf8")).bands as any[];
 const stamps = () => parse(readFileSync("edu/stamps.yaml", "utf8")).stamps as any[];
@@ -214,7 +214,7 @@ describe("education: leveled reading (E2 step 2)", () => {
   const levels = () => parse(readFileSync("edu/levels.yaml", "utf8")).levels as any[];
   const proseOf = (id: string, lang: string, body: string) => ({ id, lang, file: `content/${lang}/${id}.md`, frontmatter: { id, lang }, body });
   const ent = (id: string, education?: any) => ({ entity: { id, class: id.split("/")[0], label: { ar: "x" }, summary: { ar: "x" }, status: { review: "draft" }, ...(education ? { education } : {}) }, file: `data/${id}.yaml` });
-  const H = { ar: ["للبراعم", "للمستكشفين", "للدارسين"], en: ["For Sprouts", "For Explorers", "For Scholars"], ur: ["کونپلوں کے لیے", "مہم جوؤں کے لیے", "طالبِ علم کے لیے"] } as const;
+  const H = { ar: ["للبراعم", "للمستكشفين", "للدارسين"], en: ["For Sprouts", "For Explorers", "For Scholars"], ur: ["کونپلوں کے لیے", "مہم جوؤں کے لیے", "طالبِ علم کے لیے"], fr: ["Pour les Petits", "Pour les Explorateurs", "Pour les Chercheurs"] } as const;
   const full = (id: string, texts: Record<string, [string, string, string]>) => Object.entries(texts).map(([l, t]) => proseOf(id, l, `## x\nbody\n\n## ${H[l as "ar"][0]}\n${t[0]}\n\n## ${H[l as "ar"][1]}\n${t[1]}\n\n## ${H[l as "ar"][2]}\n${t[2]}\n`));
   const ok = { ar: ["نص قصير.", "نص أطول قليلًا.", "نص للدارسين."], en: ["Short.", "A bit longer.", "For scholars."], ur: ["مختصر۔", "تھوڑا لمبا۔", "طالبِ علم کے لیے۔"] } as Record<string, [string, string, string]>;
 

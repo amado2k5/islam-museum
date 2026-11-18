@@ -141,7 +141,7 @@ o.note(f"texts that are a byte copy of another language's text: {len(copies)}")
 o.check("LANGUAGE no text is a copy of another language passed off as a translation", not copies, " | ".join(copies[:6]) + (f" (+{len(copies) - 6} more)" if len(copies) > 6 else ""))
 o.check("LANGUAGE Arabic is present on every label, summary and connection", not no_ar, " | ".join(no_ar[:6]))
 if strict:
-    miss = [f"{i.split('/')[1]} {path}: no {l}" for i, d in recs.items() for path, loc in localized({k: d.get(k) for k in ("label", "summary", "subject_name", "expectations", "connections")}) for l in ("ar", "en", "ur") if l not in loc]
+    miss = [f"{i.split('/')[1]} {path}: no {l}" for i, d in recs.items() for path, loc in localized({k: d.get(k) for k in ("label", "summary", "subject_name", "expectations", "connections")}) for l in ("ar", "en", "ur", "fr") if l not in loc]
     o.check("LANGUAGE (strict) every text is present in Arabic, English and Urdu", not miss, " | ".join(miss[:6]) + (f" (+{len(miss) - 6} more)" if len(miss) > 6 else ""))
 untr = sum(1 for i in lessons for e in recs[i].get("expectations", []) if "ar" not in (e.get("text") or {}))
 o.note(f"lesson expectation texts with no Arabic yet (shown in the official language, labelled): {untr}")
@@ -186,7 +186,7 @@ if strict:
 # ---- PROSE
 pbad = []
 for i, d in recs.items():
-    for l in (("ar", "en", "ur") if strict else ("ar", "en")):
+    for l in (("ar", "en", "ur", "fr") if strict else ("ar", "en")):
         f = os.path.join(ROOT, "content", l, i + ".md")
         if not os.path.exists(f):
             pbad.append(f"{l}/{i.split('/')[1]}: missing")

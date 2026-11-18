@@ -8,7 +8,7 @@ import { existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSy
 import { CLASSES, listFiles, p, rel } from "../lib.js";
 
 const META = new Set(["source", "media", "listing", "dataset", "language"]);
-const LANGS = ["ar", "en", "ur"] as const;
+const LANGS = ["ar", "en", "ur", "fr"] as const;
 const THIN = 800;
 const TOP_ROWS = 200; // rows shown in the index file per class; the per-class files hold the full queue
 

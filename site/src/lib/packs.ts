@@ -9,7 +9,7 @@ import type { Tri } from "./edu";
 export interface PackItem { title: Tri; href: string; sheets: number }
 export interface Pack { id: string; title: Tri; when: Tri; lede: Tri; kit: PackItem[] }
 
-const pick = (t: Tri, lang: Lang): string => t[lang] ?? t.ar;
+const pick = (t: Tri, lang: Lang): string => t[lang] ?? t.en ?? t.ar;
 
 let cache: Pack[] | null = null;
 export function loadPacks(): Pack[] {

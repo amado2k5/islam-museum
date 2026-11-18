@@ -133,7 +133,7 @@ if src and (ROOT / f"data/{src}.yaml").exists():
     src_label = s.get("label") or {}
 first = {"ar": "في «{x}»", "en": "In {x}", "ur": "«{x}» میں"}
 prose_changes = {}
-for lang in ("ar", "en", "ur"):
+for lang in ("ar", "en", "ur", "fr"):
     dprose = ROOT / f"content/{lang}/{did}.md"
     if not dprose.exists(): continue
     body = dprose.read_text(encoding="utf8").split("---\n", 2)[2].strip()
@@ -165,5 +165,5 @@ if apply:
     for f in repoint:
         p = ROOT / f; s = p.read_text(encoding="utf8")
         p.write_text(re.sub(rf"{re.escape(did)}(?![a-z0-9-])", cid, s), encoding="utf8")
-    rm = [f"data/{did}.yaml"] + [f"content/{l}/{did}.md" for l in ("ar", "en", "ur") if (ROOT / f"content/{l}/{did}.md").exists()]
+    rm = [f"data/{did}.yaml"] + [f"content/{l}/{did}.md" for l in ("ar", "en", "ur", "fr") if (ROOT / f"content/{l}/{did}.md").exists()]
     subprocess.check_call(["git", "rm", "-q", "-f"] + rm, cwd=ROOT)

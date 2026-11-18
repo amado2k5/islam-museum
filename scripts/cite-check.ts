@@ -43,7 +43,7 @@ export function checkRecord(id: string): RecordReport {
   add("provenance-recorded", provMissing.length === 0, provMissing.length ? `provenance missing: ${provMissing.join(", ")}` : "provenance records source and generated_by");
 
   const citeSlugs = new Set<string>();
-  for (const lang of ["ar", "en", "ur"]) {
+  for (const lang of ["ar", "en", "ur", "fr"]) {
     const f = p("content", lang, `${id}.md`);
     if (existsSync(f)) for (const s of extractCiteSlugs(readFileSync(f, "utf8"))) citeSlugs.add(s);
   }

@@ -289,8 +289,8 @@ jobs:
           # Founder rule (28 Oct 2026): data, content, maps, images and video are served from R2, not from static assets.
           rm -rf dist-assets && mkdir dist-assets
           rsync -a \
-            --exclude=/ar --exclude=/en --exclude=/ur --exclude=/api \
-            --exclude=/pagefind-ar --exclude=/pagefind-en --exclude=/pagefind-ur \
+            --exclude=/ar --exclude=/en --exclude=/ur --exclude=/fr --exclude=/api \
+            --exclude=/pagefind-ar --exclude=/pagefind-en --exclude=/pagefind-ur --exclude=/pagefind-fr \
             --exclude=/media --exclude=/edu --exclude=/timeline-data --exclude=/gift-shop --exclude=/brand --exclude=/openapi \
             --exclude='/sitemap*.xml' --exclude=/feed.xml --exclude='/llms*.txt' --exclude='/search-synonyms.*.json' \
             --exclude='/favicon*' --exclude=/apple-touch-icon.png --exclude=/.well-known/api-catalog \
@@ -347,7 +347,7 @@ jobs:
           echo "### Smoke test: $SITE_URL" >> "$GITHUB_STEP_SUMMARY"
           echo >> "$GITHUB_STEP_SUMMARY"
           bad=0
-          for p in / /ar/ /en/ /ur/ /ar/person/muhammad/ /brand/logo-mark.svg /api/v1/meta/deploy.json /robots.txt; do
+          for p in / /ar/ /en/ /ur/ /fr/ /ar/person/muhammad/ /brand/logo-mark.svg /api/v1/meta/deploy.json /robots.txt; do
             code=$(curl -s -o /dev/null -L -w '%{http_code}' --max-time 30 "$SITE_URL$p" || echo "000")
             echo "- \`$p\` → $code" >> "$GITHUB_STEP_SUMMARY"
             [ "$code" = "200" ] || bad=$((bad + 1))
