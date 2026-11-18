@@ -1,5 +1,12 @@
 # french lane — progress
 
+## 2026-11-18 — building corpus packet 8 (Devin)
+
+- Run `fr-corpus-building-8`: 25 English-to-French prose translations, `imam-ali-shrine` → `kahf-jibril-qasyun` (including `kaaba`), with French labels and summaries; YAML layout preserved.
+- `check-packet: PASS (25 entities, 50 files, 0 error(s), 22 warning(s), 0.2s)`. Inherited status/provenance warnings only. Targeted queue/packet tests: 15 passed. Citation sequences, wiki-link IDs, needs_source markers, section counts and heading distinctions checked; removing French fields restores original parsed data.
+- Inherited-defect fixes: none. Left out: `building/bibi-maryam-complex-narayanganj` — inherited missing Urdu page. Frozen-hook blocked list: empty. No Urdu edits.
+- Retained total: 199. Next record: `building/kalan-masjid-delhi`. Label-only work not started. Commit 2 of 4 since last plain push; base updates by merge only.
+
 ## 2026-11-18 — building corpus packet 7 (Devin)
 
 - Run `fr-corpus-building-7`: original records 151–175, `great-mosque-of-kufa` → `ibrahim-pasha-palace`; 25 English-to-French prose translations and French labels/summaries, preserving YAML layout.
