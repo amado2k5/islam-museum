@@ -50,6 +50,14 @@ Order of work:
 4. Records with reading-level sections (`## For Sprouts` and its siblings): held for a separate pass, because `scripts/validate.ts` caps those sections at 80, 160 and 300 words in every language that has a registered heading and Spanish runs longer than English.
 5. Datasets (`edu/`, `kids/`, `tour/`, `cards/`) and `label.es`/`summary.es` on `data/`: **held until the French lane has added its own keys to the same lines**, so that Spanish appends after French instead of conflicting on every record.
 
+**Making `release/spanish` deployable to UAT (founder instruction in chat, 18 Nov 2026).** The founder wants to deploy `release/spanish` to UAT at any time, without waiting for the translation to finish, and wants every batch merged as it lands. `deploy-uat.yml` deploys the latest successful run of `build.yml` on the chosen `source_branch`, and every run of `build.yml` on `release/spanish` had ended without success: its test job failed on the French assertions and its build stopped at a French kids' reader page. Changed here, in shared code and tests only (no French content file):
+- `site/src/lib/entity.ts`: `hasKidsRead(n, lang)` — the kids' reader page exists for a record in a language only when its prose in that language has the Explorers section under that language's own heading. The reader's `getStaticPaths`, `ReadShelf`, `WorldMap` and the entity page's link to the reader all use it, so `/fr/sighar/read/…` and `/es/sighar/read/…` are neither built nor linked until the translation and the headings exist. For ar, en and ur nothing changes (the validator guarantees the section).
+- Tests: `pipeline.test.ts`, `tour.test.ts` and `modern.test.ts` asserted French prose, French tour fields and a four-language Wikipedia fixture that do not exist; they assert the published set again. `npm test`: 46 files, 634 of 634 pass.
+- From now on each packet is merged into `release/spanish` as soon as it is checked.
+Still to confirm: a green run of `build.yml` on `release/spanish` (the full build, all records in five languages, has never been run; only the sample build has).
+
+Wave 8 (in progress, one agent at a time): the remaining 229 `object` and `building` records, about 72,000 words, eight packets. Packets 1 to 4 landed (113 files); `content/es/` holds 1,525 files.
+
 Wave 7 landed (same day, one agent at a time): 679 short records of the `object` and `building` classes (about 46,000 English words), in eight packets run in sequence. All 679 pass the packet check. `content/es/` now holds **1,412 files** (`es-queue.ts stats`: `prose: 1412/34836`), about 679,000 English words of the 11.2 million (roughly 6 %). `npm run validate`: exit 0, "validated 81027 entities, 106100 prose files: 0 errors, 5343 warnings"; extremism 0 errors. 231 eligible `object` and `building` records remain (the longer ones).
 
 Method change for short records, from packet 2 of wave 7: the agent reads one bundled file of its English sources and writes the Spanish back in a few bundled parts, which `split.py` cuts into the individual files before the same packet check runs. Packet 1, written one file per tool call, took 94 tool calls and about five minutes; the bundled packets took 8 to 12 tool calls and about three minutes each for the same 85 records. Corrected by the lead agent: three Arabic names respelled in Spanish fashion (`zanŷ`, `Burŷ`, `al-Mujtara`) were put back to the English transliteration.
@@ -98,7 +106,7 @@ Terms a Spanish-speaking reader should review in the prose: `anticalifa`, `los S
 
 ## Explicit gaps
 
-- `content/es/`: 1,412 files of about 34,800 (waves 1 to 7 above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
+- `content/es/`: 1,525 files of about 34,800 (waves 1 to 8 so far, above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
 - `data/*.yaml`: no `label.es` / `summary.es`.
 - Datasets (`edu/`, `kids/`, `tour/`, `cards/`): no `es` fields; the strict loaders still require only ar, en and ur.
 - Spanish Qur'an translation for passage pages: no source chosen or registered (`scripts/harvest/quran/translations.py` takes English and Urdu only). The translation and its licence are pending the founder's confirmation.

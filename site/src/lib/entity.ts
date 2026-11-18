@@ -32,6 +32,14 @@ export interface Level { id: string; band: string; child: boolean; max_words: nu
 export const levels: Level[] = parse(readFileSync(repoPath("edu", "levels.yaml"), "utf8")).levels;
 if (levels.length !== 3) throw new Error(`edu/levels.yaml: expected 3 levels, found ${levels.length}`);
 export const levelOf = (heading: string, lang: string): Level | null => levels.find((l) => l.heading[lang] === heading) ?? null;
+/**
+ * True when the kids' reader page /{lang}/sighar/read/… exists for this record: it is flagged for kids and its prose in
+ * that language carries the Explorers section under that language's own heading. The validator guarantees the section
+ * in the published languages; a language whose translation or headings have not landed yet (French, Spanish) simply has
+ * no reader page for the record, and nothing links to one.
+ */
+export const hasKidsRead = (n: { data: any; prose: Record<string, { sections: { heading: string }[] } | undefined> }, lang: string): boolean =>
+  !!n.data?.education?.flagged_for_kids && !!n.prose[lang]?.sections.some((x) => levelOf(x.heading, lang)?.id === "explorers");
 /** Child-level markdown for the kids' chrome: links become plain labels (bridge cards are the only doors out), citations go. */
 export function plainChildMarkdown(md: string, lang: Lang): string {
   return stripNeedsSource(md
