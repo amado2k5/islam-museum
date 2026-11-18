@@ -124,7 +124,8 @@ jobs:
       - name: Install
         run: npm ci && npm ci --prefix site
       # The build of 18 November 2026 on release/spanish (run 44362983867) ended with "the hosted runner lost
-      # communication" two hours in and left no log, so nobody could tell whether memory or disk ran out. The step
+      # communication": its log stops in the middle of writing pages, about 462,000 pages in, with no error and no
+      # reading of memory or disk, so nobody could tell which one ran out. The step
       # below therefore prints the runner's free disk and memory before the build and every five minutes while it
       # runs, as lines in its own output and as warnings once either is nearly gone, so the last reading before a runner dies shows which one was running
       # out. The reporter only reads, and it is stopped when the build ends, whatever the result.
