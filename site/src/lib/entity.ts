@@ -16,9 +16,9 @@ export const regionLabel = (id: string, lang: Lang) => { const l = regions.find(
 export const externalUrl = (key: string, id: string) => idPatterns[key]?.url.replace("{id}", id);
 
 /** Section role by heading (so the depth dial works in every language). */
-const KIDS = ["For young visitors", "للزوار الصغار", "Pour les jeunes visiteurs"];
-const SCHOLARS = ["Notes for scholars", "ملاحظات للباحثين", "Notes pour les chercheurs"];
-const BRIEF = ["Brief", "نبذة", "En bref"];
+const KIDS = ["For young visitors", "للزوار الصغار", "Pour les jeunes visiteurs", "Pour les Petits"];
+const SCHOLARS = ["Notes for scholars", "ملاحظات للباحثين", "Notes pour les chercheurs", "Pour les Chercheurs"];
+const BRIEF = ["Brief", "نبذة", "En bref", "Résumé"];
 export const sectionRole = (h: string): "brief" | "main" | "kids" | "scholars" =>
   BRIEF.includes(h) ? "brief" : KIDS.includes(h) ? "kids" : SCHOLARS.includes(h) ? "scholars" : "main";
 
