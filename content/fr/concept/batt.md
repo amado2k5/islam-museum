@@ -16,7 +16,7 @@ Une espèce d’oiseau {cite:canon-ibn-sina-print-v1 p.402}.
 Plus chaud que tous les oiseaux domestiques. Certains disent qu’il réchauffe les tempéraments froids et donne la fièvre aux chauds {cite:canon-ibn-sina-print-v1 p.402}.
 
 ## Usages par organe
-Actions : sa graisse serait excellente contre la douleur et les brûlures profondes du corps, la meilleure graisse d’oiseau ; sa chair produit des vents et son gésier est très nourrissant {cite:canon-ibn-sina-print-v1 p.402}.
+Actions : sa graisse serait excellente pour calmer la douleur et les sensations de brûlure profondes du corps, la meilleure graisse d’oiseau ; sa chair produit des vents et son gésier est très nourrissant {cite:canon-ibn-sina-print-v1 p.402}.
 
 Parure : sa graisse éclaircirait le teint ; sa chair engraisse {cite:canon-ibn-sina-print-v1 p.402}.
 
