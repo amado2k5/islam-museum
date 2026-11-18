@@ -29,26 +29,26 @@ once, not on the audit date), **UNVERIFIED** (the auditor could not find the evi
 
 ## 1. The measured state
 
-Measured at `8d478cd72 2026-11-15` by `python3 scripts/report/claims_audit.py`. Counts are pattern matches over `data/`.
+Measured at `edefc9b937 2026-11-18` by `python3 scripts/report/claims_audit.py`. Counts are pattern matches over `data/`.
 
 | Measure | Count | Share |
 |---|---|---|
-| Record files under `data/` (content + source) | 63,629 | |
-| Source (bibliography) records | 9,469 | 14.9% of all |
-| ... of type book, chapter, manuscript or thesis | 744 | 7.9% of sources |
-| ... Wikipedia or Wikidata pages | 7,030 | 74.2% of sources |
-| Content records (everything but sources) | 54,160 | |
-| Content records in review state `draft` | 44,276 | 81.8% |
-| Content records in review state `published` | 9,882 | 18.2% |
-| Content records in any other review state, or none | 2 | 0.0% |
-| Content records whose `generated_by` is AI-named | 47,781 | 88.2% |
-| Content records whose `generated_by` is script-made | 6,377 | 11.8% |
-| Content records whose `generated_by` is no tag | 2 | 0.0% |
-| `published` content records whose `generated_by` is AI-named | 9,882 | 100.0% of published |
-| Grounding: cites at least one book source | 29,574 | 54.6% |
-| Grounding: preliminary card (sources not yet checked on the page) | 11,264 | 20.8% |
-| Grounding: other sources only (text editions online, datasets, websites, catalogues) | 9,104 | 16.8% |
-| Grounding: Wikipedia or Wikidata only | 4,196 | 7.7% |
+| Record files under `data/` (content + source) | 81,556 | |
+| Source (bibliography) records | 11,091 | 13.6% of all |
+| ... of type book, chapter, manuscript or thesis | 805 | 7.3% of sources |
+| ... Wikipedia or Wikidata pages | 7,559 | 68.2% of sources |
+| Content records (everything but sources) | 70,465 | |
+| Content records in review state `draft` | 56,327 | 79.9% |
+| Content records in review state `published` | 14,047 | 19.9% |
+| Content records in any other review state, or none | 91 | 0.1% |
+| Content records whose `generated_by` is AI-named | 63,997 | 90.8% |
+| Content records whose `generated_by` is script-made | 6,377 | 9.0% |
+| Content records whose `generated_by` is no tag | 91 | 0.1% |
+| `published` content records whose `generated_by` is AI-named | 14,047 | 100.0% of published |
+| Grounding: cites at least one book source | 43,821 | 62.2% |
+| Grounding: preliminary card (sources not yet checked on the page) | 11,256 | 16.0% |
+| Grounding: other sources only (text editions online, datasets, websites, catalogues) | 11,089 | 15.7% |
+| Grounding: Wikipedia or Wikidata only | 4,277 | 6.1% |
 | Grounding: no source record cited | 22 | 0.0% |
 | Grand Tour stops (`tour/grand-tour.yaml`) | 40 | |
 | Grand Tour languages (`TOUR_LANGS`) | ar, en | |
@@ -56,27 +56,28 @@ Measured at `8d478cd72 2026-11-15` by `python3 scripts/report/claims_audit.py`. 
 
 | Content records by class | Count |
 |---|---|
-| passage | 16,908 |
-| person | 11,642 |
-| building | 5,793 |
-| event | 5,556 |
+| passage | 29,400 |
+| person | 12,116 |
+| building | 5,794 |
+| event | 5,660 |
+| concept | 4,860 |
+| work | 3,959 |
 | place | 3,958 |
-| concept | 3,764 |
-| work | 2,400 |
-| media | 723 |
+| media | 895 |
 | course | 645 |
-| object | 546 |
-| group | 501 |
-| question | 320 |
+| object | 550 |
+| group | 538 |
+| question | 327 |
+| exhibit | 318 |
 | screen | 315 |
-| exhibit | 312 |
 | polity | 233 |
+| job | 209 |
+| invention | 200 |
 | listing | 172 |
-| invention | 117 |
-| practice | 100 |
-| journey | 50 |
+| practice | 171 |
+| journey | 51 |
 | award | 33 |
-| job | 28 |
+| sport | 17 |
 | dataset | 16 |
 | language | 15 |
 | period | 13 |
@@ -241,3 +242,4 @@ Append a dated line for every re-run, correction or closed row. Never rewrite an
 - 2026-11-15: first edition, measured at `8d478cd72` (Claude, `claude-fable-5-2`, at the founder's request).
 - 2026-11-15, second pass: script re-run at `034002e2da` (63,773 record files; 54,278 content records, 81.8% draft and 18.2% published; 11,264 preliminary cards; live `entities` 63,078, unchanged). Rows 11 and 13 of section 2 updated in place from the founder's correspondence, read with his permission. Rows R11 to R19 added to section 3 from the UNESCO–Sharjah review; the evidence and the proposed wording are in `docs/outreach/unesco-2027/`. Sections 1 and 4 not rewritten: no figure moved by more than the day's growth. None of the new rows is fixed (Claude, `claude-fable-5-2`, in a Claude Code session, at the founder's request).
 - 2026-11-15, third pass: script re-run at `63475724ce` (64,374 record files; 54,823 content records, of which 44,469 draft and 10,354 published once the two records of row R20 are counted; 48,446 AI-named and 6,377 script-made; 11,260 preliminary cards, 20.5%; 55.1% cite a book; live `entities` 63,078, unchanged; API build stamp 14 November 2026, 23:02 Toronto). Row R20 added. The home page's page count was traced to its definition in `site/src/lib/numbers.ts`: (63,078 records + 1,866 stubs) × 3 languages = 194,832. Its two pathway figures were traced as well: 300 `exhibit/path-*` records and 12 curriculum lessons; the "298" in the UNESCO package was a count of one record kind and is corrected there. The Support page's CA$730 sentence and the fifteen letters of 2 November to critics were checked first-hand and stand. The Executive Board's approval of the Prize's Statutes (224 EX/Decision 9.II) was read; that item is no longer unverified. Sections 1 and 4 not rewritten. Detail in `docs/outreach/unesco-2027/claims-corrections.md`, section F (Claude, `claude-fable-5-2`, in a Claude Code session, at the founder's request).
+- 2026-11-18: section 1 measure and by-class tables re-measured with `python3 scripts/report/claims_audit.py` after the Ulama Browser 210-book batches (categories 1–11): drafts 79.9% of content records (the "four in five" line in section 4 still holds), published 19.9%, Wikipedia or Wikidata pages 68.2% of sources. The prose figures in section 1 (15 November) are not re-measured here. (Devin, run ulama-books210-cat11a)
