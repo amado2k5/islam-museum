@@ -43,6 +43,7 @@ open a new block on top with the new version and today's date.
 
 ### Changed
 - The virtual tour now includes French exhibit labels, gallery descriptions and journey narration.
+- The public-claims ledger records the French release’s bibliography counts after registering Kazimirski, separately from live-site figures.
 ### Fixed
 - **ﷺ now appears only for Prophet Muhammad, in Arabic, English and Urdu.** The page renderer used to add it to the first «النبي» / "the Prophet" / «رسول اللہ» of every article, so «معركة النبي صموئيل», "the Prophet Daniel", «عيسى رسول الله» and a bare «النبي» on another prophet's own page carried Muhammad's mark (about fifty such marks across the site, found by rendering every article before and after). A title with another prophet named beside it is now left unmarked; the rule for new content is in `AGENTS.md`, and `npm run validate` checks that source texts keep ﷺ only beside Muhammad.
 ### Tests
