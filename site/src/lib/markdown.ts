@@ -50,11 +50,13 @@ const HON_PATTERNS: Record<Lang, RegExp> = {
   ar: /(?<![\u0621-\u064A])(رسول الله|النبي)(?![\u0621-\u064A])/g,
   en: /(?<![A-Za-z])(the Messenger of God|Prophet Muhammad|the Prophet)(?![A-Za-z])/g,
   ur: /(?<![\u0621-\u06D3])(رسول اللہ|نبی کریم)(?![\u0621-\u06D3])/g,
+  fr: /(?<![A-Za-zÀ-ÿ])(le Messager de Dieu|le Prophète Muhammad|le Prophète|l'Envoyé de Dieu)(?![A-Za-zÀ-ÿ])/g,
 };
 const COMPANION_SUFFIX: Record<Lang, { m: string; f: string }> = {
   ar: { m: "رضي الله عنه", f: "رضي الله عنها" },
   ur: { m: "رضی اللہ عنہ", f: "رضی اللہ عنہا" },
   en: { m: "(may God be pleased with him)", f: "(may God be pleased with her)" },
+  fr: { m: "(que Dieu soit satisfait de lui)", f: "(que Dieu soit satisfait d'elle)" },
 };
 const companionCache = new Map<Lang, { name: string; suffix: string }[]>();
 function companionsFor(lang: Lang) {

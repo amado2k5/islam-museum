@@ -129,7 +129,7 @@ export const kindLabel = (kind: string | undefined, lang: Lang): string => {
   return T.modern?.kinds?.[kind] ?? T.inventions?.kinds?.[kind] ?? kind.replace(/[-_]/g, " ");
 };
 const displayNames = (lang: Lang, type: "region" | "language") => {
-  try { return new Intl.DisplayNames([lang === "ar" ? "ar" : lang === "ur" ? "ur" : "en"], { type }); } catch { return undefined; }
+  try { return new Intl.DisplayNames([lang === "ar" ? "ar" : lang === "ur" ? "ur" : lang === "fr" ? "fr" : "en"], { type }); } catch { return undefined; }
 };
 export const countryName = (cc: string, lang: Lang): string => { try { return displayNames(lang, "region")?.of(cc.toUpperCase()) ?? cc.toUpperCase(); } catch { return cc.toUpperCase(); } };
 export const languageName = (code: string, lang: Lang): string => { try { return displayNames(lang, "language")?.of(code) ?? code; } catch { return code; } };

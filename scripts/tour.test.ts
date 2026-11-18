@@ -86,7 +86,7 @@ describe("3d tour: exhibits.yaml", () => {
       for (const src of e.sources) expect(existsSync(`data/${src}.yaml`), `${e.id}: ${src} exists`).toBe(true);
       for (const k of ["label", "desc", "material", "museum"]) {
         if (k !== "label" && k !== "desc" && e[k] === undefined) continue;
-        for (const l of ["ar", "en", "ur"]) expect(nonempty(e[k]?.[l]), `${e.id}.${k}.${l}`).toBe(true);
+        for (const l of ["ar", "en", "ur", "fr"]) expect(nonempty(e[k]?.[l]), `${e.id}.${k}.${l}`).toBe(true);
       }
       const text = JSON.stringify(e);
       expect(HONORIFIC.test(text), `${e.id} typed honorific`).toBe(false);
@@ -97,7 +97,7 @@ describe("3d tour: exhibits.yaml", () => {
   it("loadExhibits / viewExhibits select the page language", async () => {
     const { loadExhibits, viewExhibits } = await import("../site/src/lib/tour");
     const all = loadExhibits();
-    for (const lang of ["ar", "en", "ur"] as const) {
+    for (const lang of ["ar", "en", "ur", "fr"] as const) {
       for (const v of viewExhibits(all, lang)) expect(nonempty(v.label) && nonempty(v.desc), `${lang} ${v.id}`).toBe(true);
     }
     expect(viewExhibits(all, "ur")[0].label).not.toBe(viewExhibits(all, "ar")[0].label);
@@ -323,7 +323,7 @@ describe("3d tour: halls.yaml", () => {
         expect(s.sources, `${where} sources match the record`).toEqual(rec.sources);
         if (s.art) expect(art.has(s.art), `${where} art`).toBe(true);
         if (cls === "person") expect(s.art, `${where}: no illustration for a person`).toBeUndefined();
-        for (const l of ["ar", "en", "ur"]) {
+        for (const l of ["ar", "en", "ur", "fr"]) {
           expect(s.label[l], `${where} label.${l}`).toBeTruthy();
           expect(s.desc[l], `${where} desc.${l}`).toBeTruthy();
         }

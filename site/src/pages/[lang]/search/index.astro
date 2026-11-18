@@ -38,7 +38,7 @@ const pagefindBase = (import.meta.env.PUBLIC_PAGEFIND_BASE ?? "").replace(/\/$/,
           // is typed are fetched, a few KB, instead of the whole map (2 MB compressed for Arabic) on every visit. An input event whose shards
           // have not arrived is held back from Pagefind until they have, so every search runs with the complete map.
           var shardOf = function (k) { var h = 2166136261; for (var i = 0; i < k.length; i++) { h ^= k.charCodeAt(i); h = Math.imul(h, 16777619); } return ((h >>> 0) % 256).toString(16).padStart(2, "0"); };
-          var synLang = lang === "en" ? "en" : "ar";
+          var synLang = lang === "en" || lang === "fr" ? "en" : "ar";
           var shards = {};
           var need = function (term) { var ks = [norm(term)].concat(term.split(/\s+/).map(norm)).map(shardOf); return ks.filter(function (k, i) { return ks.indexOf(k) === i; }); };
           var load = function (k) {

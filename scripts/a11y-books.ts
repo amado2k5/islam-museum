@@ -15,7 +15,7 @@ import { p } from "./lib";
 import { epubModified, nodeDays, nodeIdOfSegment } from "./epub-meta";
 
 const DIST = p("dist");
-const LANGS = ["ar", "en", "ur"] as const;
+const LANGS = ["ar", "en", "ur", "fr"] as const;
 const BRL_TABLE: Record<string, string> = {
   ar: "/tables/ar-ar-g1.utb", // liblouis has no Arabic contracted table
   en: "/tables/en-ueb-g2.ctb",
@@ -210,7 +210,7 @@ for (const lang of LANGS) {
 }
 
 let made = 0, skipped = 0;
-const indexLinks: Record<string, { slug: string; title: string }[]> = { ar: [], en: [], ur: [] };
+const indexLinks: Record<string, { slug: string; title: string }[]> = { ar: [], en: [], ur: [], fr: [] };
 for (const lang of LANGS) {
   for (const c of corpus) {
     if (!c.dir.includes(`/${lang}/`)) continue;

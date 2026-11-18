@@ -71,7 +71,7 @@ export function viewJourneys(journeys: Journey[], lang: Lang): JourneyView[] {
   }));
 }
 
-export interface Trilingual { ar: string; en: string; ur: string }
+export interface Trilingual { ar: string; en: string; ur: string; fr?: string }
 
 /** One Objects-hall stop: a procedural mesh (`build`) labelled from an object record. */
 export interface Exhibit {
@@ -126,8 +126,8 @@ export function viewExhibits(list: Exhibit[], lang: Lang): ExhibitView[] {
     record: e.record,
     label: e.label[lang],
     desc: e.desc[lang],
-    material: e.material?.[lang] ?? "",
-    museum: e.museum?.[lang] ?? "",
+    material: e.material?.[lang] ?? (lang === "fr" ? e.material?.en : e.material?.ar) ?? "",
+    museum: e.museum?.[lang] ?? (lang === "fr" ? e.museum?.en : e.museum?.ar) ?? "",
   }));
 }
 
