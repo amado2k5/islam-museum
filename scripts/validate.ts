@@ -875,7 +875,7 @@ export function validateAll(extra: { entity: any; file: string }[] = [], options
     // scope rule in prose: a perspectives block must start with a Sunni entry, and non-Sunni doctrine must be labelled before it is stated
     for (const blk of pr.body.matchAll(/^:::perspectives\n([\s\S]*?)\n:::/gm)) {
       const labels = [...blk[1].matchAll(/^- \*\*(.+?)\*\*:/gm)].map((m) => m[1].toLowerCase());
-      if (labels.length && !(labels[0].startsWith("sunni") || labels[0].includes("أهل السنة") || labels[0].startsWith("سني"))) err(pr.file, "the perspectives block must start with the Sunni entry (docs/scope.md)");
+      if (labels.length && !(labels[0].startsWith("sunni") || /^(?:(?:visión|posición|postura|opinión) )?sunn?í/.test(labels[0]) || labels[0].includes("أهل السنة") || labels[0].startsWith("سني"))) err(pr.file, "the perspectives block must start with the Sunni entry (docs/scope.md)");
     }
     const NON_SUNNI = /(Twelver|Shia|Shi'a|Shi‘a|Ismaili|Ibadi|Ahmadi(?:yya)?|Quranist|Zaydi|الشيعة|الإسماعيلية|الإباضية|الأحمدية|القرآنيون|الزيدية)/;
     const VERB = /\b(hold|holds|believe|believes|teach|teaches|regard|regards|maintain|maintains|designated|consider|considers)\b|(يرى|يرون|يعتقد|يعتقدون|تعتقد|ترى|يؤمن|يؤمنون)/;

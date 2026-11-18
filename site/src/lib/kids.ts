@@ -3,6 +3,7 @@
 // appended at render time to plain names that come from data files.
 import { existsSync, readFileSync } from "node:fs";
 import { parse } from "yaml";
+import { parseLocalized } from "./i18n";
 import { repoPath } from "./paths";
 import type { Lang } from "./i18n";
 
@@ -38,7 +39,7 @@ export interface QuestStopView {
 }
 
 export function loadQuestStops(): QuestStop[] {
-  const raw = parse(readFileSync(repoPath("kids/quest-stops.yaml"), "utf8")) as { stops?: QuestStop[] };
+  const raw = parseLocalized(readFileSync(repoPath("kids/quest-stops.yaml"), "utf8")) as { stops?: QuestStop[] };
   if (!raw?.stops?.length) throw new Error("kids/quest-stops.yaml: no stops found");
   return raw.stops;
 }
@@ -96,7 +97,7 @@ export function viewDeeds(deeds: Deed[], lang: Lang): DeedView[] {
 export interface Deed { day: number; icon: string; deed: Bilingual }
 
 export function loadDeeds(): Deed[] {
-  const raw = parse(readFileSync(repoPath("kids/deeds.yaml"), "utf8")) as { deeds?: Deed[] };
+  const raw = parseLocalized(readFileSync(repoPath("kids/deeds.yaml"), "utf8")) as { deeds?: Deed[] };
   if (!raw?.deeds || raw.deeds.length !== 30)
     throw new Error("kids/deeds.yaml: expected exactly 30 deeds");
   const days = new Set(raw.deeds.map((d) => d.day));
@@ -126,7 +127,7 @@ export interface BedtimeStoryView {
 }
 
 export function loadStories(): BedtimeStory[] {
-  const raw = parse(readFileSync(repoPath("kids/stories.yaml"), "utf8")) as { stories?: BedtimeStory[] };
+  const raw = parseLocalized(readFileSync(repoPath("kids/stories.yaml"), "utf8")) as { stories?: BedtimeStory[] };
   if (!raw?.stories?.length) throw new Error("kids/stories.yaml: no stories found");
   return raw.stories;
 }
@@ -176,7 +177,7 @@ export interface RetellEntry {
 }
 
 export function loadRetell(): RetellEntry[] {
-  const raw = parse(readFileSync(repoPath("kids/retell.yaml"), "utf8")) as { retell?: RetellEntry[] };
+  const raw = parseLocalized(readFileSync(repoPath("kids/retell.yaml"), "utf8")) as { retell?: RetellEntry[] };
   const items = raw?.retell;
   if (!items?.length) throw new Error("kids/retell.yaml: no retell entries found");
   // Must cover exactly the quest stop slugs — no more, no fewer, no duplicates.
@@ -241,7 +242,7 @@ function bridgeSourceFile(kind: BridgeKind, slug: string): string {
 }
 
 export function loadBridge(): BridgeCard[] {
-  const raw = parse(readFileSync(repoPath("kids/bridge.yaml"), "utf8")) as { bridge?: BridgeCard[] };
+  const raw = parseLocalized(readFileSync(repoPath("kids/bridge.yaml"), "utf8")) as { bridge?: BridgeCard[] };
   const cards = raw?.bridge;
   if (!cards?.length) throw new Error("kids/bridge.yaml: no bridge cards found");
   for (const c of cards) {
@@ -309,7 +310,7 @@ const KNOWN_EXPERIENCE_HREFS = [
 ] as const;
 
 export function loadLessons(): LessonUnit[] {
-  const raw = parse(readFileSync(repoPath("kids/lessons.yaml"), "utf8")) as { lessons?: LessonUnit[] };
+  const raw = parseLocalized(readFileSync(repoPath("kids/lessons.yaml"), "utf8")) as { lessons?: LessonUnit[] };
   const units = raw?.lessons;
   if (!units?.length) throw new Error("kids/lessons.yaml: no lesson units found");
   const slugs = new Set(units.map((u) => u.unit_slug));
@@ -385,7 +386,7 @@ export interface CurriculumPathView {
 }
 
 export function loadPaths(): CurriculumPath[] {
-  const raw = parse(readFileSync(repoPath("kids/paths.yaml"), "utf8")) as { paths?: CurriculumPath[] };
+  const raw = parseLocalized(readFileSync(repoPath("kids/paths.yaml"), "utf8")) as { paths?: CurriculumPath[] };
   const paths = raw?.paths;
   if (!paths?.length) throw new Error("kids/paths.yaml: no paths found");
   const slugs = new Set(paths.map((p) => p.path_slug));
@@ -441,7 +442,7 @@ export interface PilotView {
 }
 
 export function loadPilot(): Pilot {
-  const raw = parse(readFileSync(repoPath("kids/pilot.yaml"), "utf8")) as Pilot;
+  const raw = parseLocalized(readFileSync(repoPath("kids/pilot.yaml"), "utf8")) as Pilot;
   if (!raw) throw new Error("kids/pilot.yaml: empty");
   const p = raw;
   const prepAr = p.prepare?.ar?.length ?? 0;
@@ -504,7 +505,7 @@ const EXPECTED_PART_SLUGS = [
 ] as const;
 
 export function loadMosqueParts(): MosquePart[] {
-  const raw = parse(readFileSync(repoPath("kids/mosque-parts.yaml"), "utf8")) as {
+  const raw = parseLocalized(readFileSync(repoPath("kids/mosque-parts.yaml"), "utf8")) as {
     parts?: MosquePart[];
   };
   const parts = raw?.parts;
@@ -579,7 +580,7 @@ export interface EraView {
 const EXPECTED_ERA_SLUGS = ["makkah", "madinah", "baghdad", "cordoba", "istanbul"] as const;
 
 export function loadEras(): Era[] {
-  const raw = parse(readFileSync(repoPath("kids/eras.yaml"), "utf8")) as { eras?: Era[] };
+  const raw = parseLocalized(readFileSync(repoPath("kids/eras.yaml"), "utf8")) as { eras?: Era[] };
   const eras = raw?.eras;
   if (!eras?.length) throw new Error("kids/eras.yaml: no eras found");
   const got = eras.map((e) => e.slug);

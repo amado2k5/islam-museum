@@ -2,6 +2,7 @@
 // explorers band — twelve first-person riddles, two choices each, and no answer is ever wrong.
 import { readFileSync } from "node:fs";
 import { parse } from "yaml";
+import { parseLocalized } from "./i18n";
 import { repoPath } from "./paths";
 import { byId, labelOf, href } from "./graph";
 import type { Lang } from "./i18n";
@@ -14,7 +15,7 @@ export interface WhereView { id: string; question: string; options: WhereOptionV
 let cache: WhereRound[] | null = null;
 export function loadWhere(): WhereRound[] {
   if (cache) return cache;
-  const raw = parse(readFileSync(repoPath("edu/where.yaml"), "utf8")) as { rounds?: WhereRound[] };
+  const raw = parseLocalized(readFileSync(repoPath("edu/where.yaml"), "utf8")) as { rounds?: WhereRound[] };
   const rounds = raw?.rounds ?? [];
   if (rounds.length !== 12) throw new Error(`edu/where.yaml: expected 12 rounds, found ${rounds.length}`);
   for (const r of rounds) {

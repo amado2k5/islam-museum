@@ -3,6 +3,7 @@
 // the loader validates shape/count, view*() selects the page language.
 import { readFileSync } from "node:fs";
 import { parse } from "yaml";
+import { parseLocalized } from "./i18n";
 import { repoPath } from "./paths";
 import type { Lang } from "./i18n";
 
@@ -28,7 +29,7 @@ export interface JourneyView {
 }
 
 export function loadJourneys(): Journey[] {
-  const raw = parse(readFileSync(repoPath("tour/journeys.yaml"), "utf8")) as {
+  const raw = parseLocalized(readFileSync(repoPath("tour/journeys.yaml"), "utf8")) as {
     journeys?: Journey[];
   };
   const journeys = raw?.journeys;
@@ -101,7 +102,7 @@ const full = (b: unknown): b is Trilingual =>
   !!b && LANGS3.every((l) => typeof (b as any)[l] === "string" && (b as any)[l].length > 0);
 
 export function loadExhibits(): Exhibit[] {
-  const raw = parse(readFileSync(repoPath("tour/exhibits.yaml"), "utf8")) as { exhibits?: Exhibit[] };
+  const raw = parseLocalized(readFileSync(repoPath("tour/exhibits.yaml"), "utf8")) as { exhibits?: Exhibit[] };
   const list = raw?.exhibits;
   if (!list || list.length !== EXHIBIT_BUILDS.length)
     throw new Error(`tour/exhibits.yaml: expected exactly ${EXHIBIT_BUILDS.length} exhibits`);
@@ -150,7 +151,7 @@ export const HALL_WINGS = ["time", "place", "people", "ideas", "words", "living"
 export const HALL_STOPS = 6;
 
 export function loadHalls(): Hall[] {
-  const raw = parse(readFileSync(repoPath("tour/halls.yaml"), "utf8")) as { halls?: Hall[] };
+  const raw = parseLocalized(readFileSync(repoPath("tour/halls.yaml"), "utf8")) as { halls?: Hall[] };
   const list = raw?.halls;
   if (!list || list.map((h) => h.wing).join() !== HALL_WINGS.join())
     throw new Error(`tour/halls.yaml: expected one hall per wing, in order: ${HALL_WINGS.join(", ")}`);
