@@ -12,7 +12,7 @@ export const TOPICS = [
 ] as const
 export type Topic = (typeof TOPICS)[number]
 export const LAUNCH_PER_TOPIC = 50
-const LANGS = ['ar', 'en', 'ur'] as const
+const LANGS = ['ar', 'en', 'ur', 'fr'] as const
 
 export interface GraphNode {
   id: string
@@ -101,6 +101,7 @@ export function buildRecords(nodes: GraphNode[], topic: Topic): Record_[] {
     const plain = (x: string) => x.replace(/\{cite:[^}]*\}/g, '').replace(/\s+/g, ' ').trim()
     const summary: Record<string, string> = { ar: plain(n.summary.ar ?? ''), en: plain(n.summary.en ?? '') }
     if (n.summary.ur) summary.ur = plain(n.summary.ur)
+    if (n.summary.fr) summary.fr = plain(n.summary.fr)
     return {
       id: n.id,
       kind: topic,
@@ -112,7 +113,7 @@ export function buildRecords(nodes: GraphNode[], topic: Topic): Record_[] {
         end: n.display?.end?.edtf ?? null,
       },
       periods: n.periods ?? [],
-      title: { ar: n.label.ar ?? '', en: n.label.en ?? '', ...(n.label.ur ? { ur: n.label.ur } : {}) },
+      title: { ar: n.label.ar ?? '', en: n.label.en ?? '', ...(n.label.ur ? { ur: n.label.ur } : {}), ...(n.label.fr ? { fr: n.label.fr } : {}) },
       summary,
       href: '',
       sources: n.data!.sources!,
