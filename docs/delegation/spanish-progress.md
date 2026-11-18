@@ -108,6 +108,14 @@ Terms a Spanish-speaking reader should review in the prose: `anticalifa`, `los S
 
 43 commits of `main` (about 21,000 files, mostly the Arabic-parenthesis isolation across the corpus and new records) were merged into the Spanish feature branch and from there into `release/spanish`. Two conflicts, both resolved keeping both sides: `CANARY.md` (both lists of fixes kept) and `site/src/lib/dates.ts` (main's isolated parentheses on the Arabic and Urdu era labels, with the French and Spanish rows kept). On the merged tree: `npm run validate` exit 0, "validated 81578 entities, 108152 prose files: 0 errors, 5344 warnings"; `npm test` 50 files, 681 of 681 pass. Not re-run after this merge: the site build. Some English prose files that were already translated changed on `main` in this merge (parenthesis isolation); their Spanish files were not re-checked against the new English.
 
+### Qur'an passage files checked and restored (founder instruction in chat, 18 Nov 2026)
+
+Check: between the branch point (`3fb57fcf90`) and `main`, one commit touched `data/passage/quran-*.yaml`: `7d509c17a5` ("fix(rtl): isolate every Arabic and Urdu parenthetical…"). It changed 3,528 of the 6,394 files. Compared field by field and byte by byte against the files before that commit: 3,543 values differ, all only by inserted U+2066/U+2069 marks (6,560 pairs) — 3,522 in `translations.ur.text`, 21 in `relations[].note`. `text` (the Arabic), `text_search` and `translations.en` are unchanged in all 3,528 files, and every file equals its earlier bytes once the two marks are removed.
+
+Restore: the 3,528 files are back to their content at `7d509c17a5^` on `release/spanish`; none differs from the branch point. `scripts/validate.ts` now leaves the frozen Qur'an passages (`class: passage`, `work: work/quran`) out of the Arabic-parenthesis rule, which otherwise reported 3,543 errors on the restored files; the rule is unchanged for every other record. The pre-commit guard on the frozen files was skipped for the restoring commit, on the founder's explicit instruction. `npm run validate`: 0 errors; `npm test`: 681 of 681.
+
+Open after the restore: `main` still carries the marks (not touched from this lane); when `release/spanish` reaches `main` the restore goes with it. Parentheses in the Urdu translation on passage pages may display mirrored until the renderer isolates them at render time (not done).
+
 ### Held records and English-source defects found while translating
 
 - `event/al-nawawi-tahrir-671`: the same defect as the next item (a stray quotation mark and an `ur:` line of Urdu inside the English prose). Not translated.
