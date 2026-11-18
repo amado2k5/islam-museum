@@ -22,4 +22,4 @@ L’iysar, office d’attribution des flèches divinatoires des idoles, apparten
 Le [[concept/maysar|jeu de hasard aux flèches (maysir)]] est une pratique proche {cite:mubarakpuri-raheeq p.38}. Le Coran condamne les flèches avec le vin, les jeux de hasard et les pierres des idoles comme des pratiques sataniques ([[passage/quran-5-90|al-Ma'ida 90]]).
 
 ## Pour les Petits
-On tirait des flèches marquées « oui » et « non » devant l’idole Hubal pour décider de ses affaires. L’islam a interdit cette pratique.
+On tirait au sort des flèches marquées « oui » et « non » devant l’idole Hubal pour décider de ses affaires. L’islam a interdit cette pratique.
