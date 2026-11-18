@@ -21,3 +21,8 @@ Outstanding (next batches):
 - French Qur'an translation source (Hamidullah) for passage pages.
 - Batch 4: tighten `localized3` + strict loaders; update status/site claims to four languages.
 - Verify: `npm run validate`, `npm test`, `astro check`, build + pagefind-fr, worker route tests, UAT.
+
+## 2026-11-18 — batch 2
+
+- Merged PRs #7412, #7413 into `release/french`: fr.yaml sections `claim`→`entrances` and `themes`→`foundation`.
+- Branch rule for this session: PRs target `release/french` only; `main` untouched.
