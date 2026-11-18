@@ -9,7 +9,7 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 provenance:
   layer: own-research
-  source: "وفيات الأعيان لابن خلكان — الجزء السادس (عارضة 301 داخل ترجمة القاضي السعيد)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  source: "وفيات الأعيان لابن خلكان — الجزء السادس ⁦(عارضة 301 داخل ترجمة القاضي السعيد)⁩، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch100
@@ -19,4 +19,4 @@ status:
   completeness: 3
 died: { edtf: "1200~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Maqrizi, al-Khitat; Ibn Abi Usaybi'a" }
 relations:
-  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/wafayat-ayan], confidence: low }
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name ⁦(المصري)⁩; denotes association, not proven residence.", sources: [source/wafayat-ayan], confidence: low }

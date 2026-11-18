@@ -10,12 +10,12 @@ themes: [battles]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0624-07~", hijri: "0003-01", calendar: julian, precision: month, status: tradition, note: "في شهر المحرم سنة 3هـ (يوليو 624م) على ما في الرحيق ص241–242" }
+  start: { edtf: "0624-07~", hijri: "0003-01", calendar: julian, precision: month, status: tradition, note: "في شهر المحرم سنة 3هـ ⁦(يوليو 624م)⁩ على ما في الرحيق ص241–242" }
 relations:
   - { type: occurred_at, target: place/dhu-amarr }
   - { type: had_participant, target: person/muhammad, role: "قائد الغزوة", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/uthman-ibn-affan, role: "نائب النبي على المدينة المنورة", sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/dathur-ibn-al-harith, role: "سيد بني محارب وغطفان (أسلم إثر واقعة السيف)", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+  - { type: had_participant, target: person/dathur-ibn-al-harith, role: "سيد بني محارب وغطفان ⁦(أسلم إثر واقعة السيف)⁩", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
   - { type: had_participant, target: group/muhajirun, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: group/ansar, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: group/ghatafan, sources: [source/mubarakpuri-raheeq] }

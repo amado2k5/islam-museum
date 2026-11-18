@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b14, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/43-44" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b14, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/43-44" }
 ---
 ## خلاصہ
 ابو اسحاق ابراہیم ہروی، جو ستنبہ کے نام سے معروف ہیں، ہرات کے زاہد تھے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» میں ان کا ترجمہ لکھا ہے ⁦(نمبر 460)⁩۔ وہ بتاتے ہیں کہ یہ [[person/ibn-adham-ibrahim|ابراہیم بن ادہم]] کی صحبت میں رہے۔ یہ [[person/bayazid-al-bistami|ابو یزید بسطامی]] کے ہم عصر تھے۔ توکل اور تجرید میں ان کا ذکر آتا ہے۔ ان کی وفات [[place/qazvin|قزوین]] میں ہوئی۔ اسی کتاب میں وہ ابو یزید کے اقوال کے راویوں میں بھی ہیں۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/43} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/34}

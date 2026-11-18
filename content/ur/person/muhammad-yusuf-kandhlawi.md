@@ -9,7 +9,7 @@ translators: []
 
 ## خلاصہ
 
-محمد یوسف کاندھلوی (20 مارچ 1917ء – 2 اپریل 1965ء) بھارتی عالم دین، تبلیغی جماعت کے بانی محمد الیاس کاندھلوی کے فرزند اور ان کے بعد جماعت کے دوسرے امیر تھے۔{cite:wikipedia-muhammad-yusuf-kandhlawi-ur}{cite:wikipedia-muhammad-yusuf-kandhlawi-en} ان کی تصانیف میں «حیاۃ الصحابہ» اور «امانی الاحبار فی شرح معانی الآثار» شامل ہیں۔{cite:wikipedia-muhammad-yusuf-kandhlawi-ur}
+محمد یوسف کاندھلوی ⁦(20 مارچ 1917ء – 2 اپریل 1965ء)⁩ بھارتی عالم دین، تبلیغی جماعت کے بانی محمد الیاس کاندھلوی کے فرزند اور ان کے بعد جماعت کے دوسرے امیر تھے۔{cite:wikipedia-muhammad-yusuf-kandhlawi-ur}{cite:wikipedia-muhammad-yusuf-kandhlawi-en} ان کی تصانیف میں «حیاۃ الصحابہ» اور «امانی الاحبار فی شرح معانی الآثار» شامل ہیں۔{cite:wikipedia-muhammad-yusuf-kandhlawi-ur}
 
 ## ابتدائی زندگی و تعلیم
 
@@ -17,11 +17,11 @@ translators: []
 
 ## تبلیغی جماعت کی امارت
 
-والد کی وفات (1944ء) کے بعد آپ جماعت کے دوسرے امیر مقرر ہوئے؛ چلہ اور چار ماہ وغیرہ کی ترتیب انہی کی بنائی ہوئی سمجھی جاتی ہے، اور آپ کے دور میں مسجد نبوی سے بیرونی تبلیغی اسفار شروع ہوئے۔{cite:wikipedia-muhammad-yusuf-kandhlawi-ur} مرکز نظام الدین، دہلی میں آپ کے بیان سننے کے لیے ہندو بھی بکثرت آتے تھے۔{cite:wikipedia-muhammad-yusuf-kandhlawi-ur}
+والد کی وفات ⁦(1944ء)⁩ کے بعد آپ جماعت کے دوسرے امیر مقرر ہوئے؛ چلہ اور چار ماہ وغیرہ کی ترتیب انہی کی بنائی ہوئی سمجھی جاتی ہے، اور آپ کے دور میں مسجد نبوی سے بیرونی تبلیغی اسفار شروع ہوئے۔{cite:wikipedia-muhammad-yusuf-kandhlawi-ur} مرکز نظام الدین، دہلی میں آپ کے بیان سننے کے لیے ہندو بھی بکثرت آتے تھے۔{cite:wikipedia-muhammad-yusuf-kandhlawi-ur}
 
 ## تصانیف
 
-ان کی کتب میں «حیاۃ الصحابہ» (تین جلدیں، عربی)، «امانی الاحبار فی شرح معانی الآثار» (چار جلدیں) اور «منتخب احادیث» شامل ہیں۔{cite:wikipedia-muhammad-yusuf-kandhlawi-ur}{cite:wikipedia-muhammad-yusuf-kandhlawi-en}
+ان کی کتب میں «حیاۃ الصحابہ» ⁦(تین جلدیں، عربی)⁩، «امانی الاحبار فی شرح معانی الآثار» ⁦(چار جلدیں)⁩ اور «منتخب احادیث» شامل ہیں۔{cite:wikipedia-muhammad-yusuf-kandhlawi-ur}{cite:wikipedia-muhammad-yusuf-kandhlawi-en}
 
 ## وفات
 

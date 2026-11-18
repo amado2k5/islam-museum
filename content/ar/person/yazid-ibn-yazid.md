@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b65, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/152" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b65, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/152" }
 ---
 ## موجز
 يزيد بن يزيد، الساجد الحميد الحامد الشديد. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 516)⁩ في الصفحة 152، وتسلسله 517. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/152}

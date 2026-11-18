@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [arabia]
 date:
-  start: { edtf: "0632~", hijri: "0011~", calendar: julian, precision: year, status: tradition, derived: true, note: "أول وقائع الردة في خلافة أبي بكر قبل اليمامة سنة 12هـ (البلاذري ص 133–134). التحويل مشتق." }
+  start: { edtf: "0632~", hijri: "0011~", calendar: julian, precision: year, status: tradition, derived: true, note: "أول وقائع الردة في خلافة أبي بكر قبل اليمامة سنة 12هـ ⁦(البلاذري ص 133–134)⁩. التحويل مشتق." }
 map:
   kind: battle
   precision: locality
@@ -31,7 +31,7 @@ relations:
   - { type: occurred_at, target: place/hail }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 133–134"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 133–134"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-5
 external_ids: { wikidata: "Q3696185" }

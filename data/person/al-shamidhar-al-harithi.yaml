@@ -21,5 +21,5 @@ status: { review: published, completeness: 1 }
 provenance: { layer: own-research, source: "ديوان الحماسة، طبعة 1916، ص 30", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "poetry-hamasa-6" }
 died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Mufaddaliyyat" }
 relations:
-  - { type: lived_in, target: place/barqa, note: "Place association from the person's nisba/name (البرقي); denotes association, not proven residence.", sources: [source/hamasa-abu-tammam-ed-1916], confidence: low }
+  - { type: lived_in, target: place/barqa, note: "Place association from the person's nisba/name ⁦(البرقي)⁩; denotes association, not proven residence.", sources: [source/hamasa-abu-tammam-ed-1916], confidence: low }
   - {type: authored, target: work/hamasa-al-shamidhar-banu-ammina-la-tadhkuru, sources: [source/hamasa-abu-tammam-ed-1916], note: 'Stated in the summary of work/hamasa-al-shamidhar-banu-ammina-la-tadhkuru: "al-Shamidhar al-Harithi said"'}

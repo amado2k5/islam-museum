@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b104, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/398-400" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b104, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/398-400" }
 ---
 ## موجز
 أبو الفضل العباس بن إسماعيل الطامدي، كان من العبادة والحلاوة بالمحل المكين مع ما كان يرجع إليه من العلم الواسع النافع. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 682)⁩ في الصفحات 398 إلى 400، وتسلسله 683. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/398} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/400}

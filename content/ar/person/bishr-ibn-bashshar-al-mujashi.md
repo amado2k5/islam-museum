@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b46, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/132-133" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b46, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/132-133" }
 ---
 ## موجز
 بشر بن بشار المجاشعي، وكان من العابدين. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة 476)⁩ في الصفحة 132 وأولها في الصفحة 133، وعنوان الترجمة في المسح الضوئي غير واضح في بعض حروفه. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/132-133}

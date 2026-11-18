@@ -12,7 +12,7 @@ themes: [scripture-and-its-sciences]
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 provenance:
   layer: own-research
-  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء (ص 6807 من المسح)"
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء ⁦(ص 6807 من المسح)⁩"
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
   run: mawsua-w04-batch14
@@ -22,4 +22,4 @@ status:
   generated_by: "Claude Haiku 5.5; biography read on OCR text of scan page 6807; dates as printed in the book, not checked against a second source; no image check (page images absent)."
 died: { edtf: "697~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
-  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (البصري); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name ⁦(البصري)⁩; denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

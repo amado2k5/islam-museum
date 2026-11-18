@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b59, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/143-144" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b59, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/143-144" }
 ---
 ## خلاصہ
 علی بن حسن بن موسیٰ حکمت کو یاد رکھنے والے تھے اور محنت کرنے والوں سے روایت کرتے تھے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 504)⁩ صفحات 143 اور 144 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 504 ہے، تسلسل میں 505۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/143} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/144}

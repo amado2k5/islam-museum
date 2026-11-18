@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 
-# نشانِ علوم و فنون (مصر)
+# نشانِ علوم و فنون ⁦(مصر)⁩
 
 ## خلاصہ
 
@@ -13,7 +13,7 @@ translators: []
 
 ## عجائب گھر میں
 
-عجائب گھر میں اس کے حاملین: [[person/mahmud-ali-al-banna|محمود علی البنا]] (1990ء) {cite:wikipedia-mahmud-ali-al-banna-en}۔
+عجائب گھر میں اس کے حاملین: [[person/mahmud-ali-al-banna|محمود علی البنا]] ⁦(1990ء)⁩ {cite:wikipedia-mahmud-ali-al-banna-en}۔
 
 ## مراجع
 

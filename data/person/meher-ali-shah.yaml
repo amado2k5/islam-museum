@@ -38,7 +38,7 @@ faith:
     sources: [source/wikipedia-meher-ali-shah-en, source/wikipedia-meher-ali-shah-ur]
   - value: sunni-hanafi
     basis: documented
-    note: "Two independent texts name his school personally. The English text's lead describes him as belonging to the Chishti order and known as a Hanafi scholar; the Urdu text, independently written, likewise calls him a Hanafi scholar (حنفی عالم) in its account of his character and work. His tariqa affiliation and his madhhab are recorded as separate segments, neither inferred from the other; Wikidata's single religion value (Sunni Islam) is a structured value and is not counted."
+    note: "Two independent texts name his school personally. The English text's lead describes him as belonging to the Chishti order and known as a Hanafi scholar; the Urdu text, independently written, likewise calls him a Hanafi scholar ⁦(حنفی عالم)⁩ in its account of his character and work. His tariqa affiliation and his madhhab are recorded as separate segments, neither inferred from the other; Wikidata's single religion value (Sunni Islam) is a structured value and is not counted."
     sources: [source/wikipedia-meher-ali-shah-en, source/wikipedia-meher-ali-shah-ur]
 relations:
   - { type: born_in, target: place/golra-sharif, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-meher-ali-shah] }
@@ -49,7 +49,7 @@ external_ids: { wikidata: "Q6809463", viaf: "23506182" }
 sources: [source/wikipedia-meher-ali-shah-en, source/wikipedia-meher-ali-shah-ar, source/wikipedia-meher-ali-shah-ur, source/wikidata-meher-ali-shah, source/wikidata]
 provenance:
   layer: own-research
-  source: "English Wikipedia 'Meher Ali Shah' (revision 1378743170), Arabic Wikipedia 'مهر علي شاه' (revision 76614039) and Urdu Wikipedia 'پیر مہر علی شاہ' (revision 12168582), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q6809463 (item revision 2557544071). The Arabic article's core is a translation of the English and is counted as the same text family; the Urdu article is independently written. Existence checks by name fragments (meher, mehr, مهر علي شاه), by Arabic label across data/person, by biography and by QID found no prior record for this man. No person record exists for his teacher Shams-ud-din Sialvi, so no student_of edge is written; the member_of edge to group/chishtiyya is written once, here, in the subject's own record. The lane queue gives 1859–1937; the sources agree."
+  source: "English Wikipedia 'Meher Ali Shah' (revision 1378743170), Arabic Wikipedia 'مهر علي شاه' (revision 76614039) and Urdu Wikipedia 'پیر مہر علی شاہ' (revision 12168582), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q6809463 (item revision 2557544071). The Arabic article's core is a translation of the English and is counted as the same text family; the Urdu article is independently written. Existence checks by name fragments ⁦(meher, mehr, مهر علي شاه)⁩, by Arabic label across data/person, by biography and by QID found no prior record for this man. No person record exists for his teacher Shams-ud-din Sialvi, so no student_of edge is written; the member_of edge to group/chishtiyya is written once, here, in the subject's own record. The lane queue gives 1859–1937; the sources agree."
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-76
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

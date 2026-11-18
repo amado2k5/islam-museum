@@ -63,7 +63,7 @@ themes:
 provenance:
   enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added biography section from source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 11, 25–32; fixed label.ar that carried a stray citation"
   layer: own-research
-  source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)
+  source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 ⁦(الطبعة الثانية)⁩
   generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
   run: madkhal-batch-1
   mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: tarikh-dimashq-amrawi-v5 pp. 252–335 (entry 136, read in part)"
@@ -72,7 +72,7 @@ provenance:
   canon: "Encyclopaedia of Islam 2nd ed., vol. 1, article Ahmad b. Hanbal, PDF pp. 294-299, written by Claude Sonnet 5.5, run canon-cornerstones-21"
 relations:
   - { type: authored, target: work/fadail-al-sahaba-ahmad, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
-  - { type: student_of, target: person/abd-al-razzaq-al-sanani, role: "رحل إليه إلى صنعاء مع يحيى بن معين (فضائل الصحابة ص26)", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - { type: student_of, target: person/abd-al-razzaq-al-sanani, role: "رحل إليه إلى صنعاء مع يحيى بن معين ⁦(فضائل الصحابة ص26)⁩", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
   - { type: traveled_to, target: place/kufa, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
   - { type: traveled_to, target: place/basra, role: "أول رحلة سنة 186هـ، ودخلها خمس مرات", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
   - { type: traveled_to, target: place/mecca, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
@@ -81,7 +81,7 @@ relations:
   - { type: traveled_to, target: place/al-sham, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
   - { type: traveled_to, target: place/jazira, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
   - { type: participated_in, target: event/mihna-of-the-quran, role: "ثبت ولم يجب فضرب بالسياط", sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
-  - { type: student_of, target: person/al-shafii, role: "من أصحاب الشافعي البغداديين (PDF ص53)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: student_of, target: person/al-shafii, role: "من أصحاب الشافعي البغداديين ⁦(PDF ص53)⁩", sources: [source/tabaqat-fuqaha-abbas-1981] }
   - { type: founder_of, target: group/hanbali-madhhab, sources: [source/madkhal-ibn-badran-turki] }
 external_ids:
   wikidata: Q194442

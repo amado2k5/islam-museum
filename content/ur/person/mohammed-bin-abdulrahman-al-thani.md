@@ -7,7 +7,7 @@ translators: []
 
 ## خلاصہ
 
-محمد بن عبدالرحمن آل ثانی (پیدائش 1980) قطری سیاست دان ہیں جو مارچ 2023 سے وزیر اعظم اور 2016 سے وزیر خارجہ ہیں {cite:wikipedia-mohammed-bin-abdulrahman-al-thani-en} {cite:wikipedia-mohammed-bin-abdulrahman-al-thani-ar}۔
+محمد بن عبدالرحمن آل ثانی ⁦(پیدائش 1980)⁩ قطری سیاست دان ہیں جو مارچ 2023 سے وزیر اعظم اور 2016 سے وزیر خارجہ ہیں {cite:wikipedia-mohammed-bin-abdulrahman-al-thani-en} {cite:wikipedia-mohammed-bin-abdulrahman-al-thani-ar}۔
 
 ## زندگی اور کام
 

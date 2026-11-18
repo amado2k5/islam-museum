@@ -14,6 +14,6 @@ translators: []
 ان کے دوسرے، پرانے چینل (@akibahmed) کے سبسکرائبر 5,130,000 اور ویوز 665,750,466 تھے، اور اس کی سب سے زیادہ دیکھی جانے والی ویڈیوز میں سائیکل ریس چیلنج اور ناٹک دونوں شامل ہیں۔ {cite:vidiq-akib-ahmed} ان کے لیے کوئی اخباری کوریج، وکی پیڈیا مضمون یا وکی ڈیٹا اندراج نہیں مل سکا، اس لیے یہ ریکارڈ ان کے چینلز اور ThoughtLeaders پروفائل پر قائم ہے؛ کسی پڑھے گئے ماخذ میں ان کی تاریخِ پیدائش یا مَسقط مذکور نہیں، اور کسی متن نے خود ان کا فقہی مسلک ثابت نہیں کیا، چنانچہ ان کا مسلک نامعلوم درج ہے۔ {cite:thoughtleaders-akib-islamic-tv} {cite:youtube-akib-islamic-tv}
 
 ## حوالہ جات
-- ان کے دونوں چینلز (@akibislamictv اور @akibahmed) کے vidIQ اعداد، 8 نومبر 2026ء، 9 نومبر 2026ء کو پڑھے گئے۔ {cite:vidiq-akib-islamic-tv} {cite:vidiq-akib-ahmed}
+- ان کے دونوں چینلز ⁦(@akibislamictv اور @akibahmed)⁩ کے vidIQ اعداد، 8 نومبر 2026ء، 9 نومبر 2026ء کو پڑھے گئے۔ {cite:vidiq-akib-islamic-tv} {cite:vidiq-akib-ahmed}
 - ان کا مرکزی یوٹیوب چینل (@akibislamictv)، تفصیل اور ویڈیو کریڈٹس، 9 نومبر 2026ء کو پڑھے گئے۔ {cite:youtube-akib-islamic-tv}
 - ان کے چینل کا ThoughtLeaders پروفائل، 9 نومبر 2026ء کو پڑھا گیا۔ {cite:thoughtleaders-akib-islamic-tv}
