@@ -33,6 +33,26 @@ export function ui(lang: Lang): any {
   return cache.get(lang);
 }
 
+/** Languages whose dataset fields are optional until their lane lands them (docs/agents/lanes/french.md, spanish.md). */
+export const OPTIONAL_LANGS: readonly Lang[] = ["fr", "es"];
+/**
+ * Fill the optional languages of every localized leaf ({ ar, en, ur, … }) of a parsed dataset from English, then Arabic,
+ * so a page that reads `field[lang]` renders in the fallback language instead of printing "undefined" or throwing.
+ * In memory only: the YAML is untouched, and the loaders' own checks on ar, en and ur still see what was written.
+ */
+export function backfillLangs<T>(v: T): T {
+  if (Array.isArray(v)) v.forEach(backfillLangs);
+  else if (v && typeof v === "object") {
+    const o = v as Record<string, unknown>;
+    const leaf = (x: unknown) => typeof x === "string" || Array.isArray(x);
+    if (leaf(o.ar) && (leaf(o.en) || leaf(o.ur))) for (const l of OPTIONAL_LANGS) if (o[l] === undefined) o[l] = o.en ?? o.ar;
+    for (const k of Object.keys(o)) backfillLangs(o[k]);
+  }
+  return v;
+}
+/** `parse` for the per-language datasets (edu/, kids/, tour/, cards/): the YAML with its optional languages backfilled. */
+export const parseLocalized = (text: string): any => backfillLangs(parse(text));
+
 /** Interpolate {name} placeholders. */
 export const fmt = (s: string, vars: Record<string, string>) => s.replace(/\{(\w+)\}/g, (_, k) => vars[k] ?? `{${k}}`);
 

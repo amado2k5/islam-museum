@@ -4,6 +4,7 @@
 // their own grading against.
 import { readFileSync, readdirSync } from "node:fs";
 import { parse } from "yaml";
+import { parseLocalized } from "./i18n";
 import { byId } from "./graph";
 import { repoPath } from "./paths";
 import type { Lang } from "./i18n";
@@ -32,7 +33,7 @@ export function loadDetective(): DetectiveUnit[] {
   const out: DetectiveUnit[] = [];
   const seen = new Set<string>();
   for (const f of readdirSync(DIR).filter((x) => x.endsWith(".yaml"))) {
-    const d = parse(readFileSync(`${DIR}/${f}`, "utf8"));
+    const d = parseLocalized(readFileSync(`${DIR}/${f}`, "utf8"));
     const where = `${DIR}/${f}`;
     if (!d.id || typeof d.id !== "string") throw new Error(`${where}: missing id`);
     if (seen.has(d.id)) throw new Error(`${where}: duplicate id ${d.id}`);

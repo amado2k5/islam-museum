@@ -37,9 +37,46 @@ Checks not run:
 - After merging the French batch (#7420) only the quick tests were re-run (`place-map`, `paged-alternates`, `check-packet`, the site Worker tests); `npm run validate` and `edu.test.ts` were run before that merge, which changed only `i18n/fr.yaml`, French documents and the R2 sync allow-list.
 - No UAT or production deploy; `/es/` is not served anywhere public.
 
+## 2026-11-18 — corpus started (session 1, wave 1)
+
+Founder instruction in chat, 18 Nov 2026: start the corpus and the rest of the translation.
+
+Scale, measured on this branch: `content/en/` holds about 34,800 prose files and 11.2 million words. The 273 records marked `importance: 1` (the canon's cornerstones) account for 663,254 words; the 680 at `importance: 2` for 404,666.
+
+Order of work:
+1. Cornerstones first (`importance: 1`, then `importance: 2`), shortest first, so the records a first-time visitor expects are Spanish soonest.
+2. Then the spine classes (`person`, `event`, `place`, `work`, `concept`, `building`, `object`), then the rest, from `scripts/es-queue.ts prose`.
+3. Sacred and fiqh classes (`passage`, `practice`, `question`) from Arabic, with their own brief. Not started.
+4. Records with reading-level sections (`## For Sprouts` and its siblings): held for a separate pass, because `scripts/validate.ts` caps those sections at 80, 160 and 300 words in every language that has a registered heading and Spanish runs longer than English.
+5. Datasets (`edu/`, `kids/`, `tour/`, `cards/`) and `label.es`/`summary.es` on `data/`: **held until the French lane has added its own keys to the same lines**, so that Spanish appends after French instead of conflicting on every record.
+
+Wave 2 landed: 45 more `importance: 1` records (about 112,000 English words), same method, same checks, all 45 pass; `content/es/` now holds 136 files (`es-queue.ts stats`: `prose: 136/34836`). 23 eligible `importance: 1` records remain, plus those held for reading-level sections and the sacred classes. `npm run validate` with the 136 files: exit 0, "validated 81027 entities, 104824 prose files: 0 errors, 5343 warnings".
+
+Found in the English sources while translating (reported, not fixed): `person/mahmud-ii-uthmani` says in one place that he replaced the fez with the turban and in another the reverse; `person/al-biruni-muhammad-ibn-ahmad` and `person/umar-khayyam` have figures run together with the preceding word ("composed416 AH", "between1039 and1048"); `concept/qibla` and `building/masjid-ibn-tulun` have stray punctuation. The Spanish follows the evident reading and keeps every figure.
+
+Wave 1 landed:
+- 91 prose files in `content/es/` (about 109,000 English words): the 91 shortest `importance: 1` records outside the sacred classes and without reading-level sections, in `building`, `concept`, `event`, `group`, `object`, `period`, `person`, `place`, `polity`, `work`.
+- Translated from `content/en/` by eight Claude Sonnet 5.5 subagents (as each reported its own model), file by file, no machine-translation service; `source_lang: en`, `translators` and a `provenance` block on every file. **No human has read them.**
+- Trust criteria used for this lane (recorded so they can be audited and reused): a packet is accepted only if, against its English source, every file has (a) the same wiki-link ids, (b) the same `{cite:…}` markers character for character, (c) the same `(needs_source…)` markers, (d) the same heading levels and count and the same paragraph count, (e) a Spanish/English word ratio between 0.85 and 1.60, (f) no typed honorific in Spanish, English or Arabic and no Qur'an brackets, (g) under 4 % English function words. All 91 files pass. The check does not judge the quality of the Spanish.
+- Normalised after the agents: the `Overview` heading is `Visión general` everywhere; `hajj` and `Jahiliyya` keep the English transliteration.
+- `npm run validate` with the 91 files: exit 0, "validated 81027 entities, 104779 prose files: 0 errors, 5343 warnings".
+
+Code changes that the corpus needed:
+- `scripts/validate.ts`: the scope rule "a perspectives block must start with the Sunni entry" now also recognises the Spanish label (`Suní…`, `Visión suní…`, `Posición suní…`); it rejected correctly translated blocks in `person/zaynab-bint-jahsh` and `person/ibn-taymiyya`.
+- `edu/levels.yaml`, `site/src/lib/entity.ts`: Spanish headings for the three reading levels (`Para los Brotes`, `Para los Exploradores`, `Para los Estudiosos`) and for the Brief, young-visitors and scholars sections (`En breve`, `Para los visitantes jóvenes`, `Notas para investigadores`).
+- Direction: the French lane's fix `f21b02afd6` (prose and several components rendered every non-English language right to left) was cherry-picked unchanged from `devin/fr-corpus-object-1`, because Spanish prose needs it now; it will merge as an identical change when French lands it.
+- `site/src/lib/markdown.ts`: the missing French entries in `OTHER_PROPHETS` and `NAME_END` were added. This was the fault reported above; it made the site build fail at `/fr/event/hijra/` on `release/french` and therefore on `release/spanish`. It is shared code, not a French content file, and the build could not be verified without it.
+
+Results of the checks that were owed from the first entry:
+- Full `npm test` (before wave 1): 629 of 634 pass. The 5 failures are on French edits in files not touched here: `pipeline.test.ts` (1), `tour.test.ts` (3) and `modern.test.ts` (1, a fixture list of Wikipedia languages that gained `fr`).
+- `astro check`: cannot run. `@astrojs/check` is not a dependency of `site/`; the command only offers to install it. No package was added.
+- Site build: the first run (CI sample build, `SAMPLE_BUILD=1`) failed on the French fault above. After that fix a second run built the entity pages of all five languages (including the Spanish prose of wave 1) and then failed at `/fr/shabab/detective/`: a page reads `field[lang]` on a dataset that has only ar, en and ur. The same would have happened under `/es/`. Fix: `backfillLangs` / `parseLocalized` in `site/src/lib/i18n.ts` fill the optional languages (`fr`, `es`) of every localized dataset leaf from English, then Arabic, in memory, and the sixteen dataset loaders in `site/src/lib/` use it; the YAML files and the loaders' own checks on ar, en and ur are unchanged. A third run was still in progress when this entry was committed: **the build of `release/spanish` has not yet been seen to pass**, and the `pagefind-es` index, the sitemap and the link check remain unverified.
+
+Terms a Spanish-speaking reader should review in the prose: `anticalifa`, `los Siete Juristas`, `Sucesores` (for the Successors), `burchíes`, `benimerín`, `ilkhánidas`, `Hiyaz`, `Jorasán`, `Bujará`, `Solimán`, `derecho anglo-muhammadan`, and the translated titles of television programmes and books.
+
 ## Explicit gaps
 
-- `content/es/`: no files (the directory does not exist). Entity pages under `/es/` show Spanish chrome around English, then Arabic, prose.
+- `content/es/`: 136 files of about 34,800 (waves 1 and 2 above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
 - `data/*.yaml`: no `label.es` / `summary.es`.
 - Datasets (`edu/`, `kids/`, `tour/`, `cards/`): no `es` fields; the strict loaders still require only ar, en and ur.
 - Spanish Qur'an translation for passage pages: no source chosen or registered (`scripts/harvest/quran/translations.py` takes English and Urdu only). The translation and its licence are pending the founder's confirmation.

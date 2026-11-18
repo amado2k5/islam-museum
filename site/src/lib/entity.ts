@@ -19,6 +19,10 @@ export const externalUrl = (key: string, id: string) => idPatterns[key]?.url.rep
 const KIDS = ["For young visitors", "للزوار الصغار"];
 const SCHOLARS = ["Notes for scholars", "ملاحظات للباحثين"];
 const BRIEF = ["Brief", "نبذة"];
+// Spanish section headings (spanish lane), added on their own lines so the French lane can extend the lists above.
+KIDS.push("Para los visitantes jóvenes");
+SCHOLARS.push("Notas para investigadores");
+BRIEF.push("En breve");
 export const sectionRole = (h: string): "brief" | "main" | "kids" | "scholars" =>
   BRIEF.includes(h) ? "brief" : KIDS.includes(h) ? "kids" : SCHOLARS.includes(h) ? "scholars" : "main";
 

@@ -4,6 +4,7 @@
 // graph record (anchor). This loader is the single integrity gate the pages and the tests share.
 import { readFileSync } from "node:fs";
 import { parse } from "yaml";
+import { parseLocalized } from "./i18n";
 import { repoPath } from "./paths";
 import { byId, SITE } from "./graph";
 import { a11yLd } from "./a11y";
@@ -26,7 +27,7 @@ const LANGS = ["ar", "en", "ur"] as const;
 let cache: Topic[] | null = null;
 export function loadTopics(): Topic[] {
   if (cache) return cache;
-  const raw = parse(readFileSync(repoPath("edu/topics-50.yaml"), "utf8")) as { topics?: Topic[] };
+  const raw = parseLocalized(readFileSync(repoPath("edu/topics-50.yaml"), "utf8")) as { topics?: Topic[] };
   const topics = raw?.topics ?? [];
   const seen = new Set<string>();
   for (const t of topics) {
