@@ -118,6 +118,7 @@ Open after the restore: `main` still carries the marks (not touched from this la
 
 ### Held records and English-source defects found while translating
 
+- `event/al-nawawi-ashrafiyya-665`: the same defect (a stray `ur:` line of Urdu and a quotation mark inside the English prose). Not translated.
 - `event/al-nawawi-tahrir-671`: the same defect as the next item (a stray quotation mark and an `ur:` line of Urdu inside the English prose). Not translated.
 - `event/al-nawawi-minhaj-rawda-669`: the English prose file ends with a stray quotation mark and an `ur:` line of Urdu text that leaked in from a frontmatter mix-up. Not translated; the English file needs repair first (not edited by this lane).
 - `person/sayyid-qutb`, `person/yusuf-al-qaradawi` and the other records on the firewall exceptions list: held for the founder (see above).
@@ -144,10 +145,11 @@ Open after the restore: `main` still carries the marks (not touched from this la
 - Wave 10, packet 5: landed and merged; `content/es/` holds 3,464 files; `npm run validate` 0 errors.
 - Wave 10, packet 6: landed and merged; `content/es/` holds 3,574 files; `npm run validate` 0 errors.
 - Wave 10, packet 7: landed and merged; `content/es/` holds 3,684 files; `npm run validate` 0 errors.
+- Wave 10, packet 8: landed and merged; `content/es/` holds 3,792 files; `npm run validate` 0 errors.
 
 ## Explicit gaps
 
-- `content/es/`: 3,684 files of about 34,800 (waves 1 to 8 so far, above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
+- `content/es/`: 3,792 files of about 34,800 (waves 1 to 8 so far, above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
 - `data/*.yaml`: no `label.es` / `summary.es`.
 - Datasets (`edu/`, `kids/`, `tour/`, `cards/`): no `es` fields; the strict loaders still require only ar, en and ur.
 - Spanish Qur'an translation for passage pages: no source chosen or registered (`scripts/harvest/quran/translations.py` takes English and Urdu only). The translation and its licence are pending the founder's confirmation.
