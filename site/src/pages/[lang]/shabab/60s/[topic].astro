@@ -30,8 +30,8 @@ const glossaryHref = `/${lang}/shabab/glossary/${topic.id}/`;
     </nav>
     <SixtySeconds
       lang={lang}
-      title={topic.title[lang]}
-      sixty={topic.sixty[lang]}
+      title={topic.title[lang] ?? topic.title.en}
+      sixty={topic.sixty[lang] ?? topic.sixty.en}
       bandLabel={band?.name ?? ""}
       progressLabel={S.sb_sixty_progress}
       anchorLabel={S.sb_anchor}

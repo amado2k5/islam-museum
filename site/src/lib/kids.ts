@@ -6,7 +6,7 @@ import { parse } from "yaml";
 import { repoPath } from "./paths";
 import type { Lang } from "./i18n";
 
-export interface Bilingual { ar: string; en: string; ur?: string }
+export interface Bilingual { ar: string; en: string; ur?: string; fr?: string }
 
 export interface QuestStop {
   slug: string;
@@ -63,7 +63,7 @@ export function kidsHonorify(text: string, lang: Lang, names: string[]): string 
 }
 
 /** The text for a language; a language without its own text falls back to Arabic (same script and direction). */
-const pick = <T>(b: { ar: T; en: T; ur?: T }, lang: Lang): T => (b[lang] ?? b.ar);
+const pick = <T>(b: { ar: T; en: T; ur?: T; fr?: T }, lang: Lang): T => (b[lang] ?? b.ar);
 
 /** Select the page language and honorify each stop's story with that stop's prophet name. */
 export function viewQuestStops(stops: QuestStop[], lang: Lang): QuestStopView[] {
