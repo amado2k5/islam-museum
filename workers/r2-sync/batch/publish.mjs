@@ -23,6 +23,7 @@ const TARGETS = [
   { dir: "pagefind-en", prefix: "pagefind-en", cacheControl: "public, max-age=31536000, immutable" },
   { dir: "pagefind-ur", prefix: "pagefind-ur", cacheControl: "public, max-age=31536000, immutable" },
   { dir: "pagefind-fr", prefix: "pagefind-fr", cacheControl: "public, max-age=31536000, immutable" },
+  { dir: "pagefind-es", prefix: "pagefind-es", cacheControl: "public, max-age=31536000, immutable" },
   { dir: "api", prefix: "api", cacheControl: "public, max-age=3600, stale-while-revalidate=86400" },
   // Founder rule (28 Oct 2026): data, content, maps, images and video live on R2, not on Pages. Keep in step with
   // workers/site/src/route.js (R2_DATA_DIRS).
@@ -38,6 +39,7 @@ const HTML_TARGETS = [
   { dir: "en", prefix: "en", cacheControl: "public, max-age=60, s-maxage=3600" },
   { dir: "ur", prefix: "ur", cacheControl: "public, max-age=60, s-maxage=3600" },
   { dir: "fr", prefix: "fr", cacheControl: "public, max-age=60, s-maxage=3600" },
+  { dir: "es", prefix: "es", cacheControl: "public, max-age=60, s-maxage=3600" },
 ];
 const activeTargets = process.env.PUBLISH_HTML === "1" ? [...TARGETS, ...HTML_TARGETS] : TARGETS;
 const MANIFEST_KEY = "_r2-sync/manifest.json";

@@ -11,7 +11,7 @@ const idPatterns: Record<string, { url: string }> = parse(readFileSync(repoPath(
 const traditions: any[] = parse(readFileSync(repoPath("schema", "enums", "traditions.yaml"), "utf8"));
 const regions: any[] = parse(readFileSync(repoPath("schema", "enums", "regions.yaml"), "utf8"));
 
-export const traditionLabel = (id: string, lang: Lang) => (lang === "fr" ? traditions.find((t) => t.id === id)?.label.fr ?? traditions.find((t) => t.id === id)?.label.en : traditions.find((t) => t.id === id)?.label[lang]) ?? id;
+export const traditionLabel = (id: string, lang: Lang) => (lang === "fr" || lang === "es" ? (traditions.find((t) => t.id === id)?.label as Record<string, string> | undefined)?.[lang] ?? traditions.find((t) => t.id === id)?.label.en : traditions.find((t) => t.id === id)?.label[lang]) ?? id;
 export const regionLabel = (id: string, lang: Lang) => { const l = regions.find((r) => r.id === id)?.label; return l?.[lang] ?? l?.en ?? l?.ar ?? id; };
 export const externalUrl = (key: string, id: string) => idPatterns[key]?.url.replace("{id}", id);
 
@@ -177,7 +177,7 @@ export interface ThemeFamily { id: string; label: { en: string; ar: string } }
 export const themes: Theme[] = parse(readFileSync(repoPath("schema", "enums", "themes.yaml"), "utf8"));
 export const themeFamilies: ThemeFamily[] = parse(readFileSync(repoPath("schema", "enums", "theme-families.yaml"), "utf8"));
 export const themeById = new Map(themes.map((t) => [t.id, t]));
-export const themeLabel = (id: string, lang: Lang) => { const l = themeById.get(id)?.label; return (lang === "fr" ? l?.fr ?? l?.en : l?.[lang]) ?? id; };
+export const themeLabel = (id: string, lang: Lang) => { const l = themeById.get(id)?.label; return (lang === "fr" || lang === "es" ? (l as Record<string, string> | undefined)?.[lang] ?? l?.en : l?.[lang]) ?? id; };
 
 /** Screen titles about / set in an entity (edges computed as subject_of / setting_of). */
 export function onScreen(id: string): { node: Node; how: "about" | "set_in" }[] {

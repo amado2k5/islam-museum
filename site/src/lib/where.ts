@@ -31,7 +31,7 @@ export function viewWhere(r: WhereRound, lang: Lang): WhereView {
   const answer = byId.get(r.answer)!;
   return {
     id: r.id,
-    question: r.question[lang] ?? (lang === "fr" ? r.question.en : r.question.ar) ?? r.question.ar,
+    question: r.question[lang] ?? (lang === "fr" || lang === "es" ? r.question.en : r.question.ar) ?? r.question.ar,
     answerLabel: labelOf(answer, lang),
     options: r.options.map((o) => {
       const n = byId.get(o)!;
