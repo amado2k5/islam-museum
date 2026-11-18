@@ -9,6 +9,12 @@ Proposal: `docs/delegation/french-language-proposal.md` (approved 18 Nov 2026). 
 - `edu/levels.yaml` is reserved for another PR and excluded from this batch's coverage expectations. Where other datasets mention the French levels, use `Pour les Petits`, `Pour les Explorateurs`, `Pour les Chercheurs` verbatim. No RTL/page-direction code or `scripts/fr-queue.ts` edits belong to this batch.
 - Next: cards, then the remaining education datasets in the agreed order; final repository validation, tests and citation check remain outstanding.
 
+## 2026-11-18 — batch 1, cards translation policy
+
+- Explicitly approved for this batch: where an existing localized field quotes a verse, French uses a brief explanatory paraphrase, marked by wording such as « Le verset évoque… » or « Le passage évoque… », never a literal translation presented as Qur’an text. Existing verse references, verification notes and all other locale values remain unchanged. This is also a PR review note for the dataset rollout.
+- French word-map titles originate in `cards/wordmap/seeds.yaml`; `npm run wordmap` regenerated the three JSON files and passed corpus identity. The generator drops the existing `kids: true` flag on `wa-bashshir.json`; restored that pre-existing flag after generation, without changing generator code or widening the opt-in.
+- Coverage: `cards: 39 data files, 698 localized mappings, 0 missing fr`. Parsed-data comparison, after removing French, confirms all existing card data unchanged. The focused run passed 159/160 tests; its only failure was the regenerated missing kids flag. After restoring the flag, the kids suite passed all 29 tests. The other three focused suites had passed unchanged; standalone validators report lists 12, explainers 13 and stories 8 decks OK.
+
 ## 2026-11-18 — infrastructure landed (session 1)
 
 Done:
