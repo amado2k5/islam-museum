@@ -115,6 +115,9 @@ Wave 10 (the last one translated by Claude subagents) is complete: `content/es/`
 - **Order and holds:** shortest first, class by class (`event`, `place`, `work`, `person`, `concept`, `building`, `object`, then the other classes, then `practice`, `question` and the non-Qur'an `passage` records, from English as instructed). Held as before: the Qur'an passage pages, the firewall-exception records, records with reading-level sections, damaged English files. The French thread also skips the 2,050 records the French lane already has on `release/french` or any of its work branches (`fr-taken.txt`).
 - **Pilot, read by the lead agent:** `event/conquest-of-al-andalus` (608 words) translated into both languages in 70–80 s each at about 22 tokens/s, passing every check at the first attempt. Against the Claude translation of the same record the local Spanish is fluent and structurally exact but freer: it once turned "God opened cities and forts through his hands" into "God granted him victory, opening cities…", used "invadir" where the English says "raid", and closed a heading with a full stop. The prompt was tightened (stay close to the source, add nothing, fixed era abbreviations) and headings are trimmed; the second run kept the literal sense and the `H` era. Remaining tendency: small interpretive additions ("según la tradición que transmite…"). **The local output is a lower-fidelity draft than the Claude translations and no human has read it.** Each file names the model in `translators` and `provenance`.
 - **Started:** both threads at 15:11 local time on 18 Nov 2026.
+- **Speed work, measured on the founder's M4 Max (128 GB) with both threads running, in English words per wall-clock second:** first setup (Ollama, one request per paragraph) 2.5 Spanish + 3.1 French; several short runs of prose per request (still Ollama) 5.2 + 4.4; the MLX build of the same model (`mlx-community/translategemma-27b-it-4bit`, 15 GB, on the microSD) behind `scripts/local-mt/mlx_server.py`, which decodes four requests together, 8.2 + 3.4 with block batches and 5.1 + 5.0 with continuous batching. A stand-alone benchmark gave 23 tokens/s for one paragraph and 46 tokens/s for four together (eight together: no further gain), so about 10–12 words/s in total is near what this model does on this machine. **Now running:** MLX, continuous batching, two records at a time per language. At that rate the remaining prose is weeks of continuous running for the two languages, not days.
+- **Self-healing, tested:** killing a translator, and separately killing the model server, were both followed by an automatic restart by the supervisors within a minute.
+- **Hourly auto-ship:** `scripts/local-mt/autoship.sh` runs `scripts/local-mt/ship.sh` once an hour (validate, set aside any record the validator refuses, commit, pull request into `release/spanish`, merge); log in `…/logs/ship.log`; stop with a `STOP-ship` file.
 
 ### `main` merged into `release/spanish` (founder instruction in chat, 18 Nov 2026)
 
@@ -160,10 +163,11 @@ Open after the restore: `main` still carries the marks (not touched from this la
 - Wave 10, packet 8: landed and merged; `content/es/` holds 3,792 files; `npm run validate` 0 errors.
 - 2026-11-18 15:23 local machine translation shipped: `content/es/` 3,806 files, `content/fr/` 54 files; `npm run validate` 0 errors.
 - 2026-11-18 15:38 local machine translation shipped: `content/es/` 3,833 files, `content/fr/` 134 files; `npm run validate` 0 errors.
+- 2026-11-18 16:31 local machine translation shipped: `content/es/` 3,917 files, `content/fr/` 294 files; `npm run validate` 0 errors.
 
 ## Explicit gaps
 
-- `content/es/`: 3,833 files of about 34,800 (waves 1 to 8 so far, above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
+- `content/es/`: 3,917 files of about 34,800 (waves 1 to 8 so far, above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
 - `data/*.yaml`: no `label.es` / `summary.es`.
 - Datasets (`edu/`, `kids/`, `tour/`, `cards/`): no `es` fields; the strict loaders still require only ar, en and ur.
 - Spanish Qur'an translation for passage pages: no source chosen or registered (`scripts/harvest/quran/translations.py` takes English and Urdu only). The translation and its licence are pending the founder's confirmation.

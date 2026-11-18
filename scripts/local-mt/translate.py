@@ -16,7 +16,7 @@ What it does, per record (shortest first, class by class):
   * appends one JSON line per record to the log (ok / failed with the reason), so a supervisor or a person can tail it.
 It is restartable: a record that already has a file in the target language is skipped.
 """
-import argparse, glob, json, os, re, sys, time, urllib.request
+import argparse, concurrent.futures, glob, itertools, json, os, re, sys, threading, time, urllib.request
 
 import yaml
 
@@ -59,7 +59,7 @@ def call_model(host, model, lang, text, temperature=0.0):
     prompt = (f"You are a professional English (en) to {name} ({lang}) translator. Your goal is to accurately convey the meaning and nuances "
               f"of the original English text while adhering to {name} grammar, vocabulary, and cultural sensitivities.\n"
               f"Produce only the {name} translation, without any additional explanations or commentary. "
-              f"Keep every marker of the form [[N]] and every pair <xN>…</xN> exactly as written, in the matching place. "
+              f"Keep every marker of the form [[N]] and every pair <xN>…</xN> and <sN>…</sN> exactly as written, in the matching place; translate what is inside each <sN>…</sN> separately. "
               f"Keep personal names and transliterated Arabic terms in the spelling the English uses. "
               f"Stay close to the source: add no explanation, cause or word that is not in the English, and keep every attribution and hedge exactly as strong as it is. "
               f"{ERA_RULE[lang]} "
@@ -72,41 +72,82 @@ def call_model(host, model, lang, text, temperature=0.0):
     return d["message"]["content"].strip(), d.get("eval_count", 0), d.get("eval_duration", 0)
 
 
+def protect(text, base_k=0, base_l=0):
+    """Hide what must survive verbatim behind [[N]] markers and wrap link labels in <xN>…</xN>. Returns (source, kept, link ids)."""
+    kept, links = [], []
+
+    def keep(m):
+        kept.append(m.group(0)); return f"[[{base_k + len(kept)}]]"
+
+    def link(m):
+        links.append(m.group(1)); return f"<x{base_l + len(links)}>{m.group(2)}</x{base_l + len(links)}>"
+
+    src = PROTECT.sub(keep, text)  # first: its HTML pattern must never see the <xN> link tags added next
+    src = LINK.sub(link, src)
+    return src, kept, links
+
+
+def restore(out, kept, links, base_k=0, base_l=0):
+    """Put the protected text back. Returns None if a marker or a link tag did not survive exactly once."""
+    for i in range(len(kept)):
+        if out.count(f"[[{base_k + i + 1}]]") != 1: return None
+    for i in range(len(links)):
+        if len(re.findall(rf"<x{base_l + i + 1}>[^<]*</x{base_l + i + 1}>", out)) != 1: return None
+    if len(re.findall(r"\[\[\d+\]\]", out)) != len(kept) or len(re.findall(r"<x\d+>", out)) != len(links): return None
+    for i, ident in enumerate(links):
+        out = re.sub(rf"<x{base_l + i + 1}>([^<]*)</x{base_l + i + 1}>", lambda m, ident=ident: f"[[{ident}|{m.group(1).strip()}]]", out)
+    for i, k in enumerate(kept):
+        out = out.replace(f"[[{base_k + i + 1}]]", k)
+    return out
+
+
 def translate_text(host, model, lang, text, stats):
     """Translate one run of prose, keeping protected spans and link ids intact. Raises ValueError if they do not survive."""
     if not re.search(r"[A-Za-z]{2}", text):
         return text
-    kept, links = [], []
-
-    def keep(m):
-        kept.append(m.group(0)); return f"[[{len(kept)}]]"
-
-    def link(m):
-        links.append(m.group(1)); return f"<x{len(links)}>{m.group(2)}</x{len(links)}>"
-
-    src = PROTECT.sub(keep, text)  # first: its HTML pattern must never see the <xN> link tags added next
-    src = LINK.sub(link, src)
+    src, kept, links = protect(text)
     last = None
-    for attempt, temp in enumerate((0.0, 0.3, 0.6)):
+    for temp in (0.0, 0.3, 0.6):
         out, n, dur = call_model(host, model, lang, src, temp)
         stats["tokens"] += n; stats["ns"] += dur
-        out = out.replace("\n\n", " ").strip() if "\n\n" not in src else out
-        ok = all(out.count(f"[[{i + 1}]]") == 1 for i in range(len(kept))) and \
-            all(len(re.findall(rf"<x{i + 1}>[^<]*</x{i + 1}>", out)) == 1 for i in range(len(links))) and \
-            len(re.findall(r"\[\[\d+\]\]", out)) == len(kept) and len(re.findall(r"<x\d+>", out)) == len(links)
-        if ok:
-            for i, ident in enumerate(links):
-                out = re.sub(rf"<x{i + 1}>([^<]*)</x{i + 1}>", lambda m, ident=ident: f"[[{ident}|{m.group(1).strip()}]]", out)
-            for i, k in enumerate(kept):
-                out = out.replace(f"[[{i + 1}]]", k)
-            out = re.sub(r" +(\[\[)", r" \1", out)
-            return out
+        out = out.replace("\n\n", " ").replace("\n", " ").strip()
+        done = restore(out, kept, links)
+        if done is not None: return done
         last = out
     raise ValueError(f"markers lost after 3 attempts: {last[:120]!r}")
 
 
+BATCH_WORDS = 260  # short runs of prose are sent together: one request instead of one per paragraph
+
+
+def translate_group(host, model, lang, texts, stats):
+    """Translate several runs in one request, each wrapped as <sN>…</sN>. Falls back to one request per run."""
+    if len(texts) == 1: return [translate_text(host, model, lang, texts[0], stats)]
+    parts, meta, bk, bl = [], [], 0, 0
+    for i, t in enumerate(texts):
+        src, kept, links = protect(t, bk, bl)
+        parts.append(f"<s{i + 1}>{src}</s{i + 1}>"); meta.append((kept, links, bk, bl)); bk += len(kept); bl += len(links)
+    out, n, dur = call_model(host, model, lang, "\n".join(parts), 0.0)
+    stats["tokens"] += n; stats["ns"] += dur
+    res = []
+    for i, (kept, links, k0, l0) in enumerate(meta):
+        m = re.findall(rf"<s{i + 1}>(.*?)</s{i + 1}>", out, re.S)
+        done = restore(m[0].replace("\n", " ").strip(), kept, links, k0, l0) if len(m) == 1 else None
+        if done is None or not done.strip():
+            stats["fallbacks"] = stats.get("fallbacks", 0) + 1
+            return [translate_text(host, model, lang, t, stats) for t in texts]
+        res.append(done)
+    return res
+
+
 def translate_body(host, model, lang, body, stats):
-    out = []
+    # Pass 1: lay the body out as fixed pieces and runs to translate. Pass 2: translate the runs in groups. Pass 3: join.
+    layout, runs = [], []  # layout: list of blocks, each a list of lines; a line is a str or (prefix, run index, heading?)
+
+    def run(prefix, text, head=False):
+        if not re.search(r"[A-Za-z]{2}", text): return prefix + text
+        runs.append(text); return (prefix, len(runs) - 1, head, text)
+
     for block in body.split("\n\n"):
         lines = []
         for line in block.split("\n"):
@@ -115,14 +156,34 @@ def translate_body(host, model, lang, body, stats):
             m = re.match(r"^(#{1,6} )(.*)$", line)
             if m:
                 head = m.group(2).strip()
-                tr_head = FIXED_HEADINGS[lang].get(head) or translate_text(host, model, lang, head, stats)
-                if not head.endswith("."): tr_head = tr_head.rstrip(".")  # the model likes to close a heading with a full stop
-                lines.append(m.group(1) + tr_head); continue
+                lines.append(m.group(1) + FIXED_HEADINGS[lang][head] if head in FIXED_HEADINGS[lang] else run(m.group(1), head, True)); continue
             m = re.match(r"^(\s*(?:[-*]|\d+\.) +)(.*)$", line) or re.match(r"^(> ?)(.*)$", line)
-            if m:
-                lines.append(m.group(1) + translate_text(host, model, lang, m.group(2), stats)); continue
-            lines.append(translate_text(host, model, lang, line, stats))
-        out.append("\n".join(lines))
+            lines.append(run(m.group(1), m.group(2)) if m else run("", line))
+        layout.append(lines)
+    done, group, words = {}, [], 0
+
+    def flush():
+        nonlocal group, words
+        if group:
+            for i, tr in zip(group, translate_group(host, model, lang, [runs[i] for i in group], stats)): done[i] = tr
+        group, words = [], 0
+
+    for i, t in enumerate(runs):
+        w = len(t.split())
+        if w > BATCH_WORDS: flush(); done[i] = translate_text(host, model, lang, t, stats); continue
+        if words + w > BATCH_WORDS: flush()
+        group.append(i); words += w
+    flush()
+    out = []
+    for lines in layout:
+        res = []
+        for ln in lines:
+            if isinstance(ln, str): res.append(ln); continue
+            prefix, i, head, src = ln
+            tr = done[i]
+            if head and not src.endswith("."): tr = tr.rstrip(".")  # the model likes to close a heading with a full stop
+            res.append(prefix + tr)
+        out.append("\n".join(res))
     return "\n\n".join(out)
 
 
@@ -169,6 +230,7 @@ def main():
     ap.add_argument("--host", default="http://127.0.0.1:11500")
     ap.add_argument("--classes", default="")
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--workers", type=int, default=1, help="records translated at once (2 per language fills the MLX server's batch of 4)")
     ap.add_argument("--log", required=True)
     ap.add_argument("--out", default=ROOT, help="root that receives content/<lang>/… (default: the repository)")
     ap.add_argument("--taken", default="", help="file of ids to skip (already translated elsewhere)")
@@ -182,12 +244,13 @@ def main():
     if not a.retry_failed and os.path.exists(failed_path):
         taken |= set(l.split("\t")[0].strip() for l in open(failed_path, encoding="utf-8"))
     run = f"local-mt-{lang}-{time.strftime('%Y-%m-%d')}"
-    done = 0
-    log(a.log, event="start", lang=lang, model=a.model, pid=os.getpid())
-    for ident in ([i for i in a.ids.split(",") if i] if a.ids else queue(lang, [c for c in a.classes.split(",") if c], taken)):
-        if a.limit and done >= a.limit: break
+    done = [0]
+    lock = threading.Lock()
+    log(a.log, event="start", lang=lang, model=a.model, pid=os.getpid(), workers=a.workers)
+
+    def do_record(ident):
         target = os.path.join(a.out, "content", lang, ident + ".md")
-        if os.path.exists(target): continue
+        if os.path.exists(target): return
         raw = open(os.path.join(ROOT, "content", "en", ident + ".md"), encoding="utf-8").read()
         m = re.match(r"^---\n(.*?)\n---\n?(.*)$", raw, re.S)
         t0 = time.time(); stats = {"tokens": 0, "ns": 0}
@@ -200,7 +263,7 @@ def main():
             problem = check(body, tr, lang)
             if problem: raise ValueError(problem)
             new = {"id": ident, "lang": lang, "source_lang": "en",
-                   "translators": [f"TranslateGemma 27B ({a.model}, run locally with Ollama), draft translation"]}
+                   "translators": [f"TranslateGemma 27B ({a.model}, run locally on the founder's Mac), draft translation"]}
             for k, v in fm.items():
                 if k not in ("id", "lang", "source_lang", "translators", "provenance", "translation_of"): new[k] = v
             new["provenance"] = {"generated_by": "scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)",
@@ -211,14 +274,24 @@ def main():
             tmp = target + ".tmp"
             with open(tmp, "w", encoding="utf-8") as f: f.write(text)
             os.replace(tmp, target)
-            done += 1
-            log(a.log, event="ok", id=ident, words=len(body.split()), secs=round(time.time() - t0, 1),
-                tok_s=round(stats["tokens"] / (stats["ns"] / 1e9), 1) if stats["ns"] else 0, n=done)
+            with lock:
+                done[0] += 1
+                log(a.log, event="ok", id=ident, words=len(body.split()), secs=round(time.time() - t0, 1),
+                    tok_s=round(stats["tokens"] / (stats["ns"] / 1e9), 1) if stats["ns"] else 0, n=done[0])
         except (ValueError, KeyError) as e:
-            with open(failed_path, "a", encoding="utf-8") as f: f.write(f"{ident}\t{e}\n")
-            log(a.log, event="failed", id=ident, reason=str(e)[:200], secs=round(time.time() - t0, 1))
+            with lock:
+                with open(failed_path, "a", encoding="utf-8") as f: f.write(f"{ident}\t{e}\n")
+                log(a.log, event="failed", id=ident, reason=str(e)[:200], secs=round(time.time() - t0, 1))
         except Exception as e:  # the server is down or busy: stop, the supervisor restarts us
-            log(a.log, event="crash", id=ident, reason=repr(e)[:300]); sys.exit(2)
+            with lock:
+                log(a.log, event="crash", id=ident, reason=repr(e)[:300])
+            os._exit(2)
+
+    ids = [i for i in a.ids.split(",") if i] if a.ids else queue(lang, [c for c in a.classes.split(",") if c], taken)
+    if a.limit: ids = itertools.islice(ids, a.limit)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=a.workers) as pool:
+        list(pool.map(do_record, ids))
+    done = done[0]
     log(a.log, event="done", lang=lang, translated=done)
 
 
