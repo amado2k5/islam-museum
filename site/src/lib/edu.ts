@@ -5,7 +5,7 @@ import { parse } from "yaml";
 import { repoPath } from "./paths";
 import type { Lang } from "./i18n";
 
-export interface Tri { ar: string; en: string; ur: string }
+export interface Tri { ar: string; en: string; ur: string; fr?: string }
 export interface BandActivity { id: string; href: string; glyph: string; label_key: string }
 export interface Band {
   id: string;
@@ -30,7 +30,7 @@ export interface Stamp {
   earn: { key: string; rule: string };
 }
 
-const pick = (t: Tri, lang: Lang): string => t[lang] ?? t.ar;
+const pick = (t: Tri, lang: Lang): string => t[lang] ?? t.en ?? t.ar;
 
 let bandsCache: Band[] | null = null;
 export function loadBands(): Band[] {

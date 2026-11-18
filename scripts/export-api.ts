@@ -934,7 +934,7 @@ export function exportApi(c: Compiled) {
   // Canon-first search (scripts/search-canon.ts): per language, the names that stand for a canon record. The search
   // page fetches its language's file once and shows the record a query names above Pagefind's results. No `generated`
   // field: the file changes only when a canon record's names do.
-  for (const lang of ["ar", "en", "ur"] as const) write(`meta/search-canon.${lang}.json`, JSON.stringify(canonSearchIndex(c, lang, buildSynonyms(c, lang === "en" ? "en" : "ar").whole)));
+  for (const lang of ["ar", "en", "ur", "fr"] as const) write(`meta/search-canon.${lang}.json`, JSON.stringify(canonSearchIndex(c, lang, buildSynonyms(c, lang === "en" || lang === "fr" ? "en" : "ar").whole)));
   const inventionData = inventionApiData(c);
   write("inventions.json", JSON.stringify(inventionData.inventions, null, 1));
   write("inventions/chains.json", JSON.stringify(inventionData.chains, null, 1));

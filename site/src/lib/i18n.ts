@@ -2,18 +2,18 @@ import { readFileSync } from "node:fs";
 import { repoPath } from "./paths";
 import { parse } from "yaml";
 
-// Arabic canonical, English published beside it (docs/language.md): /ar/ and /en/ ship together.
-export const LANGS = ["ar", "en", "ur"] as const;
-export const ALL_LANGS = ["ar", "en", "ur"] as const;
-export type Lang = "ar" | "en" | "ur";
-/** The next language in the switcher cycle: ar → en → ur → ar. */
+// Arabic canonical, English, Urdu and French published beside it (docs/language.md): /ar/, /en/, /ur/ and /fr/ ship together.
+export const LANGS = ["ar", "en", "ur", "fr"] as const;
+export const ALL_LANGS = ["ar", "en", "ur", "fr"] as const;
+export type Lang = "ar" | "en" | "ur" | "fr";
+/** The next language in the switcher cycle: ar → en → ur → fr → ar. */
 export const nextLang = (l: Lang): Lang => LANGS[(LANGS.indexOf(l) + 1) % LANGS.length];
 /** Languages whose UI and prose share the Arabic script and the Naskh faces. */
 export const ARABIC_SCRIPT: readonly Lang[] = ["ar", "ur"];
 /** Open Graph locale per language. */
-export const OG_LOCALE: Record<Lang, string> = { ar: "ar_AR", en: "en_US", ur: "ur_PK" };
+export const OG_LOCALE: Record<Lang, string> = { ar: "ar_AR", en: "en_US", ur: "ur_PK", fr: "fr_FR" };
 /** Intl locale for numbers: Western digits everywhere (docs/language.md), grouping per language. */
-export const NUM_LOCALE: Record<Lang, string> = { ar: "ar-EG-u-nu-latn", en: "en-GB", ur: "ur-PK-u-nu-latn" };
+export const NUM_LOCALE: Record<Lang, string> = { ar: "ar-EG-u-nu-latn", en: "en-GB", ur: "ur-PK-u-nu-latn", fr: "fr-FR" };
 
 const cache = new Map<string, any>();
 /** Fill keys a language has not translated yet from English, so a page renders instead of crashing. */

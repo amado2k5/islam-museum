@@ -52,7 +52,7 @@ const esc = (s: string) =>
  */
 export function kidsHonorify(text: string, lang: Lang, names: string[]): string {
   let t = esc(text);
-  const suffix = lang === "ar" ? "عليه السلام" : lang === "ur" ? "علیہ السلام" : "(peace be upon him)";
+  const suffix = lang === "ar" ? "عليه السلام" : lang === "ur" ? "علیہ السلام" : lang === "fr" ? "(paix soit sur lui)" : "(peace be upon him)";
   for (const name of names) {
     if (!name) continue;
     const i = t.indexOf(name);
@@ -154,7 +154,7 @@ export interface SproutLine { slug: string; icon: string; line: string; lineHtml
 /** Buds-lane (4–6) one-liners: lang-selected sprout, honorified with that stop's prophet name. */
 export function viewSproutLines(stops: QuestStop[], lang: Lang): SproutLine[] {
   return stops.map((s) => {
-    const line = s.sprout?.[lang] ?? "";
+    const line = s.sprout?.[lang] ?? (lang === "fr" ? s.sprout?.en : s.sprout?.ar) ?? "";
     return {
       slug: s.slug,
       icon: s.icon,

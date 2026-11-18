@@ -229,7 +229,7 @@ def sources_at(commit, record_id):
     listed = [x.replace("source/", "").strip("\"'") for x in items if x]
     # a source the record's own prose already cited at that commit is "already cited in that record" too
     cited = []
-    for lang in ("ar", "en", "ur"):
+    for lang in ("ar", "en", "ur", "fr"):
         cited += CITE.findall(sh(f"git show {commit}:content/{lang}/{record_id}.md"))
     return sorted(set(listed) | set(cited))
 

@@ -57,7 +57,7 @@ jobs:
             package-lock.json
             site/package-lock.json
       - run: npm ci && npm ci --prefix site
-      - name: Records this pull request changed (built in the three languages)
+      - name: Records this pull request changed (built in the four languages)
         if: env.SAMPLE_BUILD == '1'
         run: npm run sample:routes -- --base HEAD^1 --head HEAD
       # `npm run build` runs `validate` first (prebuild), so content errors still stop the job before Astro starts.
