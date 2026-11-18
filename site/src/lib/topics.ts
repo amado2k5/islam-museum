@@ -9,6 +9,7 @@ import { repoPath } from "./paths";
 import { byId, SITE } from "./graph";
 import { a11yLd } from "./a11y";
 import type { Tri } from "./edu";
+import type { Lang } from "./i18n";
 
 export interface TopicOption { text: Tri; correct: boolean; why: Tri }
 export interface TopicQuestion { q: Tri; options: TopicOption[] }
@@ -58,15 +59,15 @@ export function loadTopics(): Topic[] {
 
 /** schema.org Course for one taught topic's 60-second page (E4 close-out: the teen wing is a
  * course family; the sitemap carries these routes already via @astrojs/sitemap). */
-export function courseLd(t: Topic, lang: (typeof LANGS)[number]) {
+export function courseLd(t: Topic, lang: Lang) {
   const url = `${SITE}/${lang}/shabab/60s/${t.id}/`;
   return {
     "@context": "https://schema.org",
     "@type": "Course",
     "@id": url,
     url,
-    name: t.title[lang],
-    description: t.sixty[lang],
+    name: t.title[lang] ?? t.title.en,
+    description: t.sixty[lang] ?? t.sixty.en,
     inLanguage: lang,
     isAccessibleForFree: true,
     license: "https://creativecommons.org/licenses/by-sa/4.0/",

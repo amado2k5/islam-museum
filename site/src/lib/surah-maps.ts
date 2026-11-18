@@ -5,7 +5,7 @@ import { parse } from "yaml";
 import { parseLocalized } from "./i18n";
 import { repoPath } from "./paths";
 
-export interface MapTitle { ar: string; en: string; ur?: string }
+export interface MapTitle { ar: string; en: string; ur?: string; fr?: string }
 export interface MapKid { title: MapTitle; range: [number, number] }
 export interface MapSection { title: MapTitle; range: [number, number]; family: string; summary: MapTitle; children: MapKid[] }
 export interface SurahMapFile { surah: number; slug: string; map: MapSection[] }

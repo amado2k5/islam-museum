@@ -86,13 +86,13 @@ describe("Modern Islam Browser: reach index", () => {
       { award: "award/chart", result: "ranked", position: 5, year: 2010, sources: ["source/x"] },
     ],
     reach: [{ platform: "youtube", metric: "views", value: 100_000_000, date: "2026-11-01", sources: ["source/x"] }, { platform: "youtube", metric: "views", value: 1_000, date: "2020-01-01", sources: ["source/x"] }],
-    footprint: { wikipedia: { languages: ["ar", "en", "ur"] }, press: [{ source: "source/p1", date: year("2010") }] },
+    footprint: { wikipedia: { languages: ["ar", "en", "ur", "fr"] }, press: [{ source: "source/p1", date: year("2010") }] },
     relations: [{ type: "has_version", target: "work/cover" }],
   };
   it("scores from cited inputs with the printed weights, reproducibly", () => {
     const s = reachScore(song, awards)!;
-    expect(s.inputs).toEqual({ honours: 14, certified: 10, chart: 8, reach: 8, wikipedia: 3, press: 1, covers: 1 });
-    expect(s.score).toBe(45);
+    expect(s.inputs).toEqual({ honours: 14, certified: 10, chart: 8, reach: 8, wikipedia: 4, press: 1, covers: 1 });
+    expect(s.score).toBe(46);
     expect(reachScore(song, awards)).toEqual(s);
     expect(reachScore({ id: "work/empty", class: "work", kind: "song" })).toBeNull();
   });

@@ -12,8 +12,8 @@ journeys:
   - id: hira
     kind: "حدث"
     build: hira
-    title: { ar: "غار حراء", en: "Cave of Hira", ur: "غارِ حرا" }
-    sub: { ar: "مكة · 610م", en: "Mecca · 610 CE", ur: "مکہ · 610 عیسوی" }
+    title: { ar: "غار حراء", en: "Cave of Hira", ur: "غارِ حرا" , fr: "Grotte de Hira" }
+    sub: { ar: "مكة · 610م", en: "Mecca · 610 CE", ur: "مکہ · 610 عیسوی" , fr: "La Mecque · 610 ap. J.-C." }
     lines:
       ar:
         - "ليلٌ ساكن يلفّ جبال مكة. أمامك جبل النور، وفي أعلاه غارٌ صغير مظلم."
@@ -23,11 +23,15 @@ journeys:
         - "A still night wraps around the mountains of Mecca. Before you rises Jabal al-Nour, and near its peak a small dark cave."
         - "On a night like this, over 1,400 years ago, the revelation of the Quran began."
         - "We see no one here — only silence, stars, and the mountain. Stand a moment and contemplate the enormity of the beginning."
+      fr:
+        - "Une nuit paisible enveloppe les montagnes de La Mecque. Devant vous se dresse le Jabal al-Nour et, près de son sommet, une petite grotte sombre."
+        - "Par une nuit semblable, il y a plus de 1 400 ans, la révélation du Coran a commencé."
+        - "Personne n’apparaît ici : seulement le silence, les étoiles et la montagne. Arrêtez-vous un instant pour méditer sur l’ampleur de ce commencement."
   - id: madinah
     kind: "مكان"
     build: madinah
-    title: { ar: "المسجد الأول", en: "The First Mosque", ur: "پہلی مسجد" }
-    sub: { ar: "المدينة · 622م", en: "Medina · 622 CE", ur: "مدینہ · 622 عیسوی" }
+    title: { ar: "المسجد الأول", en: "The First Mosque", ur: "پہلی مسجد" , fr: "La première mosquée" }
+    sub: { ar: "المدينة · 622م", en: "Medina · 622 CE", ur: "مدینہ · 622 عیسوی" , fr: "Médine · 622 ap. J.-C." }
     lines:
       ar:
         - "ساحة من التراب، أعمدة من جذوع النخل، وسقف من سعف النخيل المضفور."
@@ -37,11 +41,15 @@ journeys:
         - "A courtyard of packed earth, columns of palm trunks, and a roof of woven palm fronds."
         - "This was the first mosque in Medina: simple, close to the earth, gathering people in goodness."
         - "Simplicity here is beauty — look around and imagine the first rows."
+      fr:
+        - "Une cour de terre battue, des colonnes en troncs de palmier et un toit de palmes tressées."
+        - "Telle était la première mosquée de Médine : simple, proche de la terre, rassemblant les gens autour du bien."
+        - "La beauté réside ici dans la simplicité : regardez autour de vous et imaginez les premiers rangs."
   - id: baghdad
     kind: "مكان"
     build: baghdad
-    title: { ar: "بيت الحكمة", en: "The House of Wisdom", ur: "بیت الحکمت" }
-    sub: { ar: "بغداد · 830م", en: "Baghdad · 830 CE", ur: "بغداد · 830 عیسوی" }
+    title: { ar: "بيت الحكمة", en: "The House of Wisdom", ur: "بیت الحکمت" , fr: "La Maison de la sagesse" }
+    sub: { ar: "بغداد · 830م", en: "Baghdad · 830 CE", ur: "بغداد · 830 عیسوی" , fr: "Bagdad · 830 ap. J.-C." }
     lines:
       ar:
         - "المدينة المدوّرة: أسوار دائرية ضخمة تحيط بقصر الخلافة وقلب الدولة."
@@ -51,11 +59,15 @@ journeys:
         - "The Round City: massive circular walls enclosing the caliph's palace and the heart of the state."
         - "On the banks of the Tigris stood the House of Wisdom — where the sciences of Greece, Persia, and India were translated."
         - "Imagine shelves of manuscripts and the scratching of pens: algebra and algorithms were born here."
+      fr:
+        - "La Ville ronde : d’imposantes murailles circulaires entourent le palais du calife et le cœur de l’État."
+        - "Sur les rives du Tigre se dressait la Maison de la sagesse, où furent traduits les savoirs de la Grèce, de la Perse et de l’Inde."
+        - "Imaginez les rayonnages de manuscrits et le crissement des calames : c’est ici que sont nés l’algèbre et les algorithmes."
   - id: cordoba
     kind: "مكان"
     build: cordoba
-    title: { ar: "جامع قرطبة الكبير", en: "The Great Mosque of Cordoba", ur: "جامع مسجد قرطبہ" }
-    sub: { ar: "قرطبة · 970م", en: "Cordoba · 970 CE", ur: "قرطبہ · 970 عیسوی" }
+    title: { ar: "جامع قرطبة الكبير", en: "The Great Mosque of Cordoba", ur: "جامع مسجد قرطبہ" , fr: "La Grande Mosquée de Cordoue" }
+    sub: { ar: "قرطبة · 970م", en: "Cordoba · 970 CE", ur: "قرطبہ · 970 عیسوی" , fr: "Cordoue · 970 ap. J.-C." }
     lines:
       ar:
         - "غابة من الأعمدة: مئات الأعمدة الرخامية تعلوها أقواس مخططة بالأحمر والأبيض."
@@ -65,11 +77,15 @@ journeys:
         - "A forest of columns: hundreds of marble columns crowned with arches striped in red and white."
         - "The mosque of Cordoba was a beacon of learning, sought by students of knowledge from east and west."
         - "Walk between the columns and listen to your footsteps echo beneath the roof."
+      fr:
+        - "Une forêt de colonnes : des centaines de colonnes de marbre surmontées d’arcs rayés de rouge et de blanc."
+        - "La mosquée de Cordoue était un foyer du savoir qui attirait les étudiants d’Orient et d’Occident."
+        - "Marchez entre les colonnes et écoutez vos pas résonner sous le plafond."
   - id: cairo
     kind: "زمن"
     build: cairo
-    title: { ar: "القاهرة الفاطمية", en: "Fatimid Cairo", ur: "فاطمی قاہرہ" }
-    sub: { ar: "القاهرة · 969م", en: "Cairo · 969 CE", ur: "قاہرہ · 969 عیسوی" }
+    title: { ar: "القاهرة الفاطمية", en: "Fatimid Cairo", ur: "فاطمی قاہرہ" , fr: "Le Caire fatimide" }
+    sub: { ar: "القاهرة · 969م", en: "Cairo · 969 CE", ur: "قاہرہ · 969 عیسوی" , fr: "Le Caire · 969 ap. J.-C." }
     lines:
       ar:
         - "مدينة جديدة تولد من الرمال: القاهرة. مآذن وقباب ترتفع مع غروب الشمس."
@@ -79,11 +95,15 @@ journeys:
         - "A new city rising from the sands: Cairo. Minarets and domes climb into the sunset."
         - "Here al-Azhar Mosque would be built — a lighthouse of learning shining for over a thousand years."
         - "Look at the orange sky above the domes."
+      fr:
+        - "Une ville nouvelle surgit des sables : Le Caire. Minarets et coupoles se dressent dans le soleil couchant."
+        - "C’est ici que sera construite la mosquée al-Azhar, foyer du savoir qui rayonne depuis plus de mille ans."
+        - "Regardez le ciel orangé au-dessus des coupoles."
   - id: istanbul
     kind: "زمن"
     build: istanbul
-    title: { ar: "إسطنبول العثمانية", en: "Ottoman Istanbul", ur: "عثمانی استنبول" }
-    sub: { ar: "إسطنبول · 1600م", en: "Istanbul · 1600 CE", ur: "استنبول · 1600 عیسوی" }
+    title: { ar: "إسطنبول العثمانية", en: "Ottoman Istanbul", ur: "عثمانی استنبول" , fr: "Istanbul ottomane" }
+    sub: { ar: "إسطنبول · 1600م", en: "Istanbul · 1600 CE", ur: "استنبول · 1600 عیسوی" , fr: "Istanbul · 1600 ap. J.-C." }
     lines:
       ar:
         - "قبة عظيمة تتوسط السماء، تحفّ بها أنصاف القباب وأربع مآذن رشيقة كالأقلام."
@@ -93,11 +113,15 @@ journeys:
         - "A mighty dome fills the sky, ringed by half-domes and four slender minarets like pens."
         - "This is Sinan's architecture: engineering that defies gravity and glorifies beauty."
         - "The waters of the Bosphorus glitter before you, and the city stretches to the horizon."
+      fr:
+        - "Une immense coupole emplit le ciel, entourée de demi-coupoles et de quatre minarets élancés comme des calames."
+        - "Voici l’architecture de Sinan : une technique qui défie la pesanteur et célèbre la beauté."
+        - "Les eaux du Bosphore scintillent devant vous, et la ville s’étend jusqu’à l’horizon."
   - id: kaaba
     kind: "حدث"
     build: kaaba
-    title: { ar: "الكعبة المشرفة", en: "The Kaaba", ur: "خانۂ کعبہ" }
-    sub: { ar: "مكة · كل زمان", en: "Mecca · all eras", ur: "مکہ · ہر دور" }
+    title: { ar: "الكعبة المشرفة", en: "The Kaaba", ur: "خانۂ کعبہ" , fr: "La Kaaba" }
+    sub: { ar: "مكة · كل زمان", en: "Mecca · all eras", ur: "مکہ · ہر دور" , fr: "La Mecque · toutes les époques" }
     lines:
       ar:
         - "المكعّب المهيب مكسوًّا بالسواد المطرّز بالذهب — قبلة المسلمين في كل صلاة."
@@ -107,3 +131,7 @@ journeys:
         - "The majestic cube draped in gold-embroidered black — the qibla of Muslims in every prayer."
         - "For thousands of years people have circled it in a single row, rich and poor alike."
         - "Stand here in a moment of silence and contemplation."
+      fr:
+        - "Le majestueux cube est drapé de noir brodé d’or : c’est la qibla, vers laquelle les musulmans se tournent à chaque prière."
+        - "Depuis des milliers d’années, les gens en font le tour dans un même rang, riches et pauvres sans distinction."
+        - "Arrêtez-vous ici un instant, dans le silence et la contemplation."
