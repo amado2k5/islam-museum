@@ -1,5 +1,13 @@
 # french lane — progress
 
+## 2026-11-18 — building corpus packet 2 (Devin)
+
+- Run `fr-corpus-building-2`: records 26–50, `al-madrasa-al-nizamiyya-baghdad` → `bab-al-futuh`; full English-to-French prose and French labels/summaries, preserving existing YAML formatting.
+- Scoped packet check: PASS, 25 entities, 50 files, 0 errors, 17 inherited provenance/status warnings. Citation sequences, wiki-link IDs, needs_source markers and section counts match English; removing French data fields leaves the original data unchanged. Targeted tests: 15 passed.
+- Audience-level headings use exactly `Pour les Petits`, `Pour les Explorateurs`, `Pour les Chercheurs`; the three infrastructure issues reserved for #7416 remain untouched.
+- Inherited-defect fixes: none needed. Frozen-hook exclusions: none.
+- Non-impacting translation-only content; no new entities or submission claims. Next prose record: `building/bab-al-nasr`. Push cadence: after four continuation commits (packets 2–5).
+
 ## 2026-11-18 — building corpus packet 1 (Devin)
 
 - Branch: `devin/fr-corpus-building`, based on `origin/release/french`; no main changes.
