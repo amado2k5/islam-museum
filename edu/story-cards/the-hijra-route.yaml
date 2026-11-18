@@ -3,10 +3,12 @@ title:
   ar: "درب الهجرة"
   en: "The Hijra Route"
   ur: "ہجرت کا راستہ"
+  fr: "La route de l’Hégire"
 lede:
   ar: "من مكة إلى المدينة في ثماني ليالٍ — رحلة غيّرت التاريخ، تُروى في اثنتي عشرة بطاقة."
   en: "From Makkah to Madinah in eight nights — the journey that changed history, told in twelve cards."
   ur: "مکہ سے مدینہ تک آٹھ راتوں میں — وہ سفر جس نے تاریخ بدل دی، بارہ کارڈز میں۔"
+  fr: "De La Mecque à Médine en huit nuits : le voyage qui a changé l’histoire, raconté en douze cartes."
 status: { review: published }
 sources: [source/ibn-hisham-saqqa, source/al-waqidi-maghazi]
 
@@ -16,75 +18,87 @@ provenance:
   run: "education-E5-story-cards"
   source: "سيرة ابن هشام؛ الرحيق المختوم للمباركفوري — إعادة صياغة بأمانة، صيغة أطفال."
 cards:
-  - title: { ar: "الإذن بالرحيل", en: "Permission to leave", ur: "رخصتِ رحلت" }
+  - title: { ar: "الإذن بالرحيل", en: "Permission to leave", ur: "رخصتِ رحلت", fr: "La permission de partir" }
     motif: moon
     narration:
       ar: "في ليلة مباركة جاء الإذن، فخرج رسول الله من بيته وقد نام علي مكانه."
       en: "On a blessed night the permission came, and the Prophet left his house while Ali slept in his place."
       ur: "ایک مبارک رات اجازت آئی، تو رسول اللہ اپنے گھر سے نکلے جبکہ علی ان کی جگہ سوئے تھے۔"
-  - title: { ar: "بيت صديقة", en: "A loyal friend's house", ur: "وفادار دوست کا گھر" }
+      fr: "Une nuit bénie, le prophète Muhammad reçut la permission de partir. Il quitta sa maison tandis qu’Ali dormait à sa place."
+  - title: { ar: "بيت صديقة", en: "A loyal friend's house", ur: "وفادار دوست کا گھر", fr: "Chez un ami fidèle" }
     motif: city
     narration:
       ar: "ذهب أولاً إلى بيت أبي بكر، فاتفقا على الخروج معاً في جنح الظلام."
       en: "He went first to Abu Bakr's house, and the two agreed to leave together under cover of darkness."
       ur: "انہوں نے پہلے ابو بکر کے گھر جاکر مل کر اندھیرے میں نکلنے کا فیصلہ کیا۔"
-  - title: { ar: "الغار", en: "The cave", ur: "غار" }
+      fr: "Il se rendit d’abord chez Abou Bakr. Tous deux convinrent de partir ensemble à la faveur de l’obscurité."
+  - title: { ar: "الغار", en: "The cave", ur: "غار", fr: "La grotte" }
     motif: cave
     narration:
       ar: "لجآ إلى غار ثور ثلاثة أيام، والقوم يطلبونهما في كل مكان."
       en: "The two sheltered in Thawr's cave for three days while the searchers looked everywhere."
       ur: "دونوں غارِ ثور میں تین دن رہے جبکہ طالِبین ہر جگہ ڈھونڈتے رہے۔"
-  - title: { ar: "العنكبوت والحمامة", en: "The spider and the dove", ur: "مکڑی اور کبوتر" }
+      fr: "Ils se réfugièrent trois jours dans la grotte de Thawr, pendant que leurs poursuivants les cherchaient partout."
+  - title: { ar: "العنكبوت والحمامة", en: "The spider and the dove", ur: "مکڑی اور کبوتر", fr: "L’araignée et la colombe" }
     motif: star
     narration:
       ar: "تروى الكتب أن عنكبوتاً نسج بيتاً على باب الغار وحامة حاضنت عنده."
       en: "The books tell that a spider wove its web at the cave's mouth and a dove nested there."
       ur: "کتابوں میں ہے کہ مکڑی نے غار کے منہ پر جالا بُنا اور کبوتر وہاں بیٹھ گئی۔"
-  - title: { ar: "سراقة", en: "Suraqa's chase", ur: "سراقہ کا تعاقب" }
+      fr: "Les livres racontent qu’une araignée tissa sa toile à l’entrée de la grotte et qu’une colombe y fit son nid."
+  - title: { ar: "سراقة", en: "Suraqa's chase", ur: "سراقہ کا تعاقب", fr: "La poursuite de Suraqa" }
     motif: camel
     narration:
       ar: "لحق بهما سراقة بن مالك طمعاً في الجائزة، فساخت قوائم فرسه في الرمل."
       en: "Suraqa ibn Malik chased them for the bounty, and his mare's legs sank into the sand."
       ur: "انعام کی لالچ میں سراقہ بن مالک نے تعاقب کیا تو اس کی گھوڑی کی ٹانگیں ریت میں دنس گئیں۔"
-  - title: { ar: "الدليل", en: "The guide", ur: "رہنما" }
+      fr: "Suraqa ibn Malik les poursuivit dans l’espoir de toucher la récompense, mais sa jument s’enfonça dans le sable."
+  - title: { ar: "الدليل", en: "The guide", ur: "رہنما", fr: "Le guide" }
     motif: compass
     narration:
       ar: "استأجرا عبد الله بن أريقط دليلاً خبيراً بالطريق، وسار معهما على غير الطريق المعهود."
       en: "They hired Abd Allah ibn Urayqit, a guide who knew the sands, and he took them on an untravelled road."
       ur: "انہوں نے عبداللہ بن اریقط کو راستے کا ماہر رہنما رکھا اور وہ انہیں نئی راہ سے لے گیا۔"
-  - title: { ar: "ساحل البحر", en: "The sea coast", ur: "ساحلِ بحر" }
+      fr: "Ils engagèrent Abdallah ibn Urayqit, un guide qui connaissait le désert. Il les mena par un chemin peu fréquenté."
+  - title: { ar: "ساحل البحر", en: "The sea coast", ur: "ساحلِ بحر", fr: "Le littoral" }
     motif: sea
     narration:
       ar: "سلكوا طريق الساحل حتى لا يعثر عليهم أحد، والرمل يحفظ آثار النعال."
       en: "They travelled the coastal road so none would find them, the sand holding the tracks."
       ur: "کوئی انہیں نہ پالے اس لیے انہوں نے ساحل کا راستہ لیا، اور ریت نے نشانات سمیٹ لیے۔"
-  - title: { ar: "أم معبد", en: "Umm Ma'bad's tent", ur: "ام معبد کا ڈیرہ" }
+      fr: "Ils prirent la route du littoral pour que personne ne les trouve. Le sable gardait leurs empreintes."
+  - title: { ar: "أم معبد", en: "Umm Ma'bad's tent", ur: "ام معبد کا ڈیرہ", fr: "La tente d’Oumm Mabad" }
     motif: caravan
     narration:
       ar: "مرّا بخباء أم معبد الخزاعية، فحلبت لهم الشاة العجفاء لبناً كثيراً."
       en: "They passed Umm Ma'bad's tent, and her lean ewe gave them a full pail of milk."
       ur: "وہ ام معبد خزاعی کے ڈیرے سے گزرے اور اس کی دبلی بھیڑ نے بھرا بھرا دودھ دیا۔"
-  - title: { ar: "قُباء", en: "Quba", ur: "قباء" }
+      fr: "Ils passèrent devant la tente d’Oumm Mabad. Sa maigre brebis leur donna un seau entier de lait."
+  - title: { ar: "قُباء", en: "Quba", ur: "قباء", fr: "Qouba" }
     motif: mosque
     narration:
       ar: "في اليوم الثامن وصلا إلى قباء، فنزلا أياماً ووضعا أساس أول مسجد."
       en: "On the eighth day they reached Quba and stayed, laying the foundations of the first mosque."
       ur: "آٹھویں دن وہ قباء پہنچے اور وہاں ٹھہر کر پہلی مسجد کی بنیاد رکھی۔"
-  - title: { ar: "يوم الجمعة", en: "The first Friday", ur: "پہلا جمعہ" }
+      fr: "Le huitième jour, ils arrivèrent à Qouba et y séjournèrent, posant les fondations de la première mosquée."
+  - title: { ar: "يوم الجمعة", en: "The first Friday", ur: "پہلا جمعہ", fr: "Le premier vendredi" }
     motif: tree
     narration:
       ar: "في بني سالم بن عوف خطب أول خطبة جمعة في الإسلام."
       en: "Among the Banu Salim ibn Awf he delivered Islam's first Friday sermon."
       ur: "بنو سالم بن عوف میں انہوں نے اسلام کی پہلی جمعہ کی خطبہ دی۔"
-  - title: { ar: "الأنصار ينتظرون", en: "The Ansar wait", ur: "انصار کا انتظار" }
+      fr: "Chez les Banou Salim ibn Awf, le Prophète prononça le premier sermon du vendredi de l’islam."
+  - title: { ar: "الأنصار ينتظرون", en: "The Ansar wait", ur: "انصار کا انتظار", fr: "L’attente des Ansar" }
     motif: city
     narration:
       ar: "كان أهل المدينة يخرجون كل ضحى إلى الحرة ينتظرون، حتى نادى يهودي: قد جاء."
       en: "The people of Madinah waited on the lava ridge each morning, until a Jew cried: he has come."
       ur: "اہلِ مدینہ ہر صبح الحرہ پر منتظر رہتے، یہاں تک کہ ایک یہودی نے پکارا: وہ آ گئے۔"
-  - title: { ar: "المدينة المنورة", en: "The radiant city", ur: "مدینہ منورہ" }
+      fr: "Chaque matin, les habitants de Médine attendaient sur la crête de lave, jusqu’au jour où un homme juif s’écria que Muhammad arrivait."
+  - title: { ar: "المدينة المنورة", en: "The radiant city", ur: "مدینہ منورہ", fr: "La ville lumineuse" }
     motif: mosque
     narration:
       ar: "دخل المدينة والناس ينشدون، فصارت يثرب دار الهجرة ومنارة الإسلام."
       en: "He entered Madinah to singing crowds, and Yathrib became the home of the Hijra and Islam's beacon."
       ur: "وہ مدینہ میں داخل ہوئے اور لوگ نغمے گاتے رہے؛ یثرب ہجرت کا گھر اور اسلام کا مینار بن گئی۔"
+      fr: "La foule chanta à son entrée dans Médine. Yathrib devint le refuge de l’Hégire et un foyer de l’islam."
