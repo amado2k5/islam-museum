@@ -1,5 +1,13 @@
 # french lane — progress
 
+## 2026-11-18 — building corpus packet 3 (Devin)
+
+- Run `fr-corpus-building-3`: records 51–75, `bab-al-nasr` → `bir-yusuf-cairo`; full French prose, labels and summaries. Audience headings use the required French forms.
+- Scoped packet check: PASS, 25 entities, 51 files, 0 errors, 25 inherited provenance/status warnings. French citation sequences, wiki-link IDs, needs_source markers and section counts match English; removing French data fields leaves original data unchanged.
+- Inherited-defect fix: added the missing `content/ur/building/bibi-maryam-complex-narayanganj.md` translation after the packet checker rejected the missing Urdu page; English pivot and provenance recorded, no source facts changed. Frozen-hook exclusions: none.
+- Sacred-text handling: the inscriptions in `baba-adams-mosque` and `begumpur-mosque` are described rather than transcribed in French; no Qur’an text typed.
+- Non-impacting translation-only content; no new entities or submission claims. Next prose record: `building/bir-zamzam`. Push remains due after packet 5 (four continuation commits).
+
 ## 2026-11-18 — building corpus packet 2 (Devin)
 
 - Run `fr-corpus-building-2`: records 26–50, `al-madrasa-al-nizamiyya-baghdad` → `bab-al-futuh`; full English-to-French prose and French labels/summaries, preserving existing YAML formatting.
