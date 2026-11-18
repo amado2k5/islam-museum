@@ -1,5 +1,13 @@
 # french lane — progress
 
+## 2026-11-18 — building corpus packet 5 (Devin)
+
+- Run `fr-corpus-building-5`: original queue records 101–125, `dar-al-raml-fustat` → `eski-cami-thessaloniki-acropolis`; 25 English-to-French prose translations and French labels/summaries without YAML re-dumping.
+- Scoped packet check: PASS, 25 entities, 50 files, 0 errors, 21 inherited provenance/status warnings. Citation sequences, wiki-link IDs, needs_source markers and section counts match English; removing French data fields leaves original data unchanged. Targeted tests: 15 passed.
+- Inherited-defect fixes: none needed. Left-out list remains `building/bibi-maryam-complex-narayanganj` (inherited missing Urdu page; packet four-language gate). Frozen-hook blocked list: empty.
+- No Qur’an text typed; inscriptions described only. Source date discrepancy in `davut-pasha-mosque` remains explicitly attributed, not silently repaired.
+- Retained total: 124 prose records; next unattempted record: `building/eski-mosque-edirne`. Label-only work not started. Plain push due after four new commits, with no gate bypass.
+
 ## 2026-11-18 — founder-lane boundary correction (Devin)
 
 - Removed `content/ur/building/bibi-maryam-complex-narayanganj.md`: Urdu belongs to the founder’s lane; no further Urdu edits are authorized.
