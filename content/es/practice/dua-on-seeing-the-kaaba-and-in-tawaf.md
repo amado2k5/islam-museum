@@ -1,0 +1,12 @@
+---
+id: practice/dua-on-seeing-the-kaaba-and-in-tawaf
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/practice/dua-on-seeing-the-kaaba-and-in-tawaf.md}
+---
+## Resumen
+Lo que al-Nawawi reúne al suplicar al ver la Ka'ba, en la sección sobre el recuerdo durante los circuitos y en el Multazam. {cite:al-adhkar-nawawi-arnaut-1994 p. 194}
+
+## Lo que al-Nawawi reúne en al-Adhkar
+Al-Nawawi dice que cuando un musulmán entra en La Meca, ve la Ka'ba y llega a la mezquita, se recomienda que levante las manos y ruegue, ya que ha llegado a que su súplica sea respondida al ver la Ka'ba. Luego dice «اللهم زد هذا البيت تشريفا وتعظيما وتكريما ومهابة», oh Dios, eleva esta Casa en honor, exaltación, posición noble y reverencia, y luego «اللهم أنت السلام ومنك السلام، حينا ربنا بالسلام», y pregunta qué desea {cite:al-adhkar-nawawi-arnaut-1994 p. 194}. En la sección sobre el recuerdo durante los circuitos, dice que al tocar la Piedra Negra y al comenzar el circuito se dice «بسم الله والله أكبر، اللهم إيمانا بك وتصديقا بكتابك ووفاء بعهدك واتباعا لسنة نبيك», repitiéndolo en cada circuito al enfrentarse a la Piedra {cite:al-adhkar-nawawi-arnaut-1994 p. 194}. En el rápido paseo de los tres primeros circuitos se dice «اللهم اجعله حجا مبرورا وذنبا مغفورا وسعيا مشكورا», y en los cuatro restantes «اللهم اغفر وارحم واعف عما تعلم وأنت الأعز الأكرم», y luego añade una súplica extraída de un verso que pronuncia {cite:al-adhkar-nawawi-arnaut-1994 p. 194}. Informa desde al-Shafi'i que la súplica de ese versículo es la que más ama en los circuitos, y que uno puede suplicar entre circuitos por lo que uno desea de la religión y de este mundo {cite:al-adhkar-nawawi-arnaut-1994 p. 195}. Relata de al-Hasan que la súplica se responde en quince lugares allí, entre ellos los circuitos, el Multazam y el Zamzam {cite:al-adhkar-nawawi-arnaut-1994 p. 195}. Dice que al-Shafi'i y la mayoría de sus compañeros consideraban recomendable recitar el Corán en los circuitos, que al-Halimi eligió otra cosa, y que la primera visión es la sonora {cite:al-adhkar-nawawi-arnaut-1994 p. 195}. En la sección sobre el Multazam, entre la Ka'ba y la Piedra Negra, dice que allí se responde a la súplica, y da un comienzo «اللهم لك الحمد حمدا يوافي نعمك ويكافئ مزيدك» {cite:al-adhkar-nawawi-arnaut-1994 p. 195}.
