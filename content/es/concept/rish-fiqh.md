@@ -1,0 +1,10 @@
+---
+id: concept/rish-fiqh
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: draft
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/rish-fiqh.md}
+---
+## Resumen
+Rish denota léxicamente el plumaje de las aves, y riyash denota mobiliario y ropa fina, mientras que en terminología fiqh se refiere al plumaje aviar correspondiente al pelo, la lana y el pelaje de mamíferos. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9048} Los juristas coinciden en establecer una analogía entre plumas y pelo; las plumas unidas a aves comestibles vivas son puras por consenso, mientras que las plumas arrancadas o caídas son consideradas puras por la mayoría, aunque los Malikis clasifican como puras y las púas como impuras, y los Shafi'is consideran impuras las partes del cuerpo separadas de animales vivos. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9049} Las plumas tomadas de carroña comestible son consideradas puras por los Hanafis y los Hanbalis porque no reside vida en ellas, impuras por los Shafi'is, y solo el pluma es pura según los Malikis si se esquilan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9050} El curtido de piel no purifica las plumas adheridas para los Shafi'is porque las plumas no se ven afectadas por los agentes curtidos, está prohibido arrancar plumas de caza en el estado de ihram y requiere compensación, y la limpieza en seco (istinja') con plumas limpias e impuras es permisible. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9051} Los contratos a plazo (salam) en plumas definidas por peso son válidos, y sumergir un ave azutada en agua hirviendo para arrancar plumas vuelve la carne interna impura si el calor hirviendo empuja las impurezas intestinales hacia el interior, mientras que el ablandado superficial de las púas sin cocción interna permite el lavado externo. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9052}

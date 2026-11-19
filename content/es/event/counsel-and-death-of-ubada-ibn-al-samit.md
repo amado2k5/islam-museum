@@ -1,0 +1,28 @@
+---
+id: event/counsel-and-death-of-ubada-ibn-al-samit
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/counsel-and-death-of-ubada-ibn-al-samit.md}
+---
+## Resumen
+[[person/ubada-ibn-al-samit|Ubada ibn al-Samit]] fue uno de los jefes de los Ansar, luchó en Badr, ocupó el cargo de juez en Palestina y se estableció en Siria. {cite:siyar-alam-nubala scan vol. 1 p. 391} Esta ficha reúne dos fragmentos de su último consejo: sus palabras a su hijo sobre la creencia en el decreto y sus palabras a al-Sunabihi durante una enfermedad, su muerte y lo que se dice de su tumba. Los textos del Sunan y del Sahih Muslim no se encontraban entre los escaneos consultados, por lo que ambos informes se presentan tal como aparecen en los libros biográficos y en el Hilya.
+
+## Fondo
+Umar envió a Ubada a Siria como juez y maestro; se quedó en Homs y luego se trasladó a Palestina. {cite:isti-ab-ibn-abd-al-barr scan vol. 1 p. 461} Ibn Abd al-Barr relata, citando a al-Awza'i, que fue el primer juez de Palestina y que discrepó con Mu'awiya sobre una cuestión de cambio de divisas; Mu'awiya le respondió bruscamente y Ubada dijo: «Jamás viviré en la misma tierra que tú». Fue a Medina, y Umar lo envió de vuelta a su puesto, escribiendo a Mu'awiya: «No tienes autoridad sobre Ubada». {cite:isti-ab-ibn-abd-al-barr scan vol. 1 p. 461} Según lo que había oído al-Dhahabi, era un hombre alto, corpulento y apuesto. {cite:siyar-alam-nubala scan vol. 1 p. 391}
+
+## Aconsejó a su hijo sobre la creencia en el decreto
+Abu Nu'aym relata de Ibrahim ibn Abi Abla de Abu Hafs que Ubada le dijo a su hijo: hijo mío, no encontrarás la realidad de la fe hasta que sepas que lo que te sucedió no pudo haberte pasado de largo y lo que te pasó de largo no pudo haberte sucedido de largo. Luego dijo que había oído al Profeta decir que lo primero que Dios creó fue la pluma; se le ordenó escribir, se le preguntó qué escribir, y se le ordenó escribir las medidas de todo hasta la Hora; y concluyó diciendo que había oído al Profeta decir: quien muera en algo distinto a esto no es de mí. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 scan vol. 5 p. 248} Abu Nu'aym llama a esta ruta gharib, siendo Yahya el único en relatarla de al-Walid, y señala que Ibrahim también la relató de Abu Yazid al-Awdi de Ubada con palabras similares. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 scan vol. 5 p. 248} No dice que se dijera mientras Ubada moría; lo da como consejo a su hijo.
+
+## Sus palabras a al-Sunabihi durante su enfermedad
+Abu Nu'aym relata de Mahmud ibn al-Rabi': estábamos con Ubada ibn al-Samit cuando enfermó, y [[person/abd-al-rahman-ibn-usayla-al-sunabihi|al-Sunabihi]] entró. Ubada dijo: quien quiera mirar a un hombre como si estuviera elevado por encima de los siete cielos y que luego actuara según lo que vio, que mire a este. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 scan vol. 5 p. 129} En un informe de Ibn Muhayriz: visitamos a Ubada, y cuando lo vio venir dijo lo mismo. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 scan vol. 5 p. 129} Ibn al-Athir e Ibn Abd al-Barr añaden que cuando al-Sunabihi llegó a él Ubada dijo: si me lo piden, testificaré por ti; si se me concede la intercesión, intercederé por ti; y si puedo, te haré el bien. {cite:usd-al-ghaba scan vol. 1 p. 1357} {cite:isti-ab-ibn-abd-al-barr scan vol. 2 p. 841} Sifat al-Safwa da la primera parte bajo la entrada de al-Sunabihi. {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 803} Los libros leídos dicen que estaba enfermo; no dicen que estuviera en su lecho de muerte.
+
+## Su muerte y tumba
+Al-Dhahabi dice que Ubada murió en al-Ramla en el año 34 de la Hégira, a la edad de setenta y dos años. {cite:siyar-alam-nubala scan vol. 3 p. 12} En otro lugar dice que murió en al-Ramla, o se dice que en Bayt al-Maqdis. {cite:siyar-alam-nubala scan vol. 1 p. 391} Ibn Abd al-Barr da su muerte en al-Ramla en el año 34, o se dice que en Bayt al-Maqdis. {cite:isti-ab-ibn-abd-al-barr scan vol. 2 p. 469} En otro lugar dice que murió en Palestina y fue enterrado en Bayt al-Maqdis, donde su tumba es bien conocida hasta el día de hoy, y cita a Damra, de los hombres de Abu Salama, diciendo que su tumba está en Bayt al-Maqdis. {cite:isti-ab-ibn-abd-al-barr scan vol. 1 p. 461}
+
+## En qué se diferencian los informes
+El lugar de su muerte se indica como al-Ramla o Bayt al-Maqdis; Ibn Abd al-Barr también menciona un informe que indica que murió en Medina, pero sostiene que la muerte en Palestina es la más conocida y la más difundida. {cite:isti-ab-ibn-abd-al-barr scan vol. 1 p. 461} En cuanto a la fecha, al-Dhahabi cita a Ibn Sa'd, quien oyó decir que vivió hasta su muerte en el califato de Mu'awiya. {cite:siyar-alam-nubala scan vol. 3 p. 12} Los libros consultados no indican qué dejó Ubada, ni quién lo lavó u oró por él.
+
+## Fuentes y documentación
+La ficha se basa en Hilyat al-awliya' de Abu Nu'aym, Usd al-ghaba de Ibn al-Athir, al-Isti'ab de Ibn Abd al-Barr, Siyar de al-Dhahabi y Sifat al-safwa de Ibn al-Jawzi. Los números de página corresponden a las páginas escaneadas tal como se leyeron. Los Sunan y Sahih Muslim no se incluyeron en los escaneos, por lo que no se menciona nada en particular sobre ellos; la verificación de la redacción de Hilya con respecto a esos textos se realizará posteriormente.

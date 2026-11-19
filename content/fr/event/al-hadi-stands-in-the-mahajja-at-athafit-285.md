@@ -1,0 +1,24 @@
+---
+id: event/al-hadi-stands-in-the-mahajja-at-athafit-285
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-stands-in-the-mahajja-at-athafit-285.md}
+---
+## Vue d'ensemble
+[[person/al-hadi-yahya-al-rassi|Al-Hadi]] se trouvait près de la voie principale, devant le centre ; lorsqu'il aperçut [[person/al-daam-ibn-ibrahim|al-Da'am]] et ses hommes sur le point de couper la route à ses compagnons sur [[place/al-kitd-athafit-yemen|al-Kitd]], il n'avait avec lui que sept cavaliers, parmi lesquels [[person/abdullah-ibn-al-husayn-al-futayimi|Abdullah ibn al-Husayn al-Futayimi]] et quelques-uns de ses compagnons ; il s'avança avec eux et se tint au milieu de la voie. {cite:sira-hadi-ila-al-haqq p.102} Ce récit est zaydite et rapporté par les disciples de l'imam ; le musée le présente tel que les narrateurs le racontent, sans porter de jugement.
+
+## Les accusations portées contre al-Hadi
+Voyant qu'al-Hadi ne disposait que de sept cavaliers, al-Da'am et ses hommes profitèrent de leur infériorité numérique et, espérant saisir l'occasion, chargèrent avec cent cavaliers et mille fantassins. Al-Hadi ne bougea pas et tint bon. {cite:sira-hadi-ila-al-haqq p.102} {cite:sira-hadi-ila-al-haqq p.103} Un de ses compagnons, dont le narrateur ne donne pas le nom, raconte qu'il était avec lui et qu'al-Da'am et ses hommes chargèrent à plusieurs reprises, misant sur leur supériorité numérique, mais qu'il ne bougea pas et ne leur prêta aucune attention. Un de leurs hommes, monté sur un cheval lancé à l'assaut, vint tirer sur lui et atteignit son armure et celle de son cheval de quinze flèches. {cite:sira-hadi-ila-al-haqq p.103} Il ajoute qu'on lui a rapporté que certains d'entre eux étaient émerveillés par son courage face à cent cavaliers et mille fantassins. {cite:sira-hadi-ila-al-haqq p.103}
+
+## Le récit de Sa'id ibn Abi Sura
+Le narrateur rapporte, d'après [[person/said-ibn-abi-sura|Sa'id ibn Abi Sura]], qui servait auprès d'al-Da'am et était l'un des cavaliers d'élite du Yémen, que ce dernier choisit trente cavaliers de l'armée d'al-Da'am, des hommes de valeur, irrités par la position d'al-Hadi et son indifférence à leur égard. Il les humilia et les incita à charger, et ils chargèrent comme un seul homme, espérant le faire tomber de cheval avec leurs lances. {cite:sira-hadi-ila-al-haqq p.103} Il dit qu'ils chargèrent jusqu'à être tout près, puis leurs mains se figèrent sur leurs lances et restèrent immobiles. Dieu fit naître en eux la crainte et la peur, et ils rebroussèrent chemin. Il sut que cela venait de Dieu et fit le serment devant Dieu de ne jamais le combattre. {cite:sira-hadi-ila-al-haqq p.103} Le narrateur ajoute qu'il se fraya un chemin discrètement jusqu'à rejoindre al-Hadi et servir fidèlement son gouvernement. {cite:sira-hadi-ila-al-haqq p.103} Le narrateur tient ce récit d'un homme qui avait combattu dans le camp adverse. L'attribution est faite à son émetteur, et le musée ne le confirme ni ne le dément.
+
+## Les propres mots d'Al-Hadi
+Le narrateur, Abou Ja'far Muhammad ibn Sulayman, rapporte avoir entendu al-Hadi dire qu'aucune crainte ne l'avait saisi et qu'il ne leur prêtait aucune attention, car il savait que Dieu était avec lui. Il savait aussi que s'il mourait, ce serait pour le Paradis, et que s'il tuait l'un d'eux, celui-ci irait en Enfer. {cite:sira-hadi-ila-al-haqq p.104} Un homme se tenait face à lui et lui jetait des pierres de près. Al-Hadi ordonna à l'un de ses compagnons de prendre une flèche et de tirer sur l'homme. Il tira une flèche de son armure, l'homme décocha et l'atteignit sous le nombril, au ventre, et il s'enfuit, dans un état lamentable. {cite:sira-hadi-ila-al-haqq p.104}
+
+## Le commentaire du narrateur
+Le narrateur entendit les gens s'émerveiller de la résistance d'al-Hadi ce jour-là, la qualifiant de farouche et d'impressionnante, une résistance par laquelle Dieu avait affermi la vérité et humilié le mensonge ; il la considère comme un signe de l'imamat d'al-Hadi et une preuve de celui-ci, car un lâche, en un tel lieu, aurait fui et le peuple aurait été tué, tandis qu'al-Da'am et son armée le chargèrent, le forçant à fuir et à abandonner ses compagnons. {cite:sira-hadi-ila-al-haqq p.104} Tel est le raisonnement du narrateur zaydite ; le musée le lui attribue sans l'adopter et n'en présente aucun autre ici, car le livre n'en propose aucun. Voir [[event/end-of-the-battle-and-the-camp-at-al-darb-285]].
+
+## La date
+C'est le même jour que le précédent, le vendredi 14 Shawwal 285 H, selon la séquence du narrateur.

@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0852/0855", calendar: julian, precision: year, status: tradition, derived: true, note: "قدم سر من رأى سنة 241 (البلاذري ص 297). التحويل مشتق." }
+  start: { edtf: "0852/0855", calendar: julian, precision: year, status: tradition, derived: true, note: "قدم سر من رأى سنة 241 ⁦(البلاذري ص 297)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/armenia }
   - { type: occurred_at, target: place/jurzan }
@@ -21,7 +21,7 @@ relations:
   - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 297"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 297"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-18
 sides:

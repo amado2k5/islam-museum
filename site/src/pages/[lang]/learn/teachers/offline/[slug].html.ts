@@ -4,7 +4,7 @@
 // CSS is inlined, there is no script and no absolute http(s) URL except the SVG namespace, fonts are
 // referenced not inlined (the file reads in the system font offline), and the file stays far under 2 MB.
 import type { APIRoute } from "astro";
-import { LANGS, ui, type Lang } from "../../../../../lib/i18n";
+import { LANGS, ui, ARABIC_SCRIPT, type Lang } from "../../../../../lib/i18n";
 import { loadPacks, viewPack } from "../../../../../lib/packs";
 import { loadFacts, factText, viewFact } from "../../../../../lib/facts";
 
@@ -31,7 +31,7 @@ export const GET: APIRoute = ({ props }) => {
   const p = viewPack(loadPacks().find((x) => x.id === pack)!, lang);
   const facts = loadFacts().map((f) => ({ text: factText(f, lang), rec: viewFact(f, lang) }));
   const html = `<!doctype html>
-<html lang="${lang}" dir="${lang === "en" ? "ltr" : "rtl"}">
+<html lang="${lang}" dir="${ARABIC_SCRIPT.includes(lang) ? "rtl" : "ltr"}">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(p.title)} — islam.museum</title><style>${CSS}</style></head>
 <body>
 <h1>${esc(p.title)}</h1>

@@ -7,7 +7,7 @@ translators: []
 
 # عبدالرشید علی شرمارکی
 
-عبدالرشید علی شرمارکی (1919ء – 15 اکتوبر 1969ء) صومالی سیاست دان تھے، جمہوریہ صومالیہ کے پہلے وزیر اعظم (1960ء–1964ء) اور اس کے دوسرے صدر، 6 جولائی 1967ء سے اپنے قتل تک۔{cite:source/wikipedia-abdirashid-ali-shermarke-en}{cite:source/wikipedia-abdirashid-ali-shermarke-fr}
+عبدالرشید علی شرمارکی ⁦(1919ء – 15 اکتوبر 1969ء)⁩ صومالی سیاست دان تھے، جمہوریہ صومالیہ کے پہلے وزیر اعظم ⁦(1960ء–1964ء)⁩ اور اس کے دوسرے صدر، 6 جولائی 1967ء سے اپنے قتل تک۔{cite:source/wikipedia-abdirashid-ali-shermarke-en}{cite:source/wikipedia-abdirashid-ali-shermarke-fr}
 
 ## تعلیم و تربیت
 
@@ -23,7 +23,7 @@ translators: []
 
 ## سجل کی وضاحت
 
-مضامین میں ان کی تاریخ پیدائش پر اختلاف ہے (8 جون بمقابلہ 16 اکتوبر 1919ء) اور عربی مضمون میں ان کی صدارت کے آغاز پر (10 جون بمقابلہ 6 جولائی 1967ء)؛ سجل میں انگریزی مضمون کی پیروی کی گئی ہے اور دیگر صورتیں نوٹس میں محفوظ ہیں۔{cite:source/wikipedia-abdirashid-ali-shermarke-en}{cite:source/wikipedia-abdirashid-ali-shermarke-ar}
+مضامین میں ان کی تاریخ پیدائش پر اختلاف ہے ⁦(8 جون بمقابلہ 16 اکتوبر 1919ء)⁩ اور عربی مضمون میں ان کی صدارت کے آغاز پر ⁦(10 جون بمقابلہ 6 جولائی 1967ء)⁩؛ سجل میں انگریزی مضمون کی پیروی کی گئی ہے اور دیگر صورتیں نوٹس میں محفوظ ہیں۔{cite:source/wikipedia-abdirashid-ali-shermarke-en}{cite:source/wikipedia-abdirashid-ali-shermarke-ar}
 
 مذہب کے بارے میں کوئی متن ان کا مسلک نہیں بتاتا: فرانسیسی خانہ ان کا مذہب «اسلام» بتاتا ہے، اور وکی ڈیٹا ایک ہی آئٹم پر «اسلام» اور «سنی اسلام» دونوں قیمتیں رکھتی ہے۔{cite:source/wikipedia-abdirashid-ali-shermarke-fr}{cite:source/wikidata-abdirashid-ali-shermarke} انگریزی متن میں واحد دینی تفصیل — بچپن میں قرآنی مدارس میں پڑھنا — بچپن کی تربیت ہے، گواہی نہیں۔{cite:source/wikipedia-abdirashid-ali-shermarke-en} صرف ایک ساختی خاندان ہے، اس لیے ان کا مذہب «نامعلوم» درج ہے اور سنی قراءت سجل میں محفوظ ہے۔
 

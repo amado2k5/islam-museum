@@ -23,4 +23,4 @@ translators: []
 چینل کا اعلانیہ مقصد خواتین کو آسان انداز میں حفظِ قرآن اور تجوید سکھانا ہے۔ {cite:youtube-hanan-barakat}
 
 ## حوالہ جات
-- «حنان بركات — YouTube channel» (ان کا اپنا چینل؛ 26 اکتوبر 2026 کو رجوع کیا گیا)۔ {cite:youtube-hanan-barakat}
+- «حنان بركات — YouTube channel» ⁦(ان کا اپنا چینل؛ 26 اکتوبر 2026 کو رجوع کیا گیا)⁩۔ {cite:youtube-hanan-barakat}

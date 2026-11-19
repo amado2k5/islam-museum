@@ -1,0 +1,11 @@
+---
+id: place/c-rdoba
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/place/c-rdoba.md}
+---
+## En el Mu'jam al-Buldan de Yaqut
+Yaqut da el nombre con una damma en la primera letra, una sukun en la segunda y una damma en la ta. Piensa que la palabra es, como supone, extranjera y romana, y señala que el árabe también le ofrece un lugar: podría provenir de «al-qurtaba», que significa carrera feroz, y menciona al-Asma'i para el sentido de derribar a alguien en la frase «qartabahu». {cite:mujam-al-buldan-sader-1995 4 p.324} La describe como una gran ciudad en Al-Ándalus, en el centro del país, que era sede de sus reyes y su capital; los reyes omeyas vivieron allí, y la llama la mina de los cultivados y la fuente de los nobles de esa región. Se encuentra a cinco días del mar. {cite:mujam-al-buldan-sader-1995 4 p.324}
+
+Cita a Ibn Hawqal, quien viajó por esas tierras alrededor del año 350 H, diciendo que era la ciudad más grande de Al-Ándalus, sin igual en el Magreb por el número de sus habitantes y la extensión de su área, protegida por una muralla de piedra, con la gente común viviendo en su periferia y sus habitantes acomodados. {cite:mujam-al-buldan-sader-1995 4 p.324} Yaqut añade que permaneció así hasta aproximadamente el año 440 AH. Cuando la era omeya, y la de Ibn Abi 'Amir, terminó y aparecieron los usurpadores y los Banu 'Abbad se fortalecieron, cada emir tomó un distrito y Córdoba quedó sin un gobernante al que recurrir; Sevilla floreció y se convirtió en la sede del gobierno de Al-Ándalus, mientras que Córdoba cayó en la ruina y se convirtió en una ciudad de tamaño medio. {cite:mujam-al-buldan-sader-1995 4 p.324} Señala que los poetas la lamentaron y cita versos de añoranza por ella del juez Muhammad ibn Abi 'Isa al-Laythi. {cite:mujam-al-buldan-sader-1995 4 p.324} Dice que se le atribuyen muchos eruditos, entre ellos Abu Bakr Yahya ibn Sa'dun al-Azdi al-Qurtubi, un hombre de letras, recitador y gramático que se estableció en Mosul, enseñó allí y murió en el año 567 de la Hégira. {cite:mujam-al-buldan-sader-1995 4 p.324}

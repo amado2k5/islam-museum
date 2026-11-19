@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/umayyad]
 regions: [maghreb]
 date:
-  start: { edtf: "0670/0690", calendar: julian, precision: year, status: debated, derived: true, note: "في ولاية عقبة — وقيل موسى بن نصير (البلاذري ص 319). التحويل مشتق." }
+  start: { edtf: "0670/0690", calendar: julian, precision: year, status: debated, derived: true, note: "في ولاية عقبة — وقيل موسى بن نصير ⁦(البلاذري ص 319)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/qalat-busr }
   - { type: had_participant, target: person/busr-ibn-abi-artat, role: "الفاتح المسمّاة له", sources: [source/futuh-buldan-maarif-1407] }
@@ -17,7 +17,7 @@ relations:
   - { type: during_reign, target: person/muawiya-ibn-abi-sufyan, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 319"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 319"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-21
 sides:

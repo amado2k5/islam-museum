@@ -1,6 +1,7 @@
 // Museum Cards: «اليوم عن» daily series. Build-time only.
 import { readFileSync } from "node:fs";
 import { parse } from "yaml";
+import { parseLocalized } from "./i18n";
 import { repoPath } from "./paths";
 
 export interface DailyEntry { card: string; prompt: { ar: string; en: string; ur?: string } }
@@ -9,7 +10,7 @@ export interface DailySeries { series: string; title: { ar: string; en: string; 
 let cache: DailySeries | null = null;
 export function loadDaily(): DailySeries {
   if (cache) return cache;
-  cache = parse(readFileSync(repoPath("cards/daily/al-yaum-an.yaml"), "utf8")) as DailySeries;
+  cache = parseLocalized(readFileSync(repoPath("cards/daily/al-yaum-an.yaml"), "utf8")) as DailySeries;
   return cache;
 }
 

@@ -1,0 +1,17 @@
+---
+id: place/khayf-bani-kinana
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/place/khayf-bani-kinana.md}
+---
+## Visión general
+El Khayf de los Banu Kinana es el valle de al-Safi, en [[place/mecca|La Meca. Allí, el Profeta dijo a los Quraysh: «Nuestra cita es en el Khayf de los Banu Kinana]]». Según al-Azraqi, es el lugar donde los peregrinos se detienen después de [[place/mina|Mina. {cite:azraqi-akhbar-makka}]]
+
+Su ubicación aún no se ha determinado mediante coordenadas. Se necesita una fuente adicional.
+
+## En el Mu'jam al-buldan de Yaqut
+Yaqut menciona Khayf Banu Kinana en varias entradas, con descripciones diferentes. Bajo Kinana lo llama la mezquita de Mina en La Meca y el barranco de Banu Kinana entre al-Hujun y Safi al-Sibab. {cite:mujam-al-buldan-sader-1995 4 p.481} Bajo khayf define la palabra como lo que desciende del duro suelo de una montaña y se encuentra sobre el canal de agua, nombra la Mezquita de al-Khayf en Mina en su honor, y cita a al-Qadi 'Iyad que Khayf Banu Kinana es al-Muhassab, como se explica en el hadiz de 'Abd al-Razzaq, el terreno abierto de La Meca, que algunos hacen el comienzo de al-Abtah; cita a al-Zuhri que khayf es un valle y a al-Hazimi que Khayf Banu Kinana está en Mina, donde el Profeta se detuvo. {cite:mujam-al-buldan-sader-1995 2 p.412} Bajo al-Muhassab lo sitúa entre La Meca y Mina y más cerca de Mina, lo llama el terreno abierto de La Meca y Khayf Banu Kinana, da su límite como desde al-Hujun hacia Mina, y cita a al-Asma'i que su límite está entre el barranco de 'Amr y el barranco de Banu Kinana. {cite:mujam-al-buldan-sader-1995 5 p.62} Bajo al-Abtah dice que también es Khayf Banu Kinana, y menciona un dicho que es Dhu Tuwa, lo cual la entrada rechaza. {cite:mujam-al-buldan-sader-1995 1 p.74}
+
+## La identificación del museo
+El relato, de al-Azraqi, es el barranco de al-Safi en La Meca, llamado Khayf Banu Kinana, donde el Profeta dijo a los Quraysh que su lugar de encuentro era Khayf Banu Kinana, y que es al-Muhassab, donde los peregrinos se detienen después de Mina. Yaqut está de acuerdo en que Khayf Banu Kinana es al-Muhassab y que se encuentra cerca de al-Hujun; no da el informe del lugar de encuentro y, en sus entradas sobre khayf, Kinana, al-Muhassab y al-Abtah, no nombra "al-Safi" solo, siendo el nombre más cercano Safi al-Sibab; En otras dos entradas, Shawa {cite:mujam-al-buldan-sader-1995 3 p.369} y Nuza'at al-Shawa, de al-Hazimi {cite:mujam-al-buldan-sader-1995 5 p.281}, nombra el barranco de al-Safi (Shi'b al-Safi) en La Meca, sin vincularlo con Khayf, por lo que la identificación del al-Safi del registro con Khayf Banu Kinana es la lectura del museo, que Yaqut no afirma. Sus ubicaciones difieren: la mezquita de Mina en La Meca, en Mina (al-Hazimi) y entre La Meca y Mina pero más cerca de Mina. El punto del registro está a 3,4 km del punto de La Meca del museo y a 4,8 km de su punto de Mina, es decir, más cerca de La Meca, lo que difiere del "más cerca de Mina" de Yaqut; el museo deja el punto sin cambios y remite la cuestión a una investigación externa. Véase [[place/mecca|La Meca]] y [[place/mina|Mina]].

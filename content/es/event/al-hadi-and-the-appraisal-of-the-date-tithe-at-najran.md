@@ -1,0 +1,15 @@
+---
+id: event/al-hadi-and-the-appraisal-of-the-date-tithe-at-najran
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/al-hadi-and-the-appraisal-of-the-date-tithe-at-najran.md}
+---
+## Visión general
+Ali ibn Muhammad relata de su padre [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Muhammad ibn Ubaydallah]] que cuando llegó el momento de la recolección de dátiles en [[place/najran|Najran]], [[person/al-hadi-yahya-al-rassi|al-Hadi]] reunió a los notables de la tierra, de Banu al-Harith, Hamdan y Najran, y los consultó sobre su recolección, diciendo: "Solo podemos tomar de ustedes dátiles por dátiles y grano por grano, no permitimos nada más, y no me excedo de la práctica del Mensajero de Dios". {cite:sira-hadi-ila-al-haqq p.70} La gente respondió que tasar los dátiles les convenía más, ya que era más fácil que tomar dátiles frescos, dátiles blandos y dátiles de mala calidad; lo establecerían según lo que les fuera fácil y apartarían los buenos y los malos, y en su opinión los dátiles no son como el grano. {cite:sira-hadi-ila-al-haqq p.70} {cite:sira-hadi-ila-al-haqq p.71} Una nota al pie explica que rutab significa dátiles de palma maduros pero aún no secos, rajiz el término que todavía se usa en Yemen para dátiles maduros, blandos y dulces, y khushu los dátiles más pobres, citando a Talkhis de al-Askari y a los Mukhassas. {cite:sira-hadi-ila-al-haqq p.71}
+
+## La respuesta y los tasadores
+Al-Hadi estuvo de acuerdo porque le resultaba evidente la facilidad con la que lo manejaban y alimentaban a quienes estaban bajo su mando, y dijo que si su abuelo, el Mensajero de Dios, no hubiera tasado Medina, Khaybar y otros lugares, él no lo habría hecho por ellos; una nota al margen del manuscrito registra que el Profeta tasó Medina y Khaybar. {cite:sira-hadi-ila-al-haqq p.71} Les consultó sobre quién debía tasar y nombraron a algunos hombres justos y de confianza; los mandó llamar y les hizo jurar que tomarían solo lo debido, que no impondrían cargas a los débiles ni consentirían a los fuertes, y que no tomarían nada por debajo de treinta y tres y un tercio de farq, y ordenó que las uvas se tasaran sobre la misma base. {cite:sira-hadi-ila-al-haqq p.71}
+
+## Vender el debido
+[[person/muhammad-ibn-sulayman-al-kufi|Al-Kufi]] oyó a un hombre de Najrán decirle que si un hombre debía algo de la limosna en sus palmas, sería mejor vendérselo de vuelta a su dueño; respondió que esto no está permitido ni es lícito, sino que lo que se debe se aparta y luego se vende a quien lo quiera, como hizo el Mensajero de Dios con los que comían Khaybar. {cite:sira-hadi-ila-al-haqq p.71} {cite:sira-hadi-ila-al-haqq p.72} Esta es la posición del imán zaidí según la relata su narrador, mostrada sin comparación. Véase [[concept/ushr]].

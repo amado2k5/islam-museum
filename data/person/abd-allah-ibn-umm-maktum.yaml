@@ -18,7 +18,7 @@ periods: [period/prophetic-era]
 sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba, source/isti-ab-ibn-abd-al-barr]
 died: { edtf: "636", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab (Ibn Abd al-Barr: martyred at Qadisiyya 15 AH) Agrees with Wikidata Q1111158 (P570, a statement without a reference), item revision 2547284097, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
- - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba], confidence: low }
+ - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name ⁦(القرشي)⁩; denotes association, not proven residence.", sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba]}
  - { type: member_of, target: group/quraysh, note: "al-Istiab p. 380", sources: [source/isti-ab-ibn-abd-al-barr] }
  - { type: member_of, target: group/muhajirun, note: "al-Istiab p. 380", sources: [source/isti-ab-ibn-abd-al-barr] }

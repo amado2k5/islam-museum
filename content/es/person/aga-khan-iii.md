@@ -1,0 +1,36 @@
+---
+id: person/aga-khan-iii
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/aga-khan-iii.md}
+---
+## Resumen
+El sultán Muhammad Shah, conocido como Aga Khan III (2 de noviembre de 1877 – 11 de julio de 1957), fue el 48º imán de los ismailíes nizaríes. Sucedió a su padre en 1885 a la edad de siete años, y su imanato duró 72 años. {cite:britannica-aga-khan-iii} {cite:wikipedia-aga-khan-iii-en} Al mismo tiempo fue un líder político de los musulmanes de la India: fundador y primer presidente permanente de la Liga Musulmana de toda la India, y presidente de la Asamblea de la Liga de Naciones en 1937. {cite:wikipedia-aga-khan-iii-en}
+
+## Infancia y educación
+Nació en Karachi, en la India británica, el 2 de noviembre de 1877, único hijo de Aga Khan II y de su tercera esposa, Nawab A'lia Shams ol-Moluk, nieta de Fath-Ali Shah Qajar. {cite:britannica-aga-khan-iii} {cite:wikipedia-aga-khan-iii-en} Bajo el cuidado de su madre recibió una educación islámica y oriental además de occidental, y tras Eton College estudió en la Universidad de Cambridge. {cite:wikipedia-aga-khan-iii-en} Sucedió a su padre como imán en 1885, con siete años. {cite:britannica-aga-khan-iii}
+
+## Liderazgo político en India
+Además de ocuparse de los asuntos de su propia comunidad, rápidamente adquirió una posición destacada entre los musulmanes de la India en su conjunto. {cite:britannica-aga-khan-iii} En 1906 encabezó la delegación musulmana ante el virrey, Lord Minto, para promover los intereses de la minoría musulmana, y las reformas Morley-Minto de 1909 previeron en consecuencia la creación de circunscripciones musulmanas separadas. {cite:britannica-aga-khan-iii} Fue presidente de la Liga Musulmana de toda la India durante sus primeros años e impulsó el fondo para elevar el colegio musulmán de Aligarh al estatus universitario, que se concretó en 1920; fue el primer pro-rector de la Universidad Musulmana de Aligarh, cargo que desempeñó hasta 1930. {cite:britannica-aga-khan-iii} {cite:wikipedia-aga-khan-iii-en} Incluso después de dimitir como presidente de la Liga en 1912, siguió ejerciendo una gran influencia en sus políticas y desempeñó un papel importante en las Conferencias de la Mesa Redonda sobre la reforma constitucional de la India en Londres (1930–32). {cite:wikipedia-aga-khan-iii-en} La reina Victoria le concedió el título de Caballero Comandante del Imperio de la India en 1897, y recibió reconocimiento por sus servicios públicos del emperador alemán, el sultán de Turquía, el Shah de Irán y otros potentados. {cite:britannica-aga-khan-iii}
+
+## En el escenario internacional
+Cuando estalló la Primera Guerra Mundial apoyó la causa aliada, pero en la posterior conferencia de paz instó a que el Imperio Otomano y su sucesora Turquía fueran tratados con indulgencia. {cite:britannica-aga-khan-iii} Representó a la India en la Conferencia Mundial de Desarme en Ginebra en 1932 y en la Asamblea de la Sociedad de Naciones en 1932 y de 1934 a 1937, y fue nombrado presidente de la Liga en 1937. {cite:britannica-aga-khan-iii} Durante la Segunda Guerra Mundial vivió en Suiza y se retiró de la actividad política. {cite:britannica-aga-khan-iii}
+
+## Imamado y reforma comunal
+La primera mitad del siglo XX fue un periodo de desarrollo significativo para la comunidad ismailí, con instituciones para el desarrollo social y económico establecidas en el subcontinente indio y en África Oriental. {cite:wikipedia-aga-khan-iii-en} Shah implementó reformas organizativas para que las comunidades ismailíes pudieran administrar sus propios asuntos mediante estructuras formales: en 1905 creó la primera Constitución ismailí para la gobernanza social de la comunidad en África Oriental, organizando consejos a nivel local, nacional y regional y estableciendo normas para el matrimonio, el divorcio y la herencia y para la cooperación mutua, y constituciones similares fueron promulgadas en India y revisadas periódicamente. {cite:wikipedia-aga-khan-iii-en} Su comunidad celebró sus Jubileos de Oro (1937), Diamante (1946) y Platino (1954), pesándolo en oro, diamantes y, simbólicamente, platino, cuyos ingresos se destinaron a instituciones de bienestar social y desarrollo en Asia y África. {cite:wikipedia-aga-khan-iii-en}
+
+## Opiniones
+Shah estuvo profundamente influenciado por Sir Sayyid Ahmad Khan y se convirtió en partidario de la institución que se convirtió en la Universidad Musulmana de Aligarh; el artículo lo describe como un modernista islámico del movimiento de Aligarh que no veía contradicción alguna entre religión y modernidad, criticaba el formalismo, legalismo y literalismo del establishment religioso tradicional, y defendía un renovado ijtihad y una comprensión modernista de la ijma, con un retorno a las fuentes originales. {cite:wikipedia-aga-khan-iii-en} Se opuso al sectarismo y pidió un acercamiento entre sunnismo y chiismo, mientras seguía instruyendo a sus seguidores ismailíes para que permanecieran dedicados a sus propias enseñanzas. {cite:wikipedia-aga-khan-iii-en} En materia de derechos de las mujeres fue más progresista que muchos modernistas de su época: apoyó la igualdad espiritual entre hombres y mujeres, reclamó la plena igualdad política incluyendo el voto y la educación primaria obligatoria para las niñas, prohibió el purdah y el velo facial para sus seguidores, restringió la poligamia, prohibió el matrimonio infantil y fomentó el matrimonio de viudas. {cite:wikipedia-aga-khan-iii-en} Estas posturas se recogen aquí tal y como las dan las fuentes: son sus opiniones, no las del museo.
+
+## Caballos de carreras
+También fue conocido como un exitoso propietario y criador de caballos de carreras pura sangre, incluyendo cinco ganadores del Derby y un total de dieciséis ganadores de carreras clásicas británicas, y fue campeón británico de carreras planas en trece ocasiones. {cite:britannica-aga-khan-iii} {cite:wikipedia-aga-khan-iii-en}
+
+## Escritos y fallecimiento
+Fue autor de India en transición (1918), que proponía una federación de estados autónomos del sur de Asia, y de su autobiografía, Las memorias de Aga Kan: Tiempo y Tiempo Suficiente (1954). {cite:wikipedia-aga-khan-iii-en} Murió en Versoix, cerca de Ginebra en Suiza, el 11 de julio de 1957, y está enterrado en el Mausoleo de Aga Kan en Asuán, Egipto, a orillas del Nilo. {cite:britannica-aga-khan-iii} {cite:wikipedia-aga-khan-iii-en} Le sucedió su nieto Karim, Aga Khan IV, tras haber pasado por alto a su hijo Aly Khan. {cite:wikipedia-aga-khan-iii-en}
+
+## Su tradición
+Britannica registra que sucedió a su padre como imán de la secta Nizari Ismailí, y el artículo en inglés indica que fue el 48º imán de la rama nizari ismailí del islam chií; por tanto, los datos de la entidad registran su fe como chií-ismailí documentada en esas dos fuentes independientes. {cite:britannica-aga-khan-iii} {cite:wikipedia-aga-khan-iii-en}
+
+## Referencias
+- Las fuentes definidas citadas anteriormente, registradas en `data/source/`.

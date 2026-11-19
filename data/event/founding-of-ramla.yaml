@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/umayyad]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0715~", hijri: "0096~", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية الوليد بن عبد الملك (86–96هـ) (البلاذري ص 195). التحويل مشتق." }
+  start: { edtf: "0715~", hijri: "0096~", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية الوليد بن عبد الملك ⁦(86–96هـ)⁩ ⁦(البلاذري ص 195)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/ramla }
   - { type: had_participant, target: person/sulayman-ibn-abd-al-malik, role: "مؤسس المدينة ومصّرها", sources: [source/futuh-buldan-maarif-1407] }
@@ -19,7 +19,7 @@ relations:
   - { type: during_reign, target: person/sulayman-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 195–196"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 195–196"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-10
 sources: [source/futuh-buldan-maarif-1407]

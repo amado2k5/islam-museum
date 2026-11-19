@@ -8,7 +8,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 پانی لغت میں ایک لطیف، بہنے والا جسم ہے جس سے ہر جاندار کی زندگی ہے۔ پانی طہارت کا ذریعہ ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15321} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15322}
 
 ## اقسام
-وصف کے لحاظ سے پانی کی چار قسمیں ہیں: مطلق، مستعمل، مسخن (یا مشمس) اور مختلط۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15321}
+وصف کے لحاظ سے پانی کی چار قسمیں ہیں: مطلق، مستعمل، مسخن ⁦(یا مشمس)⁩ اور مختلط۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15321}
 
 ## مطلق پانی
 مطلق پانی وہ ہے جس پر بغیر کسی قید کے پانی کا نام صادق آئے۔ جمہور کے نزدیک یہ پاک اور پاک کرنے والا ہے، جبکہ حنفیہ کے نزدیک طہور سے مراد طاہر ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15322} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15323}
@@ -17,7 +17,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 حنفیہ، مالکیہ، شافعیہ اور حنابلہ کے نزدیک سمندر کے پانی سے طہارت بغیر کراہت کے جائز ہے۔ برف کے پگھلنے سے پہلے استعمال کے بارے میں اختلاف ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15325} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15326}
 
 ## زمزم اور آجن پانی
-زمزم کے استعمال میں اختلاف ہے۔ آجن (طویل مدت تک ٹھہرا ہوا متغیر) پانی بغیر کراہت جائز ہے، البتہ ابن سیرین نے اسے مکروہ کہا۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15326} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15328}
+زمزم کے استعمال میں اختلاف ہے۔ آجن ⁦(طویل مدت تک ٹھہرا ہوا متغیر)⁩ پانی بغیر کراہت جائز ہے، البتہ ابن سیرین نے اسے مکروہ کہا۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15326} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15328}
 
 ## مستعمل پانی
 حنفیہ کے نزدیک مستعمل پانی وہ ہے جس سے حدث دور کیا گیا ہو یا جو عبادت کے لیے بدن پر استعمال ہوا ہو۔ مالکیہ، شافعیہ اور حنابلہ کے اپنے اپنے احکام ہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15328} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15332}

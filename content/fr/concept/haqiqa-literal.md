@@ -1,0 +1,9 @@
+---
+id: concept/haqiqa-literal
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/haqiqa-literal.md}
+---
+## Résumé
+En usage technique, le terme « haqiqa » est employé conformément à sa signification originelle, selon la convention qui régit la transmission du langage ; son pendant est « métaphore », un mot utilisé dans un sens différent de celui qu’il a initialement défini, en raison d’un lien entre les deux. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7216} Le « kinaya » désigne un discours dont le sens voulu est obscurci par l’usage, bien que son sens littéral soit clair ; il nécessite donc une intention ou un contexte pour être compris. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7217} Le sens littéral est linguistique lorsqu’il est défini par les lexicographes, juridique lorsqu’il est défini par le législateur, et coutumier lorsqu’il est défini par la coutume ; un même mot peut avoir un sens littéral et un sens figuré, comme la prière, qui est littérale au sens juridique et figurée dans la supplication. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7217} Le discours est pris au sens littéral par défaut et recourt à la métaphore uniquement lorsque le sens littéral est impossible, difficile ou abandonné par la coutume, comme c’est le cas pour les legs, les serments et les reconnaissances. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7218} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7219} La plupart des usulis interdisent de prendre simultanément le sens littéral et le sens figuré dans un même emploi ; les Shafi'ites l'autorisent sauf si la raison s'y oppose ; une métaphore générale est admissible. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7219}

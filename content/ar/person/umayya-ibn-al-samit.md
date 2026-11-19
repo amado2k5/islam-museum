@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b67, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/154" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b67, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/154" }
 ---
 ## موجز
 أمية بن الصامت، العابد القانت، في المواطن ثابت، ولنفسه ماقت، ولشيطانه شامت. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 520 وقد وردت في المسح الضوئي بصورة «530»)⁩ في الصفحة 154، وتسلسله 521. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/154}

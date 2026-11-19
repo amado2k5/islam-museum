@@ -1,0 +1,12 @@
+---
+id: event/abu-al-qasim-ibn-al-hadi-verses-on-the-lance-and-the-lions-of-war-290
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/abu-al-qasim-ibn-al-hadi-verses-on-the-lance-and-the-lions-of-war-290.md}
+---
+## Visión general
+En la pág. 264 Abu al-Qasim dice que su preocupación son las espadas y las lanzas, que no se entretiene con esposas ni escucha la pandereta, que no descansará hasta revivir la religión después de su muerte y ver la sangre fluir como olas, y que no es de los que se contentan con un banquete de bodas y comida fina {cite:sira-hadi-ila-al-haqq p.264}. En la pág. 265 dice que no busca riqueza a través de una vida fácil, que da su vida por el placer de Dios y la ayuda de los oprimidos, que se niega a sí mismo el dulce sueño mientras no haya golpeado a los tiranos y encendido la guía, y que no temen a su enemigo ni se quejan de las desgracias, que su padre es el Mensajero de Dios cuyo lugar ocupan, que quien les impida ejercer su derecho recibirá la espada, que quien cumpla los pactos obtendrá lo mejor que espera, y que son leones de guerra {cite:sira-hadi-ila-al-haqq p.265}. Al pie de la pág. 265 una pieza comienza "bajo la sombra de las lanzas entre los carneros" {cite:sira-hadi-ila-al-haqq p.265}.
+
+## Detalle
+La nota del editor en la página 266, fuera de este lote, dice que uno de estos poemas fue mencionado anteriormente cuando Abu al-Qasim estaba en Khiwan; esto apunta a la [[event/al-hadi-halts-at-khiwan-and-meets-the-sons-of-yafur-at-al-ghayl-290|parada de al-Hadi en Khiwan]], y el museo no puede decir a qué poema se refiere, por lo que el asunto queda abierto hasta que se lea la página 266. La jactancia de la lucha y la descripción de los leones son del poeta. Antes de esto están [[event/abu-al-qasim-ibn-al-hadi-composes-verses-in-prison-290|los fragmentos anteriores de la misma sección]]. El museo no reproduce los versos ni las palabras de insulto que contienen y solo da su sentido tal como aparece en el libro; el libro atribuye el verso a Abu al-Qasim y el museo no ha verificado la atribución. Los elogios y los epítetos en los versos son del poeta, presentados tal como aparecen en el libro, sin que el museo emita ningún veredicto.

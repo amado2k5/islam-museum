@@ -1,0 +1,9 @@
+---
+id: concept/ilaj-naft-al-dam
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/ilaj-naft-al-dam.md}
+---
+## El tratamiento de la escupir sangre
+Galeno contó que una mujer fue golpeada por una hemorragia y escupió durante cuatro días y se debilitó; le dio una papilla y una fruta astringente ya que su último alimento había sido hacía mucho tiempo, trató su cabeza con un medicamento de este tipo (una línea etiquetada que contenía excremento de animal), le permitió bañarse por el efecto del medicamento, no le ungió la cabeza para que no se humedeciera, y le dio a beber lo que da sueño de este tipo según su indicación, porque en él hay un poder somnífero que detiene el cosquilleo de la tos y calma el flujo de las cosas al espesarlas. Al segundo día no se acercó a despertarla sino que la dejó tranquila e inmóvil, le dio una medida de este tipo menor que la del día anterior —su propósito de hacerla pasar gradualmente a la miel para que el pulmón fuera limpiado por ella— luego la dejó una hora, luego le frotó las extremidades y después de eso le dio agua de cebada con un poco de pan para darle fuerzas; El cuarto le dio una cosa vieja de este tipo con mucha miel para limpiarle el pulmón, una limpieza fuerte, y la alimentó el resto de los días como debía y la trató con el régimen de los convalecientes, y con todo lo que le ponía en la cabeza, una y otra vez, un cerato de este tipo y le prohibió bañarse (un informe sobre la atribución del libro a Galeno; los nombres excluidos según la regla) {cite:canon-ibn-sina-print-v2 p.336}

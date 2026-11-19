@@ -1,0 +1,32 @@
+---
+id: person/imran-khan
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/imran-khan.md}
+---
+## Resumen
+Imran Ahmed Khan Niazi es un ex jugador de críquet, filántropo y político pakistaní que fue el 19º primer ministro de Pakistán desde agosto de 2018 hasta abril de 2022, nacido en [[place/lahore|Lahore]] el 5 de octubre de 1952. Como jugador de críquet, capitaneó a la selección nacional de Pakistán en la victoria en la Copa Mundial de Cricket de 1992. Tras retirarse del cricket, fundó el Hospital y Centro de Investigación Oncológica Memorial Shaukat Khanum, el primer hospital oncológico de Pakistán, y fundó el partido político Pakistan Tehreek-e-Insaf (PTI), que presidió desde 1996 hasta 2023. {cite:wikipedia-imran-khan-en} {cite:wikipedia-imran-khan-ar} {cite:britannica-imran-khan} {cite:wikidata-imran-khan}
+
+## Infancia y educación
+Khan nació en Lahore el 5 de octubre de 1952, único hijo de Ikramullah Khan Niazi, ingeniero civil, y de su esposa Shaukat Khanum; tiene cuatro hermanas. Algunos informes indican una fecha de nacimiento diferente (25 de noviembre de 1952); el artículo recoge su propia afirmación de que esto es un error de su pasaporte. Asistió al Aitchison College y a la Cathedral School de Lahore, se trasladó a la Royal Grammar School Worcester en Inglaterra en septiembre de 1971 y en 1972 fue admitido en Keble College de Oxford, donde estudió filosofía, política y economía, graduándose en 1975. {cite:wikipedia-imran-khan-en}
+
+El museo solo recoge su vida familiar de forma resumida: se casó con Jemima Goldsmith en 1995 y tuvieron dos hijos, divorciándose en 2004; se casó con Reham Khan en 2015, divorciándose ese mismo año; y se casó con Bushra Bibi en 2018. {cite:wikipedia-imran-khan-en}
+
+## Carrera en el cricket
+Debutó en primera clase a los 16 años en Lahore, jugó para el equipo de la Universidad de Oxford de 1973 a 1975 y jugó cricket de condado inglés en los años 70. Comenzó su carrera internacional en una serie de Test de 1971 contra Inglaterra, defendió el arbitraje neutral durante su capitanía, llevó a Pakistán a sus primeras victorias en series de Test en India e Inglaterra en 1987, y capitaneó a Pakistán durante la mayor parte de los años 80 y principios de los 90. Logró el triple de 3.000 carreras y 300 wickets en Test y ostenta el récord mundial de más wickets como capitán en cricket Test. Jugó su último Test en enero de 1992 contra Sri Lanka y se retiró tras capitanear a Pakistán en su único título de la Copa del Mundo en la final de 1992. Sus cifras finales fueron 88 partidos de prueba con 3.807 carreras y 362 wickets, y 175 ODIs con 3.709 carreras y 182 wickets. Fue incluido en el Salón de la Fama del Cricket de la ICC en 2009. Como capitán y detectador de talento, también se le atribuye haber seleccionado jugadores que se convirtieron en pilares de la siguiente generación, entre ellos [[person/waqar-younis|Waqar Younis]], a quien vio en televisión, e [[person/inzamam-ul-haq|Inzamam-ul-Haq]], a quien seleccionó personalmente para la Copa del Mundo de 1992. {cite:wikipedia-imran-khan-en} {cite:britannica-imran-khan}
+
+## Filantropía
+Tras retirarse del cricket, fundó el Hospital y Centro de Investigación Conmemorativo contra el Cáncer Shaukat Khanum en Lahore — el primer hospital oncológico de Pakistán, nombrado en honor a su madre — que se convirtió en el proyecto benéfico más conocido de sus proyectos, junto con posteriores proyectos educativos en Mianwali que recoge el artículo. Fue rector de la Universidad de Bradford de 2005 a 2014. {cite:wikipedia-imran-khan-en}
+
+## Política y mandato de primer ministro
+Fundó Pakistan Tehreek-e-Insaf el 25 de abril de 1996 y la presidió hasta el 2 de diciembre de 2023, siendo elegido por primera vez para la Asamblea Nacional en 2002. En las elecciones generales de 2018 se presentó a cinco circunscripciones y se convirtió en la primera persona en la historia electoral de Pakistán en ganar las cinco, y luego fue nombrado primer ministro el 18 de agosto de 2018 en un gobierno de coalición liderado por el PTI. Durante su mandato como primer ministro lanzó el mayor programa de bienestar de Pakistán durante la pandemia de COVID-19 y se pronunció contra la islamofobia en el mundo occidental, según recoge el artículo. En abril de 2022 se convirtió en el primer primer ministro pakistaní en ser destituido del cargo mediante una moción de censura. Alegó la implicación de Estados Unidos en su destitución, una acusación negada por el gobierno y el estamento militar, según informan las fuentes. {cite:wikipedia-imran-khan-en} {cite:britannica-imran-khan}
+
+## Post-premiership, según informan las fuentes
+Esta sección procede de las fuentes y no constituye un veredicto del museo. Las fuentes informan que en octubre de 2022 la Comisión Electoral le impidió ocupar un cargo electo durante un mandato por el caso Toshakhana; que al mes siguiente sobrevivió a un intento de asesinato; que en mayo de 2023 fue arrestado en el caso Al-Qadir Trust, lo que desencadenó los disturbios del 9 de mayo, y que el Tribunal Supremo declaró posteriormente ilegal ese arresto, tras lo cual fue arrestado de nuevo en agosto de 2023; y que en enero de 2025 fue condenado a 14 años de prisión en el caso Al-Qadir Trust, seguido de otra condena de 17 años y una multa en el caso Toshakhana-II, según recoge el artículo. Khan ha alegado que su encarcelamiento tiene motivaciones políticas, una afirmación negada por el gobierno de Shehbaz Sharif y el estamento militar posterior a 2022, según informan las fuentes. Ha estado recluido en la cárcel de Adiala en Rawalpindi desde su detención en 2023. {cite:wikipedia-imran-khan-en}
+
+## Alcance
+Su importancia pública radica en su capitanía de Pakistán en su único título de la Copa Mundial de Cricket, en la fundación del primer hospital oncológico de su país y en su paso de primer ministro electo a la figura opositora encarcelada más prominente de su país, tal y como lo describen las fuentes: una vida pública única que combina deporte, filantropía y política. {cite:wikipedia-imran-khan-en} {cite:britannica-imran-khan}
+
+## Fuentes
+- Las entidades fuente definidas citadas anteriormente, registradas en `data/source/`.

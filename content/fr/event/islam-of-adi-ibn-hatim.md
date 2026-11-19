@@ -1,0 +1,28 @@
+---
+id: event/islam-of-adi-ibn-hatim
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/islam-of-adi-ibn-hatim.md}
+---
+## Vue d'ensemble
+[[person/adi-ibn-hatim|Adi ibn Hatim]], seigneur de [[group/tayy|Tayy]], s'enfuit du Prophète pour se réfugier chez les chrétiens de Syrie. Puis, à la demande de sa sœur, il revint à Médine et se convertit à l'islam après un dialogue qu'il relate lui-même. {cite:ibn-hisham-saqqa 4/225} {cite:ibn-hisham-saqqa 4/227}
+
+## Son aversion et sa fuite
+Ibn Ishaq rapporte, d'après ce qu'Adi m'a dit, qu'aucun Arabe n'était plus hostile au Prophète lorsqu'il entendit parler de lui. C'était un noble chrétien qui recevait le quart du butin de son peuple et qui régnait sur sa religion et son royaume. {cite:ibn-hisham-saqqa 4/225} Il ordonna à un jeune Arabe qui gardait ses chameaux de lui préparer des chameaux dociles et gras pour l'accompagner, et de l'avertir s'il apprenait l'arrivée d'une armée de Muhammad. Un matin, il revint et dit avoir vu des bannières. Lorsqu'il s'enquit de leur signification, on lui répondit : « Ce sont les armées de Muhammad. » {cite:ibn-hisham-saqqa 4/225} Il prit sa famille et ses enfants et partit rejoindre les siens, les chrétiens de Syrie, par la route d'al-Jushiyya (ou al-Hushiyya, selon Ibn Hisham). Il laissa une de ses filles en Syrie et resta dans le pays. {cite:ibn-hisham-saqqa 4/225} Les savants notent qu'al-Jushiyya est une montagne du Dabb près de Dari'a, au pays de Najd, et que la fille de Hatim est Safana, comme le supposait al-Suhayli. {cite:ibn-hisham-saqqa 4/225}
+
+## La fille de Hatim
+Les cavaliers du Prophète emmenèrent [[person/safana-bint-hatim|la fille de Hatim]] parmi les captifs de Tayy. Elle s'adressa au Prophète jusqu'à ce qu'il la libère et la dote de l'équipement nécessaire. Elle rejoignit son frère en Syrie et le blâma d'avoir emmené sa famille et abandonné le reste du peuple de son père. Elle lui conseilla alors de rejoindre rapidement cet homme : s'il était prophète, le premier à le rejoindre aurait le mérite ; s'il était roi, il ne serait pas humilié par la puissance du Yémen. Il répondit : « Par Dieu, c'est la bonne opinion. » Voir [[event/capture-and-release-of-hatims-daughter|la capture et la libération de la fille de Hatim]]. {cite:ibn-hisham-saqqa 4/226} {cite:ibn-hisham-saqqa 4/227}
+
+## Sa venue et son islam
+Adi partit et arriva à Médine. Il entra dans la mosquée du Prophète et le salua. Le Prophète demanda : « Qui est cet homme ? » Il répondit : « Adi ibn Hatim. » Le Prophète se leva et le conduisit chez lui. {cite:ibn-hisham-saqqa 4/227} En chemin, une vieille femme, faible et infirme, les rencontra et l'arrêta. Il resta longtemps debout, tandis qu'elle lui exposait ses besoins. Adi se dit : « Par Dieu, ce n'est pas un roi. » {cite:ibn-hisham-saqqa 4/227} Une fois entré dans la maison, le Prophète prit un coussin de cuir garni de fibres de palmier et le lui jeta en disant : « Assieds-toi dessus. » Il répondit : « Non, toi. » Le Prophète insista : « Non, toi. » Adi s'assit donc dessus, et le Prophète s'assit par terre. Adi se dit : « Par Dieu, ce n'est pas digne d'un roi. » {cite:ibn-hisham-saqqa 4/227} Alors le Prophète dit : « Adi ibn Hatim, n'étais-tu pas un Rukusi ? » Il répondit : « Oui. » « N’as-tu pas donné le quart de l’héritage à ton peuple ? » « Si. » « Cela ne t’était pas permis dans ta religion. » Il dit : « Par Dieu, en vérité ! » et il sut qu’il était un prophète envoyé, qui connaît l’inconnu. {cite:ibn-hisham-saqqa 4/227} Puis il lui dit : « Ce qui te retient peut-être d’embrasser cette religion, c’est ce que tu vois de leur besoin ; par Dieu, la richesse abondera bientôt parmi eux, au point que personne ne pourra plus la prendre. Ce qui te retient peut-être, c’est ce que tu vois du nombre de leurs ennemis face à leur petit nombre ; bientôt tu entendras parler d’une femme quittant al-Qadisiyya sur son chameau pour visiter cette Maison sans crainte. Ce qui te retient peut-être, c’est que tu vois la royauté et le pouvoir entre d’autres mains ; bientôt tu entendras parler des palais blancs du pays de Babylone qui leur seront ouverts. » {cite:ibn-hisham-saqqa 4/227} Il dit : « Je suis devenu musulman. » {cite:ibn-hisham-saqqa 4/227}
+
+Adi disait : « Deux sont passées et la troisième reste. Par Dieu, il en sera ainsi : j'ai vu les palais blancs du pays de Babylone s'ouvrir, et j'ai vu la femme quitter al-Qadisiyya sur son chameau sans crainte jusqu'à ce qu'elle accomplisse le pèlerinage à cette Maison ; et la troisième viendra : la richesse abondera au point que personne ne pourra la prendre. » {cite:ibn-hisham-saqqa 4/227} {cite:ibn-hisham-saqqa 4/228}
+
+## D'après les notes des chercheurs
+« Al-Mirba' » désigne la part du butin revenant à son chef ; « al-Dhulul » sont des chameaux dociles et dressés ; « al-Rukusi » fait référence aux Rukusiyya, un peuple dont la religion se situe entre celle du christianisme et celle des Sabéens. Deux mots supplémentaires, tirés d'un manuscrit, sont indiqués entre crochets. {cite:ibn-hisham-saqqa 4/225} {cite:ibn-hisham-saqqa 4/227}
+
+## Notes sur le rapport
+- Le récit complet est rapporté « tel qu’on me l’a raconté », selon les mots d’Adi. {cite:ibn-hisham-saqqa 4/225}
+- Ibn Hisham cite « al-Jushiyya » et « al-Hushiyya ». {cite:ibn-hisham-saqqa 4/225}
+- L'année de sa conversion à l'islam : 9 ou 10 H selon Ibn Hajar. {cite:ibn-hajar-isaba p.1014}

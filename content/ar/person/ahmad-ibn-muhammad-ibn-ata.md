@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b81, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/302-305" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b81, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/302-305" }
 ---
 ## موجز
 أبو العباس أحمد بن محمد بن سهل بن عطاء، العامل الظريف والكامل النظيف، مودع القرآن شماره، وظاهر البيان دثاره. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 575)⁩ في الصفحات 302 إلى 305، وتسلسله 576. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/302} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/305}

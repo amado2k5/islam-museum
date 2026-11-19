@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0630~", hijri: "0009", calendar: julian, precision: year, status: tradition, derived: true, note: "غزوة تبوك سنة 9هـ وكتاب مقنى مؤرخ فيها (البلاذري ص 80–81). التحويل مشتق." }
+  start: { edtf: "0630~", hijri: "0009", calendar: julian, precision: year, status: tradition, derived: true, note: "غزوة تبوك سنة 9هـ وكتاب مقنى مؤرخ فيها ⁦(البلاذري ص 80–81)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/maqna }
   - { type: had_participant, target: person/muhammad, role: "صالحهم وكتب لهم الأمان والذمة", sources: [source/futuh-buldan-maarif-1407] }
@@ -17,7 +17,7 @@ relations:
   - { type: basis_for, target: concept/dhimma, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 80–81"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 80–81"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-3
 sources: [source/futuh-buldan-maarif-1407]

@@ -19,12 +19,12 @@ import { siblingJourneys } from "../lib/journeys";
 import { JOB_NOT_YET } from "../lib/jobs";
 import { splitTafsir, commentaries as tafsirCatalogue, wiredCommentaries, commentaryOf, authorsOf, volumeHref, surahHref, coveredIn, ayahsOf } from "../lib/tafsir";
 import { byId, href, labelOf, summaryOf, summaryRaw, stripNeedsSource, related, updatedOn, REPO, SITE, SEGMENT, nodes } from "../lib/graph";
-import { ui, fmt, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
+import { ui, fmt, LANGS, WINGS, wingHref, ARABIC_SCRIPT, type Lang, ALL_LANGS } from "../lib/i18n";
 import { renderProse, newHonState } from "../lib/markdown";
 import { recordingRef } from "../lib/recordings";
 import { subjectIds, subjectHref } from "../lib/explorer";
 import { formatDate } from "../lib/dates";
-import { connectionsOf, externalUrl, jsonLd, levelOf, placesOf, regionLabel, sectionRole, traditionLabel } from "../lib/entity";
+import { connectionsOf, externalUrl, hasKidsRead, jsonLd, levelOf, placesOf, regionLabel, sectionRole, traditionLabel } from "../lib/entity";
 import type { Node } from "../../../scripts/build-graph";
 
 interface Props { node: Node; lang: Lang }
@@ -123,7 +123,7 @@ const sectionHtml = sections.map((s) => {
 const jobNotYet = n.class === "job" ? sectionHtml.find((s) => JOB_NOT_YET.includes(s.heading)) : undefined;
 // each level is read on its own, so each gets its own honorific state; its citations join the page's footnote list
 const levelHtml = levelSecs.map((s) => { const r = renderProse(s.markdown, lang, newHonState(n)); return { id: levelOf(s.heading, proseLang!)!.id, heading: s.heading, html: renumberR(r)(r.html) }; });
-const kidsReadHref = d.education?.flagged_for_kids ? `/${lang}/sighar/read/${SEGMENT[n.class] ?? n.class}/${n.slug}/` : undefined;
+const kidsReadHref = hasKidsRead(n, lang) ? `/${lang}/sighar/read/${SEGMENT[n.class] ?? n.class}/${n.slug}/` : undefined;
 // the Tafsir section: each block under its commentator and work; rendered after the prose so its notes number after it
 const plainHeading = (h: string) => h.replace(/\[\[[a-z]+\/[a-z0-9-]+\|([^\]]*)\]\]/g, "$1").replace(/\[\[([a-z]+\/[a-z0-9-]+)\]\]/g, (_m, id: string) => { const t = byId.get(id); return t ? labelOf(t, lang) : id; });
 const tafsirGroups: { work: Node | undefined; authors: Node[]; volumes: Node[]; blocks: { heading: string | null; html: string }[] }[] = [];
@@ -168,7 +168,7 @@ const bibliography = (s: Node) => {
   return `${a ? a.replace(/\.$/, "") + ". " : ""}${y ? `(${y}). ` : ""}${s.data.title ?? labelOf(s, lang)}${s.data.publisher ? `. ${s.data.publisher}` : ""}.`;
 };
 
-const alternates = Object.fromEntries(LANGS.map((l) => [l, href(l, n.id)]));
+const alternates = Object.fromEntries(ALL_LANGS.map((l) => [l, href(l, n.id)]));
 const altNames = [...new Set([...Object.values(n.label), ...(d.names ?? []).map((x: any) => x.value), ...n.aliases.map((a) => a.split("/")[1].replace(/-/g, " "))])].filter((x) => x !== title);
 const wingChips = n.wings.filter((w) => (WINGS as readonly string[]).includes(w));
 const wishUrl = `${REPO}/issues/new?template=request-translation.yml&title=${encodeURIComponent(`Translate ${n.id} to ${lang}`)}`;
@@ -301,7 +301,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
           <p class="panel ui" role="note" style="font-size:.92rem">{T.entity.not_translated} <a href={wishUrl}>{T.entity.help_translate}</a></p>
         )}
 
-        <div class="prose" lang={proseLang ?? lang} dir={(proseLang ?? lang) === "en" ? "ltr" : "rtl"} data-pagefind-ignore={untranslated || undefined}>
+        <div class="prose" lang={proseLang ?? lang} dir={ARABIC_SCRIPT.includes(proseLang ?? lang) ? "rtl" : "ltr"} data-pagefind-ignore={untranslated || undefined}>
           {!prose && n.class !== "passage" && <p class="panel ui" role="note">{T.entity.no_prose}</p>}
           <LevelSwitcher lang={lang} levels={levelHtml} kidsHref={kidsReadHref} shelfId={n.id}>
           {sectionHtml.filter((s) => s !== jobNotYet).map((s, i) => (
@@ -326,7 +326,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
         </div>
 
         {isAyah && (
-          <section data-role="main" class="sec" id="tafsir" aria-labelledby="tafsir-h" lang={tafsirGroups.length ? (proseLang ?? lang) : lang} dir={(tafsirGroups.length ? (proseLang ?? lang) : lang) === "en" ? "ltr" : "rtl"}>
+          <section data-role="main" class="sec" id="tafsir" aria-labelledby="tafsir-h" lang={tafsirGroups.length ? (proseLang ?? lang) : lang} dir={ARABIC_SCRIPT.includes(tafsirGroups.length ? (proseLang ?? lang) : lang) ? "rtl" : "ltr"}>
             <h2 id="tafsir-h">{X.section_title}</h2>
             {tafsirGroups.length > 0 ? (
               <>

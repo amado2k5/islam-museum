@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b45, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/131" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b45, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/131" }
 ---
 ## خلاصہ
 قادم دیلمی فضیل بن عیاض اور ان کے ہم عصروں کی صحبت میں رہے اور ان کی عاجزی و خشوع کی راہ اختیار کی۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 474)⁩ ان کا ترجمہ صفحہ 131 پر لکھا ہے۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/131}

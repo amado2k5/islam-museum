@@ -7,7 +7,7 @@ translators: []
 
 ## خلاصہ
 
-ابراہیم قالن (پیدائش 1971) ترک ماہر اسلامی فلسفہ ہیں جو جون 2023 سے قومی انٹیلیجنس تنظیم کے ڈائریکٹر ہیں {cite:wikipedia-ibrahim-kalin-en} {cite:wikipedia-ibrahim-kalin-tr}۔
+ابراہیم قالن ⁦(پیدائش 1971)⁩ ترک ماہر اسلامی فلسفہ ہیں جو جون 2023 سے قومی انٹیلیجنس تنظیم کے ڈائریکٹر ہیں {cite:wikipedia-ibrahim-kalin-en} {cite:wikipedia-ibrahim-kalin-tr}۔
 
 ## زندگی اور کام
 

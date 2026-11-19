@@ -30,5 +30,5 @@ translators: []
 
 - زبیدہ جعفر — ساؤتھ افریقن ہسٹری آن لائن سیرت{cite:saho-zubeida-jaffer}
 - زبیدہ جعفر — «مسلم پورٹریٹس» میں پروفائل{cite:muslim-portraits-zubeida-jaffer}
-- زبیدہ جعفر — ٹائم آف دی رائٹر سیرت (یونیورسٹی آف کوازولو ناتال){cite:ukzn-time-of-the-writer-zubeida-jaffer}
+- زبیدہ جعفر — ٹائم آف دی رائٹر سیرت ⁦(یونیورسٹی آف کوازولو ناتال)⁩{cite:ukzn-time-of-the-writer-zubeida-jaffer}
 - زبیدہ جعفر — وکی ڈیٹا Q130550859{cite:wikidata-zubeida-jaffer}
