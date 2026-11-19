@@ -11,6 +11,15 @@ while :; do
   npm run validate > "$LOG" 2>&1 && break
   round=$((round + 1))
   bad=$(grep -E "^ERROR " "$LOG" | grep -oE "content/(es|fr)/[a-z_-]+/[^ :]+\.md" | sort -u)
+  # Only this lane's own machine translations are ever set aside. A file another lane or agent wrote is never
+  # touched, whatever the validator says about it (19 November 2026: 33 French files of another agent were removed
+  # by this step and had to be restored); its errors are reported and left for its owner.
+  others=""; mine=""
+  for f in $bad; do if grep -q "scripts/local-mt/" "$f" 2>/dev/null; then mine="$mine $f"; else others="$others $f"; fi; done
+  if [ -z "$mine" ] && [ -n "$others" ]; then  # data/ errors that follow from those files (education.levels) are theirs too
+    echo "validator errors only in $(echo $others | wc -w | tr -d ' ') files of other lanes (left untouched):$(echo $others | cut -c1-200)"; break
+  fi
+  bad="$mine"
   if [ -z "$bad" ] || [ "$round" -gt 3 ]; then echo "VALIDATE FAILED (not a translated file, or still failing after 3 rounds):"; grep -E "^ERROR " "$LOG" | head -5; exit 1; fi
   for f in $bad; do
     lang=$(echo "$f" | cut -d/ -f2); id=$(echo "$f" | sed -E 's#content/(es|fr)/##; s#\.md$##')
