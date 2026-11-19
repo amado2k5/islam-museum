@@ -1,0 +1,27 @@
+---
+id: question/does-magic-have-a-reality
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/question/does-magic-have-a-reality.md}
+---
+## Resumen
+En la última parte de [[work/sharh-usul-itiqad-lalakai|Sharh Usul I'tiqad Ahl al-Sunna]], [[person/al-lalakai|al-Lalaka'i]] tiene dos capítulos consecutivos, «Lo que se ha transmitido sobre la realidad de la magia» y «Lo que se ha transmitido sobre cómo funciona la magia», situados entre los capítulos sobre asuntos invisibles y de creación que deben creerse. {cite:sharh-usul-itiqad-basira p. 1029} {cite:sharh-usul-itiqad-basira p. 1033}
+
+## El argumento de Al-Lalaka'i
+Al-Lalaka'i abre el capítulo con versículos sobre los demonios enseñando magia a la gente en [[passage/quran-2-102|Surat al-Baqara]] y sobre la llegada de los hechiceros y su "gran magia" en Surat Yunus y al-A'raf, y luego dice que Umar, Uthman, Jundab, Aisha y Hafsa ordenaron matar al hechicero. {cite:sharh-usul-itiqad-basira p. 1029} Transmite el hadiz de Aisha de que el Profeta fue hechizado hasta que imaginó que había hecho cosas que no había hecho, con el relato de Labid ibn al-A'sam, el peine y los peines, y el pozo de Dharwan; el Profeta dijo que Dios le había curado y que no le gustaba causar daño a nadie, y se revelaron los dos capítulos de búsqueda de refugio; lo atribuye a al-Bukhari y Muslim. {cite:sharh-usul-itiqad-basira p. 1030} Luego da el hadiz "Evita los siete pecados destructores", entre ellos la magia, y el hadiz de Ibn Abbas "Quien aprende una rama de la astrología, aprende una rama de la magia", que el editor juzga como suena a través de una cadena corroboratoria, aunque la propia cadena del autor es débil. {cite:sharh-usul-itiqad-basira p. 1031} Relata desde Bajala que una carta de Umar les llegó un año antes de su muerte: "Matad a todo hechicero y hechicera", y que mataron a tres hechiceras; lo atribuye a al-Bukhari. {cite:sharh-usul-itiqad-basira p. 1032}
+
+## La nota del editor
+En una nota al capítulo, el editor, Nash'at al-Misri, explica que la magia (sihr) en la lengua es lo que está oculto y sutil en su causa, y en uso técnico son hechizos, conjuros y nudos que actúan sobre corazones y cuerpos, causando enfermedad y muerte y separando a un hombre de su esposa; argumenta a partir del versículo sobre separar a los cónyuges y del versículo [[passage/quran-113-4|sobre «los que soplan en nudos]]»: si la magia fuera irreal, Dios no habría ordenado buscar refugio de ella. {cite:sharh-usul-itiqad-basira p. 1029} Luego expone la visión de que la magia son trucos y engaños mediante los cuales el hechicero hace que las cosas parezcan distintas de lo que son, como un espejismo visto como agua, lo atribuye a los teólogos de Mu [[group/mutazila|'tazila]] y otros, y lo rechaza por considerarlo contrario a lo que se transmite masivamente desde las primeras generaciones y es aceptado por los juristas, citando a al-Nawawi: "La visión sólida es que tiene una realidad; la mayoría la sostuvo firmemente." {cite:sharh-usul-itiqad-basira p. 1029} Añade que la magia está prohibida en las leyes de todos los profetas, y que los estudiosos discrepaban sobre si el hechicero es un incrédulo: un grupo de las primeras generaciones, Malik, Ahmad y Abu Hanifa, sostenía que lo es; al-Shafi'i dijo que se debería pedir al hechicero que describiera su magia, y si describe lo que implica la incredulidad —como la creencia de los babilonios en acercarse a los siete planetas— es un incrédulo y, si no, se convierte en uno si lo considera permisible. {cite:sharh-usul-itiqad-basira p. 1029}
+
+## "Cómo funciona la magia"
+En el siguiente capítulo, al-Lalaka'i relata de Aisha la historia de una mujer de Dumat al-Jandal que vino tras la muerte del Profeta llorando y preguntando por una magia en la que se había involucrado; describió un viaje a Babilonia y el encuentro con dos hombres colgados de sus pies que le advirtieron: «Somos solo una prueba, así que no dudes». {cite:sharh-usul-itiqad-basira p. 1033} El editor considera débil su cadena porque incluye a Abd al-Rahman ibn Abi al-Zinad, cita la observación de Ibn Kathir de que la cadena a Aisha es buena y dice que esto es cuestionable. {cite:sharh-usul-itiqad-basira p. 1033} En el capítulo anterior, al-Lalaka'i también ofrece un relato de Aisha sobre una mujer que preguntó si podría "atar su camello" – explicado como referirse a su marido – y Aisha lo rechazó; el editor señala que al-Albani la consideró débil. {cite:sharh-usul-itiqad-basira p. 1032}
+
+:::perspectives
+**Suní: al-Lalaka'i y su editor.** La magia tiene realidad y actúa sobre corazones y cuerpos; está prohibido; los informes de los Compañeros condenan a muerte al hechicero; los juristas discreparon sobre declararle incrédulo. {cite:sharh-usul-itiqad-basira p. 1029} {cite:sharh-usul-itiqad-basira p. 1032}
+
+**Los Mu'tazila y otros teólogos, según los informa el editor.** La magia es ilusión y engaño, sin realidad ni efecto. {cite:sharh-usul-itiqad-basira p. 1029}
+:::
+
+## Aún no cubierto
+La visión mu'tazili se expone aquí a través de la nota del editor y necesita sus propios textos; las posiciones de los juristas sobre castigar a los hechiceros de los libros de las escuelas y los estudios académicos de magia en las sociedades musulmanas aún no se han añadido.

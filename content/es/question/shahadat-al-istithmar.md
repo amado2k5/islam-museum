@@ -1,0 +1,22 @@
+---
+id: question/shahadat-al-istithmar
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/question/shahadat-al-istithmar.md}
+---
+## Resumen
+
+Una cuestión moderna: el dinero depositado en fondos de ahorro bancarios y postales, o utilizado para comprar certificados de inversión, genera a sus propietarios un beneficio fijado por adelantado; ¿ese beneficio [[concept/riba|está prohibido como riba]] o es legal? [[person/ahmad-shalabi-historian|Ahmad Shalabi]] lo trata en [[work/al-iqtisad-fi-al-fikr-al-islami|al-Iqtisad fi al-Fikr al-Islami]], señalando que los musulmanes que operan de esta manera ascenden a cientos de millones, por lo que el tema debe estudiarse cuidadosamente y repetidamente. {cite:iqtisad-fikr-islami-shalabi-1993 p.123}
+
+## Las vistas
+
+:::perspectives
+- **Suní: la postura prohibitiva, según lo informa Shalabi**: Shalabi señala que algunos investigadores consideran prohibido este trato, y cita al Shaykh Abd Allah al-Mashadd, que algunos lo consideran prohibido y otros lícitos; entre las razones de quienes tienden a prohibir, cita que el dinero obtenido se beneficia sin trabajo o sin riesgo. {cite:iqtisad-fikr-islami-shalabi-1993 p.140} {cite:iqtisad-fikr-islami-shalabi-1993 p.141} Esta opinión no se extiende aquí en los propios libros de sus poseedores ni en las resoluciones de las academias de fiqh que la adoptaron (needs_source).
+- **Suní: la visión permisiva, la de Shalabi y las que él cita**: Shalabi sostiene que el Corán, los comentaristas, los hadices y los juristas vinculan la riba a los préstamos, que los contratos y condiciones son permisibles en principio salvo que un texto los prohíba, compare el retorno con el beneficio de la sociedad y con el alquiler de casas y tierras, y sugiere que puede compensar el colapso de la moneda. {cite:iqtisad-fikr-islami-shalabi-1993 p.13} {cite:iqtisad-fikr-islami-shalabi-1993 p.140} {cite:iqtisad-fikr-islami-shalabi-1993 p.142} Informa de la visión permisiva de Abd al-Rahman Isa; de Ali al-Khafif, quien consideraba que no era usurario el tránsito del fondo de ahorro porque el depositante puede retirar su dinero a voluntad; de un estudio presentado por Ali al-Khafif y Yasin Suwaylim en la conferencia de la Academia de Investigación Islámica en El Cairo en 1972; de Abd al-Mun'im al-Nimr; y del comité de investigación jurídica de la Academia en al-Azhar, donde en las reuniones de abril y mayo de 1976 la mayoría de los representantes de las cuatro escuelas decidieron que los beneficios de los certificados de inversión del Banco Nacional no son riba, ya que la explotación y la posibilidad de pérdida están ausentes, algunos de ellos manteniendo una sociedad legal. {cite:iqtisad-fikr-islami-shalabi-1993 p.144} {cite:iqtisad-fikr-islami-shalabi-1993 p.145} Cita pasajes de Ibn Taymiyya, Ibn al-Qayyim y Muhammad Abduh sobre la eliminación de las dificultades y la vinculación de la riba a su propósito. {cite:iqtisad-fikr-islami-shalabi-1993 p.142}
+- **Opinión académica: aún no documentada (needs_source)**.
+:::
+
+## Shalabi sobre el desacuerdo
+
+Shalabi sostiene que el desacuerdo donde no hay texto es natural, citando el razonamiento de Zayd ibn Thabit sobre la herencia de la madre, que la pluralidad de escuelas es una bendición que no debe convertirse en conflicto, y que pedir a todos que estén de acuerdo en una sola resolución es pedir lo imposible. {cite:iqtisad-fikr-islami-shalabi-1993 p.124} {cite:iqtisad-fikr-islami-shalabi-1993 p.125} Dice que el Islam "no está dirigido por academias" como lo son algunas religiones; El pensamiento islámico acoge el consenso cuando es posible, pero otorga al musulmán profundamente erudito el derecho a un razonamiento independiente, para lo cual cita el hadiz de Mu'adh ibn Jabal. {cite:iqtisad-fikr-islami-shalabi-1993 p.125} Describe la prohibición categórica como una falta de respeto hacia las opiniones ajenas y cita al Shaykh Abd Allah al-Mashadd de que un musulmán puede elegir cualquiera de las dos opiniones sin ser culpado. {cite:iqtisad-fikr-islami-shalabi-1993 p.141} Estas son las opiniones del autor; el museo las informa como suyas y no elige entre las posiciones.

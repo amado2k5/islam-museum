@@ -1,0 +1,34 @@
+---
+id: question/must-reason-be-preferred-when-it-conflicts-with-revelation
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/question/must-reason-be-preferred-when-it-conflicts-with-revelation.md}
+---
+## Resumen
+Cuando una prueba racional y una prueba bíblica parecen entrar en conflicto en cuestiones de creencia, ¿cuál es la preferencia? Esta es la cuestión de la «ley universal» sobre la que [[person/ibn-taymiyya|Ibn Taymiyya]] escribió [[work/dar-taarud-al-aql-wal-naql|Dar' Ta'arud al-'Aql wa'l-Naql]]; su editor Muhammad Rashad Salim presenta en su introducción los textos de los teólogos y filósofos que sostenían la ley. {cite:dar-taarud-salim-v1-1411 p. 10} {cite:dar-taarud-salim-v1-1411 p. 19}
+
+## La ley
+Como cita Ibn Taymiyya al principio del libro: si las pruebas bíblicas y racionales entran en conflicto, o bien ambas son aceptadas, lo cual es imposible ya que combina contradictorios; o ambas se rechazan; o se pone la escritura primero, lo cual es imposible ya que la razón es la raíz de la transmisión y ponerla primero en cuestión sería cuestionar su raíz; por tanto, la razón debe ser puesta primero, y el texto se interpreta o bien se deja su significado en manos de Dios. {cite:dar-taarud-salim-v1-1411 p. 96} Llama a esto una "ley universal" de [[person/fakhr-al-din-al-razi|al-Razi]] y sus seguidores, anticipada por [[person/al-ghazali-abu-hamid|al-Ghazali]], el juez Abu Bakr Ibn al-Arabi, [[person/imam-al-haramayn-al-juwayni|al-Juwayni]] y [[person/al-baqillani|al-Baqillani]]. {cite:dar-taarud-salim-v1-1411 p. 10}
+
+## Aquellos que ponen la razón por delante
+- **Al-Razi**: en *Asas al-Taqdis* divide en cuatro opciones el caso en el que ciertas pruebas racionales establecen algo y las demostraciones transmitidas parecen decir lo contrario, rechaza tres y concluye que hay que atenerse a lo que la razón requiere y juzgar los textos como inauténticos o no intencionados en su sentido aparente; luego, si se permite la interpretación, se interpreta, y si no, se deja su conocimiento a Dios – «la ley universal a la que se refiere en todos los textos ambiguos». {cite:dar-taarud-salim-v1-1411 p. 11} {cite:dar-taarud-salim-v1-1411 p. 12} En *Muhassal Afkar al-Mutaqaddimin wa'l-Muta'akhkhirin* dice que la prueba verbal solo da certeza cuando se cumplen diez condiciones, una de ellas la ausencia de una objeción racional. {cite:dar-taarud-salim-v1-1411 p. 13}
+- **Al-Ghazali**: en *Qanun al-Ta'wil* aconseja nunca desmentir la demostración racional, ya que es por razón que llegamos a conocer la revelación, da ejemplos de lo que debe interpretarse y luego aconseja abstenerse de fijar una interpretación cuando las posibilidades compiten, defendiendo la suspensión más segura. {cite:dar-taarud-salim-v1-1411 p. 14} {cite:dar-taarud-salim-v1-1411 p. 15}
+- **Al-Juwayni**: en *al-Irshad* divide los fundamentos de la creencia en lo que sólo se conoce por la razón, lo que se conoce solo por la revelación y lo que puede ser conocido por ambos. {cite:dar-taarud-salim-v1-1411 p. 15}
+
+## Los filósofos
+Ibn Taymiyya afirma que estos teólogos son menos extremos que los filósofos que afirman que los textos de los profetas no coinciden con la realidad y que estaban dirigidos al pueblo común en términos adecuados a su mente, como la ley [[person/ibn-sina|que Ibn Sina]] expuso en *al-Risala al-Adhawiyya*. {cite:dar-taarud-salim-v1-1411 p. 11} El editor cita la opinión de Ibn Sina de que el tawhid puro, puesto a las masas tal como es, habría encontrado una obstinada negativa, por lo que las leyes reveladas los abordaban mediante semejanza e imagen; y [[person/ibn-rushd|Ibn Rushd]] en *Manahij al-Adilla*, que el sentido aparente es deber de las masas y el sentido interpretado deber de los eruditos, y en *Fasl al-Maqal*, que cuando la demostración entra en conflicto con el sentido aparente de revelación, ese sentido admite interpretación según las reglas árabes de interpretación. {cite:dar-taarud-salim-v1-1411 p. 17} {cite:dar-taarud-salim-v1-1411 p. 18} {cite:dar-taarud-salim-v1-1411 p. 19}
+
+## La respuesta de Ibn Taymiyya
+Tras una respuesta general, Ibn Taymiyya dice que afirmar un conflicto entre la prueba racional y la prueba bíblica e insistir en preferir lo racional es «conocido por ser corrupto por necesidad», y luego da su respuesta detallada en algunos aspectos. La primera: si las dos pruebas contradictorias son certas, su conflicto no se concede como sea posible; si son probables, la más fuerte se prefiere absolutamente; si uno es seguro, se prefiere el cierto, y si el racional es el cierto, se prefiere por ser cierto, no por ser racional. {cite:dar-taarud-salim-v1-1411 p. 178} {cite:dar-taarud-salim-v1-1411 p. 179} La segunda: la división en cuatro opciones no es exhaustiva, ya que lo racional puede ser preferido en un momento y el bíblico en otro según la certeza y la fortaleza. {cite:dar-taarud-salim-v1-1411 p. 179} La tercera: la afirmación de que «la razón es la raíz de la transmisión», si significa que la razón es la raíz de la verdad de la revelación en sí misma, es algo que ninguna persona racional dice, porque lo que el Mensajero informó es verdad en sí mismo, lo sepamos o no; la razón es solo la raíz de nuestro conocimiento de su verdad. {cite:dar-taarud-salim-v1-1411 p. 179} {cite:dar-taarud-salim-v1-1411 p. 180} Lleva los aspectos a cuarenta y cuatro. {cite:dar-taarud-salim-v1-1411 p. 19}
+
+:::perspectives
+**Ahl al-Sunna (Hanbali): Ibn Taymiyya.** Dos pruebas ciertas nunca entran en conflicto; la cierta o más fuerte se prefiere como tal, no por ser racional; la razón es la raíz de nuestro conocimiento de la revelación, no de su verdad. {cite:dar-taarud-salim-v1-1411 p. 178} {cite:dar-taarud-salim-v1-1411 p. 179} {cite:dar-taarud-salim-v1-1411 p. 180}
+
+**Ahl al-Sunna (Ash'ari): al-Razi, y antes que él al-Ghazali y al-Juwayni.** Se prefiere cierta prueba racional; el texto se interpreta o se deja su significado en manos de Dios. {cite:dar-taarud-salim-v1-1411 p. 11} {cite:dar-taarud-salim-v1-1411 p. 12} {cite:dar-taarud-salim-v1-1411 p. 14}
+
+**Filósofos: Ibn Sina e Ibn Rushd, tal como los presenta el editor.** El aparente sentido de revelación se dirige a las masas y se interpreta donde entra en conflicto con la demostración. {cite:dar-taarud-salim-v1-1411 p. 17} {cite:dar-taarud-salim-v1-1411 p. 18}
+:::
+
+## Aún no cubierto
+Los textos de al-Razi, al-Ghazali, al-Juwayni, Ibn Sina e Ibn Rushd aquí se presentan tal y como los cita Muhammad Rashad Salim en su introducción, no en ediciones de sus libros; Las respuestas ash'ari a Ibn Taymiyya y los estudios académicos sobre la cuestión aún no se han añadido.
