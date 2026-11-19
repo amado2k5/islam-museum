@@ -3,11 +3,13 @@ class: person
 label:
   ar: "الشاب الظريف"
   en: "al-Shab al-Zarif"
+  fr: "al-Shab al-Zarif"
 roles: [poet]
 gender: male
 summary:
   ar: "محمد بن سليمان التلمساني «الشاب الظريف»، شاعر ابن عفيف الدين التلمساني، ولي عمالة الخزانة بدمشق؛ توفي سنة 688هـ ⁦(1289م)⁩."
   en: "Muhammad al-Tilimsani “al-Shab al-Zarif” (1263–1289), poet and son of 'Afif al-Din, keeper of the Damascus treasury."
+  fr: "Muhammad al-Tilimsani \"al-Shab al-Zarif\" (1263-1289), poète et fils de 'Afif al-Din, gardien du trésor de Damas."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
@@ -27,4 +29,4 @@ status:
 born: { edtf: "1263", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi) Confirmed on 13 November 2026 against Wikidata Q12188728 (P569, a statement with a reference), item revision 2555440949.", sources: [source/wikidata] }
 died: { edtf: "1289", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi) Agrees with Wikidata Q12188728 (P570, a statement without a reference), item revision 2555440949, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/tlemcen, note: "Place association from the person's nisba/name (التلمساني); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/tlemcen, note: "Place association from the person's nisba/name ⁦(التلمساني)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

@@ -16,20 +16,20 @@ translators: []
 ### قسط 1
 - [[concept/nifaq|النفاق]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:04:30}
 - [[person/abdullah-ibn-ubayy|عبد الله بن أبي بن سلول]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:04:30}
-- [[concept/luzum-al-jamaa|جماعت اور امام کے ساتھ وابستگی (لزوم الجماعة)]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:10:00}
-- [[concept/hudud-penalties|حدود (شرعی سزائیں)]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:12:30}
+- [[concept/luzum-al-jamaa|جماعت اور امام کے ساتھ وابستگی ⁦(لزوم الجماعة)⁩]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:10:00}
+- [[concept/hudud-penalties|حدود ⁦(شرعی سزائیں)⁩]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:12:30}
 - [[concept/ijma|إجماع]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:18:30}
 - [[concept/hijab|حجاب]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:22:00}
 
 ### قسط 2
 - [[concept/qanaa|قناعت]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:15:30}
 - [[concept/ghadab|الغضب]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:22:00}
-- [[practice/birr-al-walidayn|والدین کے ساتھ نیکی (بر الوالدین)]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:25:30}
-- [[concept/mahr|مہر (شوہر کی جانب سے بیوی کا حق)]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:26:00}
+- [[practice/birr-al-walidayn|والدین کے ساتھ نیکی ⁦(بر الوالدین)⁩]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:25:30}
+- [[concept/mahr|مہر ⁦(شوہر کی جانب سے بیوی کا حق)⁩]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep02 00:26:00}
 
 ### قسط 3
 - [[concept/rahma|رحمت]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:04:00}
-- [[concept/al-masalah|لوگوں سے مانگنا (المسألہ)]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:08:30}
+- [[concept/al-masalah|لوگوں سے مانگنا ⁦(المسألہ)⁩]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:08:30}
 - [[concept/qalb-salim|قلبِ سلیم]] {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:31:00}
 
 ### قسط 4

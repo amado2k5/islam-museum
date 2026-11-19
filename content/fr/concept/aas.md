@@ -1,0 +1,22 @@
+---
+id: concept/aas
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-concept-01-packet-01
+  source: content/en/concept/aas.md
+---
+## Nature et choix
+L'al-as est bien connu ; il présente de l'amertume, de l'astringence et de la douceur, ainsi qu'une froideur qui provient de son astringence, et son banak est plus puissant ; il possède une substance terreuse et un peu de substance subtile, et l'on dit que son huile réunit tous les bienfaits qui lui sont attribués {cite:canon-ibn-sina-print-v1 p.345}. Le plus puissant est celui qui est noirâtre, surtout le Khusrawani à feuilles rondes, et, par-dessus tout, la sorte de montagne ; la meilleure de ses fleurs est la blanche, puis vient le suc de la feuille, mais le suc du fruit est meilleur ; lorsque son suc vieillit, il perd de sa force {cite:canon-ibn-sina-print-v1 p.345}.
+
+## Tempérament et actions
+Il possède une chaleur douce, mais le froid prédomine, et son astringence dépasse sa froideur ; son froid semble être du premier degré et sa sécheresse proche du deuxième {cite:canon-ibn-sina-print-v1 p.345}. Il retient la diarrhée, la sueur et tout saignement, et dessèche les humeurs sous la peau ; une lotion de sa décoction sur les os hâte leur consolidation, sa cendre remplace la tutie pour parfumer le corps, et son apport nutritif est faible ; parmi les boissons, seule la sienne resserre tout en étant utile contre les douleurs du poumon et la toux {cite:canon-ibn-sina-print-v1 p.345}.
+
+## Usages par organe
+Son huile, son suc et sa décoction renforcent les racines des cheveux, en arrêtent la chute, les allongent et les foncent, surtout sa graine ; sa feuille sèche prévient l'odeur des aisselles et des aines, sa cendre remplace la tutie et dissipe le kalaf, les taches de rousseur et le bahaq {cite:canon-ibn-sina-print-v1 p.345}. Il apaise les tuméfactions chaudes, l'érysipèle, la nimla, les pustules, les ulcères, les affections des paumes et les brûlures par le feu ; il en va de même de sa boisson, de sa feuille en cataplasme, de son huile et de ses onguents ; sa poudre sèche est utile lorsqu'on en saupoudre un panaris, et son fruit bouilli dans du vin, en cataplasme, guérit les ulcères des paumes et des pieds ainsi que les brûlures par le feu et prévient les cloques {cite:canon-ibn-sina-print-v1 p.345}. Un cataplasme de son fruit convient au relâchement des articulations {cite:canon-ibn-sina-print-v1 p.346}. Il arrête les saignements de nez, dissipe les squames (hazaz), dessèche les ulcères de la tête et de l'oreille ainsi que leur pus lorsque son eau y est instillée, et sa boisson est utile contre le relâchement des gencives ; sa feuille, bouillie dans du vin et appliquée en cataplasme, apaise les forts maux de tête, et sa boisson, prise avant le vin, prévient la gueule de bois {cite:canon-ibn-sina-print-v1 p.346}. Il apaise l'ophtalmie et la protrusion de l'œil ; bouilli avec de la farine d'orge, il guérit les tuméfactions de l'œil, et sa cendre entre dans les remèdes contre le ptérygion {cite:canon-ibn-sina-print-v1 p.346}. Il renforce le cœur et fait disparaître les palpitations ; son fruit prévient la toux par sa douceur et resserre, par son astringence, l'intestin de celui dont le ventre est relâché ; son fruit et son rubb sont utiles contre les crachements de sang {cite:canon-ibn-sina-print-v1 p.346}. Il renforce l'estomac, surtout son rubb, et sa graine arrête l'afflux de superfluités vers l'estomac {cite:canon-ibn-sina-print-v1 p.346}. Le suc de son fruit favorise l'émission d'urine, et il prévient les brûlures urinaires et celles de la vessie ; son eau resserre l'intestin et retient les diarrhées bilieuses et atrabilaires ; en cataplasme, il est utile contre les hémorroïdes et la tuméfaction du testicule {cite:canon-ibn-sina-print-v1 p.346}. Il est utile contre la morsure de l'araignée rutayla, tout comme son fruit bu dans du vin, et de même contre la piqûre du scorpion {cite:canon-ibn-sina-print-v1 p.346}.
+
+## Utérus, menstrues, fœtus et désir (liste du livre signalée, réservée à la décision du fondateur)
+Le livre dit que l'al-as est bon pour retenir l'écoulement des menstrues, que la décoction de son fruit est utile contre l'écoulement des humeurs de l'utérus et que sa décoction est utile contre le prolapsus de l'anus et de l'utérus {cite:canon-ibn-sina-print-v1 p.346} ; il s'agit de propos attribués au livre, sans recommandation.

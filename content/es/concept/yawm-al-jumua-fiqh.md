@@ -1,0 +1,33 @@
+---
+id: concept/yawm-al-jumua-fiqh
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: draft
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/yawm-al-jumua-fiqh.md}
+---
+## Resumen
+
+Yawm al-jumu'a es un compuesto de día y jumu'a. Al-jumu'a nombra un día de la semana, el último si el sábado es el primero, y antes del Islam se le llamaba el día de al-'Aruba. Al-Suhayli informa que Ka'b ibn Lu'ayy, el antepasado del Profeta, primero reunió el día de al-'Aruba y lo llamó primero al-jumu'a, curaysh se reunió a él ese día mientras predicaba y les recordaba la misión venidera del Profeta; Se dice que Salman al-Farisi fue preguntado por el Profeta cuál era el día de jumu'a y respondió "el día por el que tu padre fue reunido", mientras que otros dicen que en el Islam se nombró por la reunión en la mezquita. El sentido técnico no se aparta del léxico. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18016} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18017}
+
+El término relacionado es la semana, siete días; El viernes es uno de ellos o el último, por lo que ambos corresponden al género y a la especie completos. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18017}
+
+El viernes tiene reglas propias. Por su mérito, Ibn Abidin lo llama el mejor día de la semana y día de fiesta: en él se celebra una hora de oración respondida, se reúnen almas, se visitan tumbas, quien muere en ella o su noche está a salvo del juicio y castigo de la tumba, no se aviva el infierno, Adán fue creado en él, sacado del paraíso en él, y en él la gente del paraíso visita a su Señor. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18017}
+
+La oración del viernes es un deber individual para los varones musulmanes adultos, cuyo tiempo es el de la oración del mediodía del viernes; sus condiciones y pilares se detallan bajo su propia palabra principal. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18017}
+
+Sobre el lavado: los juristas coinciden en que es legalmente obligatorio de alguna forma, en el hadiz "cuando uno de vosotros venga al Viernes, que lo lave." La mayoría la considera sunna, mientras que una narración de Ahmad la hace obligatoria en "el lavado del viernes es un deber de todo adulto." En su época, la mayoría la sitúa después del segundo amanecer y no atribuye un lavado anterior; se dice que al-Awza'i lo acredita antes del amanecer; Malik lo exige solo si ir a la oración lo sigue después; los Shafi'is lo colocan desde el amanecer verdadero, mejor cerca del día, con vista desde la medianoche como en la fiesta; y todos coinciden en que un lavado después de la oración del viernes no cuenta. En cuanto a si pertenece al día o a la oración, la mayoría lo mantiene conforme a la oración, a diferencia del lavado del día de fiesta, por lo que no se recomienda para quien no asiste; algunos lo mantienen hasta el día; Ibn Abidin llama a la visión de la oración sonido, ya que es la posición de Abu Yusuf, mientras que al-Hasan ibn Ziyad atribuye "por el día" a Mahoma. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18018} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18019}
+
+Sobre el viaje: la mayoría de los juristas consideran prohibido salir el viernes después del mediodía antes de realizar la oración, ya que el deber se aplica al entrar la hora; los hanafis lo consideran prohibitivamente antipático y difieren en cuanto al viaje antes del mediodía. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18019}
+
+Sobre el ayuno: a la mayoría de los juristas no les gusta ayunar solo el viernes, según el hadiz de Abu Hurayra "que ninguno de vosotros ayune el viernes salvo que haya un día antes o después"; unirse a un día levanta el rechazo mediante acuerdo. Al-Khaniyya informa de Abu Hanifa y Muhammad que no hay daño en ayunarlo incluso solo, según la práctica de Ibn Abbas, y que los Malikis y al-Hasakafi sostienen que solo ayunarlo es recomendado. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18019} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18020}
+
+Sobre la súplica y la lectura del Corán: la oración tiene horas en las que se espera más respuesta, entre ellas el viernes; difieren en la hora de respuesta — entre la sesión del imán y el final de la oración, que Ibn Abidin llama la más sólida, o la hora de la oración vespertina. Se recomienda leer la sura al-Kahf el viernes, en el hadiz que enciende para su lector la luz entre los dos viernes, y se recomienda mucha súplica con la esperanza de cumplir con la hora. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18020}
+
+Sobre el adorno: se recomienda el viernes llevar la mejor ropa, el turbante, el perfume, afeitarse, cortarse las uñas y el palisto de dientes; en el hadiz "hoy es un día en que Dios hizo un banquete para los musulmanes, así que lávate." {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18020} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18021}
+
+Los shafíes y hanbalíes recomiendan contraer matrimonio el viernes, ya que un grupo de los primeros musulmanes lo recomendó, y es un día noble, una fiesta. También recomiendan leer la sura al-Sajda y la sura al-Insan en la oración del amanecer del viernes, ya que se dice que el Profeta las leyó, aunque a Ahmad no le gustaba hacerlas constantes para que la gente las considerara distinguidas por la postración; los hanafistas recomiendan leerlas a veces como una bendición, pero detestan la constancia para que los ignorantes no piensen que nada más está permitido. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18021}
+
+En venta: los juristas aceptan prohibir la venta en la llamada a la oración del viernes, por palabra de Dios en la sura al-Jumu'a (versículo 9); la mayoría afirma que está prohibido y los hanafis lo califican de prohibitivo como antipático. Difieren sobre cuándo comienza la prohibición: la mayoría dice la segunda llamada, los hanafis la primera llamada después del mediodía. Los juristas extienden la prohibición a contratos y disposiciones en general, mientras que los hanbalíes, según la opinión escolar, la limitan a la venta, por lo que el matrimonio y el alquiler no están prohibidos. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18021}
+
+Sobre la posición de Arafa que cae el viernes: los hanafis dicen que una posición de pie de viernes tiene el mérito de setenta peregrinaciones y que el mejor de los días es el día de Arafa, cuando cae en viernes; los Shafi'is informan que cuando coinciden Dios perdona a toda la gente de la posición de pie sin intermediarios. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18022}

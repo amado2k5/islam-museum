@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-adds-a-poem-on-the-sword-and-the-lines-of-the-son-of-the-messenger-292
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/al-hadi-adds-a-poem-on-the-sword-and-the-lines-of-the-son-of-the-messenger-292.md}
+---
+## Visión general
+Al-Hadi también escribió al pie de su carta otro poema, que dice en sentido que nada frena a la gente del error y la ruina excepto las espadas, que la amenaza está cerca y la hora de la guerra ha llegado {cite:sira-hadi-ila-al-haqq p.280}. Le siguen dos versos en metro tawil en los que se nombra hijo del Mensajero de Dios y de su heredero {cite:sira-hadi-ila-al-haqq p.281}.
+
+## Detalle
+El poeta describe al imán, es decir, a sí mismo, como alguien que confía en Dios y es resuelto como un león, que perdonó una y otra vez y luego aclaró las cosas, actuando por bondad y cuidado del Islam, hasta que su ruptura de la fe duró mucho y se extralimitaron en la rebelión, de modo que les anunció la guerra, seguro de la ayuda de Dios; les ordena luchar y buscar refugio, dice que cargará con su espada llamada Dhu al-Fiqar a través de las oleadas de la guerra hasta que levante la oscuridad, que brazos y manos volarán y cabezas caerán, y describe su posición como establecida en medio de la profecía, uno elevado entre puntas de lanza {cite:sira-hadi-ila-al-haqq p.280} {cite:sira-hadi-ila-al-haqq p.281}. Concluye diciendo que la carta ha llegado a su tiempo, eliminando toda ignorancia y error, y que Dios hace lo que quiere {cite:sira-hadi-ila-al-haqq p.281}. En las dos líneas siguientes se llama a sí mismo hijo del Mensajero de Dios y de su legado, cuyo mérito y batallas no se pueden contar, largo tiempo entre los leones de la guerra en estocada y golpe {cite:sira-hadi-ila-al-haqq p.281}. Las notas incluyen las lecturas del manuscrito S («y también la suya» en el texto base, dos palabras sueltas, y «los días») y explican una palabra en plural como una variante de «shin». El poema se atribuye a al-Hadi en un libro zaidí; la afirmación de su ascendencia y mérito es suya, algo que el museo ni afirma ni niega, y no se repite ninguna palabra ofensiva.

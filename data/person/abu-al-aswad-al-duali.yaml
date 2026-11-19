@@ -7,7 +7,7 @@ education:
     sources: [source/fihrist-ibn-al-nadim, source/tabaqat-ibn-sad]
 class: person
 tags: [qiraat-browser, qiraat-people, qiraat-naqt, qiraat-readers]
-label: { ar: "أبو الأسود الدؤلي ظالم بن عمرو", en: "Abu al-Aswad al-Du'ali, Zalim ibn Amr" }
+label: { ar: "أبو الأسود الدؤلي ظالم بن عمرو", en: "Abu al-Aswad al-Du'ali, Zalim ibn Amr", fr: "Abu al-Aswad al-Du'ali, Zalim ibn Amr" }
 names:
   - { kind: full, lang: ar, value: "ظالم بن عمرو بن سفيان أبو الأسود الدؤلي" }
 gender: male
@@ -17,6 +17,7 @@ died: { edtf: "0688", hijri: "0069", calendar: julian, precision: year, status: 
 summary:
   ar: "لغوي وراوية، يُنسب إليه ضبط المصحف ووضع النحو، ويرجع نسبه إلى الدؤل بن بكر بن كنانة. وعند ابن النديم زعم أكثر العلماء أن النحو أخذ عنه وأنه أخذه عن علي بن أبي طالب، ومنه نقط أبي الأسود للفتح والضم والكسر والغنة، وقيل إن الداعي كان سماعه قارئا يكسر رسوله في براءة أو قول سعد الفارسي فرسي ضالع يريد ظالعا {cite:fihrist-ibn-al-nadim p. 103-106}"
   en: "A philologist and transmitter credited with the vowel-pointing of the Qur'an and the founding of Arabic grammar. His lineage goes back to al-Du'al ibn Bakr ibn Kinana."
+  fr: "Philologue et transmetteur à qui l'on attribue la vocalisation du Coran et la fondation de la grammaire arabe. Sa généalogie remonte à al-Du'al ibn Bakr ibn Kinana."
 wings: [people]
 themes: [linguistics, scripture-and-its-sciences]
 periods: [period/umayyad]
@@ -32,9 +33,9 @@ provenance:
   enriched_by:
     - { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-people-1, source: "source/burhan-dar-al-hadith-2006 PDF page 177 (page number is a PDF page marker; OCR errors not copied)" }
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص684"
+  source: "موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج1 ص684"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch47
 relations:
-  - { type: lived_in, target: place/fars, note: "Place association from the person's nisba/name (الفارسي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/fihrist-ibn-al-nadim, source/umayyad-birth-to-fall-2006, source/sallabi-ali-vol1, source/al-mustatraf-abshihi-scan-vol1], confidence: low }
+  - { type: lived_in, target: place/fars, note: "Place association from the person's nisba/name ⁦(الفارسي)⁩; denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/fihrist-ibn-al-nadim, source/umayyad-birth-to-fall-2006, source/sallabi-ali-vol1, source/al-mustatraf-abshihi-scan-vol1], confidence: low }

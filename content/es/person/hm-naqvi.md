@@ -1,0 +1,18 @@
+---
+id: person/hm-naqvi
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/hm-naqvi.md}
+---
+## Resumen
+H. M. Naqvi (nacido en 1973 según la fecha en inglés del artículo) es un novelista pakistaní radicado en Karachi. Nacido en Londres y criado en Karachi, se graduó en la Universidad de Georgetown en 1996, trabajó en el Banco Mundial de 1997 a 2003 y estudió escritura creativa en la Universidad de Boston con Ha Jin. {cite:wikipedia-hm-naqvi-en} Su novela debut Home Boy (2009), sobre tres jóvenes pakistaníes en Nueva York tras los atentados de septiembre de 2001, ganó el primer Premio DSC de Literatura del Sur de Asia en 2011; su segunda novela, Las obras seleccionadas de Abdullah el cosaco, apareció en 2019. {cite:wikipedia-hm-naqvi-en}
+
+## Vida
+Naqvi nació en Londres y creció en Karachi. Los artículos en inglés y urdu datan su nacimiento en 1973, mientras que Wikidata y la Enciclopedia Literaria señalan 1974 — el registro recoge el año en que se debate. {cite:wikipedia-hm-naqvi-en} {cite:wikidata-hm-naqvi} {cite:literary-encyclopedia-hm-naqvi} La Enciclopedia Literaria amplía su nombre como Husain M. Naqvi y describe a una familia diplomática que vivió en varios países. {cite:literary-encyclopedia-hm-naqvi} Se graduó en la Universidad de Georgetown en 1996 con títulos en economía y literatura inglesa, y mientras estuvo en Washington dirigió un espacio de poesía slam, el Fifteen Minutes Club. {cite:wikipedia-hm-naqvi-en} En 1997 se incorporó al Banco Mundial y pasó los años siguientes en servicios financieros en la costa este de Estados Unidos y en Karachi; tras dejar esa carrera en 2003 asistió a clases en Harvard y luego se incorporó al programa de escritura creativa de la Universidad de Boston, trabajando bajo la tutela de Ha Jin, donde enseñó escritura. {cite:wikipedia-hm-naqvi-en} Se trasladó a Karachi en 2007, fue residente en el Programa Internacional de Escritura de la Universidad de Iowa en 2010 y también ha impartido clases de escritura creativa en la Universidad de Ciencias de la Gestión de Lahore. {cite:wikipedia-hm-naqvi-en} Las fuentes no mencionan ninguna religión para él, y el museo no registra ninguna. {cite:wikipedia-hm-naqvi-en} {cite:wikidata-hm-naqvi}
+
+## Trabajo
+Home Boy se publicó en Estados Unidos en septiembre de 2009 y sigue a tres jóvenes paquistaníes en Nueva York tras los ataques de septiembre de 2001; el New York Times lo interpretó como una narrativa de inmigrantes, un roman de bildungsroman y una novela neoyorquina en uno, y Publishers Weekly le dio una reseña destacada. {cite:wikipedia-hm-naqvi-en} El 22 de enero de 2011 ganó el primer Premio DSC de Literatura del Sur de Asia, valorado en 50.000 dólares, en el Festival de Literatura de Jaipur. {cite:wikipedia-hm-naqvi-en} The Selected Works of Abdullah the Cossack (2019) está narrado por un septuagenario de una familia de Karachi que antaño fue prominente, y Kirkus Reviews encontró su fuerza en la evocación de los barrios, la historia y la cultura de la ciudad, mientras que el Wall Street Journal la calificó de delirante carta de amor a Karachi. {cite:wikipedia-hm-naqvi-en} Naqvi también ha escrito sobre arte paquistaní contemporáneo, minorías y Baluchistán para GlobalPost, y sobre Karachi para Forbes. {cite:wikipedia-hm-naqvi-en}
+
+## Fuentes
+- Las entidades fuente citadas anteriormente, registradas bajo `data/source/`.

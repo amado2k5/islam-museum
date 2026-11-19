@@ -1,0 +1,12 @@
+---
+id: event/abu-al-qasim-ibn-al-hadi-verses-on-restraint-and-a-message-to-the-imam-290
+lang: es
+source_lang: en
+translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
+provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-es-2026-11-18, source: content/en/event/abu-al-qasim-ibn-al-hadi-verses-on-restraint-and-a-message-to-the-imam-290.md}
+---
+## Visión general
+Al pie de la p. 259 y al principio de la p. 260, hay dos fragmentos en los que Abu al-Qasim dice que su propósito se vio impedido de enfrentarse a las lanzas en el momento de los deseos, en plena reflexión; que su preocupación no es el vino ni escuchar a un cantor, que su alma lo impulsa hacia todo lo noble, y que no es de aquellos que esperan ser salvados por el simple deseo {cite:sira-hadi-ila-al-haqq p.259} {cite:sira-hadi-ila-al-haqq p.260}. En un fragmento de la p. 260, le dice al comandante de los creyentes que no preste atención a su lejanía o cercanía, que se levante con empeño para servir a Dios, y que lo considere entre los caídos; afirma que está satisfecho con su prueba ante Dios, que pasan las noches tras la prueba, que el mundo no es eterno y que todos se reunirán ante su abuelo, el Mensajero de Dios, en el Día del Juicio {cite:sira-hadi-ila-al-haqq p.260}.
+
+## Detalle
+El museo interpreta aquí la frase “el comandante de los creyentes” como una referencia a su padre, al-Hadi, basándose en el contexto; sin embargo, el libro no lo afirma. La última línea de la página 260, que describe la exigencia de su abuelo de que le revelaran lo que habían ocultado a su familia, se presenta en el libro como el discurso del poeta, mientras que el museo no ofrece ninguna interpretación al respecto. Antes de esto, se encuentran [[event/abu-al-qasim-ibn-al-hadi-composes-verses-in-prison-290|los fragmentos anteriores de la misma sección]]. El museo no reproduce los versos ni las palabras ofensivas que contienen, sino que solo ofrece su significado general, tal como lo presenta el libro; el libro atribuye el verso a Abu al-Qasim, pero el museo no ha verificado esta atribución. Los elogios y los epítetos presentes en los versos son del poeta, presentados tal como aparecen en el libro, sin que el museo ofrezca ninguna valoración al respecto.

@@ -2,7 +2,7 @@
 id: invention/fountain-pen-al-muizz
 lang: ur
 source_lang: ar
-title: "معز لدین اللہ کے لیے بنایا خزان دار قلم (تقریباً 974ء)"
+title: "معز لدین اللہ کے لیے بنایا خزان دار قلم ⁦(تقریباً 974ء)⁩"
 status: { review: published }
 provenance: { generated_by: devin-drafter-w2-27, model: SWE-2, run: inventions-w2-27, source: "EI2 KALAM pp. 471-472; Bosworth 1981 bibliographic" }
 ---

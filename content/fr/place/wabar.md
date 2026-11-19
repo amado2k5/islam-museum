@@ -1,0 +1,26 @@
+---
+id: place/wabar
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/wabar.md}
+---
+## Vue d'ensemble
+Le pays de Wabar est celui que l'on appelle les sables d'Alij, où Wabar ibn Umaym et son peuple s'établirent et périrent à cause de leur transgression, comme le rapporte al-Mas'udi d'après les akhbaris (historiens des récits). {cite:muruj-al-dhahab p.456}
+
+## Le récit des akhbaris
+D'après les akhbaris, c'était l'une des terres les plus fertiles de Dieu, riche en arbres et en fruits. Les djinns y vivaient et la protégeaient des humains qui s'y aventuraient. Ils lui jetaient de la poussière au visage, déchaînaient des tourbillons, et parfois l'égaraient ou le tuaient. {cite:muruj-al-dhahab p.456}
+
+Ils rapportent qu'aujourd'hui seuls des djinns et des chameaux sauvages y vivent, et que ces chameaux sauvages descendent des chameaux des djinns. Al-Mas'udi mentionne que, de l'avis de nombreux gens doués de compréhension, ce lieu est une légende. {cite:muruj-al-dhahab p.457}
+
+## Dans le Mu'jam al-buldan de Yaqut
+Yaqut donne Wabar comme nom du modèle de « Qatam » et « Hadham », qui pourrait provenir de « wabar », la laine de chameaux, de lièvres et autres, ou de « tawbir », l'effacement d'une trace. Il énonce ensuite plusieurs affirmations concernant sa localisation : qu'il s'agit de la terre de Wabar ibn Iram ibn Sam ibn Nuh, qui s'y installa lors de la confusion des langues et y construisit une demeure, une vaste étendue de terre entre al-Shihr et Sana'a, d'environ trois cents farsakhs carrés ; que, selon al-Layth, elle se situait parmi les demeures d'Ad, entre les sables de Yabrin et du Yémen, que Dieu laissa aux djinns après la disparition d'Ad ; que, d'après Muhammad ibn Ishaq, c'est une terre habitée par les nasnas, tandis que certains la situent entre Hadramawt et al-Subub. et que le livre d'Ahmad ibn Muhammad al-Hamadhani le situe au Yémen, entre Najran et Hadramawt, et entre le pays de Mahra et al-Shihr. {cite:mujam-al-buldan-sader-1995 5 p.356} {cite:mujam-al-buldan-sader-1995 5 p.357}
+
+Il raconte que c'était la terre la plus fertile, la plus riche en eau, en arbres et en fruits, si bien que ses tribus se multiplièrent, s'enrichirent et devinrent arrogantes, sans reconnaître la grâce qui leur avait été accordée ; Dieu changea alors leur forme et fit d'eux des nasnas, chacun avec une demi-tête, un demi-visage, un œil, une main et une jambe, et les fourmis de leur pays devinrent aussi grosses que de grands chiens. {cite:mujam-al-buldan-sader-1995 5 p.356} {cite:mujam-al-buldan-sader-1995 5 p.357}
+
+Il cite Hisham ibn Muhammad selon lequel Wabar était un village des Banu Wabar, l'une des premières nations, isolé entre les sables des Banu Sa'd, d'al-Shihr et de Mahra. Ceux qui prétendent l'avoir atteint disent arriver sur une terre de palais majestueux, de palmiers et d'eau, déserte. On dit que des djinns y habitent et qu'aucun humain n'y pénètre sans s'y égarer. À ce sujet, il cite un verset d'al-Farazdaq qui compare l'égarement d'un homme à celui de celui qui cherche le chemin de Wabar. {cite:mujam-al-buldan-sader-1995 5 p.356} {cite:mujam-al-buldan-sader-1995 5 p.357}
+
+Il rapporte également ce que disent les savants arabes : que lorsque Dieu détruisit Ad et Thamud, il laissa les djinns s’installer dans leurs demeures et qu’ils les protègent de quiconque s’approche, jetant de la poussière au visage de l’intrus, le désorientant et parfois le tuant ; et que l’on y trouve les chameaux appelés hawshiyya, que l’on dit avoir été recouverts par les chameaux des djinns. Il raconte l’histoire d’un Yéménite qui suivit un étalon de son troupeau jusqu’à la source de Wabar. Dans le même passage, il cite la liste d’Abu Zayd al-Ansari de paroles de la forme « Je l’ai laissé à la source de Wabar », qui désignent des lieux que personne ne peut identifier, puis lit un verset d’al-Nabigha qui mentionne les palmiers de Wabar, indiquant qu’il s’agissait d’une terre habitée et connue, avec des palmiers dattiers. {cite:mujam-al-buldan-sader-1995 5 p.356} {cite:mujam-al-buldan-sader-1995 5 p.357}
+
+## L'identification du musée
+Le texte et Yaqut s'accordent sur le fond : il s'agit du pays de Wabar, dont le peuple a péri, où les djinns se sont installés et qu'ils gardent, et où l'on trouve les chameaux hawshiyya, comme le rapporte al-Mas'udi dans le texte des akhbaris. Yaqut, cependant, ne situe pas Wabar dans les sables d'Alij : ils apparaissent dans la même entrée (p. 358) uniquement dans le récit d'un voyageur s'étant égaré dans les sables d'Alij et ayant rencontré un nasnas à demi-corps, et non comme une localisation précise du pays. Il situe le lieu à plusieurs reprises, entre al-Shihr et Sana'a, entre Najran et Hadramawt, ou encore entre les sables de Banu Sa'd et al-Shihr et Mahra, sans trancher. Les coordonnées du site du cratère de Wabar dans le Rub' al-Khali, telles que mentionnées dans le texte, proviennent du système de géocodage du musée et ne sont pas de Yaqut. Il ne faut pas les interpréter comme une description du territoire qu'il décrit.

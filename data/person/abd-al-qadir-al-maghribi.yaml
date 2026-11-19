@@ -3,11 +3,13 @@ class: person
 label:
   ar: "عبد القادر المغربي"
   en: "Abd al-Qadir al-Maghribi"
+  fr: "Abd al-Qadir al-Maghribi"
 roles: [scholar, journalist]
 gender: male
 summary:
   ar: "عبد القادر بن مصطفى المغربي الطرابلسي، نائب رئيس المجمع العلمي العربي بدمشق، من العلماء باللغة والأدب، ولد باللاذقية سنة 1284 هـ الموافقة 1868 م وتوفي بدمشق سنة 1375 هـ الموافقة 1956 م."
   en: "Abd al-Qadir ibn Mustafa al-Maghribi al-Tarabulsi, deputy president of the Arab Academy of Damascus and a scholar of language and literature; born in Latakia in 1284 AH (1868 CE), died in Damascus in 1375 AH (1956 CE)."
+  fr: "Abd al-Qadir ibn Mustafa al-Maghribi al-Tarabulsi, vice-président de l'Académie arabe de Damas et savant de la langue et de la littérature ; né à Lattaquié en 1284 H (1868 ap. J.-C.), mort à Damas en 1375 H (1956 ap. J.-C.)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
@@ -27,6 +29,6 @@ status:
   review: draft
   completeness: 3
 relations:
-  - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (المغربي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name ⁦(المغربي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: born_in, target: place/ladhiqiyya, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 4 p. 47: born in Latakia.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
   - { type: died_in, target: place/damascus, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 4 p. 47: died in Damascus.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

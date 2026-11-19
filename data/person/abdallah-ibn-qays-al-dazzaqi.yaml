@@ -1,9 +1,10 @@
 id: person/abdallah-ibn-qays-al-dazzaqi
 class: person
-label: { ar: "عبد الله بن قيس الدزقي", en: "Abdallah ibn Qays al-Dazzaqi" }
+label: { ar: "عبد الله بن قيس الدزقي", en: "Abdallah ibn Qays al-Dazzaqi", fr: "Abdallah ibn Qays al-Dazzaqi" }
 summary:
   ar: "عند البلاذري عن الواقدي: عبد الله بن قيس بن مخلد الدزقي سبى صقلية فأصاب أصنام ذهب وفضة مكللة بالجوهر فبعث بها إلى معاوية فوجّه بها إلى البصرة لتحمل إلى الهند فتباع هناك."
   en: "In al-Baladhuri via al-Waqidi: Abdallah ibn Qays ibn Mukhallad al-Dazzaqi plundered Sicily, taking gold and silver idols crowned with jewels sent to Mu'awiya, who forwarded them to Basra to be carried to India and sold."
+  fr: "Chez al-Baladhuri d'après al-Waqidi : Abdallah ibn Qays ibn Mukhallad al-Dazzaqi pilla la Sicile, prenant des idoles d'or et d'argent couronnées de joyaux, envoyées à Mu'awiya, qui les fit acheminer à Bassora pour être portées en Inde et vendues."
 wings: [people]
 gender: male
 died: { edtf: "890~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sam'ani (al-Ansab)" }
@@ -12,7 +13,7 @@ relations:
   - { type: participated_in, target: event/first-raid-on-sicily, role: "السابي", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 329"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 329"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-24
 sources: [source/futuh-buldan-maarif-1407]

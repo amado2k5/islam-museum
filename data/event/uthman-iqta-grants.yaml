@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0646~", calendar: julian, precision: year, status: tradition, derived: true, note: "خلافة عثمان 24–35هـ (البلاذري ص 381–382). التحويل مشتق." }
+  start: { edtf: "0646~", calendar: julian, precision: year, status: tradition, derived: true, note: "خلافة عثمان 24–35هـ ⁦(البلاذري ص 381–382)⁩. التحويل مشتق." }
 relations:
   - { type: had_participant, target: person/uthman-ibn-affan, role: "المقطع", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/talha-ibn-ubaydullah, role: "صاحب النشاستج", sources: [source/futuh-buldan-maarif-1407] }
@@ -22,7 +22,7 @@ relations:
   - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 381–382"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 381–382"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-33
 sources: [source/futuh-buldan-maarif-1407]

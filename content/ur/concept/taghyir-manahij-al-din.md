@@ -62,11 +62,11 @@ translators: []
 آرکائیو شدہ ریکارڈنگ تقریباً 54ویں منٹ پر ٹوٹ جاتی ہے جب میزبان وقفے سے پہلے ایک اور رائے شماری کی تیاری کر رہے ہیں؛ آرکائیو میں باقی قسط اور میزبان کا خلاصہ محفوظ نہیں۔ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:54:00}
 
 :::perspectives
-**اہلِ سنت: دانستہ بیرونی دباؤ (علی لبن)۔** ایک بین الاقوامی کمیٹی نے نصاب کو عقیدے، جہاد اور احکام سے خالی کیا؛ علاج دباؤ ختم کرنا اور مصنف کو آزاد کرنا ہے۔ یہ ان کی روایت ہے۔ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:09:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:33:00}
+**اہلِ سنت: دانستہ بیرونی دباؤ ⁦(علی لبن)⁩۔** ایک بین الاقوامی کمیٹی نے نصاب کو عقیدے، جہاد اور احکام سے خالی کیا؛ علاج دباؤ ختم کرنا اور مصنف کو آزاد کرنا ہے۔ یہ ان کی روایت ہے۔ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:09:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:33:00}
 
-**اہلِ سنت: خرابی پہلے ہم میں ہے (ڈاکٹر جمیل علام)۔** دین کے صحیح تصور سے غفلت اور اسلام نہ جاننے والے مصنفین کا انتخاب؛ مغربی کردار محض تکمیلی ہے۔ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:35:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:38:30}
+**اہلِ سنت: خرابی پہلے ہم میں ہے ⁦(ڈاکٹر جمیل علام)⁩۔** دین کے صحیح تصور سے غفلت اور اسلام نہ جاننے والے مصنفین کا انتخاب؛ مغربی کردار محض تکمیلی ہے۔ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:35:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:38:30}
 
-**اہلِ سنت: حذف کے بغیر نظرثانی (ڈاکٹر خالد القاسم)۔** نصاب میں ذہن سازی ہے جس پر نظرثانی چاہیے؛ بیرونی دباؤ ظالمانہ ہے مگر بہتری میں مفید ہو سکتا ہے، جہاد اور سود کے حذف میں نہیں۔ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:47:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:48:30}
+**اہلِ سنت: حذف کے بغیر نظرثانی ⁦(ڈاکٹر خالد القاسم)⁩۔** نصاب میں ذہن سازی ہے جس پر نظرثانی چاہیے؛ بیرونی دباؤ ظالمانہ ہے مگر بہتری میں مفید ہو سکتا ہے، جہاد اور سود کے حذف میں نہیں۔ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:47:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:48:30}
 
-**مقرر کی رائے (رائے): طارق السویدان۔** دینی نصاب کے دس مقاصد، جن میں سے اکثر مہمانوں کی درجہ بندی میں غائب یا کمزور ہیں؛ تنقید خوبیوں کو منسوخ نہیں کرتی۔ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:12:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:27:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:43:00}
+**مقرر کی رائے ⁦(رائے)⁩: طارق السویدان۔** دینی نصاب کے دس مقاصد، جن میں سے اکثر مہمانوں کی درجہ بندی میں غائب یا کمزور ہیں؛ تنقید خوبیوں کو منسوخ نہیں کرتی۔ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:12:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:27:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep27 00:43:00}
 :::

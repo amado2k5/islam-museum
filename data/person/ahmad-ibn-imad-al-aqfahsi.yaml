@@ -1,6 +1,6 @@
 id: person/ahmad-ibn-imad-al-aqfahsi
 class: person
-label: { ar: "أحمد بن عماد الأقفهسي", en: "Ahmad ibn Imad al-Aqfahsi" }
+label: { ar: "أحمد بن عماد الأقفهسي", en: "Ahmad ibn Imad al-Aqfahsi", fr: "Ahmad ibn Imad al-Aqfahsi" }
 names:
   - { kind: full, lang: ar, value: "أحمد بن عماد" }
   - { kind: kunya, lang: ar, value: "أبو العباس" }
@@ -13,6 +13,7 @@ died: { edtf: "1405", hijri: "0808", calendar: julian, precision: year, status: 
 summary:
   ar: "الفقيه الشافعي أحمد بن عماد الأقفهسي، المعروف بالعماد، من أهل القاهرة، ولم تحفظ المصادر تاريخ ولادته بدقة."
   en: "The Shafi'i jurist Ahmad ibn Imad al-Aqfahsi, known as al-Imad, of Cairo; the sources do not record his date of birth precisely."
+  fr: "Le juriste chaféite Ahmad ibn Imad al-Aqfahsi, connu comme al-Imad, du Caire ; les sources ne précisent pas sa date de naissance."
 wings: [people]
 themes: [development-of-law-theology-institutions]
 periods: [period/crusades-ayyubid-mamluk]
@@ -26,7 +27,7 @@ status:
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص252-253"
+  source: "موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج2 ص252-253"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch48
@@ -37,4 +38,4 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/mawsuat-a3lam-ulama-adaba]
 relations:
-  - { type: lived_in, target: place/cairo, note: "Place association from the person's nisba/name (القاهري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
+  - { type: lived_in, target: place/cairo, note: "Place association from the person's nisba/name ⁦(القاهري)⁩; denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

@@ -1,7 +1,28 @@
 // Run: node --test workers/site/test/
 import { test } from "node:test";
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import { resolve, notFoundKey, parseRedirects, parseDynamicRedirects, matchDynamicRedirect, parseHeaders, headersFor } from "../src/route.js";
+
+test("French routes and search indexes stay on R2", () => {
+  assert.deepEqual(resolve("/fr"), { type: "redirect", location: "/fr/" });
+  assert.deepEqual(resolve("/fr/"), { type: "r2", key: "fr/index.html" });
+  assert.deepEqual(resolve("/fr/x/"), { type: "r2", key: "fr/x/index.html" });
+  assert.equal(notFoundKey("/fr/missing"), "fr/404/index.html");
+  assert.deepEqual(resolve("/pagefind-fr/pagefind.js"), { type: "r2", key: "pagefind-fr/pagefind.js" });
+});
+
+test("every sync environment permits French HTML and search prefixes", () => {
+  for (const config of ["wrangler.toml", "wrangler.production.toml"]) {
+    const text = readFileSync(new URL(`../../r2-sync/${config}`, import.meta.url), "utf8");
+    const lists = [...text.matchAll(/^ALLOWED_PREFIXES = "([^"]+)"/gm)];
+    assert.ok(lists.length > 0);
+    for (const [, list] of lists) {
+      assert.ok(list.split(",").includes("fr/"));
+      assert.ok(list.split(",").includes("pagefind-fr/"));
+    }
+  }
+});
 
 test("language pages map to index.html keys", () => {
   assert.deepEqual(resolve("/ar/person/muhammad/"), { type: "r2", key: "ar/person/muhammad/index.html" });
@@ -99,6 +120,8 @@ test("aliasTarget redirects a former entity id to the current one in the same la
   const aliases = { "person/tughrul-beg": "person/tughril-beg", "event/tulunid-collapse-292": "event/fall-of-tulunids-292" };
   assert.equal(aliasTarget("/ar/person/tughrul-beg/", aliases), "/ar/person/tughril-beg/");
   assert.equal(aliasTarget("/ur/event/tulunid-collapse-292", aliases), "/ur/event/fall-of-tulunids-292/");
+  assert.equal(aliasTarget("/fr/person/tughrul-beg/", aliases), "/fr/person/tughril-beg/");
+  assert.equal(aliasTarget("/es/event/tulunid-collapse-292/", aliases), "/es/event/fall-of-tulunids-292/");
   assert.equal(aliasTarget("/en/person/tughril-beg/", aliases), null);
   assert.equal(aliasTarget("/en/search/", aliases), null);
   assert.equal(aliasTarget("/brand/logo-mark.svg", aliases), null);

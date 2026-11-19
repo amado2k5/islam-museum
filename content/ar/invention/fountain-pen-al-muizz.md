@@ -2,7 +2,7 @@
 id: invention/fountain-pen-al-muizz
 lang: ar
 source_lang: ar
-title: "القلم ذو الخزان المصنوع للمعز لدين الله (نحو 974م)"
+title: "القلم ذو الخزان المصنوع للمعز لدين الله ⁦(نحو 974م)⁩"
 status: { review: published }
 provenance: { generated_by: devin-drafter-w2-27, model: SWE-2, run: inventions-w2-27, source: "EI2 KALAM pp. 471-472; Bosworth 1981 bibliographic" }
 ---

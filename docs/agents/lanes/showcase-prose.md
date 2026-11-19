@@ -18,13 +18,13 @@ Raise the **Showcase Tier** to completeness 3 with trilingual prose (ar, en, ur)
 1. Pick at most 25 records from the current phase, grouped by class and by source.
 2. **Gather evidence locally first.** Every claim in a batch cites a file in the local harvest workspace (`~/islam-museum-harvest/`, path plus page or anchor). Your own knowledge may find a resource; it never supplies a fact. Fetch with the family's fetcher once and cache; work offline afterwards. Never circumvent a login, paywall or terms page.
 3. Build a claims table per record (claim, value, local file and anchor, quotation of 40 words at most).
-4. Write `data/<class>/<slug>.yaml` (dates, relations, `sources`, `provenance`, `status`) and `content/{ar,en,ur,fr}/<class>/<slug>.md` at completeness 3. Arabic first; English, Urdu and French translate it in the same commit. Each fact-stating sentence carries `{cite:<source-id> <anchor>}`. Status: `review: published`, `completeness: 3`, provenance completed (`layer`, `source`, `generated_by`, `model`, `run`).
+4. Write `data/<class>/<slug>.yaml` (dates, relations, `sources`, `provenance`, `status`) and `content/{ar,en,ur,fr,es}/<class>/<slug>.md` at completeness 3. Arabic first; English, Urdu, French and Spanish translate it in the same commit. Each fact-stating sentence carries `{cite:<source-id> <anchor>}`. Status: `review: published`, `completeness: 3`, provenance completed (`layer`, `source`, `generated_by`, `model`, `run`).
 5. `npm run cite-check -- <ids>`. Fix failures; a record that still fails is skipped and logged, not forced.
 6. `npm run coverage` (regenerates `docs/coverage.md`), commit with the attribution trailers, push, and update the progress file (batch id, records done, records skipped with reasons, families registered, decisions, `NEXT STEP:`).
 
 ## Exhibit prose standard
 
-- Every room body (`rooms[].body`) is **3 to 5 cited sentences in each of ar, en, ur and fr**: what the visitor is looking at, the story it carries, and the fact that anchors it. One-line bodies are replaced.
+- Every room body (`rooms[].body`) is **3 to 5 cited sentences in each of ar, en, ur, fr and es**: what the visitor is looking at, the story it carries, and the fact that anchors it. One-line bodies are replaced.
 - Room bodies must be in the language of their field. An English body that contains Arabic text is a defect and is rewritten, not patched.
 - An exhibit or journey is treated as finished only when every record it features is at completeness 3.
 

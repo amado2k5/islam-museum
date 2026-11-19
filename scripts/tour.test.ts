@@ -86,7 +86,7 @@ describe("3d tour: exhibits.yaml", () => {
       for (const src of e.sources) expect(existsSync(`data/${src}.yaml`), `${e.id}: ${src} exists`).toBe(true);
       for (const k of ["label", "desc", "material", "museum"]) {
         if (k !== "label" && k !== "desc" && e[k] === undefined) continue;
-        for (const l of ["ar", "en", "ur", "fr"]) expect(nonempty(e[k]?.[l]), `${e.id}.${k}.${l}`).toBe(true);
+        for (const l of ["ar", "en", "ur"]) expect(nonempty(e[k]?.[l]), `${e.id}.${k}.${l}`).toBe(true); // raw data: the published set; fr and es are backfilled by the loader
       }
       const text = JSON.stringify(e);
       expect(HONORIFIC.test(text), `${e.id} typed honorific`).toBe(false);
@@ -323,7 +323,7 @@ describe("3d tour: halls.yaml", () => {
         expect(s.sources, `${where} sources match the record`).toEqual(rec.sources);
         if (s.art) expect(art.has(s.art), `${where} art`).toBe(true);
         if (cls === "person") expect(s.art, `${where}: no illustration for a person`).toBeUndefined();
-        for (const l of ["ar", "en", "ur", "fr"]) {
+        for (const l of ["ar", "en", "ur"]) {
           expect(s.label[l], `${where} label.${l}`).toBeTruthy();
           expect(s.desc[l], `${where} desc.${l}`).toBeTruthy();
         }

@@ -1,6 +1,6 @@
 id: person/al-abbas-ibn-ubada
 class: person
-label: { en: "al-Abbas ibn Ubada", ar: "العباس بن عبادة", ur: "العباس بن عبادة" }
+label: { en: "al-Abbas ibn Ubada", fr: "Al-Abbas ibn Ubada", ar: "العباس بن عبادة", ur: "العباس بن عبادة" }
 names:
   - { kind: full, lang: ar, value: "العباس بن عبادة بن نضلة الأنصاري الخزرجي" }
 gender: male
@@ -8,6 +8,7 @@ roles: [companion, notable]
 traditions: [sunni]
 summary:
   en: "A zealous leader of the Khazraj who attended both Pledges of Aqaba; at the Second Pledge he stood to impress upon the Yathribites the gravity of their covenant, declaring their readiness to face war against all mankind; after the meeting he offered to strike the Quraysh encampment at Mina if ordered; he was martyred at the battle of Uhud."
+  fr: "Dirigeant ardent des Khazraj présent aux deux serments d’Aqaba ; lors du second, il se leva pour faire comprendre aux gens de Yathrib la gravité de leur engagement, affirmant qu’ils étaient prêts à affronter la guerre contre l’humanité entière. Après la réunion, il proposa d’attaquer le campement des Quraysh à Mina s’il en recevait l’ordre ; il mourut en martyr à la bataille d’Uhud."
   ar: "فارس أنصاري من السابقين؛ شهد بيعتي العقبة، وقام في الثانية يؤكد لقومه خطورة البيعة وأنهم يبايعون على حرب الأحمر والأسود، ولما صرخ الشيطان بالعقبة عرض أن يميل بأسيافهم على أهل منى، واستشهد يوم أحد."
   ur: "خزرج کے جوشیلی قائد جو دونوں بیعت عقبہ میں شریک ہوئے؛ دوسری بیعت میں کھڑے ہو کر یثرب والوں کو ذمہ داری کی سنگینی یاد دلائی۔"
 wings: [people]
@@ -15,7 +16,7 @@ themes: [converts-and-leavers]
 periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
-  - { role: convert, toward: person/muhammad, start: { edtf: "0621~" }, status: tradition, note: "شهد بيعتي العقبة وأكد ميثاقها (الرحيق ص143، 150، 153).", sources: [source/mubarakpuri-raheeq] }
+  - { role: convert, toward: person/muhammad, start: { edtf: "0621~" }, status: tradition, note: "شهد بيعتي العقبة وأكد ميثاقها ⁦(الرحيق ص143، 150، 153)⁩.", sources: [source/mubarakpuri-raheeq] }
   - { role: companion, start: { edtf: "0621~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0621~" }, note: "صحابي شهد العقبتين واستشهد بأحد." }

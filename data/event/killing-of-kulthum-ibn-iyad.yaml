@@ -9,14 +9,14 @@ wings: [time]
 periods: [period/umayyad]
 regions: [maghreb]
 date:
-  start: { edtf: "0724/0743", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية هشام (البلاذري ص 321). التحويل مشتق." }
+  start: { edtf: "0724/0743", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية هشام ⁦(البلاذري ص 321)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/ifriqiya }
   - { type: had_participant, target: person/kulthum-ibn-iyad-al-qushayri, role: "الوالي المقتول", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/hisham-ibn-abd-al-malik, role: "المولّي", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 321"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 321"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-21, lib-futuh-misr-batch-5-2026-10-31
 sources: [source/futuh-buldan-maarif-1407, source/futuh-misr-amir-1999]

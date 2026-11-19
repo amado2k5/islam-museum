@@ -1,6 +1,6 @@
 id: person/al-azjani-nasih-al-din-ahmad
 class: person
-label: { ar: "الأزجاني ناصح الدين", en: "al-Azjani, Nasih al-Din" }
+label: { ar: "الأزجاني ناصح الدين", en: "al-Azjani, Nasih al-Din", fr: "Al-Azjani, Nasih al-Din" }
 names:
   - { kind: full, lang: ar, value: "أبو بكر ناصح الدين أحمد بن محمد بن الحسين الأرجاني" }
 gender: male
@@ -11,6 +11,7 @@ died: { edtf: "1149", hijri: "0544", calendar: julian, precision: year, status: 
 summary:
   ar: "عالم من أرجان في بلاد فارس، توفي سنة 544 هـ."
   en: "Scholar from Arjan in Persia who died in 544 AH."
+  fr: "Savant d’Arjan en Perse, mort en 544 H."
 wings: [people]
 themes: [scripture-and-its-sciences]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -23,9 +24,9 @@ status:
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص440-441"
+  source: "موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج1 ص440-441"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch49
 relations:
-  - { type: lived_in, target: place/arrajan, note: "Place association from the person's nisba/name (الأرجاني); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
+  - { type: lived_in, target: place/arrajan, note: "Place association from the person's nisba/name ⁦(الأرجاني)⁩; denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

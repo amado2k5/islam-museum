@@ -11,12 +11,12 @@ summary:
 wings: [people]
 died: { edtf: "822~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
-  - { type: student_of, target: person/al-shafii, role: "من أصحاب الشافعي المكيين (PDF ص53)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: student_of, target: person/al-shafii, role: "من أصحاب الشافعي المكيين ⁦(PDF ص53)⁩", sources: [source/tabaqat-fuqaha-abbas-1981] }
   - { type: lived_in, target: place/shiraz, sources: [source/wikidata], confidence: low, note: "Nisba شيرازي attested in the record." }
 sources: [source/tabaqat-fuqaha-abbas-1981]
 provenance:
   layer: "own-research"
-  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص48–53"
+  source: "طبقات الفقهاء ⁦(تحقيق إحسان عباس)⁩ PDF ص48–53"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch125

@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [egypt-nile]
 date:
-  start: { hijri: "0023?", precision: year, status: debated, note: "سنة 23 أو 25 — روايتان (البلاذري ص 310–311)" }
+  start: { hijri: "0023?", precision: year, status: debated, note: "سنة 23 أو 25 — روايتان ⁦(البلاذري ص 310–311)⁩" }
 relations:
   - { type: occurred_at, target: place/alexandria }
   - { type: had_participant, target: person/amr-ibn-al-as, role: "المسترد وقاصم الجدار", sources: [source/futuh-buldan-maarif-1407] }
@@ -17,7 +17,7 @@ relations:
   - { type: had_participant, target: person/abdullah-ibn-hudhafa-al-sahmi, role: "صاحب الرابطة المذبوحة", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 310–312"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 310–312"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-20
 sides:

@@ -82,7 +82,7 @@ if (args[0] === "--write-md") {
 }
 
 // ---- the oracle ----
-const graph = JSON.parse(readFileSync(p(".cache", "graph.json"), "utf8").slice(0, 400).replace(/,"nodes".*/s, "}"));
+const graph = JSON.parse(readFileSync(p(".cache", "graph.json")).subarray(0, 400).toString("latin1").replace(/,"nodes".*/s, "}"));
 const head = sh("git rev-parse HEAD");
 const dirty = sh("git status --porcelain -- data content tour schema scripts site i18n").split("\n").filter(Boolean).length;
 console.log("ORACLE 05: the cross-record contradiction sweep is complete; nothing is left silently (statement 5)");

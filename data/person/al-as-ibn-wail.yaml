@@ -1,18 +1,19 @@
 id: person/al-as-ibn-wail
 class: person
-label: { en: "al-As ibn Wa'il", ar: "العاص بن وائل" }
+label: { en: "al-As ibn Wa'il", fr: "Al-As ibn Wa’il", ar: "العاص بن وائل" }
 names:
   - { kind: full, lang: ar, value: "العاص بن وائل السهمي" }
 gender: male
 roles: [merchant]
 summary:
   en: "The Sahmi notable whose withholding of a Zabidi merchant's due sparked the events leading to the Fudul pact — the confederates rose and wrested the man's right from him."
+  fr: "Notable sahmite dont le refus de payer son dû à un marchand zubaydite déclencha les événements menant au pacte d’al-Fudul — les confédérés se levèrent et lui arrachèrent le droit de cet homme."
   ar: "وجيه سهمي اشترى بضاعة رجل من زبيد وحبس عنه حقه؛ فكان سبب مناشدة الزبيدي واجتماع حلف الفضول الذي انتزع منه الحق — فيما يروى الكتاب عن سبب الحلف."
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
-  - { role: opponent, status: tradition, note: "صاحب المظلمة التي كانت سبب الحلف (الرحيق ص60).", sources: [source/mubarakpuri-raheeq] }
+  - { role: opponent, status: tradition, note: "صاحب المظلمة التي كانت سبب الحلف ⁦(الرحيق ص60)⁩.", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: arabian-polytheism, basis: tradition, note: "قرشي ما قبل الإسلام." }
 died: { edtf: "622", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham (al-Sira)" }
@@ -23,7 +24,7 @@ occupations:
     note: "merge-map link from role 'merchant', Job Browser linking wave"
     sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mukhtasar-sirat-al-rasul-al-najdi]
 relations:
-  - { type: lived_in, target: place/zabid, note: "Place association from the person's nisba/name (الزبيدي); denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mukhtasar-sirat-al-rasul-al-najdi], confidence: low }
+  - { type: lived_in, target: place/zabid, note: "Place association from the person's nisba/name ⁦(الزبيدي)⁩; denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mukhtasar-sirat-al-rasul-al-najdi], confidence: low }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/hilf-al-fudul, role: "المطلوب إلى حق الزبيدي", sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mukhtasar-sirat-al-rasul-al-najdi]

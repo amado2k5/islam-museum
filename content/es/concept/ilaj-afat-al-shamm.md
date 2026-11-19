@@ -1,0 +1,11 @@
+---
+id: concept/ilaj-afat-al-shamm
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/ilaj-afat-al-shamm.md}
+---
+## Cómo tratar el mal temperamento y el humor
+Si su causa es un mal temperamento, debe tratarse de manera contraria, dirigiendo la parte frontal del cerebro con las duchas, inhalaciones, ungüentos y vendajes mencionados en el capítulo de tratamientos para la cabeza. El mal temperamento más común es un frío, ya sea en ambos ventrículos anteriores o en el par mamilar, y el medio más útil para ello son los rapés de aceite caliente con los ingredientes conocidos (no se incluyen los nombres de los medicamentos). Si la causa es un humor en los ventrículos cerebrales, se reconoce por lo dicho en sus causas, y ese humor se elimina mediante gárgaras, inhalaciones, inhalaciones y aromas calmantes para despejar la cabeza; si es necesaria una flebotomía, se realiza, todo ello siguiendo los principios dados en el tratamiento de la cabeza {cite:canon-ibn-sina-print-v2 p.236}
+## Tratamiento de la oclusión y la sensación unilateral
+Si la causa es una oclusión en el hueso cribiforme, utilice las duchas de apertura mencionadas entre los tratamientos para la cabeza e inhálelas con los ingredientes conocidos molidos; luego, mantenga la cabeza en las ventosas, haciendo gárgaras con ingredientes calientes de apertura. Entre los elementos probados registrados se encuentra una semilla remojada durante días en vinagre, molida finamente, mezclada con aceite y goteada en la nariz, aspirando lo más profundo posible (las recetas probadas, los aceites y los medicamentos molidos se clasifican por tipo, no por nombre ni medida). Si la causa en él son hemorroides —percibe lo agradable pero no lo desagradable— se le inhala repetidamente un medicamento específico hasta que mejore (como se imprime; el nombre es uno de los nombres de medicamentos omitidos); a quien percibe lo desagradable pero no lo agradable se le inhala un perfume específico hasta que su estado mejore (como se imprime) {cite:canon-ibn-sina-print-v2 p.236}

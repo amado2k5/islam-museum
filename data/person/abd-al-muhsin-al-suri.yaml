@@ -3,11 +3,13 @@ class: person
 label:
   ar: "عبد المحسن الصوري"
   en: "Abd al-Muhsin al-Suri"
+  fr: "Abd al-Muhsin al-Suri"
 roles: [poet]
 gender: male
 summary:
   ar: "عبد المحسن بن محمد بن أحمد بن غالب الصوري، أبو محمد، ويلقب بابن غلبون، شاعر حسن المعاني من أهل صور في بلاد الشام، ولد وتوفي فيها، وله ديوان شعر مخطوط؛ من 339هـ الموافقة 950م إلى 419هـ الموافقة 1028م."
   en: "Abd al-Muhsin ibn Muhammad ibn Ahmad ibn Ghalib al-Suri, Abu Muhammad, called Ibn Ghalbun, a poet of fine themes from Tyre in the Levant, born and died there; his diwan survives in manuscript; 339 AH, 950 CE, to 419 AH, 1028 CE."
+  fr: "Abd al-Muhsin ibn Muhammad ibn Ahmad ibn Ghalib al-Suri, Abu Muhammad, dit Ibn Ghalbun, poète aux thèmes raffinés de Tyr, au Levant, où il naquit et mourut ; son diwan subsiste en manuscrit ; 339 H, 950 ap. J.-C., à 419 H, 1028 ap. J.-C."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -26,6 +28,6 @@ status:
 died: { edtf: "1028", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 152: 419 AH = 1028 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 born: { edtf: "950", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 152: 339 AH = 950 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/sur, note: "Place association from the person's nisba/name (الصوري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/sur, note: "Place association from the person's nisba/name ⁦(الصوري)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: born_in, target: place/sur, note: "Al-Zirikli, al-A'lam vol. 4 p. 152: of Tyre, born and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
   - { type: died_in, target: place/sur, note: "Al-Zirikli, al-A'lam vol. 4 p. 152: of Tyre, born and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

@@ -1,6 +1,6 @@
 id: person/abdullah-ibn-abi-umayya
 class: person
-label: { en: "Abdullah ibn Abi Umayya", ar: "عبد الله بن أبي أمية", ur: "عبد الله بن أبي أمية" }
+label: { en: "Abdullah ibn Abi Umayya", ar: "عبد الله بن أبي أمية", ur: "عبد الله بن أبي أمية", fr: "Abdullah ibn Abi Umayya" }
 names:
   - { kind: full, lang: ar, value: "عبد الله بن أبي أمية بن المغيرة المخزومي" }
 gender: male
@@ -10,14 +10,15 @@ summary:
   en: "A Qurashi nobleman of Banu Makhzum, brother of Umm Salama and maternal cousin of the Prophet; after opposing the early call, he accepted Islam on the road to the conquest of Mecca and was martyred by an arrow during the siege of Ta'if."
   ar: "صحابي من أشراف بني مخزوم، أخو أم سلمة أم المؤمنين وابن عمة النبي عاتكة بنت عبد المطلب؛ عادى الدعوة بمكة ثم أسلم في طريق فتح مكة بنيق العقاب، واستُشهد بسهم في حصار الطائف."
   ur: "بنو مخزوم کے قریشی سردار، ام سلمہ کے بھائی اور نبی کی خالہ زاد بھائی؛ مکہ میں ابتدائی دعوت کے مخالف رہے، پھر راستے میں اسلام قبول کیا۔"
+  fr: "Un notable qurayshite des Banu Makhzum, frère d'Umm Salama et cousin du Prophète par sa mère ; après s'être opposé à l'appel des débuts, il embrassa l'islam sur la route de la conquête de La Mecque et tomba en martyr, atteint d'une flèche, pendant le siège de Ta'if."
 wings: [people]
 themes: [converts-and-leavers, battles]
 periods: [period/prophetic-era]
 regions: [arabia]
 died: { edtf: "0630-01", hijri: "0008-10", calendar: julian, precision: month, status: tradition, note: "استشهد بسهم رُمي به في حصار الطائف.", sources: [source/ibn-hisham-saqqa] }
 story_roles:
-  - { role: convert, status: tradition, note: "أسلم بنيق العقاب في طريق فتح مكة بعد شفاعة أم سلمة له (ابن هشام 4/42–44).", sources: [source/ibn-hisham-saqqa] }
-  - { role: martyr, status: tradition, note: "استشهد في حصار الطائف (ابن هشام 4/129).", sources: [source/ibn-hisham-saqqa] }
+  - { role: convert, status: tradition, note: "أسلم بنيق العقاب في طريق فتح مكة بعد شفاعة أم سلمة له ⁦(ابن هشام 4/42–44)⁩.", sources: [source/ibn-hisham-saqqa] }
+  - { role: martyr, status: tradition, note: "استشهد في حصار الطائف ⁦(ابن هشام 4/129)⁩.", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم عام الفتح." }
 relations:

@@ -20,7 +20,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 جمہور کے نزدیک نفل جماعت سے بھی جائز ہے اور انفرادی طور پر بھی، مگر تراویح کے علاوہ گھر میں پڑھنا افضل ہے {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13139}۔ گھر میں خشوع میں خلل ہو تو مسجد میں اکیلے پڑھنا بہتر ہے {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13139}۔
 
 ## مخصوص راتیں
-شب جمعہ، عیدین کی دونوں راتیں، رمضان کی راتیں (تراویح)، نصف شعبان اور ذوالحجہ کے پہلے دس دن کی راتوں کا قیام مستحب یا مسنون ہے، جس کی تفصیل متن میں مذکور ہے {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13139} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13141}۔
+شب جمعہ، عیدین کی دونوں راتیں، رمضان کی راتیں ⁦(تراویح)⁩، نصف شعبان اور ذوالحجہ کے پہلے دس دن کی راتوں کا قیام مستحب یا مسنون ہے، جس کی تفصیل متن میں مذکور ہے {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13139} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13141}۔
 
 ## مزید تفصیل
 تفصیلی احکام کے لیے «إحياء الليل»، «تهجد» اور «صلاة التراويح» کے مواد دیکھے جائیں {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13138} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13141}۔

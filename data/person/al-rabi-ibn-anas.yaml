@@ -3,19 +3,21 @@ class: person
 label:
   ar: "الربيع بن أنس"
   en: "al-Rabi' ibn Anas"
+  fr: "al-Rabi' ibn Anas"
   ur: "ربیع بن انس"
 roles: [scholar]
 gender: male
 summary:
   ar: "الربيع بن أنس البكري البصري ثم الخراساني، مفسر من التابعين توفي سنة 139هـ؛ روى عن أبي العالية والحسن البصري، ونقل الطبري تفسيره في جامع البيان بإسناد عمار بن الحسن عن عبد الله بن أبي جعفر الرازي عن أبيه عنه."
   en: "Al-Rabi' ibn Anas al-Bakri of Basra, later of Khurasan, an exegete among the Successors who died in 139 AH; he transmitted from Abu al-Aliya and al-Hasan al-Basri, and al-Tabari quotes his commentary in Jami' al-Bayan through Ammar ibn al-Hasan, from Abd Allah ibn Abi Ja'far, from his father, from him."
+  fr: "Al-Rabi' ibn Anas al-Bakri de Basra, plus tard de Khurasan, un exégète parmi les successeurs qui sont morts en 139 de l’hégire ; Il a transmis d'Abou al-Aliya et al-Hasan al-Basri, et al-Tabari cite son commentaire dans Jami' al-Bayan par Ammar ibn al-Hasan, d'Abd Allah ibn Abi Ja'far, de son père, de lui."
   ur: "ربیع بن انس بکری بصری، بعد میں خراسانی، مفسر جن کی وفات 139ھ میں ہوئی؛ انہوں نے ابو العالیہ اور حسن بصری سے روایت کی، اور طبری جامع البیان میں ان کی تفسیر عمار بن حسن از عبد اللہ بن ابی جعفر از ان کے والد از ربیع کی سند سے نقل کرتے ہیں۔"
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
 died: { hijri: "0139", edtf: "0756/0757", calendar: julian, precision: year, status: historical, derived: true, note: "«= 139هـ» في حاشية البحث عن الجرح والتعديل وتهذيب التهذيب {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.49}؛ التحويل مشتق.", sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
 relations:
-  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (البصري); denotes association, not proven residence.", sources: [source/al-aalam, source/qiraat-inda-al-tabari-thesis-umm-al-qura], confidence: low }
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name ⁦(البصري)⁩; denotes association, not proven residence.", sources: [source/al-aalam, source/qiraat-inda-al-tabari-thesis-umm-al-qura], confidence: low }
   - { type: student_of, target: person/abu-al-aliya-al-riyahi, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
   - { type: student_of, target: person/al-hasan-al-basri, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
 themes: [scripture-and-its-sciences]

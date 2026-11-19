@@ -1,6 +1,6 @@
 id: person/al-harith-ibn-hisham
 class: person
-label: { en: "al-Harith ibn Hisham", ar: "الحارث بن هشام المخزومي", ur: "الحارث بن هشام المخزومي" }
+label: { en: "al-Harith ibn Hisham", fr: "Al-Harith ibn Hisham", ar: "الحارث بن هشام المخزومي", ur: "الحارث بن هشام المخزومي" }
 names:
   - { kind: full, lang: ar, value: "الحارث بن هشام بن المغيرة المخزومي القرشي" }
 gender: male
@@ -8,6 +8,7 @@ roles: [companion, general]
 traditions: [sunni]
 summary:
   en: "A prominent nobleman of Banu Makhzum and brother of Abu Jahl; after fierce opposition to Islam at Badr and Uhud, he embraced Islam on the day of the conquest of Mecca, was granted one hundred camels at al-Ji'rana among al-Mu'allafa Qulubuhum, and fell as a martyr in the conquest of Syria."
+  fr: "Notable éminent des Banu Makhzum et frère d’Abu Jahl ; après une vive opposition à l’islam à Badr et à Uhud, il embrassa l’islam le jour de la conquête de La Mecque, reçut cent chameaux à al-Ji’rana parmi les al-mu’allafa qulubuhum et mourut en martyr lors de la conquête de la Syrie."
   ar: "شريف من سادات بني مخزوم وأخو أبي جهل بن هشام؛ حارب المسلمين ببدر وأحد ثم أسلم يوم فتح مكة وحسن إسلامه، وأعطاه النبي مئة بعير بالجعرانة، واستُشهد في فتوح الشام."
   ur: "بنو مخزوم کے ممتاز سردار اور ابو جہل کے بھائی؛ بدر اور احد میں اسلام کی سخت مخالفت کے بعد فتح مکہ کے دن مسلمان ہوئے۔"
 wings: [people]
@@ -15,12 +16,12 @@ themes: [converts-and-leavers, battles]
 periods: [period/prophetic-era, period/rashidun]
 regions: [arabia, levant-iraq]
 story_roles:
-  - { role: convert, status: tradition, note: "أسلم يوم فتح مكة وأعطاه النبي مائة بعير بالجعرانة (ابن هشام 4/136).", sources: [source/ibn-hisham-saqqa] }
+  - { role: convert, status: tradition, note: "أسلم يوم فتح مكة وأعطاه النبي مائة بعير بالجعرانة ⁦(ابن هشام 4/136)⁩.", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم عام الفتح." }
 died: { edtf: "634", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 1/268; d. 13 or 18 AH)" }
 relations:
-  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/ibn-hisham-saqqa], confidence: low }
+  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name ⁦(القرشي)⁩; denotes association, not proven residence.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/distribution-of-hunayn-spoils, role: recipient, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }

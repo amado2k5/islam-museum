@@ -1,6 +1,6 @@
 id: person/abdullah-ibn-sad-ibn-abi-sarh
 class: person
-label: { en: "Abdullah ibn Sa'd ibn Abi Sarh", ar: "عبد الله بن سعد بن أبي سرح" , ur: "عبد اللہ بن سعد بن ابی سرح"}
+label: { en: "Abdullah ibn Sa'd ibn Abi Sarh", ar: "عبد الله بن سعد بن أبي سرح" , ur: "عبد اللہ بن سعد بن ابی سرح", fr: "Abdullah ibn Sa'd ibn Abi Sarh" }
 names:
   - { kind: full, lang: ar, value: "عبد الله بن سعد بن أبي سرح بن الحارث العامري القرشي" }
 gender: male
@@ -10,19 +10,20 @@ summary:
   en: "A scribe of revelation who apostatized back to Quraysh; proscribed on the day of the Conquest, he was sheltered by his foster brother Uthman ibn Affan who pleaded for him until the Prophet granted him pardon; he returned to Islam and later governed Egypt under Umar and Uthman."
   ar: "كاتب للوحي في المدينة ارتد ولحق بمكة؛ أهدر النبي دمه يوم الفتح فاستأمن له أخوه من الرضاعة عثمان بن عفان بعد صمت طويل، فعفا عنه وأسلم وحسن إسلامه وولاه عمر ثم عثمان مصر."
   ur: "کاتبِ وحی، جو قریش کی طرف لوٹ گئے تھے، پھر فتح مکہ پر عثمان کی سفارش سے معافی پاکر دوبارہ مسلمان ہوئے اور بعد میں مصر کے گورنر رہے۔ {cite:ibn-hisham-saqqa}"
+  fr: "Un scribe de la révélation qui apostasia et retourna auprès de Quraysh ; proscrit le jour de la Conquête, il fut abrité par son frère de lait Uthman ibn Affan, qui plaida pour lui jusqu'à ce que le Prophète lui accorde son pardon ; il revint à l'islam et gouverna plus tard l'Égypte sous Umar et Uthman."
 wings: [people]
 themes: [converts-and-leavers, laws-of-war-and-peace]
 periods: [period/prophetic-era, period/rashidun]
 regions: [arabia, egypt-nile]
 story_roles:
-  - { role: left-islam, status: tradition, note: "كان يكتب الوحي فارتد مشركًا ولحق بقريش (ابن هشام 4/51).", sources: [source/ibn-hisham-saqqa] }
-  - { role: convert, status: tradition, note: "جدد إسلامه يوم الفتح بشفاعة عثمان بن عفان (ابن هشام 4/51–52).", sources: [source/ibn-hisham-saqqa] }
+  - { role: left-islam, status: tradition, note: "كان يكتب الوحي فارتد مشركًا ولحق بقريش ⁦(ابن هشام 4/51)⁩.", sources: [source/ibn-hisham-saqqa] }
+  - { role: convert, status: tradition, note: "جدد إسلامه يوم الفتح بشفاعة عثمان بن عفان ⁦(ابن هشام 4/51–52)⁩.", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم وحسن إسلامه بعد الفتح." }
 born: { edtf: "595", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 died: { edtf: "0679", hijri: "0059", calendar: julian, precision: year, status: tradition, derived: true, note: "Died at al-Ramla after the dawn prayer, 59 AH in the last years of Mu'awiya (al-Sarraj, al-Isaba p. 885); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
-  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/ibn-hisham-saqqa], confidence: low }
+  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name ⁦(القرشي)⁩; denotes association, not proven residence.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/fath-mecca-proscribed-persons, role: pardoned-person, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }

@@ -1,11 +1,12 @@
 id: person/al-bazzi
 class: person
 tags: [qiraat-browser, qiraat-people, qiraat-readers, qiraat-readings]
-label: { ar: "البزي راوي ابن كثير", en: "al-Bazzi, the Rawi of Ibn Kathir" }
+label: { ar: "البزي راوي ابن كثير", en: "al-Bazzi, the Rawi of Ibn Kathir", fr: "Al-Bazzi, transmetteur d’Ibn Kathir" }
 died: { edtf: "0883", hijri: "0270", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة سبعين ومائتين وله تسعون سنة {cite:wafayat-ayan}." }
 summary:
   ar: "البزي وهو أحمد بن محمد بن عبد الله بن القاسم بن نافع بن أبي بزة بشار الفارسي؛ كنيته أبو الحسن؛ راوية ابن كثير المقرئ الآخر؛ توفي سنة سبعين ومائتين وله تسعون سنة {cite:wafayat-ayan}."
   en: "Al-Bazzi — Abu al-Hasan Ahmad b. Muhammad al-Farisi (d. 270, aged 90) — Ibn Kathir's second rawi; the Qunbul-Bazzi pairing carried his reading down {cite:wafayat-ayan}."
+  fr: "Al-Bazzi — Abu al-Hasan Ahmad ibn Muhammad al-Farisi (mort en 270 H à 90 ans) — deuxième rawi d’Ibn Kathir ; le duo Qunbul-Bazzi transmit sa lecture {cite:wafayat-ayan}."
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
@@ -13,7 +14,7 @@ provenance:
   enriched_by:
     - { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-people-1, source: "source/nashr-dahman-damascus-1345-v1: the biography sections of the ten readers and their transmitters in al-Nashr (scan pages as cited in the prose; page numbers are scan page markers, OCR errors not copied)" }
   layer: own-research
-  source: "وفيات الأعيان لابن خلكان — الجزء الثالث (عارضة 79 داخل ترجمة ابن كثير المقرئ)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  source: "وفيات الأعيان لابن خلكان — الجزء الثالث ⁦(عارضة 79 داخل ترجمة ابن كثير المقرئ)⁩، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch118
@@ -22,4 +23,4 @@ status:
   review: published
   completeness: 3
 relations:
-  - { type: lived_in, target: place/fars, note: "Place association from the person's nisba/name (الفارسي); denotes association, not proven residence.", sources: [source/wafayat-ayan], confidence: low }
+  - { type: lived_in, target: place/fars, note: "Place association from the person's nisba/name ⁦(الفارسي)⁩; denotes association, not proven residence.", sources: [source/wafayat-ayan], confidence: low }

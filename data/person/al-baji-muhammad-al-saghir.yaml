@@ -1,6 +1,6 @@
 id: person/al-baji-muhammad-al-saghir
 class: person
-label: { ar: "الباجي محمد بن محمد الصغير", en: "Al-Baji, Muhammad ibn Muhammad al-Saghir" }
+label: { ar: "الباجي محمد بن محمد الصغير", en: "Al-Baji, Muhammad ibn Muhammad al-Saghir", fr: "Al-Baji, Muhammad ibn Muhammad al-Saghir" }
 names:
   - { kind: full, lang: ar, value: "محمد بن محمد الصغير بن يوسف الباجي" }
 gender: male
@@ -11,6 +11,7 @@ died: { edtf: "1772", hijri: "1185", calendar: gregorian, precision: year, statu
 summary:
   ar: "مؤرخ تونسي كثيرا ما يُخطأ في إيراد اسمه الكامل لاشتهاره بكنية «الصغير الباجي»."
   en: "A Tunisian historian whose full name is often misreported, since he is widely known by the kunya al-Saghir al-Baji."
+  fr: "Historien tunisien dont le nom complet est souvent mal rapporté, car il est surtout connu sous la kunya al-Saghir al-Baji."
 wings: [people]
 themes: [history-writing-and-social-thought]
 periods: [period/gunpowder-empires]
@@ -23,9 +24,9 @@ status:
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص34"
+  source: "موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج3 ص34"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch50
 relations:
-  - { type: lived_in, target: place/baja-maghrib, note: "Place association from the person's nisba/name (الباجي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
+  - { type: lived_in, target: place/baja-maghrib, note: "Place association from the person's nisba/name ⁦(الباجي)⁩; denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

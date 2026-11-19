@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0630~", hijri: "0009~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد وفود اليمن وإسلامهم نحو أواخر عهد النبي؛ بلا تأريخ مفرد في الكتاب (البلاذري ص 92–94). التحويل مشتق." }
+  start: { edtf: "0630~", hijri: "0009~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد وفود اليمن وإسلامهم نحو أواخر عهد النبي؛ بلا تأريخ مفرد في الكتاب ⁦(البلاذري ص 92–94)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/yemen }
   - { type: had_participant, target: person/khalid-ibn-said-ibn-al-as, role: "صنعاء عند الواقدي؛ مخاليف أعلى اليمن عند آخرين", sources: [source/futuh-buldan-maarif-1407] }
@@ -20,7 +20,7 @@ relations:
   - { type: had_participant, target: person/amr-ibn-hazm, role: "نجران", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 92–94 و98"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 92–94 و98"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-4
 sources: [source/futuh-buldan-maarif-1407]

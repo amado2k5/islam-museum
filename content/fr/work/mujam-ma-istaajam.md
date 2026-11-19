@@ -1,0 +1,25 @@
+---
+id: work/mujam-ma-istaajam
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/work/mujam-ma-istaajam.md}
+---
+## Résumé
+Le *Mu'jam ma sta'jam* est un dictionnaire géographique d' [[person/al-bakri-abu-ubayd|Abu Ubayd Abd Allah ibn Abd al-Aziz ibn Abi Mus'ab al-Bakri]], que la page de titre de l'ouvrage qualifie de « juriste, maître du hadith, homme de lettres et vizir » {cite:mujam-ma-istaajam-bakri p.13}. En introduction, al-Bakri explique avoir recensé tous les lieux de halte, habitations, villages, villes, montagnes, ruines, points d'eau, puits et enclos mentionnés dans les hadiths, les récits, les récits historiques et la poésie, en les localisant, les définissant, les classant par ordre alphabétique et en les retranscrivant avec soin. Il constatait en effet que ces noms étaient devenus obscurs et souhaitait donner à chaque lieu une description précise et une orthographe claire, afin d'éviter toute confusion ou altération {cite:mujam-ma-istaajam-bakri p.15}.
+
+## Pourquoi il l'a écrit
+Al-Bakri explique que l'exactitude de tels noms ne peut être déterminée par l'intelligence et la perspicacité comme pour d'autres choses, et cite des exemples de toponymes qui se ressemblent ou ne diffèrent que par un point : Na'ija et Ba'ija, Nakhla et Nahla, Jund et Janad, Tihama et Nihama, Sumn et Suma, Shaba et Shama. {cite:mujam-ma-istaajam-bakri p.15} Il rapporte, d'après Ibn Qutayba, comment un verset d'Abu Dhu'ayb contenant « Dhat al-Dayr » fut lu à al-Asma'i, et un Bédouin présent affirma qu'il s'agissait de « Dhat al-Dabr », avec un *b*, un col de montagne de son pays ; al-Asma'i adopta cette lecture. {cite:mujam-ma-istaajam-bakri p.15}
+
+## Méthode et sources
+Al-Bakri affirme attribuer chaque affirmation au philologue ou au transmetteur qui l'a faite et indique l'étymologie du nom lorsqu'elle est connue. Il précise que tout ce qu'il cite d'al-Sakuni provient de l'ouvrage d'Abu Ubayd Allah Amr ibn Bishr al-Sakuni sur les montagnes de Tihama et leurs lieux, transmis par Abu al-Ash'ath al-Kindi d'après le Bédouin Arram ibn al-Asbagh al-Sulami. {cite:mujam-ma-istaajam-bakri p.17}
+
+## Introduction : L'Arabie et les tribus
+Al-Bakri commence son récit par [[place/jazirat-al-arab|la péninsule arabique]] et l'établissement des Arabes dans cette région et ailleurs. Il aborde le territoire de chaque tribu, les territoires partagés par deux tribus ou plus, et les tribus qui ont vaincu leurs voisins et se sont approprié un territoire. Il s'ouvre sur le récit de Hisham ibn Muhammad al-Kalbi, qui tenait son père d'après Ibn Abbas, concernant les fils de Nizar ibn Ma'add {cite:mujam-ma-istaajam-bakri p.17}. Il présente ensuite les définitions de la péninsule selon les savants : celle de Malik, qui la définit comme La Mecque, Médine, al-Yamama et le Yémen ; celle d'al-Asma'i, qui la décrit comme la zone inaccessible aux rois de Perse, s'étendant de l'extrémité d'Aden Abyan jusqu'aux confins de la Syrie en longueur et de Djeddah jusqu'aux terres agricoles d'Irak en largeur ; et celles d'al-Sha'bi et d'Abu Ubayd. {cite:mujam-ma-istaajam-bakri p.17} {cite:mujam-ma-istaajam-bakri p.18} Il explique qu'on l'appelle « île » parce que le golfe Persique, la mer d'Abyssinie, l'Euphrate et le Tigre l'entourent, traçant le contour des eaux depuis l'Euphrate jusqu'à la mer, puis jusqu'à al-Qulzum, le Nil et la mer de Syrie. {cite:mujam-ma-istaajam-bakri p.18} Cette introduction occupe les premières pages jusqu'à ce que le dictionnaire commence par le chapitre sur la hamza et l'alif. {cite:mujam-ma-istaajam-bakri p.71}
+
+## Arrangement
+Al-Bakri ordonne les lettres de son livre « à la manière des Maghrébins », et l'édition imprime un tableau de cet ordre avant le texte. {cite:mujam-ma-istaajam-bakri p.14}
+
+## L'édition lue
+Le premier volume de l'édition de [[person/ferdinand-wustenfeld|Ferdinand Wüstenfeld]], réalisée à partir des manuscrits de Leyde, Cambridge, Londres et Milan et publiée à Göttingen et Paris en 1876, a été lu. {cite:mujam-ma-istaajam-bakri p.5} Dans sa préface en allemand, Wüstenfeld indique que le manuscrit de Leyde a été copié en 709 H (1309) en écriture naskh, souvent dépourvue de signes diacritiques, et que le manuscrit de Cambridge, acquis par Burckhardt, est l'un des meilleurs manuscrits arabes, entièrement vocalisé d'une belle écriture maghrébine, complété à partir d'autres copies par un érudit hanafite damascène, Ibrahim ibn Sulayman al-Jinini, entre 1095 et 1100 AH. {cite:mujam-ma-istaajam-bakri p.9} {cite:mujam-ma-istaajam-bakri p.10} Wüstenfeld cite le verdict français de Dozy selon lequel le dictionnaire est « unique en son genre », inégalé par l’étendue et la précision de ses détails, et une aide précieuse pour la lecture de la poésie arabe ancienne. {cite:mujam-ma-istaajam-bakri p.8}

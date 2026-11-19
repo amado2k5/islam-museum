@@ -1,0 +1,21 @@
+---
+id: place/amul
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/amul.md}
+---
+## Vue d'ensemble
+Amul, également appelée Amuya : ville située sur l’Oxus. Ses habitants combattirent Abd Allah ibn al-Rabi ibn Ziyad lorsque celui-ci fut nommé successeur au poste de gouverneur du Khorasan, puis il fit la paix avec eux, selon al-Baladhuri. {cite:futuh-buldan-maarif-1407}
+
+## Compte de l'Encyclopédie de l'Islam
+L'Encyclopédie de l'Islam (2e éd.) situe cette ville d'Amul, également appelée Amuya ou Amu, à environ 5 kilomètres de la rive gauche de l'Oxus, par 39° 05' N et 63° 41' E. Au Moyen Âge arabe, elle appartenait à la vaste province du Khorasan. Bien qu'entourée de désert, elle revêtait une grande importance pour le commerce caravanier, car elle constituait un carrefour essentiel des routes reliant le Khorasan à la Transoxiane et à Khiva. {cite:encyclopaedia-of-islam-2 vol. 1 p. 481-483}
+
+En 287/900, le Samanide Ismaïl mit en déroute Muhammad ibn Bashir et son armée près d'Amul. La ville est fréquemment mentionnée dans les sources relatives à l'invasion mongole et aux campagnes de Tamerlan. Les auteurs médiévaux la distinguaient des autres Amul en ajoutant un qualificatif : Amul Zamin, « près de Zamm » (l'actuelle Kerki), Amul Djayhun ou Amul al-Shatt. Ses noms Amuya et Amu pourraient être d'anciens noms locaux de l'Oxus, dont dériverait peut-être le nom plus récent Amou-Daria. Le nom moderne Cardjuy, « les quatre ruisseaux », fait référence au gué sur l'Oxus situé à proximité. {cite:encyclopaedia-of-islam-2 vol. 1 p. 481-483}
+
+Sous les Ouzbeks, le passage de l'Oxus à Cardjuy était le plus important du fleuve, avec des bateaux constamment prêts à l'emploi et des pontons de bateaux pour accueillir de grandes armées ; l'armée de Nadir Shah le traversa en 1153/1740. La ville ne fut jamais importante ni un siège princier durant cette période. Les chemins de fer russes atteignirent l'Amou-Daria en 1886, et un pont ferroviaire fut construit en 1901. Avant la Révolution, la vieille ville était la résidence d'un beg de Boukhara ; à côté de la gare, une nouvelle ville russe, dotée d'un commandant militaire, comptait environ 4 000 à 5 000 habitants en 1914. {cite:encyclopaedia-of-islam-2 vol. 1 p. 481-483}
+
+Sous le régime soviétique, New Cardjuy devint un centre administratif et industriel. Sa population passa de 13 959 habitants en 1926 à 54 500 en 1933, les Turkmènes y constituant une petite minorité. En 1955, elle était la deuxième ville de la République soviétique du Turkménistan et elle est la principale ville de l'oblast depuis le 21 novembre 1939. Ville planifiée selon un plan rectiligne, elle est un important nœud ferroviaire, routier et fluvial ; l'Amou-Daria est navigable de Termez à la mer d'Aral. {cite:encyclopaedia-of-islam-2 vol. 1 p. 481-483}
+
+## Dans le Mu'jam al-Buldan de Yaqut
+Yaqut mentionne deux localités nommées Amul et décrit la seconde comme étant la ville bien connue située à l'ouest du Jayhun (Oxus), sur la route de Marw à Boukhara. Il précise que Farabr, ville natale d'al-Farabri, transmetteur du recueil d'al-Bukhari, se trouve en face, sur la rive orientale, et que la ville est située à environ un mille du rivage. Il la situe dans la quatrième zone climatique et énumère ses noms : Amul Zamm, Amul Jayhun, Amul al-Shatt et Amul al-Mafaza (en raison des sables difficiles qui la séparent de Marw), ainsi qu'Amu et Amuwiyya, en insistant sur le fait qu'il s'agit des noms d'une seule et même ville. Il indique les distances : quatre étapes depuis Zamm, environ douze étapes depuis Khwarezm, trente-six farsakhs depuis Marw al-Shahijan et dix-sept farsakhs depuis Boukhara. Il affirme que cette région a produit de nombreux savants que les spécialistes du hadith distinguent des savants d'Amul au Tabaristan, et il cite Abd Allah ibn Hammad al-Amuli, de qui al-Bukhari a transmis et qui est décédé en Rabi al-Akhir 269. Auparavant, il traite d'Amul du Tabaristan, la plus grande ville de la plaine. {cite:mujam-al-buldan-sader-1995 1 p.57} {cite:mujam-al-buldan-sader-1995 1 p.58}

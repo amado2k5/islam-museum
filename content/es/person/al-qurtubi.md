@@ -1,0 +1,15 @@
+---
+id: person/al-qurtubi
+lang: es
+source_lang: en
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (spanish lane, wave 4)", model: "claude-sonnet-5-5", run: "spanish-w4-2026-11-18", source: "content/en/person/al-qurtubi.md" }
+---
+
+## Biografía
+Abu Abdallah Muhammad ibn Ahmad ibn Abi Bakr ibn Faraj al-Ansari al-Khazraji al-Qurtubi al-Andalusi, erudito maliki experto en hadices, conocido sobre todo por su comentario del Corán. Nacido en al-Ándalus, fue uno de los que lo abandonaron rumbo a las tierras de Oriente; al-Dhahabi dice de él: «viajó, escribió y recibió lecciones de los maestros» {cite:encyclopaedia-of-islam-2 vol. 5 p. 550}. Oyó parte de al-Mufhim, el comentario del Sahih Muslim, de su autor Abu al-Abbas Ahmad ibn Umar al-Qurtubi, y transmitió de Abu al-Hasan al-Yahsubi y del hafiz Abu Ali al-Bakri {cite:nafh-tib-maqqari 2/211}; al-Dhahabi nombra además a Ibn Rawah, Ibn al-Jumayzi e Ibn al-Muzayyin entre sus maestros {cite:siyar-alam-nubala 17/97}.
+
+Se estableció en Munyat Bani Khusayb, en el Alto Egipto, y se hizo residente de ella, trabajando allí en su gran comentario y llenándolo de toda clase de rarezas {cite:siyar-alam-nubala 17/97}. Era un hombre piadoso, escrupuloso y asceta, sin afectación, que andaba con una sola prenda y un pequeño gorro, ocupado con lo que le concernía del más allá entre la devoción, el culto y la escritura {cite:nafh-tib-maqqari 2/210}. Su comentario del Corán abarcaba quince volúmenes; escribió también al-Asna sobre los Nombres Más Bellos en dos volúmenes, al-Tadhkira sobre los asuntos del más allá, un comentario de al-Taqassi y otras obras {cite:nafh-tib-maqqari 2/210-211}; al-Dhahabi dijo que las caravanas llevan su gran comentario {cite:nafh-tib-maqqari 2/211}. Murió en Munyat Ibn Khusayb en la noche del lunes 9 de Shawwal del 671 y fue enterrado allí {cite:nafh-tib-maqqari 2/211}; Ibn al-Imad lo llama «un imán del saber, uno de los buceadores en los significados de los hadices, hermoso en la composición y sólido en la transmisión» {cite:shadharat-dhahab p. 335}.
+
+## Su comentario, tal como lo describe su prólogo
+Al-Qurtubi da su nombre al comienzo de su comentario [[work/al-jami-li-ahkam-al-quran|al-Jami' li-Ahkam al-Qur'an]]: Abu Abd Allah Muhammad ibn Ahmad ibn Abi Bakr ibn Farh al-Ansari al-Khazraji de al-Ándalus, luego de Córdoba. {cite:jami-ahkam-quran-resala-v1 p.5} Dice que resolvió dedicar su vida al Libro de Dios y escribió sobre él un «comentario conciso» que combina interpretación, léxico, gramática, lecturas, refutaciones de los desviados y hadices que atestiguan los dictámenes, haciendo de él «un recordatorio para mí y un sustento para el día de mi sepultura». {cite:jami-ahkam-quran-resala-v1 p.7} {cite:jami-ahkam-quran-resala-v1 p.8} Su regla en él es «atribuir los dichos a quienes los dijeron y los hadices a quienes los compilaron», omitir la mayoría de los relatos de los comentaristas salvo lo indispensable, y dar a cada aleya que contiene un dictamen cuestiones numeradas sobre su ocasión de revelación, sus palabras raras y su dictamen. {cite:jami-ahkam-quran-resala-v1 p.8}

@@ -1,0 +1,37 @@
+---
+id: event/deathbed-of-muadh-ibn-jabal
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/deathbed-of-muadh-ibn-jabal.md}
+---
+## Resumen
+Los diccionarios biográficos informan que [[person/muadh-ibn-jabal|Mu'adh ibn Jabal]] se hizo cargo del pueblo durante la [[event/plague-of-amwas|plaga de Amwas]] después de que [[person/abu-ubayda-ibn-al-jarrah|Abu Ubayda ibn al-Jarrah]] fuera afectado y lo nombró su sucesor. Les predicó y oró para que su propia familia también sufriera la aflicción; su familia murió, luego enfermó y murió en la región del Jordán. Los libros conservan sus últimas palabras, en las que aceptaba la muerte, y su consejo a quienes lo rodeaban de que buscaran conocimiento en cuatro Compañeros. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 81}
+
+## Contexto
+La peste azotó Siria en el año 18 según la mayoría de los informes; Abu Zur'a dice que se extendió durante los años 17 y 18 y que [[person/umar-ibn-al-khattab|Umar]] hizo retroceder al ejército de Sargh en el primero. {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 652} Sifat al-Safwa relata que cuando la epidemia se extendió por la tierra, la gente dijo que solo podía ser el Diluvio, y Mu'adh se puso de pie y les dijo que era la misericordia de su Señor, la oración de su Profeta y la muerte de los justos que los precedieron. {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 181} Ibn Abd al-Barr informa que [[person/amr-ibn-al-as|Amr ibn al-As]] instó a la gente a dispersarse de ella como de un fuego, y que Mu'adh respondió que había oído al Profeta llamarla una misericordia para esta comunidad. {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 652} En la versión de Ibn Asakir es [[person/shurahbil-ibn-hasana|Shurahbil ibn Hasana]] quien responde a Amr, y Mu'adh luego ora al oírlo. {cite:tarikh-dimashq-ibn-asakir-fikr-1995 scan vol. 3 p. 307}
+
+## Su sermón y oración
+Después de que Abu Ubayda fue herido y nombrado Mu'adh en su lugar, Mu'adh se dirigió a la gente: esta aflicción es una misericordia para vosotros, la oración de vuestro Profeta y la muerte de los justos que os precedieron, y Mu'adh pide a Dios que le asigne a la casa de Mu'adh su parte. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 81} En el relato de Ibn Asakir, ora para que la parte de la casa de Mu'adh sea la más completa, recordando que el Profeta les había dicho que llegarían a Siria y serían heridos por hinchazones a través de las cuales Dios les concedería el martirio. {cite:tarikh-dimashq-ibn-asakir-fikr-1995 scan vol. 3 p. 307}
+
+## Lo que le sucedió a su familia
+Usd al-Ghaba dice que dos de sus esposas fueron alcanzadas y murieron, luego su hijo [[person/abd-al-rahman-ibn-muadh|Abd al-Rahman]] fue alcanzado y murió. {cite:usd-al-ghaba scan vol. 4 p. 193} Ibn Asakir, en cambio, dice que murieron dos hijas, a quienes enterró en una sola tumba. {cite:tarikh-dimashq-ibn-asakir-fikr-1995 scan vol. 3 p. 307} Sifat al-Safwa añade que Abd al-Rahman, el hijo al que más amaba, enfermó esa noche; al preguntarle cómo estaba, respondió con un versículo del [[passage/quran-3-60|Corán 3:60]], y Mu'adh dijo que, si Dios quería, lo encontraría entre los enfermos; conservó el cuerpo durante la noche y lo enterró al día siguiente. {cite:sifat-al-safwa-tartusi-2012 scan vol. 4 p. 198} Luego, el propio Mu'adh fue alcanzado en la palma de la mano; la miraba, giraba el dorso de la mano y decía que no cambiaría lo que había en ella por nada de este mundo. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 81}
+
+## Sus palabras en el lecho de muerte
+Perdía el conocimiento y, al despertar, decía: Oh Dios, ahógame con Tu ahogo, pues por Tu poder Tú sabes que te amo. {cite:usd-al-ghaba scan vol. 4 p. 193} Amr ibn Qays relata que cuando llegó la muerte preguntó una y otra vez si había amanecido hasta que le dijeron que sí; buscó refugio de una noche cuya mañana conduce al Fuego, recibió a la muerte como a una querida visitante que llega necesitada, y dijo que había temido a Dios y ahora esperaba en Él; no había amado el mundo y la larga vida por cavar canales o plantar árboles, sino por la sed del calor del mediodía, el trabajo de las horas y apiñar a los eruditos de rodillas en los círculos del recuerdo. {cite:usd-al-ghaba scan vol. 4 p. 193} La misma redacción aparece en el Kitab al-Zuhd de Ahmad. {cite:zuhd-ahmad-dkim-1983 scan vol. 3 p. 230} Usd al-Ghaba también cita a al-Hasan diciendo que lloró y, al preguntársele cómo podía llorar siendo compañero del Mensajero de Dios, dijo que no lloraba ni por temor a la muerte ni por un mundo que dejara atrás, sino porque no sabía a cuál de los dos grupos pertenecía. {cite:usd-al-ghaba scan vol. 4 p. 193}
+
+## Su testamento
+Al-Dhahabi relata de Yazid ibn Umayra que, cuando Mu'adh falleció, le pidieron consejo, y él dijo tres veces: «El conocimiento y la fe conservan su lugar, y quien los busca los encuentra; buscad conocimiento de cuatro: Uwaymir Abu al-Darda', Salman, Ibn Mas'ud y Abdallah ibn Salam». {cite:siyar-alam-nubala scan vol. 3 p. 251} En Ibn Asakir, un hombre llamado Umayra llora junto a él, diciendo que llora por el conocimiento que solía obtener de Mu'adh; Mu'adh le dice que no llore, puesto que Abraham vivió cuando no había ningún erudito en la tierra y Dios le otorgó conocimiento, y luego nombra a los mismos cuatro. {cite:tarikh-dimashq-ibn-asakir-fikr-1995 scan vol. 3 p. 307}
+
+## Lo que dejó
+Las fuentes que consulté no dan ninguna cifra sobre la propiedad de Mu'adh. Sin embargo, después de la peste, Umar llegó a Siria y dividió las herencias de los fallecidos, ya que sus asuntos habían confundido a los comandantes. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 81} Ibn Abd al-Barr también cita a al-Waqidi, quien afirma que nunca tuvo hijos, {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 652} una declaración que contradice la muerte de su hijo Abd al-Rahman antes que él.
+
+## Muerte y tumba
+Ibn Abd al-Barr, citando a al-Mada'ini, dice que murió en el distrito del Jordán durante la peste de Amwas en el año 18, a la edad de treinta y ocho años. {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 652} Ibn Kathir sitúa su muerte al este del Ghawr de Baysan, {cite:al-bidaya-wal-nihaya scan vol. 4 p. 97} y al-Dhahabi dice que su tumba está en el Ghawr. {cite:siyar-alam-nubala scan vol. 1 p. 347} Las páginas que leí no informan sobre su lavado, oración fúnebre ni entierro.
+
+## Informes contradictorios
+Su edad es mencionada como treinta y ocho por al-Mada'ini e Ibn Kathir, treinta y tres o treinta y cuatro por Sa'id ibn al-Musayyib, y veintiocho por Abu Hatim. {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 652} El año de su muerte es 18 en el relato más conocido, aunque también se mencionan el 17 y el 19. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 97} Abu Zur'a relata que Ahmad ibn Hanbal dijo que la peste ocurrió en el año 18 y que tanto Mu'adh como Abu Ubayda murieron en ella. {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 652}
+
+## Fuentes
+Ibn Kathir, al-Bidaya wa-l-Nihaya; Ibn al-Athir, Usd al-Ghaba; al-Dhahabi, Siyar A'lam al-Nubala'; Ibn al-Jawzi, Sifat al-Safwa; Ibn Abd al-Barr, al-Isti'ab; Ibn Asakir, Tarikh Dimashq; Ahmad ibn Hanbal, al-Zuhd. Los números de página se refieren a páginas escaneadas.

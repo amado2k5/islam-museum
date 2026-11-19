@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b16, source: "حلية الأولياء (دار الكتب العلمية 1988) 9/322-325" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b16, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 9/322-325" }
 ---
 ## موجز
 القاسم بن عثمان الجوعي من الزهاد الذين يترجم لهم [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء التاسع من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة 453)⁩. ويسميه [[person/ahmad-ibn-abi-al-hawari|أحمد بن أبي الحواري]]، وهو راوي كلامه، «القاسم الجوعي الكبير». وليس في الترجمة بلد ولا تاريخ. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/322-323}

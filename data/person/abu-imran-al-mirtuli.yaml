@@ -3,11 +3,13 @@ class: person
 label:
   ar: "أبو عمران الميرتلي"
   en: "Abu Imran al-Mirtuli"
+  fr: "Abu Imran al-Mirtuli"
 roles: [sufi, scholar, poet]
 gender: male
 summary:
   ar: "موسى بن حسين بن موسى بن عمران القيسي، أبو عمران، الزاهد المعروف بالميرتلي، شاعر أندلسي له علم بالتفسير والفقه والحديث، أصله من ميرتلة وأقام بإشبيلية وتوفي بفاس، ٥٢٢ إلى ٦٠٤هـ؛ له ديوان شعر في الزهد."
   en: "Musa ibn Husayn al-Qaysi, Abu Imran, the ascetic known as al-Mirtuli, an Andalusi poet with knowledge of exegesis, jurisprudence and hadith, from Mertola, who lived in Seville and died at Fes, 522 to 604 AH (1128 to 1207); author of a diwan mostly on asceticism."
+  fr: "Musa ibn Husayn al-Qaysi, Abu Imran, l'ascète dit al-Mirtuli, poète andalou versé dans l'exégèse, la jurisprudence et le hadith, originaire de Mertola, qui vécut à Séville et mourut à Fès, de 522 à 604 H (1128 à 1207) ; auteur d'un diwan surtout consacré à l'ascèse."
 wings: [people]
 regions: [andalus-europe]
 periods: [period/crusades-ayyubid-mamluk]
@@ -27,6 +29,6 @@ status:
 born: { edtf: "1128", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 7 p. 322: 522 AH = 1128 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1207", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 7 p. 322: 604 AH = 1207 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (أندلسي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name ⁦(أندلسي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: lived_in, target: place/seville, note: "Al-Zirikli, al-A'lam vol. 7 p. 322: lived in Seville.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
   - { type: died_in, target: place/fez, note: "Al-Zirikli, al-A'lam vol. 7 p. 322: died at Fes and was buried outside Bab al-Futuh.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

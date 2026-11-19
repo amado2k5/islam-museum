@@ -1,0 +1,28 @@
+---
+id: person/shahzia-sikander
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/shahzia-sikander.md}
+---
+## Resumen
+Shahzia Sikander es una artista visual paquistaní-estadounidense, nacida en Lahore, conocida por revivir la práctica de la pintura tradicional india en miniatura. {cite:wikipedia-shahzia-sikander-en} {cite:britannica-shahzia-sikander} Su trabajo en dibujo, pintura, grabado, animación, instalación, performance, vídeo y escultura acerca narrativas históricas a la conversación con cuestiones contemporáneas de raza, género, identidad poscolonial y la experiencia inmigrante. {cite:britannica-shahzia-sikander} Dos fuentes la describen como una mujer musulmana; ninguna de las dos nombra una escuela para ella, y sus datos registran su fe como desconocida, con la evidencia presentada allí. {cite:wikipedia-shahzia-sikander-en} {cite:britannica-shahzia-sikander}
+
+## Entrenamiento y El Pergamino
+Nació el 6 de marzo de 1969 en Lahore. {cite:britannica-shahzia-sikander} En el Colegio Nacional de Artes de Lahore, donde se matriculó en 1987, la pintura en miniatura era impopular entre los jóvenes artistas pakistaníes y gran parte del patrimonio manuscrito de la región había sido trasladado a colecciones occidentales bajo el dominio imperial; aun así, estudió el oficio tradicional con el maestro miniaturista Bashir Ahmad. {cite:britannica-shahzia-sikander} {cite:wikipedia-shahzia-sikander-en} Obtuvo su BFA en 1991 y se convirtió en la primera mujer en enseñar en el Departamento de Pintura en Miniatura de la universidad. {cite:wikipedia-shahzia-sikander-en} Su tesis The Scroll (1989-90), una acuarela y guache de cinco pies sobre papel wasli manchado de té, representa una figura fantasmal y sin rostro de ella misma moviéndose por las habitaciones de su casa familiar; Considerada ampliamente como su obra revelación, lanzó lo que llegó a llamarse la neominiatura. {cite:britannica-shahzia-sikander} {cite:wikipedia-shahzia-sikander-en}
+
+## Traslado a Estados Unidos
+En 1993 se trasladó a Estados Unidos para el programa de MFA en la Rhode Island School of Design, obteniendo el título en pintura y grabado en 1995, y continuó desarrollando su lenguaje visual mientras afrontaba los retos de ser inmigrante y mujer musulmana en un mundo del arte que, como dice Britannica, fetichizaba y excluía el multiculturalismo. {cite:britannica-shahzia-sikander} {cite:wikipedia-shahzia-sikander-en} Siguió una beca de dos años en la Glassell School of Art de Houston, y en 1997 se trasladó a Nueva York, donde había sido invitada a exponer en la Bienal Whitney. {cite:britannica-shahzia-sikander}
+
+## Motivos, el velo y la animación
+Sus primeras pinturas integran formas mogoles (islámicas) y rajput (hindúes), incluyendo las gopi, las devotas femeninas de Krishna, utilizadas para situar formas dentro de la pintura en miniatura que pueden generar múltiples significados. {cite:wikipedia-shahzia-sikander-en} El velo se repite a lo largo de toda su obra como símbolo tanto de la religión como de la feminidad; en una pieza performativa llevó durante varias semanas un elaborado velo de encaje y documentó las reacciones de sus compañeros, encontrando en él una sensación suprema de seguridad y control. {cite:wikipedia-shahzia-sikander-en} A partir de 2001 se inclinó cada vez más hacia la animación digital —el dibujo, según ella, es el elemento fundamental de su proceso—, empezando con obras construidas escaneando y entrelazando dibujos a tinta para que se muevan, como SpiNN (2003), en la que una multitud de gopis se infiltra en una sala del trono mogol del siglo XVII. {cite:wikipedia-shahzia-sikander-en}
+
+## Escultura y testimonio
+Formar parte de la Comisión Asesora del Alcalde de Nueva York sobre Arte, Monumentos y Marcadores de la Ciudad en 2017 la atrajo hacia la escultura y las historias controvertidas de los monumentos públicos. {cite:britannica-shahzia-sikander} Su proyecto Havah... respirar, aire, vida (2023), encargado para Madison Square Park y un edificio judicial cercano, comprende las esculturas NOW y Witness y una animación en vídeo; ambas figuras tienen rostros similares a los suyos y el pelo trenzado en espirales que recuerdan a cuernos. {cite:britannica-shahzia-sikander} Cuando Witness se instaló en la Universidad de Houston en 2024, provocó protestas del grupo cristiano antiabortista Texas Right to Life, que lo calificó de "satánico", y varios meses después un vándalo lo decapitó; Sikander decidió no repararlo, escribiendo que la obra es ahora "un testigo de las fisuras en nuestro país". {cite:britannica-shahzia-sikander} {cite:wikipedia-shahzia-sikander-en}
+
+## Reconocimiento
+Recibió la beca MacArthur en 2006, la Medalla de Arte del Departamento de Estado de EE. UU. en 2012 y el Premio de la Asia Society por Contribución Significativa al Arte Contemporáneo en 2015. {cite:britannica-shahzia-sikander} La retrospectiva Shahzia Sikander: Realidades extraordinarias, que abarca los primeros quince años de su carrera, se inauguró en la Morgan Library & Museum de Nueva York en 2021 y viajó a RISD y al Museo de Bellas Artes de Houston. {cite:britannica-shahzia-sikander}
+
+## Fuentes
+- Las entidades fuente definidas citadas anteriormente, registradas en `data/source/`.
+- Las revisiones de este artículo deben estar fechadas y deben indicar la fuente que modificó cada hecho.

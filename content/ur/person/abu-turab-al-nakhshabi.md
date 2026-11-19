@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b17, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/45-51" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b17, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/45-51" }
 ---
 ## خلاصہ
 ابو تراب نخشبی مشرق کے مشائخ میں سے تھے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ان کا ترجمہ لکھا ہے ⁦(نمبر 462)⁩۔ وہ انہیں اہلِ توکل کے بڑے لوگوں میں اور اہلِ تجرید کا امام کہتے ہیں۔ ان کی ریاضتیں اور سفر مشہور تھے۔ انہوں نے حاتم اصم اور علی رازی مذبوح سے تربیت پائی۔ وہ [[place/isfahan|اصفہان]] آئے اور وہاں سماع کیا۔ ابو نعیم کا ان سے قریبی تعلق ہے۔ ان کے دادا محمد بن یوسف [[place/mecca|مکہ]] اور حجاز میں لمبی مدت ان کی صحبت میں رہے۔ ابو بکر بن ابی عاصم صحرا میں ان کے ساتھ رہے۔ ایک سند میں انہیں «ابو تراب زاہد بلخی» کہا گیا ہے۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/45} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/51}

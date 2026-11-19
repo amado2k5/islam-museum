@@ -1,0 +1,26 @@
+---
+id: person/ahmedin-jebel
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/ahmedin-jebel.md}
+---
+## Resumen
+Ahmedin Jebel — en amárico አሕመዲን ጀበል — es un predicador etíope de dawah y autor que trabaja en amárico y afaan oromo. {cite:tiktok-ahmedin-jebel} {cite:youtube-ifa-rahmataa-tv} Su canal principal es su página de Facebook (facebook.com/ahmedinjebel99), que contabilizó 1,4 millones de seguidores según la lectura de metadatos de sus publicaciones en la cosecha de olas el 7 de noviembre de 2026 — una cifra desactualizada que se basa en esa lectura de la cosecha, porque la búsqueda de perfil de Facebook está bloqueada en el entorno de construcción y no en una lectura directa por parte del museo. {cite:facebook-ahmedin-jebel} Su cuenta de TikTok (@ahmedinjebelm99), cuya biografía en amárico indica que es su cuenta oficial de TikTok, contaba con 263.700 seguidores cuando se leyó directamente el 7 de noviembre de 2026. {cite:tiktok-ahmedin-jebel}
+
+## Plataformas y obra
+Su cuenta de TikTok tenía 148 vídeos y 1.400.000 'me gusta' en total cuando su perfil fue leído directamente el 7 de noviembre de 2026, y no lleva ninguna insignia de verificación de plataforma; su condición como cuenta oficial se basa en la declaración de su propia biografía. {cite:tiktok-ahmedin-jebel} Una conferencia suya en Afaan Oromo, "Islaamummaa Sabaa Fi Sabboonummaa", está presentada en el canal de YouTube Ifa Rahmataa TV, junto con la programación en amárico en sus propias cuentas. {cite:youtube-ifa-rahmataa-tv} El artículo de Mediterranean Politics "El salafismo y lo local" lo nombra entre los nuevos actores ustaz de la dawah etíope y como líder de Impact Makers, y señala que tuvo más de 1 millón de seguidores en su periodo de entrevistas 2021–2023. {cite:tandfonline-salafism-local-ostebo}
+
+## Voz pública
+El artículo de African Studies Review de 2023 lo describe como un periodista y activista musulmán que en 2011 publicó el libro Ethiopian Muslim: A History of Domination and Resistance, y cita su declaración en la disputa del Gran Iftar de mayo de 2021 de que "los musulmanes rechazan cualquier cosa menos que la igualdad y no aceptan ser ciudadanos de segunda clase". {cite:asr-ostebo-religious-dynamics-2023} El artículo de Religions de 2024 recoge que trabaja como ustaz (profesor) y activista y como asesor de asuntos sociales del presidente del Consejo Supremo de Asuntos Islámicos de Etiopía, y que escribió tres libros críticos con la historia de los musulmanes etíopes y su relación con reyes cristianos, además de otros dos libros sobre el islam y cuestiones contemporáneas. {cite:mdpi-ahmedin-jebel-religious-other-2024} Su discurso en vídeo del 3 de junio de 2023 se retransmitió en directo desde su propia página oficial de Facebook y atrajo más de medio millón de espectadores, 47.000 reacciones y 6.100 comentarios. {cite:mdpi-ahmedin-jebel-religious-other-2024} El informe del Rift Valley Institute presenta a los ustazes a los que pertenece como una nueva categoría de actores que se han convertido en influyentes modelos religiosos en Etiopía. {cite:rift-valley-being-muslim-ethiopian}
+
+## Impacto y audiencia
+La página de Facebook de Ahmedin Jebel tenía 1,4 millones de seguidores en la lectura de la cosecha del 7 de noviembre de 2026, superando la cifra del informe del Rift Valley Institute de más de 900.000 seguidores de 2022, y su cuenta de TikTok tenía 263.700 seguidores, 148 vídeos y 1.400.000 'me gusta' cuando se leyó directamente el mismo día. {cite:facebook-ahmedin-jebel} {cite:tiktok-ahmedin-jebel} Este registro es deliberadamente honesto respecto a sus límites: no se pudo encontrar ningún artículo de Wikipedia en ningún idioma ni ningún elemento de Wikidata sobre él, y ninguna fuente leída da fecha de nacimiento ni acredita una facultad de derecho para él, por lo que ninguno de los dos se registra aquí. {cite:tiktok-ahmedin-jebel} {cite:mdpi-ahmedin-jebel-religious-other-2024}
+
+## Referencias
+- Su página de Facebook (facebook.com/ahmedinjebel99), cifra de la lectura de metadatos de sus publicaciones en la cosecha de oleadas el 7 de noviembre de 2026. {cite:facebook-ahmedin-jebel}
+- Su cuenta de TikTok (@ahmedinjebelm99), leída directamente el 7 de noviembre de 2026. {cite:tiktok-ahmedin-jebel}
+- Terje Østebø y Yekatit G. Tsehayu, "El salafismo y lo local", política mediterránea, notas leídas el 7 de noviembre de 2026. {cite:tandfonline-salafism-local-ostebo}
+- Sileshie Semahagne Kumlachew, "La Iglesia Ortodoxa Tewahedo Etíope como Otro Religioso en la Etiopía Contemporánea", Religions, 2024, sección 5.3, leída íntegramente el 7 de noviembre de 2026. {cite:mdpi-ahmedin-jebel-religious-other-2024}
+- Terje Østebø, "Religious Dynamics and Conflicts in Contemporary Ethiopia", African Studies Review, 2023, leído el 7 de noviembre de 2026. {cite:asr-ostebo-religious-dynamics-2023}
+- Terje Østebø, "Ser musulmán y convertirse en etíope", informe del Rift Valley Institute, página de publicación leída el 7 de noviembre de 2026. {cite:rift-valley-being-muslim-ethiopian}

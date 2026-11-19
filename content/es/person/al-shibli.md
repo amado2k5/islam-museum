@@ -1,0 +1,52 @@
+---
+id: person/al-shibli
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/al-shibli.md}
+---
+## Resumen
+Abu Bakr Dulaf b. Jahdar al-Shibli, jorasani de origen, bagdadí por nacimiento y crianza; hacía compañía al Shaykh Abu'l-Qasim al-Junayd y a los justos de aquella época y juzgaba entre ellos. En sus primeros años de carrera había gobernado una ciudad, luego renunció al mundo; cuando entraba el Ramadán se dedicaba por completo al culto, diciendo: 'Este es un mes que mi Señor ha magnificado.' {cite:wafayat-ayan}
+
+## En Hilyat al-Awliya
+[[person/abu-nuaym-al-asbahani-ahmad|Abu Nu'aym]] sitúa su aviso (nº 646) cerca del final del décimo volumen de [[work/hilyat-al-awliya|Hilyat al-Awliya]]. La apertura rimada le llama el que se aparta y se enamora, el que está atrapado y borracho. Abu Nu'aym escuchó muchos de los informes de hombres que habían escuchado al propio al-Shibli. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/366-367}
+
+**En el hospital.** Al-Shibli fue llevado al hospital para recibir tratamiento, y el visir Ali ibn Isa le visitó. Uno de los presentes le recordó su propio dicho de que todo santo verdaderoso sin milagro es un mentiroso, y preguntó cuál era su milagro. Respondió que su milagro es que su pensamiento, cuando está sobrio, dejado a un lado cuando está borracho, nunca se aparta del acuerdo con Dios. A los visitantes allí dijo que había sido internado muchas veces y le habían dado muchos medicamentos, y que eso solo había agravado su locura. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/367-368}
+
+**Con al-Junayd.** Khayr al-Nassaj cuenta que al-Shibli, en estado de embriaguez, irrumpió en casa [[person/al-junayd-ibn-muhammad|con al-Junayd]] mientras la esposa de al-Junayd tenía la cabeza descubierta. Al-Junayd le dijo que no se molestara, porque "él no está allí". Al-Shibli recitó versículos sobre unión y rechazo y se marchó. Abu Nu'aym también relata que al-Junayd le dijo una vez que las personas se ahogan lejos de Dios, mientras que él se ahoga en Dios. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/367} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/371}
+
+**El rumor de su muerte.** Cayó gravemente enfermo y se difundió la noticia de que había muerto. Los principales compañeros de al-Junayd se apresuraron a su casa, entre ellos Ibn Ata y [[person/jafar-al-khuldi|Ja'far al-Khuldi]]. Al informarle de que habían acudido a su funeral, se sentó y dijo: los muertos han venido al funeral de un hombre vivo. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/368}
+
+**Dichos.** Dijo que quien está velado de Dios por las criaturas no es como aquel que está velado de las criaturas por Dios. Preguntado sobre el ascetismo, dijo que es convertir el corazón de las cosas hacia el Señor de las cosas. Dijo que Dios no se ha velado a Sí mismo de sus criaturas; las criaturas están veladas de Él por amor a este mundo. Al oír una advertencia sobre la quietud de las tumbas, dijo: vosotros sois las tumbas; quien se aparta de Dios está en dolor, y quien se vuelve a Él está en alegría. Preguntado sobre el puro tawhid, respondió que quien lo pone en palabras o lo señala no lo ha alcanzado, y quien guarda silencio al respecto es ignorante de ello. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/367} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/370} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/374}
+
+**Afeitarse la barba.** Un hijo suyo murió, y la madre del niño se cortó el pelo de dolor. Al-Shibli se afeitaron la barba. Preguntado por qué, dijo: se cortó el pelo para quien está perdido; ¿cómo no voy a afeitarme la barba para Quien está presente? {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/370}
+
+**Con Ibn Mujahid.** Se topó [[person/ibn-mujahid|con Abu Bakr ibn Mujahid]] en compañía del visir Ali ibn Isa. Ibn Mujahid le preguntó sobre cómo quemaba ropa, pan y comida que la gente podía usar, y cuál era su posición en conocimiento y ley. Al-Shibli respondió con un versículo coránico de la historia de Salomón y los caballos. Ibn Mujahid guardó silencio y le dijo al visir: es como si nunca lo hubiera leído. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/373-374}
+
+**Verso.** El aviso está lleno de versos que recitó o citó en su círculo, la mayoría sobre amor y separación. Un conjunto es su respuesta a un hombre que preguntó qué pondría puesto para el banquete cuando su ropa estuviera desgastada. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/372-373}
+
+**Su muerte.** Un hombre presente en su muerte relata que, cuando se le tapó la lengua y le sudó la frente, dio la señal para la ablución de la oración. El hombre lo lavó y olvidó pasar los dedos por la barba. Al-Shibli tomó su mano y pasó los dedos por su barba él mismo, y el hombre lloró por haber mantenido esta práctica a esa hora. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/371}
+
+## Añadidos del aviso y correcciones
+
+**Continuación del hospital y del episodio de Junayd (corrección).** Cuando el visir Ali ibn Isa le visitó y preguntó qué había hecho su Señor, el visir respondió: en el cielo decreta y ejecuta. Al-Shibli dijo: Pregunté por el Señor al que adoras, no por el Señor al que no adoráis, refiriéndome al califa al-Muqtadir; Ali dijo a uno de los presentes que debatiera con él. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/367} Tras el intercambio con Junayd, antes de irse, le golpeó en la cabeza; luego, cuando se dio la vuelta para irse, golpeó los pies de Junayd, dijo "eso es todo", y cayó desmayado. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/367}
+
+**Continuación del rumor de su muerte.** Cuando les dijeron que habían venido a su funeral, se sentó y dijo: han venido muertos al funeral de un hombre vivo; entonces les dijo: Creo que he dejado entre vosotros a alguien que puede llevar mi cuerpo. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/368}
+
+**Más dichos.** Dijo: el discípulo no tiene lapso, el conocedor no tiene conocimiento, el conocimiento no tiene apego, el amante no tiene descanso, el verdadero no tiene derecho, el temeroso no tiene refugio, y las criaturas no tienen escapatoria de Dios. Dijo: una mirada es incredulidad, un pensamiento pasajero es politeísmo y una señal es engaño; una mirada es privación, un pensamiento pasajero es abandono y una señal es deserción. Dijo: quien está apartado está unido, y quien está unido queda cortado. Preguntado por el versículo de la oración, lo explicó así: invoca a Dios sin descuido, y Él responde sin demora. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/368}
+
+**Amor, tawhid y conocimiento (continuación).** Dijo: quien ama a Dios antes que Dios le ama a él es politeísta. Dijo: la creación se desvió en el conocimiento, el conocimiento se desvió en el nombre y el nombre se desvió en la esencia. Dijo: quien conoce a Dios, todo se somete a él, porque muestra la marca de Su dominio. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/369} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/370}
+
+**Pregunta de un estudiante.** Un estudiante preguntó dónde debía buscar a Dios; dijo: ¡Tu madre te dio a luz! ¿Se busca quién sostiene los cielos en un dedo y la tierra en otro dedo? Dios no está velado de las criaturas; las criaturas están veladas de Él por amor al mundo. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/370}
+
+**Secretos, celos y embriaguez.** Dijo: guardar secretos es protegerles de ver lo que es otro. Los celos son de dos tipos: los celos humanos y los celos divinos con el tiempo, para que no se pierdan en nada que no sea Dios. Dijo: ¿cuánto necesitan las personas una embriaguez que les libere de observarse a sí mismos, sus actos y sus estados? {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/371} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/372}
+
+**Amor y generosidad (continuación).** Abu al-Fath ibn Shafi' lo visitó en el hospital y se le oyó gritar que la gente sabe que está enamorado pero no sabe de quién. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/373} Un mendigo se plantó junto a su círculo llamando "Oh Dios, oh Generoso"; al-Shibli lloró y dijo: ¿cómo puedo describir la Verdad como generosa cuando una criatura se lo pide con la mano? Luego recitó versículos sobre la generosidad. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/373}
+
+**Confianza, miedo, esperanza y tawhid.** La confianza es que Él te lleva en lo que te pone encima; el miedo es que temas que Él te entregue a ti mismo; la esperanza es que esperes que Él no te corte de ello antes de hacerlo. Sobre el tawhid puro: quien responde con expresión es hereje, quien lo señala es dualista, quien lo señala es un semejante, quien habla de ello es descuidado, quien guarda silencio al respecto es ignorante, quien piensa que está presente está muy lejos de ello, y quien está en éxtasis por ello lo ha perdido. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/374}
+
+**Humildad y honor.** Dijo: Miré la humildad de cada hombre humilde y su humildad aumentó la mía sobre ellos, y miré el honor de cada hombre honrado y mi honor creció sobre ellos; su honor es una humildad en mi honor. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/374}
+
+**Un sueño.** Uno de sus compañeros lo vio en un sueño y preguntó quién de sus compañeros era más feliz en su compañía. Dijo: el más grande de ellos en el respeto a las cosas sagradas de Dios, el más constante en la memoria de Dios, el más recto en el derecho de Dios, el más rápido en buscar Su placer, el mejor conocedor de sus propias carencias y el mayor en honrar lo sagrado de Sus siervos. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/375}
+
+**Ibn Mujahid (corrección).** Al-Shibli fue a la casa de Ibn Mujahid, no lo encontró allí y le dijeron que estaba con el visir Ali ibn Isa; fue a la casa del visir y pidió permiso; Ibn Mujahid le dijo al visir: hoy te mostraré una maravilla de al-Shibli; entonces Ibn Mujahid le dejó entrar y preguntó sobre la quema de ropa y comida. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/373} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/374}
