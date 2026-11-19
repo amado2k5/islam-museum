@@ -1,0 +1,20 @@
+---
+id: concept/qawaid-al-tafsir
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/qawaid-al-tafsir.md}
+---
+## Résumé
+Les principes et règles de l'exégèse sont des règles générales qui aident l'exégète à comprendre les mots et les significations du Coran. Un exemple ultérieur est l'appendice avec lequel [[person/abd-al-rahman-ibn-nasir-al-sadi|al-Sa'di]] a clôturé son [[work/taysir-al-karim-al-rahman|Taysir al-Karim al-Rahman]], intitulé « Principes et généralités de l'exégèse dont aucun exégète du Coran ne peut se passer » ; l'édition Obeikan l'imprime à la fin du livre. {cite:taysir-karim-rahman-obeikan-2001 p.939} {cite:taysir-karim-rahman-obeikan-2001 p.941}
+
+## Règles concernant la formulation
+- Un nom indéfini après une négation, interdiction, question ou condition est général, tout comme un nom singulier dans une construction génitive ; où que vous le trouviez, incluez tout ce que le mot couvre et ne vous tournez pas uniquement vers l'occasion de la révélation, car la formulation générale régit, non l'occasion particulière. {cite:taysir-karim-rahman-obeikan-2001 p.941}
+- Les événements passés et récents doivent être placés sous les énoncés généraux du Coran ; cela montre que le Coran explique tout. {cite:taysir-karim-rahman-obeikan-2001 p.941}
+- L'article défini sur les descriptions et les noms génériques indique que tout ce qu'ils couvrent est inclus. {cite:taysir-karim-rahman-obeikan-2001 p.941}
+- Les implications, conditions et corollaires nécessaires d'un sens l'accompagnent ; les versets qui semblent en conflit sont chacun lus dans la situation qui leur convient. {cite:taysir-karim-rahman-obeikan-2001 p.941} {cite:taysir-karim-rahman-obeikan-2001 p.942}
+- Omettre des objets et autres signe que le sens est général, mais rien ne peut être fourni que ni le contexte ni les circonstances n'indiquent ; les décisions liées à des conditions montrent que ces conditions sont requises. {cite:taysir-karim-rahman-obeikan-2001 p.942}
+- Un ordre de Dieu interdit son contraire, une interdiction ordonne son contraire, et nier une carence de Lui affirme la perfection opposée à celui-ci. {cite:taysir-karim-rahman-obeikan-2001 p.942}
+
+## Généralités de la signification
+Al-Sa'di recueille également des généralités sur ce à quoi le Coran fait référence : l'unité de Dieu, en mentionnant Ses noms, attributs et actes ; la véracité du Messager, en montrant la solidité de ce qu'Il a apporté ; et le retour, en mentionnant la puissance parfaite de Dieu et la résurrection de la terre après sa mort. {cite:taysir-karim-rahman-obeikan-2001 p.941} Il donne ensuite des définitions concises de nombreux termes coraniques : foi, actes justes et piété ; guidance et erreur ; excellence (ihsan) et mise en ordre ; certitude et patience dans ses trois sortes ; gratitude, peur, espoir, tournée vers Dieu et sincérité ; arrogance, justice, véracité et confiance. {cite:taysir-karim-rahman-obeikan-2001 p.942} {cite:taysir-karim-rahman-obeikan-2001 p.943} Il soutient que l'ensemble du Coran est « clair » en ce qu'il correspond à la sagesse et que l'ensemble est « semblable » par son éloquence uniforme et sa confirmation mutuelle, tandis qu'une partie est claire et une partie ambiguë en ce que l'ambiguïté est ce qui admet un sens général ou incertain et se réfère au clair ; et que l'« être » de Dieu est de deux sortes : général, par connaissance et englobant, et particulier, par aide et soutien. {cite:taysir-karim-rahman-obeikan-2001 p.944} Il note que « umma » dans le Coran a quatre sens — un groupe de personnes (le plus courant), une période, une religion ou un credo, et un leader en bien — un exemple de [[concept/al-wujuh-wal-nazair|polysémie et de parallèles]]. {cite:taysir-karim-rahman-obeikan-2001 p.944} {cite:taysir-karim-rahman-obeikan-2001 p.945}
