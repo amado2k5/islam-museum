@@ -1,0 +1,12 @@
+---
+id: practice/dua-at-ablution
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/practice/dua-at-ablution.md}
+---
+## Résumé
+Ce qui est dit à l'ablution et après, tel qu'al-Nawawi le reprend dans al-Adhkar : nommer Dieu au début, les deux témoignages ultérieurs de Sahih Muslim, et les supplications membre par membre qu'il rapporte des premières générations sans en dire rien, provient du Prophète. {cite:al-adhkar-nawawi-arnaut-1994 p. 27}
+
+## Ce que rassemble al-Nawawi à al-Adhkar
+Al-Nawawi dit qu'on commence par « بسم الله الرحمن الرحيم », que « بسم الله » suffit à ce que quelqu'un qui oublie de le dire pendant l'ablutation, et que l'ablutation soit valide sans cela, qu'elle soit laissée de côté volontairement ou par erreur ; il qualifie cela de point de vue de son école et de celui de la plupart des érudits {cite:al-adhkar-nawawi-arnaut-1994 p. 27}. Il note qu'al-Bayhaqi et d'autres ont affaibli les rapports sur la désignation de Dieu lors de l'ablution, et cite [[person/ahmad-ibn-hanbal|Ahmad ibn Hanbal]] comme ne connaissant aucun rapport établi à ce sujet {cite:al-adhkar-nawawi-arnaut-1994 p. 27}. Après avoir terminé, il donne, de Sahih Muslim, d'Umar ibn al-Khattab : « أشهد أن لا إله إلا الله وحده لا شريك له، وأشهد أن محمدا عبده ورسوله », les deux témoignages, pour lesquels le rapport indique que les huit portes du Paradis sont ouvertes ; al-Tirmidhi ajoute : « اللهم اجعلني من التوابين واجعلني من المتطهرين » {cite:al-adhkar-nawawi-arnaut-1994 p. 28}. Concernant les supplications sur chaque membre, il dit que rien n'est venu du [[person/muhammad|Prophète]], que les juristes recommandaient des formulations transmises depuis les premières générations, et il les énumère membre par membre {cite:al-adhkar-nawawi-arnaut-1994 p. 29}. D'Abu Musa al-Ash'ari, dans les livres d'al-Nasa'i et d'Ibn al-Sunni, par une chaîne il appelle le son : « اللهم اغفر لي ذنبي، ووسع لي في داري، وبارك لي في رزقي », une supplique pour pardon, place dans sa maison et bénédiction dans sa provision {cite:al-adhkar-nawawi-arnaut-1994 p. 29}. Il dit que quelqu'un qui se baigne dit ce qui a été donné pour l'ablution, et de même quelqu'un qui fait du tayammum {cite:al-adhkar-nawawi-arnaut-1994 p. 29} {cite:al-adhkar-nawawi-arnaut-1994 p. 30}.

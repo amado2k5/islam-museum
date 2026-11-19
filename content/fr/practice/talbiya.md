@@ -1,0 +1,12 @@
+---
+id: practice/talbiya
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/practice/talbiya.md}
+---
+## Résumé
+Ce que dit le pèlerin en entrant dans l'état sacré pour le hajj ou l'umra, comme al-Nawawi le donne au début de son Livre des Souvenirs du Hajj : l'intention dans le cœur et sur la langue, la formulation du talbiya, ainsi que ses règles et ses bonnes manières d'étiquette. {cite:al-adhkar-nawawi-arnaut-1994 p. 191}
+
+## Ce que rassemble al-Nawawi à al-Adhkar
+Al-Nawawi dit que les souvenirs du hajj sont de deux sortes : ceux du voyage, qu'il laisse au livre sur le voyageur, et ceux des rites, qu'il donne dans l'ordre des rites, en omettant les preuves par crainte de la longueur {cite:al-adhkar-nawawi-arnaut-1994 p. 191}. Celui qui souhaite entrer dans l'état sacré se baigne, effectue l'ablution, enfile les deux vêtements et prie deux unités, puis forme l'intention dans le cœur ; il est recommandé de l'aider avec la langue, en disant que l'on a l'intention du hajj et entre dans son état sacré pour Dieu, puis de prononcer la talbiya. L'intention dans le cœur est requise et la parole est recommandée {cite:al-adhkar-nawawi-arnaut-1994 p. 191} {cite:al-adhkar-nawawi-arnaut-1994 p. 192}. La formulation de la talbiya est : « لبيك اللهم لبيك، لبيك لا شريك لك لبيك، إن الحمد والنعمة لك والملك، لا شريك لك », à Ton service, ô Dieu, à Ton service ; Tu n'as pas de partenaire ; louange, faveur et domination sont À Tien. Il dit que c'est la talbiya du [[person/muhammad|Messager de Dieu]] {cite:al-adhkar-nawawi-arnaut-1994 p. 192}. Il note qu'il est recommandé et non une condition d'un hajj valide, qu'il est dit trois fois ou plus avec la bénédiction demandée au Prophète après cela, qu'il est dit dans tous les États sauf les circuits de la Ka'ba et la marche entre Safa et Marwa, et qu'une femme ne lève pas la voix avec ce hajj {cite:al-adhkar-nawawi-arnaut-1994 p. 192} {cite:al-adhkar-nawawi-arnaut-1994 p. 193}. En voyant quelque chose qui lui plaît, le pèlerin dit : « لبيك إن العيش عيش الآخرة », à Ton service ; la vraie vie est la vie à venir {cite:al-adhkar-nawawi-arnaut-1994 p. 193}.

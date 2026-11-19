@@ -1,0 +1,12 @@
+---
+id: practice/dua-closing-of-the-book-of-forgiveness
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/practice/dua-closing-of-the-book-of-forgiveness.md}
+---
+## Résumé
+Ce qu'al-Nawawi recueille à la fin du Livre du Pardon : des dictons sur la demande de pardon, l'interdiction d'une journée entière de silence, et les hadiths sur lesquels l'islam se tourne, qu'il ajoute au livre. {cite:al-adhkar-nawawi-arnaut-1994 p. 405}
+
+## Ce que rassemble al-Nawawi à al-Adhkar
+Vers la fin du Livre du Pardon, al-Nawawi rapporte la phrase d'al-Adawiyya selon laquelle notre demande de pardon nécessite beaucoup de demander le pardon lui-même, et un Bédouin qui s'accrochait aux rideaux de la Kaaba en disant « اللهم إن استغفاري مع إصراري لؤم، وإن تركي الاستغفار مع علمي بسعة عفوك لعجز », ô Dieu, demander pardon tant que je persiste est une mesquinerie, et le laisser partir en connaissant l'étendue de Ton pardon, c'est de l'incapacité {cite:al-adhkar-nawawi-arnaut-1994 p. 405}. Puis vient le chapitre interdisant une journée entière de silence : de Sunan Abi Dawud, par une bonne chaîne, d'Ali, qu'il avait mémorisé du [[person/muhammad|Prophète]] « ولا صمات يوم إلى الليل » {cite:al-adhkar-nawawi-arnaut-1994 p. 405} ; et d'al-Bukhari, de Qays ibn Abi Hazim, qu'Abu Bakr avait dit à une femme qui avait fait le pèlerinage en silence de parler, car cela n'était pas légal et constituait un acte de l'époque préislamique {cite:al-adhkar-nawawi-arnaut-1994 p. 405}. À la fin de ce qu'il avait prévu pour le livre, il ajoute les hadiths sur lesquels l'islam se tourne, trente au total avec ceux qu'il ajouta {cite:al-adhkar-nawawi-arnaut-1994 p. 405} : d'abord « إنما الأعمال بالنيات » {cite:al-adhkar-nawawi-arnaut-1994 p. 405} d'Umar ; deuxièmement, d'Aïcha dans les deux Sahihs, « من أحدث في أمرنا هذا ما ليس منه فهو رد » {cite:al-adhkar-nawawi-arnaut-1994 p. 406} ; cinquièmement, d'al-Hasan ibn Ali, « دع ما يريبك إلى ما لا يريبك », que al-Tirmidhi appelle son {cite:al-adhkar-nawawi-arnaut-1994 p. 406} ; et dixièmement, « الدين النصيحة » de Tamim al-Dari en Sahih Muslim {cite:al-adhkar-nawawi-arnaut-1994 p. 407}.

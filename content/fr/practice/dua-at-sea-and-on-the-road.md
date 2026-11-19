@@ -1,0 +1,12 @@
+---
+id: practice/dua-at-sea-and-on-the-road
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/practice/dua-at-sea-and-on-the-road.md}
+---
+## Résumé
+Ce qu'al-Nawawi recueille dans le Livre des Souvenirs du Voyageur à bord d'un navire, la supplication du voyageur, le takbir à l'ascension et la tasbih à la descente, et ce qui est dit lorsqu'une bête court en liberté ou qu'un village apparaît en vue. {cite:al-adhkar-nawawi-arnaut-1994 p. 221}
+
+## Ce que rassemble al-Nawawi à al-Adhkar
+Al-Nawawi recueille ici ce que le voyageur dit en mer et sur la route. Il ouvre le chapitre du navire par deux versets, [[passage/quran-11-41|Coran 11:41]] et [[passage/quran-43-12|43:12]] {cite:al-adhkar-nawawi-arnaut-1994 p. 221}, et rapporte d'Ibn al-Sunni, d'al-Husayn ibn Ali, que [[person/muhammad|le Prophète]] a fait de la prononciation de paroles tirées des versets qu'il cite une sécurité pour sa communauté contre la noyade lorsqu'ils embarquent {cite:al-adhkar-nawawi-arnaut-1994 p. 221}. De la part d'Abu Dawud, al-Tirmidhi et d'Ibn Majah, d'Abu Hurayra, trois supplications sont répondues sans l'ombre d'un doute : celui des lésés, celui du voyageur et celui d'un père contre son enfant ; al-Tirmidhi l'appelle bon {cite:al-adhkar-nawawi-arnaut-1994 p. 222}. Des deux Sahihs, d'Ibn Umar, qui revient du pèlerinage ou du petit pèlerinage, à chaque hauteur il prononça takbir trois fois puis « آيبون تائبون عابدون ساجدون لربنا حامدون », nous revenons, nous repentons, adorons et louons notre Seigneur {cite:al-adhkar-nawawi-arnaut-1994 p. 222}. Des deux Sahihs, d'Abu Musa, que lorsqu'ils élevaient la voix dans une vallée, il leur disait « اربعوا على أنفسكم », soyez doux avec vous-mêmes {cite:al-adhkar-nawawi-arnaut-1994 p. 223}. D'Ibn al-Sunni, d'Ibn Mas'ud, celui dont la bête court en liberté doit appeler « يا عباد الله احبسوا », tenir cela ; il dit qu'un de ses maîtres et qu'il l'a trouvé efficace {cite:al-adhkar-nawawi-arnaut-1994 p. 223} {cite:al-adhkar-nawawi-arnaut-1994 p. 224}. En voyant un village, de Suhayb : « أسألك خير هذه القرية وخير أهلها وخير ما فيها », je Te demande pour le bien de ce village {cite:al-adhkar-nawawi-arnaut-1994 p. 224}.
