@@ -2,10 +2,14 @@
 id: concept/caliphate-not-kingship
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/caliphate-not-kingship.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/caliphate-not-kingship.md
 ---
-## Vue d'ensemble
-Shakib Arslan établit une distinction entre le califat et la royauté. Selon lui, le califat consiste en la charge collective de la communauté visant à l'établir sur la Loi, à contenir les puissants face aux faibles en son sein et à protéger l'islam des agresseurs extérieurs. Il ne peut être institué que par la volonté de la communauté, et l'autorité du calife en découle donc. Il note que l'historien Lothrop Stoddard avait compris ce principe et critique ceux qui prétendent que l'idée d'une autorité émanant de la communauté est une invention purement occidentale. Il cite l'exemple d'Abou Bakr, qui, après avoir prêté allégeance, reprit le commerce et l'élevage, puis se contenta de vivre des richesses des musulmans. Cette présentation est celle de l'auteur et lui est attribuée, sans faire consensus. {cite:stoddard-arslan-hadir-1923}
+## Vue d’ensemble
+Shakib Arslan distingue califat et royauté : le premier est, selon lui, la charge générale de la communauté pour l’établir sur la Loi, contenir intérieurement les forts face aux faibles et protéger l’islam de l’agresseur extérieur. Il ne se conclut que par la volonté de la communauté, dont dérive l’autorité du calife. Arslan relève que Lothrop Stoddard comprit ce principe et critique l’attribution de cette idée au seul Occident. Il cite Abu Bakr, revenu au commerce et à l’élevage après l’allégeance, puis limité à un entretien prélevé sur les biens des musulmans. Cette conception est attribuée à l’auteur, non à un consensus. {cite:stoddard-arslan-hadir-1923}
 
-Ce qui n'est pas consigné ici nécessite une source supplémentaire.
+Ce qui n’est pas consigné ici nécessite une source supplémentaire.

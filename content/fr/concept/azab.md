@@ -2,18 +2,21 @@
 id: concept/azab
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/azab.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/azab.md
 ---
+## Sens
+'Azab est un mot arabe désignant un homme ou une femme non mariés, une personne vierge. Du XIIIe au XIXe siècle, il s’appliqua à plusieurs types de combattants sous les régimes ottomans et turcs antérieurs. {cite:encyclopaedia-of-islam-2 vol. 1 p. 856}
 
-## Signification
-« Azab » est un mot arabe qui désigne un homme ou une femme célibataire, une vierge. Du XIIIe au XIXe siècle, il a été appliqué à plusieurs types de combattants sous les régimes ottomans et turcs antérieurs. {cite:encyclopaedia-of-islam-2 vol. 1 p. 856}
+## Troupes maritimes et légères
+Les soldats de diverses formations ottomanes, notamment ceux recrutés par devshirme, ne pouvaient se marier avant leur retraite. Les premiers 'azabs mentionnés étaient les troupes maritimes des Aydın-oghullari, recrutées dans les villages côtiers ; le terme désignait aussi les soldats embarqués de l’État seldjoukide de Konya et de ses petits successeurs disposant d’un littoral. Ces hommes étant célibataires, leur nom fut aussi donné, dès les premiers temps ottomans, aux archers légers levés pour les campagnes selon les effectifs jugés nécessaires. Au combat, ils affrontaient l’adversaire devant l’artillerie et les janissaires et ouvraient l’engagement par une pluie de flèches. Ils étaient recrutés à raison d’un homme pour vingt ou trente khanes provinciaux et entretenus par les contributions de ces khanes, qui tenaient lieu d’impôt. {cite:encyclopaedia-of-islam-2 vol. 1 p. 856-857}
 
-## Marines et troupes légères
-Les soldats des différentes formations ottomanes, notamment ceux recrutés par le devchirmé, n'avaient pas le droit de se marier avant leur retraite. Les premiers azabs mentionnés étaient des troupes de marine de l'Aydın-oghullari, recrutées dans les villages côtiers ; le terme était employé de la même manière pour les marines de l'État seldjoukide de Konya et de ses successeurs plus petits, également dotés d'un littoral. Comme ces hommes étaient célibataires, le nom fut aussi donné, dès les débuts de l'Empire ottoman, aux archers légers, recrutés pour les campagnes en nombre indéterminé, dont le devoir au combat était d'affronter l'ennemi devant l'artillerie et les janissaires et d'ouvrir le combat par une pluie de flèches. On en recrutait un par vingt ou trente khanes dans les provinces, et ils étaient entretenus par les contributions de ces khanes, qui tenaient lieu d'impôt. {cite:encyclopaedia-of-islam-2 vol. 1 p. 856-857}
+## Les 'azabs des forteresses
+Dès le milieu du XIVe siècle, les forteresses ottomanes comptaient des 'azabs appelés kale 'azablari. Ils étaient organisés à peu près comme les janissaires et les autres odjaks, mais non recrutés par devshirme et payés en espèces par le Trésor. Initialement célibataires, ils furent finalement autorisés à se marier, car les places dans le corps passaient aux fils compétents. Après le XVIe siècle, les kale 'azablari furent parfois employés à la construction de ponts et comme sapeurs. {cite:encyclopaedia-of-islam-2 vol. 1 p. 857}
 
-## La forteresse 'azabs
-À partir du milieu du XIVe siècle, des 'azabs, appelés kale 'azablari, étaient présents dans les forteresses ottomanes. Leur organisation était similaire à celle des janissaires et autres odjaks, mais ils n'étaient pas recrutés par le devchirmé et étaient payés en espèces par le Trésor. Bien que célibataires à leurs débuts, ils furent finalement autorisés à se marier, les places dans le corps étant réservées aux fils compétents. Après le XVIe siècle, les kale 'azablari furent parfois employés comme constructeurs de ponts et sapeurs. {cite:encyclopaedia-of-islam-2 vol. 1 p. 857}
-
-## Service maritime
-Les Ottomans perpétuèrent la tradition des Aydın-oghullari en employant des 'azabs en mer, sous la direction d'officiers (reis) rémunérés par le Trésor. Ces 'azabs pouvaient être promus au commandement de galères ou accéder à des postes importants à l'Amirauté. Les hommes de l'odjak de l'Amirauté étaient également appelés 'azabs et avaient pour mission de garder les navires de guerre à quai. {cite:encyclopaedia-of-islam-2 vol. 1 p. 857}
+## Service en mer
+Les Ottomans poursuivirent la tradition des Aydın-oghullari en employant des 'azabs en mer, comme mousquetaires payés par le Trésor, organisés en compagnies sous des officiers (reis). Ceux-ci pouvaient accéder au commandement de galères ou aux postes supérieurs de l’Amirauté. Les hommes de l’odjak de l’Amirauté étaient également appelés 'azabs ; ils gardaient les navires de guerre à quai. {cite:encyclopaedia-of-islam-2 vol. 1 p. 857}

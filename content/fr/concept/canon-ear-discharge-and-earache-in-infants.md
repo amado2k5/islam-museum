@@ -2,14 +2,18 @@
 id: concept/canon-ear-discharge-and-earache-in-infants
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/canon-ear-discharge-and-earache-in-infants.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/canon-ear-discharge-and-earache-in-infants.md
 ---
 ## Résumé
-Ibn Sina explique l'écoulement de l'humidité des oreilles des nourrissons par l'humidité de leur corps et de leur cerveau, mentionne un bouchon de laine trempé dans du miel et du vin, puis les maux d'oreille dus au vent ou à l'humidité et leur traitement avec des médicaments bouillis dans de l'huile et versés dans {cite:canon-ibn-sina-print-v1 p.215}.
+Ibn Sina attribue l’écoulement auriculaire à l’humidité corporelle et cérébrale du nourrisson, mentionne laine imbibée de miel et vin ou semblables, puis douleur due aux vents ou à l’humidité et remèdes bouillis dans l’huile et instillés {cite:canon-ibn-sina-print-v1 p.215}.
 
-## Humidité fluide
-De l'humidité peut s'écouler de leurs oreilles, car leur corps, et surtout leur cerveau, sont très humides. On trempe pour eux une touffe de laine dans du miel et du vin mélangés à un peu d'alun, ou de safran, ou encore une pointe de natron, et on la place dans leurs oreilles ; parfois, il suffit de tremper de la laine dans du vin de noix de galle, de l'utiliser avec un peu de safran et de mettre le safran dans ce vin {cite:canon-ibn-sina-print-v1 p.215}.
+## Écoulement humide
+Il l’attribue à la forte humidité corporelle, surtout cérébrale. Il décrit une mèche de laine au miel et vin avec peu d’alun, de safran ou une trace de natron dans l’oreille ; parfois suffirait une laine imbibée de boisson de noix de galle, avec un peu de safran ajouté à cette boisson {cite:canon-ibn-sina-print-v1 p.215}.
 
-## Mal d'oreille
-Les maux d'oreilles peuvent survenir chez les enfants à cause du vent ou de l'humidité, et sont traités avec du hudud, du thym, du sel de tabarzad, des lentilles, de la myrrhe, des graines de coloquinte et du genévrier, dont l'un est bouilli dans de l'huile et versé dans {cite:canon-ibn-sina-print-v1 p.215}.
+## Douleur
+Elle viendrait de vents ou d’humidité ; le livre décrit hudud, thym, sel tabarzad, lentille, myrrhe, graines de coloquinte ou genévrier, l’un quelconque bouilli dans l’huile puis instillé {cite:canon-ibn-sina-print-v1 p.215}.

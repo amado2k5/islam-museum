@@ -2,12 +2,18 @@
 id: concept/butlan-al-basar
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/butlan-al-basar.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/butlan-al-basar.md
 ---
-## Ses causes
-La perte de la vue peut provenir de causes de faiblesse visuelle poussées à l'extrême — c'est là qu'il faut les chercher —, mais il en parle d'un point de vue nouveau, laissant de côté ce qui résulte d'une atteinte du cerveau et du reste, car cela est compris à partir de là. La perte de la vue survient soit alors que les parties visibles de l'œil sont saines, soit après une lésion dévorante et dissolvante ou ce qui suit son cours ; son discours porte sur le premier cas {cite:canon-ibn-sina-print-v2 p.215}.
-## Ses causes détaillées avec le son de surface
-Si les parties de l'œil sont extérieurement saines, mais atteintes d'une lésion d'origine externe invisible au commun des mortels, la pupille est soit saine, soit non. Si elle est saine, il peut y avoir une occlusion aqueuse, ou une occlusion non pas à l'œil nu, mais dans le canal déférent (un corps étranger dans son tube, une obstruction due à la sécheresse, un relâchement, un gonflement interne, un gonflement musculaire consécutif à une compression du cerveau antérieur, comme expliqué précédemment, ou une rupture du canal déférent). Il se peut aussi que l'humeur aqueuse se soit déplacée de l'orifice oculaire ou que son tempérament se soit altéré, l'empêchant ainsi de remplir sa fonction visuelle. Le plus souvent, cela est dû à une humidité excessive ou à une sécheresse excessive qui provoque un rétrécissement de la pupille ; cette cause est appelée « alqum ». Il n'y a pas de remède si la dilatation est maximale ou si le rétrécissement est complet {cite:canon-ibn-sina-print-v2 p.215} {cite:canon-ibn-sina-print-v2 p.216}.
-## Ses signes
-Le signe de l'eau, l'élargissement, le rétrécissement et le reste, sont décrits dans leurs chapitres ; la cause, dans ce qui relève du nerf creux, est aisément résumée par le signe mentionné dans le chapitre de l'eau, mais son détail est complexe et difficilement compréhensible. En cas de pulsations et de rougeur, suspectez un gonflement chaud du nerf ; en cas de lourdeur et de faible chaleur, un gonflement froid ; une forte lourdeur dans un œil très humide indique une substance humide, dans un œil sec, une substance mélancolique. Si un coup ou une chute sur la tête provoque d'abord une protrusion de l'œil, suivie d'un enfoncement et d'une perte du champ de vision, suspectez une rupture du nerf {cite:canon-ibn-sina-print-v2 p.216}.
+## Causes
+Les causes de la faiblesse visuelle poussées à l’extrême peuvent supprimer la vue ; le livre y renvoie tout en reprenant la question, laissant de côté la participation du cerveau et d’autres organes, comprise à partir de ce qui précède. Il distingue perte de vue avec parties visibles intactes et après lésion consumante, résolutive ou semblable ; son propos porte sur le premier cas {cite:canon-ibn-sina-print-v2 p.215}
+
+## Causes détaillées avec surface intacte
+Lorsque l’œil paraît intact mais souffre d’une lésion invisible au profane, la pupille est saine ou non. Si elle l’est, il existe soit une obstruction aqueuse, soit une obstruction du nerf creux : contenu dans son canal, fermeture par sécheresse, relâchement, gonflement propre ou musculaire exerçant une pression, spontanément ou après pression sur l’avant-cerveau, ou rupture. Autre possibilité : déplacement de l’humeur glaciale hors de l’axe de l’ouverture ou corruption de son tempérament empêchant la vision. Le plus souvent, une humidité dominante ou une sécheresse la fait se contracter et rétrécir : c’est l’alqum. Le livre dit sans remède la dilatation extrême ou le rétrécissement jusqu’à fermeture {cite:canon-ibn-sina-print-v2 p.215} {cite:canon-ibn-sina-print-v2 p.216}
+
+## Signes
+Les signes de l’eau, de la dilatation, du rétrécissement et autres sont donnés dans leurs chapitres. L’atteinte du nerf creux se reconnaît globalement par le signe du chapitre de l’eau, mais son détail est difficile à connaître. Pulsations et rougeur suggéreraient un gonflement chaud du nerf ; lourdeur et faible chaleur, un froid ; forte lourdeur dans un œil très humide, une matière humide, dans un sec, mélancolique. Après coup ou chute sur la tête, saillie puis enfoncement et perte de l’œil suggéreraient une rupture du nerf, selon le livre {cite:canon-ibn-sina-print-v2 p.216}

@@ -2,23 +2,26 @@
 id: concept/batt
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/batt.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/batt.md
 ---
-
-## Nature et sélection
-Une sorte d'oiseau {cite:canon-ibn-sina-print-v1 p.402}.
+## Nature et choix
+Une espèce d’oiseau {cite:canon-ibn-sina-print-v1 p.402}.
 
 ## Tempérament et actions
-Plus piquant que tous les oiseaux domestiques. Certains disent qu'il réchauffe les personnes au tempérament froid et provoque la fièvre chez les personnes au tempérament chaud {cite:canon-ibn-sina-print-v1 p.402}.
+Plus chaud que tous les oiseaux domestiques. Certains disent qu’il réchauffe les tempéraments froids et donne la fièvre aux chauds {cite:canon-ibn-sina-print-v1 p.402}.
 
-## Utilisations par organe
-Actions : sa graisse est excellente pour soulager la douleur et pour calmer les brûlures profondes dans le corps, la meilleure des graisses d'oiseaux ; sa chair provoque des flatulences et son gésier est très nourrissant {cite:canon-ibn-sina-print-v1 p.402}.
+## Usages par organe
+Actions : sa graisse serait excellente pour calmer la douleur et les sensations de brûlure profondes du corps, la meilleure graisse d’oiseau ; sa chair produit des vents et son gésier est très nourrissant {cite:canon-ibn-sina-print-v1 p.402}.
 
-Ornement : sa graisse éclaircit le teint et sa chair rend gras {cite:canon-ibn-sina-print-v1 p.402}.
+Parure : sa graisse éclaircirait le teint ; sa chair engraisse {cite:canon-ibn-sina-print-v1 p.402}.
 
-Respiration et poitrine : éclaircit la voix {cite:canon-ibn-sina-print-v1 p.402}.
+Souffle et poitrine : il éclaircirait la voix {cite:canon-ibn-sina-print-v1 p.402}.
 
-Digestion : sa chair est lente et lourde dans l'estomac, surtout l'oie ; les ailes sont les plus légères et, une fois digérées, elles sont plus nourrissantes que la chair des autres oiseaux {cite:canon-ibn-sina-print-v1 p.402}.
+Digestion : sa chair est lente et lourde dans l’estomac, surtout celle de l’oie ; les ailes sont les plus légères. Digérée, elle nourrit davantage que celle des autres oiseaux {cite:canon-ibn-sina-print-v1 p.402}.
 
-Organes excréteurs : le livre dit qu'il augmente le désir et le sperme {cite:canon-ibn-sina-print-v1 p.402}.
+Organes excréteurs : le livre lui attribue une augmentation du désir et du sperme {cite:canon-ibn-sina-print-v1 p.402}.

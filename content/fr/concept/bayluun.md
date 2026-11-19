@@ -2,15 +2,18 @@
 id: concept/bayluun
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/bayluun.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/bayluun.md
 ---
-
-## Nature et sélection
-Voici l'arfaj sauvage. C'est une des yatu'at, et sa semence est piquante comme la leur {cite:canon-ibn-sina-print-v1 p.404}. La note de bas de page de l'éditeur le confirme : arfaj sauvage.
+## Nature et choix
+Il s’agit de l’'arfaj sauvage, parmi les yatu'at ; sa graine est chaude comme les leurs {cite:canon-ibn-sina-print-v1 p.404}. La note de l’éditeur donne la même identification.
 
 ## Tempérament et actions
-Sa graine est chaude comme le yatu'at {cite:canon-ibn-sina-print-v1 p.404}.
+Sa graine est chaude comme celles des yatu'at {cite:canon-ibn-sina-print-v1 p.404}.
 
-## Utilisations par organe
-Organes excréteurs : ramollit l'intestin {cite:canon-ibn-sina-print-v1 p.404}.
+## Usages par organe
+Organes excréteurs : il relâcherait l’intestin {cite:canon-ibn-sina-print-v1 p.404}.

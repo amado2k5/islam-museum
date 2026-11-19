@@ -2,14 +2,18 @@
 id: concept/canon-migration-of-internal-swellings
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/canon-migration-of-internal-swellings.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/canon-migration-of-internal-swellings.md
 ---
 ## Résumé
-Ibn Sina explique que la matière d'un gonflement interne peut se déplacer d'un organe à un autre, que ce déplacement peut être bon ou mauvais, et comment il est reconnu {cite:canon-ibn-sina-print-v1 p.167}.
+Ibn Sina décrit le déplacement de matière d’un organe à l’autre, favorable ou non, et ses signes {cite:canon-ibn-sina-print-v1 p.167}.
 
-## Le bon et le mauvais
-C'est bon lorsqu'il se déplace d'un organe noble vers un organe moins important et mauvais lorsqu'il se déplace vers un organe plus noble ou un organe qui endure moins, comme de la pleurésie vers le cœur ou vers le poumon ; il cite des sites favorables tels que derrière les oreilles, et pour les gonflements du foie, les aines {cite:canon-ibn-sina-print-v1 p.167}.
+## Favorable ou non
+D’un organe noble au moindre, il serait bon ; vers un plus noble ou moins résistant, mauvais, comme pleurésie vers cœur ou poumon. Derrière les oreilles et, depuis le foie, les aines seraient des destinations favorables {cite:canon-ibn-sina-print-v1 p.167}.
 
-## Panneaux de direction
-Lorsqu'elle se déplace vers le bas, une sensation d'étirement et de lourdeur se manifeste au niveau de l'épigastre ; lorsqu'elle se déplace vers le haut, les signes sont une respiration difficile et oppressante, une oppression thoracique, une sensation de brûlure remontant du bas du corps, une lourdeur dans la région de la clavicule et des maux de tête. Un mouvement ascendant qui affecte le cerveau est mauvais et dangereux, mais s'il se dirige vers les tissus mous derrière les oreilles, il y a de l'espoir de guérison, et un saignement de nez est un bon signe en cas de gonflement des viscères {cite:canon-ibn-sina-print-v1 p.167}.
+## Direction
+Vers le bas : distension et pesanteur épigastriques ; vers le haut : respiration faible, serrée, difficile, oppression, sensation brûlante ascendante, lourdeur claviculaire et céphalée. Atteinte du cerveau serait dangereuse ; détour vers chair molle rétroauriculaire laisserait espoir ; épistaxis serait bon signe des gonflements viscéraux {cite:canon-ibn-sina-print-v1 p.167}.

@@ -2,11 +2,15 @@
 id: concept/canon-pulse-in-pain
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/canon-pulse-in-pain.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/canon-pulse-in-pain.md
 ---
 ## Résumé
-Dans le seizième chapitre, Ibn Sina montre que la douleur modifie le pouls en fonction de sa gravité, de son siège dans un organe principal ou de sa longue durée, et décrit ses étapes, de l'excitation à l'effondrement {cite:canon-ibn-sina-print-v1 p.181}.
+Au chapitre 16, Ibn Sina relie les changements à intensité douloureuse, organe principal atteint ou durée, de stimulation initiale à effondrement {cite:canon-ibn-sina-print-v1 p.181}.
 
-## Le début de la douleur et sa fin
-La douleur, à ses débuts, stimule la force, la pousse à résister et à se défendre, et attise la chaleur ; le pouls est alors ample, rapide et plus espacé, car le besoin engendre force et rapidité. Lorsque la douleur blesse la force, le pouls commence à ralentir jusqu’à perdre en ampleur et en rapidité, remplacé d’abord par une fréquence extrême, puis par une faible amplitude, un pouls vermiforme puis fourmien ; s’il s’accélère, il conduit à un allongement de l’espacement et enfin à la mort {cite:canon-ibn-sina-print-v1 p.181}.
+## Début et fin
+La douleur stimulerait défense et résistance et enflammerait la chaleur : pouls ample, rapide et plus espacé, le besoin favorisant ampleur et vitesse. Atteinte de la force : recul, perte d’amplitude et vitesse remplacées par fréquence extrême puis petitesse, formes vermiculaire et formicante ; aggravation : espacement puis mort {cite:canon-ibn-sina-print-v1 p.181}.

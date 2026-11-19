@@ -2,29 +2,32 @@
 id: concept/bir-hayawan
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/bir-hayawan.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/bir-hayawan.md
 ---
-
-## Nature et sélection
-Bien connu {cite:canon-ibn-sina-print-v1 p.413}.
+## Nature et choix
+Bien connus {cite:canon-ibn-sina-print-v1 p.413}.
 
 ## Tempérament et actions
-Aucun tempérament séparé n'est indiqué dans cette entrée {cite:canon-ibn-sina-print-v1 p.413}.
+La notice ne donne pas de tempérament distinct {cite:canon-ibn-sina-print-v1 p.413}.
 
-## Utilisations par organe
-Ornement : les excréments de lézard aident à éliminer les taches blanches et les taches de rousseur grâce à leurs propriétés nettoyantes ; les excréments de chameau aident également lorsqu'ils sont ingérés à cette fin et éliminent les verrues {cite:canon-ibn-sina-print-v1 p.413}.
+## Usages par organe
+Parure : ceux de lézard aideraient contre taches blanches et taches de rousseur par leur pouvoir nettoyant ; ceux de chameau, bus, aideraient dans ce cas et enlèveraient les verrues {cite:canon-ibn-sina-print-v1 p.413}.
 
-Tête : les excréments de lézard aident le lichen par leur action nettoyante ; les excréments de chameau arrêtent les saignements de nez et, associés aux médicaments contre l'épilepsie, ils aident lorsqu'ils sont ingérés {cite:canon-ibn-sina-print-v1 p.414}.
+Tête : ceux de lézard aideraient contre le lichen par leur pouvoir nettoyant ; ceux de chameau arrêteraient les saignements de nez et aideraient, bus avec les remèdes de l’épilepsie {cite:canon-ibn-sina-print-v1 p.414}.
 
-Yeux : les excréments de lézard nettoient les taches blanches de l'œil {cite:canon-ibn-sina-print-v1 p.414}.
+Yeux : ceux de lézard nettoieraient les taches blanches oculaires {cite:canon-ibn-sina-print-v1 p.414}.
 
-Plaies et ulcères : la bouse de chameau dissout les pustules et les ulcères ; la bouse de mouton de même {cite:canon-ibn-sina-print-v1 p.414}.
+Plaies et ulcères : ceux de chameau résoudraient pustules et ulcères ; ceux de mouton également {cite:canon-ibn-sina-print-v1 p.414}.
 
-Gonflements et pustules : la bouse de chèvre dissout très fortement la scrofule ; la bouse de chameau et la bouse de mouton de même pour les rougeurs {cite:canon-ibn-sina-print-v1 p.414}.
+Gonflements et pustules : ceux de chèvre résoudraient fortement les scrofules ; ceux de chameau et de mouton aideraient de même les rougeurs {cite:canon-ibn-sina-print-v1 p.414}.
 
-Articulations : la bouse de chameau soulage les douleurs articulaires et leurs gonflements {cite:canon-ibn-sina-print-v1 p.414}.
+Articulations : ceux de chameau calmeraient douleurs et gonflements articulaires {cite:canon-ibn-sina-print-v1 p.414}.
 
-Organes excréteurs : la bouse de chèvre séchée avec de la laine arrête un écoulement de l'utérus {cite:canon-ibn-sina-print-v1 p.414}.
+Organes excréteurs : les crottes sèches de chèvre avec laine arrêteraient un écoulement utérin {cite:canon-ibn-sina-print-v1 p.414}.
 
-Poisons : bouse de chèvre bouillie et appliquée sur une morsure de vipère ; bouse de mouton brûlée, en particulier avec du vinaigre, appliquée sur la morsure d'un chien enragé {cite:canon-ibn-sina-print-v1 p.414}.
+Poisons : crottes de chèvre bouillies appliquées aux morsures de vipère ; celles de mouton brûlées, surtout avec vinaigre, aux morsures de chien enragé {cite:canon-ibn-sina-print-v1 p.414}.

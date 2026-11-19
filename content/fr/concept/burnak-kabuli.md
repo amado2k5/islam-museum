@@ -2,12 +2,15 @@
 id: concept/burnak-kabuli
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/burnak-kabuli.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/burnak-kabuli.md
 ---
+## Nature et choix
+Graine d’Inde ou du Sind, petite sans côtes ou grosse côtelée ; la petite est meilleure {cite:canon-ibn-sina-print-v1 p.400}.
 
-## Nature et sélection
-Une graine d'Inde ou du Sind, en deux sortes, petites sans crêtes et grandes avec crêtes. Les petites sont meilleures {cite:canon-ibn-sina-print-v1 p.400}.
-
-## Utilisations par organe
-Articulations : il élimine les mucosités des articulations et est excellent à cet égard {cite:canon-ibn-sina-print-v1 p.400}. Organes excréteurs : il purge les mucosités des intestins, les vers et le habb al-qar (terme du livre) et est très efficace à cet égard {cite:canon-ibn-sina-print-v1 p.400}.
+## Usages par organe
+Articulations : elle en extrairait excellemment le phlegme, selon le livre {cite:canon-ibn-sina-print-v1 p.400}. Organes excréteurs : elle purgerait très fortement le phlegme intestinal, les vers et le habb al-qar, terme du livre {cite:canon-ibn-sina-print-v1 p.400}.

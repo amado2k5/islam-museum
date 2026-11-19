@@ -2,18 +2,21 @@
 id: concept/basal
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/basal.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/basal.md
 ---
-
-## Nature et sélection
-Légume bien connu. Outre son piquant mordant, il est amer et astringent. Les variétés longues sont plus piquantes, les rouges plus piquantes que les blanches, les séchées plus piquantes que les fraîches, et les crues plus piquantes que les rôties {cite:canon-ibn-sina-print-v1 p.390}.
+## Nature et choix
+Légume connu, à l’âcreté incisive jointe à l’amertume et à l’astringence. L’espèce allongée comestible est plus âcre, la rouge plus que la blanche, la sèche plus que la fraîche, la crue plus que la rôtie {cite:canon-ibn-sina-print-v1 p.390}.
 
 ## Tempérament et actions
-Chaud au troisième degré, avec une humidité excessive {cite:canon-ibn-sina-print-v1 p.390}. Il amincit et coupe, surtout lorsqu'il est mangé, et son astringence lui confère un fort pouvoir polissant et abrasif. Il provoque des flatulences et attire le sang vers l'extérieur, ce qui fait rougir la peau. L'oignon cuit n'apporte que très peu de nutriments {cite:canon-ibn-sina-print-v1 p.390}. L'oignon consommé seul protège des méfaits de l'eau et de ce que son odeur dissipe lorsqu'on jette ses résidus {cite:canon-ibn-sina-print-v1 p.390}.
+Chaud au troisième degré, avec une humidité excédentaire {cite:canon-ibn-sina-print-v1 p.390}. Il fluidifie et coupe, surtout mangé ; à son astringence s’ajoute un fort pouvoir polissant et désobstruant. Il produit des vents et attire le sang vers l’extérieur, rougissant la peau. Cuit, il apporte peu de nourriture appréciable {cite:canon-ibn-sina-print-v1 p.390}. Mangé seul, il aiderait contre les méfaits de l’eau et contre ce que dissipe son odeur lorsqu’on jette le résidu {cite:canon-ibn-sina-print-v1 p.390}.
 
-## Utilisations par organe
-Beauté : elle rougit le visage ; ses graines éliminent les taches blanches et, frottées sur une zone d’alopécie, sont très efficaces ; mélangée à du sel, elle élimine les verrues {cite:canon-ibn-sina-print-v1 p.390}. Plaies et ulcères : son eau est bénéfique pour les ulcères purulents, et, associée à de la graisse de poulet, elle soulage les irritations dues aux chaussures {cite:canon-ibn-sina-print-v1 p.390}. Tête : son jus, inhalé, purifie le cuir chevelu ; quelques gouttes dans l’oreille soulagent les résidus de tête, les acouphènes et les otites purulentes ; elle provoque des maux de tête et, en excès, une stupeur, nuit à l’esprit en favorisant la production d’humeurs négatives et augmente la salivation {cite:canon-ibn-sina-print-v1 p.390}. Yeux : le jus d’oignon ingéré soulage le larmoiement et améliore la vue, et, mélangé à du miel, il sert de khôl pour le blanc des yeux {cite:canon-ibn-sina-print-v1 p.391}. Poitrine : l’eau d’oignon au miel soulage la toux {cite:canon-ibn-sina-print-v1 p.391}. Organes digestifs : l’oignon sauvage est difficile à digérer, une variété provoque des vomissements, et l’oignon ingéré, grâce à son amertume, fortifie l’estomac. L'oignon cuit deux fois nourrit et désaltère, et aide à soigner la jaunisse {cite:canon-ibn-sina-print-v1 p.391}. Organes excréteurs : il débouche les hémorroïdes ; toutes sortes d'oignons stimulent le désir, et l'eau d'oignon favorise les menstruations et facilite le transit intestinal. Les affirmations du livre concernant les menstruations et le désir sont rapportées telles quelles et non comme des conseils {cite:canon-ibn-sina-print-v1 p.391}. Poisons : il soulage la morsure d'un chien enragé lorsqu'on verse son eau avec du sel et de la rue, et l'oignon consommé neutralise les effets néfastes du vent empoisonné {cite:canon-ibn-sina-print-v1 p.391}.
+## Usages par organe
+Beauté : il rougirait le visage ; sa graine dissiperait les taches blanches et aiderait beaucoup en friction sur les zones d’alopécie ; avec du sel, elle enlèverait les verrues {cite:canon-ibn-sina-print-v1 p.390}. Plaies et ulcères : son eau aiderait contre les ulcères sales et, avec de la graisse de poulet, contre les frottements des chaussures {cite:canon-ibn-sina-print-v1 p.390}. Tête : son suc aspiré par le nez nettoierait la tête ; il est instillé dans l’oreille pour les résidus de la tête, bourdonnements et pus. Il provoquerait des céphalées ; en excès, de la stupeur, une atteinte de l’esprit par formation de mauvaises humeurs et davantage de salive {cite:canon-ibn-sina-print-v1 p.390}. Yeux : le suc de l’oignon comestible aiderait contre le larmoiement et aiguiserait la vue ; mêlé à du miel, il sert de khôl pour le blanc de l’œil {cite:canon-ibn-sina-print-v1 p.391}. Poitrine : l’eau d’oignon avec du miel aiderait contre la toux {cite:canon-ibn-sina-print-v1 p.391}. Organes alimentaires : l’espèce sauvage est difficile à digérer, une espèce provoque le vomissement ; l’espèce comestible fortifierait l’estomac par son amertume. Cuit deux fois, l’oignon apporte beaucoup de nourriture, donne soif et aiderait contre la jaunisse {cite:canon-ibn-sina-print-v1 p.391}. Organes excréteurs : il ouvrirait les orifices des hémorroïdes ; tous les oignons exciteraient le désir, leur eau provoquerait les règles et relâcherait l’intestin. Ces indications sur les règles et le désir sont celles du livre, non des conseils {cite:canon-ibn-sina-print-v1 p.391}. Poisons : son eau avec sel et rue, versée sur la morsure, aiderait contre celle du chien enragé ; mangé, l’oignon dissiperait les méfaits du vent des poisons {cite:canon-ibn-sina-print-v1 p.391}.
 
 ## Substituts
-Aucun substitut n'est mentionné dans ce passage.
+Le passage ne donne aucun substitut.

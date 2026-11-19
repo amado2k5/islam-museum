@@ -2,15 +2,18 @@
 id: concept/black-on-white-ware
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-status: {review: published}
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/black-on-white-ware.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/black-on-white-ware.md
 ---
 ## Résumé
-La faïence noire sur fond blanc est le troisième des trois plus importants groupes de faïences émaillées de [[place/nishapur|Nishapur]] : décorée uniquement en noir sur un engobe blanc et recouverte d’une glaçure au plomb transparente, généralement incolore. {cite:wilkinson-nishapur-pottery p. 132} [[work/nishapur-pottery-of-the-early-islamic-period|Wilkinson]] la compte parmi les faïences de Nishapur les plus attrayantes, la clarté de ses motifs simples et vifs frappant le regard après la confusion des couleurs et des lignes gravées des faïences à décor éclaboussé. {cite:wilkinson-nishapur-pottery p. 132}
+La céramique noire sur blanc est le troisième des trois principaux groupes de terres cuites glaçurées de [[place/nishapur|Nishapur]] : décor uniquement noir sur engobe blanc, sous glaçure au plomb transparente, généralement incolore. {cite:wilkinson-nishapur-pottery p. 132} [[work/nishapur-pottery-of-the-early-islamic-period|Wilkinson]] la compte parmi les plus séduisantes productions locales : après la confusion des couleurs et traits incisés des pièces à éclaboussures colorées, la clarté de ses décors simples et vivants frappe le regard. {cite:wilkinson-nishapur-pottery p. 132}
 
-## Découverte et distribution
-La connaissance moderne de cette céramique a débuté à la fin du XIXe siècle, avec sa découverte en grande quantité en Transoxiane : des fragments provenant d’Afrasiyab ont été donnés au Victoria and Albert Museum en 1898, et le musée de Berlin a acquis une importante collection de tessons et de rebuts en 1906, attestant de sa fabrication à Afrasiyab. {cite:wilkinson-nishapur-pottery p. 132} On en a également trouvé à Tachkent, Gurgan, [[place/merv|Merv]] et au bazar de Lashkari, ce qui démontre son utilisation dans toutes les villes importantes des pays islamiques orientaux du IXe au XIe siècle. {cite:wilkinson-nishapur-pottery p. 132} Des rebuts découverts à Nishapur indiquent qu’elle y était fabriquée ; certaines pièces présentent des motifs différents de ceux d’autres centres, tandis que d’autres semblent importées. {cite:wilkinson-nishapur-pottery p. 133}
+## Découverte et diffusion
+Sa connaissance moderne commence à la fin du XIXe siècle avec des découvertes abondantes en Transoxiane : fragments d’Afrasiyab donnés au Victoria and Albert Museum en 1898, grande collection de tessons et rebuts acquise par Berlin en 1906, attestant la fabrication à Afrasiyab. {cite:wilkinson-nishapur-pottery p. 132} Trouvée aussi à Tachkent, Gurgan, [[place/merv|Merv]] et Lashkari Bazar, elle était utilisée dans toutes les grandes villes de l’Orient islamique du IXe au XIe siècle. {cite:wilkinson-nishapur-pottery p. 132} Les rebuts attestent sa fabrication à Nishapur ; certains décors diffèrent des autres centres, d’autres pièces semblent importées. {cite:wilkinson-nishapur-pottery p. 133}
 
 ## Fabrication
-La pâte de Nishapur est généralement rougeâtre ; l’engobe recouvre normalement toute la pièce, y compris le fond, et est appliqué en couche si épaisse que l’émail ne peut adhérer à la pâte, ce qui explique que l’émail et l’engobe s’écaillent souvent ensemble. {cite:wilkinson-nishapur-pottery p. 133} Wilkinson note que les pièces à l’engobe d’un blanc pur et à l’émail incolore excellent également en poterie et en décoration, ce qui montre que la blancheur était recherchée. {cite:wilkinson-nishapur-pottery p. 133} Les inscriptions arabes, sous diverses formes, dominent son décor, notamment des lettres à têtes triangulaires ou feuillagées. {cite:wilkinson-nishapur-pottery p. 172}
+La pâte de Nishapur est généralement rougeâtre ; l’engobe couvre normalement tout le vase, base comprise, si épais que la glaçure n’adhère pas à la pâte : glaçure et engobe s’écaillent souvent ensemble. {cite:wilkinson-nishapur-pottery p. 133} Wilkinson observe que les pièces à engobe blanc pur et glaçure incolore excellent aussi par façonnage et décor, indice d’une blancheur recherchée. {cite:wilkinson-nishapur-pottery p. 133} Les inscriptions arabes de formes variées dominent, notamment des lettres à grandes têtes triangulaires ou feuillues. {cite:wilkinson-nishapur-pottery p. 172}

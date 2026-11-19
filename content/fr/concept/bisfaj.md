@@ -2,21 +2,24 @@
 id: concept/bisfaj
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/bisfaj.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/bisfaj.md
 ---
-
-## Nature et sélection
-Une tige fine et poussiéreuse, aux nœuds tirant sur le noir, le rouge ou le vert ; ses ramifications ressemblent à un ver à plusieurs pattes, et sa saveur est douce-astringente. Certains disent qu'elle pousse sur un arbre, en fourrés, d'autres sur les rochers {cite:canon-ibn-sina-print-v1 p.407}. La note de bas de page de l'éditeur précise que son nom est persan.
+## Nature et choix
+Fine tige poussiéreuse aux nœuds tirant sur le noir, un peu rouges ou verts ; ses branches ressemblent à un ver à nombreuses pattes. Saveur douce et astringente. Certains la disent poussant sur un arbre dans les fourrés, d’autres sur les rochers {cite:canon-ibn-sina-print-v1 p.407}. La note de l’éditeur indique un nom persan.
 
 ## Tempérament et actions
-Chaud au deuxième degré et sec au troisième, très sec {cite:canon-ibn-sina-print-v1 p.407}.
+Chaude au deuxième degré et sèche au troisième, fortement desséchante {cite:canon-ibn-sina-print-v1 p.407}.
 
-## Utilisations par organe
-Sélection : le meilleur est aussi épais que le petit doigt, rougeâtre ou jaunâtre, ferme et frais, avec une légère amertume et une douceur avec de l'astringence, et un goût de clou de girofle {cite:canon-ibn-sina-print-v1 p.407}.
+## Usages par organe
+Choix : la meilleure a l’épaisseur du petit doigt, rougeâtre ou jaunâtre, ferme et fraîche, légèrement amère, douce et astringente, avec un goût de girofle {cite:canon-ibn-sina-print-v1 p.407}.
 
-Actions : un agent dissolvant et mûrissant qui dissout le vent et les humeurs {cite:canon-ibn-sina-print-v1 p.407}.
+Actions : agent résolutif et maturatif, elle résoudrait vents et humeurs {cite:canon-ibn-sina-print-v1 p.407}.
 
-Articulations : son cataplasme aide à soulager un nerf tordu {cite:canon-ibn-sina-print-v1 p.407}.
+Articulations : son cataplasme aiderait un nerf tordu {cite:canon-ibn-sina-print-v1 p.407}.
 
-Organes excréteurs : fluidifie la bile noire sans coliques et fluidifie le phlegme et l'humeur aqueuse ; bouilli dans un bouillon de coq ou de poisson, il est utilisé contre les coliques {cite:canon-ibn-sina-print-v1 p.407}.
+Organes excréteurs : elle évacuerait la bile noire sans coliques, ainsi que phlegme et humeur aqueuse ; bouillie dans du bouillon de coq ou de poisson, elle sert contre les coliques {cite:canon-ibn-sina-print-v1 p.407}.

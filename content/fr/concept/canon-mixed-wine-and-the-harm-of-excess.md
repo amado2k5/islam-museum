@@ -2,14 +2,18 @@
 id: concept/canon-mixed-wine-and-the-harm-of-excess
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/canon-mixed-wine-and-the-harm-of-excess.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/canon-mixed-wine-and-the-harm-of-excess.md
 ---
 ## Résumé
-Ibn Sina dit que le vin mélangé détend et humidifie l'estomac et enivre plus rapidement tout en purifiant la peau, que le vin à jeun ou après un mouvement excessif nuit au cerveau et aux nerfs, que l'ivresse répétée est très mauvaise, que beaucoup de vin se transforme dans certains estomacs en mauvaise bile et dans d'autres en vinaigre fort, et que la plupart des dommages tombent sur le cerveau {cite:canon-ibn-sina-print-v1 p.238}.
+Ibn Sina attribue au vin coupé relâchement et humidification gastriques, ivresse plus rapide et peau clarifiée ; à jeun ou après fort mouvement, dommage cérébral et nerveux ; à l’ivresse répétée, grands méfaits. Le vin abondant deviendrait bile mauvaise ou vinaigre âcre selon l’estomac, nuisant surtout au cerveau {cite:canon-ibn-sina-print-v1 p.238}.
 
-## vin mélangé
-Le vin mélangé détend et hydrate l'estomac et enivre plus rapidement car sa partie aqueuse facilite son passage ; il purifie la peau et affine les facultés psychiques. Les personnes prudentes évitent de boire du vin à jeun, avant que les organes digestifs ne soient suffisamment hydratés, ou après un effort physique intense, car ces deux situations nuisent au cerveau et au système nerveux et provoquent des convulsions et une confusion mentale {cite:canon-ibn-sina-print-v1 p.238}.
+## Vin coupé
+L’eau le transporterait vite, accélérant l’ivresse ; il clarifierait peau et facultés psychiques. Il décrit évitement du vin à jeun avant réplétion en eau des organes humides, et après mouvement excessif, causes supposées de dommage cérébral et nerveux, convulsion et confusion {cite:canon-ibn-sina-print-v1 p.238}.
 
-## L'excès et sa gestion
-L'ivresse répétée est très néfaste : elle altère l'équilibre du foie et du cerveau, affaiblit le système nerveux et provoque des maladies nerveuses, des apoplexies et une mort subite. Une grande quantité de vin se transforme en bile rance dans certains estomacs et en vinaigre âcre dans d'autres, et les deux sont très nocifs. Certains ont soutenu qu'une ivresse une ou deux fois par mois était bénéfique. Comme la plupart des effets néfastes se font sentir sur le cerveau, une personne au cerveau fragile ne doit boire qu'un peu, mélangé. Pour celui qui s'est enivré, la bonne chose à faire est de se faire vomir au plus vite ; si cela s'avère difficile, il boit beaucoup d'eau, pure ou avec du miel, puis, après avoir vomi, il se lave, s'oint d'huile en abondance et se repose {cite:canon-ibn-sina-print-v1 p.238}.
+## Excès et conduite décrite
+L’ivresse répétée corromprait tempéraments hépatique et cérébral, affaiblirait nerfs, causerait maladies nerveuses, apoplexie et mort subite. Beaucoup de vin deviendrait bile mauvaise ou vinaigre âcre, tous deux nuisibles. Certains jugeaient bonne une ivresse mensuelle ou bimensuelle. Le cerveau surtout atteint, il limite le vin coupé chez le faible cérébral ; après réplétion, il décrit vomissement rapide, ou beaucoup d’eau pure ou miellée si difficile, puis bain, huile abondante et sommeil {cite:canon-ibn-sina-print-v1 p.238}.
