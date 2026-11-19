@@ -4,6 +4,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { loadMedia, wireRecord } from './time-browser-wire.ts'
+import { readBigJson } from "./lib/graph-file.mjs";
 
 export const TIME_BROWSER_BASE = '/time-browser-data'
 export const TOPICS = [
@@ -153,7 +154,7 @@ export function liveSubset(topics: Record<string, Record_[]>): Record_[] {
 }
 
 export function writeAll(graphPath: string, outDir: string): number {
-  const graph = JSON.parse(readFileSync(graphPath, 'utf8')) as { nodes: GraphNode[] }
+  const graph = readBigJson(graphPath) as { nodes: GraphNode[] }
   let files = 0
   const media = loadMedia(process.cwd())
   for (const lang of LANGS) {
