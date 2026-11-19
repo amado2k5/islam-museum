@@ -1,0 +1,11 @@
+---
+id: place/buzaa
+lang: es
+source_lang: en
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (spanish lane, wave 9)", model: "claude-sonnet-5-5", run: "spanish-w9-2026-11-18", source: "content/en/place/buzaa.md" }
+---
+## Visión general
+Buza'a: una ciudad del norte de Siria, que Ibn Jubayr mencionó en su camino entre Alepo y Hama. Puede existir más de un lugar conocido con este nombre, y la identificación es aproximada. {cite:wikidata}
+
+Se necesita una fuente adicional para confirmar su ubicación.

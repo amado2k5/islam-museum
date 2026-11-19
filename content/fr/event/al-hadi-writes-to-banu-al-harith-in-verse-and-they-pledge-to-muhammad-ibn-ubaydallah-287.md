@@ -1,0 +1,14 @@
+---
+id: event/al-hadi-writes-to-banu-al-harith-in-verse-and-they-pledge-to-muhammad-ibn-ubaydallah-287
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-writes-to-banu-al-harith-in-verse-and-they-pledge-to-muhammad-ibn-ubaydallah-287.md}
+---
+## Vue d'ensemble
+[[person/al-hadi-yahya-al-rassi|Al-Hadi]] s'était auparavant porté garant des jeunes du désert appartenant à la tribu des [[group/banu-al-harith-ibn-kab|Banu al-Harith, originaires de]] [[place/najran|Najran. À la réception de la lettre de]] [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Muhammad ibn Ubaydallah]], il lui répondit en l'exhortant à maintenir sa position ferme envers les Banu al-Harith et leur adressa une lettre sévère, agrémentée de versets en guise de conclusion. {cite:sira-hadi-ila-al-haqq p.201}
+
+## Détail
+Selon le sens des versets : Je suis le fils de Muhammad et mon père est Ali. Mon oncle et mon oncle maternel sont les meilleurs parmi ceux qui portent des sandales, et je les suis comme un modèle après l’autre. Je suis la mort inéluctable pour quiconque tente de me tromper, une pluie bienfaisante pour mon ami, et je fais régner la terreur sur mon ennemi. Je suis patient face au choc du jour de la bataille. Vous avez longtemps sombré dans la corruption, la croyant cachée à nos yeux, mais si vous respectez les termes de mon alliance, vous serez à l’abri des ravages de ma guerre, dont vous avez déjà goûté le mal. Sinon, tenez bon, car je vous combattrai par la puissance du Seigneur de Majesté. Dieu m’a accordé la victoire, l’aide et la richesse, et mon armée est forte et nombreuse. Le camp de Dieu est victorieux, et le camp de l’agression est assurément vaincu. Ce que je dis est vrai, et mes paroles se réaliseront par mes actes. {cite:sira-hadi-ila-al-haqq p.201} {cite:sira-hadi-ila-al-haqq p.202} Les affirmations de descendance et les avertissements sont les propres paroles de l'imam telles que rapportées par le narrateur, et le musée n'ajoute aucun verdict. {cite:sira-hadi-ila-al-haqq p.202}
+
+Lorsque la lettre parvint aux Banu al-Harith, ils craignirent al-Hadi et prirent leurs précautions. Ils se rendirent auprès d'Abu Jafar Muhammad ibn Ubaydallah, lui jurèrent fidélité et obéissance, et garantissèrent aux jeunes leurs droits. Il écrivit ensuite à al-Hadi pour l'en informer. {cite:sira-hadi-ila-al-haqq p.202} Ceci fait suite à [[event/banu-al-harith-raid-hamdan-and-muhammad-ibn-ubaydallah-rides-out-of-najran-287]] et introduit [[event/al-hadi-leaves-saada-for-khiwan-and-meets-al-daam-at-al-amshiyya-288]].

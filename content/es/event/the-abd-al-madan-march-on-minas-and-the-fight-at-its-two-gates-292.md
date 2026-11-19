@@ -1,0 +1,12 @@
+---
+id: event/the-abd-al-madan-march-on-minas-and-the-fight-at-its-two-gates-292
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/the-abd-al-madan-march-on-minas-and-the-fight-at-its-two-gates-292.md}
+---
+## Visión general
+Dos días después, Banu Abd al-Madan se enteró y dijo, a personas que el libro no nombra, que habían expulsado a un hombre de entre ellos y les habían deseado la ruina, y que este había ido a ver a Ibn Bustam, quien los había incitado a la guerra y había deseado la ruina para ellos y para los madanis {cite:sira-hadi-ila-al-haqq p.282}. Quienes se adelantaron fueron [[person/rabi-ibn-abi-al-rukud|Rabi' ibn Abi al-Rukud]] y Ali ibn Rabi'; coincidieron en ir a Minas, y llegaron a ella al amanecer con los Yamis y al-Ahlaf {cite:sira-hadi-ila-al-haqq p.282}.
+
+## Detalle
+Su deseo era matar a Ibn Bustam debido a la enemistad que existía entre ellos, y no sufrir lo que Banu al-Harith había sufrido a manos de Muhammad ibn Ubaydallah; marcharon todos juntos hacia Minas {cite:sira-hadi-ila-al-haqq p.282}. Muhammad ibn Ubaydallah salió y se colocó con sus sirvientes en la puerta del callejón este de Minas, e Ibn Bustam y Banu Rabi'a se colocaron en el callejón oeste; la lucha se cerró en los dos callejones y fue dura hasta que Banu al-Harith esperaba entrar en Minas {cite:sira-hadi-ila-al-haqq p.282} {cite:sira-hadi-ila-al-haqq p.283}. Muchos fueron heridos por todos lados: de los que estaban con Abu Ja'far, sus sirvientes y los Banu Rabi'a que lo acompañaban, que eran ochenta hombres, fueron heridos y un hombre de Banu Rabi'a murió; Abu Ja'far, dice el narrador, se comportó ese día como nunca antes se le había visto, y hombres de Yam y al-Ahlaf fueron alcanzados por muchas flechas {cite:sira-hadi-ila-al-haqq p.283}. La lucha duró hasta la noche, cuando los Banu al-Harith regresaron a la aldea {cite:sira-hadi-ila-al-haqq p.283}. La frase «no recibirían lo que recibieron los Banu al-Harith» es difícil de leer en la versión impresa y se interpreta como su deseo de no sufrir lo que les sucedió a los Banu al-Harith; es una expresión del narrador. No se especifica a qué clan Rabi'a pertenecen los Banu Rabi'a y no se les relaciona con ningún registro. La acusación de los madanis contra Ibn Bustam en el relato es suya, no del museo.

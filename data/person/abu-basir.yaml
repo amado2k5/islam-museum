@@ -18,7 +18,7 @@ periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
   - { role: companion, start: { edtf: "0628" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
-  - { role: commander, toward: group/early-muslims, start: { edtf: "0628" }, end: { edtf: "0628" }, status: tradition, note: "قائد معسكر سيف البحر للمستضعفين (الرحيق ص347–348).", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { role: commander, toward: group/early-muslims, start: { edtf: "0628" }, end: { edtf: "0628" }, status: tradition, note: "قائد معسكر سيف البحر للمستضعفين ⁦(الرحيق ص347–348)⁩.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0628" }, note: "صحابي جليل بطل سيف البحر." }
 died: { edtf: "628", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham, al-Sira al-Nabawiyya; Ibn Hajar, al-Isaba" }

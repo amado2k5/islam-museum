@@ -1,0 +1,9 @@
+---
+id: concept/hifz-preservation
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/hifz-preservation.md}
+---
+## Résumé
+La préservation (hifz) signifie préserver une chose de la perte et de la ruine, et aussi la vigilance, comme dans la mémorisation du Coran. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7135} La mémorisation de la Fatiha pour la prière est obligatoire pour celui qui en est capable ; s'il ne le peut pas, il l'apprend ou la lit à partir d'un exemplaire ; les écoles chaféite et hanbalite l'exigent dans chaque rak'a, les hanafites exigeant un verset long ou trois versets courts. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7136} Pour diriger la prière, la majorité préfère le plus savant, et les hanbalites, et, par opposition au plus sain d'esprit, les chaféites, préfèrent le meilleur récitant, selon le hadith : « Que les gens soient dirigés par celui qui récite le mieux le Livre ». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7136} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7137} Un waqf, ou legs, est destiné aux récitants pour ceux qui connaissent le Coran entier par cœur, selon les écoles chaféite et hanbalite ; Offrir l'enseignement du Coran en cadeau de mariage est une pratique controversée ; elle est autorisée par les chaféites et interdite par les hanafites et les malikites. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7137} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7138} Le déposant doit conserver le dépôt dans un lieu approprié et n'est pas responsable en cas de perte sans faute de sa part. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7139}

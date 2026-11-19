@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b71, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/159-160" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b71, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/159-160" }
 ---
 ## خلاصہ
 ابو الولید عباس بن مؤمل صوفی آزمائش میں ثابت قدم رہے اور اپنا حق پورا ادا کیا؛ ان کا آرام رونے اور غم میں اور ان کی پناہ قبروں میں تھی۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 528)⁩ صفحہ 159 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 528 ہے، تسلسل میں 529۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/159}

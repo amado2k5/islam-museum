@@ -10,6 +10,7 @@ import {
   resolvePredicate, Predicate, Range, ROOT,
 } from "./lib.js";
 import { gitDates } from "./git-dates.js";
+import { writeBigJson } from "./lib/graph-file.mjs";
 
 export interface Edge {
   from: string; to: string; type: string; inverse: boolean;
@@ -358,6 +359,7 @@ function coverage(list: Node[], entities: Entity[]): Coverage {
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   const c = compile();
   mkdirSync(p(".cache"), { recursive: true });
-  writeFileSync(p(".cache", "graph.json"), JSON.stringify(c));
+  // In parts: the whole graph as one string is close to the longest string Node can make (scripts/lib/graph-file.mjs).
+  writeBigJson(p(".cache", "graph.json"), c);
   console.log(`graph: ${c.nodes.length} nodes (${c.coverage.entities} entities, ${c.coverage.stubs} stubs), ${c.edges.length} edges -> .cache/graph.json`);
 }

@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b98, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/394-396" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b98, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/394-396" }
 ---
 ## موجز
 أحمد بن معاوية بن الهذيل أبو جعفر الفرياني، وأخوه الهذيل بن معاوية، كان فاضلًا في التعبد والاتباع والاقتداء بمنهج البدلاء والأولياء، سمعا الحديث من أصحاب الثوري والحسين بن حفص وغيرهما. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 676)⁩ في الصفحتين 394 و395، وتسلسله 677. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/394} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/395}

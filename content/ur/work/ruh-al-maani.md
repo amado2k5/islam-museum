@@ -20,4 +20,4 @@ translators: ["Claude Code (OCR-harvest worker B), claude-opus-5-5"]
 کتاب کا مصنف کے عقیدے اور مسلک سے تعلق جاننے کے لیے دیکھیے [[question/was-al-alusi-salafi-in-creed|کیا آلوسی عقیدے میں سلفی تھے؟]]۔ مقالہ بتاتا ہے کہ آلوسی نے روح المعانی میں تصریح کی کہ وہ شافعی تھے اور صرف معاملات میں حنفی مسلک کی طرف منتقل ہوئے۔ {cite:juhud-al-alusi-al-balaghiyya-thesis p.57} ان کے بیٹے [[person/noman-al-alusi|نعمان خیر الدین]] نے والد کی بعض کتابیں مکمل کیں، جن میں شرح القطر پر ان کا حاشیہ ہے۔ {cite:juhud-al-alusi-al-balaghiyya-thesis p.35}
 
 ## استعمال شدہ ایڈیشن
-میوزیم نے دار الکتب العلمیہ بیروت (1415ھ / 1994ء) کی پہلی جلد استعمال کی، جس کی تصحیح علی عبد الباری عطیہ نے کی۔ {cite:ruh-al-maani-ilmiyya-1994-v1 p.1} {cite:ruh-al-maani-ilmiyya-1994-v1 p.2}
+میوزیم نے دار الکتب العلمیہ بیروت ⁦(1415ھ / 1994ء)⁩ کی پہلی جلد استعمال کی، جس کی تصحیح علی عبد الباری عطیہ نے کی۔ {cite:ruh-al-maani-ilmiyya-1994-v1 p.1} {cite:ruh-al-maani-ilmiyya-1994-v1 p.2}

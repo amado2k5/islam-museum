@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-fights-abu-ziyad-and-sasaa-at-al-ghayl-in-al-bawn-288
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-fights-abu-ziyad-and-sasaa-at-al-ghayl-in-al-bawn-288.md}
+---
+## Vue d'ensemble
+La page 224 imprimée commence, après la page 223 absente du scan, par la fin d'un poème mentionnant Dhu al-Fiqar et les positions du grand-père du poète, Ali ; le nom du poète n'est pas mentionné dans le texte lu et le musée n'intègre pas les vers {cite:sira-hadi-ila-al-haqq p.224}. Le narrateur raconte ensuite qu'Abu Ziyad et Sa'sa'a, accompagnés de leurs compagnons, furent mis en déroute jusqu'à un village d'al-Bawn appelé al-Ghayl, une forteresse où se trouvait leur campement {cite:sira-hadi-ila-al-haqq p.224}. [[person/al-hadi-yahya-al-rassi|Al-Hadi]] les poursuivit et les combattit avec acharnement à [[place/al-ghayl-al-bawn-yemen|al-Ghayl, à al-Bawn]], jusqu'au soir, puis retourna à [[place/raydah-yemen|Raydah]] sain et sauf, avec du butin ; aucun de ses compagnons n'avait été tué {cite:sira-hadi-ila-al-haqq p.224}. Sur le chemin, ses compagnons, qui avaient été mis en déroute et l'avaient abandonné, le rejoignirent. il fit demi-tour et passa la nuit à Raydah, et au matin il ordonna que les têtes des tués soient coupées, et elles furent coupées et transportées à Sa'da et Najran {cite:sira-hadi-ila-al-haqq p.224}.
+
+## Détail
+Ce lieu, al-Ghayl, se situe à al-Bawn, et non [[place/al-ghayl-saada|à al-Ghayl près de Sa'da]], où les hommes chassés de Najran furent emprisonnés en 286 AH. Le nom est identique, et aucune autre précision n'est apportée. L'autre manuscrit mentionne al-Ghayl, et la numérisation le confirme. [[event/battle-of-raydah-288|La bataille de Raydah]], relatée dans les premières pages ajoutées, indique qu'al-Hadi mit en déroute Sa'sa'a et les habitants de Qudum à la fin du mois de Jumada II, alors que ce récit ne mentionne pas Raydah comme champ de bataille. Le musée ne parvient pas à concilier les deux. Le décompte des morts et la description des vaincus sont dus au narrateur. Le transport des têtes est brièvement mentionné, tel qu'il apparaît dans le texte, sans description ni jugement. (Voir [[event/al-hadi-leaves-shibam-fights-on-the-road-and-goes-by-najr-and-al-bawn-to-raydah-and-bayt-dhud-288]]).

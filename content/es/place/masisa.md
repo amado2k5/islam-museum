@@ -1,0 +1,17 @@
+---
+id: place/masisa
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/place/masisa.md}
+---
+## Visión general
+Al-Masisa es la fortaleza fronteriza siria en el río Jayhan. Al-Baladhuri menciona que los musulmanes no se asentaron allí hasta que Abd Allah ibn Abd al-Malik construyó su fortaleza en el año 84 H sobre sus cimientos antiguos. Allí asentó a trescientos hombres selectos y construyó una mezquita en su colina. {cite:futuh-buldan-maarif-1407} Véase [[event/building-of-masisa|La construcción de al-Masisa]].
+
+Tenía una iglesia que las vanguardias bizantinas visitaban. Umar ibn Abd al-Aziz deseaba demolerla, pero se contuvo al saber que defendía Antioquía. Luego, Hisham, Marwan y Abu al-Abbas se sucedieron en su reconstrucción, seguidos por al-Mansur, al-Mahdi y Harun. {cite:futuh-buldan-maarif-1407}
+
+## En el Mu'jam al-buldan de Yaqut
+Yaqut vocaliza el nombre al-Massisah con una fatha, luego una kasra, una sad doble, una ya' quiescente y una segunda sad, como lo fijaron al-Azhari y los demás filólogos; al-Jawhari y Khalid al-Farabi son los únicos que dicen al-Musaysa con sads suaves, y la primera es la más sonora. Su longitud es de sesenta y ocho grados y su latitud de treinta y siete, en el quinto clima; otros dicen que en el cuarto; Abu Awn en su Zij da cincuenta y nueve grados de longitud y treinta y seis de latitud, cuarto clima. Es una ciudad a orillas del Jayhan entre las marcas sirias entre Antioquía y las tierras bizantinas, cerca de Tarso; en su época estuvo en manos de Ibn Layun y su hijo después de él durante muchos años, mientras que antiguamente fue una de las famosas ciudades de las marcas del Islam donde los justos guardaban ribat; tiene muchos huertos regados por el Jayhan, y tenía una muralla y cinco puertas. Los habitantes del siyar afirman que su nombre proviene de quien lo construyó, Masisa, hijo de al-Rum, hijo de al-Yaman, hijo de Sam, hijo de Nuh; al-Muhallabi dice que entre las particularidades de la marca está que en la ciudad de al-Massisah se fabricaban pieles que se transportaban hasta el horizonte, llegando a alcanzar a veces un precio de treinta dinares por una sola piel. {cite:mujam-al-buldan-sader-1995 5 p.144-145} Al-Massisah es también una aldea de Damasco cerca de Bayt Lahya —de donde procede Yazid ibn Abi Maryam al-Thaqafi al-Masisi, a quien Hisham ibn Abd al-Malik nombró gobernador de Aribat al-Shahr y luego destituyó— y cuenta la historia de Abu al-'Umaytir el Khariji, quien se regocijó pensando que sus compañeros habían tomado la ciudad de la marca, no la aldea de Damasco. {cite:mujam-al-buldan-sader-1995 5 p.145}
+
+## La identificación del museo
+La Al-Massisah de Yaqut es la fortaleza fronteriza del registro en el Jayhan (Mopsuestia); la construcción de la misma por Abdullah ibn Abd al-Malik en el año 84 y los constructores de fortalezas posteriores provienen del registro de al-Baladhuri, mientras que Yaqut la describe como una famosa ciudad fronteriza musulmana que cayó en su propia época (el siglo VII/XIII) a manos de Ibn Layun y su hijo, agrega sus costosas pieles y su muralla de cinco puertas, y él mismo distingue la aldea de Damasco del mismo nombre.

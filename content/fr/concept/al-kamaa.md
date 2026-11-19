@@ -1,0 +1,34 @@
+---
+id: concept/al-kamaa
+lang: fr
+source_lang: en
+status:
+  review: draft
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-concept-01-packet-11
+  source: content/en/concept/al-kamaa.md
+  translator_of: content/ar/concept/al-kamaa.md
+---
+## Résumé
+La kam’a, ou truffe du désert, est une plante qui sort de terre au printemps sans semis ni arrosage. Chez al-Bukhari, le Prophète dit : « La kam’a fait partie de la manne et son eau est un remède pour l’œil » {cite:sahih-al-bukhari 5708}. Ibn Qayyim al-Jawziyya note qu’on la nomme « variole de la terre » pour sa ressemblance avec la variole et que les Arabes l’appellent « plante du tonnerre » ; il en distingue plusieurs sortes, dont une mortelle {cite:zad-al-maad p.725}. Il donne deux interprétations de « fait partie de la manne » et trois de « son eau est un remède pour l’œil » {cite:zad-al-maad p.725} {cite:zad-al-maad p.726}.
+
+## Les récits transmis
+Sa’id ibn Zayd rapporte cette parole du Prophète : « La kam’a fait partie de la manne et son eau est un remède pour l’œil » {cite:sahih-al-bukhari 5708} [[passage/bukhari-api-4478|al-Bukhari, no 4478]] [[passage/bukhari-api-4639|al-Bukhari, no 4639]] [[passage/bukhari-api-5708|al-Bukhari, no 5708]]. Chez Ibn Majah, d’après Sa’id ibn Zayd, la kam’a fait « partie de la manne que Dieu fit descendre sur les enfants d’Israël » {cite:sunan-ibn-majah 3454} [[passage/ibnmajah-api-3454|Ibn Majah, no 3454]]. Dans une autre version, les Compagnons discutaient en présence du Prophète et disaient de la kam’a qu’elle était la « variole de la terre ». Lorsque ces propos lui parvinrent, il dit : « La kam’a fait partie de la manne, et l’ajwa vient du Paradis et est un remède contre le poison » {cite:sunan-ibn-majah 3455} [[passage/ibnmajah-api-3455|Ibn Majah, no 3455]]. Dans la notice sous la lettre ayn, Ibn al-Qayyim donne ce récit avec celui de l’ajwa : « L’ajwa vient du Paradis et est un remède contre le poison ; la kam’a est de la manne et son eau est un remède pour l’œil » {cite:zad-al-maad p.717} [[passage/ibnmajah-api-3453|Ibn Majah, no 3453]].
+
+## La description d’Ibn al-Qayyim
+Selon Ibn al-Qayyim, la kam’a naît de la vapeur que le froid de l’hiver retient dans la terre près de sa surface et que les pluies du printemps favorisent. Elle se forme et pousse vers la surface ; on la nomme pour cette raison « variole de la terre », en raison de sa ressemblance avec la variole par l’aspect et la matière {cite:zad-al-maad p.725}. On la trouve au printemps et on la mange crue ou cuite. Les Arabes l’appellent « plante du tonnerre », car elle se multiplie quand il tonne et le sol se fend pour la laisser sortir. Aliment des habitants du désert, elle abonde dans les pays arabes ; la meilleure vient des terrains sablonneux où il y a peu d’eau {cite:zad-al-maad p.725}. Il en distingue plusieurs sortes, dont une, rougeâtre, est mortelle et provoque une suffocation {cite:zad-al-maad p.725}. Il la dit froide et humide au troisième degré, mauvaise pour l’estomac et lente à digérer. Une consommation régulière causerait coliques, apoplexie, paralysie, douleurs d’estomac et difficultés à uriner ; fraîche, elle serait moins nocive que séchée. Parce qu’il juge sa substance terreuse et épaisse, il préconisait, pour qui en mangeait, de la mettre dans de l’argile humide, de la faire bouillir dans de l’eau avec du sel et du thym et de la manger avec de l’huile et des épices chaudes {cite:zad-al-maad p.725}. Il attribue à son application en khôl des bienfaits contre la baisse de la vue et l’ophtalmie chaude et note que les médecins de premier plan, parmi lesquels al-Masihi et l’auteur du Canon, reconnaissaient que son eau clarifiait la vue {cite:zad-al-maad p.725}.
+
+## Le sens de « fait partie de la manne »
+Ibn al-Qayyim propose deux lectures de « la kam’a fait partie de la manne ». Dans la première, la manne descendue sur les enfants d’Israël ne désigne pas seulement cette substance sucrée, mais les nombreuses choses dont Dieu les a gratifiés, notamment des plantes que l’on trouve sans travail, effort ni labour. Le mot « mann » est un nom verbal au sens passif : « ce qui est accordé par faveur ». Tout ce que Dieu fournit gratuitement à un serviteur, sans que celui-ci ne l’ait gagné ni n’ait fait d’effort, est donc pure faveur, et la kam’a en fait partie. Le terebinjabin qui tombe sur les arbres est une sorte de manne, à laquelle l’usage a fini par appliquer ce mot. Dans la seconde lecture, le Prophète a comparé la kam’a à la manne descendue du ciel parce qu’on la ramasse sans peine ni tracas, sans semis ni arrosage {cite:zad-al-maad p.725}.
+
+## D’où vient le mal
+Ibn al-Qayyim se demande d’où la kam’a peut tenir sa nocivité si telle est sa nature. Il répond que Dieu a rendu parfaite toute chose qu’Il a faite : à sa création, elle est donc exempte de maux et de défauts ; les maux lui viennent ensuite de l’extérieur, par le voisinage, le mélange ou d’autres causes de corruption {cite:zad-al-maad p.725}. Il estime que la corruption, générale ou particulière, de l’air, des plantes et des animaux est postérieure à la création et résulte de causes qui l’ont produite. Selon lui, les actes humains et l’opposition aux messagers entraînent les maladies, les épidémies, les sécheresses et la perte des bienfaits et des fruits de la terre {cite:zad-al-maad p.725} {cite:zad-al-maad p.726}. Il présente cette explication religieuse comme la sienne et en fait une leçon.
+
+## Le sens de « son eau est un remède pour l’œil »
+Ibn al-Qayyim donne trois lectures. Selon la première, énoncée par Abu Ubayd, son eau entre dans la composition de remèdes pour les yeux et ne s’emploie pas seule. Selon la deuxième, on l’employait pure après avoir fait griller la truffe et en avoir recueilli l’eau, de sorte que l’humidité nocive disparaisse et que restent les bienfaits. Selon la troisième, énoncée par Ibn al-Jawzi, « son eau » signifie l’eau produite en même temps qu’elle : le rapport est de concomitance et non de partie à tout. Ibn al-Qayyim juge cette dernière lecture la plus éloignée et la plus faible {cite:zad-al-maad p.726}. Il rapporte aussi l’avis selon lequel l’eau seule servait de remède si l’on cherchait à rafraîchir ce qui se trouve dans l’œil ; pour tout autre usage, elle était mêlée à d’autres ingrédients {cite:zad-al-maad p.726}. Il cite al-Ghafiqi, qui tenait l’eau de kam’a pour le meilleur remède oculaire lorsque l’ithmid était pétri avec elle et appliqué comme khôl, et lui attribuait la capacité de fortifier les paupières {cite:zad-al-maad p.726} [[concept/al-ithmid|ithmid et khôl]]. Sur le sujet plus général, voir [[concept/al-tibb-al-nabawi|la médecine prophétique]].
+
+## Note
+Cette page présente les récits et les propos d’Ibn al-Qayyim sur la kam’a. Elle ne donne aucun conseil médical ni alimentaire.

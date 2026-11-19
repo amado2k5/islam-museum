@@ -1,0 +1,16 @@
+---
+id: concept/ayyam-al-arab
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/ayyam-al-arab.md}
+---
+
+## Los días de los árabes
+Los «Días de los Árabes» (Ayyam al-'Arab) es el nombre que, según la leyenda árabe, reciben los combates que las tribus árabes libraban entre sí en la época preislámica, y a veces en los inicios del Islam. Cada día toma su nombre de lugares o acontecimientos, como el Día de Bu'ath o el Día de Dhu Qar. Su número es considerable, pero muchos no fueron batallas entre tribus enteras; se trataba de escaramuzas en las que solo unas pocas familias o individuos se enfrentaban, y los propios árabes a veces lo notaban. Al-Zubayr b. Bakkar, por ejemplo, observó que solo el día de Bu'ath fue una batalla propiamente dicha entre los Aws y los Khazraj, y que en los demás días la lucha se limitaba a lanzar piedras y golpear con palos. {cite:encyclopaedia-of-islam-2 vol. 1 p. 842}
+
+## Cómo transcurrió un día
+Un día transcurría con normalidad, como demostró Wellhausen en las luchas entre los Aws y los Khazraj. Unos pocos hombres llegaban a las manos, quizás por una disputa fronteriza o un insulto a un protegido de un hombre influyente. La riña de unos pocos se convertía entonces en hostilidad entre tribus enteras, que se enfrentaban en batalla. Tras el derramamiento de sangre, generalmente intervenía alguna familia neutral, la paz se restablecía pronto y la tribu que había perdido menos hombres pagaba el precio de la sangre derramada. El Ayyam, escrito en prosa antigua junto con los poemas antiguos, ofrece excelente información sobre las condiciones previas al Islam y sobre el espíritu caballeresco de los antiguos guerreros. Un material similar se repite en romances populares posteriores: Zir, un héroe del Siyar Bani Hilal, no es otro que Muhalhil, hermano de Kulayb Wa'il, quien desempeña un papel fundamental en la Guerra de al-Basus entre los Bakr y los Taghlib. {cite:encyclopaedia-of-islam-2 vol. 1 p. 842-843}
+
+## Transmisión
+Según la tradición, los compañeros del Profeta ya comentaban los sucesos de la época preislámica en sus reuniones, por lo que el Ayyam pronto se convirtió en un tema predilecto de los akhbariyyun, transmisores de los antiguos relatos árabes. El Fihrist menciona a varios autores que escribieron sobre días específicos o sobre todos ellos, pero ninguna de estas obras se conserva en su forma original. La mayoría de los extractos posteriores toman prestados elementos de Abu 'Ubayda (m. 210/825), quien escribió una obra más breve sobre 75 días y otra más extensa sobre 1200 días. Autores posteriores conservan el material en fragmentos dispersos, en el comentario Hamasa de al-Tibrizi, el Kitab al-Aghani, colecciones de proverbios y obras de geógrafos, y en capítulos completos, en el 'Iqd al-Farid de Ibn 'Abd Rabbih, el Nihayat al-arab de al-Nuwayri y al-Kamil de Ibn al-Athir, que ordena los días cronológicamente. El Majma' al-amthal de Al-Maydani trata 132 días preislámicos y 88 días islámicos. {cite:encyclopaedia-of-islam-2 vol. 1 p. 843}

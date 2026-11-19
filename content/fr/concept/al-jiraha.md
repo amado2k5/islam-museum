@@ -1,0 +1,28 @@
+---
+id: concept/al-jiraha
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-concept-01-packet-11
+  source: content/en/concept/al-jiraha.md
+---
+## Vue d’ensemble
+Au premier chapitre de la quatrième section (fann) du livre I, Ibn Sina explique que le traitement repose sur trois moyens : le régime de vie et l’alimentation, les remèdes et les opérations manuelles {cite:canon-ibn-sina-print-v1 p.267}. Le « travail de la main » désigne ce que l’on appelle aujourd’hui la chirurgie et les gestes qui l’accompagnent : inciser des abcès, enlever un organe putréfié, cautériser, réduire des fractures et ouvrir des veines. Cette notice décrit les écrits d’Ibn Sina ; elle ne donne aucun conseil thérapeutique.
+
+## L’incision et ce que l’opérateur doit savoir
+Le chapitre 26 traite de l’incision des abcès (al-batt). Ibn Sina préconise d’inciser dans le sens des plis de l’organe et prend le front pour exemple : une incision à contre-sens des plis sectionne le muscle et fait tomber le sourcil {cite:canon-ibn-sina-print-v1 p.305}. L’opérateur doit, selon lui, connaître l’anatomie des nerfs, des veines et des artères pour éviter d’en sectionner et de tuer le patient, et avoir sous la main plusieurs remèdes pour arrêter les saignements, des pommades contre la douleur, des instruments et des cautères. Pour arrêter le sang, il cite le poil de lapin, la toile d’araignée et le blanc d’œuf {cite:canon-ibn-sina-print-v1 p.306}. Après avoir vidé l’abcès, il déconseille les pommades grasses et préfère un onguent desséchant accompagné d’une éponge imbibée de vin astringent {cite:canon-ibn-sina-print-v1 p.306}. Plus haut, il avertit qu’une hernie peut être prise pour un gonflement interne et qu’il est alors dangereux de l’inciser {cite:canon-ibn-sina-print-v1 p.305}.
+
+## L’ablation d’un organe putréfié
+Le chapitre 27 est consacré à l’organe qui se putréfie sous l’effet d’un mauvais tempérament, lorsque la scarification et l’application de préparations locales ont échoué. Ibn Sina préconise de retirer la chair atteinte, de préférence sans employer le fer si possible, car celui-ci peut causer de graves lésions au muscle, au nerf et aux vaisseaux qui pulsent. Si la putréfaction gagne la chair, il décrit une excision suivie d’une cautérisation de la plaie à l’huile bouillante pour arrêter le saignement {cite:canon-ibn-sina-print-v1 p.306}. Pour retirer un os, il fait passer une sonde tout autour : une douleur aiguë indique une attache saine, qui marque la limite à ne pas dépasser. Là où il constate du jeu et une attache faible, il décrit le retrait de la partie atteinte par perforation suivie de rupture, ou par sciage, en protégeant la chair de l’outil tranchant. Si l’os est volumineux, comme celui de la cuisse, proche de nerfs, d’artères et de veines, et que la putréfaction est étendue, il dit que le médecin doit prendre la fuite, autrement dit renoncer à intervenir {cite:canon-ibn-sina-print-v1 p.306}.
+
+## Les plaies et les ruptures de continuité
+Au chapitre 28, Ibn Sina distingue les ruptures de continuité des grandes parties osseuses, traitées par la réduction et le bandage dans l’art de remettre les os en place, de celles des parties molles. Pour ces dernières, il pose trois principes : arrêter ce qui s’écoule, réunir les bords de la plaie à l’aide de remèdes et d’aliments appropriés, et prévenir autant que possible la putréfaction {cite:canon-ibn-sina-print-v1 pp.306-307}. Le traitement des ulcères vise à les dessécher. Il décrit un simple dessèchement pour les ulcères propres et des remèdes âcres et corrosifs pour ceux qui sont putrides ; en cas d’échec, il ne voit d’autre recours que le feu {cite:canon-ibn-sina-print-v1 p.307}. Au livre IV, il revient sur les plaies : il distingue les incisions simples et droites, les plaies rondes, celles qui s’accompagnent d’une perte de chair, les plaies profondes et celles qui restent béantes. Arrêter le sang et empêcher le gonflement sont ses premières préoccupations ; il mentionne les sutures pour les plaies dont les bords ne se rejoignent pas {cite:canon-ibn-sina-print-v3 p.198}.
+
+## La cautérisation et le soulagement de la douleur
+Le chapitre 29 présente la cautérisation comme utile pour arrêter la progression de la putréfaction, fortifier un organe, dissoudre une matière putride ou arrêter un saignement. Ibn Sina tient l’or pour le meilleur matériau et décrit un moule à introduire dans la bouche, le nez ou l’anus pour protéger les tissus voisins. Pour un saignement, il préconise une cautérisation forte, afin que la croûte soit profonde et épaisse et ne tombe pas rapidement {cite:canon-ibn-sina-print-v1 p.309}. Le chapitre 30 porte sur le soulagement de la douleur. Il cite l’opium comme le narcotique le plus puissant, puis la mandragore, les pavots, la jusquiame et la ciguë. Il avertit que les narcotiques peuvent eux-mêmes nuire et qu’on les emploie avec leurs antidotes {cite:canon-ibn-sina-print-v1 pp.309-310}.
+
+## Dans les récits de l’époque du Prophète
+Les recueils de hadiths rapportent des soins donnés aux blessés à l’époque du Prophète. Parmi eux figurent le récit de Sahl ibn Sa’d sur la blessure du Prophète à Uhud et sur ce que Fatima fit avec un morceau de natte brûlée {cite:sahih-al-bukhari 4075}, et le récit de la cautérisation de la blessure de Sa’d ibn Mu’adh {cite:hadith-api-fawazahmed0 Muslim 5748}. Ces récits sont présentés dans [[concept/mudawat-al-jarha|Le soin des blessés à l’époque du Prophète]]. Voir aussi [[concept/al-fasd|la saignée]], [[concept/al-jabr-wal-kasr|les fractures et luxations]] et [[concept/medical-treatment|le traitement dans le Canon]].

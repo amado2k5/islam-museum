@@ -23,7 +23,7 @@ status:
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص310"
+  source: "موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج2 ص310"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch54
@@ -39,4 +39,4 @@ occupations:
     note: "merge-map link from role 'theologian', Job Browser linking wave 42"
     sources: [source/mawsuat-a3lam-ulama-adaba]
 relations:
-  - { type: lived_in, target: place/tabaristan, note: "Place association from the person's nisba/name (الطبرستاني); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
+  - { type: lived_in, target: place/tabaristan, note: "Place association from the person's nisba/name ⁦(الطبرستاني)⁩; denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

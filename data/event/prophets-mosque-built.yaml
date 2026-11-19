@@ -10,11 +10,11 @@ themes: [mosques]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0622-09-27~", hijri: "0001-03", calendar: julian, precision: month, status: tradition, note: "وصل المدينة 12 ربيع الأول 1هـ (27 سبتمبر 622م) وشرع في بناء المسجد إثر نزوله في دار أبي أيوب الأنصاري (الرحيق ص184)" }
+  start: { edtf: "0622-09-27~", hijri: "0001-03", calendar: julian, precision: month, status: tradition, note: "وصل المدينة 12 ربيع الأول 1هـ ⁦(27 سبتمبر 622م)⁩ وشرع في بناء المسجد إثر نزوله في دار أبي أيوب الأنصاري ⁦(الرحيق ص184)⁩" }
 relations:
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: person/muhammad, role: "المؤسس والمشارك في نقل اللبن والحجارة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
-  - { type: had_participant, target: person/abu-ayyub-al-ansari, note: "نزل النبي في داره حتى تم بناء المسجد ومساكنه (الرحيق ص184)", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-ayyub-al-ansari, note: "نزل النبي في داره حتى تم بناء المسجد ومساكنه ⁦(الرحيق ص184)⁩", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/asad-ibn-zurara, note: "كان يصلي بالمسلمين في المربد قبل بناء المسجد", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/hijra }

@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-addresses-the-man-of-firm-mind-and-the-saying-of-what-will-be-292
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/al-hadi-addresses-the-man-of-firm-mind-and-the-saying-of-what-will-be-292.md}
+---
+## Visión general
+Tras el encabezado «y también de él» aparecen breves líneas en las que al-Hadi se dirige al hombre de mente firme, hermano de la guía, afirmando que posee fidelidad a su pacto y a su religión, y amor por el Profeta y su familia, por lo cual triunfó mientras otros fracasaron, y concluye con un proverbio: lo que no puede ser, no será por ningún medio, y lo que ha de ser, será. {cite:sira-hadi-ila-al-haqq p.306}
+
+## Detalle
+La página 306 comienza con un breve poema que sigue al final de los versos de al-Hadi sobre la justicia que llega después de la lucha, bajo el título "y también de él", es decir, de al-Hadi como lo atribuye el libro {cite:sira-hadi-ila-al-haqq p.306}. El poeta se dirige al "hombre de mente firme, hermano de la guía" y dice que tiene fidelidad a su pacto y a su religión y amor por el Profeta y su familia, "y por eso triunfó mientras otro fracasó" {cite:sira-hadi-ila-al-haqq p.306}. Luego cita el dicho del "hombre de letras", que el poeta llama un proverbio para los sensatos: lo que no puede ser jamás será por ningún medio, y lo que ha de ser, será {cite:sira-hadi-ila-al-haqq p.306}. El editor registra que el manuscrito S dice "generosidad" donde el texto dice "guía" en el primer verso {cite:sira-hadi-ila-al-haqq p.306}. El libro no nombra a ningún destinatario ni da ninguna ocasión, por lo que es una exhortación general en verso cuyo lugar está determinado por lo que la precede. Le siguen [[event/al-hadi-describes-the-battle-and-the-justice-after-it-in-verse-292|sus versos sobre la justicia después de la lucha]] y [[event/al-hadi-describes-his-armies-and-asks-them-to-spare-their-blood-in-verse-292|sus versos sobre sus ejércitos y el llamado a perdonar su sangre]]. El poema se presenta en un libro zaidí con la voz de los seguidores del imán; sus afirmaciones, descripciones y juicios sobre los oponentes son del poeta o del narrador, y el museo no adopta ninguno de ellos, no repite ninguna palabra de insulto ni emite ningún veredicto.

@@ -7,7 +7,7 @@ translators: []
 
 ## خلاصہ
 
-جودت یلماز (پیدائش 1967) ترک سیاست دان ہیں جو جون 2023 سے ترکی کے نائب صدر ہیں {cite:wikipedia-cevdet-yilmaz-en} {cite:wikipedia-cevdet-yilmaz-tr}۔
+جودت یلماز ⁦(پیدائش 1967)⁩ ترک سیاست دان ہیں جو جون 2023 سے ترکی کے نائب صدر ہیں {cite:wikipedia-cevdet-yilmaz-en} {cite:wikipedia-cevdet-yilmaz-tr}۔
 
 ## زندگی اور کام
 

@@ -1,0 +1,15 @@
+---
+id: person/al-sayyida-nafisa
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/al-sayyida-nafisa.md}
+---
+## Visión general
+Nafisa bint Abi Muhammad al-Hasan b. Zayd b. al-Hasan b. 'Ali b. Abi Talib, conocida como al-Sayyida Nafisa; entre las mujeres justas y piadosas de la casa del Profeta; residió en Egipto en el lugar de su santuario en Darb al-Siba', entre El Cairo y Fustat. {cite:wafayat-ayan}
+
+## Al-Shafi'i con ella; su entierro
+Se cuenta que cuando el imán al-Shafi'i entró en Egipto la atendió y escuchó hadiz sobre ella, y cuando murió su féretro fue traído a su casa y ella rezó por él en su casa; su esposo, el confiable Ishaq b. Ja'far al-Sadiq decidió llevarla a Medina para su entierro, pero los egipcios le suplicaron que la conservara — por lo que fue enterrada en Egipto, y su tumba es famosa por su respuesta a la oración y es visitada. {cite:wafayat-ayan}
+
+## En el programa de al-Sha'rawi "Liqa' al-Iman"
+En el episodio 6 de [[work/likaa-al-iman|Liqa' al-Iman]] [[person/muhammad-mutawalli-al-shaarawi|al-Sha'rawi]] se le pregunta por qué al-Sayyida Nafisa es llamada "Nafisat al-'Ilm" (la preciosa del conocimiento). {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:00:00} Divide el conocimiento en dos: el conocimiento del universo, del que dependen los intereses de las personas en edificar la tierra, y el conocimiento celestial que enseña lo legítimo y lo prohibido. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:00:30} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:01:30} Dice que ella acudió al más precioso de los dos, el conocimiento de lo licito y lo prohibido, porque el conocimiento del universo sirve a la felicidad de una persona en una vida de duración limitada, mientras que el conocimiento de lo legítimo conduce a una vida que no termina y cuya dicha no se pierde. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:08:30} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:09:00} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:09:30} Vincula nafs (yo), nafas (aliento) y nafis (precioso) como una sola raíz, diciendo que una persona puede pasar un mes sin comer y diez días sin beber, pero no puede quedarse sin aire, inhalando o exhalando. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:09:30} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:10:00} Sostiene que, por mucho que una persona disfrute de este mundo, allí le amenazan dos cosas: que muera y pierda la felicidad, o que la felicidad le abandone mientras viva. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:10:30} Describe las maravillas relatadas de ella como experiencias personales. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:11:30}

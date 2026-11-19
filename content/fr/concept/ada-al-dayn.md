@@ -1,0 +1,29 @@
+---
+id: concept/ada-al-dayn
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-concept-01-packet-01
+  source: content/en/concept/ada-al-dayn.md
+---
+## Sens de la dette
+Une dette est une qualification établie dans le patrimoine d'obligation, ou le fait que celui-ci soit grevé d'une somme due pour une cause : un contrat (vente, cautionnement, transaction amiable, khul'), une conséquence d'un contrat (comme l'entretien) ou d'autres causes (usurpation, zakat, indemnisation de biens détruits). La somme due dans ce patrimoine est appelée dette par extension, parce qu'elle tend vers une valeur pécuniaire. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1990}
+## Règle du paiement d'une dette
+Le paiement d'une dette sous la forme due est obligatoire par consensus, sur le fondement du verset de la sourate de la Vache relatif au dépôt confié. Certains juristes le comptent parmi les besoins essentiels. Une dette exigible doit être payée immédiatement sur demande lorsque le débiteur en a les moyens, sur le fondement du hadith selon lequel le retard d'une personne aisée est une injustice. Une dette à terme n'est pas exigible avant son échéance ; si elle est payée par anticipation, le paiement est valable et libère le débiteur. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1990}
+Une dette à terme devient immédiatement exigible en cas d'apostasie, de décès ou de faillite (taflis). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1991}
+## Modalités de paiement
+Le paiement consiste à remettre le droit à son titulaire. Pour les dettes, il s'effectue par des biens équivalents, faute d'autre moyen ; la somme reçue dans le change (sarf) et dans la vente à paiement anticipé (salam) tient lieu du droit lui-même, de sorte que le créancier peut être contraint de l'accepter. Pour les choses sans équivalent, comme les biens usurpés et les biens détruits, c'est leur valeur qui est due. Dans un prêt, si aucun équivalent n'est disponible, certains estiment qu'il faut restituer un bien semblable par son espèce et sa forme, sur le fondement du récit d'Abu Rafi' concernant un jeune chameau emprunté par le Prophète. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1991}
+Le remboursement par un bien meilleur est permis s'il n'a pas été posé comme condition : le Prophète emprunta un jeune chameau et en rendit un meilleur, disant que les meilleurs des gens sont ceux qui remboursent le mieux. Un débiteur à qui l'on demande de payer dans une autre ville doit le faire lorsque le bien ne nécessite ni transport ni frais. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1991} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1992}
+## Ce qui tient lieu de paiement
+La dette s'éteint lorsque le débiteur la paie sous la forme due. La remise, le don ou l'abandon charitable de la créance par le créancier l'éteignent également, tout comme le transfert de dette (hawala), la compensation (muqasa), l'expiration du terme, la transaction amiable et le fait, pour un esclave, de se déclarer incapable de payer le prix de son affranchissement, chacun selon les conditions exposées par les juristes. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1991}
+## Le débiteur solvable qui refuse de payer
+Un débiteur solvable doit payer. S'il tarde après la demande des créanciers, le juge l'y contraint ; s'il refuse encore, il est emprisonné pour retard injustifié, sur le fondement du hadith selon lequel le retard d'un homme riche autorise à le blâmer et à le punir. S'il possède des biens apparents, le juge les vend ; un récit indique que le Prophète vendit les biens de Mu'adh pour payer ses dettes et qu'Umar vendit ceux d'al-Asyaf et en répartit le produit entre ses créanciers. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1992}
+Si ses biens ne couvrent pas ses dettes et que les créanciers demandent une interdiction de disposer (hajr), le juge doit l'accorder, lui interdire de disposer de ses biens, les vendre et en répartir le produit entre les créanciers au prorata de leurs créances. C'est l'avis des chaféites, des hanbalites, des malikites, d'Abu Yusuf et de Muhammad ; Abu Hanifa s'y opposait, estimant que cette interdiction méconnaît la dignité de la personne et que le juge se borne à l'emprisonner tant qu'il lui reste des biens à vendre. Si les biens sont de la monnaie de même nature que la dette, le juge en prélève le paiement sans son consentement. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1992}
+## Le débiteur insolvable
+Un débiteur dont l'insolvabilité est prouvée est libéré et bénéficie d'un délai, sur le fondement du verset de la sourate de la Vache relatif à la personne dans la gêne. Il doit gagner de quoi payer, mais ne peut être contraint à travailler ni à accepter des dons et des aumônes ; tout ce qu'il acquiert est soumis aux droits de ses créanciers. Un débiteur (gharim) qui a emprunté pour lui-même dans une affaire licite peut voir sa dette payée au moyen de la zakat, dont il constitue l'une des catégories de bénéficiaires. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1992}
+## La dette du défunt
+Lorsqu'une personne meurt endettée, la dette grève sa succession et est payée avant l'exécution des legs et avant que les héritiers reçoivent leurs parts. La dette est due, libérer son patrimoine d'obligation compte parmi les besoins les plus pressants d'une personne, et l'accomplissement d'une obligation prime les dons. Le Coran place la dette avant le partage, dans le verset de la sourate des Femmes relatif au legs et à la dette. Un hadith dit que l'âme du croyant est retenue par sa dette jusqu'à ce qu'elle soit payée. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1992} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1993}
+Cela concerne les dettes envers les personnes ; les dettes envers Dieu, telles que la zakat, les expiations et les vœux, sont traitées ailleurs dans l'encyclopédie. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1993}

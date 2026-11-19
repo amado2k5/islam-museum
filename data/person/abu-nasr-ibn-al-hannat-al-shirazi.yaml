@@ -17,11 +17,11 @@ born: { edtf: "1020~", calendar: gregorian, precision: year, derived: true, note
 died: { edtf: "1060~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ikmal (Ibn Makula)" }
 relations:
   - { type: died_in, target: place/hisn-fayd, note: "From text: مات بفيد في طريق مكة", sources: [source/tabaqat-fuqaha-abbas-1981] }
-  - { type: student_of, target: person/abu-abd-allah-al-hannat-al-shirazi, role: "أخذ الفقه عن أبيه (PDF ص64)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: student_of, target: person/abu-abd-allah-al-hannat-al-shirazi, role: "أخذ الفقه عن أبيه ⁦(PDF ص64)⁩", sources: [source/tabaqat-fuqaha-abbas-1981] }
 sources: [source/tabaqat-fuqaha-abbas-1981]
 provenance:
   layer: "own-research"
-  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص62–64"
+  source: "طبقات الفقهاء ⁦(تحقيق إحسان عباس)⁩ PDF ص62–64"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch86

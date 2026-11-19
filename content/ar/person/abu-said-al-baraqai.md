@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b61, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/146" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b61, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/146" }
 ---
 ## موجز
 أبو سعيد البراقعي، من كبار العارفين بالشام. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 510)⁩ في الصفحة 146، وتسلسله 511. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/146}

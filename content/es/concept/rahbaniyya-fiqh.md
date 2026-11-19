@@ -1,0 +1,10 @@
+---
+id: concept/rahbaniyya-fiqh
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: draft
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/rahbaniyya-fiqh.md}
+---
+## Resumen
+Rahbaniyya deriva del miedo y el asombro; un rahib (monje) era originalmente un fiel que vivía en una celda entre cristianos y se retiraba de los asuntos mundanos, y el sentido técnico no difiere de esto. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9019} Términos relacionados son aislamiento (uzla), que es un medio para el monacato y contrario a la norma y que puede ser lícito cuando la sociedad está corrupta, y vagar (siyaha) por la tierra para adorar. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9019} La ley prohibía el monacato en el sentido practicado por los monjes cristianos: exceso en el culto, abandono de la vida mundana, retiro de mujeres y personas, autotormento a través de la dificultad. Los juristas se apoyan en un versículo coránico de al-Ma'ida (versículo 77), en el hadiz que la yihad es el monacato del islam, y en el hadiz de que quien se aparta de mi sunna no es de mí. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9020} Todos los estudiosos coinciden en que es mejor para un musulmán mezclarse con la gente, asistir a congregaciones y lecciones, visitar a los enfermos, asistir a funerales, ordenar el bien y soportar su daño con paciencia; al-Nawawi señala que esta era la práctica del Profeta, los profetas y los califas correctamente guiados. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9020} Se recomienda aislamiento cuando prevalece la corrupción general (fitna) o cuando la mezcla probablemente conduciría a lo prohibido; las tradiciones alaban la adoración en tiempos de turbulencia y a un hombre que mantiene su fe retirándose a un paso de montaña. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9021}

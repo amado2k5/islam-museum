@@ -24,7 +24,7 @@ regions:
 - arabia
 - levant-iraq
 story_roles:
-  - { role: convert, status: tradition, note: "كان نصرانياً يُسمى سرجس ثم أسلم قبل ذات السلاسل (ابن هشام 4/272)", sources: [source/ibn-hisham-saqqa] }
+  - { role: convert, status: tradition, note: "كان نصرانياً يُسمى سرجس ثم أسلم قبل ذات السلاسل ⁦(ابن هشام 4/272)⁩", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: christian, basis: tradition, end: { edtf: "0629~" }, note: "بحسب حديثه عن نفسه عند ابن إسحاق: كنت امرأً نصرانياً وسميت سرجس", sources: [source/ibn-hisham-saqqa] }
   - { value: sunni, basis: tradition, start: { edtf: "0629~" }, note: "أسلم قبل غزوة ذات السلاسل؛ يُسجَّل ضمن الإطار السني للمتحف", sources: [source/ibn-hisham-saqqa] }
@@ -37,7 +37,7 @@ relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407, source/ibn-hisham-saqqa] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 153"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 153"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-8
 sources:

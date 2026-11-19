@@ -1,0 +1,16 @@
+---
+id: concept/bayd
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/bayd.md}
+---
+
+## Naturaleza y selección
+Un alimento común {cite:canon-ibn-sina-print-v1 p.396}. El mejor es el huevo fresco de gallina; después del huevo de gallina vienen los huevos de aves similares, como la perdiz y el tadarj. El huevo de pato y similares son de mala calidad {cite:canon-ibn-sina-print-v1 p.396}.
+
+## Temperamento y acciones
+Su naturaleza es moderada: la clara es fría, la yema caliente, y ambas son húmedas, especialmente la clara. Los huevos más secos son los de ganso y avestruz {cite:canon-ibn-sina-print-v1 p.396}. Hay astringencia, especialmente en la yema tostada. La clara calma los dolores agudos porque los recubre. El mejor es el llamado nimbarsht, que pasa rápidamente por el cuerpo, y el tipo más compacto es más lento de digerir y proporciona más alimento {cite:canon-ibn-sina-print-v1 p.396}.
+
+## Usos por órgano
+Belleza: la blanca aplicada sobre la piel previene las quemaduras solares y las elimina {cite:canon-ibn-sina-print-v1 p.396}. Hinchazones y pústulas: se encuentra entre los remedios que detienen las hinchazones {cite:canon-ibn-sina-print-v1 p.396}. Heridas y úlceras: en inyecciones para úlceras e hinchazones, y la quemadura se unge con aceite; ayuda a las heridas del ano y la ingle {cite:canon-ibn-sina-print-v1 p.397}. Articulaciones: suavizan los nervios y ayudan a todos los dolores de las articulaciones {cite:canon-ibn-sina-print-v1 p.397}. Cabeza: se encuentra entre los medicamentos que detienen el sangrado de la membrana del cerebro y ayuda a los resfriados. La yema de huevo de gallina ayuda a las hinchazones calientes en el oído {cite:canon-ibn-sina-print-v1 p.397}. Ojos: su clara calma el dolor de ojo; su yema con azafrán y aceite de rosa ayuda mucho a la pulsación del ojo, y con harina de cebada como cataplasma evita que las gotas lleguen al ojo {cite:canon-ibn-sina-print-v1 p.397}. Pecho: ayuda con la aspereza de garganta, la tos, la pleuresía, la tisis, la ronquera por calor, la dificultad para respirar y la expectoración de sangre {cite:canon-ibn-sina-print-v1 p.397}. Órganos digestivos: el huevo cocido, tal cual, en vinagre, evita que la materia se asiente en el estómago {cite:canon-ibn-sina-print-v1 p.397}. Órganos excretores: su forma cocida detiene la diarrea, especialmente cuando se come crudo; la forma asada sobre ceniza, comeda con astringentes y jugo de uva agria, ayuda con la ablandación intestinal, ayuda con la aspereza del intestino y la vejiga, y una inyección de su clara con corona de reyes ayuda con las úlceras intestinales {cite:canon-ibn-sina-print-v1 p.397}. El libro dice que todos los huevos, especialmente los huevos de gorrión, aumentan el deseo. También se dice que un huevo de ganso mezclado con aceite y dejado caer tibio en el útero provoca la menstruación después de cuatro días. Estas son afirmaciones del libro, registradas tal como están escritas y no como consejo {cite:canon-ibn-sina-print-v1 p.397}.

@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-answers-the-blame-over-giving-and-says-his-land-is-poor-292
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/al-hadi-answers-the-blame-over-giving-and-says-his-land-is-poor-292.md}
+---
+## Visión general
+"Nos molestasteis por lo que dábamos, así que escuchad", y luego dice que da de su vida y de su riqueza "ante vosotros", no guarda tesoros y no se queda con nada cuando da {cite:sira-hadi-ila-al-haqq p.303}.
+
+## Detalle
+Dice que protege sus linajes y los protege de ellos, que no pasa la noche tranquilo mientras su vecino es pobre y tiene hambre, que no busca lo que no es lícito, que vivió entre ellos durante siglos, que "por la alabanza de Dios y la justicia hablo", y que si toda la tierra de Dios fuera suya, se la daría {cite:sira-hadi-ila-al-haqq p.304}. Luego: "primos, estoy en una tierra miserable", de poca producción, su mal continuo, sin riquezas para cubrir parte de sus necesidades, su habitante desnudo, hambriento y famélico; les pide que pregunten al pueblo al respecto, dice que han olvidado su defensa, que si no le pagan al menos deberían ser amables, que el mundo gira con su gente para que no desesperen de él, que el tiempo tiene estados que hacen girar a su gente, y que quien está en una cosa espera su opuesto, y termina "La paz de Dios sea con ustedes mientras sale el sol" {cite:sira-hadi-ila-al-haqq p.304}. Una nota a pie de página indica que el manuscrito S lee «contender» en lugar de «espera» {cite:sira-hadi-ila-al-haqq p.304}. El libro no ofrece aquí ningún testimonio independiente de la donación ni de la pobreza de la tierra, por lo que estas siguen siendo palabras del poeta en un libro zaidí, que el museo ni aprueba ni rechaza. Sigue a [[event/al-hadi-says-in-verse-he-built-a-house-of-glory-and-revived-the-book-292|su afirmación de que construyó una casa de gloria]] y precede a [[event/al-hadi-warns-the-unjust-governors-in-verse-and-names-the-yemeni-regiments-292|sus versos sobre los gobernadores injustos]]. El relato se encuentra en un libro zaidí en la voz de los seguidores del imán; sus descripciones y juicios sobre los oponentes son del narrador o del poeta, y el museo no adopta ninguno de ellos ni emite ningún veredicto.

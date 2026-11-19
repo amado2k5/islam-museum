@@ -1,0 +1,18 @@
+---
+id: work/azhar-astronomy-manuscripts-catalogue
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/work/azhar-astronomy-manuscripts-catalogue.md}
+---
+## Résumé
+Ce livre est la deuxième publication de la série « Contributions de la civilisation arabe et islamique aux sciences », réalisée par le Centre de documentation du patrimoine culturel et naturel (CULTNAT) de la Bibliothèque d’Alexandrie, en partenariat avec le bureau régional de l’UNESCO au Caire, dans le cadre du programme de numérisation des manuscrits d’astronomie de la Bibliothèque Al-Azhar. {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 5} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 6} Il a été imprimé en 2006 à 1 500 exemplaires. {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 4}
+
+## Contenu
+- La bibliothèque Al-Azhar conserve environ 434 manuscrits et traités d'astronomie et de chronométrage, écrits par 136 auteurs, commentateurs et compilateurs, tous en arabe sauf deux en turc et un en persan. {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 7}
+- L'ouvrage s'ouvre sur une introduction scientifique, « L'astronomie et ses applications dans la civilisation arabo-islamique », par Ahmad Fuad Basha, professeur de physique à l'université du Caire, puis présente 31 manuscrits sélectionnés, illustrés et classés par sujet : instruments astronomiques ; calendrier et horaires ; lune, soleil, zodiaque et planètes ; opérations trigonométriques ; tables astronomiques ; et sphéricité de la Terre. {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 7} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 8} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 14} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 28} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 38} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 62} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 68} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 76}
+- Un glossaire des termes astronomiques avec leurs équivalents étrangers suit, avec des annexes sur les chiffres *abjad*, l'astrolabe, le zodiaque et les demeures lunaires, ainsi que la liste bibliographique complète des manuscrits d'astronomie et de chronométrage d'al-Azhar. {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 7} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 78} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 88} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 92} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 98} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 104}
+
+## Extrait de l'introduction
+Ahmad Fuad Basha écrit que les Arabes désignaient l'astronomie par plusieurs noms, parmi lesquels *ilm al-hay'a*, *ilm al-anwa'* et *ilm ahkam al-nujum* ; qu'ils ont d'abord assimilé le savoir des Grecs, des Égyptiens, des Perses et des Indiens ; que le premier ouvrage d'astronomie traduit fut la *Clé des étoiles*, attribuée à Hermès à l'époque omeyyade, suivie de l'*Almageste* et du *Sindhind* sous al-Mansur ; et qu'une phase d'innovation s'étendit du IIIe au milieu du IXe siècle de l'Hégire. {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 8} Il note qu'Ibn Yunus a compilé le *Grand Hakimi Zij*, que Laplace a utilisé pour l'obliquité de l'écliptique, et qu'al-Biruni a exposé dans *al-Qanun al-Mas'udi* sept méthodes pour déterminer les points cardinaux. {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 10}

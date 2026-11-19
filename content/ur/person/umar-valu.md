@@ -17,5 +17,5 @@ translators: []
 
 - ان کا یوٹیوب چینل (@HalalBeatsWorld){cite:source/youtube-halal-beats}
 - ان کی سرکاری ویب سائٹ (halalbeats.com){cite:source/halal-beats-website}
-- «شازم» (ایپل) میں «حلال بیٹس» کی فنکار صفحہ{cite:source/shazam-halal-beats}
+- «شازم» ⁦(ایپل)⁩ میں «حلال بیٹس» کی فنکار صفحہ{cite:source/shazam-halal-beats}
 - ٹریڈ مارک رجسٹر کے اندراجات: «حلال بیٹس» اور «حلال ساؤنڈ ٹریکس»{cite:source/trademark-halal-beats}

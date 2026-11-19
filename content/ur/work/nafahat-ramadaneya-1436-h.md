@@ -7,11 +7,11 @@ translators: []
 
 ## خلاصہ
 
-اسابیل آرکائیو اس سلسلے کو عمر عبد الکافی کے صوتی دروس میں «نفحاتِ رمضانیہ ۱۴۳۶ھ» کے نام سے شمار کرتا ہے، اور اس کی چھ اقساط ہیں۔ {cite:assabile-omar-abdelkafy series-list} اقساط میں شیخ اسے «زبان کی آفات پر ہماری اقساط کا سلسلہ» کہتے ہیں، ہر قسط ایک آفت پر اور تقریباً تیرہ منٹ کی ہے۔ {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep05 00:00:00} آخری قسط میں وہ کہتے ہیں کہ یہ تیس اقساط تھیں جن میں غیبت، چغلی، جھگڑا، بحث، ناشکری، جھوٹ، تمسخر وغیرہ آئے، اس لیے آرکائیو میں سلسلے کا صرف ایک حصہ محفوظ ہے (needs_source: تیس کا عدد ایک بار کہا گیا)۔ {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:10:30} میوزیم میں جامع ریکارڈ: [[concept/afat-al-lisan|زبان کی آفات]]۔
+اسابیل آرکائیو اس سلسلے کو عمر عبد الکافی کے صوتی دروس میں «نفحاتِ رمضانیہ ۱۴۳۶ھ» کے نام سے شمار کرتا ہے، اور اس کی چھ اقساط ہیں۔ {cite:assabile-omar-abdelkafy series-list} اقساط میں شیخ اسے «زبان کی آفات پر ہماری اقساط کا سلسلہ» کہتے ہیں، ہر قسط ایک آفت پر اور تقریباً تیرہ منٹ کی ہے۔ {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep05 00:00:00} آخری قسط میں وہ کہتے ہیں کہ یہ تیس اقساط تھیں جن میں غیبت، چغلی، جھگڑا، بحث، ناشکری، جھوٹ، تمسخر وغیرہ آئے، اس لیے آرکائیو میں سلسلے کا صرف ایک حصہ محفوظ ہے ⁦(needs_source: تیس کا عدد ایک بار کہا گیا)⁩۔ {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:10:30} میوزیم میں جامع ریکارڈ: [[concept/afat-al-lisan|زبان کی آفات]]۔
 
 ## پہلی قسط: احسان جتانا
 
-شیخ سلسلے کا آغاز [[concept/mann|احسان جتانے]] کی آفت سے کرتے ہیں، بہترین نیکی کے بارے میں ابو بکر، عمر اور عباس کی روایت سناتے ہیں (جلدی، پردہ پوشی اور اسے چھوٹا سمجھنا)، اور کہتے ہیں کہ بدترین احسان جتانا بیٹے کا والدین پر ہے۔ {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:01:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:11:00}
+شیخ سلسلے کا آغاز [[concept/mann|احسان جتانے]] کی آفت سے کرتے ہیں، بہترین نیکی کے بارے میں ابو بکر، عمر اور عباس کی روایت سناتے ہیں ⁦(جلدی، پردہ پوشی اور اسے چھوٹا سمجھنا)⁩، اور کہتے ہیں کہ بدترین احسان جتانا بیٹے کا والدین پر ہے۔ {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:01:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:11:00}
 
 ## دوسری قسط: غیر اللہ کو پکارنا
 
@@ -39,7 +39,7 @@ translators: []
 
 ### قسط 1
 - [[concept/afat-al-lisan|زبان کی آفات]] {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:00:00}
-- [[concept/mann|منّ (وزن اور احسان جتلانا)]] {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:00:00}
+- [[concept/mann|منّ ⁦(وزن اور احسان جتلانا)⁩]] {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:00:00}
 
 ### قسط 2
 - [[concept/shirk|الشرك]] {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep02 00:00:00}
@@ -51,7 +51,7 @@ translators: []
 
 ### قسط 4
 - [[concept/sabb-al-sahaba|صحابہ کو برا کہنا]] {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:00:00}
-- [[concept/hubb-al-sahaba|محبة الصحابة وحكم الكلام فيهم (في العقيدة الطحاوية)]] {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:03:00}
+- [[concept/hubb-al-sahaba|محبة الصحابة وحكم الكلام فيهم ⁦(في العقيدة الطحاوية)⁩]] {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:03:00}
 
 ### قسط 5
 - [[concept/satr|ستر المسلم]] {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep05 00:00:30}

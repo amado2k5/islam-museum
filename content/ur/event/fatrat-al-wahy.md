@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-[[place/ghar-hira|غارِ حرا]] میں پہلی بار نزولِ وحی کے بعد وحی کا وقفہ ہوا۔ الرحیق المختوم ابنِ سعد کی ابنِ عباس سے روایت کے مطابق اسے چند دنوں کا قرار دیتی ہے، اور وہ اس بات کو درست نہیں سمجھتی جو مشہور ہے کہ یہ تین سال یا ڈھائی سال تھا۔ {cite:mubarakpuri-raheeq p.69} {cite:fath-al-bari 1/27} {cite:fath-al-bari 12/360}۔ پھر جبریل دوسری بار سورۂ المدثر کی ابتدائی آیات لے کر آئے ([[event/second-revelation-al-muddaththir|المدثر کا نزول]]) {cite:mubarakpuri-raheeq p.69} {cite:mubarakpuri-raheeq p.70} {cite:sahih-al-bukhari 2/733}۔
+[[place/ghar-hira|غارِ حرا]] میں پہلی بار نزولِ وحی کے بعد وحی کا وقفہ ہوا۔ الرحیق المختوم ابنِ سعد کی ابنِ عباس سے روایت کے مطابق اسے چند دنوں کا قرار دیتی ہے، اور وہ اس بات کو درست نہیں سمجھتی جو مشہور ہے کہ یہ تین سال یا ڈھائی سال تھا۔ {cite:mubarakpuri-raheeq p.69} {cite:fath-al-bari 1/27} {cite:fath-al-bari 12/360}۔ پھر جبریل دوسری بار سورۂ المدثر کی ابتدائی آیات لے کر آئے ⁦([[event/second-revelation-al-muddaththir|المدثر کا نزول]])⁩ {cite:mubarakpuri-raheeq p.69} {cite:mubarakpuri-raheeq p.70} {cite:sahih-al-bukhari 2/733}۔
 
 ## مدت
 ابنِ سعد نے ابنِ عباس سے روایت کیا ہے جس سے معلوم ہوتا ہے کہ وقفہ چند دن کا تھا۔ مصنف کے نزدیک یہی راجح ہے، بلکہ تمام پہلوؤں پر غور کے بعد متعین ہے۔ جہاں تک مشہور بات کا تعلق ہے کہ یہ تین یا ڈھائی سال تک رہا، وہ ان کے نزدیک کسی طرح درست نہیں۔ {cite:mubarakpuri-raheeq p.69} {cite:fath-al-bari 1/27} {cite:fath-al-bari 12/360}۔

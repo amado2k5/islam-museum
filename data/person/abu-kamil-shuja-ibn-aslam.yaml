@@ -14,7 +14,7 @@ summary:
   ar: "عالم رياضيات من القرن العاشر الميلادي، يذكره محققا طبعة القاهرة لكتاب الجبر للخوارزمي بين أول من اعترفوا للخوارزمي صراحة بأنه مرجعهم، وينقلان عن ابن خلدون أنه جاء في الجبر بعد الخوارزمي {cite:khwarizmi-jabr-cairo-1939 p.24} {cite:khwarizmi-jabr-cairo-1939 p.25}."
   en: "A tenth-century mathematician whom the Cairo editors of al-Khwarizmi's algebra name among those who openly acknowledged al-Khwarizmi as their authority, and who according to Ibn Khaldun came after al-Khwarizmi in algebra."
   fr: "Mathématicien du dixième siècle que les éditeurs cairotes de l'algèbre d'al-Khwarizmi nomment parmi ceux qui reconnurent ouvertement al-Khwarizmi comme leur autorité, et qui, selon Ibn Khaldun, vint après al-Khwarizmi en algèbre."
-floruit: { edtf: "0925~", calendar: julian, precision: year, status: tradition, note: "«حوالي سنة 925 ميلادية» عند محققي طبعة القاهرة لكتاب الجبر (ص 24 من المسح)" }
+floruit: { edtf: "0925~", calendar: julian, precision: year, status: tradition, note: "«حوالي سنة 925 ميلادية» عند محققي طبعة القاهرة لكتاب الجبر ⁦(ص 24 من المسح)⁩" }
 wings: [people]
 themes: [mathematics]
 periods: [period/abbasid-early]
@@ -22,7 +22,7 @@ regions: [egypt-nile]
 born: { edtf: "850~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim, al-Fihrist; Sesiano, EI2 Confirmed on 13 November 2026 against Wikidata Q335103 (P569, a statement with a reference), item revision 2563035286.", sources: [source/wikidata] }
 died: { edtf: "930~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim, al-Fihrist; Sesiano, EI2 Confirmed on 13 November 2026 against Wikidata Q335103 (P570, a statement with a reference), item revision 2563035286.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/khwarizm, note: "Place association from the person's nisba/name (الخوارزمي); denotes association, not proven residence.", sources: [source/sezgin-gas-v-mathematik, source/khwarizmi-jabr-cairo-1939, source/abu-kamil-mactutor, source/tdv-abu-kamil, source/dosay-abu-kamil-1990], confidence: low }
+  - { type: lived_in, target: place/khwarizm, note: "Place association from the person's nisba/name ⁦(الخوارزمي)⁩; denotes association, not proven residence.", sources: [source/sezgin-gas-v-mathematik, source/khwarizmi-jabr-cairo-1939, source/abu-kamil-mactutor, source/tdv-abu-kamil, source/dosay-abu-kamil-1990], confidence: low }
   - { type: influenced_by, target: person/al-khwarizmi, sources: [source/khwarizmi-jabr-cairo-1939] }
 external_ids:
   wikidata: Q335103

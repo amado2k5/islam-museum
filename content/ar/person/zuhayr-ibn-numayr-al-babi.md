@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b63, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/147-150" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b63, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/147-150" }
 ---
 ## موجز
 أبو عبد الرحمن زهير بن نميم البابي، الداعية الحابي، غلب عليه الصبر واليقين، فأُيّد بالنصر والتمكين. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 513)⁩ في الصفحات 147 إلى 150، وتسلسله 514. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/147} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/148} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/149} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/150}

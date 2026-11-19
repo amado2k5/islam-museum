@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { hijri: "0018~", precision: year, status: tradition, note: "بعد فتح السواد (البلاذري ص 375–377)" }
+  start: { hijri: "0018~", precision: year, status: tradition, note: "بعد فتح السواد ⁦(البلاذري ص 375–377)⁩" }
 relations:
   - { type: had_participant, target: person/uthman-ibn-hunayf, role: "الماسح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الباعث المجيز", sources: [source/futuh-buldan-maarif-1407] }
@@ -19,7 +19,7 @@ relations:
   - { type: had_participant, target: person/al-mughira-ibn-shuba, role: "المكمل الضرائب", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 375–377"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 375–377"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-32
 sources: [source/futuh-buldan-maarif-1407]

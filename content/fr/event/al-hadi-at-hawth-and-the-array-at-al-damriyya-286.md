@@ -1,0 +1,28 @@
+---
+id: event/al-hadi-at-hawth-and-the-array-at-al-damriyya-286
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-at-hawth-and-the-array-at-al-damriyya-286.md}
+---
+## Vue d'ensemble
+« [[person/muhammad-ibn-ali-al-tabari|Muhammad ibn Ali al-Tabari]] m'a rapporté : les gens sortirent pour se concerter sur la manière de combattre le groupe et sur la façon de procéder, jusqu'à ce que leur crieur public leur vienne en aide. » {cite:sira-hadi-ila-al-haqq p.135} Ce récit est zaydite et se poursuit [[event/al-hadi-and-the-wrongdoers-of-banu-mamar-at-al-ahsa-and-the-first-days-at-hawth-286]]. La date est donnée en mois, car le livre mentionne les jours de la semaine et non le jour du mois ; il est donc possible que l'événement se soit produit au début du mois de Sha'ban.
+
+## Un homme parmi le peuple
+Al-Tabari rapporte que l'un d'eux dit : « Ô gens, allez-vous combattre vos cousins ? Non, clan, et ne soyez pas la cause de la ruine de vos compagnons ! » Ils répondirent : « Nous avons prêté serment à al-Hadi. » Il leur demanda alors : « Préférez-vous les serments d'al-Hadi à ceux de vos cousins ? » {cite:sira-hadi-ila-al-haqq p.135} Le narrateur apprit également d'un de ses compagnons, en qui il avait confiance, qu'un dicton lui était parvenu : « Que faites-vous, à abandonner vos clans pour vous rallier à un seul homme, pour Dieu seul ? » {cite:sira-hadi-ila-al-haqq p.135} Al-Tabari raconte que le premier homme, qui tentait de dissuader les combattants, « ne se leva pas de son siège avant que ses compagnons ne lui apportent une civière, où il fut transporté, souffrant atrocement, à l'article de la mort. » {cite:sira-hadi-ila-al-haqq p.135} La marge du manuscrit porte la mention « a karama ». {cite:sira-hadi-ila-al-haqq p.135} Le musée présente le rapport comme étant celui du narrateur et ne le relie à rien d'autre.
+
+## Mardi et mercredi
+Mardi, al-Hadi envoya un groupe les appeler à la vérité. Les cris des pleurnichards provenaient des Banu Rabi'a, et ils dirent aux messagers qu'ils craignaient de le rencontrer d'un côté du camp, le texte imprimé étant ambigu. Al-Hadi, mécontent, envoya de nouveau les messagers le mercredi, les appelant à Dieu, mais ils refusèrent de répondre. {cite:sira-hadi-ila-al-haqq p.135}
+
+## Jeudi : le tableau
+Al-Hadi sortit jeudi au-delà de Hawth et rassembla le peuple ; [[person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi|Ali ibn Muhammad]] rapporte ce récit de [[person/muhammad-ibn-sulayman-al-kufi|Muhammad ibn Sulayman]], d'après certains de leurs compagnons. {cite:sira-hadi-ila-al-haqq p.135} Les Khawlanis dirent : « Fils du Messager de Dieu, nous craignons la pluie pour nos arcs et nos armes », et il répondit : « Marchez, car aucune pluie ne tombera sur vous aujourd'hui. » {cite:sira-hadi-ila-al-haqq p.135} {cite:sira-hadi-ila-al-haqq p.136} Il poursuivit sa route jusqu'à sortir de Hawth et aperçut le groupe près d'un étang appelé « al-Damriyya », et ordonna au peuple de se mettre en ordre de bataille. {cite:sira-hadi-ila-al-haqq p.136}
+Il plaça [[person/husayn-ibn-al-hasan-al-alawi|al-Husayn ibn al-Hasan al-Alawi]] avec les Banu Ubayd de [[group/wadia-tribe-yemen|Wadi'a]] et les habitants d' [[place/athafit|Athafit]] à gauche ; [[person/ismail-ibn-al-muslim-al-hamdani|Ismail ibn al-Muslim]] avec les Khawlanis et al-Mahra à droite ; Muhammad ibn Abd al-Malik ibn Tarif al-Wadi'i, de la Wadi'a de Najran, avec les Banu Rabi'a et les Banu Sarim au centre ; et al-Hadi les précéda parmi [[group/tabari-emigrants-with-al-hadi|les émigrants Tabari]] et d'autres, devant le centre. {cite:sira-hadi-ila-al-haqq p.136} Le narrateur dit que Dieu les préserva de la pluie ce jour-là. {cite:sira-hadi-ila-al-haqq p.136}
+
+## Le messager et al-Ghubayyib
+Avant que les lignes ne se rejoignent, un messager du groupe est venu dire qu'ils viendraient tous le trouver et lui donneraient ce qui leur était dû ; al-Hadi lui a dit : « Va les chercher », et a ordonné aux gens de prendre la route par unités jusqu'à un endroit appelé « al-Ghubayyib », où l'éditeur fait référence à Sifat Jazirat al-Arab, p. 139. {cite:sira-hadi-ila-al-haqq p.136}
+
+## La proposition d'Ismaïl et le refus d'al-Hadi
+Ismaïl ibn al-Muslim dit à al-Hadi : « Emmène-nous jusqu'aux vignes de ces rebelles, coupe-les et détruisons leurs maisons. » Al-Hadi répondit : « Je n'irai pas chez eux tant qu'ils seront là, avant de les avoir appelés à Dieu. S'ils viennent, tant mieux ; sinon, je les combattrai. » {cite:sira-hadi-ila-al-haqq p.136} Al-Hadi poursuivit son chemin jusqu'à proximité. Voyant son intention de combattre et l'importance de son armée, « ils se précipitèrent vers un endroit escarpé au bord de la route et s'y terrèrent ». Al-Hadi ordonna alors au peuple de rester en arrière, envoya des hommes les appeler, et à l'heure de la prière, leur demanda de prier. {cite:sira-hadi-ila-al-haqq p.136} Le récit se poursuit à la page suivante.
+
+## Notes
+Ce passage s'achève sur la prière, le récit de la fin de la réunion n'est donc pas encore lu. Le texte mentionne « qiyasina », que l'éditeur explique comme le pluriel de « qaws », qui signifie « s'incliner ». {cite:sira-hadi-ila-al-haqq p.136} L'homme qui les a exhortés à ne pas combattre n'est pas nommé. Le nom « al-Husayn ibn al-Hasan al-Alawi » est imprimé tel quel et n'est pas ici associé au gouverneur de Saqayn.

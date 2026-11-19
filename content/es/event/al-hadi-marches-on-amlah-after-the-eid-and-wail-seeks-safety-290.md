@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-marches-on-amlah-after-the-eid-and-wail-seeks-safety-290
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/al-hadi-marches-on-amlah-after-the-eid-and-wail-seeks-safety-290.md}
+---
+## Visión general
+Al-Hadi permaneció en Sa'da hasta el "Eid de Arafa" (así impreso), y [[group/wailat-shakir|Wa'ila]] había, como dice el narrador, causado problemas en el camino con las propiedades y vidas de la gente y mostrado maldad y corrupción; reunió muchos ejércitos de [[group/khawlan-tribe|Khawlan]] y partió cuatro días después del Eid al-Adha y pasó la noche en al-Hajar, luego se dirigió hacia [[place/amlah-yemen|Amlah]], y donde el camino llegó a un lugar estrecho de la tierra fue recibido por los ejércitos de Wa'ila, que se habían concentrado para él en esos desfiladeros y montañas {cite:sira-hadi-ila-al-haqq p.250} {cite:sira-hadi-ila-al-haqq p.251}.
+
+## Detalle
+Envió al jefe del ejército con todo el equipaje hasta que llegaron a un lugar amplio, y la retaguardia se quedó atrás y luchó contra los hombres durante una hora hasta que los Khawlanis bajaron de las montañas y los expulsaron, matando a varios de ellos; un Khawlani murió. Todo el ejército siguió adelante hasta que se detuvo en la aldea de Amlah y saqueó lo que encontró allí y pasó días destruyendo casas y pozos y cortando palmeras y vides, mientras la gente pedía protección y al-Hadi lo detestaba por lo que sabía de su maldad y poca fidelidad, según el narrador; se movió de aldea en aldea destruyéndolas una por una hasta que se arrojaron a él, y les dio protección y regresó a Sa'da después de un tiempo difícil con ellos {cite:sira-hadi-ila-al-haqq p.251}. Un encabezado marginal en el original dice "beneficios jurídicos en la destrucción de Amlah, su saqueo, la tala de sus árboles y la no concesión de protección a su gente"; El museo registra su existencia, no añade nada y no emite ningún dictamen. Antes de esto se encuentra [[event/al-hadi-at-warwar-treats-with-ibn-khalaf-and-returns-to-saada-on-news-of-jaftam-290|Warwar y el regreso a Sa'da]]; para una marcha anterior en Wa'ila, véase [[event/al-hadi-marches-on-wail-of-shakir-and-takes-sureties-290|la marcha de Shakir en Wa'ila]]. El mes, Dhu al-Hijja, se estima a partir del orden de la narración.

@@ -15,10 +15,10 @@ regions: [arabia]
 born: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 relations:
-  - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الطائفي); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }
+  - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name ⁦(الطائفي)⁩; denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }
   - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]}
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
-status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; appendix entry of volume 11 on scan pp.5146-5147. Dates are not given in the source and are not supplied. Not found among existing person entries by name (checked for الحكم بن حزن and الكلفي)." }
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; appendix entry of volume 11 on scan pp.5146-5147. Dates are not given in the source and are not supplied. Not found among existing person entries by name ⁦(checked for الحكم بن حزن and الكلفي)⁩." }
 provenance:
   layer: own-research
   source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 5146-5147"

@@ -1,0 +1,16 @@
+---
+id: concept/al-subat-wa-al-nawm
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/al-subat-wa-al-nawm.md}
+---
+
+## Definición
+Se dice que el coma (subat) se refiere al sueño excesivamente pesado, no a todo sueño excesivamente pesado, sino a aquel cuya pesadez es tanto en duración como en tipo, de modo que su duración es más larga y su forma más fuerte y al despertar de él con dificultad {cite:canon-ibn-sina-print-v2 p.89} Del sueño, parte es natural en su medida y especie, parte es pesado y parte es en coma hundido {cite:canon-ibn-sina-print-v2 p.89} El sueño, en resumen, es el retorno del pneuma psíquico desde los instrumentos de sentido y movimiento a un origen en el que los instrumentos están inactivos y no regresan en acción dentro de ellos, salvo lo necesario para la permanencia de la vida, como en los instrumentos de respiración {cite:canon-ibn-sina-print-v2 p.89}
+
+## Sueño natural
+El sueño natural es absolutamente aquel cuyo regreso llega con el hundimiento del pneuma vital hacia el interior para madurar el alimento, el pneuma psíquico que lo sigue, y aquello también que es para descanso, de modo que el pneuma pueda reunirse consigo mismo mientras se alimenta y crece, su sustancia aumenta y obtiene el reemplazo de lo que se disuelve en el estado de vigilia {cite:canon-ibn-sina-print-v2 p.89} {cite:canon-ibn-sina-print-v2 p.90} Cerca de esto es lo que le ocurre a quien se acerca al punto de mejora de su enfermedad, porque el sueño profundo le llega y muestra la calma de su enfermedad, aunque en el sano no muestra nada bueno {cite:canon-ibn-sina-print-v2 p.90}. También llega a quien ha evacuado mucho por la medicina, y que el sueño le es útil y restaura su poder {cite:canon-ibn-sina-print-v2 p.90}
+
+## Un sueño que no es natural
+Un sueño que no es natural puede producirse de forma absoluta cuando el retorno al origen es por una disolución excesiva del pneuma, cuya sustancia no puede soportar expandirse por falta de exceso sobre lo que basta con las raíces, como ocurre con la fatiga y el ejercicio intenso {cite:canon-ibn-sina-print-v2 p.90}. Un sueño que no es natural también puede producirse cuando el retorno del pneuma psíquico de los instrumentos se debe a un agente refrescante opuesto a la sustancia del pneuma, ya sea del exterior o de medicamentos refrescantes, de modo que los instrumentos contraen un resfriado que se contrapone a la transmisión del pneuma, y este es el entumecimiento (khadar) {cite:canon-ibn-sina-print-v2 p.90}. Puede deberse también a un agente humedecente de los instrumentos que enturbia la sustancia del pneuma, bloquea sus caminos y afloja la sustancia del nervio y el músculo con una flojidad seguida de bloqueo y cierre, y este es el sueño de la embriaguez {cite:canon-ibn-sina-print-v2 p.90}. Cerca de esto es lo que se produce de la indigestión y la prolongada permanencia de alimentos en el estómago, y el coma de estos se elimina mediante el vómito {cite:canon-ibn-sina-print-v2 p.90}.

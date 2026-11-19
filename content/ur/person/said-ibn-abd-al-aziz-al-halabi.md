@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b82, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/366" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b82, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/366" }
 ---
 ## خلاصہ
 سعید بن عبد العزیز حلبی دمشق میں مقیم ہوئے، سری سقطی کے محب تھے، اور علمائے عباد میں سے ایک اوتاد تھے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 645)⁩ صفحہ 366 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 645 ہے، تسلسل میں 646۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/366}

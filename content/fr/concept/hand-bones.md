@@ -1,0 +1,18 @@
+---
+id: concept/hand-bones
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/hand-bones.md}
+---
+## Résumé
+Ibn Sina décrit le poignet comme étant composé de nombreux os, sept principaux et un supplémentaire ; le métacarpe comme étant composé de quatre os ; et les doigts comme étant composés de trois os chacun, à l'exception du pouce {cite:canon-ibn-sina-print-v1 pp.55-57} {cite:canon-ibn-sina-print-v1 p.60}.
+
+## Le poignet
+Le poignet est composé de nombreux os afin d'être protégé de toute lésion : sept os principaux et un os supplémentaire. Les sept os principaux sont disposés sur deux rangées. La rangée adjacente à l'avant-bras compte trois os, car elle est adjacente à celui-ci et doit être plus fine ; la seconde en compte quatre, car elle est adjacente au métacarpe et aux doigts et doit être plus large. Le huitième os n'appartient à aucune des deux rangées, mais il protège un nerf près de la paume. L'extrémité de la rangée de trois os s'insère dans le creux formé par les extrémités des deux os de l'avant-bras et forme l'articulation permettant l'extension et la flexion, tandis que l'apophyse du troisième os s'insère dans un creux des os du carpe et forme l'articulation permettant la rotation et la torsion {cite:canon-ibn-sina-print-v1 pp.55-56}. Le tarse de la cheville diffère du poignet par le fait qu'il ne comporte qu'une seule rangée d'os et beaucoup moins d'os, car la main nécessite davantage de mouvement et de préhension {cite:canon-ibn-sina-print-v1 p.60}.
+
+## Le métacarpe
+Le métacarpe est composé de plusieurs os afin d'assurer sa solidité et de permettre à la paume de se creuser pour saisir des objets arrondis. Il comprend quatre os, correspondant aux quatre doigts qui s'y joignent, rapprochés au niveau du poignet et légèrement écartés vers les doigts. Leurs articulations sont fermes et solidaires, évitant ainsi leur dislocation et leur affaiblissement, tout en permettant à la paume de se creuser. Le poignet est relié au métacarpe par des cavités situées aux extrémités carpiennes, dans lesquelles s'insèrent les têtes des os métacarpiens, recouvertes de cartilage {cite:canon-ibn-sina-print-v1 p.56}.
+
+## Les doigts
+Les doigts sont des outils qui permettent de saisir. Ils ne sont pas faits de chair sans os, car leurs mouvements seraient alors faibles, ni d'un seul os, car leurs mouvements seraient alors trop rigides ; trois os suffisent, car un nombre plus important affaiblirait la prise là où la fermeté est nécessaire, et un nombre insuffisant donnerait de la fermeté mais trop peu de mouvement. Leur base est plus large et leur tête plus fine, ronde, dure et sans cavité ni moelle, ce qui leur permet de tenir fermement ; ils sont creux à l'intérieur et incurvés à l'extérieur, avec de la chair sur la face interne. Le majeur possède les articulations les plus longues, viennent ensuite l'annulaire, l'index et l'auriculaire, de sorte que leurs extrémités soient au même niveau lors de la préhension. Le pouce équilibre les quatre doigts, et s'il était placé ailleurs, son utilité serait perdue {cite:canon-ibn-sina-print-v1 pp.56-57}. Les os des doigts sont reliés par des crêtes et des creux avec une substance humide et collante entre eux, et de petits os sésamoïdes comblent les espaces de leurs articulations {cite:canon-ibn-sina-print-v1 p.57}. Chaque doigt, sauf le pouce, possède trois phalanges, le pouce en ayant deux {cite:canon-ibn-sina-print-v1 p.60}.

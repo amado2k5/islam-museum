@@ -12,7 +12,7 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 provenance:
   layer: own-research
-  source: "وفيات الأعيان لابن خلكان — الجزء الخامس (ترجمة أبي الغيث منقذ)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  source: "وفيات الأعيان لابن خلكان — الجزء الخامس ⁦(ترجمة أبي الغيث منقذ)⁩، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-25
 sources: [source/wafayat-ayan]
@@ -24,4 +24,4 @@ occupations:
     note: "merge-map link from role 'emir', Job Browser linking wave 33"
     sources: [source/wafayat-ayan]
 relations:
-  - { type: lived_in, target: place/aleppo, note: "Place association from the person's nisba/name (الحلبي); denotes association, not proven residence.", sources: [source/wafayat-ayan], confidence: low }
+  - { type: lived_in, target: place/aleppo, note: "Place association from the person's nisba/name ⁦(الحلبي)⁩; denotes association, not proven residence.", sources: [source/wafayat-ayan], confidence: low }
