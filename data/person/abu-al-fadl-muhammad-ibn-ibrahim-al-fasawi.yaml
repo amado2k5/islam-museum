@@ -2,7 +2,7 @@ id: person/abu-al-fadl-muhammad-ibn-ibrahim-al-fasawi
 class: person
 label: { ar: "أبو الفضل محمد بن إبراهيم الفسوي", en: "Abu al-Fadl Muhammad ibn Ibrahim al-Fasawi" }
 names:
-  - { kind: full, lang: ar, value: "أبو الفضل محمد بن إبراهيم الفسوي (ط: النسوي)" }
+  - { kind: full, lang: ar, value: "أبو الفضل محمد بن إبراهيم الفسوي ⁦(ط: النسوي)⁩" }
 gender: male
 roles: [jurist, scholar]
 traditions: [sunni]
@@ -15,11 +15,11 @@ periods: [period/buyid-seljuk-fatimid-era]
 died: { edtf: "1000~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sam'ani (al-Ansab)" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "From text: lived in Baghdad", sources: [source/tabaqat-fuqaha-abbas-1981] }
-  - { type: student_of, target: person/abu-al-husayn-ibn-al-qattan, role: "من أصحاب أبي الحسين ابن القطان (PDF ص62)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: student_of, target: person/abu-al-husayn-ibn-al-qattan, role: "من أصحاب أبي الحسين ابن القطان ⁦(PDF ص62)⁩", sources: [source/tabaqat-fuqaha-abbas-1981] }
 sources: [source/tabaqat-fuqaha-abbas-1981]
 provenance:
   layer: "own-research"
-  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص62–64"
+  source: "طبقات الفقهاء ⁦(تحقيق إحسان عباس)⁩ PDF ص62–64"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch86

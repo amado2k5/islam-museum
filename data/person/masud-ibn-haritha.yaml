@@ -11,13 +11,13 @@ died:
   hijri: "0014~"
   precision: year
   status: tradition
-  note: "يوم مهران سنة 14 (البلاذري ص 355)"
+  note: "يوم مهران سنة 14 ⁦(البلاذري ص 355)⁩"
 relations:
   - { type: died_in, target: place/mihran, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikidata] }
   - { type: sibling_of, target: person/al-muthanna-ibn-haritha, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 355"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 355"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-30
 sources: [source/futuh-buldan-maarif-1407]

@@ -1,0 +1,18 @@
+---
+id: event/abu-al-atahiya-promises-horse-and-sends-his-brother-jarrah-285
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/abu-al-atahiya-promises-horse-and-sends-his-brother-jarrah-285.md}
+---
+## Vue d'ensemble
+Sous le titre « L'histoire d'Abu al-Atahiya », l'ouvrage indique qu'il s'agissait d'un homme issu de la lignée des rois et sultans du Yémen, nommé Abd Allah ibn Bishr, et portant le titre d' [[person/abu-al-atahiya-ibn-bishr|Abu al-Atahiya]], gouverneur de [[place/sanaa|Sanaa]] et de ses environs. {cite:sira-hadi-ila-al-haqq p.110} Son vizir était un certain [[person/muhammad-ibn-abbad-al-tamimi|Muhammad ibn Abi Abbad]] de Tamim ; tous deux éprouvaient une profonde affection pour la vérité et avaient écrit à [[person/al-hadi-yahya-al-rassi|al-Hadi]] pour le remercier de sa justice et affirmer son imamat et ses mérites. {cite:sira-hadi-ila-al-haqq p.110} Ce récit est zaydite, rapporté par les disciples de l'imam ; le musée attribue les propos aux narrateurs sans se prononcer.
+
+## La promesse du cheval
+Abou al-Atahiya promit à al-Hadi de lui fournir des chevaux et des hommes pour l'accompagner et le soutenir face à son ennemi. Al-Hadi attendit cette promesse. {cite:sira-hadi-ila-al-haqq p.110} Al-Hadi décida alors de quitter al-Darb, territoire des Banu Rabi'a, pour se rendre dans un lieu appartenant aux Banu Sarim, également appelé al-Darb, vers la fin du mois de Dhu al-Hijja. {cite:sira-hadi-ila-al-haqq p.110} Le retour du butin, relaté précédemment, se trouve dans [[event/al-hadi-has-the-loot-returned-and-the-gathering-on-the-day-of-arafa-285]].
+
+## Muhammad ibn Sulayman et Ismail ibn al-Muslim sont envoyés
+[[person/muhammad-ibn-sulayman-al-kufi|Muhammad ibn Sulayman]] rapporte qu'al-Hadi lui ordonna de se rendre à Sanaa pour solliciter un cheval auprès d'Abu al-Atahiya. Il partit alors qu'il restait quelques jours de Dhu al-Hijja. Al-Hadi se déplaça et s'installa à un endroit appelé « al-Bawn », entre autres. Les habitants se dispersèrent car les soldats craignaient al-Hadi, ayant entendu dire qu'il appliquait les peines du hadd, qu'il faisait régner la justice et qu'il chassait le mensonge et la dépravation, ce qui les pesait lourdement. Ils ne souhaitaient donc pas le rejoindre. {cite:sira-hadi-ila-al-haqq p.110} La note de l'éditeur précise qu'il s'agit des soldats d'Abu al-Atahiya. {cite:sira-hadi-ila-al-haqq p.110} [[person/ismail-ibn-al-muslim-al-hamdani|Ismail ibn al-Muslim]] s'était rendu auprès d'Abu al-Atahiya pour demander des troupes. Il revint avec une partie de celles-ci et s'installa à [[place/raydah-yemen|Raydah]], attendant le reste de l'armée. {cite:sira-hadi-ila-al-haqq p.110}
+
+## L'arrivée de Jarrah ibn Bishr
+Le narrateur quitta Sanaa un ou deux jours avant la fin du mois de Dhu al-Hijja et atteignit al-Hadi au campement des Banu Sarim un ou deux jours après le début du mois de Muharram 286 AH. {cite:sira-hadi-ila-al-haqq p.110} {cite:sira-hadi-ila-al-haqq p.111} Abu al-Atahiya ordonna aux soldats de marcher vers al-Hadi ; certains partirent, d’autres rebroussèrent chemin. Voyant leur réticence à aller le trouver, il envoya son frère [[person/jarrah-ibn-bishr|Jarrah]] avec cinquante cavaliers, qui arrivèrent au campement des Banu Sarim dans les derniers jours de Muharram. {cite:sira-hadi-ila-al-haqq p.111} Voir [[event/al-daam-weighs-peace-with-al-hadi-and-sets-conditions-286]].

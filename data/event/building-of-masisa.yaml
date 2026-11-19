@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/umayyad]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0703", hijri: "0084", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 84 باتفاق الروايتين؛ التمام سنة 85 (البلاذري ص 225–226). التحويل مشتق." }
+  start: { edtf: "0703", hijri: "0084", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 84 باتفاق الروايتين؛ التمام سنة 85 ⁦(البلاذري ص 225–226)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/masisa }
   - { type: had_participant, target: person/abdullah-ibn-abd-al-malik, role: "الباني على الأساس القديم", sources: [source/futuh-buldan-maarif-1407] }
@@ -19,7 +19,7 @@ relations:
   - { type: during_reign, target: person/abd-al-malik-ibn-marwan, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 225–227"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 225–227"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-12
 sources: [source/futuh-buldan-maarif-1407]

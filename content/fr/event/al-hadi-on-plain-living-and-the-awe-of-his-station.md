@@ -1,0 +1,15 @@
+---
+id: event/al-hadi-on-plain-living-and-the-awe-of-his-station
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-on-plain-living-and-the-awe-of-his-station.md}
+---
+## Vue d'ensemble
+Dans le chapitre consacré à l'humilité, [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Muhammad ibn Ubaydallah]] raconte avoir entendu [[person/al-hadi-yahya-al-rassi|al-Hadi]] prêcher à un groupe, puis dire : « Par crainte de perturber cette communauté, je leur consacrerais toute ma journée, hormis les ablutions et les besoins naturels. Nul autre que moi ne dirigerait leurs prières, et je porterais les vêtements les plus humbles. » {cite:sira-hadi-ila-al-haqq p.54} Il dit avoir revêtu de beaux vêtements et avoir commencé par lui-même ; il souhaitait parfois s'asseoir parmi eux, mais, conscient des conséquences, il comprit que s'il le faisait, on se retournerait contre lui, on prendrait sa place à la légère et on perdrait le respect qu'on lui portait. « Et si le respect venait à disparaître, l'islam serait corrompu. » {cite:sira-hadi-ila-al-haqq p.54} Une note en marge du manuscrit original explique que cela inspirait le respect aux ennemis de Dieu par la tenue vestimentaire et d'autres moyens ; il s'agit d'un commentaire du copiste, et non des paroles de l'imam. {cite:sira-hadi-ila-al-haqq p.54}
+
+## La nuit de la vieille femme et ses paroles sur le dénouement
+Après le récit de la vieille femme, al-Hadi dit : « Ô Dieu, Tu sais que, sans la crainte de la corruption de l’islam, nul autre que moi ne les dirigerait dans la prière et je passerais mes journées avec eux, parcourant leurs marchés et les aidant à redresser leurs affaires. Mais je crains qu’à force d’être trop présent parmi eux, je perde de mon importance à leurs yeux, et que, s’ils prenaient la vérité à la légère, je sois contraint de recommencer ce que j’avais entrepris de corriger, car la plupart des gens de notre époque ne raisonnent pas. » {cite:sira-hadi-ila-al-haqq p.55} Tel est le jugement de l’imam sur ses contemporains, tel que rapporté par le narrateur, et le musée ne le cautionne pas.
+
+## Nourriture et vêtements
+On lui achetait chaque jour de la viande d'une valeur de deux dirhams, des petites pièces, un tiers de dirham. Le narrateur le vit couper un manteau doublé de brocart et dire : « Si j'étais parmi les croyants, je ne porterais pas cela, je n'ai besoin que d'un tissu grossier. Mais si je le faisais, on prendrait ma place à la légère. J'ai mis leurs affaires à l'épreuve et j'ai constaté qu'ils n'obéissent qu'à celui qui porte un tel vêtement. C'est comme si des épines me piquaient la peau à force de le porter. » {cite:sira-hadi-ila-al-haqq p.56} La marge du manuscrit indique qu'il s'agit de « la crainte qu'il inspire par sa tenue ».

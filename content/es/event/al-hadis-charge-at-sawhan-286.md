@@ -1,0 +1,21 @@
+---
+id: event/al-hadis-charge-at-sawhan-286
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/al-hadis-charge-at-sawhan-286.md}
+---
+## Visión general
+Entonces [[person/al-hadi-yahya-al-rassi|al-Hadi]] avanzó hasta llegar a [[place/sawhan-najran|Sawhan]], donde se encontraban los mejores hombres del pueblo, y la gente luchó hasta que un hombre de sus compañeros llamado [[person/ibn-al-miqdam-killed-at-sawhan-286|Ibn al-Miqdam]] fue asesinado y llevado a un lugar que el texto llama "Rahat" para ser enterrado; la lucha se intensificó y [[group/tabari-emigrants-with-al-hadi|los Tabaris]] entraron en el paso. {cite:sira-hadi-ila-al-haqq p.161} Al-Hadi se situó detrás de los Tabaris instando al pueblo a avanzar. {cite:sira-hadi-ila-al-haqq p.161}
+
+## La avalancha de Banu al-Harith
+Los campamentos de [[group/banu-al-harith-ibn-kab|Banu al-Harith]] salieron de la aldea y Minas, se adentraron entre palmeras y árboles hasta un lugar llamado "Mihdar", cruzaron el uadi y se mantuvieron bajo las palmeras junto a él hasta cerca de Sawhan, sin que los creyentes se percataran de su presencia, y luego los atacaron de repente mientras la gente del fuerte salía con ellos; los compañeros de al-Hadi retrocedieron bruscamente y les dieron la espalda. {cite:sira-hadi-ila-al-haqq p.161}
+
+## La postura de Al-Hadi
+Al-Hadi continuó, girando su caballo frente al enemigo, ahora hacia su ala derecha, ahora hacia su centro, ahora hacia su izquierda, sin nadie a su lado. {cite:sira-hadi-ila-al-haqq p.161} Un kufano llamado [[person/abu-isa-al-kufi-companion-of-al-hadi|Abu Isa al-Kufi]] se había vuelto pesado y lento, y al-Hadi le gritó que el enemigo estaba detrás de él; él gritó que estaba agotado, entonces al-Hadi cargó contra el harithi y lo lanceó y mató; cargó en medio de ellos, lanceó a otro hombre y lo mató, y su lanza se rompió. {cite:sira-hadi-ila-al-haqq p.161} {cite:sira-hadi-ila-al-haqq p.162} Entonces vio a [[person/ibn-humayd-of-banu-al-harith-286|Ibn Humayd]], quien había jurado a Banu al-Harith que iría por al-Hadi si lo veía; al-Hadi lo llamó recordándole sus juramentos, Ibn Humayd y sus hombres se dieron la vuelta y huyeron, y al-Hadi los persiguió casi hasta la puerta de la fortaleza. {cite:sira-hadi-ila-al-haqq p.162} Ibn Humayd entró en un recinto junto a la puerta y gritó a sus hombres que derribaran el muro, lo cual hicieron, y su caballo lo atravesó de un salto y se marchó derrotado; al-Hadi golpeó a un hombre que había estado disparando para Ibn Humayd cerca de la puerta de paso. {cite:sira-hadi-ila-al-haqq p.162}
+
+## La gente regresa
+[[person/muhammad-ibn-said-ibn-yusuf|Muhammad ibn Sa'id]], en la retaguardia, gritó que al-Hadi estaba luchando solo contra el enemigo y que los había detenido, y que la gente debía retroceder por el amor de Dios; parte del ejército regresó y siguió a al-Hadi y se mantuvo a su lado, matando a tres Harithis en su carga, y Banu al-Harith huyó a la fortaleza mientras el ejército de al-Hadi se retiraba a un lado. {cite:sira-hadi-ila-al-haqq p.162}
+
+## Al-Hadi e Ibn Ghitrif
+[[person/muhammad-ibn-abd-al-malik-ibn-ghitrif-al-wadii|Muhammad ibn Abd al-Malik ibn Ghitrif al-Wadi'i]] preguntó a al-Hadi cuántos había matado, y él dijo que dos con la lanza antes de que se rompiera y un buen golpe cuando Ibn Humayd escapó. {cite:sira-hadi-ila-al-haqq p.162} {cite:sira-hadi-ila-al-haqq p.163} Ordenó al ejército que regresara al campamento, y esa noche llegó la noticia de que el hombre herido había muerto, y que Ibn Humayd había dicho a sus hombres que guardaran silencio para que nadie viera el golpe y nadie luchara contra al-Hadi, así que fue enterrado en esa hora en la llanura pedregosa, y al-Hadi regresó a la fortaleza y se quedó. {cite:sira-hadi-ila-al-haqq p.163} El relato es zaydí y el detalle del golpe y el entierro es el informe del narrador, que el museo no confirma ni niega. Sigue a [[event/first-fighting-at-the-fortress-of-najran-and-the-three-camps-286]] y es seguido por [[event/night-of-adha-at-saada-ibn-abbads-plan-and-the-prisoners-freed-286]].

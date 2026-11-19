@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Code (OCR-harvest worker B), claude-opus-5-5"]
 ---
 ## خلاصہ
-«تفسیر الجلالین» («دو جلالوں کی تفسیر») پورے قرآن کی ایک مختصر تفسیر ہے جو اپنے دونوں مصنفین کے نام سے موسوم ہے، جن دونوں کا لقب جلال الدین ہے: [[person/jalal-al-din-al-mahalli|جلال الدین محلی]] اور [[person/al-suyuti|جلال الدین سیوطی]]۔ {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.3} مکتبۃ الایمان ایڈیشن کے مراجع اسے تفسیر بالرائے کی مشہور ترین کتابوں میں شمار کرتے ہیں۔ {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.3}
+«تفسیر الجلالین» ⁦(«دو جلالوں کی تفسیر»)⁩ پورے قرآن کی ایک مختصر تفسیر ہے جو اپنے دونوں مصنفین کے نام سے موسوم ہے، جن دونوں کا لقب جلال الدین ہے: [[person/jalal-al-din-al-mahalli|جلال الدین محلی]] اور [[person/al-suyuti|جلال الدین سیوطی]]۔ {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.3} مکتبۃ الایمان ایڈیشن کے مراجع اسے تفسیر بالرائے کی مشہور ترین کتابوں میں شمار کرتے ہیں۔ {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.3}
 
 ## مصنفین کے درمیان کام کی تقسیم
 محلی نے قرآن کے دوسرے نصف کی تفسیر سورۂ فاتحہ کے ساتھ کی، اور سیوطی نے فاتحہ کے سوا پہلے نصف کی۔ {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.3} سیوطی اپنے تکملے کے مقدمے میں اسے محلی کی تفسیر کا تکملہ «اور جو ان سے رہ گیا اس کی تکمیل، یعنی سورۂ بقرہ کے آغاز سے سورۂ اسرا کے آخر تک» کہتے ہیں۔ {cite:tafsir-jalalayn-lithograph-1278 p.4} سورۂ اسرا کے آخر میں وہ لکھتے ہیں کہ یہ اس تکملے کا آخر ہے جو انہوں نے «شیخ، امام، عالم، علامہ، محقق جلال الدین محلی شافعی» کی تفسیر پر کیا۔ {cite:tafsir-jalalayn-lithograph-1278 p.369} {cite:tafsir-jalalayn-dar-al-marifa-uthmani p.400} مراجع کے مطابق سیوطی نے اختصار، دقت اور عدمِ استطراد میں محلی کا منہج اس طرح اپنایا کہ پوری کتاب ایک ہی مصنف کی لگتی ہے۔ {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.3}

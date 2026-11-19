@@ -5,15 +5,15 @@ source_lang: ar
 translators: []
 ---
 
-# نشانِ جمہوریہ (مصر)
+# نشانِ جمہوریہ ⁦(مصر)⁩
 
 ## خلاصہ
 
-جمہوریہ مصر کا ایک ریاستی نشان، جو درجات میں دیا جاتا ہے؛ عجائب گھر میں اس کے حاملین میں منشد سید النقشبندی ہیں، بعد از وفات (1989ء)۔ {cite:wikipedia-order-of-the-republic-egypt-en} {cite:wikidata-order-of-the-republic-egypt}
+جمہوریہ مصر کا ایک ریاستی نشان، جو درجات میں دیا جاتا ہے؛ عجائب گھر میں اس کے حاملین میں منشد سید النقشبندی ہیں، بعد از وفات ⁦(1989ء)⁩۔ {cite:wikipedia-order-of-the-republic-egypt-en} {cite:wikidata-order-of-the-republic-egypt}
 
 ## عجائب گھر میں
 
-عجائب گھر میں اس کے حاملین: [[person/sayed-al-naqshabandi|سید النقشبندی]] (1989ء) {cite:wikipedia-sayed-al-naqshabandi-ar}۔
+عجائب گھر میں اس کے حاملین: [[person/sayed-al-naqshabandi|سید النقشبندی]] ⁦(1989ء)⁩ {cite:wikipedia-sayed-al-naqshabandi-ar}۔
 
 ## مراجع
 

@@ -1,0 +1,18 @@
+---
+id: concept/iradah-fiqh
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/iradah-fiqh.md}
+---
+## Signification et termes associés
+Dans le lexique, iradah signifie volonté ou désir ; les juristes l'utilisent pour désigner le fait de viser quelque chose et de se tourner vers elle. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2086}
+Elle diffère de la niyya (intention) : pour les Shafi'ites, la niyya consiste à avoir l'intention de faire quelque chose en même temps que de le faire, et pour les trois autres écoles, il s'agit d'une ferme résolution du cœur à accomplir l'acte ; la niyya est liée à l'acte, tandis que l'iradah ne l'est pas. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2086}
+Elle diffère de rida (contentement) : rida consiste à apprécier un acte et à s’y sentir à l’aise, et volonté et contentement ne sont pas nécessairement liés ; c’est pourquoi les théologiens distinguent la volonté de Dieu de son contentement, et pourquoi les juristes les distinguent en matière de contrainte. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2086} Elle diffère d’ikhtiyar (choix) : ikhtiyar consiste à viser une chose située entre l’existence et la non-existence en préférant un côté, tandis qu’iradah est dirigée vers une chose précise. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2086}
+## Règles générales et points de discussion
+Un testament n'est valable que s'il émane d'une personne capable ; les juristes traitent de cette question dans le livre sur l'interdiction, où les legs d'un mineur, d'une personne aliénée, d'une personne incapable et d'une personne insolvable sont nuls et leur testament ne compte pour rien. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2086}
+En principe, la volonté émane du mandant, mais la volonté d'un autre peut la remplacer, par exemple celle du mandataire pour celle du mandant, ou celle du tuteur et de l'exécuteur testamentaire par obligation, de sorte que le mandant est lié par ce que l'autre a validé pour l'essentiel. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2086}
+## Formes d'expression
+En principe, la volonté s'exprime par des mots ; un signe peut se substituer à la parole pour celui qui ne peut parler, de même qu'un message, le silence, la conduite ou des indications fortes ; c'est pourquoi les juristes considèrent le signe d'une personne muette comme sa parole dans de nombreuses matières. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2087}
+## Iradah et transactions
+Les contrats ne produisent leurs effets que lorsque l'acceptation correspond à l'offre, car ils requièrent la volonté des deux parties, comme la vente, la location, le nantissement, le règlement, le partenariat, le partage des bénéfices, le mariage et le khul'. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2087} D'autres actes prennent effet par une seule volonté : certains ne sont pas révoqués par refus, comme une donation, et d'autres le sont, comme une reconnaissance de dette. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2087} La volonté des deux parties crée un contrat, dont les effets sont fixés par le Législateur, et non par les parties contractantes. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2087} Lorsqu'une erreur, une tromperie, une fraude ou une contrainte caractérise un acte, celui-ci peut être annulé en général en donnant à la personne dont la volonté a été affectée la possibilité de l'annuler. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2087}

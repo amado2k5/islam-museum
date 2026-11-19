@@ -1,0 +1,12 @@
+---
+id: event/abu-al-qasim-ends-the-poem-of-the-lances-and-adds-the-courier-verse-290
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/abu-al-qasim-ends-the-poem-of-the-lances-and-adds-the-courier-verse-290.md}
+---
+## Vue d'ensemble
+Dans la suite du poème, le poète affirme qu'il n'est pas de ceux qui se reposent sur leur lit, que sa lance sera imbibée du sang qui bouillonne jusqu'aux os, que quiconque l'interrogera sur la nuit du tumulte verra comment il s'est abandonné à la terreur, qu'il est Ahmadi, purifié, Fatimi et Qasimi, loin de toute souillure, et qu'il a affronté une épreuve terrible qui chasse le sommeil des plus sots et qu'il n'est pas un fou imprudent {cite:sira-hadi-ila-al-haqq p.266}. Il raconte ensuite que le messager est venu seul avec une bonne nouvelle, qu'il aurait aimé assister à l'engagement, qu'il affrontera le fils de Muhammad, des lances brunes à la gorge, qu'il chevauchera son cheval, sa lance à la main, et qu'il frappera de son épée indienne lors de l'affrontement, et que verser le sang des parjures est pour lui un devoir aussi impérieux qu'une part d'héritage {cite:sira-hadi-ila-al-haqq p.266}.
+
+## Détail
+La première note, p. 266, indique que le poème a été mentionné précédemment lorsqu'Abu al-Qasim se trouvait à Khiwan, et une autre donne une lecture « dans la version précédente ». Les versets du messager sont ceux de la p. 181, cités dans la lettre d'al-Hadi à Abu al-Qasim relatant la victoire [[event/al-hadi-writes-to-abu-al-qasim-of-the-victory-and-his-verse-reply-286|et sa réponse en versets]] ou {cite:sira-hadi-ila-al-haqq p.181}, qui complète l'indication laissée en suspens dans le dernier lot. L'éditeur consigne les lectures du manuscrit S dans les notes. Le texte fait suite aux versets sur la lance et les lions de guerre [[event/abu-al-qasim-ibn-al-hadi-verses-on-the-lance-and-the-lions-of-war-290|et]]. L'ouvrage attribue le verset à Abu al-Qasim, mais le musée n'a pas vérifié cette attribution. Les propos vantards et les éloges sont du poète, sans que le musée ne se prononce sur leur attribution. Le musée ne cite ni les vers ni les propos injurieux qui y figurent et n'en donne que le sens tel qu'il apparaît dans le livre.

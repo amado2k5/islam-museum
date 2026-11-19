@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import type { Edge, Node } from "./build-graph.js";
 import { companionIndex, deathAH, decadeKey, decadeOrder, isCompanion } from "./companions.js";
+import { readBigJson } from "./lib/graph-file.mjs";
 
 const node = (id: string, data: Record<string, any> = {}, stub = false): Node => ({
   id, class: id.split("/")[0], slug: id.split("/")[1], label: { ar: id, en: id, ur: id }, summary: { ar: "", en: "", ur: "" }, stub,
@@ -79,7 +80,7 @@ describe("Companions Browser selection and facets (docs/plan/29-companions-brows
   it("the museum's own graph lists ten", async () => {
     const { existsSync, readFileSync } = await import("node:fs");
     if (!existsSync(".cache/graph.json")) return;
-    const g = JSON.parse(readFileSync(".cache/graph.json", "utf8"));
+    const g = readBigJson(".cache/graph.json");
     const idx = companionIndex(g.nodes, g.edges);
     expect(idx.tenListed).toBe(10);
     expect(idx.ten).toHaveLength(10);

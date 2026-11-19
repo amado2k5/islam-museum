@@ -1,0 +1,49 @@
+---
+id: person/tippu-tip
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/tippu-tip.md}
+---
+## Visión general
+Hamad ibn Muhammad ibn Juma ibn Rajab ibn Muhammad ibn Sa'id al-Murjabi (1837–1905), conocido a lo largo de su vida como Tippu Tip, fue un comerciante de marfil y esclavos zanzíbarí, propietario de plantaciones, explorador y gobernador que trabajó para una sucesión de sultanes de Zanzíbar. {cite:wikipedia-tippu-tip-en} {cite:britannica-tippu-tip} Dirigió expediciones en las profundidades de África Central, fundó puestos comerciales a lo largo de la cuenca del Congo y llegó a gobernar un gran territorio en el este del Congo por derecho propio, permaneciendo como súbdito leal del sultán de Zanzíbar. {cite:wikipedia-tippu-tip-en} Su riqueza se basaba en dos oficios que se unían en el Zanzibar de su época: marfil, transportado a la costa por caravanas, y personas esclavizadas, llevadas en incursiones y guerras en el interior y vendidas para trabajar en las plantaciones de clavo de la isla y a compradores en el extranjero. {cite:wikipedia-tippu-tip-en} {cite:wikipedia-tippu-tip-ar}
+
+## Infancia y familia
+Tippu Tip nació en Zanzíbar, probablemente en 1837, aunque las fuentes difieren en el año: el inicio del artículo en inglés indica alrededor de 1832, y la tradición biográfica árabe indica 1248 H. {cite:wikipedia-tippu-tip-en} {cite:wikipedia-tippu-tip-ar} {cite:britannica-tippu-tip} Según Heinrich Brode, quien basó su relato en gran medida en los propios recuerdos de Tippu Tip, su madre, Bint Habib bin Bushir, era hija de una respetada y próspera familia de Mascate del clan Wardi. {cite:wikipedia-tippu-tip-en} Su bisabuela paterna, Mwana Arabu, era hija de Juma bin Muhammed el Nebhani, de una respetada familia de Mascate, y de una mujer africana de Mbwa Maji, al sur de Dar es Salaam. {cite:wikipedia-tippu-tip-en}
+
+Su apodo tiene dos explicaciones en las fuentes. Sidney Langford Hinde tradujo Tippu Tip como «el recolector de riqueza». {cite:wikipedia-tippu-tip-en} Sin embargo, según el propio relato de Tippu Tip, el nombre proviene del sonido "tiptip" de disparos durante sus expediciones en África Central — la explicación que también ofrece el artículo en árabe. {cite:wikipedia-tippu-tip-en} {cite:wikipedia-tippu-tip-ar}
+
+El relato biográfico árabe, extraído de la revista Al-Hilal de 1906, dice que a los cinco años su padre le enseñó a leer, escribir y el Corán, y que a los doce pidió prestados doce riales, compró sal con ellos y se dirigió a trocar hacia Dar es Salaam y el interior durante meses. {cite:wikipedia-tippu-tip-ar} A una edad relativamente joven lideró a un grupo de unos cien hombres desde Zanzíbar hacia África Central en busca de esclavos y marfil, saqueó varias zonas y regresó a Zanzíbar para consolidar sus recursos y reclutar más seguidores. {cite:wikipedia-tippu-tip-en}
+
+## El comercio de caravanas y el Estado del Congo
+Britannica sitúa su primer viaje comercial al interior africano a finales de la década de 1850 o principios de la de 1860, cuando viajó con solo unos pocos hombres; a finales de la década de 1860 ya dirigía expediciones de 4.000 hombres. {cite:britannica-tippu-tip} Estableció un estado bastante poco organizado en la cuenca oriental y central del río Congo, gobernando una zona cada vez más grande durante la década de 1870, confirmando jefes locales o sustituyéndolos por regentes leales. {cite:britannica-tippu-tip} Sus principales intereses siguieron siendo comerciales: estableció un monopolio de la caza de elefantes, mandó construir carreteras y desarrolló plantaciones alrededor de los principales asentamientos árabes, incluyendo Kasongo en la parte alta del río Congo, donde él mismo se estableció en 1875. {cite:britannica-tippu-tip}
+
+Sus caravanas reunían esclavizados para las plantaciones de Zanzíbar, y sus expediciones compraban marfil a bajo precio a proveedores locales a través de los puestos comerciales que fundó. {cite:wikipedia-tippu-tip-ar} El historiador Abdul Sheriff informó que cuando Tippu Tip partió para sus doce años de "construcción de imperio" en el continente no tenía plantaciones propias, pero que para 1895 había adquirido siete shambas (plantaciones) y 10.000 esclavos. {cite:wikipedia-tippu-tip-en} Conoció y ayudó a varios exploradores occidentales del continente africano, entre ellos David Livingstone y Henry Morton Stanley, y en 1876–77 acompañó a Stanley en parte del río Congo. {cite:wikipedia-tippu-tip-en} {cite:britannica-tippu-tip}
+
+Entre 1884 y 1887 reclamó el Congo Oriental para sí mismo y para el sultán Barghash bin Said de Zanzíbar, manteniendo al mismo tiempo buenas relaciones con los europeos. {cite:wikipedia-tippu-tip-en} Cuando estalló un combate en agosto de 1886 entre los suahiles y los representantes del rey Leopoldo II de Bélgica en Stanley Falls, acudió al cónsul belga en Zanzíbar para asegurarle sus «buenas intenciones». {cite:wikipedia-tippu-tip-en}
+
+## Gobernador de Stanley Falls y la Guerra Árabe del Congo
+En febrero de 1887 Tippu Tip firmó un acuerdo que le nombraba gobernador del distrito de las Cataratas en el Estado Libre del Congo de Leopoldo; tanto Leopoldo como el sultán Barghash aceptaron el nombramiento y el 24 de febrero de 1887 aceptó el cargo. {cite:britannica-tippu-tip} {cite:wikipedia-tippu-tip-en} También aceptó apoyar con hombres la expedición de socorro de Stanley a Emin Pasha. {cite:wikipedia-tippu-tip-en} Britannica considera imposible la situación: los europeos esperaban que mantuviera bajo control a todos los comerciantes árabes de la zona, pero no le permitían las armas necesarias, y muchos árabes resentían su alianza con los europeos contra ellos. {cite:britannica-tippu-tip} En abril de 1890 abandonó las Cataratas por última vez y regresó a Zanzíbar. {cite:britannica-tippu-tip}
+
+La guerra que había previsto llegó entonces sin él. Su hijo Sefu bin Hamid atacó a comerciantes belgas de marfil en 1892 y fue derrotado por la fuerza de Francis Dhanis, después de que el líder congoleño Ngongo Lutete cambiara de bando; Sefu fue asesinado el 20 de octubre de 1893, y su aliado Rumaliza huyó a territorio alemán en 1895. {cite:wikipedia-tippu-tip-en} El relato árabe añade que los belgas confiscaron las propiedades de Tippu Tip, estimadas en 100.000 libras. {cite:wikipedia-tippu-tip-ar} El estado oriental del Congo que había construido pasó al Estado Libre del Congo. {cite:britannica-tippu-tip}
+
+## Jubilación, autobiografía y fallecimiento
+Tippu Tip se retiró a Zanzíbar en 1891 y no realizó más viajes al interior; se convirtió en un asesor cercano del sultán Hamoud bin Mohammed. {cite:wikipedia-tippu-tip-en} Allí dictó el relato de su vida —la primera autobiografía en lengua suahili— que Heinrich Brode transcribió a la escritura romana y tradujo al alemán; una edición en inglés se publicó en Londres en 1907. {cite:wikipedia-tippu-tip-en}
+
+Murió en su casa en Stone Town, Zanzíbar. Las fuentes se dividen sobre el día y la causa: el cuerpo del artículo en inglés, siguiendo a Brode, indica la muerte por malaria el 13 de junio de 1905, mientras que su infobox, los artículos en árabe y urdu, y Britannica indican el 14 de junio de 1905. {cite:wikipedia-tippu-tip-en} {cite:wikipedia-tippu-tip-ar} {cite:wikipedia-tippu-tip-ur} {cite:britannica-tippu-tip}
+
+## Perspectivas y críticas
+Esta sección presenta valoraciones diferentes según las fuentes; no son el veredicto del museo sobre el hombre ni su oficio.
+
+**Su propio relato.** La autobiografía dictada de Tippu Tip presenta su carrera desde el interior del mundo comercial de Zanzíbar: caravanas, alianzas, guerras y gobernaciones narradas como empresa y arte de gobierno, la primera narrativa de vida en suajili y una fuente primaria para la historia de la región. {cite:wikipedia-tippu-tip-en}
+
+**Los exploradores.** Livingstone y Stanley dependieron de él en el interior, y Stanley le propuso gobernador de las Cataratas y pidió su ayuda para la expedición a Emin Pasha. {cite:wikipedia-tippu-tip-en} {cite:britannica-tippu-tip} La opinión europea sobre la época estaba dividida por intereses: las partes comerciales y coloniales con las que trataba le trataban como una potencia con la que negociar, mientras que las campañas abolicionistas contra la trata de esclavos en África Oriental convirtieron a los comerciantes de su especie en su objetivo central. {cite:wikipedia-tippu-tip-en}
+
+**Erudición moderna.** El juicio de Britannica es que el comercio del marfil siguió siendo su principal interés, y que sus intrigas de construcción estatal y políticas sirvieron como medios para esa empresa. {cite:britannica-tippu-tip} El estudio de Zanzíbar realizado por Abdul Sheriff cuantifica la base humana de su fortuna: no había plantaciones cuando comenzó su construcción de imperios en el continente, siete plantaciones y 10.000 personas esclavizadas para 1895. {cite:wikipedia-tippu-tip-en} El artículo en inglés lo describe, en ese registro, como uno de los traficantes musulmanes de esclavos más ricos de la historia, y el artículo árabe nombra claramente su ocupación como traficante de esclavos (nakhhas) antes que comerciante de marfil, explorador y gobernador. {cite:wikipedia-tippu-tip-en} {cite:wikipedia-tippu-tip-ar}
+
+## Referencias
+- Wikipedia en inglés, "Tippu Tip", revisión 1379759374. {cite:wikipedia-tippu-tip-en}
+- Wikipedia árabe, «تيبوتيب», revisión 75956254. {cite:wikipedia-tippu-tip-ar}
+- Urdu Wikipedia, «ٹیپو ٹپ», revision 10152363. {cite:wikipedia-tippu-tip-ur}
+- Encyclopaedia Britannica, "Tippu Tib". {cite:britannica-tippu-tip}
+- Wikidata, Q458421. {cite:wikidata-tippu-tip}

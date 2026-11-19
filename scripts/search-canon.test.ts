@@ -3,6 +3,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { canonLookup, canonSearchIndex, normSearch } from "./search-canon.js";
 import { buildSynonyms } from "./derive.js";
 import type { Compiled } from "./build-graph.js";
+import { readBigJson } from "./lib/graph-file.mjs";
 
 // Canon-first search (audit of 13 November 2026, S11). The query set is data and is frozen with the Grand Tour run
 // (scripts/fable/search-queries.json): fifty queries a visitor would type, each with the canon record it means.
@@ -13,7 +14,7 @@ const { queries } = JSON.parse(readFileSync("scripts/fable/search-queries.json",
 
 describe("canon-first search", () => {
   const ready = existsSync(GRAPH);
-  const c: Compiled | null = ready ? JSON.parse(readFileSync(GRAPH, "utf8")) : null;
+  const c: Compiled | null = ready ? readBigJson(GRAPH) : null;
   const syn = c ? { ar: buildSynonyms(c, "ar"), en: buildSynonyms(c, "en") } : null;
   const index = c ? { ar: canonSearchIndex(c, "ar", syn!.ar.whole), en: canonSearchIndex(c, "en", syn!.en.whole) } : null;
   // what the page does with a typed term before it searches (search/index.astro processTerm)

@@ -1,0 +1,12 @@
+---
+id: event/al-hadis-verse-on-his-first-war-with-the-kulaybis-and-akilis-287
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/al-hadis-verse-on-his-first-war-with-the-kulaybis-and-akilis-287.md}
+---
+## Visión general
+Bajo las palabras que indicaban que este fue el fin de la primera guerra de al-Hadi contra los Kulaybis y los Akilis en [[place/allaf-yemen|Allaf]] y [[place/saada|Sa'da]], el narrador coloca un poema que, según él, [[person/al-hadi-yahya-al-rassi|al-Hadi]] pronunció en una rima; las notas a pie de página del editor ofrecen las variantes del otro manuscrito. {cite:sira-hadi-ila-al-haqq p.198} {cite:sira-hadi-ila-al-haqq p.199} {cite:sira-hadi-ila-al-haqq p.200} En sentido figurado, el poema dice que la calma de la guerra ha llegado tras el despertar y que la vida es dulce tras la añoranza, que el enemigo vio la muerte y dejó atrás sus casas, cosechas, muchas vides, esclavos, correo, armas, bienes, ropas y familias, arrojó las armas y se dispersó por las escarpadas montañas, y que sus hombres los persiguieron y mataron a los que alcanzaron. {cite:sira-hadi-ila-al-haqq p.198} {cite:sira-hadi-ila-al-haqq p.199}
+
+## Detalle
+Describe el campamento de aquellos a quienes llama malhechores como sin nada nuevo ni viejo, se complace en su humillación, culpa al líder Akili [[person/ahmad-ibn-abbad-al-akili|Ahmad ibn Abbad]] y a sus seguidores por oponerse a la justicia, dice que la fortificación del camino de Allaf no resistió y que él la atravesó, y advierte que ninguna montaña salvará al hombre y que pronto lo perseguirá. {cite:sira-hadi-ila-al-haqq p.199} Las líneas finales dicen que el imán defendió la verdad y a aquellos que lo apoyaron, con hombres valientes en quienes confía en la guerra, y que son los soldados de Dios en la tierra cuya bandera de la verdad ondea, mientras se sienten su trueno y su relámpago. {cite:sira-hadi-ila-al-haqq p.199} {cite:sira-hadi-ila-al-haqq p.200} El abuso del poema hacia sus oponentes no se repite aquí, y sus afirmaciones son propias del imán y de sus seguidores, a las que el museo no añade ningún veredicto. Sigue [[event/ahmad-ibn-abbad-asks-safety-is-refused-and-goes-to-iraq-287]].

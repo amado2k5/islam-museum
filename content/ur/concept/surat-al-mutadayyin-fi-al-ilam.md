@@ -56,7 +56,7 @@ translators: []
 :::perspectives
 - **اکثر حاضرین اور بعض مہمان: بگاڑ دانستہ ہے۔** 76% نے اسے دانستہ کہا؛ ادب کے استاد کے نزدیک تحریر میں غالب رجحان غیر اسلامی ہے اور اسلام پسندوں نے فن کا میدان چھوڑ دیا؛ ایک مہمان نے اس کی جڑیں ہالی وڈ میں دیکھیں۔ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31 00:34:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31 00:43:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31 00:19:30}
 - **فلمی مصنف اور ایک میڈیا مہمان: حقیقت کا عکس، کمزور فن کے ساتھ۔** سازش نہیں؛ ڈراما ایسی حقیقت دکھاتا ہے جس میں انتہا پسند ہیں، مگر غیر متناسب طور پر۔ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31 00:39:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31 00:41:00}
-- **میزبان کی رائے (متکلم کی رائے): دین اور فن کا قطع تعلق اصل سبب ہے، اور حل ان کا ملاپ۔** {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31 01:10:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31 01:11:30}
+- **میزبان کی رائے ⁦(متکلم کی رائے)⁩: دین اور فن کا قطع تعلق اصل سبب ہے، اور حل ان کا ملاپ۔** {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31 01:10:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep31 01:11:30}
 :::
 
 یہاں ووٹنگ کے نتائج اس قسط کے اسٹوڈیو حاضرین کی آراء ہیں، نمائندہ سروے نہیں۔ اس سوال پر میڈیا اسٹڈیز کی کوئی علمی رائے ابھی شامل نہیں کی گئی۔

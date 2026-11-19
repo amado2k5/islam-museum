@@ -1,0 +1,9 @@
+---
+id: event/mongol-sack-aleppo-658
+lang: fr
+source_lang: en
+translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
+provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/mongol-sack-aleppo-658.md}
+---
+## Résumé
+En Muharram 658 H, [[person/hulagu|Houlagou]] traversa l’Euphrate et lança des raids sur les districts d’[[place/aleppo|Alep]]. Il exigea que son gouverneur, Buran Shah ibn al-Sultan Salah al-Din, permette aux Tatars d’établir une garnison dans la citadelle et une autre dans la ville, mais ce dernier refusa. Les Tatars établirent leur camp devant Alep au deuxième jour de Safar. Ils creusèrent une tranchée d’une profondeur équivalente à la taille d’un homme et d’une largeur de quatre coudées, construisirent un mur de cinq coudées de haut, installèrent vingt catapultes, maintinrent le bombardement et commencèrent à creuser un tunnel sous les murs. Au neuvième jour de Safar, ils prirent d’assaut les murs et mirent la ville à sac pendant deux jours. Environ cinquante mille personnes avaient trouvé refuge à Alep, et d’innombrables personnes furent tuées. Les massacres et les pillages durèrent cinq jours, après quoi l’ordre fut donné de cesser les hostilités. Ce vendredi, l’appel à la prière fut lancé à la mosquée, et la prière du vendredi fut célébrée avec une congrégation. Ils encerclèrent ensuite la citadelle, et al-Muʿazzam [[person/al-muazzam-turanshah-al-kabir|Touranshah]], à la tête de la dynastie ayyoubide, se rendit avec des conditions, ne pouvant plus la défendre. Il décéda peu de temps après {cite:shadharat-dhahab p.298-299}.

@@ -8,4 +8,4 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 احمد بن اسحاق بن محمد المؤید الابرقوہی، ابرقوہ کے شافعی قاضی، محدث اور صوفی۔ وہ فارس کے ابرقوہ میں پیدا ہوئے اور مصر میں فوت ہوئے۔ {cite:mawsuat-a3lam-ulama-adaba p.175-178}
 
 ## تاریخیں
-ان کی ولادت 615ھ (1218ء) اور وفات 701ھ (1301ء) ہے۔ {cite:mawsuat-a3lam-ulama-adaba p.175-178}
+ان کی ولادت 615ھ ⁦(1218ء)⁩ اور وفات 701ھ ⁦(1301ء)⁩ ہے۔ {cite:mawsuat-a3lam-ulama-adaba p.175-178}

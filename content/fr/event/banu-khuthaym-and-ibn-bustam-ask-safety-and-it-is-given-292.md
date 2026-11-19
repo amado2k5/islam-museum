@@ -1,0 +1,12 @@
+---
+id: event/banu-khuthaym-and-ibn-bustam-ask-safety-and-it-is-given-292
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/banu-khuthaym-and-ibn-bustam-ask-safety-and-it-is-given-292.md}
+---
+## Vue d'ensemble
+Lorsque les Banu Khuthaym virent cela, ils dirent à Ibn Humayd : « Soit tu cherches ensemble notre sécurité, soit nous nous séparons et chacun la cherche de son côté. » Il accepta leur demande {cite:sira-hadi-ila-al-haqq p.294}. Ils envoyèrent un message à Ibn Bustam, qui les rencontra et lui demanda d’intercéder en leur faveur auprès d’al-Hadi. Il accepta, se rendit auprès d’al-Hadi et celui-ci leur accorda leur protection {cite:sira-hadi-ila-al-haqq p.294}.
+
+## Détail
+Ils demandèrent à rencontrer [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Abu Muhammad ibn Ubaydallah]] afin de se sentir plus à l'aise avec al-Hadi par son intermédiaire ; il les reçut, accompagné des notables et des notables de Banu al-Harith. Ils se rendirent auprès d'al-Hadi, implorèrent sa protection, qu'il leur accorda {cite:sira-hadi-ila-al-haqq p.294}. Ils lui demandèrent de ne pas entrer dans le village pendant deux jours, le temps de faire sortir leurs femmes ; il accepta, et ils quittèrent le village, chacun regagnant sa demeure {cite:sira-hadi-ila-al-haqq p.294}. « Abu Muhammad ibn Ubaydallah » se lit ici, comme précédemment, comme Muhammad ibn Ubaydallah, dont le surnom est Abu Ja'far ; la transcription de l'image de la page confirme cette version imprimée. Le texte ne dit rien de l'identité des Banu Khuthaym, si ce n'est qu'il s'agissait d'un groupe sous l'autorité d'Ibn Humayd. Le musée ne les rattache pas aux [[group/al-khushaymiyyun|Khushaymis]] enregistrés, car le nom est imprimé ici « Khuthaym » et avec le suffixe « shin » sur les pages précédentes. Un enregistrement distinct a donc été créé, qui sera fusionné si les deux enregistrements s'avèrent identiques. Ce récit provient des partisans d'al-Hadi, dans un ouvrage zaydite où al-Hadi accorde la sécurité. Le musée ne porte aucun jugement sur ce récit. Il mène à l'[[event/al-hadi-enters-al-hajar-on-monday-17-shaban-292|entrée d'al-Hadi dans al-Hajar]].

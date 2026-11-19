@@ -1,0 +1,29 @@
+---
+id: person/seku-amadu
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/seku-amadu.md}
+---
+## Resumen
+Seku Amadu (Ahmadu ibn Muhammadu Lobbo, c. 1776 – 20 de abril de 1845) fue un marabout fulbe que fundó el Imperio Massina (el Diina de Hamdullahi) en el delta interior del Níger, en lo que hoy es Malí, y lo gobernó, con el título de Almami, desde 1818 hasta su muerte. {cite:wikipedia-seku-amadu-en} {cite:wikipedia-seku-amadu-fr} Lideró la yihad que derrocó la soberanía Bambara y fundó un estado en Hamdullahi gobernado bajo una estricta aplicación malikí de la Sharia, extendiendo su autoridad a Djenné y Tombuctú. {cite:wikipedia-seku-amadu-en} Su hijo Amadu II y luego su nieto Amadu III le sucedieron. {cite:wikipedia-massina-empire-en}
+
+## Infancia y profesores
+El texto francés indica su nacimiento en 1776 en Malangal, una aldea cerca de Mopti, mientras que su cuadro de información indica 1775 o 1776 en Macina. {cite:wikipedia-seku-amadu-fr} Las fuentes difieren sobre quién le enseñó en la Qadiriyya: el artículo en inglés afirma expresamente que fue alumno del maestro sufí de Qadiriyya Sidi Mukhtar al-Kunti, citando a Hunwick (2004). {cite:wikipedia-seku-amadu-en} El artículo francés nombra en cambio al sufí Kabara Farma como el hombre que lo inició en la Qadiriyya, citando la tesis de Boly sobre el sufismo en Malí (2013), y lo llama en su guía un marabout fulbe y partidario de la Qadiriyya. {cite:wikipedia-seku-amadu-fr} El artículo francés sobre el Imperio Macina afirma que su fundador era miembro de la cofradía sufí Qadiriyya. {cite:wikipedia-empire-du-macina-fr} El museo expone abiertamente ambas tradiciones docentes y no descarta ninguna: la adhesión personal a la Qadiriyya es la misma atestación en ambas, aunque el nombre del maestro difiera.
+
+## Carrera
+Su ascenso comenzó con la yihad que lideró para los musulmanes fulbe contra el dominio bambara, y el artículo sobre el imperio francés sitúa la fundación del estado en la batalla de Noukouma en 1818. {cite:wikipedia-empire-du-macina-fr} Fundó su capital en Hamdullahi — escrito Hamdallaye en el artículo francés — el centro del estado teocrático conocido como Diina. {cite:wikipedia-seku-amadu-en} {cite:wikipedia-seku-amadu-fr} La ley estatal se basaba en la estricta interpretación malíki de la Sharia según el artículo inglés, y el artículo sobre el imperio inglés describe igualmente las decisiones del Gran Consejo como basadas en la interpretación malikí de la Sharia. {cite:wikipedia-seku-amadu-en} {cite:wikipedia-massina-empire-en} Su autoridad iba desde Tombuctú hasta Mopti en el artículo francés, e incluía a Djenné y Timbuctú en el inglés. {cite:wikipedia-empire-du-macina-fr} {cite:wikipedia-seku-amadu-en}
+
+## Estado y legado
+El artículo del Imperio Inglés describe su estado en su primer lugar como un califato musulmán suní en África Occidental — un descriptor del estado, no una declaración de la escuela personal de su fundador, y el museo lo utiliza únicamente como tal. {cite:wikipedia-massina-empire-en} La imagen que las fuentes ofrecen de su estado es la de un riguroso gobierno religioso cuya ley fue Maliki, propiedad del sistema de gobierno que él mismo construyó. {cite:wikipedia-seku-amadu-en} {cite:wikipedia-empire-du-macina-fr}
+
+Seku Amadu murió el 20 de abril de 1845 según el artículo biográfico inglés, que indica la fecha con precisión en su inicio, recuadro informativo y narrativa final, dejando el imperio a su hijo Amadu II. {cite:wikipedia-seku-amadu-en} No obstante, el año es objeto de debate: el cuerpo del artículo sobre el imperio inglés dice "Ahmadu murió en 1844", citando la entrada enciclopédica de Sandomirsky, su lista de gobernantes pone fin a su reinado en 1844, y el artículo francés indica su muerte en 1844 o 1845. {cite:wikipedia-massina-empire-en} {cite:wikipedia-seku-amadu-fr} La lista de almamis del artículo sobre el imperio indica a sus sucesores como Amadu II (1845–1852) y luego Amadu III (1852–1862). {cite:wikipedia-massina-empire-en}
+
+## Posiciones y críticas
+Esta sección expone diferentes posiciones tal como se recogen en las fuentes. No es un veredicto del museo.
+
+Las fuentes discrepan sobre su maestro y su año de muerte, como se expone anteriormente, y el museo presenta ambos desacuerdos sin resolverlos silenciosamente: el nombre del maestro qadiri difiere entre las tradiciones inglesa y francesa mientras que la afiliación en sí es constante, y el año de fallecimiento es 1844 en algunas referencias y 1845 en el artículo biográfico. {cite:wikipedia-seku-amadu-en} {cite:wikipedia-seku-amadu-fr} {cite:wikipedia-massina-empire-en} Su fe figura en el registro de datos como sufí documentadamente, porque su adhesión personal a la Qadiriyya está atestiguada por fuentes independientes: su alumnado bajo la tutela de un maestro qadiri en el artículo en inglés, su descripción como adepto de la Qadiriyya en el artículo francés y su pertenencia a la cofradía en el artículo sobre el imperio francés. {cite:wikipedia-seku-amadu-en} {cite:wikipedia-seku-amadu-fr} {cite:wikipedia-empire-du-macina-fr} No se registra ninguna escuela jurídica personal para él, porque el carácter Maliki que describen las fuentes es el de la ley y los tribunales de su estado — un hecho político, no una declaración escolar personal. {cite:wikipedia-seku-amadu-en} {cite:wikipedia-massina-empire-en}
+
+## Fuentes
+- Las entidades fuente definidas citadas anteriormente, registradas en `data/source/`.
+- Las revisiones de este artículo deben estar fechadas y deben indicar la fuente que modificó cada hecho.

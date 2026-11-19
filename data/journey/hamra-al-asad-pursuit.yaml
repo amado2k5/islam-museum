@@ -10,14 +10,14 @@ periods: [period/prophetic-era]
 regions: [arabia]
 travelers: [person/muhammad, person/jabir-ibn-abdullah]
 legs:
-  - { from: place/uhud, to: place/medina, mode: "رجوع", note: "الرجوع من معركة أحد؛ بات المسلمون في المدينة وهم في حالة الطوارئ يحرسون أنقابها ومداخلها (الرحيق ص284)." }
-  - { from: place/medina, to: place/hamra-al-asad, start: { hijri: "0003-10-08", calendar: julian, precision: day, status: tradition, note: "صباح الأحد الثامن من شوال سنة 3هـ (الرحيق ص284)" }, mode: "مسير", note: "ندب النبي الناس إلى المسير لقاء العدو، ولا يخرج معه إلا من شهد القتال؛ استأذن جابر بن عبد الله فأذن له؛ بلغوا حمراء الأسد على ثمانية أميال من المدينة فعسكروا (الرحيق ص284-285)." }
-  - { from: place/hamra-al-asad, to: place/medina, mode: "رجوع", note: "أقام بحمراء الأسد الإثنين والثلاثاء والأربعاء (9-11 شوال)، ثم رجع إلى المدينة بعد أن أخذ أبا عزة الجمحي فأعدمه؛ ولم يحدد النص يوم الرجوع (الرحيق ص286)." }
+  - { from: place/uhud, to: place/medina, mode: "رجوع", note: "الرجوع من معركة أحد؛ بات المسلمون في المدينة وهم في حالة الطوارئ يحرسون أنقابها ومداخلها ⁦(الرحيق ص284)⁩." }
+  - { from: place/medina, to: place/hamra-al-asad, start: { hijri: "0003-10-08", calendar: julian, precision: day, status: tradition, note: "صباح الأحد الثامن من شوال سنة 3هـ ⁦(الرحيق ص284)⁩" }, mode: "مسير", note: "ندب النبي الناس إلى المسير لقاء العدو، ولا يخرج معه إلا من شهد القتال؛ استأذن جابر بن عبد الله فأذن له؛ بلغوا حمراء الأسد على ثمانية أميال من المدينة فعسكروا ⁦(الرحيق ص284-285)⁩." }
+  - { from: place/hamra-al-asad, to: place/medina, mode: "رجوع", note: "أقام بحمراء الأسد الإثنين والثلاثاء والأربعاء ⁦(9-11 شوال)⁩، ثم رجع إلى المدينة بعد أن أخذ أبا عزة الجمحي فأعدمه؛ ولم يحدد النص يوم الرجوع ⁦(الرحيق ص286)⁩." }
 waypoints:
   - place: place/medina
     day: 1
     day_status: tradition
-    date: { hijri: "0003-10-08", calendar: julian, precision: day, status: tradition, note: "يوم الأحد الثامن من شوال سنة 3هـ (الرحيق ص284)." }
+    date: { hijri: "0003-10-08", calendar: julian, precision: day, status: tradition, note: "يوم الأحد الثامن من شوال سنة 3هـ ⁦(الرحيق ص284)⁩." }
     title: { ar: "الندب إلى المطاردة" }
     narrative:
       ar: "بات المسلمون في المدينة بعد الرجوع عن أحد، وقد أنهكهم التعب وأصابهم الجراح، ويحرسون النبي خاصة. صباح الأحد الثامن من شوال نادى النبي في الناس للمسير إلى لقاء العدو، وقال: لا يخرج معنا إلا من شهد القتال؛ فاستجاب المسلمون على ما بهم من جراح ⁦(الرحيق ص284)⁩."
@@ -25,7 +25,7 @@ waypoints:
   - place: place/hamra-al-asad
     day: 1
     day_status: tradition
-    day_note: "بلغوا حمراء الأسد يوم الأحد، ثم أقاموا الإثنين والثلاثاء والأربعاء (الرحيق ص285-286)."
+    day_note: "بلغوا حمراء الأسد يوم الأحد، ثم أقاموا الإثنين والثلاثاء والأربعاء ⁦(الرحيق ص285-286)⁩."
     date: { hijri: "0003-10-08", calendar: julian, precision: day, status: tradition, note: "وصول الأحد؛ أول أيام الإقامة." }
     title: { ar: "حمراء الأسد: الإقامة والرسالة إلى أبي سفيان" }
     narrative:

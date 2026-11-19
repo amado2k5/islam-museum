@@ -1,0 +1,19 @@
+---
+id: concept/alamat-al-suda-bi-al-musharaka
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/alamat-al-suda-bi-al-musharaka.md}
+---
+
+## El signo de compartir
+El dolor de cabeza por compartir surge, cesa, se vuelve fuerte y debilita según lo que ocurra con el órgano compartido del dolor; y de no ser por compartir, en los otros actos del cerebro habría cosas como oscuridad en el ojo, coma y pesadez constante, mientras que el estado de los demás órganos es sano {cite:canon-ibn-sina-print-v2 p.52}. Cuando la dolencia está en las propias membranas del cerebro y es fuerte, la transmisión del dolor a las raíces de los ojos la demuestra; si la dolencia está en la membrana externa o en otro lugar, el dolor no pasa a las raíces de los ojos, y tocar la piel de la cabeza duele {cite:canon-ibn-sina-print-v2 p.52}
+
+## Estómago y cerebro: qué vino primero
+El uno al compartir con el estómago se muestra por malestar y náuseas, o poco apetito o ninguno, o mala digestión, o poca digestión o ninguna, después de que se detecta el signo anterior {cite:canon-ibn-sina-print-v2 p.52} El dolor de cabeza puede deberse a algo en el cerebro que provocó estos estados y aflicciones en el estómago, porque el estómago comparte con el cerebro, y no por comenzar en el estómago con el cerebro compartiendo el cerebro; así que hay que estar seguro en tal caso y aprender el estado de cada uno de los dos órganos en sí mismo, y así juzgar cuál vino primero, de cuál vino después {cite:canon-ibn-sina-print-v2 p.52} Lo que se muestra especialmente en el estómago es la diferencia de estado en la digestión y no en la digestión, y en el vacío y la plenitud; porque el dolor de estómago, si es por bilis, se agita en el vacío, y si procede de un humor frío es menor en el vacío y el hambre lo calma {cite:canon-ibn-sina-print-v2 p.52} Lo que sale por vómito puede mostrarlo, y también la diferencia de estado con la diferencia de lo que entra en el estómago; así que cuando el dolor de cabeza se agita y comen algo y se calma, eso es señal de que es al compartir con el estómago, y así también si se calma cuando expulsan bilis {cite:canon-ibn-sina-print-v2 p.52}
+
+## El lado del dolor apunta al órgano compartido
+Se infiere del lado del dolor: lo que se hace por compartir con el estómago comienza principalmente en la parte delantera de la fontanela y puede inclinarse hacia el centro de la fontanela y luego descender; lo que viene del hígado se inclina hacia el lado derecho; lo que proviene del bazo se inclina hacia el lado izquierdo; lo que viene por el hipocondrio se inclina muy hacia adelante; y lo que proviene del riñón y los órganos de la espalda se inclina muy hacia atrás {cite:canon-ibn-sina-print-v2 p.52} Lo que viene al compartir con dolores que surgen en otros órganos viene con su agitación e intensificación; y lo que viene con fiebres y crisis viene con ellas y se calma y debilita con su calma y debilitamiento {cite:canon-ibn-sina-print-v2 pp.52-53} El blanqueamiento de la orina con fiebre severa puede mostrarlo, porque los humores biliosos tienden hacia arriba; y las cosas de elaboración fina suelen ser causa de dolor de cabeza al abrir el camino de los vapores hacia el cerebro aunque no estén calientes, y lo mismo ocurre con el shaqiqa {cite:canon-ibn-sina-print-v2 p.53}
+
+## Útero y menstruación (etiquetado como listado de libros, reservado para la resolución del fundador)
+Ibn Sina dice que el dolor de cabeza que surge por el útero está justo en medio de la fontanela y suele producirse principalmente después del nacimiento, el aborto espontáneo o la escasez o contención de la menstruación {cite:canon-ibn-sina-print-v2 p.52}

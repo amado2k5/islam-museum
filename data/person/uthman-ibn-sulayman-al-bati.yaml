@@ -6,17 +6,17 @@ names:
 gender: male
 roles: [jurist]
 traditions: [sunni]
-died: { hijri: "0143", edtf: "0761~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة ثلاث وأربعين ومائة (PDF ص49).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+died: { hijri: "0143", edtf: "0761~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة ثلاث وأربعين ومائة ⁦(PDF ص49)⁩.", sources: [source/tabaqat-fuqaha-abbas-1981] }
 summary:
   ar: "أبو عمرو عثمان بن سليمان البتي، من أهل الكوفة، انتقل إلى البصرة، أخذ عن الحسن البصري {cite:tabaqat-fuqaha-abbas-1981 p. 49}، ومات سنة ثلاث وأربعين ومائة {cite:tabaqat-fuqaha-abbas-1981 p. 49}. وتذكر حاشية المحقق أن نسبته «البتي» إلى بيع «البتوت»، وهو كساء غليظ."
 wings: [people]
 relations:
-  - { type: student_of, target: person/al-hasan-al-basri, role: "أخذ عن الحسن (PDF ص49)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: student_of, target: person/al-hasan-al-basri, role: "أخذ عن الحسن ⁦(PDF ص49)⁩", sources: [source/tabaqat-fuqaha-abbas-1981] }
   - { type: traveled_to, target: place/basra, sources: [source/tabaqat-fuqaha-abbas-1981], confidence: medium, note: "ar: 'أبو عمرو عثمان بن سليمان البتي، من أهل الكوفة، انتقل إلى البصرة، أخذ عن الحسن البصري {cite:tabaqat-fuqaha" }
 sources: [source/tabaqat-fuqaha-abbas-1981]
 provenance:
   layer: "own-research"
-  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص48–53"
+  source: "طبقات الفقهاء ⁦(تحقيق إحسان عباس)⁩ PDF ص48–53"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch125

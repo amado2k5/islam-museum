@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b15, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/377" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b15, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/377" }
 ---
 ## خلاصہ
 ابو بکر احمد بن محمد بن ابی سعدان اصل میں بغداد کے تھے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» میں ان کا ترجمہ لکھا ہے ⁦(نمبر 650)⁩۔ یہ ان عارفوں میں ہیں جن کا زمانہ ابو نعیم نے پایا۔ ابو نعیم انہیں فصیح اور صاحبِ بیان کہتے ہیں۔ وہ علومِ شریعت کے نمایاں عالم تھے اور [[person/al-shafii|شافعی]] کے مذہب کی پیروی کرتے تھے۔ اہلِ عمل و عبادت کے علم میں ان کا کلام واضح تھا۔ وہ کچھ مدت [[place/tarsus|طرسوس]] میں رہے۔ ان کے حال اور بیان کے کمال کی وجہ سے انہیں رومیوں کی طرف سفیر بنا کر بھیجا گیا۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/377}

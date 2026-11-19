@@ -1,0 +1,15 @@
+---
+id: place/jannaba
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/place/jannaba.md}
+---
+## Visión general
+Según al-Idrisi, Jannaba es una ciudad grande, populosa y próspera con mercados. Cuenta con finas prendas de lino de muchos tipos y diversos productos manufacturados. {cite:nuzhat-al-mushtaq-2002 p.412}
+
+## En el Mu'jam al-buldan de Yaqut
+Yaqut registra Jannaba: una pequeña ciudad en la costa de Fars; los astrólogos la ubican en el tercer clima, longitud 77 grados desde el oeste y latitud 30 grados desde el sur. Dice que la vio más de una vez: no se encuentra en mar abierto; los barcos llegan a ella a través de una ensenada de agua salada a unas tres millas o menos entre la ciudad y el mar; frente a ella en medio del mar está la isla de Khark, al norte de ella hacia Basora está Mahruban y al sur de ella Siniz; es una pequeña rada donde los barcos que se dirigen a Fars anclan. Algunos siyar dijeron que fue nombrada por Jannaba ibn Tahmurath el rey, y su gente bebe de pozos salobres. {cite:mujam-al-buldan-sader-1995 2 p.165} Corrige a al-Hazimi, quien la hizo un distrito de al-Bahrayn entre Mahruban y Siraf: Mahruban y Siraf están en la costa de Fars como Jannaba, mientras que al-Bahrayn está en la costa árabe frente a Fars; Entre Jannaba y Siraf hay cincuenta y cuatro farsakhs. {cite:mujam-al-buldan-sader-1995 2 p.166} Luego registra que de allí surgió Abu Sa'id al-Hasan al-Jannabi al-Qarmati, quien proclamó la doctrina Qarmati: había sido un vendedor ambulante, fue desterrado de Jannaba, se estableció en al-Bahrayn como comerciante y ganó a su gente a su credo hasta que le respondieron allí y en lo que le concierne; luego se levantó su hijo Sulayman ibn al-Hasan, de quien el libro que cita registra la matanza de peregrinos de la Casa de Dios, el corte del camino a La Meca en sus días, el traslado de la Piedra Negra a al-Qatif y al-Ahsa' en la tierra de al-Bahrayn donde permaneció veintiún años y fue devuelta por un pago, y que su tío y parientes que estaban retenidos en Shiraz fueron sus oponentes en el camino, buscando lo que es justo, y fueron absueltos de los Qarmatis y liberados. {cite:mujam-al-buldan-sader-1995 2 p.166}
+
+## La identificación del museo
+El Jannaba del registro es la gran y populosa ciudad costera de Fars en al-Idrisi, y es la pequeña rada que Yaqut vio personalmente; su descripción de su acceso a la ensenada de sal y la isla de Khark frente a ella coincide con su ubicación, y sus cincuenta y cuatro farsakhs hasta Siraf se encuentran dentro del rango habitual de farsakhs en comparación con los puntos del museo para Jannaba y Siraf (aproximadamente 277,4 km). La mención de Abu Sa'id al-Jannabi se atribuye a la ciudad de donde provenía, y el relato sobre él y su hijo se cita, como afirma Yaqut, del "libro en disputa" entre al-Balkhi y al-Istakhri.

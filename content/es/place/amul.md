@@ -1,0 +1,21 @@
+---
+id: place/amul
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/place/amul.md}
+---
+## Visión general
+Amul, también llamada Amuya: una ciudad a orillas del río Oxus. Sus habitantes lucharon contra Abd Allah ibn al-Rabi ibn Ziyad cuando fue nombrado sucesor como gobernador de Jorasán, y luego él hizo las paces con ellos, según al-Baladhuri. {cite:futuh-buldan-maarif-1407}
+
+## Cuenta de la Enciclopedia del Islam
+La Enciclopedia del Islam (2.ª ed.) sitúa a Amul, también conocida como Amuya o Amu, a unos 5 kilómetros de la margen izquierda del Oxus, a 39 grados 5 minutos N y 63 grados 41 minutos E. En la Edad Media árabe, perteneció a la extensa provincia de Jorasán. Aunque rodeada de desierto, tuvo gran importancia para el comercio de caravanas, al ser punto de encuentro de las rutas que conectaban Jorasán con Transoxiana y Jiva. {cite:encyclopaedia-of-islam-2 vol. 1 p. 481-483}
+
+Isma'il, de la dinastía Samánida, derrotó a Muhammad ibn Bashir y su ejército cerca de Amul en el año 287/900. La ciudad se menciona con frecuencia en las fuentes sobre la invasión mongola y las campañas de Tamerlán. Los escritores medievales la distinguían de la otra Amul añadiendo un calificativo: Amul Zamin, «cerca de Zamm» (la actual Kerki), Amul Djayhun o Amul al-Shatt. Sus nombres Amuya y Amu podrían ser nombres locales más antiguos del Oxus, de los que quizás derive el nombre posterior Amu Darya. El nombre moderno Cardjuy, «los cuatro arroyos», hace referencia al vado sobre el Oxus cercano. {cite:encyclopaedia-of-islam-2 vol. 1 p. 481-483}
+
+Bajo el dominio uzbeko, el cruce del Oxus en Cardjuy era el más importante del río, con barcos siempre listos y puentes de barcos para grandes ejércitos; el ejército de Nadir Shah lo cruzó en 1153/1740. La ciudad nunca fue grande ni sede principesca en este período. Los ferrocarriles rusos llegaron al Amu Darya en 1886, y se construyó un puente ferroviario en 1901. Antes de la Revolución, el casco antiguo era la residencia de un beg de Bujará; junto a la estación, una nueva ciudad rusa con un comandante militar tenía entre 4000 y 5000 habitantes en 1914. {cite:encyclopaedia-of-islam-2 vol. 1 p. 481-483}
+
+Bajo el régimen soviético, Nueva Cardjuy se convirtió en un centro administrativo e industrial. Su población aumentó de 13.959 habitantes en 1926 a 54.500 en 1933, siendo los turcomanos una pequeña minoría. En 1955 era la segunda ciudad de la República Soviética de Turkmenistán y ha sido la capital del óblast desde el 21 de noviembre de 1939. Es una ciudad planificada con un trazado rectilíneo, un importante centro ferroviario, vial y fluvial, y el río Amu Darya es navegable desde Termez hasta el mar de Aral. {cite:encyclopaedia-of-islam-2 vol. 1 p. 481-483}
+
+## En el Mu'jam al-Buldan de Yaqut
+Yaqut menciona dos lugares llamados Amul y describe el segundo como la conocida ciudad al oeste del Jayhun (Oxus), en el camino de Marw a Bujará. Dice que Farabr, hogar de al-Farabri, transmisor de la colección de al-Bujari, se encuentra frente a ella, en la orilla oriental, y que la ciudad está a aproximadamente una milla de la orilla del río. La ubica en el cuarto clima y enumera sus nombres: Amul Zamm, Amul Jayhun, Amul al-Shatt y Amul al-Mafaza (debido a las difíciles arenas que la separan de Marw), y también Amu y Amuwiyya, enfatizando que estos son nombres de una sola ciudad y no de varias. Indica las distancias: cuatro etapas desde Zamm, unas doce etapas desde Khwarazm, treinta y seis farsakhs desde Marw al-Shahijan y diecisiete farsakhs desde Bujará. Afirma que produjo muchos eruditos a quienes los especialistas en hadices distinguen de los eruditos de Amul en Tabaristán, y menciona a Abd Allah ibn Hammad al-Amuli, de quien transmitió al-Bujari y que murió en Rabi al-Akhir 269. Antes de esto, trata sobre Amul de Tabaristán, la ciudad más grande de la llanura. {cite:mujam-al-buldan-sader-1995 1 p.57} {cite:mujam-al-buldan-sader-1995 1 p.58}

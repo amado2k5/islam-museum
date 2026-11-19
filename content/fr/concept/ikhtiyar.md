@@ -1,0 +1,29 @@
+---
+id: concept/ikhtiyar
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/ikhtiyar.md}
+---
+## Définition
+Ikhtiyar signifie, dans le lexique, préférer une chose à une autre ; en tant que terme technique, l'intention envers une chose qui se situe entre l'existence et la non-existence, qui est du ressort de l'agent et qui est réglée par la préférence d'un côté ou de l'autre. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1964}
+## Termes associés
+Un khiyar est une option accordée soit par le législateur, comme l'option de puberté, soit par une partie contractante, comme l'option de stipulation ; toute option est suivie d'un choix, mais tout choix ne repose pas sur une option. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1964}
+Dans l'usage des juristes, irada désigne l'intention, la résolution d'accomplir un acte et de s'y orienter ; un divorce conditionnel par allusion prend effet si le mari l'avait prévu. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1964}
+Pour les Hanafites, le consentement (rida) n'est pas la même chose que le choix : le consentement est une satisfaction intérieure et les deux ne vont pas nécessairement de pair, puisqu'une personne peut choisir ce qu'elle n'aime pas. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1965}
+## Contrainte, consentement et choix
+Les hanafites établissent une limite en matière de coercition : la coercition non contraignante, comme la crainte de coups ou de chaînes, altère le consentement mais non le choix ; la coercition contraignante supprime le consentement et altère le choix. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1965}
+## Conditions d'un choix valable
+Pour qu'un choix soit valable, celui qui le fait doit être responsable et libre de ses intentions, sans que personne ne puisse exercer d'autorité sur lui. Un choix est invalide si une condition de responsabilité fait défaut, comme chez un fou ou un enfant incapable de discernement, ou s'il repose sur le choix d'autrui ; une personne contrainte d'accomplir un acte par une contrainte qui supprime sa volonté agit pour repousser cette contrainte, de sorte que son choix est invalide car il dépend du choix de celui qui exerce la contrainte. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1965}
+En cas de conflit entre un choix valide et un choix invalide, le choix valide est privilégié lorsque l'acte peut lui être attribué ; dans le cas contraire, l'acte reste attribué au choix invalide, comme pour les déclarations ou actes obtenus sous la contrainte, ou pour lesquels une personne ne peut être instrumentalisée, tels que manger ou avoir des rapports sexuels. Le détail est fourni sous la rubrique « Contrainte ». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1965}
+## Qui accorde le choix
+Le choix est accordé par le législateur, comme celui qui se purifie après avoir fait ses besoins choisit entre l'eau et les pierres, ou celui qui a manqué à son serment choisit parmi les expiations ; ou par une autre partie, comme un associé offre à son copropriétaire le choix de racheter sa part, de la lui vendre ou de vendre l'ensemble du magasin à un tiers. Seul le titulaire du droit, ou son représentant légal, peut l'accorder. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1965}
+## Quel choix s'applique à
+Il existe deux types de droits : les droits de Dieu et les droits humains. Concernant les droits de Dieu, tels qu’une obligation précise comme la prière ou une interdiction comme la fornication, le serviteur n’a aucun choix quant à sa responsabilité. En revanche, concernant les droits humains, tels que la dette, le don, la résolution pour vice ou le droit de préemption, il dispose d’un choix, accordé par le législateur et non fondé sur une autorité indépendante, comme l’a formulé al-Shatibi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1966}
+S’il faut choisir entre deux choses licites, on peut choisir l’une ou l’autre ; entre deux choses interdites, il faut choisir celle qui cause le moins de tort lorsqu’on est contraint de choisir ; entre une chose licite et une chose interdite, on ne peut choisir que la licite. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1966}
+## Récompense, punition et sagesse
+Le choix est une condition de la récompense et du châtiment dans l'au-delà, et du châtiment dans ce monde. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1966}
+Le libre choix a été institué pour garantir les intérêts des personnes, ce qui figure parmi les objectifs de la loi. Cet intérêt peut appartenir à celui qui choisit, à une autre personne lorsque le choix lui est limité, ou il peut être collectif. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1966}
+## Là où le choix est traité
+Les juristes abordent la question du choix dans de nombreux contextes : le choix de celui qui se purifie après avoir fait ses besoins ; le choix, pour une personne priant seule, entre la récitation à voix haute et la récitation silencieuse ; le choix, pour un voyageur, de combiner ou non les prières ; le choix, pour un pèlerin, entre l’ifrad, le tamattu’ et le qiran ; le choix, pour un mari, en cas de divorce révocable ; le choix, pour un enfant, du parent chez qui il doit résider à la fin de la garde, selon certains juristes ; le choix, pour le titulaire d’un droit de préemption, de prendre ou de laisser ; le choix, pour l’imam, des terres conquises par la force ; et le choix, par le juge, d’une peine dissuasive dans le cadre d’une sanction discrétionnaire. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1966} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1967}
+Chacune est traitée sous sa propre rubrique, et les options contractuelles telles que la puberté, l'affranchissement, le défaut et la division d'un contrat y sont également abordées. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1967}

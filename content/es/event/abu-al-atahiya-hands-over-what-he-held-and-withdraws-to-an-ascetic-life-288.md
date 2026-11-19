@@ -1,0 +1,12 @@
+---
+id: event/abu-al-atahiya-hands-over-what-he-held-and-withdraws-to-an-ascetic-life-288
+lang: es
+source_lang: en
+translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
+provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-es-2026-11-18, source: content/en/event/abu-al-atahiya-hands-over-what-he-held-and-withdraws-to-an-ascetic-life-288.md}
+---
+## Visión general
+[[person/abu-al-atahiya-ibn-bishr|Abu al-Atahiya]] entregó a [[person/al-hadi-yahya-al-rassi|al-Hadi]] todo lo que tenía en sus manos: dinero en efectivo, camellos, caballos, armas y mobiliario, todo lo cual, según las palabras del narrador, él y otros habían reunido de los bienes de Dios; al-Hadi lo aceptó y le ofreció a Abu al-Atahiya una participación en algunos de sus asuntos, a lo que éste respondió: No deseo eso, Comandante de los Creyentes, sino que me permita ser su servidor {cite:sira-hadi-ila-al-haqq p.210}. Se retiró entonces a una casa que había construido en una de sus propiedades, donde, según el narrador, llevaba ropas de lana y mostraba una vida de abstinencia y austeridad {cite:sira-hadi-ila-al-haqq p.210}.
+
+## Detalle
+El narrador dice que escuchó a [[person/al-murtada-muhammad|Abu al-Qasim]], a quien identifica como Abu al-Qasim Muhammad ibn Yahya, decir: Abu al-Atahiya se presentó a nosotros un día y noté que su rostro había cambiado, y le dije: ¿por qué te haces esto a ti mismo cuando te necesitas? Come. Él respondió: no, ¡por Dios!, hijo del Mensajero de Dios, no lo haré hasta que esta carne que he soportado debido a lo ilícito desaparezca, y entonces comeré {cite:sira-hadi-ila-al-haqq p.210} {cite:sira-hadi-ila-al-haqq p.211}. Añade que le llegó la información de que Abu al-Atahiya dijo: ¡por Dios!, si pudiera salir de esta situación en la que me encuentro y tener un manto de lana para ponerme, lo consideraría algo mejor para mí {cite:sira-hadi-ila-al-haqq p.211}. Tanto lo anterior como lo siguiente son relatos del narrador sobre lo que dijo Abu al-Atahiya y sobre lo que le contó el hijo de al-Hadi; el museo no se pronuncia sobre la descripción que el narrador hace de la riqueza o el ascetismo de Abu al-Atahiya, y solo transmite lo que se dijo. La identificación de Abu al-Qasim Muhammad ibn Yahya aquí apoya la idea de vincularlo con el hijo de al-Hadi.

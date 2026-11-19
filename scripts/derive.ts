@@ -4,6 +4,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { Compiled, Node } from "./build-graph.js";
 import { p, readYaml } from "./lib.js";
+import { readBigJson } from "./lib/graph-file.mjs";
 
 const sorted = <T>(a: T[], f: (t: T) => number) => [...a].sort((x, y) => f(x) - f(y));
 
@@ -173,7 +174,7 @@ export function derive(c: Compiled) {
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
-  const c: Compiled = JSON.parse(readFileSync(p(".cache", "graph.json"), "utf8"));
+  const c: Compiled = readBigJson(p(".cache", "graph.json"));
   const d = derive(c);
   mkdirSync(p(".cache", "derived"), { recursive: true });
   for (const [k, v] of Object.entries(d)) writeFileSync(p(".cache", "derived", `${k}.json`), JSON.stringify(v));

@@ -7,7 +7,7 @@ translators: []
 
 ## خلاصہ
 
-وعد الخطیب (پیدائش تقریباً 1991) ایک سوری صحافی و فلم ساز کا تخلصی نام ہے جن کی دستاویزی فلم «فور سما» (2019) نے بافٹا جیتا اور آسکر کے لیے نامزد ہوئی {cite:wikipedia-waad-al-kateab-en} {cite:wikipedia-waad-al-kateab-ar}۔ وہ 2020 میں ٹائم 100 میں شامل ہوئیں {cite:wikipedia-waad-al-kateab-en}۔
+وعد الخطیب ⁦(پیدائش تقریباً 1991)⁩ ایک سوری صحافی و فلم ساز کا تخلصی نام ہے جن کی دستاویزی فلم «فور سما» (2019) نے بافٹا جیتا اور آسکر کے لیے نامزد ہوئی {cite:wikipedia-waad-al-kateab-en} {cite:wikipedia-waad-al-kateab-ar}۔ وہ 2020 میں ٹائم 100 میں شامل ہوئیں {cite:wikipedia-waad-al-kateab-en}۔
 
 ## زندگی و کام
 
