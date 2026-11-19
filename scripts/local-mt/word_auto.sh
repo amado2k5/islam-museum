@@ -29,6 +29,7 @@ translate() {
   done
   return 1
 }
+EMPTY=0
 while :; do
   [ -f "$H/STOP-word" ] && { say "STOP file present; exit"; exit 0; }
   NAME="wd-$L-$(printf '%03d' "$N")"
@@ -43,6 +44,7 @@ while :; do
   OUT=$(sh "$DIR/word_round.sh" finish "$L" "$N" 2>&1); rc=$?; rmdir /tmp/local-mt-ship.lock
   say "$NAME: $(echo "$OUT" | grep -E "records in the file|MERGED|nothing new|FAILED|CONFLICT|error" | tr '\n' ' ' | cut -c1-300)"
   echo "$OUT" | grep -qE "VALIDATE FAILED|MERGE CONFLICT|no translated file" && { say "$NAME: shipping problem; stopping"; exit 1; }
-  echo "$OUT" | grep -q " ok " || { say "$NAME: nothing imported; stopping"; exit 1; }
+  if echo "$OUT" | grep -q " ok "; then EMPTY=0; else EMPTY=$((EMPTY + 1)); say "$NAME: nothing imported ($EMPTY in a row)"; fi
+  [ "$EMPTY" -ge 4 ] && { say "four files in a row with nothing imported; stopping"; exit 1; }
   N=$((N + 1)); sleep 20
 done
