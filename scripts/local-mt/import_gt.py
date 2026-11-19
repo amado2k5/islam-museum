@@ -20,8 +20,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from translate import BROKEN, FIXED_HEADINGS, LEVELED, ROOT, check, protect, restore  # noqa: E402
 
 REC = re.compile(r"^\s*#{3,4}\s*(\d+)\s*#{3,4}\s*$")
-ERA = {"es": [(r"(\d) (?:AH|d\. ?H\.|A\.H\.)(?![\w.])", r"\1 H"), (r"(\d) (?:BCE|a\. ?e\. ?c\.|AEC)(?![\w.])", r"\1 a. C."), (r"(\d) (?:CE|e\. ?c\.|EC)(?![\w.])", r"\1 d. C.")],
-       "fr": [(r"(\d) (?:AH|A\.H\.)(?![\w.])", r"\1 H"), (r"(\d) (?:BCE|av\. ?n\. ?è\.)(?![\w.])", r"\1 av. J.-C."), (r"(\d) (?:CE|EC|de notre ère)(?![\w.])", r"\1 apr. J.-C.")]}
+ERA = {"es": [(r"(\d) (?:AH|d\. ?H\.|A\.H\.)(?!\w)", r"\1 H"), (r"(\d) (?:BCE|a\. ?e\. ?c\.|AEC)(?!\w)", r"\1 a. C."), (r"(\d) (?:CE|e\. ?c\.|EC)(?!\w)", r"\1 d. C.")],
+       "fr": [(r"(\d) (?:AH|A\.H\.)(?!\w)", r"\1 H"), (r"(\d) (?:BCE|av\. ?n\. ?è\.)(?!\w)", r"\1 av. J.-C."), (r"(\d) (?:CE|EC|de notre ère)(?!\w)", r"\1 apr. J.-C.")]}
 
 
 def paragraphs(path):
@@ -33,6 +33,13 @@ def paragraphs(path):
         while core and (core[0] in "«“" or (core.startswith("(") and core.count("(") > core.count(")"))): lead += core[0]; core = core[1:].lstrip()
         return "<w:t>" + html.escape(f"{lead}<x{m.group(1)}>{core}</x{m.group(1)}>{trail}", quote=False) + "</w:t>"
 
+    # Google Docs renames the anchors (x1 -> "98ct4i7k3fb7") but keeps one name per anchor. xN is in a paragraph only
+    # if x1..xN-1 are, so the anchors' frequencies fall in the order of N; a tie is left unmapped (its records fail).
+    names = collections.Counter(re.findall(r'<w:hyperlink\b[^>]*w:anchor="([^"]+)"', x))
+    if any(not re.fullmatch(r"x\d+", n) for n in names):
+        ranked = names.most_common()
+        alias = {n: i + 1 for i, (n, c) in enumerate(ranked) if all(c != c2 for j, (_, c2) in enumerate(ranked) if j != i)}
+        x = re.sub(r'(<w:hyperlink\b[^>]*w:anchor=")([^"]+)(")', lambda m: f"{m.group(1)}x{alias[m.group(2)]}{m.group(3)}" if m.group(2) in alias else m.group(0), x)
     x = re.sub(r'<w:hyperlink\b[^>]*w:anchor="x(\d+)"[^>]*>(.*?)</w:hyperlink>', link, x, flags=re.S)
     return [html.unescape("".join(re.findall(r"<w:t[^>]*>(.*?)</w:t>", m.group(0), re.S))) for m in re.finditer(r"<w:p[ >].*?</w:p>|<w:p/>", x, re.S)]
 
@@ -40,7 +47,7 @@ def paragraphs(path):
 def tidy(s):
     s = s.replace(" ", " ").replace(" ", " ")
     s = re.sub(r"<\s*(/?)\s*x\s*(\d+)\s*>", r"<\1x\2>", s, flags=re.I)  # "< x1 >", "</ X1>"
-    s = re.sub(r"(?<=[\w»”)\]])(<x\d+>)", r" \1", s); s = re.sub(r"(</x\d+>)(?=[\w«“(])", r"\1 ", s)  # a link glued to its neighbour word
+    s = re.sub(r"(?<=[\w»”)\],;:])(<x\d+>)", r" \1", s); s = re.sub(r"(</x\d+>)(?=[\w«“(])", r"\1 ", s)  # a link glued to its neighbour word
     s = re.sub(r"\[\s*\[\s*(\d+)\s*\]\s*\]", r"[[\1]]", s)
     s = re.sub(r" {2,}", " ", s)
     s = re.sub(r"\( +", "(", s); s = re.sub(r" +(?=[.,)])", "", s)  # spaces Google leaves around a moved link
@@ -82,6 +89,7 @@ def main():
     ap.add_argument("--docx", required=True)
     ap.add_argument("--log", required=True)
     ap.add_argument("--out", default=ROOT)
+    ap.add_argument("--engine", default="google", choices=["google", "word"], help="who translated the file: Google Translate documents, or Word for Mac (Microsoft Translator)")
     ap.add_argument("--taken", default="", help="file of ids another lane is translating; never written")
     ap.add_argument("--date", default=time.strftime("%Y-%m-%d"), help="day the file was translated on translate.google.com")
     a = ap.parse_args()
@@ -135,12 +143,13 @@ def main():
                 tr_body = "\n".join(out)
                 problem = check(body, tr_body, lang)
                 if problem: raise ValueError(problem)
-                new = {"id": ident, "lang": lang, "source_lang": "en",
-                       "translators": [f"Google Translate (document translation on translate.google.com, {a.date}), draft translation"]}
+                who = (f"Google Translate (document translation on translate.google.com, {a.date})", "google-translate", "Google Translate documents", "gt-docs") if a.engine == "google" else \
+                      (f"Microsoft Translator (Translate Document in Word for Mac, {a.date})", "microsoft-translator", "Word for Mac Translate Document", "word-docs")
+                new = {"id": ident, "lang": lang, "source_lang": "en", "translators": [f"{who[0]}, draft translation"]}
                 for k, v in fm.items():
                     if k not in ("id", "lang", "source_lang", "translators", "provenance", "translation_of"): new[k] = v
-                new["provenance"] = {"generated_by": "scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)",
-                                     "model": "google-translate", "run": f"gt-docs-{lang}-{a.date}", "source": f"content/en/{ident}.md"}
+                new["provenance"] = {"generated_by": f"scripts/local-mt/import_gt.py (spanish lane, {who[2]}, managed by Claude Code)",
+                                     "model": who[1], "run": f"{who[3]}-{lang}-{a.date}", "source": f"content/en/{ident}.md"}
                 text = "---\n" + yaml.safe_dump(new, allow_unicode=True, sort_keys=False, width=10000, default_flow_style=None).rstrip("\n") + "\n---\n" + tr_body
                 if not text.endswith("\n"): text += "\n"
                 os.makedirs(os.path.dirname(target), exist_ok=True)
@@ -149,7 +158,8 @@ def main():
                 note("ok", ident, words=len(body.split()))
             except ValueError as e:
                 note("failed", ident, reason=str(e)[:200])
-                with open(a.log + ".failed", "a", encoding="utf-8") as ff: ff.write(f"{ident}\t{e}\n")
+                if not (a.engine == "word" and str(e) == "looks untranslated"):  # Word leaves the tail of a long file in English: those records simply go into a later file
+                    with open(a.log + ".failed", "a", encoding="utf-8") as ff: ff.write(f"{ident}\t{e}\n")
     print(f"{lang}: {len(records)} records in the file; " + ", ".join(f"{k} {v}" for k, v in tally.most_common()))
 
 

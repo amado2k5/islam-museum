@@ -19,6 +19,7 @@ ap.add_argument("--lang", required=True, choices=["es", "fr", "both"], help="bot
 ap.add_argument("--dir", required=True)
 ap.add_argument("--n", type=int, required=True, help="file number")
 ap.add_argument("--bytes", type=int, default=990_000)
+ap.add_argument("--chars", type=int, default=0, help="stop before this many source characters (Word for Mac translates only about the first 390,000)")
 ap.add_argument("--taken", default="")
 ap.add_argument("--failed", default="")
 ap.add_argument("--home", default="/Volumes/exmicroSD/islam-museum-local-mt", help="for --lang both: where fr-taken.txt and logs/gt-<lang>.log.failed live")
@@ -43,7 +44,7 @@ def docx_bytes(paras):
     return buf.getvalue()
 
 
-records, paras, sizes, words, est = [], [], [], 0, 0
+records, paras, sizes, words, est, chars = [], [], [], 0, 0, 0
 def run(t): return f'<w:r><w:t xml:space="preserve">{escape(t)}</w:t></w:r>' if t else ""
 
 
@@ -92,6 +93,9 @@ for ident in ids:
         prefix, text = (mm.group(1), mm.group(2)) if mm else ("", line)
         src, kept, links = protect(text)
         lines.append({"prefix": prefix, "kept": kept, "links": links, "en": text}); srcs.append(src)
+    size = sum(len(x) for x in srcs) + 12
+    if a.chars and records and chars + size > a.chars: break
+    chars += size
     for scheme in a.scheme.split(","):
         new = [run(f"#### {len(records) + 1} ####")] + [render(x, scheme) for x in srcs]
         est += sum(len(x.encode("utf-8")) for x in srcs) * 0.36
