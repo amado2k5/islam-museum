@@ -1,0 +1,9 @@
+---
+id: concept/maai-fiqh
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/maai-fiqh.md}
+---
+## Résumé
+Mai', dans le lexique, est un liquide ou une chose fondante, et son sens technique ne s'en écarte pas {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13792}. Parmi ses jugements : la purification par liquides. La plupart des juristes estiment que seule l'eau absolue élimine l'impureté rituelle mineure et élimine l'impureté physique ; d'autres acceptent tout liquide pur qui purifie {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13793}. Concernant la contamination, les Malikis, les Shafi'is et, dans la narration plus forte, les Hanbalis soutiennent que tout liquide autre que l'eau absolue devient impur au contact d'une impureté ; les Hanafis et une narration d'Ahmad soutiennent qu'un liquide n'est impur que par ce qui rend l'eau impure ; Ibn Abidin affirme que la vision la plus forte est que tous les liquides sont comme de l'eau {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13793-13794}. La plupart des juristes estiment qu'un liquide contaminé ne peut être purifié, contrairement aux huiles et au ghee que certains disent pouvoir être lavés ; le mercure est excepté par certains Shafi'is et Hanbalis {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13795-13796}. Les Hanafis, Malikis et Hanbalis interdisent d'utiliser la graisse d'une charogne pour quoi que ce soit, y compris des lampes ; les Shafi'is permettent à contrecœur l'éclairage avec de l'huile contaminée à l'extérieur de la mosquée, à contrecœur {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13796-13797}.

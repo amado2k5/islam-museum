@@ -1,0 +1,9 @@
+---
+id: concept/siege-hisar
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/siege-hisar.md}
+---
+## Résumé
+Le siège (hisar) consiste à enfermer un ennemi dans une ville, un château ou une forteresse, et couper l'entrée et la sortie jusqu'à sa reddition. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7107} Le souverain ou son adjoint peut assiéger légalement les incroyants de leurs terres et forteresses par consensus, même lorsque des femmes et des enfants sont parmi eux, et que le Prophète a assiégé le peuple de Ta'if. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7107} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7108} Lorsque le souverain assiège une forteresse, il peut la prendre de cinq manières : il accepte l'islam et son sang, ses biens et ses jeunes enfants sont sécurisés ; ils offrent de l'argent pour une trêve ou une taxe de capitation ; il le conquiert ; il juge bon de se retirer ; ou ils se soumettent à la décision d'un juge. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7108} L'islam accepté lors d'un siège avant la reddition assure la vie et les biens ; après la conquête, il ne garantit que la vie. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7108} En ce qui concerne le siège des rebelles, les Shafi'is interdisent de leur refuser nourriture et boisson, tandis que les Malikis permettent de refuser des provisions et de l'eau à moins que des femmes et des enfants ne soient parmi eux. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7109} Lorsque les assiégés offrent de l'argent pour lever le siège, le souverain n'accepte pas à moins que les musulmans ne soient victimes de destruction. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7109}
