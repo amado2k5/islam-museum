@@ -14,10 +14,10 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 عجائب گھر کے مواد کے مطابق اس مکان کے بارے میں یہ ہیں: یہاں ہونے والے واقعات: 5، یہاں پیدا ہونے والے: 1، یہاں وفات پانے والے: 10، یہاں کا قصد کرنے والے: 51۔
 
 ### یہاں ہونے والے واقعات
-- [[event/first-migration-to-abyssinia|حبشہ کی طرف پہلی ہجرت]] (615ء)
-- [[event/second-migration-to-abyssinia|حبشہ کی طرف دوسری ہجرت]] (616ء)
-- [[event/return-of-abyssinian-emigrants|جعفر بن ابی طالب کے ساتھ حبشہ کے مہاجرین کی واپسی]] (628ء)
-- [[event/emigrants-carried-in-two-ships|نجاشی کا حبشہ کے مہاجرین کو دو کشتیوں میں نبی کے پاس بھیجنا]] (628ء)
+- [[event/first-migration-to-abyssinia|حبشہ کی طرف پہلی ہجرت]] ⁦(615ء)⁩
+- [[event/second-migration-to-abyssinia|حبشہ کی طرف دوسری ہجرت]] ⁦(616ء)⁩
+- [[event/return-of-abyssinian-emigrants|جعفر بن ابی طالب کے ساتھ حبشہ کے مہاجرین کی واپسی]] ⁦(628ء)⁩
+- [[event/emigrants-carried-in-two-ships|نجاشی کا حبشہ کے مہاجرین کو دو کشتیوں میں نبی کے پاس بھیجنا]] ⁦(628ء)⁩
 - [[event/ubaydullah-ibn-jahsh-leaves-islam-in-abyssinia|حبشہ کی سرزمین میں عبیداللہ بن جحش کا نصرانی ہو جانا]]
 
 ### یہاں پیدا ہونے والے

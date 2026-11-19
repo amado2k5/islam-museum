@@ -1,0 +1,9 @@
+---
+id: concept/insects-hasharat
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/insects-hasharat.md}
+---
+## Resumen
+Los insectos (hasharat) son las pequeñas criaturas de la tierra y sus alimañas; algunos dicen que las alimañas de la tierra sin veneno. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7091} Sobre comerlos hay dos puntos de vista: los hanafíes, shafiíes y hanbalíes prohíben todos excepto la langosta, los shafiíes y hanbalíes permiten el lagarto y animales pequeños similares, y los malikíes permiten todos excepto el cerdo, mientras que algunos malikíes los prohíben. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7091} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7092} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7093} Las criaturas con sangre deben ser sacrificadas antes de comerlas; la langosta no necesita ser sacrificada según la mayoría, pero los malikíes lo requieren. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7094} Matar insectos no está prescrito ni prohibido en general: los dañinos, como las cinco alimañas, la serpiente, el gecko y el ratón, pueden ser matados, mientras que los shafiíes prohíben matar la hormiga salomónica, la abeja y la rana. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7095} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7096} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7097} Los hanafíes, shafiíes y hanbalíes no consideran a los insectos como presa para el peregrino en ihram, y los malikíes permiten matar a uno dañino para eliminar el daño. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7097} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7098}

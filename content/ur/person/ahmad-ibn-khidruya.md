@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b14, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/41-43" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b14, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/41-43" }
 ---
 ## خلاصہ
 احمد بن خضر، جو ابن خضرویہ بلخی کے نام سے معروف ہیں، خراسان کے مشائخ میں سے تھے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» میں ان کا ترجمہ ⁦(نمبر 459)⁩ [[person/bayazid-al-bistami|ابو یزید بسطامی]] کے فوراً بعد رکھا ہے۔ وہ انہیں خراسان کا شیخ کہتے ہیں، جو فتوت اور تجرید میں مشہور تھے۔ مشرق کے جن مشائخ کو ابو نعیم نے اختصار سے ذکر کیا، ان میں یہ پہلے ہیں۔ اس حصے میں ان کا اعتماد [[person/al-sulami|سلمی]] کی «[[work/tabaqat-al-sufiyya-sulami|طبقات الصوفیہ]]» پر ہے۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/41-42}

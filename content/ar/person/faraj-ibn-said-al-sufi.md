@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b73, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/162-163" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b73, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/162-163" }
 ---
 ## موجز
 أبو روح الفرج بن سعيد الصوفي، لوم طريق الأئمة والأوتاد، ونقل منهم ما يُتعالج به العباد. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 534)⁩ في الصفحتين 162 و163، وتسلسله 535. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/162} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/163}

@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b68, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/154-155" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b68, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/154-155" }
 ---
 ## خلاصہ
 ہلال بن الوزیر صوفی اپنے علیم و خبیر آقا کی پناہ لیتے تھے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 521)⁩ صفحات 154 اور 155 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 521 ہے، تسلسل میں 522۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/154} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/155}

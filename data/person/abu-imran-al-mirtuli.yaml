@@ -27,6 +27,6 @@ status:
 born: { edtf: "1128", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 7 p. 322: 522 AH = 1128 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1207", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 7 p. 322: 604 AH = 1207 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (أندلسي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name ⁦(أندلسي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: lived_in, target: place/seville, note: "Al-Zirikli, al-A'lam vol. 7 p. 322: lived in Seville.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
   - { type: died_in, target: place/fez, note: "Al-Zirikli, al-A'lam vol. 7 p. 322: died at Fes and was buried outside Bab al-Futuh.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

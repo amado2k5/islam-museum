@@ -1,0 +1,15 @@
+---
+id: concept/istirkha-al-lisan
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/istirkha-al-lisan.md}
+---
+## Su causa y las señales del asunto
+La relajación de la lengua se encuentra entre los tipos de relajación ya nombrados, según la causa conocida: puede provenir de una humedad acuosa sanguínea, de una causa en el cerebro, o en su nervio motor o la rama que viene de él a la lengua; lo que viene con la participación del cerebro y lo que no se dice como en los otros órganos que obtienen sentido y movimiento del cerebro. Que la materia es sanguínea se muestra por el enrojecimiento y calor de la lengua; que es delgada y acuosa por el gran flujo de saliva delgada, poco beneficio de los disolventes y beneficio de lo que tiene poder astringente {cite:canon-ibn-sina-print-v2 p.255}
+## Los defectos del habla y el estado de los niños
+La relajación puede llevar a la lengua a la pérdida del habla, su dificultad o su alteración, entre ellos el fa'fa', el tamtam, el muta'ti' y el ceceo (el fa'fa' es aquel que repite mucho el fa' o a quien la salida del habla le impide hablar; el tamtam que se equivoca en la pronunciación como si sus letras fueran ta' y mim; el muta'ti' que es incapaz de hablar; el ceceante que no puede pronunciar un sonido ra' y lo dice lam o ghayn, según la explicación de los copistas). Algunos niños son incapaces de hablar durante mucho tiempo; entre los tartamudos hay uno sobre quien cae una enfermedad grave y cuya lengua se libera al derretirse la humedad del tartamudeo retenida en las raíces de sus nervios; y así el niño ceceante cuya humedad se modera a medida que crece vuelve a ser elocuente {cite:canon-ibn-sina-print-v2 p.256}
+## Su tratamiento
+Se purifica el cuerpo, luego se dirige a la cabeza con sus propios medicamentos como se enseña en el tratamiento de las enfermedades de la cabeza; en cuanto a los medicamentos específicos para el lugar, lo más común es frotar con disolventes cortantes, hacer gárgaras con sus aguas y enjuagarse con ellos, y se puede beneficiar de frotar la lengua hasta que fluya mucha saliva; estos medicamentos y otros similares también se colocan en el cuello, y se pueden hacer píldoras con ellos amasándolos con lo que ralentiza su disolución, una píldora sostenida debajo de la lengua; y si el niño tarda en hablar, se le debe mover y frotar la lengua y hacer que fluya la saliva (se omiten las recetas, nombres y cantidades) {cite:canon-ibn-sina-print-v2 p.256} {cite:canon-ibn-sina-print-v2 p.257}
+## Un informe publicado
+Se colocó una ventosa a un hombre y la lanceta golpeó un filamento nervioso junto a la membrana unida a la lengua, lo que relajó la lengua (un suceso que el libro relata como un informe, no como un procedimiento) {cite:canon-ibn-sina-print-v2 p.258}

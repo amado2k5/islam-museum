@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b44, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/128-130" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b44, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/128-130" }
 ---
 ## موجز
 محمد بن عمرو المغربي. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة 471)⁩، ويصفه بأنه كان في التعبد بمشاهدة معبوده، طاهرًا عن مشاركة المطعمين، غائبًا عنهم. وتمتد الترجمة من الصفحة 128 إلى أول الصفحة 130. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/128-130}

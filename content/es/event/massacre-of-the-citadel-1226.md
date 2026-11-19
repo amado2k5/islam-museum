@@ -1,0 +1,24 @@
+---
+id: event/massacre-of-the-citadel-1226
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/massacre-of-the-citadel-1226.md}
+---
+## Resumen
+Entre los acontecimientos de 1226 H, [[person/abd-al-rahman-al-jabarti|al-Jabarti]] en [[work/ajaib-al-athar|Aja'ib al-athar]] describe cómo las tropas de [[person/muhammad-ali-pasha|Muhammad Ali Pasha]] mataron a los emires mamelucos egipcios y a sus seguidores en la [[building/citadel-of-cairo|Ciudadela de El Cairo]] el viernes 6 de Safar, y luego los persiguieron por las casas de la ciudad. Algunos manuscritos llevan un encabezado marginal para el pasaje: «relato de la matanza de los emires egipcios y sus seguidores». {cite:ajaib-al-athar-moreh-2013-v4 p.176} {cite:ajaib-al-athar-moreh-2013-v4 p.177}
+
+## La preparación
+Al-Jabarti relata que el Pachá nombró a su hijo Tusun Pachá comandante de la fuerza con destino al Hiyaz, fingió prisa, pidió a los astrólogos que escogieran una hora para investir a su hijo con la túnica de partida y difundió el rumor de que enviaba tropas a Siria bajo el mando de Shahin Bey al-Alfi; Al-Jabarti llama a esto "uno de los engaños". {cite:ajaib-al-athar-moreh-2013-v4 p.176} El jueves, el alay chavush recorrió los mercados proclamando la procesión "al estilo antiguo", y se hicieron circular avisos entre los oficiales superiores y los emires egipcios convocándolos a la Ciudadela temprano en el día con sus mejores galas. {cite:ajaib-al-athar-moreh-2013-v4 p.176} {cite:ajaib-al-athar-moreh-2013-v4 p.177}
+
+## El viernes
+Los emires subieron con sus mamelucos y seguidores, visitaron al pachá, bebieron café y rieron con él; luego la procesión partió: los delis, luego el gobernador, el inspector del mercado, el agha y los regimientos, luego los emires egipcios, luego las tropas. {cite:ajaib-al-athar-moreh-2013-v4 p.177} Al-Jabarti dice que el pachá lo había planeado durante la noche con Hasan pachá, Salih Quch y la kethüda solamente, y se lo contó a Ibrahim Agha, agha de la puerta, por la mañana. Cuando los delis y los que venían detrás hubieron salido de la puerta de Azab, Salih Quch ordenó que se cerrara la puerta; los emires quedaron atrapados en el empinado pasaje excavado en la roca sobre la puerta de Azab, con soldados apostados en las murallas de arriba, y fueron acribillados desde abajo y desde arriba, sin poder retroceder para alcanzar a los caballos amontonados en el desfiladero. {cite:ajaib-al-athar-moreh-2013-v4 p.177} Shahin Bey, Sulayman Bey al-Bawwab y otros desmontaron y volvieron a subir con las espadas desenvainadas al patio central que daba al Salón de las Columnas; Shahin Bey fue herido, le cortaron la cabeza y la llevaron ante el Pachá; Sulayman Bey escaló el muro de la gran torre y fue atacado a tiros hasta que cayó. {cite:ajaib-al-athar-moreh-2013-v4 p.177}
+
+Al-Jabarti relata que las tropas no perdonaron a ninguno de los "hijos de notables" ni a los ciudadanos que se habían vestido como los emires para honrar la procesión, aunque gritaban "No soy soldado ni mameluco"; los que fueron capturados con vida fueron encarcelados y luego decapitados uno tras otro en el patio del Diwan hasta bien entrada la noche. {cite:ajaib-al-athar-moreh-2013-v4 p.177} {cite:ajaib-al-athar-moreh-2013-v4 p.178}
+
+## En la ciudad
+Ante el alboroto, la gente huyó de las tiendas; luego las tropas se dispersaron por las casas de los emires y sus vecinos para saquearlas, arrastraron a mujeres y esclavas y les robaron sus joyas; al-Jabarti relata que un soldado le cortó la mano a una mujer al no poder quitarle rápidamente su brazalete. {cite:ajaib-al-athar-moreh-2013-v4 p.178} Muchas casas de notables que no se encontraban entre los emires atacados también fueron saqueadas, incluyendo algunas al servicio del propio Pachá. {cite:ajaib-al-athar-moreh-2013-v4 p.179} El sábado, el Pachá bajó de la Ciudadela y reprendió a los policías por el saqueo; al-Jabarti comenta que fueron los primeros en saquear. {cite:ajaib-al-athar-moreh-2013-v4 p.179}
+
+## El peaje
+Al-Jabarti escribe: «Más de mil personas murieron en este suceso: emires, soldados, kashifs y mamelucos». Sus cuerpos fueron transportados en tablones y arrojados a fosas en al-Rumayla, uno encima del otro, siendo el emir indistinguible del resto. Lo califica como «uno de los sucesos más horribles, sin parangón». {cite:ajaib-al-athar-moreh-2013-v4 p.181} De la familia Alfi, solo Ahmad Bey escapó, estando cerca de Bush, y Amin Bey, quien descendió de la Ciudadela y huyó a Siria; Umar Bey al-Alfi fue asesinado en el Fayyum y su cabeza fue enviada, y el gobernador de Minya envió treinta y cinco cabezas. {cite:ajaib-al-athar-moreh-2013-v4 p.181}

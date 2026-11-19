@@ -1,0 +1,9 @@
+---
+id: concept/siege-hisar
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/siege-hisar.md}
+---
+## Resumen
+El asedio (hisar) consiste en cercar a un enemigo en una ciudad, castillo o fortaleza, y cortar la entrada y salida hasta que se rinda. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7107} El gobernante o su adjunto puede sitiar legítimamente a los incrédulos en sus tierras y fortalezas por consenso, incluso cuando hay mujeres y niños entre ellos, y el Profeta sitió al pueblo de Ta'if. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7107} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7108} Cuando el gobernante sitia una fortaleza, puede tomarla de una de cinco maneras: acepta el Islam y su sangre, propiedades y niños pequeños quedan asegurados; ofrecen dinero a cambio de una tregua o un impuesto de capitación; él lo conquista; considera oportuno retirarse; o se someten a la resolución de un juez. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7108} El Islam aceptado durante un asedio antes de la rendición asegura la vida y los bienes; tras la conquista asegura solo la vida. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7108} Al sitiar a los rebeldes, los Shafi'is prohíben negarles comida y bebida, mientras que los Malikis permiten negarles suministros y agua a menos que haya mujeres y niños entre ellos. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7109} Cuando los sitiados ofrecen dinero para levantar el asedio, el gobernante no acepta a menos que los musulmanes enfrenten la destrucción. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7109}

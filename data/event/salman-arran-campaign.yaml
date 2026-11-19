@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0646~", hijri: "0026~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد كتاب عثمان بغزو أران (البلاذري ص 285–287). التحويل مشتق." }
+  start: { edtf: "0646~", hijri: "0026~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد كتاب عثمان بغزو أران ⁦(البلاذري ص 285–287)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/arran }
   - { type: occurred_at, target: place/bardhaa }
@@ -19,7 +19,7 @@ relations:
   - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 285–287"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 285–287"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-17
 sides:

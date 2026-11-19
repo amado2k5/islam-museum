@@ -1,0 +1,26 @@
+---
+id: place/buda
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/place/buda.md}
+---
+## Visión general
+Buda es la orilla occidental de la actual Budapest y, según la tarjeta de lugar, una antigua ciudad independiente del reino de Hungría. En libros árabes sobre historia otomana aparece como una ciudad mencionada junto con la fortaleza de Neuhäusel y la ciudad de Pest: los ejércitos del sultán Solimán el Magnífico entraron en ella en 1526 d. C., y más tarde, según el relato de Ali al-Salabi, pasó a formar parte de Austria entre los años 1097 y 1099 H La página se basa en dos libros: Al-Dawla al-Uthmaniyya de al-Salabi y Hadir al-Alam al-Islami con las notas de Shakib Arslan. Véase [[place/budapest|Budapest]] y [[place/hungary|Hungría]].
+
+## Solimán entra en Buda en 1526
+Sobre los combates con Hungría y el asedio de Viena, al-Salabi dice que el rey de Hungría resolvió cancelar los compromisos que sus predecesores habían dado a los sultanes otomanos, y llegó incluso a matar al enviado del sultán Solimán, que exigía el tributo anual impuesto a Hungría. Solimán respondió en 1521 d. C. con una gran campaña, y las batallas continuaron hasta que los turcos obtuvieron su gran victoria en Mohács en 1526; [[person/sulayman-al-qanuni|Solimán el Magnífico]] entró en Buda el 11 de septiembre de ese año. La resistencia húngara continuó de todos modos, añade, y el sultán mantuvo la presión hasta que sus ejércitos alcanzaron las murallas de [[place/vienna|Viena]], capital del Sacro Imperio Romano Germánico, en 1529; pero la longitud de sus líneas de comunicación, y el cambio de Carlos V de luchar contra Francisco I a negociar con él para concentrarse en los otomanos, hicieron imposible que Solimán tomara Viena, quien se retiró, y la lucha por el control del reino duró hasta su muerte. {cite:dawlat-uthmaniyya-salabi p.202} Véase [[place/mohacs|Mohács]].
+
+## Buda y Pest durante el declive otomano
+Al-Salabi menciona al gran visir Mehmed Köprülü, quien murió en 1072 H (1661 d. C.) y restauró el prestigio del estado, y dice que su hijo Ahmad Köprülü siguió sus pasos, rechazó la paz con Austria y Venecia, dirigió un ejército contra Austria y tomó la fortaleza de Neuhäusel, al este de Viena, el 25 de Safar de 1074 H (28 de septiembre de 1663 d. C.). Luego dice que con la muerte de Ahmad Köprülü el orden otomano se debilitó y Austria atacó Hungría y se apoderó de la fortaleza de Neuhäusel y las ciudades de Pest y Buda; el rey de Polonia saqueó Moldavia, y barcos venecianos saquearon las costas de Morea y Grecia y ocuparon Atenas y Corinto en 1097 AH. Los eruditos y estadistas, escribe, acordaron deponer al sultán Mehmed IV, quien fue depuesto en 1099 H y sucedido por su hermano Sulayman II; el declive continuó durante el reinado de este último y Austria se apoderó de posiciones y ciudades, [[place/belgrade|Belgrado]] entre ellas, en 1099 AH. {cite:dawlat-uthmaniyya-salabi p.308}
+
+Al-Salabi no especifica el año de la pérdida de Buda y Pest. La sitúa en una frase vinculada a los acontecimientos de 1097 y 1099 H, en una historia resumida del estado, no en un relato detallado del asedio de Buda.
+
+## Budapest en Hadir al-Alam al-Islami
+En un capítulo titulado «Fanatismo europeo o fanatismo islámico», el libro sigue los intentos de los papas por unir a los reyes cristianos contra los turcos en tiempos del sultán Selim I y Solimán, y dice que los turcos tomaron Budapest y todo lo que quedaba de Hungría, que permaneció en sus manos durante ciento cuarenta y siete años, sitiaron Viena de tal manera que Carlos V tuvo que buscar una alianza con el rey de Francia por temor a los turcos, y que los turcos hicieron la paz con Austria en 1533. {cite:stoddard-arslan-hadir-1923 3 p.230} El libro aquí usa el nombre moderno Budapest, el nombre de las dos ciudades después de su unión, donde al-Salabi dice Buda y Pest. Véase [[place/ottoman-empire|El Imperio Otomano]].
+
+En un intercambio que Arslan relata con dos hombres de embajadas inglesas que vinieron a verlo a Berlín, argumentando que a los pueblos del Este no se les debería negar la independencia con el argumento de una mejor administración en otros lugares, da como ejemplo que los rumanos que estaban en Hungría estaban más avanzados que los rumanos de la propia Rumania, y que el gobierno de Budapest era muchas veces mejor que el de [[place/bucharest|Bucarest]]. {cite:stoddard-arslan-hadir-1923 4 p.67} Este es un argumento político de principios del siglo XX, puesto en nombre de Arslan; no es una descripción de la ciudad.
+
+## Lo que estas fuentes no dicen
+Los libros consultados no ofrecen información sobre los edificios, baños, mezquitas o habitantes de Buda durante la época otomana, ni indican el año en que dejó de estar bajo dominio otomano, por lo que la página se ciñe a lo expuesto anteriormente. La ficha informativa describe Buda como la parte occidental de Budapest y una antigua ciudad independiente, según Wikidata.

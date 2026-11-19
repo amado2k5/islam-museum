@@ -11,7 +11,7 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 provenance:
   layer: own-research
-  source: "وفيات الأعيان لابن خلكان — الجزء الأول (ترجمة الميداني)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  source: "وفيات الأعيان لابن خلكان — الجزء الأول ⁦(ترجمة الميداني)⁩، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-18
 sources: [source/wafayat-ayan, source/nihayat-al-arab-nuwayri-vol3-scan]
@@ -23,4 +23,4 @@ occupations:
     note: "merge-map link from role 'philologist', Job Browser linking wave 46"
     sources: [source/wafayat-ayan, source/nihayat-al-arab-nuwayri-vol3-scan]
 relations:
-  - { type: lived_in, target: place/nishapur, note: "Place association from the person's nisba/name (النيسابوري); denotes association, not proven residence.", sources: [source/wafayat-ayan, source/nihayat-al-arab-nuwayri-vol3-scan], confidence: low }
+  - { type: lived_in, target: place/nishapur, note: "Place association from the person's nisba/name ⁦(النيسابوري)⁩; denotes association, not proven residence.", sources: [source/wafayat-ayan, source/nihayat-al-arab-nuwayri-vol3-scan], confidence: low }

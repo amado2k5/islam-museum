@@ -17,7 +17,7 @@ wings: [people]
 born: { edtf: "623", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal Agrees with Wikidata Q12194428 (P569, a statement without a reference), item revision 2533388169, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "0685", hijri: "0065", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed 65 AH after Marwan ibn al-Hakam prevailed (al-Isaba p. 1510); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
-  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/ibn-rajab-jami-ulum-hikam, source/usd-al-ghaba, source/bakr-umayyad-state-1134715], confidence: low }
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name ⁦(الأنصاري)⁩; denotes association, not proven residence.", sources: [source/ibn-rajab-jami-ulum-hikam, source/usd-al-ghaba, source/bakr-umayyad-state-1134715], confidence: low }
   - { type: member_of, target: group/sahaba, sources: [source/usd-al-ghaba]}
   - { type: member_of, target: group/ansar, sources: [source/usd-al-ghaba]}
   - { type: member_of, target: group/ansar, note: "al-Isaba p. 1510", sources: [source/ibn-hajar-isaba] }
@@ -31,7 +31,7 @@ sources:
 - source/ibn-hajar-isaba
 provenance:
   layer: own-research
-  source: "جامع العلوم والحكم، الحديث السادس ص 172 (ط دار ابن كثير 1429هـ/2008م)"
+  source: "جامع العلوم والحكم، الحديث السادس ص 172 ⁦(ط دار ابن كثير 1429هـ/2008م)⁩"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-jami-ulum-hikam-batch-3
 status:

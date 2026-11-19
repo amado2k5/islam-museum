@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0630~", hijri: "0009", calendar: julian, precision: year, status: tradition, derived: true, note: "في غزوة تبوك سنة 9هـ (البلاذري ص 79–80). التحويل مشتق." }
+  start: { edtf: "0630~", hijri: "0009", calendar: julian, precision: year, status: tradition, derived: true, note: "في غزوة تبوك سنة 9هـ ⁦(البلاذري ص 79–80)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/ayla }
   - { type: had_participant, target: person/yuhanna-ibn-rubah, role: "صاحب أيلة الذي صالح على الجزية", sources: [source/futuh-buldan-maarif-1407] }
@@ -18,7 +18,7 @@ relations:
   - { type: basis_for, target: concept/jizya, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 79–80"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 79–80"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-3
 sources: [source/futuh-buldan-maarif-1407]

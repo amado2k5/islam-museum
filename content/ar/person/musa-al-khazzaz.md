@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b100, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/396" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b100, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/396" }
 ---
 ## موجز
 أبو عبد الرحمن موسى بن عبد الرحمن الخزاز، الناسك النبيه ذو الفضل الكثير. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 678)⁩ في الصفحة 396، وتسلسله 679. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/396}

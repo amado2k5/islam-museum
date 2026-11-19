@@ -1,0 +1,33 @@
+---
+id: concept/ikhbat
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/ikhbat.md}
+---
+## Résumé
+« Humble tranquillité » (ikhbat) est la dix-septième [[concept/al-maqamat-wal-ahwal|station]] du [[work/madarij-al-salikin|Madarij al-Salikin]]. [[person/ibn-qayyim-al-jawziyya|Ibn al-Qayyim]] l'ouvre avec [[passage/quran-22-34|al-Hajj 34]] et [[passage/quran-22-35|al-Hajj 35]], considérant que le second verset révèle qui sont les mukhbitun, puis avec [[passage/quran-11-23|Hud 23]]. {cite:madarij-salikin-mukhtar-v1 p. 436}
+
+## La Parole et les exégètes
+Ibn al-Qayyim explique que le terme « khabt » signifie à l'origine « terrain bas ». C'est pourquoi [[person/abdullah-ibn-abbas|Ibn Abbas]] et [[person/qatada-ibn-diama|Qatada]] interprètent « mukhbitun » comme désignant les humbles et «[[person/mujahid-ibn-jabr|mujahid]]» comme celui qui repose en Dieu, « khabt » étant un terrain plat et stable. Al-Akhfash dit : « les humblement respectueux » ; Ibrahim al-Nakha'i : « ceux qui prient avec sincérité » ; al-Kalbi : « ceux au cœur tendre » ; Amr ibn Aws : « ceux qui ne commettent pas d'injustice et qui, lorsqu'ils sont lésés, ne se vengent pas ». L'éditeur renvoie ces propos au commentaire d'Ibn Kathir et note que ce dernier attribue le dernier à Amr ibn Idris. Pour Ibn al-Qayyim, ces propos reposent sur deux significations : l'humilité et le repos en Dieu. C'est pourquoi le verbe prend la préposition « à » (ila), véhiculant ainsi l'idée de tranquillité et de retour à Dieu. {cite:madarij-salikin-mukhtar-v1 p. 436}
+
+## La première des stations de tranquillité
+Ibn al-Qayyim cite [[person/al-ansari-al-harawi-abd-allah|al-Harawi]] : l’ikhbat est « parmi les premières étapes de la tranquillité » – au même titre que la sérénité, la certitude et la confiance en Dieu – en étant le prélude et le commencement ; et c’est « atteindre la sécurité après avoir rebroussé chemin et vacillé ». Ibn al-Qayyim explique par une image : le voyageur se rend vers son Seigneur, et son voyage ne s’achève pas tant qu’il respire ; atteindre l’ikhbat est comme pour un voyageur assoiffé qui trouve de l’eau douce à son premier point d’eau, après quoi l’idée de rentrer chez lui à cause des difficultés du voyage le quitte et il poursuit sa route. L’éditeur note que pour al-Harawi, il s’agit de la cinquième étape de la deuxième partie du [[work/manazil-al-sairin|Manazil]]. {cite:madarij-salikin-mukhtar-v1 p. 436}
+
+## Premier degré : force de volonté et sincérité de la recherche
+Pour al-Harawi, la protection absorbe le désir, la volonté compense l'insouciance et la recherche de consolation supplante le besoin de réconfort. Ibn al-Qayyim résume ainsi la situation : la protection du voyageur l'emporte sur son désir, sa volonté sur son insouciance et son amour sur son besoin de réconfort – l'amour l'emportant sur l'impulsion à être consolé étant « le signe du véritable amour ». {cite:madarij-salikin-mukhtar-v1 p. 437}
+
+## Deuxième degré : fermeté de volonté face aux obstacles
+Pour al-Harawi, rien ne peut briser sa volonté, aucun obstacle n'éloigne son cœur et aucune épreuve ne le détourne de son chemin. Ibn al-Qayyim compte la solitude parmi les plus grands obstacles et cite un chercheur sincère : « Être seul sur le chemin de la quête est une preuve de sincérité. » Un autre ajoute : « Ne vous sentez pas seul sur votre chemin à cause du petit nombre de voyageurs, et ne vous laissez pas tromper par la multitude de ceux qui périssent. » De telles résolutions, dit-il, ne sont justes que pour celui dont le cœur a été imprégné de la lumière des noms et attributs divins. {cite:madarij-salikin-mukhtar-v1 p. 437} {cite:madarij-salikin-mukhtar-v1 p. 438}
+
+## Troisième degré : quitter sa part
+Pour al-Harawi, le problème est que louanges et blâmes s'égalisent à ses yeux, que son auto-reproche persiste et qu'il est aveugle aux faiblesses d'autrui. Ibn al-Qayyim soutient que celui qui est fermement ancré dans l'ikhbat s'élève au-dessus des vagues louanges et blâmes, et que s'arrêter aux louanges et aux blâmes d'autrui est le signe d'un cœur vide de la présence divine. L'éditeur souligne l'emploi par Ibn al-Qayyim de l'expression « annihilation dans le service », par opposition à ceux qui parlent d'annihilation dans l'Essence divine – commentaire de l'éditeur. {cite:madarij-salikin-mukhtar-v1 p. 438} {cite:madarij-salikin-mukhtar-v1 p. 439}
+
+## L'âme qui se reproche tout
+Ibn al-Qayyim associe le regret persistant de soi-même à l'une des deux lectures d' [[passage/quran-75-2|al-Qiyama 2]] concernant [[concept/nafs-lawwama|l'âme qui se reproche ses actes]] et cite les avis suivants : Sa'id ibn Jubayr et Ikrima, selon lesquels l'âme se reproche ses actes en bien comme en mal ; Qatada, selon lequel il s'agit de l'âme pécheresse ; Mujahid, selon lequel l'âme regrette le passé ; al-Farra', selon lequel toute âme, vertueuse ou pécheresse, se reproche ses actes ; [[person/al-hasan-al-basri|al-Hasan]], selon lequel il s'agit de l'âme croyante qui demande constamment des comptes à son propre propriétaire ; et Muqatil, selon lequel il s'agit de l'âme incroyante qui se reproche ses actes dans l'au-delà. L'éditeur cite l'avis d'Ibn Kathir : c'est l'âme qui se reproche ses actes en bien comme en mal. {cite:madarij-salikin-mukhtar-v1 p. 439}
+
+## Le moi comme voile entre le serviteur et son Seigneur
+Ibn al-Qayyim affirme que parmi les règles convenues par les gens du droit chemin, « les vraies et les fausses parmi eux », figure l'idée que le moi est un voile entre le serviteur et Dieu. Il cite le rêve d' [[person/bayazid-al-bistami|Abu Yazid]] : « Quitte ton moi et viens. » Il compare ensuite le moi à une montagne escarpée sur le chemin de Dieu, que tout voyageur doit franchir, avec des vallées, des ascensions, des épines et des brigands, et Satan à son sommet, effrayant ceux qui l'escaladent ; une fois le voyageur parvenu au sommet, les craintes se transforment en sécurité. Il conclut qu'entre le serviteur et le succès se trouvent « la force de la résolution, une heure de patience, le courage de l'âme et la fermeté du cœur ». Il explique « l'aveuglement face aux défauts d'autrui » comme le fait d'être tellement absorbé par Dieu qu'on ne compare pas sa propre situation à celle des autres. {cite:madarij-salikin-mukhtar-v1 p. 440}
+
+## Pas encore couvert
+Le texte d'Al-Harawi lui-même et les autres commentaires sur le Manazil n'ont pas encore été ajoutés.

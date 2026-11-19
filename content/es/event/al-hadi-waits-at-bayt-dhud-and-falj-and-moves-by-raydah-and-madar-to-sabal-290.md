@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-waits-at-bayt-dhud-and-falj-and-moves-by-raydah-and-madar-to-sabal-290
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/al-hadi-waits-at-bayt-dhud-and-falj-and-moves-by-raydah-and-madar-to-sabal-290.md}
+---
+## Visión general
+Después de la reunión en al-Ghayl, Hamdan le pidió a al-Hadi que les diera algunos días y los esperó, quedándose en [[place/bayt-dhud-yemen|Bayt Dhu'd]]; el agua escaseó allí y se trasladó a un lugar llamado Falj en al-Zahir, donde se quedó hasta la luna nueva de Jumada II {cite:sira-hadi-ila-al-haqq p.246}. Luego fue a [[place/raydah-yemen|Raydah]] y se quedó algunos días, luego a [[place/madar-yemen|Madar]] y se quedó algunos días, y siguió hacia el este de [[group/khawlan-tribe|Khawlan]], donde algunos khawlanis lo encontraron, y se detuvo en una aldea llamada Sabal, puso un ejército allí y se quedó dos días {cite:sira-hadi-ila-al-haqq p.246}.
+
+## Detalle
+Luego llegaron noticias de que [[person/ibrahim-ibn-khalaf-ibn-tarif|Ibn Khalaf]] se había detenido en una aldea llamada Bayt Aqb, y al-Hadi, temiendo por su ejército en Sabal, partió de noche hasta detenerse en Bayt Hadir, donde permaneció algún tiempo esperando ayuda de al-Ja'fari y los dos hijos de al-Ruwayya. Se demoraron y fueron lentos, los suministros escasearon en el lugar donde estaba el campamento, y mucha gente se fue. Un ejército salió de Sana'a y se enfrentó a la gente de Sabal; lucharon durante una hora, hubo heridos y nadie murió {cite:sira-hadi-ila-al-haqq p.246}. Antes de esto está [[event/al-hadi-halts-at-khiwan-and-meets-the-sons-of-yafur-at-al-ghayl-290|la reunión en al-Ghayl]]; Después de eso, [[event/the-fights-near-bayt-hadir-and-the-withdrawal-by-matara-and-madar-to-atwa-290|las luchas cerca de Bayt Hadir y la retirada a Atwa]]. En una nota al pie el editor dice que el original y Ghayat al-Amani 1/188 dan "Salil", una tribu en Yemen de la cual la tierra toma su nombre; el lugar puede ser el [[place/sabal-sanaa-yemen|Sabal]] donde Abdullah ibn al-Husayn acampó en 289 H, pero el museo no lo dice. Para Falj en al-Zahir el editor se refiere a Mu'jam al-Buldan. El narrador no nombra a al-Ja'fari ni a los dos hijos de al-Ruwayya, que pueden ser Abu al-Ushayra y Rabi'.

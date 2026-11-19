@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/umayyad]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0700~", hijri: "0081", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 81 (البلاذري ص 271). التحويل مشتق." }
+  start: { edtf: "0700~", hijri: "0081", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 81 ⁦(البلاذري ص 271)⁩. التحويل مشتق." }
 relations:
   - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "الآمر بالنقل", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/sulayman-ibn-sad-al-khushani, role: "المتولّي للنقل عامل الأردن سنة", sources: [source/futuh-buldan-maarif-1407] }
@@ -18,7 +18,7 @@ relations:
   - { type: during_reign, target: person/abd-al-malik-ibn-marwan, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 271–272"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 271–272"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-16
 sources: [source/futuh-buldan-maarif-1407]

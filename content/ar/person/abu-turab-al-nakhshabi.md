@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b17, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/45-51" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b17, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/45-51" }
 ---
 ## موجز
 أبو تراب النخشبي من شيوخ المشرق. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة 462)⁩، ويصفه بأنه أحد أعلام المتوكلين وإمام المتجردين، صاحب الرياضات المشهورة والسياحات المذكورة. ويذكر أنه تأدب بحاتم الأصم وعلي الرازي المذبوح، وأنه دخل [[place/isfahan|أصبهان]] وسمع بها. ولأبي نعيم به صلة قريبة: صحبه جده محمد بن يوسف ب[[place/mecca|مكة]] والحجاز مدة مديدة، وصحبه أبو بكر بن أبي عاصم في البادية. وفي أحد الأسانيد يسمى «أبا تراب الزاهد البلخي». {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/45} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/51}

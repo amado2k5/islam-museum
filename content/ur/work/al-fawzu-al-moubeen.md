@@ -34,7 +34,7 @@ translators: []
 - [[concept/time-as-resource|الزمن مورد اقتصادي]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep03 00:33:30}
 
 ### قسط 4
-- [[concept/al-khusr|وقت میں نفع اور نقصان (الخسر)]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:01:30}
+- [[concept/al-khusr|وقت میں نفع اور نقصان ⁦(الخسر)⁩]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:01:30}
 - [[concept/al-indimaj-wal-huwiyya|انضمام اور شناخت]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:10:30}
 - [[concept/al-rizq-al-rububi|الرزق عطاء الربوبية والإمامة عطاء الألوهية]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:21:00}
 - [[concept/ayat-al-insan|انسان میں نشانیاں]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:22:00}
@@ -48,7 +48,7 @@ translators: []
 
 ### قسط 6
 - [[concept/sunnat-al-ihlak|ہلاکت کی سنت: قوموں کی سزا]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep06 00:07:30}
-- [[concept/kitab-al-amal|کتابُ الاعمال (اعمال نامہ)]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep06 00:24:30}
+- [[concept/kitab-al-amal|کتابُ الاعمال ⁦(اعمال نامہ)⁩]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep06 00:24:30}
 
 ### قسط 7
 - [[concept/sharh-al-sadr|شرحِ صدر]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep07 00:00:30}

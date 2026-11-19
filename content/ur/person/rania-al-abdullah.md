@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## خلاصہ
-رانیا العبد اللہ (پیدائش رانیا الیاسین، 31 اگست 1970ء) اردن کی ملکہ اور بادشاہ عبد اللہ دوم کی اہلیہ ہیں۔ {cite:wikipedia-rania-al-abdullah-ur} {cite:wikipedia-rania-al-abdullah-en}
+رانیا العبد اللہ ⁦(پیدائش رانیا الیاسین، 31 اگست 1970ء)⁩ اردن کی ملکہ اور بادشاہ عبد اللہ دوم کی اہلیہ ہیں۔ {cite:wikipedia-rania-al-abdullah-ur} {cite:wikipedia-rania-al-abdullah-en}
 
 ان کی سرگرمیوں میں تعلیم، نوجوان، ماحول اور صحت کی ابتداات شامل ہیں؛ عالمی سطح پر انھوں نے تعلیم اور ثقافتوں کے درمیان مکالمے کی وکالت کی اور بچوں کی تین کتابیں لکھیں۔ {cite:wikipedia-rania-al-abdullah-en}
 

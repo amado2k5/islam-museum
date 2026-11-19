@@ -1,0 +1,13 @@
+---
+id: concept/ihya-bayt-al-haram
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/ihya-bayt-al-haram.md}
+---
+## Définition
+Ihya' de la Maison Sacrée. Le mot ihya' signifie donner vie à une chose ; pour les juristes, ranimer la Maison de Dieu signifie la maintenir habitée par le hajj, et certains y incluent la umra, comparant un lieu bien entretenu à un être vivant et un lieu négligé à un lieu mort. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1879}
+Règle générale. Les écoles malikite, chaféite et hanbalite considèrent que la restauration de la Maison sacrée par le hajj est une obligation collective (fard kifaya) annuelle pour les musulmans, sans que cela n'empêche qu'elle soit une obligation personnelle à accomplir une fois dans sa vie pour quiconque en a les moyens. En effet, lorsqu'aucun groupe de musulmans n'accomplit le hajj, obligatoire ou surérogatoire, par lequel ce rite est visible chaque année, tous commettent un péché, car le but principal de la construction de la Kaaba est le hajj, et sa restauration l'est également. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1880}
+Ibn Abbas aurait dit : si les gens cessaient de fréquenter cette Maison pendant une seule année, il ne pleuvrait pas. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1880} Il en va de même pour la umra, selon l’école chaféite et une opinion malikite. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1880} Les circumambulations, les retraites spirituelles, la prière et autres pratiques similaires ne la remplacent pas, bien qu’elles soient obligatoires dans la Mosquée sacrée en tant que devoir collectif, car l’honneur et la renaissance du lieu s’en dégagent. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1880}
+En conséquence, les Malikites estiment que le dirigeant des musulmans doit envoyer chaque année une délégation pour célébrer la fête ; en l’absence de dirigeant, cette délégation est chargée par la communauté musulmane. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1880} L’auteur n’a trouvé aucun texte hanafite à ce sujet. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1880}
+Le sujet est traité dans différents ouvrages. Les juristes ont discuté de la question de la restauration de la Mosquée sacrée au début du livre du jihad, en raison de l'obligation collective, tandis que d'autres l'ont placée au début du livre du hajj. L'imam al-Zarkashi a consacré un ouvrage au droit des mosquées, intitulé « Ilam al-Sajid bi-Ahkam al-Masajid ». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1881}

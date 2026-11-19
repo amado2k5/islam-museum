@@ -1,4 +1,4 @@
-// Serves the HTML pages under /ar/, /en/ and /ur/ from the R2 site prefix.
+// Serves the HTML pages under /ar/, /en/, /ur/, /fr/ and /es/ from the R2 site prefix.
 // Everything else (root pages, images, CSS, JS) comes from static assets, as before.
 // Redirects and response headers follow the site's _redirects and _headers files, as Pages does.
 //

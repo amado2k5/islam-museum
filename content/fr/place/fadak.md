@@ -1,0 +1,24 @@
+---
+id: place/fadak
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/fadak.md}
+---
+## Vue d'ensemble
+Fadak est une oasis juive située au nord du Hedjaz, près de [[place/khaybar|Khaybar]]. Au retour du Prophète de Khaybar, ses habitants conclurent un accord avec lui : ils lui cédèrent la moitié de leurs terres et de leurs récoltes. La moitié restante devint ainsi une part du Prophète, qu’il distribua aux voyageurs. {cite:futuh-buldan-maarif-1407 p.41-42}
+
+Ses habitants y restèrent jusqu'à ce [[person/umar-ibn-al-khattab|qu'Umar ibn al-Khattab]], durant son califat, les expulse en Syrie, avec les Juifs de Khaybar, après avoir évalué leur part des palmiers et des terres à un prix équitable. {cite:futuh-buldan-maarif-1407 p.41-42}
+
+Dans le Sahih al-Bukhari, dans le récit d'Umar sur les biens du Prophète, il est dit que Fadak était destiné aux voyageurs. {cite:sahih-al-bukhari 4033}
+
+## Dans le Mu'jam al-Buldan de Yaqut
+Yaqut rapporte que Fadak est un village du Hedjaz, à deux jours de Médine selon certains, à trois selon d'autres. Dieu l'accorda à Son Messager en guise de fief (fay') en l'an 7 de l'Hégire, par traité. Après sa descente à Khaybar, ses habitants lui demandèrent la paix en échange de la moitié de leurs récoltes et de leurs biens, ce qu'il accepta. Ces terres furent conquises sans chevaux ni chameaux ; elles lui appartenaient donc exclusivement. Elles possédaient une source jaillissante et de nombreux palmiers. {cite:mujam-al-buldan-sader-1995 4 p.238}
+
+Il relate le désaccord survenu après la mort du Prophète. Il rapporte que Fatima affirma que le Messager le lui avait donné et qu'Abou Bakr demanda des témoins. Il précise qu'Umar ibn al-Khattab, se fondant sur son propre jugement, décida de le restituer aux héritiers du Messager, et qu'Ali et al-Abbas se disputèrent ensuite son sort. Il retrace ensuite son histoire : Umar ibn Abd al-Aziz le rendit aux descendants de Fatima, Yazid ibn Abd al-Malik le reprit, et il resta aux mains des Omeyyades jusqu'à ce qu'al-Saffah le confie à al-Hasan ibn al-Hasan ; al-Mansur s'en empara, al-Mahdi le restitua et al-Hadi le reprit ; en 210, al-Ma'mun ordonna qu'il soit remis aux descendants de Fatima, et al-Mutawakkil le restitua à son propriétaire initial. Il ajoute que le poète Di'bil récita un vers à cette occasion. {cite:mujam-al-buldan-sader-1995 4 p.238}
+
+Yaqut rapporte que l'histoire de Fadak fait l'objet de nombreuses controverses et que certains narrateurs l'ont relatée selon leurs propres convictions, parfois dans un climat de vives disputes. Le récit le plus fiable qu'il ait trouvé, selon lui, est celui d'al-Baladhuri dans son ouvrage Futuh. En résumé, il rapporte que, de retour de Khaybar, le Prophète envoya Muhayyisa ibn Mas'ud auprès des habitants de Fadak, dont le chef était Yusha' ibn Nun, un Juif. Ils conclurent un accord pour obtenir la moitié du territoire et de sa terre, et Muhayyisa ibn Mas'ud distribua le produit de cette vente aux voyageurs. Plus tard, Umar expulsa les Juifs, après leur avoir fait estimer la moitié de la terre et leur en avoir versé la moitié, et les envoya en Syrie. {cite:mujam-al-buldan-sader-1995 4 p.238}
+
+Il relate ensuite comment Fatima demanda à Abou Bakr du fadak, qu'Ali témoigna en sa faveur et qu'Abou Bakr demanda un second témoin. Umm Ayman témoigna, mais Abou Bakr répondit que seul le témoignage de deux hommes, ou d'un homme et de deux femmes, et Fatima s'en alla. Il rapporte également d'après Umm Hani une conversation entre Fatima et Abou Bakr, au cours de laquelle ce dernier affirma avoir entendu le Messager de Dieu dire que le fadak était une provision que Dieu lui avait donnée de son vivant et qu'après sa mort, elle appartiendrait aux musulmans. Enfin, il rapporte d'après Urwa ibn al-Zubayr que les épouses du Prophète envoyèrent Uthman réclamer leur héritage et qu'Abou Bakr cita le hadith selon lequel les prophètes ne laissent pas d'héritage. {cite:mujam-al-buldan-sader-1995 4 p.239}
+
+Il rapporte le discours d'Umar ibn Abd al-Aziz sur Fadak, dans lequel il est dit que Mu'awiya l'a concédé à Marwan ibn al-Hakam, qu'il est passé aux fils de Marwan puis à lui-même, et qu'il l'a restauré dans l'état où il se trouvait du temps du Prophète, d'Abu Bakr, d'Umar, d'Uthman et d'Ali. Il indique ensuite qu'al-Zajjaji soutenait que le nom de Fadak ibn Ham lui avait été attribué, car il fut le premier à s'y installer. Il cite Muhammad ibn Sadaqa al-Fadaki, qui a entendu Malik ibn Anas, comme un homme à qui l'on attribue ce nom, et conclut par un verset de Zuhayr qui le mentionne. {cite:mujam-al-buldan-sader-1995 4 p.240}

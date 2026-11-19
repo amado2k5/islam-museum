@@ -26,7 +26,7 @@ provenance:
 
 ## مشہور ابواب
 - [[group/al-radhaniyya|راذانی یہودی تاجروں کا راستہ]]، جن کے خشکی اور سمندری راستے وہ فرنگیوں کے ملک، قسطنطنیہ، قلزم، بغداد اور ابلہ سے عمان، سندھ، ہند اور چین تک بیان کرتے ہیں؛ اس کے بعد روسی تاجروں کا راستہ، «جو صقالبہ کی ایک قسم ہیں»۔ {cite:masalik-mamalik-ibn-khurdadhbih p.161} {cite:masalik-mamalik-ibn-khurdadhbih p.162}
-- روم (رومیہ) اور اس کے عجائب کا بیان۔ {cite:masalik-mamalik-ibn-khurdadhbih p.121}
+- روم ⁦(رومیہ)⁩ اور اس کے عجائب کا بیان۔ {cite:masalik-mamalik-ibn-khurdadhbih p.121}
 - ذو القرنین کی بنائی ہوئی یاجوج ماجوج کی دیوار کا بیان، [[person/sallam-al-tarjuman|سلام ترجمان]] کی روایت سے؛ دیکھیے [[event/sallam-sadd-expedition|سلام کا دیوار تک سفر]]۔ {cite:masalik-mamalik-ibn-khurdadhbih p.170} {cite:masalik-mamalik-ibn-khurdadhbih p.178}
 - دریاؤں کے منبعوں کا باب۔ {cite:masalik-mamalik-ibn-khurdadhbih p.181}
 

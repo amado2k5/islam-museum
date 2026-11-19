@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b67, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/153" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b67, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/153" }
 ---
 ## خلاصہ
 دیلمی مأسور مصلوب ایک لقب ہے، ایسے شخص کا جس کا نام روایت میں نہیں دیا گیا۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 519)⁩ صفحہ 153 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 519 ہے، تسلسل میں 520۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/153}

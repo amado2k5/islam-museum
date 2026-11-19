@@ -1,0 +1,10 @@
+---
+id: event/ibn-qayyim-first-khutba-736
+lang: fr
+source_lang: en
+translators: ['TranslateGemma 27B (translategemma:27b, run locally with Ollama), draft translation']
+provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: 'translategemma:27b', run: local-mt-fr-2026-11-18, source: content/en/event/ibn-qayyim-first-khutba-736.md}
+---
+
+## Vue d'ensemble
+Le 2 Rajab 736/15 février 1336, Ibn Qayyim prononça son premier sermon dans la mosquée que Nadim al-Din ibn Khalikhan avait récemment fondée dans les jardins de la Ghuta, à l’extérieur de Bab Sharqi et de Bab Tuma {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}.

@@ -1,0 +1,31 @@
+---
+id: person/muammar-gaddafi
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/muammar-gaddafi.md}
+---
+# Muammar Gaddafi
+
+Muammar Muhammad Abu Minyar al-Gadafi (c. 1942 – 20 de octubre de 2011) fue un oficial militar y político libio que gobernó Libia desde el golpe militar del 1 de septiembre de 1969, que derrocó al rey Idris, hasta su derrocamiento y asesinato en la guerra civil libia de 2011. Presidió el Consejo de Mando Revolucionario (1969–1977), fue secretario general de la Asamblea General del Pueblo (1977–1979) y desde entonces gobernó sin un cargo formal como «Líder Hermano y Guía de la Revolución» de la Gran Jamahiriya Árabe Libia Popular Socialista. {cite:wikipedia-muammar-gaddafi-en} {cite:wikipedia-muammar-gaddafi-ar}
+
+## Nacimiento y primeros años
+Su fecha exacta de nacimiento no ha sido publicada en fuentes fiables: la caja informativa del artículo en inglés contiene una nota editorial al respecto y solo indica alrededor de 1942, mientras que los artículos en árabe y urdu indican el 7 de junio de 1942 y Wikidata muestra dos fechas de días en conflicto (7 y 19 de junio de 1942). El museo registra solo el año, tal como se ha debatido. Nació cerca de Qasr Abu Hadi, una zona rural a las afueras de Sirte, en los desiertos de Tripolitania, entonces bajo dominio colonial italiano, en el seno de la pequeña tribu Qadhadhfa. Asistió a la escuela primaria en Sirte, donde ascendió a seis cursos en cuatro años, y luego a la escuela en Sabha, donde se convirtió en nacionalista árabe; en octubre de 1961 lideró una manifestación contra la secesión de Siria de la República Árabe Unida, y él y su familia fueron expulsados de Sabha tras el desorden. Continuó en la Escuela Secundaria de Misrata, se graduó en el Colegio Militar de Bengasi en 1965 y se trasladó al Reino Unido para continuar su entrenamiento militar en 1966. {cite:wikipedia-muammar-gaddafi-en} {cite:wikipedia-muammar-gaddafi-ar} {cite:wikipedia-muammar-gaddafi-ur} {cite:wikidata-muammar-gaddafi}
+
+## El golpe de Estado de 1969
+A finales de los años 60, el gobierno del rey Idris era ampliamente impopular: los artículos describen corrupción y clientelismo en la industria petrolera, la ira ante la alineación occidental de la monarquía tras la guerra de 1967 y los disturbios en Trípoli y Bengasi. El Movimiento de Oficiales Libres de Gadafi fue el primero en atacar, antes de un complot rival en el palacio, en la "Operación Jerusalén": el 1 de septiembre de 1969, mientras Idris estaba en el extranjero en Turquía y Grecia, los oficiales derrocaron a la monarquía y proclamaron la República Árabe Libia. El cuadro de información del artículo en inglés nombra a Idris I como rey de Libia, como predecesor de Gadafi en la presidencia del Consejo de Mando Revolucionario, y el artículo en árabe afirma claramente que llegó al poder mediante un golpe militar que depuso al rey Idris. {cite:wikipedia-muammar-gaddafi-en} {cite:wikipedia-muammar-gaddafi-ar}
+
+## Gobierno
+Como jefe del Consejo de Mando Revolucionario consolidó el poder y, en la "Revolución Popular" de 1973, expuso su Tercera Teoría Internacional en el Libro Verde, presentando un sistema de democracia directa manteniendo el control personal de las decisiones importantes. En 1977 Libia fue refundada como una "Jamahiriya" socialista (estado de las masas). Su gobierno combinó el nacionalismo árabe y luego un panafricanismo creciente con un conflicto creciente con Estados Unidos y sus aliados en los años 80, un periodo de reconciliación y privatización desde 1999, y la presidencia de la Unión Africana entre 2009 y 2010. {cite:wikipedia-muammar-gaddafi-en} {cite:wikipedia-muammar-gaddafi-ur}
+
+## Ideología religiosa
+El artículo en inglés trata su religión bajo la ideología, no como afiliación. Afirma que su movimiento puso un énfasis mucho más fuerte en el islam que los movimientos nacionalistas árabes anteriores, que consideraba el arabismo y el islam "uno e indivisible", y que insistía en que la ley islámica debía ser la base de la ley estatal. Su biógrafo Jonathan Bearman es citado describiéndolo en términos islámicos como un modernista más que como fundamentalista, subordinando la religión al sistema político, con una interpretación idiosincrática que chocaba con los clérigos conservadores libios; el artículo describe su llamamiento a un renacimiento islámico que regresa a los orígenes del Corán y rechaza las interpretaciones académicas y el Hadiz, lo que enfureció a muchos clérigos. El programa del Libro Verde se presenta en las fuentes como "socialismo islámico". Nada de esto menciona una escuela de derecho o teología como su afiliación. {cite:wikipedia-muammar-gaddafi-en}
+
+El museo registra su fe como desconocida. La caja informativa del artículo árabe lo llama musulmán suní, pero una de las recuadras es una sola atestación; Wikidata contiene dos valores religiosos en un solo elemento — el Corán y el Islam suní — que se contradicen entre sí; y las solicitudes de categorías en inglés y urdu lo sitúan bajo los encabezados suníes y coránicos, que son presentaciones, no declaraciones. No hay dos fuentes independientes que mencionen la misma escuela para él. {cite:wikipedia-muammar-gaddafi-ar} {cite:wikidata-muammar-gaddafi} {cite:wikipedia-muammar-gaddafi-ur}
+
+## Caída y muerte
+En 2011, en medio de la Primavera Árabe, la rebelión armada y la intervención de la OTAN se convirtieron en guerra civil. Tras la caída de Trípoli en agosto de 2011, Gadafi se retiró a su ciudad natal de Sirte, uno de los últimos bastiones leales. El 20 de octubre de 2011 fue capturado y asesinado en Sirte mientras la ciudad caía. Fue enterrado en un lugar no revelado en el desierto libio. {cite:wikipedia-muammar-gaddafi-en} {cite:wikipedia-muammar-gaddafi-ur}
+
+## Fuentes
+- Las entidades fuente definidas citadas anteriormente, registradas en `data/source/`.
+- Las revisiones de este artículo deben estar fechadas y deben indicar la fuente que modificó cada hecho.

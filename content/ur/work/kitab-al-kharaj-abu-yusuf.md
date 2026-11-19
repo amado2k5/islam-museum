@@ -7,7 +7,7 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker D)", model: claude-
 ---
 ## خلاصہ
 
-«کتاب الخراج» قاضی [[person/abu-yusuf-al-qadi|ابو یوسف یعقوب بن ابراہیم]] (113-182ھ) کی تصنیف ہے، جو امام [[person/abu-hanifa|ابو حنیفہ]] کے شاگرد تھے؛ انہوں نے اسے امیر المؤمنین [[person/harun-al-rashid|ہارون الرشید]] کے لیے ان کی تجویز پر لکھا۔ {cite:kitab-al-kharaj-salafiyya-1392 p.1}
+«کتاب الخراج» قاضی [[person/abu-yusuf-al-qadi|ابو یوسف یعقوب بن ابراہیم]] ⁦(113-182ھ)⁩ کی تصنیف ہے، جو امام [[person/abu-hanifa|ابو حنیفہ]] کے شاگرد تھے؛ انہوں نے اسے امیر المؤمنین [[person/harun-al-rashid|ہارون الرشید]] کے لیے ان کی تجویز پر لکھا۔ {cite:kitab-al-kharaj-salafiyya-1392 p.1}
 
 ## سببِ تالیف
 

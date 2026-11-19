@@ -10,7 +10,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [arabia]
 date:
-  start: { edtf: "0632~", hijri: "0011~", calendar: julian, precision: year, status: tradition, derived: true, note: "من استخلاف أبي بكر سنة 11هـ إلى استتباب الأمر؛ فتح اليمامة في الكتاب سنة 12هـ (ص 123، 131–134). التحويل مشتق." }
+  start: { edtf: "0632~", hijri: "0011~", calendar: julian, precision: year, status: tradition, derived: true, note: "من استخلاف أبي بكر سنة 11هـ إلى استتباب الأمر؛ فتح اليمامة في الكتاب سنة 12هـ ⁦(ص 123، 131–134)⁩. التحويل مشتق." }
 map:
   kind: campaign
   precision: locality
@@ -29,7 +29,7 @@ relations:
   - { type: occurred_at, target: place/arabian-peninsula }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 131–133"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 131–133"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-5, lib-wave-21-khulafa-rashidun-salabi-1
   canon: "Encyclopaedia of Islam 2nd ed., Supplement vol. 12, article al-Ridda, PDF pages 765-767, written by Claude Sonnet 5.5, run canon-cornerstones-17"

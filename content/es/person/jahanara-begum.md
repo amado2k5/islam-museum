@@ -1,0 +1,23 @@
+---
+id: person/jahanara-begum
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/jahanara-begum.md}
+---
+
+## Resumen
+
+Jahanara Begum (1614 – 16 de septiembre de 1681) fue una princesa mogol, la hija mayor superviviente del emperador Shah Jahan y de Mumtaz Mahal {cite:wikipedia-jahanara-begum-en} {cite:wikipedia-jahanara-begum-ar}. A la muerte de su madre en 1631, asumió el sello imperial y el título de Padshah Begum, primera dama del imperio, a los diecisiete años, y fue descrita como la mujer más poderosa del imperio de su época {cite:wikipedia-jahanara-begum-en}. También fue sufí de la orden Qadiriyya y autora cuyos escritos siguen siendo un testigo principal de su vida espiritual {cite:wikipedia-jahanara-begum-en} {cite:wikipedia-jahanara-begum-ur}. Las fuentes se dividen en su fecha de nacimiento — 23 de marzo de 1614 en el artículo en inglés, 2 de abril de 1614 en los artículos árabe y urdu — y el registro conserva ambos {cite:wikipedia-jahanara-begum-en} {cite:wikipedia-jahanara-begum-ar}.
+
+## Primera dama del imperio
+
+Educada por Sati al-Nisa Khanam en Corán, literatura persa, etiqueta y medicina, Jahanara se convirtió en la consejera más confiable de su padre {cite:wikipedia-jahanara-begum-en} {cite:wikipedia-jahanara-begum-ar}. Ostentaba el sello imperial, emitía farmanes por derecho propio, asistía a los consejos desde detrás de su cortina, recibía los ingresos del puerto de Surat, poseía barcos mercantes y trataba con ingleses y holandeses {cite:wikipedia-jahanara-begum-en}. En marzo de 1644 fue gravemente quemada cuando sus prendas empapadas en perfume se incendiaron, y se recuperó solo tras un año {cite:wikipedia-jahanara-begum-en} {cite:wikipedia-jahanara-begum-ur}. Su organización benéfica era institucional: limosnas en días festivos y festividades estatales, ayuda contra el hambre, arroz enviado anualmente a los pobres de La Meca en su barco el Sahibi, y una madrasa anexa a la Jama Masjid de Agra, que financió ella misma íntegramente en 1648 {cite:wikipedia-jahanara-begum-en} {cite:wikipedia-jahanara-begum-ur}. En Shahjahanabad encargó cinco de los dieciocho edificios levantados por mujeres en la nueva capital, incluido el caravanserai en Chandni Chowk {cite:wikipedia-jahanara-begum-en}.
+
+## Sufismo
+
+Junto con su hermano Dara Shikoh, Jahanara fue discípula del mullah Shah Badakhshi, quien la inició en la orden sufí Qadiriyya en 1641 {cite:wikipedia-jahanara-begum-en} {cite:wikipedia-jahanara-begum-ur}. Avanzó tanto en el camino que Mullah Shah la habría nombrado su sucesora en la orden, si sus normas se lo hubieran permitido {cite:wikipedia-jahanara-begum-en} {cite:wikipedia-jahanara-begum-ur}. Describió su iniciación en su propia Risala-i Sahibiyya, una biografía de su maestro, y escribió el Munis al-Arwah, una biografía de Muinuddin Chishti, fundador de la orden Chishti en la India, a quien consideraba su maestro espiritual aunque había muerto cuatro siglos antes que ella {cite:wikipedia-jahanara-begum-en}. En sus escritos se llamó a sí misma faqirah, una pobre mujer de Dios, y realizó la peregrinación a su santuario en Ajmer {cite:wikipedia-jahanara-begum-en} {cite:wikipedia-jahanara-begum-ur}. Es en este discipulado acreditado y completado —no en la religión dinástica de la corte mogol— donde su fe aparece registrada como sufí {cite:wikipedia-jahanara-begum-ur}.
+
+## La guerra de sucesión y los últimos años
+
+En la guerra de sucesión de 1657–1658, Jahanara se unió a Dara Shikoh y compartió el confinamiento de su padre en el fuerte de Agra; su propuesta de repartir el imperio entre los hermanos fue rechazada por Aurangzeb, y su hermana Roshanara la sustituyó como Padshah Begum {cite:wikipedia-jahanara-begum-en}. Cuidó de Shah Jahan hasta su muerte en 1666, luego se reconcilió con Aurangzeb, quien le restituyó sus títulos, aumentó su pensión y buscó su consejo — que ella le dio generosamente, argumentando en contra de sus medidas de austeridad y en contra de la reimposición del impuesto de capitación a los no musulmanes en 1679 {cite:wikipedia-jahanara-begum-en}. Murió el 16 de septiembre de 1681 y yace en la tumba de mármol abierta al cielo que mandó construir en vida en el complejo de la Dargah Nizamuddin en Delhi, Aurangzeb, lo que le otorga póstumamente el título de Sahibat-uz-Zamani, Ama de la Época {cite:wikipedia-jahanara-begum-en} {cite:wikipedia-jahanara-begum-ur}.

@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b48, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/135-136" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b48, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/135-136" }
 ---
 ## خلاصہ
 محمد بن ابی القاسم ہاشمی، جو ان کے مولیٰ تھے، اللہ کے ذکر سے انس رکھنے والے اور دعا کی قبولیت میں مشہور؛ سو کے قریب عمر کو پہنچے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 484)⁩ صفحہ 135 اور صفحہ 136 کے آغاز پر ان کا ترجمہ لکھا ہے۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/135-136}

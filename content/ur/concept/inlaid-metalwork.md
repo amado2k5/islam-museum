@@ -13,7 +13,7 @@ provenance:
   translator_of: content/ar/concept/inlaid-metalwork.md
 ---
 ## خلاصہ
-نہاد السعید کے مجموعے کا کتابچہ (ریاض 1985ء) پیتل اور کانسی میں سونا، چاندی اور تانبا جڑنے کو اسلامی تہذیب میں بے مثال حد تک ترقی یافتہ بتاتا ہے، جس کا جمال، آرائش کی سطح اور شکل سے ہم آہنگی، اور مشکل تکنیک میں پیچیدہ ترین نقوش کی مہارت اسلامی فنی روایت کے اعلیٰ ترین آدرشوں کا مظہر ہے۔ {cite:nuhad-es-said-collection-islamic-metalwork-1985 p. 2} {cite:nuhad-es-said-collection-islamic-metalwork-1985 p. 3}
+نہاد السعید کے مجموعے کا کتابچہ ⁦(ریاض 1985ء)⁩ پیتل اور کانسی میں سونا، چاندی اور تانبا جڑنے کو اسلامی تہذیب میں بے مثال حد تک ترقی یافتہ بتاتا ہے، جس کا جمال، آرائش کی سطح اور شکل سے ہم آہنگی، اور مشکل تکنیک میں پیچیدہ ترین نقوش کی مہارت اسلامی فنی روایت کے اعلیٰ ترین آدرشوں کا مظہر ہے۔ {cite:nuhad-es-said-collection-islamic-metalwork-1985 p. 2} {cite:nuhad-es-said-collection-islamic-metalwork-1985 p. 3}
 
 ## کتابچے کے مطابق مراکز
 - **ہرات**: پہلا بڑا مرکز جہاں بارھویں صدی کے دوسرے نصف میں یہ تکنیک پختہ ہوئی؛ اس کے نمونوں میں چار دھاتوں کے مرکب یا زیادہ قلعی والی کانسی کی دواتیں اور پیالے ہیں جن میں چاندی، تانبا اور سیاہ مرکب جڑا ہے۔ {cite:nuhad-es-said-collection-islamic-metalwork-1985 p. 3} {cite:nuhad-es-said-collection-islamic-metalwork-1985 p. 5} {cite:nuhad-es-said-collection-islamic-metalwork-1985 p. 7}

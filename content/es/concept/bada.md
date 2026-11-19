@@ -1,0 +1,19 @@
+---
+id: concept/bada
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/bada.md}
+---
+
+## Visión general
+Bada' (en árabe: aparición, surgimiento) es un término teológico que designa el surgimiento de nuevas circunstancias que provocan un cambio en un mandato divino anterior. Al-Shahrastani distingue tres tipos al referirse al conocimiento, la voluntad o el mandato de Dios. En oposición a la doctrina suní divergente, siempre se aborda en el capítulo sobre el conocimiento divino de la teología chií, sin llegar a una fórmula definitiva; en su forma extrema —la mutabilidad de la voluntad de Dios—, la enseñan las sectas ultrachiíes (los Bada'iyya), mientras que los imamíes moderados utilizan términos que excluyen o minimizan el cambio en el conocimiento de Dios. {cite:encyclopaedia-of-islam-2 vol. 1 p. 907}
+
+## Orígenes
+Los heresiógrafos musulmanes coinciden en que la idea de bada' fue sugerida por primera vez por Mukhtar y luego se incorporó al credo de la escuela chiita Kaysaniyya. Cuando Mukhtar se enfrentó a la batalla decisiva de su carrera contra Mus'ab b. al-Zubayr, anunció que Dios había revelado que la victoria era segura; cuando la derrota desmintió el oráculo, se dijo que algo había intervenido (bada lahu) que hizo que Dios cambiara de parecer. La idea sirvió entonces para explicar el fracaso de las esperanzas y profecías de los imanes derrotados —el propósito de Dios se mantuvo, pero Él había alterado su plan por conveniencia— y el cambio en la sucesión legítima cuando Musa al-Kazim, y no el predestinado Isma'il, sucedió a Ja'far como séptimo imán. Para suavizar la aplicación más cruda, el dicho atribuido a Ja'far se modificó de "mi hijo Isma'il" (ibni) a "mi padre Isma'il" (abi), trasladando el cambio al sacrificio del hijo de Abraham. {cite:encyclopaedia-of-islam-2 vol. 1 p. 907}
+
+## Argumentos y reconciliación
+Los chiítas aducen pasajes coránicos (xiii, 39; iv, 29b; la salvación del pueblo de Yunus, x, 98; el sacrificio de Isma'il; las treinta noches de Moisés extendidas a cuarenta), tradiciones que afirman que los actos virtuosos alargan el lapso asignado o alteran el destino designado, leyendas piadosas de desgracias evitadas y —contra los suníes— la doctrina de la abrogación (naskh): bada' es cancelación creativa y cancelación es bada' legislativa. A través de la influencia mutazilita, los chiítas moderados vinculan bada' con al-aslah (lo más conveniente): los decretos divinos cambian a medida que cambian las demandas del bien general. Para reconciliar esto con el conocimiento eterno e idéntico al ser de Dios, idearon fórmulas: bada' tomado metafóricamente (majazan), no un cambio en el conocimiento divino o arrepentimiento; un bada' futuro ya decretado en la presciencia eterna; la solución de las dos tablas: la Tabla Preservada del decreto inalterable y la lawh al-mahw wa'l-ithbat de los decretos alterables por nuevas causas; y la distinción de Kulini entre ilm mahtum, conocimiento inalterable cuyos detalles Dios confía a los ángeles, e ilm makhsus, el conocimiento de asuntos en suspenso que no se confía a nadie. {cite:encyclopaedia-of-islam-2 vol. 1 p. 907-908}
+
+## Oponentes
+Incluso dentro del chiismo, Sulayman b. Jarir, de la escuela zaidí, reprochó a los imamitas los dos errores de taqiyya y bada'. Los oponentes más acérrimos fueron los teólogos judíos, quienes rechazaron la abrogación de la ley divina precisamente porque naskh implica bada', como argumentó Yahya b. Zakariyya al-Katib al-Tabarani contra al-Mas'udi. En el siglo III/IX, bada' parece haber sido una prueba de sagacidad teológica, dadas las dificultades que planteaba. {cite:encyclopaedia-of-islam-2 vol. 1 p. 908}

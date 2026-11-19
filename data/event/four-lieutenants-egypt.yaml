@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [egypt-nile]
 date:
-  start: { hijri: "0020~", precision: year, status: tradition, derived: true, note: "في أعقاب فتح الفسطاط (البلاذري ص 304–305). التحويل مشتق." }
+  start: { hijri: "0020~", precision: year, status: tradition, derived: true, note: "في أعقاب فتح الفسطاط ⁦(البلاذري ص 304–305)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/ayn-shams }
   - { type: occurred_at, target: place/al-fayyum }
@@ -22,7 +22,7 @@ relations:
   - { type: had_participant, target: person/utba-ibn-amir-al-juhani, role: "قرى أسفل الأرض", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 304–305"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 304–305"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-19
 sides:

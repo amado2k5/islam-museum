@@ -1,0 +1,9 @@
+---
+id: concept/haya-modesty
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/haya-modesty.md}
+---
+## Resumen
+Haya (modestia) es léxicamente un cambio y un retroceso que le sobreviene a una persona por temor a lo que le traería culpa; en la ley es una cualidad que aleja a una persona de actos y palabras desagradables y previene la negligencia hacia quien tiene derecho. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7426} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7427} El artículo la separa de khajal (vergüenza que se muestra en el rostro), de badhaa (lenguaje soez) y de waqaha (descaro). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7426} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7427} Entre los dichos: la modestia es parte de la fe, y la modestia adorna todo en lo que está presente. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7427} El artículo continúa con las normas sobre la modestia y no está completo en estas páginas. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7427} Los dichos sobre la modestia la hacen una rama de la fe, algo que solo trae bien, una forma de deber hacia Dios, a quien se debe proteger en la mente y el cuerpo y recordando la muerte; la modestia que impide aprender la religión no es modestia legal. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7428} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7429} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7430} La modestia ante los malhechores y no exigir justicia es debilidad, no modestia; una suma tomada de otro solo por modestia es como propiedad usurpada y debe ser devuelta. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7430} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7431}

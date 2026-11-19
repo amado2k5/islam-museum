@@ -7,7 +7,7 @@ names:
 gender: male
 roles: [politician]
 traditions: [sunni]
-died: { hijri: "0011~", edtf: "0632~", calendar: julian, precision: year, status: tradition, derived: true, note: "«هلك بعد رسول الله قبل ردة أهل البحرين» (ابن هشام ص222)؛ السنة مستنتجة من موقعه بين وفاة النبي والردة.", sources: [source/ibn-hisham-saqqa] }
+died: { hijri: "0011~", edtf: "0632~", calendar: julian, precision: year, status: tradition, derived: true, note: "«هلك بعد رسول الله قبل ردة أهل البحرين» ⁦(ابن هشام ص222)⁩؛ السنة مستنتجة من موقعه بين وفاة النبي والردة.", sources: [source/ibn-hisham-saqqa] }
 summary:
   ar: "صاحب البحرين الذي بعث إليه النبي العلاء بن الحضرمي قبل فتح مكة فأسلم وحسن إسلامه، ومات بعد النبي قبل ردة أهل البحرين والعلاء عنده أميراً للنبي عليها."
   en: "The lord of Bahrayn to whom the Prophet sent al-Ala' ibn al-Hadrami before the conquest of Mecca; he became a good Muslim and died after the Prophet, before the apostasy of Bahrayn, with al-Ala' stationed with him as the Prophet's governor."
@@ -16,10 +16,10 @@ themes: [converts-and-leavers]
 periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
-  - { role: ruler, toward: place/bahrayn, status: tradition, note: "عظيم البحرين الذي كاتبه النبي (ابن هشام ص222؛ الرحيق ص358).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
-  - { role: convert, toward: person/muhammad, status: tradition, note: "أسلم فحسن إسلامه (ابن هشام ص222).", sources: [source/ibn-hisham-saqqa] }
+  - { role: ruler, toward: place/bahrayn, status: tradition, note: "عظيم البحرين الذي كاتبه النبي ⁦(ابن هشام ص222؛ الرحيق ص358)⁩.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  - { role: convert, toward: person/muhammad, status: tradition, note: "أسلم فحسن إسلامه ⁦(ابن هشام ص222)⁩.", sources: [source/ibn-hisham-saqqa] }
 faith:
-  - { value: sunni, basis: tradition, note: "أسلم فحسن إسلامه على يد رسالة النبي مع العلاء بن الحضرمي (ابن هشام ص222).", sources: [source/ibn-hisham-saqqa] }
+  - { value: sunni, basis: tradition, note: "أسلم فحسن إسلامه على يد رسالة النبي مع العلاء بن الحضرمي ⁦(ابن هشام ص222)⁩.", sources: [source/ibn-hisham-saqqa] }
 relations:
   - { type: died_in, target: place/bahrayn, note: "From text: مات بعد النبي قبل ردة أهل البحرين و", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/abd-al-qays, sources: [source/ibn-hisham-saqqa] }

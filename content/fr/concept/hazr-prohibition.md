@@ -1,0 +1,9 @@
+---
+id: concept/hazr-prohibition
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/hazr-prohibition.md}
+---
+## Résumé
+Dans le lexique, le terme « hazr » (interdiction) signifie empêcher ; l’interdit (mahzur) désigne ce que la loi prohibe, et ce terme englobe pour certains ce qui est illicite et ce qui est déconseillé, tandis que pour d’autres, il ne désigne que l’illicite ; celui qui commet l’acte est blâmé par la loi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7132} Les usulis distinguent l’interdiction (hazr), l’illicéité (tahrim, qui est blâmée et punie) et la répugnance (karaha, pour laquelle on est récompensé lorsqu’on s’en abstient et non puni lorsqu’on la commet). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7132} Dans les ouvrages hanafites, une section intitulée « Permis et interdits » (hazr wa-ibaha), « choses déconseillées » ou « préférences », rassemble des règles éparses : regarder et toucher, s’habiller, posséder des objets en or et en argent, manger, faire des dons, gagner de l’argent, visiter les tombes, réciter des prières dans les cimetières, la musique, la médecine, la circoncision, les ornements, l’abattage d’animaux, nommer les enfants, médisance et envie, voyager, contracter des prêts, saluer les dirigeants, posséder des biens communs, le Coran et la mosquée. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7133} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7134} Les hanafites donnent à cette section des noms différents, en raison de la diversité des règles qu’elle contient. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7134}
