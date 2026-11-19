@@ -1,0 +1,37 @@
+---
+id: concept/lian-fiqh
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/lian-fiqh.md}
+---
+## Resumen
+Li'an, en léxico, es un sustantivo verbal derivado de maldición, que significa expulsión o distancia del bien, o de Dios, y de las personas, del abuso. Para los Hanafis y Hanbalis son los testimonios entre cónyuges, confirmados por juramentos, con la maldición del marido y la ira de la esposa; para los Malikis, los cuatro juramentos del marido de que la vio cometer adulterio o negar un embarazo, y sus juramentos negándose; para los Shafi'is, palabras fijas. Sirve como prueba necesaria para alejar el hadd de la acusación del marido, o para negar a un hijo {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13617} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13618}.
+
+## El terreno y el deber
+Los hanafis sostienen que la acusación de un marido contra su esposa requiere li'an, sobre el versículo de la sura de la Luz (versículo 6), citado sin citar. Los Malikis sostienen tres motivos: ver el acto, negar un embarazo o acusar sin ver, donde la mayoría de los narradores dicen que es castigado y no maldice {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13618}. Los hanbalíes sostienen que el marido puede renunciar al hadd mediante li'an; el hadd para acusación es derecho de la esposa, así que si ella renuncia a él o el marido prueba adulterio mediante testigos, no hay li'an excepto negar la descendencia {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13618} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13619}.
+
+## Elementos y condiciones
+Para los hanafis el elemento son los testimonios entre los cónyuges; para los Malikis hay cuatro elementos: las dos partes, la causa y las palabras {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13619}. Para los hanafis, el marido no debe tener testigo; la esposa debe negar el acto y ser casto; los dos deben estar casados en el momento de la acusación mediante un matrimonio válido, ambos deben ser competentes para testificar contra un musulmán, y la acusación debe ser de adulterio o negación de descendencia {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13619} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13620} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13621}. Los Malikis requieren matrimonio, pubertad, cordura, acusación a la vista o negación del embarazo, prontitud, ausencia de relaciones sexuales tras la acusación, el inicio del marido y la presencia del grupo {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13621}. Los Shafi'is requieren un marido que pueda divorciarse, una acusación previa, la orden del juez y la recitación de las palabras, las palabras adecuadas, continuidad y la maldición de la esposa para que siga la del marido {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13621} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13622}.
+
+## Prueba ante el juez
+Li'an se presenta ante el juez de dos maneras: el marido confiesa la acusación o la esposa aporta pruebas de que él la acusó. La prueba es dos hombres, no mujeres, porque li'an representa al hadd, y los hadds se evitan por la duda {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13622}.
+
+## La manera de li'an
+Los hanafís, en la aparente opinión, hacen que el marido jure cuatro veces por Dios que es sincero sobre la acusación, y en la quinta digan que la maldición de Dios recaiga sobre él si es un mentiroso; la esposa jura entonces cuatro veces que es un mentiroso, y en la quinta dice que la ira de Dios sea sobre ella si es sincero. Los Malikis, Shafi'is y Hanbalis tienen formularios detallados para negar el embarazo, negar la descendencia o evitar el hadd, con la esposa maldiciendo al marido {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13622} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13623} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13624}. Nada surtirá efecto a menos que las cinco partes estén completas, y cambiar las palabras o la orden la invalida {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13624} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13625}.
+
+## El sordomudo y el que no puede hablar
+El mudo maldice con un signo o escritura clara; si más tarde habla y dice que no se refería a li'an con su signo, su palabra se toma en su contra, pero no a su favor. Un hablante que pierde el habla por enfermedad espera tres días si se espera recuperación; una persona que no habla árabe maldice en su propia lengua, con un traductor {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13625} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13626}.
+
+## Orden y rechazo
+La maldición del marido debe preceder a la de la esposa; si ella empieza, el juez repite la suya, según los Shafi'is, los Hanbalíes y los Malikis, y según la visión de los hanafis y de un malíki, el marido debe comenzar, y si el juez no la repite y los separa, la sentencia se mantiene {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13626} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13627}. Si el marido se niega, los hanafis lo encarcelan hasta que maldice o ella acepte o él confiesa, entonces el hadd para acusación; la mayoría de los juristas le dan el hadd para acusación, ya que li'an lo renuncia {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13627} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13628}. Si la esposa se niega, los hanafis y hanbalíes no le dan el hadd por adulterio, sino que la encarcelan; los Malikis y Shafi'is le otorgan el hadd por adulterio {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13628} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13629}.
+
+## Efectos sobre los cónyuges
+Los efectos incluyen la retirada del hadd de ambos cónyuges; la prohibición del acto sexual y del disfrute; si la separación se produce mediante li'an o por resolución del juez (los hanafis dicen la resolución del juez); si la separación es una disolución o un divorcio definitivo, los Malikis, Shafi'is, Hanbalis y Abu Yusuf la llaman disolución con una prohibición duradera, y Abu Hanifa y Muhammad un divorcio definitivo {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13629} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13630} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13631}.
+
+## Efectos en el descenso del niño
+Si se completa el li'an para negar la descendencia, el niño queda separado del padre y se une a la madre, bajo condiciones: prontitud al nacer, sin reconocimiento expreso ni implícito, y el niño viviendo en el li'an para los hanafis, que los shhafi'is y hanbalis no requieren {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13633} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13634} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13635}. El hijo negado es un extraño para el padre en herencia y manutención, pero no en testimonio, represalia, parentesco prohibido ni en la reclamación de otro {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13635} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13636}.
+
+## Intensificación del li'an y sus costumbres
+Intensificar el li'an es una sunna para los Shafi'is y en la escuela de los Hanbalis, y obligatoria para los Malikis; puede hacerse en un momento, como después de la oración de la tarde, en un lugar, como las mezquitas nobles o junto al púlpito, y ante un grupo de hombres erguidos {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13636} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13637}. Es una sunna para el juez reprender a los cónyuges y para que estos se pongan de pie maldiciendo para que la gente vea {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13638}.
+

@@ -1,0 +1,36 @@
+---
+id: concept/shart-al-shaykhayn
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/shart-al-shaykhayn.md}
+---
+## Resumen
+"La condición de los dos Shaykhs" (*shart al-shaykhayn*) significa lo que [[person/al-bukhari|al-Bukhari]] y [[person/muslim-ibn-al-hajjaj|Muslim]] se exigieron al elegir los hadices de sus Sahihs. {cite:irshad-sari-amiriyya-1323 p. 21} En la introducción de [[work/irshad-al-sari|Irshad al-Sari]], resumiendo la introducción de Fath al-Bari, [[person/al-qastallani-shihab-al-din|al-Qastallani]] transmite el punto de Ibn Tahir al-Maqdisi de que ninguno de los dos dice que "mi condición es incluir tal o cual persona"; sus condiciones solo se conocen estudiando sus libros. {cite:irshad-sari-amiriyya-1323 p. 21}
+
+## La disputa sobre su definición
+:::perspectives
+- **Suní: al-Hakim al-Naysaburi in al-Madkhal ila al-Iklil**: el hadiz de primer grado de sonido, elegido por al-Bukhari y Muslim, es un informe de un conocido Compañero que tiene dos transmisores fiables, luego transmitido por un hafiz preciso y conocido de las generaciones siguientes con transmisores propios, hasta un maestro de al-Bukhari y musulmán que es un hafiz preciso conocido por su rectitud. {cite:irshad-sari-amiriyya-1323 p. 22}
+- **Suní: Ibn Tahir al-Maqdisi (Ibn al-Qaysarani)**: su condición es un informe cuyos transmisores son aceptados como fiables y remitido a un Compañero conocido, sin desacuerdo entre autoridades fiables, con una cadena conectada; dos transmisores del Compañero son buenos, pero si solo tiene uno y la ruta hacia él es correcta, lo incluyen. Considera contradictoria la regla de al-Hakim en ambos libros: al-Bukhari incluía a Mirdas al-Aslami, cuyo único transmisor es Qays b. Abi Hazim, y 'Amr b. Taghlib, transmitido únicamente por al-Hasan al-Basri; Muslim incluía a al-Musayyab b. Hazn a la muerte de Abu Talib, transmitido solo por su hijo Sa'id, y al-Agharr al-Muzani, transmitido únicamente por Abu Burda. {cite:irshad-sari-amiriyya-1323 p. 21-22}
+- **Suní: Abu Bakr al-Hazimi**: la afirmación de al-Hakim es "la visión de quien no escarbó profundamente en los rincones ocultos del Sahih"; si hubiera revisado el libro adecuadamente, habría encontrado que gran parte de él le contradicía. {cite:irshad-sari-amiriyya-1323 p. 22}
+:::
+
+## Que Sahih ocupa un lugar más alto
+Al-Qastallani señala que la comunidad estuvo de acuerdo en aceptar a los dos Sahihs y discrepó sobre cuál es más fuerte, siendo la mayoría prefiriendo explícitamente el de al-Bukhari. {cite:irshad-sari-amiriyya-1323 p. 22}
+- Lee la frase de Abu 'Ali al-Naysaburi "no hay nada bajo el cielo más sólido que el libro de Muslim" como una negación de que algún libro sea más sólido que el de Muslim, no como afirmando que sea más sólido que el de al-Bukhari. {cite:irshad-sari-amiriyya-1323 p. 22}
+- Prefiere algunos magribis por Muslim's Sahih por su fina presentación y disposición, no su solidez. {cite:irshad-sari-amiriyya-1323 p. 22}
+- Da razones para preferir a al-Bukhari: en relación con eso, porque al-Bukhari requiere pruebas de que un narrador se encontró con su fuente al menos una vez mientras el musulmán se conforma con la contemporaneidad; en rectitud y precisión, porque más narradores de Muslim fueron criticados; y en la libertad de anomalías y defectos, porque menos hadices de al-Bukhari fueron criticados que los de Muslim. {cite:irshad-sari-amiriyya-1323 p. 22} Véase [[concept/ittisal-al-isnad|conexión de la]] cadena.
+
+## Narradores que utilizaron a pesar de las críticas
+Al-Qastallani transmite que la inclusión de un narrador por parte de un autor Sahih implica su rectitud y precisión en la opinión de ese autor — más aún teniendo en cuenta que la comunidad acordó llamar a ambos libros "los Sahihs" — al menos en los informes principales, mientras que los narradores de informes corroborantes y suspendidos varían en su posición; y que la crítica solo se acepta cuando se explica su fundamento perjudicial. {cite:irshad-sari-amiriyya-1323 p. 22-23} Abu al-Hasan al-Maqdisi solía decir de un narrador usado en el Sahih: «ha cruzado el puente» — lo que se decía sobre él ya no se tiene en cuenta. {cite:irshad-sari-amiriyya-1323 p. 23}
+
+Aún no se aborda aquí: una visión académica de las condiciones de los dos Sahihs.
+
+## En al-Nawawi, citando a Ibn al-Salah
+[[person/al-nawawi|Al-Nawawi]] cita [[person/ibn-al-salah|a Ibn al-Salah]] diciendo que la condición del musulmán en su Sahih es una cadena conectada por hombres fiables de hombres confiables de principio a fin, libre de anomalías y defectos — que es la definición de hadiz sólido. {cite:sharh-nawawi-misriyya-1347-v1 p. 15} Explica la fórmula "sonido sobre la condición del musulmán pero no sobre la de al-Bukhari" como que algunos narradores cumplían las condiciones para el musulmán pero no para al-Bukhari — como Abu al-Zubayr al-Makki, Suhayl b. Abi Salih, al-'Ala' b. 'Abd al-Rahman y Hammad b. Salama — y a la inversa, para hombres en los que al-Bukhari confiaba pero el musulmán no, como 'Ikrima, cliente de Ibn 'Abbas. {cite:sharh-nawawi-misriyya-1347-v1 p. 15} Al-Nawawi cuenta entre las razones para preferir el libro de al-Bukhari que Muslim trata una cadena "'an" como conectada por mera contemporaneidad, mientras que al-Bukhari no lo hace hasta que se demuestre que ambas se han encontrado. {cite:sharh-nawawi-misriyya-1347-v1 p. 14}
+
+## Al-Hakim y al-Daraqutni en el Companion con un único transmisor
+En el [[work/al-mustadrak-ala-al-sahihayn|*Mustadrak*]], [[person/al-hakim-al-nisaburi|al-Hakim]] explicaría la omisión por parte de los dos maestros de un hadiz por su Compañero por tener solo un transmisor, como cuando dice que se abstuvieron del hadiz de 'Urwa ibn Mudarris porque solo al-Sha'bi transmitía desde él. {cite:mustadrak-haramayn-1997-v1 p. 25} [[person/muqbil-ibn-hadi-al-wadii|Muqbil al-Wadi'i]] responde a esto con la lista que [[person/al-daraqutni|al-Daraqutni]] elaboró en [[work/al-ilzamat-ala-sahih-al-bukhari|*al-Ilzamat*]] de Compañeros a los que ambos maestros o uno de ellos incluían, aunque cada uno tenía solo un transmisor: Mirdas al-Aslami y 'Adi ibn 'Amira a través de Qays ibn Abi Hazim, 'Itban ibn Malik a través de Mahmud ibn al-Rabi', al-Musayyab ibn Hazn a través de su hijo Sa'id, y otros. {cite:mustadrak-haramayn-1997-v1 p. 21-24}
+
+Al-Hakim relata que al-Daraqutni le preguntó por qué los dos maestros omitieron el hadiz de Usama ibn Sharik; él respondió que no encontraron transmisor de Usama más que Ziyad ibn 'Ilaqa, y al-Daraqutni respondió con Compañeros que incluían y que tenían un solo transmisor. Al-Wadi'i interpreta esto como una concesión de al-Hakim. {cite:mustadrak-haramayn-1997-v1 p. 24} En otro lugar del *Mustadrak* al-Hakim incluso afirma lo contrario a su propia opinión, argumentando que los dos maestros incluían a varios Compañeros que tenían cada uno solo un transmisor. {cite:mustadrak-haramayn-1997-v1 p. 26}
