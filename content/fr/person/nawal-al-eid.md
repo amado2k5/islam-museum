@@ -1,0 +1,44 @@
+---
+id: person/nawal-al-eid
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/nawal-al-eid.md}
+---
+# Nawal Al-Eid
+
+## Résumé
+Nawal Abdulaziz Abdullah Al-Eid est professeure de sunna et de sciences à l'Université Princess Nourah à Riyad, et prédicatrice saoudienne comptait parmi les femmes prédicatrices les plus éminentes d'Arabie saoudite, au-delà de celle-ci et du monde musulman. {cite:ksaency-nawal-al-eid} {cite:wikipedia-nawal-al-eid-ar} Elle a remporté le Prix international Prince Naif pour la Sunna du Prophète pour ses recherches sur les droits des femmes à la lumière de la Sunnah. {cite:wikipedia-nawal-al-eid-ar} {cite:website-nawal-al-eid} Une étude académique sur les femmes prédicatrices saoudiennes rapporte que ses abonnés sur Twitter dépassaient les quatre millions et demi, et qu'en 2012 elle a fondé la dotation Ithra' al-Ma'rifa à Riyad. {cite:oasis-saudi-women-preachers}
+
+## Jeunesse et formation
+Elle naquit dans la ville de Shaqra en Arabie Saoudite en 1397 H. {cite:wikipedia-nawal-al-eid-ar} {cite:ksaency-nawal-al-eid} Elle fit ses études secondaires à la Première École Secondaire de Shaqra, se classant première dans la région centrale. {cite:wikipedia-nawal-al-eid-ar} {cite:website-nawal-al-eid}
+
+Elle obtint sa licence au Collège d'éducation pour filles de Riyad, dans les sections littéraires, spécialisée en études islamiques, en 1419/1420 H, avec distinction et distinctions, se classant première du collège. {cite:wikipedia-nawal-al-eid-ar} Elle obtint ensuite sa maîtrise dans ce même collège en hadith prophétique et sciences ; sa thèse était une étude et une édition critique d'une partie du commentaire d'Ibn Battal sur Sahih al-Bukhari, du Livre des Vertus de Médine au Livre du Jihad. {cite:website-nawal-al-eid} {cite:ksaency-nawal-al-eid} Elle obtint son doctorat en hadith et sciences du même collège en 1424 H, avec une étude et une édition critique du Livre d'Adhan tirées de l'al-Ahkam al-Kubra d'Ibn Kathir. {cite:website-nawal-al-eid} {cite:ksaency-nawal-al-eid} Son site officiel date le doctorat de 1424/1425 H, tandis que l'article Wikipédia en arabe donne le titre de la thèse sous la forme al-Ahkam al-Suffra ; cet article suit le formulaire fourni par son site web et l'Encyclopédie saoudienne. {cite:website-nawal-al-eid} {cite:wikipedia-nawal-al-eid-ar}
+
+## Carrière académique et postes
+Elle fut nommée assistante d'enseignement au Collège d'éducation de Riyad en 1419/1420 H, puis chargée de cours en 1424 H, professeure assistante en 1425 H, professeure associée à l'Université Princess Nourah en 1432 H, et professeure titulaire au département d'études islamiques (hadith et sciences de l'université) au Collège des arts de l'université en 1435 H. {cite:wikipedia-nawal-al-eid-ar} {cite:website-nawal-al-eid} {cite:ksaency-nawal-al-eid}
+
+Ses affiliations et postes incluent le comité chargé de l'élaboration des programmes de hadith dans les écoles d'enseignement général, ainsi que des membres consultatifs de l'administration de la mosquée, de la fondation Al-Emaar et de la société de mémorisation du Coran. {cite:wikipedia-nawal-al-eid-ar} Elle a été membre du conseil d'administration du Centre Roi Abdulaziz pour le Dialogue National de 1435 à 1439 H. {cite:website-nawal-al-eid} En 2009, elle est devenue consultante certifiée en dialogue familial au même centre ; en 2010, elle a été accréditée comme formatrice par la Technical and Vocational Training Corporation, elle a enseigné en tant que professeure coopérante au collège d'infirmières de la Garde nationale, et elle a également enseigné à l'Université King Saud, à l'Université Prince Sultan et au Collège Al Yamamah. {cite:ksaency-nawal-al-eid}
+
+Elle reçut le prix Prince Naif bin Abdulaziz pour la Sunnah, ses sciences et les études islamiques contemporaines en 1427 H, pour ses recherches sur les droits des femmes dans la Sunnah, ainsi que le prix de l'Université Princesse Nourah pour l'excellence en recherche en 1438 H. {cite:website-nawal-al-eid}
+
+Elle a participé à des conférences et réunions académiques en Arabie Saoudite et à l'étranger, notamment à Casablanca et Marrakech au Maroc, à une conférence au Canada où elle a présenté une communication sur les droits des femmes dans l'islam, et à une conférence à l'Université du Caire sur la biographie prophétique. {cite:website-nawal-al-eid} {cite:ksaency-nawal-al-eid}
+
+## Prédication et activité publique
+Elle donne chaque semaine une leçon expliquant les Noms de Dieu, ainsi que des émissions de radio sur les droits des femmes et les affaires familiales, parmi lesquelles l'émission « Nawafidh Usariyya » (Fenêtres familiales). {cite:wikipedia-nawal-al-eid-ar} Ses conférences, comme les énumère son article biographique, comprennent une explication du Livre de Tawhid, une explication d'al-Tajrid al-Sarih (un recueil de Sahih al-Bukhari), ainsi que des conférences sur l'éducation des enfants, sur le hijab, et « Le Ramadan... l'opportunité d'une vie ». {cite:wikipedia-nawal-al-eid-ar} Elle a publié des articles, dont plusieurs cités dans l'article, sur la famille, la société et les femmes. {cite:wikipedia-nawal-al-eid-ar} Les liens externes de l'article Wikipédia en arabe renvoient à son site officiel, à son compte Twitter, à sa page Facebook et à sa propre chaîne YouTube. {cite:wikipedia-nawal-al-eid-ar}
+
+## Ithra' al-Ma'rifa
+En 2012, elle a fondé la dotation Ithra' al-Ma'rifa à Riyad, que l'étude académique décrit comme une dotation pieuse proposant des programmes pour le progrès culturel et social des femmes, ainsi que des cours pour mémoriser le Coran et préserver l'héritage du Prophète. {cite:oasis-saudi-women-preachers} Elle préside le conseil d'administration de la société de dotation à responsabilité limitée Ithra' al-Ma'rifa, selon son site officiel, et supervise en général le centre de conseil éducatif et pédagogique Ithra' al-Ma'rifa, selon l'Encyclopédie saoudienne. {cite:website-nawal-al-eid} {cite:ksaency-nawal-al-eid}
+
+## Livres
+Ses livres, tels que les sources les énumérent, incluent : « Les droits des femmes à la lumière de la Sunnah prophétique », « Facilitation des femmes au Hajj à la lumière de la Sunnah prophétique », « Un véritable programme de repentance envers Dieu », « Que faire après le Hajj ? », « La position du croyant face aux tribulations à la lumière du Hadith d'Abdallah ibn Amr » et « Contrôles sur le Takfir à la lumière de la Sunnah prophétique ». {cite:wikipedia-nawal-al-eid-ar} L'Encyclopédie saoudite ajoute : « Comment renforcez-vous votre foi ? », « Comment soutenez-vous votre prophète », ainsi qu'un livre sur sa série expliquant les noms de Dieu. {cite:ksaency-nawal-al-eid}
+
+## Positions et classifications dans la littérature
+Cette section présente les classifications et positions telles qu'elles apparaissent dans la littérature académique ; ce n'est pas un verdict du musée. Les études académiques classent les femmes prédicatrices saoudiennes diplômées de l'université sous la catégorie des « prédicatrices intellectuelles » (da'iyat muthaqqafat) ; Pellegrino situe ces prédicatrices, « en général », dans la tradition wahhabite, tout en soulignant que les prédicatrices elles-mêmes n'adoptent pas les étiquettes que leurs détracteurs leur attribuent dans le débat sur les rôles des femmes. {cite:oasis-saudi-women-preachers} L'étude résume un article qu'elle a publié sur son site web en 2012, intitulé « Le Grand Mensonge », dans lequel elle soutient que la différence entre hommes et femmes est fondamentale dans la création, que les droits et les devoirs reposent sur celle-ci, et qu'une revendication d'égalité qui efface cette différence s'écarte de la justice et s'approche de l'injustice. {cite:oasis-saudi-women-preachers} L'étude rapporte également qu'en 2014, elle a menacé de poursuivre en justice ceux qui l'accusaient d'appartenir au courant Ikhwan et l'avaient liée aux Frères musulmans. {cite:oasis-saudi-women-preachers}
+
+## Portée
+Elle a été comptée parmi les femmes prédicatrices les plus importantes et les plus en vue en Arabie Saoudite et au-delà, avec des activités à l'intérieur et à l'extérieur du Royaume. {cite:ksaency-nawal-al-eid} {cite:wikipedia-nawal-al-eid-ar} L'étude académique publiée en 2020 a rapporté que ses abonnés sur Twitter dépassaient quatre millions et demi ; ces chiffres correspondent à la période de publication de l'étude et changent constamment. {cite:oasis-saudi-women-preachers}
+
+## Sources
+- Les entités sources définies citées ci-dessus, enregistrées dans `data/source/`.
+- Les révisions de cet article doivent être datées et doivent indiquer la source qui a modifié chaque fait.
