@@ -458,6 +458,7 @@ Open after the restore: `main` still carries the marks (not touched from this la
 - 2026-11-19 17:30 machine-translated document claude-fr-01 imported: `content/es/` 28,252 files, `content/fr/` 27,966 files; `npm run validate` 0 errors.
 - 2026-11-19 17:39 machine-translated document claude-fr-02 imported: `content/es/` 28,252 files, `content/fr/` 27,991 files; `npm run validate` 0 errors.
 - 2026-11-19 17:48 machine-translated document claude-fr-03 imported: `content/es/` 28,252 files, `content/fr/` 28,013 files; `npm run validate` 0 errors.
+- 2026-11-19 18:01 machine-translated document claude-fr-04 imported: `content/es/` 28,252 files, `content/fr/` 28,033 files; `npm run validate` 0 errors.
 
 ## Explicit gaps
 
