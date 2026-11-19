@@ -1,0 +1,9 @@
+---
+id: exhibit/path-nile-cities
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/exhibit/path-nile-cities.md}
+---
+## Visión general
+Un camino a través de Egipto junto al Nilo: Alejandría, puerta de entrada del Mediterráneo, y al-Fustat, luego El Cairo, capital del islam durante mil años.
