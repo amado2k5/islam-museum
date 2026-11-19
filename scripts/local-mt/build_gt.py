@@ -21,6 +21,9 @@ ap.add_argument("--n", type=int, required=True, help="file number")
 ap.add_argument("--bytes", type=int, default=990_000)
 ap.add_argument("--taken", default="")
 ap.add_argument("--failed", default="")
+ap.add_argument("--ids-file", default="", help="build from these ids (first column) instead of the queue")
+ap.add_argument("--scheme", default="tags", choices=["tags", "num"], help="num: markers as 10-digit numbers (80… citation, 81…/82… link start/end)")
+ap.add_argument("--name", default="")
 a = ap.parse_args()
 skip = set()
 for f in (a.taken, a.failed):
@@ -39,20 +42,33 @@ def docx_bytes(paras):
 
 
 records, paras, sizes, words, est = [], [], [], 0, 0
-for ident in queue(a.lang, [], skip):
+def numeric(src):
+    src = re.sub(r"\[\[(\d+)\]\]", lambda m: f"({8000000000 + int(m.group(1))})", src)
+    src = re.sub(r"<x(\d+)>", lambda m: f"{8100000000 + int(m.group(1))} ", src)
+    return re.sub(r"</x(\d+)>", lambda m: f" {8200000000 + int(m.group(1))}", src)
+
+
+if a.ids_file:
+    seen, ids = set(), []
+    for l in open(a.ids_file, encoding="utf-8"):
+        i = l.split("\t")[0].strip()
+        if i and i not in seen and not os.path.exists(os.path.join(ROOT, "content", a.lang, i + ".md")): seen.add(i); ids.append(i)
+else:
+    ids = queue(a.lang, [], skip)
+for ident in ids:
     raw = open(os.path.join(ROOT, "content", "en", ident + ".md"), encoding="utf-8").read()
     m = re.match(r"^---\n(.*?)\n---\n?(.*)$", raw, re.S)
     if not m: continue
     body = m.group(2)
     if LEVELED.search(body) or BROKEN.search(body): continue
-    rec, new = {"id": ident, "lines": []}, [f"#### {len(records) + 1} ####"]
+    rec, new = {"id": ident, "scheme": a.scheme, "lines": []}, [f"#### {len(records) + 1} ####"]
     for line in body.split("\n"):
         if not line.strip() or line.strip() in (":::", ":::perspectives") or re.fullmatch(r"\s*[-|: ]+\s*", line) or not re.search(r"[A-Za-z]{2}", line):
             rec["lines"].append({"fixed": line}); continue
         mm = re.match(r"^(#{1,6} |\s*(?:[-*]|\d+\.) +|> ?)(.*)$", line)
         prefix, text = (mm.group(1), mm.group(2)) if mm else ("", line)
         src, kept, links = protect(text)
-        rec["lines"].append({"prefix": prefix, "kept": kept, "links": links, "en": text}); new.append(src)
+        rec["lines"].append({"prefix": prefix, "kept": kept, "links": links, "en": text}); new.append(numeric(src) if a.scheme == "num" else src)
     est += sum(len(p.encode("utf-8")) for p in new) * 0.36
     records.append(rec); paras += new; sizes.append(len(new)); words += len(body.split())
     if est > a.bytes * 1.05: break
@@ -63,7 +79,7 @@ while len(data) > a.bytes and len(records) > 1:  # drop whole records from the e
     data = docx_bytes(paras)
 if not records: print("nothing left to build"); sys.exit(3)
 os.makedirs(a.dir, exist_ok=True)
-name = f"gt-{a.lang}-{a.n:03d}"
+name = a.name or f"gt-{a.lang}-{a.n:03d}"
 open(os.path.join(a.dir, name + "-en.docx"), "wb").write(data)
 json.dump(records, open(os.path.join(a.dir, name + ".json"), "w", encoding="utf-8"), ensure_ascii=False)
 print(f"{name}\trecords {len(records)}\twords {words}\tbytes {len(data)}")

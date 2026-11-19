@@ -17,7 +17,7 @@ import argparse, collections, html, json, os, re, sys, time, zipfile
 import yaml
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from translate import BROKEN, FIXED_HEADINGS, LEVELED, ROOT, check, restore  # noqa: E402
+from translate import BROKEN, FIXED_HEADINGS, LEVELED, ROOT, check, protect, restore  # noqa: E402
 
 REC = re.compile(r"^\s*#{3,4}\s*(\d+)\s*#{3,4}\s*$")
 ERA = {"es": [(r"(\d) (?:AH|d\. ?H\.|A\.H\.)(?![\w.])", r"\1 H"), (r"(\d) (?:BCE|a\. ?e\. ?c\.|AEC)(?![\w.])", r"\1 a. C."), (r"(\d) (?:CE|e\. ?c\.|EC)(?![\w.])", r"\1 d. C.")],
@@ -34,6 +34,34 @@ def tidy(s):
     s = re.sub(r"<\s*(/?)\s*x\s*(\d+)\s*>", r"<\1x\2>", s, flags=re.I)  # "< x1 >", "</ X1>"
     s = re.sub(r"\[\s*\[\s*(\d+)\s*\]\s*\]", r"[[\1]]", s)
     return re.sub(r" {2,}", " ", s).strip()
+
+
+def from_numbers(s):
+    """Numeric scheme: 80000000NN is citation marker NN, 81000000NN / 82000000NN open and close link NN."""
+    s = re.sub(r"8[012](?:[ \u00a0\u202f.,]?\d){8}", lambda m: re.sub(r"\D", "", m.group(0)), s)
+    s = re.sub(r"\(?\b80(\d{8})\b\)?", lambda m: f"[[{int(m.group(1))}]]", s)
+    s = re.sub(r"\(?\b81(\d{8})\b\)?[,;]?\s*", lambda m: f"<x{int(m.group(1))}>", s)
+    return re.sub(r"\s*\(?\b82(\d{8})\b\)?", lambda m: f"</x{int(m.group(1))}>", s)
+
+
+def repair(tr, en, kept, links):
+    """Google often strips the <xN> tags and sometimes a [[N]] marker. Put back what can be put back without guessing:
+    "[N]" becomes "[[N]]"; a citation marker that closed the English paragraph is appended to the translation; a link
+    whose English label (a name, usually) stands exactly once in the translation is wrapped again."""
+    src = protect(en)[0]
+    for i in range(1, len(kept) + 1):
+        if f"[[{i}]]" in tr: continue
+        tr, n = re.subn(rf"(?<!\[)\[{i}\](?!\])", f"[[{i}]]", tr)
+        if n == 1: continue
+        if n == 0 and re.search(rf"\[\[{i}\]\](?:[\s.;,:)]|\[\[\d+\]\])*$", src): tr = tr.rstrip() + f" [[{i}]]"
+    for i in range(1, len(links) + 1):
+        if f"<x{i}>" in tr or f"</x{i}>" in tr: continue
+        m = re.search(rf"<x{i}>([^<]*)</x{i}>", src)
+        label = m.group(1).strip() if m else ""
+        plain = re.sub(r"<x\d+>[^<]*</x\d+>", lambda mm: " " * len(mm.group(0)), tr)  # never wrap inside another link
+        hits = [h.start() for h in re.finditer(rf"(?<!\w){re.escape(label)}(?!\w)", plain)] if len(label) >= 3 else []
+        if len(hits) == 1: tr = tr[:hits[0]] + f"<x{i}>{label}</x{i}>" + tr[hits[0] + len(label):]
+    return tr
 
 
 def main():
@@ -74,12 +102,14 @@ def main():
                 out, it = [], iter(got)
                 for l in rec["lines"]:
                     if "fixed" in l: out.append(l["fixed"]); continue
-                    tr, head = tidy(next(it)), l["prefix"].startswith("#")
+                    tr, head = next(it), l["prefix"].startswith("#")
+                    tr = tidy(from_numbers(tr) if rec.get("scheme") == "num" else tr)
                     if head and l["en"].strip() in FIXED_HEADINGS[lang]: out.append(l["prefix"] + FIXED_HEADINGS[lang][l["en"].strip()]); continue
                     for star in ("**", "*"):  # Markdown emphasis must survive as written
                         if l["en"].count(star) != tr.count(star): raise ValueError("emphasis marks changed")
                     if re.search(r"\*\s+[^*]+\s+\*", tr) and not re.search(r"\*\s+[^*]+\s+\*", l["en"]): raise ValueError("emphasis marks changed")
                     done = restore(tr, l["kept"], l["links"])
+                    if done is None: done = restore(repair(tr, l["en"], l["kept"], l["links"]), l["kept"], l["links"])
                     if done is None or not done.strip(): raise ValueError("markers lost")
                     for pat, rep in ERA[lang]: done = re.sub(pat, rep, done)
                     if lang == "es":  # the lane's term is "suní" (the validator reads the first perspectives label by it)

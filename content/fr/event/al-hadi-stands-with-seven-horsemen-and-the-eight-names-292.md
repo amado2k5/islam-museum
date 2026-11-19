@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-stands-with-seven-horsemen-and-the-eight-names-292
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-stands-with-seven-horsemen-and-the-eight-names-292.md}
+---
+## Vue d'ensemble
+« Il se tenait avec seulement sept cavaliers », et la page les nomme ensuite : al-Qasim et Abdullah, fils de Muhammad ibn al-Qasim ; al-Husayn ibn Musa ibn Sulayman ; Ali ibn Mohammed ; Yahya al-Sulaymi ; Ibrahim al-Hajuri ; Ali ibn Sa'id al-Yarsami ; et Husayn al-Aqadi {cite:sira-hadi-ila-al-haqq p.296} {cite:sira-hadi-ila-al-haqq p.297}.
+
+## Détail
+La note de bas de page 297 indique : « Il est à noter que le nombre de ces cavaliers est de huit, donc peut-être que le nombre exact est neuf » {cite:sira-hadi-ila-al-haqq p.297}. Il s’agit d’une note de l’éditeur ; le musée n’en décide rien et n’ajoute ni ne supprime aucun nom. Il distingue « Ali ibn Muhammad » d’Ali ibn Muhammad ibn Ubaydallah al-Abbasi, le narrateur du livre, car le texte ne les assimile pas ; par conséquent, aucune mention n’a été faite pour « Ali ibn Muhammad » à cet endroit. Les autres noms sont répertoriés : [[person/al-qasim-ibn-muhammad-ibn-al-qasim-horseman-292|al-Qasim]] et [[person/abdullah-ibn-muhammad-ibn-al-qasim-horseman-292|Abdullah]], fils de Muhammad ibn al-Qasim ; [[person/al-husayn-ibn-musa-ibn-sulayman-horseman-292|al-Husayn ibn Musa ibn Sulayman]]. [[person/yahya-al-sulaymi-horseman-292|Yahya al-Sulaymi]] ; [[person/ibrahim-al-hujuri-horseman-292|Ibrahim al-Hajuri]] ; [[person/ali-ibn-said-al-yarsami-horseman-292|Ali ibn Sa'id al-Yarsami]] ; et [[person/husayn-al-aqadi-horseman-292|Husayn al-Aqadi]]. Al-Hadi se tenait alors « face au camp des Hakami, et ils avaient attaqué le camp et l'avaient pillé » {cite:sira-hadi-ila-al-haqq p.297}. Cet événement fait suite à [[event/the-fight-in-tihama-and-the-breaking-of-al-hadis-left-wing-292|la rupture de l'aile gauche]]. Le récit se trouve dans un livre zaydite, du point de vue des disciples de l'imam. Ses descriptions et ses jugements sur les adversaires sont ceux du narrateur ou du poète, et le musée n'en adopte aucun et ne rend aucun verdict.

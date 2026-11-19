@@ -1,0 +1,24 @@
+---
+id: event/al-hadi-sayings-recorded-at-saada
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-sayings-recorded-at-saada.md}
+---
+## Vue d'ensemble
+Après l'appel, le livre cite une série de paroles d'[[person/al-hadi-yahya-al-rassi|al-Hadi]] rapportées par [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Muhammad ibn Ubaydallah]] sous la forme « Je l'ai entendu dire » ; l'imam s'adresse à lui à la page 51 en l'appelant « Abu Jafar » indique que la personne à qui il s'adressait portait ce surnom (kunya) ; le livre appelle également Muhammad ibn Sulayman al-Kufi « Abu Jafar » (p. 54), si bien que le surnom seul ne permet pas de déterminer lequel des deux narre ces vers. {cite:sira-hadi-ila-al-haqq p.49} {cite:sira-hadi-ila-al-haqq p.51} Il s'agit du témoignage d'un disciple dans un ouvrage zaydite ; par conséquent, les éloges et la comparaison avec la première génération sont attribués au narrateur ou à l'imam, et non à une découverte historique du musée. Un passage où l'imam parle durement de ses adversaires est omis et n'est pas repris dans la version du musée.
+
+## La détermination et le bien de la communauté
+Le narrateur dit avoir entendu al-Hadi dire à un groupe que s'ils lui obéissaient, ils ne perdraient du Messager de Dieu que sa personne ; l'avoir entendu jurer avec ferveur qu'il souhaitait que Dieu rétablisse la justice dans cette communauté par son intermédiaire, même s'il devait jeûner deux jours et ne manger qu'un seul ; et l'avoir entendu dire une nuit qu'il souhaitait que Dieu rétablisse l'islam par son intermédiaire, même si sa main restait collée aux Pléiades, et qu'il s'écrasait ensuite sur terre en morceaux. {cite:sira-hadi-ila-al-haqq p.49}
+
+## La bannière de Badr
+Il l'entendit dire que s'il avait trois cent treize croyants, ou plutôt cinq cents, il gouvernerait le Yémen avec eux, car c'était là une prérogative du Messager de Dieu ; la note de l'éditeur précise qu'il s'agit du nombre des hommes de Badr et fait référence au Maghazi d'al-Waqidi. Il leur dit ensuite d'être patients, qu'il marcherait devant leur bannière et soutiendrait l'islam. {cite:sira-hadi-ila-al-haqq p.50} Il ajouta qu'il ne connaissait ce jour-là aucune bannière comparable à celle de Badr, ni aucune troupe meilleure que la leur après celles qui les avaient précédés, que leur préoccupation était de faire triompher la religion de Dieu, de faire revivre Son Livre, d'ordonner le bien et d'interdire le mal, et qu'il espérait qu'ils s'élèveraient encore plus haut auprès de Dieu. {cite:sira-hadi-ila-al-haqq p.50} À la page 51, il est cité disant que les anges de Dieu, dans Ses cieux, se réjouissent davantage de ce qu'ils font que sur terre. {cite:sira-hadi-ila-al-haqq p.51}
+
+## Une prière en cas de maladie
+Le narrateur rapporte qu'al-Hadi dit qu'il tomba malade chez lui, entouré de son père, de ses oncles et de quelques membres de sa famille. Il leur demanda de quitter la pièce et commença une invocation ; il ne révéla pas le contenu de sa prière, si ce n'est qu'elle comprenait : « Ô Dieu, je sais que la mort est inévitable ; garde-moi en vie jusqu'à ce que Tu me conduises au jihad, ce qui Te plaît, puis fais de moi ce que Tu voudras. » {cite:sira-hadi-ila-al-haqq p.50} Le père et les oncles sont, d'après le reste du livre et non d'après ces lignes, [[person/al-husayn-ibn-al-qasim-al-rassi|al-Husayn ibn al-Qasim]], [[person/muhammad-ibn-al-qasim-al-rassi|Muhammad]] et [[person/al-hasan-ibn-al-qasim-al-rassi|al-Hasan]].
+
+## Retourner ou aller
+Il l’entendit dire que si la situation au Yémen ne se réglait pas, il retournerait auprès de sa famille ou attaquerait l’Est et l’Ouest jusqu’à ce qu’il ait établi la preuve de Dieu ; {cite:sira-hadi-ila-al-haqq p.50} et que s’il connaissait quelqu’un à cette époque mieux capable d’accomplir cette tâche, ou un membre de sa famille qui l’accomplissait mieux, il le suivrait où qu’il soit et combattrait à ses côtés, mais il n’en connaissait aucun. {cite:sira-hadi-ila-al-haqq p.51}
+
+## Le Coran entre lui et le peuple
+Il raconte l'avoir vu prendre le Coran et dire au peuple : « Voici ce qui est entre nous, verset par verset » : s'il s'en écartait par une lettre, ils ne lui devaient plus obéissance et devaient le combattre. Il l'entendit leur demander de lui garantir qu'ils se repentiraient et obéiraient à ses ordres, et qu'en retour, il les guiderait sur le droit chemin et leur garantirait le Paradis. {cite:sira-hadi-ila-al-haqq p.51} Ce sont les paroles de l'imam telles que rapportées par son narrateur, et le musée ne se prononce pas sur la véracité de cette promesse.
