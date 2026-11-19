@@ -99,7 +99,7 @@ def main():
         m = REC.match(p)
         if m: cur = int(m.group(1)); chunks[cur] = []
         elif cur is not None: chunks[cur].append(p)
-    tally = collections.Counter()
+    tally = collections.Counter(); english, last_ok = [], 0
     taken = set(l.strip() for l in open(a.taken, encoding="utf-8")) if a.taken and os.path.exists(a.taken) else set()
     with open(a.log, "a", encoding="utf-8") as lg:
         def note(event, ident, **kw):
@@ -155,11 +155,17 @@ def main():
                 os.makedirs(os.path.dirname(target), exist_ok=True)
                 with open(target + ".tmp", "w", encoding="utf-8") as f: f.write(text)
                 os.replace(target + ".tmp", target)
-                note("ok", ident, words=len(body.split()))
+                note("ok", ident, words=len(body.split())); last_ok = n
             except ValueError as e:
                 note("failed", ident, reason=str(e)[:200])
-                if not (a.engine == "word" and str(e) == "looks untranslated"):  # Word leaves the tail of a long file in English: those records simply go into a later file
+                if a.engine == "word" and str(e) == "looks untranslated": english.append((n, ident))  # judged after the loop
+                else:
                     with open(a.log + ".failed", "a", encoding="utf-8") as ff: ff.write(f"{ident}\t{e}\n")
+    # Word leaves the tail of a long file in English: those records go into a later file. A record left in English
+    # BEFORE the last translated one was reached by Word and still reads as English: that one has failed.
+    with open(a.log + ".failed", "a", encoding="utf-8") as ff:
+        for n, ident in english:
+            if n < last_ok: ff.write(f"{ident}\tlooks untranslated\n")
     print(f"{lang}: {len(records)} records in the file; " + ", ".join(f"{k} {v}" for k, v in tally.most_common()))
 
 
