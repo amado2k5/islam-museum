@@ -1,0 +1,31 @@
+---
+id: person/mirza-alakbar-sabir
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/mirza-alakbar-sabir.md}
+---
+
+# Mirza Alakbar Sabir
+
+## Résumé
+Mirza Alakbar Sabir (30 mai 1862 – 12 juillet 1911), né Mirza Ali-Akbar Tahirzada (Tahirzadeh), était un poète satirique azerbaïdjanais. {cite:wikipedia-mirza-alakbar-sabir-en} {cite:wikipedia-mirza-alakbar-sabir-az} Écrivant dans Molla Nasraddin et d'autres revues caucasiques dans la langue quotidienne des Turcs du Caucase du Sud, il se moqua de l'hypocrisie ecclésiastique, des fonctionnaires corrompus et la superstition, et il est considéré comme le fondateur de la poésie satirique moderne dans la littérature azerbaïdjanaise. {cite:wikipedia-mirza-alakbar-sabir-en} {cite:wikipedia-mirza-alakbar-sabir-az} Ses poèmes furent rassemblés sous le nom Hophopname, d'après l'un de ses pseudonymes, Hop-hop. {cite:wikipedia-mirza-alakbar-sabir-az}
+
+## Carrière
+Il naquit à Shamakhi le 30 mai 1862, dans un foyer religieux de classe moyenne ; son nom de naissance plus complet, donné dans les articles azerbaïdjanais et arabe, est Alakbar Zeynalabdin oglu Tahirzadeh. {cite:wikipedia-mirza-alakbar-sabir-en} {cite:wikipedia-mirza-alakbar-sabir-az} {cite:wikipedia-mirza-alakbar-sabir-ar} Il devint élève du poète Seyid Azim Shirvani à l'école moderne de ce dernier à Shamakhi, commença à traduire de la poésie persane et à écrire ses propres vers azerbaïdjanais, et s'immisce à ses ambitions littéraires, contre la volonté de son père, de travailler dans l'épicerie familiale. {cite:wikipedia-mirza-alakbar-sabir-en} En 1885, il voyagea en Iran et en Asie centrale ; à son retour, il se maria et devint père de neuf enfants. {cite:wikipedia-mirza-alakbar-sabir-en} Pendant quinze ans, il a fabriqué du savon pour gagner sa vie, plaisantant : « Je fais du savon pour laver la saleté extérieure de mes compatriotes. » {cite:wikipedia-mirza-alakbar-sabir-en} Une tentative de fonder une école selon la tradition européenne échoua. {cite:wikipedia-mirza-alakbar-sabir-en}
+
+Son premier poème publié parut dans le journal de Tbilissi Sharq-e Rus en 1903, et en 1909 il devint écrivain pour la revue satirique Molla Nasraddin, également basée à Tbilissi. {cite:wikipedia-mirza-alakbar-sabir-en} Sa critique du conservatisme suscita des lettres anonymes et hostiles, et lui et le magazine furent tous deux qualifiés d'hérétiques par certains mollahs de Tabriz. {cite:wikipedia-mirza-alakbar-sabir-en} En 1910, il déménagea à Bakou et travailla comme enseignant ; presque toutes ses courtes œuvres satiriques connues sous le nom de Taziyanalar (« Les fouets ») y furent écrites. {cite:wikipedia-mirza-alakbar-sabir-en} Malade d'une maladie hépatique, il retourna à Shamakhi pour y être soigné, et mourut le 12 juillet 1911. {cite:wikipedia-mirza-alakbar-sabir-en} {cite:wikipedia-mirza-alakbar-sabir-az} Le lieu de sa mort est divisé dans les sources — l'article anglais indique Bakou, tandis que les articles azerbaïdjanais, russes et arabes ainsi que Wikidata indiquent Shamakhi, où l'article russe relate son inhumation au cimetière de Yeddi Gümbəz — et son dossier de données reprend Shamakhi et révèle la rupture. {cite:wikipedia-mirza-alakbar-sabir-en} {cite:wikipedia-mirza-alakbar-sabir-az} {cite:wikipedia-mirza-alakbar-sabir-ru} {cite:wikidata-mirza-alakbar-sabir}
+
+## Œuvres
+Sabir écrivit sous des formes classiques — qasida, ghazal, mathnawi, ruba'i et bahr-e tavil — et retravailla des poèmes célèbres en prenant leur première ligne et en y ajoutant sa propre touche ; il traduisit également des extraits du Shahnameh de Ferdowsi en vers azerbaïdjanais. {cite:wikipedia-mirza-alakbar-sabir-en} Sa satire portait sur le shah Mohammad Ali Shah Qajar, l'empereur allemand Guillaume II, le sultan ottoman Abdul Hamid II, des mollahs peu intelligents et des fonctionnaires corrompus de bas rang, et en 1905 il écrivit le poème officiel « À nos compatriotes musulmans et arméniens » pour la revue Hayat. {cite:wikipedia-mirza-alakbar-sabir-en} Ses poèmes regroupés circulèrent sous le nom Hophopname (« Le Livre du Hop-hop »). {cite:wikipedia-mirza-alakbar-sabir-az}
+
+## Positions et critiques
+Cette section expose les positions telles qu'elles sont rapportées dans les sources ; ce n'est pas un verdict du musée.
+
+**L'unique attestation.** La biographie de l'article anglais, citant Rezvani (2015, p. 154) — un passage par ailleurs portant sur la langue turcique des musulmans du Caucase du Sud — affirme que Sabir « était un adepte de l'islam chiite ». {cite:wikipedia-mirza-alakbar-sabir-en} Aucun autre article consulté (azerbaïdjanais, russe, persan ou arabe) ne mentionne aucune affiliation pour lui, et Wikidata n'a aucune valeur religieuse. {cite:wikipedia-mirza-alakbar-sabir-az} {cite:wikipedia-mirza-alakbar-sabir-ru} {cite:wikidata-mirza-alakbar-sabir} Une seule attestation ne peut pas porter une valeur chiite-douze selon la règle de la cartographie chiite et la règle du doute, si bien que sa foi est enregistrée comme inconnue, cette formulation étant conservée ici et dans son archive. {cite:wikipedia-mirza-alakbar-sabir-en}
+
+**Son propre vers.** Sabir répondit à ses critiques cléricales en vers, en vers cités dans l'article anglais : « Je suis chiite, mais pas de la manière que vous désirez ; Je suis sunnite, mais pas comme les exemples que vous aimez ; Je suis soufi, mais pas comme ceux que vous décrivez ; Je suis un amoureux de la vérité, ô peuple de Shirvan. » {cite:wikipedia-mirza-alakbar-sabir-en} Le musée consigne ce vers tel qu'il est — une profession rhétorique de toutes les étiquettes et aucune, visant les définitions de ses adversaires — et non comme une attestation d'appartenance aux Douze ; son foyer religieux est en train d'écrire, et le milieu Shamakhi est le contexte. {cite:wikipedia-mirza-alakbar-sabir-en}
+
+## Sources
+- Les entités sources définies citées ci-dessus, enregistrées dans `data/source/`.
+- Les révisions de cet article doivent être datées et doivent indiquer la source qui a modifié chaque fait.
