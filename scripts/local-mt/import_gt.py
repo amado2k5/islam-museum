@@ -26,14 +26,25 @@ ERA = {"es": [(r"(\d) (?:AH|d\. ?H\.|A\.H\.)(?![\w.])", r"\1 H"), (r"(\d) (?:BCE
 
 def paragraphs(path):
     x = zipfile.ZipFile(path).read("word/document.xml").decode("utf-8")
+    def link(m):  # a Word hyperlink carries a link label; Google lets spaces, brackets and stops drift into it
+        t = html.unescape("".join(re.findall(r"<w:t[^>]*>(.*?)</w:t>", m.group(2), re.S)))
+        core = t.strip(); lead, trail = t[:len(t) - len(t.lstrip())], t[len(t.rstrip()):]
+        while core and core[-1] in ".,;:!?»”" or (core.endswith(")") and core.count("(") < core.count(")")): trail = core[-1] + trail; core = core[:-1].rstrip()
+        while core and (core[0] in "«“" or (core.startswith("(") and core.count("(") > core.count(")"))): lead += core[0]; core = core[1:].lstrip()
+        return "<w:t>" + html.escape(f"{lead}<x{m.group(1)}>{core}</x{m.group(1)}>{trail}", quote=False) + "</w:t>"
+
+    x = re.sub(r'<w:hyperlink\b[^>]*w:anchor="x(\d+)"[^>]*>(.*?)</w:hyperlink>', link, x, flags=re.S)
     return [html.unescape("".join(re.findall(r"<w:t[^>]*>(.*?)</w:t>", m.group(0), re.S))) for m in re.finditer(r"<w:p[ >].*?</w:p>|<w:p/>", x, re.S)]
 
 
 def tidy(s):
     s = s.replace(" ", " ").replace(" ", " ")
     s = re.sub(r"<\s*(/?)\s*x\s*(\d+)\s*>", r"<\1x\2>", s, flags=re.I)  # "< x1 >", "</ X1>"
+    s = re.sub(r"(?<=[\w»”)\]])(<x\d+>)", r" \1", s); s = re.sub(r"(</x\d+>)(?=[\w«“(])", r"\1 ", s)  # a link glued to its neighbour word
     s = re.sub(r"\[\s*\[\s*(\d+)\s*\]\s*\]", r"[[\1]]", s)
-    return re.sub(r" {2,}", " ", s).strip()
+    s = re.sub(r" {2,}", " ", s)
+    s = re.sub(r"\( +", "(", s); s = re.sub(r" +(?=[.,)])", "", s)  # spaces Google leaves around a moved link
+    return s.strip()
 
 
 def from_numbers(s):
@@ -103,7 +114,7 @@ def main():
                 for l in rec["lines"]:
                     if "fixed" in l: out.append(l["fixed"]); continue
                     tr, head = next(it), l["prefix"].startswith("#")
-                    tr = tidy(from_numbers(tr) if rec.get("scheme") == "num" else tr)
+                    tr = tidy(from_numbers(tr) if rec.get("scheme") in ("num", "link") else tr)
                     if head and l["en"].strip() in FIXED_HEADINGS[lang]: out.append(l["prefix"] + FIXED_HEADINGS[lang][l["en"].strip()]); continue
                     for star in ("**", "*"):  # Markdown emphasis must survive as written
                         if l["en"].count(star) != tr.count(star): raise ValueError("emphasis marks changed")

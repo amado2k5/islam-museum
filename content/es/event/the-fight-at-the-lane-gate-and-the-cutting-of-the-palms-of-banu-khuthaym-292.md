@@ -1,0 +1,12 @@
+---
+id: event/the-fight-at-the-lane-gate-and-the-cutting-of-the-palms-of-banu-khuthaym-292
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/the-fight-at-the-lane-gate-and-the-cutting-of-the-palms-of-banu-khuthaym-292.md}
+---
+## Visión general
+Entonces, un día, al-Hadi se acercó al callejón con su ejército y la gente salió a la puerta del callejón; lucharon durante una hora y él les asestó un duro golpe, ocho hombres murieron ese día, "y uno que contó a los heridos nos dijo: ciento setenta", y siguieron adelante hasta que entraron por la puerta del callejón y estaban muy cansados {cite:sira-hadi-ila-al-haqq p.293}.
+
+## Detalle
+Al-Hadi se retiró y pasó la noche en su campamento; por la mañana salió a su encuentro, reunió a su ejército y se acercó al lugar donde había habido combates, y la gente cerró la puerta del camino y nadie salió, así que se quedó una hora con su ejército y regresó a su campamento {cite:sira-hadi-ila-al-haqq p.293}. Por la mañana sus tropas fueron al lado de [[group/banu-khuthaym-najran|Banu Khuthaym]] para cortarles las palmas de las manos, que no habían sido cortadas antes de ese día; estaban muy cansados por ello y enviaron ancianos de la gente de Najran, entre ellos [[person/aqil-ibn-abdallah-of-najran|Aqil ibn Abdallah]], para pedir protección para ellos; Al-Hadi les prometió que no cortarían nada, le pidieron que pospusiera el corte durante dos días, él lo hizo, y luego salió al lugar donde había cortado {cite:sira-hadi-ila-al-haqq p.293} {cite:sira-hadi-ila-al-haqq p.294}. La palabra anterior a "hasta que entraron" es glosada por el editor en una nota como "empujaron", y el museo sigue esa glosa {cite:sira-hadi-ila-al-haqq p.293}. La cifra de ciento setenta es del narrador, de un contador que no nombra, y el museo no puede verificarla. La historia proviene de los partidarios del imán en un libro zaidí; no está claro por el contexto si "empujaron" se refiere al ejército de Al-Hadi o al otro bando. Sigue [[event/the-ambush-of-the-harithi-party-from-al-jawf-and-the-girl-returned-292|al evento anterior]] y conduce a [[event/banu-khuthaym-and-ibn-bustam-ask-safety-and-it-is-given-292|la solicitud de seguridad]].
