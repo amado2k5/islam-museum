@@ -1,0 +1,18 @@
+---
+id: person/wasi-allah-abbas
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/wasi-allah-abbas.md}
+---
+## Résumé
+Wasi Allah ibn Muhammad Abbas est un érudit contemporain des hadiths et éditeur ; la page de titre de la deuxième édition de son édition de [[work/fadail-al-sahaba-ahmad|Fada'il al-Sahaba]] le décrit comme professeur associé à l'Université Um al-Qura à La Mecque {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.4}.
+
+## Son édition de Fada'il al-Sahaba
+Wasi Allah Abbas fit de l'édition du livre d'[[person/ahmad-ibn-hanbal|Ahmad ibn Hanbal]] le sujet de sa thèse de doctorat {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.8}. l'Université Um al-Qura l'imprima dans son Centre de Recherche Scientifique en 1403 H ; lorsque cette impression fut épuisée, il la révisa, la corrigea et la remit à Dar Ibn al-Jawzi, rédigeant la préface à la deuxième édition à La Mecque le 25 Rabi' II 1420 {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.5-6}. Dans son introduction, il remercie son professeur al-Sayyid Ahmad Saqr pour ses conseils malgré une maladie persistante, le Dr Muhammad Abu Shahba pour ses conseils, ainsi que deux étudiants de la Faculté de charia à La Mecque qui l'aidèrent à rassembler le texte et à corriger l'impression {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.9}.
+
+## Sa méthode
+Il raconte qu'il a copié le manuscrit unique, l'a classé et numéroté ses hadiths, et que la partie la plus difficile de l'œuvre fut une biographie détaillée de chaque émetteur, sans se limiter à *al-Taqrib* ou *al-Kashif* {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.44}. Sa raison est qu'il trouva des transmetteurs que *al-Taqrib* d'Ibn Hajar qualifie d'« acceptables », « cachés » ou « inconnus », mais pour lesquels *al-Jarh wa-l-Ta'dil* ou *Tarikh Bagdad* enregistrent, avec des chaînes sonores, qu'un imam les déclarait fiables — ainsi, le verdict sur le hadith change avec celui sur l'émetteur {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.45}. Par cette méthode, il traita plus de 1 762 émetteurs, classa chaque chaîne comme solide, bonne ou faible, consigna les jugements des premiers imams et exposa, avec des raisons, là où son propre point de vue différait {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.45}. Il traçait chaque hadith avec ses itinéraires corroborants, prit soin d'évaluer chaque itinéraire qu'il citait, expliqua les lieux et les mots rares, et compila les index {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.45-46}.
+
+## Ses opinions dans l'introduction
+L'éditeur préfère la définition du Compagnon donnée par Ibn Hajar comme, selon lui, la plus acceptable {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.11}. Dans son premier chapitre, il affirme que Ahl al-Sunna wa-l-Jama'a s'accorde sur la droiture des Compagnons, citant des passages d'al-Khatib al-Baghdadi et d'Ibn Kathir {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.18-19}. Dans la même introduction, il critique, en termes forts qui relèvent de son propre opinion, ceux parmi les Rafida qui dénigrent les Compagnons, et cite des sources chiites le rapport selon lequel des gens apostasaient sauf trois afin de le réfuter {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.8} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.19}. Dans sa biographie d'Ahmad, il note qu'il avait commencé à éditer *Kitab al-Ilal wa-Ma'rifat al-Rijal* d'Ahmad, et ajoute dans la deuxième édition que l'édition a été achevée et imprimée {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.29}.
