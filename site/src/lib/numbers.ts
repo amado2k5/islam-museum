@@ -8,7 +8,7 @@
 // page (stubs included: a stub has a page) x the three languages. Listings, browsers and lessons are not counted.
 import { graph, nodes, realNodes } from "./graph";
 import { pathways } from "./pathways";
-import { LANGS, type Lang } from "./i18n";
+import { type Lang, ALL_LANGS } from "./i18n";
 import { num } from "./nav";
 
 const forward = graph.edges.filter((e: any) => !e.inverse);
@@ -19,7 +19,7 @@ export const NUMBERS = {
   /** Records named by others but not yet written. */
   stubs: nodes.length - realNodes.length,
   /** Record pages: every record and stub, in each of the three languages. */
-  pages: nodes.length * LANGS.length,
+  pages: nodes.length * ALL_LANGS.length,
   /** Sourced connections: each relation once (its computed inverse is not counted). */
   edges: forward.length,
   classes: new Set(realNodes.map((n) => n.class)).size,

@@ -19,7 +19,7 @@ import { siblingJourneys } from "../lib/journeys";
 import { JOB_NOT_YET } from "../lib/jobs";
 import { splitTafsir, commentaries as tafsirCatalogue, wiredCommentaries, commentaryOf, authorsOf, volumeHref, surahHref, coveredIn, ayahsOf } from "../lib/tafsir";
 import { byId, href, labelOf, summaryOf, summaryRaw, stripNeedsSource, related, updatedOn, REPO, SITE, SEGMENT, nodes } from "../lib/graph";
-import { ui, fmt, LANGS, WINGS, wingHref, ARABIC_SCRIPT, type Lang } from "../lib/i18n";
+import { ui, fmt, WINGS, wingHref, ARABIC_SCRIPT, type Lang, ALL_LANGS } from "../lib/i18n";
 import { renderProse, newHonState } from "../lib/markdown";
 import { recordingRef } from "../lib/recordings";
 import { subjectIds, subjectHref } from "../lib/explorer";
@@ -168,7 +168,7 @@ const bibliography = (s: Node) => {
   return `${a ? a.replace(/\.$/, "") + ". " : ""}${y ? `(${y}). ` : ""}${s.data.title ?? labelOf(s, lang)}${s.data.publisher ? `. ${s.data.publisher}` : ""}.`;
 };
 
-const alternates = Object.fromEntries(LANGS.map((l) => [l, href(l, n.id)]));
+const alternates = Object.fromEntries(ALL_LANGS.map((l) => [l, href(l, n.id)]));
 const altNames = [...new Set([...Object.values(n.label), ...(d.names ?? []).map((x: any) => x.value), ...n.aliases.map((a) => a.split("/")[1].replace(/-/g, " "))])].filter((x) => x !== title);
 const wingChips = n.wings.filter((w) => (WINGS as readonly string[]).includes(w));
 const wishUrl = `${REPO}/issues/new?template=request-translation.yml&title=${encodeURIComponent(`Translate ${n.id} to ${lang}`)}`;

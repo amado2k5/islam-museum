@@ -3,11 +3,17 @@ import { repoPath } from "./paths";
 import { parse } from "yaml";
 
 // Arabic canonical, English, Urdu, French and Spanish published beside it (docs/language.md): /ar/, /en/, /ur/, /fr/ and /es/ ship together.
-export const LANGS = ["ar", "en", "ur", "fr", "es"] as const;
 export const ALL_LANGS = ["ar", "en", "ur", "fr", "es"] as const;
 export type Lang = "ar" | "en" | "ur" | "fr" | "es";
+// The languages this build writes pages for: all of them, unless BUILD_LANG names one (the by-language build,
+// .github/workflows/build-lang.yml, docs/engineering/06-deployment.md section 9). Page files build their paths from
+// LANGS. Whatever a page says about the other languages (hreflang alternates, the language switcher, counts) reads
+// ALL_LANGS, so a page built alone is the same page the full build writes.
+const only = process.env.BUILD_LANG || "";
+if (only && !(ALL_LANGS as readonly string[]).includes(only)) throw new Error(`BUILD_LANG="${only}" is not a language of the site (${ALL_LANGS.join(", ")})`);
+export const LANGS: readonly Lang[] = only ? [only as Lang] : ALL_LANGS;
 /** The next language in the switcher cycle: ar → en → ur → fr → es → ar. */
-export const nextLang = (l: Lang): Lang => LANGS[(LANGS.indexOf(l) + 1) % LANGS.length];
+export const nextLang = (l: Lang): Lang => ALL_LANGS[(ALL_LANGS.indexOf(l) + 1) % ALL_LANGS.length];
 /** Languages whose UI and prose share the Arabic script and the Naskh faces. */
 export const ARABIC_SCRIPT: readonly Lang[] = ["ar", "ur"];
 /** Open Graph locale per language. */

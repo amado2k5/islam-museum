@@ -270,3 +270,63 @@ build variable, the others are Cloudflare configuration.
 UAT Workers; the `[env.uat]` sections and `deploy-uat.yml` can stay or go. Production is
 untouched either way.
 
+
+## 9. Building and deploying one language at a time (trial, founder, 18 November 2026)
+
+A trial that runs beside the one build and the one deploy. `build.yml`, `deploy.yml`,
+`deploy-uat.yml` and `deploy-env.yml` are unchanged, and a full deploy is still the only way
+to publish the whole site.
+
+**Why.** The one build writes every language in a single job. With five languages it writes
+more than the 14 GB of disk GitHub documents for a hosted runner; run 44362983867 on
+`release/spanish` ended with the runner lost, most likely for want of disk (that run printed
+no reading that proves it).
+
+**Build.** "Build islam.museum by language" (`build-lang.yml`) is started by hand. It has a
+`test` job and five `build (<lang>)` jobs, one per language, in parallel on separate
+runners. Each runs `npm run build:lang` with `BUILD_LANG` set: validation, the graph, the
+API files, then Astro for that language's pages only, Pagefind for that language, and the
+books. It keeps `dist/<lang>/` and `dist/pagefind-<lang>/` as the artifact
+`dist-lang-<lang>` (five days). One language failing does not stop the others. The
+`languages` input limits a run to some languages; a branch that lacks a language skips it.
+
+How the site knows: `site/src/lib/i18n.ts` exports `LANGS` (the languages this build
+writes; page files build their paths from it) and `ALL_LANGS` (every language; alternates,
+the language switcher and counts read it). With `BUILD_LANG` unset the two are the same
+list, so the one build is unchanged. **A new page file that links to its other languages
+must read `ALL_LANGS` for that**, or a page built alone would lose those links.
+
+Not run by a language build: `check:site` and `check:weight`, which read the whole built
+site. They stay with the one build.
+
+**Deploy.** Ten workflows, five per environment: "Deploy `<lang>` pages to production"
+(`deploy-lang-<lang>.yml`) and "Deploy `<lang>` pages to UAT" (`deploy-uat-lang-<lang>.yml`).
+All call `deploy-lang-env.yml`. Like every deploy they are manual and the founder's alone.
+A run:
+
+1. finds the language build (the given run id, or the newest run of the source branch whose
+   unit tests and `build (<lang>)` job passed and whose artifact still exists);
+2. redeploys the environment's R2 sync Workers from the built commit, as the one deploy does;
+3. runs `publish.mjs --only-lang <lang>`, which compares the build with that language's part
+   of the publish record (`<lang>/` and `pagefind-<lang>/`) and writes the rest of the record
+   back unchanged. The record keeps the commit of the last full deploy and notes each
+   language's own commit under `langs`.
+
+It never touches another language, the API, the sitemaps and other root files, the shared
+data, the site Worker or the Pages project. Production takes builds of `main` only. Each
+language workflow shares the concurrency group of its environment's full deploy, so two
+publishes never write the publish record at once. A language publish needs a full deploy of
+that environment to have run once.
+
+**Known limits of the trial.**
+
+- A language published alone can be ahead of or behind the rest: its language switcher may
+  lead to a page another language does not have yet, and the sitemap, the API, search
+  synonyms and the footer's deploy stamp still describe the last full deploy.
+- Pages expect the shared scripts and styles of their own commit; publish a language far
+  ahead of the last full deploy only after checking it on UAT.
+- A language the deployed site Worker does not know is stored in R2 but may not be served.
+- Each language job repeats validation and the graph (about the same minutes five times).
+
+**Removal.** Delete `build-lang.yml`, `deploy-lang-env.yml` and the ten `deploy-*lang-*.yml`
+files. `BUILD_LANG`, `build:lang` and `--only-lang` do nothing unless used.

@@ -188,3 +188,33 @@ test("the report counts the source files that changed, so a large publish can be
   const run = (cmd, args) => (args[0] === "diff" ? "data/person/a.yaml\ncontent/ar/person/a.md\n" : "");
   assert.equal(filesChanged("p", "c", SOURCE_PATHS, run).length, 2);
 });
+
+// ---- One-language publish (--only-lang) ----------------------------------------------------------------------------
+import { scopeTo, langPrefixes } from "../batch/publish.mjs";
+
+test("a one-language publish touches that language's pages and search index and nothing else", () => {
+  const previous = {
+    "es/a/index.html": "old", "es/gone/index.html": "x", "pagefind-es/pagefind.js": "p",
+    "ar/a/index.html": "ar", "en/a/index.html": "en", "pagefind-ar/pagefind.js": "q",
+    "api/v1/meta/counts.json": "c", "sitemap.xml": "s", "es-other/x": "z",
+  };
+  assert.deepEqual(langPrefixes("es"), ["es", "pagefind-es"]);
+  const scoped = scopeTo(previous, langPrefixes("es"));
+  assert.deepEqual(Object.keys(scoped).sort(), ["es/a/index.html", "es/gone/index.html", "pagefind-es/pagefind.js"]);
+  // The build holds only Spanish: one changed page, one new, one page gone; the search index is unchanged.
+  const desired = new Map([
+    ["es/a/index.html", { path: "/d/es/a/index.html", sha: "new", cacheControl: "c" }],
+    ["es/b/index.html", { path: "/d/es/b/index.html", sha: "b", cacheControl: "c" }],
+    ["pagefind-es/pagefind.js", { path: "/d/pagefind-es/pagefind.js", sha: "p", cacheControl: "c" }],
+  ]);
+  const ops = diff(desired, scoped);
+  assert.deepEqual(ops.map((o) => `${o.op} ${o.dst}`).sort(), ["COPY es/a/index.html", "COPY es/b/index.html", "DELETE es/gone/index.html"]);
+  // Against the whole record the same build would delete every other language: the reason for the scope.
+  assert.ok(diff(desired, previous).some((o) => o.op === "DELETE" && o.dst === "ar/a/index.html"));
+  // The whole record is what is written back: the other languages, the API and the root files are still in it.
+  applyToPrevious(previous, ops, desired);
+  assert.equal(previous["es/a/index.html"], "new");
+  assert.equal(previous["es/b/index.html"], "b");
+  assert.equal("es/gone/index.html" in previous, false);
+  for (const key of ["ar/a/index.html", "en/a/index.html", "pagefind-ar/pagefind.js", "api/v1/meta/counts.json", "sitemap.xml", "es-other/x"]) assert.ok(key in previous, key);
+});

@@ -1,0 +1,183 @@
+name: Build islam.museum by language
+
+# A trial beside the one build (build.yml), which is unchanged (founder, 18 November 2026, in chat). The one build
+# writes every language in a single job; with five languages it writes more than a hosted runner's documented 14 GB of
+# disk, and run 44362983867 on release/spanish ended with the runner lost. Here each language is built by its own job on
+# its own runner, in parallel: five jobs, each writing about a fifth of the site.
+#
+# What a language job keeps: that language's pages (dist/<lang>/, with its books) and its search index
+# (dist/pagefind-<lang>/), packed as the artifact `dist-lang-<lang>`. It keeps nothing that belongs to no language (the
+# API, sitemaps, feed, llms.txt, media, the shell scripts and styles): those still come from the one build and the one
+# deploy. A language artifact is published on its own by the ten "Deploy <lang> pages" workflows (deploy-lang-env.yml).
+#
+# What it does not run, and why: `check:site` and `check:weight` read the whole built site (every language, the
+# sitemap), so they stay with the one build. Validation, the graph, the unit tests and the no-runtime-AI guard run here.
+#
+# Manual only: nothing starts it on a push, so it adds no cost until it is started by hand. A branch that does not have
+# a language yet (main has no fr or es) skips that job's work and keeps no artifact for it.
+# Nothing here touches Cloudflare: no Worker, no R2, no Pages.
+on:
+  workflow_dispatch:
+    inputs:
+      languages:
+        description: "Languages to build, separated by spaces. Empty: all five (ar en ur fr es)."
+        required: false
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+
+# One run at a time per branch; a later run waits, none is cancelled.
+concurrency:
+  group: build-lang-${{ github.ref }}
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  # The same unit tests as the one build. A language deploy accepts a run only when this job passed.
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Only the repository owner or an admin may start this workflow
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          ACTOR: ${{ github.actor }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          [ "$ACTOR" = "$OWNER" ] && { echo "started by the owner ($ACTOR)"; exit 0; }
+          perm=$(gh api "repos/$GH_REPO/collaborators/$ACTOR/permission" --jq .permission 2>/dev/null || echo unknown)
+          [ "$perm" = "admin" ] && { echo "started by an admin ($ACTOR)"; exit 0; }
+          echo "::error::$ACTOR ($perm) may not start this workflow: only the repository owner or an admin may."
+          exit 1
+      - name: Checkout
+        uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      - name: Install
+        run: npm ci && npm ci --prefix site && npm ci --prefix workers/r2-sync
+      - name: Test
+        run: npm test
+      - name: Worker unit tests (site routing and rules; R2 publish diff, resume and retry)
+        run: node --test 'workers/site/test/*.test.mjs' workers/r2-sync/test/publish.test.mjs
+
+  build:
+    # The job name is what the deploy looks for: "build (es)".
+    name: build (${{ matrix.lang }})
+    runs-on: ubuntu-latest
+    strategy:
+      # One language failing does not stop the others: each keeps its own artifact.
+      fail-fast: false
+      matrix:
+        lang: [ar, en, ur, fr, es]
+    env:
+      BUILD_LANG: ${{ matrix.lang }}
+    steps:
+      - name: Only the repository owner or an admin may start this workflow
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          ACTOR: ${{ github.actor }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          [ "$ACTOR" = "$OWNER" ] && { echo "started by the owner ($ACTOR)"; exit 0; }
+          perm=$(gh api "repos/$GH_REPO/collaborators/$ACTOR/permission" --jq .permission 2>/dev/null || echo unknown)
+          [ "$perm" = "admin" ] && { echo "started by an admin ($ACTOR)"; exit 0; }
+          echo "::error::$ACTOR ($perm) may not start this workflow: only the repository owner or an admin may."
+          exit 1
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          # Full history: the entity citation date comes from each file's last commit.
+          fetch-depth: 0
+      - name: Is this language asked for, and does this branch have it?
+        id: want
+        env:
+          ASKED: ${{ inputs.languages }}
+        run: |
+          set -euo pipefail
+          go=true
+          if [ -n "${ASKED// /}" ] && ! grep -qw -- "$BUILD_LANG" <<<"$ASKED"; then
+            go=false; echo "::notice::$BUILD_LANG was not asked for (languages: $ASKED); nothing is built."
+          elif ! grep -E '^export const ALL_LANGS' site/src/lib/i18n.ts | grep -q "\"$BUILD_LANG\""; then
+            go=false; echo "::notice::This branch has no $BUILD_LANG language (site/src/lib/i18n.ts); nothing is built."
+          fi
+          echo "go=$go" >> "$GITHUB_OUTPUT"
+      # The runner image ships tools this build never uses; removing them gives the build their space (as in build.yml).
+      - name: Free runner disk the build does not use (Android SDK, .NET, Haskell, CodeQL, Swift, Docker images)
+        if: steps.want.outputs.go == 'true'
+        run: |
+          echo "before: $(df -BM --output=avail / | tail -1 | tr -dc '0-9') MB free"
+          sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/.ghcup \
+            /opt/hostedtoolcache/CodeQL /usr/share/swift || true
+          sudo docker image prune --all --force > /dev/null 2>&1 || true
+          echo "after: $(df -BM --output=avail / | tail -1 | tr -dc '0-9') MB free"
+      - uses: actions/setup-node@v7
+        if: steps.want.outputs.go == 'true'
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      - name: Install
+        if: steps.want.outputs.go == 'true'
+        run: npm ci && npm ci --prefix site
+      # `npm run build:lang`: validate → graph → derive → api → astro (this language's pages only) → pagefind (this
+      # language) → books. The free disk and memory are printed before the build and every five minutes, as in build.yml.
+      - name: Validate, compile and build one language
+        if: steps.want.outputs.go == 'true'
+        run: |
+          report() {
+            disk=$(df -BM --output=avail "$GITHUB_WORKSPACE" | tail -1 | tr -dc '0-9')
+            mem=$(free -m | awk '/^Mem:/ {print $7}')
+            swap=$(free -m | awk '/^Swap:/ {print $3}')
+            node=$(ps -eo rss,comm --sort=-rss | awk '$2 ~ /node/ {printf "%d", $1/1024; exit}')
+            line="runner resources $(date -u +%H:%M) UTC: disk free ${disk} MB, memory available ${mem} MB, swap used ${swap} MB, largest node process ${node:-0} MB"
+            if [ "${disk:-0}" -lt 4096 ] || [ "${mem:-0}" -lt 1024 ]; then echo "::warning title=Runner nearly out of disk or memory::${line}"; else echo "$line"; fi
+          }
+          echo "cores: $(nproc)"; df -h "$GITHUB_WORKSPACE"; free -m
+          report
+          ( while sleep 300; do report; done ) &
+          reporter=$!
+          trap 'pkill -P "$reporter" 2>/dev/null || true; kill "$reporter" 2>/dev/null || true' EXIT
+          npm run build:lang
+          report
+        env:
+          PUBLIC_PAGEFIND_BASE: ${{ vars.PAGEFIND_BASE_URL }}
+      - name: No runtime AI or compute (guard)
+        if: steps.want.outputs.go == 'true'
+        run: npm run check:static
+      - name: Pack this language's pages and search index into one file
+        if: steps.want.outputs.go == 'true'
+        run: |
+          set -euo pipefail
+          test -f "dist/$BUILD_LANG/index.html"
+          test -d "dist/pagefind-$BUILD_LANG"
+          tar --use-compress-program='zstd -T0 -3' -cf "dist-lang-$BUILD_LANG.tar.zst" -C dist "$BUILD_LANG" "pagefind-$BUILD_LANG"
+          ls -l "dist-lang-$BUILD_LANG.tar.zst"
+          {
+            echo "## Language build ${{ github.run_id }}: $BUILD_LANG"
+            echo
+            echo "- Commit: \`${{ github.sha }}\` (${{ github.ref_name }})"
+            echo "- Pages: $(find "dist/$BUILD_LANG" -name '*.html' | wc -l)"
+            echo "- Files: $(find "dist/$BUILD_LANG" "dist/pagefind-$BUILD_LANG" -type f | wc -l), $(du -sm "dist/$BUILD_LANG" "dist/pagefind-$BUILD_LANG" | awk '{s+=$1} END {print s}') MB unpacked"
+            echo
+            echo "Deploy it with **Deploy $BUILD_LANG pages to UAT** or **Deploy $BUILD_LANG pages to production**, build_run_id \`${{ github.run_id }}\`."
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload this language's pages and search index
+        if: steps.want.outputs.go == 'true'
+        uses: actions/upload-artifact@v7
+        with:
+          name: dist-lang-${{ matrix.lang }}
+          path: dist-lang-${{ matrix.lang }}.tar.zst
+          if-no-files-found: error
+          # Already zstd: do not compress it again.
+          compression-level: 0
+          retention-days: 5
