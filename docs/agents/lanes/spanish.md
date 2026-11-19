@@ -18,7 +18,7 @@ Brings Spanish (`es`) to full parity with Arabic, English, Urdu and French: `i18
 
 ## From wave 11: local machine translation (founder, 18 November 2026)
 
-- The translation runs on the founder's Mac with TranslateGemma 27B through `scripts/local-mt/` (`translate.py`, `run.sh`); Claude manages the queue, the checks and the merges. Spanish and French run side by side.
+- **From 19 November 2026 (founder's instruction): translation goes through Google Translate document files, not a local or cloud model.** The procedure, the file format, the measured limits and the rules for the browser step are in `docs/engineering/63-translation-by-document-files.md` (`scripts/local-mt/build_gt.py`, `import_gt.py`, `gt_round.sh`, `ship_gt.sh`). The local model (TranslateGemma 27B, `translate.py`, `run.sh`) is stopped; its scripts stay as a fallback.
 - **Always from English**, for every class (this replaces the Arabic pivot for the sacred classes written above). The Qur'an passage pages stay held: no Spanish Qur'an translation source is chosen.
 - Everything, French included, is raised and merged against `release/spanish` only.
 - Logs, lists and the model are on the microSD: `/Volumes/exmicroSD/islam-museum-local-mt/`.
