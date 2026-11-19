@@ -1,0 +1,24 @@
+---
+id: polity/abbadids
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/polity/abbadids.md}
+---
+## Vue d'ensemble
+Les Abbadides, les Banu Abbad, étaient une dynastie d'origine arabe qui régna pendant la majeure partie du 5e/XIe siècle sur le sud-ouest d'al-Andalus, avec [[place/seville|Séville]] comme capitale. {cite:encyclopaedia-of-islam-2 vol. 1 p. 24} Ils apparurent lorsque le califat de Cordova se dissolvit et que le pays fut divisé entre les petits rois connus sous le nom de rois de partie, les muluks al-Tawa'if. {cite:encyclopaedia-of-islam-2 vol. 1 p. 24}
+
+## Muhammad ibn Abbad, fondateur
+Le qadi de Séville, Abu al-Qasim Muhammad ibn Abbad, fut proclamé souverain en 414/1013. Il était le fils d'un juriste célèbre d'origine lakhmide, Isma'il ibn Abbad. Au début, il reconnut la suzeraineté nominale du roi hammudide Yahya ibn Ali, mais la renonça rapidement. L'article indique peu de choses sur les détails de son règne, consacré principalement à régler des différends par les armes avec les Jahwarids de Cordova et les seigneurs mineurs du sud de l'Andalousie, et qu'il mourut en 433/1042. {cite:encyclopaedia-of-islam-2 vol. 1 p. 24}
+
+## Al-Mu'tadid
+Son fils Abbad ibn Muhammad régna pendant près de trente ans, 433-460/1042-69, et agrandit considérablement la principauté en se faisant passer pour le champion des Arabes andalous contre les Berbères. {cite:encyclopaedia-of-islam-2 vol. 1 p. 24} Prenant d'abord le titre de hajib puis le billah honorifique al-Mu'tadid, l'auteur le décrit comme autoritaire, ambitieux et cruel. {cite:encyclopaedia-of-islam-2 vol. 1 p. 24} Il combattit le souverain berbère de Carmona et étendit son royaume vers l'ouest en battant les seigneurs de Mertola et de Niebla. {cite:encyclopaedia-of-islam-2 vol. 1 p. 25} Une ligue d'autres rois partis se forma contre lui, et une longue guerre contre les Aftasides al-Muzaffar de Badajoz dura jusqu'à ce que la médiation porte ses fruits en 443/1051. {cite:encyclopaedia-of-islam-2 vol. 1 p. 25} Il annexa Huelva, Silves et Santa Maria de Algarve, et pour justifier ces démarches, prétendit avoir trouvé le calife Hisham II, mort dans l'obscurité, une histoire que l'article qualifie de stratagème maladroit. {cite:encyclopaedia-of-islam-2 vol. 1 p. 25} En 445/1053, rapporte-t-on, il prit Arcos, Moron et Ronda aux mains de petits chefs berbères, un acte qui provoqua les Zirides Badis de Grenade. {cite:encyclopaedia-of-islam-2 vol. 1 p. 25} L'article indique sa mort comme 461/1069 dans un passage et 460/1069 dans un autre, et le musée conserve les deux. {cite:encyclopaedia-of-islam-2 vol. 1 p. 24} {cite:encyclopaedia-of-islam-2 vol. 1 p. 25}
+
+## Al-Mu'tamid
+Son fils Muhammad, mieux connu sous le nom [[person/al-mutamid-ibn-abbad|d'al-Mu'tamid]], lui succéda et prit le contrôle d'un royaume considérablement agrandi. La deuxième année de son règne, il annexa Cordova. Ibn Ukkasha s'empara de la ville par surprise en 468/1075 et tua le fils d'al-Mu'tamid, le jeune gouverneur, et al-Mu'tamid ne la reconquit qu'en 471/1078. {cite:encyclopaedia-of-islam-2 vol. 1 p. 25} Le vizir [[person/ibn-ammar|Ibn Ammar]] négocia un règlement pacifique avec la Castille en échange d'un double tribut. {cite:encyclopaedia-of-islam-2 vol. 1 p. 25} Ibn Ammar se brouilla ensuite avec son maître, lui fut remis et tué. {cite:encyclopaedia-of-islam-2 vol. 1 p. 26}
+
+## Castille et les Almoravides
+Lorsque [[person/alfonso-vi-castile|Alphonse VI]] commença à investir Tolède, les princes d'Espagne, avec al-Mu'tamid à leur tête, demandèrent l'aide au sultan almoravide [[person/yusuf-ibn-tashfin|Yusuf ibn Tashufin]]. Yusuf traversa le détroit et remporta la bataille d'al-Zallaqa le 22 Rajab 479/23 octobre 1086. {cite:encyclopaedia-of-islam-2 vol. 1 p. 26} Al-Mu'tamid dut faire appel à nouveau en personne, et Yusuf débarqua à Algeciras en 480/1088, mais décida ensuite, selon l'article, de poursuivre le djihad en Espagne pour son propre compte et de déposséder les princes qui l'avaient appelé. {cite:encyclopaedia-of-islam-2 vol. 1 p. 26}
+
+## La fin de la dynastie
+À la fin de 1090, une armée almoravide avait pris Tarifa, Cordove, Carmona et enfin Séville, malgré une sortie héroïque d'al-Mu'tamid. Il fut envoyé avec sa famille à Tanger, puis à Meknès, puis à Aghmat près de Marrakech, et y mourut en 487/1095 à l'âge de cinquante-cinq ans. {cite:encyclopaedia-of-islam-2 vol. 1 p. 26} L'auteur juge que, quelles que soient les excès et la cruauté de ses princes, la dynastie fut la plus brillante des taïfas et celle sous laquelle les arts et les lettres brillèrent le plus fort dans l'Espagne musulmane du XIe siècle. {cite:encyclopaedia-of-islam-2 vol. 1 p. 26}
