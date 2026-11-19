@@ -105,6 +105,7 @@ def main():
                 note("ok", ident, words=len(body.split()))
             except ValueError as e:
                 note("failed", ident, reason=str(e)[:200])
+                with open(a.log + ".failed", "a", encoding="utf-8") as ff: ff.write(f"{ident}\t{e}\n")
     print(f"{lang}: {len(records)} records in the file; " + ", ".join(f"{k} {v}" for k, v in tally.most_common()))
 
 
