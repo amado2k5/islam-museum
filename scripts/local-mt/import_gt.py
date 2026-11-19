@@ -35,6 +35,7 @@ def paragraphs(path):
 
     # Google Docs renames the anchors (x1 -> "98ct4i7k3fb7") but keeps one name per anchor. xN is in a paragraph only
     # if x1..xN-1 are, so the anchors' frequencies fall in the order of N; a tie is left unmapped (its records fail).
+    x = re.sub(r"<w:hyperlink\b[^>]*/>", "", x)  # an empty link tag (Word writes one now and then) must not be read as the start of a link
     names = collections.Counter(re.findall(r'<w:hyperlink\b[^>]*w:anchor="([^"]+)"', x))
     if any(not re.fullmatch(r"x\d+", n) for n in names):
         ranked = names.most_common()
@@ -173,6 +174,10 @@ def main():
                     tr, head = next(it), l["prefix"].startswith("#")
                     tr = tidy(from_numbers(tr) if rec.get("scheme") in ("num", "link") else tr)
                     if head and l["en"].strip() in fixed: out.append(l["prefix"] + fixed[l["en"].strip()]); continue
+                    for m in re.finditer(r"(?<!\*)(\*{1,2})([^*\n]{2,80})\1(?!\*)", l["en"]):  # emphasis dropped around a title kept as written: put it back
+                        whole, inner = m.group(0), m.group(2)
+                        if whole not in tr and len(re.findall(rf"(?<![\w*]){re.escape(inner)}(?![\w*])", tr)) == 1:
+                            tr = re.sub(rf"(?<![\w*]){re.escape(inner)}(?![\w*])", lambda _: whole, tr, count=1)
                     for star in ("**", "*"):  # Markdown emphasis must survive as written
                         if l["en"].count(star) != tr.count(star): raise ValueError("emphasis marks changed")
                     if re.search(r"\*\s+[^*]+\s+\*", tr) and not re.search(r"\*\s+[^*]+\s+\*", l["en"]): raise ValueError("emphasis marks changed")
@@ -189,7 +194,7 @@ def main():
                     if lang == "es":  # the lane's term is "suní" (the validator reads the first perspectives label by it)
                         done = re.sub(r"\b([Ss])unitas\b", r"\1uníes", done); done = re.sub(r"\b([Ss])unita\b", r"\1uní", done)
                         done = re.sub(r"^\*\*Punto de vista suní", "**Visión suní", done)
-                        if re.match(r"\*\*Sunni", l["en"]) and not re.match(r"\*\*(?:(?:Visión|Posición|Postura|Opinión) )?[Ss]unn?í", done): raise ValueError("Sunni label reworded")
+                        if re.match(r"\*\*Sunni", l["en"]) and not re.match(r"\*\*[^*]*\b[Ss]unn?í(?:es)?\b", done): raise ValueError("Sunni label reworded")
                     if head and not l["en"].endswith("."): done = done.rstrip(".")
                     out.append(l["prefix"] + done)
                 tr_body = "\n".join(out)
