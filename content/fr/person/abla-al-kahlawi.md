@@ -1,0 +1,36 @@
+---
+id: person/abla-al-kahlawi
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-person-02-b03
+  source: content/en/person/abla-al-kahlawi.md
+---
+## Résumé
+Abla Muhammad Mursi Abd al-Latif al-Kahlawi était une juriste et prédicatrice égyptienne, née le 15 décembre 1948 dans le quartier de Zamalek au Caire et morte le 24 janvier 2021. {cite:wikipedia-abla-al-kahlawi-ar} {cite:wikidata-abla-al-kahlawi} {cite:wikipedia-abla-al-kahlawi-en} Elle était professeure de fiqh à la Faculté des études islamiques et arabes pour femmes de l'université al-Azhar et en fut la doyenne, et son public l'appelait « Mama Abla ». {cite:wikipedia-abla-al-kahlawi-ar} {cite:wikipedia-abla-al-kahlawi-en}
+
+## Famille
+Elle était la fille aînée du chanteur religieux égyptien Muhammad al-Kahlawi, et la sœur de Muhammad al-Kahlawi, professeur d'architecture islamique, et du chanteur Ahmad al-Kahlawi. {cite:wikipedia-abla-al-kahlawi-ar} {cite:wikipedia-abla-al-kahlawi-en} L'article arabe dit qu'elle épousa jeune Muhammad Yasin Basyuni, ingénieur et officier choisi pour elle par son père, qui fut tué pendant la guerre d'Octobre, et qu'elle éleva et soutint seule leurs trois filles. {cite:wikipedia-abla-al-kahlawi-ar}
+
+## Formation et enseignement
+L'article arabe dit qu'elle avait espéré devenir ambassadrice mais entra à la Faculté des études islamiques de l'université al-Azhar à la demande de son père, dont elle sortit diplômée en 1969. {cite:wikipedia-abla-al-kahlawi-ar} Elle obtint un master de fiqh comparé en 1974 avec un mémoire sur « La choura, règle du gouvernement islamique », et un doctorat en 1978. {cite:wikipedia-abla-al-kahlawi-ar} {cite:wikipedia-abla-al-kahlawi-en} {cite:wikidata-abla-al-kahlawi} Elle enseigna au Collège d'éducation pour filles de Riyad, dirigea le département de charia du Collège d'éducation de La Mecque en 1979, et revint au collège féminin d'al-Azhar comme professeure de fiqh comparé et doyenne de la Faculté des études islamiques et arabes. {cite:wikipedia-abla-al-kahlawi-ar} {cite:wikipedia-abla-al-kahlawi-en}
+
+## Prédication et télévision
+De 1987 à 1989, elle donna des leçons quotidiennes pour les femmes à la Mosquée sacrée, suivies par des pèlerines venues du monde entier. {cite:wikipedia-abla-al-kahlawi-en} {cite:wikipedia-abla-al-kahlawi-ar} De retour au Caire, elle poursuivit ses leçons pour les femmes dans la mosquée de son père à al-Basatin, à la mosquée al-Azhar et à Bayt al-Hamd à al-Muqattam. {cite:wikipedia-abla-al-kahlawi-ar} {cite:wikipedia-abla-al-kahlawi-en} Elle présenta des émissions de télévision sur les chaînes Iqra', al-Risala et al-Nas, dont « Fi Hubb al-Mustafa », diffusée pendant le ramadan 1428 H sur al-Risala et conservée dans les archives d'Assabile sous le titre [[work/fi-hub-al-mustapha|Dans l'amour d'al-Mustafa]]. {cite:wikipedia-abla-al-kahlawi-ar} {cite:assabile-abla-al-kahlawi} L'article arabe décrit sa manière comme douce et simple, dit qu'elle se concentrait sur la biographie du Prophète, sur l'éthique et la vie spirituelle et évitait les questions disputées, et note que certains critiques estimaient qu'elle n'avait pas libéré le discours religieux de la monotonie. {cite:wikipedia-abla-al-kahlawi-ar}
+
+L'article anglais dit qu'elle figura dans la première édition de The 500 Most Influential Muslims en 2009, qu'elle fut l'une des 41 savants qui écrivirent en 2006 pour condamner les violences ayant suivi les caricatures danoises tout en rejetant les caricatures elles-mêmes, et qu'elle fut signataire de « A Common Word Between Us and You ». {cite:wikipedia-abla-al-kahlawi-en}
+
+## Œuvre caritative
+Elle fonda l'association al-Baqiyat al-Salihat à al-Muqattam pour prendre soin des orphelins, des personnes âgées et des malades atteints de cancer et de la maladie d'Alzheimer, avec des foyers pour hommes et femmes âgés et pour des enfants atteints de cancer venus des provinces se faire soigner. {cite:wikipedia-abla-al-kahlawi-ar} {cite:wikipedia-abla-al-kahlawi-en} L'article arabe dit qu'elle fut choisie comme mère idéale de l'Égypte en 2020. {cite:wikipedia-abla-al-kahlawi-ar}
+
+## Livres
+Parmi ses livres, les deux articles citent « al-Khul', un remède là où il n'y a pas de remède : étude de fiqh comparé » (2000), « Musafir bila tariq » (2003), « La filiation et la paternité à la lumière du Coran et de la Sunna » (2005), « Les questions des femmes dans le hajj et la 'umra » (2005), « Ahibbuhu kama ahabbakum » et « Qalbi ma'ak » (2011), ainsi qu'un livre sur le rôle de la zakat dans la protection de l'économie et du développement (1996). {cite:wikipedia-abla-al-kahlawi-ar} {cite:wikipedia-abla-al-kahlawi-en}
+
+## Mort
+Elle mourut le 24 janvier 2021, à soixante-douze ans, du Covid-19, selon l'article arabe et Wikidata ; l'article anglais donne le 25 janvier. {cite:wikipedia-abla-al-kahlawi-ar} {cite:wikidata-abla-al-kahlawi} {cite:wikipedia-abla-al-kahlawi-en}
+
+## Dans son émission « Dans l'amour d'al-Mustafa »
+Dans l'émission, elle parle en dialecte égyptien mêlé d'arabe littéraire, ouvrant chaque épisode par une salutation au Prophète et le concluant par une salutation aux téléspectateurs. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep01 00:00:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep04 00:07:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep04 00:07:30} L'amour est sa porte d'entrée dans la vie du Prophète : il est venu, dit-elle, avec un message d'amour, et l'amour n'est pur que lorsqu'il passe par Dieu. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep01 00:00:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep02 00:04:00} Elle accorde une attention particulière aux femmes de la biographie : elle consacre deux épisodes aux mères et aux nourrices du Prophète et souhaiterait avoir été l'une d'elles, dit que celui qui a véritablement libéré les femmes est le Prophète, et consacre un épisode aux droits de la femme comme mère, fille, épouse et veuve. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:00:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep07 00:09:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep07 00:09:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep11 00:02:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep23 00:00:30} Par endroits, elle critique ce qu'elle appelle « les mauvais temps » : les guerres, la mondialisation, la marchandisation des valeurs et une économie vidée d'éthique. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep01 00:03:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep11 00:02:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep17 00:01:30} Elle conclut l'émission par un appel à ce que l'amour du Prophète signifie suivre sa voie, et pas seulement des poèmes de louange et des célébrations de sa naissance, et à ce que les gens s'aiment les uns les autres, arrêtent l'effusion de sang et investissent dans l'éducation et l'excellence scientifique. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep27 00:08:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep27 00:08:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep27 00:09:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep27 00:10:00}
