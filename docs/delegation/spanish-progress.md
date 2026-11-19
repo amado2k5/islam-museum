@@ -427,6 +427,7 @@ Open after the restore: `main` still carries the marks (not touched from this la
 - 2026-11-19 14:20 machine-translated document wd-fr-103 imported: `content/es/` 27,854 files, `content/fr/` 27,617 files; `npm run validate` 0 errors.
 - 2026-11-19 14:23 machine-translated document wd-fr-104 imported: `content/es/` 27,854 files, `content/fr/` 27,681 files; `npm run validate` 0 errors.
 - 2026-11-19 14:25 machine-translated document wd-fr-105 imported: `content/es/` 27,854 files, `content/fr/` 27,732 files; `npm run validate` 0 errors.
+- 2026-11-19 14:27 machine-translated document gm-en-001 to 007 (138 Arabic-only records into English) imported: `content/es/` 27,854 files, `content/fr/` 27,732 files; `npm run validate` 0 errors.
 
 ## Explicit gaps
 
