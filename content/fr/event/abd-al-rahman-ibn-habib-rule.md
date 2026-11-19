@@ -2,16 +2,20 @@
 id: event/abd-al-rahman-ibn-habib-rule
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/abd-al-rahman-ibn-habib-rule.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-01
+  source: content/en/event/abd-al-rahman-ibn-habib-rule.md
 ---
-## Vue d'ensemble
-al-Baladhuri rapporte qu’Abd al-Rahman ibn Habib al-Fihri prit le contrôle de la frontière de [[place/ifriqiya|l’Ifriqiya]] lorsque al-Walid ibn Yazid accéda au pouvoir. {cite:futuh-buldan-maarif-1407 p. 325}
+## Vue d’ensemble
+Al-Baladhuri rapporte qu’Abd al-Rahman ibn Habib al-Fihri prit le contrôle de la frontière d’[[place/ifriqiya|Ifriqiya]] lors de l’avènement d’al-Walid ibn Yazid. {cite:futuh-buldan-maarif-1407 p. 325}
 
 ## Le récit
-indique qu’[[person/abd-al-rahman-ibn-habib-al-fihri|Abd al-Rahman ibn Habib]] rompit avec al-Walid. Il attachait une grande importance à cette région frontalière en raison de l’héritage laissé par son grand-père, Uqba ibn Nafi. [[person/hanzala-ibn-safwan-al-kalbi|Hanzala]] s’en retira, tandis qu’Abd al-Rahman y resta. Lorsque Yazid ibn al-Walid devint calife, il n’envoya personne pour le remplacer en tant que gouverneur du Maghreb. Lorsque Marwan ibn Muhammad accéda au pouvoir, Abd al-Rahman lui écrivit, lui affirma son allégeance et lui fit parvenir des cadeaux. Marwan confirma alors Abd al-Rahman dans ses fonctions de gouverneur de la région frontalière. {cite:futuh-buldan-maarif-1407 p. 325}
+[[person/abd-al-rahman-ibn-habib-al-fihri|Abd al-Rahman ibn Habib]] rompit avec al-Walid. Il était attaché à cette frontière en raison de ce qu’y avait laissé son grand-père Uqba ibn Nafi. [[person/hanzala-ibn-safwan-al-kalbi|Hanzala]] s’en retira, et Abd al-Rahman resta. Devenu calife, Yazid ibn al-Walid n’envoya pas de gouverneur au Maghreb. À l’avènement de Marwan ibn Muhammad, Abd al-Rahman lui écrivit, lui déclara son obéissance et lui envoya des présents ; Marwan le confirma à la tête de la frontière. {cite:futuh-buldan-maarif-1407 p. 325}
 
-## Il fut suivi par
-Ilyas ibn Habib, puis Habib ibn Abd al-Rahman. Par la suite, les Berbères et les Kharijites ibadites prirent le dessus. {cite:futuh-buldan-maarif-1407 p. 325}
+## Après lui
+Ilyas ibn Habib lui succéda, puis Habib ibn Abd al-Rahman ; les Berbères et les kharijites ibadites l’emportèrent ensuite. {cite:futuh-buldan-maarif-1407 p. 325}
 
-Une source supplémentaire est nécessaire pour préciser la date; la conversion en calendrier grégorien est une déduction.
+Une source supplémentaire est nécessaire : la date ; la conversion dans l’ère commune est dérivée.

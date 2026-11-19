@@ -2,14 +2,18 @@
 id: event/abu-muhammads-verse-reply-and-al-hadis-answering-verses-286
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/abu-muhammads-verse-reply-and-al-hadis-answering-verses-286.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-01
+  source: content/en/event/abu-muhammads-verse-reply-and-al-hadis-answering-verses-286.md
 ---
-## Vue d'ensemble
-Lorsque la lettre d' [[person/al-hadi-yahya-al-rassi|al-Hadi]] parvint à Abou Muhammad, celui-ci réunit les gens et la leur lut, ce qui les réjouit. {cite:sira-hadi-ila-al-haqq p.158} Suit un poème qui commence par dire à al-Hadi qu'il a dit vrai et qu'il aspire à la piété ; le narrateur affirme qu'il n'est ni paresseux ni endormi, qu'il ne laissera pas la guerre suivre son cours, qu'il jugera selon le Livre en toute circonstance, qu'il ne s'inclinera pas devant la guerre ni ne craindra la mort, et que quiconque souhaite la guerre ou la paix avec lui trouvera la même chose. {cite:sira-hadi-ila-al-haqq p.158} Le livre raconte ensuite que la réponse à sa lettre parvint à al-Hadi, qui lui écrivit des vers. {cite:sira-hadi-ila-al-haqq p.158}
+## Vue d’ensemble
+Lorsque la lettre d’[[person/al-hadi-yahya-al-rassi|al-Hadi]] parvint à Abu Muhammad, il réunit les gens et la leur lut ; ils s’en réjouirent. {cite:sira-hadi-ila-al-haqq p.158} Suit un poème qui commence par dire à al-Hadi qu’il a parlé vrai et vise la piété ; son locuteur dit n’être ni relâché ni endormi, ne pas laisser à la guerre son dû, juger selon le Livre dans chaque passage, ne pas plier devant la guerre ni craindre la mort, et que quiconque veut la guerre ou la paix avec lui trouvera la même disposition. {cite:sira-hadi-ila-al-haqq p.158} Le livre dit ensuite que la réponse parvint à al-Hadi, qui lui écrivit des vers. {cite:sira-hadi-ila-al-haqq p.158}
 
-## Réponse d'Al-Hadi
-Le poème suivant, à la page 159, évoque l'affection éternelle d'un amant dévoué à la cause de Dieu, qui place son espoir en Lui et s'indigne de la désobéissance. Il affirme que les malfaiteurs, par ignorance, ont occupé une place interdite avec légèreté ; que si Dieu est satisfait, ils le sont aussi, et s'il est en colère, ils sont ses soldats. Il désigne des épées, des chevaux et des lances, et déclare que leur sort est proche s'ils se soumettent à la vérité, forts et faibles, sinon, ce sera l'épée. {cite:sira-hadi-ila-al-haqq p.159}
+## La réponse d’al-Hadi
+Le poème suivant, p. 159, parle d’une affection aussi longue que leurs deux vies et d’un homme aimant pour la cause de Dieu, espérant en Lui et s’irritant lorsqu’on Lui désobéit. Il dit que les injustes ont, par ignorance, tenu un lieu interdit pour peu de chose, que si Dieu est satisfait ils le sont et que s’Il est irrité ils sont Ses soldats ; il évoque épées, chevaux et lances et dit que leur affaire est proche s’ils se soumettent à la vérité, forts et faibles, sinon ce sera l’épée. {cite:sira-hadi-ila-al-haqq p.159}
 
 ## Notes
-L'ordre des vers des pages 158-159 étant perturbé dans le texte imprimé, les deux poèmes sont attribués uniquement selon l'ordre d'impression : le premier est lu comme la réponse d'Abu Muhammad et le second comme celle d'al-Hadi. Les propos injurieux et les comparaisons historiques du poème ne sont pas repris. Ceci suit [[event/safe-conduct-for-the-akilis-and-al-hadis-verses-from-saada-286]].
+L’ordre des vers des p. 158-159 est perturbé dans le texte imprimé ; l’attribution des deux poèmes repose donc uniquement sur l’ordre d’impression : le premier est lu comme la réponse d’Abu Muhammad et le second comme la réplique d’al-Hadi. Ni les termes injurieux ni les comparaisons historiques du poème ne sont repris. Cet épisode suit [[event/safe-conduct-for-the-akilis-and-al-hadis-verses-from-saada-286]].

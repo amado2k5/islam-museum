@@ -2,12 +2,15 @@
 id: event/abu-al-qasim-enters-sanaa-on-monday-ten-nights-into-shaban-297-ah
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/abu-al-qasim-enters-sanaa-on-monday-ten-nights-into-shaban-297-ah.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-01
+  source: content/en/event/abu-al-qasim-enters-sanaa-on-monday-ten-nights-into-shaban-297-ah.md
 ---
+## Vue d’ensemble
+Al-Hadi envoie son fils Abu al-Qasim avec des hommes des Khawlan et des Hamdan. Il entre à Sanaa le lundi, dix nuits après le début de sha'ban 297 de l’hégire, y reste et prend le contrôle de plusieurs districts. Le livre dit que plusieurs prédicateurs qarmates furent tués.
 
-## Vue d'ensemble
-Al-Hadi envoie son fils, Abu al-Qasim, avec des hommes de Khawlan et de Hamdan. Il entre à Sanaa le lundi, dix jours après le début du mois de Sha’ban 297 H, y reste, et plusieurs districts se soumettent à son autorité. Le récit indique qu’un certain nombre de prédicateurs qarmatiens ont été tués.
-
-## Détails
-Le récit indique qu’Abu al-Qasim, fils d’Al-Hadi, arriva à Sanaa avec des hommes de Khawlan et de Hamdan, le lundi, dix jours après le début du mois de Sha’ban 297 H. Il resta dans la ville et envoya des émissaires aux différents districts, qui se soumirent. Plusieurs prédicateurs qarmatiens furent tués, les tribus furent pacifiées et la population fut gagnée à sa cause. Ibn Kayyala, qui se trouvait alors à Tihama avec Muzaffar ibn Hajjaj, fut informé de ces événements et se rendit jusqu’à Alhan, ce qui entraîna les événements qui suivirent.
+## Détail
+Le livre rapporte qu’Abu al-Qasim, fils d’al-Hadi, arriva à Sanaa avec des hommes des Khawlan et des Hamdan le lundi, dix nuits après le début de sha'ban 297 de l’hégire. Il resta dans la ville et envoya des émissaires dans les districts, qui se soumirent. Plusieurs prédicateurs qarmates furent tués, les tribus sécurisées et la population gagnée à sa cause. Ibn Kayyala, alors en Tihama auprès de Muzaffar ibn Hajjaj, l’apprit et vint jusqu’à Alhan, ce qui mena aux événements suivants.

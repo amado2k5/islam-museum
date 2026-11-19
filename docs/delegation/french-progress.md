@@ -18,6 +18,45 @@
 
 Proposal: `docs/delegation/french-language-proposal.md` (approved 18 Nov 2026). Lane: `docs/agents/lanes/french.md`.
 
+## 2026-11-18 — French homework search wiring (PR #7417)
+
+- PR #7439 review comment 4613301532 identified that `devoir sur les croisades` never enters the English synonym shards loaded by French search. The existing French homework dataset is complete; no dataset changes are needed.
+- Added French synonym generation/shard export in `scripts/derive.ts`, selected those shards on the French search page, and passed French synonyms to the French canon search index in `scripts/export-api.ts`. English/Arabic generation and Urdu’s Arabic shard selection are unchanged. French retains existing English topical phrases alongside any French topical phrases.
+- Regression coverage in `scripts/search-synonyms.test.ts` exercises all French homework phrases through the browser’s normalization and shard selection, localized/fallback target labels, canon lookup, missing targets and unknown queries. Before the fix, the French selector test fails with `expected 'en' to be 'fr'`.
+- Checks: education + synonym + canon search suites passed 3 files / 110 tests; full `npm test` passed 46 files / 635 tests, with 2 existing skips. `npm run validate` exited 0 (0 errors, 5,343 warnings). Generated French shard files were checked against the real graph: all 150 homework phrases resolve to their target labels. A full local build was stopped after more than an hour; no successful build or browser verification is claimed. The known baseline `OTHER_AFTER.fr` renderer issue remains outside this change.
+
+## 2026-11-18 — batch 1, kids group
+
+- Added French to all 232 localized mappings in the ten `kids/*.yaml` files, including lesson objectives, timed teaching plans, worksheets, pilot checklists and retelling prompts. Existing locale values, IDs, statuses, provenance and non-language fields remain unchanged.
+- Coverage: `kids: 10 data files, 232 localized mappings, 0 missing fr`. Focused education/kids/tour/cards tests: 4 files, 160 tests passed. Standalone card validators: lists 12, explainers 13, stories 8 decks OK.
+- `edu/levels.yaml` is reserved for another PR and excluded from this batch's coverage expectations. Where other datasets mention the French levels, use `Pour les Petits`, `Pour les Explorateurs`, `Pour les Chercheurs` verbatim. No RTL/page-direction code or `scripts/fr-queue.ts` edits belong to this batch.
+- Next: cards, then the remaining education datasets in the agreed order; final repository validation, tests and citation check remain outstanding.
+
+## 2026-11-18 — batch 1, cards translation policy
+
+- Explicitly approved for this batch: where an existing localized field quotes a verse, French uses a brief explanatory paraphrase, marked by wording such as « Le verset évoque… » or « Le passage évoque… », never a literal translation presented as Qur’an text. Existing verse references, verification notes and all other locale values remain unchanged. This is also a PR review note for the dataset rollout.
+- French word-map titles originate in `cards/wordmap/seeds.yaml`; `npm run wordmap` regenerated the three JSON files and passed corpus identity. The generator drops the existing `kids: true` flag on `wa-bashshir.json`; restored that pre-existing flag after generation, without changing generator code or widening the opt-in.
+- Coverage: `cards: 39 data files, 698 localized mappings, 0 missing fr`. Parsed-data comparison, after removing French, confirms all existing card data unchanged. The focused run passed 159/160 tests; its only failure was the regenerated missing kids flag. After restoring the flag, the kids suite passed all 29 tests. The other three focused suites had passed unchanged; standalone validators report lists 12, explainers 13 and stories 8 decks OK.
+
+## 2026-11-18 — batch 1, education support datasets (partial)
+
+- Added French to `edu/{bands,family-activities,homework-topics,leveled-100,leveled-200,packs,stamps,where}.yaml`: 8 files, 575 localized mappings, 0 missing French in these files. Array-valued homework search phrases retain their three-entry shape. The two empty English labels in `leveled-100.yaml` use the existing Arabic identity for their French labels; no existing label is changed.
+- A parsed-data comparison with the parent commit confirms all existing data in these eight files unchanged after removing French.
+- Batch 1 remains **incomplete**: `edu/topics-50.yaml` and all 72 recursive story-card, detective and dilemma datasets still need French. `edu/levels.yaml` remains untouched and excluded by agreement. Overall education coverage is 81 scoped data files, 7,511 localized mappings, **6,936 missing French**.
+- The verse-paraphrase policy above applies to the remaining education work as well. Do not replace the missing translations with English copies or unattended machine output.
+- Checks on the translated support datasets: focused suite 4 files / 160 tests passed; card validators remain lists 12, explainers 13, stories 8 decks OK. Full `npm run validate` exited 0 (`validated 81027 entities, 104688 prose files: 0 errors, 5343 warnings`; encoding 0 replacement-character files; authenticity and extremism 0 errors). Existing registry and legacy-record warnings remain unchanged.
+- `npm test` is **not green**: 2 files failed / 44 passed; 2 tests failed / 630 passed / 2 skipped (634 total). `scripts/modern.test.ts:94` expects Wikipedia weight 3 for its four-language fixture but receives 4. `scripts/pipeline.test.ts:61` expects French prose on Ibn Sina but the graph supplies only ar/en/ur. These assertions, implementations, schemas, `data/` and `content/` are byte-unchanged from `release/french` (`git diff --exit-code release/french -- scripts schema data content` exits 0); neither scoring nor graph compilation reads the translated datasets. These are base-branch French-rollout inconsistencies, not fixed by this data-only change. The pipeline assertion also lists the expected language keys out of sorted order.
+- Citation check: `npm run cite-check -- <373 existing non-source graph record IDs referenced in changed YAML>` reports **373 pass, 0 fail of 373 records**. The CLI operates on `data/<class>/<slug>.yaml`, not directly on these dataset files; deck `source_card` identifiers are not graph record IDs. Logs are local, outside git: `/home/ubuntu/fr-final-{validate,test,cite-check}.log` and `/home/ubuntu/fr-edu-focused.log`.
+- This is a partial checkpoint, not batch-1 completion or merge readiness: the two full-suite failures and the 6,936 untranslated education mappings remain outstanding. No RTL/page-direction code, queue script, schema or loader changes were made.
+
+## 2026-11-18 — dataset branch rebased onto baseline fixtures
+
+- Rebased `devin/1794998195-fr-datasets` onto `origin/devin/1794999224-french-baseline-fixtures` (PR #7425). Dropped this branch’s original tour commit; tour data and its release notes now come solely from that base. This branch adds kids, cards and the eight education support datasets only.
+- Resolved the progress/release-note overlap without removing the baseline tour or test-fix entries. The two full-suite failures recorded above describe the old base; the baseline fixtures branch carries their fixes.
+- The requested first-five story-card slice was cancelled before any file edits. There are no completed or partial story-card translations to carry forward. Remaining coverage is still 6,936 mappings in `edu/topics-50.yaml` and the 72 recursive education files; `edu/levels.yaml` is untouched and excluded.
+- Rebased coverage: tour 4 files / 136 mappings / 0 missing French; kids 10 / 232 / 0; cards 39 / 698 / 0; education 81 / 7,511 / 6,936. Focused tests passed 4 files / 160 tests; card validators reported lists 12, explainers 13, stories 8 decks OK.
+- Rebased full gates: `npm run validate` exited 0 (81,027 entities and 104,688 prose files, 0 errors, 5,343 warnings; encoding 185,900 files with no U+FFFD). `npm test`: 46 files passed, 632 tests passed, 2 skipped. Scoped `npm run cite-check` on 346 existing non-source graph records referenced by the changed kids/cards/education YAML datasets: 346 pass, 0 fail. Dataset values match the pre-rebase branch; tour and `edu/levels.yaml` match the new base exactly. Visually unverified.
+
 ## 2026-11-18 — infrastructure landed (session 1)
 
 Done:

@@ -2,12 +2,15 @@
 id: event/abu-jafar-is-struck-from-behind-at-the-door-and-killed-among-banu-al-harith-295
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/abu-jafar-is-struck-from-behind-at-the-door-and-killed-among-banu-al-harith-295.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-01
+  source: content/en/event/abu-jafar-is-struck-from-behind-at-the-door-and-killed-among-banu-al-harith-295.md
 ---
-
-## Vue d'ensemble
-Al-Harith ibn al-Harith se cacha derrière la porte et frappa Abu Ja’far par derrière ; il tomba parmi les Banu al-Harith, qui le frappèrent avec des épées jusqu’à ce qu’il décède, puis ils lui dérobèrent ses armes, sa monture et ses biens.
+## Vue d’ensemble
+Al-Harith ibn al-Harith se cacha derrière la porte et frappa Abu Ja'far par-derrière ; il tomba parmi les Banu al-Harith, qui le frappèrent d’épée jusqu’à sa mort, puis le dépouillèrent de ses armes, de sa monture et de ses biens.
 
 ## Détail
-Le narrateur rapporte qu’Al-Harith ibn al-Harith s’était caché derrière la porte. Lorsque Abu Ja’far sortit à leur rencontre, Al-Harith le suivit et le frappa par derrière au niveau de la nuque, et il tomba parmi eux. Ils le frappèrent ensuite à coups d’épée jusqu’à ce qu’il décède. Ils lui dérobèrent ensuite ses armes et ses vêtements. Al-Harith ibn al-Harith prit son épée. Un membre d’une tribu dont le nom n’est pas mentionné dans ce récit prit son haubert et sa lance. D’autres prirent son turban, sa bague sigillaire, son bouclier, son cheval et sa lance. Le livre mentionne le nom de chacun de ces hommes, mais ces noms ne sont pas consignés ici.
+Le narrateur dit qu’al-Harith ibn al-Harith s’était caché derrière la porte. Quand Abu Ja'far sortit vers eux, al-Harith le suivit par-derrière et le frappa à la nuque ; il tomba parmi eux. Ils lui enfoncèrent leurs épées dans le corps jusqu’à sa mort. Puis ils le dépouillèrent de ses armes et de ses vêtements. Al-Harith ibn al-Harith prit son épée. Un homme d’un clan dont le nom est omis dans cette notice prit sa cotte de mailles et sa lance. D’autres prirent son turban, sa bague-sceau, son bouclier, son cheval et sa pique. Le livre nomme chacun de ces hommes, mais leurs noms ne sont pas consignés ici.

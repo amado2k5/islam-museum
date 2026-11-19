@@ -2,12 +2,15 @@
 id: event/abu-al-abbas-imprisonment-275
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/abu-al-abbas-imprisonment-275.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-01
+  source: content/en/event/abu-al-abbas-imprisonment-275.md
 ---
-
 ## Résumé
-En 275 H, Abu Ahmad al-Muwaffaq fit emprisonner son fils, Abu al-Abbas, qui deviendra plus tard connu sous le nom d’al-Mu’tadid billah. Ses partisans se révoltèrent, prirent les armes, et Bagdad fut plongée dans le chaos. {cite:muntazam-ibn-al-jawzi p. 98}
+En 275 de l’hégire, Abu Ahmad al-Muwaffaq emprisonna son fils Abu al-Abbas, connu plus tard sous le nom d’al-Mu'tadid billah. Ses partisans se révoltèrent et prirent les armes, plongeant Bagdad dans le trouble. {cite:muntazam-ibn-al-jawzi p. 98}
 
 ## La scène
-Les serviteurs du jeune prince se sont armés, jusqu’à ce qu’Abu Ahmad lui-même ne sorte et n’atteigne al-Rusafa. Il leur dit : « Qu’est-ce qui vous arrive ? Pensez-vous que vous vous souciez plus de mon fils que moi ? C’est mon fils, et j’avais besoin de le corriger. » Et ils se dispersèrent. Cet événement se produisit un mardi, le sixième jour de Shawwal. Quatre ans plus tard, Ja’far al-Mufawwad fut destitué de sa position de prince héritier, et en 279 H, Abu al-Abbas fit prêter serment d’allégeance en son propre nom pour ce poste. {cite:muntazam-ibn-al-jawzi p. 98,122-123}
+Les serviteurs du jeune prince s’armèrent, jusqu’à ce qu’Abu Ahmad sortît lui-même à cheval et arrivât à al-Rusafa. Il leur dit : « Que vous arrive-t-il ? Pensez-vous tenir à mon fils plus que moi ? C’est mon fils et j’avais besoin de le corriger ». Ils se dispersèrent. Cela se passa le mardi 6 shawwal. Quatre ans plus tard, Ja'far al-Mufawwad fut écarté de la succession et, en 279 de l’hégire, Abu al-Abbas fit prêter serment d’allégeance à son propre nom en cette qualité. {cite:muntazam-ibn-al-jawzi p. 98,122-123}
