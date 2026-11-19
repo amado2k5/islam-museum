@@ -133,7 +133,7 @@ Open after the restore: `main` still carries the marks (not touched from this la
 
 ### Root address follows the browser's default language (founder instruction in chat, 19 Nov 2026)
 
-`site/public/shell/shell.js`: at the bare root `/` only, the browser's default language (`navigator.language`) decides: `en`, `ur`, `fr` or `es` go to `/<lang>/`; `ar`, any other language, a crawler, or no JavaScript stay on the Arabic root. Nothing is stored or sent. Risk label: `submission-impacting` in the sense of `docs/ai-change-gates.md` section 3 (it changes what a script does on the page; no cookie, storage, form or network call is added), asked for directly by the founder; the outreach files were not edited. Checked: a table of 13 cases in Node (regions, unsupported languages, deeper paths, a crawler, an empty value), and in a real browser on the dev server (browser language `en-US`: `/` → `/en/`; `/ar/` stays). Known limits: the Arabic root paints for a moment before the redirect, because the script is deferred; a visitor whose browser is in English but who wants Arabic reaches it at `/ar/` or through the header, not at `/`.
+`site/public/shell/shell.js`: at the bare root `/` only, the browser's default language (`navigator.language`) decides: `en`, `ur`, `fr` or `es` go to `/<lang>/`; `ar`, any other language, a crawler, or no JavaScript stay on the Arabic root. Risk label: `submission-impacting` in the sense of `docs/ai-change-gates.md` section 3 (it changes what a script does on the page; no cookie, storage, form or network call is added), asked for directly by the founder; the outreach files were not edited. Checked: a table of 13 cases in Node (regions, unsupported languages, deeper paths, a crawler, an empty value), and in a real browser on the dev server (browser language `en-US`: `/` → `/en/`; `/ar/` stays). **Remembered choice (founder, same day):** a click on a language in the header stores that language code in the browser's `localStorage` under `lang`; at the root the stored choice wins over the browser's default (a stored `ar` keeps the root on Arabic). The privacy page's sentence listing what is kept on the device names it in English, Arabic and Spanish; the Urdu sentence is generic and needed no change; French has no such string yet and shows the English one. Checked in Node (10 cases) and in a real browser (choose ES on `/en/`, then `/` → `/es/`; choose AR, then `/` stays Arabic). Known limits: the Arabic root paints for a moment before the redirect, because the script is deferred; a visitor whose browser is in English but who wants Arabic reaches it at `/ar/` or through the header, not at `/`.
 
 ### Held records and English-source defects found while translating
 
@@ -223,10 +223,11 @@ Open after the restore: `main` still carries the marks (not touched from this la
 - 2026-11-19 03:09 local machine translation shipped: `content/es/` 4,964 files, `content/fr/` 1,793 files; `npm run validate` 0 errors.
 - 2026-11-19 03:22 local machine translation shipped: `content/es/` 4,976 files, `content/fr/` 1,810 files; `npm run validate` 0 errors.
 - 2026-11-19 03:25 local machine translation shipped: `content/es/` 4,979 files, `content/fr/` 1,812 files; `npm run validate` 0 errors.
+- 2026-11-19 03:29 local machine translation shipped: `content/es/` 4,984 files, `content/fr/` 1,818 files; `npm run validate` 0 errors.
 
 ## Explicit gaps
 
-- `content/es/`: 4,979 files of about 34,800 (waves 1 to 8 so far, above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
+- `content/es/`: 4,984 files of about 34,800 (waves 1 to 8 so far, above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
 - `data/*.yaml`: no `label.es` / `summary.es`.
 - Datasets (`edu/`, `kids/`, `tour/`, `cards/`): no `es` fields; the strict loaders still require only ar, en and ur.
 - Spanish Qur'an translation for passage pages: no source chosen or registered (`scripts/harvest/quran/translations.py` takes English and Urdu only). The translation and its licence are pending the founder's confirmation.
