@@ -104,6 +104,7 @@ const compact = (n: Node) => ({
 
 import { readFileSync as rf } from "node:fs";
 import { parse as yparse } from "yaml";
+import { readBigJson } from "./lib/graph-file.mjs";
 function themeIndex(c: Compiled) {
   const themes: any[] = yparse(rf(p("schema", "enums", "themes.yaml"), "utf8"));
   return themes.map((t) => ({ ...t, entries: c.nodes.filter((n) => !n.stub && n.themes.includes(t.id)).map((n) => n.id) }));
@@ -1069,7 +1070,7 @@ export function exportNeighbourhoods(c: Compiled, real: Node[]) {
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
-  const c: Compiled = JSON.parse(readFileSync(p(".cache", "graph.json"), "utf8"));
+  const c: Compiled = readBigJson(p(".cache", "graph.json"));
   console.log(`api: ${exportApi(c)} entities -> site/public/api/v1/`);
 }
 

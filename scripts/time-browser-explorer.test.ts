@@ -2,8 +2,9 @@ import { describe, it, expect } from 'vitest'
 import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { buildSubjects, checkSubjects, MIN_NODES, type GNode, type GEdge } from './time-browser-explorer.ts'
+import { readBigJson } from "./lib/graph-file.mjs";
 
-const graph = JSON.parse(readFileSync(join(process.cwd(), '.cache', 'graph.json'), 'utf8')) as { nodes: GNode[]; edges: GEdge[] }
+const graph = readBigJson(join(process.cwd(), '.cache', 'graph.json')) as { nodes: GNode[]; edges: GEdge[] }
 const { subjects } = buildSubjects(graph.nodes, graph.edges)
 const byId = new Map(subjects.map((s) => [s.id, s]))
 
