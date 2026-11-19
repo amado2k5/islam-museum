@@ -1,0 +1,11 @@
+---
+id: concept/al-muattisat-wa-man-al-utas
+lang: es
+source_lang: en
+translators: ['Claude (claude-fable-5-2), draft translation']
+provenance: {generated_by: 'Claude Code subagent (spanish lane, records the document services could not return intact)', model: claude-fable-5-2, run: claude-es-2026-11-19, source: content/en/concept/al-muattisat-wa-man-al-utas.md}
+---
+## Lo que lo detiene
+Entre lo que lo detiene: aspirar por la nariz un aceite de la clase conocida y otro aceite que lo calma fuertemente; también puede detenerse tragando una bebida caliente, bañando la cabeza en agua caliente, vertiendo un aceite caliente en los oídos, acostándose sobre una almohadilla tibia puesta bajo la nuca, oliendo cosas de la clase conocida que lo cortan — y el pensamiento y la distracción pueden cortarlo. En cuanto a los niños, les aprovecha lo que gotea de un riñón sano puesto al fuego, asado y retirado antes de que se cueza del todo — lo que gotea de él se inhala o se aspira por la nariz ⁦(un relato recogido como está en el libro, rotulado)⁩. La paciencia firme con él ayuda, pues lo detiene — tratamiento suficiente para la clase débil. Entre lo que lo detiene: vendar el ojo, el oído, las extremidades y el paladar, el bostezo forzado, el taponamiento, fijar la mirada hacia arriba, dar vueltas de un lado a otro, ungir los músculos — sobre todo los músculos de la mandíbula — con aceites humectantes, el sueño profundo, evitar el despertar súbito y mantenerse lejos del polvo y del humo ⁦(los nombres de los aceites y de las cosas que se huelen no se recogen)⁩ {cite:canon-ibn-sina-print-v2 p.251}
+## Los estornutatorios
+Los fármacos estornutatorios: son fármacos de la clase conocida, tomados juntos o por separado, que se aplican en la nariz con una pluma; o cosas de la clase conocida que se toman y se untan del mismo modo. Entre los estornutatorios ligeros hay una cosa de la clase conocida cuando se huele, y cosas de la clase conocida — y esto está entre lo que hace estornudar al febril. Untar el interior de la nariz con el fármaco estornutatorio es mejor que soplarlo dentro de ella ⁦(los nombres de los estornutatorios no se recogen)⁩ {cite:canon-ibn-sina-print-v2 p.251} {cite:canon-ibn-sina-print-v2 p.252}

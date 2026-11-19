@@ -79,6 +79,8 @@ def finish(st):
         done = restore(re.sub(r" {2,}", " ", tr).strip(), l["kept"], l["links"])
         if done is None: return f"markers lost in line {n}: {tr[:80]!r}"
         if L == "es": done = re.sub(r"\b([Ss])unitas\b", r"\1uníes", done); done = re.sub(r"\b([Ss])unita\b", r"\1uní", done)
+        if re.search(r"may (God|Allah) have mercy", l["en"], re.I):  # a prayer that is reported speech, not an honorific after a name: keep it, off the stock formula
+            done = re.sub(r"Dios tenga misericordia de", "Dios se apiade de", done) if L == "es" else re.sub(r"[Qq]ue Dieu (lui |leur )?fasse miséricorde( à)?", lambda m: "Dieu ait pitié de" + (" lui" if m.group(1) == "lui " else " eux" if m.group(1) else ""), done)
         if head and not l["en"].endswith("."): done = done.rstrip(".")
         out.append(l["prefix"] + done)
     body = "\n".join(out); problem = check(st["body"], body, L)
