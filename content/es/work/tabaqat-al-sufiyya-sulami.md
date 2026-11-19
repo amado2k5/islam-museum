@@ -1,0 +1,28 @@
+---
+id: work/tabaqat-al-sufiyya-sulami
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/work/tabaqat-al-sufiyya-sulami.md}
+---
+## Resumen
+Tabaqat al-Sufiyya ("Las generaciones de los sufíes") es el libro de notas sobre los maestros sufíes de [[person/al-sulami|Abu 'Abd al-Rahman al-Sulami]] de Nishapur (m. 412 H). {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 2} Su editor, Nur al-Din Shurayba, afirma que en el discurso inicial y la conclusión del libro, al-Sulami se propuso presentar cinco generaciones de veinte shaykhs cada una, con algunos dichos de cada una, pero el texto que conservamos va un poco más allá, tratando en algunos lugares a dos o tres hombres bajo un mismo epígrafe, de modo que las notas suman ciento tres. {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 65} El editor declara que no puede determinar si al-Sulami se apartó de su plan o si sus discípulos añadieron estas notas, ya que todos los manuscritos las contienen. {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 65}
+
+## Cuando fue escrito
+El editor sostiene que al-Sulami escribió primero Haqa'iq al-Tafsir, luego Ta'rikh al-Sufiyya en la octava década del siglo IV —menciona haberlo leído en Rayy en el año 384 H— y luego Tabaqat al-Sufiyya a finales de siglo, ya que en la nota sobre Abu Ja'far ibn Sinan dice que le llegaron noticias de la muerte del nieto de este en el año 387 AH. {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 48} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 49}
+
+## Las cinco generaciones
+- La primera generación (de la p. 76) comienza con [[person/al-fudayl-ibn-iyad|al-Fudayl ibn 'Iyad]], seguida por Dhu al-Nun al-Misri, Ibrahim ibn Adham, Bishr al-Hafi, al-Harith al-Muhasibi, Shaqiq al-Balkhi, Abu Yazid al-Bistami, Abu Sulayman al-Darani, Ma'ruf al-Karkhi y otros. {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 6} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 76} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 77}
+- El segundo (de la p. 224) comienza con [[person/al-junayd-ibn-muhammad|Abu al-Qasim al-Junayd]] y Abu al-Husayn al-Nuri, e incluye a Abu 'Uthman al-Hiri, [[person/amr-ibn-uthman-al-makki|'Amr ibn 'Uthman al-Makki]], Sahl al-Tustari y [[person/abu-said-al-kharraz|Abu Sa'id al-Kharraz]]. {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 7} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 224} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 226}
+- El tercero (de la p. 328) incluye a al-Jurayri, Ibn 'Ata' al-Adami, [[person/ibrahim-al-khawwas|Ibrahim al-Khawwas]], Bunan al-Hammal, Abu Bakr al-Wasiti, al-Husayn ibn Mansur al-Hallaj y Khayr al-Nassaj. {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 7} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 328}
+- El cuarto (de la p. 406) comienza con Abu Bakr al-Shibli e incluye a al-Murta'ish, 'Abd Allah ibn Manazil y Abu al-Khayr al-Aqta'. {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 8} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 406}
+- Luego la quinta generación. {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 65}
+
+Una nota da nombre, linaje y ciudad, luego dichos con cadenas; así el libro comienza con al-Fudayl ibn 'Iyad al-Tamimi al-Yarbu'i, un jorasán del distrito de Marw, de una aldea llamada Fundin, según la autoridad de su compañero Ibrahim ibn al-Ash'ath, seguido de otro informe que dice que nació en Samarcanda y creció en Abiward. {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 77} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 78}
+
+## Fuentes e influencia
+El editor dice que al-Sulami no fue el primero en escribir generaciones de sufíes y se basó en libros de los que no sobrevive nada: Tabaqat al-Nussak de Abu Sa'id ibn al-A'rabi (m. 341 H), Akhbar al-Sufiyya wa-l-Zuhhad de su propio maestro Abu Bakr Muhammad ibn Dawud al-Zahid de Nishapur, y Ta'rikh al-Sufiyya de Abu al-'Abbas al-Nasawi (m. 396 H). {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 49} Dice que Abu Nu'aym en Hilyat al-Awliya' se basó en el Tabaqat de al-Sulami para casi todo lo que escribió sobre los sufíes del Este; al-Khatib en Ta'rikh Bagdad no mencionó a ningún sufí sin citarlo; su alumno [[person/al-qushayri-abu-l-qasim|al-Qushayri]] sigue a menudo su orden en [[work/al-risala-al-qushayriyya|el Risala]] ; y más tarde Jami lo continuó en Nafahat al-Uns y al-Sha'rani lo siguió en Lawaqih al-Anwar. {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 50} Señala que la biblioteca de París posee un manuscrito con la transmisión del libro de al-Sulami a través de su discípulo Abu Bakr Ahmad ibn 'Ali ibn Khalaf al-Shirazi. {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 51}
+
+## La edición
+El editor relata que en febrero de 1951 escribió al profesor Johannes Pedersen de la Universidad de Copenhague para preguntarle si pensaba terminar la edición que había comenzado en 1938; Pedersen no respondió personalmente, pero sí lo hizo uno de sus alumnos. {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 51} {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 52} Tomó como base el manuscrito de la biblioteca de Quwala, por sus márgenes cotejados con muchas copias y citas de libros perdidos, y porque había pertenecido a la biblioteca de Muhammad 'Ali, gobernador de Egipto; marcó las variantes de lectura por número de línea en lugar de con números en el texto. {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 65} La edición utilizada aquí es la tercera (Maktabat al-Khanji, 1406 H / 1986), de la cual la colección conserva dos escaneos. {cite:tabaqat-sufiyya-sulami-khanji-1986 p. 3}

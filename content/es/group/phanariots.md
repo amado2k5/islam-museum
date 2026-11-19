@@ -1,0 +1,28 @@
+---
+id: group/phanariots
+lang: es
+source_lang: en
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (spanish lane, wave 5)", model: "claude-sonnet-5-5", run: "spanish-w5-2026-11-18", source: "content/en/group/phanariots.md" }
+---
+## Visión general
+«Fanariotas» es el nombre que la Encyclopaedia of Islam da, de forma colectiva, a las prominentes familias griegas que se asentaron en torno al Patriarcado griego en el barrio de [[place/fener|Fener]], en Estambul. {cite:encyclopaedia-of-islam-2 vol. 2 p. 918} Eran súbditos cristianos ortodoxos del sultán, y los artículos leídos los muestran al servicio otomano como intérpretes y como príncipes de los dos principados danubianos. {cite:encyclopaedia-of-islam-2 vol. 2 p. 918} Este registro los describe como lo hace la Encyclopaedia of Islam, desde el punto de vista otomano, y los apellidos de familia que enumera se dan tal como ella los escribe.
+
+## El barrio de Phanar
+El artículo sobre Fener dice que, según la tradición, el barrio fue asignado a los griegos tras la conquista de 857/1453, y que el Patriarca se trasladó allí en 1011/1603 a la iglesia de San Jorge, reconstruida en 1720 y todavía sede del Patriarcado Ortodoxo. {cite:encyclopaedia-of-islam-2 vol. 2 p. 917} {cite:encyclopaedia-of-islam-2 vol. 2 p. 918} Pronto se establecieron cerca, además de los funcionarios eclesiásticos y civiles del Patriarcado, las pocas familias bizantinas antiguas que se habían quedado en Estambul y otros miembros distinguidos y acaudalados de la comunidad. La escuela del Patriarcado, dirigida por clérigos, mantuvo los antiguos estudios clásicos. Estas prominentes familias griegas pasaron a llamarse colectivamente fanariotas. {cite:encyclopaedia-of-islam-2 vol. 2 p. 918}
+
+## Al servicio otomano
+Gracias a sus vínculos con el mundo cristiano, y a que muchos se habían educado en Italia, la Sublime Puerta recurrió a ellos, en particular en el siglo XVIII (XII H) y a comienzos del XIX (XIII H), para diversos empleos influyentes. {cite:encyclopaedia-of-islam-2 vol. 2 p. 918} Miembros de estas familias actuaron como dragomanes de la Puerta y del Arsenal, y como contratistas que suministraban pieles y carne al palacio. {cite:encyclopaedia-of-islam-2 vol. 2 p. 918} El artículo nombra entre las familias a los Maurokordatos, Kantakouzenos, Gkikas, Karatzas, Soutsos, Khantzeres, que son los Handjeri de otras fuentes, Maurogenes, Hypsilantes, Mourouzes, Kallimakhes, Mousouros y Aristarkhes. {cite:encyclopaedia-of-islam-2 vol. 2 p. 918}
+
+Uno de ellos se cita en el artículo sobre la libertad: el fanariota Handjeri, en un diccionario de francés, árabe, persa y turco impreso en Moscú en 1840-41, tradujo «liberté civile» y «liberté politique» como rukhsat-i sharfiyya y rukhsat-i mulkiyya. {cite:encyclopaedia-of-islam-2 vol. 3 p. 622} El artículo sobre Halet Efendi añade que la cercanía de un estadista otomano a los fanariotas lo hizo caer en sospecha, y que se dice que intentó limpiar su nombre mostrando un odio a los griegos tan grande como la amistad que se le suponía; véase [[person/halet-efendi|Halet Efendi]]. {cite:encyclopaedia-of-islam-2 vol. 3 p. 100}
+
+## Príncipes de Moldavia y Valaquia
+El artículo sobre Fener dice que los fanariotas eran considerados más fiables que los príncipes nativos, para algunos de los cuales habían actuado antes como agentes en la Puerta, y que durante un siglo fueron los designados como voivodas u hospodares de Moldavia y Valaquia. Fecha Moldavia desde 1123/1711. {cite:encyclopaedia-of-islam-2 vol. 2 p. 918} El artículo Bogdan, sobre Moldavia, habla del «periodo fanariota» de 1123 a 1236, de 1711 a 1821, y dice que tras la traición de Dimitrie Cantemir en 1123/1711 los voivodas se escogían solo entre unas pocas familias fanariotas, los Mavrokordati, Kallimachi e Hypsilanti, y ya no eran sino funcionarios otomanos. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1317} El artículo sobre Ahmad III fecha el nombramiento de griegos fanariotas para el gobierno de los Principados a partir de 1716, tras la traición de Cantemir y de su colega hospodar de Valaquia durante la campaña del Pruth. {cite:encyclopaedia-of-islam-2 vol. 1 p. 293} Las fuentes difieren, pues, entre 1711 y 1716 en cuanto al comienzo del sistema; el artículo Bogdan se refiere solo a Moldavia, y el artículo sobre Ahmad III habla de los Principados en conjunto. Véanse [[polity/principality-of-wallachia|el principado de Valaquia]] y [[event/treaty-pruth-1123|la campaña del Pruth]].
+
+El artículo sobre Valaquia dice que los otomanos ya no confiaban en los príncipes rumanos, que estaban tan dispuestos a elegir a sus gobernantes entre los griegos del Phanar que se habían distinguido al servicio del sultán. Fecha el fin del régimen fanariota en 1821 y la revuelta de Tudor Vladimirescu, quien, tras actuar primero de acuerdo con la Hetairía, se volvió contra los griegos como instrumentos de la dominación otomana. {cite:encyclopaedia-of-islam-2 vol. 2 p. 718}
+
+## Declive y legado
+En la segunda mitad del siglo XVIII (XII H) las familias fanariotas empezaron a abandonar Fener por los pueblos más sanos del Bósforo, como Kuruchesme, Arnawutkoy y Tarabya. {cite:encyclopaedia-of-islam-2 vol. 2 p. 918} Tras la guerra de independencia griega muchas emigraron a Grecia, y todavía hoy se encuentran descendientes de familias fanariotas en la Rumanía moderna. {cite:encyclopaedia-of-islam-2 vol. 2 p. 918}
+
+## Lo que las fuentes dejan abierto
+Los artículos leídos no cuentan a los fanariotas, no describen su propia visión de su servicio y no siguen a familias concretas más allá de las listas dadas. La fecha de inicio en Valaquia no figura en el texto OCR del artículo sobre Fener y se deja abierta.

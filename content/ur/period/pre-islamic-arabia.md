@@ -12,23 +12,23 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 میوزیم میں اس دور کا مواد آج یہ ہے: نمایاں واقعات: 10، ریاستیں: 8، گروہ: 13، سب سے زیادہ ذکر ہونے والی شخصیات: 28، عمارات: 4۔
 
 ### نمایاں واقعات
-- [[event/sacrifice-of-ismail|اسماعیل کو ذبح کرنے کا حکم]] (تقریباً 1900 قبل مسیح)
-- [[event/building-of-the-kaaba|کعبہ کی بنیادوں کا اٹھانا]] (تقریباً 1900 قبل مسیح)
-- [[event/qusayy-takes-mecca|قصی بن کلاب کا مکہ پر قبضہ]] (440ء)
-- [[event/flood-of-al-aram|سیلِ عرم]] (تقریباً 450ء)
-- [[event/massacre-of-najran|نجران کا قتلِ عام (اصحابِ الأخدود)]] (523ء)
-- [[event/abyssinian-occupation-of-yemen|یمن پر حبشیوں کا دوسرا قبضہ]] (525ء تا 575ء)
-- [[event/persian-rule-of-yemen|یمن کی آزادی اور فارسی حکمرانی]] (575ء تا 638ء)
-- [[event/battle-of-dhu-qar|یومِ ذی قار]] (تقریباً 604ء)
+- [[event/sacrifice-of-ismail|اسماعیل کو ذبح کرنے کا حکم]] ⁦(تقریباً 1900 قبل مسیح)⁩
+- [[event/building-of-the-kaaba|کعبہ کی بنیادوں کا اٹھانا]] ⁦(تقریباً 1900 قبل مسیح)⁩
+- [[event/qusayy-takes-mecca|قصی بن کلاب کا مکہ پر قبضہ]] ⁦(440ء)⁩
+- [[event/flood-of-al-aram|سیلِ عرم]] ⁦(تقریباً 450ء)⁩
+- [[event/massacre-of-najran|نجران کا قتلِ عام ⁦(اصحابِ الأخدود)⁩]] ⁦(523ء)⁩
+- [[event/abyssinian-occupation-of-yemen|یمن پر حبشیوں کا دوسرا قبضہ]] ⁦(525ء تا 575ء)⁩
+- [[event/persian-rule-of-yemen|یمن کی آزادی اور فارسی حکمرانی]] ⁦(575ء تا 638ء)⁩
+- [[event/battle-of-dhu-qar|یومِ ذی قار]] ⁦(تقریباً 604ء)⁩
 
 ### ریاستیں
-- [[polity/byzantine-empire|بازنطینی سلطنت (روم)]]
-- [[polity/sasanian-empire|ساسانی سلطنت (فارس)]]
-- [[polity/aksumite-kingdom|مملکتِ اکسوم (حبشہ)]]
-- [[polity/ghassanid-kingdom|غسانی سلطنت]] (تقریباً 220ء تا 636ء)
-- [[polity/himyarite-kingdom|حمیری سلطنت]] (تقریباً 115 قبل مسیح تا 638ء)
-- [[polity/kingdom-of-saba|سبا کی سلطنت]] (تقریباً 1100 قبل مسیح تا تقریباً 115 قبل مسیح)
-- [[polity/lakhmid-kingdom|حیرہ کی سلطنت (منذری)]] (تقریباً 268ء تا 632ء)
+- [[polity/byzantine-empire|بازنطینی سلطنت ⁦(روم)⁩]]
+- [[polity/sasanian-empire|ساسانی سلطنت ⁦(فارس)⁩]]
+- [[polity/aksumite-kingdom|مملکتِ اکسوم ⁦(حبشہ)⁩]]
+- [[polity/ghassanid-kingdom|غسانی سلطنت]] ⁦(تقریباً 220ء تا 636ء)⁩
+- [[polity/himyarite-kingdom|حمیری سلطنت]] ⁦(تقریباً 115 قبل مسیح تا 638ء)⁩
+- [[polity/kingdom-of-saba|سبا کی سلطنت]] ⁦(تقریباً 1100 قبل مسیح تا تقریباً 115 قبل مسیح)⁩
+- [[polity/lakhmid-kingdom|حیرہ کی سلطنت ⁦(منذری)⁩]] ⁦(تقریباً 268ء تا 632ء)⁩
 - [[polity/nabataean-kingdom|نبطی سلطنت]]
 
 ### گروہ
@@ -36,7 +36,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 - [[group/hawazin|ہوازن]]
 - [[group/jurhum|جرہم]]
 - [[group/himyar|حمیر]]
-- [[group/banu-lakhm|لخم (منذری)]]
+- [[group/banu-lakhm|لخم ⁦(منذری)⁩]]
 - [[group/banu-shayban|بنو شیبان بن بکر بن وائل]]
 
 ### سب سے زیادہ ذکر ہونے والی شخصیات
@@ -55,7 +55,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 - [[building/kaaba|کعبہ]]
 - [[building/dar-al-nadwa|دار الندوہ]]
 - [[building/marib-dam|مآرب کا بند]]
-- [[building/al-qullays|القُلَیس (یمانی کعبہ)]]
+- [[building/al-qullays|القُلَیس ⁦(یمانی کعبہ)⁩]]
 
 ## یہ صفحہ کیا احاطہ کرتا ہے
 ذکر کردہ فہرستیں میوزیم کے سب سے مشہور اور زیادہ ذکر ہونے والے مواد کی ہیں، نہ کہ اس میں موجود تمام مواد کی؛ اس دور کا مزید مواد اصل مصادر سے ہر نئے مرحلے کے ساتھ شامل ہوتا رہے گا۔

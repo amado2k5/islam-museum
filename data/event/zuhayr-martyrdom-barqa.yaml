@@ -9,14 +9,14 @@ wings: [time]
 periods: [period/umayyad]
 regions: [maghreb]
 date:
-  start: { edtf: "0685/0705", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية عبد العزيز بن مروان لمصر (البلاذري ص 321). التحويل مشتق." }
+  start: { edtf: "0685/0705", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية عبد العزيز بن مروان لمصر ⁦(البلاذري ص 321)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/barqa }
   - { type: had_participant, target: person/zuhayr-ibn-qays-al-balawi, role: "الوالي المستشهد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abd-al-aziz-ibn-marwan, role: "المولّي إياه إفريقية", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 321"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 321"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-21
 sides:

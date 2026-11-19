@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b91, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/392" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b91, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/392" }
 ---
 ## خلاصہ
 عبد اللہ بن خالد عبادت اور پرہیزگاری میں بلند مرتبے پر تھے، اور شہر کے قاضی بننے پر مجبور کیے گئے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 669)⁩ صفحہ 392 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 669 ہے، تسلسل میں 670۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/392}

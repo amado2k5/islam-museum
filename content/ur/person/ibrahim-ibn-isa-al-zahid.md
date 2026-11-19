@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b94, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/393" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b94, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/393" }
 ---
 ## خلاصہ
 ابراہیم بن عیسیٰ زاہد، جنہوں نے معروف کرخی کی صحبت کی اور ابو داود طیالسی اور محمد بن مقری سے سنا۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 672)⁩ صفحہ 393 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 672 ہے، تسلسل میں 673۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/393}

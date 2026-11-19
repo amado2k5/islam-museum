@@ -1,0 +1,19 @@
+---
+id: concept/ilaj-al-sar-hasab-al-masdar
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/ilaj-al-sar-hasab-al-masdar.md}
+---
+
+## El cerebral
+Si la epilepsia es cerebral, lo primero es evacuar la materia mediante evacuantes de ese tipo (no se indican sus nombres), purga tras purga durante el año; si se requiere flebotomía por cualquier humor, no debe escatimarse; la ventosaterapia en la nuca puede extraer la materia del cerebro a menos que el temperamento y la debilidad del cerebro lo impidan; si hay que realizar flebotomías con frecuencia, descansar una semana, luego purgar, luego descansar, luego ventosaterapia, luego descansar, luego purgar, y seguir alternando con descansos hasta que la materia esté limpia; después usar lo que purifique solo la cabeza (no se indican los detalles ni los sitios de administración de los medicamentos). El ataque debe ser tratado con el estómago limpio —vomitando antes de comer si es posible— luego se cuida el temperamento del cerebro con fortalecedores que calientan, sin sobrecargarlo con calentadores y alteradores de temperamento de golpe, sino gradualmente; si aparece algún daño a sus funciones, se le da descanso {cite:canon-ibn-sina-print-v2 p.129}
+
+## El flemático, melancólico y biliar
+Para la causada por flema, los mejores evacuantes son los que la expulsan (no los transportados); si la flema va acompañada de plenitud general, la flebotomía descrita resulta beneficiosa. La melancolía se purga con lo que purga la bilis negra (no transportada). Para la epilepsia biliar, se debe prestar atención al enfriamiento y la humectación, especialmente a los enemas; si hay ardor, se considera melancólica, o entre la biliar y la melancólica {cite:canon-ibn-sina-print-v2 p.129} {cite:canon-ibn-sina-print-v2 p.130}
+
+## Umm al-sibyan
+Lo que se denomina 'umm al-sibyan' puede ser de tipo biliar según algunos, por lo que su tratamiento ordena baños, inhalaciones de rapé frías y húmedas y una fuerte humectación del cuerpo; si el afectado es un niño, a su nodriza se le da algo para enfriar su leche y se le obliga a vivir en un lugar fresco, parecido a un sótano; es probable que, en su opinión, se trate de la epilepsia sabir o mani —este nombre no es de uso común entre los médicos que la verifican {cite:canon-ibn-sina-print-v2 p.130}
+
+## El estómago, el que asciende desde un órgano y el cuerpo entero
+Si la epilepsia es gástrica, se utilizan los evacuantes más suaves, varias veces al año; después de la purificación, se cuida y fortalece el estómago, se le dan solo alimentos de rápida digestión y buen quimo, se asegura una buena digestión y se deja el estómago vacío durante mucho tiempo; cualquier brote que se presente con el hambre se trata con lo que se dijo en el apartado de dolor de cabeza y en otro lugar. Para lo que viene con algo que sube de un órgano, se ata una ligadura por encima del órgano durante el ataque —quizás previniendo el ataque— y el humor en el órgano se evacua mediante las evacuaciones conocidas si lo alcanzan, o mediante lo que ulcera, supura y quema la materia (no se llevan sus medios). Para lo que sube de todo el cuerpo, algunos decían que si no fuera por el peligro de cortar las dos arterias del sueño —la interrupción del pneuma y la apoplejía que seguiría— habría una cura completa en ello para quien comparte todo el cuerpo; Ibn Sina dice: si eso no se puede hacer, entonces entre las arterias ascendentes aquellas cuyo corte no conlleva tal peligro, no está lejos de que seccionarlas sería muy provechoso; ten en cuenta todo lo que hemos dicho {cite:canon-ibn-sina-print-v2 p.130}

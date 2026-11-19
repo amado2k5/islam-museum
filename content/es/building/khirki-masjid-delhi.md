@@ -1,0 +1,20 @@
+---
+id: building/khirki-masjid-delhi
+lang: es
+source_lang: en
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+status:
+  review: published
+provenance: { generated_by: "Claude Code (spanish lane, wave 8)", model: "claude-sonnet-5-5", run: "spanish-w8-2026-11-18", source: "content/en/building/khirki-masjid-delhi.md" }
+---
+## Visión general
+La Khirki Masjid es una mezquita de dos pisos en el extremo sur de la aldea de Khirki, en el sur de Delhi, atribuida a Khan-i Jahan, visir de [[person/firuz-shah-tughluq|Firuz Shah Tughluq]]. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 76} Ninguna inscripción ni texto fija su fecha: Syed Ahmad Khan da 789 H/1387, Abha Rani y R. Nath hacia 1375, mientras que Welch y Crane sugieren que es anterior a la fundación de Firuzabad y que fue la contribución de Firuz Shah a la capital, donde vivió de 1351 a 1354, lo que la convertiría en la más antigua de sus obras de mecenazgo. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 71} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 76} La autora piensa que [[person/khan-i-jahan-maqbul-tilangani|Khan-i Jahan Maqbul Tilangani]] pudo haberla proyectado antes de su muerte en 1368. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 72}
+
+## Arquitectura
+La mezquita es cuadrada, de unos 52 metros por lado, sobre un zócalo de tres metros de altura, y está dividida en cuatro cuartos iguales, cada uno con un patio abierto de treinta pies de lado, el tipo que R. Nath llama *chaturangana*. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 76} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 77} El piso inferior (*tahkhana*) contiene más de cien celdas abovedadas, y el superior tiene ventanas de arco apuntado cerradas con celosías de piedra calada (*khirki*), que dieron nombre al edificio. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 77} Torres angulares con talud, de unos cuarenta y cinco pies de altura, le dan aspecto de fortaleza; al norte, al sur y al este se alzan puertas salientes con cúpula, flanqueadas por alminares que se estrechan, siendo la puerta este la entrada principal, y el mihrab central está al oeste. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 77} Los muros se adelgazan de cinco pies en la base a dos pies en el parapeto. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 77}
+
+## Techumbre y columnas
+El techo descansa sobre 180 columnas de piedra, simples, dobles y cuádruples, y sesenta pilastras; está formado por nueve grupos de nueve pequeñas cúpulas que, con las de las puertas y la cámara del mihrab, suman 85, estando abovedados los doce cuadrados restantes. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 78} Se dice que cuatro cúpulas del grupo nororiental cayeron en un incendio provocado en un montón de hierba almacenada allí. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 79} El muro oeste contiene quince mihrabs lisos, siete a cada lado del central. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 79} La sala de oración no se distingue arquitectónicamente de los claustros, pues todo el techo es un racimo de cupulillas. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 77}
+
+## Su estado
+Construida de mampostería, con un enlucido ahora ennegrecido por el tiempo, la mezquita es una ruina protegida y no está en uso; en su estudio, la autora no halló rastro de una sala del santuario, un púlpito o un muro de la qibla ni inscripción alguna en la puerta este, y halló dos escaleras al tejado a ambos lados de esta. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 79} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 80} Señala que cubrir parte del patio dejando cuatro patios abiertos para la luz y el aire solo se intentó una vez más, en Gulbarga, en el sur. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 79}

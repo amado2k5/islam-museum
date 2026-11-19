@@ -1,0 +1,25 @@
+---
+id: work/fatwa-islamweb-booking-hotels-for-conference-attendees
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/work/fatwa-islamweb-booking-hotels-for-conference-attendees.md}
+---
+
+## Resumen
+
+Una pregunta sobre el trabajo de reserva de habitaciones de hotel para asistentes a conferencias, algunas de las cuales pueden tratar temas prohibidos, a la que el centro de fatwas de [[group/islamweb|IslamWeb]] respondió que dicha reserva es una intermediación para un beneficio lícito y el salario es lícito, excepto la reserva para una conferencia que se sabe o se sospecha firmemente que trata un tema prohibido, lo cual constituye asistencia en lo prohibido que el empleado debe rechazar; no está obligado a investigar conferencias cuyo tema se desconoce, y cualquier otra irregularidad en los hoteles no causa daño, ya que el contrato se refiere al alojamiento. {cite:islamweb fatwa 539501}
+
+## La pregunta
+
+El consultante afirmó ser un ejecutivo de una empresa cuya tarea consiste en investigar conferencias celebradas en diversos países, como Estados Unidos, recopilar información sobre ellas, encontrar tarifas hoteleras más bajas que las que ofrecen los organizadores a los asistentes y enviar dicha información a su superior. Posteriormente, la transacción pasa por etapas ajenas a su control hasta que estos servicios se venden a quienes desean asistir. {cite:islamweb fatwa 539501} Su problema, según explicó, radica en que algunas de estas conferencias pueden estar relacionadas con asuntos prohibidos, como conferencias de empresas de bebidas alcohólicas o desfiles de moda con exhibicionismo y desnudez, mientras que su tarea se limita a reservar una habitación de hotel, sin promoción ni participación en la conferencia. Intenta evitar las conferencias cuya naturaleza le genera dudas, pero su gerente a veces le asigna conferencias específicas y debe cumplir con lo que se le pide. Algunos de los hoteles que reserva tienen casinos o bares, aunque él solo reserve habitaciones. Preguntó si existe algún aspecto objetable en su trabajo y si su salario conlleva alguna duda o prohibición. {cite:islamweb fatwa 539501}
+
+## La respuesta
+
+El centro respondió que investigar precios de hoteles y reservar habitaciones para los asistentes a conferencias es un trabajo permisible, ya que es intermediación y orientación hacia un beneficio permisible, el alquiler de casas y alojamientos, y no hay desacuerdo en que alquilar alojamientos es permisible, por lo que guiar a las personas hacia ello es permisible y el salario ganado por ello es lícito y saludable. {cite:islamweb fatwa 539501} Sin embargo, este principio puede ser superado por algo que hace que el trabajo sea prohibido, como cuando se sabe o se sospecha firmemente que el tema de una conferencia es prohibido, como conferencias sobre comercialización y fabricación de alcohol o espectáculos de exhibición inmodesta; reservar hoteles para los asistentes a tales conferencias es facilitar y ayudar a ellos en lo prohibido, que Dios prohibió en [[passage/quran-5-2|al-Ma'ida 2]]. {cite:islamweb fatwa 539501} En cuanto a las conferencias cuyo tema es lícito o desconocido, no hay culpa alguna en la reserva de alojamiento para sus asistentes ni obligación de investigarlos, ni esto se ve impedido por la existencia de irregularidades en dichos hoteles, puesto que el contrato se refiere a un beneficio lícito, el alojamiento, y no a las irregularidades relacionadas con esos hoteles. {cite:islamweb fatwa 539501}
+
+El centro dictaminó que el consultante no tiene culpa alguna por continuar en su trabajo siempre que evite asistir a conferencias prohibidas; si su gerente le ordena reservar plazas para conferencias que sabe o sospecha firmemente que están prohibidas, debe negarse, ya que ningún ser creado es obedecido en desobediencia al Creador, como dice el hadiz auténtico. {cite:islamweb fatwa 539501} En cuanto a su salario, no se considera prohibido siempre que la mayor parte de su trabajo se refiera a conferencias y tareas permitidas; si en el pasado ha reservado plazas para conferencias prohibidas, lo más prudente es donar una parte de su salario a los pobres y necesitados, en proporción al tiempo y esfuerzo que dedicó a preparar información sobre dichas conferencias y a reservar plazas, para limpiar su conciencia y purificar su patrimonio, y luego abstenerse de hacerlo en el futuro. {cite:islamweb fatwa 539501}
+
+## Acerca de este disco
+
+El centro de fatwas de IslamWeb publicó esta fatwa en islamweb.net como el n.º 539501, con fecha del 21 de Jumada al-Ula de 1448, 1 de noviembre de 2026. {cite:islamweb fatwa 539501} El museo registra este texto como un documento histórico atribuido al organismo o erudito que lo emitió; no emite ningún dictamen propio.

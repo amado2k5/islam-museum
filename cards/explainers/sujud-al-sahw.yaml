@@ -1,50 +1,58 @@
 slug: sujud-al-sahw
-title: { ar: "سجود السهو", en: "Prostration of forgetfulness" }
+title: { ar: "سجود السهو", en: "Prostration of forgetfulness", fr: "Les prosternations de l’oubli" }
 lede:
   ar: "ماذا تفعل إذا سهوت في الصلاة؟ أجب عن سؤالين واعرف الحكم."
   en: "What to do if you err in prayer? Answer two questions and get the ruling."
+  fr: Un oubli dans la prière ? Deux questions pour comprendre la règle présentée.
 source_card: 8cabd697
 status: { review: draft }
 widget: decision-tree
 attribution:
   ar: "برأي الجمهور"
   en: "Per the majority view"
+  fr: Selon l’avis majoritaire
 tree:
-  q: { ar: "ماذا حدث في الصلاة؟", en: "What happened in the prayer?" }
+  q: { ar: "ماذا حدث في الصلاة؟", en: "What happened in the prayer?", fr: "Que s’est-il passé pendant la prière ?" }
   options:
-    - label: { ar: "زيادة", en: "Addition" }
+    - label: { ar: "زيادة", en: "Addition", fr: "Un ajout" }
       next:
-        q: { ar: "هل الزيادة ركن (كركعة زائدة)؟", en: "Was it a pillar (e.g. an extra rak'ah)?" }
+        q: { ar: "هل الزيادة ركن (كركعة زائدة)؟", en: "Was it a pillar (e.g. an extra rak'ah)?", fr: "L’ajout concerne-t-il un pilier, comme une unité supplémentaire ?" }
         options:
-          - label: { ar: "نعم", en: "Yes" }
+          - label: { ar: "نعم", en: "Yes", fr: "Oui" }
             result:
               ar: "اسجد سجدتين بعد السلام ثم سلِّم."
               en: "Prostrate twice after the salam, then give salam."
-          - label: { ar: "لا (قول أو فعل غير ركن)", en: "No" }
+              fr: Deux prosternations après le salut final, puis un nouveau salut.
+          - label: { ar: "لا (قول أو فعل غير ركن)", en: "No", fr: "Non, une parole ou un acte qui n’est pas un pilier" }
             result:
               ar: "اسجد سجدتين بعد السلام."
               en: "Prostrate twice after the salam."
-    - label: { ar: "نقص", en: "Omission" }
+              fr: Deux prosternations après le salut final.
+    - label: { ar: "نقص", en: "Omission", fr: "Une omission" }
       next:
-        q: { ar: "هل النقص ركن؟", en: "Was it a pillar?" }
+        q: { ar: "هل النقص ركن؟", en: "Was it a pillar?", fr: "L’omission concerne-t-elle un pilier ?" }
         options:
-          - label: { ar: "نعم", en: "Yes" }
+          - label: { ar: "نعم", en: "Yes", fr: "Oui" }
             result:
               ar: "ائت بالركن الناقص ثم اسجد للسهو بعد السلام."
               en: "Perform the missed pillar, then prostrate for forgetfulness after the salam."
-          - label: { ar: "لا (واجب كالتشهد الأول)", en: "No (e.g. first tashahhud)" }
+              fr: Accomplir le pilier manquant, puis les prosternations de l’oubli après le salut final.
+          - label: { ar: "لا (واجب كالتشهد الأول)", en: "No (e.g. first tashahhud)", fr: "Non, une obligation comme le premier tachahhoud" }
             result:
               ar: "اسجد سجدتين قبل السلام."
               en: "Prostrate twice before the salam."
-    - label: { ar: "شك", en: "Doubt" }
+              fr: Deux prosternations avant le salut final.
+    - label: { ar: "شك", en: "Doubt", fr: "Un doute" }
       next:
-        q: { ar: "هل ترجح عندك أحد الاحتمالين؟", en: "Does one option seem likelier?" }
+        q: { ar: "هل ترجح عندك أحد الاحتمالين؟", en: "Does one option seem likelier?", fr: "L’une des possibilités paraît-elle plus probable ?" }
         options:
-          - label: { ar: "نعم", en: "Yes" }
+          - label: { ar: "نعم", en: "Yes", fr: "Oui" }
             result:
               ar: "ابنِ على الراجح واسجد بعد السلام."
               en: "Act on the likelier option and prostrate after the salam."
-          - label: { ar: "لا", en: "No" }
+              fr: Retenir la possibilité la plus probable et se prosterner après le salut final.
+          - label: { ar: "لا", en: "No", fr: "Non" }
             result:
               ar: "ابنِ على الأقل (اليقين) واسجد قبل السلام."
               en: "Act on the lesser (certain) number and prostrate before the salam."
+              fr: Retenir le nombre inférieur, certain, et se prosterner avant le salut final.

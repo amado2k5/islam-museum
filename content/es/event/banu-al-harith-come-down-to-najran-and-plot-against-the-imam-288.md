@@ -1,0 +1,12 @@
+---
+id: event/banu-al-harith-come-down-to-najran-and-plot-against-the-imam-288
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/banu-al-harith-come-down-to-najran-and-plot-against-the-imam-288.md}
+---
+## Visión general
+El original tiene el título: el relato de la oposición de Banu al-Harith en Najrán. [[person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi|Ali ibn Muhammad]] dijo: en el mes de Ramadán, cuando ocurrió lo que sucedió en la guerra de [[person/al-hadi-yahya-al-rassi|al-Hadi]] con [[group/banu-yafur|Al Ya'fur]] y [[group/banu-tarif|Al Tarif]], [[group/banu-al-harith-ibn-kab|Banu al-Harith]] descendió a [[place/najran|Najrán]], cuando los dátiles estaban maduros, en otoño {cite:sira-hadi-ila-al-haqq p.229}. Se incitaron unos a otros a causar disturbios contra el imán, y [[person/abdullah-ibn-bustam|Ibn Bustam]] los alentó para que él tuviera prestigio y obediencia entre Banu al-Harith y al-Hadi lo necesitara {cite:sira-hadi-ila-al-haqq p.229}.
+
+## Detalle
+El narrador dice que acordaron desorden sin causa, sin ver mal ni cometer injusticia; ese es el testimonio del narrador para al-Hadi, que el museo da atribuido y ni afirma ni niega. Agrega que al-Hadi no iba a regresar con ellos, así que [[person/ibn-humayd-of-banu-al-harith-286|Ibn Humayd]] e Ibn Bustam reunieron a Banu al-Harith y a los beduinos de [[group/shakir-hamdan-tribe|Shakir]] y Tiyam (como está impreso, probablemente Yam), dándoles parte de la propiedad de los pobres {cite:sira-hadi-ila-al-haqq p.229}. Cuando [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Muhammad ibn Ubaydallah]] vio esto, envió a su hijo Ali ibn Muhammad al fuerte con su hermano al-Qasim ibn Muhammad y les dijo que llamaran a Shakir y Thaqif y que se enfrentaran a Minas y a los que estaban allí para que la reunión de Banu al-Harith se dividiera; Así lo hicieron, y Shakir, Thaqif y Wadi'a se quedaron con ellos y entraron con ellos a la aldea de al-Hajar para ver a Muhammad ibn Ubaydallah {cite:sira-hadi-ila-al-haqq p.230}. Los acontecimientos prosiguen en [[event/banu-al-harith-besiege-muhammad-ibn-ubaydallah-at-al-hajar-288]]. El texto fecha este Ramadán únicamente en el año 288 que se menciona en el siguiente relato.

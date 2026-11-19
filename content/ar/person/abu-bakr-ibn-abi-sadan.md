@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b15, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/377" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b15, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/377" }
 ---
 ## موجز
 أبو بكر أحمد بن محمد بن أبي سعدان، بغدادي الأصل. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة 650)⁩ ضمن العارفين الذين قال إنه أدرك أيامهم. يصفه بأنه صاحب لسان وبيان، وأحد الأعلام في علوم الشرع، وأنه كان ينتحل مذهب [[person/al-shafii|الشافعي]]، وله كلام بيّن في علم أهل العمل والعبادة. ويذكر أنه أقام ب[[place/tarsus|طرسوس]] مدة، فبُعث رسولًا إلى الروم لكمال حاله وبيانه. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/377}

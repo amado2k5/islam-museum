@@ -1,11 +1,12 @@
 id: person/abu-talib-al-karkhi-muallim
 class: person
-label: { ar: "أبو طالب الكرخي المعلم", en: "Abu Talib al-Karkhi al-Mu'allim" }
+label: { ar: "أبو طالب الكرخي المعلم", en: "Abu Talib al-Karkhi al-Mu'allim", fr: "Abu Talib al-Karkhi al-Mu'allim" }
 names:
   - { value: "أبو طالب الكرخي مصاحب ابن الخل واسمه المبارك بن المبارك", kind: full }
 summary:
   ar: "أبو طالب الكرخي مصاحب ابن الخل واسمه المبارك بن المبارك، شيخ الشافعية بوقته في بغداد وصاحب الخط المنسوب ومؤدب أولاد الناصر لدين الله؛ درس بالنظامية بعد أبي الخير القزويني وتفقه به جماعة وحدث عن ابن الحصين، وكان رب علم وعمل ونسك وورع، وكان أبوه مغنياً فتشاغل الابن بضرب العود حتى شهدوا له أنه في طبقة معبد، ثم أنف من ذلك فجود الكتابة حتى زاد بعضهم وقال هو أكتب من ابن البواب، ثم اشتغل بالفقه فبلغ في العلم الغاية؛ توفي سنة خمس وثمانين وخمسمائة {cite:shadharat-dhahab p. 764}."
   en: "Abu Talib al-Karkhi, companion of Ibn al-Khallal, named al-Mubarak b. al-Mubarak; shaykh of the Shafi'is of Baghdad in his time, owner of the hand ascribed to him, tutor of the caliph al-Nasir's children; he taught at the Nizamiyya after Abu al-Khayr al-Qazwini, trained jurists, and transmitted from Ibn al-Husayn — a man of knowledge, works, devotion and scrupulosity. His father had been a singer, and the son mastered the oud till they ranked him with Ma'bad; then scorning that, he perfected calligraphy till some said he wrote better than Ibn al-Bawwab; then he turned to fiqh and reached the summit. He died in 585 {cite:shadharat-dhahab p. 764}."
+  fr: "Abu Talib al-Karkhi, compagnon d'Ibn al-Khallal, nommé al-Mubarak b. al-Mubarak ; cheikh des chaféites de Bagdad à son époque, maître de l'écriture qui lui est attribuée et précepteur des enfants du calife al-Nasir. Il enseigna à la Nizamiyya après Abu al-Khayr al-Qazwini, forma des juristes et transmit d'Ibn al-Husayn ; homme de savoir, d'œuvres, de dévotion et de scrupule. Son père avait été chanteur, et le fils maîtrisa le oud au point d'être classé avec Ma'bad ; puis, dédaignant cela, il perfectionna la calligraphie, jusqu'à ce que certains le disent meilleur qu'Ibn al-Bawwab ; enfin, il se tourna vers le fiqh et en atteignit le sommet. Il mourut en 585 {cite:shadharat-dhahab p. 764}."
 gender: male
 wings: [people]
 roles: [scholar, calligrapher]
@@ -36,4 +37,4 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/shadharat-dhahab]
 relations:
-  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (الكرخي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name ⁦(الكرخي)⁩; denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

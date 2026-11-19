@@ -2,6 +2,7 @@
 // Loaded at build time only (never shipped to the client except through page payloads).
 import { readFileSync, readdirSync } from "node:fs";
 import { parse } from "yaml";
+import { parseLocalized } from "./i18n";
 import { repoPath } from "./paths";
 
 export interface DeckItem {
@@ -29,7 +30,7 @@ export function listDecks(): { slug: string; title: { ar: string; en: string; ur
   return readdirSync(dir())
     .filter((f) => f.endsWith(".yaml"))
     .map((f) => {
-      const raw = parse(readFileSync(`${dir()}/${f}`, "utf8")) as DeckFile;
+      const raw = parseLocalized(readFileSync(`${dir()}/${f}`, "utf8")) as DeckFile;
       return { slug: raw.slug, title: raw.title, count: raw.items.length, kids: raw.kids === true };
     })
     .sort((a, b) => a.slug.localeCompare(b.slug));
@@ -39,7 +40,7 @@ const cache = new Map<string, DeckFile>();
 export function loadDeck(slug: string): DeckFile {
   const hit = cache.get(slug);
   if (hit) return hit;
-  const raw = parse(readFileSync(`${dir()}/${slug}.yaml`, "utf8")) as DeckFile;
+  const raw = parseLocalized(readFileSync(`${dir()}/${slug}.yaml`, "utf8")) as DeckFile;
   if (raw.slug !== slug) throw new Error(`cardlists: slug mismatch in ${slug}.yaml`);
   if (!raw.items?.length) throw new Error(`cardlists/${slug}: empty deck`);
   cache.set(slug, raw);

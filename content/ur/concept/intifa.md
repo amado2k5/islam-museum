@@ -13,7 +13,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 - جائز: مباح اشیاء اور عقد یا اجازت سے ملک کا انتفاع۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3439}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3440}
 
 ## اسباب
-اباحت، اضطرار، اور عقد (اجارہ، عاریت، وصیتِ منفعت، وقف)۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3440}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3441}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3443}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3444}
+اباحت، اضطرار، اور عقد ⁦(اجارہ، عاریت، وصیتِ منفعت، وقف)⁩۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3440}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3441}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3443}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3444}
 
 ## احکام خاصہ
 - رد: عاریت میں مالک کے طلب کرنے پر واپسی واجب ہے؛ اجارہ کی مدت ختم ہونے پر مستأجر کو واپس کرنا لازم نہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3450}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3451}

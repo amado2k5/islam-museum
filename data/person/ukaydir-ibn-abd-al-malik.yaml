@@ -11,7 +11,7 @@ wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 faith:
-  - { value: christian, basis: tradition, sources: [source/ibn-hisham-saqqa], note: "نصراني بحسب ابن إسحاق (ص169)" }
+  - { value: christian, basis: tradition, sources: [source/ibn-hisham-saqqa], note: "نصراني بحسب ابن إسحاق ⁦(ص169)⁩" }
 died: { edtf: "634", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: participated_in, target: event/khalid-expedition-to-ukaydir, role: target, sources: [source/ibn-hisham-saqqa] }

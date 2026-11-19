@@ -1,0 +1,15 @@
+---
+id: concept/al-qula-wa-al-quruh-al-khabitha
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/al-qula-wa-al-quruh-al-khabitha.md}
+---
+## Qué es y sus causas
+La candidiasis es una úlcera que se forma en la piel de la boca y la lengua con la expansión y ensanchamiento; ocurre mucho en niños — la mayor parte de lo que ocurre en ellos ocurre con la mala leche o su mala digestión en el estómago. Puede provenir de cualquier humor: el blanco principalmente de la flema salada, el amarillo bilioso y el más inflamado de todos, el negro melancólico — el peor de todos — y el rojo brillante sanguíneo {cite:canon-ibn-sina-print-v2 p.262}
+## Sus tipos y el hábito de nombre de Galen
+Algunas de sus especies corroen mucho y otras están contenidas; puede venir acompañada de un tumor o de forma sola. Cada úlcera que aparece en la superficie de la boca se apresura a propagarse, por el calor inseparable inherente y su piel húmeda y suave. La costumbre de Galeno es llamarla muedal mientras permanece en la superficie; cuando se pudre y se hunde, no lo llama candidias, sino úlceras malignas — las que requieren fármacos cáusticos (un hábito atribuido a Galeno). El zordiz se vuelve común cuando las lluvias son numerosas y en las fiebres epidémicas {cite:canon-ibn-sina-print-v2 p.262}
+## El tratamiento
+El humor dominante que produce el candido se dirige primero a evacuar de todo el cuerpo si es dominante, luego a la vena en la vecindad de la boca de este tipo (el sitio de venesección que lleva el nombre del libro), siendo su sangrado útil en todas las enfermedades calientes de la boca. Luego se utilizan los medicamentos pústulas llamados — el de fuerte importancia, mucho húmedo y supurante, tratado por los fuertes, el moderado por el moderado, el débil por los débiles; si la llaga casi llega al hueso, se necesitan los muy fuertes de este tipo, y deben evitarse todos los aceites, incluso el aceite de oliva {cite:canon-ibn-sina-print-v2 p.262}
+## Régimen de tipos y edades
+Los medicamentos se eligen de las pústulas frías y calientes mencionadas en el primer capítulo; para el rojo sanguíneo, los fármacos más aptos presentan al principio ligera adstringencia y refrijante, luego los disolutores; para lo que tiende a la lividez y al amarilleo, el enfriamiento del fármaco se incrementa; el resto necesita primero lo que seca y pule moderadamente al principio, luego lo que seca y se disuelve con fuerza — la edad se tiene en cuenta en todos ellos. Los medicamentos infantiles deben ser más débiles y su leche rectificada; los adultos más fuertes; los niños pueden beneficiarse únicamente de los alimentos, y si aún no comen, se les alimenta a la nodriza; el frío, el adstringente y el disoluto se usan para ello por su especie, de este tipo (los nombres, recetas y ungüentos omitidos) {cite:canon-ibn-sina-print-v2 p.262} {cite:canon-ibn-sina-print-v2 p.263}

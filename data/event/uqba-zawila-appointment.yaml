@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [maghreb]
 date:
-  start: { hijri: "0022~", precision: year, status: tradition, derived: true, note: "بعد صلح برقة وقبل أطرابلس (البلاذري ص 315). التحويل مشتق." }
+  start: { hijri: "0022~", precision: year, status: tradition, derived: true, note: "بعد صلح برقة وقبل أطرابلس ⁦(البلاذري ص 315)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/zawila }
   - { type: occurred_at, target: place/barqa }
@@ -17,7 +17,7 @@ relations:
   - { type: had_participant, target: person/amr-ibn-al-as, role: "الموجّه والكاتب لعمر", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 315"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 315"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-20
 sides:

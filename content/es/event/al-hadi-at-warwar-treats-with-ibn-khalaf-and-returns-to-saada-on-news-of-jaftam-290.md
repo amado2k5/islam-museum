@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-at-warwar-treats-with-ibn-khalaf-and-returns-to-saada-on-news-of-jaftam-290
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/al-hadi-at-warwar-treats-with-ibn-khalaf-and-returns-to-saada-on-news-of-jaftam-290.md}
+---
+## Visión general
+[[person/al-hadi-yahya-al-rassi|Al-Hadi]] regresó hasta llegar a [[place/warwar-yemen|Warwar]], donde le llegaban noticias constantemente, y se quedó allí. Envió un mensaje a Hamdan instándolos a marchar y los convenció de hacerlo, pero eran lentos. Entonces escribió a Al-Ja'fari pidiéndole ayuda económica para ayudarlo contra los hombres, pero este se contuvo {cite:sira-hadi-ila-al-haqq p.250}. Permaneció en Warwar mientras [[person/al-daam-ibn-ibrahim|Al-Da'am]] escribía a [[person/ibrahim-ibn-khalaf-ibn-tarif|Ibn Khalaf]] sobre la paz y la liberación de los que estaban en su poder, conociendo razones para ello que el narrador no menciona {cite:sira-hadi-ila-al-haqq p.250}.
+
+## Detalle
+El narrador menciona entonces la llegada de Jaftam desde Irak, y al-Hadi temió por los miembros de su familia que lo seguían; hubo un intercambio de palabras entre él e Ibn Khalaf sobre los términos de que al-Hadi abandonaría Warwar y, cuando llegara a Sa'da, Ibn Khalaf liberaría a su hijo y compañeros, tomando su pacto y juramento por ello, pero él no estuvo de acuerdo. Al-Hadi permaneció en Warwar algún tiempo llamando a la gente a unirse contra Ibn Khalaf y pidiendo su ayuda, pero no respondieron; mientras tanto le llegó una carta que decía que un comandante de los Banu al-Abbas llamado Jaftam había llegado a La Meca, y temió por los que lo seguían y fue a [[place/saada|Sa'da]], donde permaneció unos días {cite:sira-hadi-ila-al-haqq p.250}. El texto no nombra al sujeto de "no estuvo de acuerdo con eso" y el museo lo interpreta como Ibn Khalaf por el contexto. El libro no dice nada más de Jaftam aquí; El museo no vincula el registro existente de Jaftam, ya que el libro no dice que sea el mismo hombre. Antes de esto está [[event/abu-al-qasim-ibn-al-hadi-is-taken-and-led-through-sanaa-290|la captura de Abu al-Qasim]] ; después, [[event/al-hadi-marches-on-amlah-after-the-eid-and-wail-seeks-safety-290|la marcha sobre Amlah]].

@@ -10,7 +10,7 @@ wings: [time]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0772~", hijri: "0155", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 155 (البلاذري ص 247). التحويل مشتق." }
+  start: { edtf: "0772~", hijri: "0155", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 155 ⁦(البلاذري ص 247)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/raqqa }
   - { type: had_participant, target: person/al-mansur, role: "الباني على بناء مدينة السلام", sources: [source/futuh-buldan-maarif-1407] }
@@ -20,7 +20,7 @@ relations:
   - { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 247"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 247"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-14
 sources: [source/futuh-buldan-maarif-1407]

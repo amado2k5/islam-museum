@@ -9,7 +9,7 @@ translators: []
 
 ## خلاصہ
 
-ابراہیم بن الاخضر القیم (پیدائش 1364ھ/1944ء) [[place/medina|مدینہ منورہ]] کے سعودی قاری اور امام ہیں، جنھوں نے [[building/masjid-al-haram|مسجد حرام]] اور پھر [[building/prophets-mosque|مسجد نبوی]] میں امامت کی، اور [[listing/islamic-university-madinah|اسلامی یونیورسٹی مدینہ]] میں قراءات پڑھائیں، جہاں ملک کے اندر اور باہر سے بہت سے طلبہ نے ان سے پڑھا۔ {cite:wikipedia-ibrahim-al-akhdar-ar} {cite:wikidata-ibrahim-al-akhdar}
+ابراہیم بن الاخضر القیم ⁦(پیدائش 1364ھ/1944ء)⁩ [[place/medina|مدینہ منورہ]] کے سعودی قاری اور امام ہیں، جنھوں نے [[building/masjid-al-haram|مسجد حرام]] اور پھر [[building/prophets-mosque|مسجد نبوی]] میں امامت کی، اور [[listing/islamic-university-madinah|اسلامی یونیورسٹی مدینہ]] میں قراءات پڑھائیں، جہاں ملک کے اندر اور باہر سے بہت سے طلبہ نے ان سے پڑھا۔ {cite:wikipedia-ibrahim-al-akhdar-ar} {cite:wikidata-ibrahim-al-akhdar}
 
 ## ابتدائی زندگی اور تعلیم
 

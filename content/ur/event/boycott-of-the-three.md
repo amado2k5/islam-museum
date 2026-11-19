@@ -20,5 +20,5 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 [[event/kaab-and-abu-qatada-at-the-garden-wall|ابو قتادہ]]، [[event/ghassan-kings-letter-to-kaab|غسان کے بادشاہ کا خط]]، [[event/order-to-the-three-to-separate-from-their-wives|بیویوں سے علیحدگی کا حکم]]، اور اختتام [[event/repentance-of-the-three-accepted|توبہ کی قبولیت]] پر ہوتا ہے۔
 
 ## مصدر اور روایت کے بارے میں نوٹ
-- «پچاس راتیں» راوی کا شمار ہے، اور اس میں سے چالیس راتوں کے بعد دس راتیں شمار کی جاتی ہیں (ص179)۔
+- «پچاس راتیں» راوی کا شمار ہے، اور اس میں سے چالیس راتوں کے بعد دس راتیں شمار کی جاتی ہیں ⁦(ص179)⁩۔
 - متن مرارہ اور ہلال کے حال میں تبدیلی کی کوئی خاص مدت نہیں بتاتا، سوائے اس کے کہ وہ «اپنے گھروں میں دبک کر بیٹھ گئے»۔

@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b55, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/139-140" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b55, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/139-140" }
 ---
 ## موجز
 الحسن بن أبي جعفر الحفري، المتعبد المقرئ، أيّد في الدؤوب والاجتهاد، وأمدّ عوانس مؤمني الجن من العباد. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» في الصفحتين 139 و140، وقد طُبع رقم الترجمة «493» ويُرجَّح أنه 494 في التسلسل. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/139}

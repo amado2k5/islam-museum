@@ -35,7 +35,8 @@ interface ExhibitData {
 }
 
 interface TourData {
-  lang: "ar" | "en" | "ur";
+  lang: "ar" | "en" | "ur" | "fr";
+  dir: "ltr" | "rtl";
   t: Record<string, string>;
   journeys: JourneyView[];
   exhibits: ExhibitData[];
@@ -1182,7 +1183,7 @@ function init(
       g.fillStyle = P.plaqueFg;
       g.textAlign = "center";
       g.textBaseline = "middle";
-      g.direction = lang === "en" ? "ltr" : "rtl";
+      g.direction = data.dir;
       g.fillText(text, w / 2, h / 2 + px * 0.08);
     }, roomRepaints);
   }

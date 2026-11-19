@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-[[person/abd-al-malik-ibn-marwan|عبدالملک بن مروان]] نے [[person/amr-ibn-said-ibn-al-as|عمرو بن سعید بن العاص]] (الاشدق) کو قتل کیا، جنہیں مروان بن الحکم نے اپنے بیٹے کے بعد ولی عہد بنایا تھا۔ {cite:tarikh-khulafa-minhaj-1434 p.359}
+[[person/abd-al-malik-ibn-marwan|عبدالملک بن مروان]] نے [[person/amr-ibn-said-ibn-al-as|عمرو بن سعید بن العاص]] ⁦(الاشدق)⁩ کو قتل کیا، جنہیں مروان بن الحکم نے اپنے بیٹے کے بعد ولی عہد بنایا تھا۔ {cite:tarikh-khulafa-minhaj-1434 p.359}
 
 ## سیوطی کا بیان
 سیوطی ابن الکلبی کے حوالے سے نقل کرتے ہیں کہ عمرو کا قتل اسلام میں پہلی بدعہدی تھی۔ {cite:tarikh-khulafa-minhaj-1434 p.359}

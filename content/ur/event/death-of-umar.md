@@ -20,7 +20,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 شیخ بیان کرتے ہیں کہ ابو لؤلؤہ، جو ایک فارسی شخص تھے، عمر سے اس روزانہ ٹیکس کی شکایت کرنے آئے جو ان کا مالک ان سے لیتا تھا اور جو انہوں نے سات درہم بتایا (needs_source)۔ عمر نے ان کا پیشہ پوچھا تو انہوں نے کہا کہ وہ بڑھئی، لوہار اور سنگ تراش ہیں، اور عمر نے کہا کہ جو ان سے لیا جاتا ہے وہ زیادہ نہیں {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:43:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:43:30}۔
 
-وہ بتاتے ہیں کہ عمر کو خبر ملی کہ ابو لؤلؤہ ہوا سے چلنے والی چکی بنا رہے ہیں، پھر یہ خبر ملی کہ انہوں نے دھمکی دی ہے کہ ایسی چکی بنائیں گے جس کا پوری دنیا میں چرچا ہوگا؛ عمر نے اس دھمکی کو سنجیدگی سے لیا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:44:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:44:30}۔ وہ یاد کرتے ہیں کہ ابو لؤلؤہ قادسیہ کے دنوں میں فارسی قیدیوں کے پاس سے گزرتے تھے (کچھ حصہ واضح نہیں) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:44:30}۔
+وہ بتاتے ہیں کہ عمر کو خبر ملی کہ ابو لؤلؤہ ہوا سے چلنے والی چکی بنا رہے ہیں، پھر یہ خبر ملی کہ انہوں نے دھمکی دی ہے کہ ایسی چکی بنائیں گے جس کا پوری دنیا میں چرچا ہوگا؛ عمر نے اس دھمکی کو سنجیدگی سے لیا {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:44:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:44:30}۔ وہ یاد کرتے ہیں کہ ابو لؤلؤہ قادسیہ کے دنوں میں فارسی قیدیوں کے پاس سے گزرتے تھے ⁦(کچھ حصہ واضح نہیں)⁩ {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:44:30}۔
 
 وہ عمر کا ایک خواب بیان کرتے ہیں جس میں کسی نے انہیں تین بار ٹھونگا مارا، پھر فجر کی نماز میں صفیں درست کرتے ہوئے ایک غیر عرب لڑکے نے ان پر تین وار کیے {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:45:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:45:30}۔
 

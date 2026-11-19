@@ -16,7 +16,7 @@ born: { edtf: "1359-05~", hijri: "0760-05", calendar: julian, precision: month, 
 died: { edtf: "1439-03-16~", hijri: "0842-09-12", calendar: julian, precision: day, status: tradition, derived: true, note: "مات بالقولنج ثاني عشر رمضان 842 بالقاهرة {cite:shadharat-dhahab p. 246}", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 842)، قراءة آبل فيجن"
+  source: "شذرات الذهب — ابن العماد ⁦(ط مكتبة المثنى 1351، ج7، سنة 842)⁩، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch80
@@ -31,4 +31,4 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/shadharat-dhahab]
 relations:
-  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name ⁦(البغدادي)⁩; denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

@@ -1,0 +1,12 @@
+---
+id: event/the-people-wonder-at-al-hadis-steadfastness-and-his-prayer-in-battle-288
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/the-people-wonder-at-al-hadis-steadfastness-and-his-prayer-in-battle-288.md}
+---
+## Vue d'ensemble
+Ceci complète la phrase interrompue au bas de la page 225, dans [[event/al-hadi-enters-sanaa-a-second-time-after-leaving-shibam-288|le récit de la seconde entrée à Sanaa]] : l’homme d’Aqili, poignardé au ventre, mourut {cite:sira-hadi-ila-al-haqq p.226}. Le peuple s’étonnait de la ténacité d’ [[person/al-hadi-yahya-al-rassi|al-Hadi]] et de ses hommes, malgré leur faible nombre face à la nombreuse armée de cavaliers et de fantassins de leurs adversaires. Lorsque leur étonnement parvint à lui, il déclara, selon le narrateur, qu’il n’y avait pas lieu de s’étonner, car avec deux mille fantassins et cinq cents cavaliers de croyants inébranlables, il soumettrait la majeure partie du pays {cite:sira-hadi-ila-al-haqq p.226}. Il avait coutume de citer le [[passage/quran-2-249|verset 249 du Coran]], qui évoque le petit groupe qui, par la permission de Dieu, triomphe d’un grand, et de réciter un verset en mètre tawil signifiant que la patience ouvre les portes de l’épreuve {cite:sira-hadi-ila-al-haqq p.226}.
+
+## Détail
+Le narrateur récite sa prière au combat : il implore Dieu de lui inspirer la patience, d’accroître sa récompense et d’accepter son œuvre comme étant purement sienne. Il déclare ensuite que Dieu leur suffit. Après avoir tué un homme de sa propre main, il affirme qu’ils ont combattu ces hommes pour l’amour de Dieu, à cause de leur rejet de Son Livre et suite à l’appel à la vérité, et il demande à Dieu de trancher entre eux {cite:sira-hadi-ila-al-haqq p.226}. La marge du manuscrit porte une en-tête pour chacun des deux passages ; il s’agit d’une note du copiste indiquant que les paroles et la prière sont attribuées à al-Hadi par le narrateur. Le musée décrit ces propos sans porter de jugement et ne les reproduit pas, notamment l’incrédulité exprimée par le narrateur à l’égard des adversaires d’al-Hadi. Al-Hadi revient ensuite de sa poursuite et entre à Sanaa un vendredi de l’an 288 de l’Hégire, où il séjourne {cite:sira-hadi-ila-al-haqq p.226}.
