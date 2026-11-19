@@ -1,0 +1,30 @@
+---
+id: question/shath-abu-yazid
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/question/shath-abu-yazid.md}
+---
+## Visión general
+Se informan dichos de [[person/bayazid-al-bistami|Abu Yazid al-Bistami]] que dicen que habló en estados que los sufíes llaman shath (expresión extática), siendo el más conocido «Gloria a mí, gloria a mí, cuán grande es mi estado». {cite:talbis-iblis-muniriyya-1928 p. 347} Los estudiosos discrepaban sobre si son auténticos, qué significan y cómo debe ser juzgado a su hablante. Esta tarjeta expone las opiniones tal y como las reportan sus fuentes, empezando por los eruditos suníes de la escuela Hanbali y luego las opiniones sufíes, cada una nombrada, sin decidir entre ellas.
+
+## El informe
+[[person/ibn-al-jawzi|Ibn al-Jawzi]], en [[work/talbis-iblis|Talbis Iblis]], relata con su cadena de Tayfur el Joven, de su tío, el siervo de Abu Yazid, que le oyó decir "Gloria a mí, gloria a mí, qué grande es mi estado", y luego: "Basta para mí, basta." {cite:talbis-iblis-muniriyya-1928 p. 347} En la sección sobre dichos y afirmaciones extáticas luego da otros dichos atribuidos a él con cadenas a través de al-Sahlaki, Abu Nu'aym y otros, entre ellos que mientras rodeaba la Ka'ba vio a la Casa rodeándole, que él era la Tableta Preservada y que era "los siete" de los Sustitutos (abdal). {cite:talbis-iblis-muniriyya-1928 p. 348} {cite:talbis-iblis-muniriyya-1928 p. 349}
+
+## La visión de Ibn 'Aqil (Hanbali)
+Antes del informe «Gloria a mí», Ibn al-Jawzi cita [[person/ibn-aqil|a Ibn ']] Aqil sobre la historia que Abu Yazid dijo sobre el Fuego de que si lo veía lo apagaría con el borde de su túnica remendada: quien diga esto, «quienquiera que sea, es un hereje que debe ser asesinado», porque tomar a la ligera algo es fruto de negarlo. {cite:talbis-iblis-muniriyya-1928 p. 347} En la misma página, esto está precedido por el relato de Ibn al-Jawzi sobre el temor al Fuego mostrado por ángeles, profetas y Compañeros, en respuesta a un pretendiente que lo tomó a la ligera. {cite:talbis-iblis-muniriyya-1928 p. 347}
+
+## La vista de Ibn al-Jawzi (Hanbali)
+Ibn al-Jawzi comenta sobre el informe «Gloria a mí»: si es auténtico, quizá el narrador no lo entendió, pues Abu Yazid pudo haber mencionado la glorificación de Dios de sí mismo y lo dijo como una cita de Dios, no de sí mismo. {cite:talbis-iblis-muniriyya-1928 p. 347} Señala que al-Junayd lo interpretó de alguna manera, y que a menos que esa interpretación vuelva a esta "no es nada"; tras relatar la interpretación de al-Junayd la llama "entre las fábulas". {cite:talbis-iblis-muniriyya-1928 p. 347} {cite:talbis-iblis-muniriyya-1928 p. 348} De las otras afirmaciones que ha relatado dice: "En cuanto a las afirmaciones citadas arriba, su fealdad no se oculta", y responde a otra frase atribuida a él sobre el castigo del Fuego por tres motivos. {cite:talbis-iblis-muniriyya-1928 p. 350}
+
+## Interpretación de Al-Junayd (una visión sufí)
+Ibn al-Jawzi relata en Ja'far al-Khuldi que [[person/al-junayd-ibn-muhammad|a al-Junayd]] le dijeron que Abu Yazid dice: «Gloria a mí, gloria a mí», y al-Junayd dijo que el hombre estaba absorto en presenciar la majestad y habló de lo que le absorbía; Dios le hizo inconsciente de verse a sí mismo, así que solo fue testigo de Dios y le describió. {cite:talbis-iblis-muniriyya-1928 p. 348}
+
+## La visión de al-Sarraj (una visión sufí)
+En [[work/kitab-al-luma-fi-al-tasawwuf|al-Luma']], [[person/abu-nasr-al-sarraj|Abu Nasr al-Sarraj]] ofrece un capítulo explicando frases reportadas por Abu Yazid para las que Ibn Salim en Basora solía declararle incrédulo. {cite:luma-sarraj-jadir-dar-al-fath p. 525} Oyó a Ibn Salim decir en su círculo que el faraón nunca dijo lo que dijo Abu Yazid: el faraón pronunció su palabra registrada en [[passage/quran-79-24|Surat al-Nazi'at]], y «señor» es un nombre dado a las criaturas, como en «señor de la casa», mientras que subhan es un nombre que no puede darse a nadie más que a Dios. {cite:luma-sarraj-jadir-dar-al-fath p. 525} Al-Sarraj le preguntó si estaba establecido para él que la creencia de Abu Yazid era como la del faraón: si no podía testificar lo que Abu Yazid creía, entonces declararle incrédulo fracasa, ya que las palabras podrían haber tenido un preámbulo en el que citaba a Dios, igual que si escucháramos a un hombre recitar el versículo de [[passage/quran-21-25|Surat al-Anbiya]], no dudaríamos de que estaba recitando el Corán. {cite:luma-sarraj-jadir-dar-al-fath p. 525}
+
+Al-Sarraj añade que fue a Bistam y preguntó a miembros de la familia de Abu Yazid sobre la historia, y ellos la negaron, diciendo: "No sabemos nada de eso"; si no se hubiera difundido entre la gente y escrita en libros, ni siquiera se habría molestado en mencionarlo. {cite:luma-sarraj-jadir-dar-al-fath p. 526} Dice que Ibn Salim, pese a su posición, fue demasiado lejos al atacar a Abu Yazid, declarándolo también incrédulo por decir "Levanté mi tienda frente al Trono", y que le respondió que los eruditos de su región buscan bendición en la tumba de Abu Yazid y lo consideran entre los mayores devotos y ascetas, así que ¿cómo podría creerse la incredulidad de él en un informe cuya intención es desconocida? {cite:luma-sarraj-jadir-dar-al-fath p. 526}
+
+## Cómo se conectan las dos cuentas
+Ibn al-Jawzi cita el mismo debate entre al-Sarraj e Ibn Salim, con su cadena de 'Abd Allah ibn 'Ali al-Sarraj, incluyendo la posibilidad de citar a Dios y la negación por parte del pueblo de Bistam. {cite:talbis-iblis-muniriyya-1928 p. 348} La posibilidad que Ibn al-Jawzi acepta para «Gloria a mí» se acerca por tanto a la respuesta de al-Sarraj; difieren en su juicio sobre otras afirmaciones de Abu Yazid y sobre la interpretación de al-Junayd. {cite:talbis-iblis-muniriyya-1928 p. 347} {cite:talbis-iblis-muniriyya-1928 p. 348}
