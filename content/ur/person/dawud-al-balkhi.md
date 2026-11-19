@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b15, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/44-45" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b15, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/44-45" }
 ---
 ## خلاصہ
 داود بلخی مشرق کے ابتدائی مشائخ میں سے ہیں۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» میں ان کا نام ⁦(ترجمہ نمبر 461)⁩ [[person/ibn-adham-ibrahim|ابراہیم بن ادہم]]، [[person/shaqiq-al-balkhi|شقیق بلخی]] اور حاتم اصم کے ساتھ لیا ہے۔ وہ کہتے ہیں کہ باقی کا ذکر پہلے ہو چکا۔ داود ان کی طرح مشہور نہ ہوئے۔ ابو نعیم کو ان کے بارے میں صرف ایک حکایت ملی۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/44}

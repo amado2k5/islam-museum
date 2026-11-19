@@ -1,0 +1,13 @@
+---
+id: concept/ihya-bayt-al-haram
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/ihya-bayt-al-haram.md}
+---
+## Definición
+Ihya' de la Casa Sagrada. La palabra ihya' significa dar vida a algo; para los juristas, revivir la Casa de Dios significa mantenerla habitada por el hajj, y algunos incluyen la umra, comparando un lugar lleno con un ser vivo y uno descuidado con un ser muerto. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1879}
+Regla general. Los malikíes, shafiíes y hanbalíes sostienen que revivir la Casa Sagrada mediante el hajj es un deber colectivo (fard kifaya) anual para los musulmanes, lo cual no contradice el hecho de que sea un deber personal que se realiza una sola vez en la vida para quien pueda hacerlo. La cuestión es que cuando ningún grupo de musulmanes realiza el hajj, obligatorio o voluntario, mediante el cual el rito se hace visible cada año, todos pecan, puesto que el propósito principal de la construcción de la Kaaba es el hajj, y por lo tanto, revivirla es a través del hajj. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1880}
+Se dice que Ibn Abbas afirmó: «Si la gente dejara de visitar esta Casa durante un año, no recibirían lluvia». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1880} La Umrah también se encuentra en esta misma situación para los shafiíes y una opinión malikí. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1880} Las circunvalaciones, los retiros espirituales, la oración y otras prácticas similares no la sustituyen, aunque son obligatorias en la Mezquita Sagrada como deber colectivo, puesto que el honor y la revitalización del lugar se logran a través de ellas. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1880}
+Aplicando esto, los malikíes sostienen que el gobernante de los musulmanes debe enviar un grupo cada año para celebrar la festividad; si no hay gobernante, la comunidad musulmana debe hacerlo. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1880} El autor no encontró ningún texto hanafí al respecto. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1880}
+Donde se trata el tema. Los juristas discutieron el dictamen sobre la reactivación de la Casa Sagrada al comienzo del libro de la yihad, debido a la obligación colectiva, y algunos lo ubicaron al comienzo del libro del hajj; el Imam al-Zarkashi dedicó una obra al derecho de las mezquitas, "Ilam al-Sajid bi-Ahkam al-Masajid". {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1881}

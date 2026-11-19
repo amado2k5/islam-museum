@@ -1,0 +1,13 @@
+---
+id: concept/al-raaf
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/al-raaf.md}
+---
+## Sus causas, y distinguir la arterial de la venosa
+El sangrado nasal puede venir en gotas o en torrente violento, debido a una fuerte dominación de sangre alta; el estallido puede provenir de la red de vasos y arterias cerebrales, que en su mayoría no acepta tratamiento. La mayor parte de ello se debe a la aparición de dolores de cabeza, inflamación y enfermedad, y puede deberse a vapores calientes que se elevan. Lo que proviene de las arterias se distingue de lo que sale de las venas por su delgadez, enrojecimiento y calor; puede volver en episodios periódicos o regresar de golpe {cite:canon-ibn-sina-print-v2 p.236} {cite:canon-ibn-sina-print-v2 p.237}
+## Su beneficio, daño y señales
+El flujo de sangrado nasal está entre los estados que benefician y perjudican: quien encuentra claridad en la cabeza y un color que se asiente del enrojecimiento después de haberse beneficiado — especialmente en las enfermedades sanguíneas y biliosas del cerebro, luego del hígado, luego del diafragma, luego del pulmón; su beneficio en la pleuritis supera al beneficio en la neumonía. El sangrado nasal es una crisis frecuente en muchas enfermedades agudas, sobre todo la viruela y el sarampión. Pero si se excede y va seguido de un añuntamiento poco habitual, un tono plomo o un apagado, con negrura, que se desgasta más allá de toda regla y extremidades frías, entonces incluso si se detiene, se teme su resultado. Cuyo color se vuelve amarillo, la bilis amarilla lo domina y el daño por la sangre perdida es menor; que se vuelve plomo, predomina la flema; cuyo dolor se vuelve oscuro, predomina la bilis negra — estas dos perjudican gravemente la sangre perdida. Todos los que sangran en exceso corren el riesgo de debilidad hepática, hidropesía y similares. El cuerpo más propenso a la hemorragia nasal es el bilioso de sangre fina, que se beneficia de la hemorragia moderada {cite:canon-ibn-sina-print-v2 p.237}
+## Los premonitios
+El sangrado nasal tiene presagios: destellos que brillan ante los ojos y líneas blancas, amarillas y rojas, especialmente tras un dolor de cabeza, junto con todo lo detallado en el que hablamos de las enfermedades agudas y sus crisis; a partir del sangrado nasal y sus estados pueden inferirse los estados y días de crisis de las enfermedades agudas, tal como se exponen en su propio lugar {cite:canon-ibn-sina-print-v2 p.237}

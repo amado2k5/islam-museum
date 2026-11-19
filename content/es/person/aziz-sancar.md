@@ -1,0 +1,38 @@
+---
+id: person/aziz-sancar
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/aziz-sancar.md}
+---
+## Resumen
+Aziz Sancar es un bioquímico turco-estadounidense, nacido el 8 de septiembre de 1946 en el distrito de Saur, en la provincia de Mardin, en el sureste de Turquía. Formado como médico, dedicó su carrera a cómo las células reparan el ADN dañado, esclareciendo los mecanismos de reparación de la excisión de nucleótidos en bacterias y posteriormente en humanos. En 2015 compartió el Premio Nobel de Química con Tomas Lindahl y Paul L. Modrich "por estudios mecanicistas de reparación del ADN", convirtiéndose en el segundo turco en ganar un Premio Nobel después de Orhan Pamuk. {cite:nobelprize-aziz-sancar-facts} {cite:wikipedia-aziz-sancar-en}
+
+## Infancia y educación
+Nació en Savur en una familia de clase media-baja, el séptimo de ocho hijos. Sus padres no tenían educación pero le daban la máxima importancia. Como dijo a un entrevistador de televisión, hablaba árabe con sus padres y turco con sus hermanos; su hermano mayor Kenan es general de brigada retirado, y su primo segundo Mithat Sancar es un político turco del HDP. Fue alumnado por profesores formados por los Institutos de las Aldeas y destacó en todas las materias; jugó de portero en el equipo de Savur y fue invitado a las pruebas para la selección sub-18 de Turquía, pero optó por estudiar en su lugar. Quería estudiar química, pero cinco compañeros le convencieron de entrar en medicina, y se graduó en la facultad de medicina de la Universidad de Estambul en 1969 con la máxima distinción. {cite:wikipedia-aziz-sancar-en}
+
+## Carrera científica
+Tras graduarse, trabajó como médico general en Savur durante aproximadamente un año y medio según el artículo en inglés (su relato autobiográfico del Nobel y otros perfiles indican unos dos años). Luego ganó una beca TÜBİTAK para la Universidad Johns Hopkins, llegando a poder hablar solo francés y aprendiendo inglés allí, y trabajó en el laboratorio de fotoreactivación de Claud Stan Rupert. Las dificultades sociales le obligaron a marcharse tras un año y medio y regresar a Savur como médico en 1973; luego escribió a Rupert, que se había trasladado a la Universidad de Texas en Dallas, donde hizo su doctorado en 1977 con una tesis sobre la enzima fotoreactivadora (ADN fotoliasa) de *E. coli*, tras clonar el gen de la fotoliasa en 1976. {cite:wikipedia-aziz-sancar-en}
+
+Sus tres solicitudes posdoctorales fueron rechazadas, y pasó cinco años como técnico de laboratorio en Yale en el laboratorio de W. Dean Rupp, donde trabajó en la reparación de la excisión de nucleótidos bacterianos: enzimas que cortaban la cadena dañada a ambos lados de una lesión, eliminando un fragmento de 12–13 nucleótidos. De las cincuenta solicitudes para un puesto docente, la Universidad de Carolina del Norte en Chapel Hill dio la única respuesta positiva; allí se convirtió en profesor Sarah Graham Kenan de Bioquímica y Biofísica y miembro del Centro Integral de Cáncer UNC Lineberger. En Chapel Hill continuó con la reparación de excisión humana; su trabajo con fotoliasi culminó en un artículo en PNAS que capturaba los radicales de la enzima, y en 2014 él y su equipo demostraron que los genes de Periodo y Criptocromo mantienen en ritmo los relojes internos de las células humanas. En 2005 fue elegido miembro turco de la Academia Nacional de Ciencias; es miembro de la Academia Americana de las Artes y las Ciencias (2004) y miembro honorario de la Academia de Ciencias de Turquía. {cite:wikipedia-aziz-sancar-en}
+
+## El Premio Nobel de Química
+Recibió en 2015 el premio "por estudios mecanicistas de reparación del ADN", compartido con Tomas Lindahl y Paul L. Modrich; su parte fue por los mecanismos de reparación de la excisión de nucleótidos, y la página de datos Nobel destaca su demostración de 1983 de que las proteínas de reparación bacteriana eliminan el ADN dañado por los rayos UV. El 19 de mayo de 2016 entregó su medalla y certificado Nobel original a Anıtkabir, el mausoleo de Atatürk, en una ceremonia presidencial, y donó una réplica a la Universidad de Estambul. {cite:nobelprize-aziz-sancar-facts} {cite:wikipedia-aziz-sancar-en}
+
+## Posiciones y críticas
+Esta sección debe interpretarse como un informe de las diferentes posturas adoptadas por las fuentes, no como el veredicto del museo sobre ellas.
+
+**El debate sobre la etnia:** Tras el premio, sus orígenes fueron cuestionados en las redes sociales. Su primo Mithat Sancar dice que la familia es árabe y que el árabe es su lengua materna; El propio Sancar dijo a la BBC: "Les dije que no hablo ni árabe ni kurdo y que soy turco... Soy turco, eso es todo" — aunque también ha dicho que hablaba árabe con sus padres. {cite:wikipedia-aziz-sancar-en}
+
+**Política juvenil:** El artículo en inglés informa que durante sus años en la Universidad de Estambul estuvo involucrado en los Lobos Grises, una organización ultranacionalista; El propio Sancar ha dicho que fue un «idealista» (ülkücü) en su juventud, pero no participó en sus actividades, y que apoya una forma moderada de pan-turquismo. En 2021 fue invitado de honor del Consejo Túrquico, donde habló sobre «Conocimiento y el despertar nacional del mundo túrquico». {cite:wikipedia-aziz-sancar-en}
+
+**Fe y ciencia:** El artículo en inglés lo describe como un musulmán practicante, citando su declaración de 2015: "Estoy orgulloso de ser musulmán, pero no puedo afirmar este hecho en muchas regiones de Estados Unidos debido a problemas continuos." También ha afirmado, en una entrevista de 2018, que la evolución es un hecho y no una cuestión de creencia. {cite:wikipedia-aziz-sancar-en}
+
+## Vida personal y premios
+En 1978 se casó con Gwen Boles Sancar, a quien conoció mientras ambos eran doctorandos en Dallas; ella también es profesora de bioquímica y biofísica en la UNC. Cofundaron la Fundación Aziz & Gwen Sancar y en 2008 compraron la Carolina Turkish House en Chapel Hill como centro cultural y alojamiento para estudiantes turcos. Posee la ciudadanía de Turquía, Estados Unidos y la República Turca de Chipre del Norte, siendo naturalizado por esta última en 2025. Entre sus premios figuran el Premio Presidencial al Joven Investigador (1984), el Premio Científico TÜBİTAK (1995 en el artículo en inglés y en la propia lista de TÜBİTAK; las fuentes turcas indican 1997), el Premio Vehbi Koç (2007) y la Orden de Embajador Cultural del Mundo Túrquico (2025). {cite:wikipedia-aziz-sancar-en} {cite:wikipedia-aziz-sancar-ar}
+
+## Referencias
+- Las fuentes definidas citadas anteriormente, registradas en `data/source/`.
+- No se registra ningún identificador Wikidata ni entidad fuente Wikidata para este registro: wikidata.org devolvió HTTP 403 al abrirse durante esta comprobación (24 de octubre de 2026), por lo que el número no fue adivinado; se añadirá una vez verificado directamente.
+- Las fuentes difieren en el año de su Premio de Ciencia TÜBİTAK — 1995 en la caja informativa del artículo en inglés y en la lista de TÜBİTAK, 1997 en la Wikipedia turca y en una página de la Universidad de Kyrenia; este artículo utiliza 1995 y registra la diferencia. También difieren en la duración de su práctica médica en Savur — 1,5 años en el artículo en inglés, unos dos años en su relato autobiográfico Nobel y otros perfiles; este artículo recoge ambos.
+- Las traducciones y ediciones posteriores de este artículo necesitan una revisión periódica con fechas de actualización claras.

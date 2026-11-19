@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/pre-islamic-arabia]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0542~", precision: year, status: tradition, note: "في ملك أنوشروان بن قباذ؛ والسد الأسبق من بناء أبيه قباذ (البلاذري ص 273–276)." }
+  start: { edtf: "0542~", precision: year, status: tradition, note: "في ملك أنوشروان بن قباذ؛ والسد الأسبق من بناء أبيه قباذ ⁦(البلاذري ص 273–276)⁩." }
 relations:
   - { type: occurred_at, target: place/bab-al-abwab }
   - { type: had_participant, target: person/khosrow-i-anushirvan, role: "باني السد والمدن والمهندس للخديعة", sources: [source/futuh-buldan-maarif-1407] }
@@ -17,7 +17,7 @@ relations:
   - { type: had_participant, target: group/siyasijiyya, role: "مساكين الحصون والقلاع", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 273–276"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 273–276"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-16
 sources: [source/futuh-buldan-maarif-1407]

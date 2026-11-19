@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-goes-out-to-tihama-and-camps-at-al-sharis-and-al-uyayn-292
+lang: es
+source_lang: en
+translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
+provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-es-2026-11-18, source: content/en/event/al-hadi-goes-out-to-tihama-and-camps-at-al-sharis-and-al-uyayn-292.md}
+---
+## Visión general
+Al-Hadi salió hacia Tihama con una gran fuerza de Banu al-Harith y Khawlan, y se detuvo en un lugar llamado al-Sharis, donde se le unieron muchos hombres de Hujur {cite:sira-hadi-ila-al-haqq p.296}. Luego, “avanzó hasta un lugar llamado al-Uyayn, donde se detuvo y permaneció allí durante algunos días” {cite:sira-hadi-ila-al-haqq p.296}.
+
+## Detalle
+Mientras permanecía allí, un mensajero de los Hakami llegó con cartas “solicitándole que se dirigiera a Tartar” {cite:sira-hadi-ila-al-haqq p.296}. El editor vocaliza los dos nombres, al-Sharis y al-Uyayn; la primera lectura OCR los identificó erróneamente como “al-Shurays” y “al-Muyayn”, y la corrección se realizó a partir de la imagen de la página. El libro no indica la ubicación de ninguno de estos lugares ni proporciona una fecha o mes específicos para esta partida, por lo que el museo lo sitúa después del asunto relacionado con los Hakami mencionado en la página 295 ([[event/the-hakami-letters-and-the-oaths-and-abu-al-qasim-sent-to-khaywan-292|las cartas, los juramentos y Abu al-Qasim enviados a Khaywan]]) y lo fecha en el año 292 H, únicamente con fines de ordenación; es posible que corresponda al final de ese año o al siguiente. Los Hakami se mencionan aquí sin especificar sus nombres; en la página 295 se mencionan dos Hakami, [[person/ibrahim-ibn-ali-al-hakami|Ibrahim ibn Ali al-Hakami]] y [[person/al-ghatrif-al-hakami|al-Ghatrif al-Hakami]], pero el texto no aclara a cuál de ellos se refiere. A continuación, se menciona [[event/al-hadi-at-tartar-returns-what-the-hakami-had-taken-from-the-people-292|la marcha hacia Tartar]]. El relato proviene de un libro Zaydi, escrito desde la perspectiva de los seguidores del imán; sus descripciones y sus juicios sobre los oponentes reflejan la opinión del narrador o del poeta, pero el museo no adopta ninguna de estas perspectivas ni emite ningún juicio.

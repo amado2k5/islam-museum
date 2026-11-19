@@ -15,6 +15,7 @@
 // Dates are compared as ranges (scripts/lib.ts dateRange), with a tolerance of one year for calendar conversion.
 import { readFileSync } from "node:fs";
 import { dateRange, p } from "../lib.js";
+import { readBigJson } from "../lib/graph-file.mjs";
 
 export interface Finding { key: string; detector: "A" | "B" | "C" | "D"; kind: string; records: string[]; evidence: string }
 const TOL = 1.0;
@@ -23,7 +24,7 @@ const ONE_WAY = new Set(["child_of", "successor_of", "part_of", "located_in", "c
 const HIERARCHY = ["child_of", "part_of", "located_in", "successor_of"];
 
 export function detect(graphFile = p(".cache", "graph.json")): { commit: string | null; findings: Finding[] } {
-  const g = JSON.parse(readFileSync(graphFile, "utf8"));
+  const g = readBigJson(graphFile);
   const byId = new Map<string, any>(g.nodes.map((n: any) => [n.id, n]));
   const out = new Map<string, Finding>();
   const add = (f: Finding) => { if (!out.has(f.key)) out.set(f.key, f); };

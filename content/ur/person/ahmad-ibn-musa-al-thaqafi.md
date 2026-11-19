@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b52, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/138" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b52, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/138" }
 ---
 ## خلاصہ
 احمد بن موسیٰ ثقفی شاعر اور ادیب تھے، پھر صابر اور دانا بن گئے۔ جس دنیا سے وہ پہلے دل لگائے ہوئے تھے، اس سے منہ موڑ کر آخرت کی طرف متوجہ ہوئے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 490)⁩ صفحہ 138 پر ان کا ترجمہ لکھا ہے۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/138}

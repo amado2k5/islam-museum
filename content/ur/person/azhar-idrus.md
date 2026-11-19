@@ -15,7 +15,7 @@ translators: []
 اپنی جوانی میں وہ مقامی میوزک بینڈ میں گٹار بجاتے تھے، 1985 میں موسیقی کے استاد رہے، اور اخبار «اوتوسان ملائیشیا» میں گرافک آرٹسٹ کے طور پر کام کیا؛ 1990 میں شادی کے بعد انہوں نے باٹک کے کام کے دوران دینی مطالعہ سنجیدگی سے شروع کیا۔ {cite:wikipedia-azhar-idrus-ms}
 
 ## کام اور کتابیں
-ان کے لیکچر مزاح اور نوجوانوں سے قربت کے لیے جانے جاتے ہیں۔ ان کی کتابوں میں سوال و جواب کا سلسلہ «Anda Bertanya Ustaz Azhar Idrus Menjawab» (2011، 2012)، «Ustaz Azhar Idrus Live!» (2013) اور «Tazkirah Senafas» (2015) شامل ہیں۔ {cite:wikipedia-azhar-idrus-ms}
+ان کے لیکچر مزاح اور نوجوانوں سے قربت کے لیے جانے جاتے ہیں۔ ان کی کتابوں میں سوال و جواب کا سلسلہ «Anda Bertanya Ustaz Azhar Idrus Menjawab» ⁦(2011، 2012)⁩، «Ustaz Azhar Idrus Live!» (2013) اور «Tazkirah Senafas» (2015) شامل ہیں۔ {cite:wikipedia-azhar-idrus-ms}
 
 ## المراجع
 - المصادر المعرّفة المستشهد بها أعلاه، وهي مسجلة في `data/source/`.

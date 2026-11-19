@@ -22,7 +22,7 @@ status:
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص187-201"
+  source: "موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج1 ص187-201"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch49
@@ -43,4 +43,4 @@ occupations:
     note: "merge-map link from role 'mathematician', Job Browser linking wave 35"
     sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2]
 relations:
-  - { type: lived_in, target: place/abhar, note: "Place association from the person's nisba/name (الأبهري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2], confidence: low }
+  - { type: lived_in, target: place/abhar, note: "Place association from the person's nisba/name ⁦(الأبهري)⁩; denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2], confidence: low }

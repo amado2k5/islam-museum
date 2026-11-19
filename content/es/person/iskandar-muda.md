@@ -1,0 +1,24 @@
+---
+id: person/iskandar-muda
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/iskandar-muda.md}
+---
+## Resumen
+Iskandar Muda (c. 1583 – 27 de diciembre de 1636) fue el duodécimo sultán de Aceh, bajo cuyo mando el sultanato alcanzó su mayor extensión territorial y dominó como la potencia más fuerte y el estado más rico del archipiélago occidental de Indonesia y del estrecho de Melaka. "Iskandar Muda" significa "joven Alejandro", y sus conquistas fueron a menudo comparadas con las de Alejandro Magno. {cite:wikipedia-iskandar-muda-en}
+
+## Primeros años
+Nació en Banda Aceh alrededor de 1583 — el artículo en inglés deriva el año de que tenía 32 años (musulmán) en 1613, mientras que el artículo indonesio muestra obras modernas usando 1583, 1588, 1590, 1591 y 1593. Su padre era Mansur Syah, hijo del sultán Abdul Jalil, hijo del tercer sultán Alauddin al-Qahhar; su madre, Puteri Raja Inderabangsa, era hija del décimo sultán, Alauddin Ri'ayat Syah Sayyid al-Mukammal, por lo que unificó las dos ramas de la dinastía. Conocido en su juventud como Perkasa Alam, rompió con su tío el sultán Ali Ri'ayat Syah III hacia 1605, fue encarcelado y luego liberado cuando los portugueses invadieron en 1606 y se distinguió en combates. Cuando el sultán Ali murió repentinamente el 4 de abril de 1607, Perkasa Alam aseguró el trono ese mismo día. {cite:wikipedia-iskandar-muda-en} {cite:wikipedia-iskandar-muda-id}
+
+## Conquistas
+Su fuerza reposaba en una armada de galeras pesadas, caballería a caballos persas, un cuerpo de elefantes, infantería reclutada y más de 2.000 cañones. Conquistó Deli (1612), Aru y Johor (1613), derrotó a una flota portuguesa en Bintan (1614), tomó Pahang (1617), Kedah (1619) y Perak (1620), y saqueó Johor de nuevo en 1623. En 1629 envió varios cientos de barcos contra Melaka en el mayor esfuerzo del sultanato; la misión fue un fracaso devastador — fuentes portuguesas afirman que todos sus barcos fueron destruidos con 19.000 hombres — y después lanzó solo dos expediciones más, en 1630/1 y 1634, para sofocar revueltas en Pahang y establecer firmemente el Islam allí. Aceh mantuvo el norte de Sumatra pero nunca alcanzó la supremacía en el estrecho. {cite:wikipedia-iskandar-muda-en}
+
+## Estado, economía y tribunal
+El comercio de pimienta era la base económica del sultanato, e Iskandar Muda era un gobernante centralizador: monopolizó el comercio exterior a través de la corte, rompió la independencia de la élite orang kaya, creó una nueva nobleza de líderes de guerra que controlaban distritos en régimen feudal, sustituyó a príncipes por funcionarios reales informantes, mantuvo una guardia palaciega de 3.000 mujeres y promulgó reformas legales que crearon una red de tribunales utilizando la jurisprudencia islámica — un sistema que se convirtió en modelo para otros estados islámicos de Indonesia. Su reinado también estuvo marcado por una severidad notoria, incluyendo castigos mutiladores reportados por un visitante francés de la década de 1620 y la ejecución de su propio príncipe heredero, Meurah Pupok, tras lo cual nombró a su yerno Iskandar Thani como sucesor. Aceh se convirtió en un centro de erudición islámica: favoreció la tradición sufí de Hamzah Pansuri y Syamsuddin de Pasai, que residían en su corte, y la crónica Hikayat Aceh, probablemente escrita durante su reinado, celebraba su juventud. {cite:wikipedia-iskandar-muda-en} {cite:wikipedia-iskandar-muda-id}
+
+## Muerte y legado
+Iskandar Muda murió en Banda Aceh el 27 de diciembre de 1636; el artículo indonesio empareja la fecha con el 29 de Rajab 1046 H en la cronología real. Fue el último sultán de Aceh descendiente directo en línea masculina del fundador Ali Mughayat Syah, y con él se extinguió la Casa fundacional de Meukuta Alam. Entre los acehenses es venerado como héroe y símbolo de la grandeza pasada de Aceh, recordado por el título póstumo Po Teuh Meureuhom. {cite:wikipedia-iskandar-muda-en} {cite:wikipedia-iskandar-muda-id} {cite:wikidata-iskandar-muda}
+
+## Religión
+Dos infoboxes nombran su sucursal —el artículo en inglés indica su religión como suní y la indonesia como islam suní— mientras que el valor religioso de Wikidata es simplemente el islam, y ninguna fuente leída para este registro menciona una escuela jurídica para él. Lo que documentan las fuentes es un reinado de notable realeza musulmana: tribunales aplicando jurisprudencia islámica, un tribunal que atrajo a eminentes eruditos islámicos a Aceh y campañas finales emprendidas en parte para establecer el islam en Pahang. {cite:wikipedia-iskandar-muda-en} {cite:wikipedia-iskandar-muda-id} {cite:wikidata-iskandar-muda}

@@ -7,7 +7,7 @@ translators: []
 
 ## خلاصہ
 
-خالد الحمیدان (پیدائش 1955) سعودی انٹیلیجنس افسر ہیں جو جنوری 2015 سے جنرل انٹیلیجنس ڈائریکٹوریٹ کے سربراہ ہیں {cite:wikipedia-khalid-bin-ali-al-humaidan-en} {cite:wikipedia-khalid-bin-ali-al-humaidan-ar}۔
+خالد الحمیدان ⁦(پیدائش 1955)⁩ سعودی انٹیلیجنس افسر ہیں جو جنوری 2015 سے جنرل انٹیلیجنس ڈائریکٹوریٹ کے سربراہ ہیں {cite:wikipedia-khalid-bin-ali-al-humaidan-en} {cite:wikipedia-khalid-bin-ali-al-humaidan-ar}۔
 
 ## زندگی اور کام
 

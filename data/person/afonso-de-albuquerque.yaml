@@ -18,12 +18,12 @@ periods: [period/gunpowder-empires]
 born: { edtf: "1453", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
 died: { edtf: "1515", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
 relations:
-  - { type: lived_in, target: place/portugal, note: "Place association from the person's nisba/name (البرتغالي); denotes association, not proven residence.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
+  - { type: lived_in, target: place/portugal, note: "Place association from the person's nisba/name ⁦(البرتغالي)⁩; denotes association, not proven residence.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: opposed, target: polity/safavid-iran, sources: [] }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research
-  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"
+  source: "الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   model: "SWE-2 Medium"
   run: lib-salabi-uthmani-batch-7

@@ -16,7 +16,7 @@ regions: [maghreb]
 died: { edtf: "1467~", hijri: "0871~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي في حدود 871 {cite:shadharat-dhahab p. 311}", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 871)، قراءة آبل فيجن"
+  source: "شذرات الذهب — ابن العماد ⁦(ط مكتبة المثنى 1351، ج7، سنة 871)⁩، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch89
@@ -25,4 +25,4 @@ status:
   review: published
   completeness: 3
 relations:
-  - { type: lived_in, target: place/tunis, note: "Place association from the person's nisba/name (التونسي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
+  - { type: lived_in, target: place/tunis, note: "Place association from the person's nisba/name ⁦(التونسي)⁩; denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

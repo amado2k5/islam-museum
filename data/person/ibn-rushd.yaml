@@ -15,8 +15,8 @@ roles: [philosopher, physician, jurist, qadi]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe, maghreb]
-born: { edtf: "1126", hijri: "0520", calendar: gregorian, precision: year, status: tradition, derived: true, note: "ولد بقرطبة سنة عشرين وخمسمائة قبل وفاة جده بأشهر، وقيل بشهر واحد (بداية المجتهد ط. بيت الأفكار ص9)؛ والزركلي يقول 1126م (الأعلام ص849)؛ التحويل مشتق", sources: [source/bidaya-bakri-bayt-al-afkar, source/bidaya-hallaq-v1, source/al-aalam] }
-died: { edtf: "1198", hijri: "0595", calendar: gregorian, precision: year, status: tradition, derived: true, note: "توفي سنة خمس وتسعين وخمسمائة (بداية المجتهد ط. بيت الأفكار ص13)؛ وبمراكش سنة 1198م ونقل جثمانه إلى قرطبة (الأعلام ص849)؛ التحويل مشتق", sources: [source/bidaya-bakri-bayt-al-afkar, source/al-aalam] }
+born: { edtf: "1126", hijri: "0520", calendar: gregorian, precision: year, status: tradition, derived: true, note: "ولد بقرطبة سنة عشرين وخمسمائة قبل وفاة جده بأشهر، وقيل بشهر واحد ⁦(بداية المجتهد ط. بيت الأفكار ص9)⁩؛ والزركلي يقول 1126م ⁦(الأعلام ص849)⁩؛ التحويل مشتق", sources: [source/bidaya-bakri-bayt-al-afkar, source/bidaya-hallaq-v1, source/al-aalam] }
+died: { edtf: "1198", hijri: "0595", calendar: gregorian, precision: year, status: tradition, derived: true, note: "توفي سنة خمس وتسعين وخمسمائة ⁦(بداية المجتهد ط. بيت الأفكار ص13)⁩؛ وبمراكش سنة 1198م ونقل جثمانه إلى قرطبة ⁦(الأعلام ص849)⁩؛ التحويل مشتق", sources: [source/bidaya-bakri-bayt-al-afkar, source/al-aalam] }
 relations:
   - { type: born_in, target: place/cordoba, sources: [source/bidaya-bakri-bayt-al-afkar, source/bidaya-hallaq-v1] }
   - { type: lived_in, target: place/cordoba, sources: [source/al-aalam] }
@@ -37,7 +37,7 @@ relations:
 sources: [source/al-aalam, source/min-al-falsafa-al-yunaniyya-azhar, source/britannica-averroes, source/bidaya-hallaq-v1, source/bidaya-bakri-bayt-al-afkar, source/encyclopaedia-of-islam-2, source/biblissima, source/wikidata, source/openiti-corpus]
 provenance:
   layer: own-research
-  source: "الأعلام لخير الدين الزركلي (ط2) — باب محمد، ص849"
+  source: "الأعلام لخير الدين الزركلي ⁦(ط2)⁩ — باب محمد، ص849"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   model: swe-2-high
   run: lib-alam-zirikli-1

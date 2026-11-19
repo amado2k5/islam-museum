@@ -66,7 +66,7 @@ const intStr = { type: "integer" };
 const enm = (v: string[]) => ({ enum: v });
 const localized3 = {
   type: "object", additionalProperties: false, required: ["ar", "en", "ur"],
-  properties: { ar: str, en: str, ur: str, fr: str },
+  properties: { ar: str, en: str, ur: str, fr: str, es: str },
 };
 const madeBlock = {
   type: "object", additionalProperties: false, required: ["by_muslims", "basis"],
@@ -182,7 +182,7 @@ const base = {
         flagged_for_kids: { type: "boolean" },
         did_you_know: { type: "object", additionalProperties: false,
           description: "One authored, sourced fact («هل تعلم؟») in the published languages; at most 40 words each, at least two cited sources (docs/delegation/education-master-plan.md §5 E3).",
-          properties: { ar: str, en: str, ur: str, fr: str, sources: { type: "array", minItems: 2, items: str } },
+          properties: { ar: str, en: str, ur: str, fr: str, es: str, sources: { type: "array", minItems: 2, items: str } },
           required: ["ar", "en", "ur", "sources"] },
         exclude: { type: "boolean" },
         provenance: { type: "object", additionalProperties: true, properties: { generated_by: str, model: str, run: str } },

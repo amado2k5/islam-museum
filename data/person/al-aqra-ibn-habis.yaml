@@ -3,7 +3,7 @@ class: person
 label: { en: "al-Aqra' ibn Habis al-Tamimi", ar: "الأقرع بن حابس التميمي" , ur: "اقرع بن حابس تمیمی"}
 names:
   - { kind: full, lang: ar, value: "الأقرع بن حابس بن عقال بن محمد المجاشعي الدارمي التميمي" }
-  - { kind: alternate, lang: ar, value: "الأقرع بن حابس، أحد بني دارم من مالك (وفي نسختين: أحد بني مالك بن دارم بن مالك)" }
+  - { kind: alternate, lang: ar, value: "الأقرع بن حابس، أحد بني دارم من مالك ⁦(وفي نسختين: أحد بني مالك بن دارم بن مالك)⁩" }
 gender: male
 roles: [companion, tribal-leader]
 traditions: [sunni]
@@ -16,8 +16,8 @@ themes: [reconciliation-and-unity, converts-and-leavers, battles]
 periods: [period/prophetic-era, period/rashidun]
 regions: [arabia, persia-central-asia]
 story_roles:
-  - { role: convert, status: tradition, note: "من سادات نجد الذين تألفهم النبي بالجعرانة بمائة بعير (ابن هشام 4/136).", sources: [source/ibn-hisham-saqqa] }
-  - { role: interlocutor, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "حكم في مفاخرة وفد بني تميم أن خطيب المسلمين أخطب وشاعرهم أشعر (ابن هشام 4/212).", sources: [source/ibn-hisham-saqqa] }
+  - { role: convert, status: tradition, note: "من سادات نجد الذين تألفهم النبي بالجعرانة بمائة بعير ⁦(ابن هشام 4/136)⁩.", sources: [source/ibn-hisham-saqqa] }
+  - { role: interlocutor, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "حكم في مفاخرة وفد بني تميم أن خطيب المسلمين أخطب وشاعرهم أشعر ⁦(ابن هشام 4/212)⁩.", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "أسلم عام الفتح/حنين." }
 died: { edtf: "0645~", hijri: "0025~", calendar: julian, precision: year, status: debated, derived: true, note: "Struck down at al-Jawzjan in Uthman's time on Abdallah ibn Amir's Khurasan expedition; Ibn al-Kalbi instead has him killed at al-Yarmuk with ten sons (al-Isaba p. 79); CE year approximated to 25 AH", sources: [source/ibn-hajar-isaba] }
@@ -28,7 +28,7 @@ relations:
   - { type: member_of, target: group/banu-tamim }
   - { type: member_of, target: group/banu-darim, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/distribution-of-hunayn-spoils, role: recipient-leader, sources: [source/ibn-hisham-saqqa] }
-  - { type: participated_in, target: event/conquest-of-mecca, note: "شهد مع النبي فتح مكة (ص207)", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/conquest-of-mecca, note: "شهد مع النبي فتح مكة ⁦(ص207)⁩", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/battle-of-hunayn, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/siege-of-taif, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/delegation-of-banu-tamim, role: "من أشراف الوفد؛ حكم للمسلمين", sources: [source/ibn-hisham-saqqa] }

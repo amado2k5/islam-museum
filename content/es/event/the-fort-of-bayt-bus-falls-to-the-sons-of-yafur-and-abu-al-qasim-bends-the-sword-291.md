@@ -1,0 +1,12 @@
+---
+id: event/the-fort-of-bayt-bus-falls-to-the-sons-of-yafur-and-abu-al-qasim-bends-the-sword-291
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/the-fort-of-bayt-bus-falls-to-the-sons-of-yafur-and-abu-al-qasim-bends-the-sword-291.md}
+---
+## Visión general
+El domingo al amanecer, los dos hijos de Ya'fur y al-Yafi'i avanzaron con sus tropas hasta que se acercaron al fuerte y comenzó la lucha; piedras y flechas cayeron sobre el narrador y sus compañeros dentro de la casa, así que entraron en la habitación y los hombres lucharon durante una hora {cite:sira-hadi-ila-al-haqq p.271}. Entonces Al Ya'fur extendió ropas, y seis hombres que estaban frente a ellos sobre Bayt Bus bajaron y los vistieron, uno de ellos se quedó atrás; algunas de las tropas de Al Ya'fur miraron dentro, y cuando estuvieron con ellos dentro del fuerte el hombre de la puerta del paso huyó; vinieron a romper la puerta y un hombre los recibió y dijo "Tengo la llave, no rompan la puerta", entonces abrieron la puerta y entraron al fuerte, tomaron prisioneros a todos los que estaban dentro y saquearon lo que encontraron {cite:sira-hadi-ila-al-haqq p.271}.
+
+## Detalle
+Un grupo de ellos entró en la casa donde estaban el narrador y Abu al-Qasim y tomaron lo que llevaban puesto, y uno de ellos alzó su espada hacia Abu al-Qasim para atacarlo; Abu al-Qasim lo agarró de la muñeca y la espada y la dobló hasta que quedó como un anillo, y los dejaron ir {cite:sira-hadi-ila-al-haqq p.271}. El relato proviene de un libro zaidí en la voz de los seguidores del imán, y la forma en que se dobló la espada y la fuerza que implica son como las vio el narrador, sin veredicto en la voz del museo. El libro no nombra a quienes extendieron las ropas ni a los seis que bajaron, y no dice si las ropas eran una señal de acuerdo; el hombre con la llave no es nombrado. La fecha es del mes: el domingo no coincidía con el calendario tabular en la verificación del museo. Sigue al [[event/the-sons-of-yafur-plunder-arthal-and-the-reinforcement-of-ibn-khalaf-leaves-291|saqueo de Arthal y la partida del contingente de Ibn Khalaf]]; [[group/banu-yafur|Al Ya'fur]] y al-Yafi'i aparecen en el informe anterior del encadenamiento de Abu al-Qasim.

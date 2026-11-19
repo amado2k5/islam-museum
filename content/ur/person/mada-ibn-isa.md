@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b16, source: "حلية الأولياء (دار الكتب العلمية 1988) 9/324-325" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b16, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 9/324-325" }
 ---
 ## خلاصہ
 مضاء بن عیسیٰ شامی ان زاہدوں میں سے ہیں جن کا ترجمہ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی نویں جلد میں لکھا ہے ⁦(نمبر 454)⁩۔ وہ انہیں عمل کرنے والوں میں شمار کرتے ہیں، جنہیں محبت نے کھینچا اور خوف نے گرفت میں لیا۔ ترجمے میں ان کا سارا کلام [[person/ahmad-ibn-abi-al-hawari|احمد بن ابی الحواری]] نے ان سے سن کر روایت کیا ہے۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/324}

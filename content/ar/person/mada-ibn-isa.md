@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b16, source: "حلية الأولياء (دار الكتب العلمية 1988) 9/324-325" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b16, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 9/324-325" }
 ---
 ## موجز
 مضاء بن عيسى الشامي من الزهاد الذين يترجم لهم [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء التاسع من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة 454)⁩، ويصفه بأنه من العاملين، اجتذبه الحب واستلبه الخوف. وكل كلامه في الترجمة يرويه [[person/ahmad-ibn-abi-al-hawari|أحمد بن أبي الحواري]] سماعًا منه. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/324}

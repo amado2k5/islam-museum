@@ -29,5 +29,5 @@ status:
   completeness: 3
 died: { edtf: "1681", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Shawkani (al-Badr al-Tali'); al-Zirikli Confirmed on 13 November 2026 against Wikidata Q12178496 (P570, a statement with a reference), item revision 2422477511.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/yemen, note: "Place association from the person's nisba/name (يمني); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/yemen, note: "Place association from the person's nisba/name ⁦(يمني)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: died_in, target: place/sanaa, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 1 pp. 137-138: raised in Sanaa and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

@@ -1,0 +1,12 @@
+---
+id: event/the-ambush-of-the-harithi-party-from-al-jawf-and-the-girl-returned-292
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/the-ambush-of-the-harithi-party-from-al-jawf-and-the-girl-returned-292.md}
+---
+## Vue d'ensemble
+"Ali ibn Muhammad a dit : alors il parvint à al-Hadi qu'un groupe de Banu al-Harith venait d'al-Jawf" ; il envoya une force qui leur tendait une embuscade, et lorsqu'ils arrivèrent, la cavalerie et l'infanterie les chargèrent, la poussière se souleva et les gens furent mélangés de sorte que personne ne reconnut personne ; deux d'entre eux furent touchés et de nombreux animaux avec leurs charges furent pris {cite:sira-hadi-ila-al-haqq p.292} {cite:sira-hadi-ila-al-haqq p.293}.
+
+## Détail
+Une jeune fille était montée sur un chariot et fut amenée au camp. Elle avait déclaré être esclave, mais arrivée à Qarqar, elle affirma appartenir à Ibn Humayd {cite:sira-hadi-ila-al-haqq p.293}. Al-Hadi la fit venir, la recouvrit d'un vêtement, la fit monter sur la monture d'une esclave wadiite et dépêcha avec elle un homme des Banu al-Harith qui se trouvait dans son camp. Ce dernier l'accompagna jusqu'aux abords du camp, les appela, leur révéla la lignée de la jeune fille, puis rebroussa chemin. Ils la prirent alors {cite:sira-hadi-ila-al-haqq p.293}. Le narrateur rapporte qu'al-Hadi rendit la jeune fille à sa famille une fois sa lignée connue, sans préciser son âge ni son nom. Les notes du manuscrit S proposent deux lectures, l'une pour « jeune fille » et l'autre pour « camp » {cite:sira-hadi-ila-al-haqq p.293}. Ce récit, tiré d'un ouvrage zaydite rapporté par les partisans de l'imam, est cité ici pour montrer que, selon le texte, la jeune fille fut rendue gratuitement. Le musée n'apporte rien de plus à ce sujet. L'événement se déroule après [[event/the-camp-at-qarqar-the-cutting-of-palms-and-the-razing-of-markets-292|le camp de Qarqar]] et précède [[event/the-fight-at-the-lane-gate-and-the-cutting-of-the-palms-of-banu-khuthaym-292|le combat à la porte de la ruelle]] ; il est daté de l'année car le livre ne précise ni le jour ni le mois après la fin du mois de Rajab. Al-Jawf n'est pas mentionné dans ces pages et aucun document ne le décrit.

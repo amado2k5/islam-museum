@@ -4,6 +4,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { Compiled, Node } from "./build-graph.js";
 import { p, readYaml } from "./lib.js";
+import { readBigJson } from "./lib/graph-file.mjs";
 
 const sorted = <T>(a: T[], f: (t: T) => number) => [...a].sort((x, y) => f(x) - f(y));
 
@@ -16,7 +17,7 @@ const norm = (s: string) =>
     .toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[-_()/,.]/g, " ").replace(/\s+/g, " ").trim();
 
 /** Variant spellings -> canonical labels, from labels, names[], aliases and the rules in scripts/search-variants.yaml. Built per language: an English query expands toward English labels. */
-export function buildSynonyms(c: Compiled, lang: "ar" | "en" = "ar") {
+export function buildSynonyms(c: Compiled, lang: "ar" | "en" | "fr" = "ar") {
   const rules = readYaml<{ swap: [string, string][]; drop_prefix: string[] }>(p("scripts", "search-variants.yaml"));
   const out = new Map<string, Set<string>>();
   const add = (variant: string, canonical: string) => {
@@ -52,9 +53,9 @@ export function buildSynonyms(c: Compiled, lang: "ar" | "en" = "ar") {
     if (!canonical) continue;
     for (const ph of t.phrasings?.[lang] ?? []) add(ph, canonical);
   }
-  // Topical phrasings (animals, insects, sports, games): scripts/search-terms.yaml maps what a visitor types to one record. Urdu goes into the Arabic map, which the search page loads for every non-English language.
+  // Topical phrasings (animals, insects, sports, games): scripts/search-terms.yaml maps what a visitor types to one record. Urdu search shares the Arabic map; French retains English topical phrases alongside its own.
   const terms = readYaml<{ terms: { target: string; phrasings?: Record<string, string[]> }[] }>(p("scripts", "search-terms.yaml"));
-  const termLangs = lang === "ar" ? ["ar", "ur"] : ["en"];
+  const termLangs = lang === "ar" ? ["ar", "ur"] : lang === "fr" ? ["en", "fr"] : ["en"];
   for (const t of terms.terms ?? []) {
     const n = topicNodes.get(t.target);
     const canonical = n && (n.label[lang] ?? n.label.en ?? n.label.ar);
@@ -169,18 +170,18 @@ export function derive(c: Compiled) {
     visit(n, "start", n.data.date?.start); visit(n, "end", n.data.date?.end);
   }
 
-  return { timeline, map, ego, snapshots, onThisDay: { gregorian: onThisDay, hijri: hijriDay }, related: buildRelated(c), synonyms: { ar: buildSynonyms(c, "ar"), en: buildSynonyms(c, "en") } };
+  return { timeline, map, ego, snapshots, onThisDay: { gregorian: onThisDay, hijri: hijriDay }, related: buildRelated(c), synonyms: { ar: buildSynonyms(c, "ar"), en: buildSynonyms(c, "en"), fr: buildSynonyms(c, "fr") } };
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
-  const c: Compiled = JSON.parse(readFileSync(p(".cache", "graph.json"), "utf8"));
+  const c: Compiled = readBigJson(p(".cache", "graph.json"));
   const d = derive(c);
   mkdirSync(p(".cache", "derived"), { recursive: true });
   for (const [k, v] of Object.entries(d)) writeFileSync(p(".cache", "derived", `${k}.json`), JSON.stringify(v));
   mkdirSync(p("site", "public"), { recursive: true });
-  for (const lang of ["ar", "en"] as const) {
+  for (const lang of ["ar", "en", "fr"] as const) {
     writeFileSync(p("site", "public", `search-synonyms.${lang}.json`), JSON.stringify(d.synonyms[lang]));   // the whole map, for anyone who wants it
     for (const [shard, part] of synonymShards(d.synonyms[lang])) writeFileSync(p("site", "public", `search-synonyms.${lang}_${shard}.json`), JSON.stringify(part));   // what the search page loads
   }
-  console.log(`derived: ${d.timeline.length} timeline rows, ${d.map.features.length} map features, ${Object.keys(d.ego).length} ego graphs, ${Object.keys(d.related).length} related lists, ${Object.keys(d.synonyms.ar.whole).length} ar + ${Object.keys(d.synonyms.en.whole).length} en whole-label variants`);
+  console.log(`derived: ${d.timeline.length} timeline rows, ${d.map.features.length} map features, ${Object.keys(d.ego).length} ego graphs, ${Object.keys(d.related).length} related lists, ${Object.keys(d.synonyms.ar.whole).length} ar + ${Object.keys(d.synonyms.en.whole).length} en + ${Object.keys(d.synonyms.fr.whole).length} fr whole-label variants`);
 }

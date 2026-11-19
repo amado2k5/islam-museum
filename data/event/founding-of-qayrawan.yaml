@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/umayyad]
 regions: [maghreb]
 date:
-  start: { edtf: "0670~", hijri: "0050~", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية معاوية بن حديج لمصر (البلاذري ص 319–320). التحويل مشتق." }
+  start: { edtf: "0670~", hijri: "0050~", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية معاوية بن حديج لمصر ⁦(البلاذري ص 319–320)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/qayrawan }
   - { type: occurred_at, target: place/ifriqiya }
@@ -19,7 +19,7 @@ relations:
   - { type: during_reign, target: person/muawiya-ibn-abi-sufyan, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 319–320، 322"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 319–320، 322"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-21, lib-futuh-misr-batch-5-2026-10-31
 sources: [source/umayyad-birth-to-fall-2006, source/futuh-buldan-maarif-1407, source/futuh-misr-amir-1999]

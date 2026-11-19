@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b60, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/145" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b60, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/145" }
 ---
 ## موجز
 العباس المعروف بالمجنون، مضنون في الشوق، ومخزون عن الخلق، كان لمحبوبه ساهرًا، وعن بني جنسه سائرًا. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 508)⁩ في الصفحة 145، وتسلسله 509. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/145}

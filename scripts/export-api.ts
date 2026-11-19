@@ -104,6 +104,7 @@ const compact = (n: Node) => ({
 
 import { readFileSync as rf } from "node:fs";
 import { parse as yparse } from "yaml";
+import { readBigJson } from "./lib/graph-file.mjs";
 function themeIndex(c: Compiled) {
   const themes: any[] = yparse(rf(p("schema", "enums", "themes.yaml"), "utf8"));
   return themes.map((t) => ({ ...t, entries: c.nodes.filter((n) => !n.stub && n.themes.includes(t.id)).map((n) => n.id) }));
@@ -934,7 +935,7 @@ export function exportApi(c: Compiled) {
   // Canon-first search (scripts/search-canon.ts): per language, the names that stand for a canon record. The search
   // page fetches its language's file once and shows the record a query names above Pagefind's results. No `generated`
   // field: the file changes only when a canon record's names do.
-  for (const lang of ["ar", "en", "ur", "fr"] as const) write(`meta/search-canon.${lang}.json`, JSON.stringify(canonSearchIndex(c, lang, buildSynonyms(c, lang === "en" || lang === "fr" ? "en" : "ar").whole)));
+  for (const lang of ["ar", "en", "ur", "fr", "es"] as const) write(`meta/search-canon.${lang}.json`, JSON.stringify(canonSearchIndex(c, lang, buildSynonyms(c, lang === "ur" ? "ar" : lang === "es" ? "en" : lang).whole)));
   const inventionData = inventionApiData(c);
   write("inventions.json", JSON.stringify(inventionData.inventions, null, 1));
   write("inventions/chains.json", JSON.stringify(inventionData.chains, null, 1));
@@ -1069,7 +1070,7 @@ export function exportNeighbourhoods(c: Compiled, real: Node[]) {
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
-  const c: Compiled = JSON.parse(readFileSync(p(".cache", "graph.json"), "utf8"));
+  const c: Compiled = readBigJson(p(".cache", "graph.json"));
   console.log(`api: ${exportApi(c)} entities -> site/public/api/v1/`);
 }
 

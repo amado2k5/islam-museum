@@ -1,0 +1,41 @@
+---
+id: event/deathbed-and-burial-of-umar
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/deathbed-and-burial-of-umar.md}
+---
+## Résumé
+Ce récit relate les derniers jours d' [[person/umar-ibn-al-khattab|Umar ibn al-Khattab]] après son assassinat, tels que rapportés dans les Écritures : ses ablutions, la prière funéraire, son inhumation et ses biens. Il complète ainsi [[event/death-of-umar|le récit de sa mort]] et [[event/testament-of-umar-after-the-stabbing|son testament]]. Il fut poignardé le mercredi, quatre nuits avant la fin du mois de Dhu al-Hijja de l'an 23 de l'Hégire, vécut trois jours puis mourut. Il fut inhumé le dimanche 1er Muharram de l'an 24 de l'Hégire, dans la chambre d'Aïcha, auprès du Prophète et d'Abou Bakr. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 138} {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 418}
+
+## Ses derniers jours
+On ramena Umar chez lui, le sang coulant à flots ; il reprenait conscience puis s’évanouissait. Lorsqu’on lui rappela la prière, il reprit ses esprits et déclara : « Nul n’a sa place en Islam lorsqu’on néglige la prière », puis il fit ses ablutions et pria. {cite:fath-al-bari scan vol. 1 p. 408} Ibn Kathir rapporte qu’après le pèlerinage, Umar implora Dieu à al-Abtah de le prendre à lui et de lui accorder le martyre dans la ville de Son Prophète. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 137} Selon le récit d’Abu Ishaq, le médecin lui dit : « Faites votre testament, car je pense que vous allez mourir aujourd’hui ou demain. » {cite:fath-al-bari scan vol. 1 p. 409} Al-Muhibb al-Tabari indique que les historiens s’accordent à dire qu’il vécut trois jours après l’agression au couteau avant de mourir. {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 418}
+
+Al-Muhibb al-Tabari rapporte également que, sur son lit de mort, la tête posée sur les genoux de son fils Abd Allah, il disait : « Je me suis fait du tort à moi-même, mais je suis musulman ; je fais toutes mes prières et je jeûne. » {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 418}
+
+## Demande d'autorisation d'être enterré
+Umar envoya une lettre à Aïcha pour lui demander la permission d'être enterré avec ses deux compagnons, et elle la lui accorda, comme le rapporte al-Bukhari. {cite:fath-al-bari scan vol. 1 p. 403} {cite:fath-al-bari scan vol. 1 p. 404} Selon le récit d'Urwa, Umar lui envoya une lettre disant : « Permets-moi d'être enterré avec mes deux compagnons », et elle répondit : « Oui, par Dieu ». En revanche, lorsqu'un Compagnon lui envoyait une lettre, elle répondait : « Non, par Dieu, je ne les préférerai jamais. » {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 408} Ibn Hajar rapporte d'après Ibn Sa'd, d'après Malik, qu'Umar craignait qu'elle n'ait donné cette permission de son vivant par pudeur et qu'elle ne la retire après sa mort ; il leur conseilla donc de la lui redemander. {cite:fath-al-bari scan vol. 1 p. 413} Hafsa vint avec les femmes et pleura un moment auprès de lui, puis se retira dans une pièce intérieure réservée aux hommes. {cite:fath-al-bari scan vol. 1 p. 404}
+
+## Lavage, linceul et prière
+Dans son ouvrage Usd al-Ghaba, Ibn al-Athir rapporte qu'à la mort d'Umar, la prière fut récitée sur lui à la mosquée, qu'il fut porté sur le brancard du Messager et que son fils Abd Allah le lava. {cite:usd-al-ghaba scan vol. 1 p. 914} D'après Ja'far ibn Muhammad, qui tenait de son père : une fois Umar lavé, enveloppé dans son linceul et déposé sur son brancard, Ali se tint près de lui et déclara qu'il n'y avait sur terre aucun homme dont il souhaitait davantage connaître le destin devant Dieu que celui-ci, voilé, et il pleura jusqu'à ce que sa barbe soit mouillée. {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 419}
+
+Deux récits relatifs à la prière concordent. D'après Urwa ibn al-Zubayr : lorsque Umar fut tué, Ali et Uthman se précipitèrent pour prier sur lui, et Suhayb dit : « Éloignez-vous de moi ; j'ai reçu, pour vous, une charge plus importante que celle de prier pour Umar, et je vous dirige dans la prière obligatoire. » Et Suhayb pria sur lui. {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 418} Dans al-Bidaya, Abd al-Rahman ibn Awf dit à Ali et Uthman : « Ceci n'est pas pour vous ; cela appartient à Suhayb, à qui Umar avait confié la direction du peuple. » Et Suhayb s'avança et pria. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 145} Ibn Qutayba, cité par Ibn al-Athir, rapporte que Suhayb pria sur lui et qu'il fut enterré avec le Messager de Dieu et Abou Bakr. {cite:usd-al-ghaba scan vol. 1 p. 914}
+
+## L'enterrement et la tombe
+Selon Usd al-Ghaba, ceux qui descendirent dans sa tombe furent son fils Abd Allah, Uthman ibn Affan, Sa'id ibn Zayd et Abd al-Rahman ibn Awf. {cite:usd-al-ghaba scan vol. 1 p. 914} Selon al-Bidaya, les membres du conseil descendirent avec son fils, à l'exception de Talha, absent. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 145} D'après le récit d'al-Bukhari, ils sortirent son cercueil et se mirent en marche ; Abd Allah ibn Umar salua et dit : « Umar ibn al-Khattab demande la permission », Aisha dit : « Faites-le entrer », et il fut déposé là avec ses deux compagnons. {cite:fath-al-bari scan vol. 1 p. 404}
+
+Ibn Hajar rapporte d'Ibn Sa'd qu'Aïcha a déclaré ne pas avoir ôté ses vêtements depuis l'inhumation d'Omar dans sa maison. {cite:fath-al-bari scan vol. 1 p. 412} Il cite également l'ouvrage d'Ibn Zabala, Akhbar al-Madina, d'après une citation peu fiable de Sa'id ibn al-Musayyib, selon laquelle les trois tombes se trouvent dans le porche de la maison d'Aïcha, avec un emplacement à proximité pour la sépulture de Jésus. Il mentionne aussi un hadith attribué au Prophète, selon lequel seules sa propre tombe, celles d'Abou Bakr et d'Omar, ainsi qu'un emplacement pour Jésus, fils de Marie, s'y trouvaient ; ce hadith qu'il ne considère pas comme avéré. {cite:fath-al-bari scan vol. 1 p. 412} Pour plus d'informations sur ce lieu, voir [[place/medina|Médine]] et [[building/prophets-mosque|la Mosquée du Prophète]].
+
+## Ce qu'il a laissé
+Umar exigea le paiement de sa dette, et Ibn Hajar expose la divergence d'opinions quant à son montant : 86 000 selon al-Bukhari, 26 000 selon Ibn Zabala, et Nafi' nia toute dette car un héritier avait vendu son héritage pour 100 000. {cite:fath-al-bari scan vol. 1 p. 411} {cite:fath-al-bari scan vol. 1 p. 412} Ibn Kathir recense sept épouses, qu'Umar épousa à l'époque préislamique et sous l'Islam, et dont les épouses furent divorcées ou veuves, ainsi que treize enfants, parmi lesquels Zayd l'Ancien et Zayd le Jeune, Asim, Abd Allah, trois nommés Abd al-Rahman, Ubayd Allah, Iyad, Hafsa, Ruqayya et Zaynab. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 139} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 140}
+
+## Là où les rapports divergent
+- Le jour du coup de couteau : Ibn Kathir privilégie le mercredi, alors qu’il reste quatre nuits de Dhu al-Hijja, et mentionne d’autres versions faisant état de trois ou sept nuits restantes. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 138}
+- L'inhumation : al-Waqidi, d'après Ibn Sa'd, rapporte qu'il fut enterré le matin de la nouvelle lune du 24 Muharram, ce qu'Uthman al-Akhnasi considéra comme une erreur. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 138} {cite:usd-al-ghaba scan vol. 1 p. 914}
+- Son âge : Ibn Kathir recense dix versions, dont cinquante-cinq et soixante-trois, et indique qu’al-Waqidi considérait soixante comme la plus fiable. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 138} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 139}
+- Qui a prié pour lui : Suhayb, d’après les récits cités. {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 418}
+- Qui sont entrés dans la tombe : Abd Allah, Uthman, Sa'id et Abd al-Rahman selon un récit, les membres du conseil à l'exception de Talha selon un autre. {cite:usd-al-ghaba scan vol. 1 p. 914} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 145}
+
+## Sources et documentation
+Fath al-Bari, Usd al-Ghaba, al-Riyad al-Nadira et al-Bidaya wa'l-Nihaya. Les numéros de page sont des pages numérisées.

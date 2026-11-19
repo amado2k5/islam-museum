@@ -1,0 +1,12 @@
+---
+id: event/the-people-wonder-at-al-hadis-steadfastness-and-his-prayer-in-battle-288
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/the-people-wonder-at-al-hadis-steadfastness-and-his-prayer-in-battle-288.md}
+---
+## Visión general
+Esto completa la frase cortada al pie de la página 225 en [[event/al-hadi-enters-sanaa-a-second-time-after-leaving-shibam-288|el relato de la segunda entrada en Sana'a]]: el hombre Aqili que había sido apuñalado en el vientre murió {cite:sira-hadi-ila-al-haqq p.226}. La gente se maravilló de la firmeza de [[person/al-hadi-yahya-al-rassi|al-Hadi]] y sus hombres a pesar de su escaso número frente a los numerosos caballos y soldados de infantería de sus oponentes, y cuando su asombro llegó a él, dijo, como lo relata el narrador, que no debían asombrarse, pues con dos mil soldados de infantería y quinientos caballos de fieles creyentes sometería a la mayor parte de la tierra {cite:sira-hadi-ila-al-haqq p.226}. Solía citar lo que [[passage/quran-2-249|Corán 2:249]] dice de la pequeña compañía que vence a una grande con el permiso de Dios, y recitar un versículo en metro tawil cuyo sentido es que las puertas de la adversidad se abren con paciencia {cite:sira-hadi-ila-al-haqq p.226}.
+
+## Detalle
+El narrador ofrece su plegaria en la batalla: pidió a Dios que le inspirara paciencia, que aumentara la recompensa y que aceptara la obra como puramente Suya, luego dijo que Dios era suficiente para ellos, y cuando mató a un hombre con su propia mano dijo que lucharon contra esos hombres por amor a Dios, por lo que habían rechazado de Su libro y después del llamado a la verdad, y pidió a Dios que juzgara entre él y ellos {cite:sira-hadi-ila-al-haqq p.226}. El margen del manuscrito lleva un encabezado para cada uno de los dos pasajes, que es la nota del copista y muestra que las palabras y la plegaria son atribuidas a al-Hadi por el narrador. El museo describe pero no emite ningún veredicto, y no repite la palabra de incredulidad del narrador para los oponentes de al-Hadi. Al-Hadi luego regresó de seguir a los hombres y entró en Sana'a un viernes de 288 H, donde se quedó {cite:sira-hadi-ila-al-haqq p.226}.

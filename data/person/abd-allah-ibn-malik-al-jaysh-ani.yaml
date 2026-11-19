@@ -15,7 +15,7 @@ regions: [egypt-nile]
 sources: [source/tabaqat-fuqaha-abbas-1981]
 provenance:
   layer: "own-research"
-  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص41–43"
+  source: "طبقات الفقهاء ⁦(تحقيق إحسان عباس)⁩ PDF ص41–43"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch126
@@ -30,4 +30,4 @@ occupations:
     sources: [source/tabaqat-fuqaha-abbas-1981]
 died: { edtf: "695~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: d. c. 76 AH)" }
 relations:
-  - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name (الشيرازي); denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
+  - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name ⁦(الشيرازي)⁩; denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }

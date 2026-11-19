@@ -3,6 +3,7 @@ import { execSync } from 'node:child_process'
 import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { buildRecords, spreadAcrossTime, tourSubset, TOUR_IDS, TOPICS, LAUNCH_PER_TOPIC, type GraphNode } from './time-browser.ts'
+import { readBigJson } from "./lib/graph-file.mjs";
 
 // The CI test job runs `npm test` without the build, so compile the graph once here when it is missing
 // (the same guard as scripts/edu.test.ts).
@@ -10,9 +11,7 @@ if (!existsSync(join(process.cwd(), '.cache', 'graph.json'))) {
   execSync('npm run graph', { stdio: 'inherit' })
 }
 
-const graph = JSON.parse(
-  readFileSync(join(process.cwd(), '.cache', 'graph.json'), 'utf8'),
-) as { nodes: GraphNode[] }
+const graph = readBigJson(join(process.cwd(), '.cache', 'graph.json')) as { nodes: GraphNode[] }
 
 describe('time-browser batch spread', () => {
   it('spreadAcrossTime takes evenly spaced items across the whole range', () => {

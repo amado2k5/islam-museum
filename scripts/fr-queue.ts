@@ -6,7 +6,7 @@
 //   npx tsx scripts/fr-queue.ts stats                                  # counts
 import { readdirSync, existsSync, readFileSync } from "node:fs";
 import { parse } from "yaml";
-import { repoPath } from "./lib.js";
+import { p as repoPath } from "./lib.js";
 
 const SPINE = ["person", "event", "place", "work", "concept", "building", "object"];
 const SACRED = new Set(["passage", "practice", "question"]);
@@ -41,11 +41,14 @@ if (mode === "prose") {
   const fr = classesOf(repoPath("content", "fr"));
   const only = arg("class");
   const limit = Number(arg("limit") ?? 500);
-  const order = [...SPINE, ...[...en.keys()].filter((c) => !SPINE.includes(c))];
+  const classes = new Set([...en.keys(), ...[...ar.keys()].filter((c) => SACRED.has(c))]);
+  const order = [...SPINE, ...[...classes].filter((c) => !SPINE.includes(c))];
   let n = 0;
   for (const cls of order) {
     if (only && cls !== only) continue;
-    for (const id of [...(en.get(cls) ?? new Set<string>())].sort()) {
+    const ids = new Set(en.get(cls));
+    if (SACRED.has(cls)) for (const id of ar.get(cls) ?? []) ids.add(id);
+    for (const id of [...ids].sort()) {
       if (n >= limit) break;
       if ((fr.get(cls) ?? new Set()).has(id)) continue;
       const pivot = SACRED.has(cls) && (ar.get(cls) ?? new Set()).has(id) ? "ar" : "en";

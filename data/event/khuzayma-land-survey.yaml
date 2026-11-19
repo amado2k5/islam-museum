@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0775/0833", calendar: julian, precision: year, status: tradition, derived: true, note: "في سلسلة ولاة أرمينية قبل المأمون (البلاذري ص 296). التحويل مشتق." }
+  start: { edtf: "0775/0833", calendar: julian, precision: year, status: tradition, derived: true, note: "في سلسلة ولاة أرمينية قبل المأمون ⁦(البلاذري ص 296)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/armenia }
   - { type: occurred_at, target: place/dabil }
@@ -19,7 +19,7 @@ relations:
   - { type: during_reign, target: person/al-mahdi, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 296"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 296"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-18
 sources: [source/futuh-buldan-maarif-1407]

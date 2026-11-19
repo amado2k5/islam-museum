@@ -1,0 +1,15 @@
+---
+id: place/al-nahrawan
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/place/al-nahrawan.md}
+---
+## Visión general
+al-Nahrawan: una pequeña ciudad, atravesada por el río al-Nahrawan. Se encuentra en la ruta que va de Bagdad hacia el este. Al-Idrisi la menciona entre los lugares de al-Sawad. {cite:nuzhat-al-mushtaq-2002 p.668}
+
+## En el Mu'jam al-buldan de Yaqut
+Yaqut registra Nahrawan — comúnmente pronunciado con una kasra en la nun — como tres Nahrawans, superior, medio e inferior: un amplio distrito entre Bagdad y Wasit en el lado oriental, cuyo límite superior colindaba con Bagdad, y que albergaba varias ciudades medianas, entre ellas Iskaf, Jarjaraya, al-Safiyya y Dayr Qunna; allí tuvo lugar la famosa batalla del Comandante de los Creyentes, Ali ibn Abi Talib, contra los Khawarij, y de ella surgió un grupo de eruditos y letrados. Su río nace cerca de Tamarra o Hulwan — Yaqut dice que no puede confirmarlo y que no ha visto a nadie afirmarlo — y en su época yace en ruinas, sus pueblos y aldeas convertidos en montículos con muros aún en pie; la ruina se debió a las disputas y guerras de los sultanes en el período selyúcida y a su ubicación en el camino de los ejércitos, y los reyes consideraban de mal agüero volver a excavar su río, alegando que quien comenzara la obra moría antes de terminarla; Había sido uno de los distritos más hermosos de Bagdad y el más rico en ingresos. {cite:mujam-al-buldan-sader-1995 5 p.324-325} Ibn al-Kalbi dijo que los persas excavaron el Nahrawan, cuyo nombre era nahr-wana: si su agua bajaba, su gente tenía sed, si subía, se ahogaban; Hamza al-Isfahani dijo que el valle de Jarrar baja del lado de Azerbaiyán, riega muchos pueblos y vierte en el Tigris debajo de al-Mada'in, con un nombre persa (Jurwan) y uno siríaco (Tamarra), el nombre persa arabizado como nahrawan, aunque la gente común dice nahrawan con una kasra por error. Y leyó en el libro de Ibn al-Kalbi sobre las genealogías de las ciudades que Tamarra y Nahrawan eran hijos de Jukhi que excavó los dos ríos y les dio sus nombres; Luego cita extensamente, de Abu Ali al-Tanukhi, un relato sobre la derivación del nombre que, según él mismo dice, no se ajusta a la palabra, pero que transcribió íntegramente. {cite:mujam-al-buldan-sader-1995 5 p.325}
+
+## La identificación del museo
+El Nahrawan de Yaqut es la extensa zona de canales al este de Bagdad, en dirección a Wasit, y la ciudad de al-Idrisi, mencionada en el mismo registro —un pequeño lugar en la carretera oriental de Bagdad atravesada por el canal—, corresponde a la misma zona. Yaqut menciona el distrito, su ruina en el siglo VII y la batalla de Ali contra los jariyíes, mientras que el propio registro solo cita la ciudad y el río de al-Idrisi. Según ambos registros, al-Nahrawan se encuentra a unos 28,5 km de Bagdad.

@@ -1,0 +1,40 @@
+---
+id: person/sulayman
+lang: es
+source_lang: en
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (spanish lane, wave 5)", model: "claude-sonnet-5-5", run: "spanish-w5-2026-11-18", source: "content/en/person/sulayman.md" }
+---
+## Visión general
+Sulayman, hijo de [[person/dawud|Dawud]]. Al-Bukhari registra un hadiz en el que dijo que recorrería a cien mujeres, cada una de las cuales daría a luz a un varón que combatiría en el camino de Dios {cite:sahih-al-bukhari 5242}.
+
+## En el hadiz
+Al-Bukhari refiere que el rey le dijo: «Di: si Dios quiere», pero no lo dijo. El Profeta dijo en el hadiz: «Si hubiera dicho: si Dios quiere, no habría fallado, y habría sido más esperanzador para su necesidad» {cite:sahih-al-bukhari 5242}.
+
+Los datos lo clasifican bajo el papel de «figura profética», con una fuente en el Corán y en al-Bukhari. Otros detalles de su vida necesitan una fuente adicional.
+
+## Del programa Bustan al-Amal de Omar Abdelkafy
+Omar Abdelkafy sostiene, «por su escaso saber», como él dice, que Sulayman fue de los más duramente probados por el cargo, la posición, la gloria y la riqueza, y que al final dijo: esto es del favor de mi Señor, para probarme si agradezco o soy ingrato. {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:02:30}
+
+## Del programa Bustan al-Amal de Omar Abdelkafy
+El jeque dice que Sulayman fue profeta, mensajero, rey y «multimillonario», con el viento soplando suavemente a su orden, los demonios trabajando para él como constructores y buzos, las aves dándole sombra, y aun así a la familia de Dawud se le ordenó trabajar en agradecimiento; lo cita en favor de la dignidad del trabajo. {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:06:30}
+
+## De la serie Qissa wa 'Ibar
+En el octavo episodio Omar Abdelkafy dice que Dios dio saber a Dawud y a Sulayman, y que este favor es mayor que el viento, los genios y las aves sometidos a Sulayman, siempre que el saber sea beneficioso y se ponga en práctica. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep08 00:01:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep08 00:02:00} Cuenta cómo Sulayman pasó revista a las aves de su corte y echó en falta a la abubilla, y extrae la lección de que quien está al mando debe estar atento a quienes están bajo él; Sulayman no aceptó entonces el informe de la abubilla sobre Saba' hasta haberlo comprobado, enviando al ave con una carta para su reina. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep08 00:02:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep08 00:03:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep08 00:06:00} Relata que Sulayman rechazó el regalo de Bilqis porque la había llamado a la guía y ella pretendía satisfacerlo con riqueza, y que pidió su trono: un 'ifrit de los genios se ofreció a traerlo antes de que se levantara de su asiento, y el que tenía conocimiento del Libro se ofreció a traerlo antes de que su mirada regresara a él. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep08 00:09:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep08 00:09:30} En el quinto episodio cuenta la historia de Sulayman y la hormiga a la que preguntó cuánta comida necesitaba al año. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:07:00}
+
+## En el programa En los patios del hadiz qudsi de al-Sha'rawi
+En el episodio 10 de [[work/fi-rihab-al-hadith-al-qudsiyyah|Fi rihab al-hadith al-qudsi]], [[person/muhammad-mutawalli-al-shaarawi|al-Sha'rawi]] dice que la historia de la hormiga y Sulayman muestra que la colonia de hormigas es un reino en el que cada grupo tiene una tarea, con centinelas entre ellas, y que la hormiga excusó al ejército de Sulayman porque podrían pisar a las hormigas sin saberlo, ante lo cual Sulayman sonrió y dio gracias a Dios por un saber que le había enseñado. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep10 00:19:30} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep10 00:20:00} El presentador relata la opinión de al-Sha'bi de que la hormiga que Sulayman oyó tenía alas, puesto que Dios le había enseñado el habla de las aves, y la califica de correcta porque solo la hormiga reina tiene alas. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep10 00:29:00} (needs_source: the presenter's reading.)
+
+En el episodio 17 al-Sha'rawi dice que la abubilla trajo noticias seguras de Saba, no noticias mundanas sino noticias relativas a la misión de Sulayman: objetó que un pueblo gobernado por una mujer se postraba ante el sol y no ante Dios, lo que muestra que sabía lo que la criatura debe al Creador. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep17 00:15:30} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep17 00:16:30} Lo toma como prueba de que la glorificación de Dios por todas las cosas es real. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep17 00:15:00}
+
+## De la serie «Qissa wa Ibra» de Omar Abdelkafy
+En el episodio nueve describe a Salomón como el rey a quien Dios dio lo que no había dado a nadie en el mundo, lo coloca junto a su padre David como modelo de siervos ricos y agradecidos de Dios, y dice que una bendición solo queda atada por el lazo de la gratitud. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep09 00:01:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep09 00:01:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep09 00:02:00} Relata su marcha junto a la ciudad de las hormigas y el grito de la hormiga «no sea que Salomón y sus huestes os aplasten sin darse cuenta», ante lo cual Salomón sonrió porque entendía las lenguas de las aves, los insectos, los animales, los genios y los demonios: toda criatura tiene un idioma. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep09 00:03:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep09 00:05:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep09 00:06:00} Y menciona a cuatro aves que parloteaban en un árbol y se transmitían «ojalá la humanidad no hubiera sido creada», «ojalá supieran para qué fueron creados», «ojalá actuaran en consecuencia» y «ojalá fueran sinceros en ello», leyendo en «No me creó para malgastar mi vida en bailes, cantos y desorden» el sentido de por qué existe la creación. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep09 00:06:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep09 00:07:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep09 00:07:30}
+
+## En el Fihrist de Ibn al-Nadim
+Esta página transmite lo que Ibn al-Nadim consignó en el Fihrist sobre Sulayman ibn Dawud. Dice que se dice, y Dios sabe más, que fue el primero en esclavizar a los genios y a los demonios y en servirse de ellos. También se dice que el primero en hacerlo, a la manera de los persas, fue Jamshid ibn Awnjahan {cite:fihrist-ibn-al-nadim p.430-431}.
+
+## En el Fihrist: sus escribas
+Ibn al-Nadim refiere que Asaf ibn Barkhiya, que era primo de Sulayman por parte de madre, escribió para él, como lo hicieron Yusuf ibn Ai'su, un hebreo, y al-Hurmuzaz ibn al-Kardul, que era persa y hebreo {cite:fihrist-ibn-al-nadim p.430-431}.
+
+## En el Fihrist: la afirmación de los encantadores
+Ibn al-Nadim atribuye a los encantadores (al-mu'azzimin) su afirmación de que Sulayman se sentó y convocó al jefe de los genios y los demonios, llamado Faqtas, y los pasó revista. Este le informó del nombre de cada uno de ellos y de lo que hacía a los hijos de Adán, y tomó su pacto y su juramento. Cuando los conjuró por ese pacto, respondieron y se marcharon. Su número, dicen, era de setenta demonios devoradores. Esta es una transmisión del relato de los encantadores, no un juicio sobre él {cite:fihrist-ibn-al-nadim p.430-431}.

@@ -1,0 +1,17 @@
+---
+id: building/bagh-i-nilufar-dholpur
+lang: es
+source_lang: en
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+status:
+  review: published
+provenance: { generated_by: "Claude Code (spanish lane, wave 8)", model: "claude-sonnet-5-5", run: "spanish-w8-2026-11-18", source: "content/en/building/bagh-i-nilufar-dholpur.md" }
+---
+## Visión general
+El Bagh-i Nilufar o Jardín del Loto es un jardín trazado por [[person/babur-mughal|Babur]] en el extremo de una colina en forma de pico junto a la presa de Sikandar Lodi, a dos millas al oeste de la ciudad de Dholpur; hoy se llama Shahi Bagh y se encuentra en la aldea de Jhor, en la carretera de Dholpur a Bari. {cite:nath-history-of-mughal-architecture-1-1982 p. 96} {cite:nath-history-of-mughal-architecture-1-1982 p. 98} Babur construyó estanques, pozos escalonados y jardines a lo largo de las cuarenta millas que separan Agra de Dholpur, a orillas del Chambal, con el deseo de cambiar el aspecto de aquella tierra cálida y seca en el borde del desierto. {cite:nath-history-of-mughal-architecture-1-1982 p. 95} {cite:nath-history-of-mughal-architecture-1-1982 p. 96}
+
+## En las memorias de Babur
+Babur relata que visitó Dholpur el 24 de Dhu al-Qa'da de 933 (24 de agosto de 1527) y ordenó a Ustad Shah Muhammad, el cantero, que tallara una casa en la roca de una sola pieza si esta era lo bastante alta o, si no, que la nivelara y tallara un estanque de una sola pieza; como no era lo bastante alta, se le dijo que tallara un estanque octogonal cubierto. {cite:nath-history-of-mughal-architecture-1-1982 p. 96} También ordenó tallar en la roca un asiento y una plataforma de cuatro pilares, una mezquita en el lado occidental y una cámara de agua excavada en la roca maciza con un pequeño estanque en su interior. {cite:nath-history-of-mughal-architecture-1-1982 p. 96} {cite:nath-history-of-mughal-architecture-1-1982 p. 97} Para el 23 de diciembre de 1528 estaban listos el pozo de piedra, los veintiséis caños de roca, los pilares de roca y los canales de agua excavados en la pendiente; después Babur lo llamó Jardín del Loto y ordenó construir allí un baño. {cite:nath-history-of-mughal-architecture-1-1982 p. 97} {cite:nath-history-of-mughal-architecture-1-1982 p. 98}
+
+## Lo que se conserva
+Nath informa de que la presa de Sikandar Lodi, construida probablemente entre 1500 y 1505 para almacenar agua de lluvia, sigue en pie y en funcionamiento, y de que Babur hizo abrir en la roca un canal poco profundo desde su borde oriental para llevar su agua hasta su jardín. {cite:nath-history-of-mughal-architecture-1-1982 p. 99} Quedan una sala cubierta con un pequeño estanque octogonal excavado en la roca, un gran estanque fuera de ella, un canal hacia un conjunto de estancias en una terraza inferior y una cascada hacia una tercera terraza con un gran estanque octogonal lobulado tallado en la roca con forma de loto. {cite:nath-history-of-mughal-architecture-1-1982 p. 99} Los lotos aún crecen en abundancia en la presa, lo que justifica el nombre. {cite:nath-history-of-mughal-architecture-1-1982 p. 100} Para Nath, este fue el único lugar donde Babur encontró una ladera para su ideal de jardín en terrazas, y la primera arquitectura excavada en la roca de la India musulmana; el asiento, la mezquita, la cámara de agua y los caños de roca no han sobrevivido. {cite:nath-history-of-mughal-architecture-1-1982 p. 100}

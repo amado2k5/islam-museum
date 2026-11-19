@@ -4,7 +4,7 @@
 // plus a visible link, no script needed.
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
-import { LANGS, type Lang } from "../../../../lib/i18n";
+import { LANGS, ARABIC_SCRIPT, type Lang } from "../../../../lib/i18n";
 import { repoPath } from "../../../../lib/paths";
 
 export function getStaticPaths() {
@@ -22,7 +22,7 @@ const { lang, id } = Astro.props as { lang: Lang; id: string };
 const target = `/${lang}/${id}/`;
 ---
 <!doctype html>
-<html lang={lang} dir={lang === "en" ? "ltr" : "rtl"}>
+<html lang={lang} dir={ARABIC_SCRIPT.includes(lang) ? "rtl" : "ltr"}>
   <head>
     <meta charset="utf-8" />
     <meta name="robots" content="noindex" />
