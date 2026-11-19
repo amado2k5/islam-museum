@@ -19,8 +19,10 @@ panel() {  # bring Word forward, open the Translator panel, print the window's p
 translate() {
   stem="$1"; set -- $(panel) || return 1
   # the panel keeps its last "To" language: it is chosen once by hand before this loop starts (typing it by script went astray)
+  osascript -e 'tell application "Microsoft Word" to activate'; sleep 1  # someone may have switched apps meanwhile
+  [ "$(osascript -e 'tell application "System Events" to return name of first process whose frontmost is true')" = "Microsoft Word" ] || return 1
   $P "$DIR/word_click.py" click $(( $1 + $3 - 67 )) $(( $2 + 360 ))
-  i=0; while [ $i -lt 80 ]; do
+  i=0; while [ $i -lt 40 ]; do
     sleep 3; i=$((i + 1))
     r=$(osascript -e 'tell application "Microsoft Word" to return (name of active document) & "|" & (count of documents)' 2>/dev/null)
     case "$r" in *"$stem"*) ;; *"|"[2-9]) return 0;; esac
@@ -32,7 +34,10 @@ while :; do
   NAME="wd-$L-$(printf '%03d' "$N")"
   [ -f "$H/gt/$NAME.json" ] || { say "$NAME: no file built; nothing left for $L"; exit 0; }
   say "$NAME: translate"
-  translate "$NAME-en" || { say "$NAME: no translated copy, second try"; translate "$NAME-en" || { say "$NAME: FAILED twice; stopping"; exit 1; }; }
+  t=1; until translate "$NAME-en"; do
+    t=$((t + 1)); [ $t -gt 6 ] && { say "$NAME: FAILED six times; stopping"; exit 1; }
+    say "$NAME: no translated copy (Word was not in front, or the click missed); try $t"; sleep 15
+  done
   sleep 4
   until mkdir /tmp/local-mt-ship.lock 2>/dev/null; do sleep 10; done
   OUT=$(sh "$DIR/word_round.sh" finish "$L" "$N" 2>&1); rc=$?; rmdir /tmp/local-mt-ship.lock
