@@ -2,8 +2,8 @@ id: person/akil-al-murar
 class: person
 label: { ar: "آكل المرار الكندي", en: "Akil al-Murar of Kinda", fr: "Akil al-Murar de Kinda" }
 names:
-  - { kind: full, lang: ar, value: "الحارث بن عمرو بن حجر بن عمرو بن معاوية بن الحارث بن معاوية بن ثور بن مرتع بن معاوية بن كندي (كذا عند ابن هشام)" }
-  - { kind: alternate, lang: ar, value: "حجر بن عمرو بن معاوية (ويقال إنه آكل المرار)" }
+  - { kind: full, lang: ar, value: "الحارث بن عمرو بن حجر بن عمرو بن معاوية بن الحارث بن معاوية بن ثور بن مرتع بن معاوية بن كندي ⁦(كذا عند ابن هشام)⁩" }
+  - { kind: alternate, lang: ar, value: "حجر بن عمرو بن معاوية ⁦(ويقال إنه آكل المرار)⁩" }
   - { kind: laqab, lang: ar, value: "آكل المرار" }
 gender: male
 roles: [politician]
@@ -15,7 +15,7 @@ wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
 story_roles:
-  - { role: ruler, toward: group/kinda, status: tradition, note: "من ملوك كندة (ابن هشام ص232-233).", sources: [source/ibn-hisham-saqqa] }
+  - { role: ruler, toward: group/kinda, status: tradition, note: "من ملوك كندة ⁦(ابن هشام ص232-233)⁩.", sources: [source/ibn-hisham-saqqa] }
 born: { edtf: "480~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Qutayba (al-Shi'r)" }
 died: { edtf: "520~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Qutayba (al-Shi'r)" }
 relations:

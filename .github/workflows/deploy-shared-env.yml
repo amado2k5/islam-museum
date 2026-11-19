@@ -1,0 +1,367 @@
+name: Deploy the shared parts (reusable, one environment)
+
+# Second step of the by-language trial, beside the one deploy (deploy-env.yml), which is unchanged (founder,
+# 19 November 2026, in chat). "Deploy shared parts to UAT" and "Deploy shared parts to production" call this file, and
+# so do "Deploy all parts to UAT / production"; nobody starts it directly and it has no trigger of its own.
+#
+# What it publishes: everything that belongs to no language, from the artifact `dist-shared` of a "Build islam.museum by
+# language" run (build-lang.yml) and, when that run made one, its artifact `dist-sitemap`:
+# - to R2: the API (api/), the shared data (media, edu, timeline-data, gift-shop, brand, openapi) and the root files
+#   (sitemaps, feed, llms.txt, search synonyms, favicons, the API catalog), with the deploy stamp;
+# - the site Worker (routing and rules) with its assets (scripts, styles, fonts, the root page, robots.txt);
+# - the Cloudflare Pages project, with the same assets.
+# What it never touches: any language's pages (ar/, en/, ur/, fr/, es/) or search index (pagefind-<lang>/). Those are
+# published by the "Deploy <lang> pages" workflows. publish.mjs --only-shared compares the build with the part of the
+# publish record that belongs to no language and writes the rest of the record back as it was.
+#
+# The sitemap lists every language's pages, so it exists only when every language was built in the same run. A run
+# without one leaves the published sitemap as it is; it is never deleted by a shared deploy.
+#
+# Order: when a change adds both a page and the script, style or API file it uses, deploy the shared parts first and
+# the languages after ("Deploy all parts" does that). The same environment table and refusals as deploy-env.yml.
+on:
+  workflow_call:
+    inputs:
+      environment:
+        description: "GitHub Environment to deploy to: production or uat."
+        required: true
+        type: string
+      build_run_id:
+        description: "Run id of a \"Build islam.museum by language\" run. Empty: the newest run of the source branch that built the shared parts."
+        required: false
+        type: string
+        default: ""
+      source_branch:
+        description: "Branch the build must come from. Default main. A release branch (release/**) is accepted only when the environment is not production."
+        required: false
+        type: string
+        default: "main"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
+    permissions:
+      contents: read
+      deployments: write
+      # Read another run's artifact and jobs.
+      actions: read
+    env:
+      ENVIRONMENT: ${{ inputs.environment }}
+    steps:
+      - name: Only the repository owner or an admin may start this workflow
+        # Founder's rule of 22 October 2026.
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          ACTOR: ${{ github.actor }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          [ "$ACTOR" = "$OWNER" ] && { echo "started by the owner ($ACTOR)"; exit 0; }
+          perm=$(gh api "repos/$GH_REPO/collaborators/$ACTOR/permission" --jq .permission 2>/dev/null || echo unknown)
+          [ "$perm" = "admin" ] && { echo "started by an admin ($ACTOR)"; exit 0; }
+          echo "::error::$ACTOR ($perm) may not start this workflow: only the repository owner or an admin may."
+          exit 1
+      - name: Resolve the environment (and refuse a non-production deploy aimed at a production name)
+        id: env
+        env:
+          ENVIRONMENT: ${{ inputs.environment }}
+          R2_BUCKET: ${{ vars.R2_BUCKET }}
+          WRANGLER_ENV: ${{ vars.WRANGLER_ENV }}
+          PAGES_PROJECT: ${{ vars.PAGES_PROJECT }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          SYNC_WORKER_COUNT: ${{ vars.SYNC_WORKER_COUNT }}
+          HAS_R2_KEYS: ${{ secrets.R2_ACCESS_KEY_ID != '' && secrets.R2_SECRET_ACCESS_KEY != '' }}
+          HAS_SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN != '' }}
+        run: |
+          set -euo pipefail
+          fail() { echo "::error::$1"; exit 1; }
+          for v in R2_BUCKET PAGES_PROJECT SITE_URL; do
+            [ -n "${!v}" ] || fail "Environment \"$ENVIRONMENT\" has no variable $v. Set it in Settings → Environments → $ENVIRONMENT (tools/deploy/setup-uat.sh github)."
+          done
+          [ "$HAS_R2_KEYS" = "true" ] || fail "Environment \"$ENVIRONMENT\" has no R2_ACCESS_KEY_ID / R2_SECRET_ACCESS_KEY."
+          [ "$HAS_SYNC_TOKEN" = "true" ] || fail "Environment \"$ENVIRONMENT\" has no R2_SYNC_TOKEN."
+          count="${SYNC_WORKER_COUNT:-7}"
+          [[ "$count" =~ ^[1-9]$ ]] || fail "SYNC_WORKER_COUNT must be 1 to 9, got \"$count\"."
+          if [ "$ENVIRONMENT" = "production" ]; then
+            [ -z "$WRANGLER_ENV" ] || fail "production deploys the top-level wrangler environment; WRANGLER_ENV must be empty, got \"$WRANGLER_ENV\"."
+            [ "$R2_BUCKET" = "islam-museum-search" ] || fail "production publishes to islam-museum-search, not \"$R2_BUCKET\"."
+          else
+            # Everything a non-production environment touches carries its own name. Never a production one.
+            [ "$WRANGLER_ENV" = "$ENVIRONMENT" ] || fail "WRANGLER_ENV must equal the environment name \"$ENVIRONMENT\", got \"$WRANGLER_ENV\" (the Workers are named after it)."
+            [ "$R2_BUCKET" != "islam-museum-search" ] || fail "a $ENVIRONMENT deploy may not publish to the production bucket."
+            [ "$PAGES_PROJECT" != "islam-museum" ] || fail "a $ENVIRONMENT deploy may not deploy to the production Pages project."
+            case "$SITE_URL" in https://islam.museum*|https://www.islam.museum*) fail "a $ENVIRONMENT deploy may not name the production site." ;; esac
+          fi
+          suffix="${WRANGLER_ENV:+-$WRANGLER_ENV}"
+          {
+            echo "bucket=$R2_BUCKET"
+            echo "wrangler_env=$WRANGLER_ENV"
+            echo "pages_project=$PAGES_PROJECT"
+            echo "site_url=${SITE_URL%/}"
+            echo "sync_count=$count"
+            echo "sync_worker_base=islam-museum-r2-sync$suffix"
+            echo "site_worker=islam-museum-site$suffix"
+          } >> "$GITHUB_OUTPUT"
+          {
+            echo "## Environment: $ENVIRONMENT"
+            echo
+            echo "- Site: $SITE_URL (Worker \`islam-museum-site$suffix\`)"
+            echo "- R2 bucket: \`$R2_BUCKET\` via $count sync Worker(s) \`islam-museum-r2-sync$suffix\`"
+            echo "- Pages project: \`$PAGES_PROJECT\`"
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Find the shared build to deploy
+        id: build
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          REQUESTED: ${{ inputs.build_run_id }}
+          SOURCE_BRANCH: ${{ inputs.source_branch }}
+        run: |
+          set -euo pipefail
+          # Production is main-only, whoever calls this workflow and whatever they pass.
+          if [ "$ENVIRONMENT" = "production" ] && [ "$SOURCE_BRANCH" != "main" ]; then
+            echo "::error::Production deploys build from main only; source_branch \"$SOURCE_BRANCH\" is refused."
+            exit 1
+          fi
+          # Why a run cannot be deployed, or nothing when it can: its unit tests passed, its shared job passed and the
+          # shared artifact still exists.
+          why_not() {
+            local id="$1" jobs live
+            jobs=$(gh api --paginate "repos/$GH_REPO/actions/runs/$id/jobs" --jq '.jobs[] | "\(.name)\t\(.conclusion)"')
+            grep -qxF "$(printf 'test\tsuccess')" <<<"$jobs" || { echo "its unit tests did not pass"; return; }
+            grep -qxF "$(printf 'build (shared)\tsuccess')" <<<"$jobs" || { echo "its \"build (shared)\" job did not pass"; return; }
+            live=$(gh api "repos/$GH_REPO/actions/runs/$id/artifacts" --jq '.artifacts[] | select(.expired == false) | .name')
+            grep -qxF dist-shared <<<"$live" || { echo "it has no live dist-shared artifact (expired, or the shared parts were not built in that run)"; return; }
+          }
+          fields=databaseId,headSha,headBranch,status,createdAt,displayTitle,url,workflowName
+          if [ -n "$REQUESTED" ]; then
+            run=$(gh run view "$REQUESTED" --json "$fields")
+            reason=$(why_not "$REQUESTED")
+            [ -z "$reason" ] || { echo "::error::Run $REQUESTED cannot be deployed for the shared parts: $reason."; exit 1; }
+          else
+            run=""
+            for id in $(gh run list --workflow build-lang.yml --branch "$SOURCE_BRANCH" --status completed --limit 20 --json databaseId --jq '.[].databaseId'); do
+              reason=$(why_not "$id")
+              if [ -z "$reason" ]; then run=$(gh run view "$id" --json "$fields"); break; fi
+              echo "run $id skipped: $reason"
+            done
+            test -n "$run" || { echo "::error::None of the last 20 \"Build islam.museum by language\" runs of $SOURCE_BRANCH has shared parts to deploy. Start that workflow on $SOURCE_BRANCH first."; exit 1; }
+          fi
+          id=$(jq -r .databaseId <<<"$run")
+          sha=$(jq -r .headSha <<<"$run")
+          branch=$(jq -r .headBranch <<<"$run")
+          created=$(jq -r .createdAt <<<"$run")
+          title=$(jq -r .displayTitle <<<"$run")
+          url=$(jq -r .url <<<"$run")
+          workflow=$(jq -r .workflowName <<<"$run")
+          [ "$workflow" = "Build islam.museum by language" ] || { echo "::error::Run $id is \"$workflow\", not a by-language build run."; exit 1; }
+          [ "$branch" = "$SOURCE_BRANCH" ] || { echo "::error::Build run $id built $branch, not $SOURCE_BRANCH."; exit 1; }
+          sitemap=false
+          gh api "repos/$GH_REPO/actions/runs/$id/artifacts" --jq '.artifacts[] | select(.expired == false) | .name' | grep -qxF dist-sitemap && sitemap=true
+          {
+            echo "run_id=$id"
+            echo "sha=$sha"
+            echo "created=$created"
+            echo "title=$title"
+            echo "sitemap=$sitemap"
+          } >> "$GITHUB_OUTPUT"
+          {
+            echo "## Deploying the shared parts from language build $id"
+            echo
+            echo "- Build run: [$id]($url), built $created"
+            echo "- Commit: \`$sha\` — $title"
+            echo "- Sitemap: $([ "$sitemap" = true ] && echo "from this run" || echo "none in this run; the published one is left as it is")"
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Checkout the built commit (Worker code and publish scripts of the same build)
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ steps.build.outputs.sha }}
+      - name: The built commit must know this wrangler environment
+        # The Worker code and the two wrangler configs come from the built commit (above), not
+        # from the branch this workflow runs on. A non-production environment therefore needs a
+        # build of a commit that already carries its `[env.<name>]` sections; an older build
+        # would make wrangler fall back to the top-level (production) bindings under a UAT name.
+        # Fail here, before anything is deployed, with the build that is needed instead.
+        if: steps.env.outputs.wrangler_env != ''
+        env:
+          WRANGLER_ENV: ${{ steps.env.outputs.wrangler_env }}
+          RUN_ID: ${{ steps.build.outputs.run_id }}
+          SHA: ${{ steps.build.outputs.sha }}
+        run: |
+          set -euo pipefail
+          for f in workers/site/wrangler.production.toml workers/r2-sync/wrangler.production.toml; do
+            grep -Eq "^\[(\[)?env\.$WRANGLER_ENV(\.|\]|\])" "$f" \
+              || { echo "::error::Build $RUN_ID (commit $SHA) has no [env.$WRANGLER_ENV] in $f: it predates the $WRANGLER_ENV configuration. Wait for a build of a newer commit of the source branch, then deploy that run id."; exit 1; }
+          done
+          echo "both wrangler configs define [env.$WRANGLER_ENV]"
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: workers/r2-sync/package-lock.json
+      - name: Download the shared parts
+        uses: actions/download-artifact@v8
+        with:
+          name: dist-shared
+          path: .
+          run-id: ${{ steps.build.outputs.run_id }}
+          github-token: ${{ github.token }}
+      - name: Download the sitemap of the same run
+        if: steps.build.outputs.sitemap == 'true'
+        uses: actions/download-artifact@v8
+        with:
+          name: dist-sitemap
+          path: dist-sitemap
+          run-id: ${{ steps.build.outputs.run_id }}
+          github-token: ${{ github.token }}
+      - name: Unpack, and check that no language's pages are in it
+        run: |
+          set -euo pipefail
+          mkdir dist
+          tar --use-compress-program=unzstd -xf dist-shared.tar.zst -C dist
+          rm dist-shared.tar.zst
+          test -f dist/index.html
+          test -d dist/api
+          for d in ar en ur fr es pagefind-ar pagefind-en pagefind-ur pagefind-fr pagefind-es; do
+            [ ! -e "dist/$d" ] || { echo "::error::The shared artifact holds $d/, which belongs to a language."; exit 1; }
+          done
+          [ -z "$(ls dist/sitemap*.xml 2>/dev/null)" ] || { echo "::error::The shared artifact holds a sitemap; it comes from the sitemap job only."; exit 1; }
+          if [ -d dist-sitemap ]; then
+            test -f dist-sitemap/sitemap-index.xml
+            cp dist-sitemap/sitemap*.xml dist/
+            rm -rf dist-sitemap
+          fi
+          echo "dist: $(find dist -type f | wc -l) files, $(ls dist/sitemap*.xml 2>/dev/null | wc -l) sitemap file(s)"
+      - name: Stamp the deploy (the landing page's "Last updated" line and every page's footer version read it)
+        # As in deploy-env.yml. This build holds no pages, so the page count is carried over from the stamp now live.
+        env:
+          RUN_ID: ${{ steps.build.outputs.run_id }}
+          SHA: ${{ steps.build.outputs.sha }}
+          SITE_URL: ${{ steps.env.outputs.site_url }}
+        run: |
+          set -euo pipefail
+          mkdir -p dist/api/v1/meta
+          version=""; version_date=""
+          line=$(grep -m1 -E '^## v[0-9]+\.[0-9]+\.[0-9]+ ' CANARY.md || true)
+          if [[ "$line" =~ ^##\ v([0-9]+\.[0-9]+\.[0-9]+)\ [^0-9]*([0-9]{4}-[0-9]{2}-[0-9]{2}) ]]; then
+            version="${BASH_REMATCH[1]}"; version_date="${BASH_REMATCH[2]}"
+          else
+            echo "::warning::No release block found at the top of CANARY.md; the footer will show no version."
+          fi
+          pages=$(curl -s -L --max-time 30 "$SITE_URL/api/v1/meta/deploy.json" | jq -r '.pages // 0' 2>/dev/null || echo 0)
+          [[ "$pages" =~ ^[0-9]+$ ]] || pages=0
+          jq -n --arg t "$(date -u +%Y-%m-%dT%H:%M:%SZ)" --arg sha "$SHA" --argjson run "$RUN_ID" --arg env "$ENVIRONMENT" \
+            --arg version "$version" --arg version_date "$version_date" --argjson pages "$pages" \
+            '{deployed_at: $t, commit: $sha, build_run: $run, environment: $env, version: $version, version_date: $version_date, pages: $pages}' > dist/api/v1/meta/deploy.json
+          cat dist/api/v1/meta/deploy.json
+      - name: Install R2 sync Worker dependencies
+        run: npm ci --prefix workers/r2-sync
+      - name: Deploy R2 sync Workers (this environment's bucket, N copies)
+        id: r2_worker
+        working-directory: workers/r2-sync
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN }}
+          WRANGLER_ENV: ${{ steps.env.outputs.wrangler_env }}
+          BASE: ${{ steps.env.outputs.sync_worker_base }}
+          COUNT: ${{ steps.env.outputs.sync_count }}
+        run: |
+          set -euo pipefail
+          # N identical Workers on this environment's bucket. Publish spreads archives across them.
+          # Production: islam-museum-r2-sync, -2 .. -7. UAT: islam-museum-r2-sync-uat, -uat-2 .. -uat-7.
+          urls=""
+          for i in $(seq 1 "$COUNT"); do
+            # wrangler's --env suffixes --name for secret put, so the token goes to the Worker named
+            # by --name only (never "<name>-<env>"). The deploy above is the one that takes --env.
+            name="$BASE"; [ "$i" -gt 1 ] && name="$BASE-$i"
+            npx wrangler deploy -c wrangler.production.toml --env="$WRANGLER_ENV" --name "$name" | tee deploy.log
+            url=$(grep -o 'https://[^ ]*workers\.dev' deploy.log | head -1)
+            test -n "$url"
+            printf '%s' "$SYNC_TOKEN" | npx wrangler secret put SYNC_TOKEN -c wrangler.production.toml --name "$name"
+            urls="${urls:+$urls,}$url"
+          done
+          echo "urls=$urls" >> "$GITHUB_OUTPUT"
+      - name: Build assets-only folder for the site Worker (no R2-served directories)
+        run: |
+          set -euo pipefail
+          # Copy only what is not served from R2. Copying the whole build to delete most of it took four minutes and
+          # needed room for a second 19 GB tree. This one list is the single place a new R2-served folder or root file
+          # is added (it replaces the two removal lines; the Pages step below deploys the same folder).
+          # Founder rule (28 Oct 2026): data, content, maps, images and video are served from R2, not from static assets.
+          rm -rf dist-assets && mkdir dist-assets
+          rsync -a \
+            --exclude=/ar --exclude=/en --exclude=/ur --exclude=/fr --exclude=/es --exclude=/api \
+            --exclude=/pagefind-ar --exclude=/pagefind-en --exclude=/pagefind-ur --exclude=/pagefind-fr --exclude=/pagefind-es \
+            --exclude=/media --exclude=/edu --exclude=/timeline-data --exclude=/gift-shop --exclude=/brand --exclude=/openapi \
+            --exclude='/sitemap*.xml' --exclude=/feed.xml --exclude='/llms*.txt' --exclude='/search-synonyms.*.json' \
+            --exclude='/favicon*' --exclude=/apple-touch-icon.png --exclude=/.well-known/api-catalog \
+            dist/ dist-assets/
+          echo "assets: $(find dist-assets -type f | wc -l) files"
+          node workers/site/scripts/bundle-rules.mjs
+      - name: Deploy site Worker (this environment's bucket)
+        working-directory: workers/site
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          WRANGLER_ENV: ${{ steps.env.outputs.wrangler_env }}
+        # Assets go up before the HTML that references them is published below.
+        # Production: the Worker's own domain was attached in the dashboard and is not in the
+        # config. UAT: `[env.uat]` carries the uat.islam.museum Custom Domain, created on the
+        # first deploy.
+        run: ../r2-sync/node_modules/.bin/wrangler deploy -c wrangler.production.toml --env="$WRANGLER_ENV"
+      - name: Publish the API, the shared data and the root files to R2 (no language's file is copied or deleted)
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          BUCKET: ${{ steps.env.outputs.bucket }}
+          SYNC_URLS: ${{ steps.r2_worker.outputs.urls }}
+          SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN }}
+          # The publish record notes the commit of the shared parts: the built one, not this run's head.
+          GITHUB_SHA: ${{ steps.build.outputs.sha }}
+        run: |
+          set -euo pipefail
+          # An older commit's publish.mjs would ignore --only-shared and treat the artifact as the whole site.
+          grep -q -- 'only-shared' workers/r2-sync/batch/publish.mjs \
+            || { echo "::error::The built commit's publish.mjs has no --only-shared; refusing to publish."; exit 1; }
+          node workers/r2-sync/batch/publish.mjs --dist dist --only-shared
+      # Pages refuses a deployment over 100,000 files, and the HTML pages alone are about 180,000. The site Worker serves
+      # every page from R2 and the rest from the assets layer, so Pages gets the same assets-only folder the Worker got.
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4"
+          # The checkout above is a detached HEAD, so name the production branch and the
+          # built commit explicitly instead of letting wrangler read them from git.
+          command: pages deploy dist-assets --project-name=${{ steps.env.outputs.pages_project }} --branch=main --commit-hash=${{ steps.build.outputs.sha }} --commit-dirty=false
+      - name: Smoke test the shared parts (informative; a non-200 is reported, not fatal)
+        env:
+          SITE_URL: ${{ steps.env.outputs.site_url }}
+        run: |
+          set -u
+          echo "### Smoke test: $SITE_URL" >> "$GITHUB_STEP_SUMMARY"
+          echo >> "$GITHUB_STEP_SUMMARY"
+          bad=0
+          for p in / /brand/logo-mark.svg /api/v1/meta/deploy.json /api/v1/meta/counts.json /robots.txt /sitemap-index.xml /feed.xml /llms.txt; do
+            code=$(curl -s -o /dev/null -L -w '%{http_code}' --max-time 30 "$SITE_URL$p" || echo "000")
+            echo "- \`$p\` → $code" >> "$GITHUB_STEP_SUMMARY"
+            [ "$code" = "200" ] || bad=$((bad + 1))
+          done
+          [ "$bad" -eq 0 ] || echo "::warning::$bad of the smoke-test paths did not answer 200 on $SITE_URL."
+      - name: Record what was deployed
+        env:
+          RUN_ID: ${{ steps.build.outputs.run_id }}
+          SHA: ${{ steps.build.outputs.sha }}
+          TITLE: ${{ steps.build.outputs.title }}
+          CREATED: ${{ steps.build.outputs.created }}
+          SITE_URL: ${{ steps.env.outputs.site_url }}
+        run: |
+          {
+            echo
+            echo "Deployed the **shared parts** of language build **$RUN_ID** to **$ENVIRONMENT** ($SITE_URL): commit \`$SHA\` ($TITLE), built $CREATED. No language's pages or search index were touched."
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -4,7 +4,7 @@
 // navigates without JavaScript; the script (site/src/scripts/prophets-tree.ts) adds the growth, the lit path to the
 // root and the detail panel, whose text is cloned from the outline list rendered below the drawing. The build fails
 // if a drawn branch has no edge behind it (checkMessengersTree).
-import { ui, fmt, type Lang } from "../lib/i18n";
+import { ui, fmt, ARABIC_SCRIPT, type Lang } from "../lib/i18n";
 import { byId, graph, href, labelOf, summaryOf, edgesFrom } from "../lib/graph";
 import { num } from "../lib/nav";
 import { messengerSubjectsById } from "../lib/messengers";
@@ -173,7 +173,7 @@ const legend: [string, string][] = [["child", R.legend.child], ["vine", R.legend
   </ul>
   <div class="pt-wrap">
     <figure class="pt-figure">
-      <svg class="pt-svg" viewBox={`0 0 ${TREE_WIDTH} ${f(TREE_HEIGHT)}`} role="group" aria-labelledby="prophets-tree-title" direction={lang === "en" ? "ltr" : "rtl"}>
+      <svg class="pt-svg" viewBox={`0 0 ${TREE_WIDTH} ${f(TREE_HEIGHT)}`} role="group" aria-labelledby="prophets-tree-title" direction={ARABIC_SCRIPT.includes(lang) ? "rtl" : "ltr"}>
         <g class="pt-deco" aria-hidden="true">
           <circle cx="110" cy={f(treeY(5.7))} r="118" /><circle cx="290" cy={f(treeY(8.2))} r="176" /><circle cx="470" cy={f(treeY(8.6))} r="96" />
           <circle cx="270" cy={f(treeY(11.4))} r="168" /><circle cx="280" cy={f(treeY(13.4))} r="112" /><circle cx="280" cy={f(treeY(2.9))} r="150" />

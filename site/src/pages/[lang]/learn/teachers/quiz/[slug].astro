@@ -4,7 +4,7 @@
 import BaseLayout from "../../../../../layouts/BaseLayout.astro";
 import ClassroomQuiz from "../../../../../components/ClassroomQuiz.astro";
 import { labelOf } from "../../../../../lib/graph";
-import { ui, LANGS, type Lang } from "../../../../../lib/i18n";
+import { ui, LANGS, type Lang, ALL_LANGS } from "../../../../../lib/i18n";
 import { pathwayPath, pathwayQuizPath, pathways, pathwaySlug } from "../../../../../lib/pathways";
 import type { Node } from "../../../../../../../scripts/build-graph";
 
@@ -14,7 +14,7 @@ export function getStaticPaths() {
 const { node: n, lang } = Astro.props as { node: Node; lang: Lang };
 const E = ui(lang).edu;
 const path = pathwayQuizPath(lang, n);
-const alternates = Object.fromEntries(LANGS.map((l) => [l, pathwayQuizPath(l, n)]));
+const alternates = Object.fromEntries(ALL_LANGS.map((l) => [l, pathwayQuizPath(l, n)]));
 ---
 <BaseLayout lang={lang} title={`${E.cq_title}: ${labelOf(n, lang)}`} description={E.cq_lede} path={path} alternates={alternates}>
   <div class="wrap edu" style="padding-block:10px 24px">

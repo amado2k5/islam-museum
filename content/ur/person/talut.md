@@ -11,7 +11,7 @@ translators: ["Claude (Haiku 5.5), draft translation"]
 شعراوی بیان کرتے ہیں کہ بنی اسرائیل نے اعتراض کیا کہ طالوت سرداروں میں سے نہیں اور ان کے پاس مال نہیں۔ جواب دیا گیا کہ اللہ نے انہیں چن لیا اور علم اور جسم میں وسعت دی۔ ان کے نزدیک انتخاب حکمت اور اہلیت پر ہے، قرابت یا جاہ پر نہیں {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1046} {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1047}۔
 
 ## بادشاہت کی نشانی
-اللہ نے ان کی بادشاہت کی نشانی یہ رکھی کہ تابوت ان کے پاس آئے، جس میں اللہ کی طرف سے سکینہ ہے ([[concept/sacred-relics-and-sakina|تابوت اور سکینہ]] دیکھیں) {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1048}۔
+اللہ نے ان کی بادشاہت کی نشانی یہ رکھی کہ تابوت ان کے پاس آئے، جس میں اللہ کی طرف سے سکینہ ہے ⁦([[concept/sacred-relics-and-sakina|تابوت اور سکینہ]] دیکھیں)⁩ {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1048}۔
 
 ## دریا کی آزمائش
 شعراوی بیان کرتے ہیں کہ طالوت نے دریا کے ذریعے اپنے لشکر کو آزمایا۔ جو زیادہ پی گیا وہ نکل گیا، اور جس نے صرف ایک چلو لیا وہ باقی رہا۔ اکثر نے پیا، سوائے تھوڑوں کے {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1052} {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1053} {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1054}۔ وہ اسے سزا نہیں بلکہ امتحان سمجھتے ہیں {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1054}۔ اس کے بعد داود نے یہ کام انجام دیا {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1057}۔

@@ -15,7 +15,7 @@ const E = T.edu;
 const path = `/${lang}/learn/parents/weekly/`;
 const stamps = viewStamps(lang);
 const acts = loadFamilyActivities();
-const pick = (o: { ar: string; en: string; ur?: string }) => o[lang] ?? o.ar;
+const pick = (o: { ar: string; en: string; ur?: string; fr?: string }) => o[lang] ?? o.ar;
 ---
 <BaseLayout lang={lang} title={E.wk_title} description={E.wk_lede} path={path}>
   <div class="wrap edu weekly" style="padding-block:10px 24px" data-weekly>

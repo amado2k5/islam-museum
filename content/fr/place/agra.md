@@ -1,0 +1,22 @@
+---
+id: place/agra
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/agra.md}
+---
+## Résumé
+Agra est une ville située sur les rives de la Yamuna, dans l'Uttar Pradesh, au nord de l'Inde. Elle fut la capitale des Lodi et des Moghols, et ses monuments, dont le Taj Mahal, comptent parmi les plus célèbres de l'architecture moghole.
+
+## Compte de l'Encyclopédie de l'Islam
+Agra, située sur les rives de la Yamuna, est le chef-lieu d'une division et d'un district de l'Uttar Pradesh. En 1951, elle comptait environ 375 000 habitants, dont 15,6 % de musulmans. Son histoire ancienne est peu connue, mais sa fondation remonte bien avant les invasions musulmanes. La première mention de la ville et de son ancienne forteresse figure dans une qasida à la gloire du prince ghaznévide Mahmud ben Ibrahim, composée par le poète Mas'ud ben Sa'd ben Salman, qui évoque la conquête de la forteresse par le sultan Mas'ud III (1099-1115). La ville était alors gouvernée par des chefs rajputs sous l'autorité du sultanat de Delhi. {cite:encyclopaedia-of-islam-2 vol. 1 p. 274}
+
+Le sultan Sikandar Lodi reconstruisit la ville en 911/1505 et en fit le siège de son gouvernement ; elle attira des érudits de tout le monde musulman. Elle fut la capitale d'Ibrahim Lodi (923-932/1517-1526), puis, après la victoire de Babur en 932/1526, elle devint sa capitale. Babur y fit construire le palais de Charbagh et y aménagea des jardins et des bains. Humayun et Shir Shah contrôlèrent la ville, mais y séjournèrent rarement. {cite:encyclopaedia-of-islam-2 vol. 1 p. 274}
+
+Akbar fit d'Agra sa capitale à partir de 965/1558 et entreprit la construction du fort en 972/1565 sur le site de la forteresse Lodi de Badal Gadh ; avant même son achèvement, il commença celle de Fatehpur Sikri. Jahangir et Shah Jahan montèrent tous deux sur le trône à Agra. Shah Jahan partit ensuite pour Delhi, où il fonda Shahjahanabad. Il fut emprisonné dans le fort par son fils Aurangzeb, qui y tint cour pendant un certain temps, et y mourut en 1076/1666. Au XVIIe siècle, la cour séjourna rarement longtemps à Agra, mais la ville comptait toujours parmi les capitales de l'empire, et les voyageurs européens la comparaient par sa taille à Paris, Londres et Constantinople. Elle était réputée pour ses textiles, ses incrustations d'or, ses ouvrages en pierre et en marbre, ainsi que pour son cristal. {cite:encyclopaedia-of-islam-2 vol. 1 p. 274}
+
+Au XVIIIe siècle, la ville souffrit des Jats, des Marathes et des Rohillas. La souveraineté moghole demeura nominale jusqu'à l'annexion de la ville par les Britanniques en 1803. {cite:encyclopaedia-of-islam-2 vol. 1 p. 274}
+
+Le fort d'Agra, construit par Akbar entre 1565 et 1573 environ, est une forteresse semi-circulaire à double enceinte en grès rouge, située sur les rives de la Yamuna. Les édifices en pierre rouge d'Akbar, notamment les palais Akbari et Bangali ainsi que le palais Jahangiri, subsistent, mais Shah Jahan en fit démolir un grand nombre pour y construire ses structures en marbre, parmi lesquelles le Khass Mahal, le Shish Mahal, le Musamman Burj, le Diwan-i Khass, le Diwan-i Amm et la Moti Masjid. La Jami Masjid fut construite en 1058/1648 par Jahanara Begam. {cite:encyclopaedia-of-islam-2 vol. 1 p. 274}
+
+Le tombeau d'Akbar à Sikandara fut construit sous le règne de Jahangir, sur un site choisi par Akbar lui-même, en cinq terrasses de hauteur décroissante. Le tombeau d'I'timad al-Dawla, édifié par sa fille Nur Jahan et achevé en 1628, est le premier grand édifice d'Inde entièrement construit en marbre. Le Taj Mahal fut construit par Shah Jahan pour Mumtaz Mahal (Arjumand Banu Begam), décédée à Burhanpur en 1631. Les travaux commencèrent peu après sa mort. Le marbre blanc provenait de Jodhpur. Le dôme central mesure environ 17,7 mètres de diamètre. Les architectes étaient supervisés par Makramat Khan et Mir 'Abd al-Karim. La tradition selon laquelle un Italien, Geronimo Veroneo, l'aurait conçu ne trouve aucun fondement dans les chroniques mogholes ni dans les récits des voyageurs européens, et la ressemblance frappante du bâtiment avec le tombeau d'Humayun à Delhi suggère une conception moghole. {cite:encyclopaedia-of-islam-2 vol. 1 p. 274}

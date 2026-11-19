@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/umayyad]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0731~", hijri: "0113~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد استشهاد الجرّاح (البلاذري ص 290–292). التحويل مشتق." }
+  start: { edtf: "0731~", hijri: "0113~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد استشهاد الجرّاح ⁦(البلاذري ص 290–292)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/bab-al-abwab }
   - { type: occurred_at, target: place/armenia }
@@ -22,7 +22,7 @@ relations:
   - { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 290–292"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 290–292"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-18
 sides:

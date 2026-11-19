@@ -1,0 +1,9 @@
+---
+id: concept/ilaj-al-rabw-wa-diq-al-nafs
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/ilaj-al-rabw-wa-diq-al-nafs.md}
+---
+## Le traitement de l'asthme et du rétrécissement des voies respiratoires
+Les affections dues à une intoxication par les vapeurs de fumée qui envahissent le cœur et à la présence d'humeurs dans les artères peuvent bénéficier d'une saignée (mentionnée dans le texte, bien que la veine ne soit pas nommée). Le traitement des affections dues au vent vise à dissoudre ce qui résiste, par des onctions d'huile et des cataplasmes sur la poitrine et les flancs. Les affections dues au catarrhe nécessitent de s'attaquer aux sécrétions nasales et de dissoudre les mucosités accumulées. Le traitement de l'affection suspectée d'être une mauvaise haleine due à une respiration étroite, mais qui ne relève pas du chapitre consacré à ce sujet, est décrit dans le chapitre sur la difficulté à respirer. Les affections dues à la respiration bénéficient de la consommation de laits, de jus de fruits, d'huiles hydratantes froides et d'une boisson légère, et de l'évitement des aliments réchauffants, dissolvants et asséchants puissants ; les lotions hydratantes, les onguents et les pommades douces lui conviennent. Les affections dues à la chaleur avec brûlure sont traitées avec des onguents rafraîchissants ; il s'agit en réalité d'une mauvaise haleine, et non d'une respiration étroite. Les personnes froides prennent les ivrognes et les réchauffeurs enduits (les noms des médicaments, huiles, cataplasmes, potions, fumigations, lavements, formules et mesures sont tous exclus selon la règle) {cite:canon-ibn-sina-print-v2 p.320}

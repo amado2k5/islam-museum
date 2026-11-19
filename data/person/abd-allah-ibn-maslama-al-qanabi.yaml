@@ -1,6 +1,6 @@
 id: person/abd-allah-ibn-maslama-al-qanabi
 class: person
-label: { ar: "عبد الله بن مسلمة القعنبي", en: "Abd Allah ibn Maslama al-Qanabi" }
+label: { ar: "عبد الله بن مسلمة القعنبي", en: "Abd Allah ibn Maslama al-Qanabi", fr: "Abd Allah ibn Maslama al-Qanabi" }
 names:
   - { kind: full, lang: ar, value: "أبو عبد الرحمن عبد الله بن مسلمة بن قعنب القعنبي المدني" }
 gender: male
@@ -10,6 +10,7 @@ died: { edtf: "0831", hijri: "0216", calendar: julian, precision: year, status: 
 summary:
   ar: "الحافظ العابد الحجة من أهل المدينة المنورة، وراوية كبير للحديث."
   en: "A memorizing, devout and authoritative hadith scholar from Medina."
+  fr: "Spécialiste du hadith de Médine, mémorisateur, dévot et faisant autorité."
 wings: [people]
 themes: [scripture-and-its-sciences]
 periods: [period/abbasid-early]
@@ -22,7 +23,7 @@ status:
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج7 ص196"
+  source: "موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج7 ص196"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch47
@@ -33,4 +34,4 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/mawsuat-a3lam-ulama-adaba]
 relations:
-  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (المدني); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name ⁦(المدني)⁩; denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

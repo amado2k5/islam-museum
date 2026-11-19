@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b55, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/139-140" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b55, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/139-140" }
 ---
 ## خلاصہ
 حسن بن ابی جعفر حفری عبادت گزار قاری تھے، جو محنت اور کوشش میں ممتاز تھے، اور عبادت گزار مومن جنوں کے ساتھی بھی۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں صفحات 139 اور 140 پر ان کا ترجمہ لکھا ہے۔ چھپا ہوا نمبر 493 ہے، اور تسلسل کے لحاظ سے غالباً 494 ہے۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/139}

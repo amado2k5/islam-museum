@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b64, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/150-151" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b64, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/150-151" }
 ---
 ## خلاصہ
 ابو عبد اللہ محمد بن اسحاق کوفی اللہ سے ملاقات کے لیے کمر بستہ اور جدائی سے محفوظ رہنے والے تھے۔ وہ اوقات کی حفاظت کرتے اور ان کے ضائع ہونے پر افسوس کرتے تھے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 514)⁩ صفحات 150 اور 151 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 514 ہے، تسلسل میں 515۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/150} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/151}

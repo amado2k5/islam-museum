@@ -1,0 +1,28 @@
+---
+id: work/mirat-al-zaman
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/work/mirat-al-zaman.md}
+---
+## Résumé
+Mir'at al-zaman fi tawarikh al-a'yan ("Le miroir du temps dans les histoires des notables") est une histoire universelle de Shams al-Din Abu al-Muzaffar Yusuf ibn Qizoghlu, [[person/sibt-ibn-al-jawzi|Sibt ibn al-Jawzi]] (581-654 H), publiée par Dar al-Risala al-Alamiyya à Damas en vingt-trois volumes en 1434/2013. {cite:mirat-al-zaman-risala-2013-v1 p.1} {cite:mirat-al-zaman-risala-2013-v1 p.4}
+
+## La préface de l'auteur et son plan
+L'auteur explique que les motivations des lecteurs de récits diffèrent : certains préfèrent les vies des anciens et des sages, d'autres les histoires des prophètes, des califes, des rois, des vizirs et des hommes de lettres, d'autres encore les vies des ascètes et des justes, et certains recherchent la conduite d'un homme prudent pour apprendre à bien gérer, ou les traces d'un homme insouciant pour en tirer des leçons. {cite:mirat-al-zaman-risala-2013-v1 p.6} Puisque les récits historiques ont souvent tendance à « mêler le maigre au gras, le faible au sain, et que la répétition est vaine », il a sollicité l'inspiration divine pour composer cet ouvrage. {cite:mirat-al-zaman-risala-2013-v1 p.6}
+
+Son plan consiste à commencer par la création des cieux et de la terre, puis à aborder la vie du Prophète, ensuite les événements de chaque année et les personnalités qui y sont décédées, en comptant les années depuis la naissance du Prophète ; dans ses critiques et ses éloges des transmetteurs, il suit les autorités antérieures « car cela ne dépend pas de preuves » ; et il l’intitule Mir’at al-zaman fi tawarikh al-a’yan « afin que le nom corresponde à ce qu’il nomme ». {cite:mirat-al-zaman-risala-2013-v1 p.6} Il le préface par cinq fasls : sur la signification de ta’rikh et sur la distinction que les Arabes faisaient avec tawrikh ; sur les principaux récits historiques et chaînes de transmission ; sur la durée du monde ; sur le style correct qu’un auteur doit adopter ; et sur les titres des chapitres. {cite:mirat-al-zaman-risala-2013-v1 p.7}
+
+## Sur la connaissance de l'histoire
+Le premier chapitre s'ouvre sur la lecture, par l'auteur, sous la direction de son maître [[person/al-kindi-abu-al-yumn|Abu al-Yumn Zayd ibn al-Hasan al-Kindi]] à Damas en 604 H, de l'ouvrage al-Mu'arrab d'al-Jawaliqi. Ce dernier affirme que le système de datation utilisé n'est pas purement arabe, que les musulmans l'ont emprunté aux Gens du Livre, et que leur ère, depuis l'Hégire, a été établie sous le règne d'Umar. {cite:mirat-al-zaman-risala-2013-v1 p.9} Il cite al-Jawhari, selon lequel ta'rikh et tawrikh ont la même signification, et al-Asma'i, qui rapporte que Tamim dit warrakhtu et Qays arrakhtu. {cite:mirat-al-zaman-risala-2013-v1 p.9} Il énumère ensuite les différents points de vue sur l'origine de la datation : de la descente d'Adam au Déluge, puis le feu d'Abraham, puis les époques de Joseph, Moïse, David, Salomon et Jésus, telles que rapportées par al-Sha'bi ; le récit d'al-Waqidi sur les ères arabes jusqu'à l'Année de l'Éléphant ; Les Himyar se souviennent de leurs rois Tubba', les Arabes de leurs célèbres batailles, les Perses de leurs rois, les Romains du meurtre de Darius, les Coptes de Nabuchodonosor et les Juifs de la destruction de Jérusalem. {cite:mirat-al-zaman-risala-2013-v1 p.10} {cite:mirat-al-zaman-risala-2013-v1 p.11}
+
+## L'auteur comme témoin de son âge
+Dans le volume 22 (588-654 H), édité par Ibrahim al-Zaybaq, il écrit souvent « l'auteur a dit » lorsqu'il raconte ce qu'il a vu : {cite:mirat-al-zaman-risala-2013-v22 p.1}
+- Il affirme avoir écrit un commentaire sur Ruh al-arifin, dans lequel le calife al-Nasir li-Din Allah a rassemblé les licences qui lui avaient été accordées, et que ce commentaire se trouve dans la fondation Ashrafiyya Dar al-Hadith à Damas. {cite:mirat-al-zaman-risala-2013-v22 p.171}
+- Il relate sa séance à la mosquée de Damas le samedi 5 Rabi' I 607 H, au cours de laquelle il fit apporter les entraves pour les chevaux des combattants, confectionnées avec des cheveux de pénitents, ainsi que sa marche vers Naplouse pour la campagne avec [[person/al-malik-al-muazzam|al-Malik al-Mu'azzam Isa]]. Voir [[event/sibt-jihad-sermon-607|la séance de Sibt ibn al-Jawzi de l'an 607 H]]. {cite:mirat-al-zaman-risala-2013-v22 p.172} {cite:mirat-al-zaman-risala-2013-v22 p.173}
+- En 613, il se rendit à Khilat, prêcha dans la mosquée de Harran à la demande d' [[person/al-malik-al-ashraf|al-Malik al-Ashraf]] en présence du prédicateur [[person/fakhr-al-din-ibn-taymiyya|al-Fakhr ibn Taymiyya]], puis rencontra al-Malik al-Mu'azzam entre Maslama et al-Raqqa, qui lui donna son chameau et prit son cheval ; il fit une retraite à al-Raqqa et al-Ashraf l'équipa ensuite pour le hajj. {cite:mirat-al-zaman-risala-2013-v22 p.207}
+- En 626, il prêcha dans la mosquée de Damas à la suggestion d'al-Nasir Dawud, après [[person/al-malik-al-kamil|qu'al-Kamil]] eut remis Jérusalem à l'empereur, et évoqua le sort de la Maison sainte. Voir [[event/jerusalem-cession-626|la cession de Jérusalem, 626 H]]. {cite:mirat-al-zaman-risala-2013-v22 p.296}
+
+## L'édition
+Chaque volume de l'édition Risala a son propre éditeur ; ces éditeurs utilisent plusieurs manuscrits identifiés par des lettres et placent leurs ajouts entre crochets. {cite:mirat-al-zaman-risala-2013-v1 p.5} {cite:mirat-al-zaman-risala-2013-v22 p.172}

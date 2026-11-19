@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b53, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/138-139" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b53, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/138-139" }
 ---
 ## خلاصہ
 ابو محرز طفاوی عبادت اور کوشش میں محنت کرنے والے تھے اور اگلے بزرگوں سے ملے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 491)⁩ صفحات 138 اور 139 پر ان کا ترجمہ لکھا ہے۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/138}

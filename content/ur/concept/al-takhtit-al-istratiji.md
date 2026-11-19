@@ -12,7 +12,7 @@ translators: ["Devin (SWE-2 High)"]
 اور وہ کہتے ہیں کہ سٹریٹجک منصوبہ بندی کی ذمہ داری پلاننگ ڈیپارٹمنٹ کی ہے جبکہ آپریشنل منصوبے کی خود وہی محکمہ یا شعبہ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:10:00}۔
 
 ## سٹریٹجک منصوبہ بندی کے طریقے
-ان کے بقول سٹریٹجک منصوبہ بندی کے تیرہ معروف سائنسی طریقے ہیں جن میں منصوبہ بندی بہ سنیاریو، PMSP، «مستقبل کے لیے مقابلہ»، سواٹ (SWOT) اور فائفر کا طریقہ ہیں؛ دنیا کے 87 فیصد منصوبے سواٹ سے لکھے جاتے ہیں کیونکہ لوگ اس کے سوا کچھ نہیں جانتے، اور سواٹ سے لکھے گئے 70 فیصد سٹریٹجک منصوبے ناکام ہوئے (needs_source: دونوں اعداد مقرر کے ہی بیان میں ہیں) {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:10:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:36:30}۔
+ان کے بقول سٹریٹجک منصوبہ بندی کے تیرہ معروف سائنسی طریقے ہیں جن میں منصوبہ بندی بہ سنیاریو، PMSP، «مستقبل کے لیے مقابلہ»، سواٹ (SWOT) اور فائفر کا طریقہ ہیں؛ دنیا کے 87 فیصد منصوبے سواٹ سے لکھے جاتے ہیں کیونکہ لوگ اس کے سوا کچھ نہیں جانتے، اور سواٹ سے لکھے گئے 70 فیصد سٹریٹجک منصوبے ناکام ہوئے ⁦(needs_source: دونوں اعداد مقرر کے ہی بیان میں ہیں)⁩ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:10:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:36:30}۔
 وہ فائفر کی کتاب Applied Strategic Planning کا طریقہ اپنے تجربے سے ترمیم کرکے پیش کرتے ہیں؛ اس کا پہلا قدم «منصوبہ بندی کے لیے منصوبہ بندی» ہے: پانچ سے سات افراد کی ٹیم جس میں اصل کاروبار، حریفوں، مالیات، انفارمیشن ٹیکنالوجی، انسانی وسائل، مارکیٹنگ اور منصوبہ بندی کو سمجھنے والے ہوں {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:12:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:15:30}۔
 
 ## ان کے اصول

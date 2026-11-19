@@ -1,9 +1,10 @@
 id: person/abd-al-wahhab-ibn-ibrahim
 class: person
-label: { ar: "عبد الوهاب بن إبراهيم الإمام", en: "Abd al-Wahhab ibn Ibrahim al-Imam" }
+label: { ar: "عبد الوهاب بن إبراهيم الإمام", en: "Abd al-Wahhab ibn Ibrahim al-Imam", fr: "Abd al-Wahhab ibn Ibrahim al-Imam" }
 summary:
   ar: "عبد الوهاب بن إبراهيم الإمام ابن إمام الدعوة إبراهيم بن محمد بن علي؛ عند البلاذري: وجّهه المنصور في سنة 140 والياً على الجزيرة وثغورها ومعه الحسن بن قحطبة في جنود أهل خراسان فقطع البعوث على أهل الشام والجزيرة فتوافى معه سبعون ألفاً فعسكر على ملطية يبنيها وقد جمع الفعلة من كل بلد، فماظّه إطعام الحسن بن قحطبة الناس من ماله فكتب إلى أبي جعفر يعاظمه فرد عليه «يا صبيّ يطعم الحسن من ماله وتطعم من مالي ما أتيت إلا من صغر خطرك وقلة همتك وسفه رأيك»."
   en: "Abd al-Wahhab ibn Ibrahim al-Imam, son of the da'wa's imam Ibrahim ibn Muhammad ibn Ali; in al-Baladhuri: al-Mansur sent him in year 140 as governor of the Jazira and its frontier with al-Hasan ibn Qahtaba among the Khurasani armies, proclaiming a levy on Syria and the Jazira until seventy thousand converged, and he camped on Malatya building it with labourers gathered from every land — when al-Hasan ibn Qahtaba's feeding of the people from his own purse nettled him he wrote to Abu Ja'far accusing him, and the answer came: 'O boy! al-Hasan feeds from his own money, and you feed from mine — nothing comes of you but smallness of worth, littleness of ambition and foolishness of opinion.'"
+  fr: "Abd al-Wahhab ibn Ibrahim al-Imam, fils de l'imam de la da'wa Ibrahim ibn Muhammad ibn Ali ; chez al-Baladhuri : al-Mansur l'envoya en l'an 140 comme gouverneur de la Jazira et de sa frontière avec al-Hasan ibn Qahtaba parmi les armées du Khorassan, proclamant une levée en Syrie et en Jazira jusqu'à ce que soixante-dix mille hommes convergent, et il campa à Malatya qu'il bâtit avec des ouvriers rassemblés de tous les pays — lorsque al-Hasan ibn Qahtaba, en nourrissant les gens de sa propre bourse, l'agaça, il écrivit à Abu Ja'far pour l'accuser, et la réponse vint : « Ô garçon ! al-Hasan nourrit de son propre argent, et toi tu nourris du mien — il ne vient de toi que petitesse de valeur, faiblesse d'ambition et sottise d'opinion. »"
 wings: [people]
 periods: [period/abbasid-early]
 born: { edtf: "743", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi: 126–206 AH)" }
@@ -13,7 +14,7 @@ relations:
   - { type: participated_in, target: event/rebuilding-of-malatya, role: "والي الجزيرة وثغورها وقائد البناء", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 263–264"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 263–264"
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: "prose-fill-persons-batch54"

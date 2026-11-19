@@ -1,15 +1,16 @@
 id: event/badr-expedition-setup
 class: event
 kind: campaign
-label: { ar: "التعبئة قبل بدر: عير أبي سفيان ونفير مكة وخروج النبي", en: "The build-up to Badr: Abu Sufyan's caravan, Mecca's muster and the Prophet's march" }
+label: { ar: "التعبئة قبل بدر: عير أبي سفيان ونفير مكة وخروج النبي", en: "The build-up to Badr: Abu Sufyan's caravan, Mecca's muster and the Prophet's march", fr: "Les préliminaires de Badr : la caravane d'Abu Sufyan, la levée de La Mecque et la marche du Prophète" }
 summary:
   ar: "خرج النبي في السنة الثانية للهجرة طلباً لعير أبي سفيان العائدة من الشام، فاستنفرت قريش نفيرها ليحموا عيرهم، ومضى الجيشان نحو بدر؛ وانسحب أبو سفيان بالعير إلى الساحل، فرجع بنو زهرة بقيادة الأخنس بن شريق، وسار جيش مكة نحو بدر، فاستكشف النبي أمرهم بالغلامين وبالشيخ."
   en: "In Ramadan of the second year of the Hijra the Prophet set out to intercept Abu Sufyan's caravan returning from Syria; Quraysh mustered to defend it, and the two armies moved towards Badr; Abu Sufyan turned the caravan to the coast, Banu Zuhra withdrew under al-Akhnas ibn Shariq, and the Meccan army pressed on to Badr, where the Prophet learned their numbers from two water-carriers."
+  fr: "En Ramadan de la deuxième année de l'hégire, le Prophète partit intercepter la caravane d'Abu Sufyan qui revenait de Syrie ; Quraysh se leva pour la défendre, et les deux armées avancèrent vers Badr ; Abu Sufyan détourna la caravane vers la côte, les Banu Zuhra se retirèrent sous al-Akhnas ibn Shariq, et l'armée mecquoise poursuivit jusqu'à Badr, où le Prophète apprit ses effectifs par deux porteurs d'eau."
 wings: [time]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0624-03~", calendar: julian, precision: month, status: tradition, note: "السنة الثانية للهجرة؛ يفصل الكتاب الشهر في موضع لاحق (الرحيق ص204)." }
+  start: { edtf: "0624-03~", calendar: julian, precision: month, status: tradition, note: "السنة الثانية للهجرة؛ يفصل الكتاب الشهر في موضع لاحق ⁦(الرحيق ص204)⁩." }
 relations:
   - { type: occurred_at, target: place/badr, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }

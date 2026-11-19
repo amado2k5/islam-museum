@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [arabia, levant-iraq]
 date:
-  start: { edtf: "0640", hijri: "0020", calendar: julian, precision: year, status: debated, derived: true, note: "في خلافة عمر بلا تأريخ في الكتاب؛ المشهور نحو 20هـ — تقريبي ومشتق. (البلاذري ص 88–90)." }
+  start: { edtf: "0640", hijri: "0020", calendar: julian, precision: year, status: debated, derived: true, note: "في خلافة عمر بلا تأريخ في الكتاب؛ المشهور نحو 20هـ — تقريبي ومشتق. ⁦(البلاذري ص 88–90)⁩." }
 relations:
   - { type: occurred_at, target: place/najran }
   - { type: occurred_at, target: place/al-najraniyya }
@@ -24,7 +24,7 @@ relations:
   - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 88–92"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 88–92"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-3
 sources: [source/futuh-buldan-maarif-1407]

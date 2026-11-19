@@ -3,7 +3,7 @@ class: person
 label: { ar: "الغرور بن المنذر", en: "al-Gharur ibn al-Mundhir", fr: "Al-Gharur ibn al-Mundhir" }
 names:
   - { kind: full, lang: ar, value: "الغرور بن المنذر بن النعمان بن المنذر اللخمي" }
-  - { kind: alternate, lang: ar, value: "المنذر بن المنذر (اسمه عند السهيلي، ولُقّب الغرور)" }
+  - { kind: alternate, lang: ar, value: "المنذر بن المنذر ⁦(اسمه عند السهيلي، ولُقّب الغرور)⁩" }
 gender: male
 roles: [politician]
 summary:
@@ -15,7 +15,7 @@ themes: [civil-wars-and-revolts]
 periods: [period/rashidun]
 regions: [arabia]
 story_roles:
-  - { role: rebel, toward: polity/rashidun-caliphate, start: { edtf: "0632" }, status: tradition, note: "قاد ردة بعض عبد القيس بالبحرين (ابن هشام ص222).", sources: [source/ibn-hisham-saqqa] }
+  - { role: rebel, toward: polity/rashidun-caliphate, start: { edtf: "0632" }, status: tradition, note: "قاد ردة بعض عبد القيس بالبحرين ⁦(ابن هشام ص222)⁩.", sources: [source/ibn-hisham-saqqa] }
 died: { edtf: "633", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }

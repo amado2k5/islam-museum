@@ -20,7 +20,7 @@ regions: [persia-central-asia]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 relations:
-  - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name (الشيرازي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/anwar-al-tanzil-halabi-1330-v4, source/anwar-al-tanzil-fleischer-v1, source/tafsir-manar-v02], confidence: low }
+  - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name ⁦(الشيرازي)⁩; denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/anwar-al-tanzil-halabi-1330-v4, source/anwar-al-tanzil-fleischer-v1, source/tafsir-manar-v02], confidence: low }
   - { type: authored, target: work/anwar-al-tanzil, sources: [source/kashf-zunun-furqan] }
 external_ids: { wikidata: "Q287573", viaf: "44541329", biblissima: Q16817 }
 sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/anwar-al-tanzil-halabi-1330-v4, source/anwar-al-tanzil-fleischer-v1, source/tafsir-manar-v02, source/wikidata, source/biblissima, source/oxford-dictionary-of-islam]
@@ -29,7 +29,7 @@ status:
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص288"
+  source: "موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج4 ص288"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch51

@@ -1,0 +1,34 @@
+---
+id: work/rihla-ibn-battuta
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/work/rihla-ibn-battuta.md}
+---
+## Resumen
+*Tuhfat al-nuzzar fi ghara'ib al-amsar wa-'aja'ib al-asfar* ("Un regalo para los espectadores sobre las curiosidades de las ciudades y las maravillas de los viajes"), conocido como la Rihla de Ibn Battuta, es lo que el viajero [[person/ibn-battuta-muhammad|Abu Abd Allah Muhammad ibn Abd Allah al-Lawati al-Tanji]] dictó de lo que había visto, escrito por [[person/ibn-juzayy-muhammad|Muhammad ibn Muhammad ibn Juzayy al-Kalbi]] por orden del sultán mariní [[person/abu-inan-faris|Abu Inan]]. {cite:rihla-ibn-battuta-khayriyya-1904 p.14} La redacción se terminó el 3 de Dhu al-Hijja 756 AH. {cite:rihla-ibn-battuta-khayriyya-1904 p.566}
+
+## Cómo fue escrito
+Ibn Juzayy dice en su prefacio que Ibn Battuta, habiendo viajado por la tierra y cruzado sus climas, se estableció en la corte de Fez, donde el sultán le ordenó que dictara las ciudades que había visto, los raros relatos que recordaba y los reyes, eruditos y santos que había conocido, y le ordenó a Ibn Juzayy que recopilara el dictado en un libro. {cite:rihla-ibn-battuta-khayriyya-1904 p.14} Ibn Juzayy describe su trabajo: transmitió el significado de las palabras del shaykh con sus propias palabras, a veces manteniendo sus palabras exactas; incluyó cada historia y relato que contó, "y no me comprometí a investigar o comprobar su veracidad"; vocalizó nombres difíciles de lugares y personas, y explicó nombres extranjeros cuando pudo. {cite:rihla-ibn-battuta-khayriyya-1904 p.14} {cite:rihla-ibn-battuta-khayriyya-1904 p.15} Los pasajes que comienzan con "Ibn Juzayy dice" añaden relatos, versos o comentarios. {cite:rihla-ibn-battuta-khayriyya-1904 p.15} {cite:rihla-ibn-battuta-khayriyya-1904 p.21}
+
+## El viaje en dos partes
+El texto comienza con Ibn Battuta diciendo que partió de Tánger, su lugar de nacimiento, el jueves 2 de Rajab del año 725 de la Hégira para realizar la peregrinación y visitar la tumba del Profeta, solo, sin acompañante, a la edad de veintidós años. {cite:rihla-ibn-battuta-khayriyya-1904 p.15}
+
+**La primera parte** pasa por Túnez, Alejandría, Egipto, Siria, Medina y La Meca, luego Irak y Persia, Yemen y el Mar Rojo y las costas de África Oriental desde Sawakin hasta Mogadiscio y Kilwa, Omán, Ormuz y el Golfo, luego Anatolia y sus sultanes, las tierras del sultán Muhammad Uzbek y Constantinopla, Corasmia, Transoxiana y Jorasán, y termina en "Panj Ab", las aguas del Indo, cuando apareció la luna nueva de Muharram 734 AH. {cite:rihla-ibn-battuta-khayriyya-1904 p.7} {cite:rihla-ibn-battuta-khayriyya-1904 p.9} {cite:rihla-ibn-battuta-khayriyya-1904 p.10} {cite:rihla-ibn-battuta-khayriyya-1904 p.312}
+
+**La segunda parte** comienza con el viaje por el Indo y las tierras de la India; describe Delhi, sus murallas y mezquita congregacional y la historia de sus reyes, luego se centra en el sultán [[person/muhammad-ibn-tughluq|Muhammad Shah ibn Tughluq]], quien lo nombró juez de Delhi, luego de las Maldivas, Ceilán y China, el regreso al Magreb, al-Ándalus, y el viaje a las tierras de Sudán y Malí, terminando con su llegada a Fez. {cite:rihla-ibn-battuta-khayriyya-1904 p.568} {cite:rihla-ibn-battuta-khayriyya-1904 p.572} {cite:rihla-ibn-battuta-khayriyya-1904 p.15} {cite:rihla-ibn-battuta-khayriyya-1904 p.354} {cite:rihla-ibn-battuta-khayriyya-1904 p.412} {cite:rihla-ibn-battuta-khayriyya-1904 p.566}
+
+## Cómo está organizado el material
+El libro divide su material bajo encabezados que comienzan con "Relato de": el sultán de la ciudad, sus jueces, sus eruditos, sus mezquitas y santuarios, las costumbres de su gente. {cite:rihla-ibn-battuta-khayriyya-1904 p.7} {cite:rihla-ibn-battuta-khayriyya-1904 p.8} Ibn Battuta describe lo que vio, a veces con la fecha de su visita, como cuando dice que vio por primera vez el [[place/al-manara-iskandariyya|Faro de Alejandría]] con un lado en ruinas y lo encontró, a su regreso en 750 H, tan arruinado que no se podía entrar. {cite:rihla-ibn-battuta-khayriyya-1904 p.20} Separa lo que vio de lo que le contaron: lo que dice de los reyes de la India lo aprendió, total o mayormente, del juez principal Kamal al-Din ibn al-Burhan al-Ghaznawi, mientras que la mayor parte de lo que relata de Muhammad Shah lo presenció, y jura por Dios que lo que cuenta sobre la generosidad del sultán es "cierta verdad". {cite:rihla-ibn-battuta-khayriyya-1904 p.354} {cite:rihla-ibn-battuta-khayriyya-1904 p.355}
+
+## Ejemplos de su contenido
+- **Alejandría**: el Faro y el Pilar de las Columnas, y la hazaña de un arquero que escaló el pilar con una flecha y una cuerda, tal como Ibn Juzayy la escuchó de uno de sus maestros. {cite:rihla-ibn-battuta-khayriyya-1904 p.20} {cite:rihla-ibn-battuta-khayriyya-1904 p.21}
+- **Delhi**: el palacio del sultán y sus tres puertas, la generosidad y la severidad de Muhammad Shah, y su traslado de la población de Delhi a Dawlatabad. {cite:rihla-ibn-battuta-khayriyya-1904 p.355} {cite:rihla-ibn-battuta-khayriyya-1904 p.378} {cite:rihla-ibn-battuta-khayriyya-1904 p.385}
+- **Las tierras de Sudán**: [[place/iwalatan|Iwalatan]], primera provincia de Sudán; la corte de [[person/mansa-sulayman|Mansa Sulayman]], sultán de Malí; y [[place/takedda|Takedda]] y su mina de cobre. {cite:rihla-ibn-battuta-khayriyya-1904 p.547} {cite:rihla-ibn-battuta-khayriyya-1904 p.551} {cite:rihla-ibn-battuta-khayriyya-1904 p.564}
+
+## La conclusión de Ibn Juzayy y la recepción del libro
+Ibn Juzayy concluye diciendo que lo que precede es su resumen del relato del shaykh, que Ibn Battuta es "el viajero de la época", y que quien lo llamara "el viajero de esta comunidad" no estaría equivocado, y que eligió Fez como su hogar después de veinticinco años de viaje. {cite:rihla-ibn-battuta-khayriyya-1904 p.566} En un apéndice de la primera parte, el corrector de la edición cita el *Muqaddima* de Ibn Khaldun sobre los relatos de Ibn Battuta sobre la India y los susurros en la corte de que mentía; véase [[question/credibility-of-ibn-battuta|la cuestión de creer los informes de Ibn Battuta]]. {cite:rihla-ibn-battuta-khayriyya-1904 p.313} {cite:rihla-ibn-battuta-khayriyya-1904 p.314}
+
+## La edición leía
+La primera edición en al-Matba'a al-Khayriyya en El Cairo, propiedad de Umar Husayn al-Khashshab, fue leída: dos partes cuyas portadas llevan el año 1322 H, impresión terminada en Safar 1323 H, corregida por Abd al-Jawad Khalaf. {cite:rihla-ibn-battuta-khayriyya-1904 p.11} {cite:rihla-ibn-battuta-khayriyya-1904 p.315} {cite:rihla-ibn-battuta-khayriyya-1904 p.567}

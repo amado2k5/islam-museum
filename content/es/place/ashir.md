@@ -1,0 +1,18 @@
+---
+id: place/ashir
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/place/ashir.md}
+---
+## Visión general
+Una ciudad conocida como Ashir Ziri, según al-Idrisi. Tiene una llanura arenosa y aguas de manantial, y se encuentra cerca de Sutayt. {cite:nuzhat-al-mushtaq-2002 p.256}
+
+## Enciclopedia del Islam: su fundación y los Ziríes
+Ashir es una antigua ciudad fortificada del norte de África, a unos 100 km al sur-suroeste de Argel, en las montañas Titeri. Aparece en la historia en la primera mitad del siglo IV/X, en el territorio de los Sanhaja, en la frontera occidental de su frontera. Los Sanhaja eran bereberes de las tierras altas que apoyaban a los fatimíes de Ifriqiya contra los Zanata de las llanuras de Orán, partidarios de los omeyas de Córdoba. Como recompensa por sus servicios a los fatimíes, especialmente durante la revuelta de Abu Yazid, en el año 324 de la Hégira (935 d. C.), Ziri obtuvo permiso del califa fatimí al-Qa'im para fundar una ciudad, lo que otorgó al jefe tribal gran parte del prestigio y la autonomía de un soberano. La entrada señala que al-Bakri e Ibn al-Athir atribuyen la ciudad fortificada de Ashir al hijo de Ziri, Bulukkin; al-Bakri la fecha en el año 364 de la Hégira (974 d. C.). La nueva ciudad fue poblada artificialmente con elementos traídos de Tobna, Msila, Hamza (ahora Bouira) y posteriormente de Tlemcen. {cite:encyclopaedia-of-islam-2 vol. 1 p. 748-750}
+
+## Enciclopedia del Islam: los Hammadíes y el fin
+Bulukkin, tras ser investido por el fatimí al-Mu'izz, quien partió de Ifriqiya hacia El Cairo en el año 363 de la Hégira (973 d. C.), dejó Ashir para dirigirse a al-Qayrawan, aunque su familia permaneció allí. La frontera del reino zirí fue confiada a los Banu Hammad, y Ashir pasó a formar parte de su territorio cuando su secesión fue reconocida mediante el acuerdo del año 408 de la Hégira (1017 d. C.). Su posesión fue disputada dentro de la familia; Yusuf ibn Hammad la tomó justo después del año 440 de la Hégira (1048 d. C.) y sus tropas la saquearon. En el año 468 de la Hégira (1076 d. C.) fue sitiada y ocupada por los Zanata, y posteriormente reconquistada por los Banu Hammad. En el año 495 de la Hégira (1101 d. C.), el gobernador almorávide de Tlemcen, Tashfin ibn Tinmar, la tomó y la destruyó. Restaurada una vez más por sus señores hammadíes, cayó alrededor del año 580 de la Hégira (1184 d. C.) ante Ghazi el Sanhaji, aliado de los Banu Ghaniya. Después de esta fecha, el nombre desaparece de la historia. {cite:encyclopaedia-of-islam-2 vol. 1 p. 748-750}
+
+## Enciclopedia del Islam: los tres sitios
+Tres yacimientos en Titeri, todos de origen musulmán, pueden interpretarse como tres fases de la Sanhaja Zirí. Manzah Bint al-Sultan es un recinto fortificado que corona una elevación rocosa de unos 276 metros de longitud, con una casa de guardia y una gran cisterna; era un refugio y puesto de observación más que una ciudad. Yashir, un recinto rectangular con un manantial llamado 'Ayn Yashir, reveló, según las excavaciones de ML Golvin, que contenía un castillo de piedra de planta simétrica, cuya entrada se asemeja a la del palacio fatimí de al-Qa'im en Mahdiyya; se identifica con la fundación de Ziri (324 H, 934-935). Benia, a dos kilómetros y medio de distancia al otro lado de un valle, es probablemente la ciudad de Bulukkin (364 H), que al-Bakri describe con exactitud. La bibliografía de la entrada no está transcrita. {cite:encyclopaedia-of-islam-2 vol. 1 p. 748-750}

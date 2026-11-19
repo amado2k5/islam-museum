@@ -1,0 +1,24 @@
+---
+id: group/dar-al-ulum
+lang: es
+source_lang: en
+translators: ["Claude Code (claude-sonnet-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (spanish lane, wave 5)", model: "claude-sonnet-5-5", run: "spanish-w5-2026-11-18", source: "content/en/group/dar-al-ulum.md" }
+---
+## Visión general
+Dar al-Ulum, la «Casa de las Ciencias», fue un colegio de enseñanza superior de El Cairo fundado en 1872 por [[person/ali-mubarak-pasha|Ali Pasha Mubarak]]. {cite:encyclopaedia-of-islam-2 vol. 2 p. 145} Su objetivo era ofrecer a un cierto número de estudiantes de al-Azhar un curso de cinco años en ramas modernas del saber para que pudieran enseñar en las nuevas escuelas. {cite:encyclopaedia-of-islam-2 vol. 2 p. 145} {cite:encyclopaedia-of-islam-2 vol. 2 p. 146} La misma Encyclopaedia tiene también artículos sobre otras instituciones del mismo nombre, en Deoband, Farangi Mahall y Lucknow; este registro se ocupa solo del colegio de El Cairo. {cite:encyclopaedia-of-islam-2 vol. 2 p. 146}
+
+## Fundación
+Un estudio de la educación egipcia dice que fue la primera escuela de formación de maestros, que había comenzado en 1871 como un programa de conferencias públicas para estudiantes reclutados de al-Azhar, y que al año siguiente se organizó como un colegio regular donde se estudiaban materias religiosas y seculares. {cite:encyclopaedia-of-islam-2 vol. 5 p. 369} El mismo estudio lo sitúa en el reinado del [[person/khedive-ismail|jedive Ismail]], cuando los presupuestos escolares se multiplicaron por diez. {cite:encyclopaedia-of-islam-2 vol. 5 p. 369} Otro artículo da 1871 como año de apertura para la formación de maestros de árabe. {cite:encyclopaedia-of-islam-2 vol. 2 p. 448} Las fuentes difieren, pues, en un año, y el propio artículo sobre Dar al-Ulum da 1872. {cite:encyclopaedia-of-islam-2 vol. 2 p. 145}
+
+## Plan de estudios y historia posterior
+Según el artículo, el plan de estudios se reformó varias veces, las ciencias exactas pasaron a un segundo plano a medida que surgían en El Cairo otros centros de enseñanza científica, y el curso se redujo a cuatro años. {cite:encyclopaedia-of-islam-2 vol. 2 p. 146} Desde 1946 es una facultad adscrita a la Universidad de El Cairo, entonces llamada Fuad I, y aspira a ser a la vez árabe e islámica y a ser el gran colegio musulmán de formación de maestros de Egipto, con secciones de lengua árabe y de estudios islámicos. {cite:encyclopaedia-of-islam-2 vol. 2 p. 146} Su diploma equivale a una licenciatura y puede ir seguido de una maestría o un doctorado. {cite:encyclopaedia-of-islam-2 vol. 2 p. 146} Desde 1951-2 se admitió a graduados de los institutos públicos junto con los estudiantes de al-Azhar, y desde 1953-4 a cierto número de mujeres. {cite:encyclopaedia-of-islam-2 vol. 2 p. 146} Antes la enseñanza era gratuita y los estudiantes recibían una pequeña suma mensual; más tarde se cobraron tasas, con concesiones para quienes se comprometían a enseñar. {cite:encyclopaedia-of-islam-2 vol. 2 p. 146}
+
+## Profesores y estudiantes mencionados en la Encyclopaedia
+En 1872 el ministro Ali Mubarak nombró al erudito ciego al-Husayn al-Marsafi profesor de disciplinas lingüísticas árabes allí; enseñó hasta 1888, y el artículo lo considera el primero en formular lo que se convirtió en el renacimiento literario, la nahda. {cite:encyclopaedia-of-islam-2 vol. 6 p. 629} Muhammad Abduh fue nombrado profesor allí en 1879. {cite:encyclopaedia-of-islam-2 vol. 7 p. 470} De Hasan al-Banna, en otro artículo, se dice que ingresó en él cuando aún era un colegio independiente de formación de maestros. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1078} Estudiantes del colegio fundaron el Nadi Dar al-Ulum en 1907 con el propósito declarado de arabizar las palabras extranjeras. {cite:encyclopaedia-of-islam-2 vol. 5 p. 158}
+
+## Bibliografía citada por el artículo
+La bibliografía del artículo nombra a Muhammad Abd al-Jawwad, Takwim Dar al-Ulum (El Cairo, 1952), con un suplemento para 1946-59. {cite:encyclopaedia-of-islam-2 vol. 2 p. 146}
+
+## En The Oxford Dictionary of Islam
+Según The Oxford Dictionary of Islam, Dar al-Ulum fue una universidad egipcia fundada en 1872 para preparar maestros en materias modernas, con un plan de estudios mixto de materias religiosas y no religiosas. Sus primeros estudiantes procedían de al-Azhar, la mezquita y universidad, y la enseñanza se apoyaba en la memorización; más tarde, ulemas modernistas y figuras laicas la encaminaron en otra dirección. El Dictionary dice que su presupuesto se mantuvo deliberadamente ajustado mientras los británicos controlaban Egipto, para que los egipcios con una educación moderna no pudieran cuestionar la autoridad de Londres. Añade que el colegio siguió siendo un híbrido moldeado por al-Azhar y por el gobierno, y que acabó sin razón de ser cuando las universidades estatales de Egipto asumieron la formación de maestros; se fusionó con la Universidad de El Cairo. {cite:oxford-dictionary-of-islam e498}

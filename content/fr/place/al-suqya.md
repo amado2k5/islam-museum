@@ -1,0 +1,15 @@
+---
+id: place/al-suqya
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/al-suqya.md}
+---
+## Vue d'ensemble
+al-Suqya : lieu situé sur la route de pèlerinage, à environ quarante-trois kilomètres d’al-Abwa. On y trouve un verger et des palmeraies, et il est habité par des Tayy et d’autres tribus arabes. {cite:nuzhat-al-mushtaq-2002 p.142}
+
+## Dans le Mu'jam al-buldan de Yaqut
+Yaqut mentionne plusieurs lieux portant ce nom. Le premier Suqya est un grand village du district d'al-Far', à dix-neuf milles de là, du côté d'al-Juhfa (vingt-neuf milles selon al-Khwarizmi). Ibn al-Faqih le classe parmi les oueds les plus bas de Tihama. Ibn al-Kalbi raconte que Tubba' y campa, assoiffé, et que la pluie le surprit, d'où le nom d'al-Suqya. Al-Khwarizmi le décrit comme un grand village près de la mer, à un jour et une nuit de marche. Dans le livre d'Abu 'Ubayd al-Sukuni, il s'agit d'un bassin et d'épaisses coulées de lave en contrebas de Samira', pour ceux qui montent vers La Mecque, à quatre milles de là. {cite:mujam-al-buldan-sader-1995 3 p.228} À l'entrée 'Anid, il situe un oued entre La Mecque et Médine, à un mille avant al-Suqya, et al-Suqya elle-même entre La Mecque et Médine. {cite:mujam-al-buldan-sader-1995 4 p.72} Une seconde Suqya est un village situé aux portes de Manbij, riche en vergers et en cours d'eau. Ce village fut légué aux descendants d'Abu 'Ubbada al-Buhtari et mentionné par Abu Firas dans un verset. Une troisième est un puits à Médine d'où l'on puisait de l'eau pour le Prophète, selon Abu Bakr ibn Musa. L'entrée relative à Médine mentionne Buyut al-Suqya. {cite:mujam-al-buldan-sader-1995 3 p.228; 5 p.83} Une quatrième, Suqya al-Jazal, située au pays d'Udhra, près de Wadi al-Qura, est le lieu de décès du chanteur Tuways. {cite:mujam-al-buldan-sader-1995 3 p.228} Le livre mentionne également Rawdat al-Suqya dans un verset d'Aws ibn Maghra'. {cite:mujam-al-buldan-sader-1995 3 p.91}
+
+## L'identification du musée
+Le document d'al-Idrisi (p. 142) situe al-Suqya sur la route du Hajj, à environ 43 kilomètres d'al-Abwa', avec un verger, des palmeraies et des habitants de l'ethnie Tayy et d'autres tribus arabes. La mention à Yaqut correspond à la première Suqya entre La Mecque et Médine (vol. 3, p. 228 ; vol. 4, p. 72). Le village de Manbij, le puits de Médine et Suqya al-Jazal sont d'autres lieux que les documents eux-mêmes ne mentionnent pas. Le document consulté ne précise ni les Tayy ni les palmiers ; les distances sont données de manière incohérente — 30 ou 47 kilomètres jusqu'à al-Juhfa à Yaqut, 43 kilomètres jusqu'à al-Abwa' dans le document — et le musée ne fait pas de conversion. Le point indiqué dans le document (23,45 ; 39,1) se situe à 38,2 km de son point correspondant à al-Abwa'. Voir [[place/al-abwa|al-Abwa']].

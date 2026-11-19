@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0633~", calendar: julian, precision: year, status: tradition, derived: true, note: "فتح خالد سنة 12؛ وصلح عمر المنقول عن مشايخها (البلاذري ص 344). التحويل مشتق." }
+  start: { edtf: "0633~", calendar: julian, precision: year, status: tradition, derived: true, note: "فتح خالد سنة 12؛ وصلح عمر المنقول عن مشايخها ⁦(البلاذري ص 344)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/al-anbar }
   - { type: occurred_at, target: place/baghdad, sources: [source/futuh-buldan-maarif-1407] }
@@ -19,7 +19,7 @@ relations:
   - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 344"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 344"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-27
 sides:

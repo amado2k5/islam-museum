@@ -17,9 +17,9 @@ sides:
   - label: { ar: "المرزبان بن محمد صاحب أذربيجان والديلم والمطوعة", en: "al-Marzuban ibn Muhammad of Azerbaijan, with Daylamites and volunteers", ur: "آذربائیجان کا مرزبان بن محمد، دیلم اور رضاکار" }
     participants: [polity/musafirid-dynasty]
     commanders: [person/marzuban-ibn-muhammad]
-    strength: { value: 30000, sources: [source/tajarib-al-umam-surush-v6], status: historical, note: "«فسار فى ثلاثين ألف رجل» بعد سقوط بردعة؛ وكان مع خليفته الأول ثلاثمائة من الديلم ونحوهم من الصعاليك والأكراد ونحو خمسة آلاف من المطوعة (تجارب الأمم 6/94، 97)" }
+    strength: { value: 30000, sources: [source/tajarib-al-umam-surush-v6], status: historical, note: "«فسار فى ثلاثين ألف رجل» بعد سقوط بردعة؛ وكان مع خليفته الأول ثلاثمائة من الديلم ونحوهم من الصعاليك والأكراد ونحو خمسة آلاف من المطوعة ⁦(تجارب الأمم 6/94، 97)⁩" }
 date:
-  start: { edtf: "0943/0944", hijri: "0332", calendar: julian, precision: year, status: historical, derived: true, note: "«وفى هذه السنة خرج عسكر الأمة المعروفة بالروس إلى أذربيجان» في حوادث سنة 332هـ عند مسكويه (تجارب الأمم 6/93-94)، وكذلك عند ابن الأثير (الكامل ص308)؛ وانتهى أمرهم بعد أن بلغ المرزبانَ خبرُ موت توزون (المحرم 334) فيما يرويه مسكويه (6/98). التحويل الميلادي مشتق.", sources: [source/tajarib-al-umam-surush-v6, source/kamil-ibn-al-athir] }
+  start: { edtf: "0943/0944", hijri: "0332", calendar: julian, precision: year, status: historical, derived: true, note: "«وفى هذه السنة خرج عسكر الأمة المعروفة بالروس إلى أذربيجان» في حوادث سنة 332هـ عند مسكويه ⁦(تجارب الأمم 6/93-94)⁩، وكذلك عند ابن الأثير ⁦(الكامل ص308)⁩؛ وانتهى أمرهم بعد أن بلغ المرزبانَ خبرُ موت توزون ⁦(المحرم 334)⁩ فيما يرويه مسكويه (6/98). التحويل الميلادي مشتق.", sources: [source/tajarib-al-umam-surush-v6, source/kamil-ibn-al-athir] }
 relations:
   - { type: occurred_at, target: place/bardhaa, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/marzuban-ibn-muhammad, role: "أمير أذربيجان", sources: [source/kamil-ibn-al-athir, source/tajarib-al-umam-surush-v6] }
@@ -28,7 +28,7 @@ relations:
   - { type: during_reign, target: person/al-muttaqi, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن) ص308-310؛ source/tajarib-al-umam-surush-v6 scan pp. 93-100"
+  source: "الكامل في التاريخ لابن الأثير ⁦(ط تورنبرغ، ليدن)⁩ ص308-310؛ source/tajarib-al-umam-surush-v6 scan pp. 93-100"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR; enriched by Claude Code (OCR-harvest worker J)"
   model: claude-opus-5-5
   run: "lib-kamil-batch-12; ocr-harvest-2026-11-04"

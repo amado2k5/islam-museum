@@ -1,11 +1,12 @@
 id: person/abu-bakr-ibn-abd-al-baqi
 class: person
-label: { ar: "أبو بكر بن عبد الباقي", en: "Abu Bakr ibn Abd al-Baqi" }
+label: { ar: "أبو بكر بن عبد الباقي", en: "Abu Bakr ibn Abd al-Baqi", fr: "Abu Bakr ibn Abd al-Baqi" }
 names:
   - { value: "أبو بكر محمد بن عبد الباقي بن محمد بن سالم البزار الأنصاري قاضي المرستان", kind: full }
 summary:
   ar: "أبو بكر محمد بن عبد الباقي الأنصاري قاضي المرستان؛ جده عَمْرُ بني كعب بن مالك الأنصاري، سمع الكثير وعَرَض الحديث بالإسناف، وقال العلاف في تاريخه العمراني ما رأيت مثله غيوراً على الحق لا يتكلم إلا بالحق؛ وقال في كتابه الحساب والهندسة منه أربع نسخ عالجتهن، وكان فقيهاً شافعياً وكان شعره كثيراً، وجَرَت له حكاية اللآلئ حين رأى أمه تشتري عقداً من لؤلؤ بألفي دينار فقال ليس في هذا العقد لؤلؤتان في اللؤلؤة مثلها بمائة درهم ولو كانت كذلك لكانت مثلها مائة، فامتحن ذلك فكان كما قال، وقالت لهم أمي ولو كانت كما قلتم لكانت معتمة سائعة، وامتُحن بكتاب النظرية وكتاب مساور اللؤلؤ من أعمال المخترعين من علماء الهندسة والمجوهرين فكانوا يمدحون أبي به فكان أخي يخبر أبي ويكتب له حتى كان آخر ذلك أن كنت أمتأن بمجلس أمه وكان مرجع الناس في ذلك إليها؛ مولده عاشر صفر سنة اثنتين وأربعين وأربعمائة وتوفي يوم الجمعة ثاني رجب سنة خمس وثلاثين وخمسمائة وله ثلاث وتسعون سنة {cite:shadharat-dhahab p. 586-587}."
   en: "Abu Bakr Muhammad ibn Abd al-Baqi al-Ansari, qadi of the Maristan — a descendant of Ka'b ibn Malik's house; a vast transmitter who 'roasted the hadith' through the isnads; the al-Allaf said of him 'I never saw one so jealous for the truth'; a Shafi'i jurist and prolific poet whose arithmetic and geometry books ran to four drafts; when his mother paid two thousand dinars for a pearl necklace he proved its pearls matched market lots of a hundred dirhams — and was right, winning over the scholars of geometry and jewellers who had praised his father; b. 10 Safar 442, d. Friday 2 Rajab 535 aged ninety-three {cite:shadharat-dhahab p. 586-587}."
+  fr: "Abu Bakr Muhammad ibn Abd al-Baqi al-Ansari, cadi du Maristan — descendant de la maison de Ka'b ibn Malik ; transmetteur considérable qui « passa le hadith au crible » par les isnads ; al-Allaf dit de lui « je n'ai jamais vu quelqu'un d'aussi jaloux de la vérité » ; juriste shafi'ite et poète prolifique dont les livres d'arithmétique et de géométrie atteignirent quatre versions ; quand sa mère paya deux mille dinars pour un collier de perles, il démontra que ses perles valaient des lots de marché à cent dirhams — et il avait raison, gagnant l'estime des savants en géométrie et des joailliers qui avaient loué son père ; né le 10 Safar 442, mort le vendredi 2 Rajab 535 à quatre-vingt-treize ans {cite:shadharat-dhahab p. 586-587}."
 gender: male
 wings: [people]
 roles: [qadi, jurist, poet]
@@ -49,4 +50,4 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/shadharat-dhahab]
 relations:
-  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name ⁦(الأنصاري)⁩; denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

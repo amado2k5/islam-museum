@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-leaves-for-najran-and-meets-abu-jafar-and-the-ahlaf-at-al-hisn-292
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/al-hadi-leaves-for-najran-and-meets-abu-jafar-and-the-ahlaf-at-al-hisn-292.md}
+---
+## Visión general
+El narrador dice que Wadi'a se reunió con Muhammad ibn Ubaydallah, quien los condujo a al-Hisn, se encontró con Shakir y Thaqif y los unió a Wadi'a y a él para ayudarlo y apoyarlo, luego regresó a su lugar con los Wadi'is; cuando Banu al-Harith se enteró, sus esperanzas se rompieron y lo que habían creído fracasó {cite:sira-hadi-ila-al-haqq p.290}. Entonces, "el domingo, cuatro días después de Rajab", al-Hadi partió hacia Najran {cite:sira-hadi-ila-al-haqq p.290}.
+
+## Detalle
+El pasaje lleva el título "Al-Hadi parte de nuevo hacia Najran": al llegar al wadi superior se encontró con Muhammad ibn Ubaydallah con un grupo de Wadi'is, y continuó hacia al-Hisn, donde pasó la noche {cite:sira-hadi-ila-al-haqq p.290}. Por la mañana, al-Ahlaf y los de Yam que vivían en Najran vinieron a él y lo excusaron de haberse reunido contra Muhammad ibn Ubaydallah con Banu al-Harith y los beduinos de Yam, diciéndole que habían sido asustados para hacerlo; él los excusó y pasó por alto su error, se quedó ese día, y los beduinos Shakir vinieron a él {cite:sira-hadi-ila-al-haqq p.290}. La fecha se deriva del calendario tabular: 4 Rajab 292 H es 12 de mayo de 905 en el calendario juliano y cae en domingo, como dice el texto, por lo que los dos calendarios coinciden aquí, a diferencia de algunos lotes anteriores; El año 292 proviene del orden narrativo posterior al juramento de Jumada I. El relato se presenta en voz alta, a través de los seguidores del imán, en un libro zaidí, y el museo lo describe sin emitir juicios. Lo anterior sobre al-Hisn, Thaqif, Shakir y Wadi'a se encuentra en [[event/the-abd-al-madan-march-on-minas-and-the-fight-at-its-two-gates-292|el lote anterior]] y en [[event/ali-and-al-qasim-sons-of-muhammad-ibn-ubaydallah-ask-shakir-thaqif-and-wadia-for-aid-292|la llamada de los hijos a Shakir, Thaqif y Wadi'a]]. Estas páginas no ubican a al-Hisn en el mapa; la cuestión está en el libro de contabilidad.

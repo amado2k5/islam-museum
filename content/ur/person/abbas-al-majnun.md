@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b60, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/145" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b60, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/145" }
 ---
 ## خلاصہ
 عباس جو مجنون کے نام سے مشہور تھے، شوق میں گھلے ہوئے اور مخلوق سے پوشیدہ، اپنے محبوب کے لیے جاگنے والے اور اپنے ہم جنسوں سے الگ۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 508)⁩ صفحہ 145 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 508 ہے، تسلسل میں 509۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/145}

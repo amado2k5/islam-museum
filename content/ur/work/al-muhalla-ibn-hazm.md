@@ -8,7 +8,7 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker D)", model: claude-
 
 ## خلاصہ
 
-«المحلی بالآثار فی شرح المجلی بالاختصار» اندلس کے [[person/ibn-hazm|ابو محمد علی بن احمد بن حزم]] کی فقہ پر کتاب ہے، جس سے ان کا [[group/zahiri-madhhab|ظاہری]] مذہب جانا جاتا ہے۔ {cite:muhalla-dar-ibn-hazm-2016-v1 p.136} عجائب گھر کا نسخہ دار ابن حزم (بیروت، 1437ھ/2016ء) کی طبع ہے، خالد الرباط کی نگرانی میں، ساٹھ سے زیادہ قلمی جلدوں سے۔ {cite:muhalla-dar-ibn-hazm-2016-v1 p.1} {cite:muhalla-dar-ibn-hazm-2016-v1 p.2} {cite:muhalla-dar-ibn-hazm-2016-v1 p.9} اس کے محققین اس میں اقوال و آثار کی تعداد بیس ہزار سے زیادہ بتاتے ہیں۔ {cite:muhalla-dar-ibn-hazm-2016-v1 p.10}
+«المحلی بالآثار فی شرح المجلی بالاختصار» اندلس کے [[person/ibn-hazm|ابو محمد علی بن احمد بن حزم]] کی فقہ پر کتاب ہے، جس سے ان کا [[group/zahiri-madhhab|ظاہری]] مذہب جانا جاتا ہے۔ {cite:muhalla-dar-ibn-hazm-2016-v1 p.136} عجائب گھر کا نسخہ دار ابن حزم ⁦(بیروت، 1437ھ/2016ء)⁩ کی طبع ہے، خالد الرباط کی نگرانی میں، ساٹھ سے زیادہ قلمی جلدوں سے۔ {cite:muhalla-dar-ibn-hazm-2016-v1 p.1} {cite:muhalla-dar-ibn-hazm-2016-v1 p.2} {cite:muhalla-dar-ibn-hazm-2016-v1 p.9} اس کے محققین اس میں اقوال و آثار کی تعداد بیس ہزار سے زیادہ بتاتے ہیں۔ {cite:muhalla-dar-ibn-hazm-2016-v1 p.10}
 
 ## ابن حزم کی فقہی کتابوں میں اس کا مقام
 

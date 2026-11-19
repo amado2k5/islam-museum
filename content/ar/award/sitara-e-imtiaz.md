@@ -9,7 +9,7 @@ translators: []
 
 ## الملخص
 
-ثالث الأوسمة في رتبة «الامتياز» في باكستان («نجمة الامتياز»)، يُمنح تقديرًا للإسهام البارز في مجالات الدولة. {cite:wikipedia-sitara-e-imtiaz-en} {cite:wikidata-sitara-e-imtiaz}
+ثالث الأوسمة في رتبة «الامتياز» في باكستان ⁦(«نجمة الامتياز»)⁩، يُمنح تقديرًا للإسهام البارز في مجالات الدولة. {cite:wikipedia-sitara-e-imtiaz-en} {cite:wikidata-sitara-e-imtiaz}
 
 ## في المتحف
 

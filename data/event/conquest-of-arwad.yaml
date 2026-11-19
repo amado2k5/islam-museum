@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/umayyad]
 regions: [levant-iraq]
 date:
-  start: { hijri: "0054", precision: year, status: tradition, note: "سنة 54هـ (البلاذري ص 330)" }
+  start: { hijri: "0054", precision: year, status: tradition, note: "سنة 54هـ ⁦(البلاذري ص 330)⁩" }
 relations:
   - { type: occurred_at, target: place/arwad }
   - { type: had_participant, target: person/janada-ibn-abi-umayya, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
@@ -18,7 +18,7 @@ relations:
   - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "المسكّن", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 330"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 330"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-24
 sides:

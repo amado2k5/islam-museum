@@ -1,0 +1,12 @@
+---
+id: concept/al-hawal
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/al-hawal.md}
+---
+## Sus causas
+El estrabismo puede deberse a la relajación de algunos músculos que mueven el globo ocular, de modo que se inclina de ese lado al lado opuesto, o a la convulsión de algunos de ellos de modo que el globo ocular se inclina hacia ellos; en cualquier caso, puede deberse a la humedad y puede producirse por sequedad, como en las enfermedades agudas. Cuando la causa es una convulsión de los músculos, o bien es una convulsión cerebral como la epilepsia, o bien una convulsión de los músculos de retención en su origen para que no se muestre ninguna lesión; más bien, es muy beneficiosa. El estrabismo suele producirse después de enfermedades cerebrales como el qaranitus, la catarata y similares, por quemadura y sequedad o también por repleción. Ten en cuenta que el girar hacia arriba y hacia abajo es lo que muestra una cosa como dos, mientras que de lado no daña la vista de forma apreciable {cite:canon-ibn-sina-print-v2 p.189}
+
+## El tratamiento
+El congénita no sa, salvo en una infancia muy húmeda, donde se puede esperar la curación, especialmente si es reciente: en tal caso, la cuna debe nivelarse y colocarse la lámpara en el lado opuesto al estrabismo para que el niño siempre se esfuerce girando hacia ella; del mismo modo, un hilo con algo rojo debe atarse mirando hacia el lado entrecerrado, o algo rojo pegado en la sien opuesta o en la oreja — todo ello para que le cueste el menor esfuerzo en mirar — ya que esa tarea puede lograr enderezar el ojo y enviar sangre para que la mirada sea recta. En cuanto a quienes sufren tras la madurez y en la vejez, cuya causa es la relajación o una convulsión húmeda, deben usar la limpieza cerebral con las evacuaciones mencionadas por los grandes electores y similares, suavizar el régimen y usar el baño disolutor; si su aparición es debida a convulsiones secas, deben usarse duchas humedecentes; if there is no fever they are given the milks with very moistening oils — in sum their regimen must be moistened ⁦(the named drugs, bloods and milks are not carried; the footnote on the milks is the editor's)⁩ {cite:canon-ibn-sina-print-v2 p.189} {cite:canon-ibn-sina-print-v2 p.190}

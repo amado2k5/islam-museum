@@ -13,7 +13,7 @@ label: { en: "Sawda bint Zam'a", ar: "سودة بنت زمعة" , ur: "سودہ 
 names:
   - { kind: full, lang: ar, value: "سودة بنت زمعة بن قيس بن عبد شمس العامرية" }
 gender: female
-died: { edtf: "0674~", hijri: "0054~", calendar: julian, precision: year, status: debated, note: "توفيت في آخر خلافة عمر أو سنة 54 هـ في خلافة معاوية على اختلاف الروايات. يسجّل الكتاب الخلاف نفسه: قيل كانت أول نساء النبي لحاقاً به برواية عائشة، وقيل زينب بنت جحش ثم سودة سنة 54هـ في خلافة معاوية (نساء حول الرسول ص58).", sources: [source/ibn-sad-tabaqat-bewley, source/nisa-hawl-alrasul] }
+died: { edtf: "0674~", hijri: "0054~", calendar: julian, precision: year, status: debated, note: "توفيت في آخر خلافة عمر أو سنة 54 هـ في خلافة معاوية على اختلاف الروايات. يسجّل الكتاب الخلاف نفسه: قيل كانت أول نساء النبي لحاقاً به برواية عائشة، وقيل زينب بنت جحش ثم سودة سنة 54هـ في خلافة معاوية ⁦(نساء حول الرسول ص58)⁩.", sources: [source/ibn-sad-tabaqat-bewley, source/nisa-hawl-alrasul] }
 roles: [companion]
 traditions: [sunni]
 summary:
@@ -25,14 +25,14 @@ themes: [women, family-marriage-kinship]
 periods: [period/prophetic-era, period/rashidun]
 regions: [arabia]
 story_roles:
-  - { role: convert, start: { edtf: "0612~" }, status: tradition, note: "من السابقات إلى الإسلام (الرحيق ص117-118).", sources: [source/mubarakpuri-raheeq] }
+  - { role: convert, start: { edtf: "0612~" }, status: tradition, note: "من السابقات إلى الإسلام ⁦(الرحيق ص117-118)⁩.", sources: [source/mubarakpuri-raheeq] }
   - { role: companion, start: { edtf: "0612~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
   - { role: family-of-the-prophet, start: { edtf: "0619~" }, status: tradition, note: "زوج النبي وأم المؤمنين.", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "مسلمة من المهاجرات؛ مسجلة في الإطار السني للمتحف." }
 relations:
   - { type: spouse_of, target: person/muhammad, start: { edtf: "0619~" }, sources: [source/mubarakpuri-raheeq] }
-  - { type: spouse_of, target: person/al-sakran-ibn-amr, end: { edtf: "0619~" }, note: "زوجها الأول السكران بن عمرو أخو سهيل بن عمرو؛ هاجرت معه إلى الحبشة وتوفي قبل زواجها من النبي (نساء حول الرسول ص58).", sources: [source/nisa-hawl-alrasul] }
+  - { type: spouse_of, target: person/al-sakran-ibn-amr, end: { edtf: "0619~" }, note: "زوجها الأول السكران بن عمرو أخو سهيل بن عمرو؛ هاجرت معه إلى الحبشة وتوفي قبل زواجها من النبي ⁦(نساء حول الرسول ص58)⁩.", sources: [source/nisa-hawl-alrasul] }
   - { type: member_of, target: group/quraysh }
   - { type: member_of, target: group/ahl-al-bayt }
   - { type: participated_in, target: event/marriage-to-sawda }

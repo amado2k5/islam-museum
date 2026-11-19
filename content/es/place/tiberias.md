@@ -1,0 +1,18 @@
+---
+id: place/tiberias
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/place/tiberias.md}
+---
+## Visión general
+Tiberíades, en el Mu'jam al-buldan de Yaqut al-Hamawi, es una pequeña ciudad con vistas al lago de Tiberíades, al pie de una montaña con el monte Tabor encima, parte del distrito de [[place/jordan|Jordania]] al final del Ghawr; se encuentra a tres días de [[place/damascus|Damasco]], a la misma distancia de Jerusalén y a dos días de [[place/akka|Acre]], y se extiende a lo largo del lago con poca anchura. {cite:mujam-al-buldan-sader-1995 v.4 p.17} La sitúa en el tercer clima, a 57 grados 45 minutos de longitud oeste y 32 grados de latitud. {cite:mujam-al-buldan-sader-1995 v.4 p.17}
+
+En cuanto a la conquista, relata que Shurahbil ibn Hasana la tomó en el año 13 de la Hégira mediante un tratado, a cambio de la mitad de las casas e iglesias de la población; otro relato afirma que la asedió durante algunos días y luego firmó la paz, respetando sus vidas, propiedades e iglesias, excepto lo que dejaron, reservando un lugar para la mezquita de los musulmanes. Posteriormente, rompieron el acuerdo en el califato de Umar y un grupo de rezagados bizantinos se unió a ellos, por lo que Abu Ubayda envió a Amr ibn al-As con cuatro mil hombres, quienes la tomaron en los mismos términos que el tratado de Shurahbil; todas las ciudades de Jordania fueron liberadas en virtud de este tratado sin luchar. {cite:mujam-al-buldan-sader-1995 v.4 p.17}
+
+Yaqut cita a Abu al-Qasim que un rey romano llamado Tabara la construyó primero y tomó su nombre, y que tiene aguas termales saladas con baños que no necesitan combustible; menciona el manantial de Sulayman ibn Dawud entre ella y Baysan, que la gente local cree que cura toda dolencia. {cite:mujam-al-buldan-sader-1995 v.4 pp.17-18} De Abu 'Abdallah ibn al-Banna cita una descripción de ella como la capital de Jordania, estrecha y sofocante en verano e insalubre, de aproximadamente un farsakh de largo, con ocho baños y una gran mezquita congregacional en el mercado, un gran puente debajo de ella en el camino a Damasco, agua potable del lago y abundancia de peces y barcos; también transmite un dicho local de que su gente pasa dos meses al año cada uno de pulgas, insectos, avispas, calor, caña de azúcar y barro. {cite:mujam-al-buldan-sader-1995 v.4 pp.17-18} El adjetivo relacional es Tabarani, irregular, para distinguirlo de Tabaristán; La persona más conocida con ese nombre es el maestro de hadices Sulayman ibn Ahmad Abu al-Qasim al-Tabarani, nacido en Tiberíades en el año 260 de la Hégira, que llegó a Isfahán en el año 290 de la Hégira y permaneció allí hasta su muerte en el año 360 de la Hégira, y entre cuyos libros se incluyen el Mu'jam al-Kabir, al-Awsat y al-Saghir. {cite:mujam-al-buldan-sader-1995 v.4 pp.18-19}
+
+Entre las tumbas visitadas, Yaqut enumera las que, según los habitantes del pueblo, pertenecen a Sulayman ibn Dawud, Luqman el Sabio, Abu 'Ubayda ibn al-Jarrah y Abu Hurayra, entre otros; para la mayoría, señala que otros lugares también reclaman la tumba de la misma persona, y deja la verdadera respuesta en manos de Dios. {cite:mujam-al-buldan-sader-1995 v.4 pp.18-19}
+
+## En Nomisma
+El vocabulario numismático Nomisma vincula esta entrada con el concepto «tiberias»; ninguna moneda o tipo de moneda en su extremo la nombra como emisor, autoridad, ceca o región, por lo que el concepto permanece en el vocabulario sin monedas vinculadas. {cite:nomisma tiberias}

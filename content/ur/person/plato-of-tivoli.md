@@ -13,7 +13,7 @@ provenance:
   translator_of: content/ar/person/plato-of-tivoli.md
 ---
 ## خلاصہ
-افلاطون تیفولی (لاطینی: Plato Tiburtinus) تیفولی کے ایک مترجم تھے جو بارہویں صدی عیسوی کے نصفِ اول میں [[place/barcelona|برشلونہ]] میں سرگرم رہے؛ [[work/al-zij-al-sabi|البتانی کی زیج]] کا باقی رہنے والا لاطینی ترجمہ انہی کا ہے۔ {cite:nallino-albatenii-opus-astronomicum p. 59} {cite:nallino-albatenii-opus-astronomicum p. 65}
+افلاطون تیفولی ⁦(لاطینی: Plato Tiburtinus)⁩ تیفولی کے ایک مترجم تھے جو بارہویں صدی عیسوی کے نصفِ اول میں [[place/barcelona|برشلونہ]] میں سرگرم رہے؛ [[work/al-zij-al-sabi|البتانی کی زیج]] کا باقی رہنے والا لاطینی ترجمہ انہی کا ہے۔ {cite:nallino-albatenii-opus-astronomicum p. 59} {cite:nallino-albatenii-opus-astronomicum p. 65}
 
 ## البتانی کا ترجمہ
 یہ معلوم نہیں کہ انہوں نے ترجمہ کس سال مکمل کیا؛ نالینو کے نزدیک یقیناً بارہویں صدی کے نصفِ اول میں، جب افلاطون برشلونہ میں تھے۔ {cite:nallino-albatenii-opus-astronomicum p. 65} اپنے مقدمے میں وہ کہتے ہیں کہ انہوں نے عربوں میں [[person/al-battani|البتانی]] کو [[person/batlamus|بطلیموس]] کا کامل پیرو پایا، جو اس کی طوالت کو مختصر کرتا اور اس کی غلطیوں کی اصلاح کرتا ہے — جو بہت کم ہیں اور جنہیں وہ بطلیموس کے بجائے ابرخس کی اصل کی طرف منسوب کرتا ہے۔ {cite:nallino-albatenii-opus-astronomicum p. 34} [[work/de-motu-stellarum-plato-tiburtinus|ان کا ترجمہ]] پہلی بار 1537ء میں نیورمبرگ میں چھپا۔ {cite:nallino-albatenii-opus-astronomicum p. 59}

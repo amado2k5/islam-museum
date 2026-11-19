@@ -15,8 +15,8 @@ themes: [converts-and-leavers]
 periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
-  - { role: convert, start: { edtf: "0631" }, status: tradition, note: "من سادات تميم المسلمين؛ أسلم مع الوفد (ابن هشام ص212).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
-  - { role: official, start: { edtf: "0631" }, status: tradition, note: "مصدّق إلى قسم من بني سعد (الرحيق ص425).", sources: [source/mubarakpuri-raheeq] }
+  - { role: convert, start: { edtf: "0631" }, status: tradition, note: "من سادات تميم المسلمين؛ أسلم مع الوفد ⁦(ابن هشام ص212)⁩.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  - { role: official, start: { edtf: "0631" }, status: tradition, note: "مصدّق إلى قسم من بني سعد ⁦(الرحيق ص425)⁩.", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631" }, sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 died: { edtf: "667~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba (Ibn al-Athir)" }
@@ -26,7 +26,7 @@ relations:
   - { type: member_of, target: group/banu-tamim }
   - { type: member_of, target: group/banu-minqar, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/delegation-of-banu-tamim, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
-  - { type: opposed, target: person/amr-ibn-al-ahtam, note: "كان يبغضه فحقّره عند النبي (ص212)", sources: [source/ibn-hisham-saqqa] }
+  - { type: opposed, target: person/amr-ibn-al-ahtam, note: "كان يبغضه فحقّره عند النبي ⁦(ص212)⁩", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/dispatch-of-sadaqa-collectors, role: collector-to-a-part-of-banu-sad, sources: [source/mubarakpuri-raheeq] }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0631" }, sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }

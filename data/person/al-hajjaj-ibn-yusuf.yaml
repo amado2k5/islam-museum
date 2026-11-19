@@ -21,7 +21,7 @@ education:
 born: { edtf: "661", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hadjdjadj b. Yusuf' / A. Dietrich); al-Zirikli (al-A'lam) Agrees with Wikidata Q293460 (P569, a statement without a reference), item revision 2560317279, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "714", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hadjdjadj b. Yusuf' / A. Dietrich); al-Zirikli (al-A'lam) Agrees with Wikidata Q293460 (P570, a statement without a reference), item revision 2560317279, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/umayyad-birth-to-fall-2006, source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/khudari-umayyad-state, source/bakr-umayyad-state-1134715, source/salabi-umayyad-state-2020, source/assabile-omar-abdelkafy], confidence: low }
+  - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name ⁦(الثقفي)⁩; denotes association, not proven residence.", sources: [source/umayyad-birth-to-fall-2006, source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/khudari-umayyad-state, source/bakr-umayyad-state-1134715, source/salabi-umayyad-state-2020, source/assabile-omar-abdelkafy], confidence: low }
   - {type: participated_in, target: event/murder-of-said-ibn-jubayr, sources: [source/tabari-tarikh-abu-al-fadl], note: 'Stated in the summary of event/murder-of-said-ibn-jubayr: "In 94 AH al-Hajjaj killed Sa''id ibn Jubayr"'}
 occupations:
   - job: job/khatib

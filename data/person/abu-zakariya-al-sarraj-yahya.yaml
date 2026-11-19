@@ -7,6 +7,7 @@ roles:
 label:
   ar: أبو زكريا السراج ⁦(يحيى بن أحمد)⁩
   en: Abu Zakariya al-Sarraj (Yahya ibn Ahmad), Andalusian-Fasi jurist
+  fr: "Abu Zakariya al-Sarraj (Yahya ibn Ahmad), juriste andalou de Fès"
   ur: ابو زکریا السراج ⁦(یحییٰ بن احمد)⁩
 summary:
   ar: 'أبو زكريا يحيى بن أحمد بن محمد بن حسن السراج، الأندلسي الفاسي، فقيه محدث حافظ
@@ -20,6 +21,7 @@ summary:
     al-Nur and Ibn Abbad, among others, headed the study of hadith in his time, and
     wrote a catalogue of his teachers and books. {cite:fiqh-mawsua-kuwaitiyya-noor-v3
     p.7511} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7512} '
+  fr: "Abu Zakariya Yahya ibn Ahmad ibn Muhammad ibn Hasan al-Sarraj, Andalou de Fès, juriste, traditionniste, mémorisateur, philologue et poète ; la notice donne sa mort en 805 H. Il étudia notamment auprès d'Abu al-Barakat ibn al-Hajj al-Balfiqi, d''Abd al-Nur et d'Ibn Abbad, fut à la tête de l'étude du hadith de son temps et écrivit un catalogue de ses maîtres et de ses livres. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7511} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7512}"
   ur: 'ابو زکریا یحییٰ بن احمد بن محمد بن حسن السراج، اندلسی فاسی، فقیہ، محدث، حافظ،
     ماہرِ لغت، شاعر اور نثر نگار؛ مدخل کے مطابق وفات 805 ہجری ہے۔ ابوالبرکات ابن الحاج
     البلفیقی، عبد النور اور ابن عباد وغیرہ سے پڑھا، اپنے وقت میں حدیث کی ریاست انہی
@@ -59,4 +61,4 @@ occupations:
 born: { edtf: "1368", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Durar al-Kamina)" }
 died: { hijri: "0805", calendar: julian, precision: year, status: tradition, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], note: "توفي سنة 805هـ كما في ترجمته في ملحق التراجم {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7511}." }
 relations:
-  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (الأندلسي); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }
+  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name ⁦(الأندلسي)⁩; denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

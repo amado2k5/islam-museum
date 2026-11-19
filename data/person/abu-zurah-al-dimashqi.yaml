@@ -3,11 +3,13 @@ class: person
 label:
   ar: "أبو زرعة الدمشقي"
   en: "Abu Zur'a al-Dimashqi"
+  fr: "Abu Zur'a al-Dimashqi"
 roles: [muhaddith]
 gender: male
 summary:
   ar: "عبد الرحمن بن عمرو بن عبد الله بن صفوان النصري، أبو زرعة الدمشقي، من أئمة زمانه في الحديث ورجاله، دمشقي المولد والوفاة، له كتاب في التاريخ وعلل الرجال. يذكر الزركلي وفاته سنة 280 هـ."
   en: "Abd al-Rahman ibn Amr ibn Abdallah ibn Safwan al-Nasri, Abu Zur'a al-Dimashqi, a leading hadith authority of his time and expert on its narrators, of Damascus where he died; author of a book on history and the defects of narrators. Al-Zirikli prints his death as 280 AH (893)."
+  fr: "Abd al-Rahman ibn Amr ibn Abdallah ibn Safwan al-Nasri, Abu Zur'a al-Dimashqi, grande autorité du hadith de son temps et spécialiste de ses transmetteurs, originaire de Damas où il mourut ; auteur d'un ouvrage sur l'histoire et les défauts des transmetteurs. Al-Zirikli situe sa mort en 280 H (893 ap. J.-C.)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
@@ -32,5 +34,5 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
 relations:
-  - { type: lived_in, target: place/damascus, note: "Place association from the person's nisba/name (الدمشقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/damascus, note: "Place association from the person's nisba/name ⁦(الدمشقي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: died_in, target: place/damascus, note: "al-Zirikli, vol. 3 p. 320: from Damascus and died there", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

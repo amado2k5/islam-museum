@@ -1,0 +1,15 @@
+---
+id: concept/ilaj-afat-al-sam
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/ilaj-afat-al-sam.md}
+---
+## Una regla universal, luego los biliosos y los calientes
+Primero: todo lo que se deposite en el oído debe estar tibio, ni frío ni caliente —una regla universal— luego detalles. De tipo biliar, la bilis se evacua con el laxante, pues la diarrea biliar suele ser natural y la sordera la acompaña, ya que el flujo biliar a menudo se detiene y se produce sordera; con calor solo, aceites refrescantes y similares (no se incluyen nombres de medicamentos ni medidas) {cite:canon-ibn-sina-print-v2 p.220}
+## ¿Qué es de materia fría y fría?
+Lo que proviene del frío y la materia fría se beneficia de todos los aceites calientes, todo eso después de evacuar la materia fría, si está congestionada, mediante las evacuaciones generales conocidas del cuerpo y las específicas de la región de la cabeza, y después de las duchas conocidas para ello. El ejercicio es muy beneficioso, al igual que los gritos fuertes en el oído y los sonidos de trompeta; se puede colocar un embudo en el oído para que el vapor de las decocciones disolventes llegue hasta él (no se incluyen los nombres de aceites, jugos, compuestos ni píldoras, ni sus medidas) {cite:canon-ibn-sina-print-v2 p.220}
+## ¿Qué es por sequedad, por oclusión y después de las causas?
+Lo que proviene de la sequedad se trata manteniendo el baño, humedeciendo los alimentos y bebidas, vertiendo aceite templado y agua tibia en la cabeza e inhalando lo conocido; lo que proviene de la oclusión se trata como se dice en el capítulo de oclusión; la dureza repentina de la audición puede beneficiarse de lo conocido; lo que sigue al dolor de cabeza se beneficia de lo conocido, y lo que sigue a la frenitis debe comenzar con la evacuación y luego las gotas conocidas (no se incluyen los nombres de los medicamentos, compuestos y pastillas ni sus medidas) {cite:canon-ibn-sina-print-v2 p.221}
+## Los medicamentos comunes y la evacuación para la dificultad auditiva
+Volviendo al tema principal: toda pesadez de oído, sus dolores, vientos, zumbidos y pitidos derivados de un resfriado y de un resfriado tienen medicamentos comunes conocidos; los niños así afligidos se benefician de lo conocido; se aplican fomentaciones útiles en el ojo y debajo de la oreja; las duchas mencionadas en el capítulo del tema principal se colocan en un tubo con la oreja opuesta para que su vapor entre en ella. Para la dureza de oído, la evacuación adecuada es en número y en pequeñas cantidades cada vez, para mantener la fuerza y alcanzar la madurez; lo que es de inflamaciones se trata con calor y frío como se sabe, no es necesario repetir (no se incluyen los nombres de medicamentos, fomentaciones, duchas y aceites ni sus medidas) {cite:canon-ibn-sina-print-v2 p.221} {cite:canon-ibn-sina-print-v2 p.222}

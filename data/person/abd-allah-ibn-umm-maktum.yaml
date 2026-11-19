@@ -3,6 +3,7 @@ class: person
 label:
   ar: "عبد الله بن أم مكتوم"
   en: "Abdallah ibn Umm Maktum"
+  fr: "Abdallah ibn Umm Maktum"
   ur: "عبد الله بن أم مكتوم"
 names:
  - { kind: full, lang: ar, value: "عبد الله بن قيس بن زائدة القرشي" }
@@ -11,6 +12,7 @@ gender: male
 summary:
   ar: "عبد الله ابن أم مكتوم الأعمى القرشي العامري، ويقال اسمه عمرو؛ كان قديم الإسلام بمكة وهاجر إلى المدينة، وكان يؤذن مع بلال ويستخلفه النبي عليها في أكثر غزواته، وشهد القادسية."
   en: "Abdallah ibn Umm Maktum, the blind Amiri Qurashi — his name is also given as Amr; an early Muslim at Mecca who emigrated to Medina, called the adhan with Bilal, was left in charge of the city in most of the Prophet's expeditions, and witnessed al-Qadisiyya."
+  fr: "Abdallah ibn Umm Maktum, l'Amiri qurayshite aveugle — son nom est aussi donné comme Amr ; musulman de la première heure à La Mecque, il émigra à Médine, appela à la prière avec Bilal, fut laissé à la tête de la ville lors de la plupart des expéditions du Prophète, et assista à al-Qadisiyya."
   ur: "عبد اللہ بن ام مکتوم، نابینا عامری قریشی — نام عمرو بھی بتایا جاتا ہے؛ مکہ کے ابتدائی مسلمان، مدینہ ہجرت کی اور بلال کے ساتھ اذان دیتے تھے۔"
 wings: [people]
 regions: [arabia]
@@ -18,7 +20,7 @@ periods: [period/prophetic-era]
 sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba, source/isti-ab-ibn-abd-al-barr]
 died: { edtf: "636", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab (Ibn Abd al-Barr: martyred at Qadisiyya 15 AH) Agrees with Wikidata Q1111158 (P570, a statement without a reference), item revision 2547284097, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
- - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba], confidence: low }
+ - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name ⁦(القرشي)⁩; denotes association, not proven residence.", sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba]}
  - { type: member_of, target: group/quraysh, note: "al-Istiab p. 380", sources: [source/isti-ab-ibn-abd-al-barr] }
  - { type: member_of, target: group/muhajirun, note: "al-Istiab p. 380", sources: [source/isti-ab-ibn-abd-al-barr] }

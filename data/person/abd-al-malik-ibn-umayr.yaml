@@ -3,11 +3,13 @@ class: person
 label:
   ar: "عبد الملك بن عمير"
   en: "Abd al-Malik ibn Umayr"
+  fr: "Abd al-Malik ibn Umayr"
 roles: [muhaddith]
 gender: male
 summary:
   ar: "عبد الملك بن عمير بن سويد القرشي أو اللخمي، المعروف بالقبطي، حافظ ومحدث الكوفة ومسند أهلها وقاضيها، رأى علياً؛ توفي نحو سنة ١٣٦هـ، وقد اختلف النقاد في ضبطه."
   en: "Abd al-Malik ibn Umayr ibn Suwayd al-Qurashi, or al-Lakhmi, known as al-Qibti, the hadith scholar, chain-bearer and judge of Kufa who saw Ali; he died about 136 AH, and the critics differed on his precision."
+  fr: "Abd al-Malik ibn Umayr ibn Suwayd al-Qurashi, ou al-Lakhmi, dit al-Qibti, traditionniste, porteur de chaînes et cadi de Koufa qui vit Ali ; il mourut vers 136 H, et les critiques divergèrent sur sa précision."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
@@ -32,4 +34,4 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
 relations:
-  - { type: lived_in, target: place/kufa, note: "Place association from the person's nisba/name (الكوفي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/kufa, note: "Place association from the person's nisba/name ⁦(الكوفي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
