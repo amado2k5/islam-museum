@@ -1,0 +1,28 @@
+---
+id: person/guy-de-lusignan
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/guy-de-lusignan.md}
+---
+## Vue d'ensemble
+Guy de Lusignan était un chevalier franc qui accéda à la couronne de Jérusalem par mariage et fut le roi que [[person/salah-al-din-yusuf-ibn-ayyub|Salah al-Din]] captura à [[event/battle-of-hattin-583|Hattin]]. L'Encyclopédie de l'islam ne contient aucun article à son sujet, et le chroniqueur musulman Ibn al-Athir écrit son nom sous la forme de « Kay ». Ce récit suit donc le récit d'Ibn al-Athir sur les années 582 à 584 et les mentions passagères dans les articles de l'Encyclopédie sur Chypre. {cite:kamil-ibn-al-athir p. 141} {cite:encyclopaedia-of-islam-2 vol. 5 p. 341}
+
+## Mariage et couronne
+Ibn al-Athir raconte que le roi des Francs en Syrie, qui souffrait de la lèpre, légua le royaume à un jeune neveu, et qu'à la mort du garçon, le royaume passa à sa mère. Elle tomba alors amoureuse d'un homme parmi les Francs qui venait d'arriver en Syrie, appelé Kay, et l'épousa. Elle lui transféra le royaume et fit placer la couronne sur sa tête. Selon la chronique, elle convoqua le patriarche, les prêtres, les moines, les Hospitaliers, les Templiers et les barons, leur dit qu'elle lui avait rendu le royaume et les fit témoigner ; ils lui obéirent. {cite:kamil-ibn-al-athir p. 141}
+
+Le chroniqueur compte cette succession parmi les causes de la scission qui suivit. [[person/raymond-iii-tripoli|Raymond, comte de Tripoli]], qui avait gouverné pour le garçon et espérait la couronne, fut en colère, rompit avec le nouveau roi et écrivit à Saladin. Ibn al-Athir juge que la querelle entre les Francs fut l'une des principales raisons pour lesquelles les musulmans purent ensuite récupérer leurs terres et Jérusalem. {cite:kamil-ibn-al-athir p. 141-142} L'événement est rapporté séparément dans [[event/frank-split-raymond-582|le schisme franc]].
+
+## Hattin
+En 583/1187, les forces franques se rassemblèrent sous leur roi, avec le comte de Tripoli désormais rejoint à eux, et marchèrent d'Acre vers Sepphoris. {cite:kamil-ibn-al-athir p. 145} L'Encyclopédie de l'Islam date la bataille du samedi 24 Rabi' II 583. {cite:encyclopaedia-of-islam-2 vol. 8 p. 977} Comme le raconte Ibn al-Athir, la soif et la chaleur épuisèrent les Francs ; les survivants grimpèrent sur une colline près de Hattin, où seule la tente du roi pouvait être dressée, et le roi y resta avec environ cent cinquante de leurs meilleurs chevaliers. {cite:kamil-ibn-al-athir p. 146} {cite:kamil-ibn-al-athir p. 147} Lorsque la tente du roi tomba, les musulmans emmenèrent le roi, son frère [[person/raynald-de-chatillon|Raynald, seigneur de Kerak]], le seigneur de Jubayl, le fils d'Humphrey et le maître des Templiers. {cite:kamil-ibn-al-athir p. 148}
+
+Ibn al-Athir décrit alors ce qui se passa dans la tente de Saladin. Saladin fit asseoir le roi à côté de lui et lui donna de l'eau glacée, car la soif l'avait presque anéanti. Le roi but et tendit la coupe à Raynald, et Saladin répondit que cet homme n'avait pas bu sous sa protection. Il réprimanda alors Raynald et le tua de sa propre main, tandis que le roi tremblait jusqu'à ce que Saladin le calme et lui assure sa sécurité. {cite:kamil-ibn-al-athir p. 148} Saladin ordonna que le roi et un groupe de prisonniers notables soient envoyés à Damas. {cite:kamil-ibn-al-athir p. 149}
+
+## Captivité et libération
+Après la reddition de Jérusalem, Saladin libéra la reine, qui demanda la permission de rejoindre son mari ; la chronique indique qu'il fut alors détenu au château de Naplouse, et qu'elle alla le voir. {cite:kamil-ibn-al-athir p. 157} Plus tard, alors que Saladin attendait à Marj Uyun et s'inquiétait des Francs rassemblés à Tyr, il apprit que le roi qu'il avait capturé puis libéré après la conquête de Jérusalem s'était réconcilié avec le marquis après une querelle, et qu'ils avaient rassemblé une vaste armature. {cite:kamil-ibn-al-athir p. 180} Ibn al-Athir ne nomme le marquis que par son titre ; il s'agit de la figure connue sous le nom [[person/conrad-de-montferrat|de Conrad de Montferrat]], dont la chronique rapporte plus tôt l'arrivée à Acre et la fuite vers Tyr. {cite:kamil-ibn-al-athir p. 152}
+
+## Chypre
+L'Encyclopédie de l'Islam place Guy parmi les seigneurs croisés de Syrie qui rejoignirent le roi Richard lorsqu'il débarqua à Chypre en mai 1191, le qualifiant de prétendant à la couronne de Jérusalem. {cite:encyclopaedia-of-islam-2 vol. 5 p. 341} Elle ajoute que Richard a vendu l'île aux Templiers, et qu'en mai 1192 il l'a revendue à Guy de Lusignan, décrit comme l'époux de l'héritière de la couronne de Jérusalem. {cite:encyclopaedia-of-islam-2 vol. 5 p. 341} L'article sur Famagouste note que la ville passa à Guy en 1192. {cite:encyclopaedia-of-islam-2 vol. 5 p. 239} Son frère Aimery lui succéda comme seigneur de Chypre en 1194, et prit le titre de roi en 1197. {cite:encyclopaedia-of-islam-2 vol. 5 p. 341}
+
+## Dates et doutes
+Aucune source lue pour ce document ne mentionne sa naissance ou sa mort. Wikidata indique une naissance vers 1150 (avec une seconde, vers 1129) et un décès le 18 juillet 1194 ; ces sources sont marquées comme tradition en attendant un examen enregistré. L'identification de « Kay » avec Guy repose sur le mariage décrit par Ibn al-Athir et sur les articles chypriotes de l'Encyclopédie, et non sur une source liant directement les deux noms.
