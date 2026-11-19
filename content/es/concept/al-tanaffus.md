@@ -1,0 +1,9 @@
+---
+id: concept/al-tanaffus
+lang: es
+source_lang: en
+translators: ['Claude (claude-fable-5-2), draft translation']
+provenance: {generated_by: 'Claude Code subagent (spanish lane, records the document services could not return intact)', model: claude-fable-5-2, run: claude-es-2026-11-19, source: content/en/concept/al-tanaffus.md}
+---
+## Un discurso general sobre la respiración
+Algunas clases de respiración tienen nombres propios — la respiración cortada, la respiración doblada, la respiración erguida, la respiración ahogada, y la respiración forzada con pausas, como la que se da en la apoplejía. Los daños que sobrevienen a los instrumentos de la respiración y que así introducen un daño en la respiración están o bien en los órganos de la respiración — la laringe, el pulmón, la tráquea, los vasos ásperos, las arterias, el diafragma y los músculos del pecho, pues el daño puede estar en el pecho mismo cuando es estrecho y pequeño; o bien en sus fuentes, el cerebro y la médula, origen del diafragma, pues este brota en su mayor parte del cuarto par de los nervios de la médula, uniéndosele una rama del quinto y del sexto; o bien en lo que participa por vecindad, como el estómago, el hígado, la matriz ⁦(la matriz nombrada entre los vecinos con las palabras del libro — una línea rotulada presentada ante el fundador)⁩, los intestinos y el resto de las entrañas. Esos daños son o bien un mal temperamento debilitante — caliente, frío, húmedo o seco, simple o con materia de un humor retenido o de uno derramado en él — o bien una enfermedad instrumental: parálisis, convulsión, una unión aflojada por agrietamiento, putrefacción, ulceración o corrosión, o un tumor frío, caliente o duro, o un dolor. La respiración es un indicador fuerte, que sigue el curso del pulso, una vez que se atiende en ella a lo acostumbrado como en el pulso se atiende a lo natural ordinario {cite:canon-ibn-sina-print-v2 p.307}
