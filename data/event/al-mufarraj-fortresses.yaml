@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/abbasid-early]
 regions: [maghreb]
 date:
-  start: { edtf: "0847/0870", calendar: julian, precision: year, status: tradition, derived: true, note: "من أول المتوكل إلى ولاية وصيف (البلاذري ص 328–329). التحويل مشتق." }
+  start: { edtf: "0847/0870", calendar: julian, precision: year, status: tradition, derived: true, note: "من أول المتوكل إلى ولاية وصيف ⁦(البلاذري ص 328–329)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/barah }
   - { type: had_participant, target: person/al-mufarraj-ibn-sallam, role: "الفاتح المقتول", sources: [source/futuh-buldan-maarif-1407] }
@@ -17,7 +17,7 @@ relations:
   - { type: had_participant, target: person/al-mutawakkil, role: "المتوفى قبل الجواب", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 328–329"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 328–329"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-24
 sides:

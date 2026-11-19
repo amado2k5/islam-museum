@@ -14,7 +14,7 @@ periods: [period/abbasid-early]
 regions: [persia-central-asia]
 provenance:
   layer: own-research
-  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «تراجم الفقهاء» (ص 15815 من المسح)"
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «تراجم الفقهاء» ⁦(ص 15815 من المسح)⁩"
   scan_pages: [15815]
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
@@ -32,4 +32,4 @@ occupations:
 born: { edtf: "794", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 13/414; 178–282 AH)" }
 died: { edtf: "895", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 13/414; 178–282 AH)" }
 relations:
-  - { type: lived_in, target: place/kufa, note: "Place association from the person's nisba/name (الكوفي); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }
+  - { type: lived_in, target: place/kufa, note: "Place association from the person's nisba/name ⁦(الكوفي)⁩; denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

@@ -1,6 +1,6 @@
 id: person/ahmad-al-sharji-al-zabidi
 class: person
-label: { ar: "أحمد الشرجي الزبيدي", en: "Ahmad al-Sharji al-Zabidi", ur: "احمد شرجی زبیدی" }
+label: { ar: "أحمد الشرجي الزبيدي", en: "Ahmad al-Sharji al-Zabidi", fr: "Ahmad al-Sharji al-Zabidi", ur: "احمد شرجی زبیدی" }
 names:
   - { kind: full, lang: ar, value: "شهاب الدين أبو العباس أحمد الشرجي الزبيدي" }
 gender: male
@@ -8,6 +8,7 @@ roles: [muhaddith, scholar]
 summary:
   ar: "شهاب الدين أبو العباس أحمد الشرجي الزبيدي، صاحب «التجريد الصريح لأحاديث الجامع الصحيح»، كما يسميه صفحة عنوان «نيل الأوطار» التي على هامشها شرحه «عون الباري»؛ ولم ترد تواريخه في الصفحات المقروءة {cite:nayl-awtar-awn-bari-hamish j.5 p. 2}."
   en: "Shihab al-Din Abu al-'Abbas Ahmad al-Sharji al-Zabidi, author of al-Tajrid al-Sarih li-Ahadith al-Jami' al-Sahih, as he is named on the title page of the Nayl al-Awtar printing that carries its commentary 'Awn al-Bari in the margin; his dates do not appear in the pages read {cite:nayl-awtar-awn-bari-hamish j.5 p. 2}."
+  fr: "Shihab al-Din Abu al-'Abbas Ahmad al-Sharji al-Zabidi, auteur d'al-Tajrid al-Sarih li-Ahadith al-Jami' al-Sahih, tel que le nomme la page de titre de l'édition de Nayl al-Awtar portant en marge son commentaire 'Awn al-Bari ; ses dates ne figurent pas dans les pages lues {cite:nayl-awtar-awn-bari-hamish j.5 p. 2}."
   ur: "شہاب الدین ابو العباس احمد شرجی زبیدی، «التجرید الصریح لاحادیث الجامع الصحیح» کے مصنف، جیسا کہ «نیل الاوطار» کی اس طباعت کے سرورق پر ان کا نام ہے جس کے حاشیے پر اس کی شرح «عون الباری» ہے؛ ان کی تاریخیں پڑھے گئے صفحات میں نہیں {cite:nayl-awtar-awn-bari-hamish j.5 p. 2}۔"
 wings: [people]
 themes: [scripture-and-its-sciences]
@@ -26,7 +27,7 @@ occupations:
     note: "merge-map link from role 'scholar', Job Browser linking wave 29"
     sources: [source/nayl-awtar-awn-bari-hamish]
 relations:
-  - { type: lived_in, target: place/zabid, note: "Place association from the person's nisba/name (الزبيدي); denotes association, not proven residence.", sources: [source/nayl-awtar-awn-bari-hamish], confidence: low }
+  - { type: lived_in, target: place/zabid, note: "Place association from the person's nisba/name ⁦(الزبيدي)⁩; denotes association, not proven residence.", sources: [source/nayl-awtar-awn-bari-hamish], confidence: low }
   - { type: authored, target: work/al-tajrid-al-sarih, sources: [source/nayl-awtar-awn-bari-hamish] }
 provenance:
   layer: own-research

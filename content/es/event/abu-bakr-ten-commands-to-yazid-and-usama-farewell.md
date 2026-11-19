@@ -1,0 +1,33 @@
+---
+id: event/abu-bakr-ten-commands-to-yazid-and-usama-farewell
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/abu-bakr-ten-commands-to-yazid-and-usama-farewell.md}
+---
+## Resumen
+Abu Bakr dio instrucciones a los comandantes de los ejércitos que envió, caminando junto a ellos mientras los despedía. Malik relata de Yahya ibn Sa'id que salió a pie con [[person/yazid-ibn-abi-sufyan|Yazid ibn Abi Sufyan]], comandante de una cuarta parte de los ejércitos para Siria, y le dio diez instrucciones, entre ellas no matar a una mujer, un niño o un anciano, y no cortar árboles frutales. {cite:muwatta-maruf-1997 p. 577} Ibn al-Athir relata que también despidió a pie al ejército de [[person/usama-ibn-zayd|Usama ibn Zayd]] mientras Usama cabalgaba, y luego ordenó al ejército que no cometiera traición, mutilación ni matara a los débiles. {cite:kamil-ibn-al-athir scan vol. 1 p. 195} {cite:kamil-ibn-al-athir scan vol. 1 p. 196}
+
+## Despidiendo a Yazid ibn Abi Sufyan
+Ibn Kathir dice que Abu Bakr se dedicó a nombrar comandantes y atar estandartes; ató el estandarte de Yazid ibn Abi Sufyan, quien contaba con el apoyo de la mayoría del pueblo, y le entregó Damasco; salió con él a pie, aconsejándole sobre la conducción de la guerra que tenía en marcha contra los musulmanes. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 8} Añade que al-Mada'ini dice que Abu Bakr envió estos ejércitos al comienzo del año 13. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 8} De Muhammad ibn Ishaq, de Salih ibn Kaysan, Abu Bakr salió a pie con Yazid a caballo y le dio consejos; cuando terminó, dijo: «Te saludo y te encomiendo a Dios», luego regresó y Yazid siguió su camino. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 8}
+
+## El informe en el Muwatta
+Malik relata, citando a Yahya ibn Sa'id, que Abu Bakr al-Siddiq envió ejércitos a Siria y salió a caminar con Yazid ibn Abi Sufyan, comandante de una cuarta parte de esas fuerzas. Afirman que Yazid dijo: «O cabalgas o me bajo», a lo que Abu Bakr respondió: «Tú no te bajarás y yo no cabalgaré; considero que estos pasos míos son en el camino de Dios». {cite:muwatta-maruf-1997 p. 577}
+
+Luego le encargó diez cosas; el informe menciona entre ellas: no matar a una mujer, a un niño ni a un anciano; no cortar árboles frutales; no destruir lo habitado; no sacrificar ovejas ni camellos excepto para comer; no quemar abejas; no robar del botín; no ser cobarde. {cite:muwatta-maruf-1997 p. 577} El pasaje tiene su propio registro: [[passage/muwatta-7-1292|Muwatta 1292]].
+
+## Despidiendo a Usama ibn Zayd
+Ibn al-Athir relata que cuando el ejército partió hacia su campamento en al-Jurf, Usama envió a Umar ibn al-Khattab a Abu Bakr para pedirle permiso para regresar con la gente, pues con él iban los notables del pueblo y no se sentía seguro para el sucesor del Mensajero, su familia ni los musulmanes. Algunos de los Ansar que acompañaban a Usama pidieron que se pusiera al mando a alguien mayor que él. Abu Bakr dijo que aunque lo atacaran perros y lobos, seguiría adelante con la expedición tal como el Mensajero de Dios había ordenado, y que no revocaría su decisión. Cuando Umar le dijo que los Ansar querían a un hombre mayor que Usama, Abu Bakr se levantó de un salto, lo agarró por la barba y le dijo: «¡Que tu madre se quede sin ti, hijo de al-Khattab! El Mensajero de Dios lo designó, ¿y tú me pides que lo destituya?». {cite:kamil-ibn-al-athir scan vol. 1 p. 195} Para la expedición en sí, véase [[event/expedition-of-usama|la expedición de Usama ibn Zayd]].
+
+Abu Bakr salió a su encuentro, los despidió y caminó mientras Usama cabalgaba. Usama dijo: «Califato del Mensajero, o cabalgas o me bajo». Abu Bakr respondió: «¡Por Dios!, no te bajarás y yo no cabalgaré; ¿qué daño me supone sacudirme el polvo de los pies durante una hora en el camino de Dios?». Añadió que por cada paso que da un guerrero se le anotan setecientas buenas acciones, se elevan setecientos grados y se borran setecientas malas acciones. {cite:kamil-ibn-al-athir scan vol. 1 p. 195}
+
+Cuando estaba a punto de regresar, le dijo a Usama: «Si consideras oportuno dejar a Umar conmigo, hazlo», y Usama lo permitió. Luego ordenó al ejército: nada de traición, nada de falta de fe, nada de robo del botín, nada de mutilación; nada de matar a un niño, a un anciano o a una mujer; nada de cortar ni quemar palmeras, nada de talar árboles frutales; nada de sacrificar ovejas, vacas o camellos, excepto para alimentarse. Dijo que pasarían junto a personas que se habían entregado a los monasterios y que debían dejarlas en aquello a lo que se habían entregado, y que se encontrarían con personas que se habían rapado la parte central de la cabeza dejando una banda alrededor, a quienes debían golpear con la espada; y dijo: «Partid en el nombre de Dios». {cite:kamil-ibn-al-athir scan vol. 1 p. 196}
+
+Le encargó a Usama que hiciera lo que el Mensajero de Dios le había ordenado. Usama partió, atacó a las tribus de Quda'a que habían apostatado, tomó el botín y regresó, tras haber estado ausente cuarenta días, o setenta según otra versión. Ibn al-Athir afirma que el envío del ejército fue una de las acciones más beneficiosas para los musulmanes, pues los árabes decían que si los musulmanes no hubieran tenido la fuerza suficiente, no habrían enviado ese ejército, y por lo tanto, se habrían abstenido de muchas de las cosas que querían hacer. {cite:kamil-ibn-al-athir scan vol. 1 p. 196}
+
+## En qué se diferencian los informes
+Ambos relatos muestran a Abu Bakr caminando junto al comandante a caballo; el Muwatta relata que sus palabras se refieren a contar sus pasos en el camino de Dios, mientras que Ibn al-Athir añade la recompensa por cada paso. {cite:muwatta-maruf-1997 p. 577} {cite:kamil-ibn-al-athir scan vol. 1 p. 195} Las acusaciones difieren: el Muwatta enumera diez, prohibiendo matar a los débiles, talar árboles, destruir lo habitado, sacrificar animales, quemar abejas, robar el botín y la cobardía, mientras que Ibn al-Athir añade la traición y la mutilación, así como la instrucción de pasar de largo ante los habitantes de los monasterios. {cite:muwatta-maruf-1997 p. 577} {cite:kamil-ibn-al-athir scan vol. 1 p. 196}
+
+## Fuentes y documentación
+El Muwatta en la edición de Ma'ruf de 1997, tal como aparece en el registro del pasaje, se lee por su número de página; al-Bidaya wa'l-Nihaya de Ibn Kathir; y al-Kamil de Ibn al-Athir. Los números de página corresponden a las páginas escaneadas.

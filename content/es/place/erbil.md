@@ -1,0 +1,12 @@
+---
+id: place/erbil
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/place/erbil.md}
+---
+## Visión general
+Irbil, hoy escrita Erbil, es descrita por Yaqut al-Hamawi como una sólida ciudadela y una gran ciudad situada en una amplia llanura, perteneciente a los distritos de Mosul y ubicada entre los dos ríos Zab, a dos días de viaje de Mosul. La ciudadela se alza sobre un alto montículo de tierra con una amplia cima y está rodeada por un profundo foso; alberga mercados, viviendas para los habitantes y una mezquita, y Yaqut la compara con la ciudadela de Alepo, solo que más grande y extensa. En su época, una gran ciudad había crecido al pie de la ciudadela, construida por el emir Muzaffar al-Din Kukburi ibn Zayn al-Din, quien levantó su muralla, mercados y plazas cubiertas; forasteros se asentaron allí hasta que se convirtió en una gran ciudad. Yaqut escribe del emir que era generoso con los extranjeros y rescataba cautivos de las manos de aquellos a quienes llama infieles, mientras que, según su propio juicio, era severo con sus súbditos al confiscarles su dinero. La mayoría de los habitantes de la ciudad y sus alrededores eran kurdos que habían adoptado el árabe; el camino a Bagdad duraba siete días para las caravanas. No tenía huertos ni ríos; la mayoría de los cultivos crecían en canales subterráneos y la gente bebía de pozos de agua dulce. Yaqut añade que no encontró allí a nadie notable por su erudición, excepto a Abu al-Barakat al-Mubarak ibn Ahmad, conocido como al-Mustawfi. También reflexiona sobre el origen del nombre, sugiriendo que proviene de rabl, un tipo de árbol, o de una abundancia de crecimiento. {cite:mujam-al-buldan-yaqut p.177} {cite:mujam-al-buldan-yaqut p.176}
+
+## En iDAI.gazetteer
+El iDAI.gazetteer cataloga este lugar con el número 2771775 como un lugar poblado, con el nombre preferido «Arbil» (árabe, transliterado). Su entidad superior en la jerarquía es la unidad administrativa «Arbil». Entre sus nombres registrados se encuentran el alemán «Erbil», «Hewlêr», las formas árabes «أربيل» y «إربيل», otras dos formas en escritura árabe sin idioma especificado («هه‌ولێر» y «هولير»), y una forma siríaca («ܐܪܒܝܠ»). {cite:idai-gazetteer 2771775}

@@ -7,7 +7,7 @@ translators: []
 
 # محمد عبد اللہ محمد
 
-محمد عبد اللہ محمد (پیدائش 11 مارچ 1962ء)، فرماجو کے نام سے معروف، صومالی سیاست دان ہیں جو 2017ء سے 2022ء تک صومالیہ کے صدر اور اس سے پہلے 2010ء سے 2011ء تک وزیر اعظم رہے۔{cite:source/wikipedia-mohamed-abdullahi-mohamed-en}{cite:source/wikidata-mohamed-abdullahi-mohamed}
+محمد عبد اللہ محمد ⁦(پیدائش 11 مارچ 1962ء)⁩، فرماجو کے نام سے معروف، صومالی سیاست دان ہیں جو 2017ء سے 2022ء تک صومالیہ کے صدر اور اس سے پہلے 2010ء سے 2011ء تک وزیر اعظم رہے۔{cite:source/wikipedia-mohamed-abdullahi-mohamed-en}{cite:source/wikidata-mohamed-abdullahi-mohamed}
 
 ## مقديشو، بفیلو اور بیرونِ ملک خدمات
 

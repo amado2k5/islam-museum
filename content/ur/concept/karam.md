@@ -7,7 +7,7 @@ translators: ["Claude Sonnet, draft translation"]
 ## خلاصہ
 شیخ عمر عبد الکافی کے نزدیک کرم یہ ہے کہ آدمی دے اور یہ نہ پوچھے کہ کسے دیا اور کتنا دیا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:13:00}۔ ان کی رائے ہے کہ یہ معنی حقیقت میں صرف اللہ پر صادق آتا ہے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:14:00}، جو سب کو رزق دیتا ہے اور ان کے لیے سورج، بارش اور ہوا باقی رکھتا ہے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:15:00}۔
 
-## شیخ عمر عبد الکافی کے تفسیری درس (قسط 08)
+## شیخ عمر عبد الکافی کے تفسیری درس ⁦(قسط 08)⁩
 
 شیخ حقیقی کریم کی تعریف یوں کرتے ہیں کہ وہ جب دیتا ہے تو یہ نہیں پوچھتا کہ کسے دے رہا ہے اور کتنا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:13:00}۔
 

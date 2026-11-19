@@ -7,7 +7,7 @@ translators: []
 
 ## خلاصہ
 
-عبد اللطیف حموشی (پیدائش 1966) مراکشی سیکیورٹی عہدیدار ہیں جو بیک وقت قومی سلامتی اور علاقائی نگرانی (داخلی انٹیلی جنس) کے ڈائریکٹر جنرل ہیں {cite:wikipedia-abdellatif-hammouchi-en} {cite:wikipedia-abdellatif-hammouchi-ar}۔
+عبد اللطیف حموشی ⁦(پیدائش 1966)⁩ مراکشی سیکیورٹی عہدیدار ہیں جو بیک وقت قومی سلامتی اور علاقائی نگرانی ⁦(داخلی انٹیلی جنس)⁩ کے ڈائریکٹر جنرل ہیں {cite:wikipedia-abdellatif-hammouchi-en} {cite:wikipedia-abdellatif-hammouchi-ar}۔
 
 ## زندگی و کام
 

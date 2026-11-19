@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b64, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/150-151" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b64, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/150-151" }
 ---
 ## موجز
 أبو عبد الله محمد بن إسحاق الكوفي، المتشمّر للحاق، المتحرّز من الفراق، المتجرّد للسباق، كان على فوت الساعات ضنينًا، ويجد من فوت وقته أنينًا وحسرة وحنينًا. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 514)⁩ في الصفحتين 150 و151، وتسلسله 515. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/150} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/151}

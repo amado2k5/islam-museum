@@ -6,7 +6,7 @@ translators: ["Claude Code (OCR-harvest worker E), claude-opus-5-5, translation"
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sifat-al-safwa-tartusi-2012 p.722–724" }
 ---
 ## خلاصہ
-شعوانہ [[place/al-ubulla|ابلہ]] کی ایک عابدہ تھیں؛ ابن الجوزی [[work/sifat-al-safwa|صفۃ الصفوہ]] میں «ابلہ کی برگزیدہ عابدات» کا آغاز انہی سے کرتے ہیں (نمبر 630)۔ {cite:sifat-al-safwa-tartusi-2012 p.722} ان کی ایک مجلس تھی جس میں عبادت گزار آتے، اور ان کی خبروں کا محور اللہ کے خوف سے گریہ ہے۔ {cite:sifat-al-safwa-tartusi-2012 p.723}
+شعوانہ [[place/al-ubulla|ابلہ]] کی ایک عابدہ تھیں؛ ابن الجوزی [[work/sifat-al-safwa|صفۃ الصفوہ]] میں «ابلہ کی برگزیدہ عابدات» کا آغاز انہی سے کرتے ہیں ⁦(نمبر 630)⁩۔ {cite:sifat-al-safwa-tartusi-2012 p.722} ان کی ایک مجلس تھی جس میں عبادت گزار آتے، اور ان کی خبروں کا محور اللہ کے خوف سے گریہ ہے۔ {cite:sifat-al-safwa-tartusi-2012 p.723}
 
 ## گریہ
 معاذ بن الفضل کہتے ہیں کہ وہ اتنا روئیں کہ نابینا ہونے کا ڈر ہوا، تو کہا: «دنیا میں رونے سے اندھی ہونا مجھے آخرت میں آگ سے اندھی ہونے سے زیادہ پسند ہے»۔ {cite:sifat-al-safwa-tartusi-2012 p.722} مالک بن ضیغم کہتے ہیں کہ ابلہ کے ایک شخص نے ان کے والد سے ان کے رونے کا حال بیان کیا تو والد نے کہا: «لگتا ہے خوف نے ان کا سارا دل جلا دیا ہے»؛ اور کہا جاتا تھا کہ آنسوؤں کی کمی بیشی دل کے جلنے کے بقدر ہوتی ہے۔ {cite:sifat-al-safwa-tartusi-2012 p.723}

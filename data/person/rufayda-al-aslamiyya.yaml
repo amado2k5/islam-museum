@@ -17,14 +17,14 @@ regions: [arabia]
 story_roles:
   - { role: companion, status: tradition, sources: [source/nisa-hawl-alrasul] }
 faith:
-  - { value: sunni, basis: tradition, note: "صحابية مسلمة مترجمة في الإصابة (رقم 11222)؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).", sources: [source/ibn-hajar-isaba, source/nisa-hawl-alrasul] }
+  - { value: sunni, basis: tradition, note: "صحابية مسلمة مترجمة في الإصابة ⁦(رقم 11222)⁩؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).", sources: [source/ibn-hajar-isaba, source/nisa-hawl-alrasul] }
 born: { edtf: "627~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
 died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
 relations:
   - { type: lived_in, target: place/medina }
   - { type: member_of, target: group/aslam }
   - { type: member_of, target: group/ansar }
-  - { type: participated_in, target: event/battle-of-the-trench, role: "تمرّض الجرحى في خيمتها بالمسجد؛ وُضع عندها سعد بن معاذ حين أصابه السهم (نساء حول الرسول ص232-233)", sources: [source/nisa-hawl-alrasul] }
+  - { type: participated_in, target: event/battle-of-the-trench, role: "تمرّض الجرحى في خيمتها بالمسجد؛ وُضع عندها سعد بن معاذ حين أصابه السهم ⁦(نساء حول الرسول ص232-233)⁩", sources: [source/nisa-hawl-alrasul] }
   - { type: member_of, target: group/sahaba, sources: [source/nisa-hawl-alrasul, source/ibn-hajar-isaba]}
 external_ids: { wikidata: "Q4119690" }
 inventions:
@@ -32,4 +32,4 @@ inventions:
 tags: [tibb-browser, tibb-tibb, tibb-nabawi, tibb-jiraha]
 sources: [source/nisa-hawl-alrasul, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 1, generated_by: "Devin; Nisa' Hawl al-Rasul pp. 232-233, lib-nisa-hawl-rasul" }
-provenance: { layer: own-research, source: "نساء حول الرسول (المكتبة العصرية 2015) ص232-233؛ ينقل عن الإصابة 8/81 ترجمة 422", generated_by: "Devin", model: "SWE-2 High", run: "lib-nisa-hawl-rasul" }
+provenance: { layer: own-research, source: "نساء حول الرسول ⁦(المكتبة العصرية 2015)⁩ ص232-233؛ ينقل عن الإصابة 8/81 ترجمة 422", generated_by: "Devin", model: "SWE-2 High", run: "lib-nisa-hawl-rasul" }

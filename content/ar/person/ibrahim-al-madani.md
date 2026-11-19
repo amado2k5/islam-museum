@@ -9,7 +9,7 @@ translators: []
 
 ## الملخص
 
-إبراهيم بن عادل بن حمزة المدني (1974 – 21 سبتمبر 2026) مؤذن ومدرّس سعودي، من مؤذني [[building/masjid-al-haram|المسجد الحرام]] من 2018 حتى وفاته. {cite:wikipedia-ibrahim-al-madani-ar} {cite:wikipedia-list-of-muezzins-of-the-two-holy-mosques-ar}
+إبراهيم بن عادل بن حمزة المدني ⁦(1974 – 21 سبتمبر 2026)⁩ مؤذن ومدرّس سعودي، من مؤذني [[building/masjid-al-haram|المسجد الحرام]] من 2018 حتى وفاته. {cite:wikipedia-ibrahim-al-madani-ar} {cite:wikipedia-list-of-muezzins-of-the-two-holy-mosques-ar}
 
 ## النشأة
 

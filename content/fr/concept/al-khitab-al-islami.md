@@ -1,0 +1,31 @@
+---
+id: concept/al-khitab-al-islami
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-concept-01-packet-12
+  source: content/en/concept/al-khitab-al-islami.md
+---
+
+# Le discours islamique contemporain — maturité ou réactivité
+
+## L’épisode et la définition
+Le deuxième épisode d’« Al-Wasatiyya » a débattu du discours islamique contemporain : mûr ou réactif ? {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:01:00} Il est parti de la définition de l’Académie internationale du fiqh islamique : « la manière d’exprimer les vérités et les lois de l’islam » — la question concerne ceux qui transmettent, non le texte {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:04:30}. Le public s’est partagé presque également : 51 % réactif, 49 % mûr {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:03:30}.
+
+## Les marques du défaut — méthode, réalité, tradition, réaction
+Salah al-Din al-Jurshi a ramené les problèmes de contenu à quatre : le problème de méthode — « partir de la conclusion, un jugement arrêté d’avance sans fondements » ; l’écart entre le discours et la réalité — l’anecdote d’un cheikh faisant une conférence sur le divorce devant des conscrits célibataires ; le traditionalisme — débattre de questions des murji'ites et des kharijites que l’époque a dépassées, et l’anecdote d’une leçon donnée dans une mosquée du Colorado sur les qadianis, que personne sur place n’avait jamais rencontrés ; et la dépendance à la réaction — les événements entraînent le discours (le Danemark, puis le pape), si bien qu’aucun savoir cumulatif ne se forme {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:14:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:14:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:15:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:17:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:18:00}.
+
+## Autocritique ou voix de l’optimisme
+Mahmoud Rashdan a défendu la maturité : des autorités comme al-Qaradawi, Muhammad al-Ghazali et Abd al-Alim pèsent plus lourd que les tribuns des chaînes satellitaires ; et les mouvements islamiques pratiquent la démocratie en interne davantage que des partis qui en portent le nom {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:20:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:21:30}. Il a soutenu que le problème est vivant et en voie d’être traité — « la force de renouveau qui s’y trouve dépasse la force d’imitation et de rigidité » — et que tout discours, occidental ou nationaliste, a ses défauts {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:41:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:41:30}. L’animateur a relevé l’optimisme habituel de Rashdan {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:41:30}.
+
+## La mosquée et le discours officiel
+Al-Jurshi a qualifié le discours de la mosquée de « miné », appelant une révision radicale : une politisation excessive — des imams nommés par les gouvernements pour glorifier leurs politiques, ou des mouvements qui s’en servent pour justifier leurs choix — et un décalage historique : des mosquées bâties pour des communautés homogènes, désormais face à des communautés pluralistes {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:42:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:43:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:43:30}. Rashdan a fait valoir que la plupart des chaires incendiaires sont « imposées par les régimes » aux mosquées {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:39:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:40:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:40:30}. Ma'mun Jarrar a relevé que les facultés de charia admettent désormais les étudiants aux notes les plus faibles et ne parviennent donc plus à former, comme autrefois, de grands juristes et prédicateurs {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:53:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:54:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:54:30}.
+
+## Pression extérieure ou nécessité intérieure
+Le public s’est partagé : 51 % voyaient dans la révision une nécessité intérieure, 49 % une réponse à une pression extérieure {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:47:30}. Sayyid al-Fayiz a dit que la pression extérieure avait « ouvert des horizons » dans le discours politique — dialogue, participation, pluralisme, droits des femmes —, la règle restant que la révision doit venir de nous {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:52:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:52:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:53:00}. Mahmoud Sayyid Daghim a estimé que la maturation du discours reflète l’approfondissement de la compréhension que les musulmans ont de leur religion {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:50:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:51:00}.
+
+## Un discours ou deux
+76 % ont approuvé deux discours différents pour l’intérieur et l’extérieur — un résultat qu’al-Jurshi a trouvé stupéfiant, mettant en garde contre la duplicité et la tutelle exercée sur les musulmans d’Occident {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:56:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:57:30}. Khaled Hroub a soutenu l’unité avec deux exemples : des chaires qui maudissent juifs et chrétiens pendant que nous prêchons l’amour à l’étranger, et le sermon du village reculé désormais traduit et diffusé {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:59:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:59:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 01:00:30}. Al-Fayiz a précisé : le contenu diffère selon le destinataire {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 01:02:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 01:02:30}. L’animateur a conclu : « L’islam est un, avec des niveaux — comme le Prophète envoya Mu'adh en commençant par le tawhid » {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 01:05:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 01:05:30}.

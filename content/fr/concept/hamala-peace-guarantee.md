@@ -1,0 +1,9 @@
+---
+id: concept/hamala-peace-guarantee
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/hamala-peace-guarantee.md}
+---
+## Résumé
+La hamala est le prix du sang ou l'amende qu'une personne paie pour une autre ; techniquement, il s'agit de la dette qu'un homme s'engage à payer afin de mettre fin à un conflit entre deux groupes ayant entraîné des pertes de vies humaines ou matérielles. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7288} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7289} La garantie (daman) est plus large que la hamala, qui est une garantie de prix du sang ou d'autres sommes versées en faveur de la paix ; la kafala désigne, pour les hanafites, la jonction de la responsabilité du garant à celle du débiteur principal, et, pour la plupart des juristes, l'engagement de produire la personne. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7289} La hamala est incontestablement licite et compte parmi les actes nobles ; les Arabes la connaissaient, et son fondement est le commandement coranique de craindre Dieu et de rétablir les relations entre croyants. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7289} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7290} La zakat peut être versée à un hamil qui a emprunté pour mettre fin à un conflit : les hanafites exigent qu'il soit pauvre ; les malikites, les chaféites et les hanbalites la lui versent sur la part des débiteurs, même s'il est riche, lorsque la dette est accablante. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7290} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7291} La plupart des juristes autorisent le porteur d'un hamala à demander de l'aide à autrui jusqu'à ce qu'il ait payé. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7291}

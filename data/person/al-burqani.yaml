@@ -3,11 +3,13 @@ class: person
 label:
   ar: "البرقاني"
   en: "Al-Burqani"
+  fr: "Al-Burqani"
 roles: [scholar]
 gender: male
 summary:
   ar: "أحمد بن محمد أبو بكر البرقاني الخوارزمي، عالم بالحديث استوطن بغداد ⁦(٣٣٦–٤٢٥هـ)⁩، صاحب «مسند» و«التخريج لصحيح الحديث»."
   en: "Ahmad ibn Muhammad Abu Bakr al-Burqani of Khwarazm, hadith scholar in Baghdad (336–425/948–1034), author of a Musnad and al-Takhrij."
+  fr: "Ahmad ibn Muhammad Abu Bakr al-Burqani du Khwarezm, savant du hadith à Bagdad (336–425 H/948–1034), auteur d’un Musnad et d’al-Takhrij."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-early]
@@ -27,4 +29,4 @@ status:
 born: { edtf: "947", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar) Confirmed on 13 November 2026 against Wikidata Q6820240 (P569, a statement with a reference), item revision 2566401870.", sources: [source/wikidata] }
 died: { edtf: "1034", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar) Confirmed on 13 November 2026 against Wikidata Q6820240 (P570, a statement with a reference), item revision 2566401870.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/khwarizm, note: "Place association from the person's nisba/name (الخوارزمي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/khwarizm, note: "Place association from the person's nisba/name ⁦(الخوارزمي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

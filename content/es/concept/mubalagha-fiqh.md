@@ -1,0 +1,9 @@
+---
+id: concept/mubalagha-fiqh
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/mubalagha-fiqh.md}
+---
+## Resumen
+Mubalagha, en el léxico, es esforzarse y no quedarse corto, o extravagancia {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13823}. Los juristas coinciden en que la minuciosidad al enjuagar boca y nariz es sunna para quien no ayuno; para la persona que ayuna no es de aprecio, según el hadiz de Laqit ibn Sabra: sé minucioso al fumar agua a menos que estés ayunando {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13823}. La mayoría de los juristas recomiendan lavar más que las partes obligatorias en la ablución, según el informe de Abu Hurayra y los rostros y extremidades radiantes de la comunidad; los Hanbalis entienden que frotando minuciosamente los lugares donde el agua no se deposita, los Maliki consideran que el frotamiento es obligatorio {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13823-13824}. La mayoría recomienda frotar los talones, y la excesividad en el lavado es detestada {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13824-13825}. Los Malikis y Shafi'is recomiendan alzar la voz en el llamado a la oración sin esfuerzo; los hanafis la llaman sunna y los hanafíes la convierten en un pilar, elevado tanto como se puede {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13825}. Sobre el alabanza, al-Nawawi dice que la prohibición se aplica a la exageración y a alguien a quien el alabanza puede corromper; el alabado no está prohibido para una persona de fe y sentido asentado {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13825}.

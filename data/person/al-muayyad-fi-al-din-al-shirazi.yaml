@@ -3,11 +3,13 @@ class: person
 label:
   ar: "المؤيد في الدين الشيرازي"
   en: "al-Mu'ayyad fi'l-Din al-Shirazi"
+  fr: "al-Mu'ayyad fi'l-Din al-Shirazi"
 roles: [scholar]
 gender: male
 summary:
   ar: "هبة الله بن موسى الشيرازي، أبو نصر، المؤيد في الدين، داعي الدعاة، من زعماء الإسماعيلية وكتابها، ولد وتعلم بشيراز وخدم المستنصر الفاطمي بمصر وتوفي فيها سنة ٤٧٠هـ، له المجالس المؤيدية والمرشد إلى أدب الإسماعيلية."
   en: "Hibat Allah ibn Musa al-Shirazi, Abu Nasr, al-Mu'ayyad fi'l-Din, chief da'i, an Isma'ili leader and writer born and schooled at Shiraz, who served the Fatimid al-Mustansir in Egypt and died there in 470 AH (1078); author of al-Majalis al-Mu'ayyadiyya and al-Murshid ila adab al-Isma'iliyya."
+  fr: "Hibat Allah ibn Musa al-Shirazi, Abu Nasr, al-Mu'ayyad fi'l-Din, chef da'i, un leader Isma'ili et écrivain né et instruit à Shiraz, qui a servi les Fatimides al-Mustansir en Égypte et y est mort en 470 de l’hégire (1078) ; Auteur de al-Majalis al-Mu'ayyadiyya et al-Murshid ila adab al-Isma'iliyya."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -27,5 +29,5 @@ status:
 born: { edtf: "1000", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mu'ayyad fi'l-Din' / Verena Klemm; d. 470 AH) Confirmed on 13 November 2026 against Wikidata Q6930533 (P569, a statement with a reference), item revision 2552256433.", sources: [source/wikidata] }
 died: { edtf: "1078", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mu'ayyad fi'l-Din' / Verena Klemm; d. 470 AH) Confirmed on 13 November 2026 against Wikidata Q6930533 (P570, a statement with a reference), item revision 2552256433.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name (الشيرازي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name ⁦(الشيرازي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: died_in, target: place/misr, note: "Al-Zirikli, al-A'lam vol. 8 pp. 75-76: he returned to Egypt and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

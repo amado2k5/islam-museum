@@ -1,0 +1,12 @@
+---
+id: event/abu-al-qasim-leaves-shibam-with-gifts-and-reaches-saada-in-291
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/abu-al-qasim-leaves-shibam-with-gifts-and-reaches-saada-in-291.md}
+---
+## Visión general
+Abu al-Qasim escribió a los dos hijos de Ya'fur quejándose de la duración de su estancia y de su cansancio del lugar, y ellos le enviaron monturas, túnicas y una espada y cartas excusando su demora, y él aceptó su excusa y compartió lo que le habían enviado entre sus sirvientes y los demás que estaban presentes; escribieron a Ali ibn al-Hasan al-Aqra'i para que saliera con él hasta que lo llevara a donde deseara {cite:sira-hadi-ila-al-haqq p.274}. Salieron de Shibam hasta que llegaron a [[place/al-ghayl-al-bawn-yemen|al-Ghayl]], donde se encontraron con los agentes de [[person/al-daam-ibn-ibrahim|al-Da'am]] que estaban en al-Bawn; enviaron de vuelta a al-Aqra'i y siguieron con ellos hasta que llegaron a [[place/raydah-yemen|Raydah]] y pasaron la noche, luego siguieron hasta que pasaron la noche en [[place/warwar-yemen|Warwar]] {cite:sira-hadi-ila-al-haqq p.274}.
+
+## Detalle
+Abu al-Qasim dijo: ¿Cómo viste el sueño que te conté en Bayt Bus? Luego siguieron adelante, con al-Da'am (la nota tiene "Ibn al-Da'am") hasta que llegaron a un lugar impreso "Gharaq" y se detuvieron allí, luego siguieron hacia Sa'da, Ibn al-Da'am yendo con ellos hasta que llegaron a [[place/saada|Sa'da]] en los primeros días del año 291 H, al-Hadi estando en ese momento en Sa'da {cite:sira-hadi-ila-al-haqq p.274}. Sus palabras recuerdan [[event/abu-al-qasim-tells-his-dream-of-the-sons-of-yafur-and-the-rising-of-the-prisons-291|el sueño]] que se había hecho realidad, como lo relata el narrador, sin veredicto en la voz del museo sobre el sueño. Ali ibn al-Hasan al-Aqra'i, Ibn al-Da'am y el lugar "Gharaq" quedan sin registros; "al-Ghayl" se lee como impreso y vinculado al registro más cercano como probable solamente. Sigue [[event/abu-al-qasim-lets-himself-down-from-shibam-and-is-brought-back-291|el intento de salir de Shibam]]. El informe se encuentra en un libro zaidí, narrado por Muhammad ibn Sa'id.

@@ -3,11 +3,13 @@ class: person
 label:
   ar: "عبد الواحد المراكشي"
   en: "Abd al-Wahid al-Marrakushi"
+  fr: "Abd al-Wahid al-Marrakushi"
 roles: [writer, scholar]
 gender: male
 summary:
   ar: "بطاقة أولية لعبد الواحد بن علي المراكشي، مؤرخ المغرب صاحب «المعجب في تلخيص أخبار المغرب» في أوائل القرن الثالث عشر، توفي سنة ١٢٥٠م تقريباً؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
   en: "Draft card for Abd al-Wahid ibn Ali al-Marrakushi, the Moroccan historian author of al-Mu'jib on the history of the Maghreb in the early thirteenth century, d. about 1250; the biographical entry is not yet checked on the page."
+  fr: "Fiche provisoire d'Abd al-Wahid ibn Ali al-Marrakushi, l'historien marocain auteur d'al-Mu'jib sur l'histoire du Maghreb au début du XIIIe siècle, m. vers 1250 ; la notice biographique n'a pas encore été vérifiée sur la page."
 wings: [people]
 regions: [maghreb]
 periods: [period/crusades-ayyubid-mamluk]
@@ -27,4 +29,4 @@ status:
 born: { edtf: "1185", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Mu'jib fi Talkhis Akhbar al-Maghrib; EI2 (581–647 AH) Confirmed on 13 November 2026 against Wikidata Q4664888 (P569, a statement with a reference), item revision 2549392733.", sources: [source/wikidata] }
 died: { edtf: "1250", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Mu'jib fi Talkhis Akhbar al-Maghrib; EI2 (581–647 AH) Confirmed on 13 November 2026 against Wikidata Q4664888 (P570, a statement with a reference), item revision 2549392733.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/marrakesh, note: "Place association from the person's nisba/name (المراكشي); denotes association, not proven residence.", sources: [source/al-aalam, source/encyclopaedia-of-islam-2], confidence: low }
+  - { type: lived_in, target: place/marrakesh, note: "Place association from the person's nisba/name ⁦(المراكشي)⁩; denotes association, not proven residence.", sources: [source/al-aalam, source/encyclopaedia-of-islam-2], confidence: low }

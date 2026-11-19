@@ -3,6 +3,7 @@
 // the loader validates shape/count, view*() selects the page language.
 import { readFileSync } from "node:fs";
 import { parse } from "yaml";
+import { parseLocalized } from "./i18n";
 import { repoPath } from "./paths";
 import type { Lang } from "./i18n";
 
@@ -28,7 +29,7 @@ export interface JourneyView {
 }
 
 export function loadJourneys(): Journey[] {
-  const raw = parse(readFileSync(repoPath("tour/journeys.yaml"), "utf8")) as {
+  const raw = parseLocalized(readFileSync(repoPath("tour/journeys.yaml"), "utf8")) as {
     journeys?: Journey[];
   };
   const journeys = raw?.journeys;
@@ -60,7 +61,7 @@ export function loadJourneys(): Journey[] {
 /** Select the page language for each journey; narration lines stay plain text.
  *  A language the data has not been translated into yet (ur) falls back to English, as i18n/ui() does for UI strings. */
 export function viewJourneys(journeys: Journey[], lang: Lang): JourneyView[] {
-  const pick = <T,>(b: Record<string, T>): T => b[lang] ?? b.en;
+  const pick = <T,>(b: { ar: T; en: T } & Partial<Record<Lang, T>>): T => b[lang] ?? b.en;
   return journeys.map((j) => ({
     id: j.id,
     kind: j.kind,
@@ -71,7 +72,7 @@ export function viewJourneys(journeys: Journey[], lang: Lang): JourneyView[] {
   }));
 }
 
-export interface Trilingual { ar: string; en: string; ur: string; fr?: string }
+export interface Trilingual { ar: string; en: string; ur: string; fr?: string; es?: string }
 
 /** One Objects-hall stop: a procedural mesh (`build`) labelled from an object record. */
 export interface Exhibit {
@@ -101,7 +102,7 @@ const full = (b: unknown): b is Trilingual =>
   !!b && LANGS3.every((l) => typeof (b as any)[l] === "string" && (b as any)[l].length > 0);
 
 export function loadExhibits(): Exhibit[] {
-  const raw = parse(readFileSync(repoPath("tour/exhibits.yaml"), "utf8")) as { exhibits?: Exhibit[] };
+  const raw = parseLocalized(readFileSync(repoPath("tour/exhibits.yaml"), "utf8")) as { exhibits?: Exhibit[] };
   const list = raw?.exhibits;
   if (!list || list.length !== EXHIBIT_BUILDS.length)
     throw new Error(`tour/exhibits.yaml: expected exactly ${EXHIBIT_BUILDS.length} exhibits`);
@@ -124,10 +125,10 @@ export function viewExhibits(list: Exhibit[], lang: Lang): ExhibitView[] {
     id: e.id,
     build: e.build,
     record: e.record,
-    label: e.label[lang],
-    desc: e.desc[lang],
-    material: e.material?.[lang] ?? (lang === "fr" ? e.material?.en : e.material?.ar) ?? "",
-    museum: e.museum?.[lang] ?? (lang === "fr" ? e.museum?.en : e.museum?.ar) ?? "",
+    label: e.label[lang] ?? e.label.en,
+    desc: e.desc[lang] ?? e.desc.en,
+    material: e.material?.[lang] ?? (lang === "fr" || lang === "es" ? e.material?.en : e.material?.ar) ?? "",
+    museum: e.museum?.[lang] ?? (lang === "fr" || lang === "es" ? e.museum?.en : e.museum?.ar) ?? "",
   }));
 }
 
@@ -150,7 +151,7 @@ export const HALL_WINGS = ["time", "place", "people", "ideas", "words", "living"
 export const HALL_STOPS = 6;
 
 export function loadHalls(): Hall[] {
-  const raw = parse(readFileSync(repoPath("tour/halls.yaml"), "utf8")) as { halls?: Hall[] };
+  const raw = parseLocalized(readFileSync(repoPath("tour/halls.yaml"), "utf8")) as { halls?: Hall[] };
   const list = raw?.halls;
   if (!list || list.map((h) => h.wing).join() !== HALL_WINGS.join())
     throw new Error(`tour/halls.yaml: expected one hall per wing, in order: ${HALL_WINGS.join(", ")}`);
@@ -176,6 +177,6 @@ export function loadHalls(): Hall[] {
 export function viewHalls(list: Hall[], lang: Lang): HallView[] {
   return list.map((h) => ({
     wing: h.wing,
-    stops: h.stops.map((s) => ({ id: s.id, record: s.record, art: s.art ?? "", label: s.label[lang], desc: s.desc[lang] })),
+    stops: h.stops.map((s) => ({ id: s.id, record: s.record, art: s.art ?? "", label: s.label[lang] ?? s.label.en, desc: s.desc[lang] ?? s.desc.en })),
   }));
 }

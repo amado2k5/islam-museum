@@ -1,6 +1,6 @@
 id: person/al-shantamari-yusuf-ibn-sulayman
 class: person
-label: { ar: "الأعلم الشنتمري يوسف بن سليمان", en: "Al-A'lam al-Shantamari, Yusuf ibn Sulayman" }
+label: { ar: "الأعلم الشنتمري يوسف بن سليمان", en: "Al-A'lam al-Shantamari, Yusuf ibn Sulayman", fr: "Al-A'lam al-Shantamari, Yusuf ibn Sulayman" }
 names:
   - { kind: full, lang: ar, value: "يوسف بن سليمان بن عيسى بن سليمان أبو الحجاج" }
 gender: male
@@ -11,6 +11,7 @@ died: { edtf: "1084", calendar: julian, precision: year, status: tradition, sour
 summary:
   ar: "عالم أندلسي من شنتمرية الغرب، لُقّب بالأعلم لشق واسع في شفته العليا."
   en: "An Andalusian scholar from Shantamariyya al-Gharb, nicknamed al-A'lam for a wide split in his upper lip."
+  fr: "Un érudit andalou de Shantamariyya al-Gharb, surnommé al-A'lam pour une large fente dans sa lèvre supérieure."
 wings: [people]
 themes: [literature]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -23,9 +24,9 @@ status:
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص185"
+  source: "موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج2 ص185"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch54
 relations:
-  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (أندلسي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
+  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name ⁦(أندلسي)⁩; denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

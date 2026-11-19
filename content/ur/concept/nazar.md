@@ -26,6 +26,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 زوجین ایک دوسرے کا تمام بدن دیکھ سکتے ہیں، اور شرمگاہ کے بارے میں اختلاف ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15785} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15786}
 
 ## ضرورت کے لیے اجازت
-نظر فجاءۃ (بے ارادہ نظر) معاف ہے، گناہ استدامت میں ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15787} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15788}
+نظر فجاءۃ ⁦(بے ارادہ نظر)⁩ معاف ہے، گناہ استدامت میں ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15787} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15788}
 علاج، قضاء، گواہی، لین دین اور تعلیم کے لیے بقدرِ ضرورت نظر کی اجازت ہے، جس کی شرائط تفصیل سے بیان ہوئی ہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15788} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15794}
 

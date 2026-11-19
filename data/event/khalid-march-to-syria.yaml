@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [arabia, levant-iraq]
 date:
-  start: { edtf: "0634-06~", hijri: "0013-03", calendar: julian, precision: month, status: tradition, derived: true, note: "شهر ربيع الآخر سنة 13هـ (البلاذري ص 152). التحويل مشتق." }
+  start: { edtf: "0634-06~", hijri: "0013-03", calendar: julian, precision: month, status: tradition, derived: true, note: "شهر ربيع الآخر سنة 13هـ ⁦(البلاذري ص 152)⁩. التحويل مشتق." }
 relations:
   - { type: part_of, target: event/conquest-of-syria }
   - { type: had_participant, target: person/khalid-ibn-al-walid, role: "قائد المسير من العراق إلى الشام", sources: [source/futuh-buldan-maarif-1407] }
@@ -25,7 +25,7 @@ relations:
   - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 152–155"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 152–155"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-8
 sides:

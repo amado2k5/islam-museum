@@ -1,0 +1,28 @@
+---
+id: event/treaty-of-edirne-1829
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/treaty-of-edirne-1829.md}
+---
+## Vue d'ensemble
+Le traité d'Edirne, également appelé traité ou paix d'Andrinople, mit fin à la guerre russo-ottomane de 1828-1829. L'Encyclopédie de l'Islam le date du 14 septembre 1829 {cite:encyclopaedia-of-islam-2 vol. 6 p. 68} et, dans un autre article, indique l'année 1245 de l'Hégire {cite:encyclopaedia-of-islam-2 vol. 2 p. 39}. Il tire son nom de la ville d' [[place/edirne|Edirne]], que l'armée russe avait prise quelques semaines auparavant {cite:encyclopaedia-of-islam-2 vol. 6 p. 68}.
+
+## La voie vers le traité
+L'article sur le sultan [[person/mahmud-ii-uthmani|Mahmoud II]] situe le traité dans le contexte de la longue crise du soulèvement grec. Il indique que la Grande-Bretagne, la Russie et la France proposèrent une médiation, que les Ottomans refusèrent au motif qu'il s'agissait d'une affaire intérieure, et que les flottes européennes détruisirent ensuite une flotte ottomane-égyptienne dans le port de Navarin le 20 octobre 1827 (voir [[event/battle-navarino-1243|la bataille de Navarin]]). {cite:encyclopaedia-of-islam-2 vol. 6 p. 68} En mai 1828, les Russes lancèrent une offensive contre les territoires ottomans en Europe et en Asie. {cite:encyclopaedia-of-islam-2 vol. 6 p. 68} L'article sur le port de Bourgas, sur la mer Noire, ajoute qu'il servit de base arrière aux Russes lors de leur avancée sur Edirne en 1245/1829. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1390}
+
+En 1829, une armée russe sous le commandement du général Diebitsch contourna Shumla, franchit les cols des Balkans, s'empara d'Edirne le 20 août et menaça de marcher sur Istanbul, contraignant ainsi le sultan à demander la paix. {cite:encyclopaedia-of-islam-2 vol. 6 p. 68} L'avancée russe et ses suites sont relatées séparément sous [[event/battle-of-adrianople-1829|le nom d'occupation d'Edirne en 1829]], et l'ensemble du conflit sous [[event/russo-turkish-war-1828|celui de guerre russo-turque de 1828-1829]]. Dans l'article consacré à Edirne, il est indiqué que l'occupation russe eut un impact profond sur les musulmans de la ville, qui commencèrent à émigrer tandis que des chrétiens des villages environnants s'y installèrent. {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}
+
+## Ce que les Ottomans ont abandonné
+Selon l'article consacré à Mahmoud II, les Ottomans cédèrent à la Russie le delta du Danube en Europe et la province d'Akhaltsikhe en Asie, et durent s'acquitter d'une lourde indemnité de guerre. {cite:encyclopaedia-of-islam-2 vol. 6 p. 68} Ils durent également reconnaître l'autonomie de la Serbie, de la Moldavie, de la Valachie et de la Grèce sous protectorat russe. Le même article précise que des négociations ultérieures entre les puissances européennes aboutirent à l'indépendance de la Grèce, ce que le sultan accepta en juillet 1832. {cite:encyclopaedia-of-islam-2 vol. 6 p. 68}
+
+Le traité a également modifié la carte des côtes de la mer Noire et du Caucase. L'article sur le Caucase indique qu'il a cédé Samtskhé, la région d' [[place/akhaltsikhe|Akhaltsikhé]], à la Russie, ainsi que les ports de [[place/poti|Poti]] et [[place/anapa|d'Anapa sur la mer Noire]], coupant ainsi aux Ottomans tout accès direct à la Circassie. {cite:encyclopaedia-of-islam-2 vol. 5 p. 533} L'article sur Anapa précise que la forteresse fut bloquée par l'amiral Greig et le prince Menchikov en 1828 et cédée à la Russie par l'article 4 du traité. {cite:encyclopaedia-of-islam-2 vol. 1 p. 504} L'article sur les Circassiens indique que les Ottomans durent renoncer à leurs droits sur [[place/circassia|la Circassie]] au profit de la Russie et que les Circassiens continuèrent à résister aux Russes jusqu'en 1281/1864. {cite:encyclopaedia-of-islam-2 vol. 2 p. 39} L'article sur l'Abkhazie note que la position de la Russie dans cette région fut renforcée par la cession de la côte d'Anapa à Poti. {cite:encyclopaedia-of-islam-2 vol. 1 p. 120}
+
+## Serbie
+L'article sur les Serbes indique que le traité de paix d'Edirne exigeait du gouvernement ottoman qu'il applique immédiatement les mesures de la convention d'Akkerman du 7 octobre 1826 et qu'il restitue à la [[place/serbia|Serbie]] les six districts situés hors du pachalik de Belgrade, libérés lors du Premier soulèvement. Ces dispositions furent mises en œuvre par un édit impérial du 30 septembre 1829. En août 1830, un autre édit précisa l'autonomie serbe et confirma Miloš Obrenović comme prince héréditaire, faisant ainsi de la Serbie une principauté sous suzeraineté ottomane. {cite:encyclopaedia-of-islam-2 vol. 9 p. 691}
+
+## Les personnes présentes aux négociations
+L'Encyclopédie mentionne un participant du côté ottoman. En 1829, le jeune fonctionnaire Mustafa Reshid, qui deviendra plus tard un homme d'État de premier plan durant la période des réformes, fut nommé secrétaire de la délégation ottomane chargée de négocier la paix avec les Russes à Edirne. {cite:encyclopaedia-of-islam-2 vol. 8 p. 526}
+
+## Ce que les sources ne parviennent pas à trancher
+Les articles consultés pour ce document mentionnent la date, les grandes lignes et plusieurs conséquences locales, mais non le texte du traité, les noms des plénipotentiaires ni la liste complète des articles, et aucun compte rendu exhaustif de ses clauses n'est fourni ici. L'Encyclopédie de l'Islam ne cite pas le traité lui-même, et le montant de l'indemnité n'est pas précisé dans les passages utilisés.

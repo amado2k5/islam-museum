@@ -1,9 +1,10 @@
 id: person/abu-uthman-al-mazini
 class: person
-label: { ar: "أبو عثمان المازني", en: "Abu Uthman Al Mazini" }
+label: { ar: "أبو عثمان المازني", en: "Abu Uthman Al Mazini", fr: "Abu Uthman Al Mazini" }
 summary:
   ar: "أبو عثمان المازني النحوي البصري الذي كان يقول من أراد أن يعمل كتابا كبيرا في النحو بعد كتاب سيبويه فليستح {cite:fihrist-ibn-al-nadim p. 143}."
   en: "Basran grammarian — whoever writes a big grammar book after Sibawayh, let him blush {cite:fihrist-ibn-al-nadim}"
+  fr: "Grammairien de Bassora : que celui qui écrit un grand livre de grammaire après Sibawayh en ait honte {cite:fihrist-ibn-al-nadim}"
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim]
 status:
@@ -17,4 +18,4 @@ provenance:
   run: prose-fill-persons-batch17
 died: { edtf: "863", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 relations:
-  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (البصري); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name ⁦(البصري)⁩; denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

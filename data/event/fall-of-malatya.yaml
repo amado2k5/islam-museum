@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/umayyad]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0750~", hijri: "0133", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 133 (البلاذري ص 262–263). التحويل مشتق." }
+  start: { edtf: "0750~", hijri: "0133", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 133 ⁦(البلاذري ص 262–263)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/malatya }
   - { type: had_participant, target: person/constantine-v, role: "قائد الحملة الهادِمة", sources: [source/futuh-buldan-maarif-1407] }
@@ -17,7 +17,7 @@ relations:
   - { type: during_reign, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 262–263"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 262–263"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-15
 sides:

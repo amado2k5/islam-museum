@@ -28,13 +28,13 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ## جو یہاں ذکر نہیں ہوا
 یہ مدخل العقیدۃ الطحاویہ، لمعۃ الاعتقاد ابن قدامہ، العقیدۃ الواسطیہ ابن تیمیہ اور اشعری کی «مقالات الاسلامیین» میں اہل حدیث و اہل سنت کے مواقف پیش کرتا ہے، ہر ایک اپنی کتاب کی طرف منسوب۔ ماتریدیہ اور باقی سنی مدارس کے اقوال ابھی شامل نہیں ہوئے، اور اس مدخل کو اعلیٰ درجے پر لے جانے سے پہلے کسی متخصص کا جائزہ درکار ہے۔
 
-## شیخ عمر عبد الکافی کے تفسیری درس (قسط 4)
+## شیخ عمر عبد الکافی کے تفسیری درس ⁦(قسط 4)⁩
 
 شیخ کی رائے ہے کہ اگر تقدیریں لوگوں کی خواہش کے مطابق چلتیں تو زمین آباد نہ ہوتی {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:24:30}۔
 
 شیخ پوچھتے ہیں کہ کیا تم تدبیر کرنے والے ہو یا جس کے لیے تدبیر کی جاتی ہے؟ کیا تم اپنے معاملات خود ترتیب دیتے اور اپنا نظام الاوقات بناتے ہو، یا اللہ تمہارے لیے تمہارا معاملہ طے کرتا ہے؟ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:28:00}۔ وہ صبر کی دعوت دیتے ہیں یہاں تک کہ وہ ظاہر ہو جائے جو اللہ طے کرتا ہے {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:28:00}۔
 
-## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 4)
+## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس ⁦(قسط 4)⁩
 
 شیخ کہتے ہیں کہ کسی شخص کو اس چیز پر ملامت نہیں کرنی چاہیے جو اللہ نے اسے نقصان نہ پہنچائی ہو {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:19:30}۔
 
@@ -54,7 +54,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## عمر عبد الکافی کے پروگرام «بستان الامل» سے
 ## احتیاط تقدیر کو نہیں ٹالتی
-شیخ کے نزدیک احتیاط تقدیر کو نہیں ٹالتی، اور مقتول اپنی مقررہ مدت پر مرتا ہے نہ کہ قاتل کے عمل سے؛ وہ ایک واقعہ بیان کرتے ہیں جو ان کے بقول انہوں نے چالیس سال سے زیادہ پہلے گیزہ اسٹیشن سے پہلے ریلوے کراسنگ پر اپنی آنکھوں سے دیکھا: سامان سے لدی ایک گاڑی پٹڑی پر رک گئی اور ٹرین آ رہی تھی؛ لوگوں نے ڈرائیور کو نکال کر دور کھڑا کر دیا؛ ٹرین نے گاڑی کو ٹکر ماری، اس کا ایک ٹائر ہوا میں اڑا اور لوگوں کے بیچ کھڑے اسی ڈرائیور کے سر پر آ گرا اور وہ مر گیا (needs_source: ان کے مشاہدے کی روایت)۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:04:00} ان کے نزدیک جسے محرومی میں سمجھ عطا ہو اس کے لیے محرومی عطا بن جاتی ہے، اور وہ ام موسیٰ اور ابراہیم کی مثال دیتے ہیں جنہوں نے اپنے گھر والوں کو بنجر وادی میں چھوڑا۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:07:30}
+شیخ کے نزدیک احتیاط تقدیر کو نہیں ٹالتی، اور مقتول اپنی مقررہ مدت پر مرتا ہے نہ کہ قاتل کے عمل سے؛ وہ ایک واقعہ بیان کرتے ہیں جو ان کے بقول انہوں نے چالیس سال سے زیادہ پہلے گیزہ اسٹیشن سے پہلے ریلوے کراسنگ پر اپنی آنکھوں سے دیکھا: سامان سے لدی ایک گاڑی پٹڑی پر رک گئی اور ٹرین آ رہی تھی؛ لوگوں نے ڈرائیور کو نکال کر دور کھڑا کر دیا؛ ٹرین نے گاڑی کو ٹکر ماری، اس کا ایک ٹائر ہوا میں اڑا اور لوگوں کے بیچ کھڑے اسی ڈرائیور کے سر پر آ گرا اور وہ مر گیا ⁦(needs_source: ان کے مشاہدے کی روایت)⁩۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:04:00} ان کے نزدیک جسے محرومی میں سمجھ عطا ہو اس کے لیے محرومی عطا بن جاتی ہے، اور وہ ام موسیٰ اور ابراہیم کی مثال دیتے ہیں جنہوں نے اپنے گھر والوں کو بنجر وادی میں چھوڑا۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:07:30}
 
 ## شعراوی کے پروگرام «فی رحاب الحدیث القدسی» میں
 [[work/fi-rihab-al-hadith-al-qudsiyyah|فی رحاب الحدیث القدسی]] کی ساتویں قسط میں [[person/muhammad-mutawalli-al-shaarawi|شعراوی]] کہتے ہیں کہ اجل زندگی میں قیام کی مدت ہے؛ اللہ نے عمر کی لمبائی اپنے پاس رکھی اور انسان کے لیے اس کی چوڑائی اور گہرائی چھوڑی، جسے وہ کوشش اور اپنے بعد باقی رہنے والے نفع سے وسیع کرتا ہے۔ {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep07 00:18:30} ان کے نزدیک اجل اس لیے چھپائی گئی کہ لوگ چوکنا رہیں۔ {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep07 00:20:00} وہ کہتے ہیں کہ حدیث کا اختتام سکھاتا ہے کہ انسان اپنے عمل پر دھوکا نہ کھائے، اللہ کی رحمت سے مایوس نہ ہو اور اس کی تدبیر سے بے خوف نہ ہو۔ {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep07 00:23:00}

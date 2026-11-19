@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b52, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/138" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b52, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/138" }
 ---
 ## موجز
 أحمد بن موسى الثقفي، كان شاعرًا أديبًا فصار صابرًا أريبًا، وعزف عن الدنيا بعد أن كان لها وامقًا، وأقبل على المعاد وصار للتزود عاشقًا. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة 490)⁩ في الصفحة 138. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/138}

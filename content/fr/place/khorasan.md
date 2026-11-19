@@ -1,0 +1,23 @@
+---
+id: place/khorasan
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/khorasan.md}
+---
+## Vue d'ensemble
+Le Khorasan est une vaste région historique de l'est du monde islamique, couvrant des parties de ce qui est aujourd'hui l'est de l'Iran, de l'Afghanistan et du Turkménistan. Le Mu'jam al-Buldan de Yaqut al-Hamawi la décrit comme une vaste terre abritant les villes-mères, et en précise les limites, l'origine de son nom et son histoire. {cite:mujam-al-buldan-sader-1995 2 p.350}
+
+## Dans le Mu'jam al-Buldan de Yaqut
+Yaqut fixe la première frontière du côté irakien à Azadhwar, chef-lieu du Juwayn, et à Bayhaq. Du côté indien, il mentionne Tukharistan, Ghazna, Sijistan et Kirman, précisant que ces territoires n'en font pas véritablement partie, mais constituent les confins de sa frontière. Selon son récit, la région comprend les villes-mères, parmi lesquelles Nishapur, Hérat et Marw, qui en fut la capitale, ainsi que Balkh, Talaqan, Nasa, Abiward, Sarakhs et les villes situées entre elles, sur la rive proche du Jayhun (Amou-Daria). Il note que certains incluent les districts du Khwarezm et considèrent la Transoxiane comme faisant partie de la région, ce qu'il réfute. {cite:mujam-al-buldan-sader-1995 2 p.350} Voir [[place/nishapur|Nishapur]], [[place/herat|Hérat]], [[place/merv|Marw]], [[place/balkh|Balkh]] et [[place/transoxiana|Transoxiane]].
+
+Yaqut affirme que la plupart de ces terres ont été prises, certaines par la force et d'autres par traité, en l'an 31 de l'Hégire, à l'époque d'Uthman, sous le gouvernement d'Abd Allah ibn Amir ibn Kurayz. {cite:mujam-al-buldan-sader-1995 2 p.350}
+
+Concernant le nom, il rapporte trois explications. Le généalogiste Daghfal affirmait que Khurasan et Haytal étaient fils d'Alim, fils de Sam, fils de Noé, qui s'établirent, lors de la confusion des langues à Babylone, chacun dans la région portant son nom : Haytal au-delà du Jayhun et Khurasan dans les terres que Yaqut a énumérées de ce côté du fleuve. Une autre explication avance que khur est le mot persan dari pour « soleil » et asan signifie « origine » et « lieu » d'une chose. Une troisième explication suggère que le nom signifie « manger facilement ». {cite:mujam-al-buldan-sader-1995 2 p.350}
+
+Yaqut relate ensuite la division du Khorasan en quatre régions, telle que proposée par al-Baladhuri : premièrement, Iran Shahr ; deuxièmement, Marw al-Shahijan, Sarakhs, Nasa, Abiward, Marw al-Rudh, Talaqan, Khwarazm et Amul ; troisièmement, à l’ouest du fleuve, al-Faryab, al-Juzjan, le Haut-Tukharistan, Baghlan, Badakhshan, Tirmidh, al-Saghaniyan et d’autres ; quatrièmement, la Transoxiane avec Boukhara, al-Shash, Sughd, Samarcande et Farghana. Yaqut précise ensuite que les limites correctes du Khorasan sont celles données en premier, qu’al-Baladhuri a répertorié ces territoires car ils relevaient tous du gouverneur du Khorasan et que le nom les regroupait, et que la Transoxiane, terre des Hayatila, constitue une province à part entière, tout comme le Sijistan. {cite:mujam-al-buldan-sader-1995 2 p.351}
+
+Il cite également Shurayk ibn Abd Allah, qui affirmait que le Khorasan est le carquois de Dieu, d'où Il tire sur un peuple lorsqu'Il est en colère contre lui, ainsi qu'un autre récit selon lequel aucun étendard levé du Khorasan, ni à l'époque païenne ni sous l'Islam, n'a été retourné avant d'atteindre sa destination. Yaqut se contente de rapporter ces propos sans les évaluer. Il cite Ibn Qutayba, qui déclarait que les habitants du Khorasan étaient un peuple pieux et un soutien indéfectible de l'État, et que, sous la plupart des règnes des rois perses, ils ne payaient ni tribut ni impôt foncier. {cite:mujam-al-buldan-sader-1995 2 p.351}
+
+Le récit cité relate la défaite des Hayatila et la capture du roi perse Firuz, qu'ils relâchèrent après qu'il eut juré de ne pas franchir une frontière qu'ils avaient fixée avec une pierre. Il rompit son serment, emporta la pierre et marcha contre eux, où il fut tué. L'islam s'implanta alors, et les populations de ces contrées l'acceptèrent volontiers et conclurent la paix sur leurs terres, moyennant un impôt léger. Cette paix perdura sous les Omeyyades, jusqu'à ce que les armées du Khorasan se soulèvent sous la direction d'Abu Muslim al-Khurasani. {cite:mujam-al-buldan-sader-1995 2 p.351} Voir [[person/abu-muslim-al-khurasani|Abu Muslim al-Khurasani]].

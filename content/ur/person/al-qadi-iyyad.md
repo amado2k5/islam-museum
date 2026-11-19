@@ -3,7 +3,7 @@ id: person/al-qadi-iyyad
 lang: ur
 source_lang: ar
 translators: ["Claude Code (OCR-harvest worker E), claude-opus-5-5, translation"]
-provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/al-shifa-ilmiyya-shumunni pp. 3–5 (ابن فرحون کی الدیباج المذہب سے منقول ترجمہ)؛ source/shadharat-dhahab p. 619؛ source/kashf-zunun-furqan" }
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/al-shifa-ilmiyya-shumunni pp. 3–5 ⁦(ابن فرحون کی الدیباج المذہب سے منقول ترجمہ)⁩؛ source/shadharat-dhahab p. 619؛ source/kashf-zunun-furqan" }
 ---
 ## خلاصہ
 ابو الفضل عیاض بن موسیٰ بن عیاض بن عمرون الیحصبی، مالکی قاضی، جن کی پیدائش اور سکونت سبتہ میں تھی اور اصل اندلسی تھی، اپنے زمانے میں حدیث کے امام اور [[work/al-shifa-bi-tarif-huquq-al-mustafa|الشفا بتعریف حقوق المصطفیٰ]] اور «مشارق الانوار» کے مصنف تھے۔ {cite:al-shifa-ilmiyya-shumunni p.3} {cite:al-shifa-ilmiyya-shumunni p.4} وہ طویل عرصہ [[place/ceuta|سبتہ]] کے قاضی رہے، پھر [[place/granada|غرناطہ]] کے، اور 544ھ میں [[place/marrakesh|مراکش]] میں وفات پائی۔ {cite:al-shifa-ilmiyya-shumunni p.4} {cite:al-shifa-ilmiyya-shumunni p.5} {cite:shadharat-dhahab p.619}
@@ -30,7 +30,7 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-
 قاضی عیاض آبنائے جبل الطارق پر واقع شہر سبتہ کے قاضی اور بڑے عالم تھے۔ وہ حدیث سیکھنے اندلس گئے، واپس آ کر اپنے شہر کے قاضی بنے، اور بہت سی کتابیں لکھیں — ان میں سب سے مشہور «الشفا» ہے جو نبی سے محبت اور آپ کی قدر پہچاننے کے بارے میں ہے۔
 
 ## محققین کے لیے نوٹ
-- «الشفا» کے دار الکتب العلمیہ ایڈیشن میں ترجمہ ابن فرحون کی «الدیباج المذہب» سے منقول ہے (ص 3 کا حاشیہ)؛ OCR میں پیدائش شعبان «496» پڑھی گئی ہے، جبکہ «شذرات الذہب» میں 476ھ ہے۔ ڈیٹا میں 476ھ رکھا گیا ہے اور صفحے کی تصویر دیکھے جانے تک اختلاف کی نشاندہی کی گئی ہے۔
+- «الشفا» کے دار الکتب العلمیہ ایڈیشن میں ترجمہ ابن فرحون کی «الدیباج المذہب» سے منقول ہے ⁦(ص 3 کا حاشیہ)⁩؛ OCR میں پیدائش شعبان «496» پڑھی گئی ہے، جبکہ «شذرات الذہب» میں 476ھ ہے۔ ڈیٹا میں 476ھ رکھا گیا ہے اور صفحے کی تصویر دیکھے جانے تک اختلاف کی نشاندہی کی گئی ہے۔
 - زہر سے وفات کا قول «کہا جاتا ہے» کے صیغے سے منقول ہے، اس پر اعتماد نہیں کیا گیا۔
 
 ## OpenITI مجموعے میں تصانیف
