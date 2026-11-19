@@ -1,0 +1,13 @@
+---
+id: group/bab-i-mashikhat
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/group/bab-i-mashikhat.md}
+---
+
+## Vue d'ensemble
+Bab-i Mashikhat — également Shaykh al-Islam Qapisi, Bab-i Fetwa et Fetwakhane — était le nom devenu courant dans l'Empire ottoman au XIXe siècle pour désigner le bureau ou le département du Shaykh al-Islam, le Mufti en chef d'Istanbul. Jusqu'en 1241/1826, les Muftis en chef exercaient leurs fonctions et rendaient leurs décisions depuis leurs propres résidences ou, si celles-ci étaient trop éloignées, depuis des logements loués. Cette année-là, après la destruction des janissaires, le sultan Mahmud II donna l'ancienne résidence de l'Agha des Janissaires, près de la mosquée Suleymaniyye, au Mufti en chef, qui acquit ainsi un établissement permanent. {cite:encyclopaedia-of-islam-2 vol. 1 p. 894}
+
+## Bureaucratisation et déclin
+Cette mesure, combinée à la création d'une Inspection du waqf pour centraliser la supervision des revenus des waqfs, ouvrit la voie à la bureaucratisation des oulémas. Privés d'autonomie financière et administrative, les oulémas furent gravement affaiblis face au pouvoir souverain et ne purent résister aux diminutions successives de leurs compétences, de leur autorité et de leur statut : au cours du XIXe siècle, ils perdirent le contrôle de l'éducation et de la justice au profit des nouveaux conseils et ministères, et même la rédaction des fatwas fut confiée à un comité de spécialistes juridiques du bureau du Grand Mufti. Le Grand Mufti lui-même devint titulaire d'une fonction gouvernementale — ministre ou chef de département et membre du cabinet — si bien que son mandat prit automatiquement fin avec la chute du cabinet ; pourtant, contrairement aux autres ministres, il fut nommé par le Sultan, et non par le Grand Vizir, avec qui il était théoriquement égal (cf. Article 27 de la Constitution de 1876). La fonction déclina progressivement, notamment après la Révolution de 1908. Enfin, le 3 mars 1924 — jour de la fin du califat — le poste de Shaykh al-Islam, qui avait cessé de service avec le sultanat en 1922, fut remplacé par un département des affaires religieuses rattaché au bureau du Premier ministre à Ankara ; son chef, le Diyanet Ishleri Re'isi, devint le principal responsable religieux de la République turque, responsable des mosquées et du personnel des mosquées mais pas du waqf, du droit ou de l'éducation. {cite:encyclopaedia-of-islam-2 vol. 1 p. 894-895}
