@@ -1,0 +1,24 @@
+---
+id: person/ata-ibn-saib
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/ata-ibn-saib.md}
+---
+
+## Résumé
+Ata ibn al-Sa'ib ibn Zayd al-Thaqafi, Abu Zayd de Koufa, l'un des érudits des Successeurs, tel que [[person/al-dhahabi|al-Dhahabi]] le décrit dans [[work/mizan-al-itidal|Mizan al-I'tidal]]. {cite:mizan-itidal-bijawi-v3 p. 70} Il raconta Abd Allah ibn Abi Awfa, [[person/anas-ibn-malik|Anas]], son père et d'autres ; [[person/sufyan-al-thawri|Sufyan al-Thawri]] et [[person/shuba-ibn-al-hajjaj|Shu'ba]] narrèrent de lui ; et, tard dans sa vie, il changea et sa mémoire se détériora. {cite:mizan-itidal-bijawi-v3 p. 70} Il n'est pas [[person/ata-ibn-al-saib|Ata ibn al-Sa'ib al-Khashl]], client des Banu Layth, que al-Baladhuri mentionne lors de la conquête de Balkh.
+
+## Récitateur et adorateur
+Al-Dhahabi dit qu'il était l'un des récitateurs du Coran les plus habiles, ayant récité à [[person/abu-abd-al-rahman-al-sulami-al-muqri|Abu Abd al-Rahman al-Sulami]]. {cite:mizan-itidal-bijawi-v3 p. 71} Ahmad disait qu'il complétait le Coran chaque nuit, et Abu Bakr ibn Ayyash disait que chaque fois qu'il voyait Ata ibn al-Sa'ib et Dirar ibn Murra, il voyait des traces de pleurs sur leurs joues. {cite:mizan-itidal-bijawi-v3 p. 71} Abu Bakr ibn Ayyash rapporta qu'Ata avait dit qu [[person/ali-ibn-abi-talib|'Ali lui]] caressait la tête et priait pour obtenir une bénédiction sur lui. {cite:mizan-itidal-bijawi-v3 p. 71} Al-Dhahabi affirme qu'il vécut jusqu'en 136, donc il devait avoir approché cent ans. {cite:mizan-itidal-bijawi-v3 p. 71} Abu Ishaq al-Sabi'i a dit de lui : il est l'un des derniers survivants. {cite:mizan-itidal-bijawi-v3 p. 71}
+
+## Confusion : auditeurs précoces et tardifs
+Ata est un exemple bien connu dans les livres d'hommes d'un transmetteur qui devint confus (*mukhtalit*). {cite:mizan-itidal-bijawi-v3 p. 70} [[person/ahmad-ibn-hanbal|Ahmad]] dit : celui qui a entendu parler de lui tôt a des rapports solides, et celui qui l'a entendu tard n'a rien ; il a aussi dit : digne de confiance, digne de confiance, un homme juste. {cite:mizan-itidal-bijawi-v3 p. 71} [[person/al-bukhari|Al-Bukhari]] dit : ses premiers hadiths sont solides ; Yahya ibn Sa'id a dit que [[person/hammad-ibn-zayd|Hammad ibn Zayd avait]] entendu parler de lui avant qu'il ne change. {cite:mizan-itidal-bijawi-v3 p. 71} Abu Hatim a dit : sa place est la vérité avant de devenir confus ; [[person/al-nasai|al-Nasa'i]] dit : digne de confiance dans ses premiers hadiths, mais il a changé ; la narration de Shu'ba, al-Thawri et Hammad ibn Zayd de sa part est bonne. {cite:mizan-itidal-bijawi-v3 p. 71} [[person/yahya-ibn-main|Ibn]] Ma'in, cependant, a dit : il n'est pas une preuve, et son hadith est faible sauf ce qui vient de Shu'ba et de Sufyan. {cite:mizan-itidal-bijawi-v3 p. 71} Al-Dhahabi note que [[person/yahya-ibn-said-al-qattan|Yahya al-Qattan]] a raconté de lui, et qu'il fut le plus précoce des maîtres d'al-Qattan à mourir. {cite:mizan-itidal-bijawi-v3 p. 71}
+
+**Preuve de la confusion.** [[person/ibn-ulayyah|Ibn Ulayya]] a dit qu'Ata était venu à Bassorah et, lorsqu'ils l'interrogaient, il était confus, et quand on leur demandait « de qui ? », il répondait : nos cheikhs Maysara, Zadhan et untelle. {cite:mizan-itidal-bijawi-v3 p. 72} Wuhayb a dit qu'il lui avait demandé combien il avait pris d'Abida, et Ata a dit quarante hadiths, tandis [[person/ali-ibn-al-madini|qu'Ali ibn al-Madini]] a dit qu'il n'avait pas raconté un mot d'Abida — ce qui montre qu'il était devenu confus. {cite:mizan-itidal-bijawi-v3 p. 72} [[person/sufyan-ibn-uyayna|Sufyan ibn Uyayna]] a dit qu'il avait eu de ses nouvelles tôt, puis Ata leur rendit visite et il l'entendit raconter certaines choses qu'il avait déjà entendues, en confondant les choses, alors il se tenait à l'écart. {cite:mizan-itidal-bijawi-v3 p. 72} Parmi ses rapports répréhensibles, al-Dhahabi cite un sur un homme dont le faux serment fut expié en disant « il n'y a pas de dieu d'autre que Dieu ». {cite:mizan-itidal-bijawi-v3 p. 72} {cite:mizan-itidal-bijawi-v3 p. 73}
+
+:::perspectives
+- **Sunnite : Ahmad, al-Boukhari, Abu Hatim et al-Nasa'i** : dignes de confiance et vertueux ; ce que les premiers étudiants comme Shu'ba, al-Thawri et Hammad ibn Zayd ont entendu de lui est accepté, ce que les étudiants ultérieurs ont entendu après sa confusion est rejeté. {cite:mizan-itidal-bijawi-v3 p. 71}
+- **Sunnite : Yahya ibn Ma'in** : pas une preuve ; son hadith est faible sauf par Shu'ba et Sufyan. {cite:mizan-itidal-bijawi-v3 p. 71}
+:::

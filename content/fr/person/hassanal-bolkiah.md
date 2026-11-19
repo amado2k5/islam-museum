@@ -1,0 +1,25 @@
+---
+id: person/hassanal-bolkiah
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/hassanal-bolkiah.md}
+---
+## Résumé
+Hassanal Bolkiah (né en 1946) règne comme sultan de Brunei depuis 1967 et en est le premier ministre depuis l'indépendance en 1984. Proclamé sultan à vingt et un ans lors de l'abdication de son père, Omar Ali Saifuddien III, il conduisit le Brunei à l'indépendance totale de la Grande-Bretagne le 1er janvier 1984, régnant comme l'un des rares monarques absolus restants au monde sous la philosophie nationale de Melayu Islam Beraja (monarchie islamique malaise). Il est le monarque actuel ayant régné le plus longtemps au monde, et a célébré cinquante ans sur le trône en 2017. {cite:wikipedia-hassanal-bolkiah-en} {cite:wikidata-hassanal-bolkiah}
+
+## Jeunesse et formation
+Pengiran Muda Hassanal Bolkiah est né le 15 juillet 1946 à Istana Darussalam, dans la ville de Brunei, fils aîné de Pengiran Bendahara Omar Ali Saifuddien — l'héritier présomptif — et de Pengiran Anak Damit. Il a d'abord été éduqué à l'Istana Darul Hana Surau et à l'école malay Jamalul Alam, puis à Kuala Lumpur à la Victoria Institution de 1961 à 1963, où il a été désigné meilleur recrue du corps des cadets, et au Sultan Omar Ali Saifuddien College après son retour à Brunei. Il avait été proclamé prince héritier le 14 juillet 1961, et en décembre 1962, des soldats gurkhas l'ont sauvé, lui et son père, du palais pendant la révolte de Brunei. En 1965, il épousa Pengiran Anak Saleha, et en 1966 il entra à l'Académie militaire royale de Sandhurst en tant qu'officier cadet ; il fut nommé capitaine honoraire dans les Coldstream Guards en 1968. {cite:wikipedia-hassanal-bolkiah-en} {cite:wikipedia-hassanal-bolkiah-ar}
+
+## Accession et couronnement
+Le soir du 4 octobre 1967, Omar Ali Saifuddien III annonça son abdication ; Hassanal Bolkiah revint d'Angleterre et fut proclamé vingt-neuvième sultan de Brunei le lendemain, promettant de mettre en œuvre les politiques de son père. Son couronnement eut lieu le 1er août 1968, lorsque son père posa la couronne sur sa tête, lui remit le Keris si-Naga et retira son propre sabre en signe de loyauté envers son fils en tant que chef de l'État et de la religion. Le vieux sultan resta le pouvoir derrière le trône pendant des années, conseillant sur chaque décision importante. Selon la constitution de 1959, le sultan détient l'autorité exécutive complète, une position enracinée par l'état d'urgence proclamé après la révolte de 1962. {cite:wikipedia-hassanal-bolkiah-en}
+
+## Indépendance et domination absolue
+Tout au long des années 1970, le sultan négocia l'avenir du Brunei avec la Grande-Bretagne : l'accord d'amitié de 1971 accorda une pleine indépendance interne, et le traité d'amitié et de coopération apporta une pleine souveraineté le 1er janvier 1984, lorsqu'il proclama son indépendance à minuit et assuma les fonctions de Premier ministre, ministre des Finances et ministre de l'Intérieur, déclarant Melayu Islam Beraja philosophie nationale. Les plans de développement financés par le pétrole et le gaz relevèrent le niveau de vie ; le Conseil législatif, dissous depuis 1962, fut réuni sous forme modifiée en 2004, et en 2006 il fut rapporté qu'il avait modifié la constitution pour se rendre infaillible sous la loi brunéenne. À l'étranger, il présida le sommet de l'APEC en 2000 et les sommets de l'ASEAN en 2013 et 2021. {cite:wikipedia-hassanal-bolkiah-en} {cite:wikipedia-hassanal-bolkiah-ur}
+
+## Le code Syariah et le règne ultérieur
+En 2014, le sultan a commencé à mettre en vigueur le Code pénal syariah du Brunei, et sa phase finale, effective le 3 avril 2019, a prescrit la lapidation pour adultère et les actes entre personnes de même sexe ainsi que l'amputation pour vol. Les lois ont suscité des protestations mondiales et des boycotts des hôtels Dorchester Collection de la famille royale ; en quelques semaines, le sultan a prolongé un moratoire sur la peine de mort et annoncé la ratification de la Convention des Nations Unies contre la torture. Son jubilé d'or en octobre 2017 a amené des dizaines de milliers de personnes dans la capitale pour une procession en char. Pendant la pandémie de COVID-19, il a imposé des restrictions anticipées de voyage et a reçu sa vaccination publiquement en avril 2021. Sa filiation est enregistrée une seule fois dans le dossier de son père ; et aucune source ne cite une école religieuse pour Hassanal Bolkiah — sa direction de l'islam au Brunei est une charge de son trône — ce document n'en mentionne aucune. {cite:wikipedia-hassanal-bolkiah-en} {cite:wikidata-hassanal-bolkiah}
+
+## Sources
+- Les entités sources définies citées ci-dessus, enregistrées dans `data/source/`.
+- Les révisions de cet article doivent être datées et doivent indiquer la source qui a modifié chaque fait.
