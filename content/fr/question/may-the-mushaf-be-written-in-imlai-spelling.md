@@ -1,0 +1,23 @@
+---
+id: question/may-the-mushaf-be-written-in-imlai-spelling
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/question/may-the-mushaf-be-written-in-imlai-spelling.md}
+---
+## Résumé
+La question est pratique : le mushaf d'aujourd'hui pourrait-il être imprimé selon les règles d'orthographe utilisées par les gens, au lieu du rasm dans lequel les Compagnons l'ont écrit sur ordre d'Uthman ? Khalid al-Sabt expose trois points de vue dans Tahdhib al-Manahil, et al-Suyuti transmet les paroles de Malik, Ahmad et al-Bayhaqi. {cite:manahil-irfan-sabt p. 317} {cite:itqan-suyuti p. 2199}
+
+## Première vue : il faut le conserver
+Al-Sabt recueille les preuves de la majorité : que les Compagnons ont écrit les codex sous Uthman dans ce rasm et s'en sont mis d'accord, qu'ouvrir la porte à la dérogation est un moyen de manipuler le Coran, et que certaines règles du rasm diffèrent d'un pays à l'autre, ce qui conduit à la confusion et à la dispute. Il relate que Mus'ab ibn Sa'd a dit : J'ai rencontré le peuple quand Uthman fit copier les codex, et cela leur a plu. {cite:manahil-irfan-sabt p. 317} Al-Sakhawi rapporte depuis Malik et juge son point de vue juste parce qu'il préserve le premier état des choses. {cite:manahil-irfan-sabt p. 318} Al-Sabt cite Nizam al-Din al-Naysaburi selon lequel les lecteurs, érudits et écrivains doivent suivre ce rasm car c'est celui de Zayd ibn Thabit, qui fut le Messager du confident de Dieu et l'auteur de sa révélation. {cite:manahil-irfan-sabt p. 319}
+Il note que ceux qui la considèrent obligatoire divergent sur les bases suivantes : certains la considèrent comme fixée par le Prophète, ce que al-Sabt affirme que leurs preuves ne confirment pas ; il juge qu'elle n'est plus susceptible d'être ainsi fixée mais conservée pour les raisons ci-dessus. {cite:manahil-irfan-sabt p. 319} [[question/is-the-rasm-tawqifi|Voir Le rasm est-il tawqifi]]?
+
+## La réponse d'Al-Sabt à ceux qui veulent un apaisement
+Al-Sabt répond à l'objection selon laquelle de nombreux apprenants ne peuvent pas lire le codex parce qu'ils ne connaissent pas le rasm, en formulant six points : le rasm uthmanique a ses mérites ; l'opinion majoritaire repose sur de nombreuses preuves ; les conventions d'écriture sont susceptibles de changer ; soumettre le codex aux conventions modernes peut entraîner un procès semblable à celui de l'époque d'Uthman, car des gens ou des peuples pourraient se dire « mon rasm est meilleur que le tien » ; le rasm uthmanique est comme une écriture commune qui unit la communauté pour écrire son Livre du Seigneur à travers les âges et les terres, comme le fait l'arabe ; et la lecture peut être facilitée en diffusant précisément le Coran et en enseignant le tajwid. {cite:manahil-irfan-sabt p. 320} Il ajoute que le magazine al-Azhar suggérait de noter au bas de chaque page les mots qui s'écartent de l'orthographe familière, et que le rasm uthmanique ne s'écarte que légèrement de nos règles d'écriture et d'orthographe, en quelques mots. {cite:manahil-irfan-sabt p. 321}
+
+## Les deux autres points de vue
+La seconde vue, qu'il attribue à Ibn Khaldun et que al-Baqillani défendait avec ardeur : que le rasm du codex est conventionnel. Dans le Muqaddima lui-même, Ibn Khaldun dit que les Compagnons écrivirent le codex de leurs propres mains, qui n'étaient pas perfectionnées dans leur savoir-faire, si bien qu'une grande partie de leur écriture s'éloignait des analogies de l'art de l'écrivain, puis les Successeurs suivirent leur écriture pour obtenir bénédiction de ce que les Compagnons du Messager avaient écrit, de sorte qu'il fut suivi et fixé comme le rasm, et les érudits du rasm en notèrent la place. {cite:muqaddima-ibn-khaldun p. 417} La troisième vue, attribuée à al-Izz ibn Abd al-Salam comme al-Zarkashi le relaie dans al-Burhan, est donnée dans les perspectives ci-dessus. Al-Zarkashi dit : « C'était le cas à la Première Ère, lorsque la connaissance était vivante et fraîche ; aujourd'hui, on peut craindre la confusion. » {cite:manahil-irfan-sabt p. 322}
+
+## Ce que je ne dis pas
+Je transmets ces points de vue d'al-Sabt et d'al-Suyuti ; Je n'ai pas lu al-Muqni' d'al-Dani, al-Intisar d'al-Baqillani ni al-Burhan d'al-Zarkashi eux-mêmes, donc je n'attribue à ces hommes que ce qui est cité ; le musée expose les points de vue et ne choisit pas entre eux.

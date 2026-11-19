@@ -1,0 +1,32 @@
+---
+id: question/hunting-with-trained-animals-other-than-dogs
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/question/hunting-with-trained-animals-other-than-dogs.md}
+---
+## Résumé
+Dans le livre de chasse à [[work/bidayat-al-mujtahid|Bidayat al-Mujtahid]], [[person/ibn-rushd|Ibn Rushd]] discute de l'animal de chasse, affirmant que l'accord et le désaccord à son sujet concernent en partie le type d'animal et en partie les conditions. {cite:bidaya-abbadi-dar-al-salam-v3 p. 12} Le type convenu est le chien ; on peut contester les bêtes dressées et les oiseaux de proie autres que le chien. {cite:bidaya-abbadi-dar-al-salam-v3 p. 12} {cite:bidaya-abbadi-dar-al-salam-v3 p. 13}
+
+## Le chien noir de jais
+Ibn Rushd note que certains n'aimaient pas chasser avec le chien noir, parmi eux [[person/al-hasan-al-basri|al-Hasan al-Basri]], [[person/ibrahim-al-nakhai|Ibrahim al-Nakha'i]] et [[person/qatada-ibn-diama|Qatada]], et qu' [[person/ahmad-ibn-hanbal|Ahmad]] disait ne connaître personne qui l'autorise alors qu'il était entièrement noir, comme Ishaq ; la majorité autorisent son gibier s'il est dressé. {cite:bidaya-abbadi-dar-al-salam-v3 p. 12} {cite:bidaya-abbadi-dar-al-salam-v3 p. 13} Il attribue ce désaccord à une analogie en contradiction avec la formulation générale : la formulation générale du verset sur les animaux de chasse dressés place tous les chiens sur un pied d'égalité, tandis que l'ordre de tuer le chien noir de jais implique par analogie que la chasse avec lui n'est pas autorisée, pour ceux qui estiment qu'une interdiction rend l'acte interdit invalide. {cite:bidaya-abbadi-dar-al-salam-v3 p. 13}
+
+## Chasse aux animaux autres que le chien
+- **Tout ce qui accepte l'entraînement** : certains les ont tous autorisés une fois entraînés, même le chat, comme l'a dit Ibn Sha'ban ; c'est l'école de [[person/malik-ibn-anas|Malik]] et de ses disciples, la vision des juristes des grandes cités, et rapporte Ibn [[person/abdullah-ibn-abbas|Abbas]] : tout animal de chasse accepte l'entraînement est un instrument pour rendre le gibier légal. {cite:bidaya-abbadi-dar-al-salam-v3 p. 13}
+- **Le chien seul** : certains disent qu'il n'y a pas de chasse avec un animal autre que le chien – ni faucon ni faucon ni autre – sauf ce qui est capturé vivant et abattu ; telle est la vision de [[person/mujahid-ibn-jabr|Mujahid]]. {cite:bidaya-abbadi-dar-al-salam-v3 p. 13}
+- **Le chien et le faucon à goises** : certains ont accepté, parmi les oiseaux de proie, le faucon seul et ont laissé leur gibier. {cite:bidaya-abbadi-dar-al-salam-v3 p. 13}
+
+## Extrait du commentaire de l'édition
+Le commentateur de l'édition Dar al-Salam note dans la marge que ceux qui autorisaient la chasse avec ces animaux exigeaient que l'animal parte lorsqu'il était envoyé et revienne lorsqu'il était appelé ; que la majorité n'exige pas que les oiseaux de proie s'abstiennent de manger le gibier, citant Ibn Abbas : si le chien mange, ne mange pas, mais si le faucon mange, mange, puisque l'on peut battre un chien mais ne peut pas battre un faucon ; et que les Shafi'is exigent d'eux ce qu'ils exigent du chien. {cite:bidaya-abbadi-dar-al-salam-v3 p. 14}
+
+## La vue d'Ibn Hazm le Zahiri dans al-Muhalla
+
+Dans le Livre de la chasse d [[work/al-muhalla-ibn-hazm|'al-Muhalla]], [[person/ibn-hazm|Ibn Hazm]] place le chien et les autres prédateurs à quatre pattes sur un pied d'égalité avec le faucon et les autres oiseaux de proie : une fois entraînés, ce que chacun d'eux tue est légal lorsque son propriétaire l'a envoyé et nommé Dieu en l'envoyant, qu'il soit tué par blessure, écrasement, frappe ou étranglement ; s'il a mangé une proie, celle-ci est interdite. {cite:muhalla-dar-ibn-hazm-2016-v8 p.199} Il trace la ligne entre entraîné et non entraîné à partir [[passage/quran-5-4|d'al-Ma'ida 4]] sur les animaux de chasse dressés, et soutient que tous les prédateurs chassent par nature pour eux-mêmes, donc l'entraînement doit ajouter quelque chose qu'ils ne connaissaient pas, qui ne peut être que de ne pas partir avant d'être envoyés et de tenir la proie sans la manger. {cite:muhalla-dar-ibn-hazm-2016-v8 p.199} {cite:muhalla-dar-ibn-hazm-2016-v8 p.200}
+
+Il rapporte leur désaccord sur la date à laquelle l'entraînement est terminé : Abu Hanifa et al-Shafi'i ont dit que si elle tient sans manger encore et encore, elle est entraînée, sans fixer de chiffre ; Abu Yusuf et Muhammad ibn al-Hasan ont dit trois fois, sa proie étant mangée à partir de la quatrième ; [[person/dawud-al-zahiri|Dawud]] a dit une fois, sa proie étant mangée à partir de la seconde ; et Abu Thawr a dit que sa proie est mangée dès la première fois. Il choisit la vision d'Abu Thawr, puisque le premier acte montre qu'il est entraîné, donc il a chassé cette époque comme un animal dressé. {cite:muhalla-dar-ibn-hazm-2016-v8 p.200} {cite:muhalla-dar-ibn-hazm-2016-v8 p.201} Il reproche à Malik d'avoir ignoré si le prédateur a mangé, et répond à ceux qui ne permettent que ce qui a été blessé qu'un jarih dans la langue est un animal qui gagne, et que le verset permet ce qu'ils vous réservent sans mentionner de blessures. {cite:muhalla-dar-ibn-hazm-2016-v8 p.201} {cite:muhalla-dar-ibn-hazm-2016-v8 p.202} Il rapporte l'avis d'Abu Hanifa selon lequel la proie d'un faucon peut être mangée même si le faucon en a mangé. {cite:muhalla-dar-ibn-hazm-2016-v8 p.212}
+
+Au début du Livre de la chasse, il fait de l'abattage d'un animal en fuite un tir d'un objet qui agit comme une lance ou une flèche, citant le rapport d''Adi ibn Hatim sur la flèche contondante : « Si elle frappe avec sa pointe, mange ; s'elle frappe du côté et tue, elle est battue à mort, alors ne mange pas » ; il rapporte que « Ammar, Salman et Sa'id ibn al-Musayyab ont permis la mort du gibier avec une pierre ou une balle, tandis qu'Umar l'a interdit, ce qui est l'avis d'Abu Hanifa, Malik, al-Shafi'i et Abu Sulayman Dawud. {cite:muhalla-dar-ibn-hazm-2016-v8 p.175} {cite:muhalla-dar-ibn-hazm-2016-v8 p.176} {cite:muhalla-dar-ibn-hazm-2016-v8 p.177}
+
+## Non couvert ici
+Les autres conditions d'Ibn Rushd pour l'animal de chasse (entraînement, envoi, nommer Dieu) et la chasse avec des armes ne sont pas données ici.
