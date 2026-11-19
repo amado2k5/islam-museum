@@ -1,0 +1,21 @@
+---
+id: person/g-m-syed
+lang: fr
+source_lang: en
+translators: ['Claude (claude-fable-5-2), draft translation']
+provenance: {generated_by: 'Claude Code subagent (spanish lane, records the document services could not return intact)', model: claude-fable-5-2, run: claude-fr-2026-11-19, source: content/en/person/g-m-syed.md}
+---
+
+G. M. Syed — Ghulam Murtaza Syed (17 janvier 1904 – 25 avril 1995), connu de ses partisans sous le nom de « Saeen », fut le fondateur du nationalisme sindhi moderne : un homme politique qui commença au sein du mouvement pour le Pakistan, rompit avec lui, et passa ses dernières décennies à réclamer une patrie sindhie séparée, le Sindhudesh, depuis des cellules de prison et l'assignation à résidence. Il naquit à Sann, dans ce qui était alors le district de Karachi de la présidence de Bombay, dans une famille de Sayyids ; son père, Syed Mohammed Shah Kazmi, fut tué dans une querelle de famille le 1er novembre 1905, et l'enfant fut élevé comme pupille de la Court of Wards. Après cinq années d'école primaire en sindhi, il fut instruit à la maison, en persan et en anglais. {cite:wikipedia-g-m-syed-en} {cite:wikipedia-g-m-syed-ar} {cite:wikidata-g-m-syed}
+
+Sa vie publique commença à seize ans, par l'organisation de la Conférence du Khilafat à Sann le 17 mars 1920 ; l'année suivante, il rencontra Gandhi à la gare de Sann. Il fonda une école à Sann — le pédagogue Ibrahim Joyo fut au nombre de ses élèves —, présida le conseil scolaire du district à partir de 1919, devint président du Conseil local du district de Karachi en 1929 et, en 1930, se tourna vers la paysannerie avec la Sindh Hari Conference. Élu à l'Assemblée législative du Sind en 1937, il rejoignit la Ligue musulmane en 1938, fut ministre de l'Éducation du Sind de mars 1940 à mars 1941, siégea au comité central de la Ligue musulmane panindienne à partir de 1941 et devint président de la Ligue musulmane du Sind en 1943. La rupture vint tôt : il démissionna de son siège à l'assemblée et de son adhésion à la Ligue en 1946 et fonda la Progressive Muslim League dans l'opposition. {cite:wikipedia-g-m-syed-en} {cite:wikipedia-g-m-syed-ar} {cite:wikipedia-g-m-syed-ur}
+
+Au Pakistan, il devint le dissident intérieur le plus persistant de l'État. Il s'opposa à la fusion des provinces dite One Unit, présida le Sindhi Adabi Board à partir de 1954, et fonda tour à tour le Bazm-e-Soofia-e Sindh (1966), le Sindh United Front (1969) et le Jeay Sindh Mahaz (1972), dont le programme était un Sindhudesh indépendant. Le prix en fut une trentaine d'années de prison et d'assignation à résidence ; Amnesty International le désigna prisonnier d'opinion en 1995, sa maison de Karachi ayant été déclarée prison annexe en janvier 1992, et il y mourut le 25 avril 1995 — un passage du corps de l'article anglais, qui suit Suranjan Das, et le corps de l'article arabe donnent plutôt le 26 avril — à l'âge de quatre-vingt-onze ans, le plus vieux prisonnier politique du pays. Le Sind le pleura comme il l'avait suivi : des milliers de personnes assistèrent à son inhumation à Sann. {cite:wikipedia-g-m-syed-en} {cite:wikipedia-g-m-syed-ar} {cite:wikipedia-g-m-syed-ur}
+
+Son nationalisme était un nationalisme de lecteur et d'écrivain. À travers plus de soixante livres — *Janab Guzarium Jin Sein*, ses vies de héros sindhis ; *Sindh Ja Soorma* ; *Religion and Reality* ; *Shah Latif's Message* ; *A Nation in Chains* —, il fondit l'identité sindhie avec la poésie de Shah Abdul Latif Bhittai et avec sa propre lecture de la religion. L'article anglais décrit sa politique comme un mélange de nationalisme sindhi, de communisme et de soufisme, et cite le verdict d'Oskar Verkaaik selon lequel Syed, puisant dans le soufisme classique, la théosophie, le marxisme et l'idéalisme allemand, était en train de « créer sa propre interprétation personnelle de l'islam ». Ses livres furent interdits de temps à autre, et la revendication du Sindhudesh portée par son mouvement lui a survécu dans la politique sindhie. {cite:wikipedia-g-m-syed-en} {cite:wikipedia-g-m-syed-ur} {cite:wikidata-g-m-syed}
+
+## Sources
+- {cite:wikipedia-g-m-syed-en}
+- {cite:wikipedia-g-m-syed-ar}
+- {cite:wikipedia-g-m-syed-ur}
+- {cite:wikidata-g-m-syed}
