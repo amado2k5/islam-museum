@@ -27,9 +27,6 @@ Ibn Ishaq le nomme parmi les huit hommes des Tamim qui se rendirent auprès du P
 ## Sa défense de Muhallam ibn Jaththama
 À Hunayn, il défendit contre Uyayna ibn Hisn Muhallam ibn Jaththama, qui avait tué Amir ibn al-Adbat, « en raison de son rang parmi les Khindif ». Il parla ensuite en privé aux Qays et dit : « Vous avez privé le Messager de Dieu d’un homme tué par lequel les gens auraient pu être réconciliés. » Il les menaça de cinquante hommes des Tamim qui jureraient que la victime avait été tuée en tant que mécréant, de sorte que son sang ne donnerait lieu à aucune réparation. Ils acceptèrent le prix du sang. Voir [[event/raid-of-ibn-abi-hadrad-on-batn-idam|le récit]]. {cite:ibn-hisham-saqqa 4/276} {cite:ibn-hisham-saqqa 4/277}
 
-## Pour les Petits
-Al-Aqra’ ibn Habis, chef des Banu Tamim et l’un des arbitres des Arabes ; il entra dans l’islam après la conquête de La Mecque et reçut cent chameaux à al-Ji’rana sur la part destinée à rallier les cœurs.
-
 ## Pour les Explorateurs
 Al-Aqra’ ibn Habis, chef des Banu Tamim dans la jahiliyya et l’un des arbitres des Arabes ; il entra dans l’islam après la conquête de La Mecque et le Prophète lui donna cent chameaux du butin de Hunayn à al-Ji’rana sur la part destinée à rallier les cœurs — afin de gagner son cœur et de rechercher l’entrée dans l’islam des grandes tribus des Tamim au Najd. Son adhésion à l’islam s’avéra bonne : il tint ferme dans les guerres de la Ridda avec Khalid ibn al-Walid et participa aux conquêtes jusqu’à tomber au pays de Jawzjan au Khorassan sous le califat d’Uthman.
 

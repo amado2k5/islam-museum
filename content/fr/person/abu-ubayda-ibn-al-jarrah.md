@@ -37,9 +37,6 @@ L'Encyclopédie de l'Islam (2e éd.), dans l'article signé H. A. R. Gibb, donne
 
 Après l'avènement d'Umar en 13/634, Abu 'Ubayda fut envoyé en Syrie participer aux campagnes contre les Byzantins. Il y reçut probablement le commandement suprême en 15/636. Après la victoire du Yarmouk cette année-là, il acheva la conquête du nord de la Syrie : Hims, Alep et Antioche. En 17/638, Umar visita l'armée syrienne à Dabiya pour régler son administration et soutenir l'autorité d'Abu 'Ubayda ; selon la tradition, Umar voulait le désigner pour successeur. Lorsque la peste éclata en Syrie en 18/639, Umar l'appela à Médine, mais il refusa de partir et mourut de la peste à cinquante-huit ans, sans descendants. L'article dit que sa personnalité impressionna ses contemporains, mais que la tradition ultérieure le présente de façon assez peu caractérisée. {cite:encyclopaedia-of-islam-2 vol. 1 p. 177}
 
-## Pour les Petits
-Abu Ubayda ibn al-Jarrah fut parmi les premiers à croire au Prophète ; homme calme et fiable, il fut appelé par lui « l'homme de confiance de cette communauté ». L'État l'envoya diriger des armées en Syrie ; il resta fidèle à cette confiance jusqu'à ce que la peste l'emporte dans ce pays.
-
 ## Pour les Explorateurs
 Abu Ubayda Amir ibn Abdullah ibn al-Jarrah fut parmi les premiers à embrasser l'islam, par Abu Bakr aux premiers jours ; il assista à Badr, à Uhud et à tous les événements. Le Prophète le nomma « l'homme de confiance de cette communauté ». Abu Bakr en fit l'un des principaux commandants des armées syriennes des conquêtes, aux côtés de Khalid ibn al-Walid, puis Umar lui confia toutes les armées de Syrie. Il était connu pour son ascétisme et son humilité : Umar aurait trouvé sa maison presque vide. Il mena les conquêtes syriennes jusqu'à la peste d'Amwas en 18 H ; atteint, il mourut dans la région du Jourdain et y fut enterré.
 

@@ -36,9 +36,6 @@ Il semble à l’auteur que les Quraysh apprirent l’existence de l’appel à 
 ## Pour les Petits
 Pendant les trois premières années, le Prophète appela les gens à l’islam en secret. Les premiers à croire furent son épouse Khadija, son ami Abu Bakr, son jeune cousin Ali et son affranchi Zayd. Puis d’autres crurent l’un après l’autre ; ils priaient loin des regards.
 
-## Pour les Petits
-Au début, le Prophète invoqua son Seigneur secrètement pendant trois ans. Un petit groupe crut à la maison : Khadija, Ali, Abu Bakr, Zayd et Bilal. Ils se réunissaient discrètement chez al-Arqam pour prier et apprendre, jusqu’à ce que Dieu leur demandât de proclamer l’appel ouvertement.
-
 ## Pour les Explorateurs
 L’appel secret correspond aux trois premières années de la mission du Prophète, vers 610-613 de l’ère commune. Il invoquait son Seigneur en secret parmi les membres de sa famille et ses proches en qui il avait confiance. Khadija crut la première, puis Ali, Abu Bakr, Zayd ibn Haritha, Bilal et d’autres. Le groupe se réunissait secrètement chez al-Arqam ibn Abi al-Arqam, près d’al-Safa, apprenant le Coran et priant à l’abri des Quraysh, jusqu’au commandement divin de proclamation publique dans [[passage/quran-15-94|le verset 94 de la sourate al-Hijr]]. Le Prophète monta alors sur al-Safa et appela les Quraysh. Les historiens voient dans ces années la formation du premier noyau musulman.
 
