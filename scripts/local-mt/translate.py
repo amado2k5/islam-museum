@@ -204,7 +204,7 @@ def check(en_body, tr_body, lang):
     m = HONORIFIC.search(tr_body)
     if m: return f"typed honorific: {m.group(0)}"
     if re.search("[﴿﴾]", tr_body): return "Qur'an brackets"
-    plain = re.sub(r"\[\[[^\]|]+", "[[", tr_body)
+    plain = re.sub(r"\{cite:[^}]*\}", "", re.sub(r"\[\[[^\]|]+", "[[", tr_body))  # source keys such as {cite:the-ten-…} are not prose
     if len(STOP.findall(plain)) / max(1, wt) > 0.04: return "looks untranslated"
     return None
 
