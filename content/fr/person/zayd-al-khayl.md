@@ -1,0 +1,26 @@
+---
+id: person/zayd-al-khayl
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/zayd-al-khayl.md}
+---
+
+## Résumé
+Chef de Tayy, qui vint avec la délégation de son peuple en 9 H. Il embrassa l'islam et son islam était solide. Le Prophète le nomma Zayd al-Khayr {cite:mubarakpuri-raheeq p.453}.
+
+## Son récit
+La délégation de Tayy vint, et Zayd al-Khayl fut parmi eux. Ils parlèrent avec le Prophète, qui leur offrit l'islam ; ils l'adoptèrent et leur islam fut solide {cite:mubarakpuri-raheeq p.453}. Le Prophète dit à propos de Zayd : « Aucun homme des Arabes ne m'a été décrit comme une vertu et n'est venu à moi sans être en deçà de ce qu'on disait de lui, sauf Zayd al-Khayl, car il n'atteignit pas tout ce qui est en lui. » Il le nomma Zayd al-Khayr {cite:mubarakpuri-raheeq p.453}.
+
+## Pour les jeunes visiteurs
+Zayd était un chef célèbre parmi son peuple, connu pour sa générosité et son courage. Lorsqu'il rencontra le Prophète, celui-ci fut tellement séduit de lui qu'il le nomma « Zayd le Bon ».
+
+## Dans Sira d'Ibn Hisham
+Il vint dans la [[event/delegation-of-tayy|délégation de Tayy]], dont il était le chef. Le Prophète leur offrit l'islam, et ils l'adoptèrent et leur islam fut sain {cite:ibn-hisham-saqqa 4/224}. Ibn Ishaq, racontant des hommes de Tayy qu'il considérait dignes de confiance, donne les paroles du Prophète à son sujet. Le Prophète le nomma Zayd al-Khayr, lui accorda [[place/fayd|Fayd]] avec ses terres, et écrivit cela pour lui {cite:ibn-hisham-saqqa 4/224}. Lorsqu'il prit le chemin du retour, le Prophète dit : « Si Zayd survit à la fièvre de Médine... » et l'appela par un nom que le narrateur ne conserva pas. Lorsque Zayd atteignit une eau du Najd [[place/farda|appelée Farda]], la fièvre le frappa et il mourut. Sentant la mort, il récita deux vers sur le départ de son peuple et sur sa laisse derrière dans une tente à Farda {cite:ibn-hisham-saqqa 4/224}. Après sa mort, sa femme brûla les documents que le Prophète lui avait accordés {cite:ibn-hisham-saqqa 4/224}.
+
+## Dans Suwar min Hayat al-Sahaba d'Abd al-Rahman Ra'fat al-Basha
+[[person/abd-al-rahman-rafat-al-basha|Al-Basha]], dans [[work/suwar-min-hayat-al-sahaba|Suwar min Hayat al-Sahaba]], dessine deux portraits de Zayd : l'un de la Jahiliyya dans les livres d'adab, et un de l'islam dans les livres de sira. {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.124} Dans le premier, il relate, d'al-Shaybani d'un vieil homme de Banu Amir, l'histoire d'un homme dont le peuple fut frappé par la sécheresse et qui partit chercher des richesses pour sa famille : il passa la nuit derrière un vieil homme dans une tente, buvant son lait, puis chassa les chameaux d'un immense cavalier ; le cavalier le rattrapa et planta des flèches dans les trois nœuds du limon de l'étalon, et lorsque l'homme apprit qu'il s'agissait de Zayd al-Khayl et du vieil homme son père Muhalhil, il se rendit. Zayd le traita généreusement — ne lui donnant pas ces chameaux, qui appartenaient à une de ses sœurs, mais pillant Banu Numayr et lui donnant environ une centaine de chameaux, avec des hommes pour l'escorter jusqu'à al-Hira. {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.124} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.125} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.126} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.127} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.128}
+Dans la seconde, il vint avec une grande délégation de Tayy, parmi lesquels Zirr ibn Sadus, Malik ibn Jubayr et Amir ibn Juwayn, et trouva le Prophète prêchant ; Zirr devint jaloux, dit qu'il avait vu un homme qui gouvernerait sur le cou des Arabes, et il partit en Syrie pour devenir chrétien, tandis que Zayd déclara les deux témoignages, et le Prophète dit : « Tu es plutôt Zayd al-Khayr. » {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.128} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.129} Il raconte que le Prophète lui dit : « Tu as deux qualités que Dieu et Son Messager aiment : la délibération et la patience » ; que Zayd demanda trois cents cavaliers pour piller les Byzantins ; et que la fièvre de Médine le frappa sur le chemin du retour, lorsqu'il ordonna à ses compagnons de le tenir loin des terres de Qays, car il ne combattrait aucun musulman tant qu'il n'aurait pas rencontré Dieu — et il mourut sur la route du Najd. {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.130} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.131}
+
+## Dans la leçon du Cheikh Omar Abdelkafy
+Le cheikh Omar Abdelkafy relate dans l'épisode 9 de son [[work/tafsir-al-quran-al-qareem|Tafsir al-Qur'an al-Karim]] que Zayd al-Khayr, interrogé par le Prophète sur ce qu'il ressentait, a dit qu'il aimait le bien et les gens du bien, et qu'il aspirait au bien lorsqu'il lui échappait (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:24:30} Le cheikh y voit un signe que Dieu veut le bien pour le serviteur dans l'au-delà (sa vision). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:25:00}
