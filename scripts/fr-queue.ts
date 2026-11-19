@@ -58,11 +58,13 @@ if (mode === "prose") {
   }
   console.error(`listed ${n}`);
 } else if (mode === "labels") {
+  const only = arg("class");
   const limit = Number(arg("limit") ?? 500);
   let n = 0;
   for (const f of walk(repoPath("data"))) {
     if (n >= limit) break;
     const d = parse(readFileSync(f, "utf8"));
+    if (only && d?.class !== only) continue;
     if (d?.label && !d.label.fr) { console.log(d.id ?? f); n++; }
   }
   console.error(`listed ${n}`);
