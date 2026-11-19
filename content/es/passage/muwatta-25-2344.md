@@ -1,0 +1,12 @@
+---
+id: passage/muwatta-25-2344
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/passage/muwatta-25-2344.md}
+---
+## Resumen
+Malik dijo: si un hombre remite mil dirhams del precio del esclavo contratado a su muerte, ya sea desde el principio o desde el final del contrato, y el contrato original era de tres mil dirhams: el contrato se valora en efectivo, entonces ese valor se divide de modo que cada mil reciba su parte del valor según lo cerca que esté de la fecha de vencimiento y su exceso. Luego, en el tercio del hombre muerto, se coloca la cantidad que representa la parte de ese mil. {cite:muwatta-maruf-1997 p.367}
+
+## Lugar en el museo
+Pertenece al [[passage/muwatta-kitab-25-mukatab|Muwatta, Libro del Contrato de Manumisión (mukatab]]). Fuente: [[work/muwatta-malik|el Muwatta]]. Menciona [[person/malik-ibn-anas|a Malik ibn Anas]]. Desarrollado en los capítulos sobre [[concept/mukatab|contrato de manumisión (mukatab)]] y [[concept/wasiyya|legado (wasiyya)]].
