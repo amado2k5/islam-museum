@@ -1,0 +1,30 @@
+---
+id: person/rukana
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/rukana.md}
+---
+## Vue d'ensemble
+Rukana ibn Abd Yazid ibn Hashim ibn al-Muttalib ibn Abd Manaf al-Muttalibi est connu pour l'histoire de son combat de lutte contre le Prophète. Ibn Hajar lui donne l'entrée 2766 dans la lettre ra in al-Isaba {cite:ibn-hajar-isaba p. 481}, et Abu Nu'aym l'inclut dans son Ma'rifat al-Sahaba, où il donne le rapport de lutte ainsi que le rapport du divorce de Rukana avec sa femme {cite:marifat-sahaba-abu-nuaym p. 1113}.
+
+## L'histoire de la lutte dans Ibn Hajar
+Ibn Hajar cite al-Baladhuri, d'Ibn Kharbudh et d'autres, selon lequel Rukana revint d'un voyage et entendit parler du Prophète. Il le rencontra dans une montagne près de La Mecque et lui dit que si le Prophète le jetait, il saurait qu'il était honnête ; ils se disputèrent, le Prophète le jeta à la chute, et Rukana devint musulman lors de la conquête de La Mecque, bien que certains disent qu'il accepta l'islam juste après le combat {cite:ibn-hajar-isaba p. 481}. Il cite al-Zubayr disant que Rukana était à La Mecque avant l'islam et était l'homme le plus fort ; il dit que s'il était jeté, il croirait, et après avoir été renversé, il dit que le Prophète était un sorcier, puis accepta l'islam plus tard, et le Prophète lui donna cinquante wasaq de nourriture {cite:ibn-hajar-isaba p. 481}.
+
+## La chaîne du rapport
+Ibn Hajar note qu'Ibn Hibban a dit qu'il y a quelque chose à examiner dans la chaîne du rapport de lutte. Il explique que cela renvoie au hadith enregistré par Abu Dawud et al-Tirmidhi via Abu al-Hasan al-Asqalani, par Abu Ja'far ibn Muhammad ibn Rukana, par son père, et qu'al-Tirmidhi l'appelait gharib avec une chaîne qui n'est pas ferme {cite:ibn-hajar-isaba p. 481}.
+
+## La version longue d'Abu Nu'aym
+Abu Nu'aym raconte dans Abu Umama que Rukana était polythéiste et l'un des hommes les plus redoutables qui faisaient paître ses brebis dans la vallée d'Idam. Le Prophète le rencontra seul là-bas, et Rukana proposa un combat de lutte pour dix de ses brebis. Le Prophète le jeta trois fois, et à chaque fois Rukana dit que le Dieu de Muhammad l'avait aidé et qu'al-Lat et al-Uzza l'avaient trahi {cite:marifat-sahaba-abu-nuaym p. 1114} {cite:marifat-sahaba-abu-nuaym p. 1115}. Le rapport poursuit en disant que le Prophète l'invita à l'islam et que Rukana demanda un signe ; un arbre se fenda, s'avança et revint à sa place. Rukana dit qu'il avait vu quelque chose de grand mais ne voulait pas que les femmes et garçons de Médine entendent qu'il avait cédé par peur, alors il n'accepta pas l'islam à cette occasion {cite:marifat-sahaba-abu-nuaym p. 1115} {cite:marifat-sahaba-abu-nuaym p. 1116}. Il ajoute qu'Abu Bakr et Umar sont partis à la recherche du Prophète, craignant que Rukana ne le rencontre, et que le Prophète leur ait dit ce qui s'était passé {cite:marifat-sahaba-abu-nuaym p. 1116}.
+
+## Autres versions du combat
+Abu Nu'aym donne la version de Hammad ibn Salama, tirée d'Amr ibn Dinar, de Sa'id ibn Jubayr, dans laquelle le Prophète passe devant Rukana à al-Abtah avec quelques chèvres et ils se battent pour un mouton, répétant le combat trois fois ; Hammad dit penser que le rapport se termine avec Rukana acceptant l'islam et le Prophète rendant ses moutons {cite:marifat-sahaba-abu-nuaym p. 1116}. Il donne également la version de Ma'mar, tirée d'Abd Allah ibn al-Harith, selon laquelle le Prophète a lutté contre Rukana à l'époque préislamique et l'a jeté {cite:marifat-sahaba-abu-nuaym p. 1117}.
+
+## Le rapport de son divorce
+Abu Nu'aym raconte d'Ibn Abbas que Rukana ibn Abd Yazid, des Banu al-Muttalib, divorça de sa femme trois fois d'un coup et fut très attristé. Le Prophète demanda combien de fois il avait divorcé d'elle, et lorsqu'il répondit trois fois d'une seule fois, le Prophète répondit que ce n'était qu'une seule fois, et qu'il pouvait la reprendre s'il le souhaitait {cite:marifat-sahaba-abu-nuaym p. 1113}. Une seconde chaîne, d'Abd Allah ibn Yazid ibn Rukana, de son père, de son grand-père, dit qu'il l'a divorcée par le mot albatta ; il lui demanda ce qu'il voulait dire, il répondit un, et le Prophète lui fit jurer {cite:marifat-sahaba-abu-nuaym p. 1113}. Abu Nu'aym donne également la route d'al-Shafi'i, via Nafi' ibn Ujayr, nommant l'épouse Suhla al-Muzaniyya {cite:marifat-sahaba-abu-nuaym p. 1114}. Ibn Hajar note que la chaîne de ce rapport est contestée parmi ses émetteurs {cite:ibn-hajar-isaba p. 481} {cite:ibn-hajar-isaba p. 482}.
+
+## Ceux qui ont raconté à partir de lui, et sa mort
+Ibn Hajar affirme que Nafi' ibn Ujayr et son petit-fils Ali ibn Yazid ibn Rukana ont raconté de lui {cite:ibn-hajar-isaba p. 482}. Il cite al-Zubayr qui dit qu'il est mort à Médine dans le califat de Mu'awiya, Abu Nu'aym qu'il est mort dans le califat d'Uthman, et une troisième opinion selon laquelle il a vécu jusqu'à l'an 41 {cite:ibn-hajar-isaba p. 482}.
+
+## Rukana Abu Muhammad
+L'entrée 2767 dans al-Isaba est Rukana Abu Muhammad. Ibn Hajar dit qu'Ibn Abi Dawud et al-Baladhuri l'ont séparé de Rukana ibn Abd Yazid al-Muttalibi, et qu'ils ont donné, par l'intermédiaire d'Abu Ja'far Muhammad ibn Rukana, de la part de son père, l'affirmation qu'il avait lutté contre le Prophète et avait été projeté ; Ibn Mandah pensait qu'il était le même homme que le premier {cite:ibn-hajar-isaba p. 482}. Ibn Hajar affirme que l'opinion légitime est qu'il est le même homme, puisque l'histoire de lutte est célèbre pour Rukana ibn Abd Yazid et a été enregistrée par al-Tirmidhi, Ibn Qani' et d'autres {cite:ibn-hajar-isaba p. 482}. Abu Nu'aym liste Rukana Abu Muhammad sans lignée, note que certains chercheurs ultérieurs le séparent du premier, et affirme ne voir que l'homme le plus ancien {cite:marifat-sahaba-abu-nuaym p. 1117}.
