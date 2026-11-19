@@ -53,9 +53,6 @@ Dans son récit de Badr, il dit qu'Abu Sufyan mit la caravane en sûreté en emp
 
 Dans un autre récit sur le camp adverse, Abu Sufyan interpella les hommes en demandant à chacun son nom et sa tribu ; la suspicion se répandit parmi eux {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:16:30}. Il raconte que Hudhayfa était à portée de lance d'Abu Sufyan mais se retint, car le Prophète lui avait ordonné de ne provoquer aucun trouble parmi eux {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:17:00}.
 
-## Pour les Petits
-Abu Sufyan Sakhr ibn Harb était un chef de Quraysh qui dirigea ses caravanes et ses armées contre les musulmans à Badr et au Fossé. Il accepta l'islam lors de la conquête de La Mecque, participa avec les musulmans à Hunayn et à Ta'if, perdit un œil au Yarmouk et mourut âgé à Médine.
-
 ## Pour les Explorateurs
 Abu Sufyan Sakhr ibn Harb al-Umawi était un chef et marchand de Quraysh qui conduisit la grande caravane de Quraysh, à l'origine de Badr, et porta la bannière des polythéistes à Uhud et au Fossé. Il fut à la tête de la première opposition à l'appel, puis embrassa l'islam en 8 H, juste avant la conquête de La Mecque — volontairement selon certains, par les circonstances selon d'autres. Le Prophète l'accueillit et annonça aux Mecquois que quiconque entrait dans sa maison était en sécurité. Il participa à Hunayn avec les musulmans et reçut une part destinée à « ceux dont les cœurs sont à rallier » ; au Yarmouk, il perdit son second œil, après avoir perdu le premier auparavant. Père de Mu'awiya et grand-père de Yazid et de Mu'awiya II, il mourut âgé à Médine vers 32 H.
 

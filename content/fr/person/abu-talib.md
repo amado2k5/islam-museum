@@ -54,9 +54,6 @@ Le cheikh cite un récit selon lequel le châtiment le plus léger dans le Feu s
 - **Autre point de vue : source non encore fournie** : attribution non encore établie.
 :::
 
-## Pour les Petits
-Abu Talib était l'oncle du Prophète ; il l'éleva après la mort de son grand-père Abd al-Muttalib, alors qu'il était encore enfant. Le Prophète l'aimait profondément, et Abu Talib le protégea des violences de Quraysh durant les années de l'appel, jusqu'à sa mort vers 619 ap. J.-C. Les musulmans s'accordent sur sa bonté et divergent sur son islam.
-
 ## Pour les Explorateurs
 Abu Talib ibn Abd al-Muttalib, oncle du Prophète et père d'Ali, était chef des Banu Hashim à La Mecque. Il recueillit le Prophète orphelin après la mort de son grand-père vers 578 ap. J.-C. ; les récits célèbres montrent l'enfant l'accompagnant dans des voyages commerciaux en Syrie. Il resta ensuite son protecteur lorsque l'appel fut proclamé : la sira le montre défendant son neveu contre les délégations de Quraysh qui exigeaient qu'on le leur livre et partageant le blocus de trois ans subi par les musulmans dans le quartier d'Abu Talib. Il mourut vers 619 ap. J.-C., l'Année de la tristesse, où mourut aussi Khadija. Sa foi est la plus ancienne divergence dans les livres : les chiites affirment qu'il devint musulman et lui attribuent des poèmes de soutien ; les sunnites voient dans sa protection une fidélité familiale et citent les récits de sa mort dans la voie de ses pères.
 
