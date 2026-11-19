@@ -1,0 +1,12 @@
+---
+id: practice/dua-friday-dawn-and-sunrise
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/practice/dua-friday-dawn-and-sunrise.md}
+---
+## Résumé
+Ce qu'al-Nawawi rassemble dans les chapitres le vendredi matin et au lever du soleil : plus de souvenir et de bénédiction sur le Prophète le vendredi, demander pardon avant la prière de l'aube, l'heure de la réponse, et ce qui est dit au lever du soleil. {cite:al-adhkar-nawawi-arnaut-1994 p. 85}
+
+## Ce que rassemble al-Nawawi à al-Adhkar
+Al-Nawawi dit que tout ce qui est dit les autres jours est dit le vendredi, que le souvenir y est plus fortement recommandé, et que la bénédiction sur [[person/muhammad|le Prophète]] s'ajoute en plus grand nombre {cite:al-adhkar-nawawi-arnaut-1994 p. 85}. D'après Anas, dans le livre d'Ibn al-Sunni : quiconque dit le vendredi matin avant l'aube la prière « أستغفر الله الذي لا إله إلا هو الحي القيوم وأتوب إليه » à trois reprises, Dieu pardonne ses péchés même si c'est comme l'écume de la mer {cite:al-adhkar-nawawi-arnaut-1994 p. 85}. Il dit qu'il est recommandé de supplicer pendant toute la journée du vendredi dans l'espoir de rencontrer l'heure de la réponse, que les érudits en disaient dans de nombreux avis et que, selon lui, la bonne est celle établie en Sahih Muslim par Abu Musa al-Ash'ari : qu'elle se trouve entre l'imam assis sur la chaire et la fin de la prière {cite:al-adhkar-nawawi-arnaut-1994 p. 85}. Dans le chapitre sur ce qui est dit au lever du soleil, il rapporte d'Abu Sa'id al-Khudri dans Ibn al-Sunni, par une chaîne faible, que le Prophète a dit « الحمد لله الذي جلنا اليوم عافيته وجاء بالشمس من مطلعها », puis témoigna de l'unité de Dieu et demanda la solidité de sa religion, de ce monde et du prochain {cite:al-adhkar-nawawi-arnaut-1994 p. 86}. D'Ibn Mas'ud, un récit qui s'arrête à lui, selon lequel, lorsqu'on lui dit que le soleil s'était levé, il dit « الحمد لله الذي وهب لنا هذا اليوم وأقالنا فيه من عثراتنا » {cite:al-adhkar-nawawi-arnaut-1994 p. 86}. Dans le chapitre « Quand le soleil se lève, » d'Amr ibn Abasa : toute créature de Dieu Le glorifie et le loue alors, sauf le diable et le plus rebelle de l'humanité, que le Prophète décrivit comme les pires créatures {cite:al-adhkar-nawawi-arnaut-1994 p. 86}.

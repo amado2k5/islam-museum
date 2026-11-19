@@ -1,0 +1,12 @@
+---
+id: practice/dua-after-fajr-remembrance
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/practice/dua-after-fajr-remembrance.md}
+---
+## Résumé
+Ce qu'al-Nawawi recueille dans le chapitre appelant à la mémoire de Dieu après la prière de l'aube : le mérite de rester assis en mémoire jusqu'au lever du soleil, dix tahlils et supplications rapportées après la prière de l'aube. {cite:al-adhkar-nawawi-arnaut-1994 p. 74}
+
+## Ce que rassemble al-Nawawi à al-Adhkar
+Al-Nawawi dit que le moment le plus noble pour le souvenir dans la journée est après la prière de l'aube {cite:al-adhkar-nawawi-arnaut-1994 p. 74}. Il rapporte d'Anas, dans le livre d'al-Tirmidhi et d'autres, que [[person/muhammad|le Prophète]] a dit que quiconque prie la prière de l'aube en assemblée reste assis en mémoire de Dieu jusqu'au lever du soleil, puis prie deux rak'as, reçoit la récompense d'un pèlerinage complet et d'un pèlerinage mineur complet, et il dit qu'al-Tirmidhi l'appelait bon {cite:al-adhkar-nawawi-arnaut-1994 p. 74}. D'après Abu Dharr, dans le livre d'al-Tirmidhi et d'autres : quiconque dit la prière après l'aube, les jambes toujours croisées et avant de parler, « لا إله إلا الله وحده لا شريك له له الملك وله الحمد يحيي ويميت وهو على كل شيء قدير » dix fois, Dieu écrit dix bonnes actions pour lui, efface dix péchés, le relève de dix rangs et le protège ce jour-là de tout mal ; al-Tirmidhi l'appela bon, et dans certaines copies sonne {cite:al-adhkar-nawawi-arnaut-1994 p. 75}. Extrait d'um Salama, dans le Musnad d'Ahmad, le Sunan d'Ibn Majah et le livre d'Ibn al-Sunni : « اللهم إني أسألك علما نافعا وعملا متقبلا ورزقا طيبا », ô Dieu, je Te demande un savoir utile, un travail accepté et une bonne provision {cite:al-adhkar-nawawi-arnaut-1994 p. 75}. D'après Suhayb, dans le livre d'Ibn al-Sunni, le Prophète a bougé ses lèvres après la prière de l'aube en disant « اللهم بك أحاول وبك أصاول وبك أقاتل », ô Dieu, par Toi je m'efforce, par Toi j'attaque, par Toi je me bats {cite:al-adhkar-nawawi-arnaut-1994 p. 75}. Il conclut par le rapport d'al-Baghawi dans Sharh al-Sunna, d'Alqama ibn Qays, selon lequel il leur est parvenu que la terre crie Dieu à cause du sommeil d'un érudit après la prière de l'aube {cite:al-adhkar-nawawi-arnaut-1994 p. 76}.
