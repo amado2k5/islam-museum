@@ -1,0 +1,13 @@
+---
+id: person/sakina-bint-al-husayn
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/sakina-bint-al-husayn.md}
+---
+## Vue d'ensemble
+Sakina bint al-Husayn al-Shahid ; elle racontait de son père et était d'une beauté saisissante. Son cousin 'Abdallah ibn al-Hasan l'Ancien l'épousa et fut tué avec son père. On dit : Je suis venu la voir et j'ai trouvé à sa porte Jarir, al-Farazdaq, Jamil et Kuthayyir. Elle mourut en Rabi' I, 117 H, et narra peu de détails. {cite:siyar-alam-nubala-ideas-house p.1860}
+
+## Dans A'lam al-Nisa' de Kahhala
+Kahhala dit que « Sukayna » était un surnom affectueux donné par sa mère al-Rabab bint Imru' al-Qays, et que son nom est contesté — Amina, Amina ou Umayma. {cite:alam-al-nisa-kahhala-risala-1984-v2 p.206} Il la décrit comme une noble dame de haut rang qui s'assit aux côtés des hommes de proue de Quraysh, à qui des poètes et des hommes de lettres venaient pour juger, qu'elle donnait en distinguant l'inclinaison du gras ; une fois, les transmetteurs de Jarir, Kuthayyir, Nusayb, Jamil et al-Ahwas se réunirent à Médine et acceptèrent son arbitrage, et elle critiqua les vers de chaque poète à tour de rôle. {cite:alam-al-nisa-kahhala-risala-1984-v2 p.206} {cite:alam-al-nisa-kahhala-risala-1984-v2 p.207} Il donne des témoignages d'*al-Aghani* sur son amour du chant et sur les chanteurs Ibn Surayj et al-Gharid. {cite:alam-al-nisa-kahhala-risala-1984-v2 p.214} {cite:alam-al-nisa-kahhala-risala-1984-v2 p.215} Il énumère ses maris : son cousin Abd Allah ibn al-Hasan ibn Ali, Mus'ab ibn al-Zubayr, Abd Allah ibn Uthman al-Hizami, Zayd ibn Amr ibn Uthman, al-Asbagh ibn Abd al-Aziz ibn Marwan (le mariage non consommé), et d'autres. {cite:alam-al-nisa-kahhala-risala-1984-v2 p.220} Il raconte qu'après avoir quitté l'Irak pour Médine après la mort de Mous'ab, elle a dit à son peuple qu'ils avaient tué son père, son grand-père, son oncle et son mari, l'ayant rendue orpheline lorsqu'elle était jeune et la veuvée à l'âge adulte. {cite:alam-al-nisa-kahhala-risala-1984-v2 p.221} Il dit qu'elle vint à Damas avec sa famille après la mort de son père, puis se rendit à Médine et y mourut le 5 Rabi' I 117 H, lorsque Khalid ibn Abd Allah ibn al-Harith gouvernait Médine sous Hisham ; d'autres disent qu'elle mourut à La Mecque. {cite:alam-al-nisa-kahhala-risala-1984-v2 p.227} {cite:alam-al-nisa-kahhala-risala-1984-v2 p.228}
+
