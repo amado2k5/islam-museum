@@ -41,7 +41,6 @@ const HTML_TARGETS = [
   { dir: "fr", prefix: "fr", cacheControl: "public, max-age=60, s-maxage=3600" },
   { dir: "es", prefix: "es", cacheControl: "public, max-age=60, s-maxage=3600" },
 ];
-const activeTargets = process.env.PUBLISH_HTML === "1" ? [...TARGETS, ...HTML_TARGETS] : TARGETS;
 const MANIFEST_KEY = "_r2-sync/manifest.json";
 const STAGING_PREFIX = "_staging/";
 
@@ -53,6 +52,17 @@ const args = Object.fromEntries(
 );
 const distRoot = args.dist ?? "dist";
 const dryRun = args["dry-run"] === true;
+// One language (deploy-lang-env.yml, docs/engineering/06-deployment.md section 9): `--only-lang es` publishes that
+// language's pages (es/) and search index (pagefind-es/) and nothing else. The diff is taken against that language's
+// part of the manifest only, so no file of another language, of the API or of the shared data is copied or deleted,
+// and the rest of the manifest is written back as it was. Put it before --dry-run on the command line.
+const onlyLang = typeof args["only-lang"] === "string" ? args["only-lang"] : null;
+if (onlyLang && !HTML_TARGETS.some((t) => t.dir === onlyLang)) throw new Error(`--only-lang ${onlyLang}: not a language of the site (${HTML_TARGETS.map((t) => t.dir).join(", ")})`);
+/** The R2 prefixes one language owns: its pages and its search index. */
+export const langPrefixes = (lang) => [lang, `pagefind-${lang}`];
+const activeTargets = onlyLang
+  ? [...TARGETS, ...HTML_TARGETS].filter((t) => langPrefixes(onlyLang).includes(t.prefix))
+  : process.env.PUBLISH_HTML === "1" ? [...TARGETS, ...HTML_TARGETS] : TARGETS;
 const bucket = process.env.BUCKET ?? "islam-museum-search";
 const endpoint = process.env.ENDPOINT;
 // SYNC_URLS: comma-separated Worker URLs. Falls back to SYNC_URL (one Worker).
@@ -97,7 +107,8 @@ function desiredFiles() {
       files.set(`${t.prefix}/${rel}`, { path: full, sha: sha(bytes), md5: createHash("md5").update(bytes).digest("hex"), cacheControl: t.cacheControl });
     }
   }
-  for (const name of rootFiles(distRoot)) {
+  // Root files (sitemaps, feed, favicons) belong to no language: a one-language publish leaves them alone.
+  for (const name of onlyLang ? [] : rootFiles(distRoot)) {
     const full = join(distRoot, name);
     const bytes = readFileSync(full);
     files.set(name, { path: full, sha: sha(bytes), md5: createHash("md5").update(bytes).digest("hex"), cacheControl: ROOT_CACHE });
@@ -169,6 +180,11 @@ export function reconcile(desired, previous, stored) {
     }
   }
   return matched;
+}
+
+/** The part of a manifest's files under the given prefixes ("es" matches "es/…", never "es-other/…" or a root file). */
+export function scopeTo(previous, prefixes) {
+  return Object.fromEntries(Object.entries(previous).filter(([key]) => prefixes.some((p) => key.startsWith(`${p}/`))));
 }
 
 export function diff(desired, previous) {
@@ -481,19 +497,33 @@ async function main() {
   if (!dryRun && stored === null && !seeding) {
     throw new Error("no manifest in the bucket: run once with --seed to record the files already published");
   }
+  // A one-language publish changes part of an existing record; it never starts one. Seeding from one language would
+  // write a manifest that knows nothing of the others, and the next full publish would send the whole site again.
+  if (onlyLang && !dryRun && stored === null) {
+    throw new Error(`no manifest in the bucket: a one-language publish (--only-lang ${onlyLang}) needs a full deploy of this environment first`);
+  }
   const previous = stored ?? (dryRun ? {} : bootstrapPrevious(desired));
-  let ops = diff(desired, previous);
+  // What the diff may touch: everything, or one language's prefixes. `previous` stays the whole record, so the
+  // manifest written after each batch still lists every other file.
+  const scoped = () => (onlyLang ? scopeTo(previous, langPrefixes(onlyLang)) : previous);
+  if (onlyLang) log(`one language: ${onlyLang} (prefixes ${langPrefixes(onlyLang).join(", ")}); every other file in the bucket is left as it is`);
+  let ops = diff(desired, scoped());
   let copies = ops.filter((o) => o.op === "COPY").length;
   if (!dryRun && stored !== null && copies >= RECONCILE_MIN) {
     const prefixes = [...new Set(ops.filter((o) => o.op === "COPY").map((o) => o.dst.split("/")[0]))];
     const matched = reconcile(desired, previous, listBucket(prefixes));
     log(`reconciled with the bucket: ${matched} of ${copies} files to copy are already there (skipped)`);
-    ops = diff(desired, previous);
+    ops = diff(desired, scoped());
     copies = ops.filter((o) => o.op === "COPY").length;
   }
   const deletes = ops.length - copies;
-  log(`${desired.size} files in dist, ${Object.keys(previous).length} in last publish: ${copies} to copy, ${deletes} to delete`);
-  reportChurn(ops, desired, { copies, deletes, prevCommit: manifest?.commit ?? null });
+  log(`${desired.size} files in dist, ${Object.keys(scoped()).length} in last publish: ${copies} to copy, ${deletes} to delete`);
+  reportChurn(ops, desired, { copies, deletes, prevCommit: (onlyLang ? manifest?.langs?.[onlyLang] : null) ?? manifest?.commit ?? null });
+  // The commit the manifest names is the last full publish. A one-language publish keeps it and records its own
+  // commit under `langs`; a full publish drops `langs`, since every language is then at its commit again.
+  const meta = onlyLang
+    ? { commit: manifest?.commit ?? null, langs: { ...(manifest?.langs ?? {}), [onlyLang]: process.env.GITHUB_SHA ?? null } }
+    : { commit: process.env.GITHUB_SHA ?? null };
 
   if (dryRun) return;
   // Archives left in staging by a failed run are not touched here: nothing is deleted
@@ -539,7 +569,7 @@ async function main() {
     await Promise.all(Array.from({ length: Math.min(parallel, archives.length) }, runner));
     // Record this batch, so a failure in a later batch does not send it again.
     applyToPrevious(previous, batchOps, desired);
-    writeManifest(dir, previous, b + 1 < batches);
+    writeManifest(dir, previous, b + 1 < batches, meta);
     if (b + 1 < batches) {
       log(`batch ${b + 1}/${batches} applied and recorded; pausing ${BATCH_PAUSE_MS / 1000}s before the next batch`);
       await sleep(BATCH_PAUSE_MS);
@@ -563,8 +593,8 @@ export function applyToPrevious(previous, batchOps, desired) {
 
 // commit: the build this manifest describes, recorded for tracing (null outside CI).
 // partial: true while later batches of the same run are still to come.
-function writeManifest(dir, files, partial) {
-  const next = { version: 1, commit: process.env.GITHUB_SHA ?? null, partial, files };
+function writeManifest(dir, files, partial, meta) {
+  const next = { version: 1, ...meta, partial, files };
   const manifestFile = join(dir, "manifest.json");
   writeFileSync(manifestFile, JSON.stringify(next));
   execFileSync("aws", ["s3", "cp", manifestFile, `s3://${bucket}/${MANIFEST_KEY}`, "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
