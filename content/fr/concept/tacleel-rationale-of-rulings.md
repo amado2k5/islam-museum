@@ -1,0 +1,10 @@
+---
+id: concept/tacleel-rationale-of-rulings
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/tacleel-rationale-of-rulings.md}
+---
+
+## Résumé
+Ta'lil, au sens technique, établit qu'une cause est efficace pour prouver son effet, ou montre qu'une chose est une cause ; c'est le motif qui a légiféré une décision ou l'intérêt pour lequel elle a été fixée. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5482} Les règles de culte sont présumées ne pas avoir de justification déclarée, car elles reposent sur une dévotion pure ; les transactions, coutumes et infractions sont présumées en avoir une, car elles servent les intérêts des personnes. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5483} Énoncer la logique aide les gens à connaître et à conserver les décisions, et les rend plus acceptées. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5483} L'usuliyyun divisait sur la question de savoir si les textes ont énoncé des raisons en quatre points de vue : le défaut n'est pas une raison sauf s'il est démontré ; le défaut est tout attribut approprié ; le défaut est un attribut comportant un critère permettant de choisir les appropriés ; ou bien les textes sont dévotionnels. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5483} Les voies vers une cause sont le texte explicite, le consensus, l'implication et l'allusion, la division et l'examen, la pertinence, la ressemblance et la concomitance, le raffinement et la vérification du fondement, et la concomitance de la présence et de l'absence. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5483} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5484} Un hadith défectueux est celui dans lequel une cause a été trouvée qui altère sa solidité bien qu'elle semble saine ; c'est une sorte de hadith faible. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5484}

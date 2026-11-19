@@ -1,0 +1,9 @@
+---
+id: concept/iwad
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/iwad.md}
+---
+## Résumé
+Dans le lexique, iwad est un substitut, ce qui est donné en échange d'une chose ; il est également utilisé pour désigner la récompense dans l'au-delà {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11928}. Les juristes exigent que la contrepartie soit versée dans des contrats d'échange : le locataire et le bailleur, la dot du mari, celui qui détruit une chose doit rendre sa valeur ou son identité, et le meurtrier doit l'argent du sang {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11928} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11929} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11931}. Certaines choses ne peuvent pas être une considération, comme le sang, la charogne et le vin, et faire de l'intimité d'une femme la dot lors d'un échange de shamar {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11929} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11930}. Les considérations sont soit financières, soit non, et dans les contrats d'échange elles doivent être connues et fixées pour mettre fin aux différends ; la loi fixe certains, tels que l'argent du sang, la rançon et les expiations {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11930} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11936} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11937} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11938}. Une contrepartie est caducée lorsque l'objet périt, par libération d'une dette, par pardon, ou par conversion à l'islam dans le cas de la taxe de capitation {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11942} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11943}.
