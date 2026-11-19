@@ -51,10 +51,11 @@ def run(t): return f'<w:r><w:t xml:space="preserve">{escape(t)}</w:t></w:r>' if 
 def render(src, scheme):
     if scheme == "tags": return run(src)
     if scheme == "num": return run(numeric(src))
-    src = re.sub(r"\[\[(\d+)\]\]", lambda m: f"({8000000000 + int(m.group(1))})", src)
-    out, pos = "", 0
-    for m in re.finditer(r"<x(\d+)>([^<]*)</x\1>", src):
-        out += run(src[pos:m.start()]) + f'<w:hyperlink w:anchor="x{m.group(1)}">{run(m.group(2))}</w:hyperlink>'; pos = m.end()
+    if scheme != "link2": src = re.sub(r"\[\[(\d+)\]\]", lambda m: f"({8000000000 + int(m.group(1))})", src)
+    out, pos = "", 0  # link2: a citation marker travels as a hyperlink too (anchor cN, text "[N]"): the anchor carries its identity
+    for m in re.finditer(r"<x(\d+)>([^<]*)</x\1>|\[\[(\d+)\]\]", src):
+        out += run(src[pos:m.start()]); pos = m.end()
+        out += f'<w:hyperlink w:anchor="x{m.group(1)}">{run(m.group(2))}</w:hyperlink>' if m.group(1) else f'<w:hyperlink w:anchor="c{m.group(3)}">{run("[" + m.group(3) + "]")}</w:hyperlink>'
     return out + run(src[pos:])
 
 
