@@ -1,0 +1,30 @@
+---
+id: question/do-prophets-leave-an-inheritance
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/question/do-prophets-leave-an-inheritance.md}
+---
+## Résumé
+[[event/fatima-inheritance-claim-fadak|La revendication de Fatima à son héritage]] du Prophète est l'un des points de désaccord les plus connus entre les sunnites et les Imamiyya. [[person/al-allama-al-hilli|Ibn al-Mutahhar al-Hilli]] l'a mentionnée parmi ses accusations contre [[person/abu-bakr|Abu Bakr]], et [[person/ibn-taymiyya|Ibn Taymiyya]] y a répondu dans [[work/minhaj-al-sunnah|Minhaj al-Sunna]] sur plusieurs points. {cite:minhaj-sunna-shamela p. 1142}
+
+## L'objection d'al-Hilli, comme la cite Ibn Taymiyya
+Dans la citation d'Ibn Taymiyya, al-Hilli dit : Abu Bakr a retenu [[person/fatima|l'héritage de Fatima, et elle a dit : « Fils d'Abu Quhafa, hérites-tu de ton père et je n'hérite pas du mien ? » Il s'appuya sur un rapport que lui seul avait transmis, et il était lui-même son adversaire, puisque la charité lui était permise ; et le Coran contredit ce qu'ils rapportent, car Dieu a établi le verset de l'héritage sans le rendre particulier à la communauté au détriment du Prophète, et a démenti leur récit en disant que Salomon avait hérité de David et selon la prière de Zacharie pour un héritier]]. {cite:minhaj-sunna-shamela p. 1142}
+
+## La réponse d'Ibn Taymiyya
+**Les paroles de Fatima.** Ibn Taymiyya soutient que le dicton qui lui est attribué, « Tu hérites de ton père et je n'hérite pas du mien ? », n'est pas reconnu comme authentique, et que même si c'était le cas, cela ne prouverait rien, car son père ne peut être comparé à aucun être humain : Abu Bakr n'est pas plus proche des croyants que d'eux-mêmes, et la charité ne lui est pas interdite. Il donne comme raison que Dieu a protégé les prophètes de léguer des biens matériels, afin que personne ne puisse remettre en cause leur prophétie en disant qu'ils cherchaient le monde et l'avaient laissé à leurs héritiers – tout comme Il a protégé notre Prophète de l'écriture et de la poésie. {cite:minhaj-sunna-shamela p. 1142} {cite:minhaj-sunna-shamela p. 1143}
+
+**L'affirmation selon laquelle il était seul qui l'a transmis.** Il affirme que le hadith « Nous ne sommes pas hérités de ; ce que nous laissons, c'est de la charité » a été transmis par le Prophète par Abu Bakr, Umar, Uthman, [[person/ali-ibn-abi-talib|Ali]], Talha, al-Zubayr, Sa'd, Abd al-Rahman ibn Awf, al-Abbas ibn Abd al-Muttalib, les épouses du Prophète et Abu Hurayra, et que les rapports d'eux sont établis dans les collections Sahih et Musnad ; dire que seul Abu Bakr l'a transmis relève, pour lui, d'une ignorance ou d'un mensonge. {cite:minhaj-sunna-shamela p. 1143} Dans une note de bas de page, l'éditeur énumère les lieux du hadith dans al-Bukhari, Muslim et le Sunan d'Abu Dawud et al-Tirmidhi. {cite:minhaj-sunna-shamela p. 1144}
+
+**L'affirmation qu'il était son adversaire. ** Il soutient qu'Abu Bakr n'a revendiqué la propriété ni pour lui-même ni pour sa famille ; c'était de la charité pour ceux qui y avaient droit, puisqu'une mosquée appartient aux musulmans. Un homme digne de confiance qui témoignerait que quelqu'un avait fait de sa maison une mosquée ou de son puits une fontaine publique serait cru, même s'il pouvait les utiliser lui-même, car son témoignage est pour une cause générale et sans limites. {cite:minhaj-sunna-shamela p. 1143} {cite:minhaj-sunna-shamela p. 1144} Il ajoute qu'Abu Bakr n'avait pas eu besoin de cette charité et que ni lui ni sa famille n'en ont bénéficié ; que même si le transmetteur en avait bénéficié, son rapport aurait été accepté, puisqu'il s'agit de transmission et non d'un témoignage, comme un rapport d'observation de la nouvelle lune ; et que ce même hadith a refusé un héritage à sa propre fille [[person/aisha|Aïcha]]. {cite:minhaj-sunna-shamela p. 1144} {cite:minhaj-sunna-shamela p. 1145}
+
+**L'affirmation selon laquelle il contredit le Coran.** Ibn Taymiyya soutient que la formulation générale du verset de l'héritage s'adresse à ceux qu'il vise ; le pluriel « tu » dans le Coran couvre parfois le Prophète avec les croyants et parfois la communauté sans lui, comme dans les versets sur l'obéissance et l'amour, et comme dans le verset du mariage, qui n'inclut pas le Prophète, à qui plus de quatre épouses étaient autorisées. {cite:minhaj-sunna-shamela p. 1145} {cite:minhaj-sunna-shamela p. 1146} Il argumente à partir du contexte même du verset de l'héritage : il leur dit qu'ils ne savent pas lequel de leurs pères et fils est le plus proche d'eux en termes de bénéfices, puis promet une récompense pour avoir obéi au Messager dans les limites de l'héritage – des mots qui ne conviennent pas au Messager, qui n'est donc pas inclus ; il cite ici aussi les paroles du Prophète lors du Pèlerinage d'adieu : « Aucun legs à un héritier ». {cite:minhaj-sunna-shamela p. 1147}
+
+:::perspectives
+**Sunnite (Hanbali) : Ibn Taymiyya dans Minhaj al-Sunna.** Les prophètes ne sont pas hérités et ce qu'ils laissent est de la charité ; le hadith a été transmis par un groupe de Compagnons seniors, Abu Bakr n'était pas un adversaire, et le Prophète n'est pas inclus dans le verset de l'héritage. {cite:minhaj-sunna-shamela p. 1143} {cite:minhaj-sunna-shamela p. 1147}
+
+**Imami : Ibn al-Mutahhar al-Hilli, comme le cite Ibn Taymiyya.** Fatima hérite de son père selon la formulation générale du Coran ; Abu Bakr seul transmit le rapport et fut son adversaire ; L'héritage de Salomon de David et la prière de Zacharie montrent que les prophètes sont hérités de. {cite:minhaj-sunna-shamela p. 1142}
+:::
+
+## Pas encore couvert
+La position d'Imami n'est donnée ici que par la citation d'Ibn Taymiyya et doit être exprimée directement dans les livres Imami ; le reste du chapitre sur Fadak et son fait de cadeau (à partir de p. 1148 dans cet export) n'a pas encore été lu.
