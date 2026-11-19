@@ -6,7 +6,7 @@ translators: []
 ---
 # ڈیمس ہاسابیس
 
-ڈیمس ہاسابیس (پیدائش 27 جولائی 1976ء) برطانوی مصنوعی ذہانت کے محقق اور کارجو ہیں، ڈیپ مائنڈ کے شریک بانی اور 2024ء کے کیمسٹری کے نوبل انعام کے شریک فاتح۔ انگریزی، عربی، فارسی اور اردو مضامین اور وکی ڈیٹا ان کی پیدائش 27 جولائی 1976ء لندن دیتے ہیں۔ {cite:wikipedia-hassabis-en} {cite:wikipedia-hassabis-ar} {cite:wikipedia-hassabis-fa} {cite:wikipedia-hassabis-ur} {cite:wikidata-hassabis}
+ڈیمس ہاسابیس ⁦(پیدائش 27 جولائی 1976ء)⁩ برطانوی مصنوعی ذہانت کے محقق اور کارجو ہیں، ڈیپ مائنڈ کے شریک بانی اور 2024ء کے کیمسٹری کے نوبل انعام کے شریک فاتح۔ انگریزی، عربی، فارسی اور اردو مضامین اور وکی ڈیٹا ان کی پیدائش 27 جولائی 1976ء لندن دیتے ہیں۔ {cite:wikipedia-hassabis-en} {cite:wikipedia-hassabis-ar} {cite:wikipedia-hassabis-fa} {cite:wikipedia-hassabis-ur} {cite:wikidata-hassabis}
 
 ## ابتدائی زندگی اور تعلیم
 

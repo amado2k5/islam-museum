@@ -4,9 +4,11 @@ gender: male
 label:
   ar: "ابن الباجي"
   en: "Ibn al-Baji (Abd Allah ibn Muhammad)"
+  fr: "Ibn al-Baji (Abd Allah ibn Muhammad)"
 summary:
   ar: "أبو محمد عبد الله بن محمد، المعروف بابن الباجي، فقيه مالكي سمع من ابن لبابة وأسلم بن عبد العزيز وأحمد بن خالد وقاسم بن أصبغ وغيرهم. وسمع منه ابنه أحمد وحفيده محمد بن أحمد وابن الفرضي والأصيلي وغيرهم. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8191}"
   en: "Abu Muhammad Abd Allah ibn Muhammad, known as Ibn al-Baji, a Maliki jurist. He studied with Ibn Lubaba, Aslam ibn Abd al-Aziz, Ahmad ibn Khalid and Qasim ibn Asbagh among others; his son Ahmad, his grandson Muhammad ibn Ahmad, Ibn al-Farudi and al-Asili heard him. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8191}"
+  fr: "Abu Muhammad Abd Allah ibn Muhammad, connu sous le nom d'Ibn al-Baji, juriste malikite. Il étudia auprès d'Ibn Lubaba, d'Aslam ibn Abd al-Aziz, d'Ahmad ibn Khalid et de Qasim ibn Asbagh, entre autres ; son fils Ahmad, son petit-fils Muhammad ibn Ahmad, Ibn al-Farudi et al-Asili l'entendirent. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8191}"
 roles: [jurist]
 traditions: [sunni-maliki]
 wings: [people]
@@ -14,7 +16,7 @@ periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
 provenance:
   layer: own-research
-  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «ملحق تراجم الفقهاء» (ص 8191 من المسح)"
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «ملحق تراجم الفقهاء» ⁦(ص 8191 من المسح)⁩"
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
   run: mawsua-w05-batch3
@@ -31,4 +33,4 @@ occupations:
     sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 died: { edtf: "988", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tartib al-Madarik (Qadi Iyad: d. 378 AH)" }
 relations:
-  - { type: lived_in, target: place/baja-maghrib, note: "Place association from the person's nisba/name (الباجي); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }
+  - { type: lived_in, target: place/baja-maghrib, note: "Place association from the person's nisba/name ⁦(الباجي)⁩; denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

@@ -4,9 +4,11 @@ class: person
 label:
   ar: أبو سهل الفضل بن نوبخت
   en: Abu Sahl al-Fadl ibn Nawbakht
+  fr: "Abu Sahl al-Fadl ibn Nawbakht"
 summary:
   ar: "أبو سهل الفضل بن نوبخت الفارسي، كان في خزانة الحكمة لهرون الرشيد ينقل من الفارسية إلى العربية ما يجده من كتب الحكمة الفارسية، ومعوّله في علمه وكتبه على كتب الفرس على ما قال القفطي."
   en: "Abu Sahl al-Fadl ibn Nawbakht the Persian, in al-Rashid's khizanat al-hikma, rendering into Arabic whatever Persian wisdom-books he found — 'his reliance in learning and books was on the books of the Persians', as al-Qifti says."
+  fr: "Abu Sahl al-Fadl ibn Nawbakht le Persan, dans la khizanat al-hikma d’al-Rashid, traduisant en arabe tous les livres de sagesse perse qu’il trouvait — « son savoir et ses livres reposaient sur les livres des Perses », selon al-Qifti."
 roles: [scholar]
 wings: [people]
 periods: [period/abbasid-fragmentation]
@@ -20,7 +22,7 @@ provenance:
   run: lib-duha-islam-3
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 relations:
-  - { type: lived_in, target: place/fars, note: "Place association from the person's nisba/name (الفارسي); denotes association, not proven residence.", sources: [source/duha-islam], confidence: low }
+  - { type: lived_in, target: place/fars, note: "Place association from the person's nisba/name ⁦(الفارسي)⁩; denotes association, not proven residence.", sources: [source/duha-islam], confidence: low }
   - {confidence: medium, note: Wikidata Q12536 (P27); corroboration recommended., sources: [source/wikidata], target: place/abbasid-caliphate, type: lived_in}
 external_ids: {wikidata: Q4702360}
 names:

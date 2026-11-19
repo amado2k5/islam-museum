@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-leaves-for-najran-and-meets-abu-jafar-and-the-ahlaf-at-al-hisn-292
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-leaves-for-najran-and-meets-abu-jafar-and-the-ahlaf-at-al-hisn-292.md}
+---
+## Vue d'ensemble
+Le narrateur rapporte que les Wadi'a se rassemblèrent auprès de Muhammad ibn Ubaydallah, qui les conduisit à al-Hisn. Là, ils rencontrèrent Shakir et Thaqif et conclurent une alliance avec eux afin qu'ils l'aident et le soutiennent. Le narrateur retourna ensuite auprès des Wadi'i. À cette nouvelle, les espoirs des Banu al-Harith furent anéantis et leurs espoirs déçus {cite:sira-hadi-ila-al-haqq p.290}. Puis, « le dimanche suivant le quatrième jour de Rajab », al-Hadi partit pour Najran {cite:sira-hadi-ila-al-haqq p.290}.
+
+## Détail
+Le passage porte le titre « Al-Hadi repart pour Najran » : arrivé au haut oued, il fut accueilli par Muhammad ibn Ubaydallah et un groupe de Wadi'is, puis poursuivit sa route vers al-Hisn, où il passa la nuit {cite:sira-hadi-ila-al-haqq p.290}. Le lendemain matin, al-Ahlaf et les Yamiens de Najran vinrent le trouver et s'excusèrent de leur rassemblement contre Muhammad ibn Ubaydallah avec les Banu al-Harith et les bédouins Yamiens, prétextant avoir été effrayés. Il les excusa et passa outre leur erreur, resta ce jour-là, et les bédouins Shakir vinrent le trouver {cite:sira-hadi-ila-al-haqq p.290}. La date est tirée du calendrier tabulaire : le 4 Rajab 292 H correspond au 12 mai 905 du calendrier julien et tombe un dimanche, comme l'indique le texte ; les deux calendriers concordent donc ici, contrairement à certains passages antérieurs. L'année 292 est tirée de l'ordre du récit après le serment de Jumada Ier. Ce récit, rapporté par les partisans de l'imam dans un ouvrage zaydite, est présenté au musée sans jugement. Les passages précédents concernant al-Hisn, Thaqif, Shakir et Wadi'a sont relatés dans le numéro [[event/the-abd-al-madan-march-on-minas-and-the-fight-at-its-two-gates-292|(le précédent lot]] et dans le numéro [[event/ali-and-al-qasim-sons-of-muhammad-ibn-ubaydallah-ask-shakir-thaqif-and-wadia-for-aid-292|(l'appel des fils à Shakir, Thaqif et Wadi'a]]. Ces pages ne situent pas al-Hisn géographiquement ; la réponse se trouve dans le registre.

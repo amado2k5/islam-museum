@@ -1,0 +1,15 @@
+---
+id: event/al-hadi-spares-the-routed-and-burns-the-stores-at-thila-286
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-spares-the-routed-and-burns-the-stores-at-thila-286.md}
+---
+## Vue d'ensemble
+Lorsque [[group/banu-al-harith-ibn-kab|les Banu al-Harith]] s'enfuirent vers le mont [[place/al-ukhdud|al-Ukhdud]], ils s'y accrochèrent, abandonnant armes et vêtements, que la population s'empara de toutes parts. {cite:sira-hadi-ila-al-haqq p.172} [[person/al-hadi-yahya-al-rassi|Al-Hadi]] pardonna alors à ceux qui avaient tourné le dos, aux vaincus et aux blessés, ordonna à l'armée de se retirer et de ne pas les poursuivre, repoussa la population et l'empêcha d'escalader la montagne, et ordonna de faire arrêter les têtes. Ceux qui se trouvaient au bord de la route furent capturés, ainsi que beaucoup d'autres. Puis il ordonna de fermer les ruelles du village et d'empêcher la population de les suivre. {cite:sira-hadi-ila-al-haqq p.172} En note de bas de page, l'éditeur précise que Sifat Jazirat al-Arab (p. 67) situe al-Ukhdud à Khawlan, tandis que Muntakhabat fi akhbar al-Yaman (p. 31) désigne le fossé de Najran creusé par Dhu Nuwas ; le musée ne tranche pas entre ces deux interprétations.
+
+## À Rajla et Madhud
+Après la prière de midi, il rassembla son armée et marcha en ordre jusqu'à [[place/rajla-najran|Rajla]], au pied de l'oued, dernier village de Najran. Il y trouva les Banu al-Harith, vaincus, gisant sous les palmiers avec leurs femmes et leurs montures. Ils avaient apporté leurs sacs et leurs montures pour emporter le butin de Najran. À sa vue, et lorsqu'il les vit, ils sautèrent sur leurs chameaux et leurs chevaux, enfourchèrent leurs montures et s'enfuirent. {cite:sira-hadi-ila-al-haqq p.172} Al-Hadi prit un corps parmi trente ou quarante cavaliers, ordonna à son armée de s'arrêter et les suivit, les menant un par un, jusqu'à ce qu'il les ait chassés du bas Najran et atteigne l'un de leurs points d'eau, [[place/madhud-najran|Madhud]]. Puis, ne souhaitant pas les tuer, il rebroussa chemin. {cite:sira-hadi-ila-al-haqq p.172} Leurs bagages, leurs femmes et leurs chameaux, menés par les femmes, vinrent à sa rencontre. Il les laissa passer et ordonna de ne pas les importuner, ce que personne ne fit. {cite:sira-hadi-ila-al-haqq p.172}
+
+## Thila
+Il se rendit ensuite à un de leurs forts, [[place/thila-najran|Thila]], entouré de réserves de vivres, et ordonna à l'armée de le piller, de le raser et de l'incendier. {cite:sira-hadi-ila-al-haqq p.172} {cite:sira-hadi-ila-al-haqq p.173} Les chiffres et les actions sont tels que rapportés par le narrateur. Le récit suivant est [[event/al-hadi-hangs-the-slain-of-banu-al-harith-and-lets-them-be-buried-286]].

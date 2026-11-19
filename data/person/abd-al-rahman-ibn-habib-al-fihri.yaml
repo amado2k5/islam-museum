@@ -1,9 +1,10 @@
 id: person/abd-al-rahman-ibn-habib-al-fihri
 class: person
-label: { ar: "عبد الرحمن بن حبيب الفهري", en: "Abd al-Rahman ibn Habib al-Fihri" }
+label: { ar: "عبد الرحمن بن حبيب الفهري", en: "Abd al-Rahman ibn Habib al-Fihri", fr: "Abd al-Rahman ibn Habib al-Fihri" }
 summary:
   ar: "عند البلاذري: عبد الرحمن بن حبيب بن أبي عبيدة بن عقبة بن نافع الفهري أغزاه عبد الله بن الحبحاب السوس وأرض السودان فظفر ظفراً لم ير أحد مثله قط وأصاب جاريتين من نساء تراجان."
   en: "In al-Baladhuri: Abd al-Rahman ibn Habib ibn Abi Ubayda ibn Uqba ibn Nafi' al-Fihri — Abdallah ibn al-Habhab sent him raiding to Sus and the Sudan lands where he triumphed as none had ever seen, taking two girls of the single-breasted Tarajan women."
+  fr: "Chez al-Baladhuri : Abd al-Rahman ibn Habib ibn Abi Ubayda ibn Uqba ibn Nafi' al-Fihri — Abdallah ibn al-Habhab l'envoya en razzia au Sous et dans les pays du Soudan, où il triompha comme nul ne l'avait jamais vu, prenant deux jeunes filles parmi les femmes Tarajan à un seul sein."
 wings: [people]
 gender: male
 died: { edtf: "755", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Ibn Khaldun; EI2 (governor of Ifriqiya Agrees with Wikidata Q4664589 (P570, a statement without a reference), item revision 2533222234, read on 13 November 2026.", sources: [source/wikidata] }
@@ -12,7 +13,7 @@ relations:
   - { type: participated_in, target: event/abd-al-rahman-ibn-habib-sus-raid, role: "المُغزى الغانم", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 324"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 324"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-22
 sources: [source/futuh-buldan-maarif-1407, source/wikidata]

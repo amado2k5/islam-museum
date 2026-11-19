@@ -16,7 +16,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ## عَجَب الذنب
 شیخ ریڑھ کی ہڈی کے نچلے حصے کی ایک ہڈی کا ذکر کرتے ہیں جسے عجب الذنب کہا جاتا ہے، اور اس سے قیامت کے دن جسم دوبارہ بنایا جائے گا، اور یہ گلتی نہیں (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:28:00}
 
-## شیخ عمر عبد الکافی کے تفسیری درس (قسط 3)
+## شیخ عمر عبد الکافی کے تفسیری درس ⁦(قسط 3)⁩
 
 شیخ کہتے ہیں کہ آدم تمام مخلوقات میں آخری تھے، اور اللہ نے ان سے پہلے جو کچھ پیدا کیا تھا وہ سب انسان کے لیے مسخر کر دیا {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:01:30}۔ وہ ان میں سیاروں، زمین، ستاروں، سمندروں، بحرِ محیط، نباتات اور جانوروں کو شمار کرتے ہیں {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:01:30}۔
 

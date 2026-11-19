@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0645~", hijri: "0025~", calendar: julian, precision: year, status: tradition, derived: true, note: "إثر فتح قاليقلا في خلافة عثمان (البلاذري ص 280–283). التحويل مشتق." }
+  start: { edtf: "0645~", hijri: "0025~", calendar: julian, precision: year, status: tradition, derived: true, note: "إثر فتح قاليقلا في خلافة عثمان ⁦(البلاذري ص 280–283)⁩. التحويل مشتق." }
 relations:
   - { type: part_of, target: event/conquest-of-qaliqala }
   - { type: occurred_at, target: place/armenia }
@@ -17,7 +17,7 @@ relations:
   - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 280–283"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 280–283"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-17
 sides:

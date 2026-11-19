@@ -15,9 +15,9 @@ themes: [converts-and-leavers]
 periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
-  - { role: convert, start: { edtf: "0631~" }, status: tradition, note: "أسلم الوفد كله بعد المفاخرة (ص212).", sources: [source/ibn-hisham-saqqa] }
+  - { role: convert, start: { edtf: "0631~" }, status: tradition, note: "أسلم الوفد كله بعد المفاخرة ⁦(ص212)⁩.", sources: [source/ibn-hisham-saqqa] }
 faith:
-  - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "ضمن وفد بني تميم الذين أسلموا (ابن هشام ص212).", sources: [source/ibn-hisham-saqqa] }
+  - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "ضمن وفد بني تميم الذين أسلموا ⁦(ابن هشام ص212)⁩.", sources: [source/ibn-hisham-saqqa] }
 died: { edtf: "685~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: traveled_to, target: place/medina, sources: [source/ibn-hisham-saqqa] }

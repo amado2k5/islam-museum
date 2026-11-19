@@ -1,11 +1,12 @@
 id: person/al-batruji-abu-jafar
 class: person
-label: { ar: "أبو جعفر البطروجي", en: "Abu Ja'far al-Batruji" }
+label: { ar: "أبو جعفر البطروجي", en: "Abu Ja'far al-Batruji", fr: "Abu Ja’far al-Batruji" }
 names:
   - { value: "أبو جعفر البطروجي أحمد بن عبد الرحمن الأندلسي", kind: full }
 summary:
   ar: "أبو جعفر البطروجي أحمد بن عبد الرحمن الأندلسي أحد الأئمة؛ روى عن أبي عبد الله الطلاعي وأبي علي الغساني وطبقتهما وكان إماماً عاقلاً بصيراً بمذهب مالك ودقائقه إماماً في الحديث ومعرفة رجاله وعلله وله مصنفات مشهورة ولم يكن في وقته بالأندلس مثله لكنه كان قليل العربية رث الهيئة خاملاً؛ توفي في المحرم سنة اثنتين وأربعين وخمسمائة {cite:shadharat-dhahab p. 610-611}."
   en: "Abu Ja'far al-Batruji Ahmad ibn Abd al-Rahman of al-Andalus, one of the imams; he transmitted from Abu Abdallah al-Tala'i, Abu Ali al-Ghassani and their peers — a wise imam perceptive in Malik's madhhab and its subtleties and in hadith with its narrators and defects, author of well-known works; none in al-Andalus matched him in his time though spare in Arabicity, shabby of dress and obscure; d. Muharram 542 {cite:shadharat-dhahab p. 610-611}."
+  fr: "Abu Ja’far al-Batruji Ahmad ibn Abd al-Rahman d’al-Andalus, l’un des imams ; il transmit d’Abu Abdallah al-Tala’i, d’Abu Ali al-Ghassani et de leurs pairs — imam sage connaissant l’école de Malik et ses subtilités, ainsi que le hadith, ses transmetteurs et ses défauts, auteur d’œuvres connues ; nul en al-Andalus ne l’égalait en son temps, malgré sa faible maîtrise de l’arabe, sa tenue négligée et son obscurité ; mort en muharram 542 H {cite:shadharat-dhahab p. 610-611}."
 gender: male
 wings: [people]
 roles: [jurist, scholar]
@@ -36,4 +37,4 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/shadharat-dhahab]
 relations:
-  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (الأندلسي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
+  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name ⁦(الأندلسي)⁩; denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

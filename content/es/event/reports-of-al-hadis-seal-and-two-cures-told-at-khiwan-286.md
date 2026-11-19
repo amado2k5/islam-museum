@@ -1,0 +1,18 @@
+---
+id: event/reports-of-al-hadis-seal-and-two-cures-told-at-khiwan-286
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/reports-of-al-hadis-seal-and-two-cures-told-at-khiwan-286.md}
+---
+## Visión general
+[[person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi|Ali ibn Muhammad]] tiene de [[person/muhammad-ibn-sulayman-al-kufi|Muhammad ibn Sulayman]], que es Abu Jafar, que se quedó en la mezquita orando después de que Abu al-Qasim se fue, "y había un grupo de Banu Rabi'a y de Hajur hablando y susurrando sobre aquellos que luchan contra al-Hadi ila al-Haqq". {cite:sira-hadi-ila-al-haqq p.139} Todo el pasaje son informes del narrador, atribuidos a personas que el libro no conoce por su nombre, y el margen del original lleva el encabezado "karamat de al-Hadi"; {cite:sira-hadi-ila-al-haqq p.139} el museo los da como atribuidos y no los confirma ni los niega. Siguen la dirección de [[event/abu-al-qasim-leads-the-friday-prayer-and-preaches-jihad-at-khiwan-286]].
+
+## El informe de Shu'ayb
+Muhammad ibn Sulayman oyó a uno de ellos decir: "Hace unos días estábamos en el distrito de Athafit; Shu'ayb de la gente de al-Subay' nos dijo, cuando habíamos hablado de al-Hadi", y este hombre de al-Subay' era "de Arhab, del clan de al-Da'am, y uno que lo había apoyado en la guerra contra el imán", que había tenido dudas sobre al-Hadi "porque no lo habían conocido ni se habían sentado con él ni habían oído sus palabras ni habían aprendido de ellos". {cite:sira-hadi-ila-al-haqq p.139} El hombre luego relató de Shu'ayb, [[person/shuayb-al-subayi|Shu'ayb al-Subay'i]], que cayó "muy enfermo de la garganta, de modo que no podía tragar nada de mi saliva, y estuve cerca de la muerte"; Cuando llegó una carta de al-Hadi a la gente de al-Subay', "tomé el sello que sellaba la carta y dije: ¡Oh Dios!, si el dueño de esto está en lo correcto, concédeme salud. Y me comí el sello; al poco tiempo se me abrió la garganta y comí y bebí". {cite:sira-hadi-ila-al-haqq p.139} Véase también [[group/al-subay-arhab|la gente de al-Subay']].
+
+## El informe de Ibrahim ibn Sulayman
+Un hombre de [[group/hajur-tribe-yemen|Hajur]], "sin falta en su religión ni en su escuela", llamado [[person/ibrahim-ibn-sulayman-al-hajuri|Ibrahim ibn Sulayman]], dijo: "¡Cuántas señales hemos visto desde que llegó al-Hadi! Yo mismo he visto algo semejante", y contó la historia de un hombre entre ellos cuyos intestinos "corrían día y noche"; buscó tratamiento sin éxito, y cuando llegó la carta de al-Hadi, tomó el sello que tenía, fue al hombre y le dijo: "Come esto, espero que te ayude", "y el hombre lo tomó y comió, y Dios le concedió la salud, y lo que solía encontrar desapareció de él". {cite:sira-hadi-ila-al-haqq p.139} {cite:sira-hadi-ila-al-haqq p.140}
+
+## Notas
+Ambos relatos tratan sobre comer el sello de una carta con la esperanza de curarse, y pertenecen a los relatos de prodigios de este libro zaidí; el museo no emite juicio alguno sobre ellos ni sobre el acto en sí. No se menciona el nombre del primer narrador. El libro dice que Shu'ayb y sus compañeros habían estado antes entre los opositores del imán y luego dieron testimonio de lo que vieron, que es la descripción del narrador. La fecha se indica con precisión de mes porque el relato se narra después del viernes siguiente a la mitad de Sha'ban, y se desconoce el momento exacto de las dos curaciones.

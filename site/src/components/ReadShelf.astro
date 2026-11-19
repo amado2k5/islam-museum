@@ -4,11 +4,12 @@
 // read the Explorers text and cross the bridge to the full page (the bridge sits on the reader page itself).
 import { nodes, SEGMENT, labelOf } from "../lib/graph";
 import { ui, type Lang } from "../lib/i18n";
+import { hasKidsRead } from "../lib/entity";
 interface Props { lang: Lang; band: "explorers" | "storytellers" }
 const { lang, band } = Astro.props;
 const T = ui(lang);
 const E = T.edu;
-const flagged = nodes.filter((n) => n.data.education?.flagged_for_kids && n.prose[lang]);
+const flagged = nodes.filter((n) => hasKidsRead(n, lang));
 const groups = new Map<string, typeof flagged>();
 for (const n of flagged) groups.set(n.class, [...(groups.get(n.class) ?? []), n]);
 const sorted = [...groups.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));

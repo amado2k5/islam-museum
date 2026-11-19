@@ -1,6 +1,6 @@
 id: person/abdelaziz-al-karaouri
 class: person
-label: { ar: "عبد العزيز الكرعاني", en: "Abdelaziz al-Karaouri", ur: "عبد العزیز الکرعانی" }
+label: { ar: "عبد العزيز الكرعاني", en: "Abdelaziz al-Karaouri", fr: "Abdelaziz al-Karaouri", ur: "عبد العزیز الکرعانی" }
 names:
   - { value: "عبد العزيز الكرعاني", kind: full }
   - { value: "Abdelaziz al-Karaouri", kind: full }
@@ -9,6 +9,7 @@ gender: male
 summary:
   ar: "إمام ومقرئ مغربي من الدار البيضاء ⁦(توفي 2025)⁩، أمّ في مساجد التوبة والتيسير ثم القاضي عياض بسيدي معروف الذي امتلأ بالمصلين في التراويح، وعمل إطارًا تربويًا منذ 1999، وخرّج كثيرًا من الحفاظ؛ ترك الغناء في الأفراح في أواخر التسعينيات وتفرّغ للقرآن."
   en: "Moroccan imam and reciter from Casablanca (died 2025) who led prayers at the al-Tawba and al-Taysir mosques and then at al-Qadi Iyad Mosque in Sidi Maarouf, packed for the tarawih; he worked in education from 1999 and taught many huffaz, having left singing at weddings in the late 1990s to devote himself to the Qur'an."
+  fr: "Imam et récitant marocain de Casablanca (mort en 2025) qui dirigea la prière aux mosquées al-Tawba et al-Taysir puis à la mosquée al-Qadi Iyad de Sidi Maârouf, comble lors des tarawih ; il travailla dans l'enseignement à partir de 1999 et forma de nombreux huffaz, après avoir quitté le chant aux mariages à la fin des années 1990 pour se consacrer au Coran."
   ur: "دار البیضاء کے مراکشی امام اور قاری ⁦(وفات 2025ء)⁩، جنھوں نے مسجد التوبہ اور التیسیر اور پھر سیدی معروف کی مسجد القاضی عیاض میں امامت کی، جو تراویح میں بھر جاتی؛ 1999ء سے تعلیم کے شعبے میں رہے اور بہت سے حفاظ تیار کیے؛ نوے کی دہائی کے آخر میں شادیوں میں گانا چھوڑ کر قرآن کے لیے وقف ہو گئے۔"
 wings: [people]
 regions: [maghreb]
@@ -43,4 +44,4 @@ occupations:
     note: "merge-map link from role 'teacher', Job Browser linking wave"
     sources: [source/wikipedia-abdelaziz-al-karaouri-ar, source/wikidata-abdelaziz-al-karaouri]
 relations:
-  - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (مغربي); denotes association, not proven residence.", sources: [source/wikipedia-abdelaziz-al-karaouri-ar, source/wikidata-abdelaziz-al-karaouri], confidence: low }
+  - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name ⁦(مغربي)⁩; denotes association, not proven residence.", sources: [source/wikipedia-abdelaziz-al-karaouri-ar, source/wikidata-abdelaziz-al-karaouri], confidence: low }

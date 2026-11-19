@@ -1,0 +1,33 @@
+---
+id: event/last-message-of-sad-ibn-al-rabi-at-uhud
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/last-message-of-sad-ibn-al-rabi-at-uhud.md}
+---
+## Résumé
+[[person/sad-ibn-al-rabi|Sad ibn al-Rabi]] était un Khazraji des Ansar, un chef à al-Aqaba, un vétéran de Badr, et il est mort en martyr à [[place/uhud|Uhud]]. {cite:ibn-hisham-sira scan p. 395} {cite:siyar-alam-nubala scan vol. 2 p. 316} Les livres rapportent son dernier message au Prophète et à son peuple, les paroles qu'il a adressées à l'homme venu le chercher parmi les morts, puis ce qu'il a laissé comme biens et deux filles, et le lieu de sa sépulture.
+
+## Avant le message
+Al-Dhahabi rapporte que le Prophète a uni Sa'd à [[person/abd-al-rahman-ibn-awf|Abd al-Rahman ibn Awf]], et que Sa'd lui a offert la moitié de ses biens et le droit de divorcer de l'une de ses deux épouses afin qu'Abd al-Rahman puisse l'épouser ; Abd al-Rahman a refusé et a prié pour lui. {cite:siyar-alam-nubala scan vol. 2 p. 316} Ibn Hisham rapporte d'après Abu Bakr al-Zubayri qu'un homme entra chez [[person/abu-bakr|Abu Bakr]] et trouva une petite fille, fille de Sa'd ibn al-Rabi, sur sa poitrine alors qu'il l'embrassait ; l'homme demanda qui elle était et il répondit : « La fille d'un homme meilleur que moi, Sa'd ibn al-Rabi, qui était l'un des chefs lors de la nuit d'al-Aqaba, qui a combattu à Badr et a été tué à Uhud. » {cite:ibn-hisham-sira scan p. 395}
+
+## Le message tel qu'Ibn Hisham le rapporte
+D'après le hadith rapporté par Ibn Ishaq, d'après Muhammad ibn Abd al-Rahman ibn Abi Sasaa, le Prophète (que la paix et les bénédictions soient sur lui) a dit : « Qui ira me voir pour savoir ce qu'il est advenu de Sa'd ibn al-Rabi, s'il est vivant ou mort ? » Un homme des Ansar répondit : « Moi. » Il parcourut les corps des morts jusqu'à le trouver blessé, mais encore en vie. {cite:siyar-alam-nubala scan vol. 2 p. 316} L'homme lui dit que le Messager de Dieu lui avait ordonné de vérifier s'il était vivant ou mort. Il répondit : « Je suis mort. Transmets donc mes salutations au Messager de Dieu et dis-lui que Sa'd ibn al-Rabi te dit : Que Dieu te récompense pour nous de la meilleure façon qu'Il ait jamais récompensée un prophète pour Son peuple. » {cite:ibn-hisham-sira scan p. 395} Il transmit également ses salutations à son peuple, affirmant qu'ils n'auraient aucune excuse devant Dieu si un malheur atteignait leur prophète alors qu'un œil était encore ouvert. {cite:ibn-hisham-sira scan p. 395} L'homme dit : Je ne suis pas parti avant sa mort, puis je suis allé trouver le Messager de Dieu et je lui ai rapporté l'histoire. {cite:ibn-hisham-sira scan p. 395}
+
+## D'autres rapports, avec le messager nommé
+Ibn Abd al-Barr rapporte que Malik a transmis ce récit sans nommer l'homme, et que Rubayh ibn Abd al-Rahman ibn Abi Said al-Khudri, tenant son père, qui tenait son grand-père, a dit que cet homme était [[person/ubayy-ibn-kab|Ubayy ibn Kab]], et que le Prophète a déclaré ce jour-là avoir vu des pointes de lance pointées vers Sa'd. {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 280} Selon Malik, Sa'd a dit avoir reçu douze coups de lance et que ses parties vitales avaient été transpercées. {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 280} D'après la version d'Ubayy, Sa'd a dit : « Par Dieu, par Dieu, souviens-toi de ce que tu as promis au Messager de Dieu la nuit d'al-Aqaba ; tu n'auras aucune excuse devant Dieu si un mal atteint ton prophète alors qu'un de tes yeux cligne encore. » {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 280} Ubayy a dit : « Je ne suis pas parti avant sa mort ; j'en ai informé le Prophète, qui a dit qu'il avait été sincère envers Dieu et Son Messager, de son vivant comme après sa mort. » {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 280}
+
+Al-Dhahabi rapporte d'après Kharija ibn Zayd, qui tient son père [[person/zayd-ibn-thabit|Zayd ibn Thabit]], que le Prophète l'envoya le jour d'Uhud à la recherche de Sa'd, en lui disant : « Si tu le vois, salue-le de ma part et demande-lui comment il va. » Il le trouva à son dernier souffle, portant soixante-dix blessures. Sa'd répondit : « Que la paix soit sur le Messager de Dieu et sur toi ; dis-lui que je sens le parfum du Paradis, et dis à mon peuple, les Ansar, qu'ils n'auront aucune excuse devant Dieu si le Messager de Dieu est touché tant qu'un seul de leurs cils bouge encore. » Puis son âme s'éteignit. {cite:siyar-alam-nubala scan vol. 2 p. 317}
+
+## Ce qu'il a laissé
+Al-Dhahabi rapporte de Jabir que l'épouse de Sa'd vint avec leurs deux filles et expliqua que leur père était mort en martyr avec le Prophète à Uhud, que leur oncle les avait dépossédées de leurs biens et qu'elles ne pouvaient se marier sans héritage. Le Prophète déclara que Dieu trancherait, les versets relatifs à l'héritage furent révélés, et il fit venir leur oncle en lui ordonnant de donner aux deux filles les deux tiers de leurs biens, à leur mère un huitième, et de conserver le reste. {cite:siyar-alam-nubala scan vol. 2 p. 317} Al-Isti'ab rapporte qu'il laissa deux filles et que le Prophète leur donna les deux tiers, ce qui constitua sa première interprétation du verset sur l'héritage. {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 280}
+
+## Enterrement
+Ibn Abd al-Barr rapporte d'après Ibn Ishaq que Sad ibn al-Rabi et Kharija ibn Zayd ibn Abi Zuhayr furent enterrés dans une même tombe à Uhud. {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 280} Dans les pages que j'ai lues, je n'ai trouvé aucun récit de ses ablutions ni de la prière sur sa tombe, ni aucune description de celle-ci.
+
+## Là où les rapports divergent
+Les récits divergent quant à l'identité du messager : il est anonyme chez Ibn Hisham et dans la version de Malik, Ubayy ibn Kab selon Ibn Abd al-Barr (d'après al-Khudri), et Zayd ibn Thabit selon Kharija ibn Zayd. Ils diffèrent également dans la formulation du récit de Sa'd : douze coups de poignard selon certains, soixante-dix blessures selon d'autres, et le parfum du Paradis selon un autre. {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 280} {cite:siyar-alam-nubala scan vol. 2 p. 317} Ils s'accordent cependant sur son message à son peuple : nul n'est exempt de tout préjudice si le Prophète est atteint.
+
+## Sources et documentation
+Ce document s'appuie sur la Sira d'Ibn Hisham, le Siyar Alam al-Nubala d'al-Dhahabi et l'Isti'ab d'Ibn Abd al-Barr. Les numéros de page indiqués correspondent aux pages numérisées.

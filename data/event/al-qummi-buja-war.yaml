@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/abbasid-early]
 regions: [egypt-nile, east-africa]
 date:
-  start: { hijri: "0241", precision: year, status: tradition, note: "سنة 241هـ (البلاذري ص 335؛ رواية المقريزي في الحاشية)" }
+  start: { hijri: "0241", precision: year, status: tradition, note: "سنة 241هـ ⁦(البلاذري ص 335؛ رواية المقريزي في الحاشية)⁩" }
 relations:
   - { type: occurred_at, target: place/bilad-al-buja }
   - { type: occurred_at, target: place/aydhab, sources: [source/futuh-buldan-maarif-1407] }
@@ -19,7 +19,7 @@ relations:
   - { type: had_participant, target: group/buja, role: "الخصم المصالح", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 333–335"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 333–335"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-25
 sides:

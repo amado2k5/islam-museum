@@ -15,11 +15,11 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 میوزیم کے مواد میں اس مقام سے متعلق یہ چیزیں شامل ہیں: واقعات 5، یہاں وفات پانے والے 8۔
 
 ### وہ واقعات جو یہاں پیش آئے
-- [[event/battle-of-mutah|غزوۂ موتہ]] (629ء)
-- [[event/mutah-khalid-command-withdrawal|خالد بن ولید کی قیادت اور لشکر کی واپسی]] (629ء)
-- [[event/mutah-martyrdom-of-ibn-rawaha|عبداللہ بن رواحہ کی شہادت، ان کے تردد کے بعد]] (629ء)
-- [[event/mutah-martyrdom-of-jafar|جعفر بن ابی طالب کی شہادت اور ان کا گھوڑا کاٹا جانا]] (629ء)
-- [[event/mutah-martyrdom-of-zayd|زید بن حارثہ کی بطور پہلے سالار شہادت]] (629ء)
+- [[event/battle-of-mutah|غزوۂ موتہ]] ⁦(629ء)⁩
+- [[event/mutah-khalid-command-withdrawal|خالد بن ولید کی قیادت اور لشکر کی واپسی]] ⁦(629ء)⁩
+- [[event/mutah-martyrdom-of-ibn-rawaha|عبداللہ بن رواحہ کی شہادت، ان کے تردد کے بعد]] ⁦(629ء)⁩
+- [[event/mutah-martyrdom-of-jafar|جعفر بن ابی طالب کی شہادت اور ان کا گھوڑا کاٹا جانا]] ⁦(629ء)⁩
+- [[event/mutah-martyrdom-of-zayd|زید بن حارثہ کی بطور پہلے سالار شہادت]] ⁦(629ء)⁩
 
 ### یہاں وفات پانے والے
 - [[person/jafar-ibn-abi-talib|جعفر بن ابی طالب]]

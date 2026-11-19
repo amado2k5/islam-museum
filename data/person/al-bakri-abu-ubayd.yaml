@@ -1,6 +1,6 @@
 id: person/al-bakri-abu-ubayd
 class: person
-label: { ar: "البكري أبو عبيد عبد الله بن عبد العزيز", en: "Al-Bakri, Abu Ubayd Abd Allah ibn Abd al-Aziz" }
+label: { ar: "البكري أبو عبيد عبد الله بن عبد العزيز", en: "Al-Bakri, Abu Ubayd Abd Allah ibn Abd al-Aziz", fr: "Al-Bakri, Abu Ubayd Abd Allah ibn Abd al-Aziz" }
 names:
   - { kind: full, lang: ar, value: "عبد الله بن عبد العزيز بن محمد بن أيوب البكري الأندلسي" }
 gender: male
@@ -18,6 +18,7 @@ died: { edtf: "1094", hijri: "0487", calendar: julian, precision: year, status: 
 summary:
   ar: "موسوعي من أهل الأندلس، صاحب كتاب «المسالك والممالك» في الجغرافيا والتاريخ."
   en: "An encyclopaedic scholar of al-Andalus, author of al-Masalik wa-l-Mamalik on geography and history."
+  fr: "Savant encyclopédique d’al-Andalus, auteur d’al-Masalik wa-l-Mamalik sur la géographie et l’histoire."
 wings: [people]
 themes: [geography-and-cartography, history-writing-and-social-thought]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -31,11 +32,11 @@ status:
   completeness: 3
 provenance:
   layer: own-research
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص725; source/mujam-ma-istaajam-bakri scan pp. 7-8, 13"
+  source: "موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج3 ص725; source/mujam-ma-istaajam-bakri scan pp. 7-8, 13"
   generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker J)"
   model: "SWE-2 Medium; claude-opus-5-5"
   run: "prose-fill-persons-batch50; ocr-harvest-2026-11-04"
   extensions:
     - { generated_by: "devin-drafter-w2-16", model: "devin", run: "inventions-w2-16", source: "Added a documented Sunni faith block ⁦(edition title page 'al-faqih al-hafiz al-adib al-wazir', TDV Cordoban ijaza record⁩ and the inventor invention tie after reading the Wüstenfeld 1876 edition OCR scan pp. 13-18 and 456-458 and the TDV EBÛ UBEYD el-BEKRÎ and COĞRAFYA articles on 2026-11-15; earlier provenance, dates and relations preserved." }
 relations:
-  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (الأندلسي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2, source/mujam-ma-istaajam-bakri], confidence: low }
+  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name ⁦(الأندلسي)⁩; denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2, source/mujam-ma-istaajam-bakri], confidence: low }

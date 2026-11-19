@@ -2,11 +2,12 @@ id: event/battle-of-badr
 class: event
 kind: battle
 tags: [jinn-devils-browser, jd-angels]
-label: { en: "The Battle of Badr", ar: "غزوة بدر الكبرى" }
+label: { en: "The Battle of Badr", ar: "غزوة بدر الكبرى", fr: "La bataille de Badr" }
 summary:
   ar: "أول معركة كبرى فاصلة بين مسلمي المدينة وقريش مكة، دارت عند آبار بدر يوم الجمعة 17 رمضان 2هـ؛ بدأت مطاردةً لعير أبي سفيان وانتهت بهزيمة جيش مكة. وتضع دائرة المعارف الإسلامية المعركة في 17 أو 19 أو 21 رمضان، وتقدّر القوة الإسلامية بنحو ثلاثمائة والمكية بنحو 950، وترى أنها رفعت مكانة محمد في المدينة."
   en: "The first major battle between the Muslims of Medina and the Quraysh of Mecca, fought at the wells of Badr on 17 Ramadan 2 AH. It began as a pursuit of Abu Sufyan's caravan and ended in the defeat of the Meccan army. The Encyclopaedia of Islam gives the date as 17, 19 or 21 Ramadan, estimates the Muslim force at about 300 and the Meccan at about 950, and judges that the victory strengthened Muhammad's position in Medina."
   ur: "مدینہ کے مسلمانوں اور مکہ کے قریش کے درمیان پہلی بڑی جنگ، جو 2ھ کی 17 رمضان کو بدر کے کنووں پر ہوئی۔ یہ ابو سفیان کے قافلے کے تعاقب سے شروع ہوئی اور مکی فوج کی شکست پر ختم ہوئی۔ دائرۃ المعارف الاسلامیہ تاریخ 17، 19 یا 21 رمضان بتاتا ہے، مسلم فوج کا اندازہ تقریباً تین سو اور مکی کا تقریباً 950 لگاتا ہے، اور کہتا ہے کہ فتح نے مدینہ میں محمد کی حیثیت مضبوط کی۔"
+  fr: "La première grande bataille entre les musulmans de Médine et les Quraysh de La Mecque, livrée aux puits de Badr le 17 Ramadan 2 H. Elle commença comme la poursuite de la caravane d'Abu Sufyan et s'acheva par la défaite de l'armée mecquoise. L'Encyclopédie de l'Islam donne pour date le 17, le 19 ou le 21 Ramadan, estime la force musulmane à environ 300 hommes et la mecquoise à environ 950, et juge que la victoire renforça la position de Muhammad à Médine."
 wings: [time]
 themes: [battles]
 periods: [period/prophetic-era]
@@ -21,7 +22,7 @@ significance:
 casualties:
   value: 154
   status: tradition
-  note: "المسلمون: 14 شهيداً (ستة من المهاجرين وثمانية من الأنصار)؛ المشركون: سبعون قتيلاً وسبعون أسيراً، عامتهم القادة والزعماء (الرحيق ص224)"
+  note: "المسلمون: 14 شهيداً ⁦(ستة من المهاجرين وثمانية من الأنصار)⁩؛ المشركون: سبعون قتيلاً وسبعون أسيراً، عامتهم القادة والزعماء ⁦(الرحيق ص224)⁩"
   sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 relations:
   - { type: occurred_at, target: place/badr }
@@ -38,14 +39,14 @@ relations:
   - { type: had_participant, target: person/utba-ibn-rabia, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/umayya-ibn-khalaf, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/al-nadr-ibn-al-harith, role: "حامل لواء المشركين", sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, note: "أُخرج كرهاً في جيش قريش ونُهي عن قتله (الرحيق ص222)", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, note: "أُخرج كرهاً في جيش قريش ونُهي عن قتله ⁦(الرحيق ص222)⁩", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: had_participant, target: person/bilal-ibn-rabah, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/abdullah-ibn-masud, role: "احتزّ رأس أبي جهل", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: had_participant, target: person/muadh-ibn-amr-ibn-al-jamuh, role: "ضرب أبا جهل", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: had_participant, target: person/muawwidh-ibn-afra, role: "ضرب أبا جهل", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: had_participant, target: person/hubab-ibn-al-mundhir, role: "صاحب مشورة الماء", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/ubayda-ibn-al-harith, role: "أحد المبارزين؛ استشهد بالصفراء", sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/ikrima-ibn-abi-jahl, note: "قطع يد معاذ بن عمرو (الرحيق ص221)", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ikrima-ibn-abi-jahl, note: "قطع يد معاذ بن عمرو ⁦(الرحيق ص221)⁩", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/hijra }
   - { type: caused, target: event/badr-prisoners, note: "أعقبتها قضية الأسارى والفداء" }
@@ -56,7 +57,7 @@ sides:
     strength:
       range: [313, 317]
       status: debated
-      note: "313 أو 314 أو 317 رجلاً؛ 82–86 من المهاجرين و61 من الأوس و170 من الخزرج؛ فرسان وسبعون بعيراً (الرحيق ص204–205)"
+      note: "313 أو 314 أو 317 رجلاً؛ 82–86 من المهاجرين و61 من الأوس و170 من الخزرج؛ فرسان وسبعون بعيراً ⁦(الرحيق ص204–205)⁩"
       sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
   - label: { en: "Quraysh of Mecca", ar: "جيش قريش" }
     participants: [group/quraysh]
@@ -64,7 +65,7 @@ sides:
     strength:
       value: 1000
       status: tradition
-      note: "نحو 1300 عند الخروج بمائة فرس وستمائة درع؛ نقصوا إلى نحو ألف برجوع بني زهرة (~300) مع الأخنس بن شريق؛ تقدير النبي من الإبل المنحورة: بين التسعمائة والألف (الرحيق ص206–208، ص211)"
+      note: "نحو 1300 عند الخروج بمائة فرس وستمائة درع؛ نقصوا إلى نحو ألف برجوع بني زهرة (~300) مع الأخنس بن شريق؛ تقدير النبي من الإبل المنحورة: بين التسعمائة والألف ⁦(الرحيق ص206–208، ص211)⁩"
       sources: [source/mubarakpuri-raheeq]
 map:
   kind: battle

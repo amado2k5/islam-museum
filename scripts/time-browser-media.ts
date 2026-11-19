@@ -7,6 +7,7 @@
 import { existsSync, readFileSync, writeFileSync, mkdirSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
+import { readBigJson } from "./lib/graph-file.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const arg = (name: string, dflt: string) => {
@@ -32,7 +33,7 @@ if (!existsSync(GRAPH)) {
   console.error(".cache/graph.json missing — run `npm run graph` first.");
   process.exit(1);
 }
-const graph: Compiled = JSON.parse(readFileSync(GRAPH, "utf8"));
+const graph: Compiled = readBigJson(GRAPH);
 const byId = new Map(graph.nodes.map((n) => [n.id, n]));
 
 // Record types the Time Browser shows (DESIGN.md §1). "theme" is not a data class; themes are

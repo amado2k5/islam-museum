@@ -6,7 +6,7 @@ translators: []
 ---
 
 ## خلاصہ
-«دی میسج» (الرسالہ) اسلام کے آغاز پر ایک رزمیہ فلم ہے جس کی ہدایت اور پیشکش [[person/moustapha-akkad|مصطفیٰ العقاد]] نے کی، اور جو الگ الگ کاسٹ کے ساتھ عربی اور انگریزی کے دو نسخوں میں فلمائی گئی۔ {cite:wikipedia-the-message-1976-en} یہ 29 جولائی 1976 کو لندن میں «محمد، رسول اللہ» کے نام سے پہلی بار دکھائی گئی، پھر اس کا نام «دی میسج» رکھا گیا، اور 9 مارچ 1977 کو نیویارک میں اس کی نمائش شروع ہوئی۔ {cite:wikipedia-the-message-1976-en} فلم میں [[person/muhammad|نبی]] نہ دکھائی دیتے ہیں نہ ان کی آواز سنائی دیتی ہے، اور موریس جار کی موسیقی [[award/academy-awards|آسکر]] کے لیے نامزد ہوئی۔ {cite:wikipedia-the-message-1976-en}
+«دی میسج» ⁦(الرسالہ)⁩ اسلام کے آغاز پر ایک رزمیہ فلم ہے جس کی ہدایت اور پیشکش [[person/moustapha-akkad|مصطفیٰ العقاد]] نے کی، اور جو الگ الگ کاسٹ کے ساتھ عربی اور انگریزی کے دو نسخوں میں فلمائی گئی۔ {cite:wikipedia-the-message-1976-en} یہ 29 جولائی 1976 کو لندن میں «محمد، رسول اللہ» کے نام سے پہلی بار دکھائی گئی، پھر اس کا نام «دی میسج» رکھا گیا، اور 9 مارچ 1977 کو نیویارک میں اس کی نمائش شروع ہوئی۔ {cite:wikipedia-the-message-1976-en} فلم میں [[person/muhammad|نبی]] نہ دکھائی دیتے ہیں نہ ان کی آواز سنائی دیتی ہے، اور موریس جار کی موسیقی [[award/academy-awards|آسکر]] کے لیے نامزد ہوئی۔ {cite:wikipedia-the-message-1976-en}
 
 ## یہ کیا ہے
 فلم [[place/mecca|مکہ]] میں پہلی وحی، ابتدائی مسلمانوں پر ظلم اور حبشہ کی ہجرت سے لے کر [[event/hijra|ہجرتِ مدینہ]]، [[event/battle-of-badr|بدر]]، [[event/battle-of-uhud|احد]]، صلح حدیبیہ، [[event/conquest-of-mecca|فتحِ مکہ]] اور [[event/farewell-sermon-at-arafat|خطبۂ حجۃ الوداع]] تک کی داستان بیان کرتی ہے۔ {cite:wikipedia-the-message-1976-en} {cite:wikipedia-the-message-1976-ar} کہانی کا محور [[person/hamza|حمزہ بن عبد المطلب]] ہیں۔ {cite:wikipedia-the-message-1976-ar} انگریزی نسخہ 178 منٹ اور عربی 207 منٹ کا ہے۔ {cite:wikipedia-the-message-1976-en} انگریزی میں حمزہ کا کردار انتھونی کوئن نے اور عربی میں عبداللہ غیث نے ادا کیا؛ ہند کا کردار ایرین پاپاس اور منیٰ واصف نے۔ {cite:wikipedia-the-message-1976-en} {cite:wikipedia-the-message-1976-ar}
@@ -28,5 +28,5 @@ translators: []
 
 ## حوالہ جات
 - انگریزی ویکیپیڈیا، «The Message (1976 film)»، نظرِ ثانی 1383107512۔ {cite:wikipedia-the-message-1976-en}
-- عربی ویکیپیڈیا، «الرسالة (فلم)»، نظرِ ثانی 76830426۔ {cite:wikipedia-the-message-1976-ar}
+- عربی ویکیپیڈیا، «الرسالة ⁦(فلم)⁩»، نظرِ ثانی 76830426۔ {cite:wikipedia-the-message-1976-ar}
 - NPR، 2016؛ The Atlantic، 2012؛ The New York Times، 1977؛ The Guardian، 2008۔ {cite:npr-message-2016} {cite:atlantic-message-2012} {cite:nyt-message-review-1977} {cite:guardian-message-remake-2008}

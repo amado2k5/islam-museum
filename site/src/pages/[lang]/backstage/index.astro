@@ -6,7 +6,7 @@ import { NUMBERS, numbersFor } from "../../../lib/numbers";
 // Plain prose from i18n, no scripts. Guest-book append protocol: docs/agents/backstage.md.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PageHeader from "../../../components/PageHeader.astro";
-import { ui, fmt, LANGS, NUM_LOCALE, type Lang } from "../../../lib/i18n";
+import { ui, fmt, LANGS, NUM_LOCALE, type Lang, ALL_LANGS } from "../../../lib/i18n";
 import { REPO, graph, nodes, realNodes } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
 import { pathways } from "../../../lib/pathways";
@@ -22,7 +22,7 @@ const B = T.backstage;
 const NB = numbersFor(lang);
 const entries = num(realNodes.length, lang);
 // Entity pages are nodes × languages; the deploy stamp's exact HTML count replaces this at view time.
-const pagesEstimate = num(nodes.length * LANGS.length, lang);
+const pagesEstimate = num(nodes.length * ALL_LANGS.length, lang);
 const pagesCount = pathways().length;
 const buildDate = graph.generated ? new Intl.DateTimeFormat(NUM_LOCALE[lang], { dateStyle: "long", timeZone: "UTC" }).format(new Date(graph.generated)) : "";
 const sections: { id: string; title: string; body: string[] }[] = [

@@ -36,6 +36,6 @@ translators: []
 دستیاب ماخذ میں ان پر یا ان کے کام پر کوئی تنقید درج نہیں۔ {cite:newsroom-wafaa-abdel-salam}
 
 ## حوالہ جات
-- «وزارة الأوقاف تنظم دورة تدريبية للواعظات حول قضية الغارمين في بني سويف» (نیوز روم، 20 اگست 2025)۔ {cite:newsroom-wafaa-abdel-salam}
-- «واعظات الأوقاف» (عربیہ نیوز 24؛ 26 اکتوبر 2026 کو دیکھا گیا)۔ {cite:arabkhabar-wafaa-abdel-salam}
-- «drwafaaabdelsalam — TikTok» (ان کا رسمی حساب؛ 26 اکتوبر 2026 کو دیکھا گیا)۔ {cite:tiktok-wafaa-abdel-salam}
+- «وزارة الأوقاف تنظم دورة تدريبية للواعظات حول قضية الغارمين في بني سويف» ⁦(نیوز روم، 20 اگست 2025)⁩۔ {cite:newsroom-wafaa-abdel-salam}
+- «واعظات الأوقاف» ⁦(عربیہ نیوز 24؛ 26 اکتوبر 2026 کو دیکھا گیا)⁩۔ {cite:arabkhabar-wafaa-abdel-salam}
+- «drwafaaabdelsalam — TikTok» ⁦(ان کا رسمی حساب؛ 26 اکتوبر 2026 کو دیکھا گیا)⁩۔ {cite:tiktok-wafaa-abdel-salam}

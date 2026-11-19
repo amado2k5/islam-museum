@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/abbasid-early]
 regions: [anatolia-balkans]
 date:
-  start: { edtf: "0824~", calendar: julian, precision: year, status: tradition, derived: true, note: "تتويج الفتح في خلافة المأمون (البلاذري ص 330). التحويل مشتق." }
+  start: { edtf: "0824~", calendar: julian, precision: year, status: tradition, derived: true, note: "تتويج الفتح في خلافة المأمون ⁦(البلاذري ص 330)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/iqritish }
   - { type: had_participant, target: person/janada-ibn-abi-umayya, role: "أول الغازين", sources: [source/futuh-buldan-maarif-1407] }
@@ -19,7 +19,7 @@ relations:
   - { type: during_reign, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 330"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 330"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-24
 sides:

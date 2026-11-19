@@ -3,11 +3,13 @@ class: person
 label:
   ar: "عبد السلام اللقاني"
   en: "Abd al-Salam al-Laqani"
+  fr: "Abd al-Salam al-Laqani"
 roles: [scholar, writer]
 gender: male
 summary:
   ar: "عبد السلام بن إبراهيم اللقاني المصري، شيخ المالكية في وقته بالقاهرة وصاحب شروح، توفي سنة ١٠٧٨هـ بحسب خلاصة الأثر."
   en: "Abd al-Salam ibn Ibrahim al-Laqani of Egypt, the shaykh of the Malikis in his time at Cairo and an author of commentaries; he died in 1078 AH according to Khulasat al-Athar."
+  fr: "Abd al-Salam ibn Ibrahim al-Laqani d'Égypte, le cheikh des malikites de son temps au Caire et auteur de commentaires ; il mourut en 1078 H selon la Khulasat al-Athar."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
@@ -26,4 +28,4 @@ status:
   completeness: 3
 died: { edtf: "1668", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar (al-Muhibbi: d. 1078 AH) Confirmed on 13 November 2026 against Wikidata Q60565006 (P570, a statement with a reference), item revision 2533230257.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name ⁦(المصري)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

@@ -1,15 +1,16 @@
 id: person/abdallah-ibn-wahb-al-misri
 class: person
 tags: [madhahib-browser, mh-salaf, mh-maliki]
-label: { ar: "عبد الله بن وهب المصري", en: "Abdallah Ibn Wahb Al Misri" }
+label: { ar: "عبد الله بن وهب المصري", en: "Abdallah Ibn Wahb Al Misri", fr: "Abdallah Ibn Wahb Al Misri" }
 summary:
   ar: "عبد الله بن وهب روى عن مالك كتبه وسننه وموطأه وكان صالحا ثقة {cite:fihrist-ibn-al-nadim p. 281}."
   en: "Ibn Wahb — the Egyptian transmitter of the Muwatta {cite:fihrist-ibn-al-nadim}"
+  fr: "Ibn Wahb — le transmetteur égyptien du Muwatta {cite:fihrist-ibn-al-nadim}"
 wings: [people]
 external_ids: { wikidata: "Q3147461" }
 provenance:
   layer: own-research
-  source: "الفهرست لابن النديم (ط مكتبة الخانجي/الاسكندرية)، قراءة آبل فيجن"
+  source: "الفهرست لابن النديم ⁦(ط مكتبة الخانجي/الاسكندرية)⁩، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-fihrist-batch
 sources: [source/fihrist-ibn-al-nadim]
@@ -17,4 +18,4 @@ status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 born: { edtf: "743", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat al-A'yan) Confirmed on 13 November 2026 against Wikidata Q3147461 (P569, a statement with a reference), item revision 2568714521.", sources: [source/wikidata] }
 died: { edtf: "812", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat al-A'yan) Confirmed on 13 November 2026 against Wikidata Q3147461 (P570, a statement with a reference), item revision 2568714521.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name ⁦(المصري)⁩; denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

@@ -1,0 +1,12 @@
+---
+id: event/al-yafur-and-al-tarif-camp-at-adudan-and-fight-at-the-maydan-of-sanaa-288
+lang: es
+source_lang: en
+translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
+provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-es-2026-11-18, source: content/en/event/al-yafur-and-al-tarif-camp-at-adudan-and-fight-at-the-maydan-of-sanaa-288.md}
+---
+## Visión general
+Antes de comenzar el relato, el copista añade un encabezado: la llegada de al-Rabi' ibn al-Ruwayya a al-Hadi con ayuda de Ja'far ibn Ibrahim al-Ja'fari {cite:sira-hadi-ila-al-haqq p.233}; nada de lo que se cuenta en las tres páginas siguientes al encabezado lo confirma, por lo que el museo lo registra únicamente como un encabezado. El narrador continúa diciendo: [[group/banu-yafur|Al Ya'fur]] y [[person/abu-al-ghasham-ibn-tarif|Abu al-Ghasham ibn Tarif]] partieron de Shibam con sus ejércitos y acamparon en Adudan, donde permanecieron algunos días {cite:sira-hadi-ila-al-haqq p.233}. El martes, transcurridos catorce días de Shawwal, los hombres descendieron con sus ejércitos hasta el campo de parada de [[place/sanaa|Sana'a]]; [[person/al-hadi-yahya-al-rassi|al-Hadi]] salió con sus ejércitos y se situó frente a ellos hasta la hora de la oración, desmontó y oró, y regresó a su posición; entonces, los hombres cargaron contra su flanco izquierdo con sus caballos y algunos de sus compañeros resultaron heridos {cite:sira-hadi-ila-al-haqq p.233}. Al-Hadi ordenó entonces que la caballería cargara contra los hombres, dispersándolos y obligándolos a regresar a su campamento; regresó a Sana'a, y refuerzos de al-Hakami, con caballería e infantería, llegaron a Banu Ya'fur y Al Tarif {cite:sira-hadi-ila-al-haqq p.233}.
+
+## Detalles
+El museo interpreta el nombre del lugar Adudan según lo que aparece impreso en la página; la lectura vacila entre ‘ayn y kaf en lugares cercanos, y el museo no determina la ubicación exacta. Un martes, catorce días después del inicio de Shawwal, no coincide con el calendario tabular, por lo que solo se indica el mes. La palabra al-Hakami podría ser un nombre o un título, pero el texto no lo aclara. El relato continúa con [[event/fight-at-nuqm-in-dhu-al-qada-and-the-hakamis-commander-is-killed-288]].

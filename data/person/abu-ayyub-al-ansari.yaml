@@ -6,7 +6,7 @@ education:
     ur: "ابو ایوب انصاری، بنو نجار سے، مہاجر آنے پر نبی کی میزبانی کرنے والے پہلے شخص تھے اور ان کے اپنا حجرہ بننے تک انہیں اپنے گھر رکھا۔"
     sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
 class: person
-label: { en: "Abu Ayyub al-Ansari", ar: "أبو أيوب الأنصاري" , ur: "ابو ایوب انصاری"}
+label: { en: "Abu Ayyub al-Ansari", ar: "أبو أيوب الأنصاري" , ur: "ابو ایوب انصاری", fr: "Abu Ayyub al-Ansari" }
 names:
   - { kind: full, lang: ar, value: "خالد بن زيد بن كليب النجاري، أبو أيوب الأنصاري" }
 gender: male
@@ -17,6 +17,7 @@ summary:
   en: "The Najjari Ansari who took the Prophet's baggage into his house when the she-camel knelt among Banu al-Najjar — 'a man stays with his baggage' — becoming the Prophet's host in Medina until the mosque and rooms were built. In al-Suhayli's report preserved by al-Samhudi, the house Tubba' built for the Prophet at his Yathrib conversion passed through heirs until it reached Abu Ayyub, descendant of the scholar Tubba' had lodged — so the Prophet's lodging closed that chain — and it is said, though the report is strange, that Tubba's gold-sealed letter was with Abu Ayyub when the Prophet arrived and he handed it over {cite:samhudi-wafa-al-wafa p. 200-201}."
   ar: "أنصاري نجاري بادر إلى رحل النبي فأدخله بيته حين بركت الناقة في بني النجار، وكان النبي يقول «المرء مع رحله»؛ فنزل عنده حتى بُني المسجد وحجراته، وصار مضيفه في المدينة. وعند السمهودي عن السهيلي أن الدار التي بنى تبّع للنبي حين أسلم بيثرب تداولها الملاك حتى صارت لأبي أيوب من ولد العالم الذي بنى له تبّع — فكان نزول النبي عنده إتماماً لذلك الأثر — ويُقال إن كتاب تبّع مختوماً بالذهب كان عند أبي أيوب حين نزل عليه النبي فدفعه إليه، وهو غريب {cite:samhudi-wafa-al-wafa p. 200-201}. وعند المسعودي علا يوم النهروان عبد الله بن وهب الراسبي فضربه على كتفه فأبان يده وقال بؤ بها إلى النار يا مارق، وشركه صعصعة بن صوحان في قتله فاحتزا رأسه وأتيا به علياً فقطب وقال شاه هذا الوجه حتى خيل إلينا أنه يبكي ثم قال قد كان أخو راسب حافظاً لكتاب الله تاركاً لحدود الله {cite:muruj-al-dhahab p. 47-48}"
   ur: "بنو نجار کے انصاری صحابی؛ ہجرت کے بعد نبی کا سامان اپنے گھر لے گئے اور مسجد اور حجروں کی تعمیر تک مدینہ میں ان کے میزبان رہے۔ {cite:mubarakpuri-raheeq}"
+  fr: "L'Ansari des Banu al-Najjar qui fit entrer chez lui les bagages du Prophète lorsque la chamelle s'agenouilla parmi les Banu al-Najjar — « l'homme est avec ses bagages » —, devenant l'hôte du Prophète à Médine jusqu'à la construction de la mosquée et des chambres. Selon le récit d'al-Suhayli conservé par al-Samhudi, la maison que Tubba' bâtit pour le Prophète lors de sa conversion à Yathrib passa d'héritier en héritier jusqu'à Abu Ayyub, descendant du savant que Tubba' avait logé — si bien que l'hébergement du Prophète referma cette chaîne —, et l'on dit, bien que le récit soit étrange, que la lettre de Tubba' scellée d'or était chez Abu Ayyub à l'arrivée du Prophète et qu'il la lui remit {cite:samhudi-wafa-al-wafa p. 200-201}."
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -27,7 +28,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "من أهل بيعة العقبة على المشهور؛ يسجَّل في الإطار السني للمتحف." }
 relations:
-  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab, source/samhudi-wafa-al-wafa, source/sallabi-ali-vol1, source/encyclopaedia-of-islam-2], confidence: low }
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name ⁦(الأنصاري)⁩; denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab, source/samhudi-wafa-al-wafa, source/sallabi-ali-vol1, source/encyclopaedia-of-islam-2], confidence: low }
   - { type: member_of, target: group/ansar }
   - { type: participated_in, target: event/hijra, role: "أخذ الرحل إلى بيته فكان مضيف النبي بالمدينة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: member_of, target: group/sahaba, sources: [source/mubarakpuri-raheeq, source/sallabi-ali-vol1]}

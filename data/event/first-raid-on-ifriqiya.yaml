@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [maghreb]
 date:
-  start: { hijri: "0027?", precision: year, status: debated, note: "سنة 27 أو 28 أو 29 (البلاذري ص 317)" }
+  start: { hijri: "0027?", precision: year, status: debated, note: "سنة 27 أو 28 أو 29 ⁦(البلاذري ص 317)⁩" }
 relations:
   - { type: occurred_at, target: place/ifriqiya }
   - { type: had_participant, target: person/abdullah-ibn-sad-ibn-abi-sarh, role: "الوالي وقائد الغزوة", sources: [source/futuh-buldan-maarif-1407] }
@@ -20,7 +20,7 @@ relations:
   - { type: had_participant, target: person/abd-al-rahman-ibn-abi-bakr, role: "في الجيش", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 317–318"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 317–318"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-21
 sides:

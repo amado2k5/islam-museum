@@ -1,0 +1,23 @@
+---
+id: concept/ikhtilal
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/ikhtilal.md}
+---
+## Definición
+Ikhtilal proviene de la raíz de defecto: en el léxico, una debilidad o corrupción en una opinión o asunto, ya sea sensorial, como una grieta en una pared, o moral. El sentido técnico conserva este significado: la intrusión de debilidad o deficiencia en algo o asunto. Los juristas lo usan para referirse al trastorno de la razón (una demencia que confunde las palabras de quien habla), a un defecto en el culto o contrato por falta de una condición o pilar, a un defecto de consentimiento por coacción o ruptura de un acuerdo, y a la precisión defectuosa de un narrador cuando sus informes contradicen a transmisores fidedignos. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1962}
+## Términos relacionados
+Ikhlal es el acto de causar un defecto, e ikhtilal es su efecto; el incumplimiento de un pacto o contrato es la falta de cumplimiento del mismo, y un acto que se opone al orden público o a la moral es aquel que los contradice. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1963}
+Ikhtilal abarca más que la corrupción (fasad) y la invalidez (butlan). Incluye la falta de complementos cuya ausencia no causa ninguna de las dos, como olvidar eliminar una impureza antes de la oración, la omisión de la noche en Mina por parte del peregrino o no llamar testigos a una venta. También incluye actos contrarios a la perfección, como un ligero movimiento durante la oración o concluir una venta después de la llamada del viernes según quienes no la invalidan por ese motivo; el culto o acto sigue siendo válido, pero pierde parte de su perfección. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1963}
+## Regla general
+Los juristas tratan el concepto de ikhtilal en muchos lugares. Al-Shatibi dividió las obligaciones legales en necesidades, requerimientos y complementos, y estableció cinco reglas sobre cómo el defecto de uno afecta a los demás: la necesidad es la raíz de los demás; el defecto en una necesidad implica el defecto en los otros dos de forma absoluta; el defecto en los otros dos no implica el defecto en la necesidad; el defecto en un complemento o una necesidad puede, de alguna manera, implicar el defecto en una necesidad; y los tres deben conservarse. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1963}
+## Defectos en el culto
+Un defecto en el culto puede consistir en omitir una condición, un pilar, una obligación o un acto recomendado, o en cometer un acto prohibido o desagradable. Puede ocurrir deliberadamente, por error o por olvido; en algunos casos, conlleva la nulidad o corrupción del culto, y lo omitido a veces puede subsanarse mediante la postración por olvido, una expiación o una compensación. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1963}
+Los detalles se proporcionan en las entradas sobre reparación, invalidez, olvido, rescate y corrupción. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1963}
+## Defectos en los contratos
+Un defecto en un pilar de un contrato impide su formación: la venta de un niño que no puede discernir, o de un demente, y su compra, son nulas. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1963}
+Según los Hanafis, un defecto en un atributo externo, como un objeto desconocido o un defecto en el precio, no causa invalidez, pero puede causar corrupción. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1963}
+La ejecución también puede verse interrumpida por un evento que impida que el contrato se lleve a cabo según lo acordado, como la división de un acuerdo cuando parte del objeto se destruye o es reclamada por otra parte. Esto invalida el consentimiento de la otra parte y le otorga una opción. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1964}
+Asimismo, el consentimiento de una parte es defectuoso cuando el objeto o un precio determinado presenta un defecto y se concede la opción de repararlo. Al-Kasani afirmó: dado que el comprador desea que el bien esté en buen estado y no lo obtuvo, su consentimiento es defectuoso; el consentimiento es una condición para la validez de la venta, por lo que su ausencia impide dicha validez y su defecto otorga una opción, estableciéndose la regla en la medida en que lo permita la evidencia. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1964}
+Para conocer las reglas de la opción, consulte la entrada sobre «opción». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1964}

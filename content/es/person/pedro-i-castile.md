@@ -1,0 +1,24 @@
+---
+id: person/pedro-i-castile
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/pedro-i-castile.md}
+---
+## Visión general
+Pedro I gobernó Castilla desde 1350 hasta su muerte en 1369. La Enciclopedia del Islam no tiene ningún artículo sobre él; aparece en su artículo sobre los nazaríes de Granada, donde sus guerras sentaron el marco para los reinados de [[person/yusuf-i-nasrid|Yusuf I]] y [[person/muhammad-v-nasrid|Muhammad V]], y en el artículo sobre Ibn Khaldun, que acudió a su corte. La Enciclopedia lo llama "Pedro el Cruel" en el artículo de Ibn Khaldun. Este registro recopila esos pasajes. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078} {cite:encyclopaedia-of-islam-2 vol. 3 p. 858}
+
+## Adhesión y Granada
+El artículo sobre los nasrídas cuenta que Alfonso XI rompió una tregua con Granada en 1349 intentando tomar Gibraltar y, como muchos de sus soldados, murió de la Peste Negra en marzo de 1350. Su hijo Pedro I alcanzó entonces con gusto un acuerdo con Yusuf I. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078} Las buenas relaciones de Granada con Castilla y su disposición a dar cobijo a príncipes rebeldes meriníes fueron deteriorando gradualmente la amistad con Fez. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078} Bajo el hijo de Yusuf, Muhammad V, que aceptó pagar tributo a Pedro, las relaciones con Castilla fueron buenas desde el principio. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078}
+
+## Ibn Jaldún en Sevilla
+El artículo sobre [[person/ibn-khaldun|Ibn Khaldun]] dice que a finales de 765/1364 el historiador, entonces en Granada, fue enviado a Sevilla en una delicada misión de paz a Pedro el Cruel. Dice que el contacto con el mundo cristiano, entonces cambiante, tuvo una influencia importante en él. {cite:encyclopaedia-of-islam-2 vol. 3 p. 858} El museo registra esto como [[event/ibn-khaldun-embassy-seville-1365|la embajada a Sevilla]]; su fecha allí es alrededor de 1365 según otra fuente, por lo que las dos fechas son cercanas pero no idénticas.
+
+## Guerra con Aragón y el destino de Mahoma VI
+El artículo de los nasridas dice que en 1359 la flota castellana, reforzada con galeras granadinas, recibió instalaciones portuarias en Málaga mientras Muhammad V se preparaba para avanzar contra Aragón, antes de que una revolución palaciega en Ramadán 760/agosto de 1359 lo destituyera. Su sucesor Muhammad VI, llamado el Bermejo, se alineó con Aragón y detuvo el tributo a Castilla. Pedro, tras vencer a los aragoneses en Nájera en 1360 y concluir el Tratado de Terrer en mayo de 1361, se volvió contra él, habiendo ayudado a Muhammad V a regresar de Fez y establecer un gobierno en Ronda. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078} En 763/1362 la alianza tomó fortaleza tras fortaleza, y Muhammad VI huyó a Pedro y se entregó a su misericordia; Pedro lo mandó ejecutar en Tablada, no lejos de Sevilla. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078} Muhammad V inició su segundo reinado el 20 de Jumada II de 763/16 de marzo de 1362. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078}
+
+## Guerra civil y muerte
+Pedro estaba entonces en guerra con rebeldes liderados por su medio hermano Enrique de Trastamara, apoyado por Pedro IV de Aragón. Muhammad V, leal a Castilla, envió caballería que participó en la conquista de Teruel en 1363, pero Pedro tuvo que retirarse a su amada Sevilla en 1364. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078} Enrique, con mercenarios reclutados en Francia bajo Bertrand du Guesclin, entró en España por Cataluña y fue proclamado Enrique II de Castilla el 16 de marzo de 1366; Pedro, tachado de "amante de los moros" y ya no bienvenido ni siquiera en Sevilla, huyó de su país. Muhammad cambió entonces su lealtad a Enrique y firmó la paz con Aragón en Rajab 768/marzo de 1367. Más tarde, en 1367, Pedro regresó con la ayuda del Príncipe Negro, y Mahoma, cambiando de rumbo, se unió a Castilla y saqueó Jaén, Priego, Úbeda y Baeza, pero no logró tomar Córdoba en la primavera de 1368. A finales de marzo de 1369 Pedro había muerto; el artículo llama a Enrique II su conquistador y asesino. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078}
+
+## Fechas y dudas
+Wikidata indica el 30 de agosto de 1334 y el 23 de marzo de 1369 en el calendario juliano. La Enciclopedia es la fuente de la secuencia de eventos mencionada arriba, pero su redacción sobre las alianzas cambiantes de Mahoma está comprimida, y la orden de 1367 debería compararse con las crónicas castellanas antes de que este registro se difunda. La denominación "amante del moro" es el informe del artículo sobre cómo lo etiquetaron sus enemigos, no un juicio sobre el museo.

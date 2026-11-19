@@ -1,6 +1,6 @@
 id: person/abdul-latif-rashid
 class: person
-label: { ar: "عبد اللطيف رشيد", en: "Abdul Latif Rashid", ur: "عبد اللطیف رشید" }
+label: { ar: "عبد اللطيف رشيد", en: "Abdul Latif Rashid", fr: "Abdel Latif Rachid", ur: "عبد اللطیف رشید" }
 names:
   - { value: "عبد اللطيف جمال رشيد", kind: full }
   - { value: "Abdul Latif Jamal Rashid", kind: full }
@@ -12,6 +12,7 @@ gender: male
 summary:
   ar: "عبد اللطيف جمال رشيد ⁦(وُلد 10 آب 1944)⁩، سياسي كردي عراقي، رئيس جمهورية العراق من تشرين الأول 2022 إلى نيسان 2026 خلفًا لبرهم صالح. مهندس مدني درس في مانشستر وليفربول، كان الناطق باسم الاتحاد الوطني الكردستاني في بريطانيا، وتولى وزارة الموارد المائية من 2003 إلى 2010 ثم عمل مستشارًا أقدم للرئيس قبل انتخابه رئيسًا."
   en: "Abdul Latif Jamal Rashid (born 10 August 1944) is an Iraqi Kurdish politician who was president of Iraq from October 2022 to April 2026, in succession to Barham Salih. A civil engineer educated at Manchester and Liverpool, he was the Patriotic Union of Kurdistan's spokesman in the United Kingdom, Minister of Water Resources from 2003 to 2010, and a senior presidential adviser before his election as president."
+  fr: "Abdul Latif Jamal Rashid (né le 10 août 1944) est un homme politique kurde irakien qui fut président de l'Irak d'octobre 2022 à avril 2026, succédant à Barham Salih. Ingénieur civil formé à Manchester et à Liverpool, il fut porte-parole de l'Union patriotique du Kurdistan au Royaume-Uni, ministre des Ressources en eau de 2003 à 2010, puis conseiller présidentiel principal avant son élection à la présidence."
   ur: "عبد اللطیف جمال رشید ⁦(پیدائش 10 اگست 1944ء)⁩ ایک عراقی کرد سیاست دان ہیں جو اکتوبر 2022ء سے اپریل 2026ء تک برہم صالح کے جانشین کے طور پر جمہوریۂ عراق کے صدر رہے۔ وہ مانچسٹر اور لیورپول سے تعلیم یافتہ سول انجینئر ہیں، برطانیہ میں پٹریاٹک یونین آف کردستان کے ترجمان رہے، 2003ء سے 2010ء تک وزیرِ آبی وسائل اور پھر صدارتی مشیرِ اعلیٰ رہے۔"
 roles: [politician]
 wings: [people, living]
@@ -26,7 +27,7 @@ born:
   note: "Born at Sulaymaniyah in the Kingdom of Iraq on 10 August 1944; the English article gives the date citing his official curriculum vitae, the Arabic article's infobox and the Urdu article give the same date, and Wikidata agrees. The Hijri year (1363) is derived by tabular conversion of the recorded date. Sulaymaniyah has no place entity, so no born_in edge is written."
   sources: [source/wikipedia-abdul-latif-rashid-en, source/wikipedia-abdul-latif-rashid-ar, source/wikipedia-abdul-latif-rashid-ur, source/wikidata-abdul-latif-rashid]
 relations:
-  - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (عراقي); denotes association, not proven residence.", sources: [source/wikipedia-abdul-latif-rashid-en, source/wikipedia-abdul-latif-rashid-ar, source/wikipedia-abdul-latif-rashid-ur, source/wikidata-abdul-latif-rashid], confidence: low }
+  - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name ⁦(عراقي)⁩; denotes association, not proven residence.", sources: [source/wikipedia-abdul-latif-rashid-en, source/wikipedia-abdul-latif-rashid-ar, source/wikipedia-abdul-latif-rashid-ur, source/wikidata-abdul-latif-rashid], confidence: low }
   - { type: successor_of, target: person/barham-salih, sources: [source/wikipedia-abdul-latif-rashid-en, source/wikipedia-abdul-latif-rashid-ar] }
 faith:
   - value: unknown

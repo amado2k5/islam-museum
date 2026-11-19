@@ -7,10 +7,10 @@ status: { review: published }
 provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "سنن ابی داؤد، دار ابن حزم 1997 ج1 ص 13–14 میں خطابی کا ترجمہ، نیز ص 1، 10، 11، 84" }
 ---
 ## خلاصہ
-ابو سلیمان حمد بن محمد بن ابراہیم بن الخطاب خطابی بستی (319–388ھ) محدث، فقیہ، ادیب، لغوی اور شاعر تھے، اور [[work/sunan-abi-dawud|سنن ابی داؤد]] کی پہلی معروف شرح [[work/maalim-al-sunan|«معالم السنن»]] کے مصنف۔ {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 1} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13}
+ابو سلیمان حمد بن محمد بن ابراہیم بن الخطاب خطابی بستی ⁦(319–388ھ)⁩ محدث، فقیہ، ادیب، لغوی اور شاعر تھے، اور [[work/sunan-abi-dawud|سنن ابی داؤد]] کی پہلی معروف شرح [[work/maalim-al-sunan|«معالم السنن»]] کے مصنف۔ {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 1} {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13}
 
 ## نسب اور وطن
-ان کا نام حمد تھا اور وہ [[person/zayd-ibn-al-khattab|زید بن الخطاب]] کی اولاد سے تھے؛ «خطابی» (خاء پر زبر اور طاء مشدد) ان کے دادا خطاب کی نسبت ہے۔ {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13} «بستی» [[place/bust|بست]] کی نسبت ہے، جو ان کے سوانح نگار کے بقول [[place/kabul|کابل]] کے علاقے کا ایک شہر ہے۔ {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13} وہ وہیں رجب 319ھ میں پیدا ہوئے اور وہیں 388ھ میں فوت ہوئے۔ {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 14}
+ان کا نام حمد تھا اور وہ [[person/zayd-ibn-al-khattab|زید بن الخطاب]] کی اولاد سے تھے؛ «خطابی» ⁦(خاء پر زبر اور طاء مشدد)⁩ ان کے دادا خطاب کی نسبت ہے۔ {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13} «بستی» [[place/bust|بست]] کی نسبت ہے، جو ان کے سوانح نگار کے بقول [[place/kabul|کابل]] کے علاقے کا ایک شہر ہے۔ {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13} وہ وہیں رجب 319ھ میں پیدا ہوئے اور وہیں 388ھ میں فوت ہوئے۔ {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 14}
 
 ## شیوخ اور شاگرد
 - لغت و ادب انہوں نے [[person/ghulam-thalab|ابو عمر الزاہد]]، ابو علی اسماعیل الصفار، ابو جعفر الرزاز اور عراق کے دیگر علما سے حاصل کیا۔ {cite:sunan-abi-dawud-ibn-hazm-1997-v1 p. 13}

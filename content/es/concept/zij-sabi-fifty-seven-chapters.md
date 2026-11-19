@@ -1,0 +1,18 @@
+---
+id: concept/zij-sabi-fifty-seven-chapters
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/zij-sabi-fifty-seven-chapters.md}
+---
+## Resumen
+Al-Battani abre su zij con un índice que cuenta cincuenta y siete capítulos: el prólogo, la aritmética, las cuerdas del círculo, la oblicuidad y las subidas de los signos; luego las propiedades de climas, sombra, altitud y horas; luego las estrellas fijas; luego el movimiento del Sol, la Luna y cinco planetas, los eclipses y los calendarios; y cierra con dos instrumentos y un capítulo final. {cite:zij-sabi-nallino-byblion pp.5-9}.
+
+## Capítulos 1 a 17
+La tabla enumera como capítulo 1 el prólogo, el capítulo 2 la división del círculo con multiplicación, raíces y división, el capítulo 3 los tamaños de las cuerdas del círculo y las semicuerdas en las tablas, el capítulo 4 la oblicuidad del zodíaco desde el ecuador del día, y el capítulo 5 las ascensiones de los signos en la esfera derecha. El capítulo 6 trata los paralelismos con el ecuador y la tierra habitada, el capítulo 7 los puntos de salida y puesta del invierno y el verano, los capítulos 8 y 9 la altitud del polo y el día más largo, capítulo 10 altitud y sombra, capítulo 11 su azimut, capítulo 12 la línea del meridiano, capítulo 13 las subidas de los signos en cada país, capítulo 14 latitudes por observación, capítulo 15 la altitud del mediodía del Sol, capítulo 16 las horas transcurridas desde la medida del Sol y el capítulo 17 altitud desde las horas. {cite:zij-sabi-nallino-byblion pp.5-6}.
+
+## Capítulos 18 a 41
+La tabla muestra los capítulos 18 a 25 de las estrellas fijas y los planetas: su distancia al ecuador, la mitad del arco diurno de una estrella, el grado que sube con ella, las horas de la noche, su altitud y azimut. El capítulo 26 trata sobre las distancias entre estrellas, el capítulo 27 sobre la longitud del año solar y el movimiento medio del Sol, el capítulo 28 sobre la anomalía del Sol, el capítulo 29 sobre la desigualdad de los días con sus noches, el capítulo 30 sobre las esferas lunares y las causas de ambos eclipses, y el capítulo 31 sobre las esferas de los cinco planetas. Luego vienen los capítulos del calendario: 32 sobre las eras árabe, romana, persa y copta, 33 sobre el lugar del Sol, 34 sobre las horas igualadas y 35 sobre el ascendente y doce casas; y los capítulos lunares 36 a 41: el verdadero lugar de la Luna, los dos nodos, su latitud, paralaje, su distancia y el avistamiento de la media luna. {cite:zij-sabi-nallino-byblion pp.7-8}.
+
+## Capítulos 42 a 57
+Los capítulos 42 a 44 cubren las conjunciones y oposiciones del Sol y la Luna y los eclipses lunares y solares mediante cálculo y tabla. Los capítulos 45 a 50 toman las posiciones de los cinco planetas, sus estaciones y retrogradaciones, latitudes, ascensos y desapariciones, las figuras que las estrellas fijas forman con el Sol, y las distancias, diámetros y tamaños de los cuerpos. El capítulo 51 trata sobre el movimiento de las estrellas fijas por observación, el capítulo 52 lo que dicen los fabricantes de talismanes sobre el movimiento de la esfera, el capítulo 53 Los transfierimientos del año, el capítulo 54 las conjunciones por latitud, el capítulo 55 las subidas de los signos entre los puntos cardinales, el capítulo 56 una esfera plana de mármol para las horas del día, y el capítulo 57 el cierre del libro, un instrumento en forma de esfera y los dos instrumentos de observación. {cite:zij-sabi-nallino-byblion pp.8-9}.

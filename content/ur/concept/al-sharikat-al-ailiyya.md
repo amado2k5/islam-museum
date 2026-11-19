@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Devin (SWE-2 High)"]
 ---
 ## خلاصہ
-طارق السویدان اپنے عملی انتظامیہ کے درس میں خاندانی کمپنیوں کے اعداد پیش کرتے ہیں: ان کے بقول خلیج کی 95 فیصد کمپنیاں خاندانوں کی ملکیت ہیں (ان کی بتائی ہوئی تازہ شماریات)، اور عالمی سطح پر 68 فیصد خاندانی کمپنیاں بانی کی وفات اور بچوں کے قیادت سنبھالنے کے بعد منہدم ہو جاتی ہیں (needs_source: دونوں اعداد مقرر کے ہی بیان میں، غیر منسوب) {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:53:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:53:30}۔
+طارق السویدان اپنے عملی انتظامیہ کے درس میں خاندانی کمپنیوں کے اعداد پیش کرتے ہیں: ان کے بقول خلیج کی 95 فیصد کمپنیاں خاندانوں کی ملکیت ہیں ⁦(ان کی بتائی ہوئی تازہ شماریات)⁩، اور عالمی سطح پر 68 فیصد خاندانی کمپنیاں بانی کی وفات اور بچوں کے قیادت سنبھالنے کے بعد منہدم ہو جاتی ہیں ⁦(needs_source: دونوں اعداد مقرر کے ہی بیان میں، غیر منسوب)⁩ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:53:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:53:30}۔
 
 ## ان کے بیان میں ناکامی کے اسباب
 وہ دو اہم اسباب بیان کرتے ہیں: پہلا یہ کہ بانی نے بچوں کو کاروبار چلانے کی کافی تربیت نہیں دی، پس وہ ایسا کاروبار سنبھالتے ہیں جسے وہ نہیں سمجھتے {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:54:00}۔

@@ -1,10 +1,11 @@
 id: event/bukhara-settlers-basra
 class: event
 kind: other
-label: { ar: "إسكان أهل بخارى البصرة", en: "The Bukharans' Settlement at Basra" }
+label: { ar: "إسكان أهل بخارى البصرة", en: "The Bukharans' Settlement at Basra", fr: "L'installation des Boukhariotes à Bassora" }
 summary:
   ar: "كان عبيد الله بن زياد سبى خلقاً من أهل بخارا ويقال بل نزلوا على حكمه ويقال بل دعاهم إلى الأمان والفريضة فنزلوا على ذلك ورغبوا فيه فأسكنهم البصرة فلما بنى الحجاج مدينة واسط نقل كثيراً منهم إليها فمن نسلهم بها اليوم قوم منهم خالد الشاطر المعروف بابن مارقلي."
   en: "Ubaydallah ibn Ziyad captive-took a body of Bukhara's people — or, as told, they came down on his aman and obligation, eager for it — and settled them at Basra; when al-Hajjaj built Wasit he moved many there, their descendants including Khalid al-Shatir, called Ibn Marquli."
+  fr: "Ubaydallah ibn Ziyad fit captifs un groupe des gens de Boukhara (ou, selon un autre récit, ils se rendirent sous son aman et son engagement, désireux de cela) et les installa à Bassora ; quand al-Hajjaj bâtit Wasit, il en transféra beaucoup là-bas, leurs descendants comptant Khalid al-Shatir, appelé Ibn Marquli."
 periods: [period/umayyad]
 relations:
   - { type: occurred_at, target: place/basra }
@@ -14,4 +15,5 @@ status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
+  source: "source/futuh-buldan-maarif-1407"
   extraction_flow: "Apple Vision OCR -> manual extraction"

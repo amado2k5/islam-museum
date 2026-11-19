@@ -1,0 +1,18 @@
+---
+id: concept/muhasabat-al-nafs
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/muhasabat-al-nafs.md}
+---
+## Resumen
+El jeque dice que las extremidades de una persona trabajan para su corazón, siendo el corazón el rey o administrador que dirige su movimiento. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:01:30} Relata que la Gran Muralla China fue violada solo unas pocas veces en la historia, y que cada vez fue mediante un soborno pagado a algunos guardias corruptos, y por analogía Satanás entra en el corazón solo a través de un miembro 'sobornado' (needs_source: the historical report as the Sheikh tells it). {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:04:00}
+
+## Las puertas de Satanás a través de las extremidades
+Pregunta: entra Satanás por el ojo que no se baja de lo prohibido ni de los defectos de las personas; por la mano que toma lo dudoso, señalando que quien come al desconfiado durante cuarenta días encuentra cómo sus extremidades le desobedecen; por la mano de un escritor o periodista que escribe lo que pone a personas, grupos y escuelas en contra unos contra otros; a través de la lengua; ¿o por pies que no caminan hacia mezquitas, reconciliación y funerales? {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:06:00}
+
+## El programa diario
+Propone que al amanecer se establezcan condiciones para las extremidades: ojo, no mirar lo prohibido; mano, no buscar a los dudosos; pie, no vayas donde Dios está desagradado; luego vigílalos durante el día; luego siéntate unos minutos antes de dormir y ten en cuenta lo bueno y lo malo que uno hizo, aumentando lo bueno y buscando perdón por lo malo; luego reproche a los miembros. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:07:30} Sostiene que así una persona queda liberada de la 'servidumbre al barro' y enciende la 'túnica de luz' dentro de sí. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:08:00} Véase también: [[concept/muraqaba|vigilancia]].
+
+## Del programa Bustan al-Amal de Omar Abdelkafy
+El jeque propone algo sencillo: sentarse tres minutos en la estera de oración después de cada oración, teniendo en cuenta a uno mismo el tiempo transcurrido desde la oración anterior, y dormir sin deber nada a nadie, porque en el Día de la Resurrección las obligaciones solo pueden pagarse en buenas y malas acciones; menciona el llamado del Profeta a Banu Hashim para que no permitan que otros lleguen con buenas obras mientras ellos traen cargas, y sostiene que uno debe sopesar las propias acciones antes de pesarlas. {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:11:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:12:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:12:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:13:00}

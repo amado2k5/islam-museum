@@ -1,9 +1,10 @@
 id: person/abu-humayd-al-tusi
 class: person
-label: { ar: "أبو حميد الطوسي", en: "Abu Humayd al-Tusi" }
+label: { ar: "أبو حميد الطوسي", en: "Abu Humayd al-Tusi", fr: "Abu Humayd al-Tusi" }
 summary:
   ar: "من قواد أهل خراسان، لقي سابقاً الخوارزمي بسوق الكناسة فعلم منه مقتل إبراهيم الإمام وأن الوصية لأخيه أبي العباس وأنه بالكوفة، فأخبر أبا الجهم وموسى بن كعب وغدا سابق فمضيا إليهم فبايع أبو العباس وأكبّ يقبل أطرافه وأبو سلمة لا يعلم {cite:muruj-al-dhahab p. 241-242}."
   en: "The Khurasani commander whose chance meeting with Sabiq in the sweeper's market uncovered the hidden Abbasids and triggered al-Saffah's bay'a {cite:muruj-al-dhahab p. 241-242}."
+  fr: "Le chef khurasanien dont la rencontre fortuite avec Sabiq au marché d'al-Kunasa révéla les Abbassides cachés et déclencha la bay'a d'al-Saffah {cite:muruj-al-dhahab p. 241-242}."
 gender: male
 wings: [people]
 provenance:
@@ -18,4 +19,4 @@ status:
   completeness: 3
 died: { edtf: "860~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Mizzi, Tahdhib al-Kamal" }
 relations:
-  - { type: lived_in, target: place/tus, note: "Place association from the person's nisba/name (الطوسي); denotes association, not proven residence.", sources: [source/muruj-al-dhahab], confidence: low }
+  - { type: lived_in, target: place/tus, note: "Place association from the person's nisba/name ⁦(الطوسي)⁩; denotes association, not proven residence.", sources: [source/muruj-al-dhahab], confidence: low }

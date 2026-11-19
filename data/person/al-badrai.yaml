@@ -1,6 +1,6 @@
 id: person/al-badrai
 class: person
-label: { ar: "نجم الدين البدرائي", en: "Najm al-Din al-Badrai" }
+label: { ar: "نجم الدين البدرائي", en: "Najm al-Din al-Badrai", fr: "Najm al-Din al-Badra’i" }
 names:
   - { value: "البدرائي العلامة نجم الدين أبو محمد عبد الله بن أبي الوفاء محمد بن الحسن الشافعي الفرضي", kind: full }
 born: { edtf: "1198", hijri: "0594", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة أربع وتسعين وخمسمائة {cite:shadharat-dhahab p. 277}." }
@@ -8,6 +8,7 @@ died: { edtf: "1257-11~", hijri: "0655-11", calendar: julian, precision: month, 
 summary:
   ar: "العلامة الفرضي؛ درس بالنظامية وترسل غير مرة وحدث بحلب ودمشق ومصر وبغداد، وبنى بدمشق المدرسة الكبيرة المشهورة به المعروفة بالبدرائية؛ قال الذهبي كان فقيهاً عالماً ديّناً صدراً محتشماً جليل القدر وافر الحرمة متواضعاً دمث الأخلاق منبسطاً، وولي القضاء ببغداد على كره وتوفي بعد خمسة عشر يوماً في ذي القعدة وعافاه الله من كائنة التتار؛ قال السيوطي نسبة إلى بادرايا قرية من عمل واسط {cite:shadharat-dhahab p. 277}."
   en: "The faridi (b. 594) — taught at the Nizamiyya, built Damascus's famous Badra'iyya madrasa; appointed qadi of Baghdad against his will he died fifteen days later, Dhu al-Qa'da 655 — 'God spared him the Tatar calamity' {cite:shadharat-dhahab p. 277}."
+  fr: "Spécialiste des parts successorales (né en 594 H) — il enseigna à la Nizamiyya et construisit la célèbre madrasa Badra’iyya de Damas ; nommé cadi de Bagdad contre son gré, il mourut quinze jours plus tard, en dhu al-qi’da 655 H — « Dieu lui épargna la calamité tatare » {cite:shadharat-dhahab p. 277}."
 gender: male
 roles: [scholar, jurist, teacher]
 wings: [people]
@@ -25,7 +26,7 @@ status:
   completeness: 3
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج5، سنة 655)، قراءة آبل فيجن"
+  source: "شذرات الذهب — ابن العماد ⁦(ج5، سنة 655)⁩، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch87

@@ -13,7 +13,7 @@ translators: []
 
 ## عجائب گھر میں
 
-عجائب گھر میں اس کے حاملین: [[person/nusrat-fatih-ali-khan|نصرت فتح علی خان]] (1996ء) {cite:wikipedia-nusrat-fatih-ali-khan-en}۔
+عجائب گھر میں اس کے حاملین: [[person/nusrat-fatih-ali-khan|نصرت فتح علی خان]] ⁦(1996ء)⁩ {cite:wikipedia-nusrat-fatih-ali-khan-en}۔
 
 ## مراجع
 

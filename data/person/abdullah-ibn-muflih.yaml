@@ -1,23 +1,24 @@
 id: person/abdullah-ibn-muflih
 class: person
-label: { ar: "شرف الدين عبد الله ابن مفلح", en: "Sharaf al-Din Abdullah Ibn Muflih" }
+label: { ar: "شرف الدين عبد الله ابن مفلح", en: "Sharaf al-Din Abdullah Ibn Muflih", fr: "Sharaf al-Din Abdullah Ibn Muflih" }
 names:
   - { value: "شرف الدين أبو محمد عبد الله بن القاضي شمس الدين محمد بن مفلح بن محمد بن مفرج الراميني الدمشقي الحنبلي", kind: full }
 gender: male
 summary:
   ar: "شرف الدين عبد الله بن القاضي شمس الدين محمد بن مفلح الراميني ثم الدمشقي الحنبلي الإمام علامة الزمان شيخ الحنابلة؛ توفي سنة أربع وثلاثين وثمانمائة {cite:shadharat-dhahab p. 208}."
   en: "Sharaf al-Din Abdullah Ibn Muflih — son of the Hanbali chief qadi Shams al-Din Ibn Muflih; 'the scholar of the age, shaykh of the Hanbalis'; died 834 {cite:shadharat-dhahab p. 208}."
+  fr: "Sharaf al-Din Abdullah Ibn Muflih — fils du grand cadi hanbalite Shams al-Din Ibn Muflih ; « le savant de l'époque, cheikh des hanbalites » ; mort en 834 {cite:shadharat-dhahab p. 208}."
 roles: [jurist, scholar]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [levant-iraq]
 died: { edtf: "1431~", hijri: "0834", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 834 {cite:shadharat-dhahab p. 208}", sources: [source/shadharat-dhahab] }
 relations:
-  - { type: lived_in, target: place/damascus, note: "Place association from the person's nisba/name (الدمشقي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
+  - { type: lived_in, target: place/damascus, note: "Place association from the person's nisba/name ⁦(الدمشقي)⁩; denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
   - { type: child_of, target: person/muflih, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 834)، قراءة آبل فيجن"
+  source: "شذرات الذهب — ابن العماد ⁦(ط مكتبة المثنى 1351، ج7، سنة 834)⁩، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch72

@@ -13,11 +13,11 @@ relations:
   - { type: participated_in, target: event/conquest-of-kamkh, role: "في مقدمة غزاة سنة 149", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/rebuilding-of-malatya, role: "المطعِم وحامل الحجر", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/founding-of-al-hadath, role: "رادّ الموضع", sources: [source/futuh-buldan-maarif-1407] }
-  - {confidence: low, note: 'Place association from the person''s nisba/name (الكوفي); denotes association, not proven residence.', sources: [source/futuh-buldan-maarif-1407], target: place/kufa, type: lived_in}
+  - {confidence: low, note: 'Place association from the person''s nisba/name ⁦(الكوفي)⁩; denotes association, not proven residence.', sources: [source/futuh-buldan-maarif-1407], target: place/kufa, type: lived_in}
   - {role: المقترح والمستكشف, sources: [source/futuh-buldan-maarif-1407], target: event/founding-of-tarsus, type: participated_in}
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 260، 263–264، 267–268"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 260، 263–264، 267–268"
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: "prose-fill-persons-batch54"

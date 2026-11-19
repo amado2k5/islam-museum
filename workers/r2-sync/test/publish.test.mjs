@@ -188,3 +188,58 @@ test("the report counts the source files that changed, so a large publish can be
   const run = (cmd, args) => (args[0] === "diff" ? "data/person/a.yaml\ncontent/ar/person/a.md\n" : "");
   assert.equal(filesChanged("p", "c", SOURCE_PATHS, run).length, 2);
 });
+
+// ---- One-language publish (--only-lang) ----------------------------------------------------------------------------
+import { scopeTo, langPrefixes } from "../batch/publish.mjs";
+
+test("a one-language publish touches that language's pages and search index and nothing else", () => {
+  const previous = {
+    "es/a/index.html": "old", "es/gone/index.html": "x", "pagefind-es/pagefind.js": "p",
+    "ar/a/index.html": "ar", "en/a/index.html": "en", "pagefind-ar/pagefind.js": "q",
+    "api/v1/meta/counts.json": "c", "sitemap.xml": "s", "es-other/x": "z",
+  };
+  assert.deepEqual(langPrefixes("es"), ["es", "pagefind-es"]);
+  const scoped = scopeTo(previous, langPrefixes("es"));
+  assert.deepEqual(Object.keys(scoped).sort(), ["es/a/index.html", "es/gone/index.html", "pagefind-es/pagefind.js"]);
+  // The build holds only Spanish: one changed page, one new, one page gone; the search index is unchanged.
+  const desired = new Map([
+    ["es/a/index.html", { path: "/d/es/a/index.html", sha: "new", cacheControl: "c" }],
+    ["es/b/index.html", { path: "/d/es/b/index.html", sha: "b", cacheControl: "c" }],
+    ["pagefind-es/pagefind.js", { path: "/d/pagefind-es/pagefind.js", sha: "p", cacheControl: "c" }],
+  ]);
+  const ops = diff(desired, scoped);
+  assert.deepEqual(ops.map((o) => `${o.op} ${o.dst}`).sort(), ["COPY es/a/index.html", "COPY es/b/index.html", "DELETE es/gone/index.html"]);
+  // Against the whole record the same build would delete every other language: the reason for the scope.
+  assert.ok(diff(desired, previous).some((o) => o.op === "DELETE" && o.dst === "ar/a/index.html"));
+  // The whole record is what is written back: the other languages, the API and the root files are still in it.
+  applyToPrevious(previous, ops, desired);
+  assert.equal(previous["es/a/index.html"], "new");
+  assert.equal(previous["es/b/index.html"], "b");
+  assert.equal("es/gone/index.html" in previous, false);
+  for (const key of ["ar/a/index.html", "en/a/index.html", "pagefind-ar/pagefind.js", "api/v1/meta/counts.json", "sitemap.xml", "es-other/x"]) assert.ok(key in previous, key);
+});
+
+// ---- Shared-parts publish (--only-shared) --------------------------------------------------------------------------
+import { scopeShared } from "../batch/publish.mjs";
+
+test("a shared-parts publish touches no language's pages or search index", () => {
+  const previous = {
+    "es/a/index.html": "1", "ar/a/index.html": "1", "pagefind-es/pagefind.js": "1", "pagefind-ar/pagefind.js": "1",
+    "api/v1/meta/counts.json": "1", "api/v1/gone.json": "1", "media/a.webp": "1", "timeline-data/es.json": "1",
+    "sitemap-index.xml": "1", "sitemap-0.xml": "1", "feed.xml": "1", "espresso/x": "1",
+  };
+  const scoped = scopeShared(previous);
+  assert.deepEqual(Object.keys(scoped).sort(), ["api/v1/gone.json", "api/v1/meta/counts.json", "espresso/x", "feed.xml", "media/a.webp", "sitemap-0.xml", "sitemap-index.xml", "timeline-data/es.json"]);
+  // The build holds the shared parts only: one API file changed, one gone, the feed unchanged, no sitemap.
+  const desired = new Map([
+    ["api/v1/meta/counts.json", { sha: "2" }], ["media/a.webp", { sha: "1" }], ["timeline-data/es.json", { sha: "1" }], ["feed.xml", { sha: "1" }], ["espresso/x", { sha: "1" }],
+  ]);
+  // Without sitemaps in the build they are kept out of the comparison, so they are not deleted.
+  const ops = diff(desired, scopeShared(previous, true));
+  assert.deepEqual(ops.map((o) => `${o.op} ${o.dst}`).sort(), ["COPY api/v1/meta/counts.json", "DELETE api/v1/gone.json"]);
+  // With the plain scope a build without sitemaps would delete them: that is why the publish keeps them out.
+  assert.ok(diff(desired, scoped).some((o) => o.op === "DELETE" && o.dst === "sitemap-index.xml"));
+  // The five language scopes and the shared scope together are the whole record, with nothing in two of them.
+  const all = [...["ar", "en", "ur", "fr", "es"].flatMap((l) => Object.keys(scopeTo(previous, langPrefixes(l)))), ...Object.keys(scoped)];
+  assert.deepEqual(all.sort(), Object.keys(previous).sort());
+});
