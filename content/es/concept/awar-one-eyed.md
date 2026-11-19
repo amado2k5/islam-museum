@@ -1,0 +1,9 @@
+---
+id: concept/awar-one-eyed
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/awar-one-eyed.md}
+---
+## Resumen
+'Awar es la pérdida de la vista en un ojo; los juristas usan la palabra en su sentido literal {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11908}. Se distingue de 'asha, ceguera nocturna, de 'amash, visión débil con ojo lloroso, de hawal, estrabismo, y de 'ama, ceguera de ambos ojos {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11909}. Un animal tuerto no es válido para el sacrificio si el ojo ha desaparecido, aunque los Hanafi lo permiten si el ojo es solo blanco y aún ve {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11909} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11910}. El defecto de un ojo no da opción a anular el matrimonio a menos que uno de los cónyuges estipule su buena salud {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11910}. Un esclavo tuerto puede ser liberado como expiación, por mayoría {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11911}. Por lesiones a una persona con un solo ojo por parte de un hombre tuerto, las normas difieren: los Hanafi y los Shafi'i exigen una compensación completa por la sangre, los Hanbali exigen la mitad, y los Maliki dan a la víctima la opción {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11911} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11912}. Los hanafíes y los shafiíes permiten la represalia sobre el ojo sano de una persona que ciega el único ojo sano de un hombre tuerto, mientras que los malikíes dan la opción entre la represalia y el dinero de sangre {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11912}.

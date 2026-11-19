@@ -1,0 +1,28 @@
+---
+id: concept/ashab-al-kahf
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/ashab-al-kahf.md}
+---
+## Resumen
+El jeque Omar Abdelkafy describe la cueva en la que se refugiaron los jóvenes como estrecha y oscura, y dice que entraron en ella sin ninguna señal previa de alivio. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:29:30}
+
+## De las conferencias Tafsir del jeque Omar Abdelkafy (episodio 4)
+
+El jeque pregunta a sus oyentes acerca de la cueva, si es ancha o estrecha, iluminada u oscura, y concluye que es estrecha y oscura {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:29:30}. Luego dice que los jóvenes se refugiaron en esta cueva sin ninguna señal previa de alivio, aunque esperaban que su Señor extendiera Su misericordia sobre ellos {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:29:30}.
+
+## Enciclopedia del Islam: la leyenda y su origen
+Los «habitantes de la cueva» son los jóvenes a quienes la Europa cristiana llama los Siete Durmientes de Éfeso. Según la leyenda, durante la persecución de los cristianos bajo el emperador Decio (249-251), siete jóvenes cristianos huyeron a una cueva cerca de Éfeso y cayeron en un sueño milagroso; fueron descubiertos mucho tiempo después y se supo que habían dormido para siempre. Su lugar de descanso fue considerado un lugar de culto al menos desde principios del siglo VI d. C. La historia se encuentra en numerosas literaturas orientales y occidentales, especialmente griega y siríaca, y la versión griega parece ser la más antigua. {cite:encyclopaedia-of-islam-2 vol. 1 p. 740-741}
+
+## La versión coránica
+Mahoma tomó la leyenda, como muchas historias de origen judío y cristiano, y la utilizó para edificar en el Corán, sura 18 (versículos 9-26), de donde la sura toma su nombre, la Sura de la Cueva. Los contornos son claros: los jóvenes huyeron a la cueva para permanecer fieles a la creencia en un solo Dios; durmieron milagrosamente durante 309 años (versículo 25), que para ellos parecieron como máximo un día (versículo 19); y fueron descubiertos cuando uno de ellos fue a la ciudad con monedas antiguas para comprar comida. Algunos detalles siguen siendo dudosos. El propio Corán dice que el número de jóvenes se da de diversas maneras, como tres, cinco o siete, y que solo Dios sabe la duración de su sueño. El perro que "extiende sus patas en el umbral" (versículo 18) se cuenta entre ellos (versículo 22), y por lo tanto parece ser considerado sagrado. La alusión a un lugar de culto construido sobre el lugar de descanso (versículo 21) no es clara, y la expresión al-raqim (versículo 9) es objeto de controversia: los comentaristas la interpretan como el nombre del perro, como un topónimo o como una inscripción. {cite:encyclopaedia-of-islam-2 vol. 1 p. 740-741}
+
+## Comentaristas, difusión y magia
+Los comentaristas e historiadores árabes completaron las lagunas del texto coránico con abundante material de la tradición cristiano-oriental, por lo que sus relatos también son importantes para la transmisión de la leyenda antes del Islam. Una vez arraigada entre los musulmanes, la leyenda se asoció a diversos lugares del mundo islámico: una cueva en Transjordania, Capadocia, Turkistán Oriental y España, aunque originalmente pertenece a Éfeso. Con el tiempo, la historia adquirió tintes mágicos. Esto explica la costumbre de colgar hojas con los nombres de los durmientes inscritos, para obtener bendiciones o protegerse del mal. El nombre del perro, Kilmir, desempeña un papel especial: entre los turcos de Turkistán Oriental y en Indonesia, era costumbre escribir en las cartas, para evitar su pérdida, la palabra kitmir, «registrado». L. Massignon interpretó la historia desde una perspectiva interna, en el sentido que tiene para los creyentes musulmanes. {cite:encyclopaedia-of-islam-2 vol. 1 p. 740-741}
+
+## Del programa de Omar Abdelkafy Bustan al-Amal
+El jeque sostiene que una persona no elige su destino sino que lo soporta con paciencia, y que existimos para vivir la vida, no para comprenderla; se detiene en la descripción de los jóvenes cuyos corazones Dios fortaleció, sosteniendo que el verdadero creyente es aquel cuyo corazón está así fortalecido, y que esto sucede cuando se entrega a Dios como un ladrón se entrega con las manos en alto; la cueva era estrecha, oscura y sin recursos, sin embargo, Dios extendió su misericordia para ellos en ella, así que la felicidad reside en la estrechez o amplitud de los corazones, no en los lugares; da el sentido de un verso de Iliya Abu Madi que dice que la satisfacción puede abandonar los palacios y habitar en una choza. {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:10:00}
+
+## En el contexto de lo invisible
+Durmieron trescientos años más nueve: la señal de lo invisible a través del tiempo y el renacimiento imperecedero.

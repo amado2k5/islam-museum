@@ -13,4 +13,4 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 شیرازی اپنے استاد ابو الحسن الشیرجی سے نقل کرتے ہیں کہ ان کی کتابوں کی فہرست میں چار سو تصانیف شامل ہیں۔ {cite:tabaqat-fuqaha-abbas-1981 p.57}
 
-انہوں نے علم ابو القاسم الانماطی ([[person/uthman-ibn-said-al-anmati|عثمان بن سعید الانماطی]]) سے حاصل کیا۔ {cite:tabaqat-fuqaha-abbas-1981 p.58}
+انہوں نے علم ابو القاسم الانماطی ⁦([[person/uthman-ibn-said-al-anmati|عثمان بن سعید الانماطی]])⁩ سے حاصل کیا۔ {cite:tabaqat-fuqaha-abbas-1981 p.58}

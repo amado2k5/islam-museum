@@ -1,0 +1,27 @@
+---
+id: event/al-hadi-the-conduct-of-his-majlis-as-muhammad-ibn-ubaydallah-saw-it-286
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-the-conduct-of-his-majlis-as-muhammad-ibn-ubaydallah-saw-it-286.md}
+---
+## Vue d'ensemble
+Ali ibn Muhammad rapporte : « J’ai interrogé mon père, [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Muhammad ibn Ubaydallah]], au sujet des réunions de Yahya ibn al-Husayn, et il m’a répondu : “J’ai vu [[person/al-hadi-yahya-al-rassi|Yahya ibn al-Husayn]], lors de ses réunions, se discipliner selon les préceptes du Messager de Dieu.” {cite:sira-hadi-ila-al-haqq p.121} Il précise qu’il le savait car il avait consigné par écrit les mœurs du Prophète et avait constaté que Yahya les suivait. {cite:sira-hadi-ila-al-haqq p.121} » Ce récit est zaydite, rapporté par les disciples de l’imam, et son éloge est celui du narrateur, et non un jugement du musée.
+
+## Le ton du rassemblement
+Son assemblée, disait-il, était empreinte de calme, de dignité, d'exhortations, de tristesse, de demandes de pardon et de débats éclairés, sans bavardages futiles, sans querelles indécentes ni paroles mensongères, car il insistait auprès de l'orateur jusqu'à ce que la vérité de ses propos soit manifeste ; il accueillait à bras ouverts les faibles, les pauvres et les enfants et exhortait les autres à faire de même et à leur témoigner de la compassion. {cite:sira-hadi-ila-al-haqq p.121} Le narrateur vit un petit garçon amené, approché et assis devant lui, et Yahya lui caressa la tête et lui commanda quelque chose. {cite:sira-hadi-ila-al-haqq p.121}
+
+## Parlez avec ceux qui étaient assis à côté de lui
+Il s'entretenait avec ses compagnons, riait avec eux et débattait de tous les domaines du savoir jusqu'à ce qu'ils comprennent ; s'ils connaissaient la réponse, tant mieux ; sinon, il la leur enseignait. {cite:sira-hadi-ila-al-haqq p.122} Il honorait les notables de chaque peuple et connaissait leur rang, et le narrateur rapporte que cette tradition lui a été transmise par le Messager de Dieu. {cite:sira-hadi-ila-al-haqq p.122} Il était patient, digne et calme, ne s'irritant pas des longs discours ni ne se lassant des questions, et répondait à chacun avec calme, patience et érudition. {cite:sira-hadi-ila-al-haqq p.122}
+
+## Égaux en ce qui est juste
+Le proche et le lointain, l'ami et l'ennemi, étaient égaux devant lui en matière de justice ; il ne se prosternait devant personne par caprice dans ses jugements et ne faisait étalage de son savoir devant personne. {cite:sira-hadi-ila-al-haqq p.122} Lorsqu'on l'interrogeait sur des domaines du savoir, il répondait avec la plus grande douceur, sans réprimander personne, sans jamais élever la voix ni se montrer dur, répétant la réponse jusqu'à ce qu'elle soit comprise, sans jamais dominer ni s'enorgueillir. {cite:sira-hadi-ila-al-haqq p.122}
+
+## Son attitude lors du rassemblement
+Il balaya du regard ses compagnons à droite et à gauche, de sorte que tous les présents comprenaient ses paroles, sans jamais tout révéler à un seul. Il bougeait peu, ne se penchait pas en arrière ni ne les dédaignait, gardait un silence éloquent lorsqu'il se taisait, et répondait avec aisance et concision. {cite:sira-hadi-ila-al-haqq p.122} Il ne se levait pas avant que ses compagnons ne se lèvent, et si besoin était, il restait avec eux jusqu'à leur départ. Le narrateur conclut qu'il avait souvent eu besoin de se lever plus tôt, mais que la générosité et la courtoisie l'en avaient empêché, et rapporte que la tradition dit que le Prophète ne se levait pas avant que ses compagnons ne se soient dispersés. {cite:sira-hadi-ila-al-haqq p.122} {cite:sira-hadi-ila-al-haqq p.123}
+
+## Son souci des gens
+Il le voyait souvent penser au bien des musulmans, faire preuve de compassion et de miséricorde, exhorter fréquemment, enjoindre l'obéissance, prescrire le bien et interdire le mal, et débattre avec quiconque le contredisait avec impartialité, sans jamais contester la réponse de quiconque, mais en agissant avec douceur, en lui expliquant son raisonnement et en disant : « Regarde et sois-en certain. » {cite:sira-hadi-ila-al-haqq p.123} Il écoutait et se tournait vers celui qui lui parlait jusqu'à ce qu'il ait fini, sans jamais l'interrompre, puis répondait sans rudesse, sans dureté ni irritation. {cite:sira-hadi-ila-al-haqq p.123} Il exhortait les gens à la miséricorde et aux liens de parenté, et interdisait le mal, l'envie et la rupture des liens familiaux, s'enquérait de leurs affaires et de leurs moyens de subsistance et leur enseignait les bonnes manières qui embellissent leur vie terrestre et les rapprochent de leur Créateur. {cite:sira-hadi-ila-al-haqq p.123}
+
+## Notes
+Tout ceci constitue le portrait que dresse un témoin de son imam, dans un registre d'estime ; sa comparaison avec les mœurs du Prophète repose sur ce qu'il affirme avoir écrit à leur sujet, et le musée le rapporte sans commentaire. Dans la première ligne de la section, le manuscrit principal porte « rang » au lieu de « son assemblée », et l'éditeur corrige cette erreur d'après le second manuscrit. {cite:sira-hadi-ila-al-haqq p.121}

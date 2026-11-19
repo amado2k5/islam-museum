@@ -27,5 +27,5 @@ translators: []
 ان کا اعلانیہ منہج سیرت کو نبی کی اخلاقیات، رحمت اور انسانیت کو نمایاں کرتے ہوئے پیش کرنا ہے۔ {cite:twaslnews-nourhan-el-sheikh}
 
 ## حوالہ جات
-- «Nourhan Elsheikh - نورهان الشيخ — YouTube channel» (ان کا رسمی چینل؛ 26 اکتوبر 2026 کو رجوع کیا گیا)۔ {cite:youtube-nourhan-el-sheikh}
-- «نورهان الشيخ تبدأ تجربة إعلامية جديدة عبر النهار لايف» (تواصل نيوز، البلد کی رپورٹ، 25 اکتوبر 2026)۔ {cite:twaslnews-nourhan-el-sheikh}
+- «Nourhan Elsheikh - نورهان الشيخ — YouTube channel» ⁦(ان کا رسمی چینل؛ 26 اکتوبر 2026 کو رجوع کیا گیا)⁩۔ {cite:youtube-nourhan-el-sheikh}
+- «نورهان الشيخ تبدأ تجربة إعلامية جديدة عبر النهار لايف» ⁦(تواصل نيوز، البلد کی رپورٹ، 25 اکتوبر 2026)⁩۔ {cite:twaslnews-nourhan-el-sheikh}

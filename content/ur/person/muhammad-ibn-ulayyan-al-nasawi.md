@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b17, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/376" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b17, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/376" }
 ---
 ## خلاصہ
 محمد بن علی نسوی محمد بن علیان کے نام سے معروف ہیں۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد کے آخر میں ان کا ترجمہ لکھا ہے ⁦(نمبر 649)⁩۔ یہ ان عارفوں میں ہیں جن کا زمانہ ابو نعیم نے پایا۔ وہ انہیں بلند ہمت اور ظاہر کرامات والا کہتے ہیں۔ ترجمہ مختصر ہے۔ اس میں نہ اساتذہ کا ذکر ہے نہ تاریخ کا۔ اس کی ہر بات [[person/al-sulami|سلمی]] ایک واسطے سے روایت کرتے ہیں۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/376}

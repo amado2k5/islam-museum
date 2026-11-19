@@ -13,6 +13,6 @@ relations:
   - { type: mentions, target: concept/qiraat, sources: [source/tarikh-islam-dhahabi] }
   - { type: mentions, target: concept/mushaf, sources: [source/tarikh-islam-dhahabi] }
   - { type: mentions, target: concept/khatt-al-arabi, sources: [source/tarikh-islam-dhahabi] }
-provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/tarikh-islam-dhahabi/01.-_20240823__53. ذيل تاريخ الإسلام — (701 - 750 ه‍), page 314; a window of at most 40 words chosen by the qira'at detector (scripts/qiraat.ts); OCR text not corrected", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-ocr-1" }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/tarikh-islam-dhahabi/01.-_20240823__53. ذيل تاريخ الإسلام — ⁦(701 - 750 ه‍)⁩, page 314; a window of at most 40 words chosen by the qira'at detector (scripts/qiraat.ts); OCR text not corrected", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-ocr-1" }
 sources: [source/tarikh-islam-dhahabi]
 status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the OCR'd book; label and summary are the museum's own words" }

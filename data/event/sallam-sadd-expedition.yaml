@@ -9,14 +9,14 @@ wings: [time]
 periods: [period/abbasid-early]
 regions: [persia-central-asia]
 date:
-  start: { edtf: "0842~", calendar: julian, precision: decade, status: tradition, derived: true, note: "في خلافة الواثق (227-232هـ) ولم يؤرخه ابن خرداذبه." }
+  start: { edtf: "0842~", calendar: julian, precision: decade, status: tradition, derived: true, note: "في خلافة الواثق ⁦(227-232هـ)⁩ ولم يؤرخه ابن خرداذبه." }
 relations:
   - { type: had_participant, target: person/sallam-al-tarjuman, role: "المبعوث والمخبر", sources: [source/masalik-mamalik-ibn-khurdadhbih] }
   - { type: had_participant, target: person/al-wathiq, role: "الخليفة الآمر بالبعثة بعد المنام", sources: [source/masalik-mamalik-ibn-khurdadhbih] }
 sources: [source/masalik-mamalik-ibn-khurdadhbih]
 provenance:
   layer: own-research
-  source: "ابن خرداذبه، المسالك والممالك (BGA 6، دي غويه) ص 162-168"
+  source: "ابن خرداذبه، المسالك والممالك ⁦(BGA 6، دي غويه)⁩ ص 162-168"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-geo-bga6-1
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

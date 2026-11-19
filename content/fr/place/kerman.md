@@ -1,0 +1,13 @@
+---
+id: place/kerman
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/kerman.md}
+---
+## Dans le Mu'jam al-Buldan de Yaqut
+Yaqut donne Kerman avec une fatha, suivie d'une lettre muette et d'un nun final, et précise que la fatha est la voyelle la mieux attestée, bien qu'une kasra soit parfois rapportée. {cite:mujam-al-buldan-sader-1995 4 p.454} Il décrit une province renommée et une vaste région habitée située entre le Fars, le Makran, le Sijistan et le Khorasan, riche en palmiers, en cultures et en bétail, et comparée à Bassora pour la quantité de ses dattes ; parmi ses villes, il cite Jiruft, Bamm, Sirjan et Bardsir. {cite:mujam-al-buldan-sader-1995 4 p.454} Citant al-Bashshari, il affirme qu'il s'agit d'une région qui ressemble au Fars, à Bassora et au Khorasan à divers égards, dont les habitants sont sunnites et pieux, mais qui, après avoir été l'une des régions les plus prospères sous les Seldjoukides, est tombée en ruine. {cite:mujam-al-buldan-sader-1995 4 p.454}
+
+Concernant le nom, il cite Ibn al-Kalbi, qui le fait dériver de Kerman ibn Falluj, descendant de Japhet, fils de Noé, et d'autres sources, qui le font remonter à Kerman ibn Fark ibn Sam. {cite:mujam-al-buldan-sader-1995 4 p.454} Il relate l'histoire de philosophes qu'un roi perse y installa et qui firent remonter l'eau de puits profonds. Il note également que les empereurs perses y prélevèrent soixante millions de dirhams, la région mesurant cent quatre-vingts farsakhs de long. {cite:mujam-al-buldan-sader-1995 4 p.454}
+
+Concernant la conquête, il rapporte qu'Uthman ibn al-As traversa le Bahreïn pour rejoindre le Fars et rencontra le marzban de Kerman sur l'île de Barkawan ; plus tard, Ibn Amir nomma Mujashi' ibn Mas'ud al-Sulami, qui prit Maymand, Sirjan et Jiruft, tandis qu'Abu Musa al-Ash'ari envoya al-Rabi' ibn Ziyad al-Harithi, qui s'empara de la région de Sirjan, et les terres des fugitifs furent attribuées aux Arabes. {cite:mujam-al-buldan-sader-1995 4 p.455} Il indique qu'al-Hajjaj nomma Qatan ibn Qabisa al-Hilali à la tête du Fars et de Kerman, et que la « jaiza » (récompense) reçut son nom à son époque. {cite:mujam-al-buldan-sader-1995 4 p.455} Yaqut ajoute qu'il existe également une ville appelée Kerman entre Ghazni et l'Inde, sous l'autorité de Ghazni. {cite:mujam-al-buldan-sader-1995 4 p.455}

@@ -25,7 +25,7 @@ inventions:
 periods: [period/abbasid-fragmentation]
 provenance:
   layer: own-research
-  source: "وفيات الأعيان لابن خلكان — الجزء الثالث (ترجمة علي بن يونس)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  source: "وفيات الأعيان لابن خلكان — الجزء الثالث ⁦(ترجمة علي بن يونس)⁩، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch50
@@ -41,4 +41,4 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wafayat-ayan]
 relations:
-  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/wafayat-ayan, source/ibn-yunus-king-bea, source/tdv-ibn-yunus-dizer, source/ibn-yunus-mactutor], confidence: low }
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name ⁦(المصري)⁩; denotes association, not proven residence.", sources: [source/wafayat-ayan, source/ibn-yunus-king-bea, source/tdv-ibn-yunus-dizer, source/ibn-yunus-mactutor], confidence: low }

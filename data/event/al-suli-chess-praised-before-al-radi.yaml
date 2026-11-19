@@ -10,7 +10,7 @@ wings: [time]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0934", hijri: "0322", calendar: julian, precision: year, status: tradition, derived: true, note: "الواقعة في سياق خلافة الراضي (322-329هـ) {cite:muruj-al-dhahab p. 676}؛ النص لا يذكر سنة الواقعة، والتحويل إلى الميلادي مشتق." }
+  start: { edtf: "0934", hijri: "0322", calendar: julian, precision: year, status: tradition, derived: true, note: "الواقعة في سياق خلافة الراضي ⁦(322-329هـ)⁩ {cite:muruj-al-dhahab p. 676}؛ النص لا يذكر سنة الواقعة، والتحويل إلى الميلادي مشتق." }
 relations:
   - { type: part_of, target: period/abbasid-early }
   - { type: had_participant, target: person/al-radi-billah, role: "الخليفة الذي أثنى", sources: [source/muruj-al-dhahab] }
@@ -20,7 +20,7 @@ relations:
 sources: [source/muruj-al-dhahab]
 provenance:
   layer: own-research
-  source: "مروج الذهب للمسعودي، المسح ص 676 (خلافة الراضي) و677 (الواقعة)"
+  source: "مروج الذهب للمسعودي، المسح ص 676 ⁦(خلافة الراضي)⁩ و677 ⁦(الواقعة)⁩"
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
   run: "time-browser-chess-2026-10-30"

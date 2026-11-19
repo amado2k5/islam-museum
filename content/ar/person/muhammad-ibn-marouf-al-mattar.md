@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b102, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/398" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b102, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/398" }
 ---
 ## موجز
 محمد بن معروف المطار، المعروف بمؤملة، من المشهورين بالنسك والعبادة والورع، كان إمام الجامع. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 680)⁩ في الصفحة 398، وتسلسله 681. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/398}

@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b78, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/168-171" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b78, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/168-171" }
 ---
 ## موجز
 عبد الله بن خبيق، أسند كثيرًا وتفرّد بأشياء، ونقل عن يوسف بن أسباط وحذيفة المرعشي والفضل. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 545)⁩ في الصفحات 168 إلى 171، وتسلسله 546. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/168} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/171}

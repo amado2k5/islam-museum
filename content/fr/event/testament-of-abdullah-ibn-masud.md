@@ -1,0 +1,28 @@
+---
+id: event/testament-of-abdullah-ibn-masud
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/testament-of-abdullah-ibn-masud.md}
+---
+## Résumé
+[[person/abdullah-ibn-masud|Abd Allah ibn Mas'ud]] fut l'un des premiers musulmans et le Compagnon le plus proche de la récitation du Prophète. Le Siyar d'Al-Dhahabi conserve un court extrait de son testament écrit, le récit de la visite d'Uthman lors de sa maladie, des informations sur les richesses qu'il laissa, ainsi que son décès à Médine et son inhumation à al-Baqi'. {cite:siyar-alam-nubala scan vol. 2 p. 443}
+
+## Le testament et ce qu'il disait
+Al-Dhahabi rapporte, d'après un waki' d'après Abu Umays, d'après Amir ibn Abd Allah ibn al-Zubayr, qu'Ibn Mas'ud a rédigé un testament stipulant : « Mon testament est pour Dieu, pour al-Zubayr ibn al-Awwam et pour son fils Abd Allah ibn al-Zubayr ; tous deux sont dégagés de toute responsabilité quant à leurs décisions concernant ma succession ; et aucune de mes femmes ne doit être mariée sans leur consentement. » {cite:siyar-alam-nubala scan vol. 2 p. 443} Le testament comporte trois clauses : la désignation de deux exécuteurs testamentaires, [[person/zubayr-ibn-al-awwam|al-Zubayr ibn al-Awwam]] et son fils [[person/abdullah-ibn-al-zubayr|Abd Allah]] ; leur décharge de toute responsabilité quant à leurs décisions ; et la condition que les femmes placées sous sa tutelle ne puissent être mariées qu'avec leur consentement. Yahya al-Himmani rapporte, d'après Sharik, d'après Abu Ishaq, qu'Ibn Mas'ud a également chargé al-Zubayr de prier pour lui. {cite:siyar-alam-nubala scan vol. 2 p. 443}
+
+## Sa maladie et la visite d'Uthman
+Al-Dhahabi rapporte d'après al-Sari ibn Yahya, d'après Abu Shuja', d'après Abu Tayba, qu'Abd Allah tomba malade et [[person/uthman-ibn-affan|qu'Uthman]] vint le voir et lui demanda : « De quoi te plains-tu ? » Il répondit : « De mes péchés. » « Et que désires-tu ? » « La miséricorde de mon Seigneur. » « Dois-je t'envoyer un médecin ? » « Le médecin m'a rendu malade. » « Dois-je te verser une pension ? » « Je n'en ai point besoin. » {cite:siyar-alam-nubala scan vol. 2 p. 443} Al-Dhahabi note que les narrateurs divergent quant à la chaîne de transmission : Ibn Wahb la rapporte d'après Shuja', tandis qu'Uthman ibn Yaman et Hajjaj ibn Nusayr la rapportent d'après Shuja', d'après Abu Fatima. {cite:siyar-alam-nubala scan vol. 2 p. 443} On lui attribue également un hadith à propos de la mort : « Que les deux choses que je déteste, la mort et la pauvreté, sont bienvenues ! » {cite:siyar-alam-nubala scan vol. 1 p. 2531}
+
+## Ce qu'il a laissé
+Al-Dhahabi rapporte de Sayf ibn Umar, d'après Atiyya, d'après Abu Sayf, qu'Ibn Mas'ud, à la mort d'Umar, renonça à sa rente, à l'instar de certains riches notables de Koufa, et acquit un domaine à Radhan. Il laissa à sa mort quatre-vingt-dix mille mithqals, outre des esclaves, des biens et du bétail. {cite:siyar-alam-nubala scan vol. 2 p. 442} Après son décès, al-Zubayr se rendit auprès d'Uthman et lui dit : « Donne-moi la rente d'Abd Allah, car ses héritiers y ont davantage droit que le trésor. » Uthman lui en accorda quinze mille. {cite:siyar-alam-nubala scan vol. 2 p. 443} Hafs ibn Ghiyath rapporte d'après Hisham ibn Urwa, d'après son père, qu'Uthman avait retenu sa rente pendant deux ans. {cite:siyar-alam-nubala scan vol. 2 p. 443}
+
+## Inhumation et prière
+Al-Dhahabi rapporte d'après Ubayd Allah ibn Abd Allah qu'Ibn Mas'ud mourut à Médine et fut enterré à al-Baqi' en 32 H ; il était de petite taille, mince et avait le teint très foncé. {cite:siyar-alam-nubala scan vol. 2 p. 444} Ibn Abd al-Barr indique également qu'il mourut à Médine en 32 H et rapporte que lorsqu'Abu al-Darda apprit la nouvelle, il s'exclama : « Il n'a laissé personne comme lui ! » {cite:isti-ab-ibn-abd-al-barr scan vol. 2 p. 410} Awn ibn Abd Allah et d'autres estiment son âge à un peu plus de soixante ans ; Yahya ibn Abi Utba avance le chiffre de soixante-trois ans. {cite:siyar-alam-nubala scan vol. 2 p. 444}
+
+## Là où les rapports divergent
+Deux dates sont mentionnées : l’an 32, rapportée par Ubayd Allah ibn Abd Allah et confirmée par plusieurs autorités, et l’an 33, donnée par Yahya ibn Abi Utba et Yahya ibn Bukayr. Al-Dhahabi pense qu’il serait décédé au début de l’an 33, tandis que d’autres avancent une date trois ans avant Uthman. {cite:siyar-alam-nubala scan vol. 2 p. 444} Concernant la rémunération, deux versions s’opposent : soit il y aurait renoncé après la mort d’Umar, soit Uthman l’aurait retenue pendant deux ans. {cite:siyar-alam-nubala scan vol. 2 p. 442} {cite:siyar-alam-nubala scan vol. 2 p. 443} Al-Dhahabi ajoute qu’Ibn Mas’ud s’était rendu auprès d’Uthman et qu’en chemin, il avait assisté à la mort d’Abu Dharr à al-Rabadha et avait prié pour lui ; voir « [[event/death-of-abu-dharr-at-al-rabadha|La mort d’Abu Dharr à al-Rabadha]]». {cite:siyar-alam-nubala scan vol. 2 p. 443}
+
+## Sources et documentation
+La fiche utilise deux numérisations du Siyar a'lam al-nubala' d'al-Dhahabi, dont l'une est plus nette, et d'al-Isti'ab d'Ibn Abd al-Barr. Le texte des Tabaqat d'Ibn Sa'd n'étant pas disponible dans les numérisations, les détails qu'il donne sur le linceul et ses filles ne sont pas reproduits ici ; aucun des ouvrages consultés ne les mentionne, et l'emplacement exact de la tombe dans al-Baqi' n'est pas précisé.

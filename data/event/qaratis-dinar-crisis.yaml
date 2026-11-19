@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/umayyad]
 regions: [egypt-nile, levant-iraq, anatolia-balkans]
 date:
-  start: { edtf: "0692~", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافة عبد الملك (البلاذري ص 335–336). التحويل مشتق." }
+  start: { edtf: "0692~", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافة عبد الملك ⁦(البلاذري ص 335–336)⁩. التحويل مشتق." }
 relations:
   - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "الخليفة المحدث الضارب", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/khalid-ibn-yazid-ibn-muawiya, role: "المشير بالتحريم والضرب", sources: [source/futuh-buldan-maarif-1407] }
@@ -18,7 +18,7 @@ relations:
   - { type: during_reign, target: person/abd-al-malik-ibn-marwan, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 335–336"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 335–336"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-26
 sources: [source/futuh-buldan-maarif-1407]

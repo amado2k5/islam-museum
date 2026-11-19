@@ -3,6 +3,7 @@ class: person
 label:
   ar: "النعمان بن عمرو الأنصاري"
   en: "al-Nu'man ibn Amr al-Ansari"
+  fr: "al-Nu'man ibn Amr al-Ansari"
   ur: "النعمان بن عمرو الأنصاري"
 names:
   - { kind: full, lang: ar, value: "النعمان بن عمرو الأنصاري" }
@@ -10,11 +11,12 @@ roles: [companion]
 summary:
   ar: "صحابي أنصاري ورد اسمه في كتب التراجم."
   en: "An Ansari Companion named in the biographical works."
+  fr: "Un compagnon Ansari nommé dans les œuvres biographiques."
   ur: "سیرت کی کتابوں میں مذکور انصاری صحابی۔"
 wings: [people]
 sources: [source/isaba-matba-al-saada-1328]
 relations:
-  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/isaba-matba-al-saada-1328], confidence: low }
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name ⁦(الأنصاري)⁩; denotes association, not proven residence.", sources: [source/isaba-matba-al-saada-1328], confidence: low }
   - { type: member_of, target: group/sahaba, sources: [source/isaba-matba-al-saada-1328]}
   - { type: member_of, target: group/ansar, sources: [source/isaba-matba-al-saada-1328]}
 external_ids:

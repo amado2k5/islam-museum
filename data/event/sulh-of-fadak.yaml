@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0628~", hijri: "0007~", calendar: julian, precision: year, status: tradition, derived: true, note: "منصرف النبي من خيبر سنة 7هـ (البلاذري ص 41–42). التحويل مشتق." }
+  start: { edtf: "0628~", hijri: "0007~", calendar: julian, precision: year, status: tradition, derived: true, note: "منصرف النبي من خيبر سنة 7هـ ⁦(البلاذري ص 41–42)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/fadak }
   - { type: had_participant, target: person/muhayyisa-ibn-masud, role: "رسول النبي إلى أهل فدك يدعوهم إلى الإسلام", sources: [source/futuh-buldan-maarif-1407] }
@@ -17,7 +17,7 @@ relations:
   - { type: basis_for, target: concept/fay, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 41–42"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 41–42"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-2
 sources: [source/futuh-buldan-maarif-1407]

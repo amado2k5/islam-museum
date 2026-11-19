@@ -10,7 +10,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0634~", hijri: "0013~", calendar: julian, precision: year, status: tradition, derived: true, note: "في أول فتوح الشام (البلاذري ص 151–152). التحويل مشتق." }
+  start: { edtf: "0634~", hijri: "0013~", calendar: julian, precision: year, status: tradition, derived: true, note: "في أول فتوح الشام ⁦(البلاذري ص 151–152)⁩. التحويل مشتق." }
 relations:
   - { type: part_of, target: event/conquest-of-syria }
   - { type: had_participant, target: person/abu-umama-al-bahili, role: "أمير السرية التي هزمت قواد الروم", sources: [source/futuh-buldan-maarif-1407] }
@@ -19,7 +19,7 @@ relations:
   - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 151–152"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 151–152"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-8
 sides:

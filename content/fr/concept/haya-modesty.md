@@ -1,0 +1,9 @@
+---
+id: concept/haya-modesty
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/haya-modesty.md}
+---
+## Résumé
+Haya (modestie) désigne le sens littéral de changement et de recul ressentis par une personne par crainte du blâme ; en droit, c’est une qualité qui éloigne d’une personne des actes et des paroles déplaisants et qui prévient la négligence envers autrui. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7426} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7427} L’article la distingue de khajal (honte apparente), de badhaa (paroles indécentes) et de waqaha (impudence). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7426} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7427} Parmi les adages : la pudeur fait partie de la foi et embellit tout ce qu’elle contient. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7427} L’article aborde ensuite les règles relatives à la pudeur et n’est pas exhaustif ici. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7427} Les adages sur la pudeur en font une branche de la foi, une chose qui n’apporte que du bien, une forme de devoir envers Dieu, dont il faut se prémunir corps et âme et se souvenir de la mort ; la pudeur qui empêche d’apprendre la religion n’est pas une pudeur légale. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7428} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7429} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7430} La modestie face aux malfaiteurs et le fait de ne pas exiger le bien sont une faiblesse, non de la modestie ; une somme prise à autrui par simple modestie est comme un bien usurpé et doit être restituée. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7430} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7431}

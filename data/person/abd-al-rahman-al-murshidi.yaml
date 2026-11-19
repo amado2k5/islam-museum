@@ -43,5 +43,5 @@ occupations:
     note: "merge-map link from role 'mufti', Job Browser linking wave"
     sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
-  - { type: lived_in, target: place/hijaz, note: "Place association from the person's nisba/name (حجازي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/hijaz, note: "Place association from the person's nisba/name ⁦(حجازي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: born_in, target: place/mecca, note: "al-Zirikli, al-A'lam, vol. 3 p. 321: born in Mecca", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

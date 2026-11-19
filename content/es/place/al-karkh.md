@@ -1,0 +1,15 @@
+---
+id: place/al-karkh
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/place/al-karkh.md}
+---
+## Resumen
+Al-Karkh era un barrio de [[place/baghdad|Bagdad]]. Al-Baladhuri relata que al-Mansur ubicó el centro del mercado en al-Karkh, ordenó a los comerciantes que construyeran tiendas y los obligó a pagar la renta de la ghella. {cite:futuh-buldan-maarif-1407 p. 415}
+
+## Detalles
+Al escribir sobre la fundación de Bagdad, al-Baladhuri dice que al-Mansur convirtió al-Karkh en el punto de encuentro de los mercados, ordenó a los mercaderes que construyeran allí sus tiendas y les cobró el ghella {cite:futuh-buldan-maarif-1407 p. 415}. Esto formaba parte de la organización de la ciudad por parte de al-Mansur —el trazado de sus mercados y la regulación del sustento de sus habitantes— tras lo cual al-Karkh se convirtió en uno de los barrios más grandes y concurridos de Bagdad {cite:futuh-buldan-maarif-1407 p. 415}. También registra que al-Mansur entregó un palacio en al-Qatul a su mawla Ashinas el Turco, y que otorgó propiedades en Bagdad a sus comandantes, compañeros y secretarios {cite:futuh-buldan-maarif-1407 p. 415}. Entre los nombres de los barrios de la ciudad, señala que al-Mukharrim tomó su nombre de Mukharrim ibn Shurayh ibn Hazn al-Harithi, quien se estableció allí {cite:futuh-buldan-maarif-1407 p. 415}.
+
+## En el Mu'jam al-Buldan de Yaqut
+Yaqut abre la entrada dando la vocalización de al-Karkh, con una fatha, un sukun y una kha con punto, y dice que no cree que la palabra sea árabe sino nabatea; señala que sus hablantes usan un verbo que significa recoger agua en un lugar. {cite:mujam-al-buldan-sader-1995 4 p.447} Un párrafo aparte sobre el Karkh de Bagdad relata que cuando al-Mansur construyó Bagdad puso los mercados en las puertas de la ciudad redonda, y que después de que un enviado del emperador bizantino advirtiera que los comerciantes podían actuar como espías, ordenó a los comerciantes que salieran de la ciudad e hizo disponer un mercado en filas escalonadas entre el Sarat y el canal Isa. {cite:mujam-al-buldan-sader-1995 4 p.448} Yaqut informa de al-Khatib que al-Mansur no cobró renta por los mercados en vida y que al-Mahdi impuso el kharaj a las tiendas, y añade otro relato en el que los comerciantes fueron trasladados a al-Karkh porque el humo de sus puestos ennegrecía las paredes de la ciudad. {cite:mujam-al-buldan-sader-1995 4 p.448} Añade que al-Karkh se encontraba primero en el centro de Bagdad con los barrios que lo rodeaban, pero en su época era un único barrio en medio de ruinas; describe los barrios vecinos y afirma que la gente de al-Karkh era toda chiíta imamí, mientras que la de Bab al-Basra, Nahr al-Qalla'in y Bab al-Muhawwal era suní. {cite:mujam-al-buldan-sader-1995 4 p.448}

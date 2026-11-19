@@ -1,0 +1,15 @@
+---
+id: concept/al-fawasil
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/al-fawasil.md}
+---
+## Resumen
+Una fasila es la última palabra de un verso, como la rima de un poema o el extremo emparejado de una prosa rimada; [[person/badr-al-din-al-zarkashi|al-Zarkashi]] hizo del conocimiento de los terminades de verso el tercer tipo en [[work/al-burhan-fi-ulum-al-quran-zarkashi|al-Burhan]]. {cite:burhan-dar-al-hadith-2006 p.50} Cita [[person/abu-amr-al-dani|a Abu Amr al-Dani]] diciendo que es la última palabra de una frase, [[person/al-jabari-abu-ishaq-ibrahim-ibn-umar|al-Ju'bari]] que se aparta del uso técnico, y Qadi Abu Bakr que fawasil son sonidos que coinciden al final de segmentos a través de los cuales se transmiten significados. {cite:burhan-dar-al-hadith-2006 p.50}
+
+## Fasila y fin de verso
+Al-Dani las distingue: una fasila es un discurso que se desprende de lo que sigue, que puede o no ser el final de un versículo — cada final de verso es un fasila pero no toda fasila es un final de versículo; por eso Sibawayh, ilustrando rimas, citó palabras que acordaron no ser finales de verso. {cite:burhan-dar-al-hadith-2006 p.50} Se llaman fawasil porque en ellas se separan dos enunciados, no saj': el nombre sigue la propia descripción del Corán de sus versículos tal como se establece claramente, y saj' se evitó porque la palabra proviene del arrullo de los pájaros, del que el Corán se mantenía separado, y porque el Corán está entre atributos de Dios y no puede describirse en términos no autorizados. {cite:burhan-dar-al-hadith-2006 p.50} {cite:burhan-dar-al-hadith-2006 p.51} También las distinguían así: la prosa rimada se busca por sí misma y el significado que la acompaña, mientras que los fawasil siguen los significados y no se buscan por sí mismos. {cite:burhan-dar-al-hadith-2006 p.51}
+
+## ¿Hay prosa rimada en el Corán?
+Sobre esta base [[person/ali-ibn-isa-al-rummani|, al-Rummani]], en su libro sobre la inimitabilidad, sostenía que los fawasil son la elocuencia y la prosa rimada un defecto; [[person/al-baqillani|al-Baqillani]] le siguió y reportó desde los Ash'aris que el Corán no puede contener prosa rimada, como afirmó Abu al-Hasan al-Ash'ari. {cite:burhan-dar-al-hadith-2006 p.51} Muchos de sus opositores afirmaron que la prosa rimada en ella era una de las formas en que destaca el habla, como la paronomasia y el cambio de persona, citando a Harun puesto delante de Musa en un lugar y después de él en otro para mantener la rima. {cite:burhan-dar-al-hadith-2006 p.51} Al-Baqillani responde que si fuera prosa rimada no saldría de los estilos propios de los árabes y por tanto no podría ser inimitable, y que la prosa rimada era costumbre de los adivinos, por lo que negarla del Corán es aún más apropiado. {cite:burhan-dar-al-hadith-2006 p.51}

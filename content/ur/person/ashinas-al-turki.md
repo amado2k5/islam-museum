@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-اشناس ترک معتصم کے آزاد کردہ غلام (مولیٰ) تھے۔ {cite:futuh-buldan-maarif-1407}
+اشناس ترک معتصم کے آزاد کردہ غلام ⁦(مولیٰ)⁩ تھے۔ {cite:futuh-buldan-maarif-1407}
 
 ## البلاذری کے ہاں
 معتصم نے انہیں رشید کا وہ محل سونپا جو قاطول میں تھا۔ پھر انہیں ان امراء کے ساتھ، جو ان کے ساتھ ملائے گئے تھے، سرِ من رأیٰ میں کرخ فیروز میں ٹھہرایا۔ {cite:futuh-buldan-maarif-1407}

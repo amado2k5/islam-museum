@@ -1,0 +1,17 @@
+---
+id: place/thaniyyat-al-mirar
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/place/thaniyyat-al-mirar.md}
+---
+## Visión general
+Thaniyyat al-Mirar es un paso en la ruta de Medina a La Meca, cerca del monte al-Mirar, que los musulmanes tomaron en su camino a Hudaybiyya. {cite:mubarakpuri-raheeq} La delimitación en el mapa es aproximada y sus coordenadas provienen de {cite:geonames-gazetteer}.
+
+## En el Mu'jam al-buldan de Yaqut
+Yaqut da el paso bajo Thaniyyat al-Murar, con una damma en el mim y una ra' ligera, y dice que murar es una hierba amarga que hace que los labios de los camellos se retraigan cuando la comen; señala que Muslim ibn al-Hajjaj menciona el paso en su Sahih en el hadiz de Abu Mu'adh con una damma, y que en otro hadiz (de Ibn Habib al-Harithi) hay duda entre damma y kasra, la entrada no dice de quién; la entrada no dice dónde está. {cite:mujam-al-buldan-sader-1995 2 p.85} En su entrada sobre al-Murar da a Ibn Ishaq en el año de al-Hudaybiyya: el Profeta partió y, cuando tomó Thaniyyat al-Murar, su camello se arrodilló; la gente dijo que se había resistido; él dijo que no, que no era su naturaleza, y que quien sujetaba al elefante la había sujetado; La entrada añade entonces, con palabras que se extienden desde las de Ibn Ishaq, que Thaniyyat al-Murar es la descendencia de al-Hudaybiyya. {cite:mujam-al-buldan-sader-1995 5 p.92}
+
+También tiene Thaniyyat al-Marra, con una fatha en el mim, un nombre parecido, y le relaciona dos cosas: la tradición de la Hégira en la que el guía llevó al Profeta y a Abu Bakr por Amaj, luego al-Kharrar, luego a Thaniyyat al-Marra, luego a Laqfa, y el grupo de 'Ubayda ibn al-Harith que llegó a un agua en el Hiyaz debajo del paso. {cite:mujam-al-buldan-sader-1995 2 p.85} Su entrada en al-Ahya' llama a esa agua la que 'Ubayda asaltó y la coloca debajo de Thaniyyat al-Marra. {cite:mujam-al-buldan-sader-1995 1 p.118} Para él son dos entradas vecinas, y no las une.
+
+## La identificación del museo
+El registro, de al-Mubarakfuri, menciona un paso en la ruta a La Meca desde Medina, cerca del monte al-Marar, que los musulmanes tomaron en su camino a al-Hudaybiyya; sus coordenadas provienen de GeoNames y su ubicación en el mapa es aproximada. Yaqut coincide, según Ibn Ishaq, en que el paso que el Profeta tomó en el año de al-Hudaybiyya fue Thaniyyat al-Murar y que se trata del descenso a al-Hudaybiyya; pero esa conexión se encuentra en su entrada sobre al-Murar, no en su entrada sobre Thaniyyat al-Murar, que cita el Sahih de Muslim y no proporciona ninguna ubicación. Deriva el nombre de una hierba y no tiene ninguna montaña con ese nombre, por lo que "cerca del monte al-Marar" proviene de GeoNames, no de Yaqut. También menciona Thaniyyat al-Marra, con una fatha, en la ruta de la Hégira cerca de al-Kharrar, que el museo no relaciona con este paso. El punto del registro (21.62459, 40.02331) está marcado como aproximado y se encuentra a 30.3 km del punto de La Meca del museo, a 38.7 km de su punto de Hudaybiyya y a 319.0 km de su punto de Medina; Yaqut no proporciona distancia ni coordenadas, y la frase del registro "en el camino a La Meca desde Medina" no aparece en ninguna de sus entradas. Véase [[place/hudaybiyya|al-Hudaybiyya]] y [[place/al-kharrar|al-Kharrar]].

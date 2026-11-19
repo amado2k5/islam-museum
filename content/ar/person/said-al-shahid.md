@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b75, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/165-166" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b75, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/165-166" }
 ---
 ## موجز
 سعيد الشهيد، المقنّع في الحديد، المشتاق إلى رؤية المنعم المجيد. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 540)⁩ في الصفحتين 165 و166، وتسلسله 541. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/165} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/166}

@@ -60,7 +60,7 @@ const { lang, t, journeys, exhibits, halls, wingTitles } = Astro.props;
 const dir = ARABIC_SCRIPT.includes(lang) ? "rtl" : "ltr";
 // Defensive: journeys carry no HTML, but never let a stray "<" break the
 // JSON script block (in particular "</script>").
-const payloadJson = JSON.stringify({ lang, t, journeys, exhibits, halls, wingTitles }).replace(/</g, "\\u003c");
+const payloadJson = JSON.stringify({ lang, dir: ARABIC_SCRIPT.includes(lang) ? "rtl" : "ltr", t, journeys, exhibits, halls, wingTitles }).replace(/</g, "\\u003c");
 ---
 <div id="tour3d-root" dir={dir} lang={lang}>
   <div id="app"></div>

@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b14, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/375-376" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b14, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/375-376" }
 ---
 ## خلاصہ
 ابو عمرو محمد بن ابراہیم زجاجی اصل میں نیشاپور کے تھے اور [[place/mecca|مکہ]] میں رہے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» میں ان کا ترجمہ لکھا ہے ⁦(نمبر 648)⁩۔ یہ ان عارفوں میں ہیں جن کا زمانہ ابو نعیم نے پایا۔ ابو نعیم لکھتے ہیں کہ انہوں نے تقریباً ساٹھ حج کیے۔ وہ چالیس برس مکہ میں رہے اور حرم کی تعظیم میں اس کے اندر قضائے حاجت نہ کی۔ ان کی وفات 348ھ میں ہوئی۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/375-376}

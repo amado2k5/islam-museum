@@ -1,0 +1,34 @@
+---
+id: person/ali-farka-toure
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/ali-farka-toure.md}
+---
+## Resumen
+Ali Ibrahim "Ali Farka" Touré (31 de octubre de 1939 – 7 de marzo de 2006) fue un cantante y guitarrista maliense nacido en el pueblo de Kanau, en la región de Tombuctú, y fallecido en Bamako. {cite:wikipedia-ali-farka-toure-en} {cite:wikipedia-ali-farka-toure-fr} Fusionó la música tradicional maliense con el blues estadounidense, convirtiéndose en pionero del "desert blues" y del "John Lee Hooker africano"; grabó con Ry Cooder, Taj Mahal y Toumani Diabaté, ganó dos premios Grammy en vida y un tercero tras su muerte, y se convirtió en alcalde de su ciudad natal de Niafunké en 2004. {cite:wikipedia-ali-farka-toure-en} {cite:wikipedia-ali-farka-toure-fr}
+
+## Carrera
+Touré nació en Kanau, a orillas del río Níger, en el Cercle Gourma-Rharous de la región de Tombouctou, en el seno de una familia Songhai — el artículo francés la describe como una noble familia Arma de origen Songhai — y la familia se trasladó al cercano pueblo de Niafunké cuando él era un bebé; su padre, soldado del ejército francés, murió en 1940. {cite:wikipedia-ali-farka-toure-en} {cite:wikipedia-ali-farka-toure-fr} Fue el décimo hijo de su madre, pero el único que sobrevivió a la infancia, por lo que se le dio el apodo de «Farka», que significa burro, un animal admirado por su tenacidad; explicó: «¡Soy el burro sobre el que nadie trepa!» {cite:wikipedia-ali-farka-toure-en} {cite:wikipedia-ali-farka-toure-fr}
+
+En su alta sociedad, la música pertenecía a la casta griot y estaba prohibida a la casta "noble" en la que había nacido, así que construyó en secreto un monocordio con una lata y tocó con amigos. {cite:wikipedia-ali-farka-toure-en} Trabajó como chófer y como barquero de ambulancia; una actuación en 1956 del ballet nacional de Guinea le hizo tocar la guitarra; viajó por Mali con el escritor Amadou Hampâté Bâ recopilando música tradicional, fundó su primer grupo, La Troupe 117, en 1960, y realizó su primer viaje fuera de África, al festival de Sofía, en 1968. {cite:wikipedia-ali-farka-toure-en} {cite:wikipedia-ali-farka-toure-fr}
+
+En los años 70 trabajó como ingeniero de sonido en Radio Mali en Bamako, grabando en el estudio de la emisora —entonces el único en Malí— y publicó una serie de álbumes titulados con su nombre en Sonafric a finales de los años 70 y principios de los 80. {cite:wikipedia-ali-farka-toure-en} En 1986 se emitieron temas de su "álbum rojo" en la radio británica después de que el DJ Andy Kershaw comprara el disco al azar en París, y World Circuit lo trajera entonces a Gran Bretaña para grabar; sus álbumes de World Circuit incluyen The River (1990) y The Source (con Taj Mahal; fechado en 1991 en el artículo francés, en 1992 en inglés). {cite:wikipedia-ali-farka-toure-en} {cite:wikipedia-ali-farka-toure-fr}
+
+En 2004 se convirtió en alcalde de Niafunké y gastó su propio dinero en nivelar sus carreteras, excavar canales de alcantarillado y abastecer un generador para la empobrecida localidad; en 2005 se creó en Bamako la Fundación Ali Farka Touré para continuar su legado. {cite:wikipedia-ali-farka-toure-en} {cite:wikipedia-ali-farka-toure-fr} Murió en Bamako de cáncer óseo: el artículo en inglés fecha su muerte el 6 de marzo de 2006, día en que afirma que el Ministerio de Cultura de Malí lo anunció, mientras que los artículos en francés y árabe indican el 7 de marzo de 2006 y Wikidata recoge ambas afirmaciones; este registro sigue al 7 de marzo y recoge el desacuerdo. {cite:wikipedia-ali-farka-toure-en} {cite:wikipedia-ali-farka-toure-fr} {cite:wikipedia-ali-farka-toure-ar} {cite:wikidata-ali-farka-toure} El artículo francés añade que fue enterrado en Niafunké. {cite:wikipedia-ali-farka-toure-fr}
+
+## Obras
+Su álbum más mediático fue Talking Timbuktu (1994) con el guitarrista estadounidense Ry Cooder, que ganó el Grammy al Mejor Álbum de Música del Mundo — aunque Cooder recordó más tarde que a Touré no le gustaba el estudio de Hollywood donde se grabó. {cite:wikipedia-ali-farka-toure-en} {cite:wikipedia-ali-farka-toure-ar} Niafunké (1999) se grabó en una escuela abandonada en su ciudad natal; Mississippi to Mali (2002) lo emparejó con Corey Harris, y ambos aparecieron en el documental de Martin Scorsese de 2003 Feel Like Going Home, rastreando las raíces del blues hasta África Occidental. {cite:wikipedia-ali-farka-toure-en}
+
+En septiembre de 2005 lanzó In the Heart of the Moon junto al corista Toumani Diabaté, que le valió un segundo Grammy; su último álbum, Savane, publicado póstumamente en julio de 2006, fue elegido álbum del año 2006 por el panel de World Music Charts Europe, y Ali and Toumani, grabado en 2005, ganó un tercer Grammy póstumo el 13 de febrero de 2011. {cite:wikipedia-ali-farka-toure-en} {cite:wikipedia-ali-farka-toure-fr} Rolling Stone le situó en el puesto 76 y a Spin en el 37 entre los mejores guitarristas de todos los tiempos. {cite:wikipedia-ali-farka-toure-en} {cite:wikipedia-ali-farka-toure-ar} Cantó en varias lenguas africanas, principalmente Songhay, Fulfulde, Tamasheq y Bambara. {cite:wikipedia-ali-farka-toure-en}
+
+## Posiciones y críticas
+Esta sección expone diferentes posiciones tal como se recogen en las fuentes. No es un veredicto del museo.
+
+**"No blues." ** Los críticos lo llamaron "el bluesman africano" y "el John Lee Hooker africano" por la semejanza de su forma de tocar con el estilo hipnótico de Hooker, pero Touré insistió en que su música no era blues, diciendo: "Para mí el blues es un tipo de polvo de jabón, mi música es más antigua que el blues." {cite:wikipedia-ali-farka-toure-en} Martin Scorsese describió la música de Touré como el ADN del blues, y el artículo francés sitúa su música en la antigua tradición songhai llamada "wallahidu". {cite:wikipedia-ali-farka-toure-fr} {cite:wikipedia-ali-farka-toure-en}
+
+**Su fe.** Ninguno de los tres artículos, y tampoco Wikidata, menciona una religión, escuela jurídica u orden para Ali Farka Touré; su origen familiar Songhai, su crianza en el Sahel musulmán y el repertorio tradicional que cantaba son trasfondo y obra, no una declaración de una escuela personal — el repertorio de un cantante no es un testimonio madhhab — por lo que el museo registra su fe como desconocida. {cite:wikipedia-ali-farka-toure-en} {cite:wikipedia-ali-farka-toure-fr} {cite:wikidata-ali-farka-toure}
+
+## Fuentes
+- Las entidades fuente definidas citadas anteriormente, registradas en `data/source/`.
+- Las revisiones de este artículo deben estar fechadas y deben indicar la fuente que modificó cada hecho.

@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b49, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/136" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b49, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/136" }
 ---
 ## موجز
 محمد بن سباع النميري، كان من المشتهرين بذكره، والمستأنسين بروحه. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة 486)⁩ في الصفحة 136. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/136}

@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0640~", hijri: "0020~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد وفاة إياد سنة 20 (البلاذري ص 242–243). التحويل مشتق." }
+  start: { edtf: "0640~", hijri: "0020~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد وفاة إياد سنة 20 ⁦(البلاذري ص 242–243)⁩. التحويل مشتق." }
 relations:
   - { type: part_of, target: event/conquest-of-jazira }
   - { type: occurred_at, target: place/ras-al-ayn }
@@ -19,7 +19,7 @@ relations:
   - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 242–243"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 242–243"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-14
 sides:

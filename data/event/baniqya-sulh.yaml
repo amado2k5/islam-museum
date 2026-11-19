@@ -10,7 +10,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0633~", calendar: julian, precision: year, status: tradition, derived: true, note: "في مسير خالد سنة 12 (البلاذري ص 342). التحويل مشتق." }
+  start: { edtf: "0633~", calendar: julian, precision: year, status: tradition, derived: true, note: "في مسير خالد سنة 12 ⁦(البلاذري ص 342)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/baniqya }
   - { type: had_participant, target: person/bashir-ibn-sad-al-ansari, role: "المبعوث الأول المقتول جراحته", sources: [source/futuh-buldan-maarif-1407] }
@@ -21,7 +21,7 @@ relations:
   - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 342–343"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 342–343"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-27
 sources: [source/futuh-buldan-maarif-1407]

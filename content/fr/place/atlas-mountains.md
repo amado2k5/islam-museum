@@ -1,0 +1,18 @@
+---
+id: place/atlas-mountains
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/atlas-mountains.md}
+---
+
+## Noms et premières descriptions
+Atlas est le nom générique des montagnes d'Afrique du Nord, au Maroc, en Algérie et en Tunisie. Son origine est inconnue, mais les Grecs l'utilisaient déjà, et Strabon ne donne que peu de détails. Les géographes arabes étaient imprécis et appliquaient souvent ce nom à des chaînes également appelées Adrar n-Deren, terme en réalité réservé au Haut Atlas marocain et à l'Atlas saharien algérien. Ibn Khaldoun considérait que les chaînes du Deren formaient une ceinture autour du Maghreb al-Aqsa, d'Asfi à Taza. Léon l'Africain distinguait les chaînes septentrionales de l'Atlas au sens strict, et Marmol nommait le Petit et le Grand Atlas. Les géologues français du second demi-siècle ont déterminé leur structure. {cite:encyclopaedia-of-islam-2 vol. 1 p. 797}
+
+## Structure et grandes régions
+Les chaînes de l'Atlas sont des montagnes plissées, apparentées aux chaînes tertiaires d'Europe, et ressuscitées par les soulèvements du Pliocène et du Quaternaire. Le Sahara commence au sud de la faille de l'Atlas méridional, qui s'étend d'Agadir à Gabès ; le Dabar, au sud de la Tunisie, et la Nefusa ne font donc pas partie de l'Atlas. L'Anti-Atlas est un vaste massif asymétrique de roches précambriennes et primaires, culminant à plus de 2 500 mètres et descendant vers les dépressions du Sus et du Dadès, vers le massif granitique et volcanique de la Sirwa (3 304 m) et vers les plaines du Drâ et du Tafilalet. Le Haut Atlas est un immense pli fondamental d'environ 750 km de long, s'élevant à plus de 4 000 mètres (Tubkal : 4 165 m, Mgun : 4 070 m), et portant des traces de glaciation quaternaire. Le Moyen Atlas, avec le Ben Nacer (3 354 m), présente le même style que le Haut Atlas et son nord-ouest descend en plateaux étagés couverts de cônes volcaniques ; il donne naissance aux principaux fleuves du Maroc, l’Oum er-Rebia, le Sebou et la Moulouya. {cite:encyclopaedia-of-islam-2 vol. 1 p. 797-798}
+
+L'Atlas saharien algérien prolonge le Haut Atlas à travers les massifs du Ksur, de l'Amour, de l'Ouled Naïl et du Zab, qui perdent de l'altitude vers le nord-est. Au-delà de la dépression de Biskra s'élèvent les Aurès, seul massif de l'Atlas saharien et point culminant de l'Algérie (2 329 m au Chelia). Le Dorsal tunisien et le Haut Tell, le Rif et l'Atlas tellien d'Oran et d'Alger forment les chaînes de montagnes bordant la Méditerranée. Le Rif est un croissant de montagnes s'étendant de Ceuta à Melilla (2 450 m au Tidighine). Les monts Dahra et Miliana ainsi que les Ouarsénis (1 985 m) se situent dans le Tell algérien, tandis que le Djurdjura, le Babor (2 004 m) et la Kabylie se trouvent à l'est. L'Atlas fait de l'Afrique du Nord un pays de chaînes de montagnes encerclant des plaines souvent à la fois élevées et arides. {cite:encyclopaedia-of-islam-2 vol. 1 p. 798-799}
+
+## Leur rôle dans l'histoire du Maghreb
+Le relief accentue les contrastes climatiques entre la Méditerranée et le Sahara, et domine les régions du Tell, les steppes des hauts plateaux et le désert du piémont saharien. Les principaux massifs constituaient des environnements géographiques originaux qui ont joué un rôle considérable, quoique principalement négatif, dans l'histoire du Maghreb. {cite:encyclopaedia-of-islam-2 vol. 1 p. 799}

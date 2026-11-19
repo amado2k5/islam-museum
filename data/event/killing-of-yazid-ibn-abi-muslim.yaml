@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/umayyad]
 regions: [maghreb]
 date:
-  start: { hijri: "0102~", precision: year, status: tradition, note: "قدومه سنة 102 (البلاذري ص 324)" }
+  start: { hijri: "0102~", precision: year, status: tradition, note: "قدومه سنة 102 ⁦(البلاذري ص 324)⁩" }
 relations:
   - { type: occurred_at, target: place/ifriqiya }
   - { type: had_participant, target: person/yazid-ibn-abi-muslim, role: "الوالي المقتول", sources: [source/futuh-buldan-maarif-1407] }
@@ -18,7 +18,7 @@ relations:
   - { type: had_participant, target: person/abdallah-ibn-musa-ibn-nusayr, role: "المتّهم المضروبة عنقه", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 324"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 324"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-22, lib-futuh-misr-batch-6-2026-10-31
 sources: [source/futuh-buldan-maarif-1407, source/futuh-misr-amir-1999]

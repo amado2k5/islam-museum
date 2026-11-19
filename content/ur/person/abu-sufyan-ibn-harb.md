@@ -8,7 +8,7 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 ابو سفیان بن حرب نے مکہ کی اعلانیہ جنگ کی قیادت کی، جو مسلمانوں کے خلاف تھی؛ وہ احد اور خندق میں سپہ سالار رہے، پھر فتحِ مکہ کے موقع پر اسلام لائے اور بوڑھے مسلمان ہو کر فوت ہوئے۔ ان کے بیٹے نے اموی سلطنت کی بنیاد رکھی۔
 
 ## زندگی
-وہ [[group/banu-umayya|بنو امیہ]] کے بڑے تاجر تھے؛ انھوں نے وہ قافلہ لے کر نکلنا تھا جس کا [[event/battle-of-badr|بدر]] میں بچ نکلنا ہوا، پھر وہ مکہ کے لشکر کے قائد بنے [[event/battle-of-uhud|احد]] (625ء) میں اور قبائل کے اتحاد کی قیادت کی [[event/battle-of-the-trench|خندق]] (627ء) میں {cite:ibn-ishaq-guillaume} {cite:watt-1956-medina}۔
+وہ [[group/banu-umayya|بنو امیہ]] کے بڑے تاجر تھے؛ انھوں نے وہ قافلہ لے کر نکلنا تھا جس کا [[event/battle-of-badr|بدر]] میں بچ نکلنا ہوا، پھر وہ مکہ کے لشکر کے قائد بنے [[event/battle-of-uhud|احد]] ⁦(625ء)⁩ میں اور قبائل کے اتحاد کی قیادت کی [[event/battle-of-the-trench|خندق]] ⁦(627ء)⁩ میں {cite:ibn-ishaq-guillaume} {cite:watt-1956-medina}۔
 
 جب مکہ مزاحمت کی سکت نہ رکھ سکا تو وہ مسلمانوں کے لشکر میں گئے اور انھیں امان دی گئی: روایت میں نبی کا یہ قول محفوظ ہے کہ جو ابو سفیان کے گھر میں داخل ہو وہ محفوظ ہے۔ کچھ ہفتوں بعد وہ [[event/battle-of-hunayn|حنین]] میں مسلمانوں کے ساتھ لڑے، اور روایت کہتی ہے کہ طائف میں ان کی دوسری آنکھ ضائع ہو گئی تھی {cite:ibn-sad-tabaqat-bewley}۔
 
@@ -37,8 +37,8 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 ## چھوٹے زائرین کے لیے
 ابو سفیان نے چھ سال مسلمانوں سے جنگ کی، پھر صلح کر لی اور ان میں شامل ہو گئے، اور زندہ رہ کر اپنے بیٹے کو خلیفہ دیکھا۔
 
-## سریۂ رابغ (الرحیق المختوم ص198)
-[[person/ubayda-ibn-al-harith|عبیدہ بن الحارث]] رابغ کی وادی میں دو سو سواروں کے ساتھ ان سے ملے، اور جنگ نہیں ہوئی ([[event/expedition-of-rabigh|سریۂ رابغ]]) {cite:mubarakpuri-raheeq p.198}۔
+## سریۂ رابغ ⁦(الرحیق المختوم ص198)⁩
+[[person/ubayda-ibn-al-harith|عبیدہ بن الحارث]] رابغ کی وادی میں دو سو سواروں کے ساتھ ان سے ملے، اور جنگ نہیں ہوئی ⁦([[event/expedition-of-rabigh|سریۂ رابغ]])⁩ {cite:mubarakpuri-raheeq p.198}۔
 
 ## شیخ عمر عبدالکافی کے درس سے: الدین القیم
 
@@ -61,6 +61,6 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 ## طارق السویدان کے پروگرام «أسرار القيادة النبوية» میں
 اپنے پروگرام [[work/asrar-al-qiyada-al-nabawiyya-program|«أسرار القيادة النبوية»]] میں [[person/tariq-al-suwaidan|طارق السویدان]] ابو سفیان کو «معاون پیروکار» کی مثال بناتے ہیں: قیادتی صلاحیت زیادہ، اسلام کے بعد کوئی چیلنج نہیں، اور مؤثریت محدود۔ {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep07 00:07:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep07 00:30:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep07 00:33:00} وہ کہتے ہیں کہ قیادتی صلاحیت ایمان اور اخلاق سے الگ ناپی جاتی ہے؛ بدر کے بعد، جب قریش کے سردار مارے گئے اور ابو لہب چند دن بعد مر گیا، ابو سفیان قریش کے واحد قائد رہ گئے۔ {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep07 00:10:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep07 00:11:00} وہ حدیبیہ کی صلح کے دوران ہرقل سے ابو سفیان کی گفتگو کو تجزیاتی سوالات کا نمونہ بتاتے ہیں۔ {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep07 00:14:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep07 00:21:00} ان کی رائے ہے کہ نبی کا یہ کہنا کہ ابو سفیان «فخر پسند» ہیں مذمت نہیں؛ قابلِ مذمت لوگوں کو حقیر جاننا اور حق کو رد کرنا ہے۔ {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep07 00:23:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep07 00:24:00} وہ بیان کرتے ہیں کہ ابو سفیان یرموک میں لوگوں کو ثابت قدمی پر ابھار رہے تھے، اور اس وقت ان کی عمر 76 سال بتاتے ہیں۔ {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep07 00:32:30} پچیسویں قسط میں وہ انہیں [[concept/al-qiyada-al-mawqifiyya|موقف پر مبنی قیادت]] میں «مایوس» کی مثال بناتے ہیں: بڑی اہلیت جسے اسلام کے بعد موزوں کردار نہ ملا۔ {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep25 00:33:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep25 00:34:00}
 
-## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 7)
+## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس ⁦(قسط 7)⁩
 
 شیخ روایت کرتے ہیں کہ ابو سفیان بن حرب نے عمر بن الخطاب سے چوری کی حد پوچھی تو اس نے اسے دکھا دی، اور ابو سفیان نے کہا: اللہ کی تعریف ہے جس نے ذلیل کو اس کی اطاعت سے عزت دی۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 00:24:30} ⁦(needs_source: ریکارڈنگ کی عبارت واضح نہیں)⁩

@@ -7,7 +7,7 @@ translators: []
 
 ## خلاصہ
 
-متین گوراک (پیدائش 1960) ترک جنرل ہیں جو اگست 2023 سے اگست 2025 تک جنرل اسٹاف کے 31ویں سربراہ رہے {cite:wikipedia-metin-gurak-en} {cite:wikipedia-metin-gurak-ar}۔
+متین گوراک ⁦(پیدائش 1960)⁩ ترک جنرل ہیں جو اگست 2023 سے اگست 2025 تک جنرل اسٹاف کے 31ویں سربراہ رہے {cite:wikipedia-metin-gurak-en} {cite:wikipedia-metin-gurak-ar}۔
 
 ## زندگی اور کام
 

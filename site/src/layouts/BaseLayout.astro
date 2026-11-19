@@ -1,7 +1,7 @@
 ---
 import A11yPrefs from "../components/A11yPrefs.astro";
 import "../styles/global.css";
-import { ui, LANGS, WINGS, wingHref, ARABIC_SCRIPT, OG_LOCALE, type Lang } from "../lib/i18n";
+import { ui, WINGS, wingHref, ARABIC_SCRIPT, OG_LOCALE, type Lang, ALL_LANGS } from "../lib/i18n";
 import { SITE } from "../lib/graph";
 import { truncateDesc } from "../lib/meta";
 import { wingCountTemplate, exploreGroups } from "../lib/nav";
@@ -22,8 +22,8 @@ const T = ui(lang);
 const fullTitle = path === `/${lang}/` ? `${T.name} · ${T.tagline}` : `${title} · ${T.name}`;
 const desc = truncateDesc(description ?? T.landing.meta_description ?? T.landing.lede);
 const canonical = `${SITE}${path}`;
-const alt = alternates ?? Object.fromEntries(LANGS.map((l) => [l, path.replace(`/${lang}/`, `/${l}/`)]));
-const multilingual = LANGS.length > 1;
+const alt = alternates ?? Object.fromEntries(ALL_LANGS.map((l) => [l, path.replace(`/${lang}/`, `/${l}/`)]));
+const multilingual = ALL_LANGS.length > 1;
 const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
 const fonts = ARABIC_SCRIPT.includes(lang) ? [naskh400, amiri400] : [serif400, inter400];
 // The per-wing counts are not baked into the page: a count in the header would change every one of the 100k+ pages on each
@@ -151,7 +151,7 @@ const EXPLORE = exploreGroups(lang);
           <a class="chip" href={`/${lang}/search/`}>{T.nav.search} ⌕</a>
           {multilingual && (
             <span class="chip lang-switch ltr" dir="ltr" style="border:1px solid var(--line)">
-              {LANGS.map((l, i) => (
+              {ALL_LANGS.map((l, i) => (
                 <>
                   {i > 0 && <span aria-hidden="true"> | </span>}
                   {l === lang ? <span aria-current="true" style="font-weight:700">{l.toUpperCase()}</span> : <a href={alt[l] ?? `/${l}/`} hreflang={l} lang={l}>{l.toUpperCase()}</a>}

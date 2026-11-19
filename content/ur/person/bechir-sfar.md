@@ -13,7 +13,7 @@ translators: []
 
 ## ابتدائی زندگی اور تعلیم
 
-وہ 27 فروری 1856 کو تونس میں پیدا ہوئے (عربی مضمون کے آغاز میں 1865 درج ہے، جو غالباً اعداد کی تبدیلی ہے)۔{cite:wikipedia-bechir-sfar-en}{cite:wikipedia-bechir-sfar-ar} ان کا خاندان مہدیہ میں مقیم ترک نژاد تھا اور والد مصطفیٰ صفر فوجی کمانڈر تھے۔{cite:wikipedia-bechir-sfar-ar} وہ صادقی کالج کی پہلی فارغ التحصیل جماعت میں تھے، 1880 میں سرکاری وظیفے پر پیرس گئے اور 1882 میں واپس آئے۔{cite:wikipedia-bechir-sfar-ar}{cite:wikipedia-bechir-sfar-en}
+وہ 27 فروری 1856 کو تونس میں پیدا ہوئے ⁦(عربی مضمون کے آغاز میں 1865 درج ہے، جو غالباً اعداد کی تبدیلی ہے)⁩۔{cite:wikipedia-bechir-sfar-en}{cite:wikipedia-bechir-sfar-ar} ان کا خاندان مہدیہ میں مقیم ترک نژاد تھا اور والد مصطفیٰ صفر فوجی کمانڈر تھے۔{cite:wikipedia-bechir-sfar-ar} وہ صادقی کالج کی پہلی فارغ التحصیل جماعت میں تھے، 1880 میں سرکاری وظیفے پر پیرس گئے اور 1882 میں واپس آئے۔{cite:wikipedia-bechir-sfar-ar}{cite:wikipedia-bechir-sfar-en}
 
 ## اصلاحی خدمات
 

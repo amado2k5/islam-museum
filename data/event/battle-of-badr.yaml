@@ -22,7 +22,7 @@ significance:
 casualties:
   value: 154
   status: tradition
-  note: "المسلمون: 14 شهيداً (ستة من المهاجرين وثمانية من الأنصار)؛ المشركون: سبعون قتيلاً وسبعون أسيراً، عامتهم القادة والزعماء (الرحيق ص224)"
+  note: "المسلمون: 14 شهيداً ⁦(ستة من المهاجرين وثمانية من الأنصار)⁩؛ المشركون: سبعون قتيلاً وسبعون أسيراً، عامتهم القادة والزعماء ⁦(الرحيق ص224)⁩"
   sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 relations:
   - { type: occurred_at, target: place/badr }
@@ -39,14 +39,14 @@ relations:
   - { type: had_participant, target: person/utba-ibn-rabia, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/umayya-ibn-khalaf, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/al-nadr-ibn-al-harith, role: "حامل لواء المشركين", sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, note: "أُخرج كرهاً في جيش قريش ونُهي عن قتله (الرحيق ص222)", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, note: "أُخرج كرهاً في جيش قريش ونُهي عن قتله ⁦(الرحيق ص222)⁩", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: had_participant, target: person/bilal-ibn-rabah, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/abdullah-ibn-masud, role: "احتزّ رأس أبي جهل", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: had_participant, target: person/muadh-ibn-amr-ibn-al-jamuh, role: "ضرب أبا جهل", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: had_participant, target: person/muawwidh-ibn-afra, role: "ضرب أبا جهل", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: had_participant, target: person/hubab-ibn-al-mundhir, role: "صاحب مشورة الماء", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/ubayda-ibn-al-harith, role: "أحد المبارزين؛ استشهد بالصفراء", sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/ikrima-ibn-abi-jahl, note: "قطع يد معاذ بن عمرو (الرحيق ص221)", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ikrima-ibn-abi-jahl, note: "قطع يد معاذ بن عمرو ⁦(الرحيق ص221)⁩", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/hijra }
   - { type: caused, target: event/badr-prisoners, note: "أعقبتها قضية الأسارى والفداء" }
@@ -57,7 +57,7 @@ sides:
     strength:
       range: [313, 317]
       status: debated
-      note: "313 أو 314 أو 317 رجلاً؛ 82–86 من المهاجرين و61 من الأوس و170 من الخزرج؛ فرسان وسبعون بعيراً (الرحيق ص204–205)"
+      note: "313 أو 314 أو 317 رجلاً؛ 82–86 من المهاجرين و61 من الأوس و170 من الخزرج؛ فرسان وسبعون بعيراً ⁦(الرحيق ص204–205)⁩"
       sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
   - label: { en: "Quraysh of Mecca", ar: "جيش قريش" }
     participants: [group/quraysh]
@@ -65,7 +65,7 @@ sides:
     strength:
       value: 1000
       status: tradition
-      note: "نحو 1300 عند الخروج بمائة فرس وستمائة درع؛ نقصوا إلى نحو ألف برجوع بني زهرة (~300) مع الأخنس بن شريق؛ تقدير النبي من الإبل المنحورة: بين التسعمائة والألف (الرحيق ص206–208، ص211)"
+      note: "نحو 1300 عند الخروج بمائة فرس وستمائة درع؛ نقصوا إلى نحو ألف برجوع بني زهرة (~300) مع الأخنس بن شريق؛ تقدير النبي من الإبل المنحورة: بين التسعمائة والألف ⁦(الرحيق ص206–208، ص211)⁩"
       sources: [source/mubarakpuri-raheeq]
 map:
   kind: battle

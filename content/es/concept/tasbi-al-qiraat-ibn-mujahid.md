@@ -1,0 +1,22 @@
+---
+id: concept/tasbi-al-qiraat-ibn-mujahid
+lang: es
+source_lang: en
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (spanish lane, wave 5)", model: "claude-sonnet-5-5", run: "spanish-w5-2026-11-18", source: "content/en/concept/tasbi-al-qiraat-ibn-mujahid.md" }
+status: { review: published }
+---
+## Resumen
+El paso de los «sieteístas» es [[person/ibn-mujahid|Abu Bakr Ahmad ibn Musa ibn al-Abbas ibn Mujahid]] limitando su libro a las lecturas de siete imanes, uno o dos por cada ciudad, tras lo cual el número siete se hizo común. Esta limitación tuvo lugar a comienzos del siglo IV; su autor, de Bagdad, murió en 324 H, contemporáneo de varios otros compiladores. {cite:nashr-dahman-damascus-1345-v1 p. 44}
+
+## Antes de Ibn Mujahid
+Ibn al-Jazari enumera a quienes lo precedieron en reunir las lecturas: Abu Ubayd al-Qasim ibn Sallam (m. 224 H), que según el cómputo de Ibn al-Jazari reunió a veinticinco lectores con los siete; Ahmad ibn Jubayr al-Kufi (m. 258 H), que reunió las lecturas de cinco, uno por cada ciudad; el cadí Ismail ibn Ishaq al-Maliki (m. 282 H), veinte imanes; Abu Jafar al-Tabari (m. 310 H), más de veinte lecturas; y al-Dajuni, que añadió a Abu Jafar; después vino Ibn Mujahid, el primero en limitarse a los siete. {cite:nashr-dahman-damascus-1345-v1 p. 43} {cite:nashr-dahman-damascus-1345-v1 p. 44}
+
+## La objeción
+Ibn al-Jazari cita a al-Mahdawi, según quien el hecho de que las ciudades escogieran en su mayor parte los siete fue un compendio y una selección que los hombres posteriores favorecieron y que la gente común convirtió luego en un deber obligatorio, de modo que, al oír cualquier otra cosa, la llamaba error o incredulidad. Dice que quien los hizo siete hizo lo que no debía, confundió a la gente común y habría hecho mejor, al limitar, en quedarse por debajo de siete o superarlos para eliminar la confusión. {cite:nashr-dahman-damascus-1345-v1 p. 46} Al-Suyuti cita a Abu Shama, según quien la idea de que las siete lecturas que hoy se encuentran son las que se pretenden en el hadiz va contra el consenso de todos los hombres de ciencia, y a Ibn al-Arabi, según quien estas siete no son las únicas permitidas, como ocurre con las lecturas de Abu Jafar, Shayba y al-A'mash. {cite:itqan-suyuti p. 525}
+
+## Makki y Abu Hayyan sobre las razones de la limitación
+Al-Suyuti cita a Abu Hayyan, según quien el libro de Ibn Mujahid y quienes lo siguieron contienen solo una parte pequeña de las lecturas bien conocidas: Abu Amr ibn al-Ala' tenía diecisiete transmisores conocidos, y el libro se limita a al-Yazidi, que a su vez tenía diez; entonces, ¿por qué limitarse a al-Susi y al-Duri? {cite:itqan-suyuti p. 526} Cita a Makki, según quien hacia el año doscientos la gente de Basora seguía la lectura de Abu Amr y de Yaqub, en Kufa la de Hamza y Asim, en Siria la de Ibn Amir, en La Meca la de Ibn Kathir y en Medina la de Nafi'; hacia el año trescientos Ibn Mujahid incluyó a al-Kisa'i y suprimió a Yaqub. Makki piensa que la razón fue que los transmisores se habían multiplicado y por eso limitaron, de entre lo que concuerda con la grafía del códice, a lo que es fácil de memorizar, y que los códices que Uthman había enviado eran cinco, y que alguien que no conocía el origen del asunto tomó los siete ahruf por las siete lecturas. {cite:itqan-suyuti p. 526} {cite:itqan-suyuti p. 527}
+
+## La respuesta de Ibn Taymiyya
+Ibn al-Jazari cita la respuesta de Ibn Taymiyya: no hay disputa entre los estudiosos de renombre en que los siete ahruf no son las lecturas de los siete lectores bien conocidos; más bien, el primero en reunirlas fue Ibn Mujahid, para que coincidieran con el número de ahruf en que fue revelado el Corán, y no por creencia suya ni de nadie de que las siete lecturas sean los siete ahruf, ni de que estos hombres nombrados sean los únicos tras los cuales se pueda leer. Transmite también un dicho de un lector destacado: de no haberse adelantado Ibn Mujahid conmigo a Hamza, habría puesto a Yaqub al-Hadrami en su lugar. {cite:nashr-dahman-damascus-1345-v1 p. 49} Véanse [[question/are-the-seven-readings-the-seven-ahruf|¿Son las siete lecturas los siete ahruf?]] y [[concept/al-qiraat-al-ashr|las diez lecturas]].

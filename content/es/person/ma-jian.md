@@ -1,0 +1,28 @@
+---
+id: person/ma-jian
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/ma-jian.md}
+---
+
+# Muhammad Ma Jian
+
+## Resumen
+Muhammad Ma Jian (1906–1978) fue un erudito y traductor musulmán hui de Shadian en Yunnan, profesor de árabe e estudios islámicos en la Universidad de Pekín, cuya traducción al chino del Corán —completada a lo largo de décadas y publicada íntegramente solo tras su muerte— sigue siendo la más utilizada en China, adoptada incluso por la Imprenta del Sagrado Corán del Rey Fahd para su edición árabe-china. {cite:wikipedia-ma-jian-en} {cite:wikipedia-ma-jian-zh}
+
+## Educación
+Nació el 6 de junio de 1906 en la aldea Shadian de Gejiu, Yunnan, en el seno de una familia común de agricultores Hui; sus nombres originales eran Ma Yushu y Ma Wanqing, su nombre de cortesía Zishi, y su nombre religioso Muhammad Makin. Su padre Ma Zhongji, un musulmán devoto que realizó el hajj a mediados de la década de 1920, le asignó primero al estudio del Corán con los ahongs Ma Mingfu y Wang Fuyun, y luego cursó la educación de estilo nuevo en Shadian y, desde 1918, seis años en la escuela secundaria Chengde en Kunming, donde se enseñaba chino y árabe juntos. Tras dos años dirigiendo la escuela primaria de su pueblo natal —un trabajo que dijo no disfrutar, sosteniendo que lo que los Hui necesitaban, y China necesitaba, era educación—, recorrió toda la China devastada por la guerra en 1928 para estudiar persa bajo la tutela del ahong Hu Songshan en Guyuan, Ningxia, donde pasó tres años y tradujo al chino la Wiqaya y el Gulistán de Saadi. Luego ingresó en la Escuela Normal Islámica de Shanghái, la escuela fundada por el ahong Ha Decheng. {cite:wikipedia-ma-jian-zh} {cite:wikipedia-ma-jian-en}
+
+## El Cairo
+En 1931 la Sociedad Docente Hui China lo envió a Egipto, como el primer grupo de estudiantes chinos patrocinados para estudiar en al-Azhar; la obstrucción de visado en Shanghái envió al grupo de vuelta a Kunming antes de llegar finalmente a El Cairo a finales de año. Estudió ocho años, en al-Azhar y luego en el colegio árabe Dar al-Ulum, viviendo con una beca de dos libras al mes — su único buen traje, llevado durante ocho cambios de gabinete egipcio, fue apodado el "traje de ocho gabinetes" — y en El Cairo escribió su estudio árabe sobre el islam en China, tradujo los Analectos y las historias chinas al árabe y tradujo obras de Muhammad Abduh y Husayn al-Jisr al chino. Cuando Japón preparó una misión títere de hajj en 1939 para ganarse la opinión musulmana, él y sus compañeros escribieron a Ha Decheng en Shanghái instando una contramisión; el gobierno nacionalista siguió el consejo y Ma Jian acompañó la delegación de estudiantes chinos al hajj a La Meca, predicando la resistencia china en el camino. {cite:wikipedia-ma-jian-zh} {cite:wikipedia-ma-jian-en} {cite:wikipedia-ma-jian-ar}
+
+## Universidad de Pekín y la traducción
+Regresó a China en 1939; Ha Decheng lo recibió en Hong Kong en nombre de la Sociedad de Enseñanza, y ambos discutieron la traducción del Corán. Trabajando en Shanghái con el comité de traducción de la Sociedad, produjo una versión clásica-china de nueve volúmenes en catorce meses y comenzó una en lengua vernácula, enseñando en su pueblo natal durante los años de guerra después de que los japoneses lo pusieran en una lista negra. En 1946 fue nombrado profesor en la Universidad de Pekín, donde fundó el programa de árabe — la primera vez que el árabe entró en la educación superior china — y formó a la siguiente generación de arabistas chinos. Los primeros ocho volúmenes de su traducción anotada del Corán aparecieron en 1949; fue una figura fundadora de la Asociación Islámica de China, sirvió en la CPPCC y en la Asamblea Popular Nacional, interpretó para Zhou Enlai en Bandung y mantuvo su cátedra durante la Revolución Cultural, que mató a miembros de su familia y le dejó trabajando en la traducción por dictado con lupa. Murió en Pekín el 16 de agosto de 1978, mientras seguía revisando la traducción horas antes de su muerte; la versión completa en chino moderno fue publicada por China Social Sciences Press en 1981, y en 1987 la King Fahd Press de Medina la publicó en su edición árabe-china, convirtiéndolo en el Corán chino más influyente del mundo. También tradujo la Historia de los árabes de Hiti y la Historia de la filosofía del Islam de de Boer, y compiló un diccionario árabe-chino. {cite:wikipedia-ma-jian-zh} {cite:wikipedia-ma-jian-en}
+
+## Fe
+Su fe figura como desconocida. El artículo en inglés y el artículo en árabe traducido de él lo describen como erudito islámico hui-chino que subrayó la compatibilidad entre marxismo e islam, y el artículo chino como erudito musulmán hui; su traducción juvenil del Wiqaya, un manual jurídico hanafi, bajo la dirección de Hu Songshan es obra de un traductor, no una declaración de su propia escuela. El valor religioso único de Wikidata es el islam suní, una familia estructurada, que no cumple con el requisito de dos textos del museo; la lectura suní se conserva en su registro de datos. {cite:wikipedia-ma-jian-en} {cite:wikipedia-ma-jian-zh} {cite:wikidata-ma-jian}
+
+## Fuentes
+- Las entidades fuente definidas citadas anteriormente, registradas en `data/source/`.
+- Las revisiones de este artículo deben estar fechadas y deben indicar la fuente que modificó cada hecho.
