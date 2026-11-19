@@ -1,0 +1,28 @@
+---
+id: concept/pre-islamic-political-condition
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/pre-islamic-political-condition.md}
+---
+
+## Vue d'ensemble
+*Al-Rahiq al-Makhtum* dresse un portrait miniature de l'histoire du gouvernement et du pouvoir parmi les Arabes, afin que les conditions à l'essor de l'islam soient plus faciles à comprendre. {cite:mubarakpuri-raheeq p.23} Lorsque le soleil de l'islam se leva, les souverains de la péninsule étaient de deux sortes : des rois couronnés qui, en réalité, n'étaient pas indépendants, et des chefs tribaux et claniques qui avaient le même pouvoir et les mêmes privilèges que les rois, la plupart en pleine indépendance, bien que certains soient soumis à un roi couronné. {cite:mubarakpuri-raheeq p.23} Les rois couronnés étaient les rois du [[place/yemen|Yémen]], les rois de la maison de [[polity/ghassanid-kingdom|Ghassan]], et les rois d [[polity/lakhmid-kingdom|'al-Hira]] ; les autres souverains de la péninsule n'avaient pas de couronne. {cite:mubarakpuri-raheeq p.23}
+
+## Domination parmi les autres Arabes
+Les tribus proches d'al-Hira étaient soumises au roi des Arabes à al-Hira, et celles du désert syrien étaient soumises aux Ghassanides, bien que cette soumission fût nominale plutôt que réelle. Les tribus des déserts à l'intérieur de la péninsule étaient entièrement libres. {cite:mubarakpuri-raheeq p.32} Chacune de ces tribus avait des chefs auxquels leur peuple obéissait, et la tribu était un mini-gouvernement, dont l'existence politique reposait sur l'unité de la solidarité et sur des intérêts mutuels à protéger la terre et à repousser l'agression. {cite:mubarakpuri-raheeq p.32} Le rang des chefs tribaux parmi leur peuple ressemblait à celui des rois : la tribu suivait le jugement de son seigneur en temps de paix comme en guerre, et il avait l'autorité et le jugement autocratique d'un dictateur, à tel point que certains, en colère, faisaient lever mille épées pour eux, sans que personne ne demande ce qui les avait mis en colère. {cite:mubarakpuri-raheeq p.32} {cite:mubarakpuri-raheeq p.33} Pourtant, la rivalité pour le leadership entre cousins les incitait à gagner le peuple par la générosité, l'hospitalité, la patience, les démonstrations de courage et la défense des autres, afin de gagner les louanges aux yeux du peuple, en particulier des poètes, qui étaient la langue de la tribu. {cite:mubarakpuri-raheeq p.33} Voir [[concept/asabiyya|asabiyya]].
+
+## Les droits des seigneurs
+Les seigneurs et chefs avaient des droits particuliers : ils prenaient du butin la *mirba'* (un quart), la *safi* (la portion choisie), la *nashita* et la *fudul* (le surplus), comme le cite l'auteur. {cite:mubarakpuri-raheeq p.33} La *mirba'* représentait un quart du butin ; la *safi* était ce que le chef choisissait pour lui-même avant la division ; la *nashita* était ce que le chef obtenait sur la route avant d'atteindre le camp populaire ; et le *fudul* était ce qui restait de la division qui ne pouvait être réparti équitablement entre le nombre de pillards, comme un chameau ou un cheval. {cite:mubarakpuri-raheeq p.33}
+
+## La situation politique dans l'évaluation de l'auteur
+L'auteur soutient que les trois régions bordant les étrangers étaient en déclin politique et en dégénérescence : les gens étaient entre seigneurs et esclaves, ou souverains et gouvernaient ; les seigneurs, surtout les étrangers, prenaient toutes les brebis, et les esclaves portaient tous les fardeaux ; les sujets étaient comme une ferme livrant ses produits aux gouvernements ; le pouvoir était autocratique et les droits étaient perdus. {cite:mubarakpuri-raheeq p.33} Les tribus bordant ces régions étaient instables, rejoignant parfois le peuple irakien et parfois le peuple syrien ; les affaires des tribus de l'intérieur étaient disjointes, dominées par des conflits tribaux et des différences raciales et religieuses, et elles n'avaient aucun roi à qui soutenir leur indépendance ni aucune autorité vers laquelle se tourner en temps de difficulté. {cite:mubarakpuri-raheeq p.33} {cite:mubarakpuri-raheeq p.34}
+
+## Le gouvernement du Hijaz
+Les Arabes considéraient le gouvernement du Hidjaz avec estime et respect, et considéraient son peuple comme des chefs et gardiens du centre religieux. En réalité, c'était un mélange de primauté mondaine et de leadership religieux : il régnait parmi les Arabes au nom de la direction religieuse, et dans le sanctuaire et ses environs, il agissait comme un gouvernement veillant aux intérêts de ceux qui venaient à la Chambre et exécutant le jugement de la loi d'Abraham. Il avait des fonctions ressemblant à celles d'un parlement, mais il était faible et ne pouvait supporter le fardeau, comme cela fut clairement montré le jour de l'invasion abyssienne. {cite:mubarakpuri-raheeq p.34} Voir [[polity/emirate-of-hijaz|l'émirat du Hijaz]] et [[concept/manasib-quraysh|les offices de Quraysh]].
+
+## Ce qui n'est pas consigné ici
+C'est l'évaluation de l'auteur sur la situation politique, et dans beaucoup de ses formulations, il s'agit d'un jugement de valeur. Les points de vue des études modernes sur les structures tribales arabes et les royaumes avant l'islam n'ont pas encore été ajoutés.
+
+## Pour les jeunes visiteurs
+Avant l'islam, les Arabes n'avaient pas un seul roi. Chaque tribu avait un chef dont le peuple lui obéissait en temps de guerre comme de paix, et aux marges il y avait des rois qui servaient les Perses ou les Romains.
