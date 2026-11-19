@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/umayyad]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0678~", hijri: "0059", calendar: julian, precision: year, status: tradition, derived: true, note: "الفتح الكامل سنة 59 لعمير بن الحباب؛ ثم تعددت الفتوح 149 و177 وخلافة المأمون (البلاذري ص 260–261). التحويل مشتق." }
+  start: { edtf: "0678~", hijri: "0059", calendar: julian, precision: year, status: tradition, derived: true, note: "الفتح الكامل سنة 59 لعمير بن الحباب؛ ثم تعددت الفتوح 149 و177 وخلافة المأمون ⁦(البلاذري ص 260–261)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/hisn-kamkh }
   - { type: had_participant, target: person/umayr-ibn-al-habab, role: "صعد السور وحده ففُتح له", sources: [source/futuh-buldan-maarif-1407] }
@@ -21,7 +21,7 @@ relations:
   - { type: during_reign, target: person/muawiya-ibn-abi-sufyan, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 259–261"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 259–261"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-15
 sides:

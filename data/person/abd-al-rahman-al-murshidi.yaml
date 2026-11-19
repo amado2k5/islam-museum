@@ -3,11 +3,13 @@ class: person
 label:
   ar: "عبد الرحمن بن عيسى المرشدي"
   en: "Abd al-Rahman al-Murshidi"
+  fr: "Abd al-Rahman al-Murshidi"
 roles: [mufti, poet, scholar]
 gender: male
 summary:
   ar: "عبد الرحمن بن عيسى بن مرشد، أبو الوجاهة العمري المرشدي، مفتي الحرم المكي وأحد الشعراء العلماء في الحجاز، ولد بمكة وولي الإمامة والخطابة والإفتاء السلطاني، وتوفي في سجنه مخنوقاً في عهد الشريف أحمد بن عبد المطلب."
   en: "Abd al-Rahman ibn Isa al-Murshidi, Abu al-Wajaha, mufti of the Meccan sanctuary and one of the scholar-poets of the Hejaz, born in Mecca; he held the imamate, preaching and sultanic ifta' of the Sacred Mosque and died strangled in prison under the Sharif Ahmad ibn Abd al-Muttalib."
+  fr: "Abd al-Rahman ibn Isa al-Murshidi, Abu al-Wajaha, mufti du sanctuaire mecquois et l'un des savants-poètes du Hedjaz, né à La Mecque ; il tint l'imamat, la prédication et l'ifta' sultanien de la Mosquée sacrée et mourut étranglé en prison sous le chérif Ahmad ibn Abd al-Muttalib."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
@@ -43,5 +45,5 @@ occupations:
     note: "merge-map link from role 'mufti', Job Browser linking wave"
     sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
-  - { type: lived_in, target: place/hijaz, note: "Place association from the person's nisba/name (حجازي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/hijaz, note: "Place association from the person's nisba/name ⁦(حجازي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: born_in, target: place/mecca, note: "al-Zirikli, al-A'lam, vol. 3 p. 321: born in Mecca", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

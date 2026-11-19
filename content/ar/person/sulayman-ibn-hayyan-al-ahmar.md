@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b57, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/142" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b57, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/142" }
 ---
 ## موجز
 أبو خالد سليمان بن حيان الأحمر، الراوي الأنور، الموصي أصفياءه بالحظ الأوفر. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 500)⁩ في الصفحة 142، وتسلسله 501. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/142}

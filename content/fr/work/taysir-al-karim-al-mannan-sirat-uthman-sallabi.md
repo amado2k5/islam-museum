@@ -1,0 +1,42 @@
+---
+id: work/taysir-al-karim-al-mannan-sirat-uthman-sallabi
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/work/taysir-al-karim-al-mannan-sirat-uthman-sallabi.md}
+---
+## Résumé
+*Taysir al-Karim al-Mannan fi Sirat Uthman ibn Affan: Shakhsiyyatuhu wa-'Asruhu* est une étude du Dr [[person/ali-muhammad-al-sallabi|Ali Muhammad Muhammad al-Sallabi]] sur la vie d' [[person/uthman-ibn-affan|Uthman ibn Affan]], le troisième volume de sa série *Histoire des califes bien guidés*. {cite:sallabi-uthman-tawzi-2003 p.5} Dans son introduction, il la présente comme une suite de ses ouvrages sur Abu Bakr et Umar, écrite pour en tirer des leçons et révéler les schémas divins à l'œuvre dans les sociétés, la construction de l'État et la formation des dirigeants. {cite:sallabi-uthman-tawzi-2003 p.9} Dar al-Tawzi' wa-l-Nashr al-Islamiyya, au Caire, l'a publiée en deux éditions : une première en 1423/2002 et une seconde en 1424/2003. {cite:sallabi-uthman-tawzi-2003 p.6}
+
+## Méthode et sources
+L'auteur écrit du point de vue d'Ahl al-Sunna wa-l-Jama'a et l'affirme : il considère que façonner l'histoire islamique selon cette méthode est une nécessité et met en garde contre ce qu'il perçoit comme de faux récits propagés par les orientalistes et les « Rafida », récits qui dénigrent les Compagnons et présentent leur histoire comme une lutte pour le pouvoir. {cite:sallabi-uthman-tawzi-2003 p.11} Il précise ne pas s'être fondé uniquement sur al-Tabari, Ibn al-Athir, al-Dhahabi et les ouvrages historiques reconnus, mais avoir également consulté des travaux de tafsir, de hadiths et leurs commentaires, de doctrine et de doctrine des sectes, de biographie, de critique des narrateurs et de droit, dans lesquels il a trouvé une documentation historique abondante. {cite:sallabi-uthman-tawzi-2003 p.11} Il conclut son introduction en déclarant avoir mené cette étude « sans prétendre à l'infaillibilité et sans nier aucune erreur ». {cite:sallabi-uthman-tawzi-2003 p.15}
+
+## Structure
+Le livre comporte sept chapitres, qui commencent comme suit dans l'exemplaire utilisé :
+- **Chapitre 1 : Dhu al-Nurayn entre La Mecque et Médine** (p. 17) : son nom, sa lignée, sa kunya, sa famille et son statut avant l’islam ; sa relation avec le Coran ; sa compagnie du Prophète à Médine, son rôle dans les campagnes et sa vie sociale ; les hadiths le concernant ; sa position auprès d’Abou Bakr et d’Omar. {cite:sallabi-uthman-tawzi-2003 p.17} {cite:sallabi-uthman-tawzi-2003 p.465}
+- **Chapitre 2 : Son accession au pouvoir, sa méthode de gouvernement et ses principales qualités** (p. 59). {cite:sallabi-uthman-tawzi-2003 p.59}
+- **Chapitre 3 : Les institutions financières et judiciaires** (p. 113). {cite:sallabi-uthman-tawzi-2003 p.113}
+- **Chapitre 4 : Les conquêtes** en Orient, en Syrie et en Égypte, avec une section intitulée « La plus grande gloire d’Uthman : l’unification de la communauté autour d’un seul codex » (p. 167, 225). {cite:sallabi-uthman-tawzi-2003 p.167} {cite:sallabi-uthman-tawzi-2003 p.225}
+- **Chapitre 5 : Les gouverneurs**, notamment « La vérité sur les gouverneurs d’Uthman » et « La vérité sur la relation entre Abou Dharr al-Ghifari et Uthman » (p. 241, 294). {cite:sallabi-uthman-tawzi-2003 p.241} {cite:sallabi-uthman-tawzi-2003 p.294}
+- **Chapitre 6 : Les causes du conflit qui a conduit à la mort d’Uthman** (p. 305). {cite:sallabi-uthman-tawzi-2003 p.305}
+- **Chapitre 7 : L’assassinat d’Uthman** — le déclenchement de la guerre, l’occupation de Médine, son martyre et la position des Compagnons (p. 345). {cite:sallabi-uthman-tawzi-2003 p.345} {cite:sallabi-uthman-tawzi-2003 p.482}
+
+## Points forts
+**La shura et la succession.** L'auteur affirme avoir exposé le récit de l'accession d'Uthman au califat et le rôle d' [[person/abd-al-rahman-ibn-awf|Abd al-Rahman ibn Awf]] dans la gestion de la [[event/shura-council-of-uthman|shura]], avoir réfuté ce qu'il qualifie de contrevérités rafidites insérées dans ce récit, et avoir cité les savants concernant le droit d'Uthman au califat et le consensus sur ce point. {cite:sallabi-uthman-tawzi-2003 p.13} {cite:sallabi-uthman-tawzi-2003 p.14}
+
+**Finances et constructions.** Parmi les dépenses publiques de son règne, il mentionne les salaires des gouverneurs et des soldats, les dépenses liées au pèlerinage, la [[event/uthman-expands-two-mosques|reconstruction de la Mosquée du Prophète et l'agrandissement de la Mosquée sacrée]], la création de la première marine, le transfert du port d'al-Shu'ayba à [[place/jeddah|Djeddah]], le creusement de puits et la rémunération des muezzins. Il aborde également les relations d'Uthman avec ses proches et les donations du trésor. {cite:sallabi-uthman-tawzi-2003 p.14}
+
+**La mer et Chypre.** Il rapporte qu'Umar refusa la guerre navale après qu'Amr ibn al-As lui eut décrit la mer, et que Mu'awiya renouvela sa demande sous le règne d'Uthman, qui l'accepta à condition qu'il emmène sa femme et n'oblige personne à partir. {cite:sallabi-uthman-tawzi-2003 p.192} Il relate le départ du port d'Acre pour Chypre en 28 H avec [[person/umm-haram-bint-milhan|Umm Haram bint Milhan]], qui y mourut, et les conditions de paix, notamment une rente annuelle de 7 200 dinars. {cite:sallabi-uthman-tawzi-2003 p.193} {cite:sallabi-uthman-tawzi-2003 p.194} {cite:sallabi-uthman-tawzi-2003 p.195} Il donne une biographie du commandant de la flotte, [[person/abdullah-ibn-qays-al-jasi|Abdullah ibn Qays al-Jasi]]. {cite:sallabi-uthman-tawzi-2003 p.195}
+
+**Conquêtes et commandants.** Il organise les conquêtes du règne d'Uthman selon les mouvements des armées en Orient, en Syrie, en Égypte et en Afrique du Nord, et donne des biographies de commandants tels qu'al [[person/al-ahnaf-ibn-qays|-Ahnaf ibn Qays]], [[person/abd-al-rahman-ibn-rabia|Abd al-Rahman ibn Rabi'a al-Bahili]], [[person/salman-ibn-rabi-a|Salman ibn Rabi'a]] et [[person/habib-ibn-maslama|Habib ibn Maslama al-Fihri]]. {cite:sallabi-uthman-tawzi-2003 p.14}
+
+**Le codex.** Il y traite des étapes de la rédaction du Coran, des raisons de [[event/uthman-standardizes-mushaf|sa compilation sous Uthman]], de sa consultation des Compagnons et du nombre de copies envoyées aux provinces. {cite:sallabi-uthman-tawzi-2003 p.14}
+
+**Abou Dharr.** Une section aborde l'affirmation selon laquelle Uthman aurait exilé Abou Dharr à al-Rabadha ; l'auteur soutient qu'Abou Dharr s'y est installé de son plein gré après sa dispute avec Mu'awiya au sujet du verset sur l'accumulation. Ce désaccord est exposé dans la fiche « [[question/did-uthman-banish-abu-dharr|Uthman a-t-il exilé Abou Dharr à al-Rabadha]]? » {cite:sallabi-uthman-tawzi-2003 p.294} {cite:sallabi-uthman-tawzi-2003 p.299}
+
+**Les conflits.** Il en énumère les causes dans des paragraphes distincts : la prospérité et ses effets, la nature du changement social, l’avènement d’Uthman après Umar, le départ des Compagnons les plus éminents de Médine, le sectarisme tribal, l’arrêt des conquêtes, « l’ignorance scrupuleuse », les ambitions des ambitieux et les complots des rancuniers, et il attribue un rôle aux Saba’iyya dans ces conflits. {cite:sallabi-uthman-tawzi-2003 p.15} Il décrit les réponses d’Uthman — commissions d’enquête, lettre générale aux provinces, consultation des gouverneurs — et en tire des « règles pour gérer les conflits » telles que la vérification, la justice, la tolérance et le maintien de ce qui unit. {cite:sallabi-uthman-tawzi-2003 p.15}
+
+**Le meurtre et l'inhumation.** Dans son récit du [[event/murder-of-uthman|meurtre d'Uthman]], l'auteur privilégie l'opinion selon laquelle [[person/zubayr-ibn-al-awwam|al-Zubayr ibn al-Awwam]] aurait dirigé la prière funéraire, se basant sur un hadith rapporté dans le Musnad d'Ahmad, et que l'inhumation aurait eu lieu de nuit, entre le coucher du soleil et la prière de la nuit. Il juge faible, tant sur le plan de la chaîne de transmission que sur celui du récit, le corps serait resté sans sépulture pendant trois jours. {cite:sallabi-uthman-tawzi-2003 p.404}
+
+## Date de rédaction
+L'auteur l'a terminé à deux heures avant l'aube le mercredi 8 Rabi' II 1423, correspondant au 18 juin 2002. {cite:sallabi-uthman-tawzi-2003 p.15}

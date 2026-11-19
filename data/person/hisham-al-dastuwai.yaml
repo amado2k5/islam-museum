@@ -12,12 +12,12 @@ wings: [people]
 died: { edtf: "769", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: lived_in, target: place/shiraz, confidence: low, note: "Associated with شيراز per the record's own text; relation type pending review.", sources: [source/tabaqat-fuqaha-abbas-1981] }
-  - { type: student_of, target: person/al-hasan-al-basri, role: "من أصحاب الحسن (PDF ص48)", sources: [source/tabaqat-fuqaha-abbas-1981] }
-  - { type: student_of, target: person/muhammad-ibn-sirin, role: "من أصحاب ابن سيرين (PDF ص48)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: student_of, target: person/al-hasan-al-basri, role: "من أصحاب الحسن ⁦(PDF ص48)⁩", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: student_of, target: person/muhammad-ibn-sirin, role: "من أصحاب ابن سيرين ⁦(PDF ص48)⁩", sources: [source/tabaqat-fuqaha-abbas-1981] }
 sources: [source/tabaqat-fuqaha-abbas-1981]
 provenance:
   layer: "own-research"
-  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص48–53"
+  source: "طبقات الفقهاء ⁦(تحقيق إحسان عباس)⁩ PDF ص48–53"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch125

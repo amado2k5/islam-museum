@@ -1,6 +1,6 @@
 id: person/akon
 class: person
-label: { ar: "إيكون", en: "Akon", ur: "ایکن" }
+label: { ar: "إيكون", en: "Akon", fr: "Akon", ur: "ایکن" }
 names:
   - { value: "Aliaune Damala Bouga Time Puru Nacka Lu Lu Lu Badara Akon Thiam", kind: full }
   - { value: "Aliaune Badara Akon Thiam", kind: alternate }
@@ -9,6 +9,7 @@ gender: male
 summary:
   ar: "مغنٍّ وكاتب أغانٍ سنغالي-أمريكي، وُلد في سانت لويس بولاية ميزوري في 16 أبريل 1973 لأسرة سنغالية، وحقّق انطلاقته بألبوم «ترابل» (2004)، وأسس شركتي «كونفيكت ميوزيك» و«كونلايف»، وأطلق سنة 2014 مبادرة «إيكون لايتينغ أفريقيا» لإيصال الكهرباء إلى بلدان أفريقية، ثم أُعلن سنة 2025 التخلي عن مشروع مدينته المستقبلية «إيكون سيتي» في السنغال."
   en: "Senegalese-American singer and songwriter, born at St. Louis, Missouri, on 16 April 1973 to a Senegalese family. He broke through with the album Trouble (2004), founded the labels Konvict Muzik and KonLive Distribution, launched the Akon Lighting Africa electricity initiative in 2014, and saw his planned Senegalese futuristic city, Akon City, officially abandoned in 2025."
+  fr: "Chanteur et auteur-compositeur sénégalo-américain, né à Saint-Louis, dans le Missouri, le 16 avril 1973 dans une famille sénégalaise. Il se fit connaître avec l’album Trouble (2004), fonda les labels Konvict Muzik et KonLive Distribution, lança l’initiative d’électrification Akon Lighting Africa en 2014 et vit son projet de ville futuriste sénégalaise, Akon City, officiellement abandonné en 2025."
   ur: "سینیگالی-امریکی گلوکار و گیت نگار، جو 16 اپریل 1973 کو سینٹ لوئس، میزوری میں سینیگالی خاندان میں پیدا ہوئے۔ انہیں البم «ٹرابل» (2004) سے شہرت ملی، انہوں نے «کونوکٹ میوزک» اور «کون لائیو» لیبل قائم کیے، 2014 میں افریقہ میں بجلی کی فراہمی کی مہم «ایکن لائٹنگ افریقہ» شروع کی، اور سینیگال میں ان کے مجوزہ شہر «ایکن سٹی» کا منصوبہ 2025 میں باضابطہ ترک کر دیا گیا۔"
 roles: [singer, songwriter, producer, businessman]
 wings: [people, living]
@@ -46,4 +47,4 @@ occupations:
     note: "merge-map link from role 'singer', Job Browser linking wave 19"
     sources: [source/wikipedia-akon-en, source/wikipedia-akon-ar, source/wikipedia-akon-ur, source/wikidata-akon, source/wikidata]
 relations:
-  - { type: lived_in, target: place/bilad-al-sudan, note: "Place association from the person's nisba/name (سنغالي); denotes association, not proven residence.", sources: [source/wikipedia-akon-en, source/wikipedia-akon-ar, source/wikipedia-akon-ur, source/wikidata-akon], confidence: low }
+  - { type: lived_in, target: place/bilad-al-sudan, note: "Place association from the person's nisba/name ⁦(سنغالي)⁩; denotes association, not proven residence.", sources: [source/wikipedia-akon-en, source/wikipedia-akon-ar, source/wikipedia-akon-ur, source/wikidata-akon], confidence: low }

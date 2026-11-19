@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b16, source: "حلية الأولياء (دار الكتب العلمية 1988) 9/317-322" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b16, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 9/317-322" }
 ---
 ## موجز
 أبو الحسن علي بن بكار من زهاد الثغور. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء التاسع من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة 452)⁩، ويصفه بالمرابط الصبّار والمجاهد الكرّار. ويذكر أنه سكن [[place/massisa|المصيصة]] مرابطًا، وصحب [[person/ibn-adham-ibrahim|إبراهيم بن أدهم]] و[[person/abu-ishaq-al-fazari|أبا إسحاق الفزاري]] ومخلد بن الحسين. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/317}

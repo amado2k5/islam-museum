@@ -7,7 +7,7 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker D)", model: claude-
 ---
 ## خلاصہ
 
-«بدائع الصنائع فی ترتیب الشرائع» [[person/ala-al-din-al-kasani|علاء الدین ابو بکر بن مسعود کاسانی]] (وفات 587ھ) کی [[group/hanafi-madhhab|حنفی]] فقہ کی کتاب ہے۔ {cite:badai-sanai-ilmiyya-v1 p.1} {cite:badai-sanai-ilmiyya-v1 p.76}
+«بدائع الصنائع فی ترتیب الشرائع» [[person/ala-al-din-al-kasani|علاء الدین ابو بکر بن مسعود کاسانی]] ⁦(وفات 587ھ)⁩ کی [[group/hanafi-madhhab|حنفی]] فقہ کی کتاب ہے۔ {cite:badai-sanai-ilmiyya-v1 p.1} {cite:badai-sanai-ilmiyya-v1 p.76}
 
 ## مصنف کا مقدمہ اور نام کی وجہ
 

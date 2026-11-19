@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b34, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/70-72" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b34, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/70-72" }
 ---
 ## خلاصہ
 ابو عثمان سعید بن عباس رازی۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں یحییٰ بن معاذ کے فوراً بعد ⁦(نمبر 464)⁩ ان کا ترجمہ لکھا ہے۔ انہیں منزل تک پہنچنے کا یقین رکھنے والا، اصولوں کی بات کرنے والا، اور فضول باتوں سے دور کہا گیا ہے۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/70}

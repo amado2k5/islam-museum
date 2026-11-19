@@ -1,0 +1,27 @@
+---
+id: person/bahlil-lahadalia
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/bahlil-lahadalia.md}
+---
+
+## Resumen
+
+Bahlil Lahadalia (nacido en 1976) es un empresario y político indonesio de humildes orígenes que se convirtió en Ministro de Energía y Recursos Minerales en 2024 y presidente general del Partido Golkar, tras liderar la Junta Coordinadora de Inversiones y ejercer como primer Ministro de Inversiones de Indonesia; en octubre de 2026 fue además nombrado Ministro Coordinador para la Transición Descendente y Energética {cite:wikipedia-bahlil-lahadalia-en} {cite:jawawa-bahlil-lahadalia-profile}.
+
+## Vida
+
+Lahadalia nació en Banda, Maluku Central, el 7 de agosto de 1976, el segundo de nueve hijos; su padre trabajaba como obrero de la construcción y su madre lavaba la ropa de otros y vendía pasteles caseros {cite:wikipedia-bahlil-lahadalia-en} {cite:wikidata-bahlil-lahadalia}. La familia procedía originalmente del sureste de Sulawesi y se trasladó en 1988 a Fakfak, en Papúa Occidental, tras una erupción volcánica cerca de Banda {cite:wikipedia-bahlil-lahadalia-en}. De escolar vendía pasteles y hielo en la escuela, trabajó como conductor en la ruta pública de minibuses entre la ciudad de Fakfak y el aeropuerto, y más tarde condujo uno él mismo {cite:wikipedia-bahlil-lahadalia-en} {cite:wikipedia-bahlil-lahadalia-id}. Estudió economía en STIE Port Numbay en Jayapura, graduándose a los 26 años tras interrumpir sus estudios por los disturbios de mayo de 1998, y participó activamente en la Asociación de Estudiantes Musulmanes (HMI), ascendiendo desde su liderazgo regional en Papúa hasta tesorero general de su liderazgo nacional entre 2001 y 2003 {cite:wikipedia-bahlil-lahadalia-en} {cite:wikipedia-bahlil-lahadalia-id}. Posteriormente obtuvo un máster en la Universidad de Cenderawasih y, en octubre de 2024, la Universidad de Indonesia le otorgó un doctorado completado en veinte meses, que el artículo en inglés califica como el doctorado más rápido que la escuela ha concedido y es objeto de controversia nacional y de una investigación ética, mientras que el artículo indonesio informa que la universidad suspendió el título {cite:wikipedia-bahlil-lahadalia-en} {cite:wikipedia-bahlil-lahadalia-id}. Está casado con Sri Suparni y tiene tres hijos {cite:wikipedia-bahlil-lahadalia-en} {cite:wikipedia-bahlil-lahadalia-ms}.
+
+## Trabajo
+
+Lahadalia trabajó para la empresa estatal de topografía Sucofindo antes de fundar sus propias empresas en Papúa — PT Rifa Capital, PT Bersama Papua Unggul y PT Dwijati Sukses, activas en comercio, plantaciones, pesca, transporte y minería — y presidió la Asociación de Jóvenes Empresarios de Indonesia (HIPMI) de 2015 a 2019 {cite:wikipedia-bahlil-lahadalia-en}. En las elecciones presidenciales de 2019 dirigió la campaña de Joko Widodo para la divulgación entre los jóvenes votantes, y el 23 de octubre de 2019 Widodo le nombró jefe de la Junta Coordinadora de Inversiones (BKPM) {cite:wikipedia-bahlil-lahadalia-en} {cite:jawawa-bahlil-lahadalia-profile}. Cuando se creó el Ministerio de Inversiones, se convirtió en su primer ministro el 28 de abril de 2021, y en agosto de 2024 pasó a ministro de Energía y Recursos Minerales, cartera que también ocupó brevemente como provisional en febrero de 2022 {cite:wikipedia-bahlil-lahadalia-en} {cite:wikipedia-bahlil-lahadalia-ms}. Como ministro de Inversiones revocó más de dos mil licencias de negocio minero que, según dijo, estaban inactivas o mal utilizadas, una política que informó la revista Tempo se aplicó de forma selectiva y en beneficio de algunos empresarios {cite:wikipedia-bahlil-lahadalia-en}. El 21 de agosto de 2024 fue elegido presidente general de Golkar, el segundo partido más grande de Indonesia {cite:wikipedia-bahlil-lahadalia-en}. En febrero de 2025, su política de restringir el gas licuado subvencionado al gas de petróleo a distribuidores registrados provocó largas colas e indignación pública; El presidente Prabowo Subianto la revocó en pocos días y Lahadalia pidió disculpas {cite:wikipedia-bahlil-lahadalia-en} {cite:wikipedia-bahlil-lahadalia-id}. Recibió el Bintang Mahaputera Adipradana el 14 de agosto de 2024 {cite:wikipedia-bahlil-lahadalia-en} {cite:wikipedia-bahlil-lahadalia-ms}. En una remodelación del gabinete el 1 de octubre de 2026, el presidente Prabowo lo investió como ministro coordinador para la Transición Descendente y Energética, cargo que ocupa simultáneamente con el ministerio de energía y recursos minerales {cite:jawawa-bahlil-lahadalia-profile}. Ningún texto leído para este registro menciona una escuela del Islam para el propio Lahadalia — Wikidata solo contiene una declaración genérica sobre el Islam, y los textos documentan su activismo estudiantil en la HMI, una afiliación — por lo que su fe queda registrada como desconocida {cite:wikipedia-bahlil-lahadalia-en} {cite:wikipedia-bahlil-lahadalia-id} {cite:wikidata-bahlil-lahadalia}.
+
+## Fuentes
+
+- {cite:wikipedia-bahlil-lahadalia-en}
+- {cite:wikipedia-bahlil-lahadalia-id}
+- {cite:wikipedia-bahlil-lahadalia-ms}
+- {cite:jawawa-bahlil-lahadalia-profile}
+- {cite:wikidata-bahlil-lahadalia}

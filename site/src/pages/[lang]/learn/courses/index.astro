@@ -3,7 +3,7 @@
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import PageHeader from "../../../../components/PageHeader.astro";
 import CoursesStyle from "../../../../components/CoursesStyle.astro";
-import { ui, fmt, LANGS, type Lang } from "../../../../lib/i18n";
+import { ui, fmt, LANGS, type Lang, ALL_LANGS } from "../../../../lib/i18n";
 import { labelOf, summaryOf } from "../../../../lib/graph";
 import { num } from "../../../../lib/nav";
 import { jurisdictions, courses, coursePath, homePath, kidsOf, slugOf } from "../../../../lib/courses";
@@ -18,7 +18,7 @@ const tree = jurisdictions.map((j) => ({ j, grades: kidsOf(j.id, "grade").map((g
 // a short list is shown open: the course is then one tap away; a long list opens one system at a time (the first tap)
 const openAll = tree.length <= 3;
 ---
-<BaseLayout lang={lang} title={S.title} description={S.lede} path={homePath(lang)} alternates={Object.fromEntries(LANGS.map((l) => [l, homePath(l)]))}>
+<BaseLayout lang={lang} title={S.title} description={S.lede} path={homePath(lang)} alternates={Object.fromEntries(ALL_LANGS.map((l) => [l, homePath(l)]))}>
   <div data-pagefind-body>
     <PageHeader title={S.title} lede={S.lede} crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: T.nav.learn, href: `/${lang}/learn/` }, { label: S.title }]} crumbsLabel={T.entity.breadcrumb} wing="ideas" titleAttrs={{ "data-pagefind-meta": "title" }} />
   </div>

@@ -7,7 +7,7 @@ translators: []
 
 # معاویہ ولد سید احمد الطائع
 
-معاویہ ولد سید احمد الطائع (پیدائش 28 نومبر 1941ء) موریتانی فوجی افسر و سیاست دان ہیں، 1984ء تا 2005ء ملک کے صدر رہے — اس عہدے پر سب سے طویل مدت گزارنے والے۔ {cite:wikipedia-maaouya-ould-sidahmed-taya-en} {cite:wikidata-maaouya-ould-sidahmed-taya}
+معاویہ ولد سید احمد الطائع ⁦(پیدائش 28 نومبر 1941ء)⁩ موریتانی فوجی افسر و سیاست دان ہیں، 1984ء تا 2005ء ملک کے صدر رہے — اس عہدے پر سب سے طویل مدت گزارنے والے۔ {cite:wikipedia-maaouya-ould-sidahmed-taya-en} {cite:wikidata-maaouya-ould-sidahmed-taya}
 
 ## عروج
 

@@ -1,0 +1,95 @@
+---
+id: event/battle-of-siffin
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-02
+  source: content/en/event/battle-of-siffin.md
+---
+## Vue d'ensemble
+La bataille de Siffin eut lieu en 37 H, 657 apr. J.-C., entre [[person/ali-ibn-abi-talib|Ali ibn Abi Talib]] et [[person/muawiya-ibn-abi-sufyan|Mu'awiya ibn Abi Sufyan]]. {cite:tabari-tarikh-abu-al-fadl j.5 p.17} L'Encyclopédie de l'Islam la décrit comme une série de duels et d'escarmouches entre les Irakiens sous le calife Ali et les Syriens sous Mu'awiya, gouverneur de Syrie, plutôt que comme une seule bataille rangée. L'article y voit un facteur majeur dans la formation de l'identité régionale et politique des chiites irakiens comme des [[polity/umayyad-caliphate|Omeyyades]] syriens, et cite un dicton syrien du genre « nous sommes les gens de Syrie, nous sommes les hommes de Siffin ». {cite:encyclopaedia-of-islam-2 vol. 9 p. 567}
+
+L'article ajoute que les débats politiques et théologiques sur la bataille, et sur le conflit entre Ali et Mu'awiya en général, sont à l'origine de nombreuses affirmations contradictoires de l'historiographie islamique. C'est particulièrement vrai des biographies de certains Compagnons du Prophète, ou prétendus Compagnons, qui remontent à une dispute sur le nombre de Compagnons de chaque côté. Il dit aussi que l'apologétique chiite explique certains récits sur l'indulgence de Muhammad à [[event/treaty-of-hudaybiyya|al-Hudaybiya]]. {cite:encyclopaedia-of-islam-2 vol. 9 p. 567}
+
+## Le site et la longue attente
+Siffin était un village byzantin en ruine non loin d'[[place/raqqa|al-Raqqa]], à quelques centaines de mètres de la rive droite de l'Euphrate. L'article dit qu'on l'identifie aujourd'hui au village d'Abu Hurayra près d'al-Raqqa, et cite al-Dhahabi pour cette identification. {cite:encyclopaedia-of-islam-2 vol. 9 p. 567} Le lieu a sa propre notice à [[place/siffin|Siffin]].
+
+Les deux armées restèrent longtemps sur le champ de bataille avant que le combat n'éclate, et se seraient fait face pendant 77 jours. L'article y lit un signe de la répugnance des troupes à verser le sang musulman, puisque des unités des deux camps appartenaient aux mêmes tribus. Il ajoute que des cousins, ou un père et son fils, se faisaient parfois face, et que deux fils du célèbre [[person/khalid-ibn-al-walid|Khalid ibn al-Walid]] combattirent dans des camps opposés. {cite:encyclopaedia-of-islam-2 vol. 9 p. 567} {cite:encyclopaedia-of-islam-2 vol. 9 p. 568}
+
+## Les deux camps
+L'article donne un tableau détaillé de la formation des deux camps. Certains Kindites qui n'aimaient pas Ali quittèrent [[place/kufa|Koufa]] à son arrivée et se rendirent à [[place/al-ruha|al-Ruha]], dans la Jazira, parce que, dit-on, ils ne supportaient pas de rester là où l'on maudissait [[person/uthman-ibn-affan|Uthman]] ; à Siffin, ils combattirent avec Mu'awiya. Les gens d'al-Raqqa étaient alors uthmaniyya, et un chef tribal des Asad nommé Simak ibn Makhrama quitta Ali avec cent de ses contribules, puis en persuada six cents autres de le rejoindre. {cite:encyclopaedia-of-islam-2 vol. 9 p. 568}
+
+Le soutien à Ali à Koufa même n'était pas unanime. Quand il partit pour Siffin, des gens qui avaient peu de respect pour lui parlèrent ouvertement, et Abu Mas'ud al-Ansari, à qui Ali avait laissé la charge de la ville, exprima son indifférence quant à l'issue et fut destitué au retour d'Ali. Certaines troupes d'Ali rebroussèrent chemin en route vers le champ de bataille. L'article attribue cela à une propagande acharnée et parfois cynique, dans laquelle il juge que Mu'awiya réussit dans l'ensemble mieux qu'Ali, et il nomme [[person/shurahbil-ibn-al-simt|Shurahbil ibn al-Simt]] al-Kindi comme un homme que Mu'awiya gagna à sa cause et transforma en propagandiste. {cite:encyclopaedia-of-islam-2 vol. 9 p. 568}
+
+L'article compare aussi les deux chefs quant aux promesses matérielles faites aux chefs tribaux. Il dit que Mu'awiya semble avoir été moins scrupuleux, peut-être parce que sa position était plus précaire, tandis qu'Ali, peut-être par confiance en lui et de meilleurs espoirs quant au conflit, traita sévèrement les gouverneurs qui détournaient l'argent de l'État, ce qui entraîna leur défection. Son exemple est [[person/jarir-ibn-abd-allah-al-bajali|Jarir ibn Abd Allah al-Bajali]], gouverneur d'Uthman à Hamadhan, qu'Ali destitua après [[event/battle-of-the-camel|la bataille du Chameau]]. Jarir partit pour [[place/qarqisiya|Qarqisiya]] avec des hommes de son groupe tribal, les Qasr des [[group/bajila|Bajila]], puis rejoignit Mu'awiya, si bien que peu de Qasr combattirent pour Ali à Siffin. Ali réagit en détruisant la maison de Jarir à Koufa. L'article conclut que l'opportunisme bien pesé de Mu'awiya, expression qu'il emprunte au savant E. L. Petersen, se révéla plus fructueux que la rigueur d'Ali. {cite:encyclopaedia-of-islam-2 vol. 9 p. 568}
+
+Un chef bien plus influent était [[person/al-ashath-ibn-qays|al-Ash'ath ibn Qays]], des [[group/kinda|Kinda]], qui, contrairement à Jarir, combattit à Siffin du côté d'Ali. Uthman s'était assuré sa loyauté en le nommant gouverneur de l'Adharbayjan ; il resta un temps gouverneur sous Ali, mais fut destitué après le Chameau, et Ali le démit aussi de la direction des Kinda et des Rabi'a. Au stade le plus critique du combat, dit l'article, al-Ash'ath soutint l'[[event/arbitration-of-siffin|arbitrage]] qui devait coûter à Ali son titre de commandeur des croyants, puis sa vie. L'article note aussi que la plupart des troupes de Mu'awiya à Siffin venaient du Yémen, tandis que la plupart de celles d'Ali descendaient de Nizar ibn Ma'add, c'est-à-dire de Rabi'a et de Mudar. {cite:encyclopaedia-of-islam-2 vol. 9 p. 568} {cite:encyclopaedia-of-islam-2 vol. 9 p. 569}
+
+Ali perdit aussi le soutien d'[[person/ubaydallah-ibn-umar|Ubayd Allah]], fils du calife Umar ibn al-Khattab. Selon l'article, il s'enfuit auprès de Mu'awiya de peur qu'Ali ne l'exécute pour avoir tué des Persans innocents en vengeant l'assassinat de son père. Ubayd Allah fut tué à Siffin, où il commandait la cavalerie de Mu'awiya. {cite:encyclopaedia-of-islam-2 vol. 9 p. 569}
+
+## Son déroulement
+Al-Tabari rapporte qu'Ali s'adressa à ses compagnons avant le combat et les exhorta à tenir ferme la ligne et à garder les étendards. {cite:tabari-tarikh-abu-al-fadl j.5 p.17}
+
+Au cours du combat, [[person/amr-ibn-al-as|Amr ibn al-As]] suggéra à Mu'awiya d'élever les Corans. Les gens de Syrie les élevèrent sur leurs lances et appelèrent au Livre de Dieu, et beaucoup de gens d'Irak répondirent à cet appel. {cite:tabari-tarikh-abu-al-fadl j.5 p.48}
+
+L'index du volume mentionne la « nuit d'al-Harir » et le récit de Hashim ibn Utba al-Mirqal. {cite:tabari-tarikh-abu-al-fadl j.5 p.627}
+
+## Les chiffres selon al-Mas'udi
+Al-Mas'udi relate que les morts furent soixante-dix mille, dont quarante-cinq mille de Syrie et vingt-cinq mille d'Irak. Il dit que le séjour sur place dura cent dix jours, et que les engagements furent au nombre de soixante-dix. Vingt-cinq des Compagnons furent tués avec Ali, parmi lesquels [[person/ammar-ibn-yasir|Ammar ibn Yasir]], qui avait soixante-treize ans. Dans son récit, quatre-vingt-sept vétérans de Badr combattirent avec Ali, dix-sept des Muhajirun et soixante-dix des Ansar, avec neuf cents de ceux qui avaient prêté le Pacte d'al-Ridwan, et les Compagnons étaient en tout deux mille huit cents. {cite:muruj-al-dhahab p.645-646}
+
+Les chiffres proviennent du récit d'al-Mas'udi, et leur vérification demande une source supplémentaire.
+
+Selon al-Mas'udi, Ali quitta Koufa le cinquième jour de Shawwal 36 H, passa par al-Raqqa et traversa sur un pont. Il dit qu'il est admis qu'Ali avait quatre-vingt-dix mille hommes et Mu'awiya quatre-vingt-cinq mille. Mu'awiya arriva le premier et s'empara du point d'eau par Abu al-A'war al-Sulami avec quarante mille hommes, si bien que les hommes d'Ali furent privés d'eau, et Mu'awiya aurait dit : qu'ils meurent de soif comme Uthman est mort. Un billet fut alors jeté dans la tente d'al-Ash'ath, qui sortit avec quatre mille cavaliers et brisa le blocus de l'eau. {cite:muruj-al-dhahab p. 667-668}
+
+Dans le même récit, Ammar ibn Yasir, âgé de quatre-vingt-treize ans, y tomba, avec Hashim ibn Utba al-Mirqal, Dhu al-Kala', et Safwan et Sa'd, les deux fils de Hudhayfa. Quand la tuerie s'intensifia, dix mille hommes ou plus, surtout de Rabi'a et d'autres, se portèrent volontaires pour Ali, et il chargea avec eux comme un seul homme, monté sur sa mule blanche et disant « Auquel de mes jours de mort fuirais-je ? », jusqu'à atteindre le pavillon de Mu'awiya. {cite:muruj-al-dhahab p. 673-677} Les deux âges donnés pour Ammar, soixante-treize et quatre-vingt-treize ans, diffèrent au sein du récit d'al-Mas'udi tel qu'il figure dans la notice.
+
+## Ce qu'ajoute al-Sallabi : de Muharram à la trêve
+Après que l'eau fut passée aux mains des gens de Syrie, les deux camps se la disputèrent le premier jour de Dhu al-Hijja 37 H, puis entrèrent en Muharram dans un échange de messages. {cite:sallabi-ali-vol2 p. 102} {cite:sallabi-ali-vol2 p. 103} Ali envoya Bashir ibn Amr al-Ansari, Sa'id ibn Qays al-Hamdani et Shabath ibn Rib'i à Mu'awiya, et Mu'awiya répondit qu'Ali devait d'abord livrer les meurtriers d'Uthman, et seulement ensuite recevoir son allégeance. {cite:sallabi-ali-vol2 p. 103} Al-Sallabi estime que beaucoup des récits sur ces messages viennent par des chaînes faibles, et cite Ibn Kathir, qui critiqua les longs détails qu'on trouve chez Abu Mikhnaf et Nasr ibn Muzahim. {cite:sallabi-ali-vol2 p. 104}
+
+## Les premiers jours de combat
+Ali annonça que le mercredi serait le jour de l'engagement général, et Amr ibn al-As sortit des armes des magasins pour ceux qui en avaient besoin. {cite:sallabi-ali-vol2 p. 104} Le premier jour, les deux armées se rencontrèrent au centre, à l'aile droite et à l'aile gauche, avec Ammar ibn Yasir sur l'infanterie, Muhammad ibn al-Hanafiyya portant l'étendard et Ibn Abbas à l'aile gauche. {cite:sallabi-ali-vol2 p. 105} Le combat dura jusqu'au coucher du soleil, et chaque camp pria dans son propre campement. {cite:sallabi-ali-vol2 p. 105}
+
+Le deuxième jour, Ali changea de commandants. Il plaça Abd Allah ibn Budayl à l'aile droite à la place d'al-Ash'ath, et Ibn Budayl enfonça l'aile gauche de Mu'awiya. Ibn Budayl fut ensuite tué et al-Ashtar prit sa place, et Dhu al-Kala', Hawshab et Ubayd Allah ibn Umar ibn al-Khattab furent tués du côté syrien. {cite:sallabi-ali-vol2 p. 106}
+
+## La mort d'Ammar
+Al-Sallabi relate qu'Ammar ibn Yasir fut tué à Siffin, qu'il exhortait les gens en disant que quiconque souhaitait être entouré des houris devait s'avancer, et que sa dernière boisson fut du lait. {cite:sallabi-ali-vol2 p. 106} {cite:sallabi-ali-vol2 p. 107} L'auteur expose le hadith du groupe transgresseur, et dit qu'Amr ibn al-As et Mu'awiya divergèrent sur la manière de le comprendre, Mu'awiya disant que celui qui avait tué Ammar était celui qui l'avait fait sortir. {cite:sallabi-ali-vol2 p. 111} L'auteur répond que cette lecture va contre la lettre du texte. {cite:sallabi-ali-vol2 p. 114} Il ajoute que l'homme auquel les récits attribuent le meurtre est Abu al-Ghadiya al-Juhani, et qu'Ibn Kathir le qualifia d'homme ordinaire dont certains disent qu'il fut un Compagnon. {cite:sallabi-ali-vol2 p. 115}
+
+## La nuit d'al-Harir
+Al-Sallabi décrit la nuit du jeudi au vendredi comme la nuit d'al-Harir, et cite la description d'un témoin oculaire selon laquelle les deux armées s'entre-mordirent et combattirent avec des massues de fer et des pierres jusqu'au matin. {cite:sallabi-ali-vol2 p. 107} {cite:sallabi-ali-vol2 p. 108}
+
+## L'appel d'al-Ash'ath à l'arbitrage
+La nuit d'al-Harir, al-Ash'ath ibn Qays al-Kindi prononça un discours appelant à cesser le combat, disant que persister dans la guerre signifierait la destruction des Arabes. Le discours parvint à Mu'awiya, qui dit qu'il avait parlé juste, en jurant par le Seigneur de la Ka'ba. {cite:sallabi-ali-vol2 p. 108} Al-Sallabi tient l'appel à l'arbitrage pour sincère, et reproche aux Saba'iyya de l'avoir gâté. {cite:sallabi-ali-vol2 p. 108} {cite:sallabi-ali-vol2 p. 109}
+
+## Les captifs de Siffin
+Ali retenait un homme qui refusait de lui prêter allégeance et le relâchait s'il la prêtait. Si l'homme refusait encore, Ali lui prenait son arme et sa monture, lui faisait jurer de ne pas retourner au combat et le laissait partir. On lui amena quinze captifs blessés, et il lava, ensevelit et pria sur ceux qui moururent. {cite:sallabi-ali-vol2 p. 117}
+
+## Le compte des morts
+Ibn Abi Khaythama indique que les morts furent soixante-dix mille, vingt-cinq mille d'Irak et quarante-cinq mille de Syrie. Al-Sallabi estime que de tels chiffres ne sont pas acceptables vu la nature du combat, puisque le vrai combat dura une trentaine d'heures, et il note que les martyrs d'al-Qadisiyya furent huit mille cinq cents. {cite:sallabi-ali-vol2 p. 118}
+
+L'Encyclopédie de l'Islam tient les chiffres des combattants et des pertes pour bien moins sûrs que la formation des deux camps. Un récit estime les deux armées à environ 150 000 hommes chacune ; un autre donne 100 000 ou plus avec Ali et 130 000 avec Mu'awiya. L'article souligne que ce qui compte le plus pour l'étude de l'historiographie islamique ancienne, ce sont les statistiques contradictoires et les affirmations opposées des partisans des deux camps. {cite:encyclopaedia-of-islam-2 vol. 9 p. 569}
+
+## L'effet de la guerre, selon la lecture d'al-Sallabi
+Al-Sallabi juge que Siffin fut le plus remarquable des affrontements entre musulmans, et cite un mot d'Abu Hanifa selon lequel, sans la manière dont Ali traita les captifs et les rebelles, on n'aurait pas connu les règles du combat contre les gens de la qibla. {cite:sallabi-ali-vol2 p. 118}
+
+## La position sunnite
+Al-Sallabi, rapportant l'avis des sunnites, dit que le droit était avec Ali et que Mu'awiya était un mujtahid qui serait récompensé, et que ce qui survint entre les Compagnons ne doit être discuté que d'une manière qui convienne à leur rang. {cite:sallabi-ali-vol2 p. 148}
+
+Dans un autre passage, al-Sallabi estime qu'Ali accepta la fin du combat et revint à Koufa en espérant que l'arbitrage lèverait le différend, que la plus grande partie de son armée voulait une trêve, ce qui à son avis affaiblit l'affirmation selon laquelle l'élévation des Corans fut une ruse d'Amr ibn al-As, puisque l'idée n'était pas nouvelle et avait été tentée au Chameau. Il expose aussi les lectures d'Ibn Hajar, d'al-Nawawi, d'Ibn Kathir, d'al-Dhahabi, d'Ibn al-Arabi, d'Ibn Taymiyya, d'Ibn Baz et de Sa'id Hawwa selon lesquelles le groupe transgresseur du hadith sur le meurtre d'Ammar était l'armée de Mu'awiya, tout en excusant ces mujtahids comme des hommes qui cherchaient le talion pour Uthman et se trompèrent. {cite:sallabi-ali-tawzi-2004 p. 558} {cite:sallabi-ali-tawzi-2004 p. 559-562}
+
+## Autres récits : les Compagnons de chaque côté
+L'Encyclopédie de l'Islam montre que les récits rivaux sur qui combattit de quel côté faisaient partie de la lutte pour le prestige islamique, et elle présente les chiffres comme rapportés, non comme les siens. Dans le camp d'Ali, il y aurait eu 2 800 Compagnons, dont 25 furent tués, et parmi les morts auraient figuré 25 vétérans de Badr. Un savant affirma que 70 vétérans de Badr combattirent à Siffin du côté d'Ali, mais d'autres le rejetèrent et soutinrent que le seul vétéran de Badr dans le camp d'Ali était [[person/khuzayma-ibn-thabit|Khuzayma ibn Thabit]]. Une autre affirmation donnait 130 vétérans de Badr, et [[person/said-ibn-jubayr|Sa'id ibn Jubayr]] aurait dit qu'il y avait parmi les troupes d'Ali 900 [[group/ansar|Ansar]] et 800 [[group/muhajirun|Muhajirun]]. Il est aussi consigné que 800 des Compagnons qui avaient prêté allégeance au Prophète à al-Hudaybiya combattirent avec Ali et que 63 d'entre eux furent tués, parmi lesquels Ammar. {cite:encyclopaedia-of-islam-2 vol. 9 p. 570}
+
+L'article note que, dans le récit chiite qu'il cite d'après Bihar al-anwar et le Kitab de Sulaym ibn Qays, les Compagnons, et parmi eux les vétérans de Badr, sont présentés comme confirmant qu'Ali était dans son droit et comme témoignant de la véracité des paroles du Prophète sur lesquelles il fondait sa prétention. Les deux Ansar qui combattirent avec Mu'awiya, ajoute-t-il, ne pouvaient se prévaloir d'avoir assisté à la rencontre d'al-Aqaba ni aux batailles de Badr et d'Uhud. L'article avertit qu'un savant qui utilisa ces statistiques n'avait pas pleinement conscience de la valeur polémique qui s'y attachait. {cite:encyclopaedia-of-islam-2 vol. 9 p. 570}
+
+La même querelle façonna des biographies individuelles. Le statut de Compagnon de [[person/busr-ibn-abi-artat|Busr ibn Abi Arta'a]], du côté de Mu'awiya, était disputé : les Syriens affirmaient qu'il avait entendu le Prophète tout jeune garçon et pouvait donc transmettre des hadiths de lui, tandis que la thèse adverse était qu'il était né deux ans avant la mort du Prophète et n'en avait transmis aucun. {cite:encyclopaedia-of-islam-2 vol. 9 p. 570}
+
+## Écrire sur Siffin
+La bataille fut un sujet prisé des compilateurs de monographies historiques, parmi lesquels des chiites, des savants aux sympathies chiites et des sunnites. L'article énumère vingt-deux savants connus pour avoir compilé des monographies sur Siffin durant les trois premiers siècles et demi de l'islam, et prévient que ces monographies se recoupent, probablement beaucoup, et que certains des savants énumérés n'étaient que des transmetteurs. Ce sont leurs différences qui définissent chacune d'elles. Par exemple, le nom et la tribu du guerrier syrien qui tua Ammar étaient disputés, et al-Baladhuri cite les affirmations divergentes d'al-Waqidi, d'Abu Mikhnaf, d'Ibn al-Kalbi et d'al-Mada'ini. {cite:encyclopaedia-of-islam-2 vol. 9 p. 570}
+
+Parmi les noms cités figurent Jabir ibn Yazid al-Ju'fi, mort en 128/746 ; [[person/abu-mikhnaf|Abu Mikhnaf]], mort en 157/774, dont l'arrière-grand-père [[person/mikhnaf-ibn-sulaym|Mikhnaf ibn Sulaym]] fut le gouverneur d'Ali à Ispahan et fut tué à Siffin ; [[person/hisham-ibn-al-kalbi|Hisham ibn Muhammad Ibn al-Kalbi]], mort en 204/819 ; [[person/al-waqidi|al-Waqidi]], mort en 207/823 ; [[person/nasr-ibn-muzahim|Nasr ibn Muzahim]], mort en 212/827, qui compila le célèbre Wak'at Siffin ; [[person/ibn-abi-shayba|Ibn Abi Shayba]], mort en 235/849, dont le Musannaf a un chapitre sur Siffin ; [[person/al-madaini|al-Mada'ini]] ; et [[person/ibn-atham-al-kufi-ahmad-ibn-muhammad|Ibn A'tham al-Kufi]]. Pour al-Waqidi et al-Mada'ini, l'article dit que leurs livres se poursuivaient jusqu'à la guerre d'Ali contre les kharijites. {cite:encyclopaedia-of-islam-2 vol. 9 p. 570} {cite:encyclopaedia-of-islam-2 vol. 9 p. 571}
+
+## Chez Khalifa ibn Khayyat
+[[person/khalifa-ibn-khayyat|Khalifa ibn Khayyat]] dit que le combat de Siffin eut lieu le mercredi sept Safar 37, la trêve dans la nuit du samedi dix Safar, et qu'Ammar ibn Yasir et Hashim ibn Utba furent tués. {cite:tarikh-khalifa-umari-1985 p. 191}

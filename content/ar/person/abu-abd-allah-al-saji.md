@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b16, source: "حلية الأولياء (دار الكتب العلمية 1988) 9/310-317" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b16, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 9/310-317" }
 ---
 ## موجز
 أبو عبد الله سعيد بن يزيد الساجي من الزهاد الذين يترجم لهم [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء التاسع من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة 450)⁩. يصفه في السجع الافتتاحي بأنه كان يضجّ من نفسه إلى ربه ويشتاق إليه. وأكثر كلامه يرويه عنه [[person/ahmad-ibn-abi-al-hawari|أحمد بن أبي الحواري]] وأحمد بن محمد بن بكر القرشي، وليس في الترجمة تاريخ ولادة ولا وفاة. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/310-311}

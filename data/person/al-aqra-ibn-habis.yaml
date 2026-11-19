@@ -1,14 +1,15 @@
 id: person/al-aqra-ibn-habis
 class: person
-label: { en: "al-Aqra' ibn Habis al-Tamimi", ar: "الأقرع بن حابس التميمي" , ur: "اقرع بن حابس تمیمی"}
+label: { en: "al-Aqra' ibn Habis al-Tamimi", fr: "Al-Aqra’ ibn Habis al-Tamimi", ar: "الأقرع بن حابس التميمي" , ur: "اقرع بن حابس تمیمی"}
 names:
   - { kind: full, lang: ar, value: "الأقرع بن حابس بن عقال بن محمد المجاشعي الدارمي التميمي" }
-  - { kind: alternate, lang: ar, value: "الأقرع بن حابس، أحد بني دارم من مالك (وفي نسختين: أحد بني مالك بن دارم بن مالك)" }
+  - { kind: alternate, lang: ar, value: "الأقرع بن حابس، أحد بني دارم من مالك ⁦(وفي نسختين: أحد بني مالك بن دارم بن مالك)⁩" }
 gender: male
 roles: [companion, tribal-leader]
 traditions: [sunni]
 summary:
   en: "A paramount chieftain and arbitrator of Banu Tamim in Najd; given one hundred camels at al-Ji'rana among al-Mu'allafa Qulubuhum, he witnessed the conquest of Mecca, Hunayn and al-Ta'if with the Prophet, came with the Tamim delegation in 9 AH and pronounced that the Muslims' orator and poet surpassed Tamim's, after which the delegation accepted Islam; he later took part in the early conquests."
+  fr: "Grand chef et arbitre des Banu Tamim au Najd ; il reçut cent chameaux à al-Ji’rana parmi les al-Mu’allafa Qulubuhum, assista avec le Prophète à la conquête de La Mecque, à Hunayn et à al-Ta’if, vint avec la délégation des Tamim en 9 H et déclara que l’orateur et le poète des musulmans surpassaient ceux des Tamim, après quoi la délégation accepta l’islam ; il participa ensuite aux premières conquêtes."
   ar: "سيد بني تميم وحَكَمُهم في الجاهلية؛ أعطاه النبي مئة بعير بالجعرانة في سهم المؤلفة قلوبهم، وشهد معه فتح مكة وحنيناً والطائف، ثم جاء مع وفد بني تميم سنة 9هـ وحكم أن خطيب المسلمين أخطب من خطيبهم وشاعرهم أشعر من شاعرهم فأسلم الوفد؛ وشهد الفتوح الإسلامية."
   ur: "بنو تمیم کے سردار اور ثالث؛ فتح مکہ، حنین اور طائف میں شریک ہوئے، جعرانہ میں سو اونٹ پائے اور بنو تمیم کے وفد کے ساتھ آئے۔ {cite:ibn-hisham-saqqa}"
 wings: [people]
@@ -16,8 +17,8 @@ themes: [reconciliation-and-unity, converts-and-leavers, battles]
 periods: [period/prophetic-era, period/rashidun]
 regions: [arabia, persia-central-asia]
 story_roles:
-  - { role: convert, status: tradition, note: "من سادات نجد الذين تألفهم النبي بالجعرانة بمائة بعير (ابن هشام 4/136).", sources: [source/ibn-hisham-saqqa] }
-  - { role: interlocutor, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "حكم في مفاخرة وفد بني تميم أن خطيب المسلمين أخطب وشاعرهم أشعر (ابن هشام 4/212).", sources: [source/ibn-hisham-saqqa] }
+  - { role: convert, status: tradition, note: "من سادات نجد الذين تألفهم النبي بالجعرانة بمائة بعير ⁦(ابن هشام 4/136)⁩.", sources: [source/ibn-hisham-saqqa] }
+  - { role: interlocutor, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "حكم في مفاخرة وفد بني تميم أن خطيب المسلمين أخطب وشاعرهم أشعر ⁦(ابن هشام 4/212)⁩.", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "أسلم عام الفتح/حنين." }
 died: { edtf: "0645~", hijri: "0025~", calendar: julian, precision: year, status: debated, derived: true, note: "Struck down at al-Jawzjan in Uthman's time on Abdallah ibn Amir's Khurasan expedition; Ibn al-Kalbi instead has him killed at al-Yarmuk with ten sons (al-Isaba p. 79); CE year approximated to 25 AH", sources: [source/ibn-hajar-isaba] }
@@ -28,7 +29,7 @@ relations:
   - { type: member_of, target: group/banu-tamim }
   - { type: member_of, target: group/banu-darim, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/distribution-of-hunayn-spoils, role: recipient-leader, sources: [source/ibn-hisham-saqqa] }
-  - { type: participated_in, target: event/conquest-of-mecca, note: "شهد مع النبي فتح مكة (ص207)", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/conquest-of-mecca, note: "شهد مع النبي فتح مكة ⁦(ص207)⁩", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/battle-of-hunayn, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/siege-of-taif, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/delegation-of-banu-tamim, role: "من أشراف الوفد؛ حكم للمسلمين", sources: [source/ibn-hisham-saqqa] }

@@ -1,0 +1,18 @@
+---
+id: event/al-daam-leaves-athafit-for-khiwan-and-the-plunder-of-athafit-285
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/al-daam-leaves-athafit-for-khiwan-and-the-plunder-of-athafit-285.md}
+---
+## Visión general
+El libro dice que algunas personas de [[place/khiwan|Khiwan]] habían estado escribiendo a [[person/al-daam-ibn-ibrahim|al-Da'am]] pidiéndole que fuera allí; cuando dejó [[place/athafit|Athafit]] fue a Khiwan y se estableció allí. {cite:sira-hadi-ila-al-haqq p.108} El relato es zaidí, en la voz de los seguidores del imán; sus dichos se atribuyen a sus narradores y el museo no emite ningún veredicto sobre ellos.
+
+## El saqueo de Athafit
+En la oración de la mañana llegó la noticia a [[group/banu-sarim-hamdan|Banu Sarim]] y sus compañeros, que estaban cerca de Athafit, de que al-Da'am la había abandonado; el necio, el esclavo y el muchacho entre ellos asaltaron, entraron en Athafit y saquearon los bienes que habían quedado en ella. {cite:sira-hadi-ila-al-haqq p.108} La gente de Athafit había retirado la mayor parte de sus bienes por temor a Banu Sarim y [[group/banu-rabia-hamdan|Banu Rabi'a]], porque no los habían apoyado el día [[person/abu-umar-abd-al-aziz-ibn-marwan-al-bahrani|Abu Umar]] fue asesinado, y los dos pueblos les guardaban rencor por ello, así que saquearon los bienes domésticos que encontraron. {cite:sira-hadi-ila-al-haqq p.108} El narrador dice que oyó a algunos de ellos decir que habían pensado que lo que tomaron era lícito para ellos. {cite:sira-hadi-ila-al-haqq p.108}
+
+## El dolor de Al-Hadi
+Cuando [[person/al-hadi-yahya-al-rassi|al-Hadi]] oyó que al-Da'am se había marchado, no lo creyó y lo consideró falso, y pasó el día comprobando hasta que la gente de Athafit llegó y le contó la partida y el saqueo, lo cual le pesó mucho y lo llenó de profunda tristeza. {cite:sira-hadi-ila-al-haqq p.108} Le dijo a [[person/muhammad-ibn-said-ibn-yusuf|Muhammad ibn Sa'id]] que había decidido retirarse, no hablar con nadie y no dejar entrar a nadie, y que si no fuera por su temor a dañar al Islam, no se habría quedado en Yemen y habría regresado a casa. {cite:sira-hadi-ila-al-haqq p.108} Estas son las palabras de al-Hadi tal como las da el narrador.
+
+## El testimonio del narrador y el consejo de los dos compañeros
+Ali ibn Muhammad relata que Muhammad ibn Sulayman dijo que en todo el tiempo que estuvo con al-Hadi nunca lo vio tan afligido como entonces: hablaba conteniendo sus sollozos, las lágrimas lo ahogaban, y seguía repitiendo las palabras de volver a Dios y diciendo que la religión se estaba yendo. {cite:sira-hadi-ila-al-haqq p.108} El narrador y Muhammad ibn Sa'id siguieron persuadiéndolo, diciéndole que si hacía esto el Islam perecería; él respondió que se quedaría allí hasta que Dios le diera gente creyente que oyera hablar de él y viniera, y él estaría con ellos. {cite:sira-hadi-ila-al-haqq p.108} {cite:sira-hadi-ila-al-haqq p.109} Dijeron que la gentileza era todo lo que les serviría, y que si lo veía conveniente debía mandarlos llamar, hablar con ellos y pedirles que se arrepintieran, pues eran beduinos ignorantes que tal vez no lo hubieran considerado prohibido; él dijo que esta era una opinión a seguir. {cite:sira-hadi-ila-al-haqq p.109} La secuela está en [[event/al-hadi-has-the-loot-returned-and-the-gathering-on-the-day-of-arafa-285]].

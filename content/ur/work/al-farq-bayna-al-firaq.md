@@ -8,7 +8,7 @@ status:
 provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "farq-bayn-al-firaq-khisht-ibn-sina pp. 1, 5, 7-10, 23-25, 28-29, 271-274; translated from the Arabic page" }
 ---
 ## موجز
-«الفرق بین الفرق و بیان الفرقۃ الناجیۃ منہم» ابو منصور [[person/al-baghdadi-abd-al-qahir-ibn-tahir|عبد القاہر بن طاہر بن محمد بغدادی]] (م 429ھ/1037ء) کی فرقوں اور مقالات پر کتاب ہے۔ {cite:farq-bayn-al-firaq-khisht-ibn-sina p. 1} اس کے محقق محمد عثمان الخشت بتاتے ہیں کہ بغدادی کا علمی نسب اشعری ہے، کیونکہ انہوں نے ابو اسحاق اسفرائینی سے پڑھا، جنہوں نے ابو الحسن باہلی سے، جو [[person/al-ashari|ابو الحسن اشعری]] کے شاگرد تھے۔ {cite:farq-bayn-al-firaq-khisht-ibn-sina p. 7}
+«الفرق بین الفرق و بیان الفرقۃ الناجیۃ منہم» ابو منصور [[person/al-baghdadi-abd-al-qahir-ibn-tahir|عبد القاہر بن طاہر بن محمد بغدادی]] ⁦(م 429ھ/1037ء)⁩ کی فرقوں اور مقالات پر کتاب ہے۔ {cite:farq-bayn-al-firaq-khisht-ibn-sina p. 1} اس کے محقق محمد عثمان الخشت بتاتے ہیں کہ بغدادی کا علمی نسب اشعری ہے، کیونکہ انہوں نے ابو اسحاق اسفرائینی سے پڑھا، جنہوں نے ابو الحسن باہلی سے، جو [[person/al-ashari|ابو الحسن اشعری]] کے شاگرد تھے۔ {cite:farq-bayn-al-firaq-khisht-ibn-sina p. 7}
 
 ## سببِ تالیف
 محقق کہتے ہیں کہ بغدادی کتاب کے آغاز میں صراحت کرتے ہیں کہ انہوں نے اسے اپنے شاگردوں کی فرمائش پر لکھا، جنہوں نے امت کے افتراق کی حدیث کی شرح، فرقوں کے فروق اور فرقۂ ناجیہ کی علامات کا بیان چاہا، اور انہوں نے اسے واجب سمجھا تاکہ دینِ قویم ان کے الفاظ میں «گمراہ فرقوں کی خواہشات» سے ممتاز ہو جائے۔ {cite:farq-bayn-al-firaq-khisht-ibn-sina p. 8} دیکھیے: [[concept/al-iftiraq-al-ummah|امت کا افتراق]]۔

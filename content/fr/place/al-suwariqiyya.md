@@ -1,0 +1,12 @@
+---
+id: place/al-suwariqiyya
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/al-suwariqiyya.md}
+---
+## Vue d'ensemble
+Al-Suwariqiyya est un village qu'al [[person/al-hadi-yahya-al-rassi|-Hadi]] et son groupe atteignirent sur la route du Yémen ; ils comptaient emprunter un chemin qui les mènerait à Turaba et Bisha, mais trouvèrent le chemin difficile et rebroussèrent chemin. {cite:sira-hadi-ila-al-haqq p.38} {cite:sira-hadi-ila-al-haqq p.39} Une note de bas de page mentionne Sifat al-Jazira et Mu'jam al-Buldan. {cite:sira-hadi-ila-al-haqq p.38} Le texte ne précise pas davantage la localisation, aucune coordonnée n'est donc donnée. Voir [[event/al-hadi-road-to-saada-well-and-zubayd]].
+
+## Dans le Mu'jam al-Buldan de Yaqut
+Yaqut donne le nom avec un qaf après le ra et la nisba ya, note la variante diminutive al-Suwayriqiyya, et l'identifie comme le village d'Abu Bakr, situé entre La Mecque et Médine, dans le Najd, autrefois contrôlé par les Banu Sulaym. {cite:mujam-al-buldan-sader-1995 3 p.276} Il rapporte un échange où le Prophète demande son nom et apprend qu'il s'agit de Ma'isim, en précisant qu'on n'y trouve guère plus que quelques palmiers et des récoltes. {cite:mujam-al-buldan-sader-1995 3 p.276} Citant Arram, il décrit un grand village animé, doté d'un minbar, d'une mosquée et d'un marché fréquenté par des marchands, appartenant en particulier aux Banu Sulaym ; son eau étant quelque peu salée, les habitants puisent de l'eau douce dans des puits situés dans les vallées de Suwariq et d'al-Abtan. Ils possèdent des champs et des palmiers, des bananiers, des figuiers, des vignes, des grenadiers, des coings et des pêchers, ainsi que des chameaux, des chevaux et des moutons, et approvisionnent la route du Hedjaz et du Najd, le long du chemin de pèlerinage jusqu'à Dariyya. {cite:mujam-al-buldan-sader-1995 3 p.276} Parmi ceux qui portent ce nom, il cite Abu Bakr Muhammad ibn Atiq ibn Najm al-Suwariqi al-Bakri, un juriste et poète de renom qui se rendit au Khorasan et mourut à Tus en 538 ; Abu Sa'd s'appropria certains de ses vers. {cite:mujam-al-buldan-sader-1995 3 p.276}

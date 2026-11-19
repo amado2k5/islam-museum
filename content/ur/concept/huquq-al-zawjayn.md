@@ -8,7 +8,7 @@ translators: []
 شیخ عمر عبدالکافی نے حقوق کے سلسلے کے دو درسوں میں میاں بیوی کے حقوق بیان کیے ہیں: پہلے درس میں شوہر کے بیوی پر حقوق، اور دوسرے میں بیوی کے شوہر پر حقوق۔ {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:00:30} {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:03:00}
 
 ## شوہر کے بیوی پر حقوق
-شیخ کہتے ہیں کہ شوہر کے بیوی پر حقوق کئی نکات پر مشتمل ہیں، اور یہ کہ پچھلے درس میں ان میں سے چھ بیان ہو چکے (needs_source: عدد تسجیل میں ایک بار آتا ہے)۔ {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:02:00}
+شیخ کہتے ہیں کہ شوہر کے بیوی پر حقوق کئی نکات پر مشتمل ہیں، اور یہ کہ پچھلے درس میں ان میں سے چھ بیان ہو چکے ⁦(needs_source: عدد تسجیل میں ایک بار آتا ہے)⁩۔ {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:02:00}
 ان نکات میں سے ایک یہ ہے کہ بیوی شوہر کے لیے بناؤ سنگھار کرے اور اس کے لیے تیار رہے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:02:30}
 وہ ایک حدیث بیان کرتے ہیں جو شوہر کو بیوی کے لیے «جنت اور دوزخ» قرار دیتی ہے، اور تسجیل میں اس کی وضاحت پوری طرح واضح نہیں (needs_source)۔ {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:06:00}
 وہ خبردار کرتے ہیں کہ بیوی کو جب کوئی بات ناپسند آئے تو وہ شوہر کے احسانات بھول جاتی ہے، اور اس پر ایک حدیث پیش کرتے ہیں۔ {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:05:00}
@@ -19,7 +19,7 @@ translators: []
 وہ ایک حدیث پیش کرتے ہیں جو محبت کرنے والی اور زیادہ بچے جننے والی عورتوں کو بہترین عورتوں میں شمار کرتی ہے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:13:00}
 وہ مشورہ دیتے ہیں کہ بیوی شوہر کے کام سے لوٹنے پر شکایات کی فہرست نہ رکھے، کیونکہ شوہر کو نرم بات اور خوشگوار مسکراہٹ چاہیے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:14:00} {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:17:00}
 وہ کہتے ہیں کہ شوہر چاہتا ہے کہ اپنی بیوی کے چہرے پر مسکراہٹ دیکھے، اور ام سلیم کا قصہ بیان کرتے ہیں جنہوں نے شوہر سے بیٹے کی موت چھپائی یہاں تک کہ اس نے کھانا کھا لیا۔ {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:16:00}
-وہ میاں بیوی کے درمیان کی باتیں ظاہر کرنے کو بڑی خیانتوں میں شمار کرتے ہیں (needs_source: تسجیل میں ظاہر کرنے والے فریق کا ذکر واضح نہیں)۔ {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:18:30}
+وہ میاں بیوی کے درمیان کی باتیں ظاہر کرنے کو بڑی خیانتوں میں شمار کرتے ہیں ⁦(needs_source: تسجیل میں ظاہر کرنے والے فریق کا ذکر واضح نہیں)⁩۔ {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:18:30}
 وہ کہتے ہیں کہ بیوی پر لازم ہے کہ وہ اپنے بچوں اور ان کی تربیت کی حفاظت کرے، اور شوہر کے بارے میں اللہ سے ڈرے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:22:00}
 وہ کہتے ہیں کہ شوہر کے ساتھ حسنِ سلوک نرم بات، خدمت اور دیکھ بھال سے ہوتا ہے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:22:30}
 وہ مشورہ دیتے ہیں کہ بیوی اپنے گھر میں ایسے شخص کو داخل نہ کرے جسے شوہر ناپسند کرتا ہو۔ {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:23:00}
@@ -43,28 +43,28 @@ translators: []
 وہ بیوی کے حقوق میں شمار کرتے ہیں کہ شوہر اسے دین سکھائے، اور وہ علماء سے سنے اور سیکھے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:44:30} {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:45:00}
 
 ## «حقوق» کے دروس سے: عدل، کام اور حسن سلوک
-شیخ کے مطابق میاں بیوی کے حقوق دو طرفہ ہیں اور ہر فریق کا دوسرے پر حق ہے {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:33:00} (needs_source: جملہ ٹرانسکرپٹ میں واضح نہیں)۔
-شیخ عدل کو «دوسرا حق» قرار دیتے ہیں اور اس میں اچھا سلوک شامل کرتے ہیں {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:19:00} (needs_source: باقی جملہ واضح نہیں)۔
+شیخ کے مطابق میاں بیوی کے حقوق دو طرفہ ہیں اور ہر فریق کا دوسرے پر حق ہے {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:33:00} ⁦(needs_source: جملہ ٹرانسکرپٹ میں واضح نہیں)⁩۔
+شیخ عدل کو «دوسرا حق» قرار دیتے ہیں اور اس میں اچھا سلوک شامل کرتے ہیں {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:19:00} ⁦(needs_source: باقی جملہ واضح نہیں)⁩۔
 وہ کہتے ہیں کہ شوہر کو بیوی کے جذبات کا خیال رکھنا چاہیے، ورنہ وہ ظالموں میں شمار ہوگا {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:23:30}۔
 بیوی کا گھر سے باہر کام، اس کی کمائی، تادیب اور اطاعت پر شیخ کی رائے علماء کے درمیان مختلف فیہ ہے، اس لیے یہ آرا متکلم کی اپنی رائے کے طور پر پیش کی جاتی ہیں:
 
 :::perspectives
 - **Sunni view: not yet sourced**: ابھی تک ماخوذ نہیں۔
-- **speaker's view (Omar Abdelkafy)**: شیخ کہتے ہیں کہ ضرورت کے تحت بیوی کا کام کرنا اس سے مختلف ہے جو بغیر ضرورت کیا جائے، اور گھر سے سات یا آٹھ گھنٹے یا زیادہ غیر حاضری کسی حکم کی متقاضی ہے جو ٹرانسکرپٹ میں واضح نہیں {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:11:30} (needs_source: جزوی طور پر غیر واضح)۔ وہ شوہر کو بیوی کی تنخواہ میں سے لینے سے خبردار کرتے ہیں {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:11:00} (needs_source: جزوی طور پر غیر واضح)۔
+- **speaker's view (Omar Abdelkafy)**: شیخ کہتے ہیں کہ ضرورت کے تحت بیوی کا کام کرنا اس سے مختلف ہے جو بغیر ضرورت کیا جائے، اور گھر سے سات یا آٹھ گھنٹے یا زیادہ غیر حاضری کسی حکم کی متقاضی ہے جو ٹرانسکرپٹ میں واضح نہیں {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:11:30} ⁦(needs_source: جزوی طور پر غیر واضح)⁩۔ وہ شوہر کو بیوی کی تنخواہ میں سے لینے سے خبردار کرتے ہیں {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:11:00} ⁦(needs_source: جزوی طور پر غیر واضح)⁩۔
 - **academic view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 - **other view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 :::
 
 :::perspectives
 - **Sunni view: not yet sourced**: ابھی تک ماخوذ نہیں۔
-- **speaker's view (Omar Abdelkafy)**: شیخ کہتے ہیں «چہرے پر مت مارو» اور اسے حرام بتاتے ہیں {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:29:30} (needs_source: جملہ جزوی طور پر غیر واضح ہے؛ دوبارہ سننے کی ضرورت ہے)۔
+- **speaker's view (Omar Abdelkafy)**: شیخ کہتے ہیں «چہرے پر مت مارو» اور اسے حرام بتاتے ہیں {cite:assabile-omar-abdelkafy al-hoquq/ep02 00:29:30} ⁦(needs_source: جملہ جزوی طور پر غیر واضح ہے؛ دوبارہ سننے کی ضرورت ہے)⁩۔
 - **academic view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 - **other view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 :::
 
 :::perspectives
 - **Sunni view: not yet sourced**: ابھی تک ماخوذ نہیں۔
-- **speaker's view (Omar Abdelkafy)**: شیخ شوہر کی اچھی سماعت اور اطاعت کا ذکر کرتے ہیں {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:36:30}، اور کہتے ہیں کہ اس طرح شوہر کے گھر سے نکلنا حرام ہے {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:42:30} (needs_source: باقی جملہ واضح نہیں)۔
+- **speaker's view (Omar Abdelkafy)**: شیخ شوہر کی اچھی سماعت اور اطاعت کا ذکر کرتے ہیں {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:36:30}، اور کہتے ہیں کہ اس طرح شوہر کے گھر سے نکلنا حرام ہے {cite:assabile-omar-abdelkafy al-hoquq/ep01 00:42:30} ⁦(needs_source: باقی جملہ واضح نہیں)⁩۔
 - **academic view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 - **other view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 :::
@@ -78,7 +78,7 @@ translators: []
 
 ## بچوں اور اہل خانہ کے سامنے اچھی بات
 شیخ ایسی بیوی پر تنقید کرتے ہیں جو بچوں کے سامنے شوہر کو حقیر جانے، ان کی رائے ہے کہ وہ اپنی ذمہ داری میں کوتاہی کرتی ہے اور اس کی بیٹیاں اس کی نقل کریں گی۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep02 00:11:00}
-وہ ایک آیت کا ذکر کرتے ہیں جس میں ہے کہ اللہ نے جوڑے بنائے تاکہ ہر ایک کو دوسرے سے سکون ملے، اور ان کے درمیان محبت اور رحمت رکھی، اور وہ ان تین باتوں کو مسلم گھر کے ستون شمار کرتے ہیں (needs_source: سورت کا نام ریکارڈنگ میں نہیں لیا گیا)۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:33:30}
+وہ ایک آیت کا ذکر کرتے ہیں جس میں ہے کہ اللہ نے جوڑے بنائے تاکہ ہر ایک کو دوسرے سے سکون ملے، اور ان کے درمیان محبت اور رحمت رکھی، اور وہ ان تین باتوں کو مسلم گھر کے ستون شمار کرتے ہیں ⁦(needs_source: سورت کا نام ریکارڈنگ میں نہیں لیا گیا)⁩۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:33:30}
 
 ## تکلیف میں صبر اور باہمی سہارا
 شیخ کہتے ہیں کہ میاں بیوی کو محبت کا ایسا ذخیرہ جمع کرنا چاہیے جس سے بحران میں کام لیا جا سکے، اور وہ اس شوہر یا بیوی پر تنقید کرتے ہیں جو دوسرے کی غلطی کا انتظار کرتا ہے۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep06 00:34:30}
@@ -89,12 +89,12 @@ translators: []
 ## میاں بیوی کے درمیان راز اور جاسوسی
 وہ ایک حدیث بیان کرتے ہیں کہ سب سے بڑی خیانتوں میں سے ایک یہ ہے کہ میاں یا بیوی میں سے کوئی دوسرے کی نجی باتیں کسی اور تک پہنچائے، اور کہتے ہیں کہ یہ شوہر پر بھی اتنا ہی لاگو ہوتا ہے جتنا بیوی پر۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:22:00}
 وہ نصیحت کرتے ہیں کہ شوہر اپنی بیوی کے راز اور اس کی عزت کی حفاظت کرے، گھر میں خوش مزاج رہے بجائے اس کے کہ کام کی وجہ سے چہرہ بگاڑے، اور کہتے ہیں کہ نبی اپنے گھر والوں کے ساتھ نرم تھے۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:21:30}
-وہ قرآن کی جاسوسی کی ممانعت اور علماء کا ایک قول بیان کرتے ہیں کہ جب شک پیدا ہو تو تفتیش نہ کی جائے (needs_source: سورت کا نام ریکارڈنگ میں نہیں لیا گیا)۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:38:30}
-وہ میاں بیوی کے درمیان راز افشا کرنے سے متعلق ایک حدیث کا ذکر کرتے ہیں، اور نوح اور لوط کی بیویوں کو راز افشا کرنے کی مثال کے طور پر پیش کرتے ہیں (needs_source: حدیث ریکارڈنگ میں نام کے ساتھ نہیں لی گئی)۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:08:00}
+وہ قرآن کی جاسوسی کی ممانعت اور علماء کا ایک قول بیان کرتے ہیں کہ جب شک پیدا ہو تو تفتیش نہ کی جائے ⁦(needs_source: سورت کا نام ریکارڈنگ میں نہیں لیا گیا)⁩۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:38:30}
+وہ میاں بیوی کے درمیان راز افشا کرنے سے متعلق ایک حدیث کا ذکر کرتے ہیں، اور نوح اور لوط کی بیویوں کو راز افشا کرنے کی مثال کے طور پر پیش کرتے ہیں ⁦(needs_source: حدیث ریکارڈنگ میں نام کے ساتھ نہیں لی گئی)⁩۔ {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:08:00}
 
 ## عمر عبد الکافی کے پروگرام «بستان الامل» سے
 شیخ کے نزدیک کچھ بیٹے شادی کے بعد انتہا پر چلے جاتے ہیں: یا تو «بیوی سے نکاح کر کے ماں باپ کو طلاق دے دیتے ہیں»، یا بیوی کو مجبور کرتے ہیں کہ ان کی طرح والدین کے ہاتھ اور سر چومے؛ ان کے نزدیک وہ ان کی بیٹی نہیں اور ان کی خدمت اس پر فرض نہیں، اور معاملہ محبت پر ہونا چاہیے۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:04:00} ان کے نزدیک والدین کو ایک پلڑے میں اور بیوی کو دوسرے میں رکھنا ایسا ہی غلط ہے جیسے قلموں کو گھڑیوں کے ساتھ جمع کرنا، کیونکہ ہر ایک کے حقوق کی نوعیت الگ ہے: بیوی کے ساتھ بھلائی سے رہنا، والدین کے ساتھ بھلائی سے رفاقت، تو ہر حقدار کو اس کا حق دیا جائے؛ اور وہ اس شخص پر لطیفہ کہتے ہیں جو ماں کو «زندہ اور رزق یافتہ» اور بیوی کو «دوڑتا سانپ» کہے۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep23 00:06:30}
-آخری قسط میں شیخ تمنا کرتے ہیں کہ بیوی شوہر کا استقبال کرے اور اسے رخصت کرے، اور نصیحت کرے کہ گھر میں حرام نہ لائے کیونکہ وہ بھوک برداشت کر سکتے ہیں آگ نہیں؛ اور شوہر بچوں کے سامنے بیوی کا ہاتھ یا سر چومے اس کی محنت کے اعتراف میں، تاکہ انہیں عملی سبق ملے؛ وہ بیان کرتے ہیں کہ [[person/abu-dharr-al-ghifari|ابو ذر]] نے جب سنا کہ آدمی جو لقمہ یا پانی کا گھونٹ بیوی کے منہ میں ڈالے اس پر اجر ہے تو بیوی کو قسم دی کہ پیے؛ اور ذکر کرتے ہیں کہ میاں بیوی مصافحہ کریں تو ان کے گناہ یوں جھڑتے ہیں جیسے سردی کے دن درخت کے پتے (needs_source: ابو ذر کی روایت جیسا کہ شیخ بیان کرتے ہیں)۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:05:00} وہ تمنا کرتے ہیں کہ بیٹا باپ سے پہلے نہ بیٹھے، اس سے آگے نہ چلے اور اسے نام سے نہ پکارے۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:05:30}
+آخری قسط میں شیخ تمنا کرتے ہیں کہ بیوی شوہر کا استقبال کرے اور اسے رخصت کرے، اور نصیحت کرے کہ گھر میں حرام نہ لائے کیونکہ وہ بھوک برداشت کر سکتے ہیں آگ نہیں؛ اور شوہر بچوں کے سامنے بیوی کا ہاتھ یا سر چومے اس کی محنت کے اعتراف میں، تاکہ انہیں عملی سبق ملے؛ وہ بیان کرتے ہیں کہ [[person/abu-dharr-al-ghifari|ابو ذر]] نے جب سنا کہ آدمی جو لقمہ یا پانی کا گھونٹ بیوی کے منہ میں ڈالے اس پر اجر ہے تو بیوی کو قسم دی کہ پیے؛ اور ذکر کرتے ہیں کہ میاں بیوی مصافحہ کریں تو ان کے گناہ یوں جھڑتے ہیں جیسے سردی کے دن درخت کے پتے ⁦(needs_source: ابو ذر کی روایت جیسا کہ شیخ بیان کرتے ہیں)⁩۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:05:00} وہ تمنا کرتے ہیں کہ بیٹا باپ سے پہلے نہ بیٹھے، اس سے آگے نہ چلے اور اسے نام سے نہ پکارے۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:05:30}
 
 ## عمر عبد الکافی کے پروگرام المنجیات سے
 «المنجیات» میں عمر عبد الکافی اللہ کی راہ کی رکاوٹوں میں اس بیوی کو گنتے ہیں جو شوہر کی برائی پھیلائے اور اچھائی چھپائے، اور بچوں کے سامنے اسے چھوٹا کرے، اور کہتے ہیں کہ شوہر بھی بیوی کا مقام کم نہ کرے؛ وہ بے رحم بیوی اور عذر قبول نہ کرنے والے شوہر کا ذکر کرتے ہیں۔ {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:04:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:04:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:05:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:10:30}

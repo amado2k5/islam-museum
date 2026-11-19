@@ -1,0 +1,9 @@
+---
+id: concept/iwad
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/iwad.md}
+---
+## Resumen
+En el léxico, iwad es un sustituto, es decir, lo que se da a cambio de algo; también se utiliza como recompensa en el más allá {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11928}. Los juristas exigen que la contraprestación se pague en contratos de intercambio: el arrendatario y el arrendador, la dote del marido, quien destruye algo debe devolver su valor o lo que le corresponde, y el asesino debe el dinero de sangre {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11928} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11929} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11931}. Algunas cosas no pueden ser una contraprestación, como la sangre, la carroña y el vino, y hacer de la intimidad de la mujer la dote en un intercambio de shardar {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11929} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11930}. Las contraprestaciones son o bien financieras o no, y en los contratos de intercambio deben conocerse y fijarse para poner fin a las disputas; la ley fija algunas, como el dinero de sangre, el rescate y las expiaciones {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11930} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11936} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11937} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11938}. Una contraprestación caduca cuando el objeto perece, por liberación de una deuda, por perdón o por conversión al islam en el caso del impuesto de capitación {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11942} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11943}.

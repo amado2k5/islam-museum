@@ -1,21 +1,22 @@
 id: event/abd-al-rahman-ibn-habib-sus-raid
 class: event
 kind: campaign
-label: { ar: "غزوة عبد الرحمن بن حبيب للسوس وأرض السودان", en: "Abd al-Rahman ibn Habib's Raid on Sus and the Sudan Lands" }
+label: { ar: "غزوة عبد الرحمن بن حبيب للسوس وأرض السودان", en: "Abd al-Rahman ibn Habib's Raid on Sus and the Sudan Lands", fr: "Expédition d’Abd al-Rahman ibn Habib contre le Sus et les terres du Soudan" }
 summary:
   ar: "عند البلاذري: استعمل عبد الله بن الحبحاب مولى بني سلول على إفريقية فأغزى عبد الرحمن بن حبيب بن أبي عبيدة بن عقبة بن نافع الفهري السوس وأرض السودان فظفر ظفراً لم ير أحد مثله قط وأصاب جاريتين من نساء ما هناك ليس للمرأة منهنّ أثداء واحد وهم يسمّون تراجان — وفي حاشية نسخة أنهما من جنس تسمّيه البرْبَرْواجان."
   en: "In al-Baladhuri: Abdallah ibn al-Habhab, mawla of Banu Salul, was employed over Ifriqiya, and he sent raiding Abd al-Rahman ibn Habib ibn Abi Ubayda ibn Uqba ibn Nafi' al-Fihri to Sus and the Sudan lands — he triumphed as none had ever seen, taking among their women two girls each with but a single breast, they being called Tarajan — a copy's margin noting them of a race called al-Barbarwajan."
+  fr: "Chez al-Baladhuri : Abdallah ibn al-Habhab, client des Banu Salul, fut nommé à la tête de l’Ifriqiya et envoya Abd al-Rahman ibn Habib ibn Abi Ubayda ibn Uqba ibn Nafi' al-Fihri mener une expédition au Sus et dans les terres du Soudan. Il remporta une victoire comme on n’en avait jamais vu, capturant parmi leurs femmes deux jeunes filles n’ayant chacune qu’un seul sein, appelées Tarajan ; la marge d’un exemplaire précise qu’elles appartenaient à un peuple nommé al-Barbarwajan."
 wings: [time]
 periods: [period/umayyad]
 regions: [maghreb]
 date:
-  start: { edtf: "0720/0741", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية ابن الحبحاب (البلاذري ص 324). التحويل مشتق." }
+  start: { edtf: "0720/0741", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية ابن الحبحاب ⁦(البلاذري ص 324)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/sus-al-aqsa }
   - { type: had_participant, target: person/abd-al-rahman-ibn-habib-al-fihri, role: "المُغزى الغانم", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 324"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 324"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-22
 sides:

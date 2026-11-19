@@ -1,6 +1,6 @@
 id: person/abd-allah-ibn-ayyub-al-taymi
 class: person
-label: { ar: "عبد الله بن أيوب التيمي", en: "Abd Allah ibn Ayyub al-Taymi" }
+label: { ar: "عبد الله بن أيوب التيمي", en: "Abd Allah ibn Ayyub al-Taymi", fr: "Abd Allah ibn Ayyub al-Taymi" }
 names:
   - { kind: full, lang: ar, value: "أبو محمد عبد الله بن أيوب التيمي" }
 gender: male
@@ -10,6 +10,7 @@ died: { edtf: "0824", hijri: "0209", calendar: julian, precision: year, status: 
 summary:
   ar: "محدّث بصري من مولى تيم الله بن ثعلبة."
   en: "A hadith scholar of Basra, a client of the Taym Allah clan."
+  fr: "Spécialiste du hadith de Bassora, client du clan des Taym Allah."
 wings: [people]
 themes: [scripture-and-its-sciences]
 periods: [period/abbasid-early]
@@ -22,7 +23,7 @@ status:
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص776"
+  source: "موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج4 ص776"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch47
@@ -33,4 +34,4 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/mawsuat-a3lam-ulama-adaba]
 relations:
-  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (بصري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name ⁦(بصري)⁩; denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

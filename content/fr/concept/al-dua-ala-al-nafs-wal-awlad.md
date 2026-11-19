@@ -1,0 +1,33 @@
+---
+id: concept/al-dua-ala-al-nafs-wal-awlad
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-concept-01-packet-07
+  source: content/en/concept/al-dua-ala-al-nafs-wal-awlad.md
+---
+## Résumé
+Le cheikh compte le fait de prier contre soi-même et contre ses enfants parmi les fautes de la langue, disant que cela est fréquent chez les personnes éprouvées par la vie, et désigne en particulier de nombreuses femmes. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:00:00} Il cite un hadith rapporté par Muslim d’après Jabir qui interdit de prier contre soi-même, ses enfants et ses biens, de peur que celui qui prie ne rencontre une heure où les prières sont exaucées. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:00:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:01:00}
+
+## Souhaiter la mort
+Il rapporte qu’al-Abbas demanda au Prophète de prier pour sa mort en raison de son grand âge, et que le Prophète interdit de souhaiter la mort à cause d’un malheur survenu, enseignant à celui qui doit absolument prier de demander la vie tant qu’elle est bonne pour lui et la mort lorsqu’elle est bonne pour lui (needs_source: the attribution of the story to al-Abbas is the Sheikh's narration). {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:01:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:01:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:02:00}
+
+## Ce qu’une mère retire de sa malédiction
+Il estime qu’une mère qui prie contre son fils et est exaucée ne gagne que chagrin et regret, et qu’un père las des demandes de son foyer, qui prie pour ne jamais y revenir, ferait mieux de demander à Dieu bénédiction et contentement pour sa famille. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:03:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:03:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:04:00}
+
+## Prier plutôt en faveur de l’auteur du tort
+Il rapporte que l’un des Successeurs, informé qu’un homme lui faisait du tort et invité à prier contre lui, refusa d’ajouter sa propre malédiction au tort que cet homme lui causait. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:04:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:05:00} Il préconise de prier pour que soient guidés le fils désobéissant, la fille rebelle, l’élève paresseux, celui qui néglige la prière et le proche qui commet un tort ; il estime qu’une malédiction peut aggraver la conduite du fautif, tandis que sa guidance peut rendre le droit à son détenteur, comme dans le cas d’un frère ayant pris l’héritage de son père ou d’une sœur ayant pris les bijoux de sa mère. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:05:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:06:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:06:30} Il mentionne que l’ange dit à celui qui prie pour son frère en son absence : et pour toi la même chose. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:07:00}
+
+## Repousser le mal par ce qui est meilleur
+Il cite le verset sur le fait de [[passage/quran-41-34|repousser le mal par ce qui est meilleur]] dans la sourate Fussilat et estime que la suggestion de Satan est mentionnée ensuite parce que c’est Satan qui empêche une personne de repousser le mal par ce qui est meilleur. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:07:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:08:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:08:30}
+
+## La malédiction dans le langage quotidien
+Il critique les paroles de malédiction et d’imprécation qu’il entend dans les dialectes de nombreux pays musulmans et dit qu’une malédiction s’élève, puis revient sur celui qui l’a prononcée si la personne maudite ne la mérite pas ; c’est son point de vue, exprimé dans une exhortation. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:09:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:10:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:10:30} Voir : [[concept/lan-cursing-fiqh|la malédiction]].
+
+## Dans l’émission « Ahalina » d’Abd al-Rahman Mansour
+[[person/abd-al-rahman-mansour|Abd al-Rahman Mansour]] classe le fait de prier contre ses enfants au deuxième rang des « dix destructeurs » de l’éducation dans son émission [[work/ahaleena|« Ahalina »]] et dit à un père de ne jamais le faire, quel que soit l’acte de l’enfant, même un péché grave. {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:06:30} Il cite l’histoire de l’homme qui avait tué cent personnes, qu’il dit présente dans les deux Sahih : il demanda à un savant s’il pouvait se repentir, fut orienté vers une terre où Dieu était adoré, mourut en chemin ; les anges de la miséricorde et du châtiment se disputèrent à son sujet, la distance entre les deux terres fut mesurée, il se trouva plus proche de la terre de miséricorde et fut pardonné. {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:06:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:07:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:07:30} Il en conclut qu’il y a du bien dans le cœur d’un pécheur, donc aussi dans celui d’un enfant, quoi qu’il fasse. {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:07:30} Prier contre un enfant, dit-il, le détruit et le rend désobéissant, surtout lorsqu’il entend sa mère prier contre lui dans l’obscurité de la nuit. {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:07:30}
+
+Il rappelle l’interdiction du Prophète de prier contre ses enfants, soi-même et ses biens, de peur que cela ne tombe à une heure où les prières sont exaucées. {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:08:00} Il raconte qu’une mère pria pour que son fils parte et ne revienne jamais ; il partit à l’université, fut poussé sur un quai de gare et rentra blessé, ce qu’il présente comme le résultat de sa prière (needs_source: a story the speaker tells, with no independent source). {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:08:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:09:00} Il conseille plutôt de prier pour que l’enfant soit guidé et, dans l’épisode consacré à l’adolescence, compte la prière des parents pour le bien de leur enfant parmi les choses qui l’encouragent à prier. {cite:assabile-abd-al-rahman-mansour ahaleena/ep05 00:09:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep10 00:02:00}

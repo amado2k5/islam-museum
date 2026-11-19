@@ -1,0 +1,12 @@
+---
+id: event/al-hadis-verse-of-patience-and-his-verse-on-his-arms-287
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadis-verse-of-patience-and-his-verse-on-his-arms-287.md}
+---
+## Vue d'ensemble
+Après le combat, [[person/al-hadi-yahya-al-rassi|al-Hadi]] composa des vers. {cite:sira-hadi-ila-al-haqq p.192} Dans le premier, il évoque les épreuves qui l'accablent, affirmant qu'il ne s'incline pas malgré la soumission de tous, que l'homme noble est résolu et ne se lamente pas, qu'il triomphe du destin sans jamais céder ni faiblir, que le destin fut patient envers lui, tout comme il l'était envers lui, jusqu'à ce que la lassitude se manifeste, et que sa patience demeure inébranlable et renouvelée ; il déclare que Dieu est son Seigneur et le Prophète son aïeul, et que Dieu le protège et le préserve du mal. {cite:sira-hadi-ila-al-haqq p.192} Dans le second, il affirme que Dieu lui suffit, par sa volonté et sa sagesse, et décrit une lance, une épée trempée, une cotte de mailles semblable à un étang, un cheval puissant, un siège stable et un cœur intrépide. {cite:sira-hadi-ila-al-haqq p.193}
+
+## Détail
+Il déclare ensuite que, par la grâce de Dieu le Miséricordieux, il foulera le sol de ses adversaires au pied de ses chevaux et brisera leurs rassemblements par des escadrons de cavalerie, d'épées et de lances, et qu'il brisera la forteresse des insensés qui, selon sa description, ont trahi Dieu et rejeté Ses commandements, et en qui réside une perversité tenace. Il leur portera un coup qui tranchera des têtes et fendra des nez, afin qu'ils reçoivent la rétribution de leurs actes, œil pour œil, dent pour dent. {cite:sira-hadi-ila-al-haqq p.193} Ce sont là les propres vers de l'imam décrivant et menaçant ses adversaires ; leur sens est donc donné et le jugement lui appartient. Le musée ne cite aucun vers et n'adopte pas sa description. Le passage du texte original mentionne Tadmur, David et Tubba' à titre de comparaison poétique. L'ordre des vers étant perturbé par la reconnaissance optique de caractères, seul le sens est retenu. Il suit [[event/al-hadi-charges-the-akilis-at-al-sabra-and-the-fourteen-arrows-287]] et est suivi de [[event/raid-on-afqayn-and-the-return-of-the-fifth-to-the-mahadhir-287]].

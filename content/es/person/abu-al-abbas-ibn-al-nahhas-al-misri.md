@@ -1,0 +1,20 @@
+---
+id: person/abu-al-abbas-ibn-al-nahhas-al-misri
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/abu-al-abbas-ibn-al-nahhas-al-misri.md}
+---
+
+## Resumen
+Ahmad ibn Muhammad ibn Isa ibn al-Jarrah, Abu al-Abbas ibn al-Nahhas al-Rab'i de Egipto, el hafiz, tiene una entrada en [[person/ibn-asakir|el Tarikh Dimashq]] de [[work/tarikh-dimashq|Ibn Asakir]] porque escuchó hadiz allí. En Egipto escuchó a Ali ibn Ahmad ibn Sulayman, Abu Bakr ibn Zabban, Muhammad ibn Muhammad ibn Badr ibn al-Naffah y otros; en Damasco [[person/ibn-jawsa|Abu al-Hasan ibn Jawsa]] y Makhul de Beirut; y escuchó [[person/abu-arubah-al-harrani|a Abu Aruba al-Harrani]], [[person/abd-allah-ibn-abi-dawud-al-sijistani|Abu Bakr ibn Abi Dawud]], [[person/ibn-abi-hatim-al-razi|Ibn Abi Hatim]], Abu al-Abbas al-Daghuli y otros; se estableció en [[place/nishapur|Nishapur]] y murió allí. {cite:tarikh-dimashq-amrawi-v5 p. 434} {cite:tarikh-dimashq-amrawi-v5 p. 435} [[person/al-hakim-al-nisaburi|Al-Hakim]], [[person/abu-nuaym-al-asbahani-ahmad|Abu Nu'aym al-Isbahani]], [[person/al-sulami|Abu Abd al-Rahman al-Sulami]], Abu Hazim al-Abdawi, Abu Uthman al-Bahiri y otros narraron de él. {cite:tarikh-dimashq-amrawi-v5 p. 435}
+
+## Sus viajes, tal y como los describe al-Hakim
+Ibn Asakir cita a al-Hakim: escribió hadices en su propio país, el Hijaz, Siria, los dos Irakes, Juzistán, Isfahán y el Jibal; llegó a Abu Nu'aym en [[place/jurjan|Jurjan]] en 319, descendió de allí a Juwayn, luego se reunió con los shaykhs de Nishapur y fue a Sarakhs para escribir desde al-Daghuli; su primera audiencia en su propio país fue en 305; permaneció un tiempo con Abd al-Rahman ibn Abi Hatim y escuchó mucho de él, pero todo lo que había oído en Irak, el Hijaz y Siria se perdió. {cite:tarikh-dimashq-amrawi-v5 p. 436} {cite:tarikh-dimashq-amrawi-v5 p. 437} Enseñó en Nishapur durante años por dictado y lectura, viviendo allí desde 321 hasta el sábado, el último día de Dhu al-Qa'da 376, y le dijo a al-Hakim que tenía ochenta y cinco años. {cite:tarikh-dimashq-amrawi-v5 p. 437}
+
+## El asunto de los cuadernos de al-Saffar
+Al-Hakim relata que escuchó al jeque Muhammad ibn Abd Allah al-Saffar de Isfahán rezando en su mezquita con las palmas levantadas: Señor, sabes que Abu al-Abbas al-Misri me hizo daño, me traicionó y retuvo más de quinientos fasciculos de mis originales — que no obtuviera beneficio alguno de ellos ni bendición en ellos. Explica la causa: Abu al-Abbas, que fue el copista de al-Saffar, le dijo que Abu al-Abbas al-Asamm no entregaría el registro de al-Saffar de haber escuchado en al-Jami de al-Thawri a menos que pagara cinco dinares; al-Saffar vendió algo de su casa y pagó, Ibn al-Nahhas tomó el dinero y trajo el libro, y cuando los dos shaykhs conocieron la verdad, oraron contra él. {cite:tarikh-dimashq-amrawi-v5 p. 437} Al-Hakim dice que luego acudió al jurista Abu Muhammad Abd Allah ibn Hamid hasta que Abu Bakr al-Sawi, el copista, fue puesto en el lugar de Ibn al-Nahhas, para que la gente pudiera beneficiarse de lo que quedaba de los libros de al-Saffar; dice que cuenta la historia para que los estudiantes tomen precauciones y no traten a los shaykhs a la ligera, pues la posición de Abu al-Abbas en este oficio había sido de las más altas, pero su erudición se perdió y su final fue malo. {cite:tarikh-dimashq-amrawi-v5 p. 438}
+
+## Juicio final de Al-Hakim
+En otro informe, al-Hakim dice: Abu al-Abbas al-Misri fue un hafiz de larga trayectoria y gran fervor por el aprendizaje; cuando se le necesitaba, después de que sus primeros registros se hubieran perdido, narraba de memoria hadices que decía conocer; en la mayoría de sus intercambios eruditos se dirigía a la verdad, y cuando vimos sus libros tras su muerte no encontramos más que cosas buenas. {cite:tarikh-dimashq-amrawi-v5 p. 438}

@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b16, source: "حلية الأولياء (دار الكتب العلمية 1988) 9/317-322" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b16, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 9/317-322" }
 ---
 ## خلاصہ
 ابو الحسن علی بن بکار سرحدوں کے زاہدوں میں سے تھے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی نویں جلد میں ان کا ترجمہ لکھا ہے ⁦(نمبر 452)⁩۔ وہ انہیں صابر مرابط اور بار بار حملہ کرنے والا مجاہد کہتے ہیں۔ علی [[place/massisa|مصیصہ]] میں مرابط رہے۔ وہ [[person/ibn-adham-ibrahim|ابراہیم بن ادہم]]، [[person/abu-ishaq-al-fazari|ابو اسحاق فزاری]] اور مخلد بن حسین کی صحبت میں رہے۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/317}

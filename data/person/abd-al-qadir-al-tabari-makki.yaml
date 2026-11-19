@@ -3,11 +3,13 @@ class: person
 label:
   ar: "عبد القادر الطبري"
   en: "Abd al-Qadir al-Tabari"
+  fr: "Abd al-Qadir al-Tabari"
 roles: [jurist, poet, scholar]
 gender: male
 summary:
   ar: "عبد القادر بن محمد بن يحيى بن مكرم الطبري الحسيني، فاضل من علماء الحجاز ولد ومات بمكة، حسن الإنشاء وله نظم، من كتبه «عيون المسائل من أعيان الرسائل»."
   en: "Abd al-Qadir ibn Muhammad ibn Yahya ibn Mukarram al-Tabari al-Husayni, a learned man of the Hijaz born and died in Mecca, a fine writer who also composed verse; among his books is Uyun al-Masa'il min A'yan al-Rasa'il."
+  fr: "Abd al-Qadir ibn Muhammad ibn Yahya ibn Mukarram al-Tabari al-Husayni, savant du Hedjaz né et mort à La Mecque, bon prosateur qui composait aussi des vers ; parmi ses livres figure Uyun al-Masa'il min A'yan al-Rasa'il."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
@@ -33,4 +35,4 @@ occupations:
 born: { edtf: "1568", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar (al-Muhibbi: 976–1033 AH) Agrees with Wikidata Q86075470 (P569, a statement without a reference), item revision 2533237318, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar (al-Muhibbi: 976–1033 AH) Agrees with Wikidata Q86075470 (P570, a statement without a reference), item revision 2533237318, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/hijaz, note: "Place association from the person's nisba/name (الحجازي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/hijaz, note: "Place association from the person's nisba/name ⁦(الحجازي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

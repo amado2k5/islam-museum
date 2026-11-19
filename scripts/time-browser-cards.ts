@@ -6,6 +6,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
+import { readBigJson } from "./lib/graph-file.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const arg = (n: string, d: string) => (process.argv.indexOf(`--${n}`) >= 0 ? process.argv[process.argv.indexOf(`--${n}`) + 1] : d);
@@ -28,7 +29,7 @@ const pick = (l: Record<string, string>) => l?.ar || l?.en || l?.ur || "";
 const trim = (s: string, n: number) => (s.length > n ? s.slice(0, n - 1) + "…" : s);
 
 const index = JSON.parse(readFileSync(INDEX, "utf8"));
-const graph = JSON.parse(readFileSync(resolve(ROOT, ".cache/graph.json"), "utf8"));
+const graph = readBigJson(resolve(ROOT, ".cache/graph.json"));
 const labelOf = new Map<string, Record<string, string>>();
 for (const n of graph.nodes) labelOf.set(n.id, n.label);
 

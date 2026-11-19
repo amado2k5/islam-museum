@@ -1,0 +1,21 @@
+---
+id: event/al-hadi-at-khirfan-and-al-subay-and-the-march-to-hawth-286
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-at-khirfan-and-al-subay-and-the-march-to-hawth-286.md}
+---
+## Vue d'ensemble
+Lorsque le cheval d' [[person/abu-al-atahiya-ibn-bishr|Abu al-Atahiya]] atteignit [[person/al-hadi-yahya-al-rassi|al-Hadi]] avec [[person/jarrah-ibn-bishr|Jarrah ibn Bishr]], il partit pour [[group/khirfan-arhab|Khirfan]] et [[group/al-subay-arhab|al-Subay']], les appelant à l'aide et à l'obéissance. {cite:sira-hadi-ila-al-haqq p.111} Le narrateur précise qu'ils étaient d'Arhab et cousins d' [[person/al-daam-ibn-ibrahim|al-Da'am]], des hommes qu'il avait utilisés pour des raids et pour renforcer ses troupes dans sa guerre contre al-Hadi. {cite:sira-hadi-ila-al-haqq p.111} Ce récit est zaydite, rapporté par les disciples de l'imam ; ses paroles sont attribuées à leurs narrateurs et le musée ne se prononce pas sur leur authenticité.
+
+## Les villages désertés et le sauf-conduit
+Lorsqu'il atteignit al-Subay' et Khirfan, il trouva les villages déserts, leurs habitants ayant fui vers les sommets des montagnes ; il leur accorda un sauf-conduit et quelques anciens descendirent auprès de lui. {cite:sira-hadi-ila-al-haqq p.111} Lorsque les soldats d'Abu al-Atahiya virent les villages vides, certains entrèrent dans les maisons où se trouvaient de la paille et du fourrage appartenant aux habitants et en prirent une partie. {cite:sira-hadi-ila-al-haqq p.111} {cite:sira-hadi-ila-al-haqq p.112}
+
+## Le fourrage est revenu
+Al-Hadi l'apprit, les rassembla et leur dit : « Rendez tout ce que vous avez pris. Si l'un d'entre vous recommence, en prenant quoi que ce soit sans ma permission, je lui couperai la main. » {cite:sira-hadi-ila-al-haqq p.112} Ils remirent tout à sa place en présence des anciens du peuple, qui furent satisfaits de la justice d'al-Hadi et retournèrent auprès de leurs compagnons pour leur faire part de sa justice, de son pardon et de son sauf-conduit. {cite:sira-hadi-ila-al-haqq p.112} Ils descendirent tous auprès de lui ; il leur accorda la sécurité et leur fit jurer fidélité, de se tenir à ses côtés, de l'écouter et de lui obéir. Ils prêtèrent serment, de même que leurs gouverneurs. Il retourna ensuite à al-Darb de Banu Sarim et y séjourna quelques jours. {cite:sira-hadi-ila-al-haqq p.112} L'éditeur note qu'une note marginale intitulée « un avantage » figure dans le manuscrit original à l'endroit où se trouve le mot « ses gouverneurs ». {cite:sira-hadi-ila-al-haqq p.112}
+
+## L'effet sur al-Da'am
+La nouvelle concernant les habitants d'al-Subay' et de Khirfan parvint à al-Da'am et le mit en colère, car ils avaient été son soutien ; il voyait les affaires d'al-Hadi progresser tandis que les siennes régressaient et, selon le portrait que le narrateur dresse de son adversaire, il regrettait sa guerre passée, ses erreurs et ses péchés. {cite:sira-hadi-ila-al-haqq p.112}
+
+## La marche vers Hawth
+Al-Hadi résolut de camper contre lui à Khiwan et d'en finir. Il envoya des crieurs parmi le peuple, qui se rassembla autour de lui à la fin du mois de Safar. Il marcha ensuite jusqu'à [[place/hawth-yemen|Hawth]], où il campa avec une grande armée comprenant le frère d'Abu al-Atahiya et son cheval. {cite:sira-hadi-ila-al-haqq p.112} Al-Da'am apprit son arrivée à Hawth et rassembla les habitants de Khiwan. Le narrateur apprit d'une source que celui-ci avait interrogé les Banu Salman et leurs compagnons sur ce qu'ils pensaient de cet homme qui s'était approché et était prêt à faire la guerre. {cite:sira-hadi-ila-al-haqq p.112} Le narrateur apprit que certains lui dirent qu'il fallait combattre, tandis que d'autres conseillaient de ne pas combattre mais de tromper l'homme, en faisant sortir l'un après l'autre. La page s'interrompt au milieu de la phrase. {cite:sira-hadi-ila-al-haqq p.112} Voir [[group/banu-salman-hamdan|Banu Salman]] et [[place/khiwan|Khiwan]].
