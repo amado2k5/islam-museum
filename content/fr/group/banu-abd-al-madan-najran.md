@@ -1,0 +1,9 @@
+---
+id: group/banu-abd-al-madan-najran
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/group/banu-abd-al-madan-najran.md}
+---
+## Vue d'ensemble
+Les Banu Abd al-Madan étaient un clan à Najran que le narrateur nomme dans le récit de [[group/banu-al-harith-ibn-kab|l'attaque des Banu al-Harith]] la nuit où dix-sept jours du Ramadan 286 avaient disparu ; Les hommes Madani étaient avec [[person/abdullah-ibn-al-husayn-al-rassi|Abdullah ibn al-Husayn]] et [[person/ahmad-ibn-muhammad-governor-of-najran|Ahmad ibn Muhammad]] et trois d'entre eux furent tués. {cite:sira-hadi-ila-al-haqq p.146} Les Banu Abd al-Madan qui étaient avec eux demandèrent la permission de rentrer chez eux par crainte de ruine et furent autorisés, puis appelèrent leurs clients et combattirent les Banu al-Harith jusqu'au matin. {cite:sira-hadi-ila-al-haqq p.146} Par la suite, les Hamdan déclarèrent qu'ils ne faisaient pas confiance à Banu Abd al-Madan envers les deux hommes et qu'il avait été établi qu'ils avaient accepté les demandes de Banu al-Harith {cite:sira-hadi-ila-al-haqq p.146} {cite:sira-hadi-ila-al-haqq p.147}, et que plus tard certains d'entre eux furent envoyés avec [[person/al-mujahir-ibn-ziyad-al-qatani|al-Mujahir ibn Ziyad]] à Abu Muhammad pour leur promettre leur soutien. {cite:sira-hadi-ila-al-haqq p.147} Voici le récit du narrateur zaydi sur un clan dont les positions ont changé, et dont le musée ne porte aucun jugement. Voir [[event/banu-al-harith-attack-abdullah-ibn-al-husayn-and-ahmad-ibn-muhammad-at-najran-286]] et [[event/pledge-at-najran-and-the-fight-below-minas-286]].
