@@ -1,0 +1,21 @@
+---
+id: event/battle-of-afara-285
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/battle-of-afara-285.md}
+---
+## Visión general
+Ali ibn Muhammad relata de su padre [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Muhammad ibn Ubaydallah]], quien habla aquí en primera persona, que el martes, con siete días restantes de Rabi' II, "Abu Muhammad", quien por el contexto de las páginas 87 y 88 es [[person/abdullah-ibn-al-husayn-al-rassi|Abdullah ibn al-Husayn]], marchó a "Afara", la aldea de Abu al-Dughaysh donde estaba acampado, y el narrador fue allí por un segundo camino. {cite:sira-hadi-ila-al-haqq p.87} El relato es zaydí, en voz de un testigo presencial, y se presenta tal como está.
+
+## La emboscada
+[[person/abu-al-dughaysh-al-shihabi|Abu al-Dughaysh]] había tendido una emboscada, que resultó en que el narrador y sus compañeros, que contaban con los hombres de [[place/wasaha-yemen|Wasaha]] y ningún otro jinete, huyeron; sus compañeros huyeron y tres de ellos murieron; él se enfrentó al pueblo con veinte hombres a pie; sus compañeros fueron a ver a Abdullah ibn al-Husayn y ninguno regresó; envió al resto uno por uno pidiendo refuerzos y nadie llegó, así que se quedó con once hombres; doscientos los atacaron, hirieron a su caballo con una flecha, este cayó, lo desgarraron con sus espadas y mataron a tres más de sus compañeros. {cite:sira-hadi-ila-al-haqq p.87} Uno de sus hombres mató a uno de ellos de un disparo, y Dios infundió temor en sus corazones, "así que se dispersaron de entre nosotros". {cite:sira-hadi-ila-al-haqq p.87}
+
+## La derrota y la quema del pueblo
+Estalló la guerra entre Abu al-Dughaysh y Abdullah ibn al-Husayn. Dios le dio la victoria a Abdullah, Abu al-Dughaysh huyó y el ejército de Abdullah entró en Afara. Quienes habían estado luchando contra el narrador lo rodearon hasta que él y sus hombres quedaron atrapados en medio de ellos, sin salida. Entonces, uno de sus hombres vio fuego y humo en Afara y a los hombres de Abu Muhammad incendiándola. El ejército cercano se volvió, vio el fuego y el humo y huyó. {cite:sira-hadi-ila-al-haqq p.87} La lucha duró desde media mañana hasta el mediodía. El narrador luchó a pie después de que su caballo fuera herido, con nada más que una prenda que había tomado de uno de sus compañeros y que se había envuelto en el brazo para protegerse, hasta que Dios les dio la victoria. {cite:sira-hadi-ila-al-haqq p.87} {cite:sira-hadi-ila-al-haqq p.88} Abu Muhammad mató a varios de ellos y fueron expulsados de su aldea. {cite:sira-hadi-ila-al-haqq p.88}
+
+## Después de la batalla
+Algunos miembros del ejército saquearon la aldea sin el conocimiento de Abu Muhammad y tomaron un poco; [[person/yusuf-ibn-muhammad-al-hasani|Yusuf ibn Muhammad al-Hasani]] fue enviado y detuvo a la gente que seguía saqueando; al ver esto, todos los aldeanos pidieron seguridad y se les concedió; dijeron que el ejército había saqueado sus bienes, él investigó el asunto y no encontró pruebas, y cuando se recogieron sus limosnas, se repartió una cuarta parte entre los pobres, luego les ordenó media sexta parte más como compensación por lo que reclamaban y les pidió que no culparan al ejército por el daño causado. {cite:sira-hadi-ila-al-haqq p.88}
+
+## Encuentro con Abdullah ibn al-Husayn
+El narrador dice que llegó a Abdullah ibn al-Husayn con solo ocho compañeros; Abdullah le pidió a un sirviente que le trajera un caballo, y el narrador no lo montó; al ver esto, Abdullah se acercó y dijo: «Primo, ¿qué sucede?»; le contó lo que había ocurrido y Abdullah se disculpó y juró que no sabía nada de su situación y que ningún mensajero había llegado; aceptó esto y le creyó dado el mal de aquellos a quienes había enviado a ese lugar y su temor a regresar, luego montó el caballo, y Abu Muhammad regresó a Wasaha y él con él. {cite:sira-hadi-ila-al-haqq p.88} La palabra «primo» apunta a un parentesco entre el narrador y Abdullah ibn al-Husayn que el texto no especifica.
