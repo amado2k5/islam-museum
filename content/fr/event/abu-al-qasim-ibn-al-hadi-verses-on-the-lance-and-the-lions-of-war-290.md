@@ -1,0 +1,12 @@
+---
+id: event/abu-al-qasim-ibn-al-hadi-verses-on-the-lance-and-the-lions-of-war-290
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/abu-al-qasim-ibn-al-hadi-verses-on-the-lance-and-the-lions-of-war-290.md}
+---
+## Vue d'ensemble
+À la page 264, Abou al-Qasim déclare que sa seule préoccupation est l'épée et la lance, qu'il ne s'amuse ni avec les épouses ni au son du tambourin, qu'il ne connaîtra le repos que lorsqu'il aura ranimé la religion après sa mort et vu le sang couler à flots, et qu'il ne se contentera pas d'un festin de mariage et de mets raffinés {cite:sira-hadi-ila-al-haqq p.264}. À la page 265, il affirme qu'il ne recherche pas la richesse par une vie facile, qu'il donne sa vie pour plaire à Dieu et secourir les opprimés, qu'il se prive d'un sommeil paisible tant qu'il n'aura pas vaincu les tyrans et rétabli la voie de la justice, et qu'alors ils ne craignent ni leurs ennemis ni ne se plaignent de l'adversité, que leur père est le Messager de Dieu dont ils occupent la place, que quiconque les prive de leurs droits recevra l'épée, que quiconque respecte ses engagements obtiendra ce qu'il espère de meilleur, et qu'ils sont des lions de guerre {cite:sira-hadi-ila-al-haqq p.265}. Au bas de la page 265, il déclare : 265 une pièce commence « à l’ombre des lances parmi les béliers » {cite:sira-hadi-ila-al-haqq p.265}.
+
+## Détail
+La note de l'éditeur, page 266, en dehors de ce lot, indique que l'un de ces poèmes a été mentionné précédemment lors du séjour d'Abu al-Qasim à Khiwan ; cela suggère un [[event/al-hadi-halts-at-khiwan-and-meets-the-sons-of-yafur-at-al-ghayl-290|passage d'al-Hadi à Khiwan]]. Le musée, ne pouvant identifier le poème en question, laisse la question en suspens jusqu'à la lecture de la page 266. Les vantardises de combats et la description des lions sont du poète. On trouve ensuite [[event/abu-al-qasim-ibn-al-hadi-composes-verses-in-prison-290|les premiers extraits de la même section]]. Le musée ne reproduit ni les vers ni les injures, se contentant d'en restituer le sens tel qu'il figure dans l'ouvrage. Ce dernier attribue le vers à Abu al-Qasim, attribution que le musée n'a pas vérifiée. Les éloges et les épithètes sont du poète, tels qu'ils apparaissent dans l'ouvrage, sans que le musée ne se prononce.

@@ -1,0 +1,19 @@
+---
+id: place/al-awasim
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/al-awasim.md}
+---
+
+## Nom et étendue
+Al-'Awasim désignait la partie de la zone frontalière entre l'Empire byzantin et le califat, au nord et au nord-est de la Syrie. Ses places fortes avancées étaient appelées al-thughur, la frontière, et celles plus en arrière al-'awasim, littéralement « les protectrices ». Sous le règne d'Omar et d'Othman, les places fortes musulmanes se situaient entre Antioche et Manbij, tandis que le thughur s'étendait dans un no man's land au nord d'Antioche et d'Alep, jusqu'à Tarse et le Taurus, où Héraclius avait délibérément dépeuplé les villes lors de son retrait de Syrie. {cite:encyclopaedia-of-islam-2 vol. 1 p. 810}
+
+## Premiers arrangements omeyyades et abbassides
+Pendant un certain temps, les Arabes ne tentèrent pas d'étendre leur conquête au-delà de l'Amanus et du Taurus, en territoire byzantin. La région, périodiquement pillée par les musulmans, était appelée al-dawahi, le pays extérieur, ou dawahi al-Rum. Les Omeyyades commencèrent à occuper ses points stratégiques, aux carrefours routiers et aux cols de montagne. Le retrait des Mardaïtes après le traité de Justinien II avec 'Abd al-Malik laissa la zone sans défense, au grand dam de l'Empire byzantin. Toute la zone dépendait d'abord du djund de Homs ; à partir de l'époque de Yazid ibn Mu'awiya, elle devint un djund distinct, celui de Kinnasrin. En 170 H (786), Harun al-Rashid détacha de Kinnasrin les places fortes de Manbij, Dulük, Kurus, Antioche et Tizin, et les nomma al-Sawasim. En 173 H, la province avait pour gouverneur 'Abd al-Malik ibn Salih, dont la résidence était à Manbij. {cite:encyclopaedia-of-islam-2 vol. 1 p. 810-811}
+
+## Définitions et utilisation ultérieure
+Les premiers auteurs définissent le nom de différentes manières : al-Baladhuri, Ibn Shaddad et al-Kalkashandi en donnent chacun une explication. Al-Kalkashandi soutenait qu'al-thughur et al-'awasim étaient deux noms différents pour désigner la même chose, ce que l'article conteste, car les deux étaient distincts dès une période ancienne, bien qu'ils aient été utilisés indifféremment une fois la province formée. Les awasim et les thughur étaient souvent placés sous un commandement unique, parfois avec le djund de Kinnasrin, et il arrivait que les thughur constituent une province séparée. Les géographes divergeaient quant aux localités appartenant aux awasim. Au Xᵉ siècle, sa capitale était Antioche. Byzance reconquit la région au Xᵉ siècle, lorsque Nicéphore Phocas contraignit l'émirat d'Alep à céder toute la partie occidentale et septentrionale. Dès lors, al-'awasim demeura une simple expression géographique, utilisée par les géographes arabes jusqu'aux périodes des Croisades et des Mamelouks. {cite:encyclopaedia-of-islam-2 vol. 1 p. 811}
+
+## Économie et population
+Les informations sur l'économie sont rares, mais la région semble avoir été relativement prospère à l'époque abbasside. Ibn Khurradadhbih indique que l'impôt du djund de Kinnasrin et des awasim s'élevait à 400 000 dinars, et celui de Kudama à 360 000. La population était très hétérogène : on y trouvait des chrétiens autochtones des villes et des villages, les Harajima des Amanus ; des tribus arabes, notamment les Kaysites et les Kilab jusqu'à Dulük ; et des groupes étrangers venus d'Inde via la Mésopotamie, tels que les Sayabija, amenés à Antioche par Mu'awiya, et les Zott, installés là par Mu'awiya puis par al-Walid ibn 'Abd al-Malik, qui élevait des buffles d'eau permettant de débarrasser les marais des lions. {cite:encyclopaedia-of-islam-2 vol. 1 p. 811}

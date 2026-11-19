@@ -1,0 +1,23 @@
+---
+id: place/fayd
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/fayd.md}
+---
+## Vue d'ensemble
+Un lieu dans le pays de [[group/tayy|Tayy]], que le Prophète a accordé à [[person/zayd-al-khayl|Zayd al-Khayl]] avec des terres lui appartenant, et il a reçu un document à cet effet dans la [[event/delegation-of-tayy|délégation de Tayy]]. {cite:ibn-hisham-saqqa 4/224}
+
+## Ce que disent les rédacteurs
+Les éditeurs de l'édition de 1936 se contentent d'indiquer que Fayd est un nom de lieu. {cite:ibn-hisham-saqqa 4/224}
+
+## Ce qui n'est pas abordé ici
+La localisation de Fayd sur la route des pèlerins irakienne, ainsi que ses coordonnées, seront ajoutées à partir du dictionnaire des lieux de Yaqut ou de Wikidata.
+
+## Dans le Mu'jam al-buldan de Yaqut
+Yaqut donne le nom Fayd, avec une fatha, un sukun et un dal sans point, et en donne les significations : la mort (Ibn al-A'rabi), les poils au-dessus de la lèvre d'un cheval, et, pour al-Mu'arrij, une station sur la route de La Mecque, et la fleur de safran. {cite:mujam-al-buldan-sader-1995 4 p.282} Il précise ensuite qu'il s'agit d'une petite ville à mi-chemin entre Kufa et La Mecque, encore prospère à son époque, où les pèlerins laissent leurs provisions et leurs lourds bagages aux habitants et les récupèrent à leur retour, en offrant un cadeau à ceux qui les ont gardés ; les habitants vivent de la conservation du fourrage tout au long de l'année jusqu'à l'arrivée des pèlerins qui l'achètent. {cite:mujam-al-buldan-sader-1995 4 p.282} Il cite al-Zajjaji selon lequel le lieu aurait été nommé d'après Fayd ibn Ham, le premier à s'y installer, et al-Sakuni selon lequel il s'agit du point médian du chemin de pèlerinage de Koufa à La Mecque, divisé en trois (une partie pour les 'Umariyyin, une pour la famille d'Abu Salama de Hamdan et une pour les Banu Nabhan de Tayy), à six nuits de Wadi al-Qura en passant par al-'Urayma, et qu'il n'existe pas de route vers la Syrie « dun Fayd », un terme pouvant signifier « avant » ou « après ». {cite:mujam-al-buldan-sader-1995 4 p.282} Il ajoute, comme une affirmation rapportée sans les nommer, que le « Fayd d'al-Qurayyat » de Zuhayr désigne un autre lieu. {cite:mujam-al-buldan-sader-1995 4 p.282} D'après al-Hazimi, Fayd, avec un ya', se situe près d'Aja et de Salma, les deux montagnes de Tayy, et énumère les rapporteurs qui portent ce nom. {cite:mujam-al-buldan-sader-1995 4 p.282}
+
+Dans son entrée concernant Aja, se basant sur les dires d'al-Sakuni, il la désigne comme l'une des deux montagnes de Tayy, à l'ouest de Fayd, à deux nuits de marche de l'une à l'autre. {cite:mujam-al-buldan-sader-1995 1 p.94} Dans l'entrée concernant al-Aknaf, Muhalhil ibn Zayd al-Khayl al-Ta'i écrit à Tulayha qu'ils se trouvent à Aknaf, dans les montagnes de Fayd, qui constituent les flancs de Salma. {cite:mujam-al-buldan-sader-1995 1 p.241}
+
+## L'identification du musée
+Le récit d'Ibn Hisham situe Fayd au pays de Tayy, dans le Najd, comme une concession faite par le Prophète à Zayd al-Khayl, accompagnée d'autres terres, au sein de la délégation de Tayy. Les éditeurs de l'édition de 1936 indiquent seulement qu'il s'agit d'un toponyme, laissant à Yaqut le soin de préciser sa localisation. Yaqut comble cette lacune : Fayd est une petite ville à mi-chemin du pèlerinage entre Koufa et La Mecque, divisée en trois territoires par trois groupes, à six nuits de Wadi al-Qura et proche d'Aja et de Salma, les deux montagnes de Tayy, selon al-Hazimi. Ceci concorde avec la localisation mentionnée dans le récit, au pays de Tayy, dans le Najd, et établit un lien : Muhalhil, fils de Zayd al-Khayl, cite les montagnes de Fayd dans l'entrée d'Aknaf. Yaqut ne fait aucune mention de la concession faite par le Prophète à Zayd al-Khayl. Le point mentionné dans le document (27,118, 42,52) est considéré comme un site et se situe à 98,1 km du point Aja et Salma du musée et à 93,8 km de son point Ha'il. Yaqut, se basant sur les dires d'al-Sakuni, situe Aja à l'ouest de Fayd à deux nuits, ce qui ne correspond pas directement à la distance en kilomètres. Le musée interprète le Fayd mentionné dans le document comme étant celui situé sur la route, et non le « Fayd d'al-Qurayyat » du verset de Zuhayr, que Yaqut identifie comme un autre lieu ; telle est l'interprétation du musée. Voir [[person/zayd-al-khayl|Zayd al-Khayl]], [[group/tayy|Tayy]] et [[place/aja-and-salma|Aja et Salma]].

@@ -1,0 +1,22 @@
+---
+id: work/lavoix-catalogue-khalifes-orientaux
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/work/lavoix-catalogue-khalifes-orientaux.md}
+---
+## Résumé
+Le *Catalogue des monnaies musulmanes de la Bibliothèque nationale : Khalifes orientaux* a été publié à Paris par l'Imprimerie nationale en 1887 sur ordre du ministre de l'Instruction publique, du Culte et des Beaux-Arts, compilé par Henri Lavoix, conservateur adjoint du département des Médailles, Pierres gravées et Antiquités. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 663} Il s'agit du volume consacré aux monnaies du grand califat, avec un index des noms en arabe et des planches photographiques. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 37} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 9}
+
+## Préface
+Lavoix affirme que Tiesenhausen avait déjà rassemblé tout ce qui avait été publié sur les monnaies des califes orientaux jusqu'en 1875, et qu'il n'entend pas refaire ce travail mais soulever des questions apparues lors du catalogage, notamment sur les débuts du monnayage islamique. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 661} Parmi ses arguments :
+- Les Arabes ne possédaient pas de monnaie propre avant l'islam ni même à l'époque du Prophète ; les dinars byzantins et les dirhams persans leur parvinrent par le biais du commerce, et après les conquêtes, ils conservèrent la monnaie qu'ils connaissaient. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 661} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 660}
+- Pendant près de soixante ans, les registres et les ateliers monétaires restèrent entre les mains de commis et d'artisans persans, grecs et juifs, jusqu'à ce que le registre irakien soit traduit en arabe sur ordre d'al-Hajjaj et qu'Abd al-Malik fasse traduire le registre syrien. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 659} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 658}
+- Umar conserva le dirham sassanide avec son type, son écriture pahlavi et son autel du feu, la date hégirienne remplaçant la date sassanide ; le modèle copié fut celui de Khosro II ; puis les noms des califes et des gouverneurs remplacèrent celui du roi, et à partir de 25 H, chaque gouverneur frappa monnaie dans les villes qu’il administrait. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 655}
+- Les historiens divergent quant à la date de la réforme d'Abd al-Malik, entre 74 et 77 H, et al-Hajjaj a continué à frapper des dirhams de type sassanide en son propre nom à al-Bayda dans le Fars jusqu'en 83 AH. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 642}
+- La réforme a rendu la frappe monétaire anonyme, ne relevant que de l'autorité suprême, en réaction à l'usurpation du droit de frapper monnaie par les gouverneurs et les califes rivaux tels qu'Ibn al-Zubayr, son frère Mus'ab et Qatari ibn al-Fuja'a. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 643} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 644}
+- Des poids en verre permettaient de contrôler le poids du dinar et du dirham, une pratique que les Arabes ont reprise des Byzantins. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 616} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 617}
+- La monnaie abbasside resta anonyme jusqu'à ce que le nom de l'héritier al-Mahdi apparaisse sur les dirhams sous le règne de son père al-Mansur ; Harun al-Rashid autorisa que ses ministres et gouverneurs soient nommés ; et le nom de l'atelier monétaire apparut pour la première fois sur le dinar sous le règne d'al-Ma'mun, accompagné de la formule d' [[passage/quran-30-4|al-Rum 30:4]]. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 615} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 614}
+
+Il conclut qu’après Fraehn, Castiglioni, Marsden, Tornberg, Soret et Stickel, le monnayage du grand califat a été étudié, tandis que celui des dynasties indépendantes attend une étude exhaustive. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 613} Il remercie Henri Sauvaire pour la révision des épreuves et date la préface : Cabinet des Médailles, octobre 1887. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 612}

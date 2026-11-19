@@ -1,0 +1,18 @@
+---
+id: event/al-daam-leaves-athafit-for-khiwan-and-the-plunder-of-athafit-285
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-daam-leaves-athafit-for-khiwan-and-the-plunder-of-athafit-285.md}
+---
+## Vue d'ensemble
+Le livre rapporte que certains habitants de [[place/khiwan|Khiwan]] avaient écrit à [[person/al-daam-ibn-ibrahim|al-Da'am]] pour l'inviter à les rejoindre ; après avoir quitté [[place/athafit|Athafit]], il se rendit à Khiwan et s'y installa. {cite:sira-hadi-ila-al-haqq p.108} Ce récit est zaydite, rapporté par les disciples de l'imam ; les propos sont attribués à leurs narrateurs et le musée ne se prononce pas sur leur authenticité.
+
+## Le pillage d'Athafit
+À la prière du matin, la nouvelle parvint aux [[group/banu-sarim-hamdan|Banu Sarim]] et à leurs compagnons, qui se trouvaient près d'Athafit, qu'al-Da'am avait quitté la ville. Les insensés, l'esclave et le jeune garçon parmi eux pillèrent Athafit et emportèrent les biens qui s'y trouvaient. {cite:sira-hadi-ila-al-haqq p.108} Les habitants d'Athafit avaient emporté la plupart de leurs biens par crainte des Banu Sarim et [[group/banu-rabia-hamdan|des Banu Rabi'a]], car ils ne les avaient pas soutenus le jour de la mort d' [[person/abu-umar-abd-al-aziz-ibn-marwan-al-bahrani|Abu Umar]]. Ces deux peuples leur en voulaient et pillèrent donc les biens ménagers qu'ils trouvèrent. {cite:sira-hadi-ila-al-haqq p.108} Le narrateur rapporte avoir entendu certains d'entre eux dire qu'ils pensaient que ce qu'ils avaient pris leur était licite. {cite:sira-hadi-ila-al-haqq p.108}
+
+## Le deuil d'Al-Hadi
+Quand [[person/al-hadi-yahya-al-rassi|al-Hadi]] apprit le départ d'al-Da'am, il n'y crut pas et pensa que c'était faux. Il passa sa journée à vérifier jusqu'à ce que des habitants d'Athafit viennent lui annoncer le départ et le pillage, ce qui le plongea dans un profond chagrin. {cite:sira-hadi-ila-al-haqq p.108} Il confia à [[person/muhammad-ibn-said-ibn-yusuf|Muhammad ibn Sa'id]] qu'il avait pris la résolution de se retirer, de ne parler à personne et de n'autoriser personne à entrer. Sans sa crainte de nuire à l'islam, il ne serait pas resté au Yémen et serait rentré chez lui. {cite:sira-hadi-ila-al-haqq p.108} Tels sont les propos d'al-Hadi rapportés par le narrateur.
+
+## Le témoin du narrateur et les conseils des deux compagnons
+Ali ibn Muhammad rapporte que Muhammad ibn Sulayman a dit que, de tout le temps qu'il avait passé avec al-Hadi, il ne l'avait jamais vu aussi affligé : il parlait en ravalant ses sanglots, les larmes l'étranglaient, et il répétait sans cesse l'appel à Dieu et disait que la religion était en train de disparaître. {cite:sira-hadi-ila-al-haqq p.108} Le narrateur et Muhammad ibn Sa'id essayaient de le persuader, lui disant que s'il agissait ainsi, l'islam périrait ; il répondit qu'il resterait là jusqu'à ce que Dieu lui donne des croyants qui entendraient parler de lui et viendraient à lui, et qu'il se tiendrait à leurs côtés. {cite:sira-hadi-ila-al-haqq p.108} {cite:sira-hadi-ila-al-haqq p.109} Ils lui dirent que seule la douceur pourrait les aider, et que, s'il le jugeait bon, il devait les faire venir, leur parler et les appeler à la repentance, car c'étaient des bédouins ignorants qui n'en avaient peut-être pas perçu l'interdiction ; il répondit que c'était un avis à suivre. {cite:sira-hadi-ila-al-haqq p.109} La suite est dans [[event/al-hadi-has-the-loot-returned-and-the-gathering-on-the-day-of-arafa-285]].
