@@ -1,0 +1,15 @@
+---
+id: concept/zij-sabi-pole-altitude-and-longest-day-each-from-the-other
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/zij-sabi-pole-altitude-and-longest-day-each-from-the-other.md}
+---
+## Resumen
+Al-Battani dedica los capítulos 8 y 9 a convertir entre el exceso del día más largo y la altitud del polo, que es la latitud del lugar. El capítulo 8 indica la altitud a partir del exceso mediante una cadena de cuerdas construida sobre el arco de medio día; el capítulo 9 da la mitad del exceso de la latitud y lo duplica, con cada quince grados de él una hora igual, añadiendo doce horas para el día más largo y restándose de doce para el más corto. {cite:zij-sabi-nallino-byblion pp.34-35}.
+
+## Capítulo 8: altitud a partir del exceso
+Dice: para encontrar la altitud del polo norte del ecuador sobre el horizonte, que es la latitud del lugar, del exceso del día más largo sobre el día equinoccial, toma la mitad del exceso, que es el día del primero de Cáncer, súmelo a noventa para el medio arco del día más largo, o réstalo por el medio arco del más corto. Luego resta toda la oblicuidad de noventa, encuentra la corda de lo que queda, multiplícala por la cuerda del arco de medio día y divide por el radio; el arco del resultado es la distancia del primer ascenso de Cáncer desde el punto norte. Luego se trabaja una proporción entre la cuerda de la mitad del exceso del día, la distancia del ascenso desde el punto norte y su distancia del ascenso del primer de Aries, terminando en una división por la cuerda del arco de medio día, y el arco del resultado es la altitud del polo. El detalle de las multiplicaciones está desordenado en el escaneo; lo que se da aquí es la estructura del trabajo, no una fórmula al pie de la letra. {cite:zij-sabi-nallino-byblion p.34}.
+
+## Capítulo 9: el exceso de la altitud
+En el capítulo 9 dice: para encontrar el exceso del día más largo y el déficit del más corto respecto al día equinoccial, dada la altitud del polo, tomar la latitud y encontrar su cuerda y la cuerda de su complemento a noventa, y la cuerda de toda la oblicuidad y la de su complemento; multiplicar la cuerda de la latitud por la cuerda de la oblicuidad total, dividir por la cuerda del complemento de la oblicuidad, multiplicar el resultado por el radio y dividir por la cuerda del complemento de la latitud; el arco del resultado es la mitad del exceso del día más largo, y igualmente la mitad del déficit del más corto. Duplícalo; cada quince grados de él equivale a una hora igual, sumado a doce horas para el día más largo y restado de doce para el más corto. Para cualquier otro grado trabaja con su declinación en lugar de con toda la oblicuidad: si es norte, el resultado es el alargamiento del día; si es sur, se acorta. {cite:zij-sabi-nallino-byblion p.35}.
