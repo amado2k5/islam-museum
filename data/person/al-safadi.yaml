@@ -1,11 +1,12 @@
 id: person/al-safadi
 class: person
-label: { ar: "خليل بن أيبك الصفدي", en: "Khalil ibn Aybak al-Safadi", ur: "خلیل بن ایبک صفدی" }
-born: { edtf: "1297~", hijri: "0696", calendar: julian, precision: year, status: historical, derived: true, note: "ولد بصفد سنة ست وتسعين وستمائة تقريباً (٦٩٦-٦٩٧هـ) {cite:durar-kamina-jil-1993 vol. 2 p. 88} {cite:encyclopaedia-of-islam-2 vol. 8 p. 759}؛ التحويل مشتق." }
+label: { ar: "خليل بن أيبك الصفدي", en: "Khalil ibn Aybak al-Safadi", fr: "Khalil ibn Aybak al-Safadi", ur: "خلیل بن ایبک صفدی" }
+born: { edtf: "1297~", hijri: "0696", calendar: julian, precision: year, status: historical, derived: true, note: "ولد بصفد سنة ست وتسعين وستمائة تقريباً ⁦(٦٩٦-٦٩٧هـ)⁩ {cite:durar-kamina-jil-1993 vol. 2 p. 88} {cite:encyclopaedia-of-islam-2 vol. 8 p. 759}؛ التحويل مشتق." }
 died: { edtf: "1363-07-23", hijri: "0764-10-10", calendar: julian, precision: day, status: historical, derived: true, note: "توفي بدمشق ليلة عاشر شوال ٧٦٤هـ = ٢٣ يوليو ١٣٦٣م {cite:durar-kamina-jil-1993 vol. 2 p. 88-89} {cite:encyclopaedia-of-islam-2 vol. 8 p. 759}؛ التحويل مشتق." }
 summary:
   ar: "صلاح الدين خليل بن أيبك الصفدي الشافعي المؤرخ والمنشئ؛ أنشأ جواب الملك الصالح إسماعيل بن الناصر محمد على كتاب السلطان أبي الحسن المريني، وأجاز رواية الرسالتين بخطه بعد أن أسمعهما عز الدين أبو يعلى حمزة ابن القاضي قطب الدين موسى بن أحمد الأحمدي في مجلس واحد في ذي القعدة سنة ٧٥٦ بالجامع الأموي بدمشق، واصفاً قراءتهما بأنها أطريت السمع لفصاحتها وأمالت العطف لرجاحتها {cite:nafh-tib-maqqari p. 403}."
   en: "Salah al-Din Khalil ibn Aybak al-Safadi — historian and chancery writer who composed al-Salih Isma'il's reply to the Marinid sultan's letter, and granted ijaza for both after Izz al-Din Abu Ya'la read them in a single session in the Umayyad Mosque of Damascus, Dhu al-Qa'da 756, a reading that 'graced the ear with eloquence' {cite:nafh-tib-maqqari p. 403}."
+  fr: "Salah al-Din Khalil ibn Aybak al-Safadi – historien et écrivain de chancellerie qui a composé la réponse d’al-Salih Isma’il à la lettre du sultan Marinid, et a accordé l’ijaza pour les deux après qu’Izz al-Din Abu Ya’la les ait lus en une seule séance dans la mosquée omeyyade de Damas, dhou al-qi‘da 756, une lecture qui a été écrite {cite:nafh-tib-maqqari p. 403}."
   ur: "صلاح الدین خلیل بن ایبک صفدی — شافعی مورخ و انشا پرداز جنھوں نے ملک صالح اسماعیل بن ناصر محمد کی طرف سے مرینی سلطان ابوالحسن کے خط کا جواب لکھا، اور جامع اموی دمشق میں ذوالقعدہ 756ھ کی ایک مجلس میں عز الدین ابو یعلیٰ حمزہ کی قراءت کے بعد دونوں رسالوں کی اجازت اپنے ہاتھ سے دی — ایسی قراءت جس نے 'فصاحت سے سمع کو محضوظ کیا' {cite:nafh-tib-maqqari p. 403}۔"
 gender: male
 wings: [people]
@@ -31,7 +32,7 @@ relations:
   - { type: participated_in, target: event/death-al-safadi-764, role: "المتوفَّى", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
 provenance:
   layer: own-research
-  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 403; Encyclopaedia of Islam 2nd ed. vol. 8 (Ned-Sam), printed pp. 759-760, art. al-Safadi (F. Rosenthal); al-Durar al-Kamina (Ibn Hajar), vol. 2, entry 1654, printed pp. 88-89"
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري ⁦(ط إحسان عباس)⁩ ص 403; Encyclopaedia of Islam 2nd ed. vol. 8 (Ned-Sam), printed pp. 759-760, art. al-Safadi (F. Rosenthal); al-Durar al-Kamina (Ibn Hajar), vol. 2, entry 1654, printed pp. 88-89"
   generated_by: "Devin (SWE-2 Medium), after Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-61, lib-durar-kamina-batch-1-2-2026-10-31, explorer-al-safadi-1
 external_ids: { wikidata: "Q12220160", viaf: "90041179" }

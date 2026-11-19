@@ -3,6 +3,7 @@
 // media), one narration line. Trilingual; loaded at build time only.
 import { readFileSync, readdirSync } from "node:fs";
 import { parse } from "yaml";
+import { parseLocalized } from "./i18n";
 import { repoPath } from "./paths";
 import type { Lang } from "./i18n";
 
@@ -37,7 +38,7 @@ export function loadStoryCards(slug: string): StoryCardFile {
   const hit = cache.get(slug);
   if (hit) return hit;
   const where = `edu/story-cards/${slug}.yaml`;
-  const d = parse(readFileSync(`${DIR}/${slug}.yaml`, "utf8")) as StoryCardFile;
+  const d = parseLocalized(readFileSync(`${DIR}/${slug}.yaml`, "utf8")) as StoryCardFile;
   if (d.slug !== slug) throw new Error(`${where}: slug mismatch`);
   tri(d.title, `${where}: title`); tri(d.lede, `${where}: lede`);
   if (!Array.isArray(d.sources) || d.sources.length === 0 || d.sources.some((s) => typeof s !== "string"))

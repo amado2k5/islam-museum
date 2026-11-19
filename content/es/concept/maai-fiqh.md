@@ -1,0 +1,9 @@
+---
+id: concept/maai-fiqh
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/maai-fiqh.md}
+---
+## Resumen
+Mai', en el léxico, es un líquido o algo que se derrite, y su sentido técnico no se aparta de esto {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13792}. Entre sus fallos: purificación mediante líquidos. La mayoría de los juristas sostienen que solo el agua absoluta elimina la impureza ritual menor y elimina la impureza física; otros permiten cualquier líquido puro que limpie {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13793}. En cuanto a la contaminación, los Malikis, Shafi'is y, en la narración más contundente, los Hanbalis sostienen que cualquier líquido que no sea el agua absoluta se vuelve impuro al tocar una impureza; los Hanafis y una narración de Ahmad sostienen que un líquido es impuro solo por lo que hace impura al agua; Ibn Abidin dice que la visión más fuerte es que todos los líquidos son como el agua {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13793-13794}. La mayoría de los juristas sostienen que un líquido contaminado no puede purificarse, a diferencia de los aceites y el hee que, según algunos, pueden lavarse; el mercurio es aceptado por algunos Shafi'is y Hanbalis {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13795-13796}. Los hanafis, malicis y hanbalis prohíben usar la grasa de una carroña para cualquier cosa, incluidas lámparas; los shafí permiten la iluminación con aceite contaminado fuera de la mezquita, aunque con reticencia {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13796-13797}.

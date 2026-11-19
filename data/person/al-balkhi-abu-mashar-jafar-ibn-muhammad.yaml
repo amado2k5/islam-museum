@@ -1,6 +1,6 @@
 id: person/al-balkhi-abu-mashar-jafar-ibn-muhammad
 class: person
-label: { ar: "البلخي أبو معشر جعفر بن محمد", en: "al-Balkhi Abu Ma'shar Ja'far ibn Muhammad" }
+label: { ar: "البلخي أبو معشر جعفر بن محمد", en: "al-Balkhi Abu Ma'shar Ja'far ibn Muhammad", fr: "Al-Balkhi Abu Ma’shar Ja’far ibn Muhammad" }
 names:
   - { kind: full, lang: ar, value: "أبو معشر جعفر بن محمد بن عمر البلخي" }
   - { kind: kunya, lang: ar, value: "أبو معشر" }
@@ -13,6 +13,7 @@ died: { edtf: "0886", hijri: "0272", calendar: julian, precision: year, status: 
 summary:
   ar: "المنجم والفلكي أبو معشر جعفر بن محمد البلخي، إمام وقته في فنّه، نسبةً إلى بلخ في خراسان، توفي سنة 272هـ ⁦(886م)⁩."
   en: "Astrologer and astronomer Abu Ma'shar Ja'far ibn Muhammad al-Balkhi, leading figure of his time in his field, of Balkh in Khurasan; died 272 AH (886 CE)."
+  fr: "L’astrologue et astronome Abu Ma’shar Ja’far ibn Muhammad al-Balkhi, figure majeure de son temps dans son domaine, de Balkh au Khorassan ; mort en 272 H (886 ap. J.-C.)."
 wings: [people]
 themes: [astronomy-and-timekeeping]
 periods: [period/abbasid-fragmentation]
@@ -25,7 +26,7 @@ status:
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص34"
+  source: "موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج4 ص34"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch50
@@ -36,4 +37,4 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/mawsuat-a3lam-ulama-adaba]
 relations:
-  - { type: lived_in, target: place/balkh, note: "Place association from the person's nisba/name (البلخي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
+  - { type: lived_in, target: place/balkh, note: "Place association from the person's nisba/name ⁦(البلخي)⁩; denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

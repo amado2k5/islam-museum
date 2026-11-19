@@ -1,10 +1,11 @@
 id: person/abu-ali-al-hasan-al-marrakushi
 class: person
-label: { ar: "أبو علي الحسن بن عمر المراكشي", en: "Abu Ali al-Hasan ibn Umar al-Marrakushi", ur: "ابو علی الحسن بن عمر المراکشی" }
+label: { ar: "أبو علي الحسن بن عمر المراكشي", en: "Abu Ali al-Hasan ibn Umar al-Marrakushi", ur: "ابو علی الحسن بن عمر المراکشی", fr: "Abu Ali al-Hasan ibn Umar al-Marrakushi" }
 summary:
   ar: "فلكي ورياضي وجغرافي مغربي من القرن السابع الهجري، صاحب «جامع المبادئ والغايات»، اشتهر بعمل المزاول الشمسية {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 16}."
   en: "Moroccan astronomer, mathematician and geographer of the seventh century AH, author of Jami' al-mabadi' wal-ghayat, known for sundial construction {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 16}."
   ur: "ساتویں صدی ہجری کے مغربی ماہرِ فلکیات، ریاضی دان اور جغرافیہ دان، «جامع المبادی والغایات» کے مصنف، دھوپ گھڑیوں کی تیاری کے لیے مشہور {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 16}۔"
+  fr: "Astronome, mathématicien et géographe marocain du septième siècle de l'Hégire, auteur du Jami' al-mabadi' wal-ghayat, connu pour la construction de cadrans solaires {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 16}."
 wings: [people]
 themes: [astronomy-and-timekeeping]
 regions: [maghreb]
@@ -20,7 +21,7 @@ floruit: { edtf: "1261", hijri: "0660", calendar: julian, precision: year, statu
 born: { edtf: "1220~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Suter, Die Mathematiker und Astronomen der Araber" }
 died: { edtf: "1282~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Suter, Die Mathematiker und Astronomen der Araber" }
 relations:
-  - { type: lived_in, target: place/marrakesh, note: "Place association from the person's nisba/name (المراكشي); denotes association, not proven residence.", sources: [source/bibalex-azhar-astronomy-manuscripts-2006], confidence: low }
+  - { type: lived_in, target: place/marrakesh, note: "Place association from the person's nisba/name ⁦(المراكشي)⁩; denotes association, not proven residence.", sources: [source/bibalex-azhar-astronomy-manuscripts-2006], confidence: low }
   - { type: authored, target: work/jami-al-mabadi-wal-ghayat, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
 sources: [source/bibalex-azhar-astronomy-manuscripts-2006]
 provenance:

@@ -1,9 +1,10 @@
 id: person/al-fadl-ibn-rawh
 class: person
-label: { ar: "الفضل بن روح", en: "al-Fadl ibn Rawh" }
+label: { ar: "الفضل بن روح", en: "al-Fadl ibn Rawh", fr: "Al-Fadl ibn Rawh" }
 summary:
   ar: "عند البلاذري: ولّي إفريقية بعد أبيه روح بن حاتم فوثب الجند عليه فذبحوه."
   en: "In al-Baladhuri: governed Ifriqiya after his father Rawh ibn Hatim; the army rose on him and slaughtered him."
+  fr: "Chez al-Baladhuri : il gouverna l’Ifriqiya après son père Rawh ibn Hatim ; l’armée se souleva contre lui et l’égorgea."
 wings: [people]
 gender: male
 died: { edtf: "794", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
@@ -14,7 +15,7 @@ relations:
   - { type: participated_in, target: event/yazid-ibn-hatim-ifriqiya, role: "المذبوح", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 326"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 326"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-23
 sources: [source/futuh-buldan-maarif-1407]

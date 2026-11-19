@@ -11,8 +11,31 @@ import edtf from "edtf";
 import { CLASSES, LANGS, PUBLISHED_LANGS, loadEntities, loadPredicates, loadProse, loadProseFor, loadStubs, p, readYaml, rel, resolvePredicate, type Prose } from "./lib.js";
 import { hijriToCivil, toJDN } from "./hijri/convert.js";
 import { inWindow } from "./modern/sections.js";
+import { parsePerspectiveLine } from "../site/src/lib/perspectives.js";
 
 export interface Issue { level: "error" | "warn"; file: string; msg: string }
+
+export function prosePerspectiveIssues(body: string): Omit<Issue, "file">[] {
+  const issues: Omit<Issue, "file">[] = [];
+  for (const blk of body.matchAll(/^:::perspectives\n([\s\S]*?)\n:::/gm)) {
+    const labels = blk[1].split("\n").flatMap((line) => {
+      const entry = parsePerspectiveLine(line);
+      return entry ? [entry.label.toLowerCase()] : [];
+    });
+    const frenchSunni = labels.length > 0 && /\bsunnites?\b/u.test(labels[0]) && !/\bnon[\s\-‐‑]+sunnites?\b/u.test(labels[0]);
+    const spanishSunni = labels.length > 0 && /^(?:(?:visión|posición|postura|opinión) )?sunn?í/u.test(labels[0]);
+    if (labels.length && !(labels[0].startsWith("sunni") || labels[0].includes("أهل السنة") || labels[0].startsWith("سني") || frenchSunni || spanishSunni)) {
+      issues.push({ level: "error", msg: "the perspectives block must start with the Sunni entry (docs/scope.md)" });
+    }
+  }
+  const NON_SUNNI = /(Twelver|Shia|Shi'a|Shi‘a|Ismaili|Ibadi|Ahmadi(?:yya)?|Quranist|Zaydi|الشيعة|الإسماعيلية|الإباضية|الأحمدية|القرآنيون|الزيدية)|\b(?:[Cc]hiites?|[Dd]uodécimains?|[Ii]smaéli(?:ens?|tes?)|[Ii]badites?|[Aa]hmadis?|[Cc]oranistes?|[Zz]aydites?)\b/u;
+  const VERB = /\b(hold|holds|believe|believes|teach|teaches|regard|regards|maintain|maintains|designated|consider|considers)\b|(يرى|يرون|يعتقد|يعتقدون|تعتقد|ترى|يؤمن|يؤمنون)|\b(?:[Cc]roi(?:t|ent)|[Ee]nseigne(?:nt)?|[Cc]onsidère(?:nt)?|[Ee]stime(?:nt)?|[Aa]ffirme(?:nt)?|[Ss]outien(?:t|nent)|[Pp]ense(?:nt)?)\b/u;
+  for (const sentence of body.replace(/:::perspectives[\s\S]*?\n:::/g, "").split(/(?<=[.!?؟])\s+/)) {
+    const n = sentence.match(NON_SUNNI), vb = sentence.match(VERB);
+    if (n && vb && vb.index! < n.index!) issues.push({ level: "warn", msg: `non-Sunni view stated before its label: "${sentence.slice(0, 80)}…" (name the community first, docs/scope.md)` });
+  }
+  return issues;
+}
 
 const INVENTION_HEADINGS: Record<string, string[]> = {
   ar: ["الموجز", "ما هو", "العالم قبله", "القصة", "المخترع والمخترعون", "كيف يعمل", "الانتشار", "ما بُني عليه", "ما بُني فوقه",
@@ -130,6 +153,19 @@ export const ARABIC_PAREN_UNISOLATED = /(?<!\u2066)\([^()\n]*[\u0600-\u06FF][^()
 export const HONORIFIC = /(peace be upon him|\bpbuh\b|\(saw\)|ﷺ|صلى الله عليه|صلى اللّٰه عليه|عليه السلام|عليها السلام|رضي الله ع|رضي اللّٰه ع|رحمه الله|رحمه اللّٰه)/i;
 // What a source text may put right before ﷺ: Muhammad's name or his titles, in Arabic, Urdu and English.
 export const SALAWAT_BESIDE = /(محمد|أحمد|احمد|مصطف[ىیٰے]+|النبي|رسول الله|رسوله|پیغمبر|رسول|نبی|Muhammad|Prophet|Messenger)[\s(!)\u2066-\u2069]*$/;
+/** Every string of a record, including the keys textFields skips (text, provenance). */
+export function* allStrings(o: any, path = ""): Generator<[string, string]> {
+  if (typeof o === "string") yield [path, o];
+  else if (Array.isArray(o)) for (let i = 0; i < o.length; i++) yield* allStrings(o[i], `${path}[${i}]`);
+  else if (o && typeof o === "object") for (const [k, v] of Object.entries(o)) yield* allStrings(v, path ? `${path}.${k}` : k);
+}
+/** Arabic and Urdu prose: an unisolated Arabic-script parenthetical outside code spans, in the body or the frontmatter. */
+export function proseParenProblem(lang: string, frontmatter: any, body: string): string | null {
+  if (lang !== "ar" && lang !== "ur") return null;
+  for (const [path, s] of allStrings(frontmatter)) if (ARABIC_PAREN_UNISOLATED.test(s)) return `frontmatter ${path}: wrap Arabic-script parentheses in U+2066 ( ... ) U+2069 (AGENTS.md)`;
+  const line = body.replace(/`[^`\n]*`/g, "").split("\n").find((l) => ARABIC_PAREN_UNISOLATED.test(l));
+  return line ? `wrap Arabic-script parentheses in U+2066 ( ... ) U+2069 (AGENTS.md): ${line.match(ARABIC_PAREN_UNISOLATED)![0]}` : null;
+}
 export function* textFields(o: any, path = ""): Generator<[string, string]> {
   if (typeof o === "string") yield [path, o];
   else if (Array.isArray(o)) for (let i = 0; i < o.length; i++) yield* textFields(o[i], `${path}[${i}]`);
@@ -427,7 +463,11 @@ export function validateAll(extra: { entity: any; file: string }[] = [], options
     // ﷺ belongs to Muhammad alone, in every language: a frozen source text keeps it only where it stands beside his name or title
     if (entity.class === "passage") for (const [path, s] of textFields(entity)) for (const m of s.matchAll(/ﷺ/g)) if (!SALAWAT_BESIDE.test(s.slice(Math.max(0, m.index! - 30), m.index))) err(file, `${path}: ﷺ is written only beside Muhammad (AGENTS.md)`);
     // Arabic-script parentheticals in right-to-left text must be wrapped in U+2066 ... U+2069 (AGENTS.md)
-    for (const [path, s] of textFields(entity)) if (/(^|\.)(ar|ur)(\.|$)|\[\d+\]\.ar$/.test(path) && ARABIC_PAREN_UNISOLATED.test(s)) err(file, `${path}: wrap Arabic-script parentheses in U+2066 ... U+2069 (AGENTS.md)`);
+    // The Qur'an passage files are frozen (docs/plan/15 §6.3, .githooks/pre-commit): nothing is inserted into them, not even
+    // the direction marks, so they are outside this rule (founder's instruction, 18 November 2026). Their parentheses are
+    // a matter for the page renderer, not for the stored text.
+    const frozenQuranPassage = entity.class === "passage" && entity.work === "work/quran";
+    if (!frozenQuranPassage) for (const [path, s] of allStrings(entity)) if (ARABIC_PAREN_UNISOLATED.test(s)) err(file, `${path}: wrap Arabic-script parentheses in U+2066 ... U+2069 (AGENTS.md)`);
 
     // dates
     for (const [path, d] of walkDates(entity)) {
@@ -844,6 +884,8 @@ export function validateAll(extra: { entity: any; file: string }[] = [], options
   // content/ holds prose only: a data file saved there is silently never rendered (found in the wild: a .yaml under content/ar/event/)
   // (a repository-wide scan, so it is not repeated for a check of only the extra entities)
   if (!onlyExtra) {
+    for (const lang of ["ar", "ur"]) for (const [path, s] of allStrings(readYaml(p("i18n", `${lang}.yaml`)))) if (ARABIC_PAREN_UNISOLATED.test(s)) err(`i18n/${lang}.yaml`, `${path}: wrap Arabic-script parentheses in U+2066 ( ... ) U+2069 (AGENTS.md)`);
+    for (const name of readdirSync(p("site", "src", "data")).filter((n) => n.endsWith(".json"))) for (const [path, s] of allStrings(readYamlJson(`site/src/data/${name}`))) if (ARABIC_PAREN_UNISOLATED.test(s)) err(`site/src/data/${name}`, `${path}: wrap Arabic-script parentheses in U+2066 ( ... ) U+2069 (AGENTS.md)`);
     for (const d of readdirSync(p("content"), { recursive: true, withFileTypes: true }) as any[]) {
       if (d.isFile() && !d.name.endsWith(".md") && !d.name.startsWith(".")) err(rel(join(d.parentPath ?? d.path, d.name)), "content/ holds .md prose only (data belongs in data/<class>/<slug>.yaml)");
     }
@@ -863,6 +905,8 @@ export function validateAll(extra: { entity: any; file: string }[] = [], options
     for (const m of pr.body.matchAll(linkRe)) if (!resolves(m[1])) err(pr.file, `unresolved link [[${m[1]}]]`);
     for (const m of pr.body.matchAll(citeRe)) if (!known.has(`source/${m[1]}`)) err(pr.file, `{cite:${m[1]}} does not resolve to a source`);
     if (HONORIFIC.test(pr.body)) err(pr.file, "honorifics must not be typed into prose (the UI renders them)");
+    const paren = proseParenProblem(pr.lang, pr.frontmatter, pr.body);
+    if (paren) err(pr.file, paren);
     if (/[﴿﴾]/.test(pr.body)) err(pr.file, "Qur'an text must never be typed into prose: link the ayah as [[passage/quran-<sura>-<aya>|label]] (docs/plan/09 rule 10)");
     const unsafe = proseUnsafeHtml(pr.body);
     if (unsafe) err(pr.file, unsafe);
@@ -873,16 +917,7 @@ export function validateAll(extra: { entity: any; file: string }[] = [], options
     }
 
     // scope rule in prose: a perspectives block must start with a Sunni entry, and non-Sunni doctrine must be labelled before it is stated
-    for (const blk of pr.body.matchAll(/^:::perspectives\n([\s\S]*?)\n:::/gm)) {
-      const labels = [...blk[1].matchAll(/^- \*\*(.+?)\*\*:/gm)].map((m) => m[1].toLowerCase());
-      if (labels.length && !(labels[0].startsWith("sunni") || labels[0].includes("أهل السنة") || labels[0].startsWith("سني"))) err(pr.file, "the perspectives block must start with the Sunni entry (docs/scope.md)");
-    }
-    const NON_SUNNI = /(Twelver|Shia|Shi'a|Shi‘a|Ismaili|Ibadi|Ahmadi(?:yya)?|Quranist|Zaydi|الشيعة|الإسماعيلية|الإباضية|الأحمدية|القرآنيون|الزيدية)/;
-    const VERB = /\b(hold|holds|believe|believes|teach|teaches|regard|regards|maintain|maintains|designated|consider|considers)\b|(يرى|يرون|يعتقد|يعتقدون|تعتقد|ترى|يؤمن|يؤمنون)/;
-    for (const sentence of pr.body.replace(/:::perspectives[\s\S]*?\n:::/g, "").split(/(?<=[.!?؟])\s+/)) {
-      const n = sentence.match(NON_SUNNI), vb = sentence.match(VERB);
-      if (n && vb && vb.index! < n.index!) warn(pr.file, `non-Sunni view stated before its label: "${sentence.slice(0, 80)}…" (name the community first, docs/scope.md)`);
-    }
+    for (const issue of prosePerspectiveIssues(pr.body)) issues.push({ ...issue, file: pr.file });
     if (!/^## /m.test(pr.body)) warn(pr.file, "no section headings");
   }
   for (const { entity, file } of subject) {

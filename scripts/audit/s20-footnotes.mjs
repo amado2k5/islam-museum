@@ -3,7 +3,8 @@
 // that have no marker anywhere, so the cause is visible: the renderer cannot drop notes that were never written.
 //   npm run graph && node scripts/audit/s20-footnotes.mjs
 import { readFileSync } from "node:fs";
-const g = JSON.parse(readFileSync(".cache/graph.json", "utf8"));
+import { readBigJson } from "../lib/graph-file.mjs";
+const g = readBigJson(".cache/graph.json");
 const real = g.nodes.filter((n) => !n.stub && n.class !== "passage" && n.class !== "source" && n.class !== "media");
 const hasCite = (n) => /\{cite:/.test(JSON.stringify(n.summary)) || Object.values(n.prose).some((d) => d.sections.some((s) => /\{cite:/.test(s.markdown)));
 const row = (list) => { const noProse = list.filter((n) => !Object.keys(n.prose).length).length; const noNotes = list.filter((n) => !hasCite(n)).length; const noSources = list.filter((n) => !(n.data.sources ?? []).length).length; return { records: list.length, no_prose: noProse, no_notes: noNotes, no_sources_listed: noSources }; };

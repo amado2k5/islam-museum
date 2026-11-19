@@ -1,0 +1,21 @@
+---
+id: concept/iftira
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/iftira.md}
+---
+## Résumé
+Le cheikh affirme que l'islam interdit la calomnie et que quiconque dit d'une personne ce qui n'est pas vrai en subira les conséquences dans sa vie, notamment par des difficultés dans ses moyens de subsistance. Il cite les paroles de Dieu selon lesquelles quiconque invente des histoires a échoué. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:02:00} Il considère la calomnie comme un ensemble de péchés majeurs, incluant le mensonge, le faux témoignage et l'injustice, commis par le mari envers sa femme et la femme envers son mari, par un supérieur envers son employé et par un fonctionnaire envers ses subordonnés. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:02:30}
+
+## Le porteur de paroles maléfiques
+Il raconte qu'un homme vint trouver une personne vertueuse et lui dit que quelqu'un avait parlé mal de lui ; celle-ci répondit : « Celui qui a parlé a décoché une flèche qui ne m'a pas atteint, et toi, tu es venu et tu l'as plantée dans mon cœur. » Il conclut qu'il faut semer le bien, et non le mal. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:30} Il mentionne que l'islam autorise, pour réconcilier des époux ou des personnes en conflit, à dire à chacun des paroles aimables qui n'ont pas été prononcées, comme un mari disant à sa femme que sa mère parle bien d'elle, et considère cela comme un mensonge permis ; voir [[concept/kadhib|mensonge]]. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:04:00} Il mentionne un hadith selon lequel les pires serviteurs sont ceux qui colportent des rumeurs, divisent les êtres chers et cherchent la faute chez les innocents. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:04:00}
+
+## Chercher des excuses
+Il soutient que si quelqu'un dit quelque chose dont neuf dixièmes sont faux et un dixième peut être bien intentionné, il faut retenir le dixième positif, et qu'il faut accepter les excuses de celui qui s'excuse, car il s'est humilié en le faisant ; il mentionne que personne n'aime plus les excuses que Dieu. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:06:00} Il cite le verset selon lequel Dieu n'aime pas les paroles malveillantes en public, sauf de la part de celui qui a subi une injustice. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:06:30}
+
+## Le web mondial
+Il critique ceux qui publient des propos injurieux sur Internet, interprètent mal les situations, s'attaquent à la réputation des gens et diffusent de fausses informations, estimant que cela devrait être un moyen de faire preuve de miséricorde et de bien, et non de rompre les liens et de proférer des obscénités ; tel est son point de vue. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:07:00}
+
+## Les dents d'Al-Shafi'i
+Il rapporte que [[person/al-shafii|al-Shafi'i]], âgé de plus de soixante-dix ans, avait encore des dents blanches et fortes et disait qu'il les avait gardées précieusement dans sa jeunesse, et que Dieu les avait donc gardées pour lui dans sa vieillesse ; le cheikh explique qu'il n'a jamais consommé d'illicite avec ces dents ni porté atteinte à l'honneur d'autrui avec sa langue (needs_source: the story is the Sheikh's narration). {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:08:00} Il soutient qu'une parole a son poids : par une parole, une personne entre dans l'islam, par une parole, un mariage est conclu et par une parole, il est dissous. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:08:30}

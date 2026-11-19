@@ -1,9 +1,10 @@
 id: person/abd-al-malik-ibn-hazim
 class: person
-label: { ar: "عبد الملك بن محمد بن حازم", en: "Abd Al Malik Ibn Hazim" }
+label: { ar: "عبد الملك بن محمد بن حازم", en: "Abd Al Malik Ibn Hazim", fr: "Abd al-Malik ibn Hazim" }
 summary:
   ar: "عبد الملك بن محمد بن أبي بكر بن عمرو بن حازم الأنصاري توفي سنة ست وسبعين ومائة ببغداد وكان قاضيا بها هارون وله كتاب المغازي {cite:fihrist-ibn-al-nadim p. 315-316}."
   en: "Ibn Hazim al-Ansari — Harun's Baghdad qadi, author of the Maghazi {cite:fihrist-ibn-al-nadim}"
+  fr: "Ibn Hazim al-Ansari — cadi de Harun à Bagdad, auteur des Maghazi {cite:fihrist-ibn-al-nadim}"
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim]
 status:
@@ -17,4 +18,4 @@ provenance:
   run: prose-fill-persons-batch16
 died: { edtf: "700~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf (al-Baladhuri: fl. Khurasan Umayyad wars)" }
 relations:
-  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name ⁦(الأنصاري)⁩; denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

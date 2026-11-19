@@ -10,7 +10,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0646~", hijri: "0026~", calendar: julian, precision: year, status: tradition, derived: true, note: "إثر دورة حبيب بأرمينية في خلافة عثمان (البلاذري ص 283–285). التحويل مشتق." }
+  start: { edtf: "0646~", hijri: "0026~", calendar: julian, precision: year, status: tradition, derived: true, note: "إثر دورة حبيب بأرمينية في خلافة عثمان ⁦(البلاذري ص 283–285)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/tiflis }
   - { type: had_participant, target: person/habib-ibn-maslama, role: "عاقد الصلح الأول", sources: [source/futuh-buldan-maarif-1407] }
@@ -18,7 +18,7 @@ relations:
   - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 283–285"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 283–285"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-17
 sources: [source/futuh-buldan-maarif-1407]

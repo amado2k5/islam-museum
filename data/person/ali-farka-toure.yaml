@@ -1,6 +1,6 @@
 id: person/ali-farka-toure
 class: person
-label: { ar: "علي فاركا توري", en: "Ali Farka Touré", ur: "علی فارکا تورے" }
+label: { ar: "علي فاركا توري", en: "Ali Farka Touré", fr: "Ali Farka Touré", ur: "علی فارکا تورے" }
 names:
   - { value: "علي إبراهيم توري", kind: full }
   - { value: "Ali Ibrahim Touré", kind: full }
@@ -9,6 +9,7 @@ gender: male
 summary:
   ar: "مغنٍّ وعازف غيتار مالي، وُلد سنة 1939 في قرية كاناو بمنطقة تمبكتو وتوفي في باماكو سنة 2006. مزج الموسيقى المالية التقليدية بالبلوز حتى لُقّب بـ«جون لي هوكر الأفريقي»، وسجّل مع راي كودر وتاج محل وتوماني دياباتي، وفاز بثلاث جوائز غرامي إحداها بعد وفاته، وصار عمدة لبلدته نيافونكي سنة 2004."
   en: "Malian singer and guitarist, born in 1939 in the village of Kanau in the Timbuktu region and died at Bamako in 2006. He fused traditional Malian music with the blues — he was called 'the African John Lee Hooker' — recorded with Ry Cooder, Taj Mahal and Toumani Diabaté, won three Grammy Awards, one of them posthumously, and became mayor of his home town of Niafunké in 2004."
+  fr: "Chanteur et guitariste malien, né en 1939 dans le village de Kanau dans la région de Tombouctou et mort à Bamako en 2006. Il a fusionné la musique traditionnelle malienne avec le blues – il s’appelait « l’Africain John Lee Hooker  » – enregistré avec Ry Cooder, Taj Mahal et Toumani Diabaté, a remporté trois Grammy Awards, dont un à titre posthume, et est devenu maire de sa ville natale de Niafunké en 2004."
   ur: "مالی کے گلوکار اور گٹار نواز، جو 1939 میں ٹمبکٹو کے علاقے کے گاؤں کاناؤ میں پیدا ہوئے اور 2006 میں بماکو میں وفات پائی۔ انہوں نے روایتی مالی موسیقی کو بلوز کے ساتھ جوڑا، رائی کوڈر، تاج محل اور تومانی دیاباتے کے ساتھ ریکارڈنگ کی، تین گریمی ایوارڈز جیتے جن میں سے ایک ان کی وفات کے بعد ملا، اور 2004 میں اپنے قصبے نیافنکے کے میئر بنے۔"
 roles: [singer, musician]
 wings: [people]
@@ -55,4 +56,4 @@ occupations:
     note: "merge-map link from role 'musician', Job Browser linking wave"
     sources: [source/wikipedia-ali-farka-toure-en, source/wikipedia-ali-farka-toure-fr, source/wikipedia-ali-farka-toure-ar, source/wikipedia-ali-farka-toure-ur, source/wikidata-ali-farka-toure, source/wikidata]
 relations:
-  - { type: lived_in, target: place/bilad-al-sudan, note: "Place association from the person's nisba/name (مالي); denotes association, not proven residence.", sources: [source/wikipedia-ali-farka-toure-en, source/wikipedia-ali-farka-toure-fr, source/wikipedia-ali-farka-toure-ar, source/wikipedia-ali-farka-toure-ur, source/wikidata-ali-farka-toure], confidence: low }
+  - { type: lived_in, target: place/bilad-al-sudan, note: "Place association from the person's nisba/name ⁦(مالي)⁩; denotes association, not proven residence.", sources: [source/wikipedia-ali-farka-toure-en, source/wikipedia-ali-farka-toure-fr, source/wikipedia-ali-farka-toure-ar, source/wikipedia-ali-farka-toure-ur, source/wikidata-ali-farka-toure], confidence: low }

@@ -11,4 +11,4 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 وہ بصرہ اور بغداد کے دفاتر میں کاتب رہے۔ انہوں نے ابو تمام اور البحتری کے شعر کے درمیان موازنہ پر مشتمل کتاب "الموازنہ" تصنیف کی۔ {cite:mawsuat-a3lam-ulama-adaba}
 
 ## وفات
-موسوعہ کے مطابق ان کی وفات 371ھ (981ء) میں ہوئی۔ {cite:mawsuat-a3lam-ulama-adaba}
+موسوعہ کے مطابق ان کی وفات 371ھ ⁦(981ء)⁩ میں ہوئی۔ {cite:mawsuat-a3lam-ulama-adaba}

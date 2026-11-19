@@ -24,15 +24,15 @@ const dot = Math.sqrt(muslimM) * 2.6;
 // zoomed map window around the country disc
 const vw = 360, vh = 220, vx = Math.min(Math.max(c.x - vw / 2, 0), 1000 - vw), vy = Math.min(Math.max(c.y - vh / 2, 0), 500 - vh);
 ---
-<BaseLayout lang={lang} title={`${c.name[lang]} — ${W.title}`} description={c.street[lang]} path={`/${lang}/world/${c.iso}/`}>
+<BaseLayout lang={lang} title={`${c.name[lang === "fr" ? "en" : lang]} — ${W.title}`} description={c.street[lang === "fr" ? "en" : lang]} path={`/${lang}/world/${c.iso}/`}>
   <div class="wrap" style="padding-block:1rem 3rem">
     <p class="ui" style="margin-top:0"><a href={`/${lang}/world/`}><span class="flip" aria-hidden="true">←</span> {W.c_back}</a></p>
     <header class="wc-hero" data-region={c.region}>
       <span class="wc-flag"><WorldFlag iso={c.iso} /></span>
       <div>
         <p class="eyebrow" style="margin:0">{W.regions[c.region]}</p>
-        <h1 style="margin:.1rem 0 .2rem">{c.name[lang]}</h1>
-        <p class="muted" style="margin:0">{W.f_capital}: <bdi>{c.capital[lang]}</bdi></p>
+        <h1 style="margin:.1rem 0 .2rem">{c.name[lang === "fr" ? "en" : lang]}</h1>
+        <p class="muted" style="margin:0">{W.f_capital}: <bdi>{c.capital[lang === "fr" ? "en" : lang]}</bdi></p>
       </div>
       <div class="wc-map" aria-hidden="true">
         <svg viewBox={`${vx} ${vy} ${vw} ${vh}`}>
@@ -57,20 +57,20 @@ const vw = 360, vh = 220, vx = Math.min(Math.max(c.x - vw / 2, 0), 1000 - vw), v
     </ul>
 
     <dl class="wc-dl">
-      <div><dt>{W.f_gov}</dt><dd>{c.gov[lang]}</dd></div>
-      <div><dt>{W.f_leader}</dt><dd>{c.leader[lang]}</dd></div>
-      <div><dt>{W.f_currency}</dt><dd>{c.currency[lang]}</dd></div>
+      <div><dt>{W.f_gov}</dt><dd>{c.gov[lang === "fr" ? "en" : lang]}</dd></div>
+      <div><dt>{W.f_leader}</dt><dd>{c.leader[lang === "fr" ? "en" : lang]}</dd></div>
+      <div><dt>{W.f_currency}</dt><dd>{c.currency[lang === "fr" ? "en" : lang]}</dd></div>
       <div><dt>{W.f_un}</dt><dd>{n(c.un)}</dd></div>
     </dl>
 
     <div class="wc-street" style="margin-bottom:1rem">
       <span class="lab ui">{W.life_title}</span>
-      <p>{c.life[lang]}</p>
+      <p>{c.life[lang === "fr" ? "en" : lang]}</p>
     </div>
 
     <div class="wc-street">
       <span class="lab ui">{W.f_street}</span>
-      <p>{c.street[lang]}</p>
+      <p>{c.street[lang === "fr" ? "en" : lang]}</p>
     </div>
 
     <section aria-labelledby="wc-fam">
@@ -78,8 +78,8 @@ const vw = 360, vh = 220, vx = Math.min(Math.max(c.x - vw / 2, 0), 1000 - vw), v
       <ul class="wc-fam" role="list">
         {c.famous.map((p: any) => (
           <li class="wc-famc">
-            {p.id ? <a class="wc-famn" href={href(lang, p.id)}>{p.n[lang]}</a> : <b class="wc-famn">{p.n[lang]}</b>}
-            <span>{p.t[lang]}</span>
+            {p.id ? <a class="wc-famn" href={href(lang, p.id)}>{p.n[lang === "fr" ? "en" : lang]}</a> : <b class="wc-famn">{p.n[lang === "fr" ? "en" : lang]}</b>}
+            <span>{p.t[lang === "fr" ? "en" : lang]}</span>
           </li>
         ))}
       </ul>
@@ -87,14 +87,14 @@ const vw = 360, vh = 220, vx = Math.min(Math.max(c.x - vw / 2, 0), 1000 - vw), v
 
     <div class="wc-trivia">
       <span class="lab ui">{W.trivia_title}</span>
-      <p id="wc-trivia-text">{c.trivia[0][lang]}</p>
+      <p id="wc-trivia-text">{c.trivia[0][lang === "fr" ? "en" : lang]}</p>
       <button type="button" class="wc-chip" id="wc-trivia-next">{W.t_another} →</button>
     </div>
-    <script type="application/json" id="wc-trivia-data" set:html={JSON.stringify(c.trivia.map((t: any) => t[lang])).replace(/</g, "\u003c")} />
+    <script type="application/json" id="wc-trivia-data" set:html={JSON.stringify(c.trivia.map((t: any) => t[lang === "fr" ? "en" : lang])).replace(/</g, "\u003c")} />
 
     <nav class="wc-nav ui" aria-label={W.countries_title}>
-      <a class="wc-pn" href={`/${lang}/world/${prev.iso}/`}><span class="flip" aria-hidden="true">←</span> {prev.name[lang]}</a>
-      <a class="wc-pn" href={`/${lang}/world/${next.iso}/`}>{next.name[lang]} <span class="flip" aria-hidden="true">→</span></a>
+      <a class="wc-pn" href={`/${lang}/world/${prev.iso}/`}><span class="flip" aria-hidden="true">←</span> {prev.name[lang === "fr" ? "en" : lang]}</a>
+      <a class="wc-pn" href={`/${lang}/world/${next.iso}/`}>{next.name[lang === "fr" ? "en" : lang]} <span class="flip" aria-hidden="true">→</span></a>
     </nav>
   </div>
 </BaseLayout>

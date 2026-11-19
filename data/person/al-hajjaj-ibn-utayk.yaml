@@ -1,9 +1,10 @@
 id: person/al-hajjaj-ibn-utayk
 class: person
-label: { ar: "الحجاج بن عتيك الثقفي", en: "al-Hajjaj ibn Utayk al-Thaqafi" }
+label: { ar: "الحجاج بن عتيك الثقفي", en: "al-Hajjaj ibn Utayk al-Thaqafi", fr: "Al-Hajjaj ibn Utayk al-Thaqafi" }
 summary:
   ar: "الحجاج بن عتيك رجل من ثقيف؛ زوج أم جميل بنت يحجن التي رصد الشهود المغيرة بن شعبة يدخل عليها؛ وكان على الفرات وهو الحجاج الذي ذكره أبو المختار في قصيدته على عمال الأهواز."
   en: "Al-Hajjaj ibn Utayk of Thaqif; husband of Umm Jamil bint Yahjan, on whom the watchers saw al-Mughira call; he held the Euphrates charge — the Hajjaj of Abu al-Mukhtar's satire on the Ahwaz officials."
+  fr: "Al-Hajjaj ibn Utayk des Thaqif, époux d’Umm Jamil bint Yahjan, chez qui les observateurs virent entrer al-Mughira ; il avait la charge de l’Euphrate et c’est le Hajjaj de la satire d’Abu al-Mukhtar sur les agents d’Ahwaz."
 periods: [period/rashidun]
 wings: [people]
 sources: [source/futuh-buldan-maarif-1407]
@@ -15,4 +16,4 @@ provenance:
 born: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
-  - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }
+  - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name ⁦(الثقفي)⁩; denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }

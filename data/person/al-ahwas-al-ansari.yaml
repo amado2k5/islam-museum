@@ -1,6 +1,6 @@
 id: person/al-ahwas-al-ansari
 class: person
-label: { ar: "الأحوص الأنصاري", en: "al-Ahwas al-Ansari" }
+label: { ar: "الأحوص الأنصاري", en: "al-Ahwas al-Ansari", fr: "Al-Ahwas al-Ansari" }
 names:
   - { kind: full, lang: ar, value: "عبد الله بن محمد بن عاصم الأحوص الأنصاري" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "شاعر أموي من أنصار المدينة، اشتهر بشعر الغزل ومكانته في الأدب العربي."
   en: "Umayyad poet from the Ansar of Medina, known for love poetry and for his standing in Arabic letters."
+  fr: "Poète omeyyade issu des Ansar de Médine, connu pour sa poésie amoureuse et sa place dans les lettres arabes."
 wings: [people]
 themes: [literature]
 periods: [period/umayyad]
@@ -21,12 +22,12 @@ status:
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص356-357"
+  source: "موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج1 ص356-357"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch49
 born: { edtf: "660", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
 died: { edtf: "728", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
 relations:
-  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name ⁦(الأنصاري)⁩; denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
   - {type: authored, target: work/hamasa-al-ahwas-inni-ala-ma-qad-alimta-muhassad, sources: [source/hamasa-abu-tammam-ed-1916], note: 'Stated in the summary of work/hamasa-al-ahwas-inni-ala-ma-qad-alimta-muhassad: "by al-Ahwas ibn Muhammad al-Ansari"'}

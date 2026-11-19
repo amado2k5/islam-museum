@@ -6,7 +6,7 @@ translators: ["Claude Code (OCR-harvest worker E), claude-opus-5-5, translation"
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sifat-al-safwa-tartusi-2012 p.705, 710" }
 ---
 ## خلاصہ
-ام الاسود بنت زید العدویہ [[place/basra|بصرہ]] کے بنو عدی کی ایک عابدہ تھیں؛ ابن الجوزی [[work/sifat-al-safwa|صفۃ الصفوہ]] میں ان کا ترجمہ دیتے ہیں (نمبر 591) اور بتاتے ہیں کہ [[person/muadha-al-adawiyya|معاذہ العدویہ]] نے انہیں دودھ پلایا تھا۔ {cite:sifat-al-safwa-tartusi-2012 p.710}
+ام الاسود بنت زید العدویہ [[place/basra|بصرہ]] کے بنو عدی کی ایک عابدہ تھیں؛ ابن الجوزی [[work/sifat-al-safwa|صفۃ الصفوہ]] میں ان کا ترجمہ دیتے ہیں ⁦(نمبر 591)⁩ اور بتاتے ہیں کہ [[person/muadha-al-adawiyya|معاذہ العدویہ]] نے انہیں دودھ پلایا تھا۔ {cite:sifat-al-safwa-tartusi-2012 p.710}
 
 ## معاذہ کی وصیت
 ابو عبد الرحمن السلمی سے روایت ہے کہ معاذہ نے ان سے کہا: «حرام کھا کر میرے دودھ پلانے کو خراب نہ کرنا؛ میں نے تمہیں دودھ پلاتے ہوئے پوری کوشش کی کہ حلال ہی کھاؤں، تو تم بھی کوشش کرنا کہ حلال ہی کھاؤ، شاید تمہیں اپنے آقا کی خدمت اور اس کی قضا پر رضا کی توفیق ملے»۔ ام الاسود کہتیں: «میں نے جب بھی کوئی مشتبہ چیز کھائی تو کوئی فرض یا میرا کوئی ورد چھوٹ گیا»۔ {cite:sifat-al-safwa-tartusi-2012 p.710}

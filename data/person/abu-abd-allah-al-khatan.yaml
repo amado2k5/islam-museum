@@ -1,21 +1,22 @@
 id: person/abu-abd-allah-al-khatan
 class: person
-label: { ar: "أبو عبد الله الختن", en: "Abu Abd Allah al-Khatan" }
+label: { ar: "أبو عبد الله الختن", en: "Abu Abd Allah al-Khatan", fr: "Abu Abd Allah al-Khatan" }
 names:
-  - { kind: full, lang: ar, value: "محمد بن الحسن بن إبراهيم، أبو عبد الله الختن (ط: أبو عبد الرحمن)" }
+  - { kind: full, lang: ar, value: "محمد بن الحسن بن إبراهيم، أبو عبد الله الختن ⁦(ط: أبو عبد الرحمن)⁩" }
 gender: male
 roles: [jurist, scholar]
 traditions: [sunni]
-died: { hijri: "0386", edtf: "0996~", calendar: julian, precision: year, status: tradition, derived: true, note: "حاشية المحقق (السبكي 2: 143؛ ابن خلكان 3: 341): توفي سنة 386. مصدر ثانٍ مطلوب.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+died: { hijri: "0386", edtf: "0996~", calendar: julian, precision: year, status: tradition, derived: true, note: "حاشية المحقق ⁦(السبكي 2: 143؛ ابن خلكان 3: 341)⁩: توفي سنة 386. مصدر ثانٍ مطلوب.", sources: [source/tabaqat-fuqaha-abbas-1981] }
 summary:
   ar: "أبو عبد الله الختن، ختن أبي بكر الإسماعيلي، كان فقيهاً فاضلاً، شرح «التلخيص» لابن القاص {cite:tabaqat-fuqaha-abbas-1981 p. 63}."
   en: "Abu Abd Allah al-Khatan, son-in-law of Abu Bakr al-Isma'ili, was an excellent jurist who wrote a commentary on al-Talkhis by Ibn al-Qass {cite:tabaqat-fuqaha-abbas-1981 p. 63}."
+  fr: "Abu Abd Allah al-Khatan, gendre d'Abu Bakr al-Isma'ili, fut un excellent juriste qui écrivit un commentaire d'al-Talkhis d'Ibn al-Qass {cite:tabaqat-fuqaha-abbas-1981 p. 63}."
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 sources: [source/tabaqat-fuqaha-abbas-1981, source/wikidata]
 provenance:
   layer: "own-research"
-  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص62–64"
+  source: "طبقات الفقهاء ⁦(تحقيق إحسان عباس)⁩ PDF ص62–64"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch86

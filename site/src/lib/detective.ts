@@ -4,6 +4,7 @@
 // their own grading against.
 import { readFileSync, readdirSync } from "node:fs";
 import { parse } from "yaml";
+import { parseLocalized } from "./i18n";
 import { byId } from "./graph";
 import { repoPath } from "./paths";
 import type { Lang } from "./i18n";
@@ -25,14 +26,14 @@ function tri(v: unknown, where: string): Tri {
   const t = v as Tri;
   for (const l of ["ar", "en", "ur"] as Lang[])
     if (typeof t?.[l] !== "string" || !t[l]) throw new Error(`${where}: missing ${l}`);
-  return t;
+  return { ...t, fr: t.fr ?? t.en };
 }
 
 export function loadDetective(): DetectiveUnit[] {
   const out: DetectiveUnit[] = [];
   const seen = new Set<string>();
   for (const f of readdirSync(DIR).filter((x) => x.endsWith(".yaml"))) {
-    const d = parse(readFileSync(`${DIR}/${f}`, "utf8"));
+    const d = parseLocalized(readFileSync(`${DIR}/${f}`, "utf8"));
     const where = `${DIR}/${f}`;
     if (!d.id || typeof d.id !== "string") throw new Error(`${where}: missing id`);
     if (seen.has(d.id)) throw new Error(`${where}: duplicate id ${d.id}`);
@@ -43,7 +44,7 @@ export function loadDetective(): DetectiveUnit[] {
     for (const e of ev) {
       if (!KINDS.includes(e.kind)) throw new Error(`${where}: bad kind ${e.kind}`);
       if (!byId.has(e.id)) throw new Error(`${where}: unknown evidence id ${e.id}`);
-      tri(e.caption, `${where} evidence ${e.id}`);
+      e.caption = tri(e.caption, `${where} evidence ${e.id}`);
       if (e.kind === "passage") {
         const slug = e.id.split("/")[1];
         const p = parse(readFileSync(repoPath(`data/passage/${slug}.yaml`), "utf8"));

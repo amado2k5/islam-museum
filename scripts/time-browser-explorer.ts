@@ -9,6 +9,7 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { existsSync, readdirSync } from 'node:fs'
 import { parse } from 'yaml'
+import { readBigJson } from "./lib/graph-file.mjs";
 
 type Lang = 'ar' | 'en' | 'ur'
 type Text = Partial<Record<Lang, string>>
@@ -210,7 +211,7 @@ export function checkSubjects(subjects: Subject[]): string[] {
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
-  const graph = JSON.parse(readFileSync(join(process.cwd(), '.cache', 'graph.json'), 'utf8')) as { nodes: GNode[]; edges: GEdge[] }
+  const graph = readBigJson(join(process.cwd(), '.cache', 'graph.json')) as { nodes: GNode[]; edges: GEdge[] }
   const { subjects, skipped } = buildSubjects(graph.nodes, graph.edges)
   const problems = checkSubjects(subjects)
   if (problems.length) {

@@ -21,9 +21,9 @@ faith:
   - { value: sunni, basis: tradition, note: "صحابية مسلمة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
 died: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~650, al-Isti'ab; al-Isaba" }
 relations:
-  - { type: member_of, target: group/al-azd, note: "من بني دوس من الأزد (نساء حول الرسول ص313)." }
-  - { type: spouse_of, target: person/abu-al-fakr, note: "زوجها أبو الفكر من بني دوس، هاجر إلى المدينة ثم توفي عنها (نساء حول الرسول ص314-319).", sources: [source/nisa-hawl-alrasul] }
-  - { type: participated_in, target: event/hijra, role: "هاجرت إلى المدينة بعد ثباتها على الأذى بذي الخلصة (نساء حول الرسول ص314-319)", sources: [source/nisa-hawl-alrasul] }
+  - { type: member_of, target: group/al-azd, note: "من بني دوس من الأزد ⁦(نساء حول الرسول ص313)⁩." }
+  - { type: spouse_of, target: person/abu-al-fakr, note: "زوجها أبو الفكر من بني دوس، هاجر إلى المدينة ثم توفي عنها ⁦(نساء حول الرسول ص314-319)⁩.", sources: [source/nisa-hawl-alrasul] }
+  - { type: participated_in, target: event/hijra, role: "هاجرت إلى المدينة بعد ثباتها على الأذى بذي الخلصة ⁦(نساء حول الرسول ص314-319)⁩", sources: [source/nisa-hawl-alrasul] }
   - { type: member_of, target: group/sahaba, sources: [source/nisa-hawl-alrasul]}
 
   - { type: lived_in, target: place/al-ghaba, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/nisa-hawl-alrasul, source/assabile-omar-abdelkafy] }
@@ -45,4 +45,4 @@ perspectives:
     sources: [source/nisa-hawl-alrasul]
 sources: [source/nisa-hawl-alrasul, source/assabile-omar-abdelkafy]
 status: { review: draft, completeness: 1, generated_by: "Devin; Nisa' Hawl al-Rasul pp. 313-320, lib-nisa-hawl-rasul" }
-provenance: { layer: own-research, source: "نساء حول الرسول (المكتبة العصرية 2015) ص313-320؛ ينقل عن الإصابة 8/247 وأسد الغابة 5/460 والاستيعاب 4/496", generated_by: "Devin", model: "SWE-2 High", run: "lib-nisa-hawl-rasul" }
+provenance: { layer: own-research, source: "نساء حول الرسول ⁦(المكتبة العصرية 2015)⁩ ص313-320؛ ينقل عن الإصابة 8/247 وأسد الغابة 5/460 والاستيعاب 4/496", generated_by: "Devin", model: "SWE-2 High", run: "lib-nisa-hawl-rasul" }

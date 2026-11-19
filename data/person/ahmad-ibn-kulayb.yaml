@@ -13,7 +13,7 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 provenance:
   layer: own-research
-  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، ترجمة سنة ٤٢٦)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي ⁦(ج8، ترجمة سنة ٤٢٦)⁩، قراءة آبل فيجن، مسح AAlexandrina-224011"
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch47
@@ -22,4 +22,4 @@ status: { review: published, completeness: 3 }
 born: { edtf: "900~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marzubani (Mu'jam al-Shu'ara)" }
 died: { edtf: "950~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marzubani (Mu'jam al-Shu'ara)" }
 relations:
-  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (بغدادي); denotes association, not proven residence.", sources: [source/muntazam-ibn-al-jawzi], confidence: low }
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name ⁦(بغدادي)⁩; denotes association, not proven residence.", sources: [source/muntazam-ibn-al-jawzi], confidence: low }

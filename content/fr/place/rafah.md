@@ -1,0 +1,23 @@
+---
+id: place/rafah
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/rafah.md}
+---
+## Vue d'ensemble
+Rafah est une ville saine sur la route de [[place/gaza|Gaza]] à al-Arish. Elle se situe à une étape de Gaza, al-Arish à une autre étape, et d'al-Arish à al-Warada à une troisième étape, selon al-Idrisi. {cite:nuzhat-al-mushtaq-2002 p. 357}
+
+Al-Idrisi décrit Gaza comme la dernière ville de Palestine du côté faisant face à al-Jifar et à la route vers l'Égypte. {cite:nuzhat-al-mushtaq-2002 p. 356}
+
+Al-Idrisi décrit également al-Arish, la ville située au-delà de Rafah, comme une cité qui possédait autrefois deux mosquées. Son territoire est principalement sablonneux, on y trouve des fruits et des arbres fruitiers, et elle est située à proximité de la mer. {cite:nuzhat-al-mushtaq-2002 p. 357}
+
+Dans sa description des frontières de la Palestine, al-Idrisi indique que sa longueur, de Rafah à Lajjun, correspond à environ quatre jours de marche, et sa largeur, de Jaffa à Riha, à deux jours de voyage. {cite:nuzhat-al-mushtaq-2002 p. 354}
+
+Dans sa description de la Syrie, al-Idrisi indique que le pays s'étend de Malatya à Rafah, et que le trajet de Ramla à Rafah prend deux jours. Il précise que l'itinéraire complet comporte trente-cinq étapes. {cite:nuzhat-al-mushtaq-2002 p. 378}
+
+## Dans le Mu'jam al-buldan de Yaqut
+Yaqut donne le nom de Rafah, avec une fatha sur le ra' et le fa' et un ha non pointé, et la décrit comme une étape sur la route d'Égypte après al-Darum, la première ville du désert, aujourd'hui en ruines ; il ajoute que des chiens y sont associés. Il indique qu'entre « elle » et Ascalon, il y a deux jours de voyage pour se rendre en Égypte, et le pronom « là » pourrait désigner Rafah ou al-Darum. Il cite ensuite al-Muhallabi selon lequel Rafah est une ville florissante avec un marché, une mosquée, un minbar et des auberges, dont les habitants, originaires de Lakhm et de Judham, pillent les voyageurs et volent leurs biens, avec un gouverneur de la ma'una (terme non traduit ici) et un certain nombre de soldats. Le passage se poursuit avec la distance entre Rafah et Gaza, une rangée de sycomores et la fin du désert d'al-Jifar, sans préciser où s'arrête le récit d'al-Muhallabi. Dans le texte conservé par le musée, la distance entre Rafah et Gaza est indiquée comme étant de dix-huit jours, suivie d'un saut de page, puis de « jours » ; l'unité de mesure semble douteuse et le musée ne l'utilise pas. {cite:mujam-al-buldan-sader-1995 3 p.54-55} Dans l'entrée consacrée à ‘Arish, il cite al-Muhallabi qui affirme que depuis al-‘Arish, il y a six milles jusqu'aux deux puits d'Abu Ishaq, six jusqu'à al-Shajaratayn (le premier des districts de Syrie), six jusqu'à al-Barmakiyya et enfin six jusqu'à Rafah, ce qui représente une distance totale de vingt-quatre milles entre al-‘Arish et Rafah. {cite:mujam-al-buldan-sader-1995 4 p.114} Dans son article sur al-Jifar, il situe Rafah en premier lieu du Jifar côté syrien et la compte parmi les localités habitées sur la route d'Égypte où s'établissent les marchands (Rafah, al-Qas, al-Za'qa, al-'Arish, al-Warrada et Qatya). Il cite ensuite al-Muhallabi selon lequel les principales villes du Jifar sont al-'Arish, Rafah et al-Warrada ; cela contredit son affirmation selon laquelle Rafah serait « en ruines » dans son article, et il ne propose aucune explication à ce sujet dans aucun des deux articles. {cite:mujam-al-buldan-sader-1995 2 p.145}
+
+## L'identification du musée
+Le document, provenant d'al-Idrisi, décrit une ville prospère à une étape de Gaza sur la route d'al-Arish. Yaqut confirme qu'elle se situe sur la route de l'Égypte, au début du désert, mais indique dans la notice relative à Rafah qu'elle est en ruines. Or, al-Muhallabi, tel qu'il le cite, décrit une ville florissante avec un marché et une mosquée, et la notice sur al-Jifar la compte parmi les lieux habités. Ces descriptions divergent, et le musée conserve les deux versions sans les privilégier. Le point mentionné dans le document se situe à 31,9 km du point de Gaza du musée et à 46,1 km de son point d'al-Arish. Yaqut ne donne aucune distance fiable jusqu'à Gaza, et les vingt-quatre miles qu'il cite d'al-Muhallabi entre al-Arish et Rafah ne sont pas convertis ici en kilomètres, car la longueur du mile n'est pas précisée dans le texte. Voir [[place/gaza|Gaza]] et [[place/al-arish|al-Arish]].

@@ -35,7 +35,7 @@ translators: []
 
 ## قسط 7: ہرگز نہیں، میرا رب میرے ساتھ ہے
 
-سختی میں دو نظریں: عالمِ شہادت اور عالمِ غیب ([[concept/al-yaqin|یقین]])، مردے کو غسل دینے کی نصیحت، اور مقروض کے لیے [[concept/istighfar|استغفار]]۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:09:30}
+سختی میں دو نظریں: عالمِ شہادت اور عالمِ غیب ⁦([[concept/al-yaqin|یقین]])⁩، مردے کو غسل دینے کی نصیحت، اور مقروض کے لیے [[concept/istighfar|استغفار]]۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep07 00:09:30}
 
 ## قسط 8: بے کھیتی کی وادی میں ابراہیم اور ہاجرہ
 
@@ -145,7 +145,7 @@ translators: []
 - [[concept/sabr|الصبر]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:09:00}
 
 ### قسط 3
-- [[concept/khawf|خوفِ خدا (خوف)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:00:30}
+- [[concept/khawf|خوفِ خدا ⁦(خوف)⁩]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:00:30}
 - [[concept/al-istirja|مصیبت پر «انا للہ» کہنا]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:02:30}
 
 ### قسط 4
@@ -154,7 +154,7 @@ translators: []
 - [[concept/ikhtilaf|اختلاف]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep04 00:05:00}
 
 ### قسط 5
-- [[concept/al-tughyan|سرکشی (طغیان)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:01:00}
+- [[concept/al-tughyan|سرکشی ⁦(طغیان)⁩]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:01:00}
 - [[concept/zulm|الظلم]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:02:30}
 - [[person/harun|هارون]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:05:30}
 - [[concept/ukhuwwa|الأخوة الإسلامية]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:06:00}
@@ -162,7 +162,7 @@ translators: []
 
 ### قسط 6
 - [[person/umm-musa|ام موسیٰ، موسیٰ کی والدہ]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:00:30}
-- [[concept/al-huzn|غم اور فکر (الحزن)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:05:30}
+- [[concept/al-huzn|غم اور فکر ⁦(الحزن)⁩]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:05:30}
 - [[person/musa|موسى]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:07:00}
 
 ### قسط 7
@@ -193,14 +193,14 @@ translators: []
 - [[person/abu-talib|أبو طالب بن عبد المطلب]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:01:30}
 - [[person/khadija|خديجة بنت خويلد]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:02:00}
 - [[event/journey-to-taif|خروج النبي إلى الطائف]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:05:00}
-- [[event/conquest-of-mecca|فتح مكة (الفتح الأعظم)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:07:00}
+- [[event/conquest-of-mecca|فتح مكة ⁦(الفتح الأعظم)⁩]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep11 00:07:00}
 
 ### قسط 12
 - [[concept/al-iaqa-al-sulukiyya|«رویے کی معذوری»]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:00:30}
 - [[concept/qadar|القدر]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:03:00}
 - [[concept/al-tawazun-al-kawni|کائناتی توازن]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:03:30}
 - [[concept/al-rizq-al-rububi|الرزق عطاء الربوبية والإمامة عطاء الألوهية]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:07:00}
-- [[concept/hadaya-al-ummal|عمال کو دیے گئے تحفے (ہدایا العمال)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:09:00}
+- [[concept/hadaya-al-ummal|عمال کو دیے گئے تحفے ⁦(ہدایا العمال)⁩]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep12 00:09:00}
 
 ### قسط 13
 - [[person/bilal-ibn-rabah|بلال بن رباح]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:01:00}
@@ -218,7 +218,7 @@ translators: []
 ### قسط 16
 - [[concept/mirath|میراث]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:01:00}
 - [[person/umar-ibn-abd-al-aziz|عمر بن عبد العزیز]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:04:00}
-- [[concept/husn-al-zann-billah|اللہ کے ساتھ حسن ظن اور امید (حسن الظن باللہ)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:05:00}
+- [[concept/husn-al-zann-billah|اللہ کے ساتھ حسن ظن اور امید ⁦(حسن الظن باللہ)⁩]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:05:00}
 - [[concept/satr|ستر المسلم]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:05:00}
 
 ### قسط 17
@@ -232,14 +232,14 @@ translators: []
 - [[practice/nikah|النكاح]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep19 00:01:30}
 
 ### قسط 20
-- [[concept/amal|عمل (فعل)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:02:30}
+- [[concept/amal|عمل ⁦(فعل)⁩]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:02:30}
 - [[person/dawud|داود]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:00}
 
 ### قسط 21
-- [[concept/ibtisama|مسکراہٹ (ابتسامہ)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:08:30}
+- [[concept/ibtisama|مسکراہٹ ⁦(ابتسامہ)⁩]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep21 00:08:30}
 
 ### قسط 22
-- [[concept/mas-uliyya|ذمہ داری (مسئولیت)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:01:00}
+- [[concept/mas-uliyya|ذمہ داری ⁦(مسئولیت)⁩]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:01:00}
 - [[person/umar-ibn-al-khattab|عمر بن الخطاب]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:03:00}
 - [[concept/ujb|العُجب]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:06:00}
 - [[practice/sadaqa|الصدقة]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:07:30}
@@ -254,7 +254,7 @@ translators: []
 - [[person/qabil|قابيل]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep24 00:05:00}
 
 ### قسط 25
-- [[concept/iyada|عیادت (مریض کی تیمار داری)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:00:30}
+- [[concept/iyada|عیادت ⁦(مریض کی تیمار داری)⁩]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:00:30}
 - [[person/ayyub|أيوب]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:08:00}
 
 ### قسط 26
@@ -273,9 +273,9 @@ translators: []
 
 ### قسط 29
 - [[event/umar-letter-to-the-nile|نیلِ مصر کے نام عمر کے رقعے کی روایت]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:01:00}
-- [[concept/tatayyur-omens|تطیّر (بدشگونی)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:03:30}
+- [[concept/tatayyur-omens|تطیّر ⁦(بدشگونی)⁩]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:03:30}
 - [[practice/istikhara|الاستخارة]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:04:30}
-- [[concept/tawidh-amulets-and-incantations|تعویذ (منکے، دم اور تعویذ)]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:07:00}
+- [[concept/tawidh-amulets-and-incantations|تعویذ ⁦(منکے، دم اور تعویذ)⁩]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep29 00:07:00}
 
 ### قسط 30
 - [[person/al-hajjaj-ibn-yusuf|الحجاج بن يوسف الثقفي]] {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:07:30}

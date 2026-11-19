@@ -3,11 +3,13 @@ class: person
 label:
   ar: "أبو بكر الحداد"
   en: "Abu Bakr al-Haddad"
+  fr: "Abu Bakr al-Haddad"
 roles: [scholar]
 gender: male
 summary:
   ar: "أبو بكر بن علي بن محمد الحداد الزبيدي، فقيه حنفي يماني من أهل العبادية في وادي زبيد، استقر في زبيد وتوفي بها سنة ٨٠٠هـ؛ له السراج الوهاج والجوهرة النيرة في شرح مختصر القدوري وتفسير يعرف بتفسير الحداد."
   en: "Abu Bakr ibn Ali ibn Muhammad al-Haddad al-Zabidi, a Yemeni Hanafi jurist from al-Ibadiyya in Wadi Zabid, who settled and died in Zabid in 800 AH (1397); author of al-Siraj al-wahhaj and al-Jawhara al-nayyira, commentaries on the Mukhtasar of al-Quduri, and an exegesis known as the Tafsir of al-Haddad."
+  fr: "Abu Bakr ibn Ali ibn Muhammad al-Haddad al-Zabidi, juriste hanafite yéménite d'al-Ibadiyya dans le Wadi Zabid, qui s'établit et mourut à Zabid en 800 H (1397) ; auteur d'al-Siraj al-wahhaj et d'al-Jawhara al-nayyira, commentaires du Mukhtasar d'al-Quduri, et d'une exégèse connue sous le nom de Tafsir d'al-Haddad."
 wings: [people]
 regions: [arabia]
 periods: [period/mongol-post-mongol]
@@ -26,5 +28,5 @@ status:
   completeness: 3
 died: { edtf: "1397", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli, al-A'lam; al-Sakhawi, al-Daw' al-Lami' Agrees with Wikidata Q54875371 (P570, a statement without a reference), item revision 2567886611, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/yemen, note: "Place association from the person's nisba/name (يمني); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/yemen, note: "Place association from the person's nisba/name ⁦(يمني)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: died_in, target: place/zabid, note: "Al-Zirikli, al-A'lam vol. 2 p. 67: settled in Zabid and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

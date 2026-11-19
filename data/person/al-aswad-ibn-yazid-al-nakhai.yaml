@@ -1,6 +1,6 @@
 id: person/al-aswad-ibn-yazid-al-nakhai
 class: person
-label: { ar: "الأسود بن يزيد النخعي", en: "al-Aswad ibn Yazid al-Nakha'i" }
+label: { ar: "الأسود بن يزيد النخعي", en: "al-Aswad ibn Yazid al-Nakha'i", fr: "Al-Aswad ibn Yazid al-Nakha’i" }
 names:
   - { kind: full, lang: ar, value: "الأسود بن يزيد بن قيس النخعي أبو عمرو" }
 gender: male
@@ -9,17 +9,18 @@ traditions: [sunni]
 summary:
   ar: "من فقهاء الكوفة من التابعين، أبو عمرو الأسود بن يزيد بن قيس النخعي، أخو عبد الرحمن بن يزيد وابن أخي علقمة؛ مات سنة خمس وسبعين، وقالت عائشة إنه لم يكن بالعراق رجل أكرم عليها منه {cite:tabaqat-fuqaha-abbas-1981 p. 42}."
   en: "One of the Kufan jurists among the Successors: Abu Amr al-Aswad ibn Yazid ibn Qays al-Nakha'i, brother of Abd al-Rahman ibn Yazid and nephew of Alqama; he died in the year 75, and Aisha said there was no man in Iraq more honoured by her than he {cite:tabaqat-fuqaha-abbas-1981 p. 42}."
+  fr: "L’un des juristes de Kufa parmi les Successeurs : Abu Amr al-Aswad ibn Yazid ibn Qays al-Nakha’i, frère d’Abd al-Rahman ibn Yazid et neveu d’Alqama ; il mourut en 75 H, et Aïcha dit qu’aucun homme en Irak n’était plus honoré par elle que lui {cite:tabaqat-fuqaha-abbas-1981 p. 42}."
 wings: [people]
 themes: [scripture-and-its-sciences]
 regions: [levant-iraq]
-died: { hijri: "0075", edtf: "0694~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة خمس وسبعين (PDF ص42). الحاشية تذكر رواية «أكرم على الله» في الطبعة المطبوعة.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+died: { hijri: "0075", edtf: "0694~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة خمس وسبعين ⁦(PDF ص42)⁩. الحاشية تذكر رواية «أكرم على الله» في الطبعة المطبوعة.", sources: [source/tabaqat-fuqaha-abbas-1981] }
 relations:
   - { type: lived_in, target: place/kufa, note: "From text: من فقهاء الكوفة من التابعين", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
   - { type: student_of, target: person/abdullah-ibn-masud, sources: [source/tabaqat-fuqaha-abbas-1981] }
 sources: [source/tabaqat-fuqaha-abbas-1981]
 provenance:
   layer: "own-research"
-  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص41–43"
+  source: "طبقات الفقهاء ⁦(تحقيق إحسان عباس)⁩ PDF ص41–43"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch126

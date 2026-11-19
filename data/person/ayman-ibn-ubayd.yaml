@@ -16,11 +16,11 @@ periods: [period/prophetic-era]
 regions: [arabia]
 died: { edtf: "0630-01~", hijri: "0008-10", calendar: julian, precision: month, status: tradition, note: "استشهد يوم حنين وهو يقاتل حول النبي.", sources: [source/ibn-hisham-saqqa] }
 story_roles:
-  - { role: martyr, status: tradition, note: "من النفر القلائل الذين ثبتوا حول النبي يوم حنين واستشهد دونه (ابن هشام 4/88، 101).", sources: [source/ibn-hisham-saqqa] }
+  - { role: martyr, status: tradition, note: "من النفر القلائل الذين ثبتوا حول النبي يوم حنين واستشهد دونه ⁦(ابن هشام 4/88، 101)⁩.", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابي بدري/أحدي شهيد حنين." }
 relations:
-  - { type: lived_in, target: place/abyssinia, note: "Place association from the person's nisba/name (الحبشي); denotes association, not proven residence.", sources: [source/ibn-hisham-saqqa], confidence: low }
+  - { type: lived_in, target: place/abyssinia, note: "Place association from the person's nisba/name ⁦(الحبشي)⁩; denotes association, not proven residence.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: child_of, target: person/umm-ayman }
   - { type: participated_in, target: event/battle-of-hunayn, role: martyr, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }

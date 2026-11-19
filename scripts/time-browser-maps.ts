@@ -8,6 +8,7 @@
 import { existsSync, readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
+import { readBigJson } from "./lib/graph-file.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const arg = (n: string, d: string) => (process.argv.indexOf(`--${n}`) >= 0 ? process.argv[process.argv.indexOf(`--${n}`) + 1] : d);
@@ -34,7 +35,7 @@ const hav = (a: [number, number], b: [number, number]) => {
 
 // ---- load stops + graph places ------------------------------------------------
 const index = JSON.parse(readFileSync(INDEX, "utf8"));
-const graph = JSON.parse(readFileSync(resolve(ROOT, ".cache/graph.json"), "utf8"));
+const graph = readBigJson(resolve(ROOT, ".cache/graph.json"));
 const placeCoord = new Map<string, [number, number]>();
 for (const n of graph.nodes) if (n.class === "place" && n.coordinates) placeCoord.set(n.id, n.coordinates);
 

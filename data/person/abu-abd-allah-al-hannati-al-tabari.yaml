@@ -1,21 +1,22 @@
 id: person/abu-abd-allah-al-hannati-al-tabari
 class: person
-label: { ar: "أبو عبد الله الحناطي الطبري", en: "Abu Abd Allah al-Hannati al-Tabari" }
+label: { ar: "أبو عبد الله الحناطي الطبري", en: "Abu Abd Allah al-Hannati al-Tabari", fr: "Abu Abd Allah al-Hannati al-Tabari" }
 names:
-  - { kind: full, lang: ar, value: "الحسين بن محمد بن عبد الله الحناطي الطبري (الاسم من حاشية المحقق نقلاً عن السبكي)" }
+  - { kind: full, lang: ar, value: "الحسين بن محمد بن عبد الله الحناطي الطبري ⁦(الاسم من حاشية المحقق نقلاً عن السبكي)⁩" }
 gender: male
 roles: [jurist]
 traditions: [sunni]
 summary:
   ar: "أبو عبد الله الحناطي الطبري، من أئمة طبرستان، قدم بغداد في أيام الشيخ أبي حامد الإسفراييني {cite:tabaqat-fuqaha-abbas-1981 p. 62}. لم يذكر الشيرازي تاريخ وفاته، وقدّر المحقق أنها بعد الأربعمائة بقليل أو قبلها بقليل {cite:tabaqat-fuqaha-abbas-1981 p. 62}. ليس هو أبا عبد الله الحناط الشيرازي."
   en: "Abu Abd Allah al-Hannati al-Tabari, one of the imams of Tabaristan, came to Baghdad in the days of Shaykh Abu Hamid al-Isfara'ini {cite:tabaqat-fuqaha-abbas-1981 p. 62}. Al-Shirazi does not give his date of death; the editor estimates it at a little before or a little after the year 400 {cite:tabaqat-fuqaha-abbas-1981 p. 62}. He is not Abu Abd Allah al-Hannat al-Shirazi."
+  fr: "Abu Abd Allah al-Hannati al-Tabari, l'un des imams du Tabaristan, vint à Bagdad à l'époque du shaykh Abu Hamid al-Isfara'ini {cite:tabaqat-fuqaha-abbas-1981 p. 62}. Al-Shirazi ne donne pas sa date de mort ; l'éditeur l'estime à peu avant ou peu après l'an 400 {cite:tabaqat-fuqaha-abbas-1981 p. 62}. Il n'est pas Abu Abd Allah al-Hannat al-Shirazi."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 sources: [source/tabaqat-fuqaha-abbas-1981]
 provenance:
   layer: "own-research"
-  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص62–64"
+  source: "طبقات الفقهاء ⁦(تحقيق إحسان عباس)⁩ PDF ص62–64"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch86
@@ -30,4 +31,4 @@ occupations:
     sources: [source/tabaqat-fuqaha-abbas-1981]
 died: { edtf: "1045~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat al-Shafi'iyya)" }
 relations:
-  - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name (الشيرازي); denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
+  - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name ⁦(الشيرازي)⁩; denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }

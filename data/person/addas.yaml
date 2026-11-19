@@ -1,6 +1,6 @@
 id: person/addas
 class: person
-label: { en: "Addas the Christian", ar: "عداس النينوي", ur: "عداس النينوي" }
+label: { en: "Addas the Christian", fr: "Addas le chrétien", ar: "عداس النينوي", ur: "عداس النينوي" }
 names:
   - { kind: full, lang: ar, value: "عداس النينوي" }
 gender: male
@@ -8,6 +8,7 @@ roles: [companion]
 traditions: [sunni]
 summary:
   en: "A Christian slave from Nineveh serving Utba and Shayba ibn Rabi'a in their orchard at al-Ta'if; upon offering grapes to the Prophet and hearing the name of Jonah (Yunus), he embraced Islam and kissed the Prophet's head, hands, and feet."
+  fr: "Esclave chrétien de Ninive au service d'Utba et de Shayba ibn Rabi'a dans leur verger d'al-Ta'if ; offrant des raisins au Prophète et entendant le nom de Jonas (Yunus), il embrassa l'islam et embrassa la tête, les mains et les pieds du Prophète."
   ar: "غلام نصراني من أهل نينوى كان يعمل في كرم عتبة وشيبة ابني ربيعة بالطائف؛ قدّم عنباً للنبي فسمع تسميته وذكره ليونس بن متى، فأسلم وقبّل رأس النبي ويديه وقدميه."
   ur: "نینوی کا مسیحی غلام جو طائف میں عتبہ اور شیبہ بن ربیعہ کے باغ میں خدمت کرتا تھا؛ نبی کو انگور پیش کرنے اور نام سننے پر ان سے متاثر ہوا۔"
 wings: [people]
@@ -15,7 +16,7 @@ themes: [converts-and-leavers]
 periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
-  - { role: convert, toward: person/muhammad, start: { edtf: "0619~" }, status: tradition, note: "أسلم في بستان الطائف (الرحيق ص126-127).", sources: [source/mubarakpuri-raheeq] }
+  - { role: convert, toward: person/muhammad, start: { edtf: "0619~" }, status: tradition, note: "أسلم في بستان الطائف ⁦(الرحيق ص126-127)⁩.", sources: [source/mubarakpuri-raheeq] }
   - { role: companion, start: { edtf: "0619~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: christian, basis: tradition, end: { edtf: "0619~" } }

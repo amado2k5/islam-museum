@@ -1,0 +1,13 @@
+---
+id: event/companions-of-abu-jafar-die-one-after-another-and-vow-to-die-with-him-295
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/companions-of-abu-jafar-die-one-after-another-and-vow-to-die-with-him-295.md}
+---
+
+## Visión general
+Los compañeros de Abu Ja'far salieron uno tras otro y fueron asesinados, entre ellos Maymun ibn Muhammad al-Madani, Ishaq ibn Ibrahim, Ibrahim ibn Muhammad de Khawlan, Yusuf ibn Ya'qub y Ahmad ibn Abdallah de Khawlan. El resto, que afirmaba que no les quedaba vida después de sus compañeros, salieron juntos en una carga y fueron asesinados.
+
+## Detalle
+Los problemas que rodeaban a Muhammad ibn Ubaydallah y sus compañeros se agravaron, y sus enemigos se multiplicaron. Tras la muerte de Yusuf el Hamdani, Maymun ibn Muhammad al-Madani salió, cargando y atacando sin cesar hasta morir. Luego, Ishaq ibn Ibrahim salió y luchó hasta la muerte. Después, Ibrahim ibn Muhammad de Khawlan salió, sin flechas, desenvainó su espada y luchó hasta morir. Luego, Yusuf ibn Ya'qub disparó a un hombre y lo mató, muriendo él mismo. Finalmente, Ahmad ibn Abdallah de Khawlan salió y luchó con valentía hasta la muerte. Los compañeros se dijeron entonces que no les quedaba vida después de sus compañeros, que habían emigrado de sus hogares y abandonado sus posesiones precisamente para un día como este, y que su deseo se había cumplido, pues su sangre había sido derramada por la familia del Profeta. Le preguntaron a Muhammad ibn Ubaydallah si habían cumplido con su deber para con Dios y con él. Él dijo que sí, y que no había visto a nadie más fiel a su promesa que ellos. Ellos respondieron que lo protegerían con sus propias personas y lo encomendarían a Dios, y luego salieron en un solo cuerpo, cubriéndose con sus escudos, y siguieron luchando hasta que todos ellos murieron. Varios nombres están distorsionados en el escaneo y la ortografía de las nisbas varía entre el escaneo y la lectura marginal; estos están marcados para el verificador. Luego cargó contra un hombre de Banu Bishr llamado Ahmad ibn al-Ahqad y lo golpeó, cortándole el pulgar, de modo que el hombre se dio la vuelta y huyó. Banu al-Harith entonces lo cargó en un solo cuerpo, lo acribilló con muchas flechas en la cara y lo golpeó con espadas hasta que su escudo fue hecho pedazos. Regresó a la habitación de las mujeres y pidió agua. Una muchacha le trajo una taza de agua, pero la sangre de su cara goteó en ella, y él la rechazó sin beber.

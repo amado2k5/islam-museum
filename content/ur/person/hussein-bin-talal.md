@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## خلاصہ
-حسین بن طلال (14 نومبر 1935ء – 7 فروری 1999ء) اردن کے تیسرے بادشاہ تھے اور 1952ء سے وفات تک حکمران رہے۔ {cite:wikipedia-hussein-bin-talal-ur} {cite:wikipedia-hussein-bin-talal-en}
+حسین بن طلال ⁦(14 نومبر 1935ء – 7 فروری 1999ء)⁩ اردن کے تیسرے بادشاہ تھے اور 1952ء سے وفات تک حکمران رہے۔ {cite:wikipedia-hussein-bin-talal-ur} {cite:wikipedia-hussein-bin-talal-en}
 
 ان کا تعلق ہاشمی خاندان سے تھا، جس نے سات سو سال سے زائد مکہ پر حکومت کی اور 1921ء سے اردن پر حکمران ہے۔ {cite:wikipedia-hussein-bin-talal-en}
 

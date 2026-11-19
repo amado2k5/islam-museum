@@ -4,9 +4,11 @@ class: person
 label:
   ar: أبغا بن هلاكو
   en: Abaga ibn Hulagu
+  fr: "Abaga ibn Hulagu"
 summary:
   ar: "أبغا بن هلاكو، ثاني إيلخانات بني هلاكو بالعراق؛ ولي بعد أبيه سنة 663هـ، وزحف سنة 680هـ إلى بلاد الشام في مظاهرة منكوتمر ملك الدست بالشمال فنازل حماة مع أخيه منكوتمر وزحف إليهم المنصور قلاوون ملك مصر والشام من دمشق فلقيهم بظاهر حمص وكانت الدائرة على ملوك التتر وهلك خلق من عساكرهم وأسر آخرون، وأجفل أبغا من منازلة الرحبة ورجع إلى بلاده منهزماً."
   en: "Abaga ibn Hulagu, second Ilkhan of the Hulaguid line in Iraq; succeeding his father in 663 AH he marched on Syria in 680 in concert with Mengu-Timur, king of the northern Dasht, camped at Hama with his brother Mongke-Timur, and al-Mansur Qalawun of Egypt and Syria met them outside Homs — the day went against the Tatar kings, many were slain and captured, and Abaga fled from the Rahba camping-ground back to his lands defeated."
+  fr: "Abaga ibn Hulagu, deuxième ilkhan de la lignée houlagide en Irak ; succédant à son père en 663 H, il marcha sur la Syrie en 680 de concert avec Mengu-Timur, roi du Dasht septentrional, campa à Hama avec son frère Mongke-Timur, et al-Mansur Qalawun d'Égypte et de Syrie les affronta devant Homs — la journée tourna contre les rois tatars, beaucoup furent tués ou capturés, et Abaga s'enfuit du campement de la Rahba vers ses terres, vaincu."
 names:
   - { value: "أبغا ملك التتار ابن ملكهم هولاكو بن قاآن بن جنكز خان", kind: full }
 gender: male
@@ -38,12 +40,12 @@ sources:
 - source/shadharat-dhahab
 provenance:
   layer: own-research
-  source: ابن خلدون، العبر — دولة التتر، وقعة حمص، ص1539 (طبعة هيليوبوليس)
+  source: ابن خلدون، العبر — دولة التتر، وقعة حمص، ص1539 ⁦(طبعة هيليوبوليس)⁩
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch46
   enriched_by:
-    - { generated_by: "Devin (SWE-2 Medium)", model: "SWE-2 Medium", run: prose-fill-persons-batch98, source: "شذرات الذهب — ابن العماد (ج7، سنة 680)، قراءة آبل فيجن: the record person/abagha-khan, merged into this one" }
+    - { generated_by: "Devin (SWE-2 Medium)", model: "SWE-2 Medium", run: prose-fill-persons-batch98, source: "شذرات الذهب — ابن العماد ⁦(ج7، سنة 680)⁩، قراءة آبل فيجن: the record person/abagha-khan, merged into this one" }
     - { generated_by: "Claude Code (audit run, Part II)", model: claude-fable-5-2, run: audit-fixes-2026-11-13, source: "Merge of the duplicate person/abagha-khan: its full name, birth estimate, year of death, place of death, source and two prose sections are carried over unchanged; nothing new is stated. The low-confidence lived_in place/misr edge (note 'From text: of Egypt') is removed: in the record's own text Egypt is Qalawun's, 'al-Mansur Qalawun of Egypt and Syria'" }
 status:
   review: published

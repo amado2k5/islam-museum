@@ -1,0 +1,31 @@
+---
+id: work/nuzhat-al-nazar
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/work/nuzhat-al-nazar.md}
+---
+## Résumé
+Nuzhat al-Nazar fi Tawdih Nukhbat al-Fikar fi Mustalah Ahl al-Athar est le commentaire d' [[person/ibn-hajar-al-asqalani|Ibn Hajar al-'Asqalani (773-852 H) sur son propre]] [[work/nukhbat-al-fikr|ouvrage Nukhbat al-Fikar]] ; le titre apparaît sous cette forme dans le manuscrit choisi par son éditeur, [[person/nur-al-din-itr|Nur al-Din 'Itr]]. {cite:nuzhat-al-nazar-itr-bushra-2011 p. 18} {cite:nuzhat-al-nazar-itr-bushra-2011 p. 22} L'éditeur le décrit comme occupant une place fondamentale dans la méthodologie du hadith, en raison de la concision de son style, de la richesse de ses arguments et de la précision de sa division. {cite:nuzhat-al-nazar-itr-bushra-2011 p. 5}
+
+## Pourquoi et quand cela a-t-il été écrit ?
+Ibn Hajar commence par nommer ceux qui l'ont précédé dans l'écriture sur la terminologie du hadith : [[person/al-ramahurmuzi|al-Ramahurmuzi]] dans al-Muhaddith al-Fasil, dont l'ouvrage n'était pas exhaustif ; [[person/al-hakim-al-nisaburi|al-Hakim]], qui n'a ni affiné ni organisé les textes ; Abu Nu'aym al-Isfahani, qui a écrit un supplément à l'ouvrage d'al-Hakim ; puis [[person/al-khatib-al-baghdadi-ahmad|al-Khatib al-Baghdadi]] dans [[work/al-kifaya-fi-ilm-al-riwaya|al-Kifaya]] et al-Jami' ; ensuite [[person/al-qadi-iyyad|Qadi 'Iyad]] dans al-Ilma' et al-Mayanshi dans Ma la Yasa'u al-Muhaddith Jahluh ; jusqu'à ce [[person/ibn-al-salah|qu'Ibn al-Salah]] compile [[work/muqaddimat-ibn-al-salah|son célèbre ouvrage]] lorsqu'il enseignait le hadith à l'école Ashrafiyya, ouvrage sur lequel d'autres se sont ensuite attelés, travaillant en vers, abrégés, suppléments et réfutations. {cite:nuzhat-al-nazar-itr-bushra-2011 p. 33-35} Il raconte ensuite qu'un ami lui a demandé de résumer l'essentiel, et qu'il l'a donc écrit « en quelques feuilles minces » sous le nom de Nukhbat al-Fikar ; L’ami demanda alors un commentaire « pour dénouer ses nœuds et en révéler les trésors », et l’auteur accepta, jugeant préférable de le présenter « sous une forme développée », fusionnant texte de base et commentaire. {cite:nuzhat-al-nazar-itr-bushra-2011 p. 36} L’éditeur cite une note marginale dans un manuscrit intact indiquant que l’auteur l’acheva au début de Dhu al-Hijja 818 AH. {cite:nuzhat-al-nazar-itr-bushra-2011 p. 18}
+
+## Méthode
+L'éditeur résume sa méthode en quatre points : {cite:nuzhat-al-nazar-itr-bushra-2011 p. 19-20}
+- Une nouvelle formulation des sciences du hadith par « sondage et division », une méthode connue des théoriciens du droit, commençant par une division des récits : ceux avec des chaînes illimitées, ceux avec un nombre limité de chaînes supérieur à deux, ceux avec deux chaînes et ceux avec une seule chaîne. {cite:nuzhat-al-nazar-itr-bushra-2011 p. 19}
+- L'inclusion de questions de théorie juridique, telles que le rapport largement diffusé (mustafid) et l'acceptation d'un rapport par la communauté. {cite:nuzhat-al-nazar-itr-bushra-2011 p. 19}
+- La brièveté, en évitant les digressions. {cite:nuzhat-al-nazar-itr-bushra-2011 p. 20}
+- Le style « étendu », de sorte que si les crochets étaient supprimés, le texte de base ne pourrait plus être distingué du commentaire. {cite:nuzhat-al-nazar-itr-bushra-2011 p. 20}
+
+## Structure
+- **Classification des rapports selon leur chaîne de transmission** : [[concept/al-hadith-al-mutawatir|les rapports diffusés en masse]], puis les types de rapports isolés — [[concept/al-hadith-al-mashhur|les rapports connus]], [[concept/al-hadith-al-aziz|les rapports rares]] et [[concept/al-hadith-al-gharib|les rapports singuliers]] — et le statut du rapport isolé et du rapport appuyé par des indications. {cite:nuzhat-al-nazar-itr-bushra-2011 p. 36-52}
+- **Le récit accepté** : [[concept/al-hadith-al-sahih|le bon]] en soi et par l’intermédiaire d’un autre, sa hiérarchie, les chaînes de transmission les plus fiables et la comparaison des deux Sahihs ; [[concept/al-hadith-al-hasan|le bon]] en soi et par l’intermédiaire d’un autre ; les ajouts de narrateurs fiables ; le préservé et l’anormal, le connu et le dénoncé ; la chaîne de transmission corroborante, le récit à l’appui et leur recherche ; puis le récit non contesté et les récits divergents. {cite:nuzhat-al-nazar-itr-bushra-2011 p. 52-72}
+- Puis le rapport rejeté, en raison d'une lacune dans la chaîne ou d'un défaut chez un narrateur, et de diverses questions concernant les chaînes et les narrateurs, jusqu'aux termes de la critique et des éloges à la fin. {cite:nuzhat-al-nazar-itr-bushra-2011 p. 133}
+
+## Son influence
+L'éditeur soutient que les termes employés par Ibn Hajar dans cet ouvrage sont devenus la pratique des spécialistes du hadith qui lui ont succédé, notamment ses définitions de l'anormal et du dénoncé, ainsi que sa distinction du hadith accepté comme authentique en soi, authentique par l'intermédiaire d'un autre, bon en soi et bon par l'intermédiaire d'un autre. {cite:nuzhat-al-nazar-itr-bushra-2011 p. 21}
+
+## Manuscrits et cette édition
+'Itr s'est basé sur le manuscrit Zahiriyya de Damas, n° 4895 (31 folios), copié par le juriste et érudit en hadiths Shihab al-Din Ibn al-Akhsasi de Damas, un chaféite (818-889 H), qui l'acheva durant les dix jours du Ramadan 851 H et le lut à l'auteur pour une étude approfondie ; on y trouve la note d'Ibn Hajar : « Son propriétaire a terminé de me le lire. Écrit par Ibn Hajar », et sa main apparaît à une vingtaine d'endroits. {cite:nuzhat-al-nazar-itr-bushra-2011 p. 22-23} L'éditeur a ajouté des titres entre crochets, défini les termes non définis par l'auteur, retracé les récits et identifié les personnes citées. {cite:nuzhat-al-nazar-itr-bushra-2011 p. 24-25} L'édition de Maktabat al-Bushra à Karachi (1432 H/2011 apr. J.-C.) reprend son édition avec des modifications de mise en page : le texte de base est composé dans une couleur distincte et n'est pas répété séparément à la fin. {cite:nuzhat-al-nazar-itr-bushra-2011 p. 2} {cite:nuzhat-al-nazar-itr-bushra-2011 p. 24}

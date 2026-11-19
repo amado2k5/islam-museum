@@ -13,7 +13,7 @@ translators: []
 
 ## تعلیم
 
-وہ 13 جون 1889 (14 شوال 1306ھ) کو اولاد ابراہم میں پیدا ہوئے اور والد و چچا سے قرآن اور مالکی فقہ کی متون پڑھیں۔{cite:wikipedia-bachir-el-ibrahimi-en}{cite:wikipedia-bachir-el-ibrahimi-ar} 1911 میں مدینہ منورہ گئے جہاں «موطا» اور مالکی فقہ عبد العزیز التونسی سے اور «صحیح مسلم» حسین احمد مدنی سے پڑھی؛ 1916 میں دمشق منتقل ہوئے اور 1919 میں عرب اکیڈمی دمشق کی تاسیس میں شریک ہوئے۔{cite:wikipedia-bachir-el-ibrahimi-en}{cite:wikipedia-bachir-el-ibrahimi-fr}
+وہ 13 جون 1889 ⁦(14 شوال 1306ھ)⁩ کو اولاد ابراہم میں پیدا ہوئے اور والد و چچا سے قرآن اور مالکی فقہ کی متون پڑھیں۔{cite:wikipedia-bachir-el-ibrahimi-en}{cite:wikipedia-bachir-el-ibrahimi-ar} 1911 میں مدینہ منورہ گئے جہاں «موطا» اور مالکی فقہ عبد العزیز التونسی سے اور «صحیح مسلم» حسین احمد مدنی سے پڑھی؛ 1916 میں دمشق منتقل ہوئے اور 1919 میں عرب اکیڈمی دمشق کی تاسیس میں شریک ہوئے۔{cite:wikipedia-bachir-el-ibrahimi-en}{cite:wikipedia-bachir-el-ibrahimi-fr}
 
 ## اصلاحی تحریک
 

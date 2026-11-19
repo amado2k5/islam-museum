@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b78, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/168-171" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b78, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/168-171" }
 ---
 ## خلاصہ
 عبد اللہ بن خبیق نے بہت روایات بیان کیں اور کچھ باتیں ان سے ہی منقول ہیں؛ وہ یوسف بن اسباط، حذیفہ مرعشی اور فضل سے روایت کرتے ہیں۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 545)⁩ صفحات 168 تا 171 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 545 ہے، تسلسل میں 546۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/168} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/171}

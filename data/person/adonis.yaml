@@ -1,6 +1,6 @@
 id: person/adonis
 class: person
-label: { ar: "أدونيس", en: "Adonis", ur: "ادونیس" }
+label: { ar: "أدونيس", en: "Adonis", fr: "Adonis", ur: "ادونیس" }
 names:
   - { value: "علي أحمد سعيد إسبر", kind: full }
   - { value: "Ali Ahmad Said Esber", kind: full }
@@ -11,6 +11,7 @@ gender: male
 summary:
   ar: "شاعر وناقد سوري وُلد سنة 1930 في قرية القصابين قرب اللاذقية، وقاد ثورة الحداثة في الشعر العربي المعاصر. شارك في تأسيس مجلة «شعر» (1957) وأسّس «مواقف» (1968)، ومن أشهر أعماله «أغاني مهيار الدمشقي» (1961) و«الثابت والمتحول»، ويعيش في باريس."
   en: "Syrian poet and critic born in 1930 at the village of al-Qassabin near Latakia, who led the modernist revolution in contemporary Arabic poetry. He co-founded the magazine Shi'r (1957) and founded Mawaqif (1968); among his best-known works are The Songs of Mihyar the Damascene (1961) and The Static and the Dynamic. He lives in Paris."
+  fr: "Poète et critique syrien né en 1930 au village d'al-Qassabin près de Lattaquié, figure dirigeante de la révolution moderniste dans la poésie arabe contemporaine. Cofondateur de Shi'r (1957) et fondateur de Mawaqif (1968), auteur notamment des Chants de Mihyar le Damascène (1961) et du Fixe et du Mouvant. Il vit à Paris."
   ur: "سوری شاعر اور نقاد، جو 1930 میں لاذقیہ کے قریب گاؤں القصابین میں پیدا ہوئے اور جدید عربی شاعری کی جدت پسند تحریک کے قائد بنے۔ انہوں نے مجلہ «شعر» (1957) کی تاسیس میں حصہ لیا اور «مواقف» (1968) جاری کیا؛ ان کی مشہور تصانیف میں «أغاني مهيار الدمشقي» (1961) اور «الثابت والمتحول» شامل ہیں۔ وہ پیرس میں رہتے ہیں۔"
 roles: [poet, writer]
 wings: [people, living]
@@ -33,9 +34,9 @@ external_ids: { wikidata: "Q380787", viaf: "27059798" }
 sources: [source/wikipedia-adonis-en, source/wikipedia-adonis-ar, source/wikipedia-adonis-ur, source/wikidata-adonis, source/wikidata]
 provenance:
   layer: own-research
-  source: "English, Arabic and Urdu Wikipedia articles on the poet Adonis, each fetched by its recorded revision id (EN 'Adonis (poet)' 1376675041, AR 75811697, UR 12070375) with the returned id asserted equal before use, and Wikidata item Q380787 (item revision 2557600288, read twice with identical revision and claims). The QID was grounded through the pageprops of the English article 'Adonis (poet)': the bare English title 'Adonis' is the Greek god (Q163920), whose article and item were checked and discarded. Existence checks by Latin fragments (Adonis, Esber, Samman, Khoury, Tamer, Saddam) and Arabic fragments (أدونيس، علي أحمد سعيد) across data/person, by the grounded QID across all person files, and by biography found no prior record. No relations are written: al-Qassabin, Latakia, Tartus, Beirut and Paris have no place entities in the graph."
+  source: "English, Arabic and Urdu Wikipedia articles on the poet Adonis, each fetched by its recorded revision id (EN 'Adonis (poet)' 1376675041, AR 75811697, UR 12070375) with the returned id asserted equal before use, and Wikidata item Q380787 (item revision 2557600288, read twice with identical revision and claims). The QID was grounded through the pageprops of the English article 'Adonis (poet)': the bare English title 'Adonis' is the Greek god (Q163920), whose article and item were checked and discarded. Existence checks by Latin fragments (Adonis, Esber, Samman, Khoury, Tamer, Saddam) and Arabic fragments ⁦(أدونيس، علي أحمد سعيد)⁩ across data/person, by the grounded QID across all person files, and by biography found no prior record. No relations are written: al-Qassabin, Latakia, Tartus, Beirut and Paris have no place entities in the graph."
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-96
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
 relations:
-  - { type: lived_in, target: place/damascus, note: "Place association from the person's nisba/name (الدمشقي); denotes association, not proven residence.", sources: [source/wikipedia-adonis-en, source/wikipedia-adonis-ar, source/wikipedia-adonis-ur, source/wikidata-adonis], confidence: low }
+  - { type: lived_in, target: place/damascus, note: "Place association from the person's nisba/name ⁦(الدمشقي)⁩; denotes association, not proven residence.", sources: [source/wikipedia-adonis-en, source/wikipedia-adonis-ar, source/wikipedia-adonis-ur, source/wikidata-adonis], confidence: low }

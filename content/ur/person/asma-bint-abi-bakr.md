@@ -10,7 +10,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ## ہجرت میں
 جب قریش نے ان سے ان کے والد کے بارے میں پوچھا تو انہوں نے کہا: خدا کی قسم، مجھے معلوم نہیں میرے والد کہاں ہیں۔ تب [[person/abu-jahl|ابو جہل]] نے انہیں ایسا تھپڑ مارا کہ ان کی بالی گر گئی۔ {cite:mubarakpuri-raheeq p.165} {cite:ibn-hisham-sira}
 
-جب نبی اور ان کے والد [[place/ghar-thawr|غار]] سے کوچ کر رہے تھے تو وہ دونوں کے لیے توشہ دان لے کر آئیں، اور توشہ دان کو باندھنے کی پٹی بنانا انہیں یاد نہ رہا۔ انہوں نے اپنا کمربند (نطاق) دو حصوں میں پھاڑ دیا، توشہ دان ایک حصے سے باندھ دیا اور دوسرے سے خود کمربند باندھ لیا۔ اسی وجہ سے انہیں «ذات النطاقین» کہا گیا۔ {cite:mubarakpuri-raheeq p.166} {cite:sahih-al-bukhari}
+جب نبی اور ان کے والد [[place/ghar-thawr|غار]] سے کوچ کر رہے تھے تو وہ دونوں کے لیے توشہ دان لے کر آئیں، اور توشہ دان کو باندھنے کی پٹی بنانا انہیں یاد نہ رہا۔ انہوں نے اپنا کمربند ⁦(نطاق)⁩ دو حصوں میں پھاڑ دیا، توشہ دان ایک حصے سے باندھ دیا اور دوسرے سے خود کمربند باندھ لیا۔ اسی وجہ سے انہیں «ذات النطاقین» کہا گیا۔ {cite:mubarakpuri-raheeq p.166} {cite:sahih-al-bukhari}
 
 ## بعد کے حالات
 وہ اس وقت تک زندہ رہیں جب تک ان کا بیٹا عبد اللہ بن زبیر سنہ 73 ھ میں قتل نہیں ہوا، پھر ان کے بعد وہ فوت ہو گئیں، اور مشہور قول کے مطابق ان کی عمر سو سال سے زیادہ ہو چکی تھی۔ {cite:tabaqat-ibn-sad}
@@ -21,7 +21,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 وہ بیان کرتے ہیں کہ حجاج نے ان کے بیٹے عبداللہ بن زبیر کو مکہ کی گرمی میں تین دن مسلسل سولی پر لٹکائے رکھا (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:17:30}۔
 
-شیخ کے نزدیک (ان کی ذاتی رائے)، بچوں کی پرورش اپنے آباء کے ورثے پر ہونی چاہیے، اور وہ اس ضمن میں قعقاع بن عمرو کے خاندان کا ذکر کرتے ہیں اور کہتے ہیں کہ اسماء ان کی دادی ہیں {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:45:00}۔
+شیخ کے نزدیک ⁦(ان کی ذاتی رائے)⁩، بچوں کی پرورش اپنے آباء کے ورثے پر ہونی چاہیے، اور وہ اس ضمن میں قعقاع بن عمرو کے خاندان کا ذکر کرتے ہیں اور کہتے ہیں کہ اسماء ان کی دادی ہیں {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:45:00}۔
 
 ## طارق السویدان کے پروگرام «نساء خالدات» میں
 [[person/tariq-al-suwaidan|طارق السویدان]] اپنے پروگرام [[work/nesaa-khalidat-program|«نساء خالدات»]] کی انیسویں قسط اسماء بنت ابی بکر کے لیے مخصوص کرتے ہیں، جو اس میں بیان کی جانے والی پہلی صحابیہ ہیں۔ {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep19 00:00:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep19 00:01:00} وہ بتاتے ہیں کہ ان کی والدہ قتیلہ تھیں، جن سے ابو بکر کے بیٹے عبد اللہ بھی تھے، اس لیے وہ عائشہ کی باپ شریک بہن تھیں؛ قتیلہ کو طلاق ہوئی اور وہ مشرک رہیں، اور اسماء ابو بکر اور ام رومان کے پاس پلیں۔ {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep19 00:01:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep19 00:01:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep19 00:02:00} وہ بعثت کے وقت ان کی عمر تقریباً پندرہ سال بتاتے ہیں۔ {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep19 00:02:00} انہوں نے اپنے والد کو خون میں لت پت ہونے تک پٹتے دیکھا، والد کی مصروفیت میں چھوٹے بہن بھائیوں کو سنبھالا، اور ہجرت سے کچھ پہلے زبیر بن عوام سے نکاح کیا۔ {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep19 00:03:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep19 00:03:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep19 00:04:00}

@@ -2,16 +2,17 @@ id: event/burial-of-the-prophet
 class: event
 kind: other
 tags: [wasaya-browser, wasaya-prophets, wasaya-marqad]
-label: { en: "The burial of the Prophet", ar: "دفن النبي" }
+label: { en: "The burial of the Prophet", ar: "دفن النبي", fr: "L'inhumation du Prophète" }
 summary:
   en: "The Prophet was buried in the room of Aisha, beside the mosque in Medina; the place later became part of the Prophet's Mosque."
   ar: "دُفن النبي في حجرة عائشة بجوار المسجد في المدينة، وصارت الحجرة لاحقًا جزءًا من المسجد النبوي."
+  fr: "Le Prophète fut enterré dans la chambre d'Aïcha, à côté de la mosquée de Médine ; le lieu fit plus tard partie de la Mosquée du Prophète."
 wings: [time]
 themes: [sacred-space-and-pilgrimage]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0632-06-10", hijri: "0011-03-14", calendar: julian, precision: day, status: tradition, derived: true, note: "دُفن من وسط الليل ليلة الأربعاء بعد أن قضى الصحابة يوم الثلاثاء في تجهيزه (ابن هشام، تحقيق السقا 4/314؛ الرحيق المختوم ص 472). الليلة تُنسب في التقويم الهجري إلى يومها التالي، فليلة الأربعاء التالية ليوم الثلاثاء 13 ربيع الأول هي 14 ربيع الأول. التاريخ اليولياني مشتق من يوم الوفاة الاثنين 8 يونيو 632: الدفن حول منتصف ليلة 9–10 يونيو، ويُسجَّل بيوم الأربعاء 10 يونيو.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  start: { edtf: "0632-06-10", hijri: "0011-03-14", calendar: julian, precision: day, status: tradition, derived: true, note: "دُفن من وسط الليل ليلة الأربعاء بعد أن قضى الصحابة يوم الثلاثاء في تجهيزه ⁦(ابن هشام، تحقيق السقا 4/314؛ الرحيق المختوم ص 472)⁩. الليلة تُنسب في التقويم الهجري إلى يومها التالي، فليلة الأربعاء التالية ليوم الثلاثاء 13 ربيع الأول هي 14 ربيع الأول. التاريخ اليولياني مشتق من يوم الوفاة الاثنين 8 يونيو 632: الدفن حول منتصف ليلة 9–10 يونيو، ويُسجَّل بيوم الأربعاء 10 يونيو.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 relations:
   - { type: had_participant, target: person/al-mughira-ibn-shuba, role: "من أهل الغسل أو الدفن أو الخبر في رواية ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah, role: "من أهل الغسل أو الدفن أو الخبر في رواية ابن إسحاق", sources: [source/ibn-hisham-saqqa] }

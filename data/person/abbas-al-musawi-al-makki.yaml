@@ -3,11 +3,13 @@ class: person
 label:
   ar: "عباس بن علي الموسوي المكي"
   en: "Abbas al-Musawi al-Makki"
+  fr: "Abbas al-Musawi al-Makki"
 roles: [scholar, poet, writer]
 gender: male
 summary:
   ar: "عباس بن علي بن نور الدين المكي الحسيني الموسوي، أديب رحالة غزير العلم بالأخبار واللطائف، ولد وعاش بمكة وجال في العراق والهند واليمن واستقر في المخا سنة ١١٤٥هـ، ١١١١ إلى ١١٨٠هـ؛ صاحب نزهة الجليس ومنية الأديب الأنيس."
   en: "Abbas ibn Ali ibn Nur al-Din al-Makki al-Husayni al-Musawi, a travelling man of letters rich in reports and anecdotes, born and raised in Mecca, who toured Iraq, India and Yemen and settled at al-Mokha in 1145 AH, 1111 to 1180 AH (1699 to 1766); author of Nuzhat al-jalis wa munyat al-adib al-anis."
+  fr: "Abbas ibn Ali ibn Nur al-Din al-Makki al-Husayni al-Musawi, homme de lettres voyageur riche en récits et anecdotes, né et élevé à La Mecque, qui parcourut l'Irak, l'Inde et le Yémen et s'établit à Moka en 1145 H, 1111 à 1180 H (1699 à 1766) ; auteur de Nuzhat al-jalis wa munyat al-adib al-anis."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
@@ -27,5 +29,5 @@ status:
 born: { edtf: "1699", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 263: 1111 AH = 1699 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1766", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 263: 1180 AH = 1766 CE (the card summary had 1765).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (المكي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name ⁦(المكي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: born_in, target: place/mecca, note: "Al-Zirikli, al-A'lam vol. 3 p. 263: born and lived in Mecca.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

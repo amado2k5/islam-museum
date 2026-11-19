@@ -1,0 +1,17 @@
+---
+id: concept/ijtihad
+lang: es
+source_lang: en
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (spanish lane, wave 4)", model: "claude-sonnet-5-5", run: "spanish-w4-2026-11-18", source: "content/en/concept/ijtihad.md" }
+---
+## Visión general
+El esfuerzo máximo que el jurista despliega para derivar el dictamen jurídico a partir de las pruebas legales {cite:nashat-al-fiqh-al-ijtihadi-azhar p. 11}. Al-Sayis sostiene que comenzó en la época de la revelación; su finalidad es descubrir el dictamen de Dios en el caso, no crear legislación; obliga al mujtahid y a sus seguidores, y está sujeto a las reglas generales de la Shari'a {cite:nashat-al-fiqh-al-ijtihadi-azhar p. 24, 26}. Sus vías son muchas: tomar el dictamen del sentido literal de los textos o de su razón de ser.
+
+## El ijtihad en el Irshad al-Fuhul de al-Shawkani
+
+[[person/al-shawkani|Al-Shawkani]] dedica el sexto propósito de [[work/irshad-al-fuhul|Irshad al-Fuhul]] al razonamiento independiente y a la imitación. Deriva ijtihad de juhd, esfuerzo y capacidad, y entre sus definiciones técnicas cita la siguiente: emplear la propia capacidad para alcanzar un dictamen jurídico práctico por derivación; y la de al-Amidi: agotar la propia capacidad buscando un juicio probable sobre un dictamen jurídico hasta sentirse incapaz de hacer más. {cite:irshad-al-fuhul-dar-al-fikr p.252} El mujtahid, para él, es el jurista que agota su capacidad para alcanzar un juicio probable sobre un dictamen jurídico: adulto, cuerdo y dotado de una aptitud asentada para extraer dictámenes de sus fuentes. {cite:irshad-al-fuhul-dar-al-fikr p.252}
+
+Establece condiciones para ello. Primera, el conocimiento de los textos del Libro y de la Sunna que se refieren a dictámenes: cita a al-Ghazali y a Ibn al-Arabi en que los versículos legales son unos quinientos, pero sostiene que los versículos de los que pueden extraerse dictámenes son muchas veces más; en cuanto a la Sunna, el mujtahid debe conocer lo que contienen las colecciones de hadices, como los seis libros madre y lo que se les añade, saber hallar un hadiz en su lugar y distinguir el sano, el bueno y el débil, sin necesidad de saberlos de memoria. {cite:irshad-al-fuhul-dar-al-fikr p.252} {cite:irshad-al-fuhul-dar-al-fikr p.253} Segunda, el conocimiento de las cuestiones del consenso; tercera, el conocimiento del árabe (gramática, morfología, semántica y retórica) hasta alcanzar una aptitud asentada; cuarta, el conocimiento de usul al-fiqh, al que llama «el pilar de la tienda del ijtihad»; quinta, el conocimiento de lo abrogante y lo abrogado. {cite:irshad-al-fuhul-dar-al-fikr p.253} {cite:irshad-al-fuhul-dar-al-fikr p.254} Refiere el desacuerdo sobre si exigir la teología y el derecho positivo, y incluye la crítica de los transmisores dentro del conocimiento de la Sunna y la analogía dentro de usul al-fiqh. {cite:irshad-al-fuhul-dar-al-fikr p.254}
+
+La materia del ijtihad, para él, es un dictamen jurídico práctico sobre el que no existe prueba decisiva, lo cual excluye la obligación de las cinco oraciones y del zakat y los asuntos evidentes en los que los imanes coinciden. {cite:irshad-al-fuhul-dar-al-fikr p.254} Sobre si una época puede quedarse sin mujtahid, responde a quienes lo afirmaron y sostiene que el ijtihad es más fácil para los eruditos posteriores; véase [[question/can-an-age-be-without-a-mujtahid|¿Puede una época carecer de un razonador independiente?]]. {cite:irshad-al-fuhul-dar-al-fikr p.255} {cite:irshad-al-fuhul-dar-al-fikr p.256}

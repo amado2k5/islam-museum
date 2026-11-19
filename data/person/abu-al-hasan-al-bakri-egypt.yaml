@@ -3,11 +3,13 @@ class: person
 label:
   ar: "أبو الحسن البكري"
   en: "Abu al-Hasan al-Bakri"
+  fr: "Abu al-Hasan al-Bakri"
 roles: [scholar]
 gender: male
 summary:
   ar: "محمد بن محمد الصديقي أبو الحسن البكري، مفسر ومتصوف مصري شافعي ⁦(٨٩٩–٩٥٢هـ)⁩، صاحب «تسهيل السبيل» ⁦(تفسير البكري)⁩."
   en: "Muhammad ibn Muhammad al-Siddiqi Abu al-Hasan al-Bakri, Egyptian Shafi'i exegete and Sufi (899–952/1493–1545), author of Tafsir al-Bakri."
+  fr: "Muhammad ibn Muhammad al-Siddiqi Abu al-Hasan al-Bakri, exégète et soufi shafi'ite d'Égypte (899–952/1493–1545), auteur du Tafsir al-Bakri."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
@@ -27,4 +29,4 @@ status:
 born: { edtf: "1493", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ghazzi (al-Kawakib al-Sa'ira) Confirmed on 13 November 2026 against Wikidata Q57849599 (P569, a statement with a reference), item revision 2566778619.", sources: [source/wikidata] }
 died: { edtf: "1545", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ghazzi (al-Kawakib al-Sa'ira) Confirmed on 13 November 2026 against Wikidata Q57849599 (P570, a statement with a reference), item revision 2566778619.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (مصري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name ⁦(مصري)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

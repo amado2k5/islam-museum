@@ -1,6 +1,6 @@
 id: person/al-azdi-yahya-ibn-sadun
 class: person
-label: { ar: "الأزدي القرطبي", en: "al-Azdi al-Qurtubi" }
+label: { ar: "الأزدي القرطبي", en: "al-Azdi al-Qurtubi", fr: "Al-Azdi al-Qurtubi" }
 names:
   - { kind: full, lang: ar, value: "أبو بكر يحيى بن سعدون بن تمام بن الناس الأزدي القرطبي" }
 gender: male
@@ -11,6 +11,7 @@ died: { edtf: "1171", hijri: "0567", calendar: julian, precision: year, status: 
 summary:
   ar: "عالم أندلسي من قرطبة، أخذ عنه الحديث وسمع منه الطلاب."
   en: "Andalusi scholar of Cordoba from whom students took hadith."
+  fr: "Savant andalou de Cordoue auprès duquel les étudiants reçurent le hadith."
 wings: [people]
 themes: [scripture-and-its-sciences]
 periods: [period/crusades-ayyubid-mamluk]
@@ -24,9 +25,9 @@ status:
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص519-520"
+  source: "موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج1 ص519-520"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch49
 relations:
-  - { type: lived_in, target: place/cordoba, note: "Place association from the person's nisba/name (القرطبي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
+  - { type: lived_in, target: place/cordoba, note: "Place association from the person's nisba/name ⁦(القرطبي)⁩; denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

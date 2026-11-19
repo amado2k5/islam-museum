@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b45, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/130-131" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b45, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/130-131" }
 ---
 ## موجز
 خزيمة أبو محمد العابد. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة 473)⁩ في الصفحتين 130 و131. وصفه الغالب عليه: ترك اختياره، ولزوم عجزه وافتقاره. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/130-131}

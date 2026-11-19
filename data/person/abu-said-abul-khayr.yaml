@@ -3,6 +3,7 @@ class: person
 label:
   ar: "أبو سعيد أبو الخير"
   en: "Abu Sa'id Abu'l-Khayr"
+  fr: "Abu Sa'id Abu'l-Khayr"
 names:
   - { kind: full, lang: ar, value: "أبو سعيد فضل الله بن أبي الخير الميهني" }
 roles: [mystic, poet]
@@ -10,6 +11,7 @@ gender: male
 summary:
   ar: "بطاقة أولية لأبي سعيد أبي الخير الميهني، شيخ التصوف الخراساني الذي تُروى عنه أسرار التوحيد، ورد في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في معجم الأعلام على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
   en: "Draft card for Abu Sa'id Abu'l-Khayr al-Mayhani, the Khurasani Sufi master of the Asrar al-Tawhid, named from an open reference description (Wikidata); his al-A'lam entry is not yet checked on the page, so no dates are given."
+  fr: "Fiche provisoire d'Abu Sa'id Abu'l-Khayr al-Mayhani, le maître soufi khurasanien des Asrar al-Tawhid, nommé d'après une description de référence ouverte (Wikidata) ; sa notice d'al-A'lam n'a pas encore été vérifiée sur la page, aussi aucune date n'est donnée."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -30,4 +32,4 @@ status:
 born: { edtf: "967", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; EI2 Confirmed on 13 November 2026 against Wikidata Q335282 (P569, a statement with a reference), item revision 2557080597.", sources: [source/wikidata] }
 died: { edtf: "1049", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; EI2 Agrees with Wikidata Q335282 (P570, a statement without a reference), item revision 2557080597, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/khurasan, note: "Place association from the person's nisba/name (الخراساني); denotes association, not proven residence.", sources: [source/al-aalam, source/encyclopaedia-of-islam-2], confidence: low }
+  - { type: lived_in, target: place/khurasan, note: "Place association from the person's nisba/name ⁦(الخراساني)⁩; denotes association, not proven residence.", sources: [source/al-aalam, source/encyclopaedia-of-islam-2], confidence: low }
