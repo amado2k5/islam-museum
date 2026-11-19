@@ -1,0 +1,9 @@
+---
+id: exhibit/path-relics
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/exhibit/path-relics.md}
+---
+## Vue d'ensemble
+Un chemin à travers des reliques relié au Prophète : son épée à Topkapi, le support coranien, et le kiswa de la Maison. La mémoire des objets.
