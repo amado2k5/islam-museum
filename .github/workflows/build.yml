@@ -108,6 +108,18 @@ jobs:
           [ "$perm" = "admin" ] && { echo "started by an admin ($ACTOR)"; exit 0; }
           echo "::error::$ACTOR ($perm) may not start this workflow: only the repository owner or an admin may."
           exit 1
+      # A hosted runner is documented with 14 GB of disk, and a five-language build writes more than that (three
+      # languages measured about 19.5 GB on the founder's Mac). Run 44362983867 ended with the runner lost, most
+      # likely for want of disk (not proven: that run printed no reading). The runner image ships tools this build
+      # never uses; removing them gives the build their space. The step never fails the job: a folder that a later
+      # runner image no longer has is simply skipped. Node (setup-node, below) is not touched.
+      - name: Free runner disk the build does not use (Android SDK, .NET, Haskell, CodeQL, Swift, Docker images)
+        run: |
+          echo "before: $(df -BM --output=avail / | tail -1 | tr -dc '0-9') MB free"
+          sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/.ghcup \
+            /opt/hostedtoolcache/CodeQL /usr/share/swift || true
+          sudo docker image prune --all --force > /dev/null 2>&1 || true
+          echo "after: $(df -BM --output=avail / | tail -1 | tr -dc '0-9') MB free"
       - name: Checkout
         uses: actions/checkout@v7
         with:
