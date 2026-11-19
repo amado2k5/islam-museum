@@ -1,0 +1,12 @@
+---
+id: passage/muwatta-31-2687
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/passage/muwatta-31-2687.md}
+---
+## Résumé
+Malik transmet de Said al-Maqburi, d'Abu Shurayh al-Kabi, que le Messager de Dieu a dit : quiconque croit en Dieu et en le Dernier Jour, qu'il parle bien ou qu'il se taise ; quiconque croit en Dieu et en le Dernier Jour, qu'il honore son prochain ; quiconque croit en Dieu et en le Dernier Jour, qu'il honore son invité. Sa récompense est un jour et une nuit, et l'hospitalité trois jours ; tout ce qui est au-delà est de la charité ; et il ne lui est pas permis de rester avec un hôte tant qu'il ne le met pas mal à l'aise. {cite:muwatta-maruf-1997 p.518}
+
+## Place au musée
+Appartient au [[passage/muwatta-kitab-31-jami|Muwatta, Livre des Affaires Globales (al-Jami]]). Source : [[work/muwatta-malik|le Muwatta]]. Mentionne [[person/malik-ibn-anas|Malik ibn Anas]], [[person/said-al-maqburi|Said al-Maqburi]], [[person/abu-shurayh-al-kabi|Abu Shurayh al-Kabi]]. Approfondit dans les chapitres sur l'[[concept/diyafa|hospitalité (diyafa)]] et [[concept/adab|les mœurs prophétiques (adab)]].
