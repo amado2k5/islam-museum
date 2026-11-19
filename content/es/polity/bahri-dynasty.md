@@ -1,0 +1,21 @@
+---
+id: polity/bahri-dynasty
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/polity/bahri-dynasty.md}
+---
+## Visión general
+El artículo MAMLUKS en la Enciclopedia del Islam rastrea el sultanato mameluco hasta la Bahriyya, una casa militar de mamelucos turcos kipchak bajo la guardia personal del ayyubí al-Salih Ayyub, que reinó 637-47/1240-9. {cite:encyclopaedia-of-islam-2 vol. 6 p. 341} El artículo dice que la Bahriyya sustituyó a los ayyubíes en Egipto y Siria, menos por usurpación deliberada que por la presión de dos crisis militares: la cruzada de San Luis en 647-9/1249-50 y la invasión mongola de Siria en 657-8/1259-60. {cite:encyclopaedia-of-islam-2 vol. 6 p. 341}
+
+## Toma de poder y Baybars
+Un grupo de los Bahriyya asesinó al nuevo sultán Turanshah el 27 de Muharram de 648/1 de mayo de 1250, después de que favoreciera a su propia casa; instalaron a Shajar al-Durr, viuda de al-Salih Ayyub, y luego elevaron al comandante Aybak al-Turkumani como al-Malik al-Mu'izz el 28 de Rabi II 648/11 de julio de 1250. {cite:encyclopaedia-of-islam-2 vol. 6 p. 341} El comandante mameluco Kutuz, junto con Baybars, derrotó a los mongoles en Ayn Jalut el 25 de Ramadán de 658/3 de septiembre de 1260, y Baybars usurpó entonces el sultanato; el artículo designa a al-Zahir Baybars, que reinó 658-76/1260-77, en lugar de sus predecesores, como el fundador efectivo del sultanato. {cite:encyclopaedia-of-islam-2 vol. 6 p. 341} Instaló a un príncipe abasí como califa en El Cairo, quien le delegó poderes plenarios como sultán universal del Islam, y tomó Cesarea, Haifa y Arsuf en 663/1265 y Jaffa y Antioquía en 666/1268, demoliendo esas ciudades, mientras restauraba y guarnecía fortalezas interiores como Safad y Crac des Chevaliers. {cite:encyclopaedia-of-islam-2 vol. 6 p. 342}
+
+## Qalawun, Khalil y al-Nasir Muhammad
+Qalawun usurpó el trono en 678/1279 e introdujo un regimiento mameluco circasiano, el Burdjiyya; Trípoli cayó en Rabi II 688/abril de 1289, y su hijo al-Ashraf Khalil tomó Acre en Jumada I 690/mayo de 1291, extinguiendo el reino latino. {cite:encyclopaedia-of-islam-2 vol. 6 p. 342} Khalil fue asesinado por una conspiración de magnates en Muharram 693/diciembre de 1293, lo que abrió diecisiete años de inestabilidad en los que su hermano al-Nasir Muhammad b. Qalawun reinó dos veces como figura decorativa, en 693-4/1293-4 y 698-708/1299-1309, antes de su largo tercer reinado de 709-41/1310-41. {cite:encyclopaedia-of-islam-2 vol. 6 pp. 342-343} En ese reinado el artículo describe una autocracia: un levantamiento catastral de Egipto en 715/1315 elevó la parte de los ingresos asignados al fisco del sultán de una sexta a cinco doceavos, se abolieron los impuestos no canónicos y el sultán realizó la peregrinación en 712/1313, 719/1320 y 732/1332, lo que demostró su soberanía sobre las Ciudades Santas. {cite:encyclopaedia-of-islam-2 vol. 6 p. 343}
+
+## Qalawunidas posteriores y el final de la línea
+Tras la muerte de al-Nasir Muhammad en Dhu l-Hijja 741/junio de 1341, doce sultanes reinaron en menos de medio siglo, en su mayoría niños, mientras los magnates controlaban el estado. {cite:encyclopaedia-of-islam-2 vol. 6 p. 343} El artículo señala a al-Nasir Hasan, quien fue depuesto en 752/1351, restaurado en 755/1354 y ejecutado en Jumada I 762/marzo de 1361 tras intentar construir una nueva base de poder entre los descendientes de los mamelucos. {cite:encyclopaedia-of-islam-2 vol. 6 p. 343} Barquq b. Anas, un circasiano criado en la casa militar de Yalbugha, depuso al último Qalawunid y usurpó el sultanato en 784/noviembre de 1382, lo que el artículo considera como el inicio del sultanato mameluco circasiano. {cite:encyclopaedia-of-islam-2 vol. 6 p. 343}
+
+## En el vocabulario Nomisma
+Nomisma posee un registro conceptual para la línea bajo el identificador «mamluks_bahri», etiquetado como «Bahri Mamluks»; en la consulta del 14 de noviembre de 2026, la relación organizacional adjuntó veinticuatro registros de membresía, y ninguna moneda o tipo de moneda la designaba como emisora o autoridad. {cite:nomisma mamluks_bahri}
