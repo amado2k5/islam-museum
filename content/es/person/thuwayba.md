@@ -1,0 +1,11 @@
+---
+id: person/thuwayba
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/thuwayba.md}
+---
+Thuwayba, liberta de Abu Lahab, la primera en amamantar al Profeta tras su madre, con la leche de su hijo Masruh; es la misma que había amamantado antes que él [[person/hamza|a Hamza ibn Abd al-Muttalib]], y después de él amamantó a Abu Salama ibn Abd al-Asad al-Makhzumi — por lo que se convirtieron en sus hermanos lecheros. {cite:mubarakpuri-raheeq}
+
+## En el programa de Abla al-Kahlawi 'Con amor a al-Mustafa'
+[[person/abla-al-kahlawi|Abla al-Kahlawi]] llama a Thuwayba la 'segunda madre' del Profeta en honor a Amina en su programa [[work/fi-hub-al-mustapha|'Con el amor a al-Mustafa']]. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:07:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:09:00} Relata que un tío del Profeta lloró profundamente por su hermano Abd Allah, que había muerto sin ver a su hijo, y que cuando su liberta Thuwayba le trajo la noticia de que Amina había dado a luz a Mahoma, él se alegró enormemente y la liberó; el abuelo Abd al-Muttalib también se alegró. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:07:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:07:30} Thuwayba, dice, fue a mirar el rostro del bebé y se encariñó con él; habiendo dado a luz recientemente, lo sostuvo y lo amamantó como amamantaba a su propio hijo, obteniendo el honor y la bendición de amamantarlo, nunca abandonó a Amina ni a Mahoma, y vivió como una segunda madre que lo amó plenamente. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:07:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:08:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:08:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:09:00} El nombre que se escucha en la grabación para este tío no coincide con la fuente citada arriba, lo que convierte a Thuwayba en una mujer libera de Abu Lahab, por lo que el nombre no aparece escrito aquí. {cite:mubarakpuri-raheeq}

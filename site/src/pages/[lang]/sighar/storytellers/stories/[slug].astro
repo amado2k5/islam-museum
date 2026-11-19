@@ -15,7 +15,7 @@ const { lang, slug } = Astro.props as { lang: Lang; slug: string };
 const T = ui(lang);
 const t = T.storycards;
 const story = loadStoryCards(slug);
-const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
+const L = (x: { ar: string; en: string; ur?: string; fr?: string }) => (x[lang] ?? x.ar);
 const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
 const bandName = T.kids.band_storytellers ?? "Storytellers";
 const controls = { play: t.play, stop: t.stop, prev: t.prev, next: t.next, all_cards: t.all_cards };

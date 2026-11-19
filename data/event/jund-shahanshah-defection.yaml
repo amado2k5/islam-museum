@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { hijri: "0016~", precision: year, status: tradition, note: "بعد القادسية (البلاذري ص 393–394)" }
+  start: { hijri: "0016~", precision: year, status: tradition, note: "بعد القادسية ⁦(البلاذري ص 393–394)⁩" }
 relations:
   - { type: occurred_at, target: place/kufa }
   - { type: had_participant, target: person/saad-ibn-abi-waqqas, role: "المؤمن المنزل", sources: [source/futuh-buldan-maarif-1407] }
@@ -17,7 +17,7 @@ relations:
   - { type: had_participant, target: person/al-mughira-ibn-shuba, role: "المفاوض", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 393–394"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 393–394"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-34
 sources: [source/futuh-buldan-maarif-1407]

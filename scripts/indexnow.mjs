@@ -9,7 +9,7 @@
  *
  * The islam.museum sitemap (@astrojs/sitemap) carries no <lastmod>, so changed
  * URLs are derived from the files the last commit touched instead:
- *   data/<class>/<slug>.yaml      ->  /ar/<class>/<slug>/  +  /en/<class>/<slug>/
+ *   data/<class>/<slug>.yaml      ->  /<lang>/<class>/<slug>/ in each of ar, en, ur, fr, es
  *   content/<lang>/<class>/<slug>.md  ->  /<lang>/<class>/<slug>/
  * Anything else that changed (templates, styles, i18n) is covered by
  * re-submitting the sitemap index, which prompts a recrawl.
@@ -72,12 +72,12 @@ async function urlsFromGit() {
     let dm = f.match(/^data\/([^/]+)\/([^/]+)\.yaml$/);
     if (dm) {
       const [, cls, slug] = dm;
-      urls.add(`${siteUrl}/ar/${cls}/${slug}/`);
-      urls.add(`${siteUrl}/en/${cls}/${slug}/`);
+      // An entity's page exists in every language of the site, whatever its prose.
+      for (const lang of ['ar', 'en', 'ur', 'fr', 'es']) urls.add(`${siteUrl}/${lang}/${cls}/${slug}/`);
       entityChanges++;
       continue;
     }
-    dm = f.match(/^content\/(ar|en)\/([^/]+)\/([^/]+)\.md$/);
+    dm = f.match(/^content\/(ar|en|ur|fr|es)\/([^/]+)\/([^/]+)\.md$/);
     if (dm) {
       const [, lang, cls, slug] = dm;
       urls.add(`${siteUrl}/${lang}/${cls}/${slug}/`);

@@ -16,6 +16,17 @@ const PAYLOAD = '<img src=x onerror="alert(document.domain)">';
 const SCRIPT_LINK = "[click](javascript:alert(document.domain))";
 const DATA_IMG = "![x](data:text/html,<script>alert(1)</script>)";
 
+describe("renderProse: perspective label spacing", () => {
+  it.each(["", " ", "\u00a0", "\u202f"])("preserves entries with %j before the colon", (space) => {
+    const labels = ["Sunnites", "Point de vue sunnite", "Point de vue académique", "Point de vue chiite", "Sunni", "أهل السنة"];
+    const prose = `:::perspectives\n${labels.map((label) => `- **${label}**${space}: Text.`).join("\n")}\n:::`;
+    expect(renderProse(prose, "fr").perspectives).toEqual(labels.map((tradition) => ({ tradition, html: "Text." })));
+  });
+  it("does not render an empty or malformed entry", () => {
+    expect(renderProse(":::perspectives\n- **Sunni** :\ninvalid\n:::", "fr").perspectives).toEqual([]);
+  });
+});
+
 describe("renderProse: raw HTML and script URLs are inert", () => {
   it("escapes a raw HTML payload instead of emitting it", () => {
     const { html } = renderProse(`A line.\n\n${PAYLOAD}\n`, "en");
@@ -47,6 +58,19 @@ describe("renderProse: raw HTML and script URLs are inert", () => {
   });
 });
 
+describe("renderProse: a bare address stops before Arabic and Urdu punctuation", () => {
+  it("keeps «؛» «،» «؟» and «۔» out of the link", () => {
+    expect(renderProse("الموقع www.semerkand.tv؛ تُستخدم لوقائع الكيان فقط.", "ar").html).toContain('<a href="http://www.semerkand.tv">www.semerkand.tv</a>؛ ');
+    expect(renderProse("الموقع www.semerkand.tv، ثم غيره.", "ar").html).toContain('<a href="http://www.semerkand.tv">www.semerkand.tv</a>، ');
+    expect(renderProse("هل هو https://example.org/a؟ نعم.", "ar").html).toContain('<a href="https://example.org/a">https://example.org/a</a>؟ ');
+    expect(renderProse("ویب سائٹ www.example.org۔ پھر", "ur").html).toContain('<a href="http://www.example.org">www.example.org</a>۔ ');
+  });
+  it("leaves a bracketed link and an English sentence as they were", () => {
+    expect(renderProse("[الموقع؛](https://example.org/a)", "ar").html).toContain('<a href="https://example.org/a">الموقع؛</a>');
+    expect(renderProse("The website is www.semerkand.tv; used for facts.", "en").html).toContain('<a href="http://www.semerkand.tv">www.semerkand.tv</a>; used');
+  });
+});
+
 describe("proseUnsafeHtml: the validator rejects the payload at authoring time", () => {
   it("flags raw HTML tags", async () => {
     const { proseUnsafeHtml } = await import("./validate");
@@ -58,6 +82,12 @@ describe("proseUnsafeHtml: the validator rejects the payload at authoring time",
 
 describe("renderProse: ﷺ goes only to Muhammad", () => {
   const mark = '<span lang="ar">ﷺ</span>';
+  it("protects French prophet names and their word boundaries", () => {
+    expect(renderProse("le Prophète Moïse", "fr").html).not.toContain(mark);
+    expect(renderProse("le Prophète Daniel", "fr").html).not.toContain(mark);
+    expect(renderProse("le Prophète Muhammad", "fr").html).toContain(mark);
+    expect(renderProse("", "fr").html).not.toContain(mark);
+  });
   it("marks the first plain mention of the Prophet", () => {
     expect(renderProse("قال النبي إن الدين يسر.", "ar").html).toContain(`النبي ${mark}`);
     expect(renderProse("The Prophet said so; the Prophet left.", "en").html).toContain(`the Prophet ${mark}`);

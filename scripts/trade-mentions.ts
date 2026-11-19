@@ -11,6 +11,7 @@ import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { tradeTopicsOf, type TradeTopic } from "./trade.js";
 import type { Node } from "./build-graph.js";
 import { p } from "./lib.js";
+import { readBigJson } from "./lib/graph-file.mjs";
 
 const ANCHOR: Record<TradeTopic, string> = {
   caravans: "concept/ilaf",
@@ -19,7 +20,7 @@ const ANCHOR: Record<TradeTopic, string> = {
 };
 
 const apply = process.argv.includes("--apply");
-const graph = JSON.parse(readFileSync(p(".cache", "graph.json"), "utf8"));
+const graph = readBigJson(p(".cache", "graph.json"));
 const nodes = graph.nodes as Node[];
 const byId = new Map(nodes.map((n) => [n.id, n]));
 

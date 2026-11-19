@@ -16,7 +16,7 @@ translators: []
 ### قسط 1
 - [[concept/athar-al-maasi|گناہ کے اثرات]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 00:17:00}
 - [[work/al-fawaid-ibn-qayyim|الفوائد]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 00:24:00}
-- [[concept/khawf|خوفِ خدا (خوف)]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 00:33:30}
+- [[concept/khawf|خوفِ خدا ⁦(خوف)⁩]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 00:33:30}
 - [[concept/istidraj|استدراج]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 00:44:00}
 - [[person/ibn-qayyim-al-jawziyya|ابن قيم الجوزية]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:03:30}
 - [[person/umar-ibn-abd-al-aziz|عمر بن عبد العزیز]] {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:04:30}

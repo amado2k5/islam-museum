@@ -27,7 +27,7 @@ translators: []
 
 ## مآخذ
 
-- گفٹ آف دی گورز — انگریزی وکیپیڈیا (امتیاز سلیمان پر بانی کا حصہ){cite:wikipedia-gift-of-the-givers-en}
+- گفٹ آف دی گورز — انگریزی وکیپیڈیا ⁦(امتیاز سلیمان پر بانی کا حصہ)⁩{cite:wikipedia-gift-of-the-givers-en}
 - امتیاز سلیمان 2016 — نیلسن منڈیلا یونیورسٹی اعزازی ڈاکٹریٹ{cite:mandela-university-sooliman-2016}
 - نارتھ ویسٹ یونیورسٹی اخباری پروفائل{cite:nwu-sooliman-2021}
 - امتیاز سلیمان — وکی ڈیٹا Q135825507{cite:wikidata-imtiaz-sooliman}

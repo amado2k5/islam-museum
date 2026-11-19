@@ -1,0 +1,16 @@
+---
+id: work/india-art-and-culture-1300-1900
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/work/india-art-and-culture-1300-1900.md}
+---
+## Visión general
+*India: Arte y Cultura 1300-1900* es el catálogo de la exposición INDIA!, organizada por el Museo Metropolitano de Arte de Nueva York como parte del Festival de la India en Estados Unidos en 1985-86; su creador y autor fue Stuart Cary Welch, entonces consultor especial a cargo del Departamento de Arte Islámico del museo. {cite:welch-india-art-and-culture-1985 p. 9} El prólogo del director indica que el gobierno y los museos de la India prestaron sesenta y cinco pinturas y sesenta objetos. {cite:welch-india-art-and-culture-1985 p. 9}
+
+## Estructura
+El libro consta de cinco partes: «La Gran Tradición», «Tribu y Aldea», «Las Cortes Musulmanas» con sus tres capítulos sobre el período del Sultanato, los mogoles y los sultanes del Decán, «El Mundo Rajput» con las llanuras y colinas del Punjab, y «El Período Británico», seguido de una cronología, un glosario y una bibliografía. {cite:welch-india-art-and-culture-1985 contents} Cada pieza tiene una entrada numerada que indica su material, tamaño, fecha y ubicación actual, seguida de un breve ensayo y una lista de publicaciones anteriores. {cite:welch-india-art-and-culture-1985 p. 126}
+
+## Los tribunales musulmanes
+La parte comienza con una introducción histórica al Sultanato de Delhi (1192-1526), los mogoles (1526-1857) y los sultanes del Decán: la llegada del Islam a Sind en el siglo VIII, las campañas de [[person/mahmud-ghaznawi|Mahmud de Ghazni]], el establecimiento del sultanato en Delhi, la contención de los mongoles y la bienvenida de los sultanes a los eruditos, poetas y artesanos que huían de Jorasán, Irán e Irak. {cite:welch-india-art-and-culture-1985 p. 118} El libro sostiene que los sultanes trajeron las artes de la caligrafía y la iluminación de manuscritos y nuevas formas arquitectónicas —la cúpula, el arco y el minarete— y que siguió una fusión de formas locales e importadas, que alcanzó su apogeo bajo los mogoles. {cite:welch-india-art-and-culture-1985 p. 119} Luego presenta obras del Sultanato, entre ellas un [[object/bahmanid-quran-bijapur|Corán Bahmaní]] en el Museo Arqueológico de Bijapur, una [[object/chessman-of-yusuf-al-bahlili|pieza de ajedrez de marfil firmada por Yusuf al-Bahlili]], una [[object/dedicatory-inscription-of-prince-daniyal-gaur|losa de dedicación de una mezquita de Gaur]] y manuscritos de Mandu. {cite:welch-india-art-and-culture-1985 p. 123} {cite:welch-india-art-and-culture-1985 p. 126} {cite:welch-india-art-and-culture-1985 p. 129} {cite:welch-india-art-and-culture-1985 p. 134} El capítulo mogol sigue el arte del libro desde la llegada con [[person/humayun-mughal|Humayun]] de los pintores de la corte safávida Mir Sayyid Ali y [[person/abd-al-samad-mughal-painter|Abd al-Samad]]. {cite:welch-india-art-and-culture-1985 p. 120} {cite:welch-india-art-and-culture-1985 p. 143}

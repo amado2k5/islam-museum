@@ -9,13 +9,13 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { hijri: "0018~", precision: year, status: tradition, note: "بعد فتح السواد (البلاذري ص 380–381)" }
+  start: { hijri: "0018~", precision: year, status: tradition, note: "بعد فتح السواد ⁦(البلاذري ص 380–381)⁩" }
 relations:
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "المصفي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: basis_for, target: concept/sawafi }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 380–381"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 380–381"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-33
 sources: [source/futuh-buldan-maarif-1407]

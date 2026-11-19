@@ -1,0 +1,31 @@
+---
+id: event/testament-of-al-rabi-ibn-khuthaym
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/testament-of-al-rabi-ibn-khuthaym.md}
+---
+## Résumé
+[[person/al-rabi-ibn-khuthaym|Al-Rabi' ibn Khuthaym]] était un successeur de Kufa issu de la tribu des Banu Thawr. Il mourut à Kufa sous le gouvernement d'Ubaydallah ibn Ziyad. {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 312} Ibn Sa'd transmet son testament par plusieurs chaînes de transmission, et Abu Nu'aym le rapporte dans la Hilya ; le texte diffère légèrement entre les deux, comme indiqué ci-dessous.
+
+## Ses derniers jours
+Ibn Sa'd rapporte qu'al-Rabi' fut frappé de paralysie et qu'il se rendait à la prière soutenu par deux hommes. Lorsqu'on lui annonça qu'il bénéficiait d'une dispense, il répondit : « Quand vous entendrez “Viens à la prière, viens au succès”, répondez. » {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 309} Selon un autre récit, on le conduisit à la prière malgré sa paralysie, et lorsqu'on lui dit : « Abu Yazid, tu as bénéficié d'une dispense », il répondit qu'il entendait « Viens à la prière, viens au succès », et que s'ils le pouvaient, ils devaient venir même en rampant. {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 309} Dawud al-Attar rapporte que Bakr ibn Ma'iz prit soin de lui, lui huilant et le débarrassant des poux, et le lavant. Un jour, al-Rabi' se mit à saigner abondamment, et Bakr pleura. al-Rabi' lui demanda alors pourquoi. {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 309} D'après al-Hasan : lorsqu'on lui suggéra, après sa paralysie, de se faire soigner, il répondit qu'Ad, Thamud, les gens d'al-Rass et de nombreuses générations intermédiaires avaient disparu, parmi lesquels il y avait eu ceux qui décrivaient les remèdes et ceux pour qui ils étaient prescrits, et ni celui qui décrivait ni celui pour qui il était prescrit ne subsistaient, tous ayant péri. {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 311} Al-Sha'bi rapporte qu'ils lui rendirent visite et lui demandèrent de prier, et il offrit une prière de louange complète, implorant tout bien et se protégeant de tout mal. {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 310}
+
+## Le texte du testament et son contenu
+Ibn Sa'd rapporte de Sufyan, qui tenait son père de Mundhir al-Thawri, qu'à sa mort, al-Rabi' rédigea un testament disant : « Voici ce qu'al-Rabi' ibn Khuthaym a reconnu contre lui-même, prenant Dieu à témoin. Dieu suffit comme témoin et comme rémunérateur de Ses serviteurs vertueux. Il se contentait de Dieu comme Seigneur, de Muhammad comme Prophète et de l'Islam comme religion, et se contentait, pour lui-même et pour ceux qui lui obéissaient, d'adorer Dieu parmi les adorateurs, de Le louer parmi les louangeurs et de donner des conseils sincères à la communauté des musulmans. » {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 311} Il le rapporte également par Shu'ba, d'après Sa'id ibn Masruq. Interrogé sur le fait de savoir s'il l'avait entendu lui-même, Sa'id répondit que ses aînés et la tribu le lui avaient dit, et que la formulation était « ceux qui m'ont suivi parmi les musulmans » au lieu de « ceux qui m'ont obéi ». {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 312} Abou Nu'aym transmet le testament par l'intermédiaire de Jarir, qui le tenait d'Abou Hayyan al-Taymi, lui-même issu de son père, et par la voie de Shu'ba. Shu'ba interrogea Sa'id, qui répondit que la tribu le lui avait transmis d'al-Rabi'. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 scan vol. 2 p. 111} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 scan vol. 2 p. 112} Ce testament constitue ainsi un témoignage et une expression de contentement envers Dieu, le Prophète et l'Islam, assortis d'un engagement à adorer, louer et conseiller les musulmans ; il ne prévoit aucun partage de biens.
+
+## Que personne ne soit averti
+Ibn Sa'd rapporte qu'al-Rabi' a dit : « N'annoncez ma mort à personne et accompagnez-moi doucement vers mon Seigneur. » {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 311} Ailleurs, il rapporte qu'al-Rabi' leur a ordonné de l'accompagner doucement vers son Seigneur, ce que le narrateur interprète comme signifiant qu'ils ne devaient annoncer sa mort à personne. {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 312}
+
+## Ce qu'il a laissé
+Les sources consultées ne font mention d'aucun argent laissé par al-Rabi'. Ibn Sa'd rapporte d'après Abd Khayr, qui l'accompagnait en campagne, qu'il revint avec des esclaves et des animaux ; lorsqu'Abd Khayr lui rendit visite quelques jours plus tard, il n'en trouva aucune trace et, interrogé à ce sujet, al-Rabi' ne répondit d'abord pas, puis se souvint du verset [[passage/quran-3-92|92 du Coran]] concernant les dépenses qu'on s'autorise avec plaisir. {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 311} Abu Nu'aym dit qu'il portait une chemise à manches longues d'une valeur de trois ou quatre dirhams. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 scan vol. 2 p. 113}
+
+## Mort et tombe
+Ibn Sa'd rapporte : al-Rabi' ibn Khuthaym mourut à Kufa sous le gouvernement d'Ubaydallah ibn Ziyad. {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 312} Les sources citées ne précisent ni la personne qui l'a lavé ni l'emplacement de sa tombe ; celle-ci n'est donc pas rattachée à un lieu précis.
+
+## Là où les rapports divergent
+La formulation du testament diffère entre « quiconque m'a obéi » et « quiconque m'a suivi », dans l'expression « et récompensateur », et quant à savoir si le Prophète est suivi par « et le Furqan » ou « et le Coran comme guide » dans la version transmise par Shu'ba et Isra'il d'après Sa'id ibn Masruq, rapportée par Mundhir al-Thawri. {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 312} Ibn Sa'd ne mentionne aucune date de décès, si ce n'est celle du gouvernorat d'Ubaydallah ibn Ziyad ; ce document ne fournit donc aucune estimation.
+
+## Sources et documentation
+Ibn Sa'd, al-Tabaqat al-Kubra, vol. 8, pp. 309-312 ; Abu Nu'aym, Hilyat al-Awliya, scan vol. 2 pp. 111-113. Les numéros de page des livres scannés sont les pages scannées.

@@ -10,13 +10,13 @@ themes: [prophets, laws-of-war-and-peace]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0632-03~", hijri: "0010-12~", calendar: julian, precision: month, status: tradition, note: "«وذلك في آخر سنة عشر» (ص247)؛ الشهر مستنتج؛ الرحيق ص452.", derived: true, sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  start: { edtf: "0632-03~", hijri: "0010-12~", calendar: julian, precision: month, status: tradition, note: "«وذلك في آخر سنة عشر» ⁦(ص247)⁩؛ الشهر مستنتج؛ الرحيق ص452.", derived: true, sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 relations:
   - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
   - { type: caused_by, target: event/musaylima-claims-prophethood, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/musaylima, role: "كاتب الرسالة", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/muhammad, role: "المجيب", sources: [source/ibn-hisham-saqqa] }
-  - { type: had_participant, target: person/nuaym-ibn-masud, role: "راوي الخبر (شهد المجلس)", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/nuaym-ibn-masud, role: "راوي الخبر ⁦(شهد المجلس)⁩", sources: [source/ibn-hisham-saqqa] }
   - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 247", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
 sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/tabari-donner-1993]

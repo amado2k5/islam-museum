@@ -47,4 +47,4 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 
 ## تحقیقی نوٹس
 - دفعہ 10 کا آڈٹ: ریکارڈ پہلے صرف ویکی ڈیٹا پر مبنی مختصر متن رکھتا تھا؛ پڑھے گئے فریلی ماخذ کو شامل کر کے متن اس پر دوبارہ لکھا گیا۔
-- پڑھا گیا ماخذ: Freely, A History of Ottoman Architecture (2011)، ص88-91 (سلیمیہ)۔
+- پڑھا گیا ماخذ: Freely, A History of Ottoman Architecture (2011)، ص88-91 ⁦(سلیمیہ)⁩۔

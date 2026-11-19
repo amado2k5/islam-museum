@@ -1,0 +1,12 @@
+---
+id: event/abu-al-qasim-leaves-shibam-with-gifts-and-reaches-saada-in-291
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/abu-al-qasim-leaves-shibam-with-gifts-and-reaches-saada-in-291.md}
+---
+## Vue d'ensemble
+Abou al-Qasim écrivit aux deux fils de Ya'fur pour se plaindre de la longueur de son séjour et de son lassitude du lieu. Ils lui envoyèrent alors des montures, des vêtements et une épée, ainsi que des lettres d'excuses pour leur retard. Il accepta leurs excuses et distribua les présents à ses serviteurs et aux personnes présentes. Ils écrivirent ensuite à Ali ibn al-Hasan al-Aqra'i pour qu'il l'accompagne jusqu'à destination {cite:sira-hadi-ila-al-haqq p.274}. Ils quittèrent Shibam et atteignirent [[place/al-ghayl-al-bawn-yemen|al-Ghayl]], où ils rencontrèrent les agents d' [[person/al-daam-ibn-ibrahim|al-Da'am]] qui se trouvaient à al-Bawn. Ils renvoyèrent al-Aqra'i et poursuivirent leur route avec eux jusqu'à [[place/raydah-yemen|Raydah]], où ils passèrent la nuit, puis jusqu'à [[place/warwar-yemen|Warwar, où ils passèrent la nuit]] {cite:sira-hadi-ila-al-haqq p.274}.
+
+## Détail
+Abou al-Qasim demanda : « Comment as-tu vu le rêve que je t'ai raconté à Bayt Bus ? » Ils poursuivirent leur route avec al-Da'am (la note mentionne « Ibn al-Da'am ») jusqu'à un lieu-dit nommé « Gharaq », où ils s'arrêtèrent. Ils continuèrent ensuite vers Sa'da, toujours accompagnés d'Ibn al-Da'am, jusqu'à leur arrivée à [[place/saada|Sa'da]] au début de l'an 291 de l'Hégire. Al-Hadi se trouvait alors à Sa'da {cite:sira-hadi-ila-al-haqq p.274}. Ses paroles évoquent [[event/abu-al-qasim-tells-his-dream-of-the-sons-of-yafur-and-the-rising-of-the-prisons-291|le rêve]] qui s'était réalisé, tel que rapporté par le narrateur, sans que le musée ne se prononce sur son interprétation. Ali ibn al-Hasan al-Aqra'i, Ibn al-Da'am et le lieu « Gharaq » ne sont pas mentionnés ; « al-Ghayl » est lu tel quel et rattaché à la mention la plus proche comme probable. Ce récit fait suite à la tentative [[event/abu-al-qasim-lets-himself-down-from-shibam-and-is-brought-back-291|de quitter Shibam]]. Le rapport figure dans un livre zaydite attribué à Muhammad ibn Sa'id.

@@ -8,7 +8,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ہیئت لغت میں اس ظاہری حالت کو کہتے ہیں جس پر کوئی چیز ہو، خواہ محسوس ہو یا معقول۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16574} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16575}
 
 ## شافعیہ کے نزدیک نماز کے اعمال
-شافعیہ نماز کے اعمال کو ارکان، ابعاض (جن کی تلافی سجدہ سہو سے ہوتی ہے) اور ہیئات میں تقسیم کرتے ہیں، جن کی تلافی سجدہ سہو سے نہیں ہوتی۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16575} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16576}
+شافعیہ نماز کے اعمال کو ارکان، ابعاض ⁦(جن کی تلافی سجدہ سہو سے ہوتی ہے)⁩ اور ہیئات میں تقسیم کرتے ہیں، جن کی تلافی سجدہ سہو سے نہیں ہوتی۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16575} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16576}
 نماز کو انسان سے تشبیہ دی گئی ہے: رکن سر کی طرح، شرط زندگی کی طرح، بعض اعضا کی طرح اور ہیئت بال کی طرح۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16576}
 
 ## ہیئات کی مثالیں

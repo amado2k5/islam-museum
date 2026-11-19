@@ -1,0 +1,22 @@
+---
+id: place/eastern-arabia
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/eastern-arabia.md}
+---
+## Vue d'ensemble
+Pour Yaqut, al-Bahrayn désigne de manière générale les terres situées sur la côte de l'océan Indien, entre Bassora et Oman, avec Hajar pour capitale ; c'est la région que ce document désigne comme l'Arabie orientale. {cite:mujam-al-buldan-sader-1995 1 p.346}
+
+## Dans le Mu'jam al-buldan de Yaqut
+Yaqut affirme que le nom se prononce toujours al-Bahrayn, note qu'al-Zamakhshari rapporte une forme duale, information qu'il n'avait trouvée nulle part ailleurs, puis cite l'auteur des tables astronomiques pour sa position, donnant sa longueur et sa largeur en degrés, et mentionne la divergence d'opinions quant à savoir si elle se situe dans le deuxième ou le troisième climat. Il précise qu'il s'agit d'un nom générique désignant les terres côtières de l'océan Indien, entre Bassora et Oman ; certains disent que sa capitale est Hajar, d'autres que Hajar est la capitale d'al-Bahrayn. On y trouve des sources, des cours d'eau et de vastes terres. {cite:mujam-al-buldan-sader-1995 1 p.346} {cite:mujam-al-buldan-sader-1995 1 p.347}
+
+Il soutient qu'al-Yamama est un district distinct, situé à mi-chemin entre La Mecque et al-Bahrayn, bien que certains l'aient inclus dans la région. Il rapporte d'Ibn ʿAbbas qu'al-Bahrayn appartenait à l'Irak et était bordé par Oman du côté de Jarfar, et, d'Ibn al-Faqih, que sous les Abbassides, Oman, al-Bahrayn et al-Yamama formèrent une seule province. {cite:mujam-al-buldan-sader-1995 1 p.347}
+
+D'après Abu ʿUbayda, les distances sont les suivantes : dix jours entre al-Bahrayn et al-Yamama, quinze jours à dos de chameau entre Hajar et Bassora, et un mois entre Hajar et Oman. Il énumère ses parties : al-Khatt, al-Qatif, al-Ara, Hajar, Binunah, al-Zara, Juwatha, al-Sabur, Darin et al-Ghaba, avec al-Safa et al-Mushaqqar comme capitale de Hajar. {cite:mujam-al-buldan-sader-1995 1 p.347}
+
+Concernant l'origine du nom, il donne deux explications transmises par Abou Bakr Muhammad ibn al-Qasim, les jugeant forcées, et préfère celle d'al-Azhari : le nom proviendrait d'un lac situé près des villages à la porte d'al-Ahsa, d'environ trois milles sur trois, calme, saumâtre et jamais en crue, les villages de Hajar se trouvant à dix farsakhs de la mer verte. Il note que la nisba est Bahrani, et non Bahri, et cite des savants portant ce nom, parmi lesquels Muhammad ibn Muʿammar al-Bahrani, rapporté par al-Bukhari, al-ʿAbbas ibn Yazid al-Bahrani, décédé en 258, et Zakariya ibn ʿAtiyya. {cite:mujam-al-buldan-sader-1995 1 p.347}
+
+Pour la conquête, Yaqut rapporte qu'al-Bahrayn faisait alors partie du royaume perse, où campaient de nombreux membres d'ʿAbd al-Qays, Bakr ibn Wa'il et Tamim dans le désert, tandis qu'al-Mundhir ibn Sawa al-Tamimi agissait pour le compte des Perses. En l'an 8 de l'Hégire, le Prophète envoya al-ʿAla ibn ʿAbd Allah ibn ʿImad al-Hadrami, allié des Banu ʿAbd Shams, appeler la population à l'islam ou à payer la capitation, en remettant des lettres à al-Mundhir et à Sibakht, marzban de Hajar. Tous deux se convertirent à l'islam, ainsi que les Arabes présents et quelques non-Arabes. Les zoroastriens, les juifs et les chrétiens conclurent un accord avec al-ʿAla : ils se partageraient les travaux et les récoltes, moyennant un dinar par adulte au titre de capitation. Yaqut mentionne également une autre date pour cette mission et rapporte l'observation de Qatada selon laquelle aucun combat n'eut lieu à al-Bahrayn. {cite:mujam-al-buldan-sader-1995 1 p.348}
+
+Il énumère ensuite les gouverneurs suivants : al-ʿAla, puis Aban ibn Saʿid ibn al-ʿAs, puis de nouveau al-ʿAla à la demande de ses habitants, nommé par Abu Bakr jusqu’à sa mort, selon un récit datant de l’an 20, puis Abu Hurayra. Les informations concernant la mort d’al-ʿAla et les nominations d’ʿUthman ibn Abi al-ʿAs et de Qudama ibn Mazʿun divergent. Il ajoute un récit d’Ibn Sirin selon lequel ʿUmar aurait demandé des comptes à Abu Hurayra concernant des fonds provenant d’al-Bahrayn. Yaqut rapporte ces récits avec leurs chaînes de transmission et ne tranche pas ici. {cite:mujam-al-buldan-sader-1995 1 p.348}

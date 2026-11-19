@@ -7,7 +7,7 @@ translators: []
 
 ## خلاصہ
 
-فیاض الرویلی (پیدائش 1958) شاہی سعودی فضائیہ کے جنرل ہیں جو فروری 2018 سے سعودی مسلح افواج کے چیئرمین جنرل اسٹاف ہیں {cite:wikipedia-fayyadh-al-ruwaili-en} {cite:wikipedia-fayyadh-al-ruwaili-ar}۔
+فیاض الرویلی ⁦(پیدائش 1958)⁩ شاہی سعودی فضائیہ کے جنرل ہیں جو فروری 2018 سے سعودی مسلح افواج کے چیئرمین جنرل اسٹاف ہیں {cite:wikipedia-fayyadh-al-ruwaili-en} {cite:wikipedia-fayyadh-al-ruwaili-ar}۔
 
 ## زندگی اور کام
 

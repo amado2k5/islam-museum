@@ -13,7 +13,7 @@ wings: [people]
 sources: [source/tabaqat-fuqaha-abbas-1981]
 provenance:
   layer: "own-research"
-  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص59–61"
+  source: "طبقات الفقهاء ⁦(تحقيق إحسان عباس)⁩ PDF ص59–61"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch104
@@ -28,4 +28,4 @@ occupations:
     sources: [source/tabaqat-fuqaha-abbas-1981]
 died: { edtf: "932", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi, Tarikh Baghdad; al-Dhahabi, Siyar" }
 relations:
-  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name ⁦(البغدادي)⁩; denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }

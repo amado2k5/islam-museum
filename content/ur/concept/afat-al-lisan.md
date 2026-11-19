@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## خلاصہ
-«زبان کی آفات» اس سلسلے کا عنوان ہے جو عمر عبد الکافی نے نفحاتِ رمضانیہ میں پیش کیا، اور ہر قسط ایک آفت پر ہے۔ {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep05 00:00:00} آخری قسط میں وہ پچھلی آفات گنواتے ہیں: غیبت، چغلی، جھگڑا، بحث بازی، نعمتوں کی ناشکری، ایذا، جھوٹ، تمسخر، صحابہ کو برا کہنا اور غیر اللہ کو پکارنا۔ {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:00:00} اختتام پر وہ کہتے ہیں کہ یہ تیس اقساط تھیں، ایک بڑے موضوع کے مختصر عنوانات (needs_source: آرکائیو میں اس سلسلے کی صرف چھ اقساط ہیں)۔ {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:10:30}
+«زبان کی آفات» اس سلسلے کا عنوان ہے جو عمر عبد الکافی نے نفحاتِ رمضانیہ میں پیش کیا، اور ہر قسط ایک آفت پر ہے۔ {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep05 00:00:00} آخری قسط میں وہ پچھلی آفات گنواتے ہیں: غیبت، چغلی، جھگڑا، بحث بازی، نعمتوں کی ناشکری، ایذا، جھوٹ، تمسخر، صحابہ کو برا کہنا اور غیر اللہ کو پکارنا۔ {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:00:00} اختتام پر وہ کہتے ہیں کہ یہ تیس اقساط تھیں، ایک بڑے موضوع کے مختصر عنوانات ⁦(needs_source: آرکائیو میں اس سلسلے کی صرف چھ اقساط ہیں)⁩۔ {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:10:30}
 
 ## محفوظ اقساط میں بیان کردہ آفات
 - [[concept/mann|احسان جتانا]]، جسے وہ زبان کی ایک کبیرہ آفت کہتے ہیں۔ {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:00:00}

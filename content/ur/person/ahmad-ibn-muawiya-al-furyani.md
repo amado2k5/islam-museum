@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b98, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/394-396" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b98, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/394-396" }
 ---
 ## خلاصہ
 احمد بن معاویہ بن ہذیل ابو جعفر فریانی، اور ان کے بھائی ہذیل بن معاویہ، عبادت اور ابدال و اولیاء کے راستے کی پیروی میں نمایاں؛ انہوں نے ثوری کے ساتھیوں، حسین بن حفص اور دوسروں سے حدیث سنی۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 676)⁩ صفحات 394 تا 396 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 676 ہے، تسلسل میں 677۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/394} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/396}

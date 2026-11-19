@@ -29,5 +29,5 @@ provenance:
   run: web-b2-alam-2026-11-14
 died: { edtf: "699~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
 relations:
-  - { type: lived_in, target: place/kufa, note: "Place association from the person's nisba/name (كوفي); denotes association, not proven residence.", sources: [source/nihayat-al-arab-nuwayri-vol4-scan], confidence: low }
+  - { type: lived_in, target: place/kufa, note: "Place association from the person's nisba/name ⁦(كوفي)⁩; denotes association, not proven residence.", sources: [source/nihayat-al-arab-nuwayri-vol4-scan], confidence: low }
   - { type: died_in, target: place/kufa, note: "Al-Zirikli, al-A'lam vol. 7 pp. 277-278: killed at the outskirts of Kufa.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

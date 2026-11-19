@@ -1,0 +1,9 @@
+---
+id: concept/ilaj-naft-al-dam
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/ilaj-naft-al-dam.md}
+---
+## Le traitement des crachats de sang
+Galien raconta qu'une femme fut prise d'une hémorragie et cracha pendant quatre jours, affaiblie. Il lui donna une bouillie et un fruit astringent, car son dernier repas remontait à longtemps. Il appliqua sur sa tête un remède de ce genre (une ligne étiquetée contenant des excréments d'animal), lui permit de prendre un bain pour les besoins du remède, mais ne lui oignit pas la tête de peur de l'humidifier. Il lui fit boire, selon ses dires, une boisson soporifique du même genre, car elle contenait des propriétés soporifiques qui apaisaient la toux et calmaient le flux sanguin en épaississant la substance. Le deuxième jour, il ne la dérangea pas, la laissant tranquille et immobile. Il lui donna une dose de cette boisson inférieure à celle de la veille, dans le but de la faire passer progressivement au miel pour purifier ses poumons. Il la laissa ensuite une heure, puis lui frotta les membres et lui donna de l'eau d'orge avec un peu de pain pour la fortifier. Le quatrième jour, il lui donna une vieille chose de ce genre avec beaucoup de miel pour nettoyer ses poumons, une purification en profondeur, et la nourrit le reste des jours comme il se devait et la traita avec le régime des convalescents, et avec tout ce qu'il voulait, il posa sur sa tête, à maintes reprises, un cérate de ce genre et lui interdit de se baigner (un rapport sur l'attribution du livre à Galien ; les noms exclus conformément à la règle) {cite:canon-ibn-sina-print-v2 p.336}

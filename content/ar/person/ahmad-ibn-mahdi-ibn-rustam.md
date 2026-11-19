@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b101, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/396-397" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b101, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/396-397" }
 ---
 ## موجز
 أبو جعفر أحمد بن مهدي بن رستم، ذو الدين المتين والحدث الأمين، أنفق على العلم المال الكثير، كان ذا سخاء وكرم. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 679)⁩ في الصفحتين 396 و397، وتسلسله 680. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/396} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/397}

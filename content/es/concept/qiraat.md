@@ -1,0 +1,32 @@
+---
+id: concept/qiraat
+lang: es
+source_lang: en
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (spanish lane, wave 5)", model: "claude-sonnet-5-5", run: "spanish-w5-2026-11-18", source: "content/en/concept/qiraat.md" }
+---
+
+## Visión general
+Qira'at es la ciencia de la transmisión de la recitación del Corán mediante las lecturas transmitidas del Profeta y sus Compañeros; al-Suyuti la cuenta entre los tipos de ciencias coránicas en el Itqan {cite:itqan-suyuti}.
+
+## En las fuentes
+El Itqan da a las lecturas un tipo propio entre las ciencias coránicas, y nombra las lecturas del Profeta, los transmisores y los memorizadores en la sección sobre el isnad {cite:itqan-suyuti}.
+
+## Definiciones
+Ahmad Khalid Babakr reúne definiciones de las lecturas: para [[person/badr-al-din-al-zarkashi|al-Zarkashi]] son la variación de las palabras de la revelación en la escritura de las letras o en su modo, como el aligeramiento y la geminación; para [[person/ibn-al-jazari|Ibn al-Jazari]], el conocimiento de cómo se pronuncian las palabras del Corán y de cómo varían, cada una atribuida a su transmisor; para al-Zurqani, una manera de pronunciar el Corán tomada por uno de los imames de los lectores, que difiere de las de otros. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.88}
+
+## Una práctica seguida
+La tesis sostiene que la lectura es una práctica (sunna) transmitida de forma masiva, recibida de los Compañeros del Profeta y luego de los Sucesores, generación tras generación con cadenas conectadas, y que los eruditos de las lecturas estudiaron sus cadenas y criticaron a sus transmisores como lo hacían los eruditos del hadiz. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.89} Argumenta que las diferencias de pronunciación entre los Compañeros se remontaban todas a haber oído al Profeta o a su aprobación, no a la opinión ni a una preferencia por una forma lingüística, como cuando [[person/ubayy-ibn-kab|Ubayy ibn Ka'b]] oyó a dos hombres leer la sura al-Nahl de manera distinta a la suya y el Profeta aprobó a cada uno. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.89} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.90} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.91} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.92} Cita a Ibn al-Jazari, según el cual los imames de las lecturas no obran conforme a lo más extendido en la lengua ni a lo más regular en la gramática, sino a lo mejor establecido en la transmisión, y a [[person/ibn-mujahid|Ibn Mujahid]], según el cual la lectura seguida en Medina, La Meca, Kufa, Basora y Siria es la que la gente recibió de sus predecesores, sostenida en cada ciudad por un hombre que aprendió de los Sucesores, junto con el dicho, transmitido de Umar, Zayd ibn Thabit, Urwa, Ibn al-Munkadir, Umar ibn Abd al-Aziz y al-Sha'bi, de que «la lectura es una sunna». {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.92} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.93}
+
+## En al-Tabari
+En su libro perdido sobre las lecturas, tal como lo cita Makki, [[person/al-tabari|al-Tabari]] sostuvo que no debe reprocharse a nadie que lea una lectura sólida acorde con la escritura del códice; a partir del Jami' al-Bayan, la tesis concluye que sus juicios se apoyan en la escritura, en el acuerdo de la mayoría de los lectores y en el árabe más elocuente; véase [[question/did-al-tabari-reject-established-readings|¿Rechazó al-Tabari lecturas establecidas?]]. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1364} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1381}
+
+## Los pilares de una lectura válida en Ibn al-Jazari
+En [[work/al-nashr-fi-al-qiraat-al-ashr|al-Nashr]], [[person/ibn-al-jazari|Ibn al-Jazari]] establece un criterio para una lectura aceptada: toda lectura que concuerde con el árabe al menos en un aspecto, concuerde con una de las copias de Uthman aunque sea potencialmente y tenga una cadena sólida es válida y no puede rechazarse, sea de las siete, de las diez o de otras; si falla algún pilar, es débil, anómala o nula, aunque sea de las siete. {cite:nashr-dahman-damascus-1345-v1 p.19} Sostiene que lo que importa es cumplir estas condiciones, no el lector al que se atribuye una lectura, puesto que lo atribuido a cada uno de los siete y a otros se divide en lo acordado y lo anómalo. {cite:nashr-dahman-damascus-1345-v1 p.20} Véase: [[question/is-tawatur-a-condition-of-a-valid-reading|¿Debe una lectura válida ser transmitida de forma masiva?]] Entre los libros más conocidos sobre las siete lecturas está el [[work/al-taysir-fi-al-qiraat-al-sab|al-Taysir]] de Abu Amr al-Dani. {cite:taysir-pretzl-istanbul-1930 p.10}
+
+## En el comentario de al-Tabari: la lectura de «malik yawm al-din»
+Al-Tabari expone la lectura «malik» (con alif), su significado y su gramática entre los lectores y los gramáticos. Luego trata la lectura «malika» con fatha como un vocativo, «Oh Señor del Día del Juicio» {cite:tafsir-tabari-shakir-v01 p. 152}. En la página siguiente descarta esa lectura: recitar «malika yawm al-din» está prohibido y no se permite, porque los lectores y los eruditos de la comunidad están todos de acuerdo en rechazarla {cite:tafsir-tabari-shakir-v01 p. 154}.
+Sobre «ghayr al-maghdub 'alayhim», refiere que los lectores coinciden en el genitivo (jarr) de la letra ra. Da dos maneras de explicar el genitivo: «ghayr» como atributo de «alladhina», o como repetición de «sirat». Dice que las dos explicaciones difieren en la gramática pero se parecen en el significado {cite:tafsir-tabari-shakir-v01 p. 180} {cite:tafsir-tabari-shakir-v01 p. 181}.
+
+## Registros relacionados en el explorador de las qira'at
+Registros que exponen en detalle lo que aquí se resume: [[concept/shurut-al-qiraa-al-sahiha|las condiciones de una lectura aceptada]], [[concept/al-qiraat-al-ashr|las diez lecturas]], [[concept/al-qiraat-al-shadhdha|las lecturas irregulares]], [[concept/tawatur-al-qiraat|la transmisión masiva de las lecturas]], [[concept/riwaya-wa-tariq|riwaya y tariq]], [[concept/usul-wa-farsh-al-qiraat|usul y farsh]], [[concept/tasbi-al-qiraat-ibn-mujahid|la limitación a siete de Ibn Mujahid]], [[concept/qurra-al-amsar|los lectores de las ciudades]] y [[concept/qiraat-al-sahaba-fi-al-hadith|las lecturas de los Compañeros en el hadiz]]; y sobre la compilación, el rasm y el puntuado: [[concept/masahif-al-amsar|los códices de Uthman]], [[concept/ahkam-al-rasm-al-uthmani|las reglas del rasm]], [[concept/naqt-al-irab|el puntuado de las vocales]] y [[concept/naqt-al-ijam|el puntuado de las letras]].

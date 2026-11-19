@@ -8,7 +8,7 @@ wings: [time, people, place]
 periods: [period/rashidun]
 regions: [arabia]
 date:
-  start: { edtf: "0656", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يذكر تاريخ الحصار بسنة في الصفحات المقروءة؛ الفترة مشتقة من مقتل عثمان سنة 35هـ (ص176)." }
+  start: { edtf: "0656", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يذكر تاريخ الحصار بسنة في الصفحات المقروءة؛ الفترة مشتقة من مقتل عثمان سنة 35هـ ⁦(ص176)⁩." }
 relations:
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "عرض الدفاع عن عثمان وأرسل الماء", sources: [source/sallabi-ali-vol1] }

@@ -19,7 +19,7 @@ translators: []
 شیخ بتاتے ہیں کہ پہلے مسلمان دار الارقم میں تربیت پا کر تھوڑی تعداد میں نکلے اور مشرکین کے معاشرے میں ضم ہو گئے، مگر ان کے شرک سے متأثر نہیں ہوئے، بلکہ لوگوں کے ساتھ نیکی اور احسان سے پیش آئے، اور اللہ نے ان کی شناخت محفوظ رکھی۔ {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:14:00}
 
 ## انضمام اور شناخت کی حفاظت پر ایک سوال
-ایک ناظر پوچھتے ہیں کہ مسلمان اپنے معاشرے میں اس طرح کیسے ضم ہو جائے جیسے پہلے مسلمان ہوئے، بغیر بدلے؛ اور شیخ جواب دیتے ہیں کہ یہ کتاب اور سنت کو مضبوطی سے تھامنے سے ہوتا ہے (needs_source: سوال کا ایک حصہ ٹرانسکرپٹ میں واضح نہیں)۔ {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:33:00}
+ایک ناظر پوچھتے ہیں کہ مسلمان اپنے معاشرے میں اس طرح کیسے ضم ہو جائے جیسے پہلے مسلمان ہوئے، بغیر بدلے؛ اور شیخ جواب دیتے ہیں کہ یہ کتاب اور سنت کو مضبوطی سے تھامنے سے ہوتا ہے ⁦(needs_source: سوال کا ایک حصہ ٹرانسکرپٹ میں واضح نہیں)⁩۔ {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:33:00}
 
 ## شیخ کی رائے: صحابہ کے تجربے کی پیروی
 شیخ کی رائے ہے کہ اس امت کا آخر وہیں سنور سکتا ہے جہاں سے اس کا اول سنورا تھا۔ وہ اسے ایک کامیاب انجینئر سے تشبیہ دیتے ہیں جو کسی کامیاب تجربے پر تعمیر کرتا ہے، اور ان کے نزدیک صحابہ نے ایمان کا ایک کامیاب پیمانہ قائم کیا۔ {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:34:00}
@@ -29,7 +29,7 @@ translators: []
 
 :::perspectives
 - **Sunni view: not yet sourced**: ابھی تک ماخوذ نہیں۔
-- **speaker's view (Omar Abdelkafy)**: شیخ کی رائے ہے کہ مؤمن اپنی شناخت اور خصوصیات کھوئے بغیر اپنے معاشرے میں ضم ہوتا ہے، اور اس کا راستہ کتاب و سنت کو تھامنا اور صحابہ کے تجربے کی پیروی ہے، اور وہ ذکر کرتے ہیں کہ غیر مسلم حجاب والی عورت سے متأثر ہو سکتے ہیں {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:10:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:12:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:13:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:33:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:34:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:37:30} (needs_source: سوال کا ایک حصہ واضح نہیں)۔
+- **speaker's view (Omar Abdelkafy)**: شیخ کی رائے ہے کہ مؤمن اپنی شناخت اور خصوصیات کھوئے بغیر اپنے معاشرے میں ضم ہوتا ہے، اور اس کا راستہ کتاب و سنت کو تھامنا اور صحابہ کے تجربے کی پیروی ہے، اور وہ ذکر کرتے ہیں کہ غیر مسلم حجاب والی عورت سے متأثر ہو سکتے ہیں {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:10:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:12:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:13:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:33:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:34:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep04 00:37:30} ⁦(needs_source: سوال کا ایک حصہ واضح نہیں)⁩۔
 - **academic view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 - **other view: not yet sourced**: ابھی تک ماخوذ نہیں۔
 :::

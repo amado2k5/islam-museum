@@ -1,0 +1,35 @@
+---
+id: work/al-muhalla-ibn-hazm
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/work/al-muhalla-ibn-hazm.md}
+---
+
+## Résumé
+
+Al-Muhalla bi-l-Athar fi Sharh al-Muhalla bi-l-Ikhtisar (« L’Orné, avec des hadiths, en commentaire du Poli, en bref ») est un ouvrage de droit d’ [[person/ibn-hazm|Abu Muhammad Ali ibn Ahmad ibn Hazm]] d’al-Andalus, qui a fait connaître son école [[group/zahiri-madhhab|zahirite]]. {cite:muhalla-dar-ibn-hazm-2016-v1 p.136} L’exemplaire du musée est l’édition Dar Ibn Hazm (Beyrouth, 1437/2016), supervisée par Khalid al-Rabbat, à partir d’une soixantaine de volumes manuscrits. {cite:muhalla-dar-ibn-hazm-2016-v1 p.1} {cite:muhalla-dar-ibn-hazm-2016-v1 p.2} {cite:muhalla-dar-ibn-hazm-2016-v1 p.9} Ses éditeurs estiment à plus de vingt mille le nombre de hadiths et de hadiths qu’il contient. {cite:muhalla-dar-ibn-hazm-2016-v1 p.10}
+
+## Sa place parmi les œuvres juridiques d'Ibn Hazm
+
+Il s'agit de l'un des quatre ouvrages qu'Ibn Hazm a écrits sur le licite et l'illicite : le plus volumineux, al-Isal ila Fahm Kitab al-Khisal, qui, selon al-Dhahabi, comptait quinze mille feuilles ; puis al-Khisal al-Jami'a li-Jumal Shara'i' al-Islam en deux volumes ; et le plus court, al-Mujalla, en un seul volume, recueil de questions brèves, à la manière d'un abrégé de droit zahirite. Tous sont perdus, à l'exception d'al-Muhalla, à partir duquel al-Mujalla peut être reconstitué. {cite:muhalla-dar-ibn-hazm-2016-v1 p.136} Dans sa préface, Ibn Hazm indique que ses compagnons souhaitaient qu'il écrive un court commentaire des brèves questions rassemblées dans al-Mujalla, se limitant à l'essentiel de la preuve, sans superflu ; les éditeurs citent l'avis d'Abu Abd al-Rahman ibn Aqil al-Zahiri selon lequel il s'agit d'une œuvre indépendante, et non d'un abrégé littéral d'al-Isal. {cite:muhalla-dar-ibn-hazm-2016-v1 p.136} {cite:muhalla-dar-ibn-hazm-2016-v1 p.137}
+
+## Son achèvement
+
+Dans cette édition, Ibn Hazm a rédigé al-Muhalla, du début jusqu'à la question 2034 ; son fils, Abu Rafi' al-Fadl, l'a achevé à partir d'al-Isal, l'ouvrage de son père. Ibn Khalil al-Abdari désapprouvait cette version d'Abu Rafi, car elle ne prenait pas al-Muhalla comme base, et il a écrit al-Qadh al-Mu'alla fi Ikmal al-Muhalla, publié dans le volume 22 de cette édition. {cite:muhalla-dar-ibn-hazm-2016-v1 p.137}
+
+## Méthode
+
+Ibn Hazm divisa son ouvrage en deux grands livres, chacun subdivisé en questions. Il commença par un livre exposant sa croyance et quelques questions de théorie juridique, puis aborda la pureté, la prière et le reste. {cite:muhalla-dar-ibn-hazm-2016-v1 p.139} Sa méthode consistait à énoncer la question à partir d'al-Mujalla, introduite par « Ali a dit » ou « Abu Muhammad a dit », puis à apporter sa preuve à partir du Coran et de la Sunna, ensuite les Compagnons et les Successeurs qui partageaient son avis, puis les opposants, notamment les Hanafites et les Malikites, dont il réfuta les arguments un à un. Les éditeurs notent qu'il s'en tint à cette méthode au début, avant de l'assouplir. {cite:muhalla-dar-ibn-hazm-2016-v1 p.139} {cite:muhalla-dar-ibn-hazm-2016-v1 p.140} Ses sources de droit sont au nombre de quatre : le texte du Coran, les paroles du Prophète transmises fidèlement par des narrateurs dignes de confiance ou par transmission orale massive, le consensus des savants de la communauté, et une déduction de ces éléments n'admettant qu'une seule interprétation — une application de ce qu'il a exposé dans [[work/al-ihkam-fi-usul-al-ahkam|al-Ihkam fi Usul al-Ahkam]]. {cite:muhalla-dar-ibn-hazm-2016-v1 p.141} En matière de hadiths, il accepte les récits isolés comme source de connaissance et de pratique, et rejette les récits isolés et faibles comme preuves ; les éditeurs citent les critiques d’Ibn Abd al-Hadi et d’Ibn Hajar concernant sa précipitation à affaiblir les hadiths et à attribuer des narrateurs inconnus qu’il ne reconnaissait pas. {cite:muhalla-dar-ibn-hazm-2016-v1 p.151} {cite:muhalla-dar-ibn-hazm-2016-v1 p.152} Il rapporte la plupart de ses hadiths et récits avec ses propres chaînes de transmission, par l’intermédiaire de ses maîtres andalous. {cite:muhalla-dar-ibn-hazm-2016-v1 p.150}
+
+## Sa position
+
+Les éditeurs citent al-Izz ibn Abd al-Salam : « Je n'ai rien vu dans les ouvrages de l'Islam sur la science comparable à al-Muhalla d'Ibn Hazm et à al-Mughni de Cheikh Muwaffaq al-Din » ; al-Dhahabi, qui affirme qu'il s'agit d'un ouvrage en huit volumes d'une exhaustivité remarquable ; et Muhammad al-Muntasir al-Kattani, selon lequel on pourrait en extraire un volume sur la loi d'Ibn Hazm, un autre sur les décisions juridiques du Coran, un autre sur celles des hadiths, et d'autres encore sur la loi des Compagnons et des Successeurs. {cite:muhalla-dar-ibn-hazm-2016-v1 p.4} {cite:muhalla-dar-ibn-hazm-2016-v1 p.138} Ils considèrent que son importance est confirmée par les récits des Compagnons et des Successeurs qu'il conserve, provenant de sources dont beaucoup sont perdues, et estiment que des opinions divergentes sur certaines questions n'en diminuent pas la valeur. {cite:muhalla-dar-ibn-hazm-2016-v1 p.138} {cite:muhalla-dar-ibn-hazm-2016-v1 p.139}
+
+## Attention savante
+
+Les travaux qui le complètent comprennent l'achèvement d'Abu Rafi et al-Qadh al-Mu'alla d'Ibn Khalil ; les réfutations incluent al-Radd ala al-Muhalla d'Abd al-Haqq al-Ansari, al-Mu'alla fi al-Radd ala al-Muhalla wa-l-Mujalla d'Ibn Zarqun, al-Radd ala al-Muhalla d'Ibn al-Qattan et al-Sayf al-Mujalla ala al-Muhalla, imprimés en Inde ; les abrégés incluent al-Nur al-Ajla d'Abu Hayyan al-Andalusi, al-Mustahla d'al-Dhahabi et celui attribué à Muhyi al-Din ibn Arabi. {cite:muhalla-dar-ibn-hazm-2016-v1 p.155} {cite:muhalla-dar-ibn-hazm-2016-v1 p.156}
+
+## Imprimés et manuscrits
+
+La première impression fut réalisée par Matba'at al-Nahda en Égypte en 1352 H, en onze volumes, sous la supervision de Muhammad Munir al-Dimashqi ; Ahmad Muhammad Shakir édita et annota la première partie, dans le volume 6, après quoi le reste fut imprimé avec moins de soin, bien que l'ensemble soit connu sous le nom d'édition de Shakir ; vint ensuite l'impression de Matba'at al-Imam avec des notes de Muhammad Khalil Harras, et l'impression de Dar al-Kutub al-Ilmiyya éditée par Muhammad Abd al-Ghaffar al-Bundari, que les éditeurs de Dar Ibn Hazm critiquent. {cite:muhalla-dar-ibn-hazm-2016-v1 p.161} {cite:muhalla-dar-ibn-hazm-2016-v1 p.163} Ils notent que les manuscrits d'al-Muhalla à la Bibliothèque nationale égyptienne sont catalogués sous « droit hanbalite », et rejettent l'affirmation, fondée sur ce critère, qu'Ibn Hazm était hanbalite ; L'un des volumes porte une donation du sultan al-Mu'ayyad Abu al-Nasr Shaykh. {cite:muhalla-dar-ibn-hazm-2016-v1 p.164} {cite:muhalla-dar-ibn-hazm-2016-v1 p.171}

@@ -1,0 +1,12 @@
+---
+id: concept/hajar-aswad
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/hajar-aswad.md}
+---
+## Résumé
+La Pierre Noire est une pierre sombre, de forme ovale approximative, située dans l'angle sud-est de la Kaaba, que les fidèles touchent lors du circumambulation. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6917} Les juristes s'accordent à dire qu'il est recommandé de la toucher et de l'embrasser lorsque cela est possible ; si cela est impossible, les écoles malikite et hanbalite autorisent à la toucher de la main et à embrasser la main, tandis que les écoles hanafite et chaféite la touchent avec un objet tenu à la main et l'embrassent, ou la désignent du doigt. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6917} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6918} Il est recommandé de prononcer le takbir en la touchant, et la majorité lève les mains ; il est recommandé de la toucher à chaque circumambulation et de l'embrasser en silence. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6918} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6919} Les écoles malikite, chaféite, hanbalite et Muhammad ibn al-Hasan considèrent que le circumambulation doit commencer à la Pierre, et qu'une circumambulation qui ne commence pas à cet endroit n'est pas comptabilisée à moins d'atteindre la Pierre. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6919} Il n'est pas recommandé aux femmes de la toucher, sauf lorsque le circumambulation est libre. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6919}
+
+## Dans le dictionnaire d'Oxford de l'islam
+Le Dictionnaire islamique d'Oxford situe la Pierre Noire dans un anneau d'argent à l'angle est extérieur de la Kaaba, à La Mecque. Il relate une légende selon laquelle l'ange Gabriel aurait remis la pierre à Abraham tandis que celui-ci érigait la Kaaba sur ordre de Dieu. Les pèlerins effectuant le hajj font le tour de la Kaaba et saluent la pierre d'un salut, en la touchant ou en l'embrassant ; le Dictionnaire indique qu'elle est interprétée de différentes manières comme symbolisant l'au-delà et la présence divine. {cite:oxford-dictionary-of-islam e770} Voici la formulation du Dictionnaire, qui désigne l'angle est ; la mention ci-dessus fait référence à l'angle sud-est.

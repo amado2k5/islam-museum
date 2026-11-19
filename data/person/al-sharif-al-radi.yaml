@@ -14,11 +14,11 @@ regions: [levant-iraq]
 born: { edtf: "970", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan Confirmed on 13 November 2026 against Wikidata Q130561 (P569, a statement with a reference), item revision 2564632461.", sources: [source/wikidata] }
 died: { edtf: "1015", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan Confirmed on 13 November 2026 against Wikidata Q130561 (P570, a statement with a reference), item revision 2564632461.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi], confidence: low }
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name ⁦(البغدادي)⁩; denotes association, not proven residence.", sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi], confidence: low }
   - { type: sibling_of, target: person/al-sharif-al-murtada }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
+  source: "شذرات الذهب — ابن العماد ⁦(ج3، سنين 350–600)⁩"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-6
 external_ids: { wikidata: "Q130561", viaf: "12154039" }

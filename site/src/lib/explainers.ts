@@ -2,6 +2,7 @@
 // Loaded at build time only.
 import { readFileSync, readdirSync } from "node:fs";
 import { parse } from "yaml";
+import { parseLocalized } from "./i18n";
 import { repoPath } from "./paths";
 
 export interface ExplainerStep { q: { ar: string; en: string; ur?: string }; a: { ar: string; en: string; ur?: string }; ref?: string; evidence?: { source: string; note?: string }[] }
@@ -28,7 +29,7 @@ export function listExplainers(): { slug: string; title: { ar: string; en: strin
   return readdirSync(dir())
     .filter((f) => f.endsWith(".yaml"))
     .map((f) => {
-      const raw = parse(readFileSync(`${dir()}/${f}`, "utf8")) as ExplainerFile;
+      const raw = parseLocalized(readFileSync(`${dir()}/${f}`, "utf8")) as ExplainerFile;
       return { slug: raw.slug, title: raw.title, widget: raw.widget ?? "stepper" };
     })
     .sort((a, b) => a.slug.localeCompare(b.slug));
@@ -38,7 +39,7 @@ const cache = new Map<string, ExplainerFile>();
 export function loadExplainer(slug: string): ExplainerFile {
   const hit = cache.get(slug);
   if (hit) return hit;
-  const raw = parse(readFileSync(`${dir()}/${slug}.yaml`, "utf8")) as ExplainerFile;
+  const raw = parseLocalized(readFileSync(`${dir()}/${slug}.yaml`, "utf8")) as ExplainerFile;
   if (raw.slug !== slug) throw new Error(`explainers: slug mismatch in ${slug}.yaml`);
   if (!raw.widget) raw.widget = "stepper";
   cache.set(slug, raw);

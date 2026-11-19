@@ -1,0 +1,16 @@
+---
+id: concept/hudud-allah-wal-kabair
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/hudud-allah-wal-kabair.md}
+---
+# Les limites de Dieu et les péchés majeurs
+
+Le Coran parle des « limites de Dieu » (hudud Allah) au sujet de ses grandes décisions : en matière de divorce, « telles sont les limites de Dieu, ne les transgressez donc pas » (al-Baqara 229) ; en matière de jeûne, « telles sont les limites de Dieu, ne vous en approchez donc pas » (al-Baqara 187) ; et il avertit : « Quiconque transgresse les limites de Dieu se fait du tort à lui-même » (al-Talaq 1) et « Quiconque transgresse les limites de Dieu, ce sont les injustes » (al-Baqara 229). Dans le langage des juristes, « hadd » est alors devenu le nom d’une peine fixée par la Loi comme étant due à Dieu : le hadd de la fornication, de la calomnie, du vol, du vin, de l’apostasie et du brigandage, avec la punition discrétionnaire et, pour certains, la représailles attachées — l’élargissement de la phrase coranique aux chapitres de fiqh enregistrés par l’entrée hudud de l’Encyclopédie de Fiqh koweïtienne {cite:fiqh-mawsua-kuwaitiyya-noor-v3}.
+
+« Kaba'ir » est le pluriel de « kabira » : les péchés que la Loi réprime avec la plus grande sévérité, certains étant punis par un hadd dans ce monde ou par un avertissement particulier pour l'au-delà. Le Coran distingue les péchés majeurs des péchés mineurs : « ceux qui évitent les péchés majeurs et les turpitudes, hormis les faux pas » (An-Najm 32) et « si vous évitez les péchés majeurs qui vous sont interdits, Nous expierons vos méfaits » (An-Nisa 31). Dans la Sunna, le hadith « évitez les sept fléaux » du Sahih al-Bukhari (2766) et du Sahih Muslim (89) mentionne : l'associationnisme, la sorcellerie, le meurtre d'une âme que Dieu a interdit sauf en droit, la consommation de l'usure, le détournement des biens d'un orphelin, la fuite le jour du combat et la calomnie envers les femmes chastes, croyantes et innocentes {cite:sahih-al-bukhari}.
+
+Les deux thèmes se rejoignent là où les grands péchés sont ceux que les hudud punissent dans ce monde ou contre lesquels ils mettent en garde dans l'autre : la fornication, le vol, la calomnie et le vin sont des péchés majeurs reconnus par consensus, chacun assorti d'une peine fixe dans la Loi ; et les péchés majeurs qui n'entraînent pas de hadd — le shirk, la désobéissance aux parents, la consommation d'usure — conservent leur avertissement dans l'au-delà et la possibilité de se repentir.
+
+Le navigateur Hudud Allah et Kaba'ir rassemble toutes les mentions de ces deux thèmes dans les sources du musée : les versets des limites et les versets des péchés majeurs, les hadiths hudud et destructeurs des deux Sahihs, le Muwatta et le Sunan, ce que la sirah et les récits des Compagnons et des Successeurs rapportent des peines infligées et des repentirs des grands péchés, et chaque mention dans un livre recueilli le jour même où ses passages sont publiés — chaque document avec sa source, et chaque texte un brouillon jusqu'à ce qu'un humain le lise.

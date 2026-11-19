@@ -1,0 +1,11 @@
+---
+id: concept/ilaj-natn-al-anf
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/ilaj-natn-al-anf.md}
+---
+## L'évacuation d'abord, et les moyens
+Toute mauvaise humeur accumulée doit d'abord être évacuée si elle se situe hors des fosses nasales ; ensuite, on recourt aux remèdes locaux : étamines, tabacs à priser, insufflations, etc. Pour les étamines éprouvées, il est préférable de se laver le nez au vin avant de les utiliser ; parmi ces étamines, il en existe une de type connu, et de nombreuses autres sortes, fabriquées à partir de ces substances en quantités variables (leurs noms et leurs poids ne sont pas mentionnés). Parmi les tabacs à priser, on trouve un tabac à priser à base d'un jus de type connu ; et le meilleur et le plus efficace des tabacs à priser, selon le livre, est l'urine d'âne, car elle est infaillible (affirmation du livre, rapportée comme attribuée). Parmi les remèdes éprouvés : des comprimés de type connu, dissous dans du vin et instillés dans le nez, qui guérissent ; et une décoction de type connu dans du vin, très efficace, utilisée pendant plusieurs jours par inhalation. {cite:canon-ibn-sina-print-v2 p.245}
+## Liniments, insufflations, inhalations et cautérisation
+Parmi les liniments : enduire l’intérieur de la plaie d’une substance connue, d’une feuille d’une espèce connue chauffée puis broyée avec de l’eau et appliquée sur le nez, et d’un médicament connu (noms et dosages non précisés). Parmi les insufflations : y souffler une substance connue ; parmi les inhalations : une décoction éprouvée dans de l’eau ou du vin, utilisée pendant plusieurs jours. Et parmi les traitements essayés – surtout lorsque la putréfaction se situe dans le cerveau ou sa partie antérieure – deux cautérisations de part et d’autre de la fontanelle, près des oreilles, en direction des tempes, ou une cautérisation au milieu du crâne (les sites de cautérisation sont mentionnés à titre de description, et non comme instructions). {cite:canon-ibn-sina-print-v2 p.246}

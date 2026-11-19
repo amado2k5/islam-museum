@@ -1,0 +1,16 @@
+---
+id: concept/floriated-kufic
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/floriated-kufic.md}
+---
+## Résumé
+Le coufique orné est un style de [[concept/kufic-script|coufique]] où les extrémités et les montants des lettres sont décorés de feuilles, de tiges et de fleurs. Il est attesté dans les inscriptions de l'Égypte fatimide, mais [[person/bernard-okane|Bernard O'Kane]] souligne qu'il ne s'agit pas d'une invention fatimide : un siècle avant l'arrivée des Fatimides au Caire, Mubarak al-Makki fit graver une stèle funéraire datée de Dhu al-Hijja 243/mars 858, conservée aujourd'hui au Musée d'art islamique du Caire, l'un des premiers exemples aboutis. Peu avant la conquête fatimide, Khadija al-Tara'ifi fut inhumée à Petite Qarafa (20 Shawwal 347/4 janvier 959), et l'inscription de sa tombe est un chef-d'œuvre de coufique légèrement orné ; on en trouve un autre exemple sur le panneau du vizir ikhshidide Ibn al-Furat (355/966). {cite:okane-monumental-calligraphy-fatimid-egypt p. 1}
+
+## Sur les monuments fatimides
+Les plus anciens exemples fatimides conservés sont les inscriptions en stuc d' [[building/al-azhar|al-Azhar]] (achevée en 972) : la grande inscription extérieure du mihrab est ornée de motifs floraux réguliers, agrémentés de quelques nœuds ; la plus petite, autour de l'arche intérieure, l'est plus discrètement ; et la plupart des autres inscriptions utilisent la ornementation avec parcimonie. À la [[building/mosque-of-al-hakim|mosquée d'al-Hakim]] (achevée en 1013), l'ornementation est plus uniforme, avec une innovation majeure dans les grandes inscriptions en pierre des minarets : une double tige rainurée d'où jaillissent les feuilles, prolongée sous ou au-dessus des montants voisins pour ajouter mouvement et fluidité. Dans les œuvres de [[person/badr-al-jamali|Badr al-Jamali]], comme le Mashhad al-Juyushi sur le Muqattam (487/1085), les rinceaux végétaux émergent souvent du cadre plutôt que des lettres, et, pour la première fois, les lettres se détachent sur un fond géométrique de rosettes composées de six losanges. {cite:okane-monumental-calligraphy-fatimid-egypt p. 2} {cite:okane-monumental-calligraphy-fatimid-egypt p. 5}
+
+## Pas seulement la floraison
+O'Kane note que la fleuristerie était un moyen d'embellir les inscriptions fatimides, mais pas le seul : souvent, les lettres restaient simples et le fond était orné de rinceaux, comme dans l'inscription inférieure sur la façade de la [[building/al-aqmar-mosque|mosquée Aqmar]], contrastant avec l'inscription supérieure fleurie. Des questions demeurent, qu'il soulève sans les trancher : la fleuristerie visait-elle à masquer le texte ? Le maintien du coufique par les Fatimides avait-il une signification idéologique ? {cite:okane-monumental-calligraphy-fatimid-egypt p. 1} {cite:okane-monumental-calligraphy-fatimid-egypt p. 2} {cite:okane-monumental-calligraphy-fatimid-egypt p. 10}

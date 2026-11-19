@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0634-07-16~", hijri: "0013-04-12", calendar: julian, precision: day, status: tradition, derived: true, note: "الاثنين لاثنتي عشرة ليلة بقيت من جمادى الأولى 13هـ عند الأكثر؛ روايتان أخريان بجمادى الآخرة (البلاذري ص 157). التحويل مشتق." }
+  start: { edtf: "0634-07-16~", hijri: "0013-04-12", calendar: julian, precision: day, status: tradition, derived: true, note: "الاثنين لاثنتي عشرة ليلة بقيت من جمادى الأولى 13هـ عند الأكثر؛ روايتان أخريان بجمادى الآخرة ⁦(البلاذري ص 157)⁩. التحويل مشتق." }
 relations:
   - { type: part_of, target: event/conquest-of-syria }
   - { type: occurred_at, target: place/ajnadayn }
@@ -23,7 +23,7 @@ relations:
   - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 156–157"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 156–157"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-8, lib-tarikh-khalifa-batch-3-2026-10-31
 sides:

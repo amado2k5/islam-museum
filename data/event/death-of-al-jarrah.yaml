@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/umayyad]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0730~", hijri: "0112~", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية الجرّاح على أرمينية ليزيد بن عبد الملك أو هشام (البلاذري ص 290). التحويل مشتق." }
+  start: { edtf: "0730~", hijri: "0112~", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية الجرّاح على أرمينية ليزيد بن عبد الملك أو هشام ⁦(البلاذري ص 290)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/ardabil }
   - { type: had_participant, target: person/al-jarrah-ibn-abdallah-al-hakami, role: "المستشهد ومن معه", sources: [source/futuh-buldan-maarif-1407] }
@@ -17,7 +17,7 @@ relations:
   - { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 290"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 290"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-18
 sides:

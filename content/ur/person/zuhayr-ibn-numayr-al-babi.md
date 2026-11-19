@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b63, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/147-150" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b63, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/147-150" }
 ---
 ## خلاصہ
 ابو عبد الرحمن زہیر بن نمیم بابی داعی تھے، جن کی زندگی صبر اور یقین پر گزری، اور انہیں نصرت اور استقامت عطا ہوئی۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں صفحات 147 تا 150 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 513 ہے، تسلسل میں 514۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/147} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/150}

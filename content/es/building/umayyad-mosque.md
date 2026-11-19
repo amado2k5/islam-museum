@@ -1,0 +1,53 @@
+---
+id: building/umayyad-mosque
+lang: es
+source_lang: en
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (spanish lane, wave 1)", model: "claude-sonnet-5-5", run: "spanish-w1-2026-11-18", source: "content/en/building/umayyad-mosque.md" }
+---
+## Visión general
+[[person/al-walid-ibn-abd-al-malik|Al-Walid ibn Abd al-Malik]] comenzó a construir la Mezquita Omeya de [[place/damascus|Damasco]] en el 87 H. Al-Suyuti la cuenta entre las mayores obras levantadas durante su reinado. Transmite, de Ibn Abi Abla, que al-Walid conquistó la India y al-Ándalus y construyó la mezquita de Damasco. {cite:tarikh-khulafa-minhaj-1434 p.367}
+
+La Encyclopaedia of Islam, en su artículo sobre Damasco, considera la Gran Mezquita de los omeyas como la primera y una de las más impresionantes obras maestras de la arquitectura musulmana, y como obra de al-Walid I. Describe el cambio de régimen como algo que apenas dejó huella en el plano de la ciudad, salvo por dos edificios estrechamente vinculados: el palacio del califa y la mezquita. {cite:encyclopaedia-of-islam-2 vol. 2 p. 294} El artículo trata de la ciudad en su conjunto, de modo que lo que dice de la mezquita es una sección dentro de él y no una monografía completa sobre el edificio.
+
+## Antes de al-Walid: iglesia y sala de oración
+Tras la conquista, los cristianos de Damasco conservaron sus iglesias a cambio de un tributo y de un impuesto de capitación. {cite:encyclopaedia-of-islam-2 vol. 2 p. 294} El artículo dice que la iglesia de San Juan siguió en pie bajo los califas sufyaníes y que [[person/muawiya-ibn-abi-sufyan|Mu'awiya]] no insistió en incluirla en la mezquita. Cita al obispo galo Arculfo, que pasó por la ciudad hacia el 50/670 y advirtió la existencia de dos santuarios separados, uno para cada comunidad. El lugar de oración de los musulmanes no era entonces más que una musalla apoyada contra la parte oriental del muro sur del antiguo recinto. {cite:encyclopaedia-of-islam-2 vol. 2 p. 294}
+
+A medida que crecía el número de musulmanes, el espacio de oración resultó demasiado pequeño. [[person/abd-al-malik-ibn-marwan|Abd al-Malik]] reclamó la iglesia y propuso comprarla, pero las negociaciones fracasaron. Cuando al-Walid decidió ampliar la mezquita, dice el artículo, ya no quedaba en la ciudad ningún lugar libre: las casas se habían extendido por el antiguo recinto sagrado y solo quedaba el ágora, donde se celebraban los mercados dominicales. A pesar de los acuerdos anteriores, al-Walid tomó a los cristianos la iglesia de San Juan Bautista y les dio a cambio otros varios lugares de culto, que habían caído en desuso. {cite:encyclopaedia-of-islam-2 vol. 2 p. 294} {cite:encyclopaedia-of-islam-2 vol. 2 p. 295}
+
+## Construcción
+Al-Sallabi dice que al-Walid transformó la iglesia que se alzaba en el lugar después de negociar con los cristianos, que gastó grandes sumas en la obra y que la construcción se completó en el 96 H. {cite:salabi-umayyad-state-2020 p.131-132}
+
+La Encyclopaedia of Islam da el año 86/705 para el momento en que al-Walid mandó derribar todo lo que había dentro del recinto del antiguo templo, y cita para ello un diván poético de [[person/farazdaq|al-Farazdaq]]. Esto abarcaba la iglesia de San Juan y la pequeña capilla sobre una cripta, de tres codos de lado, que se decía que guardaba un cofre con la cabeza de Juan el Bautista. Solo se conservaron los muros perimetrales de grandes sillares y las torres angulares cuadradas. El artículo añade que la mezquita se construyó en seis años. {cite:encyclopaedia-of-islam-2 vol. 2 p. 295} El año de la demolición que da el artículo y el inicio de la obra en el 87 H mencionado arriba proceden de obras distintas, y el museo registra ambos sin elegir entre ellos.
+
+## Planta y elementos
+Dentro de un marco de unos 120 por 80 metros, dice el artículo, los constructores dispusieron al norte un patio rodeado por un ancho pórtico cubierto de doble arcada. A lo largo de todo el muro sur levantaron una inmensa sala de oración para la comunidad, con una nave central bajo una gran cúpula. El artículo atribuye la cúpula a al-Walid. {cite:encyclopaedia-of-islam-2 vol. 2 p. 295}
+
+Otros rasgos que enumera son los siguientes. Al este, el «[[concept/mihrab|mihrab]] de los Compañeros» recordaba el lugar de oración más antiguo. Al oeste, una nueva puerta, Bab al-Ziyada, sustituyó al pórtico central, que había sido tapiado. En el centro del muro norte se alzaba un alto alminar cuadrado. Los muros estaban cubiertos en algunos puntos con incrustaciones de mármol y en otros con mosaicos de pasta de vidrio. {cite:encyclopaedia-of-islam-2 vol. 2 p. 295} El artículo informa de que Thiersch, Strygowski, Sauvaget y Creswell, que estudiaron el edificio sobre el terreno, coinciden, con diferencias leves, en que es una realización musulmana. Lo califica de musulmán en su concepción y en su propósito, y cita una frase que lo describe como un símbolo de la supremacía política y del prestigio moral del islam. {cite:encyclopaedia-of-islam-2 vol. 2 p. 295}
+
+## Los mosaicos
+Otro artículo de la Encyclopaedia of Islam, sobre los mosaicos murales y de pavimento, sitúa la mezquita de Damasco junto a la [[building/dome-of-the-rock|Cúpula de la Roca]] de Jerusalén, construida en el 72/691 por Abd al-Malik, y la Gran Mezquita de Córdoba, como los tres principales edificios religiosos omeyas adornados con mosaicos. {cite:encyclopaedia-of-islam-2 vol. 2 p. 998}
+
+En Damasco solo sobreviven fragmentos de las imágenes que mostraban una gran vid dorada y ciudades enteras, los más llamativos en partes de la arcada que rodea el patio. El artículo dice que cerca del 85 por ciento de las teselas son de pasta de vidrio coloreada, muchas de ellas con una base marrón y pan de oro bajo una capa protectora de vidrio. {cite:encyclopaedia-of-islam-2 vol. 2 p. 998} Los paneles del patio, descubiertos al retirar el yeso, muestran altos árboles verdes entre grupos de edificios: fortalezas, casas con balcones, pabellones con columnatas y exedras y, más cerca del primer plano, agua animada. Otros han señalado un carácter pompeyano en la arquitectura. {cite:encyclopaedia-of-islam-2 vol. 2 p. 998}
+
+Algunos han tomado el agua por el río Barada. El autor del artículo lo pone en duda, pues le resulta difícil conciliar un paisaje local conocido con la estética musulmana, y sugiere que las escenas del patio podrían complementar las imágenes geográficas de los muros de la sala de oración, con el agua representando el Océano que rodea el mundo en los geógrafos árabes. {cite:encyclopaedia-of-islam-2 vol. 2 p. 998}
+
+## ¿Se dividió la iglesia?
+Un relato dice que la iglesia fue compartida entre cristianos y musulmanes. El artículo lo califica de leyenda surgida de un error de traducción. Señala que al-Tabari, al-Baladhuri y al-Mas'udi no mencionan una división. El texto de Ibn al-Mufalla, difundido por Ibn Asakir e Ibn Jubayr, habla de una división de la kanisa, pero allí debe entenderse en sentido amplio, como lugar de oración, es decir, el haram al aire libre del antiguo santuario y no el edificio de la iglesia. El artículo añade que algunos autores, entre ellos Dussaud, esperaban encontrar una antigua basílica en la planta y por eso dijeron que la sala de oración cristiana se repartió entre las dos comunidades. {cite:encyclopaedia-of-islam-2 vol. 2 p. 295} Esta es la lectura del artículo. Los relatos anteriores de Arculfo y de al-Sallabi se recogen por separado.
+
+## Historia posterior
+El artículo no traza toda la vida del edificio, pero menciona varios momentos. Una pelea entre damascenos y soldados bereberes en el 461/1069 provocó un incendio que causó graves daños a la Gran Mezquita y a la ciudad. {cite:encyclopaedia-of-islam-2 vol. 2 p. 296} El museo tiene una ficha aparte sobre el [[event/umayyad-mosque-fire-461|incendio del 461]]. En el 699/1300 el ejército mongol entró en Damasco y se apoderó de la Gran Mezquita, aunque no logró tomar la ciudadela. {cite:encyclopaedia-of-islam-2 vol. 2 p. 299} Algunos años después del 717/1317 Tankiz hizo realizar obras en la mezquita. {cite:encyclopaedia-of-islam-2 vol. 2 p. 299}
+
+Al describir el tejido de la ciudad antigua, el artículo nombra la Gran Mezquita como el centro religioso y político del casco antiguo, donde se proclamaban y se exponían los decretos oficiales. {cite:encyclopaedia-of-islam-2 vol. 2 p. 296} En época otomana, dice, las grandes fundaciones religiosas se construyeron fuera de las murallas, lo que muestra que la mezquita ya no era el único lugar de reunión de la comunidad musulmana. {cite:encyclopaedia-of-islam-2 vol. 2 p. 302}
+
+## La Puerta de los Relojes y los talismanes
+Al-Umari cuenta que la Puerta de los Relojes recibió ese nombre porque allí se fabricó un compás de reloj con el que se conocía cada hora que pasaba. Sobre él había pájaros de cobre, una serpiente y un cuervo. Cuando se completaba una hora, salía la serpiente, silbaban los pájaros, graznaba el cuervo y caía un guijarro en una cuenca. {cite:umari-masalik-1924 p.197-198}
+
+También cuenta que, antes de que la mezquita se quemara, del techo colgaban talismanes contra los insectos, los ratones, las serpientes, los escorpiones y las arañas, y que no se encontró nada en ella hasta que ardió. {cite:umari-masalik-1924 p.197-198}
+
+La fecha de inicio se deriva de la fecha hégira y es aproximada en el calendario del museo.
+
+## El reloj de sol de Ibn al-Shatir: original y copia
+King describe el [[invention/shatir-polar-sundial|reloj de sol monumental]] diseñado y construido por [[person/ibn-al-shatir|Ibn al-Shatir]] en el alminar norte: un mármol horizontal de aproximadamente dos metros por uno, con gnomon polar y múltiples escalas horarias. Dizer fecha el instrumento en el 773 H/1371–1372. Esto no cambia la fecha de construcción de la mezquita ni lo identifica con el dispositivo de la Puerta de los Relojes del texto anterior {cite:king-ibn-shatir-bea sundial} {cite:tdv-ibn-shatir-dizer instruments}.
+
+Según King, el instrumento del alminar es una copia de finales del siglo XIX y los fragmentos originales se conservan en el jardín de un museo de Damasco; Dizer nombra a al-Tantawi en el relato de la reconstrucción. Estas son noticias de las fuentes, no una inspección actual del lugar. Cam corrobora que se conservan piezas originales. No deben confundirse con el pequeño reloj de sol en forma de cofre de joyas de Alepo ni con una vista exterior moderna en la que no se ve la esfera del reloj {cite:king-ibn-shatir-bea sundial-and-compendium} {cite:tdv-ibn-shatir-dizer instruments} {cite:tdv-gunes-saati-cam surviving-dials}.

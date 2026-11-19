@@ -21,4 +21,4 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 - **شرطہ:** يحيى بن قيس الغساني {cite:tarikh-khalifa-umari-1985 p. 263}
 - **کاتب:** [[person/sarjun-ibn-mansur|سرجون بن منصور الرومي]] {cite:tarikh-khalifa-umari-1985 p. 263}
-- **حاجب:** أبو سهل الأسود مولاه («في الأصل «أبو نهشل» والتصويب من الحاشية») {cite:tarikh-khalifa-umari-1985 p. 263}
+- **حاجب:** أبو سهل الأسود مولاه ⁦(«في الأصل «أبو نهشل» والتصويب من الحاشية»)⁩ {cite:tarikh-khalifa-umari-1985 p. 263}

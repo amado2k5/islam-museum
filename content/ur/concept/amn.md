@@ -14,4 +14,4 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 جان، مال اور آبرو کا خطرہ ہو تو تیمم، قبلہ رخ ہونے، جماعت اور حج کے وجوب میں رخصت ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3411}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3412}
 
 ## امان
-کفار کے لیے امان دو قسم کی ہے: امام کی جانب سے مؤقت (صلح) یا مؤبد (ذمہ)، اور مسلمان فرد کی جانب سے محصور تعداد کے لیے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3417}
+کفار کے لیے امان دو قسم کی ہے: امام کی جانب سے مؤقت ⁦(صلح)⁩ یا مؤبد ⁦(ذمہ)⁩، اور مسلمان فرد کی جانب سے محصور تعداد کے لیے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3417}
