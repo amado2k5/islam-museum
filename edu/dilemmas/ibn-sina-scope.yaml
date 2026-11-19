@@ -4,6 +4,7 @@ decision:
   ar: الطب أولًا أم الفلسفة لابن سينا؟
   en: Medicine or philosophy first for Ibn Sina?
   ur: ابن سینا کے لیے پہلے طب یا فلسفہ؟
+  fr: "Ibn Sina doit-il privilégier la médecine ou la philosophie ?"
 context:
   ar: 'شاب عبقري اسمه ابن سينا يحمل موهبتين: طب يعالج الناس اليوم، وفلسفة تفكر في العالم إلى الأبد. القرار: تركيز العمر على القانون في الطب وعلاج المرضى، أم على الشفاء
     وكشف قوانين العقل والوجود؟'
@@ -11,33 +12,40 @@ context:
     on the Canon of medicine and treating patients, or on the Healing and uncovering the laws of mind and being?'
   ur: 'ابن سینا نامہ نوجوان نابغہ دو صلاحیتیں رکھتا تھا: طب جو آج لوگوں کا علاج کرے اور فلسفہ جو ہمیشہ دنیا پر سوچے۔ فیصلہ: عمر کو طب کے قانون اور مریضوں کے علاج
     پر مرکوز کرنا یا شفا اور ذہن و وجود کے قوانین کھولنا؟'
+  fr: "Ibn Sina, jeune homme doué, excelle dans deux domaines : la médecine, qui soigne dès aujourd’hui, et la philosophie, qui cherche à comprendre le monde au-delà du présent. Faut-il consacrer sa vie au Canon de la médecine et aux malades, ou au Livre de la guérison et à l’étude de l’esprit et de l’être ?"
 positions:
 - holder:
     ar: أهل الطب
     en: the medicine party
     ur: طب کے حامی
+    fr: "Les partisans de la médecine"
   stance:
     ar: البدن أمانة اليوم؛ الطب ينفع كل إنسان
     en: the body is today's trust; medicine serves every human
     ur: جسم آج کی امانت ہے؛ طب ہر انسان کے کام آتا ہے
+    fr: "Prendre soin du corps est un devoir immédiat. La médecine est utile à tous."
   evidence:
     ar: كتب القانون فصار مرجع الطب قرونًا في كل العالم
     en: he wrote the Canon, medicine's reference for centuries everywhere
     ur: انھوں نے قانون لکھا جو صدیوں ہر جگہ طب کا مرجع رہا
+    fr: "Il a écrit le Canon, qui a fait référence en médecine partout pendant des siècles."
   sources:
   - person/ibn-sina
 - holder:
     ar: أهل الفلسفة
     en: the philosophy party
     ur: فلسفہ کے حامی
+    fr: "Les partisans de la philosophie"
   stance:
     ar: العقل الذي يفكر يشفي أكثر من يد واحدة
     en: the mind that thinks heals more than one hand
     ur: جو ذہن سوچتا ہے ایک ہاتھ سے زیادہ شفا دیتا ہے
+    fr: "La réflexion peut apporter davantage de remèdes qu’une seule main."
   evidence:
     ar: كتب الشفاء والإشارات في الفلسفة والمنطق والكلام
     en: he wrote the Healing and the Pointers in philosophy, logic and doctrine
     ur: انھوں نے فلسفہ، منطق اور کلام میں شفا اور اشارات لکھے
+    fr: "Il a rédigé le Livre de la guérison et les Directives et remarques, sur la philosophie, la logique et la doctrine."
   sources:
   - person/ibn-sina
   - place/baghdad
@@ -45,3 +53,10 @@ reflection:
   ar: لو كان لديك عقله، على ماذا كنت ستركز؟ اكتب سببك.
   en: If you had his mind, what would you have focused on? Write your reason.
   ur: اگر آپ کے پاس ان کا ذہن ہوتا تو کس پر توجہ دیتے؟ وجہ لکھیں۔
+  fr: "Si tu avais eu ses capacités, à quoi les aurais-tu consacrées ? Explique pourquoi."
+provenance:
+  fr:
+    generated_by: "Devin"
+    model: "unknown"
+    run: "devin-a7ba389df57d4bdb9b7515fa59f40242"
+    source: "Existing English text in this activity, with Arabic consulted for religious material."

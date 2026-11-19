@@ -4,6 +4,7 @@ decision:
   ar: الأسوار أم الماء لدمشق؟
   en: Walls or water for Damascus?
   ur: دمشق کے لیے دیواریں یا پانی؟
+  fr: "Des remparts ou de l’eau pour Damas ?"
 context:
   ar: 'دمشق بعد سنوات الحصار والغلاء تستطيع مشروعًا واحدًا كبيرًا: ترميم أسوارها وبواباتها أمام جيوش العصر، أم مدّ القنوات وإصلاح الأنهار والحمّامات التي تسقي المدينة
     كل يوم؟ القرار: الحماية أم الحياة؟'
@@ -11,19 +12,23 @@ context:
     repairing the rivers and bathhouses that water the city every day? The decision: protection or life?'
   ur: 'دمشق برسوں کے محاصرے اور قحط کے بعد ایک بڑا منصوبہ برداشت کر سکتی ہے: دور کی فوجوں کے سامنے دیواریں اور دروازے مرمت کرنا یا نہریں بچھانا اور نہریں اور حمام
     درست کرنا جو شہر کو روز پانی دیتے ہیں؟ فیصلہ: حفاظت یا زندگی؟'
+  fr: "Après des années de siège et de pénurie, Damas ne peut financer qu’un seul grand chantier. Faut-il restaurer les murs et les portes pour résister aux armées, ou aménager les canaux et réparer les cours d’eau et les bains qui approvisionnent la ville chaque jour ? Que privilégier : la protection ou les besoins vitaux ?"
 positions:
 - holder:
     ar: أهل الأسوار
     en: the walls party
     ur: دیواروں کے حامی
+    fr: "Les partisans des remparts"
   stance:
     ar: المدينة المفتوحة تُؤخذ قبل أن تشرب
     en: the open city is taken before it can drink
     ur: کھلا شہر پانی پینے سے پہلے لیا جاتا ہے
+    fr: "Une ville sans défense sera prise avant même que ses habitants aient pu boire."
   evidence:
     ar: جدّدوا الأسوار والأبراج في كل عهد خوف
     en: they renewed walls and towers in every fearful reign
     ur: انھوں نے ہر خوف کے دور میں دیواریں اور برج نئے کیے
+    fr: "À chaque règne menacé, ils ont rebâti les murs et les tours."
   sources:
   - place/damascus
   - building/umayyad-mosque
@@ -31,17 +36,27 @@ positions:
     ar: أهل الماء
     en: the water party
     ur: پانی کے حامی
+    fr: "Les partisans de l’eau"
   stance:
     ar: بلا ماء لا سور ولا سكان؛ القنوات تسقي الكل
     en: without water there is no wall and no people; the channels water all
     ur: پانی کے بغیر نہ دیوار نہ باشندے؛ نہریں سب کو سیراب کرتی ہیں
+    fr: "Sans eau, ni gens ni remparts ne tiennent. Les canaux apportent l’eau à tout le monde."
   evidence:
     ar: أصلحوا المجاري والحمّامات فعادت الحياة للأحياء
     en: they repaired the channels and bathhouses and life returned to the quarters
     ur: انھوں نے نہریں اور حمام درست کیں تو محلوں میں زندگی لوٹی
+    fr: "Ils ont réparé les canaux et les bains, et la vie est revenue dans les quartiers."
   sources:
   - place/damascus
 reflection:
   ar: أيّهما كنت ستبني أولًا لو كنت الوالي؟ اكتب سببك.
   en: Which would you have built first as governor? Write your reason.
   ur: اگر آپ گورنر ہوتے تو پہلے کیا بناتے؟ وجہ لکھیں۔
+  fr: "À la place du gouverneur, quel chantier aurais-tu lancé en premier ? Explique pourquoi."
+provenance:
+  fr:
+    generated_by: "Devin"
+    model: "unknown"
+    run: "devin-a7ba389df57d4bdb9b7515fa59f40242"
+    source: "Existing English text in this activity, with Arabic consulted for religious material."

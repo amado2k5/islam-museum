@@ -4,6 +4,7 @@ decision:
   ar: المنصب أم الخلوة للغزالي؟
   en: The chair or seclusion for al-Ghazali?
   ur: غزالی کے لیے منصب یا خلوت؟
+  fr: "Al-Ghazali doit-il garder sa chaire ou se retirer ?"
 context:
   ar: 'بلغ أبو حامد الغزالي أعلى منصب علمي في النظامية ثم أحسّ بقلق في قلبه بين الشهرة والصدق. القرار: البقاء أستاذًا محتفى به في أعظم مدارس زمانه، أم ترك كل شيء
     والانزواء سنين ليطهّر قلبه ويكتب؟'
@@ -11,33 +12,40 @@ context:
     professor at the era''s greatest school, or leave everything and withdraw for years to cleanse his heart and write?'
   ur: 'ابو حامد الغزالی نظامیہ میں اعلیٰ ترین علمی منصب پر پہنچے پھر شہرت اور اخلاص کے بیچ دل کی بے چینی محسوس کی۔ فیصلہ: زمانے کے عظیم ترین مدرسے میں مشہور استاد
     رہنا یا سب چھوڑ کر برسوں خلوت میں بیٹھنا تاکہ دل صاف ہو اور لکھ سکے؟'
+  fr: "Abou Hamid al-Ghazali occupe la plus haute chaire de la Nizamiyya, mais il se sent déchiré entre sa renommée et son désir de sincérité. Faut-il rester un professeur célèbre dans la plus grande école de l’époque, ou tout quitter et se retirer pendant des années pour purifier son cœur et écrire ?"
 positions:
 - holder:
     ar: دعاة البقاء
     en: the stay party
     ur: رہنے کے حامی
+    fr: "Ceux qui souhaitent qu’il reste"
   stance:
     ar: الطلاب والمدرسة يحتاجونه؛ الفرار هزيمة
     en: students and school need him; leaving is defeat
     ur: طلبہ اور مدرسہ ان کے محتاج ہیں؛ جانا شکست ہے
+    fr: "Les élèves et l’école ont besoin de lui. Partir, c’est s’avouer vaincu."
   evidence:
     ar: كان يدرّس المئات ويكتب في الرد على الخصوم
     en: he was teaching hundreds and writing answers to opponents
     ur: وہ سیکڑوں کو پڑھا رہے تھے اور مخالفین کے جواب لکھ رہے تھے
+    fr: "Il enseignait à des centaines d’élèves et rédigeait des réponses à ses contradicteurs."
   sources:
   - person/al-ghazali-abu-hamid
 - holder:
     ar: دعاة الخلوة
     en: the retreat party
     ur: خلوت کے حامی
+    fr: "Les partisans de la retraite"
   stance:
     ar: القلب المريض لا يعلّم الصدق؛ الاعتزال دواء
     en: a sick heart cannot teach sincerity; retreat is the cure
     ur: بیمار دل اخلاص نہیں سکھا سکتا؛ خلوت علاج ہے
+    fr: "Un cœur malade ne peut enseigner la sincérité. La retraite est le remède."
   evidence:
     ar: انزوى سنين فعاد يكتب الإحياء أعظم كتبه
     en: he withdrew for years and returned to write the Ihya, his greatest work
     ur: وہ برسوں خلوت میں رہے اور واپس آئے تو احیاء لکھی، عظیم ترین کتاب
+    fr: "Il se retira pendant des années, puis revint pour écrire l’Ihya, son œuvre majeure."
   sources:
   - person/al-ghazali-abu-hamid
   - place/baghdad
@@ -45,3 +53,10 @@ reflection:
   ar: لو كنت تلميذه، ماذا كنت ستنصحه؟ اكتب سببك.
   en: If you were his student, what would you have advised him? Write your reason.
   ur: اگر آپ ان کے شاگرد ہوتے تو کیا مشورہ دیتے؟ وجہ لکھیں۔
+  fr: "Si tu avais été son élève, que lui aurais-tu conseillé ? Explique pourquoi."
+provenance:
+  fr:
+    generated_by: "Devin"
+    model: "unknown"
+    run: "devin-a7ba389df57d4bdb9b7515fa59f40242"
+    source: "Existing English text in this activity, with Arabic consulted for religious material."

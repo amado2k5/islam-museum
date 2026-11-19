@@ -47,6 +47,9 @@ open a new block on top with the new version and today's date.
 
 ## v2.23.0 — 2026-11-17
 ### Added
+- **French learning activities:** all 20 illustrated story decks, 21 source-detective cases and 31 classroom dilemmas now include French, so learners can read the stories, weigh evidence and compare viewpoints in French. Verse references use explanatory paraphrases rather than verse translations.
+- **French education topic lessons, topics 29–39:** eleven of the fifty taught topics (the Great Mosque of Córdoba through the House of Wisdom) now carry French titles, explainers, glossaries and practice questions in `edu/topics-50.yaml`, so French readers no longer fall back to English for them. Existing Arabic, English and Urdu text is unchanged; the other topic ranges are translated separately.
+- **French topic lessons:** the ten lessons from Medina through Fatima al-Fihri now include French summaries, glossaries and practice questions with answer explanations. Other topic lessons are unchanged.
 - **French homework search:** French classroom phrases now expand to their target labels through French synonym shards and the canon search index, instead of using English-only synonyms.
 - **French dataset rollout scope:** the kids, museum-card and education-support translations are based on the separate French tour/baseline-fixtures work. The large topic lessons and recursive education activities remain untranslated; this partial rollout does not claim full French coverage.
 - **French education support datasets:** age-band introductions, stamp names, seasonal packs, family activities, homework search phrases, location riddles and the approved leveled-reading record labels now include French. The large topic lessons and recursive education activities are not yet translated in this batch.
