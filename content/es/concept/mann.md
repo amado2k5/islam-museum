@@ -1,0 +1,31 @@
+---
+id: concept/mann
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: draft
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/mann.md}
+---
+## Resumen
+Mann, en el léxico, tiene varios sentidos: un favor, el recuento de servicios, una medida, un recorte y la comida del cielo. Los juristas lo toman de dos maneras: su medida legal y recordar a los demás un favor que se ha hecho. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15100}
+
+## Su medida
+Los hanafis sostienen que un mudd son dos rutls, un rutl es medio hombre y un mann son seiscientos dirhams; el mudd y el mann son cada uno un cuarto de sa'. Al-Rafi'i fijó los cinco wasqs de la subsistencia básica en mann, y el rutl damasceno se encontró igual al gran mann. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15101}
+
+## Recordando un favor
+Cuando Dios concede, el recordatorio es hacer que la criatura esté agradecida; cuando un siervo lo hace, contar favores y reprenderlos es un pecado grave, y anula la recompensa de la caridad. El Corán y la Sunna lo confirman, y la Sunna dice que a quien recuerda no será hablado por Dios en el Día de la Resurrección. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15101} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15102} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15103}
+
+## Una palabra amable
+Una palabra amable y una oración para quien pide puede ser mejor que un regalo seguido de daño, ya que una buena palabra es caridad. Los juristas difieren en si la recompensa se pierde en su totalidad o solo en parte; la primera es la visión más sólida. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15102} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15103}
+
+## Rechazar un regalo por miedo a la obligación
+La mayoría de los juristas sostienen que una persona puede rechazar un regalo incluso cuando se necesita para un deber, por lo que puede realizar la ablución seca si se le niega agua. Los Shafi'is sostienen que una esposa no tiene por qué aceptar manutención de quien la concede, debido a la obligación que conlleva. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15104}
+
+## Liberación de cautivos
+Todos coinciden en que el imán puede liberar cautivos adultos de la guerra como favor si considera que hay algo bueno en ello. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15104}
+
+## De la serie Nafahat Ramadaniyya (los defectos de la lengua) de Omar Abdelkafy
+El jeque considera que recordar a la gente el don o la bondad es un gran defecto de la lengua, y dice que el verdadero Dador (al-Mannan) es Dios, de modo que es Dios quien concede favor, no el siervo. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:00:30}
+Relata que Abu Bakr, Umar y al-Abbas se sentaron en la puerta del Profeta hablando de bondad: uno dijo que lo mejor es acelerarla, otro ocultarla, el tercero apenas le hace caso, y el Profeta se unió a los tres (needs_source: the report is not referenced in the recording). {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:00:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:01:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:01:30} Concluye que quien hace bondad lo oculta y no expone al receptor ante los testigos, critica a quienes publican en los medios lo que dieron a las familias pobres y recuerda al uno entre los siete sombreado por Dios que ocultó su caridad. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:01:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:02:00} El que hace entonces la apresura cuando se le pregunta, y hace poco de ello, diciendo al que le da las gracias que fue una cosa menor. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:03:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:03:30}
+Sostiene que quien hace una bondad y luego se afloja porque el destinatario no la devolvió o le trató mal, no lo hizo por Dios. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:04:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:04:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:05:00} Cita la prohibición de anular la caridad mediante recordatorios y dolor, y el hadiz de los tres a quienes Dios no mirará en el Día de la Resurrección, uno de los cuales es quien recuerda sus dones. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:05:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:06:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:06:30} Cita [[person/muhammad-ibn-sirin|a Ibn Sirin]], que escuchó a un hombre enumerar sus favores a otro y le dijo: no hay bueno en la bondad una vez que se cuenta. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:07:00}
+Sostiene que el peor grado de hombre es que un hijo recuerde a su padre y a su madre lo que gasta en ellos, ya que él y su riqueza pertenecen a su padre, y que a los padres no se les da zakat porque están bajo el cuidado de su hijo. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:08:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:09:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:09:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:10:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:11:00} Prohíbe a un marido recordar a su esposa la vida a la que la crió, y a una esposa recordar a su marido su servicio. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:11:30} Dice que Abu Bakr nunca fue conocido por recordarle [[person/bilal-ibn-rabah|a Bilal]] ni a los demás que liberó, y que los ricos Compañeros colgaban comida en la parte trasera de la mezquita para que los pobres la cogieran sin que los ricos supieran quién tomó o los pobres supieran quién dio. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:12:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:12:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:13:00}
