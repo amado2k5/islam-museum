@@ -234,10 +234,11 @@ Open after the restore: `main` still carries the marks (not touched from this la
 - 2026-11-19 04:36 Google Translate document gt-fr-001 imported: `content/es/` 7,954 files, `content/fr/` 4,073 files; `npm run validate` 0 errors.
 - 2026-11-19 04:41 Google Translate document gt-es-001 and gt-fr-001 (repaired markers) and gt-fr-r01 imported: `content/es/` 8,052 files, `content/fr/` 4,777 files; `npm run validate` 0 errors.
 - 2026-11-19 04:44 Google Translate document gt-es-002 imported: `content/es/` 8,715 files, `content/fr/` 4,777 files; `npm run validate` 0 errors.
+- 2026-11-19 04:51 Google Translate document gt-es-abc and gt-fr-abc (marker comparison files) imported: `content/es/` 8,877 files, `content/fr/` 5,012 files; `npm run validate` 0 errors.
 
 ## Explicit gaps
 
-- `content/es/`: 8,715 files of about 34,800 (waves 1 to 8 so far, above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
+- `content/es/`: 8,877 files of about 34,800 (waves 1 to 8 so far, above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
 - `data/*.yaml`: no `label.es` / `summary.es`.
 - Datasets (`edu/`, `kids/`, `tour/`, `cards/`): no `es` fields; the strict loaders still require only ar, en and ur.
 - Spanish Qur'an translation for passage pages: no source chosen or registered (`scripts/harvest/quran/translations.py` takes English and Urdu only). The translation and its licence are pending the founder's confirmation.

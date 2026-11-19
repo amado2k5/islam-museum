@@ -22,7 +22,7 @@ ap.add_argument("--bytes", type=int, default=990_000)
 ap.add_argument("--taken", default="")
 ap.add_argument("--failed", default="")
 ap.add_argument("--ids-file", default="", help="build from these ids (first column) instead of the queue")
-ap.add_argument("--scheme", default="num", choices=["tags", "num"], help="num: markers as 10-digit numbers (80… citation, 81…/82… link start/end)")
+ap.add_argument("--scheme", default="num", help="tags | num (10-digit numbers: 80… citation, 81…/82… link start/end) | link (numeric citations, link labels as Word hyperlinks); several, comma-separated, put each record in once per scheme (to compare them)")
 ap.add_argument("--name", default="")
 a = ap.parse_args()
 skip = set()
@@ -32,7 +32,7 @@ for f in (a.taken, a.failed):
 
 def docx_bytes(paras):
     doc = ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:body>'
-           + "".join(f'<w:p><w:r><w:t xml:space="preserve">{escape(p)}</w:t></w:r></w:p>' for p in paras) + "</w:body></w:document>")
+           + "".join(f"<w:p>{p}</w:p>" for p in paras) + "</w:body></w:document>")
     buf = io.BytesIO()
     with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as z:
         z.writestr("[Content_Types].xml", '<?xml version="1.0" encoding="UTF-8"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/></Types>')
@@ -42,6 +42,19 @@ def docx_bytes(paras):
 
 
 records, paras, sizes, words, est = [], [], [], 0, 0
+def run(t): return f'<w:r><w:t xml:space="preserve">{escape(t)}</w:t></w:r>' if t else ""
+
+
+def render(src, scheme):
+    if scheme == "tags": return run(src)
+    if scheme == "num": return run(numeric(src))
+    src = re.sub(r"\[\[(\d+)\]\]", lambda m: f"({8000000000 + int(m.group(1))})", src)
+    out, pos = "", 0
+    for m in re.finditer(r"<x(\d+)>([^<]*)</x\1>", src):
+        out += run(src[pos:m.start()]) + f'<w:hyperlink w:anchor="x{m.group(1)}">{run(m.group(2))}</w:hyperlink>'; pos = m.end()
+    return out + run(src[pos:])
+
+
 def numeric(src):
     src = re.sub(r"\[\[(\d+)\]\]", lambda m: f"({8000000000 + int(m.group(1))})", src)
     src = re.sub(r"<x(\d+)>", lambda m: f"{8100000000 + int(m.group(1))} ", src)
@@ -61,16 +74,18 @@ for ident in ids:
     if not m: continue
     body = m.group(2)
     if LEVELED.search(body) or BROKEN.search(body): continue
-    rec, new = {"id": ident, "scheme": a.scheme, "lines": []}, [f"#### {len(records) + 1} ####"]
+    lines, srcs = [], []
     for line in body.split("\n"):
         if not line.strip() or line.strip() in (":::", ":::perspectives") or re.fullmatch(r"\s*[-|: ]+\s*", line) or not re.search(r"[A-Za-z]{2}", line):
-            rec["lines"].append({"fixed": line}); continue
+            lines.append({"fixed": line}); continue
         mm = re.match(r"^(#{1,6} |\s*(?:[-*]|\d+\.) +|> ?)(.*)$", line)
         prefix, text = (mm.group(1), mm.group(2)) if mm else ("", line)
         src, kept, links = protect(text)
-        rec["lines"].append({"prefix": prefix, "kept": kept, "links": links, "en": text}); new.append(numeric(src) if a.scheme == "num" else src)
-    est += sum(len(p.encode("utf-8")) for p in new) * 0.36
-    records.append(rec); paras += new; sizes.append(len(new)); words += len(body.split())
+        lines.append({"prefix": prefix, "kept": kept, "links": links, "en": text}); srcs.append(src)
+    for scheme in a.scheme.split(","):
+        new = [run(f"#### {len(records) + 1} ####")] + [render(x, scheme) for x in srcs]
+        est += sum(len(x.encode("utf-8")) for x in srcs) * 0.36
+        records.append({"id": ident, "scheme": scheme, "lines": lines}); paras += new; sizes.append(len(new)); words += len(body.split())
     if est > a.bytes * 1.05: break
 data = docx_bytes(paras)
 while len(data) > a.bytes and len(records) > 1:  # drop whole records from the end until the file fits
