@@ -1,0 +1,12 @@
+---
+id: passage/muwatta-30-2573
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/passage/muwatta-30-2573.md}
+---
+## Resumen
+Malik transmite desde Abu Layla ibn Abdallah ibn Abd al-Rahman ibn Sahl, desde Sahl ibn Abi Hathma, que hombres de los ancianos de su pueblo le dijeron que Abdallah ibn Sahl y Muhayyisa se fueron a Khaybar debido a las dificultades que les habían golpeado. A Muhayyisa le dijeron que Abdallah ibn Sahl había sido asesinado y arrojado a un pozo o a un manantial. Fue a los judíos y les dijo: lo matasteis. Ellos dijeron: por Dios, no lo matamos. Volvió a su pueblo y les dijo. Luego vino con su hermano Huwayyisa y Abd al-Rahman. Muhayyisa fue a hablar, y el Profeta le dijo: el mayor, el mayor, es decir, por edad. Huwayyisa habló y luego Muhayyisa, y el Profeta dijo: o pagan dinero de sangre por vuestro compañero, o deben ser advertidos de la guerra. Les escribió, y ellos respondieron: por Dios, no lo matamos. El Profeta dijo a Huwayyisa, Muhayyisa y Abd al-Rahman: ¿juraréis y reclamaréis la sangre de vuestro compañero? Ellos dijeron: no. Él dijo: ¿entonces los judíos deberían jurarte a ti? Dijeron: no son musulmanes. El Profeta pagó él mismo el dinero de sangre y les envió cien camellos, hasta que los trajeron a la casa. Sahl dijo: un camello rojo me pateó entre ellos. Malik dijo: el pozo es el 'faqir'. El editor señala que los transmisores de Malik difieren en la cadena de este hadiz, y que en algunas rutas el informe de Abu Layla de Sahl ibn Abi Hathma confirma su continuidad. {cite:muwatta-maruf-1997 p.451}
+
+## Lugar en el museo
+Pertenece al [[passage/muwatta-kitab-30-qasama|Muwatta, Libro de Qasama]]. Fuente: [[work/muwatta-malik|el Muwatta]]. Menciona [[person/malik-ibn-anas|a Malik ibn]] Anas, [[person/abu-layla-ibn-abdallah|Abu Layla ibn Abdallah]], [[person/sahl-ibn-abi-hathma|Sahl ibn Abi Hathma]], [[person/abdallah-ibn-sahl|Abdallah ibn Sahl]], [[person/muhayyisa-ibn-masud|Muhayyisa ibn Masud al-Ansari]], [[person/huwayyisa-ibn-masud|Huwayyisa ibn Masud]]. Desarrollado en los capítulos sobre [[concept/qasama|el juramento de los cincuenta (qasama)]] y [[concept/diya|el dinero sangriento (diya)]].

@@ -1,0 +1,12 @@
+---
+id: passage/muwatta-18-2007
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/passage/muwatta-18-2007.md}
+---
+## Resumen
+Malik transmite de Zayd ibn Aslam, de su padre, que dijo: Abdullah y Ubaydullah, los dos hijos de Umar ibn al-Khattab, salieron con un ejército a Irak. Cuando regresaron, pasaron junto a Abu Musa al-Ashari, gobernador de Basora, que les recibió calurosamente y dijo: si hubiera podido hacer algo más útil para vosotros, lo habría hecho. Entonces dijo: aquí hay dinero del dinero de Dios, que quiero enviar al Comandante de los Creyentes. Os lo adelantará; comprad bienes de Irak con él, vendédelos en Medina y pagad el capital al Comandante de los Creyentes, y el beneficio será vuestro. Dijeron: nos gustaría eso. Lo hizo y escribió a Umar ibn al-Khattab para que les quitara el dinero. Cuando llegaron, vendieron y obtuvieron un beneficio. Cuando se lo entregaron a Umar, él dijo: ¿recibió cada soldado del ejército un adelanto como vosotros? Dijeron que no. Umar dijo: sois los hijos del Comandante de los Creyentes, así que os lo adelanté; pagad el dinero y su beneficio. Abdullah guardó silencio, pero Ubaydullah dijo: esto no es correcto para ti, Comandante de los Creyentes; si el dinero se hubiera reducido o se hubiera perdido, lo habríamos garantizado. Umar dijo: págalo. Abdullah guardó silencio, y Ubaydullah siguió discutiendo. Un hombre sentado con Umar dijo: Comandante de los Creyentes, si lo hiciera un acuerdo de reparto en beneficios. Umar dijo: Lo he hecho así. Umar recuperó el capital y la mitad de las ganancias, y Abdullah y Ubaydullah se quedaron con la mitad de las ganancias. {cite:muwatta-maruf-1997 p.221}
+
+## Lugar en el museo
+Pertenece [[passage/muwatta-kitab-18-qiraad|al Muwatta, Libro de la Participación en Beneficios (qiradh)]]. Fuente: [[work/muwatta-malik|el Muwatta]]. Menciona [[person/malik-ibn-anas|a Malik ibn]] Anas, [[person/zayd-ibn-aslam|Zayd ibn Aslam]], [[person/abdullah-ibn-umar|Abdullah ibn Umar ibn al-Khattab]], [[person/ubaydallah-ibn-umar|Ubaydullah ibn Umar]], [[person/umar-ibn-al-khattab|Umar ibn al-Khattab]], [[person/abu-musa-al-ashari|Abu Musa al-Ashari]]. Desarrollado en los capítulos sobre [[concept/qiradh|reparto en beneficios (qiradh)]] y [[concept/salaf|compra anticipada (salaf)]].
