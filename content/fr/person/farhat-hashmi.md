@@ -1,0 +1,23 @@
+---
+id: person/farhat-hashmi
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/farhat-hashmi.md}
+---
+# Farhat Hashmi
+
+## Résumé
+Farhat Hashmi est une érudite islamiste et prédicatrice pakistano-canadienne, fondatrice de la Fondation internationale d'aide sociale Al-Huda. {cite:wikipedia-farhat-hashmi-en} Née à Sargodha en 1957, elle a obtenu son doctorat à l'Université de Glasgow, a enseigné à l'Université islamique internationale d'Islamabad et a transformé Al-Huda en un réseau d'écoles enseignant aux femmes le Coran et les Hadiths au Pakistan, au Canada et à l'étranger. {cite:wikipedia-farhat-hashmi-en} {cite:wikipedia-farhat-hashmi-ur}
+
+## Vie et carrière
+Hashmi est née à Sargodha, Pendjab, le 22 décembre 1957 ; son père, Abdur Rehman Hashmi, était un érudit et un leader local du Jamaat-e-Islami Pakistan, et sa première éducation religieuse s'est déroulée à domicile. {cite:wikipedia-farhat-hashmi-en} Elle a étudié au Government College for Women à Sargodha et a obtenu un master en arabe à l'Université du Pendjab à Lahore ; elle et son mari, le spécialiste des hadiths Muhammad Idrees Zubair, ont occupé des postes de chargé de cours à l'Université Islamique internationale d'Islamabad, avant tous deux de partir en Écosse pour des doctorats en études islamiques à l'Université de Glasgow. {cite:wikipedia-farhat-hashmi-en} {cite:wikipedia-farhat-hashmi-ur} Pendant qu'elle enseignait à l'université, elle avait commencé des cours religieux informels pour les femmes, et en 1994 elle a fondé Al-Huda International, un fonds de bienfaisance enseignant aux femmes à comprendre le Coran et les Hadith et à les appliquer dans la vie quotidienne ; ses diplômés de diplôme et de certificat comptent des dizaines de milliers, et ses cours DARS attirent des foules pouvant aller jusqu'à dix mille personnes. {cite:wikipedia-farhat-hashmi-en} {cite:wikipedia-farhat-hashmi-ur} La fondation a ouvert l'Institut Al-Huda à Mississauga, Canada, en 2004, et elle a émigré au Canada en 2005. {cite:wikipedia-farhat-hashmi-en} Elle est devenue prédicatrice télévisée sur Geo TV, animant Shahru Ramadan et Fahm ul Coran, apparaissant toujours voilée et enseignant depuis son ordinateur portable — une image décrite en recherche comme alliant traditionalisme et maîtrise des médias. {cite:wikipedia-farhat-hashmi-en} Elle figure dans The Muslim 500. {cite:wikipedia-farhat-hashmi-en}
+
+## Positions et foi
+Cette section doit être lue comme une présentation de ce que donnent les sources, et non comme un verdict du musée.
+
+La mission déclarée de Hashmi est un renouveau de l'islam par la compréhension directe des Écritures fondamentales : elle encourage ses élèves à interpréter le Coran par eux-mêmes sur la base de preuves solides, favorise la participation des femmes à la vie religieuse quotidienne — y compris prier en dehors du foyer et diriger leurs propres prières — et occupe des postes tels que permettre aux femmes de toucher et de réciter le Coran pendant leurs règles avec des gants pendant les études ou l'enseignement. {cite:wikipedia-farhat-hashmi-en} Son enseignement a suscité des critiques de directions opposées : des chercheurs conservateurs qui nient qu'une femme puisse être érudite et interprète, et des critiques libéraux et laïques qui jugent ses doctrines inflexibles et s'opposent à sa défense de la polygamie. {cite:wikipedia-farhat-hashmi-en} Sur l'affiliation, le dossier est délibérément désaligné : la boîte d'information de l'article en anglais laisse son credo vierge, ses catégories la classent parmi les salafistes canadiens et pakistanais, des critiques comme Raheel Raza l'ont qualifiée de wahhabite, et le même article rapporte — citant Akbar Ahmed — que Hashmi et Al-Huda affirment ne suivre aucune secte particulière et se qualifient simplement de musulmans. {cite:wikipedia-farhat-hashmi-en} Les déclarations de catégorie et les étiquettes des opposants ne constituent pas une attestation, et la direction Jamaat-e-Islami de son père est d'origine familiale ; aucune source indépendante ne nomme personnellement une école pour elle, donc aucune valeur de foi n'est enregistrée pour elle. {cite:wikipedia-farhat-hashmi-en} {cite:wikidata-farhat-hashmi}
+
+## Références
+- Les sources définies citées ci-dessus, enregistrées à `data/source/`.
+- Les traductions et corrections ultérieures de cet article nécessitent un examen périodique avec des dates de mise à jour claires.
