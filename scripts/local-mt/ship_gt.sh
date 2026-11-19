@@ -58,7 +58,8 @@ AI-Agent: Claude Code
 AI-Model: $MODEL (translation); claude-fable-5-2 (management)
 AI-Editor: Claude desktop app
 Co-Authored-By: Claude Fable 5.2 <noreply@anthropic.com>" || exit 1
-git fetch -q origin; git merge -q --no-edit origin/release/spanish || { echo "MERGE CONFLICT with release/spanish"; exit 1; }
+git fetch -q origin; git merge -q --no-edit "origin/$BRANCH" 2>/dev/null  # another session may have pushed a merge onto this branch
+git merge -q --no-edit origin/release/spanish || { echo "MERGE CONFLICT with release/spanish"; exit 1; }
 git push -q origin "$BRANCH" || exit 1
 URL=$(gh pr create --base release/spanish --head "$BRANCH" --title "$ENGINE $WHAT: $N records (es $ES, fr $FR)" --body "Into \`release/spanish\`; nothing goes to \`main\`. $N records translated from English $SITE and imported by \`scripts/local-mt/import_gt.py\`. Totals: \`content/es/\` $ES files, \`content/fr/\` $FR files. Every record passed the checks against its English source; not read by a human. \`npm run validate\`: $VALNOTE.
 
