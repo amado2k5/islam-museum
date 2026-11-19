@@ -1,0 +1,39 @@
+---
+id: passage/muwatta-kitab-31-jami
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/passage/muwatta-kitab-31-jami.md}
+---
+## Visión general
+El Libro de Miscelánea (Jami') es el trigésimo primer libro de la [[work/muwatta-malik|Muwatta]] en la transmisión de [[person/yahya-ibn-yahya-al-laythi|Yahya ibn Yahya al-Laythi]] de [[person/malik-ibn-anas|Malik ibn Anas]], en la edición de Bashshar Awwad Ma'ruf (1997), en el segundo volumen. Ocupa las páginas 461 a 604 en la paginación PDF y contiene 272 textos numerados (2590–2861) en ochenta y nueve capítulos. Es el último libro del texto Muwatta en este volumen; los índices generales le siguen. Reúne hadices dispersos e informes sobre Medina y su gente, destino, carácter, vestimenta, comida y bebida, medicina, saludos y peticiones de permiso, viajes, esclavos, caridad, conocimiento y los nombres del Profeta. {cite:muwatta-maruf-1997 p.461} {cite:muwatta-maruf-1997 p.604}
+
+## Lo que el libro recopila
+- **Medina y su gente** (2590–2615, capítulos 1–7): súplica por Medina y su pueblo, vivir y abandonarla, su santidad, su peste, la expulsión de los judíos de ella y la peste. {cite:muwatta-maruf-1997 p.461} {cite:muwatta-maruf-1997 p.472}
+- **Destino** (2616–2625, capítulos 8–9): la prohibición de hablar sobre el destino y lo que se informa sobre sus seguidores. {cite:muwatta-maruf-1997 p.477} {cite:muwatta-maruf-1997 p.485}
+- **Buen carácter, modestia, ira, emigración y apretones de manos** (2626–2643, capítulos 10–14). {cite:muwatta-maruf-1997 p.485} {cite:muwatta-maruf-1997 p.496}
+- **Vestimenta y adorno** (2644–2664, capítulos 15–22): llevar ropa para la belleza, tela teñida, oro y seda, lo que no es del gusto de las mujeres, dejar que la prenda cuelgue y sandalias. {cite:muwatta-maruf-1997 p.496} {cite:muwatta-maruf-1997 p.505}
+- **La descripción del Profeta, fitra, comer y beber** (2665–2701, capítulos 23–32): la descripción del Profeta, la descripción de Jesús y el Anticristo, la fitra, la prohibición de comer con la mano izquierda, el pobre, el estómago del incrédulo, beber de vasijas de plata, beber de pie, y la Sunna beber. {cite:muwatta-maruf-1997 p.505} {cite:muwatta-maruf-1997 p.515}
+- **Comida, medicina y visitar a los enfermos** (2702–2724, capítulos 33–42): comer carne, llevar un anillo, quitarse los amuletos colgantes, ablución del mal de ojo, invocación, la recompensa de los enfermos, buscar refugio, tratar a los enfermos, bañarse en agua para la fiebre, visitar a los enfermos y presagios. {cite:muwatta-maruf-1997 p.524} {cite:muwatta-maruf-1997 p.535}
+- **Poesía, amor mutuo, sueños y gammon** (2725–2755, capítulos 43–49). {cite:muwatta-maruf-1997 p.535} {cite:muwatta-maruf-1997 p.549}
+- **Saludo, solicitud de permiso, bendecir al estornudado e imágenes** (2756–2773, capítulos 50–55): trabajar en saludar, saludar a la gente del Libro, informes generales sobre el saludo, pedir permiso, decir una bendición para quien estornuda, y imágenes y estatuas. {cite:muwatta-maruf-1997 p.549} {cite:muwatta-maruf-1997 p.559}
+- **Animales, viajes, ventosas, mal presagio y la matanza de serpientes** (2774–2803, capítulos 56–66): comer el lagarto dhabb, el asunto de perros y ovejas, un ratón en mantequilla clarificada, mal presagio, nombres detestados, cupping, oriente, matar serpientes y viajar solo. {cite:muwatta-maruf-1997 p.559} {cite:muwatta-maruf-1997 p.574}
+- **Viaje, esclavos, la promesa y los peligros de la lengua** (2804–2827, capítulos 67–76): trabajar en un viaje, bondad hacia los esclavos, el regalo de un esclavo, el juramento, lo que no gusta en el discurso y la cautela en él, la interrupción y la prohibición de conversaciones privadas entre dos personas en detrimento de una tercera. {cite:muwatta-maruf-1997 p.575} {cite:muwatta-maruf-1997 p.586}
+- **Veracidad, mentira, derroche de propiedad y los hipócritas** (2828–2836, capítulos 77–79). {cite:muwatta-maruf-1997 p.588} {cite:muwatta-maruf-1997 p.591}
+- **Piedad, trueno, la propiedad del Profeta y la descripción del infierno** (2837–2843, capítulos 80–83). {cite:muwatta-maruf-1997 p.591} {cite:muwatta-maruf-1997 p.593}
+- **Caridad y abstención de pedir** (2844–2858, capítulos 84–86): estímulo a la caridad, abstención de pedir y qué es detestado en la caridad. {cite:muwatta-maruf-1997 p.594} {cite:muwatta-maruf-1997 p.601}
+- **Buscando conocimiento, la súplica de los agraviados y los nombres del Profeta** (2859–2861, capítulos 87–89). {cite:muwatta-maruf-1997 p.602} {cite:muwatta-maruf-1997 p.604}
+
+## El método de Malik en el libro
+Malik da muchos relatos en este libro como "balaghat" (relatos que le llegaron sin una cadena con nombre), y transmite unos cuarenta textos en la frase "le alcanzó" o "me llegó a mí". Entre ellos hay informes atribuidos a Umar ibn al-Khattab, Aisha, Abd Allah ibn Masud y otros. Transmite mucho de Abd Allah ibn Umar, incluyendo hadices sobre caridad, el juramento, conversaciones privadas y serpientes. A veces comenta lo que transmite con una palabra que indica que se está reprimiendo, como cuando dice sobre un informe del Profeta: No sé si este hadiz se eleva al Profeta o no. {cite:muwatta-maruf-1997 p.599} {cite:muwatta-maruf-1997 p.600}
+
+## Notas del editor
+El editor expone en sus notas las rutas transmitidas por Malik en cada capítulo, y registra las variaciones entre los transmisores, junto con la crítica de Ibn Abd al-Barr en al-Tamhid. Por ejemplo, Ibn Abd al-Barr sostuvo que el hadiz de Sahl ibn Hunayf en la historia de Abu Talha fue un error, y que el nombre correcto es Uthman ibn Hunayf. El editor no estuvo de acuerdo con Ibn Abd al-Barr e Ibn Hajar en este punto, y dijo que el juicio de que Ubayd Allah ibn Abd Allah no cumplió con Sahl es cuestionable. {cite:muwatta-maruf-1997 p.556} {cite:muwatta-maruf-1997 p.558}
+Sobre la frase "shu'b al-jibal" (senderos de montaña) en el hadiz de las ovejas, Ibn Abd al-Barr consideró el informe un error, mientras que el editor sostiene que esta crítica es cuestionable, porque su significado se repite en el hadiz de Abu Hurayra en musulmán. {cite:muwatta-maruf-1997 p.563}
+Sobre el informe de Ka'b al-Ahbar sobre Irak, el editor sostiene que el informe está cortado, y que si Ka'b lo transmitió, lo tomó de libros judíos. {cite:muwatta-maruf-1997 p.570}
+Sobre el hadiz de la insulta, el editor señala que «Hanthab» es el nombre correcto del narrador, y que la forma en la transmisión de Yahya es «Huwaytib», y cita a Ibn Abd al-Barr al respecto. {cite:muwatta-maruf-1997 p.585}
+Sobre el informe de Abd Allah ibn Abi Bakr sobre el recaudador de caridad, el editor señala que Ahmad ibn Mansur al-Tali la transmitió conectada desde Anas, y sostiene que esta transmisión no puede ser fiada en comparación con quien la transmitió cortada. {cite:muwatta-maruf-1997 p.601}
+Sobre los nombres del Profeta, el editor señala que la transmisión de Yahya está cortada, que Ma'n ibn Isa la transmitió conectada con Jubayr ibn Mut'im, y que al-Bukhari la incluyó, por lo que la transmisión conectada es la primera. {cite:muwatta-maruf-1997 p.604}
+
+## Su lugar en el museo
+Cada texto del libro tiene su propio registro. Nombra al narrador más alto y el capítulo, da el contenido del informe en la propia redacción del museo y registra el takhrij del editor donde sea necesario. Los capítulos principales se presentan en la Descripción general y en "Lo que el libro recopila", con los números de los textos y las páginas de la edición. Véase [[person/abu-hurayra|Abu Hurayra]] y [[person/abdullah-ibn-umar|Abd Allah ibn Umar]] para la mayoría de los informes relacionados con el Profeta en el libro. {cite:muwatta-maruf-1997 p.461}
