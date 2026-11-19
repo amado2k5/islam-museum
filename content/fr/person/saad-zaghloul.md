@@ -1,0 +1,25 @@
+---
+id: person/saad-zaghloul
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/saad-zaghloul.md}
+---
+
+# Saad Zaghloul
+
+## Résumé
+Saad Zaghloul (décédé le 23 août 1927) était le dirigeant national égyptien connu sous le nom de Za'im al-Umma, « Chef de la nation » : juge, ministre de l'Éducation et de la Justice, chef de la délégation dont la revendication d'indépendance déclencha la révolution de 1919, exil à Malte et aux Seychelles, et en 1924 premier ministre du parti Wafd qu'il fonda. Son année de naissance est contestée dans les sources — 1859 est suivie ici, avec 1857, 1858 et 1860 également mentionnés — et le différend est exposé ci-dessous plutôt que caché. {cite:wikipedia-saad-zaghloul-en} {cite:wikipedia-saad-zaghloul-ar}
+
+## De l'Ibyana au ministère
+Il est né dans le village d'Ibyana dans le delta du Nil — alors à la direction de Gharbia, aujourd'hui à Kafr el-Sheikh — fils du chef du village, décédé alors que Saad avait cinq ans, le laissant orphelin aux côtés de son frère cadet Ahmad Fathy Zaghlul, plus tard juge et traducteur. Il étudia à al-Azhar et à l'École de droit égyptienne, l'article mentionnant également une faculté de droit française au Caire, et exerça comme avocat avant sa nomination comme juge à la Cour d'appel en 1892. Son mariage avec Safiya, fille du Premier ministre Mustafa Fahmi Pacha, le rejoignit dans la classe dirigeante qu'il défierait plus tard. En 1906, il devint ministre de l'Éducation, puis ministre de la Justice, démissionnant en 1912 après un désaccord avec le khédive Abbas II ; en 1913, il devint vice-président de l'Assemblée législative et utilisa ce poste pour critiquer le gouvernement. {cite:wikipedia-saad-zaghloul-en} {cite:wikipedia-saad-zaghloul-ar}
+
+## Le Wafd, l'exil et la présidence du Premier ministre
+Le 13 novembre 1918, deux jours après l'armistice, Zaghloul et deux collègues demandèrent au haut-commissaire britannique l'abolition du protectorat et la représentation de l'Égypte aux négociations de paix — la délégation, wafd en arabe, qui donna son nom à son parti. Les Britanniques exigèrent qu'il mette fin à son agitation ; il refusa, et ils l'exilièrent à Malte puis aux Seychelles. Son arrestation et son exil déclenchèrent la révolution égyptienne de 1919. Transféré à Gibraltar pour des raisons de santé, il fut libéré en 1923, revint pour remporter massivement les élections du 12 janvier 1924, et forma le premier gouvernement wafdiste le 26 janvier 1924. Après l'assassinat de Sir Lee Stack, le Sirdar, le 19 novembre 1924, les Britanniques présentèrent des revendications qu'il jugeait inacceptables, et il démissionna le 24 novembre 1924. Il n'occupa plus jamais la fonction de Premier ministre, mais à partir du 10 juin 1926, il présida la Chambre des députés et resta la figure politique dominante du pays jusqu'à sa mort au Caire le 23 août 1927. Il est enterré avec son épouse dans leur mausolée, Bayt al-Umma — la Maison de la Nation — au Caire. {cite:wikipedia-saad-zaghloul-en} {cite:wikipedia-saad-zaghloul-ar}
+
+## Son année de naissance, et la question de sa foi
+Sa naissance est un registre véritablement incertain. La boîte d'information de l'article anglais indique le 1er juillet 1859, et la valeur du jour de Wikidata est la même, référencée au fichier d'autorité de la bibliothèque nationale française ; mais la chronologie de l'article anglais indique juillet 1857, l'article arabe le date de 1858 dans son début et précise dans son texte que les rapports s'opposent — juillet 1857 dans certains, juillet 1858 dans d'autres, et juin 1860 avec les registres du certificat de droit qu'il a obtenu. Le musée suit 1859 et marque la date débattue, toutes les lectures figurant dans le dossier. Sa foi présente le problème inverse : une attestation apparente qui se dissout à l'inspection. Le texte de l'article anglais ne mentionne jamais sa religion ; ses catégories le classent sous la catégorie « musulmans égyptiens », et une catégorie est un dossier, non une source. Wikidata porte deux valeurs, l'islam et l'islam sunnite, mais les deux ont été importées d'un même projet Wikimedia — une famille de sources portant deux casquettes. Son éducation à al-Azhar et sa formation dans le cercle réformateur de Muhammad Abduh sont des faits documentés dans sa biographie, mais l'éducation et l'association ne donnent pas le nom de l'homme lui-même à une école. Selon la règle du musée — deux sources indépendantes nommant l'école, ou la valeur demeure inconnue — sa foi est enregistrée de manière inconnue. {cite:wikipedia-saad-zaghloul-en} {cite:wikipedia-saad-zaghloul-ar} {cite:wikidata-saad-zaghloul}
+
+## Sources
+- Les entités sources définies citées ci-dessus, enregistrées dans `data/source/`.
+- Les révisions de cet article doivent être datées et doivent indiquer la source qui a modifié chaque fait.
