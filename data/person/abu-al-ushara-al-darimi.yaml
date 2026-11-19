@@ -1,11 +1,12 @@
 id: person/abu-al-ushara-al-darimi
 class: person
-label: { ar: "أبو العشراء الدارمي", en: "Abu al-Ushara al-Darimi" }
+label: { ar: "أبو العشراء الدارمي", en: "Abu al-Ushara al-Darimi", fr: "Abu al-Ushara al-Darimi" }
 names:
   - { value: "أبو العشراء الدارمي التميمي، قيل: اسمه يسار بن بكر بن مسعود", kind: full }
 summary:
   ar: "راوٍ روى عن أبيه، وعنه حماد بن سلمة، ونُسب إليه خمسة عشر حديثا عن النبي، قال ابن حجر إن أسانيدها مظلمة، وذكره ابن حبان في الثقات، وقال ابن سعد إنه مجهول، وقال البخاري إن في اسمه وحديثه وسماعه من أبيه نظرا. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5142} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5143}"
   en: "A transmitter who narrated from his father, and from whom Hammad ibn Salama narrated. Fifteen reports from the Prophet are attributed to him. Ibn Hajar said their chains are dark, Ibn Hibban counted him among the trustworthy, Ibn Sa'd called him unknown, and al-Bukhari said his name, his report and his hearing from his father are open to doubt. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5142} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5143}"
+  fr: "Transmetteur qui rapporta de son père, et de qui Hammad ibn Salama rapporta. Quinze récits remontant au Prophète lui sont attribués. Ibn Hajar dit que leurs chaînes sont obscures, Ibn Hibban le compta parmi les dignes de confiance, Ibn Sa'd le dit inconnu, et al-Bukhari dit que son nom, son récit et son audition de son père sont sujets à caution. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5142} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5143}"
 gender: male
 roles: [scholar]
 wings: [people]
@@ -21,4 +22,4 @@ provenance:
   run: mawsua-w03-batch39
 died: { edtf: "720~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar, Tahdhib al-Tahdhib; al-Bukhari, al-Tarikh al-Kabir" }
 relations:
-  - { type: lived_in, target: place/bukhara, note: "Place association from the person's nisba/name (البخاري); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }
+  - { type: lived_in, target: place/bukhara, note: "Place association from the person's nisba/name ⁦(البخاري)⁩; denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

@@ -1,0 +1,18 @@
+---
+id: place/atlas-mountains
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/place/atlas-mountains.md}
+---
+
+## Nombres y descripciones iniciales
+Atlas es el nombre genérico de las montañas del norte de África, en Marruecos, Argelia y Túnez. Su origen es desconocido, pero los griegos ya lo utilizaban, y Estrabón ofrece pocos detalles. Los geógrafos árabes fueron imprecisos y a menudo aplicaron el nombre a cadenas montañosas llamadas Adrar n-Deren, término reservado en realidad para el Alto Atlas marroquí y el Atlas sahariano de Argelia. Ibn Khaldun consideró que las cadenas de Deren formaban un cinturón alrededor del Magreb de Al-Aqsa, desde Asfi hasta Taza. León el Africano distinguió las cadenas septentrionales del Atlas en sentido estricto, y Mármol denominó al Pequeño y al Gran Atlas. Los geólogos franceses del último medio siglo determinaron su estructura. {cite:encyclopaedia-of-islam-2 vol. 1 p. 797}
+
+## Estructura y las grandes regiones
+Las cadenas montañosas del Atlas son montañas plegadas relacionadas con las cadenas montañosas terciarias de Europa, elevadas nuevamente por los movimientos tectónicos del Plioceno y el Cuaternario. El Sáhara comienza al sur de la falla del Atlas Meridional, que se extiende desde Agadir hasta Gabes, por lo que el Dabar del sur de Túnez y el Nefusa no forman parte del Atlas. El Anti-Atlas es un gran macizo asimétrico de rocas precámbricas y primarias, que se eleva por encima de los 2500 metros y desciende hacia las depresiones del Sus y el Dades, hacia la sierra granítica y volcánica de Sirwa (3304 m) y hacia las llanuras de Dra y Tafilalet. El Alto Atlas es un enorme pliegue fundamental de unos 750 km de longitud, que se eleva por encima de los 4000 metros (Tubkal 4165 m, Mgun 4070 m), con vestigios de glaciación cuaternaria. El Atlas Medio, con el Ben Nacer (3354 m), tiene el mismo estilo que el Alto Atlas, y su noroeste desciende en mesetas escalonadas cubiertas de conos volcánicos; da origen a los principales ríos de Marruecos, el Oum er-Rebia, el Sebou y el Moulouya. {cite:encyclopaedia-of-islam-2 vol. 1 p. 797-798}
+
+El Atlas Sahariano de Argelia continúa el Alto Atlas a través de los macizos del Ksur, el Amur, el Ouled Nail y el Zab, que pierden altura hacia el noreste. Más allá de la depresión de Biskra se eleva el Aures, el único macizo del Atlas Sahariano y la montaña más alta de Argelia (2329 m en el Chelia). El Dorsal tunecino y el Alto Tell, el Rif y el Atlas Telliano de Orán y Argel forman las montañas que bordean el Mediterráneo. El Rif es una cadena montañosa en forma de media luna desde Ceuta hasta Melilla (2450 m en el Tidighine). Las montañas Dahra y Miliana y el Ouarsenis (1985 m) se encuentran en el Telliano argelino, y el Djurdjura, el Babor (2004 m) y las montañas de Cabilia en el este. El Atlas convierte al norte de África en un país de cadenas montañosas que rodean llanuras a menudo elevadas y áridas. {cite:encyclopaedia-of-islam-2 vol. 1 p. 798-799}
+
+## Su papel en la historia del Magreb
+El relieve acentúa los contrastes climáticos entre el Mediterráneo y el Sáhara, y domina las regiones del Tell, las estepas de las altas llanuras y el desierto del piedemonte sahariano. Los principales macizos constituían entornos geográficos originales que desempeñaron un papel considerable, aunque mayoritariamente negativo, en la historia del Magreb. {cite:encyclopaedia-of-islam-2 vol. 1 p. 799}

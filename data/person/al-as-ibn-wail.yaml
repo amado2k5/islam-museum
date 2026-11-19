@@ -12,7 +12,7 @@ wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
-  - { role: opponent, status: tradition, note: "صاحب المظلمة التي كانت سبب الحلف (الرحيق ص60).", sources: [source/mubarakpuri-raheeq] }
+  - { role: opponent, status: tradition, note: "صاحب المظلمة التي كانت سبب الحلف ⁦(الرحيق ص60)⁩.", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: arabian-polytheism, basis: tradition, note: "قرشي ما قبل الإسلام." }
 died: { edtf: "622", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham (al-Sira)" }
@@ -23,7 +23,7 @@ occupations:
     note: "merge-map link from role 'merchant', Job Browser linking wave"
     sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mukhtasar-sirat-al-rasul-al-najdi]
 relations:
-  - { type: lived_in, target: place/zabid, note: "Place association from the person's nisba/name (الزبيدي); denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mukhtasar-sirat-al-rasul-al-najdi], confidence: low }
+  - { type: lived_in, target: place/zabid, note: "Place association from the person's nisba/name ⁦(الزبيدي)⁩; denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mukhtasar-sirat-al-rasul-al-najdi], confidence: low }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/hilf-al-fudul, role: "المطلوب إلى حق الزبيدي", sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mukhtasar-sirat-al-rasul-al-najdi]

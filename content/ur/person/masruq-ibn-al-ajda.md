@@ -13,4 +13,4 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 انہوں نے [[person/abdullah-ibn-masud|عبداللہ بن مسعود]] سے علم حاصل کیا۔ {cite:tabaqat-fuqaha-abbas-1981}
 
 ## وفات
-انسائیکلوپیڈیا ان کی وفات سنہ 63 ہجری (683ء) بیان کرتا ہے، جو رائج روایت کے مطابق ہے۔ {cite:mawsuat-a3lam-ulama-adaba}
+انسائیکلوپیڈیا ان کی وفات سنہ 63 ہجری ⁦(683ء)⁩ بیان کرتا ہے، جو رائج روایت کے مطابق ہے۔ {cite:mawsuat-a3lam-ulama-adaba}

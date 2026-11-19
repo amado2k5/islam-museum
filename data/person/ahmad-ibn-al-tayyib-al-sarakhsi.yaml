@@ -1,9 +1,10 @@
 id: person/ahmad-ibn-al-tayyib-al-sarakhsi
 class: person
-label: { ar: "أحمد بن الطيب السرخسي", en: "Ahmad ibn al-Tayyib al-Sarakhsi" }
+label: { ar: "أحمد بن الطيب السرخسي", en: "Ahmad ibn al-Tayyib al-Sarakhsi", fr: "Ahmad ibn al-Tayyib al-Sarakhsi" }
 summary:
   ar: "صاحب يعقوب بن إسحاق الكندي، ولي الحسبة ببغداد وكان موضعه من الفلسفة لا يجهل وله مصنفات في أنواع الفلسفة وفنون الأخبار، قبض عليه المعتضد سنة ثلاث وثمانين ومائتين وسلمه إلى بدر غلامه وقرر جوازيه على المال حتى استخرجوا مائة ألف دينار وخمسين ألفاً من العين والورق وثمن الآلات، وتنازع الناس في كيفية قتله وسببه {cite:muruj-al-dhahab p. 620-621}."
   en: "Al-Kindi's pupil and Baghdad's muhtasib, whose confiscation and killing under al-Mu'tadid yielded 150,000 dinars {cite:muruj-al-dhahab p. 620-621}."
+  fr: "Élève d'al-Kindi et muhtasib de Bagdad, dont la confiscation des biens et la mise à mort sous al-Mu'tadid rapportèrent 150 000 dinars {cite:muruj-al-dhahab p. 620-621}."
 gender: male
 wings: [people]
 provenance:
@@ -19,4 +20,4 @@ status:
   completeness: 3
 died: { edtf: "899", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rosenthal (Ahmad b. at-Tayyib as-Sarahsi); EI2 Confirmed on 13 November 2026 against Wikidata Q4117210 (P570, a statement with a reference), item revision 2551443575.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/sarakhs, note: "Place association from the person's nisba/name (السرخسي); denotes association, not proven residence.", sources: [source/muruj-al-dhahab], confidence: low }
+  - { type: lived_in, target: place/sarakhs, note: "Place association from the person's nisba/name ⁦(السرخسي)⁩; denotes association, not proven residence.", sources: [source/muruj-al-dhahab], confidence: low }

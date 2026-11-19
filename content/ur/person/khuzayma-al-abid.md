@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b45, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/130-131" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b45, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/130-131" }
 ---
 ## خلاصہ
 خزیمہ ابو محمد عابد۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 473)⁩ صفحات 130 اور 131 پر ان کا ترجمہ لکھا ہے؛ ان پر غالب حالت اپنا اختیار چھوڑنا، اور مسلسل عاجزی و محتاجی تھی۔ سرخی میں ان کی نسبت اسکین میں دھندلی ہے، اس لیے یہاں درج نہیں کی گئی۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/130-131}

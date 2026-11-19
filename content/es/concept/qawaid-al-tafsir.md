@@ -1,0 +1,20 @@
+---
+id: concept/qawaid-al-tafsir
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/qawaid-al-tafsir.md}
+---
+## Resumen
+Los principios y reglas de la exégesis son reglas generales que ayudan al exegeta a comprender las palabras y significados del Corán. Un ejemplo posterior es el apéndice con el que [[person/abd-al-rahman-ibn-nasir-al-sadi|al-Sa'di]] cerró su [[work/taysir-al-karim-al-rahman|Taysir al-Karim al-Rahman]], titulado 'Principios y generalidades de la exégesis de las que ningún exegeta del Corán puede prescindir'; la edición Obeikan lo imprime al final del libro. {cite:taysir-karim-rahman-obeikan-2001 p.939} {cite:taysir-karim-rahman-obeikan-2001 p.941}
+
+## Reglas sobre la redacción
+- Un sustantivo indefinido tras una negación, prohibición, pregunta o condición es general, al igual que un sustantivo singular en una construcción genitiva; dondequiera que encuentres esto, incluye todo lo que cubre la palabra y no mires solo la ocasión de la revelación, pues la redacción general rige, no la ocasión particular. {cite:taysir-karim-rahman-obeikan-2001 p.941}
+- Los acontecimientos pasados y nuevos deben situarse bajo las declaraciones generales del Corán; esto muestra que el Corán lo explica todo. {cite:taysir-karim-rahman-obeikan-2001 p.941}
+- El artículo definido sobre descripciones y sustantivos genéricos indica que todo lo que cubren está incluido. {cite:taysir-karim-rahman-obeikan-2001 p.941}
+- A él le siguen las implicaciones, condiciones y corolarios necesarios de un significado; los versículos que parecen entrar en conflicto se leen cada uno en la situación que les conviene. {cite:taysir-karim-rahman-obeikan-2001 p.941} {cite:taysir-karim-rahman-obeikan-2001 p.942}
+- Omitir objetos y similares indica que el significado es general, pero no puede aportarse nada que ni el contexto ni las circunstancias indiquen; las sentencias vinculadas a condiciones muestran que esas condiciones son necesarias. {cite:taysir-karim-rahman-obeikan-2001 p.942}
+- Un mandamiento de Dios prohíbe a su opuesto, una prohibición manda a su opuesto, y negar una deficiencia de Él afirma la perfección opuesta a éste. {cite:taysir-karim-rahman-obeikan-2001 p.942}
+
+## Generalidades del significado
+Al-Sa'di también recoge generalidades sobre a qué llama el Corán: la unidad de Dios, mencionando sus nombres, atributos y actos; la veracidad del Mensajero, mostrando la solidez de lo que trajo; y el retorno, mencionando el poder perfecto de Dios y el renacimiento de la tierra tras su muerte. {cite:taysir-karim-rahman-obeikan-2001 p.941} Luego ofrece definiciones concisas de muchos términos coránicos: fe, actos justos y piedad; orientación y error; excelencia (ihsan) y puesta en razón; certeza y paciencia en sus tres tipos; gratitud, miedo, esperanza, recurrir a Dios y sinceridad; arrogancia, justicia, veracidad y confianza. {cite:taysir-karim-rahman-obeikan-2001 p.942} {cite:taysir-karim-rahman-obeikan-2001 p.943} Sostiene que todo el Corán es 'claro' en el sentido de que coincide con la sabiduría y que el conjunto es 'similar' en su elocuencia uniforme y confirmación mutua, mientras que parte de él es claro y parte ambiguo en que lo ambiguo es lo que admite un significado general o incierto y se refiere a lo claro; y que el 'estar con' de Dios es de dos tipos: general, por conocimiento y abarcador, y particular, por ayuda y apoyo. {cite:taysir-karim-rahman-obeikan-2001 p.944} Señala que 'umma' en el Corán tiene cuatro sentidos — un grupo de personas (el más común), un periodo, una religión o credo, y un líder en el bien — un ejemplo de [[concept/al-wujuh-wal-nazair|polisemia y paralelismos]]. {cite:taysir-karim-rahman-obeikan-2001 p.944} {cite:taysir-karim-rahman-obeikan-2001 p.945}

@@ -13,7 +13,7 @@ relations:
   - { type: occurred_at, target: place/kabul }
 wings: [time]
 date:
-  start: { edtf: "0683~", hijri: "0063~", calendar: julian, precision: year, status: tradition, derived: true, note: "«فلما كان موت يزيد أو قبل ذلك بقليل، غدر أهل كابل» — عند موت يزيد بن معاوية (ربيع الأول ٦٤) أو قبيله بقليل؛ التحويل مشتق {cite:futuh-buldan-maarif-1407}.", sources: [source/futuh-buldan-maarif-1407] }
+  start: { edtf: "0683~", hijri: "0063~", calendar: julian, precision: year, status: tradition, derived: true, note: "«فلما كان موت يزيد أو قبل ذلك بقليل، غدر أهل كابل» — عند موت يزيد بن معاوية ⁦(ربيع الأول ٦٤)⁩ أو قبيله بقليل؛ التحويل مشتق {cite:futuh-buldan-maarif-1407}.", sources: [source/futuh-buldan-maarif-1407] }
 sides:
   - label: { ar: "جيش يزيد بن زياد بن أبيه", en: "Yazid ibn Ziyad ibn Abihi's army" }
     commanders: [person/yazid-ibn-ziyad-ibn-abihi, person/talha-ibn-abdallah-al-khuzai]
@@ -32,6 +32,6 @@ sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407)، ثغور الهند، قراءة آبل فيجن"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407)⁩، ثغور الهند، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   extraction_flow: "Apple Vision OCR -> manual extraction"

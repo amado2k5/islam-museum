@@ -5,7 +5,9 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && rm -rf ../dist/chunks ../dist/*.mjs && cp ../dist/sitemap-index.xml ../dist/sitemap.xml && pagefind --site ../dist --glob \"ar/**/*.html\" --output-subdir pagefind-ar && pagefind --site ../dist --glob \"en/**/*.html\" --output-subdir pagefind-en && pagefind --site ../dist --glob \"ur/**/*.html\" --output-subdir pagefind-ur && pagefind --site ../dist --glob \"fr/**/*.html\" --output-subdir pagefind-fr",
+    "build": "astro build && rm -rf ../dist/chunks ../dist/*.mjs && cp ../dist/sitemap-index.xml ../dist/sitemap.xml && pagefind --site ../dist --glob \"ar/**/*.html\" --output-subdir pagefind-ar && pagefind --site ../dist --glob \"en/**/*.html\" --output-subdir pagefind-en && pagefind --site ../dist --glob \"ur/**/*.html\" --output-subdir pagefind-ur && pagefind --site ../dist --glob \"fr/**/*.html\" --output-subdir pagefind-fr && pagefind --site ../dist --glob \"es/**/*.html\" --output-subdir pagefind-es",
+    "build:lang": "test -n \"$BUILD_LANG\" && astro build && rm -rf ../dist/chunks ../dist/*.mjs && pagefind --site ../dist --glob \"$BUILD_LANG/**/*.html\" --output-subdir \"pagefind-$BUILD_LANG\"",
+    "build:shared": "BUILD_LANG=shared astro build && rm -rf ../dist/chunks ../dist/*.mjs ../dist/sitemap*.xml",
     "preview": "astro preview",
     "check": "astro check"
   },

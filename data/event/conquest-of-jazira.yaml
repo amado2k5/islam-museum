@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0639-07~", hijri: "0018-07", calendar: julian, precision: month, status: tradition, derived: true, note: "الخميس النصف من شعبان سنة 18 (البلاذري ص 237). التحويل مشتق." }
+  start: { edtf: "0639-07~", hijri: "0018-07", calendar: julian, precision: month, status: tradition, derived: true, note: "الخميس النصف من شعبان سنة 18 ⁦(البلاذري ص 237)⁩. التحويل مشتق." }
 relations:
   - { type: part_of, target: event/conquest-of-syria }
   - { type: occurred_at, target: place/jazira }
@@ -22,7 +22,7 @@ relations:
   - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 236–237"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 236–237"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-13
 sides:

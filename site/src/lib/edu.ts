@@ -2,10 +2,11 @@
 // Build-time loaders with the same shape checks the tests make, so a broken file fails the build, not a visitor.
 import { readFileSync } from "node:fs";
 import { parse } from "yaml";
+import { parseLocalized } from "./i18n";
 import { repoPath } from "./paths";
 import type { Lang } from "./i18n";
 
-export interface Tri { ar: string; en: string; ur: string; fr?: string }
+export interface Tri { ar: string; en: string; ur: string; fr?: string; es?: string }
 export interface BandActivity { id: string; href: string; glyph: string; label_key: string }
 export interface Band {
   id: string;
@@ -35,7 +36,7 @@ const pick = (t: Tri, lang: Lang): string => t[lang] ?? t.en ?? t.ar;
 let bandsCache: Band[] | null = null;
 export function loadBands(): Band[] {
   if (bandsCache) return bandsCache;
-  const raw = parse(readFileSync(repoPath("edu/bands.yaml"), "utf8")) as { bands?: Band[] };
+  const raw = parseLocalized(readFileSync(repoPath("edu/bands.yaml"), "utf8")) as { bands?: Band[] };
   const bands = raw?.bands ?? [];
   if (bands.length !== 5) throw new Error(`edu/bands.yaml: expected 5 bands, found ${bands.length}`);
   for (let i = 0; i < bands.length; i++) {
@@ -53,7 +54,7 @@ export function loadBands(): Band[] {
 let stampsCache: Stamp[] | null = null;
 export function loadStamps(): Stamp[] {
   if (stampsCache) return stampsCache;
-  const raw = parse(readFileSync(repoPath("edu/stamps.yaml"), "utf8")) as { stamps?: Stamp[] };
+  const raw = parseLocalized(readFileSync(repoPath("edu/stamps.yaml"), "utf8")) as { stamps?: Stamp[] };
   const stamps = raw?.stamps ?? [];
   if (!stamps.length) throw new Error("edu/stamps.yaml: no stamps");
   const bandIds = new Set(loadBands().map((b) => b.id));
@@ -116,7 +117,7 @@ let actsCache: FamilyActivity[] | null = null;
 /** The 52 family activities of the weekly sheet (edu/family-activities.yaml), one per ISO week. */
 export function loadFamilyActivities(): FamilyActivity[] {
   if (actsCache) return actsCache;
-  const raw = parse(readFileSync(repoPath("edu/family-activities.yaml"), "utf8")) as { activities?: FamilyActivity[] };
+  const raw = parseLocalized(readFileSync(repoPath("edu/family-activities.yaml"), "utf8")) as { activities?: FamilyActivity[] };
   const acts = raw?.activities ?? [];
   if (acts.length !== 52) throw new Error(`edu/family-activities.yaml: expected 52 activities, found ${acts.length}`);
   acts.forEach((a, i) => {

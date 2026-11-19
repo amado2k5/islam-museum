@@ -1,0 +1,30 @@
+---
+id: work/al-minhaj-sharh-sahih-muslim
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/work/al-minhaj-sharh-sahih-muslim.md}
+---
+## Resumen
+*Al-Minhaj* es el comentario [[person/al-nawawi|de Muhyi al-Din al-Nawawi]] sobre [[work/sahih-muslim|el Sahih Muslim]], impreso por al-Matba'a al-Misriyya bi-l-Azhar junto con el texto del Sahih como *Sahih Muslim bi-Sharh al-Nawawi*, cuyo primer volumen apareció en 1347 H/1929 d. C. {cite:sharh-nawawi-misriyya-1347-v1 p. 1} Al-Nawawi comienza elogiando la ciencia del isnad, que él sostiene que Dios concedió solo a esta comunidad. {cite:sharh-nawawi-misriyya-1347-v1 p. 2}
+
+## Por qué y cómo lo escribió
+Al-Nawawi sostiene que el estudio del hadiz es una de las ciencias más nobles, ya que la mayoría de las normas del fiqh se basan en la Sunna y los eruditos requieren un juez mujtahid o un muftí para conocer los hadices legales; lamenta que las sesiones de hadiz, a las que antes asistían miles de personas, hayan disminuido. {cite:sharh-nawawi-misriyya-1347-v1 p. 4} Considera que los dos Sahih son los libros más sólidos sobre hadiz —de hecho, sobre el saber en general— y afirma haber reunido mucho material para un comentario sobre al-Bujari y estar trabajando para terminarlo. {cite:sharh-nawawi-misriyya-1347-v1 p. 4}
+
+Su intención era que el comentario musulmán se situara entre los resúmenes y las obras extensas, afirmando que, de no ser por la falta de determinación y la escasez de lectores, lo habría ampliado a más de cien volúmenes. {cite:sharh-nawawi-misriyya-1347-v1 p. 4-5} Enumera su contenido: normas sobre principios y ramas, ética y puntos de renuncia, máximas jurídicas fundamentales, significados de palabras, nombres de narradores y la resolución de lecturas difíciles, nombres de aquellos conocidos por kunya y aquellos que permanecen sin nombre, sutilezas de la ciencia del hadiz y la conciliación de hadices que solo alguien no versado tanto en hadiz como en fiqh consideraría contradictorias. {cite:sharh-nawawi-misriyya-1347-v1 p. 5} Su método incluye no atribuir los puntos conocidos a sus numerosos autores, mientras que sí atribuye los inusuales, y explicar un asunto completamente en su primera aparición y hacer referencias cruzadas posteriormente. {cite:sharh-nawawi-misriyya-1347-v1 p. 5}
+
+## Su cadena a musulmán
+Al-Nawawi transmite el Sahih de su maestro Abu Ishaq Ibrahim b. 'Umar al-Wasiti en la gran mezquita de Damasco, de Mansur b. 'Abd al-Mun'im al-Furawi, de Muhammad b. al-Fadl al-Furawi, de 'Abd al-Ghafir al-Farisi, de Abu Ahmad al-Juludi, de Abu Ishaq Ibrahim b. Muhammad b. Sufyan, de Muslim: seis eslabones entre él y Muslim. {cite:sharh-nawawi-misriyya-1347-v1 p. 6} Dice que el libro se transmite masivamente desde Muslim en su totalidad, mientras que la cadena de transmisión conectada se había reducido en su época a la ruta de Ibn Sufyan, siendo la de Abu Muhammad al-Qalanisi también vigente en el Magreb; Cita a [[person/ibn-al-salah|Ibn al-Salah]], quien afirma que la transmisión de al-Qalanisi llegó al Magreb a través de Ibn al-Hadhdha' de Córdoba y otros que la escucharon en Egipto de Ibn Mahan. {cite:sharh-nawawi-misriyya-1347-v1 p. 11-12}
+
+## Una introducción sobre la posición y el estado del Sahih
+- **Los libros más sólidos:** informa del acuerdo de los eruditos de que los libros más sólidos después del Corán son los dos Sahihs, y elige —con la gran mayoría— el de al-Bujari como el más sólido, señalando la opinión de Abu Ali al-Naysaburi y algunos eruditos magrebíes de que el de Muslim es el primero. {cite:sharh-nawawi-misriyya-1347-v1 p. 14} Le atribuye a Muslim un mérito propio: dio a cada hadiz un solo lugar reuniendo sus rutas y formulaciones, lo que facilita al estudiante compararlos. {cite:sharh-nawawi-misriyya-1347-v1 p. 14-15} Véase [[concept/shart-al-shaykhayn|la condición de los dos Shaykhs]].
+- **Lo que Muslim dijo de su libro:** Relata, según Makki b. 'Abdan Muslim, que le mostró su libro a [[person/abu-zura-al-razi|Abu Zur'a al-Razi]] y omitió todo lo que Abu Zur'a señaló como defectuoso, y según al-Khatib al-Baghdadi Muslim, que lo compiló a partir de trescientos mil hadices que había escuchado. {cite:sharh-nawawi-misriyya-1347-v1 p. 15}
+- **Las "obligaciones" de Al-Daraqutni:** Señala que [[person/al-daraqutni|Al-Daraqutni]] y otros [[work/al-ilzamat-ala-sahih-al-bukhari|"obligaron"]] a los dos jeques a incluir hadices que cumplieran con su condición, y sostiene que dicha obligación no es vinculante, puesto que nunca se comprometieron a incluir todos los hadices auténticos. {cite:sharh-nawawi-misriyya-1347-v1 p. 24}
+- **Su uso de narradores débiles:** Responde a quienes criticaban a Muslim por narrar de hombres débiles con las mismas respuestas que dio Ibn al-Salah: el narrador puede ser débil para otros, pero confiable para Muslim; el relato puede ser una corroboración en lugar de un relato principal; la debilidad puede haber surgido posteriormente debido a un deterioro mental después de que Muslim lo tomara de él; o la cadena de transmisión del hombre débil era más corta, mientras que Muslim la obtuvo de hombres confiables con una cadena más larga. {cite:sharh-nawawi-misriyya-1347-v1 p. 24-25}
+- **Libros citados al respecto:** enumera los [[concept/mustakhraj|mustakhrajat]] en Sahih Muslim. {cite:sharh-nawawi-misriyya-1347-v1 p. 26-27}
+
+Luego dedica capítulos a los hadices auténticos, buenos y débiles, la terminología de los eruditos del hadiz, las cadenas unidas por "de" ('an), [[concept/tadlis|el tadlis]], los narradores que se confundieron, la abrogación y la transmisión por significado. {cite:sharh-nawawi-misriyya-1347-v1 p. 27-36}
+
+## Ediciones en la biblioteca
+- Al-Matba'a al-Misriyya bi-l-Azhar, 1.ª edición 1347 H/1929 d. C., vol. 1. {cite:sharh-nawawi-misriyya-1347-v1 p. 1}

@@ -6,7 +6,7 @@ translators: ["Claude Code (OCR-harvest worker E), claude-opus-5-5, translation"
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sifat-al-safwa-tartusi-2012 p.714" }
 ---
 ## خلاصہ
-ام ابراہیم العابدہ [[work/sifat-al-safwa|صفۃ الصفوہ]] میں [[place/basra|بصرہ]] کی عابدات میں شامل ہیں (نمبر 600)۔ {cite:sifat-al-safwa-tartusi-2012 p.714}
+ام ابراہیم العابدہ [[work/sifat-al-safwa|صفۃ الصفوہ]] میں [[place/basra|بصرہ]] کی عابدات میں شامل ہیں ⁦(نمبر 600)⁩۔ {cite:sifat-al-safwa-tartusi-2012 p.714}
 
 ## دنیا کی مصیبتیں
 عبد المؤمن بن عبد اللہ القیسی کہتے ہیں کہ ایک سواری کے جانور نے انہیں مار کر ٹانگ توڑ دی، لوگ تعزیت کو آئے تو کہا: «اگر دنیا کی مصیبتیں نہ ہوتیں تو ہم آخرت میں مفلس پہنچتے»۔ {cite:sifat-al-safwa-tartusi-2012 p.714}

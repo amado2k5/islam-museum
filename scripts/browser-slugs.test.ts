@@ -26,7 +26,7 @@ describe("browserSlugs", () => {
   // every English and Urdu page a "clash" with its Arabic twin, so they were built at
   // /en/places/place-najd/ while every link pointed at /en/places/najd/.
   it("is the same on every call, so each language gets the same slug", () => {
-    const perLang = ["ar", "en", "ur", "fr"].map(() => browserSlugs(records));
+    const perLang = ["ar", "en", "ur", "fr", "es"].map(() => browserSlugs(records));
     for (const m of perLang) expect([...m]).toEqual([...perLang[0]]);
   });
 });

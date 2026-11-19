@@ -1,0 +1,15 @@
+---
+id: event/al-hadi-sends-abdullah-ibn-al-husayn-against-abu-al-dughaysh-285
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/al-hadi-sends-abdullah-ibn-al-husayn-against-abu-al-dughaysh-285.md}
+---
+## Visión general
+[[person/al-hadi-yahya-al-rassi|Al-Hadi]] permaneció en [[place/saada|Sa'da]] durante Rabi' I y doce días de Rabi' II de 285 H; luego llegaron cartas de su gobernador en [[place/wasaha-yemen|Wasaha]], "Abu Jafar Muhammad ibn Ubaydallah al-Alawi", diciendo que [[person/abu-al-dughaysh-al-shihabi|Abu al-Dughaysh al-Shihabi]] había reunido una gran fuerza y retenido las limosnas, que había luchado contra él y pidiendo refuerzos. {cite:sira-hadi-ila-al-haqq p.85} Al-Hadi dijo a la gente que saliera y acampara en una aldea llamada al-Buqma cerca de Sa'da; envió hombres para llamar a Abu al-Dughaysh a Dios y a unirse a la verdad, pero él se negó y se mantuvo. {cite:sira-hadi-ila-al-haqq p.85} El relato es zaydí, y la dura descripción de Abu al-Dughaysh es del narrador, no del museo.
+
+## El envío de Abdullah ibn al-Husayn
+Envió a su hermano [[person/abdullah-ibn-al-husayn-al-rassi|Abdullah ibn al-Husayn]] contra él con una gran fuerza, partiendo el jueves dieciséis de Rabi' II hacia Saqayn; allí un grupo de primos de Abu al-Dughaysh, de Shihab, lo recibieron y le pidieron que no luchara hasta que pudieran pedirle a Abu al-Dughaysh que aceptara la verdad, y así lo hizo y continuó hacia Wasaha. {cite:sira-hadi-ila-al-haqq p.86} Abu Muhammad ibn Ubaydallah lo recibió allí con un gran ejército de aquellos de Khawlan al-Qudum que le obedecían; él mismo no tenía un ejército formado, sino diez sirvientes en su puerta. {cite:sira-hadi-ila-al-haqq p.86}
+
+## Enviados y advertencias
+Abdullah ibn al-Husayn envió un mensaje a Abu al-Dughaysh pidiéndole que volviera a la verdad; a él no le gustó y los enviados volvieron a partir; Abu al-Dughaysh entonces envió: "Envíenme algunos hombres de entre los notables de su ejército para que me consulten y me den seguridad, y yo iré con ellos"; así lo hizo, envió a unos pocos que lo amonestaron, le dieron seguridad y le hicieron jurar que escucharía y obedecería; algunos de los compañeros de Abu Muhammad pidieron permiso para engañar a Abu al-Dughaysh y apresarlo, pero él lo prohibió, deseando establecer la prueba de Dios contra él; Abu al-Dughaysh dijo que se reuniría con Abu Muhammad al día siguiente, fue esperado y no llegó, y respondió al mensajero con una declaración de guerra. {cite:sira-hadi-ila-al-haqq p.86} Abu Muhammad envió entonces a la aldea donde vivía Abu al-Dughaysh, conocida como "Afara" o "Mafara" en las fuentes, llamándolos a Dios tres veces y ellos se negaron, así que cuando hubo establecido la prueba contra ellos dijo al ejército que se preparara para la guerra. {cite:sira-hadi-ila-al-haqq p.86} Véase [[event/battle-of-afara-285]].

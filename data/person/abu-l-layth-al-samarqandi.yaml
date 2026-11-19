@@ -3,11 +3,13 @@ class: person
 label:
   ar: "أبو الليث السمرقندي"
   en: "Abu al-Layth al-Samarqandi"
+  fr: "Abu al-Layth al-Samarqandi"
 roles: [scholar, writer]
 gender: male
 summary:
   ar: "بطاقة أولية لأبي الليث نصر بن محمد السمرقندي، فقيه حنفي وواعظ سمرقند صاحب «تنبيه الغافلين» و«بستان العارفين»، توفي سنة ٩٨٣م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
   en: "Draft card for Abu al-Layth Nasr ibn Muhammad al-Samarqandi, the Hanafi jurist-preacher author of Tanbih al-Ghafilin and Bustan al-Arifin, d. 983; the biographical entry is not yet checked on the page."
+  fr: "Fiche provisoire pour Abu al-Layth Nasr ibn Muhammad al-Samarqandi, juriste et prédicateur hanafite, auteur du Tanbih al-Ghafilin et du Bustan al-Arifin, mort en 983 ; la notice biographique n'est pas encore vérifiée sur la page."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -28,4 +30,4 @@ status:
 born: { edtf: "944", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Qurashi, al-Jawahir al-Mudiyya; al-Dhahabi, Siyar Agrees with Wikidata Q938348 (P569, a statement without a reference), item revision 2556149669, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "983", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Qurashi, al-Jawahir al-Mudiyya; al-Dhahabi, Siyar Confirmed on 13 November 2026 against Wikidata Q938348 (P570, a statement with a reference), item revision 2556149669.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/samarqand, note: "Place association from the person's nisba/name (السمرقندي); denotes association, not proven residence.", sources: [source/al-aalam, source/encyclopaedia-of-islam-2], confidence: low }
+  - { type: lived_in, target: place/samarqand, note: "Place association from the person's nisba/name ⁦(السمرقندي)⁩; denotes association, not proven residence.", sources: [source/al-aalam, source/encyclopaedia-of-islam-2], confidence: low }

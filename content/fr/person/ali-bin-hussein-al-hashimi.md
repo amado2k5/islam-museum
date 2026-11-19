@@ -1,0 +1,34 @@
+---
+id: person/ali-bin-hussein-al-hashimi
+lang: fr
+source_lang: en
+translation_of: ar@3e140fa3e23f2f0966103da9da94669182f9c87f
+translators:
+- Devin (OPUS-MT), draft translation
+provenance:
+  generated_by: Devin
+  model: Helsinki-NLP/opus-mt-tc-big-en-fr@6e06286
+  run: fr-corpus-person-05-24
+  source: content/en/person/ali-bin-hussein-al-hashimi.md and localized fields from
+    data/person/ali-bin-hussein-al-hashimi.yaml
+---
+## Résumé
+Ali bin Hussein bin Ali al-Hashimi (né à La Mecque en 1879 – mort à Bagdad le 13 février 1935) était roi du Hejaz et grand chérif de la Mecque d'octobre 1924 jusqu'à ce qu'il soit déposé par Ibn Saoud en décembre 1925, et le fils aîné du roi Hussein bin Ali, comme le décrit l'article anglais. {cite:wikipedia-ali-bin-hussein-en} {cite:wikipedia-ali-bin-hussein-ar} Il est resté l'héritier de son père dans le Hedjaz tandis que ses frères Abdullah et Faisal ont été faits rois de Transjordanie et d'Irak ; quand son père abdique devant lui, Ibn Saoud défend ce qui reste du royaume à Djeddah et Médine jusqu'à ce qu'il tombe, s'enfuit en Irak et meurt à Bagdad et est enterré dans le cimetière royal d'Adhamiyah. {cite:wikipedia-ali-bin-hussein-en} {cite:wikipedia-ali-bin-hussein-ar}
+
+## Jeunesse
+Le fils aîné de Hussein, Ali est né à La Mecque en 1879 de Sharif Hussein bin Ali et Sharifa Abdiyya bint Abdullah ; Il a reçu des leçons en arabe, le Coran et d'autres sciences à la Mecque, et sa mère est morte de la typhoïde en 1887 à l'âge de vingt-sept ans, comme le raconte l'article arabe. {cite:wikipedia-ali-bin-hussein-ar} {cite:wikidata-ali-bin-hussein} Il a été élevé pendant un certain temps parmi les Bédouins, selon la coutume de l'Achraf, a été scolarisé avec ses frères Faisal et Abdullah en lecture et en écriture turques, et après que son père ait terminé ses études à Istanbul à partir de 1893, y compris en sciences militaires ; l'article anglais dit qu'il a été éduqué au Collège Ghalata Serai (Lycée Galatasaray) à Istanbul. {cite:wikipedia-ali-bin-hussein-ar} {cite:wikipedia-ali-bin-hussein-en} En 1906, il épousa Nafissa Khanum, fille de l'émir Abdullah bin Muhammad Pacha, un ancien grand chérif de La Mecque. Ils eurent un fils et quatre filles, dont la princesse Aliya, qui épousa son cousin le roi Ghazi Ier et devint reine d'Irak, et le prince héritier Abd al-Ilah, qui devint régent d'Irak pendant la minorité du roi Faisal II. {cite:wikipedia-ali-bin-hussein-en}
+
+## Carrière
+En 1916, Ali est devenu l'un des dirigeants de la révolte arabe contre la domination turque ; après son succès, Hussein s'est fait le premier roi du Hejaz avec le soutien britannique, Abdullah et Faisal ont été faits rois de Jordanie et d'Irak, et Ali est resté l'héritier des terres de son père en Arabie. {cite:wikipedia-ali-bin-hussein-en} Alors que Hussein s'engageait dans des combats avec la Maison des Saoud basée à Riyad et subissait les défaites militaires d'Abdulaziz ibn Saoud, il abdiqua tous ses titres laïcs à Ali en octobre 1924 - l'article arabe date le début du règne d'Ali au 2 octobre 1924 et l'article anglais l'abdication au 3 octobre 1924, une différence d'un jour que le musée déclare plutôt que de fusionner - et avec la royauté que son père avait assumé en mars 1924, mais il n'adopta pas la fonction ni le style de calife. {cite:wikipedia-ali-bin-hussein-ar} {cite:wikipedia-ali-bin-hussein-en} Ses forces tenaient Médine, Yanbu, al-Wajh, Umluj et Djeddah, et les tribus autour de ces villes ont gardé leur loyauté envers lui, alors qu’il espérait des volontaires de Transjordanie et d’Irak, comme le raconte l’article arabe  ; En décembre 1925, les forces saoudiennes ont envahi ce qui restait du Royaume hachémite du Hedjaz, qui a finalement été incorporé au Royaume d'Arabie saoudite, et Ali et sa famille ont fui en Irak, où il s'est installé à Bagdad jusqu'à sa mort en 1935. {cite:wikipedia-ali-bin-hussein-ar} {cite:wikipedia-ali-bin-hussein-en}
+
+## Mort et héritage
+Ali est mort à Bagdad le 13 février 1935 et a été enterré dans le cimetière royal d'Adhamiyah, sur l'article arabe, la date de décès étant en accord avec l'article anglais ; Wikidata donne sa mort le 14 février 1935, et le musée indique les deux lectures. {cite:wikipedia-ali-bin-hussein-ar} {cite:wikipedia-ali-bin-hussein-en} {cite:wikidata-ali-bin-hussein} Son nom a vécu dans l'Irak monarchiste par son fils Abd al-Ilah comme régent et sa fille Aliya comme reine, et à travers les portraits ambivalents que ses contemporains ont laissés de lui. {cite:wikipedia-ali-bin-hussein-en} {cite:wikipedia-ali-bin-hussein-ar}
+
+## Positions et critiques
+Cette section est lue comme une présentation des positions rapportées par les sources, et non comme un verdict du musée.
+
+Les descriptions contemporaines d'Ali, portées par l'article arabe, sont divisées : Lawrence d'Arabie l'a décrit comme courtois ; Eric Kennington l'a dépeint comme un homme inquiet, au visage mince et aux sourcils froncés, avec des yeux tristes et une moustache noire ; Un Britannique qui l'a rencontré a dit un jour que le destin avait manqué sa route avec Ali, qu'il n'était pas fait pour la royauté mais pour la sainteté ; et certains le pensaient sujet à la tuberculose et le décrivaient comme maladif et froid de tempérament. {cite:wikipedia-ali-bin-hussein-ar} L'article anglais dit seulement qu'il a hérité de la réclamation et n'a pas adopté le bureau ou le style ; le stub ourdou à deux phrases n'ajoute rien sur le point, ne donne aucune date et se trompe en l'appelant le premier roi du royaume du Hedjaz, où les articles plus complets font de son père le premier roi et d'Ali le second. {cite:wikipedia-ali-bin-hussein-en} {cite:wikipedia-ali-bin-hussein-ur} Les sources diffèrent dans les détails que le musée indique plutôt que fusionne : son règne ouvre le 2 octobre 1924 dans l'article arabe et sur l'abdication de son père du 3 octobre 1924 en anglais, et sa mort tombe le 13 février 1935 dans les articles anglais et arabes et le 14 février dans Wikidata. {cite:wikipedia-ali-bin-hussein-ar} {cite:wikipedia-ali-bin-hussein-en} {cite:wikidata-ali-bin-hussein} Sa foi est enregistrée comme inconnue en ce qui concerne l'école dans son dossier de données : aucun des trois articles ne mentionne une religion ou une école pour lui, et la seule valeur de Wikidata est l'Islam générique, qui ne nomme aucune école ; Sa descendance hachémite est d'origine familiale et ne compte jamais, de sorte que la valeur reste inconnue sous la règle des deux sources et la règle du doute. {cite:wikipedia-ali-bin-hussein-en} {cite:wikipedia-ali-bin-hussein-ar} {cite:wikidata-ali-bin-hussein}
+
+## Références
+- Les sources définies ci-dessus, enregistrées dans `data/source/`.
+- Les traductions et modifications ultérieures de cet article nécessitent un examen périodique avec des dates de mise à jour claires.

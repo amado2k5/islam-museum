@@ -1,0 +1,12 @@
+---
+id: event/banu-al-harith-raid-hamdan-and-muhammad-ibn-ubaydallah-rides-out-of-najran-287
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/banu-al-harith-raid-hamdan-and-muhammad-ibn-ubaydallah-rides-out-of-najran-287.md}
+---
+## Visión general
+Cuando [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Abu Jafar Muhammad ibn Ubaydallah]] llegó a [[place/najran|Najrán]], dice el narrador, la gente temía su posición después de lo que habían visto de [[person/al-hadi-yahya-al-rassi|al-Hadi]]; él gobernaba entre ellos de la mejor manera, era firme con los disolutos y se acercaba a los rectos, y después de ponerlo a prueba y observar su conducta, todos llegaron a desearlo y difundieron su fama en sus ciudades y lo elogiaron. Ese es el elogio del narrador a su propio padre, y el museo lo registra como tal. {cite:sira-hadi-ila-al-haqq p.200}
+
+## Detalle
+Debido a que la verdad permaneció con ellos durante tanto tiempo, la gente de la falsedad temió que se arraigara; algunos alborotadores de [[group/banu-al-harith-ibn-kab|Banu al-Harith]] salieron, después de la noticia de lo que les había sucedido a los Akilis, al desierto de Harithi, reunieron un grupo de caballos y asaltaron [[group/banu-hamdan|Hamdan]], sin obtener lo que esperaban contra el imán. {cite:sira-hadi-ila-al-haqq p.200} La noticia llegó a Muhammad ibn Ubaydallah, quien salió de inmediato y los siguió por el valle inferior de Najran sin capturar a ninguno; mientras los seguía, un hombre Harithi leal y afectuoso llamado al-Jahir ibn Ziyad lo alcanzó con otro Harithi que entonces le mostró afecto y le pidió que regresara a su lugar ya que no tenía ejército, temiendo que Banu al-Harith pudiera atacarlo. Juraron que regresaría; algunos siguieron a los asaltantes y se aseguraron de traerlos, y él regresó a la aldea y escribió a al-Hadi sobre el asalto. {cite:sira-hadi-ila-al-haqq p.200} {cite:sira-hadi-ila-al-haqq p.201} Véase [[person/al-jahir-ibn-ziyad-of-banu-al-harith]]. Los nombres son como en el texto impreso, confirmados por Apple Vision. Sigue a [[event/al-hadis-verse-on-his-first-war-with-the-kulaybis-and-akilis-287]] y conduce a [[event/al-hadi-writes-to-banu-al-harith-in-verse-and-they-pledge-to-muhammad-ibn-ubaydallah-287]].

@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b89, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/391" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b89, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/391" }
 ---
 ## موجز
 محمد بن النعمان بن عبد السلام، صحب وكيعًا وسفيان بن عيينة وأبا بكر بن عياش، وله الورع الثخين والعقل الرصين. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 667)⁩ في الصفحة 391، وتسلسله 668. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/391}

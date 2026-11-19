@@ -1,6 +1,6 @@
 id: person/abu-bakr-al-warraq-al-mustamli
 class: person
-label: { ar: "أبو بكر الوراق المستملي", en: "Abu Bakr al-Warraq al-Mustamli", ur: "ابو بکر وراق مستملی" }
+label: { ar: "أبو بكر الوراق المستملي", en: "Abu Bakr al-Warraq al-Mustamli", ur: "ابو بکر وراق مستملی", fr: "Abu Bakr al-Warraq al-Mustamli" }
 names:
   - { value: "أبو بكر محمد بن إسماعيل بن العباس البغدادي المستملي الوراق", kind: full, lang: ar }
 gender: male
@@ -10,7 +10,8 @@ summary:
   ar: "أبو بكر محمد بن إسماعيل بن العباس البغدادي المستملي الوراق، يقرن مع ابن حيويه في رواية كتاب الزهد عن ابن صاعد؛ قال ابن العماد إنه كان صاحب حديث ثقة عاش خمساً وثمانين سنة، وذكره في سنة 378 {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 101} {cite:zuhd-ibn-mubarak-azami-scan p. 2}."
   en: "Abu Bakr Muhammad ibn Isma'il ibn al-Abbas al-Baghdadi al-Mustamli al-Warraq, paired with Ibn Hayyuya in transmitting Kitab al-Zuhd from Ibn Sa'id; Ibn al-Imad calls him a trustworthy hadith man who lived eighty-five years and lists him under the year 378 {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 101} {cite:zuhd-ibn-mubarak-azami-scan p. 2}."
   ur: "ابو بکر محمد بن اسماعیل بن عباس بغدادی مستملی وراق، ابن صاعد سے کتاب الزہد کی روایت میں ابن حیویہ کے ساتھ آتے ہیں؛ ابن العماد کے مطابق ثقہ محدث تھے، پچاسی برس جیے، اور انہیں سنہ 378 میں ذکر کیا {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 101} {cite:zuhd-ibn-mubarak-azami-scan p. 2}۔"
-died: { edtf: "0988~", hijri: "0378", calendar: julian, precision: year, status: tradition, derived: true, note: "ذكره ابن العماد في أحداث سنة 378 (فريد ص 101)", sources: [source/zuhd-ibn-mubarak-farid-1995-v1] }
+  fr: "Abu Bakr Muhammad ibn Isma'il ibn al-Abbas al-Baghdadi al-Mustamli al-Warraq, associé à Ibn Hayyuya dans la transmission du Kitab al-Zuhd d'après Ibn Sa'id ; Ibn al-Imad le dit traditionniste digne de confiance, qui vécut quatre-vingt-cinq ans, et le place sous l'année 378 {cite:zuhd-ibn-mubarak-farid-1995-v1 p. 101} {cite:zuhd-ibn-mubarak-azami-scan p. 2}."
+died: { edtf: "0988~", hijri: "0378", calendar: julian, precision: year, status: tradition, derived: true, note: "ذكره ابن العماد في أحداث سنة 378 ⁦(فريد ص 101)⁩", sources: [source/zuhd-ibn-mubarak-farid-1995-v1] }
 wings: [people]
 themes: [scripture-and-its-sciences]
 periods: [period/abbasid-fragmentation]
@@ -37,4 +38,4 @@ occupations:
     note: "merge-map link from role 'transmitter', Job Browser linking wave 29"
     sources: [source/zuhd-ibn-mubarak-farid-1995-v1, source/zuhd-ibn-mubarak-azami-scan]
 relations:
-  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/zuhd-ibn-mubarak-farid-1995-v1, source/zuhd-ibn-mubarak-azami-scan], confidence: low }
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name ⁦(البغدادي)⁩; denotes association, not proven residence.", sources: [source/zuhd-ibn-mubarak-farid-1995-v1, source/zuhd-ibn-mubarak-azami-scan], confidence: low }

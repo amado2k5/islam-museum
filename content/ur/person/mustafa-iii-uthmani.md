@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-سلطان مصطفیٰ سوم (1171–1187ھ / 1757–1773ء)، [[person/ahmed-iii-uthmani|احمد ثالث]] کے بیٹے اور عثمانی سلاطین میں سے ایک۔ {cite:dawlat-uthmaniyya-salabi p.316}
+سلطان مصطفیٰ سوم ⁦(1171–1187ھ / 1757–1773ء)⁩، [[person/ahmed-iii-uthmani|احمد ثالث]] کے بیٹے اور عثمانی سلاطین میں سے ایک۔ {cite:dawlat-uthmaniyya-salabi p.316}
 
 ## ان کا دور
 صلابی انہیں مجاہد سلاطین میں شمار کرتے ہیں، جنہوں نے روسی حملوں کا مقابلہ کیا اور انہیں کئی شکستیں دیں۔ {cite:dawlat-uthmaniyya-salabi p.316}

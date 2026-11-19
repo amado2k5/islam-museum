@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-answers-and-sends-a-poem-to-banu-al-harith-292
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-answers-and-sends-a-poem-to-banu-al-harith-292.md}
+---
+## Vue d'ensemble
+Dans sa réponse, al-Hadi confia à Muhammad ibn Ubaydallah quelques versets qu'il lui demanda de transmettre aux Banu al-Harith, commençant ainsi : « Porte de ma part aux Banu al-Harith un message qui apaise la douleur de celui qui est dans la peine » {cite:sira-hadi-ila-al-haqq p.284}. Le musée en donne le sens ; ces versets sont attribués à al-Hadi dans cet ouvrage zaydite.
+
+## Détail
+Le poète demande aux Banu al-Harith comment ils vont fuir et leur dit qu'il leur a donné la vie alors que leur fin était proche, comme si la mort était sur le point de les ronger. Il ajoute que, lors de leur capture, on leur a servi coupe après coupe, mais que leurs remerciements envers lui n'étaient pas ceux des gens {cite:sira-hadi-ila-al-haqq p.284}. Il leur ordonne de prendre le feu de sa guerre, car il a déversé une pluie mortelle. Il compare la guerre à un nuage dont les éclairs sont visibles et dont les coups de tonnerre sont redoutés, leur conseille de creuser un tunnel sous terre pour s'abriter des coups de hache, et affirme que les lances des croyants n'épargnent personne, que les épées frappent la tête de l'ennemi lorsque les gardiens de la vérité, héritiers du Messager, les dégainent, et que les bannières des croyants avancent tandis que le cœur de leurs ennemis tremble {cite:sira-hadi-ila-al-haqq p.284}. Il affirme défendre la foi et suivre les traces de son grand-père Muhammad, et que sa détermination demeure inébranlable comme un roc lisse et imposant, enraciné dans la terre, au point que nul n'a pu l'ébranler {cite:sira-hadi-ila-al-haqq p.284} {cite:sira-hadi-ila-al-haqq p.285}. La note de la page 285 explique un mot rare du Qamus et présente les corrections du manuscrit S. La reconnaissance optique de caractères (OCR) modifie l'ordre des lignes et respecte l'ordre de la page tel que lu à partir de l'image. La comparaison faite par le poète entre les Banu al-Harith et les animaux n'est pas reprise.

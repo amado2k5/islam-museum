@@ -20,6 +20,6 @@ translators: []
 ان کے نزدیک کیمپوں میں بھوکے مسلمان جن تک امداد نہیں پہنچتی، ان کے حقوق امیروں نے چرائے ہیں، اور جو امیر اپنا بچا ہوا کھانا کوڑے میں پھینکے اور فقیر کا حق نہ دے وہ اپنے مال سے سرکش ہوا؛ یہ ان کی رائے ہے۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:07:30} آخر میں وہ تلقین کرتے ہیں کہ کوئی اپنے گھر میں، بیوی بچوں، پڑوسیوں اور ساتھ کام کرنے والوں پر، یا اس قوم پر جس کا معاملہ اس کے سپرد ہے، سرکش نہ بنے۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:10:30}
 
 :::perspectives
-- **متکلم کی رائے (رائے اور وعظ):** کمزوروں پر سرکشی آسمان کی مداخلت کو دعوت دیتی ہے؛ سرکشوں کا بچپن بدحال ہوتا ہے؛ جو امیر فقیروں کا حق روکیں وہ اپنے مال سے سرکش ہوئے۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:07:00}
+- **متکلم کی رائے ⁦(رائے اور وعظ)⁩:** کمزوروں پر سرکشی آسمان کی مداخلت کو دعوت دیتی ہے؛ سرکشوں کا بچپن بدحال ہوتا ہے؛ جو امیر فقیروں کا حق روکیں وہ اپنے مال سے سرکش ہوئے۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:07:00}
 - **علمی رائے:** ابھی کوئی ماخذ درج نہیں۔
 :::

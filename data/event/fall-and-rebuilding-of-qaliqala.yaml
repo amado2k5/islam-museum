@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/umayyad, period/abbasid-early]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0750~", hijri: "0133", calendar: julian, precision: year, status: tradition, derived: true, note: "السقوط سنة 133 والعمارة سنة 139 وترميم المعتصم بخمسمائة ألف درهم (البلاذري ص 280). التحويل مشتق." }
+  start: { edtf: "0750~", hijri: "0133", calendar: julian, precision: year, status: tradition, derived: true, note: "السقوط سنة 133 والعمارة سنة 139 وترميم المعتصم بخمسمائة ألف درهم ⁦(البلاذري ص 280)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/qaliqala }
   - { type: had_participant, target: person/constantine-v, role: "الطاغية الخارج سنة 133", sources: [source/futuh-buldan-maarif-1407] }
@@ -21,7 +21,7 @@ relations:
   - { type: during_reign, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 280"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 280"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-16
 sides:

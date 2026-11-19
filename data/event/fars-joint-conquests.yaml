@@ -8,7 +8,7 @@ summary:
 periods: [period/rashidun]
 regions: [persia-central-asia]
 date:
-  start: { edtf: "0643~", hijri: "0023~", calendar: julian, precision: year, status: tradition, derived: true, note: "في آخر خلافة عمر بن الخطاب (ت 23هـ/644م) {cite:futuh-buldan-maarif-1407 p. 546-547}؛ التحويل مشتق.", sources: [source/futuh-buldan-maarif-1407] }
+  start: { edtf: "0643~", hijri: "0023~", calendar: julian, precision: year, status: tradition, derived: true, note: "في آخر خلافة عمر بن الخطاب ⁦(ت 23هـ/644م)⁩ {cite:futuh-buldan-maarif-1407 p. 546-547}؛ التحويل مشتق.", sources: [source/futuh-buldan-maarif-1407] }
 relations:
   - { type: had_participant, target: person/abu-musa-al-ashari, role: "القائد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/uthman-ibn-abi-al-as, role: "القائد", sources: [source/futuh-buldan-maarif-1407] }
@@ -34,6 +34,6 @@ sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
-  source: "فتوح البلدان للبلاذري (ط مؤسسة المعارف 1407هـ/1987م) ص 546-547"
+  source: "فتوح البلدان للبلاذري ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 546-547"
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"

@@ -1,0 +1,30 @@
+---
+id: person/abu-muslim-al-khawlani
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-person-02-b21
+  source: content/en/person/abu-muslim-al-khawlani.md
+---
+## Résumé
+Abu Muslim Abd Allah ibn Thuwab al-Khawlani était l'un des Successeurs de Syrie et parmi ses renonçants. [[work/al-tarikh-al-kabir|Al-Tarikh al-Kabir]] d'al-Bukhari lui consacre une notice sous le nom d'Abd Allah ibn Thuwab, rapporte qu'Abu Idris al-Khawlani transmit de lui et qu'il transmit d'[[person/awf-ibn-malik-al-ashjai|Awf ibn Malik al-Ashja'i]], et cite certains qui dirent que son nom était Abd Allah ibn Awf. {cite:tarikh-kabir-hyderabad-3-1 p. 58} {cite:tarikh-kabir-hyderabad-3-1 p. 59} Al-Suyuti fixe la vocalisation du nom de son père comme « Thuwab », sur le modèle d'Umar. {cite:tadrib-rawi-awwama-v5 p. 253}
+
+## Un mukhadram
+Ibn al-Salah définit les mukhadramun parmi les Successeurs comme ceux qui vécurent dans la Jahiliyya et du vivant du Prophète et devinrent musulmans sans avoir eu le compagnonnage ; il dit que Muslim en recensa vingt, et que parmi ceux que Muslim ne mentionna pas figurent Abu Muslim al-Khawlani Abd Allah ibn Thuwab et al-Ahnaf ibn Qays. {cite:muqaddima-ibn-salah-itr p. 303} {cite:muqaddima-ibn-salah-itr p. 304} Al-Nawawi et al-Suyuti, dans le Tadrib al-Rawi, le nomment de même en premier parmi les [[concept/mukhadram|mukhadramun]] omis par Muslim. {cite:tadrib-rawi-awwama-v5 p. 253}
+
+## Avec Mu'awiya
+[[person/ahmad-ibn-hanbal|Ahmad ibn Hanbal]] rapporte dans al-Zuhd qu'Abu Muslim interpella [[person/muawiya-ibn-abi-sufyan|Mu'awiya]], assis sur la chaire de Damas : Mu'awiya, tu n'es qu'une tombe parmi les tombes — si tu apportes quelque chose, tu auras quelque chose, sinon rien ; ne crois pas que le califat consiste à amasser des richesses et à les distribuer — le califat, c'est agir selon la vérité et parler avec équité ; si tu fais tort à une seule tribu des Arabes, ton tort effacera ta justice. Mu'awiya se tourna vers lui et dit : que Dieu te fasse miséricorde. {cite:zuhd-ahmad-dkim-1983 p. 471} {cite:zuhd-ahmad-dkim-1983 p. 472} Il rapporte aussi qu'Abu Muslim allait « en deuil de l'islam » ; Mu'awiya le fit venir pour lui en demander la raison, et il lui dit : si tu fais le bien, tu seras récompensé par le bien, et si tu fais le mal, tu en seras rétribué ; serais-tu juste envers tous les gens de la terre puis injuste envers un seul homme, ton injustice l'emporterait sur ta justice. {cite:zuhd-ahmad-dkim-1983 p. 473} {cite:zuhd-ahmad-dkim-1983 p. 474}
+
+## Sa prière pour la pluie et sa mort
+Ahmad rapporte, d'après ce qu'il trouva de la main de son père, que les gens souffrirent de sécheresse au temps de Mu'awiya ; Mu'awiya les mena prier pour la pluie et demanda à Abu Muslim de prier ; il se découvrit la tête, leva les mains et pria, et avant qu'ils ne repartent la pluie tomba. Puis Abu Muslim pria : si Mu'awiya m'a mis en avant pour l'apparence, prends-moi auprès de Toi — c'était un jeudi, et il mourut le jeudi suivant. {cite:zuhd-ahmad-dkim-1983 p. 473} Chez al-Bukhari, Abu Mushir dit qu'il mourut au temps de Mu'awiya, avant Busr ibn Abi Artat. {cite:tarikh-kabir-hyderabad-3-1 p. 59} Ahmad rapporte aussi, d'après des anciens de Damas, qu'un moine dans un ermitage près de Homs les interrogea sur lui, dit qu'ils le trouvaient dans leur livre comme le compagnon de Jésus fils de Marie, et qu'ils ne le trouveraient pas vivant ; comme ils traversaient la Ghouta, ils apprirent sa mort. {cite:zuhd-ahmad-dkim-1983 p. 472} {cite:zuhd-ahmad-dkim-1983 p. 473}
+
+## Adoration et paroles
+Ahmad rapporte que deux hommes vinrent le voir et le trouvèrent en prière dans la mosquée ; l'un compta trois cents inclinaisons et l'autre quatre cents avant qu'il ne termine, et il leur dit : vous n'aviez pas à compter ma prière — et je jure que beaucoup de prosternations est ce qu'il y a de meilleur pour le Jour de la Résurrection. {cite:zuhd-ahmad-dkim-1983 p. 474} Parmi ses paroles rapportées là : si l'on me disait que l'Enfer est en train d'être attisé, je ne pourrais rien ajouter à ce que je fais. {cite:zuhd-ahmad-dkim-1983 p. 473} Passant devant une ruine, il disait : ruine, où sont tes habitants ? Ils sont partis et leurs œuvres demeurent ; le désir a pris fin et le péché demeure ; fils d'Adam, délaisser le péché est plus facile que rechercher le repentir. {cite:zuhd-ahmad-dkim-1983 p. 474} À un homme qui se plaignait de ce que les gens lui faisaient, il dit : si tu te querelles avec eux, ils se querelleront avec toi, si tu les laisses, ils ne te laisseront pas, et si tu les fuis, ils te rattraperont. {cite:zuhd-ahmad-dkim-1983 p. 472} Et : prenez garde aux intuitions des croyants, car Dieu place la vérité dans leurs cœurs et sur leurs langues. {cite:zuhd-ahmad-dkim-1983 p. 474} On dit qu'il demandait à Dieu, dans ses prières surérogatoires, ses petits besoins en les nommant : un plat cuit, de l'huile, du bois. {cite:zuhd-ahmad-dkim-1983 p. 473}
+
+Ahmad rapporte avec sa chaîne que [[person/kab-al-ahbar|Ka'b]] dit : le sage de cette communauté est Abu Muslim al-Khawlani. {cite:zuhd-ahmad-dkim-1983 p. 474} Il rapporte aussi, d'après [[person/jubayr-ibn-nufayr|Jubayr ibn Nufayr]] d'après Abu Muslim, un récit mursal selon lequel le Prophète dit : Dieu ne m'a pas révélé d'amasser des richesses et d'être parmi les marchands, mais Il m'a révélé ce qui est dans [[passage/quran-15-98|la sourate al-Hijr 98]]–[[passage/quran-15-99|99]]. {cite:zuhd-ahmad-dkim-1983 p. 472}
+
+## Prodiges rapportés
+Ahmad rapporte, d'après ce qu'il trouva de la main de son père sur l'autorité d'anciens de Damas, qu'Abu Muslim était en territoire byzantin et s'inquiétait parce qu'une troupe de razzia tardait ; un corbeau se posa sur un arbre et lui dit qu'ils avaient pris du butin, étaient saufs et arriveraient à une heure qu'il nomma, et ils vinrent à cette heure. {cite:zuhd-ahmad-dkim-1983 p. 472} Ces récits et d'autres semblables sont transmis avec leurs chaînes dans al-Zuhd ; le musée les rapporte sans les affirmer.

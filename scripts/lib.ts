@@ -15,7 +15,7 @@ export const CLASSES = [
 ] as const;
 export type EntityClass = (typeof CLASSES)[number];
 // Languages that have UI strings (i18n/<lang>.yaml); prose may exist in any of them.
-export const LANGS = ["en", "ar", "ur", "fr"] as const;
+export const LANGS = ["en", "ar", "ur", "fr", "es"] as const;
 // Languages the site publishes now (docs/language.md): Arabic canonical, English published as its Phase-4 translation.
 export const PUBLISHED_LANGS = ["ar", "en", "ur"] as const; // translations required in these languages; fr joins when the french lane lands its data
 
