@@ -1,0 +1,28 @@
+---
+id: person/wang-jingzhai
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/wang-jingzhai.md}
+---
+
+# Wang Jingzhai
+
+## Résumé
+Wang Jingzhai (1880–1949) était un érudit musulman chinois originaire de Tianjin, un ahong de premier plan de la République de Chine et l'un des quatre grands ahongs de la Chine moderne. Il fut imam de plus de vingt mosquées dans le nord de la Chine, étudia à al-Azhar et célébra le hajj en 1923, publia la revue Yi Guang pendant douze ans, et traduisit l'intégralité du Coran en chinois en trois versions successives — l'œuvre pour laquelle il est le plus célèbre. {cite:wikipedia-wang-jingzhai-en} {cite:wikipedia-wang-jingzhai-zh}
+
+## Formation
+Il naquit près de la Grande Mosquée Nord à Tianjin, dans une famille d'ahongs ; son nom de naissance était Wenqing et son nom religieux Sayr al-Din Ilyas. Son père Wang Lanting commença ses études d'arabe à l'âge de huit ans, et à partir de 1894 il suivit le programme scolaire de la mosquée en arabe et en droit élémentaire, avec un peu de persan, sous la succession d'ahongs — Li Changgui, Ma Yulin, Yu Mianzhai, Jin Lianrong, Liu Xukui et Hai Sifu parmi eux. En 1905, Yu Mianzhai, alors enseignant au village d'Anyu, lui confia le turban et la toge qui désignaient un ahong qualifié, et il entama une vie entière à des postes de mosquée : village de Baita et Xinbao'an, la mosquée Huashi à Pékin, Kaiyuan à Fengtian, et bien d'autres encore, dans le nord-est et dans la région capitale. Il lut avidement la nouvelle presse musulmane et nationale, étudia brièvement l'anglais avec un chrétien à Fengtian jusqu'à ce que sa congrégation s'y oppose, puis rejoignit le Kuomintang en 1912. {cite:wikipedia-wang-jingzhai-zh} {cite:wikipedia-wang-jingzhai-en}
+
+## Le Caire, le hajj et la réforme
+En 1922, estimant que ses connaissances étaient insuffisantes pour ce qu'il devait, il quitta Tianjin avec son élève Ma Hongdao, financé par des mécènes de Taiyuan, Nankin, Gansu et Tianjin, et entra dans al-Azhar ; à l'automne 1923, les deux accomplirent le hajj — où les pèlerins chinois, à qui il était interdit de hisser leur drapeau national au-dessus de leurs tentes, durent le démonter, une humiliation qu'il n'oublia jamais — et parcourut l'Arabie et la Turquie avant de retourner seul à al-Azhar, d'être nommé premier chef de la section étudiante chinoise, d'absorber les courants réformistes de l'islam égyptien et de copier plus de six cents œuvres arabes. Il rentra chez lui au printemps 1924. De retour à Tianjin, il se fit un nom comme réformateur de l'ancien modèle mosquée-école : en 1925, il enseigna à l'école normale de Chengda, en 1927 il fonda le mensuel Yi Guang à la Grande Mosquée du Nord, le distribuant gratuitement pendant douze ans, et en 1933 il mena la promotion de « suivre les Écritures et réformer les coutumes » à la mosquée Sanyizhuang. Les opposants conservateurs répondirent en 1934 par une campagne « expulser la nouvelle pratique » qui s'empara de la mosquée par la force et chassa son allié Xiao Dezhen ; il se défendit par écrit et devant les tribunaux, et les instigateurs furent emprisonnés. Il continua à fonder des bureaux de traduction et des associations de secours en temps de guerre, et accepta en 1948 l'imamat de la mosquée de Taipei avant que le climat méridional ne le rende chez lui ; il mourut à Guiyang en chemin, le 25 mai 1949, et fut enterré au cimetière Hui en périphérie. {cite:wikipedia-wang-jingzhai-zh}
+
+## Les traductions
+Son premier travail coranan est né d'une tentative organisée de 1914–1916, lorsque le commandant du Shandong Ma Liang lui demanda de diriger une traduction et qu'il recruta à la place le spécialiste de Cangzhou Hai Jin et d'autres ; ce projet ne fut jamais publié, et il se tourna vers la traduction de ses propres œuvres polémiques et juridiques. Sa propre traduction complète commença en 1925 : un premier brouillon complet en quatre mois, jugé insatisfaisant ; un second, achevé après vingt mois de travail à Pékin et publié à Beiping en 1932 sous son nom de naissance Wang Wenqing ; une version en langue d'école mosquée achevée en décembre 1938, détruite par les bombardements japonais en 1940 et réécrite à Chongqing en mars 1941 ; et une version vernaculaire, publiée à Shanghai en 1946 en cinq mille exemplaires. Parallèlement au Coran, il a produit des dictionnaires arabo-chinois, une traduction du Gulistan de Saadi sous le titre Le Jardin de la vérité, ainsi qu'une étagère d'articles, parmi lesquels son autobiographie Cinquante ans à la recherche de l'apprentissage. {cite:wikipedia-wang-jingzhai-zh} {cite:wikipedia-wang-jingzhai-en} {cite:wikipedia-wang-jingzhai-ur}
+
+## Foi
+Sa foi est enregistrée comme inconnue. L'article chinois décrit son programme de réformes et la campagne contre son parti de « nouvelle pratique », ainsi que l'influence réformiste qu'il a absorbée en Égypte, mais aucun texte ne cite une école, un ordre ou un mouvement comme appartenance ; La valeur religieuse unique de Wikidata est l'islam sunnite, une famille structurée, qui ne remplit pas la barre des deux textes du musée. La lecture sunnite est conservée dans ses archives. {cite:wikipedia-wang-jingzhai-zh} {cite:wikidata-wang-jingzhai}
+
+## Sources
+- Les entités sources définies citées ci-dessus, enregistrées dans `data/source/`.
+- Les révisions de cet article doivent être datées et doivent indiquer la source qui a modifié chaque fait.
