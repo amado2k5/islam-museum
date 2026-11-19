@@ -15,5 +15,7 @@ REC=$($P -c "import json,sys;d=json.load(open(sys.argv[1]));print(len(d), sum(le
 OK=$(echo "$OUT" | grep -oE "ok [0-9]+" | cut -d' ' -f2); TOT=$(echo "$REC" | cut -d' ' -f1)
 SET=$(echo "$SHIP" | grep -c "^set aside")
 printf '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' "$NAME" "$L" "$TOT" "$(echo "$REC" | cut -d' ' -f2)" "$3" "$(date +%H:%M:%S)" "$((${OK:-0} - SET))" "$((TOT - ${OK:-0} + SET))" "${PR:--}" "$STATE" >> "$H/gt/tracker.tsv"
-NEXT=$(( $2 + 1 )); $P scripts/local-mt/build_gt.py --lang "$L" --dir "$H/gt" --n "$NEXT" --failed "$H/logs/gt-$L.log.failed" --scheme "${LOCAL_MT_GT_SCHEME:-tags}" $TAKEN && cp "$H/gt/gt-$L-$(printf '%03d' $NEXT)-en.docx" "$UP/"
+# founder's instruction, 19 November 2026: once a file is merged, delete what was uploaded and what was downloaded
+[ "$STATE" = MERGED ] && rm -f "$H/gt/$NAME-en.docx" "$UP/$NAME-en.docx" "$H/gt/dl/$NAME.docx" "$H/gt/$NAME.json"
+NEXT=$(( $2 + 1 )); $P scripts/local-mt/build_gt.py --lang "$L" --dir "$H/gt" --n "$NEXT" --failed "$H/logs/gt-$L.log.failed" --scheme "${LOCAL_MT_GT_SCHEME:-num}" $TAKEN && cp "$H/gt/gt-$L-$(printf '%03d' $NEXT)-en.docx" "$UP/"
 tail -1 "$H/gt/tracker.tsv"
