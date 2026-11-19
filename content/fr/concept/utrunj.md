@@ -1,0 +1,16 @@
+---
+id: concept/utrunj
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/utrunj.md}
+---
+
+## Nature et sélection
+Connue. L'huile produite à partir de sa pelure est forte ; l'huile issue de sa fleur est plus faible à tous égards {cite:canon-ibn-sina-print-v1 p.367}. Une note de bas de page décrit un grand arbre avec un fruit semblable à de gros citrons, composé de quatre parties : pelure, chair, jus et graine {cite:canon-ibn-sina-print-v1 p.367}.
+
+## Tempérament et actions
+La pelure est chaude au premier degré et sèche à la fin du second. La chair est chaude et humide dans le premier ; certains disent qu'elle est froide et humide dans le premier. Le jus est froid et sec dans le troisième, et la graine est chaude dans le premier et sèche dans le troisième {cite:canon-ibn-sina-print-v1 p.367}.
+
+## Utilisations par l'orgue
+Propriétés : sa chair est flatulente ; ses feuilles apaisent les flatulences ; sa fleur est plus subtile. Son jus est astringent et détruit la bile ; sa graine et sa pelure se résolvent ; si sa peau est placée dans les vêtements, elle empêche la présence de mites, et son odeur corrige le mauvais air et la peste {cite:canon-ibn-sina-print-v1 p.367}. Ornement : son jus illumine le teint et élimine les taches de rousseur ; sa pelure brûlée ressemblant à de cendres est une bonne pommade contre la lèpre ; sa décoction adoucit l'haleine {cite:canon-ibn-sina-print-v1 p.368}. Gonflements et pustules : son jus en baume aide l'herpès {cite:canon-ibn-sina-print-v1 p.368}. Articulations : son huile aide à relâcher les nerfs et à la paralysie, et son jus est mauvais pour les nerfs {cite:canon-ibn-sina-print-v1 p.368}. Tête : il aide à la paralysie faciale, et une décoction de citron adoucit grandement l'haleine {cite:canon-ibn-sina-print-v1 p.368}. Yeux : son jus utilisé comme kohl élimine la jaunisse de l'œil {cite:canon-ibn-sina-print-v1 p.368}. Poitrine : son jus calme les palpitations chaudes ; sa conserve est bonne pour la gorge et les poumons, mais son jus est mauvais pour la poitrine {cite:canon-ibn-sina-print-v1 p.368}. Estomac : sa chair est mauvaise pour l'estomac, flatulente, lente à digérer, et doit être consommée avec de la conserve ; ses feuilles renforcent l'estomac et les intestins ; sa fleur et sa pelure facilitent la digestion lorsqu'elles sont ajoutées à la nourriture ; sa conserve acide bronzant l'estomac, et son jus aide à la jaunisse et calme les vomissements bilieux {cite:canon-ibn-sina-print-v1 p.368}. Organes excréteurs : sa chair provoque des coliques ; son jus lie l'intestin et aide à la diarrhée bilieuse ; sa graine aide les tas ; le jus de sa partie acide calme la convoitise féminine {cite:canon-ibn-sina-print-v1 p.368}. Poisons : sa graine, deux drachmes avec du vin, de l'eau chaude ou une pommade, contre tous les poisons, en particulier le venin du scorpion, et la pelure est similaire ; la graine boit aide les morsures de serpent, et la pelure est utilisée comme cataplasme {cite:canon-ibn-sina-print-v1 p.368}.
