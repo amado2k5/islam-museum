@@ -1,0 +1,24 @@
+---
+id: polity/abbadids
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/polity/abbadids.md}
+---
+## Visión general
+Los Abádides, los Banu Abbad, fueron una dinastía de estirpe árabe que reinó durante la mayor parte de los siglos V/XI sobre el suroeste de al-Ándalus, con [[place/seville|Sevilla]] como capital. {cite:encyclopaedia-of-islam-2 vol. 1 p. 24} Surgieron cuando el califato de Córdova se desintegró y el país quedó dividido entre los pequeños reyes conocidos como los reyes del partido, los mulukos al-Tawa'if. {cite:encyclopaedia-of-islam-2 vol. 1 p. 24}
+
+## Muhammad ibn Abbad, fundador
+El qadi de Sevilla, Abu al-Qasim Muhammad ibn Abbad, fue proclamado gobernante en 414/1013. Era hijo de un célebre jurista de origen lakhmida, Isma'il ibn Abbad. Al principio reconoció la suzeranía nominal del rey hamudía Yahya ibn Ali, pero pronto la abandonó. El artículo dice que se sabe poco sobre los detalles de su reinado, que transcurrió principalmente resolviendo disputas armadas con los jahwarids de Córdoba y los señores menores del sur de Andalucía, y que murió en 433/1042. {cite:encyclopaedia-of-islam-2 vol. 1 p. 24}
+
+## Al-Mu'tadid
+Su hijo Abbad ibn Muhammad gobernó durante casi treinta años, 433-460/1042-69, y amplió considerablemente el principado al hacerse pasar por campeón de los árabes andalues contra los bereberes. {cite:encyclopaedia-of-islam-2 vol. 1 p. 24} Tomando primero el título de hajib y luego el honorífico al-Mu'tadid billah, el autor lo describe como autoritario, ambicioso y cruel. {cite:encyclopaedia-of-islam-2 vol. 1 p. 24} Luchó contra el gobernante bereber de Carmona y extendió su reino hacia el oeste derrotando a los señores de Mertola y Niebla. {cite:encyclopaedia-of-islam-2 vol. 1 p. 25} Se formó una alianza de otros reyes contra él, y una larga guerra con los aftasidas al-Muzaffar de Badajoz duró hasta que la mediación dio frutos en 443/1051. {cite:encyclopaedia-of-islam-2 vol. 1 p. 25} Anexionó Huelva, Silves y Santa María de Algarve, y para justificar estas acciones afirmó haber encontrado al califa Hisham II, que había muerto en el olvido, una historia que el artículo califica de torpe estratagema. {cite:encyclopaedia-of-islam-2 vol. 1 p. 25} En 445/1053, según se informa, tomó Arcos, Morón y Ronda de pequeños jefes bereberes, un acto que provocó a los Badis ziridas de Granada. {cite:encyclopaedia-of-islam-2 vol. 1 p. 25} El artículo indica su muerte como 461/1069 en un pasaje y 460/1069 en otro, y el museo conserva ambos. {cite:encyclopaedia-of-islam-2 vol. 1 p. 24} {cite:encyclopaedia-of-islam-2 vol. 1 p. 25}
+
+## Al-Mu'tamid
+Su hijo Mahoma, más conocido como [[person/al-mutamid-ibn-abbad|al-Mu'tamid]], le sucedió y tomó el control de un reino muy ampliado. En el segundo año de su reinado anexionó Córdoba. Ibn Ukkasha tomó la ciudad por sorpresa en 468/1075 y mató al hijo de al-Mu'tamid, el joven gobernador, y al-Mu'tamid la recuperó solo en 471/1078. {cite:encyclopaedia-of-islam-2 vol. 1 p. 25} El visir [[person/ibn-ammar|Ibn Ammar]] negoció un acuerdo pacífico con Castilla a cambio de un tributo doble. {cite:encyclopaedia-of-islam-2 vol. 1 p. 25} Ibn Ammar más tarde se enemistó con su señor y fue entregado a él y asesinado. {cite:encyclopaedia-of-islam-2 vol. 1 p. 26}
+
+## Castilla y los almorávides
+Cuando [[person/alfonso-vi-castile|Alfonso VI]] comenzó a investir Toledo, los príncipes de España, con al-Mu'tamid al mando, pidieron ayuda al sultán almorávida [[person/yusuf-ibn-tashfin|Yusuf ibn Tashufin]]. Yusuf cruzó el Estrecho y ganó la batalla de al-Zallaqa el 22 de Rajab de 479/23 de octubre de 1086. {cite:encyclopaedia-of-islam-2 vol. 1 p. 26} Al-Mu'tamid tuvo que apelar de nuevo en persona, y Yusuf desembarcó en Algeciras en 480/1088, pero luego, según el artículo, decidió continuar la yihad en España por su cuenta y despojar a los príncipes que le habían llamado. {cite:encyclopaedia-of-islam-2 vol. 1 p. 26}
+
+## El fin de la dinastía
+A finales de 1090, un ejército almorávida había tomado Tarifa, Córdoba, Carmona y finalmente Sevilla, a pesar de una heroica salida de al-Mu'tamid. Fue enviado con su familia a Tánger, luego a Meknes, y después a Aghmat cerca de Marrakech, y murió allí en 487/1095 a los cincuenta y cinco años. {cite:encyclopaedia-of-islam-2 vol. 1 p. 26} El autor considera que, pese a los excesos y crueldad de sus príncipes, la dinastía fue la más brillante de las taifas y aquella bajo la cual las artes y las letras brillaron con mayor intensidad en la España musulmana del siglo XI. {cite:encyclopaedia-of-islam-2 vol. 1 p. 26}

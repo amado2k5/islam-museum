@@ -1,0 +1,24 @@
+---
+id: polity/qara-qoyunlu
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/polity/qara-qoyunlu.md}
+---
+## Visión general
+La Enciclopedia del Islam describe a los Kara-Koyunlu como una dinastía turca que gobernó partes del este de Anatolia, Irak, la Jazira y la mayor parte de Irán; también era conocida como Barani, y el artículo señala que no se sabe por qué se dio ese nombre a la dinastía. {cite:encyclopaedia-of-islam-2 vol. 4 p. 621} La tribu Kara-Koyunlu fue indudablemente una subtribu de los Oghuz, y el artículo juzga la probable afirmación de Minorsky de que pertenecía a los Yiwa. {cite:encyclopaedia-of-islam-2 vol. 4 p. 621}
+
+## Ascenso bajo Bayram Khodja y Kara Mehmed
+En el periodo mongol, los Kara-Koyunlu pasaban el invierno en la región de Mosul y pastaban en la región de Van, y tras ocupar las tierras anatolias orientales y sudorientales en 737/1337, se convirtieron en sus vasallos. {cite:encyclopaedia-of-islam-2 vol. 4 p. 621} Amir Bayram Khodja, que mató a Husayn Beg en 752/1351 y tomó el mando, capturó Mosul; el sultán jalayirí Uways lo derrotó en la llanura de Mush en 767/1366 y lo convirtió en vasallo pagador de tributo, pero a su muerte en 782/1380 el territorio desde Mosul hasta Erzurum estaba directamente bajo el mando de los Kara-Koyunlu. {cite:encyclopaedia-of-islam-2 vol. 4 p. 621} Su sobrino Kara Mehmed derrotó al ejército jalayírida cerca de Nakhichevan en 784/1382, y el artículo informa que Pir Hasan lo mató en Rabi II 791/abril de 1389. {cite:encyclopaedia-of-islam-2 vol. 4 p. 621}
+
+## Kara Yusuf, Timur e Iskandar
+Kara Yusuf, hijo de Kara Mehmed, se opuso a Timur como lo había hecho su padre: se refugió con el otomano Bayezid I en 802/1400, estuvo retenido con el Jalayirid Ahmad en Damasco por orden del sultán mameluco y fue liberado por el gobernador Shaykh en 807/1405. {cite:encyclopaedia-of-islam-2 vol. 4 pp. 623-624} Al regresar a Anatolia oriental, derrotó al nieto de Timur, Abu Bakr Mirza, en 809/1406 y aseguró Adharbaydjan; en la aldea de Asad, cerca de Tabriz, el 28 de Rabi II de 813/30 de agosto de 1410, derrotó y capturó al sultán Ahmad, quien fue posteriormente ejecutado, y el árabe iraquí fue incorporado a las tierras de Kara-Koyunlu. {cite:encyclopaedia-of-islam-2 vol. 4 p. 623} Murió el 7 de Dhu l-Qa'da de 823/13 de noviembre de 1420 de camino a reunirse con el timúrida Shah Rukh, dejando un gran territorio desde Erzincan hasta Qazvin y desde Shirvan hasta Basora. {cite:encyclopaedia-of-islam-2 vol. 4 p. 624} Su hijo Iskandar luchó contra Shah Rukh en Alashgird los días 29-30 de Rajab y contra 1 Sha'ban de 824/30 al 31 de julio y 1 de agosto de 1421, una batalla ganada por Shah Rukh mediante números, aunque Shah Rukh se retiró después; Iskandar fue asesinado por su propio hijo Shah Kubad en 841/1438. {cite:encyclopaedia-of-islam-2 vol. 4 pp. 624-625}
+
+## Jihan Shah y el fin de la dinastía
+Durante el reinado de Jihan Shah, 843-72/1439-67, el artículo dice que el territorio creció hasta convertirse en un gran imperio y vivió su fase más brillante: tomó a Iraq-i Arab, Rayy, Isfahán, Fars y Kirman, y obtuvo del timúrida Abu Sa'id la confirmación de sus conquistas; ostentó los títulos de Kan, Khaqan y Sultán, y fomentó la cultura y el saber. {cite:encyclopaedia-of-islam-2 vol. 4 p. 625} Fue asesinado junto con su hijo Muhammadi en 872/1467 durante una expedición contra Uzun Hasan de los Ak-Koyunlu; su hijo Hasan Ali, puesto en el trono, se suicidó en Shawwal 873/abril de 1469 cuando no pudo evitar ser capturado, y en 874/1469 todos los territorios Kara-Koyunlu pasaron a manos de los Ak-Koyunlu. {cite:encyclopaedia-of-islam-2 vol. 4 p. 625}
+
+## Inclinaciones religiosas
+El artículo señala que varios miembros de la dinastía llevaban nombres como Yar Ali, Pir Ali y Hasan Ali, lo que se interpreta como evidencia de una tendencia hacia el chiismo, y que se dice que Isfahán, hijo de Kara Yusuf, acuñó monedas en nombre de los Doce Imanes; por otro lado, los nombres de los Cuatro Califas aparecen en las monedas del reinado de Jihan Shah y ningún historiador contemporáneo registra inclinación alguna hacia el chiísmo por su parte. {cite:encyclopaedia-of-islam-2 vol. 4 p. 625}
+
+## En el vocabulario Nomisma
+Nomisma posee un registro conceptual bajo el identificador «qara_qoyunlu», con las etiquetas alternativas Kara Koyunlu y Black Sheep Turkomans; en la consulta del 14 de noviembre de 2026 se le adjuntó un registro de membresía por la relación organizativa, y no había moneda ni tipo de moneda. {cite:nomisma qara_qoyunlu}
