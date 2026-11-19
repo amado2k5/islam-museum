@@ -18,6 +18,7 @@ islam.museum is an open, free, all-digital museum of Islam: the faith, civilizat
    - `docs/agents/source-families.md`: where enrichment looks beyond books — the registered families, the ones to onboard next, the ones to explore, and the criteria for judging a new resource.
    - `docs/agents/mining-sources.md` (+ `docs/agents/categories/`): how to turn a book into entities.
    - `docs/agents/lanes.md`: who works on what, the lane for your task, how to open a new lane.
+   - `docs/engineering/63-translation-by-document-files.md`: how prose is translated in bulk (founder's instruction, 19 November 2026): Word files through Google Translate's document translation in a browser, imported and checked by script — not a local model and not a cloud AI model.
    - `docs/site/README.md`: how the site is built, the design and accessibility rules, the date and timeline rules, and every automated check. Read it before any change under `site/` or to a date.
 3. `docs/status.md` (live state, ownership) and `docs/plan/` (the section you implement; key ones: 01-vision, 02-content-model, 05-editorial, 06-roadmap, 09-ai-content-pipeline, 13-figures, 14-themes-atlas, 15-local-harvest).
 4. Two existing entities of the class you will write, from different authors, and copy their shape. `data/event/expedition-of-al-sawiq.yaml` with `content/ar/event/expedition-of-al-sawiq.md` is the gold example for events.
