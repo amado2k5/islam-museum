@@ -7,7 +7,7 @@ translators: []
 
 ## موجز
 
-احمد بن لطف اللہ، اپنے عہدی لقب «منجم باشی» (رئیسِ منجمین) سے مشہور، عثمانی مؤرخ، ماہرِ فلکیات اور صوفی شاعر تھے؛ 1631ء میں سلانیک میں پیدا ہوئے اور 28 فروری 1702ء کو مکہ میں وفات پائی۔{cite:wikipedia-muneccimbasi-ahmed-dede-tr}{cite:wikipedia-muneccimbasi-ahmed-dede-en} جوانی میں سلانیک کی مولوی خانقاہ کے شیخ سے بیعت کر کے مولوی بنے، استنبول کی قاسم پاشا خانقاہ میں پندرہ برس رہے اور آخر میں مکہ کی مولوی خانقاہ کے شیخ بنے۔{cite:wikipedia-muneccimbasi-ahmed-dede-tr}{cite:wikipedia-muneccimbasi-ahmed-dede-ar}
+احمد بن لطف اللہ، اپنے عہدی لقب «منجم باشی» ⁦(رئیسِ منجمین)⁩ سے مشہور، عثمانی مؤرخ، ماہرِ فلکیات اور صوفی شاعر تھے؛ 1631ء میں سلانیک میں پیدا ہوئے اور 28 فروری 1702ء کو مکہ میں وفات پائی۔{cite:wikipedia-muneccimbasi-ahmed-dede-tr}{cite:wikipedia-muneccimbasi-ahmed-dede-en} جوانی میں سلانیک کی مولوی خانقاہ کے شیخ سے بیعت کر کے مولوی بنے، استنبول کی قاسم پاشا خانقاہ میں پندرہ برس رہے اور آخر میں مکہ کی مولوی خانقاہ کے شیخ بنے۔{cite:wikipedia-muneccimbasi-ahmed-dede-tr}{cite:wikipedia-muneccimbasi-ahmed-dede-ar}
 
 ## زندگی اور کام
 

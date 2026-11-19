@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { hijri: "0013-09-30~", precision: day, status: tradition, note: "يوم السبت آخر رمضان سنة 13 (البلاذري ص 352)" }
+  start: { hijri: "0013-09-30~", precision: day, status: tradition, note: "يوم السبت آخر رمضان سنة 13 ⁦(البلاذري ص 352)⁩" }
 relations:
   - { type: occurred_at, target: place/baniqya }
   - { type: had_participant, target: person/abu-ubayd-ibn-masud, role: "القائد المقتول", sources: [source/futuh-buldan-maarif-1407] }
@@ -21,7 +21,7 @@ relations:
   - { type: had_participant, target: person/urwa-ibn-zayd-al-khayl, role: "المقاتل البليغ", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 351–352"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 351–352"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-29, lib-akhbar-tiwal-batch-3-2026-10-31
 sides:

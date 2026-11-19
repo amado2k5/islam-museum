@@ -6,7 +6,7 @@ translators: ["Claude Code (OCR-harvest worker E), claude-opus-5-5, translation"
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sifat-al-safwa-tartusi-2012 p.716" }
 ---
 ## خلاصہ
-مسکینہ الطفاویہ [[work/sifat-al-safwa|صفۃ الصفوہ]] میں [[place/basra|بصرہ]] کی عابدات میں ہیں (نمبر 611)؛ وہ ذکر کے حلقوں میں پابندی سے شریک ہونے والی خواتین میں تھیں۔ {cite:sifat-al-safwa-tartusi-2012 p.716}
+مسکینہ الطفاویہ [[work/sifat-al-safwa|صفۃ الصفوہ]] میں [[place/basra|بصرہ]] کی عابدات میں ہیں ⁦(نمبر 611)⁩؛ وہ ذکر کے حلقوں میں پابندی سے شریک ہونے والی خواتین میں تھیں۔ {cite:sifat-al-safwa-tartusi-2012 p.716}
 
 ## عیسیٰ بن زاذان کی مجلس
 عمار راہب کہتے ہیں کہ وہ ان کے ساتھ [[place/al-ubulla|ابلہ]] میں عیسیٰ بن زاذان کی مجلس میں آتیں، اور خاص اسی مقصد سے بصرہ سے سفر کر کے پہنچتیں۔ {cite:sifat-al-safwa-tartusi-2012 p.716}

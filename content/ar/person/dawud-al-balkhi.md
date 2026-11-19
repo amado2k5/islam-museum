@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b15, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/44-45" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b15, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/44-45" }
 ---
 ## موجز
 داود البلخي من متقدمي شيوخ المشرق. يذكره [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة 461)⁩ مع [[person/ibn-adham-ibrahim|إبراهيم بن أدهم]] و[[person/shaqiq-al-balkhi|شقيق البلخي]] وحاتم الأصم، ويقول إن هؤلاء تقدم ذكرهم، وأما داود فلم ينتشر عنه ما انتشر عنهم، وإنه لم يرَ له ذكرًا فيما وقع إليه إلا حكاية واحدة. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/44}

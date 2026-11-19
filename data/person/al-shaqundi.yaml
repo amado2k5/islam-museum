@@ -9,13 +9,13 @@ gender: male
 wings: [people]
 died: { edtf: "1231", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 relations:
-  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (الأندلسي); denotes association, not proven residence.", sources: [source/nafh-tib-maqqari], confidence: low }
+  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name ⁦(الأندلسي)⁩; denotes association, not proven residence.", sources: [source/nafh-tib-maqqari], confidence: low }
   - { type: authored, target: work/risalat-al-shaqundi-fadl-al-andalus, sources: [source/nafh-tib-maqqari] }
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
 provenance:
   layer: own-research
-  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 550–551، 612–613؛ وفهرس مصادره «رسالة الشقندي في تفضيل الأندلس على بر العدوة»"
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري ⁦(ط إحسان عباس)⁩ ص 550–551، 612–613؛ وفهرس مصادره «رسالة الشقندي في تفضيل الأندلس على بر العدوة»"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-54
 sources: [source/nafh-tib-maqqari]

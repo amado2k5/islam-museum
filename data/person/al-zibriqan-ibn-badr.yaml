@@ -16,9 +16,9 @@ themes: [converts-and-leavers, skirmishes-raids-expeditions, literature]
 periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
-  - { role: poet, status: tradition, note: "شاعر وفد بني تميم؛ فاخر فأجابه حسان (ابن هشام ص208-209؛ الرحيق ص426).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  - { role: poet, status: tradition, note: "شاعر وفد بني تميم؛ فاخر فأجابه حسان ⁦(ابن هشام ص208-209؛ الرحيق ص426)⁩.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { role: convert, start: { edtf: "0631" }, status: tradition, note: "أسلم مع وفد بني تميم بعد مبارزة الخطابة والشعر.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
-  - { role: official, start: { edtf: "0631" }, status: tradition, note: "مصدّق إلى قسم من بني سعد (الرحيق ص425).", sources: [source/mubarakpuri-raheeq] }
+  - { role: official, start: { edtf: "0631" }, status: tradition, note: "مصدّق إلى قسم من بني سعد ⁦(الرحيق ص425)⁩.", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631" }, sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 died: { edtf: "665~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }

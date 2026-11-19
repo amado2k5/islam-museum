@@ -6,4 +6,4 @@ status: draft
 ---
 ## خلاصہ
 
-مال کی ولایت کی تعریف اور اس کا سبب (ابوّت اور قضاء)۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17900}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17901}
+مال کی ولایت کی تعریف اور اس کا سبب ⁦(ابوّت اور قضاء)⁩۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17900}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17901}

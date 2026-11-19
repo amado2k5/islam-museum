@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0653~", hijri: "0033", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 33؛ قيل 35 (البلاذري ص 209). التحويل مشتق." }
+  start: { edtf: "0653~", hijri: "0033", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 33؛ قيل 35 ⁦(البلاذري ص 209)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/qubrus }
   - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "أمير الغزوة في خمسمائة مركب", sources: [source/futuh-buldan-maarif-1407] }
@@ -21,7 +21,7 @@ relations:
   - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 209–211"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 209–211"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-11
 sides:

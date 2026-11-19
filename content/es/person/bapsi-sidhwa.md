@@ -1,0 +1,18 @@
+---
+id: person/bapsi-sidhwa
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/bapsi-sidhwa.md}
+---
+## Resumen
+Bapsi Sidhwa (1938–2024) fue una novelista pakistaní que escribió en inglés y vivió en Estados Unidos. Nacida en Karachi en una familia zoroastriana parsi y criada en Lahore, contrajo polio a los dos años y vivió con sus efectos durante toda su vida. {cite:wikipedia-bapsi-sidhwa-en} Es más conocida por Ice-Candy-Man (1988; publicada en Estados Unidos como Cracking India, 1991), la novela de la Partición adaptada por Deepa Mehta como Earth (1998); Mehta también rodó su novela Water (2006). {cite:wikipedia-bapsi-sidhwa-en} Recibió el Sitara-i-Imtiaz de Pakistán en 1991, fue incluida en el Salón de la Fama Zoroastriano en 2000 y falleció en Houston el 25 de diciembre de 2024. {cite:wikipedia-bapsi-sidhwa-en} {cite:fezana-bapsi-sidhwa-memoriam}
+
+## Vida
+Sidhwa nació en Karachi el 11 de agosto de 1938, hija de Peshotan y Tehmina Bhandara, y la familia se mudó a Lahore unos tres meses después. {cite:wikipedia-bapsi-sidhwa-en} A los dos años contrajo polio, que requirió cirugías severas en su infancia y dejó huella a lo largo de toda su vida; creciendo en Lahore, presenció escenas de la violencia de la Partición que más tarde entraron en su ficción. {cite:wikipedia-bapsi-sidhwa-en} Obtuvo su licenciatura en Kinnaird College en Lahore en 1957, se casó a los diecinueve años y se mudó a Bombay; ese matrimonio terminó tras cinco años y ella regresó a Lahore, donde se casó con Noshir Sidhwa, que también era zoroastrista, y crió allí a sus hijos mientras ella comenzaba a escribir. {cite:wikipedia-bapsi-sidhwa-en} Tras una beca en Harvard, enseñó en la Universidad de Columbia y luego se estableció en Houston, enseñando en la Universidad de St. Thomas y en la Escuela de Estudios Continuados de la Universidad Rice, entre otros cargos. {cite:wikipedia-bapsi-sidhwa-en} Sidhwa era ella misma zoroastrista: el memorial de FEZANA registra su activa participación en la Asociación Zoroastriana de Houston, y concluyó con la oración zoroastriana por los muertos sobre su alma. {cite:fezana-bapsi-sidhwa-memoriam} Falleció en Houston, Texas, el 25 de diciembre de 2024, a la edad de 86 años. {cite:wikipedia-bapsi-sidhwa-en} {cite:fezana-bapsi-sidhwa-memoriam}
+
+## Trabajo
+Sus novelas se inspiran en el Lahore de su crianza. The Crow Eaters (1978) es un retrato cómico de una familia parsi; The Bride (1982) sigue a una chica tribal casada en las montañas Kohistani; Ice-Candy-Man (1988) narra la Partición a través de los ojos de Lenny, un niño parsi de Lahore, y An American Brat (1993) envía a una chica pakistaní a Estados Unidos. {cite:wikipedia-bapsi-sidhwa-en} Deepa Mehta rodó Ice-Candy-Man como Earth (1998) y su novela Water (2006) como la película Water (2005). {cite:wikipedia-bapsi-sidhwa-en} También editó City of Sin y Splendour, escritos sobre Lahore (2006), y publicó Their Language of Love en 2013. {cite:wikipedia-bapsi-sidhwa-en} Entre sus distinciones figuran el Sitara-i-Imtiaz (1991), el Premio de Escritores Lila Wallace-Reader's Digest (1994) y el Premio Mondello de Agua de Italia (2007); FEZANA fundó el Premio Literario Bapsi Sidhwa en 2022. {cite:wikipedia-bapsi-sidhwa-en} {cite:fezana-bapsi-sidhwa-memoriam}
+
+## Fuentes
+- Las entidades fuente citadas anteriormente, registradas bajo `data/source/`.

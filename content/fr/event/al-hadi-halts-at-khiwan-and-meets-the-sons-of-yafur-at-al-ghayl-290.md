@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-halts-at-khiwan-and-meets-the-sons-of-yafur-at-al-ghayl-290
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-halts-at-khiwan-and-meets-the-sons-of-yafur-at-al-ghayl-290.md}
+---
+## Vue d'ensemble
+Ceci complète la phrase coupée au bas de la page 245 : [[person/al-hadi-yahya-al-rassi|al-Hadi]] s’arrêta avec [[person/al-daam-ibn-ibrahim|al-Da’am]] à [[place/khiwan|Khiwan]] et y resta quelques jours, tandis qu’Ibn al-Dahhak se dirigeait alors vers [[group/banu-tarif|Al Tarif]] et s’enfuit de la ville {cite:sira-hadi-ila-al-haqq p.245} {cite:sira-hadi-ila-al-haqq p.246}. Des gens vinrent trouver al-Hadi et lui parlèrent de confisquer les biens de cet homme et de raser sa maison ; Il n'aimait pas cela et continua jusqu'à ce qu'il atteigne [[place/bayt-dhud-yemen|Bayt Dhu'd]], où il resta quelques jours {cite:sira-hadi-ila-al-haqq p.246}.
+
+## Détail
+[[person/al-daam-ibn-ibrahim|al-Da'am]] écrivit aux deux fils de [[group/banu-yafur|Al Ya'fur]] de le rencontrer à [[place/al-bawn-yemen|al-Bawn]] ; ils le firent, et il alla à leur rencontre jusqu'à ce qu'ils se rencontrent à [[place/al-ghayl-al-bawn-yemen|al-Ghayl]]. Al-Hadi avait envoyé [[person/muhammad-ibn-said-ibn-yusuf|Muhammad ibn Sa'id]] avec al-Da'am pour prendre les serments des deux fils de Ya'fur, et il prit d'eux sécurité, alliances et promesses ; Ils convinrent que les deux hommes quitteraient leur route (l'autre copie indique qu'ils la quitteraient), qu'al-Hadi et al-Da'am se dirigeraient vers le district de Sanaa, et chacun retourna chez lui {cite:sira-hadi-ila-al-haqq p.246}. Précédemment, au chapitre [[event/the-strife-between-al-yafur-and-their-slaves-and-al-daams-appeal-to-al-hadi-290|est relatée la querelle d'Al Ya'fur et leur lettre à al-Da'am]] ; puis, au chapitre [[event/al-hadi-waits-at-bayt-dhud-and-falj-and-moves-by-raydah-and-madar-to-sabal-290|est relatée l'attente d'al-Hadi à Bayt Dhu'd et Falj, et son départ pour Sabal]]. Le livre ne mentionne Ibn al-Dahhak que sous ce nom, ce qui amène le musée à l'associer, à titre d'hypothèse seulement, au rebelle de Khiwan de 286 H, de même que Muhammad ibn Sa'id ; le narrateur ne précise pas l'identité des personnes qui réclamèrent la confiscation de ses biens.

@@ -1,0 +1,18 @@
+---
+id: event/al-hadi-applies-the-wine-penalty-at-saada-286
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-applies-the-wine-penalty-at-saada-286.md}
+---
+## Vue d'ensemble
+Ali ibn Muhammad rapporte : Mon père, Muhammad ibn Ubaydallah, m’a dit : « J’ai vu Yahya ibn al-Husayn lorsqu’on lui a amené un homme et qu’on lui a dit : “C’est un ivrogne.” » {cite:sira-hadi-ila-al-haqq p.119} La marge du manuscrit porte la mention « Appliquant les peines ». {cite:sira-hadi-ila-al-haqq p.119} Ce récit est zaydite, rapporté par les disciples de l’imam ; les décisions et les chiffres proviennent du témoignage de Muhammad ibn Ubaydallah, et le musée décrit les propos sans comparaison ni verdict ; le sujet juridique général est traité dans des documents distincts [[concept/khamr]] et [[concept/hudud-penalties]].
+
+## L'homme ivre
+[[person/al-hadi-yahya-al-rassi|Al-Hadi]] demanda à deux de ses hommes de confiance de sentir l'haleine de l'homme, et ils attestèrent qu'il buvait du vin. Il le retint jusqu'au lendemain, une fois son ivresse passée, puis le fit étendre entre deux poteaux et le fit fouetter quatre-vingts coups. {cite:sira-hadi-ila-al-haqq p.119} Il choisit lui-même le fouet, d'épaisseur moyenne, ni trop fin ni trop épais, en fit frapper l'extrémité avec une pierre, fit déshabiller l'homme après l'avoir frappé, ordonna au fouetteur de répartir ses coups sur les épaules et de ne pas les dépasser, et chargea un homme de compter pour lui. {cite:sira-hadi-ila-al-haqq p.119}
+
+## Quatre hommes et deux femmes
+Muhammad ibn Ubaydallah vit également Yahya ibn al-Husayn lorsque quatre hommes et deux femmes furent amenés. Certains témoins rapportèrent que deux des quatre étaient ivres et, après examen olfactif, une odeur de vin fut décelée sur eux. Ils furent donc condamnés à quatre-vingts livres chacun. {cite:sira-hadi-ila-al-haqq p.119} Des témoins déclarèrent contre les deux autres, qui étaient des soldats et des compagnons de Yahya, les ayant surpris en train de parler avec les deux femmes. Il ordonna qu'ils soient frappés de soixante-dix livres chacun, une peine inférieure à celle initialement prévue, à titre de correction. {cite:sira-hadi-ila-al-haqq p.119}
+
+## Les deux femmes
+Il envoya les deux femmes chez d'autres femmes pour vérifier si l'une d'elles était enceinte ; l'une fut trouvée enceinte, et il ordonna qu'elle soit gardée seule dans une maison jusqu'à son accouchement, à moins que deux hommes de confiance ne se portent garants pour elle jusqu'à cet événement, ce que deux hommes firent. {cite:sira-hadi-ila-al-haqq p.119} Il ordonna à l'autre de s'asseoir dans un panier de paille et de recevoir soixante coups de fouet ; elle protesta qu'elle n'avait été soupçonnée de rien, et l'un de ses serviteurs fut envoyé lui dire que si elle avait été surprise en train de commettre un tel acte, et que le fait avait été prouvé par témoignage, il aurait ordonné qu'on la creuse une fosse et qu'on la lapide, puis qu'on lui aurait demandé si elle était libre ou esclave ; elle répondit libre, et reçut soixante coups de fouet à titre de correction. {cite:sira-hadi-ila-al-haqq p.119} Le texte ne précise ni le jour, ni l'année, ni le lieu. Voir [[event/al-daam-swears-to-al-hadi-and-a-governor-is-placed-in-his-land-286]] pour d'autres peines mentionnées dans le livre.

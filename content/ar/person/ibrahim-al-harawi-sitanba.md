@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b14, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/43-44" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b14, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/43-44" }
 ---
 ## موجز
 أبو إسحاق إبراهيم الهروي، يعرف بستنبة، من زهاد هراة. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة 460)⁩، ويذكر أنه صحب [[person/ibn-adham-ibrahim|إبراهيم بن أدهم]]، وأنه من أقران [[person/bayazid-al-bistami|أبي يزيد البسطامي]]، ومن المذكورين بالتوكل والتجريد، وأنه توفي ب[[place/qazvin|قزوين]]. وهو أحد رواة كلام أبي يزيد في ترجمته من الكتاب نفسه. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/43} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/34}

@@ -10,11 +10,11 @@ gender: male
 born: { edtf: "855~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Buldan (al-Baladhuri)" }
 died: { edtf: "855~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Buldan (al-Baladhuri)" }
 relations:
-  - { type: lived_in, target: place/qumm, note: "Place association from the person's nisba/name (القمي); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }
+  - { type: lived_in, target: place/qumm, note: "Place association from the person's nisba/name ⁦(القمي)⁩; denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }
   - { type: participated_in, target: event/al-qummi-buja-war, role: "ملك البجة", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 333–335"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 333–335"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-25
 sources: [source/futuh-buldan-maarif-1407]

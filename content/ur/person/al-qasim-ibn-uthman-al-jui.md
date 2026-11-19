@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b16, source: "حلية الأولياء (دار الكتب العلمية 1988) 9/322-325" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b16, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 9/322-325" }
 ---
 ## خلاصہ
 قاسم بن عثمان جوعی ان زاہدوں میں سے ہیں جن کا ترجمہ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی نویں جلد میں لکھا ہے ⁦(نمبر 453)⁩۔ ان کے کلام کے راوی [[person/ahmad-ibn-abi-al-hawari|احمد بن ابی الحواری]] انہیں «قاسم جوعی کبیر» کہتے ہیں۔ ترجمے میں نہ شہر کا ذکر ہے نہ تاریخ کا۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/322-323}

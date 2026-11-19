@@ -1,0 +1,12 @@
+---
+id: event/abu-al-qasim-addresses-the-imam-and-his-gaoler-in-verse-290
+lang: es
+source_lang: en
+translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
+provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-es-2026-11-18, source: content/en/event/abu-al-qasim-addresses-the-imam-and-his-gaoler-in-verse-290.md}
+---
+## Visión general
+En la página 256, comienza un fragmento en el que Abu al-Qasim dice: “dile al imán” y describe a su padre utilizando los mismos términos de elogio que el narrador, para luego afirmar que sigue siendo fiel a su compromiso y que no ha cambiado, que no se acobardó ante las cadenas ni se debilitó bajo el peso del hierro, ni instó a su compañero a apresurarse; que su determinación superó las montañas y que la paciencia es su naturaleza {cite:sira-hadi-ila-al-haqq p.256} {cite:sira-hadi-ila-al-haqq p.257}. En un fragmento posterior, en la página 257, se dirige a su carcelero, al que el poema describe como un esclavo vil, preguntándole si cree que mostrará sumisión o cederá a la conversación, y afirma que ser asesinado por Dios le parece tan agradable como la miel más pura y más dulce que el néctar, y se enorgullece de ser hijo de la descendencia del Mensajero de Dios y de ser descendiente de Ali {cite:sira-hadi-ila-al-haqq p.257}.
+
+## Detalle
+Los epítetos que el poeta atribuye al imán son juicio del poeta, no del museo; son alabanzas que se encuentran en un libro zaydí. En una nota al margen del manuscrito se explica el significado de la palabra “al-zam’” como algo parecido al trueno, que saca a una persona de la confusión y el miedo. Las palabras utilizadas para describir al carcelero son del poeta, y el museo no las repite. Antes de esto se encuentran [[event/abu-al-qasim-ibn-al-hadi-composes-verses-in-prison-290|otros fragmentos de la misma sección]]. El museo no reproduce los versos ni las palabras de insulto que contienen, sino que solo ofrece su significado general, tal como aparece en el libro; el libro atribuye el verso a Abu al-Qasim, y el museo no ha verificado esta atribución. Las alabanzas y los epítetos que se encuentran en los versos son del poeta, presentados tal como aparecen en el libro, sin que el museo emita ningún juicio al respecto.

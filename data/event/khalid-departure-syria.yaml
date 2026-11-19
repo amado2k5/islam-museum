@@ -9,14 +9,14 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { hijri: "0013-03~", precision: month, status: debated, note: "شهر ربيع الآخر ويُقال ربيع الأول سنة 13 (البلاذري ص 349–350)" }
+  start: { hijri: "0013-03~", precision: month, status: debated, note: "شهر ربيع الآخر ويُقال ربيع الأول سنة 13 ⁦(البلاذري ص 349–350)⁩" }
 relations:
   - { type: occurred_at, target: place/ayn-al-tamr }
   - { type: had_participant, target: person/khalid-ibn-al-walid, role: "المودّع المسافر", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-muthanna-ibn-haritha, role: "المخلف على الأمر", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 349–350"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 349–350"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-29
 sources: [source/futuh-buldan-maarif-1407]

@@ -1,0 +1,18 @@
+---
+id: concept/al-faraj-bad-al-shidda
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/al-faraj-bad-al-shidda.md}
+---
+## Resumen
+El jeque abre su programa de Ramadán diciendo que todos en este mundo sufren bajo su medida: los enfermos esperando curación, los temerosos esperando la seguridad, los agraviados esperando ser ayudados contra su opresor, los que lloran por la pérdida de un ser querido; promete hablar con ellos durante todo el mes, y que los temerosos estarán a salvo, los enfermos sanados, los que están en duelo se alegrarán y los agraviados ayudados si dicen 'Oh Señor'. {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:02:00}
+
+## El mundo está en constante cambio
+Sostiene que las personas viven cambios en este mundo, alegría y tristeza, facilidad y dificultades, riqueza y pobreza, seguridad y miedo, que quien confía en el mundo es como quien agarra el agua, y que el creyente encuentra seguridad en Dios y se refugia en el fuerte apoyo. {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:03:00} Cita un dicho que dice que un siervo no ha completado la fe hasta que considera la aflicción una bendición y la bendición una aflicción, ya que la aflicción es seguida por la facilidad y la bendición puede ser seguida por la aflicción. {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:04:00}
+
+## Esperar alivio es adoración
+Sostiene que el creyente vive según 'el arte de la esperanza', sembrando el bien en su corazón y esperando alivio, y que esperar alivio es una especie de adoración. {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:04:30} Recita versos de uno a quien llama 'nuestro sabio optimista' sobre la luz que el creyente lleva en su corazón, y habla de un hombre abandonado por su barco en la orilla de una isla durante días sin rescatador, que recitaba versículos que detrás de la angustia hay un alivio cercano (needs_source: the verses and the story as the Sheikh tells them). {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:06:00}
+
+## Las puertas del cielo nunca se cierran
+Dice que Dios escribió para cada persona en el vientre su vida, provisiones, miseria y felicidad; que ve las lágrimas del duelo sobre su almohada por la noche como ve a una hormiga negra arrastrándose por una roca sólida en una noche oscura; y que cuando todos los caminos están cerrados, las puertas del cielo permanecen abiertas veinticuatro horas para quien diga 'Oh Señor', obediente o pecador, que entonces recibe ayuda, alivio del corazón o paciencia. {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:09:00} Cita [[person/ali-ibn-abi-talib|a Alí]] diciendo que la distancia entre el cielo y la tierra es una sola oración respondida. {cite:assabile-omar-abdelkafy bustan-el-amal/ep01 00:08:00} Véase también: [[concept/raja|esperanza]] y [[concept/tafaul|optimismo]].

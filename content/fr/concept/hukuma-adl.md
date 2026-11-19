@@ -1,0 +1,9 @@
+---
+id: concept/hukuma-adl
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/hukuma-adl.md}
+---
+## Résumé
+Hukuma est un nom dérivé de hakama et signifie « retenir le coupable ». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7235} En jurisprudence, le hukuma d'équité est la somme fixée par un assesseur impartial pour une blessure sans montant prescrit, l'évaluation reposant sur le raisonnement du juge ou de l'arbitre. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7235} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7236} En principe, toute blessure autre que la mort, sans représailles ni indemnisation fixe, donne lieu à un hukuma. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7236} Ses conditions : la blessure n'est pas assortie d'une indemnisation fixe en droit, le hukuma ne dépasse pas l'indemnisation fixe de l'organe touché, l'évaluation intervient après la guérison et est effectuée par un juge ou un arbitre. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7237} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7238} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7239} Concernant la méthode, la majorité considère la victime comme un esclave et prend en charge la perte de valeur ; d'autres comparent la blessure à la blessure la plus proche assortie d'une indemnisation fixe et citent un récit attribué à Ali concernant une blessure à la langue. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7238} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7239} Selon la position malikite, une plaie guérie sans cicatrice n'entraîne aucun paiement au-delà de la somme forfaitaire, et le cas des plaies cicatricielles à la tête et au visage est controversé. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7240}

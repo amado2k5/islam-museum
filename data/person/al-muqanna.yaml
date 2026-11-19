@@ -13,12 +13,12 @@ periods: [period/abbasid-early]
 regions: [persia-central-asia]
 themes: [sects-and-schools]
 relations:
-  - { type: lived_in, target: place/khurasan, note: "Place association from the person's nisba/name (الخراساني); denotes association, not proven residence.", sources: [source/tarikh-dawla-abbasiyya-taqqush], confidence: low }
+  - { type: lived_in, target: place/khurasan, note: "Place association from the person's nisba/name ⁦(الخراساني)⁩; denotes association, not proven residence.", sources: [source/tarikh-dawla-abbasiyya-taqqush], confidence: low }
   - { type: participated_in, target: event/muqanna-revolt, role: "زعيم الحركة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
 sources: [source/tarikh-dawla-abbasiyya-taqqush]
 provenance:
   layer: own-research
-  source: "تاريخ الدولة العباسية لمحمد سهيل طقّوش (ط7) ص 78-79"
+  source: "تاريخ الدولة العباسية لمحمد سهيل طقّوش ⁦(ط7)⁩ ص 78-79"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-taqqush-abbasi-batch-3
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

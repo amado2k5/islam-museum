@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { hijri: "0017~", precision: year, status: tradition, note: "بعد فتح السواد سنة 16–17 (البلاذري ص 370–371)" }
+  start: { hijri: "0017~", precision: year, status: tradition, note: "بعد فتح السواد سنة 16–17 ⁦(البلاذري ص 370–371)⁩" }
 relations:
   - { type: occurred_at, target: place/kaskar }
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "المقر", sources: [source/futuh-buldan-maarif-1407] }
@@ -20,7 +20,7 @@ relations:
   - { type: had_participant, target: person/bistam-ibn-tarsi, role: "الدهقان المسلم", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 370–371"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 370–371"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-31 + batch-32
 sources: [source/futuh-buldan-maarif-1407, source/sallabi-ali-vol1]

@@ -9,14 +9,14 @@ wings: [time]
 periods: [period/abbasid-early]
 regions: [maghreb]
 date:
-  start: { edtf: "0800~", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية إبراهيم (البلاذري ص 328). التحويل مشتق." }
+  start: { edtf: "0800~", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية إبراهيم ⁦(البلاذري ص 328)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/qayrawan }
   - { type: had_participant, target: person/ibrahim-ibn-al-aghab, role: "المؤسس", sources: [source/futuh-buldan-maarif-1407] }
   - { type: during_reign, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 328"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 328"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-24
 sources: [source/futuh-buldan-maarif-1407]

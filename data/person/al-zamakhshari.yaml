@@ -33,7 +33,7 @@ occupations:
     note: "merge-map link from role 'theologian', Job Browser linking wave 34"
     sources: [source/shadharat-dhahab, source/kashf-zunun-furqan, source/juha-nawadir-kubra-djuwaydi, source/encyclopaedia-of-islam-2, source/kashshaf-dar-al-marifa-shiha-2009, source/wikidata, source/oxford-dictionary-of-islam]
 relations:
-  - { type: lived_in, target: place/khwarizm, note: "Place association from the person's nisba/name (الخوارزمي); denotes association, not proven residence.", sources: [source/shadharat-dhahab, source/kashf-zunun-furqan, source/juha-nawadir-kubra-djuwaydi, source/encyclopaedia-of-islam-2, source/kashshaf-dar-al-marifa-shiha-2009], confidence: low }
+  - { type: lived_in, target: place/khwarizm, note: "Place association from the person's nisba/name ⁦(الخوارزمي)⁩; denotes association, not proven residence.", sources: [source/shadharat-dhahab, source/kashf-zunun-furqan, source/juha-nawadir-kubra-djuwaydi, source/encyclopaedia-of-islam-2, source/kashshaf-dar-al-marifa-shiha-2009], confidence: low }
   - { type: authored, target: work/asas-al-balagha, sources: [source/kashf-zunun-furqan] }
   - { type: participated_in, target: event/birth-al-zamakhshari-467, role: "المولود", sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/al-zamakhshari-vow-512, role: "الناذر للزهد", sources: [source/encyclopaedia-of-islam-2] }
@@ -44,7 +44,7 @@ relations:
   - { type: participated_in, target: event/death-al-zamakhshari-538, role: "المتوفَّى", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)؛ Encyclopaedia of Islam 2nd ed. vol. 12 (Supplement), art. al-Zamakhshari 2 (J. van Ess), PDF pp. 917-918"
+  source: "شذرات الذهب — ابن العماد ⁦(ج3، سنين 350–600)⁩؛ Encyclopaedia of Islam 2nd ed. vol. 12 (Supplement), art. al-Zamakhshari 2 (J. van Ess), PDF pp. 917-918"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-12
   enriched_by:

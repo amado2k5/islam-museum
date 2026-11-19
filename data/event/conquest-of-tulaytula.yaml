@@ -10,7 +10,7 @@ wings: [time]
 periods: [period/umayyad]
 regions: [andalus-europe]
 date:
-  start: { hijri: "0093~", precision: year, status: tradition, derived: true, note: "بعد فتح الأندلس 92 (البلاذري ص 323). التحويل مشتق." }
+  start: { hijri: "0093~", precision: year, status: tradition, derived: true, note: "بعد فتح الأندلس 92 ⁦(البلاذري ص 323)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/tulaytula }
   - { type: had_participant, target: person/tariq-ibn-ziyad, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
@@ -18,7 +18,7 @@ relations:
   - { type: had_participant, target: person/al-walid-ibn-abd-al-malik, role: "المُهدى إليه المائدة", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 323"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 323"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-22
 sides:

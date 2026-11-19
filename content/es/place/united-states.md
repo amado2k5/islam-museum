@@ -1,0 +1,46 @@
+---
+id: place/united-states
+lang: es
+source_lang: en
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+status:
+  review: draft
+provenance: { generated_by: "Claude Code (spanish lane, wave 6)", model: "claude-sonnet-5-5", run: "spanish-w6-2026-11-18", source: "content/en/place/united-states.md" }
+---
+## Visión general
+Estados Unidos es un país situado principalmente en América del Norte, según la ficha del lugar. Aparece en dos libros leídos para el museo, *al-Dawla al-Uthmaniyya* (2001) de Ali Muhammad al-Salabi y el *Hadir al-Alam al-Islami* árabe con las notas de Shakib Arslan, bajo distintos aspectos dispersos: una tierra al otro lado del océano nombrada en los informes de la armada otomana; una fuente de misiones en Siria y de sociedades en la conferencia misionera de El Cairo; una potencia colonial que gobernaba a musulmanes en Filipinas; un Estado que los libros introducen en las conversaciones de los musulmanes sobre la política mundial; y un lugar de comunidades y periódicos musulmanes. Son afirmaciones de autores posteriores, atribuidas a ellos. No se halló ninguna entrada sobre Estados Unidos en el *Mu'jam al-Buldan* de Yaqut ni en el *Athar al-Bilad* de al-Qazwini. {cite:dawlat-uthmaniyya-salabi p.368} {cite:stoddard-arslan-hadir-1923 1 p.363}
+
+## Las Américas en los informes navales otomanos
+Al-Salabi dice que [[person/khayr-al-din-barbarossa|Khayr al-Din Barbarossa]] cruzó el estrecho de Gibraltar y cayó sobre naves españolas y portuguesas que regresaban de las tierras americanas cargadas de oro y plata, lo que sacudió al mundo cristiano. {cite:dawlat-uthmaniyya-salabi p.221}
+
+Dice que Piri Reis, comandante de la armada otomana y geógrafo (1465 a 1554 según el libro), dibujó dos mapas, uno de España, África occidental, el Atlántico y las costas orientales de las Américas, que presentó al sultán Selim I en Egipto en 1517 y que se conserva en el museo de Topkapi, y otro de las costas atlánticas desde Groenlandia hasta Florida. Llama al mapa de América de Piri Reis el más antiguo de ella, y dice que un simposio radiofónico celebrado en la Universidad de Georgetown, en Estados Unidos, el 26 de agosto de 1956, hizo que sus geógrafos coincidieran en que era un descubrimiento extraordinario. {cite:dawlat-uthmaniyya-salabi p.503} {cite:dawlat-uthmaniyya-salabi p.504} Añade que Piri Reis escribió en su *Kitab-i Bahriye* que el continente fue hallado en 870 H (1465), unos veintisiete años antes que Colón. {cite:dawlat-uthmaniyya-salabi p.504} Son afirmaciones del autor; aquí no se ha comprobado ni la fecha de Piri Reis ni el simposio.
+
+## Misiones y sociedades misioneras
+En el relato de al-Salabi, Ibrahim Pasha abrió la puerta en Siria a las misiones francesas y estadounidenses, y algunos autores cuentan 1834 como un punto de inflexión, cuando las misiones estadounidenses se expandieron, la imprenta de la misión estadounidense se trasladó de Malta a Beirut y Eli Smith y su esposa fundaron una escuela de niñas en Beirut. {cite:dawlat-uthmaniyya-salabi p.368} Esto es lo que el autor relata mientras critica la política de Ibrahim Pasha.
+
+Las notas de Arslan resumen el llamamiento del misionero Zwemer a un esfuerzo misionero unido y dicen que el primer paso hacia él fue la conferencia de El Cairo de 1906, en la que sesenta y dos misioneros y otros tantos invitados se sentaron en nombre de veintinueve sociedades de Europa y América cuyo objetivo era la evangelización de los musulmanes, seguida de dos conferencias más, en Lucknow, en la India, y en Edimburgo. Este es el relato de Arslan de lo que escribió Zwemer. {cite:stoddard-arslan-hadir-1923 1 p.279}
+
+## Filipinas bajo dominio estadounidense
+Filipinas ocupa toda una sección de las notas de Arslan. Dice que los filipinos se alzaron contra España en 1896 y de nuevo con la ayuda de Estados Unidos, que el gobierno estadounidense combatió a España y se apoderó de Filipinas, Cuba y Puerto Rico, y que Filipinas pasó entonces a la autoridad de Estados Unidos y a su vez se alzó contra ella. {cite:stoddard-arslan-hadir-1923 1 p.358} {cite:stoddard-arslan-hadir-1923 1 p.360}
+
+Arslan dice que los estadounidenses, según parece, querían ganarse a los musulmanes de Filipinas para fortalecerse frente a los católicos; un antiguo gobernador llegó a Estambul unos veinte años antes y pidió al gobierno otomano que enviara guías para enseñar a los musulmanes filipinos, y la shaykhatura islámica envió a uno de sus funcionarios, Wajih Efendi Zayd al-Kilani al-Nabulsi, a quien los musulmanes recibieron con alegría y a quien los estadounidenses ayudaron; luego cayó enfermo, fue devuelto a Estambul y murió más tarde. Dice que Wajih calculaba en uno o dos millones el número de musulmanes allí. Este es el relato de Arslan, tomado de un amigo. {cite:stoddard-arslan-hadir-1923 1 p.358} {cite:stoddard-arslan-hadir-1923 1 p.359}
+
+Arslan transmite también, a partir de la *Revue du Monde Musulman* francesa y del libro inglés *The Philippine Islands* de John Foreman, que los estadounidenses, al tomar las islas, no tocaron las creencias islámicas ni intentaron quebrantar la ley musulmana aunque no les gustaban las formas de gobierno de los musulmanes; que el gobierno estadounidense sostenía que la población de la provincia musulmana debía gobernarse a sí misma, y se distinguió de España por instruir a la población en principios democráticos; y que se cuidó de organizar los asuntos de los musulmanes y fundó municipalidades para ellos. Da la fuerza de ocupación solo en Sulu como de 4839 hombres y 294 oficiales, y en la provincia cuarenta y una escuelas con 2114 alumnos, quince maestros estadounidenses, cincuenta maestros nativos cristianos y nueve maestros musulmanes, con 240 niños musulmanes esperando plaza. {cite:stoddard-arslan-hadir-1923 1 p.363} Véanse [[place/philippines|Filipinas]] y [[place/sulu|Sulu]].
+
+En el tercer volumen cita al escritor Chatelier en la *Revue du Monde Musulman*, quien dice que cuando los estadounidenses tomaron Filipinas, gobernantes más benignos que los españoles, el movimiento de la provincia musulmana de Sulu pasó a ser comercial en lugar de lo que había sido; el texto impreso tiene la palabra poco clara «libertinaje» y la frase anterior habla de los piratas de Sulu. {cite:stoddard-arslan-hadir-1923 3 p.367}
+
+## Estados Unidos en las conversaciones de los musulmanes sobre el mundo
+En las notas de Arslan, los Aliados solo pidieron a Turquía neutralidad, lo cual, según Arslan, atestiguó en sus memorias el señor Morgato, tal como figura impreso, embajador estadounidense en Turquía al estallar la guerra. {cite:stoddard-arslan-hadir-1923 1 p.330} {cite:stoddard-arslan-hadir-1923 1 p.331}
+
+En una entrevista en El Cairo con un erudito musulmán de [[place/china|China]], imam de Tientsin y alojado en la hospedería Kulshani, reproducida de *al-Ahram* y firmada por tres periodistas, se le preguntó qué sentía su pueblo hacia los Estados extranjeros. Dijo que Japón era fuerte y propenso a tragárselos, por lo que no lo querían, mientras que el Estado verdaderamente querido entre ellos era Estados Unidos, a cuyo modelo lo estaban ajustando todo y cuyo trato con ellos había sido de palabras y escritos más que de guerra o de apropiación de su tierra. Esta es solo la opinión del interlocutor. {cite:stoddard-arslan-hadir-1923 2 p.268} {cite:stoddard-arslan-hadir-1923 2 p.269}
+
+En el capítulo sobre Egipto, las conversaciones entre lord Milner y Saad Zaghlul en el otoño de 1920 produjeron, según el relato de los periódicos, propuestas entre las que figuraba que la independencia de Egipto fuera igual a la de Cuba en su relación con Estados Unidos. {cite:stoddard-arslan-hadir-1923 4 p.134}
+
+## Comunidades musulmanas y prensa
+El libro cita el artículo de Chatelier en la *Revue du Monde Musulman*, continuación del pasaje citado antes en su tercer volumen, según el cual hay árabes sirios, musulmanes y cristianos, en Estados Unidos y Argentina, y hay comunidades musulmanas en Australia, Brasil y Vancouver. {cite:stoddard-arslan-hadir-1923 3 p.368} En un pasaje sobre la prensa islámica dice que también se publican periódicos en Estados Unidos, Brasil y Argentina en árabe sirio y en albanés, y que el tono de los periódicos islámicos de Oriente, de América y de Berlín está marcado por una aguda hostilidad, según el texto. {cite:stoddard-arslan-hadir-1923 2 p.313}
+
+## Turquía y Estados Unidos tras la Segunda Guerra Mundial
+Al-Salabi dice que tras la Segunda Guerra Mundial Turquía se acercó a Estados Unidos, firmó tratados con ella y América estableció bases militares en suelo turco, y que el Partido Demócrata adoptó la política estadounidense y Celal Bayar se convirtió en presidente de la república; el libro imprime 1374 H para esto, un año que aquí no se ha comprobado. {cite:dawlat-uthmaniyya-salabi p.479}
+
+## Nota sobre las fuentes
+Esta página muestra a Estados Unidos desde el ángulo del mundo musulmán tal como lo vieron dos autores de los siglos XX y XXI; no sustituye una historia de Estados Unidos ni de los musulmanes que viven allí. Los números de página de *Hadir al-Alam al-Islami* son los impresos, leídos en el encabezado corrido de cada página. La afirmación de al-Salabi sobre la exactitud del mapa de la Antártida de Piri Reis queda sin transmitir, por ser una gran afirmación que no se ha comprobado.

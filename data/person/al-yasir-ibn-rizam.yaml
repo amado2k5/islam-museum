@@ -3,7 +3,7 @@ class: person
 label: { ar: "اليسير بن رزام اليهودي", en: "Al-Yasir ibn Rizam", fr: "Al-Yasir ibn Rizam" }
 names:
   - { kind: full, lang: ar, value: "اليسير بن رزام" }
-  - { kind: alternate, lang: ar, value: "اليسير بن رازم (ويقال، قال ابن هشام)" }
+  - { kind: alternate, lang: ar, value: "اليسير بن رازم ⁦(ويقال، قال ابن هشام)⁩" }
 gender: male
 roles: [politician]
 summary:
@@ -14,9 +14,9 @@ wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 faith:
-  - { value: jewish, basis: tradition, note: "«خرج معهم في نفر من يهود» (ابن هشام ص266).", sources: [source/ibn-hisham-saqqa] }
+  - { value: jewish, basis: tradition, note: "«خرج معهم في نفر من يهود» ⁦(ابن هشام ص266)⁩.", sources: [source/ibn-hisham-saqqa] }
 story_roles:
-  - { role: military-opponent, toward: person/muhammad, status: tradition, note: "كان بخيبر يجمع غطفان لغزو النبي (ابن هشام ص266).", sources: [source/ibn-hisham-saqqa] }
+  - { role: military-opponent, toward: person/muhammad, status: tradition, note: "كان بخيبر يجمع غطفان لغزو النبي ⁦(ابن هشام ص266)⁩.", sources: [source/ibn-hisham-saqqa] }
 died: { edtf: "628", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham (al-Sirah)" }
 relations:
   - { type: lived_in, target: place/khaybar, note: "From text: of Khaybar", sources: [source/ibn-hisham-saqqa], confidence: low }

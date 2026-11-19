@@ -641,7 +641,7 @@
         "did_you_know": {
           "type": "object",
           "additionalProperties": false,
-          "description": "One authored, sourced fact («هل تعلم؟») in the three published languages; at most 40 words each, at least two cited sources (docs/delegation/education-master-plan.md §5 E3).",
+          "description": "One authored, sourced fact («هل تعلم؟») in the published languages; at most 40 words each, at least two cited sources (docs/delegation/education-master-plan.md §5 E3).",
           "properties": {
             "ar": {
               "type": "string"
@@ -650,6 +650,12 @@
               "type": "string"
             },
             "ur": {
+              "type": "string"
+            },
+            "fr": {
+              "type": "string"
+            },
+            "es": {
               "type": "string"
             },
             "sources": {

@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0637~", hijri: "0016~", calendar: julian, precision: year, status: tradition, derived: true, note: "حين قدم عمر الجابية بعد فتوح الشام (البلاذري ص 206–207). التحويل مشتق." }
+  start: { edtf: "0637~", hijri: "0016~", calendar: julian, precision: year, status: tradition, derived: true, note: "حين قدم عمر الجابية بعد فتوح الشام ⁦(البلاذري ص 206–207)⁩. التحويل مشتق." }
 relations:
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "أراد قسمة الأرض فقبل المشورة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/muadh-ibn-jabal, role: "أشار بإبقاء الأرض لأهلها مقابل الخراج", sources: [source/futuh-buldan-maarif-1407] }
@@ -18,7 +18,7 @@ relations:
   - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 206–207"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 206–207"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-10
 sources: [source/futuh-buldan-maarif-1407]

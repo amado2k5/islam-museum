@@ -14,7 +14,7 @@ wings: [people]
 periods: [period/abbasid-fragmentation]
 provenance:
   layer: own-research
-  source: "وفيات الأعيان لابن خلكان — الجزء الرابع (ترجمة النقاش المقرئ)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  source: "وفيات الأعيان لابن خلكان — الجزء الرابع ⁦(ترجمة النقاش المقرئ)⁩، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-21
 sources: [source/wafayat-ayan]
@@ -26,4 +26,4 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wafayat-ayan]
 relations:
-  - { type: lived_in, target: place/mosul, note: "Place association from the person's nisba/name (الموصلي); denotes association, not proven residence.", sources: [source/wafayat-ayan], confidence: low }
+  - { type: lived_in, target: place/mosul, note: "Place association from the person's nisba/name ⁦(الموصلي)⁩; denotes association, not proven residence.", sources: [source/wafayat-ayan], confidence: low }

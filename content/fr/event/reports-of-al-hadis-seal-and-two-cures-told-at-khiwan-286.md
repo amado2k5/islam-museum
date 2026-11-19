@@ -1,0 +1,18 @@
+---
+id: event/reports-of-al-hadis-seal-and-two-cures-told-at-khiwan-286
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/reports-of-al-hadis-seal-and-two-cures-told-at-khiwan-286.md}
+---
+## Vue d'ensemble
+[[person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi|Ali ibn Muhammad]] tient de [[person/muhammad-ibn-sulayman-al-kufi|Muhammad ibn Sulayman]], alias Abu Jafar, qu'il resta à la mosquée en prière après le départ d'Abu al-Qasim, « et là, un groupe de Banu Rabi'a et de Hajur discutaient et chuchotaient au sujet de ceux qui combattent al-Hadi ila al-Haqq ». {cite:sira-hadi-ila-al-haqq p.139} Ce passage entier est un récit du narrateur, attribué à des personnes que le livre ne nomme pas, et la marge de l'original porte la mention « karamat d'al-Hadi » ; {cite:sira-hadi-ila-al-haqq p.139} le musée le présente comme attribué sans le confirmer ni l'infirmer. Il suit l'adresse de [[event/abu-al-qasim-leads-the-friday-prayer-and-preaches-jihad-at-khiwan-286]].
+
+## Le rapport de Shu'ayb
+Muhammad ibn Sulayman entendit l'un d'eux dire : « Il y a quelques jours, nous étions dans le district d'Athafit ; Shu'ayb, des gens d'al-Subay', nous a dit, alors que nous parlions d'al-Hadi », et cet homme d'al-Subay' était « d'Arhab, du clan d'al-Da'am, et l'un de ceux qui l'avaient soutenu dans la guerre contre l'imam », qui avaient douté d'al-Hadi « parce qu'ils ne l'avaient ni rencontré, ni assis avec lui, ni entendu ses paroles, ni appris d'eux ». {cite:sira-hadi-ila-al-haqq p.139} L'homme rapporta ensuite de Shu'ayb, [[person/shuayb-al-subayi|Shu'ayb al-Subay'i]], qu'il tomba « très malade à la gorge, au point de ne pouvoir avaler sa salive, et qu'il était proche de la mort » ; Lorsqu'une lettre d'al-Hadi parvint aux habitants d'al-Subay', « je pris le sceau qui scellait la lettre et dis : Ô Dieu, si le propriétaire de ceci est juste, accorde-moi la santé, et je mangeai le sceau ; peu de temps après, ma gorge s'ouvrit et je mangeai et bus. » {cite:sira-hadi-ila-al-haqq p.139} Voir aussi [[group/al-subay-arhab|les habitants d'al-Subay']].
+
+## Le récit d'Ibrahim ibn Sulayman
+Un homme de [[group/hajur-tribe-yemen|Hajur]], « irréprochable dans sa religion et son école », nommé [[person/ibrahim-ibn-sulayman-al-hajuri|Ibrahim ibn Sulayman]], dit : « Que de signes avons-nous vus depuis l’arrivée d’al-Hadi ! J’en ai moi-même vu de semblables », et raconta l’histoire d’un homme parmi eux dont les intestins « fuyaient jour et nuit » ; il chercha un médecin sans succès, et lorsque la lettre d’al-Hadi arriva, il prit le sceau qui y était apposé, alla voir l’homme et lui dit : « Mange ceci, j’espère que cela te guérira », « et l’homme la prit et la mangea, et Dieu lui rendit la santé, et ce qu’il avait auparavant le quitta ». {cite:sira-hadi-ila-al-haqq p.139} {cite:sira-hadi-ila-al-haqq p.140}
+
+## Notes
+Les deux récits concernent l'ingestion du sceau d'une lettre dans l'espoir d'une guérison et font partie des récits de miracles contenus dans ce livre zaïdite ; le musée ne porte aucun jugement sur ces récits ni sur l'acte lui-même. Le premier narrateur n'est pas nommé. Le livre indique que Shu'ayb et ses compagnons avaient auparavant figuré parmi les opposants de l'imam et furent ensuite témoins de ce qu'ils virent, ce qui correspond à la description du narrateur. La date est précise au mois près car le récit est fait après le vendredi suivant le milieu du mois de Sha'ban, et la date exacte des deux guérisons demeure inconnue.

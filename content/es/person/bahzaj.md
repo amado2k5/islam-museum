@@ -1,0 +1,16 @@
+---
+id: person/bahzaj
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/person/bahzaj.md}
+---
+## Resumen
+Uno de los doce hombres que construyeron la mezquita de Dirar, según Ibn Ishaq; su linaje: de Banu Dubay'a. {cite:ibn-hisham-saqqa 4/174}
+
+## En la mezquita de Dirar
+Ibn Ishaq lo incluyó en la lista de quienes construyeron la mezquita que el Profeta ordenó demoler a su regreso de Tabuk. {cite:ibn-hisham-saqqa 4/174} El nombre aparece solo, sin linaje, en el texto (Bahzaj), contrastado con la imagen de la página. {cite:ibn-hisham-saqqa 4/174}
+
+## Notas de la fuente y marcadores de duda
+- Ibn Ishaq no menciona aquí nada más sobre este hombre que su linaje y su nombre entre los doce.
+- La descripción del grupo como "hipócritas" en el libro no se atribuye aquí a este hombre en particular; el descenso del verso "entre ellos" es colectivo (p. 174).

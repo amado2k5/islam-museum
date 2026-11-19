@@ -13,7 +13,7 @@ provenance:
   translator_of: content/ar/person/georges-marcais.md
 ---
 ## خلاصہ
-ژورژ مارسے نے «بجایہ کے ظروف اور فائنس» (قسنطینہ 1916ء) لکھی، جو ان کے سلسلے «اسلامی ظروف سازی کے مطالعے میں حصہ» کا تیسرا حصہ ہے۔ {cite:marcais-poteries-faiences-bougie-1916 p. 1} اس میں وہ قلعۂ بنی حماد کے ظروف اور فائنس پر اپنی سابقہ تحقیق اور اپنی کتاب «بربر دیار میں عرب» کا حوالہ دیتے ہیں۔ {cite:marcais-poteries-faiences-bougie-1916 p. 6} {cite:marcais-poteries-faiences-bougie-1916 p. 10} {cite:marcais-poteries-faiences-bougie-1916 p. 30}
+ژورژ مارسے نے «بجایہ کے ظروف اور فائنس» ⁦(قسنطینہ 1916ء)⁩ لکھی، جو ان کے سلسلے «اسلامی ظروف سازی کے مطالعے میں حصہ» کا تیسرا حصہ ہے۔ {cite:marcais-poteries-faiences-bougie-1916 p. 1} اس میں وہ قلعۂ بنی حماد کے ظروف اور فائنس پر اپنی سابقہ تحقیق اور اپنی کتاب «بربر دیار میں عرب» کا حوالہ دیتے ہیں۔ {cite:marcais-poteries-faiences-bougie-1916 p. 6} {cite:marcais-poteries-faiences-bougie-1916 p. 10} {cite:marcais-poteries-faiences-bougie-1916 p. 30}
 
 ## طریقِ کار
 - وہ بجایہ کا قلعۂ بنی حماد سے موازنہ کرتے ہیں: قلعے کے ظروف کی تاریخ یقینی ہے کیونکہ شہر ایک صدی سے کم میں پیدا ہوا، بڑھا اور اپنی اہمیت کھو بیٹھا اور پھر کبھی نہ اٹھا، جبکہ بجایہ ایک بندرگاہ تھی جو بہت سے ہاتھوں میں رہی اور ہمیشہ بحیرۂ روم سے رابطے میں رہی، اس لیے اس کے ٹکڑے مختلف ماخذوں کے ہیں۔ {cite:marcais-poteries-faiences-bougie-1916 p. 9} {cite:marcais-poteries-faiences-bougie-1916 p. 10}

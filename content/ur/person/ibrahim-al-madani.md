@@ -9,7 +9,7 @@ translators: []
 
 ## خلاصہ
 
-ابراہیم بن عادل بن حمزہ المدنی (1974ء – 21 ستمبر 2026ء) سعودی مؤذن اور استاد تھے، جو 2018ء سے اپنی وفات تک [[building/masjid-al-haram|مسجد حرام]] کے مؤذن رہے۔ {cite:wikipedia-ibrahim-al-madani-ar} {cite:wikipedia-list-of-muezzins-of-the-two-holy-mosques-ar}
+ابراہیم بن عادل بن حمزہ المدنی ⁦(1974ء – 21 ستمبر 2026ء)⁩ سعودی مؤذن اور استاد تھے، جو 2018ء سے اپنی وفات تک [[building/masjid-al-haram|مسجد حرام]] کے مؤذن رہے۔ {cite:wikipedia-ibrahim-al-madani-ar} {cite:wikipedia-list-of-muezzins-of-the-two-holy-mosques-ar}
 
 ## ابتدائی زندگی
 

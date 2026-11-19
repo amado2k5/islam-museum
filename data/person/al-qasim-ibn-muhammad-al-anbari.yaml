@@ -22,4 +22,4 @@ status: { review: published, completeness: 2 }
 born: { edtf: "888", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
 died: { edtf: "916", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
 relations:
-  - { type: lived_in, target: place/al-anbar, note: "Place association from the person's nisba/name (الأنباري); denotes association, not proven residence.", sources: [source/encyclopaedia-of-islam-2], confidence: low }
+  - { type: lived_in, target: place/al-anbar, note: "Place association from the person's nisba/name ⁦(الأنباري)⁩; denotes association, not proven residence.", sources: [source/encyclopaedia-of-islam-2], confidence: low }

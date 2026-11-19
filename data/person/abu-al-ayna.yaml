@@ -11,11 +11,11 @@ wings: [people]
 periods: [period/abbasid-early]
 provenance:
   layer: own-research
-  source: "وفيات الأعيان لابن خلكان — الجزء الرابع (المحمدون)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  source: "وفيات الأعيان لابن خلكان — الجزء الرابع ⁦(المحمدون)⁩، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch50
 sources: [source/wafayat-ayan]
 status: { review: published, completeness: 3 }
 relations:
-  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/wafayat-ayan], confidence: low }
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name ⁦(الأنصاري)⁩; denotes association, not proven residence.", sources: [source/wafayat-ayan], confidence: low }

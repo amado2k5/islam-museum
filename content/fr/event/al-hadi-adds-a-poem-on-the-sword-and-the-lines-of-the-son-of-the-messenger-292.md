@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-adds-a-poem-on-the-sword-and-the-lines-of-the-son-of-the-messenger-292
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-adds-a-poem-on-the-sword-and-the-lines-of-the-son-of-the-messenger-292.md}
+---
+## Vue d'ensemble
+Al-Hadi a également écrit, au bas de sa lettre, un autre poème qui signifie en substance que rien ne retient les égarés et les menant à la ruine, si ce n'est les épées, que la menace est proche et que l'heure de la guerre est venue {cite:sira-hadi-ila-al-haqq p.280}. Il enchaîne avec deux vers en mètre tawil où il se nomme fils du Messager de Dieu et de son légataire {cite:sira-hadi-ila-al-haqq p.281}.
+
+## Détail
+Le poète décrit l'imam, c'est-à-dire lui-même, comme un homme confiant en Dieu et résolu tel un lion, qui a pardonné à maintes reprises et apaisé les tensions, agissant par bienveillance et souci de l'islam. Cependant, leur infidélité s'est prolongée et ils ont sombré dans l'excès de rébellion. Aussi, certain du secours divin, leur a-t-il annoncé la guerre ; il les a exhortés à lutter et à se mettre à l'abri, affirmant qu'il chargerait avec son épée, Dhu al-Fiqar, à travers les vagues de la guerre jusqu'à dissiper les ténèbres, que les armes et les mains voleraient et que les têtes tomberaient. Il décrit sa position comme ancrée au cœur de la prophétie, élevée parmi les pointes de lance {cite:sira-hadi-ila-al-haqq p.280} {cite:sira-hadi-ila-al-haqq p.281}. Il conclut en déclarant que la lettre a atteint son heure, dissipant toute ignorance et toute injustice, et que Dieu fait ce qu'Il veut {cite:sira-hadi-ila-al-haqq p.281}. Dans les deux vers suivants, il se nomme le fils du Messager de Dieu et de son héritier, dont les mérites et les batailles sont innombrables, ayant longtemps combattu parmi les lions de la guerre {cite:sira-hadi-ila-al-haqq p.281}. Les notes indiquent les leçons du manuscrit S (« et le sien aussi » dans le texte de base, deux mots isolés et « les jours ») et expliquent un mot pluriel comme une variante de « shin ». Le poème est attribué à al-Hadi dans un ouvrage zaydite ; la revendication de la filiation et du mérite lui appartient, ce que le musée ne confirme ni n’infirme, et aucun propos injurieux n’est repris.

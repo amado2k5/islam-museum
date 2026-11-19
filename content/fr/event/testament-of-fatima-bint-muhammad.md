@@ -1,0 +1,38 @@
+---
+id: event/testament-of-fatima-bint-muhammad
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/testament-of-fatima-bint-muhammad.md}
+---
+## Résumé
+[[person/fatima|Fatima]], la fille du Prophète, mourut à Médine environ six mois après son père, selon le récit le plus fiable d'Ibn Kathir, dans la nuit du mardi, trois nuits après le Ramadan, de l'an 11, d'après le hadith rapporté par al-Waqidi. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 717} {cite:isaba scan vol. 2 p. 1942} Ce récit relate les instructions données par les livres concernant sa toilette mortuaire et son cercueil, son enterrement de nuit, les récits des personnes ayant prié pour elle, ainsi que la divergence d'opinions quant à l'emplacement de sa tombe. Le récit complet de sa mort se trouve dans le document intitulé « [[event/death-of-fatima-bint-muhammad|La mort et l'enterrement de Fatima bint Muhammad]]».
+
+## Ses instructions concernant le lavage et le cercueil
+Al-Dhahabi rapporte, d'après Umm Jafar, que Fatima confia à [[person/asma-bint-umays|Asma bint Umays]] son dégoût pour la pratique consistant à recouvrir une femme d'un tissu qui en dessine les contours. {cite:siyar-alam-nubala scan vol. 3 p. 98} Asma lui dit : « Voulez-vous que je vous montre quelque chose que j'ai vu en Abyssinie ? » Elle alla chercher des palmes fraîches, les plia et les recouvrit d'un tissu. {cite:siyar-alam-nubala scan vol. 3 p. 98} Fatima s'exclama : « Que c'est beau et raffiné ! Quand je mourrai, lavez-moi, vous et Ali, et que personne n'entre auprès de moi. » {cite:siyar-alam-nubala scan vol. 3 p. 98} Al-Dhahabi cite Ibn Abd al-Barr, qui affirme qu'elle fut la première en Islam dont le cercueil fut recouvert de cette manière. {cite:siyar-alam-nubala scan vol. 3 p. 98} Ibn Kathir rapporte qu'elle demanda à Asma de la laver. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 717}
+
+Al-Dhahabi ajoute que lorsqu'elle mourut, [[person/aisha|Aïcha]] voulut entrer ; Asma lui dit : « N'entre pas. » Elle se plaignit à [[person/abu-bakr|Abou Bakr]], qui arriva, se tint à la porte et lui parla ; elle dit : « Elle me l'a ordonné. » Il répondit : « Alors fais ce qu'elle t'a ordonné », et s'en alla. {cite:siyar-alam-nubala scan vol. 3 p. 98}
+
+## Qui l'a lavée ?
+Ibn Kathir rapporte qu'Asma la lava, avec [[person/ali-ibn-abi-talib|Ali ibn Abi Talib]] et Salma Umm Rafi, et certains mentionnent également al-Abbas ibn Abd al-Muttalib. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 717} Sifat al-Safwa indique qu'Ali la lava et pria pour elle. {cite:sifat-al-safwa-tartusi-2012 scan vol. 4 p. 331} Ibn Hajar rapporte d'après Ibn Sad, par l'intermédiaire de Muhammad ibn Musa, qu'Ali lava Fatima. {cite:isaba scan vol. 2 p. 1942}
+
+Ibn Kathir mentionne également un autre récit, selon lequel elle se serait baignée avant sa mort et aurait ordonné qu'on ne la lave plus après. Il juge ce récit faible et peu fiable. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 717} On retrouve ce récit dans al-Isaba, d'après celui de Salma Umm Rafi, qui raconte qu'elle se serait baignée, aurait dit que personne ne devait découvrir une de ses épaules, et qu'Ali l'aurait enterrée dans cet état. {cite:isaba scan vol. 2 p. 1942} Al-Dhahabi commente ce récit : il est munkar. {cite:siyar-alam-nubala scan vol. 3 p. 98}
+
+## La prière sur elle
+Les récits divergent quant à l'identité de la personne ayant prié pour elle. Ibn Kathir affirme qu'il s'agissait de son époux Ali, et d'autres sources mentionnent son oncle al-Abbas, ainsi qu'Abu Bakr. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 717} Al-Isaba rapporte d'Ibn Sad, par l'intermédiaire d'Amra, qu'al-Abbas a prié pour Fatima et est descendu dans sa tombe avec Ali et al-Fadl ibn al-Abbas, puis, par l'intermédiaire d'Ali ibn al-Husayn, qu'Ali a prié pour elle et l'a enterrée de nuit, après que les gens se soient installés. {cite:isaba scan vol. 2 p. 1942} Ibn Hajar rapporte d'al-Waqidi, par l'intermédiaire d'al-Shabi, qu'Abu Bakr a prié pour elle, et déclare : « Ce récit est faible et incomplet. » {cite:isaba scan vol. 2 p. 1942} Il ajoute que certains transmetteurs avortés ont rapporté un récit similaire de Malik, d'après Jafar ibn Muhammad, d'après son père, et qu'al-Daraqutni et Ibn Adi l'ont jugé faible. {cite:isaba scan vol. 2 p. 1942} Dans Siyar Alam al-Nubala al-Waqidi, il est rapporté qu'al-Abbas entra et descendit dans sa tombe avec Ali et al-Fadl. {cite:siyar-alam-nubala scan vol. 3 p. 97}
+
+## Enterrement de nuit
+Al-Dhahabi rapporte d'après al-Zuhri, d'après Urwa, d'après Aïcha, que Fatima vécut six mois après le Prophète et fut enterrée de nuit. Il précise qu'al-Waqidi considérait ce récit comme le mieux attesté. {cite:siyar-alam-nubala scan vol. 3 p. 97} Ibn Kathir affirme que l'avis le plus fiable est celui rapporté dans le Sahih d'après Aïcha, selon lequel elle vécut six mois après le Prophète, et mentionne d'autres avis allant de deux à huit mois. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 717} Sifat al-Safwa présente des avis concernant trois et deux mois et considère le premier comme plus fiable. {cite:sifat-al-safwa-tartusi-2012 scan vol. 4 p. 331}
+
+## Entre Abou Bakr et Fatima
+Ibn Kathir rapporte qu'elle nourrissait du ressentiment envers Abou Bakr au sujet de son héritage et qu'elle lui en gardait rancune toute sa vie. Lorsqu'elle tomba malade, il vint la voir et chercha à l'apaiser, ce qui lui valut sa gratitude. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 717} Al-Dhahabi relate la même chose : Abou Bakr vint voir Fatima lorsqu'elle était malade et demanda à la quitter. Elle l'accueillit, il s'excusa et s'entretint avec elle, et elle fut satisfaite de lui. {cite:siyar-alam-nubala scan vol. 3 p. 98} Concernant la question de l'héritage, voir [[event/fatima-inheritance-claim-fadak|la revendication successorale de Fatima et Fadak]].
+
+## Tombe et lieu de repos
+Ibn Kathir rapporte qu'elle fut enterrée à al-Baqi. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 717} Ibn Hajar, cependant, rapporte qu'al-Waqidi demanda à Abd al-Rahman ibn Abi al-Mawali si l'on disait que la tombe de Fatima se trouvait à al-Baqi ; il répondit qu'elle était enterrée dans un coin de la maison d'Aqil, à sept coudées de la route. {cite:isaba scan vol. 2 p. 1942} Ailleurs, Ibn Kathir rapporte d'al-Khatib al-Baghdadi un récit d'Abu Nuaym selon lequel al-Hasan et al-Husayn firent transporter Ali à Médine et l'enterrèrent à al-Baqi, près de la tombe de Fatima. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 321} Les sources que j'ai consultées ne permettent donc pas de déterminer avec certitude l'emplacement de la tombe.
+
+## Là où les rapports divergent
+Les sources s'accordent sur l'inhumation nocturne. Elles divergent quant à l'identité de l'imam (Ali, al-Abbas ou Abou Bakr), quant à la personne descendue dans la tombe, quant à l'emplacement de celle-ci (entre la maison d'al-Baqi et un coin de la maison d'Aqil), et quant à la durée de vie d'Asma après le Prophète. Elles s'accordent sur le fait que sa toilette rituelle a été effectuée conformément aux instructions données à Asma et avec l'aide d'Ali, mais divergent quant à la participation d'al-Abbas. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 717} {cite:isaba scan vol. 2 p. 1942}
+
+## Sources et documentation
+Ce récit repose sur Siyar Alam al-Nubala d'al-Dhahabi, al-Isaba d'Ibn Hajar, al-Bidaya wal-Nihaya d'Ibn Kathir et Sifat al-Safwa. Les numéros de page indiqués sont des pages numérisées.

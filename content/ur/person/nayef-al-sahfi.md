@@ -18,5 +18,5 @@ lang: ur
 ## حوالہ جات
 
 - ان کا یوٹیوب چینل (ALSAHFI){cite:source/youtube-alsahfi}
-- تنظیم «معًا من أجل العدالة» کی قضیہ صفحہ (11 جولائی 2026){cite:source/taj-rights-nayef-al-sahfi}
+- تنظیم «معًا من أجل العدالة» کی قضیہ صفحہ ⁦(11 جولائی 2026)⁩{cite:source/taj-rights-nayef-al-sahfi}
 - سعودی لیکس کی رپورٹ{cite:source/saudileaks-nayef-al-sahfi}

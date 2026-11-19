@@ -17,11 +17,11 @@ summary:
 born: { edtf: "1448-01-25~", hijri: "0851-11-12", calendar: julian, precision: day, status: tradition, derived: true, note: "مولده 12 ذي القعدة 851 بمصر {cite:shadharat-dhahab p. 520}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1517-01-31~", hijri: "0923-01-07", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة الجمعة 7 المحرم 923 بالقاهرة؛ والكواكب يذكر أن موته كان بعد إغمائه تأثراً بقتل ابن عطاء الله المكي {cite:shadharat-dhahab p. 521}", sources: [source/shadharat-dhahab] }
 relations:
-  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/shadharat-dhahab, source/daw-lami-jil-1992], confidence: low }
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name ⁦(المصري)⁩; denotes association, not proven residence.", sources: [source/shadharat-dhahab, source/daw-lami-jil-1992], confidence: low }
   - { type: student_of, target: person/al-sakhawi, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 923)، قراءة آبل فيجن"
+  source: "شذرات الذهب — ابن العماد ⁦(ط مكتبة المثنى 1351، ج8، سنة 923)⁩، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-144, lib-daw-lami-batch-2-2026-10-31
 external_ids: { wikidata: "Q2829271", viaf: "121571584" }

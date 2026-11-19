@@ -11,5 +11,5 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 - والدین کی خدمت اور حسنِ سلوک واجب ہے، ماں کا حق باپ سے مقدم ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3397}
 - ماں اور رضاعی ماں سے نکاح حرام ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3397}
 - بے کس والدین کا نفقہ اولاد پر واجب ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3398}
-- ماں کی میراث میں تین صورتیں ہیں: چھٹا حصہ، تہائی، اور باقی کا تہائی (عمریتین میں)۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3398}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3399}
+- ماں کی میراث میں تین صورتیں ہیں: چھٹا حصہ، تہائی، اور باقی کا تہائی ⁦(عمریتین میں)⁩۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3398}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3399}
 - قصاص: باپ یا ماں کو اولاد کے بدلے قتل نہیں کیا جاتا۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3400}

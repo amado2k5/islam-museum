@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [arabia]
 date:
-  start: { edtf: "0632~", hijri: "0011~", calendar: julian, precision: year, status: tradition, derived: true, note: "ردة كندة وحصار النجير في خلافة أبي بكر (البلاذري ص 139–145). التحويل مشتق." }
+  start: { edtf: "0632~", hijri: "0011~", calendar: julian, precision: year, status: tradition, derived: true, note: "ردة كندة وحصار النجير في خلافة أبي بكر ⁦(البلاذري ص 139–145)⁩. التحويل مشتق." }
 relations:
   - { type: part_of, target: event/ridda-wars }
   - { type: occurred_at, target: place/al-nujayr }
@@ -21,7 +21,7 @@ relations:
   - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 139–145"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 139–145"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-6
 sides:

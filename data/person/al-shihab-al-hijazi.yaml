@@ -17,7 +17,7 @@ born: { edtf: "1388-08~", hijri: "0790-08", calendar: julian, precision: month, 
 died: { edtf: "1471-02~", hijri: "0875-09", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي رمضان 875 {cite:shadharat-dhahab p. 319}", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 875)، قراءة آبل فيجن"
+  source: "شذرات الذهب — ابن العماد ⁦(ط مكتبة المثنى 1351، ج7، سنة 875)⁩، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch89
@@ -27,4 +27,4 @@ status:
   review: published
   completeness: 3
 relations:
-  - { type: lived_in, target: place/hijaz, note: "Place association from the person's nisba/name (الحجازي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
+  - { type: lived_in, target: place/hijaz, note: "Place association from the person's nisba/name ⁦(الحجازي)⁩; denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

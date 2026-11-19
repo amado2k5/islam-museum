@@ -1,0 +1,9 @@
+---
+id: event/mongols-take-damascus-658
+lang: fr
+source_lang: en
+translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
+provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/mongols-take-damascus-658.md}
+---
+## Résumé
+La nouvelle de la prise d’Alep parvint à [[place/damascus|Damas]] samedi, et [[person/al-nasir-yusuf|al-Malik al-Nasir]] s’enfuit. Les émissaires de Hulagu entrèrent dans la ville ce jour-là, et le décret accordant la sécurité à Damas fut proclamé. Les clés de [[place/hama|Hama]] furent remises à Hulagu, et son gouverneur ainsi que al-Nasir se dirigèrent vers [[place/gaza|Gaza]]. La citadelle de Damas opposa une résistance, et les Tatars la mirent au siège, tout en maintenant un bombardement incessant avec vingt catapultes contre la tour Tarama, jusqu’à ce qu’elle ne présente des fissures. Ses habitants demandèrent la sécurité, et elle leur fut accordée, et le gouverneur adjoint [[person/kitbugha|Kitbugha]] y établit sa résidence. Ils prirent également [[place/baalbek|Baalbek]] et sa citadelle, puis ils prirent [[place/nablus|Nablus]] et ses environs par la force des armes. Ensuite, ils capturèrent al-Malik al-Nasir et le placèrent sous escorte, et il resta au service de Hulagu pendant quelques mois. Puis, Hulagu traversa l’Euphrate sur le chemin du retour et laissa une garnison tatare en Syrie. Les chrétiens de Damas se soulevèrent, levèrent la tête, brandirent la croix et défilèrent avec elle, et ils firent en sorte que les gens se lèvent de leurs magasins pour la saluer, le 22 du Ramadan {cite:shadharat-dhahab p.298-299}.

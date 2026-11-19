@@ -1,0 +1,66 @@
+---
+id: concept/itlaf
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/itlaf.md}
+---
+## Résumé
+Dans le lexique, talaf signifie périr et atlafahu signifie détruire ou consumer. Pour les juristes, itlaf consiste à soustraire une chose à son usage habituel. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1489}
+
+## Termes associés
+Ihlak peut être synonyme d'itlaf. Talaf a un sens plus large, car il peut faire suite à une destruction causée par autrui ou à une catastrophe naturelle. Ta'addi, ifsad, jinayah et idrar recoupent itlaf ou en décrivent certaines formes. Ghasb, la prise de possession d'un bien protégé par la force, partage avec itlaf la perte de bénéfice pour le propriétaire, mais le ghasb exige que le preneur prive le propriétaire de sa possession ou s'approprie le bien d'une manière qui le prive de son droit. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1489} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1490}
+
+## Décision
+La règle par défaut est l'interdiction lorsque l'acte n'est pas autorisé par la loi, comme par exemple lorsqu'un propriétaire détruit son propre bien utile. La destruction peut être obligatoire lorsque la loi l'ordonne, par exemple l'abattage d'un porc appartenant à un musulman, ou autorisée lorsque le propriétaire n'a plus besoin du bien. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1490} L'interdiction entraîne un péché, mais péché et responsabilité ne sont pas nécessairement liés. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1490}
+
+## Types
+La destruction peut frapper une chose ou son utilité, en totalité ou en partie. Elle peut être réelle ou morale, comme lorsqu'un objet emprunté n'est pas restitué après que le prêteur l'a réclamé ou après l'échéance du prêt. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1490} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1491}
+
+## Destruction légale approuvée par les juristes
+On peut louer un bien dont on ne peut bénéficier que par sa consommation, comme une bougie pour s'éclairer, une nourrice pour allaiter ou des arbres fruitiers loués. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1490} Manger la nourriture d'autrui en cas de faim extrême est permis, mais la personne qui mange doit une compensation selon l'école hanafite et l'avis le plus strict des autres écoles ; certains malikites n'exigent pas de compensation. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1491} La viande, le sang et les peaux d'animaux morts, qui ne sont pas considérés comme une propriété, peuvent être détruits sans que personne ne puisse prétendre à une compensation, même si le propriétaire est un dhimmi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1491}
+
+En temps de guerre, les biens ennemis non emportables peuvent être détruits s'ils ne peuvent être conquis par les musulmans ; cela concerne les bâtiments et les arbres ennemis nécessaires au combat, et se fonde sur le récit de la coupe et de l'incendie des palmiers des Banu al-Nadir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1491} Les livres de magie et ouvrages similaires sans usage licite peuvent être détruits, soit en effaçant les noms de Dieu, de Ses anges et de Ses messagers et en brûlant le reste, soit en les jetant dans l'eau courante ou en les enterrant. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1491}
+
+Tuer un animal agressif qu'il est impossible d'arrêter sans le tuer n'entraîne aucune responsabilité, car il s'agit d'une riposte légitime. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1491} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1492}
+
+## Responsabilité contestée
+La destruction de vin et de porc appartenant à un musulman n'entraîne aucune responsabilité. Pour le vin appartenant à un dhimmi, les écoles hanafite et malikite imposent une responsabilité, tandis que les écoles chaféite et hanbalite ne l'imposent pas. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1492} La destruction du tambour des pillards et des chasseurs, ou du tambourin autorisé lors des mariages, entraîne une responsabilité par convention ; pour les instruments de divertissement, la majorité n'en impose aucune, tandis qu'Abu Hanifa exige la valeur de la matière première. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1492} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1493} Pour les récipients en or et en argent, ceux qui autorisent leur conservation imposent une responsabilité pour le récipient, tandis que ceux qui interdisent leur conservation n'imposent une responsabilité que pour le métal. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1493}
+
+Lorsqu'un constituant de gage autorise le créancier à consommer les accroissements du gage, certains textes hanafites et shafi'ites considèrent cela comme licite et sans responsabilité ; d'autres le déconseillent ou l'interdisent, tandis que les hanbalites l'autorisent sauf s'il s'agit d'un prêt. Les malikites l'interdisent sauf dans le cas d'un bien vendu donné en gage à titre onéreux. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1493} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1494}
+
+## La destruction qui est un mal contre Dieu
+Ceci concerne la chasse en état d'ihram, à l'intérieur ou à l'extérieur de l'enceinte sacrée, ainsi que la chasse dans le sanctuaire par ceux qui ne sont pas en état d'ihram ; les plantes du sanctuaire sont traitées de la même manière. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1494} Les juristes divergent quant à la peine : Abou Hanifa et Abou Yusuf valorisent le gibier là où il a été tué et laissent au contrevenant le choix entre une offrande et le nourrissage des pauvres, tandis que Muhammad ibn al-Hasan exige un animal similaire s'il en existe un. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1494} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1495} Il est interdit de couper les plantes vertes du sanctuaire, à l'exception de l'idhkhir, une herbe odorante, selon le hadith d'Ibn Abbas. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1495}
+
+## Objet de destruction
+Si la destruction touche une personne, les règles applicables relèvent des blessures et des homicides. Si elle touche un animal, une plante ou un objet, aucune responsabilité n'est engagée si l'objet n'appartient à personne et est licite, ou s'il appartient à un combattant. La responsabilité s'applique aux biens protégés et détenus, car la destruction constitue une agression et un préjudice. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1496}
+
+## destruction directe et causale
+La destruction peut être directe ou indirecte, et les deux entraînent une responsabilité. L'implication est un acte commis dans un lieu donné qui, normalement, cause un préjudice à autrui, comme allumer un feu par temps venteux et que celui-ci se propage à la propriété d'autrui, ou ouvrir une cage et laisser s'envoler un oiseau. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1496} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1497} Les écoles juridiques divergent quant à l'application de ce principe à des cas particuliers : les Malikites, les Hanbalites et Muhammad ibn al-Hasan imputent la responsabilité à celui qui ouvre une cage ou découpe une outre, tandis qu'Abu Hanifa et Abu Yusuf ne l'imputent pas au simple fait d'ouvrir une cage, sauf si l'oiseau a été effrayé. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1497}
+
+L'animal qui dévore la récolte d'autrui la nuit engage la responsabilité de son gardien, selon l'avis majoritaire ; la responsabilité n'est pas engagée le jour, car la surveillance des récoltes est une coutume. Si un berger ou une personne responsable de l'animal est présent et ne parvient pas à l'arrêter, la responsabilité est admise. Les animaux qu'on ne peut retenir, comme les pigeons et les abeilles, n'engagent pas la responsabilité. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1497} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1498}
+
+## Conditions de responsabilité
+Les juristes énumèrent les conditions. Le bien détruit doit être une propriété. Il doit avoir une valeur, de sorte qu'aucune responsabilité ne peut être engagée pour du vin ou du porc appartenant à un musulman. L'auteur de la destruction doit être capable d'assumer sa responsabilité : un enfant ou une personne atteinte de troubles mentaux doit réparer les dommages causés à ses propres biens, et le prix du sang pour une vie perdue incombe à la famille paternelle. La responsabilité doit avoir une finalité, de sorte qu'elle ne peut être engagée pour les biens d'un belligérant en territoire ennemi ni pour les pertes subies par les rebelles au combat. Il n'est pas nécessaire de savoir que le bien appartient à autrui. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1498} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1499}
+
+## Évaluation
+Les biens fongibles sont indemnisés par un bien similaire, et les biens non fongibles par leur valeur, mesurée au lieu de leur destruction. Lorsque le bien similaire est indisponible, les juristes se réfèrent à la valeur. Leurs avis divergent quant au moment de l'évaluation : Abou Hanifa retient le jour du jugement ; les Malikites et Abou Yusuf, le jour de l'usurpation si elle a eu lieu, et le jour de la destruction dans le cas contraire ; Muhammad ibn al-Hasan, le jour où le bien similaire a cessé d'être disponible ; les Chafi'ites et les Hanbalites, la valeur la plus élevée entre la destruction et le paiement. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1499} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1500}
+
+## Coercition
+Si une personne contraint une autre, par une menace convaincante, à détruire un bien appartenant à un tiers, la responsabilité incombe à la personne qui a exercé la contrainte, selon les écoles hanafite, chaféite et une opinion hanbalite. Le propriétaire peut réclamer des dommages-intérêts au destructeur, et ce dernier peut se retourner contre la personne qui a exercé la contrainte. Certains malikites rendent également le commanditaire responsable. Les détails sont abordés dans la section consacrée à la contrainte. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1500}
+
+## Incidence sur la livraison, la location et la restitution
+Le bien vendu est aux risques et périls du vendeur avant la livraison. Si l'acheteur le détruit alors qu'il est encore en possession du vendeur, cela vaut réception et le prix est dû. Un don est réputé avoir été accompli lorsque le donataire le détruit avec l'accord du donateur. Dans le cas d'une dot, une épouse majeure qui la détruit d'une manière engageant sa responsabilité est réputée en avoir pris possession. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1500}
+
+Si un tailleur confectionne un vêtement contre rémunération et qu'une autre personne le découd avant la livraison, le tailleur ne perçoit aucune rémunération ; il peut toutefois facturer à la personne qui a décousu le vêtement les dommages causés ainsi que son salaire habituel de couturière. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1500} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1501} Si le vendeur détruit l'intégralité de l'article vendu avant la livraison, il est considéré comme l'ayant repris et la vente est nulle. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1501}
+
+## Destruction par propagation du mal
+Les dommages résultant d'un acte licite accompli sans ignorance ni négligence n'engagent pas la responsabilité. Ceci s'applique aux médecins, maréchaux-ferrants, ventouses et circoncis compétents qui n'excèdent pas leurs droits ; dans le cas contraire, leur responsabilité est engagée. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1501}
+
+## Collisions, éjection et discipline
+Lorsqu'une collision mortelle survient entre deux personnes, les familles respectives des victimes doivent verser une compensation financière à l'autre. Sur un navire, le fait de jeter des biens par-dessus bord pour sauver le bâtiment n'engage pas la responsabilité de ceux qui ont jeté leurs propres biens ; jeter les biens d'autrui sans autorisation rend seul celui qui les a jetés responsable. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1502} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1503}
+
+La discipline infligée par un père, un tuteur, un enseignant ou un époux engage la responsabilité de ce dernier si elle dépasse les limites habituelles. Lorsqu'elle reste dans les limites habituelles, les juristes divergent ; l'avis le plus juste est qu'il n'y a pas responsabilité, car elle est permise par la loi et la coutume. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1503}
+
+## Employés, locataires, usurpateurs et prêts
+Le bien confié à un locataire est détenu en fiducie et n'engage sa responsabilité qu'en cas de transgression, de négligence ou de violation de l'autorisation. Un employé privé bénéficie d'une confiance légitime ; un employé partagé est généralement responsable. L'usurpateur est toujours responsable, doit restituer le bien ou sa valeur, et si un tiers le détruit entre les mains de l'usurpateur, le propriétaire peut se retourner contre l'un ou l'autre. Les shafi'ites tiennent l'emprunteur responsable d'un objet emprunté (ariya) même sans négligence, sauf en cas d'usure normale. Le prêt de pièces de monnaie, de mesures et de poids constitue en substance un prêt, et leur équivalent ou leur valeur est dû. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1503} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1504}

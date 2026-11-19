@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-ام موسیٰ ہاشمیہ کو سنہ 298 ہجری میں مقتدر باللہ کے محل کی منتظمہ (قہرمانہ) بنایا گیا۔ {cite:kamil-ibn-al-athir p.47-48}
+ام موسیٰ ہاشمیہ کو سنہ 298 ہجری میں مقتدر باللہ کے محل کی منتظمہ ⁦(قہرمانہ)⁩ بنایا گیا۔ {cite:kamil-ibn-al-athir p.47-48}
 
 ## ان کا کام
 وہ مقتدر اور ان کی والدہ کے پیغامات وزیر تک پہنچایا کرتی تھیں۔ {cite:kamil-ibn-al-athir p.47-48}

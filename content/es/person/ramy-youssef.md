@@ -1,0 +1,25 @@
+---
+id: person/ramy-youssef
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/ramy-youssef.md}
+---
+## Resumen
+Ramy Youssef es un cómico, actor y escritor estadounidense de stand-up, conocido por crear y protagonizar la serie de comedia de Hulu Ramy (2019–2022), en la que interpreta a un musulmán-estadounidense de primera generación millennial nacido de padres inmigrantes en Estados Unidos. {cite:wikipedia-ramy-youssef-en} Por su papel ganó el Globo de Oro al Mejor Actor – Serie de Televisión Musical o Comedia en enero de 2020 y un premio Peabody, y fue nominado a dos premios Primetime Emmy, como actor y como director. {cite:wikipedia-ramy-youssef-en} Co-creó la comedia dramática de Netflix Mo (2022) junto con Mo Amer, y en 2025 co-creó la serie animada #1 Happy Family USA. {cite:wikipedia-ramy-youssef-en}
+
+## Infancia y educación
+Nació el 26 de marzo de 1991 en Queens, un distrito de Nueva York, hijo de padres inmigrantes egipcios, y se crió en Rutherford, Nueva Jersey. {cite:wikipedia-ramy-youssef-en} {cite:wikidata-ramy-youssef} Diez años después de emigrar de Egipto, su padre se convirtió en gerente del Plaza Hotel de Nueva York. {cite:wikipedia-ramy-youssef-en} El artículo en inglés recoge que fue criado en un hogar musulmán, observando festividades islámicas, y sigue siendo un musulmán practicante. {cite:wikipedia-ramy-youssef-en} Asistió al instituto Rutherford, estudió ciencias políticas y economía en la Universidad Rutgers, Newark, y se fue antes de graduarse para matricularse en el estudio William Esper y dedicarse a la interpretación. {cite:wikipedia-ramy-youssef-en} Habla árabe e inglés, y su abuelo materno fue intérprete de francés y árabe en las Naciones Unidas. {cite:wikipedia-ramy-youssef-en}
+
+## Carrera
+Debutó como actor en 2012 en la comedia See Dad Run, donde también acompañó a la sala de guionistas y realizó monólogos en The Late Show con Stephen Colbert en 2017. {cite:wikipedia-ramy-youssef-en} Su serie Ramy debutó en Hulu el 19 de abril de 2019 con diez episodios y duró tres temporadas, la tercera estrenándose el 30 de septiembre de 2022. {cite:wikipedia-ramy-youssef-en} En junio de 2019 protagonizó su primer especial de stand-up en HBO, Ramy Youssef: Feelings, y en 2023 realizó una gira con un segundo programa, More Feelings. {cite:wikipedia-ramy-youssef-en} Tuvo su primer papel importante en cine en Poor Things (2023) de Yorgos Lanthimos, y el 30 de marzo de 2024 presentó Saturday Night Live. {cite:wikipedia-ramy-youssef-en} Tras Ramy, firmó un contrato global con A24 y, en agosto de 2024, firmó una alianza con Netflix para desarrollar proyectos a través de su productora, Cairo Cowboy. {cite:wikipedia-ramy-youssef-en} En 2025 recibió el título honorífico de Doctor en Bellas Artes por la Universidad Rutgers y pronunció su discurso de graduación. {cite:wikipedia-ramy-youssef-en}
+
+## Su fe y postura pública
+Este registro no menciona ninguna escuela para Youssef, porque ninguna fuente menciona una: las fuentes describen su crianza en un hogar musulmán y su práctica continua, y Wikidata reconoce el Islam de forma genérica. {cite:wikipedia-ramy-youssef-en} {cite:wikidata-ramy-youssef} Su obra en sí misma es su declaración más pública: la serie Ramy sigue a su personaje principal a través de cuestiones sobre la oración, el ayuno, la culpa y el sentido de pertenencia como joven musulmán en Nueva Jersey. {cite:wikipedia-ramy-youssef-en} Presentando Saturday Night Live el 30 de marzo de 2024, rezó en su monólogo para que Dios "libere al pueblo de Palestina y por favor libere a los rehenes". {cite:wikipedia-ramy-youssef-en} Las doce últimas noches de su gira More Feelings 2023 recaudaron fondos para Gaza a través de American Near East Refugee Aid (ANERA), y su espectáculo agotado en la Brooklyn Academy of Music donó todos sus beneficios a la misma organización. {cite:wikipedia-ramy-youssef-en} También firmó la carta abierta de octubre de 2023 de artistas que pedían un alto el fuego y la liberación de rehenes en Gaza, y llevó un insignia de "Artistas por el Alto el Fuego" en los Premios de la Academia de 2024. {cite:wikipedia-ramy-youssef-en} Estos cargos se llevan aquí como propios, atribuidos, y no constituyen una acreditación escolar. {cite:wikipedia-ramy-youssef-en}
+
+## Vida personal
+Está casado desde 2022 con una artista visual de Arabia Saudí, a quien conoció a través de su compañera de reparto en Ramy, May Calamawy; es reservado respecto a su vida personal y no revela públicamente los detalles de su esposa. {cite:wikipedia-ramy-youssef-en}
+
+## Fuentes
+- Las entidades fuente definidas citadas anteriormente, registradas en `data/source/`.
+- Las revisiones de este artículo deben estar fechadas y deben indicar la fuente que modificó cada hecho.
