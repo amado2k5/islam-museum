@@ -1,0 +1,9 @@
+---
+id: concept/haqiqa-literal
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/haqiqa-literal.md}
+---
+## Resumen
+En el uso técnico, haqiqa es una palabra empleada por el significado que se le dio en la convención mediante la cual se transmite el discurso; su contraparte es metáfora, una palabra usada para algo distinto de su acuñación debido a un vínculo entre ambas. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7216} Kinaya es un discurso cuyo significado previsto está oculto por el uso, aunque su sentido literal sea claro, por lo que necesita intención o contexto para determinar lo que se quiere decir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7217} El significado literal es lingüístico cuando lo establecen los lexicógrafos, legal cuando lo establece el legislador y consuetudinario cuando lo establece la costumbre; la misma palabra puede ser literal en un sentido y figurativa en otro, como la oración es literal en el sentido legal y figurativa en la súplica. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7217} El discurso se toma literalmente por defecto y se pasa a la metáfora solo cuando el sentido literal es imposible, difícil o abandonado por la costumbre, con ramificaciones en legados, juramentos y reconocimientos. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7218} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7219} La mayoría de los usulis prohíben tomar el sentido literal y figurativo juntos en un solo uso, los shafiíes lo permiten a menos que la razón lo prohíba; una metáfora general es admisible. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7219}
