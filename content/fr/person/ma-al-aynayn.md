@@ -1,0 +1,36 @@
+---
+id: person/ma-al-aynayn
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+title: Ma al-'Aynayn (1831–1910)
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/ma-al-aynayn.md}
+---
+
+## Vue d'ensemble
+
+Ma al-'Aynayn (1831 – 23 octobre 1910) était un cheikh soufi qadiri mauritanien et chef de la résistance qui dirigea la confrérie Fadiliyya, construisit la ville ribat de Smara au Sahara occidental et mena la résistance armée contre la colonisation française et espagnole au Sahara et au Maroc. {cite:source/wikipedia-ma-al-aynayn-en} {cite:source/wikipedia-ma-al-aynayn-ur} L'article arabe corrige la forme courante de son nom : il était Sidi al-Mustafa, nommé par son père d'après le propre cheikh de son père, Sidi al-Mustafa ibn Uthman, et « Muhammad al-Mustafa » est une erreur d'usage courant. {cite:source/wikipedia-ma-al-aynayn-ar} Il était le douzième des quarante-huit fils de Muhammad Fadil, fondateur de la Fadiliyya, une fraternité soufie qadiriyya. {cite:source/wikipedia-ma-al-aynayn-en}
+
+## Carrière
+
+Il mémorisa le Coran à l'âge de sept ans et prit ses sciences exotériques et ésotériques de son père, qui le forma en tasawwuf. {cite:source/wikipedia-ma-al-aynayn-en} {cite:source/wikipedia-ma-al-aynayn-ar} Choisi parmi ses frères pour étudier à Fès, il partit à seize ans pour étudier auprès de plusieurs érudits, et en 1858 il accomplit le Hajj, rencontrant l'héritier Muhammad ibn Abd al-Rahman à Marrakech et le sultan Abd al-Rahman à Meknès — le début de ses liens marocains. {cite:source/wikipedia-ma-al-aynayn-en} À son retour en 1861, son père lui donna un turban et le titre de cheikh, le conférant ainsi dans la fraternité familiale. {cite:source/wikipedia-ma-al-aynayn-en} Vers 1870, il s'installa dans le Saqiyat al-Hamra et fonda la zawiya Dar al-Hamra', et à partir de 1873 il visita régulièrement Marrakech et Fès. {cite:source/wikipedia-ma-al-aynayn-en} En 1879, un dahir du sultan Moulay Hassan I le nomma représentant du sultan du Souss auprès de la Saqiyat al-Hamra et de Tarfaya, et ses murides atteignirent plus de dix mille hommes. {cite:source/wikipedia-ma-al-aynayn-en} {cite:source/wikipedia-ma-al-aynayn-ar} En 1898, il commença à construire le ribat de Smara avec les artisans, matériaux, financements et armes du sultan, s'y installant en 1902 et y construisant sa bibliothèque islamique. {cite:source/wikipedia-ma-al-aynayn-en} En 1904, il proclama le jihad contre les colonisateurs, et en 1905 un membre de sa fraternité aurait peut-être assassiné l'officier français Xavier Coppolani, comme le dit l'article anglais, avec la haie. {cite:source/wikipedia-ma-al-aynayn-en} Il soutint Abd al-Hafid contre son frère Abd al-Aziz en 1907, se retira à Tiznit en 1908–09, et en juin 1910 marcha vers le nord avec environ six mille hommes pour renverser Abd al-Hafid ; La colonne du général Moinier détruisit ses forces le 23 juin 1910 près de Kasba-Tadla, le blessant. {cite:source/wikipedia-ma-al-aynayn-en} {cite:source/wikipedia-ma-al-aynayn-fr} Il mourut à Tiznit le 23 octobre 1910 — l'article arabe associe sa date hijrie du 17 Shawwal 1328 au 25 octobre 1910, un jumelage qui ne concorde pas avec sa propre date hijrie — et son tombeau y demeure un lieu de pèlerinage. {cite:source/wikipedia-ma-al-aynayn-en} {cite:source/wikipedia-ma-al-aynayn-ar} Ses descendants, le cheikh Ahl Ma al-'Aynayn, étaient 363 lors d'un décompte espagnol de 1974 et ont occupé des fonctions au Maroc, au Front Polisario et en Mauritanie. {cite:source/wikipedia-ma-al-aynayn-en}
+
+## Œuvres
+
+Son biographe et fils Mrabbih Rabbu lui attribue 140 livres, tandis que Julio Caro Baroja en comptait 314. {cite:source/wikipedia-ma-al-aynayn-en} Parmi eux figurent Mubsir al-mutashawwif 'ala Muntakhab al-Tasawwuf, un ouvrage sur le soufisme, et l'article arabe énumère une vingtaine d'autres titres, parmi lesquels Dallil al-rifaq, Fatiq al-ratq et Adab al-murid. {cite:source/wikipedia-ma-al-aynayn-fr} {cite:source/wikipedia-ma-al-aynayn-ar} L'article arabe note que nombre de ses manuscrits furent brûlés lors de l'attaque franco-espagnole contre Smara. {cite:source/wikipedia-ma-al-aynayn-ar}
+
+## Positions et critiques
+
+Cette section rapporte ce que les sources attribuent à Ma al-'Aynayn et comment elles l'évaluent ; ce n'est pas le jugement du musée lui-même.
+
+Sa place repose sur son cheikhat : l'investiture de l'article anglais de 1861, le récit de ses murides et des tariqas qu'il leur enseigna dans l'article arabe, ainsi que la photo d'un cheikh et d'un marabout avec de nombreux disciples de la lignée Fadiliyya-Ma'ayniyya dans l'article français sont les attestations sur lesquelles le musée consigne sa foi en tant que soufi, comme le précise la note de foi de son archive. {cite:source/wikipedia-ma-al-aynayn-en} {cite:source/wikipedia-ma-al-aynayn-ar} {cite:source/wikipedia-ma-al-aynayn-fr} L'article allemand ajoute qu'il fut influencé par les enseignements wahhabites et sanousis — une affirmation attribuée à cet article, enregistrée comme telle. {cite:source/wikipedia-ma-al-aynayn-de} L'article français indique qu'à Tiznit il se proclama Mahdi ; le musée ne conserve cela que comme une revendication de l'article français. {cite:source/wikipedia-ma-al-aynayn-fr} L'article espagnol le fait se proclamer « Sultan Bleu » en 1910, tandis que l'article anglais attribue le titre de Sultan Bleu à son fils El-Hiba, qui poursuivit la résistance ; les deux attributions sont enregistrées côte à côte. {cite:source/wikipedia-ma-al-aynayn-es} {cite:source/wikipedia-ma-al-aynayn-en} Le journal arabophone français Es-Saada a mené une campagne contre lui, le qualifiant de mendiant sans scrupules et de trafiquant d'armes et répandant des rumeurs selon lesquelles ses partisans étaient chiites — une calomnie hostile de la presse coloniale, relevée ici comme la présente l'article en anglais, et n'attestant rien de sa foi. {cite:source/wikipedia-ma-al-aynayn-en} Ses mariages sont donnés comme 116 par al-Mukhtar al-Susi, avec la note qu'il gardait à quatre épouses à la fois ; Paul Marty comptait vingt-et-un fils et trente filles, et le Dictionnaire historique du Sahara occidental trente-trois fils. {cite:source/wikipedia-ma-al-aynayn-en}
+
+## Références
+
+- Wikipedia (anglais), « Ma al-'Aynayn », révision 1379833006 (12 octobre 2026) — source/wikipedia-ma-al-aynayn-en.
+- Wikipédia (français), « Ma El Aïnin », révision 240446469 (17 octobre 2026) — source/wikipedia-ma-al-aynayn-fr.
+- Wikipedia (arabe), « ماء العينين القلقمي », révision 76581022 (15 septembre 2026) — source/wikipedia-ma-al-aynayn-ar.
+- Wikipédia (espagnol), « Ma el-Ainéin », révision 175873057 (17 octobre 2026) — source/wikipedia-ma-al-aynayn-es.
+- Wikipedia (allemand), « Mā' al-ʿAinain al-Qalqamī », révision 256071288 (17 mai 2025) — source/wikipedia-ma-al-aynayn-de.
+- Wikipedia (ourdou), « محمد مصطفی ما العینین », révision 9310650 (6 janvier 2026) — source/wikipedia-ma-al-aynayn-your.
+- Wikidata, Q2520973 — source/wikidata-ma-al-aynayn.

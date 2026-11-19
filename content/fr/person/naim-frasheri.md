@@ -1,0 +1,36 @@
+---
+id: person/naim-frasheri
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+title: Naim Frashëri (1846–1900)
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/naim-frasheri.md}
+---
+
+## Vue d'ensemble
+
+Naim Frashëri (25 mai 1846 – 20 octobre 1900) était un historien, journaliste, poète et traducteur albanais, considéré comme le poète national de l'Albanie, un pionnier de la littérature albanaise moderne et l'une des figures culturelles les plus influentes du XIXe siècle. {cite:source/wikipedia-naim-frasheri-en} {cite:source/wikipedia-naim-frasheri-ur} Il était le quatrième des huit enfants de Halit Bey Frashëri (1797–1859) et d'Emine (1814–1861), né à Frashër dans une riche famille albanaise affiliée à la tariqa Bektashi. {cite:source/wikipedia-naim-frasheri-sq} {cite:source/wikipedia-naim-frasheri-en} Avec son frère aîné Abdyl et son frère cadet Sami, il figurait parmi les figures majeures de l'Éveil national albanais. {cite:source/wikipedia-naim-frasheri-ur}
+
+## Carrière
+
+Il commença son éducation au tekke Bektashi de Frashër, y apprenant l'arabe, le turc ottoman et le persan. {cite:source/wikipedia-naim-frasheri-en} Après la mort de ses parents, la famille déménagea à Ioannina en 1865, où il fréquenta l'école Zosimaia — l'article albanais indique sa fréquentation en 1869 — et en sortit diplômé en 1870, ayant également pris des cours particuliers de persan, de turc et d'arabe auprès de deux Bektashis locaux. {cite:source/wikipedia-naim-frasheri-en} {cite:source/wikipedia-naim-frasheri-sq} Il passa environ huit mois dans un bureau de presse à Istanbul en 1870–71 avant que sa tuberculose ne le contraigne à retourner à Ioannina, puis travailla comme commis à Berat et comme directeur des douanes à Saranda en 1874–77, partant à Bade, pour chercher un remède contre son rhumatisme. {cite:source/wikipedia-naim-frasheri-en} {cite:source/wikipedia-naim-frasheri-sq} En 1879, il cofonda, avec Sami et une vingtaine d'autres personnes, la Société pour la publication des écrits albanais à Istanbul. {cite:source/wikipedia-naim-frasheri-en} À partir de 1882, il s'installa à Istanbul, où il accéda à la présidence de la Commission d'inspection et de contrôle (censure) au ministère de l'Éducation — poste qu'il utilisa pour alléger l'interdiction des livres et de l'éducation en albanais, ne signant ses propres publications en albanais que par les initiales N.H., N.H.F. et N.F.{cite:source/wikipedia-naim-frasheri-sq}{cite:source/elsie-naim-frasheri}. Il dirigea en coulisses le magazine Drita (1883–84) et, avec Sami, rédigea les manuels scolaires de l'école albanaise de Korçë, dont les frères obtirent le permis en 1887. {cite:source/wikipedia-naim-frasheri-en} {cite:source/wikipedia-naim-frasheri-sq} Il mourut dans les petites nuits du 20 octobre 1900 à son domicile de Kızıl Toprak, Kadıköy, et fut enterré le lendemain au tekke Merdivenköy Bektashi à côté de la tombe de son frère Abdyl. {cite:source/wikipedia-naim-frasheri-sq} L'article albanais rapporte que ses restes furent apportés en Albanie le 2 juin 1937 et placés dans le tekke Bektashi à Tirana, tandis que l'article anglais ne date l'autorisation turque pour le transfert que des années 1950 — les deux récits sont enregistrés côte à côte plutôt que réconciliés. {cite:source/wikipedia-naim-frasheri-sq} {cite:source/wikipedia-naim-frasheri-en}
+
+## Œuvres
+
+Il écrivit vingt-deux ouvrages — quinze en albanais, quatre en turc, deux en grec et un en persan — commençant par une grammaire persane, Kavâid-i farisiyye dar zebân-ı farisi (1871), signée Mehmet Naim. {cite:source/wikipedia-naim-frasheri-en} {cite:source/wikipedia-naim-frasheri-sq} Son roman pastoral Bagëti e Bujqësi (1886) fut introduit clandestinement en Albanie en caravanes, et un vers de son poème O malet e Shqipërisë — « Toi Albanie, donne-moi l'honneur, donne-moi le nom d'Albanais » — devint la devise nationale du pays. {cite:source/wikipedia-naim-frasheri-en} Son carnet Bektashi, Fletore e Bektashinjet, est daté de 1895 dans la liste des œuvres de l'article en anglais et de 1896 par Robert Elsie ; l'article albanais le qualifie ainsi que Qerbelaja des premières œuvres du béktashisme albanais. {cite:source/wikipedia-naim-frasheri-en} {cite:source/elsie-naim-frasheri} {cite:source/wikipedia-naim-frasheri-sq} Qerbelaja (1898 ; les listes des articles arabes et ourdous indiquent 1894), une épopée Bektashi en vingt-cinq chants sur le thème de Karbala, et le vers Istori e Skënderbeut (1898), quelque 11 500 vers sur le héros national albanais, sont ses poèmes les plus longs. {cite:source/wikipedia-naim-frasheri-sq} {cite:source/elsie-naim-frasheri} {cite:source/wikipedia-naim-frasheri-ar} Ses manuels comportaient les premières traductions sélectives de passages du Coran en albanais. {cite:source/wikipedia-naim-frasheri-sq}
+
+## Positions et critiques
+
+Cette section rapporte ce que les sources attribuent à Frashëri et comment elles l'évaluent ; ce n'est pas le jugement du musée lui-même.
+
+L'article anglais affirme directement de lui : « Lui-même Bektashi, il désirait la pureté de la langue albanaise et avait tenté, de son vivant, de faire albaniser les termes hiérarchiques de l'ordre dans son œuvre Fletore e Bektashinjët », et le qualifie de « l'écrivain le plus représentatif de poésie soufie en albanais ». {cite:source/wikipedia-naim-frasheri-en} Robert Elsie écrit « son affinité pour sa religion panthéiste béktashi » et rapporte qu'il espérait que les croyances libérales bektashi « auxquelles il était attaché depuis son enfance à Frashër » deviendraient un jour la religion de toute l'Albanie en tant que force d'unité nationale. {cite:source/elsie-naim-frasheri} Sur ce registre — trois attestations indépendantes de l'affiliation elle-même — le musée mentionne sa foi en tant que soufi (Bektashi), comme l'indique la note de foi de son archive. {cite:source/wikipedia-naim-frasheri-en} {cite:source/wikipedia-naim-frasheri-sq} {cite:source/elsie-naim-frasheri} Son influence sur les poètes albanais ultérieurs Asdreni, Gjergj Fishta et Lasgush Poradeci est mentionnée dans l'article anglais, et son portrait figure sur le billet de 200 lekë tandis qu'un ordre du mérite albanais porte son nom. {cite:source/wikipedia-naim-frasheri-en}
+
+## Références
+
+- Wikipedia (anglais), « Naim Frashëri », révision 1376878515 (26 septembre 2026) — source/wikipedia-naim-frasheri-en.
+- Wikipedia (en albanais), « Naim Frashëri », révision 2940719 (13 avril 2026) — source/wikipedia-naim-frasheri-sq.
+- Wikipédia (turc), « Naim Fraşiri », révision 37937205 (11 septembre 2026) — source/wikipedia-naim-frasheri-tr.
+- Wikipedia (arabe), « نعيم فراشري », révision 77005863 (18 octobre 2026) — source/wikipedia-naim-frasheri-ar.
+- Wikipedia (ourdou), « نعیم فراشری », révision 11850274 (30 août 2026) — source/wikipedia-naim-frasheri-your.
+- Robert Elsie, « Naim Frashëri », Albanian Literature (albanianliterature.net) — source/elsie-naim-frasheri.
+- Wikidata, Q47007 — source/wikidata-naim-frasheri.
