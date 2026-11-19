@@ -1,0 +1,22 @@
+---
+id: concept/al-habba-al-sawda
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/al-habba-al-sawda.md}
+---
+## Resumen
+La semilla negra es objeto de un informe en ambas colecciones Sahih en el que el Profeta dice que 'en la semilla negra hay cura para toda enfermedad excepto al-sam', y al-sam es muerte {cite:sahih-al-bukhari 5688} {cite:sahih-muslim 5766}. Ibn Qayyim al-Jawziyya dice que es el shuniz y considera que las opiniones que lo convierten en mostaza o fruto del terebinto son un error {cite:zad-al-maad p.701}; interpreta 'toda enfermedad' como una expresión general que se refiere en un sentido particular, toda enfermedad que la admite y la considera beneficiosa para las enfermedades del frío {cite:zad-al-maad p.701}.
+
+## Lo que dicen los informes
+En la entrada sobre la carta ha entre los medicamentos simples, Ibn al-Qayyim cita el informe de Abu Hurayra en las dos colecciones Sahih: 'usa esta semilla negra, porque en ella hay cura para toda enfermedad excepto al-sam' {cite:zad-al-maad p.701}. En al-Bukhari aparece como 'en la semilla negra hay cura para toda enfermedad excepto al-sam', con la glosa de Ibn Shihab de que al-sam es muerte y la semilla negra es el shuniz {cite:sahih-al-bukhari 5688} [[passage/bukhari-api-5688|al-Bukhari 5688]]; en Muslim with the same sense {cite:sahih-muslim 5766} [[passage/muslim-api-5766|Muslim 5766]]; y en al-Tirmidhi {cite:jami-al-tirmidhi 2041} [[passage/tirmidhi-api-2041|al-Tirmidhi 2041]]. Otro informe de al-Bukhari da una receta para un hombre enfermo: cinco o siete semillas, trituradas y goteadas en su nariz con gotas de aceite, y el narrador cita 'A'isha para el dicho {cite:sahih-al-bukhari 5687} [[passage/bukhari-api-5687|al-Bukhari 5687]].
+
+## De qué semilla es
+Ibn al-Qayyim dice que la semilla negra es el shuniz en persa, el comino negro, también llamado comino indio. Relata que al-Harbi informó desde al-Hasan que es mostaza y que al-Harawi informó que era la semilla verde, el fruto del terebinto, y califica ambas opiniones como errores, siendo la correcta que es el shuniz {cite:zad-al-maad p.701}. Esto coincide con la explicación de Ibn Shihab en el informe al-Bukhari {cite:sahih-al-bukhari 5688}.
+
+## El significado de 'todas las enfermedades'
+Ibn al-Qayyim sostiene que 'una cura para toda enfermedad' es como la expresión usada para el viento en el Corán [[passage/quran-46-25|al-Ahqaf 25]], 'todo' que puede ser destruido; es una expresión general destinada en un sentido particular a toda enfermedad que responde a ella {cite:zad-al-maad p.701}. Dice que ayuda en todas las enfermedades del frío y que entra incidentalmente en las enfermedades calientes y secas, llevando rápidamente la fuerza de los medicamentos húmedos y refrescantes porque penetran rápido cuando se toma poco {cite:zad-al-maad p.701}. Cita al autor del Canon y a otros por añadir azafrán a las pastillas de alcanfor por su rápida penetración, y dice que el beneficio de una sustancia caliente en ciertas enfermedades calientes mediante una propiedad especial es familiar para los del oficio {cite:zad-al-maad p.701}. Para la cuestión más amplia de 'toda enfermedad tiene un remedio', véase [[concept/al-tibb-al-nabawi|medicina profética]].
+
+## Sus usos, según lo informa Ibn al-Qayyim
+Ibn al-Qayyim dice que es caliente y seco en tercer grado, disipa la hinchazón, expulsa los gusanos llamados semillas de calabaza (hubb al-qar'), ayuda contra el vitiligo, la fiebre cuartánea y las enfermedades flemáticas, abre obstrucciones y disuelve los vientos {cite:zad-al-maad p.701}. Machacado y amasado con miel y tomado con agua caliente, ayuda contra las piedras del riñón y la vejiga y favorece la orina, la menstruación y la leche si se toma [[concept/asal|miel durante varios]] días {cite:zad-al-maad p.701}. Enumera los beneficios de su aceite, incluyendo como gota nasal para parálisis y espasmo tetánico, y dice que su humo ahuyenta alimañas {cite:zad-al-maad p.702}. Da la dosis en dos dirhams y señala que algunos afirman que tomar gran parte es mortal {cite:zad-al-maad p.702}. Estas son las declaraciones de Ibn al-Qayyim sobre la medicina de su época; el museo las informa y no recomienda ninguna de ellas.
