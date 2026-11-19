@@ -16,9 +16,9 @@ export const regionLabel = (id: string, lang: Lang) => { const l = regions.find(
 export const externalUrl = (key: string, id: string) => idPatterns[key]?.url.replace("{id}", id);
 
 /** Section role by heading (so the depth dial works in every language). */
-const KIDS = ["For young visitors", "للزوار الصغار"];
-const SCHOLARS = ["Notes for scholars", "ملاحظات للباحثين"];
-const BRIEF = ["Brief", "نبذة"];
+const KIDS = ["For young visitors", "للزوار الصغار", "Pour les jeunes visiteurs", "Pour les Petits"];
+const SCHOLARS = ["Notes for scholars", "ملاحظات للباحثين", "Notes pour les chercheurs", "Pour les Chercheurs"];
+const BRIEF = ["Brief", "نبذة", "En bref", "Résumé"];
 // Spanish section headings (spanish lane), added on their own lines so the French lane can extend the lists above.
 KIDS.push("Para los visitantes jóvenes");
 SCHOLARS.push("Notas para investigadores");
