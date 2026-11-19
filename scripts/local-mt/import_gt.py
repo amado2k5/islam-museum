@@ -82,6 +82,7 @@ def main():
     ap.add_argument("--docx", required=True)
     ap.add_argument("--log", required=True)
     ap.add_argument("--out", default=ROOT)
+    ap.add_argument("--taken", default="", help="file of ids another lane is translating; never written")
     ap.add_argument("--date", default=time.strftime("%Y-%m-%d"), help="day the file was translated on translate.google.com")
     a = ap.parse_args()
     lang, records, paras = a.lang, json.load(open(a.map, encoding="utf-8")), paragraphs(a.docx)
@@ -91,6 +92,7 @@ def main():
         if m: cur = int(m.group(1)); chunks[cur] = []
         elif cur is not None: chunks[cur].append(p)
     tally = collections.Counter()
+    taken = set(l.strip() for l in open(a.taken, encoding="utf-8")) if a.taken and os.path.exists(a.taken) else set()
     with open(a.log, "a", encoding="utf-8") as lg:
         def note(event, ident, **kw):
             tally[kw.get("reason", event).split(":")[0]] += 1
@@ -99,6 +101,7 @@ def main():
         for n, rec in enumerate(records, 1):
             ident = rec["id"]; target = os.path.join(a.out, "content", lang, ident + ".md")
             if os.path.exists(target): note("skipped", ident, reason="already translated"); continue
+            if ident in taken: note("skipped", ident, reason="taken by another lane"); continue
             raw = open(os.path.join(ROOT, "content", "en", ident + ".md"), encoding="utf-8").read()
             m = re.match(r"^---\n(.*?)\n---\n?(.*)$", raw, re.S)
             todo = [l for l in rec["lines"] if "en" in l]

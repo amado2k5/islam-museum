@@ -1,0 +1,12 @@
+---
+id: event/abdullah-ibn-al-husayn-comes-from-the-hijaz-and-al-daam-declines-to-march-288
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/abdullah-ibn-al-husayn-comes-from-the-hijaz-and-al-daam-declines-to-march-288.md}
+---
+## Vue d'ensemble
+[[person/al-hadi-yahya-al-rassi|Al-Hadi]] séjourna deux jours à Raydah, puis [[person/abu-al-atahiya-ibn-bishr|Abu al-Atahiya]] vint à lui avec une armée de Hamdan. À son arrivée, al-Hadi marcha jusqu'à [[place/madar-yemen|Madar]] où il s'arrêta quelques jours {cite:sira-hadi-ila-al-haqq p.224}. Son frère [[person/abdullah-ibn-al-husayn-al-rassi|Abdullah ibn al-Husayn]] le rejoignit ensuite avec environ quatre-vingts hommes de Mudar et quelques Alides venus du Hedjaz. Il amena ses femmes, les installa à Sa'da et rejoignit al-Hadi {cite:sira-hadi-ila-al-haqq p.224}. À son arrivée, al-Hadi lui conseilla de rencontrer [[person/al-daam-ibn-ibrahim|al-Da'am ibn Ibrahim]] et de lui demander son aide contre [[group/banu-tarif|les Banu Tarif]], comme al-Da'am l'avait promis {cite:sira-hadi-ila-al-haqq p.224}. Lorsqu'Abdullah ibn al-Husayn rencontra al-Da'am, celui-ci le dissuada de combattre les Banu Tarif, affirmant que ses hommes appartenaient à une armée qu'ils ne pouvaient affronter. Il se désista de la marche et revint sur sa promesse faite à al-Hadi {cite:sira-hadi-ila-al-haqq p.224} {cite:sira-hadi-ila-al-haqq p.225}. Abdullah ibn al-Husayn retourna auprès d'al-Hadi et lui fit part de la déception qu'al-Da'am lui avait infligée {cite:sira-hadi-ila-al-haqq p.225}.
+
+## Détail
+Le passage que le scan interprète comme le renoncement d'al-Hadi à la guerre contre les Banu Tarif ne se lit pas littéralement tel quel, et le scan le reproduit de la même manière ; le musée l'interprète d'après le contexte comme le renoncement d'al-Da'am à Abdullah, puisque la page suivante évoque la déception d'al-Da'am à son égard. Cette interprétation est donc probable, mais non certaine. Le nombre d'hommes Mudar est celui du narrateur, environ quatre-vingts. Les femmes d'Abdullah ne sont pas nommées. Aucun mois ni jour n'est indiqué, et l'ordre des événements correspond à celui de la page 224, qui suit la page 223 manquante. Ce passage précède [[event/al-hadi-routs-al-yafur-and-al-tarif-before-sanaa-288]].

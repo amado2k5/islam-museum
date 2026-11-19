@@ -1,0 +1,17 @@
+---
+id: place/hulay
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/hulay.md}
+---
+## Vue d'ensemble
+Hulay est une petite ville côtière. C'est un port où font escale les navires en provenance du Yémen et remontant de Qulzum. Des marchandises y sont acheminées et exportées, selon al-Idrisi. {cite:nuzhat-al-mushtaq-2002 p.138}
+
+## Dans le Mu'jam al-buldan de Yaqut
+Yaqut donne le nom Hali, avec une fatha et un sukun, sur le modèle du zaby, puis cite 'Umara al-Yamani selon lequel Hali est une ville du Yémen, située en bord de mer, à une journée de marche d'al-Sirrayn et à huit jours de marche de La Mecque. {cite:mujam-al-buldan-sader-1995 2 p.297} Les chiffres indiqués ici sont ceux d''Umara, et non de Yaqut. Suit la phrase « c'est la Hilya mentionnée précédemment », sans précision quant à l'origine de cette information (Umara ou Yaqut). {cite:mujam-al-buldan-sader-1995 2 p.297} Il cite un vers d'un Bédouin anonyme sur le lotus de Hali. {cite:mujam-al-buldan-sader-1995 2 p.297}
+
+Dans l'entrée précédente consacrée à Hilya, il la décrit comme un repaire de lions dans la région du Yémen et énumère différentes hypothèses quant à sa localisation : un oued entre A'yar et 'Ulayb se jetant dans al-Sirrayn, un lieu au Yémen, un lieu dans les districts d'al-Ta'if ; al-Zamakhshari mentionne un oued de Tihama dont la partie supérieure relève de Hudhayl et la partie inférieure de Kinana ; il cite également une forteresse portant ce nom parmi les forteresses de Ta'izz, sur le mont Sabir. {cite:mujam-al-buldan-sader-1995 2 p.297} D'après Abu al-Mundhir, il rapporte que Qasr ibn 'Abqar s'installa dans les montagnes de Hilya et d'Aslam après que Bajila et Khath'am eurent rejoint les monts Sarat et chassé leurs populations précédentes, et il cite un poème de Suwayd ibn Jud'a à ce sujet. {cite:mujam-al-buldan-sader-1995 2 p.297} Le nom « Hali ibn Ya'qub » n'apparaît nulle part dans le livre ; le texte entier a été recherché avec les marques vocaliques supprimées et les maqsura ya' et alif fusionnées.
+
+## L'identification du musée
+Le document d'al-Idrisi mentionne une petite ville côtière, un port où font escale les navires venant du Yémen et remontant de Qulzum, pour y décharger et transporter des marchandises. Yaqut, citant 'Umara al-Yamani, confirme qu'il s'agit d'une ville en bord de mer, mais la situe au Yémen, à une journée d'al-Sirayn et à huit de La Mecque, sans mentionner le port, les navires ni Qulzum. Le document d'al-Sirin conservé au musée, également d'al-Idrisi, situe la ville à environ cinq jours de Hulay, contre un jour pour 'Umara, et le musée ne tranche pas cette divergence. Le point du document (18,6667, 41,35) est désigné comme une localité, à 129,7 km du point d'al-Sirin du musée et à 345,3 km de son point de La Mecque ; ces distances sont à vol d'oiseau et ne sont pas converties en jours. La note de coordonnées du document mentionne « Hulay ibn Ya'qub », qui ne figure pas dans le texte de Yaqut. Le musée ne retiendrait pas l'identification avec Hilya, car l'entrée consacrée à Hilya par Yaqut regroupe plusieurs lieux. Voir [[place/al-sirin|al-Sirin]].

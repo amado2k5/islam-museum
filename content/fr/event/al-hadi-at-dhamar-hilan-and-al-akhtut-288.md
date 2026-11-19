@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-at-dhamar-hilan-and-al-akhtut-288
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-at-dhamar-hilan-and-al-akhtut-288.md}
+---
+## Vue d'ensemble
+[[person/al-hadi-yahya-al-rassi|Al-Hadi]] poursuivit sa route jusqu'à [[place/dhamar|Dhamar]], où il envoya des émissaires dans ses quartiers. Les habitants se rassemblèrent autour de lui ; il les exhorta et leur rappela leurs devoirs et obligations. Il demeura à Dhamar quelques jours, jusqu'à ce que, selon le narrateur, Dieu rétablisse l'ordre dans la ville {cite:sira-hadi-ila-al-haqq p.212} {cite:sira-hadi-ila-al-haqq p.213}. Les habitants de Hilan vinrent à lui, et il leur envoya avec eux un homme de son entourage nommé Muhammad al-Balkhi. Il quitta Dhamar et confia la ville à [[person/ibrahim-ibn-jafar-al-futayimi|Ibrahim ibn Jafar al-Futayimi]] {cite:sira-hadi-ila-al-haqq p.213}. Il continua son chemin jusqu'à [[place/al-akhtut-yemen|al-Akhtut]], où les habitants se rassemblèrent autour de lui. Il les exhorta et leur rappela leurs devoirs et obligations. La ville était corrompue, dit le narrateur, car [[person/ibrahim-ibn-khalaf-ibn-tarif|Ibrahim ibn Khalaf]] y avait vécu et le vice y régnait en maître {cite:sira-hadi-ila-al-haqq p.213}.
+
+## Détail
+Lorsque al-Hadi arriva à al-Akhtut, de nombreux corrompus et les femmes de mauvaise réputation qui y vivaient avec Ibrahim ibn Khalaf, selon le narrateur, l'avaient quittée. Al-Hadi y séjourna quelques jours avant de poursuivre sa route vers [[place/mankath-yemen|Mankath]] {cite:sira-hadi-ila-al-haqq p.213}. Muhammad al-Balkhi est mentionné uniquement dans le texte, sans être décrit comme une personne. La reconnaissance de texte a omis la première ligne de la page 213 ; Apple Vision, appliqué à l'image de la page, la rétablit et conserve le passage concernant le séjour à Dhamar, l'arrivée des habitants de Hilan et le nom d'al-Balkhi. Les accusations portées par le narrateur contre les habitants d'al-Akhtut et Ibrahim ibn Khalaf relèvent de son propre récit ; il ne nomme personne et ne donne aucun détail, et le musée ne reprend pas ses propos injurieux ni ne porte de jugement. L'éditeur ne parvient pas à localiser al-Akhtut.

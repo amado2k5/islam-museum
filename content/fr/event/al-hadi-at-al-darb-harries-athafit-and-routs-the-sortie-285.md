@@ -1,0 +1,18 @@
+---
+id: event/al-hadi-at-al-darb-harries-athafit-and-routs-the-sortie-285
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-at-al-darb-harries-athafit-and-routs-the-sortie-285.md}
+---
+## Vue d'ensemble
+Après l'épisode de la caravane {cite:sira-hadi-ila-al-haqq p.106}, [[person/al-hadi-yahya-al-rassi|al-Hadi]] resta auprès d' [[place/al-darb-banu-rabia-yemen|al-Darb, la tribu des Banu Rabi'a]], et envoya, à intervalles de quelques nuits, une expédition à [[place/athafit|Athafit]] pour tirer sur le logement d' [[person/al-daam-ibn-ibrahim|al-Da'am]], l'alarmer et l'empêcher de dormir. {cite:sira-hadi-ila-al-haqq p.106} Ce récit est zaydite, rapporté par les disciples de l'imam ; les propos sont attribués à leurs narrateurs et le musée ne se prononce pas sur leur authenticité.
+
+## L'envoi au milieu de Dhu al-Qa'da
+Au milieu du mois de Dhu al-Qa'da, al-Hadi ordonna à un groupe de Banu Sarim et de Banu Rabi'a de se rendre à Athafit pour voir quels soldats de son armée étaient restés auprès d'al-Da'am, car, selon le narrateur, cette armée était épuisée et lasse. {cite:sira-hadi-ila-al-haqq p.106} Le narrateur rapporte qu'il apprit que certains d'entre eux s'étaient conseillé de ne pas combattre le fils du Messager de Dieu, et que, pris de court, ils passèrent des paroles aux armes ; certains furent touchés par des flèches et plusieurs de leurs chevaux périrent. {cite:sira-hadi-ila-al-haqq p.106} {cite:sira-hadi-ila-al-haqq p.107} Il entendit également dire qu'al-Da'am jetait des sorts sur ceux qui l'avaient poussé à la guerre contre al-Hadi, c'est-à-dire certains de ses compagnons. {cite:sira-hadi-ila-al-haqq p.107} Ces récits, provenant de personnes non identifiées, sont attribués au narrateur.
+
+## La sortie et la déroute
+Lorsque le groupe d'al-Hadi approcha d'Athafit, l'armée d'al-Da'am les aperçut, les jugea peu nombreux, une centaine d'hommes environ, et se lança à leur poursuite. Les hommes d'al-Hadi se replièrent sur une montagne près d'Athafit, suivis par ceux d'al-Da'am. Les hommes d'al-Hadi tournèrent le dos à la montagne tandis que les crieurs annonçaient la nouvelle à al-Hadi. {cite:sira-hadi-ila-al-haqq p.107} Il envoya un groupe de Banu Sa'd de [[group/khawlan-tribe|Khawlan]], qui se joignirent au combat. Lorsque les hommes d'al-Da'am virent les renforts, raconte le narrateur, Dieu sema la terreur dans leurs cœurs après un violent combat, et les hommes d'al-Hadi les mirent en déroute, à tel point que le narrateur entendit dire que des hommes jetaient leurs armes et les armures de leurs chevaux. {cite:sira-hadi-ila-al-haqq p.107} Ils les repoussèrent dans le village jusqu'à ce que la nuit tombe. D'après le récit d'un narrateur partisan d'al-Hadi, les hommes d'al-Da'am entrèrent dans le village blessés, tandis que ceux d'al-Hadi repartirent sains et saufs et joyeux. {cite:sira-hadi-ila-al-haqq p.107}
+
+## Al-Da'am se rend à Khiwan
+Le matin, al-Hadi envoya des crieurs parmi le peuple, promit une date fixée et décida de camper contre al-Da'am à Athafit ; lorsque cette nouvelle parvint à al-Da'am et qu'il en fut certain, il quitta Athafit pour [[place/khiwan|Khiwan]] le mercredi matin, alors qu'il restait des jours de Dhu al-Qa'da. {cite:sira-hadi-ila-al-haqq p.107} Voir [[event/al-daam-leaves-athafit-for-khiwan-and-the-plunder-of-athafit-285]].
