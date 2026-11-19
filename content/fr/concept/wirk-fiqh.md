@@ -1,0 +1,11 @@
+---
+id: concept/wirk-fiqh
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: draft
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/wirk-fiqh.md}
+---
+## Résumé
+
+Wirk (hanche) dans le lexique, c'est l'articulation entre la cuisse et la jambe ; une personne en a deux, au-dessus des cuisses, et le sens technique ne s'en écarte pas. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17165} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17166} S'asseoir avec la hanche baissée (tawarruk) dans le tashahhud est généralement recommandé. Les Malikis l'appliquent à chaque assise en prière ; les Shafi'is et les Hanbali au tashahhud final ; les Hanbali ne l'appliquent pas aux prières avec un seul tashahhud, telles que les prières de l'aube et du vendredi ; les Hanafis prescrivent l'écartement de la jambe (iftirash) pour les hommes et le tawarruk pour les femmes. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17166} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17167} Les Hanbalis diffèrent sur le tawarruk dans le tashahhud après des prosternations d'oubli ; al-Qadi l'applique dans chacun de ces tashahhud. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17167} Sur la représaille, les juristes s'accordent généralement à dire qu'une coupe de jambe à la racine de la hanche est susceptible de représailles, puisque la coupe égale est possible, une fois les conditions générales de représailles sur les membres remplies. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17167} Sur l'argent du sang pour une coupe à la hanche, il y a un désaccord : la majorité des Malikis, des Hanbalis et d'Abu Yusuf estiment que la totalité de cinquante chameaux s'applique, comme dans le rapport d'Amr ibn Hazm ; Abu Hanifa, Muhammad, les Shafi'is et al-Qadi parmi les Hanbali ajoutent une compensation évaluée pour la partie au-dessus des chevilles à la somme du pied. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17167} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17168} Lorsqu'une jambe est coupée à la cheville puis au genou ou à la hanche, une compensation évaluée est due pour la deuxième coupe par accord. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17168}
