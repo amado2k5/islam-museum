@@ -94,6 +94,10 @@ for ident in ids:
         src, kept, links = protect(text)
         lines.append({"prefix": prefix, "kept": kept, "links": links, "en": text}); srcs.append(src)
     size = sum(len(x) for x in srcs) + 12
+    if a.chars and size > a.chars * 0.4:  # a record this long does not come back whole from Word: set it aside for another route
+        if a.failed:
+            with open(a.failed, "a", encoding="utf-8") as ff: ff.write(f"{ident}\ttoo long for one Word file ({size:,} characters)\n")
+        continue
     if a.chars and records and chars + size > a.chars: break
     chars += size
     for scheme in a.scheme.split(","):
