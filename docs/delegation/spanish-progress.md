@@ -131,6 +131,10 @@ Restore: the 3,528 files are back to their content at `7d509c17a5^` on `release/
 
 Open after the restore: `main` still carries the marks (not touched from this lane); when `release/spanish` reaches `main` the restore goes with it. Parentheses in the Urdu translation on passage pages may display mirrored until the renderer isolates them at render time (not done).
 
+### Root address follows the browser's default language (founder instruction in chat, 19 Nov 2026)
+
+`site/public/shell/shell.js`: at the bare root `/` only, the browser's default language (`navigator.language`) decides: `en`, `ur`, `fr` or `es` go to `/<lang>/`; `ar`, any other language, a crawler, or no JavaScript stay on the Arabic root. Nothing is stored or sent. Risk label: `submission-impacting` in the sense of `docs/ai-change-gates.md` section 3 (it changes what a script does on the page; no cookie, storage, form or network call is added), asked for directly by the founder; the outreach files were not edited. Checked: a table of 13 cases in Node (regions, unsupported languages, deeper paths, a crawler, an empty value), and in a real browser on the dev server (browser language `en-US`: `/` → `/en/`; `/ar/` stays). Known limits: the Arabic root paints for a moment before the redirect, because the script is deferred; a visitor whose browser is in English but who wants Arabic reaches it at `/ar/` or through the header, not at `/`.
+
 ### Held records and English-source defects found while translating
 
 - `event/al-nawawi-ashrafiyya-665`: the same defect (a stray `ur:` line of Urdu and a quotation mark inside the English prose). Not translated.
