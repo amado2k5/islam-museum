@@ -3,11 +3,13 @@ class: person
 label:
   ar: "أبو قتادة الأنصاري"
   en: "Abu Qatada al-Ansari"
+  fr: "Abu Qatada al-Ansari"
 roles: [military]
 gender: male
 summary:
   ar: "بطاقة أولية للحارث بن ربعي أبي قتادة الأنصاري، فارس المدينة ومحدثها من أهل بدر، توفي سنة ٦٥٦م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
   en: "Draft card for al-Harith ibn Rib'i Abu Qatada al-Ansari, the Medinan cavalryman and hadith transmitter of Badr, d. 656; the biographical entry is not yet checked on the page."
+  fr: "Fiche provisoire d'al-Harith ibn Rib'i Abu Qatada al-Ansari, le cavalier médinois et transmetteur de hadith de Badr, m. 656 ; la notice biographique n'a pas encore été vérifiée sur la page."
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era, period/rashidun]
@@ -24,5 +26,5 @@ status:
   review: draft
   completeness: 3
 relations:
-  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam, source/sallabi-ali-vol1, source/taqrib-al-tahdhib, source/assabile-ahmed-abdussalam], confidence: low }
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name ⁦(الأنصاري)⁩; denotes association, not proven residence.", sources: [source/al-aalam, source/sallabi-ali-vol1, source/taqrib-al-tahdhib, source/assabile-ahmed-abdussalam], confidence: low }
 tags: [jinn-devils-browser, jd-dreams]

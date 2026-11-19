@@ -1,0 +1,13 @@
+---
+id: person/abu-abd-allah-al-qalansi
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/abu-abd-allah-al-qalansi.md}
+---
+## Resumen
+Abu Abd Allah al-Qalansi fue fiel a su pacto, y en los peligros la verdad fue su liberación. [[person/abu-nuaym-al-asbahani-ahmad|Abu Nu'aym]] le hace una nota en el décimo volumen de [[work/hilyat-al-awliya|Hilyat al-Awliya]], impreso número 530, secuencia 531, en las páginas 160 y 161. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/160} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/161}
+
+## El voto en el mar
+Abd al-Wahid ibn Bakr relata que Abu Abd Allah al-Qalansi embarcó en un barco en uno de sus viajes, y una tormenta lo azotó. La gente a bordo suplicó, hizo votos y dijo: que cada uno de nosotros haga una promesa a Dios, y tú también hagas un juramento. Dijo: Me he despojado del mundo; ¿qué tengo que ver yo con los votos? Le presionaron, y él dijo: por Dios, si Él me libra de lo que hay, no comeré carne de elefante. Dijeron: ¿qué es este juramento? ¿Alguien come carne de elefante? Dijo: llegó a mi corazón, y Dios lo puso en mi lengua. El barco se rompió, y él y algunos de sus habitantes llegaron a la orilla, y pasaron días sin comer. Entonces nació un elefante; lo agarraron, lo masacraron, comieron su carne y le ofrecieron algo, pero él se negó, citando su juramento; Lo excusaron por motivos de necesidad, pero él se mantuvo fiel al pacto. Comieron y durmieron. La elefanta madre vino a buscar a su ternero y siguió su rastro hasta llegar a los huesos; entonces vino a él, no encontró olor a carne en él, se dio la espalda y le indicó que montara, y lo llevó durante la noche a una tierra de bosque salvaje y oscuridad, donde le indicó que desmontara. Por la mañana vio cultivos, gente oscura, y lo llevaron a su rey, que le preguntó si sabía hasta dónde lo había llevado el animal en una sola noche. Él dijo que no. El rey dijo: ocho días de viaje en una noche. El informe dice que permaneció entre ellos hasta que fue llevado de vuelta y regresado. La nota de la edición en la página 160 dice que el aviso puede ser el anterior en la página 142; esa identidad no está confirmada en el texto ni se afirma aquí. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/160} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/161}

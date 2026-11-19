@@ -7,7 +7,7 @@ summary:
 wings: [people]
 periods: [period/umayyad]
 faith:
-  - { value: sunni, basis: tradition, note: "مترجم في الإصابة بين الصحابة (رقم 8248): ولد مقدم النبي المدينة وعدّه ابن السكن وأبو نعيم وغيرهما في الصحابة، وولي مصر والمغرب لمعاوية ومات بمصر سنة 62هـ؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md) ولا تذكر المصادر المقروءة خلافه.", sources: [source/ibn-hajar-isaba] }
+  - { value: sunni, basis: tradition, note: "مترجم في الإصابة بين الصحابة ⁦(رقم 8248)⁩: ولد مقدم النبي المدينة وعدّه ابن السكن وأبو نعيم وغيرهما في الصحابة، وولي مصر والمغرب لمعاوية ومات بمصر سنة 62هـ؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md) ولا تذكر المصادر المقروءة خلافه.", sources: [source/ibn-hajar-isaba] }
 born: { edtf: "620", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 died: { edtf: "682", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba Agrees with Wikidata Q11938201 (P570, a statement without a reference), item revision 2533365214, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
@@ -15,7 +15,7 @@ relations:
   - { type: participated_in, target: event/founding-of-qayrawan, role: "والي مصر والمغرب وموّلي أبي المهاجر", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 320"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 320"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR; extended by Claude Opus 5.5 (claude-opus-5-5) from Futuh Misr (Amir ed.); faith entry, Urdu label and invention tie added by Copilot SDK in VS Code (model unknown) from al-Isaba p. 1413 no. 8248"
   run: lib-futuh-buldan-batch-21, lib-futuh-misr-batch-3-2026-10-31, inventions-p3-b03
 inventions:

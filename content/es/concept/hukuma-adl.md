@@ -1,0 +1,9 @@
+---
+id: concept/hukuma-adl
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/hukuma-adl.md}
+---
+## Resumen
+Hukuma es léxicamente un sustantivo derivado de hakama y significa refrenar al malhechor. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7235} En jurisprudencia, el hukuma de justicia es la suma fijada por un tasador justo para una herida sin cantidad prescrita, la tasación se basa en el razonamiento del juez o árbitro. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7235} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7236} En principio, toda lesión que no sea mortal sin represalia o compensación fija conlleva un hukuma. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7236} Sus condiciones: la lesión no tiene una compensación fija en la ley, el hukuma no excede la compensación fija del órgano, la tasación se realiza después de la curación y la otorga un juez o árbitro. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7237} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7238} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7239} En cuanto al método, la mayoría valora a la víctima como si fuera un esclavo y toma la pérdida de valor; otros comparan la herida con la lesión más cercana con una suma fija y citan una narración atribuida a Ali para una lesión en la lengua. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7238} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7239} La postura de Maliki sostiene que una herida curada sin cicatriz no conlleva ningún pago más allá de la suma fija, y las heridas con cicatrices en la cabeza y el rostro son objeto de controversia. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7240}

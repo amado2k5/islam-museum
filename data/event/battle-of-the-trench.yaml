@@ -1,17 +1,18 @@
 id: event/battle-of-the-trench
 class: event
 kind: siege
-label: { en: "The Battle of the Trench (al-Ahzab)", ar: "غزوة الأحزاب ⁦(الخندق)⁩" }
+label: { en: "The Battle of the Trench (al-Ahzab)", ar: "غزوة الأحزاب ⁦(الخندق)⁩", fr: "La bataille du Fossé (al-Ahzab)" }
 summary:
   ar: "غزوة الخندق حصار ضربه على المدينة تحالف تقوده قريش في السنة الخامسة للهجرة، وقد حفر المسلمون خندقاً في الجهات المكشوفة من الواحة فأوقف فرسان المهاجمين. وتذكر رواية السيرة شهراً من الحصار وحيلة نعيم بن مسعود وريحاً شديدة في الليل، أما دائرة المعارف الإسلامية فتؤرخها بذي القعدة سنة 5هـ، أبريل 627م، وتتحدث عن نحو عشرة آلاف رجل وأسبوعين قليلي القتال. وبعدها حاصر النبي بني قريظة، ويعدّ المقال الأكاديمي إخفاق الحصار نقطة تحول في السيرة."
   en: "The Battle of the Trench was the siege of Medina by a Quraysh-led confederacy in the fifth year of the Hijra; the Muslims dug a trench across the exposed parts of the oasis and it stopped the attackers' cavalry. The sira tradition tells of a siege of about a month, Nu'aym ibn Mas'ud's stratagem and a violent night wind, while the Encyclopaedia of Islam dates it to Dhu al-Qa'da 5, April 627, with about 10,000 men and a fortnight of little fighting. The Prophet then besieged Banu Qurayza, and the Encyclopaedia counts the failure of the siege among the main turning points of Muhammad's life."
   ur: "غزوۂ خندق ہجرت کے پانچویں سال قریش کی قیادت میں بننے والے اتحاد کا مدینہ کا محاصرہ تھا؛ مسلمانوں نے نخلستان کے کھلے حصوں میں خندق کھودی جس نے حملہ آوروں کے سواروں کو روک دیا۔ سیرت کی روایت تقریباً ایک ماہ کے محاصرے، نعیم بن مسعود کی تدبیر اور رات کی تیز آندھی کا ذکر کرتی ہے، جبکہ انسائیکلوپیڈیا آف اسلام اسے ذوالقعدہ 5ھ، اپریل 627ء کا بتاتا ہے، تقریباً دس ہزار آدمیوں اور کم لڑائی والے دو ہفتوں کے ساتھ۔ اس کے بعد نبی نے بنو قریظہ کا محاصرہ کیا، اور انسائیکلوپیڈیا محاصرے کی ناکامی کو محمد کی زندگی کے اہم موڑوں میں شمار کرتا ہے۔"
+  fr: "La bataille du Fossé fut le siège de Médine par une confédération menée par les Quraysh, en la cinquième année de l'hégire ; les musulmans creusèrent un fossé à travers les parties exposées de l'oasis, et il arrêta la cavalerie des assaillants. La tradition de la sira parle d'un siège d'environ un mois, du stratagème de Nu'aym ibn Mas'ud et d'un vent nocturne violent, tandis que l'Encyclopédie de l'Islam la date de Dhu al-Qa'da 5, avril 627, avec environ 10 000 hommes et une quinzaine de jours de combats limités. Le Prophète assiégea ensuite les Banu Qurayza, et l'Encyclopédie compte l'échec du siège parmi les principaux tournants de la vie de Muhammad."
 wings: [time]
 themes: [battles, wars-and-campaigns]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0627-02~", hijri: "0005-10", calendar: julian, precision: month, status: tradition, note: "شوال سنة 5هـ (فبراير 627م) واستمر الحصار نحو شهر حتى أوائل ذي القعدة (الرحيق ص301–314)." }
+  start: { edtf: "0627-02~", hijri: "0005-10", calendar: julian, precision: month, status: tradition, note: "شوال سنة 5هـ ⁦(فبراير 627م)⁩ واستمر الحصار نحو شهر حتى أوائل ذي القعدة ⁦(الرحيق ص301–314)⁩." }
 relations:
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: person/muhammad, role: "القائد العام للمسلمين والمشارك في حفر الخندق وضرب الصخور", sources: [source/mubarakpuri-raheeq, source/mubarakpuri-raheeq, source/sahih-al-bukhari] }

@@ -15,10 +15,10 @@ themes: [converts-and-leavers, literature]
 periods: [period/prophetic-era, period/rashidun]
 regions: [arabia]
 story_roles:
-  - { role: convert, start: { edtf: "0631~" }, status: tradition, note: "أسلم مع وفد بني تميم (ابن هشام ص212).", sources: [source/ibn-hisham-saqqa] }
-  - { role: poet, status: tradition, note: "هجا قيس بن عاصم ببيتين (ابن هشام ص213).", sources: [source/ibn-hisham-saqqa] }
+  - { role: convert, start: { edtf: "0631~" }, status: tradition, note: "أسلم مع وفد بني تميم ⁦(ابن هشام ص212)⁩.", sources: [source/ibn-hisham-saqqa] }
+  - { role: poet, status: tradition, note: "هجا قيس بن عاصم ببيتين ⁦(ابن هشام ص213)⁩.", sources: [source/ibn-hisham-saqqa] }
 faith:
-  - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "أسلم مع وفد بني تميم (ابن هشام ص212).", sources: [source/ibn-hisham-saqqa] }
+  - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "أسلم مع وفد بني تميم ⁦(ابن هشام ص212)⁩.", sources: [source/ibn-hisham-saqqa] }
 died: { edtf: "677~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/rayshahr, note: "From text: of the Rayshahr", sources: [source/futuh-buldan-maarif-1407, source/ibn-hisham-saqqa, source/mustadrak-ilmiyya-ata-v3], confidence: low }
@@ -31,7 +31,7 @@ sources: [source/futuh-buldan-maarif-1407, source/ibn-hisham-saqqa, source/musta
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High) from Futuh al-Buldan; extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 206-213; enriched by Claude Code (OCR-harvest worker A), claude-opus-5-5, run ocr-harvest-2026-11-04, from al-Mustadrak (Dar al-Kutub al-'Ilmiyya, ed. 'Ata) vol. 3 pp. 710-711" }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ) ص408؛ سيرة ابن هشام (السقا 1936) ج4 ص206-213"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ)⁩ ص408؛ سيرة ابن هشام ⁦(السقا 1936)⁩ ج4 ص206-213"
   generated_by: "Devin (SWE-2 High); extended by Claude Code"
   model: "claude-fable-5-1"
   run: "ibn-hisham-batch-8a"

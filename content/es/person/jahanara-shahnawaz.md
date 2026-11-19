@@ -1,0 +1,24 @@
+---
+id: person/jahanara-shahnawaz
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/jahanara-shahnawaz.md}
+---
+# Jahanara Shahnawaz
+
+## Resumen
+Jahanara Shahnawaz (7 de abril de 1896 – 27 de noviembre de 1979) fue una política, activista y escritora paquistaní de Lahore, hija de Sir Muhammad Shafi, el destacado abogado y político de la familia Mian de Baghbanpura. {cite:wikipedia-jahanara-shahnawaz-en} {cite:wikipedia-jahanara-shahnawaz-ur} Fue una de las primeras mujeres en la Asamblea Legislativa de Punjab (1937) y la primera mujer en Asia en presidir una sesión legislativa; fundó la Liga Provincial de Mujeres Musulmanas de Punjab en 1935 y fue miembro fundadora y vicepresidenta de la Asociación de Mujeres de Toda Pakistán (APWA). {cite:wikipedia-jahanara-shahnawaz-en} {cite:wikipedia-jahanara-shahnawaz-ur}
+
+## Familia y educación
+Jahanara nació en Lahore el 7 de abril de 1896, según lo indican el artículo en inglés y Wikidata; el artículo en urdu indica el 7 de abril de 1897 en Baghbanpura, Lahore, y la discrepancia se conserva en su registro. {cite:wikipedia-jahanara-shahnawaz-en} {cite:wikipedia-jahanara-shahnawaz-ur} {cite:wikidata-jahanara-shahnawaz} Estudió en Queen Mary College, Lahore, y se casó con Mian Shah Nawaz en 1911 según el artículo en inglés (el artículo en urdu dice 1914). {cite:wikipedia-jahanara-shahnawaz-en} {cite:wikipedia-jahanara-shahnawaz-ur} Ninguna fuente consultada menciona su religión o escuela — Wikidata no aporta ningún valor religioso para ella — por lo que su escuela no figura aquí, aunque su trabajo se realizó a través de organizaciones musulmanas; la pertenencia organizativa no es una acreditación escolar. {cite:wikipedia-jahanara-shahnawaz-en} {cite:wikipedia-jahanara-shahnawaz-ur} {cite:wikidata-jahanara-shahnawaz}
+
+## Carrera política
+En 1918 Jahanara logró que la Conferencia de Mujeres Musulmanas de toda la India aprobara una resolución contra la poligamia. {cite:wikipedia-jahanara-shahnawaz-en} En la Conferencia de la Mesa Redonda de 1930, ella y Radhabai Subbarayan fueron las únicas dos integrantes de organizaciones de mujeres nominadas; defendieron sin éxito una reserva del 5 por ciento para las mujeres en las legislaturas. {cite:wikipedia-jahanara-shahnawaz-en} En 1935 fundó la Liga Provincial de Mujeres de Punjab; en 1937 fue elegida para la Asamblea Legislativa de Punjab y nombrada secretaria parlamentaria de Educación, Ayuda Médica y Salud Pública. {cite:wikipedia-jahanara-shahnawaz-en} Nombrada por el gobierno de la India para el Consejo de Defensa Nacional en 1942, rechazó la instrucción de la Liga Musulmana de dimitir y fue apartada de la Liga; se reincorporó en 1946, fue elegida para la Asamblea Central Constituyente y fue arrestada junto con otros líderes de la Liga durante el movimiento de desobediencia civil de Punjab en 1947. {cite:wikipedia-jahanara-shahnawaz-en} Formó parte de la Asamblea Constituyente de Pakistán de 1947 a 1954. {cite:wikipedia-jahanara-shahnawaz-en} En 1948 lideró una protesta de miles de mujeres en las calles de Lahore contra la eliminación de la orden del día de un proyecto de ley de oportunidades económicas para mujeres; El primer ministro Liaquat Ali Khan intervino y se aprobó la Ley Personal Musulmana de la Shariat de 1948, reconociendo legalmente el derecho de la mujer a heredar propiedades, incluidas tierras agrícolas. {cite:wikipedia-jahanara-shahnawaz-en} Fue miembro fundadora y vicepresidenta de APWA, y presidenta de la rama provincial de la Conferencia de Mujeres Musulmanas de toda la India durante siete años. {cite:wikipedia-jahanara-shahnawaz-ur} {cite:wikipedia-jahanara-shahnawaz-en}
+
+## Escritos, muerte y legado
+Jahanara escribió una novela, Husn Ara Begum, y sus memorias políticas Father and Daughter: a political autobiography (Lahore, 1971; Oxford University Press edición, 2002), y escribió para revistas femeninas y literarias. {cite:wikipedia-jahanara-shahnawaz-en} {cite:wikipedia-jahanara-shahnawaz-ur} Murió en Lahore el 27 de noviembre de 1979 y fue enterrada en el cementerio familiar de Baghbanpura junto a su marido. {cite:wikipedia-jahanara-shahnawaz-en} {cite:wikipedia-jahanara-shahnawaz-ur} Entre sus hijos se encontraban Mumtaz Shahnawaz, que murió en un accidente de avión en 1948 de camino a representar a Pakistán en las Naciones Unidas, y Nasim Jahan, que más tarde sería político del Partido Popular de Pakistán. {cite:wikipedia-jahanara-shahnawaz-en}
+
+## Fuentes
+- Las entidades fuente definidas citadas anteriormente, registradas en `data/source/`.
+- Las revisiones de este artículo deben estar fechadas y deben indicar la fuente que modificó cada hecho.

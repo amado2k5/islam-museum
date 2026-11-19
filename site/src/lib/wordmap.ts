@@ -8,7 +8,7 @@ export interface WordForm { form: string; count: number; refs: WordRef[] }
 export interface WordColloc { after: string; phrase: string; count: number; refs: WordRef[] }
 export interface WordMapFile {
   slug: string; word: string;
-  title: { ar: string; en: string; ur?: string };
+  title: { ar: string; en: string; ur?: string; fr?: string };
   total: number;
   forms: WordForm[];
   collocations: WordColloc[];

@@ -10,7 +10,7 @@ const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const t = T.storycards;
 const stories = listStoryCards();
-const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
+const L = (x: { ar: string; en: string; ur?: string; fr?: string }) => (x[lang] ?? x.ar);
 const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
 const bandHref = `/${lang}/sighar/storytellers/`;
 const bandName = T.kids.band_storytellers ?? "Storytellers";

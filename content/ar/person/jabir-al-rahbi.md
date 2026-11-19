@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b76, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/166-167" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b76, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/166-167" }
 ---
 ## موجز
 جابر الرحبي، له الأحوال الرقيقة والألطاف البديعة. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 543)⁩ في الصفحتين 166 و167، وتسلسله 544. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/166} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/167}

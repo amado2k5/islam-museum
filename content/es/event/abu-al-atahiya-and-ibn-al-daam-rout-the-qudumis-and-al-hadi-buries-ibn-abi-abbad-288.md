@@ -1,0 +1,12 @@
+---
+id: event/abu-al-atahiya-and-ibn-al-daam-rout-the-qudumis-and-al-hadi-buries-ibn-abi-abbad-288
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/abu-al-atahiya-and-ibn-al-daam-rout-the-qudumis-and-al-hadi-buries-ibn-abi-abbad-288.md}
+---
+## Visión general
+Uno de los compañeros de Ibn Abi Abbad se escabulló cuando los hombres entraron en Shibam, subió a la montaña y le dijo a [[person/al-hadi-yahya-al-rassi|al-Hadi]] que habían llegado; al-Hadi ordenó a [[person/abu-al-atahiya-ibn-bishr|Abu al-Atahiya]] y [[person/muhammad-ibn-al-daam|Muhammad ibn al-Da'am]] que bajaran a luchar contra ellos, y bajaron con un cuerpo del ejército y se dividieron para encontrarse con los hombres por dos rutas {cite:sira-hadi-ila-al-haqq p.218}. Cuando los hombres vieron a Abu al-Atahiya y Muhammad ibn al-Da'am, huyeron de Shibam y fueron perseguidos, y muchos de ellos murieron, mientras que el resto se aferró a las cimas de las montañas {cite:sira-hadi-ila-al-haqq p.218} {cite:sira-hadi-ila-al-haqq p.219}. Los dos regresaron a Shibam y pasaron la noche allí, y al-Hadi la pasó en la montaña de [[place/bayt-dhukhar|Bayt Dhukhar]]; por la mañana bajó y enterró a Ibn Abi Abbad {cite:sira-hadi-ila-al-haqq p.219}. El narrador dice que le llegó de Abu al-Atahiya que al-Hadi dijo mientras lo enterraba: «Ojalá hubiera estado contigo y hubiera muerto como mártir; que Dios me conceda lo que te concedió a ti» {cite:sira-hadi-ila-al-haqq p.219}. Entonces Abu al-Atahiya subió a la montaña y se quedó allí, y al-Hadi se quedó en Shibam {cite:sira-hadi-ila-al-haqq p.219}.
+
+## Detalle
+La frase del informe dice, con los guiones de la impresión, que al-Hadi es el orador y Abu al-Atahiya la fuente del informe; el museo lo toma así del contexto. Las palabras son de al-Hadi tal como las recibió el narrador, no un juicio del museo sobre el estado de Ibn Abi Abbad. El entierro concuerda con [[event/revolt-at-shibam-ibn-abbad-killed-288|el relato de las páginas añadidas]], que al-Hadi bajó y lo enterró, y no hay conflicto entre ambos. No se dan números para los muertos. Sigue [[event/the-qudumis-enter-shibam-break-the-prison-and-ibn-abi-abbad-is-killed-288]].

@@ -1,0 +1,9 @@
+---
+id: concept/awar-one-eyed
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/awar-one-eyed.md}
+---
+## Résumé
+L’« awar » désigne la perte de la vue d’un œil ; les juristes emploient ce terme dans son sens littéral {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11908}. Il se distingue de l’« asha », la cécité nocturne, de l’« amash », une vision faible accompagnée de larmoiement, du « hawal », le strabisme, et de l’« ama », la cécité des deux yeux {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11909}. Un animal borgne n’est pas admissible au sacrifice si son œil est arraché, bien que les Hanafites l’autorisent si son œil est seulement blanc et qu’il voit encore {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11909} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11910}. La perte d’un œil n’entraîne pas l’annulation du mariage, sauf si l’un des époux a stipulé qu’il était valide {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11910}. Un esclave borgne peut être affranchi en guise d’expiation, à la majorité {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11911}. En cas de blessure infligée à une personne valide par un homme borgne, les avis divergent : les Hanafites et les Shafi’ites exigent le paiement intégral du prix du sang, les Hanbalites la moitié, et les Malikites laissent le choix à la victime {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11911} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11912}. Les Hanafites et les Shafi'ites autorisent la vengeance sur l'œil sain d'une personne qui aveugle le seul œil sain d'un borgne, tandis que les Malikites donnent le choix entre la vengeance et le prix du sang {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11912}.

@@ -1,0 +1,24 @@
+---
+id: concept/adam-before-adam-in-later-readings
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/adam-before-adam-in-later-readings.md}
+---
+## Donde aparece esto
+[[passage/quran-4-1|al-Nisa 4:1]] dice que Dios creó a las personas a partir de una sola alma. En este versículo, Tafsir al-Manar, dictado por Muhammad Abduh y escrito por Rashid Rida, examina si todas las personas descienden del Adán de la tradición. Informa que algunos investigadores sostienen que cada tipo de humano tiene su propio padre, y afirma que «Oh hijos de Adán» no entra en conflicto con esto, ya que basta con que la dirección sea dirigida a aquellos que eran descendientes de Adán en el momento de la revelación. Añade que se dijo antes, en el comentario sobre la historia de Adán al comienzo de al-Baqara, que antes de él había en la tierra una especie de este género que la corrompió y derramó sangre. {cite:tafsir-manar-v04 p. 264} Este texto es mi única base aquí; es una obra secundaria moderna, por lo que atribuyo a Ibn Arabi y a otros solo lo que Rashid Rida transmite de ellos.
+
+## Lo que al-Manar transmite de los Imamis y los sufíes
+Rashid Rida toma de Ruh al-Ma'ani de al-Alusi que se dice que los Imamis y los sufíes hablaron de muchos Adams antes del Adán conocido por el Pueblo del Libro. Da al autor Imami de Jami' al-Akhbar como relato de que Dios creó treinta Adams antes que Adam, mil años entre cada uno, y que el mundo fue devastado durante cincuenta mil años y luego fue colonizado durante cincuenta mil; Ibn Babawayh en al-Tawhid de al-Sadiq, que Dios creó un millón de Adams; y Maytham en su comentario sobre Nahj al-Balagha, de Muhammad al-Baqir, que un millón o más Adams pasaron antes que nuestro Adam. {cite:tafsir-manar-v04 p. 264} Luego: «el Mayor Shaykh» en el Futuhat dijo algo que a simple vista implica otro Adán cuarenta mil años antes que Adán, y hay otras afirmaciones al respecto en el Futuhat y en otros lugares; también señala que Zayn al-Arab declaró incrédulo a quien afirma a varios Adams, lo cual Rashid Rida rechaza como takfir temerario. {cite:tafsir-manar-v04 pp. 264-265} Considero que el "Mayor Shaykh" es Ibn Arabi, según se entiende su uso, pero no leí el Futuhat ni consulté ningún estudio académico como el de William Chittick, así que no digo qué quiso decir Ibn Arabi.
+
+## La opinión de Muhammad Abduh según lo relata Rashid Rida
+Rashid Rida dice que su maestro tenía dos opiniones: que el sentido puro del versículo resiste que el alma única sea Adán, padre de todos los humanos o no; y que el Corán no tiene un texto decisivo que diga que todos los humanos desciendan de Adán, siendo "humano" aquí el animal parlante y erguido llamado hombre. Desde esta perspectiva, lo que dicen los investigadores sobre varios orígenes de la humanidad no contradice el Corán. Rashid Rida insiste en que esto no impide que quien cree que Adán es padre de todos lo crea, y que Abduh nunca dijo que el Corán lo niega. {cite:tafsir-manar-v04 p. 265} Antes de esto, recuerda lo que al-Razi dio en al-A'raf 189: tres lecturas del alma única, una parábola (de al-Qaffal), Quraysh con Qusayy como alma, o Adán. {cite:tafsir-manar-v04 p. 264}
+
+:::perspectives
+- **Informes sufíes e imami, según se relatan en al-Manar:** varios Adams anteriores a Adam, con números diferentes en los relatos, entre ellos lo que se atribuye a Ibn Arabi. {cite:tafsir-manar-v04 pp. 264-265}
+- **Exegetas de mayoría suníes en el versículo:** el alma única es Adán, padre de la humanidad; para Rashid Rida esto es algo dado por hecho entre la mayoría y no algo que el verso explicite. {cite:tafsir-manar-v04 p. 264}
+- **Visión moderna, Muhammad Abduh:** El Corán no tiene un texto decisivo que indique que todos los humanos descienden de Adán; un creyente puede seguir considerando a Adán como el padre de todos. {cite:tafsir-manar-v04 p. 265}
+:::
+
+## Lo que no digo
+No doy veredicto alguno sobre estas opiniones ni las atribuyo a la tradición suní en general. No encontré ninguna otra fuente verificada para los debates de escritores musulmanes modernos sobre "antes de Adán" más allá de al-Manar, así que no añado nombres que no haya comprobado. El informe de Ibn Abbas sobre tierras, cada una con su propio Adán, pertenece al registro sobre las siete tierras, que no leí aquí. Para contextualizar: [[concept/earth-before-adam|quién poseía la tierra antes que]] Adán, [[question/who-lived-on-earth-before-adam|la pregunta relacionada]], [[person/ibn-arabi-muhyi-al-din|Ibn Arabi]], [[person/rashid-rida|Rashid Rida]], [[person/muhammad-abduh|Muhammad Abduh]].

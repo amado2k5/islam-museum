@@ -13,7 +13,7 @@ provenance:
   translator_of: content/ar/concept/bijapur-painting.md
 ---
 ## خلاصہ
-مارک زیبروسکی کے نزدیک [[person/ali-adil-shah-i|علی عادل شاہ اول]] (1557–79ء) سے پہلے کی کوئی تصویر بیجاپور سے منسوب نہیں کی جا سکتی؛ ان کے دور کے اہم ترین کام 978ھ/1570–71ء کی [[work/nujum-al-ulum|نجوم العلوم]] اور دکنی اردو میں [[work/javahir-al-musiqat-i-muhammadi|جواہر الموسیقات]] میں ہیں۔ {cite:zebrowski-deccani-painting-1983 p. 59} {cite:zebrowski-deccani-painting-1983 p. 60} {cite:zebrowski-deccani-painting-1983 p. 62}
+مارک زیبروسکی کے نزدیک [[person/ali-adil-shah-i|علی عادل شاہ اول]] ⁦(1557–79ء)⁩ سے پہلے کی کوئی تصویر بیجاپور سے منسوب نہیں کی جا سکتی؛ ان کے دور کے اہم ترین کام 978ھ/1570–71ء کی [[work/nujum-al-ulum|نجوم العلوم]] اور دکنی اردو میں [[work/javahir-al-musiqat-i-muhammadi|جواہر الموسیقات]] میں ہیں۔ {cite:zebrowski-deccani-painting-1983 p. 59} {cite:zebrowski-deccani-painting-1983 p. 60} {cite:zebrowski-deccani-painting-1983 p. 62}
 
 ## ابراہیم دوم کے دور میں عروج
 [[person/ibrahim-adil-shah-ii|ابراہیم عادل شاہ دوم]] دکن کے سب سے بڑے سرپرستِ فن تھے، اور ان کے دور میں بیجاپوری مصوری یکایک شاندار پختگی کے ساتھ ابھری، جس کے بہترین کام بہترین مغل اور صفوی تصاویر کے ہم پلہ ہیں۔ {cite:zebrowski-deccani-painting-1983 p. 66} مصنف چار گمنام استادوں کو ان کے شاہکاروں کے مقام سے پکارتے ہیں: ابراہیم کے جلوس والے بیکانیر مصور، «درویش ایک ملاقاتی کا استقبال کرتے ہوئے» والے بوڈلین مصور، لینن گراڈ مصور — جنہیں وہ [[person/farrukh-husain|فرخ حسین]] سمجھتے ہیں — اور ڈبلن مصور۔ بیجاپوری مصوری اتنی مشہور تھی کہ فرخ بیگ اور محمد علی جیسے مغل مصوروں نے جہانگیر کے لیے اس کے انداز کی نقل کی۔ {cite:zebrowski-deccani-painting-1983 p. 12}

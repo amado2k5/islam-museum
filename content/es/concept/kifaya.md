@@ -1,0 +1,28 @@
+---
+id: concept/kifaya
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/kifaya.md}
+---
+## Resumen
+En el léxico, kifaya es lo que aporta independencia de los demás; uno dice que se bastó con una cosa, y kafaf es la medida de la necesidad sin exceso ni falta {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13376} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13377}. En la terminología tiene tres sentidos: los actos importantes que el legislador quiere que se realicen sin importar quién los realize, que son obligaciones colectivas; la aptitud de una persona para los deberes públicos; y satisfacer las necesidades esenciales de uno hasta el nivel de su condición {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13376}.
+
+## Obligaciones colectivas y actos colectivos recomendados
+Una obligación colectiva es un asunto general importante con beneficio religioso o mundano, destinado a ser realizado por suficientes personas, no por cada una; una vez que algunos la han hecho, el resto queda excusado. Se diferencia de una obligación personal, cuyo beneficio se repite con cada actuación y termina cuando algunos la realizan {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13377} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13378}. Los actos colectivos recomendados incluyen el saludo a un grupo y la bendición de un estornudado {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13378}.
+
+## Los beneficios compensados por la suficiencia
+Los beneficios religiosos incluyen el aprendizaje, memorizar el Corán y la Sunna, el culto público, la yihad y la promoción del bien; los materiales incluyen aprender oficios y la agricultura; los compartidos incluyen dar y dar testimonio, acoger a un niño expósito, visitar a los enfermos, lavar, velar, rezar sobre los muertos y enterrarlos, y ocupar cargos públicos {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13379} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13380} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13381}. Dar testimonio es una obligación colectiva cuando hay muchos testigos disponibles y una obligación personal cuando solo hay uno {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13379} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13380}.
+
+## Nombramiento del imán y de los cargos públicos
+El nombramiento del imán es una obligación colectiva por acuerdo de las escuelas; quienes eligen al gobernante, y quienes estén cualificados para el cargo, lo desempeñan en nombre de la comunidad, y lo mismo se aplica a otros cargos públicos {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13382} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13383}.
+
+## Suficiencia de individuos
+La suficiencia de una persona son sus necesidades esenciales; primero la deben él mismo, luego sus parientes y después los musulmanes {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13382}. Un hombre rico o capaz de trabajar debe cubrir sus propias necesidades y no recibe zakat {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13383}. La manutención que se debe a un familiar es la suficiencia adecuada a su condición; la manutención de una esposa se mide por la suficiencia, y los Shafi'is fijan medidas de alimento según la riqueza y la pobreza {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13383} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13384}.
+
+## Formas de proporcionar suficiencia
+El zakat puede proporcionarlo: los hanafis dan a un hombre pobre menos que el nisab, mientras que los Malikis y una narración hanbali dan suficiente para un año. Los pobres que no pueden aceptar el zakat son pagados con el tesoro público, y el gobernante puede imponer impuestos a los ricos para las necesidades públicas {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13384}.
+
+## El nivel de suficiencia en el al-Dawr al-Tawzi'i li-l-Milkiyya de al-Tahir Qana
+
+[[person/al-tahir-qana|Al-Tahir Qana]] hace de la provisión del nivel de suficiencia (hadd al-kifaya), no de la mera subsistencia (hadd al-kafaf), el objetivo de la redistribución en la economía islámica. Fundamenta las necesidades en la división de los objetivos de la ley en necesidades, necesidades y refinamientos, y trata las dos primeras como las necesidades básicas sobre las que se evalúa el mantenimiento: comida, bebida y atención médica, ropa, vivienda, un sirviente para discapacitados y enfermos, matrimonio, mantenimiento de la esposa y los hijos, y las necesidades de los estudiantes de conocimientos. {cite:dawr-tawzii-milkiyya-qana-2007 p.151} {cite:dawr-tawzii-milkiyya-qana-2007 p.152} Contrasta el nivel de subsistencia utilizado por la economía capitalista y socialista — lo que mantiene viva a una persona y satisface las necesidades básicas — con el nivel de suficiencia, que para él significa una vida digna y un confort moderado, hasta el nivel de riqueza habitual en la sociedad; cita el hadiz de al-Mustawrid ibn Shaddad según el cual quien trabaje para el Estado puede adquirir una esposa, un sirviente y una casa. {cite:dawr-tawzii-milkiyya-qana-2007 p.153} Cita a al-Mawardi que dice que a un recolector de zakat se le otorga lo que le saca de la pobreza al rango más bajo de riqueza según sus circunstancias, y reporta el desacuerdo de los juristas sobre cuánto se le da: suficiencia para toda la vida, para un año — según el informe de que el Profeta reservó un año de provisión para su familia — o para un día. {cite:dawr-tawzii-milkiyya-qana-2007 p.154} La carga de asegurar la suficiencia, sostiene, es compartida entre bienes privados, públicos y estatales, cada uno dentro de su propio ámbito. {cite:dawr-tawzii-milkiyya-qana-2007 p.155}

@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0640-10~", hijri: "0019-10", calendar: julian, precision: month, status: tradition, derived: true, note: "شوال 19هـ عند الواقدي وهو الأثبت؛ قيل أول سنة 20 (البلاذري ص 192، 194). التحويل مشتق." }
+  start: { edtf: "0640-10~", hijri: "0019-10", calendar: julian, precision: month, status: tradition, derived: true, note: "شوال 19هـ عند الواقدي وهو الأثبت؛ قيل أول سنة 20 ⁦(البلاذري ص 192، 194)⁩. التحويل مشتق." }
 relations:
   - { type: part_of, target: event/conquest-of-syria }
   - { type: occurred_at, target: place/qaysariyya }
@@ -20,7 +20,7 @@ relations:
   - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 191–194"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 191–194"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-10
 sides:

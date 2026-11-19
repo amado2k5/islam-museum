@@ -1,0 +1,12 @@
+---
+id: event/banu-al-harith-ask-safety-and-al-hadis-verse-on-the-last-killing-286
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/banu-al-harith-ask-safety-and-al-hadis-verse-on-the-last-killing-286.md}
+---
+## Visión general
+[[group/banu-al-harith-ibn-kab|Banu al-Harith]] envió a [[person/al-hadi-yahya-al-rassi|al-Hadi]] hombres de entre sus partidarios para pedir protección para ellos, y él se la concedió, y entraron en la aldea y comerciaron. {cite:sira-hadi-ila-al-haqq p.187} [[person/abdullah-ibn-bustam|Ibn Bustam]] había huido a la tierra de [[group/shakir-hamdan-tribe|Shakir]] y se quedó allí; algunos de los partidarios de al-Hadi pidieron protección para él, pero a al-Hadi no le gustó, e Ibn Bustam se quedó en la tierra de Shakir durante un tiempo, humillado y abatido en palabras del narrador, y escribió a [[person/al-daam-ibn-ibrahim|al-Da'am]] pidiéndole que escribiera a al-Hadi para que le diera protección. {cite:sira-hadi-ila-al-haqq p.187}
+
+## Detalle
+Al-Hadi compuso un verso sobre el último asesinato. {cite:sira-hadi-ila-al-haqq p.187} {cite:sira-hadi-ila-al-haqq p.188} En él dice que se levantó por el derecho de Dios, golpeando y empujando, que su justicia se mostró en todas las ciudades, que perdonó al que erró y le dio una excusa clara para que su perdón los corrompiera, que no le reprocharon nada excepto que los llamó a lo que fue revelado en las suras, que la luz de Dios es brillante y Su mandato claro, que de la gente que pensaba de otra manera a algunos les partieron el cráneo en la aldea de al-Hajar y otros huyeron humillados, y le dice a uno que no asistió que su recompensa está debida por su disposición y la alegría de su corazón, y termina con buenas noticias de la ayuda de Dios. El verso también reprocha a un hombre que no mostró agradecimiento por la bondad que se le hizo, cuyo nombre el museo no menciona. Estas son las propias líneas del imán, con su juicio sobre sus oponentes; su sentido se da y no se cita ninguna línea. Está ubicado en [[place/al-hajar-najran|al-Hajar]]. Siguiente: [[event/ibn-bustam-is-given-safety-and-al-hadi-leaves-najran-for-saada-287]].

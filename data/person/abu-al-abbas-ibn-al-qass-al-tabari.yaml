@@ -1,23 +1,24 @@
 id: person/abu-al-abbas-ibn-al-qass-al-tabari
 class: person
-label: { ar: "أبو العباس ابن القاص الطبري", en: "Abu al-Abbas ibn al-Qass al-Tabari" }
+label: { ar: "أبو العباس ابن القاص الطبري", en: "Abu al-Abbas ibn al-Qass al-Tabari", fr: "Abu al-Abbas ibn al-Qass al-Tabari" }
 names:
   - { kind: full, lang: ar, value: "أبو العباس أحمد بن أبي أحمد المعروف بابن القاص الطبري" }
 gender: male
 roles: [jurist]
 traditions: [sunni]
-died: { hijri: "0335", edtf: "0947~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات بطرسوس سنة خمس وثلاثين وثلاثمائة (PDF ص58).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+died: { hijri: "0335", edtf: "0947~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات بطرسوس سنة خمس وثلاثين وثلاثمائة ⁦(PDF ص58)⁩.", sources: [source/tabaqat-fuqaha-abbas-1981] }
 summary:
   ar: "أبو العباس أحمد بن أبي أحمد المعروف بابن القاص الطبري، صاحب أبي العباس بن سريج، مات بطرسوس سنة خمس وثلاثين وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 58}. وكان من أئمة أصحابنا، وصنف المصنفات الكثيرة، منها «المفتاح» و«أدب القاضي» و«المواقيت» و«التلخيص» الذي شرحه أبو عبد الله ختن الإسماعيلي {cite:tabaqat-fuqaha-abbas-1981 p. 58}. وعنه أخذ الفقه أهل طبرستان {cite:tabaqat-fuqaha-abbas-1981 p. 58}."
   en: "Abu al-Abbas Ahmad ibn Abi Ahmad, known as Ibn al-Qass al-Tabari, a disciple of Abu al-Abbas ibn Surayj. He died at Tarsus in 335 {cite:tabaqat-fuqaha-abbas-1981 p. 58}. He was one of the leading imams of 'our companions' (the Shafi'i school) and wrote many works, among them al-Miftah, Adab al-Qadi, al-Mawaqit and al-Talkhis, which was commented on by Abu Abdallah, son-in-law of al-Isma'ili {cite:tabaqat-fuqaha-abbas-1981 p. 58}. The people of Tabaristan took jurisprudence from him {cite:tabaqat-fuqaha-abbas-1981 p. 58}."
+  fr: "Abu al-Abbas Ahmad ibn Abi Ahmad, connu sous le nom d'Ibn al-Qass al-Tabari, disciple d'Abu al-Abbas ibn Surayj. Il mourut à Tarse en 335 {cite:tabaqat-fuqaha-abbas-1981 p. 58}. Il fut l'un des principaux imams de « nos compagnons » (l'école shafi'ite) et écrivit de nombreux ouvrages, parmi lesquels al-Miftah, Adab al-Qadi, al-Mawaqit et al-Talkhis, que commenta Abu Abdallah, gendre d'al-Isma'ili {cite:tabaqat-fuqaha-abbas-1981 p. 58}. Les gens du Tabaristan reçurent de lui la jurisprudence {cite:tabaqat-fuqaha-abbas-1981 p. 58}."
 wings: [people]
 relations:
   - { type: died_in, target: place/tarsus, note: "From text: died at Tarsus", sources: [source/tabaqat-fuqaha-abbas-1981] }
-  - { type: student_of, target: person/ahmad-ibn-umar-ibn-surayj, role: "صاحب أبي العباس بن سريج (PDF ص58)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: student_of, target: person/ahmad-ibn-umar-ibn-surayj, role: "صاحب أبي العباس بن سريج ⁦(PDF ص58)⁩", sources: [source/tabaqat-fuqaha-abbas-1981] }
 sources: [source/tabaqat-fuqaha-abbas-1981]
 provenance:
   layer: "own-research"
-  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58"
+  source: "طبقات الفقهاء ⁦(تحقيق إحسان عباس)⁩ PDF ص54–58"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch107

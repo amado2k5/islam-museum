@@ -1,0 +1,12 @@
+---
+id: place/fes
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/fes.md}
+---
+## Vue d'ensemble
+Fès est l'une des villes et capitales du Maghreb. Uthman ibn Abd al-Haqq al-Marini y imposa un impôt fixe en échange de la fin des raids. Elle devint alors le siège des Banu Marin, et le sultan Abu Yusuf fit construire une nouvelle ville à proximité pour y établir sa résidence et celle de son armée, selon Ibn Khaldun. {cite:tarikh-ibn-khaldun-ibar}
+
+## Dans le Mu'jam al-Buldan de Yaqut
+Yaqut décrit Fès comme une grande ville renommée du Maghreb continental, en territoire berbère, la plus grandiose avant la fondation de Marrakech. Elle se situe entre deux collines imposantes, ses flancs étant hérissés de bâtiments. Ses sources alimentent une vallée traversée par une rivière moyenne qui prend sa source à l'ouest de la ville, à deux tiers de farsakh, sur l'île de Duwi. À Fès, la rivière se divise en huit bras qui la traversent et actionnent jour et nuit quelque six cents moulins. Chaque maison est desservie par un canal d'irrigation. Yaqut affirme qu'aucune autre ville du Maghreb n'est traversée par l'eau courante, à l'exception de Grenade. {cite:mujam-al-buldan-sader-1995 4 p.230} Il ajoute que l'on y teint des manteaux pourpres et cramoisis, que sa citadelle se dresse sur le point culminant de la région et qu'elle possède trois mosquées où est prononcé le sermon du vendredi. {cite:mujam-al-buldan-sader-1995 4 p.230} Citant Abou Ubayd al-Bakri, il affirme qu'il s'agit de deux villes fortifiées distinctes : la rive des Qarawiyyin et la rive des Andalous, chacune possédant sa propre mosquée, plus de trois cents moulins, une vingtaine de bains publics et une importante population juive. Il rapporte les propos d'un Maghreb : « Fès, une ville sans habitants », et indique que la rive andalouse fut fondée en 192 H et la rive qarawiyyin en 193 H sous Idris ibn Idris, décédé à Walila en 213 AH. {cite:mujam-al-buldan-sader-1995 4 p.230} Parmi les personnalités qui tirent leur nom de la ville, il cite Abou Umar Imran ibn Musa ibn Isa ibn Najh al-Fasi, juriste de Qayrawan en son temps. {cite:mujam-al-buldan-sader-1995 4 p.231}

@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b16, source: "حلية الأولياء (دار الكتب العلمية 1988) 9/310-317" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b16, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 9/310-317" }
 ---
 ## خلاصہ
 ابو عبد اللہ سعید بن یزید ساجی ان زاہدوں میں سے ہیں جن کا ترجمہ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی نویں جلد میں لکھا ہے ⁦(نمبر 450)⁩۔ مسجع تمہید میں کہا گیا ہے کہ وہ اپنے نفس سے اپنے رب کی طرف فریاد کرتے اور اس کے مشتاق رہتے تھے۔ ان کا زیادہ تر کلام [[person/ahmad-ibn-abi-al-hawari|احمد بن ابی الحواری]] اور احمد بن محمد بن بکر قرشی سے مروی ہے۔ ترجمے میں ولادت یا وفات کی تاریخ نہیں۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/310-311}

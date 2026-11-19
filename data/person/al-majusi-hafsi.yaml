@@ -17,7 +17,7 @@ sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:
   layer: own-research
-  source: ابن خلدون، العبر — الخبر عن المجوسي وأوليته ومآل أمره، ص1704 (المجلد السادس، طبعة هيليوبوليس)
+  source: ابن خلدون، العبر — الخبر عن المجوسي وأوليته ومآل أمره، ص1704 ⁦(المجلد السادس، طبعة هيليوبوليس)⁩
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch43
@@ -31,4 +31,4 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/tarikh-ibn-khaldun-ibar]
 relations:
-  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (أندلسي); denotes association, not proven residence.", sources: [source/tarikh-ibn-khaldun-ibar], confidence: low }
+  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name ⁦(أندلسي)⁩; denotes association, not proven residence.", sources: [source/tarikh-ibn-khaldun-ibar], confidence: low }

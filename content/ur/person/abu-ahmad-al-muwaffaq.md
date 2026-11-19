@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-خلیفہ [[person/al-mutamid|معتمد]] کے بھائی۔ مصادر کے مطابق وہ گٹھیا (نقرس) کی بیماری کے بعد صفر 278 ہجری کے آخری عشرے میں، جمعرات کی رات، فوت ہوئے {cite:tabari-tarikh-abu-al-fadl j.10 p.22} {cite:muntazam-ibn-al-jawzi j.5 p.125-126}۔
+خلیفہ [[person/al-mutamid|معتمد]] کے بھائی۔ مصادر کے مطابق وہ گٹھیا ⁦(نقرس)⁩ کی بیماری کے بعد صفر 278 ہجری کے آخری عشرے میں، جمعرات کی رات، فوت ہوئے {cite:tabari-tarikh-abu-al-fadl j.10 p.22} {cite:muntazam-ibn-al-jawzi j.5 p.125-126}۔
 
 ## عباسی خلافت میں
 سیوطی کے مطابق ان کے بھائی معتمد نے انہیں مشرق کا انتظام سونپا، اور زنج کی بیشتر جنگوں میں وہ لشکر کے امیر تھے {cite:tarikh-khulafa-minhaj-1434 p. 564-569}۔

@@ -1,0 +1,12 @@
+---
+id: person/mustafa-khattab
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/mustafa-khattab.md}
+---
+## Resumen
+
+Mustafa Khattab es un erudito y imán musulmán canadiense-egipcio cuya versión al inglés del Corán, The Clear Quran, se ha convertido en una de las traducciones más ampliamente distribuidas en Norteamérica. Las fuentes sobre su vida no indican fecha ni lugar de nacimiento — su biografía institucional es tan silenciosa como sus entradas enciclopédicas — por lo que este registro deja sin constancia de su nacimiento en lugar de adivinarlo{cite:wikidata-khattab}{cite:cik-khattab-bio}. Lo que las fuentes sí registran es una formación íntegramente en el Corán y su idioma: memorizó todo el Corán desde joven, ostenta una yazá profesional en la recitación Hafs con su cadena de narradores a través de generaciones, y obtuvo su BA, MA y PhD en Estudios Islámicos en inglés, con honores, en la Facultad de Lenguas y Traducción {cite:wikipedia-khattab-en} de la Universidad de Al-Azhar.
+
+Khattab formó parte del primer equipo que tradujo en directo las oraciones nocturnas del Ramadán desde la Mezquita Sagrada de La Meca y la Mezquita del Profeta en Medina (2002–2005), y dio conferencias en Al-Azhar durante más de una década desde 2003{cite:wikipedia-khattab-en}{cite:wikipedia-khattab-ar}; su biografía institucional data la cátedra de Al-Azhar 2003–09 y añade sus conferencias sobre el Islam en la Universidad de Clemson (2009–10){cite:cik-khattab-bio}. Imán en Estados Unidos y Canadá desde 2007, fue capellán musulmán en la Universidad Brock (2014–2016), es miembro del Consejo Canadiense de Imanes y becario interreligioso Fulbright, y su biografía institucional lo nombra imán del Centro Islámico de Anatolia {cite:wikipedia-khattab-en}{cite:cik-khattab-bio}. La serie Clear Quran: A Thematic English Translation (Al-Furqaan Foundation, 2015), aprobada por Al-Azhar y respaldada por el Consejo Canadiense de Imanes, se convirtió en la traducción predeterminada de quran.com en 2020; la serie ha crecido hasta incluir una edición infantil (2020) y un diccionario (2021), junto con sus libros anteriores The Nation of Islam (2011) y Outfoxing Fox News (2017){cite:wikipedia-khattab-en}.

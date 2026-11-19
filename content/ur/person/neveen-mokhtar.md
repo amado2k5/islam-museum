@@ -34,7 +34,7 @@ translators: []
 دستیاب ماخذ میں ان پر یا ان کے خطاب پر کوئی تنقید درج نہیں۔ {cite:capital-misr-neveen-mokhtar}
 
 ## حوالہ جات
-- «نيفين مختار.. خطاب دعوي يلاحق مشكلات البيوت وقضايا المجتمع» (کاپیتال مصر، 11 ستمبر 2026)۔ {cite:capital-misr-neveen-mokhtar}
-- «داعية إسلامية: الأمن والاستقرار من أعظم النعم» (الجمہور، 6 اکتوبر 2026)۔ {cite:algomhor-neveen-mokhtar}
-- «برنامج نفحات إيمانية تقديم دكتورة نيفين مختار» (الجمہوریہ ٹی وی، یوٹیوب؛ 26 اکتوبر 2026 کو دیکھا گیا)۔ {cite:youtube-neveen-mokhtar-nafahat}
-- «Dr. Nevein Mokhtar — TikTok» (ان کا رسمی حساب؛ 26 اکتوبر 2026 کو دیکھا گیا)۔ {cite:tiktok-neveen-mokhtar}
+- «نيفين مختار.. خطاب دعوي يلاحق مشكلات البيوت وقضايا المجتمع» ⁦(کاپیتال مصر، 11 ستمبر 2026)⁩۔ {cite:capital-misr-neveen-mokhtar}
+- «داعية إسلامية: الأمن والاستقرار من أعظم النعم» ⁦(الجمہور، 6 اکتوبر 2026)⁩۔ {cite:algomhor-neveen-mokhtar}
+- «برنامج نفحات إيمانية تقديم دكتورة نيفين مختار» ⁦(الجمہوریہ ٹی وی، یوٹیوب؛ 26 اکتوبر 2026 کو دیکھا گیا)⁩۔ {cite:youtube-neveen-mokhtar-nafahat}
+- «Dr. Nevein Mokhtar — TikTok» ⁦(ان کا رسمی حساب؛ 26 اکتوبر 2026 کو دیکھا گیا)⁩۔ {cite:tiktok-neveen-mokhtar}

@@ -3,11 +3,13 @@ import { existsSync, readFileSync } from "node:fs";
 import { repoPath } from "./paths";
 import type { Compiled, Edge, Node } from "../../../scripts/build-graph";
 import type { Lang } from "./i18n";
+import { readBigJson } from "../../../scripts/lib/graph-file.mjs";
 
 const file = repoPath(".cache", "graph.json");
 if (!existsSync(file)) throw new Error("Missing .cache/graph.json. Run `npm run graph` (or `npm run build` from the repo root).");
 
-export const graph: Compiled = JSON.parse(readFileSync(file, "utf8"));
+// Read in pieces: the file is larger than the longest string Node can make (scripts/lib/graph-file.mjs).
+export const graph: Compiled = readBigJson(file);
 export const nodes: Node[] = graph.nodes;
 export const byId = new Map(nodes.map((n) => [n.id, n]));
 // a former id (rename, merged duplicate) looks up the record that lists it under `aliases`; link to it with the
@@ -57,7 +59,7 @@ export const slugTitle = (slug: string) => {
 };
 const latinName = (n: { data?: any }) => ((n.data?.names ?? []) as { value?: string }[]).map((x) => x.value ?? "").find((v) => /^[\x20-\x7e\u00c0-\u024f\u1e00-\u1eff‘’ʿʾ]+$/.test(v) && /[A-Za-z]/.test(v));
 export const labelOf = (n: Pick<Node, "label" | "slug"> & { data?: any }, lang: Lang) =>
-  n.label[lang] ?? (lang === "en" || lang === "fr" ? (latinName(n) ?? (n.slug ? slugTitle(n.slug) : undefined)) : n.label.ar) ?? n.label.en ?? n.label.ar ?? "";
+  n.label[lang] ?? (lang === "en" || lang === "fr" || lang === "es" ? (latinName(n) ?? (n.slug ? slugTitle(n.slug) : undefined)) : n.label.ar) ?? n.label.en ?? n.label.ar ?? "";
 // The raw summary keeps its {cite:…} markers and [[wiki-links]]; entity pages pass it through
 // renderProse so citations become footnotes. For plain-text contexts (cards, meta descriptions,
 // feeds) this strips the markers and resolves links to their label text.

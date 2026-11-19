@@ -1,0 +1,17 @@
+---
+id: place/arabian-peninsula
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/arabian-peninsula.md}
+---
+## Vue d'ensemble
+La péninsule arabique, ou Jazirat al-Arab, est la vaste région qui englobe le Hedjaz, le Najd, le Yémen, Oman et d'autres territoires. L'ouvrage Mu'jam al-Buldan de Yaqut al-Hamawi contient une entrée intitulée « Jazirat al-Arab » qui explique l'origine de son nom, ses limites et ses divisions. {cite:mujam-al-buldan-sader-1995 2 p.137}
+
+## Dans le Mu'jam al-Buldan de Yaqut
+Yaqut rapporte que les savants ont divergé quant à ses limites et que le récit le plus fiable est celui transmis par Abu al-Mundhir Hisham ibn Muhammad ibn al-Sa'ib, avec une chaîne de transmission, à Ibn Abbas. Concernant l'origine du nom, ce récit explique que les fleuves et les mers entourent le territoire arabe de toutes parts, le rapprochant d'une île parmi les îles de la mer. Il retrace ensuite le cours de l'Euphrate et de la mer qui l'entoure : d'Irak, Bassora et Abadan jusqu'à al-Qatif, Hajar, Bahreïn, le Qatar, Oman, al-Shihr, le Hadramaout, Aden, le Yémen, Djeddah, al-Tur, Ayla et le Qulzum en Égypte, le Nil rejoignant ce territoire depuis le Haut-Soudan à l'ouest, puis les côtes de Palestine, de Syrie et de Qinnasrin. {cite:mujam-al-buldan-sader-1995 2 p.137} Voir [[place/hadramawt|Hadramaout]] et [[place/oman|Oman]].
+
+Dans ce récit, les Arabes divisaient leur péninsule en cinq parties : la Tihama, le Hedjaz, le Najd, l’Arud et le Yémen. Le mont Sarat, le plus imposant des massifs arabes, s’étend du cœur du Yémen jusqu’aux confins du désert syrien ; les Arabes le nommaient le Hedjaz car il « sépare » (hajaza) la plaine de la Tihama des hautes terres du Najd. Ce qui s’étend à l’ouest jusqu’à la côte est la Tihama ; ce qui s’étend à l’est, les plaines du Najd jusqu’aux confins de l’Irak, est le Najd ; le Yémen, Bahreïn et leurs environs forment l’Arud ; et ce qui s’étend au-delà de Talith, en direction de Sanaa, du Hadramaout, d’al-Shihr et d’Oman, est le Yémen. {cite:mujam-al-buldan-sader-1995 2 p.137} Le récit situe La Mecque dans la Tihama, et Médine et Taïf dans le Najd et les hautes terres. {cite:mujam-al-buldan-sader-1995 2 p.137} Voir [[place/tihama|Tihama]], [[place/hijaz|le Hedjaz]], [[place/najd|le Najd]], [[place/yemen|le Yémen]], [[place/mecca|La Mecque]], [[place/medina|Médine]] et [[place/taif|al-Ta'if]].
+
+Yaqut cite ensuite d'autres avis. Ibn al-A'rabi soutenait que la péninsule correspond à la partie située au-dessus de Tih et qu'elle est qualifiée d'île car elle traverse l'Euphrate et le Tigre. {cite:mujam-al-buldan-sader-1995 2 p.137} Al-Haytham ibn Adi affirmait qu'elle s'étend d'al-Udhayb à Hadramawt ; et al-Asma'i, que sa longueur atteint Aden Abyan et sa largeur s'étend d'al-Ubulla à Djedd. {cite:mujam-al-buldan-sader-1995 2 p.138} Il cite également al-Asma'i selon lequel elle comprend quatre parties : le Yémen, le Najd, le Hedjaz et le Ghawr, c'est-à-dire Tihama. Il précise que cette région inclut le Hedjaz et Tihama, le Yémen, Saba, al-Ahqaf, al-Yamama, al-Shihr, Hajar, Oman, al-Ta'if, Najran, al-Hijr, les terres de Thamud et de Kinda, les monts Tayyi et les territoires intermédiaires. {cite:mujam-al-buldan-sader-1995 2 p.138} Voir [[place/najran|Najran]].

@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b58, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/142-143" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b58, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/142-143" }
 ---
 ## خلاصہ
 محمد بن معاویہ صوفی حکیم کی پکار پر قائم رہے اور پاک و صاف ہوئے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 501)⁩ صفحات 142 اور 143 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 501 ہے، تسلسل میں 502۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/142}

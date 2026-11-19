@@ -9,7 +9,7 @@ translators: []
 
 ## الملخص
 
-حمزة شكور (1944 – 4 فبراير 2009) من أهم المنشدين السوريين في النصف الثاني من القرن العشرين، لُقّب بشيخ المنشدين، وكان منشد [[building/umayyad-mosque|الجامع الأموي]] بدمشق ورئيس رابطة المنشدين في سوريا. {cite:wikipedia-hamza-shakkur-ar} {cite:wikidata-hamza-shakkur}
+حمزة شكور ⁦(1944 – 4 فبراير 2009)⁩ من أهم المنشدين السوريين في النصف الثاني من القرن العشرين، لُقّب بشيخ المنشدين، وكان منشد [[building/umayyad-mosque|الجامع الأموي]] بدمشق ورئيس رابطة المنشدين في سوريا. {cite:wikipedia-hamza-shakkur-ar} {cite:wikidata-hamza-shakkur}
 
 ## النشأة
 

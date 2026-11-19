@@ -3,11 +3,13 @@ class: person
 label:
   ar: "أبو الحجاج البلوي"
   en: "Abu al-Hajjaj al-Balawi"
+  fr: "Abu al-Hajjaj al-Balawi"
 roles: [scholar]
 gender: male
 summary:
   ar: "يوسف بن محمد أبو الحجاج البلوي المالقي، خطيب مالقة ⁦(٥٢٩–٦٠٤هـ)⁩، زاهد بنى بيده مساجد وآبارًا وغزا مع المنصور وصلاح الدين."
   en: "Yusuf ibn Muhammad Abu al-Hajjaj al-Balawi of Malaga, scholar-preacher (529–604/1135–1207) who built mosques and wells with his own hands and campaigned with al-Mansur and Saladin."
+  fr: "Yusuf ibn Muhammad Abu al-Hajjaj al-Balawi de Malaga, savant et prédicateur (529–604/1135–1207) qui bâtit de ses mains des mosquées et des puits et fit campagne avec al-Mansur et Saladin."
 wings: [people]
 regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -26,4 +28,4 @@ status:
   completeness: 3
 died: { edtf: "1208", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Abbar (al-Takmila) Confirmed on 13 November 2026 against Wikidata Q107344255 (P570, a statement with a reference), item revision 2566917471.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/malaga, note: "Place association from the person's nisba/name (المالقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/malaga, note: "Place association from the person's nisba/name ⁦(المالقي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

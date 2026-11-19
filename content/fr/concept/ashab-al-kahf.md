@@ -1,0 +1,28 @@
+---
+id: concept/ashab-al-kahf
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/ashab-al-kahf.md}
+---
+## Résumé
+Le cheikh Omar Abdelkafy décrit la grotte où les jeunes hommes se sont réfugiés comme étroite et sombre, et dit qu'ils y sont entrés sans aucun signe préalable de soulagement. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:29:30}
+
+## Extrait des conférences Tafsir de Cheikh Omar Abdelkafy (épisode 4)
+
+Le cheikh interroge ses auditeurs sur la grotte : est-elle large ou étroite, éclairée ou obscure ? Il conclut qu’elle est étroite et obscure {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:29:30}. Il ajoute que les jeunes gens s’y sont réfugiés sans aucun signe de soulagement préalable, bien qu’ils espéraient que leur Seigneur leur accorderait Sa miséricorde {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:29:30}.
+
+## Encyclopédie de l'Islam : la légende et son origine
+Les « gens de la grotte » sont les jeunes gens que l'Europe chrétienne appelle les Sept Dormants d'Éphèse. Selon la légende, lors des persécutions contre les chrétiens sous l'empereur Dèce (249-251), sept jeunes chrétiens se réfugièrent dans une grotte près d'Éphèse et tombèrent dans un sommeil miraculeux ; découverts bien plus tard, ils s'endormirent pour toujours. Leur lieu de repos fut considéré comme un lieu de culte au moins depuis le début du VIe siècle apr. J.-C. Ce récit figure dans de nombreuses littératures orientales et occidentales, notamment grecque et syriaque, et la version grecque semble être la plus ancienne. {cite:encyclopaedia-of-islam-2 vol. 1 p. 740-741}
+
+## La version coranique
+Mahomet s'inspira de cette légende, comme de nombreux récits d'origine juive et chrétienne, pour l'édifier dans le Coran, sourate 18 (versets 9 à 26), d'où elle tire son nom : la Sourate de la Caverne. Les grandes lignes sont claires : les jeunes gens se réfugièrent dans la caverne pour rester fidèles à la croyance en un Dieu unique ; ils y dormirent miraculeusement pendant 309 ans (verset 25), ce qui leur parut une éternité (verset 19) ; et leur découverte eut lieu lorsque l'un d'eux se rendit en ville avec de vieilles pièces de monnaie pour acheter de la nourriture. Certains détails demeurent toutefois incertains. Le Coran lui-même indique diversement le nombre des jeunes gens : trois, cinq ou sept, et seul Dieu connaît la durée de leur sommeil. Le chien qui « étend ses pattes sur le seuil » (verset 18) est compté parmi eux (verset 22) et semble ainsi considéré comme sacré. L'allusion à un lieu de culte construit au-dessus du lieu de repos (verset 21) est ambiguë, et l'expression al-raqim (verset 9) est sujette à controverse : les commentateurs l'interprètent comme le nom du chien, un toponyme ou une inscription. {cite:encyclopaedia-of-islam-2 vol. 1 p. 740-741}
+
+## Commentateurs, diffusion et magie
+Les commentateurs et historiens arabes ont comblé les lacunes du texte coranique en s'appuyant largement sur la tradition chrétienne orientale ; leurs récits sont donc essentiels à la transmission de la légende avant l'islam. Une fois enracinée chez les musulmans, la légende fut associée à divers lieux du monde islamique : une grotte de Transjordanie, une autre de Cappadoce, une autre encore du Turkestan oriental et une dernière d'Espagne, bien qu'elle soit originaire d'Éphèse. Au fil du temps, l'histoire s'est imprégnée de magie. Ceci explique la coutume de suspendre des feuilles portant les noms des dormeurs, comme un symbole de bénédiction ou de protection contre le mal. Le nom du chien, Kilmir, joue un rôle particulier : chez les Turcs du Turkestan oriental et en Indonésie, il était d'usage d'inscrire sur les lettres destinées à être conservées en lieu sûr le mot « kitmir », signifiant « enregistré ». L. Massignon a interprété l'histoire de l'intérieur, au sens où elle se rapporte aux croyants musulmans. {cite:encyclopaedia-of-islam-2 vol. 1 p. 740-741}
+
+## Extrait de l'émission Bustan al-Amal d'Omar Abdelkafy
+Le cheikh soutient que l'homme ne choisit pas son destin mais le supporte patiemment, et que nous existons pour vivre, non pour comprendre la vie ; il s'attarde sur la description des jeunes gens dont Dieu a fortifié le cœur, affirmant que le véritable croyant est celui dont le cœur est ainsi fortifié, et que cela se produit lorsqu'il s'en remet à Dieu comme un voleur se rend les mains levées ; la grotte était étroite, sombre et sans ressources, pourtant Dieu y a répandu Sa miséricorde envers eux, de même le bonheur réside dans l'étroitesse ou la largeur des cœurs, non dans les lieux ; il donne le sens d'un vers d'Iliya Abu Madi selon lequel le contentement peut quitter les palais et demeurer dans une hutte. {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:10:00}
+
+## Dans le contexte de l'invisible
+Ils dormirent trois cents ans plus neuf — signe de l'invisible à travers le temps et une renaissance sans déclin.

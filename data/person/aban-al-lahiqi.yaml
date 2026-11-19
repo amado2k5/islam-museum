@@ -22,10 +22,10 @@ status:
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص141-144"
+  source: "موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج1 ص141-144"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch47
   # Printed death date conflicts: "335 ه / 815 م"; the CE year is recorded as uncertain only.
 relations:
-  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (بصري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/fihrist-ibn-al-nadim], confidence: low }
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name ⁦(بصري)⁩; denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/fihrist-ibn-al-nadim], confidence: low }

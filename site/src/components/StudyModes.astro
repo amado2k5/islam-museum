@@ -11,7 +11,7 @@ import "../styles/edu.css";
 interface Props { deck: DeckFile; lang: Lang; path: string }
 const { deck, lang, path } = Astro.props;
 const E = ui(lang).edu;
-const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
+const L = (x: { ar: string; en: string; ur?: string; fr?: string }) => (x[lang] ?? x.ar);
 const payload = {
   slug: deck.slug, lang, title: L(deck.title), url: `${SITE}${path}`,
   items: deck.items.map((it) => ({ title: L(it.title), body: L(it.body), accept: (it as any).accept?.[lang] ?? [] })),

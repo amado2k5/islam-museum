@@ -10,21 +10,21 @@ themes: [battles]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0624-01~", hijri: "0002-07", calendar: julian, precision: month, status: tradition, note: "في رجب سنة 2هـ (يناير 624م) في آخر أيام الشهر الحرام (الرحيق ص200–201)" }
+  start: { edtf: "0624-01~", hijri: "0002-07", calendar: julian, precision: month, status: tradition, note: "في رجب سنة 2هـ ⁦(يناير 624م)⁩ في آخر أيام الشهر الحرام ⁦(الرحيق ص200–201)⁩" }
 casualties:
   value: 1
   status: tradition
-  note: "مقتل عمرو بن الحضرمي برمي واقد بن عبد الله، وأسر عثمان والحكم، وفرار نوفل (الرحيق ص200)"
+  note: "مقتل عمرو بن الحضرمي برمي واقد بن عبد الله، وأسر عثمان والحكم، وفرار نوفل ⁦(الرحيق ص200)⁩"
   sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 relations:
   - { type: occurred_at, target: place/nakhla }
   - { type: had_participant, target: person/abdullah-ibn-jahsh, role: "أمير السرية", sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/saad-ibn-abi-waqqas, note: "أضل بعيره مع عتبة بن غزوان فتخلف في طلبه (الرحيق ص200)", sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/utba-ibn-ghazwan, note: "أضل بعيره مع سعد فتخلف في طلبه (الرحيق ص200)", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/saad-ibn-abi-waqqas, note: "أضل بعيره مع عتبة بن غزوان فتخلف في طلبه ⁦(الرحيق ص200)⁩", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/utba-ibn-ghazwan, note: "أضل بعيره مع سعد فتخلف في طلبه ⁦(الرحيق ص200)⁩", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/waqid-ibn-abdillah, role: "رامي عمرو بن الحضرمي وقتيله", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: had_participant, target: person/ibn-amir-al-hadrami, role: "قتيل السرية من قريش", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/uthman-ibn-abdillah-ibn-al-mughira, role: "أسير من مشركي قريش", sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/al-hakam-ibn-kaysan, role: "أسير من قريش (أسلم لاحقاً بالمدينة)", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-hakam-ibn-kaysan, role: "أسير من قريش ⁦(أسلم لاحقاً بالمدينة)⁩", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/nawfal-ibn-abdillah, note: "أفلت من المسلمين", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: group/muhajirun, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: group/quraysh, sources: [source/mubarakpuri-raheeq] }

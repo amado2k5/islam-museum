@@ -38,12 +38,12 @@ sources:
 - source/shadharat-dhahab
 provenance:
   layer: own-research
-  source: ابن خلدون، العبر — دولة التتر، وقعة حمص، ص1539 (طبعة هيليوبوليس)
+  source: ابن خلدون، العبر — دولة التتر، وقعة حمص، ص1539 ⁦(طبعة هيليوبوليس)⁩
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch46
   enriched_by:
-    - { generated_by: "Devin (SWE-2 Medium)", model: "SWE-2 Medium", run: prose-fill-persons-batch98, source: "شذرات الذهب — ابن العماد (ج7، سنة 680)، قراءة آبل فيجن: the record person/abagha-khan, merged into this one" }
+    - { generated_by: "Devin (SWE-2 Medium)", model: "SWE-2 Medium", run: prose-fill-persons-batch98, source: "شذرات الذهب — ابن العماد ⁦(ج7، سنة 680)⁩، قراءة آبل فيجن: the record person/abagha-khan, merged into this one" }
     - { generated_by: "Claude Code (audit run, Part II)", model: claude-fable-5-2, run: audit-fixes-2026-11-13, source: "Merge of the duplicate person/abagha-khan: its full name, birth estimate, year of death, place of death, source and two prose sections are carried over unchanged; nothing new is stated. The low-confidence lived_in place/misr edge (note 'From text: of Egypt') is removed: in the record's own text Egypt is Qalawun's, 'al-Mansur Qalawun of Egypt and Syria'" }
 status:
   review: published
