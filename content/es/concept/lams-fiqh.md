@@ -1,0 +1,19 @@
+---
+id: concept/lams-fiqh
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/lams-fiqh.md}
+---
+## Resumen
+Lams, en el léxico, es sentir y percibir con la superficie de la piel, como masa, y es un eufemismo para el coito, al igual que mubashara, contacto de pieles. En derecho, lams es el encuentro de un cuerpo con otro para un propósito como el calor, el frío, la dureza, la suavidad o el conocimiento de la verdad de una cosa; la masa es el encuentro de dos cuerpos de cualquier manera, por lo que lams es más estrecho {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13702} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13703}.
+
+## Romper la ablución tocando a una mujer
+Los Hanafis y una narración de Ahmad sostienen que el hecho de que un hombre toque a una mujer, o que una mujer toque a un hombre, no rompe la ablutación, según informan Ali, Ibn Abbas, Ata y Tawus; los hanafis difieren en cuanto al contacto lascivo, que Abu Hanifa y Abu Yusuf consideran una ruptura por preferencia {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13703}. Los Malikis sostienen que el contacto con deseo rompe la ablución si el tocante es adulto y el tocado es alguien deseado; los Shafi'is celebran el encuentro de pieles de un hombre y una extraña mujer deseable rompe la ablución sea cual sea el propósito, y difieren en las dos interpretaciones del versículo {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13703} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13704}. La visión conocida de los hanbali es que tocar a mujeres por deseo rompe la ablución y el contacto sin deseo no {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13704}.
+
+## Tocar la parte íntima, el Corán, ayuno y ihram
+Tocar la parte íntima no rompe la ablución para los hanafis y sí lo hace para la mayoría de los juristas {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13704}. Los impuros no pueden tocar la copia del Corán, según el versículo de la sura del Evento (versículo 79) citado sin citar, y el hadiz que nadie toca el Corán salvo el puro {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13704}. Si una persona que ayuna provoca emisión tocando o besando, la mayoría de los juristas solo requieren que se inventen el ayuno, los Malikis una reconciliación y expiación en la emisión {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13704}. Un peregrino que toca a una mujer con deseo o la besa debe un sacrificio; su peregrinación no se arruina, según los hanafíes, shafíes y hanbalíes; los Malikis dicen que está arruinado si emite {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13704} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13705}.
+
+## Contacto para tratamiento, visión de bienes, matrimonio y regreso
+Un hombre no puede tocar el cuerpo vivo de una mujer extraña, salvo que un médico musulmán, donde no haya ninguna doctora mujer, pueda tratarla y mirar y tocar dentro de la medida de la necesidad {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13705}. Los hanafís, malikis y hanbalis sostienen que tocar aporta conocimiento de bienes, los shafi'is no {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13705}. Tocar a un extraño no establece afinidad con los Malikis, Shafi'is y Hanbalis, pero para los Hanafis el contacto con el deseo sí {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13705}. El retorno por contacto con el deseo es válido para los Hanafis y Malikis, no para los Shafi'is y Hanbalis {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13705} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13706}. Tocar a una esposa en el zihar está prohibido antes de la expiación por los hanafis, la mayoría de los Malikis y una visión hanbali, pero está permitido por los Shafi'is en la visión más sólida {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13706}.
+

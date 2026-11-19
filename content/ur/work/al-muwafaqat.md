@@ -8,7 +8,7 @@ status:
 provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "muwafaqat-draz-ilmiyya pp. 1-10, 18, 63, 219-223, 469, 774; muwafaqat-mashhur-ibn-affan-v1 pp. 1, 3-12; translated from the Arabic page" }
 ---
 ## موجز
-«الموافقات فی اصول الشریعہ» ابو اسحاق [[person/abu-ishaq-al-shatibi|ابراہیم بن موسیٰ لخمی غرناطی شاطبی]] مالکی (م 790ھ) کی اصولِ فقہ اور مقاصدِ شریعت پر کتاب ہے۔ {cite:muwafaqat-draz-ilmiyya p. 1} {cite:muwafaqat-draz-ilmiyya p. 4} دار الکتب العلمیہ ایڈیشن کے ناشر کے نقل کے مطابق زرکلی اسے چار جلدوں میں شمار کرتے ہیں۔ {cite:muwafaqat-draz-ilmiyya p. 4}
+«الموافقات فی اصول الشریعہ» ابو اسحاق [[person/abu-ishaq-al-shatibi|ابراہیم بن موسیٰ لخمی غرناطی شاطبی]] مالکی ⁦(م 790ھ)⁩ کی اصولِ فقہ اور مقاصدِ شریعت پر کتاب ہے۔ {cite:muwafaqat-draz-ilmiyya p. 1} {cite:muwafaqat-draz-ilmiyya p. 4} دار الکتب العلمیہ ایڈیشن کے ناشر کے نقل کے مطابق زرکلی اسے چار جلدوں میں شمار کرتے ہیں۔ {cite:muwafaqat-draz-ilmiyya p. 4}
 
 ## اس کی پانچ اقسام
 شاطبی اپنے خطبے میں کہتے ہیں کہ وہ اس علم کے نادر اور بکھرے نکات قلم بند کرتے رہے، «کلی استقرا» پر اعتماد کرتے ہوئے نہ کہ جزوی افراد پر، اور ان کی نقلی بنیادوں کو عقلی دلائل سے واضح کرتے ہوئے؛ پھر انہیں ایسے عنوانات میں مرتب کیا جو انہیں ان کے اصول کی طرف لوٹائیں، تو کتاب پانچ اقسام میں منحصر ہو گئی: {cite:muwafaqat-mashhur-ibn-affan-v1 p. 9}
@@ -33,7 +33,7 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-
 
 ## عجائب گھر میں موجود ایڈیشن
 - دار الکتب العلمیہ بیروت کا ایک جلدی ایڈیشن، شیخ عبد اللہ دراز کی شرح، محمد عبد اللہ دراز کے تراجم اور عبد السلام عبد الشافی محمد کی تخریجِ آیات کے ساتھ۔ {cite:muwafaqat-draz-ilmiyya p. 1} {cite:muwafaqat-draz-ilmiyya p. 3}
-- دار ابن عفان ایڈیشن، ضبطِ متن و تعلیق ابو عبیدہ مشہور بن حسن آل سلمان، تقدیم بکر بن عبد اللہ ابو زید؛ اس کے حواشی میں دراز، الخضر حسین اور ماء العینین کی تعلیقات جمع ہیں (جلد اول)۔ {cite:muwafaqat-mashhur-ibn-affan-v1 p. 1} {cite:muwafaqat-mashhur-ibn-affan-v1 p. 10}
+- دار ابن عفان ایڈیشن، ضبطِ متن و تعلیق ابو عبیدہ مشہور بن حسن آل سلمان، تقدیم بکر بن عبد اللہ ابو زید؛ اس کے حواشی میں دراز، الخضر حسین اور ماء العینین کی تعلیقات جمع ہیں ⁦(جلد اول)⁩۔ {cite:muwafaqat-mashhur-ibn-affan-v1 p. 1} {cite:muwafaqat-mashhur-ibn-affan-v1 p. 10}
 
 ## جو یہاں ذکر نہیں ہوا
 کتاب الاحکام، الادلہ اور الاجتہاد کے مسائل کی تفصیل، اور ابن عفان ایڈیشن کے محقق کی دراسہ یہاں نہیں دی گئی۔

@@ -19,4 +19,4 @@ translators: []
 
 ## اعزازات
 
-صدرِ پاکستان نے انھیں تمغائے حسنِ کارکردگی (1988ء)، ستارۂ امتیاز (2015ء) اور ہلالِ امتیاز (2020ء) عطا کیے؛ انھوں نے 1998ء میں پی ٹی وی ایوارڈ بھی جیتا۔ {cite:wikipedia-syed-sadaqat-ali-ur}{cite:wikipedia-syed-sadaqat-ali-en}{cite:wikidata-syed-sadaqat-ali}
+صدرِ پاکستان نے انھیں تمغائے حسنِ کارکردگی ⁦(1988ء)⁩، ستارۂ امتیاز ⁦(2015ء)⁩ اور ہلالِ امتیاز ⁦(2020ء)⁩ عطا کیے؛ انھوں نے 1998ء میں پی ٹی وی ایوارڈ بھی جیتا۔ {cite:wikipedia-syed-sadaqat-ali-ur}{cite:wikipedia-syed-sadaqat-ali-en}{cite:wikidata-syed-sadaqat-ali}

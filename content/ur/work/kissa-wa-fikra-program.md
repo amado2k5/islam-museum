@@ -5,7 +5,7 @@ source_lang: ar
 translators: []
 ---
 ## خلاصہ
-«قصة وفكرة» (ایک قصہ اور ایک فکر) [[person/tariq-al-suwaidan|طارق السویدان]] کا ٹیلی وژن پروگرام ہے۔ اسابیل آرکائیو میں اس کی انتیس اقساط محفوظ ہیں۔ زیادہ تر اقساط ستائیس سے تیس منٹ کی ہیں، اور پچیسویں قسط، جو الفریڈ نوبل پر ہے، تقریباً بائیس منٹ کی ہے۔ وہ «معزز ناظرین» سے خطاب کرتے ہیں اور ہر قسط کے بیچ میں وقفہ کرتے ہیں۔ {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep02 00:00:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep27 00:15:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep25 00:21:00}
+«قصة وفكرة» ⁦(ایک قصہ اور ایک فکر)⁩ [[person/tariq-al-suwaidan|طارق السویدان]] کا ٹیلی وژن پروگرام ہے۔ اسابیل آرکائیو میں اس کی انتیس اقساط محفوظ ہیں۔ زیادہ تر اقساط ستائیس سے تیس منٹ کی ہیں، اور پچیسویں قسط، جو الفریڈ نوبل پر ہے، تقریباً بائیس منٹ کی ہے۔ وہ «معزز ناظرین» سے خطاب کرتے ہیں اور ہر قسط کے بیچ میں وقفہ کرتے ہیں۔ {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep02 00:00:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep27 00:15:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep25 00:21:00}
 
 ہر قسط ایک قصے کو ایک فکر سے جوڑتی ہے۔ وہ شروع میں فکر کا نام لیتے ہیں، پھر ایک تاریخی شخصیت کی زندگی سناتے ہیں اور بیچ بیچ میں اس سے سبق نکالتے ہیں۔ آخر میں اسباق کی فہرست دیتے ہیں اور اس شخصیت یا کسی ادیب کا قول نقل کرتے ہیں۔ مثلاً دوسری قسط میں فکر «تبدیلی» ہے، جس کی تعریف وہ ناپسندیدہ حقیقت سے مطلوبہ تصور کی طرف منتقل ہونا کرتے ہیں؛ اس قسط کا قصہ مالکم ایکس کی زندگی ہے۔ {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep02 00:00:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep02 00:01:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep02 00:26:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep02 00:26:30}
 
@@ -16,9 +16,9 @@ translators: []
 جب قصہ اسلام سے باہر کا ہو تو وہ عموماً آخر میں اس فکر کو اسلامی تعلیم یا اسلامی تاریخ کے کسی واقعے کے مقابل رکھتے ہیں۔ {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep03 00:23:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep13 00:26:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep21 00:27:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep25 00:19:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep26 00:27:00}
 
 پروگرام کی تاریخیں، اعداد اور فیصلے خود ان کے بیانات ہیں اور قصے ان کی روایت ہیں۔ یہ اپنے اپنے مقام پر انہی سے منسوب کیے گئے ہیں۔ کچھ اقساط حالیہ واقعات کا ذکر کرتی ہیں:
-- ٹرانسپیرنسی انٹرنیشنل کا 2013 کا اشاریہ (قسط 24)؛
-- دسمبر 2013 میں نیلسن منڈیلا کی وفات (قسط 26)؛
-- 2013 کے عالمی فوجی اخراجات (قسط 25)۔
+- ٹرانسپیرنسی انٹرنیشنل کا 2013 کا اشاریہ ⁦(قسط 24)⁩؛
+- دسمبر 2013 میں نیلسن منڈیلا کی وفات ⁦(قسط 26)⁩؛
+- 2013 کے عالمی فوجی اخراجات ⁦(قسط 25)⁩۔
 
 اس لیے پروگرام 2014 یا اس کے بعد ریکارڈ ہوا۔ {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep24 00:25:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep26 00:26:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep25 00:00:30}
 

@@ -12,7 +12,7 @@ const { story, lang, t } = Astro.props;
 const rtl = ARABIC_SCRIPT.includes(lang);
 // Arrow glyphs follow the page's reading direction (GorillaQA #16):
 // in RTL "back" points right, in LTR it points left.
-const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
+const L = (x: { ar: string; en: string; ur?: string; fr?: string }) => (x[lang] ?? x.ar);
 
 const MOTIF_SVG: Record<Motif, string> = {
   moon: '<path d="M52 30a30 30 0 1 0 18 54 24 24 0 0 1-18-54z"/>',

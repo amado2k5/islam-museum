@@ -26,7 +26,7 @@ const path = `/${lang}/shabab/dilemmas/`;
           {dilemmas.filter((d) => d.band === b.id).map((d) => (
             <li>
               <a href={`/${lang}/shabab/dilemmas/${d.id}/`}>
-                <span><h3>{d.decision[lang]}</h3><p>{d.context[lang].slice(0, 140)}…</p></span>
+                <span><h3>{d.decision[lang] ?? d.decision.en}</h3><p>{(d.context[lang] ?? d.context.en).slice(0, 140)}…</p></span>
               </a>
             </li>
           ))}

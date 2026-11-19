@@ -14,7 +14,7 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 provenance:
   layer: own-research
-  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «ملحق تراجم الفقهاء» (ص 8203 من المسح)"
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «ملحق تراجم الفقهاء» ⁦(ص 8203 من المسح)⁩"
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
   run: mawsua-w05-batch4
@@ -32,4 +32,4 @@ occupations:
 born: { edtf: "1315~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
 died: { edtf: "1380~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
 relations:
-  - { type: lived_in, target: place/farghana, note: "Place association from the person's nisba/name (الفرغاني); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }
+  - { type: lived_in, target: place/farghana, note: "Place association from the person's nisba/name ⁦(الفرغاني)⁩; denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

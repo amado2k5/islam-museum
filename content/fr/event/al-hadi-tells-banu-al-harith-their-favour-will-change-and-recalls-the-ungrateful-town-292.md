@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-tells-banu-al-harith-their-favour-will-change-and-recalls-the-ungrateful-town-292
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-tells-banu-al-harith-their-favour-will-change-and-recalls-the-ungrateful-town-292.md}
+---
+## Vue d'ensemble
+La lettre d'Al-Hadi aux Banu al-Harith, commencée dans [[event/banu-al-harith-swear-against-muhammad-ibn-ubaydallah-and-al-hadi-writes-to-them-292]], se poursuit à la page 276. Il dit qu'il ne doute pas qu'ils soient en grande partie abandonnés à cause de leur aversion pour la vérité et la foi et de leur suivi de Satan, que quiconque s'oppose à la vérité est perdant, et que Dieu a voulu changer leur faveur et retirer le bien avec lequel Il avait commencé, bien que rien de ce qu'ils aient fait ne leur ait valu ce qui leur a été donné {cite:sira-hadi-ila-al-haqq p.276}.
+
+## Détail
+La lettre présente leur histoire comme un exemple à suivre. Ils avaient vécu dans l'abondance et, une fois riches, le doute et la désobéissance apparurent parmi eux. Elle cite [[passage/quran-96-6|al-Alaq 96:6]] et [[passage/quran-96-7|al-Alaq 96:7]] à propos de celui qui se rebelle lorsqu'il se croit autosuffisant, nomme ceux qui, dans la même situation, ont renié la faveur de leur Seigneur et l'ont perdue, et leur décrit la cité sûre et paisible qui a rejeté les faveurs divines, à l'instar de [[passage/quran-16-112|an-Nahl 16:112]] {cite:sira-hadi-ila-al-haqq p.276}. Elle rapporte ensuite que la nouvelle leur est parvenue : ils ont toujours été des gens comploteurs et traîtres envers les amis de Dieu, quiconque complote contre eux ne complote que contre lui-même, et leurs coreligionnaires avant eux ont tenté la même chose, et cela s'est retourné contre eux. Le texte commence par citer [[passage/quran-35-43|Fatir 35:43]], citation qui se termine à la page 277 {cite:sira-hadi-ila-al-haqq p.276}. Les notes de bas de page indiquent que « et parmi vous » est un ajout du manuscrit S et que S traduit « votre puissance » là où le texte contient un autre nom. Ces mots sont propres à al-Hadi, tels qu'ils ont été copiés dans un ouvrage zaydite ; le musée ne les adopte pas comme jugement et ne reprend pas les propos injurieux.

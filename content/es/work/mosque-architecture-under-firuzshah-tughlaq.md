@@ -1,0 +1,13 @@
+---
+id: work/mosque-architecture-under-firuzshah-tughlaq
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/work/mosque-architecture-under-firuzshah-tughlaq.md}
+---
+## Visión general
+*Arquitectura de mezquitas bajo Firuzshah Tughlaq* es una tesis de maestría presentada en 2011 por Seema Khan al Centro de Estudios Avanzados del Departamento de Historia de la Universidad Musulmana de Aligarh, bajo la supervisión del Dr. Gulfishan Khan. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 title page} El trabajo abarca desde la evolución de la mezquita en las tierras islámicas centrales hasta la construcción de mezquitas bajo el Sultanato de Delhi, pasando por las técnicas, los materiales de unión y la decoración de las mezquitas de Firuz Shah, y dedica su cuarto capítulo al análisis de cada mezquita individualmente. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 contents}
+
+## Lo que argumenta
+La autora reúne el *Tarikh-i Firuz Shahi* de Shams Siraj Afif con las descripciones de Syed Ahmad Khan, Zafar Hasan, Carr Stephen, Percy Brown, R. Nath y Abha Rani, y agrega lo que encontró en su propio estudio de los sitios. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 59} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 85} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 92} Explica los escombros, el mortero y el yeso del período por la dispersión de los albañiles calificados después del traslado de la capital a Daulatabad y por la reducción de las finanzas, y enumera sus características constantes: muros derribados, bastiones de esquina cónicos, torretas cónicas en las puertas y pequeñas cúpulas sobre bahías cuadradas. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 81} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 84} Atribuye al visir Khan-i Jahan Maqbul Tilangani el diseño de cuatro patios de las mezquitas Kali y Khirki, lo explica como protección contra el sol y la lluvia, y señala que no se repitió después de Firuz Shah. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 53} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 54} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 73} Concluye comparando a Firuz Shah como constructor con el emperador mogol Shah Jahan. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 96}

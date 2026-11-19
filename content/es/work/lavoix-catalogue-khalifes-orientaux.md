@@ -1,0 +1,22 @@
+---
+id: work/lavoix-catalogue-khalifes-orientaux
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/work/lavoix-catalogue-khalifes-orientaux.md}
+---
+## Resumen
+El *Catalogue des monnaies musulmanes de la Bibliothèque nationale: Khalifes orientaux* fue publicado en París por la Imprimerie nationale en 1887 por orden del Ministro de Instrucción Pública, Culto y Bellas Artes, compilado por Henri Lavoix, conservador adjunto del Departamento de Medallas, Piedras Grabadas y Antigüedades. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 663} Es el volumen de las monedas del gran califato, con un índice de nombres en árabe y láminas fotográficas. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 37} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 9}
+
+## El prefacio
+Lavoix afirma que Tiesenhausen ya había recopilado todo lo publicado sobre las monedas de los califas orientales hasta 1875, y que no pretende rehacer ese trabajo, sino presentar cuestiones que surgieron durante la catalogación, especialmente sobre los inicios de la acuñación de monedas islámicas. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 661} Entre sus puntos:
+- Los árabes no tenían moneda propia antes del Islam ni en tiempos del Profeta; los dinares bizantinos y los dirhams persas les llegaban a través del comercio, y después de las conquistas conservaron el dinero que conocían. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 661} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 660}
+- Durante casi sesenta años, los registros y las casas de moneda permanecieron en manos de escribanos y artesanos persas, griegos y judíos, hasta que el registro de Irak fue traducido al árabe por orden de al-Hajjaj y Abd al-Malik mandó traducir el registro de Siria. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 659} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 658}
+- Umar conservó el dirham sasánida con su tipo, escritura pahlavi y altar de fuego, reemplazando la fecha sasánida por la fecha de la Hégira; el modelo copiado fue el de Cosroes II; luego, los nombres de los califas y gobernadores reemplazaron al del rey, y desde el año 25 de la Hégira, cada gobernador acuñó monedas en las ciudades que gobernaba. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 655}
+- Los historiadores discrepan sobre la fecha de la reforma de Abd al-Malik, entre el 74 y el 77 de la Hégira, y al-Hajjaj siguió acuñando dirhams de tipo sasánida a su propio nombre en al-Bayda, en Fars, hasta el 83 de la Hégira. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 642}
+- La reforma hizo que la acuñación de monedas fuera anónima, respondiendo únicamente ante la autoridad suprema, en reacción al derecho de acuñación usurpado por gobernadores y califas rivales como Ibn al-Zubayr, su hermano Mus'ab y Qatari ibn al-Fuja'a. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 643} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 644}
+- Las pesas de vidrio controlaban el peso del dinar y el dirham, una práctica que los árabes adoptaron de los bizantinos. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 616} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 617}
+- La acuñación abasí permaneció anónima hasta que el nombre del heredero al-Mahdi apareció en los dirhams bajo el mandato de su padre al-Mansur; Harun al-Rashid permitió que se nombrara a sus ministros y gobernadores; y el nombre de la ceca apareció por primera vez en el dinar bajo el mandato de al-Ma'mun, junto con la fórmula de [[passage/quran-30-4|al-Rum 30:4]]. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 615} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 614}
+
+Concluye que, después de Fraehn, Castiglioni, Marsden, Tornberg, Soret y Stickel, la acuñación del gran califato ha sido estudiada, mientras que la de las dinastías independientes aún requiere un trabajo exhaustivo. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 613} Agradece a Henri Sauvaire la revisión de las pruebas y fecha el prefacio Cabinet des Médailles, octubre de 1887. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 612}

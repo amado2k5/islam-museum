@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b81, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/302-305" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b81, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/302-305" }
 ---
 ## خلاصہ
 ابو العباس احمد بن محمد بن سہل بن عطاء ایک محنتی اور پاک دل شخص تھے، جنہوں نے قرآن اپنے سینے میں محفوظ کیا۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 575)⁩ صفحات 302 تا 305 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 575 ہے، تسلسل میں 576۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/302} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/305}

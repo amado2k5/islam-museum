@@ -1,17 +1,23 @@
 id: work/la-bible-le-coran-et-la-science
 class: work
 kind: book
-label: { ar: "الكتاب المقدس والقرآن والعلم", en: "La Bible, le Coran et la science" }
+tags: [ulama-browser]
+label: { ar: "الكتاب المقدس والقرآن والعلم", en: "La Bible, le Coran et la science (The Bible, the Qur'an and Science)", ur: "بائبل، قرآن اور سائنس" }
 summary:
-  ar: "بطاقة أولية لـالكتاب المقدس والقرآن والعلم؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for La Bible, le Coran et la science; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "كتاب بالفرنسية للجرّاح الفرنسي موريس بوكاي يقارن فيه نصوص الكتاب المقدس والقرآن بمعارف العلم الحديث، صدر عن دار سيغرز في باريس سنة 1976 في 254 صفحة."
+  en: "A French book by the French surgeon Maurice Bucaille comparing the texts of the Bible and the Qur'an with modern scientific knowledge, published by Seghers, Paris, in 1976 (254 pages)."
+  ur: "فرانسیسی سرجن موریس بوکائی کی فرانسیسی کتاب جو بائبل اور قرآن کے متون کا جدید سائنسی معلومات سے موازنہ کرتی ہے؛ سیگرز، پیرس سے 1976ء میں 254 صفحات میں شائع ہوئی۔"
+wings: [words, today]
+genre: [introducing-islam]
+composed: { edtf: "1976", calendar: gregorian, precision: year, status: historical }
+editions:
+  - "Paris: Seghers, 1976, 254 pp."
+sources: [source/al-aalam, source/openlibrary-la-bible-le-coran-et-la-science-1976, source/funci-quran-and-modern-science-bucaille]
 external_ids: { wikidata: "Q4115551" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
+  source: "Wikidata candidate; publisher, year and extent checked on Open Library on 18 November 2026 for the founder’s 210-book Ulama Browser list (category 11)"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

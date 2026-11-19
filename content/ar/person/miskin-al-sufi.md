@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b50, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/136-137" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b50, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/136-137" }
 ---
 ## موجز
 مسكين بن عبيد الصوفي، صحب أصحاب إبراهيم بن أدهم، فسلك مسلكه في التوحيد والزهد. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة 487)⁩ في الصفحتين 136 و137. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/136}

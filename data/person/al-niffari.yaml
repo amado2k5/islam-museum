@@ -1,6 +1,6 @@
 id: person/al-niffari
 class: person
-label: { ar: "محمد بن عبد الجبار النفري", en: "Muhammad ibn Abd al-Jabbar al-Niffari", ur: "محمد بن عبد الجبار نفری" }
+label: { ar: "محمد بن عبد الجبار النفري", en: "Muhammad ibn Abd al-Jabbar al-Niffari", fr: "Muhammad ibn Abd al-Jabbar al-Niffari", ur: "محمد بن عبد الجبار نفری" }
 names:
   - { value: "محمد بن عبد الجبار بن الحسن النفري", kind: full, lang: ar }
   - { value: "النفري", kind: nisba, lang: ar }
@@ -10,6 +10,7 @@ traditions: [sufi]
 summary:
   ar: "صوفي عراقي صاحب «المواقف والمخاطبات»؛ يقول مصطفى محمود إن تفصيل حياته غير معروف، وإنه عاش في القرن الرابع بعد الهجرة في بلدة نفّار بالعراق، وكان يتعشق الخلوات وقضى أكثر عمره في التعبد والتأمل {cite:mm-raaytu-allah-maarif-1976 p. 20}."
   en: "Iraqi Sufi, author of al-Mawaqif wa-l-Mukhatabat; Mostafa Mahmoud writes that the details of his life are unknown, that he lived in the fourth century after the Hijra in the town of Niffar in Iraq, loved solitary retreat and spent most of his life in worship and contemplation {cite:mm-raaytu-allah-maarif-1976 p. 20}."
+  fr: "Soufi irakien, auteur d'al-Mawaqif wa-l-Mukhatabat ; Mostafa Mahmoud écrit que les détails de sa vie sont inconnus, qu'il a vécu au quatrième siècle après l'Hégire dans la ville de Niffar en Irak, aimé la retraite solitaire et a passé la majeure partie de sa vie dans le culte et la contemplation {cite:mm-raaytu-allah-maarif-1976 p. 20}."
   ur: "عراقی صوفی، «المواقف والمخاطبات» کے مصنف؛ مصطفیٰ محمود لکھتے ہیں کہ ان کی زندگی کی تفصیل معلوم نہیں، وہ ہجرت کے بعد چوتھی صدی میں عراق کے قصبے نفّار میں رہے، خلوت کے دلدادہ تھے اور زیادہ تر عمر عبادت اور غور و فکر میں گزاری {cite:mm-raaytu-allah-maarif-1976 p. 20}۔"
 wings: [people]
 themes: [spirituality-and-sufism]
@@ -17,10 +18,10 @@ periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 sensitivity: contested
 story_roles:
-  - { role: saint, status: historical, note: "يسميه مصطفى محمود «الصوفي» و«الإمام العارف» (رأيت الله ص 13، 20)", sources: [source/mm-raaytu-allah-maarif-1976] }
+  - { role: saint, status: historical, note: "يسميه مصطفى محمود «الصوفي» و«الإمام العارف» ⁦(رأيت الله ص 13، 20)⁩", sources: [source/mm-raaytu-allah-maarif-1976] }
 died: { edtf: "965", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
 relations:
-  - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (عراقي); denotes association, not proven residence.", sources: [source/mm-raaytu-allah-maarif-1976], confidence: low }
+  - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name ⁦(عراقي)⁩; denotes association, not proven residence.", sources: [source/mm-raaytu-allah-maarif-1976], confidence: low }
   - { type: authored, target: work/al-mawaqif-wal-mukhatabat, sources: [source/mm-raaytu-allah-maarif-1976] }
 provenance:
   layer: own-research

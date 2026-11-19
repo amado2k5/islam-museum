@@ -10,7 +10,7 @@ themes: [civil-wars-and-revolts, ethics-and-character]
 periods: [period/rashidun]
 regions: [arabia]
 date:
-  start: { hijri: "0035", precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ الحصار بسنة؛ الحصار هو حصار عثمان المؤرخ بسنة 35هـ (انظر event/siege-of-uthman-35). التاريخ مشتق، ثقة منخفضة." }
+  start: { hijri: "0035", precision: year, status: tradition, derived: true, note: "الكتاب لا يؤرخ الحصار بسنة؛ الحصار هو حصار عثمان المؤرخ بسنة 35هـ ⁦(انظر event/siege-of-uthman-35)⁩. التاريخ مشتق، ثقة منخفضة." }
 relations:
   - { type: part_of, target: event/siege-of-uthman-35, sources: [source/abqariyyat-ali-aqqad] }
   - { type: occurred_at, target: place/medina, sources: [source/abqariyyat-ali-aqqad] }

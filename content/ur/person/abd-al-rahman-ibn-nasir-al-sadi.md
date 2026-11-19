@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Code (OCR-harvest worker B), claude-opus-5-5"]
 ---
 ## خلاصہ
-شیخ عبد الرحمن بن ناصر بن عبد اللہ بن سعدی (1307–1376ھ / 1889–1957ء) نجد کے شہر [[place/unayza|عنیزہ]] کے عالم اور تفسیر [[work/taysir-al-karim-al-rahman|تیسیر الکریم الرحمن فی تفسیر کلام المنان]] کے مصنف تھے۔ {cite:taysir-karim-rahman-obeikan-2001 p.2} {cite:taysir-karim-rahman-obeikan-2001 p.9} {cite:taysir-karim-rahman-obeikan-2001 p.14} ان کی تفسیر کے محقق عبد الرحمن بن معلا اللویحق انہیں «ہمارے اساتذہ کے استاد، علامہ» کہتے ہیں، اور بتاتے ہیں کہ تفسیر میں ان کی زیادہ توجہ معانی پر تھی جو اصل مقصود ہیں۔ {cite:taysir-karim-rahman-obeikan-2001 p.13}
+شیخ عبد الرحمن بن ناصر بن عبد اللہ بن سعدی ⁦(1307–1376ھ / 1889–1957ء)⁩ نجد کے شہر [[place/unayza|عنیزہ]] کے عالم اور تفسیر [[work/taysir-al-karim-al-rahman|تیسیر الکریم الرحمن فی تفسیر کلام المنان]] کے مصنف تھے۔ {cite:taysir-karim-rahman-obeikan-2001 p.2} {cite:taysir-karim-rahman-obeikan-2001 p.9} {cite:taysir-karim-rahman-obeikan-2001 p.14} ان کی تفسیر کے محقق عبد الرحمن بن معلا اللویحق انہیں «ہمارے اساتذہ کے استاد، علامہ» کہتے ہیں، اور بتاتے ہیں کہ تفسیر میں ان کی زیادہ توجہ معانی پر تھی جو اصل مقصود ہیں۔ {cite:taysir-karim-rahman-obeikan-2001 p.13}
 
 ## تدریس اور شاگرد
 وہ عنیزہ کی جامع مسجد میں درس کے حلقے لیتے تھے، جہاں ان کے شاگرد [[person/abd-allah-ibn-abd-al-aziz-ibn-aqil|عبد اللہ بن عبد العزیز بن عقیل]] نے ان سے ان کی تفسیر کے کچھ حصے زبانی سنے۔ {cite:taysir-karim-rahman-obeikan-2001 p.9} ابن عقیل اور [[person/muhammad-ibn-salih-al-uthaymin|محمد بن صالح العثیمین]] دونوں ان کی تفسیر کے مقدموں میں انہیں «ہمارے شیخ» کہتے ہیں۔ {cite:taysir-karim-rahman-obeikan-2001 p.9} {cite:taysir-karim-rahman-obeikan-2001 p.11}

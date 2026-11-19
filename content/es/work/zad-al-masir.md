@@ -1,0 +1,22 @@
+---
+id: work/zad-al-masir
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/work/zad-al-masir.md}
+---
+## Resumen
+Zad al-Masir fi Ilm al-Tafsir ("Provisión para el viaje en la ciencia del Tafsir") es el comentario de [[person/ibn-al-jawzi|Abu al-Faraj Ibn al-Jawzi]] el Hanbali (m. 597 H). {cite:zad-al-masir-dar-al-kitab-al-arabi-2001-v1 p.1} {cite:zad-al-masir-dar-al-kitab-al-arabi-2001-v1 p.7} En su prefacio dice que revisó los comentarios y los encontró o tan extensos que el memorizador se desesperaba, tan breves que no cumplían con el propósito completo, o mediocres, de pocos beneficios y sin orden, a veces descuidando lo difícil mientras explicaba lo que no era oscuro; por lo que trajo "este sencillo compendio, que contiene abundante conocimiento", y lo redactó de la manera más breve posible. {cite:zad-al-masir-maktab-islami-v1 p.3} {cite:zad-al-masir-maktab-islami-v1 p.4}
+
+## Su objetivo
+Ibn al-Jawzi afirma que la mayoría de los comentarios no son suficientes por sí solos, de modo que para un solo versículo hay que consultar varios libros: uno omite la abrogación; si la incluye, carece de las ocasiones de revelación; si las incluye, no aclara qué es mecano y qué medinense; si lo hace, no señala la norma del versículo; si lo hace, no resuelve la dificultad. Reunió todo esto en su libro, evitó volver a explicar una palabra ya explicada salvo por referencia, y omitió opiniones que probablemente no fueran sólidas. {cite:zad-al-masir-maktab-islami-v1 p.6} {cite:zad-al-masir-maktab-islami-v1 p.7} Todo lo que no se explica en el transcurso de los versículos, dice, ya ha sido explicado o es lo suficientemente claro como para no necesitar explicación. {cite:zad-al-masir-maktab-islami-v1 p.7}
+
+## Sus secciones iniciales
+Antes del comentario, establece varias secciones: sobre el mérito del tafsir, citando a Ibn Mas'ud que aprendían diez versículos a la vez y no avanzaban hasta conocer el conocimiento y la práctica en ellos, y la semejanza de Iyas ibn Mu'awiya de quien lee el Corán sin conocer su significado con las personas que reciben una carta por la noche sin lámpara; {cite:zad-al-masir-maktab-islami-v1 p.4} sobre tafsir y ta'wil, que aquellos inclinados al árabe, la mayoría de los primeros exegetas, toman como uno solo, y aquellos inclinados al derecho distinguen; {cite:zad-al-masir-maktab-islami-v1 p.4} sobre la duración de la revelación: desde Ibn Abbas, enviado completo a la Casa de la Gloria en la Noche del Decreto y luego durante veinte años, como también dijo al-Sha'bi, y desde al-Hasan dieciocho años; {cite:zad-al-masir-maktab-islami-v1 p.5} y sobre lo primero y lo último revelado — véase ¿ [[question/how-did-revelation-begin|Cómo comenzó la revelación]]? y [[question/what-was-the-last-revelation|¿Cuál fue la última parte del Corán que se reveló]]?. {cite:zad-al-masir-maktab-islami-v1 p.5} {cite:zad-al-masir-maktab-islami-v1 p.6} Luego vienen secciones sobre el isti'adha y sobre la basmala, donde expone la postura de Ahmad y de otros; véase ¿ [[question/is-the-basmala-a-verse-of-al-fatiha|Es la basmala un versículo de al-Fatiha]]?. {cite:zad-al-masir-maktab-islami-v1 p.7} {cite:zad-al-masir-maktab-islami-v1 p.8}
+
+## Sus fuentes en el lenguaje
+Abd al-Razzaq al-Mahdi dice que Ibn al-Jawzi nombra a aquellos sobre quienes se revelaron versículos, da las lecturas conocidas y a veces las irregulares, se detiene en los versículos abrogados y aquellos cuya abrogación es disputada, y rastrea cada opinión hasta su fuente, basándose en lexicógrafos como Ibn Qutayba, Abu Ubayda y al-Khalil, gramáticos como al-Farra', al-Zajjaj, al-Akhfash y al-Kisa'i, y lectores como al-Jahdari y Asim. {cite:zad-al-masir-dar-al-kitab-al-arabi-2001-v1 p.9}
+
+## Ediciones utilizadas
+- Al-Maktab al-Islami (Zuhayr al-Shawish), parte 1, con notas a pie de página sobre variantes manuscritas. {cite:zad-al-masir-maktab-islami-v1 p.2} {cite:zad-al-masir-maktab-islami-v1 p.3}
+- Dar al-Kitab al-Arabi, Beirut, ed. Abd al-Razzaq al-Mahdi, 1ª ed. 1422 H / 2001, con el hadiz referenciado y calificado. {cite:zad-al-masir-dar-al-kitab-al-arabi-2001-v1 p.2} {cite:zad-al-masir-dar-al-kitab-al-arabi-2001-v1 p.9}

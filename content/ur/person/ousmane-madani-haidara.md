@@ -23,8 +23,8 @@ translators: []
 
 ## ماخذ
 
-- ویکیپیڈیا (انگریزی)، مضمون «Chérif Ousmane Madani Haïdara»، جیسا کہ 4 نومبر 2026 کو پڑھا گیا۔ {cite:wikipedia-ousmane-madani-haidara-en}
-- ویکیپیڈیا (فرانسیسی)، مضمون «Chérif Ousmane Madani Haïdara»، جیسا کہ 4 نومبر 2026 کو پڑھا گیا۔ {cite:wikipedia-ousmane-madani-haidara-fr}
+- ویکیپیڈیا ⁦(انگریزی)⁩، مضمون «Chérif Ousmane Madani Haïdara»، جیسا کہ 4 نومبر 2026 کو پڑھا گیا۔ {cite:wikipedia-ousmane-madani-haidara-en}
+- ویکیپیڈیا ⁦(فرانسیسی)⁩، مضمون «Chérif Ousmane Madani Haïdara»، جیسا کہ 4 نومبر 2026 کو پڑھا گیا۔ {cite:wikipedia-ousmane-madani-haidara-fr}
 - جائلز ہولڈر، «شریف عثمان مدنی حیدرہ اور حرکت انصار الدین»، Cahiers d'études africaines، 206-207 (2012)۔ {cite:holder-ansar-dine-2012}
 - لوکا رائنیری، «ساحل میں مذہبی مکالمے، سماجی مضبوطی اور امن سازی»، ETRA-ID پالیسی بریف، اپریل 2024۔ {cite:raineri-sahel-brief-2024}
 - «وائس آف امریکہ»، «مالی کے صوفی قائدین انتہا پسندی کے خلاف دعوت دیتے ہیں»، 25 مئی 2016۔ {cite:voa-sufi-leaders-2016}

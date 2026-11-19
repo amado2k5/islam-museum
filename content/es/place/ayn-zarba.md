@@ -1,0 +1,26 @@
+---
+id: place/ayn-zarba
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/place/ayn-zarba.md}
+---
+## Visión general
+Ayn Zarba: una de las ciudades fronterizas de al-Sham. Al-Baladhuri tiene informes sobre su construcción y fortificación.
+
+## Edificio
+Al-Rashid ordenó que se construyera y fortificara la ciudad en el año 180 AH. Convocó a un grupo de personas de Jorasán y otros lugares, y les asignó viviendas allí. {cite:futuh-buldan-maarif-1407 p.234}
+
+## Incursiones en él
+Los bizantinos la saquearon mientras al-Qasim ibn al-Rashid estaba destinado en Dabiq, y se llevaron el ganado de sus habitantes y capturaron a algunos. Los habitantes de al-Masisa y sus voluntarios salieron en su contra y recuperaron lo robado. Al-Qasim envió tropas para fortificarla, repararla y aumentar su guarnición. {cite:futuh-buldan-maarif-1407 p.234}
+
+## Después
+Al-Mu'tasim asentó allí a un grupo de los Zutt, que habían invadido los pantanos entre Wasit y Basora, y sus habitantes se beneficiaron de ellos. {cite:futuh-buldan-maarif-1407 p.235}
+
+## En el Mu'jam al-buldan de Yaqut
+La entrada principal de Yaqut aparece con la grafía Ayn Zarbi, con una fatha en la zay, un sukun en la ra', un ba' y una alif corta; sugiere que el nombre podría provenir de la palabra que significa redil. La describe como una ciudad fronteriza en el distrito de al-Masisa. Según Ibn al-Faqih, su renovación y construcción fueron obra de Abu Sulayman el Turco, el sirviente que al-Rashid había puesto al mando de las fronteras, alrededor del año 190. Luego, los bizantinos la tomaron y la arruinaron, y Sayf al-Dawla ibn Hamdan gastó tres millones de dirhams para reconstruirla, tras lo cual los bizantinos la volvieron a tomar en su época, como él mismo afirma haber contado en Tarso; escribe que aún permanece en sus manos, que sus habitantes son ahora armenios y que pertenece a las tierras de Ibn Layun. Dos eruditos son mencionados por ella: Abu Muhammad Isma'il ibn Ali, el poeta al-Ayn Zarbi, de quien Yaqut cita dos versos, y Muhammad ibn Yunus ibn Hashim al-Ayn Zarbi, un recitador conocido como al-Iskaf, quien contó los versículos del Corán y murió el 18 de Dhu al-Hijja 411. Luego, en un pasaje que comienza con el nombre de al-Waqidi, dice que en 180 al-Rashid ordenó la construcción y fortificación de la ciudad de Ayn Zarbi, convocó un contingente de Jorasán y otros y les otorgó terrenos para viviendas; el pasaje continúa hasta la época de al-Mu'tasim, cuando algunos de los Zutt que habían invadido los pantanos entre Wasit y Basora fueron trasladados a ella y sus alrededores, en beneficio de la gente de la frontera. {cite:mujam-al-buldan-sader-1995 4 p.177-178}
+
+Una breve entrada bajo Zarba remite al lector a las entradas bajo 'ayn, y la llama una ciudad fronteriza cerca de al-Masisa. {cite:mujam-al-buldan-sader-1995 3 p.136} Bajo la frontera (al-Thaghr) cuenta una etapa desde al-Masisa hasta Ayn Zarba y otra desde al-Masisa hasta Adhana. {cite:mujam-al-buldan-sader-1995 2 p.79} Bajo Adhana informa a Ibn al-Faqih sobre la construcción de esa ciudad en 190 por Abu Salim, un sirviente turco de al-Rashid a quien nombró gobernador de las fronteras, quien también construyó Tarsus y Ayn Zarba; en esa entrada el nombre es Abu Salim, en la entrada de Ayn Zarbi Abu Sulayman, y el museo conserva ambas tal como están. {cite:mujam-al-buldan-sader-1995 1 p.133} Bajo Sisiya dice que se encuentra en Ayn Zarba. {cite:mujam-al-buldan-sader-1995 3 p.297}
+
+## La identificación del museo
+El relato, de al-Baladhuri, describe la orden de al-Rashid en el año 180, el reclutamiento de los jordasnos y otros con sus parcelas, la incursión bizantina en tiempos de al-Qasim y el asentamiento de al-Mu'tasim en el Zutt. Yaqut incluye la orden del año 180, el reclutamiento de los jordasnos y el Zutt, pero los presenta en un pasaje que comienza con el nombre de al-Waqidi, y la parte sobre al-Mu'tasim, que no puede ser palabra del propio al-Waqidi porque murió antes de ese reinado, aparece a continuación sin un nuevo nombre; el museo desconoce si Yaqut tomó el pasaje de al-Baladhuri, a quien no nombra aquí; añade la renovación alrededor del año 190 por Abu Sulayman según la palabra de Ibn al-Faqih, las pérdidas posteriores a manos de los bizantinos y la reparación bajo Sayf al-Dawla, nada de lo cual figura en el relato. Los dos informes no se contradicen a simple vista, ya que uno habla de ordenar una ciudad y el otro de renovarla y construirla, pero Yaqut no los concilia. La etiqueta del registro, "Anazarbus", y la identificación con el sitio que menciona en su nota de coordenadas, Dilekkaya en la provincia de Adana, son propias del museo y no aparecen en Yaqut. El punto del registro (37.2486, 35.9011) se encuentra a unos 41 km del punto Masisa del museo y a unos 58 km de su punto Adhana; la "etapa" de Yaqut desde al-Masisa es del orden de esa cifra en línea recta, y las líneas rectas y las etapas son medidas aproximadas. Véase también [[place/masisa|al-Masisa]].

@@ -1,0 +1,12 @@
+---
+id: event/abdullah-ibn-al-husayn-comes-from-the-hijaz-and-al-daam-declines-to-march-288
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/abdullah-ibn-al-husayn-comes-from-the-hijaz-and-al-daam-declines-to-march-288.md}
+---
+## Visión general
+[[person/al-hadi-yahya-al-rassi|al-Hadi]] permaneció en Raydah dos días, y luego [[person/abu-al-atahiya-ibn-bishr|Abu al-Atahiya]] llegó a él con un ejército de Hamdan; cuando llegó, al-Hadi marchó hasta detenerse en [[place/madar-yemen|Madar]] y permaneció allí algunos días {cite:sira-hadi-ila-al-haqq p.224}. Su hermano [[person/abdullah-ibn-al-husayn-al-rassi|Abdullah ibn al-Husayn]] llegó entonces a él con unos ochenta hombres de Mudar y algunos Alids que habían venido con él desde el Hiyaz; trajo a sus mujeres, las instaló en Sa'da y se unió a al-Hadi {cite:sira-hadi-ila-al-haqq p.224}. Cuando llegó, al-Hadi le dijo que se reuniera con [[person/al-daam-ibn-ibrahim|al-Da'am ibn Ibrahim]] y le pidiera ayuda contra [[group/banu-tarif|Al Tarif]], como al-Da'am había prometido {cite:sira-hadi-ila-al-haqq p.224}. Cuando Abdullah ibn al-Husayn se encontró con al-Da'am, lo disuadió de la guerra contra Banu Tarif, diciendo que los hombres estaban en un ejército al que no podían enfrentarse; se excusó de marchar y se retractó de lo que le había prometido a al-Hadi {cite:sira-hadi-ila-al-haqq p.224} {cite:sira-hadi-ila-al-haqq p.225}. Abdullah ibn al-Husayn regresó con al-Hadi y le contó que al-Da'am lo había defraudado {cite:sira-hadi-ila-al-haqq p.225}.
+
+## Detalle
+La cláusula que el escaneo imprime como al-Hadi apartándose de la guerra contra Banu Tarif no se lee literalmente como está impresa, y el escaneo la lee igual; el museo la entiende por el contexto como al-Da'am apartando a Abdullah de la guerra, ya que la página siguiente habla de que al-Da'am lo decepcionó, por lo que la lectura es probable pero no segura. El número de hombres de Mudar es el del narrador, unos ochenta. No se nombra a las mujeres de Abdullah. No se indica mes ni día, y el orden de los eventos es el de la página 224, que sigue a la página 223 que falta. Aparece antes de [[event/al-hadi-routs-al-yafur-and-al-tarif-before-sanaa-288]].

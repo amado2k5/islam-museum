@@ -1,12 +1,13 @@
 id: event/abu-al-hayja-hamadan-593
 class: event
 kind: campaign
-label: { ar: "إرسال الأمير أبي الهيجاء إلى همذان", en: "Abu al-Hayja sent against Hamadan" }
+label: { ar: "إرسال الأمير أبي الهيجاء إلى همذان", en: "Abu al-Hayja sent against Hamadan", fr: "Abu al-Hayja envoyé contre Hamadan" }
 date:
   start: { edtf: "1196~", hijri: "0593", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
   ar: "أرسل الخليفة الناصر الأمير أبا الهيجاء إلى همذان فملكها وما حولها من بلاد الجبل، وتغلب عليها خوارزم شاه تكش فأكرمه وزير الخليفة وأحسن إليه وردّه ليقاتل معه {cite:kamil-ibn-al-athir p. 236}."
   en: "Al-Nasir sent the amir Abu al-Hayja to Hamadan and took it with its Jibal; when Khwarazmshah Tekish overran the country the vizier received him with honor and turned him back {cite:kamil-ibn-al-athir p. 236}."
+  fr: "Al-Nasir envoya l’émir Abu al-Hayja à Hamadan et s’en empara avec le Jibal environnant ; lorsque le Khwarazmshah Tekish envahit le pays, le vizir le reçut avec honneur et le fit repartir {cite:kamil-ibn-al-athir p. 236}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/hamadan, sources: [source/kamil-ibn-al-athir] }

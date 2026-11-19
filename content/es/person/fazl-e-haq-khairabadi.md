@@ -1,0 +1,29 @@
+---
+id: person/fazl-e-haq-khairabadi
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/fazl-e-haq-khairabadi.md}
+---
+# Fazl-e-Haq Khairabadi
+
+## Resumen
+Fazl-e-Haq Khairabadi (1797–1861) fue un muftí hanafí indio, teólogo, filósofo maturidi y poeta originario de Khairabad en Awadh, conocido como Allama Fazl-e-Haq. Erudito de las ciencias racionales y transmitidas, escribió Tahqeeq al-Fatwa fi Ibtal al-Taghwa en refutación de la Taqwiyat al-Iman de Shah Ismail Dehlvi, y en 1857 emitió una fatwa en apoyo de la yihad militar contra el dominio colonial británico, por lo que fue exiliado a las islas Andamán y murió allí en prisión. {cite:wikipedia-fazl-e-haq-khairabadi-en} {cite:wikidata-fazl-e-haq-khairabadi}
+
+Su año de nacimiento figura como 1796 por el Congreso de Historia de la India y como 1797 por Asir Adrawi y otras fuentes; el registro sigue 1797 y marca el año debatido. Su día de muerte también divide las fuentes: el artículo en inglés indica el 19 de agosto de 1861 sobre la autoridad de Asir Adrawi, el artículo en árabe y Wikidata el 20 de agosto de 1861. {cite:wikipedia-fazl-e-haq-khairabadi-en} {cite:wikipedia-fazl-e-haq-khairabadi-ar} {cite:wikidata-fazl-e-haq-khairabadi}
+
+## Infancia y educación
+Nació en Khairabad, en el actual distrito de Sitapur. Su padre, Fazl-e-Imam Khairabadi, era Sadr al-Sudur, principal asesor de la corte mogol en asuntos religiosos y una autoridad destacada en ciencias intelectuales, conocido como Imam-i Maqulat. Fazl-e-Haq comenzó su educación bajo la tutela de su padre; estudió hadiz con Shah Abd al-Qadir Muhaddith Dehlavi y con Shah Abd al-Aziz Dehlvi. En sufismo, según relata el artículo en inglés, fue alumno de Hafiz Muhammad Ali Khairabadi, con quien también estudió Fusus al-Hikam de Ibn Arabi; Hafiz Khairabadi fue un representante espiritual de Shah Sulaiman Tonswi, un destacado Chishti del subcontinente. Había memorizado el Corán en poco más de cuatro meses y completó el currículo de árabe, persa y religioso a los trece años. {cite:wikipedia-fazl-e-haq-khairabadi-en} {cite:wikipedia-fazl-e-haq-khairabadi-ar}
+
+## Carrera y escritos
+Se convirtió en maestro a los trece años y en 1828 fue nombrado muftí en el Departamento de Qaza. Fue una figura literaria en urdu, árabe y persa, con más de cuatrocientos pareados árabes atribuidos a él, y editó el primer diwan de Mirza Ghalib a petición de Ghalib; la réplica entre ambos hombres se hizo famosa. Junto con su hijo Abdul Haq fundó la Madrasa Khairabad en el norte de la India. Era considerado la última autoridad en fatwas en su círculo y recibió el título de Allama. {cite:wikipedia-fazl-e-haq-khairabadi-en}
+
+Entre sus obras se encuentran Tahqeeq al-Fatwa fi Ibtal al-Taghwa (1825), su refutación del Shah Ismail Dehlvi —en particular de la doctrina de Dehlvi sobre el imkan al-kidhb, que dice que es posible que Dios mienta, a la que Khairabadi respondió sosteniendo que mentir es un defecto y que un defecto es imposible para Dios— y al-Thawra al-Hindiyya, su relato y análisis en árabe de la rebelión de 1857, descrito como el primer libro escrito sobre esos acontecimientos, compuesto durante su encarcelamiento. {cite:wikipedia-fazl-e-haq-khairabadi-en}
+
+## Fe
+En este museo su fe está registrada como sunni-hanafi, documentada. El texto del artículo en inglés afirma que seguía la escuela hanafi y fue teólogo de la escuela maturidi, citando su propio al-Rawdh al-Mucawwad y Abjad al-Ulum de Siddiq Hasan Khan, y el recuadro informativo del artículo en urdu indica el mismo fiqh y denominación. El credo Maturidi aparece en su nota de datos en lugar de como valor, ya que los valores de fe del museo no incluyen valor maduro ni compuesto. Su discipulado sufí —estudio bajo el jalifa Chishti Hafiz Muhammad Ali Khairabadi, registrado en una única fuente del instituto, y la afirmación de Anil Sehgal de que fue venerado como un gran sufí, repetida en el artículo árabe del mismo libro— también se conserva en la nota de datos como una sola familia de atestigos, no registrada como un segmento. {cite:wikipedia-fazl-e-haq-khairabadi-en} {cite:wikipedia-fazl-e-haq-khairabadi-ur}
+
+## La fatwa de 1857, juicio y muerte
+Durante la primavera de 1857 mantuvo reuniones privadas con el emperador mogol Bahadur Shah Zafar. El 26 de junio de 1857, tras la llegada de Bakht Khan a Delhi con su ejército, Khairabadi predicó el sermón del viernes ante una asamblea de eruditos y emitió un edicto religioso apoyando la yihad contra el gobierno colonial, firmado por Sadruddin Azurda, Abdul Qadir, Faizullah Dehlavi, Faiz Ahmed Badayuni, Wazir Khan y Syed Mubarak Shah Rampuri. {cite:wikipedia-fazl-e-haq-khairabadi-en}
+
+Fue arrestado en Khairabad el 30 de enero de 1859 y juzgado por incitar a la violencia y por su papel en la rebelión. Actuando como su propio abogado, se defendió de manera tan convincente, según informan las fuentes, que el magistrado presidente estaba redactando una sentencia para exonerarle cuando Khairabadi confesó haber emitido la fatwa, declarando que no podía mentir. Fue condenado a cadena perpetua en las islas Andamán, sus propiedades fueron confiscadas y llegó allí el 8 de octubre de 1859 a bordo de la fragata de vapor Fire Queen. Murió en cautiverio en agosto de 1861, dejando testimonios presenciales de la rebelión en verso árabe y en al-Thawra al-Hindiyya. La única afirmación en el artículo en urdu de que fue ahorcado en febrero de 1861 se basa en un único sitio web devocional y no está respaldada por las demás fuentes. {cite:wikipedia-fazl-e-haq-khairabadi-en} {cite:wikipedia-fazl-e-haq-khairabadi-ar} {cite:wikipedia-fazl-e-haq-khairabadi-ur}

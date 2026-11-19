@@ -1,0 +1,18 @@
+---
+id: place/ashir
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/ashir.md}
+---
+## Vue d'ensemble
+D'après al-Idrisi, il s'agit d'une ville appelée Ashir Ziri. Elle possède une plaine sablonneuse et des sources d'eau, et se situe près de Sutayt. {cite:nuzhat-al-mushtaq-2002 p.256}
+
+## Encyclopédie de l'Islam : fondation et Zirides
+Ashir est une ancienne ville fortifiée d'Afrique du Nord, située à environ 100 km au sud-sud-ouest d'Alger, dans les monts Titéri. Elle apparaît dans l'histoire durant la première moitié du IVe/Xe siècle, au pays des Sanhaja, à la frontière occidentale de leur territoire. Les Sanhaja étaient des Berbères des hauts plateaux qui soutenaient les Fatimides d'Ifriqiya contre les Zanata des plaines d'Oran, partisans des Omeyyades de Cordoue. En récompense de ses services rendus aux Fatimides, notamment lors de la révolte d'Abou Yazid, Ziri obtint en 324 H (935) l'autorisation du calife fatimide al-Qa'im de fonder une ville, ce qui conférait au chef tribal un prestige et une autonomie proches de ceux d'un souverain. L'article mentionne qu'al-Bakri et Ibn al-Athir attribuent la fondation de la ville fortifiée d'Ashir à Bulukkin, fils de Ziri ; al-Bakri la date de 364 H (974). La nouvelle ville fut peuplée artificiellement avec des éléments venus de Tobna, Msila, Hamza (aujourd'hui Bouira) et plus tard de Tlemcen. {cite:encyclopaedia-of-islam-2 vol. 1 p. 748-750}
+
+## Encyclopédie de l'Islam : les Hammadides et la fin
+Bulukkin, après avoir été investi par le Fatimide al-Mu'izz, qui quitta Ifriqiya pour le Caire en 363 H (973), quitta Ashir pour al-Qayrawan, bien que sa famille soit restée sur place. La frontière du royaume ziride fut confiée aux Banu Hammad, et Ashir entra sur leur territoire lorsque leur sécession fut reconnue par l'accord de 408 H (1017). Sa possession fut contestée au sein de la famille ; Yusuf ibn Hammad s'en empara peu après 440 H (1048) et ses troupes la pillèrent. En 468 H (1076), elle fut assiégée et occupée par les Zanata, puis reprise par les Banu Hammad. En 495 H (1101), le gouverneur almoravide de Tlemcen, Tashfin ibn Tinmar, la prit et la détruisit. Restaurée une fois de plus par ses maîtres hammadides, elle tomba vers 580 H (1184) aux mains de Ghazi Sanhaji, allié des Banu Ghaniya. Après cette date, son nom disparaît de l'histoire. {cite:encyclopaedia-of-islam-2 vol. 1 p. 748-750}
+
+## Encyclopédie de l'Islam : les trois sites
+Trois sites du Titéri, tous d'origine musulmane, peuvent être interprétés comme trois phases de la Sanhaja ziride. Manzah Bint al-Sultan est une enceinte fortifiée dominant une éminence rocheuse d'environ 276 mètres de long, dotée d'un corps de garde et d'une grande citerne ; il s'agissait d'un refuge et d'un poste d'observation plutôt que d'une ville. Yashir, une enceinte rectangulaire avec une source nommée 'Ayn Yashir, abritait, selon les fouilles de M.L. Golvin, un château de pierre à plan symétrique, dont l'entrée rappelle celle du palais fatimide d'al-Qa'im à Mahdiyya ; il est identifié à la fondation de Ziri (324 H, 934-935). Benia, située à deux kilomètres et demi de là, de l'autre côté d'une vallée, est probablement la ville de Bulukkin (364 H), décrite précisément par al-Bakri. La bibliographie de cette entrée n'est pas transcrite. {cite:encyclopaedia-of-islam-2 vol. 1 p. 748-750}

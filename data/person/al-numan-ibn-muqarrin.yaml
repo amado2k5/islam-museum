@@ -1,23 +1,24 @@
 id: person/al-numan-ibn-muqarrin
 aliases: [person/al-numan-ibn-muqrin]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves
 class: person
-label: { ar: "النعمان بن مقرن", en: "al-Nu'man ibn Muqarrin" }
+label: { ar: "النعمان بن مقرن", en: "al-Nu'man ibn Muqarrin", fr: "al-Nu'man ibn Muqarrin" }
 summary:
   ar: "النعمان بن عمرو بن مقرن المزني؛ عند البلاذري كان عاملاً على كسكر وناحيتها ويقال كان بالمدينة فولاه عمر أمر جيش نهاوند وقال له أما إني سأستعملك فقال أما جابياً فلا ولكن غازياً قال فأنت غاز وكتب إليه إن أصبت فالأمير حذيفة بن اليمان فإن أصيب فجرير بن عبد الله فإن أصيب فالمغيرة بن شعبة فإن أصيب فالأشعث بن قيس وكان معه السائب بن الأقرع الثقفي. وقال في حملته بنهاوند إني هازّ لوائي ثلاث مرات فأولها لقضاء الحاجة وثانيها لشد الشسع ولزوم السلاح فإذا هززت الثالثة فاحملوا ولا يلوين أحد على أحد وإن قتل النعمان وإني داعٍ الله بدعوة اللهم ارزق النعمان اليوم شهادة في نصر وفتح عليهم فكان أول صريع وسفطه فيه كتاب خلفائه واحداً فواحداً {cite:muruj-al-dhahab p. 618-619}"
   en: "al-Nu'man ibn Amr ibn Muqarrin al-Muzani; in al-Baladhuri governor over Kaskar and its district — or at Medina — when Umar gave him the Nihawand army: 'I am employing you' — 'not as a tax-gatherer, but as a ghazi' — 'a ghazi, then'; the succession letter ran Hudhayfa ibn al-Yaman, then Jarir, then al-Mughira, then al-Ash'ath ibn Qays, with al-Sa'ib ibn al-Aqra' al-Thaqafi beside him."
+  fr: "al-Nu'man ibn Amr ibn Muqarrin al-Muzani ; dans al-Baladhuri gouverneur sur Kaskar et son district - ou à Médine - quand Umar lui a donné l'armée Nihawad : « Je vous emploie » - « pas comme un collecteur d'impôts, mais comme un ghazi' - 'un ghazi, alors' ; la lettre de succession a couru Hudhayfa ibn al-Yaman, puis Jarir, puis al-Mughira, puis al-Ash'ath ibn Qays, avec al-Sa'ib ibn al-Aqra' al-Thaqafi à ses côtés."
 wings: [people]
 periods: [period/rashidun]
 regions: [levant-iraq, persia-central-asia]
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 425"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 425"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-41
 sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 died: { edtf: "641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba Confirmed on 13 November 2026 against Wikidata Q3299880 (P570, a statement with a reference), item revision 2567442188.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab], confidence: low }
+  - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name ⁦(الثقفي)⁩; denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab], confidence: low }
   - {confidence: low, note: Only the record-level region (arabia) is attested; broad-region edge flagged for review., sources: [source/kamil-ibn-al-athir], target: place/jazirat-al-arab, type: lived_in}
 external_ids: {wikidata: Q3299880}
 names:

@@ -7,7 +7,7 @@ translators: []
 
 ## خلاصہ
 
-مولای حسن (پیدائش 2003) مراکش کے ولی عہد، شاہ محمد ششم و شہزادی للا سلمیٰ کے بڑے بیٹے ہیں، اور دادا شاہ حسن ثانی کے نام پر رکھے گئے {cite:wikipedia-moulay-hassan-en} {cite:wikipedia-moulay-hassan-ar}۔ وہ 2013 سے سرکاری تقاریب میں والد کے ساتھ شریک ہیں {cite:wikipedia-moulay-hassan-en}۔
+مولای حسن ⁦(پیدائش 2003)⁩ مراکش کے ولی عہد، شاہ محمد ششم و شہزادی للا سلمیٰ کے بڑے بیٹے ہیں، اور دادا شاہ حسن ثانی کے نام پر رکھے گئے {cite:wikipedia-moulay-hassan-en} {cite:wikipedia-moulay-hassan-ar}۔ وہ 2013 سے سرکاری تقاریب میں والد کے ساتھ شریک ہیں {cite:wikipedia-moulay-hassan-en}۔
 
 ## زندگی و کام
 

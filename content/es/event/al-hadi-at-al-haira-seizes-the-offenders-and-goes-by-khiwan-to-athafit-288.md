@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-at-al-haira-seizes-the-offenders-and-goes-by-khiwan-to-athafit-288
+lang: es
+source_lang: en
+translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
+provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-es-2026-11-18, source: content/en/event/al-hadi-at-al-haira-seizes-the-offenders-and-goes-by-khiwan-to-athafit-288.md}
+---
+## Visión general
+A la mañana siguiente, [[person/al-hadi-yahya-al-rassi|al-Hadi]] continuó su marcha y llegó a una ciudad Hamdani llamada [[place/al-haira-hamdan-yemen|al-Ha’ira]]; según el narrador, algunos hombres imprudentes de la zona habían hostigado a unos peregrinos. {cite:sira-hadi-ila-al-haqq p.203} Al llegar, envió un mensaje a los habitantes del lugar y les ordenó que entregaran a los culpables; estos salieron inmediatamente a buscarlos. {cite:sira-hadi-ila-al-haqq p.203}
+
+## Detalle
+Estuvo dos días en el pueblo, donde no había agua ni forraje, más allá de una pequeña cantidad que se había traído para el ejército desde lejos; los habitantes de allí bebían de una escasa fuente que no era suficiente. El narrador afirma que, cuando llegó al-Hadi y se estableció allí, Dios bendijo esa agua. Se trata de un hecho extraordinario relatado por un seguidor del imán, atribuido a él, pero no confirmado por el museo. {cite:sira-hadi-ila-al-haqq p.203} Al-Hadi permaneció allí hasta que los culpables fueron presentados; ordenó que fueran atados con cadenas y los llevó consigo a [[place/khiwan|Khaywan]], donde llegó un miércoles y permaneció hasta el domingo, nueve noches después del inicio del Muharram de 288 H, momento en que partió hacia [[place/athafit|Athafit]]; otro manuscrito indica que fueron siete, y el día de la semana difiere en un día con respecto al calendario tabular, por lo que la fecha se mantiene con una precisión mensual. {cite:sira-hadi-ila-al-haqq p.203} Al-Hadi había enviado a su hijo, Abu al-Qasim, a Athafit un día después de llegar al lugar; permaneció allí un día y partió a la mañana siguiente. {cite:sira-hadi-ila-al-haqq p.203} Esto se deduce [[event/al-hadi-leaves-saada-for-khiwan-and-meets-al-daam-at-al-amshiyya-288]] y conduce a [[event/al-hadi-at-raydah-lifts-unlawful-levies-and-calls-the-people-to-go-out-with-him-288]].

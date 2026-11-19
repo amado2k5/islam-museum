@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-leaves-najran-for-saada-in-dhu-al-qada-292
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-hadi-leaves-najran-for-saada-in-dhu-al-qada-292.md}
+---
+## Vue d'ensemble
+Al-Hadi séjourna à Najran ; le calme revint, les gens se mêlèrent et la région se stabilisa. Tous les habitants de Yam et des Banu al-Harith cherchèrent refuge auprès de lui, jusqu’à ce que sept jours se soient écoulés depuis le mois de Dhu al-Qa’da {cite:sira-hadi-ila-al-haqq p.295}. Sous le titre « Le départ d’Al-Hadi pour Sa’da » : « Au mois de Dhu al-Qa’da de l’an deux cent quatre-vingt-onze, al-Hadi quitta Najran pour se rendre à Sa’da où il demeura » {cite:sira-hadi-ila-al-haqq p.295}.
+
+## Détail
+Le texte mentionne ici « quatre-vingt-onze », tandis que la reconnaissance optique de caractères (OCR) et la lecture de l'image de la page donnent « un et quatre-vingt-dix » (le point du « ayn » étant manquant). L'impression date donc de 291 AH. Cependant, le récit précédent, qui suit le serment de Jumada Ier en 292, indique le dimanche quatre jours après le début de Rajab et le lundi dix-septième jour de Sha'ban, dates qui concordent avec le calendrier tabulaire de 292 H et non de 291. L'événement est donc daté de Dhu al-Qa'da 292, avec une date dérivée, et la notice indique que le texte imprimé mentionne 291. Le musée ne corrige ni le texte ni n'accepte cette contradiction. Il pourrait s'agir d'une erreur de copiste ou d'éditeur, ou bien l'année en question pourrait être celle du début de l'entrée à Najran. La question est consignée dans le registre pour une source externe. Le texte ne donne aucune raison de s'arrêter à la suite des lettres Hakami, qui apparaissent dans [[event/the-hakami-letters-and-the-oaths-and-abu-al-qasim-sent-to-khaywan-292|l'événement suivant]]. Voici le récit des partisans de l'imam dans un ouvrage zaydite. Les précédents retours d'al-Hadi à Sa'da sont mentionnés lors [[event/ibn-bustam-is-given-safety-and-al-hadi-leaves-najran-for-saada-287|de son départ en 287]] et [[event/al-hadi-leaves-his-son-at-sada-and-goes-down-to-najran-where-banu-al-harith-ask-pardon-289|de sa chute en 289]].

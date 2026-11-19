@@ -1,0 +1,33 @@
+---
+id: event/raid-of-ibn-abi-hadrad-on-batn-idam
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/raid-of-ibn-abi-hadrad-on-batn-idam.md}
+---
+## Visión general
+Ibn Ishaq dice que la incursión de [[person/abdullah-ibn-abi-hadrad|Ibn Abi Hadrad]] y sus compañeros al valle de [[place/idam|Idam]] fue antes de la conquista. {cite:ibn-hisham-saqqa 4/275} El propio Abd Allah ibn Abi Hadrad lo relata, a través de la cadena de Yazid ibn Abd Allah ibn Qusayt de al-Qa'qa' ibn Abd Allah ibn Abi Hadrad de su padre. El Profeta los envió a Idam con varios musulmanes, entre ellos Abu Qatada al-Harith ibn Rib'i y [[person/muhallim-ibn-jaththama|Muhallim ibn Jaththama]]. {cite:ibn-hisham-saqqa 4/275}
+
+## El asesinato de Amir ibn al-Adbat
+Cuando estaban en el valle de Idam, [[person/amir-ibn-al-adbat-al-ashjai|Amir ibn al-Adbat al-Ashja'i]] pasó junto a ellos en su camello, con un cuenco y un odre de leche. Los saludó con el saludo del Islam, pero ellos se resistieron. Muhallim lo atacó y lo mató «por algo que había habido entre ellos», y se llevó su camello y sus pertenencias. {cite:ibn-hisham-saqqa 4/275} Cuando acudieron al Profeta y le contaron lo sucedido, se reveló acerca de ellos el versículo de [[passage/quran-4-94|al-Nisa' 94]], según Ibn Abi Hadrad, sobre la necesidad de investigar y no decir a quien saluda «no eres creyente», buscando los bienes de este mundo. {cite:ibn-hisham-saqqa 4/275} Ibn Hisham dice que Abu Amr ibn al-Ala' recitó «al-salam» basándose en este relato. {cite:ibn-hisham-saqqa 4/275}
+
+## La disputa por la sangre en Hunayn
+Ibn Ishaq relata de Muhammad ibn Ja'far ibn al-Zubayr, de Ziyad ibn Dumayra ibn Sa'd al-Sulami, de Urwa ibn al-Zubayr, de su padre y abuelo, ambos testigos de Hunayn: el Profeta rezó la oración del mediodía y luego se sentó bajo un árbol en Hunayn. [[person/al-aqra-ibn-habis|Al-Aqra ibn Habis]] y [[person/uyayna-ibn-hisn|Uyayna ibn Hisn]] vinieron a él disputando sobre Amir ibn al-Adbat: Uyayna exigió su sangre, y él era entonces el jefe de los [[group/ghatafan|Ghatafan]]; al-Aqra defendió a Muhallim debido a su posición entre los Khindif. {cite:ibn-hisham-saqqa 4/276} Uyayna dijo: por Dios, no lo dejaré hasta que haga que sus mujeres prueben el fuego como él hizo probar a mis mujeres. El Profeta dijo: «No, aceptaréis la compensación por la sangre, cincuenta en este viaje y cincuenta a nuestro regreso». Pero Uyayna se negó. {cite:ibn-hisham-saqqa 4/276} Un hombre de los Banu Layth llamado Mukaythir, a quien Ibn Hisham llama Mukaytil, se levantó y dijo: «He encontrado a este hombre asesinado como ninguna otra oveja que fue a beber agua y fue asesinada al primer ejemplar, por lo que el resto se dispersó; estableced una costumbre hoy y cambiadla mañana». El Profeta alzó la mano y repitió la oferta de la compensación por la sangre, y ellos la aceptaron. {cite:ibn-hisham-saqqa 4/276}
+
+## "Oh Dios, no perdones a Muhammad"
+Entonces dijeron: ¿Dónde está tu compañero por quien el Mensajero de Dios debería pedir perdón? Un hombre alto y moreno, con la túnica con la que lo habían preparado para la muerte, se levantó y se sentó ante el Profeta. El Profeta le preguntó su nombre; él dijo: Soy Muhallim ibn Jaththama. El Profeta alzó la mano y dijo: ¡Oh Dios, no perdones a Muhallim ibn Jaththama!, tres veces. Se levantó recogiendo sus lágrimas con el borde de su manto. {cite:ibn-hisham-saqqa 4/276} El narrador dice: Entre nosotros decimos que esperamos que el Profeta haya pedido perdón por él, pero lo que apareció de él fue esto. {cite:ibn-hisham-saqqa 4/277}
+
+Ibn Ishaq relata de «[[person/al-hasan-al-basri|al-Hasan al-Basri]]», de «uno del que no dudo», que el Profeta le dijo cuando estaba sentado: «¡Le disteis seguridad en Dios y luego lo matasteis!». Muhallim no vivió más de siete días antes de morir, y la tierra lo expulsó repetidamente, hasta que su gente se dirigió a dos acantilados, lo colocaron entre ellos y lo cubrieron con piedras. Cuando el Profeta se enteró, dijo: «La tierra se cierra sobre alguien peor que él, pero Dios quiso amonestaros en el lugar sagrado entre vosotros mediante lo que os mostró de él». {cite:ibn-hisham-saqqa 4/277}
+
+## Las palabras de Al-Aqra a Qays
+Ibn Ishaq relata de Salim Abu al-Nadr que le dijeron que al-Aqra estaba solo con Uyayna y Qays y dijo: «¡Oh, compañía de Qays! Impedisteis que el Mensajero de Dios recibiera a un hombre asesinado, a través del cual la gente podría ser enmendada. ¿No teméis que os maldiga y que Dios os maldiga con Su maldición, o que se enoje con vosotros y que Dios se enoje con Su ira? O se lo entregáis al Mensajero de Dios para que haga con él lo que quiera, o traeré cincuenta hombres de los Banu Tamim que jurarán por Dios que vuestro compañero fue asesinado siendo un incrédulo que nunca oró, y derramaré su sangre». Al oír esto, aceptaron el pago por la sangre. {cite:ibn-hisham-saqqa 4/277}
+
+## En el museo
+El informe se basa en los principios de "investigación" en la lucha: quien saluda no es asesinado bajo sospecha de hipocresía ni por botín, y en los primeros tiempos del Islam, un asesinato se castigaba con una compensación económica en lugar de represalias, para evitar el repudio de la gente, con el Profeta declarando su ira contra el asesino. El museo se detiene en el relato de la tierra rechazando el cuerpo, en el límite de su narración: un mensaje de al-Hasan al-Basri a través de un narrador que Ibn Ishaq no identificó. {cite:ibn-hisham-saqqa 4/277}
+
+## Marcas del informe
+- La primera cadena se extiende de forma continua hasta Ibn Abi Hadrad. El relato de la disputa proviene de Ziyad ibn Dumayra (Abu Dhar dice que se escribe con una mim y que también se lee "Dubayra", siendo la forma correcta con la mim, como en al-Bukhari). {cite:ibn-hisham-saqqa 4/275}
+- «Mukaythir» en Ibn Ishaq y «Mukaytil» en Ibn Hisham; «del Harqa» y en una copia «del calor». {cite:ibn-hisham-saqqa 4/276}
+- Ibn Hisham dice: "Muhallim en toda esta historia proviene de alguien distinto a Ibn Ishaq... e Ibn Ishaq dijo: Mulajjim, como Ziyad me lo contó de él." {cite:ibn-hisham-saqqa 4/277}
+- El informe de al-Hasan al-Basri de un tal Ibn Ishaq no lo menciona como una misiva. {cite:ibn-hisham-saqqa 4/277}
+- "Ghayyir ghadan", donde "ghiyar" significa dinero de sangre; también se lee "ghabbir" con una ba (Abu Dhar). {cite:ibn-hisham-saqqa 4/276}

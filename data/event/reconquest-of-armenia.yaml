@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/umayyad]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0692~", hijri: "0073~", calendar: julian, precision: year, status: tradition, derived: true, note: "في فتنة ابن الزبير وإثرها (البلاذري ص 288–289). التحويل مشتق." }
+  start: { edtf: "0692~", hijri: "0073~", calendar: julian, precision: year, status: tradition, derived: true, note: "في فتنة ابن الزبير وإثرها ⁦(البلاذري ص 288–289)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/armenia }
   - { type: had_participant, target: person/muhammad-ibn-marwan, role: "الوالي المسترد والمعاقب للنبلاء بالكنائس", sources: [source/futuh-buldan-maarif-1407] }
@@ -18,7 +18,7 @@ relations:
   - { type: during_reign, target: person/abd-al-malik-ibn-marwan, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 288–289"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 288–289"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-17
 sides:

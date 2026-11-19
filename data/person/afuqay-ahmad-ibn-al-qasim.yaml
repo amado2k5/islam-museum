@@ -1,6 +1,6 @@
 id: person/afuqay-ahmad-ibn-al-qasim
 class: person
-label: { ar: "أفوقاي أحمد بن القاسم الحجري", en: "Afuqay, Ahmad ibn al-Qasim al-Hajari" }
+label: { ar: "أفوقاي أحمد بن القاسم الحجري", en: "Afuqay, Ahmad ibn al-Qasim al-Hajari", fr: "Afuqay, Ahmad ibn al-Qasim al-Hajari" }
 names:
   - { kind: full, lang: ar, value: "أحمد بن القاسم بن الفقيه قادم الحجري الأندلسي" }
 gender: male
@@ -10,6 +10,7 @@ born: { edtf: "1570", hijri: "0977", calendar: julian, precision: year, status: 
 summary:
   ar: "أندلسي من محلة الحجر الأحمر قرب غرناطة، عاش تحت الحكم الإسباني، ويُلقب بالشهاب."
   en: "An Andalusian from the Red Stone quarter near Granada. He lived under Spanish rule and was known as al-Shihab."
+  fr: "Andalou du quartier de la Pierre rouge près de Grenade. Il vécut sous domination espagnole et était connu comme al-Shihab."
 wings: [people]
 themes: [literature]
 periods: [period/gunpowder-empires]
@@ -22,9 +23,9 @@ status:
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص218"
+  source: "موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج2 ص218"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch48
 relations:
-  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (الأندلسي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
+  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name ⁦(الأندلسي)⁩; denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

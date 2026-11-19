@@ -1,6 +1,6 @@
 id: person/al-zibriqan-ibn-badr
 class: person
-label: { en: "al-Zibriqan ibn Badr", ar: "الزبرقان بن بدر", ur: "الزبرقان بن بدر" }
+label: { en: "al-Zibriqan ibn Badr", fr: "al-Zibriqan ibn Badr", ar: "الزبرقان بن بدر", ur: "الزبرقان بن بدر" }
 names:
   - { kind: full, lang: ar, value: "الزبرقان بن بدر التميمي، أحد بني بهدلة بن عوف بن كعب بن سعد بن زيد مناة بن تميم" }
 gender: male
@@ -8,6 +8,7 @@ roles: [poet, companion]
 traditions: [sunni]
 summary:
   en: "A Tamimi notable and poet of Banu Bahdala of Sa'd who came among his people's chiefs to Medina in 9 AH and declaimed a boast before the Prophet; Hassan ibn Thabit answered him, al-Aqra' conceded the Muslims' superiority, and he accepted Islam; later sources make him sadaqa collector over part of Banu Sa'd."
+  fr: "Un Tamimi notable et poète de Banu Bahdala de Sa'd qui est venu parmi les chefs de son peuple à Médine en 9 de l’hégire et déclamé une vantardise devant le Prophète ; Hassan ibn Thabit lui a répondu, al-Aqra' a concédé la supériorité des musulmans, et il a accepté l'Islam  ; les sources ultérieures font de lui un collectionneur de sadaqa sur une partie de Banu Sa'd."
   ar: "سيد وشاعر من بني تميم، أحد بني بهدلة بن عوف من سعد؛ جاء في وفد رؤساء قومه سنة 9هـ وقام فأنشد قصيدته في الفخر بين يدي النبي، فأجابه حسان بن ثابت، وحكم الأقرع بن حابس للمسلمين، فأسلم؛ وتذكر المصادر المتأخرة أن النبي ولّاه الصدقة على قسم من بني سعد."
   ur: "بنو بہدلہ بن سعد کا تمیمی سردار اور شاعر جو 9 ہجری میں اپنے قوم کے سرداروں کے ساتھ مدینہ آیا اور نبی کے سامنے فخر کا کلام پڑھا؛ حسان نے جواب دیا۔"
 wings: [people]
@@ -15,9 +16,9 @@ themes: [converts-and-leavers, skirmishes-raids-expeditions, literature]
 periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
-  - { role: poet, status: tradition, note: "شاعر وفد بني تميم؛ فاخر فأجابه حسان (ابن هشام ص208-209؛ الرحيق ص426).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  - { role: poet, status: tradition, note: "شاعر وفد بني تميم؛ فاخر فأجابه حسان ⁦(ابن هشام ص208-209؛ الرحيق ص426)⁩.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { role: convert, start: { edtf: "0631" }, status: tradition, note: "أسلم مع وفد بني تميم بعد مبارزة الخطابة والشعر.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
-  - { role: official, start: { edtf: "0631" }, status: tradition, note: "مصدّق إلى قسم من بني سعد (الرحيق ص425).", sources: [source/mubarakpuri-raheeq] }
+  - { role: official, start: { edtf: "0631" }, status: tradition, note: "مصدّق إلى قسم من بني سعد ⁦(الرحيق ص425)⁩.", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631" }, sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 died: { edtf: "665~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }

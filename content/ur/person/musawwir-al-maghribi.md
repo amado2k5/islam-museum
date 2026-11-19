@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b72, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/162" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b72, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/162" }
 ---
 ## خلاصہ
 مساور مغربی بیابانوں میں رہنے والے اور باوقار تھے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 533)⁩ صفحہ 162 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 533 ہے، تسلسل میں 534۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/162}
