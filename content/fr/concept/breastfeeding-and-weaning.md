@@ -2,23 +2,27 @@
 id: concept/breastfeeding-and-weaning
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/breastfeeding-and-weaning.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/breastfeeding-and-weaning.md
 ---
 ## Résumé
-Dans son commentaire sur al-Baqara 2:233, Sha'rawi traite de la période d'allaitement, des droits de l'enfant sur ses deux parents et du devoir d'entretien du père, et considère le sevrage comme une question nécessitant un consentement et une consultation mutuels. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1004}
+Commentant al-Baqara 2:233, Sha'rawi traite de la durée d’allaitement, du droit de l’enfant envers les deux parents et de l’entretien dû par le père ; il comprend le sevrage comme une décision de consentement et consultation mutuels. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1004}
 
-## Période d'allaitement
-Sha'rawi remarque que le verset s'ouvre sur l'allaitement maternel pendant deux années complètes, pour quiconque souhaite poursuivre l'allaitement, et qu'il l'énonce sous forme déclarative plutôt que comme un ordre, le présentant comme un fait naturel. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1004} {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1005}
+## Durée de l’allaitement
+Il observe que le verset aborde un allaitement maternel de deux années complètes pour qui souhaite l’achever, sous forme déclarative plutôt qu’impérative, comme un fait naturel. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1004} {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1005}
 
-## Soins de la mère allaitante
-La charge de l'entretien et de l'habillement incombe à la mère qui a donné naissance à l'enfant, car celui-ci est attribué au père. La mère doit se comporter de manière raisonnable, et le père ne doit pas lui nuire en lui refusant l'entretien. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1005} {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1006}
+## Entretien de la mère allaitante
+Entretien et vêtements incombent à celui auquel l’enfant est né, l’enfant étant rattaché au père. La mère est invitée à rester dans le raisonnable, le père à ne pas lui nuire en refusant l’entretien. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1005} {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1006}
 
-## L'héritier et la mort du père
-Si le père décède, la même obligation incombe à son héritier, de sorte que le droit de l'enfant est garanti tant du vivant du père qu'après sa mort. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1006}
+## Héritier et décès du père
+Si le père meurt, la même obligation incombe à son héritier, garantissant le droit de l’enfant avant comme après sa mort. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1006}
 
-## Sevrage par consentement mutuel
-Le sevrage avant l'âge de deux ans est une décision que les parents doivent prendre ensemble, par consentement mutuel et après concertation, et la préoccupation commune de l'enfant demeure après le divorce. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1007}
+## Sevrage consenti
+Avant deux ans, le sevrage relève d’une décision commune des parents, par consentement et consultation ; le souci partagé de l’enfant demeure après le divorce. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1007}
 
-## Une nourrice embauchée
-Si la mère ne peut allaiter, le père peut amener une nourrice et doit lui donner ce qui l'incite à allaiter fidèlement. Sha'rawi met en garde contre l'ostentation de tels arrangements, car on a affaire à Dieu et non à la société. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1008}
+## Nourrice rémunérée
+Si la mère ne peut allaiter, le père peut engager une nourrice ; Sha'rawi lui recommande de lui donner de quoi l’inciter à allaiter fidèlement. Il met en garde contre l’ostentation en ces arrangements : l’on traite avec Dieu, non avec la société. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1008}

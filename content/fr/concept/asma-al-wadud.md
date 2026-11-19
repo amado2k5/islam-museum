@@ -2,18 +2,21 @@
 id: concept/asma-al-wadud
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/asma-al-wadud.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/asma-al-wadud.md
 ---
-
-## Vue d'ensemble
-al-Wadud — Le Très Aimant. Il s'agit du 47e nom dans l'énumération des plus beaux noms de Dieu dans le hadith d'Abu Hurayra rapporté par al-Tirmidhi {cite:jami-al-tirmidhi} ; Ibn Qayyim al-Jawziyya a consacré un chapitre de Jala' al-Afham à l'explication de ces noms {cite:jala-afham-ibn-qayyim}.
+## Vue d’ensemble
+al-Wadud — Le Très Aimant. C’est le nom numéro 47 dans l’énumération des plus beaux noms de Dieu du hadith d’Abu Hurayra chez al-Tirmidhi {cite:jami-al-tirmidhi} ; Ibn Qayyim al-Jawziyya a consacré un chapitre de Jala' al-Afham à l’explication de ces noms {cite:jala-afham-ibn-qayyim}.
 
 ## Dans le Coran
-Le nom apparaît dans le Coran, parmi eux : [[passage/quran-85-14|85:14]].
+Le nom apparaît dans le Coran, notamment en : [[passage/quran-85-14|85:14]].
 
 ## Dans la Sunna
-Abou Hourayra rapporte : « Dieu a quatre-vingt-dix-neuf noms — cent moins un ; quiconque les énumère entre au Paradis » {cite:sahih-muslim}.
+Abu Hurayra rapporte : « Dieu a quatre-vingt-dix-neuf noms — cent moins un ; celui qui les énumère entre au Paradis » {cite:sahih-muslim}.
 
-## Dans la vie des gens
-Parmi les vertueux : Rabi'a al-Adawiyya est restée dans les mémoires pour ses prières d'amour pour Dieu seul, devenant ainsi, dans la tradition, la figure de la servante qui aime son Seigneur le plus sincèrement. {cite:khulasat-al-siyar}
+## Dans la vie des personnes
+Parmi les justes : Rabi’a al-Adawiyya reste connue pour ses prières d’amour adressées à Dieu seul, devenant dans la tradition la figure de la servante qui aime son Seigneur avec la plus grande sincérité. {cite:khulasat-al-siyar}

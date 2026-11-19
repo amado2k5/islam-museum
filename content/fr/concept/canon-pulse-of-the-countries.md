@@ -2,14 +2,18 @@
 id: concept/canon-pulse-of-the-countries
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/canon-pulse-of-the-countries.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/canon-pulse-of-the-countries.md
 ---
 ## Résumé
-Dans le dixième chapitre, Ibn Sina mesure le pouls des pays par le pouls des saisons {cite:canon-ibn-sina-print-v1 p.178}.
+Au chapitre 10, Ibn Sina apprécie le pouls des pays par comparaison avec celui des saisons {cite:canon-ibn-sina-print-v1 p.178}.
 
-## Les pays et leurs saisons
-Certains pays sont tempérés et printaniers, d'autres chauds et estivaux, d'autres froids et hivernaux, d'autres secs et automnaux, donc les règles du pouls dans ces pays suivent ce que l'on a appris du pouls des saisons {cite:canon-ibn-sina-print-v1 p.178}.
+## Pays et saisons
+Certains pays seraient tempérés comme le printemps, chauds comme l’été, froids comme l’hiver ou secs comme l’automne ; le pouls y suivrait donc les caractères saisonniers déjà exposés {cite:canon-ibn-sina-print-v1 p.178}.
 
-## La règle
-Dans ce chapitre, Ibn Sina ne cite aucun pays ; il donne la règle que le médecin applique en fonction du climat du lieu {cite:canon-ibn-sina-print-v1 p.178}.
+## Principe
+Ibn Sina ne nomme aucun pays ici : il donne un principe à appliquer selon le climat local {cite:canon-ibn-sina-print-v1 p.178}.

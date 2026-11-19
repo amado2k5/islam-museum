@@ -2,10 +2,14 @@
 id: concept/bay-al-muharramat
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/bay-al-muharramat.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/bay-al-muharramat.md
 ---
-## Vue d'ensemble
-Dans le quarante-cinquième hadith ajouté par Ibn Rajab, il est question de l'interdiction de vendre des choses illicites : « Dieu et Son Messager ont interdit la vente du vin, de la charogne, du porc et des idoles. » Ce qui est interdit à consommer ou dont on ne peut tirer profit sous sa forme intrinsèque est donc interdit à vendre. Il étend l'interdiction à son prix à l'exemple de la graisse de charogne, à propos de laquelle l'interlocuteur demanda si elle pouvait servir à fabriquer du goudron, de l'huile et à s'éclairer, et où la réponse fut : « Non, c'est interdit » ; et aux paroles : « Dieu maudisse les Juifs, car Dieu leur a interdit la graisse ; ils l'ont donc fondue, vendue et en ont mangé le prix. » La règle est que ce qui est interdit par sa substance l'est aussi par son prix, et en changer la forme ne le rend pas licite. {cite:ibn-rajab-jami-ulum-hikam} (*Jami al-ulum wal-hikam*, p. 871)
+## Vue d’ensemble
+Le quarante-cinquième hadith des ajouts d’Ibn Rajab interdit la vente des choses prohibées : vin, bêtes mortes, porc et idoles. Ce dont la consommation ou l’usage sous sa forme propre est interdit ne peut donc être vendu. L’auteur étend l’interdiction au prix d’après le récit où l’on demande si la graisse de bête morte peut servir au calfatage, au graissage et à l’éclairage : la réponse est négative. Il cite aussi un propos de malédiction visant les Juifs pour avoir fondu puis vendu la graisse interdite et consommé son prix. La règle qu’il présente interdit le prix de ce dont la substance est interdite ; changer sa forme ne le rend pas licite. {cite:ibn-rajab-jami-ulum-hikam} (*Jami al-ulum wal-hikam*, p. 871)
 
-Ce qui n'est pas consigné ici nécessite une source supplémentaire.
+Ce qui n’est pas consigné ici nécessite une source supplémentaire.

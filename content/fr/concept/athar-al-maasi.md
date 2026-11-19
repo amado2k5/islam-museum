@@ -2,20 +2,24 @@
 id: concept/athar-al-maasi
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/athar-al-maasi.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/athar-al-maasi.md
 ---
 ## Résumé
-Le cheikh énumère les effets de la désobéissance : l’obscurité du visage, l’obscurité du chemin derrière soi, le vide dans le cœur des gens, le manque d’humilité devant les hommes et le manque de contentement envers Dieu (needs_source: the origin of this list is not given in the recording). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 00:17:00}
+Le cheikh énumère les effets de la désobéissance : obscurité du visage, obscurité du chemin derrière soi, vide dans le cœur des gens, manque d’humilité devant les gens et absence de contentement envers Dieu (needs_source : l’origine de cette liste n’est pas donnée dans l’enregistrement). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 00:17:00}
 
-## Les effets de l'obéissance
-Le cheikh oppose à cela les effets de l'obéissance : la lumière dans le visage, la beauté dans le cœur, l'amour dans le cœur des hommes, la bénédiction dans la famille et le souvenir que Dieu garde du serviteur. Il cite ces derniers en des termes qu'il attribue à Dieu et qui ne sont pas reproduits ici. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 00:18:00}
+## Les effets de l’obéissance
+Le cheikh leur oppose les effets de l’obéissance : lumière du visage, parure du cœur, amour dans le cœur des gens, bénédiction dans la famille et souvenir du serviteur par Dieu. Il exprime ce dernier point dans des paroles qu’il attribue à Dieu et qui ne sont pas reproduites ici. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 00:18:00}
 
-## Les péchés nous privent des bénédictions
-Le cheikh affirme que les péchés privent des bénédictions et que les nobles écrivains se plaignent à leur Seigneur de l'abondance des péchés graves. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 00:16:30}
+## Les péchés font disparaître les bénédictions
+Le cheikh dit que les péchés font disparaître les bénédictions et que les nobles scribes se plaignent à leur Seigneur de l’abondance des péchés grossiers. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 00:16:30}
 
-## Contemplez la grandeur de Celui qui a été désobéi
-Le cheikh dit qu'il ne faut pas s'attarder sur la petitesse d'un péché, mais sur la grandeur de Celui à qui l'on a désobéi. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:22:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:22:30}
+## Considérer la grandeur de Celui à qui l’on désobéit
+Le cheikh dit qu’une personne ne devrait pas considérer la petitesse d’un péché, mais la grandeur de Celui à qui elle a désobéi. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:22:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:22:30}
 
-## Extrait de l'émission al-Munjiyat d'Omar Abdelkafy
-Dans al-Munjiyat, Omar Abdelkafy énumère parmi les fruits du péché : que la vérité devienne cachée au pécheur au point qu'il ne la perçoive plus comme telle ; que son cœur se corrompe jusqu'à ce qu'il ordonne le mal et interdise le bien ; que le temps se contracte et perde de sa bénédiction pour lui ; et que lorsque Dieu hait un serviteur, la haine se répand sur lui sur terre, {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:13:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:14:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:14:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:15:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:16:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:17:00} et que l'illicite, en s'introduisant dans le licite, le sème. {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:20:30}
+## De l’émission al-Munjiyat d’Omar Abdelkafy
+Dans al-Munjiyat, Omar Abdelkafy compte parmi les fruits du péché : la vérité cachée au pécheur, qui ne la reconnaît donc pas comme vérité ; la corruption de son cœur jusqu’à ordonner le mal et interdire le bien ; le temps qui se contracte et perd pour lui sa bénédiction ; et, lorsque Dieu déteste un serviteur, la haine placée à son égard sur terre, {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:13:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:14:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:14:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:15:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:16:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:17:00} et le fait que l’illicite, entrant dans le licite, le disperse. {cite:assabile-omar-abdelkafy al-manjeyat/ep05 00:20:30}

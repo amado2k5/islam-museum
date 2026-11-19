@@ -2,12 +2,15 @@
 id: concept/ayyar
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/ayyar.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/ayyar.md
 ---
+## Le 'ayyar
+'Ayyar (pluriel 'ayyarun, en persan 'ayyaran) désignait, du IXe au XIIe siècle, des guerriers regroupés en bandes en Irak et en Perse, puis progressivement en Transjordanie. Ils ressemblaient aux andath de Syrie et de Mésopotamie et aux akhis d’Anatolie. Le terme avait parfois le même sens que fityan (jeunes gens), et un chef pouvait être appelé sar-'ayyaran ou ra'is al-fityan. Ils combattaient parfois pour la foi dans les régions frontalières de l’Asie intérieure ; en ville, ils formaient souvent un parti d’opposition et, lorsque le gouvernement était faible, imposaient leur pouvoir par la terreur à la population aisée, comme à Bagdad en 1135-1144. {cite:encyclopaedia-of-islam-2 vol. 1 p. 843}
 
-## Les 'ayyar
-Les Ayyar (pluriel Ayyarun, en persan Ayyaran) désignaient, du IXe au XIIe siècle, des guerriers regroupés en bandes en Irak et en Perse, puis progressivement en Transjordanie. Ils étaient semblables aux Andath de Syrie et de Mésopotamie et aux Akhis d'Anatolie. Le terme était parfois employé avec la même signification que Fityan (jeunes), et un chef pouvait être appelé Sar-Ayyaran ou Ra'is al-Fityan. Ils combattaient parfois pour la foi dans les régions frontalières d'Asie centrale ; dans les villes, ils formaient souvent un parti d'opposition et, en période de faiblesse du gouvernement, ils instauraient un règne de terreur contre les populations aisées, comme à Bagdad entre 1135 et 1144. {cite:encyclopaedia-of-islam-2 vol. 1 p. 843}
-
-## Futuwwa et les soufis
-Le Kabus-nama, écrit en 475/1082, mentionne une rivalité entre les ‘ayyaran de Marw et ceux de Kubistan au sujet de la futuwwa, qui fut réglée par des expédients juridiques. Un soufi nommé Nuh al-‘Ayyar al-Nisaburi apparaît comme un représentant de la futuwwa. Hujwiri (mort en 465/1072) rapporte qu'il disait que la futuwwa des ‘ayyaran consistait à porter la muraqqa’ des soufis et à observer la loi sacrée, tandis que la futuwwa des Malamatiyya résidait non pas dans des signes extérieurs, mais dans la préservation de l'esprit mystique. Nuh définissait la différence en ces termes : la futuwwa des ‘ayyaran est la fidélité à la parole prononcée, celle des gnostiques, la fidélité à l'esprit. {cite:encyclopaedia-of-islam-2 vol. 1 p. 843}
+## Futuwwa et soufis
+Le Kabus-nama, écrit en 475 H/1082, évoque une rivalité de futuwwa entre les 'ayyaran de Marw et ceux du Kubistan, réglée par des expédients juridiques. Le soufi Nuh al-'Ayyar al-Nisaburi apparaît comme un représentant de la futuwwa. Hujwiri (mort en 465 H/1072) rapporte sa distinction : la futuwwa des 'ayyaran consistait à porter la muraqqa' des soufis et à observer la Loi sacrée, celle des Malamatiyya à préserver l’esprit mystique plutôt que les marques extérieures. Nuh la formulait ainsi : la futuwwa des 'ayyaran est fidélité à la parole donnée, celle des gnostiques fidélité à l’esprit. {cite:encyclopaedia-of-islam-2 vol. 1 p. 843}

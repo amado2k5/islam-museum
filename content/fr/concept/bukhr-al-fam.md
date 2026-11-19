@@ -2,14 +2,21 @@
 id: concept/bukhr-al-fam
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/bukhr-al-fam.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/bukhr-al-fam.md
 ---
-## Ses sources
-La puanteur de la bouche commence soit par la gencive — sa propre putréfaction, un relâchement qui s'y produit, ou une putréfaction sans humidité, ce tempérament étant généralement chaud — soit par la bouche de l'estomac pour une humeur putride qui s'y trouve, bilieuse ou phlegmique ; et elle peut provenir des quartiers pulmonaires comme cela arrive au tuberculeux {cite:canon-ibn-sina-print-v2 p.264}
-## Qu'est-ce qui provient de la gomme ?
-Pour ce qui provient de la gencive et de l'« amur » (l'« amur » étant la chair qui suinte de la gencive entre les dents, selon l'explication des copistes), il faut toujours veiller au nettoyage des dents et les laver de cette manière ; si cela leur est bénéfique et qu'elles sont en bonne santé, tant mieux ; sinon, et s'il y a un excès de putréfaction, il faut ensuite mâcher de cette manière, appliquer un astringent de cette manière sur la gencive, rincer de cette manière et frotter de cette manière ; et si c'est plus fort que cela, mâcher de cette manière et recracher la salive {cite:canon-ibn-sina-print-v2 p.264}
-## Lorsque la putréfaction se manifeste
-Si cela ne donne aucun résultat et que la putréfaction est manifeste, on utilise des méthodes plus radicales. Si la putréfaction est interne à la dent, on la soigne en la grattant si elle se situe au bord, en la limant ou en l'extrayant si elle atteint la racine (on utilise les techniques manuelles et les instruments décrits dans l'ouvrage, sans en préciser les noms ni les recettes). Si le relâchement gingival est présent et qu'il est à l'origine de la putréfaction, on le traite en la fortifiant selon les indications du chapitre consacré au relâchement gingival {cite:canon-ibn-sina-print-v2 p.265}.
-## Que provient de l'humour putride
-Si l'humeur est bilieuse et putride dans l'estomac ou la muqueuse buccale, rien ne lui est plus bénéfique que la consommation, à jeun, de fruits rafraîchissants de cette espèce. À défaut, on utilise leur infusion séchée, également à jeun. Parmi les aliments bénéfiques, on compte le sawiq sucré à l'eau de neige, car il permet d'éviter que toute nourriture rafraîchissante et purifiante ne se transforme en bile. Si l'humeur est phlegmique, on commence par faire vomir, puis on utilise ce qui purifie l'estomac et la muqueuse buccale, comme indiqué dans le chapitre consacré à l'estomac. Son alimentation se compose de ragoûts, il doit réduire sa consommation d'eau, éviter les fruits et les herbes humides, et prendre des bâtonnets de bois provenant des arbres amers de cette espèce pour ses dents (noms, recettes et remèdes non mentionnés). {cite:canon-ibn-sina-print-v2 p.265}
+## Origines
+Selon le livre, la fétidité buccale provient des gencives — putréfaction propre, relâchement ou putréfaction sans humidités, de tempérament surtout chaud — ou de l’orifice gastrique, par une humeur putride bilieuse ou phlegmatique ; elle peut venir du poumon comme chez le phtisique {cite:canon-ibn-sina-print-v2 p.264}
+
+## Origine gingivale
+Pour les gencives et l’'amur, chair suintant entre les dents selon l’explication des copistes, le livre préconise soin constant du nettoyage et lavage dentaires. Si cela suffit, tant mieux ; sinon, en présence de putréfaction excédentaire, il mentionne mastication, astringent gingival, rinçage et friction d’un type indiqué ; si le cas est plus fort, mastication puis crachat {cite:canon-ibn-sina-print-v2 p.264}
+
+## Putréfaction manifeste
+Si cela échoue et que la putréfaction devient manifeste, il indique des moyens plus forts. Pour la dent elle-même : grattage si l’atteinte est au bord, ou limage, ou extraction si la racine est touchée. Gestes et instruments sont rapportés comme décrits par le livre, noms et recettes omis. Le relâchement gingival lié à la putréfaction est traité en fortifiant la gencive selon le chapitre correspondant {cite:canon-ibn-sina-print-v2 p.265}
+
+## Origine humorale putride
+Pour une humeur bilieuse putride de l’estomac ou de la muqueuse buccale, le livre privilégie des fruits rafraîchissants à jeun ou, à défaut, leur infusion sèche ; il mentionne aussi sawiq avec sucre et eau de neige, et des aliments rafraîchissants, nettoyants, ne se changeant pas en bile. Pour l’humeur phlegmatique : vomissement initial, puis nettoyage de l’orifice gastrique selon le chapitre de l’estomac ; ragoûts, réduction de l’eau, abandon des fruits et herbes humides et bâtonnets dentaires d’arbres amers et incisifs. Noms, recettes et pilules omis {cite:canon-ibn-sina-print-v2 p.265}

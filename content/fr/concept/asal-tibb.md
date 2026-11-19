@@ -2,42 +2,45 @@
 id: concept/asal-tibb
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/asal-tibb.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/asal-tibb.md
 ---
-
 ## Nature
-Le miel est une rosée invisible qui se dépose sur les fleurs et autres objets, et que les abeilles récoltent ; c’est une vapeur qui s’élève et mûrit dans l’air, puis se transforme et s’épaissit pendant la nuit avant de retomber sous forme de miel. On trouve également du miel déjà formé sur les montagnes de Qasran, et sa composition varie selon l’arbre ou la pierre sur laquelle il se dépose ; la partie visible est récoltée par les hommes et la partie cachée par les abeilles. L’auteur pense que le travail des abeilles a une influence sur sa composition, car elles le récoltent pour s’en nourrir et le stocker. Il existe un miel âcre et toxique {cite:canon-ibn-sina-print-v1 p.619}.
+Le miel est une rosée cachée qui tombe sur les fleurs et d’autres choses, et que les abeilles recueillent ; c’est une vapeur qui s’élève et mûrit dans l’air, puis se transforme et s’épaissit la nuit et tombe sous forme de miel. Le miel tombe aussi tout formé sur les montagnes de Qasran et diffère selon l’arbre ou la pierre sur lesquels il tombe ; sa part visible est recueillie par les humains et sa part cachée par les abeilles. L’auteur pense que le travail des abeilles agit sur lui, celles-ci le recueillant pour s’en nourrir et le stocker. Il existe une variété de miel âcre et toxique {cite:canon-ibn-sina-print-v1 p.619}
 
-## Sélection
-Le meilleur miel est celui d'une vraie douceur, d'un bon parfum, légèrement piquant et rouge, ferme et non liquide, collant de sorte qu'il ne se détache pas ; le meilleur est le miel de printemps, puis celui d'été, et celui d'hiver est mauvais, comme on dit {cite:canon-ibn-sina-print-v1 p.619}.
+## Choix
+Le meilleur miel possède une douceur véritable, une bonne odeur, tend vers l’âcreté et le rouge, est ferme et non fluide, et assez visqueux pour ne pas se rompre ; le meilleur est celui du printemps, puis celui de l’été, et celui de l’hiver est mauvais, dit-on {cite:canon-ibn-sina-print-v1 p.619}
 
 ## Tempérament
-Le miel d'abeille est chaud et sec au deuxième degré ; le miel de sucre candi et de canne est chaud au premier degré, non sec, et peut être humide au premier {cite:canon-ibn-sina-print-v1 p.619}
+Le miel d’abeille est chaud et sec au deuxième degré ; le miel de sucre candi et de canne est chaud au premier degré, non sec, et peut être humide au premier degré {cite:canon-ibn-sina-print-v1 p.619}
 
 ## Actions et propriétés
-Son pouvoir est purificateur, ouvrant les bouches des vaisseaux et dissolvant les humidités ; il attire les humidités des profondeurs du corps et empêche la putréfaction et la corruption de la chair {cite:canon-ibn-sina-print-v1 p.619}
+Sa puissance nettoie, ouvre les orifices des vaisseaux et dissout les humidités ; il attire les humidités depuis les profondeurs du corps et préserve la chair de la putréfaction et de la corruption {cite:canon-ibn-sina-print-v1 p.619}
 
-## Produits de beauté
-En s'en enduisant, on éloigne les poux et les lentes et on les tue ; avec du costus, c'est un liniment pour les taches de rousseur, surtout les anciennes, et avec du sel pour les marques de la bouse couleur aubergine {cite:canon-ibn-sina-print-v1 p.619}
+## Cosmétique
+S’en enduire éloigne et tue les poux et les lentes ; avec du costus, il constitue un liniment contre les taches de rousseur, surtout anciennes, et avec du sel contre les marques de coups couleur aubergine {cite:canon-ibn-sina-print-v1 p.619}
 
 ## Plaies et ulcères
-Il nettoie les ulcères sales et profonds ; cuit jusqu'à épaississement, il panse les plaies fraîches et, enduit d'aneth, il guérit la teigne {cite:canon-ibn-sina-print-v1 p.619}
+Il nettoie les ulcères sales et profonds ; cuit jusqu’à épaississement, il réunit les plaies récentes et, appliqué avec de l’aneth, guérit la teigne {cite:canon-ibn-sina-print-v1 p.619}
 
 ## Organes de la tête
-On y mélange du sel d'Andarani et on le verse chaud dans l'oreille, la nettoyant ainsi que ses ulcères, les asséchant et renforçant l'ouïe ; et sentir l'espèce piquante et toxique fait perdre la raison, alors que dire de la manger {cite:canon-ibn-sina-print-v1 p.619}
+On y mélange du sel andarani et on l’instille tiède dans l’oreille : il la nettoie ainsi que ses ulcères, les assèche et renforce l’ouïe ; sentir la variété âcre et toxique fait perdre la raison, à plus forte raison en manger {cite:canon-ibn-sina-print-v1 p.619}
 
 ## Organes oculaires
-Le miel dissipe les ténèbres de la vue {cite:canon-ibn-sina-print-v1 p.619}
+Le miel dissipe l’obscurcissement de la vue {cite:canon-ibn-sina-print-v1 p.619}
 
 ## Organes de la poitrine
-Se frotter le palais avec et se gargariser soigne l'angine et est bénéfique pour les amygdales {cite:canon-ibn-sina-print-v1 p.619}
+S’en frotter le palais et se gargariser guérit l’angine et bénéficie aux amygdales {cite:canon-ibn-sina-print-v1 p.619}
 
-## La digestion et les organes de la nutrition
-L'eau miellée fortifie l'estomac et stimule l'appétit {cite:canon-ibn-sina-print-v1 p.620}
+## Digestion et organes de la nutrition
+L’eau de miel fortifie l’estomac et stimule l’appétit {cite:canon-ibn-sina-print-v1 p.620}
 
 ## Organes excréteurs
-Le miel de canne adoucit les intestins, contrairement au miel sucré ; le miel non écumé provoque des flatulences et des ballonnements, effets atténués par l’écume ; le miel cuit ne trouble pas le transit intestinal, mais peut même le ralentir chez les personnes flegmatiques, tout en étant très nourrissant ; le miel cuit avec de l’eau favorise la diurèse. L’auteur affirme que le miel et son eau, s’ils permettent le passage des aliments, ralentissent le transit, mais s’ils rencontrent des mouvements et une faible propension des aliments à s’écouler, ils soulagent la douleur {cite:canon-ibn-sina-print-v1 p.620}.
+Le miel de canne amollit le ventre, mais pas celui de sucre candi ; le miel non écumé produit des vents et relâche le ventre, et l’écumage atténue cet effet ; cuit, il ne stimule pas le ventre, peut même le resserrer chez les flegmatiques et nourrit beaucoup ; cuit avec de l’eau, il favorise davantage l’urine. L’auteur dit que le miel et son eau resserrent s’ils peuvent faire passer les aliments, mais que, s’ils rencontrent du mouvement et des aliments peu disposés à passer, ils libèrent la douleur {cite:canon-ibn-sina-print-v1 p.620}
 
 ## Poisons et morsures
-Le miel tiède, infusé avec de l'huile de rose, est bénéfique en cas de piqûres de vermine et d'intoxication à l'opium ; le lécher soulage la morsure d'un chien enragé et les effets de l'ingestion du champignon mortel. Cuit, il est efficace contre les poisons, et celui qui vomit avec est guéri. Le miel âcre, dont l'odeur provoque des éternuements, entraîne une perte soudaine de raison et des sueurs froides ; pour s'en soigner, il faut manger du poisson salé, boire de l'hydromel et vomir avec. Ceci est une mise en garde contre les miels toxiques, et non un conseil. {cite:canon-ibn-sina-print-v1 p.620}
+Le miel bu tiède avec de l’huile de rose bénéficie aux morsures de bêtes nuisibles et à l’ingestion d’opium ; le lécher remédie à la morsure d’un chien enragé et à l’ingestion du champignon mortel ; cuit, il est utile contre les poisons, et celui qui vomit avec lui en est délivré. Le miel âcre dont l’odeur fait éternuer provoque une perte soudaine de la raison et une sueur froide ; son remède consiste à manger du poisson salé, à boire de l’hydromel et à vomir avec celui-ci. Il s’agit d’un avertissement sur la variété toxique, non d’un conseil {cite:canon-ibn-sina-print-v1 p.620}

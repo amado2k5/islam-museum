@@ -2,14 +2,18 @@
 id: concept/canon-raw-humours-in-the-intestinal-vessels-and-ripening
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/canon-raw-humours-in-the-intestinal-vessels-and-ripening.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/canon-raw-humours-in-the-intestinal-vessels-and-ripening.md
 ---
 ## Résumé
-Lorsque des humeurs durcies ou crues se trouvent dans les vaisseaux de l'intestin, Ibn Sina ordonne de traiter d'abord la fatigue, puis la maturation, avec du repos, en omettant l'exercice et en retenant la saignée avant la maturation, nomme le poivre, les câpres, le gingembre et les vinaigres pour la nourriture, puis le vin léger une fois que des sédiments apparaissent dans l'urine {cite:canon-ibn-sina-print-v1 pp.245-246}.
+Pour les humeurs durcies ou crues dans les vaisseaux intestinaux, Ibn Sina décrit d’abord le traitement de la fatigue, puis la maturation : repos, arrêt de l’exercice et de la saignée avant maturation ; poivre, câpre, gingembre et vinaigres dans l’alimentation, puis vin léger lorsqu’apparaît un sédiment urinaire {cite:canon-ibn-sina-print-v1 pp.245-246}.
 
-## repos et maturation
-Si des humeurs durcies ou impures se trouvent dans les vaisseaux intestinaux, la fatigue est d'abord traitée comme il se doit, puis le médecin s'attache à ce qui permet de faire mûrir, de fluidifier et d'éliminer les humeurs impures. Si celles-ci sont abondantes, il conseille le repos et l'arrêt de l'exercice, car le repos favorise la digestion, ainsi que l'arrêt des saignées, qui, le plus souvent, éliminent les humeurs pures et laissent les impures ; il ne faut pas non plus purger avant la maturation. La diurèse est sans danger, mais on n'administre pas de remède chauffant, de peur qu'il ne répande les humeurs impures dans tout le corps {cite:canon-ibn-sina-print-v1 p.245}.
+## Repos et maturation
+Le livre traite d’abord la fatigue, puis s’attache à mûrir, fluidifier et expulser les matières crues. Si elles abondent, il préconise repos et arrêt de l’exercice, le repos digérant mieux, et suspension de la saignée, qui retirerait surtout le pur en laissant le cru ; pas non plus de purge avant maturation. La diurèse ne nuirait pas, mais un remède réchauffant risquerait de répandre les matières crues dans le corps {cite:canon-ibn-sina-print-v1 p.245}.
 
 ## Nourriture et vin
-Son alimentation doit contenir du poivre, des câpres, du gingembre, du vinaigre de câpres, du vinaigre d'ail et du vinaigre d'astragale, ainsi que leurs extraits, et des préparations digestives bien connues, en quantité appropriée. Après maturation, lorsque des sédiments sont présents dans l'urine et que la majeure partie est mûrie, on utilise du vin pour achever la maturation et favoriser la diurèse ; il doit s'agir d'un vin léger et fluide ; les vomissements sont proscrits {cite:canon-ibn-sina-print-v1 pp.245-246}.
+Le régime décrit comprend poivre, câpre, gingembre, vinaigres de câpre, d’ail et d’astragale avec leur substance, et préparations digestives connues en quantité mesurée. Après maturation, lorsqu’un sédiment apparaît dans l’urine et que la majeure partie a mûri, le vin léger et fluide servirait à achever la maturation et stimuler l’urine ; le vomissement n’y serait pas employé {cite:canon-ibn-sina-print-v1 pp.245-246}.

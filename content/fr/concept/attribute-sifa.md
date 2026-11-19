@@ -2,15 +2,18 @@
 id: concept/attribute-sifa
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/attribute-sifa.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/attribute-sifa.md
 ---
-
 ## Définition
-En linguistique, sifa est un ornement ou une description. Pour les grammairiens, c'est un nom désignant un état de la chose ; pour les juristes, c'est une description si figée qu'il ne subsiste qu'une légère variation par la suite. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10403}
+Dans la langue, sifa est une parure ou une description. Pour les grammairiens, c’est un nom indiquant un état de la chose ; pour les juristes, c’est une description si précise qu’il ne subsiste après elle qu’une légère variation. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10403}
 
-## Pour les usulis
-Pour les usulis, sifa désigne la restriction d'un mot polysémique par un autre mot spécifique ; il ne s'agit pas uniquement de l'adjectif grammatical. Ce concept inclut l'attribution d'une règle à une chose par l'une de ses qualités, comme dans l'adage selon lequel un troupeau en liberté doit s'acquitter de la zakat. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10403} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10404}
+## Pour les spécialistes des fondements du droit
+Pour les spécialistes des fondements du droit, sifa est la restriction d’un mot à plusieurs sens par un autre mot, spécifique ; ils ne visent pas seulement l’adjectif grammatical. Son concept comprend le rattachement d’une règle à une chose par l’une de ses qualités, comme lorsqu’on dit qu’un troupeau paissant librement doit la zakat. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10403} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10404}
 
-## Son impact sur les contrats
-La description fait partie intégrante des conditions de vente. Si la qualité décrite n'est pas présente, l'acheteur a la possibilité de réclamer l'attribut manquant. Cet attribut n'a aucune incidence sur le prix, car il est inhérent au contrat et y est intégré sans être nommément désigné. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10404}
+## Son effet sur les contrats
+La description entre dans les conditions du salam et de la vente sur description. Si la qualité décrite n’est pas présente, l’acheteur dispose de l’option liée à l’attribut manquant. L’attribut n’a pas de part dans le prix, puisqu’il suit le contrat et y entre sans être nommé. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10404}

@@ -2,14 +2,18 @@
 id: concept/canon-moderate-sleep-and-its-effects
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/canon-moderate-sleep-and-its-effects.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/canon-moderate-sleep-and-its-effects.md
 ---
 ## Résumé
-Ibn Sina ouvre le neuvième chapitre, sur le sommeil et l'éveil, en disant que la cause du sommeil naturel a été traitée à sa place, puis montre qu'un sommeil modéré permet à la faculté naturelle de faire son travail, repose la faculté psychique et retarde la dissolution de l'esprit, de sorte que la nourriture est digérée et la faiblesse guérie, et qu'il humidifie et réchauffe et est le plus bénéfique aux personnes âgées {cite:canon-ibn-sina-print-v1 pp.240-241}.
+Au chapitre 9, Ibn Sina renvoie la cause du sommeil naturel à sa place, puis décrit sommeil modéré libérant la faculté naturelle, reposant la psychique, retenant la dissipation de l’esprit, favorisant digestion et restauration des forces, humidifiant et chauffant surtout au bénéfice des vieillards {cite:canon-ibn-sina-print-v1 pp.240-241}.
 
-## Que fait le sommeil ?
-La cause du sommeil naturel, du sommeil profond et de leur contraire, l'éveil, a été abordée dans son ouvrage et le sera dans la médecine particulière. Il est dit ici qu'un sommeil modéré permet aux facultés naturelles d'agir, repose les facultés psychiques et accroît leur substance, de sorte qu'en les relaxant, il peut même empêcher la dissolution de l'esprit, quel qu'il soit. Ainsi, les aliments digestibles déjà mentionnés sont digérés, et la faiblesse laissée par diverses formes de dissolution, dues à la fatigue, aux rapports sexuels, à la colère, etc., est guérie {cite:canon-ibn-sina-print-v1 p.240}.
+## Effets
+Causes du sommeil naturel, du sommeil profond et de la veille ont été traitées ailleurs et le seront en médecine particulière. Le sommeil modéré permettrait les actes naturels, reposerait la faculté psychique et augmenterait sa substance ; le relâchement arrêterait même la dissipation de tout esprit. Les aliments digestibles cités seraient digérés, les faiblesses de dissipation par fatigue, coït, colère et semblables réparées {cite:canon-ibn-sina-print-v1 p.240}.
 
-## Pour les vieux
-Un sommeil modéré, lorsqu'il rencontre des humeurs équilibrées en quantité et en qualité, humidifie et réchauffe, et est la chose la plus utile pour les personnes âgées, car il conserve leur hydratation et la leur ramène {cite:canon-ibn-sina-print-v1 pp.240-241}.
+## Vieillards
+Avec humeurs équilibrées en quantité et qualité, il humidifierait et chaufferait, conservant et restituant l’humidité, d’où son grand intérêt selon le livre pour les vieillards {cite:canon-ibn-sina-print-v1 pp.240-241}.

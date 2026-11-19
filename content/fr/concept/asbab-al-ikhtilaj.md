@@ -2,11 +2,15 @@
 id: concept/asbab-al-ikhtilaj
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/asbab-al-ikhtilaj.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/asbab-al-ikhtilaj.md
 ---
-## Pouvoir, matière et événements psychiques
-Les causes de l'ikhtilaj sont une puissance refroidie et une matière humide ; l'ikhtilaj provient souvent d'événements psychiques, en particulier la joie, et également du chagrin et de la colère, car le mouvement de l'esprit peut dissoudre les matières en vents {cite:canon-ibn-sina-print-v2 p.160}
+## Faculté, matière et événements psychiques
+Les causes de l’ikhtilaj sont une faculté refroidie et une matière humide ; l’ikhtilaj naît souvent d’événements psychiques, surtout la joie, mais aussi le chagrin, la colère et d’autres états semblables, car le mouvement de l’esprit peut dissoudre les matières en vents {cite:canon-ibn-sina-print-v2 p.160}
 
-## Ce dont il met en garde
-Généralisée sur le corps, elle prévient de l'apoplexie ou du tétanos ; persistante dans les tempes, elle prévient de la mélancolie ; persistante sur le visage, elle prévient de la paralysie faciale ; et les contractions de la paupière peuvent être suivies d'un gonflement du diaphragme, étant parmi ses conséquences {cite:canon-ibn-sina-print-v2 p.160}
+## Ce qu’il annonce
+Généralisé à tout le corps, il annonce l’apoplexie ou le tétanos ; persistant aux tempes, il annonce la mélancolie ; persistant au visage, il annonce la paralysie faciale ; et le tressaillement de la paupière peut être suivi d’un gonflement du diaphragme, dont il constitue une des conséquences {cite:canon-ibn-sina-print-v2 p.160}

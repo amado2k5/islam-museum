@@ -2,14 +2,18 @@
 id: concept/canon-mouse-tail-and-flickering-pulses
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/canon-mouse-tail-and-flickering-pulses.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/canon-mouse-tail-and-flickering-pulses.md
 ---
 ## Résumé
-Ibn Sina définit l'impulsion en queue de souris et l'impulsion scintillante, deux impulsions qui graduent l'irrégularité de leurs parties par diminution et augmentation {cite:canon-ibn-sina-print-v1 p.173}.
+Ibn Sina définit deux pouls dont l’inégalité progresse par diminution et augmentation : queue de souris et vacillant {cite:canon-ibn-sina-print-v1 p.173}.
 
-## L'impulsion de la queue de souris
-Le rythme en queue de souris module l'irrégularité de ses composantes, de la diminution à la hausse et inversement. Il peut s'étendre sur plusieurs battements, ou se manifester au sein d'un même battement sur plusieurs composantes ou sur une seule. Son irrégularité la plus caractéristique concerne l'amplitude, mais elle peut également concerner la lenteur et la vitesse, la force et la faiblesse {cite:canon-ibn-sina-print-v1 p.173}.
+## Queue de souris
+Il passerait graduellement de diminution à augmentation et inversement, sur plusieurs battements ou plusieurs parties d’un seul, voire une partie ; surtout en amplitude, parfois lenteur, vitesse, force et faiblesse {cite:canon-ibn-sina-print-v1 p.173}.
 
-## Le pouls vacillant
-L'impulsion vacillante commence à partir d'un niveau bas et monte jusqu'à une limite d'augmentation, puis s'inverse dans l'ordre jusqu'à ce qu'elle atteigne la première limite de diminution, de sorte qu'elle ressemble à deux queues de souris jointes à l'extrémité la plus large {cite:canon-ibn-sina-print-v1 p.173}.
+## Vacillant
+Il croîtrait d’un minimum à une limite puis reviendrait en ordre inverse au premier minimum, comme deux queues de souris réunies par leur bout large {cite:canon-ibn-sina-print-v1 p.173}.

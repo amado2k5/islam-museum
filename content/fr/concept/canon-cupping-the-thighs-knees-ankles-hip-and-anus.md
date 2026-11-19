@@ -2,17 +2,21 @@
 id: concept/canon-cupping-the-thighs-knees-ankles-hip-and-anus
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/canon-cupping-the-thighs-knees-ankles-hip-and-anus.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/canon-cupping-the-thighs-knees-ankles-hip-and-anus.md
 ---
 ## Résumé
-Ibn Sina complète les lieux de ventouses dans le membre inférieur, nommant les cuisses, le genou, les chevilles, la hanche, l'espace entre les genoux et l'anus, et ce que chacun aide {cite:canon-ibn-sina-print-v1 p.301}.
+Ibn Sina achève les sites du membre inférieur : cuisses, genou, chevilles, hanche, espace entre les genoux et anus, avec leurs effets supposés {cite:canon-ibn-sina-print-v1 p.301}.
 
-## Les cuisses et le genou
-L'application de ventouses sur la face antérieure des cuisses soulage les gonflements testiculaires et les abcès des cuisses et des tibias, tandis que sur la face postérieure, elle soulage les gonflements et les abcès fessiers. Sous le genou, elle soulage les douleurs lancinantes dues à des humeurs aiguës, les abcès importants et les ulcères anciens du tibia et du pied {cite:canon-ibn-sina-print-v1 p.301}.
+## Cuisses et genou
+À l’avant des cuisses, elles aideraient gonflement testiculaire et abcès des cuisses et jambes ; à l’arrière, gonflements et abcès des fesses ; sous le genou, pulsations par humeurs aiguës, mauvais abcès et ulcères anciens de jambe et pied {cite:canon-ibn-sina-print-v1 p.301}.
 
-## Les chevilles et les hanches
-L'application de ventouses sur les chevilles soulage la rétention menstruelle et la sciatique. Sur la hanche, elle soulage la sciatique et la peur de la luxation. Entre les genoux, elle soulage les douleurs aux hanches, aux cuisses, aux hémorroïdes, aux hernies et à la goutte {cite:canon-ibn-sina-print-v1 p.301}.
+## Chevilles et hanche
+Aux chevilles, elles aideraient rétention menstruelle et sciatique ; à la hanche, sciatique et risque de luxation ; entre les genoux, hanches, cuisses, hémorroïdes, hernie et goutte {cite:canon-ibn-sina-print-v1 p.301}.
 
-## L'anus
-Placer des ventouses sur l'anus attire l'énergie de tout le corps et de la tête, aide les intestins, guérit les troubles menstruels et le corps se sent plus léger avec cela {cite:canon-ibn-sina-print-v1 p.301}.
+## Anus
+Elles attireraient depuis tout le corps et la tête, aideraient l’intestin, corrigeraient le trouble menstruel et allégeraient le corps {cite:canon-ibn-sina-print-v1 p.301}.

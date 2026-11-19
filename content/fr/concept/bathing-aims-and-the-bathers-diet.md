@@ -2,14 +2,18 @@
 id: concept/bathing-aims-and-the-bathers-diet
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/bathing-aims-and-the-bathers-diet.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/bathing-aims-and-the-bathers-diet.md
 ---
 ## Résumé
-Ibn Sina dit que celui qui veut grossir entre dans le bain après avoir mangé s'il n'est pas bloqué, celui qui veut dissoudre et affiner sa silhouette se baigne à jeun et y reste longtemps, celui qui veut seulement maintenir sa santé entre après que l'estomac a digéré, et il est conseillé à la personne colérique et bilieuse de manger du pain trempé dans de l'eau de fruits ou de l'eau de rose {cite:canon-ibn-sina-print-v1 p.226}.
+Selon Ibn Sina, celui qui cherche à grossir entre au bain après manger s’il ne craint pas les obstructions ; celui qui recherche résolution et amaigrissement se baigne à jeun et reste longtemps ; celui qui veut seulement conserver la santé entre après la digestion gastrique. Aux tempéraments chauds et bilieux, il conseille du pain trempé dans une eau de fruits ou de rose {cite:canon-ibn-sina-print-v1 p.226}.
 
-## Par objectif
-Celui qui souhaite prendre du poids doit prendre un bain après avoir mangé, s'il n'y a pas d'obstructions. Celui qui souhaite s'amincir doit se baigner à jeun et y rester longtemps. Celui qui souhaite simplement préserver sa santé doit se baigner après avoir digéré, et s'il se baigne l'estomac vide, il doit prendre un repas léger au préalable {cite:canon-ibn-sina-print-v1 p.226}.
+## Selon la finalité
+À celui qui cherche à prendre de la chair, le livre conseille d’entrer après manger s’il ne craint pas les obstructions ; à celui qui recherche résolution et amaigrissement, de se baigner à jeun et de rester longtemps ; à celui qui veut seulement conserver la santé, d’attendre la digestion du contenu gastrique et, s’il se baigne l’estomac vide, de prendre auparavant quelque chose de léger {cite:canon-ibn-sina-print-v1 p.226}.
 
-## Le colérique
-La personne colérique et bilieuse ne trouvera peut-être aucun moyen d'y échapper, et il lui est interdit d'entrer dans la pièce chaude. Le mieux pour ces personnes est de s'occuper avec du pain trempé dans de l'eau de fruit ou de l'eau de rose {cite:canon-ibn-sina-print-v1 p.226}.
+## Tempéraments chauds
+Une personne chaude et bilieuse peut ne trouver aucun moyen d’éviter cette difficulté ; pour elle, l’entrée dans la salle chaude est proscrite par le livre. Celui-ci juge préférable du pain trempé dans une eau de fruits ou de rose {cite:canon-ibn-sina-print-v1 p.226}.

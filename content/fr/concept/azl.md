@@ -2,23 +2,27 @@
 id: concept/azl
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/azl.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/azl.md
 ---
 ## Résumé
-Dans le lexique, azl signifie retirer quelqu'un ou le mettre à l'écart d'un poste {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11579}.
+Dans le lexique, azl signifie enlever quelqu’un ou l’écarter d’une fonction {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11579}.
 
-## Limogeage de l'imam et du ministre
-L'imamat suprême est établi par l'allégeance de ceux qui lient et délie, et il perdure tant que ses conditions sont remplies {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11579}. La plupart des juristes autorisent la démission de l'imam, tandis qu'une opinion l'interdit {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11579}. Un ministre ne peut se destituer lui-même, mais l'imam peut révoquer le ministre qu'il a nommé {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11579}.
+## Révocation de l’imam et du ministre
+L’imamat suprême est établi par l’allégeance de ceux qui lient et délient ; il dure tant que ses conditions demeurent réunies {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11579}. La plupart des juristes permettent à l’imam de démissionner, tandis qu’un avis l’interdit {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11579}. Un ministre ne peut se démettre lui-même, mais l’imam peut révoquer celui qu’il a nommé {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11579}.
 
 ## Révocation du juge
-Un juge peut démissionner de ses fonctions {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11580}. Selon les juristes, son mandat ne prend pas fin avec le décès de l'imam qui l'a nommé {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11580}. Quant à la possibilité pour l'imam de le révoquer, les juristes proposent trois avis : la révocation pure et simple, la révocation pour motif valable, et l'interdiction totale de toute révocation {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11581}.
+Un juge peut démissionner de sa fonction {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11580}. Selon les juristes, la mort de l’imam qui l’a nommé ne met pas fin à celle-ci {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11580}. Trois avis s’opposent sur le droit de l’imam de le révoquer : il le peut sans restriction, seulement pour certains motifs, ou pas du tout {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11581}.
 
-## Motifs de destitution d'un juge
-Un juge perd ses fonctions lorsqu'il ne remplit plus les conditions requises, notamment en cas de démence, d'évanouissement, de cécité, de surdité, de mutisme, d'apostasie ou de faute grave. Les écoles de pensée divergent sur les modalités de cette révocation {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11582} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11583} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11584}. Selon la majorité, la révocation n'est effective qu'à partir du moment où le juge en a connaissance {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11585} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11586}.
+## Motifs de perte de la fonction judiciaire
+Le juge perd sa fonction lorsqu’une condition d’aptitude disparaît : folie, évanouissement, cécité, surdité, mutisme, apostasie ou conduite répréhensible ; les écoles divergent sur les détails {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11582} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11583} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11584}. Selon la majorité, la révocation ne prend effet que lorsque le juge en est informé {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11585} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11586}.
 
-## Révocation des agents, tuteurs et autres
-Le renvoi d’un agent, d’un tuteur, d’un partenaire dans un contrat de partage des bénéfices, d’une caution et d’un administrateur d’une dotation est traité dans chaque contrat {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11586} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11587} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11588}.
+## Révocation des mandataires, tuteurs et autres
+La révocation du mandataire, du tuteur, de l’associé dans un contrat de partage des bénéfices, de la caution et de l’administrateur d’une fondation pieuse est traitée sous chaque contrat {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11586} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11587} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11588}.
 
-## Retrait d'une épouse ou d'une esclave
-Le retrait (azl), c'est-à-dire le fait de se retirer avant l'éjaculation, est autorisé par la majorité des juristes avec une femme esclave. Concernant une femme libre, les avis divergent : certains l'autorisent sans réserve, d'autres exigent son consentement, et ils énumèrent les motifs qui le rendent licite {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11588} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11589}.
+## Retrait avec une épouse ou une femme esclave
+Le retrait (azl), avant l’éjaculation, est permis par la majorité avec une femme esclave. Pour une épouse libre, les juristes divergent : certains le permettent sans restriction, d’autres exigent son consentement ; ils énumèrent des excuses le rendant licite {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11588} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11589}.

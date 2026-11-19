@@ -2,14 +2,18 @@
 id: concept/canon-signs-of-hot-and-cold-swellings
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/canon-signs-of-hot-and-cold-swellings.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/canon-signs-of-hot-and-cold-swellings.md
 ---
 ## Résumé
-Dans le dixième chapitre, Ibn Sina sépare les gonflements externes des gonflements internes, donne les signes des gonflements chauds et reporte les gonflements froids à la discussion des organes individuels {cite:canon-ibn-sina-print-v1 p.166}.
+Au chapitre 10, Ibn Sina distingue gonflements externes et internes, décrit les signes des chauds et reporte les froids à l’étude de chaque organe {cite:canon-ibn-sina-print-v1 p.166}.
 
-## Extérieur et intérieur
-Les gonflements externes se manifestent par la sensation et la vue. Un gonflement interne chaud se manifeste par une fièvre continue et une sensation de lourdeur si l'organe est insensible, ou par une sensation de lourdeur accompagnée d'une douleur lancinante s'il est sensible ; les signes évocateurs sont une atteinte des fonctions de cet organe et une sensation de gonflement dans sa région {cite:canon-ibn-sina-print-v1 p.166}.
+## Externes et internes
+Les externes seraient perceptibles au toucher et à la vue. Un gonflement interne chaud se manifesterait par fièvre continue et lourdeur dans un organe insensible, ou lourdeur avec douleur poignante dans un organe sensible ; atteinte fonctionnelle et sensation de gonflement local aideraient l’interprétation {cite:canon-ibn-sina-print-v1 p.166}.
 
-## Gonflements froids et gonflements nerveux
-Un gonflement froid n'est pas nécessairement douloureux et ses signes généraux sont difficiles à indiquer ; il est donc préférable de s'en remettre à une discussion organe par organe. Si une sensation de lourdeur est ressentie sans douleur et qu'elle s'accompagne de signes de phlegme dominant, on peut supposer qu'il s'agit d'une affection phlegmatique ; si elle s'accompagne de signes de bile noire, il s'agit d'une affection biliaire noire, surtout si le gonflement est dur. Lorsque les gonflements chauds se situent au niveau des nerfs, la douleur est intense, la fièvre forte, la pensée confuse et les mouvements de contraction et d'extension sont altérés {cite:canon-ibn-sina-print-v1 p.166}.
+## Froids et nerveux
+Le froid ne serait pas nécessairement douloureux ; ses signes généraux étant difficiles à préciser, le livre les reporte à chaque organe. Lourdeur sans douleur et signes de phlegme dominant feraient supposer un gonflement phlegmatique ; signes de bile noire, un mélancolique, surtout dur. Dans les nerfs, les chauds donneraient forte douleur, fortes fièvres, pensée confuse et atteinte de la flexion et de l’extension {cite:canon-ibn-sina-print-v1 p.166}.

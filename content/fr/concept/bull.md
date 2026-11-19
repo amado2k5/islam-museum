@@ -2,15 +2,18 @@
 id: concept/bull
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/bull.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/bull.md
 ---
-
-## Nature et sélection
-Le concombre indien ressemble au gros concombre, mais il est amer et son goût rappelle celui du gingembre {cite:canon-ibn-sina-print-v1 p.397}. La note de bas de page de l'éditeur mentionne également le taureau comme étant le concombre indien {cite:canon-ibn-sina-print-v1 p.397}.
+## Nature et choix
+Concombre indien semblable au grand concombre, mais amer et ressemblant au gingembre {cite:canon-ibn-sina-print-v1 p.397}. La note de l’éditeur donne la même identification {cite:canon-ibn-sina-print-v1 p.397}.
 
 ## Tempérament et actions
-Chaud et sec au deuxième degré, et au troisième selon certains {cite:canon-ibn-sina-print-v1 p.398}. Astringent, et il fortifie les organes {cite:canon-ibn-sina-print-v1 p.398}.
+Chaud et sec au deuxième degré, au troisième selon certains {cite:canon-ibn-sina-print-v1 p.398}. Astringent, il fortifierait les organes {cite:canon-ibn-sina-print-v1 p.398}.
 
-## Utilisations par organe
-Articulations : il soulage la raideur et l’humidité des nerfs ainsi que les troubles liés au froid, tels que la paralysie et la paralysie faciale {cite:canon-ibn-sina-print-v1 p.398}. Organes digestifs : il stimule la digestion, favorise les vomissements et pénètre dans les voies urinaires {cite:canon-ibn-sina-print-v1 p.398}. Organes excréteurs : il tonifie l’estomac et dissipe les gaz {cite:canon-ibn-sina-print-v1 p.398}.
+## Usages par organe
+Articulations : il aiderait contre induration, humidité et troubles froids des nerfs, comme paralysie et paralysie faciale {cite:canon-ibn-sina-print-v1 p.398}. Organes alimentaires : il attiserait le feu gastrique, aiderait contre les vomissements et entre dans les électuaires {cite:canon-ibn-sina-print-v1 p.398}. Organes excréteurs : il resserrerait le ventre et dissiperait les vents {cite:canon-ibn-sina-print-v1 p.398}.

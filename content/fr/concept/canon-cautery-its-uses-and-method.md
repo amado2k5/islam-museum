@@ -2,23 +2,27 @@
 id: concept/canon-cautery-its-uses-and-method
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/canon-cautery-its-uses-and-method.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/canon-cautery-its-uses-and-method.md
 ---
 ## Résumé
-Ibn Sina consacre le chapitre 29 à la cautérisation : il énumère ses avantages, puis décrit la cautérisation dans les endroits profonds avec un moule, ce contre quoi le cautérisateur se protège, et ce qui est fait pour cautériser un flux de sang, pour enlever la chair corrompue et dans le crâne {cite:canon-ibn-sina-print-v1 p.309}.
+Ibn Sina consacre le chapitre 29 à la cautérisation : bienfaits, traitement des lieux profonds avec un moule, précautions, traitement du saignement, retrait de chair corrompue et cas du crâne {cite:canon-ibn-sina-print-v1 p.309}.
 
-## Ses avantages
-La cautérisation est un traitement utile pour prévenir la propagation de la corruption, renforcer un organe dont on souhaite rétablir l'équilibre, dissoudre les matières corrompues qui y adhèrent et arrêter un saignement. Le meilleur métal pour cautériser est l'or {cite:canon-ibn-sina-print-v1 p.309}.
+## Bienfaits supposés
+Il lui attribue prévention de la diffusion de corruption, renforcement de l’organe dont le tempérament doit être restauré, résolution de matières corrompues adhérentes et arrêt du saignement. Il préfère l’or comme métal {cite:canon-ibn-sina-print-v1 p.309}.
 
-## lieux profonds
-Le site de cautérisation est soit visible, auquel cas la cautérisation est appliquée visuellement, soit situé profondément à l'intérieur d'un organe, comme le nez, la bouche ou l'anus. Dans ce dernier cas, on utilise un moule sur lequel on fait bouillir du talc et de l'ocre trempés dans du vinaigre. On enveloppe ensuite le moule dans des linges et on le refroidit soigneusement avec de l'eau de rose ou un jus. Le moule est introduit dans le passage jusqu'à ce qu'il adhère au site de cautérisation, puis le fer à cautériser est enfoncé à l'intérieur pour atteindre sa position sans endommager les tissus environnants. Le fer étant plus fin que les parois du moule, il ne les touche pas {cite:canon-ibn-sina-print-v1 p.309}.
+## Lieux profonds
+Le lieu peut être visible ou profond, comme nez, bouche et anus. Le livre décrit alors un moule couvert de talc et d’ocre au vinaigre bouillis, enveloppé de linges et refroidi à l’eau de rose ou aux sucs ; introduit jusqu’au site, il guiderait un fer plus mince que ses parois, sans toucher celles-ci ni léser les alentours {cite:canon-ibn-sina-print-v1 p.309}.
 
-## Ce contre quoi le cautérisateur protège
-Le cautérisateur doit veiller à ce que la puissance de sa cautérisation ne passe pas aux nerfs, aux tendons et aux ligaments {cite:canon-ibn-sina-print-v1 p.309}.
+## Précautions
+Le texte demande d’éviter que la puissance de la cautérisation n’atteigne nerfs, tendons et ligaments {cite:canon-ibn-sina-print-v1 p.309}.
 
-## Un flot de sang et de chair corrompue
-Si la cautérisation est pratiquée pour arrêter un saignement, elle doit être suffisamment marquée pour que l'escarre soit profonde et épaisse et ne se rétracte pas rapidement, car la rétraction de l'escarre après une cautérisation pratiquée pour un saignement entraîne une affliction plus grave que la première. Si la cautérisation vise à retirer les tissus nécrosés et que l'on souhaite atteindre la limite de la zone saine, c'est à ce niveau que la douleur commence ; il est parfois nécessaire de cautériser l'os sous-jacent en même temps que les tissus jusqu'à ce que toute la nécrose soit éliminée {cite:canon-ibn-sina-print-v1 p.309}.
+## Saignement et chair corrompue
+Pour le saignement, il préconise une cautérisation forte créant une escarre profonde et épaisse, dont la chute précoce provoquerait une atteinte plus grave. Pour enlever la chair corrompue, le début de douleur marquerait la limite saine ; il envisage parfois de cautériser aussi l’os dessous jusqu’à suppression de sa corruption {cite:canon-ibn-sina-print-v1 p.309}.
 
-## Le crâne
-Si l’os est comme le crâne, la cautérisation est faite en douceur afin que le cerveau ne bouille pas et que les membranes ne se convulsent pas ; ailleurs, aucun soin n’est apporté à être minutieux {cite:canon-ibn-sina-print-v1 p.309}.
+## Crâne
+Le livre préconise la douceur sur le crâne pour ne pas faire bouillir le cerveau ni contracter ses membranes ; ailleurs, il ne craint pas une cautérisation poussée {cite:canon-ibn-sina-print-v1 p.309}.
