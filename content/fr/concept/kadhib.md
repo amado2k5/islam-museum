@@ -1,0 +1,39 @@
+---
+id: concept/kadhib
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/kadhib.md}
+---
+## Résumé
+Dans le lexique, le kadhib rapporte quelque chose qui est contraire à ce qu'il est, que ce soit intentionnellement ou par erreur, et les juristes conservent ce sens {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13221}. Il diffère du tazwir, qui embellisse une chose et la décrit par rapport à sa réalité et peut se produire par la parole ou l'acte, et de l'iftira', qui invente et n'est utilisée que pour la corruption {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13221} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13222}.
+
+## Décision
+La règle est l'interdiction par le Coran, la Sunna et le consensus de la communauté ; c'est l'un des pires péchés. Un récit d'Ibn Mas'ud affirme que la vérité mène à la justice et que mentir mène à la méchanceté {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13222}. Le mensonge peut être permis ou obligatoire selon son but : tout bon but pouvant être atteint sans mensonge interdit de mentir ; s'il ne le peut pas, le mensonge est permis ; et si le but lui-même est obligatoire, mentir l'est aussi, comme lorsque le sang d'un musulman est protégé contre un tyran qui le cherche {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13222}.
+
+## Mensonge autorisé
+Le mensonge est permis lorsque l'objectif d'une guerre, la réconciliation des peuples ou la conquête d'une personne lésée ne peuvent être atteints sans elle, mais il faut l'éviter autant que possible, car ouvrir la porte à cela peut conduire à plus que ce que la nécessité exige. Le rapport d'um Kulthum mentionne les exceptions de guerre, de réconciliation entre les peuples, et d'un mari et d'une femme qui se parlent {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13223}. Une personne saisie par un tyran qui interroge sur sa propriété peut le nier, et quelqu'un interrogé par un dirigeant sur un péché entre elle et Dieu peut le nier, conformément au hadith selon lequel celui qui a commis une telle chose doit se couvrir de la couverture de Dieu {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13223} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13224}. Lorsque la vérité et le mensonge entrent en conflit, on pèse les torts : si le mal de la vérité est plus grave dans la loi, le mensonge est permis ; En cas de doute sur la nécessité, la règle est la prohibition {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13223}. Un groupe considère que le mensonge n'est jamais autorisé et interprète les rapports comme des allusions et des propos indirects {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13224}.
+
+## Mentir sur Dieu et le Prophète
+Mentir à propos de Dieu ou de Son Messager est un péché majeur sans plus grand, selon les versets de la sourate al-An'am et de la sourate al-Zumar et sur le hadith « quiconque ment délibérément sur moi, qu'il prenne place dans le Feu » {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13224} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13225}. Certains chercheurs ultérieurs affirment que mentir délibérément sur Dieu ou son Messager pour rendre légal ce qui est interdit, ou l'inverse, est une simple incrédulité {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13224}. Al-Nawawi soutient que narrer un hadith falsifié à quelqu'un qui sait qu'il est forgé est interdit. Un narrateur ne doit dire « le Messager a dit » que d'un rapport sain ou bon, et utiliser une forme plus faible pour un rapport faible {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13225}.
+
+## Allongé dans les rêves
+La loi met en garde contre les faux rapports de rêve. Al-Qurtubi dit que mentir à propos d'un rêve est mentir à propos de Dieu, qui est censé avoir montré ce qui n'a pas été montré, et donc le péché est grave {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13226}. Un hadith dit que quiconque affirme un rêve à tort devra le jour de la Résurrection attacher deux grains d'orge ensemble, ce qu'il ne peut pas faire {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13226}.
+
+## Revendiquer un autre père ou nier son enfant
+C'est un péché grave de revendiquer une descendance de quelqu'un d'autre que son père, ou de revendiquer un fils qui n'est pas le sien, en sachant que c'est faux, sur la base du hadith « ne vous détournez pas de vos pères ; quiconque se détourne de son père a dus à l'incroyance. » Al-Nawawi interprète cette incrédulité comme de l'incrédulité dans la gratitude, ou comme la rendant légale {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13227}. Nier la descendance d'un enfant tout en sachant qu'elle est vraie comporte la même menace {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13227}.
+
+## Vente, tromperie et dirigeants
+Mentir lors d'une vente à partage des bénéfices et dissimuler un défaut sont des défauts courants des marchés ; quiconque affirme faussement avoir acheté un objet à un prix donné et obtenu une certaine somme est un transgresseur, et celui qui connaît la vérité doit en parler à l'acheteur {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13227}. Un souverain qui trompe ou ment à ses sujets commet un péché majeur, sur le hadith du roi menteur et le hadith de Ma'qil ibn Yasar contre un chef qui meurt en trompant ses sujets. Al-Qadi Iyad dit qu'un dirigeant qui trahit sa confiance, en ne protégeant pas la religion et les intérêts mondains du peuple, l'a trompé {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13227} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13228}.
+
+## Narrer tout ce qu'on entend
+La loi interdit de narrer tout ce qu'on entend, dans le hadith « il suffit d'un mensonge pour qu'un homme raconte tout ce qu'il entend. » Le mensonge n'a pas besoin d'intention pour être un mensonge, mais l'intention est nécessaire pour être un péché {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13228} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13229}.
+
+## Allusion au lieu de mentir
+Certains premiers érudits soutenaient que les allusions offrent une issue au mensonge. Cela s'applique nécessairement ; sans nécessité, ni allusion ni mensonge direct n'est permise, bien que l'allusion soit plus légère {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13229}. L'exemple donné est Mu'adh ibn Jabal, qui dit à sa femme qu'il avait avec lui un veilleur (« daghit », signifiant un gardien) avec lui, signifiant Dieu {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13229}. L'allusion est permise à un but léger, comme encourager quelqu'un avec une blague, comme dans le récit de la vieille femme et le récit d'Anas sur le jeune chameau {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13229} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13230}.
+
+## Blague et enfants
+Mentir en plaisantant est interdit comme mentir ailleurs, sur le hadith « un serviteur n'aura pas pleine foi tant qu'il n'abandonne pas de mentir en plaisantant » ; le Prophète disait qu'il plaisantait et ne disait que ce qui est vrai {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13225}. Il faut aussi se méfier de ne pas mentir en jouant avec des enfants : le hadith d'Abd Allah ibn Amir dit que le Prophète a dit à une mère qui avait promis quelque chose à un enfant sans le donner qu'elle aurait écrit un mensonge contre elle-même {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13225}.
+
+## Extrait du programme d'Omar Abdelkafy Wa Nafsin wa ma Sawwaha
+Le cheikh mentionne que l'islam permet aux époux ou aux litigants réconciliants de dire à chaque camp un mensonge bienveillant, et à un mari de dire à sa femme que sa mère et sa sœur parlent bien d'elle, et qu'une épouse de même de sa famille en fait même, même si elles ne l'ont pas dit ; il considère cela comme mensonge, puisque la vie prévoit ceci et cela. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:04:00} Voir : [[concept/iftira|calomnies]] de personnes.
