@@ -1,0 +1,29 @@
+---
+id: practice/sadaqa
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/practice/sadaqa.md}
+---
+## Resumen
+Sadaqa es lo que se da buscando cercanía a Dios más que favor humano — abarcando tanto la zakat como las limosnas voluntarias; jurídicamente, una transferencia gratuita en la vida hecha por el bien de Dios. Los juristas reservan en su mayoría la palabra para limosnas voluntarias, y se dice que se llama así por la sinceridad (sidq) de la intención del donante. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10295} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10296}
+
+## Sus usos
+La palabra abarca zakat — «los sadaqat son solo para los pobres»——, limosnas voluntarias, la dotación, como en la sadaqa de Umar de su tierra «no para venderse, darse ni heredar, sino gastar su cosecha», y todo acto de bondad — «toda buena acción es una sadaqa». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10295} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10296}
+
+## Junto a hiba, hadiyya y 'ariyya
+El regalo, el regalo y la donación son todas transferencias gratuitas: como recompensa del más allá es sadaqa; para el afecto y la compañerismo, hiba; para honrar, hadiyya — 'atiyya cubriendo todos ellos. Un préstamo ('ariyya) permite o transfiere un usufructo: sadaqa transfiere la cosa en sí y no admite que no se puede recuperar, mientras que el objeto prestado debe devolver a su propietario. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10296}
+
+## Su sabiduría y mérito
+La Sadaqa ayuda a los débiles, alivia a los angustiados, da gracias por las bendiciones de Dios y demuestra la fe del donante — entre los méritos transmitidos, los siete sombreados por Dios incluyen "un hombre que dio una sadaqa y la ocultó de modo que su mano izquierda no supiera lo que gastó su mano derecha". {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10296} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10297}
+
+## De las conferencias Tafsir de Sheikh Omar Abdelkafy (episodio 4)
+El jeque menciona que un alma envía hacia adelante algunas acciones y deja tras de sí otras, que lo que envía por delante son buenas acciones, y que algunas personas dejan malas atrás, como quien escribe un libro indecente {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:45:30}. Dice que la caridad continua tiene un contrapunto en el pecado continuo, de modo que quien hace una película indecente gana una carga cada vez que la ve, y sostiene que el Mensajero insta a la caridad continua {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:46:00}.
+
+## Del programa Bustan al-Amal de Omar Abdelkafy
+El jeque critica a quienes hacen fila a los pobres en filas o publican sus donaciones en periódicos y televisión, y pide que envíen caridad a sus hogares en secreto, recordando a uno entre los siete ensombrecidos por Dios que ocultó su caridad; sostiene que un empleado respetable cuyos ingresos no bastan, con hijos en la escuela, una hija enferma y un préstamo, es uno de los más merecedores de zakat y caridad, porque los ignorantes lo consideran rico por su contención y no suplica insistentemente. {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:09:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:09:30}
+
+## En el programa de Mustafa Hosny 'Hadaya al-Rahman'
+Dos episodios del [[person/mustafa-hosny|programa 'Hadaya al-Rahman]]' de [[work/hadaya-al-rahman|Mustafa Hosny]] tratan sobre la caridad. En el cuarto nombra, entre los siete a quienes se concederá la sombra de Dios en el Día de la Resurrección, a aquel que ocultó su caridad, y pone el ejemplo de un hombre al que se pide caridad que mete la mano en el bolsillo y da cualquier billete que sale sin mirar, con humildad. {cite:assabile-mustafa-hosny hadaya-al-rahman/ep04 00:00:00} {cite:assabile-mustafa-hosny hadaya-al-rahman/ep04 00:00:30} {cite:assabile-mustafa-hosny hadaya-al-rahman/ep04 00:01:30} {cite:assabile-mustafa-hosny hadaya-al-rahman/ep04 00:02:00} Su sabiduría, para él, es dar con un corazón amable y humilde que no recuerde a los pobres el favor, como si le dijera que es el dador quien le necesita, ya que por él el dador está a la sombra. {cite:assabile-mustafa-hosny hadaya-al-rahman/ep04 00:02:30} {cite:assabile-mustafa-hosny hadaya-al-rahman/ep04 00:03:00}
+
+En el decimocuarto cita un hadiz que la caridad protege a su dador de muertes malvadas, los más pequeños mueren de preocupación, y otro que la caridad secreta protege contra fines malignos, y los vincula a la enseñanza de que las acciones se juzgan por sus finales. {cite:assabile-mustafa-hosny hadaya-al-rahman/ep14 00:00:00} {cite:assabile-mustafa-hosny hadaya-al-rahman/ep14 00:00:30} {cite:assabile-mustafa-hosny hadaya-al-rahman/ep14 00:01:30} Sostiene que el dador revive a alguien 'vivo pero muerto' con tristeza y necesidad, y que Dios consuela entonces al dador en su momento más débil, la partida del alma. {cite:assabile-mustafa-hosny hadaya-al-rahman/ep14 00:02:00} {cite:assabile-mustafa-hosny hadaya-al-rahman/ep14 00:02:30} Relata que [[person/ali-ibn-abi-talib|Ali ibn Abi Talib]] tenía cuatro dirhams y gastó uno por la mañana, uno por la noche, uno en secreto y otro abiertamente, y que se reveló sobre él un versículo que alababa a quienes gastan en todo momento y en todo estado; esta es su versión y no menciona ninguna fuente. {cite:assabile-mustafa-hosny hadaya-al-rahman/ep14 00:02:30} {cite:assabile-mustafa-hosny hadaya-al-rahman/ep14 00:03:00}

@@ -1,0 +1,12 @@
+---
+id: practice/dua-at-ablution
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/practice/dua-at-ablution.md}
+---
+## Resumen
+Lo que se dice durante la ablución y después, como al-Nawawi lo recoge en al-Adhkar: nombrar a Dios al principio, los dos testimonios posteriores de Sahih Muslim y las súplicas miembro por miembro que relata de las primeras generaciones sin decir nada de ellas, provienen del Profeta. {cite:al-adhkar-nawawi-arnaut-1994 p. 27}
+
+## Lo que al-Nawawi reúne en al-Adhkar
+Al-Nawawi dice que se empieza con «بسم الله الرحمن الرحيم», que «بسم الله» es suficiente, que alguien que olvida decirlo durante la ablución, y que la ablución es válida sin ella, ya sea omitida a propósito o por error; llama a esta la opinión de su escuela y la de la mayoría de los eruditos {cite:al-adhkar-nawawi-arnaut-1994 p. 27}. Señala que al-Bayhaqi y otros debilitaron los informes sobre el nombre de Dios en la ablutión, y cita [[person/ahmad-ibn-hanbal|a Ahmad ibn Hanbal]] como quien no conoce ningún informe establecido al respecto {cite:al-adhkar-nawawi-arnaut-1994 p. 27}. Tras terminar, entrega, de Sahih Muslim, de Umar ibn al-Khattab: «أشهد أن لا إله إلا الله وحده لا شريك له، وأشهد أن محمدا عبده ورسوله», los dos testimonios, para los cuales el informe dice que se abren las ocho puertas del Paraíso; al-Tirmidhi añade: «اللهم اجعلني من التوابين واجعلني من المتطهرين» {cite:al-adhkar-nawawi-arnaut-1994 p. 28}. De súplicas sobre cada extremidad dice que no ha salido nada del [[person/muhammad|Profeta]], que los juristas recomendaron formulaciones transmitidas desde las primeras generaciones, y las enumera miembro por miembro {cite:al-adhkar-nawawi-arnaut-1994 p. 29}. De Abu Musa al-Ash'ari, en los libros de al-Nasa'i e Ibn al-Sunni, mediante una cadena llama sonido: «اللهم اغفر لي ذنبي، ووسع لي في داري، وبارك لي في رزقي», una súplica de perdón, espacio en el hogar y bendición en la provisión {cite:al-adhkar-nawawi-arnaut-1994 p. 29}. Dice que alguien bañándose dice lo que se dio para la abluzión, y del mismo modo alguien que hace tayammum {cite:al-adhkar-nawawi-arnaut-1994 p. 29} {cite:al-adhkar-nawawi-arnaut-1994 p. 30}.

@@ -1,0 +1,12 @@
+---
+id: practice/dua-friday-dawn-and-sunrise
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/practice/dua-friday-dawn-and-sunrise.md}
+---
+## Resumen
+Lo que al-Nawawi recoge en los capítulos el viernes por la mañana y al amanecer: más recuerdo y bendición sobre el Profeta los viernes, buscando perdón antes de la oración del amanecer, la hora de la respuesta y lo que se dice cuando sale el sol. {cite:al-adhkar-nawawi-arnaut-1994 p. 85}
+
+## Lo que al-Nawawi reúne en al-Adhkar
+Al-Nawawi dice que todo lo que se dice en otros días se dice el viernes, que se recomienda el recuerdo con mayor fuerza y que la bendición sobre [[person/muhammad|el Profeta]] se añade en mayor número {cite:al-adhkar-nawawi-arnaut-1994 p. 85}. De Anas, en el libro de Ibn al-Sunni: quien dice la oración del viernes por la mañana antes del amanecer «أستغفر الله الذي لا إله إلا هو الحي القيوم وأتوب إليه» tres veces, Dios perdona sus pecados aunque sea como la espuma del mar {cite:al-adhkar-nawawi-arnaut-1994 p. 85}. Dice que se recomienda suplicar durante todo el día del viernes con la esperanza de encontrar la hora de la respuesta, que los eruditos diferían en muchas opiniones sobre ello, y que, en su opinión, la correcta es la que se establece en Sahih Muslim según Abu Musa al-Ash'ari: que se sitúa entre el imán sentado en el púlpito y el final de la oración {cite:al-adhkar-nawawi-arnaut-1994 p. 85}. En el capítulo sobre lo que se dice cuando sale el sol, relata desde Abu Sa'id al-Khudri en Ibn al-Sunni, por una cadena débil, que el Profeta dijo «الحمد لله الذي جللنا اليوم عافيته وجاء بالشمس من مطلعها», luego dio testimonio de la unidad de Dios y pidió la solidez de su religión, de este mundo y del siguiente {cite:al-adhkar-nawawi-arnaut-1994 p. 86}. De Ibn Mas'ud, un relato que se detiene en él, que al saber que el sol había salido dijo «الحمد لله الذي وهب لنا هذا اليوم وأقالنا فيه من عثراتنا» {cite:al-adhkar-nawawi-arnaut-1994 p. 86}. En el capítulo para cuando el sol se eleva, de Amr ibn Abasa: toda criatura de Dios le glorifica y lo alaba entonces, excepto el diablo y el más rebelde de la humanidad, a quienes el Profeta describió como la peor de las criaturas {cite:al-adhkar-nawawi-arnaut-1994 p. 86}.

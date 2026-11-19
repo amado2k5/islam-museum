@@ -1,0 +1,12 @@
+---
+id: practice/dua-in-fever-pain-and-wishing-for-death
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/practice/dua-in-fever-pain-and-wishing-for-death.md}
+---
+## Resumen
+Lo que al-Nawawi recoge en los capítulos sobre lo que dice alguien con dolor de cabeza o fiebre, sobre un paciente que dice que sufre un dolor intenso, sobre el deseo de morir por daño y sobre rezar para morir en la noble ciudad. {cite:al-adhkar-nawawi-arnaut-1994 p. 137}
+
+## Lo que al-Nawawi reúne en al-Adhkar
+Al-Nawawi recoge del libro de Ibn al-Sunni, de Ibn Abbas, que [[person/muhammad|el Profeta]] solía enseñarles, para todos los dolores y para la fiebre, a decir «بسم الله الكبير، نعوذ بالله العظيم من شر عرق نعار ومن شر حر النار», en el nombre de Dios Magno, buscamos refugio en Dios el Poderoso del mal de una vena palpitante y del calor del fuego {cite:al-adhkar-nawawi-arnaut-1994 p. 137}. Dice que el paciente debe recitar sobre sí mismo la sura inicial, la sura de sinceridad y las dos suras de refugio, soplar en sus manos y usar la súplica para el sufrimiento dada antes {cite:al-adhkar-nawawi-arnaut-1994 p. 137}. En el capítulo sobre un paciente que dice que sufre un dolor severo, dice que no hay antipatía en ello cuando no sea por resentimiento o una muestra de impaciencia {cite:al-adhkar-nawawi-arnaut-1994 p. 137}. De los dos Sahihs, de Ibn Mas'ud, relata que fue al Profeta, que tenía fiebre, y dijo que tenía una fiebre severa. El Profeta dijo «أجل كما يوعك رجلان منكم» {cite:al-adhkar-nawawi-arnaut-1994 p. 137}. En el capítulo sobre el desagrado por el deseo de muerte, él menciona de los dos Sahihs, de Anas, las palabras del Profeta: «لا يتمنين أحدكم الموت من ضر أصابه». Si hay que decir, debe decir «اللهم أحيني ما كانت الحياة خيرا لي وتوفني إذا كانت الوفاة خيرا لي» {cite:al-adhkar-nawawi-arnaut-1994 p. 138}. Los eruditos dicen que a quien desea la muerte por miedo a su religión, debido a la corrupción de la época, no se le culpa {cite:al-adhkar-nawawi-arnaut-1994 p. 138}. En el capítulo sobre rezar para morir en la noble ciudad, relata de Sahih al-Bukhari, de Hafsa, que Umar dijo «اللهم ارزقني شهادة في سبيلك واجعل موتي في بلد رسولك». Ella preguntó cómo podía ser eso, y él dijo que Dios lo traería cuando Él quisiera {cite:al-adhkar-nawawi-arnaut-1994 p. 138}.

@@ -1,0 +1,12 @@
+---
+id: practice/dua-when-fearing-others-or-the-devil
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/practice/dua-when-fearing-others-or-the-devil.md}
+---
+## Resumen
+Lo que al-Nawawi recoge en los capítulos sobre qué decir al temer a un pueblo o a un gobernante, al mirar a un enemigo y cuando aparece un demonio. {cite:al-adhkar-nawawi-arnaut-1994 p. 123}
+
+## Lo que al-Nawawi reúne en al-Adhkar
+Al-Nawawi da, mediante una cadena que llama sonido, en el Sunan de Abu Dawud y al-Nasa'i, de Abu Musa al-Ash'ari, que cuando [[person/muhammad|el Profeta]] temía a un pueblo dijo «اللهم إنا نجعلك في نحورهم ونعوذ بك من شرورهم», oh Dios, te ponemos contra sus cuentes y buscamos refugio en Ti de sus males {cite:al-adhkar-nawawi-arnaut-1994 p. 123}. En el capítulo sobre temer a un gobernante que menciona del libro de Ibn al-Sunni, de Ibn Umar, las palabras del Profeta según las cuales quien teme a un gobernante u otro debe decir «لا إله إلا الله الحليم الكريم», luego glorifique a Dios como Señor de los siete cielos y del gran trono, y luego diga «لا إله إلا أنت، عز جارك، وجل ثناؤك», y añade que también se recomienda la redacción del informe de Abu Musa {cite:al-adhkar-nawawi-arnaut-1994 p. 124}. En el capítulo sobre contemplar a un enemigo, relata de Ibn al-Sunni, de Anas, que estuvieron con el Profeta en una campaña y se enfrentaron al enemigo, y Anas le oyó decir palabras de la sura inicial que el museo no reescribe. Anas dice que vio hombres derribados, golpeados por ángeles delante y detrás de ellos {cite:al-adhkar-nawawi-arnaut-1994 p. 124}. En el capítulo sobre un demonio cita dos versículos, [[passage/quran-7-200|Corán 7:200]] y [[passage/quran-17-45|Corán 17:45]], y dice que uno debe buscar refugio y luego recitar lo que es fácil del Corán {cite:al-adhkar-nawawi-arnaut-1994 p. 124}. De Sahih Muslim, de Abu al-Darda, relata que el Profeta estaba rezando y se le oyó decir «أعوذ بالله منك», luego «ألعنك بلعنة الله التامة» tres veces, y después dijo que Iblis había venido con una llama de fuego para ponerle en la cara, y que lo dijo tres veces y el diablo se retiró {cite:al-adhkar-nawawi-arnaut-1994 p. 124}.

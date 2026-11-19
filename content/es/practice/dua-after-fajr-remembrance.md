@@ -1,0 +1,12 @@
+---
+id: practice/dua-after-fajr-remembrance
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/practice/dua-after-fajr-remembrance.md}
+---
+## Resumen
+Lo que al-Nawawi recoge en el capítulo que insta a la memoria de Dios después de la oración del amanecer: el mérito de sentarse en recuerdo hasta el amanecer, diez tahlils y súplicas reportadas tras la oración del amanecer. {cite:al-adhkar-nawawi-arnaut-1994 p. 74}
+
+## Lo que al-Nawawi reúne en al-Adhkar
+Al-Nawawi dice que el momento más noble para el recuerdo del día es después de la oración del amanecer {cite:al-adhkar-nawawi-arnaut-1994 p. 74}. Relata según Anas, en el libro de al-Tirmidhi y otros, que [[person/muhammad|el Profeta]] dijo que quien reza la oración del amanecer en congregación, luego se sienta recordando a Dios hasta que sale el sol, luego reza dos rak'as, recibe la recompensa de una peregrinación completa y una peregrinación menor completa, y dice que al-Tirmidhi lo llamó bueno {cite:al-adhkar-nawawi-arnaut-1994 p. 74}. Según Abu Dharr, en el libro de al-Tirmidhi y otros: quien dice después de la oración del amanecer, con las piernas aún cruzadas y antes de hablar, «لا إله إلا الله وحده لا شريك له له الملك وله الحمد يحيي ويميت وهو على كل شيء قدير» diez veces, Dios escribe diez buenas obras para él, borra diez pecados, le eleva diez rangos y lo mantiene ese día a salvo de todo daño; al-Tirmidhi lo llamó bueno, y en algunas copias suena {cite:al-adhkar-nawawi-arnaut-1994 p. 75}. De um Salama, en el Musnad de Ahmad, el Sunan de Ibn Majah y el libro de Ibn al-Sunni: «اللهم إني أسألك علما نافعا وعملا متقبلا ورزقا طيبا», oh Dios, Te pido conocimiento útil, trabajo aceptado y buena provisión {cite:al-adhkar-nawawi-arnaut-1994 p. 75}. Según Suhayb, en el libro de Ibn al-Sunni, el Profeta movió los labios tras la oración del amanecer diciendo «اللهم بك أحاول وبك أصاول وبك أقاتل», oh Dios, por Ti me esfuerzo, por Ti ataco, por Ti lucho {cite:al-adhkar-nawawi-arnaut-1994 p. 75}. Concluye con el informe de al-Baghawi en Sharh al-Sunna, de Alqama ibn Qays, que les ha llegado que la tierra clama a Dios por el sueño de un erudito tras la oración del amanecer {cite:al-adhkar-nawawi-arnaut-1994 p. 76}.

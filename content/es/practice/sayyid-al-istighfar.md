@@ -1,0 +1,12 @@
+---
+id: practice/sayyid-al-istighfar
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/practice/sayyid-al-istighfar.md}
+---
+## Resumen
+Lo que al-Nawawi ofrece al principio del Libro de la Búsqueda del Perdón en al-Adhkar: la principal súplica de perdón de Sahih al-Bukhari, de Shaddad ibn Aws; la búsqueda diaria de perdón del Profeta, de los dos Sahihs; y las formulaciones encontradas en el Sunán. {cite:al-adhkar-nawawi-arnaut-1994 p. 402}
+
+## Lo que al-Nawawi reúne en al-Adhkar
+Al-Nawawi dice que este libro es uno de los asuntos que más merecen atención, y que termina su obra con él con la esperanza de que Dios lo selle {cite:al-adhkar-nawawi-arnaut-1994 p. 402}. De Sahih Muslim, de al-Agharr al-Muzani, de Sahih al-Bukhari, de Abu Hurayra, relata que [[person/muhammad|el Profeta]] pidió perdón cien veces al día, y más de setenta veces {cite:al-adhkar-nawawi-arnaut-1994 p. 402}. De Sahih al-Bukhari, de Shaddad ibn Aws, pronuncia la principal súplica de perdón: «اللهم أنت ربي لا إله إلا أنت خلقتني وأنا عبدك، وأنا على عهدك ووعدك ما استطعت، أعوذ بك من شر ما صنعت، أبوء لك بنعمتك علي، وأبوء بذنبي، فاغفر لي فإنه لا يغفر الذنوب إلا أنت», Oh Dios, Tú eres mi Señor; Tú me creaste y soy Tu siervo, manteniendo Tu pacto en la medida en que puedo; Admito Tu favor sobre mí y admito mi pecado, así que perdóname, porque nadie perdona pecados sino Tú. El informe dice que quien lo dice con certeza de día y muere ese día, o de noche y muere antes del amanecer, es del pueblo del Paraíso; al-Nawawi pronuncia «أبوء» como «Reconozco y confieso» {cite:al-adhkar-nawawi-arnaut-1994 p. 403}. Del Sunan de Abu Dawud, al-Tirmidhi e Ibn Majah, de Ibn Umar, que contarían que dijo cien veces en una sola sesión: «رب اغفر لي وتب علي إنك أنت التواب الرحيم», y cita la calificación de la obra como sonido {cite:al-adhkar-nawawi-arnaut-1994 p. 403} por al-Tirmidhi. Del Sunan de Abu Dawud y al-Tirmidhi, de Ibn Mas'ud: «أستغفر الله الذي لا إله إلا هو الحي القيوم وأتوب إليه», citando la calificación de al-Hakim como sonido {cite:al-adhkar-nawawi-arnaut-1994 p. 404}. Luego dice que el tema es muy amplio y que mantenerlo corto facilita su sostenimiento {cite:al-adhkar-nawawi-arnaut-1994 p. 404}.
