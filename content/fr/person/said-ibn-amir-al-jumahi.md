@@ -1,0 +1,17 @@
+---
+id: person/said-ibn-amir-al-jumahi
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/said-ibn-amir-al-jumahi.md}
+---
+## Vue d'ensemble
+Sa'id ibn Amir ibn Hudhaym al-Jumahi al-Qurashi, l'un des Compagnons du Messager de Dieu et l'un des commandants de l'armée d'Iyad ibn Ghanm. al-Baladhuri rapporte depuis al-Waqidi qu'il se trouvait à l'aile droite lorsque l'armée marcha vers al-Jazira au milieu du Sha'ban de l'an 18 H. L'avant-garde était sous le commandement de Maysara ibn Masruq, et l'aile gauche sous Safwan ibn al-Mu'attal {cite:futuh-buldan-maarif-1407 p.237}. Voir [[event/conquest-of-jazira|la conquête d'al-Jazira]].
+
+## Ses relations avec Homs
+Al-Mas'udi rapporte que les habitants de Homs se plaignaient de lui auprès d'Umar. Ils disaient qu'il ne leur était pas sorti avant le lever du jour, et qu'il ne répondait pas la nuit. Umar lui envoya mille dinars, et il les distribua parmi les orphelins et les nécessiteux jusqu'à ce qu'il ne reste plus grand-chose {cite:muruj-al-dhahab p.602-603}.
+
+## Dans l'émission d'Abla al-Kahlawi « Dans l'amour d'al-Mustafa »
+[[person/abla-al-kahlawi|Abla al-Kahlawi]] se souvient de Sa'id ibn Amir dans son épisode sur la générosité dans son émission «[[work/fi-hub-al-mustapha|En amour d'al-Mustafa]] », comme un exemple du don que les Compagnons apprirent du Prophète. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep20 00:06:30} Elle raconte qu'Umar ibn al-Khattab l'avait nommé gouverneur en Syrie, une terre riche où quiconque irait pourrait être tenté, lorsqu'il était nouvellement marié ; sa fiancée voulait qu'ils achètent des choses avec l'argent qu'on lui avait donné pour leur subsistance, et il disait qu'il investirait cet argent dans un commerce rentable, puis le distribuerait parmi les pauvres de Syrie, et chaque fois qu'elle lui demandait des informations sur le commerce, il disait qu'il rapportait un profit, jusqu'à ce qu'un de ses proches lui raconte l'histoire et elle pleure devant une telle générosité. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep20 00:06:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep20 00:07:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep20 00:07:30}
+
+Le peuple syrien se plaignait de lui auprès d'Umar, raconte-t-elle, mais chaque plainte montrait quel grand homme il était : qu'il ne leur sortait pas la nuit, car le jour leur appartenait et la nuit à son Seigneur ; qu'il était sorti tard pendant deux jours, car il n'avait que deux vêtements, un à porter et un à laver ; et que des évanouissements le submergeaient parce qu'il avait vu Khubayb ibn Adi torturé et tué alors qu'il était lui-même encore polythéiste et ne l'avait pas défendu, et chaque fois qu'il s'en souvenait, il s'évanouissait. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep20 00:08:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep20 00:08:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep20 00:09:00} Dans le rapport d'al-Mas'udi cité ci-dessus, le peuple de Homs se plaignait de lui à Umar qu'il ne leur était pas sorti avant que la journée soit bien avancée et ne répondait pas la nuit. {cite:muruj-al-dhahab p.602-603}

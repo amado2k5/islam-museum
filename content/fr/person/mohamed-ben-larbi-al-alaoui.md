@@ -1,0 +1,16 @@
+---
+id: person/mohamed-ben-larbi-al-alaoui
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/mohamed-ben-larbi-al-alaoui.md}
+---
+## Résumé
+
+Muhammad ibn al-Arabi ibn Muhammad al-Hashimi al-Alawi al-Mudghari (1884–1964), honoré au Maroc du rare titre de « Shaykh al-Islam », était un juriste, juge et homme politique, et le fondateur de la Salafiyya nationale au Maroc. Il naquit à al-Qasr al-Jadid à Midghara, une oasis du Tafilalt, le 7 Dhu al-Hijja 1301 ou 1302 H — 1884 — selon le Ma'lamat al-Maghrib ; d'autres sources indiquent 1880, et les sources suivent 1884 tout en préservant l'année rivale. {cite:wikipedia-mohamed-ben-larbi-al-alaoui-ar} {cite:wikipedia-mohamed-ben-larbi-al-alaoui-es} {cite:wikidata-mohamed-ben-larbi-al-alaoui}
+
+Il commença avec son père, et dans sa jeunesse se rattacha au Darqawiyya de Midghara, devenant l'une de ses figures majeures, avant de se rendre en 1909 à Fès pour étudier au Qarawiyyin auprès de ses grands érudits, et d'absorber la Salafiyya du Shaykh Abu Shu'ayb al-Dukkali, qui était marquée par la superstition et appelait à un retour au Livre et à la Sunne. {cite:wikipedia-mohamed-ben-larbi-al-alaoui-ar} {cite:wikipedia-mohamed-ben-larbi-al-alaoui-es} Il obtint la plus haute licence des Qarawiyyin en 1912 et y enseigna — [[person/mohamed-hassan-ouazzani|Mohamed Hassan Ouazzani]], [[person/allal-al-fassi|Allal al-Fassi]] et al-Mukhtar al-Susi étaient ses élèves — et devint qadi de Fez al-Jadid en 1915.({cite:wikipedia-mohamed-ben-larbi-al-alaoui-ar}{cite:wikipedia-mohamed-ben-larbi-al-alaoui-fr}
+
+Il n'était pas un reclus : à partir de 1912, il écrivit contre le colonisateur dans la presse de Tanger, contribua à fonder l'association caritative islamique, fut nommé président de la cour d'appel de Rabat en 1928 puis ministre de la Justice à partir de 1938, entra en conflit avec le résident général qui l'exila à Midghara, et démissionna du ministère après la répression de la manifestation pour l'indépendance de 1944. {cite:wikipedia-mohamed-ben-larbi-al-alaoui-fr} {cite:wikipedia-mohamed-ben-larbi-al-alaoui-es} Son heure décisive fut en 1953, lorsqu'on lui demanda de signer la déposition de Muhammad V et refusa, et refusa d'adhérer à Ibn Arafa ; La France l'exila à Tiznit et il fut torturé dans la soixantaine de ses années jusqu'au retour du sultan en 1955, qui le ramena chez lui. {cite:wikipedia-mohamed-ben-larbi-al-alaoui-ar} {cite:wikipedia-mohamed-ben-larbi-al-alaoui-es}
+
+Après l'indépendance, il devint ministre de la Couronne, conseiller de Muhammad V et président du conseil consultatif, puis démissionna en 1960, prit sa retraite et milita pour un boycott de la constitution de 1962, qu'il qualifia de coloniale par sa substance. Il mourut à Fès le soir du jeudi 23 Muharram 1384 H, 4 juin 1964, et fut enterré aux côtés de son père et de ses ancêtres à al-Qasr al-Jadid, dans une tombe simple sans ornement. {cite:wikipedia-mohamed-ben-larbi-al-alaoui-ar} {cite:wikipedia-mohamed-ben-larbi-al-alaoui-fr}
