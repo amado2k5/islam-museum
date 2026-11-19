@@ -120,6 +120,8 @@ test("aliasTarget redirects a former entity id to the current one in the same la
   const aliases = { "person/tughrul-beg": "person/tughril-beg", "event/tulunid-collapse-292": "event/fall-of-tulunids-292" };
   assert.equal(aliasTarget("/ar/person/tughrul-beg/", aliases), "/ar/person/tughril-beg/");
   assert.equal(aliasTarget("/ur/event/tulunid-collapse-292", aliases), "/ur/event/fall-of-tulunids-292/");
+  assert.equal(aliasTarget("/fr/person/tughrul-beg/", aliases), "/fr/person/tughril-beg/");
+  assert.equal(aliasTarget("/es/event/tulunid-collapse-292/", aliases), "/es/event/fall-of-tulunids-292/");
   assert.equal(aliasTarget("/en/person/tughril-beg/", aliases), null);
   assert.equal(aliasTarget("/en/search/", aliases), null);
   assert.equal(aliasTarget("/brand/logo-mark.svg", aliases), null);

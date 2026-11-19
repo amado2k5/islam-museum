@@ -60,8 +60,22 @@ const onlyLang = typeof args["only-lang"] === "string" ? args["only-lang"] : nul
 if (onlyLang && !HTML_TARGETS.some((t) => t.dir === onlyLang)) throw new Error(`--only-lang ${onlyLang}: not a language of the site (${HTML_TARGETS.map((t) => t.dir).join(", ")})`);
 /** The R2 prefixes one language owns: its pages and its search index. */
 export const langPrefixes = (lang) => [lang, `pagefind-${lang}`];
+// The shared parts (deploy-shared-env.yml, same section): `--only-shared` publishes everything that belongs to no
+// language (the API, the shared data folders and the root files) and nothing under any language's two prefixes. It is
+// the other half of --only-lang: the five language publishes and the shared one together cover the whole record.
+// Sitemaps list every language's pages; a shared build that could not make them (not every language was built in its
+// run) carries none, and the published sitemaps are then left as they are instead of being deleted.
+const onlyShared = "only-shared" in args;
+if (onlyShared && onlyLang) throw new Error("--only-shared and --only-lang cannot be used together");
+const LANG_PREFIXES = HTML_TARGETS.flatMap((t) => langPrefixes(t.dir));
+const isSitemap = (key) => /^sitemap[\w-]*\.xml$/.test(key);
+/** The part of a manifest's files that belongs to no language; with keepSitemaps, the sitemaps are left out too. */
+export function scopeShared(previous, keepSitemaps = false) {
+  return Object.fromEntries(Object.entries(previous).filter(([key]) => !LANG_PREFIXES.some((p) => key.startsWith(`${p}/`)) && !(keepSitemaps && isSitemap(key))));
+}
 const activeTargets = onlyLang
   ? [...TARGETS, ...HTML_TARGETS].filter((t) => langPrefixes(onlyLang).includes(t.prefix))
+  : onlyShared ? TARGETS.filter((t) => !LANG_PREFIXES.includes(t.prefix))
   : process.env.PUBLISH_HTML === "1" ? [...TARGETS, ...HTML_TARGETS] : TARGETS;
 const bucket = process.env.BUCKET ?? "islam-museum-search";
 const endpoint = process.env.ENDPOINT;
@@ -502,10 +516,16 @@ async function main() {
   if (onlyLang && !dryRun && stored === null) {
     throw new Error(`no manifest in the bucket: a one-language publish (--only-lang ${onlyLang}) needs a full deploy of this environment first`);
   }
+  if (onlyShared && !dryRun && stored === null) {
+    throw new Error("no manifest in the bucket: a shared-parts publish (--only-shared) needs a full deploy of this environment first");
+  }
+  const keepSitemaps = onlyShared && ![...desired.keys()].some(isSitemap);
   const previous = stored ?? (dryRun ? {} : bootstrapPrevious(desired));
   // What the diff may touch: everything, or one language's prefixes. `previous` stays the whole record, so the
   // manifest written after each batch still lists every other file.
-  const scoped = () => (onlyLang ? scopeTo(previous, langPrefixes(onlyLang)) : previous);
+  const scoped = () => (onlyLang ? scopeTo(previous, langPrefixes(onlyLang)) : onlyShared ? scopeShared(previous, keepSitemaps) : previous);
+  if (onlyShared) log(`shared parts only: the API, the shared data and the root files; no file under ${LANG_PREFIXES.join(", ")} is copied or deleted`);
+  if (keepSitemaps) log("this build carries no sitemap (not every language was built in its run): the published sitemaps are left as they are");
   if (onlyLang) log(`one language: ${onlyLang} (prefixes ${langPrefixes(onlyLang).join(", ")}); every other file in the bucket is left as it is`);
   let ops = diff(desired, scoped());
   let copies = ops.filter((o) => o.op === "COPY").length;
@@ -518,11 +538,14 @@ async function main() {
   }
   const deletes = ops.length - copies;
   log(`${desired.size} files in dist, ${Object.keys(scoped()).length} in last publish: ${copies} to copy, ${deletes} to delete`);
-  reportChurn(ops, desired, { copies, deletes, prevCommit: (onlyLang ? manifest?.langs?.[onlyLang] : null) ?? manifest?.commit ?? null });
+  reportChurn(ops, desired, { copies, deletes, prevCommit: (onlyLang ? manifest?.langs?.[onlyLang] : onlyShared ? manifest?.shared : null) ?? manifest?.commit ?? null });
   // The commit the manifest names is the last full publish. A one-language publish keeps it and records its own
   // commit under `langs`; a full publish drops `langs`, since every language is then at its commit again.
+  // A shared-parts publish does the same under `shared`. Each partial publish carries the other's note forward.
+  const carried = { commit: manifest?.commit ?? null, ...(manifest?.langs ? { langs: manifest.langs } : {}), ...(manifest?.shared ? { shared: manifest.shared } : {}) };
   const meta = onlyLang
-    ? { commit: manifest?.commit ?? null, langs: { ...(manifest?.langs ?? {}), [onlyLang]: process.env.GITHUB_SHA ?? null } }
+    ? { ...carried, langs: { ...(manifest?.langs ?? {}), [onlyLang]: process.env.GITHUB_SHA ?? null } }
+    : onlyShared ? { ...carried, shared: process.env.GITHUB_SHA ?? null }
     : { commit: process.env.GITHUB_SHA ?? null };
 
   if (dryRun) return;

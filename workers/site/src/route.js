@@ -1,6 +1,6 @@
 // Pure routing for HTML pages served from R2. No Cloudflare imports, so it can be tested with node:test.
 //
-// Pages under /ar/, /en/ and /ur/ are stored in R2 under the same paths, with the
+// Pages under /ar/, /en/, /ur/, /fr/ and /es/ are stored in R2 under the same paths, with the
 // "index.html" file names Astro writes (for example "ar/person/muhammad/index.html").
 // The site keeps trailingSlash "always", so a request without a slash is redirected.
 
@@ -183,7 +183,7 @@ export const robotsDisallowed = (env) => String(env?.ROBOTS ?? "").toLowerCase()
 // current id in the same language: /ar/person/old-slug/ -> /ar/person/new-slug/.
 // Returns the path-only Location, or null when the path is not an alias.
 export function aliasTarget(pathname, aliases) {
-  const m = pathname.match(/^\/(ar|en|ur)\/([a-z]+)\/([^/]+)\/?$/);
+  const m = pathname.match(/^\/(ar|en|ur|fr|es)\/([a-z]+)\/([^/]+)\/?$/);
   if (!m) return null;
   const current = aliases[`${m[2]}/${m[3]}`];
   return current ? `/${m[1]}/${current}/` : null;
