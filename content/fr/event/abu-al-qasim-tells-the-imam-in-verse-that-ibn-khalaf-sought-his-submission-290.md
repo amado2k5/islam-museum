@@ -2,11 +2,15 @@
 id: event/abu-al-qasim-tells-the-imam-in-verse-that-ibn-khalaf-sought-his-submission-290
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/abu-al-qasim-tells-the-imam-in-verse-that-ibn-khalaf-sought-his-submission-290.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-01
+  source: content/en/event/abu-al-qasim-tells-the-imam-in-verse-that-ibn-khalaf-sought-his-submission-290.md
 ---
-## Vue d'ensemble
-À la page 257, le livre présente un passage commençant par « Transmets au Commandeur des croyants », dans lequel Abou al-Qasim s'adresse à son père, l'imam, et affirme qu'il n'a jamais renié ses convictions, que les épreuves n'ont pas abattu sa foi et qu'Ibn Khalaf, espérant sa soumission, a tenté de le convertir par une intransigeance accrue {cite:sira-hadi-ila-al-haqq p.257}. À la page 258, il demande quelle excuse ses adversaires invoqueront demain devant le Prophète s'ils ne se lèvent pas pour le soutenir, prédisant qu'ils seront bientôt dispersés aux quatre coins du monde et concluant que ce qui lui est arrivé est pour lui une grâce divine, grâce à sa patience {cite:sira-hadi-ila-al-haqq p.258}.
+## Vue d’ensemble
+À la p. 257, le livre donne une pièce commençant par « transmettez au Commandeur des croyants », où Abu al-Qasim s’adresse à son père l’imam et dit n’avoir pas dévié de ses convictions antérieures, que sa poitrine ne s’est pas resserrée devant les formes de destruction et qu’Ibn Khalaf espérait sa soumission et tentait de le faire changer en variant les duretés {cite:sira-hadi-ila-al-haqq p.257}. À la p. 258, il demande quelle excuse ses adversaires auront demain devant le Prophète puisqu’ils ne se lèvent pas pour le soutenir, dit qu’il les verra dans quelques jours dispersés à tous les horizons et que ce qui lui est arrivé est pour lui, par sa patience, une ouverture auprès de Dieu {cite:sira-hadi-ila-al-haqq p.258}.
 
 ## Détail
-Ibn Khalaf mentionné dans les vers est probablement [[person/ibrahim-ibn-khalaf-ibn-tarif|Ibrahim ibn Khalaf ibn Tarif]], cité dans [[event/abu-al-qasim-ibn-al-hadi-is-chained-at-sanaa-and-moved-to-bayt-bus-290|la chaîne d'Abu al-Qasim à Sanaa]] ; ce lien reste toutefois probable, car les vers ne donnent que son nom. Ils s'adressent ensuite aux esclaves et leur donnent des instructions, ce qui constitue le discours du poète. Précédent ce passage figurent [[event/abu-al-qasim-ibn-al-hadi-composes-verses-in-prison-290|les premiers extraits de la même section]]. Le musée ne reproduit ni les vers ni les injures qu'ils contiennent, se contentant d'en restituer le sens tel qu'il apparaît dans le livre ; ce dernier attribue le vers à Abu al-Qasim, et le musée n'a pas vérifié cette attribution. Les éloges et les épithètes présents dans les vers sont du poète, tels qu'ils figurent dans le livre, sans que le musée n'y apporte de précision.
+L’Ibn Khalaf des vers est probablement [[person/ibrahim-ibn-khalaf-ibn-tarif|Ibrahim ibn Khalaf ibn Tarif]], nommé dans [[event/abu-al-qasim-ibn-al-hadi-is-chained-at-sanaa-and-moved-to-bayt-bus-290|l’enchaînement d’Abu al-Qasim à Sanaa]] ; le lien n’est que probable, car les vers ne donnent que le nom sans autre précision. Les vers s’adressent ensuite aux esclaves sur ce qu’ils pourraient faire : il s’agit du discours du poète. Ces textes sont précédés par [[event/abu-al-qasim-ibn-al-hadi-composes-verses-in-prison-290|les pièces antérieures de la même section]]. Le musée ne reproduit ni les vers ni leurs termes injurieux et n’en donne que le sens selon le livre ; celui-ci les attribue à Abu al-Qasim, attribution que le musée n’a pas vérifiée. Les louanges et les qualificatifs des vers sont ceux du poète, présentés comme le livre les donne, sans verdict dans la voix du musée.

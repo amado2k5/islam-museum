@@ -2,12 +2,15 @@
 id: event/aden-earthquake-fire-908
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/aden-earthquake-fire-908.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-01
+  source: content/en/event/aden-earthquake-fire-908.md
 ---
+## Séismes et grand incendie d’Aden, 908 de l’hégire
 
-## Les tremblements de terre et le grand incendie d’Aden, 908 H
+En 908, Aden fut frappée de deux calamités successives : de grands séismes se succédant nuit et jour, puis un grand incendie qui brûla de nombreuses maisons, au nombre de neuf cents. Des biens et des vies furent perdus en des quantités connues de Dieu seul {cite:shadharat-dhahab p. 453}.
 
-En l’an 908 H, Aden fut frappée par deux catastrophes successives : de violents tremblements de terre qui se sont produits de jour comme de nuit, puis un grand incendie qui a détruit de nombreuses maisons, leur nombre atteignant neuf cents. On ne connaît que par Dieu le nombre de vies et de biens perdus {cite:shadharat-dhahab p. 453}.
-
-Ce ne furent pas les seules catastrophes qu’Aden connut au cours de cette décennie. En 914 H, un autre grand incendie éclata, tuant environ trente personnes et causant des pertes matérielles et des destructions de foyers incalculables {cite:shadharat-dhahab p. 478}.
+Ce ne furent pas les derniers malheurs d’Aden durant cette décennie. En 914, un autre grand incendie s’y déclara, tuant environ trente personnes et détruisant d’innombrables biens et maisons {cite:shadharat-dhahab p. 478}.

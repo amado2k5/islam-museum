@@ -2,11 +2,15 @@
 id: event/aitaghmish-killed-609
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/aitaghmish-killed-609.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-01
+  source: content/en/event/aitaghmish-killed-609.md
 ---
 ## Résumé
-Shams al-Din Aytaqmish, autrefois seigneur de Hamadhan et des régions du Jibal, fut tué alors qu’il retournait de Bagdad vers Hamadhan ; les hommes de Mankli l’ont capturé, l’ont tué et ont rapporté sa tête à Mankli. {cite:kamil-ibn-al-athir p. 360}
+Shams al-Din Aytaqmish, ancien seigneur de Hamadhan et des terres du Jibal, fut tué sur le chemin du retour de Bagdad à Hamadhan. Les hommes de Mankli le saisirent, le tuèrent et portèrent sa tête à Mankli. {cite:kamil-ibn-al-athir p. 360}
 
 ## Détails
-Sous les événements de l’année 610 H, Ibn al-Athir rapporte qu’Aytaqmish – qui s’était rendu à Bagdad, y avait séjourné et avait été honoré par le calife avec des vêtements d’honneur et tout ce dont il avait besoin – quitta Bagdad en Jumada al-Akhira en direction de Hamadhan, atteignit les terres d’Ibn Tarjam, le rencontra et attendit que les troupes de Bagdad se joignent à lui, conformément à un accord établi. {cite:kamil-ibn-al-athir p. 360} Le calife avait destitué Sulayman ibn Tarjam de son émirat en raison des troubles causés par sa tribu des Turcomans et avait nommé son jeune frère à sa place ; Sulayman envoya alors un message à Mankli l’informant des mouvements d’Aytaqmish. Aytaqmish continua son voyage, fut capturé et tué, et sa tête fut rapportée à Mankli, tandis que ses compagnons se dispersèrent dans le pays. La nouvelle de sa mort parvint à Bagdad et affligea le calife, qui écrivit à Mankli pour dénoncer cet acte ; Mankli répondit avec défi, consolida son emprise sur le pays et ses forces s’étendirent. {cite:kamil-ibn-al-athir p. 360}
+Parmi les événements de l’an 610, Ibn al-Athir rapporte qu’Aytaqmish — venu à Bagdad, où il résidait et avait reçu du calife robes d’honneur et tout le nécessaire — quitta Bagdad en jumada al-akhira vers Hamadhan. Il atteignit les terres d’Ibn Tarjam, le rencontra et attendit que les troupes de Bagdad le rejoignent selon un arrangement convenu. {cite:kamil-ibn-al-athir p. 360} Le calife avait destitué Sulayman ibn Tarjam de l’émirat sur sa tribu de Turcomans et nommé son frère cadet. Sulayman informa donc Mankli des déplacements d’Aytaqmish. Celui-ci poursuivit sa route, fut saisi et tué ; sa tête fut portée à Mankli tandis que ses compagnons se dispersaient dans le pays. La nouvelle de sa mort parvint à Bagdad et affligea le calife, qui écrivit à Mankli pour condamner cet acte. Mankli répondit avec défi, affermit son emprise sur le pays et vit ses forces se multiplier. {cite:kamil-ibn-al-athir p. 360}

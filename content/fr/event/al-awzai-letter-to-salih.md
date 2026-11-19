@@ -1,23 +1,27 @@
 ---
 id: event/al-awzai-letter-to-salih
 lang: fr
-source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/al-awzai-letter-to-salih.md}
+source_lang: ar
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-01
+  source: content/ar/event/al-awzai-letter-to-salih.md
 ---
-## Vue d'ensemble
-al-Baladhuri, citant Abu Ubayd al-Qasim ibn Sallam, rapporte une lettre qu'[[person/al-awzai-abd-al-rahman|al-Awza'i]] a écrite au gouverneur [[person/salih-ibn-ali|Salih ibn Ali]], s'opposant à l'expulsion des non-musulmans protégés (ahl al-dhimma) du Mont-Liban. {cite:futuh-buldan-maarif-1407 p. 222}
+## Résumé
+Al-Baladhuri rapporte d’Abu Ubayd al-Qasim ibn Sallam le récit d’une lettre écrite par [[person/al-awzai-abd-al-rahman|al-Awza'i]] au gouverneur [[person/salih-ibn-ali|Salih ibn Ali]] pour contester l’expulsion des non-musulmans protégés du mont Liban. {cite:futuh-buldan-maarif-1407 p. 222}
 
-## Arrière-plan
-Les habitants du Mont-Liban se soulevèrent et se plaignirent du percepteur d'impôts de Baalbek. Lorsque Salih ibn Ali apprit que les Byzantins les soutenaient, il envoya des hommes qui massacrèrent leurs combattants, laissèrent les autres pratiquer leur religion et les renvoyèrent dans leurs villages. Il expulsa une partie du peuple libanais. {cite:futuh-buldan-maarif-1407 p. 222}
+## Contexte
+Des habitants du mont Liban se soulevèrent pour se plaindre du collecteur de l’impôt foncier de Baalbek. Salih ibn Ali apprit que les Byzantins les soutenaient ; il envoya des hommes qui tuèrent leurs combattants, laissèrent les survivants dans leur religion et les ramenèrent dans leurs villages. Il expulsa un groupe des habitants du Liban. {cite:futuh-buldan-maarif-1407 p. 222}
 
 ## La lettre
-Al-Awza'i écrivit une longue lettre, dont al-Qasim ibn Sallam a conservé le texte transmis par al-Baladhuri. Il y affirme que certains des non-musulmans expulsés du groupe protégé n'avaient pas soutenu les rebelles. Il s'interroge sur la manière de tenir le peuple responsable des fautes de l'élite, afin qu'il soit chassé de ses foyers et de ses biens. {cite:futuh-buldan-maarif-1407 p. 222}
+Al-Awza'i écrivit une longue lettre dont al-Qasim ibn Sallam conserva ce que transmet al-Baladhuri. Il y dit que certains des non-musulmans protégés qui avaient été expulsés n’avaient pas soutenu les insurgés. Il demande comment on peut tenir la population pour responsable des fautes de quelques-uns, au point de la chasser de ses demeures et de ses biens. {cite:futuh-buldan-maarif-1407 p. 222}
 
-Al-Awza'i fonde sa lettre sur le jugement de Dieu et sur l'exhortation du Prophète concernant les non-musulmans liés par alliance (mu'ahadun). Il rapporte qu'il s'opposerait à quiconque léserait un non-musulman lié par alliance ou lui imposerait une charge supérieure à ses capacités. Le récit contient d'autres passages non transmis. Aucun verset n'est cité ici ; son origine nécessite une source supplémentaire. {cite:futuh-buldan-maarif-1407 p. 222}
+Al-Awza'i fonde sa lettre sur le jugement de Dieu et sur la recommandation du Prophète concernant le bénéficiaire d’un pacte. Il rapporte que celui-ci se déclarait l’adversaire de quiconque opprimait un bénéficiaire de pacte ou le chargeait au-delà de ses forces. Le récit comporte d’autres propos qui n’ont pas été transmis. Le texte du verset n’est pas reproduit ici ; son emplacement nécessite une source supplémentaire. {cite:futuh-buldan-maarif-1407 p. 222}
 
-## Signification
-La lettre porte sur les règles de la [[concept/dhimma|dhimma]]. Selon al-Awza'i, elle inclut le principe selon lequel il n'y a pas de châtiment collectif pour un péché individuel. {cite:futuh-buldan-maarif-1407 p. 222}
+## Le sens
+La lettre concerne les règles de la [[concept/dhimma|dhimma]] et exprime, pour al-Awza'i, le refus d’une punition collective pour une faute individuelle. {cite:futuh-buldan-maarif-1407 p. 222}
 
 ## Notes
-Les données ne précisent pas la date de l'événement ; une source supplémentaire est nécessaire.
+Les données ne donnent pas de date pour l’événement ; il nécessite une source supplémentaire.
