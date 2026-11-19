@@ -2,8 +2,12 @@
 id: event/battle-of-saqatiyya
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/battle-of-saqatiyya.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-02
+  source: content/en/event/battle-of-saqatiyya.md
 ---
 ## Vue d'ensemble
-Au niveau d’al-Saqatiyya, en contrebas de Kaskar : les fuyards rejoignirent Narsi, le neveu du roi, ainsi que les hommes de Barusma, d’al-Zawabi, et les fils de Bustam, Banduwayh et Tiruwayh ; Abu ‘Ubayd les attaqua depuis le Namarq, les Perses cédèrent, Narsi s’enfuit, et les musulmans s’emparèrent de son camp et de ses terres. Ils s’emparèrent du narsiyan — un palmier dattier que seul Chosroès ou un personnage honoré par lui pouvait déguster, et qui n’avait été planté par personne d’autre — et le distribuèrent aux paysans. Ils envoyèrent un cinquième de sa production à ‘Umar, et écrivirent : « Dieu nous a nourris avec des aliments que les Khusraws avaient autrefois l’habitude de protéger ; nous souhaitions que vous puissiez les goûter et rendre grâce pour Sa faveur. » Plus tôt, Buran avait été intronisé et avait régné pendant dix ans, après que Rustam ait fait crever l’œil d’Azarmidukht {cite:kamil-ibn-al-athir p. 275}.
+À al-Saqatiyya, en aval de Kaskar : les fuyards rejoignirent Narsi, neveu du roi, avec les hommes de Barusma et d'al-Zawabi et les fils de Bustam, Banduwayh et Tiruwayh ; Abu 'Ubayd fondit sur eux depuis al-Namarq, les Persans cédèrent, Narsi s'enfuit, et les musulmans s'emparèrent de son camp et de ses terres. Ils prirent le narsiyan, un dattier dont seuls Chosroès ou ceux qu'il honorait mangeaient, et que nul autre ne plantait, en nourrirent les paysans, en envoyèrent le cinquième à 'Umar et écrivirent : « Dieu nous a nourris d'aliments que les Khusraws gardaient jalousement ; nous avons voulu que tu les voies et que tu remercies Sa faveur. » Auparavant, Buran avait été intronisée pour dix ans après que Rustam eut crevé l'œil d'Azarmidukht {cite:kamil-ibn-al-athir p. 275}.

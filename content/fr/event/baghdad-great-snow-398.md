@@ -2,8 +2,12 @@
 id: event/baghdad-great-snow-398
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/baghdad-great-snow-398.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-02
+  source: content/en/event/baghdad-great-snow-398.md
 ---
 ## Vue d'ensemble
-De la neige est tombée sur Bagdad le mercredi 11 du Rabi’ I 398 – atteignant par endroits une profondeur d’un cubit, et par ailleurs, un cubit et demi ; elle est restée intacte pendant une semaine, et les habitants l’ont déneigé de leurs toits pour l’accumuler dans les rues et les ruelles, laissant des traces pendant environ vingt jours ; la neige a également atteint Tikrit, et des nouvelles sont parvenues de Wasit, faisant état de chutes de neige dans cette ville, ainsi qu’à travers la région de Batihah, à Basra, Kufa, ‘Ukbara et Mahruban {cite:muntazam-ibn-al-jawzi j.7}.
+La neige tomba à Bagdad le mercredi onze Rabi' I 398, d'une coudée d'épaisseur par endroits, et d'une coudée et demie ailleurs ; elle resta une semaine sans fondre, et les gens la pelletaient de leurs toits dans les rues et les ruelles, des traces demeurant une vingtaine de jours ; elle atteignit Tikrit, et des lettres vinrent de Wasit annonçant sa chute là-bas et à travers la Batihah, Bassora, Koufa, 'Ukbara et Mahruban {cite:muntazam-ibn-al-jawzi j.7}.

@@ -2,11 +2,15 @@
 id: event/ashrafiyya-azerbaijan-624
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/ashrafiyya-azerbaijan-624.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-02
+  source: content/en/event/ashrafiyya-azerbaijan-624.md
 ---
 ## Résumé
-En chabane 624 H, al-Hajib Husam al-Din Ali, le représentant d’al-Malik al-Ashraf à Akhlat, marcha sur l’Azerbaïdjan et prit Khoi, Marand, Nakhchivan ainsi que les localités avoisinantes. {cite:kamil-ibn-al-athir p. 473}
+En Sha'ban 624 H, al-Hajib Husam al-Din Ali, lieutenant d'al-Malik al-Ashraf à Akhlat, marcha sur l'Azerbaïdjan et prit Khoy, Marand, Nakhitchevan et les lieux voisins. {cite:kamil-ibn-al-athir p. 473}
 
 ## Détails
-Ibn al-Athir explique les raisons de cet événement : le règne de Jalal al-Din était injuste et ses soldats opprimaient la population. De plus, sa femme, fille du sultan seldjoukide Tughril – qui avait auparavant été l’épouse d’Uzbak ibn al-Bahlawan, seigneur d’Azerbaïdjan, et par son intermédiaire avait gouverné toutes ces terres – était négligée et ignorée par Jalal al-Din. Craignant pour sa sécurité après avoir été privée de son pouvoir et de son influence, elle et les habitants de Khoi invitèrent le Hajib Husam al-Din à prendre le contrôle de ces terres. {cite:kamil-ibn-al-athir p. 473} Il marcha alors sur l’Azerbaïdjan, prit la ville de Khoi et les forteresses voisines qui étaient sous le contrôle de la femme de Jalal al-Din, puis s’empara de Marand, dont les habitants se rendirent par l’intermédiaire de leur scribe. Il continua ensuite vers Nakhchivan, où ils se rendirent également. Sa puissance s’accrut avec ces nouvelles possessions, et ils retournèrent à Akhlat, emmenant avec eux la femme de Jalal al-Din, fille du sultan Tughril. {cite:kamil-ibn-al-athir p. 473}
+Ibn al-Athir en explique la cause : le gouvernement de Jalal al-Din était injuste et ses soldats s'en prenaient aux sujets, et son épouse, fille du sultan seldjoukide Tughril, auparavant épouse d'Uzbak ibn al-Bahlawan, seigneur de l'Azerbaïdjan, par l'intermédiaire duquel elle avait gouverné toutes ces terres, était délaissée et ignorée par Jalal al-Din ; le craignant après avoir été écartée du pouvoir et du commandement, elle et les gens de Khoy invitèrent le Hajib Husam al-Din à venir prendre possession du pays. {cite:kamil-ibn-al-athir p. 473} Il marcha sur l'Azerbaïdjan et prit la ville de Khoy et les forteresses voisines tenues par l'épouse de Jalal al-Din, prit Marand, dont les habitants se rendirent par l'entremise de leur secrétaire, puis poursuivit jusqu'à Nakhitchevan, qui se rendit aussi ; leur puissance s'accrut de ces terres, et ils revinrent à Akhlat en emmenant avec eux l'épouse de Jalal al-Din, fille du sultan Tughril. {cite:kamil-ibn-al-athir p. 473}

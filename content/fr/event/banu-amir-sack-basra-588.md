@@ -2,13 +2,17 @@
 id: event/banu-amir-sack-basra-588
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/banu-amir-sack-basra-588.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-02
+  source: content/en/event/banu-amir-sack-basra-588.md
 ---
 ## Vue d'ensemble
-En Safar 588 H, les Banu Amir se rassemblèrent en grand nombre sous le commandement d’Umayra et marchèrent sur [[place/basra|Basra]]. Son émir était Muhammad ibn Isma’il, remplaçant l’ihtidar, l’émir Tughril, un mamelouk du calife al-Nasir. Ils y arrivèrent le samedi, le sixième jour de Safar. {cite:kamil-ibn-al-athir p. 214-215}
+En Safar 588 H, les Banu Amir se rassemblèrent en grand nombre sous la conduite d'Umayra et marchèrent sur [[place/basra|Bassora]]. Son émir était Muhammad ibn Isma'il, lieutenant de son titulaire d'iqta', l'émir Tughril, mamelouk du calife al-Nasir. Ils arrivèrent le samedi six Safar. {cite:kamil-ibn-al-athir p. 214-215}
 
-## Combats et pillages
-L’émir Muhammad alla à leur rencontre et les combats se déroulèrent sur la Route Carrée jusqu’à la fin de la journée. Les Arabes percèrent les murs pendant la nuit et pénétrèrent dans la ville, pillant les auberges et certains quartiers. Les forces que l’émir avait rassemblées parmi les habitants de Basra et les environs furent alors défaites. Les Arabes entrèrent à Basra et la pillèrent, et ses habitants l’abandonnèrent. Plus tard, les habitants y retournèrent. {cite:kamil-ibn-al-athir p. 214-215}
+## Combats et pillage
+L'émir Muhammad sortit à leur rencontre, et le combat eut lieu sur la route du Carré jusqu'à la fin du jour. Les Arabes percèrent le mur de nuit, entrèrent dans la ville et pillèrent les caravansérails et certains quartiers. Puis les forces que l'émir avait rassemblées parmi les gens de Bassora et de la campagne furent mises en déroute. Les Arabes entrèrent dans Bassora et la pillèrent, et ses habitants la quittèrent. Les gens y revinrent plus tard. {cite:kamil-ibn-al-athir p. 214-215}
 
-Ibn al-Athir rapporte avoir trouvé le même récit dans les sources datant de l’année 593 H. {cite:kamil-ibn-al-athir p. 214-215}
+Ibn al-Athir dit qu'il vit cette même histoire en l'année 593 H. {cite:kamil-ibn-al-athir p. 214-215}

@@ -2,8 +2,12 @@
 id: event/battle-of-namarq
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/battle-of-namarq.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-02
+  source: content/en/event/battle-of-namarq.md
 ---
 ## Vue d'ensemble
-Près d’al-Namarq, près de Kufa : al-Muthanna b. Haritha avait rassemblé les anciens convertis de la *ridda* qui avaient été graciés lorsque Abu ‘Ubayd b. Mas’ud arriva ; Jaban descendit de Kaskar jusqu’à al-Namarq, ils s’affrontèrent dans une bataille acharnée, et Dieu mit les Perses en déroute. Jaban fut capturé par un stratagème ; il demanda à son captif, Matar b. Fidda al-Tamimi : « Me garantirez-vous la sécurité ? », ce que celui-ci fit et le relâcha ; lorsqu’on le fit comparaître devant Abu ‘Ubayd et qu’on lui annonça qu’il s’agissait de Jaban, en lui demandant de l’exécuter, il répondit : « Je crains Dieu pour tuer un homme à qui un musulman a accordé la sécurité ; les musulmans ne forment qu’un seul corps ; ce qui lie l’un lie tous. » Mardanshah fut capturé par Aktal b. Shammakh al-‘Ukayli et tué {cite:kamil-ibn-al-athir p. 274-275}.
+À al-Namarq, près de Koufa : al-Muthanna b. Haritha avait rallié les convertis graciés de la ridda quand Abu 'Ubayd b. Mas'ud arriva ; Jaban descendit de Kaskar vers al-Namarq, ils s'affrontèrent en un dur combat, et Dieu mit les Persans en déroute. Jaban fut pris par une ruse : il demanda à son capteur Matar b. Fidda al-Tamimi « M'accordes-tu la sécurité ? », et celui-ci la lui accorda et le libéra ; quand on l'amena à Abu 'Ubayd en lui disant que c'était Jaban et en le pressant de l'exécuter, il dit : « Je crains Dieu de tuer un homme à qui un musulman a accordé la sécurité : les musulmans sont un seul corps ; ce qui engage l'un les engage tous. » Mardanshah fut capturé par Aktal b. Shammakh al-'Ukayli et tué {cite:kamil-ibn-al-athir p. 274-275}.
