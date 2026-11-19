@@ -1,0 +1,18 @@
+---
+id: concept/nawafil
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/nawafil.md}
+---
+## Vue d'ensemble
+Les actes de suérrogation (*nawafil*) sont des actes qui dépassent ce qui est obligatoire : prière, jeûne, charité et souvenir. Dans le trente-huitième hadith des Quarante, ils constituent le deuxième rang de rapprochement de Dieu après les obligations, comme dans les mots : « Mon serviteur ne cesse pas de se rapprocher de Moi par des actes suérrogatoires tant que je ne l'aime. » {cite:ibn-rajab-jami-ulum-hikam p.770}
+
+## Leur rang après les obligations
+Le serviteur poursuit les actes de superérrogation après avoir établi l'obligation, jusqu'à ce que l'amour de Dieu lui parvienne. Dans [[person/ibn-rajab|le commentaire d'Ibn Rajab]], leur rang suit les obligations ; il ne les précède pas. Quiconque néglige l'obligation et s'occupe du supré-érrogatoire a préféré le moindre au plus grand. {cite:ibn-rajab-jami-ulum-hikam p.770}
+
+## Extrait du programme d'Omar Abdelkafy Wa Nafsin wa ma Sawwaha
+Le cheikh compare les actes obligatoires à une maison et les actes volontaires au jardin autour de celle-ci : un voleur qui veut une maison sans jardin se trouve immédiatement dans sa cour, tandis que dans une maison entourée d'un jardin, la famille peut se réveiller avant qu'il n'atteigne la porte ; de même, Satan s'abat sur celui qui fait les prières volontaires par les actes volontaires en premier, tandis que celui qui ne fait que l'obligatoire peut être dépassé et rendu paresseux à propos de la prière de la nuit ou de l'aube. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:06:30} Il soutient que celui qui ne prie pas les prières de l'aube et de la nuit dans la mosquée doit se compter parmi ceux décrits comme hypocrites, et exhorte deux rak'as au plus profond de la nuit. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep16 00:07:00}
+
+## Dans les leçons d'Ahmad Farid « Le Bateau »
+Dans «[[work/the-boat-ahmad-farid|Le Bateau]]», [[person/ahmad-farid|Ahmad Farid]] nomme les œuvres surérogatoires, une fois les obligations accomplies, comme cause de la croissance de la foi, suivant le hadith sacré selon lequel rien ne rapproche un serviteur de Dieu que ce qu'Il a rendu obligatoire, et que le serviteur continue de s'approcher par des œuvres surrogatoires jusqu'à ce que Dieu l'aime. {cite:assabile-ahmad-farid the-boat/ep10 00:00:30} {cite:assabile-ahmad-farid the-boat/ep10 00:01:00} Il énumère la prière surrogatoire, incluant la prière nocturne, le jeûne les lundis et jeudis, le jour d'Arafa, Achura et six jours de Shawwal, le jeûne de [[person/dawud|David]], l'umra et le hajj après l'obligation de jeûne, ainsi que la charité. {cite:assabile-ahmad-farid the-boat/ep10 00:01:30} {cite:assabile-ahmad-farid the-boat/ep10 00:02:00} {cite:assabile-ahmad-farid the-boat/ep10 00:02:30} Les œuvres surérogotoires conduisent à l'amour de Dieu plus qu'aux obligations, explique-t-il, car l'obligation est accomplie dans l'espoir d'une récompense et la crainte de la punition, l'acte supérioratif purement destiné à se rapprocher de Dieu. {cite:assabile-ahmad-farid the-boat/ep10 00:02:30} {cite:assabile-ahmad-farid the-boat/ep10 00:03:00}

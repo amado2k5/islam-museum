@@ -1,0 +1,19 @@
+---
+id: concept/milkiyyat-al-dawla
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/milkiyyat-al-dawla.md}
+---
+
+## Résumé
+
+La propriété d'État est un troisième type de bien que [[person/al-tahir-qana|al-Tahir Qana]], dans [[work/al-dawr-al-tawzii-li-l-milkiyya|al-Dawr al-Tawzi'i li-l-Milkiyya fi al-Iqtisad al-Islami]], sépare de [[concept/al-milkiyya-al-amma|la propriété publique]] ; il note que certains auteurs utilisent une double division qui place la propriété de l'État dans la propriété publique, considère la différence comme une question de forme, et préfère la tridimension pour montrer plus clairement les rôles économiques et sociaux. {cite:dawr-tawzii-milkiyya-qana-2007 p.70} Il la définit comme la personne morale dont le propriétaire est le trésor public, comme la richesse privée entre les mains de ses propriétaires, que le souverain peut gérer de toutes les manières légales pour le bien public ; il cite al-Mawardi selon lequel toute richesse due aux musulmans dont le propriétaire n'est pas précisé appartient au trésor, et que le trésor est une autorité, non un lieu. {cite:dawr-tawzii-milkiyya-qana-2007 p.77}
+
+## Ses preuves
+
+Il cite le verset sur le fay' ([[passage/quran-59-7|al-Hashr 7]]) et le verset sur le butin ([[passage/quran-8-41|al-Anfal 41]]), et cite la répartition par al-Mawardi de la richesse due aux musulmans en fay', butin et aumônes : fay' appartient au trésor car son usage repose sur le jugement de l'imam, contrairement aux butins, qui appartiennent à ceux qui ont combattu. {cite:dawr-tawzii-milkiyya-qana-2007 p.77} {cite:dawr-tawzii-milkiyya-qana-2007 p.78} Tiré de la Sunna, il cite le rapport d'Ibn Abbas selon lequel, lorsque le Prophète vint à Médine, les Aideurs lui donnèrent toutes les terres que l'eau n'atteignait pas, pour en faire ce qu'il voulait ; le rapport sur la concession de terres de Wa'il ibn Hujr à Hadramawt ; Le hadith d'al-Sa'b ibn Jaththama « aucune terre protégée sauf Dieu et Son Messager » ; et la protection par le Prophète d'al-Naqi' et celle d'Umar d'al-Sharaf et d'al-Rabadha. Il considère le [[concept/hima|pâturage protégé]] comme une forme de bien public qui devient propriété de l'État lorsqu'elle est réservée aux fins de l'État. {cite:dawr-tawzii-milkiyya-qana-2007 p.78} Il cite également le hadith d'Abu Hurayra « celui qui laisse une dette, son paiement est à ma responsabilité », comme montrant que les dettes des individus étaient payées au trésor. {cite:dawr-tawzii-milkiyya-qana-2007 p.79}
+
+## Ses domaines et sa protection
+
+Il compte parmi ses domaines le trésor de la zakat avec ses bénéficiaires fixes ; le trésor des intérêts publics, alimenté par la taxe foncière, la fay', le cinquième butin, la jizya, la dîme et le trésor enterré ; le trésor des biens sans propriétaire, tels que le domaine de celui sans héritier et des biens perdus ; et [[concept/ihya-al-mawat|les terres mortes]], sans propriétaire. {cite:dawr-tawzii-milkiyya-qana-2007 p.89} {cite:dawr-tawzii-milkiyya-qana-2007 p.90} Il détient que les terres mortes, appartiennent à l'État jusqu'à leur rétablissement et deviennent propriété privée à condition de la relance ; celui qui revendique une terre et ne la cultive pas dans les trois ans la perd. {cite:dawr-tawzii-milkiyya-qana-2007 p.96} Parmi les moyens de protéger les biens de l'État figurent l'interdiction du vol, du détournement de fonds et de la destruction, ainsi que les organes de surveillance et de pénitence mis en place dans l'État islamique naissant. {cite:dawr-tawzii-milkiyya-qana-2007 p.90}

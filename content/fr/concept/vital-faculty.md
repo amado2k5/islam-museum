@@ -1,0 +1,18 @@
+---
+id: concept/vital-faculty
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/vital-faculty.md}
+---
+## Résumé
+La faculté vitale chez Ibn Sina est celle qui, une fois présente dans les organes, les prépare à recevoir le pouvoir de sensation, de mouvement et les actes de la vie ; son esprit est généré à partir de la vapeur et de la finesse des humours, et son siège est le cœur {cite:canon-ibn-sina-print-v1 pp.98-99}.
+
+## L'esprit et son siège
+Il dit que comme la densité des humeurs, par un certain tempérament, peut produire une substance dense, l'organe ou une partie d'une substance, la partie vaporeuse et fine des humeurs, par un certain tempérament, peut produire une belle substance, l'esprit ; et comme le foie est pour les médecins le siège de la première génération, le cœur est le siège de la seconde. Lorsque cet esprit surgit dans le tempérament qu'il devrait avoir, il est prêt, après tous les organes, à recevoir les autres pouvoirs, psychiques et autres. À cette faculté ils attribuent aussi les mouvements de la peur et de la colère, en raison de l'expansion et de la contraction qui s'abat sur l'esprit en eux {cite:canon-ibn-sina-print-v1 p.98}.
+
+## L'argument du membre paralysé
+Les pouvoirs psychiques n'apparaissent dans l'esprit et les organes qu'après l'apparition de cette faculté. Si un organe perd ses pouvoirs psychiques mais n'a pas encore perdu ceux-ci, il est vivant, comme l'organe engourdi et paralysé, qui manque actuellement de sensation et de mouvement à cause d'un tempérament qui empêche leur réception ou un blocage entre le cerveau et celui-ci, dans les nerfs, et est pourtant vivant ; tandis que l'organe mordu perd sensation et mouvement, se décompose et pourrit. Ainsi, dans le membre paralysé, il y a un pouvoir qui préserve sa vie, de sorte que lorsque l'obstacle disparaît, la sensation et le mouvement lui reviennent ; et ce n'est pas le pouvoir nutritif, sinon les plantes seraient prêtes à recevoir sensation et mouvement ; le préparateur est autre chose suivant un tempérament particulier, appelé la faculté vitale, qui est le premier pouvoir à émerger dans l'esprit lorsqu'il émerge de la finesse des mélanges {cite:canon-ibn-sina-print-v1 pp.98-99}.
+
+## Le désaccord sur son nom
+Il rapporte qu'Aristote soutient que par ce type l'esprit reçoit le premier principe, la première âme d'où découlent les autres pouvoirs, tandis que les médecins donnent à chaque genre d'actes sa propre âme ; et que cette faculté, outre la préparation de la vie, est le principe du mouvement de la fine substance spirituelle vers les organes et de sa contraction et expansion pour respirer et clarifier. Elle ressemble aux facultés naturelles en n'ayant pas de volonté dans ce qui en découle, et aux facultés psychiques dans la définitivité de ses actes, puisqu'elle se contracte et se dilate ensemble et effectue deux mouvements opposés. Selon les anciens, où l'âme signifie la perfection d'un corps organique naturel, c'est une faculté psychique ; si l'âme est conçue comme un pouvoir qui est le principe de la perception et du mouvement à partir d'une certaine perception et d'une certaine volonté, elle n'est pas psychique mais naturelle, et d'un degré supérieur à ce que les médecins appellent naturel. Qu'il en soit une ou plusieurs, il laisse à la science naturelle, qui fait partie de la philosophie {cite:canon-ibn-sina-print-v1 p.99}.

@@ -1,0 +1,21 @@
+---
+id: concept/qissat-ashab-al-qarya
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/qissat-ashab-al-qarya.md}
+---
+## Résumé
+Dans le cinquième épisode de la série Qissa wa 'Ibar, Omar Abdelkafy raconte l'histoire des habitants de la ville vers qui venaient les messagers, preuve que la vérité ne manque jamais de soutiens et que la première chose que rencontrent les messagers est le déni. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:01:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:02:30}
+
+## Déni, puis renforcement
+Il dit que Dieu envoya deux messagers à la ville et qu'ils furent rejetés, puis les renforça avec un troisième ; ils répondirent « Nous sommes envoyés à vous », et le peuple répondit qu'ils n'étaient qu'humains comme eux et qu'ils mentaient. Dieu, dit-il, ordonna à son Prophète de frapper cette parabole pour son peuple. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:01:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:02:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:02:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:04:00} Il soutient que de nombreux messagers envoyés à un peuple ne sont pas le signe de leur bonté mais de leurs nombreux maux, comme nombreux médecins autour d'un patient le soulignent de nombreuses maladies, et dans ce contexte dit que les messagers des Enfants d'Israël étaient très nombreux (le chiffre qu'il donne est approximatif et le sien ; needs_source). {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:05:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:05:30}
+
+## Habib al-Najjar
+Il raconte qu'un homme de la ville soutenait les messagers, nommés dans les livres d'histoire et de commentaire Habib al-Najjar et connu comme « l'homme de Ya Sin », et qu'il était venu exhorter son peuple à suivre les messagers qui ne demandaient aucune récompense et étaient justement guidés. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:04:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:05:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:06:00} Il raconte que son peuple l'a tué, l'a piétiné, et que lorsque son âme l'a quitté, on lui a dit d'entrer au paradis ; il le présente comme un modèle d'une bonne fin, disant qu'il faut une heure de patience pour la vérité. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:06:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:09:30}
+
+## Les digressions de l'orateur
+- Il raconte qu'un homme demanda à al-Hasan al-Basri s'il avait péché en cousant les vêtements d'al-Hajjaj et qu'on lui répondit : vous êtes comme al-Hajjaj ; il exhorte les auditeurs à ne pas soutenir les mensonges de peur d'être rassemblés avec son peuple. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:01:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:01:30}
+- Il s'écarte sur l'histoire d' [[person/abdullah-ibn-salam|Abdallah ibn Salam]] et de son peuple comme preuve de déni. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:02:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:04:00}
+- Il parle de [[concept/al-rizq-al-rububi|la provision]] au paradis et raconte l'histoire de Sulayman et de la fourmi. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:06:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:07:00}
+- Il rapporte que les érudits disent qu'une personne naît en pleurant pendant que sa famille rit, alors qu'il travaille à laisser le monde rire pendant qu'ils pleurent, et affirme que l'homme juste, porté jusqu'à sa tombe, dit « Dépêche-moi ». {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:08:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:08:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:09:00}
