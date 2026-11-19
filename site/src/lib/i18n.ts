@@ -10,8 +10,11 @@ export type Lang = "ar" | "en" | "ur" | "fr" | "es";
 // LANGS. Whatever a page says about the other languages (hreflang alternates, the language switcher, counts) reads
 // ALL_LANGS, so a page built alone is the same page the full build writes.
 const only = process.env.BUILD_LANG || "";
-if (only && !(ALL_LANGS as readonly string[]).includes(only)) throw new Error(`BUILD_LANG="${only}" is not a language of the site (${ALL_LANGS.join(", ")})`);
-export const LANGS: readonly Lang[] = only ? [only as Lang] : ALL_LANGS;
+// BUILD_LANG=shared writes no language's pages: only what belongs to no language (the API, the root page, the feed,
+// llms.txt, the shared data and the scripts and styles), for the "build (shared)" job of the by-language build.
+export const SHARED_BUILD = only === "shared";
+if (only && !SHARED_BUILD && !(ALL_LANGS as readonly string[]).includes(only)) throw new Error(`BUILD_LANG="${only}" is not a language of the site (${ALL_LANGS.join(", ")}) and is not "shared"`);
+export const LANGS: readonly Lang[] = SHARED_BUILD ? [] : only ? [only as Lang] : ALL_LANGS;
 /** The next language in the switcher cycle: ar → en → ur → fr → es → ar. */
 export const nextLang = (l: Lang): Lang => ALL_LANGS[(ALL_LANGS.indexOf(l) + 1) % ALL_LANGS.length];
 /** Languages whose UI and prose share the Arabic script and the Naskh faces. */

@@ -99,7 +99,7 @@ function main() {
   if (changed.some((f) => /^i18n\/[a-z]+\.yaml$/.test(f))) {
     const read = SHELL_I18N_READERS.map((f) => { try { return readFileSync(resolve(f), "utf8"); } catch { return ""; } }).join("\n");
     const readPaths = i18nPathsRead(read);
-    for (const lang of ["ar", "en", "ur"]) {
+    for (const lang of ["ar", "en", "ur", "fr", "es"]) {
       const file = `i18n/${lang}.yaml`;
       if (!changed.includes(file)) continue;
       let before = {};
