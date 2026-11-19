@@ -3,11 +3,13 @@ import { existsSync, readFileSync } from "node:fs";
 import { repoPath } from "./paths";
 import type { Compiled, Edge, Node } from "../../../scripts/build-graph";
 import type { Lang } from "./i18n";
+import { readBigJson } from "../../../scripts/lib/graph-file.mjs";
 
 const file = repoPath(".cache", "graph.json");
 if (!existsSync(file)) throw new Error("Missing .cache/graph.json. Run `npm run graph` (or `npm run build` from the repo root).");
 
-export const graph: Compiled = JSON.parse(readFileSync(file, "utf8"));
+// Read in pieces: the file is larger than the longest string Node can make (scripts/lib/graph-file.mjs).
+export const graph: Compiled = readBigJson(file);
 export const nodes: Node[] = graph.nodes;
 export const byId = new Map(nodes.map((n) => [n.id, n]));
 // a former id (rename, merged duplicate) looks up the record that lists it under `aliases`; link to it with the

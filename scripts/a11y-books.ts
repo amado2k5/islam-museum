@@ -13,6 +13,7 @@ import { execFileSync } from "node:child_process";
 import { createRequire } from "node:module";
 import { p } from "./lib";
 import { epubModified, nodeDays, nodeIdOfSegment } from "./epub-meta";
+import { readBigJson } from "./lib/graph-file.mjs";
 
 const DIST = p("dist");
 // BUILD_LANG (the by-language build, `npm run build:lang`): only that language's pages are in dist/, so only its books are made.
@@ -201,7 +202,7 @@ function* walk(dir: string): Generator<string> {
 // take the build commit's day.
 type GraphNode = { id: string; updated?: string; prose?: Record<string, { updated?: string } | undefined> };
 let graph: { generated?: string; nodes: GraphNode[] } = { nodes: [] };
-try { graph = JSON.parse(fs.readFileSync(p(".cache", "graph.json"), "utf8")); } catch { /* the build runs graph first; without it every book takes the epoch stamp */ }
+try { graph = readBigJson(p(".cache", "graph.json")); } catch { /* the build runs graph first; without it every book takes the epoch stamp */ }
 const nodeById = new Map(graph.nodes.map((n) => [n.id, n]));
 const modifiedOf = (lang: string, nodeId?: string) => epubModified(nodeDays(nodeId ? nodeById.get(nodeId) : undefined, lang), graph.generated);
 
