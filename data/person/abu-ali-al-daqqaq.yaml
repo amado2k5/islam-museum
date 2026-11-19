@@ -3,12 +3,14 @@ class: person
 label:
   ar: "أبو علي الدقاق النيسابوري"
   en: "Abu Ali al-Daqqaq"
+  fr: "Abu Ali al-Daqqaq"
 roles: [scholar]
 gender: male
 themes: [spirituality-and-sufism]
 summary:
   ar: "أبو علي الحسن الدقاق النيسابوري، شيخ القشيري وكبير صوفية نيسابور؛ أورده ابن الجوزي في وفيات سنة ٤١٢ — وعند غيره توفي قبل ذلك — {cite:muntazam-ibn-al-jawzi j.8 p.349}."
   en: "Draft card for Abu Ali al-Hasan al-Daqqaq al-Nisaburi, the eleventh-century shaykh of al-Qushayri, d. 1015; the biographical entry is not yet checked on the page."
+  fr: "Fiche provisoire pour Abu Ali al-Hasan al-Daqqaq al-Nisaburi, shaykh d'al-Qushayri au onzième siècle, mort en 1015 ; la notice biographique n'a pas encore été vérifiée sur la page."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -26,4 +28,4 @@ status:
   completeness: 1
 died: { edtf: "1015", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Qushayri, al-Risala; al-Dhahabi, Siyar Confirmed on 13 November 2026 against Wikidata Q5683355 (P570, a statement with a reference), item revision 2566511544.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/nishapur, note: "Place association from the person's nisba/name (النيسابوري); denotes association, not proven residence.", sources: [source/al-aalam, source/muntazam-ibn-al-jawzi, source/risala-qushayriyya-minhaj-2017], confidence: low }
+  - { type: lived_in, target: place/nishapur, note: "Place association from the person's nisba/name ⁦(النيسابوري)⁩; denotes association, not proven residence.", sources: [source/al-aalam, source/muntazam-ibn-al-jawzi, source/risala-qushayriyya-minhaj-2017], confidence: low }

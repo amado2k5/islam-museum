@@ -7,7 +7,7 @@ translators: []
 ## خلاصہ
 سلیمان بن سلیم اللہ بن رجاء اللہ بن بوتی الرحیلی الحربی سعودی عالم اور جامعہ اسلامیہ مدینہ منورہ میں اصولِ فقہ کے استاد، مسجدِ قباء کے امام و خطیب اور مسجدِ نبوی کے مدرس ہیں۔ {cite:wikipedia-sulayman-al-ruhayli-en} {cite:wikipedia-sulayman-al-ruhayli-ar}
 
-وہ رجب 1386ھ (اکتوبر 1966) میں مدینہ منورہ میں پیدا ہوئے۔ {cite:wikipedia-sulayman-al-ruhayli-ar} {cite:wikipedia-sulayman-al-ruhayli-en}
+وہ رجب 1386ھ ⁦(اکتوبر 1966)⁩ میں مدینہ منورہ میں پیدا ہوئے۔ {cite:wikipedia-sulayman-al-ruhayli-ar} {cite:wikipedia-sulayman-al-ruhayli-en}
 
 چھ برس کی عمر سے پہلے ہی وہ اپنے والد کے ساتھ مسجدِ نبوی کی مجلسوں میں حاضر ہوتے رہے، جہاں انہوں نے محمد الامین الشنقیطی اور ابو بکر الجزائری سے پڑھا، اور ابن باز، الالبانی اور ابن عثیمین کی مجلسوں میں بھی شرکت کی۔ {cite:wikipedia-sulayman-al-ruhayli-en}
 

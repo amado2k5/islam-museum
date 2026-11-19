@@ -16,7 +16,7 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe]
 provenance:
   layer: own-research
-  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «ملحق تراجم الفقهاء» (ص 8192-8193 من المسح)"
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «ملحق تراجم الفقهاء» ⁦(ص 8192-8193 من المسح)⁩"
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
   run: mawsua-w05-batch3
@@ -34,4 +34,4 @@ occupations:
 born: { edtf: "1041", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sila (Ibn Bashkuwal: 433–520 AH)" }
 died: { edtf: "1126", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sila (Ibn Bashkuwal: 433–520 AH)" }
 relations:
-  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (الأندلسي); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }
+  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name ⁦(الأندلسي)⁩; denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

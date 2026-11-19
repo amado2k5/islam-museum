@@ -1,0 +1,18 @@
+---
+id: event/ali-ibn-muhammad-reaches-saada-and-the-tabari-emigrants-285
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/event/ali-ibn-muhammad-reaches-saada-and-the-tabari-emigrants-285.md}
+---
+## Vue d'ensemble
+[[person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi|Ali ibn Muhammad]], le narrateur, indique que son émigration auprès d' [[person/al-hadi-yahya-al-rassi|al-Hadi]] eut lieu en Dhu al-Hijja de l'an 285 de l'Hégire ; il parvint à [[place/saada|Sa'da]] et y trouva son père, [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Muhammad ibn Ubaydallah]], gouverneur d'al-Hadi. {cite:sira-hadi-ila-al-haqq p.115} {cite:sira-hadi-ila-al-haqq p.116} Ce récit est zaydite, rapporté par les disciples de l'imam ; les descriptions des opposants et de l'aide divine à al-Hadi sont attribuées au narrateur, et le musée ne porte aucun jugement.
+
+## Comment son père en est venu à gouverner Sa'da
+Lorsque la guerre contre al-Da'am éclata, [[place/wasaha-yemen|Wasaha]] se retourna contre le père d'Ali et [[person/abu-al-dughaysh-al-shihabi|Abu al-Dughaysh]] leva son étendard pour le combattre. Il écrivit à al-Hadi, alors à al-Darb des Banu Rabi'a, pour l'informer de la montée en puissance de son ennemi et des quelques partisans qui le soutenaient. Al-Hadi lui ordonna de se rendre à Sa'da et d'y demeurer, car il avait envoyé son frère [[person/abdullah-ibn-al-husayn-al-rassi|Abdullah ibn al-Husayn]] au Hedjaz pour une mission. {cite:sira-hadi-ila-al-haqq p.116} Il partit donc clandestinement à pied, jusqu'à croiser son cousin [[person/husayn-ibn-al-hasan-governor-of-saqayn|Husayn ibn al-Hasan]], de la lignée d'al-Abbas ibn Ali, alors gouverneur de [[place/saqayn-yemen|Saqayn]]. Husayn le prit par la main et tous deux poursuivirent leur chemin, craignant pour leur avenir, jusqu'à Sa'da où ils restèrent quelques jours. Abdullah ibn al-Husayn repartit ensuite pour le Hedjaz, l'abandonnant sur place. {cite:sira-hadi-ila-al-haqq p.116} La note de bas de page de l'éditeur renvoie à Sifat Jazirat al-Arab, p. 69, pour Saqayn. {cite:sira-hadi-ila-al-haqq p.116}
+
+## Les troubles et les émigrants Tabari
+Le narrateur arriva avec les pèlerins et trouva la ville troublée par la guerre menée par al-Hadi contre al-Da'am. Les habitants espéraient qu'un commandant des Abbassides, « en noir », les rejoindrait cette année-là, mais leur espoir fut déçu. {cite:sira-hadi-ila-al-haqq p.116} Selon le récit, Dieu soutint al-Hadi en lui envoyant des compagnons venus des [[group/tabari-emigrants-with-al-hadi|Tabaris]]. Ils atteignirent Sa'da, les pèlerins entendirent parler d'eux, et ils étaient près de cinquante hommes. {cite:sira-hadi-ila-al-haqq p.116} Al-Hadi se réjouit de leur présence et al-Da'am s'en attrista. Ils séjournèrent quelques jours à Sa'da, puis rejoignirent al-Hadi à Khiwan, où ils arrivèrent en pleine forme. {cite:sira-hadi-ila-al-haqq p.116}
+
+## L'effet, et le narrateur reste
+Il devint évident pour le peuple yéménite, rapporte le narrateur, que l'influence d'al-Hadi progressait tandis que celle de ses opposants reculait ; leurs intentions se renouvelèrent et ils souhaitèrent le soutenir. {cite:sira-hadi-ila-al-haqq p.116} Le narrateur demeura à Sa'da avec son père, sur ordre d'al-Hadi. {cite:sira-hadi-ila-al-haqq p.116} Voir [[event/al-hadi-sends-abdullah-ibn-al-husayn-against-abu-al-dughaysh-285]] et [[event/al-hadi-sets-out-against-al-daam-and-holds-council-285]].

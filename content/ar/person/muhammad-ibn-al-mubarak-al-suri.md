@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b21, source: "حلية الأولياء (دار الكتب العلمية 1988) 9/298-309" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b21, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 9/298-309" }
 ---
 ## موجز
 أبو عبد الله محمد بن المبارك الصوري. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء التاسع من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة 451)⁩، ويصفه بأنه ذو العقل الوافي والورع الصافي والبيان الشافي. ونقل أبو نعيم بعض أقواله عن محمد بن أصبغ بن الفرج الذي سمعه، وحكى المحاورة في الإيمان من خط جدّه محمد بن يوسف الذي لقي بعض أصحابه. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/298-303}

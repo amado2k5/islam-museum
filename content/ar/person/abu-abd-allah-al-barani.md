@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b51, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/137-138" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b51, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/137-138" }
 ---
 ## موجز
 أبو عبد الله البراني، من مشاهير المتعبدين، ممدود في جماهير المعتبرين. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة 489)⁩ في الصفحتين 137 و138. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/137}

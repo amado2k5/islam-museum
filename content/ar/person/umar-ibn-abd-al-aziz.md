@@ -117,7 +117,7 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 - **خراسان:** [[person/al-jarrah-ibn-abdallah-al-hakami|الجراح بن عبد الله الحكمي]]، ثم عبد الرحمن بن نعيم الغامدي ⁦(استخلفه الجراح)⁩ {cite:tarikh-khalifa-umari-1985 p. 322}
 - **سجستان:** [[person/al-jarrah-ibn-abdallah-al-hakami|الجراح بن عبد الله]]، ثم عبد الرحمن بن نعيم ⁦(سنة مائة)⁩ {cite:tarikh-khalifa-umari-1985 p. 322}
 - **السند:** عبد الملك بن مسمع بن مالك بن مسمع ⁦(ولاه عدي بن أرطاة ثم عزله)⁩، ثم [[person/amr-ibn-muslim|عمرو بن مسلم الباهلي]] ⁦(حتى مات عمر)⁩ {cite:tarikh-khalifa-umari-1985 p. 322}
-- **البحرين:** صلت بن حريث ⁦(ثم عزله عدي)⁩، ثم عبد الكريم بن المغيرة (أظنه باهلياً ⁦(قول خليفة)⁩) {cite:tarikh-khalifa-umari-1985 p. 322}
+- **البحرين:** صلت بن حريث ⁦(ثم عزله عدي)⁩، ثم عبد الكريم بن المغيرة ⁦(أظنه باهلياً ⁦(قول خليفة)⁩)⁩ {cite:tarikh-khalifa-umari-1985 p. 322}
 - **عمان:** سعيد بن مسعود المازني ⁦(ولاه عدي)⁩، ثم عمرو بن عبد الله بن أبي طلحة الأنصاري {cite:tarikh-khalifa-umari-1985 p. 323}
 - **اليمامة:** زرارة بن عبد الرحمن {cite:tarikh-khalifa-umari-1985 p. 323}
 - **مكة:** عبد العزيز بن عبد الله بن خالد بن أسيد ⁦(أقره حتى مات)⁩ {cite:tarikh-khalifa-umari-1985 p. 323}

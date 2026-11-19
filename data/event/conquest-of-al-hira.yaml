@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { hijri: "0012", precision: year, status: tradition, note: "سنة 12هـ (البلاذري ص 340)" }
+  start: { hijri: "0012", precision: year, status: tradition, note: "سنة 12هـ ⁦(البلاذري ص 340)⁩" }
 relations:
   - { type: occurred_at, target: place/al-hira }
   - { type: had_participant, target: person/khalid-ibn-al-walid, role: "المصالح القائد", sources: [source/futuh-buldan-maarif-1407] }
@@ -20,7 +20,7 @@ relations:
   - { type: had_participant, target: person/khuraym-ibn-aws, role: "طالب ابنة بقيلة", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 337–341"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 337–341"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-26
 sides:

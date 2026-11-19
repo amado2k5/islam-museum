@@ -13,12 +13,12 @@ summary:
 wings: [people]
 died: { edtf: "854", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: d. 240 AH) Confirmed on 13 November 2026 against Wikidata Q105476493 (P570, a statement with a reference), item revision 2562086357.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (المكي); denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981, source/tarikh-baghdad-khatib], confidence: low }
-  - { type: student_of, target: person/al-shafii, role: "أخذ عنه وطالت صحبته (داود بن علي، PDF ص54)", sources: [source/tabaqat-fuqaha-abbas-1981, source/tarikh-baghdad-khatib] }
+  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name ⁦(المكي)⁩; denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981, source/tarikh-baghdad-khatib], confidence: low }
+  - { type: student_of, target: person/al-shafii, role: "أخذ عنه وطالت صحبته ⁦(داود بن علي، PDF ص54)⁩", sources: [source/tabaqat-fuqaha-abbas-1981, source/tarikh-baghdad-khatib] }
 external_ids: { wikidata: "Q105476493" }
 sources: [source/tabaqat-fuqaha-abbas-1981, source/tarikh-baghdad-khatib]
-provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-6 + lib-tarikh-baghdad-tb7" }
-status: { review: draft, completeness: 1, generated_by: "en label draft (Claude Haiku 5.5, batch 1); Claude (Haiku 5.5); batch 6 (PDF ص54–58); Devin (SWE-2 Medium), lib-tarikh-baghdad-tb7" }
+provenance: { layer: own-research, source: "طبقات الفقهاء ⁦(تحقيق إحسان عباس)⁩ PDF ص54–58", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-6 + lib-tarikh-baghdad-tb7" }
+status: { review: draft, completeness: 1, generated_by: "en label draft (Claude Haiku 5.5, batch 1); Claude (Haiku 5.5); batch 6 ⁦(PDF ص54–58)⁩; Devin (SWE-2 Medium), lib-tarikh-baghdad-tb7" }
 occupations:
   - job: job/faqih
     kind: primary

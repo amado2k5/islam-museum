@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-بلاذری بیان کرتے ہیں کہ [[person/al-mutasim-abi-ishaq|معتصم]] مدینۃ السلام چھوڑ کر قاطول گئے، وہاں [[person/harun-al-rashid|رشید]] کے محل میں اترے، پھر سر من رأی کی تعمیر کا خیال آیا اور اسے بسایا ([[place/samarra|سامرّاء]]) اور لوگوں کو وہاں منتقل کیا۔ {cite:futuh-buldan-maarif-1407 p.417}
+بلاذری بیان کرتے ہیں کہ [[person/al-mutasim-abi-ishaq|معتصم]] مدینۃ السلام چھوڑ کر قاطول گئے، وہاں [[person/harun-al-rashid|رشید]] کے محل میں اترے، پھر سر من رأی کی تعمیر کا خیال آیا اور اسے بسایا ⁦([[place/samarra|سامرّاء]])⁩ اور لوگوں کو وہاں منتقل کیا۔ {cite:futuh-buldan-maarif-1407 p.417}
 
 ## قاطول
 رشید نے یہ محل اس وقت بنایا تھا جب انھوں نے اپنی نہر قاطول کھدوائی، جسے وہ ابو الجند کہتے تھے۔ معتصم نے وہاں تعمیرات کیں، محل اپنے غلام [[person/ashinas-al-turki|اشناس ترکی]] کے حوالے کیا، اور ایک ایسا شہر شروع کیا جسے بعد میں چھوڑ دیا۔ {cite:futuh-buldan-maarif-1407 p.417}

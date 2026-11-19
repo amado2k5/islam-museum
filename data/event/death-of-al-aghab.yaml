@@ -9,14 +9,14 @@ wings: [time]
 periods: [period/abbasid-early]
 regions: [maghreb]
 date:
-  start: { edtf: "0785/0786", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية موسى الهادي (170هـ، تحويل مشتق؛ نص البلاذري ص 326–327)" }
+  start: { edtf: "0785/0786", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية موسى الهادي ⁦(170هـ، تحويل مشتق؛ نص البلاذري ص 326–327)⁩" }
 relations:
   - { type: occurred_at, target: place/qayrawan }
   - { type: had_participant, target: person/al-aghab-ibn-salim, role: "الوالي المصروع الشهيد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: related_to, target: person/harish-al-tunisi, role: "الحاصر المنهزم المقتول بسوق الأحد", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 326–327"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 326–327"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-23
 sources: [source/futuh-buldan-maarif-1407]

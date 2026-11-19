@@ -6,7 +6,7 @@ translators: ["Claude Code (OCR-harvest worker E), claude-opus-5-5, translation"
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/alam-al-nisa-kahhala-risala-1984-v1 p.178–179" }
 ---
 ## خلاصہ
-تقیہ بنت غیث بن علی الارمنازی الصوریہ، [[person/umar-rida-kahhala|کحالہ]] کے [[work/alam-al-nisa-kahhala|اعلام النساء]] والے ترجمے کے مطابق، عمدہ کلام والی ماہر شاعرہ تھیں، صفر 505ھ میں (یا کہا گیا محرم میں) پیدا ہوئیں، اصل [[place/sur-lubnan|صور]] سے تھیں؛ ان کے قصائد اور قطعات ایک چھوٹے دیوان میں تھے۔ {cite:alam-al-nisa-kahhala-risala-1984-v1 p.178}
+تقیہ بنت غیث بن علی الارمنازی الصوریہ، [[person/umar-rida-kahhala|کحالہ]] کے [[work/alam-al-nisa-kahhala|اعلام النساء]] والے ترجمے کے مطابق، عمدہ کلام والی ماہر شاعرہ تھیں، صفر 505ھ میں ⁦(یا کہا گیا محرم میں)⁩ پیدا ہوئیں، اصل [[place/sur-lubnan|صور]] سے تھیں؛ ان کے قصائد اور قطعات ایک چھوٹے دیوان میں تھے۔ {cite:alam-al-nisa-kahhala-risala-1984-v1 p.178}
 
 ## سلفی کے ساتھ
 انہوں نے کچھ عرصہ [[place/alexandria|اسکندریہ]] کی بندرگاہ میں حافظ [[person/al-silafi|ابو طاہر احمد بن محمد السلفی الاصبہانی]] کی صحبت پائی، اور انہوں نے اپنی بعض تعلیقات میں ان کا تعریف کے ساتھ ذکر کیا۔ {cite:alam-al-nisa-kahhala-risala-1984-v1 p.178}

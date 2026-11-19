@@ -1,0 +1,28 @@
+---
+id: event/al-hadi-charge-to-his-governors-284
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/al-hadi-charge-to-his-governors-284.md}
+---
+## Visión general
+Después de que [[person/al-hadi-yahya-al-rassi|al-Hadi]] designara gobernadores en los distritos para recolectar alimentos, les escribió a cada uno una orden, y el libro presenta su texto bajo el título «Copia del pacto que al-Hadi ila al-Haqq concertó con sus gobernadores». {cite:sira-hadi-ila-al-haqq p.44} El informe se encuentra en un libro zaidí transmitido por los seguidores del imán de [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Muhammad ibn Ubaydallah]] y su hijo [[person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi|Ali ibn Muhammad]]; el texto se muestra tal como lo transmiten sus transmisores, no como dictamina el museo. El editor señala las diferencias entre los manuscritos en sus notas a pie de página.
+
+## Nombramiento y conducta del gobernador
+La acusación comienza diciendo que al-Hadi ha designado a tal persona para administrar las recaudaciones de una aldea específica y para recolectar lo que Dios había establecido como debido en los diezmos, confiándole la confianza de Dios y de Su Mensajero. {cite:sira-hadi-ila-al-haqq p.44} Al llegar a la ciudad, debe entrar con calma, dignidad y recuerdo de Dios, alquilar una casa para vivir, no imponer ninguna carga de su sustento, ni pequeña ni grande, a nadie de la ciudad, y no aceptar ningún regalo de nadie; un regalo hecho a un funcionario debido a su cargo pertenece al tesoro de los musulmanes, y el texto dice que esta norma pasó de [[person/ali-ibn-abi-talib|Ali ibn Abi Talib]]. {cite:sira-hadi-ila-al-haqq p.44} {cite:sira-hadi-ila-al-haqq p.45} Véase [[concept/bayt-al-mal]].
+
+## Con lo que empieza
+La primera tarea que se le encomienda al gobernador es ordenar el bien y prohibir el mal, y enseñar a la gente a realizar la oración y la postración completa; para un beduino o cualquier persona en la ciudad que no conozca lo suficiente el Corán para orar, debe enseñar lo que pueda del mufassal, y enseñar tanto como pueda sobre los principios de la religión, el mérito de la yihad y de quienes se esfuerzan, el conocimiento de la verdad y de quienes la siguen, y la lealtad a aquellos a quienes Dios ordenó lealtad entre la familia de Su Profeta. El último es la doctrina zaidí del libro, atribuida aquí al imán, no una posición del museo. {cite:sira-hadi-ila-al-haqq p.45} Véase [[concept/amr-bil-maruf]] y [[concept/jihad]].
+
+## Las medidas del diezmo
+Los cultivos regados por agua corriente o lluvia se gravan con una décima parte completa; los regados por camellos que tiran de cubos y por norias, con media décima parte; lo mismo para lo que los yemeníes llaman "al-athari" y los iraquíes "al-a'dha". El mínimo es treinta y tres y un tercio de farq, que son cinco awsaq completos; por debajo de eso, el propietario conserva su cosecha y no se le quita nada. Las notas a pie de página explican que los "sawani" son los camellos que tiran de los cubos, que un farq son tres sa's y un wasq sesenta sa's, y que al-Khalil dice que un wasq es la carga de un camello. {cite:sira-hadi-ila-al-haqq p.45} La cebada no se añade al trigo, por lo que no se aplica zakat a un tipo hasta que ese tipo mismo alcance la medida establecida. Si un hombre tiene socios o parcelas dispersas, se suman, y si el total producido por su tierra, en un lugar o en varios, alcanza los cinco awsaq, se le cobra su zakat; de lo contrario, el gobernador no tiene ningún derecho sobre él. {cite:sira-hadi-ila-al-haqq p.45} {cite:sira-hadi-ila-al-haqq p.46} Véase [[concept/ushr]], [[concept/zakat]] y [[concept/nisab]].
+
+## Confianza y responsabilidad
+La orden le indica al gobernador que priorice la intención y la confianza al custodiar lo que recauda, le recuerda que Dios ve cada acto y recompensa cada obra, y cita el versículo de al-Zalzala ([[passage/quran-99-7|Corán 99:7-8]]); puede tomar de la colecta lo que necesite para su propio sustento y para quienes lo ayudan, "de la manera aceptada". {cite:sira-hadi-ila-al-haqq p.46}
+
+## Los pobres y la cuarta parte de la colecta
+Debe anotar los nombres de los pobres y necesitados del pueblo, pero no de todos los necesitados, solo de aquellos sin medios de ganarse la vida o de privarse de ella, porque enumerar a todos los necesitados perjudicaría a los que no tienen recursos; debe dar preferencia a "la gente de la matraba", los indigentes, y apartar a aquellos que tienen algún medio de subsistencia hasta que Dios les dé más. Cuando su número esté fijo, apartará una cuarta parte de la colecta de su pueblo para ellos y escribirá a al-Hadi con su número y todo lo que Dios les haya asignado, para que al-Hadi pueda escribir su opinión y cómo distribuirlo. {cite:sira-hadi-ila-al-haqq p.46} El encargo termina diciéndole que si un viajero pasa y se queja de necesidad, debe fortalecerlo y reunir sus asuntos dispersos, y dirigir todos sus negocios hacia lo que lo acerca a Dios. {cite:sira-hadi-ila-al-haqq p.47} Véase [[concept/sadaqa]].
+
+## Notas
+- No se mencionan el nombre del pueblo ni del gobernador: el texto es un modelo que dice "fulano de tal, hijo de mengano".
+- Los términos y medidas técnicas se presentan tal como aparecen en el libro y no se comparan aquí con otras escuelas; la escuela a la que se refiere el encargo es la zaidí, y a ellos se les atribuye.

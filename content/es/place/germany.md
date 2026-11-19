@@ -1,0 +1,33 @@
+---
+id: place/germany
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/place/germany.md}
+---
+## Visión general
+Alemania es un país de Europa Central, según la ficha de referencia. Aparece en dos libros consultados para el museo, *al-Dawla al-Uthmaniyya* (2001) de Ali Muhammad al-Salabi y *Hadir al-Alam al-Islami* en árabe, con notas de Shakib Arslan, en tres roles: uno de los territorios que participaron en las campañas europeas contra los otomanos en los siglos XIV y XVI; la Alemania del káiser Guillermo y Bismarck, hacia la cual se inclinaron los otomanos en sus últimas décadas; y miembro de las Potencias Centrales en la Primera Guerra Mundial. Los libros también mencionan a orientalistas alemanes y al poeta Goethe. No se encontró ninguna entrada sobre Alemania en *Mu'jam al-Buldan* de Yaqut ni en *Athar al-Bilad* de al-Qazwini, por lo que esta página recoge las afirmaciones de autores modernos, atribuyendo cada juicio a su autor. {cite:dawlat-uthmaniyya-salabi p.66} {cite:stoddard-arslan-hadir-1923 1 p.317}
+
+## Campañas europeas y el Sacro Imperio Romano Germánico
+Al-Salabi escribe que el rey Segismundo de Hungría y el papa Bonifacio IX pidieron una coalición europea contra el estado otomano que llegó a 120.000 combatientes de varias nacionalidades, entre ellos Alemania, Francia, Inglaterra, Escocia, Suiza, Luxemburgo, los Países Bajos meridionales y algunos principados italianos; la campaña partió hacia Hungría en 1396 (el libro también imprime 800 H, que no coincide con ese año) y terminó con la mayoría de los cristianos derrotados por Bayezid en Nicópolis. {cite:dawlat-uthmaniyya-salabi p.66} Véase [[event/battle-of-nicopolis-1396|la batalla de Nicópolis]].
+
+Sobre Khayr al-Din Barbarroja dice que Carlos V fue emperador del Sacro Imperio Romano Germánico, que entonces comprendía España, Bélgica, Holanda, Alemania, Austria e Italia, y defendió a la Europa cristiana contra el peligro otomano hacia Europa oriental y central. {cite:dawlat-uthmaniyya-salabi p.215} Añade que [[person/charles-v|Carlos V]] atacó el noreste de Francia y fue derrotado, luego tuvo que ir a Alemania, donde la rebelión protestante contra el catolicismo en general y contra él en particular había adquirido graves proporciones. {cite:dawlat-uthmaniyya-salabi p.232}
+
+## Alemania bajo Abd al-Hamid II
+Al-Salabi relata el viaje del príncipe Abd al-Hamid a Europa en 1867, nombrando entre los monarcas de la época a Guillermo I en Alemania, y dice que la delegación visitó Francia, Inglaterra, Bélgica y Austria-Hungría; el príncipe, dice, salió de allí juzgando a Francia como "un país de placer", a Inglaterra como un país de riqueza, agricultura e industria, y a Alemania como "un país de orden, ejército y administración", y su admiración por Alemania fue grande, de modo que como sultán le confió el entrenamiento del ejército. {cite:dawlat-uthmaniyya-salabi p.400} Véase [[person/abd-al-hamid-ii-uthmani|Abd al-Hamid II]].
+
+Sobre el Congreso de Berlín escribe que el canciller Bismarck lo convocó, temiendo que la resistencia británica a Rusia provocara una guerra general europea y amenazara la unión alemana, e invitó a las grandes potencias, Inglaterra, Francia, Alemania y Austria, a Berlín para revisar el Tratado de San Stefano. {cite:dawlat-uthmaniyya-salabi p.415} El libro cita a algunos historiadores que dicen que tras bambalinas Bismarck ofreció repartirse el imperio otomano, Egipto a Gran Bretaña, Túnez y Siria a Francia, Bosnia y Herzegovina a Austria y los Estrechos a Rusia, y que estas ofertas no se incluyeron en las resoluciones del congreso. {cite:dawlat-uthmaniyya-salabi p.415} Sostiene que Abd al-Hamid creó fricción entre Rusia y Alemania, y cita las memorias de Guillermo II, en las que un general ruso dice que el Congreso de Berlín fue un gran error de Bismarck que destruyó la confianza rusa en Alemania. {cite:dawlat-uthmaniyya-salabi p.414} La fecha del congreso está impresa en el libro como 1305 H (1887), lo cual no coincide con la guerra de 1877 que lo precede, por lo que aquí no se utiliza ningún año.
+
+Al-Salabi describe a Guillermo II como amigo de Abd al-Hamid y "el único aliado de los otomanos en Europa", según la propia descripción del libro. {cite:dawlat-uthmaniyya-salabi p.446} Turquía entró entonces en la Primera Guerra Mundial del lado de las Potencias Centrales, Alemania y Austria, mientras que los árabes, según el libro, se unieron a los Aliados. {cite:dawlat-uthmaniyya-salabi p.466}
+
+## Alemania en Hadir al-Alam al-Islami
+En el texto principal, los líderes musulmanes comprendieron que Turquía se había convertido en un instrumento dócil en manos de Alemania, obedeciendo sus órdenes; sus sabios no vieron razón alguna para apoyar a Alemania ni para respaldar sus ambiciones de dominación mundial, ya que los musulmanes no obtendrían ningún beneficio, y prefirieron que Occidente se enfrentara entre sí para que el mundo musulmán pudiera fortalecerse. Esta es la interpretación del libro, no el juicio de esta página. {cite:stoddard-arslan-hadir-1923 1 p.317}
+
+En las notas de Arslan, el emperador alemán llegó a Tánger y declaró que nadie podía tocar la independencia de Marruecos; Alemania envió un buque de guerra a las costas de Agadir cuando surgió la disputa con Francia, y se retiró porque Gran Bretaña le había prometido a Francia que la flota británica estaría a su disposición; Arslan cuenta esto entre las causas de la guerra de 1914. Esta es la opinión del autor de la nota. {cite:stoddard-arslan-hadir-1923 2 p.116} Véase [[place/morocco|Marruecos]].
+
+## Orientalistas alemanes y Goethe
+El libro informa de Dermenghem, página 273 de su obra, como lo cita, que Goethe, "el más grande de los poetas alemanes", dijo que si esto es el Islam, ¿no somos todos musulmanes? {cite:stoddard-arslan-hadir-1923 1 p.92} Las notas de Arslan resumen lo que el orientalista y médico alemán Max Meyerhof dice en su libro *El mundo islámico*, entre otras cosas que las exageraciones de los poetas árabes no se ajustan al gusto occidental, mientras que la métrica, el orden y el don de expresión árabes son muy dulces. {cite:stoddard-arslan-hadir-1923 1 p.113} Véase [[person/shakib-arslan|Shakib Arslan]].
+
+## Nota sobre las fuentes
+Los números de página que aparecen en Hadir al-Alam al-Islami son los impresos, leídos desde el encabezado de cada página. No se ha verificado la atribución de la frase a Goethe.

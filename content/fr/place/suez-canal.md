@@ -1,0 +1,28 @@
+---
+id: place/suez-canal
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/suez-canal.md}
+---
+## Vue d'ensemble
+Le canal de Suez relie la Méditerranée à la mer Rouge en traversant l'isthme de Suez. L'Encyclopédie de l'Islam en parle dans son article consacré à la ville d' [[place/suways|al-Suways]] (Suez), port situé à l'extrémité nord de la mer Rouge, devenu le point d'entrée méridional du canal. {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} {cite:encyclopaedia-of-islam-2 vol. 9 p. 939} Le présent document reprend ce récit et ne s'appuie sur aucune autre source.
+
+## Planification et concession
+L'article indique qu'au début des années 1840, Ferdinand de Lesseps a approfondi ses recherches sur le creusement d'un nouveau canal reliant la Méditerranée à la mer Rouge. Il s'est appuyé sur des plans antérieurs publiés par Le Père (1808) et Linant de Bellefonds (1821), ainsi que sur une mesure antérieure, corrigée ultérieurement, qui situait la mer Rouge environ 9 mètres plus haut que la Méditerranée. De Lesseps a ensuite soumis une proposition au gouverneur d'Égypte, Saïd Pacha, proposition appuyée par l'avis du groupe d'étude saint-simoniste de Bellefonds et d'une commission égypto-européenne créée en 1846, qui estimaient qu'un canal traversant l'isthme de Suez était envisageable. {cite:encyclopaedia-of-islam-2 vol. 9 p. 938}
+
+Le 5 janvier 1856, Saïd signa la concession, espérant, selon l'article, que le canal renforcerait son ambition de rendre l'Égypte plus indépendante de l'Empire ottoman. {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} Après trois années de levée de fonds et de querelles politiques, notamment sur la question de la souveraineté ottomane, la Compagnie du canal de Suez fut fondée à Paris en 1858 avec le soutien de Napoléon III. Des entrepreneurs français finirent par acquérir plus de la moitié des actions, et Saïd, qui en détenait initialement 21 %, dut en céder une partie dès 1860. {cite:encyclopaedia-of-islam-2 vol. 9 p. 938}
+
+## Construction
+Les travaux de creusement commencèrent le 22 avril 1859 et le gouvernement égyptien recruta 25 000 paysans pour travailler dans la région du canal. {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} Simultanément, un canal d'eau douce fut creusé du Caire à la région d'Ismaïlia, suivant le tracé de l'ancien canal qui reliait la mer Rouge au Nil à la fin de l'époque pharaonique et qui avait été restauré à plusieurs reprises jusqu'au IIe/VIIIe siècle ; les travaux durèrent cinq ans. {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} Après 1863 et l'introduction des machines, l'infrastructure et les conditions de travail s'améliorèrent considérablement. {cite:encyclopaedia-of-islam-2 vol. 9 p. 938}
+
+## Ouverture et propriété
+Le canal fut inauguré le 16 novembre 1869. À cette date, les coûts de construction s'élevaient à environ 19 millions de livres sterling, dont un tiers avait été financé par le gouvernement égyptien. Le canal appartenait alors à la Compagnie Universelle du Canal Maritime de Suez, qui contrôlait également d'autres propriétés le long de ses berges. {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} En raison de graves difficultés financières, le khédive égyptien [[person/khedive-ismail|Ismaïl Pacha]] fut contraint de vendre ses parts dans la compagnie au gouvernement britannique. {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} Après le creusement du canal, deux ports artificiels permanents, initialement appelés Port Ibrahim et Port Tawfiq, furent construits à environ 3 km au sud de Suez, à l'entrée du canal. {cite:encyclopaedia-of-islam-2 vol. 9 p. 938}
+
+À son ouverture, le canal mesurait 164 km de long et 52 m de large ; en 1982, sa longueur était de 195 km et sa largeur de 164 m, permettant le passage de pétroliers d’un tonnage allant jusqu’à 150 000 tonnes en 1980. {cite:encyclopaedia-of-islam-2 vol. 9 p. 938}
+
+## Histoire ultérieure
+La Convention de Constantinople du 29 octobre 1888 garantissait la liberté de navigation sur le canal, même en temps de guerre, et le gouvernement égyptien la reconnut à nouveau le 24 avril 1952. {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} De 1882 à 1954, la zone du canal demeura une zone de déploiement militaire britannique. Aux termes du traité anglo-égyptien du 10 octobre 1954, les Britanniques devaient quitter la zone dans un délai de 20 mois, et le 26 juillet 1956, le gouvernement égyptien nationalisa le canal. {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} L'article ajoute que lors de la crise de Suez de 1956, la ville de Suez ne fut pas occupée et ne subit que quelques bombardements, mais que les guerres israélo-égyptiennes de 1967 et, en particulier, de 1973 la dévastèrent. De 1967 à 1975, le canal fut bloqué et Suez était une ville presque morte. {cite:encyclopaedia-of-islam-2 vol. 9 p. 939}
+
+## Ce que les sources ne parviennent pas à trancher
+L'article donne ses chiffres de manière incidente et sans traiter spécifiquement du canal : il indique, par exemple, que le canal a été inauguré avec une largeur de 52 m sans préciser comment cette largeur a été mesurée. Les noms des ingénieurs autres que Linant de Bellefonds, le nombre d'ouvriers décédés et les détails de la nationalisation ne sont pas mentionnés dans les passages cités. La bibliographie de l'article recense plusieurs études approfondies sur le canal, notamment des ouvrages de Charles-Roux, Farnie et Boutros-Ghali. {cite:encyclopaedia-of-islam-2 vol. 9 p. 939}

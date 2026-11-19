@@ -1,0 +1,25 @@
+---
+id: concept/duhn
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/duhn.md}
+---
+
+## Nature et sélection
+Nature : l'huile de baume est connue et a été décrite précédemment. Les huiles de ricin et de radis ont une force similaire, toutes deux résolutives, l'huile de ricin étant plus forte, bien que l'huile de radis soit plus chaude et ressemble à l'huile de vieille. Tempérament : les huiles d'iris et de jasmin sont chaudes et sèches au troisième degré ; les huiles d'anjara et de carthame sont chaudes et humides aux premier et deuxième degrés ; l'huile de narcisse est chaude au deuxième degré et humide au premier ; l'huile de khiri est chaude et humide au deuxième degré ; les huiles d'amande douce, d'amande amère, de bourgeons de vigne, de rose et de pomme ont des propriétés rafraîchissantes et astringentes proches, tout comme l'huile de coing ; l'huile de camomille est modérément chaude ; l'huile d'aneth est similaire et plus chaude ; l'huile de violette rafraîchit légèrement sans être astringente ; l'huile de rue est résolutive. Le livre renvoie la fabrication des huiles au chapitre consacré aux préparations composées. {cite:canon-ibn-sina-print-v1 p.443}
+Choix : chaque huile possède son propre tempérament et sa propre force selon sa provenance ; les huiles composées sont décrites dans le chapitre consacré aux préparations composées. {cite:canon-ibn-sina-print-v1 p.444}
+
+## Actes
+Actions : l’huile d’amande amère ouvre l’esprit ; les huiles de pomme et de coing ont des propriétés astringentes et rafraîchissantes ; l’huile de camomille soulage la douleur, décongestionne et dissout les vapeurs ; l’huile d’iris adoucit, fortifie les organes, favorise la maturation et soulage la douleur ; l’huile de myrte resserre et fortifie les organes et rafraîchit davantage que l’huile de coing ; l’huile de rue dissout efficacement les vents ; l’huile de costus est utile en cas d’épidémie. {cite:canon-ibn-sina-print-v1 p.444}
+
+## Utilisations par organe
+Soins capillaires : l’huile de laurier est efficace contre l’alopécie ; l’huile de myrte fortifie les racines et fonce les cheveux ; l’huile de costus préserve la jeunesse des cheveux ; l’huile d’amande douce, associée au miel, à la racine d’iris et à la cire fondue, atténue les rides, les taches de rousseur et les cicatrices ; l’huile de ricin est bénéfique pour les taches blanches et les taches de rousseur ; l’huile de fenugrec est bonne pour le teint terne. {cite:canon-ibn-sina-print-v1 p.444}
+Gonflements et pustules : l’huile d’amande aide à réduire le gonflement dû à une entorse ; l’huile d’iris résorbe et élimine les anciennes indurations. {cite:canon-ibn-sina-print-v1 p.445}
+Plaies et ulcères : l’huile de ricin est efficace contre les pustules épaisses et la gale ; l’huile de fenugrec contre la teigne ; l’huile de myrte est bénéfique pour les ulcères ; l’huile de costus élimine rapidement la gale et les démangeaisons. {cite:canon-ibn-sina-print-v1 p.445}
+Articulations : l’huile d’amande douce aide à soulager les entorses ; l’huile de camomille soulage la fatigue des membres ; l’huile d’iris et l’huile d’aneth ont le même effet. {cite:canon-ibn-sina-print-v1 p.445}
+Tête : l’huile d’amande soulage les maux de tête, les pulsations, les acouphènes et les sifflements dans l’oreille, et surtout en cas d’oreille bouchée et de parasites intestinaux ; l’huile de rose est très efficace contre l’inflammation cérébrale ; les huiles de laurier et de rue sont bénéfiques pour les maux de tête chroniques ; l’huile de ricin soulage les ulcères de la tête, les gonflements et les maux d’oreille. {cite:canon-ibn-sina-print-v1 p.445}
+Appareil digestif : l’huile d’amande est bonne pour la rate et lourde pour l’estomac. {cite:canon-ibn-sina-print-v1 p.445}
+Organes excréteurs, liste des ingrédients : les huiles d’anjara et de carthame sont laxatives ; l’huile de rose peut être laxative en cas de besoin de lubrification et soulager la diarrhée bilieuse ; l’huile de ricin est purgative. L’huile d’amande est bénéfique pour les douleurs rénales et la rétention urinaire. L’ouvrage indique que l’huile d’iris facilite l’accouchement et calme les douleurs utérines ; l’huile de fenugrec soulage les gonflements utérins et les accouchements difficiles ; l’huile de ricin est efficace contre les gonflements anaux et favorise la fermeture de l’utérus. {cite:canon-ibn-sina-print-v1 p.445}
+Fièvres : l’huile de camomille est préférable à l’huile de rose en cas de fièvre persistante ; l’huile d’aneth est efficace contre les frissons. {cite:canon-ibn-sina-print-v1 p.445}
+Substituts : le livre cite des substituts pour chaque huile, par exemple pour le baume, le laurier, l’iris, l’anjara, le henné, le nénuphar et l’huile de ricin, sans toutefois préciser les proportions. {cite:canon-ibn-sina-print-v1 p.446}

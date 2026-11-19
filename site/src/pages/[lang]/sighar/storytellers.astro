@@ -19,7 +19,7 @@ const bridges = viewBridge(loadBridge(), lang);
 const decks = listDecks().filter((d) => d.kids);
 const sc = T.storycards;
 const storyCount = listStoryCards().length;
-const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
+const L = (x: { ar: string; en: string; ur?: string; fr?: string }) => (x[lang] ?? x.ar);
 ---
 <BaseLayout lang={lang} title={band.name} description={`${fmt(E.band_hub_for, { ages: band.agesLabel })}: ${band.voice}`} path={band.hub} kids={true}>
   <BandHub lang={lang} band={band}>

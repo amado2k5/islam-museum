@@ -9,7 +9,7 @@ translators: []
 
 ## الملخص
 
-الشيخ أحمد برين (1939 – 1 يوليو 2015) منشد ديني ومغنٍّ مصري، عُرف براوية التراث الشعبي في صعيد مصر. {cite:wikipedia-ahmad-barrin-ar} {cite:wikidata-ahmad-barrin}
+الشيخ أحمد برين ⁦(1939 – 1 يوليو 2015)⁩ منشد ديني ومغنٍّ مصري، عُرف براوية التراث الشعبي في صعيد مصر. {cite:wikipedia-ahmad-barrin-ar} {cite:wikidata-ahmad-barrin}
 
 ## النشأة
 

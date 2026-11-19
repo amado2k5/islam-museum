@@ -1,0 +1,13 @@
+---
+id: person/al-mustanis-bil-haqq
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/al-mustanis-bil-haqq.md}
+---
+## Resumen
+al-Mustanis bil-Haqq al-Mustawhish min al-Khalq es un laqab para un hombre cuyo nombre no menciona el texto. [[person/abu-nuaym-al-asbahani-ahmad|Abu Nu'aym]] le da una nota en el décimo volumen de [[work/hilyat-al-awliya|Hilyat al-Awliya]], impreso número 544, secuencia 545, en las páginas 167 y 168. El informe no da nombre. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/167} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/168}
+
+## La pregunta de Ubayd
+Uthman ibn Muhammad al-Muthmali relata de Abu al-Hasan Muhammad ibn Ahmad que Ubayd al-Basri dijo: pregunté a un hombre en [el lugar] qué le hizo sentarse en ese sitio; dijo: lo que preguntas, si lo buscas no lo alcanzarás, y si lo alcanzas no lo alcanzarás. Le dije: dime qué es. Él dijo: mi conocimiento de que sentarme con Dios absorbe la dicha de los jardines. Le pregunté: ¿cómo? Él dijo: ay, pensé que mi alma había triunfado y que había huido de la creación; Me encuentro mentiroso en mi posición; si hubiera sido un verdadero amante de Dios, nadie me habría visto. Le dije: ¿no sabes que los amantes son los vicegerentes de Dios en la tierra, en casa con Su creación, movidos por Él a la obediencia? Gritó y dijo: Oh engañado, si hubieras olido el aroma del amor y lo que hay detrás del corazón de la cercanía, no necesitarías ver nada más allá de lo que has visto. Entonces dijo: Oh cielo y tierra, da testimonio de que el recuerdo del Paraíso y del Infierno nunca se me ha ocurrido en el corazón; si soy sincero, déjame morir. No supe nada de él después de eso. Entonces vino un grupo y preguntó: ¿qué ha sido del joven? Respondí con una respuesta evasiva; dijeron: vuelve atrás, Dios lo ha tomado. Recé por él con ellos y pregunté quién era ese hombre. Dijeron: su corazón era como el corazón de Abraham el Amigo; ¿no le viste decir que el recuerdo del Paraíso y del Infierno nunca cruzó su corazón? ¿Alguien ha sido así excepto Abraham el Amigo? Pregunté quiénes eran; dijeron: somos los siete distinguidos sustitutos. Les pedí que me enseñaran algo; me dijeron: no deseas ser conocido, y no quieres ser conocido como alguien que no desea ser conocido. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/168}

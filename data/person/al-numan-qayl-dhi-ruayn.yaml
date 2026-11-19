@@ -1,6 +1,6 @@
 id: person/al-numan-qayl-dhi-ruayn
 class: person
-label: { ar: "النعمان قيل ذي رعين ومعافر وهمدان", en: "al-Nu'man, qayl of Dhu Ru'ayn, Ma'afir and Hamdan" }
+label: { ar: "النعمان قيل ذي رعين ومعافر وهمدان", en: "al-Nu'man, qayl of Dhu Ru'ayn, Ma'afir and Hamdan", fr: "al-Nu‘man, qayl de Dhu Ru‘ayn, des Ma‘afir et de Hamdan" }
 names:
   - { kind: full, lang: ar, value: "النعمان قيل ذي رعين ومعافر وهمدان" }
 gender: male
@@ -9,15 +9,16 @@ traditions: [sunni]
 summary:
   ar: "قيل من أقيال حمير على ذي رعين ومعافر وهمدان، كتب مع الحارث ونعيم ابني عبد كلال إلى النبي بإسلامهم، وكتب إليهم النبي؛ والقيل عند المحققين الملك دون الملك الأكبر."
   en: "A qayl, a lesser king, of Himyar over Dhu Ru'ayn, Ma'afir and Hamdan, who wrote with al-Harith and Nu'aym the sons of Abd Kulal to the Prophet announcing their Islam and received his reply."
+  fr: "Un qayl, un roi mineur, d'Himyar sur Dhu Ru'ayn, Ma'afir et Hamdan, qui a écrit avec al-Harith et Nu'aym les fils d'Abd Kulal au Prophète annonçant leur Islam et a reçu sa réponse."
 wings: [people]
 themes: [converts-and-leavers]
 periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
-  - { role: ruler, toward: group/himyar, status: tradition, note: "من ملوك حمير وأقيالها (ابن هشام ص235).", sources: [source/ibn-hisham-saqqa] }
-  - { role: convert, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "كتب بإسلامه مقدم النبي من تبوك (ابن هشام ص235).", sources: [source/ibn-hisham-saqqa] }
+  - { role: ruler, toward: group/himyar, status: tradition, note: "من ملوك حمير وأقيالها ⁦(ابن هشام ص235)⁩.", sources: [source/ibn-hisham-saqqa] }
+  - { role: convert, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "كتب بإسلامه مقدم النبي من تبوك ⁦(ابن هشام ص235)⁩.", sources: [source/ibn-hisham-saqqa] }
 faith:
-  - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "أعلن إسلامه في كتاب ملوك حمير (ابن هشام ص235).", sources: [source/ibn-hisham-saqqa] }
+  - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "أعلن إسلامه في كتاب ملوك حمير ⁦(ابن هشام ص235)⁩.", sources: [source/ibn-hisham-saqqa] }
 died: { edtf: "525~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq], confidence: low }

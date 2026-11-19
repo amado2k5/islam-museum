@@ -29,5 +29,5 @@ status:
 born: { edtf: "1699", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 263: 1111 AH = 1699 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1766", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 263: 1180 AH = 1766 CE (the card summary had 1765).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (المكي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name ⁦(المكي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: born_in, target: place/mecca, note: "Al-Zirikli, al-A'lam vol. 3 p. 263: born and lived in Mecca.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

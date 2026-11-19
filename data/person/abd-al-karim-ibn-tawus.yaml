@@ -29,6 +29,6 @@ status:
 born: { edtf: "1250", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Riyad al-Ulama (al-Afandi: Ghiyath al-Din Confirmed on 13 November 2026 against Wikidata Q56669064 (P569, a statement with a reference), item revision 2568232628. al-A'lam gives 648 AH = 1250, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1294", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Riyad al-Ulama (al-Afandi: Ghiyath al-Din Confirmed on 13 November 2026 against Wikidata Q56669064 (P570, a statement with a reference), item revision 2568232628. al-A'lam gives 693 AH = 1294, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (عراقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name ⁦(عراقي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: died_in, target: place/kadhimiya, note: "al-Zirikli, al-A'lam, vol. 4 p. 51: died in al-Kazimiyya", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
   - { type: lived_in, target: place/baghdad, note: "al-Zirikli, al-A'lam, vol. 4 p. 51: grew up in Baghdad", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

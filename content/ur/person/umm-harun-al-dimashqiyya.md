@@ -6,7 +6,7 @@ translators: ["Claude Code (OCR-harvest worker E), claude-opus-5-5, translation"
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sifat-al-safwa-tartusi-2012 p.860" }
 ---
 ## خلاصہ
-ام ہارون [[work/sifat-al-safwa|صفۃ الصفوہ]] میں شام کی عابدات میں ہیں (نمبر 824)؛ عبد العزیز بن عمیر انہیں خوف رکھنے والی عبادت گزار خواتین میں بتاتے ہیں۔ {cite:sifat-al-safwa-tartusi-2012 p.860} [[person/abu-sulayman-al-darani|ابو سلیمان دارانی]] نے کہا: «جو سچا صعقہ (ہیبت سے بے ہوشی) دیکھنا چاہے وہ ام ہارون کو دیکھے»، اور: «میں نہیں سمجھتا تھا کہ شام میں ان جیسی کوئی ہوگی»۔ {cite:sifat-al-safwa-tartusi-2012 p.860}
+ام ہارون [[work/sifat-al-safwa|صفۃ الصفوہ]] میں شام کی عابدات میں ہیں ⁦(نمبر 824)⁩؛ عبد العزیز بن عمیر انہیں خوف رکھنے والی عبادت گزار خواتین میں بتاتے ہیں۔ {cite:sifat-al-safwa-tartusi-2012 p.860} [[person/abu-sulayman-al-darani|ابو سلیمان دارانی]] نے کہا: «جو سچا صعقہ ⁦(ہیبت سے بے ہوشی)⁩ دیکھنا چاہے وہ ام ہارون کو دیکھے»، اور: «میں نہیں سمجھتا تھا کہ شام میں ان جیسی کوئی ہوگی»۔ {cite:sifat-al-safwa-tartusi-2012 p.860}
 
 ## رات
 وہ کہتیں: «میں نے دنیا کو اس کے مقام پر رکھ دیا ہے»، اور صرف روٹی کھاتیں؛ کہتیں کہ دن انہیں بوجھل لگتا یہاں تک کہ رات آتی، تو وہ اس کے شروع میں اٹھتیں، اور سحر ہوتی تو دل کو راحت ملتی۔ {cite:sifat-al-safwa-tartusi-2012 p.860} [[person/rabia-bint-ismail|رابعہ بنت اسماعیل]] نے اپنے شوہر کو بتایا کہ ام ہارون نے بیس سال سے سر میں تیل نہیں ڈالا، پھر بھی جب سر کھولتیں تو ان کے بال سب سے اچھے ہوتے۔ {cite:sifat-al-safwa-tartusi-2012 p.860}

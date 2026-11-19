@@ -5,6 +5,7 @@
 // no-JS and screen-reader equivalent.
 import { ui, type Lang } from "../lib/i18n";
 import { byId, labelOf } from "../lib/graph";
+import { hasKidsRead } from "../lib/entity";
 import basemap from "../data/basemap-world.json";
 
 interface Props { lang: Lang }
@@ -24,7 +25,7 @@ const LATLON: Record<string, [number, number]> = {
 const LEVELED = new Set(["place/mecca", "place/medina", "place/jerusalem", "place/damascus", "place/baghdad", "place/cairo", "place/cordoba", "place/timbuktu", "place/istanbul", "place/samarqand"]);
 const spots = Object.entries(LATLON).map(([id, [lat, lon]]) => {
   const n = byId.get(id);
-  const href = n ? (LEVELED.has(id) ? `/${lang}/sighar/read/place/${n.slug}/` : `/${lang}/place/${n.slug}/`) : "";
+  const href = n ? (LEVELED.has(id) && hasKidsRead(n, lang) ? `/${lang}/sighar/read/place/${n.slug}/` : `/${lang}/place/${n.slug}/`) : "";
   return { id, label: n ? labelOf(n, lang) : id.split("/")[1], href, x: X(lon), y: Y(lat) };
 });
 ---

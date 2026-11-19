@@ -7,7 +7,7 @@ translators: []
 
 ## خلاصہ
 
-محمد طاہر (1628ء – 1671ء)، جو اپنے خطاب عنایت خان سے معروف ہیں، مغلیہ سلطنت کے مؤرخ تھے جن کی «شاہ جہاں نامہ» نے شہنشاہ شاہ جہاں کی زندگی اور دور کو بیان کیا {cite:wikipedia-inayat-khan-historian-ur} {cite:wikipedia-inayat-khan-historian-en}۔ وہ بیسویں صدی کے صوفی استاد حضرت عنایت خان سے مختلف شخص ہیں {cite:wikidata-inayat-khan-historian}۔ ان کی وفات کے سال میں مضامین مختلف ہیں — عنوانات میں 1671ء، متن میں 1666ء — اور ریکارڈ دونوں روایتیں محفوظ رکھتا ہے {cite:wikipedia-inayat-khan-historian-ur} {cite:wikipedia-inayat-khan-historian-en}.
+محمد طاہر ⁦(1628ء – 1671ء)⁩، جو اپنے خطاب عنایت خان سے معروف ہیں، مغلیہ سلطنت کے مؤرخ تھے جن کی «شاہ جہاں نامہ» نے شہنشاہ شاہ جہاں کی زندگی اور دور کو بیان کیا {cite:wikipedia-inayat-khan-historian-ur} {cite:wikipedia-inayat-khan-historian-en}۔ وہ بیسویں صدی کے صوفی استاد حضرت عنایت خان سے مختلف شخص ہیں {cite:wikidata-inayat-khan-historian}۔ ان کی وفات کے سال میں مضامین مختلف ہیں — عنوانات میں 1671ء، متن میں 1666ء — اور ریکارڈ دونوں روایتیں محفوظ رکھتا ہے {cite:wikipedia-inayat-khan-historian-ur} {cite:wikipedia-inayat-khan-historian-en}.
 
 ## دربار میں پرورش
 

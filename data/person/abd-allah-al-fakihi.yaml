@@ -18,7 +18,7 @@ born: { edtf: "1493~", hijri: "0899", calendar: julian, precision: year, status:
 died: { edtf: "1564~", hijri: "0972", calendar: julian, precision: year, status: tradition, derived: true, note: "وفيها (972)؛ التحويل مشتق {cite:shadharat-dhahab p. 366}", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 972)، قراءة آبل فيجن"
+  source: "شذرات الذهب — ابن العماد ⁦(ط مكتبة المثنى 1351، ج8، سنة 972)⁩، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch92
@@ -34,4 +34,4 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/shadharat-dhahab]
 relations:
-  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (المكي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
+  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name ⁦(المكي)⁩; denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

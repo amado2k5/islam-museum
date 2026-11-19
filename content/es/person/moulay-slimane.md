@@ -1,0 +1,39 @@
+---
+id: person/moulay-slimane
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/moulay-slimane.md}
+---
+
+## Resumen
+
+Mawlay Sulayman bin Mohammed, conocido como Moulay Slimane (28 de junio de 1766 – 28 de noviembre de 1822), fue el sultán alauita de Marruecos desde 1792 hasta 1822 {cite:wikipedia-moulay-slimane-en}. Hijo del sultán Muhammad III, continuó la centralización del reino por parte de su padre, puso fin a la piratería que durante mucho tiempo había operado desde la costa marroquí y revirtió la política comercial abierta de su padre hacia Europa, manteniendo al mismo tiempo estrechas relaciones con Estados Unidos {cite:wikipedia-moulay-slimane-en}.
+
+## Educación
+
+Sulayman nació hijo de Sidi Mohammed III y de una de sus esposas, una dama de la tribu Ahlaf {cite:wikipedia-moulay-slimane-en}. Su padre cuidó mucho su educación religiosa: memorizó el Corán en una zawiya en Safi, estudió la biografía del Profeta en Ksar al-Kabir, y en Tafilalt desde 1783 fue instruido por ulamas excepcionales de Fez como Abd al-Qadir bin Shaqrun y Hamdun bin al-Hajj {cite:wikipedia-moulay-slimane-en}. El artículo árabe añade que su primer maestro del Corán fue el recitador Abd al-Wahhab Ajana en Safi, que el jurista Hamdun bin al-Hajj fue nombrado su tutor, y que los historiadores marroquíes coincidieron en que era el hijo más querido para su padre por su devoción al saber; se cita a su padre diciendo de él que nunca le había llegado nada desagradable desde Sulayman, y que estaba contento con él {cite:wikipedia-moulay-slimane-ar}. Tenía gran respeto por la Shari'a {cite:wikipedia-moulay-slimane-en}.
+
+## Guerra civil y consolidación
+
+Cuando su medio hermano al-Yazid murió en Marrakech el 17 de febrero de 1792, el pueblo de Fez ofreció el trono a Sulayman en marzo; aceptó con la condición de no tener que luchar contra sus hermanos, aunque la lucha resultante duró hasta 1795 y en parte hasta 1798 {cite:wikipedia-moulay-slimane-en} {cite:wikipedia-moulay-slimane-ar}. Recuperó Oujda y las provincias orientales de manos otomanas en 1798, y los habitantes de Tuat acordaron pagar impuestos al sultán en 1800, extendiendo la autoridad del Makhzen hacia el sur {cite:wikipedia-moulay-slimane-en}. En Marrakech reconstruyó por completo la mezquita Ali bin Yusuf, completándola para 1819 o 1820 {cite:wikipedia-moulay-slimane-en}.
+
+## Cierre a Europa y América
+
+Cuando la noticia de la invasión francesa de Egipto y Siria llegó a Marruecos en 1798, con informes de soldados franceses saqueando y maltratando a la población egipcia, Sulayman revirtió la política comercial de ultramar de su padre: se redujeron los lazos comerciales con Europa, se animó a los empresarios extranjeros a marcharse, y el sultán se dirigió al corazón marroquí, exyiendo los tradicionales impuestos coránicos, zakat y ushr {cite:wikipedia-moulay-slimane-en}. Marruecos declaró la guerra a Estados Unidos durante la Guerra Tripolitana en junio de 1802, pero la paz se restableció en septiembre de 1803 cuando Edward Preble se reunió con el sultán en Tánger {cite:wikipedia-moulay-slimane-en}. En 1821 regaló a Estados Unidos un edificio de dos plantas de barro y piedra en Tánger —la primera propiedad adquirida del país en el extranjero— que albergó la Legación y el Consulado estadounidenses durante 140 años {cite:wikipedia-moulay-slimane-en}.
+
+## Política religiosa
+
+Durante su reinado el movimiento wahabí llegó a Marruecos: Saud ibn Abdulaziz envió cartas explicando su llamado a los gobernantes de los países islámicos, y su carta llegó a Sulayman en 1811 {cite:wikipedia-moulay-slimane-en}. El artículo árabe recoge que el sultán consultó a sus ulemas y envió una delegación erudita, junto con su hijo Ibrahim, para realizar el Hajj e inspeccionar la llamada de cerca; la delegación debatió con los eruditos del Haramayn e informó de que lo que habían visto coincidía con la Shari'a exterior, tras lo cual el sultán escribió su célebre carta denunciando los excesos en el respeto a los muertos {cite:wikipedia-moulay-slimane-ar}. Inspirado por el movimiento revivalista, utilizó su autoridad para condenar la música y la danza en ceremonias religiosas y prohibió las peregrinaciones a santuarios de santos y festivales religiosos, llegando incluso a mandar retirar la cúpula sobre la tumba de su padre en 1812 por ser ornamentado excesivamente {cite:wikipedia-moulay-slimane-en}. Al-Nasiri relata que escribió un libro advirtiendo contra los sufíes que, en su relato, refutaban la Sunna y apoyaban la innovación, explicando la manera adecuada de visitar a los virtuosos, y un sermón instando a la unidad de Dios y condenando las innovaciones, que ordenó distribuir en todas las mezquitas de los viernes, cerrando los rincones de oración sufí {cite:wikipedia-moulay-slimane-en}.
+
+## Derrota, revuelta y muerte
+
+En mayo de 1819 el sultán lideró una gran expedición contra los Ait Umalu del Atlas Medio; en el segundo día de batalla su aliado Muhammad bin al-Ghazi desertó hacia el enemigo, los contingentes tribales lo abandonaron y el propio Sulayman fue capturado — y, como Sharif, mostró todo respeto y fue liberado tres días después {cite:wikipedia-moulay-slimane-en}. Siguieron rebeliones en Fez y Tetuan entre 1820 y 1822, que solo sofocó con largos asedios {cite:wikipedia-moulay-slimane-en}. Derrotado nuevamente cerca de Marrakech en 1822 y quedado con poco poder, confió a los ulemas de Fez la proclamación de sultán a su sobrino Abd al-Rahman tras su muerte; el artículo árabe conserva su testamento escrito, en el que eligió a Abd al-Rahman porque, escribió, no bebía vino, ni cometía adulterio, ni mentía, ni traicionaba, ni derramaba sangre ni tomaba propiedades sin causa {cite:wikipedia-moulay-slimane-ar}. Sulayman murió el 28 de noviembre de 1822, y Abd al-Rahman bin Hisham le sucedió {cite:wikipedia-moulay-slimane-en}.
+
+## Fe
+
+Ninguna fuente lee nombre de escuelas jurídicas para el propio hombre, y Wikidata solo tiene el valor genérico Islam {cite:wikidata-moulay-slimane}. El texto del artículo en inglés lo llama seguidor del wahabismo, citando un boletín de 1857, y su cuadro de información lo clasifica como islam suní (wahabismo) {cite:wikipedia-moulay-slimane-en}. Su práctica documentada —la consulta de sus ulamas sobre la carta de Saud, la delegación erudita de 1811, su carta contra el exceso en la veneración de los muertos, sus prohibiciones de peregrinaciones a santuarios y de música y danza en ceremonias, la retirada de la cúpula funeraria de su padre, su tratado contra las prácticas sufíes y su sermón sobre la unidad de Dios {cite:wikipedia-moulay-slimane-en} {cite:wikipedia-moulay-slimane-ar}— está detalladamente recogida en su registro. La escuela de su corte alauita era Maliki; Ese es un contexto dinástico, no un nombre de la propia escuela del hombre, por lo que su fe queda registrada como desconocida.
+
+## Notas para investigadores
+
+Su lugar de nacimiento se indica de tres maneras — Tafilalt en el artículo en inglés y el titular del artículo en urdu, Marrakech en el artículo árabe, y Fez en Wikidata y en la caja de información en urdu {cite:wikipedia-moulay-slimane-ur} {cite:wikidata-moulay-slimane} — por lo que su historial no tiene ventaja en lugar de nacimiento. El día en sí es firme: el artículo árabe 20 Muharram 1180 H se convierte exactamente en el artículo en inglés del 28 de junio de 1766 {cite:wikipedia-moulay-slimane-ar}. Su muerte en Marrakech el 28 de noviembre de 1822, acompañada del artículo árabe con 13 Rabi al-Awwal 1238 H, está de acuerdo en los tres artículos y en Wikidata {cite:wikidata-moulay-slimane}.

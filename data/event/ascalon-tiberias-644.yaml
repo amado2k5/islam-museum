@@ -1,10 +1,11 @@
 id: event/ascalon-tiberias-644
 class: event
 kind: conquest
-label: { ar: "فتح عسقلان وطبرية سنة 644هـ", en: "The conquest of Ascalon and Tiberias in 644 AH" }
+label: { ar: "فتح عسقلان وطبرية سنة 644هـ", en: "The conquest of Ascalon and Tiberias in 644 AH", fr: "La conquête d'Ascalon et de Tibériade en 644 H" }
 summary:
   ar: "في جمادى الآخرة سنة أربع وأربعين وست مئة أخذ المسلمون عسقلان وطبرية عنوة وكان الفتح على يد فخر الدين بن الشيخ {cite:shadharat-dhahab p. 230}."
   en: "In Jumada II 644 the Muslims took Ascalon and Tiberias by storm, the conquest led by Fakhr al-Din ibn al-Shaykh {cite:shadharat-dhahab p. 230}."
+  fr: "En Joumada II 644, les musulmans prirent d'assaut Ascalon et Tibériade, la conquête étant menée par Fakhr al-Din ibn al-Shaykh {cite:shadharat-dhahab p. 230}."
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
@@ -15,7 +16,7 @@ map: { kind: battle, precision: approximate, center: [31.6693, 34.5710] }
 date: { start: { edtf: "1247~", hijri: "0644", calendar: julian, precision: year, status: debated, derived: true, note: "جمادى الآخرة 644؛ وفي نسخة شذرات الذهب المقروءة آلياً وردت الحادثة ضمن حوادث سنة خمس وأربعين — تباين موضع لا تباين وقوع {cite:shadharat-dhahab p. 230,239}", sources: [source/shadharat-dhahab] } }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ج5، سنين 601–700)"
+  source: "شذرات الذهب — ابن العماد ⁦(ج5، سنين 601–700)⁩"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-44
 external_ids: { wikidata: "Q125503841" }

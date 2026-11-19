@@ -1,0 +1,18 @@
+---
+id: event/al-hadi-arrival-at-saada-284
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/al-hadi-arrival-at-saada-284.md}
+---
+## Visión general
+[[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Muhammad ibn Ubaydallah]] dice que llegaron a [[place/saada|Sa'da]] el sexto de Safar del año 284 de la Hégira y llegaron a Khawlan en medio de una gran disputa en la que habían perecido hombres, se habían perdido riquezas, la tierra estaba en sequía y estéril; era tiempo de siembra, y vio que algunas cosechas se habían secado por la sed. {cite:sira-hadi-ila-al-haqq p.41}
+
+## La reconciliación y el juramento
+[[person/al-hadi-yahya-al-rassi|Al-Hadi]] plantó sus tiendas cerca de la ciudad y les dijo que desmontaran. La gente salió a su encuentro por voluntad propia, entre ellos las dos partes en disputa, mencionadas en el texto como "Sa'd y al-Rabi'a". Él los saludó y les dijo que se saludaran entre sí. Luego pronunció un elocuente sermón, alabando a Dios, orando por el Profeta, recordándoles a Dios y exhortándolos. El narrador vio a la gente llorando y clamando como los peregrinos en la Casa Sagrada. Hizo traer una copia del Corán y les hizo jurar que abandonarían la disputa y la enemistad, lo cual hicieron. Después les hizo jurarle obediencia, apoyo, cumplimiento del mandato de Dios y ayuda mutua, y le juraron lealtad en ese mismo lugar. Las dos partes se mezclaron, gritaron takbir y entraron juntas en Sa'da. {cite:sira-hadi-ila-al-haqq p.41} {cite:sira-hadi-ila-al-haqq p.42}
+
+## El comentario del narrador
+El narrador dice que nunca vio un día más hermoso, que había pensado que su asunto nunca se resolvería, y que cuando vio con qué rapidez se pusieron de acuerdo supo que era un temor reverencial que Dios le había dado a Yahya ibn al-Husayn, es decir, al-Hadi, pues no tenía con él más de cincuenta hombres. {cite:sira-hadi-ila-al-haqq p.42} Relata que la gente de Sa'da le dijo que los comandantes de [[group/banu-yafur|Al Ya'fur]] solían venir a ellos e intentar hacer las paces entre ellos sin poder hacerlo, y que uno de ellos, con miles de soldados, se interpuso entre ellos mientras luchaban, veinte murieron, y aun así no llegó la paz, mientras que al-Hadi los reconcilió por el medio más fácil. {cite:sira-hadi-ila-al-haqq p.42} Luego dice que Dios les envió lluvia, su tierra se volvió fértil, su fruto sano y sus caminos seguros, y relata que cuando aparece la justicia, llueve. {cite:sira-hadi-ila-al-haqq p.42} {cite:sira-hadi-ila-al-haqq p.43} Estos son los juicios del narrador y no del museo; Los nombres de los habitantes de Sa'da que cita aparecen con formas dudosas en el escaneo y no se reproducen aquí.
+
+## Nombramiento de gobernadores
+Al-Hadi luego nombró gobernadores en los distritos, que son las aldeas, para recolectar alimentos, y escribió a cada uno un mandato. {cite:sira-hadi-ila-al-haqq p.43} El texto del mandato comienza en la pág. 44: nombra al hombre para la recolección de una aldea específica y para la recolección de los diezmos que Dios ha establecido, le dice que entre en la ciudad con calma y dignidad, que alquile una casa para sí mismo, que no imponga ninguna carga de mantenimiento a nadie de la ciudad y que no acepte ningún regalo, ningún regalo a un funcionario debido a su cargo que vaya al tesoro de los musulmanes. {cite:sira-hadi-ila-al-haqq p.44} El texto del mandato continúa en las páginas siguientes.

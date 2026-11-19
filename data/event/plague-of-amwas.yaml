@@ -10,7 +10,7 @@ wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0639~", hijri: "0018", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 18هـ (البلاذري ص 190). التحويل مشتق." }
+  start: { edtf: "0639~", hijri: "0018", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 18هـ ⁦(البلاذري ص 190)⁩. التحويل مشتق." }
 relations:
   - { type: part_of, target: event/conquest-of-syria }
   - { type: occurred_at, target: place/amwas }
@@ -21,7 +21,7 @@ relations:
   - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 190"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 190"
   generated_by: "Khalifa ibn Khayyat section added by Claude Opus 5.5 (claude-opus-5-5), run lib-tarikh-khalifa-batch-6-2026-10-31; Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-9
 tags: [tibb-browser, tibb-tibb, wasaya-browser, wasaya-companions, wasaya-ihtidar]

@@ -1,0 +1,45 @@
+---
+id: concept/awsani-personal-counsels-of-the-prophet
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/awsani-personal-counsels-of-the-prophet.md
+---
+## Résumé
+Les livres de hadith présentent un type de récit où un Compagnon dit awsani, « il m’a conseillé », en nommant celui qui l’a conseillé, ou demande au Prophète awsini, « conseille-moi », et reçoit quelques mots qui lui sont destinés personnellement. Il s’agit de conseils individuels, non de sermons publics : chacun concerne une personne nommée et varie selon ce que [[person/muhammad|le Prophète]] connaissait d’elle. Cette page en rassemble une sélection, indique le narrateur et le livre de chaque récit et signale les divergences des commentateurs. Pour les derniers conseils avant sa mort, voir [[event/prophets-last-counsels-in-final-illness|Les derniers conseils du Prophète durant sa dernière maladie]]. {cite:ibn-rajab-jami-ulum-hikam scan vol. 2 p. 343}
+
+## Les formulations
+Deux mots figurent dans les textes transmis : awsani, dans la bouche du narrateur, comme dans « mon ami m’a conseillé » d’Abu Dharr, et awsini, dans celle du demandeur, lorsqu’un homme dit au Prophète « conseille-moi » et reçoit un ou quelques mots en réponse. {cite:ibn-rajab-jami-ulum-hikam scan vol. 2 p. 104}{cite:ibn-rajab-jami-ulum-hikam scan vol. 2 p. 343} Dans les sources lues ici, aucun livre ne réunit ces récits sous un nom unique ; ce sont des passages cités par Ibn Kathir et Ibn Rajab, et les attributions aux recueils de hadith suivent les références des éditeurs.
+
+## Abu Hurayra : trois choses
+Dans sa notice sur [[person/abu-hurayra|Abu Hurayra]], Ibn Kathir cite des deux Sahihs ces mots : « Mon ami m’a conseillé de jeûner trois jours de chaque mois, de prier les deux rak'as du duha (la prière de la matinée) et d’accomplir le witr avant de dormir. » {cite:al-bidaya-wal-nihaya scan vol. 4 p. 478} Dans le même passage, il rapporte d’Abu Uthman al-Nahdi qu’Abu Hurayra partageait la nuit en trois avec sa femme et sa fille, chacun veillant un tiers de la nuit en prière. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 478}
+
+## Abu Dharr : crainte révérencielle, écoute et obéissance
+Ibn Rajab rapporte, d’après Ibrahim al-Hajari, d’après Abu al-Ahwas, que [[person/abu-dharr-al-ghifari|Abu Dharr]] dit : « Mon ami m’a conseillé de craindre Dieu comme si je Le voyais, car si je ne Le vois pas, Lui me voit. » Il dit que le Prophète donna ce conseil à plusieurs Compagnons, nommant Ibn Umar dans le récit d’al-Nasa'i et Zayd ibn Arqam ; l’éditeur signale la faiblesse de la version attribuée au Prophète dans le récit de Zayd. {cite:ibn-rajab-jami-ulum-hikam scan vol. 2 p. 104} Ibn Rajab donne aussi ces paroles d’Abu Dharr chez Muslim : « Mon ami m’a conseillé d’écouter et d’obéir, même à un esclave abyssin aux membres amputés. » {cite:ibn-rajab-jami-ulum-hikam scan vol. 2 p. 589} Voir [[event/farewell-admonition-reported-by-al-irbad|L’exhortation aux accents d’adieu rapportée par al-Irbad]].
+
+## Ibn Abbas : « Veille à Dieu, Il veillera sur toi »
+[[person/abdullah-ibn-abbas|Ibn Abbas]] rapporte qu’il se trouvait un jour derrière le Prophète, qui lui dit : « Mon garçon, je vais t’enseigner quelques mots : veille à Dieu, Il veillera sur toi ; veille à Dieu, tu Le trouveras devant toi ; quand tu demandes, demande à Dieu, et quand tu cherches de l’aide, cherche-la auprès de Dieu. » Il ajouta que, si toute la communauté se réunissait pour lui faire du bien ou du mal, elle ne pourrait faire que ce que Dieu avait écrit, les plumes étant levées et les pages sèches. {cite:ibn-rajab-jami-ulum-hikam scan vol. 2 p. 432} Ibn Rajab dit qu’al-Tirmidhi et Ahmad le transmettent par Hanash al-San'ani d’après Ibn Abbas ; la note de l’éditeur donne le numéro 2516 chez al-Tirmidhi. Ibn Rajab cite une autre version : « Connais Dieu dans l’aisance, Il te connaîtra dans l’épreuve. » {cite:ibn-rajab-jami-ulum-hikam scan vol. 2 p. 432}
+
+## « Ne te mets pas en colère »
+Abu Hurayra rapporte qu’un homme dit au Prophète : « Conseille-moi », et qu’il répondit : « Ne te mets pas en colère. » L’homme renouvela plusieurs fois sa demande et reçut la même réponse. Al-Bukhari le transmet sous le numéro 6116, selon la note de l’éditeur du Jami' al-Ulum wa-l-Hikam. {cite:ibn-rajab-jami-ulum-hikam scan vol. 2 p. 343} Ibn Rajab relève une divergence sur la chaîne d’al-A'mash : certains la font passer par Abu Salih d’après Abu Hurayra, d’autres par Abu Sa'id al-Khudri, d’autres par un Compagnon anonyme ; pour Yahya ibn Ma'in, la version d’Abu Sa'id est la bonne. {cite:ibn-rajab-jami-ulum-hikam scan vol. 2 p. 343} L’identité du demandeur varie également : Ibn Rajab suggère Abu al-Darda, Ahmad nomme Jariya ibn Qudama ; dans le récit d’al-Zuhri par Humayd ibn Abd al-Rahman d’après un Compagnon, l’homme dit : « J’ai réfléchi aux paroles du Prophète : la colère rassemble tout le mal. » Malik le donne dans le Muwatta comme récit mursal. {cite:ibn-rajab-jami-ulum-hikam scan vol. 2 p. 344}{cite:ibn-rajab-jami-ulum-hikam scan vol. 2 p. 345} Voir [[passage/muwatta-31-2636|Muwatta 2636]], où un homme demande quelques mots pour guider sa vie sans en recevoir trop, et le Prophète répond de ne pas se mettre en colère. {cite:muwatta-maruf-1997 p.492}
+
+## Mu'adh ibn Jabal : « Crains Dieu où que tu sois »
+Ibn Kathir rapporte d’Ahmad que [[person/muadh-ibn-jabal|Mu'adh]] demanda conseil au Prophète, qui dit : « Crains Dieu où que tu sois. » Mu'adh demanda davantage ; il répondit : « Fais suivre une mauvaise action d’une bonne, elle l’effacera. » Mu'adh demanda encore ; il répondit : « Comporte-toi bien envers les gens. » Al-Tirmidhi le transmet et le qualifie de hasan. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 110} Ibn Rajab raconte que Shu'ba, avant un voyage, demandait à al-Hakam s’il avait besoin de quelque chose ; celui-ci répondait : je te donne le conseil que le Prophète donna à Mu'adh. {cite:ibn-rajab-jami-ulum-hikam scan vol. 2 p. 385} Ce récit se rattache aux conseils de son départ pour le Yémen ; voir [[event/parting-counsel-to-muadh-ibn-jabal|Le conseil d’adieu du Prophète à Mu'adh]].
+
+## Abu Ayyub al-Ansari : une prière d’adieu
+Ibn Rajab cite le récit d’Abu Ayyub al-Ansari, chez Ahmad, Ibn Majah et al-Tabarani : un homme demanda au Prophète une brève exhortation ; celui-ci lui répondit : « Prie comme quelqu’un qui fait ses adieux, ne dis pas ce dont tu devras t’excuser demain et renonce à espérer ce que possèdent les gens. » Il signale que ce récit vient aussi de Sa'd ibn Abi Waqqas, d’Ibn Umar et d’Anas. {cite:ibn-rajab-jami-ulum-hikam scan vol. 2 p. 586} Ailleurs, Ibn Rajab rapporte une formulation voisine : à un homme qui demandait un bref hadith, il fut répondu de prier comme quelqu’un qui fait ses adieux, car s’il ne Le voit pas, Lui le voit. Il l’attribue à Anas, mais l’éditeur juge cette attribution erronée : il s’agirait du récit d’Ibn Umar chez al-Tabarani, avec une chaîne faible. {cite:ibn-rajab-jami-ulum-hikam scan vol. 2 p. 104}
+
+## Un Compagnon face aux troubles civils
+Ibn Kathir rapporte d’Ahmad, d’après Abu al-Ash'ath al-San'ani, qu’un Compagnon lui dit : « Mon ami Abu al-Qasim m’a conseillé, si je vivais jusqu’à voir l’une de ces épreuves, d’aller à Uhud, d’y briser le tranchant de mon épée et de rester chez moi. » Ibn Kathir ajoute que le récit figure dans le Musnad d’Ahmad sous Muhammad ibn Maslama, mais que le Compagnon demeure anonyme et ne peut être Muhammad ibn Maslama, mort avant l’époque de Yazid et d’Ibn al-Zubayr ; il s’agit donc d’un autre Compagnon. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 599} Il cite Nu'aym ibn Hammad pour un récit voisin d’Ahban al-Ghifari, qui dit à Ali que son ami, cousin d’Ali, lui avait conseillé de briser son épée et d’en faire une en bois. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 599}
+
+## Un conseil d’ensemble à Abu Umama
+Ibn Rajab rapporte d’al-Khallal, d’après Abu Umama, que le Prophète demanda à ses Compagnons de se réunir après la prière de la nuit. Une fois la prière de l’aube achevée, il demanda : « Avez-vous compris ? » Ils répondirent oui ; il leur dit d’adorer Dieu sans rien Lui associer, d’accomplir la prière, de donner l’aumône, d’écouter et d’obéir. Abu Umama dit qu’ils s’attendaient à un long discours, mais qu’il avait réuni pour eux toute la question. L’éditeur signale la faiblesse de sa chaîne. {cite:ibn-rajab-jami-ulum-hikam scan vol. 2 p. 588}
+
+## Divergences entre les récits
+- Ces récits n’ont pas tous le même statut : certains figurent dans les deux Sahihs, d’autres chez Ahmad et al-Tirmidhi ; pour certains, l’éditeur juge la chaîne faible, comme l’indiquent les notes du Jami' al-Ulum wa-l-Hikam. {cite:ibn-rajab-jami-ulum-hikam scan vol. 2 p. 588}
+- Le récit « ne te mets pas en colère » présente des variantes de chaîne et d’identité du demandeur, exposées plus haut. {cite:ibn-rajab-jami-ulum-hikam scan vol. 2 p. 343}
+- Il existe d’autres récits de ce type que cette page ne traite pas ; la sélection n’est pas exhaustive.

@@ -1,12 +1,13 @@
 id: event/abu-dharr-exile
 class: event
 kind: persecution
-label: { ar: "إشخاص أبي ذر إلى الربذة", en: "Abu Dharr's banishment to al-Rabdha (30 AH)" }
+label: { ar: "إشخاص أبي ذر إلى الربذة", en: "Abu Dharr's banishment to al-Rabdha (30 AH)", fr: "Bannissement d’Abu Dharr à al-Rabdha (30 de l’hégire)" }
 date:
   start: { edtf: "0650", hijri: "0030", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 30؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 483}." }
 summary:
   ar: "في هذه السنة كان ما ذُكر في أمر أبي ذر من إشخاص معاوية إياه من الشام إلى المدينة بغير وطاء، ونفي عثمان إياه من المدينة إلى الربذة على الوجه الذي ذُكر {cite:kamil-ibn-al-athir p. 483}."
   en: "Abu Dharr was carried from Syria to Medina without a saddle-seat, then banished by 'Uthman from Medina to al-Rabdha — the episode that made his name a byword for speaking truth to power {cite:kamil-ibn-al-athir p. 483}."
+  fr: "Abu Dharr fut transporté de Syrie à Médine sans siège de selle, puis banni par Uthman de Médine à al-Rabdha — épisode qui fit de son nom un symbole de franchise face au pouvoir {cite:kamil-ibn-al-athir p. 483}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/al-rabdha, sources: [source/kamil-ibn-al-athir] }
@@ -15,7 +16,7 @@ relations:
   - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
+  source: "الكامل في التاريخ لابن الأثير ⁦(دار الكتاب العربي 2012، ج2)⁩، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v2-batch04
 sources: [source/kamil-ibn-al-athir]

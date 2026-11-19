@@ -1,0 +1,35 @@
+---
+id: concept/ashab-al-aykah
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/ashab-al-aykah.md
+---
+## Ce que dit le Coran
+Le Coran nomme les gens du Fourré en quatre endroits. En [[passage/quran-26-176|al-Shu'ara' 176]], il indique qu’ils nièrent les messagers, puis que Shu'ayb leur demanda s’ils ne craindraient pas Dieu. En [[passage/quran-15-78|al-Hijr 78]], il les qualifie d’injustes ; en [[passage/quran-38-13|Sad 13]], il les compte parmi les factions ; en [[passage/quran-50-14|Qaf 14]], il les joint aux négateurs sur qui la menace s’accomplit. Madyan apparaît pour sa part en [[passage/quran-7-85|al-A'raf 85]], en [[passage/quran-11-84|Hud 84]] et ailleurs ; Shu'ayb y est appelé leur frère, le frère de Madyan. D’où la question : al-Aykah est-il un autre nom de Madyan, ou une nation différente ?
+
+## Ce que signifie « al-aykah »
+Al-Tabari définit al-aykah comme un enchevêtrement dense d’arbres, tout ensemble de ce genre étant une ayka pour les Arabes, et cite un vers d’al-Nabigha al-Dhubyani ; il rapporte d’Ibn 'Abbas qu’il s’agit du fourré et du lieu où les arbres se rassemblent, et de Qatada qu’ils étaient les habitants d’un bosquet principalement composé de palmiers doums. {cite:tafsir-tabari-quran-com on 26:176} {cite:tafsir-tabari-quran-com on 15:78} La lecture est également discutée, selon al-Qurtubi : Nafi' et Abu Ja'far lisent Laykah dans al-Shu'ara' et Sad, tandis que les lecteurs s’accordent sur al-Aykah dans al-Hijr et Qaf ; il cite al-Jawhari, pour qui Laykah et Aykah sont comme Bakka et Makka, un nom de lieu. Il cite ensuite al-Nahhas : l’affirmation d’Abu 'Ubayd selon laquelle Laykah est le village et al-Aykah le pays n’est pas établie, et les spécialistes de l’exégèse et de la langue s’y opposent. {cite:tafsir-qurtubi-quran-com on 26:176} Sur al-Hijr, al-Qurtubi rapporte d’Abu 'Ubayda qu’al-Aykah et Laykah désignent leur ville, comme Bakka et Makka. {cite:tafsir-qurtubi-quran-com on 15:78}
+
+## S’agit-il des gens de Madyan ?
+- **Ce sont les gens de Madyan :** al-Tabari rapporte d’Ibn 'Abbas, par Ibn Jurayj, qu’ils sont les gens de Madyan et qu’al-aykah désigne les arbres enchevêtrés ; il commence lui-même en les identifiant aux gens de Madyan « selon ce qui est rapporté » ; il rapporte aussi d’Ibn Zayd que Dieu envoya Shu'ayb à Madyan et aux gens du désert, les gens de Laykah, les deux mots ne faisant qu’un. {cite:tafsir-tabari-quran-com on 26:176} Ibn Kathir, sur al-Shu'ara', dit qu’ils sont les gens de Madyan « selon l’avis juste », que Shu'ayb était des leurs et que le verset ne dit pas ici « leur frère » parce qu’ils sont désignés par leur culte de l’aykah, un arbre. {cite:tafsir-ibn-kathir on 26:176} Sur al-A'raf, il dit que madyan désigne à la fois la tribu et la ville près de Ma'an, sur la route du Hijaz, et qu’ils sont les gens de l’Aykah. {cite:tafsir-ibn-kathir on 7:85}
+- **Ce sont deux nations :** al-Tabari rapporte de Qatada, sur al-Hijr, que Shu'ayb fut envoyé à deux nations, les gens de Madyan et les gens de l’Aykah, châtiés de deux façons : le Cri saisit Madyan, tandis que les gens de l’Aykah subirent sept jours de chaleur, jusqu’à ce que Dieu envoie un nuage sous lequel ils s’abritèrent et qui les brûla, le châtiment du jour de l’Ombre. {cite:tafsir-tabari-quran-com on 15:78} Al-Qurtubi rapporte de Qatada, par Ibn Wahb, qu’il s’agit de deux nations, ainsi que le récit du nuage d’al-Dahhak ; il rapporte aussi, sur al-Furqan, que Qatada compte les gens d’al-Rass et ceux de l’Aykah comme deux nations auxquelles Shu'ayb fut envoyé. {cite:tafsir-qurtubi-quran-com on 26:176} {cite:tafsir-qurtubi-quran-com on 25:38}
+- **La réponse d’Ibn Kathir :** dans Qisas al-Anbiya, il juge faible l’avis d’exégètes tels que Qatada qui en font une autre nation et répond à leurs deux arguments. Au premier, l’absence de « leur frère » lorsque l’Aykah est nommé, il répond que le texte les désigne par leur culte de l’arbre, ce qui ne convient pas à la mention de la fraternité ; lorsqu’il les désigne par la tribu, en revanche, il convient d’appeler Shu'ayb leur frère. Au second, leur châtiment du jour de l’Ombre alors que Madyan aurait été saisi par le séisme ou le Cri, il répond que, si une autre description du châtiment prouvait une autre nation, le séisme et le Cri feraient deux nations supplémentaires. Il ajoute que Dieu attribue aux gens de l’Aykah les mêmes fraudes dans les mesures et les balances qu’à Madyan, ce qui indique une seule nation. {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook on Shu'ayb and the Aykah} Il rapporte aussi un hadith dans la biographie de Shu'ayb par Ibn 'Asakir, remontant d’'Abd Allah ibn 'Amr au Prophète, selon lequel les gens de Madyan et de l’Aykah sont deux nations ; Ibn Kathir le juge étrange, avec des transmetteurs critiqués, et estime plus probable qu’il s’agisse de propos propres à 'Abd Allah ibn 'Amr, tirés des deux sacoches de traditions israélites qu’il obtint au Yarmuk. {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook on Shu'ayb and the Aykah}
+
+## Comment ils furent détruits
+Les récits de Qatada et d’al-Dahhak chez al-Tabari et al-Qurtubi s’accordent sur une chaleur féroce, leur rassemblement sous un nuage et leur destruction par le feu. Dans les Qisas al-Anbiya d’Ibn Kathir, Dieu suspend le vent pendant sept jours, puis un nuage les ombrage ; ils se rassemblent dessous et il est envoyé en lançant des étincelles et des flammes ; la terre tremble et un cri survient : il réunit ainsi l’Ombre, le séisme et le Cri en un seul récit. {cite:tafsir-tabari-quran-com on 15:78} {cite:tafsir-qurtubi-quran-com on 26:176} {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook on Shu'ayb and the Aykah}
+
+:::perspectives
+- **Avis sunnite, al-Tabari et Ibn Kathir :** les gens de l’Aykah sont ceux de Madyan ; al-aykah désigne les arbres enchevêtrés où ils vivaient ou qu’ils adoraient ; les descriptions différentes du châtiment ne prouvent pas deux nations. {cite:tafsir-tabari-quran-com on 26:176} {cite:tafsir-ibn-kathir on 26:176} {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook on Shu'ayb and the Aykah}
+- **Autre avis sunnite, Qatada :** ce sont deux nations auxquelles Shu'ayb fut envoyé, châtiées de deux façons, selon les récits d’al-Tabari et d’al-Qurtubi. {cite:tafsir-tabari-quran-com on 15:78} {cite:tafsir-qurtubi-quran-com on 26:176}
+:::
+
+## Ce que le texte ne dit pas
+Le Coran ne tranche pas le lien entre al-Aykah et Madyan ; ce qui précède relève des jugements des exégètes à partir de la formulation des versets et de la description du châtiment. Il ne donne ni le site d’al-Aykah ni son époque. Je n’ai trouvé aucune étude universitaire vérifiée sur cette question précise parmi les sources lues et n’attribue donc aucun avis aux chercheurs.
+
+## Voir aussi
+[[place/madyan|Madyan]], [[person/shuayb|Shu'ayb]], [[concept/ashab-al-rass|Les gens d’al-Rass]], [[concept/lost-arab-peoples|Les Arabes disparus]], [[concept/thamud-al-sayha|La déflagration qui détruisit Thamud]].

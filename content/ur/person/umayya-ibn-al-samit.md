@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b67, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/154" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b67, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/154" }
 ---
 ## خلاصہ
 امیہ بن صامت عبادت گزار، مواقع میں ثابت قدم اور اپنے نفس کو ملامت کرنے والے تھے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 520)⁩ صفحہ 154 پر ان کا ترجمہ لکھا ہے؛ اسکین میں یہ نمبر «530» پڑھا گیا، اور تسلسل میں 521 ہے۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/154}

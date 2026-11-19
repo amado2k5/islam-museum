@@ -12,7 +12,7 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 provenance:
   layer: own-research
-  source: "وفيات الأعيان لابن خلكان — الجزء الأول (ترجمة الأسعد بن مماتي)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  source: "وفيات الأعيان لابن خلكان — الجزء الأول ⁦(ترجمة الأسعد بن مماتي)⁩، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-18
 sources: [source/wafayat-ayan, source/shadharat-dhahab]
@@ -29,4 +29,4 @@ occupations:
     note: "merge-map link from role 'poet', Job Browser linking wave"
     sources: [source/wafayat-ayan, source/shadharat-dhahab]
 relations:
-  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/wafayat-ayan, source/shadharat-dhahab], confidence: low }
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name ⁦(المصري)⁩; denotes association, not proven residence.", sources: [source/wafayat-ayan, source/shadharat-dhahab], confidence: low }

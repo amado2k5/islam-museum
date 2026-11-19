@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b68, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/154-155" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b68, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/154-155" }
 ---
 ## موجز
 هلال بن الوزير، الممتدل المستجير إلى مولاه العليم الخبير. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 521)⁩ في الصفحتين 154 و155، وتسلسله 522. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/154} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/155}

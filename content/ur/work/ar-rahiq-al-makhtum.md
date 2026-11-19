@@ -21,6 +21,6 @@ translators: []
 ماخذ بتاتے ہیں کہ کتاب مسلم دنیا میں بہت مقبول ہوئی۔ {cite:wikipedia-raheeq-en}
 
 ## حوالہ جات
-- عربی ویکیپیڈیا، «الرحيق المختوم (كتاب)»، نظرِ ثانی 76191490۔ {cite:wikipedia-raheeq-ar}
+- عربی ویکیپیڈیا، «الرحيق المختوم ⁦(كتاب)⁩»، نظرِ ثانی 76191490۔ {cite:wikipedia-raheeq-ar}
 - انگریزی ویکیپیڈیا، «Ar-Raheeq Al-Makhtum»، نظرِ ثانی 1379913395۔ {cite:wikipedia-raheeq-en}
 - الرحیق المختوم، عجائب گھر کا نسخہ۔ {cite:mubarakpuri-raheeq}

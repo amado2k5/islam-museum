@@ -10,7 +10,7 @@ themes: [refugees-migrants-diaspora, community-conventions]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0622~", hijri: "0001", calendar: julian, precision: year, status: tradition, note: "في الشهور الأولى بعد الهجرة ضمن مؤاخاة المهاجرين والأنصار (الرحيق ص186)" }
+  start: { edtf: "0622~", hijri: "0001", calendar: julian, precision: year, status: tradition, note: "في الشهور الأولى بعد الهجرة ضمن مؤاخاة المهاجرين والأنصار ⁦(الرحيق ص186)⁩" }
 relations:
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: person/abd-al-rahman-ibn-awf, role: "المهاجري الذي آخى به النبي", sources: [source/sahih-al-bukhari] }
@@ -20,7 +20,7 @@ relations:
 sources: [source/sahih-al-bukhari, source/mubarakpuri-raheeq]
 provenance:
   layer: own-research
-  source: "Sahih al-Bukhari 3937 (باب الإخاء في الإسلام، كتاب الاعتصام); al-Raheeq al-Makhtum p.186"
+  source: "Sahih al-Bukhari 3937 ⁦(باب الإخاء في الإسلام، كتاب الاعتصام)⁩; al-Raheeq al-Makhtum p.186"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: ukhuwwa-browser-enrichment

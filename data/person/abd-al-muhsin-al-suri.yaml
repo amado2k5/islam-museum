@@ -28,6 +28,6 @@ status:
 died: { edtf: "1028", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 152: 419 AH = 1028 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 born: { edtf: "950", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 152: 339 AH = 950 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/sur, note: "Place association from the person's nisba/name (الصوري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/sur, note: "Place association from the person's nisba/name ⁦(الصوري)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: born_in, target: place/sur, note: "Al-Zirikli, al-A'lam vol. 4 p. 152: of Tyre, born and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
   - { type: died_in, target: place/sur, note: "Al-Zirikli, al-A'lam vol. 4 p. 152: of Tyre, born and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
