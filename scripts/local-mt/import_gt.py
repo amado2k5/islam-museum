@@ -37,7 +37,8 @@ def paragraphs(path):
     # if x1..xN-1 are, so the anchors' frequencies fall in the order of N; a tie is left unmapped (its records fail).
     x = re.sub(r"<w:hyperlink\b[^>]*/>", "", x)  # an empty link tag (Word writes one now and then) must not be read as the start of a link
     names = collections.Counter(re.findall(r'<w:hyperlink\b[^>]*w:anchor="([^"]+)"', x))
-    if any(not re.fullmatch(r"x\d+", n) for n in names):
+    x = re.sub(r'<w:hyperlink\b[^>]*w:anchor="c(\d+)"[^>]*>.*?</w:hyperlink>', lambda m: f"<w:t> [[{m.group(1)}]]</w:t>", x, flags=re.S)  # a citation carried as a link
+    if any(not re.fullmatch(r"x\d+", n) and not re.fullmatch(r"c\d+", n) for n in names):
         ranked = names.most_common()
         alias = {n: i + 1 for i, (n, c) in enumerate(ranked) if all(c != c2 for j, (_, c2) in enumerate(ranked) if j != i)}
         x = re.sub(r'(<w:hyperlink\b[^>]*w:anchor=")([^"]+)(")', lambda m: f"{m.group(1)}x{alias[m.group(2)]}{m.group(3)}" if m.group(2) in alias else m.group(0), x)
@@ -51,6 +52,7 @@ def tidy(s):
     s = re.sub(r"(?<=[\w»”)\],;:])(<x\d+>)", r" \1", s); s = re.sub(r"(</x\d+>)(?=[\w«“(])", r"\1 ", s)  # a link glued to its neighbour word
     s = re.sub(r"\[\s*\[\s*(\d+)\s*\]\s*\]", r"[[\1]]", s)
     s = re.sub(r" {2,}", " ", s)
+    s = re.sub(r"(\[\[\d+\]\])(?=[\w«“(])", r"\1 ", s)  # a citation marker glued to the next word
     s = re.sub(r"\( +", "(", s); s = re.sub(r" +(?=[.,)])", "", s)  # spaces Google leaves around a moved link
     return s.strip()
 
@@ -131,14 +133,16 @@ def main():
     ap.add_argument("--lang", required=True, choices=["es", "fr", "en", "ur"])
     ap.add_argument("--src", default="en", choices=["en", "ar"], help="language the file was translated from")
     ap.add_argument("--map", required=True)
-    ap.add_argument("--docx", required=True)
+    ap.add_argument("--docx", default="")
+    ap.add_argument("--txt", default="", help="a plain-text answer instead of a Word file (Gemini): one paragraph per line")
     ap.add_argument("--log", required=True)
     ap.add_argument("--out", default=ROOT)
-    ap.add_argument("--engine", default="google", choices=["google", "word"], help="who translated the file: Google Translate documents, or Word for Mac (Microsoft Translator)")
+    ap.add_argument("--engine", default="google", choices=["google", "word", "gemini"], help="who translated the file: Google Translate documents, or Word for Mac (Microsoft Translator)")
     ap.add_argument("--taken", default="", help="file of ids another lane is translating; never written")
     ap.add_argument("--date", default=time.strftime("%Y-%m-%d"), help="day the file was translated on translate.google.com")
     a = ap.parse_args()
-    lang, records, paras = a.lang, json.load(open(a.map, encoding="utf-8")), paragraphs(a.docx)
+    lang, records = a.lang, json.load(open(a.map, encoding="utf-8"))
+    paras = [l.strip() for l in open(a.txt, encoding="utf-8").read().split("\n") if l.strip() and not l.strip().startswith("```")] if a.txt else paragraphs(a.docx)
     chunks, cur = {}, None  # record number -> its translated paragraphs
     for p in paras:
         m = REC.match(p)
@@ -172,7 +176,7 @@ def main():
                 for l in rec["lines"]:
                     if "fixed" in l: out.append(l["fixed"]); continue
                     tr, head = next(it), l["prefix"].startswith("#")
-                    tr = tidy(from_numbers(tr) if rec.get("scheme") in ("num", "link") else tr)
+                    tr = tidy(from_numbers(tr) if rec.get("scheme") in ("num", "link", "link2") else tr)
                     if head and l["en"].strip() in fixed: out.append(l["prefix"] + fixed[l["en"].strip()]); continue
                     for m in re.finditer(r"(?<!\*)(\*{1,2})([^*\n]{2,80})\1(?!\*)", l["en"]):  # emphasis dropped around a title kept as written: put it back
                         whole, inner = m.group(0), m.group(2)
@@ -201,6 +205,7 @@ def main():
                 problem = check(body, tr_body, lang) if plain_pair else check_any(body, tr_body, a.src, lang)
                 if problem: raise ValueError(problem)
                 who = (f"Google Translate (document translation on translate.google.com, {a.date})", "google-translate", "Google Translate documents", "gt-docs") if a.engine == "google" else \
+                      (f"Google Gemini (gemini.google.com, Task mode, model shown as Hydrogen, {a.date})", "gemini (Hydrogen)", "Google Gemini in the browser", "gemini") if a.engine == "gemini" else \
                       (f"Microsoft Translator (Translate Document in Word for Mac, {a.date})", "microsoft-translator", "Word for Mac Translate Document", "word-docs")
                 new = {"id": ident, "lang": lang, "source_lang": a.src, "translators": [f"{who[0]}, draft translation"]}
                 for k, v in fm.items():

@@ -9,7 +9,7 @@ W="${LOCAL_MT_WORD_DIR:-$HOME/Documents/islam-museum-word-test}"; L="$2"; N=$(pr
 CHARS="${LOCAL_MT_WORD_CHARS:-350000}"; SRC="${LOCAL_MT_SRC:-en}"; IDS=""; [ -n "$LOCAL_MT_IDS" ] && IDS="--ids-file $LOCAL_MT_IDS"; mkdir -p "$W" "$H/gt"  # other pairs: LOCAL_MT_SRC=ar, LOCAL_MT_IDS=<file of ids>
 start() {
   n="$1"; name="wd-$L-$(printf '%03d' "$n")"; TAKEN=""; [ "$L" = fr ] && TAKEN="--taken $H/fr-taken.txt"
-  $P scripts/local-mt/build_gt.py --lang "$L" --dir "$H/gt" --n "$n" --name "$name" --bytes 5000000 --chars "$CHARS" --src "$SRC" $IDS --failed "$H/logs/gt-$L.log.failed" $TAKEN || return 1
+  $P scripts/local-mt/build_gt.py --lang "$L" --dir "$H/gt" --n "$n" --name "$name" --bytes 5000000 --chars "$CHARS" --src "$SRC" --scheme "${LOCAL_MT_SCHEME:-link}" $IDS --failed "$H/logs/gt-$L.log.failed" $TAKEN || return 1
   cp "$H/gt/$name-en.docx" "$W/" && open -g -a "Microsoft Word" "$W/$name-en.docx"
 }
 if [ "$1" = start ]; then start "$3"; exit; fi
