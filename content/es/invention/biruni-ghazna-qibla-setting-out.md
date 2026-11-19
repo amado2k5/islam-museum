@@ -1,0 +1,88 @@
+---
+id: invention/biruni-ghazna-qibla-setting-out
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/invention/biruni-ghazna-qibla-setting-out.md}
+---
+## Resumen
+
+¿Cómo puede un cálculo sobre una esfera convertirse en una línea que un arquitecto puede trazar sobre una superficie plana? Cerca del final de su investigación sobre la dirección de la qibla, [[person/al-biruni-muhammad-ibn-ahmad|al-Biruni]] proporciona una conexión práctica entre el especialista matemático y el artesano: dos aproximaciones circulares específicamente para [[place/ghazna|Ghazna]], tras elaborados cálculos de la dirección de [[place/mecca|La Meca]] {cite:biruni-tahdid-ali-translation pp.241–256}. Esta entrada no trata sobre inventar la qibla ni la trigonometría esférica. El autor reconoce a astrónomos anteriores y luego distingue las necesidades de las calculadoras de las de los arquitectos {cite:biruni-tahdid-ali-translation pp.241,255}. Su tema es un procedimiento documentado cuya aproximación puede examinarse, no se ha demostrado que una mezquita arqueológica lo haya utilizado.
+
+## Qué es
+
+El método transfiere una dirección calculada a un círculo horizontal con una línea norte-sur conocida, obteniendo un radio inclinado y una línea de pared perpendicular a éste {cite:biruni-tahdid-ali-translation pp.255–256}. La primera aproximación divide el radio sur en tercios; la segunda divide el radio occidental en dieciocho partes y utiliza un punto cerca de su extremo exterior {cite:biruni-tahdid-ali-translation pp.255–256}. Esto no es un dibujo de un viaje alrededor de la Tierra. Representa un ángulo local en el plano del horizonte de la ciudad, mientras que la demostración anterior trata el problema en una esfera {cite:biruni-tahdid-ali-translation pp.242–255}. Ningún radio en el círculo del constructor representa la distancia entre Ghazna y La Meca.
+
+## El mundo que tenía delante
+
+El capítulo de qibla comienza reconociendo métodos simples utilizados por miembros anteriores de la profesión astronómica, antes de introducir un cálculo más detallado {cite:biruni-tahdid-ali-translation p.241}. Más adelante, el autor vuelve a una figura que representa un método descrito en tablas astronómicas, o zijes; no se sitúa al principio de todo el tema {cite:biruni-tahdid-ali-translation p.253}. Otra práctica establecida aparece cuando habla del meridiano de referencia: el Círculo Indio ya está en uso actual antes de que él aporte una alternativa {cite:biruni-tahdid-ali-translation p.256}. Estos precedentes permanecen en el relato. El pasaje no justifica inventar un descubridor nombrado para cada operación ni una transmisión directa de un autor que no identifica.
+
+## La historia
+
+Al-Biruni conecta la determinación de las posiciones de las ciudades con el beneficio público, haciendo de la qibla dirección una aplicación de la medida geográfica en lugar de un adorno añadido tras las tablas {cite:biruni-tahdid-ali-translation p.241}. Un ejemplo de Ghazna, demostraciones esféricas y métodos numéricos alternativos a continuación, antes de un cambio explícito de público a arquitectos y artesanos {cite:biruni-tahdid-ali-translation pp.242–256}. Tümer fecha la composición de los Tahdid en 416/1025: el registro utiliza esa fecha documental, no un año inventado para una mezquita ni el primer intento de construcción del círculo {cite:tdv-biruni-tumer works}. La conclusión explica el beneficio local particular de investigar la posición de Ghazna, manteniendo al mismo tiempo un propósito geográfico más amplio {cite:biruni-tahdid-ali-translation p.258}.
+
+## El(los) creador(es)
+
+**Marco suní:** El marco declarado del museo es suní, preservando al mismo tiempo la identidad musulmana documentada individualmente de al-Biruni y el desacuerdo sobre su afiliación. La religión de un mecenas o el idioma de un libro no pueden por sí solos establecer la creencia de un individuo {cite:tdv-biruni-tumer religious-affiliation discussion} {cite:britannica-al-biruni biography}. Tümer cuestiona las inferencias extraídas simplemente del patrocinio político; esta interpretación atribuida no se convierte en una declaración personal decisiva por parte del erudito {cite:tdv-biruni-tumer religious-affiliation discussion}.
+
+**Clasificaciones chiíes y zaydíes reportadas:** Tümer informa de la clasificación de Abdullah Ni'me y de la evaluación de Taqi Danishpazhuh. Sus argumentos originales no fueron leídos de forma independiente para esta entrada; las opiniones reportadas siguen etiquetadas, sin un veredicto sectario {cite:tdv-biruni-tumer religious-affiliation discussion}. El papel científico aquí es el de "describir" un procedimiento de cálculo a construcción. El pasaje ni le convierte en la primera persona en conocer una dirección o dividir un círculo ni nombra a los constructores que ejecutaron el ejemplo en una estructura conservada {cite:biruni-tahdid-ali-translation pp.241,255–256}.
+
+## Cómo funciona
+
+En la demostración esférica, el autor representa los cenitos de Ghazna y La Meca y traza un gran círculo a través de ellos. Su intersección con el horizonte proporciona la dirección requerida respecto al meridiano {cite:biruni-tahdid-ali-translation pp.242–243}. También maneja de qué lado se sitúa el ángulo: este u oeste, y norte o sur de la línea este-oeste. Un valor senoidal por sí solo no determina el cuadrante {cite:biruni-tahdid-ali-translation pp.245–247}.
+
+La primera construcción del arquitecto comienza con un círculo y un meridiano. Un punto se coloca a un tercio del radio al sur del centro; una perpendicular se extiende hacia el oeste desde ese punto hasta la circunferencia, y el centro se une a la intersección {cite:biruni-tahdid-ali-translation pp.255–256}. En nuestra reconstrucción moderna de círculo unitario, el componente sur es 1/3, lo que da un ángulo al oeste del sur de `acos(1/3)`, aproximadamente 70,528779°. Estos símbolos y la respuesta decimal son nuestra reconstrucción de las instrucciones, no una fórmula impresa en esa notación por al-Biruni {cite:biruni-tahdid-ali-translation pp.255–256 reconstructed geometry}.
+
+Para una construcción más precisa, divide el radio occidental en dieciocho partes, cuenta una parte hacia el interior desde su extremo occidental y extiende una parte perpendicular hacia el sur hasta la circunferencia {cite:biruni-tahdid-ali-translation p.256}. El componente hacia el oeste es 17/18 del radio, por lo que nuestro ángulo reconstruido es `asin(17/18)`, aproximadamente 70,811864° al oeste del sur. No es un ángulo de 17/18 grados, y el recuento no comienza en el centro {cite:biruni-tahdid-ali-translation p.256 reconstructed geometry}. La pared del nicho es perpendicular a la dirección resultante, no paralela a ella {cite:biruni-tahdid-ali-translation p.256}.
+
+Para comprobar que el resultado es una proporción y no una dimensión del edificio, elige un radio imaginario de 18 unidades de papel. El primer punto está a 6 unidades al sur del centro; el segundo está a 17 unidades al oeste de éste. En ambos casos, la circunferencia determina el extremo de la perpendicular, no una longitud adicional estimada {cite:biruni-tahdid-ali-translation pp.255–256 reconstructed geometry}. Escalar todo el dibujo por igual preserva su ángulo; mover solo un punto no lo hace. Estas son unidades docentes modernas, no medidas históricas reportadas por el autor ni dimensiones de una mezquita. Un pequeño diagrama en papel puede representar una dirección sin representar la distancia entre las ciudades.
+
+## La propagación
+
+Las páginas inspeccionadas no proporcionan ninguna lista de mezquitas, constructores nombrados ni itinerario documentado de la construcción. Dirigirse a los artesanos establece un público objetivo, no un recuento de adoptantes {cite:biruni-tahdid-ali-translation pp.255–258}. Ser reproducible en papel no demuestra que cada diseño posterior de qibla lo tomara prestado. Por tanto, el registro no inventa ni flechas de difusión entre ciudades ni una cadena desde Ghazna hasta la arquitectura moderna. Lo que sí se puede rastrear es la secuencia explicativa dentro del libro: posiciones, dirección, aproximación práctica y luego formas de establecer el meridiano de referencia {cite:biruni-tahdid-ali-translation pp.241–258}. Esa es una secuencia de enseñanza documentada incluso sin un historial demostrado de uso en campo.
+
+## Sobre qué se construyó
+
+Los cálculos necesitan la latitud de la ciudad, la latitud de La Meca y su diferencia de longitud. Utilizan sinusodos, cosenos y arcos auxiliares, con figuras y proporciones que explican las operaciones {cite:biruni-tahdid-ali-translation pp.241–254}. La construcción práctica también necesita una dirección de referencia correcta; por eso las instrucciones arquitectónicas se siguen mediante la determinación del meridiano {cite:biruni-tahdid-ali-translation pp.256–258}. Escribir "sur" en la parte superior de una hoja no establece el verdadero sur, y dividir un radio no puede corregir una línea de referencia errónea. Los [[invention/abu-wafa-spherical-triangle-methods|métodos del triángulo esférico Abu al-Wafa]] del museo implican una contribución matemática diferente. Este pasaje no demuestra que hayan suministrado directamente este procedimiento, por lo que no hay un borde de dependencia no respaldado que conecte las entradas.
+
+## Lo que se construyó sobre ello
+
+Dentro del texto, una dirección calculada se convierte en una línea trazada y luego en una relación con la pared del nicho: el autor afirma esa aplicación explícitamente {cite:biruni-tahdid-ali-translation pp.255–256}. El pasaje no nombra al inventor de una aplicación para móvil ni de una proyección moderna de mapas, y la similitud funcional no establece la descendencia. Por tanto, el campo de invenciones dependientes permanece vacío, no porque el método careza de valor, sino porque la recepción es una cuestión histórica aparte. La conclusión también identifica encontrar la dirección del viaje hacia un destino como un beneficio geográfico más amplio; no presenta un dispositivo de navegación ensamblado ni prueba que un viajero concreto haya utilizado las dos aproximaciones {cite:biruni-tahdid-ali-translation p.259}.
+
+## Impacto en la vida diaria
+
+El efecto descrito más claramente es poner a disposición el conocimiento entre profesiones: una calculadora maneja cantidades elaboradas mientras que un artesano necesita una secuencia limitada de operaciones de dibujo {cite:biruni-tahdid-ali-translation pp.255–256}. La aproximación arquitectónica evita reproducir toda la aritmética sexagemal en la superficie del edificio, pero no prescinde del resultado local que aproxima. Llamar perpendicular a la pared del nicho a la dirección también ayuda a distinguir la línea de visión de la línea de la pared {cite:biruni-tahdid-ali-translation p.256}. Las páginas no miden las horas de trabajo ahorradas, el coste de construcción ni el error de una mezquita existente. El museo no proporciona ninguno de esos números por intuición. Se trata de un procedimiento profesional histórico, no de una instrucción religiosa vinculante para el visitante actual.
+
+## Cómo cambió la historia
+
+Estas páginas muestran que aplicación y demostración no eran opuestas: el autor explica la geometría y luego cambia el nivel de aproximación cuando el usuario cambia {cite:biruni-tahdid-ali-translation pp.242–256}. La conclusión dice que las posiciones corregidas benefician a los musulmanes y también menciona Jerusalén para los judíos, este para los cristianos y el meridiano para los sabianos. Estas son las descripciones del autor sobre las comunidades religiosas, no nuestras generalizaciones sobre cada comunidad o individuo hoy en día {cite:biruni-tahdid-ali-translation pp.258–259}. La importancia histórica limitada es evidencia de que la geografía, la computación y el trabajo práctico están conectados. No se pretende afirmar que estas páginas por sí solas hayan cambiado cada edificio, inventado la tolerancia o fundado la cartografía moderna. El pequeño procedimiento documentado no necesita que esas afirmaciones mayores tengan importancia.
+
+## ¿Quién lo inventó?
+
+La atribución precisa es a la exposición y a dos aproximaciones en el libro inspeccionado, preservando su reconocimiento de los predecesores. Estas páginas por sí solas no demuestran prioridad mundial {cite:biruni-tahdid-ali-translation pp.241,253,255–256}. También contienen un problema textual significativo: la instrucción de división en la página 245 traducida invierte el orden numerador–denominador usado en el ejemplo en 246 y respaldado por la demostración en 247 {cite:biruni-tahdid-ali-translation pp.245–247}. No lo reparamos silenciosamente ni asignamos el error al autor árabe sin ordenar el original.
+
+Un segundo problema es una diferencia de longitud impresa de 26°22′24" emparejada con un seno de 27; 35,14 en una escala de radio 60. Nuestra aritmética moderna da aproximadamente 0,444218 para el ángulo impreso, mientras que el seno impreso dividido por 60 es aproximadamente 0,459787, cerca del seno de 27°22′24" {cite:biruni-tahdid-ali-translation p.242 numerical comparison}. Esta discrepancia se revela, no se utiliza como permiso para alterar la longitud histórica ni para afirmar que el ejemplo superó una prueba de precisión moderna.
+
+## Hoy
+
+La construcción puede enseñar aproximación, no determinar la qibla de otra ciudad. El primer ejemplo histórico indica 70°48′15" desde el sur, el segundo 70°47′13" al oeste del sur, una diferencia de un minuto y dos segundos. No las hacemos iguales ni explicamos toda su diferencia como redondeación sin investigación {cite:biruni-tahdid-ali-translation pp.242,246}. En nuestra reconstrucción, la construcción de las decimoctavas está más cercana a esos ángulos reportados que la construcción de la tercera. Esa es una interpretación acotada y comprobable de la afirmación del autor sobre la mejora de la precisión {cite:biruni-tahdid-ali-translation pp.255–256 reconstructed comparison}. La precisión direccional en el mundo real necesita coordenadas separadas, convenciones de referencia y verificación, especialmente dada la discrepancia numérica en esta traducción. El museo no ofrece brújula en vivo ni servicio de topografía.
+
+## Ejemplos supervivientes
+
+El testigo que realmente leyó era la traducción al inglés de Jamil Ali en un archivo de 147 páginas con dobles páginas fotográficas, no un manuscrito árabe compilado de forma independiente. Los números en el centro se refieren a la edición de El Cairo y no equivalen a los números de página en inglés {cite:biruni-tahdid-ali-translation preface ix–xii; pp.241–259}. Las páginas 241–247 y 254–257 fueron inspeccionadas visualmente, incluyendo la Fig.69 y ambas construcciones arquitectónicas; se leyó el resto del pasaje seleccionado, no el libro completo. La imagen que acompaña es un triángulo esférico rectángulo moderno, ángulo recto en C, con una publicación de dominio público y una cadena derivada documentada. No es la figura de al-Biruni ni un mapa Meca–Ghazna {cite:commons-spherical-triangle description,licence,history}. Sus etiquetas griegas cerca del centro marcan los ángulos centrales, no los nombres de ciudades ni los valores históricos de qibla.
+
+## En la cultura
+
+El paso de la computación a la mano del obrero del artesano merece un lugar en un museo: el conocimiento no termina en un número, ya que el autor pregunta cómo puede alguien colocarlo sobre una superficie {cite:biruni-tahdid-ali-translation pp.255–256}. Pero el diagrama no debe convertirse en un eslogan que sugiera que una sola dirección sirve a todos los musulmanes o que cada nicho lleva la influencia de este libro. La especificidad de Ghazna forma parte del significado, no un detalle prescindible {cite:biruni-tahdid-ali-translation pp.255–258}. La entrada distingue lo que dice el texto, lo que el museo ha recalculado y lo que no está establecido, en lugar de producir una imagen heroica que confunda la contribución de un autor musulmán con la apropiación absoluta de cada idea que utilizó.
+
+## Para lectores jóvenes
+
+Compara dos círculos de papel iguales con direcciones imaginarias claramente marcadas. El primero utiliza un punto a un tercio del radio hacia el sur; el segundo, un punto a una decimoctava parte hacia el interior desde el extremo occidental. Sus perpendiculares no comienzan en el mismo lugar {cite:biruni-tahdid-ali-translation pp.255–256 reconstructed paper activity}. Compara los rayos del centro y pregunta cuál está más cerca de aproximadamente 71°, y recuerda que esta comparación no establece la dirección de una ciudad real. Mantenlo como una actividad de geometría en papel: nada de observaciones solares, trabajos en tejados ni orientación de mezquitas. La cuestión importante detrás de "más preciso" siempre es: ¿más cerca de qué valor, usando qué datos?
+
+## Referencias
+
+- {cite:biruni-tahdid-ali-translation pp.241–259; preface ix–xii} — Traducción primaria realmente leída, no ordenación manuscrita; 255–256 para ambas construcciones.
+- {cite:tdv-biruni-tumer works; religious-affiliation discussion} — Fecha de composición y afiliación en disputa.
+- {cite:britannica-al-biruni biography} — Identificación musulmana individual, no inferencia a partir de un nombre.
+- {cite:commons-spherical-triangle description,licence,history} — Imagen contextual moderna, no evidencia de la práctica histórica de construcción.
