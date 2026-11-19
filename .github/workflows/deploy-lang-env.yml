@@ -1,0 +1,281 @@
+name: Deploy one language's pages (reusable, one environment)
+
+# A trial beside the one deploy (deploy-env.yml), which is unchanged (founder, 18 November 2026, in chat). The ten
+# workflows "Deploy <lang> pages to production" and "Deploy <lang> pages to UAT" call this file; nobody starts it
+# directly and it has no trigger of its own.
+#
+# What it publishes: the pages of ONE language (R2 prefix <lang>/, with its books) and that language's search index
+# (pagefind-<lang>/), from the artifact `dist-lang-<lang>` of a "Build islam.museum by language" run (build-lang.yml).
+# What it never touches: every other language, the API, the sitemaps, feed and other root files, media and the other
+# shared data, the site Worker and the Pages project (scripts, styles, fonts). Those change only with the one deploy.
+# publish.mjs --only-lang compares the build with that language's part of the publish record and writes the rest of
+# the record back as it was (workers/r2-sync/batch/publish.mjs).
+#
+# What it does redeploy: this environment's R2 sync Workers, from the built commit, exactly as the one deploy does. They
+# are the tool that writes to the bucket and their addresses are only known from deploying them; they serve no visitor.
+#
+# Out of step, by design of the trial: a language published alone can be ahead of, or behind, the shared parts and the
+# other languages. Its language switcher may lead to a page another language does not have yet, and the sitemap, the
+# API and the footer's deploy stamp still describe the last full deploy. A language the deployed site Worker does not
+# know (its routing and rules come from the one deploy) is stored in R2 but may not be served.
+#
+# The same environment table and the same refusals as deploy-env.yml: a non-production run never names a production
+# resource, and production takes builds of main only. The callers share the concurrency group of their environment's
+# full deploy, so a language publish and a full publish never write the one publish record at the same time.
+on:
+  workflow_call:
+    inputs:
+      environment:
+        description: "GitHub Environment to deploy to: production or uat."
+        required: true
+        type: string
+      language:
+        description: "The language to publish: ar, en, ur, fr or es."
+        required: true
+        type: string
+      build_run_id:
+        description: "Run id of a \"Build islam.museum by language\" run. Empty: the newest run of the source branch that built this language."
+        required: false
+        type: string
+        default: ""
+      source_branch:
+        description: "Branch the build must come from. Default main. A release branch (release/**) is accepted only when the environment is not production."
+        required: false
+        type: string
+        default: "main"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
+    permissions:
+      contents: read
+      deployments: write
+      # Read another run's artifact and jobs.
+      actions: read
+    env:
+      LANGUAGE: ${{ inputs.language }}
+      ENVIRONMENT: ${{ inputs.environment }}
+    steps:
+      - name: Only the repository owner or an admin may start this workflow
+        # Founder's rule of 22 October 2026.
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          ACTOR: ${{ github.actor }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          [ "$ACTOR" = "$OWNER" ] && { echo "started by the owner ($ACTOR)"; exit 0; }
+          perm=$(gh api "repos/$GH_REPO/collaborators/$ACTOR/permission" --jq .permission 2>/dev/null || echo unknown)
+          [ "$perm" = "admin" ] && { echo "started by an admin ($ACTOR)"; exit 0; }
+          echo "::error::$ACTOR ($perm) may not start this workflow: only the repository owner or an admin may."
+          exit 1
+      - name: Resolve the environment (and refuse a non-production deploy aimed at a production name)
+        id: env
+        env:
+          R2_BUCKET: ${{ vars.R2_BUCKET }}
+          WRANGLER_ENV: ${{ vars.WRANGLER_ENV }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          SYNC_WORKER_COUNT: ${{ vars.SYNC_WORKER_COUNT }}
+          HAS_R2_KEYS: ${{ secrets.R2_ACCESS_KEY_ID != '' && secrets.R2_SECRET_ACCESS_KEY != '' }}
+          HAS_SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN != '' }}
+        run: |
+          set -euo pipefail
+          fail() { echo "::error::$1"; exit 1; }
+          case "$LANGUAGE" in ar|en|ur|fr|es) ;; *) fail "\"$LANGUAGE\" is not a language of the site (ar, en, ur, fr, es)." ;; esac
+          for v in R2_BUCKET SITE_URL; do
+            [ -n "${!v}" ] || fail "Environment \"$ENVIRONMENT\" has no variable $v. Set it in Settings → Environments → $ENVIRONMENT."
+          done
+          [ "$HAS_R2_KEYS" = "true" ] || fail "Environment \"$ENVIRONMENT\" has no R2_ACCESS_KEY_ID / R2_SECRET_ACCESS_KEY."
+          [ "$HAS_SYNC_TOKEN" = "true" ] || fail "Environment \"$ENVIRONMENT\" has no R2_SYNC_TOKEN."
+          count="${SYNC_WORKER_COUNT:-7}"
+          [[ "$count" =~ ^[1-9]$ ]] || fail "SYNC_WORKER_COUNT must be 1 to 9, got \"$count\"."
+          if [ "$ENVIRONMENT" = "production" ]; then
+            [ -z "$WRANGLER_ENV" ] || fail "production deploys the top-level wrangler environment; WRANGLER_ENV must be empty, got \"$WRANGLER_ENV\"."
+            [ "$R2_BUCKET" = "islam-museum-search" ] || fail "production publishes to islam-museum-search, not \"$R2_BUCKET\"."
+          else
+            [ "$WRANGLER_ENV" = "$ENVIRONMENT" ] || fail "WRANGLER_ENV must equal the environment name \"$ENVIRONMENT\", got \"$WRANGLER_ENV\" (the Workers are named after it)."
+            [ "$R2_BUCKET" != "islam-museum-search" ] || fail "a $ENVIRONMENT deploy may not publish to the production bucket."
+            case "$SITE_URL" in https://islam.museum*|https://www.islam.museum*) fail "a $ENVIRONMENT deploy may not name the production site." ;; esac
+          fi
+          suffix="${WRANGLER_ENV:+-$WRANGLER_ENV}"
+          {
+            echo "bucket=$R2_BUCKET"
+            echo "wrangler_env=$WRANGLER_ENV"
+            echo "site_url=${SITE_URL%/}"
+            echo "sync_count=$count"
+            echo "sync_worker_base=islam-museum-r2-sync$suffix"
+          } >> "$GITHUB_OUTPUT"
+          {
+            echo "## Environment: $ENVIRONMENT — language: $LANGUAGE"
+            echo
+            echo "- Site: $SITE_URL/$LANGUAGE/"
+            echo "- R2 bucket: \`$R2_BUCKET\`, prefixes \`$LANGUAGE/\` and \`pagefind-$LANGUAGE/\` only, via $count sync Worker(s) \`islam-museum-r2-sync$suffix\`"
+            echo "- Not touched: the other languages, the API, the root files, the shared data, the site Worker and the Pages project."
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Find the language build to deploy
+        id: build
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          REQUESTED: ${{ inputs.build_run_id }}
+          SOURCE_BRANCH: ${{ inputs.source_branch }}
+        run: |
+          set -euo pipefail
+          # Production is main-only, whoever calls this workflow and whatever they pass.
+          if [ "$ENVIRONMENT" = "production" ] && [ "$SOURCE_BRANCH" != "main" ]; then
+            echo "::error::Production deploys build from main only; source_branch \"$SOURCE_BRANCH\" is refused."
+            exit 1
+          fi
+          artifact="dist-lang-$LANGUAGE"
+          # Why a run cannot be deployed, or nothing when it can. A language is deployable when the run's unit tests
+          # passed, that language's own build job passed and its artifact still exists. Another language's job may
+          # have failed: each language stands on its own.
+          why_not() {
+            local id="$1" jobs
+            jobs=$(gh api --paginate "repos/$GH_REPO/actions/runs/$id/jobs" --jq '.jobs[] | "\(.name)\t\(.conclusion)"')
+            grep -qxF "$(printf 'test\tsuccess')" <<<"$jobs" || { echo "its unit tests did not pass"; return; }
+            grep -qxF "$(printf 'build (%s)\tsuccess' "$LANGUAGE")" <<<"$jobs" || { echo "its \"build ($LANGUAGE)\" job did not pass"; return; }
+            local live
+            live=$(gh api "repos/$GH_REPO/actions/runs/$id/artifacts" --jq '.artifacts[] | select(.expired == false) | .name')
+            grep -qxF "$artifact" <<<"$live" || { echo "it has no live $artifact artifact (expired, or this language was not built in that run)"; return; }
+          }
+          fields=databaseId,headSha,headBranch,status,createdAt,displayTitle,url,workflowName
+          if [ -n "$REQUESTED" ]; then
+            run=$(gh run view "$REQUESTED" --json "$fields")
+            reason=$(why_not "$REQUESTED")
+            [ -z "$reason" ] || { echo "::error::Run $REQUESTED cannot be deployed for $LANGUAGE: $reason."; exit 1; }
+          else
+            run=""
+            for id in $(gh run list --workflow build-lang.yml --branch "$SOURCE_BRANCH" --status completed --limit 20 --json databaseId --jq '.[].databaseId'); do
+              reason=$(why_not "$id")
+              if [ -z "$reason" ]; then run=$(gh run view "$id" --json "$fields"); break; fi
+              echo "run $id skipped: $reason"
+            done
+            test -n "$run" || { echo "::error::None of the last 20 \"Build islam.museum by language\" runs of $SOURCE_BRANCH can be deployed for $LANGUAGE. Start that workflow on $SOURCE_BRANCH first."; exit 1; }
+          fi
+          id=$(jq -r .databaseId <<<"$run")
+          sha=$(jq -r .headSha <<<"$run")
+          branch=$(jq -r .headBranch <<<"$run")
+          created=$(jq -r .createdAt <<<"$run")
+          title=$(jq -r .displayTitle <<<"$run")
+          url=$(jq -r .url <<<"$run")
+          workflow=$(jq -r .workflowName <<<"$run")
+          [ "$workflow" = "Build islam.museum by language" ] || { echo "::error::Run $id is \"$workflow\", not a by-language build run."; exit 1; }
+          [ "$branch" = "$SOURCE_BRANCH" ] || { echo "::error::Build run $id built $branch, not $SOURCE_BRANCH."; exit 1; }
+          {
+            echo "run_id=$id"
+            echo "artifact=$artifact"
+            echo "sha=$sha"
+            echo "created=$created"
+            echo "title=$title"
+          } >> "$GITHUB_OUTPUT"
+          {
+            echo "## Deploying $LANGUAGE from language build $id"
+            echo
+            echo "- Build run: [$id]($url), built $created"
+            echo "- Commit: \`$sha\` — $title"
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Checkout the built commit (publish scripts and sync Worker of the same build)
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ steps.build.outputs.sha }}
+      - name: The built commit must know this wrangler environment
+        if: steps.env.outputs.wrangler_env != ''
+        env:
+          WRANGLER_ENV: ${{ steps.env.outputs.wrangler_env }}
+        run: |
+          set -euo pipefail
+          grep -Eq "^\[(\[)?env\.$WRANGLER_ENV(\.|\]|\])" workers/r2-sync/wrangler.production.toml \
+            || { echo "::error::The built commit has no [env.$WRANGLER_ENV] in workers/r2-sync/wrangler.production.toml."; exit 1; }
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: workers/r2-sync/package-lock.json
+      - name: Download this language's pages and search index
+        uses: actions/download-artifact@v8
+        with:
+          name: ${{ steps.build.outputs.artifact }}
+          path: .
+          run-id: ${{ steps.build.outputs.run_id }}
+          github-token: ${{ github.token }}
+      - name: Unpack, and check that nothing but this language is in it
+        run: |
+          set -euo pipefail
+          mkdir dist
+          tar --use-compress-program=unzstd -xf "dist-lang-$LANGUAGE.tar.zst" -C dist
+          rm "dist-lang-$LANGUAGE.tar.zst"
+          test -f "dist/$LANGUAGE/index.html"
+          test -d "dist/pagefind-$LANGUAGE"
+          extra=$(ls -A dist | grep -vxF -e "$LANGUAGE" -e "pagefind-$LANGUAGE" || true)
+          [ -z "$extra" ] || { echo "::error::The artifact holds more than $LANGUAGE: $extra"; exit 1; }
+          echo "dist: $(find dist -type f | wc -l) files, $(find "dist/$LANGUAGE" -name '*.html' | wc -l) pages"
+      - name: Install R2 sync Worker dependencies
+        run: npm ci --prefix workers/r2-sync
+      - name: Deploy R2 sync Workers (this environment's bucket, N copies)
+        id: r2_worker
+        working-directory: workers/r2-sync
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN }}
+          WRANGLER_ENV: ${{ steps.env.outputs.wrangler_env }}
+          BASE: ${{ steps.env.outputs.sync_worker_base }}
+          COUNT: ${{ steps.env.outputs.sync_count }}
+        run: |
+          set -euo pipefail
+          # The same step as deploy-env.yml: N identical Workers on this environment's bucket.
+          urls=""
+          for i in $(seq 1 "$COUNT"); do
+            name="$BASE"; [ "$i" -gt 1 ] && name="$BASE-$i"
+            npx wrangler deploy -c wrangler.production.toml --env="$WRANGLER_ENV" --name "$name" | tee deploy.log
+            url=$(grep -o 'https://[^ ]*workers\.dev' deploy.log | head -1)
+            test -n "$url"
+            printf '%s' "$SYNC_TOKEN" | npx wrangler secret put SYNC_TOKEN -c wrangler.production.toml --name "$name"
+            urls="${urls:+$urls,}$url"
+          done
+          echo "urls=$urls" >> "$GITHUB_OUTPUT"
+      - name: Publish this language's pages and search index to R2 (nothing else is copied or deleted)
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          BUCKET: ${{ steps.env.outputs.bucket }}
+          SYNC_URLS: ${{ steps.r2_worker.outputs.urls }}
+          SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN }}
+          # The publish record notes the commit of this language: the built one, not this run's head.
+          GITHUB_SHA: ${{ steps.build.outputs.sha }}
+        run: |
+          set -euo pipefail
+          # An older commit's publish.mjs would ignore --only-lang and treat the artifact as the whole site.
+          grep -q -- 'only-lang' workers/r2-sync/batch/publish.mjs \
+            || { echo "::error::The built commit's publish.mjs has no --only-lang; refusing to publish."; exit 1; }
+          node workers/r2-sync/batch/publish.mjs --dist dist --only-lang "$LANGUAGE"
+      - name: Smoke test this language (informative; a non-200 is reported, not fatal)
+        env:
+          SITE_URL: ${{ steps.env.outputs.site_url }}
+        run: |
+          set -u
+          echo "### Smoke test: $SITE_URL/$LANGUAGE/" >> "$GITHUB_STEP_SUMMARY"
+          echo >> "$GITHUB_STEP_SUMMARY"
+          bad=0
+          for p in "/$LANGUAGE/" "/$LANGUAGE/person/muhammad/" "/pagefind-$LANGUAGE/pagefind.js"; do
+            code=$(curl -s -o /dev/null -L -w '%{http_code}' --max-time 30 "$SITE_URL$p" || echo "000")
+            echo "- \`$p\` → $code" >> "$GITHUB_STEP_SUMMARY"
+            [ "$code" = "200" ] || bad=$((bad + 1))
+          done
+          [ "$bad" -eq 0 ] || echo "::warning::$bad of the smoke-test paths did not answer 200 on $SITE_URL. A language the deployed site Worker does not know yet is stored but not served until the next full deploy."
+      - name: Record what was deployed
+        env:
+          RUN_ID: ${{ steps.build.outputs.run_id }}
+          SHA: ${{ steps.build.outputs.sha }}
+          TITLE: ${{ steps.build.outputs.title }}
+          CREATED: ${{ steps.build.outputs.created }}
+          SITE_URL: ${{ steps.env.outputs.site_url }}
+        run: |
+          {
+            echo
+            echo "Deployed the **$LANGUAGE** pages and search index of language build **$RUN_ID** to **$ENVIRONMENT** ($SITE_URL/$LANGUAGE/): commit \`$SHA\` ($TITLE), built $CREATED. Everything else on the site is as the last full deploy left it."
+          } >> "$GITHUB_STEP_SUMMARY"

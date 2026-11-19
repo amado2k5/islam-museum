@@ -6,7 +6,7 @@ import BaseLayout from "../../../../../../layouts/BaseLayout.astro";
 import PathwayWorksheet from "../../../../../../components/PathwayWorksheet.astro";
 import Qr from "../../../../../../components/Qr.astro";
 import { byId, href, labelOf, summaryOf } from "../../../../../../lib/graph";
-import { ui, fmt, LANGS, type Lang } from "../../../../../../lib/i18n";
+import { ui, fmt, LANGS, type Lang, ALL_LANGS } from "../../../../../../lib/i18n";
 import { renderProse } from "../../../../../../lib/markdown";
 import { pathways, pathwayPath, pathwayPrintPath, pathwaySlug, pathwayTitle } from "../../../../../../lib/pathways";
 import type { Node } from "../../../../../../../../scripts/build-graph";
@@ -22,7 +22,7 @@ const d = n.data;
 const c = d.curriculum;
 const loc = (o: any) => o?.[lang] ?? o?.en ?? o?.ar ?? "";
 const path = pathwayPrintPath(lang, n);
-const alternates = Object.fromEntries(LANGS.map((l) => [l, pathwayPrintPath(l, n)]));
+const alternates = Object.fromEntries(ALL_LANGS.map((l) => [l, pathwayPrintPath(l, n)]));
 const teacherNote = n.prose[lang]?.sections.find((s) => ["للمعلم", "For the teacher", "استاد کے لیے"].includes(s.heading));
 // citation numbers are per-render; re-number globally and collect them for the footnote list
 const citeList: { source: string; locator?: string }[] = [];
