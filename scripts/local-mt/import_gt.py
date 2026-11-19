@@ -182,6 +182,7 @@ def main():
                         whole, inner = m.group(0), m.group(2)
                         if whole not in tr and len(re.findall(rf"(?<![\w*]){re.escape(inner)}(?![\w*])", tr)) == 1:
                             tr = re.sub(rf"(?<![\w*]){re.escape(inner)}(?![\w*])", lambda _: whole, tr, count=1)
+                    if a.engine == "gemini" and "*" not in l["en"]: tr = tr.replace("*", "")  # Gemini italicises transliterated terms on its own: the source has no emphasis here
                     for star in ("**", "*"):  # Markdown emphasis must survive as written
                         if l["en"].count(star) != tr.count(star): raise ValueError("emphasis marks changed")
                     if re.search(r"\*\s+[^*]+\s+\*", tr) and not re.search(r"\*\s+[^*]+\s+\*", l["en"]): raise ValueError("emphasis marks changed")
