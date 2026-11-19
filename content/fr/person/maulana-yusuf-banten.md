@@ -1,0 +1,18 @@
+---
+id: person/maulana-yusuf-banten
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/maulana-yusuf-banten.md}
+---
+## Résumé
+Maulana Yusuf fut le deuxième sultan de Banten dans l'ouest de Java, régnant d'environ 1570 à 1580. Fils du fondateur Maulana Hasanuddin, il passa sa décennie au pouvoir à développer Banten pour en faire l'un des grands ports commerciaux d'Asie du Sud-Est, et vers 1579, il conquit Pajajaran, le dernier royaume hindou-bouddhiste important de Java. {cite:wikipedia-maulana-yusuf-banten-en}
+
+## Règne
+Yusuf succéda à son père Maulana Hasanuddin à la mort de ce dernier en 1570 ; sa mère était Ratu Ayu Kirana. Il se concentra sur l'économie : Banten Lama fut développé comme capital et port international, avec des quartiers désignés pour les marchands venus de Chine, d'Arabie, de Perse, du Gujarat, d'Europe et de travers l'archipel — Pekojan pour les Gujarati, les commerçants arabes, égyptiens et turcs, un Pecinan pour les Chinois, et des quartiers spécialisés pour les potiers, forgerons, graveurs, fabricants de gongs, fondeurs d'armes, fonctionnaires, soldats et érudits du droit islamique. Il ouvrit de nouvelles rizières autour de Serang avec des canaux d'irrigation et des barrages, et agrandit le porche de la Grande Mosquée que son père avait construite, y ajoutant son minaret avec l'aide d'un architecte musulman mongol, Cek Ban Cut. {cite:wikipedia-maulana-yusuf-banten-id}
+
+## La conquête de Pajajaran et la mort
+Suite à l'expansion de son père, Yusuf se dirigea vers l'intérieur des terres et, en 1579, les forces de Banten conquirent Pulasari et Pakuan Pajajaran, capitale du royaume de Sunda. La conquête mit fin à la domination des Sundas dans l'ouest de Java ; les insignes capturés — dont la pierre de couronnement Palangka Sriman Sriwacana, emportée à Banten afin qu'aucun nouveau roi ne puisse être couronné à Pakuan — marquèrent la fin du royaume, et l'islam se répandit largement dans l'ouest de Java, bien que les communautés Baduy de l'intérieur conservèrent leur mode de vie ancestral. Yusuf mourut en 1580 — les articles arabes et ourdou indiquent l'année 988 H / 1580 ap. J.-C., contre une mention non citée dans l'article indonésien datant sa mort à 1585 — et fut enterré à Pakalangan près de Kasunyatan, d'où son titre posthume Panembahan Pakalangan Gede. Il fut succédé par son fils Maulana Muhammad. {cite:wikipedia-maulana-yusuf-banten-en} {cite:wikipedia-maulana-yusuf-banten-id} {cite:wikipedia-maulana-yusuf-banten-ar} {cite:wikidata-maulana-yusuf-banten}
+
+## Religion
+L'infobox de l'article arabe indique son madhhab comme shafi'i et son credo comme sunnite, et l'article en ourdou — en substance une traduction de l'arabe — répète les mêmes valeurs ; la boîte d'information indonésienne indique sa dénomination comme sunnite, avec le champ de jurisprudence vide. Aucune seconde source indépendante lu pour ce dossier ne nomme son école. Son règne documenté est celui d'une royauté musulmane active : l'achèvement de la conquête islamisante de l'intérieur de la Sonde par son père, l'agrandissement de la Grande Mosquée de Banten, et une capitale organisée avec un quartier pour les spécialistes du droit islamique. {cite:wikipedia-maulana-yusuf-banten-ar} {cite:wikipedia-maulana-yusuf-banten-ur} {cite:wikipedia-maulana-yusuf-banten-id}
