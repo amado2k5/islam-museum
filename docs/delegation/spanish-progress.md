@@ -251,10 +251,11 @@ Open after the restore: `main` still carries the marks (not touched from this la
 - 2026-11-19 06:36 machine-translated document wd-es-012 imported: `content/es/` 16,729 files, `content/fr/` 7,946 files; `npm run validate` 0 errors.
 - 2026-11-19 06:38 machine-translated document wd-es-013 imported: `content/es/` 16,886 files, `content/fr/` 7,946 files; `npm run validate` 0 errors.
 - 2026-11-19 06:41 machine-translated document wd-es-014 imported: `content/es/` 17,034 files, `content/fr/` 7,946 files; `npm run validate` 0 errors.
+- 2026-11-19 06:43 machine-translated document wd-es-015 imported: `content/es/` 17,172 files, `content/fr/` 7,946 files; `npm run validate` 0 errors.
 
 ## Explicit gaps
 
-- `content/es/`: 17,034 files of about 34,800 (waves 1 to 8 so far, above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
+- `content/es/`: 17,172 files of about 34,800 (waves 1 to 8 so far, above). Every other entity page under `/es/` shows Spanish chrome around English, then Arabic, prose.
 - `data/*.yaml`: no `label.es` / `summary.es`.
 - Datasets (`edu/`, `kids/`, `tour/`, `cards/`): no `es` fields; the strict loaders still require only ar, en and ur.
 - Spanish Qur'an translation for passage pages: no source chosen or registered (`scripts/harvest/quran/translations.py` takes English and Urdu only). The translation and its licence are pending the founder's confirmation.
