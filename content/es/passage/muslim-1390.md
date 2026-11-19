@@ -1,0 +1,12 @@
+---
+id: passage/muslim-1390
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/passage/muslim-1390.md}
+---
+## Resumen
+Un relato de Abu Hurayra en el capítulo sobre lo que hay entre la tumba y el púlpito siendo un jardín de los jardines del Paraíso, en el Libro de la Peregrinación de Sahih Muslim. Es el origen del nombre «el Noble Jardín» en la mezquita del Profeta. El informe de Abdullah ibn Zayd en la misma sección dice: «lo que hay entre mi casa y mi púlpito es un jardín de los jardines del Paraíso». {cite:sahih-muslim}
+
+## Lugar en el museo
+Fuente: [[work/sahih-muslim|Sahih Muslim]]. Menciona [[person/muhammad|a Mahoma]], [[person/abu-hurayra|Abu Hurayra]] y [[building/prophets-mosque|la Mezquita del Profeta]].
