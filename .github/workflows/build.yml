@@ -108,6 +108,18 @@ jobs:
           [ "$perm" = "admin" ] && { echo "started by an admin ($ACTOR)"; exit 0; }
           echo "::error::$ACTOR ($perm) may not start this workflow: only the repository owner or an admin may."
           exit 1
+      # A hosted runner is documented with 14 GB of disk, and a five-language build writes more than that (three
+      # languages measured about 19.5 GB on the founder's Mac). Run 44362983867 ended with the runner lost, most
+      # likely for want of disk (not proven: that run printed no reading). The runner image ships tools this build
+      # never uses; removing them gives the build their space. The step never fails the job: a folder that a later
+      # runner image no longer has is simply skipped. Node (setup-node, below) is not touched.
+      - name: Free runner disk the build does not use (Android SDK, .NET, Haskell, CodeQL, Swift, Docker images)
+        run: |
+          echo "before: $(df -BM --output=avail / | tail -1 | tr -dc '0-9') MB free"
+          sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/.ghcup \
+            /opt/hostedtoolcache/CodeQL /usr/share/swift || true
+          sudo docker image prune --all --force > /dev/null 2>&1 || true
+          echo "after: $(df -BM --output=avail / | tail -1 | tr -dc '0-9') MB free"
       - name: Checkout
         uses: actions/checkout@v7
         with:
@@ -123,8 +135,29 @@ jobs:
             site/package-lock.json
       - name: Install
         run: npm ci && npm ci --prefix site
+      # The build of 18 November 2026 on release/spanish (run 44362983867) ended with "the hosted runner lost
+      # communication": its log stops in the middle of writing pages, about 462,000 pages in, with no error and no
+      # reading of memory or disk, so nobody could tell which one ran out. The step
+      # below therefore prints the runner's free disk and memory before the build and every five minutes while it
+      # runs, as lines in its own output and as warnings once either is nearly gone, so the last reading before a runner dies shows which one was running
+      # out. The reporter only reads, and it is stopped when the build ends, whatever the result.
       - name: Validate, compile and build (validate → graph → derive → api → astro → pagefind)
-        run: npm run build
+        run: |
+          report() {
+            disk=$(df -BM --output=avail "$GITHUB_WORKSPACE" | tail -1 | tr -dc '0-9')
+            mem=$(free -m | awk '/^Mem:/ {print $7}')
+            swap=$(free -m | awk '/^Swap:/ {print $3}')
+            node=$(ps -eo rss,comm --sort=-rss | awk '$2 ~ /node/ {printf "%d", $1/1024; exit}')
+            line="runner resources $(date -u +%H:%M) UTC: disk free ${disk} MB, memory available ${mem} MB, swap used ${swap} MB, largest node process ${node:-0} MB"
+            # A plain line every time; a warning (kept on the run page, at most ten per step) only when one is nearly gone.
+            if [ "${disk:-0}" -lt 4096 ] || [ "${mem:-0}" -lt 1024 ]; then echo "::warning title=Runner nearly out of disk or memory::${line}"; else echo "$line"; fi
+          }
+          echo "cores: $(nproc)"; df -h "$GITHUB_WORKSPACE"; free -m
+          report
+          ( while sleep 300; do report; done ) &
+          reporter=$!
+          trap 'pkill -P "$reporter" 2>/dev/null || true; kill "$reporter" 2>/dev/null || true' EXIT
+          npm run build
         env:
           # Pagefind indexes are uploaded to R2 and served from there.
           # Set PAGEFIND_BASE_URL as a GitHub Actions variable to the R2 public URL.

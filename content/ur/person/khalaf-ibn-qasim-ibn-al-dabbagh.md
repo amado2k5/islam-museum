@@ -7,7 +7,7 @@ status: { review: published }
 provenance: { generated_by: "Claude Code (OCR-harvest worker A)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "al-Tamhid, al-Furqan ed. 2017 vol. 1, editor's introduction p. 12" }
 ---
 ## خلاصہ
-ابو القاسم خلف بن القاسم بن سہل بن محمد بن یونس ازدی، ابن الدباغ کے نام سے معروف (325–393ھ)، اپنے وقت میں اندلس کے محدث تھے، اور وہ شیخ جن سے [[person/ibn-abd-al-barr|ابن عبد البر]] نے سب سے زیادہ روایت کی۔ {cite:tamhid-furqan-2017-v1 p. 12}
+ابو القاسم خلف بن القاسم بن سہل بن محمد بن یونس ازدی، ابن الدباغ کے نام سے معروف ⁦(325–393ھ)⁩، اپنے وقت میں اندلس کے محدث تھے، اور وہ شیخ جن سے [[person/ibn-abd-al-barr|ابن عبد البر]] نے سب سے زیادہ روایت کی۔ {cite:tamhid-furqan-2017-v1 p. 12}
 
 ## سفر
 انہوں نے اپنے شہر میں سماع کیا، پھر 345ھ میں مشرق گئے اور تقریباً پندرہ سال وہاں گھومتے رہے، مصر، شام اور [[place/mecca|مکہ]] میں سماع کیا۔ {cite:tamhid-furqan-2017-v1 p. 12}

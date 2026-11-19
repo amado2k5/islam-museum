@@ -1,0 +1,21 @@
+---
+id: event/banu-al-harith-attack-abdullah-ibn-al-husayn-and-ahmad-ibn-muhammad-at-najran-286
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/banu-al-harith-attack-abdullah-ibn-al-husayn-and-ahmad-ibn-muhammad-at-najran-286.md}
+---
+## Visión general
+Bajo el título «La llegada de Abdullah ibn al-Husayn a Najrán desde el Hiyaz», [[person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi|Ali ibn Muhammad]] relata que cuando al-Qusayb se opuso a al-Hadi e Ibn al-Dahhak se opuso a Abu al-Qasim, los Banu al-Harith instigaron el desorden contra el imán, con [[person/abdullah-ibn-bustam|Ibn Bustam]] a la cabeza. {cite:sira-hadi-ila-al-haqq p.145} Al-Hadi había enviado a [[person/abdullah-ibn-al-husayn-al-rassi|Abdullah ibn al-Husayn]] al Hiyaz con algunos ancianos; llegó a [[place/najran|Najrán]], corrigió lo que estaba mal y puso orden en sus asuntos, y la ciudad se calmó. {cite:sira-hadi-ila-al-haqq p.145}
+
+## El plan
+[[group/banu-al-harith-ibn-kab|Los Banu al-Harith]] se reunieron y deliberaron sobre atacar a Abu Muhammad Abdullah ibn al-Husayn y a Abu al-Husayn Ahmad ibn Muhammad al-Alawi, quien era gobernador de la ciudad, con el deseo de tomarlos como rehenes contra aquellos a quienes al-Hadi había capturado y encarcelado en Sa'da en su primer viaje. {cite:sira-hadi-ila-al-haqq p.145} Abu al-Husayn es probablemente el gobernador del que se habla [[person/ahmad-ibn-muhammad-governor-of-najran|Ahmad ibn Muhammad]]; el libro no lo dice.
+
+## El ataque
+En la noche en que transcurrieron diecisiete días del Ramadán 286, todos cayeron sobre la casa, sin ser vistos hasta que estuvieron dentro; un hombre de Madán llamado [[person/ibn-musaffa-ibn-ibrahim-al-madani|Ibn Musaffa ibn Ibrahim]], primo de Ali ibn Rabi', les había abierto la puerta. {cite:sira-hadi-ila-al-haqq p.145} Tomaron las monturas de Abu Muhammad y Abu al-Husayn y de Abu Jafar [[person/muhammad-ibn-isa-al-tamimi|Muhammad ibn Isa al-Tamimi]], que se encontraba en la ciudad, y lo que había en la parte baja de la casa. {cite:sira-hadi-ila-al-haqq p.145} Abu Muhammad se enteró de ellos después de que entraron, mientras estaba en la oración nocturna, llamó a Abu al-Husayn, a sus compañeros y sirvientes, unos diez hombres, y luchó contra ellos por un lado mientras sus compañeros luchaban por el otro. {cite:sira-hadi-ila-al-haqq p.146}
+
+## La lucha hasta el amanecer
+Luchó con valentía hasta que un sobrino de Ibn Humayd llamado [[person/al-tahir-ibn-al-tahir|al-Tahir ibn al-Tahir]] arrojó una piedra que lo derribó y cayó inconsciente; Banu al-Harith temió su lugar, luego aumentó en número, se acercó y cargó hasta que su grupo se concentró e hirió a su enemigo; tres de los madanis que estaban con ellos murieron. {cite:sira-hadi-ila-al-haqq p.146} Cuando [[group/banu-abd-al-madan-najran|Banu Abd al-Madan]], que estaban con los dos hombres, vieron a sus compañeros muertos y a Banu al-Harith prevaleciendo, pidieron permiso para ir a sus hogares, temiendo la destrucción; los dos accedieron y fueron con ellos, y luego llamaron a sus clientes y lucharon con valentía contra Banu al-Harith hasta la mañana, cuando Banu al-Harith se dio por vencido con los dos hombres y se retiró. {cite:sira-hadi-ila-al-haqq p.146} Abu Muhammad y Abu al-Husayn permanecieron en la aldea hasta el amanecer, temiendo una fiesta con [[person/al-abras-al-madani|al-Abras al-Madani]] y su sobrino Ali ibn Rabi', quienes habían entrado en la casa con Banu al-Harith y participado en el saqueo; el hijo de al-Abras tomó una esclava de Abu al-Husayn. {cite:sira-hadi-ila-al-haqq p.146}
+
+## Notas
+El narrador dice que algunas personas deseaban el mal a los dos hombres; esa es la descripción del narrador, no el juicio del museo. El índice del libro menciona a al-Tahir ibn al-Tahir en la pág. 146 y a Ali ibn Rabi' en las págs. 145 y 146, entre otras páginas, e Ibn Musaffa ibn Ibrahim en la pág. 145. El relato continúa en [[event/hamdan-and-al-ahlaf-bring-the-two-men-out-of-najran-and-the-fight-on-the-road-286]].

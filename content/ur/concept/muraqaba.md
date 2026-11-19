@@ -19,7 +19,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ## دل اور اعضاء
 شیخ دل کو ایک سربراہ سے تشبیہ دیتے ہیں جس کے ماتحت اعضاء ملازموں کی طرح کام کرتے ہیں؛ جب دل ایمان اور یقین سے بھر جائے تو سارے اعمال درست ہو جاتے ہیں۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:02:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:02:30}
 
-## شیخ عمر عبد الکافی کے تفسیری درس (قسط 5)
+## شیخ عمر عبد الکافی کے تفسیری درس ⁦(قسط 5)⁩
 
 شیخ انسان کو دعوت دیتے ہیں کہ دوسرے پر حکم لگانے سے پہلے اپنے آپ کو اس خلل کے مقابل ناپے جو وہ دوسرے میں دیکھتا ہے، تو اسے اپنی خامیاں دوسرے کی خامیوں سے بڑی نظر آئیں گی {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:15:00}.
 

@@ -1,0 +1,16 @@
+---
+id: concept/ilaj-al-suda-al-aradi-lil-hummayat-wa-al-buhrani
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/ilaj-al-suda-al-aradi-lil-hummayat-wa-al-buhrani.md}
+---
+
+## Maux de tête accompagnant la fièvre et les maladies aiguës
+Certains symptômes de ce type apparaissent avec l'intensification de la maladie ou de la crise, puis disparaissent, tandis que d'autres persistent après la guérison ou la fin de la crise. Ceux qui surviennent lors des épisodes fébriles peuvent tellement incommoder le patient qu'ils aggravent la fièvre {cite:canon-ibn-sina-print-v2 p.68}. L'urine peut se manifester par un blanchiment immédiat et une coloration semblable à celle de l'urine d'âne, mais cette ressemblance peut indiquer la présence du symptôme et sa disparition progressive ; il convient donc de se référer aux autres signes {cite:canon-ibn-sina-print-v2 p.68}. La montée des substances est initialement ralentie ; si l'intensité de la douleur impose l'usage de narcotiques et de somnifères, celui-ci est administré avec précaution et circonspection ; le traitement de la gueule de bois est alors appliqué {cite:canon-ibn-sina-print-v2 pp.68-69}. Les maux de tête peuvent persister après la fièvre et les maladies aiguës ; leur traitement consiste à rafraîchir et humidifier l'alimentation et à fortifier la tête {cite:canon-ibn-sina-print-v2 p.69}.
+
+## Céphalée de crise
+En ce qui concerne les céphalées de crise, on se réfère à la direction vers laquelle la nature tend avec la matière et on l'aide en fonction des signes {cite:canon-ibn-sina-print-v2 p.69}. Si le malade ressent des nausées, des maux d'estomac, des tremblements des lèvres et des vertiges, en bref les signes que la nature tend avec la matière vers le haut, on l'aide à vomir {cite:canon-ibn-sina-print-v2 p.69}. S'il ressent des gargouillis et des halètements dans les deux flancs, en bref les signes que la nature tend avec la matière vers le bas, on l'aide à aller à la selle ; s'il ressent une lourdeur dans la région des reins et sous les côtes, en bref les signes que la matière tend vers l'urine, on la traite en favorisant la miction {cite:canon-ibn-sina-print-v2 p.69}. S'il voit des rougeurs et des lueurs devant les yeux et des visions, suivies des mots imprimés safr aw tatawul (laissés tels quels et non interprétés ici), et qu'aucun saignement de nez ne survient, on l'aide à avoir un saignement de nez ; s'il constate un pouls faible et une peau molle, on l'aide à transpirer ; et s'il trouve quelque chose comme une piqûre quelque part, on utilise des moyens de tirage ; les mesures particulières pour chacune ne sont pas reproduites ici {cite:canon-ibn-sina-print-v2 p.69}
+
+## Note
+Les recettes, les quantités, les noms des médicaments et des plantes, les noms des veines et les sites de saignée, de ventouses et de cautérisation, ainsi que les méthodes d'application ne sont pas reproduits ici. {cite:canon-ibn-sina-print-v2 pp.68-69}

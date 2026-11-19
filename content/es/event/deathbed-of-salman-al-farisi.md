@@ -1,0 +1,31 @@
+---
+id: event/deathbed-of-salman-al-farisi
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/deathbed-of-salman-al-farisi.md}
+---
+## Resumen
+[[person/salman-al-farisi|Salman al-Farisi]] murió en al-Mada'in. Los libros de los Compañeros recogen los relatos de su muerte en tres informes estrechamente relacionados: su llanto cuando sus compañeros lo visitaron, porque el Profeta les había ordenado que la provisión de cada uno fuera como la de un jinete; su petición de que se rociara la bolsa de almizcle alrededor de su lecho; y lo poco que se encontró en su casa después de su muerte. {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 200}
+
+## Su llanto y la acusación del Profeta
+Amir ibn Abdallah relata que, al llegarle la muerte, notaron cierta angustia en él y le preguntaron: «¿Qué te preocupa, Abu Abdallah, si tienes precedencia en el bien y has librado buenas campañas y grandes conquistas junto al Mensajero de Dios?». Él respondió que le dolía que su amado Muhammad, al dejarlos, les hubiera encomendado que las necesidades de un creyente se satisficieran como las de un jinete. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 scan vol. 1 p. 197} Anas relata que entró y le preguntó por qué lloraba, recibiendo la misma respuesta. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 scan vol. 1 p. 197} En el relato de al-Hasan en el Zuhd de Ahmad, él lloró al morir y, al preguntársele cómo podía llorar siendo compañero del Mensajero de Dios, dijo que no lloraba ni por tristeza por el mundo ni por deseo de él. {cite:zuhd-ahmad-dkim-1983 scan vol. 3 p. 41}
+
+## ¿Quién lo visitó?
+Ibn al-Jawzi relata de Abu Sufyan, de sus ancianos, que [[person/saad-ibn-abi-waqqas|Sa'd ibn Abi Waqqas]] lo visitó y Salman lloró; Sa'd dijo que el Mensajero de Dios había muerto complacido con él y que se encontrarían en el Estanque. Salman respondió que no lloraba ni por temor a la muerte ni por avaricia mundana, repitió la acusación y añadió: «y a mi alrededor estos 'asawid'», aunque todo lo que había a su alrededor era una palangana, un cuenco o una jarra de agua. Sa'd le pidió un pacto que cumplir después de su muerte, y él dijo: «Sa'd, recuerda a Dios en tu preocupación cuando te preocupes, en tu juicio cuando juzgues y en tu generosidad cuando repartas». {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 200} En el relato de Anas en al-Dhahabi, Sa'd e Ibn Mas'ud entraron en su presencia en el momento de su muerte y él lloró. {cite:siyar-alam-nubala scan vol. 1 p. 412}
+
+## El almizcle
+De al-Sha'bi: Salman recibió una bolsa de almizcle en la conquista de Jalula' y la depositó con su esposa; cuando la muerte le llegó, dijo: «Trae el almizcle»; lo disolvió en agua y dijo: «Espárcelo a mi alrededor, pues ahora vienen a mí visitantes que no son ni humanos ni genios». Ella lo hizo, y él permaneció poco tiempo antes de ser llevado. En otra versión, dijo que encuentran el aroma pero no comen. {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 200} De Sa'id ibn Suwqa: lo visitaron cuando sufría una enfermedad estomacal y le preguntó a su esposa qué había hecho con el almizcle que habían traído de Balanjar; ella lo echó en agua, lo mezcló y lo esparció alrededor de su cama; se fueron y regresaron para encontrarlo llevado. {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 200} Su esposa Buqayra relata que la llamó a su habitación superior, que tenía cuatro puertas, y le dijo que las abriera ya que tenía visitas y no sabía por qué puerta entrarían; Él le pidió que pusiera almizcle en un cuenco y lo rociara alrededor de su cama, luego que bajara y esperara; cuando ella miró dentro, encontró su alma arrebatada, como si estuviera dormido en su cama. {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 200}
+
+## Lo que dejó
+Ibn al-Jawzi relata de Anas que, cuando murió, registraron su casa y solo encontraron una manta de silla de montar, una estera y algunos bienes valorados en unos veinte dirhams. {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 200} En el relato de Amir ibn Abdallah, sus bienes fueron reunidos y valorados en quince dinares, mientras que Abu Nu'aym dice que los demás narradores coinciden en poco más de diez dirhams. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 scan vol. 1 p. 197} De Ali ibn Budhayma: sus bienes fueron vendidos y se obtuvieron catorce dirhams. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 scan vol. 1 p. 197} De Thabit: dejó solo unos veinte y pico dirhams. {cite:siyar-alam-nubala scan vol. 1 p. 412} Ibn al-Jawzi cita a Ibn Abi Dawud que tenía tres hijas, una en Isfahán y dos en Egipto. {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 201}
+
+## Muerte y tumba
+Ibn al-Jawzi dice que murió en al-Mada'in en el califato de Uthman, y que algunos dicen en el año 32. {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 201} En [[place/al-madain|al-Mada'in]] murió, según Abu Ubayda e Ibn Zanjawayh, en el año 36 antes de la Batalla del Camello, y según Khalifa en el 37. {cite:siyar-alam-nubala scan vol. 1 p. 412} Las páginas que leí no dan ningún informe de su lavado, oración fúnebre o el lugar de su tumba, así que no le asigno una tumba en particular.
+
+## Informes contradictorios
+Su muerte se fecha en el año 32, 36 o 37, y al-Waqidi la sitúa en el califato de Uthman en general. {cite:siyar-alam-nubala scan vol. 1 p. 412} Se dice que vivió 250 años, y lo máximo que se menciona son 350; al-Dhahabi, en su Siyar, prefiere la primera cifra, {cite:siyar-alam-nubala scan vol. 1 p. 412} pero en otro lugar, como se registra en una nota en Sifat al-Safwa, dice que no la acepta ni la autentifica. {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 201} El valor de sus bienes se da de diversas maneras: catorce dirhams, veinte dirhams o quince dinares. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 scan vol. 1 p. 197}
+
+## Fuentes
+Ibn al-Jawzi, Sifat al-Safwa; Abu Nu'aym, Hilyat al-Awliya'; al-Dhahabi, Siyar A'lam al-Nubala'; Ahmad ibn Hanbal, al-Zuhd. Los números de página se refieren a páginas escaneadas.

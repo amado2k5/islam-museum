@@ -1,6 +1,7 @@
 import { miracleTopicsOf, MIRACLE_TOPIC_KIND, MIRACLE_TOPIC_SUBJECTS } from "./miracles";
 import { readFileSync } from "node:fs";
-const g = JSON.parse(readFileSync(new URL("../.cache/graph.json", import.meta.url), "utf8"));
+import { readBigJson } from "./lib/graph-file.mjs";
+const g = readBigJson(new URL("../.cache/graph.json", import.meta.url));
 const nodes = (g as any).nodes as any[];
 const counts: Record<string, number> = {};
 const hits: Record<string, string[]> = {};

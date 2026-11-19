@@ -2,9 +2,10 @@
 // Loaded at build time only (never shipped to the client except through page payloads).
 import { readFileSync, readdirSync } from "node:fs";
 import { parse } from "yaml";
+import { parseLocalized } from "./i18n";
 import { repoPath } from "./paths";
 
-export interface MapTitle { ar: string; en: string; ur?: string }
+export interface MapTitle { ar: string; en: string; ur?: string; fr?: string }
 export interface MapKid { title: MapTitle; range: [number, number] }
 export interface MapSection { title: MapTitle; range: [number, number]; family: string; summary: MapTitle; children: MapKid[] }
 export interface SurahMapFile { surah: number; slug: string; map: MapSection[] }
@@ -25,7 +26,7 @@ export function loadSurahMap(slug: string): SurahMapFile {
   if (hit) return hit;
   const entry = listSurahMaps().find((e) => e.slug === slug);
   if (!entry) throw new Error(`surah-maps: no map for slug ${slug}`);
-  const raw = parse(readFileSync(`${dir()}/${String(entry.n).padStart(3, "0")}-${slug}.yaml`, "utf8"));
+  const raw = parseLocalized(readFileSync(`${dir()}/${String(entry.n).padStart(3, "0")}-${slug}.yaml`, "utf8"));
   const file: SurahMapFile = { surah: raw.surah, slug: raw.slug, map: raw.map };
   // Build assertion: sections must partition [1, N] exactly.
   let v = 1;

@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b21, source: "حلية الأولياء (دار الكتب العلمية 1988) 9/298-309" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b21, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 9/298-309" }
 ---
 ## خلاصہ
 ابو عبد اللہ محمد بن المبارک صوری «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی نویں جلد میں [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] کے ترجمے ⁦(نمبر 451)⁩ کے زاہدوں میں سے ہیں۔ ابو نعیم انہیں کامل عقل، صاف تقویٰ اور شافی بیان والا کہتے ہیں۔ ابو نعیم ان کے کچھ اقوال محمد بن اصبغ بن فرج سے نقل کرتے ہیں، جنہوں نے انہیں سنا، اور ایمان پر طویل مکالمہ اپنے دادا محمد بن یوسف کی تحریر سے، جو ان کے بعض ساتھیوں سے ملے تھے۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/298-303}

@@ -1,0 +1,17 @@
+---
+id: building/qila-i-kuhna-mosque
+lang: es
+source_lang: en
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+status:
+  review: published
+provenance: { generated_by: "Claude Code (spanish lane, wave 8)", model: "claude-sonnet-5-5", run: "spanish-w8-2026-11-18", source: "content/en/building/qila-i-kuhna-mosque.md" }
+---
+## Visión general
+La mezquita Qila-i-Kuhna se alza en el sureste del [[building/purana-qila-delhi|Purana Qila]] de Delhi, cerca del [[building/sher-mandal-delhi|Sher Mandal]]. {cite:nath-history-of-mughal-architecture-1-1982 p. 160} Es una sala de oración de cinco crujías con cinco arcos en la fachada, cada uno en su propio portal, sin claustros, puertas monumentales ni alminares; para Nath es a la vez la mezquita más perfectamente desarrollada de este tipo y un fenómeno nuevo en la India. {cite:nath-history-of-mughal-architecture-1-1982 p. 161} {cite:nath-history-of-mughal-architecture-1-1982 p. 168}
+
+## Arquitectura y ornamento
+El muro de la qibla, de piedra gris, está dividido en dos pisos por una cornisa que lleva una banda de mármol blanco incrustada de piedra roja, con tres ventanas de mirador en el piso superior y torres octogonales de tres pisos en las esquinas posteriores. {cite:nath-history-of-mughal-architecture-1-1982 p. 160} {cite:nath-history-of-mughal-architecture-1-1982 p. 161} El portal central está cubierto de exquisitas incrustaciones —mármol blanco y pizarra negra engastados en piedra roja, y piedra roja engastada en mármol, en diseños geométricos— con un fleco de capullos de loto a lo largo del intradós del arco. {cite:nath-history-of-mughal-architecture-1-1982 p. 162} El mihrab principal, de mármol blanco, es una composición de tres semibóvedas encajadas, enmarcadas por versículos coránicos tallados. {cite:nath-history-of-mughal-architecture-1-1982 p. 163} La única cúpula descansa sobre un tambor de dieciséis lados rodeado por dieciséis pináculos, con restos de azulejos vidriados verdes, azules y amarillos. {cite:nath-history-of-mughal-architecture-1-1982 p. 165} La mezquita lleva un número extraordinario de inscripciones coránicas, sobre todo en naskhi y algunas en cúfico, entre ellas la sura al-Fath alrededor del arco central y la sura al-Mulk alrededor de otro. {cite:nath-history-of-mughal-architecture-1-1982 p. 171}
+
+## Atribución
+La mezquita suele atribuirse a Sher Shah, apoyándose en la afirmación de Abbas Khan Sarwani de que construyó en el fuerte del gobernador en Delhi una mezquita del viernes de piedra adornada con oro y lapislázuli, y en el *Tarikh-i Daudi* de Abdullah. {cite:nath-history-of-mughal-architecture-1-1982 p. 169} Nath objeta que la mezquita no tiene oro ni lapislázuli, y que su estilo no se parece al de los edificios de Sher Shah en Sasaram; sostiene que Humayun la encargó con la ciudadela en 1533, que estaba sin terminar cuando huyó de la India en 1540, y que se completó a comienzos del reinado de Akbar, razón por la cual comparte con las tumbas de Atgah Khan y de Humayun el uso de mármol blanco con piedra roja e incrustaciones de colores. {cite:nath-history-of-mughal-architecture-1-1982 p. 169} {cite:nath-history-of-mughal-architecture-1-1982 p. 170} {cite:nath-history-of-mughal-architecture-1-1982 p. 171} Piensa que los artesanos probablemente procedían de Gwalior, y que trajeron rasgos del palacio Man Mandir. {cite:nath-history-of-mughal-architecture-1-1982 p. 171}

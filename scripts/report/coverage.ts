@@ -3,12 +3,13 @@ import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import type { Compiled } from "../build-graph.js";
 import { p } from "../lib.js";
+import { readBigJson } from "../lib/graph-file.mjs";
 
 const table = (title: string, rec: Record<string, number>) =>
   `### ${title}\n\n| Key | Count |\n|---|---|\n${Object.entries(rec).map(([k, v]) => `| ${k} | ${v} |`).join("\n") || "| – | 0 |"}\n`;
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
-  const c: Compiled = JSON.parse(readFileSync(p(".cache", "graph.json"), "utf8"));
+  const c: Compiled = readBigJson(p(".cache", "graph.json"));
   const cv = c.coverage;
   const md = [
     "# Coverage", "",

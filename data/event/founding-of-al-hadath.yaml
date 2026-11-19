@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0778/0785", hijri: "0162~", calendar: julian, precision: year, status: tradition, derived: true, note: "الأمر بعد غزاة 162 والفراغ سنة 169 (البلاذري ص 267–269). التحويل مشتق." }
+  start: { edtf: "0778/0785", hijri: "0162~", calendar: julian, precision: year, status: tradition, derived: true, note: "الأمر بعد غزاة 162 والفراغ سنة 169 ⁦(البلاذري ص 267–269)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/al-hadath }
   - { type: had_participant, target: person/al-mahdi, role: "الآمر بالبناء وتقديمه على طرسوس", sources: [source/futuh-buldan-maarif-1407] }
@@ -21,7 +21,7 @@ relations:
   - { type: during_reign, target: person/al-mahdi, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 267–269"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 267–269"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-15
 sources: [source/futuh-buldan-maarif-1407]

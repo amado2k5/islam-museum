@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b50, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/137" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b50, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/137" }
 ---
 ## موجز
 أبو أيوب مولى بني هاشم، صحب الحكماء من العباد، وأخذ عنهم مدة المنقلب والمعاد. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة 488)⁩ في الصفحة 137. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/137}

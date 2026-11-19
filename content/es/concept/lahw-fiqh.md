@@ -1,0 +1,21 @@
+---
+id: concept/lahw-fiqh
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/lahw-fiqh.md}
+---
+## Resumen
+Lahw, en el léxico, es cualquier falsedad que distraiga del bien y de lo que importa; al-Tartushi la define como relajar el alma con lo que la sabiduría no requiere, y al-Qurtubi señala que a veces se usa como eufemismo para el coito, ya que desvía el corazón. En fiqh, el sentido léxico se cumple en gran medida: aquello que una persona disfruta y por lo que se desvía, y que luego pasa {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13708}. La regla básica es que cualquier distracción que no aporte beneficio religioso en este mundo ni en el siguiente es vana, salvo el tiro con arco, el adiestramiento de un caballo y el juego con la esposa, que son acertados porque sirven a fines útiles {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13708}.
+
+## Término relacionado: play (la'b)
+En el léxico, el juego (la'b) es buscar la alegría en aquello por lo que no se debe buscar {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13708}. Al-Barakti lo define como una actividad infantil que deja cansancio y ningún beneficio; lahw es el término más amplio {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13708}. Los detalles están bajo la entrada sobre el juego {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13709}.
+
+## Lahw en el sentido de juego
+El texto base es el dicho del Profeta: toda distracción en la que se entrega un hijo de Adán es vana excepto tres, tiro con arco, adiestrar un caballo y jugar con la esposa. La cuestión es que cualquier distracción sin beneficio religioso es vana, mientras que estos tres tienen razón porque el tiro con arco y el adiestramiento de caballos ayudan en la guerra y el juego con la esposa pueden dar lugar a un hijo que adore a Dios {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13708}. Al-Khattabi dice que todo tipo de distracciones están prohibidas excepto estas, ya que cada una o bien cumple un derecho o conduce a uno, y la esgrima con armas y un entrenamiento similar que endurezca al hombre para la batalla les pertenecen {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13709}. Pasatiempos ociosos como el backgammon, el ajedrez, las carreras de palomas y cualquier juego que no sirva de derecho y no se renueve para un deber están totalmente prohibidos {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13709}.
+
+## Lahw en el sentido de cantar
+Los juristas prohíben cantar cuando los versos son amatorios sobre mujeres, describen su belleza o mencionan vino y cosas prohibidas, ya que este es el canto lahw y culpable acordado {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13709}. Cuando el canto está libre de tentaciones y reproches, algunos juristas lo permiten, otros no lo aprecian y un grupo lo prohíbe {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13709}. Los detalles están en las entradas sobre escuchar y cantar {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13709}.
+
+## Instrumentos de distracción para golpear
+La mayoría de los juristas sostienen que tocar instrumentos de cuerda, como el rebab, el oud y el qanun, y escucharlos, está prohibido {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13709}. Ibn Hajar al-Haytami enumera el tanbur, oud, platillos, rebab, janak, kamanja, santir y daraj entre los instrumentos de cuerda y musicales y afirma que su prohibición es indiscutida {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13709}. Al-Qurtubi afirma que no hay disputa sobre la prohibición de escuchar flautas, cuerdas y kuba, y que no conoce a ningún erudito anterior o posterior que las permitiera, ya que son el emblema de los bebedores de vino, de la inmoralidad y del deseo despertador {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13709}. No tiene dudas sobre su prohibición ni sobre que quien los toca es un pecador y corrupto {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13710}. Para saber qué es lícito y prohibido entre las distracciones, véanse las entradas sobre instrumentos musicales y sobre la escucha {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13710}.

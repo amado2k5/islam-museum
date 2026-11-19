@@ -1,0 +1,24 @@
+---
+id: work/letter-to-the-kings-of-himyar
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/work/letter-to-the-kings-of-himyar.md}
+---
+## Visión general
+Carta que el Profeta escribió a los reyes de [[group/himyar|Himyar]] en respuesta a la carta de estos en la que declaraban su conversión al Islam, la cual fue entregada por su enviado [[person/malik-ibn-murra-al-rahawi|Malik ibn Murra al-Rahawi]] cuando el Profeta regresó de Tabuk. Véase [[event/letter-of-himyar-kings|la carta de los reyes de Himyar]]. {cite:ibn-hisham-saqqa 4/235}
+
+## Los destinatarios
+La carta comienza con la basmala, luego: de Muhammad, Mensajero de Dios, el Profeta, a [[person/al-harith-ibn-abd-kulal|al-Harith ibn Abd Kulal]], [[person/nuaym-ibn-abd-kulal|Nu'aym ibn Abd Kulal]] y [[person/al-numan-qayl-dhi-ruayn|al-Nu'man, el Qayl de Dhu Ru'ayn, Ma'afir y Hamdan]]. {cite:ibn-hisham-saqqa 4/235} Los editores explican "qayl" como el singular de "aqyal", los reyes que están por debajo del rey supremo. {cite:ibn-hisham-saqqa 4/235}
+
+## Lo que dice la carta
+El Profeta alaba a Dios ante ellos y menciona que su enviado lo encontró en Medina a su regreso de la tierra de los bizantinos. Entregó lo que le habían enviado, le informó de su Islam y de su matanza de los politeístas, y dijo que Dios los ha guiado con Su guía si hacen las cosas bien y obedecen a Dios y a Su Mensajero. {cite:ibn-hisham-saqqa 4/235} Luego establece lo que se les debe: establecer la oración y dar la limosna, pagar una quinta parte del botín y la porción del Profeta y su parte elegida, y lo que se les debe a los creyentes sobre los productos: una décima parte de lo que se riega con manantiales o lluvia, y media décima parte de lo que se riega con balde. {cite:ibn-hisham-saqqa 4/235} {cite:ibn-hisham-saqqa 4/236} Detalla las obligaciones sobre los camellos, el ganado y las ovejas: por cuarenta camellos una bint labun, por treinta una ibn labun; por cada cinco una oveja, por cada diez dos ovejas; Por cada cuarenta cabezas de ganado, una vaca; por cada treinta, un toro joven; por cada cuarenta ovejas de pastoreo libre, una oveja. Estas son las obligaciones de Dios para los creyentes, y quien da más, mejor. {cite:ibn-hisham-saqqa 4/236} Quien paga estas obligaciones y da testimonio de su Islam, y apoya a los creyentes contra los politeístas, está entre los creyentes, con lo que tienen y los deberes que tienen, y tiene la protección de Dios y de Su Mensajero. {cite:ibn-hisham-saqqa 4/236} Quien entre judíos o cristianos abraza el Islam está entre los creyentes. Quien se mantiene en el judaísmo o el cristianismo no se aparta de él, sino que debe el [[concept/jizya|tributo]] : por cada adulto, varón o mujer, libre o esclavo, un dinar completo de tela Ma'afir, o su equivalente en tela. Quien lo paga tiene la protección de Dios y de Su Mensajero; quien se niega a pagarlo es enemigo de Dios y de Su Mensajero. {cite:ibn-hisham-saqqa 4/236}
+
+## La dirección a Zur'a Dhu Yazan
+La carta dice que el Profeta envió a [[person/zura-dhu-yazan|Zur'a Dhu Yazan]] para elogiar a sus mensajeros: [[person/muadh-ibn-jabal|Mu'adh ibn Jabal]], Abdullah ibn Zayd, Malik ibn Ubada, Uqba ibn Namir, Malik ibn Murra y sus compañeros. Le pidió que reuniera lo que tenían de limosna y tributo de sus distritos y lo enviara a sus mensajeros, y dijo que su líder es Mu'adh ibn Jabal, quien no debe regresar sino contento. {cite:ibn-hisham-saqqa 4/236} Le informa que Malik ibn Murra al-Rahawi le dijo que él fue uno de los primeros Himyar en abrazar el Islam y matar a los politeístas; entonces le da buenas noticias y le ordena que trate bien a los Himyar, que no se traicionen ni se abandonen unos a otros, y que el Mensajero de Dios es el guardián de sus ricos y sus pobres. {cite:ibn-hisham-saqqa 4/236} {cite:ibn-hisham-saqqa 4/237} Las limosnas no son lícitas para Mahoma ni para su familia; son solo una limosna purificadora distribuida a los pobres entre los musulmanes y los viajeros. Él les envió a algunos de sus justos, de su familia, y de sus propios religiosos y sabios. Paz. {cite:ibn-hisham-saqqa 4/237}
+
+## Comentarios de los expertos
+«Al-Safi» es lo que el líder elige del botín para sí mismo antes de la división; «al-'aqar» es tierra; «al-gharb» es un cubo; «zahara» significa ayudado; «al-ma'afir» son prendas de vestir de Yemen. En una copia, «mawla» ocupa el lugar de «wali». {cite:ibn-hisham-saqqa 4/236}
+
+## Una nota
+Ibn Ishaq presenta el texto completo de la carta. El museo registra su contenido con sus propias palabras, ya que el texto excede el límite de una cita. {cite:ibn-hisham-saqqa 4/235}

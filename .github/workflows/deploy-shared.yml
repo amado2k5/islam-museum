@@ -1,0 +1,33 @@
+name: Deploy shared parts to production
+
+# PRODUCTION, the shared parts: everything that belongs to no language (API, shared data, root files, site Worker,
+# Pages project) from a "Build islam.museum by language" run of main. Manual only, and the founder's alone (AGENTS.md).
+# A trial beside "Deploy islam.museum to Cloudflare", which is unchanged; the steps are in deploy-shared-env.yml.
+# Review the same build on UAT first with "Deploy shared parts to UAT".
+on:
+  workflow_dispatch:
+    inputs:
+      build_run_id:
+        description: "Run id of a \"Build islam.museum by language\" run of main. Empty: the newest one that built the shared parts."
+        required: false
+        type: string
+
+permissions:
+  contents: read
+  deployments: write
+  # Read another run's artifact and jobs.
+  actions: read
+
+# The group of this environment's full deploy: one publish at a time writes the publish record, in order.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  production:
+    uses: ./.github/workflows/deploy-shared-env.yml
+    with:
+      environment: production
+      build_run_id: ${{ inputs.build_run_id }}
+    secrets: inherit

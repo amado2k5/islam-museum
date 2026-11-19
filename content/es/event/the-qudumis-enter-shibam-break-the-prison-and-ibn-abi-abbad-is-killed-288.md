@@ -1,0 +1,12 @@
+---
+id: event/the-qudumis-enter-shibam-break-the-prison-and-ibn-abi-abbad-is-killed-288
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/the-qudumis-enter-shibam-break-the-prison-and-ibn-abi-abbad-is-killed-288.md}
+---
+## Visión general
+El sábado, doce noches después de Jumada, [[person/al-hadi-yahya-al-rassi|al-Hadi]] oyó que los hombres pretendían subir a la montaña; ordenó al ejército que montara, y él y [[person/abu-al-atahiya-ibn-bishr|Abu al-Atahiya]] subieron, dejando a [[person/muhammad-ibn-abbad-al-tamimi|Ibn Abi Abbad]] en Shibam con los hombres de Sana'a {cite:sira-hadi-ila-al-haqq p.217} {cite:sira-hadi-ila-al-haqq p.218}. Cuando los Qudumis oyeron que al-Hadi y Abu al-Atahiya habían subido y que solo Ibn Abbad y los sana'is estaban en Shibam, los [[group/qudumis|Qudumi]] fueron al pueblo de Shibam la noche del domingo y por la mañana estaban en la puerta del paso (al-darb); el narrador dice que había necios entre los aldeanos a quienes no les gustaba el gobierno de al-Hadi porque los había mantenido alejados de la bebida y el vicio {cite:sira-hadi-ila-al-haqq p.218}. Los hombres rompieron la puerta y entraron y asaltaron la prisión, en la que se encontraban Abu Ziyad y un grupo de los [[group/al-jafatim-sanaa|Jafatim]]; cuando estos salieron y se unieron a ellos, los Sana'is huyeron {cite:sira-hadi-ila-al-haqq p.218}. Ibn Abi Abbad llegó de la casa de al-Hadi y luchó contra ellos durante un tiempo, pero eran muchos y le dispararon flechas y piedras; luchó hasta que, según las palabras del narrador, murió como mártir {cite:sira-hadi-ila-al-haqq p.218}.
+
+## Detalle
+Este es el evento que [[event/revolt-at-shibam-ibn-abbad-killed-288|el relato de las primeras páginas añadidas]] narra brevemente; ambos lo sitúan en Jumada II, y las páginas presentes ofrecen detalles que aquellos no proporcionaron. La palabra mártir es del narrador y se le atribuye, y la fórmula de misericordia después del nombre de Ibn Abi Abbad no se reproduce. Abu Ziyad es mencionado, pero no se le registra como persona, y los Jafatim aquí están vinculados únicamente a su registro anterior. El relato continúa en [[event/abu-al-atahiya-and-ibn-al-daam-rout-the-qudumis-and-al-hadi-buries-ibn-abi-abbad-288]].

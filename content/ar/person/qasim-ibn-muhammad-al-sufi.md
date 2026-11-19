@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b65, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/151-152" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b65, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/151-152" }
 ---
 ## موجز
 القاسم بن محمد بن سلمة الصوفي، كان لنفسه حافظًا، وبحكم الرهبانية لافظًا. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 515)⁩ في الصفحتين 151 و152، وتسلسله 516. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/151} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/152}

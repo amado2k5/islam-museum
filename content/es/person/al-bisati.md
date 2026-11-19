@@ -1,0 +1,10 @@
+---
+id: person/al-bisati
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/al-bisati.md}
+---
+## Shams al-Din al-Bisati
+
+El juez principal Shams al-Din al-Bisati, gramático malini, nacido en Jumada I 760 H en Bassat, y se trasladó a Egipto, donde estudió muchas disciplinas. De joven estudiante destacó, su reputación creció y destacó en las ciencias racionales, la gramática árabe, la retórica, la elocuencia y las dos raíces de la jurisprudencia, y escribió sobre ellas y sobre la jurisprudencia. Durante mucho tiempo vivió en penurias, durmiendo sobre cáscaras de junco. Más tarde su fortuna cambió: fue nombrado para enseñar derecho malini en el colegio de Jamal al-Din al-Ustadar, luego para el shaykhdom de la tumba de al-Malik al-Nasir, y después para enseñar en al-Barquqiyya y al-Shaykhuniyya. Actuó como juez adjunto de su primo, y en 823 H fue nombrado juez jefe de Egipto. Ocupó el cargo durante veinte años y nunca fue destituido del mismo. Había escuchado a al-Taqi al-Baghdadi y otros, pero no les prestó mucha atención. Entre sus obras figuran "al-Mughni" en jurisprudencia, "Shifa' al-Ghalil" sobre la abreviación de Shaykh Khalil, un comentario sobre Farʿi de Ibn al-Hajib, una glosa sobre al-Mutawwal, glosas sobre el comentario sobre al-Matali' de al-Qutb, una glosa sobre al-Mawaqif de al-ʿAdud, notas sobre al-Tawali' de al-Baydawi y una introducción sobre los principios de la religión. Varios destacados eruditos de la época estudiaron con él, entre ellos Shaykh al-Imam al-Shamni y el juez principal Muhyi al-Din al-Maliki, juez de La Meca. Murió de cólico el duodécimo de Ramadán de 842 H, y la lluvia cayó intensamente tras su entierro. Murió en El Cairo {cite:shadharat-dhahab p. 245-246}.

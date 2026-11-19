@@ -11,7 +11,7 @@ periods: [period/mongol-post-mongol]
 regions: [maghreb, andalus-europe]
 provenance:
   layer: own-research
-  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 403–404"
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري ⁦(ط إحسان عباس)⁩ ص 403–404"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-60
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}
@@ -22,4 +22,4 @@ status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 born: { edtf: "1297", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun (Kitab al-Ibar) Confirmed on 13 November 2026 against Wikidata Q335620 (P569, a statement with a reference), item revision 2553830606.", sources: [source/wikidata] }
 died: { edtf: "1351", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun (Kitab al-Ibar) Agrees with Wikidata Q335620 (P570, a statement without a reference), item revision 2553830606, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/nafh-tib-maqqari], confidence: low }
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name ⁦(المصري)⁩; denotes association, not proven residence.", sources: [source/nafh-tib-maqqari], confidence: low }

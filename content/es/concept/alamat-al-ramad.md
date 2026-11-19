@@ -1,0 +1,15 @@
+---
+id: concept/alamat-al-ramad
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/alamat-al-ramad.md}
+---
+## Qué dicen el dolor, la madurez y el reumatólogo
+Los dolores que surgen en el ojo son de dos tipos: un dolor mordaz al comer y uno distendente; la mordedura apunta a la corrupción y a la agudeza en la calidad de la materia, a la distensión hacia su cantidad o hacia el viento; el reumato apunta a la maduración o a la materia gruesa — el tipo que acompaña la maduración, toca un poco el ojo al principio y se despía rápido es loable; los granos pequeños son un signo menor de bien, la pequeñez apunta a una maduración lenta; cuando las párpadas empiezan a pegarse la madurez ha llegado, del mismo modo que un flujo acuoso significa que aún es temprano {cite:canon-ibn-sina-print-v2 p.168} {cite:canon-ibn-sina-print-v2 p.169}
+
+## Indicando el rumbo del asunto
+El takaddur es conocido por su ligereza, su causa y la ausencia de hinchazón incipiente; lo que es ramad de un catarro que desciende del cerebro al ojo por la membrana externa que cubre la cabeza muestra una ceja distendida, venas externas corriendo, hinchazón que se apresura hacia el párpado y enrojecimiento y pulsación en la ceja; si procede de las membranas internas nada de eso y en su lugar hay estornudos y picor en la boca y la nariz; si es con el compartiendo del estómago, como se indicó antes {cite:canon-ibn-sina-print-v2 p.169}
+
+## Signos de los cuatro tipos y el viento
+El ramad sanguíneo se distingue por el color del ojo, el vaso que corre, las sienes palpitantes y el resto de signos sanguíneos alrededor del cerebro; no llora mucho pero corre con el reumato y los bastones cerrados durante el sueño; el colérico se indica por punzantes más agudos, un dolor ardiente más intenso, menos enrojecimiento, una lágrima fina y caliente que puede ulcerar o puede estar ausente como el sanguíneo, y sin atasco durante el sueño; de este tipo es el humra que golpea el ojo — uno de los temperamentos malignos — que puede cauterizar y ulcerar el ojo como una mosca errante, y hay un tipo colérico con picor agudo con poco enrojecimiento y reumato, sin hinchazón ni flujo digno de mención, por un poco de materia aguda; la flema se indica por una fuerte pesadez, poco calor, un leve enrojecimiento — el blanco siendo el dominante —, el reumato que se queda durmiendo, irritación, el rostro y la tez compartiendo y náuseas si empezó en el estómago; el ramad con flema puede hinchar la conjuntiva sobre el negro como una tienda de hinchazón, pero sin desgarros, solo reumato; el melancólico muestra pesadez con tristeza, sequedad, persistencia y poca adherencia; el viento solo transmite distensión, sin pesadez ni flujo, y la distensión puede traer enrojecimiento {cite:canon-ibn-sina-print-v2 p.169}

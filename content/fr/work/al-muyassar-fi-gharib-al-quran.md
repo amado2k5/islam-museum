@@ -1,0 +1,24 @@
+---
+id: work/al-muyassar-fi-gharib-al-quran
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/work/al-muyassar-fi-gharib-al-quran.md}
+---
+## Résumé
+Al-Muyassar fi gharib al-Qur'an al-karim (« Guide simplifié des mots rares du Noble Coran ») est un glossaire concis des mots rares du Coran, préparé par le Centre d'études coraniques du département des affaires scientifiques du [[group/king-fahd-complex-for-printing-the-holy-quran|complexe du roi Fahd pour l'impression du Saint Coran]] à Médine, et imprimé en 1433 H (1977-1978) en 632 pages. {cite:muyassar-gharib-quran-king-fahd-1433 p.1} {cite:muyassar-gharib-quran-king-fahd-1433 p.3}
+
+## Pourquoi il a été préparé
+Dans son avant-propos, le ministre des Affaires islamiques, Salih ibn Abd al-Aziz Al al-Shaykh, superviseur général du Complexe, explique que le développement du savoir en Arabie saoudite et la multiplication des cercles de mémorisation du Coran ont engendré le besoin d'un ouvrage « cherchant une formulation claire et accessible pour expliquer les termes coraniques rares », tout en s'appuyant sur des ouvrages antérieurs fiables. Le secrétariat a donc été chargé de préparer cet ouvrage pour la marge du Mushaf de Médine. {cite:muyassar-gharib-quran-king-fahd-1433 p.7} Le secrétaire général, Muhammad Salim ibn Shudayyid al-Awfi, indique que le Complexe a estimé que les ouvrages publiés sur le sujet, « malgré leur nombre, ne répondent pas nécessairement à l'objectif », et qu'il a reçu des demandes pour combler cette lacune. {cite:muyassar-gharib-quran-king-fahd-1433 p.8}
+
+## Méthode
+Le plan a été élaboré par une équipe de chercheurs du Centre d'études coraniques, qui a choisi de présenter le contenu « au grand public dans un langage accessible », formulé après avoir examiné les avis de commentateurs reconnus et retenu l'interprétation privilégiée. L'équipe a harmonisé sa méthode et opté pour « une seule des significations possibles, celle acceptée par les commentateurs faisant autorité », en tenant compte des objectifs du Coran et en utilisant le [[work/al-tafsir-al-muyassar|Tafsir al-muyassar du Centre]], qu'elle a adopté comme base pour ses traductions du sens du Coran. {cite:muyassar-gharib-quran-king-fahd-1433 p.8} {cite:muyassar-gharib-quran-king-fahd-1433 p.9}
+
+## Son introduction
+L'ouvrage s'ouvre sur une introduction expliquant la signification du terme « gharib », son importance, l'évolution des écrits à ce sujet et les méthodes de ses auteurs. Il est indiqué que les premiers travaux sur les mots rares du Coran sont attribués à Aban ibn Taghlib, Muhammad ibn al-Sa'ib al-Kalbi et Abu Rawq al-Hamdani, et les méthodes sont classées selon l'ordre des sourates, l'ordre lexical, la combinaison avec d'autres sciences, la sélection à partir d'ouvrages plus vastes et l'étude par verset. Voir «[[concept/gharib-al-quran|gharib al-Qur'an]]». {cite:muyassar-gharib-quran-king-fahd-1433 p.10} {cite:muyassar-gharib-quran-king-fahd-1433 p.14} {cite:muyassar-gharib-quran-king-fahd-1433 p.15} {cite:muyassar-gharib-quran-king-fahd-1433 p.16} {cite:muyassar-gharib-quran-king-fahd-1433 p.17}
+
+Sa « déclaration de méthode » indique que le travail a été confié à quatre chercheurs du Centre, qui se sont partagé équitablement les parties du Coran ; que le critère de rareté est « le lecteur ordinaire du Noble Coran », de sorte que des mots aisés pour un spécialiste sont inclus ; que l’al-Tafsir al-muyassar est consulté, bien que d’autres formulations puissent être choisies ; que les principaux ouvrages de tafsir et de gharib sont vérifiés pour chaque mot ; et que les mots récurrents sont généralement expliqués de la même manière partout. {cite:muyassar-gharib-quran-king-fahd-1433 p.20} {cite:muyassar-gharib-quran-king-fahd-1433 p.21} L’introduction précise que les ouvrages imprimés de gharib sont soit longs et organisés comme des dictionnaires, difficiles pour les apprenants ordinaires, soit trop brefs, soit sujets à la critique quant à leur choix de significations ou à leurs prises de position doctrinales, et que le Complexe a reçu une proposition de la direction générale des œuvres caritatives de mémorisation du Coran, car les participants aux cercles et aux concours de mémorisation ont besoin de la signification des mots rares. {cite:muyassar-gharib-quran-king-fahd-1433 p.19}
+
+## Son contenu
+Le livre suit l'ordre des sourates du Mushaf, en donnant chaque mot coranique entre parenthèses, suivi de sa signification en une brève phrase, en commençant par al-Fatiha. {cite:muyassar-gharib-quran-king-fahd-1433 p.23}

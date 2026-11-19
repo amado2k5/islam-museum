@@ -7,7 +7,7 @@ translators: []
 
 ## خلاصہ
 
-اسابیل آرکائیو اس سلسلے کو عمر عبد الکافی کے صوتی دروس میں شمار کرتا ہے، اور اس کی انتیس اقساط ہیں۔ {cite:assabile-omar-abdelkafy series-list} ہر قسط تقریباً دس منٹ کی ہے اور «وہ نفس اور جس نے اسے سنوارا» سے شروع ہونے والے ترانے سے کھلتی ہے؛ آغاز اور اختتام پر بتایا جاتا ہے کہ پروگرام شیخ علی بن عبداللہ الجفالی خیراتی فاؤنڈیشن اور سعودی سائنٹیفک سوسائٹی برائے قرآن کریم و علوم (تبیان) کے جدہ دفتر کے تعاون سے ہے۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:00:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:01:00} پہلی قسط میں شیخ کہتے ہیں کہ وہ ہر قسط میں انسانی نفس کی قرآنی تربیت پر ایک نکتہ یا عنوان لیں گے، اور یہ کہ قرآن نے صحابہ کے نفوس کی تربیت کیسے کی۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:06:30}
+اسابیل آرکائیو اس سلسلے کو عمر عبد الکافی کے صوتی دروس میں شمار کرتا ہے، اور اس کی انتیس اقساط ہیں۔ {cite:assabile-omar-abdelkafy series-list} ہر قسط تقریباً دس منٹ کی ہے اور «وہ نفس اور جس نے اسے سنوارا» سے شروع ہونے والے ترانے سے کھلتی ہے؛ آغاز اور اختتام پر بتایا جاتا ہے کہ پروگرام شیخ علی بن عبداللہ الجفالی خیراتی فاؤنڈیشن اور سعودی سائنٹیفک سوسائٹی برائے قرآن کریم و علوم ⁦(تبیان)⁩ کے جدہ دفتر کے تعاون سے ہے۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:00:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:01:00} پہلی قسط میں شیخ کہتے ہیں کہ وہ ہر قسط میں انسانی نفس کی قرآنی تربیت پر ایک نکتہ یا عنوان لیں گے، اور یہ کہ قرآن نے صحابہ کے نفوس کی تربیت کیسے کی۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep01 00:06:30}
 
 ## قسط 1: انسانی نفس اور کامل نفس
 
@@ -117,7 +117,7 @@ translators: []
 
 ہیروگلیفی کے بارے میں شیخ کی روایت میں [[person/haman|ہامان]]، رومیوں کی فتح کی پیشگوئی اور ابو بکر کی شرط، اور جسد اور جسم۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:07:30}
 
-## قسط 29: بشارتیں (اختتام)
+## قسط 29: بشارتیں ⁦(اختتام)⁩
 
 اللہ کا حلم، [[concept/zulm|ظلم]] کا انجام، ابراہیم کا قصہ، مشرق و مغرب کے درمیان تہذیبوں کی گردش، اور اختتام پر تکنیکی ٹیم کا شکریہ۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep29 00:09:00}
 
@@ -139,12 +139,12 @@ translators: []
 - [[person/nuh|نوح]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep03 00:04:30}
 
 ### قسط 4
-- [[concept/tatfif-short-measure|تطفیف (ناپ تول میں کمی)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:01:30}
-- [[concept/kafaa|کفاءت (نکاح میں برابری)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:03:30}
+- [[concept/tatfif-short-measure|تطفیف ⁦(ناپ تول میں کمی)⁩]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:01:30}
+- [[concept/kafaa|کفاءت ⁦(نکاح میں برابری)⁩]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:03:30}
 - [[person/yaqub|يعقوب]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep04 00:06:00}
 
 ### قسط 5
-- [[concept/al-bayt-al-muslim|مسلم گھر (البیت المسلم)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep05 00:01:30}
+- [[concept/al-bayt-al-muslim|مسلم گھر ⁦(البیت المسلم)⁩]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep05 00:01:30}
 - [[concept/fann-al-hiwar|مکالمے اور سننے کا فن]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep05 00:01:30}
 - [[concept/al-muasharah-bil-maruf|معروف کے ساتھ معاشرت]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep05 00:02:30}
 
@@ -157,11 +157,11 @@ translators: []
 - [[concept/al-qawl-al-hasan|اچھی بات کہنا]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:01:30}
 - [[person/al-asmai|الأصمعي]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:03:30}
 - [[person/abbas-ibn-abd-al-muttalib|العباس بن عبد المطلب]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:04:30}
-- [[practice/birr-al-walidayn|والدین کے ساتھ نیکی (بر الوالدین)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:07:30}
+- [[practice/birr-al-walidayn|والدین کے ساتھ نیکی ⁦(بر الوالدین)⁩]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep07 00:07:30}
 
 ### قسط 8
 - [[concept/iftira|لوگوں پر بہتان باندھنا]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:01:30}
-- [[concept/kadhib|جھوٹ (کذب)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:30}
+- [[concept/kadhib|جھوٹ ⁦(کذب)⁩]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:30}
 - [[person/al-shafii|محمد بن إدريس الشافعي]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:07:30}
 
 ### قسط 9
@@ -174,14 +174,14 @@ translators: []
 - [[concept/nafs-lawwama|النفس اللوامة]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep10 00:03:30}
 
 ### قسط 12
-- [[concept/khawf|خوفِ خدا (خوف)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:01:30}
+- [[concept/khawf|خوفِ خدا ⁦(خوف)⁩]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:01:30}
 - [[concept/raja|الرجعة]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:00}
 - [[person/al-khidr|الخضر]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:30}
 
 ### قسط 13
 - [[concept/al-rizq-al-rububi|الرزق عطاء الربوبية والإمامة عطاء الألوهية]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:01:30}
 - [[concept/tawadu|تواضع]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:04:00}
-- [[concept/ghadd-al-basar|غضِّ بصر (نگاہ نیچی رکھنا)]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:07:00}
+- [[concept/ghadd-al-basar|غضِّ بصر ⁦(نگاہ نیچی رکھنا)⁩]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:07:00}
 
 ### قسط 14
 - [[concept/huquq-al-abna|اولاد کے حقوق]] {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:02:00}

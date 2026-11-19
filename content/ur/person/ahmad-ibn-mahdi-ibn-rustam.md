@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b101, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/396-397" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b101, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/396-397" }
 ---
 ## خلاصہ
 ابو جعفر احمد بن مہدی بن رستم، مضبوط دین اور امانت دار راوی، جنہوں نے علم پر بہت مال خرچ کیا اور سخی تھے۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 679)⁩ صفحات 396 اور 397 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 679 ہے، تسلسل میں 680۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/396} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/397}
