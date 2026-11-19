@@ -1,0 +1,12 @@
+---
+id: person/mohamed-ennakhli
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/mohamed-ennakhli.md}
+---
+## Résumé
+
+Mohamed Ennakhli (1869–1924) était un érudit et réformateur tunisien zaïtune né à Kairouan. {cite:wikipedia-mohamed-ennakhli-fr} {cite:wikidata-mohamed-ennakhli} Il rejoignit les Zaytuna en 1304 H et étudia sous Salem Bouhageb, Mahmoud Ben Mahmoud et Mohamed Ennajar, atteignant le premier rang de ses enseignants, et en quelque trente-cinq ans, il forma toute une pléiade d'érudits qui atteignirent les plus hautes fonctions civiles et religieuses en Tunisie. {cite:wikipedia-mohamed-ennakhli-ar} {cite:wikipedia-mohamed-ennakhli-fr} Ses idées libérales furent inspirées par les grands réformateurs musulmans du XIXe siècle, surtout Muhammad Abduh et Jamal al-Din al-Afghani ; il enseigna également à la Khaldounia, l'école fondée en 1896 pour enseigner les matières que les Zaytuna ne pratiquaient pas, telles que les mathématiques et les sciences physiques, et il fut un membre actif du conseil d'amélioration du Sadiki College créé en 1906. {cite:wikipedia-mohamed-ennakhli-fr}
+
+Exégète, jurisconsulte, historien, écrivain et poète, Ennakhli défendait dans ses cours, conférences et écrits la nécessité de concilier science et religion. {cite:wikipedia-mohamed-ennakhli-fr} Parmi ses élèves figuraient Mohamed Tahar Ben Achour, le grand cadi Mohamed Sadok Ennaifer et le réformateur algérien Abdelhamid Ben Badis, chef de l'Association des Ulamas musulmans algériens. {cite:wikipedia-mohamed-ennakhli-ar} {cite:wikipedia-mohamed-ennakhli-fr} Muhammad Makhlof, dans Shajarat al-Nur al-Zakiyya, se souvenait de lui comme d'un critique persévérant d'une intelligence rare et d'une parole claire ; la seule œuvre imprimée de son vivant fut un traité de douze pages sur la vie de la langue arabe, tandis que ses études sur la femme musulmane, la géographie, la prosodie et le commentaire du Coran restèrent manuscrites. {cite:wikipedia-mohamed-ennakhli-ar} Il mourut à Tunis en 1924, et ses funérailles furent publiques, son corps ayant été transporté à Kairouan pour y être enterré comme il l'avait souhaité. {cite:wikipedia-mohamed-ennakhli-ar}

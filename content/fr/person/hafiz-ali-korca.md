@@ -1,0 +1,12 @@
+---
+id: person/hafiz-ali-korca
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/hafiz-ali-korca.md}
+---
+## Résumé
+
+Hafiz Ali Korça (5 avril 1873 – 7 janvier 1957) était un 'alim albanais originaire de Korçë, né dans une famille de savants religieux ; à l'âge de douze ans, il avait mémorisé le Coran, l'excellence derrière le titre honorifique par lequel il est communément connu. {cite:wikipedia-hafiz-ali-korca-en} Éduqué à Korçë puis à la madrasa Çifte Minareli à Istanbul, il se lança à fond dans le mouvement national albanais : il enseigna sans rémunération à l'école de garçons albanais de Korçë, prit la parole pour l'alphabet latin au Congrès de Dibër et soutint le Congrès d'Elbasan de 1909 qui posa les bases de l'éducation nationale. {cite:wikipedia-hafiz-ali-korca-sq} En 1916, il devint directeur de l'éducation pour Tirana, Durrës et le centre de l'Albanie et, la même année, Grand Mufti du Conseil de la Haute-charia, poste qu'il occupa jusqu'en 1924 ; il fut également fondateur et enseignant de la Médrese de Tirana, où il réforma le programme et rédigea des manuels. {cite:wikipedia-hafiz-ali-korca-en} {cite:wikipedia-hafiz-ali-korca-sq}
+
+Sa plume portait à la fois l'érudition religieuse et les lettres nationales en albanais : un Mawlid (1900), des interprétations du Gulistan et Bustan (1918) de Saadi et du Rubaiyat (1930) d'Omar Khayyam tirés du persan, un commentaire sur certaines parties du Coran, et une traduction de parties du Coran lui-même, publiée en 1926. {cite:wikipedia-hafiz-ali-korca-en} En 1925, son ouvrage Bolshevizma a çkatërrim i njerëzimit (Bolchevisme : La destruction de l'humanité) fit de lui le premier Albanais à attaquer le communisme par écrit — une position à laquelle le régime communiste répondit plus tard en l'internant à Kavajë et en le gardant sous surveillance jusqu'à la quatre-vingtaine de ses années. {cite:wikipedia-hafiz-ali-korca-en} {cite:wikipedia-hafiz-ali-korca-sq} Il mourut à Kavajë et y fut enterré ; la biographie albanaise et Wikidata datent le décès du 7 janvier 1957, tandis que l'article anglais indique le 31 décembre 1957. {cite:wikipedia-hafiz-ali-korca-sq} {cite:wikidata-hafiz-ali-korca} {cite:wikipedia-hafiz-ali-korca-en}

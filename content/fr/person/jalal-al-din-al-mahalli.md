@@ -1,0 +1,12 @@
+---
+id: person/jalal-al-din-al-mahalli
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/jalal-al-din-al-mahalli.md}
+---
+## Dans al-Daw' al-Lami d'al-Sakhawi
+[[person/al-sakhawi|Al-Sakhawi]] donne une entrée pour Muhammad ibn Ahmad ibn Muhammad, Jalal al-Din Abu Abd Allah al-Mahalli le Shafi'i : né au Caire le 1er Shawwal 791, il étudia avec al-Bulqini, Wali al-Din al-Iraqi, Ibn Hajar et d'autres. {cite:daw-lami-jil-1992 7/39} {cite:daw-lami-jil-1992 7/40} Ses œuvres comprennent des commentaires sur Jam' al-Jawami', al-Waraqat et al-Minhaj, ainsi qu'une exégèse inachevée. {cite:daw-lami-jil-1992 7/40} Il enseigna au Barquqiyya et au Mu'ayyadiyya, refusa le poste de juge et mourut le matin du samedi 1er Muharram 864. {cite:daw-lami-jil-1992 7/41}
+
+## Dans l'introduction de l'édition Maktabat al-Iman de Tafsir al-Jalalayn
+Muhammad Muhammad Tamir donne le nom d'al-Mahalli comme Muhammad ibn Ahmad ibn Muhammad ibn Muhammad ibn Ibrahim al-Mahalli le Shafi'i, intitulé Jalal al-Din, théoricien du droit, théologien, juriste et exégète, né en Égypte en 791 H. {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.4} Il le décrit comme compétent dans de nombreuses disciplines, exceptionnel en intelligence et en compréhension, qui disait la vérité sans craindre d'être blâmé ; il refusa un poste de juge lorsqu'il fut offert et enseigné aux collèges Mu'ayyadiyya et Barquqiyya. {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.4} Les ouvrages qu'il nomme incluent des commentaires sur al-Waraqat en théorie juridique, sur al-Minhaj en droit et sur Jam' al-Jawami' en théorie juridique, ainsi qu'un livre sur le jihad. {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.4} Il mourut en 864 H. {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.4} Il expliqua la seconde moitié du Coran avec al-Fatiha, et [[person/al-suyuti|al-Suyuti]] acheva ce qu'il lui restait, faisant du livre [[work/tafsir-al-jalalayn|Tafsir al-Jalalayn]] ; dans la note finale de son achèvement, al-Suyuti le qualifie de « le cheikh, l'imam, le savant, le très érudit, le vérificateur ». {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.3} {cite:tafsir-jalalayn-lithograph-1278 p.369}
