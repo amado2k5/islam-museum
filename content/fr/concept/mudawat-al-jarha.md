@@ -1,0 +1,24 @@
+---
+id: concept/mudawat-al-jarha
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/mudawat-al-jarha.md}
+---
+## Vue d'ensemble
+Les livres de hadith contiennent de courts rapports sur les soins aux blessés dans les campagnes et la maison du Prophète. Ce récit rassemble ce que nous avons trouvé à leur sujet dans les textes de Sahih al-Bukhari et Sahih Muslim conservés au musée, les expose tels qu'ils ont été transmis sans en tirer une règle médicale ou juridique, et met à côté de ce qu'Ibn Sina a écrit sur le travail de la main, afin que le lecteur puisse voir comment les blessures et les saignements étaient évoqués dans chaque domaine. Ce qu'un rapport ne dit pas n'y est pas attribué.
+
+## Femmes donnant à boire et gâtant
+Al-Rubayyi' bint Mu'awwidh dit : « Nous étions avec le Prophète, à donner à boire, soigner les blessés, et ramener les morts à Médine » {cite:sahih-al-bukhari 2882} ; voir [[passage/bukhari-api-2882|Bukhari 2882]] et [[person/al-rubayyi-bint-muawwidh|al-Rubayyi' bint Mu'awwidh]]. Le musée possède un registre distinct de ce qui est raconté sur la tente de Rufayda al-Aslamiyya, où elle soignait les blessés, qui repose sur l'al-Isaba d'Ibn Hajar et l'encyclopédie TDV ; son nom n'apparaît pas dans les rapports présentés ici : [[invention/rufayda-medical-tent|la tente de Rufayda]] et [[person/rufayda-al-aslamiyya|Rufayda al-Aslamiyya]].
+
+## La blessure du Prophète à Uhud
+On demanda à Sahl ibn Sa'd des nouvelles de la blessure du Prophète et répondit qu'il savait qui la lavait, qui versait l'eau et avec quoi elle était traitée : Fatima, la fille du Prophète, la lava et Ali versa de l'eau d'un bouclier ; « lorsque Fatima vit que l'eau ne faisait qu'augmenter le sang, elle prit un morceau de tapis, le brûla, l'appliqua et le sang resta conservé ». Ce jour-là, son incisive fut brisée, son visage blessé et son casque fracassé sur sa tête {cite:sahih-al-bukhari 4075} ; voir [[passage/bukhari-api-4075|Boukhari, 4075]]. Dans la version de Muslim, elle brûla le morceau de tapis en cendres et appliqua le sang sur la plaie, et le sang conserva {cite:hadith-api-fawazahmed0 Muslim 4642} ; voir [[passage/muslim-api-4642|Muslim 4642]]. À titre de comparaison, Ibn Sina cite la fourrure de lapin, la toile d'araignée et le blanc d'œuf parmi les médicaments pour arrêter le sang {cite:canon-ibn-sina-print-v1 p.306} ; le musée affirme ne pas avoir de lien entre les deux. [[person/fatima|Voir Fatima bint Muhammad]] et [[event/battle-of-uhud|La Bataille d'Uhud]].
+
+## Sa'd ibn Mu'adh : la tente et la veine du bras
+A'isha rapporte que Sa'd fut frappé dans l'akhal, la veine du bras, le jour de la Fosse, et que le Prophète dressa une tente dans la mosquée pour lui rendre visite de près. Il y avait aussi une tente de Banu Ghifar dans la mosquée, et le sang se précipita vers eux ; La blessure de Sa'd coulait du sang, et il mourut là {cite:sahih-al-bukhari 463} ; voir [[passage/bukhari-api-463|Boukhari, 463]]. Dans la version musulmane de son rapport, l'archer était un homme de Quraysh nommé Ibn al-Ariqa {cite:hadith-api-fawazahmed0 Muslim 4598}. Jabir rapporte : « Sa'd ibn Mu'adh fut touché dans son akhal et le Prophète le cautérisa de sa propre main avec une large pointe de flèche ; puis il a gonflé et il l'a cautérisé une seconde fois » {cite:hadith-api-fawazahmed0 Muslim 5748} ; voir [[passage/muslim-api-5748|Muslim 5748]]. Le verbe est hasama, que le registre de passage du musée décrit comme une cautérisation d'une plaie pour arrêter le sang. Ibn Sina traite la cautérie pour les saignements et dit qu'elle doit être solide afin que sa croûte soit profonde et épaisse et ne tombe pas rapidement {cite:canon-ibn-sina-print-v1 p.309}. Voir [[person/sad-ibn-muadh|Sa'd ibn Mu'adh]] et [[event/battle-of-the-trench|La Bataille de la Tranchée]].
+
+## Le médecin, la veine et le cautère
+Jabir rapporte également que le Prophète envoya un médecin chez Ubayy ibn Ka'b, qui lui coupa une veine puis la cautériza {cite:hadith-api-fawazahmed0 Muslim 5745} ; voir [[passage/muslim-api-5745|Muslim 5745]] et [[person/ubayy-ibn-kab|Ubayy ibn Ka'b]]. Ce rapport décrit la coupe d'une veine puis la cautérisation, des opérations qu'Ibn Sina traite en [[concept/al-fasd|vénésection]] et [[concept/al-jiraha|en chirurgie, le travail de la main]].
+
+## Une note
+Ces rapports constituent l'histoire du traitement à son époque, ni une règle thérapeutique ni une décision juridique. La question de la décision sur la recherche de traitement et ses limites appartient à [[concept/tadawi|la recherche de traitement]], où les points de vue des juristes sont exposés.
