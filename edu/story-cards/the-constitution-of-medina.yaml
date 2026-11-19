@@ -3,10 +3,12 @@ title:
   ar: "صحيفة المدينة"
   en: "The Constitution of Madinah"
   ur: "میثاقِ مدینہ"
+  fr: "La Charte de Médine"
 lede:
   ar: "أول دستور مكتوب في المدينة يجمع المسلمين واليهود والأحلاف — في اثنتي عشرة بطاقة."
   en: "The first written charter joining Madinah's Muslims, Jews and allies — in twelve cards."
   ur: "مدینہ کا پہلا تحریری دستور جو مسلمانوں، یہود اور حلفاؤ کو جوڑتا ہے — بارہ کارڈز میں۔"
+  fr: "La première charte écrite qui réunit les musulmans, les juifs et leurs alliés à Médine, en douze cartes."
 status: { review: published }
 sources: [source/ibn-hisham-saqqa]
 
@@ -15,76 +17,93 @@ provenance:
   model: "Devin (Cognition)"
   run: "education-E5-story-cards"
   source: "سيرة ابن هشام، نص صحيفة المدينة؛ دراسات أحمد إبراهيم الشريف — إعادة صياغة بأمانة."
+  fr:
+    generated_by: "Devin"
+    model: "unknown"
+    run: "devin-a7ba389df57d4bdb9b7515fa59f40242"
+    source: "Existing English text in this activity, with Arabic consulted for religious material."
 cards:
-  - title: { ar: "يثرب المقسّمة", en: "A divided Yathrib", ur: "منقسم یثرب" }
+  - title: { ar: "يثرب المقسّمة", en: "A divided Yathrib", ur: "منقسم یثرب", fr: "Yathrib, une ville divisée" }
     motif: city
     narration:
       ar: "قبل الهجرة كانت يثرب مدينة مقسّمة: الأوس والخزرج يتقاتلون، واليهود قبائل، والمهاجرون جدد."
       en: "Before the Hijra Yathrib was divided: Aws and Khazraj feuding, Jewish tribes, newcomers arriving."
       ur: "ہجرت سے پہلے یثرب منقسم تھا: اوس اور خزرج لڑتے، یہودی قبائل، اور نئے آئے مہاجرین۔"
-  - title: { ar: "الحاجة", en: "The need", ur: "ضرورت" }
+      fr: "Avant l’Hégire, Yathrib était divisée : les Aws et les Khazraj se battaient, des tribus juives y vivaient et des migrants venaient d’arriver."
+  - title: { ar: "الحاجة", en: "The need", ur: "ضرورت", fr: "Le besoin" }
     motif: map
     narration:
       ar: "احتاج الناس إلى صحيفة واحدة تحدد حقوق كل فريق وواجباته."
       en: "The people needed one charter setting out each side's rights and duties."
       ur: "لوگوں کو ایک صحیفہ چاہیے تھا جو ہر فریق کے حقوق اور فرائض لکھے۔"
-  - title: { ar: "الكاتب", en: "The writing", ur: "تحریر" }
+      fr: "Il fallait une charte commune pour définir les droits et les devoirs de chaque groupe."
+  - title: { ar: "الكاتب", en: "The writing", ur: "تحریر", fr: "La rédaction" }
     motif: pen
     narration:
       ar: "أمر النبي بكتابة الصحيفة، فكتبت على جلد أو صحف، بنداً بنداً."
       en: "The Prophet ordered the charter written; it went on skin or scrolls, clause by clause."
       ur: "نبی نے صحیفہ لکھوانے کا حکم دیا؛ چمڑے پر لکھا گیا، بند بہ بند۔"
-  - title: { ar: "أمة واحدة", en: "One umma", ur: "ایک امت" }
+      fr: "Le prophète Muhammad ordonna de rédiger la charte. On l’écrivit sur du cuir ou sur des feuillets, clause après clause."
+  - title: { ar: "أمة واحدة", en: "One umma", ur: "ایک امت", fr: "Une seule oumma" }
     motif: star
     narration:
       ar: "نصّت الصحيفة أن المؤمنين والمسلمين من قريش ويثرب أمة واحدة من دون الناس."
       en: "The charter stated that the believers and Muslims of Quraysh and Yathrib are one umma apart from other people."
       ur: "صحیفے میں لکھا کہ قریش اور یثرب کے مومنین اور مسلمان دوسرے لوگوں سے ایک الگ امت ہیں۔"
-  - title: { ar: "اليهود", en: "The Jews", ur: "یہود" }
+      fr: "La charte stipulait que les croyants et les musulmans de Quraych et de Yathrib formaient une communauté distincte, une oumma."
+  - title: { ar: "اليهود", en: "The Jews", ur: "یہود", fr: "Les juifs" }
     motif: manuscript
     narration:
       ar: "ولليهود دينهم وللمسلمين دينهم، عليهم النفقة وعليهم النصر إذا دعوا."
       en: "The Jews keep their religion and the Muslims theirs; each pays their share and each helps when called."
       ur: "یہود کو اپنا دین اور مسلمانوں کو اپنا دین ہے؛ ہر فریق اپنا حصہ ادا کرے اور مدد کرے۔"
-  - title: { ar: "الدماء", en: "The blood", ur: "خون" }
+      fr: "Les juifs conservaient leur religion et les musulmans la leur. Chacun prenait en charge sa part des dépenses et prêtait assistance quand on le lui demandait."
+  - title: { ar: "الدماء", en: "The blood", ur: "خون", fr: "Les vies humaines" }
     motif: coin
     narration:
       ar: "من قتل نفساً بغير حق فعليه القصاص، ولا يجوز أن يمنع قاتلاً من قصاصه."
       en: "Whoever wrongfully takes a life faces retaliation; none may shield a murderer from it."
       ur: "جو ناحق جان لے اس پر قصاص ہے؛ کوئی قاتل کو قصاص سے نہیں بچا سکتا۔"
-  - title: { ar: "الحل والحرم", en: "Peace and war", ur: "صلح اور جنگ" }
+      fr: "Quiconque tuait sans droit s’exposait à la loi du talion. Nul ne pouvait y soustraire un meurtrier."
+  - title: { ar: "الحل والحرم", en: "Peace and war", ur: "صلح اور جنگ", fr: "La paix et la guerre" }
     motif: compass
     narration:
       ar: "سلم المؤمنين واحدة، لا يسالم مؤمن دون مؤمن في قتال في سبيل الله."
       en: "The believers' peace is one; no believer makes a separate peace in God's cause."
       ur: "مومنین کی صلح ایک ہے؛ اللہ کی راہ کی جنگ میں کوئی مومن الگ صلح نہیں کرتا۔"
-  - title: { ar: "يثرب حرم", en: "Yathrib a sanctuary", ur: "یثرب حرم" }
+      fr: "La paix des croyants était commune : aucun d’eux ne pouvait conclure de paix séparée lors d’un combat pour la cause de Dieu."
+  - title: { ar: "يثرب حرم", en: "Yathrib a sanctuary", ur: "یثرب حرم", fr: "Yathrib, un sanctuaire" }
     motif: mosque
     narration:
       ar: "نصت الصحيفة أن جوار يثرب حرم لأهل هذه الصحيفة."
       en: "The charter made the heart of Yathrib a sanctuary for the charter's people."
       ur: "صحیفے نے یثرب کے قلب کو اس صحیفے کے لوگوں کے لیے حرم قرار دیا۔"
-  - title: { ar: "الجار", en: "The neighbour", ur: "پڑوسی" }
+      fr: "La charte faisait du territoire de Yathrib un lieu sacré pour les gens qu’elle liait."
+  - title: { ar: "الجار", en: "The neighbour", ur: "پڑوسی", fr: "Le voisin" }
     motif: city
     narration:
       ar: "إن الجار كالنفس غير مضار ولا آثم."
       en: "The neighbour is like the self: not harmed and not sinned against."
       ur: "پڑوسی خود جان کی طرح ہے: نہ اسے نقصان پہنچایا جائے نہ گناہ۔"
-  - title: { ar: "الفتنة", en: "The strife", ur: "فتنہ" }
+      fr: "Le voisin devait être traité comme soi-même : sans tort ni injustice."
+  - title: { ar: "الفتنة", en: "The strife", ur: "فتنہ", fr: "Les différends" }
     motif: moon
     narration:
       ar: "وإنه مهما اختلفتم فيه من شيء فإن مرده إلى الله وإلى محمد."
       en: "Whatever you differ on returns to God and to Muhammad."
       ur: "جس بات میں تم اختلاف کرو گے، اس کا فیصلہ اللہ اور محمد کے پاس لوٹے گا۔"
-  - title: { ar: "العدل", en: "The fairness", ur: "انصاف" }
+      fr: "En cas de désaccord, la charte prévoyait de s’en remettre à Dieu et à Muhammad."
+  - title: { ar: "العدل", en: "The fairness", ur: "انصاف", fr: "L’équité" }
     motif: coin
     narration:
       ar: "شملت الصحيفة كل فريق: المهاجرين والأنصار واليهود ومن تبعهم وقاتل معهم."
       en: "The charter covered everyone: the Muhajirin, the Ansar, the Jews and those who followed and fought with them."
       ur: "صحیفے میں ہر فریق آیا: مہاجرین، انصار، یہود اور جو ان کے ساتھ لڑے۔"
-  - title: { ar: "أول دستور", en: "The first charter", ur: "پہلا دستور" }
+      fr: "La charte concernait tous les groupes : les émigrés, les auxiliaires médinois, les juifs et ceux qui s’étaient joints à eux pour combattre à leurs côtés."
+  - title: { ar: "أول دستور", en: "The first charter", ur: "پہلا دستور", fr: "La première charte" }
     motif: star
     narration:
       ar: "يصفها المؤرخون بأنها من أوائل الوثائق الدستورية في التاريخ."
       en: "Historians call it among the earliest constitutional documents in history."
       ur: "مؤرخین اسے تاریخ کے ابتدائی دستوری دستاویزات میں شمار کرتے ہیں۔"
+      fr: "Les historiens la décrivent comme l’un des premiers textes constitutionnels de l’histoire."
