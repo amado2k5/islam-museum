@@ -1,0 +1,12 @@
+---
+id: concept/nubuwwa
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/nubuwwa.md}
+---
+## Résumé
+Nubuwwa vient de la racine de la hauteur ou des nouvelles, et nabi est lié aux deux. En droit, c'est une qualité affirmative du prophète avec une qualité relationnelle, l'attachement de l'adresse divine à lui. Risala est plus étroit : c'est être envoyé par Dieu aux gens, ou à certains d'entre eux, pour transmettre la loi. La prophétie est établie par des miracles qui rompent l'habitude et sont liés à un défi, dont le Coran. Les règles que le Coran ou la Sunna rapportent des prophètes antérieurs nous lient en matière de foi par accord, et en matière de droit, la majorité les considère contraignantes à moins que notre loi ne les rejette, tandis que les Shafi'is ne les tiennent pas contraignantes pour nous. Quiconque prétend la prophétie, pour lui-même ou pour autrui, est un menteur et un apostat par accord, puisque le Prophète est le sceau des prophètes ; celui qui confirme un tel prétendant devient apostat. Les juristes divergent sur la question de savoir si un dhimmi qui fait cette affirmation doit être invité à se repentir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15458} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15459} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15460} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15461} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15462}
+
+## Dans les leçons de Yusuf al-Qaradawi Ta'ammulat Qur'aniyya
+[[person/yusuf-al-qaradawi|Yusuf al-Qaradawi]] affirme que les érudits considèrent que la prophétie est un choix divin, non une acquisition : personne ne l'atteint par l'effort, la dévotion ou les bonnes œuvres ; il note qu'elles énumérent la véracité, la fiabilité, la transmission du message et l'acuité parmi les qualités des prophètes. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep01 00:11:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep01 00:12:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep01 00:12:30} Il dit que les rêves des prophètes sont vrais et constituent une révélation, bien que leur forme la plus basse. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep15 00:20:00}

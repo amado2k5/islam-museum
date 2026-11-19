@@ -1,0 +1,10 @@
+---
+id: concept/rukn-fiqh
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: draft
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/rukn-fiqh.md}
+---
+## Résumé
+Le Rukn dans le lexique est le côté le plus fort et la grande matière ; techniquement, c'est ce dont une chose ne peut exister sans lui, la partie de son essence, contre la condition qui est hors de l'essence, et contre l'obligation. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8955} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8956} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8957} Un pèlerin qui laisse un pilier du pèlerinage ne termine pas son rite ; celui qui quitte une obligation la règle par un sacrifice, et les Hanafis et Hanbalis appliquent cela à la prière. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8957} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8958} Les piliers de l'ablution, du tayammum, de la prière, du jeûne, de l'i'tikaf et du pèlerinage diffèrent entre les écoles. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8958} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8959} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8960} Dans les contrats, la majorité considère que chacun possède trois piliers, la formule, les deux parties et l'objet, tandis que les Hanafis ne détiennent que la formule uniquement ; l'absence de pilier rend le contrat nul. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8960} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8961} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8962} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8963} La sunna consiste à toucher ou embrasser la Pierre Noire et le coin yéménite, et à les pointer de loin lorsqu'il y a une foule. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8963} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8964} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8965} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8966}
