@@ -1,0 +1,11 @@
+---
+id: concept/wirk-fiqh
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: draft
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/concept/wirk-fiqh.md}
+---
+## Resumen
+
+Wirk (cadera) en el léxico es la articulación entre el muslo y la pierna; una persona tiene dos, por encima de los muslos, y el sentido técnico no se aparta de esto. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17165} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17166} En general se recomienda sentarse con la cadera hacia abajo (tawarruk) en el tashahhud. Los Malikis lo aplican a cada sentada en oración; los Shafi'is y Hanbali al tashahhud final; los Hanbalíes no lo aplican a oraciones con un solo tashahhud, como las oraciones del amanecer y del viernes; los Hanafis prescriben abrir la pierna (iftirash) para los hombres y el tawarruk para las mujeres. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17166} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17167} Los Hanbalis difieren en el tawarruk en el tashahhud tras postraciones por olvido; al-Qadi la aplica en cada uno de esos tashahhud. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17167} En cuanto a la represalia, los juristas coinciden en general en que un corte de pierna en la raíz de la cadera está sujeto a represalias, ya que es posible cortar por igual medida una vez que se cumplen las condiciones generales para la represalia en las extremidades. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17167} Sobre el dinero de sangre por un corte en la cadera hay desacuerdo: la mayoría de los Malikis, Hanbalis y Abu Yusuf sostienen que se aplica la suma completa de cincuenta camellos, como en el informe de Amr ibn Hazm; Abu Hanifa, Muhammad, los Shafi'is y al-Qadi entre los Hanbalis añaden una compensación tasada por la parte por encima de los tobillos a la suma por el pie. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17167} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17168} Cuando una pierna se corta en el tobillo y luego en la rodilla o cadera, se debe una compensación impuesta por el segundo corte por acuerdo. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17168}
