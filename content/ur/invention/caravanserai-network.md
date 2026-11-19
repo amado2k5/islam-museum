@@ -2,7 +2,7 @@
 id: invention/caravanserai-network
 lang: ur
 source_lang: ar
-title: "اسلامی شاہراہوں کا خان (کاروان سرا) جال"
+title: "اسلامی شاہراہوں کا خان ⁦(کاروان سرا)⁩ جال"
 status: { review: published }
 provenance: { generated_by: devin-drafter-w2-27, model: SWE-2, run: inventions-w2-27, source: "EI2 KHAN vol. IV pp. 1048-1055" }
 ---

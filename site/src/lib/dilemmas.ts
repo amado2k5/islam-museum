@@ -4,6 +4,7 @@
 // This loader is the single integrity gate the pages and the tests share.
 import { readFileSync, readdirSync } from "node:fs";
 import { parse } from "yaml";
+import { parseLocalized } from "./i18n";
 import { repoPath } from "./paths";
 import { byId } from "./graph";
 import type { Tri } from "./edu";
@@ -32,7 +33,7 @@ export function loadDilemmas(): Dilemma[] {
   const dilemmas: Dilemma[] = [];
   const seen = new Set<string>();
   for (const f of readdirSync(dir).filter((x) => x.endsWith(".yaml")).sort()) {
-    const d = parse(readFileSync(`${dir}/${f}`, "utf8")) as Dilemma & Record<string, unknown>;
+    const d = parseLocalized(readFileSync(`${dir}/${f}`, "utf8")) as Dilemma & Record<string, unknown>;
     for (const b of BANNED)
       if (b in d) throw new Error(`edu/dilemmas/${f}: banned field ${b}`);
     if (!d.id || seen.has(d.id)) throw new Error(`edu/dilemmas/${f}: duplicate or missing id`);

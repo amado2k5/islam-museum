@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Devin (SWE-2), draft translation"]
 ---
 
-# مغرب کی طرف ہجرت — امید یا درد (دماغ کی ہجرت)
+# مغرب کی طرف ہجرت — امید یا درد ⁦(دماغ کی ہجرت)⁩
 
 ## قسط اور ووٹ
 «الوسطیہ» کی قسط نے مغرب کی طرف ہجرت پر بحث کی — «وہ اسے جنت سمجھتے ہیں اور نسل پرستانہ امتیاز، خاندانی تحلیل اور شناخت کے ضیاع سے ٹکراتے ہیں» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:01:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:02:00}۔ نوجوانوں نے ووٹ دیا: 34% فوری ہجرت قبول کریں گے، 26% ہچکچائیں گے، 40% قبول نہیں کریں گے؛ {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:09:00} اور 84% نے اس مظہر کو بڑا اور خطرناک جانا {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:38:00}۔

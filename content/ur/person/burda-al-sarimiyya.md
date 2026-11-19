@@ -6,7 +6,7 @@ translators: ["Claude Code (OCR-harvest worker E), claude-opus-5-5, translation"
 provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sifat-al-safwa-tartusi-2012 p.712–713" }
 ---
 ## خلاصہ
-بردہ الصریمیہ [[place/basra|بصرہ]] کی ایک عابدہ تھیں؛ ابن الجوزی [[work/sifat-al-safwa|صفۃ الصفوہ]] میں ان کا ترجمہ دیتے ہیں (نمبر 596)، اور ثابت بنانی انہیں ابتدائی دور کی ایک خاتون بتاتے ہیں جو اتنا روئیں کہ بینائی خراب ہو گئی۔ {cite:sifat-al-safwa-tartusi-2012 p.712}
+بردہ الصریمیہ [[place/basra|بصرہ]] کی ایک عابدہ تھیں؛ ابن الجوزی [[work/sifat-al-safwa|صفۃ الصفوہ]] میں ان کا ترجمہ دیتے ہیں ⁦(نمبر 596)⁩، اور ثابت بنانی انہیں ابتدائی دور کی ایک خاتون بتاتے ہیں جو اتنا روئیں کہ بینائی خراب ہو گئی۔ {cite:sifat-al-safwa-tartusi-2012 p.712}
 
 ## پردیس کے مہمان
 ان سے پوچھا جاتا کہ صبح کیسی ہوئی تو کہتیں: «ہم نے پردیس میں چراگاہ ڈھونڈنے والے مہمانوں کی طرح صبح کی ہے، پکارنے والے کی پکار کا جواب دینے کے منتظر»۔ {cite:sifat-al-safwa-tartusi-2012 p.712}

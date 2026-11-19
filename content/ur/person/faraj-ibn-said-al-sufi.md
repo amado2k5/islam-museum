@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b73, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/162-163" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b73, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/162-163" }
 ---
 ## خلاصہ
 ابو روح فرج بن سعید صوفی ائمہ اور اوتاد کی راہ پر ملامت کیے گئے، اور ان سے وہ باتیں نقل کیں جن سے بندے علاج کرتے ہیں۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 534)⁩ صفحات 162 اور 163 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 534 ہے، تسلسل میں 535۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/162} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/163}

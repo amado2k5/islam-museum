@@ -1,0 +1,35 @@
+---
+id: person/abol-qasem-qaem-maqam-farahani
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/abol-qasem-qaem-maqam-farahani.md}
+---
+
+## Resumen
+
+Mirza Abol-Qasem Qa'em-Maqam Farahani (1779 – 1835) fue un estadista y escritor en prosa iraní que estuvo en el centro de la política qajar en la primera mitad del siglo XIX {cite:wikipedia-abol-qasem-qaem-maqam-en}. Sirvió como ministro del príncipe heredero Abbas Mirza, ayudó a negociar los tratados de Erzurum y Turkmenchay, y se convirtió en el primer gran visir de Mohammad Shah en 1834, solo para ser estrangulado por orden del shah en menos de un año {cite:wikipedia-abol-qasem-qaem-maqam-en} {cite:wikipedia-abol-qasem-qaem-maqam-ur}. Su *Monsha'at* es un hito de la prosa persa {cite:wikipedia-abol-qasem-qaem-maqam-ar}.
+
+## Familia y formación
+
+Abol-Qasem pertenecía a una familia de burócratas de Farahan, en el centro de Irán, una región conocida por su alfabetización y su destreza en el arte del gobierno {cite:wikipedia-abol-qasem-qaem-maqam-en}. Su padre, Mirza Isa Farahani, más conocido como Mirza Bozorg Qa'em-Maqam, había sido funcionario de los gobernantes de Zand y se convirtió en uno de los principales estadistas de los Qajar, sirviendo como ministro del príncipe heredero Abbas Mirza {cite:wikipedia-abol-qasem-qaem-maqam-en}. El título de Qa'em-Maqam, "ayudante" o "adjunto", fue otorgado por primera vez a Mirza Bozorg en 1809/10 cuando fue nombrado diputado del gran visir Mirza Shafi Mazandarani, y Abol-Qasem lo heredó con los títulos y cargos de su padre a su muerte en 1821 {cite:wikipedia-abol-qasem-qaem-maqam-en}. Desde muy joven demostró su habilidad poética, escribiendo qasidas bajo el seudónimo Thana'i {cite:wikipedia-abol-qasem-qaem-maqam-en} {cite:wikipedia-abol-qasem-qaem-maqam-ar}.
+
+## Ministro ante Abbas Mirza
+
+Tras la muerte de su padre, Abol-Qasem le sucedió como ministro de Abbas Mirza, cuya visión de mente abierta y progresista le atraía, y acompañó al príncipe heredero en sus guerras como el artífice detrás de sus intentos de reformas {cite:wikipedia-abol-qasem-qaem-maqam-en}. En 1823 participó en la negociación de la paz con el Imperio Otomano que se convirtió en el Tratado de Erzurum; más tarde ese mismo año se vio obligado a retirarse bajo sospechas de amistad con Rusia, fue restablecido en 1825 y luego cayó en desgracia junto a Fath-Ali Shah por oponerse a una nueva guerra con Rusia, pasando toda la guerra ruso-persa de 1826–1828 en el exilio en Mashhad {cite:wikipedia-abol-qasem-qaem-maqam-en}. Reinstalado para negociar con una Rusia victoriosa, estaba decidido a recuperar la mayor cantidad de tierras posible, llegando incluso a aceptar reembolsar económicamente a los rusos para conservar Azerbaiyán, pero el Tratado de Turkmenchay de 1828 cedió a Iravan, Nakhjavan y Talesh y confirmó a Abbas Mirza como el indiscutible heredero al trono {cite:wikipedia-abol-qasem-qaem-maqam-en}. En una de sus qasidas lamentó el cambio en la fortuna de Irán, reconociendo que los rusos, y no los iraníes, eran ahora la fuerza superior en la región {cite:wikipedia-abol-qasem-qaem-maqam-en}. Fath-Ali Shah también lo nombró atabak-e azam, tutor principal de su hijo Farrokh-Siyar Mirza; en sus obras Abol-Qasem indica que tomó como modelo a seguir al visir selyúcida Nizam al-Mulk {cite:wikipedia-abol-qasem-qaem-maqam-en}.
+
+## Gran visir y muerte
+
+Cuando Abbas Mirza murió en 1833, su hijo Mohammad Mirza se convirtió en heredero, y tras la muerte de Fath-Ali Shah en 1834 fue Abol-Qasem quien aseguró la ascensión de Mohammad Shah, encarcelando a cinco de los hermanos del nuevo shah en Ardabil y más tarde mandando cegar a Khosrow Mirza y Jahangir Mirza bajo sospecha de conspiración {cite:wikipedia-abol-qasem-qaem-maqam-en}. Se convirtió en el primer gran visir del reinado, pero su política centralizadora le convirtió en enemigos de la facción Davalu de los Qajar, y las legaciones británica y rusa no apreciaban su oposición a presiones extranjeras e internas {cite:wikipedia-abol-qasem-qaem-maqam-en}. Por instigación del tutor del sha, Haji Mirza Aqasi, Mohammad Shah mandó estrangularlo en la cripta del palacio de Negarestan en Teherán en junio de 1835, y Aqasi fue nombrado gran visir en su lugar {cite:wikipedia-abol-qasem-qaem-maqam-en} {cite:wikipedia-abol-qasem-qaem-maqam-ur}.
+
+## Escritos
+
+Abol-Qasem fue un destacado escritor de prosa, cuyas obras más notables son su diván, el *Shir Qa'em-Maqam* y, sobre todo, el *Monsha'at Qa'em-Maqam*, sus cartas y documentos recopilados {cite:wikipedia-abol-qasem-qaem-maqam-en} {cite:wikipedia-abol-qasem-qaem-maqam-ar}. Durante las guerras ruso-persas compiló en Tabriz el *Jehadiyeh*, un libro construido a partir de las fatwas que dos distinguidos juristas chiíes de Irak habían publicado sobre la necesidad de la yihad frente a la invasión rusa, y escribió su introducción, argumentando que la defensa de los Dominios Custodiados de Irán era un deber religioso colectivo {cite:wikipedia-abol-qasem-qaem-maqam-en}. El distinguido ministro reformador Amir Kabir ingresó al servicio gubernamental gracias al patrocinio y la formación {cite:wikipedia-abol-qasem-qaem-maqam-en} de Abol-Qasem.
+
+## Fe
+
+Ninguna fuente menciona una religión o una escuela jurídica para el propio hombre, y Wikidata no otorga valor religioso para él {cite:wikidata-abol-qasem-qaem-maqam}. Lo que describen las fuentes es la corte a la que sirvió: fue ministro y gran visir de la monarquía chií Qajar duodécical, y compiló la *Jehadiyeh* a partir de las fatwas yihadistas de dos juristas chiíes de Irak, escribiendo él mismo su introducción {cite:wikipedia-abol-qasem-qaem-maqam-en}. El servicio a una corte chií y la compilación de sus fatwas yihadistas son un contexto dinástico y oficial, no una denominación de la escuela del propio hombre, por lo que su fe queda registrada como desconocida.
+
+## Notas para investigadores
+
+Las fuentes discrepan sobre su lugar de nacimiento ni sobre el día de su muerte. El artículo en inglés indica su nacimiento en 1779 en Teherán, mientras que el artículo árabe indica 1193 H en los distritos de Arak y Wikidata indica la aldea de Hazaveh en la región de Arak {cite:wikipedia-abol-qasem-qaem-maqam-en} {cite:wikipedia-abol-qasem-qaem-maqam-ar} {cite:wikidata-abol-qasem-qaem-maqam}. En cuanto a su muerte, el artículo en inglés indica el 26 de junio de 1835, mientras que el cuadro de información del artículo árabe, el artículo en urdu y Wikidata indican el 28 de junio de 1835 {cite:wikipedia-abol-qasem-qaem-maqam-ar} {cite:wikipedia-abol-qasem-qaem-maqam-ur} {cite:wikidata-abol-qasem-qaem-maqam}. Teherán, Arak y Hazaveh no tienen registros de lugares en museos, por lo que su registro no tiene ventaja ni de lugar de nacimiento ni de muerte.

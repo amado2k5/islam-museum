@@ -1,12 +1,13 @@
 id: person/al-zayn-shaban
 class: person
-label: { ar: "الزين شعبان بن داود المصري", en: "al-Zayn Sha'ban al-Misri" }
+label: { ar: "الزين شعبان بن داود المصري", en: "al-Zayn Sha'ban al-Misri", fr: "al-Zayn Sha'ban al-Misri" }
 names:
   - { value: "الزين شعبان بن محمد بن داود المصري", kind: full }
 gender: male
 summary:
   ar: "الزين شعبان بن محمد بن داود المصري الإمام في الأدب وفنونه، توفي سنة ثمان وعشرين وثمانمائة {cite:shadharat-dhahab p. 192}."
   en: "al-Zayn Sha'ban b. Muhammad b. Dawud of Egypt — 'the imam in adab and its branches'; died 828 {cite:shadharat-dhahab p. 192}."
+  fr: "Al-Zayn chaabane b. Muhammad b. Dawud d'Égypte - « l'imam dans adab et ses branches » ; est mort 828 {cite:shadharat-dhahab p. 192}."
 roles: [writer, scholar]
 wings: [people]
 periods: [period/mongol-post-mongol]
@@ -14,7 +15,7 @@ regions: [egypt-nile]
 died: { edtf: "1425~", hijri: "0828", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 828 {cite:shadharat-dhahab p. 192}", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 828)، قراءة آبل فيجن"
+  source: "شذرات الذهب — ابن العماد ⁦(ط مكتبة المثنى 1351، ج7، سنة 828)⁩، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch77
@@ -23,4 +24,4 @@ status:
   review: published
   completeness: 3
 relations:
-  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name ⁦(المصري)⁩; denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

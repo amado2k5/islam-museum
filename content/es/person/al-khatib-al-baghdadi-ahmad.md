@@ -1,0 +1,35 @@
+---
+id: person/al-khatib-al-baghdadi-ahmad
+lang: es
+source_lang: en
+translators: ["Claude Code (claude-sonnet-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (spanish lane, wave 5)", model: "claude-sonnet-5-5", run: "spanish-w5-2026-11-18", source: "content/en/person/al-khatib-al-baghdadi-ahmad.md" }
+---
+## Visión general
+El hafiz Abu Bakr Ahmad ibn 'Ali ibn Thabit, conocido como al-Khatib al-Baghdadi, el tradicionista de Bagdad y su historiador; nació en 392, hijo de Abu al-Hasan, el predicador de Darzijan, al sur de Bagdad {cite:tarikh-islam-dhahabi p. 86}, y murió un lunes 7 de Dhu al-Hijja de 463 y fue enterrado en Bab Harb junto a Bishr al-Hafi {cite:tarikh-islam-dhahabi p. 107}. Fue autor del Tarikh Baghdad, que los bagdadíes escucharon de él en la madrasa Nizamiyya {cite:tarikh-islam-dhahabi p. 107}.
+
+## De su vida
+Empezó a oír hadices a los once años, viajó a Basora a los veinte y a Nishapur a los veintitrés, y luego a Isfahán, donde al-Barqani le había escrito una carta de recomendación para Abu Nu'aym {cite:tarikh-islam-dhahabi pp. 87-91}. Viajó a al-Sham como peregrino, oyendo hadices en Damasco, Tiro y La Meca, donde conoció a al-Quda'i y leyó el Sahih al-Bukhari en cinco días con Karima al-Marwaziyya; en Trípoli mantuvo una disputa de predicación con el cadí al-Husayn ibn Bishr de Dar al-'Ilm {cite:tarikh-islam-dhahabi pp. 92-93}.
+
+Ibn al-Jawzi relata que el visir Ibn al-Muslima le mostró un documento que unos judíos habían presentado, según el cual se eximía del impuesto de capitación a la gente de Khaybar, y que llevaba el testimonio de los Compañeros; al-Khatib lo declaró falso, pues llevaba el testimonio de Mu'awiya, que abrazó el Islam solo en la Conquista, mientras que Khaybar cayó en el año siete, y el de Sa'd ibn Mu'adh, que murió en Banu Qurayza, lo cual fue muy admirado {cite:muntazam-ibn-al-jawzi j.8 pp. 265-267}.
+
+En la fitna de Basasiri se ocultó y salió de Bagdad hacia al-Sham en 451 —Damasco, Tiro, Trípoli y Alepo—, residió en Tiro y visitó Jerusalén, luego regresó por al-Rahba y entró en Bagdad en Dhu al-Hijja de 462 {cite:tarikh-islam-dhahabi pp. 92-93} {cite:muntazam-ibn-al-jawzi j.8 pp. 265-267}. Hanbalí durante mucho tiempo, fue hostigado por sus partidarios y pasó a la escuela shafi'í {cite:muntazam-ibn-al-jawzi j.8 pp. 265-267}; se le cuentan unas sesenta obras: sus libros se quemaron tras su muerte y la mayoría de ellos se salvó {cite:tarikh-islam-dhahabi p. 99}.
+
+## En la biografía de los editores de Hyderabad en al-Kifaya
+Los editores de la edición de la Da'irat al-Ma'arif al-Uthmaniyya de [[work/al-kifaya-fi-ilm-al-riwaya|al-Kifaya]] añadieron una biografía de al-Khatib compilada a partir de las obras biográficas. {cite:kifaya-khatib-hyderabad-1357 p. 452} Citan la entrada de la *Historia de Bagdad* sobre su padre Ali ibn Thabit, un predicador, quien dijo que su origen era árabe y que tenía un clan que vivía en la región del Éufrates. {cite:kifaya-khatib-hyderabad-1357 p. 452}
+
+**Su nacimiento.** Los editores exponen el desacuerdo: jueves, seis días antes de acabar Jumada al-Akhira de 392 según Ibn al-Subki e Ibn Khallikan; 391 en la letra de Ibn Khayrun según se cita en *al-Muntazam*; 392 según al-Dhahabi, Ibn al-Sam'ani e Ibn al-Salah; al-Nawawi da solo 391; y al-Sakhawi señala que 392 es lo que se cuenta que el propio al-Khatib dijo. {cite:kifaya-khatib-hyderabad-1357 p. 452}
+
+**El elogio de los imames.** Citan a Ibn al-Sam'ani: el imam de su época sin discusión y el hafiz de su tiempo sin competencia, que escribió cerca de un centenar de obras que se convirtieron en el sostén de la gente del hadiz; a Ibn Makula: los bagdadíes no tuvieron a nadie como él después de [[person/al-daraqutni|al-Daraqutni]]; y a Abu Ishaq al-Shirazi: se lo comparaba con al-Daraqutni y sus pares. {cite:kifaya-khatib-hyderabad-1357 p. 453} {cite:kifaya-khatib-hyderabad-1357 p. 454} Registran que leyó el Sahih al-Bukhari con Karima al-Marwaziyya en cinco días, y que caminaba por las calles leyendo un cuadernillo que llevaba en la mano. {cite:kifaya-khatib-hyderabad-1357 p. 453}
+
+**Su escuela y su credo.** Los editores citan a Ibn al-Jawzi: al-Khatib había seguido primero la escuela de Ahmad, los hanbalíes se volvieron contra él cuando lo vieron inclinarse hacia los innovadores, y entonces pasó a la escuela de al-Shafi'i y escribió contra ellos en sus obras; los editores sostienen que un lector ecuánime no halla parcialidad en los ejemplos de Ibn al-Jawzi, y que con «innovadores» quizá se refería a los ash'aríes. {cite:kifaya-khatib-hyderabad-1357 p. 454} Citan a Ibn al-Subki, que cita a al-Kattani, según el cual en teología siguió a Abu al-Hasan al-Ash'ari; a al-Dhahabi, según el cual su posición sobre los atributos divinos era transmitirlos tal como llegaron; y la réplica de Ibn al-Subki de que esta también es una opinión de al-Ash'ari. Los editores concluyen que al-Dhahabi citó en *al-Tadhkira* textos de al-Khatib que afirman con claridad que su credo era el de las primeras generaciones. {cite:kifaya-khatib-hyderabad-1357 p. 454} {cite:kifaya-khatib-hyderabad-1357 p. 455}
+
+**Su riqueza y su fundación.** Registran que era rico, gastaba en la gente del hadiz y en los estudiantes, y rehusaba los regalos de la gente; cuando enfermó, convirtió en waqf todos sus libros y repartió su riqueza en obras buenas, tras pedir licencia al califa [[person/al-qaim-billah|al-Qa'im bi-Amr Allah]], pues su único heredero era el tesoro público. {cite:kifaya-khatib-hyderabad-1357 p. 455} {cite:kifaya-khatib-hyderabad-1357 p. 456} Citan a Abu Zakariyya al-Tabrizi, quien dijo que al-Khatib lo visitó en su habitación en el alminar de la mezquita de Damasco y le dejó dinares para comprar plumas. {cite:kifaya-khatib-hyderabad-1357 p. 456}
+
+**Muerte y entierro.** Dicen que las fuentes coinciden en la fecha de su muerte, y citan *al-Muntazam*: solía decir que había bebido agua de Zamzam con la intención de entrar en Bagdad, enseñar allí su Historia y ser enterrado junto a [[person/bishr-al-hafi|Bishr ibn al-Harith]]; murió a media mañana del lunes 7 de Dhu al-Hijja de 463 en una habitación de Darb al-Silsila junto al colegio Nizamiyya; Abu Ishaq al-Shirazi llevó su féretro, y fue enterrado junto a Bishr. {cite:kifaya-khatib-hyderabad-1357 p. 456} Ahmad ibn Ali al-Turaythithi había cavado allí una tumba para sí mismo y se opuso; Abu Sa'd el sufí le preguntó: si Bishr estuviera vivo y tú y al-Khatib entraran a verlo, ¿cuál de los dos se sentaría a su lado? Dijo: al-Khatib, y quedó conforme. {cite:kifaya-khatib-hyderabad-1357 p. 456}
+
+## Obras en el corpus OpenITI
+El corpus OpenITI contiene 29 obras bajo el identificador de autor 0463KhatibBaghdadi, entre ellas: Arbac Majalis; Asma Mubhama; Bukhala; Cawali Malik. {cite:openiti-corpus 0463KhatibBaghdadi}
+
+## En el fichero de autoridad de Biblissima
+El fichero de autoridad francés Biblissima registra a esta persona bajo el identificador Q531 con la forma de nombre «Aḥmad ibn ʿAlī al- H̱aṭīb al-Baġdādī (1002-1071)», forma que incluye los años de nacimiento y muerte tal como los da el fichero. {cite:biblissima Q531}

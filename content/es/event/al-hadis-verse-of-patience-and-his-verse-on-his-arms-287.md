@@ -1,0 +1,12 @@
+---
+id: event/al-hadis-verse-of-patience-and-his-verse-on-his-arms-287
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/event/al-hadis-verse-of-patience-and-his-verse-on-his-arms-287.md}
+---
+## Visión general
+Después de la batalla, [[person/al-hadi-yahya-al-rassi|al-Hadi]] compuso versos. {cite:sira-hadi-ila-al-haqq p.192} En el primero habla de los tiempos que se le hacían difíciles, dice que no se inclina aunque todos los demás se inclinaban, que el hombre noble es resuelto y no se lamenta, que es un vencedor del destino que ni se rinde ante él ni flaquea, que el destino fue paciente con él mientras él fue paciente con él hasta que el cansancio se hizo presente, y que su paciencia es firme y renovada; dice que Dios es su Señor y el Profeta su abuelo, y que Dios lo guarda y lo protege del mal. {cite:sira-hadi-ila-al-haqq p.192} En el segundo dice que Dios le basta, con su intención y su perspicacia, y describe una lanza, una espada templada, una cota de malla como un estanque y un caballo fuerte, un asiento firme y un corazón que no se asusta. {cite:sira-hadi-ila-al-haqq p.193}
+
+## Detalle
+Luego dice que, con la ayuda de Dios el Misericordioso, puede pisotear la tierra de sus oponentes con los cascos de sus caballos y romper sus reuniones con escuadrones de caballos, espadas y lanzas, y romper la fortaleza de los insensatos, que por su descripción traicionaron a Dios y dejaron de lado Sus preceptos y en quienes reside una maldad arraigada, y asestar un golpe en el que se corten cabezas y narices, para que sean pagados por lo que enviaron por adelantado, tal como lo hicieron. {cite:sira-hadi-ila-al-haqq p.193} Estas son las propias líneas del imán que describen y amenazan a sus oponentes, por lo que se da su sentido y el juicio es suyo; el museo no cita ninguna línea y no adopta su descripción de ellos. El pasaje del correo menciona a Tadmur, David y Tubba' como comparación poética. El orden de las líneas está alterado en el OCR, por lo que solo se toma el sentido. Sigue a [[event/al-hadi-charges-the-akilis-at-al-sabra-and-the-fourteen-arrows-287]] y es seguido por [[event/raid-on-afqayn-and-the-return-of-the-fifth-to-the-mahadhir-287]].

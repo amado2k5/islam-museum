@@ -1,0 +1,15 @@
+---
+id: place/marj-al-suffar
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/marj-al-suffar.md}
+---
+## Vue d'ensemble
+D'après la note de bas de page des éditeurs, il s'agit d'un lieu à Damas. Ibn Ishaq mentionne que Khalid ibn Sa'id ibn al-As y fut tué sous le califat d'Abou Bakr. {cite:ibn-hisham-saqqa} Voir [[person/khalid-ibn-said-ibn-al-as|Khalid ibn Sa'id ibn al-As]] et [[place/damascus|Damas]]. Une source supplémentaire est nécessaire pour le numéro de page.
+
+## Dans le Mu'jam al-buldan de Yaqut
+Yaqut situe Marj al-Suffar près de Damas et, dans son article consacré à ce lieu, le décrit comme un désert entre Damas et le Golan, théâtre d'une bataille célèbre du temps des Banu Marwan, mentionnée dans leurs récits et poèmes. {cite:mujam-al-buldan-sader-1995 3 p.413} Dans cet article, il cite un verset dont l'auteur n'est pas nommé, évoquant le jour de Marj al-Suffar, puis un verset de Khalid ibn Sa'id ibn al-As, tué à Marj al-Suffar selon l'article. Dans ce verset, Khalid demande si un cavalier réticent au combat lui prêtera une lance à leur descente de cheval (ce verset est décrit ici, mais non cité). {cite:mujam-al-buldan-sader-1995 5 p.101} Il situe al-Jabiya à proximité, au nord d'Hawran, {cite:mujam-al-buldan-sader-1995 2 p.91} et Harib dans le district de Damas, à Hawran, {cite:mujam-al-buldan-sader-1995 2 p.204} et mentionne un palais d'Umm Hakim à Marj al-Suffar. {cite:mujam-al-buldan-sader-1995 4 p.355}
+
+## L'identification du musée
+D'après la note des éditeurs adressée à Ibn Hisham et Ibn Ishaq, le récit situe la mort de Khalid ibn Sa'id ibn al-As à Damas, sous le califat d'Abou Bakr. Yaqut confirme Damas, le nom de Khalid et sa mort à Marj al-Suffar, mais ses entrées concernant Marj al-Suffar ne mentionnent ni calife ni date ; la célèbre bataille décrite dans son article sur Suffar se situe à l'époque des Banu Marwan et n'y est pas associée à Khalid, le musée la considérant comme un événement distinct. Dans son article sur al-Hamqatan, il cite Sayf selon lequel Abou Bakr chargea Khalid ibn Sa'id ibn al-As de mener des opérations aux deux Hamqatan, à la frontière syrienne, sans toutefois faire le lien avec Marj al-Suffar. {cite:mujam-al-buldan-sader-1995 2 p.305} L'identification du Khalid mentionné dans le verset de Yaqut avec le Khalid des annales est une interprétation du musée, puisque la notice ne donne que le nom. Le point de repère des annales, tiré de Wikidata et approximatif, se situe à 25,4 km au sud du point de repère du musée concernant Damas, tandis que Yaqut mentionne seulement la région entre Damas et le Golan, près de Harib et d'al-Jabiya. Voir [[person/khalid-ibn-said-ibn-al-as|Khalid ibn Sa'id ibn al-As]] et [[place/damascus|Damas]].

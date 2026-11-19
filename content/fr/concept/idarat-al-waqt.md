@@ -1,0 +1,21 @@
+---
+id: concept/idarat-al-waqt
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/idarat-al-waqt.md}
+---
+## Résumé
+Tareq al-Suwaidan divise l'histoire de la gestion du temps en quatre générations : la liste des tâches à accomplir, où l'organisation a commencé vers les années 1920 et qui reste sa base aujourd'hui, puis la planification, puis la priorisation, puis l'organisation de toute la vie — voir [[concept/idarat-al-hayat]] {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:26:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:27:00}.
+
+## La liste des choses à faire
+Un tableau de tâches en colonnes — appels généraux, appels professionnels, famille et maison, études ou travail, culture et activités, questions financières et objectifs de l'année tirés de l'organisation de sa vie — avec une condition essentielle : seuls les éléments non répétés sont écrits ; les routines récurrentes telles que les heures de travail et les repas sont omises {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:27:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:29:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:30:00}.
+
+## L'horaire
+L'unité de travail proposée est la semaine, et non le jour ou le mois, et la journée est divisée en périodes, et non en heures — il suggère les périodes délimitées par les prières — à moins qu'on ne dispose d'un secrétaire efficace gérant les rendez-vous, auquel cas les heures peuvent être utilisées {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:35:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:36:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:36:30}.
+Le remplissage commence par les rendez-vous que l'on ne contrôle pas — ceux liés à d'autres parties comme les cours et les rendez-vous chez le médecin — puis, à partir de la liste des choses à faire, seules les tâches du lendemain sont choisies ; il est prouvé que répartir les tâches sur plus d'une journée échoue car une personne accomplit en moyenne la moitié de ce qu'elle prévoit en une journée, et si une journée passe, tout le plan n'est pas ruiné {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:37:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:40:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:41:30}.
+Il critique la vieille méthode mécanique — « faire ceci ou cela à telle heure » — qui prive la vie de joie sans se révéler efficace {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:42:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:43:30}.
+
+## Priorités de classement
+La troisième génération est plus simple qu'on ne l'imagine : trois à cinq tâches dans la liste des choses à faire — pas plus — sont entourées comme étant les plus importantes ; lors du remplissage de l'agenda du lendemain, on commence par elles si possible ; les éléments terminés sont barrés et les nouveaux entourés ; et il avertit d'entourer les tâches de la colonne « objectifs de l'année » de peur qu'elles ne soient reportées jusqu'à la fin de l'année non réalisées {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:44:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:45:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:46:00}.
+Dans l’ensemble, il note que la prière avant, pendant et après la planification fait partie des causes de bénédiction en temps voulu, de succès et d’inspiration {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:46:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:46:30}.

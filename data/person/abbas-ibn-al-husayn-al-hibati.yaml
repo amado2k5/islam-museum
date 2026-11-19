@@ -1,9 +1,10 @@
 id: person/abbas-ibn-al-husayn-al-hibati
 class: person
-label: { ar: "عباد بن الحصين الحبطي", en: "Abbas ibn al-Husayn al-Hibati" }
+label: { ar: "عباد بن الحصين الحبطي", en: "Abbas ibn al-Husayn al-Hibati", fr: "Abbas ibn al-Husayn al-Hibati" }
 summary:
   ar: "عباد بن الحصين الحبطي؛ أخبر حمران بن أبان بقول الحجاج لئن انتمى إلى العرب ولم يقل إن أباه أبي وإنه مولى لعثمان لأضربن عنقه فوهب له حمران غربي النهر الذي صار عبادان وهو أول من رابط بها وكان قبل ذلك على شرطة عبد الرحمن بن سمرة في فتح كابل فبات ليلة يطاعن المشركين حتى أصبح وكان الحسن البصري يقول ما ظننت أن رجلاً يقوم مقام ألف حتى رأيت عباد بن الحصين."
   en: "Abbas ibn al-Husayn al-Hibati; he warned Humran ibn Aban of al-Hajjaj's threat — 'if he claims Arab descent and won't own his father and his fiefdom to Uthman, I'll strike his neck' — so Humran gifted him the west bank that became Abbadan, whose first garrisoner he was. Before that he held Ibn Samura's shurta at Kabul — a whole night spearing the foe till dawn; al-Hasan: I never thought one man could stand for a thousand until I saw Abbad ibn al-Husayn."
+  fr: "Abbas ibn al-Husayn al-Hibati ; il avertit Humran ibn Aban de la menace d'al-Hajjaj — « s'il se dit d'ascendance arabe et ne reconnaît pas son père et son affranchissement par Uthman, je lui ferai trancher le cou » —, si bien que Humran lui donna la rive occidentale qui devint Abbadan, dont il fut le premier à tenir garnison. Auparavant, il avait commandé la shurta d'Ibn Samura à Kaboul — toute une nuit à frapper l'ennemi de sa lance jusqu'à l'aube ; al-Hasan : je n'aurais jamais cru qu'un seul homme pût en valoir mille avant d'avoir vu Abbad ibn al-Husayn."
 periods: [period/umayyad]
 wings: [people]
 sources: [source/futuh-buldan-maarif-1407]
@@ -14,4 +15,4 @@ provenance:
   extraction_flow: "Apple Vision OCR -> manual extraction"
 died: { edtf: "699~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Buldan (al-Baladhuri: Abbad ibn al-Husayn al-Habati" }
 relations:
-  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (البصري); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name ⁦(البصري)⁩; denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }

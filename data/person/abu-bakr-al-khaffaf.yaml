@@ -1,6 +1,6 @@
 id: person/abu-bakr-al-khaffaf
 class: person
-label: { ar: "أبو بكر الخفاف أحمد بن عمر", en: "Abu Bakr al-Khaffaf Ahmad ibn Umar" }
+label: { ar: "أبو بكر الخفاف أحمد بن عمر", en: "Abu Bakr al-Khaffaf Ahmad ibn Umar", fr: "Abu Bakr al-Khaffaf Ahmad ibn Umar" }
 names:
   - { kind: full, lang: ar, value: "أبو بكر أحمد بن عمر الخفاف" }
 gender: male
@@ -9,11 +9,12 @@ traditions: [sunni]
 summary:
   ar: "أبو بكر أحمد بن عمر الخفاف، وله كتاب «الخصال» {cite:tabaqat-fuqaha-abbas-1981 p. 60}. لم يذكر الشيرازي تاريخ وفاته في هذا الموضع {cite:tabaqat-fuqaha-abbas-1981 p. 60}."
   en: "Abu Bakr Ahmad ibn Umar al-Khaffaf, the author of the book al-Khisal {cite:tabaqat-fuqaha-abbas-1981 p. 60}. al-Shirazi does not mention the date of his death in this passage {cite:tabaqat-fuqaha-abbas-1981 p. 60}."
+  fr: "Abu Bakr Ahmad ibn Umar al-Khaffaf, auteur du livre al-Khisal {cite:tabaqat-fuqaha-abbas-1981 p. 60}. Al-Shirazi ne mentionne pas la date de sa mort dans ce passage {cite:tabaqat-fuqaha-abbas-1981 p. 60}."
 wings: [people]
 sources: [source/tabaqat-fuqaha-abbas-1981]
 provenance:
   layer: "own-research"
-  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص59–61"
+  source: "طبقات الفقهاء ⁦(تحقيق إحسان عباس)⁩ PDF ص59–61"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch104
@@ -28,4 +29,4 @@ occupations:
     sources: [source/tabaqat-fuqaha-abbas-1981]
 died: { edtf: "920~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki, Tabaqat al-Shafi'iyya al-Kubra" }
 relations:
-  - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name (الشيرازي); denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
+  - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name ⁦(الشيرازي)⁩; denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }

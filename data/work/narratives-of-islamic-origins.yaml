@@ -1,17 +1,23 @@
 id: work/narratives-of-islamic-origins
 class: work
 kind: book
-label: { ar: "سرديات البدايات الإسلامية", en: "Narratives of Islamic Origins" }
+tags: [ulama-browser]
+label: { ar: "روايات نشأة الإسلام: بدايات الكتابة التاريخية الإسلامية", en: "Narratives of Islamic Origins: The Beginnings of Islamic Historical Writing", ur: "اسلام کے آغاز کی روایات: اسلامی تاریخ نویسی کی ابتدا" }
 summary:
-  ar: "بطاقة أولية لـسرديات البدايات الإسلامية؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Narratives of Islamic Origins; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "دراسة بالإنجليزية لفريد دونر في نشأة الكتابة التاريخية عند المسلمين الأوائل، صدرت عن دار داروين في برينستون سنة 1998 في 358 صفحة ضمن سلسلة دراسات العصور القديمة المتأخرة والإسلام المبكر."
+  en: "An English study by Fred M. Donner of the beginnings of historical writing among the early Muslims, published by Darwin Press, Princeton, in 1998 (358 pages) in the Studies in Late Antiquity and Early Islam series."
+  ur: "فریڈ ڈونر کا انگریزی مطالعہ جو ابتدائی مسلمانوں میں تاریخ نویسی کے آغاز پر ہے؛ ڈارون پریس، پرنسٹن سے 1998ء میں 358 صفحات میں اسٹڈیز اِن لیٹ اینٹیکویٹی اینڈ ارلی اسلام سلسلے میں شائع ہوا۔"
+wings: [words, today]
+genre: [history]
+composed: { edtf: "1998", calendar: gregorian, precision: year, status: historical }
+editions:
+  - "Princeton: Darwin Press (Studies in Late Antiquity and Early Islam 14), 1998, 358 pp., ISBN 0878501274"
+sources: [source/al-aalam, source/openlibrary-narratives-of-islamic-origins-1998]
 external_ids: { wikidata: "Q6966231" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
+  source: "Wikidata candidate; publisher, year and extent checked on Open Library on 18 November 2026 for the founder’s 210-book Ulama Browser list (category 3)"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }

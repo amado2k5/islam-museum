@@ -1,11 +1,12 @@
 id: person/abu-ali-al-tusi
 class: person
-label: { ar: "أبو علي الطوسي", en: "Abu Ali al-Tusi" }
+label: { ar: "أبو علي الطوسي", en: "Abu Ali al-Tusi", fr: "Abu Ali al-Tusi" }
 names:
   - { value: "أبو علي محمد بن الحسن بن محمد بن أبي جعفر الطوسي أعقب شيخ الطائفة", kind: full }
 summary:
   ar: "أبو علي الطوسي شيخ الطائفة ممن يجمع بين القدر والزيادة؛ ولد سنة تسع وسبعين وأربعمائة، وتوفي في ذي القعدة سنة أربعين وخمسمائة — قال ابن العماد هو ابن الشيخ أبي جعفر محمد بن الحسن صاحب التهذيب والاستبصار {cite:shadharat-dhahab p. 605}."
   en: "Abu Ali al-Tusi, shaykh of the denomination — son of Shaykh Abu Ja'far Muhammad ibn al-Hasan, author of the Tahdhib and Istibsar; b. 479, d. Dhu al-Qa'da 540 {cite:shadharat-dhahab p. 605}."
+  fr: "Abu Ali al-Tusi, shaykh de la communauté — fils du shaykh Abu Ja'far Muhammad ibn al-Hasan, auteur du Tahdhib et de l'Istibsar ; né en 479, mort en Dhu al-Qa'da 540 {cite:shadharat-dhahab p. 605}."
 gender: male
 wings: [people]
 roles: [scholar, jurist]
@@ -44,4 +45,4 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/shadharat-dhahab]
 relations:
-  - { type: lived_in, target: place/tus, note: "Place association from the person's nisba/name (الطوسي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
+  - { type: lived_in, target: place/tus, note: "Place association from the person's nisba/name ⁦(الطوسي)⁩; denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

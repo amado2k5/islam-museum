@@ -4,6 +4,7 @@ label:
   ar: عبد الله بن عمر بن الخطاب
   en: Abdullah ibn Umar ibn al-Khattab
   ur: "عبد اللہ بن عمر"
+  fr: "Abdullah ibn Umar ibn al-Khattab"
 names:
 - kind: full
   lang: ar
@@ -17,6 +18,7 @@ summary:
   ar: "ابن الخليفة عمر بن الخطاب وأمه زينب بنت مظعون؛ أسلم صغيراً مع أبيه وهاجر، وعُرض على النبي ببدر وأحد فاستُصغر وأُجيز في الخندق، وهو من المكثرين من الحديث وعُرف بتتبع آثار النبي. تصفه دائرة المعارف الإسلامية بأنه من أبرز شخصيات الجيل الأول وأنه بقي بمعزل عن الحرب الأهلية، وتذكر أن الخلافة عُرضت عليه ثلاث مرات فرفضها لأنه أراد انتخاباً بإجماع وتجنب سفك الدماء. توفي سنة 73هـ على قول الجمهور وقيل 74هـ. وفي مسلم قصّ رؤياه على النبي فقال «نعم الرجل عبد الله لو كان يصلي من الليل» فكان لا ينام من الليل إلا قليلاً {cite:sahih-muslim 2479}."
   en: "The son of the caliph Umar ibn al-Khattab and Zaynab bint Maz'un; he embraced Islam young with his father and emigrated, was presented to the Prophet at Badr and Uhud and turned back as too young, and was accepted at al-Khandaq; he is one of the great narrators of hadith and was known for following the Prophet's footsteps. The Encyclopaedia of Islam calls him one of the most prominent figures of the first generation, says he stayed apart from the civil war, and reports that the caliphate was offered to him three times and refused because he wanted a unanimous election and wished to avoid bloodshed. He died in 73 AH on the majority view, some say 74 AH."
   ur: "عمر بن خطاب کے بیٹے اور کثیر الروایت صحابی؛ کم عمری میں بدر و احد میں شرکت کی اجازت نہ ملی، جبکہ خندق میں شریک ہوئے۔ انسائیکلوپیڈیا آف اسلام انہیں پہلی نسل کی نمایاں ترین شخصیات میں شمار کرتا ہے، کہتا ہے کہ وہ خانہ جنگی سے الگ رہے، اور بتاتا ہے کہ انہیں خلافت کی پیشکش تین بار ہوئی جو انہوں نے متفقہ انتخاب کی خواہش اور خونریزی سے بچنے کے لیے رد کر دی۔ {cite:ibn-hajar-isaba}"
+  fr: "Le fils du calife Umar ibn al-Khattab et de Zaynab bint Maz'un ; il embrassa l'islam jeune avec son père et émigra, fut présenté au Prophète à Badr et à Uhud et renvoyé comme trop jeune, puis fut accepté à al-Khandaq ; il est l'un des grands transmetteurs du hadith et était connu pour suivre les traces du Prophète. L'Encyclopédie de l'Islam le dit l'une des figures les plus éminentes de la première génération, indique qu'il se tint à l'écart de la guerre civile, et rapporte que le califat lui fut offert trois fois et qu'il le refusa parce qu'il voulait une élection unanime et souhaitait éviter l'effusion de sang. Il mourut en 73 H selon l'avis majoritaire, certains disent 74 H."
 wings: [people]
 themes:
 - scripture-and-its-sciences
@@ -30,7 +32,7 @@ regions:
 story_roles:
 - role: companion
   status: tradition
-  note: مذكور في الإصابة ترجمة رقم 5350 (ص 917).
+  note: مذكور في الإصابة ترجمة رقم 5350 ⁦(ص 917)⁩.
   sources:
   - source/ibn-hajar-isaba
 faith:
@@ -40,7 +42,7 @@ faith:
 born: { edtf: "610", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala) Agrees with Wikidata Q2046261 (P569, a statement without a reference), item revision 2533521882, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "0693", hijri: "0073", calendar: julian, precision: year, status: debated, derived: true, note: "Died in Dhu'l-Hijja 73 AH, aged eighty-seven (Damra, Abu Nu'aym, Yahya ibn Bukayr and the majority); al-Fallas gives 74 AH (al-Isaba p. 917); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
-- { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/ibn-hajar-isaba, source/sahih-muslim, source/al-masjid-fi-al-islam-azhar, source/assabile-omar-abdelkafy, source/fadail-sahaba-ahmad-wasi-allah-1999], confidence: low }
+- { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name ⁦(القرشي)⁩; denotes association, not proven residence.", sources: [source/ibn-hajar-isaba, source/sahih-muslim, source/al-masjid-fi-al-islam-azhar, source/assabile-omar-abdelkafy, source/fadail-sahaba-ahmad-wasi-allah-1999], confidence: low }
 - { type: participated_in, target: event/sariyya-of-abd-al-rahman-ibn-awf-to-dumat-al-jandal, role: "راوي الخبر؛ عاشر عشرة في المسجد", sources: [source/ibn-hisham-saqqa] }
 - type: child_of
   target: person/umar-ibn-al-khattab

@@ -10,8 +10,8 @@ themes: [colonial-wars-and-resistance, civil-wars-and-revolts, mosques]
 periods: [period/colonial-era]
 regions: [egypt-nile]
 date:
-  start: { edtf: "1798-10-21", hijri: "1213-05-11", calendar: gregorian, precision: day, status: historical, note: "«واصبحوا يوم الأحد [21 تشرين الأول 1798]» عقب يوم السبت عاشر جمادى الأولى؛ التاريخ الميلادي بين قوسين للمحقق (عجائب الآثار 3، مسح ص59).", sources: [source/ajaib-al-athar-moreh-v3] }
-  end: { edtf: "1798-10-23", hijri: "1213-05-13", calendar: gregorian, precision: day, status: historical, note: "«واصبح يوم الثلاثاء [23 تشرين الأول 1798]» وقد اصطف الفرنسيون بباب الجامع الأزهر (مسح ص61)؛ اليوم الهجري محسوب من السياق.", sources: [source/ajaib-al-athar-moreh-v3] }
+  start: { edtf: "1798-10-21", hijri: "1213-05-11", calendar: gregorian, precision: day, status: historical, note: "«واصبحوا يوم الأحد [21 تشرين الأول 1798]» عقب يوم السبت عاشر جمادى الأولى؛ التاريخ الميلادي بين قوسين للمحقق ⁦(عجائب الآثار 3، مسح ص59)⁩.", sources: [source/ajaib-al-athar-moreh-v3] }
+  end: { edtf: "1798-10-23", hijri: "1213-05-13", calendar: gregorian, precision: day, status: historical, note: "«واصبح يوم الثلاثاء [23 تشرين الأول 1798]» وقد اصطف الفرنسيون بباب الجامع الأزهر ⁦(مسح ص61)⁩؛ اليوم الهجري محسوب من السياق.", sources: [source/ajaib-al-athar-moreh-v3] }
 relations:
   - { type: occurred_at, target: place/cairo, sources: [source/ajaib-al-athar-moreh-v3] }
   - { type: occurred_at, target: building/al-azhar, sources: [source/ajaib-al-athar-moreh-v3] }

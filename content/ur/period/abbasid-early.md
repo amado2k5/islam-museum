@@ -12,8 +12,8 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 میوزیم میں اس دور کا مواد آج یہ ہے: ریاستیں: 2، گروہ: 1، سب سے زیادہ ذکر ہونے والی شخصیات: 8، تصانیف: 1، تصورات: 3۔
 
 ### ریاستیں
-- [[polity/abbasid-caliphate|عباسی خلافت]] (750ء تا 1258ء)
-- [[polity/emirate-of-sicily|امارتِ صقلیہ]] (827ء تا 1091ء)
+- [[polity/abbasid-caliphate|عباسی خلافت]] ⁦(750ء تا 1258ء)⁩
+- [[polity/emirate-of-sicily|امارتِ صقلیہ]] ⁦(827ء تا 1091ء)⁩
 
 ### گروہ
 - [[group/hanbali-madhhab|حنبلی مذہب]]
@@ -22,7 +22,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 - [[person/ahmad-ibn-hanbal|احمد بن حنبل]]
 - [[person/al-kharaqi|الخرقی]]
 - [[person/abu-bakr-al-khallal|ابو بکر الخلال]]
-- [[person/abu-bakr-ghulam-al-khallal|ابو بکر عبد العزیز (غلام الخلال)]]
+- [[person/abu-bakr-ghulam-al-khallal|ابو بکر عبد العزیز ⁦(غلام الخلال)⁩]]
 - [[person/ibn-al-banna|ابن البناء]]
 - [[person/ibn-hamid|ابن حامد]]
 - [[person/ibn-shaqla|ابن شاقلا]]
@@ -37,7 +37,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 - [[concept/riwayat-al-imam|امام احمد سے روایات]]
 
 ## یہ صفحہ کیا احاطہ کرتا ہے
-میوزیم میں یہ دور ابھی کم احاطہ شدہ ہے (صرف 15 مواد)، اس لیے اس صفحے کو اس دور کا مکمل جائزہ نہ سمجھا جائے؛ اس کا مواد ہر نئے مرحلے کے ساتھ اصل مصادر سے شامل ہوتا رہے گا۔
+میوزیم میں یہ دور ابھی کم احاطہ شدہ ہے ⁦(صرف 15 مواد)⁩، اس لیے اس صفحے کو اس دور کا مکمل جائزہ نہ سمجھا جائے؛ اس کا مواد ہر نئے مرحلے کے ساتھ اصل مصادر سے شامل ہوتا رہے گا۔
 
 ## محققین کے لیے نوٹس
 دور کی حدود میوزیم کی متعین کردہ اور تقریبی ہیں؛ اس دور کی وسیع تاریخ کے لیے دیکھیے {cite:hodgson-1974} {cite:hourani-1991}۔

@@ -1,0 +1,35 @@
+name: Deploy en pages to production
+
+# PRODUCTION, one language: the English pages (R2 prefix en/) and the English search index (pagefind-en/) of a
+# "Build islam.museum by language" run, and nothing else. Manual only, and the founder's alone (AGENTS.md).
+# A trial beside "Deploy islam.museum to Cloudflare", which is unchanged; the steps and what is left untouched are in
+# deploy-lang-env.yml. Production takes builds of main only. Review the same build on UAT first with
+# "Deploy en pages to UAT".
+on:
+  workflow_dispatch:
+    inputs:
+      build_run_id:
+        description: "Run id of a \"Build islam.museum by language\" run of main. Empty: the newest one that built en."
+        required: false
+        type: string
+
+permissions:
+  contents: read
+  deployments: write
+  # Read another run's artifact and jobs.
+  actions: read
+
+# The group of the full production deploy (deploy.yml): one publish at a time writes the publish record, in order.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  production:
+    uses: ./.github/workflows/deploy-lang-env.yml
+    with:
+      environment: production
+      language: en
+      build_run_id: ${{ inputs.build_run_id }}
+    secrets: inherit

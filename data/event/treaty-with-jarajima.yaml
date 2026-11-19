@@ -10,7 +10,7 @@ wings: [time]
 periods: [period/umayyad]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0637~", hijri: "0016~", calendar: julian, precision: year, status: tradition, derived: true, note: "أيام أبي عبيدة وحبيب بن مسلمة على أنطاكية (البلاذري ص 217–218). التحويل مشتق." }
+  start: { edtf: "0637~", hijri: "0016~", calendar: julian, precision: year, status: tradition, derived: true, note: "أيام أبي عبيدة وحبيب بن مسلمة على أنطاكية ⁦(البلاذري ص 217–218)⁩. التحويل مشتق." }
 relations:
   - { type: had_participant, target: group/jarajima, role: "المصالَحون على المسالح والأعوان", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/habib-ibn-maslama, role: "فاتح أنطاكية الثانية وعاقد الصلح بحسب الرواية", sources: [source/futuh-buldan-maarif-1407] }
@@ -20,7 +20,7 @@ relations:
   - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 217–219"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 217–219"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-12
 sources: [source/futuh-buldan-maarif-1407]

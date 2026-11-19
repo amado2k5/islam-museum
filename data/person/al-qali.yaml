@@ -1,9 +1,10 @@
 id: person/al-qali
 class: person
-label: { ar: "القالي", en: "al-Qali" }
+label: { ar: "القالي", en: "al-Qali", fr: "al-Qali" }
 summary:
   ar: "الشيخ أبو علي إسماعيل بن القاسم القالي اللغوي المتوفى سنة ٣٥٦هـ؛ ألّف أماليه بقرطبة بعد سنة ٣٣٠هـ {cite:kashf-zunun-furqan p. 623}."
   en: "Abu Ali Isma'il ibn al-Qasim al-Qali the lexicographer, d. AH 356 — he composed his Amali at Cordoba after 330 {cite:kashf-zunun-furqan p. 623}."
+  fr: "Abu Ali Isma'il ibn al-Qasim al-Qali le lexicographe, mort en 356 H – il composa son Amali à Cordoue après 330 {cite:kashf-zunun-furqan p. 623}."
 gender: male
 wings: [people]
 periods: [period/abbasid-fragmentation]
@@ -14,7 +15,7 @@ relations:
   - { type: lived_in, target: place/cordoba, note: "Composed his Amali at Cordoba after 330.", sources: [source/kashf-zunun-furqan], confidence: medium }
 provenance:
   layer: own-research
-  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 623 مدخل 1752"
+  source: "كشف الظنون لحاجي خليفة ⁦(ط الفرقان)⁩ ج١ ص 623 مدخل 1752"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kashf-batch-8
 sources: [source/kashf-zunun-furqan]

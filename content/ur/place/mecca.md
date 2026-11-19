@@ -81,16 +81,16 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 عجائب گھر کے مواد میں اس مقام کے بارے میں یہ چیزیں شامل ہیں: یہاں پیش آنے والے واقعات: 55، یہاں پیدا ہونے والے: 43، یہاں وفات پانے والے: 14، یہاں رہنے والے: 6، یہاں آنے والے: 2، یہاں کی عمارتیں: 3، یہاں آباد گروہ: 5۔
 
 ### یہاں پیش آنے والے واقعات
-- [[event/al-dawa-al-sirriyya|تین سال کی خفیہ دعوت]] (610ء)
-- [[event/first-migration-to-abyssinia|حبشہ کی طرف پہلی ہجرت]] (615ء)
-- [[event/boycott-of-banu-hashim|شعبِ ابی طالب میں بنی ہاشم کا بائیکاٹ]] (616ء)
-- [[event/second-migration-to-abyssinia|حبشہ کی طرف دوسری ہجرت]] (616ء)
-- [[event/pledges-of-aqaba|بیعتِ عقبہ کی دو بیعتیں]] (621ء)
-- [[event/hijra|نبوی ہجرت]] (622ء)
-- [[event/treaty-of-hudaybiyya|صلحِ حدیبیہ]] (628ء)
-- [[event/khuzaa-bakr-clash-al-watir|وتیر پر بنو بکر اور خزاعہ کی لڑائی]] (629ء)
-- [[event/battle-of-hunayn|غزوۂ حنین]] (630ء)
-- [[event/conquest-of-mecca|فتحِ مکہ (فتحِ اعظم)]] (630ء)
+- [[event/al-dawa-al-sirriyya|تین سال کی خفیہ دعوت]] ⁦(610ء)⁩
+- [[event/first-migration-to-abyssinia|حبشہ کی طرف پہلی ہجرت]] ⁦(615ء)⁩
+- [[event/boycott-of-banu-hashim|شعبِ ابی طالب میں بنی ہاشم کا بائیکاٹ]] ⁦(616ء)⁩
+- [[event/second-migration-to-abyssinia|حبشہ کی طرف دوسری ہجرت]] ⁦(616ء)⁩
+- [[event/pledges-of-aqaba|بیعتِ عقبہ کی دو بیعتیں]] ⁦(621ء)⁩
+- [[event/hijra|نبوی ہجرت]] ⁦(622ء)⁩
+- [[event/treaty-of-hudaybiyya|صلحِ حدیبیہ]] ⁦(628ء)⁩
+- [[event/khuzaa-bakr-clash-al-watir|وتیر پر بنو بکر اور خزاعہ کی لڑائی]] ⁦(629ء)⁩
+- [[event/battle-of-hunayn|غزوۂ حنین]] ⁦(630ء)⁩
+- [[event/conquest-of-mecca|فتحِ مکہ ⁦(فتحِ اعظم)⁩]] ⁦(630ء)⁩
 
 ### یہاں پیدا ہونے والے
 - [[person/muhammad|محمد]]

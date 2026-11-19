@@ -35,7 +35,7 @@ land = sh(f"git diff {BASELINE} HEAD -- site/src/components/Landing.astro")
 plus = [l[1:] for l in land.splitlines() if l.startswith("+") and not l.startswith("+++")]
 minus = [l for l in land.splitlines() if l.startswith("-") and not l.startswith("---")]
 o.check("the homepage component gains one import and one link, on the line that already held the headline, and nothing else changes", len(plus) == 2 and len(minus) == 1 and "grand-tour" in plus[0] and plus[1].strip().startswith(minus[0][1:].strip()) and "tourPath(lang)" in plus[1] and "TOUR_LANGS.includes(lang)" in plus[1], f"{len(plus)} lines added, {len(minus)} replaced")
-for lang in ("ar", "en", "ur", "fr"):
+for lang in ("ar", "en", "ur", "fr", "es"):
     d = sh(f"git diff -U0 {BASELINE} HEAD -- i18n/{lang}.yaml")
     removed = [l for l in d.splitlines() if l.startswith("-") and not l.startswith("---")]
     top = [l[1:] for l in d.splitlines() if l.startswith("+") and not l.startswith("+++") and re.match(r"\+[A-Za-z_]", l)]

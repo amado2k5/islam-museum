@@ -1,0 +1,18 @@
+---
+id: person/fatima-bhutto
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/fatima-bhutto.md}
+---
+## Resumen
+Fatima Bhutto (nacida en 1982) es una escritora y columnista pakistaní, nacida en Kabul durante el exilio de su padre Murtaza Bhutto y criada en Siria y Karachi. Educada en Barnard College y SOAS en Londres, publicó una colección de poesía a los quince años, las memorias familiares Songs of Blood and Sword (2010) y las novelas The Shadow of the Crescent Moon (2013) y The Runaways (2019). Es una crítica abierta de su tía Benazir Bhutto y de la política dinástica, y no pertenece a ningún partido político. {cite:wikipedia-fatima-bhutto-en}
+
+## Vida
+Bhutto nació en Kabul el 29 de mayo de 1982, hijo de Murtaza Bhutto y su esposa afgana Fauzia Fasihudin Bhutto, mientras su padre estaba en el exilio bajo el régimen militar del general Zia-ul-Haq. {cite:wikipedia-fatima-bhutto-en} {cite:wikipedia-fatima-bhutto-ar} {cite:wikidata-fatima-bhutto} Sus padres se divorciaron cuando ella tenía tres años; su padre la crió mientras se mudaban de país en país — ella creció prácticamente apátrida — y en 1989, en Siria, se casó con la profesora de ballet libanesa Ghinwa Bhutto, a quien Fatima Bhutto considera su verdadera madre. {cite:wikipedia-fatima-bhutto-en} Su padre fue asesinado por la policía en Karachi en 1996, durante el mandato de su tía Benazir Bhutto; ella vive con su madrastra en Old Clifton, Karachi. {cite:wikipedia-fatima-bhutto-en} Estudió en la Karachi American School, obtuvo su licenciatura summa cum laude en lenguas y culturas de Oriente Medio y Asia en Barnard College en 2004, y un máster en Estudios del Sur de Asia en SOAS, Universidad de Londres en 2005. {cite:wikipedia-fatima-bhutto-en} Hablando de The Runaways en 2020, describió con sus propias palabras cómo reaccionó la gente al oír "que soy musulmana" y habló de los musulmanes como "más de mil millones de nosotros"; el museo no registra ninguna escuela ni pedido para ella, y los antecedentes de su familia no se utilizan como prueba de su propia fe. {cite:npr-fatima-bhutto-runaways-2020}
+
+## Trabajo
+Su primer libro, la colección de poesía Susurros del desierto, apareció en 1998, cuando tenía quince años; 8:50 a.m. del 8 de octubre de 2005 (2006) recoge relatos del terremoto de Cachemira. {cite:wikipedia-fatima-bhutto-en} Canciones de sangre y espada (2010), su memoria sobre su familia, acusa a su tía Benazir Bhutto y a Asif Ali Zardari de estar involucrados en el asesinato de su padre, y recibió críticas mixtas a negativas por su parcialidad, con varios familiares acusándola de falsificar información. {cite:wikipedia-fatima-bhutto-en} Su primera novela, La sombra de la luna creciente (2013), fue preseleccionada para el Premio Baileys para Mujeres de Ficción; The Runaways (2019) sigue a tres jóvenes musulmanes atraídos por la radicalización, y New Kings of the World (2019) informa sobre Bollywood, dizi turco y K-Pop. {cite:wikipedia-fatima-bhutto-en} Escribe columnas para publicaciones como The News y The Guardian. {cite:wikipedia-fatima-bhutto-en} Aunque es políticamente activa, no está afiliada a ningún partido y ha dicho que descarta por completo una carrera política debido al efecto de las dinastías en Pakistán. {cite:wikipedia-fatima-bhutto-en}
+
+## Fuentes
+- Las entidades fuente citadas anteriormente, registradas bajo `data/source/`.

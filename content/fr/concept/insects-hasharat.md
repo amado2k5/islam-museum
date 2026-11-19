@@ -1,0 +1,9 @@
+---
+id: concept/insects-hasharat
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/concept/insects-hasharat.md}
+---
+## Résumé
+Les insectes (hasharat) sont les petites créatures de la terre et ses vermines ; certains disent les vermines non venimeuses. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7091} Concernant leur consommation, deux avis divergent : les hanafites, les chaféites et les hanbalites interdisent tous les insectes sauf la sauterelle ; les chaféites et les hanbalites autorisent le lézard et les petits animaux similaires ; les malikites autorisent tous les insectes sauf le porc, tandis que certains malikites l'interdisent. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7091} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7092} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7093} Les créatures à sang doivent être abattues avant d'être consommées ; la sauterelle n'a pas besoin d'être abattue selon la majorité, mais les malikites l'exigent. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7094} Tuer les insectes n'est ni prescrit ni interdit en général : les nuisibles, tels que les cinq vermines, le serpent, le gecko et la souris, peuvent être tués, tandis que les chaféites interdisent de tuer la fourmi salomonique, l'abeille et la grenouille. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7095} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7096} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7097} Les hanafites, les chaféites et les hanbalites ne considèrent pas les insectes comme du gibier pour le pèlerin en état d'ihram, et les malikites autorisent à tuer un insecte nuisible pour dissiper le mal. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7097} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7098}

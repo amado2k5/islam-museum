@@ -7,22 +7,23 @@ education:
     sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
 class: event
 kind: other
-label: { en: "The brotherhood of the Muhajirun and Ansar", ar: "المؤاخاة بين المهاجرين والأنصار" }
+label: { en: "The brotherhood of the Muhajirun and Ansar", ar: "المؤاخاة بين المهاجرين والأنصار", fr: "La fraternisation des Muhajirun et des Ansar" }
 summary:
   en: "The Prophet paired emigrants from Mecca with helpers from Medina as brothers, sharing support in the first months after the Hijra."
   ar: "آخى النبي بين المهاجرين والأنصار في دار أنس بن مالك تسعين رجلاً مناصفة، فتقاسموا المال والمسكن وتوارثوا حتى نسخ التوارث بآية أولي الأرحام."
+  fr: "Le Prophète unit comme frères des émigrés de La Mecque et des auxiliaires de Médine, qui se soutinrent mutuellement pendant les premiers mois après l'Hégire."
 wings: [time]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0622~", hijri: "0001", calendar: julian, precision: year, status: tradition, note: "عقدت المؤاخاة في دار أنس بن مالك بين تسعين رجلاً نصفهم من المهاجرين ونصفهم من الأنصار (الرحيق ص185)" }
+  start: { edtf: "0622~", hijri: "0001", calendar: julian, precision: year, status: tradition, note: "عقدت المؤاخاة في دار أنس بن مالك بين تسعين رجلاً نصفهم من المهاجرين ونصفهم من الأنصار ⁦(الرحيق ص185)⁩" }
 relations:
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: person/muhammad, role: "العاقد للمؤاخاة والمؤلف بين القلوب", sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/abd-al-rahman-ibn-awf, note: "آخى النبي بينه وبين سعد بن الربيع (الرحيق ص186)", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
-  - { type: had_participant, target: person/sad-ibn-al-rabi, note: "آخى النبي بينه وبين عبد الرحمن بن عوف فقاسمه ماله وعرض عليه إحدى زوجتيه (الرحيق ص186)", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
-  - { type: had_participant, target: person/anas-ibn-malik, note: "عقدت المؤاخاة في داره بالمدينة (الرحيق ص185)", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-awf, note: "آخى النبي بينه وبين سعد بن الربيع ⁦(الرحيق ص186)⁩", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/sad-ibn-al-rabi, note: "آخى النبي بينه وبين عبد الرحمن بن عوف فقاسمه ماله وعرض عليه إحدى زوجتيه ⁦(الرحيق ص186)⁩", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/anas-ibn-malik, note: "عقدت المؤاخاة في داره بالمدينة ⁦(الرحيق ص185)⁩", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
   - { type: had_participant, target: group/muhajirun, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: group/ansar, sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }

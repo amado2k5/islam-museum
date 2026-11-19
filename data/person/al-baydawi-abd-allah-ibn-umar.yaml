@@ -1,7 +1,7 @@
 id: person/al-baydawi-abd-allah-ibn-umar
 class: person
 aliases: [person/al-baydawi]   # merged 4 Nov 2026 (OCR-harvest worker B): the bare "al-Baydawi" record was Rashid Rida's quotation of the commentator on Q. 2:142, i.e. this man; its one fact is now a prose section, the duplicate file removed, the id still resolves
-label: { ar: "البيضاوي عبد الله بن عمر", en: "Al-Baydawi, Abd Allah ibn Umar", ur: "بیضاوی عبد اللہ بن عمر" }
+label: { ar: "البيضاوي عبد الله بن عمر", en: "Al-Baydawi, Abd Allah ibn Umar", fr: "Al-Baydawi, Abd Allah ibn Umar", ur: "بیضاوی عبد اللہ بن عمر" }
 names:
   - { kind: full, lang: ar, value: "عبد الله بن عمر بن محمد بن علي أبو الخير البيضاوي" }
   - { kind: full, lang: ar, value: "القاضي ناصر الدين أبو سعيد عبد الله بن عمر بن محمد الشيرازي البيضاوي" }
@@ -12,6 +12,7 @@ died: { edtf: "1286", hijri: "0685", calendar: julian, precision: year, status: 
 summary:
   ar: "فقيه ومفسر ومتكلم وأصولي، صاحب تفسير «أنوار التنزيل»."
   en: "A jurist, Qur'an commentator, theologian and legal theorist, author of Anwar al-Tanzil."
+  fr: "Juriste, commentateur du Coran, théologien et théoricien du droit, auteur d’Anwar al-Tanzil."
 wings: [people]
 themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
 periods: [period/mongol-post-mongol]
@@ -19,7 +20,7 @@ regions: [persia-central-asia]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 relations:
-  - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name (الشيرازي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/anwar-al-tanzil-halabi-1330-v4, source/anwar-al-tanzil-fleischer-v1, source/tafsir-manar-v02], confidence: low }
+  - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name ⁦(الشيرازي)⁩; denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/anwar-al-tanzil-halabi-1330-v4, source/anwar-al-tanzil-fleischer-v1, source/tafsir-manar-v02], confidence: low }
   - { type: authored, target: work/anwar-al-tanzil, sources: [source/kashf-zunun-furqan] }
 external_ids: { wikidata: "Q287573", viaf: "44541329", biblissima: Q16817 }
 sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/anwar-al-tanzil-halabi-1330-v4, source/anwar-al-tanzil-fleischer-v1, source/tafsir-manar-v02, source/wikidata, source/biblissima, source/oxford-dictionary-of-islam]
@@ -28,7 +29,7 @@ status:
   completeness: 3
 provenance:
   layer: "own-research"
-  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص288"
+  source: "موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج4 ص288"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch51

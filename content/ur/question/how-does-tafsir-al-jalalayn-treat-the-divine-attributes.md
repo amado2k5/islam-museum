@@ -16,7 +16,7 @@ translators: ["Claude Code (OCR-harvest worker B), claude-opus-5-5"]
 ## اختلاف اور آراء
 :::perspectives
 - **أهل السنة / اہلِ سنت: محمد محمد تامر، مکتبۃ الایمان ایڈیشن کے مراجع**: کتاب میں آیاتِ صفات میں مخالفتیں ہیں؛ حق تشبیہ، تاویل اور تعطیل کے بغیر اثبات ہے {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.3}۔
-- **أهل السنة / اہلِ سنت (اشاعرہ): جلالین کا متن**: رحمت کی تفسیر ارادۂ خیر سے، ید کی اطلاع اور جزا سے، اور استوا «ایسا استوا جو اس کے لائق ہے» {cite:tafsir-jalalayn-dar-al-marifa-uthmani p.23} {cite:tafsir-jalalayn-dar-al-marifa-uthmani p.700} {cite:tafsir-jalalayn-dar-al-marifa-uthmani p.286}۔
+- **أهل السنة / اہلِ سنت ⁦(اشاعرہ)⁩: جلالین کا متن**: رحمت کی تفسیر ارادۂ خیر سے، ید کی اطلاع اور جزا سے، اور استوا «ایسا استوا جو اس کے لائق ہے» {cite:tafsir-jalalayn-dar-al-marifa-uthmani p.23} {cite:tafsir-jalalayn-dar-al-marifa-uthmani p.700} {cite:tafsir-jalalayn-dar-al-marifa-uthmani p.286}۔
 - **جو یہاں ابھی شامل نہیں**: جلالین کے عقیدے پر علمی مطالعات اور اس کے شارحین و محشین کی آرا ابھی شامل نہیں کی گئیں؛ آئندہ کتابیں انہیں فراہم کریں گی۔
 :::
 

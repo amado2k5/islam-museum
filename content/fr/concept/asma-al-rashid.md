@@ -1,0 +1,19 @@
+---
+id: concept/asma-al-rashid
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-03
+  source: content/en/concept/asma-al-rashid.md
+---
+## Vue d’ensemble
+ar-Rashid — Celui qui guide avec droiture. C’est le nom numéro 98 dans l’énumération des plus beaux noms de Dieu du hadith d’Abu Hurayra chez al-Tirmidhi {cite:jami-al-tirmidhi} ; Ibn Qayyim al-Jawziyya a consacré un chapitre de Jala' al-Afham à l’explication de ces noms {cite:jala-afham-ibn-qayyim}.
+
+## Dans le Coran
+Le nom apparaît dans le Coran, notamment en : [[passage/quran-11-87|11:87]].
+
+## Dans la Sunna
+Abu Hurayra rapporte : « Dieu a quatre-vingt-dix-neuf noms — cent moins un ; celui qui les énumère entre au Paradis » {cite:sahih-muslim}.

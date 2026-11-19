@@ -1,0 +1,25 @@
+---
+id: person/khawla-bint-al-azwar
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/khawla-bint-al-azwar.md}
+---
+## Resumen
+Khawla bint al-Azwar, hermana de [[person/dirar-ibn-al-azwar|Dirar ibn al-Azwar]], es la mujer más conocida del [[work/futuh-al-sham-waqidi|Futuh al-Sham]] atribuida a al-Waqidi, y su imagen familiar proviene de ello: una amazona enmascarada luchando en las filas de las conquistas. Su historia se cuenta aquí tal y como la cuenta este libro; su atribución a al-Waqidi es cuestionable (véase [[question/attribution-of-futuh-al-sham-waqidi|la atribución de Futuh al-Sham]]).
+
+## El jinete enmascarado
+El libro relata que Dirar fue capturado luchando cerca de Damasco por un ejército dirigido por Wardan, señor de Homs, y que [[person/khalid-ibn-al-walid|Khalid ibn al-Walid]] salió a rescatarlo. Delante de él vio a un jinete montado en un caballo alto con una larga lanza, sin mostrar nada salvo los ojos, vestido de negro sobre la armadura y cinturón con un turbante verde, corriendo delante de todos hacia los bizantinos "como un fuego". {cite:futuh-al-sham-ilmiyya-1997-v1 p.40} El jinete cargó contra las escuadras bizantinas y salió con una punta de lanza ensangrentada; Rafi' ibn Umayra y sus hombres tomaron al jinete por Khalid. Cuando Khalid y los musulmanes pidieron al jinete que se desvelara, el jinete se dio la vuelta y volvió a lanzarse a la lucha, hasta que Khalid insistió, y ella respondió desde debajo del velo "con voz de mujer" que se había dado la vuelta por modestia ante él, y que ella era Khawla bint al-Azwar: le dijeron que su hermano había sido capturado, que había montado y hecho lo que hizo. {cite:futuh-al-sham-ilmiyya-1997-v1 p.41} Luego recorrió el campo de batalla buscando solo a su hermano hasta el mediodía, y cuando los ejércitos se separaron, pidió a los musulmanes noticias de él, no encontró ninguna, llorando y lamentándolo. {cite:futuh-al-sham-ilmiyya-1997-v1 p.42}
+
+## Las mujeres cautivas
+En otro episodio cerca de Damasco, el libro dice que Khawla estaba entre mujeres árabes capturadas por los bizantinos, y que el patricio Butrus, hermano de Bulus, la eligió para sí mismo. Se levantó entre los cautivos, entre ellos mujeres mayores de Himyar, y los agitó; Afra' bint Ghifar al-Himyariyya le respondió; cada mujer tomó un poste de tienda, Khawla puso uno al hombro, les dijo que se mantuvieran unidos "como un anillo cerrado" sin dispersarse, y se lanzó contra sus cabezas. {cite:futuh-al-sham-ilmiyya-1997-v1 p.47} Khalid y Dirar entonces los alcanzaron; cuando Butrus se dio la vuelta para huir, Khawla golpeó las patas de su caballo y Dirar le lanzó una embestida; según el relato, Hamid ibn Amir al-Yarbu'i contó a cinco hombres asesinados por ella ese día. {cite:futuh-al-sham-ilmiyya-1997-v1 p.49} {cite:futuh-al-sham-ilmiyya-1997-v1 p.50} Cuando la fuerza se reunió con Abu Ubayda en Marj al-Suffar, Khalid le contó lo que Khawla, Afra' y los demás habían hecho. {cite:futuh-al-sham-ilmiyya-1997-v1 p.50}
+
+## El día de Yarmuk
+El libro la cuenta entre las mujeres que se apoyaron ante las líneas de [[event/battle-of-yarmuk|Yarmuk]] instando a los hombres, y ofrece versos que ella recitó. {cite:futuh-al-sham-ilmiyya-1997-v1 p.196} Cuando las mujeres de Lakhm, Judham y Khawlan se quebraron, salió con um Hakim bint al-Harith y Salma bint Lu'ayy y los golpeó con palos hasta que regresaron a la lucha. {cite:futuh-al-sham-ilmiyya-1997-v1 p.208} Relata que embistió contra un soldado bizantino que la golpeó en la cabeza con su espada y la derribó; Ufayra bint Affan sostuvo su cabeza sobre su rodilla, y su primera pregunta fue para su hermano Dirar; esa noche se la vio dando agua a los hombres como si nada la doliera. {cite:futuh-al-sham-ilmiyya-1997-v1 p.208} {cite:futuh-al-sham-ilmiyya-1997-v1 p.209} El libro sitúa a Yarmuk, según el informe de Makhul, en Rajab del año 15 H. {cite:futuh-al-sham-ilmiyya-1997-v1 p.208}
+
+## Más tarde
+El libro dice que Dirar fue capturado por segunda vez en las campañas del norte, y que cuando la noticia llegó a su hermana, ella pronunció la fórmula del retorno a Dios y lo lamentó en prosa y verso. {cite:futuh-al-sham-ilmiyya-1997-v1 p.278} Al final del primer volumen, Dirar ve a un jinete dispersando las escuadras y gritando «¡Venganza por Dirar ibn al-Azwar!», y es su hermana; le dice que monte a Rein para Rein con él y luche. {cite:futuh-al-sham-ilmiyya-1997-v1 p.302}
+
+## En la fuente
+Esta imagen completa está tomada del circulante Futuh al-Sham, un libro que un estudio académico sostiene fue redactado entre los siglos XII y XIII d.C. {cite:dehghani-farsani-futuh-al-sham-thesis abstract} Su mención en los libros de generaciones y biografías no ha sido verificada aquí.

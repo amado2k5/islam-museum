@@ -1,12 +1,12 @@
 ---
 lang: ur
 id: person/naim-frasheri
-title: "نعیم فراشری (1846ء–1900ء)"
+title: "نعیم فراشری ⁦(1846ء–1900ء)⁩"
 ---
 
 ## جائزہ
 
-نعیم فراشری (25 مئی 1846ء – 20 اکتوبر 1900ء) البانوی مصنف، مؤرخ، شاعر اور مترجم تھے، جنھیں البانیہ کا قومی شاعر اور جدید البانوی ادب کے بانیوں میں شمار کیا جاتا ہے۔{cite:source/wikipedia-naim-frasheri-ur} وہ خالد بے فراشری (1797ء–1859ء) اور امینہ (1814ء–1861ء) کے آٹھ بچوں میں چوتھے تھے، اور فراشر کے ایک دولت مند البانوی خاندان میں پیدا ہوئے جس کا تعلق بکتاشی سلسلے سے تھا۔{cite:source/wikipedia-naim-frasheri-sq}{cite:source/wikipedia-naim-frasheri-en} اپنے بڑے بھائی عبدل اور چھوٹے بھائی سامی کے ساتھ وہ البانوی قومی بیداری کی نمایاں شخصیات میں شامل تھے۔{cite:source/wikipedia-naim-frasheri-ur}
+نعیم فراشری ⁦(25 مئی 1846ء – 20 اکتوبر 1900ء)⁩ البانوی مصنف، مؤرخ، شاعر اور مترجم تھے، جنھیں البانیہ کا قومی شاعر اور جدید البانوی ادب کے بانیوں میں شمار کیا جاتا ہے۔{cite:source/wikipedia-naim-frasheri-ur} وہ خالد بے فراشری ⁦(1797ء–1859ء)⁩ اور امینہ ⁦(1814ء–1861ء)⁩ کے آٹھ بچوں میں چوتھے تھے، اور فراشر کے ایک دولت مند البانوی خاندان میں پیدا ہوئے جس کا تعلق بکتاشی سلسلے سے تھا۔{cite:source/wikipedia-naim-frasheri-sq}{cite:source/wikipedia-naim-frasheri-en} اپنے بڑے بھائی عبدل اور چھوٹے بھائی سامی کے ساتھ وہ البانوی قومی بیداری کی نمایاں شخصیات میں شامل تھے۔{cite:source/wikipedia-naim-frasheri-ur}
 
 ## زندگی اور خدمات
 
@@ -14,18 +14,18 @@ title: "نعیم فراشری (1846ء–1900ء)"
 
 ## تصانیف
 
-انھوں نے چار زبانوں میں بائیس کتابیں لکھیں: پندرہ البانوی، چار ترکی، دو یونانی اور ایک فارسی میں۔{cite:source/wikipedia-naim-frasheri-en} ان کی مشہور نظموں میں «گرمیوں کے پھول» (1890ء)، ملحمہ «کربلا» (1898ء؛ عربی اور اردو مضامین کی فہرست میں 1894ء درج ہے) اور «سکندر کی تاریخ» (1898ء) شامل ہیں۔{cite:source/wikipedia-naim-frasheri-ur}{cite:source/wikipedia-naim-frasheri-sq} ان کی «بکتاشی دفتر» کو انگریزی مضمون کی فہرست 1895ء اور رابرٹ ایلسی 1896ء بتاتے ہیں، اور اس کے آغاز میں ان کے بکتاشی عقیدے کا اعلان درج ہے۔{cite:source/wikipedia-naim-frasheri-en}{cite:source/elsie-naim-frasheri}
+انھوں نے چار زبانوں میں بائیس کتابیں لکھیں: پندرہ البانوی، چار ترکی، دو یونانی اور ایک فارسی میں۔{cite:source/wikipedia-naim-frasheri-en} ان کی مشہور نظموں میں «گرمیوں کے پھول» ⁦(1890ء)⁩، ملحمہ «کربلا» ⁦(1898ء؛ عربی اور اردو مضامین کی فہرست میں 1894ء درج ہے)⁩ اور «سکندر کی تاریخ» ⁦(1898ء)⁩ شامل ہیں۔{cite:source/wikipedia-naim-frasheri-ur}{cite:source/wikipedia-naim-frasheri-sq} ان کی «بکتاشی دفتر» کو انگریزی مضمون کی فہرست 1895ء اور رابرٹ ایلسی 1896ء بتاتے ہیں، اور اس کے آغاز میں ان کے بکتاشی عقیدے کا اعلان درج ہے۔{cite:source/wikipedia-naim-frasheri-en}{cite:source/elsie-naim-frasheri}
 
 ## آراء و تنقید
 
 یہ حصہ ان باتوں کو پیش کرتا ہے جو مآخذ فراشری سے منسوب کرتے ہیں؛ یہ میوزیم کا اپنا فیصلہ نہیں ہے۔
 
-انگریزی مضمون صراحتاً کہتا ہے کہ «وہ خود بکتاشی تھے» اور انھیں «البانوی میں صوفی شاعری کے سب سے نمائندہ شاعر» قرار دیتا ہے۔{cite:source/wikipedia-naim-frasheri-en} رابرٹ ایلسی ان کے «بکتاشی مذہب سے لگاؤ» کا ذکر کرتے ہیں اور لکھتے ہیں کہ وہ امید رکھتے تھے کہ بکتاشی عقائد ایک دن پورے البانیہ کا مذہب بن جائیں گے۔{cite:source/elsie-naim-frasheri} انہی تین آزاد شہادتوں کی بنیاد پر میوزیم ان کے ریکارڈ میں ان کا عقیدہ «صوفی» (بکتاشی) درج کرتا ہے۔{cite:source/wikipedia-naim-frasheri-en}{cite:source/wikipedia-naim-frasheri-sq}{cite:source/elsie-naim-frasheri} ان کی تصویر 200 لیک کے نوٹ پر ہے اور البانیہ کا ایک تمغۂ امتیاز ان کے نام پر ہے۔{cite:source/wikipedia-naim-frasheri-en}
+انگریزی مضمون صراحتاً کہتا ہے کہ «وہ خود بکتاشی تھے» اور انھیں «البانوی میں صوفی شاعری کے سب سے نمائندہ شاعر» قرار دیتا ہے۔{cite:source/wikipedia-naim-frasheri-en} رابرٹ ایلسی ان کے «بکتاشی مذہب سے لگاؤ» کا ذکر کرتے ہیں اور لکھتے ہیں کہ وہ امید رکھتے تھے کہ بکتاشی عقائد ایک دن پورے البانیہ کا مذہب بن جائیں گے۔{cite:source/elsie-naim-frasheri} انہی تین آزاد شہادتوں کی بنیاد پر میوزیم ان کے ریکارڈ میں ان کا عقیدہ «صوفی» ⁦(بکتاشی)⁩ درج کرتا ہے۔{cite:source/wikipedia-naim-frasheri-en}{cite:source/wikipedia-naim-frasheri-sq}{cite:source/elsie-naim-frasheri} ان کی تصویر 200 لیک کے نوٹ پر ہے اور البانیہ کا ایک تمغۂ امتیاز ان کے نام پر ہے۔{cite:source/wikipedia-naim-frasheri-en}
 
 ## حوالہ جات
 
-- ویکیپیڈیا (انگریزی)، "Naim Frashëri"، نظرثانی 1376878515 (26 ستمبر 2026ء) — source/wikipedia-naim-frasheri-en۔
-- ویکیپیڈیا (البانوی)، "Naim Frashëri"، نظرثانی 2940719 (13 اپریل 2026ء) — source/wikipedia-naim-frasheri-sq۔
-- ویکیپیڈیا (اردو)، «نعیم فراشری»، نظرثانی 11850274 (30 اگست 2026ء) — source/wikipedia-naim-frasheri-ur۔
+- ویکیپیڈیا ⁦(انگریزی)⁩، "Naim Frashëri"، نظرثانی 1376878515 ⁦(26 ستمبر 2026ء)⁩ — source/wikipedia-naim-frasheri-en۔
+- ویکیپیڈیا ⁦(البانوی)⁩، "Naim Frashëri"، نظرثانی 2940719 ⁦(13 اپریل 2026ء)⁩ — source/wikipedia-naim-frasheri-sq۔
+- ویکیپیڈیا ⁦(اردو)⁩، «نعیم فراشری»، نظرثانی 11850274 ⁦(30 اگست 2026ء)⁩ — source/wikipedia-naim-frasheri-ur۔
 - رابرٹ ایلسی، «نعیم فراشری»، البانوی ادب (albanianliterature.net) — source/elsie-naim-frasheri۔
 - ویکی ڈیٹا، Q47007 — source/wikidata-naim-frasheri۔

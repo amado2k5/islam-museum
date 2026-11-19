@@ -1,0 +1,16 @@
+---
+id: person/mohamed-bey-el-mouradi
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/person/mohamed-bey-el-mouradi.md}
+---
+## Resumen
+
+# Mohamed Bey El Mouradi
+
+Mohamed Bey El Mouradi (fallecido el 14 de octubre de 1696) fue un Muradid Bey de Túnez, el hijo mayor de Murad II Bey y, por parte de su madre, nieto de Yusuf Dey {cite:wikipedia-mohamed-bey-el-mouradi-en} {cite:wikipedia-mohamed-bey-el-mouradi-fr}. Ningún artículo leído indica su año de nacimiento; la declaración de nacimiento del ítem Wikidata es solo precisa por década, para la década de 1650, por lo que la fila de la cola 1655 es una estimación intermedia pero ningún texto lo atestigua {cite:wikidata-mohamed-bey-el-mouradi}. El artículo en inglés data su beylicate en 1675, año de la muerte de su padre, mientras que los artículos en francés y árabe cuentan su mandato efectivo desde 1686, cuando tomó el poder en solitario tras una larga lucha {cite:wikipedia-mohamed-bey-el-mouradi-en} {cite:wikipedia-mohamed-bey-el-mouradi-fr}.
+
+Su reinado estuvo consumido por las guerras civiles muradidas. Su tío Muhammad al-Hafsi se presentó a él y fue exiliado en 1679; su hermano Ali bin Murad, decepcionado con su parte de poder, se refugió en el Beylik de Constantino y llevó a las tribus del noroeste bajo el mando de Muhammad ben Cheker con promesas de oro y plata, sitió Túnez y expulsó a Muhammad Bey a Kairuán; Muhammad rompió el asedio y se enfrentó a Ali en la batalla de El Kerima en la llanura de Fahs en 1677, que Ali ganó decisivamente, tomando Túnez mientras su hermano permanecía sitiado en Kairuán {cite:wikipedia-mohamed-bey-el-mouradi-en}. La mediación del Dey de Argel produjo un tratado en 1679, pero la paz fracasó: los jenízaros eligieron a Ahmed Chelebi, los argelinos lo derrotaron y saquearon Túnez en 1686, y Mahoma, sospechando que Ali les apoyaba, lo mató y se apoderó del poder para sí mismo {cite:wikipedia-mohamed-bey-el-mouradi-en}. En 1694 el Dey Hadj Chabane invadió con el pretendiente Muhammad ben Cheker y anexionó Túnez durante meses, nombrando a ben Cheker bey; en 1695 los tunecinos se rebelaron, derrotaron a ben Cheker en Kairuán y restauraron la dinastía Muradid {cite:wikipedia-mohamed-bey-el-mouradi-en}.
+
+En medio de estos problemas —el periodo llamado las Revoluciones de Túnez— construyó monumentos que se conservan: la mezquita de Sidi Mahrez en Túnez, inspirada en las mezquitas de Estambul con una gran cúpula central; el reconstruido zoco de Chachia; mezquitas y madrasas en Beja, El Kef, Gafsa, Tozeur y Gabes, entre ellas la mezquita Al Bey en Kairuán; y en 1690 el puente-presa de Tebourba sobre la Medjerda {cite:wikipedia-mohamed-bey-el-mouradi-fr} {cite:wikipedia-mohamed-bey-el-mouradi-ar}. Murió el 14 de octubre de 1696 y fue enterrado en el mausoleo de su abuelo Hammuda Pasha Bey; sus hijos Mourad y Hassan eran demasiado jóvenes para reinar, por lo que su hermano Ramadan Bey le sucedió {cite:wikipedia-mohamed-bey-el-mouradi-fr}.
