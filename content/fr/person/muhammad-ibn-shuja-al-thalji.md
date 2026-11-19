@@ -1,0 +1,25 @@
+---
+id: person/muhammad-ibn-shuja-al-thalji
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/muhammad-ibn-shuja-al-thalji.md}
+---
+## Résumé
+Muhammad ibn Shuja al-Thalji, Abu Abd Allah, un hanafite bagdadi, compagnon d'al-Hasan ibn Ziyad, le principal juriste d'Irak de son époque et éminent en droit, hadith et récitation coranique. Le livre indique 266 H comme année de sa mort. Il note une tendance à se rapprocher des vues mu'tazilites. Ses œuvres incluent al-Manasik, Tashih al-athar, al-Nawadir et un livre sur le partenariat commercial (mudaraba). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15418}
+
+## Dans Mizan al-I'tidal d'al-Dhahabi
+Dans [[work/mizan-al-itidal|Mizan al-I'tidal]], [[person/al-dhahabi|al-Dhahabi]] donne une entrée à Muhammad ibn Shuja' Ibn al-Thalji, le juriste hanafite de Bagdad, Abu Abd Allah, auteur de nombreuses œuvres. {cite:mizan-itidal-bijawi-v3 p. 577} Il récita le Coran à al-Yazidi, narré à partir d' [[person/ibn-ulayyah|Ibn Ulayya]] et Waki', et étudia le droit avec al-Hasan ibn Ziyad al-Lu'lu'i et d'autres. {cite:mizan-itidal-bijawi-v3 p. 577} Ahmad ibn Kamil dit : il était le juriste de l'Irak à son époque ; Ibn al-Munadi dit : il étudia le droit et enseigna le Coran aux gens. {cite:mizan-itidal-bijawi-v3 p. 578} Il rapporte qu'al-Hakim a dit avoir vu le *Kitab al-Manasik* d'Ibn al-Thalji en plus de soixante grandes pièces. {cite:mizan-itidal-bijawi-v3 p. 578}
+
+**La querelle avec les disciples d'Ahmad.** Al-Dhahabi affirme qu'il est rapporté de plusieurs façons qu'Ibn al-Thalji s'est adressé à [[person/ahmad-ibn-hanbal|Ahmad]] et à ses partisans, disant : « pour quoi Ahmad a-t-il jamais défendu ? » {cite:mizan-itidal-bijawi-v3 p. 577} Al-Marrudhi rapporta qu'il était allé le voir et le lui avait réprimandé, et Ibn al-Thalji disait qu'il parlait de « la parole de Dieu » comme on parle du « ciel de Dieu et de la terre de Dieu » — un génitif de propriété. {cite:mizan-itidal-bijawi-v3 p. 577} Al-Dhahabi relate des paroles dures de sa part sur les disciples d'Ahmad et sur Ahmad lui-même, et que sa volonté ordonnait que rien de son troisième ne soit donné sauf à celui qui disait que le Coran avait été créé. {cite:mizan-itidal-bijawi-v3 p. 578} Ibn Adi rapporta de Musa ibn al-Qasim qu'Ibn al-Thalji avait l'habitude de dénigrer [[person/al-shafii|al-Shafi'i]], mais à sa mort demanda la miséricorde de Dieu, mentionna son érudition et dit : J'ai retiré ce que je disais autrefois à son sujet. {cite:mizan-itidal-bijawi-v3 p. 578}
+
+**Le poste de juge qu'il ne reçut pas. ** Les rapports d'Al-Dhahabi d' [[person/ali-ibn-al-jahm|Ali ibn al-Jahm]] indiquent qu'Ishaq ibn Ibrahim, gouverneur de Bagdad, pressa [[person/al-mutawakkil|al-Mutawakkil]] de nommer Ibn al-Thalji juge ; al-Mutawakkil demanda à Ali qui il était, Ali répondit qu'il était l'un des disciples de [[person/bishr-ibn-ghiyath-al-marisi|Bishr al-Marisi]], et le calife déchira la lettre — ce qui, selon Ali, expliqua pourquoi il fut lui-même envoyé plus tard à Isbijab. {cite:mizan-itidal-bijawi-v3 p. 577} {cite:mizan-itidal-bijawi-v3 p. 578}
+
+**L'accusation de falsification.** Ibn Adi a dit qu'il avait forgé des hadiths d'anthropomorphisme et les avait attribués au peuple des hadiths afin de les déshonorer. {cite:mizan-itidal-bijawi-v3 p. 577} Ibn Adi cite de lui un rapport sur la création du « cheval », que al-Dhahabi qualifie de mensonge le plus évident, et qu'il considère comme étant forgé par le Jahmiyya pour soutenir que l'attribution du « soi » et du « discours » à Dieu est un génitif de propriété et d'honneur. {cite:mizan-itidal-bijawi-v3 p. 578} {cite:mizan-itidal-bijawi-v3 p. 579} [[person/zakariyya-al-saji|Zakariyya al-Saji]] a dit : un menteur qui a comploté pour invalider les hadiths au profit d'une opinion personnelle. {cite:mizan-itidal-bijawi-v3 p. 578}
+
+**Sa dévotion et sa mort. ** Al-Dhahabi dit que malgré ses faiblesses, il était un homme de récitation et d'adoration, qui mourut prosterné lors de la prière de l'après-midi, « et qu'il trouve miséricorde, si Dieu le veut ». {cite:mizan-itidal-bijawi-v3 p. 578} Il mourut en 266 à l'âge de quatre-vingt-six ans, soudainement, à Dhu al-Hijja. {cite:mizan-itidal-bijawi-v3 p. 578}
+
+:::perspectives
+- **Sunnite : Ibn Adi, Zakariyya al-Saji et les disciples d'Ahmad tels que rapportés par al-Dhahabi** : il a forgé des hadiths anthropomorphes pour déshonorer le peuple des hadiths, et était un disciple de Bishr al-Marisi tenant le Coran créé. {cite:mizan-itidal-bijawi-v3 p. 577} {cite:mizan-itidal-bijawi-v3 p. 578}
+- **Sunnite : Ahmad ibn Kamil et Ibn al-Munadi, et al-Dhahabi sur sa dévotion** : juriste de l'Irak de son époque, maître dévot du Coran qui est mort prosterné. {cite:mizan-itidal-bijawi-v3 p. 578}
+:::
