@@ -1,0 +1,18 @@
+---
+id: person/shuayb
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/shuayb.md}
+---
+## Vue d'ensemble
+Shu'ayb ibn Nuwayl ibn Ru'uwayl ibn Mar ibn Anqa' ibn Madyan ibn Ibrahim, le prophète de Madyan, à qui Musa donna sa fille en mariage, comme le rapporte al-Mas'udi. Il appela son peuple, et ils le rejetèrent. Il leur promit la punition du Jour de l'Ombre sous le règne de Kalman, et se retira avec ceux qui croyaient en lui vers al-Aykah, un fourré près de Madyan. Lorsque la chaleur devint intense sur les négationnistes, ils le cherchèrent et le chassèrent de sa place, et Dieu transforma le nuage d'ombre en feu au-dessus d'eux {cite:muruj-al-dhahab p.459}.
+
+## Distinction par rapport à Shu'ayb ibn Mihdam
+al-Mas'udi le distingue de [[person/shuayb-ibn-mihdam|Shu'ayb ibn Mihdam]], le prophète d'Hadhura, et place des centaines d'années entre eux. Il dit qu'il y eut mille prophètes entre Moussa et le Messie {cite:muruj-al-dhahab p.464}.
+
+## Notes pour les chercheurs
+- Tous les rapports sont transmis depuis al-Mas'udi. Ils ont besoin d'une source supplémentaire.
+
+## Dans le programme d'al-Sha'rawi « Liqa' al-Iman »
+Dans l'épisode 8 de [[work/likaa-al-iman|Liqa' al-Iman]], le présentateur affirme que le message de Shu'ayb appelle à la justice sociale et à la pleine mesure. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:00:30} [[person/muhammad-mutawalli-al-shaarawi|Al-Sha'rawi]] dit qu'il fut le premier à tirer « la question des femmes » de l'histoire de Shu'ayb, car Dieu ne raconte pas des histoires pour divertir mais pour enseigner. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:01:00} Il soutient que les deux phrases des deux femmes près de l'eau du [[place/madyan|Madyan]], selon lesquelles elles ne passeraient pas d'arroser leur troupeau tant que les bergers ne seraient pas partis et que leur père était très âgé, portent toute la question : l'âge du père est la raison de sortir, puisqu'ils n'avaient pas de pourvoyeur, et attendre que les bergers partent montre que sortir par nécessité est tenu à la mesure de la nécessité. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:01:30} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:02:00} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:02:30} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:03:00} Il soutient que le rôle de la communauté croyante est d'aider une femme sortie pour un besoin, comme Musa l'abreuvait. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:03:00} Il raconte une coutume qu'il a vue à La Mecque lorsqu'il s'y rendit en 1950 : devant une maison sans homme, une planche de pâte était disposée, et tout homme passant la prenait, la cuisinait et la ramenait sans ouvrir la porte, et il y voit une forme d'arrosage pour eux. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:03:00} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:04:00} Il dit alors que la demande de sa fille d'embaucher Musa était une demande pour mettre fin au besoin de sortir. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:04:30} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:05:00} Il définit la nécessité comme ce qui, si vous ne le faisiez pas, vous mourriez de faim. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:05:00}
