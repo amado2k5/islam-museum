@@ -9,7 +9,7 @@ BRANCH=$(git rev-parse --abbrev-ref HEAD); LOG=/tmp/local-mt-ship-validate.log; 
 while :; do
   npm run validate > "$LOG" 2>&1 && break
   round=$((round + 1))
-  bad=$(grep -E "^ERROR " "$LOG" | grep -oE "content/(es|fr)/[a-z_-]+/[^ :]+\.md" | sort -u)
+  bad=$(grep -E "^ERROR " "$LOG" | grep -oE "content/(es|fr|en|ur)/[a-z_-]+/[^ :]+\.md" | sort -u)
   # Only this lane's own machine translations are ever set aside. A file another lane or agent wrote is never
   # touched, whatever the validator says about it (19 November 2026: 33 French files of another agent were removed
   # by this step and had to be restored); its errors are reported and left for its owner.
@@ -22,7 +22,7 @@ while :; do
   bad="$mine"
   if [ -z "$bad" ] || [ "$round" -gt 3 ]; then echo "VALIDATE FAILED:"; grep -E "^ERROR " "$LOG" | head -5; exit 1; fi
   for f in $bad; do
-    lang=$(echo "$f" | cut -d/ -f2); id=$(echo "$f" | sed -E 's#content/(es|fr)/##; s#\.md$##')
+    lang=$(echo "$f" | cut -d/ -f2); id=$(echo "$f" | sed -E 's#content/(es|fr|en|ur)/##; s#\.md$##')
     reason=$(grep -F "$f" "$LOG" | head -1 | sed -E 's/^ERROR [^:]*: //' | cut -c1-160)
     mkdir -p "$HOME_DIR/quarantine/$lang/$(dirname "$id")"; mv "$f" "$HOME_DIR/quarantine/$lang/$id.md"
     printf '%s\tvalidator: %s\n' "$id" "$reason" >> "$HOME_DIR/logs/gt-$lang.log.failed"
@@ -44,9 +44,9 @@ a = '\n## Explicit gaps\n'
 if a in s: s = s.replace(a, line + a, 1)
 open(p, 'w', encoding='utf-8').write(s)
 PY
-git add -- content/es content/fr ':!*.tmp' CANARY.md docs/delegation/spanish-progress.md scripts/local-mt
+git add -- content/es content/fr content/en content/ur ':!*.tmp' CANARY.md docs/delegation/spanish-progress.md scripts/local-mt
 if git diff --cached --quiet; then echo "nothing new to ship"; exit 0; fi
-N=$(git diff --cached --name-only -- content/es content/fr | wc -l | tr -d ' ')
+N=$(git diff --cached --name-only -- content/es content/fr content/en content/ur | wc -l | tr -d ' ')
 git commit -q -m "feat(gt-docs): $N records from $ENGINE $WHAT (content/es $ES files, content/fr $FR files)
 
 Translated from content/en/ $SITE and

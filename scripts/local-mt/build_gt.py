@@ -15,7 +15,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from translate import BROKEN, LEVELED, ROOT, protect, queue  # noqa: E402
 
 ap = argparse.ArgumentParser()
-ap.add_argument("--lang", required=True, choices=["es", "fr", "both"], help="both: one file for the two languages (records missing in either)")
+ap.add_argument("--lang", required=True, choices=["es", "fr", "both", "en", "ur"], help="both: one file for the two languages (records missing in either)")
 ap.add_argument("--dir", required=True)
 ap.add_argument("--n", type=int, required=True, help="file number")
 ap.add_argument("--bytes", type=int, default=990_000)
@@ -68,7 +68,7 @@ if a.ids_file:
     seen, ids = set(), []
     for l in open(a.ids_file, encoding="utf-8"):
         i = l.split("\t")[0].strip()
-        if i and i not in seen: seen.add(i); ids.append(i)
+        if i and i not in seen and i not in skip and (a.lang == "both" or not os.path.exists(os.path.join(ROOT, "content", a.lang, i + ".md"))): seen.add(i); ids.append(i)
 elif a.lang == "both":
     def ids_of(f): return set(l.split("\t")[0].strip() for l in open(f, encoding="utf-8")) if os.path.exists(f) else set()
     es = list(queue("es", [], ids_of(f"{a.home}/logs/gt-es.log.failed")))

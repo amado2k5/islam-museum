@@ -17,7 +17,7 @@ import argparse, collections, html, json, os, re, sys, time, zipfile
 import yaml
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from translate import BROKEN, FIXED_HEADINGS, LEVELED, ROOT, check, protect, restore  # noqa: E402
+from translate import BROKEN, FIXED_HEADINGS, HONORIFIC, LEVELED, ROOT, check, protect, restore  # noqa: E402
 
 REC = re.compile(r"^\s*#{3,4}\s*(\d+)\s*#{3,4}\s*$")
 ERA = {"es": [(r"(\d) (?:AH|d\. ?H\.|A\.H\.)(?!\w)", r"\1 H"), (r"(\d) (?:BCE|a\. ?e\. ?c\.|AEC)(?!\w)", r"\1 a. C."), (r"(\d) (?:CE|e\. ?c\.|EC)(?!\w)", r"\1 d. C.")],
@@ -82,9 +82,53 @@ def repair(tr, en, kept, links):
     return tr
 
 
+ARABIC = re.compile(r"[\u0600-\u06FF]")
+UR_HONORIFIC = re.compile(r"(صلی اللہ علیہ|علیہ السلام|علیہا السلام|رضی اللہ عن|رحمہ اللہ|رحمۃ اللہ علیہ|ﷺ)")
+
+
+def heading_map(src, lang):
+    """Section headings the target language already uses for a source heading, learnt from the records that exist
+    in both languages (same number of headings, pair seen 20 times or more and nine times in ten)."""
+    pairs, total = collections.Counter(), collections.Counter()
+    root = os.path.join(ROOT, "content", src)
+    for d, _, fs in os.walk(root):
+        for f in fs:
+            t = os.path.join(ROOT, "content", lang, os.path.relpath(os.path.join(d, f), root))
+            if not f.endswith(".md") or not os.path.exists(t): continue
+            a = re.findall(r"^#{1,6} (.+)$", open(os.path.join(d, f), encoding="utf-8").read(), re.M)
+            b = re.findall(r"^#{1,6} (.+)$", open(t, encoding="utf-8").read(), re.M)
+            if len(a) != len(b): continue
+            for x, y in zip(a, b): pairs[x.strip(), y.strip()] += 1; total[x.strip()] += 1
+    return {x: y for (x, y), n in pairs.items() if n >= 20 and n >= 0.9 * total[x]}
+
+
+def check_any(src_body, tr_body, src, lang):
+    """The structural checks of translate.check() for pairs other than English -> Spanish/French."""
+    links = lambda b: sorted(m.group(1).strip() for m in re.finditer(r"\[\[([^\]|]+)(?:\|[^\]]*)?\]\]", b))
+    cites = lambda b: sorted(re.findall(r"\{cite:[^}]*\}", b))
+    heads = lambda b: [m.group(1) for m in re.finditer(r"^(#{1,6}) .+$", b, re.M)]
+    paras = lambda b: len([x for x in re.split(r"\n\s*\n", b) if x.strip()])
+    words = lambda b: len(re.sub(r"\{cite:[^}]*\}|\[\[[^\]|]+\|", "", b).split())
+    if re.search(r"</?[sx]\d+>|\[\[\d+\]\]|\b8[012]\d{8}\b", tr_body): return "internal marker left in the text"
+    if links(src_body) != links(tr_body): return "wiki-link ids differ"
+    if cites(src_body) != cites(tr_body): return "cite markers differ"
+    if heads(src_body) != heads(tr_body): return "heading structure differs"
+    if paras(src_body) != paras(tr_body): return "paragraph count differs"
+    r = words(tr_body) / max(1, words(src_body)); lo, hi = (0.9, 2.4) if (src, lang) == ("ar", "en") else (0.7, 2.0)
+    if not lo <= r <= hi: return f"length ratio {r:.2f}"
+    m = (UR_HONORIFIC if lang == "ur" else HONORIFIC).search(tr_body)
+    if m: return f"typed honorific: {m.group(0)}"
+    if re.search("[﴿﴾]", tr_body): return "Qur'an brackets"
+    plain = re.sub(r"\[\[[^\]|]+\||\{cite:[^}]*\}", "", tr_body); letters = len(re.findall(r"[A-Za-z\u0600-\u06FF]", plain)) or 1
+    if lang == "en" and len(ARABIC.findall(plain)) / letters > 0.15: return "looks untranslated"
+    if lang == "ur" and len(re.findall(r"[A-Za-z]", plain)) / letters > 0.35: return "looks untranslated"
+    return None
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--lang", required=True, choices=["es", "fr"])
+    ap.add_argument("--lang", required=True, choices=["es", "fr", "en", "ur"])
+    ap.add_argument("--src", default="en", choices=["en", "ar"], help="language the file was translated from")
     ap.add_argument("--map", required=True)
     ap.add_argument("--docx", required=True)
     ap.add_argument("--log", required=True)
@@ -100,6 +144,8 @@ def main():
         if m: cur = int(m.group(1)); chunks[cur] = []
         elif cur is not None: chunks[cur].append(p)
     tally = collections.Counter(); english, last_ok = [], 0
+    plain_pair = (a.src == "en" and lang in ("es", "fr"))  # the pair the lane began with: its own checks and fixed headings
+    fixed = FIXED_HEADINGS[lang] if plain_pair else heading_map(a.src, lang)
     taken = set(l.strip() for l in open(a.taken, encoding="utf-8")) if a.taken and os.path.exists(a.taken) else set()
     with open(a.log, "a", encoding="utf-8") as lg:
         def note(event, ident, **kw):
@@ -110,7 +156,7 @@ def main():
             ident = rec["id"]; target = os.path.join(a.out, "content", lang, ident + ".md")
             if os.path.exists(target): note("skipped", ident, reason="already translated"); continue
             if ident in taken: note("skipped", ident, reason="taken by another lane"); continue
-            raw = open(os.path.join(ROOT, "content", "en", ident + ".md"), encoding="utf-8").read()
+            raw = open(os.path.join(ROOT, "content", a.src, ident + ".md"), encoding="utf-8").read()
             m = re.match(r"^---\n(.*?)\n---\n?(.*)$", raw, re.S)
             todo = [l for l in rec["lines"] if "en" in l]
             got = chunks.get(n)
@@ -126,14 +172,20 @@ def main():
                     if "fixed" in l: out.append(l["fixed"]); continue
                     tr, head = next(it), l["prefix"].startswith("#")
                     tr = tidy(from_numbers(tr) if rec.get("scheme") in ("num", "link") else tr)
-                    if head and l["en"].strip() in FIXED_HEADINGS[lang]: out.append(l["prefix"] + FIXED_HEADINGS[lang][l["en"].strip()]); continue
+                    if head and l["en"].strip() in fixed: out.append(l["prefix"] + fixed[l["en"].strip()]); continue
                     for star in ("**", "*"):  # Markdown emphasis must survive as written
                         if l["en"].count(star) != tr.count(star): raise ValueError("emphasis marks changed")
                     if re.search(r"\*\s+[^*]+\s+\*", tr) and not re.search(r"\*\s+[^*]+\s+\*", l["en"]): raise ValueError("emphasis marks changed")
                     done = restore(tr, l["kept"], l["links"])
                     if done is None: done = restore(repair(tr, l["en"], l["kept"], l["links"]), l["kept"], l["links"])
                     if done is None or not done.strip(): raise ValueError("markers lost")
-                    for pat, rep in ERA[lang]: done = re.sub(pat, rep, done)
+                    for pat, rep in ERA.get(lang, []): done = re.sub(pat, rep, done)
+                    if lang == "ur":  # Arabic-script parentheticals are isolated (AGENTS.md); others are left plain
+                        done = done.replace("\u2066", "").replace("\u2069", "")
+                        done = re.sub(r"\(([^()]*[\u0600-\u06FF][^()]*)\)", "\u2066(\\1)\u2069", done)
+                    elif not plain_pair:  # Latin-script target from Arabic: keep the isolates only where Arabic is inside
+                        done = re.sub(r"\u2066\(([^()\u0600-\u06FF]*)\)\u2069", r"(\1)", done)
+                        if done.count("\u2066") != done.count("\u2069"): done = done.replace("\u2066", "").replace("\u2069", "")
                     if lang == "es":  # the lane's term is "suní" (the validator reads the first perspectives label by it)
                         done = re.sub(r"\b([Ss])unitas\b", r"\1uníes", done); done = re.sub(r"\b([Ss])unita\b", r"\1uní", done)
                         done = re.sub(r"^\*\*Punto de vista suní", "**Visión suní", done)
@@ -141,15 +193,15 @@ def main():
                     if head and not l["en"].endswith("."): done = done.rstrip(".")
                     out.append(l["prefix"] + done)
                 tr_body = "\n".join(out)
-                problem = check(body, tr_body, lang)
+                problem = check(body, tr_body, lang) if plain_pair else check_any(body, tr_body, a.src, lang)
                 if problem: raise ValueError(problem)
                 who = (f"Google Translate (document translation on translate.google.com, {a.date})", "google-translate", "Google Translate documents", "gt-docs") if a.engine == "google" else \
                       (f"Microsoft Translator (Translate Document in Word for Mac, {a.date})", "microsoft-translator", "Word for Mac Translate Document", "word-docs")
-                new = {"id": ident, "lang": lang, "source_lang": "en", "translators": [f"{who[0]}, draft translation"]}
+                new = {"id": ident, "lang": lang, "source_lang": a.src, "translators": [f"{who[0]}, draft translation"]}
                 for k, v in fm.items():
                     if k not in ("id", "lang", "source_lang", "translators", "provenance", "translation_of"): new[k] = v
                 new["provenance"] = {"generated_by": f"scripts/local-mt/import_gt.py (spanish lane, {who[2]}, managed by Claude Code)",
-                                     "model": who[1], "run": f"{who[3]}-{lang}-{a.date}", "source": f"content/en/{ident}.md"}
+                                     "model": who[1], "run": f"{who[3]}-{lang}-{a.date}", "source": f"content/{a.src}/{ident}.md"}
                 text = "---\n" + yaml.safe_dump(new, allow_unicode=True, sort_keys=False, width=10000, default_flow_style=None).rstrip("\n") + "\n---\n" + tr_body
                 if not text.endswith("\n"): text += "\n"
                 os.makedirs(os.path.dirname(target), exist_ok=True)
