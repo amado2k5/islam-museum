@@ -1,0 +1,21 @@
+---
+id: work/al-sira-al-nabawiyya-sallabi
+lang: fr
+source_lang: en
+translators: ['Claude (claude-fable-5-2), draft translation']
+provenance: {generated_by: 'Claude Code subagent (spanish lane, records the document services could not return intact)', model: claude-fable-5-2, run: claude-fr-2026-11-19, source: content/en/work/al-sira-al-nabawiyya-sallabi.md}
+---
+## Résumé
+*Al-Sira al-Nabawiyya: Ard Waqa'i' wa-Tahlil Ahdath* (« La biographie du Prophète : présentation des faits et analyse des événements ») est une longue biographie contemporaine écrite par [[person/ali-muhammad-al-sallabi|Ali Muhammad al-Sallabi]], qui en a signé la préface le 18 Rajab 1421, soit le 16 octobre 2000 {cite:sira-nabawiyya-sallabi p.12}. Sa septième édition a été publiée par Dar al-Ma'rifa à Beyrouth en 1429/2008 {cite:sira-nabawiyya-sallabi p.2}.
+
+## But
+L'auteur soutient que l'étude de la voie du Prophète sert plusieurs fins, parmi lesquelles suivre l'exemple du Prophète et connaître la vie des Compagnons, et que chaque lecteur y trouve ce dont il a besoin : le prédicateur les méthodes et les étapes de la prédication, l'éducateur des leçons d'éducation, le commandant un système de conduite des armées, l'homme politique une manière de traiter avec les adversaires, et le savant une aide pour comprendre le Coran {cite:sira-nabawiyya-sallabi p.5-6}. Il relie l'étude de la Sira à ce qu'il appelle la compréhension de l'affermissement (*fiqh al-tamkin*) et aux lois de Dieu dans l'essor et la chute des nations, et critique — selon son propre point de vue — ceux qui parlent au nom de l'islam loin du Coran et de la voie du Prophète et citent des hommes d'État d'Orient et d'Occident {cite:sira-nabawiyya-sallabi p.7-8}.
+
+## Méthode et place parmi les livres de Sira
+L'auteur note que certaines études modernes concises ont été largement accueillies — *al-Raheeq al-Makhtum* d'al-Mubarakpuri, *Fiqh al-Sira* d'al-Ghazali, [[work/fiqh-al-sira-al-buti|*Fiqh al-Sira al-Nabawiyya* d'al-Buti]] et *al-Sira al-Nabawiyya* d'Abu al-Hasan al-Nadwi — et soutient que s'appuyer sur elles seules produit une image incomplète de la Sira, citant l'avertissement d'al-Ghazali lui-même en ce sens {cite:sira-nabawiyya-sallabi p.9-10}. Il dit avoir remarqué que les biographes anciens et nouveaux diffèrent dans les leçons et les morales qu'ils tirent, de sorte qu'il les a rassemblées à partir des livres de Sira, d'exégèse, de commentaire du hadith et de droit et les a ordonnées {cite:sira-nabawiyya-sallabi p.10}. Il promet de mettre en lumière la dimension coranique de Badr, d'Uhud, des Coalisés, des Banu al-Nadir, d'al-Hudaybiya et de Tabuk {cite:sira-nabawiyya-sallabi p.10}.
+
+## Structure
+Le livre commence par le monde d'avant la mission, en traitant de l'Empire romain d'Orient et des autres civilisations dominantes {cite:sira-nabawiyya-sallabi p.13}. Il parcourt ensuite la période mecquoise et la Hijra, la construction de la société à Médine, et les campagnes une à une, en concluant d'ordinaire chacune par une section de « leçons, morales et enseignements utiles » {cite:sira-nabawiyya-sallabi p.928-933}. En sont des exemples les sections sur les résultats de [[event/battle-of-badr|Badr]], les résultats de [[event/conquest-of-mecca|la conquête de La Mecque]], les causes de la défaite et les facteurs de la victoire à [[event/battle-of-hunayn|Hunayn]], et les principaux résultats de [[event/expedition-to-tabuk|Tabuk]] {cite:sira-nabawiyya-sallabi p.436} {cite:sira-nabawiyya-sallabi p.778-779} {cite:sira-nabawiyya-sallabi p.795} {cite:sira-nabawiyya-sallabi p.849}. À la fin se trouve une liste de plus de trois cent cinquante sources et références, puis la table des matières {cite:sira-nabawiyya-sallabi p.915-918} {cite:sira-nabawiyya-sallabi p.928-934}.
+
+## Sources
+Le livre s'appuie sur des sources classiques telles que la *Sira* d'Ibn Hisham, *Zad al-Ma'ad* et *al-Bidaya wa-l-Nihaya*, et sur des études modernes telles que *al-Mujtama' al-Madani* et *al-Sira al-Nabawiyya al-Sahiha* d'Akram Diya' al-Umari et *al-Sira al-Nabawiyya fi Daw' al-Masadir al-Asliyya* de Mahdi Rizq Allah ; pour les règles juridiques tirées de la conquête de La Mecque, il déclare s'être appuyé sur ce qu'al-Umari et Rizq Allah ont extrait {cite:sira-nabawiyya-sallabi p.778} {cite:sira-nabawiyya-sallabi p.794}.
