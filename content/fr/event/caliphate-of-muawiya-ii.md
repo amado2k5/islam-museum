@@ -2,14 +2,18 @@
 id: event/caliphate-of-muawiya-ii
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/caliphate-of-muawiya-ii.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-02
+  source: content/en/event/caliphate-of-muawiya-ii.md
 ---
 ## Vue d'ensemble
-[[person/muawiya-ibn-yazid|Mu'awiya ibn Yazid]] fut désigné calife par le testament de son père, en Rabi' al-Awwal 64 H. Selon al-Suyuti, il était un jeune homme de bonne moralité. {cite:tarikh-khulafa-minhaj-1434 p.347}
+[[person/muawiya-ibn-yazid|Mu'awiya ibn Yazid]] fut fait calife par le testament de son père en Rabi' al-Awwal 64 H. Al-Suyuti le décrit comme un jeune homme de bien. {cite:tarikh-khulafa-minhaj-1434 p.347}
 
 ## La durée de son califat
-Il était malade lorsqu’il a été désigné calife, et il est resté malade jusqu’à sa mort. Il n’est pas sorti à la rencontre du peuple et n’a pas mené les prières. Le récit indique que son califat a duré quarante jours, mais certains affirment deux mois, et d’autres encore, trois mois. Il est décédé à l’âge de vingt-et-un ans, bien que certains disent vingt ans. {cite:tarikh-khulafa-minhaj-1434 p.347}
+Il était malade quand il fut fait calife, et il resta malade jusqu'à sa mort. Il ne sortit pas vers les gens et ne les dirigea pas dans la prière. Le récit dit que son califat dura quarante jours, et l'on dit aussi deux mois, et trois mois. Il mourut à vingt et un ans, certains disent vingt. {cite:tarikh-khulafa-minhaj-1434 p.347}
 
 ## À sa mort
-al-Suyuti rapporte qu’alors qu’il était à l’article de la mort, on lui demanda : « Ne désigneriez-vous pas un successeur ? » Il répondit qu’il n’avait jamais goûté à sa douceur, et qu’il ne supporterait donc pas son amertume. {cite:tarikh-khulafa-minhaj-1434 p.347}
+Al-Suyuti relate qu'à l'approche de sa mort on lui demanda : « Ne désigneras-tu pas un successeur ? » Il répondit qu'il n'en avait pas goûté la douceur, et qu'il n'en porterait donc pas l'amertume. {cite:tarikh-khulafa-minhaj-1434 p.347}

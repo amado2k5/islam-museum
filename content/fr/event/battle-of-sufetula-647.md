@@ -2,8 +2,12 @@
 id: event/battle-of-sufetula-647
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/battle-of-sufetula-647.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-02
+  source: content/en/event/battle-of-sufetula-647.md
 ---
-## Selon Ibn Abd al-Hakam
-Ibn Abd al-Hakam rapporte que lorsque Abd Allah ibn Sa’d ibn Abi Sarh gouverna l’Égypte, il continua à envoyer des raids de cavalerie aux frontières de l’Ifriqiya, puis demanda à Uthman l’autorisation d’envahir le territoire; Uthman fit appel à des volontaires et nomma al-Harith ibn al-Hakam à leur tête jusqu’à ce qu’ils atteignent Ibn Sa’d. {cite:futuh-misr-amir-1999 p. 246} Le souverain de l’Ifriqiya, [[person/jurjir-patrician-of-ifriqiya|Jurjir]], avait établi son quartier général à Qartajanna; il fut tué, et son assassin, selon ce que l’on raconte, serait Abd Allah ibn al-Zubayr. Les chefs de l’Ifriqiya proposèrent alors de l’argent pour que l’armée se retire; Ibn Sa’d accepta et retourna en Égypte, sans y laisser de gouverneur ni établir de camp. {cite:futuh-misr-amir-1999 p. 246} {cite:futuh-misr-amir-1999 p. 247} Al-Layth situe la conquête de l’Ifriqiya en l’an 27. {cite:futuh-misr-amir-1999 p. 252}
+## Chez Ibn Abd al-Hakam
+Ibn Abd al-Hakam rapporte que lorsqu'Abd Allah ibn Sa'd ibn Abi Sarh gouvernait l'Égypte, il ne cessait d'envoyer des raids de cavalerie aux confins de l'Ifriqiya, puis demanda à Uthman la permission de l'envahir ; Uthman appela des volontaires et plaça al-Harith ibn al-Hakam à leur tête jusqu'à ce qu'ils rejoignent Ibn Sa'd. {cite:futuh-misr-amir-1999 p. 246} Le souverain de l'Ifriqiya, [[person/jurjir-patrician-of-ifriqiya|Jurjir]], siégeait à Qartajanna ; il fut tué, son meurtrier étant, à ce qu'ils prétendent, Abd Allah ibn al-Zubayr. Les chefs de l'Ifriqiya offrirent alors de l'argent pour que l'armée parte ; Ibn Sa'd accepta et revint en Égypte, sans nommer de gouverneur ni fonder de camp. {cite:futuh-misr-amir-1999 p. 246} {cite:futuh-misr-amir-1999 p. 247} Al-Layth date la conquête de l'Ifriqiya de l'an 27. {cite:futuh-misr-amir-1999 p. 252}

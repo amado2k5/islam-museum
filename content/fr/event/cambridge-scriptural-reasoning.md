@@ -2,12 +2,16 @@
 id: event/cambridge-scriptural-reasoning
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/cambridge-scriptural-reasoning.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-02
+  source: content/en/event/cambridge-scriptural-reasoning.md
 ---
-## Le dialogue – ce que chaque partie a dit
-- **Les interlocuteurs juifs (Ochs et ses collègues)** : ont interprété la Bible hébraïque en tenant compte de ses multiples voix – la halakha, le midrash, le destin de la communauté – en insistant sur l’éternité de l’alliance et la profondeur des différentes interprétations possibles.
-- **L’interlocuteur musulman (Abdal Hakim Murad et ses collègues)** : a présenté le Coran et la Sunna dans le cadre de la charia et des hadiths – la dernière parole de Dieu, qui préserve la racine mosaïque et universalise le message – et a comparé les ordres juridiques et éthiques des deux traditions.
-- **Les interlocuteurs chrétiens** : ont présenté l’interprétation des deux Testaments – texte et doctrine – proposée par l’Église, lors des sessions à trois.
-- **Le dialogue** : le format de la « raisonnement scripturaire » : lecture des textes, passage par passage, en présence des trois participants, les objections s’inscrivant dans l’interprétation plutôt que d’être extérieures au texte – non pas un débat visant à déterminer un gagnant et un perdant, mais une méthode de lecture partagée.
-- **L’intérêt** : les textes des sessions publiées constituent la documentation de cette méthode – une comparaison en direct de trois règles d’interprétation appliquées au même texte. {cite:cambridge-interfaith-programme}
+## L'échange : ce que chaque partie a dit
+- **Les interlocuteurs juifs (Ochs et ses collègues)** : lisent la Bible hébraïque dans ses multiples voix (halakha, midrash, destin de la communauté), en insistant sur l'éternité de l'alliance et la profondeur de l'interprétation par strates.
+- **L'interlocuteur musulman (Abdal Hakim Murad et ses collègues)** : présente le Coran et la Sunna dans le cadre de la charia et du hadith (la dernière parole de Dieu préservant la racine mosaïque et universalisant le message), en comparant les ordres juridiques et éthiques des deux traditions.
+- **Les interlocuteurs chrétiens** : présentent la lecture ecclésiale des deux Testaments (texte et doctrine) dans les séances à trois.
+- **L'échange** : le format du « scriptural reasoning » : lire les textes passage par passage en présence des trois, l'objection vivant à l'intérieur de l'interprétation plutôt qu'en dehors du texte ; non un débat avec vainqueur et vaincu, mais une méthode de lecture partagée.
+- **La valeur** : les textes publiés des séances sont le document de la méthode, une comparaison vivante de trois règles d'interprétation sur le même texte. {cite:cambridge-interfaith-programme}

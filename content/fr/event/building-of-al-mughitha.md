@@ -2,13 +2,17 @@
 id: event/building-of-al-mughitha
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/building-of-al-mughitha.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-02
+  source: content/en/event/building-of-al-mughitha.md
 ---
 ## Vue d'ensemble
-al-Baladhuri rapporte comment Sulayman ibn Ali améliora l’approvisionnement en eau de Basra en faisant construire al-Mughitha. {cite:futuh-buldan-maarif-1407}
+Al-Baladhuri relate comment Sulayman ibn Ali améliora l'eau de Bassora en bâtissant al-Mughitha. {cite:futuh-buldan-maarif-1407}
 
 ## Le récit
-L’eau qui parvenait aux habitants de [[place/basra|Basra]] était rare, et la majeure partie de l’eau d’al-Bitiha se déversait dans le Nahr al-Dayr. Les habitants avaient l’habitude de puiser de l’eau douce à al-Ubulla. {cite:futuh-buldan-maarif-1407}
+L'eau qui parvenait aux gens de [[place/basra|Bassora]] était rare, et la plus grande partie de l'eau d'al-Bitiha descendait par le Nahr al-Dayr. Les gens puisaient l'eau douce à al-Ubulla. {cite:futuh-buldan-maarif-1407}
 
-Lorsque [[person/sulayman-ibn-ali|Sulayman ibn Ali]] arriva au pouvoir, il fit construire al-Mughitha et aménagea ses écluses sur al-Bitiha. Il détourna l’eau du Nahr al-Dayr vers le Nahr Ibn Umar et y consacra un million de dirhams. Les habitants de Basra se plaignirent de la salinité de l’eau et de l’intrusion d’eau de mer, et une digue fut construite pour retenir le sable et rétablir la qualité de leur eau. {cite:futuh-buldan-maarif-1407}
+Quand [[person/sulayman-ibn-ali|Sulayman ibn Ali]] vint, il bâtit al-Mughitha et en établit les vannes sur al-Bitiha. Il retint l'eau du Nahr al-Dayr et la détourna vers le Nahr Ibn Umar, et y dépensa un million de dirhams. Les gens de Bassora se plaignirent de la salinité de l'eau et de l'entrée de l'eau de mer ; le banc de sable fut donc barré, et leur eau redevint douce. {cite:futuh-buldan-maarif-1407}

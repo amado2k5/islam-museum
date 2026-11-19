@@ -2,13 +2,17 @@
 id: event/basra-bathhouse-permissions
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/basra-bathhouse-permissions.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-02
+  source: content/en/event/basra-bathhouse-permissions.md
 ---
 ## Vue d'ensemble
-al-Baladhuri rapporte que [[person/muslim-ibn-abi-bakra|Muslim ibn Abi Bakra]] tirait chaque jour mille dirhams de ses revenus, ainsi qu’une grande quantité de nourriture. Lorsqu’il tomba malade, il confia à son frère [[person/abd-al-rahman-ibn-abi-bakra|Abd al-Rahman]] la gestion du hammam et de ses revenus. {cite:futuh-buldan-maarif-1407}
+Al-Baladhuri rapporte que [[person/muslim-ibn-abi-bakra|Muslim ibn Abi Bakra]] tirait chaque jour de son bain mille dirhams et une grande quantité de nourriture. Quand il tomba malade, il confia à son frère [[person/abd-al-rahman-ibn-abi-bakra|Abd al-Rahman]] le bain et son revenu. {cite:futuh-buldan-maarif-1407}
 
-## La divulgation des revenus
-Abd al-Rahman fit connaître la nouvelle et demanda l’autorisation du sultan de construire un hammam, ce qui lui fut accordé. On ne pouvait construire de hammam à [[place/basra|Basra]] qu’avec l’autorisation des gouverneurs. D’autres notables firent alors la même demande, parmi lesquels Ubayd Allah ibn Abi Bakra et al-Hakam ibn Abi al-As, et leur demande fut également acceptée. {cite:futuh-buldan-maarif-1407}
+## La divulgation du revenu
+Abd al-Rahman répandit la nouvelle et demanda au sultan la permission de construire un bain, qui lui fut accordée. On ne pouvait construire de bains à [[place/basra|Bassora]] qu'avec la permission des gouverneurs. D'autres notables demandèrent alors, parmi lesquels Ubayd Allah ibn Abi Bakra et al-Hakam ibn Abi al-As, et elle leur fut accordée. {cite:futuh-buldan-maarif-1407}
 
-Muslim se rétablit de sa maladie et constata que les revenus de son hammam avaient été compromis, et il commença à reprocher cela à son frère. {cite:futuh-buldan-maarif-1407}
+Muslim guérit de sa maladie pour trouver le revenu de son bain gâté, et il se mit à blâmer son frère. {cite:futuh-buldan-maarif-1407}

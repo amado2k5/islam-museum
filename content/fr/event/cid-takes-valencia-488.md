@@ -2,16 +2,20 @@
 id: event/cid-takes-valencia-488
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/cid-takes-valencia-488.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-02
+  source: content/en/event/cid-takes-valencia-488.md
 ---
 ## Vue d'ensemble
-La ville de [[place/valencia|Valencia]] fut prise par le Cid en 488 H, et selon al-Maqqari, certains affirment qu’elle l’aurait été l’année précédente. {cite:nafh-tib-maqqari p.455-456}
+[[place/valencia|Valence]] fut prise par le Cid en 488 H, et l'on dit aussi un an plus tôt, selon al-Maqqari. {cite:nafh-tib-maqqari p.455-456}
 
 ## Contexte
-La ville de Valencia passa sous le contrôle du juge Abu Ahmad ibn Jahhaf, qui la remit aux mains de l’émir des musulmans, Yusuf ibn Tashfin. Yusuf ibn Ahmad ibn Hud, seigneur de Saragosse, envoya Rodrigo pour la prendre. Il y entra et conclut un pacte avec le juge, stipulant que celui-ci devait lui fournir un trésor qui avait appartenu à al-Qadir ibn Dhi al-Nun. {cite:nafh-tib-maqqari p.455-456}
+Valence passa sous le contrôle du cadi Abu Ahmad ibn Jahhaf, qui la remit à l'émir des musulmans, Yusuf ibn Tashfin. Yusuf ibn Ahmad ibn Hud, seigneur de Saragosse, envoya Rodrigue s'en emparer. Il y entra et conclut un pacte avec le cadi, stipulant que celui-ci produirait un trésor qui avait appartenu à al-Qadir ibn Dhi al-Nun. {cite:nafh-tib-maqqari p.455-456}
 
-## La prise de la ville
-Rodrigo trouva le trésor avec le juge, fit brûler celui-ci et causa des troubles dans la ville. Selon al-Maqqari, Ibn al-Abbar affirme que le siège dura vingt mois et que le Cid y entra grâce à un traité ; d’autres affirment qu’il y entra de force. Parmi ceux qui furent brûlés, on compte le lettré Abu Ja’far ibn al-Bunni. {cite:nafh-tib-maqqari p.455-456}
+## La prise
+Il trouva le trésor chez le cadi, le fit brûler vif et fit du mal dans la ville. Al-Maqqari cite Ibn al-Abbar selon qui le siège dura vingt mois et le Cid y entra par traité ; d'autres dirent qu'il y entra de force. Parmi ceux qui y furent brûlés figurait l'homme de lettres Abu Ja'far ibn al-Bunni. {cite:nafh-tib-maqqari p.455-456}
 
-Yusuf ibn Tashfin envoya Mazdali, qui reprit la ville en 495 H. Voir [[person/el-cid-rodrigo|le Cid]]. {cite:nafh-tib-maqqari p.455-456}
+Yusuf ibn Tashfin envoya Mazdali, qui la prit en 495 H. Voir [[person/el-cid-rodrigo|le Cid]]. {cite:nafh-tib-maqqari p.455-456}

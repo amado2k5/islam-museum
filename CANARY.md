@@ -100,6 +100,8 @@ open a new block on top with the new version and today's date.
 
 ### Changed
 - The virtual tour now includes French exhibit labels, gallery descriptions and journey narration.
+- French translations of event records from arrest-of-al-khaqani-vizier to daraqutni-rihla-egypt-350: prose pages in `content/fr/event/` and French labels and summaries on each record, translated from English with their citations and links kept, added packet by packet; the French translation queue (`scripts/fr-queue.ts`) no longer crashes on start.
+- Seven Futuh al-buldan event records (asad-khurasan-rule, asawira-basra-settlement, asawira-defection, ashras-jizya-episode, ata-inheritance-cases, basra-bathhouse-permissions, basra-crowd-abdallah-ibn-ali) now record their source in provenance, taken from the record's own source list; the Arabic date notes of the Kleber assassination record no longer use literal ellipses inside quotations.
 - The public-claims ledger records the French release’s bibliography counts after registering Kazimirski, separately from live-site figures.
 - **French interface, thematic collections:** the French edition (`/fr/`) now shows its own wording for the thematic browsers, from the Fatwa Explorer through Heroes of Islam (about sixty sections, some 3,200 strings in `i18n/fr.yaml`) — explorers of the unseen, worship, ethics, family, the prophets, the Qur'an sciences, scholars, battles, careers and courses — instead of falling back to English. Machine translation from the English pivot, placeholders and links unchanged.
 ### Changed

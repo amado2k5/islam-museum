@@ -2,18 +2,22 @@
 id: event/battle-of-nahawand
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/battle-of-nahawand.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-02
+  source: content/en/event/battle-of-nahawand.md
 ---
 ## Vue d'ensemble
-al-Tabari rapporte que les Perses se rassemblèrent à Nahawand sous le commandement de Dhu al-Hajib. Umar envoya une lettre à al-Nu’man ibn Muqarrin lui ordonnant de s’y rendre. {cite:tabari-tarikh-abu-al-fadl j.4 p.114}
+Al-Tabari rapporte que les Persans se rassemblèrent à Nahawand sous Dhu al-Hajib. Umar écrivit à al-Nu'man ibn Muqarrin pour lui ordonner d'y marcher. {cite:tabari-tarikh-abu-al-fadl j.4 p.114}
 
-## Une date incertaine
-Ibn Ishaq, al-Waqidi et Abu Ma’shar affirment que cet événement se produisit en 21 H, tandis que Sayf affirme qu’il se produisit en 18 H. {cite:tabari-tarikh-abu-al-fadl j.4 p.114}
+## Une date discutée
+Ibn Ishaq, al-Waqidi et Abu Ma'shar rapportèrent que ce fut en 21 H, et Sayf dit que ce fut en 18 H. {cite:tabari-tarikh-abu-al-fadl j.4 p.114}
 
-## Le récit d’al-Mas’udi
-al-Mas’udi rapporte qu’al-Mughira ibn Shu’ba se rendit auprès du roi des Perses, qui l’invita à s’asseoir parmi ses conseillers, mais qu’il se leva et s’assit à ses côtés sur son trône. al-Nu’man ibn Muqarrin agita son étendard à trois reprises, puis il implora Dieu de lui accorder le martyre dans la victoire et la conquête, et il fut le premier à tomber. {cite:muruj-al-dhahab p. 618-619}
+## Le récit d'al-Mas'udi
+Al-Mas'udi relate qu'al-Mughira ibn Shu'ba se rendit auprès du roi des Persans, qui le fit asseoir dans son conseil, et il bondit et s'assit avec lui sur son trône. Al-Nu'man ibn Muqarrin agita sa bannière trois fois, puis pria Dieu de lui accorder le martyre dans la victoire et la conquête, et il fut le premier à tomber. {cite:muruj-al-dhahab p. 618-619}
 
-Ma’qil ibn Yasar le trouva à son dernier souffle, s’enquit de l’état des troupes et on lui répondit que Dieu leur avait accordé la victoire. Il dit alors : « Louange à Dieu ; écrivez cette nouvelle à Umar. » al-Mas’udi ajoute que, de son temps, les tombes des combattants tombés étaient encore clairement visibles, à environ un farsakh de Nahawand. {cite:muruj-al-dhahab p. 618-619}
+Ma'qil ibn Yasar le trouva avec un dernier souffle de vie, il demanda des nouvelles des gens, et on lui dit que Dieu leur avait donné la victoire. Il dit : « Louange à Dieu ; écrivez cela à Umar. » Al-Mas'udi dit que les tombes des tués étaient encore clairement marquées de son temps, à environ une parasange de Nahawand. {cite:muruj-al-dhahab p. 618-619}
 
-Voir aussi : [[event/battle-of-nihawand|la bataille de Nihawand selon al-Baladhuri]].
+Voir aussi : [[event/battle-of-nihawand|la journée de Nihawand chez al-Baladhuri]].

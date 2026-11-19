@@ -2,11 +2,15 @@
 id: event/baghdad-flood-654
 lang: fr
 source_lang: en
-translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
-provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-fr-2026-11-18, source: content/en/event/baghdad-flood-654.md}
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-event-02
+  source: content/en/event/baghdad-flood-654.md
 ---
 ## Vue d'ensemble
-En 654 H, [[place/baghdad|Bagdad]] fut submergée par une inondation sans précédent, selon l’ouvrage intitulé « Shadharat al-Dhahab ». Le Tigre atteignit un niveau jamais atteint auparavant, et de nombreuses personnes périrent noyées. {cite:shadharat-dhahab p. 272}
+En 654 H, [[place/baghdad|Bagdad]] fut submergée par une inondation inouïe, selon « Shadharat al-Dhahab ». Le Tigre monta à une hauteur jamais vue, et un très grand nombre de gens se noyèrent. {cite:shadharat-dhahab p. 272}
 
-## L’impact
-De nombreuses maisons se sont effondrées sur leurs habitants, et la population a failli être anéantie. Des bateaux continuaient de naviguer sur les canaux de Bagdad. Le calife se déplaçait en bateau, et les gens adressaient des prières à Dieu. {cite:shadharat-dhahab p. 272}
+## Les effets
+De nombreuses maisons s'écroulèrent sur leurs habitants, et les gens frôlèrent la ruine. Des barques ne cessaient de passer dans les ruelles de Bagdad. Le calife monta en barque, et les gens prièrent Dieu en L'implorant. {cite:shadharat-dhahab p. 272}
