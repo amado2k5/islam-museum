@@ -231,6 +231,7 @@ Open after the restore: `main` still carries the marks (not touched from this la
 - 2026-11-19 04:22 local machine translation shipped: `content/es/` 5,033 files, `content/fr/` 1,890 files; `npm run validate` 0 errors.
 - 2026-11-19 04:28 Google Translate document pilot imported (`scripts/local-mt/import_gt.py`, one 0.98 MB file of 1,644 concept records): 1,588 Spanish and 1,282 French records passed the checks; the rest (markers altered, emphasis changed, label reworded) were not imported. Local model threads and auto-ship stopped on the founder's instruction; translation continues file by file through Google Translate. `content/es/` 6,622 files, `content/fr/` 3,173 files; `npm run validate` 0 errors.
 - 2026-11-19 04:32 Google Translate document gt-es-001 imported: `content/es/` 7,954 files, `content/fr/` 3,173 files; `npm run validate` 0 errors.
+- 2026-11-19 04:36 Google Translate document gt-fr-001 imported: `content/es/` 7,954 files, `content/fr/` 4,073 files; `npm run validate` 0 errors.
 
 ## Explicit gaps
 
