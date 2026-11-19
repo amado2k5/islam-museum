@@ -1,0 +1,41 @@
+---
+id: person/walid-al-muallem
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/walid-al-muallem.md}
+---
+## Résumé
+Walid Mohi Edine al Muallem (13 janvier 1941 – 16 novembre 2020) était un diplomate syrien et membre du Parti Baas qui a exercé les fonctions de ministre des Affaires étrangères du 11 février 2006 jusqu'à sa mort, puis de vice-Premier ministre de 2012 jusqu'à sa mort. Il a représenté la Syrie en tant qu'ambassadeur aux États-Unis pendant une décennie (1990–2000) et a été le visage diplomatique le plus connu du régime syrien lors des forums internationaux pendant la guerre civile. {cite:wikipedia-walid-al-muallem-en} {cite:wikipedia-walid-al-muallem-ar}
+
+## Jeunesse et formation
+Muallem est né à Damas dans une famille sunnite du quartier de Mezzeh ; les enchaînements des articles en anglais et en arabe indiquent sa date de naissance comme étant le 13 janvier 1941, tandis que la section jeunesse de l'article en arabe et l'une des deux valeurs de Wikidata indiquent le 17 juillet 1941. Il a reçu ses études primaires et secondaires dans des écoles publiques de 1948 à 1960, a obtenu son certificat secondaire à Tartus, et a obtenu une licence en économie à l'Université du Caire en 1963. {cite:wikipedia-walid-al-muallem-en} {cite:wikipedia-walid-al-muallem-ar}
+
+## Carrière
+Muallem a commencé sa carrière au ministère des Affaires étrangères en 1964 et a servi dans des missions syriennes en Tanzanie, en Arabie saoudite, en Espagne et au Royaume-Uni. En tant qu'attaché politique en Arabie Saoudite, lui et un collègue, Jaber Bajbuj, ont été déclarés persona non grata en mai 1967 pour des contacts présumés avec des agents baas et ont reçu l'ordre de partir dans les 24 heures. Il a ensuite été ambassadeur en Roumanie de 1975 à 1980, chef du département authentification et traduction (1980–1984) et chef du département des bureaux privés (1984–1990). {cite:wikipedia-walid-al-muallem-en}
+
+Il a été ambassadeur aux États-Unis de 1990 à 2000, période des négociations de paix syro-israéliennes, et a été présent à la signature des accords d'Oslo en 1993. Il a été nommé ministre adjoint des Affaires étrangères en 2000, vice-ministre des Affaires étrangères en 2005 avec le dossier libanais qui lui avait été confié par le président Bachar al-Assad, et ministre des Affaires étrangères le 11 février 2006 lors d'un remaniement au cours duquel son prédécesseur Farouk al-Sharaa est devenu vice-président. En août 2006, il a déclaré : « Je suis prêt à être l'un des soldats de Hassan Nasrallah », a déclaré que la Syrie entretenait une relation spéciale avec l'Iran et avait participé aux négociations israélo-syriennes avant et pendant son mandat. {cite:wikipedia-walid-al-muallem-en} {cite:wikipedia-walid-al-muallem-ar}
+
+## Ministre des Affaires étrangères pendant la guerre civile
+Au début de la guerre civile, Muallem a tenu fréquemment des conférences de presse avec les médias syriens et arabes. En août 2012, il a accordé sa première interview à un journaliste occidental depuis le début de la guerre, en anglais, disant aux Européens : « Je ne comprends pas votre slogan de lutte contre le terrorisme international alors que vous soutenez ce terrorisme en Syrie », et affirmant la position du gouvernement selon laquelle les États-Unis étaient « le principal acteur contre la Syrie » dans sa volonté de contenir l'Iran. Il a nié l'existence des Shabiha, les miliciens pro-gouvernementaux accusés d'avoir commis des atrocités, et a imputé 60 % de la violence syrienne à la Turquie, au Qatar et à l'Arabie saoudite « les États-Unis exerçant leur influence sur tous les autres ». {cite:wikipedia-walid-al-muallem-en}
+
+Lors de l'Assemblée générale de l'ONU en septembre 2013, il a affirmé que « des terroristes de plus de 83 pays » tuaient des soldats et des civils syriens, et a comparé les événements de la guerre civile aux attentats du 11 septembre. Lors de la conférence de Genève II à Montreux en janvier 2014, il a qualifié l'opposition de traîtres et de terroristes et accusé les États de soutenir le terrorisme, parlant pendant plus de quarante minutes malgré la règle des dix minutes et ignorant à plusieurs reprises les tentatives du secrétaire général Ban Ki-moon de conclure son discours. En février 2016, il a averti que les soldats étrangers entrant en Syrie sans le consentement gouvernemental « reviendraient chez eux dans des cercueils en bois ». Après le raid aérien de Deir ez-Zor en septembre 2016, qui a tué jusqu'à 100 soldats syriens, il a déclaré que le gouvernement « tient les États-Unis pleinement responsables car les faits montrent qu'il s'agissait d'une attaque intentionnelle, et non d'une erreur, même si les États-Unis affirment le contraire ». {cite:wikipedia-walid-al-muallem-en} {cite:wikipedia-walid-al-muallem-ar}
+
+L'article arabe énumère quatre livres de sa part : « La Palestine et la paix armée » (1970), « La Syrie durant la période du mandat, 1917–1948 », « La Syrie de l'indépendance à l'unité, 1948–1958 » et « Le monde et le Moyen-Orient dans la perspective américaine ». {cite:wikipedia-walid-al-muallem-ar}
+
+## Positions et critiques
+Cette section doit être lue comme un compte rendu des positions rapportées par les sources, et non comme le jugement du musée à leur sujet. Les articles de l'encyclopédie anglaise et arabe reprenaient ces positions, et le musée n'a pas examiné les déclarations originales des parties.
+
+**Sanctions de l'Union européenne :** En 2012, l'Union européenne a sanctionné Muallem, affirmant qu'en tant que ministre du gouvernement, il « partage la responsabilité de la répression violente de la population civile par le régime syrien » ; il est resté sur la liste jusqu'à sa mort. {cite:wikipedia-walid-al-muallem-en} {cite:wikipedia-walid-al-muallem-ar}
+
+**Ses positions déclarées :** il s'est fait connaître pour ses phrases issues de ses conférences de presse, parmi lesquelles « nous oublierons que l'Europe est sur la carte », a déclaré plusieurs mois après le début de la crise de 2011. En octobre 2012, il a rejeté les appels de Ban Ki-moon à un cessez-le-feu unilatéral, insistant pour que les gouvernements qui « financent, entraînent et livrent des armes aux groupes armés, notamment l'Arabie Saoudite, le Qatar et la Turquie » soient arrêtés ; il a qualifié les préoccupations occidentales concernant les armes chimiques de « plaisanterie » et de prétexte pour une campagne à la manière d'Irak ; et en décembre 2012, il a imputé les sanctions américaines et européennes aux souffrances de la Syrie. En janvier 2013, après que l'envoyé de l'ONU et de la Ligue arabe Lakhdar Brahimi ait déclaré que Bachar al-Assad ne devait pas participer à un gouvernement de transition, il a appelé les groupes d'opposition à rejoindre un nouveau cabinet sous al-Assad à condition qu'ils « rejettent l'intervention étrangère ». {cite:wikipedia-walid-al-muallem-en} {cite:wikipedia-walid-al-muallem-ar}
+
+## Vie personnelle et décès
+Muallem était marié à Sawsan Khayat et avait trois enfants, Tarek, Shatha et Khaled. Il est décédé le matin du 16 novembre 2020 à l'hôpital Shami de Damas, à l'âge de 79 ans ; la cause du décès n'a pas été révélée, mais il souffrait de problèmes cardiaques depuis des années. Il a été enterré au cimetière de Mezzeh. {cite:wikipedia-walid-al-muallem-en} {cite:wikipedia-walid-al-muallem-ar}
+
+## Impact et audience
+Muallem a exercé quatorze ans en tant que ministre des Affaires étrangères, l'un des mandats les plus longs de la Syrie moderne, et a été la voix que le monde a entendue depuis Damas durant la première décennie de la guerre — à l'Assemblée générale, à Genève et lors des conférences de presse dont la franchise et le sarcasme sont consignés par les sources, tout comme leur substance. {cite:wikipedia-walid-al-muallem-en}
+
+## Références
+- Les sources définies citées ci-dessus, enregistrées à `data/source/`.
+- Les traductions et révisions ultérieures de cet article nécessitent une révision périodique avec des dates de mise à jour claires.
