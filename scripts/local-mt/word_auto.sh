@@ -22,7 +22,7 @@ translate() {
   osascript -e 'tell application "Microsoft Word" to activate'; sleep 1  # someone may have switched apps meanwhile
   [ "$(osascript -e 'tell application "System Events" to return name of first process whose frontmost is true')" = "Microsoft Word" ] || return 1
   $P "$DIR/word_click.py" click $(( $1 + $3 - 67 )) $(( $2 + 360 ))
-  i=0; while [ $i -lt 40 ]; do
+  i=0; while [ $i -lt 70 ]; do
     sleep 3; i=$((i + 1))
     r=$(osascript -e 'tell application "Microsoft Word" to return (name of active document) & "|" & (count of documents)' 2>/dev/null)
     case "$r" in *"$stem"*) ;; *"|"[2-9]) return 0;; esac
