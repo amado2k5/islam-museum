@@ -1,0 +1,22 @@
+---
+id: passage/muwatta-1-291
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/passage/muwatta-1-291.md}
+---
+## Vue d'ensemble
+Un long hadith du chapitre « à l'heure du vendredi ». [[person/malik-ibn-anas|Malik]] le transmet de [[person/yazid-ibn-abdallah-ibn-al-had|Yazid ibn Abdallah ibn al-Had]], de [[person/muhammad-ibn-ibrahim-al-taymi|Muhammad ibn Ibrahim al-Taymi]], d'[[person/abu-salama-ibn-abd-al-rahman|Abu Salama ibn Abd al-Rahman]], d'[[person/abu-hurayra|Abu Hurayra]]. Elle réunit trois réunions : avec [[person/kab-al-ahbar|Ka'b al-Ahbar]], avec [[person/abu-basra-al-ghifari|Abu Basra al-Ghifari]], et avec [[person/abdallah-ibn-salam|Abdullah ibn Salam]] {cite:muwatta-maruf-1997 p.165}.
+
+## Ce que le hadith rapporte
+Abu Hurayra se rendit [[place/jabal-al-tur|au mont Tur]], rencontra Ka'b al-Ahbar et s'assit avec lui. Ka'b lui parla de la Torah, et Abu Hurayra lui parla du Prophète. Parmi ce qu'il raconta, il y avait la phrase : « Le meilleur jour où le soleil s'est levé est le vendredi. Adam fut créé sur celui-ci, il fut fait descendre du jardin, sur ce jardin fut accepté son repentir, sur celui-ci il mourut, et sur elle viendra l'Heure. » Il raconta aussi que chaque créature écoute attentivement le vendredi, du matin jusqu'au lever du soleil, par admiration de l'Heure, sauf les djinns et les humains ; et qu'il y a une heure pendant laquelle aucun serviteur musulman qui prie et demande quoi que ce soit à Dieu ne ne sera pas donné. Ka'b dit : « C'est un jour par année. » Abu Hurayra répondit : « Non, chaque vendredi. » Puis Ka'b lut la Torah et dit : « Le Messager de Dieu a dit la vérité » {cite:muwatta-maruf-1997 p.165}.
+
+Abu Hurayra rencontra alors Abu Basra al-Ghifari et lui demanda d'où il venait. Lorsqu'il lui dit qu'il venait du mont Tur, Abu Basra répondit : « Si je t'avais rencontré avant que tu ne partes, tu ne serais pas sorti. » Il lui raconta que le Prophète avait dit : « Les voyages ne sont faits qu'à trois mosquées : à [[building/masjid-al-haram|la Mosquée Sacrée]], à [[building/prophets-mosque|cette mosquée à moi]], et à [[building/al-aqsa-mosque|la mosquée d'Iliya]] ou Bayt al-Maqdis » {cite:muwatta-maruf-1997 p.165}.
+
+Puis il rencontra Abdullah ibn Salam et lui parla de sa séance avec Ka'b. Ibn Salam dit que Ka'b avait eu tort en disant que l'Heure tombe un jour par an. Quand Abu Hurayra lui dit que Ka'b était revenu à dire que c'était chaque vendredi, Ibn Salam répondit : « Ka'b a dit la vérité », puis répondit qu'il savait quelle heure est : c'est la dernière heure du vendredi. Abu Hurayra eut du mal à accepter que ce soit une heure durant laquelle aucune prière n'est accomplie, alors Ibn Salam lui rappela la phrase du Prophète : « Quiconque attend la prière est en prière » {cite:muwatta-maruf-1997 p.166}.
+
+## Ce que note l'éditeur
+L'éditeur explique que les mots d'Ibn Salam « Ka'b mentit » signifient « Ka'b s'est trompé » dans le dialecte du Hijaz. [[person/ibn-abd-al-barr|Ibn Abd al-Barr]] dit qu'il ne connaît personne qui ait transmis ce hadith mieux que Malik depuis Ibn al-Had, ni plus complet dans sa signification. Cependant, Malik y dit « Basra ibn Abi Basra », et personne d'autre ne le suit à ce sujet. La version connue, issue de la transmission de Yahya ibn Abi Kathir, Sa'id ibn al-Musayyab et Sa'id al-Maqburi d'Abu Hurayra, est « J'ai rencontré Abu Basra al-Ghifari », et l'erreur est supposée venir de Malik ou d'Ibn al-Had (al-Tamhid 23/37–38). Le hadith se trouve également dans Abu Dawud (1046), al-Tirmidhi (491), al-Hakim (1/278), Ahmad, al-Shafi'i et al-Bayhaqi, via les transmetteurs de Malik. {cite:muwatta-maruf-1997 p.165} {cite:muwatta-maruf-1997 p.166}
+
+## Sa place au musée
+Le hadith constitue un fondement parmi les sunnites pour le mérite du vendredi et de l'heure de la supplication répondue qui y est consacrée, ainsi que pour le hadith sur le départ vers les trois mosquées. Il donne également un aperçu des sessions des Compagnons avec Ka'b al-Ahbar et Abdullah ibn Salam, comparant ce qui est contenu dans la Torah avec ce que le Prophète a apporté. Voir [[practice/salah|Prière]]. {cite:muwatta-maruf-1997 p.166}

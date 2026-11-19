@@ -1,0 +1,12 @@
+---
+id: passage/muwatta-30-2573
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/passage/muwatta-30-2573.md}
+---
+## Résumé
+Malik transmet d'Abu Layla ibn Abdallah ibn Abd al-Rahman ibn Sahl, de Sahl ibn Abi Hathma, que des hommes des anciens de son peuple lui avaient dit qu'Abdallah ibn Sahl et Muhayyisa étaient partis à Khaybar à cause des difficultés qui les avaient frappées. On dit à Muhayyisa qu'Abdallah ibn Sahl avait été tué et jeté dans un puits ou une source. Il alla voir les Juifs et leur dit : vous l'avez tué. Ils répondirent : par Dieu, nous ne l'avons pas tué. Il retourna auprès de son peuple et leur raconta. Puis il vint avec son frère Huwayyisa et Abd al-Rahman. Muhayyisa alla parler, et le Prophète lui dit : l'aîné, l'aîné, c'est-à-dire par âge. Huwayyisa prit la parole puis Muhayyisa, et le Prophète dit : soit ils paient de l'argent du sang pour votre compagnon, soit ils doivent être avertis de la guerre. Il leur écrivit, et ils répondirent : par Dieu, nous ne l'avons pas tué. Le Prophète dit à Huwayyisa, Muhayyisa et Abd al-Rahman : jureras-tu et réclameras-tu le sang de ton compagnon ? Ils répondirent : non. Il dit : alors les Juifs doivent-ils te jurer ? Ils répondirent : ils ne sont pas musulmans. Le Prophète paya lui-même l'argent du sang et leur envoya cent chameaux, jusqu'à ce qu'ils soient amenés dans la maison. Sahl dit : un chameau rouge m'a frappé parmi eux. Malik dit : le puits est le 'faqir'. L'éditeur note que les transmetteurs de Malik diffèrent sur la chaîne de ce hadith, et que sur certains itinéraires le rapport d'Abu Layla de Sahl ibn Abi Hathma confirme sa continuité. {cite:muwatta-maruf-1997 p.451}
+
+## Place au musée
+Appartient au [[passage/muwatta-kitab-30-qasama|Muwatta, Livre de Qasama]]. Source : [[work/muwatta-malik|le Muwatta]]. Mentionne [[person/malik-ibn-anas|Malik ibn]] Anas, [[person/abu-layla-ibn-abdallah|Abu Layla ibn Abdallah]], [[person/sahl-ibn-abi-hathma|Sahl ibn Abi Hathma]], [[person/abdallah-ibn-sahl|Abdallah ibn Sahl]], [[person/muhayyisa-ibn-masud|Muhayyisa ibn Masud al-Ansari]], [[person/huwayyisa-ibn-masud|Huwayyisa ibn Masud]]. Développé dans les chapitres sur [[concept/qasama|le serment de cinquante (qasama)]] et la [[concept/diya|monnaie sanglante (diya)]].
