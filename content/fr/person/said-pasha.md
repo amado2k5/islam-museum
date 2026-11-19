@@ -1,0 +1,33 @@
+---
+id: person/said-pasha
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/said-pasha.md}
+---
+## Vue d'ensemble
+Muhammad Sa'id Pacha était le plus jeune fils de [[person/muhammad-ali-pasha|Muhammad Ali Pacha]] et vice-roi héréditaire d'Égypte de 1854 à 1863, théoriquement sous suzeraineté ottomane. L'Encyclopédie de l'Islam affirme qu'il portait le titre de Pacha, mais dans un usage informel et officieux il était déjà appelé Khédive, un titre formellement adopté seulement après sa mort. {cite:encyclopaedia-of-islam-2 vol. 8 p. 924} Ce document fait suite à cet article, avec deux détails tirés des articles sur Suez et sur l'Égypte.
+
+## Jeunesse et accession au pouvoir
+Il naquit en 1822. Selon l'article, son père estimait ses capacités et l'envoya, alors âgé de seulement dix-neuf ans, à Istanbul pour négocier le tribut que l'Égypte devait à la Porte. {cite:encyclopaedia-of-islam-2 vol. 8 p. 924} Son oncle et prédécesseur, Abbas Hilmi Ier, avait tenté de modifier la règle de succession du firman ottoman de 1841, qui accordait la succession au descendant vivant plus âgé de la lignée de Muhammad Ali, en faveur de son propre fils Ilhami Pacha. La mort d'Abbas fut brièvement cachée, mais Sa'id succéda néanmoins sans difficulté en juillet 1854. {cite:encyclopaedia-of-islam-2 vol. 8 p. 924}
+
+L'article oppose les deux hommes. « Abbas Hilmi avait été zélé dans la défense de ses droits contre le sultan ottoman et méfiant envers la pression européenne, tandis que Sa'id, qui avait eu plusieurs précepteurs européens, était moins méfiant envers l'Occident et ses nouvelles techniques et avait une affection particulière pour la culture française. Il le décrit comme un souverain doux et bienveillant, plus populaire que son prédécesseur secret et traditionaliste, mais aussi quelque peu faible et ouvert aux conseils des parties intéressées. {cite:encyclopaedia-of-islam-2 vol. 8 p. 924}
+
+## Réformes, communications et finances
+L'article indique que Sa'id, peut-être sous l'influence de conseillers extérieurs, a relancé nombre des politiques économiques, sociales et juridiques de son père tout en assouplissant l'extrême centralisation de l'époque de Muhammad Ali. Il promulgua la première loi globale en Égypte sur les biens fonciers privés et immobiliers, accordant le droit de les disposer librement, et en 1858 il abolit le monopole d'État sur les produits agricoles. L'article compare ces mesures aux réformes Tanzimat contemporaines en Turquie. {cite:encyclopaedia-of-islam-2 vol. 8 p. 924}
+
+Il s'intéressa aux chemins de fer et aux autres communications. La ligne ferroviaire entre [[place/cairo|Le Caire]] et [[place/alexandria|Alexandrie]] fut achevée sous son règne, une concession fut accordée à la Compagnie télégraphique orientale, la première compagnie de navigation fluviale et de transport d'Égypte fut fondée en 1854, et en 1857 une société de navigation commerciale fut créée pour soutenir le commerce extérieur. {cite:encyclopaedia-of-islam-2 vol. 8 p. 924} La Banque d'Égypte fut fondée en 1854, et l'article date de son règne, le processus par lequel l'influence financière et commerciale européenne devint omniprésente. Ses dépenses en entreprises militaires et travaux publics le conduisirent à demander un prêt de trois millions de livres auprès d'une banque londonienne, que l'article qualifie de présage des politiques financières désastreuses qui allaient entraîner la chute de son successeur [[person/khedive-ismail|Isma'il]]. {cite:encyclopaedia-of-islam-2 vol. 8 p. 925}
+
+## La concession du canal de Suez
+L'article désigne le canal de Suez comme la question plus importante que toutes les autres. Il dit que Sa'id succomba au charme de Ferdinand de Lesseps, et que de Lesseps reçut sa première concession en 1854, confirmée par le pacha en 1856. {cite:encyclopaedia-of-islam-2 vol. 8 p. 924} {cite:encyclopaedia-of-islam-2 vol. 8 p. 925} L'article sur l'Égypte donne la date de la concession comme étant le 30 novembre 1854. {cite:encyclopaedia-of-islam-2 vol. 7 p. 206} L'article sur Suez indique que Sa'id signa la concession le 5 janvier 1856, espérant que le canal rendrait l'Égypte plus indépendante de l'Empire ottoman. {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} Les deux dates semblent faire référence à la première concession et à sa confirmation signée ; les sources ne le disent pas en autant de termes.
+
+La France au départ et la Grande-Bretagne tentèrent par diplomatie d'entraver le projet, selon l'article de Sa'id Pacha, mais les travaux commencèrent en 1859, menés par des paysans en forçant le travail, et se poursuivirent pendant dix ans. Le port maritime à l'extrémité nord du canal fut nommé [[place/port-said|Port-Saïd]] en l'honneur du Pacha. {cite:encyclopaedia-of-islam-2 vol. 8 p. 925} L'article de Suez ajoute que Sa'id avait initialement pris 21 % des parts de la [[group/suez-canal-company|Compagnie du canal de Suez]] et dut en vendre une partie dès 1860. {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} Pour le canal lui-même, voir [[place/suez-canal|le canal de]] Suez et [[person/ferdinand-de-lesseps|Ferdinand de Lesseps]].
+
+## Soudan et initiatives étrangères
+Sa'id ne favorisait pas une politique expansionniste au Soudan et laissa son gouvernorat au prince Halim. Lors d'une visite à Khartoum en 1857, il fit les premières tentatives pour abolir le commerce des esclaves noirs là-bas. Il maintint le contingent égyptien de 8 000 hommes que 'Abbas Hilmi avait envoyé du côté ottoman lors du déclenchement de la guerre de Crimée, et il envoya également un régiment pour aider Napoléon III à maintenir l'archiduc Maximilien sur son trône au Mexique. {cite:encyclopaedia-of-islam-2 vol. 8 p. 925}
+
+## Décès
+Sa'id mourut à Alexandrie le 17 janvier 1863 et y fut enterré. Son neveu Ismaïl, fils d'Ibrahim Pacha, qui avait été un rôle important durant son règne lors de missions diplomatiques, dont une à Paris en 1855, et avait servi comme régent en Égypte puis commandant en chef de l'armée en 1861, lui succéda sans difficulté. {cite:encyclopaedia-of-islam-2 vol. 8 p. 925}
+
+## Ce que les sources laissent ouverte
+L'article ne précise ni son lieu de naissance ni la date de sa naissance. Les sources utilisées ici sont trois articles de l'Encyclopédie de l'Islam ; le musée ne les a pas encore comparées à d'autres histoires de l'époque.

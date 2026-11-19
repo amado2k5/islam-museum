@@ -1,0 +1,32 @@
+---
+id: person/sultan-al-atrash
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/sultan-al-atrash.md}
+---
+# Sultan al-Atrash
+
+## Résumé
+Sultan al-Atrash (5 mars 1891 – 26 mars 1982), connu sous le nom de Sultan Pasha al-Atrash, était un révolutionnaire nationaliste syrien qui mena la Grande Révolte syrienne contre l'administration coloniale française en Syrie (1925–1927). L'une des figures les plus influentes de l'histoire syrienne et druze, il joua un rôle majeur dans la décision du destin de Jabal al-Druze et de la Syrie en général. {cite:wikipedia-sultan-al-atrash-en} {cite:wikipedia-sultan-al-atrash-ar}
+
+## Jeunesse et famille
+Sultan al-Atrash est né à al-Qrayya, un village situé à 20 km au sud de Suwayda, dans la célèbre famille druze d'al-Atrash, qui avait nominalement gouverné la région depuis 1879. Le jour et le mois de sa naissance, le 5 mars, s'accordent dans tous les articles, mais l'année est contestée : l'article en anglais, la boîte d'information de l'article arabe et Wikidata indiquent 1891, tandis que le texte principal de l'article arabe et le début de l'article en ourdou indiquent 1888, l'article en ourdou citant un site familial. Son père Zuqan mena une bataille acharnée contre les Ottomans près d'al-Kefr en 1910 contre les forces de Sami Pacha al-Farouqi ; il fut capturé et exécuté en 1911. {cite:wikipedia-sultan-al-atrash-en} {cite:wikipedia-sultan-al-atrash-ar} {cite:wikipedia-sultan-al-atrash-ur} {cite:wikidata-sultan-al-atrash}
+
+Sultan était un conscrit de l'armée ottomane qui servit dans les Balkans avant la Première Guerre mondiale. Lorsque la révolte arabe commença, il hissa son drapeau sur la citadelle de Salkhad et sur sa propre maison, envoya mille hommes pour la rejoindre et suivit avec trois cents autres ; ses forces furent les premières à entrer à Damas et hissèrent le drapeau de la révolte arabe sur la maison du gouvernement le 29 septembre 1918. L'émir Fayçal lui décerna le titre d'émir et le grade de général dans l'armée syrienne, l'équivalent de Pacha. {cite:wikipedia-sultan-al-atrash-en}
+
+## L'incident du Khanjar et la Grande Révolte
+Le 7 juillet 1922, des soldats français capturèrent Adham Khanjar, un rebelle chiite libanais qui avait cherché refuge chez Sultan, recherché pour une tentative d'assassinat contre le général Gouraud. Sultan exigea sa libération ; les Français refusèrent, et après que les hommes de Sultan eurent attaqué un convoi français, les Français détruisirent sa maison et ordonnèrent son arrestation. Il s'enfuit en Jordanie, prit des perquisitions dans les postes français et revint dix mois plus tard sous forme de grâce. {cite:wikipedia-sultan-al-atrash-en}
+
+Le 23 août 1925, le sultan pacha al-Atrash déclara officiellement la révolution contre la France. La révolte, qui avait éclaté dans la montagne druze, s'étendit à toute la Syrie et à certaines parties du Liban ; les rebelles remportèrent les premières batailles à al-Kafr (21 juillet 1925), al-Mazraa (2 août 1925), Salkhad, al-Musayfirah et Suwayda. La France déploya des milliers de troupes du Maroc et du Sénégal avec des armes modernes et reprit de nombreuses villes, bien que la résistance ait duré jusqu'au printemps 1927. Condamné à mort en son absence, Sultan s'échappa en Transjordanie et fut finalement gracié ; il retourna en Syrie en 1937 après le traité franco-syrien, recevant un grand accueil public. {cite:wikipedia-sultan-al-atrash-en} {cite:wikipedia-sultan-al-atrash-ar}
+
+## Vie ultérieure
+Al-Atrash prit un rôle actif dans la crise du Levant qui conduisit à l'indépendance syrienne et, en 1948, appela à une Armée de libération arabe unifiée pour la Palestine. Sous Adib Shishakli, il fut harcelé pour son opposition, quitta la montagne druze pour la Jordanie en décembre 1954, puis revint lorsque ce régime tomba. Il soutint l'union de l'Égypte et de la Syrie en 1958 et s'opposa fermement à la sécession de 1961. Le président Gamal Abdel Nasser lui décerna la plus haute médaille de la République arabe unie, et en 1970 le président Hafez al-Assad l'honora pour son rôle historique dans la Révolution syrienne. Il refusa d'accepter toute fonction politique après l'indépendance en 1946. {cite:wikipedia-sultan-al-atrash-en}
+
+Parmi les raisons pour lesquelles les Druzes le considèrent comme un symbole de patriotisme, de courage et de laïcité, l'article anglais évoque son slogan lorsqu'il dirigeait la révolution : « La religion est pour Dieu, la patrie est pour tous », l'absence totale de symboles religieux dans ses discours et publications, son refus ferme de l'offre française d'une indépendance séparée pour la montagne druze au profit de l'unité nationale syrienne, ainsi que sa vie simple et modeste. {cite:wikipedia-sultan-al-atrash-en}
+
+## Décès
+Le sultan Pacha al-Atrash mourut à al-Qrayya le 26 mars 1982 à l'âge de 91 ans, d'une crise cardiaque. Ses funérailles furent suivies par plus d'un million de personnes, et le président Hafez al-Assad publia une lettre le pleurant en tant que commandant général de la Grande Révolte syrienne. {cite:wikipedia-sultan-al-atrash-en} {cite:wikipedia-sultan-al-atrash-ar}
+
+## Une note sur sa communauté
+Les sources documentent entièrement la communauté druse du sultan al-Atrash. L'article anglais indique qu'il est né dans la célèbre famille druze d'al-Atrash, le qualifie de l'une des figures les plus influentes de l'histoire syrienne et druze, et le classe sous « peuple druze syrien » ; le début de l'article arabe le décrit comme un dirigeant syrien appartenant aux ta'ifa druze (les unitaires) et son corps indique qu'il est né dans la célèbre famille druze al-Atrash ; l'article en ourdou reflète l'anglais. Ce que ces articles attestent, c'est sa naissance et son leadership dans la communauté druze — une identité et un rôle communautaires — et aucune source ne mentionne une profession de foi personnelle à part celle-ci ; Wikidata n'apporte aucune valeur religieuse pour lui. L'enum de foi du musée n'a aucune valeur druse, et aucune cartographie n'est forcée, si bien que son dossier mentionne la communauté ici et laisse cette valeur inconnue. {cite:wikipedia-sultan-al-atrash-en} {cite:wikipedia-sultan-al-atrash-ar} {cite:wikipedia-sultan-al-atrash-ur} {cite:wikidata-sultan-al-atrash}
