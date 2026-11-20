@@ -9,6 +9,7 @@ import PageHeader from "../../../../components/PageHeader.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
 import { byId, edgesFrom, href, labelOf, realNodes } from "../../../../lib/graph";
 import { listSurahMaps } from "../../../../lib/surah-maps";
+import { quranEdition, quranTranslation } from "../../../../lib/quran-translations";
 
 export function getStaticPaths() {
   const suras = realNodes.filter((n) => n.class === "passage" && n.data.unit === "sura").sort((a, b) => a.data.sura - b.data.sura);
@@ -25,6 +26,8 @@ const ayahs = realNodes
 for (const [i, a] of ayahs.entries()) {
   if (a.data.aya !== i + 1 || !a.data.text) throw new Error(`quran reader: sura ${n} missing or empty ayah at position ${i + 1}`);
 }
+// French and Spanish: a translation published by QuranEnc.com, kept outside the frozen records and shown with its credit.
+const edition = quranEdition(lang);
 const basmala = n === 1 || n === 9 ? undefined : (byId.get("passage/quran-1-1")!.data.text as string);
 // Verse-number markers use Eastern Arabic digits in every locale: they sit inside the Arabic line.
 const vn = new Intl.NumberFormat("ar-EG");
@@ -100,6 +103,21 @@ const desc = fmt(R.read_lede, { n: String(ayahs.length), name });
           ))}
         </ol>
         <p class="ui muted" style="font-size:.82rem;margin:10px 0 0">{fmt(R.translation_credit, { tr: ayahs[0].data.translations[lang].translator })}</p>
+      </details>
+    )}
+    {edition && !ayahs.some((a) => a.data.translations?.[lang]) && (
+      <details class="panel" style="margin-top:16px;max-width:52rem;margin-inline:auto">
+        <summary class="ui" style="cursor:pointer;font-weight:600">{R.translation_title}</summary>
+        <ol class="tr-list">
+          {ayahs.map((a) => ({ a, q: quranTranslation(lang, n, a.data.aya) })).filter((x) => x.q).map(({ a, q }) => (
+            <li id={`t${a.data.aya}`}>
+              <a class="hd-ref" href={href(lang, a.id)}>{a.data.aya}</a>
+              <span lang={lang} dir="ltr">{q!.text}</span>
+              {q!.footnotes && <span class="muted" lang={lang} dir="ltr" style="display:block;font-size:.85rem;white-space:pre-line">{q!.footnotes}</span>}
+            </li>
+          ))}
+        </ol>
+        <p class="ui muted" style="font-size:.82rem;margin:10px 0 0">{fmt(R.translation_credit_quranenc, { tr: edition.translator, v: edition.version })} <a href={edition.source} rel="noopener">QuranEnc.com</a></p>
       </details>
     )}
 

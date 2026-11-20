@@ -1,0 +1,18 @@
+id: passage/bukhari-api-2309
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2309"
+label: { ar: "صحيح البخاري 2309 — مزاح ودعابة", en: "Sahih al-Bukhari 2309 — jesting and playfulness", ur: "صحیح بخاری 2309 — مزاح اور خوش طبعی", fr: "Sahih al-Bukhari 2309 — plaisanterie et badinage", es: "Sahih al-Bujari 2309 — broma y jovialidad" }
+text: "… أَخَذْتُهُ بِأَرْبَعَةِ دَنَانِيرَ، وَلَكَ ظَهْرُهُ إِلَى الْمَدِينَةِ . فَلَمَّا دَنَوْنَا مِنَ الْمَدِينَةِ أَخَذْتُ أَرْتَحِلُ. قَالَ أَيْنَ تُرِيدُ . قُلْتُ تَزَوَّجْتُ امْرَأَةً قَدْ خَلاَ مِنْهَا. قَالَ فَهَلاَّ جَارِيَةً تُلاَعِبُهَا وَتُلاَعِبُكَ . قُلْتُ إِنَّ أَبِي تُوُفِّيَ وَتَرَكَ بَنَاتٍ، فَأَرَدْتُ أَنْ أَنْكِحَ امْرَأَةً قَدْ جَرَّبَتْ خَلاَ مِنْهَا. قَالَ فَذَلِكَ . فَلَمَّا قَدِمْنَا الْمَدِينَةَ قَالَ يَا بِلاَلُ اقْضِهِ وَزِدْهُ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2309، فيه مزاح ودعابة. يجمعه متصفح جحا والفلكلور الإسلامي مع نصوص القرآن والسنة والسيرة والكتب في الضحك والمزاح والنوادر."
+  en: "A report in Sahih al-Bukhari, no. 2309, with jesting and playfulness. The Juha and Islamic Folklore Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on laughter, jesting and anecdotes."
+  ur: "صحیح بخاری کی حدیث نمبر 2309، جس میں مزاح اور خوش طبعی ہے۔ جحا اور اسلامی لوک ادب کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  fr: "Un récit de Sahih al-Bukhari, n° 2309, avec plaisanterie et badinage. Le Navigateur de Juha et du folklore islamique le recense avec les textes du Coran, de la Sunna, de la sîra et des livres sur le rire, la plaisanterie et les anecdotes."
+  es: "Un relato de Sahih al-Bujari, n.º 2309, con broma y jovialidad. El Navegador de Juha y del folclore islámico lo recoge junto a los textos del Corán, la Sunna, la sira y los libros sobre la risa, la broma y las anécdotas."
+relations:
+  - { type: mentions, target: concept/al-muzah, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2309 (book 40 hadith 9); matn excerpt of at most 55 words chosen by the Juha browser's detector (scripts/juha.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

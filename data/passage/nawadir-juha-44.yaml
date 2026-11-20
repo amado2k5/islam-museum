@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-44
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "25:44"
+label: { ar: "نوادر جحا الكبرى، ص 25 — «مكافأة الضفادع»", en: "Nawadir Juha al-Kubra, p. 25 — 'The Frogs' Reward'", ur: "نوادر جحا الکبریٰ، ص 25 — «مینڈکوں کا انعام»", fr: "Nawadir Juha al-Kubra, p. 25 — « La récompense des grenouilles »", es: "Nawadir Juha al-Kubra, p. 25 — «La recompensa de las ranas»" }
+text: "… مكافأة الضفادع كان عائداً من مكان راكباً حماره، فوصل في طريقه إلى بحيرة وكان الحمار قد عطش عطشاً، لا مزيد عليه، فركض نحو البحيرة، يريد إرواء ظمإه، ولكن احجموا، توقفوا وامتنعوا."
+summary:
+  ar: "نقّت الضفادع في مستنقع فأفزعت حمار جحا ورددته عن الماء، فألقى جحا نقودًا في البحيرة لتشتري الضفادع بها حلوى. {cite:juha-nawadir-kubra-djuwaydi p. 25}"
+  en: "Frogs croak in a bog and frighten Juha's donkey back from the water; Juha throws coins into the lake for the frogs to buy sweets. {cite:juha-nawadir-kubra-djuwaydi p. 25}"
+  ur: "مینڈک دلدل میں ٹرّانے لگے اور جحا کے گدھے کو ڈرا کر پانی سے پیچھے ہٹا دیا، تو جحا نے جھیل میں سکے پھینک دیے تاکہ مینڈک ان سے مٹھائی خرید لیں۔ {cite:juha-nawadir-kubra-djuwaydi p. 25}"
+  fr: "Des grenouilles coassent dans un marais et font reculer l'âne de Juha, effrayé, loin de l'eau ; Juha jette des pièces dans le lac pour que les grenouilles s'achètent des sucreries. {cite:juha-nawadir-kubra-djuwaydi p. 25}"
+  es: "Unas ranas croan en un pantano y asustan al burro de Juha, que retrocede del agua; Juha arroja monedas al lago para que las ranas compren dulces. {cite:juha-nawadir-kubra-djuwaydi p. 25}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 25, anecdote 44; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

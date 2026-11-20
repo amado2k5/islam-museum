@@ -1,0 +1,18 @@
+id: passage/tirmidhi-api-3645
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3645"
+label: { ar: "جامع الترمذي 3645 — ضحك وتبسم", en: "Jami' al-Tirmidhi 3645 — laughter and smiling", ur: "جامع ترمذی 3645 — ہنسی اور تبسم", fr: "Jami' al-Tirmidhi 3645 — rire et sourire", es: "Jami' al-Tirmidhi 3645 — risa y sonrisa" }
+text: "حَدَّثَنَا أَحْمَدُ بْنُ مَنِيعٍ، حَدَّثَنَا عَبَّادُ بْنُ الْعَوَّامِ، أَخْبَرَنَا الْحَجَّاجُ، هُوَ ابْنُ أَرْطَاةَ عَنْ سِمَاكِ بْنِ حَرْبٍ، عَنْ جَابِرِ بْنِ سَمُرَةَ، قَالَ كَانَ فِي سَاقَىْ رَسُولِ اللَّهِ حُمُوشَةٌ وَكَانَ لاَ يَضْحَكُ إِلاَّ تَبَسُّمًا وَكُنْتُ إِذَا نَظَرْتُ إِلَيْهِ قُلْتُ أَكْحَلَ الْعَيْنَيْنِ وَلَيْسَ بِأَكْحَلَ. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ غَرِيبٌ مِنْ هَذَا الْوَجْهِ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3645، فيه ضحك وتبسم. يجمعه متصفح جحا والفلكلور الإسلامي مع نصوص القرآن والسنة والسيرة والكتب في الضحك والمزاح والنوادر."
+  en: "A report in Jami' al-Tirmidhi, no. 3645, with laughter and smiling. The Juha and Islamic Folklore Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on laughter, jesting and anecdotes."
+  ur: "جامع ترمذی کی حدیث نمبر 3645، جس میں ہنسی اور تبسم ہے۔ جحا اور اسلامی لوک ادب کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  fr: "Un récit de Jami' al-Tirmidhi, n° 3645, avec rire et sourire. Le Navigateur de Juha et du folklore islamique le recense avec les textes du Coran, de la Sunna, de la sîra et des livres sur le rire, la plaisanterie et les anecdotes."
+  es: "Un relato de Jami' al-Tirmidhi, n.º 3645, con risa y sonrisa. El Navegador de Juha y del folclore islámico lo recoge junto a los textos del Corán, la Sunna, la sira y los libros sobre la risa, la broma y las anécdotas."
+relations:
+  - { type: mentions, target: concept/al-dahik, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3645 (book 49 hadith 41); matn excerpt of at most 55 words chosen by the Juha browser's detector (scripts/juha.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

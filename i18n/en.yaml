@@ -830,6 +830,7 @@ reader:
   credit_source: source page
   translation_title: Verse-by-verse translation
   translation_credit: 'Translation: {tr}; public domain, distributed by the Tanzil Project.'
+  translation_credit_quranenc: "Translation: {tr}. Published by QuranEnc.com, version {v}; reproduced unchanged under that site's terms, not public domain."
   juz_nav: The thirty juz' of the mushaf
   juz_n: Juz {n}
   juz_starts: Juz {n} begins at
@@ -1849,6 +1850,10 @@ explore:
       title: "Elegy and Death-Announcement Browser"
       desc: "Everything said in elegy, death announcement, condolence and weeping over the dead in the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors and every harvested book — the istirja', the Prophet's «to God belongs what He took and what He gave», the announcements of Ja'far, Zayd, Ibn Rawaha and the Negus, the elegies of Hassan and Ka'b ibn Malik, and the limits of wailing — with every verse and report cited."
       menu: "Browse the famous words of elegy, death announcement and condolence"
+    juha:
+      title: "Juha and Islamic Folklore Browser"
+      desc: "Juha, Nasreddin Hoca, Ash'ab and Nu'ayman, and the anecdotes, witty tales, jests and laughter in the Qur'an, the Sunnah, the seerah and the harvested books of adab and history — every verse, report and anecdote with its source."
+      menu: "Browse Juha, anecdotes, witty tales and jests in the Qur'an, the Sunnah and the books"
     magic:
       title: "Magic and Magicians Browser"
       desc: "Every mention of magic and the magicians in the Qur'an, the Sunnah, the seerah and every harvested book — sorcery, soothsayers, ruqyah, the evil eye and envy — with every verse and report cited."
@@ -7299,3 +7304,55 @@ ritha:
     note: "Four banners with a black selvedge, one per kind of record: elegy, death announcement, condolence, and weeping and wailing; each shows how many records it carries, a bar of where they were found in the sources and three records to open. Counted here: {n} records, all of them in the lists below. The kinds come from the detector and the curated records, not from a judgement of the museum."
     region: "Elegy and announcement records by kind and section"
     col_kind: "Kind"
+juha:
+  title: "Juha and Islamic Folklore Browser"
+  full_title: "Browser of Juha, Islamic folklore through the ages, comedy, jokes, witty tales and anecdotes"
+  lede: "Everything the museum holds on Juha and Islamic folklore through the ages, comedy, jokes, witty tales and anecdotes: the Qur'an's verses on laughter, smiling and the ban on mockery; the Prophet's jesting and laughter and the limits of the joke in the Sunnah; the playfulness of the Companions and Successors in the seerah and the biographies; Juha's anecdotes one by one; and the reports of wits, fools, misers and party-crashers in the books of adab and history."
+  badge: "The gathering of anecdotes"
+  status: "This build holds {n} records in {s} sections; the texts are drafts a reader can check against the sources named on each record."
+  method_title: "The browser's method"
+  method_note: "Every record here is an ordinary museum record with its sources and its five-language text. Passages are found at build time by a guarded detector over the passage texts: Juha's name as a whole word, the named wits such as Ash'ab, Nu'ayman, Muzabbid and Habannaqa, the words for anecdotes and witty tales, the verbs of jesting and banter, the words for laughter and smiling, and the texts on the ethics of the joke. The legal 'rare case', the book title al-Nawadir wa-l-Ziyadat, 'the blink of an eye', the names al-Dahhak and Ibn Mughaffal and the grammarians' adverb stay out. Every book harvested later brings its passages here automatically the day they land in the graph, and curated records join through the juha-browser tag. Juha's anecdotes are retold in the museum's own words from a machine-read scan, and the translations are machine translations no human has read."
+  api: "The whole set is available at"
+  sections_title: "The browser's sections"
+  kinds_title: "Kind of humour"
+  all_kinds: "All kinds"
+  filter_label: "Search the anecdotes"
+  filter_none: "No matches."
+  empty: "No records in this build yet."
+  majlis_title: "The gathering of the wits"
+  majlis_note: "The tellers and heroes of the anecdotes whom the sources name: Juha first, then those beside him in the books of adab and hadith. Each seat opens its full cited record."
+  tales_title: "From Juha's anecdotes"
+  tales_note: "Anecdotes from Nawadir Juha al-Kubra retold in the museum's own words; each bubble opens the anecdote's record with its page number and excerpt."
+  scale_title: "The scale of laughter"
+  scale_note: "What kinds of humour each section carries: a bar is as long as its number of records and coloured by kind, from the same rows the lists below show."
+  scale_caption: "Number of records in each section by kind of humour"
+  scale_total: "Total"
+  shelf_title: "The shelf of anecdote books"
+  shelf_note: "The books that gathered the anecdotes, the witty tales and the reports of wits and fools; each has its record."
+  rider_alt: "Drawing: Juha riding his donkey backwards"
+  kinds:
+    juha: "Juha"
+    wits: "Wits and fools"
+    anecdote: "Anecdote or witty tale"
+    jest: "Jesting and banter"
+    laughter: "Laughter and smiling"
+    ethics: "Ethics of the joke"
+  sections:
+    curated:
+      title: "The curated records"
+      desc: "The museum's own records on the subject: Juha, Nasreddin Hoca, Ash'ab and others, the anecdote books, and the concepts of jesting, laughter and the anecdote."
+    juha:
+      title: "Juha's anecdotes"
+      desc: "Juha's anecdotes one by one from Nawadir Juha al-Kubra: the anecdote's title, its retelling in the museum's own words, its page number and an excerpt of at most forty words."
+    quran:
+      title: "In the Qur'an"
+      desc: "The verses on laughter and smiling: the laughter of Abraham's wife, Solomon's smile at the ant's words, 'He it is who makes laugh and weep', the laughing, rejoicing faces, the laughter of the mockers, and the ban on one people mocking another."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "What the two Sahihs, the Muwatta and the Sunan carry of the Prophet's jesting, laughter and smiling, the Companions' playfulness and the warning to whoever lies to make people laugh — every report with its number and source."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and shama'il books carry of jesting, laughter and playfulness; this section fills itself as new seerah texts land."
+    books:
+      title: "In the other books"
+      desc: "Anecdotes, witty tales and reports of wits, fools and misers in the books of adab, history and biography: Nihayat al-Arab, 'Uyun al-Akhbar, al-Mustatraf, al-Bayan wa-l-Tabyin, al-Hayawan and whatever is harvested later."

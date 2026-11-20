@@ -38,6 +38,7 @@ import { HASANAT_TAG, hasanatCorpusOf, hasanatKindOf, hasanatSignalsOf, hasanatT
 import { JANNA_TAG, jannaCorpusOf, jannaKindOf, jannaSignalsOf, jannaTagSection, isJannaPassage, type JannaKind } from "./janna.js";
 import { MUKATABAT_TAG, mukatabatCorpusOf, mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf, mukatabatTagSection, mukatabatTagSender, isMukatabatPassage } from "./mukatabat.js";
 import { RITHA_TAG, rithaCorpusOf, rithaKindOf, rithaSignalsOf, rithaTagKind, rithaTagSection, isRithaPassage } from "./ritha.js";
+import { JUHA_TAG, isJuhaPassage, juhaCorpusOf, juhaKindOf, juhaSignalsOf, juhaTagKind, juhaTagSection } from "./juha.js";
 import { MUNAZARAT_TAG, munazaratCorpusOf, munazaratKindOf, munazaratOpponentOf, munazaratSignalsOf, munazaratTagSection, munazaratTagOpponent, isMunazaratPassage } from "./munazarat.js";
 import { NAR_TAG, narKindOf, narSectionOf, narSignalsOf, narTagSection, isNarPassage } from "./nar.js";
 import { QIYAMA_TAG, qiyamaCorpusOf, qiyamaKindOf, qiyamaSignalsOf, qiyamaTagSection, isQiyamaPassage, type QiyamaKind } from "./qiyama.js";
@@ -609,6 +610,16 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       mukatabat_kind: n.class === "passage" ? mukatabatKindOf(n) : null,
       sender: n.class === "passage" ? mukatabatSenderOf(n) : mukatabatTagSender(n),
       signals: n.class === "passage" ? mukatabatSignalsOf(n) : [],
+    }) },
+  { file: "juha.json", feature: "juha-browser",
+    pick: (n) => n.tags.includes(JUHA_TAG) || isJuhaPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? juhaCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : juhaTagSection(n),
+      juha_kind: n.class === "passage" ? juhaKindOf(n) : juhaTagKind(n),
+      signals: n.class === "passage" ? juhaSignalsOf(n) : [],
     }) },
   { file: "munazarat.json", feature: "munazarat-browser",
     pick: (n) => n.tags.includes(MUNAZARAT_TAG) || isMunazaratPassage(n),

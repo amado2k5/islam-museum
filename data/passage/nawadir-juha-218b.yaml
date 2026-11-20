@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-218b
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "101:218"
+label: { ar: "نوادر جحا الكبرى، ص 101 — «لي الشؤون الخارجية ولها الأمور الداخلية»", en: "Nawadir Juha al-Kubra, p. 101 — 'Outside Matters Are Mine, Inside Matters Are Hers, Continued'", ur: "نوادر جحا الکبریٰ، ص 101 — «باہر کے معاملات میرے اور اندر کے اس کے، بقیہ»", fr: "Nawadir Juha al-Kubra, p. 101 — « Les affaires du dehors sont à moi, celles du dedans à elle, suite »", es: "Nawadir Juha al-Kubra, p. 101 — «Los asuntos de fuera son míos y los de dentro, suyos, continuación»" }
+text: "… لي الشؤون الخارجية ولها الأمور الداخلية شبَّتِ النَّار في دار جحا فجاءه أحدُ جيرانه، وقال له: أسرع فقد شبَّتِ النار في دارِك وقد طرقت الباب كثيراً ولم يردَّ عليَّ أحدّ. فأجابه الشيخ ببرودٍ: يا أخي أقسمُ لك باللَّه أنَّ أُمورُ …"
+summary:
+  ar: "تتمة الحكاية: قال جحا للجار إنه يدير الشؤون الخارجية وزوجته تدير الداخلية، فعلى الجار أن يذهب ويخبرها. {cite:juha-nawadir-kubra-djuwaydi p. 101}"
+  en: "Continuation: Juha tells the neighbour that he manages outside affairs and his wife manages the inside, so the neighbour should go and tell her. {cite:juha-nawadir-kubra-djuwaydi p. 101}"
+  ur: "بقیہ حکایت: جحا پڑوسی سے کہتا ہے کہ باہر کے معاملات وہ سنبھالتا ہے اور اندر کے اس کی بیوی، اس لیے پڑوسی جا کر اسی کو بتائے۔ {cite:juha-nawadir-kubra-djuwaydi p. 101}"
+  fr: "Suite : Juha dit au voisin qu'il gère les affaires du dehors et que sa femme gère celles du dedans, et que le voisin doit donc aller le lui dire. {cite:juha-nawadir-kubra-djuwaydi p. 101}"
+  es: "Continuación: Juha dice al vecino que él se ocupa de los asuntos de fuera y su esposa de los de dentro, así que el vecino debe ir a decírselo a ella. {cite:juha-nawadir-kubra-djuwaydi p. 101}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 101, anecdote 218; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

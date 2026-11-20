@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-42
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "25:42"
+label: { ar: "نوادر جحا الكبرى، ص 25 — «تصدق الحمار ولا تصدق هذه اللحية»", en: "Nawadir Juha al-Kubra, p. 25 — 'Believe the Donkey, but Not This Beard'", ur: "نوادر جحا الکبریٰ، ص 25 — «گدھے کا یقین کر لو مگر اس داڑھی کا نہیں»", fr: "Nawadir Juha al-Kubra, p. 25 — « Crois l'âne, mais pas cette barbe »", es: "Nawadir Juha al-Kubra, p. 25 — «Crees al burro, pero no a esta barba»" }
+text: "… تصدق الحمار ولا تصدق هذه اللحية طلبَ منه جارُهُ أن يُعِيرهُ حمارَه فقال: إنَّ الحمارَ في السوق. وما كاد يُتِمُّ جحا هذه العبارة، حتى بدأ الحمار، ينهق بصوت منكر من داخل الاصطبل، فقال جارُه: يا شيخُ هذا الحمار يملأ الدنيا …"
+summary:
+  ar: "قال جحا إن حماره في السوق، فنهق الحمار في الداخل، فقال جحا إن الجار يصدق حمارًا ولا يصدق لحيته البيضاء. {cite:juha-nawadir-kubra-djuwaydi p. 25}"
+  en: "Juha says his donkey is at the market; the donkey brays inside, and Juha says that the neighbour trusts a donkey but not his white beard. {cite:juha-nawadir-kubra-djuwaydi p. 25}"
+  ur: "جحا نے کہا کہ اس کا گدھا بازار میں ہے؛ گدھا اندر سے ڈھینچوں ڈھینچوں کرنے لگا، تو جحا نے کہا کہ پڑوسی گدھے کا یقین کرتا ہے مگر اس کی سفید داڑھی کا نہیں۔ {cite:juha-nawadir-kubra-djuwaydi p. 25}"
+  fr: "Juha affirme que son âne est au marché ; l'âne braie à l'intérieur, et Juha dit que le voisin croit un âne mais pas sa barbe blanche. {cite:juha-nawadir-kubra-djuwaydi p. 25}"
+  es: "Juha dice que su burro está en el mercado; el burro rebuzna dentro, y Juha dice que el vecino cree a un burro pero no a su barba blanca. {cite:juha-nawadir-kubra-djuwaydi p. 25}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 25, anecdote 42; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

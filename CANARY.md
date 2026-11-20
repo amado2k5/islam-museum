@@ -13,7 +13,7 @@ open a new block on top with the new version and today's date.
 
 ---
 
-## v2.25.0 — 2026-11-20
+## v2.26.0 — 2026-11-20
 ### Added
 - **A new browser for the most famous words of elegy and of announcing a death (`/{lang}/ritha/`, «متصفح أشهر ما قيل في الرثاء والنعي»).** It gathers 607 records from the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors and the harvested books: the verses of patience, the Prophet's words «to God belongs what He took and what He gave» and «patience is at the first blow», his announcement of Ja'far, Zayd, Ibn Rawaha and the Negus, the condolences, Hassan's and Ka'b ibn Malik's elegies, and the limits of weeping and wailing. It opens with four mourning banners, a death-notice frame and the famous formulas; it is in the Explore menu, on the landing page, in the API (`/api/v1/ritha.json`), `llms.txt` and the OpenAPI file, in all five languages.
 - **A new record, `concept/ritha-wal-nay`, with prose in Arabic, English, Urdu, French and Spanish,** and nineteen existing records on elegy, announcement, condolence and wailing filed into the browser.
@@ -21,6 +21,18 @@ open a new block on top with the new version and today's date.
 - **395 passages harvested for the browser:** 74 reports from the seven hadith-api Arabic editions and 321 cited excerpts (at most 40 words, machine-read, not corrected) from 38 OCR'd books, each with its label and summary in five languages.
 ### Tests
 - **The feature API test covers the new export** (`scripts/features-api.test.ts`): kinds, corpus sections, a book harvested later, and the three false-positive families (inheritance, source attribution, «نعت» the description).
+
+## v2.25.0 — 2026-11-20
+### Added
+- **The Juha and Islamic Folklore Browser (متصفح جحا والفلكلور الإسلامي عبر العصور والكوميديا والنكت والطرائف والنوادر), at `/{lang}/juha/` in all five languages.** A new front door for humour in the Islamic tradition, requested by the founder on 20 November 2026: Juha and Nasreddin Hoca, the named wits and fools, the anecdote genre (nawadir), jesting, laughter and smiling, and the ethics of the joke — in the Qur'an, the Sunnah, the seerah, the reports of the Companions and Successors, and the harvested books. The page is a storyteller's gathering unlike any other browser: Juha riding his donkey backwards, the gathering of the wits as medallion seats, a strip of Juha's anecdotes as speech bubbles, a "scale of laughter" showing which kinds of humour each section carries, and the shelf of the anecdote books; below them, six sections with kind chips and a search box. It has a card on the homepage, an entry in the Explore menu, and its own data file at `/api/v1/juha.json` (documented in `docs/data/README.md`, the OpenAPI file and `llms.txt`). Passages are found at build time by a guarded detector (`scripts/juha.ts`), so every book harvested later brings its jokes here with no further work. The founder's brief is kept word for word in `docs/engineering/64-juha-browser-requirements.md` with twelve acceptance tests for production; the plan is `docs/plan/72-juha-browser.md`.
+
+### Data
+- **Juha's anecdotes, one record each.** Every anecdote of *Nawadir Juha al-Kubra* (ed. Darwish al-Juwaydi) that passed the text rules is now its own passage record (`passage/nawadir-juha-<n>`): the printed Arabic title, a retelling in the museum's own words in Arabic, English, Urdu, French and Spanish, the page and number, and an excerpt of at most forty words. The retellings come from a machine-read scan that was not checked against the page images, and the translations are machine translations no human has read; each record says so.
+- **Humour in the hadith collections and the books.** 150 reports of jesting, laughter, smiling and the limits of the joke from the seven hadith collections, and 644 cited excerpts from 24 scanned books — al-Nuwayri's *Nihayat al-Arab* (volume 4), Ibn Qutayba's *'Uyun al-Akhbar*, *al-Mustatraf*, al-Jahiz's *al-Bayan wa-l-Tabyin* and *al-Hayawan*, the *Ihya'*, and the seerah, Companion, biography and history books. Excerpts are chosen by vocabulary, so a few carry the word without being funny; the label says what was detected.
+- **New and enriched records.** Four concepts — jesting (`concept/al-muzah`), laughter and smiling (`concept/al-dahik`), the anecdote (`concept/al-nawadir`) and the wits and the fools (`concept/al-zurafa-wa-al-mughaffalun`) — and first full prose in five languages for Juha, Nasreddin Hoca and *Nawadir Juha al-Kubra*, written from the edition's introduction with the editor's claims attributed to him and his contradictory dates for Nasreddin Hoca both given. A source record for the Cairo 1996 scan of *'Uyun al-Akhbar*. Twenty-three existing records (persons, works, places, a concept) carry the browser's tag. The Urdu title of *Nawadir Juha al-Kubra*, which a machine translation had misspelt, is corrected.
+
+### Tests
+- **The browser's data file is tested** (`scripts/features-api.test.ts`): detection of each kind, the section of a Juha collection, a book that does not exist yet landing in "other books", and four false positives that must stay out («طرفة عين», «أرجحا», «الضحاك بن مزاحم», «ابن مغفل»).
 
 ## v2.24.0 — 2026-11-18
 ### Added
@@ -32,6 +44,9 @@ open a new block on top with the new version and today's date.
 
 ### Tests
 - **The test suite runs again after the Spanish and French pages arrived (`scripts/build-graph.test.ts`).** One test file validated the whole repository and also compiled the whole graph twice. With 12,700 more pages the compiled graph alone holds about 3 GB, and the test process ran out of memory, on the build machine and on a laptop alike. The graph tests now have their own file and compile the graph once; the same assertions run, none was dropped and no memory limit was raised.
+
+### Added
+- **The Qur'an can be read with a French and a Spanish translation.** A verse page and the sura reader showed a translation of the verse in English (Pickthall) and Urdu (Jalandhari) only. French readers now see Rachid Maach's translation and Spanish readers Muhammad Isa García's, both as published by QuranEnc.com (versions 1.0.3 and 1.0.2), with their footnotes, the translator's name, the version and a link to the source. No French or Spanish translation accepted among Sunni institutions is in the public domain, so these two are shown under QuranEnc.com's own terms: unchanged, credited, with the version stated. They are third-party content, not CC0: they are kept in their own files, outside the museum's data, the frozen Qur'an records and the open API (`docs/data/quran-translations.md`). The Arabic text is untouched. Founder's decision, 20 November 2026.
 
 ### Fixed
 - **The courses are now built in French and Spanish too, and their language links work.** The course and lesson pages were written for Arabic, English and Urdu only, while every one of them offered a French and a Spanish version and the French and Spanish course index listed all 65 courses: 2,686 links to pages that did not exist, which the link check of the full build caught. The lesson text and the interface strings for both languages were already complete, so the pages are now built: 426 more in each language. Course and lesson titles still appear in English there, because the records carry no French or Spanish labels yet.

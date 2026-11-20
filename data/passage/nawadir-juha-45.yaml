@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-45
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "26:45"
+label: { ar: "نوادر جحا الكبرى، ص 26 — «تفضل أيها البطل»", en: "Nawadir Juha al-Kubra, p. 26 — 'Please, Brave Hero'", ur: "نوادر جحا الکبریٰ، ص 26 — «تشریف لائیے، اے بہادر»", fr: "Nawadir Juha al-Kubra, p. 26 — « Je vous en prie, vaillant héros »", es: "Nawadir Juha al-Kubra, p. 26 — «Adelante, valiente héroe»" }
+text: "… تفضل أيها البطل كان يوماً ماراً في مقبرة فرأى كَلْباً يبوِّلُ على أحد القبور، فأخذ عصاه وهجمَ عليهِ يُريدُ ضربَهُ فكَشَّرَ الكلبُ عن أنيابِهِ، وأخذ ينبحُ ويهجمُ على الشيخ، كأنه الذئب الكاسر. فخاف جحا وتقهقر إلى الوراء، وقال يخاطب الكلب: …"
+summary:
+  ar: "بال كلب على قبر، فرفع جحا عصاه وتراجع أمام الكلب الذي زمجر، وسماه بطلًا شجاعًا. {cite:juha-nawadir-kubra-djuwaydi p. 26}"
+  en: "A dog urinates on a grave; Juha raises his stick, backs away from the snarling dog, and calls it a brave hero. {cite:juha-nawadir-kubra-djuwaydi p. 26}"
+  ur: "ایک کتے نے قبر پر پیشاب کیا، تو جحا نے اپنی لاٹھی اٹھائی مگر غراتے ہوئے کتے کے سامنے پیچھے ہٹ گیا اور اسے بہادر ہیرو کہا۔ {cite:juha-nawadir-kubra-djuwaydi p. 26}"
+  fr: "Un chien urine sur une tombe ; Juha lève son bâton, recule devant le chien qui grogne et l'appelle un vaillant héros. {cite:juha-nawadir-kubra-djuwaydi p. 26}"
+  es: "Un perro orina sobre una tumba; Juha alza su bastón, retrocede ante el perro que gruñe y lo llama valiente héroe. {cite:juha-nawadir-kubra-djuwaydi p. 26}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 26, anecdote 45; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

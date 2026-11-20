@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-123
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "59:123"
+label: { ar: "نوادر جحا الكبرى، ص 59 — «الذي أعطى الدراهم تصفّر صفارته»", en: "Nawadir Juha al-Kubra, p. 59 — 'The One Who Gave the Money Is the One Who Whistles'", ur: "نوادر جحا الکبریٰ، ص 59 — «جس نے پیسے دیے وہی سیٹی بجائے»", fr: "Nawadir Juha al-Kubra, p. 59 — « Celui qui a donné l'argent siffle »", es: "Nawadir Juha al-Kubra, p. 59 — «El que dio el dinero es quien silba»" }
+text: "… الذي أعطى الدراهم تصفّرُ صفارته أوصاهُ أطفال الحارة وهو ذاهب إلى السوق أن يبتاعَ لهم صفاراتٍ فهزَّ رأسهُ ووعدَهم. وتقدَّم واحد منهم، وقال له: احضرْ لي واحدةً، وهذا ثمنُها، فتناول منه الدراهم، وذهب. وانتظروه مساءً في الطريق إلى أن حضر …"
+summary:
+  ar: "طلب الأطفال من جحا أن يشتري لهم صفارات، فأخذ نقود أحدهم، وفي المساء أعطى الصفارة للطفل الذي دفع، وقال إن من أعطى الدراهم هو الذي يصفّر. {cite:juha-nawadir-kubra-djuwaydi p. 59}"
+  en: "Children ask Juha to buy whistles; he takes one child's money, and in the evening gives the whistle to the child who paid, saying the one who gave the money is the one who whistles. {cite:juha-nawadir-kubra-djuwaydi p. 59}"
+  ur: "بچوں نے جحا سے سیٹیاں خریدنے کو کہا؛ اس نے ایک بچے سے پیسے لیے اور شام کو سیٹی اسی بچے کو دی جس نے پیسے دیے تھے، یہ کہہ کر کہ جس نے پیسے دیے وہی سیٹی بجاتا ہے۔ {cite:juha-nawadir-kubra-djuwaydi p. 59}"
+  fr: "Des enfants demandent à Juha d'acheter des sifflets; il prend l'argent d'un enfant et le soir remet le sifflet à celui qui a payé, en disant que celui qui a donné l'argent est celui qui siffle. {cite:juha-nawadir-kubra-djuwaydi p. 59}"
+  es: "Unos niños le piden a Juha que compre silbatos; él toma el dinero de uno de ellos y por la tarde le entrega el silbato al niño que pagó, diciendo que quien dio el dinero es quien silba. {cite:juha-nawadir-kubra-djuwaydi p. 59}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 59, anecdote 123; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }
