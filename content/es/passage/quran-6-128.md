@@ -1,0 +1,24 @@
+---
+id: passage/quran-6-128
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-6-128.md}
+---
+## Resumen
+Versículo 128 de [[passage/quran-6|Surat al-An'am]], una sura de La Meca. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 128 de 165 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+En el versículo 128, «el día en que los reúna a todos: ¡Oh, compañía de genios!, mucho habéis tomado de la humanidad»: con «el día en que los reúna a todos» se refiere al día en que reúne a aquellos que equiparan ídolos y estatuas con Dios, y a otros idólatras, junto con sus aliados entre los demonios que los inspiraron con palabras adornadas para engañar, de modo que pudieran disputar con los creyentes; los reúne en el lugar de la resurrección y les dice a los genios: «¡Oh, compañía de genios!, mucho habéis tomado de la humanidad», omitiendo las palabras «Les dice a los genios» porque el discurso mismo lo demuestra. Con «mucho habéis tomado» quiso decir que habían engañado y seducido mucho. Cita a (13885) Ibn Abbas: «Desviasteis a muchos de ellos»; (13886) Qatada lo mismo; y (13887) Mujahid: «Muchos son los que sedujisteis». {cite:tafsir-tabari-shakir-v12 p. 115}
+
+El informe 13888 da lo mismo de Mujahid, y 13889 de al-Hasan: desviaste a muchos de la humanidad. Luego "y sus aliados entre la humanidad dijeron: Señor nuestro, algunos de nosotros nos beneficiamos de otros". Al-Tabari dice que los aliados humanos de los jinn responderán: "Señor nuestro, algunos de nosotros nos beneficiamos de otros en el mundo". En cuanto al beneficio de la humanidad de los jinn, da (13890) Ibn Jurayj: en tiempos preislámicos un hombre se detenía en un lugar y decía: Busco refugio con el amo de este valle; ese era su beneficio, y lo ofrecían como excusa en el Día de la Resurrección. En cuanto al beneficio de los jinn de la humanidad, era la reverencia que la gente les mostraba al buscar refugio con ellos, de modo que decían: nos hemos convertido en amos de los jinn y los "hinn". El editor señala que el texto impreso cambió "jinn" por "humanidad" porque el manuscrito sin puntuación no se leía bien, explica "hinn" con kasra como una tribu de los jinn y hace referencia a al-Farra'. {cite:tafsir-tabari-shakir-v12 p. 116}
+
+Sobre «y llegamos al término que nos fijaste», al-Tabari dice que dijeron: «Hemos llegado al tiempo que fijaste para nuestra muerte», lo que significa que se beneficiaron mutuamente durante los días de su vida hasta la muerte; cita (13891) a al-Suddi: «el término es la muerte». {cite:tafsir-tabari-shakir-v12 p. 117}
+
+Entonces «Dirá: El Fuego es vuestra morada, en él permanecéis, salvo la voluntad de Dios; vuestro Señor es sabio y omnisciente». Al-Tabari afirma que este es un mensaje de Dios sobre lo que dirá a quienes reúna el Día de la Resurrección, aquellos que idolatran a Dios como iguales a Él y a sus compañeros entre los genios; el mensaje de lo que sucederá se presenta en forma de mensaje de lo que ha sucedido, porque el discurso anterior tiene ese sentido. Dios dice a los aliados de los genios entre la humanidad: «El Fuego es vuestra morada», lo que significa que el fuego del Infierno es el lugar donde permanecéis. «Mathwa» es el patrón «maf'al» de «thawa», que significa lugar, cuando uno permanece en él. La nota se refiere a la explicación anterior de «mathwa». {cite:tafsir-tabari-shakir-v12 p. 117}
+
+«Permanecer en él» significa quedarse en él, «excepto como Dios quiera» significa excepto por lo que Dios quiera del tiempo entre su resurrección de las tumbas y su descenso al Infierno, que es el período que Dios excluyó de su permanencia en el Fuego; «tu Señor es sabio» en Su administración de Su creación y en Su hacer que pasen de un estado a otro según Su voluntad, y «conoce» los resultados de Su administración de ellos y dónde terminan sus asuntos, en el bien y en el mal. Se relata que Ibn Abbas entendió esta excepción como que Dios dejó el alcance de su castigo a Su voluntad; el informe 13892 de Ibn Abbas dice que este versículo es uno en el que nadie debe juzgar a Dios acerca de Su creación, no enviándolos al paraíso o al fuego. El editor señala que el texto impreso añadió «un» y alteró el sentido, y que el dicho es una prohibición de que la gente diga que tal y cual está en el paraíso y tal y cual en el Fuego. {cite:tafsir-tabari-shakir-v12 p. 118}
+
+Estas declaraciones se presentan tal como fueron transmitidas; las elecciones y los argumentos son de al-Tabari, las notas y los rastreos de fuentes son del editor, y el museo no emite ningún veredicto.

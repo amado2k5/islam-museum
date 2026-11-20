@@ -1,0 +1,34 @@
+---
+id: passage/quran-10-2
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-10-2.md}
+---
+## Resumen
+Versículo 2 de [[passage/quran-10|Surat Yunus]], una sura de La Meca. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 2 de 109 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+**Comentario sobre el versículo 2 (págs. 12-18)**
+
+Al-Tabari explica entonces: "¿Acaso les asombra que hayamos revelado a un hombre de entre ellos: 'Adviérteles'?": ¿les asombró que hayamos revelado el Corán a un hombre de entre ellos para advertirles del castigo de Dios por la desobediencia, como si ignoraran que Dios se había revelado antes a hombres como él, de modo que se maravillaron de la revelación? El editor remite a las entradas del glosario sobre "revelación" y "advertencia". {cite:tafsir-tabari-shakir-v15 p. 12}
+
+Los intérpretes dijeron lo mismo. Informe 17527, de Ibn Abbas, a través de Abu Kurayb, Uthman ibn Sa'id, Bishr ibn Umara, Abu Rawq y al-Dahhak: cuando Dios envió a Mahoma como mensajero, los árabes, o algunos de ellos, lo negaron, diciendo que Dios es demasiado grande para que su mensajero sea un humano como Mahoma; entonces descendió el versículo, y Dios añadió que solo había enviado hombres antes de él. Informe 17528, de Ibn Jurayj: los Quraysh se maravillaron de que un hombre de entre ellos fuera enviado, como con Hud enviado a Ad y Salih a Thamud, y como Dios pregunta: "¿Os extrañáis de que un recordatorio de vuestro Señor haya llegado a un hombre de entre vosotros?" {cite:tafsir-tabari-shakir-v15 p. 13}
+
+Luego toma «y anuncia buenas nuevas a quienes creen que tienen fundamento de verdad ante su Señor»: ¿Acaso es sorprendente que reveláramos a un hombre de entre ellos que advirtiera a la gente y anunciara buenas nuevas a quienes creen en Dios y en Su mensajero que tienen fundamento de verdad? La partícula «que» se une a «advertir». {cite:tafsir-tabari-shakir-v15 p. 13}
+
+Discreparon sobre "un fundamento de verdad". Algunos dijeron que era una buena recompensa por las buenas obras que habían enviado por adelantado. Aquí están el informe 17529, de al-Dahhak: una recompensa de verdad; el informe 17530, de Mujahid: buenas obras; el informe 17531, de Ibn Abbas: una buena recompensa por lo que habían enviado por adelantado de sus obras; y el informe 17532, de Mujahid: su oración, ayuno, limosna y glorificación. En la nota, el editor dice que el narrador es Zayd ibn al-Hubab al-Tamimi, cuyo nombre aparece ilegible en el texto impreso, llama a Ibrahim ibn Yazid al-Khuzi débil y a al-Walid ibn Abd Allah ibn Abi Mughith digno de confianza. Informes 17533 y 17534, de Mujahid: bueno. {cite:tafsir-tabari-shakir-v15 p. 14}
+
+Informe 17535, de Mujahid, es el mismo a través de Ibn Jurayj; informe 17536, de al-Rabi ibn Anas: una recompensa de la verdad; informe 17537, de al-Rabi, el mismo; e informe 17538, de Ibn Zayd: el fundamento de la verdad es la recompensa de la veracidad por las obras que enviaron por adelantado. Otros dijeron que significa un registro previo de la verdad para ellos en la Tabla Preservada, a saber, la felicidad; informe 17539, de Ibn Abbas: la felicidad fue decretada para ellos en el primer recuerdo. Otros dijeron que significa que Mahoma es un intercesor para ellos, un fundamento de la verdad; informe 17540, de Qatada o al-Hasan: Mahoma es un intercesor para ellos, y el editor dice que no encontró ninguna biografía de Fudayl ibn Amr ibn al-Jawn. El informe 17541, de Qatada, luego comienza. {cite:tafsir-tabari-shakir-v15 p. 15}
+
+Al-Tabari completa las opiniones sobre "una base de verdad": el informe 17541, de Qatada, un precursor de la verdad ante su Señor, y el informe 17542, de Zayd ibn Aslam, que es Muhammad. Luego dice que la opinión que sostiene más cercana a la verdad es que tienen buenas obras ante Dios por las cuales obtienen Su recompensa. {cite:tafsir-tabari-shakir-v15 p. 16}
+
+Su prueba es que se dice que los árabes afirman: «Esta es la gente del pie en el Islam», refiriéndose a aquellos que enviaron el bien por delante y, por lo tanto, tuvieron precedencia, y «él tiene un pie de bien o de mal conmigo» por lo que ha propuesto, ya sea bueno o malo. Cita un verso de Hassan ibn Thabit que habla de la elevada posición del alabado, con sus aliados siguiendo a sus antepasados en la obediencia a Dios, y un verso de Dhu al-Rumma en alabanza de Bilal ibn Abi Burda ibn Abi Musa al-Ash'ari diciendo que poseen una posición que la gente no niega, junto con un linaje noble (ambos descritos, no citados). El editor añade que los siguientes versos del poema nombran a los califas, que la redacción del diwan al final difiere de la que aparece aquí, y que el verso de Hassan se refiere a su trazado en el decimotercer volumen. Así pues, el significado es: dar buenas noticias a aquellos que creen que tienen una reserva de bien por sus buenas obras ante su Señor. {cite:tafsir-tabari-shakir-v15 p. 16}
+
+Entonces, «los incrédulos dijeron: esto es pura hechicería». Los lectores discreparon. La mayoría de los lectores de Medina y Basora lo leyeron como «sihr», que significa que lo que nos has traído, refiriéndose al Corán, es hechicería; Masruq, Sa'id ibn Jubayr y un grupo de los kufanos leyeron «sahir», un hechicero. Al-Tabari afirma que todo lo descrito por una cualidad apunta a esa cualidad y la cualidad apunta de nuevo a ella, por lo que el lector puede elegir cualquiera de las dos: lo llamaron hechicero y llamaron hechicería a lo que trajo, y ambas lecturas coinciden en significado. En la nota, el editor registra una diferencia entre el texto impreso y el manuscrito e indica cuál adoptó. {cite:tafsir-tabari-shakir-v15 p. 17}
+
+Hay una omisión en la redacción, que, por lo que se afirma, hace innecesario explicar: «Cuando les dio buenas noticias, les advirtió y les recitó la revelación, los incrédulos dijeron: “Lo que nos ha traído es pura hechicería”». El significado es, pues: ¿Acaso era sorprendente que reveláramos a un hombre de entre ellos, advirtiera a la gente y diera buenas noticias a los creyentes; y cuando les trajo la revelación de Dios y se la recitó, aquellos que negaban la unicidad de Dios y la misión de Su mensajero dijeron que lo que Mahoma trajo era pura hechicería? Es decir, era evidente para vosotros que él falsificaba lo que afirmaba. El editor remite al glosario sobre «hechicería» y «pura». {cite:tafsir-tabari-shakir-v15 p. 18}
+
+Estas declaraciones se presentan tal como fueron transmitidas; las elecciones y los argumentos son de al-Tabari, las notas y los rastreos de fuentes son del editor, y el museo no emite ningún veredicto.

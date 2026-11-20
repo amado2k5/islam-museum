@@ -1,0 +1,38 @@
+---
+id: passage/quran-6-74
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-6-74.md}
+---
+## Resumen
+Versículo 74 de [[passage/quran-6|Surat al-An'am]], una sura de La Meca. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 74 de 165 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+Sobre «cuando Abraham le dijo a su padre Azar: ¿Tomáis ídolos como dioses? Veo que vosotros y tu pueblo estáis en un error manifiesto», al-Tabari le dice a su profeta Muhammad: «Recuerda, Muhammad, para tu argumento con el que discutes con tu pueblo y tu disputa con ellos sobre sus dioses y tus respuestas a ellos, de la prueba y la señal que te presentamos y que te enseñan sobre la falsedad de lo que tu pueblo persiste y la solidez de la religión que profesas y la verdad de lo que argumentas contra ellos, el argumento de Abraham, mi amigo, con su pueblo y sus respuestas a ellos sobre la falsedad de la idolatría en la que persistían, y su devoción a Dios y contentamiento con él como amigo y auxiliador contra los ídolos; así que tómalo como líder, síguelo y haz de su conducta entre su pueblo un modelo para ti, cuando le dijo a su padre, apartándose de su religión y reprochando su adoración de ídolos aparte de su creador: Azar». {cite:tafsir-tabari-shakir-v11 p. 465}
+
+El editor dice que el texto impreso y el manuscrito tienen una corrupción en "la verdad de lo que argumentas" que el editor de la edición impresa trató como lo hizo con palabras similares, y que la causa probable es que el copista puso dos palabras juntas; y expone la construcción: recuerda, Muhammad, el argumento de Abraham, cuando le dijo a su padre: Azar.
+
+Los sabios discreparon entonces sobre el significado de "Azar" y su naturaleza: nombre o atributo; y, si era un nombre, a quién pertenecía. Algunos afirmaron que era el nombre de su padre. 13434, de al-Suddi: el nombre de su padre es Azar; 13435, de Muhammad ibn Ishaq: Azar era el padre de Abraham y, según se nos ha dicho, Dios lo sabe mejor, era un hombre de Kutha, una aldea en Sawad, el Sawad de Kufa; 13436, de Sa'id ibn Abd al-Aziz: él es Azar y es Tarih, como Israel y Jacob. Otros dijeron que no era el padre de Abraham; 13437, de Mujahid: Azar no era el padre de Abraham; 13438 y 13439, de él: Azar no era su padre, es un ídolo, el nombre de un ídolo. {cite:tafsir-tabari-shakir-v11 p. 466}
+
+13440, de al-Suddi: es el nombre de su padre, y se dice que no, su nombre era Tarih y el nombre del ídolo Azar, dice: ¿Tomáis a Azar como ídolos y dioses? Otros dijeron que es un insulto y una crítica en su discurso, que significa torcido, como si él hubiera entendido que Abraham lo criticaba por desviarse y apartarse de la verdad. {cite:tafsir-tabari-shakir-v11 p. 467}
+
+El editor dice que el manuscrito tiene "¿Tomáis ídolos como dioses?" sin Azar, y la versión impresa está cerca de la derecha como aparecerá en la crítica de Abu Jafar al dicho de al-Suddi, y se refiere al Ma'ani al-Qur'an de al-Farra.
+
+Los lectores también diferían en su forma de leerlo. Los lectores de las principales ciudades leían "li-abihi Azara" con una fatha en la ra, siguiendo al padre en genitivo, pero como es un nombre extranjero le daban una fatha, sin flexionarlo aunque esté en genitivo; y se informa de Abu Yazid al-Madani y al-Hasan al-Basri que leían "Azaru" con una damma como vocativo, que significa "Azar". En cuanto a lo que se informa de al-Suddi, que Azar es el nombre de un ídolo en acusativo, que significa ¿tomas a Azar como ídolos y dioses?, es una opinión muy alejada de la realidad en árabe, ya que los árabes no colocan un sustantivo en acusativo con un verbo después de una partícula interrogativa; no dicen "tu hermano, ¿hablé con?" que significa "¿hablé con tu hermano?". {cite:tafsir-tabari-shakir-v11 p. 467}
+
+Abu Jafar dijo: la lectura correcta para mí es la de aquellos que leen con una fatha en el ra, siguiendo el caso del padre en genitivo, fatha-ed porque no está flexionado, siendo un nombre extranjero; elegí esta por el consenso de la autoridad de los lectores. Siendo esta la lectura correcta, y siendo imposible que sea acusativo por el verbo después del interrogativo, su fatha es válida de dos maneras: o es el nombre del padre de Abraham, en genitivo en aposición al padre pero fatha-ed ya que los nombres extranjeros no se flexionan como lo hacen los árabes con los nombres extranjeros, o es un atributo de él, también en genitivo, pero no flexionado ya que salió según el patrón de "ahmar" y "aswad", de modo que el sentido sería: cuando Abraham le dijo a su padre torcido: ¿Tomas ídolos como dioses? {cite:tafsir-tabari-shakir-v11 p. 468}
+
+El editor dice que el texto impreso tiene "se permitió la lectura", lo cual es erróneo, ya que la forma correcta es la palabra sin puntuación del manuscrito; que "como los árabes fatha-ed" es un error con la forma correcta del manuscrito; que "repitiendo el asunto en él" en el manuscrito tiene su forma correcta en el texto impreso; y que la interpretación como atributo es la que dio porque es lo que Abu Jafar expuso anteriormente.
+
+Dado que no tiene otro sentido correcto que uno de estos dos, la mejor de las dos interpretaciones, en mi opinión, es la que afirma que es el nombre de su padre, porque Dios informó que él era su padre, y es la afirmación preservada por la gente de conocimiento, en lugar de la otra que sostiene que es un atributo. Si alguien pregunta: los genealogistas remontan a Abraham a Tarih, entonces ¿cómo puede ser Azar un nombre suyo si el nombre por el que se le conoce es Tarih?, se le responde: no es imposible que tuviera dos nombres, como muchas personas en nuestra época y muchas lo tuvieron antes; y puede que fuera un título por el que se le llamaba. {cite:tafsir-tabari-shakir-v11 p. 469}
+
+Sobre "¿Tomáis ídolos como dioses? Os veo a vosotros y a vuestro pueblo en un error manifiesto" dice: este es el informe de Dios de lo que Abraham le dijo a su padre Azar: ¿Tomáis ídolos como dioses, adorándolos y tomándolos como señores aparte de Dios que os creó, os formó y os proveyó? "Asnam" es el plural de "sanam", una imagen de piedra, madera u otro material en forma de persona, que es el "wathan"; la imagen dibujada en forma de persona en una pared o en otro lugar también se llama "sanam" y "wathan". "Os veo a vosotros y a vuestro pueblo en un error manifiesto" dice: Te veo a ti, Azar, y a tu pueblo que adoran ídolos contigo y los toman como dioses, en error, es decir, apartados del camino de la verdad y del camino de la justicia, "manifiesto" claro para quien mira que es un desvío del camino correcto y un giro del camino recto; Quiere decir que él y ellos se habían desviado de la unidad y el culto a Dios, que, en virtud de sus favores, les exigían purificar para él y no para otros dioses e ídolos. {cite:tafsir-tabari-shakir-v11 p. 469}
+
+El editor dice que el texto impreso tiene "se permite que sea un título, Dios sabe mejor", omitiendo "es llamado por" que está en el manuscrito, y agregando lo que le falta al manuscrito; y remite a pasajes anteriores para "error" y "manifiesto".
+
+El versículo 74 termina aquí en la página 469, y al-Tabari continúa hasta [[passage/quran-6-75|el 6:75]].
+
+Estas declaraciones se presentan tal como fueron transmitidas; las elecciones y los argumentos son de al-Tabari, las notas y los rastreos de fuentes son del editor, y el museo no emite ningún veredicto.

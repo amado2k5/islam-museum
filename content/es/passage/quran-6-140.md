@@ -1,0 +1,20 @@
+---
+id: passage/quran-6-140
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-6-140.md}
+---
+## Resumen
+Versículo 140 de [[passage/quran-6|Surat al-An'am]], una sura de La Meca. Los eruditos relacionan su revelación con el [[concept/wad|entierro de hijas vivas (wa'd)]]. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 140 de 165 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+En el versículo 140, "perdidos están aquellos que mataron a sus hijos por necedad, sin conocimiento, y prohibieron lo que Dios les proporcionó, forjando una mentira contra Dios; se han extraviado y no fueron guiados", al-Tabari dice: arruinados están estos falsificadores de mentiras contra su Señor, que pusieron ídolos y estatuas iguales a Él, para quienes sus socios hicieron atractivo matar a sus hijos y prohibir lo que Él les había bendecido con sus bienes, así que mataron a sus hijos en obediencia a esos socios y prohibieron lo que Dios les hizo lícito y obtuvieron sustento de su ganado. "Por necedad" significa que lo hicieron por ignorancia de lo que está a favor y en contra de ellos, por mentes deficientes, ingenios débiles y poca comprensión del daño inmediato y el dolor posterior del gran castigo de Dios por ello; "forjando una mentira contra Dios" significa atribuir falsamente y adivinar falsamente contra Él; "se han extraviado" significa que dejaron el camino alto de la verdad en su hacer y se apartaron del camino uniforme; «y no fueron guiados» significa que quienes hicieron eso no se guiaron por la rectitud en sus actos ni obtuvieron éxito en ellos. El editor señala que todas las copias dicen «y prohibiendo lo que les prohibí de sus bienes», lo cual, según él, contradice la explicación y corrige a «lo que les concedí». {cite:tafsir-tabari-shakir-v12 p. 153}
+
+Este versículo descendió sobre aquellos cuyo caso Dios mencionó en estos versículos comenzando con "asignaron a Dios una parte de lo que Él creó de las cosechas y el ganado", aquellos que cortaban las orejas de la bahira, dejaban libres a la sa'iba y enterraban vivas a las niñas. Él relata (13950) de Ikrima que descendió sobre aquellos de Rabi'a y Mudar que enterraban vivas a las niñas: un hombre ponía como condición a su esposa que mantuviera viva a una niña y enterrara a otra; cuando nacía la niña a la que estaba obligada a enterrar, el hombre se alejaba por la mañana o por la tarde de su esposa y le decía: "Eres para mí como la espalda de mi madre si regreso y no la has enterrado"; entonces ella cavaba una zanja en la tierra y mandaba llamar a sus mujeres, quienes se reunían a su alrededor, y cuando lo veía regresar, arrojaba a la niña a su fosa y nivelaba la tierra sobre ella. La nota explica la palabra "khadd", cavar una zanja. {cite:tafsir-tabari-shakir-v12 p. 154}
+
+Él da (13951) al-Suddi: luego mencionó lo que hicieron con sus hijos y sus propiedades; (13952) Qatada: esta era la práctica de la gente de la era preislámica; uno mataba a su hija por temor a ser capturado y a la pobreza, y alimentaba a su perro; y "prohibieron lo que Dios les proveyó" se refiere a la gente de ese tiempo que hacía bahira, sa'iba, wasila y hami como un decreto arbitrario de los demonios sobre sus propiedades; y (13953) Abd al-Aziz: si deseas conocer la ignorancia de los árabes, lee lo que sigue al versículo cien de la sura al-An'am. Abu Razin interpretó "se han extraviado" como que se habían extraviado antes de estos actos, matando niños y prohibiendo provisiones, por otros asuntos (13954). {cite:tafsir-tabari-shakir-v12 p. 155}
+
+Estas declaraciones se presentan tal como fueron transmitidas; las elecciones y los argumentos son de al-Tabari, las notas y los rastreos de fuentes son del editor, y el museo no emite ningún veredicto.

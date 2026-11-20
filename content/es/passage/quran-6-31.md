@@ -1,0 +1,36 @@
+---
+id: passage/quran-6-31
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-6-31.md}
+---
+## Resumen
+Versículo 31 de [[passage/quran-6|Surat al-An'am]], una sura de La Meca. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 31 de 165 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+Con «quienes niegan el encuentro con Dios han perdido, hasta que la Hora les llega de repente, dicen: ¡Ay de nosotros por lo que descuidamos en ella!», al-Tabari quiere decir: arruinados y engañados en su intercambio de fe por incredulidad están quienes negaron el encuentro con Dios, es decir, quienes negaron la resurrección después de la muerte, la recompensa y el castigo, el Paraíso y el Fuego, de los politeístas de Quraysh y de quienes siguieron su camino en ella; «hasta que la Hora les llegue» significa la Hora en que Dios resucita a los muertos de sus tumbas; el artículo se puso en «Hora» porque su significado es conocido por aquellos a quienes se dirige. {cite:tafsir-tabari-shakir-v11 p. 324}
+
+Por «de repente» quiere decir inesperadamente, sin que quien es tomado por sorpresa sepa el momento de su llegada; uno dice «baghatahu abghatuhu baghtatan» cuando lo tomas así. «Dicen: ¡Ay de nosotros por lo que descuidamos en ello!»: aquellos que negaron el encuentro con Dios se arruinaron al vender sus moradas en el Paraíso por las moradas de aquellos de la gente del Paraíso cuyas moradas en el Fuego compraron; cuando la Hora les llega de repente y ven lo que vendieron y compraron y reconocen la pérdida del trato que hicieron en el mundo, dicen, con pesar y dolor por el gran engaño que se hicieron a sí mismos y la inmensa pérdida que ninguna es mayor: ¡Ay de nosotros por lo que descuidamos en ello!, es decir, nuestro pesar por lo que desperdiciamos en ello, refiriéndose a ese trato. El pronombre en «en ello» se refiere al trato, aunque se omite su mención por el sentido de «aquellos que negaron el encuentro con Dios han perdido», ya que la pérdida solo puede darse en un trato que se realizó. {cite:tafsir-tabari-shakir-v11 p. 325}
+
+El sentido es: arruinados están aquellos que negaron el encuentro con Dios al vender la fe, que les granjea el agrado de Dios y el Paraíso, por la incredulidad, que les granjea su ira y castigo, sin percibir la pérdida que esto les supone hasta que llega la Hora; cuando llega repentinamente y ven la pérdida que sufrieron en su trato, dicen, con pesar: ¡Ay de nosotros por lo que descuidamos en ello! Los intérpretes lo dijeron así: informe 13185, de al-Suddi: "ya hasratana" es nuestro pesar, "por lo que descuidamos en ello", lo que desperdiciamos de la obra del Paraíso. 13186, de Abu Sa'id al-Khudri, del Profeta, sobre "¡Ay de nosotros!": la gente del Fuego ve sus moradas en el Paraíso y dice ¡Ay de nosotros! {cite:tafsir-tabari-shakir-v11 p. 326}
+
+El editor remite a los volúmenes 7 y 3 para "lamentar", corrige la expresión impresa "ellos perdieron" en el manuscrito, identifica a Yazid ibn Mihran al-Asadi el panadero, Abu Khalid, veraz, y dice que al-Suyuti rastreó el informe en el Durr al-Manthur y dijo que Ibn Jarir, Ibn Abi Hatim, al-Tabarani, Abu al-Shaykh, Ibn Mardawayh y al-Khatib lo relataron mediante una cadena sólida de Abu Sa'id al-Khudri.
+
+Entonces «llevan sus cargas sobre sus espaldas; el mal es lo que llevan»: aquellos que negaron el encuentro con Dios «llevan sus cargas sobre sus espaldas», sus pecados y ofensas, «wizr» en singular; se dice «wazara al-rajul yazir» cuando se peca, como en la expresión de Dios «el mal es lo que llevan»; si se quiere decir que fueron acusados de pecado, se dice «wuzira al-qawm». Algunos afirmaron que «wizr» es peso y carga, pero él no lo sabe con certeza por ningún testigo o informe fidedigno de los árabes. Dijo «sobre sus espaldas» porque una carga puede estar sobre la cabeza, el hombro o en cualquier otro lugar, así que dejó claro dónde llevan lo que llevan. {cite:tafsir-tabari-shakir-v11 p. 326}
+
+Se informa que el hecho de que lleven sus cargas sobre sus espaldas ese día es como en 13187 de Amr ibn Qays al-Mula'i: cuando un creyente sale de su tumba, la cosa más hermosa y de más dulce olor lo encuentra y dice: ¿me conoces? Él dice: no, excepto que Dios ha endulzado tu aroma y embellecido tu forma. Dice: así fui en el mundo, soy tu buena acción, mucho tiempo te cabalgué en el mundo, así que cabalga sobre mí hoy; y recitó [[passage/quran-19-85|19:85]], "el día en que reunimos a los temerosos de Dios ante el Misericordioso como una delegación". El incrédulo es encontrado por la cosa más fea y de más mal olor, que dice: ¿me conoces? Él dice: no, excepto que Dios ha hecho tu forma fea y tu olor fétido. Dice: así fui en el mundo, soy tu mala acción, mucho tiempo me cabalgaste en el mundo, así que hoy te cabalgo; y recitó: «Llevan sus cargas sobre sus espaldas; maldad es lo que soportan». {cite:tafsir-tabari-shakir-v11 p. 327}
+
+El editor señala que el texto impreso dice "su acción lo encontró en la forma más bella", lo cual es una expresión débil, mientras que en el manuscrito el copista omitió "cosa", que sustituyó por la posterior "cosa más fea"; identifica a al-Hakam ibn Bashir ibn Salman al-Nahdi, de confianza, y corrige "Sulayman", identifica a Amr ibn Qays al-Mula'i y rastrea el informe hasta el Durr al-Manthur y el comentario de Ibn Kathir.
+
+Informe 13188, de al-Suddi: todo hombre malhechor que muere y entra en su tumba es recibido por un hombre de rostro feo, piel oscura y olor fétido, vestido con ropas sucias, que entra en la tumba con él. Cuando lo ve, dice: ¡Qué feo es tu rostro! Dice: ¡Así de fea era tu acción! Dice: ¡Qué fétido es tu olor! Dice: ¡Así de sucia era tu acción! Dice: ¡Qué sucias son tus ropas! Dice: Tu acción era sucia. Dice: ¿Quién eres? Dice: Yo soy tu acción. Así está con él en su tumba; cuando resucita el día de la resurrección, dice: Yo te llevaba en este mundo con placeres y deseos, así que hoy tú me llevas a mí; y cabalga sobre su lomo y lo conduce hasta que entra en el Fuego; esa es la palabra de Dios: «llevan sus cargas sobre sus espaldas». {cite:tafsir-tabari-shakir-v11 p. 328}
+
+En cuanto a «el mal es lo que llevan», significa: el mal es la carga que soportan, es decir, el pecado que cometen contra su Señor. Informe 13189, de Qatada: el mal es lo que hacen. {cite:tafsir-tabari-shakir-v11 p. 328}
+
+En la página 328, el editor conserva "el pecado que cometen contra su Señor" del manuscrito y elimina la palabra "su incredulidad" que el texto impreso añadió, estropeando así la frase, y remite a "pecar contra su Señor" a lo que explicó anteriormente.
+
+El versículo 31 concluye aquí, en la página 328, y al-Tabari comienza el comentario sobre [[passage/quran-6-32|6:32]] en la página 329.
+
+Estas declaraciones se presentan tal como fueron transmitidas; las elecciones y los argumentos son de al-Tabari, las notas y los rastreos de fuentes son del editor, y el museo no emite ningún veredicto.
