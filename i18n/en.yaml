@@ -3611,8 +3611,32 @@ maajim:
     geographic:
       title: "Geographic dictionaries"
       desc: "Dictionaries of place names and the places themselves."
+  viz:
+    title: "Three doors to one root"
+    note: "One Arabic root, ج ر ع, and three ways the great dictionaries file it. Choose a dictionary to see how it is arranged."
+    root_label: "The root jim, ra, ayn"
+    lands: "Where the root stands:"
+    see_page: "See the page in the Bulaq scan"
+    ayn:
+      rule: "Kitab al-Ayn files words by where the letters are made in the mouth, from the throat to the lips, and gathers every permutation of a root in one place."
+      lands: "in the book of ayn, the letter of the root made deepest in the throat."
+    sihah:
+      rule: "al-Sihah makes the last radical of the root the chapter and the first radical the section."
+      lands: "chapter ayn, section jim — as the page of the Bulaq printing shows."
+    asas:
+      rule: "Asas al-Balagha makes the first radical of the root the chapter and orders the words inside it alphabetically."
+      lands: "in the chapter of jim."
+    caption: "What is drawn: the arrangement of each dictionary as described by the TDV İslâm Ansiklopedisi articles cited on its record. Where a root stands in al-Ayn follows from that rule; the Sihah position is confirmed by the page in the scan."
+  page_text: "The text of this page (machine reading)"
   pilot_title: "Readable text: the pilot"
-  pilot_note: "The first text to be read in full here is al-Sihah of al-Jawhari, from the Bulaq printing of 1282 AH / 1865 (an Internet Archive scan that the archive marks as not in copyright). It is read by machine and each page is checked before it is shown. No entry is published yet; each will show its page and how accurately it was read."
+  pilot_note: "The first dictionary read in full here is al-Sihah of al-Jawhari, from the Bulaq printing of 1282 AH / 1865 (an Internet Archive scan that the archive marks as not in copyright). Every scan page is a record that cites its page. The text is a machine reading and contains errors: in a sample of six lines checked against the page image, about one word in five was wrong or split. It is not yet divided into entries."
+  sihah_link: "Read al-Sihah, page by page"
+  sihah_title: "al-Sihah of al-Jawhari: the Bulaq printing, page by page"
+  sihah_lede: "The text of al-Sihah (Taj al-lugha wa-sihah al-arabiyya) as printed at Bulaq in 1282 AH / 1865, one record for each scan page of the two volumes."
+  sihah_quality: "How reliable is this text? It was read from the page images by Apple Vision, without correction. In a sample of six lines (about 80 words) checked by eye against the page image on 20 November 2026, roughly one word in five had a wrong or split letter, mostly single-letter confusions and spacing. Nothing has been checked beyond that sample, and some marginal notes are mixed into the lines. Use the scan to check any word you rely on."
+  sihah_count: "{n} scan pages carry text; the covers and library plates are not included."
+  sihah_vol: "Volume {v}"
+  sihah_range: "Scan pages {a} to {b}"
   sources_title: "Where the texts come from"
   sources_note: "The scans the pilot uses, with their source and rights statement on each record:"
 ghayb:

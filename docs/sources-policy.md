@@ -33,6 +33,10 @@ Reliability is a separate question and is unchanged: Wikipedia and Wikidata are 
 
 Pre-1930 Arabic text of a poem, taken from a public-domain edition, may be stored in full in a `passage` record (`unit: poem-line`). Each passage is one bayt or one run of verses, cited to the edition and scan page. The editor's apparatus (taḥqīq, footnotes, indexes) of a post-1930 edition is never stored; it is used only for facts and reconciliations, as the rule above. Translations are the museum's own renderings, written from the Arabic, and are not copied from any translator. This ruling covers poetry only; it does not change the 40-word rule for prose.
 
+### Dictionaries: full text of a pre-1930 printing (founder ruling, 20 Nov 2026)
+
+The text of a classical dictionary may be stored in full in `passage` records (`unit: other`, one passage per scan page) when it is read from a public-domain printing dated before 1930 and the host of the scan states it is not in copyright. Each passage cites the printing and the scan page and says that the text is a machine reading. The editor's apparatus (taḥqīq, footnotes, indexes) of a post-1930 edition is never stored. The first printing read this way is the Bulaq 1282 AH / 1865 *al-Ṣiḥāḥ* (`source/sihah-bulaq-1865-v1`, `-v2`; plan `docs/plan/72-dictionaries-browser.md`, route A). This ruling covers dictionaries only; it does not change the 40-word rule for other prose.
+
 ## 5. No sign-off
 
 The founder has given standing permission for all of the above. No agent stops to ask whether a source may be read or rewritten, whether an entity may be written, or whether validated work may be committed and pushed. Flag doubts in the entity and the progress file and continue. Records enter as `status.review: published` with a provenance block once they meet the publication bar in `docs/agents/publication-standard.md`: citations to defined sources, provenance recorded. No review by anyone — founder, human or agent — is required for publication, and one source is enough for any fact.

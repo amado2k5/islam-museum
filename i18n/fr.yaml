@@ -2115,8 +2115,32 @@ maajim:
     geographic:
       title: "Dictionnaires géographiques"
       desc: "Dictionnaires des noms de lieux et des lieux eux-mêmes."
+  viz:
+    title: "Trois portes vers une racine"
+    note: "Une racine arabe, ج ر ع, et trois façons dont les grands dictionnaires la classent. Choisissez un dictionnaire pour voir comment il est ordonné."
+    root_label: "La racine jim, ra, ayn"
+    lands: "Où se trouve la racine :"
+    see_page: "Voir la page dans la numérisation de Boulaq"
+    ayn:
+      rule: "Le Kitab al-Ayn classe les mots selon le point d'articulation des lettres, de la gorge aux lèvres, et réunit en un seul lieu toutes les permutations d'une racine."
+      lands: "dans le livre de l'ayn, la lettre de la racine articulée le plus profondément dans la gorge."
+    sihah:
+      rule: "al-Sihah fait du dernier radical de la racine le chapitre et du premier radical la section."
+      lands: "chapitre ayn, section jim — comme le montre la page de l'édition de Boulaq."
+    asas:
+      rule: "Asas al-Balagha fait du premier radical de la racine le chapitre et classe les mots à l'intérieur par ordre alphabétique."
+      lands: "dans le chapitre du jim."
+    caption: "Ce qui est dessiné : le classement de chaque dictionnaire tel que le décrivent les articles de la TDV İslâm Ansiklopedisi cités dans sa fiche. La place de la racine dans al-Ayn découle de cette règle ; sa place dans al-Sihah est confirmée par la page de la numérisation."
+  page_text: "Le texte de cette page (lecture automatique)"
   pilot_title: "Texte lisible : le pilote"
-  pilot_note: "Le premier texte lu en entier ici est al-Sihah d'al-Jawhari, d'après l'édition de Boulaq de 1282 AH / 1865 (une numérisation de l'Internet Archive que l'archive indique comme hors droits d'auteur). Il est lu par machine et chaque page est vérifiée avant d'être montrée. Aucune entrée n'est encore publiée ; chacune indiquera sa page et la précision de sa lecture."
+  pilot_note: "Le premier dictionnaire lu en entier ici est al-Sihah d'al-Jawhari, d'après l'édition de Boulaq de 1282 AH / 1865 (une numérisation de l'Internet Archive que l'archive indique comme hors droits d'auteur). Chaque page numérisée est une fiche qui cite sa page. Le texte est une lecture automatique et contient des erreurs : dans un échantillon de six lignes comparé à l'image de la page, environ un mot sur cinq était faux ou coupé. Il n'est pas encore divisé en entrées."
+  sihah_link: "Lire al-Sihah, page par page"
+  sihah_title: "al-Sihah d'al-Jawhari : l'édition de Boulaq, page par page"
+  sihah_lede: "Le texte d'al-Sihah (Taj al-lugha wa-sihah al-arabiyya) tel qu'imprimé à Boulaq en 1282 AH / 1865, une fiche pour chaque page numérisée des deux volumes."
+  sihah_quality: "Ce texte est-il fiable ? Il a été lu sur les images des pages par Apple Vision, sans correction. Dans un échantillon de six lignes (environ 80 mots) comparé à l'œil à l'image de la page le 20 novembre 2026, environ un mot sur cinq contenait une lettre fausse ou coupée, surtout des confusions d'une lettre et des espaces. Rien n'a été vérifié au-delà de cet échantillon, et des notes marginales se mêlent à certaines lignes. Vérifiez sur la numérisation tout mot sur lequel vous vous appuyez."
+  sihah_count: "{n} pages numérisées portent du texte ; les couvertures et les fiches de bibliothèque ne sont pas incluses."
+  sihah_vol: "Volume {v}"
+  sihah_range: "Pages numérisées {a} à {b}"
   sources_title: "D'où viennent les textes"
   sources_note: "Les numérisations utilisées par le pilote, avec leur source et leur mention de droits sur chaque fiche :"
 ghayb:
