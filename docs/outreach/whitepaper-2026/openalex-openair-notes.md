@@ -7,7 +7,7 @@ index decides what it includes and when.
 
 | | Paper | Dataset |
 |---|---|---|
-| Identifier | [PAPER DOI TO BE ASSIGNED ON ZENODO DEPOSIT] | Concept DOI 10.5281/zenodo.23692511 |
+| Identifier | 10.5281/zenodo.24273663 | Concept DOI 10.5281/zenodo.23692511 |
 | DataCite type | Text / Preprint | Dataset |
 | Licence | CC BY 4.0 | Data CC0 1.0; prose CC BY-SA 4.0; code MIT (the Zenodo licence field currently says CC0 only) |
 | Creator | Ahmed Abdel Aal, ORCID 0009-0000-9215-2906 | The same |

@@ -5,8 +5,8 @@
 **Affiliation:** islam.museum (independent)
 **Contact:** discover@islam.museum
 **Date:** 15 November 2026
-**Paper version:** v1.0, draft for deposit
-**Paper DOI:** [PAPER DOI TO BE ASSIGNED ON ZENODO DEPOSIT]
+**Paper version:** v1.0
+**Paper DOI:** [10.5281/zenodo.24273663](https://doi.org/10.5281/zenodo.24273663)
 **Dataset described (concept DOI, all versions):** [10.5281/zenodo.23692511](https://doi.org/10.5281/zenodo.23692511)
 **Licence of this paper:** CC BY 4.0
 
@@ -383,7 +383,7 @@ The dataset is openly available.
 
 **How to cite this paper:**
 
-> Abdel Aal, A. (2026). *islam.museum: A Citable Open Knowledge Graph and Digital Museum of Islamic History — Resource Description, Method and Validation State* (v1.0) [Preprint]. Zenodo. [PAPER DOI TO BE ASSIGNED ON ZENODO DEPOSIT]
+> Abdel Aal, A. (2026). *islam.museum: A Citable Open Knowledge Graph and Digital Museum of Islamic History — Resource Description, Method and Validation State* (v1.0) [Preprint]. Zenodo. https://doi.org/10.5281/zenodo.24273663
 
 The two citations are different. The first refers to the data. The second refers to this text.
 
@@ -459,12 +459,3 @@ Vrandečić, D., & Krötzsch, M. (2014). Wikidata: a free collaborative knowledg
 
 Wilkinson, M. D., Dumontier, M., Aalbersberg, IJ. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L. B., Bourne, P. E., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data*, 3, 160018. https://doi.org/10.1038/sdata.2016.18
 
-## UNVERIFIED — author to confirm
-
-1. **August 2025 as the start of the idea, and timelinethis.app with Google AI Studio as the prototype** (section 16). Supplied by the author. The repository's UNESCO dossier dates the prototype to September 2025; the two may both be true, but they should be stated the same way everywhere.
-2. **Schema.org structured data on record pages** (section 7). Confirmed in the site's source code (`site/src/lib/entity.ts`); not confirmed on rendered live pages. No site-level schema.org `Dataset` description was found, and the paper does not claim one.
-3. **OpenAlex ingestion of DataCite-registered Zenodo records** (section 7). Stated as the author's understanding; the OpenAlex documentation was not read in enough detail to confirm the current source list.
-4. **The KITAB site's expansion of its name and the description of its work on text reuse** (section 2.2, references). The site loads; its wording was not read closely.
-5. **Hosting cost of about CA$90** (section 14). Supplied by the author as on the Support page; the repository's claims ledger confirms the CA$1,900 and CA$900 figures but was not checked for the CA$90 figure.
-6. **Education Explorer: 659 discoveries.** Not verifiable from the audit script and therefore left out of the paper. The 361 lessons figure is verified.
-7. **OpenAPI description.** The repository contains `site/public/openapi/v1.json`, while the site's developer page says that there is no OpenAPI document. The paper follows the repository; the author should confirm which statement is current.
