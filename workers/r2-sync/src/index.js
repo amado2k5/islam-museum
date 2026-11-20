@@ -32,7 +32,7 @@ const MIME = {
   xml: "application/xml",
 };
 
-const contentType = (key) => MIME[key.split(".").pop().toLowerCase()] ?? "application/octet-stream";
+export const contentType = (key) => MIME[key.split(".").pop().toLowerCase()] ?? "application/octet-stream";
 
 const sha256Hex = async (bytes) => {
   const digest = await crypto.subtle.digest("SHA-256", bytes);

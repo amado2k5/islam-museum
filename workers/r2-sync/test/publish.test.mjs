@@ -6,7 +6,7 @@ import { createHash } from "node:crypto";
 import { mkdtempSync, mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { tmpdir } from "node:os";
-import { diff, reconcile, applyToPrevious, withRetry, bootstrapPrevious, abortStagingMultipartUploads, loadBatch, rootFiles } from "../batch/publish.mjs";
+import { splitDirect, diff, reconcile, applyToPrevious, withRetry, bootstrapPrevious, abortStagingMultipartUploads, loadBatch, rootFiles } from "../batch/publish.mjs";
 
 const dir = mkdtempSync(join(tmpdir(), "publish-test-"));
 const file = (text) => {
@@ -242,4 +242,17 @@ test("a shared-parts publish touches no language's pages or search index", () =>
   // The five language scopes and the shared scope together are the whole record, with nothing in two of them.
   const all = [...["ar", "en", "ur", "fr", "es"].flatMap((l) => Object.keys(scopeTo(previous, langPrefixes(l)))), ...Object.keys(scoped)];
   assert.deepEqual(all.sort(), Object.keys(previous).sort());
+});
+
+test("splitDirect sends the COPY operations bigger than an archive to the bucket directly and leaves the rest", () => {
+  const sizes = { "/d/big.ndjson": 162 * 1048576, "/d/edge.json": 20 * 1048576, "/d/small.json": 10 };
+  const ops = [
+    { op: "COPY", localPath: "/d/big.ndjson", dst: "api/v1/graph/nodes.ndjson" },
+    { op: "COPY", localPath: "/d/edge.json", dst: "api/v1/edge.json" },
+    { op: "COPY", localPath: "/d/small.json", dst: "api/v1/small.json" },
+    { op: "DELETE", dst: "api/v1/gone.json" },
+  ];
+  const { direct, packed } = splitDirect(ops, 20 * 1048576, (path) => sizes[path]);
+  assert.deepEqual(direct.map((o) => o.dst), ["api/v1/graph/nodes.ndjson"]);
+  assert.deepEqual(packed.map((o) => o.dst), ["api/v1/edge.json", "api/v1/small.json", "api/v1/gone.json"]);
 });

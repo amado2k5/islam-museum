@@ -14,6 +14,7 @@ import { execFileSync, spawn } from "node:child_process";
 import { join, relative, sep, resolve as resolvePath } from "node:path";
 import { tmpdir } from "node:os";
 import { packArchives } from "./pack.mjs";
+import { contentType } from "../src/index.js";
 import { shellPaths } from "../../../tools/deploy/shell-paths.mjs";
 import { request as httpsRequest } from "node:https";
 import { request as httpRequest } from "node:http";
@@ -87,6 +88,19 @@ const parallel = Number(process.env.PARALLEL ?? workerUrls.length * 6);
 // (about 210,000 files) was stopped by the runner partway through.
 const BATCH_OPS = Number(process.env.BATCH_OPS ?? 20000);
 const BATCH_PAUSE_MS = Number(process.env.BATCH_PAUSE_MS ?? 5000);
+// A Worker unpacks a whole archive in memory (the zip and its contents, twice the archive's size, in 128 MB), so a
+// file bigger than an archive's cap (20 MB, pack.mjs) cannot go through one: the graph export api/v1/graph/nodes.ndjson
+// reached 162 MB and "Memory limit would be exceeded before EOF" stopped the UAT deploy of 20 November 2026 (run
+// 44758556248). Such files are uploaded straight to the bucket with the same S3 tool that stages the archives.
+const DIRECT_BYTES = Number(process.env.DIRECT_BYTES ?? 20 * 1024 * 1024);
+
+// Splits a batch into the COPY operations too big for an archive and the rest. size: path -> bytes (injectable for tests).
+export function splitDirect(batchOps, limit = DIRECT_BYTES, size = (path) => statSync(path).size) {
+  const direct = [];
+  const packed = [];
+  for (const op of batchOps) (op.op === "COPY" && size(op.localPath) > limit ? direct : packed).push(op);
+  return { direct, packed };
+}
 const log = (msg) => console.log(`[r2-publish] ${msg}`);
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -347,6 +361,16 @@ export function runCommand(cmd, cmdArgs, options = { stdio: "inherit" }) {
   });
 }
 
+// Uploads one large file straight to its place in the bucket. The destination was built from the publish targets, never
+// from outside input, so the Worker's allow-list is not needed; the content type is the Worker's own mapping.
+async function uploadDirect(op, progress) {
+  const started = Date.now();
+  await withRetry(op.dst, "direct upload", () =>
+    runCommand("aws", ["s3", "cp", op.localPath, `s3://${bucket}/${op.dst}`, "--endpoint-url", endpoint, "--only-show-errors",
+      "--content-type", contentType(op.dst), "--cache-control", op.cacheControl]));
+  log(`${progress} ${op.dst} (${(statSync(op.localPath).size / 1048576).toFixed(1)} MB) uploaded directly in ${Date.now() - started} ms`);
+}
+
 async function applyArchive(archive, dir, workerUrl, progress) {
   const started = Date.now();
   const file = join(dir, archive.name);
@@ -570,7 +594,9 @@ async function main() {
   let applied = 0;
   for (let b = 0; b < batches; b += 1) {
     const batchOps = ops.slice(b * BATCH_OPS, (b + 1) * BATCH_OPS);
-    const archives = packArchives(loadBatch(batchOps), { namePrefix: `publish-${stamp}-b${b}` });
+    const { direct, packed } = splitDirect(batchOps);
+    for (const [k, op] of direct.entries()) await uploadDirect(op, `[batch ${b + 1}/${batches} direct ${k + 1}/${direct.length}]`);
+    const archives = packArchives(loadBatch(packed), { namePrefix: `publish-${stamp}-b${b}` });
     const total = archives.length;
     let nextArchive = 0;
     log(`batch ${b + 1}/${batches}: ${batchOps.length} operations in ${total} archives, ${parallel} in parallel across ${workerUrls.length} workers`);
