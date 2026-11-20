@@ -118,6 +118,8 @@ None of these contradicts Article 6.2. Together they left four of the six doors 
 
 Until the first answer arrives, the safe course with a person is to offer both routes: sign the letter, or file the form directly (about ten minutes, with the dossier and the letter attached).
 
+**Addendum, 18 November 2026.** L1 was sent by the founder on the evening of 15 November, and the Prize Secretariat replied on 18 November. It clarified the nominator rules: Article 6.2 names six kinds of nominator — Member State governments; partner NGOs and foundations; former laureates; eminent personalities; any person working in the field of Arab culture and for peace and intercultural dialogue; and any civil-society organisation in the field — and a self-nomination is permitted only with an eligible nominator's endorsement letter. It also signalled that the 30 November 2026 deadline is expected to be extended. That is a signal, not a confirmed new date: the deadline stands on paper until UNESCO announces otherwise.
+
 ## 7. What the Statutes do not say, and what they add
 
 - **No residence or nationality rule for the nominator.** The founder asked on 21 October whether the nominator must be based in the candidate's country; nothing in the text requires it.
