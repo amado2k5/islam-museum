@@ -1,20 +1,20 @@
 id: work/tarikh-islam-dhahabi
 class: work
 kind: book
-label: { ar: "تاريخ الإسلام ووفيات المشاهير والأعلام", en: "Tarikh al-Islam wa-Wafayat al-Mashahir wa'l-A'lam", es: "Tarikh al-Islam wa-Wafayat al-Mashahir wa'l-A'lam", fr: "Tarikh al-Islam wa-Wafayat al-Mashahir wa'l-A'lam", ur: "تاریخ الاسلام والفاعیۃ المشاہیر والعالم" }
+label: { ar: "تاريخ الإسلام ووفيات المشاهير والأعلام", en: "Tarikh al-Islam wa-Wafayat al-Mashahir wa-l-A'lam", ur: "تاریخ الاسلام و وفیات المشاہیر والاعلام", fr: "Tarikh al-Islam wa-Wafayat al-Mashahir wa-l-A'lam", es: "Tarikh al-Islam wa-Wafayat al-Mashahir wa-l-A'lam" }
 summary:
-  ar: "تاريخ الإسلام للذهبي مرتب على السنين مع وفيات المشاهير؛ من أمهات التواريخ التي ترد فيها نصوص كتب الملوك والخلفاء ووفودهم ورسائلهم."
-  en: "al-Dhahabi's annalistic history of Islam with obituaries of the notables; a mother-source that transmits royal, caliphal and envoy correspondence."
-  es: "La historia analística del Islam de al-Dhahabi, con obituarios de personajes notables; una fuente original que transmite correspondencia real, califal y de enviados."
-  fr: "L'histoire annalistique de l'Islam d'al-Dhahabi, avec les nécrologies des notables; une source mère qui transmet la correspondance royale, calife et des envoyés."
-  ur: "الذہبی کی اسلام کی تجزیاتی تاریخ جس میں قابل ذکر شخصیات کے بیانات ہیں۔ ایک مادری ذریعہ جو شاہی، خلیفہ اور ایلچی خط و کتابت کو منتقل کرتا ہے۔"
+  ar: "تاريخ عام لشمس الدين الذهبي ⁦(ت 748هـ)⁩ يبدأ بالسيرة والمغازي ثم عهد الخلفاء الراشدين، ويمضي على السنين ثم العقود بعد ذلك، ويختم كل مدة بوفيات المشاهير والأعلام؛ وللكتاب ذيل يصل إلى سنة 750هـ. وفيه من أخبار الوفيات والتعزية والرثاء ما لا يُحصى."
+  en: "A general history by Shams al-Din al-Dhahabi (d. 748 AH) that opens with the seerah and the campaigns, then the age of the Rightly-Guided Caliphs, and goes on by year and then by decade, closing each span with the deaths of the famous and the notable; a dhayl carries it to 750 AH. It holds a great deal on deaths, condolences and elegies."
+  ur: "شمس الدین الذہبی ⁦(متوفی 748ھ)⁩ کی عام تاریخ جو سیرت اور مغازی سے شروع ہو کر خلفائے راشدین کے عہد پھر سالوں اور بعد میں دہائیوں کے حساب سے چلتی ہے اور ہر مدت کا اختتام مشہور لوگوں کی وفیات پر کرتی ہے؛ اس کا ذیل 750ھ تک جاتا ہے۔ وفات، تعزیت اور مرثیوں کی بے شمار خبریں اس میں ہیں۔"
+  fr: "Une histoire générale de Shams al-Din al-Dhahabi (m. 748 H) qui s'ouvre sur la sîra et les expéditions, puis l'époque des califes bien guidés, et se poursuit par années puis par décennies, chaque période se concluant par le décès des personnages célèbres et notables ; un dhayl la mène jusqu'en 750 H. Elle contient une foule de récits sur les décès, les condoléances et les élégies."
+  es: "Una historia general de Shams al-Din al-Dhahabi (m. 748 H) que se abre con la sira y las campañas, luego la época de los califas bien guiados, y sigue por años y después por décadas, cerrando cada período con las muertes de los famosos y notables; un dhayl la lleva hasta el 750 H. Contiene gran cantidad de relatos sobre muertes, condolencias y elegías."
+genre: [history, biography]
+made: { by_muslims: true, basis: documented, sources: [source/tarikh-islam-dhahabi] }
+language: language/arabic
 wings: []
-authors: [person/al-dhahabi]
+relations:
+  - { type: related_to, target: person/al-dhahabi, note: "author", sources: [source/tarikh-islam-dhahabi] }
+  - { type: related_to, target: concept/ritha-wal-nay, note: "its death notices are mined by the Elegy and Death-Announcement Browser", sources: [source/tarikh-islam-dhahabi] }
 sources: [source/tarikh-islam-dhahabi]
-genre: [history]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }
-provenance:
-  layer: own-research
-  source: "title page of the scanned book on the harvest shelf"
-  generated_by: "Devin (SWE-2 Flash High)"
-  run: mukatabat-books-mining-1
+provenance: { layer: own-research, source: "source record source/tarikh-islam-dhahabi (the OCR scans on the harvest drive, scan folder list and volume titles); al-Dhahabi's dates and lineage from person/al-dhahabi", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "ritha-browser-works-1" }
+status: { review: published, completeness: 2, generated_by: "Claude (claude-sonnet-5-5); structure read from the scan folder titles and the source record, no quotation" }

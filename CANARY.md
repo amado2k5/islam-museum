@@ -13,6 +13,12 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.26.1 — 2026-11-20
+### Added
+- **Two works of al-Dhahabi now have their own pages: «سير أعلام النبلاء» (`work/siyar-alam-nubala`) and «تاريخ الإسلام» (`work/tarikh-islam-dhahabi`),** each with a five-language summary and prose, and linked to their author. Their source records existed but had no work record, so their passages could not be cited.
+### Data
+- **80 new passages for the Elegy and Death-Announcement Browser:** 40 cited excerpts (at most 40 words, machine-read, not corrected) from each of the two books, on elegies, death announcements and condolence, each labelled in five languages.
+
 ## v2.26.0 — 2026-11-20
 ### Data
 - **Both volumes of the 1865 Bulaq *al-Ṣiḥāḥ* are now read in full (654 and 590 pages).** The Apple Vision reading of the second volume finished and the register records both outputs with their checksums. The text is still machine output, unchecked, and no entry from it is published yet.

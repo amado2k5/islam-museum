@@ -1,0 +1,20 @@
+id: work/siyar-alam-nubala
+class: work
+kind: book
+label: { ar: "سير أعلام النبلاء", en: "Siyar A'lam al-Nubala'", ur: "سیر اعلام النبلاء", fr: "Siyar A'lam al-Nubala'", es: "Siyar A'lam al-Nubala'" }
+summary:
+  ar: "معجم تراجم كبير لشمس الدين الذهبي ⁦(ت 748هـ)⁩ يرتب الأعلام على الطبقات من الصحابة فمن بعدهم إلى عصر المؤلف، ويذكر في الترجمة النسب والشيوخ والتلاميذ والأخبار والوفاة. وهو من أوسع مصادر وفيات الصحابة والتابعين وما قيل فيهم من الرثاء والتعزية."
+  en: "A large biographical dictionary by Shams al-Din al-Dhahabi (d. 748 AH) that arranges notable figures by generation, from the Companions through the Successors and after, down to the author's own time; each entry gives lineage, teachers, students, reports and the death. It is among the fullest sources for how the Companions and Successors died and what was said over them in elegy and condolence."
+  ur: "شمس الدین الذہبی ⁦(متوفی 748ھ)⁩ کی بڑی سوانحی لغت جو اکابر کو طبقات کے مطابق صحابہ سے تابعین اور بعد کے لوگوں تک مصنف کے زمانے تک ترتیب دیتی ہے؛ ہر ترجمے میں نسب، اساتذہ، تلامذہ، اخبار اور وفات ہے۔ صحابہ و تابعین کی وفات اور ان پر کہے گئے مرثیوں اور تعزیتوں کے سب سے وسیع مآخذ میں سے ہے۔"
+  fr: "Un grand dictionnaire biographique de Shams al-Din al-Dhahabi (m. 748 H) qui classe les personnages par générations, des Compagnons aux Successeurs et au-delà, jusqu'à l'époque de l'auteur ; chaque notice donne la généalogie, les maîtres, les élèves, des récits et le décès. C'est l'une des sources les plus riches sur la mort des Compagnons et des Successeurs et sur ce qui fut dit d'eux en élégie et en condoléances."
+  es: "Un gran diccionario biográfico de Shams al-Din al-Dhahabi (m. 748 H) que ordena a las figuras notables por generaciones, desde los Compañeros y los Sucesores hasta la época del autor; cada entrada da el linaje, los maestros, los discípulos, relatos y la muerte. Es una de las fuentes más completas sobre cómo murieron los Compañeros y los Sucesores y lo que se dijo de ellos en elegías y condolencias."
+genre: [history, biography]
+made: { by_muslims: true, basis: documented, sources: [source/siyar-alam-nubala] }
+language: language/arabic
+wings: []
+relations:
+  - { type: related_to, target: person/al-dhahabi, note: "author", sources: [source/siyar-alam-nubala] }
+  - { type: related_to, target: concept/ritha-wal-nay, note: "its death notices are mined by the Elegy and Death-Announcement Browser", sources: [source/siyar-alam-nubala] }
+sources: [source/siyar-alam-nubala]
+provenance: { layer: own-research, source: "source record source/siyar-alam-nubala (the OCR scans on the harvest drive, scan folder list and volume titles); al-Dhahabi's dates and lineage from person/al-dhahabi", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "ritha-browser-works-1" }
+status: { review: published, completeness: 2, generated_by: "Claude (claude-sonnet-5-5); structure read from the scan folder titles and the source record, no quotation" }
