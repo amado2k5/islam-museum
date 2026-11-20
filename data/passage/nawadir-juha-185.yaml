@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-185
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "83:185"
+label: { ar: "نوادر جحا الكبرى، ص 83 — «هذا رأس حماري»", en: "Nawadir Juha al-Kubra, p. 83 — 'This Is My Donkey's Head'", ur: "نوادر جحا الکبریٰ، ص 83 — «یہ میرے گدھے کا سر ہے»", fr: "Nawadir Juha al-Kubra, p. 83 — « Voici la tête de mon âne »", es: "Nawadir Juha al-Kubra, p. 83 — «Esta es la cabeza de mi burro»" }
+text: "… هذا رأس حماري سُرِق مقودُ حماره المزينُ بالودع، فقبض على أذُنَيْ الحمار وذهب به إلى البيت، وبعد يومين رأى نفس ذلك المقود برأس حمارٍ كبيرٍ فعجب من ذلك، وقال: هذا الرأس رأس حماري، ولكن كيف تبدّل جسمه؟ أنت لا تسألني …"
+summary:
+  ar: "سُرق رسن حمار جحا، ثم رأى الرسن نفسه على رأس حمار أكبر، فقال إن الرأس لحماره، لكن كيف تغيّر الجسم. {cite:juha-nawadir-kubra-djuwaydi p. 83}"
+  en: "Juha's donkey's halter is stolen; he later sees the same halter on the head of a larger donkey and says 'this head is my donkey's, but how did its body change?' {cite:juha-nawadir-kubra-djuwaydi p. 83}"
+  ur: "جحا کے گدھے کی لگام چوری ہو گئی؛ بعد میں اس نے وہی لگام ایک بڑے گدھے کے سر پر دیکھی اور کہا کہ یہ سر تو میرے گدھے کا ہے، مگر اس کا جسم کیسے بدل گیا۔ {cite:juha-nawadir-kubra-djuwaydi p. 83}"
+  fr: "Le licou de l'âne de Juha est volé; plus tard, il voit le même licou sur la tête d'un âne plus grand et dit: «Cette tête est celle de mon âne, mais comment son corps a-t-il changé ?» {cite:juha-nawadir-kubra-djuwaydi p. 83}"
+  es: "Le roban el cabestro al burro de Juha; más tarde ve el mismo cabestro en la cabeza de un burro más grande y dice: «Esta cabeza es la de mi burro, pero ¿cómo cambió su cuerpo?» {cite:juha-nawadir-kubra-djuwaydi p. 83}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 83, anecdote 185; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

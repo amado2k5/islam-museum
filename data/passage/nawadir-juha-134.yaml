@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-134
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "63:134"
+label: { ar: "نوادر جحا الكبرى، ص 63 — «خل ابن أربعين سنة»", en: "Nawadir Juha al-Kubra, p. 63 — 'Forty-Year-Old Vinegar'", ur: "نوادر جحا الکبریٰ، ص 63 — «چالیس سال پرانا سرکہ»", fr: "Nawadir Juha al-Kubra, p. 63 — « Du vinaigre de quarante ans »", es: "Nawadir Juha al-Kubra, p. 63 — «Vinagre de cuarenta años»" }
+text: "… خلٌّ أبنُ أربعينَ سنةً سأله جاره يوماً: هل عندَك خلُّ أبنُ أربعينَ سنةً؟ فقال: نعمْ عندي. فقال له: أعطني قليلاً منه. فأجابه: لا أقدِرُ أنَّ أَعطيك. فقال : ولماذا؟ فأجابه : لو أجبْتُكَ إلى طلبكَ، وأجبْتُ غيرك، فهل يبقى خلَّ …"
+summary:
+  ar: "طلب منه جار خلًّا عمره أربعون سنة، فرفض، لأنه لو أعطاه لواحد لما بقي للتالي شيء. {cite:juha-nawadir-kubra-djuwaydi p. 63}"
+  en: "Asked by a neighbour for vinegar aged forty years, Juha refuses, since giving it to one person would leave none for the next. {cite:juha-nawadir-kubra-djuwaydi p. 63}"
+  ur: "ایک پڑوسی نے جحا سے چالیس سال پرانا سرکہ مانگا تو اس نے انکار کیا، کیونکہ ایک کو دینے سے اگلے کے لیے کچھ نہ بچتا۔ {cite:juha-nawadir-kubra-djuwaydi p. 63}"
+  fr: "Un voisin demande à Juha du vinaigre vieux de quarante ans; Juha refuse, car en donner à l'un n'en laisserait plus pour le suivant. {cite:juha-nawadir-kubra-djuwaydi p. 63}"
+  es: "Un vecino le pide a Juha vinagre de cuarenta años; Juha se niega, pues dárselo a uno no dejaría nada para el siguiente. {cite:juha-nawadir-kubra-djuwaydi p. 63}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 63, anecdote 134; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

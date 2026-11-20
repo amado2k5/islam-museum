@@ -1,0 +1,18 @@
+id: passage/bukhari-api-5367
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5367"
+label: { ar: "صحيح البخاري 5367 — مزاح ودعابة", en: "Sahih al-Bukhari 5367 — jesting and playfulness", ur: "صحیح بخاری 5367 — مزاح اور خوش طبعی", fr: "Sahih al-Bukhari 5367 — plaisanterie et badinage", es: "Sahih al-Bujari 5367 — broma y jovialidad" }
+text: "… أَوْ تِسْعَ بَنَاتٍ فَتَزَوَّجْتُ امْرَأَةً ثَيِّبًا فَقَالَ لِي رَسُولُ اللَّهِ تَزَوَّجْتَ يَا جَابِرُ . فَقُلْتُ نَعَمْ. فَقَالَ بِكْرًا أَمْ ثَيِّبًا . قُلْتُ بَلْ ثَيِّبًا. قَالَ فَهَلاَّ جَارِيَةً تُلاَعِبُهَا وَتُلاَعِبُكَ، وَتُضَاحِكُهَا وَتُضَاحِكُكَ . قَالَ فَقُلْتُ لَهُ إِنَّ عَبْدَ اللَّهِ هَلَكَ وَتَرَكَ بَنَاتٍ، وَإِنِّي كَرِهْتُ أَنْ أَجِيئَهُنَّ بِمِثْلِهِنَّ، فَتَزَوَّجْتُ امْرَأَةً تَقُومُ عَلَيْهِنَّ وَتُصْلِحُهُنَّ. فَقَالَ بَارَكَ اللَّهُ لَكَ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5367، فيه مزاح ودعابة. يجمعه متصفح جحا والفلكلور الإسلامي مع نصوص القرآن والسنة والسيرة والكتب في الضحك والمزاح والنوادر."
+  en: "A report in Sahih al-Bukhari, no. 5367, with jesting and playfulness. The Juha and Islamic Folklore Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on laughter, jesting and anecdotes."
+  ur: "صحیح بخاری کی حدیث نمبر 5367، جس میں مزاح اور خوش طبعی ہے۔ جحا اور اسلامی لوک ادب کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  fr: "Un récit de Sahih al-Bukhari, n° 5367, avec plaisanterie et badinage. Le Navigateur de Juha et du folklore islamique le recense avec les textes du Coran, de la Sunna, de la sîra et des livres sur le rire, la plaisanterie et les anecdotes."
+  es: "Un relato de Sahih al-Bujari, n.º 5367, con broma y jovialidad. El Navegador de Juha y del folclore islámico lo recoge junto a los textos del Corán, la Sunna, la sira y los libros sobre la risa, la broma y las anécdotas."
+relations:
+  - { type: mentions, target: concept/al-muzah, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5367 (book 69 hadith 17); matn excerpt of at most 55 words chosen by the Juha browser's detector (scripts/juha.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
