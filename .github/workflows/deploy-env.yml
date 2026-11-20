@@ -291,7 +291,7 @@ jobs:
           rsync -a \
             --exclude=/ar --exclude=/en --exclude=/ur --exclude=/fr --exclude=/es --exclude=/api \
             --exclude=/pagefind-ar --exclude=/pagefind-en --exclude=/pagefind-ur --exclude=/pagefind-fr --exclude=/pagefind-es \
-            --exclude=/media --exclude=/edu --exclude=/timeline-data --exclude=/gift-shop --exclude=/brand --exclude=/openapi \
+            --exclude=/media --exclude=/edu --exclude=/timeline-data --exclude=/gift-shop --exclude=/brand --exclude=/openapi --exclude=/podcast \
             --exclude='/sitemap*.xml' --exclude=/feed.xml --exclude='/llms*.txt' --exclude='/search-synonyms.*.json' \
             --exclude='/favicon*' --exclude=/apple-touch-icon.png --exclude=/.well-known/api-catalog \
             dist/ dist-assets/
