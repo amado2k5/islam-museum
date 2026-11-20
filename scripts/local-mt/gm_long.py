@@ -17,7 +17,7 @@ from translate import BROKEN, FIXED_HEADINGS, LEVELED, ROOT, check, protect, que
 
 ap = argparse.ArgumentParser(); ap.add_argument("cmd", choices=["next", "add", "status"]); ap.add_argument("--lang", required=True, choices=["es", "fr"])
 ap.add_argument("--words", type=int, default=8000); ap.add_argument("--min-record", type=int, default=5000); ap.add_argument("--txt", default="")
-ap.add_argument("--home", default="/Volumes/exmicroSD/islam-museum-local-mt"); ap.add_argument("--up", default="")
+ap.add_argument("--home", default="/Volumes/exmicroSD/islam-museum-local-mt"); ap.add_argument("--up", default=""); ap.add_argument("--engine", default="gemini", choices=["gemini", "claude"]); ap.add_argument("--src-out", default="")
 a = ap.parse_args(); L = a.lang; D = f"{a.home}/gm-long/{L}"; os.makedirs(D, exist_ok=True)
 split = lambda p: re.match(r"^---\n(.*?)\n---\n?(.*)$", open(p, encoding="utf-8").read(), re.S)
 state_of = lambda i: f"{D}/{i.replace('/', '__')}.json"
@@ -86,10 +86,14 @@ def finish(st):
     body = "\n".join(out); problem = check(st["body"], body, L)
     if problem: return problem
     ident = st["id"]; fm = yaml.safe_load(split(os.path.join(ROOT, "content", "en", ident + ".md")).group(1)); date = time.strftime("%Y-%m-%d")
-    new = {"id": ident, "lang": L, "source_lang": "en", "translators": [f"Google Gemini (gemini.google.com, Task mode, model shown as Hydrogen, {date}; translated in {len(st['parts'])} consecutive parts), draft translation"]}
+    eng = st.get("engine", {}); used = sorted({eng.get(str(n), "gemini") for n in range(len(st["parts"]))}); count = lambda e: sum(1 for n in range(len(st["parts"])) if eng.get(str(n), "gemini") == e)
+    names = {"gemini": lambda c: f"Google Gemini (gemini.google.com, Task mode, model shown as Hydrogen, {date}; {c} of {len(st['parts'])} consecutive parts), draft translation",
+             "claude": lambda c: f"Claude (claude-fable-5-2, agent in Claude Code, {date}; {c} of {len(st['parts'])} consecutive parts), draft translation"}
+    new = {"id": ident, "lang": L, "source_lang": "en", "translators": [names[e](count(e)) for e in used]}
     for k, v in fm.items():
         if k not in ("id", "lang", "source_lang", "translators", "provenance", "translation_of"): new[k] = v
-    new["provenance"] = {"generated_by": "scripts/local-mt/gm_long.py (spanish lane, Google Gemini in the browser, managed by Claude Code)", "model": "gemini (Hydrogen)", "run": f"gemini-long-{L}-{date}", "source": f"content/en/{ident}.md"}
+    label = {"gemini": "Google Gemini in the browser", "claude": "Claude agents in Claude Code"}; model = {"gemini": "gemini (Hydrogen)", "claude": "claude-fable-5-2"}
+    new["provenance"] = {"generated_by": f"scripts/local-mt/gm_long.py (spanish lane, long record in parts: {' and '.join(label[e] for e in used)}, managed by Claude Code)", "model": " / ".join(model[e] for e in used), "run": f"{'-'.join(used)}-long-{L}-{date}", "source": f"content/en/{ident}.md"}
     target = os.path.join(ROOT, "content", L, ident + ".md"); os.makedirs(os.path.dirname(target), exist_ok=True)
     text = "---\n" + yaml.safe_dump(new, allow_unicode=True, sort_keys=False, width=10000, default_flow_style=None).rstrip("\n") + "\n---\n" + body
     open(target, "w", encoding="utf-8").write(text if text.endswith("\n") else text + "\n"); return None
@@ -107,11 +111,12 @@ if a.cmd == "next":
     name = f"gml-{L}.docx"; path = f"{D}/{name}"
     docx([f"#### {k + 1} ####"] + [st["lines"][n]["src"] for n in st["parts"][k]], path)
     if a.up: open(os.path.join(a.up, name), "wb").write(open(path, "rb").read())
+    if a.src_out: open(a.src_out, "w", encoding="utf-8").write("\n".join([f"#### {k + 1} ####"] + [st["lines"][n]["src"] for n in st["parts"][k]]) + "\n")
     print(f"{name}\t{st['id']}\tpart {k + 1} of {len(st['parts'])}\t{len(st['parts'][k])} paragraphs"); sys.exit(0)
 got = [l.strip() for l in open(a.txt, encoding="utf-8").read().split("\n") if l.strip() and not l.strip().startswith("```") and not re.fullmatch(r"#{3,4}\s*\d+\s*#{3,4}", l.strip())]
 want = st["parts"][k]
 if len(got) != len(want): print(f"part {k + 1}: {len(got)} paragraphs came back, {len(want)} expected; not stored"); sys.exit(1)
-st.setdefault("tr", {}); st["tr"].update({str(n): t for n, t in zip(want, got)}); st["done"][str(k)] = time.strftime("%H:%M:%S")
+st.setdefault("tr", {}); st["tr"].update({str(n): t for n, t in zip(want, got)}); st["done"][str(k)] = time.strftime("%H:%M:%S"); st.setdefault("engine", {})[str(k)] = a.engine
 if len(st["done"]) == len(st["parts"]):
     problem = finish(st); st["finished" if not problem else "failed"] = problem or True
     print(f"{st['id']}: all {len(st['parts'])} parts back; " + ("WRITTEN" if not problem else f"NOT written: {problem}"))
