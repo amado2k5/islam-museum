@@ -18,5 +18,5 @@ On rapporte qu’un homme de Zubayd vint à La Mecque avec des marchandises. Al-
 ## Ce qui n’est pas traité ici
 Ce chapitre ne traite ni de sa position envers l’appel après le début de la mission prophétique, ni de ce que les commentateurs disent des passages coraniques révélés à son sujet, ni du fait qu’il était le père d’Amr ibn al-As. Ces points sont traités à leur place.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Al-As ibn Wa’il était un marchand des Quraysh qui prit les marchandises d’un étranger sans les payer. Les gens de bien de La Mecque s’en indignèrent et conclurent un pacte pour rendre leurs droits à leurs propriétaires.

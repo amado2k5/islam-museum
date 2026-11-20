@@ -20,5 +20,5 @@ Al-Abbas le fit monter derrière lui et le conduisit au Prophète ; [[person/uma
 ## Revue des bataillons et amnistie
 Al-Abbas demanda au Prophète d’honorer Abu Sufyan pour sa place parmi les siens, et le Prophète dit : « Quiconque entre dans la maison d’Abu Sufyan est en sécurité ; quiconque ferme sa porte sur lui est en sécurité ; quiconque entre dans la mosquée est en sécurité » {cite:ibn-hisham-saqqa 4/46}. Abu Sufyan fut retenu dans le passage étroit de la vallée tandis que les bataillons tribaux défilaient sous leurs bannières, jusqu’au passage du bataillon vert avec le Prophète et ses compagnons en armure. Impressionné, il partit proclamer l’amnistie aux Quraysh {cite:ibn-hisham-saqqa 4/46-47}.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Le chef de La Mecque vint de nuit et vit les milliers de feux du camp ; il se soumit et déclara son islam au matin. Le Prophète l’honora en faisant de sa maison un refuge pour quiconque y entrerait à La Mecque.

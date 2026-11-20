@@ -3,7 +3,7 @@
 **Status:** open, approved by the founder 18 November 2026 (proposal `docs/delegation/spanish-language-proposal.md`).
 **Progress file:** `docs/delegation/spanish-progress.md`.
 **Queue:** `npx tsx scripts/es-queue.ts` emits manifests of records lacking Spanish.
-**Branch:** the lane works on `release/spanish` until the founder merges it to `main`; it runs in parallel with the `french` lane (`docs/agents/lanes/french.md`).
+**Branch:** `main`. The lane worked on `release/spanish` until 19 November 2026; that day the founder had it merged into `main` and ruled that no pull request is raised against `release/spanish` any more, by any session or agent; it runs in parallel with the `french` lane (`docs/agents/lanes/french.md`).
 
 ## What this lane does
 
@@ -20,13 +20,13 @@ Brings Spanish (`es`) to full parity with Arabic, English, Urdu and French: `i18
 
 - **From 19 November 2026 (founder's instruction): translation goes through Google Translate document files, not a local or cloud model.** The procedure, the file format, the measured limits and the rules for the browser step are in `docs/engineering/63-translation-by-document-files.md` (`scripts/local-mt/build_gt.py`, `import_gt.py`, `gt_round.sh`, `ship_gt.sh`). The local model (TranslateGemma 27B, `translate.py`, `run.sh`) is stopped; its scripts stay as a fallback.
 - **Always from English**, for every class (this replaces the Arabic pivot for the sacred classes written above). The Qur'an passage pages stay held: no Spanish Qur'an translation source is chosen.
-- Everything, French included, is raised and merged against `release/spanish` only.
+- Every pull request, French included, is raised against `main` only (founder's instruction, 19 November 2026; before that day this lane raised against `release/spanish`).
 - Logs, lists and the model are on the microSD: `/Volumes/exmicroSD/islam-museum-local-mt/`.
 
 ## Working beside the French lane
 
 - Never edit a French file: `i18n/fr.yaml`, `content/fr/`, `docs/agents/lanes/french.md`, `docs/delegation/french-progress.md`, `scripts/fr-queue.ts`.
-- `release/french` is merged into `release/spanish` (one way, by pull request) before each Spanish pull request and whenever French lands a batch.
+- Until 19 November 2026 `release/french` was merged into `release/spanish` (one way, by pull request) before each Spanish pull request; from that day both lanes raise against `main`.
 - Where a line lists the languages, `es` is appended after `fr` and nothing else on the line changes.
 - On a shared `data/` record each lane adds only its own key (`label.fr`, `label.es`); a conflict is resolved by keeping both.
 

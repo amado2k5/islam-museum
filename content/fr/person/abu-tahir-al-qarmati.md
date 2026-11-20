@@ -24,5 +24,5 @@ Chez Ibn al-Athir, il entra à Koufa en 312 H, après avoir demandé Bassora et 
 
 Chez Ibn al-Jawzi, il entra à Bassora avant l'aube, en rabi al-akhir 311 H, avec environ mille sept cents hommes, au moyen d'échelles dressées contre les remparts. Il passa ses habitants au fil de l'épée, incendia al-Mirbad, démolit la mosquée et y resta dix-sept jours. {cite:muntazam-ibn-al-jawzi p.466}
 
-## Pour les Chercheurs
+## Notes pour les chercheurs
 - Les sources divergent sur l'année de l'attaque de Bassora et celle de son entrée à Koufa. Chaque récit est attribué ici à son auteur. Une seconde source est nécessaire.

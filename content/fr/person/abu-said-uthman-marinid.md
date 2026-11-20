@@ -20,5 +20,5 @@ Il envahit Tlemcen en 714 H et l'assiégea à al-Mal'ab. Sous son règne, son fi
 
 Ibn Khaldun décrit son État comme l'apogée des Banu Marin en matière de prospérité et de construction, et dit que la khutba fut prononcée en son nom en al-Andalus. Il mourut en 731 H et son fils Abu al-Hasan reçut l'allégeance. {cite:tarikh-ibn-khaldun-ibar}
 
-## Pour les Chercheurs
+## Notes pour les chercheurs
 - Il n'y a qu'une seule source. La conversion en 1331 ap. J.-C. est dérivée et nécessite une seconde source.

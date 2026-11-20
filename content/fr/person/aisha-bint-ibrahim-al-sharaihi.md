@@ -21,5 +21,5 @@ Elle transmit abondamment ; plusieurs personnes, dont Ibn Nasir al-Din, l’éco
 ## Sa mort
 Elle mourut le mercredi 16 Safar 842 H et fut inhumée au cimetière de Bab Tuma à Damas. {cite:alam-al-nisa-kahhala-risala-1984-v3 p.8}
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Aïcha était une savante du hadith de Damas qui étudia dans de nombreuses villes ; des élèves venaient lui lire des recueils de hadiths.

@@ -15,7 +15,7 @@ Aktham ibn Sayfi al-Tamimi, connu dans la tradition littéraire comme le sage de
 ## Dans Nihayat al-Arab
 La notice marginale d’al-Nuwayri décrit Aktham ibn Sayfi comme le sage des Arabes préislamiques et l’un des mu’ammarun : il vécut jusqu’à l’époque islamique et se dirigea vers Médine avec cent membres de son peuple qui souhaitaient devenir musulmans, mourant en chemin sans voir le Prophète {cite:nihayat-al-arab-nuwayri-vol3-scan p.11}. Le livre cite plusieurs de ses paroles proverbiales, dont « Si tu commets une injustice, crains la vengeance, car l’injustice ne te rapporte que son semblable » et « La prudence consiste à penser du mal des gens » {cite:nihayat-al-arab-nuwayri-vol3-scan p.11} {cite:nihayat-al-arab-nuwayri-vol3-scan p.15}.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Aktham ibn Sayfi était un célèbre sage arabe préislamique dont la sagesse devint proverbiale ; il partit pour Médine afin d’embrasser l’islam, mais mourut en chemin.
 
 ## Notes de recherche

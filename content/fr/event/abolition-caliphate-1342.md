@@ -21,6 +21,6 @@ Mustafa Kemal convoqua l’assemblée constituante le 3 mars 1924 de l’ère co
 ## L’écho dans le monde islamique
 La consternation se répandit dans le monde islamique. Ahmad Shawqi pleura le califat ; il avait auparavant fait l’éloge de Mustafa Kemal et l’avait comparé à Khalid ibn al-Walid. {cite:dawlat-uthmaniyya-salabi p. 473}
 
-## Pour les Chercheurs
+## Notes pour les chercheurs
 - Cette notice repose sur la synthèse qu’al-Sallabi donne dans son ouvrage « al-Dawla al-Uthmaniyya ». Il s’agit d’une référence moderne qui présente sa propre lecture des événements. Nous ne sommes pas encore revenus aux procès-verbaux de l’Assemblée nationale ni aux sources primaires.
 - La qualification du califat de « tumeur » et la décision d’exil sans débat sont rapportées par al-Sallabi d’après ses sources ; nous ne les avons pas vérifiées dans les procès-verbaux de l’Assemblée.

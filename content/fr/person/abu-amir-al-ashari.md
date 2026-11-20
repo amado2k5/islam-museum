@@ -17,5 +17,5 @@ Abu Amir al-Ash'ari menait le détachement à Awtas ; neuf frères des chefs des
 
 Lorsque la nouvelle parvint au Prophète, il demanda de l'eau, fit ses ablutions, leva les mains jusqu'à ce que paraisse le blanc de ses aisselles et dit : « Ô Dieu, pardonne à Ton serviteur Abu Amir, et place-le au Jour de la Résurrection au-dessus de beaucoup de Tes créatures parmi les hommes » {cite:ibn-hisham-saqqa 4/98}.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Un commandant courageux qui mena héroïquement le détachement musulman ; frappé d'une flèche, il demanda à son neveu de poursuivre le commandement, et le Prophète demanda pardon pour lui et pria pour qu'il reçoive les plus hauts rangs du Paradis.

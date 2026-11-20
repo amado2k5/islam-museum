@@ -18,5 +18,5 @@ Lorsque la construction atteignit l'emplacement de la Pierre noire, les tribus s
 ## Ce qui n'est pas consigné ici
 Al-Rahiq al-Makhtum ne donne ici ni son lignage complet, ni sa qualité de père d'Umm Salama, épouse du Prophète, ni son titre « Zad al-Rakib ». La fiche du livre Nisa' hawl al-Rasul y renvoie (p. 93), mais le texte n'a pas encore été lu ; ces éléments seront donc complétés à partir de celui-ci.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Alors que les Mecquois risquaient de se battre pour poser la Pierre noire, Abu Umayya proposa de prendre comme arbitre le premier à entrer dans la mosquée. Muhammad entra, et tous acceptèrent son jugement.

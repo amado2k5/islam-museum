@@ -17,7 +17,7 @@ Au moment de la prière d’isha, la maladie s’aggrava et le Prophète ne put 
 
 Le samedi ou le dimanche, le Prophète ressentit quelque soulagement et sortit entre deux hommes pour la prière de midi, tandis qu’Abu Bakr dirigeait la prière. Abu Bakr voulut reculer, mais le Prophète lui fit signe de ne pas le faire et se fit asseoir à sa gauche. Abu Bakr suivit la prière du Prophète, tandis que les gens entendaient le takbir {cite:mubarakpuri-raheeq p.467؛ sahih-al-bukhari}.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Dans les derniers jours de sa maladie, le Prophète demanda à Abu Bakr de diriger la prière des gens. Une fois, il sortit et pria assis à ses côtés.
 
 ## Le récit détaillé d’Ibn Ishaq

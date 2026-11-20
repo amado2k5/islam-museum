@@ -25,5 +25,5 @@ Il entra ensuite auprès d’[[person/ali-ibn-abi-talib|Ali]], qui lui conseilla
 ## Portée
 La dernière médiation qurayshite avait échoué ; il ne restait aux Quraysh qu’à attendre la suite {cite:ibn-hisham-saqqa 4/39}. Dans le même récit, Ibn Hisham précise que la formule « l’ennemi le plus hostile » dans le discours d’Abu Sufyan aux Quraysh provient d’un autre qu’Ibn Ishaq {cite:ibn-hisham-saqqa 4/39}.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Abu Sufyan vint à Médine, inquiet, pour demander le renouvellement du traité de paix. Personne ne lui répondit comme il le souhaitait ; il proclama donc sa propre sécurité dans la mosquée et repartit à La Mecque les mains vides.

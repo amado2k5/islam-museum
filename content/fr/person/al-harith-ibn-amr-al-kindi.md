@@ -18,5 +18,5 @@ Al-Harith ibn Amr ibn Hujr al-Kindi, des [[group/kinda|Kinda]], que Qubadh ibn F
 ## Ce qui n’est pas consigné ici
 Al-Rahiq al-Makhtum ne mentionne ici ni le royaume de Kinda dans le Najd ni l’affaire d’al-Harith avec les Banu Asad.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Al-Harith al-Kindi gouverna al-Hira pendant une courte période sur l’ordre du roi de Perse, puis s’enfuit au changement de roi.

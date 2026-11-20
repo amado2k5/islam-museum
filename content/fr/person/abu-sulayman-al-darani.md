@@ -33,7 +33,7 @@ Il avait deux sœurs, [[person/abda-sister-of-abu-sulayman-al-darani|Abda]] et A
 ## Sa mort
 Il mourut en 205 H ; Abu Abd al-Rahman al-Sulami donne 215, mais Ibn al-Jawzi juge la première date plus juste. {cite:sifat-al-safwa-tartusi-2012 p.822} L'Encyclopédie koweïtienne du fiqh donne les deux : 215 d'après Sa'id ibn Hamdun, al-Sulami et Abu Ya'qub al-Qurrab, et 205 d'après son disciple Ahmad ibn Abi al-Hawari. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17456}
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Abu Sulayman était un ascète du village de Daraya, près de Damas, qui aimait prier la nuit et disait qu'un peu de faim rend le cœur doux et clair.
 
 ## Dans Hilyat al-Awliya

@@ -21,7 +21,7 @@ Il mourut un samedi soir et fut enterré le dimanche, sept jours avant la fin de
 ## Le théologien et diplomate
 La notice de McCarthy dans l’Encyclopédie de l’Islam indique que la date de naissance d’al-Baqillani est inconnue, qu’il naquit à Bassora et passa l’essentiel de sa vie adulte à Bagdad, que des visites à Chiraz et à la cour byzantine sont mentionnées — en 369 H/980, il porta de sa propre main la réponse d’Adud al-Dawla à une ambassade byzantine — et qu’il exerça un temps la charge de cadi hors de la capitale {cite:encyclopaedia-of-islam-2 vol. 1 p. 233, 1018}. Le cadi Iyad répertoria cinquante-deux de ses œuvres, dont six subsistent : l’I’jaz al-Qur’an, classique sur son sujet ; le Tamhid, plus ancien manuel complet de polémique théologique ; al-Insaf ; les Manaqib sur l’imamat ; l’Intisar sur l’intégrité textuelle du Coran ; et al-Bayan sur le miracle apologétique {cite:encyclopaedia-of-islam-2 vol. 1 p. 1018}.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Al-Baqillani fut un grand théologien du IVe siècle H de l’école ash’arite, qui écrivit de nombreux livres et mourut à Bagdad en 403 H.
 
 ## Notes de recherche

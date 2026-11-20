@@ -18,5 +18,5 @@ Al-Rahiq al-Makhtum compte dix fils à Abd al-Muttalib : al-Harith, al-Zubayr, A
 ## Ce qui n’est pas consigné ici
 Al-Rahiq al-Makhtum ne dit rien ici de sa vie, de sa religion ou de sa mort. Seuls les propos du livre sont consignés ici ; ce que disent les ouvrages biographiques et généalogiques nécessite une source à lire et à citer.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Abd al-Muttalib, grand-père du Prophète, avait de nombreux fils et filles ; al-Harith était l’un d’eux, et donc l’un des oncles et tantes du Prophète.

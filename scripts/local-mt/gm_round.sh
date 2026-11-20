@@ -2,7 +2,7 @@
 # Arabic-only records through Google Gemini in the browser (founder's suggestion, 19 November 2026): the agent uploads
 # one small Word file in Gemini's Task tab and saves the answer's code block as ~/Downloads/gm-<lang>-<nnn>.txt.
 #   sh scripts/local-mt/gm_round.sh finish <lang> <n>   import batch n, then build batch n+1 (prints its name, or "nothing left")
-#   sh scripts/local-mt/gm_round.sh ship <lang> <label> validate, commit, pull request into release/spanish, merge
+#   sh scripts/local-mt/gm_round.sh ship <lang> <label> validate, commit, pull request into main, merge
 # Founder's rules: one upload at a time, at least a minute apart. Source language: LOCAL_MT_SRC (default ar).
 H="${LOCAL_MT_HOME:-/Volumes/exmicroSD/islam-museum-local-mt}"; P="${LOCAL_MT_PYTHON:-python3}"; UP="${LOCAL_MT_UPLOAD_DIR:-$H/gt}"
 L="$2"; SRC="${LOCAL_MT_SRC:-ar}"; IDS="${LOCAL_MT_IDS:-$H/ids-$L-from-$SRC.txt}"; CHARS="${LOCAL_MT_GM_CHARS:-30000}"

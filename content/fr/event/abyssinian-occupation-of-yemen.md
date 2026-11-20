@@ -24,5 +24,5 @@ Une fois son pouvoir consolidé au Yémen, Abraha se mit à diffuser le christia
 ## La fin
 Après la bataille de l’Éléphant, les Yéménites firent appel aux Perses et résistèrent aux Abyssins jusqu’à les chasser du pays. Ils obtinrent leur indépendance en 575 de l’ère commune sous Ma'd Yakrib ibn Sayf Dhi Yazan {cite:mubarakpuri-raheeq p.25}. Voir [[event/persian-rule-of-yemen|la libération du Yémen et la domination perse]].
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 L’Abyssinie punit le roi du Yémen pour avoir brûlé des chrétiens et occupa le pays. Puis le commandant Abraha se retourna contre leur dirigeant et prit sa place.

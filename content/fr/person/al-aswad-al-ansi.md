@@ -20,5 +20,5 @@ Les Abna’ persans du Yémen s’entendirent ensuite contre lui avec sa maison 
 ## Importance
 Il gouverna le Yémen pendant des semaines sans laisser ni religion ni État — exemple représentatif de la manière dont les mouvements de la Ridda s’embrasèrent et s’éteignirent en fonction du chef qui les rassemblait, non de leur doctrine.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Un homme gouverna le Yémen quelques semaines en revendiquant la prophétie ; puis ses proches vinrent le tuer dans la nuit.

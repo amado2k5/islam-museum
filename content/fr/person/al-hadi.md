@@ -18,7 +18,7 @@ Al-Mahdi le fit reconnaître comme héritier en 159 H, suivi de Harun al-Rashid 
 ## Sa mort
 Il mourut en rabi’ al-akhar 170 H ; les récits de la cause diffèrent : chute d’une berge avec un compagnon de boisson au cours de laquelle une tige de roseau le pénétra ; abcès interne ; ou empoisonnement par sa mère al-Khayzuran lorsqu’il résolut de faire passer son fils avant son frère al-Rashid {cite:tarikh-khulafa-minhaj-1434 p.451-452}. Il laissa sept fils {cite:tarikh-khulafa-minhaj-1434 p.452}.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Al-Hadi fut le quatrième calife abbasside ; il régna environ un an, de 169 à 170 H, et son frère Harun al-Rashid lui succéda.
 
 ## Notes de recherche

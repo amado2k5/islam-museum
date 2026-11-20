@@ -1,8 +1,8 @@
 #!/bin/sh
 # Ships what the local translation threads have written so far: validate, set aside any record the validator refuses,
-# update the counts, commit, push, open the pull request against release/spanish and merge it.
+# update the counts, commit, push, open the pull request against main and merge it.
 # Run from the repository root, on the Spanish feature branch:   sh scripts/local-mt/ship.sh
-# It never touches main and never raises against any branch but release/spanish (founder's instruction).
+# Since 19 November 2026 every pull request is raised against main only (founder's instruction); release/spanish is retired.
 HOME_DIR="${LOCAL_MT_HOME:-/Volumes/exmicroSD/islam-museum-local-mt}"
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 LOG=/tmp/local-mt-ship-validate.log
@@ -57,9 +57,9 @@ AI-Agent: Claude Code (managing a local model)
 AI-Model: translategemma:27b (translation); claude-fable-5-2 (management)
 AI-Editor: Claude desktop app
 Co-Authored-By: Claude Fable 5.2 <noreply@anthropic.com>" || exit 1
-git fetch -q origin; echo "french ahead: $(git rev-list --count origin/release/spanish..origin/release/french)  main ahead: $(git rev-list --count origin/release/spanish..origin/main)"
+git fetch -q origin; echo "french ahead: $(git rev-list --count origin/main..origin/release/french)  main ahead: $(git rev-list --count HEAD..origin/main)"
 git push -q origin "$BRANCH" || exit 1
-URL=$(gh pr create --base release/spanish --head "$BRANCH" --title "Local machine translation: $N records (es $ES, fr $FR)" --body "Into \`release/spanish\`; nothing goes to \`main\`. $N records translated from English on the founder's Mac by TranslateGemma 27B (\`scripts/local-mt/\`). Totals: \`content/es/\` $ES files, \`content/fr/\` $FR files. Every record passed the checks against its English source; not read by a human. \`npm run validate\`: 0 errors.
+URL=$(gh pr create --base main --head "$BRANCH" --title "Local machine translation: $N records (es $ES, fr $FR)" --body "Into \`main\` (founder's instruction of 19 November 2026). $N records translated from English on the founder's Mac by TranslateGemma 27B (\`scripts/local-mt/\`). Totals: \`content/es/\` $ES files, \`content/fr/\` $FR files. Every record passed the checks against its English source; not read by a human. \`npm run validate\`: 0 errors.
 
 🤖 Generated with [Claude Code](https://claude.com/claude-code)" | tail -1)
 echo "$URL"; gh pr merge "$URL" --merge > /dev/null 2>&1; gh pr view "$URL" --json state -q .state

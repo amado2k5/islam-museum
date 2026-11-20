@@ -22,5 +22,5 @@ Puis il dit : « Par Dieu, si vous l’aviez voulu, vous auriez pu dire — et v
 
 Les gens pleurèrent jusqu’à mouiller leurs barbes et dirent : nous sommes satisfaits d’avoir le Messager de Dieu pour part et pour lot. Puis le Prophète partit et ils se dispersèrent {cite:mubarakpuri-raheeq p. 421}.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Lorsque le Prophète donna beaucoup de cadeaux aux nouveaux chefs tribaux sans rien donner aux Ansar de Médine, ceux-ci furent un peu peinés. Il les réunit donc et dit : n’aimeriez-vous pas que les gens emportent les moutons et les chameaux tandis que vous me ramèneriez avec vous chez vous ? Ils pleurèrent de joie et dirent : nous sommes satisfaits de notre part.

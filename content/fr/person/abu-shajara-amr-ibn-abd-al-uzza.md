@@ -18,5 +18,5 @@ Al-Baladhuri dit qu'il commandait une troupe des Banu Sulaym à Jaw Qaraqir, ou,
 ## Après sa conversion
 Il embrassa ensuite l'islam et vint trouver [[person/umar-ibn-al-khattab|Umar ibn al-Khattab]] alors que celui-ci distribuait des dons aux pauvres, et lui demanda un don. Umar lui dit : « N'as-tu pas dit : “Le vent de l'armée de Khalid m'a frappé, et j'espère vivre après cela” ? », puis le frappa de son fouet. Il répondit : « L'islam a effacé cela, Commandeur des croyants. » {cite:futuh-buldan-maarif-1407 p.136}
 
-## Pour les Chercheurs
+## Notes pour les chercheurs
 - Les données ne précisent pas son année de décès ; une seconde source est nécessaire.

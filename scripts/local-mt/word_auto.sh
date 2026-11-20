@@ -1,7 +1,7 @@
 #!/bin/sh
 # Unattended translation through Word for Mac (founder's instruction, 19 November 2026): for each file, click
 # Translate in Word's Translator panel, wait for the translated copy, then word_round.sh saves, imports, ships to
-# release/spanish, deletes the Word files and opens the next file. Runs until the language has nothing left.
+# main, deletes the Word files and opens the next file. Runs until the language has nothing left.
 #   sh scripts/local-mt/word_auto.sh <es|fr> <first n>      (the file n must already be open: word_round.sh start)
 # The Mac must be left alone while it runs: Word has to stay in front. Stop: touch <home>/STOP-word
 H="${LOCAL_MT_HOME:-/Volumes/exmicroSD/islam-museum-local-mt}"; P="${LOCAL_MT_PYTHON:-python3}"; L="$1"; N="$2"

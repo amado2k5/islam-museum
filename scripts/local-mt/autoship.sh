@@ -1,6 +1,6 @@
 #!/bin/sh
 # Hourly shipping of the local translation output (founder's instruction, 18 November 2026): runs
-# scripts/local-mt/ship.sh once an hour so release/spanish always carries what has been translated, even when no
+# scripts/local-mt/ship.sh once an hour so main always carries what has been translated, even when no
 # Claude session is open. One instance only; a lock keeps it apart from a manual ship.
 #
 #   nohup sh scripts/local-mt/autoship.sh > /dev/null 2>&1 &

@@ -24,7 +24,7 @@ Il aurait dit que celui qui aime être connu ou mentionné pour une bonne action
 ## Transmission et mort
 Il transmit d'après [[person/hafs-ibn-ghiyath|Hafs ibn Ghiyath]], Abu Mu'awiya, [[person/waki-ibn-al-jarrah|Waki']] et leurs pairs, et mourut en 230 H. {cite:sifat-al-safwa-tartusi-2012 p.824}
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Ahmad ibn Abi al-Hawari était un homme de bien de Damas, élève de l'ascète Abu Sulayman, qui méditait les versets du Coran jusqu'à en oublier de dormir.
 
 ## Dans Hilyat al-Awliya

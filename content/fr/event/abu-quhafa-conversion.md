@@ -17,5 +17,5 @@ Abu Quhafa était un vieillard aveugle qui, le jour de la conquête, monta sur l
 
 Abu Bakr le prit par la main et l’amena au Prophète. En le voyant, le Prophète dit : « Pourquoi n’as-tu pas laissé le cheikh chez lui jusqu’à ce que nous allions nous-mêmes auprès de lui ? » Abu Bakr répondit : « Messager de Dieu, il convient davantage qu’il marche vers toi que toi vers lui » {cite:ibn-hisham-saqqa 4/48}. Le Prophète le fit asseoir devant lui, lui caressa la poitrine et il devint musulman. Sa tête était blanche comme une touffe de thaghama, et le Prophète dit : « Changez la couleur de ses cheveux et évitez le noir » {cite:ibn-hisham-saqqa 4/48}.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Abu Bakr amena son père âgé et aveugle auprès du Prophète pour déclarer son islam. Avec douceur et respect pour son âge, le Prophète dit : il aurait mieux convenu que nous allions chez lui pour lui épargner la marche.

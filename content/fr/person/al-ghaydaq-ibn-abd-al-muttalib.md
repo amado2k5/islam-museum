@@ -21,5 +21,5 @@ Le livre mentionne une opinion selon laquelle les fils d’Abd al-Muttalib étai
 ## Ce qui n’est pas consigné ici
 Al-Rahiq al-Makhtum ne dit rien ici de sa vie, de sa religion ou de sa mort. Seul ce que dit le livre est consigné ici ; ce qu’en disent les ouvrages biographiques et généalogiques nécessite une source à lire et à citer.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Abd al-Muttalib, grand-père du Prophète, avait de nombreux fils et filles. Al-Ghaydaq était l’un d’eux ; il faisait donc partie des oncles et tantes du Prophète.

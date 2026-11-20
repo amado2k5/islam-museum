@@ -18,8 +18,8 @@ Le livre consigne les événements qui suivirent : menace de combat des Quraysh,
 ## Le rassemblement
 Il se leva parmi les siens, des Banu Hashim et des Banu al-Muttalib ibn Abd Manaf, et les appela à protéger son neveu. Tous répondirent, sauf Abu Lahab {cite:mubarakpuri-raheeq p.108}.
 
-## Pour les Chercheurs
+## Notes pour les chercheurs
 - Le livre lit le verset cité comme une allusion à un accord pour tuer. Il s’agit de l’interprétation de l’auteur.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Abu Talib craignait que les polythéistes ne tuent son neveu, le Prophète. Il réunit donc sa famille des Banu Hashim et des Banu al-Muttalib pour le protéger avec lui. Tous acceptèrent, sauf Abu Lahab.

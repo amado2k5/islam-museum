@@ -23,7 +23,7 @@ export function prosePerspectiveIssues(body: string): Omit<Issue, "file">[] {
       return entry ? [entry.label.toLowerCase()] : [];
     });
     const frenchSunni = labels.length > 0 && /\bsunnites?\b/u.test(labels[0]) && !/\bnon[\s\-‐‑]+sunnites?\b/u.test(labels[0]);
-    const spanishSunni = labels.length > 0 && /^(?:(?:visión|posición|postura|opinión) )?sunn?í/u.test(labels[0]);
+    const spanishSunni = labels.length > 0 && /(?<![\p{L}])sunn?í(?:es)?(?![\p{L}])/u.test(labels[0]) && !/(?<![\p{L}])no[\s\-‐‑]+sunn?í/u.test(labels[0]);
     if (labels.length && !(labels[0].startsWith("sunni") || labels[0].includes("أهل السنة") || labels[0].startsWith("سني") || frenchSunni || spanishSunni)) {
       issues.push({ level: "error", msg: "the perspectives block must start with the Sunni entry (docs/scope.md)" });
     }

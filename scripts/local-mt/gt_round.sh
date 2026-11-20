@@ -2,7 +2,7 @@
 # One round of the Google Translate document flow (founder's instructions, 19 November 2026): one English Word file,
 # translated once into Spanish and once into French in the browser. This script takes over after each download.
 #   sh scripts/local-mt/gt_round.sh got <n> <es|fr>     move the fresh download aside (both downloads share one name)
-#   sh scripts/local-mt/gt_round.sh finish <n> [bytes]  import both, ship to release/spanish, record, delete, build n+1
+#   sh scripts/local-mt/gt_round.sh finish <n> [bytes]  import both, ship to main, record, delete, build n+1
 H="${LOCAL_MT_HOME:-/Volumes/exmicroSD/islam-museum-local-mt}"; P="${LOCAL_MT_PYTHON:-python3}"; UP="${LOCAL_MT_UPLOAD_DIR:-$H/gt}"
 N=$(printf '%03d' "$2"); NAME="gt-$N"; mkdir -p "$H/gt/dl"
 if [ "$1" = got ]; then

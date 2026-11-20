@@ -18,5 +18,5 @@ Il se situe entre أُبيّ بن قموال et أُبيّ dans la chaîne « Ad
 ## Ce que disent les généalogistes
 Les savants de la sira et de la généalogie divisent la lignée du Prophète en trois : une partie reconnue comme sûre jusqu’à Adnan, une partie discutée entre ceux qui suspendent leur jugement et ceux qui l’affirment d’Adnan jusqu’à Ibrahim, et une partie au-delà d’Ibrahim jusqu’à Adam qui contient assurément des éléments non fiables {cite:mubarakpuri-raheeq p.48-49}. Ce maillon appartient à la deuxième partie, et de nombreux généalogistes s’arrêtent à Ma’add ibn Adnan sur la foi du récit « les généalogistes mentent » — voir [[concept/waqf-al-nasab-inda-maadd|Arrêter la généalogie à Ma’add]].
 
-## Pour les Petits
+## Pour les plus jeunes visiteurs
 Al-Awwam ibn Ubayy est un nom dans la chaîne des ancêtres du Prophète entre Adnan et Ismail ; les savants ne confirment pas cette partie de la lignée parce que les récits divergent.

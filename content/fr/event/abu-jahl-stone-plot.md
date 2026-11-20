@@ -15,5 +15,5 @@ provenance:
 ## Contexte
 Le livre dit qu’Abu Jahl continua ensuite à harceler le Prophète, ce qui mena à la conversion de [[person/hamza|Hamza]], comme le récit le dira. {cite:mubarakpuri-raheeq p.99} Le livre rapporte aussi qu’Abu Jahl dit qu’un fossé de feu et des ailes le séparaient du Prophète, si bien que les anges l’emporteraient s’il s’approchait. {cite:mubarakpuri-raheeq p.89}
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Abu Jahl voulait tuer le Prophète avec une pierre pendant sa prosternation. En approchant, il vit un immense chameau et s’enfuit. Le Prophète dit qu’il s’agissait de Gabriel.

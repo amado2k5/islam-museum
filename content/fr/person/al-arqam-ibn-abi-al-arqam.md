@@ -18,7 +18,7 @@ Le livre le mentionne avec [[person/abu-salama|Abu Salama ibn Abd al-Asad]], les
 ## Ce qui n’est pas traité ici
 Ce chapitre du livre ne dit rien de lui au-delà de son entrée précoce dans l’islam. Les autres récits le concernant sont complétés à leur place dans le livre et dans d’autres sources.
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Al-Arqam fut l’un des premiers musulmans. Sa maison devint ensuite le lieu où le Prophète rencontrait secrètement ses Compagnons.
 
 ## Le récit de l’Encyclopédie de l’Islam

@@ -1,6 +1,6 @@
 # 63. Translating prose in bulk through Google Translate document files
 
-Founder's instruction, 19 November 2026 (branch `release/spanish`): the remaining Spanish and French prose is
+Founder's instruction, 19 November 2026 (done on branch `release/spanish`, merged into `main` the same day; pull requests go to `main` only from then on): the remaining Spanish and French prose is
 translated by uploading Word files to Google Translate's document translation in a browser, not by a local model and
 not by a cloud AI model. This page records how it is done and what was measured, so no session has to find it out again.
 
@@ -34,7 +34,7 @@ One round is one English Word file, translated once into Spanish and once into F
    first is moved aside). Repeat with `tl=fr` and `got <n> fr`.
 3. **Import and ship** — `sh scripts/local-mt/gt_round.sh finish <n> 2050000` runs `import_gt.py` for both languages,
    validates (`npm run validate`, 0 errors; a record the validator refuses is set aside), commits, opens the pull
-   request against `release/spanish`, merges it, writes one line per language to `gt/tracker.tsv`, deletes the
+   request against `main` (it was `release/spanish` until 19 November 2026), merges it, writes one line per language to `gt/tracker.tsv`, deletes the
    uploaded and the downloaded files, and builds the next file.
 
 Founder's rules for the browser step: wait at least one minute between uploads; if Google refuses a file, do not

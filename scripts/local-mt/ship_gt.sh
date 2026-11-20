@@ -1,8 +1,8 @@
 #!/bin/sh
 # Ships records imported from a Google Translate document: validate, set aside any record the validator refuses,
-# update the counts, commit, merge release/spanish in, push, open the pull request against release/spanish, merge it.
+# update the counts, commit, merge main in, push, open the pull request against main, merge it.
 #   sh scripts/local-mt/ship_gt.sh "<file name, e.g. gt-es-001>"
-# It never touches main and never raises against any branch but release/spanish (founder's instruction).
+# Since 19 November 2026 every pull request is raised against main only (founder's instruction); release/spanish is retired.
 HOME_DIR="${LOCAL_MT_HOME:-/Volumes/exmicroSD/islam-museum-local-mt}"; WHAT="$1"
 ENGINE="${GT_ENGINE_LABEL:-Google Translate document}"; SITE="${GT_ENGINE_WHERE:-on translate.google.com (document translation)}"; MODEL="${GT_ENGINE_MODEL:-google-translate}"
 BRANCH=$(git rev-parse --abbrev-ref HEAD); LOG=/tmp/local-mt-ship-validate.log; round=0; VALNOTE="0 errors"
@@ -59,9 +59,9 @@ AI-Model: $MODEL (translation); claude-fable-5-2 (management)
 AI-Editor: Claude desktop app
 Co-Authored-By: Claude Fable 5.2 <noreply@anthropic.com>" || exit 1
 git fetch -q origin; git merge -q --no-edit "origin/$BRANCH" 2>/dev/null  # another session may have pushed a merge onto this branch
-git merge -q --no-edit origin/release/spanish || { echo "MERGE CONFLICT with release/spanish"; exit 1; }
+git merge -q --no-edit origin/main || { echo "MERGE CONFLICT with main"; exit 1; }
 git push -q origin "$BRANCH" || exit 1
-URL=$(gh pr create --base release/spanish --head "$BRANCH" --title "$ENGINE $WHAT: $N records (es $ES, fr $FR)" --body "Into \`release/spanish\`; nothing goes to \`main\`. $N records translated from English $SITE and imported by \`scripts/local-mt/import_gt.py\`. Totals: \`content/es/\` $ES files, \`content/fr/\` $FR files. Every record passed the checks against its English source; not read by a human. \`npm run validate\`: $VALNOTE.
+URL=$(gh pr create --base main --head "$BRANCH" --title "$ENGINE $WHAT: $N records (es $ES, fr $FR)" --body "Into \`main\` (founder's instruction of 19 November 2026). $N records translated from English $SITE and imported by \`scripts/local-mt/import_gt.py\`. Totals: \`content/es/\` $ES files, \`content/fr/\` $FR files. Every record passed the checks against its English source; not read by a human. \`npm run validate\`: $VALNOTE.
 
 🤖 Generated with [Claude Code](https://claude.com/claude-code)" | tail -1)
 echo "$URL"; sleep 8; gh pr merge "$URL" --merge > /dev/null 2>&1 || { sleep 20; gh pr merge "$URL" --merge > /dev/null 2>&1; }; gh pr view "$URL" --json state -q .state

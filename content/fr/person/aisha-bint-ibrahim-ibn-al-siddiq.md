@@ -21,5 +21,5 @@ Elle entendit les hadiths d’Abu al-Fadl ibn Asakir et d’autres maîtres, pui
 ## Sa mort
 Elle mourut en Joumada al-Oula 741 H. {cite:alam-al-nisa-kahhala-risala-1984-v3 p.8}
 
-## Pour les Petits
+## Pour les jeunes visiteurs
 Aïcha était une femme de Damas qui connaissait le Coran par cœur et l’enseignait aux femmes jusqu’à ce qu’elles l’achèvent ; son mari était un grand savant du hadith.
