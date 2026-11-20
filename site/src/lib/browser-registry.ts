@@ -71,6 +71,6 @@ export const BROWSER_ROWS: Record<string, readonly Row[]> = {
   halal: halalItems, hasanat: hasanatItems, hisab: hisabItems, hudud: hududItems, ibadat: ibadatItems, "islamic-economy": ieItems,
   janna: jannaItems, madhahib: madhahibItems, umam: umamItems, ulama: ulamaItems, magic: magicItems, cosmos: cosmosItems, qiraat: qiraatItems, wasaya: wasayaItems, messengers: messengerItems, miracles: miracleItems,
   mukatabat: mukatabatItems, munazarat: munazaratItems, ritha: rithaItems, nar: narItems, nature: natureItems, nubuwat: nubuwatItems, places: placesItems,
-  juha: juhaItems, mukatabat: mukatabatItems, munazarat: munazaratItems, nar: narItems, nature: natureItems, nubuwat: nubuwatItems, places: placesItems,
+  juha: juhaItems,
   qiyama: qiyamaItems, qurun: qurunItems, sayyiat: sayyiatItems, trade: tradeItems, "signs-all": eschItems, signs: signItems, usra: usraItems, ukhuwwa: ukhuwwaItems, bunuwwa: bunuwwaItems, umuma: umumaItems, ubuwwa: ubuwwaItems, tibb: tibbItems, ansab: ansabSubjects, battles: battleNodes.map((node) => ({ node })), fatwa: fatwas.map((node) => ({ node })),
 };
