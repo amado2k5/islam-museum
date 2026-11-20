@@ -204,7 +204,7 @@ for (const book of BOOKS) {
       ...LANGS5.map((l) => `  ${l}: ${q(summary[l])}`),
       `relations:`,
       `  - { type: mentions, target: ${RITHA_ANCHOR_RECORD}, sources: ${src} }`,
-      `provenance: { layer: own-research, source: ${q(`Apple Vision OCR of the scan ${book.dir}/${c.scan}, page ${c.page}; a window of at most 40 words chosen by the elegy and death-announcement detector (scripts/ritha.ts); OCR text not corrected; label and summary in five languages written from fixed wording per kind`)}, generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-ocr-1" }`,
+      `provenance: { layer: own-research, source: ${q(`Apple Vision OCR of the scan ${book.dir}/${c.scan.replace(/\(([^()]*[\u0600-\u06FF][^()]*)\)/g, "\u2066($1)\u2069")}, page ${c.page}; a window of at most 40 words chosen by the elegy and death-announcement detector (scripts/ritha.ts); OCR text not corrected; label and summary in five languages written from fixed wording per kind`)}, generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-ocr-1" }`,
       `sources: ${src}`,
       `status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words; the excerpt is machine-read and not corrected" }`,
       ``,
