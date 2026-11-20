@@ -1,0 +1,25 @@
+---
+id: passage/quran-3-143
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-3-143.md}
+---
+## Résumé
+Verset 143 de [[passage/quran-3|la sourate Al 'Imran]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 143 sur 200 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Signification (p. 248).** Abou Ja'far rapporte que Dieu dit aux Compagnons de Muhammad qu'ils désiraient la mort, c'est-à-dire le combat, et qu'ils avaient maintenant vu ce qu'ils désiraient. Le pronom renvoie à la mort et le sens est le combat, et le fait de regarder signifie qu'ils l'ont vu de près. L'éditeur indique que le texte imprimé contenait une phrase corrompue et que le manuscrit présentait un blanc de la taille d'un mot ; il a donc mis entre parenthèses ce qu'il a compris des propos d'Abou Ja'far. Certains grammairiens ont soutenu que la mention de regarder servait à insister, comme on dit « Je l'ai vu clairement » ou « Je l'ai vu de mes propres yeux ». Selon al-Tabari, certains Compagnons qui avaient manqué Badr souhaitaient, avant Uhud, un jour semblable à Badr pour faire leurs preuves et obtenir une récompense semblable à celle des habitants de Badr. Lorsque Uhud arriva, certains s'enfuirent et d'autres restèrent fermes jusqu'à ce qu'ils aient accompli leur promesse envers Dieu. Alors, Il réprimanda ceux qui avaient fui et loua ceux qui étaient restés fermes et avaient tenu leur promesse. {cite:tafsir-tabari-shakir-v07 p. 248}
+
+**Rapports (pp. 248-250).**
+- Muhammad ibn Amr, d'après Abu Asim, d'après Isa, d'après Ibn Abi Najih, d'après Mujahid (7930) : des hommes étaient absents de Badr et souhaitaient y vivre un jour semblable pour obtenir les bienfaits et la récompense des habitants de Badr ; à Uhud, certains firent demi-tour et Dieu les réprimanda pour cela. Abu Asim hésitait quant au verbe exact parmi trois versions proches. Al-Muthanna, d'après Abu Hudhayfa, d'après Shibl, d'après Ibn Abi Najih, d'après Mujahid (7931), rapporte la même chose, à ceci près qu'il retient sans hésitation le verbe « réprimander ». {cite:tafsir-tabari-shakir-v07 p. 248}
+- Bishr, d'après Yazid, d'après Sa'id, d'après Qatada (7932) : certains croyants n'étaient pas allés à Badr et avaient vu ce que Dieu avait accordé aux habitants de Badr en faveur, honneur et récompense ; ils souhaitèrent donc un combat ; le combat leur fut proposé aux abords de Médine, à Uhud, et Dieu parla comme vous l'entendez, jusqu'au verset sur les reconnaissants ([[passage/quran-3-144|3:144]]). {cite:tafsir-tabari-shakir-v07 p. 249}
+- Al-Hasan ibn Yahya d'après Abd al-Razzaq d'après Ma'mar d'après Qatada (7933) : ils souhaitaient rencontrer les polythéistes et les combattre, et lorsqu'ils se rencontrèrent à Uhud, ils firent demi-tour. {cite:tafsir-tabari-shakir-v07 p. 249}
+- Al-Muthanna d'après Ishaq d'après Ibn Abi Ja'far d'après son père d'après al-Rabi' (7934) : comme le rapport de Qatada. {cite:tafsir-tabari-shakir-v07 p. 249}
+- Muhammad ibn Bashshar, d'après Hawdha, d'après Awf, d'après al-Hasan (7935) : il lui parvint que certains Compagnons disaient que s'ils rencontraient l'ennemi avec le Prophète, ils feraient telle ou telle chose ; ils furent mis à l'épreuve par cela, et tous ne furent pas fidèles à Dieu. {cite:tafsir-tabari-shakir-v07 p. 250}
+- Al-Suddi (7936) : certains Compagnons qui avaient manqué Badr, voyant la position de ses habitants, demandèrent à Dieu de leur montrer un jour comme Badr où ils pourraient faire leurs preuves ; il leur fut montré Uhud. {cite:tafsir-tabari-shakir-v07 p. 250}
+- Ibn Ishaq (7937) : ceux qui pressèrent le Messager de les mener au combat contre l'ennemi, ayant manqué la bataille de Badr le jour précédent, dans leur désir de martyre ; le sens est qu'ils voyaient la mort par l'épée entre les mains des hommes, le chemin restant ouvert entre eux et leur ennemi, et que vous vous êtes détournés d'eux. Dans ses notes, l'éditeur indique que le texte imprimé contient un mot modifié par l'éditeur, que le manuscrit comporte un mot sans point qu'il interprète comme une forme d'une racine signifiant presser quelqu'un, et qu'il aurait préféré qu'Ibn Hisham n'ait pas utilisé « pressèrent » ; que la Sira (3:117) poursuit jusqu'à 7929 ; et que la Sira diffère à un endroit (« alors il les détourna de vous » au lieu de « vous vous détournâtes d'eux »), deux significations différentes, mais comme il s'agit d'un récit, il ne peut en privilégier une sans raison, les deux sont donc acceptables. {cite:tafsir-tabari-shakir-v07 p. 250}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

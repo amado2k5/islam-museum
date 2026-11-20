@@ -1,0 +1,20 @@
+---
+id: passage/quran-2-201
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-2-201.md}
+---
+## Résumé
+Verset 201 de la sourate [[passage/quran-2|Al-Baqarah]] {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 201 sur 286 dans la sourate. Le texte est conservé dans le mushaf de Tanzil, conservé par reliure et non reproduit ici.
+
+## Dans le commentaire d'al-Tabari
+
+Concernant le verset « et parmi eux, il y a celui qui dit : “Seigneur ! Accorde-nous le bien en ce monde et dans l’au-delà, et préserve-nous du châtiment du Feu” », al-Tabari rapporte que les interprètes ont divergé quant à la signification du terme « bien ». Certains ont dit : « Accorde-nous le bien-être en ce monde et dans l’au-delà ». {cite:tafsir-tabari-shakir-v04 p. 203} Ce récit est rapporté par Qatada, qui ajoute : un homme a dit : « Ô Dieu, quel que soit le châtiment que Tu me réserves dans l’au-delà, hâte-le pour moi en ce monde. » Il tomba malade et dépérit sur son lit. Son cas fut rapporté au Prophète (que la paix et les bénédictions soient sur lui), qui vint le voir et apprit qu’il avait prié ainsi. Le Prophète (que la paix et les bénédictions soient sur lui) dit : « Nul ne peut supporter le châtiment de Dieu sans dire : “Seigneur ! Accorde-nous le bien en ce monde…” » L’homme récita cette invocation et guérit en quelques jours. {cite:tafsir-tabari-shakir-v04 p. 203} D’après Anas : le Messager de Dieu (que la paix et les bénédictions soient sur lui) rendit visite à un homme qui était devenu aussi maigre qu’un poussin plumé et lui demanda : « As-tu prié pour quelque chose ? » Il répondit : « J’ai dit : “Ô Dieu, quel que soit le châtiment que Tu me réserves dans l’au-delà, châtie-moi ainsi en ce monde.” » Il dit : « Gloire à Dieu ! Qui pourrait supporter cela ? Pourquoi n’avez-vous pas dit : “Ô Dieu, accorde-nous le bien en ce monde et dans l’au-delà, et préserve-nous du châtiment du Feu” ? » {cite:tafsir-tabari-shakir-v04 p. 204} L’éditeur note que seul Muslim, et non al-Bukhari, rapporte ce hadith, et qu’Humayd affirme dans ce hadith l’avoir entendu d’Anas. {cite:tafsir-tabari-shakir-v04 p. 204}
+
+D'autres disent que le bien dans ce monde est la connaissance et l'adoration, et dans l'au-delà le Paradis ; selon al-Hasan : l'adoration dans ce monde et le Paradis dans l'au-delà, et selon un autre hadith : la compréhension du Livre de Dieu et la connaissance ; selon al-Thawri : la connaissance et une bonne subsistance, et dans l'au-delà le Paradis. {cite:tafsir-tabari-shakir-v04 p. 204} {cite:tafsir-tabari-shakir-v04 p. 205} D'autres ont dit que le bien dans ce monde est la richesse et dans l'au-delà le Paradis ; d'après Ibn Zayd : ce sont là le Prophète et les croyants ; d'après al-Suddi : ce sont là les croyants, le bien de ce monde étant la richesse et le bien de l'autre étant le Paradis. {cite:tafsir-tabari-shakir-v04 p. 205}
+
+Al-Tabari propose sa propre interprétation : selon lui, il est juste que Dieu ait rapporté qu’un groupe de croyants en Lui et en Son Messager aient accompli le pèlerinage à Sa Maison, implorant leur Seigneur le bien dans ce monde, le bien dans l’au-delà et la protection contre le châtiment du Feu ; le « bien » venant de Dieu peut inclure le bien-être physique, les moyens de subsistance, la subsistance et le repos, la science et le culte, et dans l’au-delà, il s’agit sans aucun doute du Paradis. {cite:tafsir-tabari-shakir-v04 p. 205} {cite:tafsir-tabari-shakir-v04 p. 206} Il dit cela parce que Dieu n'a pas précisé une seule signification du mot « bien » ni donné aucune indication de spécification, de sorte qu'aucune signification ne peut être isolée. {cite:tafsir-tabari-shakir-v04 p. 206} Quant à « et préserve-nous du châtiment du Feu », cela signifie détourner de nous le châtiment du Feu ; on dit « waqaytuhu kadha aqihi wiqaya and wiqa' ». {cite:tafsir-tabari-shakir-v04 p. 206}

@@ -1,0 +1,18 @@
+---
+id: passage/quran-2-91
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-2-91.md}
+---
+## Résumé
+Verset 91 de la sourate [[passage/quran-2|Al-Baqarah]] {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 91 sur 286 dans la sourate. Le texte est conservé dans le mushaf de Tanzil, conservé par reliure et non reproduit ici.
+
+## Dans le commentaire d'al-Tabari
+
+Concernant le passage « et lorsqu'on leur dit : croyez en ce que Dieu a révélé, ils répondent : nous croyons en ce qui nous a été révélé », al-Tabari explique qu'il s'agit des Juifs des Enfants d'Israël vivant aux alentours du lieu d'émigration du Prophète : sommés de croire en ce que Dieu a révélé à Muhammad, le Coran, ils affirment croire en ce qui leur a été révélé, la Torah. Quant au passage « et ils ne croient pas en ce qui est au-delà », il précise que « wara'ahu » signifie ici « autre que » et « après », c'est-à-dire autre que la Torah et les livres de Dieu postérieurs, selon Qatada, Abu al-'Aliya et al-Rabi'. Concernant le passage « et c'est la vérité qui confirme ce qu'ils possèdent », il indique, d'après al-Suddi, qu'il s'agit du Coran, et que cette appellation est justifiée par le fait que les livres de Dieu se confirment mutuellement : l'Évangile et le Coran enjoignent de suivre Muhammad et de croire en lui, tout comme la Torah de Moïse. {cite:tafsir-tabari-shakir-v02 p. 348} {cite:tafsir-tabari-shakir-v02 p. 349}
+
+Al-Tabari poursuit en affirmant que Dieu a révélé aux Juifs la vérité du Coran, confirmant ainsi ce qu'ils nient dans leur propre livre. Leur rejet de la Torah est comparable à leur rejet de l'Évangile et du Coran, fruit de leur obstination et de leur transgression envers Ses messagers. À la question : « Si vous croyez, pourquoi avez-vous tué les prophètes de Dieu auparavant ? », il précise que les Juifs auxquels il s'adresse sont ceux qui affirment : « Nous croyons en ce qui nous a été révélé. » Cette question réfute leur affirmation et les réprimande (rapporté par al-Suddi), car Dieu a interdit de tuer les prophètes dans leur propre livre et a ordonné de les suivre. À la question de savoir pourquoi le verbe est au présent alors que le sens est au passé, il cite deux grammairiens : certains Bassorahs affirment que le sens est « pourquoi avez-vous tué ? », en se référant à la sourate Al-Baqara 2:102 et à des versets connexes ; d’autres Koufas soutiennent que le présent est employé au passé, dans le cas où un homme réprimande un autre pour ses actes, et que les meurtriers étaient leurs ancêtres, mais qu’ils les ont pris pour alliés et ont approuvé leurs actions, de sorte que l’acte leur a été imputé. Al-Tabari, quant à lui, soutient que Dieu s’est adressé aux Juifs qui ont rencontré le Prophète au sujet des actes de leurs ancêtres et les leur a imputés, comme le disent les Arabes : « Nous vous avons fait ceci ou cela ce jour-là, et vous nous l’avez fait », faisant référence à leurs ancêtres ; « avant » signifie avant aujourd’hui, et « si vous êtes croyants » signifie que si vous croyez en ce qui vous a été révélé, comme vous le prétendez, alors pourquoi approuvez-vous les actes des meurtriers des prophètes ? {cite:tafsir-tabari-shakir-v02 p. 349} {cite:tafsir-tabari-shakir-v02 p. 350} {cite:tafsir-tabari-shakir-v02 p. 351} {cite:tafsir-tabari-shakir-v02 p. 352} {cite:tafsir-tabari-shakir-v02 p. 353} {cite:tafsir-tabari-shakir-v02 p. 354}
