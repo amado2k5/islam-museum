@@ -2,6 +2,10 @@
 
 _Prepared 15 November 2026 by Claude (`claude-fable-5-2`) in a Claude Code session, on the founder's commission of the same day, and extended that evening on his follow-up brief ("the missing pieces"). Everything here is a **draft for the founder's approval**. Nothing in this folder has been sent, submitted or posted by an agent, and no agent sends any of it._
 
+_Update, 18 November 2026: the founder himself sent L1, L2, L3 and L8 on the evening of 15 November. The outcomes and the current state of every thread are recorded in [`state-of-play.md`](state-of-play.md) and [`endorsers.md`](endorsers.md). The public wording remains "seeking a nomination for the UNESCO–Sharjah Prize"; nothing has been filed._
+
+_Update, 20 November 2026: the papers were refreshed against main of 20 November 2026. The museum's French and Spanish editions were completed and merged on 19 November 2026 and go live at the founder's next deployment; the Arabic, English and Urdu editions are live. The live site as read on 19 November 2026 shows 81,578 entries across 250,362 record pages and 300 pathways. Library and Archives Canada has completed its full test crawl of the site (November 2026). The letters actually sent on 15 November (L1, L2, L3 and L8) stand exactly as sent; only the unsent drafts and the status notes were refreshed._
+
 ## What is in this folder
 
 | File | What it is |
