@@ -25,7 +25,7 @@ const TARGETS = [
   { dir: "api", prefix: "api", cacheControl: "public, max-age=3600, stale-while-revalidate=86400" },
   // Founder rule (28 Oct 2026): data, content, maps, images and video live on R2, not on Pages. Keep in step with
   // workers/site/src/route.js (R2_DATA_DIRS).
-  ...["media", "edu", "timeline-data", "gift-shop", "brand", "openapi"].map((d) => ({ dir: d, prefix: d, cacheControl: "public, max-age=86400, stale-while-revalidate=604800" })),
+  ...["media", "edu", "timeline-data", "gift-shop", "brand", "openapi", "podcast"].map((d) => ({ dir: d, prefix: d, cacheControl: "public, max-age=86400, stale-while-revalidate=604800" })),
 ];
 // Data files at the dist root (sitemaps, feed, llms.txt, search synonyms, favicons), published under their own
 // names. Keep in step with R2_ROOT_FILES in workers/site/src/route.js and ROOT_FILES in ../src/index.js.

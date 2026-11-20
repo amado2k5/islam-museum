@@ -12,7 +12,7 @@ const isLangPath = (pathname) => LANGS.some((l) => pathname === `/${l}` || pathn
 // content, maps, images, pictures and video are published to R2 and served from there. These folders are stored in
 // R2 under the same paths (for example "media/time-browser/explorer/x.webp"); keep this list in step with
 // workers/r2-sync/batch/publish.mjs (DATA_TARGETS), wrangler.production.toml (run_worker_first) and deploy.yml.
-export const R2_DATA_DIRS = ["media", "edu", "timeline-data", "gift-shop", "brand", "openapi", "pagefind-ar", "pagefind-en", "pagefind-ur"];
+export const R2_DATA_DIRS = ["media", "edu", "timeline-data", "gift-shop", "brand", "openapi", "podcast", "pagefind-ar", "pagefind-en", "pagefind-ur"];
 // Data files at the site root (sitemaps, feed, llms.txt, search synonyms, favicons, the RFC 9727 API catalog under
 // /.well-known/) follow the same rule. Keep in step with ROOT_FILES in publish.mjs and workers/r2-sync/src/index.js,
 // run_worker_first and deploy-env.yml.
