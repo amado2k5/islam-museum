@@ -470,6 +470,7 @@ Open after the restore: `main` still carries the marks (not touched from this la
 - 2026-11-19 19:24 machine-translated document claude-fr-13 imported: `content/es/` 28,253 files, `content/fr/` 28,234 files; `npm run validate` 0 errors.
 - 2026-11-19 19:34 machine-translated document claude-fr-14 imported: `content/es/` 28,253 files, `content/fr/` 28,244 files; `npm run validate` 0 errors.
 - 2026-11-19 19:43 machine-translated document claude-fr-15-gemini-long imported: `content/es/` 28,254 files, `content/fr/` 28,250 files; `npm run validate` 0 errors.
+- 2026-11-19 19:51 machine-translated document claude-fr-16-gemini-long imported: `content/es/` 28,254 files, `content/fr/` 28,257 files; `npm run validate` 0 errors.
 
 ## Explicit gaps
 
