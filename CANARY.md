@@ -13,6 +13,15 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.25.0 — 2026-11-20
+### Added
+- **A new browser for the most famous words of elegy and of announcing a death (`/{lang}/ritha/`, «متصفح أشهر ما قيل في الرثاء والنعي»).** It gathers 607 records from the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors and the harvested books: the verses of patience, the Prophet's words «to God belongs what He took and what He gave» and «patience is at the first blow», his announcement of Ja'far, Zayd, Ibn Rawaha and the Negus, the condolences, Hassan's and Ka'b ibn Malik's elegies, and the limits of weeping and wailing. It opens with four mourning banners, a death-notice frame and the famous formulas; it is in the Explore menu, on the landing page, in the API (`/api/v1/ritha.json`), `llms.txt` and the OpenAPI file, in all five languages.
+- **A new record, `concept/ritha-wal-nay`, with prose in Arabic, English, Urdu, French and Spanish,** and nineteen existing records on elegy, announcement, condolence and wailing filed into the browser.
+### Data
+- **395 passages harvested for the browser:** 74 reports from the seven hadith-api Arabic editions and 321 cited excerpts (at most 40 words, machine-read, not corrected) from 38 OCR'd books, each with its label and summary in five languages.
+### Tests
+- **The feature API test covers the new export** (`scripts/features-api.test.ts`): kinds, corpus sections, a book harvested later, and the three false-positive families (inheritance, source attribution, «نعت» the description).
+
 ## v2.24.0 — 2026-11-18
 ### Added
 - **The by-language trial now covers the whole site, with one start for all of it.** The five language deploys published pages and search indexes only. Everything that belongs to no language now has its own build job and its own deploy: the API files, the shared data (media, maps, education files), the feed, `llms.txt`, the favicons, the scripts and styles, the site Worker and the Pages project. The sitemap is made by a small job that joins the five languages' own sitemaps with the same code the one build uses; in a sample build the result was the same file, byte for byte. Two new workflows, "Deploy all parts to UAT" and "Deploy all parts to production", take one build and run the shared deploy and then the five language deploys one after another. The one build and the one deploy are unchanged, and nothing of this has run on GitHub yet (`docs/engineering/06-deployment.md` section 9a).

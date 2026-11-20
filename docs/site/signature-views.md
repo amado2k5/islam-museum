@@ -73,6 +73,7 @@ set bind every view listed here.
 | Ansab | The tree of tribes: trees from `part_of`, `member_of` and `founder_of` edges between group subjects | `sig/AnsabTribes.astro` | `ansabSubjects`, group edges | no loop, no second parent, every connector an edge |
 | Mukatabat | Letters and their senders: a flow from sender class to kind to corpus | `sig/MukatabatFlow.astro` | `mukatabatItems` | every column sums to the records |
 | Munazarat | «حلبة المناظرة» the debate floor: a flow from opponent class to debate kind to corpus | `sig/MunazaratFloor.astro` | `munazaratItems` | every column sums to the records |
+| Ritha | «الرايات الأربع» the four mourning banners: elegy, death announcement, condolence, weeping and wailing, each with a count, a corpus bar and three records | `sig/RithaDoors.astro` | `rithaItems` | every kind count equals the records filed under it |
 | Islamic Economy | Coin, deed and endowment through time: three ledgers on one axis, dated records only | `sig/IeLedgers.astro` | `ieItems`, `IE_TOPICS` | every topic, class and section drawn |
 | Trade | The three roads: a schematic, captioned-as-such map of the winter road to Yemen, the summer road to al-Sham and the Silk Road east; every waypoint a real place link with a readout | `sig/TradeRoutes.astro` | waypoint `place/` records | every dot is a live link; missing places drop, never dead links |
 | Hudud | Limits and grave sins as the sources name them: a two-panel index of terms and references | `sig/HududIndex.astro` | `hududItems`, `hududSignals` | every term has a side and a label |
