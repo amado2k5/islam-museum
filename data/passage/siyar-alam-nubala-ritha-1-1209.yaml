@@ -1,0 +1,18 @@
+id: passage/siyar-alam-nubala-ritha-1-1209
+class: passage
+unit: chapter
+work: work/siyar-alam-nubala
+ref: "1:1209"
+label: { ar: "سير أعلام النبلاء، المجلد المصوَّر 1، ص 1209 — رثاء وثناء على ميت", en: "Siyar A'lam al-Nubala', scan volume 1, p. 1209 — an elegy or praise of the dead", ur: "سیر اعلام النبلاء، اسکین جلد 1، ص 1209 — مرثیہ یا میت کی تعریف", fr: "Siyar A'lam al-Nubala', volume numérisé 1, p. 1209 — une élégie ou un éloge du défunt", es: "Siyar A'lam al-Nubala', volumen escaneado 1, p. 1209 — una elegía o elogio del difunto" }
+text: "… فكتب إليه بولايةِ الحَرَميْن واليمن. فما جاءهُ الكتابُ إلا وقد وقعتِ القَرْحَةَ في يمينه. فقيل: اقطعْها من الَفْصل فجَزِع. فبلغتِ المرفق ثُمّ أصبح وقد بلغتِ الكَيّف ومات. فجزع عليه عبد الملك وأمر الشعراء فرَثَوْهُ. الرحمن العدوي. - بِشر بن الْمُغْتَمر …"
+summary:
+  ar: "مقطع من سير أعلام النبلاء، المجلد المصوَّر 1، ص 1209، فيه رثاء وثناء على ميت؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر ولم يصحَّح. يجمعه متصفح أشهر ما قيل في الرثاء والنعي."
+  en: "An excerpt from Siyar A'lam al-Nubala', scan volume 1, p. 1209, that carries an elegy or praise of the dead; from the machine-read scan, quoted within forty words per the sources policy and not corrected. The Elegy and Death-Announcement Browser lists it."
+  ur: "سیر اعلام النبلاء، اسکین جلد 1، ص 1209 کا اقتباس جس میں مرثیہ یا میت کی تعریف ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں اور بغیر تصحیح کے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے درج کرتا ہے۔"
+  fr: "Un extrait de Siyar A'lam al-Nubala', volume numérisé 1, p. 1209, qui contient une élégie ou un éloge du défunt; tiré de la numérisation lue par machine, cité dans la limite de quarante mots selon la politique des sources et non corrigé. Le navigateur des élégies et des annonces de décès le recense."
+  es: "Un extracto de Siyar A'lam al-Nubala', volumen escaneado 1, p. 1209, que contiene una elegía o elogio del difunto; tomado del escaneo leído por máquina, citado dentro de cuarenta palabras según la política de fuentes y sin corregir. El navegador de elegías y anuncios de fallecimiento lo recoge."
+relations:
+  - { type: mentions, target: concept/ritha-wal-nay, sources: [source/siyar-alam-nubala] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/siyar-alam-nubala/20250923_20250923_0238, page 1209; a window of at most 40 words chosen by the elegy and death-announcement detector (scripts/ritha.ts); OCR text not corrected; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-ocr-1" }
+sources: [source/siyar-alam-nubala]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words; the excerpt is machine-read and not corrected" }

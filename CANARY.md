@@ -13,6 +13,12 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.26.1 — 2026-11-20
+### Added
+- **Two works of al-Dhahabi now have their own pages: «سير أعلام النبلاء» (`work/siyar-alam-nubala`) and «تاريخ الإسلام» (`work/tarikh-islam-dhahabi`),** each with a five-language summary and prose, and linked to their author. Their source records existed but had no work record, so their passages could not be cited.
+### Data
+- **80 new passages for the Elegy and Death-Announcement Browser:** 40 cited excerpts (at most 40 words, machine-read, not corrected) from each of the two books, on elegies, death announcements and condolence, each labelled in five languages.
+
 ## v2.26.0 — 2026-11-20
 ### Added
 - **The text of *al-Ṣiḥāḥ* is now in the museum, page by page.** The 1865 Būlāq printing, read with Apple Vision, is published as 1,228 records, one for each scan page of the two volumes (646 and 582; covers and library plates are left out). Each record cites its scan, shows the page text and says plainly that it is a machine reading: in a sample of six lines checked by eye against the page image, about one word in five had a wrong or split letter. `/{lang}/maajim/sihah/` lists the pages by volume. The text is not yet divided into entries and nothing beyond that sample has been checked. This follows the founder's ruling of 20 November 2026 (route A, then widened to all the pages), now written into `docs/sources-policy.md` and the decision inbox.
