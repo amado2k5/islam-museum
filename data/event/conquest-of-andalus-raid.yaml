@@ -1,7 +1,7 @@
 id: event/conquest-of-andalus-raid
 class: event
 kind: raid
-label: { ar: "غزوة الأندلس الأولى", en: "the first raid on al-Andalus (27 AH)", es: "El primer ataque a al-Ándalus (27 AH)", fr: "le premier raid sur al-Andalus (27 AH)" }
+label: { ar: "غزوة الأندلس الأولى", en: "the first raid on al-Andalus (27 AH)", es: "El primer ataque a al-Ándalus (27 AH)", fr: "le premier raid sur al-Andalus (27 AH)", ur: "اندلس پر پہلا حملہ ⁦(27ھ)⁩" }
 date:
   start: { edtf: "0647", hijri: "0027", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 27؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 466}." }
 summary:
@@ -9,6 +9,7 @@ summary:
   en: "The first raid on al-Andalus: after Ifriqiya's conquest 'Uthman ordered 'Abdallah ibn Nafi' ibn al-Husayn and 'Abdallah ibn Nafi' ibn 'Abd al-Qays across the sea, writing to the volunteers: «Constantinople shall only be opened from the side of al-Andalus.« They went out with Berbers in their ranks and God granted them victory {cite:kamil-ibn-al-athir p. 466}."
   es: "El primer ataque a al-Ándalus: tras la conquista de Ifriqiya, Uthman ordenó a Abdallah ibn Nafi' ibn al-Husayn y a Abdallah ibn Nafi' ibn Abd al-Qays cruzar el mar, escribiendo a los voluntarios: «Constantinopla solo se abrirá desde el lado de al-Ándalus». Salieron con bereberes en sus filas y Dios les concedió la victoria {cita:kamil-ibn-al-athir p. 466}."
   fr: "Le premier raid sur al-Andalus: après la conquête d'Ifriqiya, 'Uthman ordonna à 'Abdallah ibn Nafi' ibn al-Husayn et 'Abdallah ibn Nafi' ibn 'Abd al-Qays de traverser la mer, écrivant aux volontaires: « Constantinople ne sera ouverte que du côté d'al-Andalus. » Ils partirent avec des Berbères dans leurs rangs et Dieu leur accorda la victoire {cite: kamil-ibn-al-athir p. 466}."
+  ur: "اندلس پر پہلا حملہ: عفریقیہ کی فتح کے بعد عثمان نے عبداللہ بن نافع ابن الحسین اور عبداللہ بن نافع ابن عبدالقیس کو سمندر کے اس پار حکم دیا اور رضاکاروں کو لکھا: \"قسطنطنیہ کو صرف ان کے البرال کی طرف سے کھولا جائے گا۔\" صفوں میں اور خدا نے انہیں فتح عطا فرمائی {حوالہ: کامل ابن الاثیر ص۔ 466}۔"
 wings: [time]
 relations:
   - { type: occurred_at, target: place/al-andalus, sources: [source/kamil-ibn-al-athir] }

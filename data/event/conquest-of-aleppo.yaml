@@ -1,7 +1,7 @@
 id: event/conquest-of-aleppo
 class: event
 kind: battle
-label: { ar: "فتح حلب", en: "Conquest of Aleppo (15 AH)", es: "Conquista de Alepo (15 AH)", fr: "Conquête d'Alep (15 AH)" }
+label: { ar: "فتح حلب", en: "Conquest of Aleppo (15 AH)", es: "Conquista de Alepo (15 AH)", fr: "Conquête d'Alep (15 AH)", ur: "حلب کی فتح ⁦(15ھ)⁩" }
 date:
   start: { edtf: "0636", hijri: "0015", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 15؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 323}." }
 summary:
@@ -9,6 +9,7 @@ summary:
   en: "Aleppo: Abu 'Ubayda sent 'Iyad ibn Ghanim ahead; the Aleppans held their fortress briefly, then asked for peace and aman over themselves, their children, city, churches and citadel — granted, with a site for the mosque stipulated; one tradition has them sharing houses and churches, another that they had decamped to Antioch and negotiated their return by treaty {cite:kamil-ibn-al-athir p. 323}."
   es: "Alepo: Abu 'Ubayda envió a 'Iyad ibn Ghanim por delante; los habitantes de Alepo mantuvieron su fortaleza brevemente, luego pidieron paz y amnistía sobre sí mismos, sus hijos, la ciudad, las iglesias y la ciudadela; se les concedió, estipulándose un sitio para la mezquita; una tradición dice que compartieron casas e iglesias, otra que se habían trasladado a Antioquía y negociaron su regreso mediante un tratado {cite:kamil-ibn-al-athir p. 323}."
   fr: "Alep: Abou 'Ubayda envoya 'Iyad ibn Ghanim en avant; les Aleppans tinrent brièvement leur forteresse, puis demandèrent la paix et l'aman sur eux-mêmes, leurs enfants, leur ville, leurs églises et leur citadelle — accordés, avec un emplacement pour la mosquée stipulé; une tradition dit qu'ils partagèrent des maisons et des églises, une autre qu'ils avaient campé à Antioche et négocié leur retour par traité {cite: kamil-ibn-al-athir p. 323}."
+  ur: "حلب: ابو عبیدہ نے عیاض بن غنیم کو آگے بھیجا۔ حلب والوں نے اپنے قلعے کو مختصر طور پر تھام لیا، پھر اپنے، اپنے بچوں، شہر، گرجا گھروں اور قلعوں کے لیے امن و امان کی درخواست کی - مسجد کے لیے جگہ مقرر کر دی گئی۔ ایک روایت میں ہے کہ وہ گھروں اور گرجا گھروں میں شریک تھے، دوسری یہ کہ انہوں نے انطاکیہ میں ڈیرے ڈالے تھے اور معاہدہ کے ذریعے ان کی واپسی پر بات چیت کی تھی۔ 323}۔"
 wings: [time]
 relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/kamil-ibn-al-athir] }

@@ -1,7 +1,7 @@
 id: event/conquest-of-qazvin
 class: event
 kind: conquest
-label: { ar: "فتح قزوين وزنجان", en: "Conquest of Qazvin and Zanjan (22 AH)", es: "Conquista de Qazvin y Zanjan (22 AH)", fr: "Conquête de Qazvin et de Zanjan (22 AH)" }
+label: { ar: "فتح قزوين وزنجان", en: "Conquest of Qazvin and Zanjan (22 AH)", es: "Conquista de Qazvin y Zanjan (22 AH)", fr: "Conquête de Qazvin et de Zanjan (22 AH)", ur: "قزوین اور زنجان کی فتح ⁦(22 ہجری)⁩" }
 date:
   start: { edtf: "0642", hijri: "0022", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 22؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 406}." }
 summary:
@@ -9,6 +9,7 @@ summary:
   en: "Al-Bara' ibn 'Azib took Abhar after its garrison sued for peace, then marched on Qazvin, whose people had sent to the Daylam for aid; the Daylam came and stood idle on the mountain — seeing them refuse to strike, Qazvin surrendered on Abhar's terms. Al-Bara' raided Daylam until it paid tribute, entered Gilan and the Tailsan, and took Zanjan by storm {cite:kamil-ibn-al-athir p. 406}."
   es: "Al-Bara' ibn 'Azib tomó Abhar después de que su guarnición pidiera la paz, y luego marchó sobre Qazvin, cuyo pueblo había enviado a Daylam en busca de ayuda; Daylam llegó y permaneció inactivo en la montaña; al ver que se negaban a atacar, Qazvin se rindió en los términos de Abhar. Al-Bara' saqueó Daylam hasta que pagó tributo, entró en Gilan y Tailsan, y tomó Zanjan por asalto {cite:kamil-ibn-al-athir p. 406}."
   fr: "Al-Bara' ibn 'Azib prit Abhar après que sa garnison eut demandé la paix, puis marcha sur Qazvin, dont les habitants avaient sollicité l'aide des Daylam. Ces derniers arrivèrent et restèrent inactifs sur la montagne. Voyant leur refus d'attaquer, Qazvin capitula aux conditions d'Abhar. Al-Bara' pilla les Daylam jusqu'à ce qu'ils paient un tribut, pénétra dans le Gilan et le Tailsan, et prit Zanjan d'assaut (voir Kamil ibn al-Athir, p. 406)."
+  ur: "البراء بن عازب نے ابھار پر قبضہ کر لیا جب اس کی فوج نے امن کے لیے مقدمہ دائر کیا، پھر قزوین پر چڑھائی کی، جس کے لوگ دیلم کی طرف مدد کے لیے بھیجے تھے۔ دیلام آیا اور پہاڑ پر بیکار کھڑا رہا - انہیں حملہ کرنے سے انکار کرتے ہوئے دیکھ کر قزوین نے ابھر کی شرائط پر ہتھیار ڈال دیئے۔ البراء نے دیلام پر چھاپہ مارا یہاں تک کہ اس نے خراج ادا کیا، گیلان اور طلسان میں داخل ہوا اور طوفان کے ذریعے زنجان پر قبضہ کر لیا۔ 406}۔"
 wings: [time]
 relations:
   - { type: occurred_at, target: place/qazvin, sources: [source/kamil-ibn-al-athir] }
