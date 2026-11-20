@@ -1,0 +1,18 @@
+id: passage/muntazam-ritha-3-304
+class: passage
+unit: chapter
+work: work/al-muntazam-ibn-al-jawzi
+ref: "3:304"
+label: { ar: "المنتظم في تاريخ الملوك والأمم، المجلد المصوَّر 3، ص 304 — نعي وإخبار بوفاة", en: "al-Muntazam of Ibn al-Jawzi, scan volume 3, p. 304 — a death announcement", ur: "المنتظم ابن الجوزی، اسکین جلد 3، ص 304 — وفات کی خبر", fr: "al-Muntazam d'Ibn al-Jawzi, volume numérisé 3, p. 304 — une annonce de décès", es: "al-Muntazam de Ibn al-Jawzi, volumen escaneado 3, p. 304 — un anuncio de fallecimiento" }
+text: "… ويقول ابو تمام الاستاذ، وقيل له ان الناس يزعمون انك اشعر مين لب تمام فقال والته منا ينقعنى هذا ولا يضرابا تمام واللّه ما أكلت الخبز الابه. ولما سمع أبو تمام شعره قال نعيت الى نفسى فانه ليس يطول عمرى …"
+summary:
+  ar: "مقطع من المنتظم في تاريخ الملوك والأمم، المجلد المصوَّر 3، ص 304، فيه نعي وإخبار بوفاة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر ولم يصحَّح. يجمعه متصفح أشهر ما قيل في الرثاء والنعي."
+  en: "An excerpt from al-Muntazam of Ibn al-Jawzi, scan volume 3, p. 304, that carries a death announcement; from the machine-read scan, quoted within forty words per the sources policy and not corrected. The Elegy and Death-Announcement Browser lists it."
+  ur: "المنتظم ابن الجوزی، اسکین جلد 3، ص 304 کا اقتباس جس میں وفات کی خبر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں اور بغیر تصحیح کے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے درج کرتا ہے۔"
+  fr: "Un extrait de al-Muntazam d'Ibn al-Jawzi, volume numérisé 3, p. 304, qui contient une annonce de décès; tiré de la numérisation lue par machine, cité dans la limite de quarante mots selon la politique des sources et non corrigé. Le navigateur des élégies et des annonces de décès le recense."
+  es: "Un extracto de al-Muntazam de Ibn al-Jawzi, volumen escaneado 3, p. 304, que contiene un anuncio de fallecimiento; tomado del escaneo leído por máquina, citado dentro de cuarenta palabras según la política de fuentes y sin corregir. El navegador de elegías y anuncios de fallecimiento lo recoge."
+relations:
+  - { type: mentions, target: concept/ritha-wal-nay, sources: [source/muntazam-ibn-al-jawzi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/muntazam/AAlexandrina-151934, page 304; a window of at most 40 words chosen by the elegy and death-announcement detector (scripts/ritha.ts); OCR text not corrected; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-ocr-1" }
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words; the excerpt is machine-read and not corrected" }

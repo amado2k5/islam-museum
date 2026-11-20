@@ -1,0 +1,18 @@
+id: passage/bukhari-api-3630
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3630"
+label: { ar: "صحيح البخاري 3630 — نعي وإخبار بوفاة", en: "Sahih al-Bukhari 3630 — a death announcement", ur: "صحیح البخاری 3630 — وفات کی خبر", fr: "Sahih al-Bukhari 3630 — une annonce de décès", es: "Sahih al-Bukhari 3630 — un anuncio de fallecimiento" }
+text: "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ أَيُّوبَ، عَنْ حُمَيْدِ بْنِ هِلاَلٍ، عَنْ أَنَسِ بْنِ مَالِكٍ ـ أَنَّ النَّبِيَّ نَعَى جَعْفَرًا وَزَيْدًا قَبْلَ أَنْ يَجِيءَ خَبَرُهُمْ، وَعَيْنَاهُ تَذْرِفَانِ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3630، فيه نعي وإخبار بوفاة. يجمعه متصفح أشهر ما قيل في الرثاء والنعي مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين وما في الكتب المحصودة في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 3630 (Virtues and Merits of the Prophet (pbuh) and his Companions), that carries a death announcement. The Elegy and Death-Announcement Browser lists it with the texts of the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors and the harvested books on this subject."
+  ur: "صحیح البخاری کی حدیث نمبر 3630، جس میں وفات کی خبر ہے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے قرآن، سنت، سیرت، صحابہ و تابعین کے آثار اور جمع شدہ کتابوں کی عبارتوں کے ساتھ درج کرتا ہے۔"
+  fr: "Un récit dans Sahih al-Bukhari, n° 3630, qui contient une annonce de décès. Le navigateur des élégies et des annonces de décès le recense avec les textes du Coran, de la Sunna, de la sîra, les récits des Compagnons et des Successeurs et les livres moissonnés sur ce sujet."
+  es: "Un relato en Sahih al-Bukhari, n.º 3630, que contiene un anuncio de fallecimiento. El navegador de elegías y anuncios de fallecimiento lo recoge junto con los textos del Corán, la Sunna, la sira, los relatos de los Compañeros y los Sucesores y los libros cosechados sobre este tema."
+relations:
+  - { type: mentions, target: concept/ritha-wal-nay, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3630 (book 61 hadith 134); matn excerpt of at most 55 words, honorific formulas left out; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

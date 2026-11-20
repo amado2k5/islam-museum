@@ -1,0 +1,18 @@
+id: passage/tarikh-tabari-ritha-3-448
+class: passage
+unit: chapter
+work: work/tarikh-al-rusul-wa-al-muluk
+ref: "3:448"
+label: { ar: "تاريخ الرسل والملوك، المجلد المصوَّر 3، ص 448 — نعي وإخبار بوفاة", en: "Tarikh al-Rusul wa'l-Muluk (The History of Prophets and Kings), scan volume 3, p. 448 — a death announcement", ur: "تاریخ الرسول و الملوک ⁦(تاریخ انبیاء و بادشاہ)⁩، اسکین جلد 3، ص 448 — وفات کی خبر", fr: "Tarikh al-Rusul wa'l-Muluk (L'Histoire des Prophètes et des Rois), volume numérisé 3, p. 448 — une annonce de décès", es: "Tarikh al-Rusul wa'l-Muluk (Historia de los profetas y los reyes), volumen escaneado 3, p. 448 — un anuncio de fallecimiento" }
+text: "… الى يوسف بذلك فوضع يوسف الارصاد فلما انتهوا الى الموصل تركوا طريق البريد وتكأَدوا و حتى قدموا + بَيْهَق وقد كُتب الى نصر بقول شُبّيلة وكان، ابراهيم بن بسّام فى الوقد فكر به يوسف ونَعّى له نصرا وأخبره انّه قده …"
+summary:
+  ar: "مقطع من تاريخ الرسل والملوك، المجلد المصوَّر 3، ص 448، فيه نعي وإخبار بوفاة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر ولم يصحَّح. يجمعه متصفح أشهر ما قيل في الرثاء والنعي."
+  en: "An excerpt from Tarikh al-Rusul wa'l-Muluk (The History of Prophets and Kings), scan volume 3, p. 448, that carries a death announcement; from the machine-read scan, quoted within forty words per the sources policy and not corrected. The Elegy and Death-Announcement Browser lists it."
+  ur: "تاریخ الرسول و الملوک ⁦(تاریخ انبیاء و بادشاہ)⁩، اسکین جلد 3، ص 448 کا اقتباس جس میں وفات کی خبر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں اور بغیر تصحیح کے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے درج کرتا ہے۔"
+  fr: "Un extrait de Tarikh al-Rusul wa'l-Muluk (L'Histoire des Prophètes et des Rois), volume numérisé 3, p. 448, qui contient une annonce de décès; tiré de la numérisation lue par machine, cité dans la limite de quarante mots selon la politique des sources et non corrigé. Le navigateur des élégies et des annonces de décès le recense."
+  es: "Un extracto de Tarikh al-Rusul wa'l-Muluk (Historia de los profetas y los reyes), volumen escaneado 3, p. 448, que contiene un anuncio de fallecimiento; tomado del escaneo leído por máquina, citado dentro de cuarenta palabras según la política de fuentes y sin corregir. El navegador de elegías y anuncios de fallecimiento lo recoge."
+relations:
+  - { type: mentions, target: concept/ritha-wal-nay, sources: [source/tarikh-al-tabari] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/tarikh-tabari/AAlexandrina-224135, page 448; a window of at most 40 words chosen by the elegy and death-announcement detector (scripts/ritha.ts); OCR text not corrected; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-ocr-1" }
+sources: [source/tarikh-al-tabari]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words; the excerpt is machine-read and not corrected" }
