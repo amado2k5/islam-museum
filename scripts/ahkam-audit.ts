@@ -1,4 +1,4 @@
-// Counts for the Rulings Browser (docs/plan/72-ahkam-browser.md): what the build will show,
+// Counts for the Rulings Browser (docs/plan/73-ahkam-browser.md): what the build will show,
 // by section and by theme, read from the compiled graph. Run `npm run graph` first.
 //   npx tsx scripts/ahkam-audit.ts
 import { readBigJson } from "./lib/graph-file.mjs";

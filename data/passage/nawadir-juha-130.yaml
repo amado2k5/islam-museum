@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-130
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "61:130"
+label: { ar: "نوادر جحا الكبرى، ص 61 — «لو كنت راكباً عليه لضعت»", en: "Nawadir Juha al-Kubra, p. 61 — 'Had I Been Riding It, I Would Be Lost'", ur: "نوادر جحا الکبریٰ، ص 61 — «اگر میں اس پر سوار ہوتا تو میں بھی کھو جاتا»", fr: "Nawadir Juha al-Kubra, p. 61 — « Si je l'avais monté, je serais perdu »", es: "Nawadir Juha al-Kubra, p. 61 — «Si lo hubiera montado, me habría perdido»" }
+text: "… لو كنت راكباً عليه لَضِعْتُ ضاع حماره، فأخذ يُفتّشُ عليه، ويحمد اللَّه شاكراً، فسألوه: ولِماذا تشكرُ اللَّه؟ فقال: أشكرُهُ لأنِّي لم أكن راكباً على الحمار، وإلا فلو كنت راكباً، لضعت معه."
+summary:
+  ar: "أضاع جحا حماره وشكر الله؛ فسُئل لماذا، فقال إنه لو كان راكبًا عليه لضاع معه. {cite:juha-nawadir-kubra-djuwaydi p. 61}"
+  en: "Juha loses his donkey and thanks God; asked why, he says that if he had been riding it, he would have been lost with it. {cite:juha-nawadir-kubra-djuwaydi p. 61}"
+  ur: "جحا کا گدھا کھو گیا تو اس نے اللہ کا شکر ادا کیا؛ پوچھا گیا کیوں، تو بولا کہ اگر میں اس پر سوار ہوتا تو اس کے ساتھ میں بھی کھو جاتا۔ {cite:juha-nawadir-kubra-djuwaydi p. 61}"
+  fr: "Juha perd son âne et remercie Dieu; quand on lui demande pourquoi, il dit que s'il l'avait monté, il se serait perdu avec lui. {cite:juha-nawadir-kubra-djuwaydi p. 61}"
+  es: "Juha pierde su burro y da gracias a Dios; cuando le preguntan por qué, dice que, si lo hubiera montado, se habría perdido con él. {cite:juha-nawadir-kubra-djuwaydi p. 61}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 61, anecdote 130; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

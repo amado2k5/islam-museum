@@ -825,6 +825,7 @@ reader:
   credit_source: página de la fuente
   translation_title: Traducción aleya por aleya
   translation_credit: 'Traducción: {tr}; dominio público, distribuida por el Proyecto Tanzil.'
+  translation_credit_quranenc: "Traducción: {tr}. Publicada por QuranEnc.com, versión {v}; reproducida sin modificación según las condiciones de ese sitio, no es de dominio público."
   juz_nav: Los treinta juz del mushaf
   juz_n: Yuz {n}
   juz_starts: El juz {n} comienza en
@@ -1835,6 +1836,10 @@ explore:
       title: "Explorador de las munazarat"
       desc: "Cada mención de debates y disputas en el Corán, la Sunna, la sira y cada libro recopilado (las discusiones de Ibrahim con su pueblo y con Nemrod, la mubahala con los cristianos de Najran, el intercambio ante el Negus, el debate de Ibn Abbas con los Jawarech), con cada aleya y relato citado."
       menu: "Explorar los debates y disputas en el Corán y los libros"
+    juha:
+      title: "Navegador de Juha y del folclore islámico"
+      desc: "Juha, Nasreddin Hoca, Ash'ab y Nu'ayman, y las anécdotas, agudezas, bromas y risas en el Corán, la Sunna, la sira y los libros de adab e historia recopilados: cada versículo, relato y anécdota con su fuente."
+      menu: "Explorar a Juha, las anécdotas, las agudezas y las bromas en el Corán, la Sunna y los libros"
     magic:
       title: "Explorador de la magia y los magos"
       desc: "Cada mención de la magia y los magos en el Corán, la Sunna, la sira y cada libro recopilado (hechicería, adivinos, ruqya, mal de ojo y envidia), con cada aleya y relato citado."
@@ -7271,3 +7276,55 @@ heroes:
     steadfastness:
       name: "Sala de la Firmeza"
       lede: "El mundo tembló y ellos no se movieron: «Uno, Uno» bajo la roca, el camino más largo hacia la verdad, el día en que la umma tembló y la palabra sin miedo."
+juha:
+  title: "Navegador de Juha y del folclore islámico"
+  full_title: "Navegador de Juha, del folclore islámico a través de los tiempos, la comedia, los chistes, las agudezas y las anécdotas"
+  lede: "Todo lo que el museo guarda sobre Juha y el folclore islámico a través de los tiempos, la comedia, los chistes, las agudezas y las anécdotas: los versículos del Corán sobre la risa, la sonrisa y la prohibición de la burla; la broma y la risa del Profeta y los límites de la broma en la Sunna; la jovialidad de los Compañeros y los Sucesores en la sira y las biografías; las anécdotas de Juha una por una; y los relatos de ingeniosos, necios, avaros y gorrones en los libros de adab e historia."
+  badge: "La tertulia de las anécdotas"
+  status: "Esta versión contiene {n} registros en {s} secciones; los textos son borradores que el lector puede comprobar en las fuentes nombradas en cada registro."
+  method_title: "El método del navegador"
+  method_note: "Cada registro es un registro ordinario del museo, con sus fuentes y su texto en cinco idiomas. Los pasajes se detectan al generar el sitio con un detector con salvaguardas que lee el texto de los pasajes: el nombre de Juha como palabra entera, los ingeniosos nombrados como Ash'ab, Nu'ayman, Muzabbid y Habannaqa, las palabras de la anécdota y la agudeza, los verbos de la broma y la chanza, las palabras de la risa y la sonrisa, y los textos sobre la ética de la broma. Quedan fuera el «caso raro» de los juristas, el título al-Nawadir wa-l-Ziyadat, «un abrir y cerrar de ojos», los nombres al-Dahhak e Ibn Mughaffal y el adverbio de los gramáticos. Cada libro recopilado después trae automáticamente sus pasajes el día en que entran en el grafo, y los registros redactados se suman con la etiqueta juha-browser. Las anécdotas de Juha se cuentan con palabras del museo a partir de un escaneo leído por máquina, y las traducciones son traducciones automáticas que ningún humano ha leído."
+  api: "El conjunto completo está disponible en"
+  sections_title: "Las secciones del navegador"
+  kinds_title: "Tipo de humor"
+  all_kinds: "Todos los tipos"
+  filter_label: "Buscar en las anécdotas"
+  filter_none: "Sin resultados."
+  empty: "Aún no hay registros en esta versión."
+  majlis_title: "La tertulia de los ingeniosos"
+  majlis_note: "Los héroes de las anécdotas que las fuentes nombran: primero Juha, luego quienes lo acompañan en los libros de adab y de hadiz. Cada asiento abre su registro completo y citado."
+  tales_title: "De las anécdotas de Juha"
+  tales_note: "Anécdotas de Nawadir Juha al-Kubra contadas con palabras del museo; cada bocadillo abre el registro de la anécdota con su número de página y su extracto."
+  scale_title: "La balanza de la risa"
+  scale_note: "Qué tipos de humor lleva cada sección: una barra es tan larga como su número de registros y se colorea por tipo, a partir de las mismas filas que muestran las listas de abajo."
+  scale_caption: "Número de registros de cada sección por tipo de humor"
+  scale_total: "Total"
+  shelf_title: "El estante de los libros de anécdotas"
+  shelf_note: "Los libros que reunieron las anécdotas, las agudezas y los relatos de ingeniosos y necios; cada uno tiene su registro."
+  rider_alt: "Dibujo: Juha montado al revés en su burro"
+  kinds:
+    juha: "Juha"
+    wits: "Ingeniosos y necios"
+    anecdote: "Anécdota o agudeza"
+    jest: "Broma y chanza"
+    laughter: "Risa y sonrisa"
+    ethics: "Ética de la broma"
+  sections:
+    curated:
+      title: "Los registros redactados"
+      desc: "Los registros del museo sobre el tema mismo: Juha, Nasreddin Hoca, Ash'ab y otros, los libros de anécdotas y los conceptos de broma, risa y anécdota."
+    juha:
+      title: "Las anécdotas de Juha"
+      desc: "Las anécdotas de Juha una por una según Nawadir Juha al-Kubra: el título de la anécdota, su relato con palabras del museo, su número de página y un extracto de cuarenta palabras como máximo."
+    quran:
+      title: "En el Corán"
+      desc: "Los versículos de la risa y la sonrisa: la risa de la esposa de Abraham, la sonrisa de Salomón ante las palabras de la hormiga, «Él es quien hace reír y llorar», los rostros rientes y gozosos, la risa de los burlones y la prohibición de que un pueblo se burle de otro."
+    sunnah:
+      title: "En la Sunna"
+      desc: "Lo que los dos Sahih, el Muwatta y los Sunan recogen de la broma, la risa y la sonrisa del Profeta, la jovialidad de los Compañeros y la advertencia a quien miente para hacer reír: cada relato con su número y su fuente."
+    seerah:
+      title: "En la sira"
+      desc: "Lo que los libros de sira y de shama'il recogen de la broma, la risa y la jovialidad; esta sección se llena sola a medida que llegan nuevos textos."
+    books:
+      title: "En los demás libros"
+      desc: "Anécdotas, agudezas y relatos de ingeniosos, necios y avaros en los libros de adab, historia y biografía: Nihayat al-Arab, 'Uyun al-Akhbar, al-Mustatraf, al-Bayan wa-l-Tabyin, al-Hayawan y cuanto se recopile después."

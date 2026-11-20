@@ -1,5 +1,5 @@
 // Shared by the two harvesters of the Rulings Browser (scripts/harvest-ahkam-hadithapi.ts,
-// scripts/harvest-ahkam-ocr.ts; docs/plan/72-ahkam-browser.md): the wording of labels and
+// scripts/harvest-ahkam-ocr.ts; docs/plan/73-ahkam-browser.md): the wording of labels and
 // summaries per signal in the five languages, and the record each theme's passages point at.
 // The cleaner that leaves honorific formulas out is the one the arkan harvesters use.
 import type { AhkamTopic } from "./ahkam.js";

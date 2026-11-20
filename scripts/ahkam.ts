@@ -1,4 +1,4 @@
-// The Rulings Browser's shared reads (docs/plan/72-ahkam-browser.md): which passage records
+// The Rulings Browser's shared reads (docs/plan/73-ahkam-browser.md): which passage records
 // name or carry one of the degrees of obligation the founder asked for —
 //  • «الفروض» (`fard`)              — what the texts say God or His Messenger made obligatory:
 //    «فرض الله»، «فريضة»، «افترضت عليه»، «كتب عليكم»;

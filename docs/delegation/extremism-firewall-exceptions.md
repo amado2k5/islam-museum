@@ -2,6 +2,9 @@
 
 On 7 November 2026 the founder reviewed every record touched by the firewall clean-up (`extremism-firewall-questions.md`, 144 questions) and answered NO for the 135 below: they were restored exactly as they were and **stay**. An agent must not delete, trim or rewrite them to remove a mention, and must not treat them as a precedent for adding new content about a blocked organisation (the hard block in `AGENTS.md` still applies to everything not on this list). Only these were removed, by YES answers: the biographies of Ahmed Yassin and Ahmed al-Sharaa and their seven Wikipedia/Wikidata source records (`source/wikidata-ahmed-al-sharaa`, `source/wikidata-ahmed-yassin`, `source/wikipedia-ahmed-al-sharaa-ar|en`, `source/wikipedia-ahmed-yassin-ar|en|ur`).
 
+
+**Translation (founder's ruling, 20 November 2026, in chat: "Translate them").** These records had been left out of the Spanish and French translation, and of the translation of titles and summaries into Urdu, French and Spanish, until the founder ruled on them. He ruled that they are translated like every other record. A translation carries exactly the mentions its English source has, in the same neutral wording, and nothing more; `scripts/check-extremism.ts` treats a listed record as an exception in every language. This ruling is about translating what exists: the records are still no precedent for adding new content about a blocked organisation.
+
 - `screen/al-dawla-2017`
 - `screen/al-halibah-2020`
 - `screen/arbaa-banat-2023`

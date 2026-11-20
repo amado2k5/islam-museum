@@ -1,4 +1,4 @@
-// The Rulings Browser's shared reads (docs/plan/72-ahkam-browser.md): every mention of the obligations
+// The Rulings Browser's shared reads (docs/plan/73-ahkam-browser.md): every mention of the obligations
 // (individual and communal), the acts of obedience, the obligatory, the recommended, the forbidden,
 // the disliked, the minor sins and the permitted in the Qur'an, the hadith reports, the seerah books
 // and every harvested work, plus the curated records, all over the one graph. Qur'an verses come from

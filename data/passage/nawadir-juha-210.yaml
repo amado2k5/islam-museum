@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-210
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "95:210"
+label: { ar: "نوادر جحا الكبرى، ص 95 — «من لا يأكل ماله يؤكل أمامه»", en: "Nawadir Juha al-Kubra, p. 95 — 'What You Do Not Eat Is Eaten Before You'", ur: "نوادر جحا الکبریٰ، ص 95 — «جو اپنا مال نہ کھائے وہ اس کے سامنے کھایا جاتا ہے»", fr: "Nawadir Juha al-Kubra, p. 95 — « Ce que tu ne manges pas est mangé devant toi »", es: "Nawadir Juha al-Kubra, p. 95 — «Lo que no comes se come ante ti»" }
+text: "… مَن لا يأكل ماله يؤكل أمامه عمل في أحد الأعياد حلوى، وأكلها مع امرأته بكلِّ سرور. وجلسا يتسامران إلى أن حان وقت النوم فاضطجع كلِّ منهما. ولكنَّ الشيخ ما كاد يرقد حتى هبّ من فراشه منبِّهاً امرأته قائلاً : جال …"
+summary:
+  ar: "بعد وليمة حلوى لم يستطع جحا النوم، فأيقظ زوجته لتأتيه بما بقي من الحلوى وأكله، وقال إن من لا يأكل ماله يؤكل أمامه. {cite:juha-nawadir-kubra-djuwaydi p. 95}"
+  en: "After a sweet meal at a feast Juha cannot sleep, so he wakes his wife to bring him the rest of the sweets and eats them, saying that what you do not eat yourself will be eaten before your eyes. {cite:juha-nawadir-kubra-djuwaydi p. 95}"
+  ur: "ایک دعوت میں میٹھا کھانے کے بعد جحا کو نیند نہیں آتی تو وہ بیوی کو جگا کر باقی مٹھائیاں منگواتا ہے اور کھا لیتا ہے، اور کہتا ہے کہ جو اپنا مال خود نہ کھائے وہ اس کے سامنے کھایا جاتا ہے۔ {cite:juha-nawadir-kubra-djuwaydi p. 95}"
+  fr: "Après un repas sucré lors d'un festin, Juha ne parvient pas à dormir; il réveille sa femme pour qu'elle lui apporte le reste des douceurs et les mange, disant que ce qu'on ne mange pas soi-même sera mangé devant soi. {cite:juha-nawadir-kubra-djuwaydi p. 95}"
+  es: "Tras una comida dulce en un banquete, Juha no puede dormir, así que despierta a su esposa para que le traiga el resto de los dulces y se los come, diciendo que lo que uno no se come será comido ante uno. {cite:juha-nawadir-kubra-djuwaydi p. 95}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 95, anecdote 210; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

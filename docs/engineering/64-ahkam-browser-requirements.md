@@ -1,6 +1,6 @@
 # 64 · Rulings Browser (obligations, acts of obedience, recommended, disliked and forbidden acts, minor sins) — requirements and production checklist
 
-_The feature requirements for «متصفح الفروض، فروض العين، فروض الكفاية، الطاعات، الواجبات، المستحبات، المحرمات، المكروهات، صغائر الذنب وخلافه», as requested by the founder on 20 November 2026 and delivered in [`docs/plan/72-ahkam-browser.md`](../plan/72-ahkam-browser.md). Written so any person or AI agent can validate each requirement against production (`https://islam.museum`, `https://api.islam.museum`) after the founder's next deploy. Counts are those of 20 November 2026 (`npx tsx scripts/ahkam-audit.ts`); they grow with every harvest._
+_The feature requirements for «متصفح الفروض، فروض العين، فروض الكفاية، الطاعات، الواجبات، المستحبات، المحرمات، المكروهات، صغائر الذنب وخلافه», as requested by the founder on 20 November 2026 and delivered in [`docs/plan/73-ahkam-browser.md`](../plan/73-ahkam-browser.md). Written so any person or AI agent can validate each requirement against production (`https://islam.museum`, `https://api.islam.museum`) after the founder's next deploy. Counts are those of 20 November 2026 (`npx tsx scripts/ahkam-audit.ts`); they grow with every harvest._
 
 ## 0. The original request (verbatim)
 

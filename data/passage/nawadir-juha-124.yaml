@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-124
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "59:124"
+label: { ar: "نوادر جحا الكبرى، ص 59 — «أعطوني همياني أو أريكم ماذا أفعل»", en: "Nawadir Juha al-Kubra, p. 59 — 'Give Me My Purse or I Will Show You What I Do'", ur: "نوادر جحا الکبریٰ، ص 59 — «میری تھیلی دو ورنہ میں تمہیں دکھاؤں گا کہ کیا کرتا ہوں»", fr: "Nawadir Juha al-Kubra, p. 59 — « Rendez-moi ma bourse ou je vous montrerai ce que je fais »", es: "Nawadir Juha al-Kubra, p. 59 — «Devuélvanme mi bolsa o les mostraré lo que hago»" }
+text: "… أعطوني هِمياني أو أُرِيكُم ماذا أفعل كان الشيخ ضيفاً في إحدى القرى، فضاع هِميانُهُ خرجه، فقال لأهل القرية: إما أنْ تجدوا لي خرجي، أو أنِّي أعرف ماذا أصنع. ولما كان الفلاحون يعرفون أن الشيخ، من أعيان البلد، حاروا في أمرهم، …"
+summary:
+  ar: "نزل جحا ضيفًا في قرية وضاع منه همیانه، فقال لأهل القرية أن يجدوه وإلا أراهم ما يفعل؛ فوجدوه، فقال لهم إنه لولا ذلك لجعل سجادة تقوم مقام الكيس. {cite:juha-nawadir-kubra-djuwaydi p. 59}"
+  en: "Juha, a guest in a village, loses his purse, called a hemyan; he tells the villagers to find it or he will show them what he does; they find it, and he says that otherwise he would have made a carpet serve as a bag. {cite:juha-nawadir-kubra-djuwaydi p. 59}"
+  ur: "جحا ایک گاؤں میں مہمان تھا کہ اس کی ہمیانی نام کی تھیلی گم ہو گئی؛ اس نے گاؤں والوں سے کہا کہ اسے ڈھونڈ دو ورنہ میں دکھاؤں گا کہ میں کیا کرتا ہوں؛ انہوں نے تھیلی ڈھونڈ دی، تو اس نے کہا کہ ورنہ میں قالین کو تھیلی بنا لیتا۔ {cite:juha-nawadir-kubra-djuwaydi p. 59}"
+  fr: "Juha, invité dans un village, perd sa bourse, appelée hemyan; il dit aux villageois de la retrouver, sinon il leur montrera ce qu'il fait; ils la retrouvent, et il dit que sinon il aurait fait d'un tapis un sac. {cite:juha-nawadir-kubra-djuwaydi p. 59}"
+  es: "Juha, invitado en una aldea, pierde su bolsa, llamada hemyan; les dice a los aldeanos que la encuentren o les mostrará lo que hace; la encuentran, y él dice que, de no ser así, habría usado una alfombra como bolsa. {cite:juha-nawadir-kubra-djuwaydi p. 59}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 59, anecdote 124; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

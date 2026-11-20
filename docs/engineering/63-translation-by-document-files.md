@@ -28,7 +28,7 @@ One round is one English Word file, translated once into Spanish and once into F
    `/Volumes/exmicroSD/islam-museum-local-mt/gt/`. It takes the records that have no file in either language, in the
    queue order of `translate.py`, and leaves out the held records (Qur'an passage pages, the firewall-exception
    records, records with reading-level sections, damaged English files), records another lane has taken
-   (`fr-taken.txt`) and records that already failed (`logs/gt-<lang>.log.failed`).
+   (`fr-taken.txt`) and records that already failed (`logs/gt-<lang>.log.failed`). The founder released two of these held groups later: the Qur'an passage pages on 19 November 2026 (prose only, no verse text) and the firewall-exception records on 20 November 2026; a list of ids passed with `--ids-file` builds a file for them.
 2. **Translate** — in the browser, `https://translate.google.com/?sl=en&tl=es&op=docs`: choose the file, Translate,
    Download translation. Then `sh scripts/local-mt/gt_round.sh got <n> es` (both downloads have the same name, so the
    first is moved aside). Repeat with `tl=fr` and `got <n> fr`.
@@ -84,3 +84,21 @@ A record that fails is not written; its id goes to `logs/gt-<lang>.log.failed`.
 One test file (2,269 records, Arabic to Spanish, not imported). The markers survived in 2,233 records. In the samples
 read, Google translated book titles as common words, dropped transliterated terms and spelt names differently from
 the English-sourced records. The lane stays with English. This is a judgment from a few samples, not a measurement.
+
+## Titles, summaries and other short texts inside data records
+
+Added 20 November 2026. The prose flow above does not touch `data/`. The title, summary and other language blocks of a
+record are filled by `scripts/local-mt/data_strings.py`: `build --lang <ur|fr|es>` writes Word files of about 950,000
+English words holding only the texts that language lacks (a marker paragraph `#### n ####`, then the English);
+`import --name <file> --docx <download>` checks each text and writes it as one new line in its record, re-reading the
+record to prove nothing else changed; `names --lang <fr|es>` copies the English form of person names.
+
+What it leaves alone: the title of a `source` record (bibliographic), and the Qur'an passage records
+(`data/passage/quran-*.yaml`), which a commit guard freezes. What the machine gets wrong and the importer handles:
+a blessing formula added after "the Prophet" (removed), Arabic text in brackets (wrapped in direction isolates), a
+name left in Latin letters in Urdu (refused). Run `npm run validate` after an import: a transliteration can by chance
+contain a blocked term, as one Urdu name did.
+
+The Word files are uploaded by a person in an ordinary browser. On 19 and 20 November 2026 Google refused every upload
+from the browser the agent drives ("Can't translate this file right now. Try again later") and accepted the same files
+at once when the founder uploaded them by hand.

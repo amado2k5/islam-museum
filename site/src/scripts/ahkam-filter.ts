@@ -1,4 +1,4 @@
-// The Rulings Browser's filter (docs/plan/72-ahkam-browser.md): narrows the list as the
+// The Rulings Browser's filter (docs/plan/73-ahkam-browser.md): narrows the list as the
 // visitor types, matching titles, summaries, work names, theme names and text excerpts in all three languages,
 // ignoring Arabic vowel marks. Without JavaScript the whole list is on the page.
 const input = document.querySelector<HTMLInputElement>("[data-ahkam-filter]");

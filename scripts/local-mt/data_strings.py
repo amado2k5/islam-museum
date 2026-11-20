@@ -12,7 +12,7 @@ paragraph of English. Only a missing value is written; an existing translation i
 one line at the end of its language block (or inside the braces of a one-line block), so the rest of the record keeps
 its bytes; every record is re-read after the change and must equal the old record plus the new values.
 
-Left out on purpose: the Qur'an passage records (frozen, guarded by a commit hook); the title of a `source` record (a bibliographic title is not translated), and the title of a
+Left out on purpose: the Qur'an passage records (frozen, guarded by a commit hook);  the title of a `source` record (a bibliographic title is not translated), and the title of a
 `person` in French and Spanish (the English transliteration is used, as most French titles written before this did)."""
 import argparse, collections, glob, json, os, re, sys, zipfile
 from xml.sax.saxutils import escape
@@ -22,7 +22,7 @@ Loader = getattr(yaml, "CSafeLoader", yaml.SafeLoader)
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 ap = argparse.ArgumentParser(); ap.add_argument("cmd", choices=["build", "import", "names"]); ap.add_argument("--cls", default="all")
 ap.add_argument("--name"); ap.add_argument("--lang", choices=["ur", "fr", "es"]); ap.add_argument("--docx"); ap.add_argument("--words", type=int, default=950000)
-ap.add_argument("--dir", default="/Volumes/exmicroSD/islam-museum-local-mt/gt"); ap.add_argument("--fields", default="label,summary,rooms[].title,rooms[].body")
+ap.add_argument("--ids-file", default=""); ap.add_argument("--prefix", default="gtd"); ap.add_argument("--dir", default="/Volumes/exmicroSD/islam-museum-local-mt/gt"); ap.add_argument("--fields", default="label,summary,rooms[].title,rooms[].body")
 a = ap.parse_args(); FIELDS = a.fields.split(",")
 ARABIC = re.compile(r"[؀-ۿ]")
 HONORIFIC = re.compile(r"ﷺ|صلی اللہ علیہ|علیہ السلام|رضی اللہ عن|رحمۃ اللہ علیہ|رحمہ اللہ|paix (soit )?sur lui|que Dieu l['’]agrée|que la paz sea con|la paz sea con él|bendiciones de (?:Dios|Al[áa]h?) sean con|que Dios esté complacido con|(?:Dios|Al[áa]h?) esté complacido con él|bénédictions (?:de Dieu|d['’]Allah) (?:soient )?sur lui", re.I)
@@ -35,7 +35,11 @@ def classes():
 
 # The Qur'an passage records (data/passage/quran-*.yaml) are frozen: a commit guard refuses any change to them, so they
 # are never read for texts and never written.
-def files(): return [f for c in classes() for f in sorted(glob.glob(os.path.join(ROOT, "data", c, "*.yaml"))) if not (c == "passage" and os.path.basename(f).startswith("quran-"))]
+# The firewall-exception records (docs/delegation/extremism-firewall-exceptions.md) were held from translation until the
+# founder ruled on 20 November 2026, in chat, that they are translated like the rest ("Translate them"). --ids-file
+# limits a run to the records it lists (one "class/slug" per line).
+ONLY = set(l.strip() for l in open(a.ids_file, encoding="utf-8") if l.strip()) if a.ids_file else None
+def files(): return [f for c in classes() for f in sorted(glob.glob(os.path.join(ROOT, "data", c, "*.yaml"))) if not (c == "passage" and os.path.basename(f).startswith("quran-")) and (ONLY is None or f"{c}/{os.path.basename(f)[:-5]}" in ONLY)]
 cls_of = lambda f: os.path.basename(os.path.dirname(f))
 
 
@@ -71,8 +75,8 @@ def write_values(f, text, old, adds, L):
     def find(path):
         mm = re.fullmatch(r"(\w+)\[(\d+)\]\.(\w+)", path)
         if not mm:
-            i = next(k for k, l in enumerate(lines) if l == f"{path}:" or l.startswith(f"{path}: ")); ind = 0
-            if lines[i] != f"{path}:": return ("flow", i)
+            i = next(k for k, l in enumerate(lines) if l in (f"{path}:", f'"{path}":') or l.startswith(f"{path}: ")); ind = 0
+            if lines[i] not in (f"{path}:", f'"{path}":'): return ("flow", i)
         else:
             lst, idx, key = mm.group(1), int(mm.group(2)), mm.group(3)
             s = next(k for k, l in enumerate(lines) if l == f"{lst}:"); item = -1; i = None
@@ -88,11 +92,12 @@ def write_values(f, text, old, adds, L):
         while j < len(lines) and (not lines[j].strip() or len(lines[j]) - len(lines[j].lstrip(" ")) > ind): j += 1
         while not lines[j - 1].strip(): j -= 1
         child = len(lines[i + 1]) - len(lines[i + 1].lstrip(" "))
-        return ("block", j, child)
+        if not re.match(r'\s+"?[a-z]{2}"?: ', lines[i + 1]): raise ValueError(f"{path}: a block whose children are not one language per line")
+        return ("block", j, child, lines[i + 1].lstrip(" ").startswith('"'))
     places = [(find(p), p, v) for p, v in adds]
     for place, p, v in sorted(places, key=lambda x: -x[0][1]):
         q = json.dumps(v, ensure_ascii=False)
-        if place[0] == "block": lines.insert(place[1], " " * place[2] + f"{L}: {q}")
+        if place[0] == "block": lines.insert(place[1], " " * place[2] + (f'"{L}": {q}' if place[3] else f"{L}: {q}"))
         else:
             l = lines[place[1]]; m = re.fullmatch(r"(.*?)(\s*)\}(\s*)", l)
             if not m or "{" not in l: raise ValueError(f"{p}: neither a block nor a one-line mapping")
@@ -149,7 +154,7 @@ if a.cmd == "build":
         cur.append(s); w += n
     if cur: parts.append(cur)
     for k, part in enumerate(parts, 1):
-        name = f"gtd-{L}-{k:02d}"
+        name = f"{a.prefix}-{L}-{k:02d}"
         docx([p for n, s in enumerate(part, 1) for p in (f"#### {n} ####", " ".join(s.split()))], f"{a.dir}/{name}-en.docx")
         json.dump({"lang": L, "strings": part}, open(f"{a.dir}/{name}.json", "w", encoding="utf-8"), ensure_ascii=False)
         print(f"{name}\ttexts {len(part)}\twords {sum(len(s.split()) for s in part)}\tbytes {os.path.getsize(f'{a.dir}/{name}-en.docx')}")

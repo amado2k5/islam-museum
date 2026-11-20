@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-101
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "50:101"
+label: { ar: "نوادر جحا الكبرى، ص 50 — «أعرفه منذ كانت طاسة ترابة»", en: "Nawadir Juha al-Kubra, p. 50 — 'I Have Known It Since It Was a Little Clay Bowl'", ur: "نوادر جحا الکبریٰ، ص 50 — «میں اسے تب سے جانتا ہوں جب یہ مٹی کا چھوٹا کٹورا تھا»", fr: "Nawadir Juha al-Kubra, p. 50 — « Je la connais depuis qu'elle était une petite écuelle d'argile »", es: "Nawadir Juha al-Kubra, p. 50 — «La conozco desde que era un pequeño cuenco de barro»" }
+text: "… أعرفه منذ كانت طاسة ترابة سُرِقَ لِجاره حلةٌ دست فوجدَها مع بعضِهِم فأحضرَ الشيخَ شاهِداً فسألَهُ القاضي: هل تعلم أنَّ هذه الحلّةَ لهذا الرجل المسلم؟ فأجابه الشيخ: أجل أعرِفُها منذُ كانَتْ طاسَةً للترابةِ وقد كبرَتْ بيدِ هذا. لا تتكبر فالماء …"
+summary:
+  ar: "وُجد طست عجين مسروق مع أطسات أخرى، فسأل القاضي جحا شاهدًا، فقال إنه يعرف الطست منذ كان صحنًا صغيرًا من الطين وقد كبر في يد هذا الرجل. {cite:juha-nawadir-kubra-djuwaydi p. 50}"
+  en: "A stolen kneading basin, a dast, is found with others; the judge asks Juha as witness; Juha says that he has known the basin since it was a small clay bowl, and that it grew up in this man's hand. {cite:juha-nawadir-kubra-djuwaydi p. 50}"
+  ur: "ایک چوری شدہ آٹا گوندھنے کا طشت دوسرے طشتوں کے ساتھ ملا؛ قاضی نے جحا سے بطور گواہ پوچھا؛ جحا نے کہا کہ میں اس طشت کو تب سے جانتا ہوں جب یہ مٹی کا چھوٹا کٹورا تھا، اور یہ اسی آدمی کے ہاتھ میں بڑا ہوا ہے۔ {cite:juha-nawadir-kubra-djuwaydi p. 50}"
+  fr: "Un dast, bassine à pétrir volée, est retrouvé avec d'autres ; le juge interroge Juha comme témoin ; Juha dit qu'il connaît la bassine depuis qu'elle était une petite écuelle d'argile et qu'elle a grandi dans la main de cet homme. {cite:juha-nawadir-kubra-djuwaydi p. 50}"
+  es: "Un dast, una artesa de amasar robada, aparece junto con otras; el juez interroga a Juha como testigo; Juha dice que conoce la artesa desde que era un pequeño cuenco de barro y que creció en la mano de este hombre. {cite:juha-nawadir-kubra-djuwaydi p. 50}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 50, anecdote 101; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

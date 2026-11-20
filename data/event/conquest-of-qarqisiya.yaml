@@ -1,7 +1,7 @@
 id: event/conquest-of-qarqisiya
 class: event
 kind: conquest
-label: { ar: "فتح قرقيسيا", en: "Conquest of Qarqisiya (16 AH)", es: "Conquista de Qarqisiya (16 AH)", fr: "Conquête de Qarqisiya (16 AH)" }
+label: { ar: "فتح قرقيسيا", en: "Conquest of Qarqisiya (16 AH)", es: "Conquista de Qarqisiya (16 AH)", fr: "Conquête de Qarqisiya (16 AH)", ur: "قرقیسیہ کی فتح ⁦(16ھ)⁩" }
 date:
   start: { edtf: "0637", hijri: "0016", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 16؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 350}." }
 summary:
@@ -9,6 +9,7 @@ summary:
   en: "Qarqisiya on the Euphrates taken in year 16, in the wake of Masabadhan within the Jazira campaign {cite:kamil-ibn-al-athir p. 350}."
   es: "Qarqisiya en el Éufrates tomada en el año 16, tras Masabadhan dentro de la campaña de Jazira {cite:kamil-ibn-al-athir p. 350}."
   fr: "Qarqisiya sur l'Euphrate prise en l'an 16, à la suite de Masabadhan dans la campagne de Jazira {cite:kamil-ibn-al-athir p. 350}."
+  ur: "قرقیسیہ فرات پر 16 میں لیا گیا، جزیرہ مہم کے دوران مسابدان کے تناظر میں۔ 350}۔"
 wings: [time]
 relations:
   - { type: occurred_at, target: place/qarqisiya, sources: [source/kamil-ibn-al-athir] }

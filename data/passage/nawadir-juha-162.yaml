@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-162
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "74:162"
+label: { ar: "نوادر جحا الكبرى، ص 74 — «هل سمعت من يشكو الربيع؟»", en: "Nawadir Juha al-Kubra, p. 74 — 'Have You Heard Anyone Complain of Spring?'", ur: "نوادر جحا الکبریٰ، ص 74 — «کیا تم نے کبھی کسی کو بہار کی شکایت کرتے سنا؟»", fr: "Nawadir Juha al-Kubra, p. 74 — « As-tu déjà entendu quelqu'un se plaindre du printemps ? »", es: "Nawadir Juha al-Kubra, p. 74 — «¿Has oído a alguien quejarse de la primavera?»" }
+text: "… هل سمعت مَن يشكو الربيع؟ شكا أحدهم شدة البرد فسمعه آخر فقال: يا للعجب من هؤلاء الناس إذا جاء"
+summary:
+  ar: "اشتكى رجل من البرد، فقال آخر إن الناس يشتكون في الشتاء من البرد وفي الصيف من الحر؛ فقال جحا نعم، ولكن هل سمعتم أحدًا اشتكى من الربيع. {cite:juha-nawadir-kubra-djuwaydi p. 74}"
+  en: "A man complains of cold, and another says people complain in winter of cold and in summer of heat; Juha says yes, but has anyone ever complained of spring. {cite:juha-nawadir-kubra-djuwaydi p. 74}"
+  ur: "ایک آدمی نے سردی کی شکایت کی تو دوسرے نے کہا کہ لوگ سردیوں میں سردی کی اور گرمیوں میں گرمی کی شکایت کرتے ہیں؛ جحا نے کہا ہاں، مگر کیا کسی نے کبھی بہار کی شکایت کی ہے۔ {cite:juha-nawadir-kubra-djuwaydi p. 74}"
+  fr: "Un homme se plaint du froid, et un autre dit qu'on se plaint du froid en hiver et de la chaleur en été; Juha dit que oui, mais que personne ne s'est jamais plaint du printemps. {cite:juha-nawadir-kubra-djuwaydi p. 74}"
+  es: "Un hombre se queja del frío, y otro dice que la gente se queja del frío en invierno y del calor en verano; Juha dice que sí, pero que nadie se ha quejado jamás de la primavera. {cite:juha-nawadir-kubra-djuwaydi p. 74}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 74, anecdote 162; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

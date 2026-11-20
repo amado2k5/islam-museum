@@ -2,7 +2,7 @@
  * Harvest the hadith reports that name an obligation, an act of obedience, a recommended, a
  * disliked or a permitted act, or the minor sins, from the hadith-api Arabic editions
  * (fawazahmed0/hadith-api, Unlicense) into data/passage/, for the Rulings Browser
- * (docs/plan/72-ahkam-browser.md).
+ * (docs/plan/73-ahkam-browser.md).
  *
  * Every candidate is gated by the same detector the browser uses (scripts/ahkam.ts): a strong
  * signal of a theme other than «المحرمات» must fire, because the reports whose only theme is the

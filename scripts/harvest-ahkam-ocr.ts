@@ -2,7 +2,7 @@
  * Harvest the passages that name an obligation (individual or communal), an act of obedience,
  * a recommended, a disliked or a permitted act, or the minor sins, from books already OCR'd on
  * the harvest drive (Apple Vision text in <book>/<scan>/pages.json) into data/passage/, for the
- * Rulings Browser (docs/plan/72-ahkam-browser.md): the books of usul al-fiqh that define the
+ * Rulings Browser (docs/plan/73-ahkam-browser.md): the books of usul al-fiqh that define the
  * degrees (al-Risala, al-Burhan, al-Mustasfa, al-Muwafaqat, Irshad al-Fuhul), the books of
  * fiqh, the hadith commentaries, the seerah, the biographies and reports of the Companions and
  * the Successors, the books of renunciation, and the histories. No PDF, OCR text or page image
