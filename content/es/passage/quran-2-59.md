@@ -1,0 +1,19 @@
+---
+id: passage/quran-2-59
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-2-59.md}
+---
+## Resumen
+Versículo 59 de la Sura [[passage/quran-2|Al-Baqarah]] {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 59 de 286 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+Sobre «pero aquellos que obraron mal cambiaron la palabra por otra cosa de lo que se les había dicho», al-Tabari dice que «baddala» significa cambiado, «aquellos que obraron mal» son aquellos que hicieron lo que no tenían derecho a hacer, y su cambio consistió en decir algo distinto de lo que se les había ordenado. Cita un relato de Abu Hurayra del Profeta: Dios les dijo a los Hijos de Israel que entraran por la puerta postrándose y diciendo «hitta», pero ellos lo cambiaron y entraron por la puerta arrastrándose de espaldas, diciendo «un grano en un grano de cebada». El editor señala que se encuentra en Ahmad, al-Bujari, Muslim y al-Tirmidhi, con una variación entre «shi'ra» y «sha'ira» en su redacción, y que de las dos cadenas que al-Tabari da de Ibn Ishaq, una es sólida y continua, y la otra tiene un narrador anónimo. {cite:tafsir-tabari-shakir-v02 p. 112} {cite:tafsir-tabari-shakir-v02 p. 113}
+Los relatos presentan diferentes versiones de lo que dijeron: de Ibn Mas'ud, «un trigo rojo con un grano de cebada dentro»; de Ibn Abbas, que se les indicó que entraran inclinándose por una puerta pequeña y que entraran de espaldas diciendo primero «trigo» en burla; de Qatada y al-Hasan, que entraron arrastrándose sobre sus talones; de Mujahid, que la puerta se bajó para que se postraran, pero no lo hicieron y entraron de espaldas; de al-Suddi, a través de Ibn Mas'ud, que dijeron una frase no árabe que significa «un grano de trigo rojo perforado con un grano de cebada negro dentro»; de al-Rabi', que la postración de cada uno fue sobre su mejilla. Ibn Zayd dice que se burlaron de Moisés diciendo «hitta, hitta, ¿qué es hitta?», y se dijeron unos a otros «trigo»; Ikrima dice que entraron con la cabeza cubierta. {cite:tafsir-tabari-shakir-v02 p. 113} {cite:tafsir-tabari-shakir-v02 p. 114} {cite:tafsir-tabari-shakir-v02 p. 115}
+Sobre «Así que enviamos sobre quienes obraron mal un castigo del cielo por su transgresión», sostiene que quienes obraron mal son aquellos que cambiaron la palabra y desobedecieron, y que «rijz» en árabe significa castigo, distinto de «rujz» con damma, como en la sura al-Muddaththir. Cita el relato de Usama ibn Zayd del Profeta acerca de la peste, que es un castigo con el que algunas naciones antes que vosotros fueron azotadas; el editor señala su origen en los dos Sahihs. {cite:tafsir-tabari-shakir-v02 p. 116}
+
+Al-Tabari completa el hadiz con una segunda cadena de Usama ibn Zayd: la plaga es un azote enviado sobre quienes os precedieron, o sobre los Hijos de Israel. Qatada, Ibn Zayd e Ibn Abbas dicen que "rijz" es castigo, Abu al-Aliya que es ira, e Ibn Zayd que Dios les envió la plaga y no dejó a nadie más que a los hijos. Al-Tabari dice que los castigos de Dios son de muchas clases, pudo haber sido plaga u otra cosa, y ni el Corán aparente ni ningún relato fidedigno del Mensajero muestran su naturaleza; lo correcto es decir, como Dios dijo, que fue un azote del cielo, aunque se inclina por la opinión de Ibn Zayd debido al relato sobre la plaga, sin afirmarlo como cierto, ya que ese relato no dice qué comunidad fue castigada. "Transgredir" significa abandonar la obediencia a Dios por la desobediencia. {cite:tafsir-tabari-shakir-v02 p. 117} {cite:tafsir-tabari-shakir-v02 p. 118} {cite:tafsir-tabari-shakir-v02 p. 119}

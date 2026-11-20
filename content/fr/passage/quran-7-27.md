@@ -1,0 +1,26 @@
+---
+id: passage/quran-7-27
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-7-27.md}
+---
+## Résumé
+Verset 27 de [[passage/quran-7|la sourate al-A'raf]], une sourate mecquoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 27 sur 206 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+Puis, concernant le verset « Enfants d’Adam, que Satan ne vous tente pas comme il a chassé vos parents du Paradis, les dépouillant de leurs vêtements pour leur montrer leur nudité », Dieu dit : « Enfants d’Adam, que Satan ne vous trompe pas en vous incitant à exposer votre nudité aux hommes en lui obéissant lorsqu’il vous met à l’épreuve, comme il l’a fait avec vos parents Adam et Ève lorsqu’il les a mis à l’épreuve et qu’ils lui ont obéi et désobéi à leur Seigneur. Par la ruse et la tromperie qu’il a ourdies contre eux, il les a fait chasser du Paradis et leur a pris les vêtements dont Il les avait revêtus, afin de leur montrer leur nudité en la découvrant et en la leur montrant après qu’elle ait été couverte. » Al-Tabari précise avoir expliqué précédemment que « fitna » signifie épreuve et tentation. Les commentateurs divergent quant à la nature du « vêtement » que Dieu dit avoir pris à nos parents. Certains disent qu’il s’agissait des ongles : il rapporte (14451) d’après Ikrima que chaque animal a sa propre enveloppe et que celle de l’homme est l’ongle, et que le repentir a atteint Adam par son ongle. {cite:tafsir-tabari-shakir-v12 p. 373}
+
+(14452) D'après Ibn Abbas, ses ongles lui furent laissés comme ornement et source de bienfaits ; (14453) d'après lui, leur vêtement était le clou, et lorsqu'ils tombèrent dans l'erreur, il leur fut enlevé et les clous restèrent comme rappel et ornement ; et (14454) d'après Ikrima, son vêtement était le clou, de sorte que son repentir atteignit ses ongles. D'autres disent que leur vêtement était lumière : il rapporte (14455) et (14456) d'après Wahb ibn Munabbih, selon lesquels le vêtement d'Adam et Ève était une lumière sur leurs parties intimes, de sorte qu'aucun ne vit la nudité de l'autre. {cite:tafsir-tabari-shakir-v12 p. 374}
+
+D'autres ont affirmé que, par « les dépouiller de leurs vêtements », Dieu entendait les dépouiller de leur crainte de Dieu. L'auteur cite les hadiths (14457), (14458) et (14459) de Mujahid, selon lesquels ce vêtement représente la piété. La note indique que Mutallib ibn Ziyad était considéré comme très faible par Ibn Sa'd, mais digne de confiance à d'autres. Abu Hatim a déclaré que son hadith était écrit, mais non fiable. Al-Tabari affirme que, selon lui, l'avis juste est que Dieu a averti Ses serviteurs de ne pas se laisser tenter par Satan, comme Il a tenté leurs parents Adam et Ève, et de ne pas se laisser dépouiller des vêtements qu'Il leur a envoyés, comme Il a dépouillé leurs parents de leurs vêtements. Le terme « vêtement », sans autre précision ni connotation, désigne, dans l'usage courant, ce que celui qui le porte, qu'il s'agisse de vêtements couvrant son corps ou une partie de celui-ci. Cela étant dit, la chose juste à dire est que ce que Dieu a rapporté du vêtement d'Adam et Ève que Satan leur a enlevé faisait partie de ce dont ils couvraient leurs corps et leurs parties intimes, {cite:tafsir-tabari-shakir-v12 p. 375}
+
+Il se peut que ce fût un clou, une lumière, ou autre chose, et aucun récit ne le prouve. Aussi, rien n'est plus juste que de reprendre les paroles de Dieu : « les dépouiller de leurs vêtements ». Dieu attribua à Iblis l'expulsion d'Adam et Ève du Paradis et la perte de leurs vêtements, bien que Dieu fût l'auteur de ce châtiment pour leur désobéissance. En effet, ce qui leur avait été ôté provenait de la ruse et de la tromperie d'Iblis ; ainsi, ce châtiment leur fut attribué tantôt à Iblis, tantôt à Dieu. {cite:tafsir-tabari-shakir-v12 p. 376}
+
+Puis, concernant le verset « il te voit, lui et sa tribu, d’où tu ne les vois pas ; Nous avons fait des démons les alliés des mécréants », il dit : Dieu veut dire que le démon te voit ; le « hu » dans « innahu » renvoie au démon ; et « sa tribu » désigne son espèce et le genre auquel il appartient, c’est-à-dire les djinns ; il cite (14460) de Mujahid selon lequel « il te voit, lui et sa tribu » désigne les djinns et les démons. {cite:tafsir-tabari-shakir-v12 p. 376}
+
+Il rapporte (14461) d'après Ibn Zayd que « sa tribu » désigne sa descendance. « D'où vous ne les voyez pas » signifie d'où vous, les gens, ne voyez pas le diable et sa tribu ; « Nous avons fait des démons les alliés des mécréants » signifie « Nous avons fait des démons les auxiliaires des mécréants qui ne reconnaissent pas l'unicité de Dieu ni ne croient en Ses messagers ». {cite:tafsir-tabari-shakir-v12 p. 377}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

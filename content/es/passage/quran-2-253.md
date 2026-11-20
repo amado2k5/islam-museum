@@ -1,0 +1,22 @@
+---
+id: passage/quran-2-253
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-2-253.md}
+---
+## Resumen
+Versículo 253 de [[passage/quran-2|Surat al-Baqara]], una sura de Medina. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 253 de 286 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+Al-Tabari abre ([[passage/quran-2-253|2:253]]) en la pág. 378: la palabra que señala se refiere a los mensajeros cuyas historias Dios relató en este capítulo, como Moisés hijo de Amram, Abraham, Ismael, Isaac, Jacob, Samuel, David y el resto cuyos relatos se dan en él; dice que Dios favoreció a algunos sobre otros, hablando con algunos, y aquel con quien habló entre ellos fue Moisés, y elevó a algunos por grados en honor y posición; esta es su interpretación. {cite:tafsir-tabari-shakir-v05 p. 378} De Mujahid (5755, el número no está claro en el escaneo, seguido de 5756 con el mismo efecto), explicando el favoritismo: Dios habló con Moisés y envió a Mahoma a toda la gente. {cite:tafsir-tabari-shakir-v05 p. 378} Nos detenemos en la última página leída.
+
+El resto de ([[passage/quran-2-253|2:253]]) de la pág. 379: como apoyo a lo que dijo acerca del favoritismo hacia los mensajeros, al-Tabari cita (5757), sin cadena, un dicho del Profeta que afirma que se le concedieron cinco cosas que nadie antes que él había recibido: fue enviado al rojo y al negro, fue ayudado por el temor infundido en el enemigo a un mes de distancia, la tierra se convirtió en un lugar de oración y un medio de purificación para él, se le hicieron lícitos los botines, y se le dijo que pidiera y se le concedería, y guardó su petición en reserva como intercesión por su comunidad. {cite:tafsir-tabari-shakir-v05 p. 379} En la nota, el editor dice que es de Ibn Abbas, encontrado en el Musnad y en otros lugares, con una redacción diferente en al-Bujari y Muslim, y lo considera auténtico; esta es su clasificación. {cite:tafsir-tabari-shakir-v05 p. 379}
+
+Al-Tabari explica entonces lo que le fue dado a Jesús, hijo de María: pruebas y evidencias de su profecía, como la curación del ciego de nacimiento y del leproso, y la resurrección de los muertos, junto con el Evangelio que le fue revelado; interpreta la palabra «fortalecimiento» como apoyo y ayuda, afirma que el Espíritu Santo es Gabriel y remite a su análisis previo de las diferencias en torno al significado del Espíritu Santo y su postura preferida al respecto, la cual no repite. {cite:tafsir-tabari-shakir-v05 p. 379} {cite:tafsir-tabari-shakir-v05 p. 380} Esta es su interpretación.
+
+Al-Tabari explica entonces la condición sobre la lucha de quienes vinieron después de los mensajeros: si Dios hubiera querido, quienes vinieron después de los mensajeros a quienes Él había favorecido, y después de Jesús, no habrían luchado, aunque les hubieran llegado señales que disuaden a quien Dios guía; las pruebas claras fueron las que les hicieron evidente la verdad. {cite:tafsir-tabari-shakir-v05 p. 380} Se ha dicho que el pronombre se refiere a Moisés y Jesús, y así se informa en Qatada (5758) y en al-Rabi' (5759): después de Moisés y Jesús. {cite:tafsir-tabari-shakir-v05 p. 380} {cite:tafsir-tabari-shakir-v05 p. 381}
+
+En la siguiente parte, al-Tabari dice: aquellos que vinieron después de los mensajeros discreparon, ya que Dios no quiso que no lucharan, y lucharon después de que llegaron pruebas claras de su Señor prohibiendo la lucha y la discordia, y después de que la prueba de la unicidad de Dios y la misión de Sus mensajeros se estableció contra ellos; algunos no creyeron y otros creyeron, y cometieron incredulidad y pecados a sabiendas, deliberadamente. {cite:tafsir-tabari-shakir-v05 p. 381} Dice que si Dios hubiera querido protegerlos y concederles el éxito y así refrenarlos de la desobediencia, no habrían luchado ni discrepado, pero el resultado depende de Su decisión, concedendo el éxito en la obediencia a uno para que crea y obedezca, y abandonando a otro para que no crea y desobedezca; esta es su interpretación y argumento. {cite:tafsir-tabari-shakir-v05 p. 381} En las notas, el editor corrige la redacción y un error de escriba; estos son suyos. {cite:tafsir-tabari-shakir-v05 p. 379} {cite:tafsir-tabari-shakir-v05 p. 381}

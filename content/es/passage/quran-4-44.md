@@ -1,0 +1,22 @@
+---
+id: passage/quran-4-44
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-4-44.md}
+---
+## Resumen
+Versículo 44 de [[passage/quran-4|Surat an-Nisa]], una sura medinense. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 44 de 176 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+**El sentido de la fórmula de la visión al comienzo del versículo (págs. 426-427, notas 1-5).** Los intérpretes discreparon: algunos dijeron que significa "¿no se te ha dicho?", otros "¿no lo sabes?". Al-Tabari dice que el sentido correcto es: ¿no has visto con tu corazón, Muhammad, el conocimiento de aquellos a quienes se les entregó una porción de la Escritura?, porque el relato y el conocimiento no traen la visión con los ojos, sino la visión del corazón a través del conocimiento. La entrega de una porción significa que se les dio una porción del libro de Dios y lo conocieron. El editor se remite a explicaciones anteriores de la fórmula y al Ma'ani al-Qur'an de al-Farra y corrige dos lugares en el manuscrito y la impresión. {cite:tafsir-tabari-shakir-v08 p. 427}
+
+**¿A quién se refiere? (pp. 427-428, informes 9687-9690, notas 1-4).** Se mencionó que Dios se refería a un grupo de judíos alrededor del lugar de emigración del Profeta. Bishr b. Mu'adh relató de Yazid, de Sa'id, de Qatada que son los judíos, a quienes llama enemigos de Dios, que eligieron el extravío (9687); al-Qasim de al-Husayn, de Hajjaj, de Ibn Jurayj, de Ikrima que el pasaje fue revelado acerca de Rifa'a b. Zayd b. al-Sa'ib el judío (9688); Abu Kurayb de Yunus b. Bukayr, de Ibn Ishaq, de Muhammad b. Abi Muhammad, cliente de Zayd b. Thabit, de Sa'id b. Jubayr o Ikrima, de Ibn Abbas que Rifa'a b. Zayd b. al-Tabut, uno de sus notables, cuando hablaba con el Mensajero torcía la lengua con una palabra ambigua de interpelación que sonaba como pedir una audiencia, luego hablaba en contra del Islam y lo criticaba, y el pasaje fue enviado (9689); Ibn Humayd de Salama, de Ibn Ishaq con su cadena de Ibn Abbas, lo mismo (9690). El editor dice que el nombre aparece en el manuscrito como en la impresión "b. al-Sa'ib" y en el siguiente informe "b. al-Tabut", que los nombres judíos son difíciles y no pudo decidir que alguno fuera incorrecto, tal vez al-Sa'ib fuera el nombre de su abuelo y al-Tabut su apodo; que en 9689 tanto el manuscrito como la impresión leen "Abu Ishaq" en lugar de "Ibn Ishaq", un grave error que corrigió; que el informe está en la Sira de Ibn Hisham y sigue a un informe anterior en esta obra (su número es ilegible en el escaneo); y que "Abu Ishaq" en 9690 es un error de imprenta únicamente. {cite:tafsir-tabari-shakir-v08 p. 428}
+
+**El sentido de elegir el extravío (págs. 428-429, nota 4).** Al-Tabari dice que significa que los judíos, al recibir una porción de las Escrituras, eligieron el error, que consiste en tomar un camino distinto a la verdad y seguir una senda diferente a la guía correcta, aun conociendo el camino recto. Dios los describió así por su persistencia en negar a Mahoma y abandonar la fe en él, a pesar de saber que creer en él es el camino verdadero y de afirmar lo que encontraron de su descripción en sus libros. El editor remite a explicaciones anteriores de las palabras «para comprar» y «para el error». {cite:tafsir-tabari-shakir-v08 p. 429}
+
+**Su deseo de extraviar a los creyentes y la advertencia (p. 429).** Al-Tabari afirma que estos judíos quieren que los compañeros de Mahoma que creen en él abandonen el camino recto y la senda de la verdad, nieguen a Mahoma y se extravíen como ellos; esta es una advertencia de Dios a sus siervos creyentes para que no se dejen aconsejar por ninguno de aquellos a quienes llama enemigos del Islam (según sus propias palabras) en asuntos de su religión, ni presten atención a ninguno de sus ataques contra la verdad. {cite:tafsir-tabari-shakir-v08 p. 429}
+
+Estas declaraciones se presentan tal como fueron transmitidas; las elecciones y los argumentos son de al-Tabari, las notas y los rastreos de fuentes son del editor, y el museo no emite ningún veredicto. {cite:tafsir-tabari-shakir-v08 p. 429}

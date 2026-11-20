@@ -1,0 +1,24 @@
+---
+id: passage/quran-9-6
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-9-6.md}
+---
+## Résumé
+Verset 6 de [[passage/quran-9|la sourate at-Tawba]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 6 sur 129 de la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Commentaire sur le verset 6 (pp. 138-140)**
+
+Al-Tabari rapporte que Dieu s'adresse à Son Prophète : « Si, après les mois sacrés, l'un des polythéistes que tu as reçu l'ordre de combattre et de tuer te demande protection, ô Muhammad, afin d'entendre la parole de Dieu, c'est-à-dire le Coran, alors accorde-lui ta protection, c'est-à-dire assure-lui la sécurité jusqu'à ce qu'il entende la parole de Dieu que tu lui récites. Ensuite, ramène-le en lieu sûr, c'est-à-dire renvoie-le après l'avoir entendu, s'il refuse de se convertir à l'islam et ne tient pas compte de ce que tu as récité, là où il est à l'abri de toi et de ceux qui te sont obéissants, jusqu'à ce qu'il rejoigne sa famille et son peuple polythéiste. » « Car ce sont des gens qui ne savent pas » signifie que tu dois agir ainsi, en leur assurant la sécurité afin qu'ils puissent entendre le Coran et en les ramenant en lieu sûr s'ils refusent l'islam, car ils sont ignorants, ils ne comprennent pas la preuve divine et ne savent pas ce que la foi leur apporterait ni le poids du péché qu'implique l'abandon de la religion. {cite:tafsir-tabari-shakir-v14 p. 138}
+
+Le hadith 16481, rapporté par Ibn Ishaq, via Ibn Humayd et Salama : « si l’un des polythéistes sollicite ta protection » désigne l’un de ceux qu’il avait reçu l’ordre de combattre et qu’il devait protéger ; l’éditeur se réfère à la Sira d’Ibn Hisham. Le hadith 16482, rapporté par al-Suddi : la parole de Dieu est le Coran. Le hadith 16483, rapporté par Mujahid, via Muhammad ibn Amr, Abu Asim, Isa et Ibn Abi Najih : celui qui vient écouter tes paroles et ce qui t’a été révélé est en sécurité jusqu’à ce qu’il revienne écouter la parole de Dieu et regagne le lieu sûr d’où il venait ; le hadith 16484 est similaire. Le hadith 16485, rapporté par Sa’id, via Ibn Humayd, Ya’qub et Ja’far : le Messager partit en raid et rencontra l’ennemi. Les musulmans firent venir un polythéiste et pointèrent leurs lances vers lui, et l'homme dit : « Enlevez vos armes et laissez-moi entendre la parole de Dieu. » Ils lui dirent de témoigner qu'il n'y a de dieu que Dieu et que Muhammad est Son serviteur et messager, de se débarrasser des rivaux et de renier al-Lat et al-Uzza, et il dit : « Je vous prends à témoin que je l'ai fait. » {cite:tafsir-tabari-shakir-v14 p. 139}
+
+Le hadith 16486, rapporté par Ibn Zayd, via Yunus et Ibn Wahb : « conduis-le ensuite en lieu sûr » signifie que si ce que vous récitez et lui dites ne lui convient pas, conduisez-le, et ce hadith n’est pas abrogé. Il y a eu divergence d’opinions quant à l’abrogation de ce verset : certains affirment qu’il ne l’est pas, d’autres qu’il l’est. Le hadith 16487, rapporté par al-Dahhak, via Ahmad ibn Ishaq, Abu Ahmad, Sufyan et Juwaybir : « Tuez les polythéistes où que vous les trouviez » a été abrogé par le verset autorisant la grâce ou la rançon ([[passage/quran-47-4|47:4]]) ; le hadith 16488, rapporté par al-Suddi, va dans le même sens. D’autres ont plutôt soutenu que les paroles du verset 47:4 concernant la grâce étaient abrogées par « tuez les polythéistes ». Le rapport 16489, de Qatada, par l'intermédiaire d'Ibn Waki, Abda ibn Sulayman et Ibn Abi Aruba, indique que l'enchaînement des captifs dans 47:4 a été abrogé par l'ordre de tuer. {cite:tafsir-tabari-shakir-v14 p. 140}
+
+Al-Tabari affirme que, selon lui, ce verset n'est pas abrogé, car l'abrogation implique la suppression d'une règle établie par un autre. Or, rien ne prouve que la règle divine concernant les polythéistes ait jamais été de les tuer systématiquement, puis abrogée en les laissant en vie contre rançon ou grâce. La rançon, la grâce et la mise à mort ont toujours figuré parmi les règles du Messager à leur égard, dès sa première guerre, à partir du jour de Badr. Le sens du verset est donc : tuez les polythéistes où que vous les trouviez, conduisez-les pour qu'ils soient tués, qu'ils soient rachetés ou qu'on leur accorde une faveur, et assiégez-les. L'éditeur renvoie à l'avis d'al-Tabari sur l'abrogation dans les index. {cite:tafsir-tabari-shakir-v14 p. 140}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

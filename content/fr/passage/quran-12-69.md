@@ -1,0 +1,24 @@
+---
+id: passage/quran-12-69
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-12-69.md}
+---
+## Résumé
+Verset 69 de [[passage/quran-12|la sourate Yusuf]], une sourate mecquoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 69 sur 111 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Commentaire sur le verset 69 (pp. 169-171)**
+
+Al-Tabari rapporte : « Lorsque les fils de Ya'qub entrèrent chez Joseph, il prit son frère auprès de lui et dit : « Je suis ton frère, ne t'afflige donc pas de ce qu'ils faisaient autrefois. » Selon le hadith 19503, rapporté par al-Suddi, via Ibn Waki', Amr et Asbat : Joseph reconnut son frère, les logea dans une maison et leur offrit à manger et à boire. La nuit venue, il apporta des matelas et dit : « Que deux frères parmi vous dorment sur un même matelas. » Quand le garçon se retrouva seul, Joseph dit : « Celui-ci dormira avec moi dans mon lit. » Il passa la nuit avec lui, humant son parfum et le serrant contre lui jusqu'au matin, tandis que Rubil répétait : « Nous n'avons jamais vu un garçon pareil ! Débarrasse-nous de lui ! » L'éditeur explique que « mithal », avec un kasra sur le mim, désigne un lit ou une literie, et que le texte imprimé a mal interprété le manuscrit à un moment donné du rapport et a produit une formulation incompréhensible. {cite:tafsir-tabari-shakir-v16 p. 169}
+
+Rapport 19504, d'Ibn Ishaq, transmis par Ibn Humayd et Salama : Lorsque les fils de Ya'qub se présentèrent à Joseph, ils dirent : « Voici notre frère, celui que tu nous as demandé de t'amener. Nous l'avons amené. » On m'a rapporté qu'il leur dit : « Vous avez bien agi, et vous le constaterez auprès de moi. » Puis il ajouta : « Je vois que vous êtes des hommes, et je souhaite vous honorer. » Il appela son intendant et lui dit : « Logez chacun deux séparément, puis honorez-les et traitez-les bien. » Il dit ensuite : « Je vois que cet homme que vous avez amené n'a pas de second, je le prendrai donc avec moi et il logera chez moi. » Joseph les logea donc deux par deux dans différentes demeures et prit son frère avec lui. Lorsqu'il fut seul avec lui, il dit : « Je suis ton frère, je suis Joseph. Ne t'afflige pas de ce qu'ils nous ont fait par le passé, car Dieu a été bon envers nous. Ne leur répète rien de ce que je t'ai dit. » L'éditeur souligne une différence entre le texte imprimé et le manuscrit dans le mot désignant l'intendant et dit qu'il a ajouté un mot pour que le sens soit conservé. {cite:tafsir-tabari-shakir-v16 p. 170}
+
+Rapport 19505, rapporté de Qatada, transmis par Bishr, Yazid et Sa'id : il le prit sous son aile et l'hébergea ; il s'agissait de Benjamin. Rapport 19506, rapporté de Wahb ibn Munabbih, transmis par al-Muthanna, Ishaq, Isma'il ibn Abd al-Karim et Abd al-Samad ibn Ma'qil, interrogé sur les paroles de Joseph : comment cela s'est-il passé lorsqu'il le saisit par la coupe, après lui avoir dit qu'il était son frère, alors que vous prétendez qu'il leur resta déguisé, complotant contre eux jusqu'à leur retour ? Il répondit : il ne reconnut pas leur lien de parenté, mais dit « Je suis ton frère » à la place de ton frère disparu, « ne t'afflige donc pas de ce qu'ils faisaient », c'est-à-dire ne laisse pas son absence te causer de chagrin. L'éditeur relève des différences entre les copies quant à la formulation de la question et conserve celle qu'il juge correcte. {cite:tafsir-tabari-shakir-v16 p. 170}
+
+Concernant l'expression « ne vous affligez donc pas », il dit : ne vous humiliez pas et ne soyez pas tristes ; la forme est « tafta'il » dérivé de « bu's », et on dit « ibta'asa yabta'isu ibti'asan ». Les interprètes ont donné la même interprétation : le hadith 19507, rapporté par Qatada, via Bishr, Yazid et Sa'id : ne vous affligez pas et ne désespérez pas. Le hadith 19508, rapporté par Wahb ibn Munabbih : que son lieu ne vous afflige pas. Le hadith 19509, rapporté par al-Suddi, via Ibn Waki', Amr et Asbat : ne vous affligez pas de ce qu'ils faisaient. Al-Tabari explique que le sens de ces mots est donc : ne vous affligez pas et ne vous humiliez pas pour tout ce qui s'est passé auparavant, de la part de vos frères envers vous, et de la part de votre mère envers votre frère, et pour ce qu'ils vous faisaient subir jusqu'à aujourd'hui. {cite:tafsir-tabari-shakir-v16 p. 171}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

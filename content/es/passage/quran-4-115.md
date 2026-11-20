@@ -1,0 +1,14 @@
+---
+id: passage/quran-4-115
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-4-115.md}
+---
+## Resumen
+Versículo 115 de [[passage/quran-4|Surat an-Nisa]], una sura medinense. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 115 de 176 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+**Comentario sobre el versículo 115 y los informes 10427-10428 (págs. 204-205, nota 1 en la pág. 204 y notas 1-5 en la pág. 205).** Al-Tabari dice que el sentido es: quien se aparta del Mensajero Muhammad como su enemigo, separándose de él con hostilidad, después de que la guía se le ha aclarado, es decir, después de que se le ha aclarado que él es el Mensajero de Dios y que lo que trajo de Dios guía a la verdad y a un camino recto, y sigue un camino distinto al de aquellos que afirman la verdad y camina por un camino distinto al de ellos, que es la incredulidad en Dios, puesto que la incredulidad en Dios y en Su Mensajero es distinta al camino y al curso de los creyentes, Dios le permitirá volver a lo que volvió: Él hará de su ayudante aquello de lo que buscó ayuda, de ídolos e imágenes que no le benefician ni lo protegen de ningún castigo de Dios. El informe 10427 (Muhammad ibn Amr, de Abu Asim, de Isa, de Ibn Abi Najih, de Mujahid) dice que aquello a lo que se volvió significa dioses falsos, y el informe 10428 (Ibn al-Muthanna, de Abu Hudhayfa, de Shibl, de Ibn Abi Najih, de Mujahid) es el mismo. La cláusula sobre ser asado significa que Dios lo convertirá en un asador en el fuego del Jahannam, es decir, lo quemará en él, un sentido que dice haber explicado ya; y la cláusula sobre el destino maligno significa que el Jahannam es un lugar maligno al que uno va. Añade que el versículo descendió sobre los traidores mencionados en el versículo sobre no interceder por ellos, cuando uno de ellos que se negó a arrepentirse, Tu'ma ibn Ubayriq, se unió a los politeístas idólatras en La Meca como un apóstata que se había separado del Mensajero y su religión. Notas del editor: referencias a explicaciones anteriores de la palabra para separarse (volumen 8, págs. 319 y 336, y volumen 3, págs. 115-116), de la palabra para ayudante (pág. 17, nota 3), de asar (volumen 8, págs. 27-29, 231 y 484), de "mal" (pág. 101, nota 2) y del destino (pág. 101, nota 3); y que el texto impreso tenía la palabra para asar con una letra doble donde el manuscrito es correcto, la palabra que significa carne asada, llamada así porque se asa al fuego. {cite:tafsir-tabari-shakir-v09 p. 205} {cite:tafsir-tabari-shakir-v09 p. 205}
