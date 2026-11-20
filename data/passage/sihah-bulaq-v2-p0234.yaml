@@ -48,6 +48,11 @@ text: |-
   قال• كأن وريدامرشا أخلب•ويروى كأن وريديه وقال آخر
   ^g
   محاج
+headwords:
+  - { root: null, at: 10 }
+  - { root: "أقن", at: 34 }
+  - { root: "أمن", at: 147 }
+  - { root: "أنن", at: 1493 }
 summary:
   ar: "قراءة آلية لصفحة المسح 234 من الجزء 2 من طبعة بولاق ١٢٨٢هـ/١٨٦٥م لكتاب الصحاح للجوهري، من نسخة مصورة على أرشيف الإنترنت يصفها الأرشيف بأنها خارج حقوق التأليف. القراءة بأداة Apple Vision وفيها أخطاء؛ يُرجع إلى الصورة للتحقق."
   en: "A machine reading of scan page 234 of volume 2 of the Bulaq 1282 AH / 1865 printing of al-Jawhari's al-Sihah, from an Internet Archive scan that the archive marks as not in copyright. The reading was made with Apple Vision and contains errors; check it against the page image."
@@ -59,7 +64,7 @@ tags: [maajim-text, maajim-sihah-bulaq]
 sources: [source/sihah-bulaq-1865-v2]
 provenance:
   layer: pd
-  source: "source/sihah-bulaq-1865-v2, scan page 234; machine reading with Apple Vision (Arabic, accurate, no language correction), 20 November 2026; unchecked"
+  source: "source/sihah-bulaq-1865-v2, scan page 234; machine reading with Apple Vision (Arabic, accurate, no language correction), 20 November 2026; unchecked; entry starts marked by a model and checked against the text"
   generated_by: "Claude Code"
   model: claude-sonnet-5-5
   run: maajim-sihah-bulaq-2026-11-20

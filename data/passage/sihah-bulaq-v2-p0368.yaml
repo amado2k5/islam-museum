@@ -44,6 +44,13 @@ text: |-
   العنادل جمع العندليب فيح_ذوف منه لان كل اسم جاوز أربعة أحرف ولم يكن الرابع من
   حروف المدّ واللين قانه برذالى الرباعى ثم يبنى منه الجمع والتصغيرفان كان الحرف الرابع من
   حوف المدواللين فانه الاتردّ الى الرباعى وتدنى منه ول . العول والعولة رفع الصوت
+headwords:
+  - { root: null, at: 4 }
+  - { root: "علعل", at: 870 }
+  - { root: "عمل", at: 1132 }
+  - { root: "عميثل", at: 1822 }
+  - { root: "عندل", at: 2049 }
+  - { root: "عول", at: 2339 }
 summary:
   ar: "قراءة آلية لصفحة المسح 368 من الجزء 2 من طبعة بولاق ١٢٨٢هـ/١٨٦٥م لكتاب الصحاح للجوهري، من نسخة مصورة على أرشيف الإنترنت يصفها الأرشيف بأنها خارج حقوق التأليف. القراءة بأداة Apple Vision وفيها أخطاء؛ يُرجع إلى الصورة للتحقق."
   en: "A machine reading of scan page 368 of volume 2 of the Bulaq 1282 AH / 1865 printing of al-Jawhari's al-Sihah, from an Internet Archive scan that the archive marks as not in copyright. The reading was made with Apple Vision and contains errors; check it against the page image."
@@ -55,7 +62,7 @@ tags: [maajim-text, maajim-sihah-bulaq]
 sources: [source/sihah-bulaq-1865-v2]
 provenance:
   layer: pd
-  source: "source/sihah-bulaq-1865-v2, scan page 368; machine reading with Apple Vision (Arabic, accurate, no language correction), 20 November 2026; unchecked"
+  source: "source/sihah-bulaq-1865-v2, scan page 368; machine reading with Apple Vision (Arabic, accurate, no language correction), 20 November 2026; unchecked; entry starts marked by a model and checked against the text"
   generated_by: "Claude Code"
   model: claude-sonnet-5-5
   run: maajim-sihah-bulaq-2026-11-20
