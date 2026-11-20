@@ -16,3 +16,6 @@ Ahmad Amin holds that its founder was, in appearance, al-Rashid, who laid its fo
 He also says that al-Ma'mun wrote to the king of the Romans asking leave to send whatever ancient sciences he chose from among those stored in his lands, and the king agreed after hesitation. He sent out a group of men, among them al-Hajjaj ibn Matar, Ibn al-Bitriq and Salm, the head of the House of Wisdom. {cite:duha-islam p.426-427}
 
 He also says that when al-Ma'mun made a truce with the ruler of Cyprus, he asked him for a library of Greek books; the ruler sent it, and al-Ma'mun made Sahl ibn Harun its keeper. {cite:duha-islam p.426-427}
+
+## Its end
+The article on the Bayt al-Hikma in the TDV İslâm Ansiklopedisi says that this centre, which for more than five hundred years was a source for the Islamic world of learning, was burned and destroyed by [[person/hulagu|Hulagu]] in 1258. {cite:dia-beytulhikme beytulhikme} See [[event/sack-of-baghdad-656|the sack of Baghdad]] for what the same encyclopaedia says about the libraries of the city.
