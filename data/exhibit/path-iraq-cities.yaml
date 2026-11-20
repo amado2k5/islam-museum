@@ -4,9 +4,15 @@ kind: trail
 label:
   ar: مدن العراق
   en: Cities of Iraq
+  es: "Ciudades de Irak"
+  fr: "Villes d'Irak"
+  ur: "عراق کے شہر"
 summary:
   ar: 'مسار في مدن الرافدين: الكوفة والبصرة أولًا، ثم بغداد المدورة، وسامراء العسكرية، والموصل على دجلة.'
   en: A trail through the cities of the two rivers.
+  es: "Un sendero que recorre las ciudades de los dos ríos."
+  fr: "Un sentier à travers les villes des deux fleuves."
+  ur: "دو دریاؤں کے شہروں سے گزرتا ہوا راستہ۔"
 audience:
 - newcomer
 - student
@@ -18,45 +24,75 @@ rooms:
 - title:
     ar: الكوفة
     en: Kufa
+    es: "Kufa"
+    fr: "Koufa"
+    ur: "کوفہ"
   body:
     ar: 'مصر علي وفقه أبي حنيفة: أول الأمصار.'
     en: 'مصر علي وفقه أبي حنيفة: أول الأمصار.'
+    es: "Egipto, según la escuela de pensamiento Hanafi: la primera de las ciudades."
+    fr: "L'Égypte, selon l'école de pensée hanafite: la première des villes."
+    ur: "مصر، حنفی مکتبہ فکر کے مطابق: شہروں میں سے پہلا۔"
   features:
   - place/kufa
   - person/abu-hanifa
 - title:
     ar: البصرة
     en: Basra
+    es: "Basora"
+    fr: "Bassorah"
+    ur: "بصرہ"
   body:
     ar: نحو سيبويه وصوفية رابعة.
     en: نحو سيبويه وصوفية رابعة.
+    es: "Hacia Sibawayh y un cuarto sufí."
+    fr: "Vers Sibawayh et un quatrième soufi."
+    ur: "سباویہ اور چوتھے صوفی کی طرف۔"
   features:
   - place/basra
   - person/sibawayh
 - title:
     ar: بغداد
     en: Baghdad
+    es: "Bagdad"
+    fr: "Bagdad"
+    ur: "بغداد"
   body:
     ar: 'مدينة السلام: المنصور يبني الدائرة 762.'
     en: 'مدينة السلام: المنصور يبني الدائرة 762.'
+    es: "Ciudad de la Paz: Al-Mansur construye el Círculo 762."
+    fr: "Ville de la Paix: Al-Mansur construit le Cercle 762."
+    ur: "امن کا شہر: المنصور نے حلقہ 762 بنایا۔"
   features:
   - place/baghdad
   - building/bayt-al-hikma
 - title:
     ar: سامراء
     en: Samarra
+    es: "Samarra"
+    fr: "Samarra"
+    ur: "سمارا"
   body:
     ar: 'سر من رأى: عاصمة الخلفاء ستين سنة.'
     en: 'سر من رأى: عاصمة الخلفاء ستين سنة.'
+    es: "Samarra: La capital de los califas durante sesenta años."
+    fr: "Samarra: capitale des califes pendant soixante ans."
+    ur: "سامراء: ساٹھ سال تک خلفاء کا دارالخلافہ۔"
   features:
   - place/samarra
   - building/al-jami-al-kabir-samarra
 - title:
     ar: الموصل
     en: Mosul
+    es: "Mosul"
+    fr: "Mossoul"
+    ur: "موصل"
   body:
     ar: 'شمال الجزيرة: منارة الحدباء وزنكيون.'
     en: 'شمال الجزيرة: منارة الحدباء وزنكيون.'
+    es: "Al norte de la isla: Faro de Al-Hadbaa y Zankiyun."
+    fr: "Au nord de l'île: le phare d'Al-Hadbaa et Zankiyun."
+    ur: "جزیرے کے شمال میں: الحدبہ لائٹ ہاؤس اور زنکیون۔"
   features:
   - place/mosul
 prerequisites:
