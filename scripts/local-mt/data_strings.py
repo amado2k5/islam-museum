@@ -12,8 +12,7 @@ paragraph of English. Only a missing value is written; an existing translation i
 one line at the end of its language block (or inside the braces of a one-line block), so the rest of the record keeps
 its bytes; every record is re-read after the change and must equal the old record plus the new values.
 
-Left out on purpose: the Qur'an passage records (frozen, guarded by a commit hook); the 164 firewall-exception records
-(held for the founder's ruling); the title of a `source` record (a bibliographic title is not translated), and the title of a
+Left out on purpose: the Qur'an passage records (frozen, guarded by a commit hook);  the title of a `source` record (a bibliographic title is not translated), and the title of a
 `person` in French and Spanish (the English transliteration is used, as most French titles written before this did)."""
 import argparse, collections, glob, json, os, re, sys, zipfile
 from xml.sax.saxutils import escape
@@ -23,7 +22,7 @@ Loader = getattr(yaml, "CSafeLoader", yaml.SafeLoader)
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 ap = argparse.ArgumentParser(); ap.add_argument("cmd", choices=["build", "import", "names"]); ap.add_argument("--cls", default="all")
 ap.add_argument("--name"); ap.add_argument("--lang", choices=["ur", "fr", "es"]); ap.add_argument("--docx"); ap.add_argument("--words", type=int, default=950000)
-ap.add_argument("--dir", default="/Volumes/exmicroSD/islam-museum-local-mt/gt"); ap.add_argument("--fields", default="label,summary,rooms[].title,rooms[].body")
+ap.add_argument("--ids-file", default=""); ap.add_argument("--prefix", default="gtd"); ap.add_argument("--dir", default="/Volumes/exmicroSD/islam-museum-local-mt/gt"); ap.add_argument("--fields", default="label,summary,rooms[].title,rooms[].body")
 a = ap.parse_args(); FIELDS = a.fields.split(",")
 ARABIC = re.compile(r"[؀-ۿ]")
 HONORIFIC = re.compile(r"ﷺ|صلی اللہ علیہ|علیہ السلام|رضی اللہ عن|رحمۃ اللہ علیہ|رحمہ اللہ|paix (soit )?sur lui|que Dieu l['’]agrée|que la paz sea con|la paz sea con él|bendiciones de (?:Dios|Al[áa]h?) sean con|que Dios esté complacido con|(?:Dios|Al[áa]h?) esté complacido con él|bénédictions (?:de Dieu|d['’]Allah) (?:soient )?sur lui", re.I)
@@ -36,10 +35,11 @@ def classes():
 
 # The Qur'an passage records (data/passage/quran-*.yaml) are frozen: a commit guard refuses any change to them, so they
 # are never read for texts and never written.
-# The firewall-exception records (docs/delegation/extremism-firewall-exceptions.md) are held: the founder reviewed them
-# one by one and they are no precedent for new content, so no translation is written into them without his ruling.
-HELD = set(re.findall(r"^- `([a-z_]+/[^`]+)`", open(os.path.join(ROOT, "docs/delegation/extremism-firewall-exceptions.md"), encoding="utf-8").read(), re.M))
-def files(): return [f for c in classes() for f in sorted(glob.glob(os.path.join(ROOT, "data", c, "*.yaml"))) if not (c == "passage" and os.path.basename(f).startswith("quran-")) and f"{c}/{os.path.basename(f)[:-5]}" not in HELD]
+# The firewall-exception records (docs/delegation/extremism-firewall-exceptions.md) were held from translation until the
+# founder ruled on 20 November 2026, in chat, that they are translated like the rest ("Translate them"). --ids-file
+# limits a run to the records it lists (one "class/slug" per line).
+ONLY = set(l.strip() for l in open(a.ids_file, encoding="utf-8") if l.strip()) if a.ids_file else None
+def files(): return [f for c in classes() for f in sorted(glob.glob(os.path.join(ROOT, "data", c, "*.yaml"))) if not (c == "passage" and os.path.basename(f).startswith("quran-")) and (ONLY is None or f"{c}/{os.path.basename(f)[:-5]}" in ONLY)]
 cls_of = lambda f: os.path.basename(os.path.dirname(f))
 
 
@@ -154,7 +154,7 @@ if a.cmd == "build":
         cur.append(s); w += n
     if cur: parts.append(cur)
     for k, part in enumerate(parts, 1):
-        name = f"gtd-{L}-{k:02d}"
+        name = f"{a.prefix}-{L}-{k:02d}"
         docx([p for n, s in enumerate(part, 1) for p in (f"#### {n} ####", " ".join(s.split()))], f"{a.dir}/{name}-en.docx")
         json.dump({"lang": L, "strings": part}, open(f"{a.dir}/{name}.json", "w", encoding="utf-8"), ensure_ascii=False)
         print(f"{name}\ttexts {len(part)}\twords {sum(len(s.split()) for s in part)}\tbytes {os.path.getsize(f'{a.dir}/{name}-en.docx')}")
