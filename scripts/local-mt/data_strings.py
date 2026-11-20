@@ -12,7 +12,8 @@ paragraph of English. Only a missing value is written; an existing translation i
 one line at the end of its language block (or inside the braces of a one-line block), so the rest of the record keeps
 its bytes; every record is re-read after the change and must equal the old record plus the new values.
 
-Left out on purpose: the Qur'an passage records (frozen, guarded by a commit hook); the title of a `source` record (a bibliographic title is not translated), and the title of a
+Left out on purpose: the Qur'an passage records (frozen, guarded by a commit hook); the 164 firewall-exception records
+(held for the founder's ruling); the title of a `source` record (a bibliographic title is not translated), and the title of a
 `person` in French and Spanish (the English transliteration is used, as most French titles written before this did)."""
 import argparse, collections, glob, json, os, re, sys, zipfile
 from xml.sax.saxutils import escape
@@ -35,7 +36,10 @@ def classes():
 
 # The Qur'an passage records (data/passage/quran-*.yaml) are frozen: a commit guard refuses any change to them, so they
 # are never read for texts and never written.
-def files(): return [f for c in classes() for f in sorted(glob.glob(os.path.join(ROOT, "data", c, "*.yaml"))) if not (c == "passage" and os.path.basename(f).startswith("quran-"))]
+# The firewall-exception records (docs/delegation/extremism-firewall-exceptions.md) are held: the founder reviewed them
+# one by one and they are no precedent for new content, so no translation is written into them without his ruling.
+HELD = set(re.findall(r"^- `([a-z_]+/[^`]+)`", open(os.path.join(ROOT, "docs/delegation/extremism-firewall-exceptions.md"), encoding="utf-8").read(), re.M))
+def files(): return [f for c in classes() for f in sorted(glob.glob(os.path.join(ROOT, "data", c, "*.yaml"))) if not (c == "passage" and os.path.basename(f).startswith("quran-")) and f"{c}/{os.path.basename(f)[:-5]}" not in HELD]
 cls_of = lambda f: os.path.basename(os.path.dirname(f))
 
 
@@ -71,8 +75,8 @@ def write_values(f, text, old, adds, L):
     def find(path):
         mm = re.fullmatch(r"(\w+)\[(\d+)\]\.(\w+)", path)
         if not mm:
-            i = next(k for k, l in enumerate(lines) if l == f"{path}:" or l.startswith(f"{path}: ")); ind = 0
-            if lines[i] != f"{path}:": return ("flow", i)
+            i = next(k for k, l in enumerate(lines) if l in (f"{path}:", f'"{path}":') or l.startswith(f"{path}: ")); ind = 0
+            if lines[i] not in (f"{path}:", f'"{path}":'): return ("flow", i)
         else:
             lst, idx, key = mm.group(1), int(mm.group(2)), mm.group(3)
             s = next(k for k, l in enumerate(lines) if l == f"{lst}:"); item = -1; i = None
@@ -88,11 +92,12 @@ def write_values(f, text, old, adds, L):
         while j < len(lines) and (not lines[j].strip() or len(lines[j]) - len(lines[j].lstrip(" ")) > ind): j += 1
         while not lines[j - 1].strip(): j -= 1
         child = len(lines[i + 1]) - len(lines[i + 1].lstrip(" "))
-        return ("block", j, child)
+        if not re.match(r'\s+"?[a-z]{2}"?: ', lines[i + 1]): raise ValueError(f"{path}: a block whose children are not one language per line")
+        return ("block", j, child, lines[i + 1].lstrip(" ").startswith('"'))
     places = [(find(p), p, v) for p, v in adds]
     for place, p, v in sorted(places, key=lambda x: -x[0][1]):
         q = json.dumps(v, ensure_ascii=False)
-        if place[0] == "block": lines.insert(place[1], " " * place[2] + f"{L}: {q}")
+        if place[0] == "block": lines.insert(place[1], " " * place[2] + (f'"{L}": {q}' if place[3] else f"{L}: {q}"))
         else:
             l = lines[place[1]]; m = re.fullmatch(r"(.*?)(\s*)\}(\s*)", l)
             if not m or "{" not in l: raise ValueError(f"{p}: neither a block nor a one-line mapping")

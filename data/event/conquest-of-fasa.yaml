@@ -1,7 +1,7 @@
 id: event/conquest-of-fasa
 class: event
 kind: conquest
-label: { ar: "فتح فسا ودار ابجرد", en: "the conquest of Fasa and Darabjird (24 AH)", es: "La conquista de Fasa y Darabjird (24 AH)", fr: "la conquête de Fasa et Darabjird (24 AH)" }
+label: { ar: "فتح فسا ودار ابجرد", en: "the conquest of Fasa and Darabjird (24 AH)", es: "La conquista de Fasa y Darabjird (24 AH)", fr: "la conquête de Fasa et Darabjird (24 AH)", ur: "فصہ اور درابجرد کی فتح ⁦(24ھ)⁩" }
 date:
   start: { edtf: "0644", hijri: "0024", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 24؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 428}." }
 summary:
@@ -9,6 +9,7 @@ summary:
   en: "Fasa and Darabjird in Fars opened in year 24 {cite:kamil-ibn-al-athir p. 428}."
   es: "Fasa y Darabjird en Fars abrieron en el año 24 {cita:kamil-ibn-al-athir p. 428}."
   fr: "Fasa et Darabjird au Fars ont ouvert leurs portes en l'an 24 {cite:kamil-ibn-al-athir p. 428}."
+  ur: "فارس میں فصہ اور درابجرد سال 24 میں کھولے گئے {حوالہ: کامل ابن الاثیر ص۔ 428}۔"
 wings: [time]
 relations:
   - { type: occurred_at, target: place/fars, sources: [source/kamil-ibn-al-athir] }
