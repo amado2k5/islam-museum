@@ -3,18 +3,24 @@ class: work
 kind: book
 label: { ar: "تاج العروس من جواهر القاموس", en: "Taj al-'Arus", es: "Taj al-'Arus", fr: "Taj al-'Arus", ur: "تاج العروس" }
 summary:
-  ar: "بطاقة أولية لتاج العروس من جواهر القاموس للزبيدي، الشرح الكبير للقاموس المحيط؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for al-Zabidi's Taj al-'Arus min Jawahir al-Qamus, the great commentary on the Qamus al-Muhit; its sources are not yet checked on the page."
-  es: "Boceto de ficha para el Taj al-'Arus min Jawahir al-Qamus de al-Zabidi, el gran comentario sobre el Qamus al-Muhit; sus fuentes aún no han sido verificadas en la página."
-  fr: "Fiche de brouillon pour le Taj al-'Arus min Jawahir al-Qamus d'al-Zabidi, le grand commentaire du Qamus al-Muhit; ses sources ne sont pas encore vérifiées sur la page."
-  ur: "الزبیدی کے تاج العروس من جواہر القمس کے لیے ڈرافٹ کارڈ، قاموس المحیط کی عظیم تفسیر؛ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
-wings: []
-sources: [source/al-aalam]
+  ar: "تاج العروس من جواهر القاموس شرحٌ كتبه محمد مرتضى الزبيدي، المتوفى سنة ١٢٠٥هـ/١٧٩١م، على القاموس المحيط للفيروزآبادي."
+  en: "Taj al-Arus min jawahir al-Qamus, the commentary that Murtada al-Zabidi (d. 1205 AH / 1791) wrote on al-Fayruzabadi's dictionary al-Qamus al-Muhit."
+  es: "Taj al-Arus min jawahir al-Qamus, el comentario que Murtada al-Zabidi (m. 1205 AH / 1791) escribió sobre el diccionario al-Qamus al-Muhit de al-Fayruzabadi."
+  fr: "Taj al-Arus min jawahir al-Qamus, le commentaire qu'a écrit Murtada al-Zabidi (m. 1205 AH / 1791) sur le dictionnaire al-Qamus al-Muhit d'al-Fayruzabadi."
+  ur: "تاج العروس من جواہر القاموس، مرتضیٰ زبیدی ⁦(م 1205ھ / 1791ء)⁩ کی وہ شرح جو انہوں نے فیروزآبادی کی لغت القاموس المحیط پر لکھی۔"
+genre: [lexicon]
+authors: [person/murtada-al-zabidi]
+language: language/arabic
+tags: [maajim-browser, maajim-general]
+wings: [words]
+sources: [source/al-aalam, source/dia-tacul-arus, source/dia-zebidi]
 external_ids: { wikidata: "Q4120667" }
+relations:
+  - { type: commentary_on, target: work/al-qamus-al-muhit, sources: [source/dia-tacul-arus] }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "source/dia-tacul-arus and source/dia-zebidi (TDV İslâm Ansiklopedisi, read 20 November 2026)"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: maajim-batch-1-2026-11-20
+status: { review: published, completeness: 2, generated_by: "Claude Code" }

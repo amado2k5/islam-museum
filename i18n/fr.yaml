@@ -1783,6 +1783,10 @@ explore:
       title: "Navigateur des califes"
       desc: "Chaque calife groupé par son califat — des Rachidun à Sokoto — avec son règne, sa chaîne de succession, les événements que son règne a vus et la notice citée."
       menu: "Parcourir les califes et leurs règnes"
+    maajim:
+      title: "Navigateur des dictionnaires"
+      desc: "Dictionnaires arabes et islamiques : qui les a écrits, quand, à partir de quels ouvrages antérieurs, comment ils sont classés et où on peut les lire."
+      menu: "Parcourir les dictionnaires et leurs auteurs"
     ghayb:
       title: Navigateur du ghayb
       desc: "Djinns et anges, l''âme, les mesures du temps, l''Ascension, la barzakh et les signes de l''Heure — l''invisible avec ses sources."
@@ -2078,6 +2082,30 @@ khutab:
     nikah: "Sermon de mariage"
     farewell: "Sermon d’adieu"
     other: "Sermon"
+maajim:
+  title: "Navigateur des dictionnaires"
+  lede: "Les grands dictionnaires de la langue arabe et des sciences islamiques : qui a écrit chacun, quand, à partir de quels ouvrages antérieurs, comment il est classé et où on peut le lire."
+  badge: "Explorateur des dictionnaires"
+  status: "Cette version compte {n} dictionnaires en {s} sections. Chaque fiche cite ses sources ; lorsqu'une date ou un détail est discuté, la fiche le dit."
+  method_title: "La méthode du navigateur"
+  method_note: "Chaque dictionnaire est une fiche ordinaire du musée, de la classe œuvre, avec son auteur lié, regroupée par les étiquettes maajim-browser et maajim-<section> dans le seul graphe, et non dans une table à part. Le texte d'un dictionnaire n'est montré ici que s'il provient d'une édition ancienne du domaine public que le musée a lui-même lue ; tous les autres dictionnaires sont décrits et renvoient à l'endroit où on peut les lire."
+  api: "Le jeu de données complet se trouve à"
+  sections_title: "Les sections du navigateur"
+  empty: "Aucune fiche de dictionnaire dans cette version pour l'instant."
+  sections:
+    general:
+      title: "Dictionnaires généraux de l'arabe"
+      desc: "Lisan al-Arab, al-Qamus al-Muhit, al-Sihah et leurs semblables : les lexiques qui classent tout le vocabulaire arabe par racine."
+    quran:
+      title: "Vocabulaire du Coran"
+      desc: "Dictionnaires des mots rares du Coran."
+    geographic:
+      title: "Dictionnaires géographiques"
+      desc: "Dictionnaires des noms de lieux et des lieux eux-mêmes."
+  pilot_title: "Texte lisible : le pilote"
+  pilot_note: "Le premier texte lu en entier ici est al-Sihah d'al-Jawhari, d'après l'édition de Boulaq de 1282 AH / 1865 (une numérisation de l'Internet Archive que l'archive indique comme hors droits d'auteur). Il est lu par machine et chaque page est vérifiée avant d'être montrée. Aucune entrée n'est encore publiée ; chacune indiquera sa page et la précision de sa lecture."
+  sources_title: "D'où viennent les textes"
+  sources_note: "Les numérisations utilisées par le pilote, avec leur source et leur mention de droits sur chaque fiche :"
 ghayb:
   title: "Explorateur de l’invisible"
   lede: "Un parcours de l’invisible à travers les notices du musée : djinns et anges, âme, mesures du temps, Voyage nocturne et plus grandes créations, barzakh et ce qui suit la mort, grands signes de l’Heure — chaque notice cite ses sources, chaque thème ouvre sa propre page."

@@ -1741,6 +1741,10 @@ explore:
       title: "The Caliphs Browser"
       desc: "Every caliph grouped by his caliphate — Rashidun to Sokoto — with his reign, succession chain, the events his reign saw and the cited record."
       menu: "Browse the caliphs and their reigns"
+    maajim:
+      title: "Dictionaries Browser"
+      desc: "Arabic and Islamic dictionaries: who wrote them, when, from which earlier works, how they are arranged and where they can be read."
+      menu: "Browse the dictionaries and their authors"
     ghayb:
       title: The Ghayb Browser
       desc: "Jinn and angels, the soul, the measures of time, the Ascent, the barzakh and the signs of the Hour — the unseen with its sources."
@@ -3574,6 +3578,30 @@ khutab:
     nikah: "Marriage sermon"
     farewell: "Farewell sermon"
     other: "Sermon"
+maajim:
+  title: "Dictionaries Browser"
+  lede: "The great dictionaries of Arabic and of the Islamic sciences: who wrote each one, when, from which earlier works, how it is arranged, and where it can be read."
+  badge: "Dictionaries explorer"
+  status: "This build holds {n} dictionaries in {s} sections. Each record cites its sources; where a date or a detail is disputed, the record says so."
+  method_title: "The browser's method"
+  method_note: "Every dictionary is an ordinary museum record of the class work, with its author linked, grouped by the tags maajim-browser and maajim-<section> inside the one graph, not in a side table. The text of a dictionary is shown here only when it comes from a public-domain printing that the museum has itself read; every other dictionary is described and linked to where it can be read."
+  api: "The whole dataset is at"
+  sections_title: "The browser's sections"
+  empty: "No dictionary records in this build yet."
+  sections:
+    general:
+      title: "General dictionaries of Arabic"
+      desc: "Lisan al-Arab, al-Qamus al-Muhit, al-Sihah and their kin: the lexicons that arrange the whole Arabic vocabulary by root."
+    quran:
+      title: "Vocabulary of the Qur'an"
+      desc: "Dictionaries of the unusual words of the Qur'an."
+    geographic:
+      title: "Geographic dictionaries"
+      desc: "Dictionaries of place names and the places themselves."
+  pilot_title: "Readable text: the pilot"
+  pilot_note: "The first text to be read in full here is al-Sihah of al-Jawhari, from the Bulaq printing of 1282 AH / 1865 (an Internet Archive scan that the archive marks as not in copyright). It is read by machine and each page is checked before it is shown. No entry is published yet; each will show its page and how accurately it was read."
+  sources_title: "Where the texts come from"
+  sources_note: "The scans the pilot uses, with their source and rights statement on each record:"
 ghayb:
   title: The Ghayb Browser
   lede: "A journey through the unseen in the museum's records: jinn and angels, the soul, the measures of time, the Night Journey and the greatest creations, the barzakh and what follows death, and the major signs of the Hour — each record cited, each topic a door to its own page."

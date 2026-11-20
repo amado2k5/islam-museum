@@ -3,18 +3,22 @@ class: work
 kind: book
 label: { ar: "القاموس المحيط", en: "al-Qamus al-Muhit", es: "al-Qamus al-Muhit", fr: "al-Qamus al-Muhit", ur: "القموس المحیط" }
 summary:
-  ar: "بطاقة أولية للقاموس المحيط للفيروزآبادي، المعجم العربي المشهور الذي قامت عليه الترجمات اللاتينية؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for al-Fayruzabadi's al-Qamus al-Muhit, the celebrated Arabic dictionary behind the Latin translations; its sources are not yet checked on the page."
-  es: "Boceto de ficha para el al-Qamus al-Muhit de al-Fayruzabadi, el célebre diccionario árabe que sirvió de base para las traducciones latinas; sus fuentes aún no se han comprobado en la página."
-  fr: "Fiche de brouillon pour l'al-Qamus al-Muhit d'al-Fayruzabadi, le célèbre dictionnaire arabe à l'origine des traductions latines; ses sources ne sont pas encore vérifiées sur la page."
-  ur: "الفیروزآبادی کے القمس المحیط کے لیے ڈرافٹ کارڈ، لاطینی تراجم کے پیچھے مشہور عربی لغت؛ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
-wings: []
-sources: [source/al-aalam, source/al-mutun-al-ilmiyya-azhar]
+  ar: "القاموس المحيط للفيروزآبادي، المتوفى سنة ٨١٧هـ/١٤١٥م، معجم عربي بالعربية اشتُهر به مؤلفه حتى سُمّي المعجم «قاموساً» في الاستعمال. وقد شرحه محمد مرتضى الزبيدي في «تاج العروس»."
+  en: "al-Qamus al-Muhit by al-Fayruzabadi (d. 817 AH / 1415), an Arabic-to-Arabic dictionary for which its author is best known. Murtada al-Zabidi wrote his large commentary Taj al-Arus on it."
+  es: "El al-Qamus al-Muhit de al-Fayruzabadi (m. 817 AH / 1415), un diccionario de árabe a árabe por el que su autor es más conocido. Murtada al-Zabidi escribió sobre él su extenso comentario Taj al-Arus."
+  fr: "L'al-Qamus al-Muhit d'al-Fayruzabadi (m. 817 AH / 1415), dictionnaire d'arabe en arabe auquel son auteur doit sa renommée. Murtada al-Zabidi en a tiré son vaste commentaire, le Taj al-Arus."
+  ur: "الفیروزآبادی ⁦(م 817ھ / 1415ء)⁩ کی القاموس المحیط، عربی سے عربی لغت جس سے مصنف مشہور ہوا۔ مرتضیٰ زبیدی نے اس پر اپنی بڑی شرح تاج العروس لکھی۔"
+genre: [lexicon]
+authors: [person/al-firuzabadi]
+language: language/arabic
+tags: [maajim-browser, maajim-general]
+wings: [words]
+sources: [source/al-aalam, source/al-mutun-al-ilmiyya-azhar, source/dia-firuzabadi, source/dia-tacul-arus]
 external_ids: { wikidata: "Q6404694" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in Arabic lexicography — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "source/dia-firuzabadi and source/dia-tacul-arus (TDV İslâm Ansiklopedisi, read 20 November 2026)"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: maajim-batch-1-2026-11-20
+status: { review: published, completeness: 2, generated_by: "Claude Code" }
