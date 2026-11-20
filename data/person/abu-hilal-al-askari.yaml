@@ -1,35 +1,20 @@
 id: person/abu-hilal-al-askari
 class: person
-label:
-  ar: "أبو هلال العسكري"
-  en: "Abu Hilal al-Askari"
-  fr: "Abu Hilal al-Askari"
-  es: "Abu Hilal al-Askari"
-  ur: "ابو ہلال العسکری"
-roles: [writer, scholar]
+label: { ar: "أبو هلال العسكري", en: "Abu Hilal al-Askari", es: "Abu Hilal al-Askari", fr: "Abu Hilal al-Askari", ur: "ابو ہلال العسکری" }
+roles: [scholar, writer]
 gender: male
 summary:
-  ar: "أبو هلال العسكري الحسن بن عبد الله، عالم بالأدب وشاعر من عسكر مكرم، توفي بعد ٣٩٥هـ ⁦(١٠٠٥م)⁩، صاحب «جمهرة الأمثال» و«الأوائل»."
-  en: "Abu Hilal al-Askari al-Hasan ibn Abd Allah, scholar of letters of Askar Mukram (d. after 395/1005), author of Jamharat al-Amthal and the first book of 'firsts'."
-  fr: "Abu Hilal al-Askari al-Hasan ibn Abd Allah, lettré d'Askar Mukram (mort après 395/1005), auteur de la Jamharat al-Amthal et du premier livre des « premiers »."
-  es: "Abu Hilal al-Askari al-Hasan ibn Abd Allah, erudito de las letras de Askar Mukram (fallecido después de 395/1005), autor de Jamharat al-Amthal y del primer libro de 'primeros'."
-  ur: "ابو ہلال العسکری الحسن بن عبد اللہ، عسکر مکرم کے خطوط کا عالم ⁦(متوفی 395/1005 بعد)⁩، جمہرۃ الامتھل کے مصنف اور 'اول' کی پہلی کتاب۔"
+  ar: "أبو هلال العسكري، وُلد وعاش في عسكر مكرم بخوزستان ودرس في أصفهان وبغداد والبصرة، وتاريخ ميلاده غير معروف على وجه الدقة ويُفهم من بيت له أنه وُلد في أوائل القرن الرابع الهجري. صاحب «الفروق اللغوية»."
+  en: "Abu Hilal al-Askari, born and living at Askar Mukram in Khuzistan, who studied at Isfahan, Baghdad and Basra; his date of birth is not known exactly, but a verse of his suggests the early 4th century AH. Author of al-Furuq al-lughawiyya."
+  es: "Abu Hilal al-Askari, nacido y residente en Askar Mukram, en Juzestán, que estudió en Isfahán, Bagdad y Basora; su fecha de nacimiento no se conoce con exactitud, pero un verso suyo sugiere principios del siglo IV AH. Autor de al-Furuq al-lughawiyya."
+  fr: "Abu Hilal al-Askari, né et vivant à Askar Mukram au Khuzistan, qui étudia à Ispahan, Bagdad et Bassora ; sa date de naissance n'est pas connue exactement, mais un de ses vers suggère le début du IVe siècle AH. Auteur d'al-Furuq al-lughawiyya."
+  ur: "ابو ہلال العسکری، خوزستان کے عسکر مکرم میں پیدا ہوئے اور وہیں رہے، اصفہان، بغداد اور بصرہ میں تعلیم پائی؛ ان کی تاریخِ پیدائش ٹھیک معلوم نہیں مگر ان کے ایک شعر سے چوتھی صدی ہجری کا آغاز سمجھ آتا ہے۔ الفروق اللغویہ کے مصنف۔"
 wings: [people]
-regions: [levant-iraq]
-periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam, source/wikidata]
-external_ids:
-  wikidata: Q4670215
-  viaf: "37716550"
+sources: [source/dia-askeri-ebu-hilal]
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam, entry read in the OpenITI/Shamela text (v.2 p.196)"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0035
-status:
-  review: published
-  completeness: 3
-died: { edtf: "1005~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Yaqut al-Hamawi, Mu'jam al-Udaba; al-Zirikli, al-A'lam Confirmed on 13 November 2026 against Wikidata Q4670215 (P570, a statement with a reference), item revision 2568780247.", sources: [source/wikidata] }
-relations:
-  - { type: lived_in, target: place/askar-mukram, note: "From text: عالم بالأدب وشاعر من عسكر مكرم", sources: [source/al-aalam], confidence: low }
+  source: "source/dia-askeri-ebu-hilal (TDV İslâm Ansiklopedisi, read 20 November 2026)"
+  generated_by: "Claude Code"
+  model: claude-sonnet-5-5
+  run: maajim-batch-5-2026-11-20
+status: { review: published, completeness: 1, generated_by: "Claude Code" }
