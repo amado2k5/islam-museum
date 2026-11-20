@@ -27,6 +27,7 @@ const CHUNK = 50;
       <p style="font-size:1.2rem;max-width:var(--measure)">{M.sihah_lede}</p>
       <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{M.sihah_quality}</p>
       <p class="ui muted">{fmt(M.sihah_count, { n: num(pages.length, lang) })}</p>
+      <p class="ui"><a href={`/${lang}/maajim/sihah/roots/`}>{M.roots_link}</a></p>
     </div>
     <div data-pagefind-ignore>
       {vols.map((v) => {

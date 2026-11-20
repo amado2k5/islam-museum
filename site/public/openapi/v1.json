@@ -932,6 +932,21 @@
         }
       }
     },
+    "/maajim-sihah.json": {
+      "get": {
+        "operationId": "getMaajimSihah",
+        "summary": "al-Sihah, Bulaq 1282/1865: page records with marked entry starts",
+        "description": "Every page passage of the Bulaq 1282 AH / 1865 printing of al-Sihah (tag maajim-sihah-bulaq): unit, work, scan-page reference and the entry starts (root and character offset) where they have been marked. The text itself is in each page's passage file.",
+        "responses": {
+          "200": {
+            "description": "Page records of the Bulaq al-Sihah with headwords",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/maajim.json": {
       "get": {
         "operationId": "getMaajim",
