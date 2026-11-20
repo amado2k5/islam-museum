@@ -6,7 +6,7 @@ Lane `maajim`, plan `docs/plan/72-dictionaries-browser.md`. Started 20 November 
 
 - Browser home `/{lang}/maajim/` with the signature view *Three doors to one root*, a reader of *al-Ṣiḥāḥ* (Bulaq 1282/1865) at `/{lang}/maajim/sihah/`, `/api/v1/maajim.json`.
 - About 38 dictionary `work` records tagged `maajim-browser` (works 1 to 43 of the research list where a TDV İslâm Ansiklopedisi article could be read), about 60 TDV source records (`source/dia-*`), 1,228 page `passage` records for the Bulaq *al-Ṣiḥāḥ* (machine reading; accuracy sample stated on each page).
-- Not done: works 41, 44 to 48 (Lane, Cairo *al-Kabīr*, Matn al-lugha, Mukhtār ʿUmar, Doha, Sharjah) have no record; the *Ṣiḥāḥ* text is not split into entries; Gemini claims about manuscripts, printings and controversies that rest on sources not yet opened are not in any record.
+- Not done: works 41, 44 to 48 (Lane, Cairo *al-Kabīr*, Matn al-lugha, Mukhtār ʿUmar, Doha, Sharjah) have no record; the *Ṣiḥāḥ* entry marks (6,382 on 1,214 pages, 20 November 2026) are a model's reading of machine text, checked by script (95% exact match) and by eye on three pages only, and some roots are misread; Gemini claims about manuscripts, printings and controversies that rest on sources not yet opened are not in any record.
 
 ## Trust criteria used by this lane (the agent's own, recorded for audit, 20 November 2026)
 
