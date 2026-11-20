@@ -1812,6 +1812,10 @@ explore:
       title: "Explorador de los pilares del islam, los pilares de la fe, las ramas de la fe y los rasgos del creyente"
       desc: "Cada mención de los cinco pilares del islam, los seis pilares de la fe, las setenta y tantas ramas de la fe y los rasgos del creyente en el Corán, la Sunna, la sira, los relatos de los Compañeros y los Sucesores y cada libro recopilado, cada aleya y relato con su fuente."
       menu: "Explorar los pilares del islam y de la fe, las ramas de la fe y los rasgos del creyente"
+    ahkam:
+      title: "Explorador de las calificaciones legales: obligaciones, actos recomendados, reprobados y prohibidos"
+      desc: "Cada mención de las obligaciones, individuales y comunitarias, los actos de obediencia, lo obligatorio, lo recomendado, lo prohibido, lo reprobado, los pecados menores y lo permitido en el Corán, la Sunna, la sira, los relatos de los Compañeros y de los Sucesores y los libros de usul y de fiqh, cada versículo y cada relato con su fuente."
+      menu: "Explorar las obligaciones, los actos recomendados, reprobados y prohibidos, y los pecados menores"
     halal:
       title: "Explorador de halal y haram"
       desc: "Cada mención de lo lícito y lo ilícito en el islam (lo que Dios permitió y lo que prohibió en comida, bebida, vestimenta, matrimonio y ganancias) en el Corán, la Sunna, la sira, los relatos de los Compañeros y los Sucesores y cada libro recopilado, con registros detallados de sus principios y capítulos."
@@ -4487,6 +4491,127 @@ sayyiat:
     sunnah_note: "{n} colecciones de hadiz tienen un pasaje aquí, la más completa primero."
     count_in: "{n} pasajes"
     count_split: "{n} pasajes: {a} con la palabra, {r} sobre el tema más amplio"
+ahkam:
+  title: "Explorador de las calificaciones legales: obligaciones, actos de obediencia, actos recomendados, reprobados y prohibidos, y pecados menores"
+  lede: "Un solo explorador para los grados de obligación: las obligaciones (fara'id), la obligación individual (fard 'ayn) y la obligación comunitaria (fard kifaya), los actos de obediencia, los actos obligatorios (wajibat), los recomendados (mustahabbat), los prohibidos (muharramat), los reprobados (makruhat), los pecados menores, y lo que resta de la escala, lo permitido y la concesión. Reúne cada lugar donde se nombran en el Corán, la Sunna, la sira, los relatos de los Compañeros y de los Sucesores, y los libros de usul y de fiqh que el museo ha cosechado. El museo describe lo que dicen los textos y los juristas; no emite ningún dictamen."
+  badge: "Explorador de los grados de obligación"
+  status: "Esta versión contiene {n} registros en {s} secciones, cada uno con la cita de su fuente."
+  method_title: "Cómo funciona el explorador"
+  method_note: "Cada registro de aquí es un registro ordinario del museo, con sus fuentes. Los versículos del Corán proceden de una tabla revisada de los versículos cuya propia redacción lleva un tema («prescrito para vosotros», «una obligación de Dios», «obedeced a Dios», «prohibido para vosotros», «no hay culpa sobre vosotros»); el texto de un versículo es el texto congelado de Tanzil de su registro. Cualquier otro pasaje se encuentra al construir el sitio mediante una lista de palabras vigilada, de modo que un libro cosechado más tarde aparece aquí el día en que llegan sus pasajes. Una prohibición escueta («prohibió») no se clasifica: que sea prohibición o reprobación es una lectura del jurista, y un relato así solo se lista cuando su propia redacción nombra el grado. Los extractos de libros escaneados están leídos por máquina y sin corregir, y las traducciones son automáticas y aún no han sido leídas por una persona. Donde las escuelas difieren, como en la distinción hanafí entre fard y wajib, los registros lo dicen y nombran cada opinión."
+  api: "El conjunto de datos completo está disponible en"
+  sections_title: "Secciones"
+  filter_label: "Filtrar los registros"
+  filter_none: "No hay resultados coincidentes."
+  empty: "Todavía no hay registros bajo este tema en esta versión."
+  sections:
+    quran:
+      title: "En el Corán"
+      desc: "Los versículos cuya redacción lleva un tema: lo prescrito y ordenado, los mandatos de obedecer a Dios y a Su Mensajero, lo debido por los piadosos, el bien voluntario, lo prohibido, lo aborrecido, las faltas pequeñas, y los versículos de ausencia de culpa, permiso y facilidad."
+    sunnah:
+      title: "En la Sunna"
+      desc: "Los hadices de los dos Sahih, los Sunan y el Muwatta: lo que Dios hizo obligatorio y lo que el Mensajero ordenó, lo voluntario junto a lo obligatorio, «de no ser porque cargaría a mi comunidad», lo que se reprobaba, las concesiones, los pecados tenidos por leves, y las observaciones de los juristas que traen las colecciones."
+    seerah:
+      title: "En la sira"
+      desc: "Lo que los libros de sira traen sobre estos temas: la enseñanza dada a las delegaciones, las cartas sobre la limosna obligatoria, las primeras obligaciones y el aligeramiento de otras."
+    books:
+      title: "En otros libros"
+      desc: "Los libros de usul al-fiqh que definen los grados (la Risala de al-Shafi'i, el Burhan de al-Juwayni, el Mustasfa de al-Ghazali, las Muwafaqat de al-Shatibi, el Irshad al-Fuhul de al-Shawkani), los libros de fiqh de las cuatro escuelas, los comentarios de hadices, los relatos de los Compañeros y de los Sucesores, y lo que se coseche a continuación."
+    curated:
+      title: "Registros sobre los grados de obligación"
+      desc: "Los registros propios del museo sobre estos temas: las cinco calificaciones juntas, la obligación y sus dos clases, la obediencia, lo obligatorio, lo recomendado, lo prohibido, lo reprobado, lo permitido, la concesión y los pecados menores."
+  topics:
+    fard:
+      title: "Las obligaciones (al-furud)"
+      desc: "Todo lo que en las fuentes del museo nombra una obligación: lo que Dios hizo obligatorio, lo que Su Mensajero ordenó, «prescrito para vosotros», las fara'id y el fard de los juristas."
+      definition: "En los libros de usul, el fard es, para la mayoría, otro nombre del wajib: el acto cuyo autor es elogiado y cuyo omisor es censurado. Los hanafíes reservan fard para lo que establece una prueba concluyente y wajib para lo que descansa en una prueba probable."
+      scope: "Se listan aquí: los textos que usan las palabras fard, farida y fara'id, «Dios hizo obligatorio», «hizo obligatorio sobre» y «prescrito para vosotros». Quedan fuera las partes de la herencia (también llamadas fara'id), un estipendio y una dote «asignada»."
+    fard-ayn:
+      title: "La obligación individual (fard 'ayn)"
+      desc: "Todo lo que en las fuentes del museo trata del deber que cada persona debe y que nadie puede cumplir por otro: «una obligación para todo musulmán», «obligatorio para todo adulto», y el fard 'ayn de los juristas."
+      definition: "Lo que se pide a cada persona responsable por sí misma, de modo que el cumplimiento de uno no se lo quita a otro: las cinco oraciones, el ayuno, la limosna, la peregrinación para quien pueda."
+      scope: "Se listan aquí: los textos que usan el término y los que ponen un deber «sobre todo musulmán» o «sobre todo adulto». El Corán no usa el término; los versículos de cada acto están bajo las obligaciones."
+    fard-kifaya:
+      title: "La obligación comunitaria (fard kifaya)"
+      desc: "Todo lo que en las fuentes del museo trata del deber que recae sobre la comunidad: cuando algunos lo cumplen de forma suficiente, los demás quedan libres de reproche, y cuando nadie lo cumple, todos incurren en falta."
+      definition: "Lo que el Legislador quiere que se haga sin atender a quién lo hace: la oración fúnebre, la devolución del saludo, el estudio profundo de la religión, el yihad cuando sale el número suficiente. Al-Shafi'i lo expone en la Risala a partir de dos versículos."
+      scope: "Se listan aquí: los textos que usan el término o enuncian su regla («cuando algunos lo cumplen, cae para los demás»), y los dos versículos de los que al-Shafi'i lo deduce."
+    taat:
+      title: "Los actos de obediencia (al-ta'at)"
+      desc: "Todo lo que en las fuentes del museo trata de la obediencia a Dios y a Su Mensajero y de los actos de obediencia: «obedeced a Dios y obedeced al Mensajero», «quien me obedece ha obedecido a Dios», «no hay obediencia en la desobediencia; la obediencia solo se debe en lo que es correcto»."
+      definition: "Los textos oponen la obediencia a la desobediencia: «quien me obedece ha obedecido a Dios, y quien me desobedece ha desobedecido a Dios», y fijan su límite: «la obediencia solo se debe en lo que es correcto». El explorador la sitúa sobre los dos grados del hacer, lo obligatorio y lo recomendado."
+      scope: "Se listan aquí: los textos que mandan o elogian la obediencia a Dios y a Su Mensajero y los que nombran los actos de obediencia. La obediencia a quienes tienen la autoridad («oír y obedecer») cuenta solo junto a uno de estos."
+    wajib:
+      title: "Los actos obligatorios (al-wajibat)"
+      desc: "Todo lo que en las fuentes del museo usa la palabra wajib y sus verbos: «obligatorio para», «es debido a todo musulmán», «si hubiera dicho que sí, se habría hecho obligatorio», y el wujub de los juristas."
+      definition: "El wajib es el acto cuyo autor es elogiado y cuyo omisor es censurado (al-Shawkani). Se divide en determinado y optativo, en estrecho y amplio en el tiempo, y en individual y comunitario."
+      scope: "Se listan aquí: los textos que usan wajib, wujub, «es obligatorio para» y «un derecho debido a». Quedan fuera «el Paraíso le fue debido» y una venta «concluida»."
+    mustahabb:
+      title: "Los actos recomendados (al-mustahabbat)"
+      desc: "Todo lo que en las fuentes del museo trata de lo que se pide sin imponerse: el mustahabb y el mandub, la nafila y el acto voluntario, las sunnas enfatizadas, y lo que el Profeta dejó sin imponer por temor a la dificultad."
+      definition: "El mandub es lo que el Legislador pide sin añadir reproche a su abandono; hacerlo es mejor que dejarlo. Los juristas lo llaman sunna, mustahabb, nafl y tatawwu', casi siempre en un mismo sentido."
+      scope: "Se listan aquí: los textos que usan estas palabras, los que dicen que un acto «no es obligatorio», y «de no ser porque cargaría a mi comunidad». La Sunna como fuente del derecho tiene sus propios registros."
+    haram:
+      title: "Los actos prohibidos (al-muharramat)"
+      desc: "Todo lo que en las fuentes del museo nombra lo prohibido: «prohibido para vosotros», «Dios prohibió», «no es lícito», las muharramat y lo inviolable de Dios."
+      definition: "El haram, llamado también mahzur, es lo que el Legislador pide dejar, con la advertencia de un castigo para quien lo hace."
+      scope: "Se listan aquí: los mismos pasajes que el Explorador de lo halal y lo haram lee del lado de lo ilícito, con una sola lista de palabras, para que ambos nunca discrepen. El santuario, el estado de ihram y el nombre propio Haram quedan fuera. Un simple «prohibió» no se clasifica."
+    makruh:
+      title: "Los actos reprobados (al-makruhat)"
+      desc: "Todo lo que en las fuentes del museo trata de lo que es mejor dejar: el makruh y la karaha, «solía reprobar», «Dios reprobó para vosotros», una prohibición «no hecha firme», y lo que los juristas reprobaron."
+      definition: "El makruh es lo que el Legislador pide dejar sin advertencia de castigo; dejarlo es mejor que hacerlo. Al-Ghazali anota que la palabra se usa también para lo prohibido y para dejar lo mejor; los hanafíes lo dividen en lo cercano a lo prohibido y lo que es un simple defecto."
+      scope: "Se listan aquí: los textos que usan makruh y karaha y los relatos de reprobación habitual. Quedan fuera la aversión como sentimiento («quien aborrece encontrarse con Dios»), la coacción y las cláusulas con «por temor a que»."
+    saghair:
+      title: "Los pecados menores (sagha'ir al-dhunub)"
+      desc: "Todo lo que en las fuentes del museo trata de los pecados pequeños: el lamam, los pecados tenidos por leves, lo que expían las oraciones y el evitar los pecados mayores, y la advertencia contra la persistencia."
+      definition: "Los pecados menores son los que están por debajo de los mayores; los juristas difieren sobre la línea entre ambos. El registro del museo expone las definiciones, y los pecados mayores están en el Explorador de los hudud y los kaba'ir."
+      scope: "Se listan aquí: los textos que nombran los pecados pequeños, el lamam y los pecados menospreciados, y los textos sobre lo que se expía «mientras se eviten los pecados mayores». «Lo pequeño y lo grande» queda fuera."
+    mubah:
+      title: "Y el resto: lo permitido y la concesión"
+      desc: "Lo que resta de la escala: el mubah, la concesión (rukhsa) junto a la regla original ('azima), «no hay culpa», «no hay mal en ello», y lo que se pasó en silencio."
+      definition: "El mubah es el acto en el que el Legislador deja la elección: hacerlo y dejarlo son iguales, sin pecado en ninguno. La rukhsa es un alivio concedido por una excusa mientras subsiste la causa de la regla original."
+      scope: "Se listan aquí: los textos que usan mubah, ibaha y rukhsa, «no hay culpa» y «no hay mal en ello», y «lo que Él calló está perdonado». Lo lícito (halal) como tal está en el Explorador de lo halal y lo haram."
+  topics_ui:
+    status: "Este tema contiene {n} registros: {c} seleccionados, {q} versículos, {s} de la Sunna, {r} de la sira y {b} de otros libros."
+    record: "Leer el registro del museo sobre este tema"
+    definition: "En los libros de usul:"
+  viz:
+    title: "La escala de las cinco calificaciones"
+    note: "Los libros de usul al-fiqh dividen en cinco lo que el Legislador dice de un acto. Una petición de actuar es lo obligatorio cuando omitirlo es censurado y lo recomendado cuando no lo es; una petición de dejar es lo prohibido cuando hacerlo es censurado y lo reprobado cuando no lo es; y donde hay elección, el acto es permitido. Los temas del explorador se sitúan en el grado al que pertenecen, con el número de registros de cada uno; la obediencia abarca los dos grados del hacer, y los pecados menores pertenecen al lado del dejar."
+    degree_word: "grado"
+    does: "Hacerlo"
+    leaves: "Dejarlo"
+    count: "{n} registros"
+    record: "El registro de este grado"
+    axis_do: "se pide hacerlo"
+    axis_choice: "una elección"
+    axis_leave: "se pide dejarlo"
+    degrees:
+      wajib:
+        name: "Lo obligatorio (fard, wajib)"
+        does: "elogiado"
+        leaves: "censurado"
+      mandub:
+        name: "Lo recomendado (mandub, mustahabb)"
+        does: "elogiado"
+        leaves: "no censurado"
+      mubah:
+        name: "Lo permitido (mubah)"
+        does: "ni elogiado ni censurado"
+        leaves: "ni elogiado ni censurado"
+      makruh:
+        name: "Lo reprobado (makruh)"
+        does: "no censurado"
+        leaves: "elogiado"
+      haram:
+        name: "Lo prohibido (haram)"
+        does: "censurado"
+        leaves: "elogiado"
+    lanes:
+      taat: "abarca lo obligatorio y lo recomendado"
+      saghair: "del lado de lo que se deja; los pecados mayores están en el"
+      kabair: "Explorador de los hudud y los kaba'ir"
+    source: "La división sigue el Mustasfa de al-Ghazali y el Irshad al-Fuhul de al-Shawkani, tal como se citan en"
+    source_link: "el registro del museo sobre las cinco calificaciones"
 arkan:
   title: "Explorador de los pilares del islam, los pilares de la fe, las ramas de la fe y los rasgos del creyente"
   lede: "Cuatro puertas en un solo explorador: los cinco pilares sobre los que se edifica el islam, los seis pilares de la fe del hadiz de Jibril, las ramas de la fe que el hadiz cuenta como setenta y tantas, y los rasgos del creyente tal como los describen las aleyas y los hadices. El explorador reúne todos los lugares donde se mencionan estos cuatro temas en el Corán, la Sunna, la sira, los relatos de los Compañeros y los Sucesores, y los libros de fe, comentario, ascetismo e historia, así como cada mención en cualquier libro que se coseche a partir de ahora. El museo describe lo que dicen las fuentes y atribuye cada dicho a su autor; no emite dictámenes."

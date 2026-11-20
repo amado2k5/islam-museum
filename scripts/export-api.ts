@@ -32,6 +32,7 @@ import { NUBUWAT_TAG, nubuwatCorpusOf, nubuwatTagSection, nubuwatTagTopics, isNu
 import { SAYYIAT_TAG, sayyiatCorpusOf, sayyiatKindOf, sayyiatSignalsOf, sayyiatTagSection, isSayyiatPassage, type SayyiatKind } from "./sayyiat.js";
 import { HALAL_TAG, halalCorpusOf, halalKindOf, halalSignalsOf, halalSubjectsOf, halalTagSection, isHalalPassage } from "./halal.js";
 import { ARKAN_TAG, arkanCorpusOf, arkanSignalsOf, arkanTopicsOf, isArkanPassage } from "./arkan.js";
+import { AHKAM_TAG, ahkamCorpusOf, ahkamSignalsOf, ahkamTopicsOf, isAhkamPassage } from "./ahkam.js";
 import { HUDUD_TAG, hududCorpusOf, hududKindOf, hududSignalsOf, hududTagSection, isHududPassage } from "./hudud.js";
 import { HISAB_TAG, hisabCorpusOf, hisabKindsOf, hisabSignalsOf, isHisabPassage, reckoningOf } from "./hisab.js";
 import { HASANAT_TAG, hasanatCorpusOf, hasanatKindOf, hasanatSignalsOf, hasanatTagSection, isHasanatPassage, type HasanatKind } from "./hasanat.js";
@@ -578,6 +579,17 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       // what the lawful or unlawful is about: food, drink, earnings, marriage-family … `other` when no subject word matched
       subjects: halalSubjectsOf(n),
       signals: n.class === "passage" ? halalSignalsOf(n) : [],
+    }) },
+  { file: "ahkam.json", feature: "ahkam-browser",
+    pick: (n) => n.tags.includes(AHKAM_TAG) || isAhkamPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? ahkamCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : "curated",
+      // the themes the record belongs to: fard, fard-ayn, fard-kifaya, taat, wajib, mustahabb, haram, makruh, saghair, mubah
+      topics: ahkamTopicsOf(n),
+      signals: n.class === "passage" ? ahkamSignalsOf(n) : [],
     }) },
   { file: "arkan.json", feature: "arkan-browser",
     pick: (n) => n.tags.includes(ARKAN_TAG) || isArkanPassage(n),

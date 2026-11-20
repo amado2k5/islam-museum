@@ -13,6 +13,7 @@ import { hisabItems } from "./hisab";
 import { halalItems } from "./halal";
 import { hududItems } from "./hudud";
 import { arkanItems } from "./arkan";
+import { ahkamItems } from "./ahkam";
 import { ibadatItems } from "./ibadat";
 import { ieItems } from "./islamic-economy";
 import { tradeItems } from "./trade";
@@ -66,7 +67,7 @@ export const classRows = (slug: string): Row[] | null => {
 export const CLASS_SLUGS = BROWSE_CLASSES.filter((c) => entriesOf(c).length > CLASS_WHOLE).map((c) => `class-${c}`);
 /** slug (the browser's folder under /<lang>/, "/" written as "-") -> the rows it lists. */
 export const BROWSER_ROWS: Record<string, readonly Row[]> = {
-  akhlaq: akhlaqItems, angels: angelsItems, arkan: arkanItems, bayt: baytItems, dreams: dreamItems, dua: duaItems, ghayb: ghaybItems,
+  ahkam: ahkamItems, akhlaq: akhlaqItems, angels: angelsItems, arkan: arkanItems, bayt: baytItems, dreams: dreamItems, dua: duaItems, ghayb: ghaybItems,
   halal: halalItems, hasanat: hasanatItems, hisab: hisabItems, hudud: hududItems, ibadat: ibadatItems, "islamic-economy": ieItems,
   janna: jannaItems, madhahib: madhahibItems, umam: umamItems, ulama: ulamaItems, magic: magicItems, cosmos: cosmosItems, qiraat: qiraatItems, wasaya: wasayaItems, messengers: messengerItems, miracles: miracleItems,
   mukatabat: mukatabatItems, munazarat: munazaratItems, ritha: rithaItems, nar: narItems, nature: natureItems, nubuwat: nubuwatItems, places: placesItems,

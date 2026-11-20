@@ -1,0 +1,18 @@
+id: passage/muslim-api-5071
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5071"
+label: { ar: "صحيح مسلم 5071 — المكروه", en: "Sahih Muslim 5071 — the disliked (makruh)", ur: "صحیح مسلم 5071 — مکروہ", fr: "Sahih Muslim 5071 — le réprouvé (makruh)", es: "Sahih Muslim 5071 — lo reprobado (makruh)" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، عَنْ دَاوُدَ، عَنِ الشَّعْبِيِّ، عَنِ الْبَرَاءِ، بْنِ عَازِبٍ قَالَ خَطَبَنَا رَسُولُ اللَّهِ يَوْمَ النَّحْرِ فَقَالَ \" لاَ يَذْبَحَنَّ أَحَدٌ حَتَّى يُصَلِّيَ \". قَالَ فَقَالَ خَالِي يَا رَسُولَ اللَّهِ إِنَّ هَذَا يَوْمٌ اللَّحْمُ فِيهِ مَكْرُوهٌ. ثُمَّ ذَكَرَ بِمَعْنَى حَدِيثِ هُشَيْمٍ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5071، يرد فيه ذكر المكروه. يجمعه متصفح الفروض والواجبات والطاعات والمستحبات والمكروهات والمحرمات وصغائر الذنوب مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب، ويصف المتحف ما في النص ولا يُفتي به."
+  en: "A report in Sahih Muslim, no. 5071 (The Book of Sacrifices), whose wording mentions the disliked (makruh). The Rulings Browser (obligations, acts of obedience, recommended, disliked and forbidden acts, and minor sins) lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on these themes; the museum describes what the text says and issues no ruling."
+  ur: "صحیح مسلم کی حدیث نمبر 5071، جس کے الفاظ میں مکروہ کا ذکر ہے۔ فرائض، واجبات، طاعات، مستحبات، مکروہات، محرمات اور صغیرہ گناہوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے؛ میوزیم متن کا بیان کرتا ہے، فتویٰ نہیں دیتا۔"
+  fr: "Un récit de Sahih Muslim, n° 5071, dont le texte mentionne le réprouvé (makruh). Le Navigateur des statuts légaux (obligations, actes d'obéissance, actes recommandés, réprouvés et interdits, péchés mineurs) le réunit avec les textes du Coran, de la Sunna, de la sîra et les récits des Compagnons et des Suivants sur ces thèmes ; le musée décrit ce que dit le texte et ne rend aucun avis juridique."
+  es: "Un relato de Sahih Muslim, n.º 5071, cuyo texto menciona lo reprobado (makruh). El Explorador de las calificaciones legales (obligaciones, actos de obediencia, actos recomendados, reprobados y prohibidos, y pecados menores) lo reúne con los textos del Corán, la Sunna, la sira y los relatos de los Compañeros y los Sucesores sobre estos temas; el museo describe lo que dice el texto y no emite ningún dictamen."
+relations:
+  - { type: mentions, target: concept/makruh, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5071 (book 35 hadith 8); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ahkam-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words in five languages (machine-written, not read by a person)" }

@@ -1,0 +1,18 @@
+id: passage/muslim-api-2166
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2166"
+label: { ar: "صحيح مسلم 2166 — نهي لم يُعزم فيه", en: "Sahih Muslim 2166 — a prohibition that was not made firm", ur: "صحیح مسلم 2166 — وہ ممانعت جس میں سختی نہیں کی گئی", fr: "Sahih Muslim 2166 — une interdiction qui ne fut pas rendue ferme", es: "Sahih Muslim 2166 — una prohibición que no se hizo firme" }
+text: "حَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، حَدَّثَنَا ابْنُ عُلَيَّةَ، أَخْبَرَنَا أَيُّوبُ، عَنْ مُحَمَّدِ بْنِ سِيرِينَ، قَالَ قَالَتْ أُمُّ عَطِيَّةَ كُنَّا نُنْهَى عَنِ اتِّبَاعِ الْجَنَائِزِ وَلَمْ يُعْزَمْ عَلَيْنَا."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2166، يرد فيه ذكر نهي لم يُعزم فيه. يجمعه متصفح الفروض والواجبات والطاعات والمستحبات والمكروهات والمحرمات وصغائر الذنوب مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب، ويصف المتحف ما في النص ولا يُفتي به."
+  en: "A report in Sahih Muslim, no. 2166 (The Book of Prayer - Funerals), whose wording mentions a prohibition that was not made firm. The Rulings Browser (obligations, acts of obedience, recommended, disliked and forbidden acts, and minor sins) lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on these themes; the museum describes what the text says and issues no ruling."
+  ur: "صحیح مسلم کی حدیث نمبر 2166، جس کے الفاظ میں وہ ممانعت جس میں سختی نہیں کی گئی کا ذکر ہے۔ فرائض، واجبات، طاعات، مستحبات، مکروہات، محرمات اور صغیرہ گناہوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے؛ میوزیم متن کا بیان کرتا ہے، فتویٰ نہیں دیتا۔"
+  fr: "Un récit de Sahih Muslim, n° 2166, dont le texte mentionne une interdiction qui ne fut pas rendue ferme. Le Navigateur des statuts légaux (obligations, actes d'obéissance, actes recommandés, réprouvés et interdits, péchés mineurs) le réunit avec les textes du Coran, de la Sunna, de la sîra et les récits des Compagnons et des Suivants sur ces thèmes ; le musée décrit ce que dit le texte et ne rend aucun avis juridique."
+  es: "Un relato de Sahih Muslim, n.º 2166, cuyo texto menciona una prohibición que no se hizo firme. El Explorador de las calificaciones legales (obligaciones, actos de obediencia, actos recomendados, reprobados y prohibidos, y pecados menores) lo reúne con los textos del Corán, la Sunna, la sira y los relatos de los Compañeros y los Sucesores sobre estos temas; el museo describe lo que dice el texto y no emite ningún dictamen."
+relations:
+  - { type: mentions, target: concept/makruh, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2166 (book 11 hadith 44); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ahkam-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words in five languages (machine-written, not read by a person)" }

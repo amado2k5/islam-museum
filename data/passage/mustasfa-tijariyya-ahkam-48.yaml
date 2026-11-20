@@ -1,0 +1,20 @@
+id: passage/mustasfa-tijariyya-ahkam-48
+class: passage
+unit: chapter
+work: work/al-mustasfa
+ref: "48"
+label: { ar: "المستصفى للغزالي، طبعة التجارية، ص 48 — الفرض، فرض الكفاية", en: "al-Ghazali's al-Mustasfa, the Tijariyya printing, p. 48 — the obligatory (fard); the communal obligation (fard kifaya)", ur: "المستصفیٰ، غزالی، طبع تجاریہ، ص 48 — فرض، فرضِ کفایہ", fr: "al-Mustasfa, the Tijariyya printing de al-Ghazali, p. 48 — l'obligatoire (fard) ; l'obligation collective (fard kifaya)", es: "al-Mustasfa, the Tijariyya printing de al-Ghazali, p. 48 — lo obligatorio (fard); la obligación colectiva (fard kifaya)" }
+text: "… بالجميع أولم يات بالجميع فكيف يتعين واحد فى علم الله تعالى ؟ فان قيل فلم لا يجوز أن يوجب على احد شخصين لابعينه، ولم قلم بأن فرض الكفاية على الجميع مع أن الوجوب يسقط بفعل واحد ؟ قلنا لان الوجوب …"
+summary:
+  ar: "مقطع من المستصفى للغزالي، طبعة التجارية، ص 48، يرد فيه ذكر الفرض، وفرض الكفاية، والوجوب، وما يجب على المكلف؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر ولم يُصحَّح. يجمعه متصفح الفروض والواجبات والطاعات والمستحبات والمكروهات والمحرمات وصغائر الذنوب."
+  en: "An excerpt from al-Ghazali's al-Mustasfa, the Tijariyya printing, p. 48, whose wording mentions the obligatory (fard), the communal obligation (fard kifaya), obligation (wujub), what is binding on the person addressed; from the machine-read scan, quoted within forty words per the sources policy and not corrected. The Rulings Browser (obligations, acts of obedience, recommended, disliked and forbidden acts, and minor sins) lists it."
+  ur: "المستصفیٰ، غزالی، طبع تجاریہ، ص 48 کا اقتباس جس میں فرض، فرضِ کفایہ، وجوب، جو مکلف پر واجب ہے کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں، بغیر تصحیح کے۔ فرائض، واجبات، طاعات، مستحبات، مکروہات، محرمات اور صغیرہ گناہوں کا براؤزر اسے درج کرتا ہے۔"
+  fr: "Un extrait de al-Mustasfa, the Tijariyya printing de al-Ghazali, p. 48, dont le texte mentionne l'obligatoire (fard), l'obligation collective (fard kifaya), l'obligation (wujub), ce qui s'impose à la personne responsable ; tiré de la numérisation lue par machine, cité dans la limite de quarante mots selon la politique des sources et non corrigé. Le Navigateur des statuts légaux (obligations, actes d'obéissance, actes recommandés, réprouvés et interdits, péchés mineurs) le répertorie."
+  es: "Un extracto de al-Mustasfa, the Tijariyya printing de al-Ghazali, p. 48, cuyo texto menciona lo obligatorio (fard), la obligación colectiva (fard kifaya), la obligatoriedad (wujub), lo que obliga a la persona responsable; tomado de la digitalización leída por máquina, citado dentro de cuarenta palabras según la política de fuentes y sin corregir. El Explorador de las calificaciones legales (obligaciones, actos de obediencia, actos recomendados, reprobados y prohibidos, y pecados menores) lo recoge."
+relations:
+  - { type: mentions, target: concept/fard, sources: [source/mustasfa-tijariyya-1356-v1] }
+  - { type: mentions, target: concept/fard-kifaya, sources: [source/mustasfa-tijariyya-1356-v1] }
+  - { type: mentions, target: concept/wajib-fiqh, sources: [source/mustasfa-tijariyya-1356-v1] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan usul/mustasfa-ghazali/AAlexandrina-187868, page 48; a window of at most 40 words chosen by the rulings detector (scripts/ahkam.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ahkam-ocr-1" }
+sources: [source/mustasfa-tijariyya-1356-v1]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words in five languages (machine-written, not read by a person); the excerpt is machine-read and not corrected" }
