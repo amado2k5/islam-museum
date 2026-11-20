@@ -1,0 +1,20 @@
+---
+id: passage/quran-3-109
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-3-109.md}
+---
+## Résumé
+Verset 109 de [[passage/quran-3|la sourate Al 'Imran]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 109 sur 200 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**La souveraineté de Dieu et l'absence de besoin de nuire (pp. 98-99).** Al-Tabari explique que le sens est le suivant : Dieu punit ceux qui ont renié leur foi après s'être convertis par le châtiment terrible et les visages assombris mentionnés, et récompense les croyants restés fermes dans leur affirmation et leur fidélité à leurs engagements en leur faisant demeurer dans Ses jardins, sans nuire à aucun des deux groupes car Il n'a nul besoin de nuire. Celui qui commet le mal nuit à autrui pour accroître sa puissance, son autorité ou sa domination, ou pour compenser un manque dans ses ressources ; Celui qui possède tout ce qui se trouve entre l'est et l'ouest, et entre ce monde et l'autre, n'a aucune raison de nuire à quiconque, car il ne lui manque aucun moyen ; Dieu est exalté au-dessus de cela. C'est pourquoi, après avoir nié vouloir nuire, Dieu affirme que tout ce qui est dans les cieux et sur la terre Lui appartient. {cite:tafsir-tabari-shakir-v07 p. 98} {cite:tafsir-tabari-shakir-v07 p. 99}
+
+**La controverse des grammairiens concernant la répétition du nom (p. 99-100).** Les Arabes divergeaient quant à la raison pour laquelle le nom de Dieu est mentionné à nouveau ouvertement dans la proposition finale, alors qu'il l'était déjà dans la première. Un Basran affirmait que cela ressemblait à l'expression arabe « Quant à Zayd, Zayd est parti » et à un vers de poète où le nom est employé à la place d'un pronom. Ce vers est attribué à Adi ibn Zayd, parfois à son fils Sawada ibn Adi, et peut-être à Umayya ibn Abi al-Salt ; l'éditeur le situe dans le Hamasa d'al-Buhturi, le Shu'ara al-Jahiliyya, le Kitab de Sibawayh, le Khizanat al-Adab, l'Amali d'Ibn al-Shajari et le Sharh Shawahid al-Mughni, précise qu'il provient de vers épars des réflexions d'Adi sur la vie et la mort, en décrit le sens et note que, dans le manuscrit, le vers était altéré. Un grammairien de Koufa a déclaré que ce vers diffère du vers original, car dans ce dernier, la seconde mention occupe la place d'un pronom et se compose d'un seul mot, tandis que dans le vers, la première affirmation est un rapport sans lien avec la seconde ; chaque récit a un sens différent de l'autre et se suffit à lui-même, alors que le vers du poète nécessite un rapport complet. L'éditeur ajoute que les Koufas appellent ce pronom « kinaya ». {cite:tafsir-tabari-shakir-v07 p. 99} {cite:tafsir-tabari-shakir-v07 p. 100}
+
+**Le choix d'Al-Tabari (p. 100).** Al-Tabari affirme que la seconde opinion lui semble la plus juste, car le sens et la clarté du Livre de Dieu ne doivent pas être attribués à un langage et à des sens rares ; dans un langage éloquent et un sens clair et accessible, il trouve sa pleine signification. Quant au retour des choses à Dieu, il déclare que le destin de chaque créature, juste ou injuste, bonne ou mauvaise, se termine entre Ses mains, et Il rétribue chacun selon ses mérites, sans léser personne. L'éditeur précise avoir corrigé la comparaison d'Al-Tabari avec le poète dans le manuscrit et le texte imprimé, et que les erreurs de transcription sont fréquentes. {cite:tafsir-tabari-shakir-v07 p. 100}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement. {cite:tafsir-tabari-shakir-v07 p. 100}

@@ -1,0 +1,34 @@
+---
+id: passage/quran-5-18
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-5-18.md}
+---
+## Résumé
+Verset 18 de [[passage/quran-5|la sourate al-Ma'ida]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 18 sur 120 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Commentaire sur le verset 18 : la revendication des Juifs et des Chrétiens d’être les fils et les bien-aimés de Dieu (pp. 150-152)**
+
+Concernant le verset « Les Juifs et les Chrétiens disent : “Nous sommes les fils de Dieu et Ses bien-aimés.” Dis : “Pourquoi donc vous punit-Il pour vos péchés ?” », al-Tabari affirme qu'il s'agit d'un hadith rapporté par Dieu au sujet de certains Juifs et Chrétiens ayant tenu ces propos. Un hadith rapporté par Ibn Abbas nomme les Juifs concernés. Le hadith 11613, également rapporté par Ibn Abbas, indique que Nu'man ibn Ada, Bahri ibn Amr et Shas ibn Adi vinrent trouver le Messager de Dieu et s'entretinrent avec lui. Il les appela à Dieu et les avertit de Sa vengeance. Ils répondirent : « Ô Muhammad, ne nous effraye pas ! Par Dieu, nous sommes les fils de Dieu et Ses bien-aimés, comme le disent les Chrétiens. » Dieu révéla alors ce verset à leur sujet. L'éditeur corrige leurs noms d'après la biographie d'Ibn Hisham. {cite:tafsir-tabari-shakir-v10 p. 150}
+
+Le hadith 11614, rapporté par al-Suddi, indique que l'expression « fils de Dieu » employée par les Juifs signifiait que Dieu avait révélé à Israël que certains de ses enfants entreraient en Enfer et y demeureraient quarante jours, jusqu'à ce que le feu les purifie et consume leurs péchés. Un messager dirait alors de faire sortir tous les enfants circoncis d'Israël ; c'est ainsi qu'ils affirmaient que le feu ne les toucherait que quelques jours. Quant aux chrétiens, un groupe parmi eux appelait le Messie « fils de Dieu ». Al-Tabari explique que lorsque les Arabes se vantent, ils présentent le récit comme un récit collectif, même si la vantardise ne concerne qu'un seul d'entre eux, comme dans l'expression « nous sommes généreux et nobles » alors qu'un seul l'est. Il cite un verset de Jarir où un acte accompli par un homme de son peuple est attribué à tout le groupe ; Dieu rapporte que les chrétiens tiennent de tels propos. L'éditeur explique que ce verset provient de la satire de Jarir sur al-Farazdaq et relate le meurtre d'un ancêtre de ce dernier, imputé à toute la tribu. {cite:tafsir-tabari-shakir-v10 p. 151}
+
+« Ses bien-aimés » est le pluriel de « bien-aimés ». Dieu ordonne à Son Prophète de dire à ces calomniateurs menteurs qui diffament leur Seigneur : « Pourquoi votre Seigneur vous punit-il pour vos péchés si, comme vous le prétendez, vous êtes Ses fils et Ses bien-aimés ? Un bien-aimé ne punit pas son bien-aimé, et vous admettez qu’Il vous punira ! » Les Juifs avaient dit que Dieu les punirait quarante jours, le nombre de jours où ils auraient adoré le veau d’or, puis les ferait tous sortir. {cite:tafsir-tabari-shakir-v10 p. 152}
+
+Alors « vous êtes plutôt des êtres humains parmi ceux qu’Il a créés ; Il pardonne à qui Il veut et punit qui Il veut » : dites-leur que ce n’est pas comme vous le prétendez ; vous êtes des êtres humains parmi ceux qu’Il a créés à partir des enfants d’Adam, créés comme tous les enfants d’Adam, et si vous faites le bien, vous serez récompensés pour votre bien ; la phrase se poursuit sur la page suivante. {cite:tafsir-tabari-shakir-v10 p. 152}
+
+Il poursuit : si vous faites le bien, vous serez récompensés comme tous les autres enfants d’Adam, et si vous faites le mal, vous serez récompensés pour votre mal ; vous n’avez auprès de Dieu que ce que possèdent les autres créatures, car Il pardonne les péchés de qui Il veut parmi ceux qui croient en Lui, les ignorant par Sa faveur et les couvrant par Sa miséricorde, de sorte qu’Il ne les punit pas. Il a expliqué ailleurs la signification du pardon. {cite:tafsir-tabari-shakir-v10 p. 153}
+
+« Et Il punit qui Il veut » signifie qu’Il traite avec justice qui Il veut parmi Sa création, les punissant pour leurs péchés et les exposant aux yeux de tous, sans les couvrir. C’est un avertissement de Dieu aux Juifs et aux Chrétiens qui s’appuient sur la position qu’Il a acquise auprès de Lui de leurs pieux ancêtres, qu’Il a préférés pour leur obéissance et choisis pour leur empressement à Lui accorder Son approbation et leur patience face aux épreuves. Il leur dit : ne vous laissez pas tromper par leur position auprès de Moi, car ils ont obtenu ce qu’ils ont obtenu par l’obéissance et en plaçant Mon approbation avant leurs désirs, et non par de vains espoirs ; Je pardonne les péchés de qui Je veux parmi ceux qui M’obéissent et Je punis qui Je veux parmi ceux qui M’obéissent, et non celui dont les pères étaient proches de Moi alors qu’il est Mon ennemi et s’oppose à Mon commandement et à Mon interdiction. L’éditeur corrige une leçon du texte imprimé et du manuscrit et explique le verbe « choisir ». {cite:tafsir-tabari-shakir-v10 p. 153}
+
+Le hadith 11615, rapporté par al-Suddi, indique que « Il pardonne à qui Il veut et punit qui Il veut » signifie qu'Il guide qui Il veut parmi vous dans ce monde et lui pardonne, et laisse mourir qui Il veut dans l'incroyance et le punit. {cite:tafsir-tabari-shakir-v10 p. 154}
+
+« À Dieu appartient la domination sur les cieux, la terre et ce qui est entre eux, et c’est vers Lui que se fait le retour. » Dieu dirige tout ce qui est dans les cieux, sur la terre et entre eux ; à Lui appartiennent le commandement et la domination. Il dirige et dispose tout comme Il le veut, sans associé, sans que personne ne puisse exercer une quelconque domination sur Lui. Sachez donc, vous qui dites : « Nous sommes les enfants de Dieu, ses bien-aimés », que s’il vous punit pour vos péchés, rien ne L’en empêche, rien ne Le repousse, car nul n’est lié à Lui pour qu’Il le favorise, et nul n’a d’autorité, en dehors de Lui, qui puisse s’interposer entre Lui et le châtiment ; c’est vers Lui que se fait le retour de toute chose. Craignez Son châtiment, calomniateurs, et ne vous laissez pas séduire par les souhaits et les mérites de vos pères et de vos ancêtres. {cite:tafsir-tabari-shakir-v10 p. 154}
+
+Nous nous arrêtons ici à la fin du commentaire sur le verset 18 à la page 154 ; le verset 19 commence à la page suivante.
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

@@ -1,0 +1,52 @@
+---
+id: passage/quran-4-135
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-4-135.md}
+---
+## Résumé
+Verset 135 de [[passage/quran-4|la sourate an-Nisa]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 135 sur 176 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Commentaire sur le verset 135 : demeurer ferme dans la justice et témoigner pour Dieu (p. 301)**
+
+Al-Tabari explique qu'il s'agit d'une instruction divine adressée à Ses serviteurs croyants, leur enjoignant de ne pas imiter ceux qui se sont adressés au Messager au sujet des Banu Ubayriq, les défendant, prenant leur défense et présentant leur cas comme celui de personnes nécessiteuses et pauvres. Dieu ordonne aux croyants d'être intègres et justes, c'est-à-dire équitables, en tant que témoins de Sa cause. {cite:tafsir-tabari-shakir-v09 p. 301}
+
+Al-Tabari explique que « tenir bon » (shuhada’) est employé à l’accusatif comme une expression détachée de « droit », appliquée à ceux qui croient, signifiant : défendre la justice pour Dieu lors de votre témoignage, ou au moment où il est rendu. « Même contre vous-mêmes » signifie que même si votre témoignage est dirigé contre vous-mêmes, vos parents ou vos proches, vous devez y rester fidèle, le rendre en disant la vérité, et ne pas favoriser le riche pour sa richesse ni le pauvre pour sa pauvreté. {cite:tafsir-tabari-shakir-v09 p. 302}
+
+Dieu, qui a rendu un jugement égal entre riches et pauvres, est plus digne de l'un comme de l'autre que vous, car Il les possède et sait ce qui convient à chacun ; c'est pourquoi Il vous a ordonné de témoigner de manière égale, pour ou contre eux. Le sens de « ne suivez pas vos désirs de peur de vous égarer » est le suivant : ne suivez pas vos propres désirs en prenant parti pour l'un ou l'autre camp dans votre témoignage. Il répond à la question de savoir comment un témoin peut témoigner contre lui-même : lorsqu'une personne a un droit envers une autre et le reconnaît. {cite:tafsir-tabari-shakir-v09 p. 302}
+
+Al-Tabari interprète ce verset comme une leçon divine adressée aux croyants, les enjoignant de ne pas imiter ceux qui défendirent les Banu Ubayriq, coupables de vol et de trahison, devant le Messager, et qui attestèrent de leur bonne foi. Il leur ordonne de témoigner avec justice, même contre eux-mêmes, leurs parents et leurs proches, et de ne pas laisser la richesse, la pauvreté ou les liens de parenté de ceux pour qui ils témoignent les conduire à un faux témoignage ou à dissimuler la vérité. Il est également dit que ce verset aurait été révélé comme une leçon au Prophète lui-même. {cite:tafsir-tabari-shakir-v09 p. 303}
+
+Le hadith 10678, rapporté par al-Suddi via Asbat, indique que deux hommes, l'un riche et l'autre pauvre, se disputèrent devant le Prophète. Ce dernier pencha en faveur du pauvre, estimant qu'il ne léserait pas le riche, mais Dieu exigea justice pour les deux. Al-Tabari propose également une interprétation selon laquelle ce verset concerne le témoignage, enjoignant aux croyants de traiter riches et pauvres avec égalité lorsqu'ils témoignent. {cite:tafsir-tabari-shakir-v09 p. 304}
+
+Rapport 10679, d'Ibn Abbas par l'intermédiaire d'Ali ibn Abi Talha et Mu'awiya : Dieu a ordonné aux croyants de dire la vérité même contre eux-mêmes, leurs parents ou leurs enfants, de ne pas favoriser un riche pour sa richesse, ni de plaindre un pauvre pour son besoin, et ainsi de ne pas abandonner la vérité et de faire le mal. {cite:tafsir-tabari-shakir-v09 p. 304}
+
+Le hadith 10680, rapporté par Ibn Shihab via Yunus et Ibn al-Mubarak, concerne le témoignage d'un père en faveur de son fils et de sa famille : telle était la pratique des premiers musulmans ; les justes n'étaient pas mis en doute lorsqu'un père témoignait pour son fils, un fils pour son père, un frère pour son frère, ou un homme pour sa femme. Plus tard, des actes ont éveillé les soupçons des dirigeants, et le témoignage de ceux qui étaient soupçonnés pour leurs proches fut rejeté. L'éditeur remarque qu'Ibn Shihab serait stupéfait de ce que sont devenus nos temps. {cite:tafsir-tabari-shakir-v09 p. 304}
+
+Rapport 10681, d'Ibn Zayd : ne laissez pas la pauvreté de cet homme vous amener à le plaindre au point de ne pas témoigner contre lui ; dit-il au témoin. {cite:tafsir-tabari-shakir-v09 p. 304}
+
+Le hadith 10682, rapporté par Qatada via Sa'id et Bishr ibn Mu'adh, indique que ce verset traite du témoignage : « Établis un témoignage, fils d'Adam, même contre toi-même, tes parents, tes proches ou l'honneur de ton peuple, car le témoignage appartient à Dieu et non aux hommes. Par la justice, le fort est tenu en échec par le faible, le menteur par le véridique, et le malfaisant par le juste ; par elle, les hommes sont rétablis dans la droiture. » Il est également rapporté que Moïse demanda à son Seigneur ce qui était le moins important sur terre, et il lui répondit : « La justice. » L'éditeur explique « yarankhuhu » comme signifiant humilier et affaiblir Moïse. {cite:tafsir-tabari-shakir-v09 p. 305}
+
+Al-Tabari explique que « les deux » (bihima) est au duel car il est fait mention des riches et des pauvres ; certains savants affirment que les riches et les pauvres ne sont pas identifiés, de sorte que la référence peut être au singulier, au duel ou au pluriel. L’interprétation d’Ubayy est : « Dieu est plus digne d’eux » ; « ou » est compris comme « et » ; et il y a un sous-entendu « quiconque ». Le sens de « ne suivez pas vos désirs de peur de vous égarer » est : ne suivez pas vos désirs au point d’abandonner l’établissement du témoignage de vérité. {cite:tafsir-tabari-shakir-v09 p. 305}
+
+Concernant les mots « si vous déformez ou détournez le regard », al-Tabari rapporte différentes lectures. Certains affirment que l'adresse est adressée aux juges : s'ils déforment le jugement en faveur de l'une des deux parties au détriment de l'autre, ou s'ils détournent le regard. Ibn Abbas, par l'intermédiaire de Qabus ibn Abi Zabyan, qui tenait son père, explique qu'il s'agit de deux hommes siégeant devant le juge, dont le fait de se pencher ou de se détourner en faveur de l'un d'eux est visé (10683). L'éditeur note la critique de Qabus et de son père par Ibn Ma'in et Ibn Hibban. {cite:tafsir-tabari-shakir-v09 p. 307}
+
+D'autres affirment que le message s'adresse aux témoins : s'ils déforment et altèrent leurs témoignages, ou s'ils s'en détournent et les abandonnent. Le hadith 10684, rapporté par Ibn Abbas via Ali ibn Abi Talha et Mu'awiya, parle de déformation du témoignage par la langue, ou de désaveu ; le hadith 10685, rapporté par Ibn Abbas via Ibn Sa'd, son père, son oncle et son grand-père, exprime la même idée de déformation et de désaveu. {cite:tafsir-tabari-shakir-v09 p. 307}
+
+Al-Tabari explique la « torsion » (lajlaja) et le « détournement » (i'rad) : la torsion consiste à détourner sa langue de la vérité, de sorte que le témoignage ne soit pas rendu correctement ; le détournement consiste à l'abandonner. Le hadith 10686, rapporté par Mujahid via Ibn Abi Najih, indique que « torsion » signifie altérer le témoignage et « détournement » signifie le dissimuler. Le hadith 10687, rapporté par Mujahid via Shibl, mentionne l'altération et la dissimulation. Le hadith 10688, rapporté par Sufyan, parle de déformation ou d'abandon. {cite:tafsir-tabari-shakir-v09 p. 308}
+
+Le hadith 10689, rapporté par Qatada, parle d'hésitation ou de dissimulation, en lien avec le témoignage. Le hadith 10690, rapporté par al-Suddi, explique que « déformer » consiste à tordre le témoignage pour ne pas le donner, et « se détourner » à le dissimuler en disant : « Je n'ai pas de témoignage. » Le hadith 10691, rapporté par Ibn Zayd, précise qu'il dissimule le témoignage, en déforme une partie ou s'en détourne, refusant par exemple de témoigner contre quelqu'un qu'il plaint pour sa pauvreté, ou épargnant un homme riche en espérant obtenir ce qu'il possède. {cite:tafsir-tabari-shakir-v09 p. 308}
+
+Rapport 10692, d'après Mujahid : déformation. Rapport 10693, d'après Ata : hésitation, ce qui altère le témoignage, ou abandon. Rapport 10694, d'après al-Dahhak : témoignage non conforme ; se détourner revient à le dissimuler. Rapport 10695, d'après Qatada par l'intermédiaire de Shaybān : hésitation, et abandon du témoignage, de sorte qu'il ne soit pas rendu. Rapport 10696, d'après al-Dahhak : un homme qui détourne sa langue de la vérité dans son témoignage. {cite:tafsir-tabari-shakir-v09 p. 309}
+
+Al-Tabari privilégie l'avis selon lequel « déformer » signifie que le témoin modifie son témoignage, en faveur ou contre la partie, en l'altérant par ses paroles et en omettant de le restituer, de manière à l'invalider ; et que « se détourner » signifie qu'il abandonne son témoignage et s'y oppose, de sorte qu'il ne témoigne pas. Cet avis est préférable car Dieu leur a ordonné de rester fermes dans la justice en tant que témoins. {cite:tafsir-tabari-shakir-v09 p. 309}
+
+Al-Tabari expose les lectures. La plupart des lecteurs hors de Koufa lisent deux waws, de « lawa » signifiant retarder le paiement d'une dette ; certains lecteurs de Koufa n'en lisent qu'un seul, et il en propose deux interprétations qu'il rejette toutes deux. Il privilégie la lecture à deux waws, signifiant qu'il faut s'abstenir de soutenir le témoignage comme il se doit pour celui qui y est redevable, en le modifiant ou en le reniant, de sorte qu'on cesse de le soutenir, à l'image d'un homme qui retarde le paiement d'une dette. Il cite un verset d'al-Ashsha sur le retard de paiement d'une dette. L'éditeur note que l'explication du waw pluriel donnée par Tabari contient ici une erreur manifeste. {cite:tafsir-tabari-shakir-v09 p. 310}
+
+Al-Tabari conclut que Dieu est conscient de ce que vous faites : que vous mainteniez votre témoignage, que vous le modifiiez ou que vous le dissimuliez ; c’est-à-dire qu’Il le sait, s’en souvient contre vous et vous en rétribuera dans l’au-delà. {cite:tafsir-tabari-shakir-v09 p. 311}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

@@ -1,0 +1,20 @@
+---
+id: passage/quran-3-163
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-3-163.md}
+---
+## Résumé
+Verset 163 de [[passage/quran-3|la sourate Al 'Imran]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 163 sur 200 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Verset 163 : la différence de rang (8172-8176, p. 367-368).** Abou Ja'far : il s'agit de comprendre que ceux qui ont suivi la volonté de Dieu et ceux qui se sont attirés Sa colère occupent des rangs différents auprès de Lui. Celui qui a suivi Sa volonté connaîtra honneur et une abondante récompense ; celui qui a encouru Sa colère, humiliation et châtiment douloureux. Ibn Ishaq (8172), par l'intermédiaire d'Ibn Humayd, d'après Salama : chacun a un rang selon ses actions, au Paradis et en Enfer, et Dieu ne perd pas de vue les gens obéissants par rapport aux gens désobéissants ; l'éditeur note que ce hadith figure dans la Sira d'Ibn Hisham (3 : 124), faisant suite à des hadiths se terminant par 8171. Ibn Abbas (8173), par l'intermédiaire de Muhammad ibn Sa'd, d'après son père, son oncle, son père et son grand-père : leur rang est déterminé par leurs actes. D'autres ont dit que cela signifie que ceux qui ont suivi la volonté de Dieu ont des places honorables auprès de Lui : Mujahid (8174), par l'intermédiaire de Muhammad ibn 'Amr, d'après Abu 'Asim, d'après 'Isa, d'après Ibn Abi Najih, l'a comparé à un autre verset ayant le même sens, et al-Suddi (8175), par l'intermédiaire de Muhammad, d'après Ahmad, d'après Asbat, l'a expliqué ainsi : ils ont des rangs auprès de Dieu. {cite:tafsir-tabari-shakir-v07 p. 367}
+
+**La comparaison avec les gradins et le vers de poésie (p. 368).** On a également dit que l'expression est comme dire « ils sont des gradins ». Al-Tabari cite un vers d'Ibn Harma où le poète déplore son peuple et la rapidité avec laquelle la destruction l'a atteint, décrivant le destin qui s'abat sur lui comme un torrent dans les méandres d'une vallée. Dans sa note, l'éditeur indique que ce vers se trouve dans le Kitab de Sibawayh (1 : 206-207), le Majaz al-Qur'an d'Abu 'Ubayda (1 : 107), la Khizana et le Lisan (racine drj), dans une formulation différente de celle d'al-Tabari et d'Abu 'Ubayda ; que Sibawayh l'a utilisé pour l'accusatif adverbial du cours du torrent et pour le prédicat de « ils » ; qu'il a rétabli dans le manuscrit la lecture correcte que le texte imprimé avait corrompue. Il explique « rajm » comme l’action de jeter et ce qui est jeté, et le cours du fleuve comme son lit et son parcours. (Le texte numérisé de cette page est fortement illisible autour de la ligne et de la note ; ce texte décrit donc le sens de la note sans en citer les termes.) Dans la première note de bas de page, il fait référence à l’explication précédente du terme « degré » (les numéros de référence croisée sont illisibles dans le texte numérisé). {cite:tafsir-tabari-shakir-v07 p. 368}
+
+**Fin du verset (p. 368).** Al-Tabari explique ensuite que Dieu connaît les actions des gens obéissants et désobéissants, que rien de leurs actes ne Lui est caché, et qu'Il les comptabilise pour les deux camps jusqu'à ce que chaque âme reçoive la rétribution de ses bonnes et mauvaises actions. Ibn Ishaq (8176), par l'intermédiaire d'Ibn Humayd, d'après Salama : Dieu ne perd pas de vue les gens obéissants face aux gens désobéissants ; ce hadith figure dans la Sira d'Ibn Hisham (3 : 124), qui fait suite à d'autres hadiths, dont le 8172, dont l'éditeur précise que celui-ci fait partie. {cite:tafsir-tabari-shakir-v07 p. 368}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement. {cite:tafsir-tabari-shakir-v07 p. 368}

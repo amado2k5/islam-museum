@@ -1,0 +1,22 @@
+---
+id: passage/quran-2-148
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-2-148.md}
+---
+## Résumé
+Verset 148 de [[passage/quran-2|la sourate al-Baqara]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 148 sur 286 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+## Dans le commentaire d'al-Tabari
+
+Concernant l'affirmation « chacun a une direction vers laquelle il se tourne », al-Tabari explique que « chacun » signifie « chacun des fidèles », l'expression « les fidèles » étant sous-entendue dans le texte. {cite:tafsir-tabari-shakir-v03 p. 192} Il rapporte d'après Mujahid et 'Ata' que cela signifie « chaque croyant », d'après al-Rabi' et Ibn Zayd que le Juif a une direction et le Chrétien une autre, et que Dieu a guidé cette communauté vers la qibla, c'est-à-dire la qibla, d'après Ibn 'Abbas que chaque fidèle a une qibla qui lui convient, et que le visage de Dieu est là où les croyants se tournent, et d'après al-Suddi que chaque peuple a une qibla vers laquelle il se tourne. {cite:tafsir-tabari-shakir-v03 p. 192} {cite:tafsir-tabari-shakir-v03 p. 193} D'autres, de Qatada, ont dit qu'il s'agissait de leur prière vers Jérusalem et de leur prière vers la Kaaba, signifiant que pour chaque direction vers laquelle ton Seigneur t'a tourné, ô Muhammad, il existe une qibla vers laquelle Dieu tourne Ses serviteurs. {cite:tafsir-tabari-shakir-v03 p. 193} « Wijha » est un nom verbal comme « qa'da », dérivé de « tawajjuh », signifiant le point vers lequel on se tourne en prière ; de Mujahid, une qibla. {cite:tafsir-tabari-shakir-v03 p. 193}
+
+Il rapporte d'al-Rabi' que « wijha » signifie un visage, d'Ibn Zayd une qibla, et de Mansur qu'ils l'interprètent ainsi : « car Nous avons établi à chacun une qibla qui leur convient ». {cite:tafsir-tabari-shakir-v03 p. 194} Quant à « celui qui se tourne vers elle », il dit que cela signifie qu'il tourne son visage vers elle et la regarde, d'après Mujahid, « tourner » signifiant ici s'approcher ; le sens est donc que pour chaque peuple d'une même croyance, il existe une direction, vers laquelle tous tournent leur visage. {cite:tafsir-tabari-shakir-v03 p. 194} {cite:tafsir-tabari-shakir-v03 p. 195} Il note qu'une lecture « huwa muwallaha » est rapportée d'Ibn 'Abbas et d'autres, ce qui signifie qu'il y fait référence, et que certains auraient lu « wa li-kulli wijhatin » sans nunation et avec le génitif, ce qu'il considère comme un solécisme non permis car l'énoncé serait incomplet. Il choisit « wa li-kullin wijhatun huwa muwalliha » car les lecteurs faisant autorité s'accordent sur cette lecture et ceux qui divergent sont irréguliers. {cite:tafsir-tabari-shakir-v03 p. 195}
+
+Concernant l'expression « se hâter vers le bien », il est dit, d'après al-Rabi', qu'elle signifie « hâter et presser ». Le sens est le suivant : la vérité vous a été clairement révélée, ô croyants, et vous avez été guidés vers la qibla dont les Juifs, les Chrétiens et les autres communautés se sont égarés. Hâtez-vous donc d'accomplir de bonnes actions en signe de gratitude envers votre Seigneur, prenez soin de votre avenir et demeurez fidèles à votre qibla afin de ne pas la perdre comme les nations qui vous ont précédés. D'après Qatada, ne vous laissez pas tromper par votre qibla, et d'après Ibn Zayd, les bonnes choses sont les actes pieux. {cite:tafsir-tabari-shakir-v03 p. 196}
+
+Concernant le verset « Où que vous soyez, Dieu vous rassemblera tous ; Dieu est Omnipotent », il est dit : quel que soit le lieu où vous périrez, Dieu vous rassemblera tous le Jour de la Résurrection, d'après al-Rabi' et al-Suddi. Par ce verset, Dieu exhorte les croyants à Lui obéir et à se procurer, dans ce monde, les biens nécessaires pour l'au-delà. Il les rassemble, ainsi que ceux qui se sont écartés de la qibla, le Jour de la Résurrection, afin que le bienfaisant reçoive sa récompense et le malfaisant son châtiment, ou bien Il fait preuve de miséricorde et pardonne. « Omnipotent » signifie qu'Il peut les rassembler de leurs tombes et accomplir tout ce qu'Il veut. {cite:tafsir-tabari-shakir-v03 p. 197}

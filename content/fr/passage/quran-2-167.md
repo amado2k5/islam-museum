@@ -1,0 +1,18 @@
+---
+id: passage/quran-2-167
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-2-167.md}
+---
+## Résumé
+Verset 167 de [[passage/quran-2|la sourate al-Baqara]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 167 sur 286 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+## Dans le commentaire d'al-Tabari
+
+Sur le verset « et ceux qui ont suivi diront : si seulement nous avions une autre chance, nous les renierions comme ils nous ont reniés », al-Tabari affirme que les disciples de ceux qu'ils considéraient comme leurs égaux, leur obéissant en désobéissant à Dieu, diront en voyant le châtiment : « si seulement nous avions une autre chance » ; le « karra » est le retour au monde, après avoir « chargé à nouveau contre le peuple », lorsqu'on attaque de nouveau après s'être retiré. {cite:tafsir-tabari-shakir-v03 p. 293}
+
+Al-Tabari complète son explication de « si seulement nous avions un autre tour » : le « karra » est un retour au monde ; il cite Qatada et al-Rabi' qui ont dit que si seulement nous avions un retour au monde, nous les renierions comme ils nous ont reniés, et dit que « nous renierions » est au subjonctif comme la réponse à un souhait avec fa. {cite:tafsir-tabari-shakir-v03 p. 293} {cite:tafsir-tabari-shakir-v03 p. 294} Concernant le fait que « Dieu leur montrera ainsi leurs actes comme autant de regrets », il explique que, de même qu'Il leur a montré le châtiment, Il leur montrera leurs mauvaises actions, par lesquelles ils ont mérité ce châtiment, comme autant de regrets (hasarat, pluriel de hasra). {cite:tafsir-tabari-shakir-v03 p. 295} Il s'interroge sur la possibilité que leurs actes soient source de regrets puisqu'ils n'ont accompli aucun bien dont ils pourraient regretter la perte, et propose deux interprétations. Premièrement : il s'agit des actes que Dieu leur a prescrits et qu'ils ont négligés ; ils voient donc la récompense et les demeures qu'ils ont perdues. Selon al-Suddi, le Paradis leur est préparé et ils y voient leurs maisons, s'ils avaient obéi ; puis il est partagé entre les croyants qui en héritent. Deuxièmement, selon 'Abd Allah ibn Mas'ud, dans un long récit, chaque âme contemple une maison au Paradis et une maison en Enfer, et c'est le Jour du Regret : les gens de l'Enfer se voient dire : « Si seulement vous aviez agi ! », et le regret les saisit. {cite:tafsir-tabari-shakir-v03 p. 296} {cite:tafsir-tabari-shakir-v03 p. 297} {cite:tafsir-tabari-shakir-v03 p. 298} L'autre interprétation : il s'agit de leurs mauvaises actions, qui leur causeront des regrets le Jour de la Résurrection, d'après al-Rabi' et Ibn Zayd. {cite:tafsir-tabari-shakir-v03 p. 298} Al-Tabari préfère la seconde lecture, affirmant que l'interprétation d'al-Suddi, bien que plausible selon le verset, est une extrapolation hasardeuse sans fondement, et que le sens apparent du texte ne saurait être détourné sans indication. {cite:tafsir-tabari-shakir-v03 p. 298} {cite:tafsir-tabari-shakir-v03 p. 299} Concernant le verset « et ils ne sortiront pas du Feu », il explique que, malgré leurs regrets et leur désir de revenir, ils ne sortiront pas et que leurs regrets ne les sauveront pas. Il ajoute que ce verset réfute ceux qui prétendent que le châtiment des incrédules dans le Feu a une limite, puisque Dieu conclut son récit en affirmant qu'ils ne sortiront pas, sans exclure aucun moment. {cite:tafsir-tabari-shakir-v03 p. 299}

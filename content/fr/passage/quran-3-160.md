@@ -1,0 +1,16 @@
+---
+id: passage/quran-3-160
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-3-160.md}
+---
+## Résumé
+Verset 160 de la [[passage/quran-3|sourate Al 'Imran]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 160 sur 200 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Verset 160 : l’aide et l’abandon (pp. 347-348).** Abou Ja’far : Si Dieu vous aide, ô croyants, contre ceux qui s’opposent à vous et vous sont hostiles parmi Ses ennemis, nul homme ne pourra vous vaincre tant qu’Il vous aidera, même si Ses créatures se rassemblaient contre vous de toutes parts. Ne craignez donc pas les ennemis de Dieu, car votre nombre est faible et le leur grand, pourvu que vous restiez fidèles à Son commandement et que vous lui obéissiez, ainsi qu’à Son messager. La victoire et le triomphe sont vôtres, et non les leurs. Si votre Seigneur vous abandonne parce que vous avez désobéi à Son commandement et à Son messager, vous laissant à votre propre sort, qui vous aidera ensuite ? Désespérez de l’aide des hommes, car vous ne trouverez aucun secours après l’abandon de Dieu, s’Il vous abandonne. Ne vous détournez donc pas de Son commandement et ne Lui obéissez pas, ainsi qu’à Son messager, de peur de périr par Son abandon. Il leur dit ensuite de s'en remettre à leur Seigneur plutôt qu'à toutes Ses créatures, de se contenter de Lui plutôt que de tout autre, de se soumettre à Son décret et de combattre Ses ennemis pour Sa cause, et Il les comblera de Son aide et les pourvoira de Son secours. Ibn Ishaq (8135) : si Dieu vous aide, nul ne vous vaincra et l'abandon de ceux qui vous ont abandonnés ne vous nuira pas ; s'Il vous abandonne, les gens ne vous secourront pas ; ne laissez pas Mon commandement aux gens, rejetez le commandement des gens pour Le Mien, et que les croyants s'en remettent à Dieu et non aux gens (d'après Ibn Hisham 3:124, la suite des récits s'arrêtant à 8132 ; l'éditeur note qu'Ibn Hisham a abrégé le récit et a commencé par les mots « ne laissez pas », et que le copiste, selon lui, a omis ce que l'éditeur a rétabli entre parenthèses d'après la Sira). Dans les notes de bas de page p. 347 L'éditeur dit que « ayistu » est une forme dialectale de « ya'istu », et qu'il a mis « nasiran » (un aide) entre parenthèses à la place de « amran » dans le texte imprimé et le manuscrit, étant insatisfait de son sens et se basant sur la signification du verset, tout en craignant que le copiste ait omis quelque chose ou écrit quelque chose de corrompu qu'il ne pouvait pas retrouver. {cite:tafsir-tabari-shakir-v07 p. 347} {cite:tafsir-tabari-shakir-v07 p. 348}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement. {cite:tafsir-tabari-shakir-v07 p. 348}

@@ -1,0 +1,28 @@
+---
+id: passage/quran-5-19
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-5-19.md}
+---
+## Résumé
+Verset 19 de [[passage/quran-5|la sourate al-Ma'ida]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 19 sur 120 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Commentaire sur le verset 19 : l’excuse réfutée par le porteur de la bonne nouvelle et l’avertisseur (pp. 155-158)**
+
+Concernant le verset « Gens du Livre, Notre messager est venu à vous, apportant la clarté après une interruption entre les messagers, afin que vous ne disiez pas : “Aucun porteur de bonne nouvelle ni avertisseur ne nous est venu” », al-Tabari explique que les Gens du Livre désignent ici les Juifs qui vivaient aux alentours du lieu d’émigration du Prophète lorsque ce verset fut révélé. Lorsqu’il les appela, ou du moins certains d’entre eux, à croire en lui et en son message, ils répondirent que Dieu n’avait envoyé aucun prophète après Moïse ni révélé aucun livre après la Torah. Le hadith 11616, rapporté par Ibn Abbas, indique que Mu’adh ibn Jabal, Sa’d ibn Ubada et Uqba ibn Wahb exhortèrent les Juifs à craindre Dieu, car ils savaient qu’il était Son messager, l’ayant mentionné et décrit avant sa mission. Rafi' ibn Huraymila et Wahb ibn Yahuda répondirent qu'ils n'avaient pas tenu ces propos et que Dieu n'avait révélé aucun livre après Moïse, ni aucun porteur de bonne nouvelle ou avertisseur après lui ; Dieu révéla donc ce verset. L'éditeur corrige les deux noms figurant dans la biographie d'Ibn Hisham. {cite:tafsir-tabari-shakir-v10 p. 155}
+
+« Notre messager est venu à vous » signifie Muhammad, et « clarifier les choses » signifie faire connaître la vérité, indiquer les signes de la guidance et conduire à la religion approuvée par Dieu. Le hadith 11617, rapporté par Qatada, dit qu'il apporta le Furqan, texte par lequel Dieu a séparé le vrai du faux, contenant l'explication, la lumière et la guidance divines, ainsi qu'une protection pour quiconque s'y conforme. « Après une interruption dans la venue des messagers » signifie une pause ; le mot traduit par interruption signifie ici une interruption, par analogie avec l'expression selon laquelle une affaire « se relâchait » lorsqu'elle s'apaisait, et désigne donc le calme qui régnait avant la venue des messagers. {cite:tafsir-tabari-shakir-v10 p. 156}
+
+La durée de cet intervalle est sujette à controverse, et les récits de Qatada divergent. Le récit de Ma'mar (11618) mentionne cinq cent soixante ans entre Jésus et Mahomet ; celui de Sa'id ibn Abi Aruba (11619) indique qu'il leur a été rapporté six cents ans, ou encore « selon la volonté de Dieu », et Dieu est le plus savant. Le récit (11620), attribué à Ma'mar et à ses compagnons, parle de cinq cent quarante ans, tandis que Ma'mar rapporte que Qatada en a mentionné cinq cent soixante. Le récit (11621), attribué à al-Dahhak, évoque quatre cent trente ans environ. {cite:tafsir-tabari-shakir-v10 p. 156}
+
+Al-Tabari explique que « de peur que vous ne disiez “aucun porteur de bonne nouvelle ni avertisseur ne nous est venu” » signifie « que vous ne disiez pas » et « afin que vous ne disiez pas », comme dans « Dieu vous fait clairement comprendre que vous ne vous égarez pas » dans An-Nisa. Le sens est donc le suivant : Notre messager est venu à vous, clarifiant les choses après une interruption entre les messagers, afin que vous ne puissiez plus dire « aucun porteur de bonne nouvelle ni avertisseur n’est venu » ; Il leur dit qu’Il a réduit à néant leur excuse par l’intermédiaire de Son messager et leur a apporté la preuve. {cite:tafsir-tabari-shakir-v10 p. 157}
+
+Celui qui annonce la bonne nouvelle est celui qui transmet la joyeuse nouvelle d'une grande récompense dans l'au-delà à quiconque obéit à Dieu, croit en Lui et en Son messager et met en pratique Ses enseignements ; l'avertisseur avertit celui qui Lui désobéit, renie Son messager et agit contre Ses commandements et Ses interdictions, s'exposant ainsi à un châtiment douloureux qu'il ne pourra supporter au Jour du Jugement. Puis, lorsqu'il est dit : « Or, un porteur de bonne nouvelle et un avertisseur vous est venu, et Dieu est Omnipotent », Dieu révèle à ces Juifs qu'Il a dissipé leurs prétextes et réfuté leurs arguments par l'intermédiaire de Son messager Muhammad, envoyé pour éclaircir les aspects obscurs de leur religion afin qu'ils ne puissent prétendre qu'aucun messager ne leur était venu. Un messager est venu annoncer la bonne nouvelle à celui qui croit, agit selon les commandements et s'abstient de ce qui est interdit, et avertir celui qui désobéit. Il est capable de tout, de punir les désobéissants et de récompenser les obéissants. Craignez donc Son châtiment pour votre désobéissance et votre reniement de Son messager, et recherchez Sa récompense pour avoir obéi et cru en Celui qui apporte la bonne nouvelle et qui avertit. {cite:tafsir-tabari-shakir-v10 p. 158}
+
+Nous nous arrêtons ici à la fin du commentaire sur le verset 19 à la page 158 ; le verset 20 commence à la page suivante.
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

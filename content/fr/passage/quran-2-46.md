@@ -1,0 +1,22 @@
+---
+id: passage/quran-2-46
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-2-46.md}
+---
+## Résumé
+Verset 46 de [[passage/quran-2|la sourate al-Baqara]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 46 sur 286 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+## Dans le commentaire d'al-Tabari
+Concernant « ceux qui sont certains de rencontrer leur Seigneur » (littéralement « ceux qui pensent »), al-Tabari soulève la question de savoir comment Dieu pourrait qualifier d'humbles ceux qui se contentent de « penser » le rencontrer, puisque penser, c'est douter. Il répond que les Arabes appellent la certitude « thann » et le doute « thann », de même qu'ils appellent l'obscurité et la lumière « usdfa » et celui qui aide comme celui qui implore de l'aide « sarikh », citant des versets de Duraid ibn al-Simma et d'Umayra ibn Tariq pour la signification de « thann » comme certitude ; l'éditeur explique ces versets dans ses notes. {cite:tafsir-tabari-shakir-v02 p. 17} {cite:tafsir-tabari-shakir-v02 p. 18}
+
+Al-Tabari ajoute que les occurrences de « thann » signifiant certitude dans l’usage arabe sont innombrables, y compris le verset de la sourate al-Kahf, et que les commentateurs l’ont expliqué ainsi : selon Abu al-Aliya, « thann » signifie ici certitude ; selon Mujahid, tout « thann » dans le Coran signifie certitude ou connaissance ; selon al-Suddi, qu’ils sont sûrs ; selon Ibn Jurayj, qu’ils savaient qu’ils rencontreraient leur Seigneur, comme dans la sourate al-Haqqa (« Je savais que je rencontrerais mon jugement ») ; et selon Ibn Zayd, comme ils ne l’avaient pas vu, leur « thann » était certitude plutôt que doute. {cite:tafsir-tabari-shakir-v02 p. 18} {cite:tafsir-tabari-shakir-v02 p. 19} {cite:tafsir-tabari-shakir-v02 p. 20}
+Concernant l'expression « qu'ils rencontreront leur Seigneur », il s'interroge sur l'ajout du participe actif « mulaqu » à « leur Seigneur », alors que la forme complète avec le noun est la norme pour exprimer le futur. Il répond que les grammairiens admettent tous la forme construite sans le noun, divergeant seulement sur la raison : les Bassorahs expliquent que le noun est omis par souci de concision, tout en conservant l'intention, citant « goûteur de la mort » et « expéditeurs de la chamelle » ainsi que deux versets ; les Kufas, quant à eux, affirment que la construction suit la forme nominale, la construction se conformant à la forme et la forme complète au sens. L'éditeur renvoie à Sibawayh et à la Khizana pour les versets cités. {cite:tafsir-tabari-shakir-v02 p. 20} {cite:tafsir-tabari-shakir-v02 p. 21}
+Pour lui, le sens de ce verset est le suivant : cherchez de l’aide pour garder Mon alliance par la patience et la prière. La prière est difficile, sauf pour ceux qui craignent Mon châtiment, qui sont humbles devant Mon commandement et qui sont certains de Me rencontrer et de retourner à Moi. Elle est difficile, sauf pour ceux-là, car pour celui qui n’a aucune certitude de retour, de récompense ou de châtiment, la prière est peine et vaine, puisqu’il n’espère aucun bienfait ni aucune protection contre le mal. En revanche, elle est légère pour les croyants, compte tenu de ce qu’ils espèrent d’elle et de la crainte qu’ils éprouvent à la négliger. Dieu a ordonné aux rabbins des Enfants d’Israël d’être parmi ceux qui l’accomplissent en espérant sa récompense. {cite:tafsir-tabari-shakir-v02 p. 22}
+À propos de « et qu’ils retournent à Lui », il dit que « ils » fait référence aux humbles et « Lui » au Seigneur, puis énumère les différences sur la signification du retour. {cite:tafsir-tabari-shakir-v02 p. 22}
+
+Concernant la signification du retour dans « et qu’ils retournent vers Lui », al-Tabari rapporte d’après Abu al-Aliya qu’ils sont certains de retourner vers Lui le Jour de la Résurrection, tandis qu’une autre opinion soutient qu’ils retournent vers Lui en mourant. Son propre choix est celui d’Abu al-Aliya, car Dieu a dit dans le verset précédent « puis c’est vers Lui que vous retournerez » après avoir été ressuscités, c’est-à-dire le Jour de la Résurrection. {cite:tafsir-tabari-shakir-v02 p. 22} {cite:tafsir-tabari-shakir-v02 p. 23}
