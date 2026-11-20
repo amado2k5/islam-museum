@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "3725"
-label: { ar: "جامع الترمذي 3725 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Jami' al-Tirmidhi 3725 — mentions of non-Muslim nations, religions and peoples", ur: "جامع ترمذی 3725 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+label: { ar: "جامع الترمذي 3725 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Jami' al-Tirmidhi 3725 — mentions of non-Muslim nations, religions and peoples", ur: "جامع ترمذی 3725 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Jami' al-Tirmidhi 3725 — menciones de naciones, religiones y pueblos no musulmanes" }
 text: "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ أَبِي زِيَادٍ، قَالَ حَدَّثَنَا الأَحْوَصُ بْنُ جَوَّابٍ أَبُو الْجَوَّابِ، عَنْ يُونُسَ بْنِ أَبِي إِسْحَاقَ، عَنْ أَبِي إِسْحَاقَ، عَنِ الْبَرَاءِ، قَالَ بَعَثَ النَّبِيُّ جَيْشَيْنِ وَأَمَّرَ عَلَى أَحَدِهِمَا عَلِيَّ بْنَ أَبِي طَالِبٍ وَعَلَى الآخَرِ خَالِدَ بْنَ الْوَلِيدِ وَقَالَ \" إِذَا كَانَ الْقِتَالُ فَعَلِيٌّ \". قَالَ فَافْتَتَحَ عَلِيٌّ حِصْنًا فَأَخَذَ مِنْهُ جَارِيَةً فَكَتَبَ مَعِي …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 3725، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Jami' al-Tirmidhi, no. 3725 (Chapters on Virtues), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "جامع ترمذی کی حدیث نمبر 3725، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe de Jami' al-Tirmidhi, n.º 3725 (Capítulos sobre las virtudes), con menciones a naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
 relations:
   - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3725 (book 49 hadith 122); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

@@ -1,12 +1,13 @@
 id: event/egypt-fleet-acre-587
 class: event
 kind: other
-label: { ar: "وصول عسكر مصر والأسطول المصري إلى عكا", en: "Egypt army and fleet reach the Acre theater" }
+label: { ar: "وصول عسكر مصر والأسطول المصري إلى عكا", en: "Egypt army and fleet reach the Acre theater", es: "El ejército y la flota egipcios llegan al teatro de Acre." }
 date:
   start: { edtf: "1191~", hijri: "0587", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
   ar: "وصل عسكر مصر والأسطول المصري في البحر إلى عكا لنصرة صلاح الدين على الفرنج المحاصرين لها {cite:kamil-ibn-al-athir p. 190}."
   en: "Egypt field army and its fleet arrived at Acre to reinforce Saladin against the crusader besiegers {cite:kamil-ibn-al-athir p. 190}."
+  es: "El ejército egipcio y su flota llegaron a Acre para reforzar a Saladino contra los sitiadores cruzados {cite:kamil-ibn-al-athir p. 190}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/akka, sources: [source/kamil-ibn-al-athir] }

@@ -3,12 +3,13 @@ class: passage
 unit: chapter
 work: work/lisan-al-arab
 ref: "1:79"
-label: { ar: "لسان العرب لابن منظور، المجلد المصوَّر 1، ص 79 — القراء", en: "Ibn Manzur's Lisan al-'Arab, scan volume 1, p. 79 — the readers", ur: "لسان العرب، ابن منظور، اسکین جلد 1، ص 79 — قراء" }
+label: { ar: "لسان العرب لابن منظور، المجلد المصوَّر 1، ص 79 — القراء", en: "Ibn Manzur's Lisan al-'Arab, scan volume 1, p. 79 — the readers", ur: "لسان العرب، ابن منظور، اسکین جلد 1، ص 79 — قراء", es: "Lisan al-'Arab de Ibn Manzur, escaneo del volumen 1, pág. 79 — los lectores" }
 text: "… الى الكسر وحكى الاخفش عن بعضهم حَرِئ من دَرَأْتُه وهمزها وجعلها على فَعِيل مُفْتُوحةَ الأوّل قال وذلك من تَلَاً تِه قال القراء والعرب تسعى الكواكِبّ العظام التى لاأُعرف أسما وها. الّدارِي التهذيب وقوله تمال كانها كُوْكَبُ مُدِي روى عن عاصم …"
 summary:
   ar: "مقطع من لسان العرب لابن منظور، المجلد المصوَّر 1، ص 79، يذكر القراء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط."
   en: "An excerpt from Ibn Manzur's Lisan al-'Arab, scan volume 1, p. 79, that mentions the readers; from the machine-read scan, quoted within forty words per the sources policy. The browser of the museum for how the Qur'an was read and written lists it."
   ur: "لسان العرب، ابن منظور، اسکین جلد 1، ص 79 کا اقتباس جس میں قراء کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے درج کرتا ہے۔"
+  es: "Un extracto del Lisan al-'Arab de Ibn Manzur, volumen 1, pág. 79, que menciona a los lectores; tomado de la lectura automática, citado en un máximo de cuarenta palabras según la política de fuentes. El navegador del museo sobre cómo se leía y escribía el Corán lo incluye."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/lisan-al-arab-dar-sadir] }
 provenance: { layer: own-research, source: "Apple Vision OCR of the scan lugha/lisan-arab/AAlexandrina-137925, page 79; a window of at most 40 words chosen by the qira'at detector (scripts/qiraat.ts); OCR text not corrected", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-ocr-1" }

@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "380"
-label: { ar: "موطأ مالك 380 — الأب والأبوة", en: "Muwatta Malik 380 — the father and fatherhood", ur: "موطأ مالک 380 — باپ اور والدیت" }
+label: { ar: "موطأ مالك 380 — الأب والأبوة", en: "Muwatta Malik 380 — the father and fatherhood", ur: "موطأ مالک 380 — باپ اور والدیت", es: "Muwatta Malik 380 — el padre y la paternidad" }
 text: "حَدَّثَنِي يَحْيَى، عَنْ مَالِكٍ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، أَنَّ عَبْدَ اللَّهِ بْنَ الأَرْقَمِ، كَانَ يَؤُمُّ أَصْحَابَهُ فَحَضَرَتِ الصَّلاَةُ يَوْمًا فَذَهَبَ لِحَاجَتِهِ ثُمَّ رَجَعَ فَقَالَ إِنِّي سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" إِذَا أَرَادَ أَحَدُكُمُ الْغَائِطَ فَلْيَبْدَأْ بِهِ قَبْلَ الصَّلاَةِ \"."
 summary:
   ar: "حديث في موطأ مالك، رقم 380، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Muwatta Malik, no. 380 (Shortening the Prayer), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "موطأ مالک کی حدیث نمبر 380، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Muwatta Malik, n.° 380 (Abreviación de la oración), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 380 (book 9 hadith 55); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

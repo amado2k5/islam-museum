@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "3847"
-label: { ar: "صحيح البخاري 3847 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 3847 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 3847 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+label: { ar: "صحيح البخاري 3847 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 3847 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 3847 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 3847 — menciones de naciones, religiones y pueblos no musulmanes" }
 text: "وَقَالَ ابْنُ وَهْبٍ أَخْبَرَنَا عَمْرٌو، عَنْ بُكَيْرِ بْنِ الأَشَجِّ، أَنَّ كُرَيْبًا، مَوْلَى ابْنِ عَبَّاسٍ حَدَّثَهُ أَنَّ ابْنَ عَبَّاسٍما ـ قَالَ لَيْسَ السَّعْىُ بِبَطْنِ الْوَادِي بَيْنَ الصَّفَا وَالْمَرْوَةِ سُنَّةً، إِنَّمَا كَانَ أَهْلُ الْجَاهِلِيَّةِ يَسْعَوْنَهَا وَيَقُولُونَ لاَ نُجِيزُ الْبَطْحَاءَ إِلاَّ شَدًّا"
 summary:
   ar: "حديث في صحيح البخاري، رقم 3847، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 3847 (Merits of the Helpers in Madinah (Ansaar)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "صحیح بخاری کی حدیث نمبر 3847، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe del Sahih al-Bukhari, n.º 3847 (Méritos de los Ayudantes en Medina (Ansar)), con menciones a naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
 relations:
   - { type: mentions, target: group/al-mushrikun, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3847 (book 63 hadith 72); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

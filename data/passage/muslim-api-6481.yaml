@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "6481"
-label: { ar: "صحيح مسلم 6481 — ساعة الاحتضار والوفاة", en: "Sahih Muslim 6481 — a deathbed and last hours", ur: "صحیح مسلم 6481 — وقتِ وفات اور آخری لمحات" }
+label: { ar: "صحيح مسلم 6481 — ساعة الاحتضار والوفاة", en: "Sahih Muslim 6481 — a deathbed and last hours", ur: "صحیح مسلم 6481 — وقتِ وفات اور آخری لمحات", es: "Sahih Muslim 6481 — un lecho de muerte y últimas horas" }
 text: "حَدَّثَنِي هَارُونُ بْنُ عَبْدِ اللَّهِ، وَحَجَّاجُ بْنُ الشَّاعِرِ، قَالاَ حَدَّثَنَا حَجَّاجُ بْنُ مُحَمَّدٍ، قَالَ قَالَ ابْنُ جُرَيْجٍ أَخْبَرَنِي أَبُو الزُّبَيْرِ، أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ سَمِعْتُ النَّبِيَّ يَقُولُ قَبْلَ أَنْ يَمُوتَ بِشَهْرٍ \" تَسْأَلُونِي عَنِ السَّاعَةِ وَإِنَّمَا عِلْمُهَا عِنْدَ اللَّهِ وَأُقْسِمُ بِاللَّهِ مَا عَلَى الأَرْضِ مِنْ نَفْسٍ مَنْفُوسَةٍ تَأْتِي عَلَيْهَا مِائَةُ سَنَةٍ \"."
 summary:
   ar: "حديث في صحيح مسلم، رقم 6481، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 6481 (The Book of the Merits of the Companions), that mentions a deathbed and last hours. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح مسلم کی حدیث نمبر 6481، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih Muslim, n.º 6481 (El Libro de los Méritos de los Compañeros), menciona un lecho de muerte y las últimas horas. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/ihtidar, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6481 (book 44 hadith 310); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

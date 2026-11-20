@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "5897"
-label: { ar: "صحيح البخاري 5897 — أثر من الآثار المحفوظة", en: "Sahih al-Bukhari 5897 — a relic kept after its owner", ur: "صحیح بخاری 5897 — محفوظ آثار و تبرکات" }
+label: { ar: "صحيح البخاري 5897 — أثر من الآثار المحفوظة", en: "Sahih al-Bukhari 5897 — a relic kept after its owner", ur: "صحیح بخاری 5897 — محفوظ آثار و تبرکات", es: "Sahih al-Bukhari 5897 — una reliquia conservada después de su dueño." }
 text: "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا سَلاَّمٌ، عَنْ عُثْمَانَ بْنِ عَبْدِ اللَّهِ بْنِ مَوْهَبٍ، قَالَ دَخَلْتُ عَلَى أُمِّ سَلَمَةَ فَأَخْرَجَتْ إِلَيْنَا شَعَرًا مِنْ شَعَرِ النَّبِيِّ مَخْضُوبًا."
 summary:
   ar: "حديث في صحيح البخاري، رقم 5897، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 5897 (Dress), that mentions a relic kept after its owner. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح بخاری کی حدیث نمبر 5897، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih al-Bukhari, n.° 5897 (Vestimenta), menciona una reliquia conservada tras la muerte de su dueño. El Navegador de Testamentos la incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/tabarruk, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5897 (book 77 hadith 114); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

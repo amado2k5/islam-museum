@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1121"
-label: { ar: "صحيح مسلم 1121 — الأب والأبوة", en: "Sahih Muslim 1121 — the father and fatherhood", ur: "صحیح مسلم 1121 — باپ اور والدیت" }
+label: { ar: "صحيح مسلم 1121 — الأب والأبوة", en: "Sahih Muslim 1121 — the father and fatherhood", ur: "صحیح مسلم 1121 — باپ اور والدیت", es: "Sahih Muslim 1121 — El padre y la paternidad" }
 text: "… بْنُ عَوْنٍ، أَخْبَرَنَا أَبُو عُمَيْسٍ، ح قَالَ وَحَدَّثَنِي الْقَاسِمُ بْنُ زَكَرِيَّاءَ، حَدَّثَنَا حُسَيْنُ بْنُ عَلِيٍّ، عَنْ زَائِدَةَ، قَالَ حَدَّثَنَا مَالِكُ بْنُ مِغْوَلٍ، كِلاَهُمَا عَنْ عَوْنِ بْنِ أَبِي جُحَيْفَةَ، عَنْ أَبِيهِ، عَنِ النَّبِيِّ بِنَحْوِ حَدِيثِ سُفْيَانَ وَعُمَرَ بْنِ أَبِي زَائِدَةَ يَزِيدُ بَعْضُهُمْ عَلَى بَعْضٍ وَفِي حَدِيثِ مَالِكِ بْنِ مِغْوَلٍ فَلَمَّا كَانَ بِالْهَاجِرَةِ خَرَجَ بِلاَلٌ فَنَادَى بِالصَّلاَةِ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 1121، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 1121 (The Book of Prayers), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "صحیح مسلم کی حدیث نمبر 1121، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih Muslim, n.° 1121 (El Libro de las Oraciones), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1121 (book 4 hadith 283); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

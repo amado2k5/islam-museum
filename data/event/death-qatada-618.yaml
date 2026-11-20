@@ -1,12 +1,13 @@
 id: event/death-qatada-618
 class: event
 kind: death
-label: { ar: "وفاة قتادة أمير مكة وملك ابنه الحسن وقتل أمير الحاج", en: "Death of Qatada amir of Mecca; al-Hasan succeeds; the hajj commander killed" }
+label: { ar: "وفاة قتادة أمير مكة وملك ابنه الحسن وقتل أمير الحاج", en: "Death of Qatada amir of Mecca; al-Hasan succeeds; the hajj commander killed", es: "Muerte del emir Qatada de La Meca; al-Hasan le sucede; el comandante del Hajj muere." }
 date:
   start: { edtf: "1221~", hijri: "0618", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
   ar: "توفي قتادة بن إدريس أمير مكة وملك ابنه الحسن مكانه، وقُتل أمير الحاج في تلك السنة {cite:kamil-ibn-al-athir p. 426}."
   en: "Qatada ibn Idris, amir of Mecca, died; his son al-Hasan succeeded, and the hajj commander was killed that year {cite:kamil-ibn-al-athir p. 426}."
+  es: "Qatada ibn Idris, emir de La Meca, murió; su hijo al-Hasan le sucedió, y el comandante del Hajj fue asesinado ese año {cite:kamil-ibn-al-athir p. 426}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/mecca, sources: [source/kamil-ibn-al-athir] }

@@ -1,12 +1,13 @@
 id: event/ibn-layun-aleppo-raids-604
 class: event
 kind: raid
-label: { ar: "غارات ابن ليون على أعمال حلب", en: "Ibn Layun the Armenian raids the Aleppo countryside" }
+label: { ar: "غارات ابن ليون على أعمال حلب", en: "Ibn Layun the Armenian raids the Aleppo countryside", es: "Ibn Layun el armenio realiza incursiones en la campiña de Alepo." }
 date:
   start: { edtf: "1207~", hijri: "0604", calendar: julian, precision: "year", status: tradition, derived: true }
 summary:
   ar: "توالت الغارة من ابن ليون الأرمني صاحب الدروب على ولاية حلب وأعمالها فأفسدوا ونهبوا {cite:kamil-ibn-al-athir p. 319}."
   en: "Ibn Layun the Armenian, lord of the Passes, launched repeated raids on Aleppo's territories {cite:kamil-ibn-al-athir p. 319}."
+  es: "Ibn Layun el Armenio, señor de los Pasos, lanzó repetidas incursiones en los territorios de Alepo {cite:kamil-ibn-al-athir p. 319}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/kamil-ibn-al-athir] }

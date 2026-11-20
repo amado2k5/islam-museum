@@ -1,6 +1,6 @@
 id: person/mustafa-iv-uthmani
 class: person
-label: { ar: "مصطفى الرابع", en: "Mustafa IV", ur: "مصطفى الرابع" }
+label: { ar: "مصطفى الرابع", en: "Mustafa IV", ur: "مصطفى الرابع", es: "Mustafa IV" }
 gender: male
 roles: [caliph]
 wings: [people]
@@ -8,6 +8,7 @@ summary:
   ar: "مصطفى الرابع، خليفة العثمانية ؛ حكم من 1807م إلى 1808م. {cite:sicill-i-osmani}"
   en: "Mustafa IV, the caliph of the Ottoman caliphate, ruling 1807–1808 CE. {cite:sicill-i-osmani}"
   ur: "مصطفى الرابع، عثمانی خلافت کے خلیفہ؛ 1807ء سے 1808۔ {cite:sicill-i-osmani}"
+  es: "Mustafa IV, califa del califato otomano, que gobernó entre 1807 y 1808 d. C. {cite:sicill-i-osmani}"
 story_roles:
   - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1807", calendar: julian, precision: year }, end: { edtf: "1808", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }
 born: { edtf: "1779-09-08", hijri: "1193-08-26", calendar: gregorian, precision: day, status: historical, derived: true, note: "From Wikidata (Q199830, revision 2565453276, read 2026-11-14): date of birth as stored by the item (gregorian calendar model). The Hijri value is an arithmetical conversion, approximate to a day.", sources: [source/wikidata-mustafa-iv-uthmani] }

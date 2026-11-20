@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "6729"
-label: { ar: "صحيح البخاري 6729 — ما خلّفه من تركة وميراث", en: "Sahih al-Bukhari 6729 — what was left behind: estate and inheritance", ur: "صحیح بخاری 6729 — ترکہ اور میراث" }
+label: { ar: "صحيح البخاري 6729 — ما خلّفه من تركة وميراث", en: "Sahih al-Bukhari 6729 — what was left behind: estate and inheritance", ur: "صحیح بخاری 6729 — ترکہ اور میراث", es: "Sahih al-Bukhari 6729 — Lo que quedó: patrimonio y herencia" }
 text: "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" لاَ يَقْتَسِمُ وَرَثَتِي دِينَارًا، مَا تَرَكْتُ بَعْدَ نَفَقَةِ نِسَائِي وَمُؤْنَةِ عَامِلِي فَهْوَ صَدَقَةٌ \"."
 summary:
   ar: "حديث في صحيح البخاري، رقم 6729، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 6729 (Laws of Inheritance (Al-Faraa'id)), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح بخاری کی حدیث نمبر 6729، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih al-Bukhari, n.º 6729 (Leyes de la herencia (Al-Faraa'id)), menciona lo que se dejó como legado: bienes y herencia. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6729 (book 85 hadith 6); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

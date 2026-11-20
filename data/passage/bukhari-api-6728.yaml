@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "6728"
-label: { ar: "صحيح البخاري 6728 — ما خلّفه من تركة وميراث", en: "Sahih al-Bukhari 6728 — what was left behind: estate and inheritance", ur: "صحیح بخاری 6728 — ترکہ اور میراث" }
+label: { ar: "صحيح البخاري 6728 — ما خلّفه من تركة وميراث", en: "Sahih al-Bukhari 6728 — what was left behind: estate and inheritance", ur: "صحیح بخاری 6728 — ترکہ اور میراث", es: "Sahih al-Bukhari 6728 — Lo que quedó: patrimonio y herencia" }
 text: "… بَيْنِي وَبَيْنَ هَذَا. قَالَ أَنْشُدُكُمْ بِاللَّهِ الَّذِي بِإِذْنِهِ تَقُومُ السَّمَاءُ وَالأَرْضُ هَلْ تَعْلَمُونَ أَنَّ رَسُولَ اللَّهِ قَالَ \" لاَ نُورَثُ مَا تَرَكْنَا صَدَقَةٌ \". يُرِيدُ رَسُولُ اللَّهِ نَفْسَهُ. فَقَالَ الرَّهْطُ قَدْ قَالَ ذَلِكَ. فَأَقْبَلَ عَلَى عَلِيٍّ وَعَبَّاسٍ فَقَالَ هَلْ تَعْلَمَانِ أَنَّ رَسُولَ اللَّهِ قَالَ ذَلِكَ قَالاَ قَدْ قَالَ ذَلِكَ. قَالَ عُمَرُ فَإِنِّي أُحَدِّثُكُمْ عَنْ هَذَا …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 6728، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 6728 (Laws of Inheritance (Al-Faraa'id)), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح بخاری کی حدیث نمبر 6728، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih al-Bukhari, n.º 6728 (Leyes de la herencia (Al-Faraa'id)), menciona lo que se dejó como legado: bienes y herencia. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6728 (book 85 hadith 5); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

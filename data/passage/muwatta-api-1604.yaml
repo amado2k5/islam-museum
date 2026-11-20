@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1604"
-label: { ar: "موطأ مالك 1604 — الأب والأبوة", en: "Muwatta Malik 1604 — the father and fatherhood", ur: "موطأ مالک 1604 — باپ اور والدیت" }
+label: { ar: "موطأ مالك 1604 — الأب والأبوة", en: "Muwatta Malik 1604 — the father and fatherhood", ur: "موطأ مالک 1604 — باپ اور والدیت", es: "Muwatta Malik 1604 — el padre y la paternidad" }
 text: "وَحَدَّثَنِي مَالِكٌ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَبْدِ اللَّهِ بْنِ الزُّبَيْرِ، عَنْ سُفْيَانَ بْنِ أَبِي زُهَيْرٍ، أَنَّهُ قَالَ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" تُفْتَحُ الْيَمَنُ فَيَأْتِي قَوْمٌ يَبِسُّونَ فَيَتَحَمَّلُونَ بِأَهْلِيهِمْ وَمَنْ أَطَاعَهُمْ وَالْمَدِينَةُ خَيْرٌ لَهُمْ لَوْ كَانُوا يَعْلَمُونَ وَتُفْتَحُ الشَّامُ فَيَأْتِي قَوْمٌ يَبِسُّونَ فَيَتَحَمَّلُونَ بِأَهْلِيهِمْ وَمَنْ أَطَاعَهُمْ وَالْمَدِينَةُ خَيْرٌ لَهُمْ لَوْ كَانُوا يَعْلَمُونَ …"
 summary:
   ar: "حديث في موطأ مالك، رقم 1604، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Muwatta Malik, no. 1604 (Madina), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "موطأ مالک کی حدیث نمبر 1604، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe de Muwatta Malik, n.º 1604 (Medina), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1604 (book 45 hadith 7); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

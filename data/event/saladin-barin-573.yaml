@@ -1,12 +1,13 @@
 id: event/saladin-barin-573
 class: event
 kind: conquest
-label: { ar: "ملك صلاح الدين قلعة بعرين", en: "Saladin takes the castle of Baʿrīn" }
+label: { ar: "ملك صلاح الدين قلعة بعرين", en: "Saladin takes the castle of Baʿrīn", es: "Saladino toma el castillo de Baʿrīn" }
 date:
   start: { edtf: "1177~", hijri: "0573", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
   ar: "ملك صلاح الدين قلعة بعرين من أعمال حماة وهي من الحصون الممتنعة على حدود بلاد الفرنج {cite:kamil-ibn-al-athir p. 70}."
   en: "Saladin took Baʿrīn in Hama's district — a hard castle on the Frankish marches {cite:kamil-ibn-al-athir p. 70}."
+  es: "Saladino tomó Baʿrīn en el distrito de Hama, un fuerte castillo en las marcas francas {cite:kamil-ibn-al-athir p. 70}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/barin, sources: [source/kamil-ibn-al-athir] }

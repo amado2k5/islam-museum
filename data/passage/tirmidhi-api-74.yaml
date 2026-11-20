@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "74"
-label: { ar: "جامع الترمذي 74 — الأب والأبوة", en: "Jami' al-Tirmidhi 74 — the father and fatherhood", ur: "جامع ترمذی 74 — باپ اور والدیت" }
+label: { ar: "جامع الترمذي 74 — الأب والأبوة", en: "Jami' al-Tirmidhi 74 — the father and fatherhood", ur: "جامع ترمذی 74 — باپ اور والدیت", es: "Jami' al-Tirmidhi 74 — El padre y la paternidad" }
 text: "حَدَّثَنَا قُتَيْبَةُ، وَهَنَّادٌ، قَالاَ حَدَّثَنَا وَكِيعٌ، عَنْ شُعْبَةَ، عَنْ سُهَيْلِ بْنِ أَبِي صَالِحٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" لاَ وُضُوءَ إِلاَّ مِنْ صَوْتٍ أَوْ رِيحٍ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 74، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Jami' al-Tirmidhi, no. 74 (The Book on Purification), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "جامع ترمذی کی حدیث نمبر 74، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Jami' al-Tirmidhi, n.º 74 (El Libro de la Purificación), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 74 (book 1 hadith 74); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

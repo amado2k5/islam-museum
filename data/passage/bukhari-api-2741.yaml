@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "2741"
-label: { ar: "صحيح البخاري 2741 — وصية أو عهد أخير", en: "Sahih al-Bukhari 2741 — a testament or parting counsel", ur: "صحیح بخاری 2741 — وصیت یا آخری نصیحت" }
+label: { ar: "صحيح البخاري 2741 — وصية أو عهد أخير", en: "Sahih al-Bukhari 2741 — a testament or parting counsel", ur: "صحیح بخاری 2741 — وصیت یا آخری نصیحت", es: "Sahih al-Bukhari 2741 — un testamento o consejo de despedida" }
 text: "حَدَّثَنَا عَمْرُو بْنُ زُرَارَةَ، أَخْبَرَنَا إِسْمَاعِيلُ، عَنِ ابْنِ عَوْنٍ، عَنْ إِبْرَاهِيمَ، عَنِ الأَسْوَدِ، قَالَ ذَكَرُوا عِنْدَ عَائِشَةَ أَنَّ عَلِيًّاما ـ كَانَ وَصِيًّا. فَقَالَتْ مَتَى أَوْصَى إِلَيْهِ وَقَدْ كُنْتُ مُسْنِدَتَهُ إِلَى صَدْرِي ـ أَوْ قَالَتْ حَجْرِي ـ فَدَعَا بِالطَّسْتِ، فَلَقَدِ انْخَنَثَ فِي حَجْرِي، فَمَا شَعَرْتُ أَنَّهُ قَدْ مَاتَ، فَمَتَى أَوْصَى إِلَيْهِ"
 summary:
   ar: "حديث في صحيح البخاري، رقم 2741، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 2741 (Wills and Testaments (Wasaayaa)), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح بخاری کی حدیث نمبر 2741، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih al-Bukhari, n.° 2741 (Testamentos (Wasaayaa)), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2741 (book 55 hadith 4); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

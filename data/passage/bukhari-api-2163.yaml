@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "2163"
-label: { ar: "صحيح البخاري 2163 — الأب والأبوة", en: "Sahih al-Bukhari 2163 — the father and fatherhood", ur: "صحیح بخاری 2163 — باپ اور والدیت" }
+label: { ar: "صحيح البخاري 2163 — الأب والأبوة", en: "Sahih al-Bukhari 2163 — the father and fatherhood", ur: "صحیح بخاری 2163 — باپ اور والدیت", es: "Sahih al-Bukhari 2163 — El padre y la paternidad" }
 text: "حَدَّثَنِي عَيَّاشُ بْنُ الْوَلِيدِ، حَدَّثَنَا عَبْدُ الأَعْلَى، حَدَّثَنَا مَعْمَرٌ، عَنِ ابْنِ طَاوُسٍ، عَنْ أَبِيهِ، قَالَ سَأَلْتُ ابْنَ عَبَّاسٍما ـ مَا مَعْنَى قَوْلِهِ \" لاَ يَبِيعَنَّ حَاضِرٌ لِبَادٍ \". فَقَالَ لاَ يَكُنْ لَهُ سِمْسَارًا."
 summary:
   ar: "حديث في صحيح البخاري، رقم 2163، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 2163 (Sales and Trade), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "صحیح بخاری کی حدیث نمبر 2163، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih al-Bukhari, n.° 2163 (Ventas y Comercio), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2163 (book 34 hadith 114); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

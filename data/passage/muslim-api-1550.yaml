@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1550"
-label: { ar: "صحيح مسلم 1550 — القراء", en: "Sahih Muslim 1550 — the readers", ur: "صحیح مسلم 1550 — قراء" }
+label: { ar: "صحيح مسلم 1550 — القراء", en: "Sahih Muslim 1550 — the readers", ur: "صحیح مسلم 1550 — قراء", es: "Sahih Muslim 1550 — los lectores" }
 text: "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنْ عَاصِمٍ، قَالَ سَمِعْتُ أَنَسًا، يَقُولُ مَا رَأَيْتُ رَسُولَ اللَّهِ وَجَدَ عَلَى سَرِيَّةٍ مَا وَجَدَ عَلَى السَّبْعِينَ الَّذِينَ أُصِيبُوا يَوْمَ بِئْرِ مَعُونَةَ كَانُوا يُدْعَوْنَ الْقُرَّاءَ فَمَكَثَ شَهْرًا يَدْعُو عَلَى قَتَلَتِهِمْ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 1550، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
   en: "A report in Sahih Muslim, no. 1550 (The Book of Mosques and Places of Prayer), that mentions the readers. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
   ur: "صحیح مسلم کی حدیث نمبر 1550، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Sahih Muslim, n.° 1550 (El Libro de las Mezquitas y Lugares de Oración), menciona a los lectores. El navegador del museo sobre cómo se leía y escribía el Corán lo enumera junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1550 (book 5 hadith 383); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

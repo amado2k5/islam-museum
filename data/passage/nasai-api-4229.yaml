@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "4229"
-label: { ar: "سنن النسائي 4229 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 4229 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 4229 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+label: { ar: "سنن النسائي 4229 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 4229 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 4229 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sunan al-Nasa'i 4229 — Menciones de naciones, religiones y pueblos no musulmanes" }
 text: "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، قَالَ حَدَّثَنَا بِشْرٌ، - وَهُوَ ابْنُ الْمُفَضَّلِ - عَنْ خَالِدٍ، وَرُبَّمَا، قَالَ عَنْ أَبِي الْمَلِيحِ، وَرُبَّمَا، ذَكَرَ أَبَا قِلاَبَةَ عَنْ نُبَيْشَةَ، قَالَ نَادَى رَجُلٌ وَهُوَ بِمِنًى فَقَالَ يَا رَسُولَ اللَّهِ إِنَّا كُنَّا نَعْتِرُ عَتِيرَةً فِي الْجَاهِلِيَّةِ فِي رَجَبٍ فَمَا تَأْمُرُنَا يَا رَسُولَ اللَّهِ قَالَ \" اذْبَحُوا فِي أَىِّ شَهْرٍ مَا كَانَ …"
 summary:
   ar: "حديث في سنن النسائي، رقم 4229، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sunan al-Nasa'i, no. 4229 (The Book of al-Fara' and al-'Atirah), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "سنن نسائی کی حدیث نمبر 4229، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sunan al-Nasa'i, n.º 4229 (El Libro de al-Fara' y al-'Atirah), con menciones de naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
 relations:
   - { type: mentions, target: group/al-mushrikun, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4229 (book 41 hadith 8); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

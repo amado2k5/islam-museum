@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "2873"
-label: { ar: "صحيح البخاري 2873 — ما خلّفه من تركة وميراث", en: "Sahih al-Bukhari 2873 — what was left behind: estate and inheritance", ur: "صحیح بخاری 2873 — ترکہ اور میراث" }
+label: { ar: "صحيح البخاري 2873 — ما خلّفه من تركة وميراث", en: "Sahih al-Bukhari 2873 — what was left behind: estate and inheritance", ur: "صحیح بخاری 2873 — ترکہ اور میراث", es: "Sahih al-Bukhari 2873 — Lo que quedó: patrimonio y herencia" }
 text: "حَدَّثَنَا عَمْرُو بْنُ عَلِيٍّ، حَدَّثَنَا يَحْيَى، حَدَّثَنَا سُفْيَانُ، قَالَ حَدَّثَنِي أَبُو إِسْحَاقَ، قَالَ سَمِعْتُ عَمْرَو بْنَ الْحَارِثِ، قَالَ مَا تَرَكَ النَّبِيُّ إِلاَّ بَغْلَتَهُ الْبَيْضَاءَ وَسِلاَحَهُ وَأَرْضًا تَرَكَهَا صَدَقَةً."
 summary:
   ar: "حديث في صحيح البخاري، رقم 2873، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 2873 (Fighting for the Cause of Allah (Jihaad)), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح بخاری کی حدیث نمبر 2873، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih al-Bukhari, n.° 2873 (La lucha por la causa de Alá (Yihad)), menciona lo que quedó: bienes y herencia. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2873 (book 56 hadith 89); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

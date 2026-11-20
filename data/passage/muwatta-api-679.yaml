@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "679"
-label: { ar: "موطأ مالك 679 — قراءات القرآن", en: "Muwatta Malik 679 — the readings of the Qur'an", ur: "موطأ مالک 679 — قرآن کی قراءتیں" }
+label: { ar: "موطأ مالك 679 — قراءات القرآن", en: "Muwatta Malik 679 — the readings of the Qur'an", ur: "موطأ مالک 679 — قرآن کی قراءتیں", es: "Muwatta Malik 679 — las lecturas del Corán" }
 text: "… أَيَّامِ الْكَفَّارَةِ أَمُتَتَابِعَاتٍ أَمْ يَقْطَعُهَا قَالَ حُمَيْدٌ فَقُلْتُ لَهُ نَعَمْ يَقْطَعُهَا إِنْ شَاءَ. قَالَ مُجَاهِدٌ لاَ يَقْطَعُهَا فَإِنَّهَا فِي قِرَاءَةِ أُبَىِّ بْنِ كَعْبٍ ثَلاَثَةِ أَيَّامٍ مُتَتَابِعَاتٍ. قَالَ مَالِكٌ وَأَحَبُّ إِلَىَّ أَنْ يَكُونَ مَا سَمَّى اللَّهُ فِي الْقُرْآنِ يُصَامُ مُتَتَابِعًا. وَسُئِلَ مَالِكٌ عَنِ الْمَرْأَةِ تُصْبِحُ صَائِمَةً فِي رَمَضَانَ فَتَدْفَعُ دَفْعَةً مِنْ دَمٍ عَبِيطٍ فِي غَيْرِ أَوَانِ …"
 summary:
   ar: "حديث في موطأ مالك، رقم 679، يذكر قراءات القرآن. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
   en: "A report in Muwatta Malik, no. 679 (Fasting), that mentions the readings of the Qur'an. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
   ur: "موطأ مالک کی حدیث نمبر 679، جس میں قرآن کی قراءتیں کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Muwatta Malik, n.° 679 (Ayuno), menciona las lecturas del Corán. El catálogo del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 679 (book 18 hadith 50); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

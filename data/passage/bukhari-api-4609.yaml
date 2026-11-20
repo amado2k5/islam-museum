@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "4609"
-label: { ar: "صحيح البخاري 4609 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 4609 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 4609 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+label: { ar: "صحيح البخاري 4609 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 4609 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 4609 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 4609 — menciones de naciones, religiones y pueblos no musulmanes" }
 text: "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا إِسْرَائِيلُ، عَنْ مُخَارِقٍ، عَنْ طَارِقِ بْنِ شِهَابٍ، سَمِعْتُ ابْنَ مَسْعُودٍ ـ قَالَ شَهِدْتُ مِنَ الْمِقْدَادِ ح وَحَدَّثَنِي حَمْدَانُ بْنُ عُمَرَ حَدَّثَنَا أَبُو النَّضْرِ حَدَّثَنَا الأَشْجَعِيُّ عَنْ سُفْيَانَ عَنْ مُخَارِقٍ عَنْ طَارِقٍ عَنْ عَبْدِ اللَّهِ قَالَ قَالَ الْمِقْدَادُ يَوْمَ بَدْرٍ يَا رَسُولَ اللَّهِ إِنَّا لاَ نَقُولُ لَكَ كَمَا قَالَتْ بَنُو إِسْرَائِيلَ لِمُوسَى …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 4609، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 4609 (Prophetic Commentary on the Qur'an (Tafseer of the Prophet (pbuh))), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "صحیح بخاری کی حدیث نمبر 4609، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Sahih al-Bukhari, n.° 4609 (Comentario profético sobre el Corán (Tafsir del Profeta (pbuh))), con menciones de naciones, religiones y pueblos no musulmanes. El navegador Umam lo incluye en su lista de textos del Corán, la Sunnah, la sirah y libros sobre naciones, religiones, sectas y pueblos no musulmanes."
 relations:
   - { type: mentions, target: group/banu-israil, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4609 (book 65 hadith 131); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

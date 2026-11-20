@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "6725"
-label: { ar: "صحيح البخاري 6725 — ما خلّفه من تركة وميراث", en: "Sahih al-Bukhari 6725 — what was left behind: estate and inheritance", ur: "صحیح بخاری 6725 — ترکہ اور میراث" }
+label: { ar: "صحيح البخاري 6725 — ما خلّفه من تركة وميراث", en: "Sahih al-Bukhari 6725 — what was left behind: estate and inheritance", ur: "صحیح بخاری 6725 — ترکہ اور میراث", es: "Sahih al-Bukhari 6725 — Lo que quedó: patrimonio y herencia" }
 text: "… بْنُ مُحَمَّدٍ، حَدَّثَنَا هِشَامٌ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، أَنَّ فَاطِمَةَ، وَالْعَبَّاسَ ـ أَتَيَا أَبَا بَكْرٍ يَلْتَمِسَانِ مِيرَاثَهُمَا مِنْ رَسُولِ اللَّهِ وَهُمَا حِينَئِذٍ يَطْلُبَانِ أَرْضَيْهِمَا مِنْ فَدَكَ، وَسَهْمَهُمَا مِنْ خَيْبَرَ. فَقَالَ لَهُمَا أَبُو بَكْرٍ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" لاَ نُورَثُ، مَا تَرَكْنَا صَدَقَةٌ، إِنَّمَا يَأْكُلُ آلُ مُحَمَّدٍ مِنْ هَذَا الْمَالِ \". …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 6725، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 6725, that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح بخاری کی حدیث نمبر 6725، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih al-Bukhari, n.° 6725, menciona lo que quedó: bienes y herencia. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6725 (book 0 hadith 0); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

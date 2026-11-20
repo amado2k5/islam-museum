@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "1972"
-label: { ar: "سنن ابن ماجه 1972 — الأب والأبوة", en: "Sunan Ibn Majah 1972 — the father and fatherhood", ur: "سنن ابن ماجہ 1972 — باپ اور والدیت" }
+label: { ar: "سنن ابن ماجه 1972 — الأب والأبوة", en: "Sunan Ibn Majah 1972 — the father and fatherhood", ur: "سنن ابن ماجہ 1972 — باپ اور والدیت", es: "Sunan Ibn Majah 1972 — El padre y la paternidad" }
 text: "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عُقْبَةُ بْنُ خَالِدٍ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ الصَّبَّاحِ، أَنْبَأَنَا عَبْدُ الْعَزِيزِ بْنُ مُحَمَّدٍ، جَمِيعًا عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ لَمَّا أَنْ كَبِرَتْ، سَوْدَةُ بِنْتُ زَمْعَةَ وَهَبَتْ يَوْمَهَا لِعَائِشَةَ فَكَانَ رَسُولُ اللَّهِ ـ يَقْسِمُ لِعَائِشَةَ بِيَوْمِ سَوْدَةَ."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 1972، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sunan Ibn Majah, no. 1972 (The Chapters on Marriage), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "سنن ابن ماجہ کی حدیث نمبر 1972، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sunan Ibn Majah, n.° 1972 (Los capítulos sobre el matrimonio), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1972 (book 9 hadith 128); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

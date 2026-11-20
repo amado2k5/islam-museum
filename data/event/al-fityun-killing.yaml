@@ -1,12 +1,13 @@
 id: event/al-fityun-killing
 class: event
 kind: death
-label: { ar: "قتل الفطيون اليهودي على يد مالك بن العجلان", en: "the killing of the Jewish tyrant al-Fiṭyūn by Mālik ibn al-ʿAjlān" }
+label: { ar: "قتل الفطيون اليهودي على يد مالك بن العجلان", en: "the killing of the Jewish tyrant al-Fiṭyūn by Mālik ibn al-ʿAjlān", es: "El asesinato del tirano judío al-Fiṭyūn por Mālik ibn al-ʿAjlān" }
 date:
   start: { edtf: "0580~", calendar: julian, precision: century, status: tradition, derived: true, note: "جاهلي؛ التاريخ تقريبي عند أهل الأيام {cite:kamil-ibn-al-athir p. 490}." }
 summary:
   ar: "كان الاستيلاء على المدينة لليهود لما نزلها الأوس والخزرج وكانوا أبناء قيلة بنت كاهل، وملك عليهم الفطيون اليهودي وهو رجل سوء فاجر كان يدينون له ويمدّ يده إلى أعراضهم — لا تتزوج امرأة منهم إلا أُدخلت عليه قبل زوجها — حتى كان من مالك بن العجلان الخزرجي ما كان فقتله، فزالت الغلبة عن اليهود وعادت للأوس والخزرج {cite:kamil-ibn-al-athir p. 490}."
   en: "When the Aws and Khazraj settled Yathrib among the Jewish tribes — Qurayẓa, al-Naḍīr, Qaynuqāʿ and others who held the fortresses and the mastery — a Jewish tyrant named al-Fiṭyūn came to lord over them, a wicked profligate whose hand reached their honor: no woman among them was wed until she was brought to him first. Mālik ibn al-ʿAjlān of the Khazraj killed him, and mastery passed to the Aws and Khazraj, who stayed united until the war of Sāmir {cite:kamil-ibn-al-athir p. 490}."
+  es: "Cuando los Aws y los Khazraj establecieron Yathrib entre las tribus judías —Qurayẓa, al-Naḍīr, Qaynuqāʿ y otras que controlaban las fortalezas y el dominio— un tirano judío llamado al-Fiṭyūn llegó para gobernarlos, un libertino malvado cuya mano atentaba contra su honor: ninguna mujer entre ellos se casaba sin antes ser llevada ante él. Mālik ibn al-ʿAjlān de los Khazraj lo mató, y el dominio pasó a los Aws y los Khazraj, quienes permanecieron unidos hasta la guerra de Sāmir {cite:kamil-ibn-al-athir p. 490}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/medina, sources: [source/kamil-ibn-al-athir] }

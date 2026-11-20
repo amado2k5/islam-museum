@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1495"
-label: { ar: "موطأ مالك 1495 — وصية أو عهد أخير", en: "Muwatta Malik 1495 — a testament or parting counsel", ur: "موطأ مالک 1495 — وصیت یا آخری نصیحت" }
+label: { ar: "موطأ مالك 1495 — وصية أو عهد أخير", en: "Muwatta Malik 1495 — a testament or parting counsel", ur: "موطأ مالک 1495 — وصیت یا آخری نصیحت", es: "Muwatta Malik 1495 — un testamento o consejo de despedida" }
 text: "… مَالِكٌ فِي مُكَاتَبٍ مَرِضَ مَرَضًا شَدِيدًا فَأَرَادَ أَنْ يَدْفَعَ نُجُومَهُ كُلَّهَا إِلَى سَيِّدِهِ لأَنْ يَرِثَهُ وَرَثَةٌ لَهُ أَحْرَارٌ وَلَيْسَ مَعَهُ فِي كِتَابَتِهِ وَلَدٌ لَهُ. قَالَ مَالِكٌ ذَلِكَ جَائِزٌ لَهُ لأَنَّهُ تَتِمُّ بِذَلِكَ حُرْمَتُهُ وَتَجُوزُ شَهَادَتُهُ وَيَجُوزُ اعْتِرَافُهُ بِمَا عَلَيْهِ مِنْ دُيُونِ النَّاسِ وَتَجُوزُ وَصِيَّتُهُ وَلَيْسَ لِسَيِّدِهِ أَنْ يَأْبَى ذَلِكَ عَلَيْهِ بِأَنْ يَقُولَ فَرَّ مِنِّي بِمَالِهِ."
 summary:
   ar: "حديث في موطأ مالك، رقم 1495، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Muwatta Malik, no. 1495 (The Mukatab), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "موطأ مالک کی حدیث نمبر 1495، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Muwatta Malik, n.° 1495 (El Mukatab), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1495 (book 39 hadith 3); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

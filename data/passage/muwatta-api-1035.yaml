@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1035"
-label: { ar: "موطأ مالك 1035 — الحرام", en: "Muwatta Malik 1035 — the unlawful", ur: "موطأ مالک 1035 — حرام" }
+label: { ar: "موطأ مالك 1035 — الحرام", en: "Muwatta Malik 1035 — the unlawful", ur: "موطأ مالک 1035 — حرام", es: "Muwatta Malik 1035: lo ilegal" }
 text: "… يَكُنْ رَسُولُ اللَّهِ نَهَى عَنْهَا فَقَالُوا إِنَّهُ قَدْ كَانَ مِنْ رَسُولِ اللَّهِ بَعْدَكَ أَمْرٌ. فَخَرَجَ أَبُو سَعِيدٍ فَسَأَلَ عَنْ ذَلِكَ فَأُخْبِرَ أَنَّ رَسُولَ اللَّهِ قَالَ \" نَهَيْتُكُمْ عَنْ لُحُومِ الأَضْحَى بَعْدَ ثَلاَثٍ فَكُلُوا وَتَصَدَّقُوا وَادَّخِرُوا وَنَهَيْتُكُمْ عَنْ الاِنْتِبَاذِ فَانْتَبِذُوا وَكُلُّ مُسْكِرٍ حَرَامٌ وَنَهَيْتُكُمْ عَنْ زِيَارَةِ الْقُبُورِ فَزُورُوهَا وَلاَ تَقُولُوا هُجْرًا \". يَعْنِي لاَ تَقُولُوا سُوءًا."
 summary:
   ar: "حديث في موطأ مالك، رقم 1035، يذكر الحرام. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
   en: "A report in Muwatta Malik, no. 1035 (Sacrificial Animals), that mentions the unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
   ur: "موطأ مالک کی حدیث نمبر 1035، جس میں حرام کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+  es: "Un informe en Muwatta Malik, n.° 1035 (Animales de sacrificio), menciona lo ilícito. El Navegador Halal y Haram lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los relatos de los Compañeros y Sucesores sobre lo que es lícito e ilícito."
 relations:
   - { type: mentions, target: concept/halal-haram, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1035 (book 23 hadith 8); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }

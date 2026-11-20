@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "6260"
-label: { ar: "صحيح البخاري — حديث 6260", en: "Sahih al-Bukhari 6260 — Asking Permission", ur: "صحیح بخاری — حدیث 6260" }
+label: { ar: "صحيح البخاري — حديث 6260", en: "Sahih al-Bukhari 6260 — Asking Permission", ur: "صحیح بخاری — حدیث 6260", es: "Sahih al-Bukhari 6260 — Pedir permiso" }
 text: "الْحَدِيثَ قَالَ ثُمَّ دَعَا بِكِتَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَقُرِئَ فَإِذَا فِيهِ ‏ \"‏ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ، مِنْ مُحَمَّدٍ عَبْدِ اللَّهِ وَرَسُولِهِ إِلَى هِرَقْلَ عَظِيمِ الرُّومِ، السَّلاَمُ عَلَى مَنِ اتَّبَعَ الْهُدَى، أَمَّا بَعْدُ ‏\"‏‏.‏"
 summary:
   ar: "في صحيح البخاري؛ نص كتاب أو جوابه منسوب إلى مرسل."
   en: "In Sahih al-Bukhari; a letter text or reply attributed to a sender."
   ur: "صحیح بخاری میں؛ بھیجنے والے سے منسوب خط کا متن یا جواب."
+  es: "En Sahih al-Bukhari; texto de una carta o respuesta atribuida a un remitente."
 relations:
   - { type: part_of, target: passage/bukhari-kitab-79 }
   - { type: mentions, target: person/heraclius, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }

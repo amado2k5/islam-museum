@@ -3,12 +3,13 @@ class: passage
 unit: chapter
 work: work/al-mudawwana-al-kubra
 ref: "1:208"
-label: { ar: "المدونة الكبرى، المجلد المصوَّر 1، ص 208 — الحلال، الحرام", en: "al-Mudawwana al-Kubra, scan volume 1, p. 208 — the lawful; the unlawful", ur: "المدونۃ الکبریٰ، اسکین جلد 1، ص 208 — حلال، حرام" }
+label: { ar: "المدونة الكبرى، المجلد المصوَّر 1، ص 208 — الحلال، الحرام", en: "al-Mudawwana al-Kubra, scan volume 1, p. 208 — the lawful; the unlawful", ur: "المدونۃ الکبریٰ، اسکین جلد 1، ص 208 — حلال، حرام", es: "al-Mudawwana al-Kubra, volumen escaneado 1, pág. 208 — lo lícito; lo ilegal" }
 text: "… الحرم فى محرم ذبج صيداً أو أرسل كلبه أو بازه على صيد و قلت لا بن القاسم أرأيت لو أن محرما ذبح صيداً أو أرسل كابه على صيد فقتله أو بازه فقتله أيأ كله حلال أو حرام.قال مالك لا يأكله …"
 summary:
   ar: "مقطع من المدونة الكبرى، المجلد المصوَّر 1، ص 208، يذكر الحلال، والحرام؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الحلال والحرام."
   en: "An excerpt from al-Mudawwana al-Kubra, scan volume 1, p. 208, that mentions the lawful, the unlawful; from the machine-read scan, quoted within forty words per the sources policy. The Halal and Haram Browser lists it."
   ur: "المدونۃ الکبریٰ، اسکین جلد 1، ص 208 کا اقتباس جس میں حلال، حرام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ حلال و حرام براؤزر اسے درج کرتا ہے۔"
+  es: "Un extracto de al-Mudawwana al-Kubra, volumen 1, pág. 208, que menciona lo lícito y lo ilícito; tomado de la lectura automática, citado con un máximo de cuarenta palabras según la política de fuentes. El navegador Halal and Haram lo incluye en su lista."
 relations:
   - { type: mentions, target: concept/halal-haram, sources: [source/al-mudawwana-al-kubra] }
 provenance: { layer: own-research, source: "Apple Vision OCR of the scan fiqh/mudawwana/AAlexandrina-224179, page 208; a window of at most 40 words chosen by the halal and haram detector (scripts/halal.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-ocr-1" }

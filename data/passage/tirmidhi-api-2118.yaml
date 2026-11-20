@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "2118"
-label: { ar: "جامع الترمذي 2118 — وصية أو عهد أخير", en: "Jami' al-Tirmidhi 2118 — a testament or parting counsel", ur: "جامع ترمذی 2118 — وصیت یا آخری نصیحت" }
+label: { ar: "جامع الترمذي 2118 — وصية أو عهد أخير", en: "Jami' al-Tirmidhi 2118 — a testament or parting counsel", ur: "جامع ترمذی 2118 — وصیت یا آخری نصیحت", es: "Jami' al-Tirmidhi 2118 — un testamento o consejo de despedida" }
 text: "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنْ أَيُّوبَ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ قَالَ النَّبِيُّ \" مَا حَقُّ امْرِئٍ مُسْلِمٍ يَبِيتُ لَيْلَتَيْنِ وَلَهُ مَا يُوصِي فِيهِ إِلاَّ وَوَصِيَّتُهُ مَكْتُوبَةٌ عِنْدَهُ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ. وَقَدْ رُوِيَ عَنِ الزُّهْرِيِّ عَنْ سَالِمٍ عَنِ ابْنِ عُمَرَ عَنِ النَّبِيِّ نَحْوُهُ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 2118، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Jami' al-Tirmidhi, no. 2118 (Chapters On Wasaya (Wills and Testament)), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "جامع ترمذی کی حدیث نمبر 2118، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe de Jami' al-Tirmidhi, n.º 2118 (Capítulos sobre Testamentos), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2118 (book 30 hadith 3); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

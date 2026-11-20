@@ -1,13 +1,14 @@
 id: event/ajam-earthquake-574
 class: event
 kind: other
-label: { ar: "زلزلة بلاد العجم من العراق إلى ما وراء الري", en: "the great ʿAjam earthquake — Iraq to beyond Rayy", fr: "Le grand séisme de l’Ajam, de l’Irak jusqu’au-delà de Rayy" }
+label: { ar: "زلزلة بلاد العجم من العراق إلى ما وراء الري", en: "the great ʿAjam earthquake — Iraq to beyond Rayy", fr: "Le grand séisme de l’Ajam, de l’Irak jusqu’au-delà de Rayy", es: "El gran terremoto de ʿAjam: Irak y más allá de Rayy" }
 date:
   start: { edtf: "1178~", hijri: "0574", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
   ar: "زُلزلت بلاد العجم من جهة العراق إلى ما وراء الري وهلك فيها خلق كثير، ولم يزل أثرها في الخراب دهرًا {cite:kamil-ibn-al-athir p. 78}."
   en: "An earthquake shook the lands of ʿAjam from the Iraq side to beyond Rayy, killing multitudes — its ruin visible for an age {cite:kamil-ibn-al-athir p. 78}."
   fr: "Un séisme secoua les terres de l’Ajam depuis l’Irak jusqu’au-delà de Rayy, tuant une multitude ; ses ruines demeurèrent visibles durant une longue époque {cite:kamil-ibn-al-athir p. 78}."
+  es: "Un terremoto sacudió las tierras de ʿAjam desde el lado iraquí hasta más allá de Rayy, matando a multitudes; su ruina fue visible durante siglos {cite:kamil-ibn-al-athir p. 78}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/rayy, sources: [source/kamil-ibn-al-athir] }

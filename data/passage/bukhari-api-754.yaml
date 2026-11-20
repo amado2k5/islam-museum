@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "754"
-label: { ar: "صحيح البخاري 754 — دفن وقبر ومرقد", en: "Sahih al-Bukhari 754 — a burial, grave or resting place", ur: "صحیح بخاری 754 — تدفین، قبر اور مرقد" }
+label: { ar: "صحيح البخاري 754 — دفن وقبر ومرقد", en: "Sahih al-Bukhari 754 — a burial, grave or resting place", ur: "صحیح بخاری 754 — تدفین، قبر اور مرقد", es: "Sahih al-Bukhari 754 — un entierro, tumba o lugar de descanso" }
 text: "… ابْنِ شِهَابٍ، قَالَ أَخْبَرَنِي أَنَسٌ، قَالَ بَيْنَمَا الْمُسْلِمُونَ فِي صَلاَةِ الْفَجْرِ لَمْ يَفْجَأْهُمْ إِلاَّ رَسُولُ اللَّهِ كَشَفَ سِتْرَ حُجْرَةِ عَائِشَةَ فَنَظَرَ إِلَيْهِمْ وَهُمْ صُفُوفٌ، فَتَبَسَّمَ يَضْحَكُ، وَنَكَصَ أَبُو بَكْرٍ عَلَى عَقِبَيْهِ لِيَصِلَ لَهُ الصَّفَّ فَظَنَّ أَنَّهُ يُرِيدُ الْخُرُوجَ، وَهَمَّ الْمُسْلِمُونَ أَنْ يَفْتَتِنُوا فِي صَلاَتِهِمْ، فَأَشَارَ إِلَيْهِمْ أَتِمُّوا صَلاَتَكُمْ، فَأَرْخَى السِّتْرَ، وَتُوُفِّيَ مِنْ آخِرِ ذَلِكَ الْيَوْمِ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 754، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 754 (Call to Prayers (Adhaan)), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح بخاری کی حدیث نمبر 754، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih al-Bukhari, n.° 754 (Llamada a la oración (Adhan)), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, propiedades, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 754 (book 10 hadith 148); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

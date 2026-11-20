@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "93"
-label: { ar: "موطأ مالك 93 — الأب والأبوة", en: "Muwatta Malik 93 — the father and fatherhood", ur: "موطأ مالک 93 — باپ اور والدیت" }
+label: { ar: "موطأ مالك 93 — الأب والأبوة", en: "Muwatta Malik 93 — the father and fatherhood", ur: "موطأ مالک 93 — باپ اور والدیت", es: "Muwatta Malik 93 — el padre y la paternidad" }
 text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنِ ابْنِ شِهَابٍ، عَنْ سَالِمِ بْنِ عَبْدِ اللَّهِ، أَنَّهُ قَالَ رَأَيْتُ أَبِي عَبْدَ اللَّهِ بْنَ عُمَرَ يَغْتَسِلُ ثُمَّ يَتَوَضَّأُ فَقُلْتُ لَهُ يَا أَبَتِ أَمَا يَجْزِيكَ الْغُسْلُ مِنَ الْوُضُوءِ قَالَ بَلَى وَلَكِنِّي أَحْيَانًا أَمَسُّ ذَكَرِي فَأَتَوَضَّأُ."
 summary:
   ar: "حديث في موطأ مالك، رقم 93، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Muwatta Malik, no. 93 (Purity), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "موطأ مالک کی حدیث نمبر 93، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Muwatta Malik, n.° 93 (Pureza), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 93 (book 2 hadith 62); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

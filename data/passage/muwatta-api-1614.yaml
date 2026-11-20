@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1614"
-label: { ar: "موطأ مالك 1614 — وصية أو عهد أخير", en: "Muwatta Malik 1614 — a testament or parting counsel", ur: "موطأ مالک 1614 — وصیت یا آخری نصیحت" }
+label: { ar: "موطأ مالك 1614 — وصية أو عهد أخير", en: "Muwatta Malik 1614 — a testament or parting counsel", ur: "موطأ مالک 1614 — وصیت یا آخری نصیحت", es: "Muwatta Malik 1614 — un testamento o consejo de despedida" }
 text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنْ إِسْمَاعِيلَ بْنِ أَبِي حَكِيمٍ، أَنَّهُ سَمِعَ عُمَرَ بْنَ عَبْدِ الْعَزِيزِ، يَقُولُ كَانَ مِنْ آخِرِ مَا تَكَلَّمَ بِهِ رَسُولُ اللَّهِ أَنْ قَالَ \" قَاتَلَ اللَّهُ الْيَهُودَ وَالنَّصَارَى اتَّخَذُوا قُبُورَ أَنْبِيَائِهِمْ مَسَاجِدَ لاَ يَبْقَيَنَّ دِينَانِ بِأَرْضِ الْعَرَبِ \"."
 summary:
   ar: "حديث في موطأ مالك، رقم 1614، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Muwatta Malik, no. 1614 (Madina), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "موطأ مالک کی حدیث نمبر 1614، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Muwatta Malik, n.° 1614 (Medina), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1614 (book 45 hadith 17); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

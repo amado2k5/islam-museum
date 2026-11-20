@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "2004"
-label: { ar: "سنن أبي داود 2004 — وصية أو عهد أخير", en: "Sunan Abi Dawud 2004 — a testament or parting counsel", ur: "سنن ابی داؤد 2004 — وصیت یا آخری نصیحت" }
+label: { ar: "سنن أبي داود 2004 — وصية أو عهد أخير", en: "Sunan Abi Dawud 2004 — a testament or parting counsel", ur: "سنن ابی داؤد 2004 — وصیت یا آخری نصیحت", es: "Sunan Abi Dawud 2004 — un testamento o consejo de despedida" }
 text: "… بْنِ عَطَاءٍ، عَنِ الْوَلِيدِ بْنِ عَبْدِ الرَّحْمَنِ، عَنِ الْحَارِثِ بْنِ عَبْدِ اللَّهِ بْنِ أَوْسٍ، قَالَ أَتَيْتُ عُمَرَ بْنَ الْخَطَّابِ فَسَأَلْتُهُ عَنِ الْمَرْأَةِ، تَطُوفُ بِالْبَيْتِ يَوْمَ النَّحْرِ ثُمَّ تَحِيضُ قَالَ لِيَكُنْ آخِرُ عَهْدِهَا بِالْبَيْتِ. قَالَ فَقَالَ الْحَارِثُ كَذَلِكَ أَفْتَانِي رَسُولُ اللَّهِ. قَالَ فَقَالَ عُمَرُ أَرِبْتَ عَنْ يَدَيْكَ سَأَلْتَنِي عَنْ شَىْءٍ سَأَلْتَ عَنْهُ رَسُولَ اللَّهِ لِكَيْمَا أُخَالِفَ."
 summary:
   ar: "حديث في سنن أبي داود، رقم 2004، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sunan Abi Dawud, no. 2004 (The Rites of Hajj (Kitab Al-Manasik Wa'l-Hajj)), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "سنن ابی داؤد کی حدیث نمبر 2004، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Sunan Abi Dawud, n.° 2004 (Los ritos del Hajj (Kitab Al-Manasik Wa'l-Hajj)), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2004 (book 11 hadith 284); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

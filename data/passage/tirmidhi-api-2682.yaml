@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "2682"
-label: { ar: "جامع الترمذي 2682 — ما خلّفه من تركة وميراث", en: "Jami' al-Tirmidhi 2682 — what was left behind: estate and inheritance", ur: "جامع ترمذی 2682 — ترکہ اور میراث" }
+label: { ar: "جامع الترمذي 2682 — ما خلّفه من تركة وميراث", en: "Jami' al-Tirmidhi 2682 — what was left behind: estate and inheritance", ur: "جامع ترمذی 2682 — ترکہ اور میراث", es: "Jami' al-Tirmidhi 2682 — Lo que quedó: patrimonio y herencia" }
 text: "… وَمَنْ فِي الأَرْضِ حَتَّى الْحِيتَانُ فِي الْمَاءِ وَفَضْلُ الْعَالِمِ عَلَى الْعَابِدِ كَفَضْلِ الْقَمَرِ عَلَى سَائِرِ الْكَوَاكِبِ إِنَّ الْعُلَمَاءَ وَرَثَةُ الأَنْبِيَاءِ إِنَّ الأَنْبِيَاءَ لَمْ يُوَرِّثُوا دِينَارًا وَلاَ دِرْهَمًا إِنَّمَا وَرَّثُوا الْعِلْمَ فَمَنْ أَخَذَ بِهِ أَخَذَ بِحَظٍّ وَافِرٍ \". قَالَ أَبُو عِيسَى وَلاَ نَعْرِفُ هَذَا الْحَدِيثَ إِلاَّ مِنْ حَدِيثِ عَاصِمِ بْنِ رَجَاءِ بْنِ حَيْوَةَ وَلَيْسَ هُوَ عِنْدِي …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 2682، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Jami' al-Tirmidhi, no. 2682 (Chapters on Knowledge), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "جامع ترمذی کی حدیث نمبر 2682، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Jami' al-Tirmidhi, n.° 2682 (Capítulos sobre el conocimiento), menciona lo que quedó: bienes y herencia. El Navegador de Testamentos lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2682 (book 41 hadith 38); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "1014"
-label: { ar: "سنن النسائي 1014 — قراءات القرآن", en: "Sunan al-Nasa'i 1014 — the readings of the Qur'an", ur: "سنن نسائی 1014 — قرآن کی قراءتیں" }
+label: { ar: "سنن النسائي 1014 — قراءات القرآن", en: "Sunan al-Nasa'i 1014 — the readings of the Qur'an", ur: "سنن نسائی 1014 — قرآن کی قراءتیں", es: "Sunan al-Nasa'i 1014 — las lecturas del Corán" }
 text: "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، قَالَ حَدَّثَنَا عَبْدُ الرَّحْمَنِ، قَالَ حَدَّثَنَا جَرِيرُ بْنُ حَازِمٍ، عَنْ قَتَادَةَ، قَالَ سَأَلْتُ أَنَسًا كَيْفَ كَانَتْ قِرَاءَةُ رَسُولِ اللَّهِ قَالَ كَانَ يَمُدُّ صَوْتَهَ مَدًّا."
 summary:
   ar: "حديث في سنن النسائي، رقم 1014، يذكر قراءات القرآن. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
   en: "A report in Sunan al-Nasa'i, no. 1014 (The Book of the Commencement of the Prayer), that mentions the readings of the Qur'an. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
   ur: "سنن نسائی کی حدیث نمبر 1014، جس میں قرآن کی قراءتیں کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sunan al-Nasa'i, n.º 1014 (El Libro del Inicio de la Oración), menciona las lecturas del Corán. El navegador del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1014 (book 11 hadith 139); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

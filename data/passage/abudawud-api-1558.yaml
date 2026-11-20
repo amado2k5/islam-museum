@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "1558"
-label: { ar: "سنن أبي داود 1558 — الأب والأبوة", en: "Sunan Abi Dawud 1558 — the father and fatherhood", ur: "سنن ابی داؤد 1558 — باپ اور والدیت" }
+label: { ar: "سنن أبي داود 1558 — الأب والأبوة", en: "Sunan Abi Dawud 1558 — the father and fatherhood", ur: "سنن ابی داؤد 1558 — باپ اور والدیت", es: "Sunan Abi Dawud 1558 — El padre y la paternidad" }
 text: "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، قَالَ قَرَأْتُ عَلَى مَالِكِ بْنِ أَنَسٍ عَنْ عَمْرِو بْنِ يَحْيَى الْمَازِنِيِّ، عَنْ أَبِيهِ، قَالَ سَمِعْتُ أَبَا سَعِيدٍ الْخُدْرِيَّ، يَقُولُ قَالَ رَسُولُ اللَّهِ \" لَيْسَ فِيمَا دُونَ خَمْسِ ذَوْدٍ صَدَقَةٌ وَلَيْسَ فِيمَا دُونَ خَمْسِ أَوَاقٍ صَدَقَةٌ وَلَيْسَ فِيمَا دُونَ خَمْسَةِ أَوْسُقٍ صَدَقَةٌ \"."
 summary:
   ar: "حديث في سنن أبي داود، رقم 1558، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sunan Abi Dawud, no. 1558 (Zakat (Kitab Al-Zakat)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "سنن ابی داؤد کی حدیث نمبر 1558، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sunan Abi Dawud, n.° 1558 (Zakat (Kitab Al-Zakat)), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1558 (book 9 hadith 3); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

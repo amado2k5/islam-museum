@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1674"
-label: { ar: "صحيح مسلم 1674 — وصية أو عهد أخير", en: "Sahih Muslim 1674 — a testament or parting counsel", ur: "صحیح مسلم 1674 — وصیت یا آخری نصیحت" }
+label: { ar: "صحيح مسلم 1674 — وصية أو عهد أخير", en: "Sahih Muslim 1674 — a testament or parting counsel", ur: "صحیح مسلم 1674 — وصیت یا آخری نصیحت", es: "Sahih Muslim 1674 — un testamento o consejo de despedida" }
 text: "وَحَدَّثَنِي سُلَيْمَانُ بْنُ مَعْبَدٍ، حَدَّثَنَا مُعَلَّى بْنُ أَسَدٍ، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ مُخْتَارٍ، عَنْ عَبْدِ اللَّهِ الدَّانَاجِ، قَالَ حَدَّثَنِي أَبُو رَافِعٍ الصَّائِغُ، قَالَ سَمِعْتُ أَبَا هُرَيْرَةَ، قَالَ أَوْصَانِي خَلِيلِي أَبُو الْقَاسِمِ بِثَلاَثٍ. فَذَكَرَ مِثْلَ حَدِيثِ أَبِي عُثْمَانَ عَنْ أَبِي هُرَيْرَةَ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 1674، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 1674 (The Book of Prayer - Travellers), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح مسلم کی حدیث نمبر 1674، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Sahih Muslim, n.° 1674 (El Libro de la Oración - Viajeros), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1674 (book 6 hadith 104); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

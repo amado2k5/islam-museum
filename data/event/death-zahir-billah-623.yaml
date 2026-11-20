@@ -1,12 +1,13 @@
 id: event/death-zahir-billah-623
 class: event
 kind: death
-label: { ar: "وفاة الخليفة الظاهر بأمر الله", en: "Death of caliph al-Zahir bi-Amr Allah" }
+label: { ar: "وفاة الخليفة الظاهر بأمر الله", en: "Death of caliph al-Zahir bi-Amr Allah", es: "Muerte del califa al-Zahir bi-Amr Allah" }
 date:
   start: { edtf: "1226~", hijri: "0623", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
   ar: "توفي الظاهر بأمر الله ولم تطل خلافته، وقيل إنه قُتل بالسم {cite:kamil-ibn-al-athir p. 464}."
   en: "al-Zahir died after a short caliphate — some said by poison {cite:kamil-ibn-al-athir p. 464}."
+  es: "Al-Zahir murió tras un breve califato; algunos dicen que fue envenenado {cite:kamil-ibn-al-athir p. 464}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/kamil-ibn-al-athir] }

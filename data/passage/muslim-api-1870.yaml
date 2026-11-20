@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1870"
-label: { ar: "صحيح مسلم 1870 — قراءات القرآن", en: "Sahih Muslim 1870 — the readings of the Qur'an", ur: "صحیح مسلم 1870 — قرآن کی قراءتیں" }
+label: { ar: "صحيح مسلم 1870 — قراءات القرآن", en: "Sahih Muslim 1870 — the readings of the Qur'an", ur: "صحیح مسلم 1870 — قرآن کی قراءتیں", es: "Sahih Muslim 1870 — las lecturas del Corán" }
 text: "… لِي بَعْضُ الْقَوْمِ اقْرَأْ عَلَيْنَا. فَقَرَأْتُ عَلَيْهِمْ سُورَةَ يُوسُفَ - قَالَ - فَقَالَ رَجُلٌ مِنَ الْقَوْمِ وَاللَّهِ مَا هَكَذَا أُنْزِلَتْ. قَالَ قُلْتُ وَيْحَكَ وَاللَّهِ لَقَدْ قَرَأْتُهَا عَلَى رَسُولِ اللَّهِ فَقَالَ لِي \" أَحْسَنْتَ \". فَبَيْنَمَا أَنَا أُكَلِّمُهُ إِذْ وَجَدْتُ مِنْهُ رِيحَ الْخَمْرِ قَالَ فَقُلْتُ أَتَشْرَبُ الْخَمْرَ وَتُكَذِّبُ بِالْكِتَابِ لاَ تَبْرَحُ حَتَّى أَجْلِدَكَ - قَالَ - …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 1870، يذكر قراءات القرآن. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
   en: "A report in Sahih Muslim, no. 1870 (The Book of Prayer - Travellers), that mentions the readings of the Qur'an. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
   ur: "صحیح مسلم کی حدیث نمبر 1870، جس میں قرآن کی قراءتیں کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Sahih Muslim, n.° 1870 (El Libro de la Oración - Viajeros), menciona las lecturas del Corán. El catálogo del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1870 (book 6 hadith 298); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

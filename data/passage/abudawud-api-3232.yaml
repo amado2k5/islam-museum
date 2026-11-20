@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "3232"
-label: { ar: "سنن أبي داود 3232 — دفن وقبر ومرقد", en: "Sunan Abi Dawud 3232 — a burial, grave or resting place", ur: "سنن ابی داؤد 3232 — تدفین، قبر اور مرقد" }
+label: { ar: "سنن أبي داود 3232 — دفن وقبر ومرقد", en: "Sunan Abi Dawud 3232 — a burial, grave or resting place", ur: "سنن ابی داؤد 3232 — تدفین، قبر اور مرقد", es: "Sunan Abi Dawud 3232 — un lugar de entierro, tumba o descanso." }
 text: "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ سَعِيدِ بْنِ يَزِيدَ أَبِي مَسْلَمَةَ، عَنْ أَبِي نَضْرَةَ، عَنْ جَابِرٍ، قَالَ دُفِنَ مَعَ أَبِي رَجُلٌ فَكَانَ فِي نَفْسِي مِنْ ذَلِكَ حَاجَةٌ فَأَخْرَجْتُهُ بَعْدَ سِتَّةِ أَشْهُرٍ فَمَا أَنْكَرْتُ مِنْهُ شَيْئًا إِلاَّ شُعَيْرَاتٍ كُنَّ فِي لِحْيَتِهِ مِمَّا يَلِي الأَرْضَ."
 summary:
   ar: "حديث في سنن أبي داود، رقم 3232، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sunan Abi Dawud, no. 3232 (Funerals (Kitab Al-Jana'iz)), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "سنن ابی داؤد کی حدیث نمبر 3232، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sunan Abi Dawud, n.° 3232 (Funerales (Kitab Al-Jana'iz)), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3232 (book 21 hadith 144); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

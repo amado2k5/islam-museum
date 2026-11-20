@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "3999"
-label: { ar: "سنن أبي داود 3999 — كتاب الحروف والقراءات، قراءات القرآن", en: "Sunan Abi Dawud 3999 — the Book of the Letters and the Readings; the readings of the Qur'an", ur: "سنن ابی داؤد 3999 — کتاب الحروف والقراءات، قرآن کی قراءتیں" }
+label: { ar: "سنن أبي داود 3999 — كتاب الحروف والقراءات، قراءات القرآن", en: "Sunan Abi Dawud 3999 — the Book of the Letters and the Readings; the readings of the Qur'an", ur: "سنن ابی داؤد 3999 — کتاب الحروف والقراءات، قرآن کی قراءتیں", es: "Sunan Abi Dawud 3999 — El Libro de las Letras y las Lecturas; las lecturas del Corán" }
 text: "حَدَّثَنَا زَيْدُ بْنُ أَخْزَمَ، حَدَّثَنَا بِشْرٌ، - يَعْنِي ابْنَ عُمَرَ - حَدَّثَنَا مُحَمَّدُ بْنُ خَازِمٍ، قَالَ ذُكِرَ كَيْفَ قِرَاءَةُ جِبْرَائِلَ وَمِيكَائِلَ عِنْدَ الأَعْمَشِ فَحَدَّثَنَا الأَعْمَشُ عَنْ سَعْدٍ الطَّائِيِّ عَنْ عَطِيَّةَ الْعَوْفِيِّ عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ قَالَ ذَكَرَ رَسُولُ اللَّهِ صَاحِبَ الصُّورِ فَقَالَ \" عَنْ يَمِينِهِ جِبْرَائِلُ وَعَنْ يَسَارِهِ مِيكَائِلُ \"."
 summary:
   ar: "حديث في سنن أبي داود، رقم 3999، يذكر قراءات القرآن. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
   en: "A report in Sunan Abi Dawud, no. 3999 (Dialects and Readings of the Qur'an (Kitab Al-Huruf Wa Al-Qira'at)), that mentions the readings of the Qur'an. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
   ur: "سنن ابی داؤد کی حدیث نمبر 3999، جس میں قرآن کی قراءتیں کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Sunan Abi Dawud, n.° 3999 (Dialectos y lecturas del Corán (Kitab Al-Huruf Wa Al-Qira'at)), menciona las lecturas del Corán. El navegador del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3999 (book 32 hadith 31); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts); the whole chapter is taken, honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

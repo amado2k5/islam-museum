@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "1596"
-label: { ar: "سنن أبي داود 1596 — الأب والأبوة", en: "Sunan Abi Dawud 1596 — the father and fatherhood", ur: "سنن ابی داؤد 1596 — باپ اور والدیت" }
+label: { ar: "سنن أبي داود 1596 — الأب والأبوة", en: "Sunan Abi Dawud 1596 — the father and fatherhood", ur: "سنن ابی داؤد 1596 — باپ اور والدیت", es: "Sunan Abi Dawud 1596 — El padre y la paternidad" }
 text: "حَدَّثَنَا هَارُونُ بْنُ سَعِيدِ بْنِ الْهَيْثَمِ الأَيْلِيُّ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ بْنُ يَزِيدَ، عَنِ ابْنِ شِهَابٍ، عَنْ سَالِمِ بْنِ عَبْدِ اللَّهِ، عَنْ أَبِيهِ، قَالَ قَالَ رَسُولُ اللَّهِ \" فِيمَا سَقَتِ السَّمَاءُ وَالأَنْهَارُ وَالْعُيُونُ أَوْ كَانَ بَعْلاً الْعُشْرُ وَفِيمَا سُقِيَ بِالسَّوَانِي أَوِ النَّضْحِ نِصْفُ الْعُشْرِ \"."
 summary:
   ar: "حديث في سنن أبي داود، رقم 1596، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sunan Abi Dawud, no. 1596 (Zakat (Kitab Al-Zakat)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "سنن ابی داؤد کی حدیث نمبر 1596، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sunan Abi Dawud, n.° 1596 (Zakat (Kitab Al-Zakat)), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1596 (book 9 hadith 41); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

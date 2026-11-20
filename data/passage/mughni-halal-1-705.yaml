@@ -3,12 +3,13 @@ class: passage
 unit: chapter
 work: work/al-mughni
 ref: "1:705"
-label: { ar: "المغني لابن قدامة، المجلد المصوَّر 1، ص 705 — الحلال، ما أُحل", en: "Ibn Qudama's al-Mughni, scan volume 1, p. 705 — the lawful; what was made lawful", ur: "المغنی، ابن قدامہ، اسکین جلد 1، ص 705 — حلال، جو حلال کیا گیا" }
+label: { ar: "المغني لابن قدامة، المجلد المصوَّر 1، ص 705 — الحلال، ما أُحل", en: "Ibn Qudama's al-Mughni, scan volume 1, p. 705 — the lawful; what was made lawful", ur: "المغنی، ابن قدامہ، اسکین جلد 1، ص 705 — حلال، جو حلال کیا گیا", es: "Al-Mughni de Ibn Qudama, volumen escaneado 1, pág. 705 — lo lícito; lo que se hizo lícito" }
 text: "… تحل للمحرم الإعانة على الصيد بشىء إن دل الحلال محر ما على الصيد فقتله، فلا شىء على الحلال لا يأكل إذا صاد الحلال لأجله تكره الخطبة للمحرم، وخطبة المحرمة، ويكره للمحرم أن يخطب للمحلين صيد الحرم حرام على الحلال والمحرم …"
 summary:
   ar: "مقطع من المغني لابن قدامة، المجلد المصوَّر 1، ص 705، يذكر الحلال، وما أُحل، والحرام؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الحلال والحرام."
   en: "An excerpt from Ibn Qudama's al-Mughni, scan volume 1, p. 705, that mentions the lawful, what was made lawful, the unlawful; from the machine-read scan, quoted within forty words per the sources policy. The Halal and Haram Browser lists it."
   ur: "المغنی، ابن قدامہ، اسکین جلد 1، ص 705 کا اقتباس جس میں حلال، جو حلال کیا گیا، حرام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ حلال و حرام براؤزر اسے درج کرتا ہے۔"
+  es: "Un extracto de Al-Mughni de Ibn Qudama, volumen 1, pág. 705, que menciona lo lícito, lo que se hizo lícito y lo ilícito; tomado de la lectura automática, citado en un máximo de cuarenta palabras según la política de fuentes. El navegador Halal and Haram lo incluye en su lista."
 relations:
   - { type: mentions, target: concept/halal-haram, sources: [source/mughni-ibn-qudama] }
 provenance: { layer: own-research, source: "Apple Vision OCR of the scan fiqh/mughni-ibn-qudama/15_20261015, page 705; a window of at most 40 words chosen by the halal and haram detector (scripts/halal.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-ocr-1" }

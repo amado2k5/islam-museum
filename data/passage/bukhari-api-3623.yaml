@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "3623"
-label: { ar: "صحيح البخاري 3623 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 3623 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 3623 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+label: { ar: "صحيح البخاري 3623 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 3623 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 3623 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 3623 — menciones de naciones, religiones y pueblos no musulmanes" }
 text: "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا زَكَرِيَّاءُ، عَنْ فِرَاسٍ، عَنْ عَامِرٍ، عَنْ مَسْرُوقٍ، عَنْ عَائِشَةَا ـ قَالَتْ أَقْبَلَتْ فَاطِمَةُ تَمْشِي، كَأَنَّ مِشْيَتَهَا مَشْىُ النَّبِيِّ فَقَالَ النَّبِيُّ \" مَرْحَبًا بِابْنَتِي \". ثُمَّ أَجْلَسَهَا عَنْ يَمِينِهِ أَوْ عَنْ شِمَالِهِ، ثُمَّ أَسَرَّ إِلَيْهَا حَدِيثًا، فَبَكَتْ فَقُلْتُ لَهَا لِمَ تَبْكِينَ ثُمَّ أَسَرَّ إِلَيْهَا حَدِيثًا فَضَحِكَتْ فَقُلْتُ مَا رَأَيْتُ كَالْيَوْمِ فَرَحًا أَقْرَبَ …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 3623، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 3623, with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "صحیح بخاری کی حدیث نمبر 3623، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato del Sahih al-Bukhari, n.º 3623, menciona naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
 relations:
   - { type: mentions, target: person/marhab-al-yahudi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3623 (book 0 hadith 0); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

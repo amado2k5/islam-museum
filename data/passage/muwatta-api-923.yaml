@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "923"
-label: { ar: "موطأ مالك 923 — الأب والأبوة", en: "Muwatta Malik 923 — the father and fatherhood", ur: "موطأ مالک 923 — باپ اور والدیت" }
+label: { ar: "موطأ مالك 923 — الأب والأبوة", en: "Muwatta Malik 923 — the father and fatherhood", ur: "موطأ مالک 923 — باپ اور والدیت", es: "Muwatta Malik 923 — el padre y la paternidad" }
 text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنْ أَبِي بَكْرِ بْنِ نَافِعٍ، عَنْ أَبِيهِ، أَنَّ ابْنَةَ أَخٍ، لِصَفِيَّةَ بِنْتِ أَبِي عُبَيْدٍ نُفِسَتْ بِالْمُزْدَلِفَةِ فَتَخَلَّفَتْ هِيَ وَصَفِيَّةُ حَتَّى أَتَتَا مِنًى بَعْدَ أَنْ غَرَبَتِ الشَّمْسُ مِنْ يَوْمِ النَّحْرِ فَأَمَرَهُمَا عَبْدُ اللَّهِ بْنُ عُمَرَ أَنْ تَرْمِيَا الْجَمْرَةَ حِينَ أَتَتَا وَلَمْ يَرَ عَلَيْهِمَا شَيْئًا. قَالَ يَحْيَى سُئِلَ مَالِكٌ عَمَّنْ نَسِيَ جَمْرَةً مِنَ الْجِمَارِ …"
 summary:
   ar: "حديث في موطأ مالك، رقم 923، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Muwatta Malik, no. 923 (Hajj), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "موطأ مالک کی حدیث نمبر 923، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Muwatta Malik, n.° 923 (Hajj), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 923 (book 20 hadith 219); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

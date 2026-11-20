@@ -3,12 +3,13 @@ class: passage
 unit: chapter
 work: work/kitab-al-maghazi
 ref: "1:844"
-label: { ar: "المغازي للواقدي، المجلد المصوَّر 1، ص 844 — الحرام", en: "al-Waqidi's Maghazi, scan volume 1, p. 844 — the unlawful", ur: "المغازی، واقدی، اسکین جلد 1، ص 844 — حرام" }
+label: { ar: "المغازي للواقدي، المجلد المصوَّر 1، ص 844 — الحرام", en: "al-Waqidi's Maghazi, scan volume 1, p. 844 — the unlawful", ur: "المغازی، واقدی، اسکین جلد 1، ص 844 — حرام", es: "Maghazi de al-Waqidi, escaneo volumen 1, pág. 844 — lo ilícito" }
 text: "… فمات، فسمع رسول اللّٰه بقتله، فقام خطيبًا - وهذه الخُطبة الغدَ من يوم الفتح بعد الظهر - فقال : أَيُّها الناس، إنَّ اللّٰه قد حرّم مكَّة يوم خَلَق السمواتِ والأَرض، ويوم خَلَق الشمس والقمر، ووضع هذين الجبلين، فهى حرامٌ إلى …"
 summary:
   ar: "مقطع من المغازي للواقدي، المجلد المصوَّر 1، ص 844، يذكر الحرام؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الحلال والحرام."
   en: "An excerpt from al-Waqidi's Maghazi, scan volume 1, p. 844, that mentions the unlawful; from the machine-read scan, quoted within forty words per the sources policy. The Halal and Haram Browser lists it."
   ur: "المغازی، واقدی، اسکین جلد 1، ص 844 کا اقتباس جس میں حرام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ حلال و حرام براؤزر اسے درج کرتا ہے۔"
+  es: "Un extracto del Maghazi de al-Waqidi, volumen 1, pág. 844, que menciona lo ilícito; tomado de la lectura automática, citado con un máximo de cuarenta palabras según la política de fuentes. El navegador Halal and Haram lo incluye en su lista."
 relations:
   - { type: mentions, target: concept/halal-haram, sources: [source/al-waqidi-maghazi] }
 provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/maghazi-waqidi/AlMaghaziAlwaghidi, page 844; a window of at most 40 words chosen by the halal and haram detector (scripts/halal.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-ocr-1" }

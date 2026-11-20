@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "5357"
-label: { ar: "صحيح البخاري 5357 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 5357 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 5357 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+label: { ar: "صحيح البخاري 5357 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 5357 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 5357 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 5357 — menciones de naciones, religiones y pueblos no musulmanes" }
 text: "حَدَّثَنِي مُحَمَّدُ بْنُ سَلاَمٍ، أَخْبَرَنَا وَكِيعٌ، عَنِ ابْنِ عُيَيْنَةَ، قَالَ قَالَ لِي مَعْمَرٌ قَالَ لِي الثَّوْرِيُّ هَلْ سَمِعْتَ فِي الرَّجُلِ يَجْمَعُ لأَهْلِهِ قُوتَ سَنَتِهِمْ أَوْ بَعْضِ السَّنَةِ قَالَ مَعْمَرٌ فَلَمْ يَحْضُرْنِي، ثُمَّ ذَكَرْتُ حَدِيثًا حَدَّثَنَاهُ ابْنُ شِهَابٍ الزُّهْرِيُّ عَنْ مَالِكِ بْنِ أَوْسٍ عَنْ عُمَرَ ـ أَنَّ النَّبِيَّ كَانَ يَبِيعُ نَخْلَ بَنِي النَّضِيرِ، وَيَحْبِسُ لأَهْلِهِ قُوتَ …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 5357، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 5357 (Supporting the Family), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "صحیح بخاری کی حدیث نمبر 5357، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe del Sahih al-Bukhari, n.º 5357 (Apoyo a la Familia), menciona naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
 relations:
   - { type: mentions, target: group/banu-nadir, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5357 (book 69 hadith 7); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

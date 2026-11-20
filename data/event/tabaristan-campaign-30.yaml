@@ -1,12 +1,13 @@
 id: event/tabaristan-campaign-30
 class: event
 kind: campaign
-label: { ar: "غزو سعيد بن العاص طبرستان", en: "Sa'id ibn al-'As's Tabaristan campaign (30 AH)" }
+label: { ar: "غزو سعيد بن العاص طبرستان", en: "Sa'id ibn al-'As's Tabaristan campaign (30 AH)", es: "Campaña de Tabaristán de Sa'id ibn al-'As (30 d. H.)" }
 date:
   start: { edtf: "0650", hijri: "0030", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 30؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 484}." }
 summary:
   ar: "غزو سعيد بن العاص طبرستان في سنة ثلاثين، وهو أول غزو المسلمين لطبرستان في خلافة عثمان {cite:kamil-ibn-al-athir p. 484}."
   en: "Sa'id ibn al-'As led the first Muslim campaign into Tabaristan in year 30 {cite:kamil-ibn-al-athir p. 484}."
+  es: "Sa'id ibn al-'As dirigió la primera campaña musulmana en Tabaristán en el año 30 {cite:kamil-ibn-al-athir p. 484}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/tabaristan, sources: [source/kamil-ibn-al-athir] }

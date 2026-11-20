@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1547"
-label: { ar: "صحيح مسلم 1547 — الأب والأبوة", en: "Sahih Muslim 1547 — the father and fatherhood", ur: "صحیح مسلم 1547 — باپ اور والدیت" }
+label: { ar: "صحيح مسلم 1547 — الأب والأبوة", en: "Sahih Muslim 1547 — the father and fatherhood", ur: "صحیح مسلم 1547 — باپ اور والدیت", es: "Sahih Muslim 1547 — El padre y la paternidad" }
 text: "وَحَدَّثَنِي عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ الْعَنْبَرِيُّ، وَأَبُو كُرَيْبٍ وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ وَمُحَمَّدُ بْنُ عَبْدِ الأَعْلَى - وَاللَّفْظُ لاِبْنِ مُعَاذٍ - حَدَّثَنَا الْمُعْتَمِرُ بْنُ سُلَيْمَانَ، عَنْ أَبِيهِ، عَنْ أَبِي مِجْلَزٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَنَتَ رَسُولُ اللَّهِ شَهْرًا بَعْدَ الرُّكُوعِ فِي صَلاَةِ الصُّبْحِ يَدْعُو عَلَى رِعْلٍ وَذَكْوَانَ وَيَقُولُ \" عُصَيَّةُ عَصَتِ اللَّهَ وَرَسُولَهُ \"."
 summary:
   ar: "حديث في صحيح مسلم، رقم 1547، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 1547 (The Book of Mosques and Places of Prayer), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "صحیح مسلم کی حدیث نمبر 1547، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe del Sahih Muslim, n.º 1547 (El Libro de las Mezquitas y Lugares de Oración), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1547 (book 5 hadith 380); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "379"
-label: { ar: "صحيح مسلم 379 — ما خلّفه من تركة وميراث", en: "Sahih Muslim 379 — what was left behind: estate and inheritance", ur: "صحیح مسلم 379 — ترکہ اور میراث" }
+label: { ar: "صحيح مسلم 379 — ما خلّفه من تركة وميراث", en: "Sahih Muslim 379 — what was left behind: estate and inheritance", ur: "صحیح مسلم 379 — ترکہ اور میراث", es: "Sahih Muslim 379 — Lo que quedó: patrimonio y herencia" }
 text: "… بْنُ سَعْدِ بْنِ أَبِي وَقَّاصٍ، عَنْ أَبِيهِ، سَعْدٍ أَنَّ رَسُولَ اللَّهِ أَعْطَى رَهْطًا وَسَعْدٌ جَالِسٌ فِيهِمْ قَالَ سَعْدٌ فَتَرَكَ رَسُولُ اللَّهِ مِنْهُمْ مَنْ لَمْ يُعْطِهِ وَهُوَ أَعْجَبُهُمْ إِلَىَّ فَقُلْتُ يَا رَسُولَ اللَّهِ مَا لَكَ عَنْ فُلاَنٍ فَوَاللَّهِ إِنِّي لأَرَاهُ مُؤْمِنًا. فَقَالَ رَسُولُ اللَّهِ \" أَوْ مُسْلِمًا \". قَالَ فَسَكَتُّ قَلِيلاً ثُمَّ غَلَبَنِي مَا أَعْلَمُ مِنْهُ …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 379، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 379 (The Book of Faith), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح مسلم کی حدیث نمبر 379، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih Muslim, n.º 379 (El Libro de la Fe), menciona lo que quedó tras de sí: bienes y herencia. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 379 (book 1 hadith 286); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

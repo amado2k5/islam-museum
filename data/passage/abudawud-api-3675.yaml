@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "3675"
-label: { ar: "سنن أبي داود 3675 — اليتيم وفقد الأب", en: "Sunan Abi Dawud 3675 — the orphan and the father lost", ur: "سنن ابی داؤد 3675 — یتیم اور باپ کی موت" }
+label: { ar: "سنن أبي داود 3675 — اليتيم وفقد الأب", en: "Sunan Abi Dawud 3675 — the orphan and the father lost", ur: "سنن ابی داؤد 3675 — یتیم اور باپ کی موت", es: "Sunan Abi Dawud 3675 — El huérfano y el padre perdido" }
 text: "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا وَكِيعٌ، عَنْ سُفْيَانَ، عَنِ السُّدِّيِّ، عَنْ أَبِي هُبَيْرَةَ، عَنْ أَنَسِ بْنِ مَالِكٍ، أَنَّ أَبَا طَلْحَةَ، سَأَلَ النَّبِيَّ عَنْ أَيْتَامٍ وَرِثُوا خَمْرًا قَالَ \" أَهْرِقْهَا \". قَالَ أَفَلاَ أَجْعَلُهَا خَلاًّ قَالَ \" لاَ \"."
 summary:
   ar: "حديث في سنن أبي داود، رقم 3675، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sunan Abi Dawud, no. 3675 (Drinks (Kitab Al-Ashribah)), that mentions the orphan and the father lost. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "سنن ابی داؤد کی حدیث نمبر 3675، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sunan Abi Dawud, n.° 3675 (Kitab Al-Ashribah), menciona al huérfano y al padre desaparecido. El navegador \"La paternidad en el Islam\" lo incluye en su lista de textos del Corán, la Sunnah, la sirah y libros sobre la paternidad."
 relations:
   - { type: mentions, target: concept/yatim-fiqh, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3675 (book 27 hadith 7); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
