@@ -647,6 +647,21 @@
         }
       }
     },
+    "/ritha.json": {
+      "get": {
+        "operationId": "getRitha",
+        "summary": "Elegy and Death-Announcement Browser dataset",
+        "description": "The Elegy and Death-Announcement Browser dataset (متصفح أشهر ما قيل في الرثاء والنعي): every elegy, death announcement, word of condolence and report of weeping and wailing in the Qur'an, Sunnah, seerah, the reports of the Companions and Successors and harvested books, detected at build time by a guarded lexicon plus the curated records tagged ritha-browser, each with its corpus section (quran, sunnah, seerah, books, curated), ritha_kind (ritha, nay, taziya, bukaa), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every elegy, announcement, condolence and weeping record with corpus section, ritha kind, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/munazarat.json": {
       "get": {
         "operationId": "getMunazarat",
