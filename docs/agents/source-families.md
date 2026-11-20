@@ -83,6 +83,10 @@ Getty Thesaurus of Geographic Names / ULAN (getty.edu/research) · al-Thurayya g
 - **The modern century** (oral histories, institutional and state records — Qatar Digital Library oral histories, the Arab Image Foundation, Egypt's Dar al-Watha'iq, the Ottoman State Archives' digital portal, university archives at AUB and AUC): usable only after a consent, attribution and right-of-reply protocol exists for living memory. Do not start here.
 - **Discovery aggregators** (for finding the above, not for citing): the OpenGLAM directory, MENALIB (Halle), Zenodo communities, OpenAlex and CORE (scholarship), GitHub topic search (`islamic-history`, `arabic-corpus`, `digital-humanities`).
 
+## Dictionaries Browser: trusted sources and tiers
+
+The lane's criteria and the tiers for the 680 sources Gemini cited are in `docs/delegation/maajim-progress.md` (20 November 2026). In short: TDV İslâm Ansiklopedisi articles opened by an agent are usable now and each is a `source/dia-*` record; open journals, manuscript catalogues and library catalogues are promising and are opened and checked before first use; digital reading libraries are used to look, not to cite; AI summary pages, bookshop listings, blogs and Wikipedia prose are never cited. Registering a family in `scripts/harvest/sources.yaml` still needs the founder's go-ahead.
+
 ## The criteria: how to judge any candidate resource
 
 Score a candidate against all eight before proposing registration; write the score in your lane's progress file.
