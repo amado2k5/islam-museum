@@ -155,7 +155,7 @@ function quotable(slice: string[], strict: boolean): boolean {
 function workLabel(work: string): L5 {
   const d = parse(readFileSync(`data/${work}.yaml`, "utf8"));
   const out = {} as L5;
-  for (const l of LANGS) out[l] = String(d.label?.[l] ?? d.label?.en ?? d.label?.ar).replace(/\s*\([^)]*\)\s*$/, "").replace(/[⁦⁩]/g, "").trim();
+  for (const l of LANGS) out[l] = String(d.label?.[l] ?? d.label?.en ?? d.label?.ar).replace(/[\u2066\u2069]/g, "").replace(/\s*\([^)]*\)/g, "").replace(/\s+/g, " ").trim();
   return out;
 }
 const TAIL: L5 = {

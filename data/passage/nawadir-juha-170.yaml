@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-170
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "77:170"
+label: { ar: "نوادر جحا الكبرى، ص 77 — «الفراريج حزينة على أمها»", en: "Nawadir Juha al-Kubra, p. 77 — 'The Chicks Mourn Their Mother'", ur: "نوادر جحا الکبریٰ، ص 77 — «چوزے اپنی ماں پر سوگوار ہیں»", fr: "Nawadir Juha al-Kubra, p. 77 — « Les poussins sont en deuil de leur mère »", es: "Nawadir Juha al-Kubra, p. 77 — «Los pollitos están de luto por su madre»" }
+text: "… الفراريج حزينة على أمِّها ضاعت دجاجة الشيخ فأتى بخرق سوداء وربطها في أعناق الفراريج وتركها. فقالوا له : ما هذا؟ فقال: حزِنوا على موتِ أَمّهِم! الحمدُ للَّه سرق له ذات يوم ألفُ غرش، وذهبَ إلى الجامع. وظلَّ يتضرَّعُ، ويدعو اللَّه …"
+summary:
+  ar: "ماتت دجاجة جحا، فوضع خرقًا سوداء على أعناق الفراخ، وقال إنها حزينة على أمها. {cite:juha-nawadir-kubra-djuwaydi p. 77}"
+  en: "Juha loses his hen, puts black rags on the chicks' necks, and says they are mourning their mother. {cite:juha-nawadir-kubra-djuwaydi p. 77}"
+  ur: "جحا کی مرغی مر گئی تو اس نے چوزوں کی گردنوں پر کالے چیتھڑے باندھ دیے اور کہا کہ وہ اپنی ماں کا سوگ منا رہے ہیں۔ {cite:juha-nawadir-kubra-djuwaydi p. 77}"
+  fr: "Juha perd sa poule, met des chiffons noirs au cou des poussins et dit qu'ils sont en deuil de leur mère. {cite:juha-nawadir-kubra-djuwaydi p. 77}"
+  es: "Juha pierde su gallina, les pone trapos negros en el cuello a los pollitos y dice que están de luto por su madre. {cite:juha-nawadir-kubra-djuwaydi p. 77}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 77, anecdote 170; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

@@ -1887,6 +1887,10 @@ explore:
       title: "Navigateur des munazarat"
       desc: "Chaque mention des débats et disputes dans le Coran, la Sunna, la sira et chaque livre récolté — les arguments d''Ibrahim avec son peuple et Nimrod, la mubahala avec les chrétiens de Najran, l''échange devant le Négus, le débat d''Ibn Abbas avec les Kharéjites — avec chaque verset et récit cité."
       menu: "Parcourir les débats et disputes dans le Coran et les livres"
+    juha:
+      title: "Navigateur de Juha et du folklore islamique"
+      desc: "Juha, Nasreddin Hoca, Ash'ab et Nu'ayman, et les anecdotes, traits d'esprit, plaisanteries et rires dans le Coran, la Sunna, la sîra et les livres d'adab et d'histoire dépouillés — chaque verset, récit et anecdote avec sa source."
+      menu: "Parcourir Juha, les anecdotes, les traits d'esprit et les plaisanteries dans le Coran, la Sunna et les livres"
     magic:
       title: "Navigateur de la magie et des magiciens"
       desc: "Chaque mention de la magie et des magiciens dans le Coran, la Sunna, la sira et chaque livre récolté — sorcellerie, devins, ruqyah, mauvais œil et envie — avec chaque verset et récit cité."
@@ -5226,3 +5230,55 @@ heroes:
     generosity: { name: "Salle de la générosité", lede: "Une fortune entière au service du bien commun : caravanes d’Abd al-Rahman, puits d’Othman, richesse de Khadija et fondation de Fatima." }
     knowledge: { name: "Salle du savoir", lede: "Ils ont porté le savoir comme un dépôt et l’ont payé de leur vie : le fondateur de la théorie juridique, le ferme face à l’inquisition, le savant de Bassora et la langue de vérité." }
     steadfastness: { name: "Salle de la constance", lede: "Le monde tremblait, eux ne bougeaient pas : « Un, Un » sous le rocher, le plus long chemin vers la vérité, le jour où la communauté trembla et la parole sans peur." }
+juha:
+  title: "Navigateur de Juha et du folklore islamique"
+  full_title: "Navigateur de Juha, du folklore islamique à travers les âges, de la comédie, des blagues, des traits d’esprit et des anecdotes"
+  lede: "Tout ce que le musée conserve sur Juha et le folklore islamique à travers les âges, la comédie, les blagues, les traits d'esprit et les anecdotes : les versets du Coran sur le rire, le sourire et l'interdiction de la moquerie ; la plaisanterie et le rire du Prophète et les limites de la plaisanterie dans la Sunna ; l'enjouement des Compagnons et des Successeurs dans la sîra et les biographies ; les anecdotes de Juha une à une ; et les récits des beaux esprits, des sots, des avares et des pique-assiettes dans les livres d'adab et d'histoire."
+  badge: "Le cercle des anecdotes"
+  status: "Cette version contient {n} notices dans {s} sections ; les textes sont des brouillons que le lecteur peut vérifier dans les sources nommées sur chaque notice."
+  method_title: "La méthode du navigateur"
+  method_note: "Chaque notice est une notice ordinaire du musée, avec ses sources et son texte en cinq langues. Les passages sont repérés à la génération du site par un détecteur assorti de garde-fous qui lit le texte des passages : le nom de Juha comme mot entier, les beaux esprits nommés tels Ash'ab, Nu'ayman, Muzabbid et Habannaqa, les mots de l'anecdote et du trait d'esprit, les verbes de la plaisanterie et du badinage, les mots du rire et du sourire, et les textes sur l'éthique de la plaisanterie. Restent dehors le « cas rare » des juristes, le titre al-Nawadir wa-l-Ziyadat, « le clin d'œil », les noms al-Dahhak et Ibn Mughaffal et l'adverbe des grammairiens. Chaque livre dépouillé par la suite apporte automatiquement ses passages le jour où ils entrent dans le graphe, et les notices rédigées les rejoignent par l'étiquette juha-browser. Les anecdotes de Juha sont racontées dans les mots du musée d'après une numérisation lue par machine, et les traductions sont des traductions automatiques qu'aucun humain n'a relues."
+  api: "L'ensemble est disponible à"
+  sections_title: "Les sections du navigateur"
+  kinds_title: "Genre d'humour"
+  all_kinds: "Tous les genres"
+  filter_label: "Chercher dans les anecdotes"
+  filter_none: "Aucun résultat."
+  empty: "Aucune notice dans cette version pour le moment."
+  majlis_title: "Le cercle des beaux esprits"
+  majlis_note: "Les héros des anecdotes que les sources nomment : Juha d'abord, puis ceux qui l'accompagnent dans les livres d'adab et de hadith. Chaque siège ouvre sa notice complète et sourcée."
+  tales_title: "Parmi les anecdotes de Juha"
+  tales_note: "Des anecdotes des Nawadir Juha al-Kubra racontées dans les mots du musée ; chaque bulle ouvre la notice de l'anecdote avec son numéro de page et son extrait."
+  scale_title: "La balance du rire"
+  scale_note: "Quels genres d'humour porte chaque section : une barre est aussi longue que son nombre de notices et colorée par genre, d'après les mêmes lignes que les listes ci-dessous."
+  scale_caption: "Nombre de notices de chaque section par genre d'humour"
+  scale_total: "Total"
+  shelf_title: "L'étagère des livres d'anecdotes"
+  shelf_note: "Les livres qui ont réuni les anecdotes, les traits d'esprit et les récits des beaux esprits et des sots ; chacun a sa notice."
+  rider_alt: "Dessin : Juha monté à l’envers sur son âne"
+  kinds:
+    juha: "Juha"
+    wits: "Beaux esprits et sots"
+    anecdote: "Anecdote ou trait d'esprit"
+    jest: "Plaisanterie et badinage"
+    laughter: "Rire et sourire"
+    ethics: "Éthique de la plaisanterie"
+  sections:
+    curated:
+      title: "Les notices rédigées"
+      desc: "Les notices du musée sur le sujet lui-même : Juha, Nasreddin Hoca, Ash'ab et d'autres, les livres d'anecdotes, et les notions de plaisanterie, de rire et d'anecdote."
+    juha:
+      title: "Les anecdotes de Juha"
+      desc: "Les anecdotes de Juha une à une d'après les Nawadir Juha al-Kubra : le titre de l'anecdote, son récit dans les mots du musée, son numéro de page et un extrait d'au plus quarante mots."
+    quran:
+      title: "Dans le Coran"
+      desc: "Les versets du rire et du sourire : le rire de l'épouse d'Abraham, le sourire de Salomon aux paroles de la fourmi, « c'est Lui qui fait rire et pleurer », les visages riants et réjouis, le rire des moqueurs, et l'interdiction qu'un peuple se moque d'un autre."
+    sunnah:
+      title: "Dans la Sunna"
+      desc: "Ce que les deux Sahih, le Muwatta et les Sunan rapportent de la plaisanterie, du rire et du sourire du Prophète, de l'enjouement des Compagnons et de l'avertissement à qui ment pour faire rire — chaque récit avec son numéro et sa source."
+    seerah:
+      title: "Dans la sîra"
+      desc: "Ce que les livres de sîra et de shama'il rapportent de la plaisanterie, du rire et de l'enjouement ; cette section se remplit d'elle-même à mesure qu'arrivent de nouveaux textes."
+    books:
+      title: "Dans les autres livres"
+      desc: "Anecdotes, traits d'esprit et récits des beaux esprits, des sots et des avares dans les livres d'adab, d'histoire et de biographie : Nihayat al-Arab, 'Uyun al-Akhbar, al-Mustatraf, al-Bayan wa-l-Tabyin, al-Hayawan et tout ce qui sera dépouillé ensuite."

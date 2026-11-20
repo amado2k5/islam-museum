@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-308
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "152:308"
+label: { ar: "نوادر جحا الكبرى، ص 152 — «ما معنى أبجد؟»", en: "Nawadir Juha al-Kubra, p. 152 — 'What Does Abjad Mean?'", ur: "نوادر جحا الکبریٰ، ص 152 — «ابجد کا کیا مطلب ہے؟»", fr: "Nawadir Juha al-Kubra, p. 152 — « Que signifie Abjad ? »", es: "Nawadir Juha al-Kubra, p. 152 — «¿Qué significa Abjad?»" }
+text: "… ما معنى أبجد نزل الشيخ ضيفاً في إحدى القرى، عند بعض أهلها، فكان طعامُهُ يخنة الكوسا، كلِّ يوم، فعاف الشيخ تناول هذا الطعام، وصبر إلى أن جلس للوعظ، يوماً في المسجد، فقال: أيها الناس هل تعرفون معاني أبجد؟ فأنا أريد …"
+summary:
+  ar: "نزل جحا ضيفاً في قرية لم يُقدَّم له فيها إلا طبخ الكوسا، فوعظ وشرح حروف أبجد على أنها شكاوى من طبخ مضيفه، فاعتذر القرويون وقدموا له اللحم والدجاج. {cite:juha-nawadir-kubra-djuwaydi p. 152}"
+  en: "Juha, a guest in a village where he is served only courgette stew, preaches and explains the alphabet mnemonic abjad as complaints about his host's cooking; the villagers apologise and serve meat and chicken. {cite:juha-nawadir-kubra-djuwaydi p. 152}"
+  ur: "جحا ایک گاؤں میں مہمان ہوا جہاں اسے صرف توری کا سالن ملا، تو اس نے وعظ کیا اور ابجد کے حروف کی یہ تشریح کی کہ وہ اس کے میزبان کے کھانے کی شکایتیں ہیں، گاؤں والوں نے معذرت کی اور اسے گوشت اور مرغی پیش کی۔ {cite:juha-nawadir-kubra-djuwaydi p. 152}"
+  fr: "Juha, invité dans un village où on ne lui sert que du ragoût de courgettes, prêche et explique la formule mnémonique de l'alphabet abjad comme des plaintes sur la cuisine de son hôte ; les villageois s'excusent et lui servent de la viande et du poulet. {cite:juha-nawadir-kubra-djuwaydi p. 152}"
+  es: "Juha, huésped en una aldea donde solo le sirven guiso de calabacín, predica y explica la regla mnemotécnica del alfabeto abjad como quejas sobre la cocina de su anfitrión; los aldeanos se disculpan y le sirven carne y pollo. {cite:juha-nawadir-kubra-djuwaydi p. 152}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 152, anecdote 308; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

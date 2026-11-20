@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-174
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "78:174"
+label: { ar: "نوادر جحا الكبرى، ص 78 — «عودنا الحمار على الرياضة ولكن لم يساعده الأجل\")»", en: "Nawadir Juha al-Kubra, p. 78 — 'I Trained the Donkey to Exercise, but Death Did Not Help'", ur: "نوادر جحا الکبریٰ، ص 78 — «میں نے گدھے کو ورزش کی عادت ڈالی مگر موت نے ساتھ نہ دیا»", fr: "Nawadir Juha al-Kubra, p. 78 — « J'ai habitué l'âne à l'exercice, mais la mort ne l'a pas aidé »", es: "Nawadir Juha al-Kubra, p. 78 — «Acostumbré al burro al ejercicio, pero la muerte no lo ayudó»" }
+text: "… عودنا الحمار على الرياضة ولكن لم يساعده الأجل حصل له في شتاء إحدى السنين ضائقة، فقال في نفسه : عجباً ألا يمكنني أن أقلِّلَ علف الحمار؟"
+summary:
+  ar: "في شتاء قاسٍ كان جحا يقلّل علف حماره شيئًا فشيئًا؛ فبقي الحمار حيًا حتى قطع عنه التبن أيضًا فمات؛ فقال إنه عوّد الحمار على الصوم ولكن الأجل لم يساعده. {cite:juha-nawadir-kubra-djuwaydi p. 78}"
+  en: "In a hard winter Juha cuts his donkey's feed bit by bit; the donkey survives until he cuts the straw too, and then it dies; he says he trained the donkey to fast but death did not help. {cite:juha-nawadir-kubra-djuwaydi p. 78}"
+  ur: "سخت سردی میں جحا نے گدھے کا چارہ تھوڑا تھوڑا کر کے گھٹایا؛ گدھا زندہ رہا، یہاں تک کہ اس نے بھوسا بھی بند کر دیا تو وہ مر گیا؛ جحا نے کہا کہ میں نے گدھے کو روزے کی عادت ڈالی تھی مگر موت نے ساتھ نہ دیا۔ {cite:juha-nawadir-kubra-djuwaydi p. 78}"
+  fr: "Pendant un hiver rude, Juha réduit peu à peu la nourriture de son âne; l'âne survit jusqu'à ce qu'il supprime aussi la paille, puis il meurt; Juha dit qu'il avait habitué l'âne à jeûner mais que la mort ne l'a pas aidé. {cite:juha-nawadir-kubra-djuwaydi p. 78}"
+  es: "En un invierno duro, Juha recorta poco a poco el alimento de su burro; el burro sobrevive hasta que le quita también la paja, y entonces muere; Juha dice que acostumbró al burro a ayunar, pero que la muerte no lo ayudó. {cite:juha-nawadir-kubra-djuwaydi p. 78}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 78, anecdote 174; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

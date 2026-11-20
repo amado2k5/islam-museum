@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-365
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "180:365"
+label: { ar: "نوادر جحا الكبرى، ص 180 — «أين ملحي وبهاري؟\")»", en: "Nawadir Juha al-Kubra, p. 180 — 'Where Are My Salt and Spices?'", ur: "نوادر جحا الکبریٰ، ص 180 — «ہمارا نمک اور مصالحے کہاں ہیں؟»", fr: "Nawadir Juha al-Kubra, p. 180 — « Où sont mon sel et mes épices ? »", es: "Nawadir Juha al-Kubra, p. 180 — «¿Dónde están mi sal y mis especias?»" }
+text: "… أين ملحي وبهاري صاد كثيراً من السماني نوع من الطير، ونظفها جيّداً، وجعلها في قِذْرٍ"
+summary:
+  ar: "اصطاد جحا سمانى وتركها تُطبخ ثم ذهب ليدعو أصدقاءه، فأطلق صديق سمانى حية في القدر، فلما اجتمعوا رفع جحا الغطاء فطارت السمانى، فسأل أين ملحي وبهاراتي. {cite:juha-nawadir-kubra-djuwaydi p. 180}"
+  en: "Juha catches quails and leaves them to cook while he goes to call friends; a friend releases live quails into the pot; when all gather, Juha lifts the lid and the quails fly away; he asks where his salt and spices are. {cite:juha-nawadir-kubra-djuwaydi p. 180}"
+  ur: "جحا نے بٹیریں پکڑیں اور انہیں پکنے کے لیے چھوڑ کر دوستوں کو بلانے چلا گیا، ایک دوست نے ہانڈی میں زندہ بٹیریں چھوڑ دیں، جب سب جمع ہوئے تو جحا نے ڈھکن اٹھایا اور بٹیریں اڑ گئیں، تو اس نے پوچھا کہ اس کا نمک اور مصالحے کہاں ہیں۔ {cite:juha-nawadir-kubra-djuwaydi p. 180}"
+  fr: "Juha attrape des cailles et les laisse cuire pendant qu'il va appeler ses amis ; un ami lâche des cailles vivantes dans la marmite ; quand tous sont réunis, Juha soulève le couvercle et les cailles s'envolent ; il demande où sont son sel et ses épices. {cite:juha-nawadir-kubra-djuwaydi p. 180}"
+  es: "Juha atrapa codornices y las deja cocinándose mientras va a llamar a sus amigos; un amigo suelta codornices vivas en la olla; cuando todos se reúnen, Juha levanta la tapa y las codornices salen volando; pregunta dónde están su sal y sus especias. {cite:juha-nawadir-kubra-djuwaydi p. 180}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 180, anecdote 365; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

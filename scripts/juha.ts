@@ -16,8 +16,11 @@
 import type { Node } from "./build-graph.js";
 
 export const JUHA_TAG = "juha-browser";
-/** Page sections: the four passage corpora, then the curated records. */
-export const JUHA_SECTIONS = ["quran", "sunnah", "seerah", "books", "curated"] as const;
+/** Page sections: the curated records, Juha's own shelf, then the four passage corpora. */
+/** `juha` is the shelf of Juha's own anecdote books (Nawadir Juha al-Kubra and any later one in JUHA_WORKS). */
+export const JUHA_SECTIONS = ["curated", "juha", "quran", "sunnah", "seerah", "books"] as const;
+/** Works whose passages are Juha anecdotes: a newly harvested Juha collection is added here by one line. */
+export const JUHA_WORKS = new Set<string>(["work/nawadir-juha-al-kubra"]);
 export type JuhaSection = (typeof JUHA_SECTIONS)[number];
 export type JuhaCorpus = Exclude<JuhaSection, "curated">;
 /**
@@ -113,7 +116,10 @@ export function juhaSignalsOfText(raw: string): string[] {
 export function juhaSignalsOf(n: Node): string[] {
   if (n.class !== "passage" || n.stub || JUHA_EXCLUDE.has(n.id)) return [];
   const raw = rawTextOf(n);
-  return raw ? juhaSignalsOfText(raw) : [];
+  const hits = raw ? juhaSignalsOfText(raw) : [];
+  // An anecdote of a Juha collection is Juha's even where the excerpt does not spell his name.
+  if (JUHA_WORKS.has(String(n.data.work ?? "")) && !hits.includes("juha")) hits.unshift("juha");
+  return hits;
 }
 
 export function isJuhaPassage(n: Node): boolean {
@@ -138,6 +144,7 @@ export function juhaKindOf(n: Node): JuhaKind | null {
 /** Which corpus a passage belongs to, from its work: the frozen Qur'an, the hadith collections, the seerah books, every other harvested work. */
 export function juhaCorpusOf(workId: string | undefined, genre: string[] | undefined, unit: string | undefined): JuhaCorpus {
   if (workId === "work/quran") return "quran";
+  if (workId && JUHA_WORKS.has(workId)) return "juha";
   if (genre?.includes("sira")) return "seerah";
   if (genre?.includes("hadith") || unit === "hadith") return "sunnah";
   return "books";
