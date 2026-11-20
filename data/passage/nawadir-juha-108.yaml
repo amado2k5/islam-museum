@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-108
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "52:108"
+label: { ar: "نوادر جحا الكبرى، ص 52 — «مسافة تسعة أشهر بخمسة أيام»", en: "Nawadir Juha al-Kubra, p. 52 — 'Nine Months in Five Days'", ur: "نوادر جحا الکبریٰ، ص 52 — «نو مہینے پانچ دن میں»", fr: "Nawadir Juha al-Kubra, p. 52 — « Neuf mois en cinq jours »", es: "Nawadir Juha al-Kubra, p. 52 — «Nueve meses en cinco días»" }
+text: "… مسافة تسعة أشهر بخمسة أيام وُلِدَ له مولودٌ في اليوم الخامس مِنْ زواجهِ، ففي اليوم التالي أحضرَ جزءَ ألف باء وأدواتِ الكتابةِ، ووضعَ هذه الأشياء عند رأس الطفلِ جِذاء اللفافة. فقالوا : ما هذا ؟ فأجابهم : إِنّ مَنْ يقطعُ …"
+summary:
+  ar: "وُلد ابن جحا في اليوم الخامس من زواجه، فأتى الرضيع بالأبجدية وأدوات الكتابة وقال إن من يقطع تسعة أشهر في خمسة أيام سيذهب إلى المدرسة قريبًا. {cite:juha-nawadir-kubra-djuwaydi p. 52}"
+  en: "Juha's son is born on the fifth day of his marriage; Juha brings the alphabet and writing tools to the baby, saying that one who covers nine months in five days will go to school soon. {cite:juha-nawadir-kubra-djuwaydi p. 52}"
+  ur: "جحا کے شادی کے پانچویں دن اس کا بیٹا پیدا ہوا؛ جحا نے نومولود کے پاس حروف تہجی اور لکھنے کا سامان لا رکھا اور کہا کہ جو نو مہینے پانچ دن میں طے کر لے وہ جلد مدرسے جائے گا۔ {cite:juha-nawadir-kubra-djuwaydi p. 52}"
+  fr: "Le fils de Juha naît le cinquième jour de son mariage ; Juha apporte au bébé l'alphabet et du matériel d'écriture, disant que celui qui parcourt neuf mois en cinq jours ira bientôt à l'école. {cite:juha-nawadir-kubra-djuwaydi p. 52}"
+  es: "El hijo de Juha nace el quinto día de su matrimonio; Juha le lleva al bebé el alfabeto y útiles de escritura, diciendo que quien recorre nueve meses en cinco días irá pronto a la escuela. {cite:juha-nawadir-kubra-djuwaydi p. 52}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 52, anecdote 108; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

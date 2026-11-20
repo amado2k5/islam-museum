@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-p43
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "43"
+label: { ar: "نوادر جحا الكبرى، ص 43 — «نلت مرادي»", en: "Nawadir Juha al-Kubra, p. 43 — 'I Got My Wish'", ur: "نوادر جحا الکبریٰ، ص 43 — «مجھے اپنی مراد مل گئی»", fr: "Nawadir Juha al-Kubra, p. 43 — « J'ai obtenu ce que je voulais »", es: "Nawadir Juha al-Kubra, p. 43 — «Conseguí lo que quería»" }
+text: "… نِلْتُ مرادي كان عندَ جحا ثورٌ عظيمُ القرنينِ حتى كأنّهُما قوسانٍ، وبينما الثور راقدٌ تأمَّلَ فيه وتمنَّى لو يجلسُ ساعةً بين قرنيه، فتقدَّمَ متأنياً وقفزَ إلى رأس الثور فركبَهُ وأمسَكَ القرنين وذُعِرَ الثورُ فنهضَ قائماً وانتفضَ فسقط الشيخُ على الأرض …"
+summary:
+  ar: "جلس جحا بين قرني ثور، فاستوى الثور وألقاه فأغمي عليه، وظنته زوجته ميتًا، فأفاق وقال إنه نال مراده. {cite:juha-nawadir-kubra-djuwaydi p. 43}"
+  en: "Juha sits between the horns of a bull; the bull rears and throws him, and he faints; his wife thinks he is dead; he wakes saying 'I got my wish'. {cite:juha-nawadir-kubra-djuwaydi p. 43}"
+  ur: "جحا ایک بیل کے سینگوں کے بیچ بیٹھ گیا؛ بیل اچھلا اور اسے پھینک دیا تو وہ بے ہوش ہو گیا؛ بیوی نے اسے مردہ سمجھا؛ وہ ہوش میں آ کر بولا کہ مجھے اپنی مراد مل گئی۔ {cite:juha-nawadir-kubra-djuwaydi p. 43}"
+  fr: "Juha s'assied entre les cornes d'un taureau ; le taureau se cabre et le jette à terre, et il s'évanouit ; sa femme le croit mort ; il se réveille en disant : «j'ai obtenu ce que je voulais». {cite:juha-nawadir-kubra-djuwaydi p. 43}"
+  es: "Juha se sienta entre los cuernos de un toro; el toro se encabrita y lo arroja, y se desmaya; su mujer lo cree muerto; despierta diciendo: «conseguí lo que quería». {cite:juha-nawadir-kubra-djuwaydi p. 43}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 43; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

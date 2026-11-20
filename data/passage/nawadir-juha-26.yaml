@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-26
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "18:26"
+label: { ar: "نوادر جحا الكبرى، ص 18 — «إن فاتك البط فعليك بمرقه»", en: "Nawadir Juha al-Kubra, p. 18 — 'If You Miss the Ducks, Settle for the Broth'", ur: "نوادر جحا الکبریٰ، ص 18 — «بطخیں ہاتھ نہ آئیں تو شوربہ ہی سہی»", fr: "Nawadir Juha al-Kubra, p. 18 — « Si tu rates les canards, contente-toi de leur bouillon »", es: "Nawadir Juha al-Kubra, p. 18 — «Si se te escapan los patos, quédate con su caldo»" }
+text: "… إن فاتك البط فعليك بمرقه رأى يوماً سرباً من البط، قريباً من شاطىء بحيرة، فحاول أن يلتقط من هذه الطيور شيئاً، فلم يستطع، لأنها أسرعت بالفرار من أمامه. وكان معه قطعة خبز، فراح يغمسها بالماء، ويأكلها، فمرّ به أحدهم، وقال …"
+summary:
+  ar: "لم يستطع جحا اصطياد البط عند بحيرة، فغمس خبزًا في الماء وسماه مرق البط. {cite:juha-nawadir-kubra-djuwaydi p. 18}"
+  en: "Failing to catch ducks by a lake, Juha dips bread in the water and calls it duck broth. {cite:juha-nawadir-kubra-djuwaydi p. 18}"
+  ur: "جحا جھیل کے کنارے بطخیں نہ پکڑ سکا، تو اس نے روٹی پانی میں بھگوئی اور اسے بطخ کا شوربہ کہا۔ {cite:juha-nawadir-kubra-djuwaydi p. 18}"
+  fr: "Faute d'attraper des canards au bord d'un lac, Juha trempe du pain dans l'eau et l'appelle bouillon de canard. {cite:juha-nawadir-kubra-djuwaydi p. 18}"
+  es: "Al no lograr atrapar patos junto a un lago, Juha moja pan en el agua y lo llama caldo de pato. {cite:juha-nawadir-kubra-djuwaydi p. 18}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 18, anecdote 26; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

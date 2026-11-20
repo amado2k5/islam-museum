@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-28
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "18:28"
+label: { ar: "نوادر جحا الكبرى، ص 18 — «ظننت أنك أنا»", en: "Nawadir Juha al-Kubra, p. 18 — 'I Thought You Were Me'", ur: "نوادر جحا الکبریٰ، ص 18 — «میں نے سمجھا تم میں ہو»", fr: "Nawadir Juha al-Kubra, p. 18 — « Je croyais que tu étais moi »", es: "Nawadir Juha al-Kubra, p. 18 — «Pensé que eras yo»" }
+text: "… ظننت أنك أنا اجتمع يوماً بشخص، لم تسبق له به معرفة، فأخذ يُحادِثُهُ جحا، كأنهما صديقان قديمان. ولما همَّ الرجل بالانصراف سأله جحا : عفواً يا سيِّدي إني لم أعرف حضرتك، فمن أنت؟ قال الرجل: وكيف تُحدِّثُني بدون تكلَّفٍ كأنَّ …"
+summary:
+  ar: "خاطب جحا غريبًا كأنه صديق قديم لأن عمامته وقفطانه بدوَا له مثل عمامته وقفطانه. {cite:juha-nawadir-kubra-djuwaydi p. 18}"
+  en: "Juha talks to a stranger as if to an old friend, because the stranger's turban and kaftan look like his own. {cite:juha-nawadir-kubra-djuwaydi p. 18}"
+  ur: "جحا نے ایک اجنبی سے یوں بات کی جیسے وہ پرانا دوست ہو، کیونکہ اجنبی کی پگڑی اور قبا اسے اپنی پگڑی اور قبا جیسی لگی۔ {cite:juha-nawadir-kubra-djuwaydi p. 18}"
+  fr: "Juha s'adresse à un inconnu comme à un vieil ami parce que le turban et le caftan de l'inconnu ressemblent aux siens. {cite:juha-nawadir-kubra-djuwaydi p. 18}"
+  es: "Juha habla con un desconocido como con un viejo amigo porque el turbante y el caftán del desconocido se parecen a los suyos. {cite:juha-nawadir-kubra-djuwaydi p. 18}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 18, anecdote 28; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

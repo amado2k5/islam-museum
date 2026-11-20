@@ -1,0 +1,18 @@
+id: passage/muslim-api-4894
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4894"
+label: { ar: "صحيح مسلم 4894 — ضحك وتبسم", en: "Sahih Muslim 4894 — laughter and smiling", ur: "صحیح مسلم 4894 — ہنسی اور تبسم", fr: "Sahih Muslim 4894 — rire et sourire", es: "Sahih Muslim 4894 — risa y sonrisa" }
+text: "… مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، قَالَ هَذَا مَا حَدَّثَنَا أَبُو هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ فَذَكَرَ أَحَادِيثَ مِنْهَا وَقَالَ رَسُولُ اللَّهِ يَضْحَكُ اللَّهُ لِرَجُلَيْنِ يَقْتُلُ أَحَدُهُمَا الآخَرَ كِلاَهُمَا يَدْخُلُ الْجَنَّةَ قَالُوا كَيْفَ يَا رَسُولَ اللَّهِ قَالَ يُقْتَلُ هَذَا فَيَلِجُ الْجَنَّةَ ثُمَّ يَتُوبُ اللَّهُ عَلَى الآخَرِ فَيَهْدِيهِ إِلَى الإِسْلاَمِ ثُمَّ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4894، فيه ضحك وتبسم. يجمعه متصفح جحا والفلكلور الإسلامي مع نصوص القرآن والسنة والسيرة والكتب في الضحك والمزاح والنوادر."
+  en: "A report in Sahih Muslim, no. 4894, with laughter and smiling. The Juha and Islamic Folklore Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on laughter, jesting and anecdotes."
+  ur: "صحیح مسلم کی حدیث نمبر 4894، جس میں ہنسی اور تبسم ہے۔ جحا اور اسلامی لوک ادب کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  fr: "Un récit de Sahih Muslim, n° 4894, avec rire et sourire. Le Navigateur de Juha et du folklore islamique le recense avec les textes du Coran, de la Sunna, de la sîra et des livres sur le rire, la plaisanterie et les anecdotes."
+  es: "Un relato de Sahih Muslim, n.º 4894, con risa y sonrisa. El Navegador de Juha y del folclore islámico lo recoge junto a los textos del Corán, la Sunna, la sira y los libros sobre la risa, la broma y las anécdotas."
+relations:
+  - { type: mentions, target: concept/al-dahik, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4894 (book 33 hadith 190); matn excerpt of at most 55 words chosen by the Juha browser's detector (scripts/juha.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

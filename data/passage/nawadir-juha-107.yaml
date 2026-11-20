@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-107
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "52:107"
+label: { ar: "نوادر جحا الكبرى، ص 52 — «العين كالضرس»", en: "Nawadir Juha al-Kubra, p. 52 — 'The Eye Is Like the Tooth'", ur: "نوادر جحا الکبریٰ، ص 52 — «آنکھ داڑھ کی طرح ہے»", fr: "Nawadir Juha al-Kubra, p. 52 — « L'œil est comme la dent »", es: "Nawadir Juha al-Kubra, p. 52 — «El ojo es como la muela»" }
+text: "… العين كالضرس سألُوهُ يوماً عَنْ دواءٍ للعين المريضة فقال: أمس وجعني ضرسي فلم أجد وسيلةً إلا بقلعِهِ. مسافة تسعة أشهر بخمسة أيام وُلِدَ له مولودٌ في اليوم الخامس مِنْ زواجهِ، ففي اليوم التالي أحضرَ جزءَ ألف باء وأدواتِ الكتابةِ، ووضعَ …"
+summary:
+  ar: "سُئل جحا عن علاج لوجع العيون فقال إنه أصيب بوجع في ضرسه ولم يرتح إلا بعد قلعه. {cite:juha-nawadir-kubra-djuwaydi p. 52}"
+  en: "Asked for a remedy for sore eyes, Juha says he had a toothache and only got relief by pulling the tooth. {cite:juha-nawadir-kubra-djuwaydi p. 52}"
+  ur: "جحا سے آنکھوں کے درد کا علاج پوچھا گیا تو اس نے کہا کہ مجھے داڑھ میں درد ہوا تھا اور اسے نکلوانے کے بعد ہی آرام ملا۔ {cite:juha-nawadir-kubra-djuwaydi p. 52}"
+  fr: "Interrogé sur un remède contre les yeux douloureux, Juha dit qu'il a eu mal à une dent et n'a trouvé de soulagement qu'en l'arrachant. {cite:juha-nawadir-kubra-djuwaydi p. 52}"
+  es: "Al preguntarle por un remedio para los ojos doloridos, Juha dice que tuvo dolor de muelas y solo se alivió al arrancarse el diente. {cite:juha-nawadir-kubra-djuwaydi p. 52}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 52, anecdote 107; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

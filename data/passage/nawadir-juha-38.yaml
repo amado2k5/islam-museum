@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-38
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "23:38"
+label: { ar: "نوادر جحا الكبرى، ص 23 — «ماذا يعنيك أنت؟»", en: "Nawadir Juha al-Kubra, p. 23 — 'What Is It to You?'", ur: "نوادر جحا الکبریٰ، ص 23 — «تمہیں اس سے کیا؟»", fr: "Nawadir Juha al-Kubra, p. 23 — « En quoi cela te regarde-t-il ? »", es: "Nawadir Juha al-Kubra, p. 23 — «¿Y a ti qué te importa?»" }
+text: "… ماذا يعنيك أنت؟ أتاهُ رجل في السوق، وقال له: أبشّرُك بمولود ذكر. قال: إذا وُلِدَ لي مولودٌ ذكر، فإني أحمدُ اللّه، ولكنْ ماذا يعنيك أنت؟ لم يرضَ الحمار جاءَهُ رجلٌ يطلُبُ إليهِ إعارتَهُ حمارَهُ فقال : إنِّي ذاهب لِلْحمارِ أستشيرُه …"
+summary:
+  ar: "قيل لجحا إنه وُلد له ابن، فحمد الله ثم سأل الرجل ماذا يعنيه هو من الأمر. {cite:juha-nawadir-kubra-djuwaydi p. 23}"
+  en: "Told that a son has been born to him, Juha thanks God but asks the other man what business it is of his. {cite:juha-nawadir-kubra-djuwaydi p. 23}"
+  ur: "جحا کو بتایا گیا کہ اس کے ہاں بیٹا پیدا ہوا ہے، تو اس نے اللہ کا شکر ادا کیا مگر اس دوسرے آدمی سے پوچھا کہ اس میں تمہارا کیا لینا دینا ہے۔ {cite:juha-nawadir-kubra-djuwaydi p. 23}"
+  fr: "Quand on lui annonce qu'un fils lui est né, Juha remercie Dieu mais demande à l'autre homme en quoi cela le regarde. {cite:juha-nawadir-kubra-djuwaydi p. 23}"
+  es: "Al decirle que le ha nacido un hijo, Juha da gracias a Dios pero le pregunta al otro hombre qué le importa a él. {cite:juha-nawadir-kubra-djuwaydi p. 23}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 23, anecdote 38; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

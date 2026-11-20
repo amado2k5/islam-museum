@@ -1,0 +1,18 @@
+id: passage/muslim-api-3691
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "3691"
+label: { ar: "صحيح مسلم 3691 — ضحك وتبسم", en: "Sahih Muslim 3691 — laughter and smiling", ur: "صحیح مسلم 3691 — ہنسی اور تبسم", fr: "Sahih Muslim 3691 — rire et sourire", es: "Sahih Muslim 3691 — risa y sonrisa" }
+text: "… يَنْكُتُونَ بِالْحَصَى يَقُولُونَ طَلَّقَ رَسُولُ اللَّهِ نِسَاءَهُ أَفَأَنْزِلُ فَأُخْبِرَهُمْ أَنَّكَ لَمْ تُطَلِّقْهُنَّ قَالَ نَعَمْ إِنْ شِئْتَ . فَلَمْ أَزَلْ أُحَدِّثُهُ حَتَّى تَحَسَّرَ الْغَضَبُ عَنْ وَجْهِهِ وَحَتَّى كَشَرَ فَضَحِكَ وَكَانَ مِنْ أَحْسَنِ النَّاسِ ثَغْرًا ثُمَّ نَزَلَ نَبِيُّ اللَّهِ وَنَزَلْتُ فَنَزَلْتُ أَتَشَبَّثُ بِالْجِذْعِ وَنَزَلَ رَسُولُ اللَّهِ كَأَنَّمَا يَمْشِي عَلَى الأَرْضِ مَا يَمَسُّهُ بِيَدِهِ فَقُلْتُ يَا رَسُولَ اللَّهِ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 3691، فيه ضحك وتبسم. يجمعه متصفح جحا والفلكلور الإسلامي مع نصوص القرآن والسنة والسيرة والكتب في الضحك والمزاح والنوادر."
+  en: "A report in Sahih Muslim, no. 3691, with laughter and smiling. The Juha and Islamic Folklore Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on laughter, jesting and anecdotes."
+  ur: "صحیح مسلم کی حدیث نمبر 3691، جس میں ہنسی اور تبسم ہے۔ جحا اور اسلامی لوک ادب کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  fr: "Un récit de Sahih Muslim, n° 3691, avec rire et sourire. Le Navigateur de Juha et du folklore islamique le recense avec les textes du Coran, de la Sunna, de la sîra et des livres sur le rire, la plaisanterie et les anecdotes."
+  es: "Un relato de Sahih Muslim, n.º 3691, con risa y sonrisa. El Navegador de Juha y del folclore islámico lo recoge junto a los textos del Corán, la Sunna, la sira y los libros sobre la risa, la broma y las anécdotas."
+relations:
+  - { type: mentions, target: concept/al-dahik, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3691 (book 18 hadith 40); matn excerpt of at most 55 words chosen by the Juha browser's detector (scripts/juha.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

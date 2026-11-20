@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-102
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "50:102"
+label: { ar: "نوادر جحا الكبرى، ص 50 — «لا تتكبر فالماء هو هذا»", en: "Nawadir Juha al-Kubra, p. 50 — 'Do Not Be Proud, for the Water Is This'", ur: "نوادر جحا الکبریٰ، ص 50 — «غرور نہ کر، پانی یہ ہے»", fr: "Nawadir Juha al-Kubra, p. 50 — « Ne sois pas orgueilleuse, l'eau, c'est ceci »", es: "Nawadir Juha al-Kubra, p. 50 — «No te enorgullezcas, el agua es esto»" }
+text: "… لا تتكبر فالماء هو هذا غطسَ في البحر لأخذِ جرعةٍ منه لِتسكين عطشِهِ فالتَهبَتْ مَعِدتُهُ مِنَ الملوحة واختلطتْ واختبطَتْ، فتقدَّم قليلاً، فوجدَ ماءًا عَذباً فأخذ يشرب منه حتى ارتوى، ثم أخذ وعاءًا وملأه ماءًا وأخذَهُ إلى البحر وصَبَّهُ فيه قائلاً …"
+summary:
+  ar: "شرب جحا من ماء البحر فمرض من الملح، ثم وجد ماءً عذبًا فملأ جرة وسكبها في البحر وقال له ألا يتكبر لأن الماء هو هذا. {cite:juha-nawadir-kubra-djuwaydi p. 50}"
+  en: "Juha drinks sea water, gets sick from the salt, finds fresh water, fills a jug and pours it into the sea, telling it not to be proud, since the water is this. {cite:juha-nawadir-kubra-djuwaydi p. 50}"
+  ur: "جحا نے سمندر کا پانی پیا اور نمک سے بیمار ہو گیا، پھر میٹھا پانی ملا تو ایک گھڑا بھر کر سمندر میں انڈیل دیا اور اس سے کہا کہ غرور نہ کر، پانی تو یہ ہے۔ {cite:juha-nawadir-kubra-djuwaydi p. 50}"
+  fr: "Juha boit de l'eau de mer et tombe malade à cause du sel ; il trouve de l'eau douce, remplit une cruche et la verse dans la mer en lui disant de ne pas être fière, car l'eau, c'est ceci. {cite:juha-nawadir-kubra-djuwaydi p. 50}"
+  es: "Juha bebe agua de mar y se enferma por la sal; encuentra agua dulce, llena un cántaro y lo vierte en el mar, diciéndole que no se enorgullezca, pues el agua es esto. {cite:juha-nawadir-kubra-djuwaydi p. 50}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 50, anecdote 102; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }
