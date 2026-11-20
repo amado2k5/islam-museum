@@ -3,13 +3,16 @@
 // the honest handling of untranslated curriculum text, and the self-check, all derived from the `course` records in the graph.
 // Nothing here is authored content: every string a student reads comes from a record, a prose file or i18n/<lang>.yaml.
 import { nodes, byId, href, labelOf, summaryOf } from "./graph";
-import { ui, type Lang } from "./i18n";
+import { ui, LANGS, type Lang } from "./i18n";
 import { renderProse, newHonState } from "./markdown";
 import type { Node } from "../../../scripts/build-graph";
 
-/** The languages the courses surface is built in: all three of the site's (Urdu joined on the user's instruction of 12 November 2026). */
-export const COURSE_LANGS = ["ar", "en", "ur"] as const;
-export type CourseLang = (typeof COURSE_LANGS)[number];
+/** The languages the courses surface is built in: every language of the build (Urdu joined on the user's instruction of
+ *  12 November 2026; French and Spanish on 20 November 2026, when their course prose and interface strings were complete
+ *  and the three-language list left the French and Spanish course index, and every language switch, pointing at pages
+ *  that were never built). It follows LANGS, so a one-language build writes only that language's course pages. */
+export const COURSE_LANGS: readonly Lang[] = LANGS;
+export type CourseLang = Lang;
 export const isCourseLang = (l: string): l is CourseLang => (COURSE_LANGS as readonly string[]).includes(l);
 
 const all: Node[] = nodes.filter((n) => n.class === "course" && !n.stub);
