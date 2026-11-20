@@ -6,7 +6,7 @@ import type { Node } from "../../../scripts/build-graph";
 
 export const MAAJIM_TAG = "maajim-browser";
 /** Section order of the browser; a `maajim-<id>` tag not listed here sorts last. */
-export const MAAJIM_SECTIONS = ["general", "thematic", "quran", "hadith", "fiqh", "philology", "loanwords", "proverbs", "terminology", "geographic", "modern"];
+export const MAAJIM_SECTIONS = ["general", "thematic", "quran", "hadith", "fiqh", "philology", "loanwords", "proverbs", "terminology", "geographic", "modern", "historical"];
 /** The source records of the readable-text pilot (Bulaq 1282/1865 printing of al-Sihah, Internet Archive scans). */
 export const MAAJIM_PILOT_SOURCES = ["source/sihah-bulaq-1865-v1", "source/sihah-bulaq-1865-v2"];
 
