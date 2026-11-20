@@ -1,12 +1,13 @@
 id: event/conquest-of-aleppo
 class: event
 kind: battle
-label: { ar: "فتح حلب", en: "Conquest of Aleppo (15 AH)" }
+label: { ar: "فتح حلب", en: "Conquest of Aleppo (15 AH)", es: "Conquista de Alepo (15 AH)" }
 date:
   start: { edtf: "0636", hijri: "0015", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 15؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 323}." }
 summary:
   ar: "فتح حلب: سار أبو عبيدة من قنسرين إلى حلب وقد صالح أهل قنسرين نقضوا فبعث السمط الكندي فحصرهم وفتحها وأصاب بقرًا وغنمًا، وصالح أعراب حاضر حلب على الجزية فأسلموا بعد ذلك. وأتى حلب وعلى مقدمته عياض بن غنم الفهري فتحصن أهلها فحصرهم المسلمون، فلم يلبثوا أن طلبوا الصلح والأمان على أنفسهم وأولادهم ومدينتهم وكنائسهم وحصنهم فأعطوا ذلك واستُني عليهم موضع المسجد، وصالحهم عياض فأجازه أبو عبيدة؛ وقيل صولحوا على أن يُقاسموا منازلهم وكنائسهم، وقيل إن أهلها كانوا انتقلوا إلى أنطاكية فراسلوا في الصلح فلما تم رجعوا {cite:kamil-ibn-al-athir p. 323}."
   en: "Aleppo: Abu 'Ubayda sent 'Iyad ibn Ghanim ahead; the Aleppans held their fortress briefly, then asked for peace and aman over themselves, their children, city, churches and citadel — granted, with a site for the mosque stipulated; one tradition has them sharing houses and churches, another that they had decamped to Antioch and negotiated their return by treaty {cite:kamil-ibn-al-athir p. 323}."
+  es: "Alepo: Abu 'Ubayda envió a 'Iyad ibn Ghanim por delante; los habitantes de Alepo mantuvieron su fortaleza brevemente, luego pidieron paz y amnistía sobre sí mismos, sus hijos, la ciudad, las iglesias y la ciudadela; se les concedió, estipulándose un sitio para la mezquita; una tradición dice que compartieron casas e iglesias, otra que se habían trasladado a Antioquía y negociaron su regreso mediante un tratado {cite:kamil-ibn-al-athir p. 323}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/kamil-ibn-al-athir] }

@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "2222"
-label: { ar: "سنن النسائي 2222 — القراء", en: "Sunan al-Nasa'i 2222 — the readers", ur: "سنن نسائی 2222 — قراء" }
+label: { ar: "سنن النسائي 2222 — القراء", en: "Sunan al-Nasa'i 2222 — the readers", ur: "سنن نسائی 2222 — قراء", es: "Sunan al-Nasa'i 2222 — los lectores" }
 text: "أَخْبَرَنِي عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ الضَّعِيفُ، - شَيْخٌ صَالِحٌ وَالضَّعِيفُ لَقَبٌ لِكَثْرَةِ عِبَادَتِهِ - قَالَ أَخْبَرَنَا يَعْقُوبُ الْحَضْرَمِيُّ قَالَ حَدَّثَنَا شُعْبَةُ عَنْ مُحَمَّدِ بْنِ عَبْدِ اللَّهِ بْنِ أَبِي يَعْقُوبَ عَنْ أَبِي نَصْرٍ عَنْ رَجَاءِ بْنِ حَيْوَةَ عَنْ أَبِي أُمَامَةَ أَنَّهُ سَأَلَ رَسُولَ اللَّهِ أَىُّ الْعَمَلِ أَفْضَلُ قَالَ \" عَلَيْكَ بِالصَّوْمِ فَإِنَّهُ لاَ عِدْلَ لَهُ \"."
 summary:
   ar: "حديث في سنن النسائي، رقم 2222، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
   en: "A report in Sunan al-Nasa'i, no. 2222 (The Book of Fasting), that mentions the readers. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
   ur: "سنن نسائی کی حدیث نمبر 2222، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sunan al-Nasa'i, n.º 2222 (El Libro del Ayuno), menciona a los lectores. El explorador del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2222 (book 22 hadith 133); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

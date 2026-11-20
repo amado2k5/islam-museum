@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "1403"
-label: { ar: "سنن النسائي 1403 — القراء", en: "Sunan al-Nasa'i 1403 — the readers", ur: "سنن نسائی 1403 — قراء" }
+label: { ar: "سنن النسائي 1403 — القراء", en: "Sunan al-Nasa'i 1403 — the readers", ur: "سنن نسائی 1403 — قراء", es: "Sunan al-Nasa'i 1403 — los lectores" }
 text: "… عَنْ مَنْصُورٍ، عَنْ أَبِي مَعْشَرٍ، زِيَادِ بْنِ كُلَيْبٍ عَنْ إِبْرَاهِيمَ، عَنْ عَلْقَمَةَ، عَنِ الْقَرْثَعِ الضَّبِّيِّ، - وَكَانَ مِنَ الْقُرَّاءِ الأَوَّلِينَ - عَنْ سَلْمَانَ، قَالَ قَالَ لِي رَسُولُ اللَّهِ \" مَا مِنْ رَجُلٍ يَتَطَهَّرُ يَوْمَ الْجُمُعَةِ كَمَا أُمِرَ ثُمَّ يَخْرُجُ مِنْ بَيْتِهِ حَتَّى يَأْتِيَ الْجُمُعَةَ وَيُنْصِتُ حَتَّى يَقْضِيَ صَلاَتَهُ إِلاَّ كَانَ كَفَّارَةً لِمَا قَبْلَهُ مِنَ الْجُمُعَةِ …"
 summary:
   ar: "حديث في سنن النسائي، رقم 1403، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
   en: "A report in Sunan al-Nasa'i, no. 1403 (The Book of Jumu'ah (Friday Prayer)), that mentions the readers. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
   ur: "سنن نسائی کی حدیث نمبر 1403، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sunan al-Nasa'i, n.º 1403 (El Libro de la Jumu'ah (Oración del viernes)), menciona a los lectores. El explorador del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1403 (book 14 hadith 40); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

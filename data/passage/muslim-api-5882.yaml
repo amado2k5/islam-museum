@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "5882"
-label: { ar: "صحيح مسلم 5882 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih Muslim 5882 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح مسلم 5882 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+label: { ar: "صحيح مسلم 5882 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih Muslim 5882 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح مسلم 5882 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih Muslim 5882 — Menciones de naciones, religiones y pueblos no musulmanes" }
 text: "حَدَّثَنَا عَمْرٌو النَّاقِدُ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، عَنْ شُعْبَةَ، عَنْ خُلَيْدِ بْنِ جَعْفَرٍ، وَالْمُسْتَمِرِّ، قَالاَ سَمِعْنَا أَبَا نَضْرَةَ، يُحَدِّثُ عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، أَنَّ رَسُولَ اللَّهِ ذَكَرَ امْرَأَةً مِنْ بَنِي إِسْرَائِيلَ حَشَتْ خَاتَمَهَا مِسْكًا وَالْمِسْكُ أَطْيَبُ الطِّيبِ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 5882، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 5882 (The Book Concerning the Use of Correct Words), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "صحیح مسلم کی حدیث نمبر 5882، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe del Sahih Muslim, n.º 5882 (El Libro sobre el Uso de las Palabras Correctas), menciona naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
 relations:
   - { type: mentions, target: group/banu-israil, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5882 (book 40 hadith 21); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

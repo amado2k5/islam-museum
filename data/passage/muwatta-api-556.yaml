@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "556"
-label: { ar: "موطأ مالك 556 — دفن وقبر ومرقد", en: "Muwatta Malik 556 — a burial, grave or resting place", ur: "موطأ مالک 556 — تدفین، قبر اور مرقد" }
+label: { ar: "موطأ مالك 556 — دفن وقبر ومرقد", en: "Muwatta Malik 556 — a burial, grave or resting place", ur: "موطأ مالک 556 — تدفین، قبر اور مرقد", es: "Muwatta Malik 556 — un lugar de entierro, tumba o descanso." }
 text: "… الرَّحْمَنِ، أَنَّهَا أَخْبَرَتْهُ أَنَّهَا، سَمِعَتْ عَائِشَةَ أُمَّ الْمُؤْمِنِينَ، تَقُولُ وَذُكِرَ لَهَا أَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ يَقُولُ إِنَّ الْمَيِّتَ لَيُعَذَّبُ بِبُكَاءِ الْحَىِّ. فَقَالَتْ عَائِشَةُ يَغْفِرُ اللَّهُ لأَبِي عَبْدِ الرَّحْمَنِ أَمَا إِنَّهُ لَمْ يَكْذِبْ وَلَكِنَّهُ نَسِيَ أَوْ أَخْطَأَ إِنَّمَا مَرَّ رَسُولُ اللَّهِ بِيَهُودِيَّةٍ يَبْكِي عَلَيْهَا أَهْلُهَا فَقَالَ \" إِنَّكُمْ لَتَبْكُونَ عَلَيْهَا وَإِنَّهَا لَتُعَذَّبُ فِي قَبْرِهَا \"."
 summary:
   ar: "حديث في موطأ مالك، رقم 556، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Muwatta Malik, no. 556 (Burials), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "موطأ مالک کی حدیث نمبر 556، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "En el Muwatta Malik, n.º 556 (Sepulturas), se menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, propiedades, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 556 (book 16 hadith 37); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

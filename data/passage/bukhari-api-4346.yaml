@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "4346"
-label: { ar: "صحيح البخاري 4346 — وصية أو عهد أخير", en: "Sahih al-Bukhari 4346 — a testament or parting counsel", ur: "صحیح بخاری 4346 — وصیت یا آخری نصیحت" }
+label: { ar: "صحيح البخاري 4346 — وصية أو عهد أخير", en: "Sahih al-Bukhari 4346 — a testament or parting counsel", ur: "صحیح بخاری 4346 — وصیت یا آخری نصیحت", es: "Sahih al-Bukhari 4346 — un testamento o consejo de despedida" }
 text: "… عَبْدَ اللَّهِ بْنَ قَيْسٍ \". قُلْتُ نَعَمْ يَا رَسُولَ اللَّهِ. قَالَ \" كَيْفَ قُلْتَ \". قَالَ قُلْتُ لَبَّيْكَ إِهْلاَلاً كَإِهْلاَلِكَ. قَالَ \" فَهَلْ سُقْتَ مَعَكَ هَدْيًا \". قُلْتُ لَمْ أَسُقْ. قَالَ \" فَطُفْ بِالْبَيْتِ وَاسْعَ بَيْنَ الصَّفَا وَالْمَرْوَةِ ثُمَّ حِلَّ \". فَفَعَلْتُ حَتَّى مَشَطَتْ لِي امْرَأَةٌ مِنْ نِسَاءِ بَنِي قَيْسٍ، وَمَكُثْنَا بِذَلِكَ حَتَّى اسْتُخْلِفَ عُمَرُ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 4346، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 4346 (Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح بخاری کی حدیث نمبر 4346، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih al-Bukhari, n.° 4346 (Expediciones militares dirigidas por el Profeta (Al-Maghaazi)), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4346 (book 64 hadith 373); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

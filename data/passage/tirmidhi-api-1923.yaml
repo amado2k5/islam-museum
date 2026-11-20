@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1923"
-label: { ar: "جامع الترمذي 1923 — الأب والأبوة", en: "Jami' al-Tirmidhi 1923 — the father and fatherhood", ur: "جامع ترمذی 1923 — باپ اور والدیت" }
+label: { ar: "جامع الترمذي 1923 — الأب والأبوة", en: "Jami' al-Tirmidhi 1923 — the father and fatherhood", ur: "جامع ترمذی 1923 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1923 — El padre y la paternidad" }
 text: "… \" لاَ تُنْزَعُ الرَّحْمَةُ إِلاَّ مِنْ شَقِيٍّ \". قَالَ وَأَبُو عُثْمَانَ الَّذِي رَوَى عَنْ أَبِي هُرَيْرَةَ لاَ يُعْرَفُ اسْمُهُ وَيُقَالُ هُوَ وَالِدُ مُوسَى بْنِ أَبِي عُثْمَانَ الَّذِي رَوَى عَنْهُ أَبُو الزِّنَادِ وَقَدْ رَوَى أَبُو الزِّنَادِ عَنْ مُوسَى بْنِ أَبِي عُثْمَانَ عَنْ أَبِيهِ عَنْ أَبِي هُرَيْرَةَ عَنِ النَّبِيِّ غَيْرَ حَدِيثٍ. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 1923، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Jami' al-Tirmidhi, no. 1923 (Chapters on Righteousness And Maintaining Good Relations With Relatives), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "جامع ترمذی کی حدیث نمبر 1923، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe de Jami' al-Tirmidhi, n.º 1923 (Capítulos sobre la rectitud y el mantenimiento de buenas relaciones con los familiares), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1923 (book 27 hadith 29); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

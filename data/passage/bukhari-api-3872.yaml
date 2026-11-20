@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "3872"
-label: { ar: "صحيح البخاري 3872 — وصية أو عهد أخير", en: "Sahih al-Bukhari 3872 — a testament or parting counsel", ur: "صحیح بخاری 3872 — وصیت یا آخری نصیحت" }
+label: { ar: "صحيح البخاري 3872 — وصية أو عهد أخير", en: "Sahih al-Bukhari 3872 — a testament or parting counsel", ur: "صحیح بخاری 3872 — وصیت یا آخری نصیحت", es: "Sahih al-Bukhari 3872 — un testamento o consejo de despedida" }
 text: "… مَا عَصَيْتُهُ وَلاَ غَشَشْتُهُ حَتَّى تَوَفَّاهُ اللَّهُ، ثُمَّ اسْتَخْلَفَ اللَّهُ أَبَا بَكْرٍ فَوَاللَّهِ مَا عَصَيْتُهُ وَلاَ غَشَشْتُهُ، ثُمَّ اسْتُخْلِفَ عُمَرُ، فَوَاللَّهِ مَا عَصَيْتُهُ وَلاَ غَشَشْتُهُ، ثُمَّ اسْتُخْلِفْتُ، أَفَلَيْسَ لِي عَلَيْكُمْ مِثْلُ الَّذِي كَانَ لَهُمْ عَلَىَّ قَالَ بَلَى. قَالَ فَمَا هَذِهِ الأَحَادِيثُ الَّتِي تَبْلُغُنِي عَنْكُمْ فَأَمَّا مَا ذَكَرْتَ مِنْ شَأْنِ الْوَلِيدِ بْنِ عُقْبَةَ، فَسَنَأْخُذُ فِيهِ إِنْ …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 3872، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 3872 (Merits of the Helpers in Madinah (Ansaar)), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح بخاری کی حدیث نمبر 3872، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih al-Bukhari, n.° 3872 (Méritos de los Ayudantes en Medina (Ansar)), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3872 (book 63 hadith 97); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

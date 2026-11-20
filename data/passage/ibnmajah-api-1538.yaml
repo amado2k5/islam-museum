@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "1538"
-label: { ar: "سنن ابن ماجه 1538 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Ibn Majah 1538 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابن ماجہ 1538 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+label: { ar: "سنن ابن ماجه 1538 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Ibn Majah 1538 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابن ماجہ 1538 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sunan Ibn Majah 1538 — menciones de naciones, religiones y pueblos no musulmanes" }
 text: "حَدَّثَنَا سَهْلُ بْنُ أَبِي سَهْلٍ، حَدَّثَنَا مَكِّيُّ بْنُ إِبْرَاهِيمَ أَبُو السَّكَنِ، عَنْ مَالِكٍ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ النَّبِيَّ ـ صَلَّى عَلَى النَّجَاشِيِّ فَكَبَّرَ أَرْبَعًا."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 1538، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sunan Ibn Majah, no. 1538 (Chapters Regarding Funerals), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "سنن ابن ماجہ کی حدیث نمبر 1538، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato del Sunan Ibn Majah, n.º 1538 (Capítulos sobre los funerales), con menciones a naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
 relations:
   - { type: mentions, target: person/al-najashi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1538 (book 6 hadith 106); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

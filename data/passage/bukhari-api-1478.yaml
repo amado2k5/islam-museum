@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "1478"
-label: { ar: "صحيح البخاري 1478 — ما خلّفه من تركة وميراث", en: "Sahih al-Bukhari 1478 — what was left behind: estate and inheritance", ur: "صحیح بخاری 1478 — ترکہ اور میراث" }
+label: { ar: "صحيح البخاري 1478 — ما خلّفه من تركة وميراث", en: "Sahih al-Bukhari 1478 — what was left behind: estate and inheritance", ur: "صحیح بخاری 1478 — ترکہ اور میراث", es: "Sahih al-Bukhari 1478 — Lo que quedó: patrimonio y herencia" }
 text: "… ابْنِ شِهَابٍ، قَالَ أَخْبَرَنِي عَامِرُ بْنُ سَعْدٍ، عَنْ أَبِيهِ، قَالَ أَعْطَى رَسُولُ اللَّهِ رَهْطًا وَأَنَا جَالِسٌ فِيهِمْ قَالَ فَتَرَكَ رَسُولُ اللَّهِ مِنْهُمْ رَجُلاً لَمْ يُعْطِهِ، وَهُوَ أَعْجَبُهُمْ إِلَىَّ، فَقُمْتُ إِلَى رَسُولِ اللَّهِ فَسَارَرْتُهُ فَقُلْتُ مَا لَكَ عَنْ فُلاَنٍ وَاللَّهِ إِنِّي لأُرَاهُ مُؤْمِنًا. قَالَ \" أَوْ مُسْلِمًا \" قَالَ فَسَكَتُّ قَلِيلاً ثُمَّ غَلَبَنِي مَا أَعْلَمُ فِيهِ …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 1478، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 1478 (Obligatory Charity Tax (Zakat)), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح بخاری کی حدیث نمبر 1478، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih al-Bukhari, n.° 1478 (Impuesto obligatorio sobre la caridad (Zakat)), menciona lo que quedó: bienes y herencia. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1478 (book 24 hadith 79); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

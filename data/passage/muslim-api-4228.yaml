@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "4228"
-label: { ar: "صحيح مسلم 4228 — وصية أو عهد أخير", en: "Sahih Muslim 4228 — a testament or parting counsel", ur: "صحیح مسلم 4228 — وصیت یا آخری نصیحت" }
+label: { ar: "صحيح مسلم 4228 — وصية أو عهد أخير", en: "Sahih Muslim 4228 — a testament or parting counsel", ur: "صحیح مسلم 4228 — وصیت یا آخری نصیحت", es: "Sahih Muslim 4228 — un testamento o consejo de despedida" }
 text: "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي، كِلاَهُمَا عَنْ مَالِكِ بْنِ مِغْوَلٍ، بِهَذَا الإِسْنَادِ. مِثْلَهُ غَيْرَ أَنَّ فِي حَدِيثِ وَكِيعٍ قُلْتُ فَكَيْفَ أُمِرَ النَّاسُ بِالْوَصِيَّةِ وَفِي حَدِيثِ ابْنِ نُمَيْرٍ قُلْتُ كَيْفَ كُتِبَ عَلَى الْمُسْلِمِينَ الْوَصِيَّةُ"
 summary:
   ar: "حديث في صحيح مسلم، رقم 4228، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 4228 (The Book of Wills), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح مسلم کی حدیث نمبر 4228، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih Muslim, n.° 4228 (El Libro de los Testamentos), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4228 (book 25 hadith 25); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

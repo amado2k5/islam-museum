@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "5019"
-label: { ar: "صحيح البخاري 5019 — جمع القرآن والمصاحف", en: "Sahih al-Bukhari 5019 — the collection of the Qur'an and the codices", ur: "صحیح بخاری 5019 — جمعِ قرآن اور مصاحف" }
+label: { ar: "صحيح البخاري 5019 — جمع القرآن والمصاحف", en: "Sahih al-Bukhari 5019 — the collection of the Qur'an and the codices", ur: "صحیح بخاری 5019 — جمعِ قرآن اور مصاحف", es: "Sahih al-Bukhari 5019 — la colección del Corán y los códices" }
 text: "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا سُفْيَانُ، عَنْ عَبْدِ الْعَزِيزِ بْنِ رُفَيْعٍ، قَالَ دَخَلْتُ أَنَا وَشَدَّادُ بْنُ مَعْقِلٍ، عَلَى ابْنِ عَبَّاسٍما فَقَالَ لَهُ شَدَّادُ بْنُ مَعْقِلٍ أَتَرَكَ النَّبِيُّ مِنْ شَىْءٍ قَالَ مَا تَرَكَ إِلاَّ مَا بَيْنَ الدَّفَّتَيْنِ. قَالَ وَدَخَلْنَا عَلَى مُحَمَّدِ ابْنِ الْحَنَفِيَّةِ فَسَأَلْنَاهُ فَقَالَ مَا تَرَكَ إِلاَّ مَا بَيْنَ الدَّفَّتَيْنِ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 5019، يذكر جمع القرآن والمصاحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
   en: "A report in Sahih al-Bukhari, no. 5019 (Virtues of the Qur'an), that mentions the collection of the Qur'an and the codices. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
   ur: "صحیح بخاری کی حدیث نمبر 5019، جس میں جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih al-Bukhari, n.° 5019 (Virtudes del Corán), menciona la colección del Corán y los códices. El catálogo del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
 relations:
   - { type: mentions, target: concept/mushaf, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5019 (book 66 hadith 41); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

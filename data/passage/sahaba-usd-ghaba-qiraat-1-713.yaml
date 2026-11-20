@@ -3,12 +3,13 @@ class: passage
 unit: chapter
 work: work/usd-al-ghaba
 ref: "1:713"
-label: { ar: "أسد الغابة لابن الأثير، المجلد المصوَّر 1، ص 713 — جمع القرآن والمصاحف", en: "Ibn al-Athir's Usd al-Ghaba, scan volume 1, p. 713 — the collection of the Qur'an and the codices", ur: "اسد الغابہ، ابن الاثیر، اسکین جلد 1، ص 713 — جمعِ قرآن اور مصاحف" }
+label: { ar: "أسد الغابة لابن الأثير، المجلد المصوَّر 1، ص 713 — جمع القرآن والمصاحف", en: "Ibn al-Athir's Usd al-Ghaba, scan volume 1, p. 713 — the collection of the Qur'an and the codices", ur: "اسد الغابہ، ابن الاثیر، اسکین جلد 1، ص 713 — جمعِ قرآن اور مصاحف", es: "Usd al-Ghaba de Ibn al-Athir, volumen 1 escaneado, pág. 713 — la colección del Corán y los códices" }
 text: "… بعد الفيل بثلاث سنين. وهو أول خليفة كان في الإسلام، وأول من حج أميراً في الإسلام، فإن رسول اللّٰه مل فتح مكة سنة ثمان، وسَيَّر أبا بكر يحج بالناس أميراً سنة تسع، وهو أول من جمع القرآن، وقيل: علي بن …"
 summary:
   ar: "مقطع من أسد الغابة لابن الأثير، المجلد المصوَّر 1، ص 713، يذكر جمع القرآن والمصاحف؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط."
   en: "An excerpt from Ibn al-Athir's Usd al-Ghaba, scan volume 1, p. 713, that mentions the collection of the Qur'an and the codices; from the machine-read scan, quoted within forty words per the sources policy. The browser of the museum for how the Qur'an was read and written lists it."
   ur: "اسد الغابہ، ابن الاثیر، اسکین جلد 1، ص 713 کا اقتباس جس میں جمعِ قرآن اور مصاحف کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے درج کرتا ہے۔"
+  es: "Un extracto del Usd al-Ghaba de Ibn al-Athir, volumen 1, pág. 713, que menciona la colección del Corán y los códices; tomado de la lectura automática, citado con un máximo de cuarenta palabras según la política de fuentes. El navegador del museo sobre cómo se leía y escribía el Corán lo incluye en su lista."
 relations:
   - { type: mentions, target: concept/mushaf, sources: [source/usd-al-ghaba] }
 provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/usd-ghaba/20191216_20191216_1124, page 713; a window of at most 40 words chosen by the qira'at detector (scripts/qiraat.ts); OCR text not corrected", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-ocr-1" }

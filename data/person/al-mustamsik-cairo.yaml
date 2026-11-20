@@ -1,6 +1,6 @@
 id: person/al-mustamsik-cairo
 class: person
-label: { ar: "المستمسك", en: "al-Mustamsik", fr: "al-Mustamsik", ur: "المستمسك" }
+label: { ar: "المستمسك", en: "al-Mustamsik", fr: "al-Mustamsik", ur: "المستمسك", es: "al-Mustamsik" }
 died: { edtf: "1521", hijri: "0927~", calendar: julian, precision: year, status: historical, derived: true, note: "From Wikidata (Q210626, revision 2533522012, read 2026-11-14): date of death 1521 (julian calendar as declared by the item). The Hijri value is an arithmetical conversion, approximate to the year.", sources: [source/wikidata-al-mustamsik-cairo] }
 gender: male
 roles: [caliph]
@@ -10,6 +10,7 @@ summary:
   en: "al-Mustamsik, the caliph of the Abbasid of Cairo caliphate, ruling 1497–1517 CE. {cite:tarikh-khulafa-minhaj-1434}"
   fr: "al-Mustamsik, le calife des Abbassides du califat du Caire, régnant de 1497 à 1517 de notre ère. {cite:tarikh-khulafa-minhaj-1434}"
   ur: "المستمسك، عباسی قاہرہ خلافت کے خلیفہ؛ 1497ء سے 1517۔ {cite:tarikh-khulafa-minhaj-1434}"
+  es: "al-Mustamsik, califa del califato abasí de El Cairo, que gobernó entre 1497 y 1517 d.C. {cita:tarikh-khulafa-minhaj-1434}"
 story_roles:
   - { role: ruler, toward: polity/abbasid-caliphate-cairo, start: { edtf: "1497", calendar: julian, precision: year }, end: { edtf: "1517", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { role: ruler, toward: polity/abbasid-caliphate-cairo, start: { edtf: "1516", calendar: julian, precision: year }, end: { edtf: "1517", calendar: julian, precision: year }, status: historical, sources: [source/suluk-maqrizi] }

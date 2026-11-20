@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "3366"
-label: { ar: "صحيح مسلم 3366 — اليتيم وفقد الأب", en: "Sahih Muslim 3366 — the orphan and the father lost", ur: "صحیح مسلم 3366 — یتیم اور باپ کی موت" }
+label: { ar: "صحيح مسلم 3366 — اليتيم وفقد الأب", en: "Sahih Muslim 3366 — the orphan and the father lost", ur: "صحیح مسلم 3366 — یتیم اور باپ کی موت", es: "Sahih Muslim 3366 — El huérfano y el padre perdido" }
 text: "… لَهُ - أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ سَعِيدِ بْنِ، الْمُسَيَّبِ أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ، يَقُولُ قَالَ رَسُولُ اللَّهِ لِلْمَدِينَةِ \" لَيَتْرُكَنَّهَا أَهْلُهَا عَلَى خَيْرِ مَا كَانَتْ مُذَلَّلَةً لِلْعَوَافِي \". يَعْنِي السِّبَاعَ وَالطَّيْرَ. قَالَ مُسْلِمٌ أَبُو صَفْوَانَ هَذَا هُوَ عَبْدُ اللَّهِ بْنُ عَبْدِ الْمَلِكِ يَتِيمُ ابْنُ جُرَيْجٍ عَشْرَ سِنِينَ كَانَ فِي حَجْرِهِ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 3366، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 3366 (The Book of Pilgrimage), that mentions the orphan and the father lost. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "صحیح مسلم کی حدیث نمبر 3366، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih Muslim, n.° 3366 (El Libro de la Peregrinación), menciona al huérfano y al padre desaparecido. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre la figura paterna."
 relations:
   - { type: mentions, target: concept/yatim-fiqh, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3366 (book 15 hadith 570); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

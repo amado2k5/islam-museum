@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "3220"
-label: { ar: "صحيح مسلم 3220 — وصية أو عهد أخير", en: "Sahih Muslim 3220 — a testament or parting counsel", ur: "صحیح مسلم 3220 — وصیت یا آخری نصیحت" }
+label: { ar: "صحيح مسلم 3220 — وصية أو عهد أخير", en: "Sahih Muslim 3220 — a testament or parting counsel", ur: "صحیح مسلم 3220 — وصیت یا آخری نصیحت", es: "Sahih Muslim 3220 — un testamento o consejo de despedida" }
 text: "حَدَّثَنَا سَعِيدُ بْنُ مَنْصُورٍ، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ - وَاللَّفْظُ لِسَعِيدٍ - قَالاَ حَدَّثَنَا سُفْيَانُ، عَنِ ابْنِ طَاوُسٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ، قَالَ أُمِرَ النَّاسُ أَنْ يَكُونَ، آخِرُ عَهْدِهِمْ بِالْبَيْتِ إِلاَّ أَنَّهُ خُفِّفَ عَنِ الْمَرْأَةِ الْحَائِضِ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 3220، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 3220 (The Book of Pilgrimage), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح مسلم کی حدیث نمبر 3220، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih Muslim, n.° 3220 (El Libro de la Peregrinación), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3220 (book 15 hadith 424); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

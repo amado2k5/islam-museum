@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "6730"
-label: { ar: "صحيح البخاري 6730 — ما خلّفه من تركة وميراث", en: "Sahih al-Bukhari 6730 — what was left behind: estate and inheritance", ur: "صحیح بخاری 6730 — ترکہ اور میراث" }
+label: { ar: "صحيح البخاري 6730 — ما خلّفه من تركة وميراث", en: "Sahih al-Bukhari 6730 — what was left behind: estate and inheritance", ur: "صحیح بخاری 6730 — ترکہ اور میراث", es: "Sahih al-Bukhari 6730 — Lo que quedó: patrimonio y herencia" }
 text: "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، عَنْ مَالِكٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَا أَنَّ أَزْوَاجَ، النَّبِيِّ حِينَ تُوُفِّيَ رَسُولُ اللَّهِ أَرَدْنَ أَنْ يَبْعَثْنَ عُثْمَانَ إِلَى أَبِي بَكْرٍ يَسْأَلْنَهُ مِيرَاثَهُنَّ. فَقَالَتْ عَائِشَةُ أَلَيْسَ قَالَ رَسُولُ اللَّهِ \" لاَ نُورَثُ مَا تَرَكْنَا صَدَقَةٌ \"."
 summary:
   ar: "حديث في صحيح البخاري، رقم 6730، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 6730 (Laws of Inheritance (Al-Faraa'id)), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح بخاری کی حدیث نمبر 6730، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih al-Bukhari, n.º 6730 (Leyes de la herencia (Al-Faraa'id)), menciona lo que se dejó como legado: bienes y herencia. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6730 (book 85 hadith 7); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

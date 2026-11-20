@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "51"
-label: { ar: "صحيح البخاري 51 — اليتيم وفقد الأب", en: "Sahih al-Bukhari 51 — the orphan and the father lost", ur: "صحیح بخاری 51 — یتیم اور باپ کی موت" }
+label: { ar: "صحيح البخاري 51 — اليتيم وفقد الأب", en: "Sahih al-Bukhari 51 — the orphan and the father lost", ur: "صحیح بخاری 51 — یتیم اور باپ کی موت", es: "Sahih al-Bukhari 51 — El huérfano y el padre perdido" }
 text: "… شِهَابٍ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ، أَنَّ عَبْدَ اللَّهِ بْنَ عَبَّاسٍ، أَخْبَرَهُ قَالَ أَخْبَرَنِي أَبُو سُفْيَانَ، أَنَّ هِرَقْلَ، قَالَ لَهُ سَأَلْتُكَ هَلْ يَزِيدُونَ أَمْ يَنْقُصُونَ، فَزَعَمْتَ أَنَّهُمْ يَزِيدُونَ، وَكَذَلِكَ الإِيمَانُ حَتَّى يَتِمَّ. وَسَأَلْتُكَ هَلْ يَرْتَدُّ أَحَدٌ سَخْطَةً لِدِينِهِ بَعْدَ أَنْ يَدْخُلَ فِيهِ، فَزَعَمْتَ أَنْ لاَ، وَكَذَلِكَ الإِيمَانُ حِينَ تُخَالِطُ بَشَاشَتُهُ الْقُلُوبَ، لاَ يَسْخَطُهُ أَحَدٌ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 51، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 51 (Belief), that mentions the orphan and the father lost. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "صحیح بخاری کی حدیث نمبر 51، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih al-Bukhari, n.° 51 (Creencia), menciona al huérfano y al padre desaparecido. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
 relations:
   - { type: mentions, target: concept/yatim-fiqh, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 51 (book 2 hadith 44); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

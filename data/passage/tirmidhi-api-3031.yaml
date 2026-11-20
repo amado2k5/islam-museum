@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "3031"
-label: { ar: "جامع الترمذي 3031 — جمع القرآن والمصاحف", en: "Jami' al-Tirmidhi 3031 — the collection of the Qur'an and the codices", ur: "جامع ترمذی 3031 — جمعِ قرآن اور مصاحف" }
+label: { ar: "جامع الترمذي 3031 — جمع القرآن والمصاحف", en: "Jami' al-Tirmidhi 3031 — the collection of the Qur'an and the codices", ur: "جامع ترمذی 3031 — جمعِ قرآن اور مصاحف", es: "Jami' al-Tirmidhi 3031 — la colección del Corán y los códices" }
 text: "… رَسُولَ اللَّهِ مَا تَأْمُرُنِي إِنِّي ضَرِيرُ الْبَصَرِ فَأَنْزَلَ اللَّهُ تَعَالَى هَذِهِ الآيَةَ : ⁦( غَيْرُ أُولِي الضَّرَرِ )⁩ الآيَةَ. فَقَالَ النَّبِيُّ \" ائْتُونِي بِالْكَتِفِ وَالدَّوَاةِ أَوِ اللَّوْحِ وَالدَّوَاةِ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ. وَيُقَالُ عَمْرُو ابْنُ أُمِّ مَكْتُومٍ وَيُقَالُ عَبْدُ اللَّهِ ابْنُ أُمِّ مَكْتُومٍ وَهُوَ عَبْدُ اللَّهِ بْنُ زَائِدَةَ وَأُمُّ مَكْتُومٍ أُمُّهُ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 3031، يذكر جمع القرآن والمصاحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
   en: "A report in Jami' al-Tirmidhi, no. 3031 (Chapters on Tafsir), that mentions the collection of the Qur'an and the codices. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
   ur: "جامع ترمذی کی حدیث نمبر 3031، جس میں جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Jami' al-Tirmidhi, n.° 3031 (Capítulos sobre Tafsir), menciona la colección del Corán y los códices. El catálogo del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
 relations:
   - { type: mentions, target: concept/mushaf, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3031 (book 47 hadith 83); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1141"
-label: { ar: "موطأ مالك 1141 — النسب والانتساب", en: "Muwatta Malik 1141 — paternity and lineage", ur: "موطأ مالک 1141 — نسب اور انتساب" }
+label: { ar: "موطأ مالك 1141 — النسب والانتساب", en: "Muwatta Malik 1141 — paternity and lineage", ur: "موطأ مالک 1141 — نسب اور انتساب", es: "Muwatta Malik 1141 - paternidad y linaje" }
 text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنْ نَافِعٍ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" إِذَا دُعِيَ أَحَدُكُمْ إِلَى وَلِيمَةٍ فَلْيَأْتِهَا \"."
 summary:
   ar: "حديث في موطأ مالك، رقم 1141، يذكر النسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Muwatta Malik, no. 1141 (Marriage), that mentions paternity and lineage. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "موطأ مالک کی حدیث نمبر 1141، جس میں نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Muwatta Malik, n.° 1141 (Matrimonio), menciona la paternidad y el linaje. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
 relations:
   - { type: mentions, target: concept/intisab, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1141 (book 28 hadith 51); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

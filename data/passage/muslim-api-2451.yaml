@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2451"
-label: { ar: "صحيح مسلم 2451 — دفن وقبر ومرقد", en: "Sahih Muslim 2451 — a burial, grave or resting place", ur: "صحیح مسلم 2451 — تدفین، قبر اور مرقد" }
+label: { ar: "صحيح مسلم 2451 — دفن وقبر ومرقد", en: "Sahih Muslim 2451 — a burial, grave or resting place", ur: "صحیح مسلم 2451 — تدفین، قبر اور مرقد", es: "Sahih Muslim 2451 — un entierro, tumba o lugar de descanso" }
 text: "… عَبْدِ الرَّحْمَنِ، بْنِ أَبِي نُعْمٍ عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ بَعَثَ عَلِيٌّ - - وَهُوَ بِالْيَمَنِ بِذَهَبَةٍ فِي تُرْبَتِهَا إِلَى رَسُولِ اللَّهِ فَقَسَمَهَا رَسُولُ اللَّهِ بَيْنَ أَرْبَعَةِ نَفَرٍ الأَقْرَعُ بْنُ حَابِسٍ الْحَنْظَلِيُّ وَعُيَيْنَةُ بْنُ بَدْرٍ الْفَزَارِيُّ وَعَلْقَمَةُ بْنُ عُلاَثَةَ الْعَامِرِيُّ ثُمَّ أَحَدُ بَنِي كِلاَبٍ وَزَيْدُ الْخَيْرِ الطَّائِيُّ ثُمَّ أَحَدُ بَنِي نَبْهَانَ - قَالَ - فَغَضِبَتْ …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 2451، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 2451 (The Book of Zakat), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح مسلم کی حدیث نمبر 2451، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih Muslim, n.° 2451 (El Libro del Zakat), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, propiedades, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2451 (book 12 hadith 188); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

@@ -12,7 +12,7 @@ paragraph of English. Only a missing value is written; an existing translation i
 one line at the end of its language block (or inside the braces of a one-line block), so the rest of the record keeps
 its bytes; every record is re-read after the change and must equal the old record plus the new values.
 
-Left out on purpose: the title of a `source` record (a bibliographic title is not translated), and the title of a
+Left out on purpose: the Qur'an passage records (frozen, guarded by a commit hook); the title of a `source` record (a bibliographic title is not translated), and the title of a
 `person` in French and Spanish (the English transliteration is used, as most French titles written before this did)."""
 import argparse, collections, glob, json, os, re, sys, zipfile
 from xml.sax.saxutils import escape
@@ -25,7 +25,7 @@ ap.add_argument("--name"); ap.add_argument("--lang", choices=["ur", "fr", "es"])
 ap.add_argument("--dir", default="/Volumes/exmicroSD/islam-museum-local-mt/gt"); ap.add_argument("--fields", default="label,summary,rooms[].title,rooms[].body")
 a = ap.parse_args(); FIELDS = a.fields.split(",")
 ARABIC = re.compile(r"[؀-ۿ]")
-HONORIFIC = re.compile(r"ﷺ|صلی اللہ علیہ|علیہ السلام|رضی اللہ عن|رحمۃ اللہ علیہ|رحمہ اللہ|paix (soit )?sur lui|que Dieu l['’]agrée|que la paz sea con|la paz sea con él|que Dios esté complacido con", re.I)
+HONORIFIC = re.compile(r"ﷺ|صلی اللہ علیہ|علیہ السلام|رضی اللہ عن|رحمۃ اللہ علیہ|رحمہ اللہ|paix (soit )?sur lui|que Dieu l['’]agrée|que la paz sea con|la paz sea con él|bendiciones de (?:Dios|Al[áa]h?) sean con|que Dios esté complacido con|(?:Dios|Al[áa]h?) esté complacido con él|bénédictions (?:de Dieu|d['’]Allah) (?:soient )?sur lui", re.I)
 STRIP = re.compile(r"[\(（]?\s*(?:ﷺ|صلی اللہ علیہ و(?:آلہ و)?سلم|علیہ(?:ما|م)? السلام|رضی اللہ (?:تعالیٰ )?عن(?:ہ|ہا|ہم|ہما)|رحمۃ اللہ علیہ|رحمہ اللہ)\s*[\)）]?")
 
 
@@ -33,7 +33,9 @@ def classes():
     return sorted(d for d in os.listdir(os.path.join(ROOT, "data")) if os.path.isdir(os.path.join(ROOT, "data", d)) and not d.startswith("_") and (a.cls == "all" or d in a.cls.split(",")))
 
 
-def files(): return [f for c in classes() for f in sorted(glob.glob(os.path.join(ROOT, "data", c, "*.yaml")))]
+# The Qur'an passage records (data/passage/quran-*.yaml) are frozen: a commit guard refuses any change to them, so they
+# are never read for texts and never written.
+def files(): return [f for c in classes() for f in sorted(glob.glob(os.path.join(ROOT, "data", c, "*.yaml"))) if not (c == "passage" and os.path.basename(f).startswith("quran-"))]
 cls_of = lambda f: os.path.basename(os.path.dirname(f))
 
 
@@ -168,6 +170,10 @@ for n, en in enumerate(strings, 1):
     # Google Translate adds a blessing after "the Prophet" in Urdu; the museum types no honorific (the site renders
     # them), so the formula is taken out and the sentence kept. Anything left over is still refused below.
     t = re.sub(r"\s+([،۔؛:])", r"\1", re.sub(r"\s{2,}", " ", STRIP.sub(" ", t))).strip()
+    # the same in Spanish and French: "(la paz sea con él)", ", que la paz y las bendiciones de Alá sean con él", "(paix sur lui)"
+    if L == "es": t = re.sub(r"\s*\((?:que )?la paz(?: y las bendiciones(?: de (?:Dios|Al[áa]h?))?)? sean? con (?:él|ella|ellos|ambos)\)|,\s*(?:que )?la paz(?: y las bendiciones(?: de (?:Dios|Al[áa]h?))?)? sean? con (?:él|ella|ellos|ambos)", "", t, flags=re.I)
+    if L == "fr": t = re.sub(r"\s*\((?:que )?(?:la )?paix(?: et (?:les )?bénédictions(?: (?:de Dieu|d['’]Allah))?)? (?:soi(?:en)?t )?sur (?:lui|elle|eux)\)|,\s*(?:que )?(?:la )?paix(?: et (?:les )?bénédictions(?: (?:de Dieu|d['’]Allah))?)? (?:soi(?:en)?t )?sur (?:lui|elle|eux)", "", t, flags=re.I)
+    t = re.sub(r"\s+([,.;:)])", r"\1", t) if L != "ur" else t
     if not t: why = "missing"
     elif HONORIFIC.search(t): why = "typed honorific"
     elif "﴿" in t or "﴾" in t: why = "Qur'an brackets"
@@ -177,7 +183,7 @@ for n, en in enumerate(strings, 1):
     elif len(en.split()) >= 6 and t == " ".join(en.split()): why = "left in English"
     elif len(en) > 40 and not (0.4 <= len(t) / len(en) <= 2.6): why = "length ratio"
     if why: bad[why] += 1; continue
-    if L == "ur":  # a parenthetical that holds Arabic script is wrapped in direction isolates (AGENTS.md, rule of 6 Nov 2026)
+    if True:  # a parenthetical that holds Arabic script is wrapped in direction isolates, in every language (AGENTS.md, rule of 6 Nov 2026)
         t = re.sub(r"(?<!⁦)\(([^()]*[؀-ۿ][^()]*)\)(?!⁩)", "⁦(\\1)⁩", t)
     good[en] = t
 w, r, failed, why = apply(L, lambda cls, path, en: good.get(en) if wanted(cls, path, L) else None)

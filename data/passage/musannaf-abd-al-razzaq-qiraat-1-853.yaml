@@ -3,12 +3,13 @@ class: passage
 unit: chapter
 work: work/al-musannaf-abd-al-razzaq
 ref: "1:853"
-label: { ar: "مصنف عبد الرزاق، المجلد المصوَّر 1، ص 853 — القراء", en: "the Musannaf of 'Abd al-Razzaq, scan volume 1, p. 853 — the readers", ur: "مصنف عبد الرزاق، اسکین جلد 1، ص 853 — قراء" }
+label: { ar: "مصنف عبد الرزاق، المجلد المصوَّر 1، ص 853 — القراء", en: "the Musannaf of 'Abd al-Razzaq, scan volume 1, p. 853 — the readers", ur: "مصنف عبد الرزاق، اسکین جلد 1، ص 853 — قراء", es: "El Musannaf de 'Abd al-Razzaq, escaneo del volumen 1, pág. 853 — los lectores" }
 text: "… عبد الرزاق عن ابن عيينة عن أَبي حمزة الثمالي عن استدر كناه من عند م. أخرجه مسلم من طريق مالك بن مغول وحمزة الزيات عن الحكم ! : أخرج النساني من طريق أبي الزبير عن أبي علقمة عن أبي هريرة …"
 summary:
   ar: "مقطع من مصنف عبد الرزاق، المجلد المصوَّر 1، ص 853، يذكر القراء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط."
   en: "An excerpt from the Musannaf of 'Abd al-Razzaq, scan volume 1, p. 853, that mentions the readers; from the machine-read scan, quoted within forty words per the sources policy. The browser of the museum for how the Qur'an was read and written lists it."
   ur: "مصنف عبد الرزاق، اسکین جلد 1، ص 853 کا اقتباس جس میں قراء کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے درج کرتا ہے۔"
+  es: "Un extracto del Musannaf de Abd al-Razzaq, volumen 1, pág. 853, que menciona a los lectores; tomado de la lectura automática, citado en un máximo de cuarenta palabras según la política de fuentes. El navegador del museo sobre cómo se leía y escribía el Corán lo incluye."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/musannaf-abd-al-razzaq] }
 provenance: { layer: own-research, source: "Apple Vision OCR of the scan hadith/musannaf-abd-al-razzaq/20260327_20260327_1113, page 853; a window of at most 40 words chosen by the qira'at detector (scripts/qiraat.ts); OCR text not corrected", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-ocr-1" }

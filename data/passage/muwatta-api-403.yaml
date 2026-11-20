@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "403"
-label: { ar: "موطأ مالك 403 — اليتيم وفقد الأب", en: "Muwatta Malik 403 — the orphan and the father lost", ur: "موطأ مالک 403 — یتیم اور باپ کی موت" }
+label: { ar: "موطأ مالك 403 — اليتيم وفقد الأب", en: "Muwatta Malik 403 — the orphan and the father lost", ur: "موطأ مالک 403 — یتیم اور باپ کی موت", es: "Muwatta Malik 403 — el huérfano y el padre perdido" }
 text: "… يَحْيَى بْنِ سَعِيدٍ، عَنِ النُّعْمَانِ بْنِ مُرَّةَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" مَا تَرَوْنَ فِي الشَّارِبِ وَالسَّارِقِ وَالزَّانِي \". وَذَلِكَ قَبْلَ أَنْ يُنْزَلَ فِيهِمْ. قَالُوا اللَّهُ وَرَسُولُهُ أَعْلَمُ. قَالَ \" هُنَّ فَوَاحِشُ وَفِيهِنَّ عُقُوبَةٌ وَأَسْوَأُ السَّرِقَةِ الَّذِي يَسْرِقُ صَلاَتَهُ \". قَالُوا وَكَيْفَ يَسْرِقُ صَلاَتَهُ يَا رَسُولَ اللَّهِ قَالَ \" لاَ يُتِمُّ رُكُوعَهَا وَلاَ سُجُودَهَا \"."
 summary:
   ar: "حديث في موطأ مالك، رقم 403، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Muwatta Malik, no. 403 (Shortening the Prayer), that mentions the orphan and the father lost. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "موطأ مالک کی حدیث نمبر 403، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Muwatta Malik, n.° 403 (Abreviación de la oración), menciona al huérfano y al padre fallecido. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre la figura paterna."
 relations:
   - { type: mentions, target: concept/yatim-fiqh, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 403 (book 9 hadith 78); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

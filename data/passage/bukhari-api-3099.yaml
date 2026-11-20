@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "3099"
-label: { ar: "صحيح البخاري 3099 — ساعة الاحتضار والوفاة", en: "Sahih al-Bukhari 3099 — a deathbed and last hours", ur: "صحیح بخاری 3099 — وقتِ وفات اور آخری لمحات" }
+label: { ar: "صحيح البخاري 3099 — ساعة الاحتضار والوفاة", en: "Sahih al-Bukhari 3099 — a deathbed and last hours", ur: "صحیح بخاری 3099 — وقتِ وفات اور آخری لمحات", es: "Sahih al-Bukhari 3099 — un lecho de muerte y últimas horas" }
 text: "حَدَّثَنَا حِبَّانُ بْنُ مُوسَى، وَمُحَمَّدٌ، قَالاَ أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا مَعْمَرٌ، وَيُونُسُ، عَنِ الزُّهْرِيِّ، قَالَ أَخْبَرَنِي عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ بْنِ مَسْعُودٍ، أَنَّ عَائِشَةَا ـ زَوْجَ النَّبِيِّ قَالَتْ لَمَّا ثَقُلَ رَسُولُ اللَّهِ اسْتَأْذَنَ أَزْوَاجَهُ أَنْ يُمَرَّضَ فِي بَيْتِي فَأَذِنَّ لَهُ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 3099، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 3099 (One-fifth of Booty to the Cause of Allah (Khumus)), that mentions a deathbed and last hours. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح بخاری کی حدیث نمبر 3099، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih al-Bukhari, n.° 3099 (Una quinta parte del botín para la causa de Alá (Khumus)), menciona un lecho de muerte y las últimas horas. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/ihtidar, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3099 (book 57 hadith 8); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "5088"
-label: { ar: "صحيح البخاري 5088 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 5088 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 5088 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+label: { ar: "صحيح البخاري 5088 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 5088 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 5088 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 5088 — menciones de naciones, religiones y pueblos no musulmanes" }
 text: "حَدَّثَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، قَالَ أَخْبَرَنِي عُرْوَةُ بْنُ الزُّبَيْرِ، عَنْ عَائِشَةَا ـ أَنَّ أَبَا حُذَيْفَةَ بْنَ عُتْبَةَ بْنِ رَبِيعَةَ بْنِ عَبْدِ شَمْسٍ،، وَكَانَ، مِمَّنْ شَهِدَ بَدْرًا مَعَ النَّبِيِّ تَبَنَّى سَالِمًا، وَأَنْكَحَهُ بِنْتَ أَخِيهِ هِنْدَ بِنْتَ الْوَلِيدِ بْنِ عُتْبَةَ بْنِ رَبِيعَةَ وَهْوَ مَوْلًى لاِمْرَأَةٍ مِنَ الأَنْصَارِ، كَمَا تَبَنَّى النَّبِيُّ زَيْدًا، وَكَانَ مَنْ تَبَنَّى …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 5088، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 5088 (Wedlock, Marriage (Nikaah)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "صحیح بخاری کی حدیث نمبر 5088، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato del Sahih al-Bukhari, n.º 5088 (Matrimonio (Nikaah)), con menciones a naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
 relations:
   - { type: mentions, target: person/utba-ibn-rabia, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5088 (book 67 hadith 26); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

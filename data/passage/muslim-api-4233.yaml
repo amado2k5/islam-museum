@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "4233"
-label: { ar: "صحيح مسلم 4233 — جمع القرآن والمصاحف", en: "Sahih Muslim 4233 — the collection of the Qur'an and the codices", ur: "صحیح مسلم 4233 — جمعِ قرآن اور مصاحف" }
+label: { ar: "صحيح مسلم 4233 — جمع القرآن والمصاحف", en: "Sahih Muslim 4233 — the collection of the Qur'an and the codices", ur: "صحیح مسلم 4233 — جمعِ قرآن اور مصاحف", es: "Sahih Muslim 4233 — la colección del Corán y los códices" }
 text: "… عَنْ طَلْحَةَ بْنِ مُصَرِّفٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، أَنَّهُ قَالَ يَوْمُ الْخَمِيسِ وَمَا يَوْمُ الْخَمِيسِ. ثُمَّ جَعَلَ تَسِيلُ دُمُوعُهُ حَتَّى رَأَيْتُ عَلَى خَدَّيْهِ كَأَنَّهَا نِظَامُ اللُّؤْلُؤِ. قَالَ قَالَ رَسُولُ اللَّهِ \" ائْتُونِي بِالْكَتِفِ وَالدَّوَاةِ - أَوِ اللَّوْحِ وَالدَّوَاةِ - أَكْتُبْ لَكُمْ كِتَابًا لَنْ تَضِلُّوا بَعْدَهُ أَبَدًا \". فَقَالُوا إِنَّ رَسُولَ اللَّهِ يَهْجُرُ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 4233، يذكر جمع القرآن والمصاحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
   en: "A report in Sahih Muslim, no. 4233 (The Book of Wills), that mentions the collection of the Qur'an and the codices. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
   ur: "صحیح مسلم کی حدیث نمبر 4233، جس میں جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Sahih Muslim, n.° 4233 (El Libro de los Testamentos), menciona la colección del Corán y los códices. El catálogo del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
 relations:
   - { type: mentions, target: concept/mushaf, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4233 (book 25 hadith 30); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

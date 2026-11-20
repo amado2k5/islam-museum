@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "401"
-label: { ar: "صحيح مسلم 401 — قراءات القرآن", en: "Sahih Muslim 401 — the readings of the Qur'an", ur: "صحیح مسلم 401 — قرآن کی قراءتیں" }
+label: { ar: "صحيح مسلم 401 — قراءات القرآن", en: "Sahih Muslim 401 — the readings of the Qur'an", ur: "صحیح مسلم 401 — قرآن کی قراءتیں", es: "Sahih Muslim 401 — las lecturas del Corán" }
 text: "… دَخَلْتُ الْمَسْجِدَ وَرَسُولُ اللَّهِ جَالِسٌ فَلَمَّا غَابَتِ الشَّمْسُ قَالَ \" يَا أَبَا ذَرٍّ هَلْ تَدْرِي أَيْنَ تَذْهَبُ هَذِهِ \". قَالَ قُلْتُ اللَّهُ وَرَسُولُهُ أَعْلَمُ. قَالَ \" فَإِنَّهَا تَذْهَبُ فَتَسْتَأْذِنُ فِي السُّجُودِ فَيُؤْذَنُ لَهَا وَكَأَنَّهَا قَدْ قِيلَ لَهَا ارْجِعِي مِنْ حَيْثُ جِئْتِ فَتَطْلُعُ مِنْ مَغْرِبِهَا \". قَالَ ثُمَّ قَرَأَ فِي قِرَاءَةِ عَبْدِ اللَّهِ وَذَلِكَ مُسْتَقَرٌّ لَهَا."
 summary:
   ar: "حديث في صحيح مسلم، رقم 401، يذكر قراءات القرآن. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
   en: "A report in Sahih Muslim, no. 401 (The Book of Faith), that mentions the readings of the Qur'an. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
   ur: "صحیح مسلم کی حدیث نمبر 401، جس میں قرآن کی قراءتیں کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Sahih Muslim, n.° 401 (El Libro de la Fe), menciona las lecturas del Corán. El navegador del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 401 (book 1 hadith 306); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

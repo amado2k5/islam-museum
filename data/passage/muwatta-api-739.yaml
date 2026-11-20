@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "739"
-label: { ar: "موطأ مالك 739 — الأب والأبوة", en: "Muwatta Malik 739 — the father and fatherhood", ur: "موطأ مالک 739 — باپ اور والدیت" }
+label: { ar: "موطأ مالك 739 — الأب والأبوة", en: "Muwatta Malik 739 — the father and fatherhood", ur: "موطأ مالک 739 — باپ اور والدیت", es: "Muwatta Malik 739 — el padre y la paternidad" }
 text: "… يَحْيَى، عَنْ مَالِكٍ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي بَكْرِ بْنِ مُحَمَّدِ بْنِ عَمْرِو بْنِ حَزْمٍ، عَنْ عَبْدِ الْمَلِكِ بْنِ أَبِي بَكْرِ بْنِ الْحَارِثِ بْنِ هِشَامٍ، عَنْ خَلاَّدِ بْنِ السَّائِبِ الأَنْصَارِيِّ، عَنْ أَبِيهِ، أَنَّ رَسُولَ اللَّهِ قَالَ \" أَتَانِي جِبْرِيلُ فَأَمَرَنِي أَنْ آمُرَ أَصْحَابِي أَوْ مَنْ مَعِي أَنْ يَرْفَعُوا أَصْوَاتَهُمْ بِالتَّلْبِيَةِ أَوْ بِالإِهْلاَلِ \". يُرِيدُ أَحَدَهُمَا."
 summary:
   ar: "حديث في موطأ مالك، رقم 739، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Muwatta Malik, no. 739 (Hajj), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "موطأ مالک کی حدیث نمبر 739، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Muwatta Malik, n.° 739 (Hajj), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 739 (book 20 hadith 35); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

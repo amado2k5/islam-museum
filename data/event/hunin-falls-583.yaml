@@ -1,12 +1,13 @@
 id: event/hunin-falls-583
 class: event
 kind: conquest
-label: { ar: "فتح هونين وبقية حصون الجليل", en: "Hunin falls — the remaining fortresses of the Galilee" }
+label: { ar: "فتح هونين وبقية حصون الجليل", en: "Hunin falls — the remaining fortresses of the Galilee", es: "Caídas de Hunin: las fortalezas restantes de Galilea." }
 date:
   start: { edtf: "1187~", hijri: "0583", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
   ar: "فتح صلاح الدين هونين بعد البيت المقدس ثم حصر صفد وكوكب والكرك، فكان كل حصن يملكه يهدمه ويقطع أسباب الفرنج من الشام {cite:kamil-ibn-al-athir p. 161}."
   en: "After Jerusalem Saladin took Hunin, then invested Safad, Kawkab and al-Karak — razing each castle that fell, severing the Frankish roots in Syria {cite:kamil-ibn-al-athir p. 161}."
+  es: "Después de Jerusalén, Saladino tomó Hunin, luego sitió Safad, Kawkab y al-Karak, arrasando cada castillo que caía y cortando las raíces francas en Siria {cite:kamil-ibn-al-athir p. 161}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/hunin, sources: [source/kamil-ibn-al-athir] }

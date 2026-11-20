@@ -1,12 +1,13 @@
 id: event/death-qutb-al-din-mardin-580
 class: event
 kind: death
-label: { ar: "وفاة قطب الدين صاحب ماردين وملك ولده", en: "death of Qutb al-Din Ilghazi of Mardin — his son succeeds" }
+label: { ar: "وفاة قطب الدين صاحب ماردين وملك ولده", en: "death of Qutb al-Din Ilghazi of Mardin — his son succeeds", es: "Muerte de Qutb al-Din Ilghazi de Mardin: su hijo le sucede." }
 date:
   start: { edtf: "1184~", hijri: "0580", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
   ar: "توفي صاحب ماردين قطب الدين إيلغازي الأرتقي وملك ولده من بعده {cite:kamil-ibn-al-athir p. 129}."
   en: "Qutb al-Din Ilghazi II, the Artuqid lord of Mardin, died and his son succeeded him {cite:kamil-ibn-al-athir p. 129}."
+  es: "Qutb al-Din Ilghazi II, el señor artúquida de Mardin, murió y su hijo le sucedió {cite:kamil-ibn-al-athir p. 129}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/mardin, sources: [source/kamil-ibn-al-athir] }

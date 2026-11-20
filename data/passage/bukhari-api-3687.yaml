@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "3687"
-label: { ar: "صحيح البخاري 3687 — الأب والأبوة", en: "Sahih al-Bukhari 3687 — the father and fatherhood", ur: "صحیح بخاری 3687 — باپ اور والدیت" }
+label: { ar: "صحيح البخاري 3687 — الأب والأبوة", en: "Sahih al-Bukhari 3687 — the father and fatherhood", ur: "صحیح بخاری 3687 — باپ اور والدیت", es: "Sahih al-Bukhari 3687 — El padre y la paternidad" }
 text: "حَدَّثَنَا يَحْيَى بْنُ سُلَيْمَانَ، قَالَ حَدَّثَنِي ابْنُ وَهْبٍ، قَالَ حَدَّثَنِي عُمَرُ، هُوَ ابْنُ مُحَمَّدٍ أَنَّ زَيْدَ بْنَ أَسْلَمَ، حَدَّثَهُ عَنْ أَبِيهِ، قَالَ سَأَلَنِي ابْنُ عُمَرَ عَنْ بَعْضِ، شَأْنِهِ ـ يَعْنِي عُمَرَ ـ فَأَخْبَرْتُهُ. فَقَالَ، مَا رَأَيْتُ أَحَدًا قَطُّ بَعْدَ رَسُولِ اللَّهِ مِنْ حِينَ قُبِضَ كَانَ أَجَدَّ وَأَجْوَدَ حَتَّى انْتَهَى مِنْ عُمَرَ بْنِ الْخَطَّابِ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 3687، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 3687 (Companions of the Prophet), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "صحیح بخاری کی حدیث نمبر 3687، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih al-Bukhari, n.º 3687 (Compañeros del Profeta), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3687 (book 62 hadith 37); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

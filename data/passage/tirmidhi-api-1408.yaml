@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1408"
-label: { ar: "جامع الترمذي 1408 — وصية أو عهد أخير", en: "Jami' al-Tirmidhi 1408 — a testament or parting counsel", ur: "جامع ترمذی 1408 — وصیت یا آخری نصیحت" }
+label: { ar: "جامع الترمذي 1408 — وصية أو عهد أخير", en: "Jami' al-Tirmidhi 1408 — a testament or parting counsel", ur: "جامع ترمذی 1408 — وصیت یا آخری نصیحت", es: "Jami' al-Tirmidhi 1408 — un testamento o consejo de despedida" }
 text: "… عَلْقَمَةَ بْنِ مَرْثَدٍ، عَنْ سُلَيْمَانَ بْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، قَالَ كَانَ رَسُولُ اللَّهِ إِذَا بَعَثَ أَمِيرًا عَلَى جَيْشٍ أَوْصَاهُ فِي خَاصَّةِ نَفْسِهِ بِتَقْوَى اللَّهِ وَمَنْ مَعَهُ مِنَ الْمُسْلِمِينَ خَيْرًا فَقَالَ \" اغْزُوا بِسْمِ اللَّهِ وَفِي سَبِيلِ اللَّهِ قَاتِلُوا مَنْ كَفَرَ بِاللَّهِ اغْزُوا وَلاَ تَغُلُّوا وَلاَ تَغْدِرُوا وَلاَ تُمَثِّلُوا وَلاَ تَقْتُلُوا وَلِيدًا \". وَفِي الْحَدِيثِ قِصَّةٌ. …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 1408، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Jami' al-Tirmidhi, no. 1408 (The Book on Blood Money), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "جامع ترمذی کی حدیث نمبر 1408، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe de Jami' al-Tirmidhi, n.º 1408 (El Libro de la Indemnización por Daños Sangrientos), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1408 (book 16 hadith 24); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

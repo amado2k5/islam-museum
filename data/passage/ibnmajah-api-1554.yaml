@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "1554"
-label: { ar: "سنن ابن ماجه 1554 — دفن وقبر ومرقد", en: "Sunan Ibn Majah 1554 — a burial, grave or resting place", ur: "سنن ابن ماجہ 1554 — تدفین، قبر اور مرقد" }
+label: { ar: "سنن ابن ماجه 1554 — دفن وقبر ومرقد", en: "Sunan Ibn Majah 1554 — a burial, grave or resting place", ur: "سنن ابن ماجہ 1554 — تدفین، قبر اور مرقد", es: "Sunan Ibn Majah 1554 — un lugar de entierro, tumba o descanso." }
 text: "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا حَكَّامُ بْنُ سَلْمٍ الرَّازِيُّ، قَالَ سَمِعْتُ عَلِيَّ بْنَ عَبْدِ الأَعْلَى، يَذْكُرُ عَنْ أَبِيهِ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ: قَالَ رَسُولُ اللَّهِ ـ \" اللَّحْدُ لَنَا وَالشَّقُّ لِغَيْرِنَا \"."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 1554، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sunan Ibn Majah, no. 1554 (Chapters Regarding Funerals), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "سنن ابن ماجہ کی حدیث نمبر 1554، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sunan Ibn Majah, n.° 1554 (Capítulos sobre los funerales), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1554 (book 6 hadith 122); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

@@ -1,12 +1,13 @@
 id: event/saladin-homs-hama-573
 class: event
 kind: conquest
-label: { ar: "ملك صلاح الدين حمص وحماة", en: "Saladin takes Homs and Hama" }
+label: { ar: "ملك صلاح الدين حمص وحماة", en: "Saladin takes Homs and Hama", es: "Saladino toma Homs y Hama" }
 date:
   start: { edtf: "1177~", hijri: "0573", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
   ar: "ملك صلاح الدين مدينتي حمص وحماة، فأما حماة فدخلها بعد أن امتنع أهلها فقاتلهم من الغد فملك البلد وأمّن أهله وامتنعت عليه القلعة {cite:kamil-ibn-al-athir p. 64-65}."
   en: "Saladin took Homs and Hama — Hama's townsfolk resisted a day, then the city fell; he gave them amān while the citadel still held out {cite:kamil-ibn-al-athir p. 64-65}."
+  es: "Saladino tomó Homs y Hama; los habitantes de Hama resistieron un día, luego la ciudad cayó; les dio amān mientras la ciudadela aún resistía {cite:kamil-ibn-al-athir p. 64-65}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/homs, sources: [source/kamil-ibn-al-athir] }

@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "565"
-label: { ar: "موطأ مالك 565 — ساعة الاحتضار والوفاة", en: "Muwatta Malik 565 — a deathbed and last hours", ur: "موطأ مالک 565 — وقتِ وفات اور آخری لمحات" }
+label: { ar: "موطأ مالك 565 — ساعة الاحتضار والوفاة", en: "Muwatta Malik 565 — a deathbed and last hours", ur: "موطأ مالک 565 — وقتِ وفات اور آخری لمحات", es: "Muwatta Malik 565 — lecho de muerte y últimas horas" }
 text: "حَدَّثَنِي يَحْيَى، عَنْ مَالِكٍ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ عَبَّادِ بْنِ عَبْدِ اللَّهِ بْنِ الزُّبَيْرِ، أَنَّ عَائِشَةَ، زَوْجَ النَّبِيِّ أَخْبَرَتْهُ أَنَّهَا سَمِعَتْ رَسُولَ اللَّهِ قَبْلَ أَنْ يَمُوتَ وَهُوَ مُسْتَنِدٌ إِلَى صَدْرِهَا وَأَصْغَتْ إِلَيْهِ يَقُولُ \" اللَّهُمَّ اغْفِرْ لِي وَارْحَمْنِي وَأَلْحِقْنِي بِالرَّفِيقِ الأَعْلَى \"."
 summary:
   ar: "حديث في موطأ مالك، رقم 565، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Muwatta Malik, no. 565 (Burials), that mentions a deathbed and last hours. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "موطأ مالک کی حدیث نمبر 565، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Muwatta Malik, n.° 565 (Entierros), menciona un lecho de muerte y las últimas horas. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/ihtidar, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 565 (book 16 hadith 46); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

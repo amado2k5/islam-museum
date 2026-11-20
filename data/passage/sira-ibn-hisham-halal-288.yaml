@@ -3,12 +3,13 @@ class: passage
 unit: chapter
 work: work/sira-ibn-ishaq-ibn-hisham
 ref: "288"
-label: { ar: "السيرة النبوية لابن هشام، ص 288 — الحرام", en: "Ibn Hisham's Sira, p. 288 — the unlawful", ur: "سیرت ابن ہشام، ص 288 — حرام" }
+label: { ar: "السيرة النبوية لابن هشام، ص 288 — الحرام", en: "Ibn Hisham's Sira, p. 288 — the unlawful", ur: "سیرت ابن ہشام، ص 288 — حرام", es: "Sira de Ibn Hisham, pág. 288 — lo ilícito" }
 text: "… قالَتْ قريش : قد أَحَلَّ محمدٌ وأصحابهُ الشَّهْرَ الحَرَامَ، وسفكوا فيه الدَّمَ، وأخذوا فيه المال، وأسروا فيه الرجال. قال ابن هشام: هي لعبد الله بن جَخْش : وَأَعْظَمُ مِنْهُ لَوْ يَرَى الرُّشْدَ رَاشِدُ نَعُدُونَ قَتْلاً فِي الْحَرَامِ عَظِيمَةً وَكُفْرٌ بِهِ، …"
 summary:
   ar: "مقطع من السيرة النبوية لابن هشام، ص 288، يذكر الحرام؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الحلال والحرام."
   en: "An excerpt from Ibn Hisham's Sira, p. 288, that mentions the unlawful; from the machine-read scan, quoted within forty words per the sources policy. The Halal and Haram Browser lists it."
   ur: "سیرت ابن ہشام، ص 288 کا اقتباس جس میں حرام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ حلال و حرام براؤزر اسے درج کرتا ہے۔"
+  es: "Un extracto de la Sira de Ibn Hisham, pág. 288, que menciona lo ilícito; tomado del escaneo de lectura automática, citado con un máximo de cuarenta palabras según la política de fuentes. El navegador Halal y Haram lo incluye en su lista."
 relations:
   - { type: mentions, target: concept/halal-haram, sources: [source/ibn-hisham-sira] }
 provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/sira-ibn-hisham/20251231_20251231_0914, page 288; a window of at most 40 words chosen by the halal and haram detector (scripts/halal.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-ocr-1" }

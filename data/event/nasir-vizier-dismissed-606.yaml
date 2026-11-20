@@ -1,12 +1,13 @@
 id: event/nasir-vizier-dismissed-606
 class: event
 kind: other
-label: { ar: "عزل نصير الدين وزير الخليفة", en: "al-Nasir's vizier Nasir al-Din dismissed" }
+label: { ar: "عزل نصير الدين وزير الخليفة", en: "al-Nasir's vizier Nasir al-Din dismissed", es: "El visir de al-Nasir, Nasir al-Din, destituido" }
 date:
   start: { edtf: "1209~", hijri: "0606", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
   ar: "عزل الخليفة الناصر لدين الله وزيره نصير الدين بعد سنين من الوزارة {cite:kamil-ibn-al-athir p. 343}."
   en: "The caliph al-Nasir dismissed his long-serving vizier Nasir al-Din {cite:kamil-ibn-al-athir p. 343}."
+  es: "El califa al-Nasir destituyó a su visir de larga trayectoria, Nasir al-Din {cite:kamil-ibn-al-athir p. 343}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/kamil-ibn-al-athir] }

@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2179"
-label: { ar: "صحيح مسلم 2179 — دفن وقبر ومرقد", en: "Sahih Muslim 2179 — a burial, grave or resting place", ur: "صحیح مسلم 2179 — تدفین، قبر اور مرقد" }
+label: { ar: "صحيح مسلم 2179 — دفن وقبر ومرقد", en: "Sahih Muslim 2179 — a burial, grave or resting place", ur: "صحیح مسلم 2179 — تدفین، قبر اور مرقد", es: "Sahih Muslim 2179 — un lugar de entierro, tumba o descanso" }
 text: "… أَثْوَابٍ بِيضٍ سَحُولِيَّةٍ مِنْ كُرْسُفٍ لَيْسَ فِيهَا قَمِيصٌ وَلاَ عِمَامَةٌ أَمَّا الْحُلَّةُ فَإِنَّمَا شُبِّهَ عَلَى النَّاسِ فِيهَا أَنَّهَا اشْتُرِيَتْ لَهُ لِيُكَفَّنَ فِيهَا فَتُرِكَتِ الْحُلَّةُ وَكُفِّنَ فِي ثَلاَثَةِ أَثْوَابٍ بِيضٍ سَحُولِيَّةٍ فَأَخَذَهَا عَبْدُ اللَّهِ بْنُ أَبِي بَكْرٍ فَقَالَ لأَحْبِسَنَّهَا حَتَّى أُكَفِّنَ فِيهَا نَفْسِي ثُمَّ قَالَ لَوْ رَضِيَهَا اللَّهُ عَزَّ وَجَلَّ لِنَبِيِّهِ لَكَفَّنَهُ فِيهَا. فَبَاعَهَا وَتَصَدَّقَ بِثَمَنِهَا."
 summary:
   ar: "حديث في صحيح مسلم، رقم 2179، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 2179 (The Book of Prayer - Funerals), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح مسلم کی حدیث نمبر 2179، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sahih Muslim, n.° 2179 (El Libro de la Oración - Funerales), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2179 (book 11 hadith 57); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

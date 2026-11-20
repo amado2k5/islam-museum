@@ -3,12 +3,13 @@ class: passage
 unit: chapter
 work: work/zad-al-maad
 ref: "1:1105"
-label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 1105 — الطب والطبيب، المرض والمريض", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 1105 — medicine and the physician; illness and the sick", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 1105 — طب اور طبیب، بیماری اور بیمار" }
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 1105 — الطب والطبيب، المرض والمريض", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 1105 — medicine and the physician; illness and the sick", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 1105 — طب اور طبیب، بیماری اور بیمار", es: "Zad al-Ma'ad de Ibn al-Qayyim, volumen escaneado 1, pág. 1105 — Medicina y el médico; la enfermedad y los enfermos" }
 text: "وصايا لأبقراط وصايا للحارث بن كلدة وغيره وصايا لطبيب وصايا للشافعي محاذر لأفلاطون محاذر لطبيب المأمون وصية لأبقراط وصية لجالينوس فصل أربعة أشياء تمرض البدن مضار الكلام الكثير مضار النوم الكثير مضار الأكل الكثير مضار الجماع الكثير أنفع الجماع نصل.. …"
 summary:
   ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 1105، يذكر الطب والطبيب، والمرض والمريض؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
   en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 1105, that mentions medicine and the physician, illness and the sick; from the machine-read scan, quoted within forty words per the sources policy."
   ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 1105 کا اقتباس جس میں طب اور طبیب، بیماری اور بیمار کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+  es: "Un extracto de Zad al-Ma'ad de Ibn al-Qayyim, volumen escaneado 1, pág. 1105, que menciona la medicina y el médico, la enfermedad y los enfermos; tomado de la lectura automática, citado en un máximo de cuarenta palabras según la política de fuentes."
 relations:
   - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
 provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 1105; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }

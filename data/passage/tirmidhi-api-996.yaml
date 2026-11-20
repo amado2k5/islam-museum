@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "996"
-label: { ar: "جامع الترمذي 996 — دفن وقبر ومرقد", en: "Jami' al-Tirmidhi 996 — a burial, grave or resting place", ur: "جامع ترمذی 996 — تدفین، قبر اور مرقد" }
+label: { ar: "جامع الترمذي 996 — دفن وقبر ومرقد", en: "Jami' al-Tirmidhi 996 — a burial, grave or resting place", ur: "جامع ترمذی 996 — تدفین، قبر اور مرقد", es: "Jami' al-Tirmidhi 996 — un lugar de entierro, tumba o descanso." }
 text: "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا حَفْصُ بْنُ غِيَاثٍ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ كُفِّنَ النَّبِيُّ فِي ثَلاَثَةِ أَثْوَابٍ بِيضٍ يَمَانِيَةٍ لَيْسَ فِيهَا قَمِيصٌ وَلاَ عِمَامَةٌ. قَالَ فَذَكَرُوا لِعَائِشَةَ قَوْلَهُمْ فِي ثَوْبَيْنِ وَبُرْدِ حِبَرَةٍ. فَقَالَتْ قَدْ أُتِيَ بِالْبُرْدِ وَلَكِنَّهُمْ رَدُّوهُ وَلَمْ يُكَفِّنُوهُ فِيهِ. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 996، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Jami' al-Tirmidhi, no. 996 (The Book on Jana''iz (Funerals)), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "جامع ترمذی کی حدیث نمبر 996، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Jami' al-Tirmidhi, n.° 996 (El Libro de los Funerales), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 996 (book 10 hadith 32); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

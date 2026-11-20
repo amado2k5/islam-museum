@@ -1,12 +1,13 @@
 id: event/death-ibn-mardanish-568
 class: event
 kind: death
-label: { ar: "وفاة ابن مردنيش وملك يوسف بن عبد المؤمن بلاده", en: "death of Ibn Mardanīsh — Yūsuf ibn ʿAbd al-Muʾmin takes his lands" }
+label: { ar: "وفاة ابن مردنيش وملك يوسف بن عبد المؤمن بلاده", en: "death of Ibn Mardanīsh — Yūsuf ibn ʿAbd al-Muʾmin takes his lands", es: "Muerte de Ibn Mardanīsh: Yūsuf ibn ʿAbd al-Muʾmin toma posesión de sus tierras." }
 date:
   start: { edtf: "1172~", hijri: "0568", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
   ar: "توفي ابن مردنيش صاحب شرق الأندلس فملك يوسف بن عبد المؤمن الموحدي بلاده، فاستتب له شرق الأندلس وقفصة وأعمالها وانضافت إلى ما ملكه من المغرب {cite:kamil-ibn-al-athir p. 37}."
   en: "Ibn Mardanīsh, lord of the Spanish east, died and the Almohad Yūsuf ibn ʿAbd al-Muʾmin took his lands — the eastern provinces and Qafsa fell to him, joined to his Maghreb realm {cite:kamil-ibn-al-athir p. 37}."
+  es: "Ibn Mardanīsh, señor del oriente español, murió y el almohade Yūsuf ibn ʿAbd al-Muʾmin tomó sus tierras: las provincias orientales y Qafsa cayeron en sus manos, unidas a su reino del Magreb {cite:kamil-ibn-al-athir p. 37}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/al-andalus, sources: [source/kamil-ibn-al-athir] }

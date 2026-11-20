@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "1430"
-label: { ar: "سنن ابن ماجه 1430 — جمع القرآن والمصاحف", en: "Sunan Ibn Majah 1430 — the collection of the Qur'an and the codices", ur: "سنن ابن ماجہ 1430 — جمعِ قرآن اور مصاحف" }
+label: { ar: "سنن ابن ماجه 1430 — جمع القرآن والمصاحف", en: "Sunan Ibn Majah 1430 — the collection of the Qur'an and the codices", ur: "سنن ابن ماجہ 1430 — جمعِ قرآن اور مصاحف", es: "Sunan Ibn Majah 1430 — la colección del Corán y los códices" }
 text: "حَدَّثَنَا يَعْقُوبُ بْنُ حُمَيْدِ بْنِ كَاسِبٍ، حَدَّثَنَا الْمُغِيرَةُ بْنُ عَبْدِ الرَّحْمَنِ الْمَخْزُومِيُّ، عَنْ يَزِيدَ بْنِ أَبِي عُبَيْدٍ، عَنْ سَلَمَةَ بْنِ الأَكْوَعِ، أَنَّهُ كَانَ يَأْتِي إِلَى سُبْحَةِ الضُّحَى فَيَعْمِدُ إِلَى الأُسْطُوَانَةِ دُونَ الْمُصْحَفِ فَيُصَلِّي قَرِيبًا مِنْهَا فَأَقُولُ لَهُ أَلاَ تُصَلِّي هَا هُنَا وَأُشِيرُ إِلَى بَعْضِ نَوَاحِي الْمَسْجِدِ فَيَقُولُ إِنِّي رَأَيْتُ رَسُولَ اللَّهِ ـ يَتَحَرَّى هَذَا الْمُقَامَ."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 1430، يذكر جمع القرآن والمصاحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
   en: "A report in Sunan Ibn Majah, no. 1430 (Establishing the Prayer and the Sunnah Regarding Them), that mentions the collection of the Qur'an and the codices. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
   ur: "سنن ابن ماجہ کی حدیث نمبر 1430، جس میں جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Sunan Ibn Majah, n.° 1430 (Establecimiento de la oración y la Sunnah al respecto), menciona la colección del Corán y los códices. El navegador del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
 relations:
   - { type: mentions, target: concept/mushaf, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1430 (book 5 hadith 628); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

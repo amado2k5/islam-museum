@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "546"
-label: { ar: "موطأ مالك 546 — دفن وقبر ومرقد", en: "Muwatta Malik 546 — a burial, grave or resting place", ur: "موطأ مالک 546 — تدفین، قبر اور مرقد" }
+label: { ar: "موطأ مالك 546 — دفن وقبر ومرقد", en: "Muwatta Malik 546 — a burial, grave or resting place", ur: "موطأ مالک 546 — تدفین، قبر اور مرقد", es: "Muwatta Malik 546 — un lugar de entierro, tumba o descanso." }
 text: "… أَنَّ رَسُولَ اللَّهِ تُوُفِّيَ يَوْمَ الاِثْنَيْنِ وَدُفِنَ يَوْمَ الثُّلاَثَاءِ وَصَلَّى النَّاسُ عَلَيْهِ أَفْذَاذًا لاَ يَؤُمُّهُمْ أَحَدٌ. فَقَالَ نَاسٌ يُدْفَنُ عِنْدَ الْمِنْبَرِ. وَقَالَ آخَرُونَ يُدْفَنُ بِالْبَقِيعِ. فَجَاءَ أَبُو بَكْرٍ الصِّدِّيقُ فَقَالَ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" مَا دُفِنَ نَبِيٌّ قَطُّ إِلاَّ فِي مَكَانِهِ الَّذِي تُوُفِّيَ فِيهِ \". فَحُفِرَ لَهُ فِيهِ فَلَمَّا كَانَ عِنْدَ غُسْلِهِ أَرَادُوا نَزْعَ …"
 summary:
   ar: "حديث في موطأ مالك، رقم 546، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Muwatta Malik, no. 546 (Burials), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "موطأ مالک کی حدیث نمبر 546، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "En el Muwatta Malik, n.º 546 (Sepulturas), se menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, propiedades, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 546 (book 16 hadith 27); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

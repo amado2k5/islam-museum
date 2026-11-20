@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "18"
-label: { ar: "سنن أبي داود 18 — الأب والأبوة", en: "Sunan Abi Dawud 18 — the father and fatherhood", ur: "سنن ابی داؤد 18 — باپ اور والدیت" }
+label: { ar: "سنن أبي داود 18 — الأب والأبوة", en: "Sunan Abi Dawud 18 — the father and fatherhood", ur: "سنن ابی داؤد 18 — باپ اور والدیت", es: "Sunan Abi Dawud 18 — El padre y la paternidad" }
 text: "حَدَّثَنَا مُحَمَّدُ بْنُ الْعَلاَءِ، حَدَّثَنَا ابْنُ أَبِي زَائِدَةَ، عَنْ أَبِيهِ، عَنْ خَالِدِ بْنِ سَلَمَةَ، - يَعْنِي الْفَأْفَاءَ - عَنِ الْبَهِيِّ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، قَالَتْ كَانَ رَسُولُ اللَّهِ يَذْكُرُ اللَّهَ عَزَّ وَجَلَّ عَلَى كُلِّ أَحْيَانِهِ."
 summary:
   ar: "حديث في سنن أبي داود، رقم 18، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sunan Abi Dawud, no. 18 (Purification (Kitab Al-Taharah)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "سنن ابی داؤد کی حدیث نمبر 18، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sunan Abi Dawud, n.° 18 (Purificación (Kitab Al-Taharah)), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 18 (book 1 hadith 18); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

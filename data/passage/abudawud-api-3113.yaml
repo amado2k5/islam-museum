@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "3113"
-label: { ar: "سنن أبي داود 3113 — ساعة الاحتضار والوفاة", en: "Sunan Abi Dawud 3113 — a deathbed and last hours", ur: "سنن ابی داؤد 3113 — وقتِ وفات اور آخری لمحات" }
+label: { ar: "سنن أبي داود 3113 — ساعة الاحتضار والوفاة", en: "Sunan Abi Dawud 3113 — a deathbed and last hours", ur: "سنن ابی داؤد 3113 — وقتِ وفات اور آخری لمحات", es: "Sunan Abi Dawud 3113 — lecho de muerte y últimas horas" }
 text: "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا عِيسَى بْنُ يُونُسَ، حَدَّثَنَا الأَعْمَشُ، عَنْ أَبِي سُفْيَانَ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ قَبْلَ مَوْتِهِ بِثَلاَثٍ قَالَ \" لاَ يَمُوتُ أَحَدُكُمْ إِلاَّ وَهُوَ يُحْسِنُ الظَّنَّ بِاللَّهِ \"."
 summary:
   ar: "حديث في سنن أبي داود، رقم 3113، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sunan Abi Dawud, no. 3113 (Funerals (Kitab Al-Jana'iz)), that mentions a deathbed and last hours. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "سنن ابی داؤد کی حدیث نمبر 3113، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato en Sunan Abi Dawud, n.º 3113 (Funerales (Kitab Al-Jana'iz)), menciona un lecho de muerte y las últimas horas. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/ihtidar, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3113 (book 21 hadith 25); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

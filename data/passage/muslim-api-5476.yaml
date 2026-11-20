@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "5476"
-label: { ar: "صحيح مسلم 5476 — أثر من الآثار المحفوظة", en: "Sahih Muslim 5476 — a relic kept after its owner", ur: "صحیح مسلم 5476 — محفوظ آثار و تبرکات" }
+label: { ar: "صحيح مسلم 5476 — أثر من الآثار المحفوظة", en: "Sahih Muslim 5476 — a relic kept after its owner", ur: "صحیح مسلم 5476 — محفوظ آثار و تبرکات", es: "Sahih Muslim 5476 — una reliquia conservada después de su dueño." }
 text: "… أَبِي، حَدَّثَنَا عُبَيْدُ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ اتَّخَذَ رَسُولُ اللَّهِ خَاتَمًا مِنْ وَرِقٍ فَكَانَ فِي يَدِهِ ثُمَّ كَانَ فِي يَدِ أَبِي بَكْرٍ ثُمَّ كَانَ فِي يَدِ عُمَرَ ثُمَّ كَانَ فِي يَدِ عُثْمَانَ حَتَّى وَقَعَ مِنْهُ فِي بِئْرِ أَرِيسٍ نَقْشُهُ مُحَمَّدٌ رَسُولُ اللَّهِ. قَالَ ابْنُ نُمَيْرٍ حَتَّى وَقَعَ فِي بِئْرِ. وَلَمْ يَقُلْ مِنْهُ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 5476، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 5476 (The Book of Clothes and Adornment), that mentions a relic kept after its owner. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح مسلم کی حدیث نمبر 5476، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe del Sahih Muslim, n.º 5476 (El Libro de la Vestimenta y el Adorno), menciona una reliquia conservada tras la muerte de su dueño. El Navegador de Testamentos la incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
 relations:
   - { type: mentions, target: concept/tabarruk, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5476 (book 37 hadith 91); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

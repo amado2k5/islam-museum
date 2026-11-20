@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "473"
-label: { ar: "موطأ مالك 473 — الأب والأبوة", en: "Muwatta Malik 473 — the father and fatherhood", ur: "موطأ مالک 473 — باپ اور والدیت" }
+label: { ar: "موطأ مالك 473 — الأب والأبوة", en: "Muwatta Malik 473 — the father and fatherhood", ur: "موطأ مالک 473 — باپ اور والدیت", es: "Muwatta Malik 473 — el padre y la paternidad" }
 text: "… بْنُ يَحْيَى بْنِ حَبَّانَ، جَالِسَيْنِ فَدَعَا مُحَمَّدٌ رَجُلاً فَقَالَ أَخْبِرْنِي بِالَّذِي، سَمِعْتَ مِنْ، أَبِيكَ. فَقَالَ الرَّجُلُ أَخْبَرَنِي أَبِي أَنَّهُ، أَتَى زَيْدَ بْنَ ثَابِتٍ فَقَالَ لَهُ كَيْفَ تَرَى فِي قِرَاءَةِ الْقُرْآنِ فِي سَبْعٍ فَقَالَ زَيْدٌ حَسَنٌ وَلأَنْ أَقْرَأَهُ فِي نِصْفٍ أَوْ عَشْرٍ أَحَبُّ إِلَىَّ وَسَلْنِي لِمَ ذَاكَ قَالَ فَإِنِّي أَسْأَلُكَ. قَالَ زَيْدٌ لِكَىْ أَتَدَبَّرَهُ وَأَقِفَ عَلَيْهِ."
 summary:
   ar: "حديث في موطأ مالك، رقم 473، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Muwatta Malik, no. 473 (The Qur'an), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "موطأ مالک کی حدیث نمبر 473، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato del Muwatta Malik, n.º 473 (El Corán), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 473 (book 15 hadith 4); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

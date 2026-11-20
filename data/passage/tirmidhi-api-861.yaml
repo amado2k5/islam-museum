@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "861"
-label: { ar: "جامع الترمذي 861 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Jami' al-Tirmidhi 861 — mentions of non-Muslim nations, religions and peoples", ur: "جامع ترمذی 861 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+label: { ar: "جامع الترمذي 861 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Jami' al-Tirmidhi 861 — mentions of non-Muslim nations, religions and peoples", ur: "جامع ترمذی 861 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Jami' al-Tirmidhi 861 — menciones de naciones, religiones y pueblos no musulmanes" }
 text: "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنِ الزُّبَيْرِ بْنِ عَرَبِيٍّ، أَنَّ رَجُلاً، سَأَلَ ابْنَ عُمَرَ عَنِ اسْتِلاَمِ الْحَجَرِ، فَقَالَ رَأَيْتُ النَّبِيَّ يَسْتَلِمُهُ وَيُقَبِّلُهُ. فَقَالَ الرَّجُلُ أَرَأَيْتَ إِنْ غُلِبْتُ عَلَيْهِ أَرَأَيْتَ إِنْ زُوحِمْتُ فَقَالَ ابْنُ عُمَرَ اجْعَلْ أَرَأَيْتَ بِالْيَمَنِ رَأَيْتُ النَّبِيَّ يَسْتَلِمُهُ وَيُقَبِّلُهُ. قَالَ وَهَذَا هُوَ الزُّبَيْرُ بْنُ عَرَبِيٍّ رَوَى عَنْهُ حَمَّادُ بْنُ زَيْدٍ وَالزُّبَيْرُ بْنُ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 861، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Jami' al-Tirmidhi, no. 861 (The Book on Hajj), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "جامع ترمذی کی حدیث نمبر 861، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un informe en Jami' al-Tirmidhi, n.° 861 (El Libro del Hajj), con menciones de naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
 relations:
   - { type: mentions, target: group/thamud, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 861 (book 9 hadith 54); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

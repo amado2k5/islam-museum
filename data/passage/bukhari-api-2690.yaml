@@ -3,12 +3,13 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "2690"
-label: { ar: "صحيح البخاري 2690 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 2690 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 2690 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+label: { ar: "صحيح البخاري 2690 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 2690 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 2690 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 2690 — menciones de naciones, religiones y pueblos no musulmanes" }
 text: "حَدَّثَنَا سَعِيدُ بْنُ أَبِي مَرْيَمَ، حَدَّثَنَا أَبُو غَسَّانَ، قَالَ حَدَّثَنِي أَبُو حَازِمٍ، عَنْ سَهْلِ بْنِ سَعْدٍ أَنَّ أُنَاسًا، مِنْ بَنِي عَمْرِو بْنِ عَوْفٍ كَانَ بَيْنَهُمْ شَىْءٌ، فَخَرَجَ إِلَيْهِمُ النَّبِيُّ فِي أُنَاسٍ مِنْ أَصْحَابِهِ يُصْلِحُ بَيْنَهُمْ، فَحَضَرَتِ الصَّلاَةُ، وَلَمْ يَأْتِ النَّبِيُّ، فَجَاءَ بِلاَلٌ، فَأَذَّنَ بِلاَلٌ بِالصَّلاَةِ، وَلَمْ يَأْتِ النَّبِيُّ فَجَاءَ إِلَى أَبِي بَكْرٍ فَقَالَ إِنَّ النَّبِيَّ …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 2690، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 2690 (Peacemaking), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "صحیح بخاری کی حدیث نمبر 2690، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+  es: "Un relato del Sahih al-Bukhari, n.º 2690 (La construcción de la paz), menciona naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
 relations:
   - { type: mentions, target: group/ghassan, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2690 (book 53 hadith 1); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
