@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "2068"
-label: { ar: "صحيح البخاري 2068 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 2068 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 2068 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 2068 — menciones de naciones, religiones y pueblos no musulmanes" }
+label: { ar: "صحيح البخاري 2068 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 2068 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 2068 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 2068 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sahih al-Bukhari 2068 — mentions de nations, religions et peuples non musulmans" }
 text: "حَدَّثَنَا مُعَلَّى بْنُ أَسَدٍ، حَدَّثَنَا عَبْدُ الْوَاحِدِ، حَدَّثَنَا الأَعْمَشُ، قَالَ ذَكَرْنَا عِنْدَ إِبْرَاهِيمَ الرَّهْنَ فِي السَّلَمِ فَقَالَ حَدَّثَنِي الأَسْوَدُ عَنْ عَائِشَةَا ـ أَنَّ النَّبِيَّ اشْتَرَى طَعَامًا مِنْ يَهُودِيٍّ إِلَى أَجَلٍ، وَرَهَنَهُ دِرْعًا مِنْ حَدِيدٍ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 2068، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 2068 (Sales and Trade), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "صحیح بخاری کی حدیث نمبر 2068، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe del Sahih al-Bukhari, n.º 2068 (Ventas y Comercio), menciona naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
+  fr: "Un rapport du Sahih al-Bukhari, n° 2068 (Commerce et Ventes), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages relatifs aux nations, religions, sectes et peuples non musulmans."
 relations:
   - { type: mentions, target: group/al-yahud, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2068 (book 34 hadith 21); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

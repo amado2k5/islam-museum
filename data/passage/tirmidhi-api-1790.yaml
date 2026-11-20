@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1790"
-label: { ar: "جامع الترمذي 1790 — ما خلّفه من تركة وميراث", en: "Jami' al-Tirmidhi 1790 — what was left behind: estate and inheritance", ur: "جامع ترمذی 1790 — ترکہ اور میراث", es: "Jami' al-Tirmidhi 1790 — lo que quedó: patrimonio y herencia" }
+label: { ar: "جامع الترمذي 1790 — ما خلّفه من تركة وميراث", en: "Jami' al-Tirmidhi 1790 — what was left behind: estate and inheritance", ur: "جامع ترمذی 1790 — ترکہ اور میراث", es: "Jami' al-Tirmidhi 1790 — lo que quedó: patrimonio y herencia", fr: "Jami' al-Tirmidhi 1790 — ce qui a été laissé derrière: patrimoine et héritage" }
 text: "… عُمَرَ وَأَبِي سَعِيدٍ وَابْنِ عَبَّاسٍ وَثَابِتِ بْنِ وَدِيعَةَ وَجَابِرٍ وَعَبْدِ الرَّحْمَنِ ابْنِ حَسَنَةَ. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ. وَقَدِ اخْتَلَفَ أَهْلُ الْعِلْمِ فِي أَكْلِ الضَّبِّ فَرَخَّصَ فِيهِ بَعْضُ أَهْلِ الْعِلْمِ مِنْ أَصْحَابِ النَّبِيِّ وَغَيْرِهِمْ وَكَرِهَهُ بَعْضُهُمْ. وَيُرْوَى عَنِ ابْنِ عَبَّاسٍ أَنَّهُ قَالَ أُكِلَ الضَّبُّ عَلَى مَائِدَةِ رَسُولِ اللَّهِ وَإِنَّمَا تَرَكَهُ رَسُولُ اللَّهِ تَقَذُّرًا."
 summary:
   ar: "حديث في جامع الترمذي، رقم 1790، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Jami' al-Tirmidhi, no. 1790 (The Book on Food), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "جامع ترمذی کی حدیث نمبر 1790، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 1790 (El Libro de la Alimentación), menciona lo que quedó: bienes y herencia. El Navegador de Testamentos lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
+  fr: "Un rapport du Jami' al-Tirmidhi, n° 1790 (Le Livre des Aliments), mentionne ce qui a été laissé derrière soi: biens et héritage. Le Navigateur des Testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1790 (book 25 hadith 3); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

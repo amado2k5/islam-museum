@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "1904"
-label: { ar: "سنن النسائي 1904 — دفن وقبر ومرقد", en: "Sunan al-Nasa'i 1904 — a burial, grave or resting place", ur: "سنن نسائی 1904 — تدفین، قبر اور مرقد", es: "Sunan al-Nasa'i 1904 — un lugar de entierro, tumba o descanso." }
+label: { ar: "سنن النسائي 1904 — دفن وقبر ومرقد", en: "Sunan al-Nasa'i 1904 — a burial, grave or resting place", ur: "سنن نسائی 1904 — تدفین، قبر اور مرقد", es: "Sunan al-Nasa'i 1904 — un lugar de entierro, tumba o descanso.", fr: "Sunan al-Nasa'i 1904 — un lieu de sépulture, une tombe ou un lieu de repos" }
 text: "أَخْبَرَنَا عُتْبَةُ بْنُ عَبْدِ اللَّهِ، قَالَ حَدَّثَنَا يُونُسُ بْنُ نَافِعٍ، عَنْ عَمْرِو بْنِ دِينَارٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ قَالَ رَسُولُ اللَّهِ \" اغْسِلُوا الْمُحْرِمَ فِي ثَوْبَيْهِ اللَّذَيْنِ أَحْرَمَ فِيهِمَا وَاغْسِلُوهُ بِمَاءٍ وَسِدْرٍ وَكَفِّنُوهُ فِي ثَوْبَيْهِ وَلاَ تُمِسُّوهُ بِطِيبٍ وَلاَ تُخَمِّرُوا رَأْسَهُ فَإِنَّهُ يُبْعَثُ يَوْمَ الْقِيَامَةِ مُحْرِمًا \"."
 summary:
   ar: "حديث في سنن النسائي، رقم 1904، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sunan al-Nasa'i, no. 1904 (The Book of Funerals), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "سنن نسائی کی حدیث نمبر 1904، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 1904 (El Libro de los Funerales), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
+  fr: "Un rapport du Sunan al-Nasa'i, n° 1904 (Le Livre des Funérailles), mentionne un lieu de sépulture, une tombe ou un lieu de repos. Le Navigateur des Testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1904 (book 21 hadith 87); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

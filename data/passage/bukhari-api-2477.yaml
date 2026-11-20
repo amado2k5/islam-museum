@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "2477"
-label: { ar: "صحيح البخاري 2477 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 2477 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 2477 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 2477 — menciones de naciones, religiones y pueblos no musulmanes" }
+label: { ar: "صحيح البخاري 2477 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 2477 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 2477 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 2477 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sahih al-Bukhari 2477 — mentions de nations, religions et peuples non musulmans" }
 text: "حَدَّثَنَا أَبُو عَاصِمٍ الضَّحَّاكُ بْنُ مَخْلَدٍ، عَنْ يَزِيدَ بْنِ أَبِي عُبَيْدٍ، عَنْ سَلَمَةَ بْنِ الأَكْوَعِ ـ أَنَّ النَّبِيَّ رَأَى نِيرَانًا تُوقَدُ يَوْمَ خَيْبَرَ. قَالَ \" عَلَى مَا تُوقَدُ هَذِهِ النِّيرَانُ \". قَالُوا عَلَى الْحُمُرِ الإِنْسِيَّةِ. قَالَ \" اكْسِرُوهَا، وَأَهْرِقُوهَا \". قَالُوا أَلاَ نُهْرِيقُهَا وَنَغْسِلُهَا قَالَ \" اغْسِلُوا \". قَالَ أَبُو عَبْد اللَّهِ كَانَ ابْنُ أَبِي …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 2477، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 2477 (Oppressions), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "صحیح بخاری کی حدیث نمبر 2477، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe del Sahih al-Bukhari, n.º 2477 (Opresiones), menciona naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista de textos del Corán, la Sunnah, la Seerah y libros sobre naciones, religiones, sectas y pueblos no musulmanes."
+  fr: "Un rapport du Sahih al-Bukhari, n° 2477 (Oppressions), mentionne les nations, religions et peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages relatifs aux nations, religions, sectes et peuples non musulmans."
 relations:
   - { type: mentions, target: group/jews-of-khaybar, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2477 (book 46 hadith 38); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

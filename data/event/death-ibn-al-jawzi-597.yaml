@@ -1,13 +1,14 @@
 id: event/death-ibn-al-jawzi-597
 class: event
 kind: death
-label: { ar: "وفاة ابن الجوزي", en: "death of Ibn al-Jawzi — Ramadan 597", es: "muerte de Ibn al-Jawzi - Ramadán 597" }
+label: { ar: "وفاة ابن الجوزي", en: "death of Ibn al-Jawzi — Ramadan 597", es: "muerte de Ibn al-Jawzi - Ramadán 597", fr: "mort d'Ibn al-Jawzi - Ramadan 597" }
 date:
   start: { edtf: "1200~", hijri: "0597", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
   ar: "توفي في رمضان أبو الفرج عبد الرحمن بن علي بن الجوزي الحنبلي الواعظ المؤرخ صاحب المنتظم وغيره من التصانيف التي بلغت المئات، وكان من أعيان علماء بغداد وأشهر الوعاظ في الإسلام {cite:kamil-ibn-al-athir p. 276}."
   en: "In Ramadan died Abu al-Faraj Abd al-Rahman ibn al-Jawzi — the Hanbali preacher and historian of al-Muntazam whose works ran to the hundreds, the most famous waiz of the age {cite:kamil-ibn-al-athir p. 276}."
   es: "En Ramadán murió Abu al-Faraj Abd al-Rahman ibn al-Jawzi, el predicador hanbalí e historiador de al-Muntazam, cuyas obras llegaron a los cientos, el waiz más famoso de la época {cite:kamil-ibn-al-athir p. 276}."
+  fr: "Au Ramadan mourut Abu al-Faraj Abd al-Rahman ibn al-Jawzi — le prédicateur et historien hanbalite d'al-Muntazam dont les œuvres se comptent par centaines, le waiz le plus célèbre de l'époque {cite:kamil-ibn-al-athir p. 276}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/kamil-ibn-al-athir] }

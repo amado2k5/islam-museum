@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1851"
-label: { ar: "موطأ مالك 1851 — دفن وقبر ومرقد", en: "Muwatta Malik 1851 — a burial, grave or resting place", ur: "موطأ مالک 1851 — تدفین، قبر اور مرقد", es: "Muwatta Malik 1851 — un lugar de entierro, tumba o descanso" }
+label: { ar: "موطأ مالك 1851 — دفن وقبر ومرقد", en: "Muwatta Malik 1851 — a burial, grave or resting place", ur: "موطأ مالک 1851 — تدفین، قبر اور مرقد", es: "Muwatta Malik 1851 — un lugar de entierro, tumba o descanso", fr: "Muwatta Malik 1851 — un lieu de sépulture, une tombe ou un lieu de repos" }
 text: "… عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ رَجُلٍ، مِنْ بَنِي أَسَدٍ أَنَّهُ قَالَ نَزَلْتُ أَنَا وَأَهْلِي، بِبَقِيعِ الْغَرْقَدِ فَقَالَ لِي أَهْلِي اذْهَبْ إِلَى رَسُولِ اللَّهِ فَاسْأَلْهُ لَنَا شَيْئًا نَأْكُلُهُ. وَجَعَلُوا يَذْكُرُونَ مِنْ حَاجَتِهِمْ. فَذَهَبْتُ إِلَى رَسُولِ اللَّهِ فَوَجَدْتُ عِنْدَهُ رَجُلاً يَسْأَلُهُ وَرَسُولُ اللَّهِ يَقُولُ \" لاَ أَجِدُ مَا أُعْطِيكَ \". فَتَوَلَّى الرَّجُلُ عَنْهُ …"
 summary:
   ar: "حديث في موطأ مالك، رقم 1851، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Muwatta Malik, no. 1851 (Sadaqa), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "موطأ مالک کی حدیث نمبر 1851، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Muwatta Malik, n.° 1851 (Sadaqa), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, propiedades, reliquias y tumbas."
+  fr: "Un rapport du Muwatta Malik, n° 1851 (Sadaqa), mentionne une sépulture, une tombe ou un lieu de repos. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1851 (book 58 hadith 11); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

@@ -1,13 +1,14 @@
 id: event/ifriqiya-reconquest
 class: event
 kind: revolt
-label: { ar: "انتقاض إفريقية وفتحها ثانية", en: "Ifriqiya's rising and reconquest (27 AH)", es: "El levantamiento y la reconquista de Ifriqiya (27 AH)" }
+label: { ar: "انتقاض إفريقية وفتحها ثانية", en: "Ifriqiya's rising and reconquest (27 AH)", es: "El levantamiento y la reconquista de Ifriqiya (27 AH)", fr: "Le soulèvement et la reconquête d'Ifriqiya (27 AH)" }
 date:
   start: { edtf: "0647", hijri: "0027", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 27؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 460}." }
 summary:
   ar: "انتقاض إفريقية: أرسل هرقل بطريقًا له إلى أهلها يأخذ منهم مثل ما أخذ المسلمون فأبوا وقالوا نؤدي ما كان يؤخذ منا وقد كان ينبغي له أن يسامحنا لما ناله المسلمون منا، فنزل البطريق قرطاجنة وجمع أهل إفريقية. وسيّر معاوية مع البطريق المطرود معاوية بن حديج السكوني فمضى إلى إفريقية وهي نار تضطرّم فنزل قمونية وأرسل البطريق إليه ثلاثين ألف مقاتل فقاتلوهم فانهزمت الروم واستولى ابن حديج على إفريقية {cite:kamil-ibn-al-athir p. 460}."
   en: "Ifriqiya rose: Heraclius's patrician landed at Carthage to reclaim the old tribute, and the Ifriqiyans answered «we pay what was always taken from us — he should have excused us after what the Muslims took.« Mu'awiya ibn Hudayj al-Sakuni marched into a burning land, camped at Qamuniya, and when the patrician hurled thirty thousand at him the Romans broke and Ibn Hudayj held Ifriqiya {cite:kamil-ibn-al-athir p. 460}."
   es: "Ifriqiya se alzó: el patricio de Heraclio desembarcó en Cartago para reclamar el antiguo tributo, y los ifriqiyanos respondieron: «Pagamos lo que siempre se nos ha quitado; debería habernos perdonado después de lo que los musulmanes se llevaron». Mu'awiya ibn Hudayj al-Sakuni marchó hacia una tierra en llamas, acampó en Qamuniya, y cuando el patricio le arrojó treinta mil hombres, los romanos se rompieron e Ibn Hudayj conservó Ifriqiya {cite:kamil-ibn-al-athir p. 460}."
+  fr: "L'Ifriqiya se souleva: le patricien d'Héraclius débarqua à Carthage pour réclamer l'ancien tribut, et les Ifriqiens répondirent: « Nous payons ce qui nous a toujours été pris — il aurait dû nous excuser après ce que les musulmans nous ont pris. » Mu'awiya ibn Hudayj al-Sakuni marcha sur un pays en flammes, campa à Qamuniya, et lorsque le patricien lui lança trente mille hommes, les Romains cédèrent et Ibn Hudayj tint l'Ifriqiya {cite: kamil-ibn-al-athir p. 460}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/ifriqiya, sources: [source/kamil-ibn-al-athir] }

@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "5261"
-label: { ar: "سنن النسائي 5261 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 5261 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 5261 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sunan al-Nasa'i 5261 — Menciones de naciones, religiones y pueblos no musulmanes" }
+label: { ar: "سنن النسائي 5261 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 5261 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 5261 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sunan al-Nasa'i 5261 — Menciones de naciones, religiones y pueblos no musulmanes", fr: "Sunan al-Nasa'i 5261 — mentions de nations, de religions et de peuples non musulmans" }
 text: "أَخْبَرَنَا أَحْمَدُ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا أَبِي، عَنْ صَالِحٍ، عَنْ مُحَمَّدِ بْنِ عَبْدِ اللَّهِ بْنِ عَمْرِو بْنِ هِشَامٍ، عَنْ بُكَيْرِ بْنِ عَبْدِ اللَّهِ بْنِ الأَشَجِّ، عَنْ بُسْرِ بْنِ سَعِيدٍ، أَخْبَرَتْنِي زَيْنَبُ الثَّقَفِيَّةُ، امْرَأَةُ عَبْدِ اللَّهِ أَنَّ رَسُولَ اللَّهِ قَالَ لَهَا \" إِذَا خَرَجْتِ إِلَى الْعِشَاءِ فَلاَ تَمَسَّ طِيبًا \"."
 summary:
   ar: "حديث في سنن النسائي، رقم 5261، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sunan al-Nasa'i, no. 5261 (The Book of Adornment), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "سنن نسائی کی حدیث نمبر 5261، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato del Sunan al-Nasa'i, n.º 5261 (El Libro de los Adornos), con menciones a naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
+  fr: "Un rapport du Sunan al-Nasa'i, n° 5261 (Le Livre de la parure), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages relatifs aux nations, religions, sectes et peuples non musulmans."
 relations:
   - { type: mentions, target: person/abu-jahl, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 5261 (book 48 hadith 222); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

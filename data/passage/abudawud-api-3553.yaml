@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "3553"
-label: { ar: "سنن أبي داود 3553 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Abi Dawud 3553 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابی داؤد 3553 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sunan Abi Dawud 3553 — menciones de naciones, religiones y pueblos no musulmanes" }
+label: { ar: "سنن أبي داود 3553 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Abi Dawud 3553 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابی داؤد 3553 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sunan Abi Dawud 3553 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sunan Abi Dawud 3553 — mentions de nations, religions et peuples non musulmans" }
 text: "حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى بْنِ فَارِسٍ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، قَالاَ حَدَّثَنَا بِشْرُ بْنُ عُمَرَ، حَدَّثَنَا مَالِكٌ، - يَعْنِي ابْنَ أَنَسٍ - عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، أَنَّ رَسُولَ اللَّهِ قَالَ \" أَيُّمَا رَجُلٍ أُعْمِرَ عُمْرَى لَهُ وَلِعَقِبِهِ فَإِنَّهَا لِلَّذِي يُعْطَاهَا لاَ تَرْجِعُ إِلَى الَّذِي أَعْطَاهَا لأَنَّهُ أَعْطَى عَطَاءً وَقَعَتْ …"
 summary:
   ar: "حديث في سنن أبي داود، رقم 3553، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sunan Abi Dawud, no. 3553 (Wages (Kitab Al-Ijarah)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "سنن ابی داؤد کی حدیث نمبر 3553، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sunan Abi Dawud, n.° 3553 (Wages (Kitab Al-Ijarah)), con menciones de naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
+  fr: "Un rapport du Sunan Abi Dawud, n° 3553 (Salaires (Kitab Al-Ijarah)), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages relatifs aux nations, religions, sectes et peuples non musulmans."
 relations:
   - { type: mentions, target: group/persians, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3553 (book 24 hadith 138); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

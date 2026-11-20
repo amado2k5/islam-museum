@@ -1,13 +1,14 @@
 id: event/samarqand-betrayal-605
 class: event
 kind: other
-label: { ar: "غدر صاحب سمرقند بالخوارزميين", en: "The lord of Samarqand betrays the Khwarazmians", es: "El señor de Samarcanda traiciona a los jorazmianos" }
+label: { ar: "غدر صاحب سمرقند بالخوارزميين", en: "The lord of Samarqand betrays the Khwarazmians", es: "El señor de Samarcanda traiciona a los jorazmianos", fr: "Le seigneur de Samarqand trahit les Khwarazmians" }
 date:
   start: { edtf: "1208~", hijri: "0605", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
   ar: "غدر صاحب سمرقند بالخوارزميين فأوقع بهم، وكان من فتن ما وراء النهر في هذه الأعوام {cite:kamil-ibn-al-athir p. 338}."
   en: "The lord of Samarqand betrayed the Khwarazmians and fell upon them — one of the Transoxanian upheavals of these years {cite:kamil-ibn-al-athir p. 338}."
   es: "El señor de Samarcanda traicionó a los jorezmitas y cayó sobre ellos, uno de los levantamientos transoxánicos de estos años {cita:kamil-ibn-al-athir p. 338}."
+  fr: "Le seigneur de Samarcande trahit les Khwarezmiens et s'abattit sur eux — l'un des bouleversements transoxaniens de ces années {cite:kamil-ibn-al-athir p. 338}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/samarqand, sources: [source/kamil-ibn-al-athir] }

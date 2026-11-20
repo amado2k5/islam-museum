@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1856"
-label: { ar: "موطأ مالك 1856 — وصية أو عهد أخير", en: "Muwatta Malik 1856 — a testament or parting counsel", ur: "موطأ مالک 1856 — وصیت یا آخری نصیحت", es: "Muwatta Malik 1856 — un testamento o consejo de despedida" }
+label: { ar: "موطأ مالك 1856 — وصية أو عهد أخير", en: "Muwatta Malik 1856 — a testament or parting counsel", ur: "موطأ مالک 1856 — وصیت یا آخری نصیحت", es: "Muwatta Malik 1856 — un testamento o consejo de despedida", fr: "Muwatta Malik 1856 — un testament ou un conseil d'adieu" }
 text: "باب مَا جَاءَ فِي طَلَبِ الْعِلْمِ حَدَّثَنِي عَنْ مَالِكٌ، أَنَّهُ بَلَغَهُ أَنَّ لُقْمَانَ الْحَكِيمَ، أَوْصَى ابْنَهُ فَقَالَ يَا بُنَىَّ جَالِسِ الْعُلَمَاءَ وَزَاحِمْهُمْ بِرُكْبَتَيْكَ فَإِنَّ اللَّهَ يُحْيِي الْقُلُوبَ بِنُورِ الْحِكْمَةِ كَمَا يُحْيِي اللَّهُ الأَرْضَ الْمَيْتَةَ بِوَابِلِ السَّمَاءِ"
 summary:
   ar: "حديث في موطأ مالك، رقم 1856، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Muwatta Malik, no. 1856 (Knowledge), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "موطأ مالک کی حدیث نمبر 1856، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Muwatta Malik, n.° 1856 (Conocimiento), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
+  fr: "Un rapport du Muwatta Malik, n° 1856 (Connaissance), mentionne un testament ou des dernières volontés. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1856 (book 59 hadith 1); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

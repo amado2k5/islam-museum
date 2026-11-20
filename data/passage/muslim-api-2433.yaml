@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2433"
-label: { ar: "صحيح مسلم 2433 — ما خلّفه من تركة وميراث", en: "Sahih Muslim 2433 — what was left behind: estate and inheritance", ur: "صحیح مسلم 2433 — ترکہ اور میراث", es: "Sahih Muslim 2433 — Lo que quedó: patrimonio y herencia" }
+label: { ar: "صحيح مسلم 2433 — ما خلّفه من تركة وميراث", en: "Sahih Muslim 2433 — what was left behind: estate and inheritance", ur: "صحیح مسلم 2433 — ترکہ اور میراث", es: "Sahih Muslim 2433 — Lo que quedó: patrimonio y herencia", fr: "Sahih Muslim 2433 — Ce qui a été laissé derrière: biens et héritage" }
 text: "… ابْنِ شِهَابٍ، أَخْبَرَنِي عَامِرُ بْنُ سَعْدٍ، عَنْ أَبِيهِ، سَعْدٍ أَنَّهُ أَعْطَى رَسُولُ اللَّهِ رَهْطًا وَأَنَا جَالِسٌ فِيهِمْ قَالَ فَتَرَكَ رَسُولُ اللَّهِ مِنْهُمْ رَجُلاً لَمْ يُعْطِهِ وَهُوَ أَعْجَبُهُمْ إِلَىَّ فَقُمْتُ إِلَى رَسُولِ اللَّهِ فَسَارَرْتُهُ فَقُلْتُ يَا رَسُولَ اللَّهِ مَا لَكَ عَنْ فُلاَنٍ وَاللَّهِ إِنِّي لأَرَاهُ مُؤْمِنًا. قَالَ \" أَوْ مُسْلِمًا \". فَسَكَتُّ قَلِيلاً ثُمَّ غَلَبَنِي مَا …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 2433، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 2433 (The Book of Zakat), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح مسلم کی حدیث نمبر 2433، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe del Sahih Muslim, n.º 2433 (El Libro del Zakat), menciona lo que se dejó: bienes y herencia. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
+  fr: "Un hadith du Sahih Muslim, n° 2433 (Le Livre de la Zakat), mentionne ce qui a été laissé en héritage. Le navigateur de textes religieux (Testaments Browser) le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2433 (book 12 hadith 170); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

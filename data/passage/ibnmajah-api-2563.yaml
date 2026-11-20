@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "2563"
-label: { ar: "سنن ابن ماجه 2563 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Ibn Majah 2563 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابن ماجہ 2563 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sunan Ibn Majah 2563 — menciones de naciones, religiones y pueblos no musulmanes" }
+label: { ar: "سنن ابن ماجه 2563 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Ibn Majah 2563 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابن ماجہ 2563 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sunan Ibn Majah 2563 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sunan Ibn Majah 2563 — mentions de nations, de religions et de peuples non musulmans" }
 text: "حَدَّثَنَا أَزْهَرُ بْنُ مَرْوَانَ، حَدَّثَنَا عَبْدُ الْوَارِثِ بْنُ سَعِيدٍ، حَدَّثَنَا الْقَاسِمُ بْنُ عَبْدِ الْوَاحِدِ، عَنْ عَبْدِ اللَّهِ بْنِ مُحَمَّدِ بْنِ عَقِيلٍ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، قَالَ قَالَ رَسُولُ اللَّهِ \" إِنَّ أَخْوَفَ مَا أَخَافُ عَلَى أُمَّتِي عَمَلُ قَوْمِ لُوطٍ \"."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 2563، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sunan Ibn Majah, no. 2563 (The Chapters on Legal Punishments), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "سنن ابن ماجہ کی حدیث نمبر 2563، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sunan Ibn Majah, n.° 2563 (Los capítulos sobre castigos legales), con menciones de naciones, religiones y pueblos no musulmanes. El navegador Umam lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
+  fr: "Un rapport du Sunan Ibn Majah, n° 2563 (Les chapitres sur les peines légales), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages sur les nations, les religions, les sectes et les peuples non musulmans."
 relations:
   - { type: mentions, target: concept/qawm-lut, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2563 (book 20 hadith 31); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

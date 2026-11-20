@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2015"
-label: { ar: "صحيح مسلم 2015 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih Muslim 2015 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح مسلم 2015 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih Muslim 2015: menciones de naciones, religiones y pueblos no musulmanes." }
+label: { ar: "صحيح مسلم 2015 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih Muslim 2015 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح مسلم 2015 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih Muslim 2015: menciones de naciones, religiones y pueblos no musulmanes.", fr: "Sahih Muslim 2015 — mentions de nations, religions et peuples non musulmans" }
 text: "وَحَدَّثَنَا عَمْرٌو النَّاقِدُ، حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ بْنِ سَعْدٍ، حَدَّثَنَا أَبِي، عَنْ مُحَمَّدِ، بْنِ إِسْحَاقَ قَالَ حَدَّثَنِي عَبْدُ اللَّهِ بْنُ أَبِي بَكْرِ بْنِ مُحَمَّدِ بْنِ عَمْرِو بْنِ حَزْمٍ الأَنْصَارِيُّ، عَنْ يَحْيَى بْنِ عَبْدِ اللَّهِ بْنِ عَبْدِ الرَّحْمَنِ بْنِ سَعْدِ بْنِ زُرَارَةَ، عَنْ أُمِّ هِشَامٍ بِنْتِ حَارِثَةَ بْنِ النُّعْمَانِ، قَالَتْ لَقَدْ كَانَ تَنُّورُنَا وَتَنُّورُ رَسُولِ اللَّهِ …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 2015، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 2015 (The Book of Prayer - Friday), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "صحیح مسلم کی حدیث نمبر 2015، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe del Sahih Muslim, n.º 2015 (El Libro de la Oración - Viernes), menciona naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
+  fr: "Un hadith du Sahih Muslim n° 2015 (Livre de la prière du vendredi) mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages relatifs aux nations, religions, sectes et peuples non musulmans."
 relations:
   - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2015 (book 7 hadith 65); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

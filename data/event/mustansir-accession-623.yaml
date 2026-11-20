@@ -1,13 +1,14 @@
 id: event/mustansir-accession-623
 class: event
 kind: other
-label: { ar: "خلافة المستنصر بالله", en: "al-Mustansir succeeds to the caliphate", es: "Al-Mustansir sucede en el califato." }
+label: { ar: "خلافة المستنصر بالله", en: "al-Mustansir succeeds to the caliphate", es: "Al-Mustansir sucede en el califato.", fr: "al-Mustansir succède au califat" }
 date:
   start: { edtf: "1226~", hijri: "0623", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
   ar: "بويع المستنصر بالله ابن الظاهر بالخلافة، ودام أمره حتى هلاك بغداد {cite:kamil-ibn-al-athir p. 465}."
   en: "al-Mustansir, son of al-Zahir, received the bay'a — the last caliph of Baghdad before its ruin {cite:kamil-ibn-al-athir p. 465}."
   es: "Al-Mustansir, hijo de Al-Zahir, recibió la bay'a, siendo el último califa de Bagdad antes de su ruina {cite:kamil-ibn-al-athir p. 465}."
+  fr: "al-Mustansir, fils d'al-Zahir, reçut la bay'a — le dernier calife de Bagdad avant sa ruine {cite:kamil-ibn-al-athir p. 465}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/kamil-ibn-al-athir] }

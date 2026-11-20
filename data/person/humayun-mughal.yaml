@@ -1,6 +1,6 @@
 id: person/humayun-mughal
 class: person
-label: { ar: "همايون بن بابر", en: "Humayun ibn Babur", es: "Humayun ibn Babur" }
+label: { ar: "همايون بن بابر", en: "Humayun ibn Babur", es: "Humayun ibn Babur", fr: "Humayun ibn Babur" }
 names:
   - { kind: full, lang: ar, value: "السلطان همايون بن بابر شاه" }
 gender: male
@@ -13,6 +13,7 @@ summary:
   ar: "السلطان همايون بن بابر شاه ملك الهند؛ وكان سبب موته سقوطه من سقف، فقال مؤرخاً لوفاته بالفارسي: «همايون بادشاه اربام افتاد» قاله في النور {cite:shadharat-dhahab p. 333-334}."
   en: "Sultan Humayun b. Babur, king of India — the cause of his death was a fall from a roof; the Persian chronogram of his death ran 'humayun badshah az bam uftad' {cite:shadharat-dhahab p. 333-334}."
   es: "El sultán Humayun b. Babur, rey de la India, falleció a causa de una caída desde un tejado; el cronograma persa de su muerte decía: «humayun badshah az bam uftad» {cita: shadharat-dhahab págs. 333-334}."
+  fr: "Sultan Humayun b. Babur, roi de l'Inde — la cause de sa mort fut une chute d'un toit; le chronogramme persan de sa mort disait 'humayun badshah az bam uftad' {cite:shadharat-dhahab p. 333-334}."
 died: { edtf: "1555~", hijri: "0962", calendar: julian, precision: year, status: tradition, derived: true, note: "وفيها (962)؛ مات بسقوطه من سقف؛ التحويل مشتق {cite:shadharat-dhahab p. 333}", sources: [source/shadharat-dhahab] }
 relations:
   - { type: born_in, target: place/kabul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

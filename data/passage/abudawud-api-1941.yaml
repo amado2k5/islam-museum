@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "1941"
-label: { ar: "سنن أبي داود 1941 — القراء", en: "Sunan Abi Dawud 1941 — the readers", ur: "سنن ابی داؤد 1941 — قراء", es: "Sunan Abi Dawud 1941 - los lectores" }
+label: { ar: "سنن أبي داود 1941 — القراء", en: "Sunan Abi Dawud 1941 — the readers", ur: "سنن ابی داؤد 1941 — قراء", es: "Sunan Abi Dawud 1941 - los lectores", fr: "Sunan Abi Dawud 1941 — les lecteurs" }
 text: "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا الْوَلِيدُ بْنُ عُقْبَةَ، حَدَّثَنَا حَمْزَةُ الزَّيَّاتُ، عَنْ حَبِيبِ بْنِ أَبِي ثَابِتٍ، عَنْ عَطَاءٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ كَانَ رَسُولُ اللَّهِ يُقَدِّمُ ضُعَفَاءَ أَهْلِهِ بِغَلَسٍ وَيَأْمُرُهُمْ يَعْنِي لاَ يَرْمُونَ الْجَمْرَةَ حَتَّى تَطْلُعَ الشَّمْسُ."
 summary:
   ar: "حديث في سنن أبي داود، رقم 1941، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
   en: "A report in Sunan Abi Dawud, no. 1941 (The Rites of Hajj (Kitab Al-Manasik Wa'l-Hajj)), that mentions the readers. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
   ur: "سنن ابی داؤد کی حدیث نمبر 1941، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sunan Abi Dawud, n.° 1941 (Los ritos del Hajj (Kitab Al-Manasik Wa'l-Hajj)), menciona a los lectores. El catálogo del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
+  fr: "Un rapport du Sunan Abi Dawud, n° 1941 (Les Rites du Hajj (Kitab Al-Manasik Wa'l-Hajj)), mentionne les lecteurs. Le catalogue du musée consacré à la lecture et à la transcription du Coran le répertorie avec les textes du Coran, la Sunna, la Sîra et les ouvrages traitant de ce sujet."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1941 (book 11 hadith 221); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

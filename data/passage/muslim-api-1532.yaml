@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1532"
-label: { ar: "صحيح مسلم 1532 — القراء", en: "Sahih Muslim 1532 — the readers", ur: "صحیح مسلم 1532 — قراء", es: "Sahih Muslim 1532 — los lectores" }
+label: { ar: "صحيح مسلم 1532 — القراء", en: "Sahih Muslim 1532 — the readers", ur: "صحیح مسلم 1532 — قراء", es: "Sahih Muslim 1532 — los lectores", fr: "Sahih Muslim 1532 — les lecteurs" }
 text: "… إِسْمَاعِيلَ بْنِ رَجَاءٍ، عَنْ أَوْسِ بْنِ ضَمْعَجٍ، عَنْ أَبِي مَسْعُودٍ الأَنْصَارِيِّ، قَالَ قَالَ رَسُولُ اللَّهِ \" يَؤُمُّ الْقَوْمَ أَقْرَؤُهُمْ لِكِتَابِ اللَّهِ فَإِنْ كَانُوا فِي الْقِرَاءَةِ سَوَاءً فَأَعْلَمُهُمْ بِالسُّنَّةِ فَإِنْ كَانُوا فِي السُّنَّةِ سَوَاءً فَأَقْدَمُهُمْ هِجْرَةً فَإِنْ كَانُوا فِي الْهِجْرَةِ سَوَاءً فَأَقْدَمُهُمْ سِلْمًا وَلاَ يَؤُمَّنَّ الرَّجُلُ الرَّجُلَ فِي سُلْطَانِهِ وَلاَ يَقْعُدْ فِي بَيْتِهِ عَلَى تَكْرِمَتِهِ إِلاَّ …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 1532، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
   en: "A report in Sahih Muslim, no. 1532 (The Book of Mosques and Places of Prayer), that mentions the readers. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
   ur: "صحیح مسلم کی حدیث نمبر 1532، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sahih Muslim, n.° 1532 (El Libro de las Mezquitas y Lugares de Oración), menciona a los lectores. El navegador del museo sobre cómo se leía y escribía el Corán lo enumera junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
+  fr: "Un rapport du Sahih Muslim, n° 1532 (Livre des mosquées et des lieux de prière), mentionne les lecteurs. Le catalogue du musée consacré à la lecture et à la transcription du Coran répertorie ce rapport avec les textes du Coran, la Sunna, la Sîra et les ouvrages traitant de ce sujet."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1532 (book 5 hadith 365); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

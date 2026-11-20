@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1222"
-label: { ar: "جامع الترمذي 1222 — الأب والأبوة", en: "Jami' al-Tirmidhi 1222 — the father and fatherhood", ur: "جامع ترمذی 1222 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1222 — El padre y la paternidad" }
+label: { ar: "جامع الترمذي 1222 — الأب والأبوة", en: "Jami' al-Tirmidhi 1222 — the father and fatherhood", ur: "جامع ترمذی 1222 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1222 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 1222 — le père et la paternité" }
 text: "… بْنُ عُيَيْنَةَ، عَنِ الزُّهْرِيِّ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ وَقَالَ قُتَيْبَةُ يَبْلُغُ بِهِ النَّبِيَّ قَالَ \" لاَ يَبِيعُ حَاضِرٌ لِبَادٍ \". قَالَ وَفِي الْبَابِ عَنْ طَلْحَةَ وَجَابِرٍ وَأَنَسٍ وَابْنِ عَبَّاسٍ وَحَكِيمِ بْنِ أَبِي يَزِيدَ عَنْ أَبِيهِ وَعَمْرِو بْنِ عَوْفٍ الْمُزَنِيِّ جَدِّ كَثِيرِ بْنِ عَبْدِ اللَّهِ وَرَجُلٍ مِنْ أَصْحَابِ النَّبِيِّ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 1222، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Jami' al-Tirmidhi, no. 1222 (The Book on Business), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "جامع ترمذی کی حدیث نمبر 1222، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 1222 (El Libro de los Negocios), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
+  fr: "Un rapport du Jami' al-Tirmidhi, n° 1222 (Le Livre des Affaires), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce rapport avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant du père."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1222 (book 14 hadith 21); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

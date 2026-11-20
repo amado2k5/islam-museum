@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1994"
-label: { ar: "جامع الترمذي 1994 — الأب والأبوة", en: "Jami' al-Tirmidhi 1994 — the father and fatherhood", ur: "جامع ترمذی 1994 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1994 — El padre y la paternidad" }
+label: { ar: "جامع الترمذي 1994 — الأب والأبوة", en: "Jami' al-Tirmidhi 1994 — the father and fatherhood", ur: "جامع ترمذی 1994 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1994 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 1994 — le père et la paternité" }
 text: "حَدَّثَنَا فَضَالَةُ بْنُ الْفَضْلِ الْكُوفِيُّ، حَدَّثَنَا أَبُو بَكْرِ بْنُ عَيَّاشٍ، عَنِ ابْنِ وَهْبِ بْنِ مُنَبِّهٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ، قَالَ قَالَ رَسُولُ اللَّهِ \" كَفَى بِكَ إِثْمًا أَنْ لاَ تَزَالَ مُخَاصِمًا \". وَهَذَا الْحَدِيثُ حَدِيثٌ غَرِيبٌ لاَ نَعْرِفُهُ إِلاَّ مِنْ هَذَا الْوَجْهِ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 1994، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Jami' al-Tirmidhi, no. 1994 (Chapters on Righteousness And Maintaining Good Relations With Relatives), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "جامع ترمذی کی حدیث نمبر 1994، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe de Jami' al-Tirmidhi, n.º 1994 (Capítulos sobre la rectitud y el mantenimiento de buenas relaciones con los familiares), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
+  fr: "Un rapport du Jami' al-Tirmidhi, n° 1994 (chapitres sur la piété et les bonnes relations familiales), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce sujet parmi les textes du Coran, de la Sunna, de la Sîra et les ouvrages consacrés à la paternité."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1994 (book 27 hadith 100); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

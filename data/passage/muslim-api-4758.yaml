@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "4758"
-label: { ar: "صحيح مسلم 4758 — وصية أو عهد أخير", en: "Sahih Muslim 4758 — a testament or parting counsel", ur: "صحیح مسلم 4758 — وصیت یا آخری نصیحت", es: "Sahih Muslim 4758 — un testamento o consejo de despedida" }
+label: { ar: "صحيح مسلم 4758 — وصية أو عهد أخير", en: "Sahih Muslim 4758 — a testament or parting counsel", ur: "صحیح مسلم 4758 — وصیت یا آخری نصیحت", es: "Sahih Muslim 4758 — un testamento o consejo de despedida", fr: "Sahih Muslim 4758 — un testament ou un conseil d'adieu" }
 text: "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ يَحْيَى بْنِ حُصَيْنٍ، قَالَ سَمِعْتُ جَدَّتِي، تُحَدِّثُ أَنَّهَا سَمِعَتِ النَّبِيَّ يَخْطُبُ فِي حَجَّةِ الْوَدَاعِ وَهُوَ يَقُولُ \" وَلَوِ اسْتُعْمِلَ عَلَيْكُمْ عَبْدٌ يَقُودُكُمْ بِكِتَابِ اللَّهِ فَاسْمَعُوا لَهُ وَأَطِيعُوا \"."
 summary:
   ar: "حديث في صحيح مسلم، رقم 4758، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 4758 (The Book on Government), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح مسلم کی حدیث نمبر 4758، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe del Sahih Muslim, n.º 4758 (El Libro del Gobierno), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
+  fr: "Un hadith du Sahih Muslim, n° 4758 (Livre du gouvernement), mentionne un testament ou des dernières volontés. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4758 (book 33 hadith 56); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "974"
-label: { ar: "جامع الترمذي 974 — وصية أو عهد أخير", en: "Jami' al-Tirmidhi 974 — a testament or parting counsel", ur: "جامع ترمذی 974 — وصیت یا آخری نصیحت", es: "Jami' al-Tirmidhi 974 — un testamento o consejo de despedida" }
+label: { ar: "جامع الترمذي 974 — وصية أو عهد أخير", en: "Jami' al-Tirmidhi 974 — a testament or parting counsel", ur: "جامع ترمذی 974 — وصیت یا آخری نصیحت", es: "Jami' al-Tirmidhi 974 — un testamento o consejo de despedida", fr: "Jami' al-Tirmidhi 974 — un testament ou un conseil d'adieu" }
 text: "حَدَّثَنَا إِسْحَاقُ بْنُ مَنْصُورٍ، أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ نُمَيْرٍ، حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ عُمَرَ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" مَا حَقُّ امْرِئٍ مُسْلِمٍ يَبِيتُ لَيْلَتَيْنِ وَلَهُ شَيْءٌ يُوصِي فِيهِ إِلاَّ وَوَصِيَّتُهُ مَكْتُوبَةٌ عِنْدَهُ \". قَالَ وَفِي الْبَابِ عَنِ ابْنِ أَبِي أَوْفَى. قَالَ أَبُو عِيسَى حَدِيثُ ابْنِ عُمَرَ حَدِيثٌ حَسَنٌ صَحِيحٌ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 974، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Jami' al-Tirmidhi, no. 974 (The Book on Jana''iz (Funerals)), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "جامع ترمذی کی حدیث نمبر 974، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 974 (El Libro de los Funerales), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
+  fr: "Un rapport du Jami' al-Tirmidhi, n° 974 (Livre des funérailles), mentionne un testament ou des dernières volontés. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 974 (book 10 hadith 10); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

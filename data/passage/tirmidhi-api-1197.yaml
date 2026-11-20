@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1197"
-label: { ar: "جامع الترمذي 1197 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Jami' al-Tirmidhi 1197 — mentions of non-Muslim nations, religions and peoples", ur: "جامع ترمذی 1197 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Jami' al-Tirmidhi 1197 — menciones de naciones, religiones y pueblos no musulmanes" }
+label: { ar: "جامع الترمذي 1197 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Jami' al-Tirmidhi 1197 — mentions of non-Muslim nations, religions and peoples", ur: "جامع ترمذی 1197 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Jami' al-Tirmidhi 1197 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Jami' al-Tirmidhi 1197 — mentions de nations, de religions et de peuples non musulmans" }
 text: "قَالَتْ زَيْنَبُ وَسَمِعْتُ أُمِّي أُمَّ سَلَمَةَ، تَقُولُ جَاءَتِ امْرَأَةٌ إِلَى رَسُولِ اللَّهِ فَقَالَتْ يَا رَسُولَ اللَّهِ إِنَّ ابْنَتِي تُوُفِّيَ عَنْهَا زَوْجُهَا وَقَدِ اشْتَكَتْ عَيْنَيْهَا أَفَنَكْحَلُهَا فَقَالَ رَسُولُ اللَّهِ \" لاَ \" مَرَّتَيْنِ أَوْ ثَلاَثَ مَرَّاتٍ كُلُّ ذَلِكَ يَقُولُ \" لاَ \". ثُمَّ قَالَ \" إِنَّمَا هِيَ أَرْبَعَةُ أَشْهُرٍ وَعَشْرًا وَقَدْ كَانَتْ إِحْدَاكُنَّ فِي الْجَاهِلِيَّةِ تَرْمِي …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 1197، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Jami' al-Tirmidhi, no. 1197 (The Book on Divorce and Li'an), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "جامع ترمذی کی حدیث نمبر 1197، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 1197 (El Libro del Divorcio y Li'an), con menciones de naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
+  fr: "Un rapport du Jami' al-Tirmidhi, n° 1197 (Livre du divorce et du li'an), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages relatifs aux nations, religions, sectes et peuples non musulmans."
 relations:
   - { type: mentions, target: group/al-mushrikun, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1197 (book 13 hadith 24); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

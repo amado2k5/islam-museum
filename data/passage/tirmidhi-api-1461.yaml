@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1461"
-label: { ar: "جامع الترمذي 1461 — جمع القرآن والمصاحف", en: "Jami' al-Tirmidhi 1461 — the collection of the Qur'an and the codices", ur: "جامع ترمذی 1461 — جمعِ قرآن اور مصاحف", es: "Jami' al-Tirmidhi 1461 — la colección del Corán y los códices" }
+label: { ar: "جامع الترمذي 1461 — جمع القرآن والمصاحف", en: "Jami' al-Tirmidhi 1461 — the collection of the Qur'an and the codices", ur: "جامع ترمذی 1461 — جمعِ قرآن اور مصاحف", es: "Jami' al-Tirmidhi 1461 — la colección del Corán y los códices", fr: "Jami' al-Tirmidhi 1461 — le recueil du Coran et des codex" }
 text: "… بْنُ عَبْدِ اللَّهِ فَوَجَدَ رَجُلاً قَدْ غَلَّ فَحَدَّثَ سَالِمٌ بِهَذَا الْحَدِيثِ فَأَمَرَ بِهِ فَأُحْرِقَ مَتَاعُهُ فَوُجِدَ فِي مَتَاعِهِ مُصْحَفٌ فَقَالَ سَالِمٌ بِعْ هَذَا وَتَصَدَّقْ بِثَمَنِهِ. قَالَ أَبُو عِيسَى هَذَا الْحَدِيثُ غَرِيبٌ لاَ نَعْرِفُهُ إِلاَّ مِنْ هَذَا الْوَجْهِ. وَالْعَمَلُ عَلَى هَذَا عِنْدَ بَعْضِ أَهْلِ الْعِلْمِ وَهُوَ قَوْلُ الأَوْزَاعِيِّ وَأَحْمَدَ وَإِسْحَاقَ. قَالَ وَسَأَلْتُ مُحَمَّدًا عَنْ هَذَا الْحَدِيثِ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 1461، يذكر جمع القرآن والمصاحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
   en: "A report in Jami' al-Tirmidhi, no. 1461 (The Book on Legal Punishments (Al-Hudud)), that mentions the collection of the Qur'an and the codices. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
   ur: "جامع ترمذی کی حدیث نمبر 1461، جس میں جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 1461 (El Libro de los Castigos Legales (Al-Hudud)), menciona la colección del Corán y los códices. El navegador del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
+  fr: "Un rapport du Jami' al-Tirmidhi, n° 1461 (Livre des peines légales (Al-Hudud)), mentionne la collection du Coran et des codex. Le catalogue du musée consacré à la lecture et à l'écriture du Coran répertorie ces documents avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de ce sujet."
 relations:
   - { type: mentions, target: concept/mushaf, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1461 (book 17 hadith 45); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

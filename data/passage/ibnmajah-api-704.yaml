@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "704"
-label: { ar: "سنن ابن ماجه 704 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Ibn Majah 704 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابن ماجہ 704 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sunan Ibn Majah 704 — menciones de naciones, religiones y pueblos no musulmanes" }
+label: { ar: "سنن ابن ماجه 704 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Ibn Majah 704 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابن ماجہ 704 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sunan Ibn Majah 704 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sunan Ibn Majah 704 — mentions de nations, de religions et de peuples non musulmans" }
 text: "حَدَّثَنَا هِشَامُ بْنُ عَمَّارٍ، وَمُحَمَّدُ بْنُ الصَّبَّاحِ، قَالاَ حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي لَبِيدٍ، عَنْ أَبِي سَلَمَةَ، عَنِ ابْنِ عُمَرَ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ ـ يَقُولُ \" لاَ تَغْلِبَنَّكُمُ الأَعْرَابُ عَلَى اسْمِ صَلاَتِكُمْ فَإِنَّهَا الْعِشَاءُ وَإِنَّهُمْ لَيُعْتِمُونَ بِالإِبِلِ \"."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 704، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sunan Ibn Majah, no. 704 (The Book of the Prayer), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "سنن ابن ماجہ کی حدیث نمبر 704، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato del Sunan Ibn Majah, n.º 704 (El Libro de la Oración), con menciones a naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
+  fr: "Un rapport du Sunan Ibn Majah, n° 704 (Le Livre de la Prière), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages relatifs aux nations, religions, sectes et peuples non musulmans."
 relations:
   - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 704 (book 2 hadith 38); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

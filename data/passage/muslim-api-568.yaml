@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "568"
-label: { ar: "صحيح مسلم 568 — دفن وقبر ومرقد", en: "Sahih Muslim 568 — a burial, grave or resting place", ur: "صحیح مسلم 568 — تدفین، قبر اور مرقد", es: "Sahih Muslim 568 — un entierro, tumba o lugar de descanso" }
+label: { ar: "صحيح مسلم 568 — دفن وقبر ومرقد", en: "Sahih Muslim 568 — a burial, grave or resting place", ur: "صحیح مسلم 568 — تدفین، قبر اور مرقد", es: "Sahih Muslim 568 — un entierro, tumba o lugar de descanso", fr: "Sahih Muslim 568 — un lieu de sépulture, une tombe ou un lieu de repos" }
 text: "… مَعْنٍ الرَّقَاشِيُّ قَالاَ حَدَّثَنَا عُمَرُ بْنُ يُونُسَ، حَدَّثَنَا عِكْرِمَةُ بْنُ عَمَّارٍ، حَدَّثَنِي يَحْيَى بْنُ أَبِي كَثِيرٍ، قَالَ حَدَّثَنِي - أَوْ، حَدَّثَنَا - أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ، حَدَّثَنِي سَالِمٌ، مَوْلَى الْمَهْرِيِّ قَالَ خَرَجْتُ أَنَا وَعَبْدُ الرَّحْمَنِ بْنُ أَبِي بَكْرٍ، فِي جَنَازَةِ سَعْدِ بْنِ أَبِي وَقَّاصٍ فَمَرَرْنَا عَلَى بَابِ حُجْرَةِ عَائِشَةَ فَذَكَرَ عَنْهَا عَنِ النَّبِيِّ مِثْلَهُ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 568، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 568 (The Book of Purification), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح مسلم کی حدیث نمبر 568، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 568 (El Libro de la Purificación), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, propiedades, reliquias y tumbas."
+  fr: "Un hadith du Sahih Muslim, n° 568 (Le Livre de la Purification), mentionne un lieu de sépulture, une tombe ou un lieu de repos. Le navigateur de textes sacrés le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 568 (book 2 hadith 35); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

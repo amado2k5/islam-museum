@@ -1,13 +1,14 @@
 id: event/conquest-of-jundishapur
 class: event
 kind: conquest
-label: { ar: "مصالحة جنديسابور", en: "the Capitulation of Jundishapur (17 AH)", es: "La capitulación de Jundishapur (17 AH)" }
+label: { ar: "مصالحة جنديسابور", en: "the Capitulation of Jundishapur (17 AH)", es: "La capitulación de Jundishapur (17 AH)", fr: "la capitulation de Jundishapur (17 AH)" }
 date:
   start: { edtf: "0638", hijri: "0017", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 17؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 372}." }
 summary:
   ar: "مصالحة جنديسابور: سار المسلمون عن السوس فنزلوا بجنديسابور وكان زِرّ بن عبد الله محاصرًا أهلها، وانضم إليه المقترب بن ربيعة بعد مسير أبي موسى إلى البصرة فصالحوه {cite:kamil-ibn-al-athir p. 372}."
   en: "Jundishapur capitulated to Zirr ibn 'Abdallah, joined after Sus by al-Muqtarib ibn Rabi'a — the city that held out through the whole Khuzestan campaign accepted terms {cite:kamil-ibn-al-athir p. 372}."
   es: "Jundishapur capituló ante Zirr ibn 'Abdallah, al que se unió después de Sus al-Muqtarib ibn Rabi'a; la ciudad que resistió durante toda la campaña de Khuzestán aceptó los términos {cite:kamil-ibn-al-athir p. 372}."
+  fr: "Jundishapur capitula devant Zirr ibn 'Abdallah, rejointe après Sus par al-Muqtarib ibn Rabi'a — la ville qui a résisté tout au long de la campagne du Khuzestan a accepté les conditions {cite:kamil-ibn-al-athir p. 372}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/jundishapur, sources: [source/kamil-ibn-al-athir] }
