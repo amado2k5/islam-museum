@@ -36,7 +36,7 @@ flowchart TD
     BG --> GJ[(.cache/graph.json)]
     GJ --> DV[derive.ts]
     DV --> AB[astro build → dist/]
-    AB --> PF[pagefind ar/en/ur]
+    AB --> PF[pagefind ar/en/ur/fr/es]
     AB --> API[api/v1 export]
     PF --> R2S{r2-sync<br/>manifest diff}
     API --> R2S
@@ -57,7 +57,7 @@ sequenceDiagram
     participant CI as validate.yml
     participant F as Founder
 
-    A->>W: template → data yaml + ar/en/ur md
+    A->>W: template → data yaml + ar/en/ur/fr/es md
     A->>W: validate && test && coverage
     A->>GH: fetch, three-way merge
     A->>GH: push branch, open PR (≤25 entities)

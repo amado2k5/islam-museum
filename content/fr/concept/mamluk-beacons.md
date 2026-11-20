@@ -1,0 +1,20 @@
+---
+id: concept/mamluk-beacons
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/mamluk-beacons.md}
+---
+## Résumé
+[[person/al-qalqashandi|Al-Qalqashandi]] consacre le quatrième bab de la conclusion de [[work/subh-al-asha|Subh al-a'sha]] aux phares (manawir) et aux brûlages de récoltes (muhriqat), deux des moyens de l'État mamelouk de rencontrer les Mongols du royaume iranien ; la plupart qu'il cite de l'al-Ta'rif d'Ibn Fadl Allah al-Umari, puis commente le sujet. {cite:subh-al-asha-cairo-v14 p.398}
+
+## Les balises
+Les manawir sont « des lieux pour allumer le feu la nuit et la fumée le jour ». L'auteur d'al-Ta'rif affirme que lorsque le royaume d'Iran était aux mains d'Hulagu et de ses Mongols, et que la guerre faisait rage entre eux et ce royaume, des hauteurs étaient érigées sur des sommets de montagnes ou de hauts bâtiments où l'on allumait le feu la nuit et la fumée soulevée le jour pour avertir d'une attaque mongole, s'étendant des frontières les plus éloignées de l'islam comme al-Bira et al-Rahba jusqu'au siège du sultan à la citadelle, de sorte que tout ce qui se passait sur l'Euphrate le matin était connu avant la tombée de la nuit. {cite:subh-al-asha-cairo-v14 p.398} Chaque feu ou fumée comportait des « signes » par lesquels les différences dans la détection de l'ennemi étaient exprimées, désormais par nombre et autrement ; chaque balise avait des veilleurs et des guetteurs payés à un salaire fixe. {cite:subh-al-asha-cairo-v14 p.398}
+
+Il rapporte qu'à Ana, une ville de ce royaume, des phares étaient gardés par un groupe de bienfaiteurs sous un autre prétexte, les habitants les couvrant par amour pour les souverains d'Égypte. {cite:subh-al-asha-cairo-v14 p.398} Il énumère ensuite la chaîne de phares venant de Wadi al-Haykal, al-Qanatir, Qubaqib, al-Sukhna, Arak, Palmyra, al-Qaryatayn et Thaniyyat al-Uqab jusqu'au minaret de la Mariée à Damas, puis autour de Damas jusqu'à Ajlun, Baysan, Jénine et Qaqun, jusqu'aux hauteurs de la colline de Gaza, « après quoi il n'y a plus de phaise, et les nouvelles des Mongols ne circulent que par aile et par baride ». {cite:subh-al-asha-cairo-v14 p.399}
+
+Il rapporte que les phares furent négligés une fois que « Dieu fit la paix entre les deux parties », devenant « des traces qui se sont estompées ». Al-Qalqashandi ajoute que ces phares furent retirés des rois de l'Inde, ayant lu qu'il existe des phares sur les hautes montagnes de leurs terres dont le feu est visible encore plus loin, et juge que celui qui les a organisés en premier « apporta une sagesse royale », puisque le baride est le porteur le plus rapide des nouvelles, le [[concept/pigeon-post|pigeon]] plus rapide que le baride, et les phares plus rapides que le pigeon : « considérez que la première nouvelle sur l'Euphrate apparaît en Égypte en un jour et une nuit ». {cite:subh-al-asha-cairo-v14 p.400}
+
+## Les brûlages de cultures
+Les muhriqat étaient des lieux situés le long de la frontière orientale, à l'intérieur du royaume de la maison de Hulagu, où des hommes étaient envoyés pour brûler les récoltes, notamment des lieux dans les terres de Mossoul et de Sinjar. La raison, cite-t-il, est que les Mongols n'apportaient pas de fourrage pour leurs chevaux mais dépendaient de ce que la terre cultivait, de sorte qu'une fois les cultures de ces terres fertiles brûlées, elles étaient trop faibles pour envahir. {cite:subh-al-asha-cairo-v14 p.401} La méthode consistait à ce que les hommes se cachent auprès d'informateurs amicaux dans des grottes de montagne et des lits de vallées, attendent une journée de vent violent, lient le feu aux queues des renards sauvages et relâchent des chiens de chasse affamés à leur poursuite. {cite:subh-al-asha-cairo-v14 p.401}

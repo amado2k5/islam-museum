@@ -1,0 +1,12 @@
+---
+id: practice/dua-on-guarding-the-tongue-from-backbiting
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/practice/dua-on-guarding-the-tongue-from-backbiting.md}
+---
+## Resumen
+Lo que al-Nawawi recoge al final del capítulo sobre el silencio, de los primeros estudiosos y en el capítulo sobre la prohibición de las palabras por la espalda y el relato: sus definiciones, sus sentencias y los informes sobre ellos. {cite:al-adhkar-nawawi-arnaut-1994 p. 335}
+
+## Lo que al-Nawawi reúne en al-Adhkar
+Al-Nawawi termina el capítulo sobre el silencio con dichos. Dice que «من صمت نجا», quien guarda silencio se salva, tiene una cadena débil y que lo menciona solo para señalarlo, ya que es bien conocido {cite:al-adhkar-nawawi-arnaut-1994 p. 335}. Da el relato de Qass ibn Sa'ida y Aktham ibn Sayfi contando los defectos humanos, y la única cualidad que los cubre a todos, protegiendo la lengua {cite:al-adhkar-nawawi-arnaut-1994 p. 335}; y el informe de al-Qushayri de Abu Ali al-Daqqaq que dice que quien guarda silencio sobre la verdad es un demonio mudo {cite:al-adhkar-nawawi-arnaut-1994 p. 335}. El siguiente capítulo, sobre prohibir las palabras por las espaldas y contar historias, define la diversión por las espaldas como mencionar a una persona con lo que no le gusta, en cuerpo, religión, asuntos mundanos o de otro tipo, mediante palabra, escritura o gesto, y la narración como llevar las palabras de las personas unas a otras para causar corrupción; dice que ambas cosas están prohibidas por el consenso de los musulmanes {cite:al-adhkar-nawawi-arnaut-1994 p. 336}. Cita [[passage/quran-49-12|el Corán 49:12]], [[passage/quran-104-1|104:1]] y [[passage/quran-68-11|68:11]] {cite:al-adhkar-nawawi-arnaut-1994 p. 337}; de los dos Sahihs, de Hudhayfa, que [[person/muhammad|el Profeta]] dijo «لا يدخل الجنة نمام», ningún portador de cuentos entra en el Paraíso {cite:al-adhkar-nawawi-arnaut-1994 p. 337}; y de Muslim, Abu Dawud, al-Tirmidhi y al-Nasa'i, de Abu Hurayra, la definición «ذكرك أخاك بما يكره», mencionando a tu hermano con lo que no le gusta, que al-Tirmidhi llama bueno y sano {cite:al-adhkar-nawawi-arnaut-1994 p. 337}.

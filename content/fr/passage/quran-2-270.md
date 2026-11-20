@@ -1,0 +1,20 @@
+---
+id: passage/quran-2-270
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-2-270.md}
+---
+## Résumé
+Verset 270 de [[passage/quran-2|la sourate al-Baqara]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 270 sur 286 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+([[passage/quran-2-270|2:270]]), pp. 580 à 581. Al-Tabari explique la fin du verset ([[passage/quran-2-269|2:269]]) : ceux qui tirent les leçons des exhortations divines contenues dans ces versets, où Il exhorte les prodigues et autres personnes à se souvenir de Sa promesse et de Son avertissement, à s’abstenir de ce que leur Seigneur a interdit et à obéir à Ses ordres, sont les gens doués d’intelligence qui ont saisi le commandement et l’interdiction de Dieu ; les exhortations ne profitent qu’aux personnes sensées et raisonnables. {cite:tafsir-tabari-shakir-v05 p. 580} L’éditeur signale une correction d’une phrase dans la version imprimée et le manuscrit par l’ajout d’une conjonction, la syntaxe de la phrase, et renvoie à un commentaire antérieur sur les termes « intelligence » et « prodigue ». {cite:tafsir-tabari-shakir-v05 p. 580}
+
+Al-Tabari explique ensuite ([[passage/quran-2-270|2:270]]) : quelles que soient vos dépenses, qu’il s’agisse de l’aumône ou des vœux que vous formulez (un vœu étant un engagement que l’on prend envers soi-même par piété, en obéissance à Dieu et en se rapprochant de Lui), d’œuvres de charité ou de bonnes actions, Dieu le sait parfaitement. Rien, ni petit ni grand, ne Lui échappe, et Il en tient compte jusqu’à ce qu’Il le rétribue. Quiconque a dépensé, fait l’aumône ou formulé un vœu dans le but de plaire à Dieu et avec une âme ferme, Il le rétribue au double de ce qu’Il a promis. Quant à quiconque a dépensé pour être vu des hommes et dont les vœux étaient faits au diable, Il le rétribue par le châtiment qu’Il a menacé. Telle est l’explication d’al-Tabari. {cite:tafsir-tabari-shakir-v05 p. 580} {cite:tafsir-tabari-shakir-v05 p. 581} Rapports 6193 et 6194, Moudjahid : Il le sait et le compte. {cite:tafsir-tabari-shakir-v05 p. 581}
+
+Al-Tabari ajoute que Dieu menace ceux dont les dépenses sont ostentatoires et dont les vœux sont une obéissance au diable, de les priver de tout soutien. Le terme « soutiens » est le pluriel de « celui qui aide », tout comme « nobles » est le pluriel de « noble », désignant ceux qui les aident contre Dieu le jour de la résurrection en repoussant Son châtiment par la force ou le rachat. Il a démontré que le malfaiteur est celui qui place une chose au mauvais endroit, et que celui qui dépense par ostentation et celui qui fait des vœux désobéissants sont qualifiés de malfaiteurs pour avoir mal placé leurs dépenses et leurs vœux. {cite:tafsir-tabari-shakir-v05 p. 581} L'éditeur signale une différence entre le manuscrit et l'imprimé à un endroit, en donnant la version correcte, et renvoie à un commentaire antérieur sur l'aide, le soutien et le mal. {cite:tafsir-tabari-shakir-v05 p. 581} Nous nous arrêtons à la fin de la page 581. Les hadiths sont transmis tels qu'ils nous sont parvenus, l'explication d'al-Tabari est la sienne, les notes sont celles de l'éditeur, sans aucune interprétation muséale.
+
+Pour en savoir plus ([[passage/quran-2-270|2:270]]), p. 582. Al-Tabari soulève une question : pourquoi le pronom désignant la connaissance divine est-il au singulier alors que le vœu et les dépenses sont tous deux mentionnés ? Il répond que cela signifie que Dieu sait ce que l’on a dépensé ou voué, d’où l’emploi du singulier. {cite:tafsir-tabari-shakir-v05 p. 582} L’éditeur note que les Koufans, les Bagdadis et d’autres utilisent le terme kināya pour désigner ce pronom. {cite:tafsir-tabari-shakir-v05 p. 582}

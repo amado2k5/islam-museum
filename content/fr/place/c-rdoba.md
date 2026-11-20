@@ -1,0 +1,11 @@
+---
+id: place/c-rdoba
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/place/c-rdoba.md}
+---
+## Dans le Mu'jam al-Buldan de Yaqut
+Yaqut donne le nom avec une damma sur la première lettre, un sukun sur la seconde et une damma sur le ta. Il pense que le mot est, comme il le suppose, étranger et romain, et note que l'arabe lui offre également une possibilité : il pourrait provenir d'« al-qurtaba », signifiant une course effrénée, et il cite al-Asma'i pour le sens de jeter quelqu'un à terre dans l'expression « qartabahu ». {cite:mujam-al-buldan-sader-1995 4 p.324} Il la décrit comme une grande ville d'Andalousie, au centre du pays, qui était le siège de ses rois et sa capitale ; les rois omeyyades y résidaient, et il la qualifie de mine des cultivés et de source des nobles de cette région. Elle se situe à cinq jours de mer. {cite:mujam-al-buldan-sader-1995 4 p.324}
+
+Il cite Ibn Hawqal, qui parcourut ces terres vers 350 H, selon lequel Cordoue était la plus grande ville d'Andalousie, sans égale au Maghreb par sa population et l'étendue de sa superficie, protégée par une muraille de pierre, le peuple vivant dans sa périphérie et ses habitants aisés. {cite:mujam-al-buldan-sader-1995 4 p.324} Yaqut ajoute qu'elle le resta jusqu'aux alentours de 440 AH. À la fin de l'ère omeyyade et de celle d'Ibn Abi 'Amir, avec l'apparition des usurpateurs et la montée en puissance des Banu 'Abbad, chaque émir s'empara d'un district et Cordoue se retrouva sans souverain. Séville prospéra et devint le centre du pouvoir andalou, tandis que Cordoue tomba en ruine et devint une ville de second ordre. {cite:mujam-al-buldan-sader-1995 4 p.324} Il note que des poètes la déplorèrent et cite des vers empreints de nostalgie du juge Muhammad ibn Abi 'Isa al-Laythi. {cite:mujam-al-buldan-sader-1995 4 p.324} Il dit que de nombreux érudits lui sont attribués, parmi lesquels Abu Bakr Yahya ibn Sa'dun al-Azdi al-Qurtubi, un homme de lettres, récitant et grammairien qui s'est installé à Mossoul, y a enseigné et est mort en 567 AH. {cite:mujam-al-buldan-sader-1995 4 p.324}

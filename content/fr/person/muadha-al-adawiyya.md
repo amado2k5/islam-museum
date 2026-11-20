@@ -1,0 +1,21 @@
+---
+id: person/muadha-al-adawiyya
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/muadha-al-adawiyya.md}
+---
+## Résumé
+Mu'adha bint Abd Allah al-Adawiyya, connue sous le nom d'um al-Sahba', était une femme dévote des Banu Adi à [[place/basra|Bassorah]] ; Ibn al-Jawzi ouvre ses « ascètes féminines choisies de Bassorah » avec elle dans [[work/sifat-al-safwa|Sifat al-Safwa]] (entrée 584). {cite:sifat-al-safwa-tartusi-2012 p.704} Elle rencontra [[person/aisha|Aïcha]] et transmit d'elle, ainsi qu [[person/al-hasan-al-basri|'al-Hasan al-Basri]], [[person/abu-qilaba-abd-allah-ibn-zayd|Abu Qilaba]] et Yazid al-Rishk transmissèrent d'elle. {cite:sifat-al-safwa-tartusi-2012 p.706}
+
+## Sa dévotion
+De Muhammad ibn Fudayl, de son père : quand le jour arrivait, elle disait : « C'est le jour où je mourrai », et ne dormait pas avant le soir ; quand la nuit tombait, « C'est la nuit où je mourrai », et ne dormait pas avant le matin ; et dans le froid, elle portait des vêtements fins pour que le froid la tienne éveillée. {cite:sifat-al-safwa-tartusi-2012 p.704} {cite:sifat-al-safwa-tartusi-2012 p.705} Une femme qui la servait disait avoir passé la nuit en prière, et quand le sommeil la submergea, elle se promenait dans la maison en disant à son âme que son sommeil dans la tombe serait long ; Asiya bint Amr al-Adawiyya rapporta qu'elle priait six cents rak'as chaque jour et chaque nuit, et elle disait souvent : « Je m'étonne d'un œil qui dort quand il sait combien de temps durera le sommeil dans l'obscurité des tombes. » {cite:sifat-al-safwa-tartusi-2012 p.705} Abu al-Sawwar al-Adawi disait que les Banu Adi étaient le peuple le plus exigeant de Bassorah en matière de dévotion : Abu al-Sahba ne dormait pas la nuit ni ne rompait son jeûne le jour, et sa femme Mu'adha n'avait pas levé la tête vers le ciel depuis quarante ans. {cite:sifat-al-safwa-tartusi-2012 p.705}
+
+## Le jour où son mari et son fils sont tombés
+Son mari était [[person/sila-ibn-ashyam|Sila ibn]] Ashyam, Abu al-Sahba'. Ibn al-Jawzi raconte dans Thabit al-Bunani que Sila était en campagne avec un de ses fils, envoya le fils combattre jusqu'à ce qu'il soit tué, puis avança lui-même et fut tué ; lorsque les femmes se rassemblèrent chez Mu'adha, elle dit : « Si vous êtes venus me féliciter, bienvenue ; si vous êtes venus pour autre chose, revenez. » {cite:sifat-al-safwa-tartusi-2012 p.705} Al-Baladhuri à Futuh al-Buldan dit que Sila tomba avec Yazid ibn Ziyad à Junza lors de la campagne de Kaboul. {cite:futuh-buldan-maarif-1407} Al-Hasan rapporta qu'elle ne s'allongea plus jamais sur un lit après Abu al-Sahba jusqu'à sa mort, et um al-Aswad bint Zayd al-Adawiyya — que Mu'adha avait soignée — rapporta qu'elle disait qu'elle n'aimait pas rester dans le monde pour ses plaisirs mais se rapprocher de son Seigneur, espérant qu'Il l'unirait à Abu al-Sahba et à son fils au Paradis. {cite:sifat-al-safwa-tartusi-2012 p.705}
+
+## Son conseil et sa mort
+Elle conseilla une fille qu'elle avait soignée de rencontrer Dieu à la fois avec peur et espérance, puis pleura jusqu'à ce que les pleurs la submergent. {cite:sifat-al-safwa-tartusi-2012 p.705} D'Afira la dévote : à sa mort, elle pleura puis rit ; demandée pourquoi, elle dit qu'elle pleura en quittant le jeûne, la prière et le souvenir, et rit parce qu'elle vit Abu al-Sahba entrer dans la cour vêtu de deux robes vertes, et qu'elle ne pensait pas vivre jusqu'à une autre prière obligatoire ; elle mourut avant que le moment de la prière ne vienne. {cite:sifat-al-safwa-tartusi-2012 p.705} L'éditeur renvoie pour elle à al-Muntazam d'Ibn al-Jawzi en l'an 83 H, ainsi qu'aux Tabaqat, al-Kashif et Tahdhib d'Ibn Sa'd. {cite:sifat-al-safwa-tartusi-2012 p.704}
+
+## Pour les jeunes visiteurs
+Mu'adha était une femme de Bassorah qui passait ses nuits en prière ; lorsque son mari et son fils tombèrent au combat, elle fut patiente, et elle déclara qu'elle n'aimait la vie que pour adorer davantage Dieu.

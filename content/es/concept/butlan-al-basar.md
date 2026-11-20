@@ -1,0 +1,13 @@
+---
+id: concept/butlan-al-basar
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/butlan-al-basar.md}
+---
+## Sus causas
+La pérdida de la vista puede provenir de causas de visión débil llevadas al extremo —que deben buscarse allí—, pero él habla de ello de nuevo, dejando de lado lo que viene por compartir el cerebro y el resto, pues eso se entiende a partir de ahí. La pérdida de la vista ocurre cuando las partes visibles del ojo están sanas en sustancia, o después de una lesión consumadora y disuelta o lo que sigue su curso; su discurso se refiere a lo primero {cite:canon-ibn-sina-print-v2 p.215}
+## Sus causas detalladas con el sonido superficial
+Si las partes del ojo son externamente sanas en sustancia pero afectadas por una lesión en otro lado no visible para el público y el lego, entonces o la pupila está sana o no. Si está sana, o bien hay una oclusión acuosa, o la oclusión no está allí sino en el nervio hueco: algo que se encuentra en su conducto, un cierre que le ocurre por sequedad, relajación, una inflamación en él, una inflamación en sus músculos que se presionan a sí mismos o como resultado de una presión que le ocurre al prosencéfalo como se explicó anteriormente, o una ruptura que le ocurre; o el humor frío se ha desplazado de la abertura o su temperamento se ha corrompido de modo que ya no puede servir como instrumento de la visión. Lo más frecuente es que esto se deba a una humedad excesiva o a una sequedad excesiva que hace que se contraiga sobre sí misma; esta causa se llama alqum; no hay remedio si la dilatación llega al máximo o el estrechamiento llega al cierre {cite:canon-ibn-sina-print-v2 p.215} {cite:canon-ibn-sina-print-v2 p.216}
+## Sus señales
+El signo del agua, el ensanchamiento, el estrechamiento y el resto es lo que se dijo en sus capítulos; la causa en lo que pertenece al nervio hueco se resume fácilmente con el signo nombrado en el capítulo del agua, pero su detalle es difícil y apenas puede abarcarse en el conocimiento. Con palpitaciones y enrojecimiento, suponga una inflamación caliente en el nervio; con pesadez y poco calor, una inflamación fría; pesadez severa en un ojo muy húmedo significa materia húmeda, en un ojo seco una melancolía. Si un golpe o una caída en la cabeza primero hace que el ojo se abombe y luego se hunda y pierda el ojo, suponga que el nervio se ha roto {cite:canon-ibn-sina-print-v2 p.216}

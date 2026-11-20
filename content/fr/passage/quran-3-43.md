@@ -1,0 +1,22 @@
+---
+id: passage/quran-3-43
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-3-43.md}
+---
+## Résumé
+Verset 43 de [[passage/quran-3|la sourate Al 'Imran]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 43 sur 200 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Ce que signifie le commandement de la dévotion.** Al-Tabari dit que Dieu veut dire, en rapportant ce que Ses anges ont dit à Marie, qu'elle devait obéir sincèrement à son Seigneur seul ; il dit avoir montré le sens du mot dévotion avec ses attestations plus tôt, et l'éditeur renvoie au volume 2 et aux pages suivantes, ajoutant que le désaccord entre les commentateurs ici est comme celui là-bas. {cite:tafsir-tabari-shakir-v06 p. 401}
+
+**Première interprétation : station debout prolongée.** Le hadith 7038 (Muhammad ibn Amr, d’après Abu Asim, d’après Isa, d’après Ibn Abi Najih, d’après Mujahid) indique qu’il s’agit de prolonger la station debout ; de même, les hadiths 7039 (al-Muthanna, d’après Abu Hudhayfa, d’après Shibl) et 7040 (al-Qasim, d’après al-Husayn, d’après Hajjaj, d’après Ibn Jurayj, d’après Mujahid, pendant la prière). Le hadith 7041 (al-Muthanna, d’après Ishaq, d’après Abdullah ibn Idris, d’après Layth, d’après Mujahid) rapporte que, lorsqu’on lui a dit cela, elle est restée debout jusqu’à ce que ses chevilles enflent. Le hadith 7042 le répète d'après al-Qasim et al-Husayn, et le hadith 7043 (d'après al-Muthanna, rapporté par Ishaq, d'après Abd al-Razzaq, d'après al-Thawri, d'après Ibn Abi Layla, d'après Mujahid) mentionne la station debout prolongée. Le hadith 7044 (d'après Ammar, d'après Ibn Abi Ja'far, d'après son père, d'après al-Rabi) indique que le terme signifie « rester immobile », c'est-à-dire se tenir debout pour prier Dieu ; le hadith 7045 (d'après Muhammad ibn Sinan, rapporté par Abu Asim, d'après Sufyan, d'après Layth, d'après Mujahid) rapporte qu'elle a prié jusqu'à ce que ses pieds enflent ; et le hadith 7046 (d'après Ibn al-Barqi, rapporté par Amr, d'après al-Awza'i) rapporte qu'elle est restée debout jusqu'à ce que du pus s'écoule de ses pieds. {cite:tafsir-tabari-shakir-v06 p. 401} {cite:tafsir-tabari-shakir-v06 p. 402} {cite:tafsir-tabari-shakir-v06 p. 403}
+
+**Deuxième interprétation : la sincérité.** Le hadith 7047 (al-Muthanna, d'après al-Himmani, d'après Ibn al-Mubarak, d'après Sharik, d'après Salim, d'après Sa'id) lui donne le sens d'être sincère envers son Seigneur. {cite:tafsir-tabari-shakir-v06 p. 403}
+
+**Troisième interprétation : l’obéissance.** Le hadith 7048 (d’après Abd al-Razzaq, d’après Ma’mar, d’après Qatada) et le hadith 7049 (d’après Musa, d’après Amr, d’après Asbat, d’après al-Suddi) l’interprètent comme signifiant « obéir à son Seigneur ». Le hadith 7050 (d’après al-Muthanna, d’après Ishaq, d’après Muhammad ibn Harb, d’après Ibn Lahi’a, d’après Darraj, d’après Abu al-Haytham, d’après Abu Said al-Khudri, d’après le Prophète) indique que dans le Coran, toute mention de la dévotion signifie « obéissance à Dieu ». L’éditeur précise qu’il s’agit d’une autre chaîne de transmission pour le hadith 5518, transmis par al-Rabi ibn Sulayman, d’après Asad ibn Musa, d’après Ibn Lahi’a. Le rapport 7051 (Muhammad ibn Sinan, d'après Abu Bakr al-Hanafi, d'après Abbad ibn Mansur, d'après al-Hasan) donne le sens d'adorer son Seigneur. {cite:tafsir-tabari-shakir-v06 p. 403}
+
+**Inclinaison et prosternation.** Al-Tabari explique avoir également justifié le sens de l'inclinaison et de la prosternation : toutes deux signifient l'humilité devant Dieu et la soumission à Lui dans l'obéissance et le service. L'éditeur se réfère à des passages antérieurs et note que le texte imprimé utilisait un terme différent pour « service », qu'il a conservé la lecture du manuscrit et qu'al-Tabari l'emploie fréquemment. Le sens du verset, selon al-Tabari, est donc le suivant : adorez votre Seigneur sincèrement, uniquement pour Sa Face, et soyez humbles dans l'obéissance et l'adoration, en communion avec Sa création qui est humble devant Lui, en remerciement de l'honneur qu'Il lui a fait en la choisissant, en la purifiant de ses impuretés et en la préférant aux femmes de son temps. Tel est Son choix. {cite:tafsir-tabari-shakir-v06 p. 404}

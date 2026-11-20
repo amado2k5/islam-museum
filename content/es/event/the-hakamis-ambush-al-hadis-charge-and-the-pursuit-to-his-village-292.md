@@ -1,0 +1,12 @@
+---
+id: event/the-hakamis-ambush-al-hadis-charge-and-the-pursuit-to-his-village-292
+lang: es
+source_lang: en
+translators: ['TranslateGemma 27B (translategemma-27b-it-4bit (MLX), run locally on the founder''s Mac), draft translation']
+provenance: {generated_by: 'scripts/local-mt/translate.py (spanish lane, local machine translation, managed by Claude Code)', model: translategemma-27b-it-4bit (MLX), run: local-mt-es-2026-11-18, source: content/en/event/the-hakamis-ambush-al-hadis-charge-and-the-pursuit-to-his-village-292.md}
+---
+## Visión general
+Un grupo de ataque de los Hakami salió a emboscar a al-Hadi, quien solo tenía a estos hombres con él; sus compañeros habían sido derrotados y lo habían abandonado, el enemigo se interponía entre él y ellos, y al-Hadi se encontraba en el centro {cite:sira-hadi-ila-al-haqq p.297}.
+
+## Detalles
+Cuando se produjo la emboscada, al-Hadi, según lo relata el narrador, les dijo a los que estaban con él que cargaran contra el enemigo; “él mismo cargó, derribó a un hombre y lo arrojó; el enemigo huyó y al-Hadi los persiguió”. Luego, “un pregonero anunció que los compañeros de al-Hadi se habían retirado, y aquellos que perseguían a sus compañeros huyeron; al-Hadi y sus hombres aseguraron la derrota, y la persecución no cesó hasta que se acercaron al pueblo de los Hakami; cerca de doscientos de sus compañeros se unieron a al-Hadi, y querían capturar a los Hakami antes de que llegaran a su pueblo” {cite:sira-hadi-ila-al-haqq p.297}. La página termina con una nota del editor que indica que el resto de la página está en blanco en el original, sin nada copiado en ella, y que este espacio en blanco continúa durante aproximadamente seis líneas de la página siguiente, presentando la misma omisión en el manuscrito S {cite:sira-hadi-ila-al-haqq p.297}. Por lo tanto, este libro no relata cómo terminó la batalla, qué hicieron los Hakami o cuál fue el número de muertos. La página siguiente, p. 298, continúa con un poema [[event/al-hadi-writes-verses-to-his-imprisoned-son-abu-al-qasim-and-praises-him-290|de al-Hadi dedicado a su hijo Abu al-Qasim]], sin que exista una conexión evidente con los enfrentamientos. El relato se encuentra en un libro zaydí, narrado desde la perspectiva de los seguidores del imán; sus descripciones y sus juicios sobre los oponentes corresponden al narrador o al poeta, y el museo no adopta ninguno de ellos ni emite ningún juicio.

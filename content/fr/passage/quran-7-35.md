@@ -1,0 +1,20 @@
+---
+id: passage/quran-7-35
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-7-35.md}
+---
+## Résumé
+Verset 35 de [[passage/quran-7|la sourate al-A'raf]], une sourate mecquoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 35 sur 206 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+Puis, concernant « Enfants d’Adam, si des messagers viennent à vous de parmi vous, vous rapportant Mes signes, alors quiconque craint Dieu et agit avec droiture n’aura aucune crainte à avoir et ne sera pas affligé », Dieu informe Ses créatures de ce qu’Il a préparé pour Son parti, le peuple qui Lui obéit et croit en Lui et en Son Messager, et pour le parti de Satan et de ses alliés, ainsi que pour ceux qui ne croient pas en Lui et en Ses messagers : « Enfants d’Adam, si des messagers viennent à vous de parmi vous » signifie si Mes messagers viennent à vous, que Je vous envoie vous appelant à M’obéir et à vous abstenir de Mes commandements et interdictions ; « de parmi vous », c’est-à-dire de vos propres clans et tribus ; « vous rapportant Mes signes » signifie vous réciter les versets de Mon Livre et vous faire connaître Mes preuves et les signes de la vérité de ce qu’ils vous apportent de Moi. {cite:tafsir-tabari-shakir-v12 p. 405}
+
+et la réalité de ce à quoi ils vous appellent de Mon unicité ; « quiconque craint Dieu et agit avec droiture » signifie quiconque parmi vous a cru ce que Mes messagers lui ont apporté de Mes signes qu'ils lui ont relatés et l'a confirmé, et a craint Dieu en faisant ce qu'Il a commandé et en s'abstenant de ce qu'Il a interdit par l'intermédiaire de Son messager, « et agit avec droiture » signifie redresser ses actions qu'il avait corrompues auparavant par la désobéissance à Dieu, en l'évitant ; « il n'y a aucune crainte pour eux » signifie aucune crainte, au Jour de la Résurrection, du châtiment de Dieu lorsqu'ils viendront à Lui, « et ils ne s'affligeront pas » de ce qu'ils ont manqué de leur monde qu'ils ont quitté, et des désirs qu'ils ont évités par obéissance à Son interdiction, lorsqu'ils verront la gloire de Dieu ce qu'ils voient là-bas. Il rapporte (14554) d'après Abu Sayyar al-Sulami que Dieu a placé Adam et sa descendance dans Sa paume et a dit : « Enfants d'Adam, si des messagers issus de votre peuple viennent à vous pour vous transmettre Mes signes, alors quiconque craint Dieu et agit avec droiture n'aura aucune crainte à avoir et ne sera pas affligé. » Puis Il regarda les messagers et dit ce qui est rapporté dans le verset [[passage/quran-23-51|23:51]] : « Ô messagers, mangez des bonnes choses et agissez avec droiture », puis il les dispersa. La note indique que la chaîne de transmission est obscure et qu'elle ne peut être expliquée, et qu'elle ne connaissait pas Abu Sayyar. Si quelqu'un demande : « Que répondre à la question "si des messagers issus de votre peuple viennent à vous" ? » {cite:tafsir-tabari-shakir-v12 p. 406}
+
+La réponse est que les arabisants divergent sur ce point. Certains affirment que la réponse est implicite, indiquée par le sens apparent du discours, à savoir « quiconque craint Dieu et agit avec droiture », car en disant cela, c'est comme s'il disait : « obéissez-leur donc ». D'autres soutiennent que la réponse est « quiconque craint Dieu », car le sens est : « quiconque parmi vous craint Dieu et agit avec droiture », et ce qui le démontre est la segmentation du discours, cette segmentation rendant inutile la mention de « parmi vous ». {cite:tafsir-tabari-shakir-v12 p. 407}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

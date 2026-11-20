@@ -1,0 +1,28 @@
+---
+id: event/ibn-abbas-khawarij-debate
+lang: fr
+source_lang: en
+translators: ['Claude (claude-fable-5-2), draft translation']
+provenance: {generated_by: 'Claude Code subagent (spanish lane, records the document services could not return intact)', model: claude-fable-5-2, run: claude-fr-2026-11-19, source: content/en/event/ibn-abbas-khawarij-debate.md}
+---
+## Résumé
+Le plus célèbre débat entre musulmans de la première génération : [[person/abdullah-ibn-abbas|Ibn Abbas]] entre dans le camp des Khawarij à Harura, l'emporte sur eux dans la discussion par le Coran et le précédent du Prophète, et deux mille d'entre eux reviennent. {cite:musnad-ahmad 1/342-343} {cite:al-bidaya-wal-nihaya 7/283-284}
+
+## L'envoi — la narration transmise
+Ubaydullah ibn Abi Rafi', affranchi du Messager de Dieu et scribe d'[[person/ali-ibn-abi-talib|Ali]], rapporte : lorsque les Khawarij se rassemblèrent à Harura et firent sécession d'avec Ali après l'arbitrage de [[place/siffin|Siffin]], Ali vint leur parler et ils ne voulurent pas revenir ; il envoya donc Ibn Abbas. Ibn Abbas dit : Je vins à eux dans le plus bel habit des gens de la Maison — un turban rouge. Ils dirent : bienvenue, Ibn Abbas, qu'est-ce que ce turban ? Je dis : ce qui nous sépare est bon ; je viens de la part du cousin et gendre du Messager de Dieu, sur qui la révélation est descendue, et ils connaissent son interprétation mieux que vous — je vous expose ma cause et vous répliquez. Certains d'entre eux se tournèrent les uns vers les autres et dirent : ne discutez pas avec Quraysh, car Dieu dit « ce sont des gens querelleurs ». Un ou deux dirent : il ne nous est pas interdit de lui parler — il leur parla donc {cite:musnad-ahmad 1/342-343}.
+
+## La dispute — tout ce qui fut dit et qui le dit
+**Ibn Abbas** : Je dis : que lui reprochez-vous ? **Ils dirent** : trois choses. **Je dis** : quelles sont-elles ? **Ils dirent** : la première, il a laissé des hommes arbitrer dans la religion de Dieu, alors que Dieu dit « le jugement n'appartient qu'à Dieu ». **Je dis** : en voilà une. **Ils dirent** : il a combattu sans faire de captifs ni de butin — si ceux qu'il a combattus étaient les amis de Dieu, il n'avait pas le droit de les combattre, et s'ils étaient les ennemis de Dieu, la captivité et le pillage étaient licites. **Je dis** : en voilà deux ; quelle est la troisième ? **Ils dirent** : il a rayé « Commandeur des croyants » de son nom — s'il n'est pas le commandeur des croyants, il est le commandeur des mécréants. **Je dis** : avez-vous autre chose ? Ils s'arrêtèrent là {cite:musnad-ahmad 1/343}.
+
+**Ibn Abbas — la première réponse** : Je dis : si je vous récite, du Livre décisif de Dieu, et vous rapporte, de la sunna de votre Prophète, ce que vous ne pouvez réfuter, reviendrez-vous ? Ils dirent : oui. Je dis : quant à votre affirmation qu'il a laissé des hommes arbitrer dans la religion de Dieu — Dieu a dit « vous qui croyez, ne tuez pas de gibier alors que vous êtes en état de sacralisation ; quiconque d'entre vous le tue délibérément devra payer l'équivalent de ce qu'il a tué en bétail, selon ce qu'en jugeront deux hommes justes parmi vous ». Dieu a fait porter le jugement des hommes sur un lapin ou une chose semblable, d'un prix dérisoire — le jugement des hommes sur le sang des musulmans et la réparation des relations n'est-il pas plus digne que leur jugement sur un lapin ? Et pour une épouse brouillée avec son mari, Dieu a dit « si vous craignez une rupture entre eux, envoyez un arbitre de sa famille à lui et un arbitre de sa famille à elle ; si tous deux veulent la réconciliation, Dieu les réunira » — le jugement des hommes est sunna. Vous ai-je sortis de cela ou non ? Ils dirent : non {cite:musnad-ahmad 1/343}.
+
+**La deuxième réponse** : quant à votre parole qu'il a combattu sans captifs ni butin — prendriez-vous en captivité votre mère Aisha et rendriez-vous licite contre elle ce qui est licite contre d'autres, alors qu'elle est votre mère ? Si vous dites qu'elle n'est pas votre mère, vous avez mécru en elle — et si vous dites qu'elle l'est, Dieu vous a interdit sa captivité. Je vous ai placés entre deux choix ; vous ai-je sortis de cela ou non ? Ils dirent : non {cite:musnad-ahmad 1/343}.
+
+**La troisième réponse** : quant à votre parole qu'il s'est effacé lui-même de Commandeur des croyants — je vous en apporte un que vous acceptez : vous avez entendu que, le jour d'al-Hudaybiyya, le Messager de Dieu fit la paix avec Suhayl ibn Amr et Abu Sufyan ibn Harb et dit à Ali : écris, Ali, « voici ce dont est convenu Muhammad le Messager de Dieu ». Les polythéistes dirent : par Dieu, nous ne savons pas que tu es le Messager de Dieu ; si nous l'avions su, nous ne t'aurions pas tenu à l'écart de la Maison. Le Messager de Dieu dit : Dieu, Tu sais que je suis Ton Messager — efface-le, Ali, et écris « voici ce dont est convenu Muhammad fils d'Abdallah ». Par Dieu, le Messager de Dieu était meilleur qu'Ali, et il effaça son propre nom sans s'effacer lui-même de la prophétie. Vous ai-je sortis de cela ou non ? Ils dirent : non {cite:musnad-ahmad 1/343} {cite:al-bidaya-wal-nihaya 7/283}.
+
+## Le retour et le verdict
+Deux mille d'entre eux revinrent et combattirent aux côtés d'Ali ; six mille tinrent bon, se soulevèrent contre les Uthmaniyya, et l'affaire d'al-Nahrawan suivit son cours {cite:al-bidaya-wal-nihaya 7/284}. Le débat demeure ainsi le modèle de l'argumentation par le Coran lui-même contre ceux qui en avaient brandi le slogan.
+
+## Bibliographie
+- Imam Ahmad, al-Musnad, le hadith d'Ibn Abbas sur son argumentation avec les Khawarij, selon l'isnad d'Ubaydullah ibn Abi Rafi'.
+- Ibn Kathir, al-Bidaya wa-l-Nihaya, les événements de 38 H.

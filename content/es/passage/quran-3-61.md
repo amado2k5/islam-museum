@@ -1,0 +1,20 @@
+---
+id: passage/quran-3-61
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-3-61.md}
+---
+## Resumen
+Versículo 61 de [[passage/quran-3|la Sura Al 'Imran]], una sura medinense. Los eruditos relacionan su revelación con [[event/delegation-of-najran|la Delegación de Najran]]. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 61 de 200 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+**Sentido del versículo 61.** Al-Tabari afirma que la introducción significa: quien discuta contigo, Muhammad, acerca del Mesías Jesús, hijo de María; el pronombre remite a la mención de Jesús, y también podría referirse a la verdad mencionada justo antes. El conocimiento al que se refiere es lo que Dios le reveló sobre Jesús: que es su siervo. El versículo invita a una invocación mutua: cada bando llama a sus hijos, mujeres y a sí mismo, y rezan pidiendo una maldición que recaiga sobre el mentiroso entre ellos respecto a Jesús, es decir, su afirmación de ser siervo y mensajero de Dios, y no Dios mismo. El editor señala que la redacción del texto impreso carece de sentido y que la del manuscrito es correcta, y remite al informe 7164 y sus palabras sobre que Jesús es Dios, así como a la explicación de la invitación que ofrece Al-Tabari en las páginas 483-485. {cite:tafsir-tabari-shakir-v06 p. 473} {cite:tafsir-tabari-shakir-v06 p. 474}
+
+**El significado de la invocación mutua y el verso de Labid.** Al-Tabari afirma que la palabra significa invocar una maldición, como se dice «que Dios lo maldiga», y cita un verso de Labid sobre un pueblo que pereció, en el que el destino les infligió la destrucción. El editor cita el Diwan de Labid y su elegía a Arbad, el Asas al-Balagha de al-Zamakhshari y el Amali de al-Murtada, considera válidas las explicaciones de al-Tabari y al-Zamakhshari, propone que la palabra significa entregarse libremente a un asunto y esforzarse en él, e interpreta «el destino los miró» como una mirada de asombro ante sus hazañas que luego envidiaba sus glorias, relacionándolo con el término árabe para la envidia como el ojo; esta es una sugerencia del propio editor. {cite:tafsir-tabari-shakir-v06 p. 474}
+
+**Informes 7171 a 7175.** Informe 7171 (Bishr, de Yazid, de Said, de Qatada): quien discuta contigo acerca de Jesús después de saber que es siervo y mensajero de Dios, de Su palabra y espíritu, llámalos a la invocación mutua. Informe 7172 (Ibn Humayd, de Salama, de Ibn Ishaq, de Muhammad ibn Jafar ibn al-Zubayr): después de lo que te relaté acerca de su relato y cómo era. Informe 7173 (Ammar, de Ibn Abi Jafar, de su padre, de al-Rabi): quien discuta contigo acerca de Jesús después del conocimiento que te llegó. Informe 7174 (Yunus, de Ibn Wahb, de Ibn Zayd): maldición sobre el mentiroso, de nosotros y de ti. El informe 7175 (Yunus, de Ibn Wahb, de Ibn Lahia, de Sulayman ibn Ziyad al-Hadrami, de Abdullah ibn al-Harith ibn Jaz al-Zubaydi) dice que oyó al Profeta decir: «¡Ojalá hubiera un velo entre yo y la gente de Najrán para que ni yo los viera ni ellos me vieran, por lo mucho que solían discutir con él!». El editor llama a Sulayman ibn Ziyad un Sucesor digno de confianza, a quien Ibn Main y otros autentificaron y Abu Hatim llamó un shaykh de hadices auténticos, y a Abdullah ibn al-Harith un Compañero que se estableció en Egipto y fue el último Compañero en morir allí; corrige la ortografía de Jaz y señala que el informe está en el Futuh Misr de Ibn Abd al-Hakam y que al-Suyuti se lo atribuye únicamente a Ibn Jarir. {cite:tafsir-tabari-shakir-v06 p. 474} {cite:tafsir-tabari-shakir-v06 p. 475}
+
+Estas declaraciones se presentan tal como fueron transmitidas; las elecciones y los argumentos son de al-Tabari, las notas y los rastreos de fuentes son del editor, y el museo no emite ningún veredicto.

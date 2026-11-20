@@ -1,0 +1,25 @@
+---
+id: passage/quran-2-83
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-2-83.md}
+---
+## Resumen
+Versículo 83 de [[passage/quran-2|Surat al-Baqara]], una sura de Medina. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 83 de 286 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Sobre «cuando hicimos un pacto con los Hijos de Israel: no adoraréis sino a Dios», al-Tabari dice que «mithaq» proviene de hacer firme mediante juramento o similar, por lo que el sentido es: recuerda cuando hicimos tu pacto. Los lectores difieren en «la ta'budun» entre «ta» y «ya», con un mismo significado, porque hacer un pacto es administrar un juramento: se dice «Hice jurar a tu hermano que se mantendría firme» en cualquiera de las dos personas. Él sostiene que el verbo está en indicativo porque se omite «an», y señala la opinión de los gramáticos de Basora de que se trata de un discurso citado, que es cercana a la suya. Relata de Abu al-'Aliya y al-Rabi' que estaban obligados a ser sinceros con Dios y no adorar a ningún otro, y de Ibn Jurayj que fue el pacto que se les hizo en al-Ma'ida. {cite:tafsir-tabari-shakir-v02 p. 288} {cite:tafsir-tabari-shakir-v02 p. 289} {cite:tafsir-tabari-shakir-v02 p. 290}
+En "y ser buenos con los padres", se une al lugar donde se omitió "an", por lo que el sentido es: que no adores a nadie más que a Dios y muestres bondad a los padres. {cite:tafsir-tabari-shakir-v02 p. 290}
+
+Al-Tabari explica la gramática de «y a los padres, bondad»: se une al lugar donde se omite el «an», y «ihsan» es acusativo a través de un verbo implícito; rechaza la opinión de que el «ba» pertenezca a «ihsan» movido antes que él, y la opinión de que forme dos cláusulas, ya que la oración se presenta como una sola. La bondad a la que se refiere, dice, es como la que Dios impuso a nuestra comunidad para con los padres: buen trato, palabras amables, humildad, compasión y oración por su bienestar. {cite:tafsir-tabari-shakir-v02 p. 290} {cite:tafsir-tabari-shakir-v02 p. 291} {cite:tafsir-tabari-shakir-v02 p. 292}
+Sobre «y a los parientes, huérfanos y pobres», dice unirse a sus parientes y conocer su derecho, mostrar ternura a los huérfanos y dar a los pobres lo que les corresponde, que Dios estableció como vinculante para sus riquezas; el «miskin» es aquel humillado y abatido por la necesidad. {cite:tafsir-tabari-shakir-v02 p. 292} {cite:tafsir-tabari-shakir-v02 p. 293}
+Sobre «y habla bien a la gente», explica por qué un mandato sigue a una declaración: hacer un pacto es en sí mismo un discurso, por lo que un mandato o una prohibición se ajusta al lugar de la declaración, y señala que en la lectura de Ubayy ibn Ka'b es «no adores». Los lectores difieren en «husnan»: con fatha en ambas letras, con damma y sukun, y una lectura «husna». En su elección, al-Tabari prefiere la lectura fatha, ya que describe un tipo de discurso, y la llama la conocida; considera que «husna» es errónea porque se aparta de la lectura de los musulmanes y del uso árabe común. {cite:tafsir-tabari-shakir-v02 p. 293} {cite:tafsir-tabari-shakir-v02 p. 294} {cite:tafsir-tabari-shakir-v02 p. 295}
+
+Sobre el "buen discurso" que se les indicó que usaran, Ibn Abbas, a través de al-Dahhak, dice que consiste en exhortar a quienes no han dicho "no hay más dios que Dios" a que lo digan; Abu al-'Aliya, palabras amables; Ibn Jurayj, veracidad acerca de Muhammad; Sufyan al-Thawri, ordenar el bien y prohibir el mal; y 'Ata y Abu Ja'far, que es para toda la gente. {cite:tafsir-tabari-shakir-v02 p. 295} {cite:tafsir-tabari-shakir-v02 p. 296} {cite:tafsir-tabari-shakir-v02 p. 297}
+«Establecer la oración» significa realizarla con sus debidos preceptos, siendo su pleno establecimiento la inclinación, la postración, la recitación y la humildad, según relata Ibn Mas'ud. «Dar el zakat» significa lo que Dios hizo obligatorio sobre sus riquezas; se relata que Ibn Abbas dijo que era una ofrenda a la que descendía fuego y la absorbía como aceptación, y en otros textos que significa obediencia a Dios y sinceridad. {cite:tafsir-tabari-shakir-v02 p. 297} {cite:tafsir-tabari-shakir-v02 p. 298}
+En «entonces os apartasteis, excepto unos pocos de vosotros, con aversión», se relata que los judíos israelitas rompieron el pacto después de haberlo hecho, salvo unos pocos a quienes Dios preservó y que lo cumplieron, según relata Ibn Abbas. Algunos dicen que «mientras seáis aversos» se refiere a los judíos de la época del Profeta y el resto del versículo a sus antepasados; otros dicen que se refiere a los judíos de la región de los emigrantes del Profeta. {cite:tafsir-tabari-shakir-v02 p. 298} {cite:tafsir-tabari-shakir-v02 p. 299}

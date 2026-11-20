@@ -32,7 +32,7 @@ roots = [i for i, d in cs.items() if not d.get("part_of")]
 o.note(f"tree roots (no part_of): {roots}")
 orph = [i for i, d in cs.items() if d.get("part_of") and d["part_of"] not in cs]
 o.note(f"records whose part_of is not a course record: {orph}")
-prose = {l: len([f for f in sh(f"git ls-tree --name-only {at or 'HEAD'} content/{l}/course/").splitlines() if f.endswith(".md")]) for l in ("ar", "en", "ur")}
+prose = {l: len([f for f in sh(f"git ls-tree --name-only {at or 'HEAD'} content/{l}/course/").splitlines() if f.endswith(".md")]) for l in ("ar", "en", "ur", "fr", "es")}
 o.note(f"prose files under content/<lang>/course: {prose}")
 
 lessons = {i: d for i, d in cs.items() if d["kind"] == "lesson"}
@@ -66,7 +66,7 @@ def entity_sources(eid):
     out = set()
     t = read(f"data/{eid}.yaml") or ""
     out |= set(re.findall(r"source/[a-z0-9-]+", t)) | {"source/" + s for s in re.findall(r"\{cite:([a-z0-9-]+)", t)}
-    for l in ("ar", "en", "ur"):
+    for l in ("ar", "en", "ur", "fr", "es"):
         t = read(f"content/{l}/{eid}.md") or ""
         out |= {"source/" + s for s in re.findall(r"\{cite:([a-z0-9-]+)", t)}
     return out

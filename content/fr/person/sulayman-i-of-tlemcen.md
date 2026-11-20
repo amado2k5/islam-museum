@@ -1,0 +1,15 @@
+---
+id: person/sulayman-i-of-tlemcen
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/sulayman-i-of-tlemcen.md}
+---
+## Vue d'ensemble
+Sulayman ibn Abdallah ibn al-Hasan ibn al-Hasan ibn Ali ibn Abi Talib était un Hachimite de la lignée d'al-Hasan et un frère d'Idris {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 15 p. 242}. Al-Safadi dans al-Wafi dit qu'il faisait partie de ceux qui sortirent avec al-Husayn ibn Ali ibn al-Hasan à Fakhkh lorsque al-Husayn se souleva contre al-Hadi, et qu'il fut tué ; il rapporte ensuite un récit différent de celui d'al-Bayhaqi {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 15 p. 242}. Dans cette entrée, al-Safadi ne donne ni année de naissance ni de décès.
+
+## Deux récits de son sort
+Al-Safadi affirme qu'al-Bayhaqi rapporte qu'il était connu sous le nom de Sulayman du Maghrib et affirme qu'il n'a pas été tué à Fakhkh mais qu'il est entré dans le Maghrib en quête de pouvoir ; la fuite l'a forcé à se louer à un batelier en mer et à un chameau sur terre, et les gouverneurs abbassides l'ont recherché tandis que les Berbères le défendaient {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 15 p. 242}. Al-Safadi cite des versets qu'il a composés à leur sujet : il les appelle une bande occidentale qui s'est ralliée à lui et s'est attachée aux Berbères, qui gardaient le Prophète et sa loi dans sa maison, et dit qu'il ne leur a pas fait de mal que Hashim l'ait coupé alors qu'eux, bien que non de sa lignée, lui restaient fidèles ; dans d'autres versets, il loue Dieu pour la guidance que son ancêtre a apportée au peuple, et il se qualifie lui-même et son peuple comme les fils et les proches de cet ancêtre {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 15 p. 242}.
+
+## À Tlemcen et ses descendants
+Al-Safadi raconte que ses affaires prirent fin avec son arrivée à Tlemcen, où se trouvaient les fils de son frère Idris et où la direction était avec eux ; ils l'honorèrent jusqu'à sa mort {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 15 p. 242}. Une querelle éclata ensuite entre les deux familles et les descendants de Sulayman furent envoyés au Maghrib central, car le sens de la sentence est mieux compris {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 15 p. 242}. Son fils le plus connu était Hamza ibn Sulayman, dont le Suq Hamza dans le Maghrib doit son nom ; ses fils héritèrent du pouvoir là-bas jusqu'à ce que Jawhar al-Mu'izzi vienne à eux, emmenant tous les notables d'entre eux à al-Mu'izz et les démit de leur règne. Les restes restèrent dans les montagnes et les districts périphériques, célèbres et honorés parmi les tribus berbères {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 15 p. 242}. Al-Safadi ajoute qu'il est le père de Muhammad, qui entra dans le Maghrib {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 15 p. 242}.

@@ -1,0 +1,19 @@
+---
+id: building/chauburj-agra
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-building-4
+  source: content/en/building/chauburj-agra.md
+---
+## Vue d’ensemble
+Le Chauburj (« quatre tours ») est un bâtiment carré à tours d’angle octogonales sur la rive orientale, gauche, de la Yamuna à [[place/agra|Agra]], près du tombeau d’I’timad al-Dawla. {cite:nath-history-of-mughal-architecture-1-1982 p. 117} {cite:nath-history-of-mughal-architecture-1-1982 p. 118} R. Nath l’identifie au « Chaukandi » que, selon Gulbadan Begum, [[person/babur-mughal|Babur]] construisit au bord du fleuve — un bâtiment carré avec des tours aux angles — et identifie le jardin environnant au Bagh-i Zar Afshan, jardin de la Dispersion de l’or, fondé par Babur et son préféré, où il déclara un jour vouloir se retirer et céder le royaume à Humayun. {cite:nath-history-of-mughal-architecture-1-1982 p. 117} {cite:nath-history-of-mughal-architecture-1-1982 p. 115} {cite:nath-history-of-mughal-architecture-1-1982 p. 116}
+
+## L’édifice
+À l’est se trouvent les installations hydrauliques : un grand puits et trois réservoirs surélevés reliés, d’où des conduites de terre cuite enterrées menaient au bâtiment ; quatre bassins à nénuphars subsistent devant les quatre façades, mais les canaux et chemins de pierre ont disparu ; l’ensemble était conçu comme un jardin en quatre parties. {cite:nath-history-of-mughal-architecture-1-1982 p. 118} Les tours comportent aujourd’hui deux niveaux, mais semblent en avoir eu un troisième et un chhatri octogonal. {cite:nath-history-of-mughal-architecture-1-1982 p. 118} À l’intérieur se trouvent une salle carrée, des pièces d’angle carrées et des pièces latérales oblongues ; la construction est en brique et mortier revêtus de pierre à l’extérieur, les plafonds reposant sur un réseau de grosses poutres de pierre, privilégiant la solidité plutôt que l’effet, plus proche du style dit pathan que du goût de l’époque d’Akbar. {cite:nath-history-of-mughal-architecture-1-1982 p. 118} Un peu à l’ouest se trouve la « Baburi Masjid », si souvent réparée qu’il reste peu de son bâti d’origine. {cite:nath-history-of-mughal-architecture-1-1982 p. 117} {cite:nath-history-of-mughal-architecture-1-1982 p. 118}
+
+## Le premier tombeau de Babur ?
+Gulbadan Begum rapporte que Babur fut enterré à Agra dans un tombeau auquel Humayun affecta soixante récitateurs, doté de la totalité de Sikri et de cinq lakhs provenant de Bayana, et que Kamran visita « le tombeau de Firdaws-Makani » à Agra en 1539. {cite:nath-history-of-mughal-architecture-1-1982 p. 112} {cite:nath-history-of-mughal-architecture-1-1982 p. 113} Nath présente l’avis de Mme Beveridge selon lequel le corps fut transféré à Kaboul avant 1544, puis le conteste : aucun testament ordonnant ce transfert n’est consigné dans les mémoires de Babur ni chez Jauhar ou Gulbadan, aucune source ne mentionne le transfert et un tombeau à Kaboul n’apparaît que sous Akbar. {cite:nath-history-of-mughal-architecture-1-1982 p. 114} {cite:nath-history-of-mughal-architecture-1-1982 p. 115} {cite:nath-history-of-mughal-architecture-1-1982 p. 116} {cite:nath-history-of-mughal-architecture-1-1982 p. 117} Des bords brisés d’une estrade surélevée sur la terrasse, il déduit que l’édifice était un tombeau à coupole et propose d’y reconnaître le tombeau de Babur à Agra, dont le corps n’aurait peut-être jamais été déplacé, tout en reconnaissant que la question appelle des recherches supplémentaires du côté afghan. {cite:nath-history-of-mughal-architecture-1-1982 p. 119} Il s’agit de son argument contre le récit admis selon lequel Babur repose dans son jardin de Kaboul. {cite:nath-history-of-mughal-architecture-1-1982 p. 114} {cite:nath-history-of-mughal-architecture-1-1982 p. 115}

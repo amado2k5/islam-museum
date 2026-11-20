@@ -1,0 +1,19 @@
+---
+id: person/ibrahim-al-arrayedh
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/ibrahim-al-arrayedh.md}
+---
+## Résumé
+Ibrahim Al-Arrayedh (1908–2002) était un poète et écrivain bahreïni, largement considéré comme la figure littéraire la plus influente du Bahreïn moderne et le leader de son mouvement littéraire tout au long du XXe siècle. Né à Bombay d'un père bahreïni et d'une mère irakienne, il a passé sa vie professionnelle comme enseignant, fonctionnaire des douanes et employé d'une compagnie pétrolière tout en écrivant et traduisant de la poésie en arabe, persan, ourdou et anglais ; au début des années 1970, il a présidé le conseil qui a rédigé la première constitution bahreïnienne, et en 2006 sa maison de Manama est devenue la Maison de poésie Ebrahim Al-Arrayedh. {cite:wikipedia-ibrahim-al-arrayedh-en} {cite:wikidata-ibrahim-al-arrayedh}
+
+## Vie
+Al-Arrayedh est né à Bombay, en Inde, le 8 mars 1908 ; son père venait de Manama et sa mère d'Irak. Il visita Bahreïn pour la première fois en 1922, à l'âge de quatorze ans, et étudia à l'école Hidaya al-Khalifa, la première école formelle de l'île, avant de retourner à Bombay pour terminer ses études et de poursuivre ses études à l'Université musulmane d'Aligarh, où son amour pour la littérature ourdoue s'approfondit ; il devint fluent en persan, anglais et ourdou ainsi qu'en arabe. De retour à Bahreïn en 1927, il enseigna l'anglais à l'école Hidaya pendant quatre ans, puis devint directeur adjoint de l'école Jafari, démissionnant après des différends avec les autorités coloniales britanniques. Il a travaillé comme trésorier au service des douanes d'État, a dirigé un département de traduction de 1937 jusqu'à la fermeture de la Seconde Guerre mondiale, a travaillé dans une station de radio de Delhi en 1943, puis a rejoint la Bahrain Petroleum Company, où il est resté jusqu'à sa retraite en 1967. En 1974, il a été nommé ambassadeur itinérant puis ambassadeur extraordinaire et plénipotentiaire au ministère des Affaires étrangères. {cite:wikipedia-ibrahim-al-arrayedh-en}
+
+## Poésie et héritage
+Il commença à écrire de la poésie à dix-huit ans, et son premier recueil fut publié à Bagdad en 1931. Ses traductions incluaient de la poésie entre l'arabe, le persan, l'ourdou et l'anglais, et son œuvre trouva des lecteurs en Irak, en Syrie et en Égypte ; l'Université américaine de Beyrouth l'invita à donner des conférences sur la littérature arabe. Parmi ses livres figurent To Bethlehem, sur la lutte palestinienne ; Bitter Bread, sur la pauvreté et l'injustice sociale ; et The Tragedy of Being, sur l'existence humaine, tandis que ses Poèmes de Bahreïn dépeignent le paysage culturel et social du pays. Il fonda sa propre école, et le cheikh Isa ben Salman Al Khalifa le nomma chef du Conseil constitutionnel chargé de rédiger la première constitution de Bahreïn avant l'indépendance de la Grande-Bretagne. Il est décédé en mai 2002 — Wikidata indique le 28 mai — à l'âge de quatre-vingt-quatorze ans, suite à des complications respiratoires, et a été enterré au cimetière de Manama aux côtés de sa fille Layla. Le roi Hamad a nommé une rue de Manama en son honneur ; sa résidence Gudaibiya a été inaugurée en 2006 sous le nom de Maison de poésie Ebrahim Al-Arrayedh, et en 2008 l'UNESCO a honoré son héritage par une exposition à son siège parisien. {cite:wikipedia-ibrahim-al-arrayedh-en} {cite:wikidata-ibrahim-al-arrayedh}
+
+## Sources
+- Les entités sources définies citées ci-dessus, enregistrées dans `data/source/`.
+- Les révisions de cet article doivent être datées et doivent indiquer la source qui a modifié chaque fait.

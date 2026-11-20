@@ -10,7 +10,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 BASELINE = "800467e93e2c9ef073807f6bd5c7b717b028f859"  # origin/main when the mission branch was cut (2026-11-11)
 PRODUCTION = "https://islam.museum"
 OUT = os.path.join(ROOT, "docs", "courses-mission", "oracle-output")
-LANGS = ("ar", "en", "ur")  # Urdu joined on the user's instruction of 12 November 2026
+LANGS = ("ar", "en", "ur", "fr", "es")  # Urdu joined on the user's instruction of 12 November 2026
 
 
 def sh(cmd, check=False):
@@ -144,6 +144,6 @@ def entity_sources(eid, at=None):
     out = set()
     t = read(f"data/{eid}.yaml") or ""
     out |= set(re.findall(r"source/[a-z0-9-]+", t)) | {"source/" + s for s in re.findall(r"\{cite:([a-z0-9-]+)", t)}
-    for l in ("ar", "en", "ur"):
+    for l in ("ar", "en", "ur", "fr", "es"):
         out |= {"source/" + s for s in re.findall(r"\{cite:([a-z0-9-]+)", read(f"content/{l}/{eid}.md") or "")}
     return out

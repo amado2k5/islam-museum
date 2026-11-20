@@ -1,0 +1,13 @@
+---
+id: place/lesbos
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/place/lesbos.md}
+---
+## Visión general
+Lesbos aparece registrada en la ficha del museo como un sitio del Imperio Romano, con un punto representativo aproximadamente a 39,21 grados norte y 26,28 grados este. {cite:wikidata} Esta página aún no contiene una descripción de la isla en sí, según una fuente consultada para esta publicación.
+
+## En Nomisma
+El vocabulario numismático Nomisma vincula esta entrada con el concepto «lesbos», que clasifica como una región, es decir, un área de emisión y no una ceca o autoridad emisora, tomando su fuente de la Historia Numorum de Head (1911). Se ubica dentro del concepto más amplio «greek_asia» y en los grupos de numismática griega y numismática provincial romana. Su extremo registra 235 monedas o tipos de monedas que la nombran como su región, y otros 8 conceptos de Nomisma la nombran como su término más amplio. Nomisma proporciona la etiqueta árabe «لسبوس» y la etiqueta urdu «لزبوس». {cite:nomisma lesbos}

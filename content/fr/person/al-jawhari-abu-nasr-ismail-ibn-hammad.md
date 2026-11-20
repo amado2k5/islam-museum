@@ -1,0 +1,18 @@
+---
+id: person/al-jawhari-abu-nasr-ismail-ibn-hammad
+lang: fr
+source_lang: en
+translators: ['Claude (claude-fable-5-2), draft translation']
+provenance: {generated_by: 'Claude Code subagent (spanish lane, records the document services could not return intact)', model: claude-fable-5-2, run: claude-fr-2026-11-19, source: content/en/person/al-jawhari-abu-nasr-ismail-ibn-hammad.md}
+---
+## Résumé
+Abu Nasr Isma'il ibn Hammad al-Jawhari al-Farabi était un philologue originaire de Farab et l'auteur du dictionnaire [[work/al-sihah-jawhari|al-Sihah, Taj al-Lugha wa-Sihah al-Arabiyya]]. {cite:mawsuat-a3lam-ulama-adaba} {cite:sihah-attar-1979-v1 p.1} Bakri Shaykh Amin cite le *Mu'jam al-Udaba'* de Yaqut al-Hamawi : « al-Jawhari était l'une des merveilles de l'époque par l'intelligence et la perspicacité ; son origine était au pays des Turcs, de Farab, et il était un maître de la langue et des lettres ». {cite:sihah-attar-1979-scan-b p.21} La *Mawsu'at A'lam al-Ulama' wa'l-Udaba'* dit que la raison de son nom al-Jawhari n'est pas connue. {cite:mawsuat-a3lam-ulama-adaba}
+
+## Études et voyages
+Al-Jawhari apprit l'arabe auprès d'[[person/abu-ali-al-farisi|Abu Ali al-Farisi]] (m. 356 H) et d'[[person/al-sirafi|Abu Sa'id al-Sirafi]] (m. 368 H), acheva sa formation auprès des savants du Hijaz et auprès des Arabes sur leurs propres terres, voyageant parmi Rabi'a et Mudar, retourna au Khurasan, puis gagna [[place/nishapur|Nishapur]], où il s'établit comme enseignant, auteur et maître de calligraphie. {cite:sihah-attar-1979-scan-b p.21} {cite:sihah-attar-1979-scan-b p.22} Son oncle maternel était Abu Ibrahim [[person/ishaq-ibn-ibrahim-al-farabi|Ishaq ibn Ibrahim al-Farabi]], auteur du Diwan al-Adab ; Attar cite Yaqut comme ayant vu un exemplaire du Diwan al-Adab de la main d'al-Jawhari, consignant qu'il l'avait lu avec Abu Ibrahim à Farab, et tient cette affirmation pour inexacte, puisque al-Farabi écrivit son livre à Zabid et y mourut. {cite:sihah-attar-1979-scan-b p.7}
+
+## Al-Sihah
+Al-Jawhari composa al-Sihah à Nishapur pour Abu Mansur Abd al-Rahim al-Bayshaki, homme de lettres, prédicateur et théoricien du droit. {cite:sihah-attar-1979-scan-b p.22} Il l'ordonna selon la dernière radicale de la racine, puis selon la première ; son éditeur, Ahmad Abd al-Ghafur Attar, le considère comme étant à la tête d'une école de lexicographie suivie par le Lisan al-Arab et al-Qamus, et soutient qu'al-Jawhari inventa sa méthode sans avoir vu le Kitab al-Taqfiya d'al-Bandaniji ; voir [[question/did-al-jawhari-originate-the-method-of-al-sihah|Al-Jawhari est-il à l'origine de l'ordonnancement d'al-Sihah ?]]. {cite:sihah-attar-1979-v1 p.21} {cite:sihah-attar-1979-v1 p.36} Attar cite l'introduction d'al-Jawhari lui-même, où il dit l'avoir ordonné « selon un ordre dans lequel je n'ai eu aucun prédécesseur ». {cite:sihah-attar-1979-v1 p.30}
+
+## Sa mort
+Les biographies rapportent, comme le relate Bakri Shaykh Amin, qu'al-Jawhari fut saisi de délires, monta sur le toit de la vieille mosquée de Nishapur et dit : « J'ai fait en ce monde une chose dans laquelle nul ne m'a précédé, et je ferai pour l'autre une chose dans laquelle nul ne m'a précédé », puis attacha les deux battants d'une porte à ses flancs, prétendit qu'il allait voler, se jeta dans le vide et mourut. {cite:sihah-attar-1979-scan-b p.22} L'année de sa mort est discutée : la *Mawsu'a* et l'édition de Dar al-Hadith donnent 398 H ; Bakri Shaykh Amin dit que les chercheurs préfèrent 393 H, l'année qu'Attar retient aussi ; et Khalil al-Atiyya donne 400 H. {cite:mawsuat-a3lam-ulama-adaba} {cite:sihah-tamir-dar-al-hadith-2009 p.1} {cite:sihah-attar-1979-scan-b p.22} {cite:sihah-attar-1979-v1 p.20} {cite:sihah-attar-1979-v1 p.24}

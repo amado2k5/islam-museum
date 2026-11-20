@@ -1,0 +1,29 @@
+---
+id: concept/al-tahfiz
+lang: fr
+source_lang: en
+translators: ["Devin, draft translation"]
+provenance:
+  generated_by: Devin
+  model: unknown
+  run: fr-corpus-concept-02-06
+  source: content/en/concept/al-tahfiz.md
+---
+## Vue d’ensemble
+Tareq al-Suwaidan définit la motivation comme le fait pour une personne de recevoir une récompense : des paroles, un poste ou un bien matériel. Elle comprend à ses yeux aussi bien l’encouragement que la dissuasion {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:03:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:32:00}.
+Il ouvre la leçon par le jeu du « six-quatre-un » pour montrer que la motivation n’est pas toujours efficace : un joueur enthousiaste qui ne connaît pas les règles perd, si motivé soit-il. La motivation ne porte pas ses fruits sans désir intérieur ni sans connaissance, planification et expérience préalables {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:10:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:11:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:14:30}.
+
+## Les conditions de la réussite
+Il pose trois conditions : d’abord un désir intérieur chez la personne concernée — sans volonté de sa part, les encouragements et les menaces les plus forts restent sans effet ; il cite les musulmans morts sous la torture sans céder —, puis la connaissance et la planification, enfin l’expérience. La motivation ne commence à produire ses effets qu’après tout cela {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:11:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:15:00}.
+Il estime que les discours qui cherchent à galvaniser la communauté musulmane en évoquant ses gloires passées ne bâtiront pas de renaissance sans plan, savoir, direction ni expérience. Selon lui, les armées musulmanes se préparaient, s’entraînaient et planifiaient ; on galvanisait les troupes au moment de la bataille (point de vue du conférencier) {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:15:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:16:30}.
+
+## La hiérarchie des facteurs de motivation
+Il classe les facteurs de motivation : l’argent, les éloges, l’ambition, la satisfaction intérieure et le respect de soi. Au deuxième rang, il place le fait d’assumer une responsabilité assortie d’une autorité à sa mesure. Le degré le plus élevé, à ses yeux, est la foi en une idée, une cause ou un credo : celui qui croit en une idée n’a pas besoin que les autres le motivent et ne s’arrête pas en l’absence de leurs encouragements {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:28:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:29:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:30:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:32:00}.
+Il étend ce principe à toute conviction profonde, que l’idée soit vraie ou fausse. Il cite un jeune Palestinien convaincu de sa cause, l’Armée rouge japonaise, les Basques et les Tamouls, ainsi qu’Abu Jahl, qu’il voit mû par la solidarité tribale et non par les idoles {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:35:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:36:30}.
+Pour enraciner une idée dans les esprits, il énumère plusieurs moyens : la persuasion, la logique et le dialogue ; les récits et les paraboles ; les exemples vivants et ceux du passé — d’où les récits des prophètes — et parfois la menace d’une perte profonde {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:33:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:34:00}.
+
+## La critique de « l’employé idéal »
+Il tient pour vouée à l’échec la philosophie qui consiste à distinguer un seul « employé idéal » ou un seul « meilleur élève » en fin d’année : si on le récompense à nouveau, les autres en prennent ombrage ; si on en récompense un autre, il en est brisé {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:12:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:13:30}.
+Il attribue à Stephen Covey le récit d’une entreprise qui, lors de sa cérémonie annuelle, a distingué cinquante de ses neuf cent quatre-vingts employés. Covey aurait demandé à son dirigeant : avez-vous recruté des gens qui réussissent ou des gens qui échouent ? Et si vous avez choisi les premiers, que leur avez-vous fait pour qu’ils en viennent à échouer ? {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:41:00}
+Il raconte sa propre expérience à l’American Creativity Academy : une banque pour les élèves qui fonctionnait avec des points, pas de l’argent — six points pour chaque A, cinq pour un B, plus des points pour la conduite et les activités — et des prix en fin d’année, dont des titres de transport et des actions, une récompense spéciale pour l’élève ayant le plus progressé et la possibilité d’épargner des points pour l’année suivante. Ainsi, chacun est récompensé, et non un seul {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:41:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:44:00}.
+Avec ses propres enfants, il dit ne pas récompenser la réussite sur le moment, mais les attacher à l’idée et au but, non au prix (un point de vue qui, reconnaît-il, peut s’écarter de l’usage) {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:37:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:38:30}.

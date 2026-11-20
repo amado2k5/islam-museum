@@ -1,0 +1,12 @@
+---
+id: practice/dua-morning-evening-core
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/practice/dua-morning-evening-core.md}
+---
+## Resumen
+La primera parte de lo que al-Nawawi ofrece en el capítulo sobre lo que se dice por la mañana y la tarde, el capítulo más amplio del libro: el maestro de buscar el perdón, cien glorificaciones, tres suras breves y refugio en las palabras perfectas de Dios. {cite:al-adhkar-nawawi-arnaut-1994 p. 76}
+
+## Lo que al-Nawawi reúne en al-Adhkar
+Al-Nawawi dice que este capítulo es el más amplio del libro, que ofrece varios de los informes más breves de él, y que quien no pueda hacerlos todos puede llevarse todo lo que quiera, incluso un solo recuerdo {cite:al-adhkar-nawawi-arnaut-1994 p. 76}. En Sahih al-Bukhari, de Shaddad ibn Aws, [[person/muhammad|el Profeta]] llamado «سيد الاستغفار», maestro de la búsqueda del perdón, que comienza «اللهم أنت ربي لا إله إلا أنت خلقتني وأنا عبدك»; quien lo dice por la tarde y muere esa noche entra en el Paraíso o es de su pueblo, y del mismo modo por la mañana {cite:al-adhkar-nawawi-arnaut-1994 p. 76}. En Sahih Muslim, de Abu Hurayra: quien dice «سبحان الله وبحمده» cien veces por la mañana y la tarde, solo es superado en el Día de la Resurrección por quien diga lo mismo o más {cite:al-adhkar-nawawi-arnaut-1994 p. 76}. De Abd Allah ibn Khubayb, por cadenas sonoras en Abu Dawud, al-Tirmidhi y al-Nasa'i, el Profeta le dijo que recitara la sura de sinceridad y las dos suras de refugio tres veces por la tarde y la mañana; al-Tirmidhi la llamó buena y sólida {cite:al-adhkar-nawawi-arnaut-1994 p. 77}. De Abu Hurayra, «اللهم بك أصبحنا وبك أمسينا وبك نحيا وبك نموت وإليك النشور», que al-Tirmidhi llamó bueno {cite:al-adhkar-nawawi-arnaut-1994 p. 77}. En Sahih Muslim, a un hombre picado por un escorpión, el Profeta dijo que si hubiera dicho por la tarde «أعوذ بكلمات الله التامات من شر ما خلق», no le habría hecho daño {cite:al-adhkar-nawawi-arnaut-1994 p. 78}. Desde Uthman, en Abu Dawud y al-Tirmidhi, «بسم الله الذي لا يضر مع اسمه شيء في الأرض ولا في السماء» tres veces; al-Tirmidhi lo llamó bueno y sólido {cite:al-adhkar-nawawi-arnaut-1994 p. 78}.

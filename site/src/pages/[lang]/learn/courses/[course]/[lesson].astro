@@ -6,7 +6,7 @@ import BaseLayout from "../../../../../layouts/BaseLayout.astro";
 import PageHeader from "../../../../../components/PageHeader.astro";
 import CoursesStyle from "../../../../../components/CoursesStyle.astro";
 import CourseCard from "../../../../../components/CourseCard.astro";
-import { ui, fmt, type Lang } from "../../../../../lib/i18n";
+import { ui, fmt, ARABIC_SCRIPT, type Lang } from "../../../../../lib/i18n";
 import { labelOf, summaryOf, href } from "../../../../../lib/graph";
 import { num } from "../../../../../lib/nav";
 import { COURSE_LANGS, courses, coursePath, lessonPath, homePath, slugOf, lessonView, langName, type Course } from "../../../../../lib/courses";
@@ -29,9 +29,9 @@ const steps = [
   { id: "check", label: C.step_check, on: true },
 ].filter((s) => s.on).map((s, i) => ({ ...s, n: num(i + 1, lang) }));
 const stepN = (id: string) => steps.find((s) => s.id === id)?.n;
-const proseDir = v.proseLang === "en" ? "ltr" : "rtl";
+const proseDir = ARABIC_SCRIPT.includes(v.proseLang as Lang) ? "rtl" : "ltr";
 ---
-<BaseLayout lang={lang} title={`${title} · ${courseTitle}`} description={summaryOf(l, lang)} path={lessonPath(lang, c, l)} alternates={{ ar: lessonPath("ar", c, l), en: lessonPath("en", c, l), ur: lessonPath("ur", c, l) }}>
+<BaseLayout lang={lang} title={`${title} · ${courseTitle}`} description={summaryOf(l, lang)} path={lessonPath(lang, c, l)} alternates={{ ar: lessonPath("ar", c, l), en: lessonPath("en", c, l), ur: lessonPath("ur", c, l), fr: lessonPath("fr", c, l), es: lessonPath("es", c, l) }}>
   <div data-pagefind-body>
     <PageHeader title={title} lede={summaryOf(l, lang)} crumbs={[{ label: T.syllabus.title, href: homePath(lang) }, { label: courseTitle, href: coursePath(lang, c) }, ...(v.strand.node ? [{ label: labelOf(v.strand.node, lang) }] : [])]} crumbsLabel={T.entity.breadcrumb} wing="ideas" titleAttrs={{ "data-pagefind-meta": "title" }}>
       <p class="cx-where">

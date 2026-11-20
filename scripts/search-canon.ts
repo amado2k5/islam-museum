@@ -29,11 +29,11 @@ export interface CanonHit { id: string; title: string; summary: string }
 export interface CanonIndex { keys: Record<string, number>; records: CanonHit[] }
 /** Kinds of names[] entry that stand for the whole person; a kunya, nisba or laqab alone is shared by too many. */
 const WHOLE_NAME_KINDS = new Set(["full", "alternate", "latinized", "regnal", "pen"]);
-export function canonSearchIndex(c: Compiled, lang: "ar" | "en" | "ur", variants: Record<string, string[]> = {}): CanonIndex {
+export function canonSearchIndex(c: Compiled, lang: "ar" | "en" | "ur" | "fr" | "es", variants: Record<string, string[]> = {}): CanonIndex {
   const canon = c.nodes.filter((n) => !n.stub && (n.data.importance === 1 || n.data.importance === 2));
-  const labelIn = (n: Node) => n.label[lang] ?? (lang === "ur" ? n.label.ar : undefined) ?? n.label.ar ?? n.label.en ?? "";
+  const labelIn = (n: Node) => n.label[lang] ?? (lang === "ur" ? n.label.ar : undefined) ?? (lang === "fr" || lang === "es" ? n.label.en : undefined) ?? n.label.ar ?? n.label.en ?? "";
   const script = (s: string) => (/[؀-ۿ]/.test(s) ? "ar" : "en");
-  const want = lang === "en" ? "en" : "ar";
+  const want = lang === "en" || lang === "fr" || lang === "es" ? "en" : "ar";
   // strength of a claim: 2 the whole name, 1 a part that opens the label, 0 a part inside it
   type Claim = { n: Node; strength: number };
   const claims = new Map<string, Claim[]>();

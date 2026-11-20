@@ -1,0 +1,9 @@
+---
+id: concept/mubalagha-fiqh
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/mubalagha-fiqh.md}
+---
+## Résumé
+Mubalagha, dans le lexique, signifie s'efforcer et ne pas manquer de détour, ou extravagance {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13823}. Les juristes s'accordent à dire qu'un rinçage minutieux dans le rinçage de la bouche et du nez est la sunna pour celui qui ne jeûne pas ; pour la personne en jeûne, il est détesté, selon le hadith de Laqit ibn Sabra : soyez minutieux en snuffant l'eau sauf si vous jeûnez {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13823}. La plupart des juristes recommandent de laver plus que les parties obligatoires lors de l'ablution, d'après le témoignage d'Abu Hurayra et les visages et membres lumineux de la communauté ; les Hanbalis entendent par le frottement minutieux des endroits où l'eau ne se dépose pas, les Malikis considèrent le frottement obligatoire {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13823-13824}. La plupart recommandent de frotter les talons, et l'extravagance dans le lavage est détestée {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13824-13825}. Les Malikis et les Shafi'is recommandent d'élever la voix dans l'appel à la prière sans effort ; les Hanafis appellent cela sunna et les Hanbali en font un pilier, élevé aussi loin que possible {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13825}. Concernant la louange, al-Nawawi affirme que cette interdiction s'applique à l'exagération et à quelqu'un que la louange peut corrompre ; la louange n'est pas interdite pour une personne de foi et de bon sens établis {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13825}.

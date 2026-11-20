@@ -5,7 +5,7 @@ import BaseLayout from "../../../../../layouts/BaseLayout.astro";
 import PageHeader from "../../../../../components/PageHeader.astro";
 import ExploreBar from "../../../../../components/ExploreBar.astro";
 import DraftMark from "../../../../../components/DraftMark.astro";
-import { ui, fmt, LANGS, type Lang } from "../../../../../lib/i18n";
+import { ui, fmt, LANGS, type Lang, ALL_LANGS } from "../../../../../lib/i18n";
 import { labelOf, href } from "../../../../../lib/graph";
 import { BROWSE_CLASSES, browseSegment, entriesOf, CLASS_WHOLE, CLASS_PAGE } from "../../../../../lib/browse";
 import { letterGroups } from "../../../../../lib/halls";
@@ -15,14 +15,14 @@ import { num } from "../../../../../lib/nav";
 export function getStaticPaths() {
   return BROWSE_CLASSES.filter((c) => entriesOf(c).length > CLASS_WHOLE).flatMap((cls) => {
     // The letters differ by language: the switch and the alternates go to the twin page only where it is built (lib/paged.ts).
-    const byLang = new Map(LANGS.map((l) => [l, letterGroups(entriesOf(cls), l)]));
-    const pages = new Map(LANGS.map((l) => [l, groupPages(byLang.get(l)!, CLASS_PAGE)]));
+    const byLang = new Map(ALL_LANGS.map((l) => [l, letterGroups(entriesOf(cls), l)]));
+    const pages = new Map(ALL_LANGS.map((l) => [l, groupPages(byLang.get(l)!, CLASS_PAGE)]));
     const seg = browseSegment(cls);
     return LANGS.flatMap((lang) => byLang.get(lang)!.flatMap((g) => Array.from({ length: Math.ceil(g.items.length / CLASS_PAGE) }, (_x, k) => ({
       params: { lang, class: seg, page: k === 0 ? g.id : `${g.id}/${k + 1}` },
       props: {
         lang, cls, groupId: g.id, pageNo: k + 1,
-        alternates: indexAlternates(LANGS, (l) => pages.get(l)!, g.id, k + 1, (l) => (k === 0 ? `/${l}/browse/${seg}/all/${g.id}/` : `/${l}/browse/${seg}/all/${g.id}/${k + 1}/`), (l) => `/${l}/browse/${seg}/`),
+        alternates: indexAlternates(ALL_LANGS, (l) => pages.get(l)!, g.id, k + 1, (l) => (k === 0 ? `/${l}/browse/${seg}/all/${g.id}/` : `/${l}/browse/${seg}/all/${g.id}/${k + 1}/`), (l) => `/${l}/browse/${seg}/`),
       },
     }))));
   });

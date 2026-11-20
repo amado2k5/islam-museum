@@ -1,0 +1,37 @@
+---
+id: question/did-adam-argue-from-destiny-to-excuse-his-sin
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/question/did-adam-argue-from-destiny-to-excuse-his-sin.md}
+---
+## Résumé
+Dans le Livre du Destin de [[work/majmu-al-fatawa|Majmu' al-Fatawa]], il y a une section d'[[person/ibn-taymiyya|Ibn Taymiyya]] sur les mots du Prophète « Ainsi, Adam a triomphé sur Moïse », où Adam argumenta contre le destin, dans laquelle il soutient que cela concernait des calamités, non des péchés. {cite:majmu-fatawa-wafa-v8 p. 615} Il donne le hadith des deux Sahihs sur l'autorité d'Abu Hurayra : [[person/adam|Adam]] et [[person/musa|Moïse]] argumentèrent, et Moïse dit : Tu es le père de l'humanité que Dieu a créé de Sa main, en qui Il a soufflé de son esprit et devant qui Il a prosterné ses anges – pourquoi nous as-tu fait sortir du Jardin ainsi que toi-même ? Adam dit : tu es Moïse à qui Dieu a parlé et pour qui Il a écrit la Torah – combien de temps avant ma création y trouves-tu inscrit le rapport de ma désobéissance ([[passage/quran-20-121|Ta Ha 121]]) ? Il a dit : quarante ans. Et ainsi Adam a triomphé sur Moïse. Il ajoute qu'elle est aussi racontée par Umar ibn al-Khattab avec une bonne chaîne. {cite:majmu-fatawa-wafa-v8 p. 615}
+
+## Trois partis
+Ibn Taymiyya dit que beaucoup supposaient qu'Adam avait argumenté à partir de son destin antérieur pour nier toute responsabilité pour son péché, et qu'à cause de cette supposition s'est divisé en trois partis : {cite:majmu-fatawa-wafa-v8 p. 615}
+- **Une partie rejeta le hadith comme faux**, comme Abu Ali [[person/al-jubbai|al-Jubba'i]] et d'autres, car il est nécessaire de constater que faire du destin une excuse pour le pécheur contredit ce que les messagers avaient apporté ; les éditeurs identifient al-Jubba'i dans une note comme l'un des imams de Mu [[group/mutazila|'tazila]], né en 235 et mort en 303 H. {cite:majmu-fatawa-wafa-v8 p. 615} {cite:majmu-fatawa-wafa-v8 p. 616}
+- **Une partie l'a interprétée** de façons qu'Ibn Taymiyya considère manifestement infondées : qu'Adam a triomphé parce qu'il était le père de Moïse et qu'un fils ne blâme pas son père ; ou parce que le péché était sous une loi et la faute sous une autre ; ou parce que la faute est venue après le repentir ; ou parce qu'il s'agit d'une question dans laquelle ce monde et l'autre diffèrent. {cite:majmu-fatawa-wafa-v8 p. 616}
+- **Un parti en fit son principal usage pour rejeter la faute** de ceux qui s'opposent au commandement de Dieu et de Son Messager, mais ne put l'appliquer de manière cohérente dans leur vie quotidienne, si bien que certains l'utilisèrent pour leurs propres désirs et non pour ceux des autres ; de ces peuples, on dit : « En obéissance tu es un Qadari, en désobéissance un Jabri. » Certains restreignent cela à « les gens de la réalité » qui ont été témoins de l'unité de la seigneurie et ont été anéantis de tout sauf Dieu ; Ibn Taymiyya attribue cela à de nombreux soufis ultérieurs revendiquant la réalité et à certains gens de connaissance. {cite:majmu-fatawa-wafa-v8 p. 616}
+
+## La vue d'Abu al-Muzaffar al-Sam'ani
+Ibn Taymiyya cite [[person/abu-al-muzaffar-al-samani|Abu al-Muzaffar al-Sam'ani]] : le débat n'était permis à Adam et Moïse que parce qu'ils étaient deux grands prophètes désignés pour la connaissance des réalités et autorisés à découvrir des secrets, ce qui n'est pas la voie des créatures commandées de s'arrêter aux limites fixées ; « Ainsi, Adam a triomphé » n'annule pas l'obéissance ni abandonne un devoir, mais signifie donner la priorité à l'un des deux points et placer le décret au-dessus de la cause immédiate ; Adam n'aurait pas pu rester dans le Jardin en raison du décret antérieur lui disant qu'il le quitterait, et ainsi il l'emporta sur Moïse. {cite:majmu-fatawa-wafa-v8 p. 616} {cite:majmu-fatawa-wafa-v8 p. 617} Les éditeurs identifient al-Sam'ani dans une note comme Mansur ibn Muhammad al-Marwazi, mufti du Khorasan, né à Merv en 426 et décédé là-bas en 489 H. {cite:majmu-fatawa-wafa-v8 p. 616}
+
+## Ceux qui ont contesté en voyant le destin
+Ibn Taymiyya rapporte que le [[person/abd-al-qadir-al-jilani|cheikh Abd al-Qadir]] disait que beaucoup d'hommes, en atteignant le décret et le destin, se retenaient, tandis qu'il « se battait contre les décrets du Real par le Real pour le Real » ; qu'il exaltait le commandement et l'interdiction et interdisait de se disputer à partir du destin, tout comme son shaykh [[person/hammad-al-dabbas|Hammad al-Dabbas]]. {cite:majmu-fatawa-wafa-v8 p. 617} Il place dans cette catégorie l'affirmation selon laquelle [[person/al-khidr|al-Khidr]] était exempt de toute responsabilité parce qu'il a été témoin de la réalité du destin et de la doctrine du peuple unifié qui défend l'unité de l'existence, nommant parmi eux al-Tilimsani, Ibn Arabi, al-Qunawi, Ibn Sab'in et Ibn al-Farid. {cite:majmu-fatawa-wafa-v8 p. 617}
+
+## La réponse d'Ibn Taymiyya
+Il soutient que Dieu a ordonné la patience face aux calamités et la recherche de pardon pour les fautes, citant [[passage/quran-40-55|Ghafir 55]], qui se joint au commandement d'être patient avec celui de chercher le pardon. {cite:majmu-fatawa-wafa-v8 p. 615} Il dit que dans les calamités provoquées par le décret de Dieu où aucun pécheur ne reste à punir, il n'y a rien d'autre que patience et soumission au destin, et que l'histoire d'Adam et de Moïse est de ce genre : Moïse le blâma pour ce qui lui était arrivé ainsi qu'à sa progéniture, Adam s'était repenti du péché et avait été pardonné, et la calamité fut décrété ; ainsi Adam l'emporta sur Moïse. {cite:majmu-fatawa-wafa-v8 p. 632} Il étend cela à celui qui a été lésé par l'acte de personnes qui ont péché puis se sont repenties – un incroyant qui tue un musulman puis devient musulman, ou celui qui a eu une innovation par interprétation puis s'est repenti – qu'il compte parmi les calamités venues du ciel pour lesquelles aucune représaille n'est demandée. {cite:majmu-fatawa-wafa-v8 p. 632}
+
+:::perspectives
+**Ahl al-Sunna (Hanbali) : Ibn Taymiyya.** Argumenter à partir du destin est valable pour les calamités, pas pour les péchés ; Moïse accusa Adam de la calamité, Adam s'était repenti, donc Adam l'emporta. {cite:majmu-fatawa-wafa-v8 p. 615} {cite:majmu-fatawa-wafa-v8 p. 632}
+
+**Ahl al-Sunna (Shafi'i) : Abu al-Muzaffar al-Sam'ani, comme le cite Ibn Taymiyya.** Le débat fut laissé à deux prophètes désignés pour la connaissance des réalités ; cela signifie mettre le décret en premier, et non abandonner l'obéissance. {cite:majmu-fatawa-wafa-v8 p. 616} {cite:majmu-fatawa-wafa-v8 p. 617}
+
+**Mu'tazila : Abu Ali al-Jubba'i, comme le rapporte Ibn Taymiyya.** Le hadith est faux car il fait du destin une excuse pour le pécheur. {cite:majmu-fatawa-wafa-v8 p. 615}
+
+**Des soufis ultérieurs revendiquant la réalité, comme le rapporte Ibn Taymiyya.** Quiconque est témoin de l'unité de la seigneurie et est anéanti de tout sauf Dieu est exempt de toute faute. {cite:majmu-fatawa-wafa-v8 p. 616}
+:::
+
+## Pas encore couvert
+Les points de vue mu'tazili et soufis ici proviennent du rapport d'Ibn Taymiyya, et non de leurs propres livres ; les commentaires sur les hadiths par les commentateurs des deux Sahihs n'ont pas encore été ajoutés.

@@ -1,0 +1,12 @@
+---
+id: practice/dua-night-waking-and-fear
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/practice/dua-night-waking-and-fear.md}
+---
+## Resumen
+Lo que al-Nawawi recopila en tres capítulos: para quien despierta por la noche y quiere volver a dormir, para quien está inquieto en la cama y no puede dormir, y para otro asustado en su sueño. {cite:al-adhkar-nawawi-arnaut-1994 p. 95}
+
+## Lo que al-Nawawi reúne en al-Adhkar
+En el capítulo sobre lo que dice una persona al despertarse de noche y querer dormir de nuevo, al-Nawawi dice que se recomienda recordar a Dios hasta que el sueño le venca {cite:al-adhkar-nawawi-arnaut-1994 p. 95}. En Sahih al-Bukhari, de Ubada ibn al-Samit, [[person/muhammad|el Profeta]] dijo que quien despierta por la noche y dice «لا إله إلا الله وحده لا شريك له» y el resto dice «اللهم اغفر لي» o de otro modo súplica, y si hace ablución su oración es aceptada {cite:al-adhkar-nawawi-arnaut-1994 p. 96}. De Aisha, en Abu Dawud por una cadena que no debilitó: «لا إله إلا أنت سبحانك اللهم أستغفرك لذنبي وأسألك رحمتك» {cite:al-adhkar-nawawi-arnaut-1994 p. 96}. En al-Tirmidhi por una buena cadena, de Abu Hurayra, quien se levanta de su cama por la noche y regresa debe agitarla tres veces {cite:al-adhkar-nawawi-arnaut-1994 p. 96}. En Muwatta' de Malik, Abu al-Darda solía levantarse en lo más profundo de la noche y decir «نامت العيون وغارت النجوم وأنت حي قيوم» {cite:al-adhkar-nawawi-arnaut-1994 p. 97}. En el capítulo para un inquieto en la cama, relata en Ibn al-Sunni que Zayd ibn Thabit se quejaba de insomnio y el Profeta le enseñó palabras que comienzan «اللهم غارت النجوم وهدأت العيون»; Zayd dice que Dios eliminó lo que sentía {cite:al-adhkar-nawawi-arnaut-1994 p. 97}. Khalid ibn al-Walid también se quejó y el Profeta le dijo que buscara refugio, en el sueño, en las perfectas palabras de Dios de su ira y del mal de sus siervos, que al-Nawawi llama informe mursal, y al-Tirmidhi tiene otro por una cadena débil, que debilitó {cite:al-adhkar-nawawi-arnaut-1994 p. 97}. En el capítulo sobre el miedo al dormir, de Amr ibn Shu'ayb, de su padre, de su abuelo, el Profeta les enseñó contra el miedo «أعوذ بكلمات الله التامة من غضبه وشر عباده», y al-Tirmidhi lo llamó bueno {cite:al-adhkar-nawawi-arnaut-1994 p. 98}.

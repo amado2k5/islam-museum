@@ -2,6 +2,7 @@
 import { Marked } from "marked";
 import { byId, href, labelOf, realNodes, NEEDS_SOURCE } from "./graph";
 import type { Lang } from "./i18n";
+import { parsePerspectiveLine } from "./perspectives";
 
 export interface Cite { n: number; source: string; locator?: string }
 export interface Rendered { html: string; cites: Cite[]; perspectives: { tradition: string; html: string }[] }
@@ -58,10 +59,13 @@ const HON_PATTERNS: Record<Lang, RegExp> = {
   ar: /(?<![\u0621-\u064A])(رسول الله|النبي)(?![\u0621-\u064A])/g,
   en: /(?<![A-Za-z])(the Messenger of God|Prophet Muhammad|the Prophet)(?![A-Za-z])/g,
   ur: /(?<![\u0621-\u06D3])(رسول اللہ|نبی کریم)(?![\u0621-\u06D3])/g,
+  fr: /(?<![A-Za-zÀ-ÿ])(le Messager de Dieu|le Prophète Muhammad|le Prophète|l'Envoyé de Dieu)(?![A-Za-zÀ-ÿ])/g,
+  es: /(?<![A-Za-zÀ-ÿ])(el Mensajero de Dios|el Profeta Muhammad|el Profeta|el Enviado de Dios)(?![A-Za-zÀ-ÿ])/g,
 };
 // ﷺ belongs to Muhammad alone: "النبي صموئيل", "the Prophet Daniel" (a person, shrine or village) name another prophet, and
 // "النبي الوحيد" speaks of a prophet in general, so neither gets the mark.
 const OTHER_PROPHETS: Record<Lang, string[]> = {
+  fr: ["Adam", "Idris", "Noé", "Houd", "Salih", "Abraham", "Loth", "Ismaël", "Isaac", "Jacob", "Joseph", "Job", "Chouayb", "Moïse", "Aaron", "David", "Salomon", "Élie", "Élisée", "Jonas", "Zacharie", "Jean", "Jésus", "Samuel", "Daniel", "Josué", "Ézéchiel", "Jérémie", "Isaïe"],
   ar: [
     "آدم", "إدريس", "أخنوخ", "نوح", "هود", "صالح", "إبراهيم", "لوط", "إسماعيل", "إسحاق", "يعقوب", "يوسف", "أيوب", "شعيب",
     "موسى", "هارون", "ذا الكفل", "ذي الكفل", "ذو الكفل", "داود", "سليمان", "إلياس", "الياس", "اليسع", "أليشع", "اليشع",
@@ -87,6 +91,13 @@ const OTHER_PROPHETS: Record<Lang, string[]> = {
     "عیسیٰ", "عیسی", "مسیح", "سموئیل", "شموئیل", "دانیال", "یوشع", "شیث", "حزقیل", "حزقی ایل", "یرمیاہ", "ارمیا", "عزیر",
     "خضر", "جرجیس", "لقمان",
   ],
+  es: [
+    "Adán", "Idris", "Enoc", "Nuh", "Noé", "Hud", "Salih", "Ibrahim", "Abraham", "Lut", "Lot", "Ismail", "Ismael", "Ishaq", "Isaac",
+    "Yaqub", "Jacob", "Yusuf", "José", "Ayyub", "Job", "Shuayb", "Shu'ayb", "Jetró", "Musa", "Moisés", "Harun", "Aarón", "Dhu al-Kifl",
+    "Dawud", "David", "Sulayman", "Salomón", "Ilyas", "Elías", "al-Yasa", "Eliseo", "Yunus", "Jonás", "Zakariyya", "Zacarías", "Yahya",
+    "Juan", "Isa", "Jesús", "Samuel", "Daniel", "Yusha", "Josué", "Shith", "Set", "Ezequiel", "Jeremías", "Isaías", "Uzayr", "Esdras",
+    "Khidr", "al-Khidr", "Luqman",
+  ],
 };
 // Every prophet in the graph other than Muhammad joins the list in each language, so a new prophet's record is covered as soon as it lands.
 for (const n of realNodes) {
@@ -101,7 +112,7 @@ for (const n of realNodes) {
     }
   }
 }
-const NAME_END: Record<Lang, string> = { ar: "(?![\u0621-\u064A])", en: "(?![A-Za-z])", ur: "(?![\u0621-\u06D3])" };
+const NAME_END: Record<Lang, string> = { ar: "(?![\u0621-\u064A])", en: "(?![A-Za-z])", ur: "(?![\u0621-\u06D3])", fr: "(?![A-Za-zÀ-ÿ])", es: "(?![A-Za-zÀ-ÿ])" };
 const reEsc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const OTHER_AFTER = Object.fromEntries(
   (Object.keys(OTHER_PROPHETS) as Lang[]).map((l) => {
@@ -129,6 +140,8 @@ const COMPANION_SUFFIX: Record<Lang, { m: string; f: string }> = {
   ar: { m: "رضي الله عنه", f: "رضي الله عنها" },
   ur: { m: "رضی اللہ عنہ", f: "رضی اللہ عنہا" },
   en: { m: "(may God be pleased with him)", f: "(may God be pleased with her)" },
+  fr: { m: "(que Dieu soit satisfait de lui)", f: "(que Dieu soit satisfait d'elle)" },
+  es: { m: "(que Dios esté complacido con él)", f: "(que Dios esté complacido con ella)" },
 };
 const companionCache = new Map<Lang, { name: string; suffix: string }[]>();
 function companionsFor(lang: Lang) {
@@ -217,8 +230,8 @@ export function renderProse(md: string, lang: Lang, hon?: HonState): Rendered {
   const perspectives: Rendered["perspectives"] = [];
   md = md.replace(/^:::perspectives\n([\s\S]*?)\n:::\s*$/gm, (_m, body: string) => {
     for (const line of body.split("\n")) {
-      const m = line.match(/^- \*\*(.+?)\*\*:\s*(.+)$/);
-      if (m) perspectives.push({ tradition: m[1].replace(NEEDS_SOURCE, "").trim(), html: transform(markedSafe.parseInline(m[2], { async: false }) as string) });
+      const entry = parsePerspectiveLine(line);
+      if (entry?.body) perspectives.push({ tradition: entry.label.replace(NEEDS_SOURCE, "").trim(), html: transform(markedSafe.parseInline(entry.body, { async: false }) as string) });
     }
     return "";
   });

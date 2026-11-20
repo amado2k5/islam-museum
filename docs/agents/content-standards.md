@@ -4,7 +4,7 @@
 
 Rule (founder, 26 October 2026): write the full, detailed prose and as many well-sourced details as the sources allow in the first pass. This applies to every class of entity and every topic, not only people: a person, a book, an article, a thesis, a website, a building, an object, an image, a place, an event, a concept, or a practice.
 
-- Gather the sources first (defined source entities; Wikipedia and Wikidata for entity facts; the press and institutional sources they cite), then write the complete prose in Arabic (canonical), English and Urdu in the same commit.
+- Gather the sources first (defined source entities; Wikipedia and Wikidata for entity facts; the press and institutional sources they cite), then write the complete prose in Arabic (canonical), English, Urdu, French and Spanish in the same commit.
 - Include every fact, programme, work, institution, travel, relationship, recognition and reported criticism that the sources support, each cited to a defined source entity.
 - Show contested or reported criticism as a labelled perspective, not a verdict, and say when the primary statements have not yet been checked.
 - Do not defer enrichment to later runs or phases. Later work is revision only: correcting, reaffirming, or extending with new sources, never completing a thin first draft.

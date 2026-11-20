@@ -1,0 +1,13 @@
+---
+id: group/bab-i-mashikhat
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/group/bab-i-mashikhat.md}
+---
+
+## Visión general
+Bab-i Mashikhat — también Shaykh al-Islam Qapisi, Bab-i Fetwa y Fetwakhane — fue el nombre que se hizo común en el Imperio Otomano en el siglo XIX para designar el cargo o departamento del Shaykh al-Islam, el Muftí Jefe de Estambul. Hasta 1241/1826 los Muftis Principales ejercían y dictaban sus sentencias desde sus propias residencias o, si estas estaban demasiado lejanas, desde alojamientos alquilados. Ese año, tras la destrucción de los jenízaros, el sultán Mahmud II entregó la antigua residencia del Agha de los jenízaros, cerca de la mezquita Suleymaniyye, al Muftí Jefe, que así adquirió un establecimiento permanente. {cite:encyclopaedia-of-islam-2 vol. 1 p. 894}
+
+## Burocratización y declive
+Este paso, junto con la creación de una Inspección de waqf para centralizar la supervisión de los ingresos del waqf, preparó el camino para la burocratización de los ulama. Privados de autonomía financiera y administrativa, los ulama quedaron gravemente debilitados frente al poder soberano y no pudieron resistirse a sucesivas reducciones de su competencia, autoridad y estatus: a lo largo del siglo XIX perdieron el control de la educación y la justicia frente a los nuevos consejos y ministerios, e incluso la redacción de las fatwas fue encomendada a un comité de especialistas jurídicos en la oficina del Gran Muftí. El propio Muftí Jefe se convirtió en titular de un cargo gubernamental —ministro o jefe de departamento y miembro del gabinete— de modo que su mandato terminó automáticamente con la caída del gabinete; sin embargo, a diferencia de los otros ministros, fue nombrado por el sultán, no por el Gran Visir, con quien teóricamente era igual (cf. artículo 27 de la constitución de 1876). El cargo decayó de forma constante, especialmente tras la Revolución de 1908. Finalmente, el 3 de marzo de 1924 — el día en que se terminó el Califato — el cargo de Shaykh al-Islam, que había caducado con el Sultanato en 1922, fue reemplazado por un departamento de asuntos religiosos adscrito a la oficina del Primer Ministro en Ankara; su director, el Diyanet Ishleri Re'isi, se convirtió en el principal funcionario religioso de la República Turca, responsable de las mezquitas y del personal de las mezquitas, pero no del waqf, la ley ni la educación. {cite:encyclopaedia-of-islam-2 vol. 1 p. 894-895}

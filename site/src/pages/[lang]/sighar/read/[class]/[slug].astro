@@ -8,7 +8,7 @@ import BaseLayout from "../../../../../layouts/BaseLayout.astro";
 import Hudhud from "../../../../../components/Hudhud.astro";
 import { nodes, SEGMENT, href, labelOf } from "../../../../../lib/graph";
 import { ui, LANGS, type Lang } from "../../../../../lib/i18n";
-import { levelOf, plainChildMarkdown } from "../../../../../lib/entity";
+import { levelOf, hasKidsRead, plainChildMarkdown } from "../../../../../lib/entity";
 import { renderProse, newHonState } from "../../../../../lib/markdown";
 import type { Node } from "../../../../../../../scripts/build-graph";
 import "../../../../../styles/kids.css";
@@ -16,7 +16,7 @@ import "../../../../../styles/kids.css";
 export function getStaticPaths() {
   return LANGS.flatMap((lang) =>
     nodes
-      .filter((n) => n.data.education?.flagged_for_kids && n.prose[lang])
+      .filter((n) => hasKidsRead(n, lang))
       .map((n) => ({ params: { lang, class: SEGMENT[n.class] ?? n.class, slug: n.slug }, props: { node: n, lang } })),
   );
 }

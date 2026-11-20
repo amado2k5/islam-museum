@@ -1,0 +1,15 @@
+---
+id: concept/khuruq-al-qarniyya
+lang: fr
+source_lang: en
+translators: ['Claude (claude-fable-5-2), draft translation']
+provenance: {generated_by: 'Claude Code subagent (spanish lane, records the document services could not return intact)', model: claude-fable-5-2, run: claude-fr-2026-11-19, source: content/en/concept/khuruq-al-qarniyya.md}
+---
+## Sortes de protrusion
+Les ruptures de la cornée viennent d'un ulcère qui a rongé de part en part ou d'une cause extérieure comme un coup ou un choc perçant, à la suite de quoi l'uvée se montre ; si ce qui s'en montre est léger, on l'appelle la fourmi, mursharij ou la mouche selon sa petitesse ou sa taille ; s'il y en a davantage, jusqu'à ce qu'apparaisse un grain de raisin d'uvée, le grain de raisin ; plus grande encore, la vessie ; si l'uvée sort au point d'empêcher les paupières de se rejoindre, le clou ; et si l'uvée devient blanche, il n'y a pas de guérison {cite:canon-ibn-sina-print-v2 p.178} {cite:canon-ibn-sina-print-v2 p.179}
+
+## La distinguer des vessies, et la rupture en longueur
+Lorsque la cornée se rompt en longueur, on ne voit pas de blanc mais une fente, comme si l'observateur s'était allongé ; la rupture peut être dans toutes les tuniques de la cornée — la protrusion étant alors de la substance de l'uvée — ou dans certaines tuniques seulement, ce qui fait saillie étant alors de la cornée elle-même, une partie de ses tuniques ayant été rongée, et ressemblant à une vessie ; elle diffère des vessies aqueuses et des vésicules en ce que celles-ci s'accompagnent de douleur et de pulsation et cèdent sous la sonde, tandis qu'une protrusion de la cornée elle-même est solide et raide et ne cède pas ; les sortes de protrusion causées par la rupture de toutes les tuniques de la cornée avec sortie de tout ou partie de l'uvée sont quatre : la petite, mouche et fourmi, qui, lorsqu'elle est petite, peut ressembler à la vessie et à la vésicule mais en diffère en gardant la couleur de l'uvée — noire, bleue et grise — une vessie dont la couleur diffère de celle de l'uvée étant une vessie, bien qu'un liseré blanc comme une broderie puisse se voir autour de sa base, celui-ci étant le bord de la rupture blanchi à la cicatrisation ; la deuxième, le grain de raisin ; la troisième, la vessie et le clou qui empêche la fermeture ; la quatrième, plus grande encore {cite:canon-ibn-sina-print-v2 p.179}
+
+## Son traitement et l'incurable
+La petite protrusion se traite avec les liquides astringents et la fomentation, et reçoit en collyre les collyres astringents ⁦(les noms des drogues, des collyres, des recettes et des mesures ne sont pas repris)⁩ ; lorsqu'elle devient une rupture, elle se traite comme une rupture, et une fois que l'ulcère se met à faire saillie, l'œil garde son pansement et le repos couché ; le clou n'a pas de traitement — certains coupent les protrusions mursharij pour l'apparence, mais la voie la plus sûre est de ne pas la couper ni la déranger, car la matière peut se déverser et passer à l'autre œil {cite:canon-ibn-sina-print-v2 p.179} {cite:canon-ibn-sina-print-v2 p.180}

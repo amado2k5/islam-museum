@@ -1,0 +1,22 @@
+---
+id: passage/quran-3-175
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-3-175.md}
+---
+## Resumen
+Versículo 175 de [[passage/quran-3|Surat Al 'Imran]], una sura de Medina. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 175 de 200 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+**Versículo 175 (pp. 416-418, informes 8256-8261).** Al-Tabari dice que quien dijo a los creyentes lo que dijo, aterrorizándolos con los ejércitos de su enemigo y su avance, estaba actuando en nombre de Satanás, quien lo puso en lenguas de quienes hablaron, aterrorizándolos con sus aliados entre los politeístas, Abu Sufyan y sus compañeros de Quraysh, para que les temieran y se apartaran de ellos. Sobre esto: Qatada (8256), a través de Bishr de Yazid de Sa'id: Dios hace que el creyente sea aterrorizado por el incrédulo y lo haga temerle; Mujahid (8257), a través de al-Qasim de al-Husayn de Hajjaj de Ibn Jurayj: él aterroriza a los creyentes con los incrédulos; Ibn 'Abbas (8258), a través de Muhammad ibn Sa'd de su padre, su tío, su padre y su abuelo: Satanás asusta a los creyentes con sus aliados; Ibn Ishaq (8259), a través de Ibn Humayd de Salama: esos hombres, es decir, el grupo de 'Abd al-Qays que le dijeron al Profeta lo que dijeron, con lo que Satanás puso en sus lenguas, lo que significa que os aterroriza con sus aliados (nota: Ibn Hisham, 3: 128, completando los informes que terminan en 8253); y Salim al-Aftas (8260), a través de Yunus de 'Ali ibn Ma'bad de 'Attab ibn Bashir, liberto de Quraysh: os asusta con sus aliados. {cite:tafsir-tabari-shakir-v07 p. 416}
+
+**La otra opinión (p. 417).** Otros dijeron que el significado es que Satanás magnifica la cuestión de los politeístas en vosotros mismos, hipócritas, para que les temáis; al-Suddi (8261), a través de Muhammad de Ahmad de Asbat: habló de los politeístas y los magnificó ante los ojos de los hipócritas, así magnifica a sus aliados en sus corazones y les temen. {cite:tafsir-tabari-shakir-v07 p. 417}
+
+**Un punto de uso árabe (p. 417).** Al-Tabari plantea una objeción: ¿cómo se puede decir que Satanás asusta a sus aliados, cuando asusta a otros por medio de ellos? Responde que esto es paralelo a la redacción de [[passage/quran-18-2|18:2]], cuyo significado es una advertencia del severo poder de Dios, ya que no se advierte del poder, sino de su amenaza; la nota se refiere a al-Farra' (1: 248) y dice que el editor añadió palabras entre corchetes que cree que el copista omitió. Menciona que algunos gramáticos de Basora dijeron que el significado es que Satanás asusta a la gente con sus aliados, como dice uno: «da dirhams y viste», lo que significa que da dirhams a la gente y los viste, omitiendo el objeto por innecesario. Al-Tabari replica que la comparación no es apropiada: en ese dicho, es obvio que lo que se da son los dirhams, mientras que aquí los aliados no son los asustados, sino aquellos de quienes proviene el miedo a los demás, por lo que ambos difieren. En las dos notas, el editor conserva el texto del manuscrito con un «de» entre corchetes y explica la sintaxis. {cite:tafsir-tabari-shakir-v07 p. 417}
+
+**Sobre prohibir a los creyentes el temor (p. 418).** Al-Tabari explica la última parte del versículo como Dios diciéndoles a los creyentes que no teman a los politeístas, que no dejen que su asunto les pese ni teman a su ejército, siempre y cuando le obedezcan y sigan su mandato, y que Él les garantiza la victoria y el éxito; más bien, deben temerle y tener cuidado de no desobedecer ni oponerse a su mandato para no perecer, si creen en su Mensajero y en lo que trajo de Él. La nota dice que el manuscrito dice "mutakallif" ("asumir una carga"), un grave error, ya que Dios está exaltado por encima de cualquier carga y es el Poderoso para quien nada es pesado, y que el editor de la edición anterior tenía razón en lo que hizo. {cite:tafsir-tabari-shakir-v07 p. 418}
+
+Estas declaraciones se presentan tal como fueron transmitidas; las elecciones y los argumentos son de al-Tabari, las notas y los rastreos de fuentes son del editor, y el museo no emite ningún veredicto. {cite:tafsir-tabari-shakir-v07 p. 418}

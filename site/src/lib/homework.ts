@@ -3,6 +3,7 @@
 // the "topics" strip on the search page's zero-result state and on the teacher hub.
 import { readFileSync } from "node:fs";
 import { parse } from "yaml";
+import { parseLocalized } from "./i18n";
 import { repoPath } from "./paths";
 import { byId, labelOf, href } from "./graph";
 import type { Lang } from "./i18n";
@@ -14,7 +15,7 @@ export interface HomeworkView { id: string; title: string; href: string }
 let cache: HomeworkTopic[] | null = null;
 export function loadHomework(): HomeworkTopic[] {
   if (cache) return cache;
-  const raw = parse(readFileSync(repoPath("edu/homework-topics.yaml"), "utf8")) as { topics?: HomeworkTopic[] };
+  const raw = parseLocalized(readFileSync(repoPath("edu/homework-topics.yaml"), "utf8")) as { topics?: HomeworkTopic[] };
   const topics = raw?.topics ?? [];
   if (topics.length !== 50) throw new Error(`edu/homework-topics.yaml: expected 50 topics, found ${topics.length}`);
   for (const t of topics) {
@@ -30,6 +31,6 @@ export function loadHomework(): HomeworkTopic[] {
 
 export function viewHomework(t: HomeworkTopic, lang: Lang): HomeworkView {
   const n = byId.get(t.target)!;
-  return { id: t.id, title: t.title[lang] ?? t.title.ar, href: href(lang, n.id) };
+  return { id: t.id, title: t.title[lang] ?? (lang === "fr" || lang === "es" ? t.title.en : t.title.ar) ?? t.title.ar, href: href(lang, n.id) };
 }
 export const homeworkViews = (lang: Lang): HomeworkView[] => loadHomework().map((t) => viewHomework(t, lang));

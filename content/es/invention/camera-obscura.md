@@ -1,0 +1,91 @@
+---
+id: invention/camera-obscura
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/invention/camera-obscura.md}
+---
+## Resumen
+En el primer libro de su [[work/kitab-al-manazir|Kitab al-Manazir]] (Libro de la Óptica), [[person/ibn-al-haytham|Ibn al-Haytham]] deja entrar la luz del sol, la luna, las estrellas y un fuego en una habitación oscura a través de un pequeño agujero, y la estudia en la pared opuesta. Sigue la luz a través del aire polvoriento, traza su camino con un cuerpo opaco, coloca una regla sobre ella y la encuentra perfectamente recta {cite:manazir-sabra-1983 pp. 73–75}. Más adelante en el mismo libro coloca varias velas frente a un agujero en un lugar oscuro: en la pared aparecen tantos puntos de luz como velas, cada uno frente a su propia vela a lo largo de una línea recta a través del agujero, y cuando una vela está cubierta solo su punto se apaga {cite:manazir-sabra-1983 pp. 171–172}. De esto concluyó que la luz viaja en líneas rectas y que las luces que cruzan la misma abertura no se mezclan. TDV llama al experimento del cuarto oscuro, ideado para demostrar que la luz viaja en líneas rectas, la base de la cámara fotográfica actual {cite:tdv-ibnul-heysem pp. 82–87}. El museo lo registra como una mejora: Ibn al-Haytham no descubrió que la luz pasa por un agujero, pero convirtió esa visión familiar en una prueba ordenada y repetible.
+
+## Qué es
+La habitación oscura (en árabe al-bayt al-muzlim, en latín camera obscura) es una habitación o lugar cerrado y sin iluminación con una pequeña abertura hacia la luz exterior. Cualquier cosa brillante que esté afuera, el sol, la luna, una estrella o una vela, envía su luz a través de la abertura, y la luz cae sobre la pared o sobre un cuerpo que mira hacia la abertura interior.
+
+En la Manazir la habitación oscura no es un juguete ni un dispositivo para crear imágenes, sino un instrumento de demostración. Ibn al-Haytham lo utiliza para mostrar dos cosas: que la luz de cualquier cuerpo luminoso viaja a lo largo de líneas rectas {cite:manazir-sabra-1983 pp. 73–74}, y que las luces de diferentes cuerpos pasan por la misma abertura sin fundirse, para luego separarse de nuevo en el lado opuesto {cite:manazir-sabra-1983 pp. 171–172}. El editor del texto árabe describe todo el libro como un estudio de las propiedades de la luz en sus tres estados, viajando recta, reflejada y curvada, construida sobre el experimento, que Ibn al-Haytham llamó i'tibar, junto con métodos matemáticos {cite:manazir-sabra-1983 p. 9}. La habitación oscura es donde ese método puede observarse en acción.
+
+## El mundo que tenía delante
+La luz que entra en una habitación a través de una abertura es una vista cotidiana, y Ibn al-Haytham lo dice él mismo: la rectitud de la luz se muestra claramente a cualquiera que examine la luz que entra en las casas a través de agujeros, grietas y puertas {cite:manazir-sabra-1983 p. 73}.
+
+Lo que faltaba a los estudiosos anteriores, según el relato del editor, era un estudio de la luz que pusiera el experimento en primer lugar. Para los griegos la óptica era una rama de las matemáticas; Ibn al-Haytham la describió en cambio como una ciencia compuesta por las ciencias naturales y matemáticas {cite:manazir-sabra-1983 pp. 9–10}. Sobre cómo lo vemos, se enfrentó a tres escuelas: los matemáticos como Euclides y Ptolomeo, los filósofos naturales que siguieron a Aristóteles y los médicos que siguieron a Galeno. Su propia teoría difería de las tres {cite:manazir-sabra-1983 p. 10}. TDV añade que él revocó la antigua idea de que los rayos salen del ojo hacia el objeto {cite:tdv-ibnul-heysem pp. 82–87}.
+
+## La historia
+Ibn al-Haytham, conocido en la Europa medieval como Alhazen, nació alrededor del año 354 H (alrededor del 965 d.C.) y procedía de [[place/basra|Basora]] {cite:tdv-ibnul-heysem pp. 82–87}. Allí, bajo los buyidas, trabajó en una oficina gubernamental con el título de visir, y luego la abandonó. TDV informa que el califa fatimí [[person/al-hakim-bi-amr-allah|al-Hakim]] escuchó que afirmaba que podía regular el diluvio del Nilo y le invitó a Egipto. Ibn al-Haytham viajó al sur, a la región de [[place/aswan|Asuán]], estudió el lugar, vio que el plan no podía llevarse a cabo, pidió disculpas y le asignaron un puesto. Solo encontró paz tras la muerte de al-Hakim en 411/1021 {cite:tdv-ibnul-heysem pp. 82–87}.
+
+Pasó la mayor parte de su vida en Egipto. Ibn Abi Usaybi'a, citado por el editor, dice que vivió en [[place/cairo|El]] Cairo, en la [[building/al-azhar|mezquita de al-Azhar]], y que cada año copiaba los Elementos de Euclides y el Almagesto de Ptolomeo, vendía los ejemplares y vivía según su precio {cite:manazir-sabra-1983 p. 25}. TDV lo describe como un asceta que vivía copiando libros; lo sitúa en [[place/baghdad|Bagdad]] en 418/1027, señala que Sa'id al-Andalusi lo sitúa aún en Egipto en 430, y da 432/1040 como su probable año de muerte {cite:tdv-ibnul-heysem pp. 82–87}.
+
+El Manazir no lleva fecha de escritura. Ibn Abi Usaybi'a conserva tres listas de obras de Ibn al-Haytham; la tercera, que llega hasta finales del 429 H (1037–1038 d.C.), posee 92 títulos y nombra a los Manazir entre ellos {cite:manazir-sabra-1983 p. 27}. El editor cree que Ibn al-Haytham pudo haber elaborado esta lista él mismo, cerca del final de su vida {cite:manazir-sabra-1983 p. 30}. En ella, el Manazir aparece antes de sus breves obras sobre sombras, sobre las marcas en la cara de la luna, sobre la luz, sobre la esfera ardiente y sobre la forma del eclipse, por lo que el editor considera que son posteriores {cite:manazir-sabra-1983 pp. 28–29}.
+
+## El(los) creador(es)
+[[person/ibn-al-haytham|Abu Ali al-Hasan ibn al-Hasan ibn al-Haytham]] recibe este nombre al inicio del primer libro del Manazir, que comienza con la basmala {cite:manazir-sabra-1983 p. 60}. TDV lo cuenta entre los contemporáneos de Qadi Abd al-Jabbar, al-Baqillani, Ibn Miskawayh, [[person/ibn-sina|Ibn Sina]] y [[person/al-biruni-muhammad-ibn-ahmad|al-Biruni]]. Además de sus trabajos en matemáticas, astronomía y óptica, enumera tratados en los que respondió a Ibn al-Rawandi, respondió a la crítica de Abu Bakr al-Razi a la profecía y cuestionó a los Mu'tazila sobre los atributos divinos y la amenaza de castigo {cite:tdv-ibnul-heysem pp. 82–87}. La entrada de fe en su registro se basa en estas obras y en su propia apertura del Manazir.
+
+El editor del texto árabe considera que Manazir es el libro más importante sobre óptica escrito entre Ptolomeo en el siglo II d.C. y Kepler y Descartes a principios del XVII, y la obra más valiosa que los científicos árabes produjeron en física {cite:manazir-sabra-1983 p. 9}. Zahir al-Din al-Bayhaqi, señala TDV, lo llamó el segundo Ptolomeo {cite:tdv-ibnul-heysem pp. 82–87}.
+
+## Cómo funciona
+Ibn al-Haytham expone varias versiones de la prueba, cada una destinada a ser repetida por el lector.
+
+**Luz solar y cuerpo cortante.** Cuando la luz del sol entra en una habitación oscura a través de un agujero, y el aire de la habitación se nubla con polvo o humo, se puede ver la luz estirándose en línea recta desde el agujero hasta el punto donde cae en el suelo o la pared {cite:manazir-sabra-1983 p. 73}. Si coloca un cuerpo opaco en cualquier lugar de esa línea, la luz cae sobre el cuerpo y desaparece del punto más allá; retira el cuerpo y el punto regresa. Coloca una regla recta a lo largo de la línea entre el agujero y el punto y la luz se mantiene fiel al borde de la regla: su trayectoria es perfectamente recta {cite:manazir-sabra-1983 p. 74}. Lo mismo, dice, se aplica a la luz de la luna {cite:manazir-sabra-1983 p. 74}.
+
+**Luz de estrellas y luz del fuego.** En una noche sin luna, si una estrella brillante mira hacia un agujero hacia una habitación oscura, su luz aparece en la pared opuesta al agujero, en la línea recta desde la estrella a través del agujero, y queda cortada de la misma manera por un cuerpo opaco {cite:manazir-sabra-1983 p. 75}.
+
+**El eclipse y el cono de luz.** Durante un eclipse parcial del sol, la luz sigue entrando por el agujero desde toda la parte visible del sol. La luz que atraviesa un agujero siempre se extiende en forma de cono, más amplia cuanto más lejos va, y esto es evidente cuando el agujero está bien {cite:manazir-sabra-1983 pp. 77–78}.
+
+**Las velas.** En el sexto capítulo del primer libro toma varias velas (suruj) colocadas en distintos puntos frente a un único agujero que se abre hacia un lugar oscuro, con una pared o un cuerpo opaco en su interior frente al agujero. En esa pared aparecen luces separadas, tantas como las velas, cada una en la línea recta que va desde su vela a través del agujero. Cubre una vela y solo desaparece la luz opuesta; destapárala y la luz vuelve {cite:manazir-sabra-1983 p. 171}. Ofrece una forma práctica de hacerlo: en una habitación por la noche, con una puerta de dos hojas solo ligeramente abierta, coloca las velas en el exterior; luego estrecha la abertura hasta un pequeño agujero, y el resultado es el mismo {cite:manazir-sabra-1983 pp. 171–172}. Como todas las luces se encuentran en el agujero y luego se separan de nuevo tras él, concluye que las luces no se mezclan en el aire ni en otros cuerpos transparentes {cite:manazir-sabra-1983 p. 172}.
+
+De la geometría se desprende una consecuencia: dado que cada punto se sitúa en la línea recta desde su vela a través del agujero, una vela situada a la derecha del agujero lanza su punto hacia la izquierda de la pared, y otra que está más arriba la arroja más abajo. Este es el principio de toda cámara estenopeica.
+
+## La propagación
+Durante un tiempo, el Manazir parece haber dejado de circular en las tierras islámicas orientales. El editor cuenta cómo [[person/qutb-al-din-shirazi|Qutb al-Din al-Shirazi]] recordó haberlo visto en una biblioteca de Fars cuando era joven, y más tarde hizo traer un ejemplar desde muy lejos; la propia historia muestra que el libro era entonces difícil de encontrar {cite:manazir-sabra-1983 p. 45}. Su alumno Kamal al-Din al-Farisi escribió entonces el Tanqih al-Manazir (La revisión de la óptica) {cite:manazir-sabra-1983 pp. 44–45}.
+
+En Europa el libro llegó mediante una traducción latina cuyo traductor, fecha y lugar se desconocen. El editor piensa que probablemente fue realizado en España a finales del siglo XII o principios del XIII; el primer autor europeo conocido que lo cita es Jordanus de Nemore, activo alrededor de 1220–1230 {cite:manazir-sabra-1983 pp. 47–48}. Se conservan unos veinte manuscritos latinos, y una traducción italiana del latín se realizó en el siglo XIV {cite:manazir-sabra-1983 p. 48}. Un detalle importa aquí: la versión latina carece de los tres primeros capítulos del primer libro {cite:manazir-sabra-1983 pp. 49–50}. Así, el pasaje en cuarto oscuro del capítulo 3, con el polvo, la regla y la luz de las estrellas, no llegó a los lectores latinos, mientras que el experimento de las velas del capítulo 6 sí lo hizo.
+
+En 1572 Friedrich Risner imprimió el texto en latín en Basilea bajo el título Opticae thesaurus, junto con un tratado sobre amanecer y crepúsculo atribuido a Ibn al-Haytham (de hecho por Ibn Mu'adh al-Jayyani) y los diez libros de óptica de Witelo {cite:manazir-sabra-1983 p. 47} {cite:tdv-ibnul-heysem pp. 82–87}.
+
+## Sobre qué se construyó
+- **Luz cotidiana a través de agujeros y puertas.** Ibn al-Haytham parte de lo que cualquiera podría ver en una casa: luz que entra por agujeros, grietas y puertas {cite:manazir-sabra-1983 p. 73}.
+- **La óptica griega y las teorías de la visión.** Escribió sobre el telón de fondo de Euclides y Ptolomeo, de Aristóteles y de Galeno, y el editor subraya que su teoría de la visión difería de todas ellas {cite:manazir-sabra-1983 pp. 9–10}.
+
+## Lo que se construyó sobre ello
+- **Su propio tratado sobre la forma del eclipse.** Maqala fi surat al-kusuf viene después del Manazir en la lista de sus obras {cite:manazir-sabra-1983 pp. 28–29}. TDV señala que Kamal al-Din al-Farisi comentó sobre ello, y que Eilhard Wiedemann lo estudió en alemán bajo el título Über die Camera obscura bei Ibn al Haiṯam (Erlangen 1914) {cite:tdv-ibnul-heysem pp. 82–87}.
+- **Tanqih al-Manazir de Al-Farisi.** Escrito por sugerencia de Qutb al-Din al-Shirazi, comenzó como un resumen pero creció hasta convertirse en una obra que explica, completa y objeta; al-Farisi marca las palabras de Ibn al-Haytham con qala (él dijo) y las suyas propias con aqulu (yo digo). Fue impresa en Hyderabad por el Da'irat al-Ma'arif al-Uthmaniyya en 1348 H (1930 d.C.) en dos volúmenes {cite:manazir-sabra-1983 pp. 44–47}.
+- **La edición latina de Manazir y Risner.** La traducción latina anónima y su forma impresa de 1572 {cite:manazir-sabra-1983 pp. 47–50}.
+- **Óptica en Europa.** Witelo escribió su propia óptica tras leer el latín Manazir y lo siguió de cerca en temas, figuras y, a menudo, en la redacción {cite:manazir-sabra-1983 p. 48}. TDV nombra a Pecham, Witelo, Roger Bacon, Kepler, Snell, Fermat y [[person/rene-descartes|Descartes]] entre aquellos cuya obra moldeó {cite:tdv-ibnul-heysem pp. 82–87}.
+
+## Impacto en la vida diaria
+La habitación oscura salió del estudio y entró en la vida cotidiana mucho más tarde, a través de la cámara. TDV considera el experimento de Ibn al-Haytham la base de la cámara fotográfica actual {cite:tdv-ibnul-heysem pp. 82–87}: una cámara, desde la caja estenopeica más simple hasta un dispositivo moderno, es una cámara oscura en la que la luz entra por una pequeña abertura y cae sobre una superficie opuesta. La prueba de las velas muestra por qué la imagen es nítida y no borrosa: la luz de cada punto exterior alcanza su propio punto interior, a lo largo de su propia línea recta {cite:manazir-sabra-1983 pp. 171–172}.
+
+## Cómo cambió la historia
+El cambio fue de método. Antes de los Manazir, la idea de que la luz viaja en líneas rectas era una premisa de la óptica geométrica; Ibn al-Haytham lo convirtió en un resultado, mostrado con un agujero, una habitación oscura, un cuerpo cortante y una regla, y repetido con luz de sol, luz de luna, luz de estrellas y luz de fuego {cite:manazir-sabra-1983 pp. 73–75}. El editor considera el valor duradero del libro en esta unión del experimento con las matemáticas {cite:manazir-sabra-1983 p. 9}, y TDV afirma que Ibn al-Haytham cambió la óptica en sus raíces {cite:tdv-ibnul-heysem pp. 82–87}. A través de al-Farisi en el mundo islámico y mediante la traducción latina y Witelo en Europa, el Manazir siguió siendo la obra de referencia sobre óptica durante siglos {cite:manazir-sabra-1983 pp. 44–48}.
+
+## ¿Quién lo inventó?
+Ninguna fuente menciona a un primer inventor de la habitación oscura, y Ibn al-Haytham no reclama el título: presenta la luz a través de agujeros como una imagen familiar y la convierte en una prueba {cite:manazir-sabra-1983 p. 73}. Por ello, el museo lo registra como un mejorador. TDV le atribuye haber ideado el experimento del cuarto oscuro para demostrar que la luz viaja en líneas rectas {cite:tdv-ibnul-heysem pp. 82–87}.
+
+Una cuestión académica separada concierne al propio hombre. TDV informa que Roshdi Rashed argumentó que las fuentes unen a dos hombres distintos llamados Ibn al-Haytham, y que A. I. Sabra rechazó esta opinión en 1998 {cite:tdv-ibnul-heysem pp. 82–87}.
+
+## Hoy
+El texto árabe de la Manazir está disponible en una edición crítica: los tres primeros libros, que contienen pasajes de la cámara oscura y de las velas, fueron editados por A. I. Sabra y publicados en Kuwait en 1983 {cite:manazir-sabra-1983}. TDV vincula el experimento con la cámara fotográfica {cite:tdv-ibnul-heysem pp. 82–87}, y cada cámara mantiene el mismo plano de una cámara oscura con una pequeña abertura.
+
+## Ejemplos supervivientes
+- **Los manuscritos árabes.** El editor enumera los manuscritos que utilizó; entre ellos, el manuscrito Ayasofya 2448 en Estambul contiene los siete libros y fue copiado en 869 H (1464–1465 d.C.) {cite:manazir-sabra-1983 p. 42}.
+- **Los manuscritos latinos.** Sobreviven unos veinte, al menos siete del siglo XIII, uno de ellos en el Real Observatorio de Edimburgo, fechado en 1269; una traducción italiana del siglo XIV se conserva en un solo manuscrito en la Biblioteca Vaticana {cite:manazir-sabra-1983 p. 48}.
+- **El Tanqih.** La revisión de Al-Farisi está impresa (Hyderabad 1347–1348 H) {cite:tdv-ibnul-heysem pp. 82–87}. La imagen del museo muestra una página que Wikimedia Commons describe como procedente del propio ejemplar del autor {cite:wikimedia-commons}.
+
+## En la cultura
+La Europa latina conocía a Ibn al-Haytham como Alhazen, y bajo ese nombre circulaba el Manazir en manuscrito y en el tesauro impreso Opticae de Risner {cite:tdv-ibnul-heysem pp. 82–87}. En las fuentes islámicas se le recuerda como un erudito que vivía simplemente de la copia de libros {cite:manazir-sabra-1983 p. 25}, y como «el segundo Ptolomeo» en la frase de Zahir al-Din al-Bayhaqi {cite:tdv-ibnul-heysem pp. 82–87}.
+
+## Para lectores jóvenes
+Hace unos mil años, un erudito musulmán llamado Ibn al-Haytham vivía en El Cairo. Una noche cerró la puerta de una habitación, dejando solo un pequeño hueco, y colocó varias velas fuera de ella. ¡En la pared interior vio un punto de luz por cada vela! Cuando cubría una vela, su punto desaparecía y, al descubrirlo, el punto volvía. Así fue como mostró que la luz viaja en línea recta, y que las luces de muchas velas pueden pasar por un pequeño agujero sin mezclarse. Hoy una cámara funciona con la misma idea: es una caja oscura con una pequeña abertura.
+
+## Referencias
+- Ibn al-Haytham, Kitab al-Manazir, Libros 1–3, editados por A. I. Sabra, Kuwait, 1983 (1404 H): introducción del editor y Libro 1, escanear pp. 9–78 y 171–172. {cite:manazir-sabra-1983 pp. 9–50}
+- Hüseyin Gazi Topdemir, "IBN al-HAYTHAM", Enciclopedia del Islam TDV, vol. 21 (Estambul 2000), pp. 82–87, edición online. {cite:tdv-ibnul-heysem pp. 82–87}
+- Wikimedia Commons, "Tanqih al-Manazir.JPG", Danieliness, CC BY-SA 3.0. {cite:wikimedia-commons}

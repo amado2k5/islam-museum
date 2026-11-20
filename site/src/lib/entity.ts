@@ -11,14 +11,18 @@ const idPatterns: Record<string, { url: string }> = parse(readFileSync(repoPath(
 const traditions: any[] = parse(readFileSync(repoPath("schema", "enums", "traditions.yaml"), "utf8"));
 const regions: any[] = parse(readFileSync(repoPath("schema", "enums", "regions.yaml"), "utf8"));
 
-export const traditionLabel = (id: string, lang: Lang) => traditions.find((t) => t.id === id)?.label[lang] ?? id;
+export const traditionLabel = (id: string, lang: Lang) => (lang === "fr" || lang === "es" ? (traditions.find((t) => t.id === id)?.label as Record<string, string> | undefined)?.[lang] ?? traditions.find((t) => t.id === id)?.label.en : traditions.find((t) => t.id === id)?.label[lang]) ?? id;
 export const regionLabel = (id: string, lang: Lang) => { const l = regions.find((r) => r.id === id)?.label; return l?.[lang] ?? l?.en ?? l?.ar ?? id; };
 export const externalUrl = (key: string, id: string) => idPatterns[key]?.url.replace("{id}", id);
 
 /** Section role by heading (so the depth dial works in every language). */
-const KIDS = ["For young visitors", "للزوار الصغار"];
-const SCHOLARS = ["Notes for scholars", "ملاحظات للباحثين"];
-const BRIEF = ["Brief", "نبذة"];
+const KIDS = ["For young visitors", "للزوار الصغار", "Pour les jeunes visiteurs", "Pour les Petits"];
+const SCHOLARS = ["Notes for scholars", "ملاحظات للباحثين", "Notes pour les chercheurs", "Pour les Chercheurs"];
+const BRIEF = ["Brief", "نبذة", "En bref", "Résumé"];
+// Spanish section headings (spanish lane), added on their own lines so the French lane can extend the lists above.
+KIDS.push("Para los visitantes jóvenes");
+SCHOLARS.push("Notas para investigadores");
+BRIEF.push("En breve");
 export const sectionRole = (h: string): "brief" | "main" | "kids" | "scholars" =>
   BRIEF.includes(h) ? "brief" : KIDS.includes(h) ? "kids" : SCHOLARS.includes(h) ? "scholars" : "main";
 
@@ -28,6 +32,14 @@ export interface Level { id: string; band: string; child: boolean; max_words: nu
 export const levels: Level[] = parse(readFileSync(repoPath("edu", "levels.yaml"), "utf8")).levels;
 if (levels.length !== 3) throw new Error(`edu/levels.yaml: expected 3 levels, found ${levels.length}`);
 export const levelOf = (heading: string, lang: string): Level | null => levels.find((l) => l.heading[lang] === heading) ?? null;
+/**
+ * True when the kids' reader page /{lang}/sighar/read/… exists for this record: it is flagged for kids and its prose in
+ * that language carries the Explorers section under that language's own heading. The validator guarantees the section
+ * in the published languages; a language whose translation or headings have not landed yet (French, Spanish) simply has
+ * no reader page for the record, and nothing links to one.
+ */
+export const hasKidsRead = (n: { data: any; prose: Record<string, { sections: { heading: string }[] } | undefined> }, lang: string): boolean =>
+  !!n.data?.education?.flagged_for_kids && !!n.prose[lang]?.sections.some((x) => levelOf(x.heading, lang)?.id === "explorers");
 /** Child-level markdown for the kids' chrome: links become plain labels (bridge cards are the only doors out), citations go. */
 export function plainChildMarkdown(md: string, lang: Lang): string {
   return stripNeedsSource(md
@@ -172,12 +184,12 @@ export function jsonLd(n: Node, lang: Lang, path: string) {
 }
 
 // ---- themes (docs/plan/14) ----
-export interface Theme { id: string; family: string; label: { en: string; ar: string } }
-export interface ThemeFamily { id: string; label: { en: string; ar: string } }
+export interface Theme { id: string; family: string; label: { en: string; ar: string; ur?: string; fr?: string } }
+export interface ThemeFamily { id: string; label: { en: string; ar: string; ur?: string; fr?: string } }
 export const themes: Theme[] = parse(readFileSync(repoPath("schema", "enums", "themes.yaml"), "utf8"));
 export const themeFamilies: ThemeFamily[] = parse(readFileSync(repoPath("schema", "enums", "theme-families.yaml"), "utf8"));
 export const themeById = new Map(themes.map((t) => [t.id, t]));
-export const themeLabel = (id: string, lang: Lang) => themeById.get(id)?.label[lang] ?? id;
+export const themeLabel = (id: string, lang: Lang) => { const l = themeById.get(id)?.label; return (lang === "fr" || lang === "es" ? (l as Record<string, string> | undefined)?.[lang] ?? l?.en : l?.[lang]) ?? id; };
 
 /** Screen titles about / set in an entity (edges computed as subject_of / setting_of). */
 export function onScreen(id: string): { node: Node; how: "about" | "set_in" }[] {

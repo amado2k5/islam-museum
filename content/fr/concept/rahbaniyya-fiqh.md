@@ -1,0 +1,10 @@
+---
+id: concept/rahbaniyya-fiqh
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: draft
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/rahbaniyya-fiqh.md}
+---
+## Résumé
+Rahbaniyya dérive de la peur et de l'effroi ; un rahib (moine) était à l'origine un fidèle vivant dans une cellule parmi les chrétiens et se retirant des affaires mondaines, et le sens technique ne diffère pas de cela. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9019} Des termes apparentés sont l'isolement (uzla), qui est un moyen de monachisme et contraire à la norme et qui peut être légal lorsque la société est corrompue, et errer (siyaha) dans le pays pour le culte. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9019} La loi interdisait le monachisme au sens pratiqué par les moines chrétiens : excès dans le culte, abandon de la vie mondaine, retrait des femmes et des gens, auto-tourment par la difficulté. Les juristes s'appuient sur un verset coranique d'al-Ma'ida (verset 77), sur le hadith selon lequel le jihad est le monachisme de l'islam, et sur le hadith selon lequel quiconque se détourne de ma sunna n'est pas de moi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9020} Tous les érudits s'accordent à dire qu'il est préférable pour un musulman de se mêler aux gens, d'assister aux congrégations et des leçons, de rendre visite aux malades, d'assister aux funérailles, de recommander le bien et de supporter patiemment leur tort ; al-Nawawi note que c'était la pratique du Prophète, des prophètes et des califes bien guidés. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9020} L'isolement est recommandé lorsque la corruption générale (fitna) prévaut ou lorsque le mélange conduirait probablement à ce qui est interdit ; les traditions louent le culte en temps de troubles et l'homme qui garde sa foi en se retirant vers un col de montagne. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9021}

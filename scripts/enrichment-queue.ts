@@ -13,7 +13,7 @@ export const ROOT = process.cwd();
 export const OUT = "docs/library/enrichment";
 const QUEUE = `${OUT}/queue`;
 const SHARD_MAX = 1_400_000; // bytes, under the 1.5 MB cap
-const LANGS = ["ar", "en", "ur"] as const;
+const LANGS = ["ar", "en", "ur", "fr", "es"] as const;
 
 // ---------- gap catalogue (the README documents each; keep in step) ----------
 const WD_CLASSES = ["person", "place", "building", "group", "polity", "work", "object", "event", "concept", "award", "language", "period", "invention"];

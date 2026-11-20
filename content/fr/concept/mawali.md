@@ -1,0 +1,16 @@
+---
+id: concept/mawali
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/mawali.md}
+---
+## Vue d'ensemble
+Les *mawali* (clients) d'al-Baladhuri, selon le récit des captifs capturés à 'Ayn al-Tamr, sont des captifs dont les maîtres les libérèrent, de sorte que leur clientèle (*wala'*) leur passa à l'entretien. Le récit est lié au [[event/siege-of-ayn-al-tamr|siège d'''Ayn al-Tamr]]. {cite:futuh-buldan-maarif-1407}
+
+Parmi les exemples figurent Humran ibn Aban, qui appartenait à al-Musayyib ibn Najaba, fut acheté par Uthman et libéré, devenant ainsi son client. Sirin et ses frères étaient des clients d'Anas ibn Malik. Yasar, le grand-père de Muhammad ibn Ishaq, était un client de Qays ibn Makhrama. {cite:futuh-buldan-maarif-1407}
+
+Nusayr, le père de Musa ibn Nusayr, était un client des Omeyyades. {cite:futuh-buldan-maarif-1407}
+
+## Dans l'émission de Ragheb el-Sergani : Qu'est-ce que les musulmans ont apporté au monde
+[[person/ragheb-al-sergani|Ragheb El-Sergani]] donne le huitième épisode sur la contribution des non-Arabes à la civilisation islamique, affirmant que leur émergence dense a commencé à la fin du Ier siècle de l'A-Ère, lorsque les enfants de pères et mères persans, berbères et autres ont grandi au sein de la civilisation islamique, parlant arabe et apprenant ses sciences. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep08 00:04:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep08 00:05:00} Il raconte que [[person/hisham-ibn-abd-al-malik|Hisham ibn Abd al-Malik]], qu'il dit avoir régné de 105 à 125 H, demanda [[person/muhammad-ibn-shihab-al-zuhri|à al-Zuhri]] qui dirigeait chaque région, et pour chaque région al-Zuhri nomma un homme de la mawali, comme Ata ibn Abi Rabah à La Mecque et Ibrahim al-Nakha'i à Koufa, jusqu'à ce que Hisham dise que la mawali viendrait diriger les Arabes ; al-Zuhri répondit que c'est le commandement de Dieu et Sa religion : celui qui le garde dirige et celui qui le perd tombe. Voici sa version du rapport. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep08 00:05:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep08 00:06:00} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep08 00:07:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep08 00:08:00} Il dit que les Arabes ont gouverné l'État musulman pendant environ deux cents ou deux cent vingt ans et les non-Arabes pendant douze cents ans et plus ensuite, et que, en laissant de côté l'âge des Compagnons, les non-Arabes représentent sans exagération les quatre cinquièmes des grandes figures de l'islam dans les sciences religieuses et appliquées, le jihad, l'architecture et la philosophie ; voici ses estimations. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep08 00:16:00} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep08 00:23:30}

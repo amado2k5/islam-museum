@@ -1,0 +1,27 @@
+---
+id: passage/quran-2-28
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-2-28.md}
+---
+## Résumé
+Verset 28 de [[passage/quran-2|la sourate al-Baqara]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 28 sur 286 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+## Dans le commentaire d'al-Tabari
+Al-Tabari note que les interprètes divergent quant à l'interprétation de la phrase « Tu étais mort et Il t'a donné la vie, puis Il te fait mourir, puis Il te donne la vie ». Il rapporte d'Ibn Abbas, d'Ibn Mas'ud et d'autres Compagnons que cela signifie que tu n'étais rien, qu'Il t'a donc créé, puis t'a fait mourir, puis t'a donné la vie au Jour de la Résurrection ; d'Ibn Mas'ud, que le verset de la sourate Ghafir évoquant deux morts et deux vies est similaire ; et une interprétation similaire est rapportée par Mujahid, Abu Malik et Abu al-Aliya. Al-Dahhak, d'après Ibn Abbas : tu étais poussière avant qu'Il te crée, ce qui était une mort, puis Il t'a donné la vie, puis Il te fait mourir et tu retournes aux tombes, une seconde mort, puis Il te ressuscite. {cite:tafsir-tabari-shakir-v01 p. 418} {cite:tafsir-tabari-shakir-v01 p. 419}
+Abu Salih a dit que cela signifie qu'Il vous donne la vie dans la tombe, puis vous fait mourir. {cite:tafsir-tabari-shakir-v01 p. 419}
+Qatada a dit qu'ils étaient morts dans les reins de leurs pères, alors Dieu leur a donné la vie et les a créés, puis Il provoque la mort qui ne peut être évitée, puis donne la vie pour la résurrection. {cite:tafsir-tabari-shakir-v01 p. 419} {cite:tafsir-tabari-shakir-v01 p. 420}
+Il rapporte qu'Ibn Zayd a dit que Dieu les a tirés du dos d'Adam lorsqu'il a conclu l'alliance, puis les a fait mourir, puis les a créés dans des matrices, puis les a fait mourir, puis leur donne la vie au Jour de la Résurrection. {cite:tafsir-tabari-shakir-v01 p. 420} {cite:tafsir-tabari-shakir-v01 p. 421}
+Al-Tabari affirme que chaque point de vue repose sur une interprétation. Ceux qui disent « vous n'étiez rien » suivent la tradition arabe qui qualifie de « morte » une chose obscure et oubliée et de « vivante » une chose connue, citant un verset d'Abu Nukhayla. L'idée est donc qu'ils étaient obscurs et passés sous silence, et qu'Il leur a donné vie en les créant comme des personnes dont on se souvient. {cite:tafsir-tabari-shakir-v01 p. 421}
+
+Al-Tabari poursuit son analyse des différentes interprétations. Ceux qui considèrent que « causer la mort » signifie le départ de l’âme doivent interpréter le verset comme s’adressant aux personnes dans leurs tombes après leur résurrection ; il juge cette interprétation improbable car le verset est un reproche appelant à l’obéissance, et il n’y a ni retour en arrière ni repentir dans la tombe après la mort. {cite:tafsir-tabari-shakir-v01 p. 422}
+Il explique que, selon Qatada, ils étaient des spermatozoïdes sans âme, leur donner la vie revient donc à leur insuffler une âme, causer la mort revient à leur prendre cette âme, et la vie suivante arrive lorsque la trompette retentit. {cite:tafsir-tabari-shakir-v01 p. 422}
+Il soutient que le récit d'Ibn Zayd s'écarte du texte clair, puisque le verset mentionne deux morts et deux vies alors qu'il en mentionne trois, et que le fait de faire naître la descendance d'Adam et de conclure l'alliance n'a rien à voir avec ces deux versets. {cite:tafsir-tabari-shakir-v01 p. 422} {cite:tafsir-tabari-shakir-v01 p. 423}
+Il mentionne une autre interprétation, selon laquelle la première mort est la séparation du sperme du corps de l'homme vers l'utérus de la femme, arguant que la mort d'un être vivant est le départ de son âme et qu'un membre sectionné est mort ; il dit que c'est une lecture possible si l'une des autorités reconnues pour leur expertise sur le sens du Coran l'avait adoptée. {cite:tafsir-tabari-shakir-v01 p. 423} {cite:tafsir-tabari-shakir-v01 p. 424}
+Il choisit l'avis d'Ibn Mas'ud et d'Ibn Abbas : « morts » au sens d'oubliés et d'inconnus, comme le sperme dans les reins de leurs pères, auxquels Il a donné la vie en les formant comme des personnes dont on se souvient et qu'on connaît, puis les fait mourir en prenant leurs âmes afin qu'ils soient inconnus dans le barzakh jusqu'à la résurrection, puis leur donne la vie en leur rendant leurs âmes, et c'est vers Lui qu'ils retournent. {cite:tafsir-tabari-shakir-v01 p. 424}
+Il affirme que ce verset est une réprimande adressée à ceux qui prétendent « croire en Dieu et au Jour dernier » sans être croyants : comment peuvent-ils nier son pouvoir de leur donner la vie après la mort alors qu'ils n'étaient que des spermatozoïdes inertes qu'il a formés ? Celui qui a agi ainsi est capable de les ressusciter et de les rassembler pour le châtiment de leurs actes. {cite:tafsir-tabari-shakir-v01 p. 424} {cite:tafsir-tabari-shakir-v01 p. 425}
+Il note ensuite que Dieu a continué à compter ses faveurs envers ce peuple et les rabbins juifs, et a commencé par leur père Adam, l'honneur qui lui a été rendu, et ce qui lui est arrivé ainsi qu'à son ennemi Iblis. {cite:tafsir-tabari-shakir-v01 p. 425}

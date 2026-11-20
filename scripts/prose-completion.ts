@@ -15,7 +15,7 @@
 import { existsSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const LANGS = ["ar", "en", "ur"] as const;
+const LANGS = ["ar", "en", "ur", "fr", "es"] as const;
 const PROSE_CLASSES = ["award", "building", "concept", "course", "event", "exhibit", "group", "invention", "job", "journey", "language", "listing", "object", "period", "person", "place", "polity", "practice", "question", "screen", "work"];
 const PARTIAL = { minChars: 500, minCharsOneSection: 1500 };
 const DOC = "docs/library/enrichment/prose-completion.md";

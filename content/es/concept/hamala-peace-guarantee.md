@@ -1,0 +1,9 @@
+---
+id: concept/hamala-peace-guarantee
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/hamala-peace-guarantee.md}
+---
+## Resumen
+Hamala es la compensación o multa que una persona paga por otra; técnicamente es la deuda que un hombre se compromete a pagar para poner fin a una disputa entre dos grupos en la que se han perdido vidas o bienes. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7288} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7289} La garantía (daman) es más amplia que hamala, que es la garantía de compensación u otras sumas en aras de la paz; kafala es para los hanafíes la unión de la responsabilidad del fiador con la del principal, y para la mayoría de los juristas un compromiso de presentar a la persona. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7289} Hamala es lícita sin lugar a dudas y se cuenta entre los actos nobles; los árabes la conocían, y su base es el mandato coránico de temer a Dios y reconciliar a los creyentes. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7289} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7290} El zakat puede ir a un hamil que pidió prestado para poner fin a una disputa: los hanafíes requieren que sea pobre; los malikíes, shafiíes y hanbalíes le dan de la parte de los deudores incluso si es rico, cuando la carga es aplastante. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7290} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7291} La mayoría de los juristas permiten que el portador de una hamala pida ayuda a otros hasta que haya pagado. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7291}

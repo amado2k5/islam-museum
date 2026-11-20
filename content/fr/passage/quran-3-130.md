@@ -1,0 +1,21 @@
+---
+id: passage/quran-3-130
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-3-130.md}
+---
+## Résumé
+Verset 130 de la [[passage/quran-3|sourate Al 'Imran]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 130 sur 200 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Signification (p. 204).** Abou Ja'far dit : Ô vous qui croyez en Dieu et en Son Messager, ne pratiquez pas l'usure dans votre Islam, maintenant qu'Il vous y a guidés, comme vous le faisiez avant l'islam. À cette époque, il arrivait qu'un homme se voie devoir de l'argent par un autre ; à l'échéance, il en réclamait le remboursement, et le débiteur disait : « Retarde ma dette et je te donnerai un peu plus. » Et ils faisaient ainsi. C'est ce doublement de la dette qui est interdit, et Dieu le leur a interdit dans leur Islam. {cite:tafsir-tabari-shakir-v07 p. 204}
+- D'après Muhammad ibn Sinan, Mu'ammal, Sufyan, Ibn Jurayj, Ata' (7823) : Thaqif avait l'habitude de prêter aux Banu al-Mughira à l'époque préislamique, et lorsque l'échéance arriva, ils dirent : nous y ajouterons si vous tardez ; puis le verset fut révélé. {cite:tafsir-tabari-shakir-v07 p. 204}
+- D'après Ibn Humayd, Salama, Ibn Ishaq (7824) : ne prenez pas, maintenant que Dieu vous y a guidés, en Islam, ce que vous faisiez auparavant et qui vous est interdit par votre religion. L'éditeur note que la Sira d'Ibn Hisham (3 : 115) vous a « guidés par ce verset » et que ce hadith figure parmi les autres hadiths se terminant par 7822. {cite:tafsir-tabari-shakir-v07 p. 204}
+- D'après Muhammad ibn Amr, Abu Asim, Isa, Ibn Abi Najih, Mujahid (7825) : l'usure de la période préislamique. {cite:tafsir-tabari-shakir-v07 p. 204}
+- D'après Yunus, Ibn Wahb a entendu Ibn Zayd dire : « Mon père disait (7826) : l'usure à l'époque préislamique consistait à doubler la somme due et à augmenter la dette en fonction de l'âge de l'animal. Un homme, à qui l'on devait une somme importante, se présentait devant le débiteur à l'échéance et lui demandait : "Voulez-vous me payer ou augmenter la dette ?" S'il avait de l'argent, il payait ; sinon, il reportait la dette à l'âge supérieur de l'animal : s'il s'agissait d'une chamelle de deux ans, elle devenait une chamelle de trois ans, puis une de quatre ans, puis une de cinq ans, puis une de six ans, et ainsi de suite. Le débiteur payait en espèces, et s'il n'avait rien, il doublait la somme l'année suivante, et ainsi de suite. Ainsi, cent devenaient deux cents l'année suivante, et s'il n'avait toujours rien, la somme atteignait quatre cents, doublée chaque année ou remboursée. » Il disait : « Voilà ce qui était interdit. » Dans ses notes, l'éditeur explique que le terme « âge » désigne ici l'âge des chameaux, en précisant les termes pour les femelles gestantes et pour une chamelle de deuxième année, de troisième année (mère allaitante), de quatrième année, de cinquième année, une chamelle de sixième année étant omise de la liste et une chamelle de septième année étant mentionnée ; que le mot pour argent liquide désigne l'argent, l'or, l'argent et autres ; et que le manuscrit présente une formulation légèrement différente dans la question du débiteur. {cite:tafsir-tabari-shakir-v07 p. 205}
+
+**La piété et la réussite (p. 205).** Abou Ja'far explique que ce commandement signifie : soyez pieux envers Dieu en matière d'usure et n'y recourez pas, et en toute autre chose qu'Il a ordonnée ou interdite, et obéissez-Lui ; par réussite, il entend la prospérité, l'échappatoire à Son châtiment et l'accès à la récompense et à l'éternité dans Ses jardins qu'Il leur a fait désirer. {cite:tafsir-tabari-shakir-v07 p. 205}
+- D'après Ibn Humayd, Salama, Ibn Ishaq (7827) : obéissez à Dieu afin d'être préservés du châtiment dont Il vous a avertis et d'obtenir la récompense qu'Il vous a fait désirer. L'éditeur note que la Sira d'Ibn Hisham (3 : 115) est rédigée au présent et que ce hadith fait suite à ceux se terminant par 7824. {cite:tafsir-tabari-shakir-v07 p. 205}

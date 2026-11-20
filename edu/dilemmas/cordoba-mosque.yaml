@@ -4,6 +4,7 @@ decision:
   ar: توسيع المسجد أم بناء المكتبة؟
   en: Widen the mosque or build the library?
   ur: مسجد بڑھائیں یا کتب خانہ بنائیں؟
+  fr: "Agrandir la mosquée ou construire la bibliothèque ?"
 context:
   ar: 'في قرطبة كان المال كافيًا لعمارة واحدة كبرى هذا العام: توسعة الجامع ليتّسع للجماهير، أم مكتبة تجمع الكتب والنسّاخ؟ القرار: العمارة التي يقصدها الناس كل يوم،
     أم الدار التي ميّزت المدينة عن غيرها؟'
@@ -11,19 +12,23 @@ context:
     the building the people crowd every day, or the house that set the city apart?'
   ur: 'قرطبہ میں مال اس سال ایک بڑی تعمیر کے لیے کافی تھا: جامع مسجد کو وسیع کرنا تاکہ بھیڑ سما سکے یا کتب خانہ جو کتابیں اور نساخ جمع کرے؟ فیصلہ: وہ عمارت جس میں
     لوگ روز بھراتے ہیں یا وہ گھر جس نے شہر کو ممتاز کیا؟'
+  fr: "À Cordoue, le budget de l’année suffit pour un seul grand chantier. Faut-il agrandir la Grande Mosquée pour accueillir la foule, ou bâtir une bibliothèque où réunir des livres et des copistes ? Faut-il privilégier le lieu où les gens se pressent chaque jour ou celui qui ferait la renommée de la ville ?"
 positions:
 - holder:
     ar: جماعة المسجد
     en: the mosque party
     ur: مسجد کے حامی
+    fr: "Les partisans de la mosquée"
   stance:
     ar: المسجد يجمع الكل في كل يوم؛ لا شيء أسبق
     en: the mosque gathers everyone every day; nothing comes first
     ur: مسجد ہر روز سب کو جمع کرتی ہے؛ کچھ پہلے نہیں
+    fr: "La mosquée réunit tout le monde chaque jour. Rien ne passe avant elle."
   evidence:
     ar: توسّع بناؤها على العهود حتى صار أعظم معالم الغرب
     en: its building grew over the reigns until it became the West's greatest landmark
     ur: اس کی تعمیر دور دراز بڑھتی گئی یہاں تک کہ مغرب کی عظیم ترین نشانی بنا
+    fr: "Elle s’est agrandie de règne en règne jusqu’à devenir le monument le plus marquant de l’Occident."
   sources:
   - building/great-mosque-cordoba
   - place/cordoba
@@ -31,14 +36,17 @@ positions:
     ar: جماعة المكتبة
     en: the library party
     ur: کتب خانہ کے حامی
+    fr: "Les partisans de la bibliothèque"
   stance:
     ar: الكتب بلا دار تضيع؛ المكتبة تلد ألف مسجد في العقول
     en: books without a house are lost; a library births a thousand mosques in minds
     ur: بے گھر کتابیں ضائع ہوتی ہیں؛ کتب خانہ ذہنوں میں ہزار مسجدیں پیدا کرتا ہے
+    fr: "Sans lieu pour les conserver, les livres se perdent. Une bibliothèque fait naître mille mosquées dans les esprits."
   evidence:
     ar: جمعت قرطبة مكتبات فاقت حتى صار رقم الكتب فيها مثلًا
     en: Cordoba gathered libraries so large their catalogue count became proverbial
     ur: قرطبہ نے اتنے بڑے کتب خانے جمع کیے کہ اس کی فہرستیں مثال بنیں
+    fr: "Cordoue a réuni des bibliothèques si vastes que la taille de leurs catalogues est devenue proverbiale."
   sources:
   - place/cordoba
   - exhibit/pathway-g11-chw3m-al-andalus
@@ -46,3 +54,10 @@ reflection:
   ar: أيّ العمارَتين كنت ستدفع ثمنها أولًا؟ اكتب سببك.
   en: Which of the two buildings would you have paid for first? Write your reason.
   ur: آپ پہلے کون سی عمارت کی ادائیگی کرتے؟ وجہ لکھیں۔
+  fr: "Lequel de ces deux édifices aurais-tu financé en premier ? Explique pourquoi."
+provenance:
+  fr:
+    generated_by: "Devin"
+    model: "unknown"
+    run: "devin-a7ba389df57d4bdb9b7515fa59f40242"
+    source: "Existing English text in this activity, with Arabic consulted for religious material."

@@ -1,0 +1,22 @@
+---
+id: passage/quran-7-20
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-7-20.md}
+---
+## Résumé
+Verset 20 de [[passage/quran-7|la sourate al-A'raf]], une sourate mecquoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 20 sur 206 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+Puis, au sujet de « Alors Satan leur murmura à l’oreille pour leur révéler ce qui leur avait été caché de leur nudité », il dit : « leur murmura à l’oreille » signifie qu’il leur murmura, et ce murmure consistait à leur dire : « Votre Seigneur vous a interdit cet arbre uniquement pour que vous ne deveniez pas des anges ou que vous ne deveniez pas immortels », et à leur jurer de le faire. « Leur murmura à l’oreille » est dit dans le sens que j’ai donné, comme on dit « J’étais attiré par lui », ce qui signifie que je le désirais ardemment, c’est-à-dire que je me suis détourné de ces personnes pour me tourner vers lui ; la note indique que c’est la formulation d’al-Akhfash expliquant un verset d’Ibn Harma, et corrige le texte imprimé par le manuscrit. Ainsi, ici, {cite:tafsir-tabari-shakir-v12 p. 346}
+
+Satan leur murmura des paroles mensongères pour leur révéler leur nudité, comme le rapporte Ru'ba dans un passage décrivant un chasseur tapi à l'affût d'ânes sauvages, passage que la note retrace. Le sens de ces paroles est le suivant : Iblis attira Ève vers Adam et leur dit : « Votre Seigneur vous a interdit de manger du fruit de cet arbre uniquement pour éviter que vous ne deveniez des anges ou l'immortalité », afin de révéler ce que Dieu leur avait caché de leur intimité, la recouvrant du voile qu'Il avait déployé sur eux. Wahb ibn Munabbih parlait de ce voile divin : il rapporte (14393) de lui, à propos de « leur nudité leur apparut », qu'une lumière les enveloppait, de sorte que leur intimité restait invisible. La note relate la biographie de Hawthara ibn Muhammad al-Minqari dans la chaîne de transmission. {cite:tafsir-tabari-shakir-v12 p. 347}
+
+Ensuite, dans le verset « Il dit : Votre Seigneur vous a interdit de manger ce fruit, de peur que vous ne deveniez des anges ou que vous ne deveniez immortels », Dieu explique que Satan a dit à Adam et à sa femme Ève : « Votre Seigneur vous a interdit de manger ce fruit, de peur que vous ne deveniez des anges. » Le mot « ne » est omis car le sens littéral le confirme, tout comme il l'est dans Ses paroles du verset [[passage/quran-4-176|4:176]] : « Dieu vous l'a clairement indiqué afin que vous ne vous égariez pas », le sens étant de ne pas s'égarer. Certains arabisants de Bassorah ont soutenu que le sens était que Votre Seigneur vous a interdit de manger ce fruit uniquement par aversion pour que vous deveniez des anges, comme on dit « prenez garde à le faire », ce qui signifie par aversion pour le fait que vous le fassiez. « Ou que vous deveniez immortels » signifie au Paradis, y demeurer pour toujours, afin de ne pas mourir. La lecture se fait avec une fatha sur le lam, signifiant anges. Il est rapporté d'Ibn Abbas (14394) d'après al-Suddi qu'il a lu "malikayn" avec kasra sur le lam, {cite:tafsir-tabari-shakir-v12 p. 348}
+
+et de Yahya ibn Abi Kathir (14395) qui lisait « malikayn » avec kasra. Il semble qu'Ibn Abbas et Yahya aient compris que Satan leur avait dit : « Votre Seigneur vous a interdit cet arbre uniquement pour que vous ne deveniez pas rois », et ils l'ont interprété à la lumière des paroles de Dieu ailleurs, dans [[passage/quran-20-120|20:120]] : « Voulez-vous que je vous conduise à l'arbre de l'immortalité et à un royaume qui ne périsse point ? » Al-Tabari affirme que la lecture qu'il ne tolère pas est celle des lecteurs des terres, la fatha sur le lam de « malakayn », signifiant deux anges, pour les raisons qu'il a expliquées précédemment : la lecture la plus répandue parmi les lecteurs de l'islam est la bonne et ne saurait être contestée. {cite:tafsir-tabari-shakir-v12 p. 349}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

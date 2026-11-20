@@ -1,0 +1,21 @@
+---
+id: passage/quran-2-58
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-2-58.md}
+---
+## Resumen
+Versículo 58 de [[passage/quran-2|Surat al-Baqara]], una sura de Medina. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 58 de 286 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+Sobre «y cuando dijimos: entrad en esta ciudad», al-Tabari dice que la ciudad es Bayt al-Maqdis, citando esto de Qatada, al-Suddi y al-Rabi', y de Ibn Zayd que es Jericó, cerca de Bayt al-Maqdis. «Comed de ella donde queráis, en abundancia» significa una vida fácil y abundante sin rendir cuentas. {cite:tafsir-tabari-shakir-v02 p. 102} {cite:tafsir-tabari-shakir-v02 p. 103}
+En la expresión "entrar por la puerta postrándose", se dice que la puerta es la Puerta de Hitta de Bayt al-Maqdis, según Mujahid, al-Suddi e Ibn Abbas, y según Ibn Abbas, "sujjadan" significa inclinarse, y que se les indicó que entraran inclinándose por una pequeña puerta. Al-Tabari explica que "sujud" originalmente significa inclinarse en reverencia, por lo que cualquiera que se incline ante algo en veneración es "sajid", citando versículos de Zayd al-Khayl y al-A'sha, y así se sostiene la interpretación de Ibn Abbas, ya que quien se inclina está doblado, aunque quien se postra está más doblado. {cite:tafsir-tabari-shakir-v02 p. 103} {cite:tafsir-tabari-shakir-v02 p. 104} {cite:tafsir-tabari-shakir-v02 p. 105}
+Sobre "y di: hitta", sostiene que "hitta" es una forma de "Dios bajó (hatta) tus pecados de ti", y luego registra las diferencias: al-Hasan, Qatada, Ibn Zayd, Ibn Abbas, al-Rabi' y Ata dicen que significa que Dios elimina sus pecados, e Ibn Abbas también dice que significa perdón; Ikrima dice que significa "di: no hay más dios que Dios"; e Ibn Abbas, según otra cadena, dice que se les dijo que pidieran perdón. {cite:tafsir-tabari-shakir-v02 p. 105} {cite:tafsir-tabari-shakir-v02 p. 106}
+
+Al-Tabari añade otra interpretación de Ibn Abbas a través de al-Dahhak según la cual "decir hitta" significa decir: este asunto es cierto tal como se os ha dicho. A continuación, expone las diferencias entre los gramáticos respecto al nominativo "hitta": los basranos afirman que es nominativo en el sentido de "decir: que venga de Ti una reducción de nuestros pecados", o que es una palabra que se les ordenó decir en nominativo; los kufanos sostienen que hay un "esto es hitta" o "qué es hitta" implícito. Su propia elección es que es nominativo como predicado de un sujeto omitido, lo que significa "nuestro entrar por la puerta postrándonos es hitta", lo cual se acerca a la interpretación de al-Rabi', Ibn Jurayj e Ibn Zayd. Sostiene que en las lecturas de Ikrima, al-Hasan y Qatada se habría requerido el acusativo, y que el acuerdo de los recitadores sobre el nominativo demuestra que la lectura de Ikrima es errónea. {cite:tafsir-tabari-shakir-v02 p. 107} {cite:tafsir-tabari-shakir-v02 p. 108} {cite:tafsir-tabari-shakir-v02 p. 109}
+Sobre «Te perdonaremos», dice que el significado es «Cubriremos tus pecados con misericordia y no te expondremos al castigo por ellos», la raíz «ghafr» significa cubrir y ocultar, de donde proviene «mighfar», el casco que cubre la cabeza; cita a Aws ibn Hajar. «Khataya» es el plural de «khati'a», de «khati'a» cuando un hombre se aparta del camino de la verdad, y cita un verso de Umayya ibn al-Askar. {cite:tafsir-tabari-shakir-v02 p. 109} {cite:tafsir-tabari-shakir-v02 p. 110}
+Sobre «y aumentaremos a los que hacen el bien», relata Ibn Abbas: «Quien obre bien entre vosotros recibirá más, y quien se equivoque, se le perdonará su error». Al-Tabari resume el versículo y luego dice que Dios informa de su gran ignorancia y poca obediencia para reprender a sus descendientes, a quienes se dirigen estos versículos, y para advertirles que si persisten en negar a Mahoma, serán como sus antepasados. {cite:tafsir-tabari-shakir-v02 p. 111}

@@ -1,0 +1,22 @@
+---
+id: passage/quran-2-151
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-2-151.md}
+---
+## Résumé
+Verset 151 de [[passage/quran-2|la sourate al-Baqara]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 151 sur 286 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+## Dans le commentaire d'al-Tabari
+
+Sur le verset « et afin que Je parachève Ma grâce envers vous et que vous soyez bien guidés », al-Tabari dit : d'où que vous alliez, tournez votre visage vers la Mosquée sacrée, et vous, Muhammad et les croyants, tournez-vous vers elle et prenez-la pour qibla, afin que nul ne puisse s'opposer à vous, hormis les polythéistes qurayshites. Ainsi, en vous guidant vers la qibla de Mon ami Abraham, que J'ai établi comme guide pour les hommes, Je parachève Ma grâce, perfectionnant Ma faveur envers vous et accomplissant les rites de votre droiture et de votre soumission à la foi que J'ai prescrite à Noé, Abraham, Moïse, Jésus et aux autres prophètes. {cite:tafsir-tabari-shakir-v03 p. 207} {cite:tafsir-tabari-shakir-v03 p. 208} « Afin que vous soyez guidés » signifie que vous soyez dirigés vers la bonne qibla, et cela est lié à « afin que Je puisse accomplir Ma faveur », qui est lié à « afin qu’il n’y ait pas de dispute ». {cite:tafsir-tabari-shakir-v03 p. 208}
+
+Concernant le verset « Nous avons envoyé parmi vous un messager issu de vos propres rangs, vous récitant Nos versets, vous purifiant, vous enseignant le Livre et la sagesse, et vous enseignant ce que vous ne saviez pas », il explique que cela signifie : que Je complète Ma grâce envers vous en vous expliquant les rites de votre foi droite et en vous guidant vers la religion de Mon ami Abraham, en formulant pour vous sa supplication et sa requête, telles qu’Abraham les a formulées dans la sourate Al-Baqara : qu’ils soient soumis à Lui et que leur descendance soit une communauté soumise, et qu’un messager issu de leurs propres rangs soit envoyé parmi eux. {cite:tafsir-tabari-shakir-v03 p. 208}
+
+Al-Tabari complète le sens : « Je fais pour vous la supplication d’Abraham comme J’ai fait pour vous sa requête : “Seigneur, envoie parmi eux un messager issu de leurs rangs”. J’ai donc envoyé parmi vous Mon messager, celui qu’Abraham, mon ami, et son fils Ismaël M’ont demandé d’envoyer de leur descendance. » Il soutient que « kama » est lié à « afin que Je parachève Ma grâce » et non à « souvenez-vous de Moi et Je me souviendrai de vous ». {cite:tafsir-tabari-shakir-v03 p. 208} {cite:tafsir-tabari-shakir-v03 p. 209} Il note que certains ont dit que la signification est « souvenez-vous de Moi comme Nous avons envoyé parmi vous un messager, et Je me souviendrai de vous », par transposition, et la rejette comme tirée par les cheveux et pas l'arabe le plus éloquent, la réponse « Je me souviendrai de vous » montrant qu'elle rompt avec ce qui précède. {cite:tafsir-tabari-shakir-v03 p. 209} {cite:tafsir-tabari-shakir-v03 p. 210} Il rapporte d'après Mujahid et Ibn Abi Najih que le sens est « comme Je l'ai fait, souviens-toi de Moi », de sorte que « comme Nous avons envoyé » répondrait « souviens-toi de Moi ». {cite:tafsir-tabari-shakir-v03 p. 210}
+
+Il dit : « Comme Nous avons envoyé parmi vous un messager issu des vôtres », c’est-à-dire les Arabes : Dieu leur a dit : « Obéissez-vous à Moi et tournez-vous vers la qibla que J’ai ordonnée. Ainsi, la dispute des Juifs prend fin et Je parachève Ma grâce envers vous. Vous êtes guidés, comme J’ai commencé Ma grâce envers vous en envoyant parmi vous un messager issu des vôtres, qui est Muhammad, d’al-Rabi’. » {cite:tafsir-tabari-shakir-v03 p. 210} « Réciter Nos versets » signifie les versets du Coran ; « vous purifier » signifie vous laver de la souillure du péché ; « le Livre » est le Furqan, qui leur enseigne ses préceptes ; « la sagesse » est la sunna et la compréhension de la religion ; et « ce que vous ne saviez pas » désigne les hadiths, les récits des nations passées et les nouvelles du présent et de l’avenir, que les Arabes ignoraient. {cite:tafsir-tabari-shakir-v03 p. 210} {cite:tafsir-tabari-shakir-v03 p. 211}

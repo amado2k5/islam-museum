@@ -1,0 +1,18 @@
+---
+id: person/rageh-omaar
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/rageh-omaar.md}
+---
+## Résumé
+Rageh Omaar (né le 19 juillet 1967) est un journaliste et écrivain britannique d'origine somalienne. Il s'est fait connaître comme correspondant de la BBC à Bagdad lors de l'invasion de l'Irak en 2003, a présenté la série documentaire Witness sur Al Jazeera English, et depuis 2013 est correspondant spécial ITV News et rédacteur en chef des affaires internationales. {cite:wikipedia-rageh-omaar-en}
+
+## Vie
+Omaar est né à Mogadiscio, en Somalie, le 19 juillet 1967, de parents d'Abdullahi et Sahra Omaar ; son père était un comptable devenu homme d'affaires qui a fondé le premier journal indépendant du pays. {cite:wikipedia-rageh-omaar-en} {cite:wikidata-rageh-omaar} La famille a déménagé au Royaume-Uni lorsqu'il avait deux ans. {cite:wikipedia-rageh-omaar-en} Son frère aîné, Mohamed Abdullahi Omaar, a ensuite été ministre des Affaires étrangères de la Somalie. {cite:wikipedia-rageh-omaar-en} Il a été éduqué à la Dragon School d'Oxford et au Cheltenham College, et a étudié l'histoire moderne au New College d'Oxford. {cite:wikipedia-rageh-omaar-en} L'article anglais indique qu'Omaar est musulman, et le titre de son propre livre de 2006, Only Half of Me : Being a Muslim in Britain, décrit sa négociation de ses deux identités ; aucune source ne cite une école ou un ordre pour lui. {cite:wikipedia-rageh-omaar-en} En 2000, il épousa Georgiana Montgomery-Cuninghame ; ils ont trois enfants et vivent à Chiswick, dans l'ouest de Londres. {cite:wikipedia-rageh-omaar-en}
+
+## Travail
+Omaar a commencé comme stagiaire au journal The Voice, a travaillé en freelance au Yémen en 1991 principalement pour la BBC World Service, puis est retourné à Londres comme producteur de la BBC et journaliste audiovisuel, servant plus tard comme correspondant de la BBC au Somaliland. {cite:wikipedia-rageh-omaar-en} Ses reportages en direct sur l'invasion de l'Irak en 2003 pour les bulletins de la BBC lui ont valu la conscience aux États-Unis sous le nom de « Scud Stud », et son livre sur la guerre, Revolution Day (2005), traite des effets du régime de Saddam Hussein, des sanctions des Nations unies et de la guerre contre les civils irakiens. {cite:wikipedia-rageh-omaar-en} Il a depuis exprimé son regret que la couverture médiatique, y compris la sienne, se soit concentrée sur le régime et les inspecteurs d'armes et ait accordé peu d'attention au peuple irakien. {cite:wikipedia-rageh-omaar-en} En septembre 2006, il a rejoint Al Jazeera English, où il a présenté la série documentaire nocturne Witness jusqu'en 2010, puis The Rageh Omaar Report. {cite:wikipedia-rageh-omaar-en} Ses documentaires incluent An Islamic History of Europe (BBC Four, 2005), The Life of Muhammad (BBC Two, 2011) et The Ottomans : Europe's Muslim Emperors (BBC Two, 2013). {cite:wikipedia-rageh-omaar-en} Il a rejoint ITV News en tant que correspondant spécial en janvier 2013, a été promu rédacteur en chef des affaires internationales en 2014, puis est devenu présentateur adjoint d'ITV News at Ten en 2015. {cite:wikipedia-rageh-omaar-en} Il est tombé malade lors d'une émission en direct de News at Ten le 26 avril 2024 et a reçu des soins médicaux ; il est revenu dans l'émission à titre de reporter le 27 janvier 2025. {cite:wikipedia-rageh-omaar-en}
+
+## Sources
+- Les entités sources citées ci-dessus, enregistrées sous le numéro `data/source/`.

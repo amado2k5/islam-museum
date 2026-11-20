@@ -1,0 +1,44 @@
+---
+id: person/muhammad-husayn-haykal
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/muhammad-husayn-haykal.md}
+---
+## Vue d'ensemble
+Muhammad Husayn Haykal (20 août 1888 – 8 décembre 1956) était un écrivain, journaliste et homme politique égyptien qui occupa plusieurs postes ministériels, dont celui de ministre de l'éducation. {cite:wikipedia-muhammad-husayn-haykal-en} L'article anglais le décrit comme le premier Égyptien, arabe, moyen-oriental et africain à obtenir une habilitation de la Sorbonne, ainsi que comme l'auteur du premier roman en arabe et le premier auteur à traiter le prophète Muhammad et les califes Abu Bakr, Umar et Uthman d'un point de vue scientifique. {cite:wikipedia-muhammad-husayn-haykal-en} Son roman Zaynab et sa biographie Hayat Muhammad (La Vie de Muhammad) firent de lui l'une des figures centrales de la génération littéraire et intellectuelle égyptienne de Nahda, d'abord comme libéral de l'école d'Ahmad Lutfi al-Sayyid puis comme principal biographe moderne du Prophète et des premiers califes. {cite:wikipedia-muhammad-husayn-haykal-ar} {cite:wikipedia-muhammad-husayn-haykal-en}
+
+## Jeunesse et formation
+Haykal est né le 20 août 1888 — le 12 Dhu al-Hijja 1305 H selon la date propre de l'article arabe — dans le village de Kafr Ghannam, placé par l'article anglais sous Mansoura et par l'article arabe sous Sinbillawin, dans le gouvernorat de Daqahliyah. {cite:wikipedia-muhammad-husayn-haykal-en} {cite:wikipedia-muhammad-husayn-haykal-ar} Il étudia le droit à la Faculté de droit khédiviale du Caire et obtint son diplôme en 1909, puis obtint un doctorat en droit à la Sorbonne de Paris en 1912. {cite:wikipedia-muhammad-husayn-haykal-ar} {cite:wikipedia-muhammad-husayn-haykal-en} Alors qu'il était étudiant à Paris, il composa Zaynab, roman considéré plus tard comme le premier roman égyptien authentique. {cite:wikipedia-muhammad-husayn-haykal-en}
+
+Après son retour en Égypte, il travailla comme avocat pendant dix ans et dans le journalisme, publiant dans Al Jarida. {cite:wikipedia-muhammad-husayn-haykal-en} Il était proche d'Ahmad Lutfi al-Sayyid et suivit ses conseils, et fut influencé par Muhammad Abduh et Qasim Amin. {cite:wikipedia-muhammad-husayn-haykal-ar} {cite:wikipedia-muhammad-husayn-haykal-en} L'historien Husayn Fawzi al-Najjar fut parmi ses protégés. {cite:wikipedia-muhammad-husayn-haykal-en}
+
+## Journalisme et politique
+Haykal fut membre du Comité des Trente qui rédigea la constitution de 1923, la première constitution de l'Égypte indépendante. {cite:wikipedia-muhammad-husayn-haykal-ar} Il fut cofondateur d'Al Siyasa, le journal du Parti constitutionnel libéral, pour lequel il fut conseiller et rédacteur en chef ; l'article arabe précise qu'il prit la direction de son édition hebdomadaire, Al-Siyasa al-Usbu'iyya, en 1926. {cite:wikipedia-muhammad-husayn-haykal-en} {cite:wikipedia-muhammad-husayn-haykal-ar}
+
+En décembre 1937, il fut nommé ministre d'État à l'intérieur dans le deuxième gouvernement de Muhammad Mahmoud Pacha. {cite:wikipedia-muhammad-husayn-haykal-en} {cite:wikipedia-muhammad-husayn-haykal-ar} Il occupa ensuite à plusieurs reprises le ministère de l'Éducation : de 1938 à 1939 sous Muhammad Mahmoud, de 1940 à 1942 sous Hassan Sabri et Hussein Sirri, puis de nouveau d'octobre 1944 à janvier 1945 sous Ahmed Maher, lorsque les Affaires sociales furent ajoutées à son portefeuille. {cite:wikipedia-muhammad-husayn-haykal-ar} Au poste d'éducation, il introduisit plusieurs réformes, notamment la décentralisation — en établissant des zones éducatives et en rendant des programmes et programmes d'études orientés vers le pays. {cite:wikipedia-muhammad-husayn-haykal-en}
+
+Il fut choisi vice-président du Parti constitutionnel libéral en 1941 puis président en 1943, restant président jusqu'à l'abolition des partis après la révolution du 23 juillet 1952. {cite:wikipedia-muhammad-husayn-haykal-ar} À partir de 1945, il présida le Sénat jusqu'en juin 1950. {cite:wikipedia-muhammad-husayn-haykal-ar} Il représenta également l'Arabie saoudite lors de la signature de la Charte de la Ligue arabe en 1945 et dirigea la délégation égyptienne aux Nations unies à plusieurs reprises. {cite:wikipedia-muhammad-husayn-haykal-ar}
+
+## Le roman et les biographies islamiques
+Zaynab, écrit à Paris et publié en 1914, est considéré par de nombreux critiques comme le premier roman égyptien moderne ; Elliott Colla soutient que cette étiquette devait autant aux besoins des institutions nationales lors de la formation qu'au texte lui-même, et que le roman entra dans la tradition littéraire nationale par sa réception et sa reproduction ultérieures. {cite:wikipedia-muhammad-husayn-haykal-en} {cite:wikipedia-muhammad-husayn-haykal-ar} Il fut ensuite adapté en premier film muet égyptien. {cite:wikipedia-muhammad-husayn-haykal-ar}
+
+Sa renommée au-delà de la fiction repose sur la série de biographies qu'il a écrites dans les années 1930 : Hayat Muhammad (La Vie de Muhammad), datée de 1935 par l'article arabe et 1933 par l'anglais et l'ourdou ; Fi Manzil al-Wahy (Dans la Maison de l'Apocalypse, 1937 dans l'article arabe, 1939 en anglais) ; al-Siddiq Abu Bakr (1942) ; al-Faruq Umar (1944/45) ; et Uthman ibn Affan (1964 dans l'article arabe, publié à titre posthume en 1968 en anglais). {cite:wikipedia-muhammad-husayn-haykal-ar} {cite:wikipedia-muhammad-husayn-haykal-en} {cite:wikipedia-muhammad-husayn-haykal-ur} Hayat Muhammad fut traduit en anglais par Isma'il Raji al-Faruqi. {cite:wikipedia-muhammad-husayn-haykal-en} Ses dernières années ont donné lieu à ses mémoires sur la politique égyptienne (1951–53) et Hakadha Khuliqt (Ainsi ai-je été créé, 1955), et plusieurs ouvrages parurent après sa mort, parmi lesquels Al-Iman wa-l-Ma'rifa wa-l-Falsafa (Foi, connaissance et philosophie) et Al-Imbraturiyya al-Islamiyya wa-l-Amakin al-Muqaddasa (L'Empire islamique et les lieux sacrés). {cite:wikipedia-muhammad-husayn-haykal-en} {cite:wikipedia-muhammad-husayn-haykal-ar}
+
+Haykal était père de sept enfants ; sa fille Fayza Haikal enseigne l'égyptologie à l'Université américaine du Caire. {cite:wikipedia-muhammad-husayn-haykal-en} Il mourut au Caire le 8 décembre 1956, à l'âge de 68 ans — 5 Jumada al-awwal 1376 H selon la date de l'article arabe. {cite:wikipedia-muhammad-husayn-haykal-en} {cite:wikipedia-muhammad-husayn-haykal-ar}
+
+## Perspectives et critiques
+Cette section présente des évaluations divergentes selon les sources ; elles ne constituent pas le verdict du musée.
+
+**La phase libérale.** Les recherches sur ses débuts de carrière présentent le jeune Haykal comme un libéral positiviste du cercle de Lutfi al-Sayyid : l'étude de Lorenzo Casini traite de sa « modernité anti-Lumières » de 1916–1925, tandis qu'Israël Gershoni décrit une « rétractation du positivisme » en 1927–1930 et un tournant des intellectuels égyptiens vers des sujets islamiques dans les années 1930, avec Hayat Muhammad au centre. {cite:wikipedia-muhammad-husayn-haykal-en}
+
+**L'accueil de la biographie.** L'étude de réception de Gershoni montre Hayat Muhammad lu de manières contradictoires par ses différents publics, et l'analyse de Charles D. Smith expose « deux interprétations » de l'islam de Haykal — la sienne et celle des Frères musulmans — avec des implications socioéconomiques différentes. {cite:wikipedia-muhammad-husayn-haykal-en} Le statut canonique du roman fait également l'objet de débats : Colla conclut que Zaynab est devenu « le premier roman arabe » par des circonstances institutionnelles plutôt qu'à sa première parution. {cite:wikipedia-muhammad-husayn-haykal-en}
+
+## Œuvres
+Œuvres principales, avec les dates de l'article arabe sauf indication contraire : Zaynab (1914) ; Fi Awqat al-Faragh (1925) ; Tarajim Misriyya wa-Gharbiyya (Biographies de personnalités égyptiennes et occidentales, 1929) ; Waladi (1931) ; Thawrat al-Adab (1933) ; Hayat Muhammad (1935) ; Fi Manzil al-Wahy (1937) ; al-Siddiq Abu Bakr (1942) ; al-Faruq Umar (1944) ; Mémoires sur la politique égyptienne (1951–53) ; Hakadha Khuliqt (1955). {cite:wikipedia-muhammad-husayn-haykal-ar} {cite:wikipedia-muhammad-husayn-haykal-en}
+
+## Références
+- Wikipédia en anglais, « Mohammed Hussein Heikal », révision 1362974022. {cite:wikipedia-muhammad-husayn-haykal-en}
+- Wikipédia arabe, « Mohamed Hussein Heikal », révision 76918435. {cite:wikipedia-muhammad-husayn-haykal-ar}
+- Wikipédia en ourdou, « Muhammad Hussain Haikal », révision 12070493. {cite:wikipedia-muhammad-husayn-haykal-ur}
+- Wikidata, Q2362588. {cite:wikidata-muhammad-husayn-haykal}

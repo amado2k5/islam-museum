@@ -1,0 +1,12 @@
+---
+id: practice/dua-on-sending-and-returning-the-greeting
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/practice/dua-on-sending-and-returning-the-greeting.md}
+---
+## Résumé
+Ce qu'al-Nawawi recueille dans le Livre de la Salutation sur sa décision : la salutation d'une personne pour un groupe, la salutation envoyée par lettre ou messager, le sourd, le muet et l'enfant, et la répétition de la salutation lors de la réunion à nouveau. {cite:al-adhkar-nawawi-arnaut-1994 p. 247}
+
+## Ce que rassemble al-Nawawi à al-Adhkar
+Dans le chapitre sur la règle de la salutation, al-Nawawi rapporte des Muwatta', de Zayd ibn Aslam, que [[person/muhammad|le Prophète]] a dit « إذا سلم واحد من القوم أجزأ عنهم », si l'un des gens salue, cela lui suffit et l'appelle un rapport mursal avec une chaîne sonore {cite:al-adhkar-nawawi-arnaut-1994 p. 247}. Il donne l'avis d'al-Mutawalli selon lequel celui qui est accueilli derrière un mur, par lettre ou par messager doit le rendre lorsqu'il lui parvient {cite:al-adhkar-nawawi-arnaut-1994 p. 247}. Des deux Sahihs, d'Aïcha, le Prophète lui dit « هذا جبريل يقرأ عليك السلام », voici Gabriel, qui vous envoie un salut, et elle le répondit en ajoutant « ورحمة الله وبركاته » ; il note que certaines narrations manquent de dernier mot, et al-Tirmidhi l'a, le qualifiant de bon et solide {cite:al-adhkar-nawawi-arnaut-1994 p. 247}. Dans Abu Dawud, le Prophète répondit à un fils apportant la salutation de son père : « وعليك السلام وعلى أبيك السلام » ; al-Nawawi note que le narrateur est inconnu mais que les rapports sur les mérites sont tolérés {cite:al-adhkar-nawawi-arnaut-1994 p. 248}. Depuis al-Mutawalli, les sourds sont salués par des mots et des gestes, et le geste d'une personne muette signifie la parole {cite:al-adhkar-nawawi-arnaut-1994 p. 248}. Il soutient que l'idée juste est que la salutation d'un enfant doit être répondue, citant [[passage/quran-4-86|le Coran 4:86]] {cite:al-adhkar-nawawi-arnaut-1994 p. 248}. Une salutation est répétée lors d'une nouvelle rencontre, également lorsqu'un arbre ou un mur passe entre les deux, d'Abu Hurayra à Abu Dawud {cite:al-adhkar-nawawi-arnaut-1994 p. 249}.

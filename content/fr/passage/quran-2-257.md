@@ -1,0 +1,20 @@
+---
+id: passage/quran-2-257
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-2-257.md}
+---
+## Résumé
+Verset 257 de [[passage/quran-2|la sourate al-Baqara]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 257 sur 286 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+La première page du commentaire sur ([[passage/quran-2-257|2:257]]) que nous pouvons lire est la page 427, car les pages 423 à 426 sont manquantes dans le document numérisé. Nous commençons donc au milieu d'un argument d'al-Tabari dont le début et les récits précédents ne sont pas visibles ; seules les pages effectivement lues sont citées. {cite:tafsir-tabari-shakir-v05 p. 427} Al-Tabari affirme ici que ce qui précède montre que le verset est particulier dans son sens, et qu'il a été révélé à propos de ceux parmi les chrétiens qui n'ont pas cru en Muhammad, de ceux parmi les idolâtres qui ont cru en lui mais n'ont pas reconnu la prophétie de Jésus, et des autres communautés dont les membres ont renié Jésus ; telle est son affirmation. {cite:tafsir-tabari-shakir-v05 p. 427} Interrogé sur le point de savoir si les chrétiens étaient dans la vérité avant l'envoi de Muhammad, de sorte qu'ils l'ont ensuite renié, il répond que quiconque parmi eux suivait la religion de Jésus était dans la vérité, et que ce sont ceux à qui Dieu s'adresse dans ([[passage/quran-4-136|4:136]]), où il est dit aux croyants de croire en Dieu et en Son messager. {cite:tafsir-tabari-shakir-v05 p. 427}
+
+Al-Tabari se demande ensuite si ceux qui sont décrits comme étant « écartés » pourraient être autres que ceux que Mujahid et Abda désignent (Abda ibn Abi Luba'ba selon l'éditeur), à savoir les croyants en Jésus, ou d'autres que les apostats. Il répond par l'affirmative : cela peut signifier que les taghuts, en tant qu'alliés, s'interposent entre eux et la foi et les égarent au point de les amener à mécroire. Les induire en erreur revient donc à les faire sortir de la foi, c'est-à-dire à les en détourner et à les priver de ses bienfaits, alors qu'ils n'y ont jamais appartenu. C'est comme si un homme disait : « Mon père m'a déshérité lorsque quelqu'un d'autre en a hérité du vivant de mon père, le privant ainsi de sa part, alors qu'il n'en avait jamais été propriétaire. » {cite:tafsir-tabari-shakir-v05 p. 427} {cite:tafsir-tabari-shakir-v05 p. 428} Il affirme que cela est possible même si les propos de Mujahid et Abda sont plus proches du sens du verset ; telle est son affirmation. {cite:tafsir-tabari-shakir-v05 p. 428} Dans les notes, l’éditeur identifie Abda, corrige les divergences entre le texte imprimé et le manuscrit, et explique le mot désignant la part. {cite:tafsir-tabari-shakir-v05 p. 427} {cite:tafsir-tabari-shakir-v05 p. 428}
+
+Al-Tabari répond ensuite à une question de grammaire : comment le mot « taghut » est-il employé au pluriel alors qu’il est singulier ? « Taghut » désigne aussi bien le singulier que le pluriel et peut également se mettre au pluriel sous la forme « tawaghit », comme les expressions « homme juste » et « peuple juste ». Il cite un verset d’al-Abbas ibn Mirdas à propos de son peuple de Sulaym. Dans une note, l’éditeur situe le poème dans le contexte du jour de Hunayn et mentionne une autre interprétation du pluriel du mot « frère ». Ce sont là ses propres interprétations. {cite:tafsir-tabari-shakir-v05 p. 428}
+
+À la fin du verset, al-Tabari affirme que les mécréants sont les gens du Feu, qui y demeurent éternellement, c'est-à-dire dans le feu de l'Enfer, contrairement aux croyants, sans fin ni limite ; telle est son interprétation. {cite:tafsir-tabari-shakir-v05 p. 429} Cette déclaration lui est attribuée et le musée ne se prononce pas à ce sujet.

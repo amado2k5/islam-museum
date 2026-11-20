@@ -16,14 +16,14 @@ export default defineConfig({
   build: { format: "directory", inlineStylesheets: "always" },
   // Renamed-entity redirects live in site/public/_redirects; Cloudflare Pages serves them as edge 301s.
   i18n: {
-    locales: ["ar", "en", "ur"],
+    locales: ["ar", "en", "ur", "fr", "es"],
     defaultLocale: "ar",
     routing: { prefixDefaultLocale: true, redirectToDefaultLocale: false },
   },
   integrations: [
     svelte(),
     sitemap({
-      i18n: { defaultLocale: "ar", locales: { ar: "ar", en: "en", ur: "ur" } },
+      i18n: { defaultLocale: "ar", locales: { ar: "ar", en: "en", ur: "ur", fr: "fr", es: "es" } },
       // Utility routes that are deliberately noindex (search, embeds, print/poster views,
       // the time-browser) and the graph explorer — whose ?from= copies robots.txt blocks —
       // stay out of the submitted sitemap, so the sitemap never contradicts the pages' own
@@ -31,7 +31,7 @@ export default defineConfig({
       filter: (page) => {
         const path = new URL(page).pathname;
         return (
-          !/^\/(ar|en|ur)\/(search|embed|graph|time-browser)(\/|$)/.test(path) &&
+          !/^\/(ar|en|ur|fr|es)\/(search|embed|graph|time-browser)(\/|$)/.test(path) &&
           !/\/(print|poster)\/$/.test(path)
         );
       },

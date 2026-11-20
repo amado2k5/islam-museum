@@ -1,0 +1,12 @@
+---
+id: practice/dua-on-hearing-the-adhan
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/practice/dua-on-hearing-the-adhan.md}
+---
+## Résumé
+Ce que dit l'auditeur de l'appel à la prière et de l'iqama, et la supplication qui suit l'appel, telle qu'al-Nawawi la recueille dans al-Adhkar : répéter les paroles du muezzin, provenant des deux Sahihs ; la supplication pour la wasila, de Sahih al-Bukhari ; et cette supplication entre l'appel et l'iqama n'est pas rejetée. {cite:al-adhkar-nawawi-arnaut-1994 p. 36}
+
+## Ce que rassemble al-Nawawi à al-Adhkar
+Al-Nawawi explique que l'auditeur dit ce que dit le muezzin, sauf aux deux appels « حي على », où il dit « لا حول ولا قوة إلا بالله » {cite:al-adhkar-nawawi-arnaut-1994 p. 36}. Des deux Sahihs, d'Abu Sa'id al-Khudri, il donne l'instruction de dire comme le dit le muezzin ; de Sahih Muslim, d'Abd Allah ibn Amr ibn al-As, l'instruction de demander la bénédiction au [[person/muhammad|Prophète]] et de demander la wasila pour lui ; et d'Umar ibn al-Khattab la réponse phrase par phrase {cite:al-adhkar-nawawi-arnaut-1994 p. 36} {cite:al-adhkar-nawawi-arnaut-1994 p. 37}. De Sahih Muslim, de Sa'd ibn Abi Waqqas : « أشهد أن لا إله إلا الله وحده لا شريك له، وأن محمدا عبده ورسوله، رضيت بالله ربا، وبمحمد رسولا، وبالإسلام دينا » {cite:al-adhkar-nawawi-arnaut-1994 p. 37}. De Sahih al-Bukhari, de Jabir : « اللهم رب هذه الدعوة التامة والصلاة القائمة، آت محمدا الوسيلة والفضيلة، وابعثه مقاما محمودا الذي وعدته », Seigneur de cet appel complet et de la prière sur le point d'être établie, accorde à Muhammad la wasila et l'excellence, et élève-le à la rangée louée que tu lui as promise {cite:al-adhkar-nawawi-arnaut-1994 p. 37}. Il dit que quelqu'un qui entend l'appel en priant ne répond pas avant qu'il ait terminé, et de même quelqu'un dans les toilettes jusqu'à ce qu'il sorte {cite:al-adhkar-nawawi-arnaut-1994 p. 38}. Dans le chapitre sur la supplication après l'appel, il rapporte d'Anas, du Sunan, que la supplication entre l'appel et l'iqama n'est pas rejetée, citant la notation par al-Tirmidhi comme bonne et solide ; et de Sunan Abi Dawud, de Sahl ibn Sa'd, par une chaîne il appelle le son, que la supplication à l'appel et dans la pression de la bataille n'est pas rejetée {cite:al-adhkar-nawawi-arnaut-1994 p. 38}.

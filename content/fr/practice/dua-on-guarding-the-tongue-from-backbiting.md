@@ -1,0 +1,12 @@
+---
+id: practice/dua-on-guarding-the-tongue-from-backbiting
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/practice/dua-on-guarding-the-tongue-from-backbiting.md}
+---
+## Résumé
+Ce qu'al-Nawawi recueille à la fin du chapitre sur le silence, auprès des premiers érudits, et dans le chapitre sur l'interdiction des insultes et des récits : leurs définitions, leur jugement et les rapports à leur sujet. {cite:al-adhkar-nawawi-arnaut-1994 p. 335}
+
+## Ce que rassemble al-Nawawi à al-Adhkar
+Al-Nawawi termine le chapitre sur le silence par des proverbes. Il dit que « من صمت نجا », celui qui se tait est sauvé, a une chaîne faible et qu'il ne le mentionne que pour le souligner, car c'est bien connu {cite:al-adhkar-nawawi-arnaut-1994 p. 335}. Il donne le récit de Qass ibn Sa'ida et Aktham ibn Sayfi comptant les fautes humaines, et la seule qualité qui les couvre tous, celle de protéger la langue {cite:al-adhkar-nawawi-arnaut-1994 p. 335} ; et le rapport d'al-Qushayri d'Abu Ali al-Daqqaq selon lequel celui qui se tait sur la vérité est un démon muet {cite:al-adhkar-nawawi-arnaut-1994 p. 335}. Le chapitre suivant, sur l'interdiction des paroles et des récits, définit le déblasement comme le fait de mentionner une personne avec ce qu'elle n'aime pas, en corps, en religion, en affaires mondaines ou autrement, par paroles, écrits ou gestes, et le fait de porter des récits comme le fait de transmettre les paroles des gens les uns aux autres pour provoquer la corruption ; il affirme que les deux sont interdits par le consensus des musulmans {cite:al-adhkar-nawawi-arnaut-1994 p. 336}. Il cite [[passage/quran-49-12|le Coran 49:12]], [[passage/quran-104-1|104:1]] et [[passage/quran-68-11|68:11]] {cite:al-adhkar-nawawi-arnaut-1994 p. 337} ; des deux Sahihs, de Hudhayfa, selon lesquels [[person/muhammad|le Prophète]] a dit « لا يدخل الجنة نمام », aucun porteur de contes n'entre au Paradis {cite:al-adhkar-nawawi-arnaut-1994 p. 337} ; et de Muslim, Abu Dawud, al-Tirmidhi et al-Nasa'i, d'Abu Hurayra, la définition « ذكرك أخاك بما يكره », mentionnant votre frère avec ce qu'il n'aime pas, que al-Tirmidhi qualifie de bon et de sain {cite:al-adhkar-nawawi-arnaut-1994 p. 337}.

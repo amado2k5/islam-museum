@@ -1,0 +1,21 @@
+---
+id: person/babur-mughal
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/babur-mughal.md}
+---
+
+## Vue d'ensemble
+Zahir al-Din Muhammad Babur, soldat de fortune, premier des souverains moghols en Inde, diariste et poète, descendait du côté paternel à la cinquième génération de Timur et, par sa mère Kutluk Nigar Khanum, au quinzième degré, de Chingiz Khan. Il naquit le 6 Muharram 888/14 février 1483 et succéda à son père 'Umar Shaykh comme Mirza de Farghana durant le Ramadan 899/juin 1494. {cite:encyclopaedia-of-islam-2 vol. 1 p. 904}
+
+## Luttes en Asie centrale
+Babur hérita du combat de son père avec ses proches pour les villes et les régions fertiles d'Asie centrale. À Rabi' Ier 903/novembre 1497, il avait repoussé les tentatives de ses oncles sur Farghana et occupé Samarcande, pour la perdre quatre mois plus tard ; après avoir perdu aussi Andijan, il partagea Farghana avec son frère Jahangir en 905/1498-1499. Il prit Samarcande par surprise l'année suivante mais fut affamé par Shaybani Khan après la bataille de Sar-i Pul (Ramadan 906/avril-mai 1501), et devint un nomade fugitif. L'armée de soutien de ses oncles fut mise en déroute à Archiyan à Dhu'l-Hijja 908/juin 1503 ; après près d'un an parmi les nomades de Sukh et Hushyar, il se tourna vers Kaboul (Muharram 910/juin 1504), la sécurisant avec son frère et imposant un tribut des tribus afghanes environnantes. La mort du sultan Husayn Mirza Bayqara permit à Shaybani Khan de prendre la majeure partie du Khorasan, mais Shah Isma'il Safawi le vainquit et le tua à Marw le 1er Ramadan 916/2 décembre 1510. Babur occupa alors Samarcande une troisième fois (Rajab 917/octobre 1511) en tant que client du Shah Isma'il, faisant une profession ouverte de chiisme — ce qui lui coûta le soutien populaire — et perdit de nouveau la ville après les défaites à Kul-i Malik (Safar 918/mai 1512) et Ghujduwan (3 Ramadan 918/12 novembre 1512). {cite:encyclopaedia-of-islam-2 vol. 1 p. 904}
+
+## Kaboul, Qandahar et l'Inde
+Après deux ans autour de Kunduz, Babur retourna à Kaboul, son centre d'entreprises à l'est et au sud ; Qandahar fut sécurisé par négociation à Jumada II 928/mai 1522. Invité en Hindoustan par Dawlat Khan Lodi et 'Alam Khan contre le sultan Ibrahim Lodi, il détruisit les forces d'Ibrahim à Panipat en Rajab 932/avril 1526, occupa Delhi et Agra, et sa victoire à Khanua sur Rana Sanga de Chitor (Jumada I 933/mars 1527) assura le front du Rajputana, tandis que sa victoire à la jonction Ghaghra-Ganges à Sha'ban 935/mai 1529 étendit sa suzerainence au Bengale. Il mourut le 6 Jumada I 937/26 décembre 1530 à Agra ; son corps fut ensuite transféré dans sa tombe actuelle. L'article le décrit comme un général prudent qui a appris des commandants ouzbak, en appliquant une discipline organisée, des défenses de campagne, du tir de mousquettes, de l'artillerie et le mouvement d'encerclement. (Le texte de la ligne d'attente EI2 est coupé à mi-article à ce stade ; les paragraphes finaux et la bibliographie n'ont pas été capturés.) {cite:encyclopaedia-of-islam-2 vol. 1 p. 904-905}
+
+## Dans le Oxford Dictionary of Islam
+Le Oxford Dictionary of Islam décrit Babur comme le premier souverain moghol de l'Inde, régnant de 1526 à 1530, descendant de Timur qui passa la majeure partie de sa vie dans des luttes pour des territoires tribaux en Asie centrale. Il est indiqué qu'il fut appelé en Inde comme allié combattant et occupa Delhi en 1526, marquant ainsi le début de la dynastie moghole. {cite:oxford-dictionary-of-islam e270}
+
+Il ajoute qu'il écrivit de la poésie en turc et la première grande autobiographie musulmane, le Baburnama. {cite:oxford-dictionary-of-islam e270} Cela concorde avec le récit ci-dessus sur sa descendance timouride et l'année où Delhi fut prise. L'expression première grande autobiographie musulmane est le jugement du dictionnaire lui-même et non celui de ce document. Voir [[work/baburnama|le Baburnama]].

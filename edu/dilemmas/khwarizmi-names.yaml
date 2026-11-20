@@ -4,6 +4,7 @@ decision:
   ar: أرقام هندية أم أحرف عربية؟
   en: Indian digits or Arabic letters?
   ur: ہندوستانی ہندسے یا عربی حروف؟
+  fr: "Des chiffres indiens ou des lettres arabes ?"
 context:
   ar: 'الخوارزمي يكتب كتاب الجبر والمقابلة أمامه اختيار: تبنّي الأرقام الهندية ٠-٩ الجديدة التي تسهّل الحساب لكنها غريبة على القرّاء، أم الاحتفاظ بالأحرف والكلمات
     العربية التي يعرفها الجميع؟ القرار: دقة الرموز أم قرب الألفاظ؟'
@@ -11,19 +12,23 @@ context:
     and words everyone knows? The decision: precision of symbols or closeness of words?'
   ur: 'الخوارزمی الجبر و المقابلہ کی کتاب لکھتے ہوئے انتخاب کے سامنے تھا: نئے ہندوستانی ہندسے 0-9 اپنانا جو حساب آسان کرتے مگر قارئین کو اجنبی لگتے یا وہ عربی حروف
     اور الفاظ رکھنا جو سب جانتے ہیں؟ فیصلہ: علامات کی درستگی یا الفاظ کی قربت؟'
+  fr: "En écrivant son livre d’algèbre, al-Khwarizmi doit choisir : adopter les chiffres indiens de 0 à 9, qui facilitent les calculs mais sont nouveaux pour ses lecteurs, ou garder les lettres et les mots arabes que tout le monde connaît. Que privilégier : la précision des symboles ou la familiarité des mots ?"
 positions:
 - holder:
     ar: أهل الأرقام
     en: the digits party
     ur: ہندسوں کے حامی
+    fr: "Les partisans des chiffres"
   stance:
     ar: الصفر يفتح الحساب الذي تسدّه الأحرف
     en: zero opens the arithmetic letters close
     ur: صفر وہ حساب کھولتا ہے جو حروف بند کرتے ہیں
+    fr: "Le zéro permet des calculs que les lettres ne permettent pas."
   evidence:
     ar: دخلت الأرقام حساب الميراث والتجارة فعمّت
     en: the digits entered inheritance and trade arithmetic and spread
     ur: ہندسے وراثت اور تجارت کے حساب میں آئے اور پھیل گئے
+    fr: "Ces chiffres ont servi aux calculs d’héritage et de commerce, puis leur usage s’est répandu."
   sources:
   - person/al-khwarizmi
   - concept/algebra
@@ -31,14 +36,17 @@ positions:
     ar: أهل الألفاظ
     en: the words party
     ur: الفاظ کے حامی
+    fr: "Les partisans des mots"
   stance:
     ar: الجبر يُقرأ باللسان الذي يفهمه الناس، لا بأشكال غريبة
     en: algebra is read in the tongue people understand, not strange shapes
     ur: الجبر اسی زبان میں پڑھا جاتا ہے جو لوگ سمجھتے ہیں، اجنبی شکلوں میں نہیں
+    fr: "L’algèbre se lit dans une langue que les gens comprennent, pas avec des signes inconnus."
   evidence:
     ar: كتب بالنثر الكامل فصار كتابه مدرسة أجيال
     en: he wrote in full prose so his book schooled generations
     ur: انھوں نے مکمل نثر میں لکھا تو کتاب نسلوں کی مدرسہ بنی
+    fr: "Il a rédigé son ouvrage en toutes lettres, si bien qu’il a formé des générations de lecteurs."
   sources:
   - person/al-khwarizmi
   - concept/algebra
@@ -46,3 +54,10 @@ reflection:
   ar: 'أيهما كان سيخدم كتابك أكثر: الرمز أم اللفظ؟ اكتب سببك.'
   en: 'Which would have served your book more: symbol or word? Write your reason.'
   ur: 'آپ کی کتاب کو کیا زیادہ فائدہ دیتا: علامت یا لفظ؟ وجہ لکھیں۔'
+  fr: "Qu’est-ce qui aurait été le plus utile à ton livre : les symboles ou les mots ? Explique pourquoi."
+provenance:
+  fr:
+    generated_by: "Devin"
+    model: "unknown"
+    run: "devin-a7ba389df57d4bdb9b7515fa59f40242"
+    source: "Existing English text in this activity, with Arabic consulted for religious material."

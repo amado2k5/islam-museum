@@ -1,0 +1,20 @@
+---
+id: passage/quran-3-109
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-3-109.md}
+---
+## Resumen
+Versículo 109 de [[passage/quran-3|Surat Al 'Imran]], una sura de Medina. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 109 de 200 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+**El dominio de Dios y la ausencia de necesidad de hacer daño (pp. 98-99).** Al-Tabari afirma que el sentido es que Él castiga a quienes renegaron de la fe después de haber creído con el gran castigo y los rostros oscurecidos mencionados, y recompensa a los creyentes que se mantuvieron firmes en su afirmación y fidelidad a sus pactos con la morada en Sus jardines, sin perjudicar a ninguno de los dos grupos porque no tiene necesidad de hacerlo. El malhechor perjudica a otro para aumentar su poder, su autoridad o su dominio, o para compensar alguna carencia en sus recursos; quien posee todo lo que hay entre el oriente y el occidente, y entre este mundo y el venidero, no tiene razón para perjudicar a nadie, pues no tiene carencias que necesiten ser completadas; exaltado sea Dios por encima de todo eso. Por eso, después de negar que desee el mal, Dios dice que lo que hay en los cielos y en la tierra le pertenece. {cite:tafsir-tabari-shakir-v07 p. 98} {cite:tafsir-tabari-shakir-v07 p. 99}
+
+**La disputa de los gramáticos sobre la repetición del nombre (págs. 99-100).** El pueblo árabe discrepó sobre por qué el nombre de Dios se menciona abiertamente de nuevo en la cláusula final cuando ya se había mencionado abiertamente en la primera. Un basran dijo que es como el dicho árabe "en cuanto a Zayd, Zayd se fue" y como un verso de un poeta, donde el nombre se menciona en lugar de un pronombre. El verso es de Adi ibn Zayd, a veces atribuido a su hijo Sawada ibn Adi, y quizás a Umayya ibn Abi al-Salt; El editor indica su ubicación en Hamasa de al-Buhturi, Shu'ara al-Jahiliyya, Kitab de Sibawayh, Khizanat al-Adab, Amali de Ibn al-Shajari y Sharh Shawahid al-Mughni, afirma que proviene de líneas dispersas de reflexiones de Adi sobre la vida y la muerte, describe su sentido y señala que en el manuscrito la línea estaba corrupta. Un gramático de Kufa dijo que esto no se parece a la línea, ya que en la línea la segunda mención ocupa el lugar de un pronombre y es una sola palabra, mientras que en el verso la primera afirmación es un informe sin relación con la segunda; cada uno de los dos relatos difiere en sentido del otro y se sostiene por sí mismo, mientras que la línea del poeta necesita que se complete el informe sobre ella. El editor añade que los kufanos llaman al pronombre "kinaya". {cite:tafsir-tabari-shakir-v07 p. 99} {cite:tafsir-tabari-shakir-v07 p. 100}
+
+**La elección de Al-Tabari (p. 100).** Al-Tabari afirma que la segunda opinión le parece más acertada, pues el significado y la claridad del libro de Dios no deben limitarse a expresiones y sentidos rebuscados, sino que, en un lenguaje elocuente y un sentido claro y comprensible, posee un significado válido y existente. En cuanto a la devolución de los asuntos a Dios, sostiene que los asuntos de toda criatura, justa o malvada, buena o mala, terminan con Él, y Él recompensa a cada una según lo que merece, sin perjudicar a nadie. El editor indica que corrigió la comparación de Al-Tabari con el poeta en el manuscrito y en el texto impreso, y que el copista suele cometer errores. {cite:tafsir-tabari-shakir-v07 p. 100}
+
+Estas declaraciones se presentan tal como fueron transmitidas; las elecciones y los argumentos son de al-Tabari, las notas y los rastreos de fuentes son del editor, y el museo no emite ningún veredicto. {cite:tafsir-tabari-shakir-v07 p. 100}

@@ -1,0 +1,25 @@
+---
+id: work/tafsir-al-kabir-razi
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/work/tafsir-al-kabir-razi.md}
+---
+## Resumen
+Al-Tafsir al-Kabir ("El Gran Comentario"), o Mafatih al-Ghayb ("Las Llaves de lo Oculto"), es el comentario de [[person/fakhr-al-din-al-razi|Fakhr al-Din al-Razi]]; la portada de la impresión de Dar al-Fikr lo nombra Muhammad al-Razi Fakhr al-Din, hijo del erudito Diya' al-Din Umar, conocido como el Predicador de Rayy, con las fechas 544–604 AH. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.1} {cite:mafatih-al-ghayb-dar-al-hadith-2012-v15 p.1}
+
+## Método: las 'preguntas'
+Al-Razi comienza su discusión de un versículo con "sabes que aquí hay preguntas", luego las aborda una por una. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.2} Sobre el versículo de al-Baqara acerca de [[person/adam|Adán]] siendo establecido en el Jardín hay al menos siete: si el mandato de morar es una obligación o un permiso, que resuelve como que contiene ambos; cuándo fue creada la esposa de Adán, donde da dos informes contradictorios y termina "Dios sabe mejor la verdad"; que la esposa es Eva; dónde estaba el Jardín; los significados de las palabras, citando al autor de [[work/al-kashshaf|al-Kashshaf]]; por qué el verbo está unido con 'y' aquí y con 'así que' en Surat al-A'raf; y qué tipo de prohibición era el árbol. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.2} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.3} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.4} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.5} Sobre la ubicación del Jardín expone cuatro puntos de vista con sus argumentos; véase [[question/where-was-the-garden-of-adam|¿Dónde estaba el Jardín en el que Adán se estableció?]]. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.3} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.4}
+
+## Argumento racional
+El libro a menudo argumenta en términos teológicos. En el comentario a la Sura al-Waqi'a, la negación de que Dios tenga semejante se argumenta así: si tuviera semejante, compartiría algo con Él y diferiría en algo, por lo que sería compuesto y contingente, no necesariamente existente; afirmar la existencia de un compañero, por lo tanto, conduce a negar a Dios. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j29 p.156} {cite:mafatih-al-ghayb-dar-al-hadith-2012-v15 p.159}
+
+## ¿Lo terminó al-Razi?
+En ese mismo lugar del comentario sobre al-Waqi'a, el autor dice que después de escribir esto encontró algo parecido "en las palabras del Imam Fakhr al-Din al-Razi", cuyo pensamiento coincidía con el suyo, y reconoce haber obtenido innumerables beneficios de él. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j29 p.156} {cite:mafatih-al-ghayb-dar-al-hadith-2012-v15 p.159} Los editores de la impresión de Dar al-Fikr señalan que esto sugiere que el pasaje es de un autor distinto de al-Razi: ya sea uno de sus estudiantes que lo completó después de su muerte, o un erudito posterior que llenó un vacío en el original; la impresión de Dar al-Hadith reproduce la misma nota. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j29 p.156} {cite:mafatih-al-ghayb-dar-al-hadith-2012-v15 p.159} Las páginas leídas no nombran a quien lo completó.
+
+## Ediciones utilizadas
+- Dar al-Fikr, Beirut, 1.ª ed. 1401 H / 1981, con un índice de los versículos legales; se leyeron las partes 3 y 29. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.1} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j29 p.2}
+- Dar al-Hadith, El Cairo, en dieciséis volúmenes, ed. Sayyid Imran, 1433 H / 2012; se leyó el volumen 15. {cite:mafatih-al-ghayb-dar-al-hadith-2012-v15 p.4}
+
+## El método de las 'preguntas': la historia de Adán
+Al-Razi divide la discusión de un solo versículo en 'preguntas' numeradas, examinando en cada una las opiniones y sus argumentos antes de elegir: en el versículo de la morada de Adán en el Jardín pregunta si prohibir el árbol fue una prohibición o un desaliento, da los argumentos de ambas partes y dice que la opinión que mejor preserva la protección de los profetas es la más aceptable. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.5} Enumera las opiniones sobre qué era el árbol, desde Ibn Abbas como transmitidas por Mujahid y Sa'id ibn Jubayr y como transmitidas por al-Suddi. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.6} En el siguiente versículo su primera pregunta es la protección de los profetas: clasifica el desacuerdo en cuatro áreas, informa las opiniones con quienes las sostenían y elige que no se produce ningún pecado durante la profecía, con dieciséis argumentos; ver [[question/can-prophets-commit-minor-sins|¿Pueden los profetas cometer pecados menores?]]. {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.7} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.8} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.9} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.10} {cite:mafatih-al-ghayb-dar-al-fikr-1401-j3 p.11}

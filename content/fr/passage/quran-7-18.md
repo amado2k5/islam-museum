@@ -1,0 +1,22 @@
+---
+id: passage/quran-7-18
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-7-18.md}
+---
+## Résumé
+Verset 18 de [[passage/quran-7|la sourate al-A'raf]], une sourate mecquoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 18 sur 206 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+Ensuite, concernant le passage « Il dit : sors de là, déshonoré et chassé », il explique : ceci est un récit divin de la vengeance et de la malédiction infligées au pervers, de Son châtiment et de Son expulsion du Paradis pour avoir désobéi, transgressé Son commandement et répondu par une réplique inappropriée. Dieu lui dit alors : « Sors de là », c'est-à-dire du Paradis, « déshonoré et chassé », signifiant « fautif ». « Dha'm » signifie faute ; on dit alors « il l'a fautif, le faut, une faute, il est fautif », et l'on omet la hamza et l'on dit « je l'ai blâmé, je le blâme, je le blâme ». « Dha'm » et « dhaym » expriment un blâme plus fort que « dhamm », et quelqu'un a cité à ce sujet un verset d'al-Harith ibn Khalid al-Makhzumi. {cite:tafsir-tabari-shakir-v12 p. 342}
+
+La plupart des narrateurs récitent le verset d'al-Harith par « Je la blâme » au lieu de « Je la censure », et la note renvoie à sa version antérieure. Quant à « madhur », il signifie chassé au loin ; on dit « dahara-hu, yadharuhu, duhur » lorsqu'il l'a chassé au loin et expulsé, d'où le proverbe « chasse le diable loin de toi » ; la note renvoie au Majaz al-Qur'an d'Abu Ubayda. Les commentateurs ont tenu des propos similaires : il cite (14384) de Qatada, selon lequel cela signifie être maudit et banni ; (14385) d'Ibn Abbas, selon lequel « déshonoré » signifie détesté ; (14386) de lui, selon lequel cela signifie petit, banni ; (14387) d'al-Suddi, selon lequel « déshonoré » signifie banni et « chassé » signifie expulsé ; et (14388) de Mujahid, de même. {cite:tafsir-tabari-shakir-v12 p. 343}
+
+et (14389) d'al-Rabi' que « déshonoré » signifie banni et « chassé » signifie dénigré ; (14390) d'Ibn Abbas que cela signifie banni ; et (14391) qu'al-Tamimi a interrogé Ibn Abbas au sujet de « déshonoré et chassé » et qu'il a répondu haï, et la note indique qu'elle n'a trouvé aucune biographie pour Uthman ibn Yahya al-Qarqasani et discute de ce qui se trouve dans le Tarikh d'al-Tabari ; et (14392) d'Ibn Zayd qu'il a dit que nous ne connaissons aucune différence entre « madh'um » et « madhmum », mais que les lettres peuvent être réduites, car le poète a dit « O Amir » à Amir et « O Har » à Harith, et le Coran a été révélé dans la langue des Arabes ; La note donne deux lignes comme preuve de ce raccourcissement des noms, l'une sur « Amir » et l'autre par Zuhayr sur « al-Harith », et corrige le libellé du texte imprimé et du manuscrit. {cite:tafsir-tabari-shakir-v12 p. 344}
+
+Puis, concernant le verset « Quant à ceux qui vous suivent, je remplirai l'Enfer de vous tous », il dit : ceci est un serment de Dieu, qui a juré que quiconque parmi les enfants d'Adam suit l'ennemi de Dieu, Iblis, lui obéit et confirme la justesse de son opinion à son sujet, Il le remplira de tous, c'est-à-dire des mécréants parmi les enfants d'Adam qui ont suivi Iblis, ainsi que d'Iblis et de sa descendance, l'Enfer. Que Dieu ait pitié de celui qui a prouvé que l'opinion de l'ennemi de Dieu à son sujet était fausse, qui a déçu son espoir et son désir à son égard, qui n'a pas permis ce que son ennemi convoitait de lui, qui l'a considéré comme un trompeur et qui ne l'a pas pris pour conseiller ; Car Dieu a alerté ses serviteurs, par ces versets, de l’ancienne inimitié de son ennemi et du leur, Iblis, envers eux, de l’envie qu’il nourrissait autrefois envers leur père et de son agression contre lui et contre eux, et leur a fait connaître les bénédictions qu’il leur avait accordées jadis, en eux-mêmes et en leur père, afin qu’ils méditent sur ses versets et que les gens doués d’intelligence se souviennent, cessent d’obéir à son ennemi et au leur et se tournent vers lui. {cite:tafsir-tabari-shakir-v12 p. 345}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

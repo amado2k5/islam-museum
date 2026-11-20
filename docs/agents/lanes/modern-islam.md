@@ -37,7 +37,7 @@ Browser first, on the founder's Mac, in Google Chrome with its sign-ins, one act
 
 ## Rules restated
 
-Arabic first and all three languages in the same commit; one defined source is enough for a fact and nothing enters without one; faith only on two independent sources naming the school; `made.by_muslims` only with basis; no lyrics, no article text, no embeds; dated platform figures in `reach`, never in prose as facts; describe, attribute, label, no verdict; ≤ 25 entities per PR; explicit paths; trailers; three-way merge; coverage regenerated; canary entry; never deploy.
+Arabic first and all five languages in the same commit; one defined source is enough for a fact and nothing enters without one; faith only on two independent sources naming the school; `made.by_muslims` only with basis; no lyrics, no article text, no embeds; dated platform figures in `reach`, never in prose as facts; describe, attribute, label, no verdict; ≤ 25 entities per PR; explicit paths; trailers; three-way merge; coverage regenerated; canary entry; never deploy.
 
 ## Progress and handoff
 

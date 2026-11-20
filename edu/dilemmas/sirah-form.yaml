@@ -4,6 +4,7 @@ decision:
   ar: السيرة تواريخ أم دروس؟
   en: The sirah as chronicle or lessons?
   ur: 'سیرت: تواریخ یا اسباق؟'
+  fr: "La vie du Prophète : une chronique ou des leçons ?"
 context:
   ar: 'كاتب يريد أن يدوّن السيرة للأجيال القادمة. شكلان: كتاب تواريخ يتبع الحوادث بالسنين والأيام والأسماء كما وقعت، أم كتاب دروس يرتّب المواقف والأخلاق فيتعلم منها
     القارئ حياته؟ القرار: الدقة أم القدوة؟'
@@ -11,19 +12,23 @@ context:
     book arranging the stands and virtues so the reader learns his own life? The decision: accuracy or example?'
   ur: 'ایک مصنف آنے والی نسلوں کے لیے سیرت لکھنا چاہتا ہے۔ دو شکلیں: تواریخ کی کتاب جو واقعات کو برسوں، دنوں اور ناموں سے جس طرح ہوئے بیان کرے یا اسباق کی کتاب جو
     موقفوں اور اخلاق کو مرتب کرے تاکہ قاری اپنی زندگی سیکھے؟ فیصلہ: درستگی یا نمونہ؟'
+  fr: "Un auteur veut transmettre la vie du prophète Muhammad aux générations futures. Il peut écrire une chronique qui suit les événements, avec leurs dates et leurs acteurs, ou regrouper les récits par attitudes et qualités pour que le lecteur en tire des leçons pour sa propre vie. Que mettre au premier plan : la précision des faits ou la valeur de l’exemple ?"
 positions:
 - holder:
     ar: أهل التواريخ
     en: the chroniclers
     ur: تواریخ کے حامی
+    fr: "Les chroniqueurs"
   stance:
     ar: الحدث كما وقع لا كما يريده الخيال؛ التاريخ أمانة
     en: the event as it happened, not as fancy wishes; history is a trust
     ur: واقعہ جیسا ہوا، خیال نہیں؛ تاریخ امانت ہے
+    fr: "Raconter ce qui s’est passé, et non ce qu’on aimerait imaginer. Transmettre l’histoire est une responsabilité."
   evidence:
     ar: رتّبوا الأخبار بالسنين حتى عرف الناس ما جرى ومتى
     en: they arranged the reports by years so people knew what befell and when
     ur: انھوں نے خبریں برسوں سے مرتب کیں تاکہ لوگ جانیں کیا اور کب ہھوا
+    fr: "Ils ont classé les récits par année pour qu’on sache ce qui s’est passé et quand."
   sources:
   - exhibit/pathway-g11-hrt3m-life-of-the-prophet
   - place/mecca
@@ -31,17 +36,27 @@ positions:
     ar: أهل الدروس
     en: the lesson writers
     ur: اسباق کے حامی
+    fr: "Les auteurs de recueils de leçons"
   stance:
     ar: السيرة تُقرأ لتعيش لا لتُحفظ؛ الدروس طريق العمل
     en: the sirah is read to be lived, not memorised; lessons are the road of action
     ur: سیرت یاد کرنے نہیں جینے کے لیے پڑھی جاتی ہے؛ اسباق عمل کا راستہ ہیں
+    fr: "On lit cette biographie pour s’en inspirer dans sa vie, pas pour la mémoriser. Les leçons aident à agir."
   evidence:
     ar: جمعوا المواقف بالأخلاق حتى صارت قدوة تُتّبع
     en: they gathered the stands by virtue until they became a followed example
     ur: انھوں نے موقفوں کو اخلاق سے جمع کیا تو وہ پیروی کا نمونہ بنے
+    fr: "Ils ont regroupé les récits par qualités pour offrir des exemples à suivre."
   sources:
   - exhibit/pathway-g11-hrt3m-life-of-the-prophet
 reflection:
   ar: أيّ الشكلين كنت ستكتبه لو دُوّنت السيرة بيدك؟ اكتب سببك.
   en: Which shape would you have written had the sirah been penned by you? Write your reason.
   ur: اگر سیرت آپ کے قلم سے لکھی جاتی تو آپ کون سی شکل لکھتے؟ وجہ لکھیں۔
+  fr: "Si tu avais écrit la vie du Prophète, quelle forme lui aurais-tu donnée ? Explique pourquoi."
+provenance:
+  fr:
+    generated_by: "Devin"
+    model: "unknown"
+    run: "devin-a7ba389df57d4bdb9b7515fa59f40242"
+    source: "Existing English text in this activity, with Arabic consulted for religious material."

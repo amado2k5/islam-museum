@@ -1,12 +1,13 @@
 id: event/battle-of-ullays
 class: event
 kind: battle
-label: { ar: "وقعة ألّيس — نهر الدم", en: "Battle of Ullays (12 AH)" }
+label: { ar: "وقعة ألّيس — نهر الدم", en: "Battle of Ullays (12 AH)", fr: "La bataille d'Ullays (12 H)" }
 date:
   start: { edtf: "0633", hijri: "0012-02", calendar: julian, precision: month, status: tradition, derived: true, note: "صفر سنة 12؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 238}." }
 summary:
   ar: "وقعة ألّيس على الفرات: غضب نصارى بكر بن وائل لمصاب إخوانهم يوم الولجة فكاتبوا الفرس واجتمعوا على ألّيس وعليهم عبد الأسود العجلي، وأرسل بهمن جاذويه جابان إليهم. عصى الأعاجم جابان فبسطوا الطعام ليُظهروا أنهم لا يحفلون بالمسلمين فانتهى إليهم خالد وقد وُضع الطعام فبارز مالكًا بن قيس فقتله، وقاتلوهم حتى هزموهم، وأقسم خالد ليُجرينّ دماءهم فاستمر يضرب أعناقهم يومًا وليلة حتى قال له القعقاع وغيره: لو قتلت أهل الأرض لم تجر دماؤهم فأرسل عليهم الماء تبرّ يمينك، ففعل وسُمّي نهر الدم، ووقف على الطعام فقال قد نفّلتكموه، وبلغ عدد القتلى سبعين ألفًا. ثم سار إلى أمغيشيا فأصاب فيها ما لم يصب مثله وأرسل بذلك إلى أبي بكر فقال عجزت النساء أن يلدن مثل خالد {cite:kamil-ibn-al-athir p. 237-238}."
   en: "The battle of Ullays on the Euphrates: Christian tribesmen of Bakr ibn Wa'il, avenging Walaja, joined Jaban's Persian army; when they spread their meal to show contempt Khalid fell upon them before they could eat, killed Malik ibn Qays in a duel, then vowed to make their blood flow — a day and a night of executions until al-Qa'qa' told him to release the river's water over the field to fulfill the oath, and it was named the River of Blood. The dead were reckoned at seventy thousand; at Amghishiya next he took more plunder than anywhere before, and Abu Bakr said: 'Women are powerless to bear the like of Khalid' {cite:kamil-ibn-al-athir p. 237-238}."
+  fr: "La bataille d'Ullays, sur l'Euphrate : des membres chrétiens des tribus des Bakr ibn Wa'il, voulant venger al-Walaja, rejoignirent l'armée persane de Jaban ; quand ils étalèrent leur repas pour montrer leur mépris, Khalid fondit sur eux avant qu'ils puissent manger, tua Malik ibn Qays en duel, puis fit le vœu de faire couler leur sang : un jour et une nuit d'exécutions, jusqu'à ce qu'al-Qa'qa' lui dise de lâcher l'eau du fleuve sur le terrain pour accomplir le serment, et on l'appela le Fleuve de Sang. On estima les morts à soixante-dix mille ; à Amghishiya ensuite, il prit plus de butin que nulle part auparavant, et Abu Bakr dit : « Les femmes sont impuissantes à enfanter un homme comme Khalid » {cite:kamil-ibn-al-athir p. 237-238}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/al-hira, sources: [source/kamil-ibn-al-athir] }

@@ -1,0 +1,22 @@
+---
+id: concept/tasbi-al-qiraat-ibn-mujahid
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/tasbi-al-qiraat-ibn-mujahid.md}
+---
+## Résumé
+L'étape des « sept » est [[person/ibn-mujahid|Abu Bakr Ahmad ibn Musa ibn al-Abbas ibn Mujahid]], qui limite son livre aux lectures de sept imams, un ou deux par ville, après quoi le nombre sept devint courant. Cette limitation eut lieu au début du IVe siècle ; son auteur, celui de Bagdad, mourut en 324 H, contemporain de plusieurs autres compilateurs. {cite:nashr-dahman-damascus-1345-v1 p. 44}
+
+## Avant Ibn Mujahid
+Ibn al-Jazari énumère ceux qui l'ont précédé dans la collecte des lectures : Abu Ubayd al-Qasim ibn Sallam (m. 224 H), qui, selon le calcul d'Ibn al-Jazari, rassembla vingt-cinq lecteurs avec les sept ; Ahmad ibn Jubayr al-Kufi (m. 258 H), qui rassembla les lectures de cinq, une pour chaque ville ; al-Qadi Ismail ibn Ishaq al-Maliki (m. 282 H), vingt imams ; Abu Jafar al-Tabari (m. 310 H), plus de vingt lectures ; et al-Dajuni, qui ajouta Abu Jafar ; puis vint Ibn Mujahid, le premier à se limiter aux sept. {cite:nashr-dahman-damascus-1345-v1 p. 43} {cite:nashr-dahman-damascus-1345-v1 p. 44}
+
+## L'objection
+Ibn al-Jazari cite al-Mahdawi selon lequel le choix des sept par les villes était pour la plupart une abrégation et une sélection que les hommes ultérieurs ont favorisée, que le peuple ordinaire a alors fait devenir un devoir contraignant, si bien qu'en entendant quoi que ce soit d'autre, ils l'appelaient erreur ou incrédulité. Il dit que celui qui les a faits sept a fait ce qu'il n'aurait pas dû : a embrouillé le peuple ordinaire, et aurait mieux fait en limitant le nombre de sept ou de le dépasser pour dissiper la confusion. {cite:nashr-dahman-damascus-1345-v1 p. 46} Al-Suyuti cite Abu Shama selon lequel l'idée que les sept lectures aujourd'hui sont celles visées dans le hadith va à l'encontre du consensus de tous les saveurs, et Ibn al-Arabi que ces sept ne sont pas les seules autorisées, comme c'est le cas pour les lectures d'Abu Jafar, Shayba et al-A'mash. {cite:itqan-suyuti p. 525}
+
+## Makki et Abu Hayyan sur les raisons de limiter
+Al-Suyuti cite Abu Hayyan en disant que le livre d'Ibn Moudjahid, et ceux qui lui ont suivi, ne contiennent qu'une petite partie des lectures bien connues : Abu Amr ibn al-Ala' avait dix-sept transmetteurs connus, et le livre se limite à al-Yazidi, qui en avait à son tour dix, alors pourquoi se limiter à al-Susi et al-Duri ? {cite:itqan-suyuti p. 526} Il cite Makki selon laquelle, vers l'an deux cents personnes à Bassorah ont suivi la lecture d'Abu Amr et Yaqub, à Kufa Hamza et Asim, en Syrie Ibn Amir, à La Mecque Ibn Kathir et à Medina Nafi' ; à l'époque trois cents, Ibn Mujahid a mis al-Kisa'i et a abandonné Yaqub. Makki pense que la raison était que les émetteurs étaient nombreux et qu'ils se sont donc limités, de ce qui correspond à l'écriture du codex, à ce qui est facile à mémoriser, et que les codex envoyés par Uthman étaient cinq au total, et que quelqu'un qui ne connaissait pas la source de l'affaire a pris les sept ahruf comme les sept lectures. {cite:itqan-suyuti p. 526} {cite:itqan-suyuti p. 527}
+
+## La réponse d'Ibn Taymiyya
+Ibn al-Jazari cite la réponse d'Ibn Taymiyya : il n'y a aucun débat parmi les érudits respectables sur le fait que les sept ahruf ne sont pas les lectures des sept lecteurs célèbres ; au contraire, le premier à les rassembler fut Ibn Mujahid, afin de correspondre au nombre d'ahruf dans lesquels le Coran a été révélé, non pas de sa conviction ni de celle de quiconque que les sept lectures sont les sept ahruf, ni que ces hommes nommés soient les seuls que l'on puisse lire après. Il transmet aussi la phrase d'un lecteur principal : si Ibn Mujahid n'était pas arrivé à Hamza avant moi, j'aurais mis Yaqub al-Hadrami à sa place. {cite:nashr-dahman-damascus-1345-v1 p. 49} Voir [[question/are-the-seven-readings-the-seven-ahruf|Les sept lectures sont-elles les sept ahruf]]? et [[concept/al-qiraat-al-ashr|les dix lectures]].

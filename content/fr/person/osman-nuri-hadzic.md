@@ -1,0 +1,12 @@
+---
+id: person/osman-nuri-hadzic
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/osman-nuri-hadzic.md}
+---
+## Résumé
+
+Osman Nuri Hadžić (28 juin 1869 – 23 décembre 1937) était un écrivain et intellectuel bosniaque originaire de Mostar, formé dans les mekteb, ruždija et madrasa de sa ville natale, puis à l'École des juges de la charia de Sarajevo, avec des études de droit à Vienne et un diplôme de Zagreb. {cite:wikipedia-osman-nuri-hadzic-bs} {cite:wikipedia-osman-nuri-hadzic-en} Ses premières nouvelles, écrites avec son ami Ivan Miličević sous le pseudonyme conjoint Aziz Osman, parurent dans des revues littéraires alors qu'il était encore jeune ; avec Miličević, il écrivit également le roman Bez svrhe (Sans but, 1897), une critique de l'éducation des madrasas. {cite:wikipedia-osman-nuri-hadzic-bs} {cite:wikipedia-osman-nuri-hadzic-en} Il a servi au tribunal de district de Sarajevo et au gouvernement provincial, puis est devenu professeur puis directeur de l'École des juges de la charia. {cite:wikipedia-osman-nuri-hadzic-en}
+
+Alors qu'il était encore étudiant, il avait publié Islam i kultura (Islam et culture, 1894), une réponse à un pamphlet anti-musulman soutenant que les musulmans avaient contribué à la culture et au savoir humains à travers les siècles et que l'éducation était un devoir religieux pour les musulmans des deux sexes ; il a développé cet argument vers la fin de sa vie en Mohammed i Coran (Mohammed et le Coran, 1931), considéré comme l'un des ouvrages en langue bosnienne les plus complets sur la culture et l'histoire de l'islam. {cite:wikipedia-osman-nuri-hadzic-en} Le 1er mai 1900, il co-lança la revue Behar avec Safvet-beg Bašagić et Edhem Mulabdić, démissionnant six ans plus tard, et il revint à l'imprimerie en 1925 avec une série Gajret sur la question de la femme dans l'islam. {cite:wikipedia-osman-nuri-hadzic-en} {cite:wikipedia-osman-nuri-hadzic-bs} Il mourut à Belgrade le 23 décembre 1937, membre du Conseil d'État du Royaume de Yougoslavie ; une section de l'article anglais indique le 22 décembre. {cite:wikipedia-osman-nuri-hadzic-bs} {cite:wikidata-osman-nuri-hadzic} {cite:wikipedia-osman-nuri-hadzic-en}

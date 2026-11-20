@@ -1,0 +1,33 @@
+---
+id: concept/yamin-fiqh
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: draft
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/yamin-fiqh.md}
+---
+## Résumé
+
+Yamin dans le lexique désigne le côté et le membre, l'opposé de yasar, le gauche ; al-Zamakhshari cite « J'ai pris son yamin et son yumna », et la main droite s'appelle al-yumna. Yamin nomme également le serment, ainsi nommé parce que les hommes pressaient leur main droite lorsqu'ils prêtaient allégement d'alliance, et celui qui prêtait serment peut lui-même être appelé yamin. Le mot est féminin dans tous les sens, et ses pluriels sont ay mun, ayman, ayamin et ayamin ; l'usage par les juristes ne s'écarte pas du sens lexical. Ce qui est traité ici, c'est la main droite et le côté droit ; le serment était détaillé sous le mot-tête ayman. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18005}
+
+Le terme apparenté est yasar, qui signifie lexiquement le côté, la main gauche, la facilité et la richesse ; les juristes l'utilisent dans le même sens, et le lien est que yamin est l'opposé de yasar en tant que membre et côté. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18006}
+
+Pour le droit, comme membre, il est recommandé de placer la droite avant la gauche dans les honneurs, comme l'ablution et le lavage, et la gauche avant la droite dans toute mesure impliquant du mal ou de la humilité, comme se moucher le nez et nettoyer après la latrine. La base est le rapport d'Aïcha selon lequel la main droite du Prophète était pour sa pureté et sa nourriture, la gauche pour la latrine et ce qui était blessant, et le rapport de Hafsa selon lequel il utilisait sa droite pour manger, boire et s'habiller, et sa gauche pour tout le reste. Al-Mawwaq fixa la règle : là où les deux membres sont utilisés, le droit passe en premier dans l'acte le plus lourd et le gauche dans le moindre, sauf si cela est dur, comme pour monter. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18006}
+
+Celui qui quitte un endroit pour se soulager doit mettre son pied droit en avant, et celui qui y entre le pied gauche ; il en va de même pour tout endroit impur, un bain, une salle de lavage ou un tas d'ordures, pied gauche à l'intérieur et pied droit à l'extérieur. Le nettoyage avec la main droite n'est pas apprécié à moins qu'une excuse n'empêche la main gauche. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18006} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18007}
+
+En ablution, on commence avec la main droite avant la gauche et le pied droit avant le gauche ; rincer la bouche et renifler l'eau se fait avec la droite et se moucher le nez avec la gauche ; et dans le tayammu, la main droite précède la gauche en essuyant la gauche sur la droite, puis la droite sur la gauche. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18007}
+
+La plupart des juristes, les hanafis, les shafiis et les hanbalis, et les Malikis dans un même récit, considèrent comme sunna de poser la main droite sur la main gauche en prière ; les Malikis, selon l'école, tiennent mieux les bras pendus le long de chaque groupe. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18007}
+
+La plupart des juristes, les hanafites, les shhafiis et les hanbalis, considèrent que mettre le pied droit en premier est la sunna lorsqu'on entre dans une mosquée ; les Malikis considèrent cela comme recommandé. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18007} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18008}
+
+Manger avec la main droite est la sunna selon le rapport d'Umar ibn Abi Salama, selon lequel sa main continua à errer dans le plat jusqu'à ce que le Prophète lui ordonne de nommer Dieu, de manger avec sa main droite et de manger ce qui était le plus proche ; les Shafi'is et les Hanbali affirment que manger et boire avec la gauche sans nécessité est détesté. Au moment du sommeil, il est sunna de placer la main droite sous la joue droite, selon le rapport d'al-Bara ibn Azib. Les juristes recommandent également de commencer à tailler les ongles avec la main droite puis la gauche, puis le pied droit, puis le gauche. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18008}
+
+Dans les punitions fixes et les représailles, les juristes s'accordent à dire que la main droite est coupée lors d'un premier vol, et que la représaille sous l'âme nécessite des membres identiques, donc la droite n'est pas coupée pour le gauche, ni le gauche pour le droit, ni l'œil droit pour le gauche. La plupart des juristes considèrent comme sunna d'appeler l'adhan dans l'oreille droite d'un nouveau-né et l'iqama dans l'oreille gauche, tandis que Malik n'aimait pas appeler l'adhan dans l'oreille du nouveau-né. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18008} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18009}
+
+Pour la droite, en tant que côté, il est sunna de commencer le piquon de dent sur le côté droit de la bouche, car Aïcha rapporta que le Prophète aimait le tayammun en enfilant ses sandales, en se peignant les cheveux, sa purification et toutes ses affaires, et le baigneur commence à verser de l'eau sur son côté droit à la suite de son rapport selon lequel le Prophète commença à se laver de l'impureté majeure avec le côté droit de sa tête puis le côté gauche. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18009}
+
+La plupart des juristes estiment que l'appelant à la prière tourne le visage à droite et à gauche aux deux mots d'invitation tandis que ses pieds restent en place, à droite à « venir à la prière » et à gauche à « réussir » ; les hanafis ajoutent que lorsque le minaret est large, il est bon de s'y tourner, en mettant sa tête hors de l'ouverture droite pour le premier appel et la gauche pour le second, sauf s'il a déjà donné préavis la tête, et les Malikis, sur la vue sur laquelle on compte bien, le laissent faire le tour du minaret et appeler comme il le souhaite. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18009} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18010}
+
+Il est sunna de commencer à laver les morts de leur côté droit, sur le rapport d'um Atiyya selon lequel le Prophète a dit aux femmes qui lavaient sa fille de commencer par son côté droit. Les juristes considèrent comme devoir du tawaf que le marcheur garde la maison à sa gauche. Tayammon, en raser la tête, signifie présenter d'abord le côté droit, bien qu'ils diffèrent sur le fait que le côté droit du raser ou celui du raser compte. Et il est sunna de passer le récipient à droite puis à droite après le premier buveur, lorsque d'autres sont assis avec lui. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18010}

@@ -1,0 +1,24 @@
+---
+id: passage/quran-9-123
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-9-123.md}
+---
+## Résumé
+Verset 123 de [[passage/quran-9|la sourate at-Tawba]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 123 sur 129 de la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Commentaire sur le verset 123 (pp. 574-576)**
+
+Al-Tabari dit aux croyants : « Vous qui croyez en Dieu et en Son Messager, combattez les mécréants proches de vous, non ceux qui sont éloignés. Commencez par les plus proches géographiquement, puis les suivants, et non pas d'abord les plus éloignés. » Les personnes auxquelles il était question à cette époque étaient les Byzantins, car ils vivaient en Syrie, et la Syrie était plus proche de Médine que l'Irak. Mais après que Dieu eut ouvert les terres aux croyants, le devoir des habitants de chaque région est de combattre leurs ennemis proches plutôt que les lointains, à moins que les habitants d'une autre région des terres musulmanes n'aient besoin d'eux. Dans ce cas, ils doivent les aider et les soutenir, car les musulmans sont unis contre tous. C'est pourquoi tous ceux qui ont interprété ce verset l'ont compris comme obligeant les habitants de chaque région à combattre les ennemis proches. L'éditeur renvoie aux index linguistiques pour *wali*. {cite:tafsir-tabari-shakir-v14 p. 574}
+
+Le récit 17481, rapporté par Ibn Umar, transmis par son père Ibn Waki', Sufyan et Shubayb ibn Gharqada, rapporte qu'un homme des Banu Tamim l'interrogea sur la manière de combattre les Daylam, et qu'il répondit : « Affrontez les Byzantins. » Le récit 17482, rapporté par al-Hasan, transmis par Ibn Bashshar, Ahmad ibn Ishaq, Ibn Waki', Abu Ahmad, Sufyan et Yunus, rapporte qu'« affronter les mécréants qui vous sont proches », dit-il, « ce sont les Daylam. » Le récit 17483, rapporté par al-Hasan, transmis par son père Ibn Waki' et al-Rabi', rapporte qu'interrogé sur la manière de combattre les Byzantins et les Daylam, il récita ce verset. Le récit 17484, rapporté par Imran, frère de Ya'qub, rapporte qu'il interrogea Ja'far ibn Muhammad ibn Ali ibn al-Husayn sur la manière de combattre les Daylam ; le récit se poursuit à la page suivante. L'éditeur corrige la chaîne, affirmant que Shubayb ibn Gharqada al-Sulami est un successeur digne de confiance et qu'un copiste ou un éditeur a ajouté « Urwa al-Bariqi » par erreur. {cite:tafsir-tabari-shakir-v14 p. 575}
+
+Suite du récit 17484 : Imran interrogea Ja'far au sujet du combat contre les Daylam, et celui-ci lui conseilla de les combattre et de se prémunir contre eux, car ils figuraient parmi ceux dont Dieu avait ordonné de combattre les mécréants proches de soi. L'éditeur note que Ya'qub ibn Abdullah al-Qummi rapporte ces propos de ses deux frères, Abd al-Rahman et Imran, et qu'il n'a trouvé aucune mention d'Imran. Le récit 17485, rapporté par al-Hasan, via al-Muthanna, Abu Nu'aym, Sufyan et al-Rabi', indique qu'interrogé au sujet de la Syrie et des Daylam, Ja'far répondit que « combattre les mécréants proches de soi » désignait les Daylam. Le récit 17486, rapporté par Abu Amr et Sa'id ibn Abd al-Aziz, via Ali ibn Sahl et al-Walid, précise que chaque peuple gardait les postes frontières et les forteresses les plus proches de lui, et c'est ainsi qu'ils ont interprété le verset. Le hadith 17487, rapporté par Ibn Zayd et transmis par Yunus et Ibn Wahb, indique que parmi les mécréants qui se trouvaient à proximité, il y avait des Arabes, et qu'il les combattit jusqu'à ce qu'il les ait vaincus. Puis, au verset 29, Dieu ordonna de combattre ceux qui ne croient ni en Dieu ni au Jour dernier, jusqu'à ce qu'ils soient humiliés. Il reçut donc l'ordre de lutter contre les Gens du Livre après avoir vaincu les Arabes voisins, et lutter contre eux est le meilleur combat aux yeux de Dieu. {cite:tafsir-tabari-shakir-v14 p. 576}
+
+« Qu’ils trouvent en toi de la fermeté » signifie : que ces incrédules que tu combats trouvent en toi une force de caractère à toute épreuve ; « sache que Dieu est avec ceux qui le craignent » signifie avoir la certitude, lorsque tu les combats, que Dieu est avec toi et te secourra contre eux, car si tu crains Dieu en accomplissant tes devoirs et en évitant la désobéissance, Dieu aide et soutient quiconque le craint. L’éditeur fait référence à la discussion précédente sur la fermeté. {cite:tafsir-tabari-shakir-v14 p. 576}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

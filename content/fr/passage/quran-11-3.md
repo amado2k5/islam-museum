@@ -1,0 +1,24 @@
+---
+id: passage/quran-11-3
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-11-3.md}
+---
+## Résumé
+Verset 3 de [[passage/quran-11|la sourate Hud]], une sourate mecquoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 3 sur 123 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Commentaire sur le verset 3 (pp. 229-232)**
+
+Sur le [[passage/quran-11-3|verset 11:3]], al-Tabari dit : « Ces versets ont été établis afin que vous n'adoriez que Dieu et que vous imploriez le pardon de votre Seigneur. Par "implorer le pardon de votre Seigneur", il entend : "accomplissez, ô gens, les œuvres qui plaisent à votre Seigneur, afin qu'Il couvre vos graves péchés commis en adorant des idoles et des images et en Lui associant d'autres divinités et des rivaux dans le culte." "Revenez ensuite à Lui en vous repentant" signifie : "Revenez ensuite à votre Seigneur en Lui vouant un culte pur et exclusif, après avoir rejeté vos rivaux et renoncé à les adorer." C'est pourquoi il est dit "revenez ensuite" et non "et revenez" : le repentir consiste à revenir à l'obéissance à Dieu, tandis que la demande de pardon concerne le polythéisme auquel ils persistaient. L'œuvre pour Dieu n'est pas véritablement une œuvre pour Lui tant que le polythéisme est présent, car l'œuvre du polythéisme n'est au service que de Satan. Les polythéistes pensaient obéir à Dieu par nombre de leurs actes tout en persistant dans leur polythéisme. » L'éditeur fait référence aux commentaires précédents sur « demander pardon » et « le repentir ». {cite:tafsir-tabari-shakir-v15 p. 229}
+
+Ses paroles « Il vous accordera une jouissance agréable pour un terme déterminé » s'adressent aux polythéistes dans ces versets : implorez le pardon de votre Seigneur et tournez-vous vers Lui, car si vous le faites, Il vous offrira le monde, vous en parera les beautés et reportera votre échéance jusqu'au moment où la mort vous sera infligée. Le hadith 17928, rapporté par Qatada, indique que vous êtes déjà dans cette jouissance ; obéissez donc à Dieu et reconnaissez Son droit, car Dieu est un Dispensateur de grâces qui aime les reconnaissants, et les reconnaissants reçoivent davantage. L'expression « terme déterminé » désigne la mort, et les hadiths 17929, 17930 et 17931, rapportés par Mujahid et Qatada, mentionnent également la mort. L'éditeur renvoie aux commentaires antérieurs sur la « jouissance » et le « terme déterminé ». {cite:tafsir-tabari-shakir-v15 p. 230}
+
+Quant à « et rends à chacun son mérite », cela signifie qu’Il récompense quiconque a fait preuve de mérite envers autrui par ses biens, sa force ou sa bonté, en le tenant compte auprès de Dieu et en recherchant Son agrément, par la plus grande récompense et Sa faveur dans l’au-delà. Les hadiths 17932, 17933, 17934 et 17935, rapportés par Mujahid, précisent que cela concerne ce qu’il a imputé à Dieu de ses biens, du travail de ses mains ou de ses pieds, d’une parole, ou de tout ce qu’il a offert volontairement. Le hadith 17936, rapporté par Qatada, indique que cela concerne l’au-delà. Le hadith 17937, rapporté par Ibn Mas’ud, précise que quiconque commet une injustice se voit inscrire une injustice, et quiconque accomplit une bonne action se voit inscrire dix bonnes actions. S’il est puni dans ce monde pour son injustice, il lui reste dix bonnes actions ; s’il n’est pas puni, l’une des dix est retirée et il lui en reste neuf. puis il dit : ruiné est celui dont les uns pèsent plus que ses dizaines. {cite:tafsir-tabari-shakir-v15 p. 231}
+
+Ses paroles « mais s’ils se détournent, je crains pour vous le châtiment d’un grand jour » signifient : s’ils se détournent de ce à quoi je les ai appelés, le culte pur de Dieu et l’abandon des autres dieux, s’ils refusent de demander pardon et de se repentir, et s’ils tournent le dos, alors je crains pour vous, peuple, le châtiment d’un jour grand par sa nature et terrible par son horreur, le jour où chaque âme sera rétribuée selon ses œuvres et où nul ne sera lésé. Le discours alterne entre l’adresse à l’absent et l’adresse initiale, car les Arabes, lorsqu’ils placent une parole avant le discours, s’adressent, puis reviennent sur l’absent, puis reviennent à l’adresse initiale, comme al-Tabari l’a montré ailleurs. {cite:tafsir-tabari-shakir-v15 p. 232}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

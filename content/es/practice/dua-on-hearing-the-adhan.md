@@ -1,0 +1,12 @@
+---
+id: practice/dua-on-hearing-the-adhan
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/practice/dua-on-hearing-the-adhan.md}
+---
+## Resumen
+Lo que dice el oyente del llamado a la oración y del iqama, y la súplica posterior al llamado, tal como al-Nawawi lo recoge en al-Adhkar: repitiendo las palabras del muezzin, de los dos Sahihs; la súplica por el wasila, del Sahih al-Bukhari; y esa súplica entre el llamado y el iqama no se rechaza. {cite:al-adhkar-nawawi-arnaut-1994 p. 36}
+
+## Lo que al-Nawawi reúne en al-Adhkar
+Al-Nawawi establece que el oyente dice lo que dice el muecin, excepto en las dos llamadas «حي على», donde dice «لا حول ولا قوة إلا بالله» {cite:al-adhkar-nawawi-arnaut-1994 p. 36}. De los dos Sahihs, de Abu Sa'id al-Khudri, da la instrucción de decir como dice el muecin; de Sahih Muslim, de Abd Allah ibn Amr ibn al-As, la instrucción de pedir bendición al [[person/muhammad|Profeta]] y pedir la wasila por él; y de Umar ibn al-Khattab la respuesta frase por frase {cite:al-adhkar-nawawi-arnaut-1994 p. 36} {cite:al-adhkar-nawawi-arnaut-1994 p. 37}. De Sahih Muslim, de Sa'd ibn Abi Waqqas: «أشهد أن لا إله إلا الله وحده لا شريك له، وأن محمدا عبده ورسوله، رضيت بالله ربا، وبمحمد رسولا، وبالإسلام دينا» {cite:al-adhkar-nawawi-arnaut-1994 p. 37}. De Sahih al-Bukhari, de Jabir: «اللهم رب هذه الدعوة التامة والصلاة القائمة، آت محمدا الوسيلة والفضيلة، وابعثه مقاما محمودا الذي وعدته», Señor de este llamado completo y de la oración que está por establecer la institución, concede a Muhammad la wasila y la excelencia, y elévalo a la posición alabada que le prometiste {cite:al-adhkar-nawawi-arnaut-1994 p. 37}. Dice que quien oye el llamado mientras reza no responde hasta que ha terminado, y del mismo modo alguien en el váter hasta que sale {cite:al-adhkar-nawawi-arnaut-1994 p. 38}. En el capítulo sobre la súplica tras el llamado, informa desde Anas, del Sunán, que la súplica entre el llamado y el iqama no es rechazada, citando la calificación de al-Tirmidhi sobre ella como buena y sólida; y de Sunan Abi Dawud, de Sahl ibn Sa'd, por una cadena llama sonido, que la súplica en el llamado y en la prensa de la batalla no se rechaza {cite:al-adhkar-nawawi-arnaut-1994 p. 38}.

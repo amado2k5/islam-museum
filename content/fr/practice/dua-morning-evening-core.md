@@ -1,0 +1,12 @@
+---
+id: practice/dua-morning-evening-core
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/practice/dua-morning-evening-core.md}
+---
+## Résumé
+La première partie de ce qu'al-Nawawi donne dans le chapitre porte sur ce qui est dit le matin et le soir, le chapitre le plus large du livre : le maître de la recherche du pardon, cent glorifications, trois courtes sourates et refuge dans les paroles parfaites de Dieu. {cite:al-adhkar-nawawi-arnaut-1994 p. 76}
+
+## Ce que rassemble al-Nawawi à al-Adhkar
+Al-Nawawi affirme que ce chapitre est le plus vaste du livre, qu'il en donne un certain nombre de rapports plus courts, et que quiconque ne peut pas tous les faire peut en prendre autant qu'il le souhaite, même un seul souvenir {cite:al-adhkar-nawawi-arnaut-1994 p. 76}. Dans Sahih al-Boukhari, de Shaddad ibn Aws, [[person/muhammad|le Prophète]] nommé « سيد الاستغفار », maître de la recherche du pardon, qui commence par « اللهم أنت ربي لا إله إلا أنت خلقتني وأنا عبدك » ; quiconque le dit le soir et meurt cette nuit-là entre dans le Paradis ou appartient à son peuple, et de même au matin {cite:al-adhkar-nawawi-arnaut-1994 p. 76}. En Sahih Muslim, d'Abu Hurayra : quiconque dit « سبحان الله وبحمده » cent fois le matin et le soir n'est mieux atteint le Jour de la Résurrection que par celui qui dit la même chose ou plus {cite:al-adhkar-nawawi-arnaut-1994 p. 76}. D'Abd Allah ibn Khubayb, par des chaînes sonores à Abu Dawud, al-Tirmidhi et al-Nasa'i, le Prophète lui ordonna de réciter la sourate de la sincérité et les deux sourates de refuge trois fois au soir et au matin ; al-Tirmidhi la qualifia de bonne et saine {cite:al-adhkar-nawawi-arnaut-1994 p. 77}. D'Abu Hurayra, « اللهم بك أصبحنا وبك أمسينا وبك نحيا وبك نموت وإليك النشور », que al-Tirmidhi appela bon {cite:al-adhkar-nawawi-arnaut-1994 p. 77}. En Sahih Muslim, à un homme piqué par un scorpion, le Prophète dit que s'il avait dit le soir « أعوذ بكلمات الله التامات من شر ما خلق », cela ne lui aurait pas fait de mal {cite:al-adhkar-nawawi-arnaut-1994 p. 78}. D'Uthman, dans Abu Dawud et al-Tirmidhi, « بسم الله الذي لا يضر مع اسمه شيء في الأرض ولا في السماء » trois fois ; al-Tirmidhi l'appela « bon et sain » {cite:al-adhkar-nawawi-arnaut-1994 p. 78}.

@@ -1,12 +1,13 @@
 id: event/battle-of-marj-al-rum
 class: event
 kind: battle
-label: { ar: "وقعة مرج الروم", en: "Battle of Marj al-Rum (15 AH)" }
+label: { ar: "وقعة مرج الروم", en: "Battle of Marj al-Rum (15 AH)", fr: "La bataille de Marj al-Rum (15 H)" }
 date:
   start: { edtf: "0636", hijri: "0015", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 15؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 321}." }
 summary:
   ar: "وقعة مرج الروم غرب دمشق: سار أبو عبيدة وخالد من فِحل قاصدين حمص فنزلا على ذي الكلاع، وبعث هرقل توذر البطريق حتى نزل بمرج الروم ونازل أبا عبيدة شنش الرومي إمدادًا له وردءًا لأهل حمص. سار توذر يطلب دمشق فسار خالد وراءه في جريدة، واستقبله يزيد بن أبي سفيان فاقتتلوا ولحق بهم خالد فأخذهم من خلفهم فلم يفلت إلا الشريد وقتل توذر وغنم المسلمون، وقاتل أبو عبيدة شنشًا بمرج الروم فقتلت الروم مقتلة عظيمة وقُتل شنش، وتبعهم المسلمون إلى حمص فسار هرقل إلى الرها {cite:kamil-ibn-al-athir p. 321}."
   en: "At Marj al-Rum west of Damascus, Heraclius sent the patrician Theodorus against the Muslims' march on Hims, backed by Shans's cavalry. When Theodorus broke off toward Damascus, Khalid shadowed him in a flying column; Yazid ibn Abi Sufyan met him head-on and Khalid took him from behind — none escaped but the scattered, Theodorus killed, the spoils shared between the two armies. Abu 'Ubayda then crushed Shans on the field and chased the remnant to Hims while Heraclius withdrew to Edessa {cite:kamil-ibn-al-athir p. 321}."
+  fr: "À Marj al-Rum, à l'ouest de Damas, Héraclius envoya le patrice Théodore contre la marche des musulmans sur Homs, appuyé par la cavalerie de Shans. Quand Théodore se détourna vers Damas, Khalid le suivit avec une colonne volante ; Yazid ibn Abi Sufyan l'affronta de face et Khalid le prit à revers : nul n'en réchappa, sauf les fuyards dispersés ; Théodore fut tué et le butin partagé entre les deux armées. Abu 'Ubayda écrasa ensuite Shans sur le champ de bataille et poursuivit le reste jusqu'à Homs, tandis qu'Héraclius se retirait à Édesse {cite:kamil-ibn-al-athir p. 321}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/damascus, sources: [source/kamil-ibn-al-athir] }

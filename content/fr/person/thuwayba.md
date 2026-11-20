@@ -1,0 +1,11 @@
+---
+id: person/thuwayba
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/thuwayba.md}
+---
+Thuwayba, affranchie d'Abu Lahab, la première à allaiter le Prophète après sa mère, avec le lait de son fils Masruh ; c'est la même qui avait allaité [[person/hamza|Hamza ibn Abd al-Muttalib avant lui]], et après lui avait allaité Abu Salama ibn Abd al-Asad al-Makhzumi — ils devinrent ainsi ses frères laitaires. {cite:mubarakpuri-raheeq}
+
+## Dans l'émission d'Abla al-Kahlawi « Dans l'amour d'al-Mustafa »
+[[person/abla-al-kahlawi|Abla al-Kahlawi]] appelle Thuwayba la « seconde mère » du Prophète en hommage à Amina dans son programme «[[work/fi-hub-al-mustapha|En amour d'al-Mustafa]] ». {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:07:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:09:00} Elle raconte qu'un oncle du Prophète a profondément souffert pour son frère Abd Allah, qui était mort sans voir son fils, et que lorsque sa femme affranchie Thuwayba lui apporta la nouvelle qu'Amina avait donné naissance à Muhammad, il se réjouit vivement et la libéra ; le grand-père Abd al-Muttalib se réjouisit lui aussi. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:07:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:07:30} Thuwayba, dit-elle, alla regarder le visage du bébé et s'attacha à lui ; ayant récemment accouché, elle le prit dans ses bras et le nourrit comme elle allaita son propre fils, obtenant l'honneur et la bénédiction de le nourrir, ne quittant jamais Amina ni Muhammad, et vécut comme une seconde mère qui l'aima pleinement. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:07:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:08:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:08:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:09:00} Le nom entendu dans l'enregistrement pour cet oncle ne concorde pas avec la source citée ci-dessus, ce qui fait de Thuwayba une affranchie d'Abu Lahab, donc le nom n'est pas écrit ici. {cite:mubarakpuri-raheeq}

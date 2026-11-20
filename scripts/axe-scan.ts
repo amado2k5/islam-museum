@@ -65,7 +65,7 @@ const run = async () => {
   const context = await browser.newContext();
   const page = await context.newPage();
   let failed = 0;
-  for (const lang of ["ar", "en", "ur"]) {
+  for (const lang of ["ar", "en", "ur", "fr", "es"]) {
     for (const r of ROUTES) {
       const path = `/${lang}/${r}`;
       await page.goto(`http://localhost:${PORT}${path}`, { waitUntil: "domcontentloaded" });

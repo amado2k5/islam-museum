@@ -14,7 +14,7 @@ const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const P = T.seerah;
 
-type L3 = Record<Lang, string>;
+type L3 = Record<"ar" | "en" | "ur", string> & { fr?: string; es?: string };
 interface Ref { t: L3; r: L3 }
 interface RoutineRow { t: L3; a: L3 }
 interface Ayah { sura: number; aya: number; label: L3 }
@@ -58,7 +58,7 @@ const STAGES: Record<string, L3> = {
   elder:   { ar: "كبير",   en: "Elder",   ur: "بزرگ" },
 };
 
-const S = (o: L3) => o[lang] ?? o.ar;
+const S = (o: L3) => o[lang] ?? o.en ?? o.ar;
 
 const ITEMS: Practice[] = [
   /* ---------- daily ---------- */

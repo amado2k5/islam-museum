@@ -1,0 +1,12 @@
+---
+id: person/mehmed-beg-kapetanovic-ljubusak
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/mehmed-beg-kapetanovic-ljubusak.md}
+---
+## Résumé
+
+Mehmed-beg Kapetanović Ljubušak (19 décembre 1839 – 29 juillet 1902) était un écrivain et fonctionnaire bosniaque originaire de Vitina, près de Ljubuški, qui écrivait sous le pseudonyme Muhibi. {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs} Scolarisé à la madrasa de Ljubuški et en turc, arabe et persan, il servit l'administration ottomane en tant que kaymakam dans plusieurs villes, s'installa à Sarajevo en 1878, et succéda en 1893 à Mustafa Fadilpašić comme deuxième maire de la ville. {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs} {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} Son mandat de maire a doté Sarajevo d'un éclairage public électrique et de l'un des premiers services de tramway électrique d'Europe le 1er mai 1895 ; un AVC en juillet 1898 déclencha le déclin qui força sa démission en avril 1899. {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs}
+
+En 1891, il fonda la revue Bošnjak, la plateforme de l'idée nationale bosniaque, dans laquelle il soutenait que les musulmans bosniques n'étaient ni Croates ni Serbes mais un peuple distinct. {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-hr} Parcourant le pays, il en rassembla le trésor populaire : Narodno blago (1887) rassembla environ 5 000 proverbes et proverbes, et Istočno blago (1896) ajouta des proverbes turcs, arabes et persans, ainsi que des traités demandant ce que pensent les musulmans de Bosnie (1886) et sur leur avenir (1893). {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs} {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} Il mourut à Grbavica à Sarajevo en 1902 — ce jour est indiqué comme le 29 juillet par les biographies anglaise et croate, comme le 28 juillet par le texte et Wikidata de la biographie bosniaque, et comme le 26 juillet par la biographie serbe — et son fils Riza-beg mourut le 24 décembre 1931. {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} {cite:wikidata-mehmed-beg-kapetanovic-ljubusak}

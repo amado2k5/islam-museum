@@ -1,0 +1,21 @@
+---
+id: group/ahl-i-haqq
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/group/ahl-i-haqq.md}
+---
+
+## Resumen
+Ahl-i Haqq, «Hombres de Dios», es una religión secreta que se encuentra principalmente en el oeste de Persia, en tierras kurdas y en Azerbaiyán. Sus creencias mezclan extremismo chií, práctica sufí e ideas más antiguas sobre encarnación y metempsicosis. Su doctrina se expone en el Firkan de Ni'mat Allah.
+
+## Relato de la Enciclopedia del Islam
+El nombre Ahl-i Haqq es bastante impreciso, ya que los hurufis y algunos grupos sufíes usan las mismas palabras, y la propia gente llama a su fe la «religión de la Verdad» (haqiqat). La secta también es conocida por sus vecinos como Ali Ilahi, un nombre que el artículo considera inapropiado porque 'Ali no es la figura dominante en su religión. No es una sola iglesia con unidad canónica; se asemeja más a una federación de movimientos asociados, con doce principales janadáns o silsilas, y el relato se basa principalmente en los documentos Atash-begi, complementados por el Firkan. {cite:encyclopaedia-of-islam-2 vol. 1 p. 284}
+
+Su dogma central es la creencia en las manifestaciones sucesivas de la Divinidad, siete en total. Cada vez Dios se viste con una prenda, apareciendo con un grupo de cuatro o cinco ángeles. En la pre-eternidad la Divinidad estaba encerrada en una perla. Su primera aparición fue en Khawandagar, el creador del mundo; la segunda fue en 'Ali. Las cuatro primeras épocas corresponden a las etapas del conocimiento: la shari'a, la tariqa, la haqiqa y la etapa más alta, representada por el sultán Sohak. Los ángeles son emanaciones unos de otros, y los seres a los que corresponden incluyen a Benyamin, Dawud, Musa y Razbar, un quinto ángel encargado de la supervisión del culto. Las almas humanas pasan por muchas encarnaciones, y la secta espera que venga un Señor del Tiempo para cumplir los deseos de los fieles. {cite:encyclopaedia-of-islam-2 vol. 1 p. 284}
+
+El Ahl-i Haqq otorga gran importancia a las asambleas colectivas (jam), celebradas a intervalos fijos y en eventos importantes, con kalams recitados con música. Las ceremonias de dhikr llevan a los darwishes al éxtasis, y las asambleas se centran en ofrendas y sacrificios, incluyendo la cocina y distribución de alimentos. Cada miembro es encomendado a un pir en una ceremonia de "sabz namudan", y se forma una unión de hermanos (shart-i ikrar) entre un hombre y una mujer para alcanzar la perfección moral. El ayuno dura tres días en invierno, excepto entre los Atash-begi, que no lo guardan. {cite:encyclopaedia-of-islam-2 vol. 1 p. 285}
+
+El Firkan fue escrito por Haji Ni'mat Allah de Diayhun-abad, cerca de Dinawar (1871–1920), de la división Khamushi. Después de 1324/1906 asumió el papel de mensajero del Señor del Tiempo. Su hijo Nur 'Ali Shah, nacido entre 1313/1895, escribió su biografía y una introducción bajo el título Kashf al-Haqa'iq. El Firkan consta de cuatro partes y reserva un lugar especial para Khawandagar y el sultán Sohak, aunque no menciona siete épocas. {cite:encyclopaedia-of-islam-2 vol. 1 p. 285}
+
+Los Ahl-i Haqq se encuentran principalmente en Luristán, los distritos kurdos (entre los Guran, al este de Zohab, con Kerend como ciudad), y en Azerbaiyán alrededor de Tabriz y Maku, con ramas en Transcaucasia. Hay pequeñas colonias en Hamadán, Teherán, Mazandaran, Fars y Jorasán, y entre las tribus kurdas y turcomanas de Kirkuk, Sulaymaniyya y quizás Mosul. Su religión es típicamente sincrética, con el extremismo chií como base, y comparte el culto a 'Ali con los drusos y los nusayris, aunque 'Ali queda eclipsado por el sultán Sohak. Viajeros europeos de principios del siglo XIX, como Rawlinson, fueron los primeros en aportar información fiable sobre la secta, y los estudios de Minorsky, incluyendo su manuscrito y sus visitas a los santuarios de Baba Yadegar y Perdiwar, establecieron las líneas principales del relato. {cite:encyclopaedia-of-islam-2 vol. 1 p. 285}

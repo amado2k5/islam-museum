@@ -1,0 +1,34 @@
+---
+id: passage/quran-4-162
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-4-162.md}
+---
+## Résumé
+Verset 162 de [[passage/quran-4|la sourate an-Nisa]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 162 sur 176 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Commentaire sur le verset 162 : les fermes dans la connaissance, les croyants et ceux qui persévèrent dans la prière (pp. 393-398)**
+
+Al-Tabari explique que ceci est une exception voulue par Dieu à l'égard des Juifs mentionnés dans les versets précédents, qui t'ont demandé de faire descendre un livre du ciel. Parmi eux, les « fermes dans la science » sont ceux qui sont solidement enracinés dans la connaissance des commandements de Dieu transmis par Ses prophètes, qui les maîtrisent et en connaissent la vérité. Les croyants en Dieu et en Ses messagers croient au Coran qui t'a été révélé, ô Muhammad, et aux livres révélés avant toi ; et ils ne te demandent pas de signe, car, par la lecture des Livres de Dieu et par les récits de leurs prophètes, ils savent que tu es le messager de Dieu. {cite:tafsir-tabari-shakir-v09 p. 393}
+
+Le hadith 10836, rapporté par Qatada, indique que Dieu a excepté un groupe de Gens du Livre, dont certains croyaient en Dieu et en ce qui leur avait été révélé, ainsi qu'à Son prophète, et affirmaient et savaient que c'était la vérité venant de leur Seigneur. Les commentateurs divergent quant à savoir si « ceux qui accomplissent la prière » désignent les savants fermes ou d'autres, bien que leur cas grammatical diffère de celui de « les fermes ». Certains estiment qu'il s'agit d'une erreur de transcription et que le texte devrait se lire : « les savants fermes parmi eux et ceux qui accomplissent la prière ». {cite:tafsir-tabari-shakir-v09 p. 394}
+
+Rapport 10837, d'après Hammad ibn Salama transmis par al-Zubayr : il demanda à Aban ibn Uthman pourquoi cela avait été écrit ainsi ; Aban répondit que le scribe avait écrit « les plus savants parmi eux » et, arrivé au mot suivant, avait demandé ce qu'il fallait écrire. On lui avait dit d'écrire « ceux qui accomplissent la prière », ce qu'il fit. Rapport 10838, d'après Hisham ibn Urwa transmis par son père : il interrogea Aïcha à ce sujet et sur d'autres passages, et elle lui dit : « Neveu, c'est l'œuvre du scribe, il y a eu une erreur d'écriture ; et il est dit que dans la lecture d'Ibn Mas'ud, on trouve « ceux qui accomplissent la prière » au nominatif. » {cite:tafsir-tabari-shakir-v09 p. 395}
+
+D'autres, notamment certains grammairiens de Koufa et de Bassora, affirment que « ceux qui accomplissent la prière » est un attribut des personnes fermes dans le savoir. Cependant, la phrase étant devenue longue, l'expression « ceux qui accomplissent la prière » est employée à l'accusatif pour exprimer un éloge. Les Arabes procèdent ainsi lorsqu'ils décrivent une chose longuement, que ce soit par louange ou par reproche, en variant le cas du début et du milieu de la phrase avant de revenir au cas initial. Ils citent d'ailleurs des versets relatifs à « ceux qui respectent leur engagement » dans un autre verset. {cite:tafsir-tabari-shakir-v09 p. 395}
+
+D'autres affirment que « ceux qui accomplissent la prière » est un attribut autre que celui des fermes en science mentionné en ce lieu, bien qu'ailleurs il les désigne. Tous s'accordent sur le génitif. Certains disent qu'il est lié au « quoi » dans « ce qui t'a été révélé et ce qui t'a précédé », de sorte que le sens est : ils croient en ce qui t'a été révélé et en ceux qui accomplissent la prière ; d'autres encore affirment que ceux qui accomplissent la prière sont les anges, dont l'accomplissement de la prière consiste à glorifier leur Seigneur et à implorer le pardon pour ceux qui sont sur terre. {cite:tafsir-tabari-shakir-v09 p. 396}
+
+Ceux qui soutenaient cette opinion rejetaient l'accusatif de louange pour « ceux qui accomplissent la prière », car les Arabes n'utilisent l'accusatif de louange qu'après que le prédicat soit complet, et le prédicat de « ceux qui sont fermes dans la science » est « ceux à qui Nous accorderons une grande récompense » ; ainsi, l'accusatif de louange au milieu de la phrase, avant que le prédicat du sujet ne soit complet, n'est pas autorisé. {cite:tafsir-tabari-shakir-v09 p. 397}
+
+Al-Tabari estime que l'avis le plus juste est que « ceux qui accomplissent la prière » est au génitif, coordonné avec le « quoi » de « ce qui t'a été révélé et ce qui a été révélé avant toi », et que son sens se rapporte aux anges : les croyants parmi eux croient au Livre qui t'a été révélé et à ce qui a été révélé avant toi, ainsi qu'aux anges qui accomplissent la prière ; puis la phrase revient pour décrire les fermes en science, en disant : mais les fermes en science parmi eux, et les croyants aux Livres, et ceux qui font l'aumône. {cite:tafsir-tabari-shakir-v09 p. 397}
+
+Il justifie sa décision en affirmant que la lecture attribuée à Ubayy ibn Ka'b, « ceux qui accomplissent la prière », concorde avec son codex, et que s'il s'agissait d'une erreur de copiste, elle figurerait dans tous les codex ; que notre codex concorde avec celui d'Ubayy, ce qui atteste sa validité ; et que s'il s'agissait d'une erreur, les compagnons dont le Coran a été tiré l'auraient corrigée oralement et auraient enseigné la forme correcte à la nation ; la transmission de cette lecture telle qu'elle est écrite par toute la communauté est la meilleure preuve qu'elle n'est pas l'œuvre du copiste. {cite:tafsir-tabari-shakir-v09 p. 398}
+
+Interpréter « ceux qui accomplissent la prière » comme une référence à l'accomplissement de la prière est une affirmation sans fondement textuel ni preuve tangible, et il n'est pas permis de détourner le sens apparent du texte pour lui attribuer un sens caché sans preuve. « Ceux qui donnent l'aumône » est en lien avec « les croyants croient », désignant ceux qui versent la zakat de leurs biens aux personnes que Dieu a désignées comme y ayant droit. Quant aux « croyants en Dieu et au Jour dernier », ils sont ceux qui affirment Son unicité, Sa divinité, la résurrection, la récompense et le châtiment. « Nous leur accorderons une grande récompense » signifie la rétribution de leur obéissance à Dieu, une grande récompense qui est le jardin d'Éden. {cite:tafsir-tabari-shakir-v09 p. 399}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

@@ -1,0 +1,22 @@
+---
+id: concept/sahnat
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/sahnat.md}
+---
+
+## Actions et propriétés
+Séchage et nettoyage, de mauvaise humeur. La note de bas de page de la rédaction indique que le sahnat est un poisson de mole {cite:canon-ibn-sina-print-v1 p.639}
+
+## Plaies et ulcères
+Cela provoque des croûtes et des démangeaisons {cite:canon-ibn-sina-print-v1 p.640}
+
+## Articulations
+Il soulage la douleur phlegmatique de la hanche {cite:canon-ibn-sina-print-v1 p.640}
+
+## Cosmétiques
+Il élimine le souffle nauséabond qui sort de l'estomac et sa corruption {cite:canon-ibn-sina-print-v1 p.640}
+
+## Digestion et organes de nutrition
+Il purifie l'humidité de l'estomac et la séche {cite:canon-ibn-sina-print-v1 p.640}

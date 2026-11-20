@@ -86,7 +86,7 @@ describe("3d tour: exhibits.yaml", () => {
       for (const src of e.sources) expect(existsSync(`data/${src}.yaml`), `${e.id}: ${src} exists`).toBe(true);
       for (const k of ["label", "desc", "material", "museum"]) {
         if (k !== "label" && k !== "desc" && e[k] === undefined) continue;
-        for (const l of ["ar", "en", "ur"]) expect(nonempty(e[k]?.[l]), `${e.id}.${k}.${l}`).toBe(true);
+        for (const l of ["ar", "en", "ur"]) expect(nonempty(e[k]?.[l]), `${e.id}.${k}.${l}`).toBe(true); // raw data: the published set; fr and es are backfilled by the loader
       }
       const text = JSON.stringify(e);
       expect(HONORIFIC.test(text), `${e.id} typed honorific`).toBe(false);
@@ -97,7 +97,7 @@ describe("3d tour: exhibits.yaml", () => {
   it("loadExhibits / viewExhibits select the page language", async () => {
     const { loadExhibits, viewExhibits } = await import("../site/src/lib/tour");
     const all = loadExhibits();
-    for (const lang of ["ar", "en", "ur"] as const) {
+    for (const lang of ["ar", "en", "ur", "fr"] as const) {
       for (const v of viewExhibits(all, lang)) expect(nonempty(v.label) && nonempty(v.desc), `${lang} ${v.id}`).toBe(true);
     }
     expect(viewExhibits(all, "ur")[0].label).not.toBe(viewExhibits(all, "ar")[0].label);

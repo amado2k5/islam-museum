@@ -2,6 +2,7 @@
 // packs of edu/packs.yaml. Same shape checks the tests make, so a broken file fails the build.
 import { readFileSync } from "node:fs";
 import { parse } from "yaml";
+import { parseLocalized } from "./i18n";
 import { repoPath } from "./paths";
 import type { Lang } from "./i18n";
 import type { Tri } from "./edu";
@@ -9,12 +10,12 @@ import type { Tri } from "./edu";
 export interface PackItem { title: Tri; href: string; sheets: number }
 export interface Pack { id: string; title: Tri; when: Tri; lede: Tri; kit: PackItem[] }
 
-const pick = (t: Tri, lang: Lang): string => t[lang] ?? t.ar;
+const pick = (t: Tri, lang: Lang): string => t[lang] ?? t.en ?? t.ar;
 
 let cache: Pack[] | null = null;
 export function loadPacks(): Pack[] {
   if (cache) return cache;
-  const raw = parse(readFileSync(repoPath("edu/packs.yaml"), "utf8")) as { packs?: Pack[] };
+  const raw = parseLocalized(readFileSync(repoPath("edu/packs.yaml"), "utf8")) as { packs?: Pack[] };
   const packs = raw?.packs ?? [];
   if (packs.length !== 4) throw new Error(`edu/packs.yaml: expected 4 packs, found ${packs.length}`);
   for (const p of packs) {

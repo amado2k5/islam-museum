@@ -1,0 +1,32 @@
+---
+id: question/does-the-ghadir-hadith-designate-ali-as-imam
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/question/does-the-ghadir-hadith-designate-ali-as-imam.md}
+---
+## Resumen
+El hadiz de [[event/ghadir-khumm|Ghadir Khumm]] es la segunda de las pruebas de la Sunna que [[person/al-allama-al-hilli|Ibn al-Mutahhar al-Hilli]] ofreció para el imamato de [[person/ali-ibn-abi-talib|Alí]] tras el Profeta. [[person/ibn-taymiyya|Ibn Taymiyya]] lo respondió en el tercer capítulo de [[work/minhaj-al-sunnah|Minhaj al-Sunna]] por tres motivos: cuando se reveló el versículo, qué tan bien está establecido el texto del hadiz y qué significa mawla. {cite:minhaj-sunna-shamela p. 2112}
+
+## La prueba de Al-Hilli, tal como la cita Ibn Taymiyya
+En la cita de Ibn Taymiyya, al-Hilli dice: se transmite en masa desde el Profeta que, cuando [[passage/quran-5-67|se reveló el versículo de la transmisión]], se dirigió al pueblo en Ghadir Khumm y dijo a toda la reunión: «¿No estoy yo más cercano a vosotros que a vosotros mismos?» Ellos dijeron que sí. Él dijo: «De quien yo sea mawla, Alí es su mawla; Oh Dios, haz amistad con quien se haga amigo de él, sé hostil con quien le sea hostil, ayuda a quien le ayuda y abandona a quien lo abandone». Umar dijo: «Bravo, os habéis convertido en mi mawla y en la mawla de todo hombre y mujer creyentes.» Mawla aquí, para al-Hilli, significa aquel con mayor derecho a la autoridad, debido a la afirmación anterior: «¿No estoy yo más cercano a vosotros que vosotros mismos?». {cite:minhaj-sunna-shamela p. 2112}
+
+## La respuesta de Ibn Taymiyya: cuando se reveló el versículo
+Ibn Taymiyya sostiene que el versículo de transmisión se reveló mucho antes de la Peregrinación de Despedida; que el día de Ghadir fue el 18 de Dhu al-Hijja, de regreso de la peregrinación, tras lo cual el Profeta vivió dos meses y parte de un tercio; y que [[passage/quran-5-3|el versículo de la perfección de la religión]] se reveló en Arafa el día 9 de Dhu al-Hijja, nueve días antes de Ghadir. {cite:minhaj-sunna-shamela p. 2113} Argumenta a favor de la fecha anterior a partir de la promesa del verso de protección frente a la gente, y del informe de que el Profeta fue custodiado hasta que se reveló y luego abandonó su guardia —que, según él, pertenece al tiempo anterior a que su mensaje fuera completamente transmitido; tras la Peregrinación de Despedida, la gente de La Meca, Medina y sus alrededores eran todos musulmanes sumisos y los hipócritas fueron sometidos. {cite:minhaj-sunna-shamela p. 2113} {cite:minhaj-sunna-shamela p. 2114} {cite:minhaj-sunna-shamela p. 2115}
+
+Añade que la mayoría de los peregrinos no regresaron con él a Medina; si lo que dijo en Ghadir hubiera sido algo que se le ordenara transmitir, lo habría transmitido en la Peregrinación de Despedida, la asamblea general, y nadie ha transmitido, ni con sonido ni con una cadena débil, que mencionó al imamado de Alí allí. {cite:minhaj-sunna-shamela p. 2115}
+
+## Respuesta de Ibn Taymiyya: qué tan bien está establecido el texto
+Ibn Taymiyya dice que lo que Muslim transmitió del sermón de Ghadir Khumm fue "Os dejo entre vosotros dos cosas importantes: el Libro de Dios", seguido de "Os recuerdo a Dios respecto a mi hogar" tres veces; al-Tirmidhi añadió "y no se separarán hasta que vengan a mí en la Cuenca", una aportación que varios maestros de hadiz criticaron, mientras que quienes la aceptaron dijeron que muestra que la familia de Banu Hashim en su conjunto no estará de acuerdo con el error – una de las respuestas de al-Qadi Abu Ya'la. {cite:minhaj-sunna-shamela p. 2115} «De quien soy mawla, Alí es su mawla» fue transmitido por al-Tirmidhi y Ahmad, pero no figura en las colecciones Sahih, y los estudiosos lo cuestionaron: se dice que al-Bukhari, Ibrahim al-Harbi y otros la juzgaron débil, se dice que Ahmad la juzgó como lo hizo al-Tirmidhi, y Abu al-Abbas ibn Uqda escribió una obra recogiendo sus cadenas. {cite:minhaj-sunna-shamela p. 2116} Sostiene que la adición «Oh Dios, hazte amigo de quien se haga amigo de él y sé hostil a quien le sea hostil» es falsa, al igual que «Estás más cerca de todo hombre y mujer creyentes», y relata de al-Athram que Ahmad rechazó dos hadices transmitidos por Husayn al-Ashqar, entre ellos esta adición. {cite:minhaj-sunna-shamela p. 2116} Cita [[person/ibn-hazm|a Ibn Hazm]] diciendo que lo auténtico de los méritos de Alí es el hadiz del rango de Aarón, el hadiz de la bandera y que "nadie lo ama sino un creyente", y que "de quien soy mawla" no es auténtico a través de narradores dignos de confianza. {cite:minhaj-sunna-shamela p. 2116} {cite:minhaj-sunna-shamela p. 2117}
+
+## La respuesta de Ibn Taymiyya: el significado de mawla
+Ibn Taymiyya da lo que él llama una respuesta compuesta: si el Profeta no lo dijo, no hay nada que discutir; si lo hizo, ciertamente no se refería al califato con ello, ya que nada en la redacción apunta a ello, y un asunto tan grande habría tenido que ser explicado claramente. {cite:minhaj-sunna-shamela p. 2117} Para él mawla es como wali, y [[concept/wilaya|la amistad (muwalat)]] es lo opuesto a la enemistad y se mantiene en ambos bandos; cita los versículos sobre la amistad entre Dios, Su Mensajero y los creyentes, y entre los propios creyentes. {cite:minhaj-sunna-shamela p. 2118}
+
+:::perspectives
+**Suní (Hanbali): Ibn Taymiyya en Minhaj al-Sunna.** El verso de transmisión precedió a Ghadir; la autenticidad del hadiz es objeto de debate y su adición es, a su juicio, falsa; si es correcto, Mawla en él es el amigo, opuesto al enemigo, no el sucesor. {cite:minhaj-sunna-shamela p. 2113} {cite:minhaj-sunna-shamela p. 2117} {cite:minhaj-sunna-shamela p. 2118}
+
+**Imami: Ibn al-Mutahhar al-Hilli, como lo cita Ibn Taymiyya.** El hadiz se transmite en masa y viene acompañado del verso de transmitir; mawla en él significa aquel con mayor derecho a la autoridad, por lo que designa a Alí como imán. {cite:minhaj-sunna-shamela p. 2112}
+:::
+
+## Aún no cubierto
+El argumento de Imami se presenta aquí únicamente a través de la cita de Ibn Taymiyya y debe exponerse a partir de los libros Imami; las opiniones de otros eruditos suníes que autenticaron los hadices y estudios académicos sobre el episodio de Ghadir aún no se han añadido.

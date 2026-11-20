@@ -1,0 +1,10 @@
+---
+id: concept/rikaz-fiqh
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: draft
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/rikaz-fiqh.md}
+---
+## Résumé
+Le rikaz dans le lexique est ce qui est fixé et caché dans le sol ; pour la majorité, c'est le trésor enterré par les gens de la période préislamique, et il peut nommer n'importe quel bien, bien que les Shafi'is le limitent à l'or et à l'argent. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8944} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8945} Pour la majorité, une mine n'est pas rikaz, tandis que les Hanafis utilisent ce mot à la fois pour les mines et les trésors. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8945} Un cinquième est dû sur le rikaz par accord, suivant l'expression selon laquelle il y a un cinquième sur le trésor enterré ; il est dû sur peu et beaucoup selon la majorité, et les Shafi'is exigent un nisab. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8949} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8950} Quiconque le trouve, musulman, dhimmi, enfant ou fou, doit le cinquième selon les écoles. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8950} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8951} S'il est trouvé sur un terrain non propriétaire, le découvreur prend le reste après le cinquième ; s'il est sur un terrain possédé, la plupart des juristes le donnent au propriétaire, tandis qu'Abu Yusuf et Ahmad le donnent au trouveur. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8951} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8952} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8953} Le cinquième est dépensé comme le butin selon les visions hanafite, malikie et hanbali, et comme le zakat selon la vision shafi'i. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8954} Dans la demeure de la guerre, les écoles divergent sur la règle. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8953}

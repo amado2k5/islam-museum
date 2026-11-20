@@ -1,0 +1,22 @@
+---
+id: passage/quran-11-48
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-11-48.md}
+---
+## Resumen
+Versículo 48 de [[passage/quran-11|Surat Hud]], una sura de La Meca. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 48 de 123 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+**Comentario sobre el versículo 48 (págs. 353-355)**
+
+En [[passage/quran-11-48|11:48]] al-Tabari dice: Noé, desciende del arca a la tierra «con paz de Nuestra parte», es decir, con seguridad de Nuestra parte para que no te destruyamos a ti ni a los que están contigo, «y bendiciones sobre ti», y «sobre las naciones de los que están contigo», es decir, sobre las generaciones que vendrán de los descendientes de los que están contigo de tus hijos; estos son los creyentes entre los descendientes de Noé para quienes la felicidad fue antes de Dios y a quienes Él bendijo antes de crearlos en el vientre de sus madres y en el lomo de sus padres. Luego le dijo a Noé lo que haría con los desdichados entre sus descendientes, diciendo «y naciones», es decir, generaciones y grupos, «les daremos gozo» en la vida de este mundo, es decir, les proveeremos en él lo que disfruten hasta que llegue su hora, «entonces un castigo doloroso de Nuestra parte los alcanzará», es decir, les haremos probar un castigo doloroso y agonizante cuando vengan a Nosotros. {cite:tafsir-tabari-shakir-v15 p. 353}
+
+Informe 18250, de Muhammad b. Ka'b al-Qurazi: en esa paz entró todo hombre y mujer creyentes hasta el Día de la Resurrección, y en ese castigo y gozo entraron todo hombre y mujer incrédulos hasta el Día de la Resurrección; informe 18251, de él, asimismo. Informe 18252, de Ibn Jurayj: 'y sobre las naciones de entre los que están contigo' significa aquellos que aún no han nacido, para quienes se decretan bendiciones porque la felicidad les precedió en el conocimiento y decreto de Dios, 'y a las naciones les daremos gozo', aquellos para quienes la miseria les precedió en el conocimiento y decreto de Dios; informe 18253, de él, asimismo, añadiendo que los niños no perecieron cuando el pueblo de Noé se ahogó por el pecado de sus padres, como las aves y las bestias, sino que su fin llegó con el ahogamiento. Informe 18254, de Ibn Zayd: descendieron con la complacencia de Dios, con la paz de Dios, siendo gente misericordiosa de aquella época, y después Él sacó de ellos descendencia, naciones, a algunas de las cuales tuvo misericordia y a otras las castigó; las naciones separadas de aquella compañía que salieron de aquella agua y fueron salvadas. El informe 18255 comienza al pie de la página. {cite:tafsir-tabari-shakir-v15 p. 354}
+
+Informe 18255, de al-Dahhak: bendiciones sobre ti y sobre las naciones de aquellos que están contigo que aún no han nacido; Dios hizo bendiciones vinculantes para ellos porque la felicidad había pasado antes para ellos en el conocimiento de Dios, 'y a las naciones les daremos gozo', es decir, el gozo de la vida de este mundo, 'luego un castigo doloroso de Nuestra parte los tocará' debido a la miseria que había pasado antes para ellos en el conocimiento de Dios. Informe 18256, de al-Hasan, que cuando recitó Surat Hud y llegó a este versículo dijo: Dios salvó a Noé y a los que creyeron y a los que disfrutaron perecieron, hasta que mencionó a los profetas, diciendo de cada uno, Dios lo salvó y los que disfrutaron perecieron. Informe 18257, de Ibn Zayd: 'luego un castigo doloroso los tocará', después de la misericordia. Informe 18258, de al-Hasan: eso fue cuando Dios envió a 'Ad y envió a Hud a ellos; Algunos lo afirmaron y otros lo negaron hasta que llegó la orden de Dios, y entonces Dios salvó a Hud y a los que creyeron con él y destruyó a los que disfrutaron; luego les envió a Thamud y a Salih, y algunos lo afirmaron y otros lo negaron hasta que llegó la orden de Dios, y Dios salvó a Salih y a los que estaban con él y destruyó a los que disfrutaron, y así fue con los profetas uno por uno. {cite:tafsir-tabari-shakir-v15 p. 355}
+
+Estas declaraciones se presentan tal como fueron transmitidas; las elecciones y los argumentos son de al-Tabari, las notas y los rastreos de fuentes son del editor, y el museo no emite ningún veredicto.

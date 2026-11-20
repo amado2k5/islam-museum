@@ -1,0 +1,9 @@
+---
+id: concept/mubaraza-fiqh
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/mubaraza-fiqh.md}
+---
+## Résumé
+Mubaraza, dans le lexique, est une forme de barraza, qui signifie s'avancer ; en usage technique, il s'agit de deux champions des deux lignes qui sortent pour combattre {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13812}. En principe, les juristes le permettent. Les Compagnons combattirent en combat singulier à l'époque du Prophète et après lui, et à Badr Ali, Hamza et Ubayda se sont opposés à Utba, Shayba et al-Walid ; Ibn Qudama dit que personne ne s'y est opposé, donc cela compte comme un consensus {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13813}. Les Malikis, Shafi'is et Hanbalis ont besoin de la permission de l'imam ou du commandant ; les Shafi'is disent que c'est recommandé lorsque l'ennemi l'a demandé ; certains disent qu'il est interdit lorsque la mort du champion entraînerait une défaite ; les Hanbales disent qu'un homme courageux peut accepter avec permission {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13813-13815}. Le butin d'un champion tué revient au musulman qui l'a tué, selon les Hanbalis, et sous les Hanafis lorsqu'il a été envoyé avec permission ; la tromperie est permise en temps de guerre, et les conditions convenues entre les champions doivent être respectées {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13816-13817}. Si un musulman est blessé ou s'enfuit, les écoles divergent quant à savoir si d'autres peuvent venir à son secours {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13817-13819}.

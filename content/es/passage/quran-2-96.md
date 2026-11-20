@@ -1,0 +1,20 @@
+---
+id: passage/quran-2-96
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-2-96.md}
+---
+## Resumen
+Versículo 96 de la Sura [[passage/quran-2|Al-Baqarah]] {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 96 de 286 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Sobre «los encontrarás como los más fervientes por la vida, incluso más que aquellos que asocian a otros con Dios», al-Tabari dice que se refiere a los judíos, los más fervientes por la vida en este mundo y los más reacios a la muerte, según relata Ibn Abbas, Abu al-'Aliya, al-Rabi' y Mujahid; su aversión a la muerte surge del conocimiento de la larga desgracia que les espera en la otra vida. «Y más que aquellos que asocian» significa más fervientes que ellos, como se dice «él es el más valiente de los hombres y más que 'Antara'», por lo que aparece «min» después de la conjunción para restaurar el sentido. Dios describió a los judíos como más fervientes que los politeístas porque creen en la resurrección y conocen el castigo preparado para ellos, mientras que los politeístas no creen ni en la resurrección ni en el castigo. {cite:tafsir-tabari-shakir-v02 p. 369} {cite:tafsir-tabari-shakir-v02 p. 370}
+
+Sobre quiénes son "los que se asocian", al-Tabari da dos puntos de vista: que son los magos, que no creen en la resurrección, de Abu al-'Aliya y al-Rabi'; o que son los que niegan la resurrección en general, de Ibn Abbas que el politeísta no espera ninguna resurrección después de la muerte y por eso ama una larga vida, mientras que el judío sabe la deshonra que le espera por desperdiciar el conocimiento que tiene; y de Ibn Zayd que los judíos son más ansiosos que estos. Sobre "cada uno de ellos desearía que se le concediera una vida de mil años", el politeísta que desespera de cualquier resurrección después del fin de este mundo desea una larga vida, de modo que algunos se saludan unos a otros con "diez mil años"; De Ibn Abbas que este es el dicho de los no árabes, "zeh hazar sal" (el editor explica la frase persa y señala que el relato de al-A'mash de Sa'id tiene una interrupción en su cadena), y de Qatada que el error hizo que la larga vida les resultara preciada. Sobre "ni se le concederá larga vida para librarlo del castigo", dice que la larga vida no lo aleja del castigo de Dios; "huwa" es un pronombre auxiliar y "an yu'ammar" el sujeto de "muzahzihihi", que él considera el más cercano a la verdad, exponiendo otras opiniones de los gramáticos y la opinión de algunos intérpretes, de Abu al-'Aliya, al-Rabi' e Ibn Zayd, de que "an" significa "incluso si se le concede larga vida", lo que dice que se aparta del uso árabe conocido. "Muzahzih" significa aquel que quita y deja de lado, pues la vida debe terminar y regresar a Dios. {cite:tafsir-tabari-shakir-v02 p. 370} {cite:tafsir-tabari-shakir-v02 p. 371} {cite:tafsir-tabari-shakir-v02 p. 372} {cite:tafsir-tabari-shakir-v02 p. 373} {cite:tafsir-tabari-shakir-v02 p. 374} {cite:tafsir-tabari-shakir-v02 p. 375}
+
+Sobre «ni lo librará del castigo», al-Tabari informa de Ibn Abbas que no lo apartará del castigo; de Abu al-'Aliya y al-Rabi' que incluso si se le concede una larga vida, no lo ayudará ni lo salvará; y de Ibn Zayd que si se le concediera una vida tan larga como la de Iblis, no le beneficiaría mientras no crea. Sobre «Dios ve lo que hacen», dice que Él es Quien ve, nada de sus actos le está oculto, comprendiéndolos y guardándolos hasta que les da el castigo como retribución; «basir» es originalmente «mubsir», que se transformó en la forma «fa'il» como «musmi'» se convirtió en «sami'» y «mu'lim» en «alim». {cite:tafsir-tabari-shakir-v02 p. 376} {cite:tafsir-tabari-shakir-v02 p. 377}

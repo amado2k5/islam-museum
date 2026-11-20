@@ -1,0 +1,10 @@
+---
+id: concept/ramadan-fiqh
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: draft
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/ramadan-fiqh.md}
+---
+## Résumé
+Le Ramadan est le nom du mois connu ; on dit qu'il a été nommé d'après la saison de chaleur intense lorsque les Arabes ont donné leur nom aux mois. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8986} Le mois est établi en observant le croissant ; si cela est impossible, le Sha'ban est complété à trente jours. Les juristes divergent quant au nombre de témoins : les hanafites, les shhafiis et les hanbalis acceptent un seul témoin juste, tandis que les Malikis en ont besoin de deux. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8986} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8987} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8988} Les juristes s'accordent à dire que la fin du Ramadan (le croissant de Shawwal) nécessite deux témoins. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8988} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8989} Le Ramadan se distingue par la révélation du Coran en son contenu, par l'obligation de jeûne (convenu par la communauté), par l'excellence de la charité qui y est, par la nuit de la puissance, et par le taraweeh et l'i'tikaf recommandés lors de ses dix dernières nuits. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8989} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8990} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8991} L'étude et la récitation du Coran y sont particulièrement recommandées, nourrir ceux qui jeûnent et les pèlerinages moins importants sont particulièrement soulignés, et les juristes divergent sur la question de savoir s'il est préférable de gagner sa vie ou de se consacrer au culte dans ce domaine. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8991} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8992}

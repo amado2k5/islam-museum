@@ -1,0 +1,12 @@
+---
+id: person/salih-safvet-basic
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/salih-safvet-basic.md}
+---
+## Résumé
+
+Salih Safvet Bašić (1886–1948) était un pédagogue bosniaque originaire de Duvno (aujourd'hui Tomislavgrad), né dans une famille de marchands et éduqué au mekteb et à l'école primaire de sa ville natale avant d'entrer au secondaire et à la Faculté de philosophie d'Istanbul, où il se distingua parmi les étudiants bosniaques par ses idées avancées et son opposition intransigeante à l'occupation austro-hongroise de la Bosnie-Herzégovine. {cite:wikipedia-salih-safvet-basic-bs} {cite:wikipedia-salih-safvet-basic-hr} De retour chez lui en 1910, il refusa de briguer un poste sous un gouvernement auquel il s'opposait et vécut du commerce jusqu'à ce que la Première Guerre mondiale le contraigne à prendre un poste d'enseignant à l'école de charia de Sarajevo plutôt que d'être mobilisé dans l'armée autrichienne ; il était connu comme connaisseur des langues, de la littérature et de l'histoire orientales, ainsi que comme conférencier et pédagogue. {cite:wikipedia-salih-safvet-basic-bs}
+
+En vertu de la nouvelle constitution de la Communauté islamique de 1936, il fut nommé premier naib (adjoint) de la direction religieuse, siégeant à Belgrade, fonction qu'il occupa jusqu'à l'élection de Fehim Spaho comme reis-ul-ulema en 1938 ; à la mort du reis en 1942, il fut nommé reis-ul-ulema par intérim, et il occupa la tête de la communauté jusqu'à l'installation d'Ibrahim Fejić en 1947 — sans jamais détenir officiellement le titre de reis lui-même. {cite:wikipedia-salih-safvet-basic-bs} {cite:wikipedia-salih-safvet-basic-hr} Son bilan en temps de guerre est marqué par un refus : la constitution imposée par le gouvernement oustachis pour la Communauté islamique n'entra jamais en vigueur sous son mandat, et en 1945 il rejeta la demande de Pavelić de la direction suprême islamique de signer un appel contre le mouvement de libération nationale. {cite:wikipedia-salih-safvet-basic-bs} {cite:wikipedia-salih-safvet-basic-hr} Il prit sa retraite à Duvno et y mourut en 1948. {cite:wikipedia-salih-safvet-basic-bs} {cite:wikidata-salih-safvet-basic}

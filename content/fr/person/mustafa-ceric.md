@@ -1,0 +1,12 @@
+---
+id: person/mustafa-ceric
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/mustafa-ceric.md}
+---
+## Résumé
+
+Mustafa Cerić est un érudit bosniaque qui a dirigé la communauté islamique de son pays à travers la guerre des années 1990 et ses conséquences en tant que Grand Mufti. Il est né le 5 février 1952 dans le village de Veliko Čajno, près de Visoko, et a été éduqué à la madrasa Gazi Husrev-beg à Sarajevo, dont il a obtenu son diplôme en 1972, puis à Al-Azhar au Caire, où il a obtenu son diplôme en 1978 {cite:wikipedia-ceric-bs}{cite:wikidata-ceric}. Après avoir servi comme imam de la Mosquée Blanche à Gračanica, il est devenu imam au Centre culturel islamique du Grand Chicago à Northbrook en 1981 et a obtenu son doctorat en études islamiques à l'Université de Chicago, sous la direction de Fazlur Rahman, avec une thèse sur la théologie d'Abu Mansur al-Maturidi datée du 24 septembre 1986 ; le livre qui en est issu, Racines de la théologie synthétique en islam, parut à Kuala Lumpur en 1995{cite:wikipedia-ceric-bs}{cite:wikipedia-ceric-en}.
+
+Cerić retourna en Yougoslavie en tant qu'imam en chef de la mosquée de Zagreb en 1987 et commença à donner des cours à la Faculté de théologie islamique de Sarajevo ; élu chef de la Communauté islamique en Bosnie-Herzégovine le 28 avril 1993, il occupa le poste de Grand Muftiat jusqu'au 19 novembre 2012{cite:wikipedia-ceric-en}. Interrogé dans une interview publiée sur quelles écoles suit l'islam bosniaque, il répondit de ses propres mots : « En gros, nous n'avons que le madhhab hanafite en Bosnie... Le hanafite est le madhhab officiel. C'est le madhhab dans les prières et dans nos fatwas »{cite:islamskazajednica-ceric-interview-2012}. Après son mandat, il a cofondé l'Académie bosniaque des sciences et des arts (2011) et le Congrès mondial bosniaque (2012), qu'il préside ; il a été signataire de A Common Word Between Us and You (2007), a co-reçu le Prix de la paix UNESCO Félix Houphouët-Boigny en 2003, s'est présenté sans succès au siège de la présidence bosniaque en 2014, et a obtenu la citoyenneté saoudienne par ordre royal en novembre 2021{cite:wikipedia-ceric-en}{cite:wikipedia-ceric-ar}.

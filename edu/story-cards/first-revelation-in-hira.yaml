@@ -3,10 +3,12 @@ title:
   ar: "الوحي الأول في حراء"
   en: "First Revelation in Hira"
   ur: "غارِ حرا میں پہلی وحی"
+  fr: "La première révélation à Hira"
 lede:
   ar: "في غار حراء بدأت الكلمة — قصة نزول الوحي في اثنتي عشرة بطاقة."
   en: "In the cave of Hira the Word began — the story of the first revelation in twelve cards."
   ur: "غارِ حرا میں کلمہ اترنا شروع ہوا — پہلی وحی کی کہانی بارہ کارڈز میں۔"
+  fr: "C’est dans la grotte de Hira que commence la révélation : découvre son histoire en douze cartes."
 status: { review: published }
 sources: [source/sahih-al-bukhari, source/ibn-hisham-saqqa]
 
@@ -15,76 +17,93 @@ provenance:
   model: "Devin (Cognition)"
   run: "education-E5-story-cards"
   source: "سيرة ابن هشام؛ صحيح البخاري، بدء الوحي — إعادة صياغة بأمانة، صيغة أطفال."
+  fr:
+    generated_by: "Devin"
+    model: "unknown"
+    run: "devin-a7ba389df57d4bdb9b7515fa59f40242"
+    source: "Existing English text in this activity, with Arabic consulted for religious material."
 cards:
-  - title: { ar: "جبل النور", en: "The mountain", ur: "کوہِ نور" }
+  - title: { ar: "جبل النور", en: "The mountain", ur: "کوہِ نور", fr: "Le mont de la Lumière" }
     motif: mountain
     narration:
       ar: "شمال مكة يقف جبل النور، وفيه غار صغير يقبل شخصاً واحداً أو اثنين."
       en: "North of Makkah stands the Mountain of Light, with a small cave that holds one or two."
       ur: "مکہ کے شمال میں کوہِ نور ہے، جس میں ایک چھوٹی غار ہے جو ایک دو آدمیوں کو سماتی ہے۔"
-  - title: { ar: "الخلاء", en: "The retreat", ur: "تنہائی" }
+      fr: "Au nord de La Mecque se dresse le mont de la Lumière. Sa petite grotte peut abriter une ou deux personnes."
+  - title: { ar: "الخلاء", en: "The retreat", ur: "تنہائی", fr: "La retraite" }
     motif: cave
     narration:
       ar: "كان يخلو بنفسه في الغار فيتحنث الليالي، يتفكر في السماوات والأرض."
       en: "He would withdraw to the cave for nights of worship, pondering the heavens and the earth."
       ur: "وہ غار میں تنہا رہتے اور راتوں عبادت میں گزارتے، آسمانوں اور زمین پر غور کرتے۔"
-  - title: { ar: "رؤيا صادقة", en: "True dreams", ur: "سچے خواب" }
+      fr: "Muhammad se retirait dans la grotte pour passer des nuits à prier et à méditer sur les cieux et la terre."
+  - title: { ar: "رؤيا صادقة", en: "True dreams", ur: "سچے خواب", fr: "Des rêves véridiques" }
     motif: moon
     narration:
       ar: "قبل الوحي رأى أحلاماً صادقة تأتي مثل فلق الصبح."
       en: "Before the revelation he saw true dreams that came like the break of dawn."
       ur: "وحی سے پہلے انھیں ایسے سچے خواب آئے جو صبح کی کرن کی طرح ظاہر ہوئے۔"
-  - title: { ar: "ليلة القدر", en: "The night", ur: "مقصدِ شب" }
+      fr: "Avant la révélation, il eut des rêves véridiques, clairs comme le jour qui se lève."
+  - title: { ar: "ليلة القدر", en: "The night", ur: "مقصدِ شب", fr: "La Nuit du Destin" }
     motif: moon
     narration:
       ar: "وفي شهر رمضان، في ليلة من لياليها العشر الأخير، تغير كل شيء."
       en: "And in the month of Ramadan, on one of its last ten nights, everything changed."
       ur: "اور رمضان کے مہینے میں، اس کی آخری عشرہ کی ایک رات، سب کچھ بدل گیا۔"
-  - title: { ar: "الملك", en: "The angel", ur: "فرشتہ" }
+      fr: "Au mois de ramadan, pendant l’une des dix dernières nuits, tout changea."
+  - title: { ar: "الملك", en: "The angel", ur: "فرشتہ", fr: "L’ange" }
     motif: star
     narration:
       ar: "جاءه الملك فقال: اقرأ؛ فأجاب: ما أنا بقارئ."
       en: "The angel came to him and said: read; he answered: I am not a reader."
       ur: "فرشتہ آیا اور کہا: پڑھو؛ اس نے جواب دیا: میں پڑھا ہوا نہیں ہوں۔"
-  - title: { ar: "ضمّة", en: "The embrace", ur: "گھیرا" }
+      fr: "L’ange vint lui demander de lire, mais Muhammad répondit qu’il ne savait pas lire."
+  - title: { ar: "ضمّة", en: "The embrace", ur: "گھیرا", fr: "L’étreinte" }
     motif: star
     narration:
       ar: "فأخذه الملك فضمه حتى بلغ منه الجهد، ثم قال: اقرأ."
       en: "The angel took him and pressed him until he could bear no more, then said: read."
       ur: "فرشتے نے اسے لیا اور اتنا دبایا کہ سخت ہو گیا، پھر کہا: پڑھو۔"
-  - title: { ar: "الكلمات الأولى", en: "The first words", ur: "پہلے کلمات" }
+      fr: "L’ange le serra jusqu’à ce qu’il n’en puisse plus, puis lui demanda de nouveau de lire."
+  - title: { ar: "الكلمات الأولى", en: "The first words", ur: "پہلے کلمات", fr: "Les premiers mots" }
     motif: book
     narration:
       ar: "فنزلت أول آيات سورة العلق تأمره بالقراءة باسم ربه الخالق."
       en: "The first verses of Surat al-Alaq came down, calling him to read in his creating Lord's name."
       ur: "سورۃ علق کی پہلی آیات اتریں، جن میں پیدا کرنے والے رب کے نام سے پڑھنے کا حکم تھا۔"
-  - title: { ar: "الرجفة", en: "The trembling", ur: "لرزش" }
+      fr: "Les premiers versets révélés, au début de la sourate Al-Alaq, associent la lecture au rappel de Dieu, le Créateur."
+  - title: { ar: "الرجفة", en: "The trembling", ur: "لرزش", fr: "Le tremblement" }
     motif: mountain
     narration:
       ar: "عاد إلى خديجة وقلبه يرتجف وقال: زملوني زملوني، فغطّته."
       en: "He returned to Khadijah with a trembling heart saying: wrap me, wrap me — and she did."
       ur: "وہ خدیجہ کے پاس لرزتا ہوا دل لے کر آئے اور کہا: مجھے اوڑھا دو، تو انہوں نے اوڑھا دیا۔"
-  - title: { ar: "خديجة", en: "Khadijah's words", ur: "خدیجہ کے الفاظ" }
+      fr: "Il revint vers Khadija, le cœur tremblant. Il lui demanda avec insistance de le couvrir, et elle le couvrit."
+  - title: { ar: "خديجة", en: "Khadijah's words", ur: "خدیجہ کے الفاظ", fr: "Les paroles de Khadija" }
     motif: tree
     narration:
       ar: "قالت له: لا يخزيك الله أبداً، إنك لتصل الرحم وتحمل الكل وتقرى الضيف."
       en: "She said: God will never disgrace you — you keep ties of kin, carry burdens and feed guests."
       ur: "اس نے کہا: اللہ کبھی تمھیں ذلیل نہیں کرے گا؛ تم صلہ رحمی کرتے ہو، بوجھ اٹھاتے ہو اور مہمان نوازی کرتے ہو۔"
-  - title: { ar: "ورقة", en: "Waraqa", ur: "ورقہ" }
+      fr: "Elle lui assura que Dieu ne l’abandonnerait pas : il entretenait les liens de parenté, aidait les personnes dans le besoin et accueillait ses hôtes."
+  - title: { ar: "ورقة", en: "Waraqa", ur: "ورقہ", fr: "Waraqa" }
     motif: manuscript
     narration:
       ar: "أخذته إلى ابن عمها ورقة بن نوفل، فقال: هذا الناموس الذي أنزل على موسى."
       en: "She took him to her cousin Waraqa ibn Nawfal, who said: this is the law revealed to Moses."
       ur: "اس نے انہیں اپنے چچازاد ورقہ بن نوفل کے پاس لے گئی، جس نے کہا: یہ وہی شریعت ہے جو موسیٰ پر اتری۔"
-  - title: { ar: "فترة", en: "The pause", ur: "وقفہ" }
+      fr: "Elle le conduisit chez son cousin Waraqa ibn Nawfal, qui reconnut en cet ange le messager de la révélation faite à Moïse."
+  - title: { ar: "فترة", en: "The pause", ur: "وقفہ", fr: "L’interruption" }
     motif: moon
     narration:
       ar: "ثم فتر الوحي فترة، فكان يحزن حتى جاءه الملك مرة أخرى."
       en: "Then the revelation paused for a time, and he grieved until the angel came again."
       ur: "پھر وحی کچھ عرصہ رکی، تو وہ غمگین رہے یہاں تک کہ فرشتہ پھر آیا۔"
-  - title: { ar: "البداية", en: "The beginning", ur: "آغاز" }
+      fr: "Puis la révélation s’interrompit quelque temps. Muhammad en fut attristé jusqu’au retour de l’ange."
+  - title: { ar: "البداية", en: "The beginning", ur: "آغاز", fr: "Le commencement" }
     motif: star
     narration:
       ar: "ومن تلك الليلة بدأ النور ينزل على الأرض آية آية، حتى اكتمل الدين."
       en: "From that night the light began descending on earth verse by verse, until the faith was complete."
       ur: "اسی رات سے نور زمین پر آیت بہ آیت اترتا رہا، یہاں تک کہ دین مکمل ہوا۔"
+      fr: "À partir de cette nuit, la lumière de la révélation descendit sur terre, verset après verset, jusqu’à ce que la religion soit complète."

@@ -1,0 +1,16 @@
+---
+id: person/mohamed-bey-el-mouradi
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/person/mohamed-bey-el-mouradi.md}
+---
+## Résumé
+
+# Mohamed Bey El Mouradi
+
+Mohamed Bey El Mouradi (décédé le 14 octobre 1696) était un Muradid Bey de Tunis, fils aîné de Murad II Bey et, par sa mère, petit-fils de Yusuf Dey {cite:wikipedia-mohamed-bey-el-mouradi-en} {cite:wikipedia-mohamed-bey-el-mouradi-fr}. Aucun article lu ne mentionne son année de naissance ; la mention de naissance de l'élément Wikidata est précise uniquement selon les décennies, pour les années 1650, donc la ligne de file 1655 est une estimation intermédiaire sans qu'aucun texte atteste {cite:wikidata-mohamed-bey-el-mouradi}. L'article anglais date son beylicat de 1675, année de la mort de son père, tandis que les articles français et arabes comptent son mandat effectif à partir de 1686, date à laquelle il prit le pouvoir seul après une longue lutte {cite:wikipedia-mohamed-bey-el-mouradi-en} {cite:wikipedia-mohamed-bey-el-mouradi-fr}.
+
+Son règne fut consumé par les guerres civiles muradoides. Son oncle Muhammad al-Hafsi le contesta et fut exilé en 1679 ; son frère Ali bin Murad, déçu de sa part de pouvoir, trouva refuge au beylik de Constantin et amena les tribus du nord-ouest sous Muhammad ben Cheker avec des promesses d'or et d'argent, assiégea Tunis et chassa Muhammad Bey à Kairouan ; Muhammad brisa le siège et affronta Ali à la bataille d'El Kerima sur la plaine de Fahs en 1677, que Ali remporta de manière décisive, prenant Tunis tandis que son frère restait assiégé à Kairouan {cite:wikipedia-mohamed-bey-el-mouradi-en}. La médiation du Dey d'Alger aboutit à un traité en 1679, mais la paix échoua : les janissaires élurent Ahmed Chelebi, les Algériens le vainquirent et pillèrent Tunis en 1686, et Muhammad, soupçonnant Ali de les soutenir, le tua et s'empara du pouvoir pour lui-même {cite:wikipedia-mohamed-bey-el-mouradi-en}. En 1694, le Dey Hadj Chabane envahit avec le prétendant Muhammad ben Cheker et annexa Tunis pendant des mois, nommant ben Cheker bey ; en 1695, les Tunisiens se révoltèrent, vainquirent ben Cheker à Kairouan et rétablirent la dynastie Muradid {cite:wikipedia-mohamed-bey-el-mouradi-en}.
+
+Au milieu de ces troubles — la période appelée les Révolutions de Tunis — il fit construire des monuments qui se dressent : la mosquée Sidi Mahrez à Tunis, calquée sur les mosquées d'Istanbul avec un grand dôme central ; le souk chachia reconstruit ; les mosquées et madrasas de Beja, El Kef, Gafsa, Tozeur et Gabes, parmi lesquelles la mosquée Al Bey à Kairouan ; et en 1690 le pont-digue de Tebourba sur la Medjerda {cite:wikipedia-mohamed-bey-el-mouradi-fr} {cite:wikipedia-mohamed-bey-el-mouradi-ar}. Il mourut le 14 octobre 1696 et fut enterré dans le mausolée de son grand-père Hammuda Pacha Bey ; ses fils Mourad et Hassan étaient trop jeunes pour régner, si bien que son frère Ramadan Bey lui succéda {cite:wikipedia-mohamed-bey-el-mouradi-fr}.

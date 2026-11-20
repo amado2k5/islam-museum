@@ -22,6 +22,8 @@ const TARGETS = [
   { dir: "pagefind-ar", prefix: "pagefind-ar", cacheControl: "public, max-age=31536000, immutable" },
   { dir: "pagefind-en", prefix: "pagefind-en", cacheControl: "public, max-age=31536000, immutable" },
   { dir: "pagefind-ur", prefix: "pagefind-ur", cacheControl: "public, max-age=31536000, immutable" },
+  { dir: "pagefind-fr", prefix: "pagefind-fr", cacheControl: "public, max-age=31536000, immutable" },
+  { dir: "pagefind-es", prefix: "pagefind-es", cacheControl: "public, max-age=31536000, immutable" },
   { dir: "api", prefix: "api", cacheControl: "public, max-age=3600, stale-while-revalidate=86400" },
   // Founder rule (28 Oct 2026): data, content, maps, images and video live on R2, not on Pages. Keep in step with
   // workers/site/src/route.js (R2_DATA_DIRS).
@@ -36,8 +38,9 @@ const HTML_TARGETS = [
   { dir: "ar", prefix: "ar", cacheControl: "public, max-age=60, s-maxage=3600" },
   { dir: "en", prefix: "en", cacheControl: "public, max-age=60, s-maxage=3600" },
   { dir: "ur", prefix: "ur", cacheControl: "public, max-age=60, s-maxage=3600" },
+  { dir: "fr", prefix: "fr", cacheControl: "public, max-age=60, s-maxage=3600" },
+  { dir: "es", prefix: "es", cacheControl: "public, max-age=60, s-maxage=3600" },
 ];
-const activeTargets = process.env.PUBLISH_HTML === "1" ? [...TARGETS, ...HTML_TARGETS] : TARGETS;
 const MANIFEST_KEY = "_r2-sync/manifest.json";
 const STAGING_PREFIX = "_staging/";
 
@@ -49,6 +52,31 @@ const args = Object.fromEntries(
 );
 const distRoot = args.dist ?? "dist";
 const dryRun = args["dry-run"] === true;
+// One language (deploy-lang-env.yml, docs/engineering/06-deployment.md section 9): `--only-lang es` publishes that
+// language's pages (es/) and search index (pagefind-es/) and nothing else. The diff is taken against that language's
+// part of the manifest only, so no file of another language, of the API or of the shared data is copied or deleted,
+// and the rest of the manifest is written back as it was. Put it before --dry-run on the command line.
+const onlyLang = typeof args["only-lang"] === "string" ? args["only-lang"] : null;
+if (onlyLang && !HTML_TARGETS.some((t) => t.dir === onlyLang)) throw new Error(`--only-lang ${onlyLang}: not a language of the site (${HTML_TARGETS.map((t) => t.dir).join(", ")})`);
+/** The R2 prefixes one language owns: its pages and its search index. */
+export const langPrefixes = (lang) => [lang, `pagefind-${lang}`];
+// The shared parts (deploy-shared-env.yml, same section): `--only-shared` publishes everything that belongs to no
+// language (the API, the shared data folders and the root files) and nothing under any language's two prefixes. It is
+// the other half of --only-lang: the five language publishes and the shared one together cover the whole record.
+// Sitemaps list every language's pages; a shared build that could not make them (not every language was built in its
+// run) carries none, and the published sitemaps are then left as they are instead of being deleted.
+const onlyShared = "only-shared" in args;
+if (onlyShared && onlyLang) throw new Error("--only-shared and --only-lang cannot be used together");
+const LANG_PREFIXES = HTML_TARGETS.flatMap((t) => langPrefixes(t.dir));
+const isSitemap = (key) => /^sitemap[\w-]*\.xml$/.test(key);
+/** The part of a manifest's files that belongs to no language; with keepSitemaps, the sitemaps are left out too. */
+export function scopeShared(previous, keepSitemaps = false) {
+  return Object.fromEntries(Object.entries(previous).filter(([key]) => !LANG_PREFIXES.some((p) => key.startsWith(`${p}/`)) && !(keepSitemaps && isSitemap(key))));
+}
+const activeTargets = onlyLang
+  ? [...TARGETS, ...HTML_TARGETS].filter((t) => langPrefixes(onlyLang).includes(t.prefix))
+  : onlyShared ? TARGETS.filter((t) => !LANG_PREFIXES.includes(t.prefix))
+  : process.env.PUBLISH_HTML === "1" ? [...TARGETS, ...HTML_TARGETS] : TARGETS;
 const bucket = process.env.BUCKET ?? "islam-museum-search";
 const endpoint = process.env.ENDPOINT;
 // SYNC_URLS: comma-separated Worker URLs. Falls back to SYNC_URL (one Worker).
@@ -93,7 +121,8 @@ function desiredFiles() {
       files.set(`${t.prefix}/${rel}`, { path: full, sha: sha(bytes), md5: createHash("md5").update(bytes).digest("hex"), cacheControl: t.cacheControl });
     }
   }
-  for (const name of rootFiles(distRoot)) {
+  // Root files (sitemaps, feed, favicons) belong to no language: a one-language publish leaves them alone.
+  for (const name of onlyLang ? [] : rootFiles(distRoot)) {
     const full = join(distRoot, name);
     const bytes = readFileSync(full);
     files.set(name, { path: full, sha: sha(bytes), md5: createHash("md5").update(bytes).digest("hex"), cacheControl: ROOT_CACHE });
@@ -165,6 +194,11 @@ export function reconcile(desired, previous, stored) {
     }
   }
   return matched;
+}
+
+/** The part of a manifest's files under the given prefixes ("es" matches "es/…", never "es-other/…" or a root file). */
+export function scopeTo(previous, prefixes) {
+  return Object.fromEntries(Object.entries(previous).filter(([key]) => prefixes.some((p) => key.startsWith(`${p}/`))));
 }
 
 export function diff(desired, previous) {
@@ -477,19 +511,42 @@ async function main() {
   if (!dryRun && stored === null && !seeding) {
     throw new Error("no manifest in the bucket: run once with --seed to record the files already published");
   }
+  // A one-language publish changes part of an existing record; it never starts one. Seeding from one language would
+  // write a manifest that knows nothing of the others, and the next full publish would send the whole site again.
+  if (onlyLang && !dryRun && stored === null) {
+    throw new Error(`no manifest in the bucket: a one-language publish (--only-lang ${onlyLang}) needs a full deploy of this environment first`);
+  }
+  if (onlyShared && !dryRun && stored === null) {
+    throw new Error("no manifest in the bucket: a shared-parts publish (--only-shared) needs a full deploy of this environment first");
+  }
+  const keepSitemaps = onlyShared && ![...desired.keys()].some(isSitemap);
   const previous = stored ?? (dryRun ? {} : bootstrapPrevious(desired));
-  let ops = diff(desired, previous);
+  // What the diff may touch: everything, or one language's prefixes. `previous` stays the whole record, so the
+  // manifest written after each batch still lists every other file.
+  const scoped = () => (onlyLang ? scopeTo(previous, langPrefixes(onlyLang)) : onlyShared ? scopeShared(previous, keepSitemaps) : previous);
+  if (onlyShared) log(`shared parts only: the API, the shared data and the root files; no file under ${LANG_PREFIXES.join(", ")} is copied or deleted`);
+  if (keepSitemaps) log("this build carries no sitemap (not every language was built in its run): the published sitemaps are left as they are");
+  if (onlyLang) log(`one language: ${onlyLang} (prefixes ${langPrefixes(onlyLang).join(", ")}); every other file in the bucket is left as it is`);
+  let ops = diff(desired, scoped());
   let copies = ops.filter((o) => o.op === "COPY").length;
   if (!dryRun && stored !== null && copies >= RECONCILE_MIN) {
     const prefixes = [...new Set(ops.filter((o) => o.op === "COPY").map((o) => o.dst.split("/")[0]))];
     const matched = reconcile(desired, previous, listBucket(prefixes));
     log(`reconciled with the bucket: ${matched} of ${copies} files to copy are already there (skipped)`);
-    ops = diff(desired, previous);
+    ops = diff(desired, scoped());
     copies = ops.filter((o) => o.op === "COPY").length;
   }
   const deletes = ops.length - copies;
-  log(`${desired.size} files in dist, ${Object.keys(previous).length} in last publish: ${copies} to copy, ${deletes} to delete`);
-  reportChurn(ops, desired, { copies, deletes, prevCommit: manifest?.commit ?? null });
+  log(`${desired.size} files in dist, ${Object.keys(scoped()).length} in last publish: ${copies} to copy, ${deletes} to delete`);
+  reportChurn(ops, desired, { copies, deletes, prevCommit: (onlyLang ? manifest?.langs?.[onlyLang] : onlyShared ? manifest?.shared : null) ?? manifest?.commit ?? null });
+  // The commit the manifest names is the last full publish. A one-language publish keeps it and records its own
+  // commit under `langs`; a full publish drops `langs`, since every language is then at its commit again.
+  // A shared-parts publish does the same under `shared`. Each partial publish carries the other's note forward.
+  const carried = { commit: manifest?.commit ?? null, ...(manifest?.langs ? { langs: manifest.langs } : {}), ...(manifest?.shared ? { shared: manifest.shared } : {}) };
+  const meta = onlyLang
+    ? { ...carried, langs: { ...(manifest?.langs ?? {}), [onlyLang]: process.env.GITHUB_SHA ?? null } }
+    : onlyShared ? { ...carried, shared: process.env.GITHUB_SHA ?? null }
+    : { commit: process.env.GITHUB_SHA ?? null };
 
   if (dryRun) return;
   // Archives left in staging by a failed run are not touched here: nothing is deleted
@@ -535,7 +592,7 @@ async function main() {
     await Promise.all(Array.from({ length: Math.min(parallel, archives.length) }, runner));
     // Record this batch, so a failure in a later batch does not send it again.
     applyToPrevious(previous, batchOps, desired);
-    writeManifest(dir, previous, b + 1 < batches);
+    writeManifest(dir, previous, b + 1 < batches, meta);
     if (b + 1 < batches) {
       log(`batch ${b + 1}/${batches} applied and recorded; pausing ${BATCH_PAUSE_MS / 1000}s before the next batch`);
       await sleep(BATCH_PAUSE_MS);
@@ -559,8 +616,8 @@ export function applyToPrevious(previous, batchOps, desired) {
 
 // commit: the build this manifest describes, recorded for tracing (null outside CI).
 // partial: true while later batches of the same run are still to come.
-function writeManifest(dir, files, partial) {
-  const next = { version: 1, commit: process.env.GITHUB_SHA ?? null, partial, files };
+function writeManifest(dir, files, partial, meta) {
+  const next = { version: 1, ...meta, partial, files };
   const manifestFile = join(dir, "manifest.json");
   writeFileSync(manifestFile, JSON.stringify(next));
   execFileSync("aws", ["s3", "cp", manifestFile, `s3://${bucket}/${MANIFEST_KEY}`, "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });

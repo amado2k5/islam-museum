@@ -1,0 +1,19 @@
+---
+id: concept/kufic-script
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/kufic-script.md}
+---
+## Résumé
+Maryam Ekhtiar considère l'essor de la courie entre la fin du VIIe et le début du VIIIe siècle, ainsi que sa diffusion, comme un développement majeur dans l'histoire de la [[concept/islamic-calligraphy|calligraphie islamique]]. Le nom vient de [[place/kufa|Koufa]], mais il désigne une catégorie d'écritures anguleuses comportant de nombreuses variantes, pas nécessairement un lieu de production. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 23}
+
+## Caractéristiques
+Le Kufic suivait des règles précises pour les lettres calibrées avec proportions géométriques et régularité, et remplaça [[concept/hijazi-script|ainsi le hijazi]] comme écriture privilégiée pour copier le Coran, statut qu'il conserva jusqu'au milieu ou à la fin du Xe siècle environ. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 23} Il se caractérise par la clarté, un espacement généreux et l'extension horizontale des lettres le long de la ligne de base. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 23} Les plus anciens dinars, daté de 76 H/696–97 ap. J.-C., portent des versets coraniques dans un kufique formel précoce {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 23} ; voir [[concept/quranic-inscriptions-on-coins|inscriptions coraniques sur les pièces]] de monnaie et [[event/abd-al-malik-coinage|la réforme de la monnaie]]. Un exemple architectural daté est l'inscription autour de l'ambulatoire du [[building/dome-of-the-rock|Dôme du Rocher]], 72 H/691–92 apr. J.-C.. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 23}
+
+## Kufic Qur'ans
+Les Corans du VIIIe au Xe siècle étaient principalement écrits sur parchemin, en formats vertical, carré et oblong ; à partir de la seconde moitié du VIIIe siècle, le format oblong avec quelques lignes par page devint la norme. La plupart des premiers Corans kufiques étaient construits de quinions — des cordes de cinq feuilles pliées — reliés en cuir et conservés dans des coffres. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 23} Un bifolium tiré d'un Coran abbasside au Met comporte sept lignes de kufic gras ; l'étirement horizontal des lettres pouvait aussi indiquer au récitant de prolonger une lettre ou un mot, les voyelles sont des points rouges ou verts, et les points consonniques sont largement absents. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 32} Une fois que le [[concept/new-style-script|nouveau style]] et les écritures arrondies ont pris le dessus, le kufique fut limité à l'ornementation telle que les sures. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 24}
+
+## Dans al-Qalqashandi et Blair
+Al-Qalqashandi rapporte de l'auteur d'al-Abhath al-Jamila que l'écriture arabe est ce que l'on appelle aujourd'hui la kufique et que les plumes utilisées aujourd'hui en sont dérivées, et d'Ibn al-Husayn que la courbe possède plusieurs plumes qui remontent à deux racines, arrondissement et extension. {cite:subh-al-asha-cairo-v3 p. 15} Il rejette l'idée selon laquelle Ibn Muqla aurait été le premier à inventer cela, affirmant trouver des livres dans la main des premiers auteurs datant d'avant les deux cents qui ne sont pas sous forme kufique mais s'en écartent vers les formes établies, bien qu'ils s'y penchent davantage car ils en sont proches de leur dérivation. {cite:subh-al-asha-cairo-v3 p. 15} Blair note que le mot kufique était déjà courant dès le Xe siècle. {cite:blair-islamic-calligraphy-2006 p. 171}

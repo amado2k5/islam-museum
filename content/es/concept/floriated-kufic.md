@@ -1,0 +1,16 @@
+---
+id: concept/floriated-kufic
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate document pilot, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/concept/floriated-kufic.md}
+---
+## Resumen
+La escritura cúfica florida es un estilo de [[concept/kufic-script|escritura cúfica]] en el que los extremos y los versos verticales de las letras están decorados con hojas, tallos y flores. Es famosa en las inscripciones del Egipto fatimí, pero [[person/bernard-okane|Bernard O'Kane]] subraya que no fue una invención fatimí: un siglo antes de que los fatimíes llegaran a El Cairo, Mubarak al-Makki esculpió una lápida fechada en Dhu'l-Hijja 243/marzo de 858, que se conserva en el Museo de Arte Islámico de El Cairo, uno de los primeros ejemplos maduros. Poco antes de la conquista fatimí, Khadija al-Tara'ifi fue enterrada en la Pequeña Qarafa (20 de Shawwal de 347/4 de enero de 959), y la inscripción de su tumba es una obra maestra de escritura cúfica ligeramente florida; otro ejemplo es el panel del visir ikhshidí Ibn al-Furat (355/966). {cite:okane-monumental-calligraphy-fatimid-egypt p. 1}
+
+## Sobre los monumentos fatimíes
+Los primeros ejemplos fatimíes que se conservan son las inscripciones en estuco de [[building/al-azhar|al-Azhar]] (terminadas en 972): la gran inscripción exterior del mihrab está decorada con motivos florales, con nudos ocasionales; la más pequeña, alrededor del arco interior, presenta una decoración floral más sutil, y la mayoría de las demás la utilizan con moderación. En la [[building/mosque-of-al-hakim|Mezquita de al-Hakim]] (terminada en 1013), la decoración floral es más consistente, con una importante innovación en las grandes inscripciones de piedra de los minaretes: un doble tallo acanalado del que brotan las hojas, que se extienden por debajo o a través de los pilares adyacentes para añadir movimiento y fluidez. En las obras de [[person/badr-al-jamali|Badr al-Jamali]], como el Mashhad al-Juyushi en el Muqattam (487/1085), los motivos vegetales a menudo emergen del marco en lugar de las letras, y por primera vez las letras se colocan sobre un fondo geométrico de rosetas formadas por seis rombos. {cite:okane-monumental-calligraphy-fatimid-egypt p. 2} {cite:okane-monumental-calligraphy-fatimid-egypt p. 5}
+
+## No solo la floración
+O'Kane señala que la ornamentación floral era una forma de realzar las inscripciones fatimíes, pero no la única: a menudo las letras se dejaban lisas y el fondo se rellenaba con motivos ornamentales, como en la inscripción inferior de la fachada de la [[building/al-aqmar-mosque|Mezquita de Aqmar]], en contraste con la superior ornamentada. Quedan preguntas sin respuesta, que plantea sin llegar a una conclusión: ¿tenía la ornamentación floral la intención de ocultar información? ¿Tenía la conservación fatimí del cúfico algún significado ideológico? {cite:okane-monumental-calligraphy-fatimid-egypt p. 1} {cite:okane-monumental-calligraphy-fatimid-egypt p. 2} {cite:okane-monumental-calligraphy-fatimid-egypt p. 10}

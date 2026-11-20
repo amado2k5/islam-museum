@@ -1,0 +1,21 @@
+---
+id: concept/lahw-fiqh
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/lahw-fiqh.md}
+---
+## Résumé
+Lahw, dans le lexique, est toute fausseté qui détourne l'attention du bien et de ce qui compte ; al-Tartushi la définit comme le fait de détendre l'âme avec ce que la sagesse ne requiert pas, et al-Qurtubi note qu'elle est parfois utilisée comme euphémisme pour désigner les rapports, puisqu'elle détourne le cœur. En fiqh, le sens lexical est en grande partie valable : tout ce qu'une personne apprécie et qui détourne, et qui passe ensuite {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13708}. La règle de base est que toute diversion qui n'apporte aucun bénéfice religieux dans ce monde ou dans le prochain est vaine, sauf le tir à l'arc, l'entraînement d'un cheval et le jeu avec sa femme, ce qui est juste car il s'agit d'utiles fins {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13708}.
+
+## Terme connexe : play (la'b)
+Dans le lexique, le jeu (la'b) signifie rechercher la joie dans ce pour quoi on ne devrait pas la chercher {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13708}. Al-Barakti le définit comme une activité infantile qui laisse lassitude et aucun bénéfice ; lahw est le terme plus large {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13708}. Les détails se trouvent sous l'entrée sur le jeu {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13709}.
+
+## Lahw au sens du jeu
+Le texte de base est la phrase du Prophète : toute diversion à laquelle un fils d'Adam s'adonne est vaine, sauf trois, le tir à l'arc, l'entraînement d'un cheval et le jeu avec sa femme. Le fait est que toute diversion sans intérêt religieux est vaine, tandis que ces trois-là ont raison car le tir à l'arc et l'entraînement des chevaux aident à la guerre et le jeu avec une épouse peuvent mener à un enfant qui vénère Dieu {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13708}. Al-Khattabi dit que toutes sortes de divertissements sont interdites, sauf celles-ci, puisque chacune remplit soit un droit, soit y mène à un, et l'escrime avec des armes et un entraînement similaire qui endurcit un homme au combat leur appartiennent {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13709}. Les loisirs oisifs tels que le backgammon, les échecs, les courses de pigeons et toute pièce qui ne sert aucun droit et ne se rafraîchit pas pour un devoir sont totalement interdits {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13709}.
+
+## Lahw au sens du chant
+Les juristes interdisent de chanter lorsque les versets sont amateurs sur les femmes, décrivent leur beauté ou mentionnent le vin et des choses interdites, car c'est là le chant lahw et blâmable convenu {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13709}. Lorsque le chant est exempt de tentation et de blâme, certains juristes le permettent, d'autres l'aiment, et un groupe l'interdit {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13709}. Les détails se trouvent sous les entrées sur l'écoute et le chant {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13709}.
+
+## Instruments de diversion frappants
+La plupart des juristes estiment que frapper des instruments à cordes, tels que le rebab, l'oud et le qanun, et les écouter, est interdit {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13709}. Ibn Hajar al-Haytami énumère le tanbur, l'oud, les cymbales, le rebab, le janak, le kamanja, le santir et le daraj parmi les instruments à cordes et de musique et affirme que leur interdiction est incontestée {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13709}. Al-Qurtubi affirme qu'il n'y a aucun débat sur l'interdiction d'écouter les flûtes, les cordes et le kuba, et qu'il ne connaît aucun érudit antérieur ou ultérieur qui les ait autorisées, puisqu'elles sont l'emblème des buveurs de vin, de l'immoralité et du désir éveillé {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13709}. Il ne doute pas de leur interdiction et que celui qui les joue est un pécheur et un corrompu {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13710}. Pour ce qui est licite et interdit parmi les distractions, voir les entrées sur les instruments de musique et sur l'écoute {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13710}.

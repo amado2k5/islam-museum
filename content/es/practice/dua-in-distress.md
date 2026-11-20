@@ -1,0 +1,12 @@
+---
+id: practice/dua-in-distress
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/practice/dua-in-distress.md}
+---
+## Resumen
+La súplica de angustia y asuntos graves, tal como la recoge al-Nawawi en al-Adhkar: el informe de Ibn Abbas en los dos Sahihs, «يا حي يا قيوم برحمتك أستغيث» del libro de al-Tirmidhi, las súplicas de los afligidos de Sunan Abi Dawud y la súplica de Dhu al-Nun. {cite:al-adhkar-nawawi-arnaut-1994 p. 121}
+
+## Lo que al-Nawawi reúne en al-Adhkar
+Al-Nawawi abre sus capítulos sobre recuerdos en tiempos difíciles con este. De los dos Sahihs, de Ibn Abbas, relata que [[person/muhammad|el Profeta]] dijo angustiado: «لا إله إلا الله العظيم الحليم، لا إله إلا الله رب العرش العظيم، لا إله إلا الله رب السموات ورب الأرض رب العرش الكريم», declarando la unidad de Dios como el Grande, el Paciente, Señor del poderoso Trono y de los cielos y la tierra; una versión en musulmán dice que lo decía cada vez que algo le pesaba {cite:al-adhkar-nawawi-arnaut-1994 p. 121}. Del libro de al-Tirmidhi, de Anas, que cuando algo le angustiaba decía: «يا حي يا قيوم، برحمتك أستغيث», Oh Vivo, Oh Sostenedora, por Tu misericordia pido ayuda; cita el juicio de al-Hakim de que su cadena es sólida {cite:al-adhkar-nawawi-arnaut-1994 p. 121}. De Sunan al-Nasa'i y del libro de Ibn al-Sunni, de Ali, palabras que el Profeta le enseñó a decir cuando llegaba la angustia o la dificultad {cite:al-adhkar-nawawi-arnaut-1994 p. 121}. De Sunan Abi Dawud, de Abu Bakra, las súplicas de los afligidos: «اللهم رحمتك أرجو فلا تكلني إلى نفسي طرفة عين، وأصلح لي شأني كله، لا إله إلا أنت», Espero tu misericordia, así que no me dejes solo ni por un abrir y cerrar de ojos y arreglar todos mis asuntos {cite:al-adhkar-nawawi-arnaut-1994 p. 122}; y de Asma bint Umays, en el Sunan de Abu Dawud e Ibn Majah: «الله الله ربي لا أشرك به شيئا» {cite:al-adhkar-nawawi-arnaut-1994 p. 122}. De Sa'd ibn Abi Waqqas, en el libro de Ibn al-Sunni y en al-Tirmidhi, recoge la súplica de Dhu al-Nun, que es el versículo [[passage/quran-21-87|21:87]] {cite:al-adhkar-nawawi-arnaut-1994 p. 122}. Sigue el capítulo sobre lo que se dice cuando algo asusta o asusta a uno {cite:al-adhkar-nawawi-arnaut-1994 p. 122}.

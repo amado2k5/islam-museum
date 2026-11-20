@@ -1,0 +1,25 @@
+---
+id: passage/muwatta-kitab-06-hajj
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-es-2026-11-19, source: content/en/passage/muwatta-kitab-06-hajj.md}
+---
+## Visión general
+El Libro del Hajj es el sexto libro de la [[work/muwatta-malik|Muwatta]] en la transmisión de [[person/yahya-ibn-yahya-al-laythi|Yahya ibn Yahya al-Laythi]] de [[person/malik-ibn-anas|Malik ibn Anas]], en la edición de Bashshar Awwad Ma'ruf (1997). Ocupa las páginas 433 a 570 del primer volumen en la paginación PDF, y contiene 385 textos numerados (898–1282) en ochenta y tres capítulos. La mayor parte trata sobre las sentencias y ritos del [[practice/hajj|Hajj]] en [[place/mecca|La Meca]], [[place/arafat|Arafat]], [[place/muzdalifa|Muzdalifa]] y [[place/mina|Mina]], y del animal sacrificado y el rescate por lo que ocurra con quien esté en el estado de ihram. {cite:muwatta-maruf-1997 p.433} {cite:muwatta-maruf-1997 p.570}
+
+## Lo que el libro recopila
+- **El muhrim, lo que él evita y la ofrenda** (898–1135): lo que está prohibido al muhrim de perfume, matrimonio, caza y tala de árboles; quien envía una ofrenda que luego se pierde o se extravia; lo que hace quien tiene relaciones con su esposa antes del ifada; la ofrenda de quien ha perdido el Hajj; lo que es fácil obtener de la ofrenda; y quien combinó el Hajj y la Umra y luego no alcanzó el Hajj. {cite:muwatta-maruf-1997 p.516}
+- **De pie en Arafat y Muzdalifa** (1151–1194): el hadiz "todo Arafat es un lugar de estabilidad", el valle de Uranah y el valle de Muhassir; conversación sexual, maldad y disputa; la posición de uno en estado de impureza ritual, de una mujer menstruante y de un muhrim en su montura; la posición de quien ha perdido el Hajj; y la oración combinada en Muzdalifa. {cite:muwatta-maruf-1997 p.521} {cite:muwatta-maruf-1997 p.537}
+- **Mina, la lapidación y el ifada** (1195–1254): la oración en Mina y su abreviamiento; el takbir en los días de Tashriq; la lapidación de los pilares, su orden, su avance y retraso, y la concesión concedida a los pastores de camellos; el ifada, y la resolución sobre una mujer menstruante en la ifada y en La Meca y Mina. {cite:muwatta-maruf-1997 p.538} {cite:muwatta-maruf-1997 p.544}
+- **El rescate** (1243–1265): qué se caza de aves, animales salvajes y langostas; el rescate por afeitarse, perfume y ropa; la elección en el tamattu entre ayuno y la ofrenda; y la expiación de quien olvida parte de sus ritos. {cite:muwatta-maruf-1997 p.553} {cite:muwatta-maruf-1997 p.561}
+- **Hadices completos sobre el Hajj y su conclusión** (1266–1282): hadices exhaustivos sobre el Hajj, incluyendo las palabras del Profeta en Mina "matanza y no hay culpa"; la súplica en el día de Arafat; la historia de Ibn Khatal; el Hajj de una mujer que no había realizado el Hajj sin un mahram; y el ayuno de quien realiza el tamattu'. {cite:muwatta-maruf-1997 p.562} {cite:muwatta-maruf-1997 p.569}
+
+## El método de Malik en el libro
+Malik comienza con lo que le ha llegado sobre los informes del Profeta y de los Compañeros, y luego menciona lo que el pueblo de Medina considera un asunto acordado, diciendo por ejemplo "el asunto sobre el que no hay desacuerdo entre nosotros". El libro se basa a menudo en los relatos de [[person/abdullah-ibn-umar|Abdullah ibn Umar]] transmitidos a través [[person/nafi-al-madani|de Nafi]], y en los dichos de [[person/said-ibn-al-musayyab|Said ibn al-Musayyab]], [[person/al-qasim-ibn-muhammad|al-Qasim ibn Muhammad]] y Urwa. Cita los versículos sobre el Hajj en los capítulos de al-Baqara y al-Ma'ida en muchos lugares, como en la explicación del discurso sexual, la maldad y la disputa. {cite:muwatta-maruf-1997 p.522} {cite:muwatta-maruf-1997 p.523}
+
+## Notas del editor
+El editor registra los transmisores de Malik entre sus compañeros, se refiere a los dos Sahihs, el Sunan y el Musnad al-Jami', y cita [[person/ibn-abd-al-barr|a Ibn Abd al-Barr]] de al-Tamhid sobre transmisiones conectadas y desconectadas y sobre diferencias en la redacción, como las diferencias de los transmisores respecto al número de pilares de la Ka'ba y sobre las palabras "hueco" (furja) y "espacio" (fajwa). Señala que algunos hadices están desconectados a la vista de la mayoría de los transmisores, como el hadiz de la mujer en su camada y el hadiz del Diablo el día de Arafat, y que el hadiz de Muhammad ibn Imran sobre el árbol de acacia es débil porque sus transmisores son desconocidos. {cite:muwatta-maruf-1997 p.533} {cite:muwatta-maruf-1997 p.566}
+
+## Su lugar en el museo
+Cada texto del libro tiene su propio registro. Proporciona el narrador más alto y el capítulo del texto, presenta el contenido del informe en la redacción del museo y registra el takhrij del editor donde sea necesario. Véase [[practice/hajj|Hajj]], [[place/mecca|La]] Meca y [[place/arafat|Arafat]] para conocer los lugares donde aparecen las sentencias del libro. {cite:muwatta-maruf-1997 p.433}

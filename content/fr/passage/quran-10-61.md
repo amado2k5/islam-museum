@@ -1,0 +1,30 @@
+---
+id: passage/quran-10-61
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-10-61.md}
+---
+## Résumé
+Verset 61 de [[passage/quran-10|la sourate Yunus]], une sourate mecquoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 61 sur 109 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Commentaire sur le verset 61 (pp. 114-118)**
+
+Au [[passage/quran-10-61|verset 10:61]], Il dit à Son Prophète : « Tu n’es dans aucun état », Muhammad, c’est-à-dire dans aucune activité, « tu ne récites aucun verset du Coran », ni ne lis aucun Livre de Dieu, « tu n’accomplis aucun acte », hommes, bon ou mauvais, « sans que Nous soyons témoins de toi », c’est-à-dire que Nous sommes témoins de tes œuvres et de tes affaires lorsque tu les accomplis et que tu persévères dans leurs entreprises. Ce hadith est rapporté par Ibn Abbas et d’autres. Le hadith 17696, d’Ibn Abbas, interprète « lorsque tu t’y plonges » comme « lorsque tu agis ». L’éditeur se réfère aux gloses sur « réciter » et « s’y plonger ». {cite:tafsir-tabari-shakir-v15 p. 114}
+
+D'autres ont dit que cela signifie répandre des mensonges sur le Coran (rapport 17697, d'après al-Dahhak ; l'éditeur note que le texte imprimé a mal interprété le manuscrit au début de la phrase). D'autres ont dit que cela signifie se plonger dans la vérité : rapports 17698, 17699 et 17700, d'après Mujahid : dans la vérité, quelle qu'elle soit. {cite:tafsir-tabari-shakir-v15 p. 115}
+
+Al-Tabari explique avoir choisi cette interprétation car Dieu a rapporté que Ses serviteurs n'accomplissent aucun acte sans Son témoignage, et a ensuite associé cette affirmation à « lorsque vous vous y plongez ». Il était donc clair qu'il s'agissait d'une déclaration concernant le moment où les acteurs accomplissent l'œuvre, dont Il est témoin, et non le moment où le Prophète récite le Coran. En effet, si cela concernait Son témoignage lorsque les gens étaient absorbés par le Coran, la lecture avec « ya » serait un rapport concernant les négateurs. Si quelqu'un affirme qu'il ne s'agit pas d'un rapport concernant les négateurs mais d'une adresse au Prophète, indiquant qu'Il est témoin de sa récitation, alors il s'agirait de « lorsque vous vous y plongez » au singulier, car le Prophète est unique, comme dans « et vous ne récitez pas » où il est interpellé seul ; or, le verset commence par s'adresser à lui au singulier puis passe au pluriel, comme dans la forme du verset [[passage/quran-65-1|65:1]], où « lorsque vous divorcez des femmes » est un signe clair que l'adresse s'adresse aux musulmans, au Prophète et aux autres. {cite:tafsir-tabari-shakir-v15 p. 115}
+
+Il est également rapporté qu'aucun de Ses serviteurs n'accomplit d'acte sans qu'Il en soit témoin, le comptabilise et le connaisse, car Il dit : « Rien n'échappe à ton Seigneur », Muhammad, des actes de Sa création, et aucune connaissance ne Lui échappe, que ce soit sur terre ou au ciel. L'étymologie provient de l'image d'un homme loin de sa famille avec son troupeau ; on prononce le verbe avec damma ou kasra, deux usages éloquents, chacun lu par un groupe de lecteurs, et quel que soit le choix du lecteur, il est correct, car les significations concordent et les deux sont courantes en arabe, bien qu'il privilégie la damma, plus fréquente parmi les lecteurs renommés. « Du poids d'un atome » signifie le poids d'une minuscule fourmi ; les Arabes auraient dit : « Prends ceci, c'est plus léger que cela. » L'éditeur se réfère à la glose sur le mot « poids » et au Majaz al-Qur'an d'Abu Ubayda. {cite:tafsir-tabari-shakir-v15 p. 116}
+
+L'atome est l'unité de base des fourmis. Il témoigne que rien de plus petit ne Lui échappe, aussi léger soit-il, ni sa mesure, ni sa quantité, ni rien de plus grand, aussi lourd soit-il. Dieu dit donc à Sa création : « Ô hommes, que vos œuvres soient agréables à votre Seigneur, car Nous sommes témoins de vos actions et rien ne Nous est caché. Nous les comptons et Nous vous en rétribuons. » {cite:tafsir-tabari-shakir-v15 p. 117}
+
+Les lecteurs divergeaient sur l'interprétation de « ni plus petit que cela, ni plus grand ». La plupart lisaient les deux avec une fatha sur le ra, marquant le génitif et reliant le plus petit à l'atome et le plus grand au plus petit, la fatha étant due à la présence de diptères. Certains habitants de Koufa les lisaient avec une damma, liée au sens de « poids », car si le « de » était omis, le poids se trouverait au nominatif, comme dans les deux lectures de la sourate [[passage/quran-35-3|35:3]]. Al-Tabari affirme que la meilleure des deux lectures est celle avec la fatha, le génitif étant lié à l'atome, car c'est la lecture des lecteurs des principales villes et de la majorité des lecteurs, et elle est plus harmonieuse en arabe, bien que l'autre ait une certaine notoriété. L'éditeur note qu'al-Tabari n'a pas mentionné la lecture avec la damma dans son commentaire de la sourate Fatir, ce qu'il considère comme un autre signe d'abréviation de son commentaire par al-Tabari. {cite:tafsir-tabari-shakir-v15 p. 117}
+
+« Sauf dans un livre explicite » signifie tout ce qui se trouve uniquement dans un livre auprès de Dieu, qui révèle clairement la réalité de Son message à quiconque le consulte ; rien n’a été ni ne sera sans qu’Il ne l’y ait consigné, et aucune connaissance de Sa création ne Lui échappe, où qu’elle se trouve dans Ses cieux et sur Sa terre. Les hadiths 17701 et 17702, rapportés par Ibn Abbas : « rien n’échappe » signifie que rien n’est absent de Son champ de vision. {cite:tafsir-tabari-shakir-v15 p. 118}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

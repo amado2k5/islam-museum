@@ -1,0 +1,25 @@
+---
+id: question/is-the-rasm-tawqifi
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/question/is-the-rasm-tawqifi.md}
+---
+## Résumé
+Si l'on dit que les Compagnons ont écrit le codex dans un rasm particulier, l'ont-ils pris du Prophète ou écrit comme ils étaient habitués à écrire ? C'est ce qui, pour les érudits, divise ceux qui font du rasm une base juridique de ceux qui en font une convention respectée. Al-Sabt le considère sous « Le rasm du codex est-il tawqifi ? », et Ibn Khaldun donne son point de vue dans la « Section 3 : que l'écriture fait partie des métiers humains ». {cite:manahil-irfan-sabt p. 317} {cite:muqaddima-ibn-khaldun p. 416}
+
+## Ibn Khaldun et l'origine de l'écriture
+Ibn Khaldun commence par dire que l'écriture est composée de formes et de formes de lettres indiquant les paroles, un noble art parmi les distinctions humaines, et que l'excellence de l'écriture dans une ville accompagne sa civilisation. Il suit ensuite l'écriture arabe : elle était solide sous l'écriture Tubba, l'écriture himyari, et transmise à al-Hira, d'où, comme rapporté, les habitants d'al-Ta'if et de Quraysh l'ont apprise ; on dit que Sufyan ibn Umayya ou Harb ibn Umayya a appris l'écriture auprès d'al-Hira. {cite:muqaddima-ibn-khaldun p. 416} Il cite ce qu'il a vu dans al-Takmila d'Ibn al-Abbar, un rapport d'Abdallah ibn Abbas sur l'origine de l'écriture arabe, passant par Harb ibn Umayya, Abdallah ibn Jud'an et le peuple d'al-Anbar jusqu'à al-Khulajan ibn Qasim, scribe de la révélation pour Hud, dans lequel Quraysh écrivit l'alif, lam, mim et nonme reliés et séparés. {cite:muqaddima-ibn-khaldun p. 417}
+
+## Sa vision du rasm du codex
+Il dit : regardez ce qui a conduit à leur rédaction du codex, que les Compagnons ont écrit de leurs propres mains, pas encore perfectionnés, si bien que beaucoup de leur orthographe s'écartait de ce que les analogies de l'art de l'écrivain exigent chez ses praticiens. Puis les Successeurs ont suivi leur écriture pour la bénédiction de ce que les Compagnons du Messager ont écrit, car de nos jours la main d'un saint ou d'un érudit est suivie pour la bénédiction et son orthographe est suivie, bonne ou fausse ; et comment cela se compare-t-il aux Compagnons dans ce qu'ils ont écrit ? Ainsi cela a été suivi et fixé comme rasm, et les érudits du rasm en notent la place. {cite:muqaddima-ibn-khaldun p. 417} Puis il avertit : « ne vous tournez pas vers ce que certains simples prétendent, à savoir qu'ils étaient maîtres de l'art de l'écriture », considère les explications données pour ajouter ou supprimer une lettre comme arbitraires, et affirme que le fait d'être illettré était une perfection pour le Prophète mais pas pour nous, et que la perfection dans l'art de l'art est relative. {cite:muqaddima-ibn-khaldun p. 418}
+
+## À quoi répond al-Sabt
+Al-Sabt répond à ceux qui considèrent le rasm comme conventionnel afin de permettre sa modification : les preuves pour conserver le rasm uthmanique sont le consensus des Compagnons et de ceux qui les ont suivis, de sorte que le « pour cette raison, les écritures des codex différaient » d'al-Baqillani ne peut être accordé une fois le consensus formé. {cite:manahil-irfan-sabt p. 322} Il sépare deux questions : est-ce tawqifi, et doit-il être conservé ? Il dit que ceux qui ont rendu sa conservation obligatoire n'avaient pas besoin de tawqif. {cite:manahil-irfan-sabt p. 319} Voir [[question/may-the-mushaf-be-written-in-imlai-spelling|Est-ce que le mushaf puisse être écrit en orthographe moderne]]?
+
+## Sur les erreurs des scribes
+Al-Suyuti rapporte des rapports d'A'isha et d'Ibn Abbas indiquant qu'à certains endroits les scribes se trompaient d'orthographe, et les éditeurs de l'édition commentent que certains sont faibles dans la chaîne, qu'Ibn Kathir qualifia l'un des rapports d'Ibn Abbas de « très étrange » car il s'oppose à la lecture massive transmise et au rasm écrit sur lesquels les Compagnons et ceux qui les ont suivis étaient d'accord, et qu'al-Tabari affirme que la lecture découle qu'elle est par accord des autorités entre lecteurs et en accord avec l'écriture des codex musulmans. {cite:itqan-suyuti p. 1250} {cite:itqan-suyuti p. 1251} Ces rapports abordent la question sous un autre angle ; Je ne donne aucun verdict à leur sujet ici et ne copie pas la formulation coranique qu'ils touchent, je ne note que leur existence et les commentaires des éditeurs.
+
+## Ce que je laisse de côté
+Je donne la vision d'Ibn Khaldun à partir du texte même de son Muqaddima, et des points de vue d'al-Baqillani, al-Izz ibn Abd al-Salam et al-Marrakushi à travers al-Sabt et al-Suyuti ; Je ne présente aucune preuve de ceux qui disent tawqif car je n'ai trouvé aucun nom dans ce que je lis. Le musée expose les points de vue et ne choisit pas.

@@ -237,7 +237,7 @@ export function yearsText(n: GNode, lang: Lang): string {
 export function corePayload(lang: Lang) {
   const m = placeMapModel();
   const kinds = [...new Set(m.places.map((p) => p.kind))].sort();
-  const others = (["ar", "en", "ur"] as Lang[]).filter((l) => l !== lang);
+  const others = (["ar", "en", "ur", "fr", "es"] as Lang[]).filter((l) => l !== lang);
   return {
     v: 1,
     kinds,
@@ -351,7 +351,7 @@ export function allRelationTypes(): string[] {
 /** The index under the map: every place by region, sorted by name in the page's language, plus the wing's other records. */
 export function placeIndex(lang: Lang) {
   const m = placeMapModel();
-  const coll = new Intl.Collator(lang === "ur" ? "ur" : lang === "ar" ? "ar" : "en", { sensitivity: "base", numeric: true });
+  const coll = new Intl.Collator(lang === "ur" ? "ur" : lang === "ar" ? "ar" : lang === "fr" ? "fr" : lang === "es" ? "es" : "en", { sensitivity: "base", numeric: true });
   const groups = m.byRegion.map((ix, r) => ({
     id: r < REGIONS.length ? REGIONS[r].id : ELSEWHERE,
     places: ix.map((i) => ({ label: labelOf(m.places[i].node, lang), href: href(lang, m.places[i].id), slug: m.places[i].slug })).filter((p) => p.label).sort((a, b) => coll.compare(a.label, b.label)),

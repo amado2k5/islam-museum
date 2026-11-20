@@ -1,0 +1,32 @@
+---
+id: concept/diyanat-al-jahiliyya
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document, managed by Claude Code)', model: microsoft-translator, run: word-docs-fr-2026-11-19, source: content/en/concept/diyanat-al-jahiliyya.md}
+---
+
+## Vue d'ensemble
+*Al-Rahiq al-Makhtum* esquisse ainsi les religions des Arabes avant l'islam. La plupart d'entre elles étaient sur la religion d'Abraham par l'appel d' [[person/ismail|Isma']] il, jusqu'à ce que le temps s'allonge pour eux, puis [[person/amr-ibn-luhayy|Amr ibn Luhayy]] introduisit des idoles, si bien que le polythéisme devint la marque la plus visible de la religion du peuple de Jahiliyya. Le judaïsme, le christianisme, le zoroastrisme et le sabianisme trouvèrent leur chemin dans les terres des Arabes, puis toutes ces religions tombèrent en déclin. {cite:mubarakpuri-raheeq p.35} {cite:mubarakpuri-raheeq p.39} {cite:mubarakpuri-raheeq p.41}
+
+## Vestiges de la religion d'Abraham
+La plupart des Arabes avaient suivi l'appel d'Isma'il lorsqu'il les invita à la religion de leur père Abraham. Ils adoraient Dieu, affirmaient son unité et professaient Sa religion, jusqu'à ce que le temps s'allonge et qu'ils oublient une partie de ce dont on leur avait rappelé. Le monothéisme resta parmi eux, ainsi que plusieurs rites de la religion d'Abraham. {cite:mubarakpuri-raheeq p.35} {cite:mukhtasar-sirat-al-rasul p.12} Des vestiges de la religion d'Abraham subsistèrent également après le polythéisme, qu'ils n'abandonnèrent jamais totalement, tels que l'honneur de la Maison, sa circumambulation, le pèlerinage et le petit pèlerinage, se tenir à Arafat et Muzdalifa, et offrir des chameaux, bien qu'ils introduisent des innovations dans ceux-ci. {cite:mubarakpuri-raheeq p.38}; voir [[concept/hums|les Hums]].
+
+## Polythéisme et culte des idoles
+Amr ibn Luhayy, chef de Khuza'a, ramena Hubal de Syrie et le plaça à l'intérieur de la Ka'ba, et il invita le peuple de La Mecque au polythéisme, et ils lui répondirent. Puis les habitants du Hijaz les suivirent, car ils étaient les gardiens de la Maison et du sanctuaire. {cite:mubarakpuri-raheeq p.35} {cite:mukhtasar-sirat-al-rasul p.12} L'idole l'aînée de leurs idoles était [[object/manat|Manat]] à al-Mushallal près de Qudayd ; puis [[object/al-lat|al-Lat]] à al-Ta'if ; puis [[object/al-uzza|al-Uzza]] dans le Wadi Nakhla. Ces trois-là étaient leurs plus grands idoles. Puis le polythéisme et le nombre d'idoles se multiplièrent dans chaque partie du Hijaz, jusqu'à ce que chaque tribu ait une idole, puis chaque maison en ait une, et ils remplirent la Mosquée sacrée d'idoles. {cite:mubarakpuri-raheeq p.35} {cite:sahih-al-bukhari 1/222} Ainsi, le polythéisme et le culte des idoles devinrent la plus grande manifestation de la religion du peuple des Jahiliyya, qui affirmaient être sur la religion d'Abraham. {cite:mubarakpuri-raheeq p.36} Les rites de leur culte sont dans [[concept/ibadat-al-asnam-jahiliyya|le culte des idoles dans la Jahiliyya]] ; la divination par flèches se fait dans [[concept/azlam|les]] flèches et [[concept/maysar|le jeu]] ; la divination et l'astrologie dans [[concept/kahana|la divination]] et [[concept/anwa|le lever des étoiles]] ; et l'augure dans [[concept/tiyara|la tiyara]] et [[concept/hama|le hibou]].
+
+## Autres religions
+Cette religion, la religion du polythéisme, du culte des idoles et de la croyance en illusions et superstitions, était la religion de la plupart des Arabes, et le judaïsme, le christianisme, le zoroastrisme et le sabianisme trouvèrent leur chemin jusque dans les terres des Arabes. {cite:mubarakpuri-raheeq p.39} Le judaïsme, à son entrée, est dans [[concept/judaism-in-arabia|sa propre entrée]], et le christianisme dans [[concept/christianity-in-arabia|sa propre entrée]].
+
+Le zoroastrisme se trouvait surtout parmi les Arabes vivant à côté des Perses : dans la partie arabe de l'Irak et à [[place/bahrayn|Bahreïn]] (al-Ahsa'), Hajar, ainsi que sur les côtes du golfe à proximité. Des hommes du Yémen l'adoptèrent également durant l'occupation perse. {cite:mubarakpuri-raheeq p.41} {cite:tarikh-ard-al-quran 2/193-208}
+
+Les Sabiens : des fouilles en Irak et ailleurs ont montré que leur religion était celle du peuple d'Abraham, les Chaldéens. Beaucoup de gens en Syrie et au Yémen y adhéraient dans l'Antiquité. Après que le judaïsme et le christianisme se soient succédés, sa structure s'est affaiblie et son activité s'est estompée, mais des vestiges de ses adeptes sont restés, mélangés aux zoroastriens ou voisins, dans la partie arabe de l'Irak et sur les rives du Golfe. {cite:mubarakpuri-raheeq p.41} {cite:tarikh-ard-al-quran 2/193-208} Voir [[group/sabia-harraniyyun|les Sabiens harraniens]].
+
+## L'état religieux dans l'évaluation de l'auteur
+L'auteur soutient que lorsque l'islam est arrivé, ces religions étaient tombées en décadence et en ruine. Les polythéistes qui revendiquaient la religion d'Abraham étaient loin des commandements et des interdictions de sa loi, et au fil du temps, il a grandi parmi eux ce qui grandit parmi les païens, de coutumes et traditions qui fonctionnent comme des superstitions religieuses. {cite:mubarakpuri-raheeq p.41} Le judaïsme, selon lui, s'était transformé en hypocrisie et arbitraire, et ses dirigeants contrôlaient le peuple et faisaient de leur objectif la faveur de la richesse et du leadership. Le christianisme était devenu difficile à comprendre et avait confondu Dieu avec l'homme, et il n'avait aucune réelle influence sur les âmes des Arabes qui le professaient, car ses enseignements étaient éloignés de leur mode de vie. Les autres religions étaient dans la condition de leurs adeptes, comme celle des polythéistes. {cite:mubarakpuri-raheeq p.42}
+
+## Ce qui n'est pas consigné ici
+Le dernier paragraphe est le jugement de l'auteur à l'intérieur du cadre sunnite. Les points de vue des travaux modernes sur les religions des Arabes avant l'islam, ainsi que les points de vue des Juifs et des chrétiens sur leur histoire dans la péninsule, n'ont pas été ajoutés. La classification par Al-Masudi des Arabes de la Jahiliyya en sectes est mentionnée dans les données de cette entrée.
+
+## Pour les jeunes visiteurs
+Avant l'islam, la plupart des Arabes adoraient les idoles. Certains étaient juifs, chrétiens ou zoroastriens. Certaines pratiques de la religion d'Abraham restèrent parmi elles, comme le pèlerinage à la Ka'ba.
