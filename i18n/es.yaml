@@ -1832,6 +1832,10 @@ explore:
       title: "Explorador de las munazarat"
       desc: "Cada mención de debates y disputas en el Corán, la Sunna, la sira y cada libro recopilado (las discusiones de Ibrahim con su pueblo y con Nemrod, la mubahala con los cristianos de Najran, el intercambio ante el Negus, el debate de Ibn Abbas con los Jawarech), con cada aleya y relato citado."
       menu: "Explorar los debates y disputas en el Corán y los libros"
+    ritha:
+      title: "Navegador de elegías y anuncios de fallecimiento"
+      desc: "Todo lo que se dijo en elegía, anuncio de fallecimiento, condolencias y llanto por los muertos en el Corán, la Sunna, la sira, los relatos de los Compañeros y los Sucesores y cada libro cosechado — el istirŷa', las palabras del Profeta «a Dios pertenece lo que tomó y lo que dio», los anuncios de Ŷa'far, Zayd, Ibn Rawaha y el Negus, las elegías de Hassan y de Ka'b ibn Malik y los límites del lamento — con cada versículo y relato citado."
+      menu: "Explorar las palabras célebres de la elegía, el anuncio de fallecimiento y las condolencias"
     juha:
       title: "Navegador de Juha y del folclore islámico"
       desc: "Juha, Nasreddin Hoca, Ash'ab y Nu'ayman, y las anécdotas, agudezas, bromas y risas en el Corán, la Sunna, la sira y los libros de adab e historia recopilados: cada versículo, relato y anécdota con su fuente."
@@ -7151,6 +7155,92 @@ heroes:
     steadfastness:
       name: "Sala de la Firmeza"
       lede: "El mundo tembló y ellos no se movieron: «Uno, Uno» bajo la roca, el camino más largo hacia la verdad, el día en que la umma tembló y la palabra sin miedo."
+ritha:
+  title: "Navegador de elegías y anuncios de fallecimiento"
+  lede: "Todo lo que se dijo en elegía y anuncio de fallecimiento en las fuentes del museo: los versículos de la paciencia y el istirŷa', las palabras del Profeta a la muerte de su hijo, su nieto y los Compañeros perdidos, su anuncio de la muerte del Negus y de Ŷa'far, Zayd e Ibn Rawaha, las condolencias entre los Compañeros, las elegías de Hassan, Ka'b ibn Malik, al-Jansa' y Labid, los relatos de los Compañeros y los Sucesores ante la muerte de sus seres queridos y las palabras de los libros cosechados — lo que se coseche más adelante se suma automáticamente."
+  badge: "Explorador de elegías y anuncios"
+  status: "Esta versión contiene {n} registros en {s} secciones; los textos son borradores hasta que una persona los lea."
+  method_title: "El método del navegador"
+  method_note: "Cada registro aquí es un registro ordinario del museo, con sus fuentes y su texto en cinco idiomas. Los pasajes se hallan al construir el sitio con un detector prudente sobre los textos: las palabras de la elegía y del poema elegíaco, del anuncio de fallecimiento y del mensajero, de las condolencias, las fórmulas fijas como el istirŷa', «a Dios pertenece lo que tomó y lo que dio» y «la paciencia es en el primer golpe», las palabras del lamento y el llanto solo cuando está junto a una mención de muerte. Los versículos vienen de una tabla revisada, no de un léxico. «Na't» la descripción, «'azahu ila» en la atribución de fuentes, «waritha» en la herencia y el llanto por temor de Dios quedan fuera, los falsos positivos verificados se excluyen por identificador, cada libro cosechado más tarde aporta sus pasajes automáticamente y los registros seleccionados se unen con la etiqueta ritha-browser. Cada pasaje se clasifica: elegía, anuncio de fallecimiento, condolencias, o llanto y lamento."
+  api: "El conjunto completo está disponible en"
+  sections_title: "Las secciones del navegador"
+  kinds_title: "Tipo"
+  all_kinds: "Todos los tipos"
+  formulas_title: "Las palabras y fórmulas célebres"
+  formulas_note: "Las palabras fijas que la comunidad conoce ante una muerte; cada tarjeta abre el pasaje más corto que las contiene, con cuántos se hallaron en las fuentes."
+  formula_count: "{n} en las fuentes"
+  filter_label: "Filtrar registros"
+  filter_none: "Sin resultados."
+  empty: "Aún no hay registros en esta versión."
+  kinds:
+    ritha:
+      title: "Elegía"
+      ar: "رثاء"
+      desc: "Elogio del difunto y enumeración de sus virtudes, en verso y prosa, y las elegías de los Compañeros y los poetas."
+    nay:
+      title: "Anuncio de fallecimiento"
+      ar: "نعي"
+      desc: "Anunciar una muerte a la gente, como el Profeta con Ŷa'far, Zayd, Ibn Rawaha y el Negus."
+    taziya:
+      title: "Condolencias"
+      ar: "تعزية"
+      desc: "Consolar y fortalecer al afligido, el istirŷa', «a Dios pertenece lo que tomó y lo que dio» y la comida para la familia del difunto."
+    bukaa:
+      title: "Llanto y lamento"
+      ar: "بكاء ونياحة"
+      desc: "Las lágrimas del ojo y la pena del corazón, permitidas, y la prohibición del lamento, de golpearse las mejillas y de rasgarse las vestiduras."
+  sections:
+    quran:
+      title: "En el Corán"
+      desc: "Los versículos de la paciencia y el istirŷa' y cada muerte que menciona el Corán: la prueba de los creyentes, la pena de Ya'qub, toda alma probará la muerte, la descripción de los mártires y el alma serena."
+    sunnah:
+      title: "En la Sunna"
+      desc: "Lo que contienen los dos Sahih, el Muwatta y los Sunan: el anuncio del Negus y de Ŷa'far, las condolencias a la hija del Profeta, su llanto por su hijo, la prohibición del lamento y el elogio de la gente ante un cortejo — cada relato con su fuente y número."
+    seerah:
+      title: "En la sira"
+      desc: "Lo que contienen los libros de la sira: la muerte del Profeta y el llanto de los Compañeros, las elegías de Hassan por el Profeta, Hamza y los mártires de Mu'ta y Bir Ma'una, y el anuncio de Zayd, Ŷa'far e Ibn Rawaha; esta sección se llena al cosechar nuevos textos de sira."
+    books:
+      title: "En los demás libros"
+      desc: "Los relatos de los Compañeros, los Sucesores, los historiadores y los literatos: las condolencias de Umar y Mu'awiya, las elegías de los poetas, el llanto de Abu Bakr y Umar y el anuncio de la muerte de califas y sabios en las historias de la comunidad — clasificados el día en que llegan sus pasajes."
+    curated:
+      title: "Los registros seleccionados"
+      desc: "Los registros del museo sobre la elegía, el anuncio, las condolencias y el lamento mismos, y sobre los acontecimientos y poemas vinculados: la elegía de Hassan por el Profeta, las de los mártires de Mu'ta, el dolor del Profeta por Ŷa'far y la muerte de Ibrahim."
+  formulas:
+    istirja:
+      title: "El istirŷa' ante la pérdida"
+      note: "La frase que dice el afligido y la súplica de Umm Salama que la sigue."
+    lillah_ma_akhadh:
+      title: "«A Dios pertenece lo que tomó y lo que dio»"
+      note: "Lo que el Profeta envió a su hija cuando su hijo agonizaba."
+    sadma_ula:
+      title: "«La paciencia es en el primer golpe»"
+      note: "El Profeta a una mujer que lloraba junto a una tumba."
+    ajirni:
+      title: "«Oh Dios, recompénsame en mi desgracia»"
+      note: "La súplica del afligido tal como la transmiten Muslim, Malik y al-Tirmidhi."
+    ayn_tadma:
+      title: "«El ojo llora y el corazón se aflige»"
+      note: "El Profeta ante la muerte de su hijo Ibrahim."
+    ya_abatah:
+      title: "«Oh padre mío»"
+      note: "Las palabras de Fátima el día de la muerte del Profeta."
+    man_kana_yabudu:
+      title: "«Puro en la vida y en la muerte»"
+      note: "Abu Bakr junto al Profeta el día de su muerte y su discurso después."
+    al_jafar:
+      title: "«Preparad comida para la familia de Ŷa'far»"
+      note: "La sunna de alimentar a la familia del difunto."
+    nay_najashi:
+      title: "El anuncio de la muerte del Negus"
+      note: "El Profeta lo anunció el día de su muerte y rezó por él en ausencia."
+    adhkuru_mahasin:
+      title: "«Mencionad lo bueno de vuestros muertos»"
+      note: "La raíz de la elegía permitida y del elogio de la gente ante un cortejo."
+  viz:
+    title: "Los cuatro estandartes de luto"
+    note: "Cuatro estandartes con orillo negro, uno por tipo de registro: elegía, anuncio de fallecimiento, condolencias, y llanto y lamento; cada uno muestra cuántos registros lleva, una barra de dónde se hallaron en las fuentes y tres registros para abrir. Contados aquí: {n} registros, todos en las listas de abajo. Los tipos vienen del detector y de los registros seleccionados, no de un juicio del museo."
+    region: "Registros por tipo y sección"
+    col_kind: "Tipo"
 juha:
   title: "Navegador de Juha y del folclore islámico"
   full_title: "Navegador de Juha, del folclore islámico a través de los tiempos, la comedia, los chistes, las agudezas y las anécdotas"

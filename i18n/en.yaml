@@ -1846,6 +1846,10 @@ explore:
       title: "Munazarat Browser"
       desc: "Every mention of debates and disputations in the Qur'an, the Sunnah, the seerah and every harvested book — Ibrahim's arguments with his people and Nimrod, the mubahala with the Christians of Najran, the exchange before the Negus, Ibn Abbas's debate with the Khawarij — with every verse and report cited."
       menu: "Browse the debates and disputations in the Qur'an and books"
+    ritha:
+      title: "Elegy and Death-Announcement Browser"
+      desc: "Everything said in elegy, death announcement, condolence and weeping over the dead in the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors and every harvested book — the istirja', the Prophet's «to God belongs what He took and what He gave», the announcements of Ja'far, Zayd, Ibn Rawaha and the Negus, the elegies of Hassan and Ka'b ibn Malik, and the limits of wailing — with every verse and report cited."
+      menu: "Browse the famous words of elegy, death announcement and condolence"
     juha:
       title: "Juha and Islamic Folklore Browser"
       desc: "Juha, Nasreddin Hoca, Ash'ab and Nu'ayman, and the anecdotes, witty tales, jests and laughter in the Qur'an, the Sunnah, the seerah and the harvested books of adab and history — every verse, report and anecdote with its source."
@@ -7214,6 +7218,92 @@ heroes:
     steadfastness:
       name: "Hall of Steadfastness"
       lede: "The world shook and they did not move: 'One, One' beneath the boulder, the longest road to truth, the day the ummah shook, and the unafraid word."
+ritha:
+  title: "Elegy and Death-Announcement Browser"
+  lede: "Everything said in elegy and death announcement in the museum's sources: the verses of patience and the istirja', the Prophet's words at the death of his son and grandson and of the Companions he lost, his announcement of the Negus and of Ja'far, Zayd and Ibn Rawaha, the Companions' condolences to one another, the elegies of Hassan, Ka'b ibn Malik, al-Khansa' and Labid, the reports of the Companions and Successors at the death of those they loved, and the words in the harvested books — whatever is harvested later joins automatically."
+  badge: "Elegy and announcement explorer"
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: "The browser's method"
+  method_note: "Every record here is an ordinary museum record, with its sources and its five-language text. Passages are found at build time by a guarded detector over the passage texts: the words for elegy and the elegy poem, for the death announcement and the announcer, for condolence, the fixed formulas such as the istirja', «to God belongs what He took and what He gave» and «patience is at the first blow», the words of wailing, and weeping only when it stands near a death. Qur'an verses come from a reviewed table, not a lexicon. «Na't» the description, «'azahu ila» in source attribution, «waritha» in inheritance and weeping out of awe of God stay out, verified false positives are excluded by id, every book harvested later brings its passages here automatically, and curated records join through the ritha-browser tag. Each passage is classed as an elegy, a death announcement, a condolence, or weeping and wailing."
+  api: "The whole set is available at"
+  sections_title: "The browser's sections"
+  kinds_title: "Kind"
+  all_kinds: "All kinds"
+  formulas_title: "The famous words and formulas"
+  formulas_note: "The fixed words the community knows at a death; each card opens the shortest passage that carries it, with how many were found in the sources."
+  formula_count: "{n} in the sources"
+  filter_label: "Filter records"
+  filter_none: "No matches."
+  empty: "No records in this build yet."
+  kinds:
+    ritha:
+      title: "Elegy"
+      ar: "رثاء"
+      desc: "Praise of the dead and the recounting of his virtues, in verse and prose, and the elegies of the Companions and poets."
+    nay:
+      title: "Death announcement"
+      ar: "نعي"
+      desc: "Telling the people of a death, such as the Prophet's announcement of Ja'far, Zayd, Ibn Rawaha and the Negus."
+    taziya:
+      title: "Condolence"
+      ar: "تعزية"
+      desc: "Consoling and steadying the bereaved, the istirja', «to God belongs what He took and what He gave», and food for the family of the dead."
+    bukaa:
+      title: "Weeping and wailing"
+      ar: "بكاء ونياحة"
+      desc: "The tears of the eye and the sorrow of the heart that are permitted, and the prohibition of wailing, slapping the cheeks and tearing the garments."
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The verses of patience and the istirja' and every death the Qur'an mentions: the trial of the believers, Ya'qub's grief, every soul tasting death, the description of the martyrs and the soul at peace."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "What the two Sahihs, the Muwatta and the Sunan carry: the announcement of the Negus and Ja'far, the condolence to the Prophet's daughter, his weeping over his son, the prohibition of wailing and the people's praise at a funeral — every report with its source and number."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah books carry: the Prophet's death and the Companions' weeping, Hassan's elegies for the Prophet, Hamza and the martyrs of Mu'ta and Bir Ma'una, and the announcement of Zayd, Ja'far and Ibn Rawaha; this section fills as new seerah texts are harvested."
+    books:
+      title: "In the other books"
+      desc: "The reports of the Companions, the Successors, the historians and the litterateurs: the condolences of Umar and Mu'awiya, the elegies of the poets, the weeping of Abu Bakr and Umar, and the announcement of the caliphs and scholars in the community's histories — classified the day their passages arrive."
+    curated:
+      title: "The curated records"
+      desc: "The museum's own records on elegy, announcement, condolence and wailing, and on the events and poems tied to them: Hassan's elegy for the Prophet, the elegies of the martyrs of Mu'ta, the Prophet's grief over Ja'far, and the death of Ibrahim."
+  formulas:
+    istirja:
+      title: "The istirja' at a loss"
+      note: "The phrase the afflicted say, and Umm Salama's supplication after it."
+    lillah_ma_akhadh:
+      title: "«To God belongs what He took and what He gave»"
+      note: "What the Prophet sent to his daughter as her child lay dying."
+    sadma_ula:
+      title: "«Patience is at the first blow»"
+      note: "The Prophet to a woman weeping at a grave."
+    ajirni:
+      title: "«O God, reward me in my loss»"
+      note: "The supplication of the afflicted as Muslim, Malik and al-Tirmidhi relate it."
+    ayn_tadma:
+      title: "«The eye weeps and the heart grieves»"
+      note: "The Prophet at the death of his son Ibrahim."
+    ya_abatah:
+      title: "«O my father»"
+      note: "The words of Fatima on the day the Prophet died."
+    man_kana_yabudu:
+      title: "«Pure in life and in death»"
+      note: "Abu Bakr at the Prophet's side on the day he died, and his address afterwards."
+    al_jafar:
+      title: "«Make food for Ja'far's family»"
+      note: "The sunna of feeding the family of the dead."
+    nay_najashi:
+      title: "The announcement of the Negus"
+      note: "The Prophet announced him the day he died and prayed over him in absence."
+    adhkuru_mahasin:
+      title: "«Mention the good of your dead»"
+      note: "The root of the permitted elegy and of the people's praise at a funeral."
+  viz:
+    title: "The four mourning banners"
+    note: "Four banners with a black selvedge, one per kind of record: elegy, death announcement, condolence, and weeping and wailing; each shows how many records it carries, a bar of where they were found in the sources and three records to open. Counted here: {n} records, all of them in the lists below. The kinds come from the detector and the curated records, not from a judgement of the museum."
+    region: "Elegy and announcement records by kind and section"
+    col_kind: "Kind"
 juha:
   title: "Juha and Islamic Folklore Browser"
   full_title: "Browser of Juha, Islamic folklore through the ages, comedy, jokes, witty tales and anecdotes"

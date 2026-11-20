@@ -13,6 +13,15 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.26.0 — 2026-11-20
+### Added
+- **A new browser for the most famous words of elegy and of announcing a death (`/{lang}/ritha/`, «متصفح أشهر ما قيل في الرثاء والنعي»).** It gathers 607 records from the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors and the harvested books: the verses of patience, the Prophet's words «to God belongs what He took and what He gave» and «patience is at the first blow», his announcement of Ja'far, Zayd, Ibn Rawaha and the Negus, the condolences, Hassan's and Ka'b ibn Malik's elegies, and the limits of weeping and wailing. It opens with four mourning banners, a death-notice frame and the famous formulas; it is in the Explore menu, on the landing page, in the API (`/api/v1/ritha.json`), `llms.txt` and the OpenAPI file, in all five languages.
+- **A new record, `concept/ritha-wal-nay`, with prose in Arabic, English, Urdu, French and Spanish,** and nineteen existing records on elegy, announcement, condolence and wailing filed into the browser.
+### Data
+- **395 passages harvested for the browser:** 74 reports from the seven hadith-api Arabic editions and 321 cited excerpts (at most 40 words, machine-read, not corrected) from 38 OCR'd books, each with its label and summary in five languages.
+### Tests
+- **The feature API test covers the new export** (`scripts/features-api.test.ts`): kinds, corpus sections, a book harvested later, and the three false-positive families (inheritance, source attribution, «نعت» the description).
+
 ## v2.25.0 — 2026-11-20
 ### Added
 - **The Juha and Islamic Folklore Browser (متصفح جحا والفلكلور الإسلامي عبر العصور والكوميديا والنكت والطرائف والنوادر), at `/{lang}/juha/` in all five languages.** A new front door for humour in the Islamic tradition, requested by the founder on 20 November 2026: Juha and Nasreddin Hoca, the named wits and fools, the anecdote genre (nawadir), jesting, laughter and smiling, and the ethics of the joke — in the Qur'an, the Sunnah, the seerah, the reports of the Companions and Successors, and the harvested books. The page is a storyteller's gathering unlike any other browser: Juha riding his donkey backwards, the gathering of the wits as medallion seats, a strip of Juha's anecdotes as speech bubbles, a "scale of laughter" showing which kinds of humour each section carries, and the shelf of the anecdote books; below them, six sections with kind chips and a search box. It has a card on the homepage, an entry in the Explore menu, and its own data file at `/api/v1/juha.json` (documented in `docs/data/README.md`, the OpenAPI file and `llms.txt`). Passages are found at build time by a guarded detector (`scripts/juha.ts`), so every book harvested later brings its jokes here with no further work. The founder's brief is kept word for word in `docs/engineering/64-juha-browser-requirements.md` with twelve acceptance tests for production; the plan is `docs/plan/72-juha-browser.md`.

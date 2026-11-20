@@ -1,0 +1,18 @@
+id: passage/tarikh-baghdad-ritha-3-409
+class: passage
+unit: chapter
+work: work/tarikh-baghdad-khatib
+ref: "3:409"
+label: { ar: "تاريخ بغداد أو مدينة السلام، المجلد المصوَّر 3، ص 409 — نعي وإخبار بوفاة", en: "Tarikh Baghdad aw Madinat al-Salam, scan volume 3, p. 409 — a death announcement", ur: "تاریخ بغداد او مدینۃ السلام، اسکین جلد 3، ص 409 — وفات کی خبر", fr: "Tarikh Bagdad aw Madinat al-Salam, volume numérisé 3, p. 409 — une annonce de décès", es: "Tarikh Bagdad aw Madinat al-Salam, volumen escaneado 3, p. 409 — un anuncio de fallecimiento" }
+text: "… أنانا يعلم فى زمانهما والقاسمان ابن معن وابن سلام أخيرنا أبو نعيم الحافظ حدثنا سليمان بن احمد الطبراتى حدثنا عبدان بن محمد المروزى حدثنا أبو سعيد الضرير. قال : كنت عند عبد اللّٰه بن طاهر فورد عليه نعى أبى عبيد …"
+summary:
+  ar: "مقطع من تاريخ بغداد أو مدينة السلام، المجلد المصوَّر 3، ص 409، فيه نعي وإخبار بوفاة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر ولم يصحَّح. يجمعه متصفح أشهر ما قيل في الرثاء والنعي."
+  en: "An excerpt from Tarikh Baghdad aw Madinat al-Salam, scan volume 3, p. 409, that carries a death announcement; from the machine-read scan, quoted within forty words per the sources policy and not corrected. The Elegy and Death-Announcement Browser lists it."
+  ur: "تاریخ بغداد او مدینۃ السلام، اسکین جلد 3، ص 409 کا اقتباس جس میں وفات کی خبر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں اور بغیر تصحیح کے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے درج کرتا ہے۔"
+  fr: "Un extrait de Tarikh Bagdad aw Madinat al-Salam, volume numérisé 3, p. 409, qui contient une annonce de décès; tiré de la numérisation lue par machine, cité dans la limite de quarante mots selon la politique des sources et non corrigé. Le navigateur des élégies et des annonces de décès le recense."
+  es: "Un extracto de Tarikh Bagdad aw Madinat al-Salam, volumen escaneado 3, p. 409, que contiene un anuncio de fallecimiento; tomado del escaneo leído por máquina, citado dentro de cuarenta palabras según la política de fuentes y sin corregir. El navegador de elegías y anuncios de fallecimiento lo recoge."
+relations:
+  - { type: mentions, target: concept/ritha-wal-nay, sources: [source/tarikh-baghdad-khatib] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/tarikh-baghdad/AAlexandrina-106247, page 409; a window of at most 40 words chosen by the elegy and death-announcement detector (scripts/ritha.ts); OCR text not corrected; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-ocr-1" }
+sources: [source/tarikh-baghdad-khatib]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words; the excerpt is machine-read and not corrected" }

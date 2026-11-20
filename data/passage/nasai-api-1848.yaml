@@ -1,0 +1,18 @@
+id: passage/nasai-api-1848
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1848"
+label: { ar: "سنن النسائي 1848 — بكاء على ميت أو نياحة وحدودها", en: "Sunan al-Nasa'i 1848 — weeping over the dead, or wailing and its limits", ur: "سنن النسائی 1848 — میت پر رونا، یا نوحہ اور اس کی حدود", fr: "Sunan al-Nasa'i 1848 — des pleurs sur un défunt, ou la lamentation et ses limites", es: "Sunan al-Nasa'i 1848 — llanto por un difunto, o el lamento y sus límites" }
+text: "أَخْبَرَنَا عُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا يَحْيَى، عَنْ عُبَيْدِ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، عَنْ عُمَرَ، عَنِ النَّبِيِّ قَالَ \" الْمَيِّتُ يُعَذَّبُ بِبُكَاءِ أَهْلِهِ عَلَيْهِ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 1848، فيه بكاء على ميت أو نياحة وحدودها. يجمعه متصفح أشهر ما قيل في الرثاء والنعي مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين وما في الكتب المحصودة في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 1848 (The Book of Funerals), that carries weeping over the dead, or wailing and its limits. The Elegy and Death-Announcement Browser lists it with the texts of the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors and the harvested books on this subject."
+  ur: "سنن النسائی کی حدیث نمبر 1848، جس میں میت پر رونا، یا نوحہ اور اس کی حدود ہے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے قرآن، سنت، سیرت، صحابہ و تابعین کے آثار اور جمع شدہ کتابوں کی عبارتوں کے ساتھ درج کرتا ہے۔"
+  fr: "Un récit dans Sunan al-Nasa'i, n° 1848, qui contient des pleurs sur un défunt, ou la lamentation et ses limites. Le navigateur des élégies et des annonces de décès le recense avec les textes du Coran, de la Sunna, de la sîra, les récits des Compagnons et des Successeurs et les livres moissonnés sur ce sujet."
+  es: "Un relato en Sunan al-Nasa'i, n.º 1848, que contiene llanto por un difunto, o el lamento y sus límites. El navegador de elegías y anuncios de fallecimiento lo recoge junto con los textos del Corán, la Sunna, la sira, los relatos de los Compañeros y los Sucesores y los libros cosechados sobre este tema."
+relations:
+  - { type: mentions, target: concept/ritha-wal-nay, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1848 (book 21 hadith 31); matn excerpt of at most 55 words, honorific formulas left out; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

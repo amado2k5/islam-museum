@@ -1,0 +1,18 @@
+id: passage/muslim-api-2209
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2209"
+label: { ar: "صحيح مسلم 2209 — نعي وإخبار بوفاة", en: "Sahih Muslim 2209 — a death announcement", ur: "صحیح مسلم 2209 — وفات کی خبر", fr: "Sahih Muslim 2209 — une annonce de décès", es: "Sahih Muslim 2209 — un anuncio de fallecimiento" }
+text: "… بْنُ عُبَيْدٍ الْغُبَرِيُّ، حَدَّثَنَا حَمَّادٌ، عَنْ أَيُّوبَ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرِ، بْنِ عَبْدِ اللَّهِ ح. وَحَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، - وَاللَّفْظُ لَهُ - حَدَّثَنَا ابْنُ عُلَيَّةَ، حَدَّثَنَا أَيُّوبُ، عَنْ أَبِي، الزُّبَيْرِ عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، قَالَ قَالَ رَسُولُ اللَّهِ \" إِنَّ أَخًا لَكُمْ قَدْ مَاتَ فَقُومُوا فَصَلُّوا عَلَيْهِ \". قَالَ فَقُمْنَا فَصَفَّنَا صَفَّيْنِ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2209، فيه نعي وإخبار بوفاة. يجمعه متصفح أشهر ما قيل في الرثاء والنعي مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين وما في الكتب المحصودة في هذا الباب."
+  en: "A report in Sahih Muslim, no. 2209 (The Book of Prayer - Funerals), that carries a death announcement. The Elegy and Death-Announcement Browser lists it with the texts of the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors and the harvested books on this subject."
+  ur: "صحیح مسلم کی حدیث نمبر 2209، جس میں وفات کی خبر ہے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے قرآن، سنت، سیرت، صحابہ و تابعین کے آثار اور جمع شدہ کتابوں کی عبارتوں کے ساتھ درج کرتا ہے۔"
+  fr: "Un récit dans Sahih Muslim, n° 2209, qui contient une annonce de décès. Le navigateur des élégies et des annonces de décès le recense avec les textes du Coran, de la Sunna, de la sîra, les récits des Compagnons et des Successeurs et les livres moissonnés sur ce sujet."
+  es: "Un relato en Sahih Muslim, n.º 2209, que contiene un anuncio de fallecimiento. El navegador de elegías y anuncios de fallecimiento lo recoge junto con los textos del Corán, la Sunna, la sira, los relatos de los Compañeros y los Sucesores y los libros cosechados sobre este tema."
+relations:
+  - { type: mentions, target: concept/ritha-wal-nay, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2209 (book 11 hadith 87); matn excerpt of at most 55 words, honorific formulas left out; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
