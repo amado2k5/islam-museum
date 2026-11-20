@@ -1,0 +1,18 @@
+id: passage/nafh-tib-ritha-1-133
+class: passage
+unit: chapter
+work: work/nafh-al-tib
+ref: "1:133"
+label: { ar: "نفح الطيب من غصن الأندلس الرطيب، المجلد المصوَّر 1، ص 133 — رثاء وثناء على ميت", en: "Nafh al-Tib min Ghusn al-Andalus al-Ratib, scan volume 1, p. 133 — an elegy or praise of the dead", ur: "نفح الطب من غوث الاندلس الرطب، اسکین جلد 1، ص 133 — مرثیہ یا میت کی تعریف", fr: "Nafh al-Tib min Ghusn al-Andalus al-Ratib, volume numérisé 1, p. 133 — une élégie ou un éloge du défunt", es: "Nafh al-Tib min Ghusn al-Andalus al-Ratib, volumen escaneado 1, p. 133 — una elegía o elogio del difunto" }
+text: "… من نورِ موسى لا أُطيقُ الوقوفَ حينَ أراهُ وقال في رثائه : فَرَّ إِلى الجنّة حُورِيُّها وارتفعَ الحسنُ من الأرض وأصبحَ العشاقُ في مأتم بعضهمُ يبكي على بعضٍ وقال فيه : هتف الناعي بشَجْوِ الأبد إذ نعى موسى بن عبد …"
+summary:
+  ar: "مقطع من نفح الطيب من غصن الأندلس الرطيب، المجلد المصوَّر 1، ص 133، فيه رثاء وثناء على ميت؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر ولم يصحَّح. يجمعه متصفح أشهر ما قيل في الرثاء والنعي."
+  en: "An excerpt from Nafh al-Tib min Ghusn al-Andalus al-Ratib, scan volume 1, p. 133, that carries an elegy or praise of the dead; from the machine-read scan, quoted within forty words per the sources policy and not corrected. The Elegy and Death-Announcement Browser lists it."
+  ur: "نفح الطب من غوث الاندلس الرطب، اسکین جلد 1، ص 133 کا اقتباس جس میں مرثیہ یا میت کی تعریف ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں اور بغیر تصحیح کے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے درج کرتا ہے۔"
+  fr: "Un extrait de Nafh al-Tib min Ghusn al-Andalus al-Ratib, volume numérisé 1, p. 133, qui contient une élégie ou un éloge du défunt; tiré de la numérisation lue par machine, cité dans la limite de quarante mots selon la politique des sources et non corrigé. Le navigateur des élégies et des annonces de décès le recense."
+  es: "Un extracto de Nafh al-Tib min Ghusn al-Andalus al-Ratib, volumen escaneado 1, p. 133, que contiene una elegía o elogio del difunto; tomado del escaneo leído por máquina, citado dentro de cuarenta palabras según la política de fuentes y sin corregir. El navegador de elegías y anuncios de fallecimiento lo recoge."
+relations:
+  - { type: mentions, target: concept/ritha-wal-nay, sources: [source/nafh-tib-maqqari] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/nafh-tib/BBib-Alex-05307, page 133; a window of at most 40 words chosen by the elegy and death-announcement detector (scripts/ritha.ts); OCR text not corrected; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-ocr-1" }
+sources: [source/nafh-tib-maqqari]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words; the excerpt is machine-read and not corrected" }

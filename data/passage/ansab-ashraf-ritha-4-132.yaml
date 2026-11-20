@@ -1,0 +1,18 @@
+id: passage/ansab-ashraf-ritha-4-132
+class: passage
+unit: chapter
+work: work/ansab-al-ashraf
+ref: "4:132"
+label: { ar: "أنساب الأشراف، المجلد المصوَّر 4، ص 132 — رثاء وثناء على ميت", en: "Ansab al-Ashraf, scan volume 4, p. 132 — an elegy or praise of the dead", ur: "انساب الاشرف، اسکین جلد 4، ص 132 — مرثیہ یا میت کی تعریف", fr: "Ansab al-Ashraf, volume numérisé 4, p. 132 — une élégie ou un éloge du défunt", es: "Ansab al-Ashraf, volumen escaneado 4, p. 132 — una elegía o elogio del difunto" }
+text: "… بن ضمرة قتل يوم صفين. ومن ولد محربة : يزيد بن نهشل، وكان شاعراً وولي صدقات تيم وعدي وقال : أحقُّ مال فكلوه يأكل أموال تيم وعديّ وعُكُلْ وهلك يزيد بن نهشل، فرثاه الحارث بن الأزور أحد بني مخربة فقال …"
+summary:
+  ar: "مقطع من أنساب الأشراف، المجلد المصوَّر 4، ص 132، فيه رثاء وثناء على ميت؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر ولم يصحَّح. يجمعه متصفح أشهر ما قيل في الرثاء والنعي."
+  en: "An excerpt from Ansab al-Ashraf, scan volume 4, p. 132, that carries an elegy or praise of the dead; from the machine-read scan, quoted within forty words per the sources policy and not corrected. The Elegy and Death-Announcement Browser lists it."
+  ur: "انساب الاشرف، اسکین جلد 4، ص 132 کا اقتباس جس میں مرثیہ یا میت کی تعریف ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں اور بغیر تصحیح کے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے درج کرتا ہے۔"
+  fr: "Un extrait de Ansab al-Ashraf, volume numérisé 4, p. 132, qui contient une élégie ou un éloge du défunt; tiré de la numérisation lue par machine, cité dans la limite de quarante mots selon la politique des sources et non corrigé. Le navigateur des élégies et des annonces de décès le recense."
+  es: "Un extracto de Ansab al-Ashraf, volumen escaneado 4, p. 132, que contiene una elegía o elogio del difunto; tomado del escaneo leído por máquina, citado dentro de cuarenta palabras según la política de fuentes y sin corregir. El navegador de elegías y anuncios de fallecimiento lo recoge."
+relations:
+  - { type: mentions, target: concept/ritha-wal-nay, sources: [source/ansab-al-ashraf] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/ansab-ashraf/BBib-Alex-07711, page 132; a window of at most 40 words chosen by the elegy and death-announcement detector (scripts/ritha.ts); OCR text not corrected; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-ocr-1" }
+sources: [source/ansab-al-ashraf]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words; the excerpt is machine-read and not corrected" }

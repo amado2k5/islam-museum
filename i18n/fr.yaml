@@ -1892,6 +1892,10 @@ explore:
       title: "Navigateur des munazarat"
       desc: "Chaque mention des débats et disputes dans le Coran, la Sunna, la sira et chaque livre récolté — les arguments d''Ibrahim avec son peuple et Nimrod, la mubahala avec les chrétiens de Najran, l''échange devant le Négus, le débat d''Ibn Abbas avec les Kharéjites — avec chaque verset et récit cité."
       menu: "Parcourir les débats et disputes dans le Coran et les livres"
+    ritha:
+      title: "Navigateur des élégies et des annonces de décès"
+      desc: "Tout ce qui fut dit en élégie, en annonce de décès, en condoléances et en pleurs sur les morts dans le Coran, la Sunna, la sîra, les récits des Compagnons et des Successeurs et chaque livre moissonné — l'istirja', la parole du Prophète « à Dieu appartient ce qu'Il a pris et ce qu'Il a donné », les annonces de Ja'far, Zayd, Ibn Rawaha et du Négus, les élégies de Hassan et de Ka'b ibn Malik, et les limites de la lamentation — chaque verset et chaque récit cité."
+      menu: "Parcourir les paroles célèbres de l'élégie, de l'annonce du décès et des condoléances"
     juha:
       title: "Navigateur de Juha et du folklore islamique"
       desc: "Juha, Nasreddin Hoca, Ash'ab et Nu'ayman, et les anecdotes, traits d'esprit, plaisanteries et rires dans le Coran, la Sunna, la sîra et les livres d'adab et d'histoire dépouillés — chaque verset, récit et anecdote avec sa source."
@@ -5356,6 +5360,92 @@ heroes:
     generosity: { name: "Salle de la générosité", lede: "Une fortune entière au service du bien commun : caravanes d’Abd al-Rahman, puits d’Othman, richesse de Khadija et fondation de Fatima." }
     knowledge: { name: "Salle du savoir", lede: "Ils ont porté le savoir comme un dépôt et l’ont payé de leur vie : le fondateur de la théorie juridique, le ferme face à l’inquisition, le savant de Bassora et la langue de vérité." }
     steadfastness: { name: "Salle de la constance", lede: "Le monde tremblait, eux ne bougeaient pas : « Un, Un » sous le rocher, le plus long chemin vers la vérité, le jour où la communauté trembla et la parole sans peur." }
+ritha:
+  title: "Navigateur des élégies et des annonces de décès"
+  lede: "Tout ce qui fut dit en élégie et en annonce de décès dans les sources du musée : les versets de la patience et l'istirja', les paroles du Prophète à la mort de son fils, de son petit-fils et des Compagnons perdus, son annonce de la mort du Négus et de Ja'far, Zayd et Ibn Rawaha, les condoléances des Compagnons, les élégies de Hassan, de Ka'b ibn Malik, d'al-Khansa' et de Labid, les récits des Compagnons et des Successeurs à la mort de leurs proches et les paroles des livres moissonnés — ce qui sera moissonné plus tard s'y ajoute automatiquement."
+  badge: "Explorateur des élégies et annonces"
+  status: "Cette version contient {n} notices en {s} sections ; les textes sont des brouillons tant qu'une personne ne les a pas lus."
+  method_title: "La méthode du navigateur"
+  method_note: "Chaque notice ici est une notice ordinaire du musée, avec ses sources et son texte en cinq langues. Les passages sont trouvés à la construction du site par un détecteur prudent sur les textes : les mots de l'élégie et du poème d'élégie, de l'annonce du décès et du messager, des condoléances, les formules fixes comme l'istirja', « à Dieu appartient ce qu'Il a pris et ce qu'Il a donné » et « la patience, c'est au premier choc », les mots de la lamentation, et les pleurs seulement près d'une mention de mort. Les versets viennent d'une table revue, non d'un lexique. « Na't » la description, « 'azahu ila » dans l'attribution des sources, « waritha » dans l'héritage et les pleurs de crainte de Dieu restent exclus, les faux positifs vérifiés sont exclus par identifiant, tout livre moissonné plus tard apporte ses passages automatiquement, et les notices choisies s'ajoutent par l'étiquette ritha-browser. Chaque passage est classé : élégie, annonce de décès, condoléances, ou pleurs et lamentations."
+  api: "L'ensemble est disponible à"
+  sections_title: "Les sections du navigateur"
+  kinds_title: "Genre"
+  all_kinds: "Tous les genres"
+  formulas_title: "Les paroles et formules célèbres"
+  formulas_note: "Les paroles fixes que la communauté connaît à la mort d'un proche ; chaque carte ouvre le plus court passage qui les porte, avec le nombre trouvé dans les sources."
+  formula_count: "{n} dans les sources"
+  filter_label: "Filtrer les notices"
+  filter_none: "Aucun résultat."
+  empty: "Aucune notice dans cette version pour l'instant."
+  kinds:
+    ritha:
+      title: "Élégie"
+      ar: "رثاء"
+      desc: "Éloge du défunt et énumération de ses vertus, en vers et en prose, et les élégies des Compagnons et des poètes."
+    nay:
+      title: "Annonce de décès"
+      ar: "نعي"
+      desc: "Annoncer un décès aux gens, comme le Prophète pour Ja'far, Zayd, Ibn Rawaha et le Négus."
+    taziya:
+      title: "Condoléances"
+      ar: "تعزية"
+      desc: "Consoler et raffermir l'affligé, l'istirja', « à Dieu appartient ce qu'Il a pris et ce qu'Il a donné », et le repas pour la famille du défunt."
+    bukaa:
+      title: "Pleurs et lamentations"
+      ar: "بكاء ونياحة"
+      desc: "Les larmes de l'œil et la tristesse du cœur, permises, et l'interdiction de la lamentation, de se frapper les joues et de déchirer ses vêtements."
+  sections:
+    quran:
+      title: "Dans le Coran"
+      desc: "Les versets de la patience et de l'istirja' et chaque mort que mentionne le Coran : l'épreuve des croyants, le chagrin de Ya'qub, toute âme goûtant la mort, la description des martyrs et l'âme apaisée."
+    sunnah:
+      title: "Dans la Sunna"
+      desc: "Ce que portent les deux Sahih, le Muwatta et les Sunan : l'annonce du Négus et de Ja'far, les condoléances à la fille du Prophète, ses pleurs sur son fils, l'interdiction de la lamentation et l'éloge des gens au passage d'un cortège — chaque récit avec sa source et son numéro."
+    seerah:
+      title: "Dans la sîra"
+      desc: "Ce que portent les livres de la sîra : la mort du Prophète et les pleurs des Compagnons, les élégies de Hassan pour le Prophète, Hamza et les martyrs de Mu'ta et de Bir Ma'una, et l'annonce de Zayd, Ja'far et Ibn Rawaha ; cette section se remplit à mesure que de nouveaux textes de sîra sont moissonnés."
+    books:
+      title: "Dans les autres livres"
+      desc: "Les récits des Compagnons, des Successeurs, des historiens et des lettrés : les condoléances d'Umar et de Mu'awiya, les élégies des poètes, les pleurs d'Abu Bakr et d'Umar, et l'annonce de la mort des califes et des savants dans les histoires de la communauté — classés le jour où leurs passages arrivent."
+    curated:
+      title: "Les notices choisies"
+      desc: "Les notices du musée sur l'élégie, l'annonce, les condoléances et la lamentation elles-mêmes, et sur les événements et poèmes qui s'y rattachent : l'élégie de Hassan pour le Prophète, celles des martyrs de Mu'ta, le chagrin du Prophète pour Ja'far et la mort d'Ibrahim."
+  formulas:
+    istirja:
+      title: "L'istirja' devant la perte"
+      note: "La formule que dit l'affligé, et la supplication d'Umm Salama qui la suit."
+    lillah_ma_akhadh:
+      title: "« À Dieu appartient ce qu'Il a pris et ce qu'Il a donné »"
+      note: "Ce que le Prophète fit dire à sa fille alors que son enfant se mourait."
+    sadma_ula:
+      title: "« La patience, c'est au premier choc »"
+      note: "Le Prophète à une femme qui pleurait près d'une tombe."
+    ajirni:
+      title: "« Ô Dieu, récompense-moi dans mon malheur »"
+      note: "La supplication de l'affligé telle que la rapportent Muslim, Malik et al-Tirmidhi."
+    ayn_tadma:
+      title: "« L'œil pleure et le cœur s'afflige »"
+      note: "Le Prophète à la mort de son fils Ibrahim."
+    ya_abatah:
+      title: "« Ô mon père »"
+      note: "Les mots de Fatima le jour de la mort du Prophète."
+    man_kana_yabudu:
+      title: "« Pur dans la vie et dans la mort »"
+      note: "Abu Bakr auprès du Prophète le jour de sa mort, et son discours ensuite."
+    al_jafar:
+      title: "« Préparez un repas pour la famille de Ja'far »"
+      note: "La sunna de nourrir la famille du défunt."
+    nay_najashi:
+      title: "L'annonce de la mort du Négus"
+      note: "Le Prophète l'annonça le jour de sa mort et pria sur lui en son absence."
+    adhkuru_mahasin:
+      title: "« Rappelez les qualités de vos morts »"
+      note: "La racine de l'élégie permise et de l'éloge des gens au passage d'un cortège."
+  viz:
+    title: "Les quatre bannières de deuil"
+    note: "Quatre bannières à lisière noire, une par genre de notice : élégie, annonce de décès, condoléances, et pleurs et lamentations ; chacune montre combien de notices elle porte, une barre de leur provenance dans les sources et trois notices à ouvrir. Comptées ici : {n} notices, toutes dans les listes ci-dessous. Les genres viennent du détecteur et des notices choisies, non d'un jugement du musée."
+    region: "Notices par genre et par section"
+    col_kind: "Genre"
 juha:
   title: "Navigateur de Juha et du folklore islamique"
   full_title: "Navigateur de Juha, du folklore islamique à travers les âges, de la comédie, des blagues, des traits d’esprit et des anecdotes"

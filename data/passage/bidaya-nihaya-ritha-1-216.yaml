@@ -1,0 +1,18 @@
+id: passage/bidaya-nihaya-ritha-1-216
+class: passage
+unit: chapter
+work: work/al-bidaya-wal-nihaya
+ref: "1:216"
+label: { ar: "البداية والنهاية، المجلد المصوَّر 1، ص 216 — رثاء وثناء على ميت", en: "al-Bidaya wa-l-Nihaya, scan volume 1, p. 216 — an elegy or praise of the dead", ur: "البدایہ والنہایہ، اسکین جلد 1، ص 216 — مرثیہ یا میت کی تعریف", fr: "al-Bidaya wa-l-Nihaya, volume numérisé 1, p. 216 — une élégie ou un éloge du défunt", es: "al-Bidaya wa-l-Nihaya, volumen escaneado 1, p. 216 — una elegía o elogio del difunto" }
+text: "… حتى صار شقياً، وأخذ الأمير سيف الدين قطز خطه بمائة ألف دينار، وقد هجاه بهاء الدين زهير بن علي، فقال : اللّٰهُ فصاعدا صاعداً وأباهُ لعن وبنيهِ فنازلاً واحداً ثم واحدا ثم قتل بعد ذلك كله ودفن بالقرافة، وقد رثاه …"
+summary:
+  ar: "مقطع من البداية والنهاية، المجلد المصوَّر 1، ص 216، فيه رثاء وثناء على ميت؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر ولم يصحَّح. يجمعه متصفح أشهر ما قيل في الرثاء والنعي."
+  en: "An excerpt from al-Bidaya wa-l-Nihaya, scan volume 1, p. 216, that carries an elegy or praise of the dead; from the machine-read scan, quoted within forty words per the sources policy and not corrected. The Elegy and Death-Announcement Browser lists it."
+  ur: "البدایہ والنہایہ، اسکین جلد 1، ص 216 کا اقتباس جس میں مرثیہ یا میت کی تعریف ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں اور بغیر تصحیح کے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے درج کرتا ہے۔"
+  fr: "Un extrait de al-Bidaya wa-l-Nihaya, volume numérisé 1, p. 216, qui contient une élégie ou un éloge du défunt; tiré de la numérisation lue par machine, cité dans la limite de quarante mots selon la politique des sources et non corrigé. Le navigateur des élégies et des annonces de décès le recense."
+  es: "Un extracto de al-Bidaya wa-l-Nihaya, volumen escaneado 1, p. 216, que contiene una elegía o elogio del difunto; tomado del escaneo leído por máquina, citado dentro de cuarenta palabras según la política de fuentes y sin corregir. El navegador de elegías y anuncios de fallecimiento lo recoge."
+relations:
+  - { type: mentions, target: concept/ritha-wal-nay, sources: [source/al-bidaya-wal-nihaya] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/bidaya-nihaya/AAlexandrina-074483, page 216; a window of at most 40 words chosen by the elegy and death-announcement detector (scripts/ritha.ts); OCR text not corrected; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-ocr-1" }
+sources: [source/al-bidaya-wal-nihaya]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words; the excerpt is machine-read and not corrected" }

@@ -1,0 +1,72 @@
+---
+// "The four mourning banners" (Elegy and Death-Announcement Browser home): four tall banners with
+// a black selvedge, one per kind of record — the elegy, the death announcement, the condolence and
+// the weeping and wailing reports — each showing its count, a bar of where it was found (Qur'an,
+// Sunnah, seerah, books, curated) and three records to open. Drawn at build time from lib/ritha.ts;
+// nothing here needs JavaScript. The counts are also in a table (the text alternative of the bars).
+import { ui, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { rithaItems, RITHA_KINDS, RITHA_SECTIONS } from "../../lib/ritha";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const T = ui(lang) as any;
+const V = T.ritha.viz;
+const byKind = RITHA_KINDS.map((k) => {
+  const items = rithaItems.filter((i) => i.kind === k);
+  const sec = RITHA_SECTIONS.map((s) => ({ s, n: items.filter((i) => i.section === s).length }));
+  // curated records first in the samples, then the Qur'an, then the rest
+  const order = ["curated", "quran", "sunnah", "seerah", "books"];
+  const samples = [...items].sort((a, b) => order.indexOf(a.section) - order.indexOf(b.section) || a.node.id.localeCompare(b.node.id)).slice(0, 3);
+  return { k, items, sec, samples };
+});
+const total = rithaItems.length;
+---
+<section class="rd" aria-labelledby="rd-title" data-pagefind-ignore>
+  <h2 id="rd-title" style="font-size:1.1rem">{V.title}</h2>
+  <p class="muted" style="max-width:var(--measure)">{V.note.replace("{n}", num(total, lang))}</p>
+  <ul class="rd-row" role="list">
+    {byKind.map(({ k, items, sec, samples }) => (
+      <li class={`rd-banner rd-${k}`}>
+        <a class="rd-head" href={`?kind=${k}#sections-title`}>
+          <span class="rd-ar ui" aria-hidden="true">{T.ritha.kinds[k].ar}</span>
+          <span class="rd-name">{T.ritha.kinds[k].title}</span>
+          <span class="rd-n">{num(items.length, lang)}</span>
+        </a>
+        <p class="rd-desc">{T.ritha.kinds[k].desc}</p>
+        <div class="rd-bar" role="img" aria-label={sec.map((x) => `${T.ritha.sections[x.s].title} ${num(x.n, lang)}`).join("، ")}>
+          {sec.filter((x) => x.n > 0).map((x) => <i class={`rd-seg rd-s-${x.s}`} style={`flex:${x.n}`} title={`${T.ritha.sections[x.s].title}: ${x.n}`}></i>)}
+        </div>
+        <ul class="rd-samples" role="list">
+          {samples.map((i) => <li><a href={href(lang, i.node.id)}>{labelOf(i.node, lang)}</a></li>)}
+        </ul>
+      </li>
+    ))}
+  </ul>
+  <table class="visually-hidden">
+    <caption>{V.region}</caption>
+    <thead><tr><th scope="col">{V.col_kind}</th>{RITHA_SECTIONS.map((s) => <th scope="col">{T.ritha.sections[s].title}</th>)}</tr></thead>
+    <tbody>{byKind.map(({ k, sec }) => <tr><th scope="row">{T.ritha.kinds[k].title}</th>{sec.map((x) => <td>{num(x.n, lang)}</td>)}</tr>)}</tbody>
+  </table>
+</section>
+<style is:inline>
+  .rd { margin-top:1.6rem; }
+  .rd-row { list-style:none;padding:0;margin:.8rem 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px; }
+  .rd-banner { background:var(--card);border:1px solid var(--line);border-block-start:10px solid #2b2b33;border-radius:2px 2px 36px 36px / 2px 2px 28px 28px;padding:14px 16px 20px;display:flex;flex-direction:column;gap:.5rem;position:relative; }
+  .rd-banner::before { content:"";position:absolute;inset-inline:10px;inset-block-start:-10px;height:10px;border-block-end:3px double #8a8a96;pointer-events:none; }
+  .rd-ritha { --k:#6b4a8c; } .rd-nay { --k:#2b2b33; } .rd-taziya { --k:#2a7b88; } .rd-bukaa { --k:#7a3a2e; }
+  .rd-head { display:grid;grid-template-columns:1fr auto;gap:2px 10px;text-decoration:none;color:var(--fg);align-items:baseline; }
+  .rd-head:focus-visible { outline:3px solid var(--focus);outline-offset:3px; }
+  .rd-ar { grid-column:1 / -1;font-size:.78rem;color:var(--k);letter-spacing:.02em; }
+  .rd-name { font-weight:700;font-size:1.05rem; }
+  .rd-n { font-size:1.6rem;font-weight:700;color:var(--k);font-variant-numeric:tabular-nums; }
+  .rd-desc { margin:0;font-size:.88rem;color:var(--muted); }
+  .rd-bar { display:flex;gap:2px;height:10px;border-radius:99px;overflow:hidden;background:var(--panel); }
+  .rd-seg { display:block;min-width:4px;background:var(--k); }
+  .rd-s-quran { opacity:1; } .rd-s-sunnah { opacity:.8; } .rd-s-seerah { opacity:.62; } .rd-s-books { opacity:.45; } .rd-s-curated { opacity:.3; }
+  .rd-samples { list-style:none;padding:0;margin:0;display:grid;gap:4px;font-size:.88rem; }
+  .rd-samples a { color:var(--fg);text-decoration-color:var(--k);text-underline-offset:3px; }
+  .rd-samples a:focus-visible { outline:3px solid var(--focus);outline-offset:2px; }
+  .visually-hidden { position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap; }
+</style>

@@ -1,0 +1,18 @@
+id: passage/hamasa-abu-tammam-ritha-317
+class: passage
+unit: chapter
+work: work/hamasa-abu-tammam
+ref: "317"
+label: { ar: "حماسة أبي تمام، ص 317 — نعي وإخبار بوفاة", en: "Hamasa of Abu Tammam, p. 317 — a death announcement", ur: "ابو تمام کی حماسہ، ص 317 — وفات کی خبر", fr: "Hamasa d'Abu Tammam, p. 317 — une annonce de décès", es: "Hamasa de Abu Tammam, p. 317 — un anuncio de fallecimiento" }
+text: "… وكان قد خرج هو وإخوته حكم ووائل وقدامة الى خراسان مع وكيع بن سود فبعث وكيع أخاه وائلا فى بعث الى حرب الترك وبعث أخاه قدامة الى فارس فى بعث آخر وبعث أخامحكما الى سجستان فلم يلبث ان جاءه نعى …"
+summary:
+  ar: "مقطع من حماسة أبي تمام، ص 317، فيه نعي وإخبار بوفاة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر ولم يصحَّح. يجمعه متصفح أشهر ما قيل في الرثاء والنعي."
+  en: "An excerpt from Hamasa of Abu Tammam, p. 317, that carries a death announcement; from the machine-read scan, quoted within forty words per the sources policy and not corrected. The Elegy and Death-Announcement Browser lists it."
+  ur: "ابو تمام کی حماسہ، ص 317 کا اقتباس جس میں وفات کی خبر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں اور بغیر تصحیح کے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے درج کرتا ہے۔"
+  fr: "Un extrait de Hamasa d'Abu Tammam, p. 317, qui contient une annonce de décès; tiré de la numérisation lue par machine, cité dans la limite de quarante mots selon la politique des sources et non corrigé. Le navigateur des élégies et des annonces de décès le recense."
+  es: "Un extracto de Hamasa de Abu Tammam, p. 317, que contiene un anuncio de fallecimiento; tomado del escaneo leído por máquina, citado dentro de cuarenta palabras según la política de fuentes y sin corregir. El navegador de elegías y anuncios de fallecimiento lo recoge."
+relations:
+  - { type: mentions, target: concept/ritha-wal-nay, sources: [source/hamasa-abu-tammam-ed-1916] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/hamasa-abu-tammam-1916/AAlexandrina-206563, page 317; a window of at most 40 words chosen by the elegy and death-announcement detector (scripts/ritha.ts); OCR text not corrected; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-ocr-1" }
+sources: [source/hamasa-abu-tammam-ed-1916]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words; the excerpt is machine-read and not corrected" }

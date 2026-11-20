@@ -1,0 +1,18 @@
+id: passage/muslim-api-2140
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2140"
+label: { ar: "صحيح مسلم 2140 — بكاء على ميت أو نياحة وحدودها", en: "Sahih Muslim 2140 — weeping over the dead, or wailing and its limits", ur: "صحیح مسلم 2140 — میت پر رونا، یا نوحہ اور اس کی حدود", fr: "Sahih Muslim 2140 — des pleurs sur un défunt, ou la lamentation et ses limites", es: "Sahih Muslim 2140 — llanto por un difunto, o el lamento y sus límites" }
+text: "… عُثْمَانُ بْنُ عُمَرَ، أَخْبَرَنَا شُعْبَةُ، عَنْ ثَابِتٍ الْبُنَانِيِّ، عَنْ أَنَسِ بْنِ مَالِكٍ، أَنَّ رَسُولَ اللَّهِ أَتَى عَلَى امْرَأَةٍ تَبْكِي عَلَى صَبِيٍّ لَهَا فَقَالَ لَهَا \" اتَّقِي اللَّهَ وَاصْبِرِي \". فَقَالَتْ وَمَا تُبَالِي بِمُصِيبَتِي. فَلَمَّا ذَهَبَ قِيلَ لَهَا إِنَّهُ رَسُولُ اللَّهِ. فَأَخَذَهَا مِثْلُ الْمَوْتِ فَأَتَتْ بَابَهُ فَلَمْ تَجِدْ عَلَى بَابِهِ بَوَّابِينَ فَقَالَتْ يَا رَسُولَ اللَّهِ لَمْ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2140، فيه بكاء على ميت أو نياحة وحدودها. يجمعه متصفح أشهر ما قيل في الرثاء والنعي مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين وما في الكتب المحصودة في هذا الباب."
+  en: "A report in Sahih Muslim, no. 2140 (The Book of Prayer - Funerals), that carries weeping over the dead, or wailing and its limits. The Elegy and Death-Announcement Browser lists it with the texts of the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors and the harvested books on this subject."
+  ur: "صحیح مسلم کی حدیث نمبر 2140، جس میں میت پر رونا، یا نوحہ اور اس کی حدود ہے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے قرآن، سنت، سیرت، صحابہ و تابعین کے آثار اور جمع شدہ کتابوں کی عبارتوں کے ساتھ درج کرتا ہے۔"
+  fr: "Un récit dans Sahih Muslim, n° 2140, qui contient des pleurs sur un défunt, ou la lamentation et ses limites. Le navigateur des élégies et des annonces de décès le recense avec les textes du Coran, de la Sunna, de la sîra, les récits des Compagnons et des Successeurs et les livres moissonnés sur ce sujet."
+  es: "Un relato en Sahih Muslim, n.º 2140, que contiene llanto por un difunto, o el lamento y sus límites. El navegador de elegías y anuncios de fallecimiento lo recoge junto con los textos del Corán, la Sunna, la sira, los relatos de los Compañeros y los Sucesores y los libros cosechados sobre este tema."
+relations:
+  - { type: mentions, target: concept/ritha-wal-nay, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2140 (book 11 hadith 18); matn excerpt of at most 55 words, honorific formulas left out; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

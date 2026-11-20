@@ -1,0 +1,18 @@
+id: passage/ihya-ritha-3-436
+class: passage
+unit: chapter
+work: work/ihya-ulum-al-din
+ref: "3:436"
+label: { ar: "إحياء علوم الدين، المجلد المصوَّر 3، ص 436 — نعي وإخبار بوفاة", en: "Ihya' 'Ulum al-Din, scan volume 3, p. 436 — a death announcement", ur: "احیاء علوم الدین، اسکین جلد 3، ص 436 — وفات کی خبر", fr: "Ihya' 'Ulum al-Din, volume numérisé 3, p. 436 — une annonce de décès", es: "Ihya' 'Ulum al-Din, volumen escaneado 3, p. 436 — un anuncio de fallecimiento" }
+text: "… يقول لو فارق ذكر الموت قلى ساعة هو القلب فيعود القبض واحدة لفسد. وقال مطرف بن عبد اللّٰه بن الشخير إن هذا الموت قد نفص على أهل النعيم نعيمهم والبسط إليه عند ذلك فاطلبوا نعيها لاموت فيه. وقال عمر بن …"
+summary:
+  ar: "مقطع من إحياء علوم الدين، المجلد المصوَّر 3، ص 436، فيه نعي وإخبار بوفاة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر ولم يصحَّح. يجمعه متصفح أشهر ما قيل في الرثاء والنعي."
+  en: "An excerpt from Ihya' 'Ulum al-Din, scan volume 3, p. 436, that carries a death announcement; from the machine-read scan, quoted within forty words per the sources policy and not corrected. The Elegy and Death-Announcement Browser lists it."
+  ur: "احیاء علوم الدین، اسکین جلد 3، ص 436 کا اقتباس جس میں وفات کی خبر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں اور بغیر تصحیح کے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے درج کرتا ہے۔"
+  fr: "Un extrait de Ihya' 'Ulum al-Din, volume numérisé 3, p. 436, qui contient une annonce de décès; tiré de la numérisation lue par machine, cité dans la limite de quarante mots selon la politique des sources et non corrigé. Le navigateur des élégies et des annonces de décès le recense."
+  es: "Un extracto de Ihya' 'Ulum al-Din, volumen escaneado 3, p. 436, que contiene un anuncio de fallecimiento; tomado del escaneo leído por máquina, citado dentro de cuarenta palabras según la política de fuentes y sin corregir. El navegador de elegías y anuncios de fallecimiento lo recoge."
+relations:
+  - { type: mentions, target: concept/ritha-wal-nay, sources: [source/ihya-shamela-dar-al-marifa] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/ihya-ulum-din/aheaa-olom, page 436; a window of at most 40 words chosen by the elegy and death-announcement detector (scripts/ritha.ts); OCR text not corrected; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-ocr-1" }
+sources: [source/ihya-shamela-dar-al-marifa]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words; the excerpt is machine-read and not corrected" }
