@@ -1,0 +1,51 @@
+---
+// Reader index of al-Sihah, Bulaq 1282/1865 (docs/plan/72-dictionaries-browser.md): one passage per scan page,
+// grouped by volume. Each link opens the page's passage record; the text is a machine reading (see the quality note).
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
+import { href, realNodes } from "../../../../lib/graph";
+import { num } from "../../../../lib/nav";
+
+export function getStaticPaths() {
+  return LANGS.map((lang) => ({ params: { lang }, props: { lang } }));
+}
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const M = (T as any).maajim;
+const pages = realNodes
+  .filter((n) => n.tags.includes("maajim-sihah-bulaq"))
+  .map((n) => { const m = /-v(\d)-p(\d+)$/.exec(n.id); return { node: n, vol: m ? Number(m[1]) : 0, page: m ? Number(m[2]) : 0 }; })
+  .sort((a, b) => a.vol - b.vol || a.page - b.page);
+const vols = [...new Set(pages.map((p) => p.vol))];
+const CHUNK = 50;
+---
+<BaseLayout lang={lang} title={M.sihah_title} description={M.sihah_lede} path={`/${lang}/maajim/sihah/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`/${lang}/maajim/`}>{M.title}</a> › {M.sihah_title}</nav>
+    <div data-pagefind-body>
+      <h1>{M.sihah_title}</h1>
+      <p style="font-size:1.2rem;max-width:var(--measure)">{M.sihah_lede}</p>
+      <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{M.sihah_quality}</p>
+      <p class="ui muted">{fmt(M.sihah_count, { n: num(pages.length, lang) })}</p>
+    </div>
+    <div data-pagefind-ignore>
+      {vols.map((v) => {
+        const vp = pages.filter((p) => p.vol === v);
+        const chunks = Array.from({ length: Math.ceil(vp.length / CHUNK) }, (_, i) => vp.slice(i * CHUNK, (i + 1) * CHUNK));
+        return (
+          <section aria-labelledby={`v${v}`} style="margin-top:1.6rem">
+            <h2 id={`v${v}`} style="font-size:1.15rem">{fmt(M.sihah_vol, { v: num(v, lang) })}</h2>
+            {chunks.map((c) => (
+              <details style="margin:.4rem 0">
+                <summary class="ui">{fmt(M.sihah_range, { a: num(c[0].page, lang), b: num(c[c.length - 1].page, lang) })}</summary>
+                <ul role="list" style="display:flex;flex-wrap:wrap;gap:6px;padding:.5rem 0;margin:0;list-style:none">
+                  {c.map((p) => <li><a class="chip" href={href(lang, p.node.id)}>{num(p.page, lang)}</a></li>)}
+                </ul>
+              </details>
+            ))}
+          </section>
+        );
+      })}
+    </div>
+  </div>
+</BaseLayout>

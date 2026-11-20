@@ -1,0 +1,8 @@
+question: "Where does the readable text of a dictionary in the Dictionaries Browser come from, given that the museum's own scans are noisy and Shamela states no redistribution licence?"
+class: "process"
+lane: "maajim"
+options: ["A: read a pre-1925 printing with Apple Vision, one passage per scan page, stated as machine reading", "B: take Shamela's text and strip footnotes", "C: link out only", "D: ask Shamela and the publishers for permission"]
+evidence: ["docs/plan/72-dictionaries-browser.md section 5", "archive.org items tajallughahwasih01jawhuoft and tajallughahwasih02jawhuoft: possible-copyright-status NOT_IN_COPYRIGHT", "docs/sources-policy.md, Dictionaries clause of 20 Nov 2026"]
+verdict: "A, chosen by the founder in chat on 20 November 2026 ('A pilot, link rest'); widened by the founder the same day to all OCR'd pages of the 1865 Bulaq al-Sihah ('all the OCRd pages ... mine and harvest them into islam.museum')."
+rationale: "The authors died long ago and the printing is a public-domain scan with no modern editor's text; the open question was the transcription, which here is the museum's own machine reading. Each page is cited to its scan and states that it is a machine reading with the engine's confidence."
+reversibility: "Fully reversible: the passage records can be removed in one commit; nothing outside the museum depends on them."

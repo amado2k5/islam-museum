@@ -20,6 +20,10 @@ open a new block on top with the new version and today's date.
 - **80 new passages for the Elegy and Death-Announcement Browser:** 40 cited excerpts (at most 40 words, machine-read, not corrected) from each of the two books, on elegies, death announcements and condolence, each labelled in five languages.
 
 ## v2.26.0 — 2026-11-20
+### Added
+- **The text of *al-Ṣiḥāḥ* is now in the museum, page by page.** The 1865 Būlāq printing, read with Apple Vision, is published as 1,228 records, one for each scan page of the two volumes (646 and 582; covers and library plates are left out). Each record cites its scan, shows the page text and says plainly that it is a machine reading: in a sample of six lines checked by eye against the page image, about one word in five had a wrong or split letter. `/{lang}/maajim/sihah/` lists the pages by volume. The text is not yet divided into entries and nothing beyond that sample has been checked. This follows the founder's ruling of 20 November 2026 (route A, then widened to all the pages), now written into `docs/sources-policy.md` and the decision inbox.
+- **A signature view for the Dictionaries Browser: three doors to one root.** The browser's home draws the root ج ر ع filed three ways: by place of articulation in *Kitāb al-ʿAyn*, by last then first radical in *al-Ṣiḥāḥ*, and by first radical in *Asās al-Balāgha*; the Ṣiḥāḥ door links to the scan page where the root actually stands. The browser also has its own thumbnail on the main page, and stays in the Explore menu under Texts.
+- **Page records of a dictionary show their text.** A `passage` of unit `other` now shows its text and its reliability note on its page; no other page changes.
 ### Data
 - **Both volumes of the 1865 Bulaq *al-Ṣiḥāḥ* are now read in full (654 and 590 pages).** The Apple Vision reading of the second volume finished and the register records both outputs with their checksums. The text is still machine output, unchecked, and no entry from it is published yet.
 ### Added

@@ -3548,8 +3548,32 @@ maajim:
     geographic:
       title: "Diccionarios geográficos"
       desc: "Diccionarios de nombres de lugares y de los propios lugares."
+  viz:
+    title: "Tres puertas a una raíz"
+    note: "Una raíz árabe, ج ر ع, y tres maneras en que los grandes diccionarios la ordenan. Elija un diccionario para ver cómo está organizado."
+    root_label: "La raíz yim, ra, ayn"
+    lands: "Dónde está la raíz:"
+    see_page: "Ver la página en el escaneo de Bulaq"
+    ayn:
+      rule: "El Kitab al-Ayn ordena las palabras según el punto de articulación de las letras, de la garganta a los labios, y reúne en un solo lugar todas las permutaciones de una raíz."
+      lands: "en el libro del ayn, la letra de la raíz que se articula más hondo en la garganta."
+    sihah:
+      rule: "al-Sihah hace del último radical de la raíz el capítulo y del primero la sección."
+      lands: "capítulo ayn, sección yim — como muestra la página de la edición de Bulaq."
+    asas:
+      rule: "Asas al-Balagha hace del primer radical de la raíz el capítulo y ordena alfabéticamente las palabras dentro de él."
+      lands: "en el capítulo del yim."
+    caption: "Lo que se dibuja: la ordenación de cada diccionario tal como la describen los artículos de la TDV İslâm Ansiklopedisi citados en su ficha. El lugar de la raíz en al-Ayn se deduce de esa regla; su lugar en al-Sihah lo confirma la página del escaneo."
+  page_text: "El texto de esta página (lectura automática)"
   pilot_title: "Texto legible: el piloto"
-  pilot_note: "El primer texto que se lee entero aquí es al-Sihah de al-Jawhari, según la edición de Bulaq de 1282 AH / 1865 (un escaneo del Internet Archive que el archivo indica como fuera de derechos de autor). Se lee por máquina y cada página se comprueba antes de mostrarse. Todavía no se ha publicado ninguna entrada; cada una indicará su página y la precisión de su lectura."
+  pilot_note: "El primer diccionario que se lee entero aquí es al-Sihah de al-Jawhari, según la edición de Bulaq de 1282 AH / 1865 (un escaneo del Internet Archive que el archivo indica como fuera de derechos de autor). Cada página escaneada es una ficha que cita su página. El texto es una lectura automática y contiene errores: en una muestra de seis líneas comparada con la imagen de la página, aproximadamente una palabra de cada cinco era errónea o estaba partida. Todavía no está dividido en entradas."
+  sihah_link: "Leer al-Sihah, página por página"
+  sihah_title: "al-Sihah de al-Jawhari: la edición de Bulaq, página por página"
+  sihah_lede: "El texto de al-Sihah (Taj al-lugha wa-sihah al-arabiyya) tal como se imprimió en Bulaq en 1282 AH / 1865, una ficha por cada página escaneada de los dos volúmenes."
+  sihah_quality: "¿Qué fiabilidad tiene este texto? Lo leyó Apple Vision a partir de las imágenes de las páginas, sin corrección. En una muestra de seis líneas (unas 80 palabras) comparada a ojo con la imagen de la página el 20 de noviembre de 2026, aproximadamente una palabra de cada cinco tenía una letra equivocada o partida, sobre todo confusiones de una letra y espacios. No se ha comprobado nada más allá de esa muestra, y algunas notas marginales se mezclan con las líneas. Compruebe en el escaneo cualquier palabra en la que se apoye."
+  sihah_count: "{n} páginas escaneadas llevan texto; no se incluyen las cubiertas ni las fichas de biblioteca."
+  sihah_vol: "Volumen {v}"
+  sihah_range: "Páginas escaneadas {a} a {b}"
   sources_title: "De dónde vienen los textos"
   sources_note: "Los escaneos que usa el piloto, con su fuente y su declaración de derechos en cada ficha:"
 ghayb:
