@@ -60,7 +60,7 @@ const BOOKS: Book[] = [
   { dir: "sahaba/usd-ghaba", prefix: "sahaba-usd-ghaba", work: "work/usd-al-ghaba", source: "source/usd-al-ghaba" },
   { dir: "sahaba/isaba", prefix: "sahaba-isaba", work: "work/al-isaba-fi-tamyiz-al-sahaba", source: "source/isaba" },
   { dir: "sahaba/isti-ab", prefix: "sahaba-isti-ab", work: "work/al-istiab", source: "source/isti-ab-ibn-abd-al-barr" },
-  { dir: "sahaba/siyar-alam-nubala", prefix: "siyar-alam-nubala", work: "work/siyar-alam-al-nubala", source: "source/siyar-alam-nubala" },
+  { dir: "sahaba/siyar-alam-nubala", prefix: "siyar-alam-nubala", work: "work/siyar-alam-nubala", source: "source/siyar-alam-nubala" },
   { dir: "adab-zuhd/zuhd-ahmad", prefix: "zuhd-ahmad", work: "work/kitab-al-zuhd-ahmad-ibn-hanbal", source: "source/zuhd-ahmad-dkim-1983" },
   { dir: "adab-zuhd/zuhd-ibn-mubarak", prefix: "zuhd-ibn-mubarak", work: "work/kitab-al-zuhd-ibn-al-mubarak", source: "source/zuhd-ibn-mubarak-azami-scan" },
   { dir: "adab-zuhd/ihya-ulum-din", prefix: "ihya", work: "work/ihya-ulum-al-din", source: "source/ihya-shamela-dar-al-marifa" },
@@ -76,7 +76,7 @@ const BOOKS: Book[] = [
   { dir: "tareekh/ansab-ashraf", prefix: "ansab-ashraf", work: "work/ansab-al-ashraf", source: "source/ansab-al-ashraf" },
   { dir: "tareekh/tarikh-baghdad", prefix: "tarikh-baghdad", work: "work/tarikh-baghdad-khatib", source: "source/tarikh-baghdad-khatib" },
   { dir: "seerah/uyun-athar", prefix: "uyun-athar", work: "work/uyun-al-athar", source: "source/uyun-al-athar-sharqawi-1993" },
-  { dir: "tareekh/tarikh-islam-dhahabi", prefix: "tarikh-islam-dhahabi", work: "work/tarikh-al-islam", source: "source/tarikh-al-islam-dhahabi" }
+  { dir: "tareekh/tarikh-islam-dhahabi", prefix: "tarikh-islam-dhahabi", work: "work/tarikh-islam-dhahabi", source: "source/tarikh-islam-dhahabi" }
 ];
 
 const QURAN_MARK = /[﴾﴿{}]|قوله تعالي|قوله تعالى|قال تعالي|قال تعالى|قال الله|عز وجل|قوله سبحانه|قول الله|الآية/;

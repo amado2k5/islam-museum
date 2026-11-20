@@ -35,6 +35,8 @@ relations:
   - { type: participated_in, target: event/al-dhahabi-tarikh-islam-730, role: "المؤلف", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
   - { type: participated_in, target: event/al-dhahabi-blindness-743, role: "صاحب الحال", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
   - { type: authored, target: work/mizan-al-itidal, sources: [source/mizan-itidal-azimabadi-v1] }
+  - { type: authored, target: work/siyar-alam-nubala, sources: [source/siyar-alam-nubala] }
+  - { type: authored, target: work/tarikh-islam-dhahabi, sources: [source/tarikh-islam-dhahabi] }
   - { type: participated_in, target: event/death-al-dhahabi-748, role: "المتوفَّى", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
 sources: [source/al-aalam, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2, source/mizan-itidal-azimabadi-v1, source/mizan-itidal-azimabadi-v2, source/mizan-itidal-bijawi-v3, source/wikidata]
 external_ids:
