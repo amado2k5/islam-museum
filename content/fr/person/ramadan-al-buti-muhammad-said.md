@@ -1,0 +1,21 @@
+---
+id: person/ramadan-al-buti-muhammad-said
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-20), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-20, source: content/en/person/ramadan-al-buti-muhammad-said.md}
+---
+## Résumé
+Muhammad Sa'id Ramadan al-Buti (1929-2013) était un érudit sunnite syrien d'origine kurde, parmi les auteurs musulmans les plus lus de son époque. Doyen de la faculté de charia de l'université de Damas et prédicateur de la mosquée des Omeyyades, il a écrit plus de soixante livres en défense de l'école chaféite et de la doctrine ash'arite, et a été assassiné alors qu'il enseignait dans une mosquée de Damas en mars 2013. {cite:wikipedia-ramadan-al-bouti-en}
+
+## Enfance et éducation
+Al-Buti naquit en 1929 dans le village de Jilka, près de Cizre, dans le district de Botan, en Turquie ; la biographie arabe situe sa naissance en 1347 de l’Hégire. Son père, Mulla Ramadan, était un érudit qui avait participé à la révolte du cheikh Saïd et qui, en 1933, s’enfuit avec sa famille à Damas, où le jeune garçon grandit. Muhammad Saïd étudia à la mosquée Manjak, dans le quartier d’al-Midan, auprès du cheikh Hasan Habannaka. Il termina ses études à l’Institut d’orientation islamique en 1953, puis se rendit au Caire où il obtint sa licence à la faculté de charia d’al-Azhar ainsi qu’un diplôme d’enseignement. {cite:wikipedia-muhammad-said-ramadan-al-buti-ar} {cite:wikipedia-ramadan-al-bouti-en}
+
+## carrière à Damas
+Il a enseigné à Homs de 1958 à 1961, puis a rejoint l'Université de Damas en tant qu'instructeur en 1960, obtenant son doctorat en principes de la charia en 1965. Il a gravi les échelons de la Faculté de charia — vice-doyen en 1975, doyen en 1977 — et a dirigé son département des croyances et des religions ; à partir de 2008, il a prêché à la mosquée des Omeyyades et a présidé l'Union des savants du Levant. {cite:wikipedia-muhammad-said-ramadan-al-buti-ar} {cite:wikipedia-ramadan-al-bouti-en}
+
+## Pensées et écrits
+Appartenant à l'école shafi'ite de droit et à l'école ash'arite de croyance, al-Buti était un membre du courant néo-traditionaliste qui défendait les quatre écoles sunnites et une piété d'inspiration soufie, s'opposant ainsi au sécularisme et au salafisme. Sa biographie anglaise précise qu'il était spécialisé « selon l'école shafi'ite de droit », tandis que sa biographie arabe le décrit en introduction comme « shafi'ite en matière de madhhab et spécialiste de la croyance des Ahl al-Sunna selon la méthode ash'arite ». Parmi ses plus de soixante ouvrages figurent Fiqh al-Sira, une lecture thématique de la biographie du Prophète ; al-La Madhhabiyya, où il soutient que l'abandon des écoles constitue une innovation dangereuse ; Kubra al-Yaqiniyyat al-Kawniyya, sur la croyance ; ainsi que des études sur les femmes, les droits de l'homme et le dialogue interreligieux. En 2004, le Prix international du Saint Coran de Dubaï l'a désigné personnalité du monde musulman. {cite:wikipedia-ramadan-al-bouti-en} {cite:wikipedia-muhammad-said-ramadan-al-buti-ar}
+
+## La crise syrienne et la mort
+Durant le conflit de 1979-1982, il s'était opposé au soulèvement des Frères musulmans et avait soutenu l'État, tout en critiquant les mesures gouvernementales qu'il jugeait antireligieuses. Lors de la crise qui a débuté en 2011, il a de nouveau soutenu le gouvernement et qualifié les manifestations de fitna, tout en critiquant publiquement le licenciement des enseignantes portant le hijab, décision à la suite de laquelle le président Assad a annulé le décret. Le jeudi 21 mars 2013 (9 Jumada al-awwal 1434 selon le calendrier arabe), il a été tué alors qu'il donnait un cours de tafsir à la mosquée al-Iman, dans le quartier de Mazraa à Damas, lors d'une explosion qui a fait au moins 42 victimes, dont son petit-fils Ahmad. La responsabilité de l'attentat a été contestée : l'État a accusé le Front al-Nosra, tandis que des figures de l'opposition ont accusé le régime lui-même. Il a été enterré près du mausolée de Saladin, à proximité de la mosquée des Omeyyades. {cite:wikipedia-ramadan-al-bouti-en} {cite:wikipedia-muhammad-said-ramadan-al-buti-ar}
