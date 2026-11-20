@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "309"
-label: { ar: "صحيح مسلم 309 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih Muslim 309 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح مسلم 309 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih Muslim 309 — menciones de naciones, religiones y pueblos no musulmanes" }
+label: { ar: "صحيح مسلم 309 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih Muslim 309 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح مسلم 309 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih Muslim 309 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sahih Muslim 309 — mentions de nations, de religions et de peuples non musulmans" }
 text: "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا هَاشِمُ بْنُ الْقَاسِمِ، حَدَّثَنَا عِكْرِمَةُ بْنُ عَمَّارٍ، قَالَ حَدَّثَنِي سِمَاكٌ الْحَنَفِيُّ أَبُو زُمَيْلٍ، قَالَ حَدَّثَنِي عَبْدُ اللَّهِ بْنُ عَبَّاسٍ، قَالَ حَدَّثَنِي عُمَرُ بْنُ الْخَطَّابِ، قَالَ لَمَّا كَانَ يَوْمُ خَيْبَرَ أَقْبَلَ نَفَرٌ مِنْ صَحَابَةِ النَّبِيِّ فَقَالُوا فُلاَنٌ شَهِيدٌ فُلاَنٌ شَهِيدٌ حَتَّى مَرُّوا عَلَى رَجُلٍ فَقَالُوا فُلاَنٌ شَهِيدٌ. فَقَالَ رَسُولُ اللَّهِ \" …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 309، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 309 (The Book of Faith), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "صحیح مسلم کی حدیث نمبر 309، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe del Sahih Muslim, n.º 309 (El Libro de la Fe), menciona naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
+  fr: "Un hadith du Sahih Muslim, n° 309 (Le Livre de la Foi), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages relatifs aux nations, religions, sectes et peuples non musulmans."
 relations:
   - { type: mentions, target: group/jews-of-khaybar, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 309 (book 1 hadith 216); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

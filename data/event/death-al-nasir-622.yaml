@@ -1,13 +1,14 @@
 id: event/death-al-nasir-622
 class: event
 kind: death
-label: { ar: "وفاة الخليفة الناصر لدين الله", en: "Death of caliph al-Nasir li-Din Allah", es: "Muerte del califa al-Nasir li-Din Allah" }
+label: { ar: "وفاة الخليفة الناصر لدين الله", en: "Death of caliph al-Nasir li-Din Allah", es: "Muerte del califa al-Nasir li-Din Allah", fr: "Mort du calife al-Nasir li-Din Allah" }
 date:
   start: { edtf: "1225~", hijri: "0622", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
   ar: "توفي الخليفة الناصر لدين الله أحمد بن المستضيء وقد خلّف في الخلافة سبعًا وأربعين سنة هي أطول خلافة عباسية، وجمع فيها ما لم يجمعه أحد قبله من بني العباس من سلطة وسيف وصولة على الملوك {cite:kamil-ibn-al-athir p. 451}."
   en: "Caliph al-Nasir died after forty-seven years — the longest Abbasid caliphate, in which he regained a sword and reach over kings no Abbasid had held before him {cite:kamil-ibn-al-athir p. 451}."
   es: "El califa al-Nasir murió después de cuarenta y siete años, el califato abasí más largo, en el que recuperó una espada y un poder sobre reyes que ningún abasí había tenido antes que él {cite:kamil-ibn-al-athir p. 451}."
+  fr: "Le calife al-Nasir mourut après quarante-sept ans — le plus long califat abbasside — au cours duquel il regagna une épée et une emprise sur des rois qu'aucun abbasside n'avait eus avant lui {cite:kamil-ibn-al-athir p. 451}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/kamil-ibn-al-athir] }

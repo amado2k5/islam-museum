@@ -3,13 +3,14 @@ class: passage
 unit: chapter
 work: work/kitab-al-maghazi
 ref: "1:343"
-label: { ar: "المغازي للواقدي، المجلد المصوَّر 1، ص 343 — ما حُرّم", en: "al-Waqidi's Maghazi, scan volume 1, p. 343 — what was made unlawful", ur: "المغازی، واقدی، اسکین جلد 1، ص 343 — جو حرام کیا گیا", es: "Maghazi de al-Waqidi, volumen escaneado 1, pág. 343: lo que se declaró ilegal." }
+label: { ar: "المغازي للواقدي، المجلد المصوَّر 1، ص 343 — ما حُرّم", en: "al-Waqidi's Maghazi, scan volume 1, p. 343 — what was made unlawful", ur: "المغازی، واقدی، اسکین جلد 1، ص 343 — جو حرام کیا گیا", es: "Maghazi de al-Waqidi, volumen escaneado 1, pág. 343: lo que se declaró ilegal.", fr: "Maghazi d'al-Waqidi, scan volume 1, p. 343 — ce qui a été déclaré illégal" }
 text: "… بن أَبى سَلَمَة، قال : كان الذى جرح أَبا سَلَمَة أَبو أُسامة الجُشَمىّ، رماه يوم أُحُد بمِعْبَلَةٍ فى عضُده، فمكث شهرًا يُداويه فبرأً فيما نرى، وبعثه رسول اللّه فى المحرّم على رأس خمسة وثلاثين شهرًا إِلى قَطَن، وغاب بضع عشرة. …"
 summary:
   ar: "مقطع من المغازي للواقدي، المجلد المصوَّر 1، ص 343، يذكر ما حُرّم؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الحلال والحرام."
   en: "An excerpt from al-Waqidi's Maghazi, scan volume 1, p. 343, that mentions what was made unlawful; from the machine-read scan, quoted within forty words per the sources policy. The Halal and Haram Browser lists it."
   ur: "المغازی، واقدی، اسکین جلد 1، ص 343 کا اقتباس جس میں جو حرام کیا گیا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ حلال و حرام براؤزر اسے درج کرتا ہے۔"
   es: "Un extracto del Maghazi de al-Waqidi, volumen 1, pág. 343, que menciona lo que se prohibió; tomado de la lectura automática, citado en un máximo de cuarenta palabras según la política de fuentes. El navegador Halal and Haram lo incluye en su lista."
+  fr: "Extrait du Maghazi d'al-Waqidi, volume 1, page 343, mentionnant ce qui a été déclaré illicite; extrait de la numérisation automatique, cité en quarante mots conformément à la politique relative aux sources. Ce passage figure dans le répertoire Halal and Haram Browser."
 relations:
   - { type: mentions, target: concept/halal-haram, sources: [source/al-waqidi-maghazi] }
 provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/maghazi-waqidi/AlMaghaziAlwaghidi, page 343; a window of at most 40 words chosen by the halal and haram detector (scripts/halal.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-ocr-1" }

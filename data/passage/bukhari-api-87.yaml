@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "87"
-label: { ar: "صحيح البخاري 87 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 87 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 87 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 87 — menciones de naciones, religiones y pueblos no musulmanes" }
+label: { ar: "صحيح البخاري 87 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 87 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 87 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 87 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sahih al-Bukhari 87 — mentions de nations, de religions et de peuples non musulmans" }
 text: "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا غُنْدَرٌ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي جَمْرَةَ، قَالَ كُنْتُ أُتَرْجِمُ بَيْنَ ابْنِ عَبَّاسٍ وَبَيْنَ النَّاسِ فَقَالَ إِنَّ وَفْدَ عَبْدِ الْقَيْسِ أَتَوُا النَّبِيَّ فَقَالَ \" مَنِ الْوَفْدُ ـ أَوْ مَنِ الْقَوْمُ \". قَالُوا رَبِيعَةُ. فَقَالَ \" مَرْحَبًا بِالْقَوْمِ ـ أَوْ بِالْوَفْدِ ـ غَيْرَ خَزَايَا وَلاَ نَدَامَى \". قَالُوا إِنَّا نَأْتِيكَ …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 87، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 87 (Knowledge), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "صحیح بخاری کی حدیث نمبر 87، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.º 87 (Conocimiento), con menciones de naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
+  fr: "Un hadith du Sahih al-Bukhari, n° 87 (La Connaissance), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages consacrés aux nations, religions, sectes et peuples non musulmans."
 relations:
   - { type: mentions, target: person/marhab-al-yahudi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 87 (book 3 hadith 29); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

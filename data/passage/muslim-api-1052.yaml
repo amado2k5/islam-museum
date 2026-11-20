@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1052"
-label: { ar: "صحيح مسلم 1052 — اليتيم وفقد الأب", en: "Sahih Muslim 1052 — the orphan and the father lost", ur: "صحیح مسلم 1052 — یتیم اور باپ کی موت", es: "Sahih Muslim 1052 — El huérfano y el padre perdido" }
+label: { ar: "صحيح مسلم 1052 — اليتيم وفقد الأب", en: "Sahih Muslim 1052 — the orphan and the father lost", ur: "صحیح مسلم 1052 — یتیم اور باپ کی موت", es: "Sahih Muslim 1052 — El huérfano y el padre perdido", fr: "Sahih Muslim 1052 — L'orphelin et le père perdus" }
 text: "وَحَدَّثَنَا خَلَفُ بْنُ هِشَامٍ، وَأَبُو الرَّبِيعِ الزَّهْرَانِيُّ، قَالاَ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ عَبْدِ الْعَزِيزِ بْنِ صُهَيْبٍ، عَنْ أَنَسٍ، أَنَّ النَّبِيَّ كَانَ يُوجِزُ فِي الصَّلاَةِ وَيُتِمُّ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 1052، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 1052 (The Book of Prayers), that mentions the orphan and the father lost. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "صحیح مسلم کی حدیث نمبر 1052، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 1052 (El Libro de las Oraciones), menciona al huérfano y al padre fallecido. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre la figura paterna."
+  fr: "Un hadith du Sahih Muslim, n° 1052 (Le Livre des prières), mentionne l'orphelin et le père disparu. Le site « Paternité en Islam » répertorie ce hadith avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la figure paternelle."
 relations:
   - { type: mentions, target: concept/yatim-fiqh, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1052 (book 4 hadith 214); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "5622"
-label: { ar: "صحيح البخاري 5622 — الأب والأبوة", en: "Sahih al-Bukhari 5622 — the father and fatherhood", ur: "صحیح بخاری 5622 — باپ اور والدیت", es: "Sahih al-Bukhari 5622 — El padre y la paternidad" }
+label: { ar: "صحيح البخاري 5622 — الأب والأبوة", en: "Sahih al-Bukhari 5622 — the father and fatherhood", ur: "صحیح بخاری 5622 — باپ اور والدیت", es: "Sahih al-Bukhari 5622 — El padre y la paternidad", fr: "Sahih al-Bukhari 5622 — Le père et la paternité" }
 text: "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا مُعْتَمِرٌ، عَنْ أَبِيهِ، قَالَ سَمِعْتُ أَنَسًا ـ قَالَ كُنْتُ قَائِمًا عَلَى الْحَىِّ أَسْقِيهِمْ ـ عُمُومَتِي وَأَنَا أَصْغَرُهُمُ ـ الْفَضِيخَ، فَقِيلَ حُرِّمَتِ الْخَمْرُ. فَقَالَ أَكْفِئْهَا. فَكَفَأْنَا. قُلْتُ لأَنَسٍ مَا شَرَابُهُمْ قَالَ رُطَبٌ وَبُسْرٌ. فَقَالَ أَبُو بَكْرِ بْنُ أَنَسٍ وَكَانَتْ خَمْرَهُمْ. فَلَمْ يُنْكِرْ أَنَسٌ. وَحَدَّثَنِي بَعْضُ أَصْحَابِي أَنَّهُ سَمِعَ أَنَسًا يَقُولُ كَانَتْ خَمْرَهُمْ يَوْمَئِذٍ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 5622، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 5622 (Drinks), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "صحیح بخاری کی حدیث نمبر 5622، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 5622 (Bebidas), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
+  fr: "Un hadith du Sahih al-Bukhari, n° 5622 (Les Boissons), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant du père."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5622 (book 74 hadith 48); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

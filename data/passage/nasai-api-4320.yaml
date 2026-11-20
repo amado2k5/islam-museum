@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "4320"
-label: { ar: "سنن النسائي 4320 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 4320 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 4320 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sunan al-Nasa'i 4320 — Menciones de naciones, religiones y pueblos no musulmanes" }
+label: { ar: "سنن النسائي 4320 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 4320 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 4320 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sunan al-Nasa'i 4320 — Menciones de naciones, religiones y pueblos no musulmanes", fr: "Sunan al-Nasa'i 4320 — mentions de nations, de religions et de peuples non musulmans" }
 text: "أَخْبَرَنَا سُلَيْمَانُ بْنُ مَنْصُورٍ الْبَلْخِيُّ، قَالَ حَدَّثَنَا أَبُو الأَحْوَصِ، سَلاَّمُ بْنُ سُلَيْمٍ عَنْ حُصَيْنٍ، عَنْ زَيْدِ بْنِ وَهْبٍ، عَنْ ثَابِتِ بْنِ يَزِيدَ الأَنْصَارِيِّ، قَالَ كُنَّا مَعَ رَسُولِ اللَّهِ فِي سَفَرٍ فَنَزَلْنَا مَنْزِلاً فَأَصَابَ النَّاسُ ضِبَابًا فَأَخَذْتُ ضَبًّا فَشَوَيْتُهُ ثُمَّ أَتَيْتُ بِهِ النَّبِيَّ فَأَخَذَ عُودًا يَعُدُّ بِهِ أَصَابِعَهُ ثُمَّ قَالَ \" إِنَّ أُمَّةً مِنْ بَنِي إِسْرَائِيلَ …"
 summary:
   ar: "حديث في سنن النسائي، رقم 4320، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sunan al-Nasa'i, no. 4320 (The Book of Hunting and Slaughtering), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "سنن نسائی کی حدیث نمبر 4320، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato del Sunan al-Nasa'i, n.º 4320 (El Libro de la Caza y la Matanza), con menciones a naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
+  fr: "Un rapport du Sunan al-Nasa'i, n° 4320 (Le Livre de la Chasse et de l'Abattage), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages relatifs aux nations, religions, sectes et peuples non musulmans."
 relations:
   - { type: mentions, target: group/banu-israil, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4320 (book 42 hadith 58); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

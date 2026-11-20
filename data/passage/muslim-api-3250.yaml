@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "3250"
-label: { ar: "صحيح مسلم 3250 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih Muslim 3250 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح مسلم 3250 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih Muslim 3250 — menciones de naciones, religiones y pueblos no musulmanes" }
+label: { ar: "صحيح مسلم 3250 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih Muslim 3250 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح مسلم 3250 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih Muslim 3250 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sahih Muslim 3250 — mentions de nations, religions et peuples non musulmans" }
 text: "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، قَالَ حَدَّثَنَا عُبَيْدُ اللَّهِ، - يَعْنِي ابْنَ مُوسَى - حَدَّثَنَا شَيْبَانُ، عَنْ أَشْعَثَ بْنِ أَبِي الشَّعْثَاءِ، عَنِ الأَسْوَدِ بْنِ يَزِيدَ، عَنْ عَائِشَةَ، قَالَتْ سَأَلْتُ رَسُولَ اللَّهِ عَنِ الْحِجْرِ. وَسَاقَ الْحَدِيثَ بِمَعْنَى حَدِيثِ أَبِي الأَحْوَصِ وَقَالَ فِيهِ فَقُلْتُ فَمَا شَأْنُ بَابِهِ مُرْتَفِعًا لاَ يُصْعَدُ إِلَيْهِ إِلاَّ بِسُلَّمٍ وَقَالَ \" مَخَافَةَ …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 3250، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 3250 (The Book of Pilgrimage), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "صحیح مسلم کی حدیث نمبر 3250، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe del Sahih Muslim, n.º 3250 (El Libro de la Peregrinación), menciona naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
+  fr: "Un récit du Sahih Muslim, n° 3250 (Le Livre du Pèlerinage), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages relatifs aux nations, religions, sectes et peuples non musulmans."
 relations:
   - { type: mentions, target: group/thamud, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3250 (book 15 hadith 454); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

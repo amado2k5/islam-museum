@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "4214"
-label: { ar: "صحيح مسلم 4214 — وصية أو عهد أخير", en: "Sahih Muslim 4214 — a testament or parting counsel", ur: "صحیح مسلم 4214 — وصیت یا آخری نصیحت", es: "Sahih Muslim 4214 — un testamento o consejo de despedida" }
+label: { ar: "صحيح مسلم 4214 — وصية أو عهد أخير", en: "Sahih Muslim 4214 — a testament or parting counsel", ur: "صحیح مسلم 4214 — وصیت یا آخری نصیحت", es: "Sahih Muslim 4214 — un testamento o consejo de despedida", fr: "Sahih Muslim 4214 — un testament ou un conseil d'adieu" }
 text: "وَحَدَّثَنِي الْقَاسِمُ بْنُ زَكَرِيَّاءَ، حَدَّثَنَا حُسَيْنُ بْنُ عَلِيٍّ، عَنْ زَائِدَةَ، عَنْ عَبْدِ الْمَلِكِ، بْنِ عُمَيْرٍ عَنْ مُصْعَبِ بْنِ سَعْدٍ، عَنْ أَبِيهِ، قَالَ عَادَنِي النَّبِيُّ فَقُلْتُ أُوصِي بِمَالِي كُلِّهِ. قَالَ \" لاَ \". قُلْتُ فَالنِّصْفُ. قَالَ \" لاَ \". فَقُلْتُ أَبِالثُّلُثِ فَقَالَ \" نَعَمْ وَالثُّلُثُ كَثِيرٌ \"."
 summary:
   ar: "حديث في صحيح مسلم، رقم 4214، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 4214 (The Book of Wills), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "صحیح مسلم کی حدیث نمبر 4214، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 4214 (El Libro de los Testamentos), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
+  fr: "Un hadith du Sahih Muslim, n° 4214 (Le Livre des Testaments), mentionne un testament ou des dernières volontés. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4214 (book 25 hadith 11); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

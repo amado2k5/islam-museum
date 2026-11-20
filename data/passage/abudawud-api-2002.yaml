@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "2002"
-label: { ar: "سنن أبي داود 2002 — وصية أو عهد أخير", en: "Sunan Abi Dawud 2002 — a testament or parting counsel", ur: "سنن ابی داؤد 2002 — وصیت یا آخری نصیحت", es: "Sunan Abi Dawud 2002 — un testamento o consejo de despedida" }
+label: { ar: "سنن أبي داود 2002 — وصية أو عهد أخير", en: "Sunan Abi Dawud 2002 — a testament or parting counsel", ur: "سنن ابی داؤد 2002 — وصیت یا آخری نصیحت", es: "Sunan Abi Dawud 2002 — un testamento o consejo de despedida", fr: "Sunan Abi Dawud 2002 — un testament ou un conseil d'adieu" }
 text: "حَدَّثَنَا نَصْرُ بْنُ عَلِيٍّ، حَدَّثَنَا سُفْيَانُ، عَنْ سُلَيْمَانَ الأَحْوَلِ، عَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ كَانَ النَّاسُ يَنْصَرِفُونَ فِي كُلِّ وَجْهٍ فَقَالَ النَّبِيُّ \" لاَ يَنْفِرَنَّ أَحَدٌ حَتَّى يَكُونَ آخِرُ عَهْدِهِ الطَّوَافَ بِالْبَيْتِ \"."
 summary:
   ar: "حديث في سنن أبي داود، رقم 2002، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sunan Abi Dawud, no. 2002 (The Rites of Hajj (Kitab Al-Manasik Wa'l-Hajj)), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
   ur: "سنن ابی داؤد کی حدیث نمبر 2002، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sunan Abi Dawud, n.° 2002 (Los ritos del Hajj (Kitab Al-Manasik Wa'l-Hajj)), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
+  fr: "Un hadith du Sunan Abi Dawud n° 2002 (Les Rites du Hajj (Kitab Al-Manasik Wa'l-Hajj)) mentionne un testament ou des conseils avant le décès. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2002 (book 11 hadith 282); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

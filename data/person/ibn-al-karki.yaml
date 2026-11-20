@@ -1,6 +1,6 @@
 id: person/ibn-al-karki
 class: person
-label: { ar: "ابن الكركي المسند", en: "Ibn al-Karki the musnid", es: "Ibn al-Karki the musnid" }
+label: { ar: "ابن الكركي المسند", en: "Ibn al-Karki the musnid", es: "Ibn al-Karki the musnid", fr: "Ibn al-Karki the musnid" }
 names:
   - { kind: full, lang: ar, value: "زين الدين عبد الرحمن بن محمد ابن الكركي الحنفي المصري" }
 gender: male
@@ -14,6 +14,7 @@ summary:
   ar: "زين الدين ابن الكركي الحنفي المصري مسند الديار المصرية؛ سمع على شيخ الإسلام جلال الدين البلقيني وأجاز له شيخنا ابن حجر وجمع السماعات وجالس كبراء عصره، وقُتل غرقاً في بركة الفيل يوم الثلاثاء خامس شعبان سنة اثنتين وعشرين وتسعمائة ومشى في جنازته السلطان طومان باي الثاني ماشياً {cite:shadharat-dhahab p. 473}."
   en: "Egypt's musnid — heard under Jalal al-Din al-Bulqini, had Ibn Hajar's ijaza, and sat with the greats of his age; drowned in the Elephant Pond on Tuesday 5 Sha'ban 922, and Sultan Tuman Bay II walked in his funeral {cite:shadharat-dhahab p. 473}."
   es: "El musnid de Egipto, que escuchó bajo Jalal al-Din al-Bulqini, tuvo la ijaza de Ibn Hajar y se sentó con los grandes de su época; se ahogó en el Estanque de los Elefantes el martes 5 de Sha'ban de 922, y el sultán Tuman Bay II asistió a su funeral {cite:shadharat-dhahab p. 473}."
+  fr: "Le musnid d'Égypte — entendu sous Jalal al-Din al-Bulqini, avait l'ijaza d'Ibn Hajar et siégeait avec les grands de son époque; se noya dans l'étang des éléphants le mardi 5 Sha'ban 922, et le sultan Tuman Bay II marcha à ses funérailles {cite:shadharat-dhahab p. 473}."
 died: { edtf: "1516-08-27~", hijri: "0922-08-05", calendar: julian, precision: day, status: tradition, derived: true, note: "غرق في بركة الفيل الثلاثاء 5 شعبان 922 {cite:shadharat-dhahab p. 473}", sources: [source/shadharat-dhahab] }
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Associated with Egypt per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }

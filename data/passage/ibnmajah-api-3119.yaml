@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "3119"
-label: { ar: "سنن ابن ماجه 3119 — القراء", en: "Sunan Ibn Majah 3119 — the readers", ur: "سنن ابن ماجہ 3119 — قراء", es: "Sunan Ibn Majah 3119 - los lectores" }
+label: { ar: "سنن ابن ماجه 3119 — القراء", en: "Sunan Ibn Majah 3119 — the readers", ur: "سنن ابن ماجہ 3119 — قراء", es: "Sunan Ibn Majah 3119 - los lectores", fr: "Sunan Ibn Majah 3119 — les lecteurs" }
 text: "حَدَّثَنَا إِسْمَاعِيلُ بْنُ حَفْصٍ الأُبُلِّيُّ، حَدَّثَنَا يَحْيَى بْنُ يَمَانٍ، عَنْ حَمْزَةَ بْنِ حَبِيبٍ الزَّيَّاتِ، عَنْ حُمْرَانَ بْنِ أَعْيَنَ، عَنْ أَبِي الطُّفَيْلِ، عَنْ أَبِي سَعِيدٍ، قَالَ حَجَّ النَّبِيُّ ـ وَأَصْحَابُهُ مُشَاةً مِنَ الْمَدِينَةِ إِلَى مَكَّةَ وَقَالَ \" ارْبُطُوا أَوْسَاطَكُمْ بِأُزُرِكُمْ \". وَمَشَى خِلْطَ الْهَرْوَلَةِ."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 3119، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
   en: "A report in Sunan Ibn Majah, no. 3119 (Chapters on Hajj Rituals), that mentions the readers. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
   ur: "سنن ابن ماجہ کی حدیث نمبر 3119، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sunan Ibn Majah, n.° 3119 (Capítulos sobre los rituales del Hajj), menciona a los lectores. El navegador del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
+  fr: "Un rapport du Sunan Ibn Majah, n° 3119 (Chapitres sur les rites du Hajj), mentionne les lecteurs. Le catalogue du musée consacré à la lecture et à la transcription du Coran répertorie ce rapport avec les textes du Coran, la Sunna, la Sîra et les ouvrages traitant de ce sujet."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3119 (book 25 hadith 238); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

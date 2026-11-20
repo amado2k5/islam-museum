@@ -1,13 +1,14 @@
 id: event/alqama-abyssinia-raid
 class: event
 kind: raid
-label: { ar: "بعث علقمة بن مجزّز إلى الحبشة", en: "Alqama ibn Mujazziz's expedition against Abyssinia (20 AH)", es: "Expedición de Alqama ibn Mujazziz contra Abisinia (20 AH)" }
+label: { ar: "بعث علقمة بن مجزّز إلى الحبشة", en: "Alqama ibn Mujazziz's expedition against Abyssinia (20 AH)", es: "Expedición de Alqama ibn Mujazziz contra Abisinia (20 AH)", fr: "Expédition d'Alqama ibn Mujazziz contre l'Abyssinie (20 AH)" }
 date:
   start: { edtf: "0641", hijri: "0020", calendar: julian, precision: year, status: debated, derived: true, note: "سنة 20 وقيل 31؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 387}." }
 summary:
   ar: "بعث عمر علقمة بن مجزّز المدلجي إلى الحبشة وكانت تطرّقت بلاد الإسلام فأصيب المسلمون، فجعل عمر على نفسه أن لا يحمل في البحر أحدًا أبدًا يعني للغزو {cite:kamil-ibn-al-athir p. 387}."
   en: "'Umar sent Alqama ibn Mujazziz al-Mudliji by sea against Abyssinia after its raids on the coast; the Muslims were struck hard, and 'Umar bound himself never again to carry a raider by sea {cite:kamil-ibn-al-athir p. 387}."
   es: "'Umar envió a Alqama ibn Mujazziz al-Mudliji por mar contra Abisinia después de sus incursiones en la costa; los musulmanes fueron golpeados duramente, y 'Umar se prometió a sí mismo no volver a transportar jamás a un asaltante por mar {cite:kamil-ibn-al-athir p. 387}."
+  fr: "'Umar envoya Alqama ibn Mujazziz al-Mudliji par mer contre l'Abyssinie après ses raids sur la côte; les musulmans furent durement touchés, et 'Umar se promit de ne plus jamais transporter un pillard par mer {cite:kamil-ibn-al-athir p. 387}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/abyssinia, sources: [source/kamil-ibn-al-athir] }

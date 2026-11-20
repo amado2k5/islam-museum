@@ -1,13 +1,14 @@
 id: event/death-shamla-573
 class: event
 kind: death
-label: { ar: "وفاة شملة صاحب خوزستان", en: "death of Shamla, lord of Khūzistān", es: "muerte de Shamla, señor de Khūzistān" }
+label: { ar: "وفاة شملة صاحب خوزستان", en: "death of Shamla, lord of Khūzistān", es: "muerte de Shamla, señor de Khūzistān", fr: "mort de Shamla, seigneur du Khūzistān" }
 date:
   start: { edtf: "1177~", hijri: "0573", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
   ar: "توفي شملة صاحب خوزستان وهو الذي ملك فارس ثم أُخرج عنها، وكان من أمراء الأتراك الخزرج وقد خرب نواحي الأهواز وتقاتع مع أهلها {cite:kamil-ibn-al-athir p. 70}."
   en: "Shamla, the Khazarj-Turkish emir who briefly took Fārs and lorded Khūzistān — ravaging the Ahwāz marches — died this year {cite:kamil-ibn-al-athir p. 70}."
   es: "Shamla, el emir jázaro-turco que tomó brevemente Fārs y gobernó Khūzistān —asolando las marcas de Ahwāz— murió este año {cite:kamil-ibn-al-athir p. 70}."
+  fr: "Shamla, l'émir khazarj-turc qui a brièvement pris Fārs et régné sur le Khūzistān — ravageant les marches d'Ahwāz — est mort cette année {cite:kamil-ibn-al-athir p. 70}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/khuzistan, sources: [source/kamil-ibn-al-athir] }

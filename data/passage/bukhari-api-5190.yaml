@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "5190"
-label: { ar: "صحيح البخاري 5190 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 5190 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 5190 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 5190 — menciones de naciones, religiones y pueblos no musulmanes" }
+label: { ar: "صحيح البخاري 5190 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 5190 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 5190 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 5190 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sahih al-Bukhari 5190 — mentions de nations, religions et peuples non musulmans" }
 text: "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا هِشَامٌ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، قَالَتْ كَانَ الْحَبَشُ يَلْعَبُونَ بِحِرَابِهِمْ، فَسَتَرَنِي رَسُولُ اللَّهِ وَأَنَا أَنْظُرُ، فَمَا زِلْتُ أَنْظُرُ حَتَّى كُنْتُ أَنَا أَنْصَرِفُ فَاقْدُرُوا قَدْرَ الْجَارِيَةِ الْحَدِيثَةِ السِّنِّ تَسْمَعُ اللَّهْوَ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 5190، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 5190 (Wedlock, Marriage (Nikaah)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "صحیح بخاری کی حدیث نمبر 5190، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato del Sahih al-Bukhari, n.º 5190 (Matrimonio (Nikaah)), con menciones a naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
+  fr: "Un hadith du Sahih al-Bukhari, n° 5190 (Mariage, Nikah), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages relatifs aux nations, religions, sectes et peuples non musulmans."
 relations:
   - { type: mentions, target: group/al-habasha, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5190 (book 67 hadith 124); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

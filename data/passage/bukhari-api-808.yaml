@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "808"
-label: { ar: "صحيح البخاري 808 — اليتيم وفقد الأب", en: "Sahih al-Bukhari 808 — the orphan and the father lost", ur: "صحیح بخاری 808 — یتیم اور باپ کی موت", es: "Sahih al-Bukhari 808 — El huérfano y el padre perdido" }
+label: { ar: "صحيح البخاري 808 — اليتيم وفقد الأب", en: "Sahih al-Bukhari 808 — the orphan and the father lost", ur: "صحیح بخاری 808 — یتیم اور باپ کی موت", es: "Sahih al-Bukhari 808 — El huérfano y el padre perdido", fr: "Sahih al-Bukhari 808 — L'orphelin et le père perdus" }
 text: "حَدَّثَنَا الصَّلْتُ بْنُ مُحَمَّدٍ، قَالَ حَدَّثَنَا مَهْدِيٌّ، عَنْ وَاصِلٍ، عَنْ أَبِي وَائِلٍ، عَنْ حُذَيْفَةَ، رَأَى رَجُلاً لاَ يُتِمُّ رُكُوعَهُ وَلاَ سُجُودَهُ، فَلَمَّا قَضَى صَلاَتَهُ قَالَ لَهُ حُذَيْفَةُ مَا صَلَّيْتَ ـ قَالَ وَأَحْسِبُهُ قَالَ ـ وَلَوْ مُتَّ مُتَّ عَلَى غَيْرِ سُنَّةِ مُحَمَّدٍ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 808، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih al-Bukhari, no. 808 (Call to Prayers (Adhaan)), that mentions the orphan and the father lost. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "صحیح بخاری کی حدیث نمبر 808، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 808 (Llamada a la oración (Adhan)), menciona al huérfano y al padre fallecido. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre la paternidad."
+  fr: "Un hadith du Sahih al-Bukhari, n° 808 (Appel à la prière (Adhan)), évoque l'orphelin et le père disparu. Le site « Paternité en Islam » répertorie ce hadith avec les versets du Coran, la Sunna, la Sîra et les ouvrages consacrés à la figure paternelle."
 relations:
   - { type: mentions, target: concept/yatim-fiqh, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 808 (book 10 hadith 203); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

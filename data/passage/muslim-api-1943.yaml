@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1943"
-label: { ar: "صحيح مسلم 1943 — الأب والأبوة", en: "Sahih Muslim 1943 — the father and fatherhood", ur: "صحیح مسلم 1943 — باپ اور والدیت", es: "Sahih Muslim 1943 — El padre y la paternidad" }
+label: { ar: "صحيح مسلم 1943 — الأب والأبوة", en: "Sahih Muslim 1943 — the father and fatherhood", ur: "صحیح مسلم 1943 — باپ اور والدیت", es: "Sahih Muslim 1943 — El padre y la paternidad", fr: "Sahih Muslim 1943 — le père et la paternité" }
 text: "وَحَدَّثَنِيهِ أَبُو الرَّبِيعِ الزَّهْرَانِيُّ، حَدَّثَنَا فُلَيْحٌ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمِ بْنِ عَبْدِ اللَّهِ، بْنِ عُمَرَ عَنْ أَبِيهِ، أَنَّهُ كَانَ يُحَدِّثُ عَنْ صَلاَةِ، رَسُولِ اللَّهِ فِي الْخَوْفِ وَيَقُولُ صَلَّيْتُهَا مَعَ رَسُولِ اللَّهِ. بِهَذَا الْمَعْنَى."
 summary:
   ar: "حديث في صحيح مسلم، رقم 1943، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 1943 (The Book of Prayer - Travellers), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
   ur: "صحیح مسلم کی حدیث نمبر 1943، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sahih Muslim, n.° 1943 (El Libro de la Oración - Viajeros), menciona al padre y la paternidad. El Navegador de la Paternidad en el Islam lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
+  fr: "Un hadith du Sahih Muslim n° 1943 (Le Livre de la prière – Guide du voyageur) mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1943 (book 6 hadith 371); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

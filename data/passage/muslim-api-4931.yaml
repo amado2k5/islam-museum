@@ -3,13 +3,14 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "4931"
-label: { ar: "صحيح مسلم 4931 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih Muslim 4931 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح مسلم 4931 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih Muslim 4931 — menciones de naciones, religiones y pueblos no musulmanes" }
+label: { ar: "صحيح مسلم 4931 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih Muslim 4931 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح مسلم 4931 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih Muslim 4931 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sahih Muslim 4931 — mentions de nations, de religions et de peuples non musulmans" }
 text: "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الرَّحْمَنِ بْنِ سَهْمٍ الأَنْطَاكِيُّ، أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ الْمُبَارَكِ، عَنْ وُهَيْبٍ الْمَكِّيِّ، عَنْ عُمَرَ بْنِ مُحَمَّدِ بْنِ الْمُنْكَدِرِ، عَنْ سُمَىٍّ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ \" مَنْ مَاتَ وَلَمْ يَغْزُ وَلَمْ يُحَدِّثْ بِهِ نَفْسَهُ مَاتَ عَلَى شُعْبَةٍ مِنْ نِفَاقٍ \". قَالَ ابْنُ سَهْمٍ قَالَ عَبْدُ اللَّهِ …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 4931، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
   en: "A report in Sahih Muslim, no. 4931 (The Book on Government), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
   ur: "صحیح مسلم کی حدیث نمبر 4931، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe del Sahih Muslim, n.º 4931 (El Libro del Gobierno), menciona naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
+  fr: "Un rapport du Sahih Muslim, n° 4931 (Le Livre du gouvernement), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages relatifs aux nations, religions, sectes et peuples non musulmans."
 relations:
   - { type: mentions, target: concept/munafiq, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4931 (book 33 hadith 226); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
