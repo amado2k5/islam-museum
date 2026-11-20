@@ -1,0 +1,28 @@
+---
+id: passage/quran-9-110
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-9-110.md}
+---
+## Resumen
+Versículo 110 de [[passage/quran-9|Surat at-Tawba]], una sura de Medina. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 110 de 129 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+**Comentario sobre el versículo 110 (págs. 494-498)**
+
+Al-Tabari dice: la construcción de quienes tomaron una mezquita para el daño y la incredulidad no dejará de ser "una duda", lo que significa que su mezquita, que construyeron, no dejará de ser una duda en sus corazones, es decir, incertidumbre e hipocresía en sus corazones, suponiendo que estuvieran obrando bien al construirla; "hasta que sus corazones se rompan" significa hasta que sus corazones se partan y mueran; "y Dios es conocedor" del estado de estos hipócritas que construyeron la mezquita del daño, de su duda en su religión, de lo que pretendían y deseaban al construirla, de lo que les depara el más allá y la vida mientras vivan, y de otros asuntos de sus asuntos y de los demás, "sabio" en Su gestión de ellos y de todas Sus criaturas. El editor se refiere a explicaciones anteriores de duda, conocimiento y sabiduría. {cite:tafsir-tabari-shakir-v14 p. 495}
+
+Lo que dijeron los intérpretes concuerda con lo que dijimos. Informe 17251, de Ibn Abbas, a través de al-Muthanna, Abdallah, Mu'awiya y Ali: "su edificio que construyeron no dejará de ser una duda en sus corazones", es decir incertidumbre, "hasta que sus corazones sean cortados", es decir muerte. Informe 17252, de Qatada, a través de Muhammad ibn Abd al-A'la, Muhammad ibn Thawr y Ma'mar: "una duda en sus corazones", dijo, incertidumbre en sus corazones, "hasta que sus corazones sean cortados", hasta que mueran; informe 17253, de Qatada, a través de Bishr, Yazid y Sa'id: hasta que mueran. Informes 17254, 17255, 17256 y 17257, de Mujahid, por las rutas de Matar ibn Muhammad al-Dabbi, Abu Qutayba, Shu'ba, al-Hakam, Muhammad ibn Amr, Abu Asim, Isa, al-Muthanna, Abu Hudhayfa, Shibl, Abdallah y Warqa': "hasta que les corten el corazón", dijo, a menos que ellos mueren. {cite:tafsir-tabari-shakir-v14 p. 495}
+
+Informe 17258, de Qatada y al-Hasan, a través de Suwayd, Ibn al-Mubarak y Ma'mar: "su edificio que construyeron no dejará de ser una duda en sus corazones", dijeron, incertidumbre en sus corazones. Informe 17259, de Habib, a través de Ibn Waki', Ishaq al-Razi y Abu Sinan: "una duda en sus corazones", dijo, rabia en sus corazones; los informes 17260 y 17261, de Mujahid y Habib, dicen lo mismo que arriba sobre la muerte. Informe 17262, de al-Suddi, a través de Qabisa y Sufyan: "una duda en sus corazones", dijo, incredulidad; dije "¿acaso Mujammi' ibn Jariya no creyó?", y él dijo "no, sino una irritación punzante"; Informe 17263, de él, a través de Ahmad ibn Ishaq, Abu Ahmad y Sufyan: una punzante irritación en sus corazones. {cite:tafsir-tabari-shakir-v14 p. 496}
+
+Informe 17264, de Ibn Zayd, a través de Yunus e Ibn Wahb: «su edificio que construyeron no dejará de ser una duda en sus corazones», no dejará de ser una duda en sus corazones, contentos con lo que hicieron, como el amor al becerro estaba en los corazones de los compañeros de Moisés, y recitó «se les hizo beber el becerro en sus corazones por su incredulidad», que es [[passage/quran-2-93|2:93]], es decir, su amor; «hasta que sus corazones sean cortados», dijo, no dejará de estar en sus corazones hasta que mueran, es decir, los hipócritas. Informe 17265, de Ibrahim, a través de al-Harith, Abd al-Aziz, Qays y al-Suddi: «una duda en sus corazones», dijo, incertidumbre; dije «Abu Imran, ¿dices esto habiendo leído el Corán?», y dijo «es solo una irritación punzante». {cite:tafsir-tabari-shakir-v14 p. 497}
+
+Los lectores discreparon en la lectura de Sus palabras «hasta que sus corazones sean cortados». Algunos lectores del Hiyaz, Medina, Basora y Kufa lo leyeron con una damma en la primera letra, en voz pasiva, con el sentido de «a menos que Dios les corte el corazón». Algunos lectores de Medina y Kufa lo leyeron con una fatha, como verbo perteneciente a los corazones, con el significado de «a menos que sus corazones sean cortados en pedazos», omitiendo una de las dos letras «t». Se dice que al-Hasan solía leer «hasta que sus corazones sean cortados», es decir, «hasta que sus corazones sean cortados». Se dice que en la lectura de Abdallah es «incluso si sus corazones fueran cortados», y basándose en eso, quienes leen en voz pasiva lo leen así. El editor se refiere a al-Farra. {cite:tafsir-tabari-shakir-v14 p. 497}
+
+Al-Tabari sostiene que la fatha y la damma tienen un significado similar, ya que los corazones no se desgarran cuando son cortados sino por Dios, y Dios no los corta a menos que sean cortados; son dos lecturas bien conocidas, cada una leída por un grupo de lectores, por lo que cualquiera que el lector lea es correcta. En cuanto a leerlo "hasta cuándo", es una lectura contraria a los códices de los musulmanes, y él no considera permisible leer en contra de sus códices. {cite:tafsir-tabari-shakir-v14 p. 498}
+
+Estas declaraciones se presentan tal como fueron transmitidas; las elecciones y los argumentos son de al-Tabari, las notas y los rastreos de fuentes son del editor, y el museo no emite ningún veredicto.

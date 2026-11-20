@@ -1,0 +1,26 @@
+---
+id: passage/quran-11-78
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-11-78.md}
+---
+## Resumen
+Versículo 78 de [[passage/quran-11|Surat Hud]], una sura de La Meca. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 78 de 123 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+**Comentario sobre el versículo 78 (págs. 411-416)**
+
+En [[passage/quran-11-78|11:78]] al-Tabari dice: su gente llegó a Lot corriendo hacia él, 'yuhra'un', temblando mientras se apresuraban por su afán de cometer el acto vergonzoso. Uno dice 'ahra'a' de un hombre que tiembla de frío, ira o fiebre, y 'muhra'' de uno apresurado y ansioso; cita un verso de rajaz y un verso de Muhalhil sobre cautivos que llegan apresuradamente. Los informes 18361 a 18371, de Mujahid, al-Dahhak, Qatada, al-Suddi, Sufyan b. 'Uyayna, Shamir b. 'Atiyya e Ibn Abbas, coinciden en gran medida: corrieron, se apresuraron, tomaron velocidad; Ibn 'Uyayna dijo como si los empujaran, y Shamir dijo un paso entre correr y trotar. {cite:tafsir-tabari-shakir-v15 p. 412}
+
+En cuanto a «y antes de eso solían hacer malas obras», significa que antes de venir a Lot solían venir a los hombres por detrás (informe 18372, Ibn Jurayj). En cuanto a «mi pueblo, estas son mis hijas», Lot dijo a su pueblo cuando vinieron preguntando por su huésped: estas son mis hijas, refiriéndose a las mujeres de su comunidad; cásense con ellas, son más puras para ustedes. Informe 18373, de Qatada: Lot les ordenó que se casaran con mujeres; 18374: Ma'mar tiene lo mismo de Mujahid; 18375, de Mujahid: no eran sus hijas sino mujeres de su comunidad, y todo profeta es padre de su comunidad; 18376: les dijo que se casaran con mujeres y no les ofreció fornicación; 18377, de Ibn Abi Najih, en el mismo sentido, donde el editor piensa que se ha omitido algo de la redacción. {cite:tafsir-tabari-shakir-v15 p. 413}
+
+Informe 18378, de Qatada: les ordenó que se casaran con mujeres, y el profeta de Dios quiso proteger a sus huéspedes con sus hijas; 18379, de al-Rabi': se refería al matrimonio; 18380, de Sa'id b. Jubayr: se refería a sus mujeres, que son sus hijas porque él es su profeta, y Sa'id citó una lectura en [[passage/quran-33-6|33:6]] que dice que el Profeta es un padre para ellos; el editor señala que un narrador en la cadena es digno de confianza. Informe 18381, de al-Suddi: dijeron: ¿No te prohibimos hospedar a los mundos? Él dijo: Estas son mis hijas, más puras para vosotros, si hacéis lo posible; ¿no hay entre vosotros un hombre recto? {cite:tafsir-tabari-shakir-v15 p. 414}
+
+Informe 18382, de Ibn Ishaq: cuando los mensajeros llegaron a Lot, su gente acudió a ellos tan pronto como se les informó, apresuradamente, y afirman, y Dios sabe mejor, que la esposa de Lot les dijo dónde estaban, diciendo que Lot tenía huéspedes que ella nunca había visto en belleza; solían venir a los hombres por deseo en lugar de a las mujeres, un acto vergonzoso que nadie en el mundo había hecho antes que ellos; cuando llegaron dijeron, ¿no os prohibimos a los mundos, es decir, no os dijimos que nadie se acercara a vosotros? Él dijo: 'Pueblo mío, estas son mis hijas, más puras para vosotros', rescatando a mis huéspedes de vosotros con ellas, y las llamó solo a lo que es lícito en matrimonio. Informe 18383, de Mujahid: 'mis hijas' significa las mujeres. Al-Tabari luego da las variantes de 'más puras': la mayoría de los lectores lo leen con el nominativo, tomando 'ellas' como sujeto y 'más puras' como predicado; Isa b. Se dice que Umar al-Basri lo leyó en acusativo. {cite:tafsir-tabari-shakir-v15 p. 415}
+
+Al-Tabari expone las opiniones de los gramáticos: uno de los gramáticos de Basora afirmó que el acusativo no puede ser, puesto que solo el predicado de un verbo lo admite; uno de los kufanos sostuvo que quien lo coloca en acusativo lo trata como un indefinido que surge de un definido, con «ellos» como apoyo para el verbo; otro dijo que se oye a los árabes decir «este es el mismo Zayd» y lo trata como un predicado, añadiendo que un verbo no puede aparecer aquí porque «taqrib» responde a una afirmación; el editor explica el término kufano. Al-Tabari concluye: la lectura que no puedo permitir que se contradiga es el nominativo, por el consenso de las autoridades entre los lectores de las ciudades y su solidez en árabe, y el acusativo está lejos de ser correcto. En cuanto a «temed a Dios y no me avergonzéis delante de mi huésped», dice: «Temed a Dios, pueblo, y cuidaos de su castigo por el acto vergonzoso que cometéis y buscáis, y no me humilléis haciéndole a mi huésped lo que él odia haber hecho». Aquí, «huésped» es una sola palabra con sentido plural, y los árabes llaman a uno y a muchos «daif», como dicen, hombre justo y pueblo justo. {cite:tafsir-tabari-shakir-v15 p. 416}
+
+Estas declaraciones se presentan tal como fueron transmitidas; las elecciones y los argumentos son de al-Tabari, las notas y los rastreos de fuentes son del editor, y el museo no emite ningún veredicto.
