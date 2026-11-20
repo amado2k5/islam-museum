@@ -34,6 +34,15 @@ const path = href(lang, n.id);
 const title = labelOf(n, lang);
 const second = lang === "ar" ? n.label.en : n.label.ar;
 const d = n.data;
+// A dictionary page (unit other) whose entry starts were marked (docs/plan/72-dictionaries-browser.md): the text is cut at
+// the marked offsets, one paragraph per entry, with the marked root as a label.
+const pageEntries: { root: string | null; text: string }[] = (() => {
+  if (!(n.class === "passage" && d.unit === "other" && typeof d.text === "string" && Array.isArray(d.headwords) && d.headwords.length)) return [];
+  const tx: string = d.text; const hw: { root: string | null; at: number }[] = d.headwords; const out: { root: string | null; text: string }[] = [];
+  if (hw[0].at > 0) out.push({ root: "", text: tx.slice(0, hw[0].at) });
+  hw.forEach((h, i) => out.push({ root: h.root, text: tx.slice(h.at, i + 1 < hw.length ? hw[i + 1].at : tx.length) }));
+  return out;
+})();
 // a work's authors (its `authors` list and any `authored_by` relation), shown beside the title. An author whose faith entry is Shi'i, on a basis of documented or tradition, is marked in red with a text label.
 const SHIA_BASES = ["self-identified", "documented", "tradition"];
 const isShiaAuthor = (p: Node) => (p.data.faith ?? []).some((f: any) => String(f.value).startsWith("shia-") && SHIA_BASES.includes(f.basis));
@@ -329,7 +338,17 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
           <section data-role="main" class="sec" id="page-text" aria-labelledby="page-text-h" lang="ar" dir="rtl">
             <h2 id="page-text-h">{(T as any).maajim?.page_text}</h2>
             <p class="ui muted draft-note" role="note" style="font-size:.92rem">{(T as any).maajim?.sihah_quality}</p>
-            <div class="ui-page-text" style="white-space:pre-line;line-height:2;font-size:1.15rem;max-width:var(--measure)">{d.text}</div>
+            {pageEntries.length > 0 ? (
+              <ol role="list" class="ui-page-entries" style="list-style:none;padding:0;margin:0;max-width:var(--measure)">
+                {pageEntries.map((e, i) => (
+                  <li id={`e${i}`} style="margin:0 0 .9rem;line-height:2;font-size:1.15rem;white-space:pre-line">
+                    {e.root ? <span class="ui chip" dir="rtl" lang="ar" style="margin-inline-end:.5rem" title={(T as any).maajim?.entry_root}>{e.root}</span> : null}{e.text.trim()}
+                  </li>
+                ))}
+              </ol>
+            ) : (
+              <div class="ui-page-text" style="white-space:pre-line;line-height:2;font-size:1.15rem;max-width:var(--measure)">{d.text}</div>
+            )}
           </section>
         )}
 

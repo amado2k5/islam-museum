@@ -119,6 +119,30 @@
     },
     "context": {
       "$ref": "_base.schema.json#/$defs/localized"
+    },
+    "headwords": {
+      "type": "array",
+      "description": "entries of a dictionary page (unit other): the headword root as printed and the character offset in `text` at which each entry starts; marked by a model reading the machine text, every offset checked against an exact snippet of that text",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "root",
+          "at"
+        ],
+        "properties": {
+          "root": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "at": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
     }
   },
   "required": [
