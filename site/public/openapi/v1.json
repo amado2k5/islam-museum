@@ -932,6 +932,21 @@
         }
       }
     },
+    "/maajim.json": {
+      "get": {
+        "operationId": "getMaajim",
+        "summary": "Dictionaries Browser dataset",
+        "description": "The Dictionaries Browser dataset: every record tagged maajim-browser (the great dictionaries of Arabic and of the Islamic sciences) with kind, genre, authors, section tag, themes and edges.",
+        "responses": {
+          "200": {
+            "description": "Every dictionary record of the browser with kind, genre, authors, tags and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/qudsi.json": {
       "get": {
         "operationId": "getQudsi",

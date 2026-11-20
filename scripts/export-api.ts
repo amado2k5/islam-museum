@@ -288,6 +288,8 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
     fields: ["roles", "story_roles"] },
   { file: "ghayb.json", feature: "ghayb-browser", pick: (n) => n.tags.includes("ghayb-browser"),
     fields: ["kind", "wings", "themes", "tags"] },
+  { file: "maajim.json", feature: "maajim-browser", pick: (n) => n.tags.includes("maajim-browser"),
+    fields: ["kind", "genre", "authors", "wings", "themes", "tags"] },
   { file: "nature.json", feature: "nature-browser", pick: (n) => n.tags.includes("nature-browser"),
     fields: ["kind", "wings", "themes", "tags"] },
   { file: "angels.json", feature: "angels-browser", pick: (n) => n.tags.includes("angels-browser"),
