@@ -1,0 +1,23 @@
+---
+id: passage/quran-2-71
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-2-71.md}
+---
+## Resumen
+Versículo 71 de [[passage/quran-2|Surat al-Baqara]], una sura de Medina. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 71 de 286 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Al-Tabari afirma que Moisés relató que Dios dijo que era una vaca "la dhalul", es decir, que no se domestica con el trabajo: no se amansa removiendo la tierra con sus pezuñas ni se usa para sacar agua para la cosecha. Relata esto de Qatada, al-Suddi, Abu al-'Aliya, al-Rabi' y Mujahid. "Remueve la tierra" significa que labra el suelo para cultivarlo, y se la describió así porque, según se dijo, era salvaje, lo cual se narra de al-Hasan. {cite:tafsir-tabari-shakir-v02 p. 212} {cite:tafsir-tabari-shakir-v02 p. 213}
+Sobre "musallama" difieren: Mujahid dice que está libre de marcas, sin blanco ni negro; Qatada, Abu al-'Aliya, al-Rabi' e Ibn Abbas dicen que está libre de defectos. Al-Tabari prefiere la lectura de Ibn Abbas y Abu al-'Aliya a la de Mujahid, ya que si su integridad se refiriera únicamente al color, "sin imperfecciones" habría bastado, lo que demuestra que ambas frases tienen significados diferentes. {cite:tafsir-tabari-shakir-v02 p. 213} {cite:tafsir-tabari-shakir-v02 p. 214}
+
+Al-Tabari continúa con "musallama": para él, el versículo dice que la vaca no fue domesticada removiendo la tierra ni sacando agua para los cultivos, y además era sana y libre de defectos. "La shiya fiha" significa que no tiene color que difiera de su piel, palabra que proviene de "washy", el adorno de la tela; de ahí el "wāshi", el calumniador que disfraza su falsedad, para lo cual cita a Ka'b ibn Zuhayr, y no acepta a quienes interpretan "washy" como una marca. Relata de Qatada, al-Rabi', Abu al-'Aliya, 'Atiyya, Mujahid, al-Suddi e Ibn Zayd que no tiene blanco, negro ni rojo, sino un solo color. {cite:tafsir-tabari-shakir-v02 p. 214} {cite:tafsir-tabari-shakir-v02 p. 215} {cite:tafsir-tabari-shakir-v02 p. 216}
+Sobre la expresión «Ahora has traído la verdad» existen dos interpretaciones: la de Qatada, que interpreta el sentido como «ahora nos lo has aclarado y sabemos a qué vaca te refieres»; y otra narrada por Ibn Zayd, según la cual acusaban a Moisés de no haber traído la verdad antes. En su propia elección, al-Tabari prefiere la interpretación de Qatada, puesto que Moisés había aclarado todo en cada pregunta, por lo que sería erróneo decirle «ahora has traído la verdad» como si no lo hubiera hecho antes. Señala que algunos eruditos anteriores sostenían que apostataban y renegaban de la fe con esas palabras; al-Tabari no comparte esa opinión, puesto que se sometieron al sacrificar al animal, aunque sus palabras fueron producto de la ignorancia y constituyeron uno de sus deslices. {cite:tafsir-tabari-shakir-v02 p. 217} {cite:tafsir-tabari-shakir-v02 p. 218}
+Sobre «y casi no lo hicieron», dice que estuvieron a punto de desobedecer el mandato de Dios. La causa es objeto de controversia: Muhammad ibn Ka'b al-Qurazi y Mujahid afirman que fue por el alto precio, ya que lo compraron por el valor de su piel en oro, proveniente de la propiedad del difunto; Ibn Abbas, a través de al-Dahhak, dice que no deseaban sacrificarlo; y otra versión menciona el temor a ser descubiertos. {cite:tafsir-tabari-shakir-v02 p. 218} {cite:tafsir-tabari-shakir-v02 p. 219}
+
+En su opinión, al-Tabari sostiene que casi no lo hicieron por ambas razones: el alto precio, a pesar de lo que se dice sobre el escaso valor de la vaca, y el temor a la deshonra de que Dios expusiera al asesino. Respecto al precio, los relatos varían: al-Suddi afirma que pagaron diez veces su peso en oro; 'Ubayda, tantos dinares como los que llenaban su piel; Mujahid, Wahb e Ibn Zayd, su piel llena de oro; Abu al-'Aliya, que una anciana pidió mucho más de su precio; 'Ikrima, que su precio fue de solo tres dinares. Sobre el temor a ser descubiertos, se dice que Wahb ibn Munabbih comentó que hablaron de burla porque sabían que serían avergonzados, e Ibn Abbas que los asesinos negaron el crimen incluso después de que Dios resucitara al muerto y los nombrara. {cite:tafsir-tabari-shakir-v02 p. 220} {cite:tafsir-tabari-shakir-v02 p. 221} {cite:tafsir-tabari-shakir-v02 p. 222}

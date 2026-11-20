@@ -1,0 +1,28 @@
+---
+id: passage/quran-2-135
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-2-135.md}
+---
+## Resumen
+Versículo 135 de [[passage/quran-2|Surat al-Baqara]], una sura de Medina. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 135 de 286 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Sobre «Y dijeron: Sed judíos o cristianos y seréis guiados», al-Tabari dice que los judíos dijeron a Mahoma y a sus compañeros creyentes: «Sed judíos y seréis guiados», y los cristianos les dijeron: «Sed cristianos y seréis guiados», queriendo decir por «guiados» que alcanzarían el camino de la verdad. Relata de Ibn Abbas que Abd Allah ibn Suriya, el tuerto, dijo al Profeta: «La guía es solo aquello en lo que estamos, así que seguidnos y seréis guiados», y los cristianos dijeron lo mismo, y el versículo descendió. {cite:tafsir-tabari-shakir-v03 p. 101} {cite:tafsir-tabari-shakir-v03 p. 102}
+
+Al-Tabari dice que Dios defendió a su Profeta con el argumento más elocuente, conciso y completo: «Di a aquellos judíos y cristianos que os dicen a vosotros y a vuestros compañeros: “Sed judíos o cristianos y seréis guiados”, mejor, sigamos la religión de Abraham, que todos atestiguamos que es la religión de Dios, que Él aprobó y ordenó, pues su religión era la de la sumisión recta, y dejemos de lado las demás religiones en las que discrepamos, algunos negándolas y otros afirmándolas». Ofrece tres maneras de interpretar el acusativo de «la religión de Abraham»: unido al sentido de seguir el judaísmo y el cristianismo, regido por el verbo implícito «seguimos», o en el sentido de «mejor sed seguidores de la religión de Abraham». {cite:tafsir-tabari-shakir-v03 p. 102}
+
+Al-Tabari continúa con la tercera forma de interpretar "la religión de Abraham" en acusativo: que significa "más bien sed gente de la religión de Abraham", omitiendo "gente" o "compañeros" y sustituyéndolos por "religión", citando el versículo "Tomé el grito de mi monte por el de un cabrito", que significa el grito de un cabrito; también puede interpretarse en acusativo como una exhortación a seguir la religión de Abraham, y algunos lectores lo interpretan en nominativo, de modo que significa "más bien la guía es la religión de Abraham". {cite:tafsir-tabari-shakir-v03 p. 102} {cite:tafsir-tabari-shakir-v03 p. 103}
+
+Sobre "di: más bien la religión de Abraham, recto, y él no era de los politeístas", dice "milla" es religión y "hanif" el recto en todo, por lo que el sentido es: di, Muhammad, más bien seguimos la religión de Abraham, recto, con "hanif" un circunstancial de "Abraham". Los intérpretes difieren en esto. Algunos dijeron que "hanif" es el peregrino, y la religión de Abraham fue llamada "hanifiyya" porque fue el primer líder cuyo seguimiento en los ritos de peregrinación fue impuesto a los siervos de su tiempo y después, desde al-Hasan, 'Atiyya, Mujahid, al-Dahhak e Ibn Abbas; y desde 'Abd Allah ibn al-Qasim, el pueblo Mudar peregrinó a la Casa en tiempos preislámicos y fueron llamados "hunafa'", y "rectos para Dios, sin asociarle nada" fue revelado. {cite:tafsir-tabari-shakir-v03 p. 104} {cite:tafsir-tabari-shakir-v03 p. 105} {cite:tafsir-tabari-shakir-v03 p. 106}
+
+Otros dijeron que "hanif" es el seguidor, de Mujahid; otros que la religión de Abraham se llamaba hanifiyya porque él fue el primer líder en establecer la circuncisión para los siervos, por lo que quien sea circuncidado como Abraham es un hanif; otros que el "hanif" es aquel que consagra su religión solo a Dios, de al-Suddi; y otros que hanifiyya es el Islam y todo aquel que sigue a Abraham en su religión y permanece recto en ella es un hanif. {cite:tafsir-tabari-shakir-v03 p. 106} {cite:tafsir-tabari-shakir-v03 p. 107}
+
+Al-Tabari sostiene que "hanaf" es mantenerse íntegro en la religión de Abraham y seguirlo en su credo, y su argumento es que si hanifiyya hubiera sido peregrinación, aquellos politeístas que peregrinaban en tiempos preislámicos habrían sido hunafa', pero Dios lo negó diciendo: "Pero él era íntegro, sumiso, y no era de los politeístas"; y de igual modo, la circuncisión, pues si hanifiyya fuera circuncisión, los judíos habrían sido hunafa', pero Dios los eximió de ella diciendo: "Abraham no era ni judío ni cristiano". {cite:tafsir-tabari-shakir-v03 p. 107}
+
+Al-Tabari concluye que la hanifiyya no consiste únicamente en la circuncisión ni en la peregrinación, sino en mantenerse íntegro en la religión de Abraham, siguiéndolo y tomándolo como guía. Pregunta si los profetas anteriores a Abraham y sus seguidores no fueron íntegros en la obediencia que se les ordenó, y responde que sí, pero que Dios no designó a ninguno de ellos como guía para las generaciones posteriores hasta la Hora, como sí lo hizo con Abraham, designándolo como guía en los ritos de la peregrinación, la circuncisión y otras leyes del Islam, y estableciendo lo que él designó como señal que distingue a los creyentes de los incrédulos entre sus siervos. Así, el íntegro es llamado hanif por seguir su religión, y quien se aparta de ella es llamado con los nombres de otras religiones: judío, cristiano, mago. Sobre «y no era de los politeístas», afirma que no practicaba la idolatría, ni era judío ni cristiano, sino íntegro y sumiso. {cite:tafsir-tabari-shakir-v03 p. 107} {cite:tafsir-tabari-shakir-v03 p. 108}

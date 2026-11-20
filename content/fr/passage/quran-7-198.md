@@ -1,0 +1,20 @@
+---
+id: passage/quran-7-198
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-7-198.md}
+---
+## Résumé
+Verset 198 de [[passage/quran-7|la sourate al-A'raf]], une sourate mecquoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 198 sur 206 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Commentaire sur le verset 198 (pp. 324-326)**
+
+Dieu dit à Son prophète Muhammad : « Dis aux polythéistes : Si tu appelles tes dieux, les polythéistes, à la guidance, c'est-à-dire au droit chemin, ils n'entendront pas. » Cela signifie qu'ils n'entendront pas ton appel. « Et tu les vois te regarder, mais ils ne voient pas. » Il s'agit d'une adresse de Dieu à Son prophète : « Tu vois, Muhammad, leurs dieux te regarder sans te voir », d'où l'emploi du singulier. Si le Prophète avait reçu l'ordre de s'adresser aux polythéistes, le texte aurait été au pluriel : « Et tu les vois te regarder. » L'éditeur explique que cette adresse s'adressait d'abord à l'ensemble des polythéistes, puis au Messager de Dieu au singulier, et que le manuscrit présente un blanc d'environ un mot. Le hadith 15533, rapporté par al-Suddi, dit : « Si tu les appelles à la guidance, ils n'entendent pas, et tu les vois te regarder, mais ils ne voient pas. » Il précise qu'il s'agit des polythéistes, ce qui pourrait signifier par « ce sont les polythéistes » les paroles de Dieu : « Si tu les appelles à la guidance, ils n'entendent pas. » Mujahid disait, dans le hadith 15534 : « et vous les voyez vous regarder, mais ils ne vous voient pas » : lorsque vous les appelez à la guidance. Il semble que Mujahid ait compris que le sens était que vous voyez les polythéistes vous regarder sans qu’ils vous voient, ce qui est une interprétation possible, mais comme le passage s’inscrit dans un exposé sur les dieux, cette interprétation correspond mieux à leur description. {cite:tafsir-tabari-shakir-v13 p. 324} {cite:tafsir-tabari-shakir-v13 p. 325}
+
+Si quelqu'un demande : « Quel est le sens de l'expression "vous les voyez vous regarder mais ils ne vous voient pas" ? Et est-il possible que quelque chose regarde quelque chose sans le voir ? », il répond : les Arabes disent d'une chose qui fait face à une autre ou qui est au même niveau qu'elle la « regarde », et l'on dit « la maison de untel fait face à la mienne » lorsqu'elle lui fait face ; il est rapporté qu'ils disent : « Quand vous arrivez à tel endroit et que la montagne vous fait face, prenez à droite ou à gauche » ; et Abu Ubayd m'a dit qu'al-Kisa'i a dit : « Le mur vous regarde » lorsqu'il est près de vous, là où vous le voyez, et de là vient le verset du poète qui dit que les terres des fils de untel ou des fils de Sabah « regardaient » d'un œil, c'est-à-dire que leur végétation était face à vous et au même niveau. Donc, le sens est : vois-tu, Muhammad, les dieux de ces polythéistes idolâtres te font face et sont au même niveau que toi, bien qu'ils ne te voient pas, puisqu'ils n'ont pas d'yeux. Il est dit « eux » et non « cela » car il s'agit d'images inspirées des formes des enfants d'Adam. L'éditeur précise qu'il ne connaissait pas le poète, que le vers se trouve dans le Nawadir d'Abu Zayd, les Asas al-Balagha et les Maqayis, et expose ce qu'en disent al-Zamakhshari et Ibn Faris à propos de la terre qui « regarde » lorsque son herbe apparaît, le tout étant interprété comme une métaphore et une image. {cite:tafsir-tabari-shakir-v13 p. 325} {cite:tafsir-tabari-shakir-v13 p. 326}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

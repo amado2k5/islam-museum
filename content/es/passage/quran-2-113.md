@@ -1,0 +1,28 @@
+---
+id: passage/quran-2-113
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-2-113.md}
+---
+## Resumen
+Versículo 113 de la Sura [[passage/quran-2|Al-Baqarah]] {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 113 de 286 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Al-Tabari relata que este versículo, «los judíos dijeron que los cristianos no tienen fundamento...», fue revelado acerca de un grupo de los dos pueblos del Libro que disputaron ante el Mensajero de Dios; informa de Ibn Abbas (en el relato de Ibn Ishaq) que cuando los cristianos de Najrán llegaron al Mensajero de Dios, rabinos judíos se presentaron ante ellos y disputaron ante él; Rafi' ibn Huraymila dijo «no tenéis nada», negando a Jesús y el Evangelio, y un hombre de Najrán dijo «no tenéis nada», rechazando la profecía de Moisés y la Torá, y el versículo fue revelado (el editor se refiere a la Sira de Ibn Hisham); y de al-Rabi' que ellos eran la Gente del Libro en tiempos del Profeta. {cite:tafsir-tabari-shakir-v02 p. 513} {cite:tafsir-tabari-shakir-v02 p. 514}
+
+Dice que el versículo significa que los judíos dijeron que los cristianos estaban equivocados en su religión, y los cristianos dijeron que los judíos estaban equivocados en la suya; Dios informa a los creyentes que dijeron esto para informarles que cada parte descuida el dictamen del Libro cuya verdad profesa, mientras niega lo que Dios reveló en él, porque el Evangelio confirma la profecía de Moisés en la Torá y las obligaciones para los Hijos de Israel, y la Torá confirma la profecía de Jesús y lo que él trajo. Cada uno dijo lo que dijo mientras recitaba su propio libro, que da testimonio contra su falsedad, sabiendo que estaba equivocado. {cite:tafsir-tabari-shakir-v02 p. 514}
+
+Cuando se le preguntó si los judíos y los cristianos seguían practicando alguna religión después del envío del Profeta, respondió que la negación de cada parte era una negación de la profecía del profeta en quien la otra parte afirmaba creer, no una negación de que la otra parte practicara alguna de sus religiones en el momento del envío del Profeta, ya que ambas negaron la profecía de Mahoma; en resumen, los judíos dijeron que los cristianos no tenían nada de su religión desde que la adoptaron, y los cristianos dijeron lo mismo de los judíos, y Dios llamó mentirosos a ambas partes. Relata de Qatada: sí, los primeros cristianos seguían practicando alguna religión, pero innovaron y se separaron, al igual que los judíos; y de Mujahid: los primeros judíos y cristianos seguían practicando alguna religión. {cite:tafsir-tabari-shakir-v02 p. 515}
+
+Sobre «mientras recitan el Libro», dice que es el Libro de Dios, la Torá y el Evangelio, que son testigos contra la incredulidad de ambas partes y contra su desobediencia al mandato de Dios; de Ibn Abbas (en el informe de Ibn Ishaq): cada uno recita en su libro la confirmación de aquello en lo que no cree, los judíos no creen en Jesús a pesar de tener la Torá con el pacto de creer en él, y el Evangelio confirma a Moisés, cada uno no cree en lo que el otro sostiene. {cite:tafsir-tabari-shakir-v02 p. 515} {cite:tafsir-tabari-shakir-v02 p. 516}
+
+Sobre «así dijeron los que no saben, semejante a lo que dijeron», registra que los intérpretes discreparon sobre a quién se refería Dios. Algunos dijeron, citando a al-Rabi' y Qatada, que los cristianos dijeron semejante a lo que los judíos dijeron antes que ellos. {cite:tafsir-tabari-shakir-v02 p. 516}
+
+Sobre «los que no saben», al-Tabari presenta la opinión de Ata (en el relato de Ibn Jurayj) de que son pueblos anteriores a los judíos y cristianos, y anteriores a la Torá y al Evangelio, y la opinión de al-Suddi de que son los politeístas árabes, quienes dijeron que Mahoma no estaba en nada. Sostiene que Dios informó de un pueblo al que describió como ignorante que decían lo mismo que los judíos y cristianos decían entre sí; podrían ser los politeístas árabes o un pueblo anterior a los judíos y cristianos, y ninguna de las dos opciones es preferible, ya que el versículo no da ninguna indicación y no hay ningún relato establecido del Profeta. Afirma que Dios quiso informar a los creyentes que los judíos y cristianos, siendo gente de un libro que sabe que está en el error, decían lo mismo que aquellos ignorantes de Dios, de Sus libros y mensajeros, y que el versículo indica que quien comete una desobediencia sabiendo que Dios lo prohíbe tiene una calamidad mayor en su religión que quien lo hace por ignorancia. {cite:tafsir-tabari-shakir-v02 p. 516} {cite:tafsir-tabari-shakir-v02 p. 517} {cite:tafsir-tabari-shakir-v02 p. 518}
+
+Sobre «Dios juzgará entre ellos el Día de la Resurrección sobre aquello en lo que discreparon», dice: Dios decidirá y separará a estos contendientes, que se dijeron el uno al otro «no tenéis fundamento alguno en vuestra religión», el día en que la creación se levante de las tumbas hacia su Señor, cuando el que tiene razón se distinga del que está en el error, y Dios recompensará al que tiene razón con lo que prometió a quienes le obedecen y castigará al que está en el error con lo que amenazó a quienes no creen en Él. «Qiyama» es un sustantivo verbal de «qumtu qiyaman wa-qiyama», y lo que significa es el levantamiento de la creación de las tumbas para su reunión. {cite:tafsir-tabari-shakir-v02 p. 518}

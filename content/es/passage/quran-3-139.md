@@ -1,0 +1,23 @@
+---
+id: passage/quran-3-139
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-3-139.md}
+---
+## Resumen
+Versículo 139 de [[passage/quran-3|Surat Al 'Imran]], una sura de Medina. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 139 de 200 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+**El significado (p. 234).** Abu Ya'far dice que este es el consuelo de Dios a los Compañeros del Mensajero por las heridas y muertes que sufrieron en Uhud. La prohibición de la debilidad significa que no deben debilitarse por lo que su enemigo les infligió con heridas y muertes, de modo que no puedan luchar y combatir contra él (del dicho «fulano se debilitó en este asunto, es débil, debilidad»); la prohibición del dolor significa que no deben desesperarse ni lamentarse por lo que les sucedió ese día, ya que son los superiores, los que prevalecen sobre su enemigo, y de ellos es el resultado de la victoria y la ayuda, si creen en Su Profeta Muhammad en lo que promete y en lo que informa sobre cómo terminará su asunto y el de su enemigo. {cite:tafsir-tabari-shakir-v07 p. 234}
+- De al-Muthanna, Suwayd ibn Nasr, Ibn al-Mubarak, Yunus, al-Zuhri (7884): las muertes y las heridas se multiplicaron entre los Compañeros de Muhammad hasta que la adversidad alcanzó a cada uno de ellos, entonces Dios hizo descender el Corán y consoló a los creyentes de la mejor manera en que un pueblo musulmán anterior entre las naciones pasadas había sido consolado, desde este versículo hasta el versículo en [[passage/quran-3-154|3:154]]. {cite:tafsir-tabari-shakir-v07 p. 234}
+- De Bishr, Yazid, Sa'id, Qatada (7885): Él consuela a los Compañeros de Muhammad, como se escucha, los exhorta a luchar contra su enemigo y les prohíbe ser indefensos y débiles al perseguir a su enemigo en el camino de Dios. {cite:tafsir-tabari-shakir-v07 p. 234}
+- De Muhammad ibn Sinan, Abu Bakr al-Hanafi, Abbad, al-Hasan (7886): Le ordena a Muhammad que no flaquee en su avance por el camino de Dios. El editor señala que el manuscrito tiene un «y» adicional y que el texto impreso es más claro. {cite:tafsir-tabari-shakir-v07 p. 235}
+- De Muhammad ibn Amr, Abu Asim, Isa, Ibn Abi Najih, Mujahid (7887): no te debilites. De al-Muthanna, Abu Hudhayfa, Shibl, Ibn Abi Najih, Mujahid, lo mismo (7888). De al-Muthanna, Ishaq, Abd Allah ibn Abi Ja'far, su padre, al-Rabi' (7889): no te debilites. {cite:tafsir-tabari-shakir-v07 p. 235}
+- De al-Qasim, al-Husayn, Hajjaj, Ibn Jurayj (7890): no flaqueéis al enfrentaros a vuestro enemigo; y sobre el ser superior dijo: los Compañeros del Mensajero fueron derrotados en el barranco, diciendo lo que le había sucedido a fulano, anunciando las muertes de los demás y diciéndose unos a otros que el Mensajero había muerto, y estaban angustiados y afligidos. Mientras estaban así, Khalid ibn al-Walid subió a la montaña con la caballería de los politeístas por encima de ellos, mientras ellos estaban abajo en el barranco. Cuando vieron al Profeta se regocijaron, y el Profeta dijo: ¡Oh Dios, no tenemos fuerza sino en Ti, y nadie te adora en esta tierra sino este pequeño grupo! Un grupo de arqueros musulmanes se reagrupó, subió y disparó a los caballos de los politeístas hasta que Dios los derrotó y los musulmanes se alzaron sobre la montaña; ese es el significado de su ser superior. {cite:tafsir-tabari-shakir-v07 p. 235}
+- De Ibn Humayd, Salama, Ibn Ishaq (7891): no os desaniméis ni os lamentéis por lo que os ha acontecido (el editor señala que Ibn Hisham dice «no os desaniméis»), pues el resultado y el triunfo os pertenecerán, si creísteis a mi profeta en lo que os trajo de mí. El editor se refiere a Ibn Hisham (3:116), continuación de los informes anteriores (el número está impreso de forma ilegible). {cite:tafsir-tabari-shakir-v07 p. 236}
+- De Muhammad ibn Sa'd, su padre, su tío, su padre, su abuelo, Ibn Abbas (7892): Khalid ibn al-Walid vino queriendo escalar la montaña que estaba sobre ellos, y el Profeta dijo: ¡Oh Dios, que no se eleven por encima de nosotros!; y Dios hizo descender este versículo. {cite:tafsir-tabari-shakir-v07 p. 236}
+
+Estas declaraciones se presentan tal como fueron transmitidas; las elecciones y los argumentos son de al-Tabari, las notas y los rastreos de fuentes son del editor, y el museo no emite ningún veredicto. {cite:tafsir-tabari-shakir-v07 p. 236}

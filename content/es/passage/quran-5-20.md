@@ -1,0 +1,36 @@
+---
+id: passage/quran-5-20
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-5-20.md}
+---
+## Resumen
+Versículo 20 de [[passage/quran-5|Surat al-Ma'ida]], una sura de Medina. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 20 de 120 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+**Comentario sobre el versículo 20: Moisés recuerda a su pueblo la bendición de Dios (pág. 159)**
+
+Sobre «y cuando Moisés dijo a su pueblo: pueblo mío, recordad la bendición de Dios sobre vosotros», al-Tabari afirma que esta es también la enseñanza de Dios a su profeta Mahoma acerca de la antigua persistencia de estos judíos en el error, su alejamiento de la verdad, sus malas decisiones, su fuerte oposición a sus profetas y su lentitud para volver a la guía correcta, a pesar de la abundancia de favores divinos para con ellos, para consolarlo por los problemas que sufre al tratar con ellos y las dificultades que afronta por causa de Dios. Dios le dice: no te aflijas por lo que te ha sucedido de ellos, pues apartarse de Dios y alejarse de la verdad es su costumbre y la de sus antepasados; consuélate con lo que tu hermano Moisés experimentó de ellos, y recuerda cuando Moisés les dijo: recordad los favores de Dios para con vosotros y sus beneficios ante vosotros. {cite:tafsir-tabari-shakir-v10 p. 159}
+
+El informe 11622, de Ibn Uyayna, dice que la bendición de Dios significa Sus favores contigo y Sus días, y el informe 11623, de Ibn Abbas, dice que significa el bienestar de Dios. Al-Tabari elige la interpretación de este último porque Dios no mencionó ninguna bendición en particular, sino que habló de bendiciones en general, por lo que abarca el bienestar y otros significados, siendo el bienestar uno de los significados de las bendiciones. {cite:tafsir-tabari-shakir-v10 p. 159}
+
+Luego, «cuando puso profetas entre vosotros y os hizo reyes»: Moisés recordó a su pueblo, los hijos de Israel, los días de Dios con ellos y sus favores, exhortándolos a seguir el mandato divino de luchar contra los gigantes. Dijo: «Recordad la bendición de Dios sobre vosotros, que os favoreció poniendo entre vosotros profetas que traen su revelación y os anuncian lo oculto, algo que no reveló a nadie más en vuestro tiempo». Se dice que los profetas son los setenta que Moisés escogió para la reunión señalada. Se dice que «os hizo reyes» significa que hizo que otros os sirvieran, o que Moisés lo dijo porque nadie más entre los hijos de Adán tenía siervos. El editor corrige dos formulaciones en el texto impreso y en el manuscrito. {cite:tafsir-tabari-shakir-v10 p. 160}
+
+El relato 11624, de Qatada, afirma que fueron los primeros entre los hijos de Adán en tener sirvientes, convirtiéndose así en reyes. Otros dicen que cualquiera que tenga una casa, un sirviente y una esposa es rey, sea quien sea. El relato 11625 cuenta que un hombre preguntó a Abd Allah ibn Amr ibn al-As si no se encontraban entre los emigrantes pobres; Abd Allah le preguntó si tenía esposa y vivienda, y ante su respuesta afirmativa, dijo que era rico; cuando el hombre dijo que tenía un sirviente, afirmó que entonces era rey. El editor señala que Muslim registra este relato en su Sahih. El relato 11626, de Zayd ibn Aslam, quien cree que el Profeta lo dijo, afirma: quien tenga una casa y un sirviente es rey; el editor dice que Ibn Kathir lo considera un relato mursal extraño. {cite:tafsir-tabari-shakir-v10 p. 161}
+
+El relato 11627 dice que al-Hasan al-Basri recitó el versículo y preguntó: ¿Qué es la realeza sino un caballo, un siervo y una casa? Quienes sostienen esta opinión dicen que Moisés habló así porque poseían casas, siervos y esposas. Los relatos 11628 y 11629, de al-Hakam, dicen que un hombre de los Hijos de Israel que tenía una casa, una esposa y un siervo era considerado rey, y Sufyan añade: o dos de los tres; el relato 11630 de Ibn Abbas dice la casa y el siervo, el relato 11631 de él dice la esposa, el siervo y la casa, y el relato 11632 de Mujahid dice que les dio esposas, siervos y casas. {cite:tafsir-tabari-shakir-v10 p. 162}
+
+El informe 11633, de Ibn Abbas, dice que un hombre de los Hijos de Israel con esposa, sirviente y casa era llamado rey, y el editor señala la debilidad de un transmisor en la cadena. El informe 11634, de Qatada, dice que su reino eran los sirvientes y que fueron los primeros en poseerlos; el informe 11635, de Mujahid, repite la afirmación anterior. Otros dijeron que significa que se poseen a sí mismos, a sus familias y a sus propiedades, y el informe 11636, de al-Suddi, dice que un hombre de vosotros se posee a sí mismo, a su familia y a su riqueza. {cite:tafsir-tabari-shakir-v10 p. 163}
+
+Luego, «y os dio lo que no le dio a nadie más en el mundo», donde se discute a quién se dirige. Algunos dicen que a la comunidad de Mahoma, como lo indica el informe 11637 de Abu Malik y Sa'id ibn Jubayr. Otros dicen que al pueblo de Moisés, como lo afirma el informe 11638 de Mujahid, y el informe 11639 de Ibn Abbas, que dice que estaban entre los que vivían entonces; el editor señala que al-Hakim lo registra como auténtico y al-Dhahabi estuvo de acuerdo. Luego discreparon sobre lo que Dios les dio que no le dio a nadie más. {cite:tafsir-tabari-shakir-v10 p. 164}
+
+Algunos dijeron que se trataba del maná y las codornices, la roca y la nube; los informes 11640 y 11641 de Mujahid y el 11643 de Ibn Abbas así lo afirman, y la roca es aquella que Moisés golpeó con su vara, de la cual brotaron doce manantiales. Otros dijeron que se trataba de la casa, el sirviente y la esposa; el informe 11642, de Ibn Abbas, dice que se trataba de un hombre que tiene una casa, un sirviente y una esposa, y el editor señala la debilidad de un transmisor en esta cadena. {cite:tafsir-tabari-shakir-v10 p. 165}
+
+Al-Tabari prefiere la opinión de que «os ha dado lo que no ha dado a nadie más en los mundos» pertenece a «recordad la bendición de Dios sobre vosotros» y se une a ella, sin que nada en la redacción la aparte de aquellos a quienes se dirige inicialmente, por lo que es más apropiado que se dirija a ellos. Quien piense que no puede dirigirse a ellos, porque la comunidad de Mahoma recibió del honor de Dios a través de su profeta lo que nadie más recibió, está equivocado: es Moisés quien habla a su pueblo entonces, es decir, a los mundos de su tiempo, no a todos los tiempos, y nadie en ese tiempo recibió la bendición y el honor de Dios como lo hizo su pueblo. El editor señala que el editor del texto impreso malinterpretó el árabe de al-Tabari y lo alteró. {cite:tafsir-tabari-shakir-v10 p. 166}
+
+Nos detenemos aquí, al pie de la página 166, al final del comentario sobre el versículo 20; el versículo 21 comienza en la página siguiente.
+
+Estas declaraciones se presentan tal como fueron transmitidas; las elecciones y los argumentos son de al-Tabari, las notas y los rastreos de fuentes son del editor, y el museo no emite ningún veredicto.

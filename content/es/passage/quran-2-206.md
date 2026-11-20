@@ -1,0 +1,16 @@
+---
+id: passage/quran-2-206
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-2-206.md}
+---
+## Resumen
+Versículo 206 de [[passage/quran-2|Surah al-Baqarah]], una sura de Medina. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 206 de 286 versículos en la sura. El texto se encuentra en la edición congelada del Mushaf de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Sobre "y cuando se le dice, teme a Dios, el orgullo se apodera de él en el pecado; el infierno es suficiente para él, y miserable es el lugar de descanso": al-Tabari dice que el sentido es que cuando a este hipócrita, a quien Dios describió a Su Profeta, se le dice, teme a Dios y ten cuidado de Él en tu corrupción en Su tierra, tu esfuerzo en ella por lo que Él te prohibió, y tu destrucción de las cosechas y la descendencia de los musulmanes, se enorgullece, es poseído por el orgullo y el celo por lo que Dios le prohibió, y persiste en su error; así que arder en el fuego del infierno es castigo suficiente para él, y miserable es el lugar de descanso para quien arde en él. {cite:tafsir-tabari-shakir-v04 p. 244} Los intérpretes difirieron sobre a quién se refiere el versículo. Algunos dijeron que a todo malhechor e hipócrita; Abu Raja' al-'Utaridi oyó a 'Ali decir acerca de los versículos desde "entre la gente está aquel cuya palabra os agrada" hasta "Dios es bondadoso con Sus siervos": por el Señor de la Kaaba, lucharon (3998). {cite:tafsir-tabari-shakir-v04 p. 244} De Ibn Zayd: después de su oración voluntaria, 'Umar ibn al-Khattab solía ir a su patio de secado de dátiles y mandar llamar a jóvenes que habían leído el Corán, entre ellos Ibn 'Abbas y el sobrino de 'Uyayna, y lo estudiaban hasta el descanso del mediodía; una vez que llegaron a este versículo y al de aquellos que se venden buscando el agrado de Dios, "estos son los luchadores en el camino de Dios", e Ibn 'Abbas le dijo al hombre que estaba a su lado, ¿lucharon los dos hombres? 'Umar lo oyó y preguntó, y él dijo, nada, Comandante de los Creyentes, pero 'Umar lo presionó; Ibn 'Abbas dijo: Veo aquí a uno que, cuando se le dice que tema a Dios, es presa del orgullo en el pecado, y a uno que se vende buscando el agrado de Dios, que se levanta y le ordena al otro que tema a Dios, y cuando no acepta y el orgullo se apodera de él, el primero dice: Me vendo, y lucha contra él, así que los dos luchan; 'Umar dijo: Dios bendiga tu tierra, Ibn 'Abbas (3999). {cite:tafsir-tabari-shakir-v04 p. 245} El editor explica "subha" y "mirbad", identifica a al-Hurr ibn Qays, sobrino de 'Uyayna, y corrige la redacción impresa de la exclamación de 'Umar. {cite:tafsir-tabari-shakir-v04 p. 245} Otros dijeron que se trata de al-Akhnas ibn Shariq, como ya se informó (3961). {cite:tafsir-tabari-shakir-v04 p. 245} Sobre "desdichado es el lugar de descanso": la cama y el lecho del Infierno, con los que Dios amenazó a este hipócrita y que él se preparó para sí mismo con su hipocresía, maldad y rebelión contra su Señor. {cite:tafsir-tabari-shakir-v04 p. 246}

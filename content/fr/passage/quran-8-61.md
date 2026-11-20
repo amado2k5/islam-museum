@@ -1,0 +1,30 @@
+---
+id: passage/quran-8-61
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-8-61.md}
+---
+## Résumé
+Verset 61 de [[passage/quran-8|la sourate al-Anfal]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 61 sur 75 de la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Commentaire sur le verset 61 (pp. 40-41)**
+
+Al-Tabari rapporte : Dieu dit à Son Prophète Muhammad : « Si tu crains la trahison et la perfidie d'un peuple, retourne-toi vers lui sur un pied d'égalité et annonce-lui la guerre. S'il penche pour la paix, penche-toi pour elle », c'est-à-dire s'il est enclin à faire la paix avec toi et à mettre fin à la guerre, que ce soit par la conversion à l'islam, le paiement de la capitation, une trêve ou tout autre moyen de paix et de règlement. « Penche-toi pour elle » signifie se tourner vers elle et leur accorder ce qu'ils demandent. Certains disent « il penchait pour cela », et Tamim et Qays, dit-on, utilisent la voyelle « u » au présent tandis que d'autres utilisent « i ». Il cite un vers d'al-Nabigha al-Dhubyani à propos d'Amr ibn al-Harith al-A'raj lorsqu'il s'enfuit en Syrie, où « pencher » signifie être enclin à. L'éditeur, dans sa note, cite les vers du poème concernant les oiseaux qui suivent une armée en raid et loue leur qualité. Il se réfère à l'explication précédente du terme « paix ». {cite:tafsir-tabari-shakir-v14 p. 40}
+
+Rapport 16245, rapporté de Qatada, par Muhammad ibn Abd al-A'la, Muhammad ibn Thawr et Ma'mar : « s'ils inclinent à la paix » signifie à un accord, et le verset enjoignant de combattre les idolâtres où qu'ils se trouvent ([[passage/quran-9-5|9:5]]) l'a abrogé. Rapport 16246, rapporté de Qatada, par Bishr, Yazid et Sa'id : cela précédait la sourate Bara'a, et le Prophète concluait des trêves avec les peuples pour une durée déterminée, après quoi ils se convertissaient à l'islam ou il les combattait ; puis cela a été abrogé dans Bara'a par le verset ordonnant de combattre tous les idolâtres ([[passage/quran-9-36|9:36]]), l'alliance de chacun a été annulée, et il a été ordonné de les combattre jusqu'à ce qu'ils déclarent qu'il n'y a de dieu que Dieu et se convertissent à l'islam, sans rien accepter d'autre d'eux ; Bara'a est venu abroger toutes les alliances de cette sourate et d'autres, ainsi que tous les accords par lesquels les musulmans ont fait la paix avec les idolâtres. {cite:tafsir-tabari-shakir-v14 p. 41}
+
+Le hadith 16247, rapporté par Ikrima et al-Hasan al-Basri, via Ibn Humayd, Yahya ibn Wadih, al-Husayn et Yazid, affirme que le verset « s’ils inclinent à la paix, inclinez-vous à elle » a été abrogé par le verset de Bara'a concernant le combat contre ceux qui ne croient ni en Dieu ni au Jour dernier, jusqu'à « tant qu'ils seront humiliés » ([[passage/quran-9-29|9:29]]). {cite:tafsir-tabari-shakir-v14 p. 41}
+
+Le hadith 16248, rapporté par al-Suddi, via Muhammad ibn al-Husayn, Ahmad ibn al-Mufaddal et Asbat : s’ils souhaitent un règlement, acceptez-le. Le hadith 16249, rapporté par Ibn Ishaq, via Ibn Humayd et Salama : s’ils vous appellent à la paix, à l’islam, faites la paix avec eux à ce sujet. Le hadith 16250, rapporté par Ibn Zayd, via Yunus et Ibn Wahb : faites la paix avec eux, et le jihad a abrogé ce hadith. L’éditeur précise que le hadith 16249 figure dans la Sira d’Ibn Hisham. {cite:tafsir-tabari-shakir-v14 p. 42}
+
+Al-Tabari affirme ensuite que l'affirmation de Qatada et de ceux qui partagent son avis, selon laquelle ce verset est abrogé, est dénuée de tout fondement, qu'il provienne du Coran, de la Sunna ou du bon sens. Il a démontré à plusieurs reprises dans son ouvrage qu'un verset abrogeant est uniquement celui qui annule et contredit intégralement la portée du verset abrogé ; tout autre verset n'est pas abrogeant. La parole de Dieu dans la sourate Bara'a, enjoignant de combattre les idolâtres où qu'ils se trouvent ([[passage/quran-9-5|9:5]]), ne remet pas en cause la portée de ce verset, car l'expression « s'ils inclinent à la paix » se réfère aux Banu Qurayza, qui étaient des Juifs, Gens du Livre. Dieu a permis aux croyants de faire la paix avec les Gens du Livre et de renoncer à la guerre pour percevoir l'impôt de capitation. Le verset de Bara'a, quant à lui, fait référence aux idolâtres arabes, adorateurs d'idoles, auprès desquels l'impôt de capitation ne peut être exigé. Ainsi, aucun des deux versets ne contredit l'autre, et chacun demeure fidèle à son sens originel. L'éditeur fait référence à sa discussion antérieure sur l'abrogation. {cite:tafsir-tabari-shakir-v14 p. 42}
+
+Rapport 16251, de Mujahid, par l'intermédiaire de Muhammad ibn Amr, Abu Asim, Isa et Ibn Abi Najih : « s'ils penchent pour la paix », dit-il, les Qurayza. {cite:tafsir-tabari-shakir-v14 p. 43}
+
+Concernant « et s’en remettre à Dieu », il dit : confie tes affaires à Dieu, Muhammad, et demande-Lui de te suffire, en ayant confiance qu’Il le fera ; hadith rapporté au numéro 16252, d’après Ibn Ishaq, transmis par Ibn Humayd et Salama : Dieu te suffit. Concernant « Il est Celui qui entend et qui sait », il dit que Dieu, en qui tu as confiance, « entend » ce que tu dis et ce que disent ceux avec qui tu fais la paix, parmi Ses ennemis et les tiens, lors de la conclusion de la paix, ainsi que les conditions que chaque partie impose à l’autre ; et « sait » ce que chaque partie cache à l’autre, le respect de ses engagements, qui le dissimule dans son cœur et qui soutient le contraire. L’éditeur se réfère aux explications précédentes concernant la confiance, « l’ouïe » et la « connaissance ». {cite:tafsir-tabari-shakir-v14 p. 43}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

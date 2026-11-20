@@ -1,0 +1,30 @@
+---
+id: passage/quran-7-138
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-7-138.md}
+---
+## Résumé
+Verset 138 de [[passage/quran-7|la sourate al-A'raf]], une sourate mecquoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 138 sur 206 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Commentaire sur le verset 138 (à partir de la page 80)**
+
+Al-Tabari rapporte : Nous avons fait traverser la mer aux Enfants d'Israël après les signes que Nous leur avions montrés et les enseignements qu'ils avaient reçus du prophète Moïse. Pourtant, ces signes ne les ont pas retenus, et ces enseignements et preuves ne les ont pas avertis. Ainsi, malgré des arguments qui auraient dû rappeler à l'ordre même le bétail, ils dirent, en passant devant un peuple voué à ses idoles, c'est-à-dire se tenant devant des images qu'ils adoraient en dehors de Dieu : « Moïse, fais de nous un dieu », c'est-à-dire une image que nous adorons et une idole que nous prenons pour un dieu, comme ce peuple en a. L'adoration ne convient qu'à Dieu, l'Unique, le Tout-Puissant. Moïse dit : Vous êtes un peuple qui ignore la grandeur de Dieu et le devoir que vous Lui devez, et qui ne sait pas qu'il n'est permis d'adorer que Dieu, à qui appartient la royauté des cieux et de la terre. L'éditeur se réfère à l'explication précédente du terme « dévotion » et commente le terme « images ». {cite:tafsir-tabari-shakir-v13 p. 80}
+
+Rapport 15053, d'Ibn Jurayj, par l'intermédiaire d'al-Qasim, al-Husayn et Hajjaj : « leurs idoles » désignent des images de bétail ; lorsque le veau du Samaritain arriva, on le leur fit paraître comme l'un de ces bétails, et ce fut le début de l'affaire du veau. {cite:tafsir-tabari-shakir-v13 p. 80}
+
+Il est également dit que les personnes dévouées à leurs idoles appartenaient à Lakhm. Rapport 15054, de Qatada, transmis par Muhammad ibn Bashshar, Bishr ibn Umar, al-Abbas ibn al-Mufaddal et Abu al-Awwam : « sur Lakhm ». L’éditeur donne les biographies des transmetteurs de la chaîne et précise, au sujet d’« al-Abbas ibn al-Mufaddal », qu’il pense qu’il s’agit d’al-Abbas ibn al-Fadl al-Ansari al-Waqifi, dont les transmissions sont rejetées. {cite:tafsir-tabari-shakir-v13 p. 81}
+
+On dit aussi qu'ils appartenaient aux Cananéens que Moïse reçut l'ordre de combattre. Selon le hadith 15055, rapporté par al-Zuhri, par l'intermédiaire de Muhammad ibn Abd al-A'la, Muhammad ibn Thawr et Ma'mar : Abu Waqid al-Laythi a dit : « Nous sommes partis avec le Messager de Dieu avant Hunayn et nous sommes passés devant un jujubier. J'ai dit : « Ô Prophète de Dieu, fais de cet arbre un lieu où nous pourrons suspendre nos affaires, comme le font les mécréants. » Les mécréants avaient coutume de suspendre leurs armes à un jujubier et de rester autour. Le Prophète a dit : « Dieu est le plus grand ! Cela ressemble à ce que les Enfants d'Israël ont dit à Moïse : “Fais de nous un dieu comme ils en ont.” Tu suivras ainsi la voie de ceux qui t'ont précédé. » L'éditeur explique « arbre de lotus », « pendaison » et les objets suspendus, et dit que le rapport est mursal parce qu'al-Zuhri n'a pas donné sa chaîne complète, qu'al-Tabari le donne par quatre voies dont celle-ci est la première, et sa source suit à la suivante. {cite:tafsir-tabari-shakir-v13 p. 81}
+
+Rapport 15056, d'après Abu Waqid al-Laythi, transmis par al-Hasan ibn Yahya, Abd al-Razzaq, Ma'mar, al-Zuhri et Sinan ibn Abi Sinan : Nous sommes allés avec le Messager de Dieu avant Hunayn et nous sommes passés devant un lotus ; nous avons dit : « Ô Prophète de Dieu, fais de cet arbre un arbre où nous pourrons suspendre des choses », et il nous l'a accordé. Rapport 15057, d'après Abu Waqid al-Laythi, du Messager de Dieu, transmis par al-Muthanna, al-Hajjaj, Hammad, Muhammad ibn Ishaq, al-Zuhri et Sinan ibn Abi Sinan. L'éditeur donne la biographie de Sinan ibn Abi Sinan al-Dayli ou al-Du'ali, un successeur fiable, et note qu'Ahmad l'a donnée dans son Musnad par l'intermédiaire d'Abd al-Razzaq de Ma'mar, et qu'Ibn Ishaq l'a donnée dans sa Sira d'al-Harith ibn Malik Abu Waqid al-Laythi, avec « nous avions récemment quitté l'incroyance ». {cite:tafsir-tabari-shakir-v13 p. 82}
+
+Rapport 15058, d'après Abu Waqid al-Laythi, transmis par al-Muthanna, Ibn Salih, al-Layth, Uqayl, Ibn Shihab et Sinan ibn Abi Sinan al-Dayli : ils quittèrent La Mecque avec le Messager de Dieu pour Hunayn ; les mécréants avaient un jujubier où ils s'arrêtaient et suspendaient leurs armes, appelé « celui aux tentures » ; nous passâmes devant un grand jujubier vert et dîmes : « Ô Messager de Dieu, fais-nous un arbre aux tentures. » Il répondit : « Vous avez dit, par Celui qui tient mon âme entre Ses mains, ce que le peuple de Moïse a dit : “Faites-nous un dieu comme ils en ont.” Il a dit : “Vous êtes un peuple ignorant.” Telles sont les voies ; suivez les voies de ceux qui vous ont précédés. » L'éditeur précise qu'Ibn Salih est Abd Allah ibn Salih, secrétaire d'al-Layth, et que la mention « al-Muthanna m'a dit » a disparu de la chaîne de transmission, laquelle a ensuite été rétablie. al-Bukhari l'a brièvement mentionné dans son Histoire ; Ahmad a ajouté un autre itinéraire passant par Malik et venant d'al-Zuhri ; al-Tayalisi l'a également mentionné ; et al-Suyuti l'a cité dans le « Durr al-Manthur », l'attribuant à Ibn Abi Shayba, al-Nasa'i, Ibn al-Mundhir, Ibn Abi Hatim, Abu al-Shaykh et Ibn Mardawayh. {cite:tafsir-tabari-shakir-v13 p. 82}
+
+Le commentaire sur le verset 138 se termine ici à la page 82. {cite:tafsir-tabari-shakir-v13 p. 82}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

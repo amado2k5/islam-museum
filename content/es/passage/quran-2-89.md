@@ -1,0 +1,18 @@
+---
+id: passage/quran-2-89
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-2-89.md}
+---
+## Resumen
+Versículo 89 de la Sura [[passage/quran-2|Al-Baqarah]] {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 89 de 286 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Sobre «y cuando les llegó un Libro de Dios que confirmaba lo que tenían», al-Tabari dice que se refiere a los judíos de los Hijos de Israel y que el Libro es el Corán, que confirma la Torá y el Evangelio, citando a Qatada y al-Rabi'. Sobre «y antes de eso solían buscar la victoria sobre los incrédulos», buscar la victoria (istiftah) significa buscar ayuda: solían pedir la ayuda de Dios a través de Mahoma contra los politeístas árabes antes de su misión. Relata de Ibn Ishaq, de ancianos de los Ansar, que el versículo fue revelado acerca de ellos y sus vecinos judíos: los judíos tenían la ventaja en la Jahiliyya y decían que el tiempo de un profeta estaba cerca y que matarían a los Ansar con él como mataron a Ad e Iram; cuando el profeta fue enviado por Quraysh y los Ansar lo siguieron, los judíos lo rechazaron (el editor considera que el relato tiene la fuerza de un relato elevado y que está conectado). De Ibn Abbas relata que Mu'adh ibn Jabal y Bishr ibn al-Bara' les recordaron esto a los judíos, y que Sallam ibn Mishkam de los Banu al-Nadir respondió que no había traído nada que ellos conocieran y que no era aquel al que solían mencionar, tras lo cual descendió el versículo. También relata de Ibn Abbas que lo rechazaron y lo envidiaron al ver que no era de su tribu, y de 'Ali al-Azdi que solían orar: «¡Oh Dios, envíanos a este profeta para que juzgue entre nosotros!». {cite:tafsir-tabari-shakir-v02 p. 331} {cite:tafsir-tabari-shakir-v02 p. 332} {cite:tafsir-tabari-shakir-v02 p. 333} {cite:tafsir-tabari-shakir-v02 p. 334}
+
+Al-Tabari continúa con los relatos sobre la búsqueda de la victoria. De Qatada y Abu al-'Aliya: los judíos solían decir: «¡Oh Dios, envía a este profeta que encontramos en la Torá!», y cuando era enviado por otros, lo rechazaban por envidia de los árabes, aunque sabían que era el mensajero de Dios. De al-Suddi: los árabes solían hostigarlos, así que le pidieron a Dios que lo enviara para poder luchar contra los árabes con él. Relatos similares provienen de 'Ata', Mujahid, Ibn Abbas y Sa'id ibn Jubayr. De Ibn Abbas a través de al-Dahhak: afirmaban apoyarlo contra los árabes, «pero no era así, mentían». De Ibn Zayd: suponían que sería uno de ellos, así que lo rechazaron y lo envidiaron cuando no lo era; por esto Dios benefició a los Aws y Khazraj, quienes habían oído de ellos que vendría un profeta. Sobre la respuesta a «y cuando les llegó», ofrece dos interpretaciones de los gramáticos: que se omite porque los oyentes lo saben, como en al-Ra'd 13:31, o que es el «fa» en «cuando les llegó lo que sabían, lo rechazaron». Sobre «así que la maldición de Dios está sobre los incrédulos», dice que significa la deshonra y el rechazo de Dios hacia aquellos que niegan lo que sabían, y el versículo muestra claramente que eligieron la incredulidad deliberadamente una vez establecida la prueba. {cite:tafsir-tabari-shakir-v02 p. 334} {cite:tafsir-tabari-shakir-v02 p. 335} {cite:tafsir-tabari-shakir-v02 p. 336} {cite:tafsir-tabari-shakir-v02 p. 337}

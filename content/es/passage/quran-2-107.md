@@ -1,0 +1,20 @@
+---
+id: passage/quran-2-107
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-2-107.md}
+---
+## Resumen
+Versículo 107 de [[passage/quran-2|Surat al-Baqara]], una sura de Medina. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 107 de 286 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Sobre "¿No sabéis que Dios tiene poder sobre todas las cosas?", dice: "¿No sabes, Muhammad, que puedo compensarte por lo que abrogue de mis preceptos y cambie mis obligaciones, con lo que yo quiera que sea mejor para ti y mis siervos creyentes, ahora en este mundo o después en el Más Allá, o poner en su lugar algo semejante? Sabed, pues, que tengo poder sobre esto y sobre todas las cosas". "Qadir" aquí significa fuerte, y registra el uso "qadartu alayhi", que Banu Murra de Ghatafan kasra el dal, y que "taqdir" de "qadartu al-shay'" tiene un sustantivo verbal diferente. {cite:tafsir-tabari-shakir-v02 p. 484}
+
+Sobre la frase "¿Acaso no sabéis que a Dios pertenece el reino de los cielos y de la tierra?", al-Tabari plantea una pregunta: ¿Acaso el Profeta no lo sabía ya? Relata que algunos afirmaron que el discurso tenía la forma de una afirmación, como dicen los árabes: "¿No te he honrado?", que significa "Te he honrado"; rechaza esta interpretación, ya que en árabe una pregunta antes de una partícula de negación no implica afirmación. Sostiene que, si bien el mensaje parece dirigirse al Profeta, en realidad va dirigido a sus Compañeros, a quienes Dios les dijo: "No digáis ra'ina, sino unzurna y escuchad". Argumenta que el final del versículo, "No tenéis protector ni auxiliador fuera de Dios", devuelve el mensaje a todos ellos. Afirma que es propio del árabe fluido que un hablante dirija sus palabras a algunos refiriéndose a otros, o a uno a muchos, o a muchos a uno solo, citando como ejemplos la Sura Al-Ahzab (dirigida primero al Profeta y luego al grupo), los versos de Al-Kumayt ibn Zayd alabando al Profeta refiriéndose a su familia, un verso de Jamil ibn Ma'mar, "alaa inna jiranii al-'ashiyyata ra'ih", y otro suyo que describe a una mujer con una palabra masculina. Así pues, este verso, aunque aparentemente dirigido al Profeta, está destinado a sus Compañeros. {cite:tafsir-tabari-shakir-v02 p. 484} {cite:tafsir-tabari-shakir-v02 p. 485} {cite:tafsir-tabari-shakir-v02 p. 486} {cite:tafsir-tabari-shakir-v02 p. 487}
+
+Sobre «A Él pertenece el reino de los cielos y de la tierra», al-Tabari distingue «mulk» en el sentido de soberanía y dominio de «milk» en el sentido de propiedad. Dice que el versículo significa: ¿Acaso no sabes, Muhammad, que a Mí pertenece el dominio y la soberanía de los cielos y de la tierra, excluyendo a cualquier otro, donde yo juzgo como quiero, mando y prohíbo, y abrogo, reemplazo y cambio mis preceptos entre mis siervos como quiero? Sostiene que, si bien el relato es una invocación al Profeta acerca de la grandeza de Dios, es una negación de los judíos que rechazaron la abrogación de los preceptos de la Torá y negaron la profecía de Jesús y de Muhammad; Dios les dijo que el dominio es Suyo y que Él puede mandar, prohibir, abrogar, confirmar y hacer olvidar, y luego les dijo al Profeta y a los creyentes que se sometieran a Su mandato y no se alarmaran por ningún adversario, pues no hay nadie que vele por sus asuntos sino Él ni ningún auxiliador para ellos sino Él. "Wali" es una forma "fa'il" de "waliytu amr fulan", cuando te conviertes en el responsable de ello, "nasir" es de "nasartuka", el que apoya, y "min dun Allah" significa distinto de Dios y después de Dios, para lo cual cita un versículo de Umayya ibn Abi al-Salt. {cite:tafsir-tabari-shakir-v02 p. 487} {cite:tafsir-tabari-shakir-v02 p. 488} {cite:tafsir-tabari-shakir-v02 p. 489}

@@ -1,0 +1,32 @@
+---
+id: passage/quran-5-93
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-5-93.md}
+---
+## Resumen
+Verso 93 de [[passage/quran-5|Surat al-Ma'ida]], una sura de Medina. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 93 de 120 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+**Comentario sobre el versículo 93: "No se culpa a quienes creen y obran bien por lo que comen", págs. 576-579**
+
+Al-Tabari dice: Dios dice a la gente que preguntó, cuando descendió la prohibición del vino, qué de nuestros hermanos que murieron bebiéndolo y de nosotros que solíamos beberlo: no hay culpa sobre aquellos de vosotros que creyeron y obraron bien por lo que bebieron cuando Dios no lo había prohibido, si cumplieron con su deber, creyeron y obraron bien; es decir, si los vivos entre ellos temieron a Dios y se cuidaron de evitar lo que Él prohibió, creyeron a Dios y a Su mensajero en lo que ellos ordenaron y prohibieron y los obedecieron en todo, y obtuvieron las obras que a Él le agradan. «Entonces cumplieron con su deber y creyeron» significa que se mantuvieron firmes en ese deber y fe sin cambio ni alteración; «entonces cumplieron con su deber y obraron bien» significa que su temor de Dios los llevó a obrar bien, lo cual es actuar más allá de lo que Él hizo obligatorio, en obras voluntarias por las cuales se acercaron a su Señor buscando Su complacencia y huyendo de Su castigo; y «Dios ama a los que hacen el bien» significa aquellos que se acercan a Él mediante obras voluntarias que a Él le agradan. {cite:tafsir-tabari-shakir-v10 p. 576}
+
+Al-Tabari explica que el primer «deber de cumplir» consiste en recibir el mandato de Dios con aceptación, fe, devoción y acción; el segundo, en mantenerse firme en la fe, evitando cualquier alteración o cambio; y el tercero, en obrar bien acercándose a Él mediante obras voluntarias. La razón por la que el tercero es voluntario y no obligatorio es que Dios informó que la culpa se exime de quienes bebieron antes de que se prohibiera, si después de la prohibición temieron a Dios, creyeron y realizaron las buenas obras obligatorias, y no tiene sentido repetirlo en un solo versículo. Los relatos de los Compañeros y Seguidores afirman que fue revelado con este propósito. Los relatos 12525 y 12526, de Ibn Abbas, dicen que cuando se prohibió el vino, preguntaron: «Mensajero de Dios, ¿qué sucederá con nuestros compañeros que murieron bebiéndolo?», y entonces se reveló el versículo. El editor lo atribuye a Ahmad, al-Tirmidhi y al-Hakim. {cite:tafsir-tabari-shakir-v10 p. 577}
+
+El relato 12527, de Anas ibn Malik, dice que estaba pasando la copa a Abu Talha, Abu Ubayda ibn al-Jarrah, Mu'adh ibn Jabal, Suhayl ibn Bayda y Abu Dujana, con una mezcla de dátiles verdes y maduros, hasta que sus cabezas se balancearon, cuando oyeron a un pregonero decir que el vino estaba ahora prohibido; ninguno de nosotros entró ni salió hasta que vertimos la bebida y rompimos las tinajas, algunos de nosotros realizamos la ablución y otros nos lavamos, nos pusimos un poco del perfume de Umm Sulaym y fuimos a la mezquita, donde el Profeta estaba recitando el versículo a "así que no os abstendréis"; un hombre preguntó cuál era la condición de aquellos de nosotros que morimos bebiéndolo, y descendió "no hay culpa para los que creen". El editor toma nota de lo que se ha dicho de un narrador en la cadena y rastrea el relato hasta al-Bujari, Muslim y al-Nasa'i. {cite:tafsir-tabari-shakir-v10 p. 578}
+
+Los relatos 12528 y 12529, de al-Bara' ibn Azib, dicen que cuando se prohibió el vino, preguntaron qué sucedería con sus compañeros que murieron bebiéndolo, y entonces descendió el versículo; el editor lo atribuye a al-Tirmidhi y otros. El relato 12530, de Mujahid, sobre la revelación del versículo, comienza al pie de la página. {cite:tafsir-tabari-shakir-v10 p. 579}
+
+**Comentario sobre el versículo 93, continuación: informes sobre quienes fallecieron antes de la prohibición, págs. 580-582**
+
+El informe 12530, de Mujahid, continúa diciendo que el versículo se refiere a los que murieron en Badr y Uhud junto con el Profeta. El informe 12531, de Abdullah ibn Mas'ud, dice que cuando descendió el versículo, el Profeta dijo: «Me han dicho: tú eres uno de ellos»; el editor atribuye el informe a Muslim, al-Tirmidhi, al-Hakim y al-Haythami. El informe 12532, de Qatada, dice que cuando descendió la prohibición del vino en la sura de la Mesa, algunos Compañeros dijeron que fulano murió en Badr y mengano en Uhud mientras lo bebían, «y atestiguamos que son gente del Paraíso», así que descendió el versículo: la gente lo bebió con temor de Dios y buena conducta cuando les era lícito, luego se les prohibió, así que no hay culpa en ellos. El editor señala un error del copista en una palabra sobre los Confederados. {cite:tafsir-tabari-shakir-v10 p. 581}
+
+El relato 12533, de Ibn Abbas, dice que preguntaron: «Mensajero de Dios, ¿qué decimos de nuestros hermanos que fallecieron, que bebieron vino y jugaron?». Y descendió el versículo, que significa antes de la prohibición, si eran personas virtuosas y temerosas de Dios, mientras que «si cumplieron con su deber e hicieron el bien» significa después de que se prohibiera, como en «quien recibe una amonestación de su Señor y se detiene, puede conservar lo que ya pasó». El relato 12534, de él, dice que algunos Compañeros murieron bebiendo vino antes de su prohibición y no fueron culpados, y cuando se prohibió, dijeron: «¿Cómo puede prohibirse para nosotros si nuestros hermanos murieron bebiéndolo?». Y descendió el versículo. {cite:tafsir-tabari-shakir-v10 p. 582}
+
+El informe 12535, de Mujahid, dice que es para aquellos que bebieron vino entre los muertos con Muhammad en Badr y Uhud, y el informe 12536, de al-Dahhak, que esto se refiere al vino cuando estaba prohibido, cuando preguntaron al Profeta acerca de sus hermanos que murieron bebiéndolo, y descendió el versículo. {cite:tafsir-tabari-shakir-v10 p. 582}
+
+Estas declaraciones se presentan tal como fueron transmitidas; las elecciones y los argumentos son de al-Tabari, las notas y los rastreos de fuentes son del editor, y el museo no emite ningún veredicto.

@@ -1,0 +1,26 @@
+---
+id: passage/quran-11-77
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-11-77.md}
+---
+## Résumé
+Verset 77 de [[passage/quran-11|la sourate Hud]], une sourate mecquoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 77 sur 123 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Commentaire sur le verset 77 (pp. 407-411)**
+
+Sur le [[passage/quran-11-77|verset 11:77]], al-Tabari rapporte : lorsque Nos anges vinrent à Lot, celui-ci fut affligé par leur venue, le verbe étant dérivé de « su », signifiant « mal », et « se sentit contraint par leur présence », « à portée de main », c'est-à-dire que son âme était accablée de chagrin à leur arrivée, car, dans l'état où il se trouvait, il ignorait qu'ils étaient les messagers de Dieu. Il connaissait les actes honteux commis par son peuple et craignait pour eux. Aussi, sachant qu'il devrait défendre ses hôtes, il se sentit contraint par leur venue et dit : « C'est un jour difficile ». Rapport 18350, d'après Ibn Abbas : il eut de mauvaises pensées pour son peuple et fut accablé par ses hôtes. {cite:tafsir-tabari-shakir-v15 p. 408}
+
+Rapport 18351, d'après Hudhayfa : lorsque les messagers arrivèrent auprès de Lot, ils le virent travailler sa terre. On leur avait dit, et Dieu est le plus savant, de ne pas les détruire avant que Lot n'ait témoigné. Ils vinrent et dirent : « Nous serons tes hôtes cette nuit. » Il les accompagna et, après avoir marché un moment, il se retourna et dit : « Ignorez-vous ce que font les gens de cette ville ? Par Dieu, je ne connais pas de gens plus mauvais sur la terre. » Il continua son chemin avec eux, puis répéta ces paroles une seconde fois. Lorsque sa femme, une femme perverse, les vit, elle alla les avertir. Rapport 18352 : même chose. Rapport 18353, d'après Qatada : les anges vinrent auprès de Lot alors qu'il était dans son champ. Dieu leur avait dit : « Si Lot témoigne quatre fois contre eux, je vous permets de les détruire. » Ils dirent : « Lot, nous voulons être tes hôtes cette nuit. » Il demanda : « Leur affaire vous est-elle parvenue ? » Ils demandèrent : « Quelle est leur affaire ? » Il dit : « Je témoigne par Dieu que c’est la pire ville de la terre en actes », répétant cela quatre fois. Lot apporta donc quatre témoignages contre eux, et ils entrèrent chez lui avec lui. {cite:tafsir-tabari-shakir-v15 p. 408}
+
+Rapport 18354, d'al-Suddi : les anges quittèrent Abraham pour la ville de Lot et y arrivèrent à midi. Arrivés au fleuve de Sodome, ils rencontrèrent une fille de Lot qui puisait de l'eau pour sa famille. Lot avait deux filles, l'aînée nommée Ri'ya et la cadette Zaghra. Ils lui demandèrent : « Ma fille, y a-t-il un endroit où loger ? » Elle répondit : « Oui, restez où vous êtes, n'entrez pas avant que je ne vienne vous voir », car elle craignait pour elles à cause de son peuple. Elle alla trouver son père et lui dit : « Père, deux jeunes gens sont à la porte de la ville. Je n'ai jamais vu de plus beaux visages. Que ton peuple ne les saisisse pas et ne les couvre pas de honte ! » Son peuple lui avait interdit d'héberger un homme et avait dit : « Laisse-nous héberger ces hommes. » Il les amena et personne ne le savait, sauf la maison de Lot. Mais sa femme alla raconter à son peuple qu'il y avait chez Lot des hommes dont elle n'avait jamais vu de visages pareils, et son peuple accourut vers lui. Rapport 18355, d'Ibn Ishaq : comme le prétendent les gens de la Torah, les messagers ont laissé Abraham pour Lot à al-Mu'tafika, et quand ils sont arrivés, Lot était affligé et démuni à leur sujet par crainte que son peuple ne le couvre de honte devant ses invités, et a dit : « C'est un jour difficile ». {cite:tafsir-tabari-shakir-v15 p. 409}
+
+Quant à « et il dit : c'est un jour difficile », Lot signifie que ce jour est un jour de grand malheur et d'épreuve terrible. On lit « notre jour fut difficile » à propos d'« asaba, yas'ibu, asban », ce qui correspond à un vers d'Adi b. Zayd dans un poème composé en prison par al-Nu'man b. al-Mundhir, évoquant un jour difficile ; un vers de rajaz parle d'un jour qui unit les héros ; un autre vers décrit un jour difficile en Irak ; et un vers de Ka'b b. Ju'ayl évoque des groupes familiers avec les jours difficiles. L'éditeur explique ces vers et leur vocabulaire particulier. Al-Tabari rapporte ensuite que les interprètes ont rapporté les faits tels qu'il les a rapportés, et les autres commentaires figurent à la page suivante. {cite:tafsir-tabari-shakir-v15 p. 410}
+
+Les rapports 18356 de Mujahid, 18357 et 18359 de Qatada, et 18360 d'Ibn Abbas donnent « dur » comme « sévère » ; le rapport 18358, d'Ibn Ishaq, un jour d'épreuve et de difficulté. {cite:tafsir-tabari-shakir-v15 p. 411}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

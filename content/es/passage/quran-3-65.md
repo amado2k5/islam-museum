@@ -1,0 +1,20 @@
+---
+id: passage/quran-3-65
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-3-65.md}
+---
+## Resumen
+Versículo 65 de [[passage/quran-3|Surat Al 'Imran]], una sura de Medina. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 65 de 200 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+**Versículo 65: La disputa sobre Abraham.** Al-Tabari afirma que el mensaje va dirigido a la gente de la Torá y del Evangelio, preguntándoles por qué discuten y se pelean acerca de Abraham, el Amigo del Misericordioso. Su disputa radicaba en que cada grupo afirmaba que Abraham era uno de ellos y seguía su religión. Dios los reprendió por esta afirmación y señaló su inconsistencia: ¿Cómo pueden decir que seguía su credo cuando su credo es el judaísmo o el cristianismo? El judío sostiene que su religión consiste en defender la Torá y actuar conforme a ella, el cristiano que la suya consiste en defender el Evangelio, y estos dos libros fueron revelados poco después de la muerte de Abraham. También se dice que el versículo fue revelado a raíz de la disputa entre judíos y cristianos sobre Abraham. El editor señala que el manuscrito presenta un error debido a la prisa del copista, que el texto impreso lo corrigió erróneamente y que la lectura correcta es la que él adoptó. {cite:tafsir-tabari-shakir-v06 p. 489} {cite:tafsir-tabari-shakir-v06 p. 490}
+
+**Informe 7202 (Ibn Abbas).** Al-Tabari da (Abu Kurayb, de Yunus ibn Bukayr, de Muhammad ibn Ishaq; e Ibn Humayd, de Salama, de Ibn Ishaq, de Muhammad ibn Abi Muhammad, cliente de Zayd ibn Thabit, de Said ibn Jubayr o Ikrima, de Ibn Abbas) que los cristianos de Najran y los rabinos judíos se reunieron ante el Profeta y entraron en disputa; los rabinos dijeron que Abraham era solo judío y los cristianos que era solo cristiano, y el versículo descendió, Dios informándoles que ambas escrituras descendieron solo en tiempos posteriores a él y que el judaísmo y el cristianismo vinieron después de él. El editor se refiere a Ibn Hisham (2: 201-202), abreviado, y señala que el informe anterior de la biografía de Ibn Ishaq en al-Tabari es 6782. {cite:tafsir-tabari-shakir-v06 p. 490}
+
+**Informes 7203-7207.** El informe 7203 (Bishr, de Yazid, de Said, de Qatada) dice: ¿Con qué fundamento disputáis sobre él, llamándolo judío o cristiano, cuando el judaísmo vino después de la Torá y el cristianismo después del Evangelio? Otros dijeron que el versículo se refiere a la afirmación de los judíos de que Abraham era uno de ellos. El informe 7204 (Bishr, de Yazid, de Said, de Qatada) dice que el Profeta llamó a los judíos de Medina a la palabra justa, aquellos que disputaban sobre Abraham y afirmaban que murió judío, y Dios les dio la mentira y lo apartó de ellos; el informe 7205 (al-Muthanna, de Ishaq, de Abdallah ibn Abi Jafar, de su padre, de al-Rabi) es el mismo. Informe 7206 (Muhammad ibn Amr, de Abu Asim, de Isa, de Ibn Abi Najih, de Mujahid): los judíos y los cristianos, Dios lo absolvió de ellos cuando cada comunidad lo reclamó como propio y unió a él a los creyentes que siguieron el camino hanif; informe 7207 (al-Muthanna, de Abu Hudhayfa, de Shibl, de Ibn Abi Najih, de Mujahid) es el mismo. El editor señala que la forma en el informe 7206, tanto en el manuscrito como en la impresión, es un error de la pluma del copista. {cite:tafsir-tabari-shakir-v06 p. 490} {cite:tafsir-tabari-shakir-v06 p. 491}
+
+**El final del versículo 65.** Al-Tabari dice que la pregunta retórica que cierra el versículo significa: ¿Acaso no comprendes el error de decir que Abraham era judío o cristiano cuando sabes que el judaísmo y el cristianismo surgieron algún tiempo después de su muerte? {cite:tafsir-tabari-shakir-v06 p. 492}

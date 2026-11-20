@@ -1,0 +1,44 @@
+---
+id: passage/quran-9-112
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-9-112.md}
+---
+## Résumé
+Verset 112 de [[passage/quran-9|la sourate at-Tawba]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 112 sur 129 de la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Commentaire sur le verset 112 (pp. 500-508)**
+
+Al-Tabari explique : Dieu a racheté aux croyants qui se repentent et adorent eux-mêmes et leurs biens ; la phrase est au nominatif car elle introduit une nouvelle proposition après une proposition complète similaire, comme le font les Arabes, et il renvoie à son explication précédente au [[passage/quran-2-18|verset 2:18]]. « Les repentants » sont ceux qui se détournent de ce que Dieu a détesté et qui l’a irrité pour se tourner vers ce qu’Il aime et qui Lui plaît. {cite:tafsir-tabari-shakir-v14 p. 500}
+
+Le hadith 17272, attribué à al-Hasan, rapporte qu'ils se repentirent auprès de Dieu de tous leurs péchés. Les hadiths 17273 et 17274, également attribués à al-Hasan, indiquent qu'ils se repentirent du polythéisme et se détachèrent de toute hypocrisie ; les hadiths 17275 et 17276 rapportent la même chose. Le hadith 17277, attribué à Qatada, rapporte qu'ils se repentirent du polythéisme et ne se comportèrent plus hypocritement en Islam. Le hadith 17278, attribué à Ibn Jurayj, mentionne ceux qui se repentirent de leurs péchés et ne les récidivèrent pas. {cite:tafsir-tabari-shakir-v14 p. 501}
+
+« Les adorateurs » sont ceux qui, emplis de crainte révérencielle envers Dieu, se sont consacrés à Son service. Le hadith 17279, attribué à Qatada, mentionne des personnes qui se vidaient de leur corps jour et nuit. Le hadith 17280, attribué à al-Hasan, indique qu'ils adoraient Dieu en tout temps, dans l'aisance comme dans l'épreuve ; le hadith 17281, attribué à al-Hasan, les décrit comme des adorateurs de leur Seigneur. {cite:tafsir-tabari-shakir-v14 p. 501}
+
+Les « louangeurs » sont ceux qui louent Dieu pour toutes les épreuves qu'Il leur inflige, bonnes ou mauvaises. Le hadith 17282, attribué à Qatada, concerne ceux qui louaient Dieu en toutes circonstances. Le hadith 17283, attribué à al-Hasan, mentionne ceux qui louaient Dieu en tout temps, dans l'aisance comme dans l'épreuve ; le hadith 17284, attribué à al-Hasan, concerne les louangeurs de l'islam. L'éditeur renvoie à une discussion antérieure sur la louange. {cite:tafsir-tabari-shakir-v14 p. 502}
+
+Les « saihun » sont ceux qui jeûnent. Les hadiths 17285 et 17286 proviennent d'Ubayd ibn Umayr : le Prophète fut interrogé à ce sujet et répondit : « Ce sont ceux qui jeûnent. » L'éditeur note qu'Ibn Kathir considérait ce hadith comme un bon hadith mursal et qu'al-Suyuti le rapportait par l'intermédiaire d'Ubayd ibn Umayr, d'après Abu Hurayra. {cite:tafsir-tabari-shakir-v14 p. 502}
+
+Le hadith 17287, rapporté par Abou Hourayra, indique que le Messager de Dieu lui a dit que les « saihun » sont ceux qui jeûnent. Le hadith 17288, rapporté par lui également, confirme que les « saihun » sont ceux qui jeûnent. L'éditeur précise que le premier hadith est attribué au Prophète et que le second s'arrête à Abou Hourayra, et qu'Ibn Kathir le jugeait plus authentique. Les hadiths 17289 et 17290 sont attribués à Abdullah ibn Mas'ud, et le hadith 17291 à Abou Abd al-Rahman : « saihun » signifie « jeûner », et « siyaha » signifie « jeûner ». Les hadiths 17292 à 17295, rapportés par Ibn Abbas à travers plusieurs chaînes de transmission, confirment que les « saihun » sont ceux qui jeûnent. {cite:tafsir-tabari-shakir-v14 p. 503}
+
+Le hadith 17296 est attribué à Abdullah ; le 17297 à Abu Abd al-Rahman ; le 17298 à Ibn Abbas : il s’agit des jeûneurs ; les hadiths 17299 et 17300 à Mujahid : ce sont les jeûneurs. Le hadith 17301 à Ibn Abbas : chaque fois que Dieu mentionne le terme « siyaha » dans le Coran, il désigne les jeûneurs. Le hadith 17302 à Abu Amr al-Abdi : ceux des croyants qui jeûnent continuellement ; le hadith 17303 à al-Hasan : les jeûneurs. {cite:tafsir-tabari-shakir-v14 p. 504}
+
+Le hadith 17304, rapporté par al-Hasan, concerne les jeûneurs du mois de Ramadan. Les hadiths 17305 à 17308, rapportés par al-Dahhak, mentionnent les jeûneurs (sa'ihun), et tout terme coranique désignant les jeûneurs est employé dans le sens de « jeûneurs ». Les hadiths 17309 et 17310, rapportés par Ata, concernent également les jeûneurs. Le hadith 17311, rapporté par Wahb ibn Munabbih, relate l'existence de la siyaha parmi les Enfants d'Israël. Un homme ayant erré quarante ans vit ce que les errants précédents avaient vu. Le fils d'une femme adultère erra quarante ans sans rien voir et interrogea son Seigneur, se demandant si cela était dû à la faute de ses parents, alors que lui avait agi avec droiture. Il vit alors ce qu'ils avaient vu. Ibn Uyayna affirmait que celui qui s'abstient de nourriture, de boisson et de femmes est un errant. Le hadith 17312, rapporté par Qatada, concerne ceux qui se sont dépouillés de leur corps par le jeûne pour Dieu. Le rapport 17313 commence ici et se poursuit sur la page suivante. {cite:tafsir-tabari-shakir-v14 p. 505}
+
+Le reste du hadith 17313 provient d'Ibrahim ibn Yazid, d'al-Walid ibn Abdullah, d'Aïcha : le pèlerinage de cette communauté est lié au jeûne. L'éditeur note qu'Ibrahim ibn Yazid al-Khuzi n'est plus considéré comme un transmetteur fiable et qu'al-Walid ibn Abdullah, bien que digne de confiance, n'a pas rencontré Aïcha ; par conséquent, le hadith est mursal et sa chaîne de transmission est très faible. {cite:tafsir-tabari-shakir-v14 p. 506}
+
+« Ceux qui s’inclinent et se prosternent » désigne ceux qui prient en s’inclinant et en se prosternant. Le hadith 17314 est tiré d’al-Hasan : la prière obligatoire. L’éditeur se réfère aux index linguistiques pour l’inclinaison et la prosternation. {cite:tafsir-tabari-shakir-v14 p. 506}
+
+Ceux qui ordonnent le bien et interdisent le mal sont ceux qui appellent les gens à la vérité religieuse, à suivre la voie juste et à la mettre en pratique, et qui interdisent tout acte et toute parole que Dieu a interdits à Ses serviteurs. Le hadith 17315, rapporté par al-Hasan, stipule qu'ordonner le bien signifie affirmer qu'il n'y a de dieu que Dieu, et interdire le mal signifie interdire le polythéisme. Le hadith 17316, rapporté par lui également, indique qu'ils n'ordonnaient le bien à personne avant d'en faire partie, et n'interdisaient le mal qu'après s'en être abstenus. Le hadith 17317, rapporté par Abu al-Aliya, précise que partout où le Coran mentionne l'injonction au bien, il s'agit d'appeler à l'islam et non au polythéisme, et interdire le mal signifie interdire le culte des idoles et des démons. {cite:tafsir-tabari-shakir-v14 p. 507}
+
+Al-Tabari affirme avoir déjà démontré que Dieu et Son Messager ont uniquement ordonné le bien et interdit le mal. Puisqu'aucun verset, aucun hadith ni aucun raisonnement logique n'indique de restriction, le sens général est préférable. « Ceux qui respectent les limites de Dieu » sont ceux qui accomplissent Ses obligations, s'arrêtent à Ses commandements et interdictions, et ne négligent ni leurs devoirs ni ne commettent l'interdit. Le hadith 17318, rapporté par Ibn Abbas, désigne ceux qui demeurent fidèles à l'obéissance à Dieu, condition imposée aux pratiquants du jihad, car s'ils la respectent, Dieu tient Sa promesse. L'éditeur rapporte une lecture manuscrite de la dernière phrase. {cite:tafsir-tabari-shakir-v14 p. 507}
+
+Le hadith 17319 est attribué à Ibn Abbas : ceux qui se conforment à l'obéissance à Dieu ; le 17320 à al-Hasan : ceux qui se conforment au commandement de Dieu ; le 17321 à al-Hasan : les obligations de Dieu. {cite:tafsir-tabari-shakir-v14 p. 508}
+
+« Annonce la bonne nouvelle aux croyants » signifie : à ceux qui affirment la promesse divine, que s'ils respectent Son alliance, Il tiendra Sa promesse de les faire entrer au Paradis. Le hadith 17322, attribué à al-Hasan, rapporte que ce verset désigne ceux qui ont tenu leur engagement, que tel fut leur comportement dans l'aisance, et qu'ils ont ensuite affronté l'ennemi en restant fidèles à leur alliance. D'autres interprètent ce hadith comme signifiant « annonce la bonne nouvelle à quiconque agit ainsi, même sans avoir combattu » ; le hadith 17323, également attribué à al-Hasan, fait référence à ceux qui n'ont pas combattu. {cite:tafsir-tabari-shakir-v14 p. 508}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

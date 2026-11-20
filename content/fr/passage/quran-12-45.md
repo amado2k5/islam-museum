@@ -1,0 +1,26 @@
+---
+id: passage/quran-12-45
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-12-45.md}
+---
+## Résumé
+Verset 45 de [[passage/quran-12|la sourate Yusuf]], une sourate mecquoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 45 sur 111 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Commentaire sur le verset 45 (pp. 119-122)**
+
+Sur « et celui des deux qui fut sauvé dit, se souvenant après un certain temps », al-Tabari dit : celui qui fut sauvé de la mort, des deux compagnons de prison qui demandèrent à Joseph d'interpréter, « se souvint », c'est-à-dire qu'il se rappela ce qu'il avait oublié de l'affaire de Joseph et de sa requête au roi, que Joseph lui avait demandé de mentionner avec les mots « mentionne-moi à ton seigneur », « après un certain temps » signifiant après un moment. Rapports 19339 à 19353, d'Ibn Abbas, Abu Razin, al-Hasan, Mujahid, Ibn Kathir, al-Suddi et Ikrima : après un certain temps, par Muhammad ibn Bashshar, Abd al-Rahman, Sufyan, Asim, Abu Kurayb, Waki', Abd al-Razzaq, al-Thawri, Abu Bakr ibn Ayyash, Abu Nu'aym, Bishr, Yazid, Sa'id, Affan, Ibn Jurayj et autres ; Un récit d'Ibn Abbas mentionne une lecture après des années, et un autre d'Ikrima après un laps de temps. Al-Tabari indique que cette interprétation correspond à la lecture avec une damma sur l'alif et un mim doublé, lecture utilisée par les lecteurs des villes musulmanes. {cite:tafsir-tabari-shakir-v16 p. 119}
+
+Il est rapporté que plusieurs savants anciens lisaient ce mot avec une fatha sur l'alif et un mim allégé, signifiant « après avoir oublié ». Certains affirmaient que les Arabes utilisaient ce verbe pour parler d'un homme qui « a oublié », et que ceux qui le lisaient ainsi l'interprétaient de la même manière. Les hadiths 19354 à 19361, attribués à Ibn Abbas, Ikrima et Qatada, rapportent qu'il le lisait ainsi et l'expliquait comme signifiant « après avoir oublié ». Cette interprétation est également rapportée par al-Hasan ibn Muhammad, Affan, Hammam, Ibn Humayd, Bahz ibn Asad, Abu Ghassan Malik ibn al-Khalil al-Yahmadi, Ibn Abi Adi, Abu Harun al-Ghanawi, Ya'qub, Ibn Waki', Ibn Ulayya, Abd al-Wahhab, Sa'id, Bishr, Yazid, Muhammad ibn Abd al-A'la, Muhammad ibn Thawr et Ma'mar. L'éditeur note qu'Abu Ghassan Malik ibn al-Khalil al-Yahmadi al-Azdi était un maître d'al-Tabari et qu'al-Nasa'i et d'autres ont rapporté de lui. {cite:tafsir-tabari-shakir-v16 p. 122}
+
+Le hadith 19362, rapporté par Mujahid, indique qu'il lisait « après amah » ; les hadiths 19363 et 19364, rapportés par al-Dahhak, indiquent qu'il lisait « après avoir oublié », transmis par Ibn Waki', Amr ibn Muhammad, Abu Marzuq, Juwaybir, Husayn ibn al-Faraj, Abu Mu'adh et Ubayd ibn Sulayman. Une troisième lecture est rapportée, le hadith 19365, rapporté par Mujahid, transmis par al-Muthanna, Ishaq, Abd Allah ibn al-Zubayr, Sufyan et Humayd : il lisait avec le mim non vocalisé et léger, et celui qui lisait ainsi semble avoir voulu dire le nom verbal du verbe « oublier », le sens étant similaire à celui de ceux qui le lisaient avec une fat-ha sur l'alif et le mim. {cite:tafsir-tabari-shakir-v16 p. 123}
+
+À propos de « Je vous en donnerai l'interprétation », il dit : « Je vous en informerai. » « Envoyez-moi » signifie « autorisez-moi à aller vous rapporter l'interprétation de celui qui la connaît ». Une partie du texte est omise, car ce qui est rapporté suffit : « Ils l'envoyèrent donc, et il vint auprès de Joseph et lui dit : Joseph, ô véridique ! » Rapport 19366, d'Ibn Ishaq, transmis par Ibn Humayd et Salama : le roi rapporta ses paroles aux chefs qui l'entouraient, et ils répondirent comme ils l'avaient fait. Nabu, qui l'entendit, fut interrogé sur l'interprétation. Il se souvint alors de Joseph et de l'interprétation qu'il avait donnée à Joseph et à son compagnon, et comment cela s'était avéré exact. Il dit : « Je vous en donnerai l'interprétation, envoyez-moi. » Nabu vint auprès de Joseph et lui dit : « Joseph, le roi a vu ceci et cela », et lui raconta le rêve. Joseph répondit alors ce que Dieu nous a révélé dans le Livre, et l'interprétation leur apparut comme l'aube naissante. Nabu laissa Joseph avec la décision qu'il leur avait donnée et rapporta ses paroles au roi. {cite:tafsir-tabari-shakir-v16 p. 124}
+
+On raconte aussi que celui qui fut sauvé dit « envoyez-moi » car la prison n'était pas dans la ville ; rapport 19367, d'après al-Suddi : Ibn Abbas dit que la prison n'était pas dans la ville, alors l'échanson alla trouver Joseph et lui dit : « Donne-nous un avis sur les sept vaches grasses », par l'intermédiaire d'Ibn Waki', Amr ibn Muhammad et Asbat. {cite:tafsir-tabari-shakir-v16 p. 124}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

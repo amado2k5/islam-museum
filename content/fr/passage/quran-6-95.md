@@ -1,0 +1,28 @@
+---
+id: passage/quran-6-95
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-6-95.md}
+---
+## Résumé
+Verset 95 de [[passage/quran-6|la sourate al-An'am]], une sourate mecquoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 95 sur 165 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+Concernant le verset « Dieu est celui qui fend le grain et le noyau de la datte », al-Tabari explique : il s'agit d'un avertissement divin adressé à ceux qui Lui attribuent des dieux et des idoles, les amenant à réfuter leurs arguments et à reconnaître l'erreur de leur attitude persistante, consistant à Lui associer des images dans leur culte. Il dit : « Celui qui mérite un culte, ô gens, en dehors de votre culte des dieux et des idoles, est Dieu qui a fendu le grain, c'est-à-dire la semence de toute plante et en a fait pousser la récolte, et le noyau de toute plante qui en porte le fruit, en faisant pousser l'arbre. » « Habb » est le pluriel de « habba », « nawa » le pluriel de « nawat ». 13581, d'après al-Suddi : fendant le grain de l'épi, fendant le noyau du palmier ; 13582, d'après Qatada : il fend le grain et le noyau de la plante. 13583, d'après Ibn Zayd : Dieu est celui qui l'a fendu, il l'a fendu et en a fait pousser ce qu'il a fait pousser, il a fendu la pierre et en a fait sortir un palmier, il a fendu la graine et en a fait sortir ce qu'il a créé. {cite:tafsir-tabari-shakir-v11 p. 551}
+
+D'autres affirment que « faliq » signifie créateur. 13584 et 13585, d'al-Dahhak : créateur du grain et de la pierre ; 13586, d'Ibn Abbas : créateur du grain et de la pierre. D'autres encore soutiennent que le sens est celui de la fente dans la graine et la pierre. 13587 et 13588, de Mujahid : les deux fentes en elles ; 13589, d'Abu Malik : la fente qui est dans la pierre et dans le blé ; 13590, de Mujahid : les deux fentes en elles ; 13591, d'al-Dahhak : créateur du grain et de la pierre, c'est-à-dire de chaque graine. {cite:tafsir-tabari-shakir-v11 p. 552}
+
+Abou Ja'far a dit : L'avis le plus juste à ce sujet est celui que nous présentons, car Dieu a ensuite rapporté avoir fait sortir le vivant du mort et le mort du vivant. Il est donc clair qu'en parlant de lui-même, il voulait dire qu'il sépare le grain de la plante et la pierre des pousses et des arbres, de même qu'il fait sortir le vivant du mort et le mort du vivant. Quant à l'interprétation d'al-Dahhak du terme « celui qui sépare » comme signifiant « créateur », il s'agit d'une simple parole, à moins qu'il n'ait voulu dire qu'il est le créateur des plantes et des pousses en les séparant, ce qui me paraît incompréhensible, car l'expression arabe « Dieu a séparé la chose » ne signifie pas « créé ». {cite:tafsir-tabari-shakir-v11 p. 552}
+
+Sur le verset « Il fait sortir le vivant du mort et le mort du vivant ; c’est Dieu, comment donc vous détournez-vous ? », il est dit : Il fait sortir l’épi vivant du grain mort et le grain mort de l’épi vivant, l’arbre vivant de la pierre morte et la pierre morte de l’arbre vivant. L’arbre, tant qu’il est sur ses racines, n’est pas desséché et que sa tige n’est pas flétrie, les Arabes le disent vivant ; lorsqu’il flétrit, se dessèche ou est coupé de ses racines, ils le disent mort. 13592, d’après al-Suddi : Il fait sortir l’épi vivant du grain mort et le grain mort de l’épi vivant, le palmier vivant de la pierre morte et la pierre morte du palmier vivant. 13593, d’après Abou Malik : Le palmier de la pierre et la pierre du palmier, le grain de l’épi et l’épi du grain. D'autres disent, et 13594, d'après Ibn Abbas : « Dieu est celui qui sépare le grain et la pierre, faisant sortir le vivant du mort et le mort du vivant », il fait sortir la goutte de sperme morte du vivant, puis fait sortir de la goutte de sperme un être humain vivant. {cite:tafsir-tabari-shakir-v11 p. 554}
+
+Abou Ja'far a dit : Nous avons choisi cette interprétation car elle fait suite à « Dieu est celui qui sépare le grain et la pierre », étant donné qu'« il fait sortir le vivant du mort et le mort du vivant ». Bien qu'elle rapporte que Dieu fait sortir l'épi du grain et le grain de l'épi, elle inclut dans sa généralité ce que rapporte Ibn Abbas dans son interprétation : Dieu fait sortir toute chose morte d'un corps vivant et Dieu fait sortir toute chose vivante d'un corps mort. Quant à « cela est Dieu », il dit : Dieu est l'auteur de tout cela, majestueuse est Sa majesté. « Alors comment vous détournez-vous ? » dit-il : Par quels détours de la vérité, ignorants, vous détournez-vous du droit chemin et vous en éloignez-vous ? Ne réfléchirez-vous pas et ne saurez-vous pas qu'il ne convient pas d'associer à l'adoration celui qui vous a comblés de bienfaits en séparant le grain et la pierre, en faisant sortir pour vous du grain sec et de la pierre des récoltes, des céréales et des fruits, dont vous mangez une partie et dont vous profitez une autre, celui qui ne nuit ni ne profite, qui n'entend ni ne voit ? {cite:tafsir-tabari-shakir-v11 p. 554}
+
+L'éditeur fait référence à un passage antérieur pour « revenir à ».
+
+Le verset 95 se termine ici à la page 554, et al-Tabari continue jusqu'à [[passage/quran-6-96|6:96]].
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

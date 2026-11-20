@@ -1,0 +1,22 @@
+---
+id: passage/quran-9-83
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-9-83.md}
+---
+## Résumé
+Verset 83 de [[passage/quran-9|la sourate at-Tawba]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 83 sur 129 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Commentaire sur le verset 83 (pp. 403-405)**
+
+Al-Tabari dit à Son Prophète Muhammad : « Si Dieu te ramène, ô Muhammad, auprès d'un groupe de ces hypocrites lors de cette campagne et qu'ils te demandent la permission de partir avec toi pour une autre, dis-leur : « Vous ne partirez jamais avec moi, ni ne combattrez l'ennemi à mes côtés ; vous vous êtes contentés de rester assis la première fois », c'est-à-dire lorsque le Prophète partit pour Tabuk. « Assieds-toi donc avec ceux qui sont restés », c'est-à-dire avec ceux des hypocrites qui se sont opposés au Messager de Dieu, car tu es des leurs. Suis donc leur exemple et fais comme eux en désobéissant à Dieu, car Dieu est en colère contre toi. » L'éditeur fait référence à des explications antérieures concernant le groupe et le fait de rester assis. {cite:tafsir-tabari-shakir-v14 p. 403}
+
+Rapport 17047, d'Ibn Abbas, par l'intermédiaire de Muhammad ibn Sa'd, son père, son oncle et son père de son père : un homme a dit : « Messager de Dieu, la chaleur est intense et nous ne pouvons pas sortir, alors ne sors pas par cette chaleur », c'était lors de la campagne de Tabuk, et Dieu a dit : « Dis, le Feu de l'Enfer est plus chaud s'ils comprenaient seulement », et Il lui a ordonné de sortir ; Certains hommes restèrent sur place, puis leurs âmes les rattrapèrent et ils dirent : « Par Dieu, nous n'avons rien fait ! » Trois d'entre eux partirent rejoindre le Messager de Dieu et, arrivés auprès de lui, ils se repentirent, puis retournèrent à Médine. Dieu révéla alors : « Si Dieu vous ramène vers l'un d'eux », suivi des mots : « Ne vous tenez pas près de sa tombe. » Le Messager de Dieu dit : « Ceux qui sont restés sont perdus. » Dieu révéla alors leur excuse lorsqu'ils se repentirent, disant : « Dieu s'est tourné vers le Prophète, les émigrés et les Secourables », suivi des mots : « Dieu est Celui qui accepte le repentir, le Miséricordieux » ([[passage/quran-9-117|9:117-118]]). Selon le hadith 17048, rapporté par Qatada, par l'intermédiaire de Bishr, Yazid et Sa'id : « Asseyez-vous avec ceux qui sont restés », c'est-à-dire avec les femmes ; il nous a été rapporté qu'il s'agissait de douze hommes hypocrites, dont il a été dit ce qui a été dit. Rapport 17049, d'Ibn Abbas, par l'intermédiaire d'al-Muthanna, Abdallah ibn Salih, Mu'awiya et Ali : « ceux qui restent » sont les hommes. {cite:tafsir-tabari-shakir-v14 p. 404}
+
+Al-Tabari soutient que l'interprétation correcte de « ceux qui restent » est celle d'Ibn Abbas. Quant à l'interprétation de Qatada, selon laquelle cela désignerait les femmes, elle est dénuée de sens, car les Arabes ne forment pas le pluriel de femmes seules, sans aucun homme, avec les terminaisons « y » et « n » ou « w » et « n ». Si l'on avait parlé des femmes seules, on aurait dit « avec les femmes restées », au pluriel féminin. Or, le sens est celui que nous avons donné : s'asseoir avec les malades, les handicapés, les faibles et les femmes. Lorsque les hommes et les femmes sont mentionnés ensemble, les Arabes privilégient le masculin, d'où l'expression « avec ceux qui restent ». Si le sens avait été interprété comme « s'asseoir avec les corrompus », à partir de l'idée qu'un homme « est resté loin de sa famille » en ce sens qu'il est devenu corrompu et « un mauvais successeur », cela aurait été une lecture possible. et son origine, si c'est bien dans ce sens qu'on l'entend, provient du dicton selon lequel le lait « restait » lorsqu'il tournait à force d'être conservé longtemps dans son enveloppe, et que la bouche d'une personne à jeun « restait » lorsque son odeur changeait. L'éditeur renvoie à l'explication précédente de l'origine. {cite:tafsir-tabari-shakir-v14 p. 405}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

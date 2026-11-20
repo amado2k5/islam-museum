@@ -1,0 +1,22 @@
+---
+id: passage/quran-13-3
+lang: fr
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-13-3.md}
+---
+## Résumé
+Verset 3 de [[passage/quran-13|la sourate ar-Ra'd]], une sourate médinoise. {cite:tanzil-quran}
+
+## Place dans le musée
+Il s'agit du verset 3 sur 43 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+**Commentaire sur le verset 3 (pp. 328-330)**
+
+Sur le verset « C’est Lui qui a étendu la terre et y a établi des montagnes fermes et des rivières, et de tous les fruits, Il a fait deux par deux ; Il couvre la nuit du jour ; il y a là des signes pour les gens qui réfléchissent », al-Tabari dit : Dieu est Celui qui a étendu la terre, l’étirant en longueur et en largeur. Sur le verset « et y a établi des montagnes fermes », il dit : Louange soit-Elle : Il a établi sur la terre des montagnes immuables. « Rawasi » est le pluriel de « rasiya », fixé ; on dit « arsaytu al-watad fi al-ard » lorsqu’on fixe le pieu, comme le poète l’a dit dans un verset mentionnant les pierres du foyer qui durent longtemps, les cendres accumulées et un pieu qu’une esclave a enfoncé avec une pierre à main, signifiant qu’elle l’a fixé. L'éditeur indique que le verset est d'al-Ahwas, qu'on le trouve dans Majaz al-Qur'an et Lisan al-'Arab. Il précise que « khalidat » désigne les pierres du foyer, ainsi nommées car elles persistent longtemps après la disparition des habitations ; « ma yarimna » signifie qu'elles ne quittent pas leur place ; « hamid » est la cendre coagulée ; « ash'ath » désigne le pieu, car sa tête est battue et effilochée ; « walida » désigne la jeune fille et « fihr » une pierre de la taille d'une main servant à piler. Concernant « et les rivières », il dit : « Il fit des rivières d'eau sur la terre. » Concernant « et de tous les fruits, Il en fit deux paires », le « min » dans {cite:tafsir-tabari-shakir-v16 p. 328}
+
+L'expression « et de tous les fruits, Il en fit deux couples » se rapporte au second « fit », et non au premier. Le sens est le suivant : et Il en fit deux couples de tous les fruits ; par « deux couples », il entend de chaque fruit deux mâles et de chaque fruit deux femelles, soit quatre, deux mâles et deux femelles, selon certains. Nous avons montré précédemment que les Arabes appellent deux « zawjayn » et l'un des mâles « zawj » par rapport à sa femelle, et de même une femelle « zawj » et son mâle « zawja », ce qui rend la répétition ici superflue. Ceci est confirmé par les paroles de Dieu au [[passage/quran-53-45|verset 53:45]], où Il appelle les deux, le mâle et la femelle, « zawjayn ». Par « deux couples », il entend deux sortes et deux types. L'éditeur note que le copiste a ajouté « de chaque » avant « deux couples », ce qui se rapporte à un autre verset, et qu'il l'a supprimé. Sur le verset « Il couvre la nuit du jour », il est dit : la nuit couvre le jour de ses ténèbres et le jour la nuit de sa lumière. Rapport 20066, de Qatada, transmis par Bishr, Yazid et Sa'id : « Il couvre la nuit du jour », c'est-à-dire que la nuit habille le jour. Sur le verset « Il y a là des signes pour les gens qui réfléchissent », gloire à Lui ! {cite:tafsir-tabari-shakir-v16 p. 329}
+
+Dans ce que j'ai décrit et mentionné des merveilles de la création divine et de la grandeur de la puissance par laquelle Il a créé ces choses, se trouvent des indications, des preuves et des avertissements pour ceux qui y réfléchissent, en tirent des leçons et savent que le culte est juste et permis uniquement pour Celui qui les a créées et agencées, et non pour d'autres dieux et idoles qui ne peuvent ni nuire ni être bénéfiques, ni pour quoi que ce soit d'autre, mais seulement pour Celui qui les a fait surgir du néant, béni et exalté ; et que la puissance par laquelle Il a engendré ces choses est la même puissance qui lui permet aisément de ressusciter ses créatures disparues, de restaurer ce qui a péri et de faire naître ce qu'Il veut engendrer. {cite:tafsir-tabari-shakir-v16 p. 330}
+
+Ces déclarations sont données telles qu'elles ont été transmises ; les choix et les arguments sont ceux d'al-Tabari, les notes et les recherches de sources sont celles de l'éditeur, et le musée ne porte aucun jugement.

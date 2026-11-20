@@ -1,0 +1,18 @@
+---
+id: passage/quran-4-74
+lang: es
+source_lang: en
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-4-74.md}
+---
+## Resumen
+Versículo 74 de [[passage/quran-4|Surat an-Nisa]], una sura medinense. {cite:tanzil-quran}
+
+## Lugar en el museo
+Su ubicación: versículo 74 de 176 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+**Comentario sobre el versículo (p. 541, notas 1-3).** Al-Tabari dice que esta es la exhortación de Dios a los creyentes para que luchen contra su enemigo entre los incrédulos en todas sus circunstancias, ya sea que ganen o pierdan, y su minimización de lo que dicen los hipócritas sobre quienes luchan contra los politeístas, y que para ellos en esta lucha hay una posición elevada ante Dios. Explica que luchar en el camino de Dios es luchar en la religión de Dios y el llamado a ella y a entrar en lo que Él ordenó a los incrédulos entrar; aquellos que venden su vida mundana por la recompensa del más allá y lo que Dios prometió a sus obedientes allí, siendo su venta el gastar su riqueza buscando el agrado de Dios y luchando contra aquellos enemigos de Dios y su religión contra los que se les ordena luchar, y dando sus vidas por ello. Luego les dice lo que les corresponde si lo hacen: quienquiera que luche, buscando establecer la religión de Dios y exaltar su palabra, contra los enemigos de Dios, y sea asesinado por ellos o los venza y prevalezca sobre ellos, Dios le dará en el más allá una recompensa inconmensurable, y lo que Dios llamó con ese nombre no tiene medida cuya extensión conocen los siervos (el editor se refiere a la pág. 529, nota 2, sobre la palabra para recompensa). El editor dice que tanto el manuscrito como la impresión tienen "los estados de los politeístas" para lo que el contexto muestra que son "las palabras de los hipócritas", es decir, lo que el hipócrita dice en la derrota de los musulmanes y en su victoria, y que la palabra para hacer luz está coordinada con la exhortación; que en lugar de las palabras entre corchetes ambos tienen una palabra que no tiene sentido, y él agregó lo que juzgó que tenía sentido; y que ambos tienen "como luchar" donde el contexto requiere "para luchar". {cite:tafsir-tabari-shakir-v08 p. 541}
+
+**Informes 9942-9943 (pág. 542, notas 1-2).** Al-Tabari dice que mostró anteriormente que el significado predominante del verbo shara en el habla árabe es "vendió", suficiente para evitar repeticiones. Muhammad b. al-Husayn (9942, de Ahmad b. Mufaddal, de Asbat) informa de al-Suddi que el sentido es que venden esta vida por la siguiente. Yunus (9943, de Ibn Wahb) informa de Ibn Zayd que el verbo significa tanto "vendió" como "tomó", y que aquellos que vendieron el más allá por este mundo (la palabra está distorsionada en el escaneo y se lee del sentido). El editor dice que agregó las palabras entre corchetes en el texto de al-Tabari siguiendo su práctica en cientos de lugares anteriores, probablemente omitidas por el copista porque la frase cayó al final de una página y pasó la hoja y escribió la siguiente palabra; y hace referencia a interpretaciones anteriores del verbo (números de página desordenados). {cite:tafsir-tabari-shakir-v08 p. 542}
+
+Estas declaraciones se presentan tal como fueron transmitidas; las elecciones y los argumentos son de al-Tabari, las notas y los rastreos de fuentes son del editor, y el museo no emite ningún veredicto. {cite:tafsir-tabari-shakir-v08 p. 542}
