@@ -1,0 +1,18 @@
+id: passage/bukhari-api-2525
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2525"
+label: { ar: "صحيح البخاري 2525 — ما يجب على المكلف", en: "Sahih al-Bukhari 2525 — what is binding on the person addressed", ur: "صحیح بخاری 2525 — جو مکلف پر واجب ہے", fr: "Sahih al-Bukhari 2525 — ce qui s'impose à la personne responsable", es: "Sahih al-Bujari 2525 — lo que obliga a la persona responsable" }
+text: "… كَانَ يُفْتِي فِي الْعَبْدِ أَوِ الأَمَةِ يَكُونُ بَيْنَ شُرَكَاءَ، فَيُعْتِقُ أَحَدُهُمْ نَصِيبَهُ مِنْهُ، يَقُولُ قَدْ وَجَبَ عَلَيْهِ عِتْقُهُ كُلِّهِ، إِذَا كَانَ لِلَّذِي أَعْتَقَ مِنَ الْمَالِ مَا يَبْلُغُ، يُقَوَّمُ مِنْ مَالِهِ قِيمَةَ الْعَدْلِ، وَيُدْفَعُ إِلَى الشُّرَكَاءِ أَنْصِبَاؤُهُمْ، وَيُخَلَّى سَبِيلُ الْمُعْتَقِ. يُخْبِرُ ذَلِكَ ابْنُ عُمَرَ عَنِ النَّبِيِّ. وَرَوَاهُ اللَّيْثُ وَابْنُ أَبِي ذِئْبٍ وَابْنُ إِسْحَاقَ وَجُوَيْرِيَةُ وَيَحْيَى بْنُ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2525، يرد فيه ذكر ما يجب على المكلف. يجمعه متصفح الفروض والواجبات والطاعات والمستحبات والمكروهات والمحرمات وصغائر الذنوب مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب، ويصف المتحف ما في النص ولا يُفتي به."
+  en: "A report in Sahih al-Bukhari, no. 2525 (Manumission of Slaves), whose wording mentions what is binding on the person addressed. The Rulings Browser (obligations, acts of obedience, recommended, disliked and forbidden acts, and minor sins) lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on these themes; the museum describes what the text says and issues no ruling."
+  ur: "صحیح بخاری کی حدیث نمبر 2525، جس کے الفاظ میں جو مکلف پر واجب ہے کا ذکر ہے۔ فرائض، واجبات، طاعات، مستحبات، مکروہات، محرمات اور صغیرہ گناہوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے؛ میوزیم متن کا بیان کرتا ہے، فتویٰ نہیں دیتا۔"
+  fr: "Un récit de Sahih al-Bukhari, n° 2525, dont le texte mentionne ce qui s'impose à la personne responsable. Le Navigateur des statuts légaux (obligations, actes d'obéissance, actes recommandés, réprouvés et interdits, péchés mineurs) le réunit avec les textes du Coran, de la Sunna, de la sîra et les récits des Compagnons et des Suivants sur ces thèmes ; le musée décrit ce que dit le texte et ne rend aucun avis juridique."
+  es: "Un relato de Sahih al-Bujari, n.º 2525, cuyo texto menciona lo que obliga a la persona responsable. El Explorador de las calificaciones legales (obligaciones, actos de obediencia, actos recomendados, reprobados y prohibidos, y pecados menores) lo reúne con los textos del Corán, la Sunna, la sira y los relatos de los Compañeros y los Sucesores sobre estos temas; el museo describe lo que dice el texto y no emite ningún dictamen."
+relations:
+  - { type: mentions, target: concept/wajib-fiqh, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2525 (book 49 hadith 9); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ahkam-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words in five languages (machine-written, not read by a person)" }

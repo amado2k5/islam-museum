@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-37
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "22:37"
+label: { ar: "نوادر جحا الكبرى، ص 22 — «الحمل بين البنات والبقر»", en: "Nawadir Juha al-Kubra, p. 22 — 'The Pregnancy Among the Daughters and the Cows'", ur: "نوادر جحا الکبریٰ، ص 22 — «بیٹیوں اور گایوں کے بیچ حمل»", fr: "Nawadir Juha al-Kubra, p. 22 — « La grossesse entre les filles et les vaches »", es: "Nawadir Juha al-Kubra, p. 22 — «El embarazo entre las hijas y las vacas»" }
+text: "… الحمل بين البنات والبقر ذهب يوماً إلى السوق، يريد بيع بقرة له، فلم يتقدَّمْ لِشرائها أحدّ، فرآه أحد أصحابه وسأله: ألم تَبِغ إلى الآن بقرتَك؟ قال: لا، لأنّي ما زلت أسحبها من الصباح إلى الآنَ، وقد وصفتها بأجمل الصفات، فلم …"
+summary:
+  ar: "لم يستطع جحا بيع بقرته، فطلب من صديق أن يأخذها ويزعم أنها حامل في شهرها السادس، فدفع مشترٍ فيها أكثر مما طلبه جحا. {cite:juha-nawadir-kubra-djuwaydi p. 22}"
+  en: "Juha cannot sell his cow, so he asks a friend to take it and claim that it is pregnant in its sixth month; a buyer pays more than Juha had asked. {cite:juha-nawadir-kubra-djuwaydi p. 22}"
+  ur: "جحا اپنی گائے نہ بیچ سکا، تو اس نے ایک دوست سے کہا کہ اسے لے جائے اور دعویٰ کرے کہ یہ چھ ماہ کی حاملہ ہے؛ ایک خریدار نے جحا کی مانگی ہوئی قیمت سے زیادہ دے دی۔ {cite:juha-nawadir-kubra-djuwaydi p. 22}"
+  fr: "Juha n'arrive pas à vendre sa vache ; il demande à un ami de l'emmener et de prétendre qu'elle est pleine de six mois ; un acheteur la paie plus cher que ce que Juha demandait. {cite:juha-nawadir-kubra-djuwaydi p. 22}"
+  es: "Juha no logra vender su vaca, así que le pide a un amigo que se la lleve y diga que está preñada de seis meses; un comprador paga más de lo que Juha pedía. {cite:juha-nawadir-kubra-djuwaydi p. 22}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 22, anecdote 37; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

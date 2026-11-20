@@ -953,6 +953,7 @@ reader:
   credit_source: page source
   translation_title: Traduction verset par verset
   translation_credit: 'Traduction : {tr} ; domaine public, distribuée par le Tanzil Project.'
+  translation_credit_quranenc: "Traduction : {tr}. Publiée par QuranEnc.com, version {v} ; reproduite sans modification selon les conditions de ce site, elle n'est pas dans le domaine public."
   juz_nav: Les trente juz'' du mushaf
   juz_n: Juz {n}
   juz_starts: Le juz {n} commence à
@@ -1871,6 +1872,10 @@ explore:
       title: "Navigateur des piliers de l''islam, piliers de la foi, branches de la foi et traits du croyant"
       desc: "Chaque mention des cinq piliers de l''islam, des six piliers de la foi, des quelque soixante-dix branches de la foi et des traits du croyant dans le Coran, la Sunna, la sira, les récits des Compagnons et Successeurs et chaque livre récolté, chaque verset et récit avec sa source."
       menu: "Parcourir les piliers de l''islam et de la foi, les branches de la foi et les traits du croyant"
+    ahkam:
+      title: "Navigateur des statuts légaux : obligations, actes recommandés, réprouvés et interdits"
+      desc: "Chaque mention des obligations, individuelles et collectives, des actes d'obéissance, de l'obligatoire, du recommandé, de l'interdit, du réprouvé, des péchés mineurs et du permis dans le Coran, la Sunna, la sira, les rapports des Compagnons et des Successeurs et les livres d'usul et de fiqh, chaque verset et chaque rapport avec sa source."
+      menu: "Parcourir les obligations, les actes recommandés, réprouvés et interdits, et les péchés mineurs"
     halal:
       title: "Navigateur du halal et du haram"
       desc: "Chaque mention du licite et de l''illicite en islam — ce que Dieu a permis et ce qu''Il a interdit en nourriture, boisson, habillement, mariage et gains — dans le Coran, la Sunna, la sira, les récits des Compagnons et Successeurs et chaque livre récolté, avec des notices détaillées sur ses principes et ses chapitres."
@@ -1891,6 +1896,14 @@ explore:
       title: "Navigateur des munazarat"
       desc: "Chaque mention des débats et disputes dans le Coran, la Sunna, la sira et chaque livre récolté — les arguments d''Ibrahim avec son peuple et Nimrod, la mubahala avec les chrétiens de Najran, l''échange devant le Négus, le débat d''Ibn Abbas avec les Kharéjites — avec chaque verset et récit cité."
       menu: "Parcourir les débats et disputes dans le Coran et les livres"
+    ritha:
+      title: "Navigateur des élégies et des annonces de décès"
+      desc: "Tout ce qui fut dit en élégie, en annonce de décès, en condoléances et en pleurs sur les morts dans le Coran, la Sunna, la sîra, les récits des Compagnons et des Successeurs et chaque livre moissonné — l'istirja', la parole du Prophète « à Dieu appartient ce qu'Il a pris et ce qu'Il a donné », les annonces de Ja'far, Zayd, Ibn Rawaha et du Négus, les élégies de Hassan et de Ka'b ibn Malik, et les limites de la lamentation — chaque verset et chaque récit cité."
+      menu: "Parcourir les paroles célèbres de l'élégie, de l'annonce du décès et des condoléances"
+    juha:
+      title: "Navigateur de Juha et du folklore islamique"
+      desc: "Juha, Nasreddin Hoca, Ash'ab et Nu'ayman, et les anecdotes, traits d'esprit, plaisanteries et rires dans le Coran, la Sunna, la sîra et les livres d'adab et d'histoire dépouillés — chaque verset, récit et anecdote avec sa source."
+      menu: "Parcourir Juha, les anecdotes, les traits d'esprit et les plaisanteries dans le Coran, la Sunna et les livres"
     magic:
       title: "Navigateur de la magie et des magiciens"
       desc: "Chaque mention de la magie et des magiciens dans le Coran, la Sunna, la sira et chaque livre récolté — sorcellerie, devins, ruqyah, mauvais œil et envie — avec chaque verset et récit cité."
@@ -3073,6 +3086,127 @@ sayyiat:
     sunnah_note: "{n} recueils de hadiths contiennent un passage ici, les plus fournis en premier."
     count_in: "{n} passages"
     count_split: "{n} passages : {a} avec le mot, {r} sur le thème élargi"
+ahkam:
+  title: "Navigateur des statuts légaux : obligations, actes d'obéissance, actes recommandés, réprouvés et interdits, et péchés mineurs"
+  lede: "Un seul navigateur pour les degrés d'obligation : les obligations (fara'id), l'obligation individuelle (fard 'ayn) et l'obligation collective (fard kifaya), les actes d'obéissance, les actes obligatoires (wajibat), les actes recommandés (mustahabbat), les actes interdits (muharramat), les actes réprouvés (makruhat), les péchés mineurs, et ce qui reste de l'échelle, le permis et la dispense. Il rassemble chaque endroit où ces notions sont nommées dans le Coran, la Sunna, la sira, les rapports des Compagnons et des Successeurs, et les livres d'usul et de fiqh que le musée a moissonnés. Le musée décrit ce que disent les textes et les juristes ; il ne rend aucun avis juridique."
+  badge: "Explorateur des degrés d'obligation"
+  status: "Cette version contient {n} notices réparties en {s} sections, chacune citée à sa source."
+  method_title: "Comment fonctionne le navigateur"
+  method_note: "Chaque notice ici est une notice ordinaire du musée, avec ses sources. Les versets du Coran proviennent d'une table revue des versets dont la formulation même porte un thème (« prescrit pour vous », « une obligation venant de Dieu », « obéissez à Dieu », « interdit pour vous », « nul grief contre vous ») ; le texte d'un verset est le texte figé de Tanzil dans sa notice. Tout autre passage est trouvé à la construction du site par une liste de mots surveillée, de sorte qu'un livre moissonné plus tard apparaît ici le jour où ses passages arrivent. Une interdiction nue (« il a interdit ») n'est pas classée : qu'il s'agisse d'interdiction ou de réprobation relève de la lecture d'un juriste, et un tel rapport n'est listé que lorsque sa propre formulation nomme le degré. Les extraits de livres numérisés sont lus par machine et non corrigés, et les traductions sont automatiques et pas encore lues par une personne. Là où les écoles divergent, comme sur la distinction hanafite entre fard et wajib, les notices le disent et nomment chaque avis."
+  api: "Le jeu de données complet est disponible à l'adresse"
+  sections_title: "Sections"
+  filter_label: "Filtrer les notices"
+  filter_none: "Aucun résultat correspondant."
+  empty: "Aucune notice sous ce thème dans cette version pour l'instant."
+  sections:
+    quran:
+      title: "Dans le Coran"
+      desc: "Les versets dont la formulation porte un thème : ce qui est prescrit et ordonné, les ordres d'obéir à Dieu et à Son Messager, ce qui est dû par les pieux, le bien surérogatoire, ce qui est interdit, ce qui est détesté, les petites fautes, et les versets d'absence de grief, de permission et d'allègement."
+    sunnah:
+      title: "Dans la Sunna"
+      desc: "Les hadiths des deux Sahih, des Sunan et du Muwatta : ce que Dieu a rendu obligatoire et ce que le Messager a ordonné, le surérogatoire à côté de l'obligatoire, « si je ne craignais de charger ma communauté », ce qui était réprouvé, les dispenses, les péchés tenus pour légers, et les remarques des juristes que portent les recueils."
+    seerah:
+      title: "Dans la sira"
+      desc: "Ce que les livres de sira rapportent sur ces thèmes : l'enseignement donné aux délégations, les lettres sur l'aumône obligatoire, les premières obligations et l'allègement des autres."
+    books:
+      title: "Dans d'autres livres"
+      desc: "Les livres d'usul al-fiqh qui définissent les degrés (la Risala d'al-Shafi'i, le Burhan d'al-Juwayni, le Mustasfa d'al-Ghazali, les Muwafaqat d'al-Shatibi, l'Irshad al-Fuhul d'al-Shawkani), les livres de fiqh des quatre écoles, les commentaires de hadiths, les rapports des Compagnons et des Successeurs, et tout ce qui sera moissonné ensuite."
+    curated:
+      title: "Notices sur les degrés d'obligation"
+      desc: "Les notices propres du musée sur ces thèmes : les cinq statuts ensemble, l'obligation et ses deux sortes, l'obéissance, l'obligatoire, le recommandé, l'interdit, le réprouvé, le permis, la dispense et les péchés mineurs."
+  topics:
+    fard:
+      title: "Les obligations (al-furud)"
+      desc: "Tout ce que les sources du musée désignent comme une obligation : ce que Dieu a rendu obligatoire, ce que Son Messager a ordonné, « prescrit pour vous », les fara'id, et le fard des juristes."
+      definition: "Dans les livres d'usul, le fard est, pour la majorité, un autre nom du wajib : l'acte dont l'auteur est loué et dont celui qui l'omet est blâmé. Les Hanafites réservent fard à ce qu'établit une preuve décisive et wajib à ce qui repose sur une preuve probable."
+      scope: "Sont listés ici : les textes qui emploient les mots fard, farida et fara'id, « Dieu a rendu obligatoire », « a rendu obligatoire à l'égard de » et « prescrit pour vous ». Les parts d'héritage (aussi appelées fara'id), une pension et une dot « fixée » sont exclues."
+    fard-ayn:
+      title: "L'obligation individuelle (fard 'ayn)"
+      desc: "Tout ce que les sources du musée disent du devoir que chaque personne doit et que nul ne peut acquitter pour un autre : « une obligation pour tout musulman », « obligatoire pour tout adulte », et le fard 'ayn des juristes."
+      definition: "Ce qui est demandé à chaque personne responsable en son nom propre, de sorte que l'accomplissement par l'un ne l'ôte pas à l'autre : les cinq prières, le jeûne, l'aumône, le pèlerinage pour qui en a les moyens."
+      scope: "Sont listés ici : les textes qui emploient le terme, et ceux qui posent un devoir « sur tout musulman » ou « sur tout adulte ». Le Coran n'emploie pas le terme ; les versets de chaque acte se trouvent sous les obligations."
+    fard-kifaya:
+      title: "L'obligation collective (fard kifaya)"
+      desc: "Tout ce que les sources du musée disent du devoir qui incombe à la communauté : lorsque certains l'accomplissent suffisamment, les autres sont quittes de tout blâme, et lorsque personne ne l'accomplit, tous sont en faute."
+      definition: "Ce que le Législateur veut voir accompli sans égard à celui qui l'accomplit : la prière funéraire, le retour du salut, l'étude approfondie de la religion, le jihad lorsque le nombre suffisant se met en route. Al-Shafi'i l'expose dans la Risala à partir de deux versets."
+      scope: "Sont listés ici : les textes qui emploient le terme ou énoncent sa règle (« lorsque certains l'accomplissent, elle tombe pour les autres »), et les deux versets dont al-Shafi'i la tire."
+    taat:
+      title: "Les actes d'obéissance (al-ta'at)"
+      desc: "Tout ce que les sources du musée disent de l'obéissance à Dieu et à Son Messager et des actes d'obéissance : « obéissez à Dieu et obéissez au Messager », « qui m'obéit a obéi à Dieu », « pas d'obéissance dans la désobéissance ; l'obéissance n'est due que dans ce qui est convenable »."
+      definition: "Les textes opposent l'obéissance à la désobéissance : « quiconque m'obéit a obéi à Dieu, et quiconque me désobéit a désobéi à Dieu », et en fixent la limite : « l'obéissance n'est due que dans ce qui est convenable ». Le navigateur la place au-dessus des deux degrés du faire, l'obligatoire et le recommandé."
+      scope: "Sont listés ici : les textes qui ordonnent ou louent l'obéissance à Dieu et à Son Messager, et les textes qui nomment les actes d'obéissance. L'obéissance à ceux qui détiennent l'autorité (« écouter et obéir ») ne compte qu'accompagnée de l'un d'eux."
+    wajib:
+      title: "Les actes obligatoires (al-wajibat)"
+      desc: "Tout ce que les sources du musée disent avec le mot wajib et ses verbes : « obligatoire pour », « dû par tout musulman », « si j'avais dit oui, cela serait devenu obligatoire », et le wujub des juristes."
+      definition: "Le wajib est l'acte dont l'auteur est loué et dont celui qui l'omet est blâmé (al-Shawkani). Il se divise en déterminé et au choix, en étroit et large quant au temps, et en individuel et collectif."
+      scope: "Sont listés ici : les textes qui emploient wajib, wujub, « il est obligatoire de » et « un droit dû par ». « Le Paradis lui est devenu dû » et une vente « conclue » sont exclus."
+    mustahabb:
+      title: "Les actes recommandés (al-mustahabbat)"
+      desc: "Tout ce que les sources du musée disent de ce qui est demandé sans être imposé : le mustahabb et le mandub, la nafila et l'acte surérogatoire, les sunnas confirmées, et ce que le Prophète n'a pas imposé par crainte de la difficulté."
+      definition: "Le mandub est ce que le Législateur demande sans attacher de blâme à son abandon ; le faire vaut mieux que le laisser. Les juristes l'appellent sunna, mustahabb, nafl et tatawwu', le plus souvent dans un même sens."
+      scope: "Sont listés ici : les textes qui emploient ces mots, ceux qui disent qu'un acte est « non obligatoire », et « si je ne craignais de charger ma communauté ». La Sunna comme source du droit a ses propres notices."
+    haram:
+      title: "Les actes interdits (al-muharramat)"
+      desc: "Tout ce que les sources du musée désignent comme interdit : « interdit pour vous », « Dieu a interdit », « il n'est pas licite », les muharramat et les choses sacrées de Dieu."
+      definition: "Le haram, aussi appelé mahzur, est ce que le Législateur demande de laisser, avec l'avertissement d'un châtiment pour qui le fait."
+      scope: "Sont listés ici : les mêmes passages que le Navigateur Halal et Haram lit du côté de l'illicite, avec une seule liste de mots, pour que les deux ne se contredisent jamais. Le sanctuaire, l'état d'ihram et le nom propre Haram sont exclus. Un simple « il a interdit » n'est pas classé."
+    makruh:
+      title: "Les actes réprouvés (al-makruhat)"
+      desc: "Tout ce que les sources du musée disent de ce qu'il vaut mieux laisser : le makruh et la karaha, « il avait coutume de réprouver », « Dieu a réprouvé pour vous », une interdiction « non rendue ferme », et ce que les juristes ont réprouvé."
+      definition: "Le makruh est ce que le Législateur demande de laisser sans avertissement de châtiment ; le laisser vaut mieux que le faire. Al-Ghazali note que le mot s'emploie aussi pour l'interdit et pour l'abandon du mieux ; les Hanafites le divisent en ce qui est proche de l'interdit et ce qui n'est qu'un simple défaut."
+      scope: "Sont listés ici : les textes qui emploient makruh et karaha, et les rapports de réprobation habituelle. La répugnance comme sentiment (« qui déteste rencontrer Dieu »), la contrainte et les propositions en « de peur que » sont exclues."
+    saghair:
+      title: "Les péchés mineurs (sagha'ir al-dhunub)"
+      desc: "Tout ce que les sources du musée disent des petits péchés : le lamam, les péchés tenus pour légers, ce que les prières et l'évitement des péchés majeurs expient, et la mise en garde contre l'obstination."
+      definition: "Les péchés mineurs sont ceux qui sont en dessous des majeurs ; les juristes divergent sur la ligne qui les sépare. La notice du musée expose les définitions, et les péchés majeurs sont dans le Navigateur des hudud et des kaba'ir."
+      scope: "Sont listés ici : les textes qui nomment les petits péchés, le lamam et les péchés méprisés, et les textes sur ce qui est expié « tant que les péchés majeurs sont évités ». « Le petit et le grand » est exclu."
+    mubah:
+      title: "Et le reste : le permis et la dispense"
+      desc: "Ce qui reste de l'échelle : le mubah, la dispense (rukhsa) à côté de la règle d'origine ('azima), « nul grief », « il n'y a pas de mal à cela », et ce qui a été passé sous silence."
+      definition: "Le mubah est l'acte pour lequel le Législateur laisse le choix : le faire et le laisser se valent, sans péché ni dans l'un ni dans l'autre. La rukhsa est un allègement accordé pour une excuse tandis que la raison de la règle d'origine subsiste."
+      scope: "Sont listés ici : les textes qui emploient mubah, ibaha et rukhsa, « nul grief » et « il n'y a pas de mal à cela », et « ce sur quoi Il a gardé le silence est pardonné ». Le licite (halal) comme tel se trouve dans le Navigateur Halal et Haram."
+  topics_ui:
+    status: "Ce thème contient {n} notices : {c} choisies, {q} versets, {s} de la Sunna, {r} de la sira et {b} d'autres livres."
+    record: "Lire la notice du musée sur ce thème"
+    definition: "Dans les livres d'usul :"
+  viz:
+    title: "L'échelle des cinq statuts"
+    note: "Les livres d'usul al-fiqh divisent en cinq ce que le Législateur dit d'un acte. Une demande d'agir est l'obligatoire lorsque l'omettre est blâmé et le recommandé lorsqu'il ne l'est pas ; une demande de laisser est l'interdit lorsque le faire est blâmé et le réprouvé lorsqu'il ne l'est pas ; et là où il y a choix, l'acte est permis. Les thèmes du navigateur se tiennent sur le degré auquel ils appartiennent, avec le nombre de notices de chacun ; l'obéissance couvre les deux degrés de l'action, et les péchés mineurs appartiennent au côté de l'abstention."
+    degree_word: "degré"
+    does: "Le faire"
+    leaves: "Le laisser"
+    count: "{n} notices"
+    record: "La notice de ce degré"
+    axis_do: "demandé de faire"
+    axis_choice: "un choix"
+    axis_leave: "demandé de laisser"
+    degrees:
+      wajib:
+        name: "L'obligatoire (fard, wajib)"
+        does: "loué"
+        leaves: "blâmé"
+      mandub:
+        name: "Le recommandé (mandub, mustahabb)"
+        does: "loué"
+        leaves: "non blâmé"
+      mubah:
+        name: "Le permis (mubah)"
+        does: "ni loué ni blâmé"
+        leaves: "ni loué ni blâmé"
+      makruh:
+        name: "Le réprouvé (makruh)"
+        does: "non blâmé"
+        leaves: "loué"
+      haram:
+        name: "L'interdit (haram)"
+        does: "blâmé"
+        leaves: "loué"
+    lanes:
+      taat: "couvre l'obligatoire et le recommandé"
+      saghair: "du côté de ce qu'on laisse ; les péchés majeurs sont dans le"
+      kabair: "Navigateur des hudud et des kaba'ir"
+    source: "La division suit le Mustasfa d'al-Ghazali et l'Irshad al-Fuhul d'al-Shawkani, tels que cités dans"
+    source_link: "la notice du musée sur les cinq statuts"
 arkan:
   title: "Explorateur des piliers de l’islam, des piliers et des branches de la foi et des qualités du croyant"
   lede: "Quatre portes dans un même explorateur : les cinq piliers sur lesquels repose l’islam, les six piliers de la foi du hadith de Gabriel, les branches de la foi que le hadith dénombre à plus de soixante-dix et les qualités du croyant décrites par les versets et les hadiths. Sont réunies leurs mentions dans le Coran, la sunna, la sira, les récits des Compagnons et des Successeurs, les ouvrages de foi, de commentaire, de renoncement et d’histoire, et chaque livre dépouillé à l’avenir. Le musée décrit les sources et attribue chaque propos à son auteur ; il ne prononce aucun avis juridique."
@@ -5254,3 +5388,141 @@ heroes:
     generosity: { name: "Salle de la générosité", lede: "Une fortune entière au service du bien commun : caravanes d’Abd al-Rahman, puits d’Othman, richesse de Khadija et fondation de Fatima." }
     knowledge: { name: "Salle du savoir", lede: "Ils ont porté le savoir comme un dépôt et l’ont payé de leur vie : le fondateur de la théorie juridique, le ferme face à l’inquisition, le savant de Bassora et la langue de vérité." }
     steadfastness: { name: "Salle de la constance", lede: "Le monde tremblait, eux ne bougeaient pas : « Un, Un » sous le rocher, le plus long chemin vers la vérité, le jour où la communauté trembla et la parole sans peur." }
+ritha:
+  title: "Navigateur des élégies et des annonces de décès"
+  lede: "Tout ce qui fut dit en élégie et en annonce de décès dans les sources du musée : les versets de la patience et l'istirja', les paroles du Prophète à la mort de son fils, de son petit-fils et des Compagnons perdus, son annonce de la mort du Négus et de Ja'far, Zayd et Ibn Rawaha, les condoléances des Compagnons, les élégies de Hassan, de Ka'b ibn Malik, d'al-Khansa' et de Labid, les récits des Compagnons et des Successeurs à la mort de leurs proches et les paroles des livres moissonnés — ce qui sera moissonné plus tard s'y ajoute automatiquement."
+  badge: "Explorateur des élégies et annonces"
+  status: "Cette version contient {n} notices en {s} sections ; les textes sont des brouillons tant qu'une personne ne les a pas lus."
+  method_title: "La méthode du navigateur"
+  method_note: "Chaque notice ici est une notice ordinaire du musée, avec ses sources et son texte en cinq langues. Les passages sont trouvés à la construction du site par un détecteur prudent sur les textes : les mots de l'élégie et du poème d'élégie, de l'annonce du décès et du messager, des condoléances, les formules fixes comme l'istirja', « à Dieu appartient ce qu'Il a pris et ce qu'Il a donné » et « la patience, c'est au premier choc », les mots de la lamentation, et les pleurs seulement près d'une mention de mort. Les versets viennent d'une table revue, non d'un lexique. « Na't » la description, « 'azahu ila » dans l'attribution des sources, « waritha » dans l'héritage et les pleurs de crainte de Dieu restent exclus, les faux positifs vérifiés sont exclus par identifiant, tout livre moissonné plus tard apporte ses passages automatiquement, et les notices choisies s'ajoutent par l'étiquette ritha-browser. Chaque passage est classé : élégie, annonce de décès, condoléances, ou pleurs et lamentations."
+  api: "L'ensemble est disponible à"
+  sections_title: "Les sections du navigateur"
+  kinds_title: "Genre"
+  all_kinds: "Tous les genres"
+  formulas_title: "Les paroles et formules célèbres"
+  formulas_note: "Les paroles fixes que la communauté connaît à la mort d'un proche ; chaque carte ouvre le plus court passage qui les porte, avec le nombre trouvé dans les sources."
+  formula_count: "{n} dans les sources"
+  filter_label: "Filtrer les notices"
+  filter_none: "Aucun résultat."
+  empty: "Aucune notice dans cette version pour l'instant."
+  kinds:
+    ritha:
+      title: "Élégie"
+      ar: "رثاء"
+      desc: "Éloge du défunt et énumération de ses vertus, en vers et en prose, et les élégies des Compagnons et des poètes."
+    nay:
+      title: "Annonce de décès"
+      ar: "نعي"
+      desc: "Annoncer un décès aux gens, comme le Prophète pour Ja'far, Zayd, Ibn Rawaha et le Négus."
+    taziya:
+      title: "Condoléances"
+      ar: "تعزية"
+      desc: "Consoler et raffermir l'affligé, l'istirja', « à Dieu appartient ce qu'Il a pris et ce qu'Il a donné », et le repas pour la famille du défunt."
+    bukaa:
+      title: "Pleurs et lamentations"
+      ar: "بكاء ونياحة"
+      desc: "Les larmes de l'œil et la tristesse du cœur, permises, et l'interdiction de la lamentation, de se frapper les joues et de déchirer ses vêtements."
+  sections:
+    quran:
+      title: "Dans le Coran"
+      desc: "Les versets de la patience et de l'istirja' et chaque mort que mentionne le Coran : l'épreuve des croyants, le chagrin de Ya'qub, toute âme goûtant la mort, la description des martyrs et l'âme apaisée."
+    sunnah:
+      title: "Dans la Sunna"
+      desc: "Ce que portent les deux Sahih, le Muwatta et les Sunan : l'annonce du Négus et de Ja'far, les condoléances à la fille du Prophète, ses pleurs sur son fils, l'interdiction de la lamentation et l'éloge des gens au passage d'un cortège — chaque récit avec sa source et son numéro."
+    seerah:
+      title: "Dans la sîra"
+      desc: "Ce que portent les livres de la sîra : la mort du Prophète et les pleurs des Compagnons, les élégies de Hassan pour le Prophète, Hamza et les martyrs de Mu'ta et de Bir Ma'una, et l'annonce de Zayd, Ja'far et Ibn Rawaha ; cette section se remplit à mesure que de nouveaux textes de sîra sont moissonnés."
+    books:
+      title: "Dans les autres livres"
+      desc: "Les récits des Compagnons, des Successeurs, des historiens et des lettrés : les condoléances d'Umar et de Mu'awiya, les élégies des poètes, les pleurs d'Abu Bakr et d'Umar, et l'annonce de la mort des califes et des savants dans les histoires de la communauté — classés le jour où leurs passages arrivent."
+    curated:
+      title: "Les notices choisies"
+      desc: "Les notices du musée sur l'élégie, l'annonce, les condoléances et la lamentation elles-mêmes, et sur les événements et poèmes qui s'y rattachent : l'élégie de Hassan pour le Prophète, celles des martyrs de Mu'ta, le chagrin du Prophète pour Ja'far et la mort d'Ibrahim."
+  formulas:
+    istirja:
+      title: "L'istirja' devant la perte"
+      note: "La formule que dit l'affligé, et la supplication d'Umm Salama qui la suit."
+    lillah_ma_akhadh:
+      title: "« À Dieu appartient ce qu'Il a pris et ce qu'Il a donné »"
+      note: "Ce que le Prophète fit dire à sa fille alors que son enfant se mourait."
+    sadma_ula:
+      title: "« La patience, c'est au premier choc »"
+      note: "Le Prophète à une femme qui pleurait près d'une tombe."
+    ajirni:
+      title: "« Ô Dieu, récompense-moi dans mon malheur »"
+      note: "La supplication de l'affligé telle que la rapportent Muslim, Malik et al-Tirmidhi."
+    ayn_tadma:
+      title: "« L'œil pleure et le cœur s'afflige »"
+      note: "Le Prophète à la mort de son fils Ibrahim."
+    ya_abatah:
+      title: "« Ô mon père »"
+      note: "Les mots de Fatima le jour de la mort du Prophète."
+    man_kana_yabudu:
+      title: "« Pur dans la vie et dans la mort »"
+      note: "Abu Bakr auprès du Prophète le jour de sa mort, et son discours ensuite."
+    al_jafar:
+      title: "« Préparez un repas pour la famille de Ja'far »"
+      note: "La sunna de nourrir la famille du défunt."
+    nay_najashi:
+      title: "L'annonce de la mort du Négus"
+      note: "Le Prophète l'annonça le jour de sa mort et pria sur lui en son absence."
+    adhkuru_mahasin:
+      title: "« Rappelez les qualités de vos morts »"
+      note: "La racine de l'élégie permise et de l'éloge des gens au passage d'un cortège."
+  viz:
+    title: "Les quatre bannières de deuil"
+    note: "Quatre bannières à lisière noire, une par genre de notice : élégie, annonce de décès, condoléances, et pleurs et lamentations ; chacune montre combien de notices elle porte, une barre de leur provenance dans les sources et trois notices à ouvrir. Comptées ici : {n} notices, toutes dans les listes ci-dessous. Les genres viennent du détecteur et des notices choisies, non d'un jugement du musée."
+    region: "Notices par genre et par section"
+    col_kind: "Genre"
+juha:
+  title: "Navigateur de Juha et du folklore islamique"
+  full_title: "Navigateur de Juha, du folklore islamique à travers les âges, de la comédie, des blagues, des traits d’esprit et des anecdotes"
+  lede: "Tout ce que le musée conserve sur Juha et le folklore islamique à travers les âges, la comédie, les blagues, les traits d'esprit et les anecdotes : les versets du Coran sur le rire, le sourire et l'interdiction de la moquerie ; la plaisanterie et le rire du Prophète et les limites de la plaisanterie dans la Sunna ; l'enjouement des Compagnons et des Successeurs dans la sîra et les biographies ; les anecdotes de Juha une à une ; et les récits des beaux esprits, des sots, des avares et des pique-assiettes dans les livres d'adab et d'histoire."
+  badge: "Le cercle des anecdotes"
+  status: "Cette version contient {n} notices dans {s} sections ; les textes sont des brouillons que le lecteur peut vérifier dans les sources nommées sur chaque notice."
+  method_title: "La méthode du navigateur"
+  method_note: "Chaque notice est une notice ordinaire du musée, avec ses sources et son texte en cinq langues. Les passages sont repérés à la génération du site par un détecteur assorti de garde-fous qui lit le texte des passages : le nom de Juha comme mot entier, les beaux esprits nommés tels Ash'ab, Nu'ayman, Muzabbid et Habannaqa, les mots de l'anecdote et du trait d'esprit, les verbes de la plaisanterie et du badinage, les mots du rire et du sourire, et les textes sur l'éthique de la plaisanterie. Restent dehors le « cas rare » des juristes, le titre al-Nawadir wa-l-Ziyadat, « le clin d'œil », les noms al-Dahhak et Ibn Mughaffal et l'adverbe des grammairiens. Chaque livre dépouillé par la suite apporte automatiquement ses passages le jour où ils entrent dans le graphe, et les notices rédigées les rejoignent par l'étiquette juha-browser. Les anecdotes de Juha sont racontées dans les mots du musée d'après une numérisation lue par machine, et les traductions sont des traductions automatiques qu'aucun humain n'a relues."
+  api: "L'ensemble est disponible à"
+  sections_title: "Les sections du navigateur"
+  kinds_title: "Genre d'humour"
+  all_kinds: "Tous les genres"
+  filter_label: "Chercher dans les anecdotes"
+  filter_none: "Aucun résultat."
+  empty: "Aucune notice dans cette version pour le moment."
+  majlis_title: "Le cercle des beaux esprits"
+  majlis_note: "Les héros des anecdotes que les sources nomment : Juha d'abord, puis ceux qui l'accompagnent dans les livres d'adab et de hadith. Chaque siège ouvre sa notice complète et sourcée."
+  tales_title: "Parmi les anecdotes de Juha"
+  tales_note: "Des anecdotes des Nawadir Juha al-Kubra racontées dans les mots du musée ; chaque bulle ouvre la notice de l'anecdote avec son numéro de page et son extrait."
+  scale_title: "La balance du rire"
+  scale_note: "Quels genres d'humour porte chaque section : une barre est aussi longue que son nombre de notices et colorée par genre, d'après les mêmes lignes que les listes ci-dessous."
+  scale_caption: "Nombre de notices de chaque section par genre d'humour"
+  scale_total: "Total"
+  shelf_title: "L'étagère des livres d'anecdotes"
+  shelf_note: "Les livres qui ont réuni les anecdotes, les traits d'esprit et les récits des beaux esprits et des sots ; chacun a sa notice."
+  rider_alt: "Dessin : Juha monté à l’envers sur son âne"
+  kinds:
+    juha: "Juha"
+    wits: "Beaux esprits et sots"
+    anecdote: "Anecdote ou trait d'esprit"
+    jest: "Plaisanterie et badinage"
+    laughter: "Rire et sourire"
+    ethics: "Éthique de la plaisanterie"
+  sections:
+    curated:
+      title: "Les notices rédigées"
+      desc: "Les notices du musée sur le sujet lui-même : Juha, Nasreddin Hoca, Ash'ab et d'autres, les livres d'anecdotes, et les notions de plaisanterie, de rire et d'anecdote."
+    juha:
+      title: "Les anecdotes de Juha"
+      desc: "Les anecdotes de Juha une à une d'après les Nawadir Juha al-Kubra : le titre de l'anecdote, son récit dans les mots du musée, son numéro de page et un extrait d'au plus quarante mots."
+    quran:
+      title: "Dans le Coran"
+      desc: "Les versets du rire et du sourire : le rire de l'épouse d'Abraham, le sourire de Salomon aux paroles de la fourmi, « c'est Lui qui fait rire et pleurer », les visages riants et réjouis, le rire des moqueurs, et l'interdiction qu'un peuple se moque d'un autre."
+    sunnah:
+      title: "Dans la Sunna"
+      desc: "Ce que les deux Sahih, le Muwatta et les Sunan rapportent de la plaisanterie, du rire et du sourire du Prophète, de l'enjouement des Compagnons et de l'avertissement à qui ment pour faire rire — chaque récit avec son numéro et sa source."
+    seerah:
+      title: "Dans la sîra"
+      desc: "Ce que les livres de sîra et de shama'il rapportent de la plaisanterie, du rire et de l'enjouement ; cette section se remplit d'elle-même à mesure qu'arrivent de nouveaux textes."
+    books:
+      title: "Dans les autres livres"
+      desc: "Anecdotes, traits d'esprit et récits des beaux esprits, des sots et des avares dans les livres d'adab, d'histoire et de biographie : Nihayat al-Arab, 'Uyun al-Akhbar, al-Mustatraf, al-Bayan wa-l-Tabyin, al-Hayawan et tout ce qui sera dépouillé ensuite."

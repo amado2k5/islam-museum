@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-252
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "123:252"
+label: { ar: "نوادر جحا الكبرى، ص 123 — «أنا لم أنسه بل أنت نسيته\")»", en: "Nawadir Juha al-Kubra, p. 123 — 'I Did Not Forget It, You Forgot It'", ur: "نوادر جحا الکبریٰ، ص 123 — «میں نہیں بھولا، تم بھولے ہو»", fr: "Nawadir Juha al-Kubra, p. 123 — « Je ne l'ai pas oublié, c'est toi qui l'as oublié »", es: "Nawadir Juha al-Kubra, p. 123 — «Yo no lo olvidé, tú lo olvidaste»" }
+text: "… أنا لم أنسه بل أنت نسيته دعاه الحاكم يوماً، وكان قد أوصى الطَّاهي أن يطبخ حلاوة التين بالقشطة، وبعد تناول الطعام، لم يحضر على المائدة شيء من ذلك، فأنقبض الشيخ، ولكنه لم يقل شيئاً. وبعد صلاة العشاء قال الحاكم: أسمعنا …"
+summary:
+  ar: "في عشاء عند الوالي غاب حلوى التين والقشدة التي طُلبت، وبعد صلاة العشاء طلب الوالي من جحا أن يقرأ شيئاً من القرآن، فبدأ جحا بالزيتون، فسأله الوالي لماذا نسي التين، فقال: أنا لم أنسه بل أنت نسيته. {cite:juha-nawadir-kubra-djuwaydi p. 123}"
+  en: "At a governor's dinner the fig-and-cream sweet that was ordered is missing. After the night prayer the governor asks Juha to recite part of the Qur'an, and Juha begins with the olive. The governor asks why he forgot the fig, and Juha says, 'I did not forget it; you forgot it.' {cite:juha-nawadir-kubra-djuwaydi p. 123}"
+  ur: "والی کے عشائیے میں منگوائی گئی انجیر اور بالائی کی مٹھائی غائب ہوتی ہے۔ عشاء کی نماز کے بعد والی جحا سے قرآن کا کچھ حصہ پڑھنے کو کہتا ہے اور جحا زیتون سے آغاز کرتا ہے۔ والی پوچھتا ہے کہ وہ انجیر کیوں بھول گیا، تو جحا کہتا ہے: میں نہیں بھولا، تم بھولے ہو۔ {cite:juha-nawadir-kubra-djuwaydi p. 123}"
+  fr: "Au dîner d'un gouverneur, la douceur aux figues et à la crème commandée est absente. Après la prière de la nuit, le gouverneur demande à Juha de réciter une partie du Coran, et Juha commence par l'olivier. Le gouverneur demande pourquoi il a oublié la figue, et Juha dit : « Je ne l'ai pas oubliée, c'est toi qui l'as oubliée. » {cite:juha-nawadir-kubra-djuwaydi p. 123}"
+  es: "En la cena de un gobernador falta el dulce de higos y crema que se había pedido. Tras la oración de la noche el gobernador pide a Juha que recite una parte del Corán, y Juha empieza por el olivo. El gobernador pregunta por qué olvidó el higo, y Juha dice: «Yo no lo olvidé, tú lo olvidaste». {cite:juha-nawadir-kubra-djuwaydi p. 123}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 123, anecdote 252; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-120
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "58:120"
+label: { ar: "نوادر جحا الكبرى، ص 58 — «أفتش على نومي»", en: "Nawadir Juha al-Kubra, p. 58 — 'I Am Looking for My Sleep'", ur: "نوادر جحا الکبریٰ، ص 58 — «میں اپنی نیند ڈھونڈ رہا ہوں»", fr: "Nawadir Juha al-Kubra, p. 58 — « Je cherche mon sommeil »", es: "Nawadir Juha al-Kubra, p. 58 — «Busco mi sueño»" }
+text: "… أفتش على نومي خرج في منتصف الليل يدور في الشوارع، فصادفه رئيس الحراس، وسأله: على أيٍّ شيء تفتش في الشوارع بنصف الليل؟ فأجابه: هرب نومي وأنا أُفتّشُ عليه. أعطيك ما شِئْتَ منَ الوعدة طلب إليه أحد أصدقائه نقوداً بالدَين لوعدة. …"
+summary:
+  ar: "كان جحا يفتش في الشوارع عند منتصف الليل، فقال لرئيس الحرس إنه يبحث عن نومه الذي هرب منه. {cite:juha-nawadir-kubra-djuwaydi p. 58}"
+  en: "Searching the streets at midnight, Juha tells the chief of the watch that he is looking for his sleep, which has run off. {cite:juha-nawadir-kubra-djuwaydi p. 58}"
+  ur: "آدھی رات کو گلیوں میں ڈھونڈتے ہوئے جحا نے پہرے کے سردار سے کہا کہ میں اپنی نیند تلاش کر رہا ہوں جو بھاگ گئی ہے۔ {cite:juha-nawadir-kubra-djuwaydi p. 58}"
+  fr: "Cherchant dans les rues à minuit, Juha dit au chef du guet qu'il cherche son sommeil, qui s'est enfui. {cite:juha-nawadir-kubra-djuwaydi p. 58}"
+  es: "Buscando por las calles a medianoche, Juha le dice al jefe de la ronda que busca su sueño, que se ha escapado. {cite:juha-nawadir-kubra-djuwaydi p. 58}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 58, anecdote 120; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

@@ -32,11 +32,14 @@ import { NUBUWAT_TAG, nubuwatCorpusOf, nubuwatTagSection, nubuwatTagTopics, isNu
 import { SAYYIAT_TAG, sayyiatCorpusOf, sayyiatKindOf, sayyiatSignalsOf, sayyiatTagSection, isSayyiatPassage, type SayyiatKind } from "./sayyiat.js";
 import { HALAL_TAG, halalCorpusOf, halalKindOf, halalSignalsOf, halalSubjectsOf, halalTagSection, isHalalPassage } from "./halal.js";
 import { ARKAN_TAG, arkanCorpusOf, arkanSignalsOf, arkanTopicsOf, isArkanPassage } from "./arkan.js";
+import { AHKAM_TAG, ahkamCorpusOf, ahkamSignalsOf, ahkamTopicsOf, isAhkamPassage } from "./ahkam.js";
 import { HUDUD_TAG, hududCorpusOf, hududKindOf, hududSignalsOf, hududTagSection, isHududPassage } from "./hudud.js";
 import { HISAB_TAG, hisabCorpusOf, hisabKindsOf, hisabSignalsOf, isHisabPassage, reckoningOf } from "./hisab.js";
 import { HASANAT_TAG, hasanatCorpusOf, hasanatKindOf, hasanatSignalsOf, hasanatTagSection, isHasanatPassage, type HasanatKind } from "./hasanat.js";
 import { JANNA_TAG, jannaCorpusOf, jannaKindOf, jannaSignalsOf, jannaTagSection, isJannaPassage, type JannaKind } from "./janna.js";
 import { MUKATABAT_TAG, mukatabatCorpusOf, mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf, mukatabatTagSection, mukatabatTagSender, isMukatabatPassage } from "./mukatabat.js";
+import { RITHA_TAG, rithaCorpusOf, rithaKindOf, rithaSignalsOf, rithaTagKind, rithaTagSection, isRithaPassage } from "./ritha.js";
+import { JUHA_TAG, isJuhaPassage, juhaCorpusOf, juhaKindOf, juhaSignalsOf, juhaTagKind, juhaTagSection } from "./juha.js";
 import { MUNAZARAT_TAG, munazaratCorpusOf, munazaratKindOf, munazaratOpponentOf, munazaratSignalsOf, munazaratTagSection, munazaratTagOpponent, isMunazaratPassage } from "./munazarat.js";
 import { NAR_TAG, narKindOf, narSectionOf, narSignalsOf, narTagSection, isNarPassage } from "./nar.js";
 import { QIYAMA_TAG, qiyamaCorpusOf, qiyamaKindOf, qiyamaSignalsOf, qiyamaTagSection, isQiyamaPassage, type QiyamaKind } from "./qiyama.js";
@@ -579,6 +582,17 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       subjects: halalSubjectsOf(n),
       signals: n.class === "passage" ? halalSignalsOf(n) : [],
     }) },
+  { file: "ahkam.json", feature: "ahkam-browser",
+    pick: (n) => n.tags.includes(AHKAM_TAG) || isAhkamPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? ahkamCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : "curated",
+      // the themes the record belongs to: fard, fard-ayn, fard-kifaya, taat, wajib, mustahabb, haram, makruh, saghair, mubah
+      topics: ahkamTopicsOf(n),
+      signals: n.class === "passage" ? ahkamSignalsOf(n) : [],
+    }) },
   { file: "arkan.json", feature: "arkan-browser",
     pick: (n) => n.tags.includes(ARKAN_TAG) || isArkanPassage(n),
     fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
@@ -611,6 +625,16 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       sender: n.class === "passage" ? mukatabatSenderOf(n) : mukatabatTagSender(n),
       signals: n.class === "passage" ? mukatabatSignalsOf(n) : [],
     }) },
+  { file: "juha.json", feature: "juha-browser",
+    pick: (n) => n.tags.includes(JUHA_TAG) || isJuhaPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? juhaCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : juhaTagSection(n),
+      juha_kind: n.class === "passage" ? juhaKindOf(n) : juhaTagKind(n),
+      signals: n.class === "passage" ? juhaSignalsOf(n) : [],
+    }) },
   { file: "munazarat.json", feature: "munazarat-browser",
     pick: (n) => n.tags.includes(MUNAZARAT_TAG) || isMunazaratPassage(n),
     fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
@@ -621,6 +645,16 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       munazarat_kind: n.class === "passage" ? munazaratKindOf(n) : null,
       opponent: n.class === "passage" ? munazaratOpponentOf(n) : munazaratTagOpponent(n),
       signals: n.class === "passage" ? munazaratSignalsOf(n) : [],
+    }) },
+  { file: "ritha.json", feature: "ritha-browser",
+    pick: (n) => n.tags.includes(RITHA_TAG) || isRithaPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? rithaCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : rithaTagSection(n),
+      ritha_kind: n.class === "passage" ? rithaKindOf(n) : rithaTagKind(n),
+      signals: n.class === "passage" ? rithaSignalsOf(n) : [],
     }) },
   { file: "screens.json", feature: "screening-room", pick: (n) => n.class === "screen",
     fields: ["format", "relevance", "titles", "released", "first_broadcast", "ramadan_season", "countries", "languages", "seasons", "episodes", "runtime_min", "broadcaster", "approach", "depiction", "external_ids", "made", "honours"] },

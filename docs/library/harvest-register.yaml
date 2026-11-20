@@ -143,8 +143,8 @@ books:
     physical: {pages: 198}
     ocr: {state: complete, date: '2026-10-23', unzipped_location: books/adab-zuhd/civ-3027/}
     ocr_archive: {state: none}
-    mining: {state: none}
-    ingestion: {state: none}
+    mining: {state: complete, entities: 'introduction (scan pp. 4-8) and every anecdote (scan pp. 9-190) mined 2026-11-20 by scripts/harvest-juha-ocr.ts --juha: one passage/nawadir-juha-<n> record per anecdote'}
+    ingestion: {state: complete, branch: feat/juha-folklore-browser, graph_ids: [source/juha-nawadir-kubra-djuwaydi, work/nawadir-juha-al-kubra]}
     completion: ocr_done
     unverified:
     - author
@@ -796,8 +796,8 @@ books:
     physical: {pages: 1836}
     ocr: {state: complete, date: '2026-11-04', unzipped_location: books/adab-zuhd/uyun-akhbar/}
     ocr_archive: {state: none}
-    mining: {state: none}
-    ingestion: {state: none}
+    mining: {state: in_progress, entities: 'humour excerpts only (up to 80 scan pages) mined 2026-11-20 by scripts/harvest-juha-ocr.ts for the Juha browser; the rest of the book is unmined'}
+    ingestion: {state: partial, branch: feat/juha-folklore-browser, graph_ids: [source/uyun-al-akhbar-dar-al-kutub-1996]}
     work_registry: 'ocr: released 2026-11-04 16:30 (stopped mid-OCR, pages.partial.json kept) (claude-opus-5-5 / ocr-harvest-2026-11-04)'
     completion: ocr_done
     unverified:

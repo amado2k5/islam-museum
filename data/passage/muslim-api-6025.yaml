@@ -1,0 +1,18 @@
+id: passage/muslim-api-6025
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6025"
+label: { ar: "صحيح مسلم 6025 — رثاء وثناء على ميت", en: "Sahih Muslim 6025 — an elegy or praise of the dead", ur: "صحیح مسلم 6025 — مرثیہ یا میت کی تعریف", fr: "Sahih Muslim 6025 — une élégie ou un éloge du défunt", es: "Sahih Muslim 6025 — una elegía o elogio del difunto" }
+text: "… اللَّهِ فَقُلْتُ يَا أَبَا سَيْفٍ أَمْسِكْ جَاءَ رَسُولُ اللَّهِ. فَأَمْسَكَ فَدَعَا النَّبِيُّ بِالصَّبِيِّ فَضَمَّهُ إِلَيْهِ وَقَالَ مَا شَاءَ اللَّهُ أَنْ يَقُولَ. فَقَالَ أَنَسٌ لَقَدْ رَأَيْتُهُ وَهُوَ يَكِيدُ بِنَفْسِهِ بَيْنَ يَدَىْ رَسُولِ اللَّهِ فَدَمَعَتْ عَيْنَا رَسُولِ اللَّهِ فَقَالَ \" تَدْمَعُ الْعَيْنُ وَيَحْزَنُ الْقَلْبُ وَلاَ نَقُولُ إِلاَّ مَا يَرْضَى رَبُّنَا وَاللَّهِ يَا إِبْرَاهِيمُ إِنَّا بِكَ لَمَحْزُونُونَ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 6025، فيه رثاء وثناء على ميت. يجمعه متصفح أشهر ما قيل في الرثاء والنعي مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين وما في الكتب المحصودة في هذا الباب."
+  en: "A report in Sahih Muslim, no. 6025 (The Book of Virtues), that carries an elegy or praise of the dead. The Elegy and Death-Announcement Browser lists it with the texts of the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors and the harvested books on this subject."
+  ur: "صحیح مسلم کی حدیث نمبر 6025، جس میں مرثیہ یا میت کی تعریف ہے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے قرآن، سنت، سیرت، صحابہ و تابعین کے آثار اور جمع شدہ کتابوں کی عبارتوں کے ساتھ درج کرتا ہے۔"
+  fr: "Un récit dans Sahih Muslim, n° 6025, qui contient une élégie ou un éloge du défunt. Le navigateur des élégies et des annonces de décès le recense avec les textes du Coran, de la Sunna, de la sîra, les récits des Compagnons et des Successeurs et les livres moissonnés sur ce sujet."
+  es: "Un relato en Sahih Muslim, n.º 6025, que contiene una elegía o elogio del difunto. El navegador de elegías y anuncios de fallecimiento lo recoge junto con los textos del Corán, la Sunna, la sira, los relatos de los Compañeros y los Sucesores y los libros cosechados sobre este tema."
+relations:
+  - { type: mentions, target: concept/ritha-wal-nay, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6025 (book 43 hadith 83); matn excerpt of at most 55 words, honorific formulas left out; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

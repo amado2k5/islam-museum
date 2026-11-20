@@ -7,9 +7,12 @@ import { sayyiatKindOf, sayyiatSignalsOf } from "./sayyiat.js";
 import { halalKindOf, halalSignalsOf, halalSubjectsOf, halalSubjectsOfText, halalFold, HALAL_SUBJECTS } from "./halal.js";
 import { hududKindOf, hududSignalsOf } from "./hudud.js";
 import { arkanHitsOfText, arkanFold, arkanSignalsOf, arkanTopicsOf, ARKAN_QURAN } from "./arkan.js";
+import { ahkamHitsOfText, ahkamFold, ahkamSignalsOf, ahkamTopicsOf, AHKAM_QURAN, AHKAM_SCALE, AHKAM_TOPICS } from "./ahkam.js";
 import { hasanatKindOf, hasanatSignalsOf } from "./hasanat.js";
 import { hisabFold, hisabKindsOfSignals, hisabSignalsOfText } from "./hisab.js";
 import { mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf } from "./mukatabat.js";
+import { juhaKindOf, juhaSignalsOf } from "./juha.js";
+import { rithaKindOf, rithaSignalsOf } from "./ritha.js";
 import { munazaratKindOf, munazaratOpponentOf, munazaratSignalsOf } from "./munazarat.js";
 import { narKindOf, narSignalsOf } from "./nar.js";
 import { jannaKindOf, jannaSignalsOf } from "./janna.js";
@@ -67,7 +70,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "arkan.json", "asma.json", "battles.json", "bayt.json", "bunuwwa.json", "companions.json", "cosmos.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "halal.json", "hasanats.json", "heroes.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "maajim.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "munazarat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiraat.json", "qiyama.json", "qudsi.json", "qurun.json", "sayyiat.json", "screens.json", "sport.json", "tafsir.json", "tibb.json", "trade.json", "ubuwwa.json", "ukhuwwa.json", "ulama.json", "umam.json", "umuma.json", "usra.json", "wasaya.json"]);
+    expect(Object.keys(data).sort()).toEqual(["ahkam.json", "akhlaq.json", "angels.json", "ansab.json", "arkan.json", "asma.json", "battles.json", "bayt.json", "bunuwwa.json", "companions.json", "cosmos.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "halal.json", "hasanats.json", "heroes.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "juha.json", "khulafa.json", "khutab.json", "maajim.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "munazarat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiraat.json", "qiyama.json", "qudsi.json", "qurun.json", "ritha.json", "sayyiat.json", "screens.json", "sport.json", "tafsir.json", "tibb.json", "trade.json", "ubuwwa.json", "ukhuwwa.json", "ulama.json", "umam.json", "umuma.json", "usra.json", "wasaya.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -283,6 +286,58 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(sayyiatSignalsOf(braceletFp as any)).toEqual([]);
     expect(sayyiatSignalsOf(kabiraOnly as any)).toEqual([]);
     expect(sayyiatSignalsOf(pairGated as any)).toEqual(expect.arrayContaining(["kabira", "saghiira", "ijrim"]));
+  });
+
+  it("exports ahkam: the degrees of obligation by corpus and topic, the Qur'an table, gated weak signals, blanked senses, future-book inclusion", () => {
+    const mk = (id: string, work: string, text: string, extra: Record<string, unknown> = {}) => makeNode(id, "passage", { unit: work === "work/quran" ? "ayah" : "hadith", work, text, ...extra });
+    // Qur'an verses enter by the reviewed table only: 2:183 is listed under fard; a verse outside the table is not picked
+    const tableAyah = mk("passage/quran-2-183", "work/quran", "نص الآية من سجلها", { sura: 2, aya: 183 });
+    const offTableAyah = mk("passage/quran-2-8", "work/quran", "نص آية خارج الجدول فيه كلمة واجب", { sura: 2, aya: 8 });
+    const qudsi = mk("passage/bukhari-6502x", "work/sahih-bukhari", "وما تقرب إلي عبدي بشيء أحب إلي مما افترضت عليه وما يزال عبدي يتقرب إلي بالنوافل حتى أحبه");
+    const ghusl = mk("passage/bukhari-879x", "work/sahih-bukhari", "غسل يوم الجمعة واجب على كل محتلم");
+    const siwak = mk("passage/bukhari-887x", "work/sahih-bukhari", "لولا أن أشق على أمتي لأمرتهم بالسواك مع كل صلاة");
+    const qila = mk("passage/bukhari-1477x", "work/sahih-bukhari", "إن الله كره لكم ثلاثا قيل وقال وإضاعة المال وكثرة السؤال");
+    const muhaqqarat = mk("passage/ahmad-x", "work/musnad-ahmad", "إياكم ومحقرات الذنوب");
+    const rukhsa = mk("passage/ahmad-y", "work/musnad-ahmad", "إن الله يحب أن تؤتى رخصه كما يحب أن تؤتى عزائمه");
+    const taa = mk("passage/bukhari-7137x", "work/sahih-bukhari", "من أطاعني فقد أطاع الله ومن عصاني فقد عصى الله");
+    const haram = mk("passage/muslim-1579x", "work/sahih-muslim", "إن الذي حرم شربها حرم بيعها");
+    const futureBook = mk("passage/futurebook-ahkam-1", "work/future-book", "وصلاة الجنازة فرض كفاية إذا قام به البعض سقط عن الباقين", { unit: "chapter", ref: "1" });
+    // false positives: the shares of inheritance, a stipend, a reward falling due, the horse, a purpose clause, a single weak signal
+    const inheritFp = mk("passage/fp-1", "work/future-book", "ألحقوا الفرائض بأهلها فما بقي فلأولى رجل ذكر", { unit: "chapter" });
+    const stipendFp = mk("passage/fp-2", "work/future-book", "وكان عمر قد فرض له في ألفين من العطاء", { unit: "chapter" });
+    const rewardFp = mk("passage/fp-3", "work/future-book", "من فعل ذلك وجبت له الجنة", { unit: "chapter" });
+    const horseFp = mk("passage/fp-4", "work/future-book", "فركب فرسا لأبي طلحة يقال له المندوب", { unit: "chapter" });
+    const purposeFp = mk("passage/fp-5", "work/future-book", "كان يتخولنا بالموعظة كراهية السآمة علينا", { unit: "chapter" });
+    const weakOnly = mk("passage/fp-6", "work/future-book", "دبر كل صلاة مكتوبة", { unit: "chapter" });
+    const concept = { ...makeNode("concept/fard-kifaya", "concept", { kind: "legal" }), tags: ["ahkam-browser", "ahkam-fard-kifaya"] };
+    const compiled = { nodes: [tableAyah, offTableAyah, qudsi, ghusl, siwak, qila, muhaqqarat, rukhsa, taa, haram, futureBook, inheritFp, stipendFp, rewardFp, horseFp, purposeFp, weakOnly, concept, makeNode("work/quran", "work", { genre: ["scripture"] }), makeNode("work/sahih-bukhari", "work", { genre: ["hadith"] }), makeNode("work/sahih-muslim", "work", { genre: ["hadith"] }), makeNode("work/musnad-ahmad", "work", { genre: ["hadith"] }), makeNode("work/future-book", "work", { genre: ["fiqh"] })], edges: [] } as any;
+    const data = featureApiData(compiled);
+    const items = data["ahkam.json"].items;
+    const ids = items.map((i) => i.id);
+    for (const id of ["passage/quran-2-183", "passage/bukhari-6502x", "passage/bukhari-879x", "passage/bukhari-887x", "passage/bukhari-1477x", "passage/ahmad-x", "passage/ahmad-y", "passage/bukhari-7137x", "passage/muslim-1579x", "passage/futurebook-ahkam-1", "concept/fard-kifaya"]) expect(ids).toContain(id);
+    for (const id of ["passage/quran-2-8", "passage/fp-1", "passage/fp-2", "passage/fp-3", "passage/fp-4", "passage/fp-5", "passage/fp-6"]) expect(ids).not.toContain(id);
+    expect(items.find((i) => i.id === "passage/quran-2-183")).toMatchObject({ section: "quran", topics: ["fard"], signals: ["fard:quran-table"] });
+    expect(items.find((i) => i.id === "passage/bukhari-6502x")).toMatchObject({ section: "sunnah", topics: ["fard", "mustahabb"] });
+    expect(items.find((i) => i.id === "passage/bukhari-879x")!.topics).toEqual(expect.arrayContaining(["fard-ayn", "wajib"]));
+    expect(items.find((i) => i.id === "passage/bukhari-887x")).toMatchObject({ topics: ["mustahabb"] });
+    expect(items.find((i) => i.id === "passage/bukhari-1477x")).toMatchObject({ topics: ["makruh"] });
+    expect(items.find((i) => i.id === "passage/ahmad-x")).toMatchObject({ topics: ["saghair"] });
+    expect(items.find((i) => i.id === "passage/ahmad-y")).toMatchObject({ topics: ["mubah"] });
+    expect(items.find((i) => i.id === "passage/bukhari-7137x")).toMatchObject({ topics: ["taat"] });
+    expect(items.find((i) => i.id === "passage/muslim-1579x")).toMatchObject({ topics: ["haram"] });
+    expect(items.find((i) => i.id === "passage/futurebook-ahkam-1")).toMatchObject({ section: "books" });
+    expect(items.find((i) => i.id === "passage/futurebook-ahkam-1")!.topics).toEqual(expect.arrayContaining(["fard", "fard-kifaya"]));
+    expect(items.find((i) => i.id === "concept/fard-kifaya")).toMatchObject({ section: "curated", topics: ["fard-kifaya"] });
+    expect(data["ahkam.json"].feature).toBe("ahkam-browser");
+    expect(ahkamSignalsOf(weakOnly as any)).toEqual([]);
+    expect(ahkamTopicsOf(qila as any)).toEqual(["makruh"]);
+    // the harvest gate: weak signals never admit
+    expect(ahkamHitsOfText(ahkamFold("دبر كل صلاة مكتوبة والسمع والطاعة"), true)).toEqual([]);
+    expect(ahkamHitsOfText(ahkamFold("دبر كل صلاة مكتوبة والسمع والطاعة")).length).toBe(3);
+    // every theme of the scale is a theme of the browser, and the table names only real themes
+    for (const d of AHKAM_SCALE) for (const t of d.topics) expect(AHKAM_TOPICS).toContain(t);
+    for (const topics of AHKAM_QURAN.values()) for (const t of topics) expect(AHKAM_TOPICS).toContain(t);
+    expect(AHKAM_QURAN.get("passage/quran-9-122")).toEqual(["fard-kifaya"]);
   });
 
   it("exports arkan: the pillars of Islam and of faith, the branches of faith and the traits of the believer by corpus and topic, the Qur'an table, gated weak signals, future-book inclusion", () => {
@@ -569,6 +624,60 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(mukatabatSignalsOf(bookRefFp as any)).toEqual([]);
   });
 
+
+  it("exports juha: Juha, wits, anecdotes, jests and laughter by corpus and kind, gated false positives, future-book inclusion", () => {
+    const smile = makeNode("passage/quran-27-19x", "passage", { unit: "ayah", work: "work/quran", sura: 27, aya: 19, text: "فتبسم ضاحكا من قولها" });
+    const jest = makeNode("passage/tirmidhi-9990x", "passage", { unit: "hadith", work: "work/jami-al-tirmidhi", ref: "9990x", text: "أن النبي قال له يا ذا الأذنين قال أبو أسامة يعني مازحه" });
+    const ethics = makeNode("passage/abudawud-9991x", "passage", { unit: "hadith", work: "work/sunan-abi-dawud", ref: "9991x", text: "ويل للذي يحدث فيكذب ليضحك به القوم ويل له ويل له" });
+    const juhaTale = makeNode("passage/akhbar-hamqa-9x", "passage", { unit: "chapter", work: "work/akhbar-al-humaqa", ref: "9x", text: "ومنهم جحا ويكنى أبا الغصن وقد روي عنه ما يدل على فطنة وذكاء" });
+    const anecdote = makeNode("passage/nawadir-juha-9999x", "passage", { unit: "chapter", work: "work/nawadir-juha-al-kubra", ref: "9999x", text: "استعار قدرا من جاره ثم ردها ومعها قدر صغيرة" });
+    const rajih = makeNode("passage/fiqh-9992x", "passage", { unit: "chapter", work: "work/al-mughni", ref: "9992x", text: "وهذا القول أرجحا عند الجمهور والنادر لا حكم له وطرفة عين" });
+    const dahhak = makeNode("passage/tafsir-9993x", "passage", { unit: "chapter", work: "work/tafsir-ibn-kathir", ref: "9993x", text: "قال الضحاك بن مزاحم عن ابن عباس في هذه الآية" });
+    const mughaffal = makeNode("passage/nasai-9994x", "passage", { unit: "hadith", work: "work/sunan-al-nasai", ref: "9994x", text: "عن عبد الله بن مغفل قال دلي جراب من شحم يوم خيبر" });
+    const curated = { ...makeNode("person/juha-abu-al-ghusn", "person", {}), tags: ["juha-browser", "juha-kind-juha"] };
+    const mine = [smile, jest, ethics, juhaTale, anecdote, rajih, dahhak, mughaffal, curated];
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, ...mine] });
+    const items = data["juha.json"].items;
+    expect(items.map((i) => i.id).filter((id) => mine.some((n) => n.id === id)).sort()).toEqual(["passage/abudawud-9991x", "passage/akhbar-hamqa-9x", "passage/nawadir-juha-9999x", "passage/quran-27-19x", "passage/tirmidhi-9990x", "person/juha-abu-al-ghusn"]);
+    expect(items.find((i) => i.id === "passage/quran-27-19x")).toMatchObject({ section: "quran", juha_kind: "laughter" });
+    expect(items.find((i) => i.id === "passage/tirmidhi-9990x")).toMatchObject({ section: "sunnah", juha_kind: "jest" });
+    expect(items.find((i) => i.id === "passage/abudawud-9991x")).toMatchObject({ section: "sunnah", juha_kind: "ethics" });
+    expect(items.find((i) => i.id === "passage/akhbar-hamqa-9x")).toMatchObject({ section: "books", juha_kind: "juha" });
+    expect(items.find((i) => i.id === "passage/nawadir-juha-9999x")).toMatchObject({ section: "juha", juha_kind: "juha" });
+    expect(items.find((i) => i.id === "person/juha-abu-al-ghusn")).toMatchObject({ section: "curated", juha_kind: "juha" });
+    expect(data["juha.json"].feature).toBe("juha-browser");
+    expect(juhaKindOf(smile as any)).toBe("laughter");
+    expect(juhaSignalsOf(rajih as any)).toEqual([]);
+    expect(juhaSignalsOf(dahhak as any)).toEqual([]);
+    expect(juhaSignalsOf(mughaffal as any)).toEqual([]);
+  });
+
+  it("exports ritha: elegies, death announcements, condolences and weeping by corpus and kind, gated false positives, future-book inclusion", () => {
+    const istirja = makeNode("passage/quran-2-156", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 156, text: "x" });
+    const elegy = makeNode("passage/futurebook-ritha-1", "passage", { unit: "chapter", work: "work/future-adab", ref: "1", text: "فقال حسان يرثي النبي بعد وفاته أبياتا يبكيه فيها" });
+    const nay = makeNode("passage/bukhari-8801x", "passage", { unit: "hadith", work: "work/sahih-bukhari", ref: "8801x", text: "أن النبي نعى جعفرا وزيدا قبل أن يجيء خبرهم وعيناه تذرفان" });
+    const taziya = makeNode("passage/muslim-8802x", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "8802x", text: "ارجع فأخبرها إن لله ما أخذ وله ما أعطى وكل شيء عنده بأجل مسمى فلتصبر" });
+    const wail = makeNode("passage/muslim-8803x", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "8803x", text: "نهانا عن النياحة على الميت وضرب الخدود وشق الجيوب" });
+    const inherit = makeNode("passage/muwatta-8804x", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "8804x", text: "فمات ورثته أمه وورثاه أبوه حقهما في الميراث" });
+    const takhrij = makeNode("passage/book-8805x", "passage", { unit: "chapter", work: "work/future-adab", ref: "2", text: "والحديث عزاه السيوطي في الجامع الكبير لابن شاهين" });
+    const describe_ = makeNode("passage/book-8806x", "passage", { unit: "chapter", work: "work/future-adab", ref: "3", text: "وينعتونه مثل ما نعته لك ويقولون هذا الدين" });
+    const futureWork = makeNode("work/future-adab", "work", { genre: ["adab"] });
+    const curated = { ...makeNode("concept/ritha-wal-nay", "concept", { kind: "social" }), tags: ["ritha-browser", "ritha-kind-ritha"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, istirja, elegy, nay, taziya, wail, inherit, takhrij, describe_, futureWork, curated] });
+    const items = data["ritha.json"].items;
+    const ids = items.map((i) => i.id);
+    for (const id of ["passage/quran-2-156", "passage/futurebook-ritha-1", "passage/bukhari-8801x", "passage/muslim-8802x", "passage/muslim-8803x", "concept/ritha-wal-nay"]) expect(ids).toContain(id);
+    for (const id of ["passage/muwatta-8804x", "passage/book-8805x", "passage/book-8806x"]) expect(ids).not.toContain(id); // inheritance, takhrij and «نعت» the description
+    expect(items.find((i) => i.id === "passage/quran-2-156")).toMatchObject({ section: "quran", ritha_kind: "taziya" });
+    expect(items.find((i) => i.id === "passage/futurebook-ritha-1")).toMatchObject({ section: "books", ritha_kind: "ritha" });
+    expect(items.find((i) => i.id === "passage/bukhari-8801x")).toMatchObject({ section: "sunnah", ritha_kind: "nay" });
+    expect(items.find((i) => i.id === "passage/muslim-8802x")).toMatchObject({ section: "sunnah", ritha_kind: "taziya" });
+    expect(items.find((i) => i.id === "passage/muslim-8803x")).toMatchObject({ ritha_kind: "bukaa" });
+    expect(items.find((i) => i.id === "concept/ritha-wal-nay")).toMatchObject({ section: "curated", ritha_kind: "ritha" });
+    expect(featureApiData(compiled)["ritha.json"].feature).toBe("ritha-browser");
+    expect(rithaKindOf(elegy as any)).toBe("ritha");
+    expect(rithaSignalsOf(inherit as any)).toEqual([]);
+  });
 
   it("exports munazarat: detected debates by corpus, kind and opponent, gated false positives, future-book inclusion", () => {
     const mubahalaAyah = makeNode("passage/quran-3-61x", "passage", { unit: "ayah", work: "work/quran", sura: 3, aya: 61, text: "فمن حاجك فيه من بعد ما جاءك من العلم فقل تعالوا ندع أبناءنا وأبناءكم ونساءنا ونساءكم وأنفسنا وأنفسكم ثم نبتهل فنجعل لعنة الله على الكاذبين" });

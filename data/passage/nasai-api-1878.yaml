@@ -1,0 +1,18 @@
+id: passage/nasai-api-1878
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1878"
+label: { ar: "سنن النسائي 1878 — نعي وإخبار بوفاة", en: "Sunan al-Nasa'i 1878 — a death announcement", ur: "سنن النسائی 1878 — وفات کی خبر", fr: "Sunan al-Nasa'i 1878 — une annonce de décès", es: "Sunan al-Nasa'i 1878 — un anuncio de fallecimiento" }
+text: "أَخْبَرَنَا إِسْحَاقُ، قَالَ أَنْبَأَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ أَيُّوبَ، عَنْ حُمَيْدِ بْنِ هِلاَلٍ، عَنْ أَنَسٍ، أَنَّ رَسُولَ اللَّهِ نَعَى زَيْدًا وَجَعْفَرًا قَبْلَ أَنْ يَجِيءَ خَبَرُهُمْ فَنَعَاهُمْ وَعَيْنَاهُ تَذْرِفَانِ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 1878، فيه نعي وإخبار بوفاة. يجمعه متصفح أشهر ما قيل في الرثاء والنعي مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين وما في الكتب المحصودة في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 1878 (The Book of Funerals), that carries a death announcement. The Elegy and Death-Announcement Browser lists it with the texts of the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors and the harvested books on this subject."
+  ur: "سنن النسائی کی حدیث نمبر 1878، جس میں وفات کی خبر ہے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے قرآن، سنت، سیرت، صحابہ و تابعین کے آثار اور جمع شدہ کتابوں کی عبارتوں کے ساتھ درج کرتا ہے۔"
+  fr: "Un récit dans Sunan al-Nasa'i, n° 1878, qui contient une annonce de décès. Le navigateur des élégies et des annonces de décès le recense avec les textes du Coran, de la Sunna, de la sîra, les récits des Compagnons et des Successeurs et les livres moissonnés sur ce sujet."
+  es: "Un relato en Sunan al-Nasa'i, n.º 1878, que contiene un anuncio de fallecimiento. El navegador de elegías y anuncios de fallecimiento lo recoge junto con los textos del Corán, la Sunna, la sira, los relatos de los Compañeros y los Sucesores y los libros cosechados sobre este tema."
+relations:
+  - { type: mentions, target: concept/ritha-wal-nay, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1878 (book 21 hadith 61); matn excerpt of at most 55 words, honorific formulas left out; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

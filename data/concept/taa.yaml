@@ -1,0 +1,43 @@
+id: concept/taa
+class: concept
+kind: legal
+label:
+  ar: "الطاعة والطاعات"
+  en: "Obedience and the acts of obedience (ta'a)"
+  ur: "اطاعت اور طاعات"
+  fr: "L'obéissance et les actes d'obéissance (ta'a)"
+  es: "La obediencia y los actos de obediencia (ta'a)"
+summary:
+  ar: "الطاعة امتثال أمر الله ورسوله، وجمعها الطاعات، ويقابلها في النصوص المعصية. يأمر بها القرآن في مواضع كثيرة منها [[passage/quran-4-59|النساء 59]]، ويجعل طاعة الرسول طاعة لله في [[passage/quran-4-80|النساء 80]]. وفي الحديث «من أطاعني فقد أطاع الله» {cite:hadith-api-fawazahmed0 Bukhari 2956}، وفي حدّها «لا طاعة في معصية، إنما الطاعة في المعروف» {cite:hadith-api-fawazahmed0 Bukhari 7257}. يضعها المتصفح فوق درجتي الفعل، الواجب والمندوب."
+  en: "Obedience (taa) is compliance with the command of God and His Messenger, and its plural is acts of obedience (taat); its counterpart in the texts is disobedience. The Qur'an commands it in many places, among them [[passage/quran-4-59|al-Nisa' 59]], and makes obedience to the Messenger obedience to God in [[passage/quran-4-80|al-Nisa' 80]]. In the hadith, \"Whoever obeys me has obeyed God\" {cite:hadith-api-fawazahmed0 Bukhari 2956}, and as its limit, \"There is no obedience in disobedience; obedience is only in what is right\" {cite:hadith-api-fawazahmed0 Bukhari 7257}. The browser places it above the two degrees of the act, the obligatory and the recommended."
+  ur: "طاعت اللہ اور اس کے رسول کے حکم کی تعمیل ہے، اور اس کی جمع طاعات ہے، اور نصوص میں اس کے مقابل معصیت ہے۔ قرآن بہت سے مقامات پر اس کا حکم دیتا ہے جن میں [[passage/quran-4-59|النساء 59]] بھی ہے، اور [[passage/quran-4-80|النساء 80]] میں رسول کی اطاعت کو اللہ کی اطاعت قرار دیتا ہے۔ حدیث میں ہے «جس نے میری اطاعت کی اس نے اللہ کی اطاعت کی» {cite:hadith-api-fawazahmed0 Bukhari 2956}، اور اس کی حد کے بارے میں «معصیت میں کوئی اطاعت نہیں، اطاعت تو صرف معروف میں ہے» {cite:hadith-api-fawazahmed0 Bukhari 7257}۔ براؤزر اسے فعل کے دو درجوں، واجب اور مندوب، کے اوپر رکھتا ہے۔"
+  fr: "L'obéissance (taa) est la conformité à l'ordre de Dieu et de son Messager, et son pluriel est les actes d'obéissance (taat) ; son pendant dans les textes est la désobéissance. Le Coran l'ordonne en de nombreux endroits, dont [[passage/quran-4-59|al-Nisa' 59]], et fait de l'obéissance au Messager une obéissance à Dieu en [[passage/quran-4-80|al-Nisa' 80]]. Dans le hadith : « Qui m'obéit a obéi à Dieu » {cite:hadith-api-fawazahmed0 Bukhari 2956}, et pour sa limite : « Il n'y a pas d'obéissance dans la désobéissance ; l'obéissance n'est que dans ce qui est convenable » {cite:hadith-api-fawazahmed0 Bukhari 7257}. Le navigateur la place au-dessus des deux degrés de l'acte, l'obligatoire et le recommandé."
+  es: "La obediencia (taa) es la conformidad con la orden de Dios y de su Mensajero, y su plural es los actos de obediencia (taat); su contrapartida en los textos es la desobediencia. El Corán la ordena en muchos lugares, entre ellos [[passage/quran-4-59|al-Nisa' 59]], y hace de la obediencia al Mensajero obediencia a Dios en [[passage/quran-4-80|al-Nisa' 80]]. En el hadiz: «Quien me obedece ha obedecido a Dios» {cite:hadith-api-fawazahmed0 Bukhari 2956}, y sobre su límite: «No hay obediencia en la desobediencia; la obediencia es solo en lo que es justo» {cite:hadith-api-fawazahmed0 Bukhari 7257}. El explorador la sitúa por encima de los dos grados del acto, lo obligatorio y lo recomendado."
+wings: [ideas]
+themes:
+- law-and-courts
+- worship-and-the-pillars
+regions:
+- global
+relations:
+- { type: related_to, target: concept/al-ahkam-al-taklifiyya, sources: [source/tanzil-quran] }
+- { type: related_to, target: concept/masiya, sources: [source/tanzil-quran] }
+- { type: related_to, target: concept/taat-wulat-al-amr, sources: [source/tanzil-quran] }
+- { type: related_to, target: concept/fard, sources: [source/tanzil-quran] }
+- { type: related_to, target: concept/nawafil, sources: [source/tanzil-quran] }
+provenance:
+  layer: own-research
+  source: "آيات الطاعة من سجلات تنزيل ووصفها بألفاظ المتحف؛ البخاري 2956 و7257 من نسخة hadith-api العربية؛ البخاري 6502 ومسلم 1337 من سجلي المقطعين؛ مقتطف فتح الباري لابن رجب من سجل المقطع"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: ahkam-browser-1
+sources:
+- source/tanzil-quran
+- source/hadith-api-fawazahmed0
+- source/sahih-al-bukhari
+- source/sahih-muslim
+status:
+  review: published
+  completeness: 3
+  generated_by: "Claude Code (claude-fable-5-2); the Arabic is written from the cited pages of the scanned books (machine-read, checked by the agent against the page text) and from the passage records; verses are referenced, never typed; the English, Urdu, French and Spanish are machine translations not read by a person"
+tags: [ahkam-browser, ahkam-taat]

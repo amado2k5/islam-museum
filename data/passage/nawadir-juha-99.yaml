@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-99
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "50:99"
+label: { ar: "نوادر جحا الكبرى، ص 50 — «وهنا مرحاض»", en: "Nawadir Juha al-Kubra, p. 50 — 'And Here a Latrine'", ur: "نوادر جحا الکبریٰ، ص 50 — «اور یہاں بیت الخلا»", fr: "Nawadir Juha al-Kubra, p. 50 — « Et ici, des latrines »", es: "Nawadir Juha al-Kubra, p. 50 — «Y aquí, una letrina»" }
+text: "نوادر جحا الكبرى وهنا مِزْحاض جاء ببنَّاءٍ ليبني له داراً، فأخذ الرجل يشير عليه ويقول له: نبني هنا غرفة، وهنا إيواناً، وهناك بيت مؤونة، وأخذ يطلع وينزل من الطابق العلوي إلى السفلي، وفيما هو كذلك خرج منه ريح فقال له …"
+summary:
+  ar: "سأل بنّاء جحا أين يضع الغرف، فلما أطلق جحا ريحًا وهو يصعد وينزل قال أن يبني هنا مرحاضًا أيضًا. {cite:juha-nawadir-kubra-djuwaydi p. 50}"
+  en: "A builder asks Juha where to place rooms; when Juha breaks wind while going up and down, he says to build a latrine here too. {cite:juha-nawadir-kubra-djuwaydi p. 50}"
+  ur: "ایک معمار نے جحا سے پوچھا کہ کمرے کہاں بنائے؛ جحا اوپر نیچے آتے جاتے ہوا خارج کرنے لگا تو اس نے کہا کہ یہاں بیت الخلا بھی بنا دو۔ {cite:juha-nawadir-kubra-djuwaydi p. 50}"
+  fr: "Un maçon demande à Juha où placer les pièces ; quand Juha lâche un vent en montant et en descendant, il dit de construire aussi des latrines ici. {cite:juha-nawadir-kubra-djuwaydi p. 50}"
+  es: "Un albañil pregunta a Juha dónde colocar las habitaciones; cuando Juha suelta una ventosidad al subir y bajar, dice que se construya aquí también una letrina. {cite:juha-nawadir-kubra-djuwaydi p. 50}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 50, anecdote 99; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

@@ -1,0 +1,18 @@
+id: passage/nasai-api-1932
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1932"
+label: { ar: "سنن النسائي 1932 — رثاء وثناء على ميت", en: "Sunan al-Nasa'i 1932 — an elegy or praise of the dead", ur: "سنن النسائی 1932 — مرثیہ یا میت کی تعریف", fr: "Sunan al-Nasa'i 1932 — une élégie ou un éloge du défunt", es: "Sunan al-Nasa'i 1932 — una elegía o elogio del difunto" }
+text: "أَخْبَرَنِي زِيَادُ بْنُ أَيُّوبَ، قَالَ حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنَا عَبْدُ الْعَزِيزِ، عَنْ أَنَسٍ، قَالَ مُرَّ بِجَنَازَةٍ فَأُثْنِيَ عَلَيْهَا خَيْرًا فَقَالَ النَّبِيُّ \" وَجَبَتْ \". وَمُرَّ بِجَنَازَةٍ أُخْرَى فَأُثْنِيَ عَلَيْهَا شَرًّا فَقَالَ النَّبِيُّ \" وَجَبَتْ \". فَقَالَ عُمَرُ فِدَاكَ أَبِي وَأُمِّي مُرَّ بِجَنَازَةِ فَأُثْنِيَ عَلَيْهَا خَيْرًا فَقُلْتَ \" وَجَبَتْ \". وَمُرَّ بِجَنَازَةٍ فَأُثْنِيَ عَلَيْهَا شَرًّا فَقُلْتَ …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 1932، فيه رثاء وثناء على ميت. يجمعه متصفح أشهر ما قيل في الرثاء والنعي مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين وما في الكتب المحصودة في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 1932 (The Book of Funerals), that carries an elegy or praise of the dead. The Elegy and Death-Announcement Browser lists it with the texts of the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors and the harvested books on this subject."
+  ur: "سنن النسائی کی حدیث نمبر 1932، جس میں مرثیہ یا میت کی تعریف ہے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے قرآن، سنت، سیرت، صحابہ و تابعین کے آثار اور جمع شدہ کتابوں کی عبارتوں کے ساتھ درج کرتا ہے۔"
+  fr: "Un récit dans Sunan al-Nasa'i, n° 1932, qui contient une élégie ou un éloge du défunt. Le navigateur des élégies et des annonces de décès le recense avec les textes du Coran, de la Sunna, de la sîra, les récits des Compagnons et des Successeurs et les livres moissonnés sur ce sujet."
+  es: "Un relato en Sunan al-Nasa'i, n.º 1932, que contiene una elegía o elogio del difunto. El navegador de elegías y anuncios de fallecimiento lo recoge junto con los textos del Corán, la Sunna, la sira, los relatos de los Compañeros y los Sucesores y los libros cosechados sobre este tema."
+relations:
+  - { type: mentions, target: concept/ritha-wal-nay, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1932 (book 21 hadith 115); matn excerpt of at most 55 words, honorific formulas left out; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

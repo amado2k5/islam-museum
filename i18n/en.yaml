@@ -830,6 +830,7 @@ reader:
   credit_source: source page
   translation_title: Verse-by-verse translation
   translation_credit: 'Translation: {tr}; public domain, distributed by the Tanzil Project.'
+  translation_credit_quranenc: "Translation: {tr}. Published by QuranEnc.com, version {v}; reproduced unchanged under that site's terms, not public domain."
   juz_nav: The thirty juz' of the mushaf
   juz_n: Juz {n}
   juz_starts: Juz {n} begins at
@@ -1829,6 +1830,10 @@ explore:
       title: "Pillars of Islam, Pillars of Faith, Branches of Faith and Traits of the Believer Browser"
       desc: "Every mention of the five pillars of Islam, the six pillars of faith, the seventy-odd branches of faith and the traits of the believer in the Qur'an, the Sunnah, the seerah, the reports of the Companions and Successors and every harvested book, each verse and report with its source."
       menu: "Browse the pillars of Islam and faith, the branches of faith and the traits of the believer"
+    ahkam:
+      title: "Rulings Browser: Obligations, Recommended, Disliked and Forbidden Acts"
+      desc: "Every mention of the obligations, individual and communal, the acts of obedience, the obligatory, the recommended, the forbidden, the disliked, the minor sins and the permitted in the Qur'an, the Sunnah, the seerah, the reports of the Companions and Successors and the books of usul and fiqh, each verse and report with its source."
+      menu: "Browse the obligations, the recommended, the disliked, the forbidden and the minor sins"
     halal:
       title: "Halal and Haram Browser"
       desc: "Every mention of the lawful and the unlawful in Islam — what God permitted and what He forbade in food, drink, dress, marriage and earnings — in the Qur'an, the Sunnah, the seerah, the reports of the Companions and Successors and every harvested book, with detailed records on its principles and chapters."
@@ -1849,6 +1854,14 @@ explore:
       title: "Munazarat Browser"
       desc: "Every mention of debates and disputations in the Qur'an, the Sunnah, the seerah and every harvested book — Ibrahim's arguments with his people and Nimrod, the mubahala with the Christians of Najran, the exchange before the Negus, Ibn Abbas's debate with the Khawarij — with every verse and report cited."
       menu: "Browse the debates and disputations in the Qur'an and books"
+    ritha:
+      title: "Elegy and Death-Announcement Browser"
+      desc: "Everything said in elegy, death announcement, condolence and weeping over the dead in the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors and every harvested book — the istirja', the Prophet's «to God belongs what He took and what He gave», the announcements of Ja'far, Zayd, Ibn Rawaha and the Negus, the elegies of Hassan and Ka'b ibn Malik, and the limits of wailing — with every verse and report cited."
+      menu: "Browse the famous words of elegy, death announcement and condolence"
+    juha:
+      title: "Juha and Islamic Folklore Browser"
+      desc: "Juha, Nasreddin Hoca, Ash'ab and Nu'ayman, and the anecdotes, witty tales, jests and laughter in the Qur'an, the Sunnah, the seerah and the harvested books of adab and history — every verse, report and anecdote with its source."
+      menu: "Browse Juha, anecdotes, witty tales and jests in the Qur'an, the Sunnah and the books"
     magic:
       title: "Magic and Magicians Browser"
       desc: "Every mention of magic and the magicians in the Qur'an, the Sunnah, the seerah and every harvested book — sorcery, soothsayers, ruqyah, the evil eye and envy — with every verse and report cited."
@@ -4569,6 +4582,127 @@ sayyiat:
     sunnah_note: "{n} hadith collections have a passage here, the fullest first."
     count_in: "{n} passages"
     count_split: "{n} passages: {a} with the word, {r} on the wider theme"
+ahkam:
+  title: "Rulings Browser: Obligations, Acts of Obedience, Recommended, Disliked and Forbidden Acts, and Minor Sins"
+  lede: "One browser for the degrees of obligation: the obligations (fara'id), the obligation on every person (fard 'ayn) and the obligation on the community (fard kifaya), the acts of obedience, the obligatory (wajibat), the recommended (mustahabbat), the forbidden (muharramat), the disliked (makruhat), the minor sins, and what remains of the scale, the permitted and the concession. It gathers every place these are named in the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors, and the books of usul and fiqh the museum has harvested. The museum describes what the texts and the jurists say; it issues no ruling."
+  badge: "Degrees of obligation explorer"
+  status: "This build holds {n} records in {s} sections, each cited to its source."
+  method_title: "How the browser works"
+  method_note: "Every record here is an ordinary museum record with its sources. Qur'an verses come from a reviewed table of the verses whose own wording carries a theme ('prescribed for you', 'an obligation from God', 'obey God', 'forbidden to you', 'no blame on you'); a verse's text is the frozen Tanzil text of its record. Every other passage is found at build time by a guarded word list, so a book harvested later appears here the day its passages land. A bare prohibition ('he forbade') is not classed: whether it is forbidding or dislike is a jurist's reading, so such a report is listed only when its own wording names the degree. Excerpts from scanned books are machine-read and not corrected, and the translations are machine-made and not yet read by a person. Where the schools differ, as on the Hanafi distinction between fard and wajib, the records say so and name each view."
+  api: "The full dataset is available at"
+  sections_title: "Sections"
+  filter_label: "Filter the records"
+  filter_none: "No matching results."
+  empty: "No records under this theme in this build yet."
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The verses whose wording carries a theme: what is prescribed and ordained, the commands to obey God and His Messenger, what is due from the God-fearing, the voluntary good, what is forbidden, what is hateful, the small faults, and the verses of no blame, permission and ease."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "Hadiths of the two Sahihs, the Sunan and the Muwatta: what God made obligatory and what the Messenger ordained, the voluntary beside the obligatory, 'were it not that I would burden my community', what was disliked, the concessions, the sins held to be slight, and the jurists' remarks the collections carry."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah books carry on these themes: the teaching of the delegations, the letters on the obligatory alms, the first obligations and the easing of others."
+    books:
+      title: "In other books"
+      desc: "The books of usul al-fiqh that define the degrees (al-Shafi'i's Risala, al-Juwayni's Burhan, al-Ghazali's Mustasfa, al-Shatibi's Muwafaqat, al-Shawkani's Irshad al-Fuhul), the books of fiqh of the four schools, the hadith commentaries, the reports of the Companions and the Successors, and whatever is harvested next."
+    curated:
+      title: "Records on the degrees of obligation"
+      desc: "The museum's own records on the themes: the five rulings together, the obligation and its two kinds, obedience, the obligatory, the recommended, the forbidden, the disliked, the permitted, the concession and the minor sins."
+  topics:
+    fard:
+      title: "The obligations (al-furud)"
+      desc: "Everything in the museum's sources that names an obligation: what God made obligatory, what His Messenger ordained, 'prescribed for you', the fara'id, and the jurists' fard."
+      definition: "In the books of usul the fard is, for the majority, another name for the wajib: the act whose doer is praised and whose omitter is blamed. The Hanafis keep fard for what a decisive proof establishes and wajib for what rests on a probable one."
+      scope: "Listed here: texts that use the words fard, farida and fara'id, 'God made obligatory', 'made obligatory on', and 'prescribed for you'. The shares of inheritance (also called fara'id), a stipend and a dower 'assigned' are left out."
+    fard-ayn:
+      title: "The individual obligation (fard 'ayn)"
+      desc: "Everything in the museum's sources on the duty each person owes and no one can discharge for another: 'an obligation on every Muslim', 'obligatory on every adult', and the jurists' fard 'ayn."
+      definition: "What is asked of every accountable person in his own right, so that one person's doing it does not lift it from another: the five prayers, the fast, the alms, the pilgrimage for whoever is able."
+      scope: "Listed here: texts that use the term, and texts that lay a duty 'on every Muslim' or 'on every adult'. The Qur'an does not use the term; the verses of each act are under the obligations."
+    fard-kifaya:
+      title: "The communal obligation (fard kifaya)"
+      desc: "Everything in the museum's sources on the duty that rests on the community: when some carry it out sufficiently the rest are free of blame, and when none does all are at fault."
+      definition: "What the Lawgiver wants done without regard to who does it: the funeral prayer, the returning of a greeting, deep study of the religion, jihad when the sufficient number goes out. Al-Shafi'i sets it out in al-Risala from two verses."
+      scope: "Listed here: texts that use the term or state its rule ('when some carry it out it falls from the rest'), and the two verses al-Shafi'i reads it from."
+    taat:
+      title: "The acts of obedience (al-ta'at)"
+      desc: "Everything in the museum's sources on obedience to God and His Messenger and on the acts of obedience: 'obey God and obey the Messenger', 'whoever obeys me has obeyed God', 'no obedience in disobedience; obedience is only in what is right'."
+      definition: "The texts set obedience against disobedience: 'whoever obeys me has obeyed God, and whoever disobeys me has disobeyed God', and they set its limit: 'obedience is only in what is right'. The browser places it over the two degrees of doing, the obligatory and the recommended."
+      scope: "Listed here: texts that command or praise obedience to God and His Messenger and texts that name the acts of obedience. Obedience to those in authority ('hearing and obeying') counts only beside one of these."
+    wajib:
+      title: "The obligatory acts (al-wajibat)"
+      desc: "Everything in the museum's sources that uses the word wajib and its verbs: 'obligatory on', 'it is due from every Muslim', 'had I said yes it would have become obligatory', and the jurists' wujub."
+      definition: "The wajib is the act whose doer is praised and whose omitter is blamed (al-Shawkani). It is divided into the specified and the optional, the narrow and the wide in time, and the individual and the communal."
+      scope: "Listed here: texts that use wajib, wujub, 'it is obligatory on' and 'a right due from'. 'Paradise became due to him' and a sale 'concluded' are left out."
+    mustahabb:
+      title: "The recommended acts (al-mustahabbat)"
+      desc: "Everything in the museum's sources on what is asked for without being imposed: the mustahabb and the mandub, the nafila and the voluntary act, the emphasised sunnas, and what the Prophet left unimposed for fear of hardship."
+      definition: "The mandub is what the Lawgiver asks for without attaching blame to leaving it; its doing is better than its leaving. The jurists call it sunna, mustahabb, nafl and tatawwu', mostly in one sense."
+      scope: "Listed here: texts that use these words, texts that say an act is 'not obligatory', and 'were it not that I would burden my community'. The Sunna as a source of law has its own records."
+    haram:
+      title: "The forbidden acts (al-muharramat)"
+      desc: "Everything in the museum's sources that names the forbidden: 'forbidden to you', 'God forbade', 'it is not lawful', the muharramat and the inviolable things of God."
+      definition: "The haram, also called the mahzur, is what the Lawgiver asks to be left with a warning of punishment for doing it."
+      scope: "Listed here: the same passages the Halal and Haram Browser reads on the unlawful side, with one word list, so the two never disagree. The sanctuary, the state of ihram and the personal name Haram are left out. A bare 'he forbade' is not classed."
+    makruh:
+      title: "The disliked acts (al-makruhat)"
+      desc: "Everything in the museum's sources on what is better left: the makruh and karaha, 'he used to dislike', 'God disliked for you', a prohibition 'not made firm', and what the jurists disliked."
+      definition: "The makruh is what the Lawgiver asks to be left without a warning of punishment; leaving it is better than doing it. Al-Ghazali notes the word is also used for the forbidden and for leaving the better course; the Hanafis divide it into what is near the forbidden and what is a mere blemish."
+      scope: "Listed here: texts that use makruh and karaha and reports of habitual dislike. Dislike as a feeling ('whoever dislikes meeting God'), coercion and 'for fear that' clauses are left out."
+    saghair:
+      title: "The minor sins (sagha'ir al-dhunub)"
+      desc: "Everything in the museum's sources on the small sins: the lamam, the sins held to be slight, what the prayers and the avoidance of the major sins expiate, and the warning against persisting."
+      definition: "The minor sins are those below the major ones; the jurists differ on the line between them. The museum's record sets out the definitions, and the major sins are in the Hudud and Kaba'ir Browser."
+      scope: "Listed here: texts that name the small sins, the lamam and the slighted sins, and texts on what is expiated 'so long as the major sins are avoided'. 'The young and the old' is left out."
+    mubah:
+      title: "And the rest: the permitted and the concession"
+      desc: "What remains of the scale: the mubah, the concession (rukhsa) beside the original rule ('azima), 'no blame', 'no harm in it', and what was passed over in silence."
+      definition: "The mubah is the act in which the Lawgiver leaves a choice: doing it and leaving it are alike, with no sin in either. The rukhsa is an easing granted for an excuse while the reason for the original rule stands."
+      scope: "Listed here: texts that use mubah, ibaha and rukhsa, 'no blame' and 'no harm in it', and 'what He was silent about is pardoned'. The lawful (halal) as such is in the Halal and Haram Browser."
+  topics_ui:
+    status: "This theme holds {n} records: {c} curated, {q} verses, {s} from the Sunnah, {r} from the seerah and {b} from other books."
+    record: "Read the museum's record on this theme"
+    definition: "In the books of usul:"
+  viz:
+    title: "The scale of the five rulings"
+    note: "The books of usul al-fiqh divide what the Lawgiver says of an act into five. A demand to act is the obligatory when leaving it is blamed and the recommended when it is not; a demand to leave is the forbidden when doing it is blamed and the disliked when it is not; and where there is a choice the act is permitted. The browser's themes stand on the degree they belong to, with the number of records each holds; obedience spans the two degrees of doing, and the minor sins belong to the side of leaving."
+    degree_word: "degree"
+    does: "Doing it"
+    leaves: "Leaving it"
+    count: "{n} records"
+    record: "The record of this degree"
+    axis_do: "asked to be done"
+    axis_choice: "a choice"
+    axis_leave: "asked to be left"
+    degrees:
+      wajib:
+        name: "The obligatory (fard, wajib)"
+        does: "praised"
+        leaves: "blamed"
+      mandub:
+        name: "The recommended (mandub, mustahabb)"
+        does: "praised"
+        leaves: "not blamed"
+      mubah:
+        name: "The permitted (mubah)"
+        does: "neither praised nor blamed"
+        leaves: "neither praised nor blamed"
+      makruh:
+        name: "The disliked (makruh)"
+        does: "not blamed"
+        leaves: "praised"
+      haram:
+        name: "The forbidden (haram)"
+        does: "blamed"
+        leaves: "praised"
+    lanes:
+      taat: "spans the obligatory and the recommended"
+      saghair: "on the side of what is left; the major sins are in the"
+      kabair: "Hudud and Kaba'ir Browser"
+    source: "The division follows al-Ghazali's al-Mustasfa and al-Shawkani's Irshad al-Fuhul, as cited in"
+    source_link: "the museum's record on the five rulings"
 arkan:
   title: "Pillars of Islam, Pillars of Faith, Branches of Faith and Traits of the Believer Browser"
   lede: "Four doors in one browser: the five pillars Islam is built on, the six pillars of faith of the hadith of Jibril, the branches of faith the hadith counts as seventy-odd, and the traits of the believer as the verses and hadiths describe them. The browser gathers every place these four are mentioned in the Qur'an, the Sunnah, the seerah, the reports of the Companions and Successors, and the books of faith, commentary, renunciation and history, and every mention in a book harvested from now on. The museum describes what the sources hold and attributes each saying to its owner; it gives no rulings."
@@ -7237,3 +7371,141 @@ heroes:
     steadfastness:
       name: "Hall of Steadfastness"
       lede: "The world shook and they did not move: 'One, One' beneath the boulder, the longest road to truth, the day the ummah shook, and the unafraid word."
+ritha:
+  title: "Elegy and Death-Announcement Browser"
+  lede: "Everything said in elegy and death announcement in the museum's sources: the verses of patience and the istirja', the Prophet's words at the death of his son and grandson and of the Companions he lost, his announcement of the Negus and of Ja'far, Zayd and Ibn Rawaha, the Companions' condolences to one another, the elegies of Hassan, Ka'b ibn Malik, al-Khansa' and Labid, the reports of the Companions and Successors at the death of those they loved, and the words in the harvested books — whatever is harvested later joins automatically."
+  badge: "Elegy and announcement explorer"
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: "The browser's method"
+  method_note: "Every record here is an ordinary museum record, with its sources and its five-language text. Passages are found at build time by a guarded detector over the passage texts: the words for elegy and the elegy poem, for the death announcement and the announcer, for condolence, the fixed formulas such as the istirja', «to God belongs what He took and what He gave» and «patience is at the first blow», the words of wailing, and weeping only when it stands near a death. Qur'an verses come from a reviewed table, not a lexicon. «Na't» the description, «'azahu ila» in source attribution, «waritha» in inheritance and weeping out of awe of God stay out, verified false positives are excluded by id, every book harvested later brings its passages here automatically, and curated records join through the ritha-browser tag. Each passage is classed as an elegy, a death announcement, a condolence, or weeping and wailing."
+  api: "The whole set is available at"
+  sections_title: "The browser's sections"
+  kinds_title: "Kind"
+  all_kinds: "All kinds"
+  formulas_title: "The famous words and formulas"
+  formulas_note: "The fixed words the community knows at a death; each card opens the shortest passage that carries it, with how many were found in the sources."
+  formula_count: "{n} in the sources"
+  filter_label: "Filter records"
+  filter_none: "No matches."
+  empty: "No records in this build yet."
+  kinds:
+    ritha:
+      title: "Elegy"
+      ar: "رثاء"
+      desc: "Praise of the dead and the recounting of his virtues, in verse and prose, and the elegies of the Companions and poets."
+    nay:
+      title: "Death announcement"
+      ar: "نعي"
+      desc: "Telling the people of a death, such as the Prophet's announcement of Ja'far, Zayd, Ibn Rawaha and the Negus."
+    taziya:
+      title: "Condolence"
+      ar: "تعزية"
+      desc: "Consoling and steadying the bereaved, the istirja', «to God belongs what He took and what He gave», and food for the family of the dead."
+    bukaa:
+      title: "Weeping and wailing"
+      ar: "بكاء ونياحة"
+      desc: "The tears of the eye and the sorrow of the heart that are permitted, and the prohibition of wailing, slapping the cheeks and tearing the garments."
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The verses of patience and the istirja' and every death the Qur'an mentions: the trial of the believers, Ya'qub's grief, every soul tasting death, the description of the martyrs and the soul at peace."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "What the two Sahihs, the Muwatta and the Sunan carry: the announcement of the Negus and Ja'far, the condolence to the Prophet's daughter, his weeping over his son, the prohibition of wailing and the people's praise at a funeral — every report with its source and number."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah books carry: the Prophet's death and the Companions' weeping, Hassan's elegies for the Prophet, Hamza and the martyrs of Mu'ta and Bir Ma'una, and the announcement of Zayd, Ja'far and Ibn Rawaha; this section fills as new seerah texts are harvested."
+    books:
+      title: "In the other books"
+      desc: "The reports of the Companions, the Successors, the historians and the litterateurs: the condolences of Umar and Mu'awiya, the elegies of the poets, the weeping of Abu Bakr and Umar, and the announcement of the caliphs and scholars in the community's histories — classified the day their passages arrive."
+    curated:
+      title: "The curated records"
+      desc: "The museum's own records on elegy, announcement, condolence and wailing, and on the events and poems tied to them: Hassan's elegy for the Prophet, the elegies of the martyrs of Mu'ta, the Prophet's grief over Ja'far, and the death of Ibrahim."
+  formulas:
+    istirja:
+      title: "The istirja' at a loss"
+      note: "The phrase the afflicted say, and Umm Salama's supplication after it."
+    lillah_ma_akhadh:
+      title: "«To God belongs what He took and what He gave»"
+      note: "What the Prophet sent to his daughter as her child lay dying."
+    sadma_ula:
+      title: "«Patience is at the first blow»"
+      note: "The Prophet to a woman weeping at a grave."
+    ajirni:
+      title: "«O God, reward me in my loss»"
+      note: "The supplication of the afflicted as Muslim, Malik and al-Tirmidhi relate it."
+    ayn_tadma:
+      title: "«The eye weeps and the heart grieves»"
+      note: "The Prophet at the death of his son Ibrahim."
+    ya_abatah:
+      title: "«O my father»"
+      note: "The words of Fatima on the day the Prophet died."
+    man_kana_yabudu:
+      title: "«Pure in life and in death»"
+      note: "Abu Bakr at the Prophet's side on the day he died, and his address afterwards."
+    al_jafar:
+      title: "«Make food for Ja'far's family»"
+      note: "The sunna of feeding the family of the dead."
+    nay_najashi:
+      title: "The announcement of the Negus"
+      note: "The Prophet announced him the day he died and prayed over him in absence."
+    adhkuru_mahasin:
+      title: "«Mention the good of your dead»"
+      note: "The root of the permitted elegy and of the people's praise at a funeral."
+  viz:
+    title: "The four mourning banners"
+    note: "Four banners with a black selvedge, one per kind of record: elegy, death announcement, condolence, and weeping and wailing; each shows how many records it carries, a bar of where they were found in the sources and three records to open. Counted here: {n} records, all of them in the lists below. The kinds come from the detector and the curated records, not from a judgement of the museum."
+    region: "Elegy and announcement records by kind and section"
+    col_kind: "Kind"
+juha:
+  title: "Juha and Islamic Folklore Browser"
+  full_title: "Browser of Juha, Islamic folklore through the ages, comedy, jokes, witty tales and anecdotes"
+  lede: "Everything the museum holds on Juha and Islamic folklore through the ages, comedy, jokes, witty tales and anecdotes: the Qur'an's verses on laughter, smiling and the ban on mockery; the Prophet's jesting and laughter and the limits of the joke in the Sunnah; the playfulness of the Companions and Successors in the seerah and the biographies; Juha's anecdotes one by one; and the reports of wits, fools, misers and party-crashers in the books of adab and history."
+  badge: "The gathering of anecdotes"
+  status: "This build holds {n} records in {s} sections; the texts are drafts a reader can check against the sources named on each record."
+  method_title: "The browser's method"
+  method_note: "Every record here is an ordinary museum record with its sources and its five-language text. Passages are found at build time by a guarded detector over the passage texts: Juha's name as a whole word, the named wits such as Ash'ab, Nu'ayman, Muzabbid and Habannaqa, the words for anecdotes and witty tales, the verbs of jesting and banter, the words for laughter and smiling, and the texts on the ethics of the joke. The legal 'rare case', the book title al-Nawadir wa-l-Ziyadat, 'the blink of an eye', the names al-Dahhak and Ibn Mughaffal and the grammarians' adverb stay out. Every book harvested later brings its passages here automatically the day they land in the graph, and curated records join through the juha-browser tag. Juha's anecdotes are retold in the museum's own words from a machine-read scan, and the translations are machine translations no human has read."
+  api: "The whole set is available at"
+  sections_title: "The browser's sections"
+  kinds_title: "Kind of humour"
+  all_kinds: "All kinds"
+  filter_label: "Search the anecdotes"
+  filter_none: "No matches."
+  empty: "No records in this build yet."
+  majlis_title: "The gathering of the wits"
+  majlis_note: "The tellers and heroes of the anecdotes whom the sources name: Juha first, then those beside him in the books of adab and hadith. Each seat opens its full cited record."
+  tales_title: "From Juha's anecdotes"
+  tales_note: "Anecdotes from Nawadir Juha al-Kubra retold in the museum's own words; each bubble opens the anecdote's record with its page number and excerpt."
+  scale_title: "The scale of laughter"
+  scale_note: "What kinds of humour each section carries: a bar is as long as its number of records and coloured by kind, from the same rows the lists below show."
+  scale_caption: "Number of records in each section by kind of humour"
+  scale_total: "Total"
+  shelf_title: "The shelf of anecdote books"
+  shelf_note: "The books that gathered the anecdotes, the witty tales and the reports of wits and fools; each has its record."
+  rider_alt: "Drawing: Juha riding his donkey backwards"
+  kinds:
+    juha: "Juha"
+    wits: "Wits and fools"
+    anecdote: "Anecdote or witty tale"
+    jest: "Jesting and banter"
+    laughter: "Laughter and smiling"
+    ethics: "Ethics of the joke"
+  sections:
+    curated:
+      title: "The curated records"
+      desc: "The museum's own records on the subject: Juha, Nasreddin Hoca, Ash'ab and others, the anecdote books, and the concepts of jesting, laughter and the anecdote."
+    juha:
+      title: "Juha's anecdotes"
+      desc: "Juha's anecdotes one by one from Nawadir Juha al-Kubra: the anecdote's title, its retelling in the museum's own words, its page number and an excerpt of at most forty words."
+    quran:
+      title: "In the Qur'an"
+      desc: "The verses on laughter and smiling: the laughter of Abraham's wife, Solomon's smile at the ant's words, 'He it is who makes laugh and weep', the laughing, rejoicing faces, the laughter of the mockers, and the ban on one people mocking another."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "What the two Sahihs, the Muwatta and the Sunan carry of the Prophet's jesting, laughter and smiling, the Companions' playfulness and the warning to whoever lies to make people laugh — every report with its number and source."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and shama'il books carry of jesting, laughter and playfulness; this section fills itself as new seerah texts land."
+    books:
+      title: "In the other books"
+      desc: "Anecdotes, witty tales and reports of wits, fools and misers in the books of adab, history and biography: Nihayat al-Arab, 'Uyun al-Akhbar, al-Mustatraf, al-Bayan wa-l-Tabyin, al-Hayawan and whatever is harvested later."

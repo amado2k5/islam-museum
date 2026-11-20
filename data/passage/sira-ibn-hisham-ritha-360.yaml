@@ -1,0 +1,18 @@
+id: passage/sira-ibn-hisham-ritha-360
+class: passage
+unit: chapter
+work: work/sira-ibn-ishaq-ibn-hisham
+ref: "360"
+label: { ar: "سيرة ابن إسحاق برواية ابن هشام، ص 360 — رثاء وثناء على ميت", en: "The Sira of Ibn Ishaq in Ibn Hisham's recension, p. 360 — an elegy or praise of the dead", ur: "ابن ہشام کی تجدید میں ابن اسحاق کی سیرت، ص 360 — مرثیہ یا میت کی تعریف", fr: "La Sira d'Ibn Ishaq selon la recension d'Ibn Hisham, p. 360 — une élégie ou un éloge du défunt", es: "La Sira de Ibn Ishaq en la recensión de Ibn Hisham, p. 360 — una elegía o elogio del difunto" }
+text: "… بَعْدُهُ فِي آخِرِ الْعَيْشِ مِنْ نَدَمْ وَجِدُّوا ؛ فَإِنَّ الْمَوْتَ مَكْرُمَةً لَكُمْ وَقَدْ قُلْتُ: إِنَّ الرِّيحَ طَيِّبَةٌ لَكُمْ وَعِزَّ الْمُقَامِ غَيْرَ شَكَّ لِذِي فَهَمْ وقال ابن هشام: وبعض أهل العلم بالشعر ينكرها لضرار. الحارث بن هشام يرثي أخاه أبا جهل …"
+summary:
+  ar: "مقطع من سيرة ابن إسحاق برواية ابن هشام، ص 360، فيه رثاء وثناء على ميت؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر ولم يصحَّح. يجمعه متصفح أشهر ما قيل في الرثاء والنعي."
+  en: "An excerpt from The Sira of Ibn Ishaq in Ibn Hisham's recension, p. 360, that carries an elegy or praise of the dead; from the machine-read scan, quoted within forty words per the sources policy and not corrected. The Elegy and Death-Announcement Browser lists it."
+  ur: "ابن ہشام کی تجدید میں ابن اسحاق کی سیرت، ص 360 کا اقتباس جس میں مرثیہ یا میت کی تعریف ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں اور بغیر تصحیح کے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے درج کرتا ہے۔"
+  fr: "Un extrait de La Sira d'Ibn Ishaq selon la recension d'Ibn Hisham, p. 360, qui contient une élégie ou un éloge du défunt; tiré de la numérisation lue par machine, cité dans la limite de quarante mots selon la politique des sources et non corrigé. Le navigateur des élégies et des annonces de décès le recense."
+  es: "Un extracto de La Sira de Ibn Ishaq en la recensión de Ibn Hisham, p. 360, que contiene una elegía o elogio del difunto; tomado del escaneo leído por máquina, citado dentro de cuarenta palabras según la política de fuentes y sin corregir. El navegador de elegías y anuncios de fallecimiento lo recoge."
+relations:
+  - { type: mentions, target: concept/ritha-wal-nay, sources: [source/ibn-hisham-sira] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/sira-ibn-hisham/20251231_20251231_0914, page 360; a window of at most 40 words chosen by the elegy and death-announcement detector (scripts/ritha.ts); OCR text not corrected; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-ocr-1" }
+sources: [source/ibn-hisham-sira]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words; the excerpt is machine-read and not corrected" }

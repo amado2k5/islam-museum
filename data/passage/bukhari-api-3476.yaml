@@ -1,0 +1,18 @@
+id: passage/bukhari-api-3476
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3476"
+label: { ar: "صحيح البخاري 3476 — الكراهة", en: "Sahih al-Bukhari 3476 — dislike (karaha)", ur: "صحیح بخاری 3476 — کراہت", fr: "Sahih al-Bukhari 3476 — la réprobation (karaha)", es: "Sahih al-Bujari 3476 — la reprobación (karaha)" }
+text: "حَدَّثَنَا آدَمُ، حَدَّثَنَا شُعْبَةُ، حَدَّثَنَا عَبْدُ الْمَلِكِ بْنُ مَيْسَرَةَ، قَالَ سَمِعْتُ النَّزَّالَ بْنَ سَبْرَةَ الْهِلاَلِيَّ، عَنِ ابْنِ مَسْعُودٍ ـ قَالَ سَمِعْتُ رَجُلاً، قَرَأَ، وَسَمِعْتُ النَّبِيَّ يَقْرَأُ خِلاَفَهَا فَجِئْتُ بِهِ النَّبِيَّ فَأَخْبَرْتُهُ فَعَرَفْتُ فِي وَجْهِهِ الْكَرَاهِيَةَ وَقَالَ \" كِلاَكُمَا مُحْسِنٌ، وَلاَ تَخْتَلِفُوا، فَإِنَّ مَنْ كَانَ قَبْلَكُمُ اخْتَلَفُوا فَهَلَكُوا \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3476، يرد فيه ذكر الكراهة. يجمعه متصفح الفروض والواجبات والطاعات والمستحبات والمكروهات والمحرمات وصغائر الذنوب مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب، ويصف المتحف ما في النص ولا يُفتي به."
+  en: "A report in Sahih al-Bukhari, no. 3476 (Prophets), whose wording mentions dislike (karaha). The Rulings Browser (obligations, acts of obedience, recommended, disliked and forbidden acts, and minor sins) lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on these themes; the museum describes what the text says and issues no ruling."
+  ur: "صحیح بخاری کی حدیث نمبر 3476، جس کے الفاظ میں کراہت کا ذکر ہے۔ فرائض، واجبات، طاعات، مستحبات، مکروہات، محرمات اور صغیرہ گناہوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے؛ میوزیم متن کا بیان کرتا ہے، فتویٰ نہیں دیتا۔"
+  fr: "Un récit de Sahih al-Bukhari, n° 3476, dont le texte mentionne la réprobation (karaha). Le Navigateur des statuts légaux (obligations, actes d'obéissance, actes recommandés, réprouvés et interdits, péchés mineurs) le réunit avec les textes du Coran, de la Sunna, de la sîra et les récits des Compagnons et des Suivants sur ces thèmes ; le musée décrit ce que dit le texte et ne rend aucun avis juridique."
+  es: "Un relato de Sahih al-Bujari, n.º 3476, cuyo texto menciona la reprobación (karaha). El Explorador de las calificaciones legales (obligaciones, actos de obediencia, actos recomendados, reprobados y prohibidos, y pecados menores) lo reúne con los textos del Corán, la Sunna, la sira y los relatos de los Compañeros y los Sucesores sobre estos temas; el museo describe lo que dice el texto y no emite ningún dictamen."
+relations:
+  - { type: mentions, target: concept/makruh, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3476 (book 60 hadith 143); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ahkam-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words in five languages (machine-written, not read by a person)" }

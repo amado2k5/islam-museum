@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-30
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "19:30"
+label: { ar: "نوادر جحا الكبرى، ص 19 — «الديك لا يعرف الطريق»", en: "Nawadir Juha al-Kubra, p. 19 — 'The Cock Doesn't Know the Way'", ur: "نوادر جحا الکبریٰ، ص 19 — «مرغ کو راستہ نہیں معلوم»", fr: "Nawadir Juha al-Kubra, p. 19 — « Le coq ne connaît pas le chemin »", es: "Nawadir Juha al-Kubra, p. 19 — «El gallo no conoce el camino»" }
+text: "… الديك لا يعرف الطريق وضع دجاجاً له في قفص؛ وسار بها من مدينة، إلى مدينة أخرى، لِيبيعَها، وبينما هو في الطريق، وقد تَقُلَ عليه حملُ القفص، قال في نفسه : تكاد هذه الحيوانات تموت من الحرّ والجصر فوق بعضها، فما …"
+summary:
+  ar: "حمل جحا دجاجات في قفص، فلما ثقل القفص أطلقها، ثم راح يطارد الديك قائلًا إنه يعرف الفجر لكنه لا يعرف طريقه عند الظهيرة. {cite:juha-nawadir-kubra-djuwaydi p. 19}"
+  en: "Juha carries hens in a cage, releases them when the cage gets heavy, and then chases the cock, saying it knows the dawn but not its way at noon. {cite:juha-nawadir-kubra-djuwaydi p. 19}"
+  ur: "جحا ایک پنجرے میں مرغیاں اٹھائے جا رہا تھا، پنجرہ بھاری ہوا تو انہیں چھوڑ دیا، پھر مرغے کے پیچھے دوڑتے ہوئے کہا کہ یہ صبح کا وقت تو جانتا ہے مگر دوپہر کو اپنا راستہ نہیں جانتا۔ {cite:juha-nawadir-kubra-djuwaydi p. 19}"
+  fr: "Juha porte des poules dans une cage, les lâche quand la cage devient lourde, puis court après le coq en disant qu'il connaît l'aube mais pas son chemin à midi. {cite:juha-nawadir-kubra-djuwaydi p. 19}"
+  es: "Juha lleva gallinas en una jaula, las suelta cuando la jaula pesa demasiado y luego persigue al gallo diciendo que conoce el alba pero no su camino al mediodía. {cite:juha-nawadir-kubra-djuwaydi p. 19}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 19, anecdote 30; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }

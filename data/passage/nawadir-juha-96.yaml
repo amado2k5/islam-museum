@@ -1,0 +1,19 @@
+id: passage/nawadir-juha-96
+class: passage
+unit: chapter
+work: work/nawadir-juha-al-kubra
+ref: "48:96"
+label: { ar: "نوادر جحا الكبرى، ص 48 — «لم أسامرها في حديث»", en: "Nawadir Juha al-Kubra, p. 48 — 'I Never Chatted with Her'", ur: "نوادر جحا الکبریٰ، ص 48 — «میں نے کبھی اس سے بات چیت نہیں کی»", fr: "Nawadir Juha al-Kubra, p. 48 — « Je n'ai jamais bavardé avec elle »", es: "Nawadir Juha al-Kubra, p. 48 — «Nunca conversé con ella»" }
+text: "… لم أسامرها في حديث ذهب يوماً إلى المحكمة، وأخبر القاضي بأنَّهُ عازِمٌ على تطليقِ أمرأتِهِ."
+summary:
+  ar: "ذهب جحا إلى المحكمة ليطلق زوجته، فلما سُئل عن اسمها واسم أبيها قال إنه لم يتحدث معها قط بما يكفي ليسألها. {cite:juha-nawadir-kubra-djuwaydi p. 48}"
+  en: "Juha goes to the court to divorce his wife; asked her name and her father's name, he says he has never talked with her enough to ask. {cite:juha-nawadir-kubra-djuwaydi p. 48}"
+  ur: "جحا اپنی بیوی کو طلاق دینے عدالت گیا؛ اس سے بیوی کا نام اور اس کے باپ کا نام پوچھا گیا تو اس نے کہا کہ میں نے اس سے کبھی اتنی بات ہی نہیں کی کہ یہ پوچھ سکوں۔ {cite:juha-nawadir-kubra-djuwaydi p. 48}"
+  fr: "Juha se rend au tribunal pour divorcer de sa femme ; interrogé sur son nom et celui de son père, il dit qu'il n'a jamais assez parlé avec elle pour le lui demander. {cite:juha-nawadir-kubra-djuwaydi p. 48}"
+  es: "Juha va al tribunal para divorciarse de su mujer; al preguntarle su nombre y el de su padre, dice que nunca ha hablado con ella lo bastante como para preguntárselo. {cite:juha-nawadir-kubra-djuwaydi p. 48}"
+relations:
+  - { type: mentions, target: person/juha-abu-al-ghusn, sources: [source/juha-nawadir-kubra-djuwaydi] }
+  - { type: mentions, target: concept/al-nawadir, sources: [source/juha-nawadir-kubra-djuwaydi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/civ-3027, page 48, anecdote 96; an excerpt of at most 40 words from the anecdote's opening; the retelling is the museum's own words from the OCR reading, translated by Claude (claude-sonnet-5-5); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-ocr-1" }
+sources: [source/juha-nawadir-kubra-djuwaydi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; retelling and translations by Claude (claude-sonnet-5-5), machine translation not read by a human" }
