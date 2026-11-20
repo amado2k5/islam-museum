@@ -12198,12 +12198,12 @@ books:
     volumes: 2 file(s)
     files:
     - {name: tajallughahwasih01jawhuoft.pdf, bytes: 63966960, pages: 654, sha256: a4d3d170c9d772fd8ba0c515395e5081b7e927cbaf2c28c46ee5e358d6daf569}
-    - {name: tajallughahwasih02jawhuoft.pdf, bytes: 38665504, sha256: d9a07726bbd590fc5d22b9d2c1712889c4ea9e394c55d348ca4fc4fa332cd169}
+    - {name: tajallughahwasih02jawhuoft.pdf, bytes: 38665504, pages: 590, sha256: d9a07726bbd590fc5d22b9d2c1712889c4ea9e394c55d348ca4fc4fa332cd169}
     acquisition: {source: 'archive.org items tajallughahwasih01jawhuoft and tajallughahwasih02jawhuoft; item metadata possible-copyright-status NOT_IN_COPYRIGHT', date: '2026-11-20', by: Claude Code (Dictionaries Browser pilot, docs/plan/72-dictionaries-browser.md), sha256_status: computed}
-    ocr: {state: in_progress, engine: Apple Vision (Arabic, accurate, no language correction), unzipped_location: books/lugha/sihah-bulaq-1865-v1/book.txt, note: 'volume 1 read 20 Nov 2026 (654 pages); volume 2 running; output is machine text, not checked'}
+    ocr: {state: complete, date: '2026-11-20', engine: Apple Vision (Arabic, accurate, no language correction), unzipped_location: books/lugha/sihah-bulaq-1865-v1/book.txt and books/lugha/sihah-bulaq-1865-v2/book.txt, note: 'both volumes read in full on 20 Nov 2026 (654 and 590 pages, 6 near-empty pages in each: covers and blanks); output is machine text, not checked; sha256 of book.txt v1 f7b8784a035da946d1b733634f1ac34ff1eda8d2369c961f2b66381aa02c1a3c, v2 ec44e56937cf34f6c20d13a17334ef8dd5847c7d7c9d8204889ae2122712166a'}
     mining: {state: none}
     ingestion: {state: partial, graph_ids: [source/sihah-bulaq-1865-v1, source/sihah-bulaq-1865-v2]}
-    completion: downloaded
+    completion: ocr_done
     notes: 'Pilot print for the readable text of al-Sihah; separate from the Attar-edition entries under sahah-jawhari. Press and year as recorded by the Internet Archive; the title page was not re-read.'
   - id: lisan-arab-ibn-manzur
     title: 068632 - لسان العرب (+1 more scans)

@@ -14,6 +14,8 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v2.26.0 — 2026-11-20
+### Data
+- **Both volumes of the 1865 Bulaq *al-Ṣiḥāḥ* are now read in full (654 and 590 pages).** The Apple Vision reading of the second volume finished and the register records both outputs with their checksums. The text is still machine output, unchecked, and no entry from it is published yet.
 ### Added
 - **A new browser for the most famous words of elegy and of announcing a death (`/{lang}/ritha/`, «متصفح أشهر ما قيل في الرثاء والنعي»).** It gathers 607 records from the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors and the harvested books: the verses of patience, the Prophet's words «to God belongs what He took and what He gave» and «patience is at the first blow», his announcement of Ja'far, Zayd, Ibn Rawaha and the Negus, the condolences, Hassan's and Ka'b ibn Malik's elegies, and the limits of weeping and wailing. It opens with four mourning banners, a death-notice frame and the famous formulas; it is in the Explore menu, on the landing page, in the API (`/api/v1/ritha.json`), `llms.txt` and the OpenAPI file, in all five languages.
 - **A new record, `concept/ritha-wal-nay`, with prose in Arabic, English, Urdu, French and Spanish,** and nineteen existing records on elegy, announcement, condolence and wailing filed into the browser.
