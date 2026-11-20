@@ -37,6 +37,11 @@ const pilotSources = MAAJIM_PILOT_SOURCES.map((id) => realNodes.find((n) => n.id
       <p class="ui muted">{M.api} <a href="/api/v1/maajim.json"><bdi dir="ltr">/api/v1/maajim.json</bdi></a></p>
     </div>
 
+    <section aria-labelledby="terms-title" style="margin-top:1.2rem;max-width:var(--measure)">
+      <h2 id="terms-title" style="font-size:1.1rem">{M.terms_title}</h2>
+      <p class="muted">{M.terms_note}</p>
+    </section>
+
     <DraftMark lang={lang} legend />
     <MaajimDoors lang={lang} />
     <section aria-labelledby="sections-title" style="margin-top:2rem">
