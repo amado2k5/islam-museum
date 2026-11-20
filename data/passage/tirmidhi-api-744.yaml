@@ -1,0 +1,19 @@
+id: passage/tirmidhi-api-744
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "744"
+label: { ar: "جامع الترمذي 744 — ما فرضه الله ورسوله، الكراهة", en: "Jami' al-Tirmidhi 744 — what God and His Messenger made obligatory; dislike (karaha)", ur: "جامع ترمذی 744 — جو اللہ اور اس کے رسول نے فرض کیا، کراہت", fr: "Jami' al-Tirmidhi 744 — ce que Dieu et Son Messager ont rendu obligatoire ; la réprobation (karaha)", es: "Yami' al-Tirmidhi 744 — lo que Dios y Su Mensajero hicieron obligatorio; la reprobación (karaha)" }
+text: "… مَعْدَانَ، عَنْ عَبْدِ اللَّهِ بْنِ بُسْرٍ، عَنْ أُخْتِهِ، أَنَّ رَسُولَ اللَّهِ قَالَ \" لاَ تَصُومُوا يَوْمَ السَّبْتِ إِلاَّ فِيمَا افْتَرَضَ اللَّهُ عَلَيْكُمْ فَإِنْ لَمْ يَجِدْ أَحَدُكُمْ إِلاَّ لِحَاءَ عِنَبَةٍ أَوْ عُودَ شَجَرَةٍ فَلْيَمْضُغْهُ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ. وَمَعْنَى كَرَاهَتِهِ فِي هَذَا أَنْ يَخُصَّ الرَّجُلُ يَوْمَ السَّبْتِ بِصِيَامٍ لأَنَّ الْيَهُودَ تُعَظِّمُ يَوْمَ السَّبْتِ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 744، يرد فيه ذكر ما فرضه الله ورسوله، والكراهة. يجمعه متصفح الفروض والواجبات والطاعات والمستحبات والمكروهات والمحرمات وصغائر الذنوب مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب، ويصف المتحف ما في النص ولا يُفتي به."
+  en: "A report in Jami' al-Tirmidhi, no. 744 (The Book on Fasting), whose wording mentions what God and His Messenger made obligatory, dislike (karaha). The Rulings Browser (obligations, acts of obedience, recommended, disliked and forbidden acts, and minor sins) lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on these themes; the museum describes what the text says and issues no ruling."
+  ur: "جامع ترمذی کی حدیث نمبر 744، جس کے الفاظ میں جو اللہ اور اس کے رسول نے فرض کیا، کراہت کا ذکر ہے۔ فرائض، واجبات، طاعات، مستحبات، مکروہات، محرمات اور صغیرہ گناہوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے؛ میوزیم متن کا بیان کرتا ہے، فتویٰ نہیں دیتا۔"
+  fr: "Un récit de Jami' al-Tirmidhi, n° 744, dont le texte mentionne ce que Dieu et Son Messager ont rendu obligatoire, la réprobation (karaha). Le Navigateur des statuts légaux (obligations, actes d'obéissance, actes recommandés, réprouvés et interdits, péchés mineurs) le réunit avec les textes du Coran, de la Sunna, de la sîra et les récits des Compagnons et des Suivants sur ces thèmes ; le musée décrit ce que dit le texte et ne rend aucun avis juridique."
+  es: "Un relato de Yami' al-Tirmidhi, n.º 744, cuyo texto menciona lo que Dios y Su Mensajero hicieron obligatorio, la reprobación (karaha). El Explorador de las calificaciones legales (obligaciones, actos de obediencia, actos recomendados, reprobados y prohibidos, y pecados menores) lo reúne con los textos del Corán, la Sunna, la sira y los relatos de los Compañeros y los Sucesores sobre estos temas; el museo describe lo que dice el texto y no emite ningún dictamen."
+relations:
+  - { type: mentions, target: concept/fard, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/makruh, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 744 (book 8 hadith 63); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ahkam-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words in five languages (machine-written, not read by a person)" }

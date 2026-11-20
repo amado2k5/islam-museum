@@ -1,0 +1,89 @@
+---
+// "The scale of the five rulings" (Rulings Browser home): the browser's own opening view. The books of usul al-fiqh
+// divide what the Lawgiver says of an act into five (al-Ghazali, al-Mustasfa: a demand to act, firm or not; a demand
+// to leave, firm or not; a choice), and the view draws exactly that: five degrees side by side from the act that must
+// be done to the act that must be left, each with what the definition says of the one who does it and the one who
+// leaves it, the browser's themes that stand on the degree, and how many records each holds. Above the scale runs the
+// lane of obedience («الطاعات»), which spans the two degrees of doing; below it the lane of the minor sins («صغائر
+// الذنوب»), which belongs to the side of leaving and points on to the major sins in the Hudud and Kaba'ir Browser.
+// Every name is a link, every number is counted at build time from lib/ahkam.ts, a degree is marked by its name and
+// its position as well as its colour, and nothing here needs JavaScript. The build throws when a record a degree
+// names is missing, so the view can never point at a page that does not exist.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { byId, href } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { ahkamTopicGroups, AHKAM_RECORD, AHKAM_SCALE, AHKAM_TOPICS, type AhkamTopic } from "../../lib/ahkam";
+
+interface Props { lang: Lang; current?: string; compact?: boolean }
+const { lang, current, compact } = Astro.props;
+const T = ui(lang) as any;
+const G = T.ahkam;
+const V = G.viz;
+
+for (const t of AHKAM_TOPICS) if (!byId.get(AHKAM_RECORD[t])) throw new Error(`AhkamScale: the record ${AHKAM_RECORD[t]} named under ${t} is missing`);
+/** One hue per degree; the name and the order carry the meaning, the colour only repeats it. */
+const DEGREE_COLOR: Record<string, string> = { wajib: "#1f6f4a", mandub: "#5f9d6e", mubah: "#7d8590", makruh: "#b9812a", haram: "#a43c3c" };
+const total = (t: AhkamTopic) => ahkamTopicGroups.find((g) => g.id === t)!.items.length;
+const degrees = AHKAM_SCALE.map((d) => ({ ...d, n: d.topics.reduce((a, t) => a + total(t), 0) }));
+const lane = (t: AhkamTopic) => ({ id: t, n: total(t) });
+const taat = lane("taat");
+const saghair = lane("saghair");
+---
+<section aria-labelledby="ahkam-scale-title" class="ahkam-scale" style="margin:1.6rem 0">
+  <h2 id="ahkam-scale-title" style={compact ? "font-size:1.05rem" : undefined}>{V.title}</h2>
+  {!compact && <p class="muted" style="max-width:var(--measure)">{V.note}</p>}
+
+  <p class="ui lane lane-top" style="border-inline-start:6px solid #1f6f4a">
+    <span aria-hidden="true">↧</span>
+    <a href={`/${lang}/ahkam/hukm/taat/`} aria-current={current === "taat" ? "page" : undefined} style="font-weight:600">{G.topics.taat.title}</a>
+    <span class="muted">{V.lanes.taat}</span>
+    <bdi class="muted">{fmt(V.count, { n: num(taat.n, lang) })}</bdi>
+  </p>
+
+  <ol role="list" class="degrees">
+    {degrees.map((d, k) => (
+      <li class="panel degree" style={`border-top:8px solid ${DEGREE_COLOR[d.degree]}${d.topics.includes(current as AhkamTopic) ? ";outline:2px solid var(--gold)" : ""}`}>
+        <p class="ui muted" style="margin:0;font-size:.78rem"><bdi>{num(k + 1, lang)}</bdi> · {V.degree_word}</p>
+        <h3 style="margin:.1rem 0 .3rem;font-size:1.2rem">{V.degrees[d.degree].name}</h3>
+        {!compact && (
+          <dl class="ui" style="margin:0 0 .6rem;font-size:.86rem;display:grid;grid-template-columns:auto 1fr;gap:2px 8px">
+            <dt class="muted">{V.does}</dt><dd style="margin:0">{V.degrees[d.degree].does}</dd>
+            <dt class="muted">{V.leaves}</dt><dd style="margin:0">{V.degrees[d.degree].leaves}</dd>
+          </dl>
+        )}
+        <ul role="list" style="list-style:none;padding:0;margin:0;display:grid;gap:4px">
+          {d.topics.map((t) => (
+            <li class="ui" style="font-size:.92rem;display:flex;justify-content:space-between;gap:8px;align-items:baseline">
+              <a href={`/${lang}/ahkam/hukm/${t}/`} aria-current={current === t ? "page" : undefined}>{G.topics[t].title}</a>
+              <bdi class="muted" style="font-size:.8rem">{num(total(t), lang)}</bdi>
+            </li>
+          ))}
+        </ul>
+        {!compact && <p class="ui" style="margin:.6rem 0 0;font-size:.8rem"><a href={href(lang, AHKAM_RECORD[d.topics[d.topics.length - 1]])}>{V.record}</a></p>}
+      </li>
+    ))}
+  </ol>
+  <p class="ui muted axis" aria-hidden="true"><span>{V.axis_do}</span><span>{V.axis_choice}</span><span>{V.axis_leave}</span></p>
+
+  <p class="ui lane lane-bottom" style="border-inline-end:6px solid #a43c3c;justify-content:flex-end;text-align:end">
+    <bdi class="muted">{fmt(V.count, { n: num(saghair.n, lang) })}</bdi>
+    <span class="muted">{V.lanes.saghair} <a href={`/${lang}/hudud/`}>{V.lanes.kabair}</a></span>
+    <a href={`/${lang}/ahkam/hukm/saghair/`} aria-current={current === "saghair" ? "page" : undefined} style="font-weight:600">{G.topics.saghair.title}</a>
+    <span aria-hidden="true">↥</span>
+  </p>
+  {!compact && <p class="ui muted" style="max-width:var(--measure);font-size:.85rem">{V.source} <a href={href(lang, "concept/al-ahkam-al-taklifiyya")}>{V.source_link}</a></p>}
+</section>
+<style>
+  .ahkam-scale .degrees { list-style: none; padding: 0; margin: .5rem 0 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
+  .ahkam-scale .degree { padding: 12px 14px; border-radius: 10px; }
+  .ahkam-scale .lane { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline; background: var(--panel); border-radius: 10px; padding: 8px 14px; margin: .5rem 0; }
+  .ahkam-scale .lane-top { max-width: calc(40% - 4px); }
+  .ahkam-scale .lane-bottom { margin-inline-start: 60%; }
+  .ahkam-scale .axis { display: flex; justify-content: space-between; font-size: .8rem; margin: .3rem 2px 0; }
+  @media (max-width: 900px) {
+    .ahkam-scale .degrees { grid-template-columns: 1fr; }
+    .ahkam-scale .lane-top { max-width: none; }
+    .ahkam-scale .lane-bottom { margin-inline-start: 0; }
+    .ahkam-scale .axis { display: none; }
+  }
+</style>

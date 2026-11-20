@@ -1,0 +1,18 @@
+id: passage/muslim-api-3884
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "3884"
+label: { ar: "صحيح مسلم 3884 — الرخصة", en: "Sahih Muslim 3884 — the concession (rukhsa)", ur: "صحیح مسلم 3884 — رخصت", fr: "Sahih Muslim 3884 — la dispense (rukhsa)", es: "Sahih Muslim 3884 — la dispensa (rukhsa)" }
+text: "وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا عُبَيْدُ اللَّهِ، حَدَّثَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ، عَنْ زَيْدِ بْنِ ثَابِتٍ، أَنَّ رَسُولَ اللَّهِ رَخَّصَ فِي الْعَرَايَا أَنْ تُبَاعَ بِخَرْصِهَا كَيْلاً."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 3884، يرد فيه ذكر الرخصة. يجمعه متصفح الفروض والواجبات والطاعات والمستحبات والمكروهات والمحرمات وصغائر الذنوب مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب، ويصف المتحف ما في النص ولا يُفتي به."
+  en: "A report in Sahih Muslim, no. 3884 (The Book of Transactions), whose wording mentions the concession (rukhsa). The Rulings Browser (obligations, acts of obedience, recommended, disliked and forbidden acts, and minor sins) lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on these themes; the museum describes what the text says and issues no ruling."
+  ur: "صحیح مسلم کی حدیث نمبر 3884، جس کے الفاظ میں رخصت کا ذکر ہے۔ فرائض، واجبات، طاعات، مستحبات، مکروہات، محرمات اور صغیرہ گناہوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے؛ میوزیم متن کا بیان کرتا ہے، فتویٰ نہیں دیتا۔"
+  fr: "Un récit de Sahih Muslim, n° 3884, dont le texte mentionne la dispense (rukhsa). Le Navigateur des statuts légaux (obligations, actes d'obéissance, actes recommandés, réprouvés et interdits, péchés mineurs) le réunit avec les textes du Coran, de la Sunna, de la sîra et les récits des Compagnons et des Suivants sur ces thèmes ; le musée décrit ce que dit le texte et ne rend aucun avis juridique."
+  es: "Un relato de Sahih Muslim, n.º 3884, cuyo texto menciona la dispensa (rukhsa). El Explorador de las calificaciones legales (obligaciones, actos de obediencia, actos recomendados, reprobados y prohibidos, y pecados menores) lo reúne con los textos del Corán, la Sunna, la sira y los relatos de los Compañeros y los Sucesores sobre estos temas; el museo describe lo que dice el texto y no emite ningún dictamen."
+relations:
+  - { type: mentions, target: concept/ibaha, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3884 (book 21 hadith 83); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ahkam-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words in five languages (machine-written, not read by a person)" }

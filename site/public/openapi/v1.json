@@ -197,7 +197,7 @@
         }
       }
     },
-"/heroes.json": {
+    "/heroes.json": {
       "get": {
         "operationId": "getHeroes",
         "summary": "Heroes of Islam dataset",
@@ -565,6 +565,21 @@
         "responses": {
           "200": {
             "description": "Every sayyi'at record with corpus section, kind, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/ahkam.json": {
+      "get": {
+        "operationId": "getAhkam",
+        "summary": "Rulings Browser dataset",
+        "description": "The Rulings Browser dataset: every mention of the obligations (fard, fard 'ayn, fard kifaya), the acts of obedience, the obligatory, the recommended, the forbidden, the disliked, the minor sins and the permitted in the Qur'an (a reviewed verse table), the Sunnah, the seerah and harvested books, detected at build time, plus the curated ahkam-browser records; each item carries its corpus section, topics (fard, fard-ayn, fard-kifaya, taat, wajib, mustahabb, haram, makruh, saghair, mubah), signals, work, ref and edges.",
+        "responses": {
+          "200": {
+            "description": "The Rulings Browser dataset: every mention of the obligations (fard, fard 'ayn, fard kifaya), the acts of obedience, the obligatory, the recommended, the forbidden, the disliked, the minor sins and the permitted in the Qur'an (a reviewed verse table), the Sunnah, the seerah and harvested books, detected at build time, plus the curated ahkam-browser records; each item carries its corpus section, topics (fard, fard-ayn, fard-kifaya, taat, wajib, mustahabb, haram, makruh, saghair, mubah), signals, work, ref and edges.",
             "content": {
               "application/json": {}
             }
