@@ -3,18 +3,23 @@ class: work
 kind: book
 label: { ar: "المحكم والمحيط الأعظم", en: "al-Muhkam wal-Muhit al-A'zam", es: "al-Muhkam wal-Muhit al-A'zam", fr: "al-Muhkam wal-Muhit al-A'zam", ur: "المحکم والمحدث العظام" }
 summary:
-  ar: "كتاب ابن سيده المرسي في اللغة؛ وصفه المطمح بأنه أبدع كتاب وأحكم وأنه تفرد به {cite:nafh-tib-maqqari p. 31}."
-  en: "Ibn Sida's great dictionary — 'the most wondrous and soundest of books,' in the phrase of the Mutammih {cite:nafh-tib-maqqari p. 31}."
-  es: "El gran diccionario de Ibn Sida: 'el libro más maravilloso y sólido', según la frase del Mutammih {citar:nafh-tib-maqqari p. 31}."
-  fr: "Le grand dictionnaire d'Ibn Sida — « le plus merveilleux et le plus solide des livres », selon l'expression du Mutammih {cite:nafh-tib-maqqari p. 31}."
-  ur: "ابن سیدا کی عظیم لغت - 'کتابوں میں سب سے زیادہ حیرت انگیز اور بہترین کتاب'، مطمیح کے فقرے میں۔ 31}۔"
-wings: []
+  ar: "المحكم والمحيط الأعظم لابن سيده، ألّفه بطلب من مجاهد العامري أمير دانية. سار فيه على ترتيب المخارج في كتاب العين مع تصحيحات الزبيدي في مختصر العين، فبدأ بحروف الحلق وانتهى بحروف الشفة، وطبّق نظام التقاليب للخليل. وامتاز عن العين وتهذيب الأزهري بجمع المادة المتفرقة وتحرّي الشرح وتصحيح أخطاء الصرف والنحو، وتبع الأزهري في ربط الكلمات بالقرآن والحديث."
+  en: "Ibn Sida's al-Muhkam wa-l-Muhit al-A'zam, written at the request of Mujahid al-Amiri, emir of Denia. It follows the articulation-point order of Kitab al-Ayn with the corrections of al-Zubaydi's Mukhtasar al-Ayn, beginning with the throat letters and ending with the lip letters, and applies al-Khalil's system of permutations. It differs from al-Ayn and al-Azhari's Tahdhib by gathering scattered material, explaining words more carefully and correcting errors of morphology and syntax, and follows al-Azhari in tying words to the Qur'an and hadith."
+  es: "El al-Muhkam wa-l-Muhit al-A'zam de Ibn Sida, escrito a petición de Mujahid al-Amiri, emir de Denia. Sigue el orden por puntos de articulación del Kitab al-Ayn con las correcciones del Mukhtasar al-Ayn de al-Zubaydi, empezando por las letras de la garganta y acabando por las labiales, y aplica el sistema de permutaciones de al-Jalil. Se distingue de al-Ayn y del Tahdhib de al-Azhari por reunir el material disperso, explicar las palabras con más cuidado y corregir errores de morfología y sintaxis, y sigue a al-Azhari en vincular las palabras con el Corán y el hadiz."
+  fr: "Le al-Muhkam wa-l-Muhit al-A'zam d'Ibn Sida, écrit à la demande de Mujahid al-Amiri, émir de Denia. Il suit l'ordre par points d'articulation du Kitab al-Ayn avec les corrections du Mukhtasar al-Ayn d'al-Zubaydi, en commençant par les lettres de la gorge et en finissant par les labiales, et applique le système des permutations d'al-Khalil. Il se distingue d'al-Ayn et du Tahdhib d'al-Azhari en rassemblant le matériau dispersé, en expliquant les mots avec plus de soin et en corrigeant des erreurs de morphologie et de syntaxe, et suit al-Azhari en rattachant les mots au Coran et au hadith."
+  ur: "ابن سیدہ کی المحکم والمحیط الاعظم، جو انہوں نے دانیہ کے امیر مجاہد عامری کی فرمائش پر لکھی۔ اس میں کتاب العین کی مخارج کی ترتیب زبیدی کی مختصر العین کی اصلاحات کے ساتھ اپنائی گئی، حلق کے حروف سے شروع اور ہونٹ کے حروف پر ختم، اور خلیل کا نظامِ تقالیب لاگو کیا گیا۔ یہ العین اور ازہری کی تہذیب سے اس طرح مختلف ہے کہ بکھرا ہوا مواد جمع کیا، الفاظ کی شرح زیادہ احتیاط سے کی اور صرف و نحو کی غلطیاں درست کیں، اور ازہری کی پیروی میں الفاظ کو قرآن و حدیث سے جوڑا۔"
+genre: [lexicon]
+authors: [person/ibn-sida]
+language: language/arabic
+tags: [maajim-browser, maajim-general]
+wings: [words]
 periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
 provenance:
   layer: own-research
-  source: "نفح الطيب من غصن الأندلس الرطيب للمقري ⁦(ط إحسان عباس)⁩ ص 31"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-nafh-tib-batch-61
-sources: [source/nafh-tib-maqqari]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "source/dia-el-muhkem (TDV İslâm Ansiklopedisi, read 20 November 2026); earlier card from source/nafh-tib-maqqari kept in sources"
+  generated_by: "Claude Code"
+  model: claude-sonnet-5-5
+  run: maajim-batch-4-2026-11-20
+sources: [source/nafh-tib-maqqari, source/dia-el-muhkem]
+status: { review: published, completeness: 2, generated_by: "Claude Code" }

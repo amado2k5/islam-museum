@@ -15,6 +15,5529 @@ open a new block on top with the new version and today's date.
 
 ## v2.26.1 — 2026-11-20
 ### Added
+- **Eleven more dictionaries in the Dictionaries Browser, each with facts checked against the TDV İslâm Ansiklopedisi.** New records for *Tahdhīb al-Lugha*, *Jamharat al-Lugha*, *Maqāyīs al-Lugha*, *Mujmal al-Lugha*, *al-Mukhaṣṣaṣ*, *al-Nihāya*, *al-Taʿrīfāt* and *Kashshāf iṣṭilāḥāt al-funūn*, and the earlier cards for *al-Muḥkam*, *Asās al-Balāgha* and *al-Mufradāt* now carry their authors, dates, sources and arrangement. Each work links to its author and, where the encyclopaedia says so, to the dictionaries it draws on (for example *Kitāb al-ʿAyn* to *al-Jamhara*, *al-Maqāyīs* and *al-Muḥkam*). The browser gains three sections: thematic dictionaries, the vocabulary of the hadith, and technical terms. Twelve more source records name each encyclopaedia article, what it was used for and what it does not say.
+- **The museum no longer states al-Rāghib al-Iṣfahānī's death date as fact.** The encyclopaedia entry says the date is very uncertain (classical sources give none; later ones range from 322 to 690 AH, and 502 AH does not fit other evidence it cites). The earlier catalogue's 502 AH is therefore not used; the record cites this source for the uncertainty.
+### Fixed
+- **Two Urdu strings of the Dictionaries Browser failed the Arabic-parentheses rule** (the pilot note and the Ṣiḥāḥ lede); they now wrap the Arabic parentheticals as the rule requires, and 
+> islam-museum@0.1.0 validate
+> tsx scripts/check-yaml.ts && tsx scripts/validate.ts && tsx scripts/check-encoding.ts && tsx scripts/check-authenticity.ts && tsx scripts/check-extremism.ts && tsx scripts/check-harvest-register.ts && tsx scripts/check-enrichment-register.ts && tsx scripts/decisions/check-records.ts && tsx scripts/decisions/benchmark.ts && tsx scripts/decisions/sweep.ts
+
+check-yaml: 86937 YAML files, 0 problems
+warn  data/_stubs.yaml: person/muhammad-taqi-usmani is now written; remove it from the stub list (data/_stubs.yaml or data/_stubs.d/)
+warn  data/_stubs.yaml: person/hany-el-banna is now written; remove it from the stub list (data/_stubs.yaml or data/_stubs.d/)
+warn  data/_stubs.yaml: person/salman-al-ouda is now written; remove it from the stub list (data/_stubs.yaml or data/_stubs.d/)
+warn  data/_stubs.yaml: person/amr-waked is now written; remove it from the stub list (data/_stubs.yaml or data/_stubs.d/)
+warn  data/_stubs.yaml: person/engin-altan-duzyatan is now written; remove it from the stub list (data/_stubs.yaml or data/_stubs.d/)
+warn  data/person/abd-al-aziz-al-alawi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/abd-al-aziz-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/abd-al-hafid-of-morocco.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/abd-al-hamid-i-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/abd-al-hamid-ii-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/abd-al-majid-i-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/abd-al-mumin-ibn-ali.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/abd-al-qadir-al-jazairi.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abd-al-rahman-ii-andalusi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/abd-al-rahman-iii-al-nasir.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/abd-al-wahid-ibn-idris-almohad.yaml: roles lists "caliph" but no reign toward a caliphate polity is recorded yet (docs/plan/30)
+warn  data/person/abd-allah-al-mamun.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/abd-allah-ibn-abi-dawud-al-sijistani.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/person/abd-allah-ibn-jafar-al-wathhab.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abd-allah-ibn-muhammad-al-azdi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abd-allah-ibn-muhayriz.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abd-allah-ibn-muhayriz.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abd-allah-ibn-zayd-al-ansari.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abdullah-ibn-amr-ibn-haram.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abdullah-ibn-bustam.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abdullah-ibn-qays-al-jasi.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-abd-allah-al-saji.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-al-abbas-al-saffah.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/abu-al-mahasin-al-shawwa.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-al-salt-abd-al-salam-ibn-salih.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-ali-ibn-al-ikhwa.yaml: summary states a death year ("d. 546") that disagrees with died.edtf 1044 by more than 2 years: correct the date from the record's source, or remove it
+warn  data/person/abu-bakr-al-hudhali.yaml: summary states a death year ("وفاته سنة 159 هـ") that disagrees with died.edtf 784 by more than 2 years: correct the date from the record's source, or remove it
+warn  data/person/abu-bakr-ibn-umar-al-lamtuni.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/abu-bakr.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/person/abu-bakr.yaml: perspectives[2] (shia-twelver) cites no source: every opinion is cited
+warn  data/person/abu-burqan.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-burqan.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-fakiha.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-fakiha.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-hashim-al-mughira-ibn-miqsam.yaml: summary states a death year ("توفي سنة 133") that disagrees with died.edtf 754 by more than 2 years: correct the date from the record's source, or remove it
+warn  data/person/abu-hashim-fadim.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-hashim-ibn-muhammad.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-ishaq-al-sabii.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/person/abu-ishaq-al-sabii.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-ishaq-al-sahili.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-ishaq-hafsi.yaml: roles lists "caliph" but no reign toward a caliphate polity is recorded yet (docs/plan/30)
+warn  data/person/abu-kalijar.yaml: summary states a death year ("died in 416") that disagrees with died.edtf 1048~ by more than 10 years: correct the date from the record's source, or remove it
+warn  data/person/abu-mihjan-al-thaqafi.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-mihjan-al-thaqafi.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-muhallim.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-muslim-al-khawlani.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-muslim-al-khawlani.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-muslim-al-khawlani.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-muslim-al-mustamli.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-tammam.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-yahya-ibn-abd-al-haqq.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/abu-yala-al-mawsili.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/abu-yaqub-yusuf-almohad.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/adelard-of-bath.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/adelard-of-bath.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/adud-al-dawla.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/ahmad-i-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/ahmad-ibn-abi-duad.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ahmad-ibn-al-khasib.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ahmad-ibn-al-salt-al-himmani.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ahmad-ibn-asim-al-antaki.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ahmad-ibn-khidruya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ahmad-ibn-muhammad-al-madani-poet-286.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ahmad-ibn-nasr-al-khuzai.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ahmad-ibn-tulun.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/ahmad-ibn-uways.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/ahmad-ii-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/ahmad-jalayir.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/ahmed-iii-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/aisha-bint-al-mustanjid.yaml: roles lists "caliph" but no reign toward a caliphate polity is recorded yet (docs/plan/30)
+warn  data/person/aisha-bint-uthman-ibn-affan.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/aisha-bint-uthman-ibn-affan.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/al-adid-fatimid.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-adil-ii.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-amin.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-amir-fatimid.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-ashraf-inal.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-ashraf-shaban.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-aziz-fatimid.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-daraqutni.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/person/al-fath-ibn-khaqan.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/al-hadi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-hafiz-fatimid.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-hakam-i-andalusi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-harith-ibn-aws.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/al-harith-ibn-miskin.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/al-hasan-ibn-sahl.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/al-hasan-ibn-zayd-al-dai.yaml: summary states a death year ("killed in 288") that disagrees with died.edtf 884 by more than 2 years: correct the date from the record's source, or remove it
+warn  data/person/al-irbad-ibn-sariya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/al-khidr.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/al-malik-al-adil-ayyub.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-malik-al-adil-salamish.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-malik-al-aziz-uthman.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-malik-al-kamil.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-malik-al-mansur-ali-ibn-aybak.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-malik-al-salih-ismail.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-mansur-fakhr-al-din-uthman.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-mansur-ubaydi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-mansur.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-muhtadi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-muizz-li-din-allah.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-mundhir-ibn-haram.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/al-mundhir-ibn-imri-al-qays.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/al-muqtadir-billah.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-mustadi-billah.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-mustain-billah-abbasid.yaml: roles lists "caliph" but no reign toward a caliphate polity is recorded yet (docs/plan/30)
+warn  data/person/al-mustain.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-mustali-fatimid.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-mustansir-billah.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-mustansir-fatimid.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-mustansir-hafsi.yaml: roles lists "caliph" but no reign toward a caliphate polity is recorded yet (docs/plan/30)
+warn  data/person/al-mustansir-hafsi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-mustansir-hakam.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-mutadid-almohad.yaml: roles lists "caliph" but no reign toward a caliphate polity is recorded yet (docs/plan/30)
+warn  data/person/al-mutadid-dawud-abbasid.yaml: roles lists "caliph" but no reign toward a caliphate polity is recorded yet (docs/plan/30)
+warn  data/person/al-mutadid.yaml: summary states a death year ("died in 270") that disagrees with died.edtf 902 by more than 2 years: correct the date from the record's source, or remove it
+warn  data/person/al-mutadid.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-mutamid.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-mutasim.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-mutawakkil.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-mutazz.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-muttaqi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-muwaffaq-al-iskafi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/al-narshakhi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/al-nasir-billah.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-nasir-muhammad-ibn-qalawun.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-qaim-fatimid.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-qasim-ibn-uthman-al-jui.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/al-rabi-ibn-ziyad-al-bakri-al-khurasani.yaml: summary states a death year ("توفي سنة 139 هـ") that disagrees with died.edtf 0759 by more than 2 years: correct the date from the record's source, or remove it
+warn  data/person/al-sayyida-umm-malal.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/al-waqidi.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/person/al-wathiq-abu-dabus.yaml: roles lists "caliph" but no reign toward a caliphate polity is recorded yet (docs/plan/30)
+warn  data/person/al-wathiq-hafsi.yaml: roles lists "caliph" but no reign toward a caliphate polity is recorded yet (docs/plan/30)
+warn  data/person/al-wathiq.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-zafir-fatimid.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-zahir-billah.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-zahir-fatimid.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/al-zarqa-bint-adi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ali-bin-hussein-al-hashimi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/ali-ibn-al-jahm.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ali-ibn-mahdi-al-himyari.yaml: summary states a death year ("died in 545") that disagrees with died.edtf 1159 by more than 2 years: correct the date from the record's source, or remove it
+warn  data/person/ali-khan.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/alp-arslan.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/amanullah-khan.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/amr-ibn-al-jamuh.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/amr-ibn-al-zubayr.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/amr-ibn-kulthum.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/amr-ibn-kulthum.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/amr-ibn-qamia.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/amrah-bint-abd-al-rahman.yaml: summary states a death year ("توفي سنة 716م") that disagrees with died.edtf 724 by more than 2 years: correct the date from the record's source, or remove it
+warn  data/person/anwar-sadat.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/arib-al-mamuniyya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/arib-al-mamuniyya.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/arib-al-mamuniyya.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/arwa-bint-al-harith.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/asghar-gondvi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ata-ibn-saib.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/person/ba-lobbo.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/badr-al-din-lulu.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/badr-al-din-simawi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/bahadur-shah-gujarat.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/bahram-chubin.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/bahram-shah-ghaznavi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/baldwin-iv.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/baqum.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/barghash-ibn-said-al-busaidi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/barkyaruq.yaml: summary states a death year ("killed in 490") that disagrees with died.edtf 1104 by more than 2 years: correct the date from the record's source, or remove it
+warn  data/person/bayazid-i-yildirim.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/bayazid-ii.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/baybars.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/baydu-khan.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/bayezid-pasha.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/bir-kilija-mustafa.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/buran-bint-al-hasan-ibn-sahl.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/choban.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/choban.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/choban.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/choban.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/choban.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/choban.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/choban.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/choban.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/dawud-al-balkhi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/dawud-al-qaysari.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/dhu-al-nun-al-misri.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/dhu-l-kifl.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/person/dib-l-al-khuzai.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/doquz-khatun.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/eugene-of-savoy.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/eugene-of-savoy.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/fadl-ibn-al-rabi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/fadl-ibn-al-rabi.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/fakhr-al-din-ibn-asakir.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/faraj-ibn-barquq.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/farouk-of-egypt.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/fath-ali-shah-qajar.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/ferdinand-de-lesseps.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ferdinand-de-lesseps.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ferdinand-de-lesseps.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ferdinand-de-lesseps.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/fibonacci.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/fibonacci.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/fuad-i-of-egypt.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/gamal-abdel-nasser.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/gars-al-din-al-halabi.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/person/gaykhatu.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/gaykhatu.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/gerard-of-cremona.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/gerard-of-cremona.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/gerard-of-cremona.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/gerard-of-cremona.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/gerard-of-cremona.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/gerard-of-cremona.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ghaylan-al-dimashqi.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/gregory-palamas.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/habibullah-khan.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/haji-pasha.yaml: summary states a death year ("d. 820/1417") that disagrees with died.edtf 1420 by more than 2 years: correct the date from the record's source, or remove it
+warn  data/person/halet-efendi.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/halet-efendi.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/harun-al-rashid.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/harun-ibn-khumarawayh.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/harut.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/harut.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/harut.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/hasan-aga-al-tushi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/hasan-al-banna.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/hasan-al-banna.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/hasan-al-banna.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/hasanak.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/hasanak.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/hasanak.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/hasanak.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/hassan-i-of-morocco.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/hazzal-al-aslami.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/heraclius.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/hermann-of-carinthia.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/hermann-of-carinthia.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/hermann-of-carinthia.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/hermann-of-carinthia.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/hermann-of-carinthia.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/hermann-of-carinthia.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/hisham-i-andalusi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/hisham-ii-al-muayyad.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/hud.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/humayun-mughal.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/husayn-bayqarah.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/hussein-bin-ali-al-hashimi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/hussein-kamel-of-egypt.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/ibn-al-dahhak-rebel-at-khiwan-286.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ibn-al-hajjaj-al-shair.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ibn-al-shajari.yaml: summary states a death year ("المتوفى سنة 572هـ") that disagrees with died.edtf 1148-01~ by more than 10 years: correct the date from the record's source, or remove it
+warn  data/person/ibn-al-shajari.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ibn-al-shajari.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ibn-balban-ala-al-din-ali.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ibn-hibban.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/person/ibn-ishaq.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/person/ibn-jawsa.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/person/ibn-nabbata.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ibn-nabbata.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ibn-naghrila.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ibn-naghrila.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ibn-qudama-al-maqdisi.yaml: relations[15]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ibn-zuhr-al-hafid.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ibn-zuhr-al-hafid.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ibn-zuhr.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/person/ibrahim-i-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/ibrahim-pasha-franji.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ikrima-ibn-ammar.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/person/ikrima-mawla-ibn-abbas.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/person/ikrisha-bint-al-atrash.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ilyas.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/jafar-al-sadiq.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/jahan-shah-qaraqoyunlu.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/jahaniyan-jahangasht.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/jai-singh-i-of-amber.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/jai-singh-i-of-amber.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/jalal-al-dawla.yaml: summary states a death year ("died in 416") that disagrees with died.edtf 1044~ by more than 10 years: correct the date from the record's source, or remove it
+warn  data/person/jalal-al-din-akbar.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/jaqmaq-al-zahiri.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/jasas-ibn-murra.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/john-of-seville.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/john-of-seville.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/john-of-seville.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/john-of-seville.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/john-of-seville.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/john-of-seville.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/john-of-seville.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/john-of-seville.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/john-of-seville.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/karim-khan-zand.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/kayqubad-i.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/khayr-al-din-barbarossa.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/koca-davud-pasha.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/kurdawiyya-bint-amr.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/lala-shahin.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/lut.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/mada-ibn-isa.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/mahbuba.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/mahmud-ghaznawi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/mahmud-i-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/maimonides-ibn-maymun.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/maimonides-ibn-maymun.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/maimonides-ibn-maymun.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/maimonides-ibn-maymun.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/maiz-ibn-malik-al-aslami.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/majd-al-din-ibn-taymiyya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/makramat-khan.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/makramat-khan.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/malik-ibn-sinan.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/mansur-ibn-nuh.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/mansur-ibn-sarjun.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/mansur-ii-samani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/mansur-umar-ibn-ali-rasuli.yaml: summary states a death year ("died in 635") that disagrees with died.edtf 1250 by more than 2 years: correct the date from the record's source, or remove it
+warn  data/person/manuel-ii-palaiologos.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/marut.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/marut.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/marut.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/marwan-ibn-abi-al-janub.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/masud-ibn-mahmud.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/masud-ibn-muhammad-saljuqi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/mehmed-ii.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/mehmed-iii-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/mehmed-iv-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/mir-abd-al-karim.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/mir-abd-al-karim.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/mohammed-ben-abdallah.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/mongke-khan.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/mongke-khan.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/moulay-ismail.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/mozaffar-ad-din-shah-qajar.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/muawwaz-ibn-amr-ibn-al-jamuh.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/muayyad-al-din-al-urdi.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/muhammad-ahmad.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/muhammad-ali-pasha.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/muhammad-ibn-abd-al-malik-al-zayyat.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/muhammad-ibn-abi-al-layth.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/muhammad-ibn-abi-hisham.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/muhammad-ibn-al-ashath-al-khuzai.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/muhammad-ibn-al-daam.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/muhammad-ibn-al-saib-al-kalbi.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/person/muhammad-ibn-mustafa-al-bakri.yaml: summary states a death year ("المتوفى سنة 1162هـ") that disagrees with died.edtf 1782 by more than 2 years: correct the date from the record's source, or remove it
+warn  data/person/muhammad-ibn-nusayr.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/person/muhammad-ibn-sad.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/muhammad-ibn-said-al-maslub.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/person/muhammad-ibn-salih-al-uthaymin.yaml: traditions lists a Sunni tradition but the recorded faith has no Muslim value: a person who was not Muslim is not counted among a tradition
+warn  data/person/muhammad-ibn-tughj-al-ikhshid.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/muhammad-ibn-ziyad-al-arabi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/muhammad-ii-aghlabid.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/muhammad-shaybani.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/muhammad-tapar.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/muhammad-v-rashad.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/muhammad-zakariya-kandhlawi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/muizz-al-dawla.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/murad-ii-uthmani.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/murad-ii-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/murad-iii-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/murad-iv-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/musa-ibn-bayezid.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/mustafa-i-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/mustafa-ibn-bayezid.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/mustafa-ii-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/mustafa-iii-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/nadr-ibn-shumayl.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/napoleon-bonaparte.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/napoleon-bonaparte.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/nasir-al-dawla.yaml: summary states a death year ("assassinated at Takrit in 330") that disagrees with died.edtf 969 by more than 2 years: correct the date from the record's source, or remove it
+warn  data/person/nasir-al-dawla.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/nizami-i-arudi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/nuh-ibn-nasr.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/nur-al-din-mahmud-ibn-zangi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/oljeitu.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/oljeitu.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/peter-i-of-russia.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/peter-i-of-russia.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/peter-i-of-russia.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/petrus-alfonsi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/petrus-alfonsi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/qalawun.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/qaytbay.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/qaytbay.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/qunbul.yaml: summary states a death year ("d. 191") that disagrees with died.edtf 0904 by more than 2 years: correct the date from the record's source, or remove it
+warn  data/person/qutb-al-din-mawdud.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/qutuz.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/raja-ibn-haywa.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ramla-bint-al-zubayr.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ramla-bint-al-zubayr.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ramla-bint-al-zubayr.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/ramla-bint-al-zubayr.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/reverter.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/rustam-beg.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/saada-bint-kurayz.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/sabbatai-zevi.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/person/said-pasha.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/said-pasha.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/said-pasha.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/said-pasha.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/salih-ibn-mirdas.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/salih.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/salm-sahib-bayt-al-hikma.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/salm-sahib-bayt-al-hikma.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/sanjar.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/sasaa-ibn-najiya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/savasorda.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/savasorda.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/savasorda.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/savasorda.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/sawda-bint-umara.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/sawda-bint-umara.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/selim-i-ottoman.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/selim-ii-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/selim-iii-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/serigne-abdou-ahad-mbacke.yaml: roles lists "caliph" but no reign toward a caliphate polity is recorded yet (docs/plan/30)
+warn  data/person/serigne-mountakha-mbacke.yaml: roles lists "caliph" but no reign toward a caliphate polity is recorded yet (docs/plan/30)
+warn  data/person/serigne-saliou-mbacke.yaml: roles lists "caliph" but no reign toward a caliphate polity is recorded yet (docs/plan/30)
+warn  data/person/shah-alam-ii.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/shah-jahan-mughal.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/shariya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/shirinsho-shotemur.yaml: summary states a death year ("وفاته سنة 2006") that disagrees with died.edtf 1937-10-27 by more than 2 years: correct the date from the record's source, or remove it
+warn  data/person/sinnimar.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/sinnimar.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/subaya-bint-al-harith-al-aslamiyya.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/suhayl-zakkar.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/sulayman-al-halabi.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/person/sulayman-al-mustain-cordoba.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/sulayman-al-qanuni.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/sulayman-calabi-prince.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/sulayman-i-safavi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/sulayman-ii-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/sulayman-shah-ii-rum.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/sultan-husayn-safavi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/syed-ross-masood.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/taher-elgamal.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/tahmasp-i-safavi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/taqi-al-din-al-nabhani.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/taqi-al-din-umar.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/tughril-beg.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/tulayha-ibn-khuwaylid.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/person/tulayha-ibn-khuwaylid.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/person/turanshah.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/ubayd-allah-al-mahdi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/umama-bint-dhi-al-isba.yaml: traditions lists a Sunni tradition but the recorded faith has no Muslim value: a person who was not Muslim is not counted among a tradition
+warn  data/person/umm-aban-bint-utba.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/umm-al-khayr-bint-al-huraysh.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/umm-awf-wife-of-abu-al-aswad.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/umm-sinan-al-aslamiyya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/umm-sinan-bint-khaythama.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/umm-sinan-bint-khaythama.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/urkhan-ibn-uthman.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/uthman-ii-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/uthman-iii-uthmani.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/yahya-ibn-aktham.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/yahya-ibn-main.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/yaqub-al-mansur-al-muwahhidi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/person/yaqub-ibn-al-sukayt.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/yazid-ibn-muhammad-al-muhallabi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/person/zajla-al-abida.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/group/al-fuqaha-al-saba.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/group/al-fuqaha-al-saba.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/group/al-sasan.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/group/alevism.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/group/bakil.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/group/banu-maghala.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/group/banu-nasr.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/group/banu-saida.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/group/bektashiyya.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/group/hashid.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/group/ibadiyya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/group/jafari-madhhab.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/group/janissaries.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/group/murjia.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/group/mutazila.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/group/qadariyya.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/group/suez-canal-company.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/group/suez-canal-company.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/group/suez-canal-company.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/group/suez-canal-company.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/group/tabiun.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/group/tabiun.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/group/tabiun.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/group/tabiun.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/group/tabiun.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/polity/abbadids.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/polity/abbasid-caliphate.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/aghlabid-emirate.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/alawi-dynasty-morocco.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/almohad-caliphate.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/almoravid-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/anushtegin-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/ayyubid-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/bahri-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/banu-hud-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/burji-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/buyid-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/dulafid-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/fatimid-caliphate.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/ghaznavid-empire.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/ghurid-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/hafsid-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/hamdanid-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/hammudid-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/holy-roman-empire.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/idrisid-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/ikhshidid-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/ilkhanate.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/jalayirids.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/polity/jalayirids.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/polity/jalayirids.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/polity/jalayirids.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/polity/jalayirids.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/polity/jalayirids.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/polity/jalayirids.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/polity/kingdom-of-france.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/mamluk-sultanate.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/marinid-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/mirdasid-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/mughal-empire.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/muhammad-ali-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/ottoman-empire.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/qara-qoyunlu.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/republic-of-venice.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/rum-seljuk-sultanate.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/saadi-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/safavid-iran.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/sajid-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/samanid-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/sarbadarids.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/polity/sarbadarids.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/polity/sarbadarids.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/polity/sarbadarids.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/polity/sarbadarids.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/polity/sasanian-empire.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/seljuk-empire.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/tulunid-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/umayyad-caliphate.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/umayyads-of-cordoba.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/uqaylid-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/polity/zand-dynasty.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/event/31-march-incident-1909.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/abaza-uprisings.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/abbasid-dawa-in-khurasan.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/abd-al-rahman-i-founds-cordoba-mosque.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/abd-al-rahman-ii-expands-cordoba-mosque.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/abd-al-rahman-iii-minaret-cordoba.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/abdullah-ibn-umayya-rutbil-truce.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/abkhazov-expedition-ingushetia.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/abkhazov-expedition-ingushetia.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/abu-abd-allah-shii-maghreb-288.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/abu-al-atahiya-promises-horse-and-sends-his-brother-jarrah-285.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/abu-al-atahiya-promises-horse-and-sends-his-brother-jarrah-285.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/abu-al-dughaysh-submits-and-the-mosque-collapse-at-wasaha-285.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/abu-al-qasim-leads-the-friday-prayer-and-preaches-jihad-at-khiwan-286.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/abu-bakr-address-on-the-day-of-the-prophets-death.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/abu-bakr-address-on-the-day-of-the-prophets-death.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/abu-bakr-address-on-the-day-of-the-prophets-death.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/abu-bakr-address-on-the-day-of-the-prophets-death.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/abu-bakr-address-on-the-day-of-the-prophets-death.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/abu-bakr-address-on-the-day-of-the-prophets-death.yaml: relations[11]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/abu-bakr-leads-the-prayers.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/event/abu-bakr-leads-the-prayers.yaml: perspectives[2] (shia-twelver) cites no source: every opinion is cited
+warn  data/event/abu-bakr-naq-sortie.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/abu-futrus-massacre.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/abu-futrus-massacre.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/abu-qatada-dream-ruling.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/abu-qatada-dream-ruling.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/abu-qatada-dream-ruling.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/abu-qatada-dream-ruling.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/abu-qatada-dream-ruling.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/abu-said-qarmati-bahrayn-286.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/abu-sufyan-medina-mission.yaml: relations[11]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/abu-yazid-revolt-944.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/adal-war-1529.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/aden-unrest-2015.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/afghan-maratha-war.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/afshar-operation-1993.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/afshar-operation-1993.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ahlaf-banu-malik-war.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ahlaf-banu-malik-war.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ahmad-gran-harar-934.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ahmad-ibn-al-dahhak-and-murawwi-on-al-hadis-prayers-against-abu-mihjan-and-jaftam-286.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ahmad-ibn-al-dahhak-and-murawwi-on-al-hadis-prayers-against-abu-mihjan-and-jaftam-286.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ahmad-ibn-al-dahhak-and-murawwi-on-al-hadis-prayers-against-abu-mihjan-and-jaftam-286.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ahmad-ibn-al-dahhak-and-murawwi-on-al-hadis-prayers-against-abu-mihjan-and-jaftam-286.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/aishas-dream-of-three-moons.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/aishas-dream-of-three-moons.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/aishas-dream-of-three-moons.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/aishas-dream-of-three-moons.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/aishas-dream-of-three-moons.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/akhlat-fitna-604.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/akhlat-fitna-604.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/al-adil-takes-jaffa-593.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/al-daam-gives-up-the-fight-and-leaves-khiwan-for-ghuraq-286.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-daam-gives-up-the-fight-and-leaves-khiwan-for-ghuraq-286.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-daam-leaves-athafit-for-khiwan-and-the-plunder-of-athafit-285.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-daam-weighs-peace-with-al-hadi-and-sets-conditions-286.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-dahhaf-raids-yadr-of-banu-mazin-and-ali-ibn-muhammad-pursues-him-at-night-294.yaml: skirmish lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/al-dahhaf-raids-yadr-of-banu-mazin-and-ali-ibn-muhammad-pursues-him-at-night-294.yaml: skirmish has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/al-dawa-al-sirriyya.yaml: relations[18]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-fityun-killing.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-and-al-daam-confrontation-at-najd-al-dayr-285.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-and-the-appraisal-of-the-date-tithe-at-najran.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-and-the-people-of-al-asum-at-bayt-yathi-286.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-and-the-wrongdoers-of-banu-mamar-at-al-ahsa-and-the-first-days-at-hawth-286.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-and-the-wrongdoers-of-banu-mamar-at-al-ahsa-and-the-first-days-at-hawth-286.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-and-the-wrongdoers-of-banu-mamar-at-al-ahsa-and-the-first-days-at-hawth-286.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-applies-the-wine-penalty-at-saada-286.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-applies-the-wine-penalty-at-saada-286.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-al-darb-and-abu-al-qasim-joins-285.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-al-darb-harries-athafit-and-routs-the-sortie-285.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-al-darb-harries-athafit-and-routs-the-sortie-285.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-athafit-and-the-people-of-bayt-dhud-285.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-batnat-hujur-al-hisn-and-athafit-285.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-hawth-and-the-array-at-al-damriyya-286.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-hawth-and-the-array-at-al-damriyya-286.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-hawth-and-the-array-at-al-damriyya-286.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-khirfan-and-al-subay-and-the-march-to-hawth-286.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-khirfan-and-al-subay-and-the-march-to-hawth-286.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-khirfan-and-al-subay-and-the-march-to-hawth-286.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-khiwan-and-the-letter-of-al-daam-285.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-najran-oath-between-hamdan-and-banu-al-harith-284.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-najran-oath-between-hamdan-and-banu-al-harith-284.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-najran-oath-between-hamdan-and-banu-al-harith-284.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-najran-oath-between-hamdan-and-banu-al-harith-284.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-najran-oath-between-hamdan-and-banu-al-harith-284.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-najran-oath-between-hamdan-and-banu-al-harith-284.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-rajla-the-division-of-a-wrongdoers-crop-and-the-felling-of-his-palms-286.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-at-rajla-the-division-of-a-wrongdoers-crop-and-the-felling-of-his-palms-286.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-bayat-al-sabr-and-the-eclipse-prayer-286.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-bayat-al-sabr-and-the-eclipse-prayer-286.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-call-to-jihad-saada-284.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-call-to-jihad-saada-284.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-charge-to-his-governors-284.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-charge-to-his-governors-284.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-charge-to-his-governors-284.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-christian-slave-embraces-islam-and-is-freed.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-departure-from-al-fur-for-yemen.yaml: migration has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/al-hadi-distributes-the-najran-quarter-and-stays-until-ramadan-284.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-expedition-to-barat-285.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-expedition-to-barat-285.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-expedition-to-daa-of-shakir-and-return-to-saada-284.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-expedition-to-daa-of-shakir-and-return-to-saada-284.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-expedition-to-daa-of-shakir-and-return-to-saada-284.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-expedition-to-daa-of-shakir-and-return-to-saada-284.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-expedition-to-daa-of-shakir-and-return-to-saada-284.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-first-journey-peach-and-the-lamp-saying.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-flogs-a-drunkard-and-proclaims-the-penalties-at-najran.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-form-of-the-bayah-286.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-grants-banu-mamar-safe-conduct-on-21-shaban-286.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-grants-banu-mamar-safe-conduct-on-21-shaban-286.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-grants-banu-mamar-safe-conduct-on-21-shaban-286.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-has-the-loot-returned-and-the-gathering-on-the-day-of-arafa-285.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-has-the-loot-returned-and-the-gathering-on-the-day-of-arafa-285.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-humility-greetings-and-the-poor-at-the-mosque.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-insists-on-the-lawful-measure-of-the-tithe.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-insists-on-the-lawful-measure-of-the-tithe.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-judgment-on-highway-killers-285.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-leaves-saada-for-khiwan-and-the-dry-journey-286.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-letter-from-najran-and-the-meeting-with-al-daam-at-iyan-286.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-march-from-saada-to-najran-284.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-march-to-wasaha-and-governor-appointed-284.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-more-wine-penalty-reports-from-al-kufi-and-ibn-abi-hisham-286.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-more-wine-penalty-reports-from-al-kufi-and-ibn-abi-hisham-286.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-on-foreign-merchants-and-protection-of-the-dhimmis.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-on-foreign-merchants-and-protection-of-the-dhimmis.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-orders-on-poor-share-trade-and-jizya-284.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-orders-on-poor-share-trade-and-jizya-284.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-pardons-banu-mamar-at-al-ghubayyib-and-returns-to-khiwan-286.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-pardons-banu-mamar-at-al-ghubayyib-and-returns-to-khiwan-286.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-peace-between-banu-rabia-and-the-people-of-khirfan-and-al-subay-286.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-peace-between-banu-rabia-and-the-people-of-khirfan-and-al-subay-286.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-peace-between-banu-rabia-and-the-people-of-khirfan-and-al-subay-286.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-receives-a-petitioner-at-dawn.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-reconciles-khawlan-and-banu-salman-at-madhab-and-the-cloud-286.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-reconciles-khawlan-and-banu-salman-at-madhab-and-the-cloud-286.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-reconciles-khawlan-and-banu-salman-at-madhab-and-the-cloud-286.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-refuses-allegiance-to-a-man-in-forelock-dress.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-refuses-to-use-goods-from-the-tithe.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-refuses-to-use-goods-from-the-tithe.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-retaliation-for-a-slaves-blows-and-the-extra-lash-286.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-road-to-saada-well-and-zubayd.yaml: migration has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/al-hadi-sayings-recorded-at-saada.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-scrupulousness-and-refusal-of-revenue.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-scrupulousness-and-refusal-of-revenue.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-second-march-to-najran-and-the-hunaysh-affair-285.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-sends-abdullah-ibn-al-husayn-against-abu-al-dughaysh-285.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-sermon-on-intention-and-self-training-and-his-remark-on-dress-286.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-sets-out-against-al-daam-and-holds-council-285.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-settlement-with-the-dhimmis-of-najran-at-one-ninth-284.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-settlement-with-the-dhimmis-of-najran-at-one-ninth-284.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-seventeen-days-at-najran-and-the-prisoners-sent-to-al-ghayl-286.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-seventeen-days-at-najran-and-the-prisoners-sent-to-al-ghayl-286.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-simple-meal-and-kindness-to-orphans.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-small-acts-of-restitution-at-najran-and-bisha.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-small-acts-of-restitution-at-najran-and-bisha.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-stands-in-the-mahajja-at-athafit-285.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-stands-in-the-mahajja-at-athafit-285.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-the-conduct-of-his-majlis-as-muhammad-ibn-ubaydallah-saw-it-286.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-third-march-to-najran-and-the-troublemakers-of-lubayban-286.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-third-march-to-najran-and-the-troublemakers-of-lubayban-286.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hadi-third-march-to-najran-and-the-troublemakers-of-lubayban-286.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-hakam-ii-expands-cordoba-mosque.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/al-jawf-offensive-2020.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/al-mansur-eastern-expansion-cordoba.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/al-mufarraj-fortresses.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-nusayr-tikrit-raid.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/al-subki-qadi-damascus-739.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/albanian-revolt-1912.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/albanian-uprisings-ottoman.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/albanian-venetian-war-1447.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/algiers-joins-ottoman-1519.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ali-burns-those-who-deified-him.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/event/ali-burns-zarara-wine-village.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/event/ali-burns-zarara-wine-village.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/event/ali-burns-zarara-wine-village.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ali-dismisses-uthman-governors.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ali-enters-kufa-36.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ali-equal-distribution-of-fay.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/event/ali-expedition-to-al-fuls.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ali-ibn-muhammad-ambushes-a-clan-of-troublemakers-at-sawhan-294.yaml: raid lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ali-ibn-muhammad-ambushes-a-clan-of-troublemakers-at-sawhan-294.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ali-ibn-muhammad-reaches-saada-and-the-tabari-emigrants-285.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ali-ibn-muhammad-reaches-saada-and-the-tabari-emigrants-285.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ali-ibn-muhammad-seizes-qarmatians-at-mahdar-and-misses-husayn-ibn-husayn-294.yaml: raid lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ali-ibn-muhammad-seizes-qarmatians-at-mahdar-and-misses-husayn-ibn-husayn-294.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ali-judgment-on-the-debased-dirham-kufa.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/event/ali-market-rounds-kufa.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/event/ali-market-rounds-kufa.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/event/ali-moves-capital-to-kufa.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/event/ali-muawiya-truce-40.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ali-police-inquiry-missing-merchant.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/event/ali-police-inquiry-missing-merchant.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/event/ali-police-inquiry-missing-merchant.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ali-prays-in-bayt-al-mal.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/event/ali-spares-amr-ibn-al-as.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/event/alid-raid-on-medina-271.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/alid-raid-on-medina-271.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/almohad-wars-iberia-1172.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/alpujarras-rebellion-1568.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/angel-blows-spirit-into-fetus.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angel-blows-spirit-into-fetus.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angel-blows-spirit-into-fetus.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angel-blows-spirit-into-fetus.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angel-blows-spirit-into-fetus.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angel-blows-spirit-into-fetus.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-alternating-day-and-night.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-alternating-day-and-night.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-alternating-day-and-night.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-alternating-day-and-night.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-alternating-day-and-night.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-boast-of-the-worshippers.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-boast-of-the-worshippers.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-boast-of-the-worshippers.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-boast-of-the-worshippers.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-boast-of-the-worshippers.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-report-the-intended-sin.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-report-the-intended-sin.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-report-the-intended-sin.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-report-the-intended-sin.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-report-the-intended-sin.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-report-the-intended-sin.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-seek-the-dhikr-gathering.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-seek-the-dhikr-gathering.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-seek-the-dhikr-gathering.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-seek-the-dhikr-gathering.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-seek-the-dhikr-gathering.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-seek-the-dhikr-gathering.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-seek-the-dhikr-gathering.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-seek-the-dhikr-gathering.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-seek-the-dhikr-gathering.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-would-visit-your-houses.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-would-visit-your-houses.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-would-visit-your-houses.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-would-visit-your-houses.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/angels-would-visit-your-houses.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/anglo-bruneian-war.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/anglo-egyptian-war-1882.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/anglo-persian-capture-of-qeshm-1621.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/anglo-turkish-war-1918.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ansariya-ambush-1997.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/anti-fatimid-mahadir-444.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/apostate-war-philippines.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/aqsa-umayyad-completion.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/arab-conquest-of-kaikan.yaml: conquest lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/arab-conquest-of-kaikan.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/arabization-of-syrian-diwan.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/arafat-hajj-clash-583.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/arbitration-of-siffin.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/event/arbitration-of-siffin.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/event/arbitration-of-siffin.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/arhab-and-banu-salman-attack-on-khiwan-285.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/arhab-and-banu-salman-attack-on-khiwan-285.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/arhab-takes-athafit-and-abu-umar-is-killed-285.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/armenian-resistance-1915.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/armenian-revolt-850.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/asayfar-hajj-394.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ashraf-khalil-murder-693.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/assassination-of-kleber-1215.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/assault-on-germenchuk-1832.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/assault-on-germenchuk-1832.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/atsiz-egypt-defeat-469.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/attack-on-antalya-1472.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/attack-on-selarong.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/attack-on-sousse-1619.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/austro-turkish-war-1663.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/austro-turkish-war-1737.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/austro-turkish-war-1737.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/austro-turkish-war-1788.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ayn-al-warda.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ayn-zarba-massacre-347.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ayn-zarba-massacre-347.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ayn-zarba-massacre-351.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/azhar-founding-361.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/azov-war-1501.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/babylon-magic-trial.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/babylon-magic-trial.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/babylon-magic-trial.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/babylon-magic-trial.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/babylon-magic-trial.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/badr-imadiyya-harur-622.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/badr-qaratikin-qarmasin-377.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/badr-shush-619.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/baghdad-famine-334.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/baghdadi-aq-departs-nishapur-429.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/bahira-encounter.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/bahlawan-tabriz-573.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/bahmani-vijayanagar-war-1469.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/baitul-muqeet-mosque.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/baitul-muqeet-mosque.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/balams-fall.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/balams-fall.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/balams-fall.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/balams-fall.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/balams-fall.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/balanjar-disaster-32.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/baldwin-captured-harran-497.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/balkan-campaign-1529.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/balkh-qara-khitai-594.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/banu-mamar-come-down-on-khiwan-on-15-shaban-and-are-routed-286.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/banu-mamar-come-down-on-khiwan-on-15-shaban-and-are-routed-286.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/banu-mamar-come-down-on-khiwan-on-15-shaban-and-are-routed-286.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/barbastro-sack-456.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/basasiri-coup-450.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/bashkir-rebellion-1704.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/batroun-raid-2024.yaml: skirmish lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-ankara-804.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-at-jurjeve-stijene-1663.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-at-jurjeve-stijene-1663.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-at-trikorfa-1825.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-at-trikorfa-1825.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-bab-shiraz-297.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/battle-bir-uqba-943.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-chaldiran-920.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-for-baby-700-1915.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-for-jalibah-airfield-1991.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-for-no3-post-1915.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-ford-of-sorrows-575.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-mostaganem-965.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-navarino-1243.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-12th-outpost-1993.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-12th-outpost-1993.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-abraq-632.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-abu-hamed-1897.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-abu-hamed-1897.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-abu-kru-1885.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-abu-kru-1885.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-abukir-1799.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-acre-1840.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-addi-qarro-1578.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-adrianople-718.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-adrianople-718.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-afara-285.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/battle-of-afshin-against-azin.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-aghaiani-1625.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-agionori-1822.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-agionori-1822.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-agios-athanasios-1821.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-agios-athanasios-1821.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-agios-vlasios-1823.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-agueddin-1847.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-ajnadayn.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/battle-of-akcay-1398.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-akhalzic-1828.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-aksaray-1256.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-aksaray-1256.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-al-araba.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-al-bara-1097.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-al-fardal.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-al-funaydiq-1060.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-al-haffah-2012.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-al-jabiya.yaml: skirmish has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-al-kunasa.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-al-kut-2003.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-al-kut-2004.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-al-lith-1803.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-al-madhar.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-al-madhar.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-al-masini-valley-2018.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-al-masini-valley-2018.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-al-mukalla-2016.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-al-qarn-742.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-al-qaryatayn-2015.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-al-qaryatayn-2016.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-al-qaymun-615.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-al-radm.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-al-rai-2016.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-al-rayy-195.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-al-riyas-1329.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-al-riyas-1329.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-al-safra-1812.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-al-safra-1812.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-alamana-1821.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-albelda-851.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-albesa-1003.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-albesa-1003.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-albulena-1457.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-albulena-1457.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-alcala-de-henares.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-alcala-de-henares.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-alhandega-939.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-alinja-1399.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-almodovar-del-rio-1091.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-amba-sel-1531.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-amir-adzhi-yurt-1825.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-amir-adzhi-yurt-1825.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-amritsar-1757.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-anandpur-1700.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-andkhud-1204.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-andros-1825.yaml: naval-battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-ania-1304.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-aniforitos-1829.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-aniforitos-1829.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-anija-634.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-anija-634.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-anisha-634.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-anisha-634.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-antukyah-1531.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-aqbat-al-bakr-1010.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-araviana-1359.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-archidona-1434.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-archidona-1434.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-argvani-1839.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-argvani-1839.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-arnisol-1126.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-arouca-1102.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-arpachai-1807.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-arpachai-1807.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-artsap-647.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-asal-uttar-1965.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-ascalon-997.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-aspindza-1770.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-astarabad-1759.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-atbara-1898.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-avignon-737.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-axarquia-1483.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-bab-al-shammasiyya.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-bacente-1542.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-badeqe-1528.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-badli-ki-serai-1857.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-badli-ki-serai-1857.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-bagar-1192.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-baghuz-2019.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-bahadurpur-1658.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-bahadurpur-1658.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-baiji-2014.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-bairen-1097.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-bakhamra.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-bakhtrioni.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-balambangan-1775.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-balambangan-1775.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-bamut-1995.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-bamut-1995.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-baranow-1656.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-bashly-1818.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-bashly-1818.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-basian-1202.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-basian-1202.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-batawa-1268.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-batawa-1268.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-bayyana-891.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-bazias-1460.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-beas-river-1285.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-beja-1569.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-bekeriyah-1904.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-beshtamak-1774.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-beshtamak-1774.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-bileca-1388.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-bizani-1913.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-bolvadin-1116.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-boudouaou-1837.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-bougie-1835.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-bourgaon-535.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-bourgaon-535.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-braclaw-1671.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-brdici-1913.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-brdici-1913.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-breadfield-1479.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-brest-1592.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-brest-1596.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-brunei-town-1845.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-burbia-791.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-burmi-1903.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-buzaa-615.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/battle-of-buzludzha-1868.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-buzludzha-1868.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-calugareni-1595.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-campo-da-matanza-795.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-camurlu-1413.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-camurlu-1413.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-catlabuga-1485.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-cecora-1595.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-cecora-1620.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-cemhal-1630.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-cenei-1696.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-cerami-1063.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-cervera-1000.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-cesar-1035.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-cesar-1035.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-cetate-1853.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-cetate-1853.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-chalagan-1412.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-chamba.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-chappar-chiri-1710.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-chechen-aul-1732.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-chelif-1015.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-chelif-1015.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-chernaya-1855.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-chernaya-1855.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-chio-1239.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-chios-1912.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-choloki-1854.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-chuvash-cape-1582.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-cibistra-1304.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-cildir-1578.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-cillium-544.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-collejares-1406.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-constantine-1836.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-corbins-1126.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-cosmin-forest-1497.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-cresson-583.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ctesiphon-1915.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-cutanda-514.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-daan-1841.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-daan-1841.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-dabil-1517.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-dabul-1508.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-dadi-1822.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-dadi-yurt-1819.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-dadi-yurt-1819.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-dalas-1150.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-damghan-1063.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-daraa-city-2015.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-dathin.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-dayr-al-awar.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-dayr-al-jamajim.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-dayr-al-jathaliq.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-deciq-1911.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-deciq-1911.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-delanggu.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-deligrad-1806.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-deorai-1659.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-derna-1912.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-dervenakia-1822.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-dewair-1582.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-dewair-1582.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-dhu-qar.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-dhu-qissa-632.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-dhu-qissa-632.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-didgori-1121.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-dilam-1903.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-dilman-1915.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-dilman-1915.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-dimbos-1303.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-dimbos-1303.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-distomo-1827.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-distomo-1827.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-diu-915.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-diyarbakir-1436.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-diyarbakir-1511.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-djakovo-1537.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-djebel-sidi-aich-1954.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-doboj-1878.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-doliana-1821.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-dorote-1910.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-dragashani-1821.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-dragashani-1821.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-dubica-1513.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-dubica-1513.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-dubravnica-1381.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-dubravnica-1381.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-dul-madoba-1913.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-dunis-1876.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-dunis-1876.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-dvin-1103.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-dvin-1103.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-ecija-1039.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-el-buggar-ridge-1917.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-el-burj-1917.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-el-eilafun-1884.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-el-eilafun-1884.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-el-obeid-1883.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-elli-1912.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-ephesus-1147.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-erpeli-1823.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-erpeli-1823.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-erzurum-1877.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-estercuel-975.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-eupatoria-1855.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-fakhkh.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-fatagar-1559.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-ferkeh-1896.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ferkeh-1896.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-fihl.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-focsani-1789.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-fokshanach-1770.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-fort-vredeburg.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-foucht-1907.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-frenkyazisi-1386.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-fundina-1876.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-fundina-1876.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-galatsi-1821.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-galatsi-1821.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-gargaresc-1912.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-garibpur-1971.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-garisi-1556.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-gawakuke-1836.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-gawakuke-1836.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-gawok.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-gedaref-1898.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-gedaref-1898.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-gegodog-1676.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-gegodog-1676.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-gerace-952.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-germanikeia-949.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-germanikeia-949.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-geyve-1920.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ghaghra-1529.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ghamra-633.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ghazni-998.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ghwarah-marghah-1460.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-gimry-1832.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ginnis-1885.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-giurgiu-1595.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-gomit-1445.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-gradac-1666.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-gran-1685.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-graus-1063.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-graus-1063.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-grigoripolis-1785.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-grigoripolis-1785.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-grocka-1739.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-grozny-1996.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-grozny-1996.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-guadalacete-852.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-guadalete-745.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-gudermes-1995.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-guemoukoura-1872.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-gujranwala-1761.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-gujranwala-1965.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-gujranwala-1965.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-guler-1696.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-guler-1696.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-guruslau-1601.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-guruslau-1601.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-gute-dili-1888.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-hacihasanlar-1828.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-haddatha-skip.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-hadiya-1576.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-hafr-al-batin-1929.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-haifa-street-2007.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-hajjah-yemen.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-hajjah-yemen.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-hajla-1919.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-hajla-1919.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-hama-1230.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-hama-903.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-hamdh-1920.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-hanna-1916.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-hanna-1916.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-hannik-1585.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-harasta-2017.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-hareira-and-sheria-1917.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-harnaulgarh-1762.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-harnaulgarh-1762.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-hazalo-1559.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-hebron-1834.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-hebron-1834.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-heliopolis-1800.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-hella-1775.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-hijla-1918.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-hill-of-jews-1542.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-hillah-2003.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-hodow-1694.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-holy-apostles-1901.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-hosn-2014.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-hubat-1600.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-ibn-abi-dulaf-near-hamadhan.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-ichkeria-1842.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ichkeria-1842.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-iconium-1190.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-iconium-1190.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-ilamish-steppe-1210.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ilorin-1835.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-inab-544.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-inkerman-1854.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-inkerman-1854.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-isfahan-1497.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-iskhabad-940.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-isly-1250.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-isly-1844.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-ismailia-1952.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ivankovac-1805.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-iznik-1423.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-jabalia-2023.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-jabara-valley-2019.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-jabara-valley-2019.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-jacobs-ford-1179.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-jaghatu.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-jaghatu.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-jaji-1987.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-jarte-1542.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-jarte-1542.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-javor-1876.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-javor-1876.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-jezzine-1982.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-jhelum-1857.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-jilehoy-1787.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-jilehoy-1787.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-jolofland.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kaberten-1552.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kaffa-1616.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kafr-el-dawwar-1882.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kafr-el-dawwar-1882.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kagul-1770.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kairouan-1348.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kakhk-1754.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kakosalesi-1825.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kalamata-1821.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kalnik-1671.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kalnik-1671.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kandahar-2001.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kandahar-2001.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kanzan-1915.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kanzhal-1708.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-karagak-1543.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-karaisen-1868.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-karaisen-1868.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-karakilisa-1918.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-karansebes-1788.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-karapanova-koria-1868.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-karapanova-koria-1868.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-karbala.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-karbogazi-1920.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-karbogazi-1920.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kardzhali-1912.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kars-1745.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kars-1877.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kartarpur-1635.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kassala-1894.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kassandra-1821.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kastella-1827.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kastella-1827.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-katchkalikov-1787.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-katchkalikov-1787.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-katia-1916.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-katia-1916.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-katsaros-1821.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kavkaria-1827.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kavkaria-1827.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kazan-1708.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kazan-1708.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kejiwan.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kejiwan.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-keratsini-1827.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-keratsini-1827.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-keresztes-1596.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-keresztes-1596.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-khankala-1395.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-khankala-1807.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-khankala-1807.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-khatisopeli-1584.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-khatisopeli-1584.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-khiam-2000.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-khotyn-1621.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-khoy-1478.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-khoy-1478.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-khresili-1757.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-khresili-1757.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-khunzakh-1830.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kibosho-1891.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kinburn-1787.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kiratpur.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kirbekan-1885.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kirbekan-1885.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kireli-1472.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kireli-1472.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kirina-1235.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kirk-kilisse-1912.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kirkdilim-1392.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kirkhbulakh-1751.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kirkuk-1991.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kizil-tepe-1877.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kleisova-1825.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kleisova-1825.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kljuc-1463.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kobolkut-1663.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kokovo-1478.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kokovo-1478.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kolasin-1858.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kolasin-1858.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kompoti-1822.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kondurcha-1391.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kopidnadon-788.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-koprukoy-1916.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-koronisia-1829.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-koronisia-1829.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kosmidion-1410.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kota-batu-1578.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-koyulhisar-1461.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kozludzha-1774.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kozludzha-1774.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-krajova-1737.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-krajova-1737.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-krasnobrod-1672.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-krasnobrod-1672.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-krasos-804.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-krbava-field-1493.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-krbava-field-1493.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kremmydi-1825.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kremmydi-1825.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-krithia-1915.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kroya.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-krtsanisi-1795.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-krtsanisi-1795.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-krusevac-1454.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ksani-1625.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ksani-1625.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kucuk-kaynarca-1773.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kucuk-kaynarca-1773.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kufit-1885.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kulevicha-1829.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kumanovo-1912.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kumkale-1915.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kumkale-1915.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kunfuda-bay-1912.yaml: naval-battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kurds-and-arabs.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kurijan-1731.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kuskunkiran-1633.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-kuwayfia-1911.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-kwatarkwashi-1903.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-la-higueruela-1431.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-la-higueruela-1431.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-ladyzhin-1672.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-lahira-1634.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-lahore-1752.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-lahore-1759.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-lake-huleh-1771.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-lake-kahul-1574.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-lake-kahul-1574.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-lalas-1821.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-lalas-1821.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-larende-1468.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-larga-1770.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-larga-1770.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-las-babias-795.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-lavarug-1749.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-lebda-1911.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-lebda-1911.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-lengkong.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-lengkong.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-leskovac-1454.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-leskovac-1454.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-levashi-1819.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-levidi-1821.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-lezan.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-lhabrah-1835.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ljubic-1815.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ljubic-1815.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-lomtsi-1876.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-lomtsi-1876.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-lopate-1796.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-lule-burgas-1912.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-lule-burgas-1912.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-lwow-1675.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-lwow-1675.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-lycus-950.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-macta-1835.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-madain-942.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-magierow-1657.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-magierow-1657.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-malka-nidzhe-1916.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-malka-nidzhe-1916.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-maltakva.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-maltakva.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-mamma-688.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-mandora-1801.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mandora-1801.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-maniaki-1825.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-maniaki-1825.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-manupur-1748.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-manzikert-1915.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-manzikert-1915.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-manzikert-463.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-marabda-1625.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-marash-1920.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-marash-953.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mari-1266.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-maritsa-763.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/battle-of-maritsa-763.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-marj-al-saffar-1126.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-marj-al-saffar-1126.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-marj-al-suffar.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/battle-of-marj-al-suffar.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/battle-of-martino-1829.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-martino-1829.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-martorell-1114.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-martorell-1114.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-martos-1275.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-martqopi-1625.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-martynow-1624.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-maskin-against-ibn-al-ashath.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-mataraga-1878.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-mazagran-1840.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mecad-1465.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mecca-1813.yaml: conquest lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mecca-883.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-meckin-kamen-1903.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-meckin-kamen-1903.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-medan-1946.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-medina-1812.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-medina-elvira-899.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-mega-spilaio-1827.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mega-spilaio-1827.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-meghri-1725.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-mehr-1758.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mehr-1758.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-meimetaga-1826.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-membakut-1846.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-merhamli-1912.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-merhamli-1912.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-mers-el-fahm-1603.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mersivan-1101.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mesaimeer.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mezzeh-1148.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mihriban-1630.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-milin-kamak-1823.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-milin-kamak-1823.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-mirali-2007.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mirali-2007.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-mirbat-1972.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-misar-1806.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-moclin-1485.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mohacs-1687.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mohacs-1687.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-mokra-1445.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-mokra-1462.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mokra-1462.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-mokvi-1918.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-molodi-1572.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-molodi-1572.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-monastir-1912.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-monte-laturce-859.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-monte-laturce-859.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-monteagudo-1190.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-morella-1084.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mosul-1107.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mount-armenia-1282.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-mount-cadmus-1148.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mount-okolchitsa-1876.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mount-okolchitsa-1876.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-mount-tabor-1799.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mouzaia-1840.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mouzaia-1840.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-mouzaki-1878.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mouzaki-1878.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-mughar-ridge-1917.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-mukhrani-1582.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mukhrani-1582.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-mulayda-1891.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-mus-1916.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-nablus-1918.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-nachishkrevi-1784.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-nachishkrevi-1784.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-nadaun-1691.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-nadaun-1691.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-nahawand.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-nahr-al-kalb-1840.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-nahrawan.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/event/battle-of-najafgarh-1857.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-nakhiduri-1599.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-nanggulon.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-naqra-633.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-narol-1672.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-narol-1672.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-nicopolis-1877.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-nicopolis-1877.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-niemirow-1672.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-niemirow-1672.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-nihawand.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/battle-of-nihawand.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/battle-of-nihm-2015.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-nimes-736.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-nimes-736.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-nimla-1809.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-nimla-1809.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-nish-1443.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-novi-zrin-1663.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-novi-zrin-1663.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-novi-zrin-1663b.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-novi-zrin-1663b.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-nowosiolka-1688.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-ochmatow-1644.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-odaisseh-2024.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ohrid-1464.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-oramar-1917.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-oranik-1456.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-oryahovo-1877.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-orynin-1618.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-osma-934.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-osma-934.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-osogbo-1838.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-osogbo-1838.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-otlukbeli-1473.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-otocac-1543.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-otocac-1543.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-oued-aslaf-1847.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-oued-ourk-1349.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ouergha-1925.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-oujda-1248.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-oum-souigh-1915.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-pagatan.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-pagatan.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-palkhed-1728.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-pancorbo-816.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-paniowce-1633.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-paniowce-1633.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-parkany-1683.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-partskhisi-1569.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-paterna-1065.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-patraziki-1821.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-patraziki-1821.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-pelekanon-1329.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-pente-pigadia-1821.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-pente-pigadia-1897.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-pente-pigadia-1912.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-perast-1654.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-pererita-1691.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-pererita-1691.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-peta-1822.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-petrich-1876.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-petrich-1876.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-petrovaradin-1716.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-phaleron-1827.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-phase-line-bullet-1991.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-phase-line-bullet-1991.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-philomelion-1116.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-philomelion-1190.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-piedra-pisada-1084.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-plaka-1821.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-plaka-1821.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-plocnik-1386.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-podandus-878.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-podhajce-1667.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-porcosteni-1676.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-porcosteni-1676.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-portopi-1229.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-prilep-1912.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-puerto-lope-1394.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-puerto-lope-1394.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-qandabil-720.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-qarahamid-1510.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-qasr-salih.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-qatwan-1141.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-qbaada-1864.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-qbaada-1864.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-qizil-aghaj-1826.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-qizil-aghaj-1826.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-qurah-umm-al-maradim-1991.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ramadi-2014.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-rawdat-muhanna-1906.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ray-1224.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-raydah-288.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-rejaf-1897.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-rekha-842.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-rekha-842.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-rio-salado-1340.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-rio-verde-1448.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-riyadh-1902.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-rohilla-1621.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-romhany-1593.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-romhany-1593.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-romhany-1710.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-romhany-1710.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-roseires-1898.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-roseires-1898.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-rubas-river-1579.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-rueda-981.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-rukh-1779.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-rukh-1779.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-rymnik-1789.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-rymnik-1789.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sabilla-1929.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-safira-2013.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-saint-monica-1561.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-saksanjak-1526.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-saksanjak-1526.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-salahieh-1798.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sale-1260.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sale-1260.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-salgir-1737.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-salgir-1737.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-samadlo-1568.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-samos-1824.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sanandrei-1552.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sangrana-1628.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sar-weha-1888.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sara-yar-1868.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sara-yar-1868.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sarahs-1855.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sarantaporo-1912.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sarantaporo-1912.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sardrud-1408.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sariya-316.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sarkoy-1913.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sarkoy-1913.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sasu-1612.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sasu-1612.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sauran-1376.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-savra-1385.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sbeitla-540.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-scimitar-hill-1915.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sebastopolis-692.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sebou-river-1554.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-secany-1562.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-secany-1562.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-seltsou-1804.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-semarang-1945.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sembulan-1788.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-shadadeh-2013.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-shadhuna.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-shaer-gas-field-2014.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-shakarkhelda-1724.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-shanb-ghazan-1585.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-shar-al-shatt-1911.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sharon-1918.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sharqat-1918.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sharur-1501.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-shekvetili-1853.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-shimbra-kure-1529.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-shinanah-1904.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-shipka-pass-1877.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-shipka-pass-1877.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sialkot-1761.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sialkot-1763.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sidi-bilal-1912.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sidi-brahim-1845.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sidi-khalef-1830.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sidi-messaoud-1924.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sidi-messaoud-1924.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sidon-1840.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-siffin.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/event/battle-of-siffin.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/event/battle-of-sig-1835.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sikkak-1836.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sillabra.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-siluk-1829.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-simancas-939.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-simnitza-1877.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-simnitza-1877.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sinhagad-1670.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-siran-1120.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sirhind-1764.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-skalat-1657.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-slankamen-1691.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-slunj-1584.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-smardan-1878.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-somnath-1026.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sorovich-1912.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sorovich-1912.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-splantza-1822.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-stavuchany-1739.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-stuhlweissenburg.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-stuhlweissenburg.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-suakin-1888.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sudbischi.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sudbischi.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sumatovac-1876.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sumatovac-1876.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-sungei-koemba-1965.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-sungei-koemba-1965.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-surabaya-1677.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-svishtov-1877.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-syca-771.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-szeged-1552.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-szikszo-1588.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-szikszo-1588.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-tadla-1554.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tahudha.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-taif-1916.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tamai-1884.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tarafiyah-1907.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tarafiyah-1907.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-tarinkot-2016.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tashiskari-1609.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tashiskari-1609.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-tashkessen-1877.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tashkessen-1877.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-tawahin.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-teba-1330.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tednest-1514.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-tekirdag-1359.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tekirdag-1359.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-tel-el-khuweilfe-1917.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-telagh-1268.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-teleti-1522.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-tell-abyad-2016.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tell-asur-1918.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-temzezdekt-1327.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-teqoa-1138.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-terek-1395.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tevar-1090.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-the-aetolian-1823.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-the-barges-869.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-the-beaufort-1982.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-the-camel.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/event/battle-of-the-camel.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/event/battle-of-the-defile-113.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-the-guadiaro-1010.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-the-horns-of-hama-1175.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-the-irtysh-1306.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-the-irtysh-1306.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-the-karbala-gap-2003.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-the-marshes-1984.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-the-mire-1365.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-the-morcuera-865.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-the-nalon-river-795.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-the-nek-1915.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-the-orontes-994.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-the-puig-1237.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-the-ramganga-1020.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-the-samur-river.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-the-smala-1843.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-the-strait-740.yaml: naval-battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-the-tafna-1281.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-the-trench-1821.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-thessalonica-1416.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-thessalonica-1821.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tidore-1536.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tinramrin-1350.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tissa-1728.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tlemcen-1700.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tobruk-1911.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tofrek-1885.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tokhtamysh-river-1790.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tokhtamysh-river-1790.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-tondibi-1591.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tondibi-1591.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-tora-1006.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tora-1006.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-torrevicente-981.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-torvioll-1444.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-toulouse-721.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-trembowla-1675.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-tripoli-1911.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tripolje-1402.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tsikhedidi-1561.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tsikhedidi-1561.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-tsitsamuri-1615.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-tug-argan-1940.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tug-argan-1940.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-tukaroi-1575.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-tukaroi-1575.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-tulkarm-1918.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-tupraq-qaleh-1821.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-turabah-1919.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-turnadag-1515.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-turnu-1462.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-two-palms-1912.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-two-palms-1912.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-udgir-1760.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-udgir-1760.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-ulas-1696.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ulas-1696.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-ulubad-1422.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ulubad-1422.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-umm-diwaykarat-1899.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-una-1483.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-unaizah-1904.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-urfa-1920.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-ust-labinsk-1761.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-vaikal-1465.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-valdejunquera-920.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-valdejunquera-920.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-valea-alba-1476.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-valea-alba-1476.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-valerik-river-1840.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-valtetsi-1821.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-valtetsi-1821.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-varad-1664.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-varvarin-1810.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-varvarin-1810.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-vashlovani-1303.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-vaslui-1475.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-vega-de-pagana-1339.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-vega-de-pagana-1339.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-vescera-682.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-vezekeny-1652.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-vishovgrad-1868.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-vishovgrad-1868.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-vorontsovka-1918.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-voukolies-1897.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-vromopigada-1770.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-vrpile-1491.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-vrpile-1491.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-vucji-do-1876.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-vucji-do-1876.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-wadi-1916.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-walaja.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-wofla-1542.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-wofla-1542.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-yamama.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/battle-of-yamama.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/battle-of-yamama.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/battle-of-yamama.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/battle-of-yamama.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/battle-of-yaqub-and-hasan-ibn-zayd.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-yassicemen-1230.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-yaunis-khan-1516.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-yeghbark-sarak-643.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-yenidje-1912.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-yenisehir-1513.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-zabadani-2015.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-zadvarje-1646.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-zadvarje-1646.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-zahleh-1981.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-zajkany-1442.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-zajkany-1442.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-zanzur-1912.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-zedavela-1724.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-zedavela-1724.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-zerabulak-1868.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-zernest-1690.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-zernest-1690.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-zlatitsa-1443.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-zlatitsa-1443.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-zompe-bridge-1074.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-of-zurawno-1676.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-of-zynkow-1683.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-on-vrtijeljka-1685.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battle-on-vrtijeljka-1685.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battle-tarain-588.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battles-against-bedouin-near-samarra.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battles-of-almazan-and-moron.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battles-of-batocina-and-jagodina-1804.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battles-of-capakcur-1916.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battles-of-el-teb-1884.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battles-of-el-teb-1884.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/battles-of-heraclea-1101.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battles-of-zhawar-1985.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/battles-of-zhawar-1985.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/baya-of-uthman.yaml: council has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/baya-wilayat-ahd-yazid.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/beginning-of-the-qarmatians.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/belovski-raid-1876.yaml: raid lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/belovski-raid-1876.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/bengal-war-1756.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/bergmann-offensive-1914.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/berke-hulagu-war-663.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/bilal-and-shaytan-on-the-night-journey.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/bilal-and-shaytan-on-the-night-journey.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/bilal-and-shaytan-on-the-night-journey.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/bilal-and-shaytan-on-the-night-journey.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/bilal-and-shaytan-on-the-night-journey.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/bilal-and-shaytan-on-the-night-journey.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/black-stone-theft-317.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/building-of-al-mahuzah.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/building-of-the-kaaba.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/building-of-wasit.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/burmese-portuguese-conflicts.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/busr-raid-hijaz-yemen-40.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/buyid-entry-baghdad-334.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/byzantine-ottoman-war-1421.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/byzantine-ottoman-war-1421.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/byzantine-ransom-296.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/byzantine-sack-of-aleppo-351.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/byzantine-sasanian-war-602.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/byzantine-seljuk-war.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/cairo-caliphate-baya-659.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/capitulations-941.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/capture-of-aceca-1130.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/capture-of-banastharim-1512.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/capture-of-coruche-1180.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/capture-of-farurriyah-862.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/capture-of-gergebil-1843.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/capture-of-gergebil-1843.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/capture-of-jeddah-1813.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/capture-of-jeddah-1925.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/capture-of-karj.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/capture-of-korytsa-1912.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/capture-of-la-mamora-1614.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/capture-of-loulon-879.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/capture-of-lucknow-1858.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/capture-of-palermo-1036.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/capture-of-soure-1144.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/capture-of-tunis-1329.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/capture-of-wejh-1917.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/capture-santa-cruz-saadi-948.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/cave-of-the-three-men.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/cave-of-the-three-men.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/celali-revolts.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/chaambi-operations-2012.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/charge-at-sheria-1917.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/charge-at-sheria-1917.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/chem-river-battle-1300.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/chess-match-al-suli-and-al-mawardi.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/companions-dream-of-laylat-al-qadr.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/companions-dream-of-laylat-al-qadr.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/companions-dream-of-laylat-al-qadr.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/companions-dream-of-laylat-al-qadr.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/conquest-neuhausl-1074.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/conquest-of-al-badhdh-city-of-babak.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/conquest-of-al-hasa-1913.yaml: conquest lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/conquest-of-alexandria-by-abd-allah-ibn-tahir.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/conquest-of-armenia.yaml: campaign lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/conquest-of-ayla-566.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/conquest-of-caesarea.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/conquest-of-ceuta-1415.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/conquest-of-cyprus-829.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/conquest-of-dimyat-futuh-al-sham.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/conquest-of-dimyat-futuh-al-sham.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/conquest-of-fasa-and-darabjird.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/conquest-of-hail-1921.yaml: conquest lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/conquest-of-hispania.yaml: campaign lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/conquest-of-hit.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/conquest-of-iqritish.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/conquest-of-istakhr.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/conquest-of-kamkh.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/conquest-of-kamkh.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/conquest-of-kirman.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/conquest-of-marash.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/conquest-of-marash.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/conquest-of-masabadhan.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/conquest-of-persia.yaml: campaign lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/conquest-of-sind-89.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/conquest-of-syria.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/conquest-of-takrit.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/conquest-of-the-levant.yaml: campaign lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/conquest-of-the-maghreb.yaml: campaign lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/conquest-of-thessalonica-1430.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/conquest-of-tikrit.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/conquest-of-tripoli-1510.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/council-of-uhud.yaml: council has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/cretan-war-1645.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/crimean-circassian-war-1479.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/crimean-circassian-war-1539.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/crimean-circassian-war-1616.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/crusade-of-barbastro-1064.yaml: campaign lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/dagestan-campaign-1918.yaml: campaign lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/dagestani-persian-war.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/dagestani-persian-war.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/daquqa-battle-635.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/dar-al-ilm-cairo-400.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/dar-al-ilm-waqf-382.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/dardanelles-operation-1807.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/darul-islam-rebellion.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/day-of-habaa.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/day-of-habaa.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/day-of-rahrahan.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/day-of-rahrahan.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/day-of-shab-jabala.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/day-of-shab-jabala.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/day-of-zamora-901.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/daya-marj-defeat-584.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/daylam-buwayhid-rise-322.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/death-of-al-aghab.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/death-of-amina.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/death-of-habib-ibn-maslama.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/death-of-ibn-al-zubayr.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/death-of-salman-al-khayl.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/death-of-tughril-iii-590.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/death-of-umm-kulthum-bint-muhammad.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/death-zayn-al-din-irbil-588.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/deathbed-and-burial-of-sad-ibn-muadh.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/deathbed-and-burial-of-sad-ibn-muadh.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/deathbed-and-estate-of-salah-al-din.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/deathbed-and-estate-of-salah-al-din.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/deathbed-and-testament-of-abdullah-ibn-umar.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/defeat-of-yusuf-ibn-abi-l-saj-315.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/defence-of-iwardo-1915.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/deir-ez-zor-clashes-2018.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/deir-ez-zor-offensive-2014.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/delegation-of-banu-tamim.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/delegation-of-hamdan.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/delegation-of-kinda.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/dersim-uprisings.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/destruction-of-jadis.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/destruction-of-psara-1824.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/destruction-of-psara-1824.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/devil-at-the-well.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/devil-at-the-well.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/devil-at-the-well.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/dhat-al-sawari-31.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/dhimmi-dress-edict-429.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/disheveled-hair-like-shaytan.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/disheveled-hair-like-shaytan.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/disheveled-hair-like-shaytan.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/disheveled-hair-like-shaytan.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/disobedience-of-adam.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/disobedience-of-adam.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/disobedience-of-adam.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/disobedience-of-adam.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/disobedience-of-adam.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/disobedience-of-adam.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/distribution-of-hunayn-spoils.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/domestikos-defeat-343.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/don-volga-canal-977.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/dong-bangda-skip.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/dong-bangda-skip.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/dutch-mataram-conflicts.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/dutch-selangor-war.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/dutch-selangor-war.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/edessa-mandil-331.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/edigus-campaign-against-moscow-1408.yaml: campaign lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/end-of-almohads-668.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/end-of-jewish-supremacy-yathrib.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/end-of-jewish-supremacy-yathrib.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/end-of-the-battle-and-the-camp-at-al-darb-285.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/end-of-the-battle-and-the-camp-at-al-darb-285.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/end-of-the-battle-and-the-camp-at-al-darb-285.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/erzurum-offensive-1916.yaml: campaign lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ethiopian-mahdist-war.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/execution-of-salih-ibn-abd-al-quddus.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/expedition-of-al-qarada.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/expedition-of-al-qarada.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/expedition-of-nakhla.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/expulsion-of-jurhum.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/expulsion-of-najran.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/expulsion-of-najran.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/expulsion-of-najran.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/expulsion-of-najran.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/fall-and-rebuilding-of-qaliqala.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/fall-of-acropolis-1827.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/fall-of-alhama-887.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/fall-of-almeria-542.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/fall-of-barcelona-185.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/fall-of-loja-891.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/fall-of-majorca-627.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/fall-of-plered-1677.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/fall-of-raqqada-296.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/fall-of-ronda-890.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/fall-of-toledo-478.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/fall-of-tulunids-292.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/fall-of-velez-892.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/fallujah-ambush-2004.yaml: skirmish lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/farewell-admonition-reported-by-al-irbad.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/farewell-admonition-reported-by-al-irbad.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/farewell-admonition-reported-by-al-irbad.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/farewell-admonition-reported-by-al-irbad.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/farewell-admonition-reported-by-al-irbad.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/faryani-mahdi-848.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/fath-al-bari-yemen-901.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/fath-ma-wara-al-nahr.yaml: conquest lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/fatima-asks-for-servant-and-tasbih.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/fatima-asks-for-servant-and-tasbih.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/fatima-asks-for-servant-and-tasbih.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/fatimid-dinar-ban-427.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/fatimid-mahdi-maghreb.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/fifa-world-cup-2034.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/event/fighting-at-the-darb-gate-begins-on-tuesday-20-dhu-al-hijja-295.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/first-battle-of-al-faw-1986.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/first-battle-of-al-faw-1986.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/first-battle-of-amman-1918.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/first-battle-of-amman-1918.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/first-battle-of-blida-1830.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/first-battle-of-cellorigo-882.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/first-battle-of-cobadin-1916.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/first-battle-of-krithia.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/first-battle-of-mount-pamaton.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/first-crossing-of-darb-baghras.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/first-day-of-the-battle-of-athafit-285.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/first-egyptian-ottoman-war.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/first-raid-on-cyprus.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/first-rohilla-war-1773.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/first-serbian-uprising.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/first-tarnovo-uprising-1598.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/fitna-points-to-the-east.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/fitna-points-to-the-east.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/fitna-points-to-the-east.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/fitna-points-to-the-east.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/forana-revolt.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/forelock-in-shaytans-hand.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/forelock-in-shaytans-hand.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/forelock-in-shaytans-hand.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/forelock-in-shaytans-hand.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/founding-of-al-hadath.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/founding-of-kufa.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/founding-of-rafiqa.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/founding-of-tarsus.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/franks-banias-569.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/franks-sicily-484.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/french-campaign-egypt-1213.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/french-conquest-of-morocco.yaml: conquest lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/french-conquest-of-tunisia.yaml: conquest lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/french-conquest-of-tunisia.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/french-expedition-to-syria-1860.yaml: campaign lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/french-expedition-to-syria-1860.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/friday-hour-jinn-and-ins.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/friday-hour-jinn-and-ins.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/friday-hour-jinn-and-ins.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/friday-hour-jinn-and-ins.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/friday-hour-jinn-and-ins.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/friday-hour-jinn-and-ins.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/friday-hour-jinn-and-ins.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/friday-hour-jinn-and-ins.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/funeral-prayer-for-the-negus.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/fustat-burning-411.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/genoese-capture-tripoli-757.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/georgian-take-qars-604.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/georgians-azjish-606.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/georgians-sack-dvin-599.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ghadir-khumm.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/event/ghadir-khumm.yaml: perspectives[2] (shia-twelver) cites no source: every opinion is cited
+warn  data/event/ghiyath-fabricated-hadith.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ghurid-banaras-590.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/goharshad-incident-1935.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/goharshad-incident-1935.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/good-dream-a-forty-sixth-of-prophethood.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/good-dream-a-forty-sixth-of-prophethood.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/good-dream-a-forty-sixth-of-prophethood.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/good-dream-a-forty-sixth-of-prophethood.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/good-dream-a-forty-sixth-of-prophethood.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/good-dream-a-forty-sixth-of-prophethood.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/good-dream-a-forty-sixth-of-prophethood.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/good-dream-a-forty-sixth-of-prophethood.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/good-dream-a-forty-sixth-of-prophethood.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/good-dream-a-forty-sixth-of-prophethood.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/great-famine-260.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/greek-landing-smyrna-1919.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/greek-revolt-morea.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/guba-uprising-1826.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/habasha-spear-play-mosque.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/habasha-spear-play-mosque.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/habsburg-ottoman-war-1551.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/hadith-of-the-cloak.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/hadith-of-the-cloak.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/hadith-of-the-cloak.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/hadith-of-the-cloak.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/hadith-of-the-cloak.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/hadzi-prodans-rebellion-1814.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/hakam-revolt-damascus-809.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/hammadid-zirid-war.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/hanbali-ashari-fitna-835.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/harb-al-basus.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/harb-al-basus.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/harb-kab-ibn-amr.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/harb-samir.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/harb-samir.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/harith-ghassani-taghlib-war.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/harith-ibn-murra-sind-raid.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/harun-ransoms-and-conquests.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/hassan-uprising-1903.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/hejaz-rebellion-1932.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/herzegovina-uprising-1852.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/hilf-al-mutayyibin.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/himyari-founds-ahmadiyya-609.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/hisham-conquests.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/hispano-moroccan-war-1859.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/hit-offensive-2016.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/horse-race-musalla-al-ghaba.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/horse-race-musalla-al-ghaba.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/hujr-ibn-adi-killing.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/hujr-ibn-adi-killing.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/hujr-ibn-al-harith-killing.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/hundred-years-croatian-ottoman-war.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/hungarian-ottoman-war-1521.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/hungarian-turkish-war-1521.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/hungarian-turkish-war-1521.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/hunin-falls-583.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/husayn-leaves-mecca.yaml: migration has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ibn-al-mutazz-caliphate-296.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ibn-al-salah-sham-617.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ibn-al-wathhab-impostor-388.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ibn-al-zubayr-rebuilds-kaba.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ibn-ghaniya-ifriqiya-581.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ibn-humayd-meets-abu-jafars-collecting-party-and-kills-nine-foot-soldiers-295.yaml: skirmish lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ibn-umar-paradise-silk-dream.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ibn-umar-paradise-silk-dream.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ibn-umar-paradise-silk-dream.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ibn-umar-paradise-silk-dream.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ibn-umar-paradise-silk-dream.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ibn-umar-paradise-silk-dream.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ibn-zayd-dream-begins-the-adhan.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ibn-zayd-dream-begins-the-adhan.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ibn-zayd-dream-begins-the-adhan.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ibn-zayd-dream-begins-the-adhan.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ibn-zayd-dream-begins-the-adhan.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/if-only-opens-shaytans-door.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/if-only-opens-shaytans-door.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/if-only-opens-shaytans-door.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/if-only-opens-shaytans-door.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/if-only-opens-shaytans-door.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ifrit-of-the-jinn-seeks-the-prophet.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ifrit-of-the-jinn-seeks-the-prophet.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ifrit-of-the-jinn-seeks-the-prophet.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ifrit-of-the-jinn-seeks-the-prophet.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ifrit-of-the-jinn-seeks-the-prophet.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ifrit-of-the-jinn-seeks-the-prophet.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/inal-raid-byzantium-440.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/indo-pakistani-naval-war-1971.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/indo-pakistani-naval-war-1971.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/iran-wahhabi-war-1809.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/iraq-spring-fighting-2008.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ismail-turk-campaign-280.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ismail-turk-campaign-280.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/isra-and-miraj.yaml: perspectives[3] (academic) cites no source: every opinion is cited
+warn  data/event/israeli-incursions-in-tulkarm-2023.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ithriyah-raqqa-offensive-2016.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/iyad-incursion-into-armenia.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/jaffar-al-sadiq-house-400.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/jalal-ismaili-624.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/jalaluddin-death-amid-628.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/jalaluddin-defeat-627.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/jalaluddin-indus-618.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/jassasa-and-tamim-al-dari.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/jassasa-and-tamim-al-dari.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/jassasa-and-tamim-al-dari.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/jassasa-and-tamim-al-dari.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/java-war-1825.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/jerusalem-cession-626.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/jinn-delegation.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/jinn-delegation.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/jinn-delegation.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/jinn-in-solomons-court.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/jinn-in-solomons-court.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/jinn-in-solomons-court.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/jinn-in-solomons-court.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/jinn-in-solomons-court.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/johor-jambi-war-1666.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/johorean-invasion-aru-1540.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/joint-operation-arvand-1969.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/juwayni-succeeds-father-438.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/kab-al-ahbar-warning-on-iraq.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/kab-al-ahbar-warning-on-iraq.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/kab-al-ahbar-warning-on-iraq.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/kab-al-ahbar-warning-on-iraq.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/kab-al-ahbar-warning-on-iraq.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/kairouan-shii-massacre-407.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/kamal-adwan-hospital-siege-2023.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/kamal-adwan-hospital-siege-2023.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/kanz-al-dawla-revolt-570.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/kanz-al-dawla-revolt-570.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/kayqubad-arzinkan-625.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/khalid-frightening-dream.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/khalid-frightening-dream.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/khalid-frightening-dream.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/khalid-frightening-dream.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/khalid-frightening-dream.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/khalid-march-to-syria.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/khalid-march-to-syria.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/kharijite-revolt-against-muawiya.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/khartabirt-siege-601.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/khazar-armenia-raid.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/khirit-revolt-38.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/khita-jayhun-568.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/khiva-campaign-1873.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/khiva-campaign-1873.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/khivan-campaign-1839.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/khivan-campaign-1839.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/khosrow-derbent-wall.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/khuzaa-appeal-to-medina.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/khuzaa-bakr-clash-al-watir.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/khuzaa-bakr-clash-al-watir.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/khwarazm-jibal-613.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/khwarazmshah-captured-604.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/killing-of-abu-afak.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/killing-of-abu-firas-361.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/killing-of-amr-al-ashdaq.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/killing-of-amr-al-ashdaq.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/killing-of-amr-al-ashdaq.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/killing-of-asma-bint-marwan.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/killing-of-harith-ibn-surayj.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/killing-of-mansur-ibn-jamwana.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/killing-of-muhammad-ibn-abi-bakr.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/killing-of-yahya-ibn-zayd.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/killing-of-zayd-ibn-ali.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/kirkuk-raid-2016.yaml: raid lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/kuban-war-1571.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/kukar-revolt-602.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/kulayni-shaykh-rayy.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/landing-at-cape-helles.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/landing-at-suvla-bay-1915.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/landing-at-suvla-bay-1915.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/last-days-and-testament-of-umar-ibn-abd-al-aziz.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/layth-seizes-fars-shiraz-297.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/laz-rebellion-1832.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/letter-of-himyar-kings.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/letters-to-rulers-and-kings.yaml: relations[14]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/lian-between-uwaymir-and-his-wife.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/liberation-of-ioannina-1913.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/loja-sack-622.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/lone-rider-is-a-shaytan.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/lone-rider-is-a-shaytan.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/lone-rider-is-a-shaytan.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/lone-rider-is-a-shaytan.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/lone-rider-is-a-shaytan.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/loss-of-merida-626.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/lulu-takes-mosul-621.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/luso-adil-shahi-war.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/macedonian-rebellion-1854.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/macedonian-rebellion-1867.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mahdi-hajj-works.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mahdiyya-revolt-594.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/mahdiyya-revolt-594.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mahdiyya-yaqub-596.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/makassar-war.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/malay-acehnese-conflicts.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/malay-portuguese-war-1509.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/mamluk-campaign-mecca-1409.yaml: campaign lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/mamun-campaign-in-rum-218.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/manakh-al-rudayma-1823.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mangli-fall-612.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mansur-santiago-campaign-387.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/marinid-hafsid-wars.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/marinid-zayyanid-wars.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/marj-al-saffar-520.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/maroun-al-ras-clashes-2024.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/marriage-taking-the-forelock.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/marriage-taking-the-forelock.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/marriage-taking-the-forelock.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/marriage-taking-the-forelock.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/marriage-taking-the-forelock.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/marriage-to-khadija.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/martyrdom-of-farwa-al-judhami.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/martyrdom-of-hamza.yaml: no sources listed (every entity must cite at least one)
+warn  data/event/marwan-exhumes-yazid.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/masici-rebellion-1806.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/masjid-haram-expansion-17.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/massacre-of-dinawar.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/massacre-of-dinawar.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/massacre-of-hamadan.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/massacre-of-hamadan.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/massacre-of-monte-arruit-1921.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/massacre-of-monte-arruit-1921.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mataram-blambangan-war-1639.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/mataram-blambangan-war-1639.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mecca-medina-war-601.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/menorca-capture-685.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mir-muhammad-conquest-east-anatolia.yaml: conquest lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/mir-muhammad-conquest-east-anatolia.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mission-of-amr-ibn-umayya-against-abu-sufyan.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/mobilisation-for-syria.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/mobilisation-for-syria.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mokrani-revolt.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/moldavian-campaign-1684.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mongol-campaign-against-nizaris.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/mongol-conquest-of-anatolia.yaml: conquest lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/mongol-eruption-617.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mongol-invasions.yaml: campaign lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/mongol-raid-jazira-628.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mongol-sack-margha-618.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mongol-take-mazandaran-617.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/montenegrin-ottoman-war-1876.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/morean-war-1684.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/mudejar-revolt-1264.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/muezzin-witnessed-by-jinn.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/muezzin-witnessed-by-jinn.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/muezzin-witnessed-by-jinn.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/muezzin-witnessed-by-jinn.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/muezzin-witnessed-by-jinn.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/muezzin-witnessed-by-jinn.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/mughal-portuguese-war-1692.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mughal-safavid-war-1622.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mughal-safavid-war-1649.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/mughal-war-of-succession-1658.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/muhammad-ali-sham-campaign.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/muizz-al-dawla-iqta-334.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/multan-siege.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/munafarat-hashim-umayya.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/mungli-jibal-608.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/muqanna-revolt.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/muqanna-revolt.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/murad-iii-sadid-alliance-offer-988.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/murcia-surrender-643.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/murcia-surrender-643.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/murder-of-abu-muslim.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/murder-of-abu-muslim.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/murder-of-said-ibn-jubayr.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/murder-of-said-ibn-jubayr.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/murder-of-uthman.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/musa-bugha-expedition-263.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mushaqqar-massacre.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/mushaqqar-massacre.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/mushaqqar-massacre.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mushayil-revolt.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/mustain-sultanate-815.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/mustakfi-blinding-334.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/mustansir-iraq-expedition-660.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/mustansir-iraq-expedition-660.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mutadid-and-the-banu-shayban.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mutanabbi-flight-fustat-350.yaml: migration has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mutanabbi-left-kufa-316.yaml: migration has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mutanabbi-samawa-312.yaml: migration has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/mutawakkil-badajoz-killing-489.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/muttaqi-blinding-333.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/nadir-shah-sack-of-delhi-1739.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/nafs-al-zakiyya-revolt.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/najm-al-din-khilat-606.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/naning-war-1831.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/naning-war-1831.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/naousa-massacre-1822.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/naousa-massacre-1822.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/nasai-beating-damascus-303.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/nasai-rihla-lands-240.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ndf-rebellion-1978.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/nikephoros-harun-war.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/nizamiyya-founding-459.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/norman-capture-mahdiyya-543.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/nubia-conquest-674.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/numan-iii-death-khanaqin.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/numan-iii-death-khanaqin.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/nur-al-din-safed-552.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/oman-campaign-of-the-ridda.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/omens-of-kisra-at-birth.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/omens-of-kisra-at-birth.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/operation-al-shabah-2013.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/operation-density-2006.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/operation-grand-slam-1965.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/operation-grand-slam-1965.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ottoman-habsburg-war-1529.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ottoman-mamluk-war-1516.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ottoman-persian-war-1722.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ottoman-persian-war-1730.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ottoman-persian-war-1743.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ottoman-persian-war-1821.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ottoman-portuguese-conflicts-1538.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ottoman-portuguese-conflicts-1538.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ottoman-portuguese-conflicts-1586.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ottoman-portuguese-wars.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ottoman-raid-djerba-967.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/ottoman-safavid-war-1578.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ottoman-saudi-war-1811.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ottoman-spanish-war-1515.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ottoman-venetian-war-1463.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ottoman-venetian-war-1499.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ottoman-venetian-war-1537.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ottoman-venetian-war-1570.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ottoman-venetian-war-1714.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ottoman-zand-war-1774.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ottoman-zand-war-1774.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/paderborn-pact-160.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/paderborn-pact-160.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/padri-war-1803.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/palestine-arab-revolt-1936.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/parting-counsel-to-muadh-ibn-jabal.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/parting-counsel-to-muadh-ibn-jabal.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/parting-counsel-to-muadh-ibn-jabal.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/partition-of-meccan-offices.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/passerby-between-prayer-is-shaytan.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/passerby-between-prayer-is-shaytan.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/passerby-between-prayer-is-shaytan.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/passerby-between-prayer-is-shaytan.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/passerby-between-prayer-is-shaytan.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/patani-siamese-war-1633.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/pelayo-revolt-asturias.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/pen-and-paper-incident.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/event/pen-and-paper-incident.yaml: perspectives[2] (shia-twelver) cites no source: every opinion is cited
+warn  data/event/polish-ottoman-war-1485.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/polish-ottoman-war-1593.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/polish-ottoman-war-1672.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/polish-ottoman-war-1683.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/portuguese-adil-shahi-war.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/portuguese-adil-shahi-war.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/portuguese-ottoman-war-1509.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/portuguese-safavid-war.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/portuguese-take-hormuz-913.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/possessed-woman-ruqya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/possessed-woman-ruqya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/possessed-woman-ruqya.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/possessed-woman-ruqya.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/preparation-for-uhud.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/prophet-aisha-race-outbound.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophet-aisha-race-return.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophet-aisha-race-return.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophet-declines-ali-marriage-to-abu-jahls-daughter.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophet-declines-ali-marriage-to-abu-jahls-daughter.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophet-declines-ali-marriage-to-abu-jahls-daughter.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophet-rukana-wrestling.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophet-rukana-wrestling.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-counsel-on-copts-women-and-those-in-bondage.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-counsel-on-copts-women-and-those-in-bondage.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-counsel-on-copts-women-and-those-in-bondage.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-counsel-on-copts-women-and-those-in-bondage.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-counsel-on-copts-women-and-those-in-bondage.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-counsel-on-copts-women-and-those-in-bondage.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-last-counsels-in-final-illness.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-last-counsels-in-final-illness.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-last-counsels-in-final-illness.yaml: relations[11]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-last-counsels-in-final-illness.yaml: relations[12]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-last-counsels-in-final-illness.yaml: relations[13]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-vision-of-messiah-and-dajjal.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-vision-of-messiah-and-dajjal.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-vision-of-messiah-and-dajjal.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-vision-of-messiah-and-dajjal.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-vision-of-messiah-and-dajjal.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-vision-of-messiah-and-dajjal.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-vision-of-messiah-and-dajjal.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-warning-about-graves-in-final-illness.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-warning-about-graves-in-final-illness.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-warning-about-graves-in-final-illness.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-warning-about-graves-in-final-illness.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prophets-warning-about-graves-in-final-illness.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prostrations-of-forgetfulness-rebuke-shaytan.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prostrations-of-forgetfulness-rebuke-shaytan.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prostrations-of-forgetfulness-rebuke-shaytan.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prostrations-of-forgetfulness-rebuke-shaytan.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/prostrations-of-forgetfulness-rebuke-shaytan.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/pyatigorsk-war-1492.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/qaim-return-baghdad-451.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/qalat-jabar-564.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/qara-khitay-destroyed-604.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/qaratis-dinar-crisis.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/qareen-dialogue-in-the-fire.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/qareen-dialogue-in-the-fire.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/qareen-dialogue-in-the-fire.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/qareen-dialogue-in-the-fire.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/qareen-dialogue-in-the-fire.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/qareen-of-every-son-of-adam.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/qareen-of-every-son-of-adam.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/qareen-of-every-son-of-adam.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/qareen-of-every-son-of-adam.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/qarin-revolt-khurasan-32.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/qarmatian-actions-in-mecca.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/qarmatian-hajj-attack-302.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/qarmatian-sack-of-basra-311.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/qarmatians-taken-at-thala-and-al-dahhaf-taken-at-al-muwaqqiha-294.yaml: raid lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/qarmatians-taken-at-thala-and-al-dahhaf-taken-at-al-muwaqqiha-294.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/qatada-mina-raid-608.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/qatwan-battle-536.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/qing-kyrgyz-war-1758.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/qing-reconquest-of-xinjiang-1876.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/qumm-revolt.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/qumm-revolt.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/qutayba-khurasan-opening.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/rabih-war.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/raghib-naval-raid-285.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/raid-of-ghalib-on-banu-murra.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/raid-of-zayd-on-banu-fazara-and-umm-qirfa.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ramadan-chains-the-shayatin.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ramadan-chains-the-shayatin.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ramadan-chains-the-shayatin.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ramadan-chains-the-shayatin.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ramadan-chains-the-shayatin.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ramadan-chains-the-shayatin.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ramadan-chains-the-shayatin.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/rashid-founds-khizanat-al-hikma.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/rawandiyya-uprising.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/reconquest-of-gallipoli-1366.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/recording-angels-question-the-dead.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/recording-angels-question-the-dead.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/recording-angels-question-the-dead.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/red-sea-raid-578.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/reports-of-a-sight-restored-and-a-tongue-loosed-at-najran-286.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/reports-of-a-sight-restored-and-a-tongue-loosed-at-najran-286.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/reports-of-al-hadis-seal-and-two-cures-told-at-khiwan-286.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/reports-of-al-hadis-seal-and-two-cures-told-at-khiwan-286.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/reports-of-al-hadis-seal-and-two-cures-told-at-khiwan-286.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/reports-of-al-hadis-seal-and-two-cures-told-at-khiwan-286.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/reports-of-blessed-harvests-rain-and-grain-after-al-hadi-came-286.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/reports-of-rain-and-peace-after-al-hadi-reached-yemen-280.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/resistance-of-hadjin-1920.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/revolt-at-shibam-ibn-abbad-killed-288.yaml: revolt lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/revolt-at-shibam-ibn-abbad-killed-288.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/revolt-of-abbas-ibn-amr-al-ghanawi.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/revolt-of-abd-al-rahman-al-alawi-in-yemen.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/revolt-of-abu-al-saraya.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/revolt-of-al-shari.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/revolt-of-ali-ibn-ishaq.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/revolt-of-husayn-ibn-muhammad-al-talibi.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/revolt-of-ibn-al-ashath.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/revolt-of-ibn-muawiya-127.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/revolt-of-muhammad-ibn-ibrahim-tabataba.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/revolt-of-rafi-ibn-layth.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/revolt-of-salih-ibn-musarrih.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/revolt-of-sidi-lazraq-belhaj-1864.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/revolt-of-the-sahib-al-shama.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/revolt-of-yahya-ibn-umar-al-talibi.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/revolt-of-yazid-muhallab-101.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/revolt-of-zayd-ibn-ali.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/revolt-of-zayyad-ibn-salih.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/rif-war.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/roman-embassy-305.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/rooster-saw-an-angel.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/rooster-saw-an-angel.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/rooster-saw-an-angel.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/rooster-saw-an-angel.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/rozengracht-skip.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/rozengracht-skip.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/russo-kazan-war-1535.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/russo-kazan-war-1535.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/russo-persian-war-1651.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/russo-persian-war-1651.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/russo-persian-war-1722.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/russo-turkish-war-1686.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/russo-turkish-war-1735.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/russo-turkish-war-1735.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/russo-turkish-war-1768.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/russo-turkish-war-1768.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/russo-turkish-war-1787.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/russo-turkish-war-1787.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/russo-turkish-war-1806.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/russo-turkish-war-1806.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/rutbil-rabi-war.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/saadi-attack-tlemcen-963.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/sack-of-cordoba-1010.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/sack-of-damietta-238.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/sack-of-tinmel-674.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/sack-of-zibatra.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/safavid-circassian-war.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/safavid-invasions-of-basra.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/safsaf-conquest.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/said-bin-sultan-moves-capital-to-zanzibar.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/saladin-barin-573.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/salm-ibn-ziyad-khurasan.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/sanaa-rising-ahmad-ibn-mahfuz-288.yaml: revolt lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/sanjar-ghuzz-capture-548.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/sanjar-khuzistan-revolt-606.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/sarawak-uprising-1836.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/sariyya-of-abdullah-ibn-unays.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/sariyya-of-abu-ubayda-to-sif-al-bahr.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/sariyya-of-al-dahhak-to-banu-kilab.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/sariyya-of-ali-to-al-fals.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/sariyya-of-qutba-to-khatham.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/sariyya-of-uyayna-to-banu-tamim.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/sariyya-of-zayd-to-madyan.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/sarmari-ambush-620.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/saudi-mamluk-war-1790.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/saudi-mamluk-war-1790.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/sayf-dawla-domesticos-342.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/second-attack-on-pleven-1877.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/second-attack-on-pleven-1877.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/second-battle-of-al-shaykh-maskin-2015.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/second-battle-of-athafit-al-kitd-and-the-ambush-285.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/second-battle-of-blida-1832.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/second-battle-of-catalca-1913.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/second-battle-of-cobadin-1916.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/second-battle-of-doliana-1825.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/second-battle-of-el-teb-1884.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/second-battle-of-el-teb-1884.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/second-battle-of-krithia-1915.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/second-egyptian-ottoman-war.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/second-fitna.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/second-melillan-campaign-1909.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/second-raid-on-cyprus.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/second-raid-on-cyprus.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/second-scutari-ottoman-war-1791.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/second-serbian-uprising.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/second-siege-of-diu-1546.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/seljuk-takeover-khurasan-430.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/serbian-ottoman-war-1876.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/serbian-ottoman-wars.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/serbian-ottoman-wars.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/seventh-siege-of-gibraltar-1436.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/shahrij-slave-aman.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/shammar-obaidi-war.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/shammar-obaidi-war.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/shaqq-al-sadr.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shayatin-turned-servants-from-hanifiyya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shayatin-turned-servants-from-hanifiyya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shayatin-turned-servants-from-hanifiyya.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shayatin-turned-servants-from-hanifiyya.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shayatin-turned-servants-from-hanifiyya.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-confuses-the-prayer-count.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-confuses-the-prayer-count.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-confuses-the-prayer-count.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-confuses-the-prayer-count.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-eats-and-drinks-with-the-left-hand.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-eats-and-drinks-with-the-left-hand.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-eats-and-drinks-with-the-left-hand.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-household-protections.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-household-protections.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-household-protections.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-household-protections.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-insinuates-at-one-or-two.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-insinuates-at-one-or-two.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-insinuates-at-one-or-two.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-insinuates-at-one-or-two.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-made-qareen.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-made-qareen.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-made-qareen.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-made-qareen.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-made-qareen.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-made-qareen.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-made-qareen.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-schemes-at-the-adhan.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-schemes-at-the-adhan.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-schemes-at-the-adhan.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-schemes-at-the-adhan.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-ties-knots-on-the-sleeper.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-ties-knots-on-the-sleeper.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-ties-knots-on-the-sleeper.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-ties-knots-on-the-sleeper.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-unmasked-before-hijra.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-unmasked-before-hijra.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-unmasked-before-hijra.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-weakest-on-arafat-strongest-on-badr.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-weakest-on-arafat-strongest-on-badr.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-weakest-on-arafat-strongest-on-badr.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-weakest-on-arafat-strongest-on-badr.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-weakest-on-arafat-strongest-on-badr.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/shaytan-weakest-on-arafat-strongest-on-badr.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/sheikh-bashir-rebellion-1945.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/shia-uprising-iraq-1979.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/shirkuh-egypt-expedition-562.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/shirvan-deposition-622.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/shura-council-of-uthman.yaml: council has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siamese-burmese-war-skip.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-abu-al-duhur-2015.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-afrau-1921.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-afrau-1921.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-agdoz-1923.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-agdoz-1923.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-akhoulgo-1839.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-akhoulgo-1839.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-al-damus-1210.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-alamut-1092.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-alamut-1256.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-alinja-1388.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-alinja-1388.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-anakopia.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-anapa-1828.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-anapa-1828.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-arqa-1099.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-arsamosata-837.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-asilah-1508.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-atskuri-1770.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-azov-1637.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-azov-1736.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-barbastro-1065.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-barbastro-1065.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-base-46-2012.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-bayana-1196.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-baza-894.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-benambre-1527.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-bender-1738.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-berat-1455.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-bhatner-1398.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-bijapur-1685.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-birtvisi-1403.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-calatayud-1120.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-cartagena-1245.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-cawnpore-1857.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-ceuta-1694.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-chlemoutsi-1821.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-constantine-1837.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-constantinople-1391.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-constantinople-626.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-cordoba-1146.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-coria-1142.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-cuddalore-1783.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-damietta-1249.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-darayya-muadamiyat.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-diriyah-1818.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-diu-1531.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-diu-1538.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-dregely-1544.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-dryanovski-monastery-1876.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-dvin-640.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-dvin-927.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-el-obeid.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-el-obeid.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-ersekujvar-1663.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-fez-1912.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-gardiki-1460.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-gerdkuh-1253.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-gerdkuh-1253.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-gerger.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-ghunib-1859.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-goa-1517.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-goa-1570.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-golubac-1428.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-graciosa-1489.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-hamadan-1047.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-herat-604.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-hexamilion-wall-1446.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-honavar-1571.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-hooghly-1632.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-hubat-1600.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-ibn-al-zubayr-64.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/siege-of-ibn-al-zubayr-72.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-ighriben-1921.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-inegol-1299.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-izmail-1790.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-kalonoros-1221.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-kamenets-1651.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-kandahar-1737.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-karacahisar-1232.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-khokhanaberd-1236.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-kinburn-1771.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-kitab-1870.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-kudia-tahar-1925.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-kudia-tahar-1925.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-kulaca-hisar-1285.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-lambsar-1256.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-lambsar-1256.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-lazarevsky-1840.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-lazarevsky-1840.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-lerida-884.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-lerida-942.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-lisbon-1109.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-lleida-1122.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-lleida-1122.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-lleida-800.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-lohkot-1015.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-lohkot-1015.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-lucknow-1857.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-malta-1565.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-manzikert-1054.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-maymun-diz-1256.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-maymun-diz-1256.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-medina-1916.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-medina-malta-1053.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-mehadia-1717.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-mendenitsa-1821.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-messina-1041.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-messina-842.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-moncao-1369.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-montesa-1277.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-monzon-1089.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-morella-1117.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-mosul-1261.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-mukha-1423.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-mytilene-1501.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-narbonne-752.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-neocaesarea-1140.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-nicaea-1097.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-nizovoy-1843.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-nizovoy-1843.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-north-gaza-2024.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-novo-brdo-1441.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-panhala-1660.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-patani-1632.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-patras-1822.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-pelayo-735.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-perekop-1736.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-ragusa-866.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-salses-1285.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-samarkand-1497.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-samarkand-1868.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-sarai-1395.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-shahrukhiya-1461.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-shahrukhiya-1462.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-shkodra-1479.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-sidi-dris-1921.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-sidi-dris-1921.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-sofia-1382.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-sorapani-1769.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-sozopetra-837.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-st-george-cephalonia-1500.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-svetigrad-1448.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-taif-1814.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-tarki-1831.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-tarki-1831.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-tarsus-1097.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-tata-1593.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-tata-1597.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-tbilisi-1122.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-tbilisi-628.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-tenedos-1657.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-thessalonica-685.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-tlemcen-1299.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-toledo-1090.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-trebinje-1716.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-trebizond-1222.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-tudela-1087.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-ujvar-1685.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-ura-tyube-1866.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-urgun-1983.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-valencia-1102.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-varad-1598.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-varnakova-1826.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-varpalota-1593.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-visegrad-1684.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/siege-of-wadi-barada-2016.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-xerigordon-1096.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-of-zaragoza-1086.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/siege-vienna-1094.yaml: siege has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/sieges-of-ceuta-1694.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/sihr-against-the-prophet.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/sihr-against-the-prophet.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/sihr-against-the-prophet.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/sirsuti-defeat-584.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/sixth-siege-of-gibraltar-1411.yaml: siege lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/skanderbeg-rebellion.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/snake-jinn-of-medina.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/snake-jinn-of-medina.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/snake-jinn-of-medina.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/snake-jinn-of-medina.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/snake-jinn-of-medina.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/somnath-raid-416.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/sorcerers-of-pharaoh.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/sorcerers-of-pharaoh.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/sorcerers-of-pharaoh.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/sorcerers-of-pharaoh.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/sorcerers-of-pharaoh.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/sorcerers-of-pharaoh.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/souliote-war-1789.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/southern-yemen-clashes-2019.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/splitting-of-the-moon.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/stoning-of-al-ghamidiyya.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/storming-of-pleret-1826.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/sukhumi-landing.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/sulayman-khadim-india-945.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/sulh-ubaydallah-rutbil.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/sun-and-the-shaytans-horn.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/sun-and-the-shaytans-horn.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/sun-and-the-shaytans-horn.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/sun-and-the-shaytans-horn.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/tahlil-shield-from-shaytan.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/tahlil-shield-from-shaytan.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/tahlil-shield-from-shaytan.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/tahlil-shield-from-shaytan.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/tahlil-shield-from-shaytan.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/taj-al-din-kirman-hormuz-611.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/taj-al-din-kirman-hormuz-611.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/takovo-meeting-1815.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/taqi-al-din-routs-qilij-arslan-579.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/tarsus-raid-345.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/tarsus-sedition.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/tasm-jadis-destruction.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/tatar-conquest-begins-652.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/tayma-dahhak-raids-39.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/tayyi-hajj-raid-289.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/temryuk-war-1551.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ternate-portuguese-conflicts.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/testament-of-fatima-bint-muhammad.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/testament-of-fatima-bint-muhammad.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/text-of-al-hadis-settlement-letter-with-the-dhimma-of-najran-284.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/text-of-al-hadis-settlement-letter-with-the-dhimma-of-najran-284.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/text-of-al-hadis-settlement-letter-with-the-dhimma-of-najran-284.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-books-answer-why-al-hadi-did-not-call-down-harm-on-his-opponents-286.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-books-answer-why-al-hadi-did-not-call-down-harm-on-his-opponents-286.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-hypocrites-prayer.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-hypocrites-prayer.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-hypocrites-prayer.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-hypocrites-prayer.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-hypocrites-prayer.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-praising-servant.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-praising-servant.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-praising-servant.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-prophets-dream-of-the-lofty-assembly.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-prophets-dream-of-the-lofty-assembly.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-prophets-dream-of-the-lofty-assembly.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-prophets-dream-of-the-lofty-assembly.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-prophets-dream-of-the-lofty-assembly.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-prophets-dream-of-the-lofty-assembly.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-prophets-dreams-of-umar.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-prophets-dreams-of-umar.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-prophets-dreams-of-umar.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-prophets-dreams-of-umar.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-prophets-dreams-of-umar.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/the-prophets-dreams-of-umar.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/third-anglo-mysore-war.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/thrace-uprising-1829.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/timur-sack-damascus-803.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/tirah-campaign-1897.yaml: campaign lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/tirah-campaign-1897.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/tirahiyya-victory-602.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/tirmidhi-marw-masters-240.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/tokhtamysh-timur-war.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/transylvanian-ottoman-war-1612.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/transylvanian-ottoman-war-1612.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/treaty-belgrade-1152.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/treaty-crepy-1544.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/treaty-karlowitz-1110.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/treaty-kucuk-kaynarca-1187.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/treaty-of-edirne-1829.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/treaty-of-hasan-and-muawiya.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/treaty-passarowitz-1130.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/treaty-pruth-1123.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/treaty-szeged-848.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/treaty-szeged-848.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/treaty-with-jarajima.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/treaty-with-jarajima.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/treaty-with-jarajima.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/treaty-with-samaritans.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/treaty-with-taghlib.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/treaty-with-taghlib.yaml: treaty has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/trebizond-campaign-1916.yaml: campaign lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/tudela-tarazona-524.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/tughril-qizil-war-584.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/tughril-takes-rayy-435.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/turkoman-revolt-1912.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/uhud-archers-mistake.yaml: no sources listed (every entity must cite at least one)
+warn  data/event/uhud-banner-bearers.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/uhud-banner-struggle.yaml: no sources listed (every entity must cite at least one)
+warn  data/event/uhud-first-duel.yaml: no sources listed (every entity must cite at least one)
+warn  data/event/uhud-initial-victory.yaml: no sources listed (every entity must cite at least one)
+warn  data/event/umar-devil-avoids-his-path.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/umar-devil-avoids-his-path.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/umar-devil-avoids-his-path.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/umar-devil-avoids-his-path.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/umar-ghul-encounter.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/umar-ghul-encounter.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/umar-ii-ends-sabb-ali.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/umar-prayer-at-the-sunrise.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/umar-prayer-at-the-sunrise.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/umar-prayer-at-the-sunrise.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/umar-prayer-at-the-sunrise.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/unification-of-saudi-arabia.yaml: campaign lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/uprising-of-konstantin-and-fruzhin.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/uprising-of-mukhtar.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/ustadhsis-revolt.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/uthman-expands-two-mosques.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/utrar-massacre-615.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/utrar-massacre-615.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/wadai-war-1906.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/wadai-war-1906.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/wahehe-war-1890.yaml: war has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/waki-ibn-hassan-baya.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/walid-ibn-tarif-revolt-178.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/waqat-al-harra.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/waqat-al-harra.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/war-of-crete-1055.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/war-of-mosul-1106.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/war-of-south-danube-1420.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/war-of-the-league-of-the-indies-1570.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/war-of-the-straits-1350.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/warqa-ajfar-raid-303.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/wasit-batini-killing-600.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/wasit-batini-massacre-601.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/wasit-batini-massacre-601.yaml: massacre has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/wednesday-battle-at-darb-gate-breaks-the-wall-and-abu-jafar-charges-back-295.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/woman-and-the-blood-at-the-kaaba-door.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/woman-and-the-blood-at-the-kaaba-door.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/woman-and-the-blood-at-the-kaaba-door.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/woman-and-the-blood-at-the-kaaba-door.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/yanina-ottoman-war.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/yaqub-ibn-layth-takes-kirman.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yashbak-ruha-defeat-885.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yassichimen-627.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yawm-al-burdan.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yawm-al-ghar-389.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/yawm-al-jufar.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yawm-al-kullab-al-thani.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yawm-al-kullab.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yawm-al-nabaj-thaytal.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yawm-al-nasar.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yawm-al-shaqiqa.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yawm-al-silan.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/yawm-al-silan.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yawm-awara-al-thani.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yawm-awara-al-ula.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yawm-dhi-alq.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yawm-dhi-najb.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yawm-fayf-al-rih.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yawm-halima.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yawm-khazaz.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yawm-zahr-al-dahna.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yazid-khurasan-campaigns.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/year-of-the-elephant-and-birth.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/yemeni-sack-mecca-620.yaml: raid has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/yenibahce-uprising-1512.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/zahir-najm-castle-599.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/zakarawayh-the-qarmatian.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/zanj-capture-of-ahwaz.yaml: conquest has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/zanj-revolt-begins.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/zanj-sack-of-basra-257.yaml: massacre lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/zayyanid-iberian-conflicts.yaml: war lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/zeitun-rebellion-1895.yaml: revolt has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/zeitun-resistance-1914.yaml: battle lists 0 sides; conflicts must show both sides (sides[] with at least two)
+warn  data/event/zeitun-resistance-1914.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/zindiq-hadith-sifters.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/ziyad-mosque-rebuild.yaml: founding has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/zuhayr-bakr-taghlib-war.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/zuhayr-bakr-taghlib-war.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/zuhayr-ghatafan-haram-war.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/zuhayr-ghatafan-haram-war.yaml: battle has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/event/zuhayr-ibn-janab-wars.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/event/zuhayr-ibn-janab-wars.yaml: campaign has no coordinates (a place with coordinates or map.center) so no map can be drawn
+warn  data/journey/isra-and-miraj-route.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/journey/isra-and-miraj-route.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/journey/silk-road.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/journey/silk-road.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/adana.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/aden.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/agra.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/akka.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/al-ahwaz.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/al-fustat.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/al-jabiya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/al-jabiya.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/al-jabiya.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/al-madain.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/al-shash.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/al-sunh.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/al-sus.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/al-ukhdud.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/al-ukhdud.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/aleppo.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/almeria.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/ambedkar-nagar-district.yaml: no sources listed (every entity must cite at least one)
+warn  data/place/amid.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/amman.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/amol.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/antioch.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/ardabil.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/ascalon.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/asia-minor.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/attica.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/attock-district.yaml: no sources listed (every entity must cite at least one)
+warn  data/place/babil.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/baghdad.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/balkh.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/banjarmasin.yaml: no sources listed (every entity must cite at least one)
+warn  data/place/basra.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/belgrade.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/bithynia.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/biyala.yaml: no sources listed (every entity must cite at least one)
+warn  data/place/bukhara.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/burhanpur.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/bursa.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/byzantine-empire.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/cairo.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/cappadocia.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/ceuta.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/cilicia.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/constantine.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/cordoba.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/crete.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/dalmatia.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/damascus.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/darabjird.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/dawan.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/delhi.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/dhaka-division.yaml: no sources listed (every entity must cite at least one)
+warn  data/place/duval-county.yaml: no sources listed (every entity must cite at least one)
+warn  data/place/edirne.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/ephesus.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/euboea.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/fars.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/fasa.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/gaul.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/gaza.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/ghazna.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/granada.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/greece.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/gujarat-sultanate.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/hama.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/hamadhan.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/harat.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/harran.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/hazara-division.yaml: no sources listed (every entity must cite at least one)
+warn  data/place/herat.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/hilla.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/hispania.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/homs.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/india.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/irbil.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/isfahan.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/istakhr.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/istanbul.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/izmir.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/jabal-ayr.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/jabal-thawr-madina.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/jabala.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/jalandhar-district.yaml: no sources listed (every entity must cite at least one)
+warn  data/place/jannaba.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/jayy.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/jerusalem.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/kabul.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/kaimur-district.yaml: no sources listed (every entity must cite at least one)
+warn  data/place/kashan.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/kastamonu-province.yaml: no sources listed (every entity must cite at least one)
+warn  data/place/khilat.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/khoy.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/kirman.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/ko-arl-district.yaml: no sources listed (every entity must cite at least one)
+warn  data/place/kufa.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/lesbos.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/london.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/malab-iskandariyya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/malaga.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/mardin.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/marrakesh.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/mayyafariqin.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/mecca.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/merv.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/mesopotamia.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/misr.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/monmouth-county.yaml: no sources listed (every entity must cite at least one)
+warn  data/place/mosul.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/mukalla.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/murshidabad.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/muscat.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/muzaffarnagar-district.yaml: no sources listed (every entity must cite at least one)
+warn  data/place/nishapur.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/palermo.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/paphlagonia.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/peloponnese.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/petra.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/pisidia.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/port-said.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/port-said.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/port-said.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/port-said.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/port-said.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/port-said.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/prizren-municipality.yaml: no sources listed (every entity must cite at least one)
+warn  data/place/qayrawan.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/qazvin.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/qinnasrin.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/qumm.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/rabat.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/ramhurmuz.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/ramla.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/raqqa.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/rasht.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/rayy.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/samarqand.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/samarra.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/sanaa.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/saqifat-bani-saida.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/sari.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/seville.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/shabwa.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/shiraz.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/sidon.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/sijilmasa.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/sinjar.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/siqilliya.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/sokoto-state.yaml: no sources listed (every entity must cite at least one)
+warn  data/place/south-kalimantan.yaml: no sources listed (every entity must cite at least one)
+warn  data/place/suez-canal.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/suez-canal.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/suez-canal.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/suez-canal.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/suez-canal.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/sultaniyya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/sultaniyya.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/sultaniyya.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/sultaniyya.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/sultaniyya.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/sultaniyya.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/sultaniyya.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/sultaniyya.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/sultaniyya.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/sur.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/surqusa.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/surraq.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/syria.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/tabriz.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/tarabulus-sham.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/taraz.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/tarsus.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/tartar-district.yaml: no sources listed (every entity must cite at least one)
+warn  data/place/tehran.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/tiberias.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/tiflis.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/tirmidh.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/tulaytula.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/tunis.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/tustar.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/tyre.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/valencia.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/wadi-al-rukkad.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/wadi-al-rukkad.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/place/wasit.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/yazd.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/place/zaranj.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/building/al-azhar.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/al-azhar.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/al-hujra-al-nabawiyya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/al-hujra-al-nabawiyya.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/al-hujra-al-nabawiyya.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/al-hujra-al-nabawiyya.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/al-hujra-al-nabawiyya.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/al-hujra-al-nabawiyya.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/al-hujra-al-nabawiyya.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/al-hujra-al-nabawiyya.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/al-hujra-al-nabawiyya.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/al-hujra-al-nabawiyya.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/al-hujra-al-nabawiyya.yaml: relations[11]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/al-kadhimiya-mosque.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/building/al-madrasa-al-sadiyya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/babri-masjid.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/building/bayt-al-hikma.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/bayt-al-hikma.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/bayt-al-hikma.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/bayt-al-hikma.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/begumpur-mosque.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/dar-al-hikma-cairo.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/dayr-al-naqi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/dhu-al-khalasa.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/evrenosoglu-tomb-giannitsa.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/imam-husayn-shrine.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/building/isa-khan-mosque-delhi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/jami-masjid-firuzabad-delhi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/kali-masjid-nizamuddin.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/kali-masjid-nizamuddin.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/kalu-sarai-mosque-delhi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/khirki-masjid-delhi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/khizanat-al-suruj.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/maragha-observatory.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/maragha-observatory.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/maragha-observatory.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/maragha-observatory.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/maragha-observatory.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/mashhad-khalid-hims.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/masjid-al-qiblatayn.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/qadam-sharif-mosque-delhi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/qasr-al-shadiyakh.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/qila-i-kuhna-mosque.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/sher-mandal-delhi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/tomb-of-atgah-khan-delhi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/building/wadi-us-salaam.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/object/al-mushaf-al-azraq.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/batil-al-sihr-bowl-1080-bonyad.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/burda-of-kab-ibn-zuhayr.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/burda-of-kab-ibn-zuhayr.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/burda-of-kab-ibn-zuhayr.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/burda-of-kab-ibn-zuhayr.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/burda-of-kab-ibn-zuhayr.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/dome-of-the-rock-mosque-lamp-956.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/dome-of-the-rock-mosque-lamp-956.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/duranir-andalusiyya.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/object/hair-of-the-prophet.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/hair-of-the-prophet.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/hair-of-the-prophet.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/hair-of-the-prophet.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/hair-of-the-prophet.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/hair-of-the-prophet.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/hair-of-the-prophet.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/hair-of-the-prophet.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/kaaba-key-nuhad-es-said-13th-century.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/kaaba-key-nuhad-es-said-13th-century.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/kaaba-key-nuhad-es-said-740.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/kaaba-key-nuhad-es-said-740.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/khatam-al-nabi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/kisa-al-nabi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/kisa-al-nabi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/kitab-tamim-al-dari.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/naal-al-nabi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/naal-al-nabi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/qadah-al-nabi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/sayf-al-nabi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/sayf-al-nabi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/shirt-of-yusuf.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/shirt-of-yusuf.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/shirt-of-yusuf.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/shirt-of-yusuf.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/shirt-of-yusuf.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/shirt-of-yusuf.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/shirt-of-yusuf.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/shirt-of-yusuf.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/tabut-bani-israil.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/tabut-bani-israil.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/tabut-bani-israil.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/tabut-bani-israil.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/tiraz-132-london.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/tiraz-132-london.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/tiraz-132-london.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/tiraz-132-manchester.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/tiraz-132-manchester.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/tiraz-132-manchester.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/tiraz-132-moscow.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/tiraz-132-moscow.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/tiraz-132-moscow.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/tiraz-132-new-york.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/tiraz-132-new-york.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/tiraz-132-new-york.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/umm-hajara-hoard.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/object/umm-hajara-hoard.yaml: external_ids.nomisma: no pattern registered in schema/external-id-patterns.yaml
+warn  data/media/map-event-battle-of-badr.yaml: files.webp_en: media/maps/battle-of-badr/map.en.webp is not in site/public/ (media files live in the media repo; the page omits the image until they are present)
+warn  data/media/map-event-battle-of-badr.yaml: files.webp_ar: media/maps/battle-of-badr/map.ar.webp is not in site/public/ (media files live in the media repo; the page omits the image until they are present)
+warn  data/work/aban-ibn-said-verses-to-khalid-and-amr.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/abdullah-ibn-unays-verses-on-ibn-nubayh.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/abu-jial-poem-on-the-judham-raid.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/abu-khaythama-verses.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/al-dahhak-ibn-khalifa-verses.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/al-daw-al-lami.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/al-durra-al-madiyya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/al-durra-al-madiyya.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/al-hidaya-min-al-dalala-qalyubi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/al-hujja-lil-qurra-al-saba.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/al-ihsan-fi-taqrib-sahih-ibn-hibban.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/al-istiab.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/al-jawahir-wa-al-durar.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/al-luma-fi-hall-al-kawakib-al-saba.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/al-manhal-al-adhb-al-zulal.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/al-mustadrak-ala-al-sahihayn.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/al-mustadrak-ala-al-sahihayn.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/al-mustadrak-ala-al-sahihayn.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/al-numan-ibn-adi-verses-to-his-wife.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/al-targhib-wa-al-tarhib-mundhiri.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/work/alukah-network.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/amr-ibn-al-ahtam-satire-of-qays-ibn-asim.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/amr-ibn-madikarib-poem-to-qays-ibn-makshuh.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/aqilat-atrab-al-qasaid.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/aqilat-atrab-al-qasaid.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/bujayr-ibn-bujra-verses.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/charge-to-amr-ibn-hazm.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/covenant-of-ayla.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/farewell-sermon.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/farwa-al-judhami-prison-verses.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/fath-al-mughith.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hamasa-abu-kabir-al-hudhali-wa-laqad-sarayt.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hamasa-al-ahwas-inni-ala-ma-qad-alimta-muhassad.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hamasa-al-ashtar-al-nakhai-baqiitu-wafri.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hamasa-al-bayyasi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/hamasa-al-fadl-mahlan-bani-ammina.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hamasa-al-harith-ibn-wala-qawmi-hum-qatalu.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hamasa-al-qattal-nashadtu-ziyadan.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hamasa-al-samawal-idha-al-mar-lam-yudannis.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hamasa-al-shamidhar-banu-ammina-la-tadhkuru.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hamasa-al-tirimmah-laqad-zadani-hubban-linafsi.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hamasa-amir-ibn-al-tufayl-wa-lamma-laqina-usba.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hamasa-amr-ibn-madikarib-laysa-al-jamal-bi-mizar.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hamasa-iyas-ibn-qabisa-ma-waladatni-hasin.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hamasa-jafar-ibn-ulba-alhafan-biqurra-sahbal.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hamasa-qatari-ibn-al-fujaa-la-yarkanna.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hamasa-qays-ibn-al-khatim-taanatu-ibn-abd-al-qays.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hamasa-qays-ibn-zuhayr-shafaytu-al-nafs.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hamasa-qurayt-law-kunta-min-mazin.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hamasa-taabbata-sharran-idha-al-mar-lam-yahtal.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-abligh-rabia-wa-nawfal.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-ajmaat-amra-sarman.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-ala-layta-shiri-hal-ata-ahl-makka.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-ala-man-mubligh-anni-rabia.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-alam-tadhir-al-ayn.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-amsa-al-fata-amr-ibn-wudd.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-aruni-suudan-kal-suud.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-banu-al-luum-madhhij.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-dhakarta-al-qurum-al-sid.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-elegy-for-hamza-tusail.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-elegy-for-the-martyrs-of-bir-mauna.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-elegy-for-uthman-awfat-banu-amr.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-excusing-one-who-stayed-from-khaybar.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-fa-in-tuslih-fa-innaka-abidi.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-fakhartum-bil-liwa.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-fala-wallahi-hudhayl.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-har-ibn-kab-ala-al-ahlam-tazjurukum.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-harban-yashibu-laha-al-walid.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-idha-aradta-al-sayyid-al-ashadda.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-ini-laajabu-min-qawl-gharrat-bihi.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-kanat-quraysh-baydatan.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-khabat-banu-asad.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-laamruka-ma-tanfakku-adi-ibn-kaab.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-laqad-alima-al-aqwam-abu-sufyan.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-laqad-alimat-quraysh.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-laqad-laan-al-rahman-jamaan.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-lastu-ila-amr-reply-to-dirar.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-law-kunta-min-hashim-musafi.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-ma-li-abi-bakr-illa-al-fasil.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-ma-waladakum-qurum-min-bani-asad.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-man-mubligh-safwan.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-mata-tunsab-quraysh.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-mustashiri-halaq-al-madhi.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-muzayna-la-yura-fiha-khatib.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-saaltu-quraysh-kullaha-banu-abid.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-sail-quraysh-wa-ahlafaha.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-to-banu-sulaym-zadat-humumi.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-wa-ghibna-fa-lam-nashhad.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-wa-inna-amran-yumsi.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-ya-har-in-kunta-imran.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-ya-har-man-yaghdir-bi-dhimmat-jarih.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-ya-har-qad-awwalta.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-diwan-zaama-ibn-nabigha-al-lasim.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-elegy-mutah-commanders.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-poem-enumerating-the-maghazi.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-poem-kunna-muluk-al-nas.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-poem-qawmi-ulaika.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-reply-to-zibriqan.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hassan-second-reply-to-zibriqan.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/hayat-muhammad-haykal.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/kaab-ibn-malik-account-of-tabuk.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/kab-ibn-malik-elegy-mutah.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/khalid-ibn-said-reply-to-aban.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/kitab-al-ayn.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/work/labid-elegies-for-arbad.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/letter-to-hamdan.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/letter-to-the-kings-of-himyar.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/malik-ibn-al-namt-poem.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mashari-al-ashwaq.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mawrid-al-zamaan.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/muallaqat-al-harith-ibn-hilliza.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/muallaqat-amr-ibn-kulthum.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/muallaqat-antara.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/muallaqat-imru-al-qays.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/muallaqat-labid.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/muallaqat-tarafa.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/muallaqat-zuhayr.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mufaddaliyyat-al-hadira-bakarat-sumayya.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mufaddaliyyat-alqama-fa-in-tasaluni-bil-nisa.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mufaddaliyyat-mutammim-sarramat-zunayba.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mufaddaliyyat-salama-awda-al-shabab.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mukhtasar-al-sawaiq-al-mursala.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/mutanabbi-aghalib-fika-al-shawq.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-al-majd-lil-sayf-la-lil-qalam.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-al-raay-qabla-shujaat.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-ala-qadr-ahl-al-azm.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-alat-al-aysh-sihha-wa-shabab.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-amin-izdiyarik-fi-al-duja.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-aqbal-al-yamin-ala-aqbal-al-waghaa.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-arafatuka-wal-sufuf-muabbaat.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-bad-rzaya-wa-ataya.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-bima-al-taallul.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-eid-biayyi-hal.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-kabirt-hawl-diyarihim.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-kafa-bika-daa.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-kathir-hayat-al-mar-mithl-qalilaha.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-kull-aziz-lil-amir-dhalil.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-la-taqnaa-bima-dun-al-nujum.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-laka-ya-manazil.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-li-kulli-imri-ma-taawwada.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-ma-sadakat-illa-bi-mawrud.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-sahiba-al-nas-qablana.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-wa-harr-qalbah.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-wa-idha-kanat-al-nufus-kibaran.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-wa-min-nakad-al-dunya.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/mutanabbi-wafaukuma-kal-rabi.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/nuzhat-al-tullab-fi-ilm-al-asturlab.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/prophets-ansar-speech.yaml: set delivery_date_status: an upload or broadcast date is never shown as the delivery date
+warn  data/work/sahih-ibn-hibban.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/sahih-ibn-hibban.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/sahih-ibn-hibban.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/sahih-ibn-hibban.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/said-ibn-al-as-verses-to-amr.yaml: made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims
+warn  data/work/siyar-alam-nubala.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/siyar-alam-nubala.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/tarikh-i-bukhara.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/tarikh-i-bukhara.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/tarikh-islam-dhahabi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/tarikh-islam-dhahabi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/tayyibat-al-nashr.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/tayyibat-al-nashr.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/work/umdat-al-qari.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/work/waqfeya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/ibnmajah-api-2355.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-1-536.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-1-536.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-1-540.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-1-543.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-1-544.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-1-546.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-1-547.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-1-548.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-1-548.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-1-549.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-1-550.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-1-557.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-1-558.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-1-559.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-1-559.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-1-563.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-1-567.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-1-579.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-15-1734.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-16-1775.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-18-2015.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-2-635.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-22-2110.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-22-2122.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-24-2258.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-25-2288.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-25-2288.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-25-2288.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-25-2289.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-27-2384.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-27-2384.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-27-2413.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-29-2532.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-29-2554.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-29-2560.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-29-2560.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-29-2562.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-3-738.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-31-2617.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-31-2703.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-31-2751.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-31-2755.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-31-2845.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-4-832.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-4-844.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-4-845.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-4-850.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-4-850.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-4-854.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-5-871.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-5-877.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-6-1023.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-6-1080.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-6-1092.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/passage/muwatta-6-986.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ababil-birds.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/abandoning-prayer-takfir.yaml: perspectives[3] (academic) cites no source: every opinion is cited
+warn  data/concept/abandoning-prayer-takfir.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/abandoning-prayer-takfir.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/abandoning-prayer-takfir.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/abbasid-tin-glazed-ware.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/abbasid-tin-glazed-ware.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/adalat-al-sahaba.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/adam-before-adam-in-later-readings.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/adam-before-adam-in-later-readings.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/adam-before-adam-in-later-readings.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/adam-before-adam-in-later-readings.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/adam-before-adam-in-later-readings.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/adam-before-adam-in-later-readings.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/adl-bayn-al-zawjat.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/ahd-allah.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/ahlam-al-anbiya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ahlam-al-anbiya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ahlam-al-anbiya.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ahlam.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ahlam.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ahlam.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ahlam.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ahlam.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ahlam.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/akhlaq-al-harb.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/akhlaq-al-harb.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/akhlaq.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/akhlaq.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/akhlaq.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/akl-al-mal-bil-batil.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/al-adwiya-al-mufrada.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-adwiya-al-mufrada.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-adwiya-al-mufrada.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-ahd-al-ilahi.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/al-ahd-al-ilahi.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/al-ahkam-al-taklifiyya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-ahkam-al-taklifiyya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-ahkam-al-taklifiyya.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-ahkam-al-taklifiyya.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-ahkam-al-taklifiyya.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-ahkam-al-taklifiyya.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-ahkam-al-taklifiyya.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-ahkam-al-taklifiyya.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-ahruf-al-sabaa.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-ahruf-al-sabaa.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-ahruf-al-sabaa.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-amin.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-amin.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-amin.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-asbab-wal-qudra.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/al-asbab-wal-qudra.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/al-bashara-bil-nabi-fi-al-kutub.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/al-bashara-bil-nabi-fi-al-kutub.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/al-bunuk-al-islamiyya.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-bunuk-al-islamiyya.yaml: perspectives[1] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-bunuk-al-islamiyya.yaml: perspectives[2] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-bunuk-al-islamiyya.yaml: perspectives[3] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-bunuk-al-islamiyya.yaml: perspectives[4] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-dahik.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-dimuqratiyya-wal-sharia.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-dimuqratiyya-wal-sharia.yaml: perspectives[1] (other) cites no source: every opinion is cited
+warn  data/concept/al-dimuqratiyya-wal-sharia.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/al-duat-al-judud.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-duat-al-judud.yaml: perspectives[1] (other) cites no source: every opinion is cited
+warn  data/concept/al-dukhan.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-dukhan.yaml: perspectives[1] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-dukhan.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/al-fadaiyyat-al-arabiyya.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-fadaiyyat-al-arabiyya.yaml: perspectives[1] (other) cites no source: every opinion is cited
+warn  data/concept/al-fann-bayn-al-iltizam-wal-taharrur.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-fann-bayn-al-iltizam-wal-taharrur.yaml: perspectives[1] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-fann-bayn-al-iltizam-wal-taharrur.yaml: perspectives[2] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-fann-bayn-al-iltizam-wal-taharrur.yaml: perspectives[3] (other) cites no source: every opinion is cited
+warn  data/concept/al-fasd.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-fasd.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-fatiha-umm-al-kitab.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/al-fatiha-umm-al-kitab.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/al-fatwa-ala-al-fadaiyyat.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-fatwa-hurriyya-am-ihtikar.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-fatwa-hurriyya-am-ihtikar.yaml: perspectives[1] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-fatwa-hurriyya-am-ihtikar.yaml: perspectives[2] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-fatwa-hurriyya-am-ihtikar.yaml: perspectives[3] (other) cites no source: every opinion is cited
+warn  data/concept/al-fawasil.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-fawasil.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-fawasil.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-fawasil.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-habba-al-sawda.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-muadal.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-muadal.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-muadal.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-muadal.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-muadal.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-muallal.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-muallal.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-muallal.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-muallal.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-muallaq.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-muallaq.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-muallaq.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-munkar.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-mursal.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-nabawi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-nabawi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-sahih.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/al-hadith-al-shadhdh.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-shadhdh.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hadith-al-shadhdh.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hajna.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hajna.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hasanat.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hasanat.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hasanat.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hasanat.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hasanat.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hasanat.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hasanat.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hasanat.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hasanat.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hasanat.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hasanat.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hasanat.yaml: relations[11]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hijra-ila-al-gharb.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-hinn.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hinn.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hinn.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-hinn.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-humma.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-ijaz-al-ilmi.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-ijaz-al-ilmi.yaml: perspectives[1] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-ijaz-al-ilmi.yaml: perspectives[2] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-ijaz-al-ilmi.yaml: perspectives[3] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-iktinaz-al-mal.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/al-ilmaniyya-wal-islam.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-ilmaniyya-wal-islam.yaml: perspectives[1] (other) cites no source: every opinion is cited
+warn  data/concept/al-infaq-fi-sabil-allah.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-infaq-fi-sabil-allah.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-ithmid.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-jabr-wal-kasr.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-jabr-wal-kasr.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-jiraha.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-jiraha.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-jiraha.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-jiraha.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-kaba-ir.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/al-kalala.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/al-kamaa.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-kayy.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-kayy.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-khitab-al-islami.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-khitab-al-islami.yaml: perspectives[1] (other) cites no source: every opinion is cited
+warn  data/concept/al-khitab-al-islami.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/al-ladud-wal-saut.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-ladud-wal-saut.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-mara-wal-amal-al-siyasi.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-mara-wal-amal-al-siyasi.yaml: perspectives[1] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-mara-wal-amal-al-siyasi.yaml: perspectives[2] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-mara-wal-ittifaqiyat-al-dawliyya.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-mara-wal-ittifaqiyat-al-dawliyya.yaml: perspectives[1] (other) cites no source: every opinion is cited
+warn  data/concept/al-mubhamat.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-mubhamat.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-mukatabat.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-mukatabat.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-mukatabat.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-mukatabat.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-mukatabat.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-muqawama-wal-irhab.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-muqawama-wal-irhab.yaml: perspectives[1] (other) cites no source: every opinion is cited
+warn  data/concept/al-mursal-al-khafi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-mursal-al-khafi.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-mursal-al-khafi.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-musara-a.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-musara-a.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-musara-a.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-mutabaa-wa-al-shahid.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-mutabaa-wa-al-shahid.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-muzah.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-muzah.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-nafs-wal-ruh.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/al-nafs-wal-ruh.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/al-nawadir.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-nawadir.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-qiraa-wal-thaqafa.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-qiraa-wal-thaqafa.yaml: perspectives[1] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-qiwama.yaml: perspectives[3] (academic) cites no source: every opinion is cited
+warn  data/concept/al-qiyan.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-qiyan.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-qudwa-fi-al-dawa.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/al-qudwa-fi-al-dawa.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/al-qust-al-hindi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-qust-al-hindi.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-rajm.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/al-rimaya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-rimaya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-safqa-al-imaniyya.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/al-safqa-al-imaniyya.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/al-sakk-wal-hawala.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-sakk-wal-hawala.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-salat-ala-al-nabi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-salat-qabl-al-isra.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-sana-wal-sannut.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-shamail-al-muhammadiyya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-shamail-al-muhammadiyya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-sira-al-nabawiyya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-sira-al-nabawiyya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-sunna-al-nabawiyya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-sunna-al-nabawiyya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-tabanni.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/al-tabattul.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-tabattul.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-tadamun-al-ijtimai.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-tadamun-al-ijtimai.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-tadarruj-fi-al-tashri.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/al-tafakkur-fi-ayat-allah-fil-kawn.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/al-tafakkur-fi-ayat-allah-fil-kawn.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/al-tahaddi-bil-quran.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/al-tahaddi-bil-quran.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/al-takathur-ala-al-dunya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-takathur-ala-al-dunya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-talbina.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-talim-bayna-al-taghrib-wal-huwiyya.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-talim-bayna-al-taghrib-wal-huwiyya.yaml: perspectives[1] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-talim-bayna-al-taghrib-wal-huwiyya.yaml: perspectives[2] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-taqlid.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-tarikh-al-islami-bayna-al-mithaliyya-wal-waqiyya.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-tarikh-al-islami-bayna-al-mithaliyya-wal-waqiyya.yaml: perspectives[1] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-tarikh-al-islami-bayna-al-mithaliyya-wal-waqiyya.yaml: perspectives[2] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-tarikh-al-islami-bayna-al-mithaliyya-wal-waqiyya.yaml: perspectives[3] (academic) cites no source: every opinion is cited
+warn  data/concept/al-tayammum.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/al-tibb-al-nabawi-wal-badil.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-tibb-al-nabawi-wal-badil.yaml: perspectives[1] (other) cites no source: every opinion is cited
+warn  data/concept/al-tibb-al-nabawi-wal-badil.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/al-tibb-al-nabawi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-tibb-al-nabawi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-tibb-al-nabawi.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-tibb-al-nabawi.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-tibb-al-nabawi.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-tibb-al-nabawi.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-tibb-al-nabawi.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-tibb-al-nabawi.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-tiryaq.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-tiryaq.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-tiryaq.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-wala-wal-bara.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-wala-wal-bara.yaml: perspectives[1] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-wala-wal-bara.yaml: perspectives[2] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-wala-wal-bara.yaml: perspectives[3] (other) cites no source: every opinion is cited
+warn  data/concept/al-wasiyya.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/al-waswasa.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/al-waswasa.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/al-wataniyya-wal-qawmiyya.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/al-wataniyya-wal-qawmiyya.yaml: perspectives[1] (other) cites no source: every opinion is cited
+warn  data/concept/al-wujuh-wal-nazair.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-wujuh-wal-nazair.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-wujuh-wal-nazair.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/al-zurafa-wa-al-mughaffalun.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/alamin-the-worlds.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/alamin-the-worlds.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/alamin-the-worlds.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/alamin-the-worlds.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/amir-al-umara.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/amir-al-umara.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/angels-at-badr.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/angels-at-badr.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/aqsam-al-muftin.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/aqsam-al-muftin.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/arkan-al-iman.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/arkan-al-iman.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/arkan-al-iman.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/arkan-al-iman.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/arkan-al-iman.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/arkan-al-iman.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/arkan-al-iman.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/arkan-al-iman.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/arkan-al-iman.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asbab-al-nuzul.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asbab-al-nuzul.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asbab-al-nuzul.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asbab-al-tan-fi-al-rawi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asbab-al-tan-fi-al-rawi.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asbab-al-tan-fi-al-rawi.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asbab-al-tan-fi-al-rawi.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asbab-suqut-al-uquba.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asbab-suqut-al-uquba.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ashab-al-aykah.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ashab-al-aykah.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ashab-al-aykah.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ashab-al-aykah.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ashab-al-nar-wa-ashab-al-jannah.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/ashab-al-nar-wa-ashab-al-jannah.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/ashab-al-rass.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ashab-al-rass.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ashab-al-rass.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ashab-al-rass.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ashab-al-rass.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ashab-al-rass.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-afuww.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-awwal.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-bari.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-darr.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-ghaniyy.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-hakam.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-hakam.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-hayy.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-khafid.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-khaliq.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-majid.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-malik.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-mubdi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-muhyi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-muizz.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-muqaddim.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-qabid.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-rahman.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-sami.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-wahid.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/asma-al-zahir.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/awsani-personal-counsels-of-the-prophet.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/awsani-personal-counsels-of-the-prophet.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/awsani-personal-counsels-of-the-prophet.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/awsani-personal-counsels-of-the-prophet.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/awsani-personal-counsels-of-the-prophet.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/awsani-personal-counsels-of-the-prophet.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/awsani-personal-counsels-of-the-prophet.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/awsani-personal-counsels-of-the-prophet.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/awsani-personal-counsels-of-the-prophet.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/azmat-al-thaqafa-al-shabab.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/azmat-al-thaqafa-al-shabab.yaml: perspectives[1] (other) cites no source: every opinion is cited
+warn  data/concept/bada.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/bada.yaml: perspectives[1] (shia-twelver) cites no source: every opinion is cited
+warn  data/concept/bada.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/bada.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/baghy-fiqh.yaml: perspectives[3] (other) cites no source: every opinion is cited
+warn  data/concept/bat.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/bat.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/bay-al-muharramat.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/bayan-al-sunna-lil-quran.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/bayan-al-sunna-lil-quran.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/bear.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/bear.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/belongings-of-the-prophet-kept-by-the-companions.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/belongings-of-the-prophet-kept-by-the-companions.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/belongings-of-the-prophet-kept-by-the-companions.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/belongings-of-the-prophet-kept-by-the-companions.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/belongings-of-the-prophet-kept-by-the-companions.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/belongings-of-the-prophet-kept-by-the-companions.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/belongings-of-the-prophet-kept-by-the-companions.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/belongings-of-the-prophet-kept-by-the-companions.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/belongings-of-the-prophet-kept-by-the-companions.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/belongings-of-the-prophet-kept-by-the-companions.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/bihari-script.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/birds.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/birds.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/birr-al-umm.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/breastfeeding-and-weaning.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/breastfeeding-and-weaning.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/breastfeeding-and-weaning.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/broken-cursive.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/bustard.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/bustard.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/camel.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/camel.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-abdominal-veins-and-the-times-of-venesection.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-arteries-of-the-head-and-galens-wounded-man.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-bath-food-and-rest-around-venesection.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-bleeding-on-a-full-stomach-and-indigestion.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-conditions-that-forbid-or-limit-venesection.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-difficult-veins-binding-and-the-patients-build.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-how-much-blood-to-take-and-when-to-stop.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-opposite-bleeding-and-repeated-small-bleedings.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-the-asilam-and-the-artery-of-the-hand.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-the-basilic-vein-and-the-artery-beneath-it.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-the-bleeders-kit-and-treating-faintness.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-the-cephalic-vein-in-venesection.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-the-lancet-and-opening-a-stubborn-vein.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-the-median-cutaneous-vein-and-the-funis-brachi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-the-neck-face-and-mouth-veins-in-venesection.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-the-second-bleeding-and-the-night-bleeding.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-the-stomach-mouth-before-venesection.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-the-veins-of-the-head-in-venesection.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-timing-and-precautionary-venesection.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-veins-and-arteries-opened-and-the-six-arm-veins.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-veins-of-the-leg-in-venesection.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-venesection-by-the-quality-of-the-blood.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-venesection-defined-and-who-should-be-bled.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-venesection-in-fevers.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/canon-weak-strength-and-the-width-of-the-incision.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/cat.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/charitable-lands-of-the-prophet.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/charitable-lands-of-the-prophet.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/charitable-lands-of-the-prophet.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/charitable-lands-of-the-prophet.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/charitable-lands-of-the-prophet.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/charitable-lands-of-the-prophet.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/charitable-lands-of-the-prophet.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/charitable-lands-of-the-prophet.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/charitable-lands-of-the-prophet.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/charitable-lands-of-the-prophet.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/charitable-lands-of-the-prophet.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/charitable-lands-of-the-prophet.yaml: relations[11]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/cheetah.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/coinage-of-khwarazm.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/coinage-of-khwarazm.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/coinage-of-khwarazm.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-and-household-buried-at-al-baqi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-and-household-buried-at-al-baqi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-and-household-buried-at-al-baqi.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-and-household-buried-at-al-baqi.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-and-household-buried-at-al-baqi.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-and-household-buried-at-al-baqi.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-and-household-buried-at-al-baqi.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-and-household-buried-at-al-baqi.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-and-household-buried-at-al-baqi.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-and-household-buried-at-al-baqi.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-and-household-buried-at-al-baqi.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-and-household-buried-at-al-baqi.yaml: relations[11]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-and-household-buried-at-al-baqi.yaml: relations[12]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-and-household-buried-at-al-baqi.yaml: relations[13]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-buried-at-bab-al-saghir-damascus.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-buried-at-bab-al-saghir-damascus.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-buried-at-bab-al-saghir-damascus.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-buried-at-bab-al-saghir-damascus.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-buried-at-bab-al-saghir-damascus.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/companions-buried-at-bab-al-saghir-damascus.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/completion-of-earlier-messages.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/cow-of-bani-israil.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/creation-in-six-days.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/creation-in-six-days.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/creation-in-six-days.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/creation-in-six-days.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/creation-in-six-days.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/creation-in-six-days.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/crocodile.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/crocodile.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/dai-al-duat.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/dai-al-duat.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/darajat-al-dawa-al-nizariyya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/descent-of-isa.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/devshirme.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/dhul-qarnayn-barrier-readings.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/dhul-qarnayn-barrier-readings.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/dhul-qarnayn-barrier-readings.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/dhul-qarnayn-barrier-readings.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/dhul-qarnayn-barrier-readings.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/dhul-qarnayn-barrier-readings.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/dhurriyyat-adam-fi-zahrih.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/dhurriyyat-adam-fi-zahrih.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/diwan-al-barid.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/diwan-al-barid.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/diwan-al-barid.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/diwan-al-barid.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/diwan-al-barid.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/diwan-al-barid.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/diwan-al-barid.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/diwan-al-barid.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/diwan-al-insha.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/diwan-al-insha.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/diwan-al-insha.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/diwan-al-insha.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/diwan-al-insha.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/diwan-al-insha.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/earth-before-adam.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/earth-before-adam.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/earth-before-adam.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/earth-before-adam.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/earth-before-adam.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/elephant.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/estate-of-the-prophet.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/estate-of-the-prophet.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/estate-of-the-prophet.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/estate-of-the-prophet.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/estate-of-the-prophet.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/estate-of-the-prophet.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ethics-of-the-new-community.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ethics-of-the-new-community.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ewes-of-david.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fard-ayn.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fard-ayn.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fard-ayn.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fard-ayn.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fard-kifaya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fard-kifaya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fard-kifaya.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fard-kifaya.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fard-kifaya.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fard.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fard.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fard.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fard.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fard.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fariq-bayn-maasiyat-adam-wa-iblis.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/fariq-bayn-maasiyat-adam-wa-iblis.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/firar.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/firar.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fire.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fish-of-al-khidr.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fish-of-al-khidr.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/flood.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/floriated-kufic.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/forbidden-livelihoods-in-islam.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/fox.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/fritware.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/gharib-al-quran.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/gharib-al-quran.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ghayba.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/ghubar-script.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/gog-and-magog-in-the-hadith.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/gog-and-magog-in-the-hadith.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/gog-and-magog-in-the-hadith.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/gog-and-magog-in-the-hadith.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/gog-and-magog-in-the-hadith.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/gog-and-magog-in-the-hadith.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/gog-and-magog-in-the-hadith.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/gog-and-magog-in-the-hadith.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/golden-calf.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/gourd-plant.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/graves-of-the-prophets.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/graves-of-the-prophets.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/graves-of-the-prophets.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/graves-of-the-prophets.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/graves-of-the-prophets.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/graves-of-the-prophets.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/graves-of-the-prophets.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/graves-of-the-prophets.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/graves-of-the-prophets.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/graves-of-the-prophets.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/graves-of-the-prophets.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/graves-of-the-prophets.yaml: relations[11]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/graves-of-the-prophets.yaml: relations[12]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/graves-of-the-prophets.yaml: relations[13]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/graves-of-the-prophets.yaml: relations[14]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/graves-of-the-prophets.yaml: relations[15]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/graves-of-the-prophets.yaml: relations[16]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hadr-fiqh.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hamalat-al-arsh.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hanif.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/haram-al-madina.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/haram-hukm.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/haram-hukm.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/haram-hukm.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/haram-hukm.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/haram-hukm.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/harut-and-marut.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/harut-and-marut.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/herbs-vegetables.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/heron.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/heron.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hiba-fiqh.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hidaya.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/hifz-allah-lil-quran.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/hifz-allah-lil-quran.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/hifz-allah-lil-quran.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/hikam-ali-ibn-abi-talib.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hikam-ali-ibn-abi-talib.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hisab-al-hasanat-wal-sayyiat.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hisab-al-hasanat-wal-sayyiat.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hisab-al-hasanat-wal-sayyiat.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hisab-al-hasanat-wal-sayyiat.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hisab-al-hasanat-wal-sayyiat.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hisab-al-hasanat-wal-sayyiat.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hisab-al-hasanat-wal-sayyiat.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hisab-al-hasanat-wal-sayyiat.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hiwar-al-hadarat.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/hiwar-al-hadarat.yaml: perspectives[1] (other) cites no source: every opinion is cited
+warn  data/concept/hiwar-al-hadarat.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/hiwar-al-hadarat.yaml: perspectives[3] (other) cites no source: every opinion is cited
+warn  data/concept/hoopoe.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/horse.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/household-of-the-prophet-after-his-death.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/household-of-the-prophet-after-his-death.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/household-of-the-prophet-after-his-death.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/household-of-the-prophet-after-his-death.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/household-of-the-prophet-after-his-death.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/household-of-the-prophet-after-his-death.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/household-of-the-prophet-after-his-death.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/household-of-the-prophet-after-his-death.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/household-of-the-prophet-after-his-death.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/household-of-the-prophet-after-his-death.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/household-of-the-prophet-after-his-death.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/household-of-the-prophet-after-his-death.yaml: relations[11]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hudna-fiqh.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hujjiyyat-al-sunna.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hujjiyyat-al-sunna.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hujjiyyat-al-sunna.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hujjiyyat-al-sunna.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/hujna-fiqh.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/huquq-al-insan.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/huquq-al-insan.yaml: perspectives[1] (other) cites no source: every opinion is cited
+warn  data/concept/huzn.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/huzn.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ibadat-al-mahabba-wal-qahr.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/ibadat-al-mahabba-wal-qahr.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/ihtikar.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/ijaz-al-quran.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ijaz-al-quran.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ikhbat.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ikhbat.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ikhtilat-al-ruwat.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ikhtilat-al-ruwat.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ikhtilat-al-ruwat.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ikhtilat-al-ruwat.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ikhtilat-al-ruwat.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ikhtilat-al-ruwat.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ilaf.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ilaf.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/imama.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/imamate-conditions-in-the-preface-of-sirat-al-hadi.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/imamate-conditions-in-the-preface-of-sirat-al-hadi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/inaba.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/inaba.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/inhabitants-of-the-heavens-reports.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/inhabitants-of-the-heavens-reports.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/inhabitants-of-the-heavens-reports.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/inhabitants-of-the-heavens-reports.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/inhabitants-of-the-heavens-reports.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/inhabitants-of-the-heavens-reports.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/inheritance-of-prophethood.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/inlaid-metalwork.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/iram-dhat-al-imad-readings.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/iram-dhat-al-imad-readings.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/iram-dhat-al-imad-readings.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/iram-dhat-al-imad-readings.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/iram-dhat-al-imad-readings.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/iram-dhat-al-imad-readings.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/iram-dhat-al-imad-readings.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/iram-dhat-al-imad-readings.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/iram-dhat-al-imad-readings.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/iram-dhat-al-imad-readings.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/iram-dhat-al-imad-readings.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/iron.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/islamic-feminism.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/islamization.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/isnad.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/isnad.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/isnad.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/istighlal-hajat-al-muhtaj.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/istighlal-hajat-al-muhtaj.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/istihada.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/istirda-al-badiya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/istiwa-ala-al-arsh.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/istiwa-ala-al-arsh.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/itisam.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/itisam.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/iyyaka-naabudu-wa-iyyaka-nastain.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/iyyaka-naabudu-wa-iyyaka-nastain.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/iznik-pottery.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/iznik-pottery.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/jannat-al-tajriba.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/jannat-al-tajriba.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/jarh-wa-tadil.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/jarh-wa-tadil.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/jarh-wa-tadil.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/jinn-anwa.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/jinn-anwa.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/jinn-created-before-man.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/jinn-created-before-man.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/jinn-created-before-man.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/jinn-created-before-man.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/jinn-created-before-man.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/jonud-rabbik-la-yalamuha-illa-huwa.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/jonud-rabbik-la-yalamuha-illa-huwa.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/jonud-rabbik-la-yalamuha-illa-huwa.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/jonud-rabbik-la-yalamuha-illa-huwa.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/khabar-al-ahad.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/khabar-al-ahad.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/khalwa.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/khalwa.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/khariju-kulliyyat-al-sharia.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/khariju-kulliyyat-al-sharia.yaml: perspectives[1] (sunni) cites no source: every opinion is cited
+warn  data/concept/khariju-kulliyyat-al-sharia.yaml: perspectives[2] (sunni) cites no source: every opinion is cited
+warn  data/concept/khariju-kulliyyat-al-sharia.yaml: perspectives[3] (other) cites no source: every opinion is cited
+warn  data/concept/khisal-al-mumin.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/khisal-al-mumin.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/khisal-al-mumin.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/khisal-al-mumin.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/khisal-al-mumin.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/khisal-al-mumin.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/khisal-al-mumin.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/khisal-al-mumin.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kiraman-katibin.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kitab-al-ruya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kitab-al-ruya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kitab-al-ruya.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kitab-al-wasaya-in-the-hadith-collections.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kitab-al-wasaya-in-the-hadith-collections.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kitab-al-wasaya-in-the-hadith-collections.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kitab-al-wasaya-in-the-hadith-collections.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kitab-al-wasaya-in-the-hadith-collections.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kitab-al-wasaya-in-the-hadith-collections.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kitab-al-wasaya-in-the-hadith-collections.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kitab-al-wasaya-in-the-hadith-collections.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kitabat-al-hadith.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kitabat-al-hadith.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kufr-duna-kufr.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kufr-duna-kufr.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kumun.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kumun.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/kutub-al-sitta.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/larin-currency.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/leopard.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/leopard.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/life-beyond-earth-in-the-sources.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/life-beyond-earth-in-the-sources.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/life-beyond-earth-in-the-sources.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/life-beyond-earth-in-the-sources.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/life-beyond-earth-in-the-sources.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/life-beyond-earth-in-the-sources.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/life-beyond-earth-in-the-sources.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/livestock.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/livestock.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/livestock.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/lizard.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/lost-arab-peoples.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/lost-arab-peoples.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/lost-arab-peoples.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/lost-arab-peoples.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/lost-arab-peoples.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/lost-arab-peoples.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/lost-arab-peoples.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/lost-arab-peoples.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/lost-arab-peoples.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/lost-arab-peoples.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/lost-arab-peoples.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/lost-arab-peoples.yaml: relations[11]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/lost-arab-peoples.yaml: relations[12]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/lost-arab-peoples.yaml: relations[13]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/lost-arab-peoples.yaml: relations[14]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/lost-arab-peoples.yaml: relations[15]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/madaris-harbiyya-muwahhidiyya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/madaris-harbiyya-muwahhidiyya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/madrasat-al-nahw-al-basriyya-kufiyya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/madrasat-al-nahw-al-basriyya-kufiyya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/madrasat-al-nahw-al-basriyya-kufiyya.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/madrasat-al-nahw-al-basriyya-kufiyya.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/magic-healing-bowls.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mahabbat-al-nabi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mahdiyya.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/mahdiyya.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/mahdiyya.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/mail-script.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mail-script.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/maintenance-after-divorce.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/maintenance-after-divorce.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/maintenance-after-divorce.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/makki-and-madani-scripts.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/makki-and-madani-scripts.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/makki-and-madani-scripts.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/makki-wa-madani.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/makki-wa-madani.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/mal-al-aala.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mal-al-aala.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malaika-khalq.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malaika-khalq.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malaika.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malaikat-al-imdad.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malaikat-al-imdad.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malaikat-al-imdad.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malaikat-al-imdad.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malaikat-ibrahim.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malaikat-ibrahim.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malaikat-laylat-al-qadr.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malaikat-laylat-al-qadr.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malaikat-munfarij.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malaikat-munfarij.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malaikat-salat-ala-l-nabi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malaikat-salat-ala-l-nabi.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malaikat-zakariyya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malaikat-zakariyya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malak-al-janin.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malak-al-janin.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malak-al-mawt.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malak-al-mawt.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malak-maryam.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malak-maryam.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malik-keeper-of-jahannam.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malik-keeper-of-jahannam.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/malik-yawm-al-din.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/malik-yawm-al-din.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/mamluk-beacons.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/maqlub.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/maqlub.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/marahil-al-dawa.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/marahil-al-dawa.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/maratib-al-wahy.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/maratib-al-wahy.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mashq-script.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mashru-al-mutadid-lil-maahad.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mawad-al-dawa.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mawad-al-dawa.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/medina-society-at-hijra.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/medina-society-at-hijra.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/medina-society-at-hijra.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/medina-society-at-hijra.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/medina-society-at-hijra.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/milk-al-yamin.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/millet.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/millet.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/millet.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/millet.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/minai-ware.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/minai-ware.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mirath-al-nisa.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/mithaq-al-nabiyyin.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/modern-alien-and-ufo-claims-in-islamic-discourse.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/modern-alien-and-ufo-claims-in-islamic-discourse.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/modern-alien-and-ufo-claims-in-islamic-discourse.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/modern-alien-and-ufo-claims-in-islamic-discourse.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mountains.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/muakhat.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/muamalat.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/muamalat.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/muanan.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/muanan.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mubahala.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/mubashshirat.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mubashshirat.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mudawat-al-jarha.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mudawat-al-jarha.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mudawat-al-jarha.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mudawat-al-jarha.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mudawat-al-jarha.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mudawat-al-jarha.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mudawat-al-jarha.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mudraj.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mudtarib.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mukhadram.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mukhadram.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mukhadram.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mukhtalif-al-hadith.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mule.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mule.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mule.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/munkar-and-nakir.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/munqati.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/munqati.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/munqati.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mushaf-illumination-and-sura-headings.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mustalah-al-hadith.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mustalah-al-hadith.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/muta.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/mutashabih-al-lafz.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/mutashabih-al-lafz.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/nabi-and-rasul.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/nakhwa-chivalry.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/nikah-al-amah.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/niran-al-arab.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/niran-al-arab.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/niran-al-arab.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/peacock.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/peacock.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/phoenix.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/phoenix.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/pigeon-post.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/pigeon-post.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/planets.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/planets.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/poetry-attributed-to-ali.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/poetry-attributed-to-ali.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/poetry-attributed-to-ali.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/price-in-islam.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/propaganda-coins.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/prophets-leave-no-inheritance.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/prophets-leave-no-inheritance.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/prophets-leave-no-inheritance.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/prophets-leave-no-inheritance.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/prophets-leave-no-inheritance.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/prophets-leave-no-inheritance.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/prophets-leave-no-inheritance.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/prophets-leave-no-inheritance.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/prophets-leave-no-inheritance.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/prophets-leave-no-inheritance.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/prophets-leave-no-inheritance.yaml: relations[10]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/prophets-leave-no-inheritance.yaml: relations[11]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/qada-wa-al-diyana.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/qasas-al-quran.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/qasas-al-quran.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/qawaid-al-tafsir.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/qawaid-al-tafsir.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/qawaid-al-tafsir.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/qissat-al-baqara.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/qissat-al-baqara.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/qissat-bani-israil.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/qissat-bani-israil.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/quranism.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/rabbaniyyun.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/ram-of-sacrifice.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/raqib-wa-atid.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/raqib-wa-atid.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/raqqa-ware.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/reports-foretelling-the-man-of-yemen-in-sirat-al-hadi.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/restricted-ownership.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/restricting-permissible-acts.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/riaya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/riaya.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ridwan-keeper-of-jannah.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ridwan-keeper-of-jannah.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ritha-wal-nay.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ritha-wal-nay.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ritha-wal-nay.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ritha-wal-nay.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ritha-wal-nay.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ritha-wal-nay.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ritha-wal-nay.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ritha-wal-nay.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ritha-wal-nay.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ritha-wal-nay.yaml: relations[9]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/rivers-springs.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/riwayat-al-hadith-bil-maana.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/riwayat-al-hadith-bil-maana.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/riyada.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/riyada.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ruqya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ruqya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/salamander.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/salamander.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/serpent-of-musa.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/seven-earths.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/seven-earths.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/seven-earths.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/seven-earths.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/seven-earths.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/shadow.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/she-camel-of-salih.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/she-camel-of-salih.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ships.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/shuab-al-iman.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/shuab-al-iman.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/shuab-al-iman.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/shuab-al-iman.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/shuab-al-iman.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/shuhub-and-the-guarded-heaven.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/shuhub-and-the-guarded-heaven.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/shuhub-and-the-guarded-heaven.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/shuhub-and-the-guarded-heaven.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/shuhub-and-the-guarded-heaven.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/shuhub-and-the-guarded-heaven.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/shurta.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/shurta.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/shurta.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/smoke-rending-and-expansion.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/smoke-rending-and-expansion.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/smoke-rending-and-expansion.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/smoke-rending-and-expansion.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/stars.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/submission-of-creation.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/sujud-al-malaika-li-adam.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/sujud-al-malaika-li-adam.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/sujud-al-malaika-li-adam.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/sujud-al-malaika-li-adam.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/sultan-al-hujja-wal-qahr.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/sultan-al-hujja-wal-qahr.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/sun-prostrates-under-the-throne.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/sun-prostrates-under-the-throne.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/sun-prostrates-under-the-throne.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/sun-prostrates-under-the-throne.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/suq-hiyaza.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/surat-al-mutadayyin-fi-al-ilam.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/surat-al-mutadayyin-fi-al-ilam.yaml: perspectives[1] (sunni) cites no source: every opinion is cited
+warn  data/concept/surat-al-mutadayyin-fi-al-ilam.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/taa.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/taa.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/taa.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/taa.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/taa.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/taadud-al-zawajat.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/taadud-al-zawajat.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/tabaghud-wa-qatia.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tacallum-al-asma.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/tacallum-al-asma.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/tadib-al-awlad.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tafsir-al-ahlam-al-yawm.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/tafsir-al-ahlam-al-yawm.yaml: perspectives[1] (sunni) cites no source: every opinion is cited
+warn  data/concept/tafsir-al-ahlam-al-yawm.yaml: perspectives[2] (sunni) cites no source: every opinion is cited
+warn  data/concept/tafsir-al-ahlam-al-yawm.yaml: perspectives[3] (sunni) cites no source: every opinion is cited
+warn  data/concept/tafsir-al-ahlam-al-yawm.yaml: perspectives[4] (academic) cites no source: every opinion is cited
+warn  data/concept/taghyir-manahij-al-din.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/taghyir-manahij-al-din.yaml: perspectives[1] (sunni) cites no source: every opinion is cited
+warn  data/concept/taghyir-manahij-al-din.yaml: perspectives[2] (sunni) cites no source: every opinion is cited
+warn  data/concept/taghyir-manahij-al-din.yaml: perspectives[3] (other) cites no source: every opinion is cited
+warn  data/concept/tahrim-as-chastisement.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/takfir.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/takfir.yaml: perspectives[1] (sunni) cites no source: every opinion is cited
+warn  data/concept/takfir.yaml: perspectives[2] (sunni) cites no source: every opinion is cited
+warn  data/concept/takfir.yaml: perspectives[3] (other) cites no source: every opinion is cited
+warn  data/concept/talaq.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/talaq.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/talaq.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/talaq.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/talaq.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/talaq.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/talbis-al-haqq.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/taqiyya.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/taswib-al-mujtahidin.yaml: perspectives[2] (other) cites no source: every opinion is cited
+warn  data/concept/tatbiq-al-sharia.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/tatbiq-al-sharia.yaml: perspectives[1] (sunni) cites no source: every opinion is cited
+warn  data/concept/tatbiq-al-sharia.yaml: perspectives[2] (sunni) cites no source: every opinion is cited
+warn  data/concept/tathir-al-jinn-wal-sihr.yaml: perspectives[0] (sunni) cites no source: every opinion is cited
+warn  data/concept/tathir-al-jinn-wal-sihr.yaml: perspectives[1] (sunni) cites no source: every opinion is cited
+warn  data/concept/tathir-al-jinn-wal-sihr.yaml: perspectives[2] (sunni) cites no source: every opinion is cited
+warn  data/concept/tathir-al-jinn-wal-sihr.yaml: perspectives[3] (academic) cites no source: every opinion is cited
+warn  data/concept/tawaffi.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/tawarikh-al-ruwat.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tawarikh-al-ruwat.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tawarikh-al-ruwat.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tawarikh-al-ruwat.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tawassul.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/concept/tawhid.yaml: perspectives[6] (academic) cites no source: every opinion is cited
+warn  data/concept/tawil-quran.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tawil-quran.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tawil-quran.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/termite.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/trees-plants.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/trees-plants.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tubba-and-his-people.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tubba-and-his-people.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tubba-and-his-people.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tubba-and-his-people.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tubba-and-his-people.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tubba-and-his-people.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tubba-and-his-people.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tubba-and-his-people.yaml: relations[7]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tubba-and-his-people.yaml: relations[8]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tumar-script.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/tumar-script.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/turtle.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/turtle.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ujb.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ushri.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/usul-al-tarbiya-al-thamaniya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/usul-al-tarbiya-al-thamaniya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/usul-al-tarbiya-al-thamaniya.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/usul-al-tarbiya-al-thamaniya.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/usul-al-tarbiya-al-thamaniya.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/utum-yathrib.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/vulture.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/vulture.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/wad-al-hadith.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/wad-al-hadith.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/weapons-mounts-and-belongings-of-the-prophet.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/weapons-mounts-and-belongings-of-the-prophet.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/weapons-mounts-and-belongings-of-the-prophet.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/weapons-mounts-and-belongings-of-the-prophet.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/weapons-mounts-and-belongings-of-the-prophet.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/weapons-mounts-and-belongings-of-the-prophet.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/weapons-mounts-and-belongings-of-the-prophet.yaml: relations[6]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/whale-of-yunus.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/wilayat-al-mal-al-yatim.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/concept/wind.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/wolf.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/yaqaza.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/yaqaza.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/zakat.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ziyadat-al-thiqa.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ziyadat-al-thiqa.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/concept/ziyadat-al-thiqa.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/practice/ashura.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/practice/greeting-salam.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/practice/istinja.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/practice/mahr.yaml: perspectives[1] (academic) cites no source: every opinion is cited
+warn  data/practice/mash-ala-al-khuffayn.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/practice/sujud-al-sahw.yaml: two or more opinions but no `issue`: state the question the opinions answer
+warn  data/question/reliability-of-al-sulami.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/question/shahadat-al-istithmar.yaml: perspectives[2] (academic) cites no source: every opinion is cited
+warn  data/question/shath-abu-yazid.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/question/shath-abu-yazid.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/question/shath-abu-yazid.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/source/yilmaz-ottoman-architecture-hungary-2024.yaml: external_ids.isbn: no pattern registered in schema/external-id-patterns.yaml
+warn  data/listing/almaghrib.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/almaghrib.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/almaghrib.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/digital-quran-player.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/islamic-fun.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/labbaik-vr.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/labbaik-vr.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/minhaj-app.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/nusuk.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/nusuk.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/nusuk.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/nusuk.yaml: relations[4]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/nusuk.yaml: relations[5]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/quraish-game.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/quraish-game.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/quraish-game.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/quraish-game.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/sunnah-com.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/tarteel.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/unearthed-trail-of-ibn-battuta.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/unearthed-trail-of-ibn-battuta.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/listing/unearthed-trail-of-ibn-battuta.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/screen/678-2010.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/abuna-2002.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/adam-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/aida-2020.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/ajami-2009.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/akhir-al-rijal-fi-halab-2017.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-arab-al-siyu-al-hollywood-2006.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-asiri-al-mutardid-2012.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-azaba-1978.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-baqarat-al-18-2014.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-baraslan-al-saljuqiyun-2021.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-bulun-al-abyad-1995.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-daira-2000.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-dawla-2017.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-dhahab-al-aswad-2011.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-halibah-2020.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-hisar-1998.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-insulat-2017.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-islam-al-qissa-al-khafiyya-2012.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-jannah-al-an-2005.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-jumua-al-sawda-2004.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-kaafir-2010.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-khuwad-al-bayd-2016.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-maghara-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-mamlaka-2007.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-manba-2011.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-marad-al-kabir-2017.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-marmuluk-2004.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-massir-1997.yaml: reception[0] (ban) has no sources
+warn  data/screen/al-mathqalun-2023.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-midan-2013.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-muhajir-1994.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-muhajir-1994.yaml: reception[0] (ban) has no sources
+warn  data/screen/al-murashsha-al-mithaliyya-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-muslimun-qadimun-2013.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-qarn-al-raheb-2011.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-qasitir-2014.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-qiddis-al-majhul-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-qiftan-al-azraq-2022.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-rihla-al-kubra-2004.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-sabihat-2022.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-sulahfah-tatir-2004.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-tabib-2013.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/al-taghriba-al-filistiniyya-2004.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/ala-hafat-al-janna-2007.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/aladdin-1992.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/aladdin-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/ali-takulu-al-ruh-1974.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/ali-wa-nino-2016.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/ali-wal-meeza-wa-ibrahim-2016.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/alif-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/aligarh-2015.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/aliyat-al-khayt-2021.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/almanya-2011.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/almuakhdha-2014.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/amina-2021.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/amreeka-2009.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/amwaj-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/arbaa-asud-2010.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/arbaa-banat-2023.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/ashab-al-kahf-1997.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/asmaa-2011.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/atfal-al-sama-1997.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/atlantik-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/autsayd-2006.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/ayat-al-hubb-2008.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/ayn-fi-al-sama-2015.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/ayyam-al-majd-2006.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/azman-va-riyah-2006.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/bab-al-hadid-1958.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/bab-al-hara-2006.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/bab-aziz-2005.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/babishka-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/bajirau-mastani-2015.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/baraka-yuqaabil-baraka-2016.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/baran-2001.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/bayrut-al-gharbiyya-1998.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/biraat-al-muslimin-2012.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/biraat-al-muslimin-2012.yaml: reception[0] (protest) has no sources
+warn  data/screen/biraat-al-muslimin-2012.yaml: reception[1] (ban) has no sources
+warn  data/screen/birzibulis-2007.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/bol-2011.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/brick-lane-2007.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/buda-2007.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/ceddo-1977.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/darb-halima-2012.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/deen-show-2006.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/dhib-2014.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/dua-al-karawan-1959.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/dunya-wal-amira-2022.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/east-is-east-1999.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/fanatic-1997.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/farha-2021.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/farra-2021.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/fatih-1453-2012.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/fi-al-khamsa-asr-2003.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/fi-suriya-2017.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/filastin-36-2025.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/firaaq-2008.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/fitna-2008.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/fitna-2008.yaml: reception[0] (protest) has no sources
+warn  data/screen/ghazza-hubbi-2020.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/gilwar-1993.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/gully-boy-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/guru-bangsa-tjokroaminoto-2015.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/hadath-2005.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/hajar-al-sabr-2012.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/hala-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/hammat-al-mutawassit-2022.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/harami-baghdad-1940.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/hasan-wa-murqus-2008.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/hawaa-haar-1973.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/hawalaa-2010.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/hayat-muhammad-2011.yaml: reception[0] (objection) has no sources
+warn  data/screen/haydar-2014.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/hifz-salat-dilisa-2011.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/hina-al-hubb-yatasabbah-2009.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/hur-adam-2011.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/ibn-babil-2010.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/ilm-wal-islam-2009.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/imarat-yaqubiyan-2006.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/imraa-adiyya-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/imraa-biqilada-al-shash-2009.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/infisal-2011.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/infisal-2011.yaml: reception[0] (award) has no sources
+warn  data/screen/insha-allah-walad-2023.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/ismi-khan-2010.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/janakkala-1915-2012.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/jihad-li-ajl-al-hubb-2007.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/jinn-2018.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/joyland-2022.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/joyland-2022.yaml: reception[0] (ban) has no sources
+warn  data/screen/jrbavitsa-2006.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/judha-akbar-2008.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/kafarnahum-2018.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/kana-zaman-fi-ghazza-2025.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/kandahar-2001.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/karbala-2015.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/khala-1975.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/khams-kamirat-mutakassira-2011.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/kharij-al-qanun-2010.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/khartum-1966.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/khawin-2008.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/khayl-al-rahman-2012.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/khilafa-2020.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/khuda-aur-muhabbat-2011.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/khuda-kay-liye-2007.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/khudu-2004.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/khudu-2004.yaml: reception[0] (protest) has no sources
+warn  data/screen/khulaymat-nauim-2005.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/la-abla-bintati-1991.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/la-ard-ukhra-2024.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/la-bud-min-al-sama-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/lawn-al-janna-1999.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/lawrence-arab-1962.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/layla-1997.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/layla-m-2016.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/li-ajl-sama-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/likun-al-sabah-2021.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/limbu-2020.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/luwur-waktu-1999.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/ma-sayquul-al-nas-2017.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/madinat-al-ashbah-2017.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/madinat-al-hayat-2009.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/magnum-357-1986.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/mamalik-al-nar-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/mammo-1994.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/manto-2018.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/masjid-saghir-ala-al-marah-2007.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/mat-kilau-2022.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/mawlana-2016.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/mihan-muhammad-ali-2013.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/mimasat-2016.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/min-al-aba-ila-al-abna-2018.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/min-al-sifr-2024.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/mirror-invisible-2011.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/mita-mitr-2020.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/moozlum-2011.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/ms-marvel-2022.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/mu-2022.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/muawiya-2025.yaml: reception[0] (objection) has no sources
+warn  data/screen/mughal-azam-1960.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/muhammad-fatihlar-sultani-2024.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/muhammad-rasul-allah-2015.yaml: reception[0] (objection) has no sources
+warn  data/screen/mukhtaj-jalal-al-din-2021.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/muladi-2004.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/mummia-1969.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/munafik-2016.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/murattaba-2007.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/muslim-jadid-menahi-2009.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/mustang-2015.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/musul-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/muwatin-khan-2012.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/nabi-2009.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/nahnu-lady-parts-2021.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/nahr-london-2009.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/nikaah-1982.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/nisa-nahr-al-mutawailin-2016.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/nura-2023.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/nussa-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/nussa-film-2021.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/padmavat-2018.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/para-pencari-tuhan-2007.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/qawaid-al-iktita-2000.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/rajm-surya-m-2009.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/rajs-al-rais-2004.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/rajul-mithl-mubin-2017.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/rami-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/raqis-al-sahra-2014.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/raqs-al-bismil-2020.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/rashash-2021.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/rashida-2002.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/rihana-maryam-nur-2021.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/rijal-ahrar-2011.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/salun-huda-2021.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/sang-pencerah-2010.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/sawamit-kabul-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/sawt-hind-rajab-2025.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/sayyidat-al-janna-2021.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/shahid-2012.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/shahr-e-zaat-2012.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/shaykh-jakson-2017.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/shu-ur-al-muraqaba-2018.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/siddu-1977.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/sikkin-fi-ma-safin-2016.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/sindibad-2003.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/sinner-mecca-2015.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/smaha-malala-2015.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/sukkar-banat-2007.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/suud-al-salajiqa-2020.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/taam-al-karaz-1997.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/takva-2006.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/tasilim-2007.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/tayr-al-tin-2002.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/thalathat-alaf-layla-2015.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/thalj-2008.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/the-99-2011.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/til-abib-taht-al-nar-2018.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/tisaa-wa-tisun-nur-2013.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/tukang-bubur-naik-haji-2012.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/ughniyat-al-asafir-2008.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/umar-2013.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/umar-al-mukhtar-1981.yaml: reception[0] (ban) has no sources
+warn  data/screen/umar-hana-2017.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/umar-qatlatu-1976.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/umm-kull-al-kadhib-2023.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/urs-al-zayn-1976.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/usama-2003.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/vir-zara-2004.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/wadayan-julia-2023.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/wadayan-tabariyya-2023.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/wajda-2012.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/wajib-2017.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/walad-min-al-janna-2022.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/waqaai-sinin-al-jamr-1975.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/waqt-al-qahira-2009.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/waqt-dimashq-2018.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/waris-1979.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/wasibur-2012.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/watan-2011.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/watu-woti-2017.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/wayn-rayhin-2011.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/ya-tayr-2015.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/yasmin-2004.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/yawm-asbaht-imraa-2000.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/zafaf-ali-2017.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/zaky-2010.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/zawjat-haffar-al-qubur-2021.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/ziarat-al-frqa-2007.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/zindagi-tamasha-2019.yaml: no about/set_in edge: listed, not yet indexed
+warn  data/screen/zindagi-tamasha-2019.yaml: reception[0] (objection) has no sources
+warn  data/sport/football.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/furusiyya.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/furusiyya.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/furusiyya.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/furusiyya.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/ishalat-al-hajar.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/ishalat-al-hajar.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/kura.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/laib-al-hirab.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/laib-al-hirab.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/laib-al-hirab.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/mubaraza.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/mubaraza.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/mubaraza.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/musaraa.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/musaraa.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/musaraa.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/nard.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/nard.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/okmanzil.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/okmanzil.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/ramy.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/ramy.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/ramy.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/ramy.yaml: relations[3]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/sayd.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/sayd.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/shatranj.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/shatranj.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/sibaha.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/sibaha.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/sibaq-al-adyam.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/sibaq-al-adyam.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/sibaq-al-adyam.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/sibaq-al-khayl.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/sibaq-al-khayl.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/sibaq-al-khayl.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/sibaq-alibil.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/sibaq-alibil.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/suljan.yaml: relations[0]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/suljan.yaml: relations[1]: related_to is a discouraged fallback; use a typed predicate
+warn  data/sport/suljan.yaml: relations[2]: related_to is a discouraged fallback; use a typed predicate
+warn  content/ar/concept/akhlaq.md: no section headings
+warn  content/ar/concept/hudud-allah-wal-kabair.md: no section headings
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/concept/ismah-of-the-imams.md: non-Sunni view stated before its label: "246}
+
+ويرى المؤلف أن الاختلاف في أعمال الأئمة كان سبباً لخروج بعض الشيعة من التش…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/concept/ismah-of-the-imams.md: non-Sunni view stated before its label: "ويرى أن استغفار علي وأبنائه في أدعيتهم الواردة في نهج البلاغة يناقض العصمة، وأن …" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/concept/ismah-of-the-imams.md: non-Sunni view stated before its label: "ويرى أن الأمة في خلافة الخلفاء الثلاثة كان فيها من المصلحة واللطف ما لم يكن في خ…" (name the community first, docs/scope.md)
+warn  content/ar/concept/muamalat.md: no section headings
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/concept/persian-shiism.md: non-Sunni view stated before its label: "ويرى أن الشيعة العرب في اليمن والعراق والشام يشاركون الفرس في التعلق بآل البيت، …" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/concept/tahara.md: non-Sunni view stated before its label: "وتلاحظ المقالة أن المالكية وحدهم يرون أن الخنزير والكلب الحيين لا ينجسان، وأن مل…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/concept/tahara.md: non-Sunni view stated before its label: "وهي ترى في الجملة أن أحكام [[group/imamiyya|الإمامية]] و[[group/zaydiyya|الزيدية…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/concept/tahrif.md: non-Sunni view stated before its label: "ويعرض أيضاً قول الكليني أن القرآن لا يُحتج به إلا مع قيّم هو الإمام، ويرى أن هذه…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/concept/taqiyya.md: non-Sunni view stated before its label: "ويذكر أن المؤلف يرى أن الشيعة جعلت التقية تسعة أعشار الدين.…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/concept/taqiyya.md: non-Sunni view stated before its label: "362}
+
+ويعرض المؤلف مفهوم أهل السنة: التقية رخصة في حال الضرورة لا تكون إلا مع ال…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/concept/twelve-imams.md: non-Sunni view stated before its label: "ويرى أن الشيعة الأوائل كانوا يعملون بسرية، وأن من أسند الأمر إلى أهل البيت نفوه …" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/person/al-hasan-ibn-musa-al-nawbakhti.md: non-Sunni view stated before its label: "ويرى ابن النديم أنه أقرب إلى حيز الشيعة، لأن آل نوبخت معروفون بولاية علي وولده ف…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/person/fatima.md: non-Sunni view stated before its label: "ويرى مؤلف المادة أن هذه الوقائع، وإن زيد عليها تفصيل مختلق، قائمة على أصل صحيح، …" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/person/hafsa.md: non-Sunni view stated before its label: "وهي ترى أن بعض الرواة الأوائل، وقد جروا على نظام أخلاقي غير الذي كان في محيط الن…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/person/hisham-ibn-al-hakam.md: non-Sunni view stated before its label: "ويذكر أن المؤلف يرى أن كبار متكلمي الشيعة غلوا في الإثبات حتى شبهوا الله بخلقه.…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/person/ibrahim-al-thaqafi.md: non-Sunni view stated before its label: "## نظرة عامة
+إبراهيم بن محمد بن سعيد بن هلال الثقفي، عالم كان يرى رأي الزيدية، ث…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/person/ikrima-mawla-ibn-abbas.md: non-Sunni view stated before its label: "94}
+
+**رأي الخوارج.** روى ابن المديني عن يعقوب الحضرمي عن جده أن عكرمة وقف على ب…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/person/jafar-al-sadiq.md: non-Sunni view stated before its label: "وتضع المقالة أول ظهور لمواقف فقهية شيعية متميزة في زمنه على أبعد تقدير، وترى أنه…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/polity/abbasid-caliphate.md: non-Sunni view stated before its label: "وترى المقالة أن هذه الخطوات، مع قمع الراوندية، نفّرت الأتباع المتطرفين، فتوجه بع…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/question/should-khalid-have-been-punished-for-killing-malik-ibn-nuwayra.md: non-Sunni view stated before its label: "1668}
+- **إشارة عمر**: يرى أن إشارة عمر على أبي بكر بقتل خالد غايتها أن تكون مسأ…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/question/what-is-difference-sunni-shia.md: non-Sunni view stated before its label: "ترى الشيعة الاثنا عشرية أن النبي نص على علي إماماً بعده، ومن بعده على أئمة من أه…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/question/who-led-muslims-after-prophet.md: non-Sunni view stated before its label: "ويرى الشيعة أن النبي نص على علي في [[event/ghadir-khumm|غدير خم]]، وأن الإمامة ب…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/question/who-led-muslims-after-prophet.md: non-Sunni view stated before its label: "ترى الشيعة الاثنا عشرية أن النبي نص على علي إماماً بعده، وأن السقيفة كانت مخالفة…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/work/dar-taarud-al-aql-wal-naql.md: non-Sunni view stated before its label: "15}
+
+ويذكر ابن تيمية أن هؤلاء المتكلمة أهون شأناً من الفلاسفة الذين يرون نصوص ال…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/work/holy-quran-english-nahaboo.md: non-Sunni view stated before its label: "{cite:gloqur-nahaboo-mauritius}
+
+## لماذا وُضعت
+أراد ناهابو، بعد نجاح ترجمته الك…" (name the community first, docs/scope.md)
+warn  content/en/concept/akhlaq.md: no section headings
+warn  content/en/concept/hudud-allah-wal-kabair.md: no section headings
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/en/concept/ismah-of-the-imams.md: non-Sunni view stated before its label: "246}
+
+The author holds that discrepancies in the actions of the Imams led some S…" (name the community first, docs/scope.md)
+warn  content/en/concept/muamalat.md: no section headings
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/en/concept/persian-shiism.md: non-Sunni view stated before its label: "He holds that the Arab Shi'a in Yemen, Iraq, and Syria share with the Persians t…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/en/concept/tahara.md: non-Sunni view stated before its label: "The article observes that only the Maliki school holds that the pig and the dog …" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/en/concept/twelve-imams.md: non-Sunni view stated before its label: "He holds that the early Shi'ah operated in secrecy and that those to whom the ma…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/en/course/ca-on-g11-hrf3o-c-3.md: non-Sunni view stated before its label: "The museum offers the four Sunni schools and two roles in Islamic worship, from …" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/en/event/al-murajaat-correspondence.md: non-Sunni view stated before its label: "- **The Sunni caveat (the museum's note)**: Sunni scholarship holds the letters …" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/en/job/mufassir.md: non-Sunni view stated before its label: "In diraya tafsir — commentary by insight, also called ra'y or rational tafsir — …" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/en/person/ali-shariati.md: non-Sunni view stated before its label: "{cite:wikipedia-ali-shariati}
+
+He is described as an intellectual engineer of th…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/en/person/haider-al-abadi.md: non-Sunni view stated before its label: "{cite:wikipedia-haider-al-abadi-en}
+
+## Premiership
+President Fuad Masum designa…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/en/person/husein-jafar-al-hadar.md: non-Sunni view stated before its label: "## Upbringing and education
+
+Al Hadar studied at the YAPI pesantren in Bangil, P…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/en/person/muhammad-ali-mirza.md: non-Sunni view stated before its label: "{cite:wikipedia-muhammad-ali-mirza-en} {cite:wikipedia-muhammad-ali-mirza-ur}
+
+I…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/en/person/salma-lakhani.md: non-Sunni view stated before its label: "The sources consulted record no prominent political criticism of Lakhani; they f…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/en/practice/zakat.md: non-Sunni view stated before its label: "Most jurists hold that zakat cannot validly go to the payer's direct ancestors o…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/en/question/what-is-difference-sunni-shia.md: non-Sunni view stated before its label: "They hold that the imamate is a principle of religion, not a branch, as modern S…" (name the community first, docs/scope.md)
+warn  content/es/concept/akhlaq.md: no section headings
+warn  content/es/concept/hudud-allah-wal-kabair.md: no section headings
+warn  content/es/concept/muamalat.md: no section headings
+warn  content/fr/concept/akhlaq.md: no section headings
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/concept/al-tarikh-al-islami-bayna-al-mithaliyya-wal-waqiyya.md: non-Sunni view stated before its label: "{cite:assabile-tareq-al-suwaidan al-wassitiya/ep39 00:22:30} {cite:assabile-tare…" (name the community first, docs/scope.md)
+warn  content/fr/concept/hudud-allah-wal-kabair.md: no section headings
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/concept/ismah-of-the-imams.md: non-Sunni view stated before its label: "246}
+
+L'auteur soutient que les divergences dans les actes des Imams ont conduit…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/concept/ismah-of-the-imams.md: non-Sunni view stated before its label: "Il soutient que la demande de pardon de 'Ali et de ses fils dans leurs invocatio…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/concept/ismah-of-the-imams.md: non-Sunni view stated before its label: "Il affirme que la communauté, sous le califat des trois premiers califes, a joui…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/concept/ismah-of-the-imams.md: non-Sunni view stated before its label: "257}
+
+## L'incidence de la doctrine aujourd'hui
+L'auteur affirme que l'infaillib…" (name the community first, docs/scope.md)
+warn  content/fr/concept/muamalat.md: no section headings
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/concept/persian-shiism.md: non-Sunni view stated before its label: "Il soutient que les chiites arabes du Yémen, d'Irak et de Syrie partagent avec l…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/concept/sharia.md: non-Sunni view stated before its label: "335}
+
+Parmi la littérature du fiqh, l'article décrit le genre du furu, les œuvre…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/concept/tabarri-from-companions.md: non-Sunni view stated before its label: "Il affirme qu'Al-Kulayni a transmis d'Abu Ja'far qu'Abu Hanifah et Sufyan al-Tha…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/concept/tahara.md: non-Sunni view stated before its label: "L'article observe que seule l'école malike, considère que le cochon et le chien …" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/concept/twelve-imams.md: non-Sunni view stated before its label: "260}
+
+## La liste telle que la cite l'auteur
+L'auteur affirme que les duodécimai…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/concept/twelve-imams.md: non-Sunni view stated before its label: "Il soutient que les premiers Shi'ah agissaient dans le secret et que ceux, parmi…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/event/al-murajaat-correspondence.md: non-Sunni view stated before its label: "- **Note du musée concernant l'avertissement sunnite** : Les érudits sunnites es…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/invention/razi-hawi-comprehensive-compendium.md: non-Sunni view stated before its label: "## Le(s) fabricant(s)
+
+**Le cadre sunnite déclaré :** le registre de la personne…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/person/abd-al-rahim-khan-i-khana.md: non-Sunni view stated before its label: "L'encyclopédie dit qu'il se déclarait sunnite, et affirme que l'accusation selon…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/person/al-hasan-al-askari.md: non-Sunni view stated before its label: "{cite:muruj-al-dhahab p.571-572}
+
+## Dans les rapports Imami
+Al-Mas'udi affirme …" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/person/al-hasan-ibn-musa-al-nawbakhti.md: non-Sunni view stated before its label: "Ibn al-Nadim le considère plus proche du camp chiite, car la famille Nawbakht ét…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/person/ali-shariati.md: non-Sunni view stated before its label: "{cite:wikipedia-ali-shariati}
+
+Il est décrit comme un ingénieur intellectuel de …" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/person/farid-al-bahraini.md: non-Sunni view stated before its label: "Son travail de réfutation soutient le camp sunnite contre les revendications des…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/person/fatali-khan-khoyski.md: non-Sunni view stated before its label: "**Sa confession.** Les articles azerbaïdjanais et russes affirment la même chose…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/person/hisham-ibn-al-hakam.md: non-Sunni view stated before its label: "Il affirme qu'il était un partenaire de l'Ibadi Abd Allah ibn Yazid dans une bou…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/person/husein-jafar-al-hadar.md: non-Sunni view stated before its label: "## Éducation et éducation
+
+Al Hadar a étudié au YAPI pesantren à Bangil, Pasurua…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/person/ibrahim-ibn-nawbakht.md: non-Sunni view stated before its label: "Il considère cela comme une preuve que les principes chiites et Mu'tazila se son…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/person/israr-ahmed.md: non-Sunni view stated before its label: "{cite:wikipedia-israr-ahmed-en}
+
+L'universitaire Vali Nasr soutient, comme le ra…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/person/kaifi-azmi.md: non-Sunni view stated before its label: "{cite:wikipedia-kaifi-azmi-en} Ses convictions sont contestées dans les sources …" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/person/mirza-alakbar-sabir.md: non-Sunni view stated before its label: "154) — un passage par ailleurs portant sur la langue turcique des musulmans du C…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/person/muhammad-ibn-al-qasim-al-alawi.md: non-Sunni view stated before its label: "Al-Mas'udi affirme que beaucoup de Zaydis affirment qu'il n'est pas mort et qu'i…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/person/muhammad-ibn-makki-al-amili.md: non-Sunni view stated before its label: "## Ses œuvres
+Parmi ses livres figurent « al-Luma'a al-Dimashqiyya », « al-Risal…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/person/safi-al-din-ardabili.md: non-Sunni view stated before its label: "## L'allégation de dissimulation
+Le livre affirme que Safi al-Din pratiquait la …" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/person/talai-ibn-ruzzik.md: non-Sunni view stated before its label: "{cite:yeomans-islamic-cairo-2006 p.66} Yeomans le considère comme le dernier à m…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/place/bayhaq.md: non-Sunni view stated before its label: "{cite:mujam-al-buldan-yaqut p.750}
+
+Il affirme que ce district a produit d'innom…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/place/qalhat.md: non-Sunni view stated before its label: "Il affirme qu'elle appartient au seigneur d'Hormuz et que tous ses habitants son…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/polity/afsharid-dynasty.md: non-Sunni view stated before its label: "Il affirme qu'il poussa les dirigeants religieux chiites et sunnites à conclure …" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/question/did-ali-found-the-science-of-kalam.md: non-Sunni view stated before its label: "6} Il affirme que les premiers chiites, tels que [[person/hisham-ibn-al-hakam|Hi…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/question/what-is-difference-sunni-shia.md: non-Sunni view stated before its label: "Ils soutiennent que l'imamat est un principe de religion, et non une branche, co…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/source/sallabi-ali-vol2.md: non-Sunni view stated before its label: "L'auteur écrit d'un point de vue sunnite, s'appuyant principalement sur al-Tabar…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/work/al-dar-al-akhera.md: non-Sunni view stated before its label: "(Il attribue ce hadith à Muslim.) {cite:assabile-omar-abdelkafy al-dar-al-akhera…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/work/al-fisal-ibn-hazm.md: non-Sunni view stated before its label: "187}
+
+## Les sectes des musulmans telles qu'Ibn Hazm les classe
+Ibn Hazm affirme…" (name the community first, docs/scope.md)
+warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/fr/work/holy-quran-english-nahaboo.md: non-Sunni view stated before its label: "Après le succès de sa traduction en créole, Nahaboo souhaitait toucher un public…" (name the community first, docs/scope.md)
+warn  content/ur/concept/akhlaq.md: no section headings
+warn  content/ur/concept/hudud-allah-wal-kabair.md: no section headings
+warn  content/ur/concept/muamalat.md: no section headings
+warn  data/person/abdullatif-ahmad-mustafa.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/abdulwahid-muhammed-salih.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/abu-al-qasim-al-kashani.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/abu-sad-al-ala-ibn-sahl.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/ayub-khan-ommaya.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/dawon-kahng.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/hasan-al-rammah.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/ibn-juljul.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/ibn-sayyar-al-warraq.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/jabir-ibn-aflah.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/mahmud-sami-al-barudi.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/mamosta-sabah-kifri.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/mardi-ibn-ali-al-tarsusi.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/mohamed-atalla.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/muayyad-al-din-al-urdi.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/muhammad-ibn-ahmad-al-khwarizmi.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/muhammad-ibn-said-al-dhabhani.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/muhammad-mala-fayaq-sharazoori.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/peshawa-qadir-al-kurdi.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/piri-reis.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/taher-elgamal.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/zayn-al-din-al-jawbari.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/al-biruni-at-qabus-court-gurgan.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/al-biruni-flees-to-bukhara.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/al-farabi-at-sayf-al-dawla-court.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/al-farabi-moves-to-baghdad.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/al-idrisi-at-roger-ii-court.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/alhambra-construction-636.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/aurangzeb-coronation-delhi-1659.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/battle-of-dandanqan-1040.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/baybars-sultan-accession-658.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/cyprus-library-to-baghdad.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/djinguereber-built-1327.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/founding-of-marrakesh-1070.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/founding-of-shahjahanabad-1638.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/humayun-returns-to-delhi-962.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/hunayn-translation-circle-835.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/ibadi-imamate-oman-51.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/ibn-al-haytham-summoned-to-cairo.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/ibn-jubayr-baghdad-580.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/ibn-jubayr-departs-granada-578.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/ibn-jubayr-hajj-579.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/ibn-jubayr-in-alexandria-578.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/ibn-jubayr-medina-580.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/ibn-jubayr-palermo-580.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/ibn-jubayr-returns-granada-581.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/ibn-rushd-caliphal-physician-1182.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/ibn-rushd-exiled-to-lucena-591.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/ibn-rushd-presented-to-the-caliph.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/idris-ii-founds-fes-193.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/jalali-calendar-reform-467.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/jama-masjid-delhi-completed-1656.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/khayyam-algebra-treatise.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/kitab-al-jabr-composed-820.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/kitab-al-manazir-composed.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/kutubiyya-mosque-marrakesh-553.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/mahmud-summons-al-biruni-to-ghazna.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/mamun-embassy-for-greek-books.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/mansa-musa-accession-1312.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/masuma-dies-in-qumm-201.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/meridian-degree-sinjar-827.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/mongols-take-raqqa-658.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/nadir-shah-sack-of-delhi-1739.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/nuzhat-al-mushtaq-completed-549.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/qanun-al-masudi-dedicated.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/qarawiyyin-founded-245.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/rashid-founds-khizanat-al-hikma.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/red-fort-inaugurated-1648.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/sankore-mosque-timbuktu-730.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/shah-ismail-qumm-shrine-914.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/sonni-ali-takes-timbuktu-873.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/surat-al-ard-composed-833.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/tahafut-al-tahafut-written-575.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/tahqiq-ma-lil-hind-composed.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/event/ulugh-beg-observatory-samarqand.yaml: completeness >= 2 but no Arabic prose in content/ar/
+warn  data/person/abu-lahab.yaml: title "ابو لهب" is used by person/abu-lahab, screen/abu-lahab-1953: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/person/adam.yaml: title "ادم" is used by person/adam, screen/adam-2019: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/person/al-farra.yaml: title "الفراء" is used by person/al-farra, job/furrier: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/person/al-zajjaj.yaml: title "الزجاج" is used by person/al-zajjaj, concept/zujaj, job/glassmaker: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/person/anmar-ibn-nizar.yaml: title "انمار بن نزار" is used by person/anmar-ibn-nizar, group/anmar-ibn-nizar: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/person/gazi-osman-pasha.yaml: title "غازي عثمان باشا" is used by person/gazi-osman-pasha, place/gaziosmanpa-a: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/person/ibn-khaldun.yaml: title "ابن خلدون" is used by person/ibn-khaldun, exhibit/path-ibn-khaldun: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/person/iyad-ibn-nizar.yaml: title "اياد بن نزار" is used by person/iyad-ibn-nizar, group/iyad: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/person/maysur-al-fatimi.yaml: title "ميسور" is used by person/maysur-al-fatimi, place/mysore: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/person/mudar-ibn-nizar.yaml: title "مضر بن نزار" is used by person/mudar-ibn-nizar, group/mudar-ibn-nizar: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/person/muhammad-iqbal.yaml: title "محمد اقبال" is used by person/muhammad-iqbal, exhibit/path-iqbal: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/person/muslim-rapper.yaml: title "مسلم" is used by person/muslim-rapper, screen/moozlum-2011: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/person/naguib-mahfouz.yaml: title "نجيب محفوظ" is used by person/naguib-mahfouz, exhibit/path-novel-mahfouz: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/person/rabiah-ibn-nizar.yaml: title "ربيعه بن نزار" is used by person/rabiah-ibn-nizar, group/rabia-ibn-nizar: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/person/salim-poet.yaml: title "سالم" is used by person/salim-poet, place/salem-massachusetts: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/person/salman-al-farisi.yaml: title "سلمان الفارسي" is used by person/salman-al-farisi, screen/salman-al-farisi-2023: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/person/sulayman-al-qanuni.yaml: title "سليمان القانوني" is used by person/sulayman-al-qanuni, exhibit/path-sulayman-magnificent: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/person/thaalab.yaml: title "ثعلب" is used by person/thaalab, concept/thaalab-tibb: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/person/umar-ibn-abd-al-aziz.yaml: title "عمر بن عبد العزيز" is used by person/umar-ibn-abd-al-aziz, exhibit/path-umar-ii: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/al-arab-al-baida.yaml: title "العرب البايده" is used by group/al-arab-al-baida, concept/lost-arab-peoples: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/al-habasha.yaml: title "الحبشه" is used by group/al-habasha, place/abyssinia, exhibit/path-abyssinia-habasha: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/al-hind.yaml: title "الهند" is used by group/al-hind, place/india: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/al-sin.yaml: title "الصين" is used by group/al-sin, place/china: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/al-turk.yaml: title "الترك" is used by group/al-turk, group/turks, concept/tark-abstention: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/ansar.yaml: title "الانصار" is used by group/ansar, exhibit/path-ansar: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/aq-qoyunlu.yaml: title "اق قويونلو" is used by group/aq-qoyunlu, place/aq-qoyunlu: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/ashab-al-uhdud.yaml: title "اصحاب الاخدود" is used by group/ashab-al-uhdud, concept/ashab-al-ukhdud: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/banu-hammud.yaml: title "بنو حمود" is used by group/banu-hammud, polity/hammudid-dynasty: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/banu-qurayza.yaml: title "بنو قريظه" is used by group/banu-qurayza, exhibit/path-banu-qurayza: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/ibadiyya.yaml: title "الاباضيه" is used by group/ibadiyya, exhibit/path-ibadi: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/jarawa.yaml: title "جراوه" is used by group/jarawa, place/jarawa: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/kahlan.yaml: title "كهلان" is used by group/kahlan, place/kahlan: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/kutama.yaml: title "كتامه" is used by group/kutama, place/ketama: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/lamta.yaml: title "لمطه" is used by group/lamta, place/lamta: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/madani-channel.yaml: title "قناه مدني" is used by group/madani-channel, listing/madani-channel: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/miknasa.yaml: title "مكناسه" is used by group/miknasa, place/meknes: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/mothers-of-the-believers.yaml: title "امهات المومنين" is used by group/mothers-of-the-believers, concept/ummahat-al-muminin, exhibit/path-mothers-believers: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/muluk-al-tawaif.yaml: title "ملوك الطوايف" is used by group/muluk-al-tawaif, screen/muluk-al-tawaif-2005: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/nafzawah.yaml: title "نفزاوه" is used by group/nafzawah, place/nafzawa: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/persians.yaml: title "الفرس" is used by group/persians, concept/zij-sabi-catalogue-equuleus: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/qadiriyya.yaml: title "الطريقه القادريه" is used by group/qadiriyya, exhibit/path-qadiriyya: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/group/zaydiyya.yaml: title "الزيديه" is used by group/zaydiyya, exhibit/path-zaydi: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/abbasid-caliphate.yaml: title "الدوله العباسيه" is used by polity/abbasid-caliphate, place/abbasid-caliphate: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/adal.yaml: title "سلطنه عدل" is used by polity/adal, place/adal-sultanate: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/afsharid-dynasty.yaml: title "الدوله الافشاريه" is used by polity/afsharid-dynasty, place/afsharid-iran: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/almohad-caliphate.yaml: title "الدوله الموحديه" is used by polity/almohad-caliphate, place/almohad-caliphate: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/ayyubid-dynasty.yaml: title "الدوله الايوبيه" is used by polity/ayyubid-dynasty, place/ayyubid-dynasty: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/bahmani-sultanate.yaml: title "السلطنه البهمنيه" is used by polity/bahmani-sultanate, place/bahmani: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/bornu-empire.yaml: title "امبراطوريه برنو" is used by polity/bornu-empire, place/bornu-empire: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/buyid-dynasty.yaml: title "الدوله البويهيه" is used by polity/buyid-dynasty, place/buyid-dynasty, exhibit/path-buyid-age: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/deccan-sultanates.yaml: title "سلطنات الدكن" is used by polity/deccan-sultanates, place/deccan-sultanates: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/fatimid-caliphate.yaml: title "الدوله الفاطميه" is used by polity/fatimid-caliphate, place/fatimid-caliphate: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/indonesia.yaml: title "اندونيسيا" is used by polity/indonesia, place/indonesia: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/khwarazmian-empire.yaml: title "الدوله الخوارزميه" is used by polity/khwarazmian-empire, exhibit/path-khwarazm: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/kingdom-of-saba.yaml: title "مملكه سبا" is used by polity/kingdom-of-saba, place/sheba: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/mamluk-sultanate.yaml: title "الدوله المملوكيه" is used by polity/mamluk-sultanate, place/mamluk-sultanate-of-egypt: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/marinid-dynasty.yaml: title "الدوله المرينيه" is used by polity/marinid-dynasty, place/marinid-dynasty: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/nabhani-dynasty.yaml: title "السلاله النبهانيه" is used by polity/nabhani-dynasty, place/nabhani-dynasty: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/ottoman-empire.yaml: title "الدوله العثمانيه" is used by polity/ottoman-empire, place/ottoman-empire: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/qajar-iran.yaml: title "الدوله القاجاريه" is used by polity/qajar-iran, place/qajar-iran: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/rashidun-caliphate.yaml: title "الخلافه الراشده" is used by polity/rashidun-caliphate, place/rashidun-caliphate: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/safavid-iran.yaml: title "الدوله الصفويه" is used by polity/safavid-iran, place/safavid-iran: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/seljuk-empire.yaml: title "الدوله السلجوقيه" is used by polity/seljuk-empire, place/seljuk-empire: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/timurid-empire.yaml: title "الدوله التيموريه" is used by polity/timurid-empire, place/timurid-empire: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/polity/umayyad-caliphate.yaml: title "الدوله الامويه" is used by polity/umayyad-caliphate, place/umayyad-caliphate: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/event/conquest-of-al-andalus.yaml: title "فتح الاندلس" is used by event/conquest-of-al-andalus, exhibit/path-conquest-andalus: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/event/conquest-of-sind-89.yaml: title "فتح السند" is used by event/conquest-of-sind-89, exhibit/path-conquest-sind: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/event/conquest-of-syria.yaml: title "فتح الشام" is used by event/conquest-of-syria, exhibit/path-conquest-syria: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/event/expedition-of-al-kudr.yaml: title "غزوه بني سليم بالكدر" is used by event/expedition-of-al-kudr, journey/al-kudr-expedition: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/event/expedition-of-buhran.yaml: title "غزوه بحران" is used by event/expedition-of-buhran, journey/buhran-expedition: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/event/expedition-of-buwat.yaml: title "غزوه بواط" is used by event/expedition-of-buwat, journey/buwat-expedition: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/event/expedition-of-dhu-al-ushayra.yaml: title "غزوه ذي العشيره" is used by event/expedition-of-dhu-al-ushayra, journey/dhu-al-ushayra-expedition: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/event/ghadir-khumm.yaml: title "غدير خم" is used by event/ghadir-khumm, place/ghadir-khumm: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/event/hilf-al-fudul.yaml: title "حلف الفضول" is used by event/hilf-al-fudul, work/fatwa-amja-hilf-al-fudul: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/event/isra-and-miraj.yaml: title "الاسراء والمعراج" is used by event/isra-and-miraj, work/al-isra-wal-miraj-qasimi, exhibit/path-isra-miraj: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/event/prophets-mosques-between-medina-and-tabuk.yaml: title "مساجد النبي بين المدينه وتبوك" is used by event/prophets-mosques-between-medina-and-tabuk, dataset/prophets-mosques-between-medina-and-tabuk: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/event/ridda-wars.yaml: title "حروب الرده" is used by event/ridda-wars, exhibit/path-ridda: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/event/second-fitna.yaml: title "الفتنه الثانيه" is used by event/second-fitna, exhibit/path-second-fitna: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/event/splitting-of-the-moon.yaml: title "انشقاق القمر" is used by event/splitting-of-the-moon, concept/inshiqaq-al-qamar: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/event/year-of-delegations.yaml: title "عام الوفود" is used by event/year-of-delegations, exhibit/path-delegations: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/event/year-of-sorrow.yaml: title "عام الحزن" is used by event/year-of-sorrow, exhibit/path-year-sorrow: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/journey/hijra-route.yaml: title "درب الهجره" is used by journey/hijra-route, exhibit/path-hijra-road: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/journey/silk-road.yaml: title "طريق الحرير" is used by journey/silk-road, exhibit/path-silk-road: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/al-ain.yaml: title "العين" is used by place/al-ain, concept/al-ayn: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/al-aqsa-mosque.yaml: title "المسجد الاقصي" is used by place/al-aqsa-mosque, building/al-aqsa-mosque: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/al-awasim.yaml: title "العواصم" is used by place/al-awasim, concept/al-awasim: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/al-azhar.yaml: title "الجامع الازهر" is used by place/al-azhar, building/al-azhar: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/al-hay.yaml: title "الحي" is used by place/al-hay, concept/asma-al-hayy: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/al-hijr.yaml: title "الحجر" is used by place/al-hijr, place/hijr, concept/hijr-kaaba: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/al-husaisa.yaml: title "المهاجر" is used by place/al-husaisa, screen/al-muhajir-1994: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/al-mahdiyya.yaml: title "المهديه" is used by place/al-mahdiyya, concept/mahdiyya: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/al-maydan.yaml: title "الميدان" is used by place/al-maydan, screen/al-midan-2013: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/al-qadisiyya.yaml: title "القادسيه" is used by place/al-qadisiyya, screen/al-qadisiyya-1981: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/al-rami.yaml: title "الرامي" is used by place/al-rami, concept/zij-sabi-catalogue-sagittarius: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/alamas.yaml: title "الماس" is used by place/alamas, concept/almas: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/alamut.yaml: title "قلعه الموت" is used by place/alamut, building/alamut-castle: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/alexandria.yaml: title "الاسكندريه" is used by place/alexandria, place/iskandariyya, exhibit/path-alexandria: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/algeria.yaml: title "الجزاير" is used by place/algeria, place/algiers, exhibit/path-algeria: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/anasan.yaml: title "انسان" is used by place/anasan, concept/insan: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/bab-al-hadid.yaml: title "باب الحديد" is used by place/bab-al-hadid, screen/bab-al-hadid-1958: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/bihar.yaml: title "بهار" is used by place/bihar, concept/bahar: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/bish.yaml: title "بيش" is used by place/bish, concept/bish: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/buwsir.yaml: title "بوصير" is used by place/buwsir, concept/buwsir: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/daher.yaml: title "الظاهر" is used by place/daher, concept/asma-al-zahir: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/dar-al-nadwa.yaml: title "دار الندوه" is used by place/dar-al-nadwa, building/dar-al-nadwa: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/dhu-al-hulayfa.yaml: title "ذو الحليفه" is used by place/dhu-al-hulayfa, concept/dhu-al-hulayfa: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/dhubab.yaml: title "ذباب" is used by place/dhubab, concept/dhubab-tibb: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/dome-of-the-rock.yaml: title "قبه الصخره" is used by place/dome-of-the-rock, building/dome-of-the-rock: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/east-africa.yaml: title "شرق افريقيا" is used by place/east-africa, exhibit/path-east-africa: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/grand-mosque.yaml: title "المسجد الكبير" is used by place/grand-mosque, building/great-mosque-of-diyarbakir: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/hadramawt.yaml: title "حضرموت" is used by place/hadramawt, exhibit/path-hadramawt: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/halla.yaml: title "هاله" is used by place/halla, screen/hala-2019: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/hijaz.yaml: title "الحجاز" is used by place/hijaz, exhibit/path-hijaz-cities: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/hodh.yaml: title "الحوض" is used by place/hodh, concept/hawd-basin-water: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/indian-ocean.yaml: title "المحيط الهندي" is used by place/indian-ocean, exhibit/path-indian-ocean: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/kandahar.yaml: title "قندهار" is used by place/kandahar, screen/kandahar-2001: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/karbala.yaml: title "كربلاء" is used by place/karbala, screen/karbala-2015: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/khartoum.yaml: title "الخرطوم" is used by place/khartoum, screen/khartum-1966: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/khaybar.yaml: title "خيبر" is used by place/khaybar, exhibit/path-khaybar: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/madinat-al-zahra.yaml: title "مدينه الزهراء" is used by place/madinat-al-zahra, exhibit/path-madinat-al-zahra: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/margat.yaml: title "قلعه المرقب" is used by place/margat, building/al-mirqab-castle: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/marw.yaml: title "مرو" is used by place/marw, place/merv, concept/maru: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/mosul.yaml: title "الموصل" is used by place/mosul, screen/musul-2019: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/mutah.yaml: title "موته" is used by place/mutah, exhibit/path-mutah: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/najran.yaml: title "نجران" is used by place/najran, exhibit/path-najran: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/nawa.yaml: title "نوي" is used by place/nawa, concept/nawa: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/nizamiyya.yaml: title "المدرسه النظاميه" is used by place/nizamiyya, building/building-26518: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/oujda.yaml: title "وجده" is used by place/oujda, screen/wajda-2012: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/rabat.yaml: title "الرباط" is used by place/rabat, concept/ribat-fiqh: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/rabigh.yaml: title "رابغ" is used by place/rabigh, concept/rabigh: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/rawand.yaml: title "راوند" is used by place/rawand, concept/rawand-tibb: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/sadd-marib.yaml: title "سد مارب" is used by place/sadd-marib, building/marib-dam: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/sambhal.yaml: title "سنبل" is used by place/sambhal, concept/sunbul: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/sarakhs.yaml: title "سرخس" is used by place/sarakhs, concept/sarakhs: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/shadhrawan.yaml: title "الشاذروان" is used by place/shadhrawan, concept/shadharwan: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/sherbin.yaml: title "شربين" is used by place/sherbin, concept/sharbin: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/sind.yaml: title "السند" is used by place/sind, concept/sanad-document: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/tib.yaml: title "الطيب" is used by place/tib, concept/tayyib: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/timbuktu.yaml: title "تمبكتو" is used by place/timbuktu, screen/timbuktu-2014: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/place/wadi-muhassir.yaml: title "وادي محسر" is used by place/wadi-muhassir, concept/wadi-muhassir-fiqh: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/building/kaaba.yaml: title "الكعبه" is used by building/kaaba, exhibit/path-kaaba: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/building/maragha-observatory.yaml: title "مرصد مراغه" is used by building/maragha-observatory, exhibit/path-maragha: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/building/prophets-mosque.yaml: title "المسجد النبوي" is used by building/prophets-mosque, exhibit/path-prophets-mosque: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/object/al-hajar-al-aswad.yaml: title "الحجر الاسود" is used by object/al-hajar-al-aswad, concept/hajar-aswad: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/object/ud-shami.yaml: title "عود" is used by object/ud-shami, concept/ud: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/akbarnama.yaml: title "اكبرنامه" is used by work/akbarnama, source/akbarnama: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/al-furusiyya.yaml: title "الفروسيه" is used by work/al-furusiyya, sport/furusiyya: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/al-iman-ibn-abdallah.yaml: title "الايمان" is used by work/al-iman-ibn-abdallah, concept/iman: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/al-jarh-wal-tadil.yaml: title "الجرح والتعديل" is used by work/al-jarh-wal-tadil, concept/jarh-wa-tadil: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/al-mughni.yaml: title "المغني" is used by work/al-mughni, concept/asma-al-mughni: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/al-muqaddima.yaml: title "مقدمه ابن خلدون" is used by work/al-muqaddima, source/muqaddima-ibn-khaldun: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/al-risala-shafii.yaml: title "الرساله" is used by work/al-risala-shafii, screen/al-risala-1976: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/al-shamail-al-muhammadiyya.yaml: title "الشمايل المحمديه" is used by work/al-shamail-al-muhammadiyya, concept/al-shamail-al-muhammadiyya: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/al-shariah-ajurri.yaml: title "الشريعه" is used by work/al-shariah-ajurri, concept/sharia: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/al-siyasa-al-shariyya-ibn-taymiyya.yaml: title "السياسه الشرعيه" is used by work/al-siyasa-al-shariyya-ibn-taymiyya, concept/siyasa-shariyya: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/al-tabaqat-al-kubra-ibn-sad.yaml: title "الطبقات الكبري ابن سعد" is used by work/al-tabaqat-al-kubra-ibn-sad, source/tabaqat-ibn-sad: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/al-tibb-al-nabawi-ibn-qayyim.yaml: title "الطب النبوي" is used by work/al-tibb-al-nabawi-ibn-qayyim, concept/al-tibb-al-nabawi: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/alukah-network.yaml: title "شبكه الالوكه" is used by work/alukah-network, source/alukah: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/arbaeen-al-nawawiyya.yaml: title "الاربعون النوويه" is used by work/arbaeen-al-nawawiyya, work/arbaun-nawawi, exhibit/path-arbaun: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/binbaz-website.yaml: title "موقع ابن باز" is used by work/binbaz-website, source/binbaz: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/deccani-painting-zebrowski.yaml: title "التصوير الدكني" is used by work/deccani-painting-zebrowski, concept/deccani-painting: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/droos-al-haramain.yaml: title "الدروس العلميه بالحرمين" is used by work/droos-al-haramain, source/droos-al-haramain: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/fajr-al-islam.yaml: title "فجر الاسلام" is used by work/fajr-al-islam, screen/fajr-al-islam-1971: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/fatawa-aimmat-al-muslimin-subki.yaml: title "فتاوي ايمه المسلمين بقطع لسان المبتدعين" is used by work/fatawa-aimmat-al-muslimin-subki, source/fatawa-aimmat-al-muslimin-subki: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/fatwa-amja-angel-and-devil-touches.yaml: title "لمه الملك ولمه الشيطان" is used by work/fatwa-amja-angel-and-devil-touches, concept/al-lamma: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/fatwa-amja-vow-of-obedience.yaml: title "النذر" is used by work/fatwa-amja-vow-of-obedience, concept/nadhr, practice/nadhr: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/fiqh-al-sira-al-ghazali.yaml: title "فقه السيره محمد الغزالي" is used by work/fiqh-al-sira-al-ghazali, source/fiqh-al-sira-al-ghazali: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/hayat-muhammad-haykal.yaml: title "حياه محمد" is used by work/hayat-muhammad-haykal, screen/hayat-muhammad-2011: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/hayy-ibn-yaqzan.yaml: title "حي بن يقظان" is used by work/hayy-ibn-yaqzan, exhibit/path-hayy-philosophy: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/ihya-ulum-al-din.yaml: title "احياء علوم الدين" is used by work/ihya-ulum-al-din, exhibit/path-ihya: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/ijaz-al-quran-baqillani.yaml: title "اعجاز القران" is used by work/ijaz-al-quran-baqillani, concept/ijaz-al-quran: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/islamway.yaml: title "طريق الاسلام" is used by work/islamway, source/islamway: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/jami-al-tirmidhi.yaml: title "جامع الترمذي" is used by work/jami-al-tirmidhi, source/jami-al-tirmidhi: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/manarat-al-haramain.yaml: title "مناره الحرمين" is used by work/manarat-al-haramain, source/manarat-al-haramain: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/manasik-al-hajj-ibn-taymiyya.yaml: title "مناسك الحج" is used by work/manasik-al-hajj-ibn-taymiyya, exhibit/path-hajj-rites: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/minaret.yaml: title "المناره" is used by work/minaret, concept/manara: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/mujam-al-buldan.yaml: title "معجم البلدان" is used by work/mujam-al-buldan, source/mujam-al-buldan-yaqut: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/mujam-ma-istaajam.yaml: title "معجم ما استعجم من اسماء البلاد والمواضع" is used by work/mujam-ma-istaajam, source/mujam-ma-istaajam-bakri: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/muwatta-malik.yaml: title "الموطا" is used by work/muwatta-malik, exhibit/path-muwatta: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/nuzhat-al-mushtaq.yaml: title "نزهه المشتاق في اختراق الافاق" is used by work/nuzhat-al-mushtaq, source/idrisi-nuzhat-1592: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/one-maher-zain.yaml: title "واحد" is used by work/one-maher-zain, listing/wahed: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/orientalism-said.yaml: title "الاستشراق" is used by work/orientalism-said, concept/orientalism: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/qatar-digital-library.yaml: title "مكتبه قطر الرقميه" is used by work/qatar-digital-library, source/qdl: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/rihla-ibn-battuta.yaml: title "تحفه النظار في غرايب الامصار وعجايب الاسفار رحله ابن بطوطه" is used by work/rihla-ibn-battuta, source/rihla-ibn-battuta-1958: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/riyad-al-salihin.yaml: title "رياض الصالحين" is used by work/riyad-al-salihin, source/riyad-al-salihin: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/sahih-al-bukhari.yaml: title "صحيح البخاري" is used by work/sahih-al-bukhari, exhibit/path-sahih-bukhari, source/sahih-al-bukhari: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/sahih-muslim.yaml: title "صحيح مسلم" is used by work/sahih-muslim, exhibit/path-sahih-muslim, source/sahih-muslim: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/shuab-al-iman.yaml: title "شعب الايمان" is used by work/shuab-al-iman, concept/shuab-al-iman: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/sira-ibn-ishaq.yaml: title "كتاب السير والمغازي ابن اسحاق" is used by work/sira-ibn-ishaq, source/sira-ibn-ishaq-zakkar: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/sunan-abi-dawud.yaml: title "سنن ابي داود" is used by work/sunan-abi-dawud, source/sunan-abi-dawud: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/sunan-al-nasai.yaml: title "سنن النسايي" is used by work/sunan-al-nasai, source/sunan-al-nasai: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/sunan-ibn-majah.yaml: title "سنن ابن ماجه" is used by work/sunan-ibn-majah, source/sunan-ibn-maja: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/thalj-pamuk.yaml: title "ثلج" is used by work/thalj-pamuk, concept/thalj, screen/thalj-2008: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/umm-al-kitab.yaml: title "ام الكتاب" is used by work/umm-al-kitab, concept/umm-al-kitab: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/work/usul-al-din-work.yaml: title "اصول الدين" is used by work/usul-al-din-work, concept/usul-al-din: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-100.yaml: title "سوره العاديات" is used by passage/quran-100, exhibit/path-surah-adiyat: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-12.yaml: title "سوره يوسف" is used by passage/quran-12, exhibit/path-surah-yusuf: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-18.yaml: title "سوره الكهف" is used by passage/quran-18, exhibit/path-surah-kahf: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-2.yaml: title "سوره البقره" is used by passage/quran-2, exhibit/path-surah-baqara: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-24.yaml: title "سوره النور" is used by passage/quran-24, exhibit/path-surah-nur: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-28.yaml: title "سوره القصص" is used by passage/quran-28, exhibit/path-surah-qasas: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-36.yaml: title "سوره يس" is used by passage/quran-36, exhibit/path-surah-yasin: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-48.yaml: title "سوره الفتح" is used by passage/quran-48, exhibit/path-surah-fath: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-49.yaml: title "سوره الحجرات" is used by passage/quran-49, exhibit/path-surah-hujurat: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-54.yaml: title "سوره القمر" is used by passage/quran-54, exhibit/path-surah-qamar: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-55.yaml: title "سوره الرحمن" is used by passage/quran-55, exhibit/path-surah-rahman: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-56.yaml: title "سوره الواقعه" is used by passage/quran-56, exhibit/path-surah-waqia: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-59.yaml: title "سوره الحشر" is used by passage/quran-59, exhibit/path-surah-hashr: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-67.yaml: title "سوره الملك" is used by passage/quran-67, exhibit/path-surah-mulk: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-76.yaml: title "سوره الانسان" is used by passage/quran-76, exhibit/path-surah-insan: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-78.yaml: title "سوره النبا" is used by passage/quran-78, exhibit/path-surah-naba: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-8.yaml: title "سوره الانفال" is used by passage/quran-8, exhibit/path-surah-anfal: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-85.yaml: title "سوره البروج" is used by passage/quran-85, exhibit/path-surah-buruj: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-86.yaml: title "سوره الطارق" is used by passage/quran-86, exhibit/path-surah-tariq: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-89.yaml: title "سوره الفجر" is used by passage/quran-89, exhibit/path-surah-fajr: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-90.yaml: title "سوره البلد" is used by passage/quran-90, exhibit/path-surah-balad: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-92.yaml: title "سوره الليل" is used by passage/quran-92, exhibit/path-surah-layl: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-95.yaml: title "سوره التين" is used by passage/quran-95, exhibit/path-surah-tin: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/passage/quran-99.yaml: title "سوره الزلزله" is used by passage/quran-99, exhibit/path-surah-zalzala: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/al-aqalim-al-saba.yaml: title "الاقاليم السبعه" is used by concept/al-aqalim-al-saba, invention/al-aqalim-al-saba: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/al-falah.yaml: title "الفلاح" is used by concept/al-falah, job/farmer: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/al-musara-a.yaml: title "المصارعه" is used by concept/al-musara-a, sport/musaraa: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/al-rimaya.yaml: title "الرمايه" is used by concept/al-rimaya, sport/ramy: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/al-shatranj.yaml: title "الشطرنج" is used by concept/al-shatranj, sport/shatranj: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/al-tayammum.yaml: title "التيمم" is used by concept/al-tayammum, practice/tayammum: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/aqiqa.yaml: title "العقيقه" is used by concept/aqiqa, practice/aqiqa, practice/aqiqah: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/arabiyya.yaml: title "العربيه" is used by concept/arabiyya, language/arabic: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/ashab-al-kahf.yaml: title "اصحاب الكهف" is used by concept/ashab-al-kahf, screen/ashab-al-kahf-1997: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/asma-al-hakam.yaml: title "الحكم" is used by concept/asma-al-hakam, concept/hukm-ruling, job/hakam: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/asma-al-malik.yaml: title "الملك" is used by concept/asma-al-malik, concept/milk, job/king: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/asma-al-musawwir.yaml: title "المصور" is used by concept/asma-al-musawwir, job/musawwir: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/asma-al-wakil.yaml: title "الوكيل" is used by concept/asma-al-wakil, job/lawyer: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/asma-allah-al-husna.yaml: title "اسماء الله الحسني" is used by concept/asma-allah-al-husna, practice/dua-beautiful-names-list: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/bawl.yaml: title "بول" is used by concept/bawl, screen/bol-2011: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/bayah.yaml: title "البيعه" is used by concept/bayah, exhibit/path-bayat: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/dhib.yaml: title "ذيب" is used by concept/dhib, screen/dhib-2014: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/dhikr.yaml: title "الذكر" is used by concept/dhikr, practice/dhikr: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/earth-before-adam.yaml: title "من سكن الارض قبل ادم" is used by concept/earth-before-adam, question/who-lived-on-earth-before-adam: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/ghayb.yaml: title "الغيب" is used by concept/ghayb, exhibit/path-unseen-world: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/hajib.yaml: title "الحاجب" is used by concept/hajib, job/hajib: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/harakat-al-tarjama.yaml: title "حركه الترجمه" is used by concept/harakat-al-tarjama, exhibit/path-translation: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/ihana.yaml: title "الاهانه" is used by concept/ihana, screen/al-insulat-2017: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/imam-masjid.yaml: title "الامام" is used by concept/imam-masjid, screen/al-imam-2017, job/imam: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/khitan-circumcision.yaml: title "الختان" is used by concept/khitan-circumcision, practice/khitan: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/khutba-fiqh.yaml: title "الخطبه" is used by concept/khutba-fiqh, practice/khutba: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/kurawiyyat-al-sama.yaml: title "كرويه السماء" is used by concept/kurawiyyat-al-sama, invention/kurawiyyat-al-sama: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/madhhab.yaml: title "المذهب" is used by concept/madhhab, job/illuminator: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/mahr.yaml: title "المهر" is used by concept/mahr, practice/mahr: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/mayl-falak-al-buruj.yaml: title "ميل فلك البروج" is used by concept/mayl-falak-al-buruj, invention/mayl-falak-al-buruj: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/mu-tibb.yaml: title "مو" is used by concept/mu-tibb, screen/mu-2022: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/muamalat.yaml: title "المعاملات" is used by concept/muamalat, exhibit/path-muamalat: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/mubaraza-fiqh.yaml: title "المبارزه" is used by concept/mubaraza-fiqh, sport/mubaraza: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/muezzin.yaml: title "الموذن" is used by concept/muezzin, job/muezzin: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/nard.yaml: title "النرد" is used by concept/nard, sport/nard: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/nastaliq-script.yaml: title "خط النستعليق" is used by concept/nastaliq-script, invention/nastaliq-script: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/nikah-fiqh.yaml: title "النكاح" is used by concept/nikah-fiqh, practice/nikah: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/nura.yaml: title "نوره" is used by concept/nura, screen/nura-2023: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/qibla.yaml: title "القبله" is used by concept/qibla, exhibit/path-qibla-direction: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/ramadan-month.yaml: title "شهر رمضان" is used by concept/ramadan-month, exhibit/path-ramadan-month: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/ruju-al-kawakib.yaml: title "رجوع الكواكب" is used by concept/ruju-al-kawakib, invention/ruju-al-kawakib: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/sadaqa.yaml: title "الصدقه" is used by concept/sadaqa, concept/sadaqah, practice/sadaqa: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/siege-hisar.yaml: title "الحصار" is used by concept/siege-hisar, screen/al-hisar-1998, job/mat-maker: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/tacziya-condolence.yaml: title "التعزيه" is used by concept/tacziya-condolence, practice/taziya: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/tahara.yaml: title "الطهاره" is used by concept/tahara, exhibit/path-tahara: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/tajwid.yaml: title "التجويد" is used by concept/tajwid, practice/tajwid: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/tiraz.yaml: title "الطراز" is used by concept/tiraz, job/embroiderer: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/umra-rite.yaml: title "العمره" is used by concept/umra-rite, practice/umrah: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/wajib-fiqh.yaml: title "واجب" is used by concept/wajib-fiqh, screen/wajib-2017: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/watan-fiqh.yaml: title "وطن" is used by concept/watan-fiqh, screen/watan-2011: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/yasmin.yaml: title "ياسمين" is used by concept/yasmin, screen/yasmin-2004: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/yawm-al-jumua-fiqh.yaml: title "يوم الجمعه" is used by concept/yawm-al-jumua-fiqh, exhibit/path-jumua: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/zakat.yaml: title "الزكاه" is used by concept/zakat, practice/zakat: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/concept/ziyarat-al-qubur.yaml: title "زياره القبور" is used by concept/ziyarat-al-qubur, practice/ziyarat-al-qubur: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/practice/attar-druggist.yaml: title "العطار" is used by practice/attar-druggist, job/attar: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/exhibit/path-pashas-ottoman.yaml: title "الصدر الاعظم" is used by exhibit/path-pashas-ottoman, job/grand-vizier: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/source/cambridge-muslim-college.yaml: title "كليه كامبريدج الاسلاميه" is used by source/cambridge-muslim-college, listing/cambridge-muslim-college: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/listing/shahid-vod.yaml: title "شاهد" is used by listing/shahid-vod, screen/shahid-2012: if it is one thing, merge it (keep one id, list the other under aliases)
+warn  data/screen/al-tabib-2013.yaml: title "الطبيب" is used by screen/al-tabib-2013, job/physician: if it is one thing, merge it (keep one id, list the other under aliases)
+
+validated 86733 entities, 174641 prose files: 0 errors, 5442 warnings
+check-encoding: 261560 files, 0 with U+FFFD
+warn  canon: 4 of 299 canon books have no decision record yet (not blocking)
+authenticity: 0 error(s), 1 warning(s)
+extremism: 0 error(s), 164 exception(s)
+harvest register: 1137 entries, 0 errors, 1 warnings
+enrichment register: 33 claims, 0 errors, 31 warnings
+WARN  dec-20261108-222: legacy-missing optional 'expires_at'
+
+266/266 records valid — 0 failure(s), 1 warning(s)
+
+112/112 cases match expectations (100% reconstruction agreement — ICAI gate: promote rule changes only if this does not regress)
+  expect=default   18/18 pass
+  expect=docket    28/28 pass
+  expect=precedent 3/3 pass
+  expect=reject    4/4 pass
+  expect=rule      59/59 pass
+sweep: 34 live rule-decided records re-checked
+  0 stale citations — every live rule record still matches the engine is back to 0 errors.
+### Added
 - **Two works of al-Dhahabi now have their own pages: «سير أعلام النبلاء» (`work/siyar-alam-nubala`) and «تاريخ الإسلام» (`work/tarikh-islam-dhahabi`),** each with a five-language summary and prose, and linked to their author. Their source records existed but had no work record, so their passages could not be cited.
 ### Data
 - **80 new passages for the Elegy and Death-Announcement Browser:** 40 cited excerpts (at most 40 words, machine-read, not corrected) from each of the two books, on elegies, death announcements and condolence, each labelled in five languages.

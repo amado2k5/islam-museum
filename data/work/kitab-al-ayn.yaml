@@ -27,6 +27,10 @@ perspectives:
     summary: { ar: "يستقرئ أحمد أمين أن العلماء يكادون يتفقون على أن فكرة الترتيب الصوتي للخليل، مع بقاء نسبة المتن كلّه إليه موضع خلاف {cite:duha-islam p. 595}." }
     sources: [source/duha-islam]
 sources: [source/duha-islam, source/dia-kitabul-ayn, source/dia-halil-b-ahmed]
+relations:
+  - { type: influenced, target: work/jamharat-al-lugha, sources: [source/dia-el-cemhere] }
+  - { type: influenced, target: work/maqayis-al-lugha, sources: [source/dia-mucemu-mekayisil-luga] }
+  - { type: influenced, target: work/al-muhkam-ibn-sida, sources: [source/dia-el-muhkem] }
 provenance:
   layer: own-research
   source: "ضحى الإسلام لأحمد أمين ص 594-595"
