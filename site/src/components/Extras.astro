@@ -3,7 +3,8 @@
 import { existsSync } from "node:fs";
 import { repoPath } from "../lib/paths";
 import { byId, edgesFrom, href, labelOf, realNodes } from "../lib/graph";
-import { ui, type Lang } from "../lib/i18n";
+import { ui, fmt, type Lang } from "../lib/i18n";
+import { quranTranslation } from "../lib/quran-translations";
 import { formatDate } from "../lib/dates";
 import { onScreen, themeLabel, traditionLabel } from "../lib/entity";
 import type { Node } from "../../../scripts/build-graph";
@@ -22,6 +23,8 @@ for (const m of realNodes) {
 const { node: n, lang } = Astro.props as { node: Node; lang: Lang };
 const T = ui(lang);
 const d = n.data;
+// French and Spanish verse translations are third-party content kept outside the frozen records (lib/quran-translations.ts).
+const qt = n.class === "passage" && d.work === "work/quran" && d.unit === "ayah" ? quranTranslation(lang, d.sura, d.aya) : undefined;
 const lab = (id: string) => { const x = byId.get(id); return x ? labelOf(x, lang) : id; };
 const range = (s: any, e: any) => [formatDate(s, lang).text, formatDate(e, lang).text].filter(Boolean).join(" – ");
 const screens = onScreen(n.id);
@@ -136,6 +139,13 @@ const ownFile = ownFileRel && existsSync(repoPath("site", "public", ownFileRel))
       <p class="ui" style="margin:14px 0 0;font-size:1rem;line-height:1.8;border-top:1px solid var(--rule);padding-top:12px">
         {d.translations[lang].text} <span class="muted" style="font-size:.8rem">— {d.translations[lang].translator}</span>
       </p>
+    )}
+    {!d.translations?.[lang] && qt && (
+      <div style="margin:14px 0 0;border-top:1px solid var(--rule);padding-top:12px">
+        <p class="ui" lang={lang} style="margin:0;font-size:1rem;line-height:1.8">{qt.text}</p>
+        {qt.footnotes && <p class="ui muted" lang={lang} style="margin:8px 0 0;font-size:.85rem;line-height:1.7;white-space:pre-line">{qt.footnotes}</p>}
+        <p class="ui muted" style="margin:8px 0 0;font-size:.8rem">{fmt(T.reader.translation_credit_quranenc, { tr: qt.translator, v: qt.version })} <a href={qt.source} rel="noopener">QuranEnc.com</a></p>
+      </div>
     )}
   </section>
 )}
