@@ -8,8 +8,13 @@ summary:
   es: "Boceto de ficha para Al-Gharib al-Musannaf; sus fuentes aún no han sido verificadas en la página."
   fr: "Fiche de projet pour Al-Gharib al-Musannaf; ses sources ne sont pas encore vérifiées sur la page."
   ur: "الغریب المصنف کے لیے ڈرافٹ کارڈ؛ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
-wings: []
-sources: [source/al-aalam]
+genre: [lexicon]
+language: language/arabic
+tags: [maajim-browser, maajim-thematic]
+wings: [words]
+sources: [source/al-aalam, source/dia-el-muhassas]
+relations:
+  - { type: influenced, target: work/al-mukhassas, sources: [source/dia-el-muhassas] }
 external_ids: { wikidata: "Q43282088" }
 provenance:
   layer: own-research

@@ -1,0 +1,25 @@
+id: work/jamharat-al-lugha
+class: work
+kind: book
+label: { ar: "جمهرة اللغة", en: "Jamharat al-Lugha", es: "Jamharat al-Lugha", fr: "Jamharat al-Lugha", ur: "جمہرۃ اللغۃ" }
+summary:
+  ar: "جمهرة اللغة لابن دريد، ثالث معجم عربي بعد كتاب العين وكتاب الجيم. أهداه إلى عبد الله بن محمد بن ميكال وقدّم له بمقدمة في الترتيب والحروف ومخارجها وأوزان الأسماء. سمّاه الجمهرة لأنه أراد جمع جمهور كلام العرب المستعمل. سار على نظام العين في الأصول لكنه ترك ترتيب المخارج إلى الترتيب الهجائي، فقسّم الكلمات أولاً إلى أبواب بحسب طول الأصل ثم رتّبها من الهمزة إلى الياء، وجمع تقاليب الجذر في موضع واحد."
+  en: "Ibn Durayd's Jamharat al-Lugha, the third Arabic dictionary after Kitab al-Ayn and Kitab al-Jim. He dedicated it to Abdallah ibn Muhammad ibn Mikali and opened it with a preface on arrangement, letters, their points of articulation and noun patterns. He called it al-Jamhara because he meant to gather the greater part of Arabic in common use. He followed al-Ayn's root-based system but replaced its order by articulation point with alphabetical order: words are first divided into chapters by the length of the root, then ordered from hamza to ya, and the permutations of a root are treated together."
+  es: "El Jamharat al-Lugha de Ibn Durayd, el tercer diccionario árabe tras el Kitab al-Ayn y el Kitab al-Jim. Lo dedicó a Abdallah ibn Muhammad ibn Mikali y lo abrió con un prólogo sobre la ordenación, las letras, sus puntos de articulación y los patrones nominales. Lo llamó al-Jamhara porque quería reunir la mayor parte del árabe de uso común. Siguió el sistema de raíces de al-Ayn pero sustituyó su orden por puntos de articulación por el orden alfabético: las palabras se dividen primero en capítulos según la longitud de la raíz, luego se ordenan de la hamza a la ya, y las permutaciones de una raíz se tratan juntas."
+  fr: "Le Jamharat al-Lugha d'Ibn Durayd, troisième dictionnaire arabe après le Kitab al-Ayn et le Kitab al-Jim. Il le dédia à Abdallah ibn Muhammad ibn Mikali et l'ouvrit par une préface sur le classement, les lettres, leurs points d'articulation et les schèmes nominaux. Il l'appela al-Jamhara parce qu'il voulait réunir la plus grande part de l'arabe d'usage courant. Il suivit le système de racines d'al-Ayn mais remplaça son ordre par points d'articulation par l'ordre alphabétique : les mots sont d'abord répartis en chapitres selon la longueur de la racine, puis rangés du hamza au ya, et les permutations d'une racine sont traitées ensemble."
+  ur: "ابن درید کی جمہرۃ اللغۃ، کتاب العین اور کتاب الجیم کے بعد عربی کی تیسری لغت۔ انہوں نے اسے عبداللہ بن محمد بن میکال کے نام معنون کیا اور ترتیب، حروف، ان کے مخارج اور اسماء کے اوزان پر مقدمے سے شروع کیا۔ اس کا نام الجمہرہ اس لیے رکھا کہ وہ عربی کے مستعمل کلام کا بڑا حصہ جمع کرنا چاہتے تھے۔ انہوں نے العین کے مادوں کا نظام اپنایا مگر مخارج کی ترتیب چھوڑ کر حروفِ تہجی کی ترتیب اختیار کی: الفاظ پہلے مادے کی لمبائی کے ابواب میں بٹتے ہیں، پھر ہمزہ سے یا تک ترتیب پاتے ہیں، اور ایک مادے کے تقالیب ایک جگہ آتے ہیں۔"
+genre: [lexicon]
+authors: [person/ibn-durayd]
+language: language/arabic
+tags: [maajim-browser, maajim-general]
+wings: [words]
+sources: [source/dia-el-cemhere]
+relations:
+  - { type: influenced, target: work/maqayis-al-lugha, sources: [source/dia-mucemu-mekayisil-luga] }
+provenance:
+  layer: own-research
+  source: "source/dia-el-cemhere (TDV İslâm Ansiklopedisi, read 20 November 2026)"
+  generated_by: "Claude Code"
+  model: claude-sonnet-5-5
+  run: maajim-batch-4-2026-11-20
+status: { review: published, completeness: 2, generated_by: "Claude Code" }
