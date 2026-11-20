@@ -1,7 +1,10 @@
 # Submission readiness
 
-Prepared 15 November 2026. **Deposit and submission require the author's explicit go.** Nothing has been published,
-deposited, submitted, emailed or posted.
+Prepared 15 November 2026. **Deposited and published on Zenodo on 16 November 2026**, with the author's explicit
+go: preprint, CC BY 4.0 — this version (v1.0): https://doi.org/10.5281/zenodo.24273663 · all versions (concept
+DOI): https://doi.org/10.5281/zenodo.24273662. The dataset record links back (`isDescribedBy`, `isCitedBy`), and
+the paper is on the author's ORCID record through DataCite. A journal submission still requires the author's
+explicit go and the steps listed further down.
 
 ## Ready now for a Zenodo preprint deposit
 
@@ -12,30 +15,33 @@ deposited, submitted, emailed or posted.
 - [x] Zenodo deposit metadata, DataCite XML, Highwire and Dublin Core tags, BibTeX, `CITATION.cff`
 - [x] Claims-evidence table
 
-## To do before the deposit (author)
+## The deposit — done 16 November 2026
 
-1. Read the paper in full. You are the sole author and are responsible for every claim.
-2. Settle the items in the paper's "UNVERIFIED — author to confirm" list, then delete that list from the deposited text.
-3. Decide whether to keep the frozen basis (`63475724ce`) or re-measure on the day of deposit. If you re-measure,
-   change every figure, the abstract, the highlights, the metadata descriptions and the claims table together.
-4. Produce the PDF. Its first page must begin with the title and then the author's name, in large type, and the
-   reference list must be titled "References"; Google Scholar's guidelines ask for this.
-5. On Zenodo, start a new upload of type Publication / Preprint, reserve the DOI, and replace
-   `[PAPER DOI TO BE ASSIGNED ON ZENODO DEPOSIT]` everywhere: the paper, the BibTeX, the XML, the meta tags, the
-   `CITATION.cff` (uncomment the `doi` line).
-6. Enter the metadata from `zenodo-paper-metadata.json` (remove its notes block first). Licence CC BY 4.0.
-7. Publish. Then edit the dataset record and add the paper DOI as a related identifier, `isDescribedBy`.
-8. Add the paper to your ORCID record.
+1. The author directed the deposit after a full review of the paper and its metadata package against the
+   repository record (the review passed; the author's go was given on that condition).
+2. ✓ The "UNVERIFIED — author to confirm" items were settled from the author's own record, and the list was
+   deleted from the deposited text.
+3. ✓ The frozen basis (`63475724ce`) was kept.
+4. ✓ PDF produced (22 pages; the first page begins with the title and then the author's name, in large type,
+   and the reference list is titled "References", as Google Scholar's guidelines ask).
+5. ✓ Zenodo upload of type Publication / Preprint created; DOI 10.5281/zenodo.24273663 reserved and substituted
+   everywhere: the paper, the BibTeX, the XML, the meta tags, the `CITATION.cff` (the `doi` line uncommented).
+6. ✓ Metadata entered from `zenodo-paper-metadata.json` (the notes block was removed from the deposit copy).
+   Licence CC BY 4.0.
+7. ✓ Published. The dataset record now carries the paper's concept DOI (10.5281/zenodo.24273662) as
+   `isDescribedBy` and `isCitedBy` — a metadata-only edit; no new dataset version was minted.
+8. ✓ The paper is on the author's ORCID record (added by DataCite auto-update; verified 16 November 2026).
 
 ## Recommended before or soon after the deposit
 
 - Correct the licence field of the dataset's Zenodo record, which says CC0 for an archive that also holds
   CC BY-SA 4.0 prose and MIT code (ledger row R19). The paper reports this as open.
-- Add a `CITATION.cff` for the dataset to the repository root; there is none today. This is a repository change
-  and goes through the usual pull request with a `CANARY.md` entry.
+- ✓ Done (PR #7110, 16 November 2026): a `CITATION.cff` for the dataset stands at the repository root, its
+  preferred citation the dataset's concept DOI.
 - Resolve the conflict between the developer page ("there is no OpenAPI/Swagger document") and
   `site/public/openapi/v1.json`.
-- Consider a site-level schema.org `Dataset` description on the developer page; none was found.
+- ✓ Done (PR #7110, 16 November 2026): the site carries a schema.org `Dataset` description — on the Cite page
+  (`/{lang}/cite/`), which also states the citation policy and links this paper.
 
 ## Required before a journal submission (not needed for the preprint)
 

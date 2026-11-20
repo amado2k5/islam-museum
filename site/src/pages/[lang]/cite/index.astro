@@ -20,6 +20,10 @@ const C = T.cite;
 const DOI = "10.5281/zenodo.23692511";
 const DOI_URL = `https://doi.org/${DOI}`;
 
+// The description paper (whitepaper), cited by its concept DOI like the dataset.
+const PAPER_DOI = "10.5281/zenodo.24273662";
+const PAPER_DOI_URL = `https://doi.org/${PAPER_DOI}`;
+
 const datasetLd = {
   "@context": "https://schema.org",
   "@type": "Dataset",
@@ -32,6 +36,7 @@ const datasetLd = {
   creator: { "@type": "Person", name: "Ahmed Abdel Aal", identifier: "https://orcid.org/0009-0000-9215-2906", affiliation: { "@type": "Organization", name: "islam.museum", url: "https://islam.museum" } },
   publisher: { "@type": "Organization", name: "islam.museum", url: "https://islam.museum" },
   license: "https://creativecommons.org/publicdomain/zero/1.0/",
+  citation: PAPER_DOI_URL,
   isAccessibleForFree: true,
   inLanguage: ["ar", "en", "ur", "fr", "es"],
   keywords: ["Islamic history", "Islamic civilization", "knowledge graph", "digital humanities", "open data", "digital museum"],
@@ -101,6 +106,12 @@ ER  -`;
         <pre class="cite-box" dir="ltr">{bibtex}</pre>
         <h3>{C.ris_label}</h3>
         <pre class="cite-box" dir="ltr">{ris}</pre>
+      </section>
+
+      <section aria-labelledby="cite-desc">
+        <h2 id="cite-desc">{C.desc_title}</h2>
+        <p>{C.desc_body}</p>
+        <p dir="ltr"><a href={PAPER_DOI_URL} rel="noopener">doi.org/{PAPER_DOI}</a></p>
       </section>
 
       <section aria-labelledby="cite-paper">

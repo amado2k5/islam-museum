@@ -1,6 +1,6 @@
 # UNESCO–Sharjah Prize, 22nd edition: ranked list of endorsement candidates
 
-_Draft for the founder, 15 November 2026 (evening). **He sends; no agent sends.** The statutory basis for each name is in [`eligibility-memo.md`](eligibility-memo.md). The letters are in [`letters.md`](letters.md), the models to attach in [`form-texts.md`](form-texts.md) section 5, the dates in [`state-of-play.md`](state-of-play.md). Thread facts were read in the founder's mailbox on 15 November, with his permission, unless marked otherwise. Contact details of organisations were read on their own sites by a research sub-agent (**agent-read**): look at the page once more on the day of sending._
+_Draft for the founder, 15 November 2026 (evening), updated 18 November 2026 with the state of every thread to that day, and refreshed 20 November 2026 against main of that day (museum facts only; thread states unchanged since 18 November). **He sends; no agent sends.** The statutory basis for each name is in [`eligibility-memo.md`](eligibility-memo.md). The letters are in [`letters.md`](letters.md), the models to attach in [`form-texts.md`](form-texts.md) section 5, the dates in [`state-of-play.md`](state-of-play.md). Thread facts were read in the founder's mailbox on 15 November, with his permission, unless marked otherwise. Contact details of organisations were read on their own sites by a research sub-agent (**agent-read**): look at the page once more on the day of sending._
 
 ## How the list is ranked
 
@@ -17,21 +17,23 @@ Every approach was also read against the founder's sovereignty rule. An endorsem
 
 | # | Who | Basis in Article 6.2 | Knows the museum | Letter | Model | When |
 |---|---|---|---|---|---|---|
-| 1 | Prof. Robert Hoyland, New York University | A person working in the field; an eminent personality if UNESCO so considers | Yes: wrote a sentence for quotation, 29 Oct | L2 | 5a | Mon 16 Nov |
-| 2 | Prof. Abdullahi An-Na'im, Emory University | The same; his work is on Islam, human rights and dialogue | Yes: asked to share it with his collaborators, 3 Nov | L3 | 5a | Mon 16 Nov |
-| 3 | The Arab British Centre, London | Former laureate (2012); also a civil society organisation in the field | No | L11a | 5b | Tue 17 Nov |
-| 4 | IFLA | NGO in official partnership (agent-read) | One message, 21 Oct | L5 | 5b | Mon 16 Nov |
-| 5 | Prof. Bahia Shehab, Cairo | Former laureate (2016); a person working in the field | No | L11b | 5a | Tue 17 Nov |
-| 6 | ICOMOS | NGO in official partnership (agent-read) | One message, 21 Oct | L6 | 5b | Mon 16 Nov |
-| 7 | Arab Thought Foundation, Beirut | Foundation in official relations (agent-read; not re-verified) | No | L10 | 5b | Tue 17 Nov |
-| 8 | Biblioteca Islámica, AECID, Madrid | Former laureate (2015) | No | L11c | 5b or 5c | Tue 17 Nov |
+| 1 | Prof. Robert Hoyland, New York University | A person working in the field; an eminent personality if UNESCO so considers | Yes: wrote a sentence for quotation, 29 Oct | L2 | 5a | Sent 15 Nov; declined 16 Nov — closed |
+| 2 | Prof. Abdullahi An-Na'im, Emory University | The same; his work is on Islam, human rights and dialogue | Yes: asked to share it with his collaborators, 3 Nov | L3 | 5a | Sent 15 Nov; agreed 15 Nov; signature pending |
+| 3 | The Arab British Centre, London | Former laureate (2012); also a civil society organisation in the field | No | L11a | 5b | Not sent — held 17 Nov |
+| 4 | IFLA | NGO in official partnership (agent-read) | One message, 21 Oct | L5 | 5b | Parked 15 Nov — not sent |
+| 5 | Prof. Bahia Shehab, Cairo | Former laureate (2016); a person working in the field | No | L11b | 5a | Not sent — held 17 Nov |
+| 6 | ICOMOS | NGO in official partnership (agent-read) | One message, 21 Oct | L6 | 5b | Parked 15 Nov — not sent |
+| 7 | Arab Thought Foundation, Beirut | Foundation in official relations (agent-read; **unverified** — see section 7) | No | L10 | 5b | Not sent — held 17 Nov |
+| 8 | Biblioteca Islámica, AECID, Madrid | Former laureate (2015) | No | L11c | 5b or 5c | Not sent — held 17 Nov |
 | 9 | Mauritanian institute for heritage research (IMRFPC), through its deputy director | A person working in the field. The institute itself is a public body and is not among the nominators | Two days | L12 | 5d (French) | Only if he writes first |
 | 10 | International Islamic Youth League, Freetown | Civil society organisation; whether its field qualifies is UNESCO's call | Yes: a pilot is being planned | L4 (spoken) | 5b | At the meeting of 24 Nov, if at all |
-| 11 | Muslim World League | Civil society organisation; whether its field qualifies is UNESCO's call | Two messages, silent | L9 | 5b | Mon 23 Nov, optional |
+| 11 | Muslim World League | Civil society organisation; whether its field qualifies is UNESCO's call | Two messages, silent | L9 | 5b | Parked 15 Nov |
 | 12 | ICOM | NGO in official partnership (agent-read) | Two messages, silent | L7 | 5b | Not recommended |
 | 13 | Arabic Language International Council, Beirut | NGO in official partnership by its own account (agent-read) | Two messages, silent | none | — | Not recommended |
 
-Realistic reading: names 1 and 2 are the campaign. Names 3 to 8 are honest long shots that cost one email each. Names 9 to 13 are on the list so that the reason for holding each is on record.
+**Where it stands, 18 November 2026.** L1, L2, L3 and the thank-you L8 went out on the evening of 15 November, sent by the founder himself. Professor Hoyland declined on 16 November (section 1): L2 is closed. Professor An-Na'im agreed the same evening L3 reached him and was sent the filled draft endorsement package that night; his signed page is the one thing the filing now waits for (section 2). On 18 November the Prize Secretariat clarified the nominator rules — Article 6.2 names six kinds of nominator: Member State governments; partner NGOs and foundations; former laureates; eminent personalities; any person working in the field of Arab culture and for peace and intercultural dialogue; and any civil-society organisation in the field — and a self-nomination is permitted only with an eligible nominator's endorsement letter. It also signalled that the 30 November 2026 deadline is expected to be extended; that is a signal, not a confirmed new date, and the plan still files on Friday 27 November if a signed page is in hand. The cold letters L10 and L11a–c were not sent: the founder decided "not today" on 17 November, and the send-day checks recorded in sections 3, 5, 7 and 8 stand ready if he resumes them. L5, L6 and L9 are parked by the founder's decision of 15 November.
+
+**Refresh, 20 November 2026.** No thread has moved since 18 November: Professor An-Na'im's signed page is still awaited, and every other thread stands as recorded above. The museum the unsent letters describe has moved, and those drafts in [`letters.md`](letters.md) were updated to match main of 20 November 2026: the French and Spanish editions were completed and merged on 19 November and go live at the founder's next deployment, beside the live Arabic, English and Urdu editions; the live site as read on 19 November 2026 shows 81,578 entries across 250,362 record pages and 300 pathways; and Library and Archives Canada has completed its full test crawl of the site (November 2026).
 
 ---
 
@@ -42,6 +44,7 @@ Realistic reading: names 1 and 2 are the campaign. Names 3 to 8 are honest long 
 - **Thread.** He replied on 29 October: "Your digital museum looks very impressive, and I am sure it will be a wonderful resource for interested lay persons and students alike (which you may quote me on)". No reply from the founder is in that thread, seventeen days on. L2 begins by thanking him.
 - **Smallest ask.** One page, from a model he may change or discard, and the five details the form asks of a nominator. Or, if he prefers, ten minutes on the online form himself.
 - **Route.** Reply in his thread. Check that his address is in "To".
+- **Outcome.** L2 was sent by the founder on the evening of 15 November. Professor Hoyland replied on 16 November: he politely declined to give an official endorsement, while encouraging the museum personally. A closing exchange of thanks concluded on 18 November. **L2 is closed.** His sentence of 29 October stands as a personal remark, quoted with his permission; it is not, and must never be recorded as, an official or institutional endorsement.
 - **Risk.** US Thanksgiving is Thursday 26 November. He wrote one kind sentence; a prize letter is a larger thing, and L2 says so.
 - **Sovereignty check.** Passes: a recommendation only.
 
@@ -49,7 +52,8 @@ Realistic reading: names 1 and 2 are the campaign. Names 3 to 8 are honest long 
 
 - **Basis.** The same two capacities. His field is Islamic law, human rights and dialogue within and between cultures, which meets the second half of the condition squarely.
 - **Fit.** High. He approached the museum warmly and his name carries weight on the Prize's "dialogue" side.
-- **Thread.** The founder wrote on 2 November; he replied on **3 November** (the first package said 2 November: corrected) that he was "so eager to explore ways of benefiting from this tremendous resource" and asked whether he could share it with his collaborators. He asked for a one-page note, which the founder sent that day, and he is the first entry on the museum's Network page since 4 November. Nothing stands open; the last message is the founder's.
+- **Thread.** The founder wrote on 2 November; he replied on **3 November** (the first package said 2 November: corrected) that he was "so eager to explore ways of benefiting from this tremendous resource" and asked whether he could share it with his collaborators. He asked for a one-page note, which the founder sent that day, and he is the first entry on the museum's Network page since 4 November. When this list was drafted nothing stood open; the last message was the founder's.
+- **Outcome.** L3 was sent by the founder on the evening of 15 November. Professor An-Na'im replied the same evening, agreeing to nominate the founder — he wrote that he was delighted and honoured — and noting that he is pressed for time through November as guest-editor of a past-due handbook manuscript. The founder sent him the filled draft endorsement package the same evening (15 November, 21:10 EST). No reply has come since. **His signed page is the gating item for the filing, and no nudge is planned.**
 - **What he has not said.** That he has read the museum's records. He gave no permission to be quoted. A letter of 13 November to another recipient quotes his phrase; that should not be repeated without asking him ([`claims-corrections.md`](claims-corrections.md), C10).
 - **A correction he is owed.** The founder's first letter told him "every fact carries its citation" and gave "44,000+ sourced entries". L3 puts that right before it asks for anything.
 - **Smallest ask.** As for Professor Hoyland.
@@ -62,7 +66,8 @@ Realistic reading: names 1 and 2 are the campaign. Names 3 to 8 are honest long 
 - **Fit.** The best statutory fit of any body that does not know the museum.
 - **Thread.** None.
 - **Smallest ask.** One page on its letterhead; the founder files everything.
-- **Route.** The general address printed on its contact page, to the attention of its Executive Director, who is named on its staff page (agent-read: confirm the name on the day).
+- **Route.** info@arabbritishcentre.org.uk, to the attention of its Executive Director, Nadia El-Sebai (confirmed on the send-day check of 17 November).
+- **Send-day state (17 November).** Not sent: the founder decided "not today" on 17 November. If the cold letters resume, this one is ready as drafted.
 - **Risk.** It owes the museum nothing, and a small charity may not turn a letter round in a week.
 - **Sovereignty check.** Passes.
 
@@ -73,6 +78,7 @@ Realistic reading: names 1 and 2 are the campaign. Names 3 to 8 are honest long 
 - **Thread.** One message reached it, on 21 October, asking whether IFLA nominates. The follow-up of 2 November, which carried the small ask and the model letter, was a reply to the founder's own sent message and went to his own address only. IFLA has never seen the endorsement request.
 - **Smallest ask.** One page; a one-line answer either way.
 - **Route.** Reply to the message of 21 October with IFLA's address put back in "To". The name of its Secretary General could not be confirmed on IFLA's own site (the site refused the sub-agent); do not address a person by name unless the founder confirms it.
+- **Outcome.** Parked by the founder on 15 November. L5 was not sent. If he un-parks it, the route above stands.
 - **Sovereignty check.** Passes. L5 says plainly that he is not a member; it does not offer to join in exchange.
 
 ## 5. Professor Bahia Shehab, The American University in Cairo
@@ -81,7 +87,8 @@ Realistic reading: names 1 and 2 are the campaign. Names 3 to 8 are honest long 
 - **Fit.** High on the Arab side of the Prize, and she is a compatriot.
 - **Thread.** None.
 - **Smallest ask.** One page, or the form itself.
-- **Route.** The address printed on her faculty page at the university (agent-read). It is not reproduced in this public file.
+- **Route.** bahia@aucegypt.edu, from the American University in Cairo's Find an Expert page (send-day check, 17 November).
+- **Send-day state (17 November).** Not sent: the founder decided "not today" on 17 November. The first message carries no link and no attachment, as drafted.
 - **Risk.** A cold letter to a university address from a personal mailbox. Following the lesson the founder drew from an earlier university approach, L11b carries **no link and no attachment**: the museum's address is written as plain words and the model is offered on reply.
 - **Sovereignty check.** Passes.
 
@@ -91,11 +98,13 @@ Realistic reading: names 1 and 2 are the campaign. Names 3 to 8 are honest long 
 - **Fit.** Low to moderate. The museum documents some 5,800 buildings, many of them preliminary cards.
 - **Thread.** As IFLA: one message on 21 October; the follow-up of 2 November never left the founder's mailbox.
 - **Route.** Reply to the message of 21 October with the secretariat's published address in "To" (agent-read).
+- **Outcome.** Parked by the founder on 15 November. L6 was not sent.
 - **Sovereignty check.** Passes.
 
 ## 7. Arab Thought Foundation, Beirut
 
-- **Basis.** A foundation in official relations with UNESCO, on the list of September 2026 as a sub-agent read it. I could not re-read the list on 15 November. If it stands, both conditions of kind 2 are met: the Foundation's field is Arab thought and culture.
+- **Basis.** A foundation in official relations with UNESCO, on the list of September 2026 as a sub-agent read it. I could not re-read the list on 15 November. **That premise remains unverified: before any submission it must be checked on UNESCO's NGO register, or the sentence that relies on it softened.** If it stands, both conditions of kind 2 are met: the Foundation's field is Arab thought and culture.
+- **Send-day state (17 November).** Not sent: the founder decided "not today" on 17 November. The salutation for the form version is «مؤسسة الفكر العربي». The eligibility premise above must be settled before this letter goes anywhere.
 - **Fit.** High on paper.
 - **Thread.** None on record.
 - **Route.** Its site offers a contact form in Arabic and prints no email address (agent-read). L10 therefore comes in two lengths: the letter, and a version short enough for a form.
@@ -107,7 +116,8 @@ Realistic reading: names 1 and 2 are the campaign. Names 3 to 8 are honest long 
 - **Basis.** Former laureate, 2015 (UNESCO's page, morning reading; AECID's own site says the same, agent-read).
 - **Fit.** Good: a research library for the Arab and Islamic world that will judge an Arabic-source reference work quickly.
 - **Thread.** None.
-- **Route.** AECID prints only its general information address; no address for the library was found (agent-read). A name for the library's head appears in a 2019 article and may be out of date.
+- **Route.** AECID prints only its general information address; no address for the library was found (agent-read). AECID's own site names Luisa Mora for the Islamic collection (send-day check, 17 November); the message goes to the general address and asks for it to reach her.
+- **Send-day state (17 November).** Not sent: the founder decided "not today" on 17 November.
 - **Risk.** The library is part of a government agency. A letter may need clearance it cannot get in two weeks, and the French model (5c) may travel better than the English.
 - **Sovereignty check.** Passes. An agency of a foreign ministry writing one page is recognition, not oversight; if it ever asked for more, the answer is no.
 
@@ -131,7 +141,7 @@ Realistic reading: names 1 and 2 are the campaign. Names 3 to 8 are honest long 
 
 - **Basis.** A civil society organisation; the field question is the same as for the League above. The letter of 8 November calls it an organisation in official partnership with UNESCO, which is unverified.
 - **Thread.** Two messages, 17 October and 8 November. The second, with the request and the model letter, **is in the Sent folder** (the follow-up brief had it as unconfirmed). No reply.
-- **Verdict.** One optional follow-up on Monday 23 November, because the 8 November letter needs its basis corrected (L9). No more than that.
+- **Verdict.** **Parked by the founder on 15 November.** The follow-up (L9) that would correct the 8 November letter's basis is not being sent. No further message.
 - **Sovereignty check.** The founder's to weigh. An endorsement is not oversight, but his independence rule names religious institutions, and a juror will see the association.
 
 ## 12. ICOM
@@ -160,7 +170,7 @@ Realistic reading: names 1 and 2 are the campaign. Names 3 to 8 are honest long 
 
 ## Closed
 
-- **IRCICA.** It replied on 3 November that it does not nominate candidates for UNESCO prizes. It is an organ of an intergovernmental body and fits none of the six kinds.
+- **IRCICA.** It replied on 3 November that it does not nominate candidates for UNESCO prizes. It is an organ of an intergovernmental body and fits none of the six kinds. The founder sent the thank-you (L8) on 15 November 2026. The thread is closed; no nudge, ever.
 - **The Canadian Commission for UNESCO.** Abstains from all prize applications. Never imply its support.
 - **ICDE.** Nominates only from its member organisations.
 - **ICESCO.** Intergovernmental; an automatic acknowledgement only.

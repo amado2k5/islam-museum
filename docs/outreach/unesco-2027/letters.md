@@ -1,12 +1,12 @@
 # UNESCO–Sharjah Prize, 22nd edition: draft letters
 
-_Drafts for the founder, 15 November 2026, revised that evening. **He sends; no agent sends.** Who and why: [`endorsers.md`](endorsers.md). Dates and order: [`state-of-play.md`](state-of-play.md). The letter each one asks for: [`form-texts.md`](form-texts.md), section 5. The statutory basis: [`eligibility-memo.md`](eligibility-memo.md)._
+_Drafts for the founder, 15 November 2026, revised that evening. **He sends; no agent sends.** The founder himself sent L1, L2, L3 and L8 on the evening of 15 November 2026; each letter's heading carries its status as of 18 November 2026. The unsent drafts were refreshed on 20 November 2026 against main of that day (current figures and the five-language state, as set out in point 3 below); the sent letters L1, L2, L3 and L8 stand exactly as sent. Who and why: [`endorsers.md`](endorsers.md). Dates and order: [`state-of-play.md`](state-of-play.md). The letter each one asks for: [`form-texts.md`](form-texts.md), section 5. The statutory basis: [`eligibility-memo.md`](eligibility-memo.md)._
 
 ## Before any letter goes
 
 1. **Search Sent for the recipient first**, whatever any summary says, this one included.
 2. **Check the To line before sending.** The follow-ups of 2 November to IFLA, ICOMOS and IRCICA were replies to the founder's own sent messages and went to his own address alone. A reply to one's own message must have the organisation's address put back in "To".
-3. **Re-read the figures on the day.** These drafts say "some 63,000 records": the public figure was 63,078 on 15 November 2026, drafts included (`api.islam.museum/api/v1/meta/counts.json`). The site's home page calls them entries; these letters say records so that nobody takes the figure for a count of finished articles.
+3. **Re-read the figures on the day.** These drafts say "some 63,000 records": the public figure was 63,078 on 15 November 2026, drafts included (`api.islam.museum/api/v1/meta/counts.json`). The site's home page calls them entries; these letters say records so that nobody takes the figure for a count of finished articles. **Refreshed 20 November 2026:** the live site as read on 19 November 2026 shows 81,578 entries across 250,362 record pages and 300 pathways, so the unsent drafts below now say "some 81,000 records" and describe the French and Spanish editions as completed and merged, going live at the next deployment; re-read the figures again on the day any of them is actually sent. The letters sent on 15 November keep the figures they were sent with.
 4. **Attach the recommendation model as PDF and DOCX.** The earlier model went out as a `.md` file, which few offices can open and some mail filters drop.
 5. **One link, the site.** No dossier is attached to a first message; it is offered. The dossier of 21 October that went to IFLA, ICOMOS and IRCICA is out of date and is not sent again.
 6. **A first message to a university address the founder has never written to carries no link and no attachment** (L11b). The museum's address is written as plain words, and the model is offered on reply. This follows the lesson he drew from an earlier university approach, where links from a personal mailbox were flagged.
@@ -25,9 +25,13 @@ _Drafts for the founder, 15 November 2026, revised that evening. **He sends; no 
 | IRCICA | Declined, 3 Nov | **Harms.** Closed. A thank-you at most (L8). See N3. |
 | Muslim World League | Two (17 Oct; 8 Nov with the ask) | **Neutral.** One follow-up on 23 Nov is defensible because the 8 Nov letter needs a correction (L9). Founder's call. |
 
+_Status, 18 November 2026: L5 and L6 were not sent — IFLA and ICOMOS were parked by the founder on 15 November, and the Muslim World League was parked the same day, so the L9 follow-up does not arise. IRCICA received its thank-you (L8) on 15 November._
+
 ---
 
-## L1. The Prize Secretariat (Monday 16 November; reply in the existing thread)
+## L1. The Prize Secretariat — **sent by the founder, evening of 15 November 2026** (reply in the existing thread)
+
+_The Secretariat replied on 18 November 2026: it clarified the nominator rules (the six kinds of Article 6.2; a self-nomination is permitted only with an eligible nominator's endorsement letter) and signalled that the 30 November deadline is expected to be extended — a signal, not a confirmed new date._
 
 Thread: "Nomination rules for the 22nd edition — are NGO nominations accepted?" To: the Secretariat's address in that thread.
 
@@ -46,7 +50,9 @@ Thread: "Nomination rules for the 22nd edition — are NGO nominations accepted?
 > With thanks for your help,
 > Ahmed Abdel Aal
 
-## L2. Professor Robert Hoyland, New York University (Monday 16 November; reply in his thread)
+## L2. Professor Robert Hoyland, New York University — **sent by the founder, evening of 15 November 2026; declined 16 November; closed**
+
+_Professor Hoyland replied on 16 November: he politely declined to give an official endorsement, while encouraging the museum personally. A closing exchange of thanks concluded on 18 November. His sentence of 29 October stands as a personal remark only._
 
 _Check Sent first: no reply to his note of 29 October appears in that thread._
 
@@ -67,7 +73,9 @@ _Check Sent first: no reply to his note of 29 October appears in that thread._
 > With respect and gratitude,
 > Ahmed Abdel Aal
 
-## L3. Professor Abdullahi Ahmed An-Na'im, Emory University (Monday 16 November; reply in his thread)
+## L3. Professor Abdullahi Ahmed An-Na'im, Emory University — **sent by the founder, evening of 15 November 2026; agreed; signature pending**
+
+_Professor An-Na'im replied the same evening, agreeing to nominate the founder (delighted and honoured, and pressed for time through November as guest-editor of a past-due handbook manuscript). The founder sent him the filled draft endorsement package the same evening (15 November, 21:10 EST). No reply since; his signed page is the gating item for the filing. The founder sent a short reminder on 20 November 2026, re-attaching the draft and asking for the signed page by Tuesday 24 November; no further nudge is planned._
 
 _His thread was read on 15 November. Nothing stands open in it: the last message is the founder's of 4 November, announcing the Network page. He has not said that he has read the museum's records, and he has given no permission to be quoted._
 
@@ -111,7 +119,7 @@ _Only if they say yes, the same day, in the meeting thread:_
 > With warm respect,
 > Ahmed Abdel Aal
 
-## L5. IFLA (Monday 16 November)
+## L5. IFLA — **parked by the founder, 15 November 2026; not sent**
 
 _A reply to the founder's own message of 21 October, with IFLA's address put back in "To". This is the first time the ask reaches them._
 
@@ -123,14 +131,14 @@ _A reply to the founder's own message of 21 October, with IFLA's address put bac
 >
 > Would IFLA consider issuing one page of endorsement? I would prepare and submit everything. A model letter is attached, to change or set aside.
 >
-> So that IFLA knows exactly what it would endorse: islam.museum is a free digital museum of Islamic history, written in Arabic first and published also in English and Urdu, open since 11 October 2026. I built it alone and pay for it. Artificial-intelligence tools draft and translate its records from cited sources under rules I publish; most records are labelled drafts, and about a fifth are preliminary cards whose sources are not yet checked; the site states this openly. It holds some 63,000 records, drafts included. Its data is released CC0, its prose CC BY-SA 4.0, its code under the MIT licence, with a public interface and a dated archive under a DOI. Library and Archives Canada has taken the site into its preservation scope. The dossier I attached in October is out of date; a current one is ready if it would help.
+> So that IFLA knows exactly what it would endorse: islam.museum is a free digital museum of Islamic history, written in Arabic first and published also in English and Urdu, with French and Spanish editions completed and going live at the next deployment, open since 11 October 2026. I built it alone and pay for it. Artificial-intelligence tools draft and translate its records from cited sources under rules I publish; most records are labelled drafts, and about a fifth are preliminary cards whose sources are not yet checked; the site states this openly. It holds some 81,000 records, drafts included (81,578 entries on the live site as read on 19 November 2026). Its data is released CC0, its prose CC BY-SA 4.0, its code under the MIT licence, with a public interface and a dated archive under a DOI. Library and Archives Canada has completed a full test crawl of the site (November 2026) for its preservation programme. The dossier I attached in October is out of date; a current one is ready if it would help.
 >
 > I am not an IFLA member, and I understand if IFLA endorses only within its membership. A one-line answer either way would be a kindness. A letter would need to reach me by Wednesday 25 November.
 >
 > With thanks for IFLA's work for libraries and open knowledge,
 > Ahmed Abdel Aal
 
-## L6. ICOMOS (Monday 16 November)
+## L6. ICOMOS — **parked by the founder, 15 November 2026; not sent**
 
 _As L5: a reply to the message of 21 October, with the ICOMOS secretariat's address put back in "To"._
 
@@ -140,7 +148,7 @@ _As L5: a reply to the message of 21 October, with the ICOMOS secretariat's addr
 >
 > The Prize Secretariat has since confirmed that an eligible organisation may, instead of managing a nomination, give the candidate one page of endorsement authorising him to submit the file himself. The deadline is 30 November 2026. Would ICOMOS consider it? A model letter is attached.
 >
-> I recognise that a digital museum stands at the edge of ICOMOS's field. islam.museum documents, among much else, some 5,800 buildings of the Islamic world, in Arabic first, with English and Urdu, as public-domain data. Many of those building records are still preliminary cards, drawn from Wikidata, whose sources are not yet checked, and I would rather you heard that from me. The museum has been open since 11 October 2026; I built it alone; artificial-intelligence tools draft its records from cited sources under rules I publish, and most records are labelled drafts.
+> I recognise that a digital museum stands at the edge of ICOMOS's field. islam.museum documents, among much else, some 5,800 buildings of the Islamic world, in Arabic first, with English and Urdu editions live and French and Spanish editions completed and going live at the next deployment, as public-domain data. Many of those building records are still preliminary cards, drawn from Wikidata, whose sources are not yet checked, and I would rather you heard that from me. The museum has been open since 11 October 2026; I built it alone; artificial-intelligence tools draft its records from cited sources under rules I publish, and most records are labelled drafts.
 >
 > If this is not a matter for ICOMOS, a one-line reply would help me. A letter would need to reach me by Wednesday 25 November.
 >
@@ -160,7 +168,7 @@ _ICOM's site names an institutional affairs officer but prints no address for he
 > With respect,
 > Ahmed Abdel Aal
 
-## L8. IRCICA (optional; a thank-you, no request)
+## L8. IRCICA — **sent by the founder, evening of 15 November 2026** (a thank-you, no request; the thread is closed)
 
 > Dear colleagues,
 >
@@ -169,7 +177,7 @@ _ICOM's site names an institutional affairs officer but prints no address for he
 > With respect,
 > Ahmed Abdel Aal
 
-## L9. Muslim World League (optional; Monday 23 November; Arabic; reply in the thread of 8 November)
+## L9. Muslim World League — **parked by the founder, 15 November 2026; not sent** (Arabic; reply in the thread of 8 November)
 
 _The letter of 8 November calls the League an organisation in official partnership with UNESCO. That is unverified: it is not on UNESCO's NGO list of August 2025. This follow-up puts the request on the footing the Statutes actually give._
 
@@ -181,7 +189,7 @@ _The letter of 8 November calls the League an organisation in official partnersh
 >
 > وأودّ أن أصحّح أمرًا ورد في رسالتي السابقة. الأساس النظامي لطلبي هو المادة ٦-٢ من النظام الأساسي للجائزة، وهي تجيز الترشيح لمنظمات المجتمع المدني العاملة في ميدان الثقافة العربية وفي تعزيز السلام والحوار بين الثقافات، سواء أكانت لها شراكة رسمية مع اليونسكو أم لم تكن. وأمانة الجائزة هي التي تتحقق من أهلية الجهة المؤيِّدة.
 >
-> ومن حق الرابطة أن تعرف بدقة ما تؤيده. المتحف عمره خمسة أسابيع منذ افتتاحه للجمهور. بنيته وحدي وأموّله من مالي. تتولى أدوات الذكاء الاصطناعي صياغة مداخله وترجمتها من مصادر مذكورة، وفق قواعد كتبتها ونشرتها. وأكثر المداخل موسوم بأنه مسوّدة، ونحو خُمسها بطاقات أولية لم تُراجَع مصادرها بعد. وكل ذلك مذكور في الموقع نفسه. ويضم المتحف اليوم نحو ٦٣ ألف مدخل.
+> ومن حق الرابطة أن تعرف بدقة ما تؤيده. المتحف عمره خمسة أسابيع منذ افتتاحه للجمهور. بنيته وحدي وأموّله من مالي. تتولى أدوات الذكاء الاصطناعي صياغة مداخله وترجمتها من مصادر مذكورة، وفق قواعد كتبتها ونشرتها. وأكثر المداخل موسوم بأنه مسوّدة، ونحو خُمسها بطاقات أولية لم تُراجَع مصادرها بعد. وكل ذلك مذكور في الموقع نفسه. ويضم المتحف اليوم نحو ٨١ ألف مدخل.
 >
 > فإن رأت الرابطة أن تصدر خطابًا من صفحة واحدة فالنموذج مرفق، ولها أن تعدّله كما تشاء. وإن رأت أن الوقت لا يتسع أو أن المشروع ما زال حديث العهد فلها خالص الشكر على النظر فيه، ولن أعاود الكتابة في هذا الشأن.
 >
@@ -189,9 +197,9 @@ _The letter of 8 November calls the League an organisation in official partnersh
 > أحمد عبد العال
 > مؤسس islam.museum، أوكفيل، أونتاريو، كندا
 
-## L10. Arab Thought Foundation, Beirut (Tuesday 17 November; Arabic)
+## L10. Arab Thought Foundation, Beirut — **not sent** (the founder decided "not today" on 17 November 2026; Arabic)
 
-_The Foundation is on UNESCO's list of foundations in official relations (September 2026) as a research sub-agent read it; UNESCO's partnership pages returned an error when I tried to re-read them on 15 November, so confirm it on UNESCO's site before sending. Its own site offers a contact form in Arabic and prints no email address (agent-read). The letter comes first; a version short enough for a form follows it. The Arabic Language International Council is no longer a recipient: it was written to on 19 and 21 October at its general address and has not answered._
+_The Foundation is on UNESCO's list of foundations in official relations (September 2026) as a research sub-agent read it; UNESCO's partnership pages returned an error when I tried to re-read them on 15 November. **That premise is unverified: it must be checked on UNESCO's NGO register, or softened, before any submission.** Its own site offers a contact form in Arabic and prints no email address (agent-read). Send-day check (17 November): the salutation is «مؤسسة الفكر العربي». The letter comes first; a version short enough for a form follows it. The Arabic Language International Council is no longer a recipient: it was written to on 19 and 21 October at its general address and has not answered._
 
 > الموضوع: طلب خطاب تأييد لترشيح متحف islam.museum لجائزة اليونسكو–الشارقة للثقافة العربية، الدورة الثانية والعشرون
 >
@@ -199,7 +207,7 @@ _The Foundation is on UNESCO's list of foundations in official relations (Septem
 >
 > السادة الأفاضل في `[اسم الجهة]`،
 >
-> أكتب إليكم من كندا، وأنا مصري كندي، مؤسس متحف islam.museum، وهو متحف رقمي مجاني للتاريخ الإسلامي، يُكتب بالعربية أولًا ثم يُنشر بالإنجليزية والأردية، وقد افتُتح للجمهور في ١١ أكتوبر ٢٠٢٦.
+> أكتب إليكم من كندا، وأنا مصري كندي، مؤسس متحف islam.museum، وهو متحف رقمي مجاني للتاريخ الإسلامي، يُكتب بالعربية أولًا ثم يُنشر بالإنجليزية والأردية، وقد اكتملت طبعتاه الفرنسية والإسبانية وتصبحان متاحتين مع النشر القادم للموقع، وقد افتُتح للجمهور في ١١ أكتوبر ٢٠٢٦.
 >
 > أسعى إلى الترشح لجائزة اليونسكو–الشارقة للثقافة العربية في دورتها الثانية والعشرين. والنظام الأساسي للجائزة لا يقبل أن يرشّح المرء نفسه، لكنه يقبل ملف المرشح إذا صحبه خطاب تأييد من جهة مخوَّلة بالترشيح. ومن هذه الجهات، بنص المادة ٦-٢، المنظمات غير الحكومية والمؤسسات ذات الشراكة الرسمية مع اليونسكو العاملة في ميدان الجائزة. وآخر موعد لتقديم الملفات ٣٠ نوفمبر ٢٠٢٦.
 >
@@ -207,7 +215,7 @@ _The Foundation is on UNESCO's list of foundations in official relations (Septem
 >
 > ومن حقكم أن تعرفوا بدقة ما تؤيدونه. المتحف عمره خمسة أسابيع. بنيته وحدي وأموّله من مالي. تتولى أدوات الذكاء الاصطناعي صياغة مداخله وترجمتها من مصادر مذكورة، وفق قواعد كتبتها ونشرتها. وأكثر المداخل موسوم بأنه مسوّدة، ونحو خُمسها بطاقات أولية لم تُراجَع مصادرها بعد. وكل ذلك مذكور في الموقع نفسه.
 >
-> يضم المتحف اليوم نحو ٦٣ ألف مدخل عن الأعلام والأماكن والأحداث والكتب والأفكار عبر أربعة عشر قرنًا. ومن أكثر مراجعه ورودًا كتب عربية، منها الموطأ لمالك، وتاريخ الخلفاء للسيوطي، وشذرات الذهب لابن العماد، وفتوح البلدان للبلاذري، والأعلام للزركلي. وبياناته في الملك العام يأخذها من شاء بلا إذن.
+> يضم المتحف اليوم نحو ٨١ ألف مدخل عن الأعلام والأماكن والأحداث والكتب والأفكار عبر أربعة عشر قرنًا. ومن أكثر مراجعه ورودًا كتب عربية، منها الموطأ لمالك، وتاريخ الخلفاء للسيوطي، وشذرات الذهب لابن العماد، وفتوح البلدان للبلاذري، والأعلام للزركلي. وبياناته في الملك العام يأخذها من شاء بلا إذن.
 >
 > إن رأيتم أن المشروع أحدث عهدًا من أن يُؤيَّد هذا العام فسأتفهّم ذلك تمامًا، ويسعدني في كل حال أن أسمع ملاحظاتكم عليه. وإن رأيتم التأييد فخطاب موقّع قبل يوم الأربعاء ٢٥ نوفمبر يتيح لي التقديم في الموعد.
 >
@@ -231,23 +239,23 @@ _The Foundation is on UNESCO's list of foundations in official relations (Septem
 > مع خالص التقدير،
 > أحمد عبد العال، مؤسس islam.museum، أوكفيل، كندا
 
-## L11. Former laureates (Tuesday 17 November)
+## L11. Former laureates — **not sent** (the founder decided "not today" on 17 November 2026)
 
 _Former laureates may nominate under Article 6.2, with no further condition, and the form lists "Former Laureate of the UNESCO-Sharjah Prize". The years below are as UNESCO's laureates page gave them on the morning of 15 November. These are cold letters to people who owe the museum nothing: send only those the founder is comfortable with, through each one's own published contact page._
 
 ### L11a. The Arab British Centre, London (laureate, 2012)
 
-_To the general address on its contact page, for the attention of its Executive Director, who is named on its staff page (agent-read: confirm the name on the day). Model 5b attached as PDF and DOCX; one link._
+_To info@arabbritishcentre.org.uk, for the attention of its Executive Director, Nadia El-Sebai (confirmed on the send-day check of 17 November). Model 5b attached as PDF and DOCX; one link._
 
 > Dear `[name]`, dear colleagues at the Arab British Centre,
 >
 > You received the UNESCO–Sharjah Prize for Arab Culture in 2012. I write because the Prize's Statutes give its former laureates the standing to nominate, and because furthering understanding of the Arab world, which is your work, is what I have tried to serve with mine.
 >
-> I am the founder of islam.museum, a free digital museum of Islamic history, written in Arabic first and published also in English and Urdu, open since 11 October 2026. I am seeking a nomination for the Prize's 22nd edition. A candidate may not nominate himself; his file is accepted when it comes with one page of recommendation from an eligible nominator. The deadline is 30 November 2026.
+> I am the founder of islam.museum, a free digital museum of Islamic history, written in Arabic first and published also in English and Urdu, with French and Spanish editions completed and going live at the next deployment, open since 11 October 2026. I am seeking a nomination for the Prize's 22nd edition. A candidate may not nominate himself; his file is accepted when it comes with one page of recommendation from an eligible nominator. The deadline is 30 November 2026.
 >
 > Would the Centre consider writing that page? I would prepare and submit everything. A model is attached, to change or discard, and you should sign only what you judge to be true.
 >
-> You do not know me, so here is exactly what you would be recommending. I built the museum alone and pay for it. Artificial-intelligence tools draft and translate its records from cited sources under rules I publish; most records are labelled drafts, and about a fifth are preliminary cards whose sources are not yet checked. The site states this openly. It holds some 63,000 records, drafts included, on the people, places, events and books of fourteen centuries, most of the books it draws on most are Arabic ones, and its data is in the public domain. It is five weeks old in public, and the Prize's Statutes speak of work over several years.
+> You do not know me, so here is exactly what you would be recommending. I built the museum alone and pay for it. Artificial-intelligence tools draft and translate its records from cited sources under rules I publish; most records are labelled drafts, and about a fifth are preliminary cards whose sources are not yet checked. The site states this openly. It holds some 81,000 records, drafts included, on the people, places, events and books of fourteen centuries, most of the books it draws on most are Arabic ones, and its data is in the public domain. It is five weeks old in public, and the Prize's Statutes speak of work over several years.
 >
 > If it is too young for you to put your name to, I will understand, and I would still value any comment on it. If you are willing, a signed letter by Wednesday 25 November would let me file in time.
 >
@@ -257,17 +265,17 @@ _To the general address on its contact page, for the attention of its Executive 
 
 ### L11b. Professor Bahia Shehab, Cairo (laureate, 2016)
 
-_To the address printed on her faculty page at the American University in Cairo (agent-read; not reproduced in this public file). **No link and no attachment** in this first message. Model 5a follows only if she replies._
+_To bahia@aucegypt.edu, from the American University in Cairo's Find an Expert page (send-day check, 17 November). **No link and no attachment** in this first message. Model 5a follows only if she replies._
 
 > Dear Professor Shehab,
 >
 > You received the UNESCO–Sharjah Prize for Arab Culture in 2016. Your work has carried the history of Arabic script to a wide public. I am an Egyptian in Canada who has tried to do something related for the written record of Islamic history, and I write because the Prize's Statutes give its former laureates the standing to nominate.
 >
-> I am the founder of a free digital museum of Islamic history, written in Arabic first and published also in English and Urdu, open since 11 October 2026. Its address is islam dot museum; I write it that way so that this message carries no link. I am seeking a nomination for the Prize's 22nd edition. A candidate may not nominate himself; his file is accepted when it comes with one page of recommendation from an eligible nominator. The deadline is 30 November 2026.
+> I am the founder of a free digital museum of Islamic history, written in Arabic first and published also in English and Urdu, with French and Spanish editions completed and going live at the next deployment, open since 11 October 2026. Its address is islam dot museum; I write it that way so that this message carries no link. I am seeking a nomination for the Prize's 22nd edition. A candidate may not nominate himself; his file is accepted when it comes with one page of recommendation from an eligible nominator. The deadline is 30 November 2026.
 >
 > Would you consider writing that page, if you look at the museum and think it worth it? I would send a model to change or discard, and I would prepare and submit everything else.
 >
-> You do not know me, so here is exactly what you would be recommending. I built the museum alone and pay for it. Artificial-intelligence tools draft and translate its records from cited sources under rules I publish; most records are labelled drafts, and about a fifth are preliminary cards whose sources are not yet checked. The site says so openly. It holds some 63,000 records, drafts included; most of the books it draws on most are Arabic ones, among them Malik's Muwatta, al-Suyuti's history of the caliphs and al-Zirikli's al-A'lam; and its data is in the public domain. It is five weeks old in public, and the Prize's Statutes speak of work over several years.
+> You do not know me, so here is exactly what you would be recommending. I built the museum alone and pay for it. Artificial-intelligence tools draft and translate its records from cited sources under rules I publish; most records are labelled drafts, and about a fifth are preliminary cards whose sources are not yet checked. The site says so openly. It holds some 81,000 records, drafts included; most of the books it draws on most are Arabic ones, among them Malik's Muwatta, al-Suyuti's history of the caliphs and al-Zirikli's al-A'lam; and its data is in the public domain. It is five weeks old in public, and the Prize's Statutes speak of work over several years.
 >
 > If it is too young for your name, I will understand entirely. I have attached nothing, so that this message reaches you; I will send the model and the dossier if you reply.
 >
@@ -277,17 +285,17 @@ _To the address printed on her faculty page at the American University in Cairo 
 
 ### L11c. Biblioteca Islámica "Félix María Pareja", AECID, Madrid (laureate, 2015)
 
-_AECID prints only its general information address; no address for the library itself was found (agent-read). Ask in the first line that the message be passed to the head of the Biblioteca Islámica. Model 5b or the French model 5c; one link._
+_AECID prints only its general information address; no address for the library itself was found (agent-read). AECID's site names Luisa Mora for the Islamic collection (send-day check, 17 November); ask in the first line that the message be passed to her. Model 5b or the French model 5c; one link._
 
 > Dear colleagues, for the attention of the head of the Biblioteca Islámica,
 >
 > The Biblioteca Islámica received the UNESCO–Sharjah Prize for Arab Culture in 2015. It has served students of the Arab and Islamic world for decades. I write because the Prize's Statutes give its former laureates the standing to nominate, and because a library of that kind will judge quickly whether an open reference work built from Arabic sources is sound. I must write in English, and ask your pardon for it.
 >
-> I am the founder of islam.museum, a free digital museum of Islamic history, written in Arabic first and published also in English and Urdu, open since 11 October 2026. I am seeking a nomination for the Prize's 22nd edition. A candidate may not nominate himself; his file is accepted when it comes with one page of recommendation from an eligible nominator, in English or French. The deadline is 30 November 2026.
+> I am the founder of islam.museum, a free digital museum of Islamic history, written in Arabic first and published also in English and Urdu, with French and Spanish editions completed and going live at the next deployment, open since 11 October 2026. I am seeking a nomination for the Prize's 22nd edition. A candidate may not nominate himself; his file is accepted when it comes with one page of recommendation from an eligible nominator, in English or French. The deadline is 30 November 2026.
 >
 > Would the library consider writing that page? I would prepare and submit everything. A model is attached, to change or discard.
 >
-> What you would be recommending, exactly: one person built the museum and pays for it. Artificial-intelligence tools draft and translate its records from cited sources under rules I publish; most records are labelled drafts, and about a fifth are preliminary cards whose sources are not yet checked. The site states this openly. It holds some 63,000 records, drafts included, and its data is in the public domain. It is five weeks old in public.
+> What you would be recommending, exactly: one person built the museum and pays for it. Artificial-intelligence tools draft and translate its records from cited sources under rules I publish; most records are labelled drafts, and about a fifth are preliminary cards whose sources are not yet checked. The site states this openly. It holds some 81,000 records, drafts included, and its data is in the public domain. It is five weeks old in public.
 >
 > I understand that a library within a public agency may not be free to do this, or not in two weeks. A one-line answer either way would be a kindness, and any comment on the museum would be welcome whatever the answer.
 >

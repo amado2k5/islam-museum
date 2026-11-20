@@ -6,7 +6,7 @@ Written 15 November 2026.
   identifier such as a DOI. Its own explanation is at https://www.altmetric.com/about-us/our-data/how-does-it-work/
   (read 15 November 2026).
 - No Altmetric score is claimed for the dataset (10.5281/zenodo.23692511) or for the paper
-  ([PAPER DOI TO BE ASSIGNED ON ZENODO DEPOSIT]). Neither was looked up.
+  (10.5281/zenodo.24273663). Neither was looked up.
 - A mention can be matched only if it carries the DOI or a link that resolves to the DOI record. A mention of
   "islam.museum" by name, or a link to the site alone, is not matched to either record.
 
