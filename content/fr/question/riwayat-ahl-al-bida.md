@@ -1,0 +1,47 @@
+---
+id: question/riwayat-ahl-al-bida
+lang: fr
+source_lang: en
+translators: ['Claude (claude-fable-5-2), draft translation']
+status:
+  review: published
+provenance: {generated_by: 'Claude Code subagent (spanish lane, records the document services could not return intact)', model: claude-fable-5-2, run: claude-fr-2026-11-19, source: content/en/question/riwayat-ahl-al-bida.md}
+---
+
+## Résumé
+Une question de [[concept/jarh-wa-tadil|jarh wa-ta'dil]] : si un transmetteur véridique et doué de mémoire professe une [[concept/bida|innovation]] dans la croyance, son hadith est-il mis par écrit et lui fait-on confiance ? [[person/al-dhahabi|Al-Dhahabi]] traite la question dans l'introduction à [[work/mizan-al-itidal|Mizan al-I'tidal]], et compte parmi les degrés des hommes de son livre « les dignes de confiance et fermes qui professent une innovation ». {cite:mizan-itidal-azimabadi-v1 PDF p. 6}
+
+## Ce qu'al-Dhahabi rapporte des premiers savants
+Asim al-Ahwal a rapporté de [[person/muhammad-ibn-sirin|Muhammad ibn Sirin]] que les gens n'interrogeaient pas sur la chaîne de transmission, mais que, lorsque la discorde survint, ils se mirent à demander que les hommes soient nommés. {cite:mizan-itidal-azimabadi-v1 PDF p. 6} Ceux qui étaient des gens de la Sunna voyaient leur hadith pris, et ceux qui étaient des gens de l'innovation voyaient leur hadith délaissé. {cite:mizan-itidal-azimabadi-v1 PDF p. 7} Al-Dhahabi rapporte ensuite qu'al-Hasan interdisait de s'asseoir avec les gens de la passion et d'entendre d'eux, et ajoute que juger un homme faible pour cause d'innovation est un vaste sujet que ce n'est pas ici le lieu de trancher. {cite:mizan-itidal-azimabadi-v1 PDF p. 7}
+
+## La division de l'innovation selon al-Dhahabi
+Al-Dhahabi pose ouvertement la question dans la notice sur Aban ibn Taghlib de Kufa : comment un innovateur pourrait-il être déclaré digne de confiance, alors que la définition d'un homme digne de confiance est la probité et l'exactitude ? {cite:mizan-itidal-azimabadi-v1 PDF p. 7} Ahmad ibn Hanbal, Ibn Ma'in et Abu Hatim avaient déclaré Aban digne de confiance, tandis qu'Ibn Adi a dit qu'il était extrême dans le chiisme et qu'al-Sa'di l'a qualifié de déviant déclaré. {cite:mizan-itidal-azimabadi-v1 PDF p. 7} Sa réponse est que l'innovation est de deux sortes :
+
+- **L'innovation mineure** : telle que le chiisme avec ou sans excès et sans fanatisme, qui était répandu parmi les Successeurs et leurs suivants en même temps que la religion, la piété et la véracité ; si le hadith de tels hommes était rejeté, un ensemble des récits prophétiques serait perdu, ce qu'il regarde comme un mal manifeste. {cite:mizan-itidal-azimabadi-v1 PDF p. 7} {cite:mizan-itidal-azimabadi-v1 PDF p. 8}
+- **L'innovation majeure** : telle que le *rafd* complet et l'excès en celui-ci, le dénigrement d'Abu Bakr et d'Umar et l'appel des autres à cela ; les hommes de cette sorte, à son avis, ne sont pas du tout tenus pour fiables, et il tient que le mensonge et la dissimulation prévalent parmi eux. {cite:mizan-itidal-azimabadi-v1 PDF p. 8}
+
+Il distingue l'extrémiste des premières générations — celui qui parlait contre Uthman, al-Zubayr, Talha, Mu'awiya et certains de ceux qui combattirent Ali, et les insultait — de l'extrémiste de son propre temps, qui déclare ces hommes mécréants et désavoue les deux shaykhs. {cite:mizan-itidal-azimabadi-v1 PDF p. 8}
+
+## Exemples tirés des notices du Mizan
+- Au début de la troisième partie, al-Dhahabi décrit Ubayd Allah ibn Ibrahim al-Ansari comme « se tenant, mais l'un des shaykhs des chiites », et Ubayd Allah ibn Ahmad ibn Ma'ruf, juge en chef, comme déclaré digne de confiance par al-Khatib « mais mu'tazilite ». {cite:mizan-itidal-bijawi-v3 p. 3}
+- D'[[person/ikrima-mawla-ibn-abbas|Ikrima, client d'Ibn Abbas]], il dit qu'Ikrima fut critiqué pour son opinion, non pour sa mémoire, étant accusé de l'avis kharijite, et qu'al-Bukhari s'est appuyé sur lui tandis que Muslim l'a évité sauf pour un peu, associé à d'autres. {cite:mizan-itidal-bijawi-v3 p. 93} Il rapporte qu'Ahmad a dit qu'Ikrima était parmi les plus savants des hommes mais professait l'avis des Sufriyya. {cite:mizan-itidal-bijawi-v3 p. 96}
+- De [[person/ibn-ishaq|Muhammad ibn Ishaq]], il rapporte qu'Ibn Numayr a dit qu'il était accusé de l'avis qadarite et qu'il en était le plus éloigné des hommes, qu'Abu Dawud l'a qualifié de mu'tazilite qadarite, et qu'Ibn Uyayna a dit n'avoir entendu personne parler contre lui si ce n'est au sujet du qadar. {cite:mizan-itidal-bijawi-v3 p. 469} {cite:mizan-itidal-bijawi-v3 p. 470} Il consigne aussi qu'Ibn Ishaq fut vu flagellé à cause du qadar, flagellé par le gouverneur Ibrahim ibn Hisham. {cite:mizan-itidal-bijawi-v3 p. 472}
+
+## Dans al-Kifaya d'al-Khatib al-Baghdadi
+Trois siècles avant al-Dhahabi, [[person/al-khatib-al-baghdadi-ahmad|al-Khatib al-Baghdadi]] a consacré un chapitre d'[[work/al-kifaya-fi-ilm-al-riwaya|al-Kifaya]] au fait de « prendre des gens de l'innovation et de la passion et s'appuyer sur leurs récits ». {cite:kifaya-khatib-hyderabad-1357 p. 120} Il affirme que les savants ont divergé sur le fait d'entendre des innovateurs tels que les Qadariyya, les kharijites et les Rafida : {cite:kifaya-khatib-hyderabad-1357 p. 120}
+
+- Un groupe de premiers savants a refusé, puisque de tels hommes sont des mécréants pour ceux qui déclarent mécréants les interprètes et des pécheurs pour ceux qui ne le font pas ; parmi ceux qui n'ont pas rapporté d'eux figurait [[person/malik-ibn-anas|Malik ibn Anas]]. {cite:kifaya-khatib-hyderabad-1357 p. 120}
+- Un autre groupe a accepté les récits des gens de la passion dont on ne sait pas qu'ils tiennent le mensonge pour licite, parmi eux [[person/al-shafii|al-Shafi'i]], qui a dit que le témoignage des gens de la passion est accepté, à l'exception des Khattabiyya parmi les Rafida, qui tiennent pour permis le faux témoignage en faveur des leurs ; cela a aussi été rapporté d'Ibn Abi Layla, de [[person/sufyan-al-thawri|Sufyan al-Thawri]] et d'Abu Yusuf. {cite:kifaya-khatib-hyderabad-1357 p. 120}
+- De nombreux savants ont accepté les récits de ceux des gens de la passion qui ne propageaient pas leurs avis, mais non ceux des propagandistes ; parmi eux figurait [[person/ahmad-ibn-hanbal|Ahmad ibn Hanbal]]. {cite:kifaya-khatib-hyderabad-1357 p. 121}
+- Certains transmetteurs et théologiens ont dit que tous les récits des gens de la passion sont acceptés, même s'ils sont mécréants ou pécheurs par interprétation. {cite:kifaya-khatib-hyderabad-1357 p. 121}
+
+Il cite des avertissements tels que « ce savoir est religion, regardez donc de qui vous le prenez », d'al-Dahhak et d'Ibn Sirin, et le récit d'un shaykh kharijite repenti : lorsque quelque chose nous plaisait, nous en faisions un hadith. {cite:kifaya-khatib-hyderabad-1357 p. 121} {cite:kifaya-khatib-hyderabad-1357 p. 123} Il conteste ensuite la distinction entre l'interprète et le pécheur délibéré, et dit que ce sur quoi l'on peut s'appuyer pour admettre leurs récits est l'acceptation bien connue, par les Compagnons, des récits et du témoignage des kharijites, et la pratique continue des Successeurs et de ceux qui vinrent après eux, parce qu'ils voyaient combien de tels hommes recherchaient la véracité et redoutaient le mensonge. {cite:kifaya-khatib-hyderabad-1357 p. 124} {cite:kifaya-khatib-hyderabad-1357 p. 125} Il énumère des hommes sur la transmission desquels on s'est appuyé : Imran ibn Hittan parmi les kharijites, Amr ibn Dinar, [[person/ikrima-mawla-ibn-abbas|Ikrima]] qui était ibadite, Ibn Abi Najih qui était mu'tazilite, des qadarites tels que Hisham al-Dastuwa'i et Sa'id ibn Abi Aruba, des murji'ites tels que Mis'ar ibn Kidam, et des chiites tels qu'Abd al-Razzaq ibn Hammam — cela est devenu, dit-il, comparable à leur consensus, « la plus grande preuve en cette matière ». {cite:kifaya-khatib-hyderabad-1357 p. 125} Il rapporte qu'al-Shafi'i a dit n'avoir vu aucun des gens de la passion plus enclin au faux témoignage que les Rafida, et qu'Abu Yusuf acceptait le témoignage des véridiques parmi eux, à l'exception des Khattabiyya et des qadarites qui disent que Dieu ne connaît pas une chose avant qu'elle n'arrive. {cite:kifaya-khatib-hyderabad-1357 p. 126}
+
+## Perspectives
+:::perspectives
+- **Sunnite : Muhammad ibn Sirin tel que le rapporte al-Dhahabi** : après la discorde, le hadith des gens de la Sunna fut pris et celui des gens de l'innovation délaissé ; il est rapporté d'al-Hasan qu'il interdisait de s'asseoir avec les gens de la passion. {cite:mizan-itidal-azimabadi-v1 PDF p. 6} {cite:mizan-itidal-azimabadi-v1 PDF p. 7}
+- **Sunnite : al-Dhahabi** : une innovation mineure, telle que le chiisme sans excès, ne fait pas tomber un homme véridique ; une majeure, telle que le rafd complet et l'appel à celui-ci, ôte à celui qui la professe d'être tenu pour fiable. {cite:mizan-itidal-azimabadi-v1 PDF p. 7} {cite:mizan-itidal-azimabadi-v1 PDF p. 8}
+- **Sunnite : al-Khatib al-Baghdadi dans al-Kifaya** : rapporte quatre positions (le refus de Malik, l'acceptation d'al-Shafi'i à l'exception des Khattabiyya, la distinction d'Ahmad entre propagandiste et non-propagandiste, et l'acceptation de tous), et s'appuie sur l'acceptation par la pratique des Compagnons et des Successeurs, devenue comparable à un consensus. {cite:kifaya-khatib-hyderabad-1357 p. 120} {cite:kifaya-khatib-hyderabad-1357 p. 121} {cite:kifaya-khatib-hyderabad-1357 p. 125}
+- **Avis académique** : pas encore donné ici ; pas encore de source.
+- **Autres avis** : pas encore donné ici ; pas encore de source.
+:::
