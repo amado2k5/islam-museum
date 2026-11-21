@@ -1,0 +1,29 @@
+id: concept/al-fusha-wal-lahajat
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-dialects]
+label:
+  ar: "الفصحى واللهجات المحكية اليوم"
+  en: "Standard Arabic and the spoken dialects today"
+  ur: "فصحیٰ اور آج کی بولیاں"
+  fr: "L'arabe standard et les dialectes parlés aujourd'hui"
+  es: "El árabe estándar y los dialectos hablados hoy"
+summary:
+  ar: "ما تقوله دائرة المعارف البريطانية عن الفصحى المعاصرة والمحكيات وعن مجموعات اللهجات الكبرى وعدم تفاهم بعضها مع بعض، وما يقوله ابن خلدون عن كلام بدو زمانه وأهل الأمصار وفقدان الإعراب، مع الإحالة إلى لغات القبائل القديمة. وتنسب الصفحة كل وصف إلى صاحبه وتذكر أنها لا تقدّم مسحاً لهجياً."
+  en: "What the Encyclopaedia Britannica says of Modern Standard Arabic and the spoken varieties, of the chief dialect groups and the mutual unintelligibility of some, and what Ibn Khaldun says of the speech of the Bedouin of his time and of the settled people of the cities and the loss of i'rab, with a pointer to the dialects of the old tribes. The page ascribes every description to its author and says that it offers no dialect survey."
+  ur: "انسائیکلوپیڈیا برٹانیکا جدید معیاری عربی اور بولی جانے والی اقسام، بڑے لہجائی گروہوں اور بعض کے ایک دوسرے کے لیے ناقابل فہم ہونے کے بارے میں کیا کہتا ہے، اور ابن خلدون اپنے زمانے کے بدوؤں اور شہری لوگوں کے کلام اور اعراب کے ضائع ہونے کے بارے میں کیا کہتے ہیں، نیز قدیم قبائل کی لغات کا حوالہ۔ صفحہ ہر بیان اس کے مصنف کی طرف منسوب کرتا ہے اور بتاتا ہے کہ وہ لہجوں کا کوئی سروے نہیں دیتا۔"
+  fr: "Ce que dit l'Encyclopaedia Britannica de l'arabe standard moderne et des variétés parlées, des principaux groupes dialectaux et de l'inintelligibilité mutuelle de certains, et ce que dit Ibn Khaldun du parler des Bédouins de son temps et des sédentaires des villes et de la perte de l'i'rab, avec un renvoi aux parlers des anciennes tribus. La page attribue chaque description à son auteur et précise qu'elle ne propose aucune enquête dialectale."
+  es: "Lo que dice la Encyclopaedia Britannica sobre el árabe estándar moderno y las variedades habladas, los grupos dialectales principales y la ininteligibilidad mutua de algunos, y lo que dice Ibn Jaldún sobre el habla de los beduinos de su tiempo y de los sedentarios de las ciudades y la pérdida del i'rab, con una remisión a los dialectos de las antiguas tribus. La página atribuye cada descripción a su autor y aclara que no ofrece un estudio dialectal."
+wings: [words, ideas]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: language/arabic, sources: [source/britannica-arabic-language] }
+  - { type: related_to, target: concept/lughat-al-qabail, sources: [source/sahibi-baydun-1997] }
+  - { type: related_to, target: person/ibn-khaldun, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+  - { type: related_to, target: place/arabian-peninsula, sources: [source/britannica-arabic-language] }
+  - { type: related_to, target: place/iraq, sources: [source/britannica-arabic-language] }
+  - { type: related_to, target: place/syria, sources: [source/britannica-arabic-language] }
+  - { type: related_to, target: concept/tarikh-al-lugha-al-arabiyya, sources: [source/britannica-arabic-language] }
+provenance: { layer: own-research, source: "Britannica, Arabic language, read on 21 Nov 2026; Ibn Khaldun, al-Ibar vol. 1 p.766 and 770; Ibn Faris, al-Sahibi p.25.", generated_by: "Claude Code", model: "claude-fable-5-2", run: "arabiyya-browser-1" }
+sources: [source/britannica-arabic-language, source/tarikh-ibn-khaldun-shahada-1981, source/sahibi-baydun-1997]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-fable-5-2); written from the cited sources, not read by a human; translations are machine translations by the same model" }

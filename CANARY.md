@@ -13,6 +13,15 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.27.0 — 2026-11-21
+### Added
+- **A new hall: the Arabic Language Browser («متصفح اللغة العربية لغة القرآن»), at `/{lang}/arabiyya/` in Arabic, English, Urdu, French and Spanish.** It opens on the ring of the letters, the Arabic letters in the order al-Khalil ibn Ahmad gave them by place of articulation. Below it stand the fifteen verses in which the Qur'an speaks of its own tongue, nine chapters of records (Arabic as the language of the Qur'an, the inimitability of its language, origins and history, letters and script, the sciences of Arabic, dialects, Arabic in the world, the scholars, the books), and 77 passages from the hadith, the seerah, the tafsir and the other harvested books that speak about Arabic. The passages are found by their wording each time the site is built, so a book harvested later joins on its own; they are not reviewed one by one. The home page and the Explore menu carry the new entry. The dataset is at `/api/v1/arabiyya.json`.
+- **22 new records with full prose in five languages**, among them: what four classical commentators say on why the Qur'an is Arabic; the men of Quraysh who heard it and what they said; the challenge verses and the books on inimitability (al-Rummani, al-Khattabi, al-Baqillani, al-Jurjani); the reports on learning Arabic with each one's grading; the debate on foreign words in the Qur'an; the origin of language; grammar, morphology and prosody; the dialects of the tribes and today's spoken Arabic; the Semitic family; the Arab countries; Arabic at the United Nations; and what Arabic gave other languages. Every judgement is given under the name of the scholar who made it. The prose and its translations were written by an AI model from the cited sources and have not been read by a human.
+### Data
+- 92 records the museum already held (grammarians, lexicographers, books, scripts, the Arabs before Islam) now carry the browser's tags; nothing else in them changed. 42 source records were added for the editions and pages read on 21 November 2026.
+### Tests
+- `scripts/arabiyya.test.ts` checks the detector: the verses, the known false positives (a man named Ibn al-Arabi, a bare citation of the dictionary Lisan al-Arab), and that a passage from a book harvested later is picked up.
+
 ## v2.26.1 — 2026-11-20
 ### Data
 - **Assabile harvest register: 9 episodes updated across 2 series, 8 transcripts recorded (0 episodes added).** The register now shows which Assabile episodes are on the drive and which machine transcripts are finished, so later harvest work starts from the recorded state. No mined episode's entry was changed beyond its transcript and drive lines.

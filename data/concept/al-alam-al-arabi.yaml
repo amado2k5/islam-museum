@@ -1,0 +1,30 @@
+id: concept/al-alam-al-arabi
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "الدول العربية وجامعة الدول العربية"
+  en: "The Arab states and the League of Arab States"
+  ur: "عرب ریاستیں اور جامعہ دول عربیہ"
+  fr: "Les États arabes et la Ligue des États arabes"
+  es: "Los Estados árabes y la Liga de los Estados Árabes"
+summary:
+  ar: "ما تقوله دائرة المعارف البريطانية عن جامعة الدول العربية: تأسيسها في القاهرة في 22 مارس 1945 وأعضاؤها المؤسسون والأعضاء اللاحقون بسنواتهم، وصوت واحد لكل عضو، واتفاقية 1950 والألكسو، وتعليق عضوية بعض الدول وإعادتها كما تذكر الصفحة؛ ثم قائمة الدول التي تجعل العربية لغة رسمية في مقال اللغات السامية بما فيها من تحفظات. ولا تضع الصفحة رقماً غير ما تذكره المراجع."
+  en: "What the Encyclopaedia Britannica says of the League of Arab States: its founding in Cairo on 22 March 1945, its founding and later members with their years, one vote for each member, the 1950 agreement and ALECSO, and the suspension and reinstatement of some members as the page states them; then the list of states where Arabic is official in the article on the Semitic languages, with that page's qualifications. The page sets no figure beyond what the sources print."
+  ur: "انسائیکلوپیڈیا برٹانیکا جامعہ دول عربیہ کے بارے میں کیا کہتا ہے: 22 مارچ 1945 کو قاہرہ میں اس کا قیام، بانی اور بعد کے اراکین سال بہ سال، ہر رکن کا ایک ووٹ، 1950 کا معاہدہ اور الکسو، اور بعض اراکین کی معطلی اور بحالی جیسا صفحہ بیان کرتا ہے؛ پھر سامی زبانوں کے مقالے میں ان ریاستوں کی فہرست جہاں عربی سرکاری ہے، اس صفحے کی قیود کے ساتھ۔ صفحہ مآخذ کے چھاپے ہوئے سے بڑھ کر کوئی عدد نہیں دیتا۔"
+  fr: "Ce que dit l'Encyclopaedia Britannica de la Ligue des États arabes : sa fondation au Caire le 22 mars 1945, ses membres fondateurs et ultérieurs avec leurs années, une voix par membre, l'accord de 1950 et l'ALECSO, et la suspension et la réintégration de certains membres telles que la page les énonce ; puis la liste des États où l'arabe est officiel dans l'article sur les langues sémitiques, avec les réserves de cette page. La page ne fixe aucun chiffre au-delà de ce que impriment les sources."
+  es: "Lo que dice la Encyclopaedia Britannica sobre la Liga de los Estados Árabes: su fundación en El Cairo el 22 de marzo de 1945, sus miembros fundadores y posteriores con sus años, un voto por miembro, el acuerdo de 1950 y la ALECSO, y la suspensión y readmisión de algunos miembros tal como los enuncia la página; luego la lista de Estados donde el árabe es oficial, con sus salvedades. La página no fija ninguna cifra más allá de las fuentes."
+wings: [words, places]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: group/arabs, sources: [source/britannica-arab-league] }
+  - { type: related_to, target: language/arabic, sources: [source/britannica-semitic-languages] }
+  - { type: related_to, target: place/saudi-arabia, sources: [source/britannica-arab-league] }
+  - { type: related_to, target: place/iraq, sources: [source/britannica-arab-league] }
+  - { type: related_to, target: place/syria, sources: [source/britannica-arab-league] }
+  - { type: related_to, target: place/morocco, sources: [source/britannica-arab-league] }
+  - { type: related_to, target: place/united-arab-emirates, sources: [source/britannica-arab-league] }
+  - { type: related_to, target: concept/al-arabiyya-fi-al-alam-al-yawm, sources: [source/britannica-semitic-languages] }
+provenance: { layer: own-research, source: "Britannica, Arab League (first published 1998, no revision date shown) and Semitic languages, read on 21 Nov 2026.", generated_by: "Claude Code", model: "claude-fable-5-2", run: "arabiyya-browser-1" }
+sources: [source/britannica-arab-league, source/britannica-semitic-languages]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-fable-5-2); written from the cited sources, not read by a human; translations are machine translations by the same model" }

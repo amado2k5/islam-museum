@@ -1,0 +1,28 @@
+id: concept/athar-al-arabiyya-fi-al-lughat
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "أثر العربية في اللغات الأخرى"
+  en: "What Arabic gave other languages"
+  ur: "عربی نے دوسری زبانوں کو کیا دیا"
+  fr: "Ce que l'arabe a donné aux autres langues"
+  es: "Lo que el árabe dio a otras lenguas"
+summary:
+  ar: "ما تقوله المراجع المقروءة عن أثر العربية في لغات أخرى: قائمة اللغات التي تذكرها صفحة الأمم المتحدة، والمالطية المنحدرة من لهجة عربية، والسواحلية واسمها المأخوذ من لفظ عربي، وانتقال الأبجدية إلى لغات أخرى، وما تقوله مقالات أخرى عن الفارسية والتركية والأردية والإسبانية. وتذكر الصفحة أن أمثلة ألفاظ لهذه اللغات الأربع لم تُوجد في المراجع المقروءة."
+  en: "What the sources read say of Arabic's influence on other languages: the list of languages named by the United Nations page, Maltese descending from an Arabic dialect, Swahili with its name taken from an Arabic word, the passing of the alphabet to other languages, and what other articles say of Persian, Turkish, Urdu and Spanish. The page says that example words for these four languages were not found in the sources read."
+  ur: "پڑھے گئے مآخذ دوسری زبانوں پر عربی کے اثر کے بارے میں کیا کہتے ہیں: اقوام متحدہ کے صفحے میں مذکور زبانوں کی فہرست، مالٹی جو عربی بولی سے نکلی، سواحلی جس کا نام ایک عربی لفظ سے لیا گیا، ابجد کا دوسری زبانوں تک پہنچنا، اور دوسرے مقالات فارسی، ترکی، اردو اور ہسپانوی کے بارے میں کیا کہتے ہیں۔ صفحہ بتاتا ہے کہ ان چار زبانوں کے الفاظ کی مثالیں پڑھے گئے مآخذ میں نہیں ملیں۔"
+  fr: "Ce que disent les sources lues de l'influence de l'arabe sur d'autres langues : la liste des langues nommées par la page des Nations unies, le maltais descendu d'un dialecte arabe, le swahili dont le nom vient d'un mot arabe, le passage de l'alphabet à d'autres langues, et ce que d'autres articles disent du persan, du turc, de l'ourdou et de l'espagnol. La page dit que des exemples de mots pour ces quatre langues n'ont pas été trouvés dans les sources lues."
+  es: "Lo que dicen las fuentes leídas sobre la influencia del árabe en otras lenguas: la lista de lenguas que nombra la página de las Naciones Unidas, el maltés descendiente de un dialecto árabe, el suajili cuyo nombre procede de una palabra árabe, el paso del alfabeto a otras lenguas, y lo que dicen otros artículos sobre el persa, el turco, el urdu y el español. La página dice que no se hallaron ejemplos de palabras para estas cuatro lenguas en las fuentes leídas."
+wings: [words, places]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: language/arabic, sources: [source/un-world-arabic-language-day] }
+  - { type: related_to, target: language/swahili, sources: [source/britannica-swahili-language] }
+  - { type: related_to, target: place/malta, sources: [source/britannica-maltese-language] }
+  - { type: related_to, target: concept/khatt-al-arabi, sources: [source/britannica-arabic-alphabet] }
+  - { type: related_to, target: concept/al-lughat-al-samiyya, sources: [source/britannica-semitic-languages] }
+  - { type: related_to, target: concept/al-arabiyya-fi-al-alam-al-yawm, sources: [source/un-world-arabic-language-day] }
+provenance: { layer: own-research, source: "United Nations, World Arabic Language Day; Britannica, Maltese language, Semitic languages, Swahili language and Arabic alphabet, read on 21 Nov 2026. Statements on Persian, Turkish, Urdu and Spanish come from Britannica articles read in the same run that are not registered sources here, and are given without citation.", generated_by: "Claude Code", model: "claude-fable-5-2", run: "arabiyya-browser-1" }
+sources: [source/un-world-arabic-language-day, source/britannica-maltese-language, source/britannica-semitic-languages, source/britannica-swahili-language, source/britannica-arabic-alphabet, source/britannica-persian-language, source/britannica-turkish-language, source/britannica-urdu-language, source/britannica-spanish-language]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-fable-5-2); written from the cited sources, not read by a human; translations are machine translations by the same model" }

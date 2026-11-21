@@ -1,0 +1,29 @@
+id: concept/tarikh-al-lugha-al-arabiyya
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-origins]
+label:
+  ar: "تاريخ اللغة العربية من النقوش إلى الفصحى المعاصرة"
+  en: "The history of Arabic, from the inscriptions to Modern Standard Arabic"
+  ur: "عربی کی تاریخ: کتبوں سے جدید معیاری عربی تک"
+  fr: "L'histoire de l'arabe, des inscriptions à l'arabe standard moderne"
+  es: "La historia del árabe, de las inscripciones al árabe estándar moderno"
+summary:
+  ar: "ما تقوله المراجع المقروءة عن تاريخ العربية: الخلاف على أقدم نقوشها كما تعرضه دائرة المعارف البريطانية، ووصف لغة القرآن والعربية الكلاسيكية والفصحى المعاصرة والمحكيات، وما يرويه ابن خلدون وابن تيمية عن اللسان بعد الفتوح، وما ينقله السيوطي عن الفارابي في القبائل التي أُخذت عنها اللغة. وتنسب كل قول إلى قائله، وتبيّن الصفحة ما لم تقرأه."
+  en: "What the sources read say about the history of Arabic: the disagreement over its oldest inscriptions as the Encyclopaedia Britannica sets it out, its description of the Qur'anic language, Classical Arabic, Modern Standard Arabic and the spoken varieties, what Ibn Khaldun and Ibn Taymiyya report about the language after the conquests, and what al-Suyuti relays from al-Farabi on the tribes from whom the language was taken. Each statement is ascribed to its speaker, and the page says what it did not read."
+  ur: "پڑھے گئے مآخذ عربی کی تاریخ کے بارے میں کیا کہتے ہیں: قدیم ترین کتبوں پر اختلاف جیسا انسائیکلوپیڈیا برٹانیکا پیش کرتا ہے، قرآن کی زبان، کلاسیکی عربی، جدید معیاری عربی اور بولیوں کا اس کا بیان، فتوحات کے بعد زبان کے بارے میں ابن خلدون اور ابن تیمیہ کی روایت، اور فارابی سے سیوطی کا نقل کردہ بیان کہ زبان کن قبائل سے لی گئی۔ ہر بات اس کے کہنے والے کی طرف منسوب ہے اور صفحہ بتاتا ہے کہ کیا نہیں پڑھا گیا۔"
+  fr: "Ce que disent les sources lues sur l'histoire de l'arabe : le désaccord sur ses plus anciennes inscriptions tel que l'expose l'Encyclopaedia Britannica, sa description de la langue du Coran, de l'arabe classique, de l'arabe standard moderne et des parlers, ce que rapportent Ibn Khaldun et Ibn Taymiyya sur la langue après les conquêtes, et ce qu'al-Suyuti relaie d'al-Farabi sur les tribus dont la langue fut prise. Chaque propos est attribué à son auteur, et la page dit ce qu'elle n'a pas lu."
+  es: "Lo que dicen las fuentes leídas sobre la historia del árabe: el desacuerdo sobre sus inscripciones más antiguas según lo expone la Encyclopaedia Britannica, su descripción de la lengua del Corán, el árabe clásico, el árabe estándar moderno y las variedades habladas, lo que cuentan Ibn Jaldún e Ibn Taymiyya sobre la lengua tras las conquistas, y lo que al-Suyuti transmite de al-Farabi sobre las tribus de las que se tomó la lengua. Cada afirmación se atribuye a quien la dice, y la página señala lo que no leyó."
+wings: [words, ideas]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: language/arabic, sources: [source/britannica-arabic-language] }
+  - { type: related_to, target: group/al-nabt, sources: [source/britannica-arabic-alphabet] }
+  - { type: related_to, target: concept/al-fusha-wal-lahajat, sources: [source/britannica-arabic-language] }
+  - { type: related_to, target: concept/lughat-al-qabail, sources: [source/muzhir-mansur-1998] }
+  - { type: related_to, target: person/ibn-khaldun, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+  - { type: related_to, target: person/ibn-taymiyya, sources: [source/iqtida-aql-1999] }
+  - { type: related_to, target: person/al-farabi, sources: [source/muzhir-mansur-1998] }
+provenance: { layer: own-research, source: "Britannica, Arabic alphabet (revised 24 Sept 2026) and Arabic language, read on 21 Nov 2026; Ibn Khaldun, al-Ibar vol. 1 p.754, 766 and 770; Ibn Taymiyya, Iqtida' al-Sirat al-Mustaqim vol. 1 p.526; al-Suyuti, al-Muzhir vol. 1 p.167-168 (quoting al-Farabi). The identifications of the inscriptions come from Wikipedia pages not cited here.", generated_by: "Claude Code", model: "claude-fable-5-2", run: "arabiyya-browser-1" }
+sources: [source/britannica-arabic-alphabet, source/britannica-arabic-language, source/tarikh-ibn-khaldun-shahada-1981, source/iqtida-aql-1999, source/muzhir-mansur-1998]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-fable-5-2); written from the cited sources, not read by a human; translations are machine translations by the same model" }
