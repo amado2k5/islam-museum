@@ -17,4 +17,4 @@ The editor describes the book as one of the most important texts of Abduh, and s
 The editor reports from Abduh that Islam supports reason in order to defeat imitation, and that imitation weakened the spirit of initiative and creativity in the community. This is an opinion of Abduh, which he expresses forcefully, and it is presented here as his own view, not as the position of all Sunnis. The question of reason and imitation in the Sunni inheritance has several views {cite:abduh-risalat-tawhid-imara-1994 p.11}.
 
 ## Note on the source
-Only the introduction has been read so far, and the text itself has not yet been read. The dates for Abduh given by the editor need a second source before they are relied on.
+So far the introduction and the body sections at scan pages 63 to 70 and 82 to 84 have been read; the rest of the book has not yet been read. The dates for Abduh given by the editor need a second source before they are relied on.
