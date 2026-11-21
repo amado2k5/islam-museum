@@ -5610,6 +5610,7 @@ sweep: 34 live rule-decided records re-checked
 
 ### Data
 - Assabile harvest register (lecture archive): 12 transcript lines added across two series, the Mishary al-Kharraz series "Kayfa tataladado bi salatika" (episodes 12 to 20) and the Amr Khaled series "Wa Nalqa al-Ahibba" (episodes 65 to 67); the register records episode 65 to 67 as transcribed. Wa Nalqa al-Ahibba episodes 49, 51, 52, 53 and 54 are marked mined now, their packets having landed, and the series counts are recounted from its episode lines (58 transcribed, 42 mined). Episodes 47, 48, 50 and 55 keep their state.
+- Data: Assabile harvest register: 11 episodes updated, 2 series, 11 transcripts. The register sync of 21 November 2026 records the pass5-qwen transcripts of Mishary al-Kharraz, "Kayfa tataladado bi salatika", episodes 21 to 29, and Amr Khaled, Wa Nalqa al-Ahibba, episodes 68 and 69. No episode is added; each change is a transcript and mining state, and no mined episode changes beyond that.
 
 ## v2.26.0 — 2026-11-20
 ### Added
