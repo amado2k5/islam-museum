@@ -87,3 +87,31 @@ jobs:
       language: es
       build_run_id: ${{ inputs.build_run_id }}
     secrets: inherit
+  # Production only (this workflow is): pings IndexNow with the URLs changed in the deployed commit (scripts/indexnow.mjs),
+  # so Bing and Yandex pick up new and updated pages without waiting for a crawl. It was a job of the one deploy
+  # (deploy-env.yml, notify-indexnow) and is repeated here, after every part has been published, because the shared
+  # and language deploys do not have it. Not sent when any part failed (the pages would not all be there yet). Set the
+  # repository variable INDEXNOW to "off" to skip it.
+  notify-indexnow:
+    needs: [shared, ar, en, ur, fr, es]
+    if: ${{ !cancelled() && needs.shared.result == 'success' && !contains(needs.*.result, 'failure') && vars.INDEXNOW != 'off' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
+    steps:
+      - name: The commit that was built
+        id: build
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RUN_ID: ${{ inputs.build_run_id }}
+        run: echo "sha=$(gh api "repos/$GH_REPO/actions/runs/$RUN_ID" --jq .head_sha)" >> "$GITHUB_OUTPUT"
+      - name: Check out the deployed commit
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ steps.build.outputs.sha }}
+          # The previous commit is the cut-off for "changed".
+          fetch-depth: 2
+      - name: Submit changed URLs to IndexNow
+        run: node scripts/indexnow.mjs

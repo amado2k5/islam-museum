@@ -336,3 +336,86 @@ jobs:
           path: dist-sitemap/
           if-no-files-found: error
           retention-days: 5
+
+  check:
+    # The checks the one-job build ran on the finished site (npm run build = astro, then check:site and check:weight),
+    # which no language job can run alone: check:site expects every language's pages (it reports "missing page: es/..."
+    # on one language) and check:weight reads the Arabic routes. This job puts the shared parts and every language
+    # together again, runs both checks on the whole, and counts the pages the way the one-job deploy stamped them. Both
+    # deploys read it: the shared deploy refuses a run whose check failed, and stamps the page count from it.
+    name: check (whole site)
+    runs-on: ubuntu-latest
+    needs: [build, shared, sitemap]
+    if: ${{ !cancelled() }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Download the shared parts, every language and the sitemap
+        uses: actions/download-artifact@v8
+        with:
+          pattern: dist-*
+          path: artifacts
+      - name: Is every language of this branch here?
+        id: want
+        run: |
+          set -euo pipefail
+          go=true
+          test -f artifacts/dist-shared/dist-shared.tar.zst || { go=false; echo "::notice::No shared parts in this run: no whole-site check."; }
+          for lang in $(grep -E '^export const ALL_LANGS' site/src/lib/i18n.ts | grep -oE '"[a-z]+"' | tr -d '"'); do
+            test -f "artifacts/dist-lang-$lang/dist-lang-$lang.tar.zst" || { go=false; echo "::notice::$lang was not built in this run: no whole-site check (check:site needs every language's pages)."; }
+          done
+          echo "go=$go" >> "$GITHUB_OUTPUT"
+      - name: Free runner disk the build does not use (Android SDK, .NET, Haskell, CodeQL, Swift, Docker images)
+        if: steps.want.outputs.go == 'true'
+        run: |
+          echo "before: $(df -BM --output=avail / | tail -1 | tr -dc '0-9') MB free"
+          sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/.ghcup \
+            /opt/hostedtoolcache/CodeQL /usr/share/swift || true
+          sudo docker image prune --all --force > /dev/null 2>&1 || true
+          echo "after: $(df -BM --output=avail / | tail -1 | tr -dc '0-9') MB free"
+      - uses: actions/setup-node@v7
+        if: steps.want.outputs.go == 'true'
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      - name: Install
+        if: steps.want.outputs.go == 'true'
+        run: npm ci && npm ci --prefix site
+      - name: Put the whole site together again
+        if: steps.want.outputs.go == 'true'
+        run: |
+          set -euo pipefail
+          mkdir dist
+          # One archive at a time, deleted once unpacked: the whole site is about 66 GB on disk.
+          for tarball in artifacts/dist-shared/dist-shared.tar.zst artifacts/dist-lang-*/dist-lang-*.tar.zst; do
+            tar --use-compress-program=unzstd -xf "$tarball" -C dist
+            rm "$tarball"
+            echo "unpacked $tarball; $(df -BM --output=avail / | tail -1 | tr -dc '0-9') MB free"
+          done
+          if ls artifacts/dist-sitemap/sitemap*.xml > /dev/null 2>&1; then cp artifacts/dist-sitemap/sitemap*.xml dist/; fi
+          echo "dist: $(find dist -type f | wc -l) files"
+      - name: Count the pages (the way the one-job deploy stamped them)
+        if: steps.want.outputs.go == 'true'
+        run: |
+          set -euo pipefail
+          mkdir site-pages
+          pages=$(find dist -name '*.html' -not -path '*/pagefind*' | wc -l | tr -d ' ')
+          echo "$pages" > site-pages/pages.txt
+          echo "## Whole site of language build ${{ github.run_id }}: $pages pages" >> "$GITHUB_STEP_SUMMARY"
+      - name: Site checks (rendered pages)
+        if: steps.want.outputs.go == 'true'
+        run: npm run check:site
+      - name: Page-weight budgets
+        if: steps.want.outputs.go == 'true'
+        run: npm run check:weight
+      - name: Upload the page count
+        if: steps.want.outputs.go == 'true'
+        uses: actions/upload-artifact@v7
+        with:
+          name: site-pages
+          path: site-pages/
+          if-no-files-found: error
+          retention-days: 5
