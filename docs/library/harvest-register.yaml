@@ -23076,8 +23076,8 @@ audio_series:
     episodes_audio: 30
     episodes_transcribed: 30
     transcript: { pass: "pass5-qwen", model: "oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2", state: complete, run_dates: "2026-11-21..2026-11-21" }
-    mining: { state: none, episodes_mined: 0, ranges: null, held: null, basis: null }
-    ingestion: { state: none, prs: [], ledger: "docs/delegation/assabile-egypt-progress.md", work_id: null }
+    mining: { state: in_progress, episodes_mined: 3, ranges: "1-3", held: null, basis: null }
+    ingestion: { state: in_progress, prs: [], ledger: "docs/delegation/assabile-mishary-al-kharraz-salatika.md", work_id: "work/kayfa-tataladado-bi-salatika" }
     checksums_file: "raw/assabile/mishary-al-kharraz/kayfa-tataladado-bi-salatika/SHA256SUMS"
     episodes:
       - { n: 1, title: null, page_url: "https://www.assabile.com/mishary-al-kharraz/lessons/kayfa-tataladado-bi-salatika/episode-01", file: "raw/assabile/mishary-al-kharraz/kayfa-tataladado-bi-salatika/ep01.mp3", format: mp3, duration: null, bytes: 7432693, sha256: "0379e02a252bfdb34d7217effc2c4a42a12fdbf0b58d2ee62f688eb79afd7bd2", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }

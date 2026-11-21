@@ -1,0 +1,18 @@
+# Ledger: Assabile lecture series "How to Savour Prayer" (Mishari al-Kharraz)
+
+One line per lane action on this series. Lane C packets write here; the lander appends. Register entry: `assabile-mishary-al-kharraz-kayfa-tataladado-bi-salatika` in `docs/library/harvest-register.yaml`.
+
+2026-11-21 | lanec-kayfa-tataladado-bi-salatika-01 | work/kayfa-tataladado-bi-salatika | series registered in the harvest register as assabile-mishary-al-kharraz-kayfa-tataladado-bi-salatika (30 episodes; 30 transcripts pass5-qwen on the drive); series work file in ar, en, ur, fr and es as draft from episodes 1 to 3; status draft, awaiting verify
+2026-11-21 | lanec-kayfa-tataladado-bi-salatika-01 | series choice: the series had no work file and no mining; episodes 1 to 3 chosen as the first three, all with a garbled share of 0.0 (threshold under 4 per cent); episodes 4 to 30 remain for later packets
+2026-11-21 | lanec-kayfa-tataladado-bi-salatika-01 | source record source/assabile-mishary-al-kharraz created in the Assabile speaker-archive pattern (kind primary, type audio, reliability note on machine transcripts)
+2026-11-21 | lanec-kayfa-tataladado-bi-salatika-01 | no legal ruling is stated in episodes 1 to 3; the speaker's legal-adjacent remarks are recorded as his; the speaker cites Qur'an verses and hadith, which are described and not typed
+2026-11-21 | lanec-kayfa-tataladado-bi-salatika-01 | consistency: 100 cites per language, identical sequence in ar, en, ur, fr and es; every cite is a transcript segment start in the named episode (checked by script against the clean.json files)
+2026-11-21 | lanec-kayfa-tataladado-bi-salatika-01 | lander | status of the two new records set to published, as the sibling Assabile source and work records already are (AGENTS.md, publication standard of 15 November 2026: AI prose citing defined sources may stand as published); the manifest had draft; the sibling lane C work wa-nal9a-al-aheba stays draft and is not changed here
+2026-11-21 | lanec-kayfa-tataladado-bi-salatika-01 | lander | register entry: mining in_progress (episodes_mined 3, ranges 1-3, held null; the README vocabulary has no partial state); ingestion in_progress with work_id and this ledger
+
+EXCLUSION (proposal for the founder): Episode 3, 12:00 to 14:00: a passage outside the subject of the series - Outside the subject of the series; not written. Gate: subject rule (AGENTS.md, voice and scope). Override: founder decides whether any part belongs in a record of this series.
+EXCLUSION (proposal for the founder): Episode 1, 02:30: the name of a scholar, read from a line the transcript renders unclearly - Unclear transcript line; a name is written only from a clear line. Override: founder listening check at the anchor.
+EXCLUSION (proposal for the founder): Episode 1, 04:30: words the transcript renders unclearly - Unclear transcript line. Override: founder listening check at the anchor.
+EXCLUSION (proposal for the founder): Episode 2, 00:30: the description of how Abu Nuwas's life ended - The verb is unclear in the transcript; the entry says only that it is unclear and does not supply a reading. Override: listening check at 00:30.
+EXCLUSION (proposal for the founder): Episode 3, 10:30: the temperature of the ash - The number in the machine transcript is unclear. Override: listening check at 10:30.
+EXCLUSION (proposal for the founder): Qur'an verses cited by the speaker in episodes 1 to 3 - Qur'an text is never typed. No passage link is added because the speaker does not name the surah or verse number in the transcript. Override: a verifier may add a passage link after checking the verse against the speaker's words at the anchor, under the Qur'an rule.
