@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v2.26.1 — 2026-11-20
 ### Data
 - **Assabile harvest register: 9 episodes updated across 2 series, 8 transcripts recorded (0 episodes added).** The register now shows which Assabile episodes are on the drive and which machine transcripts are finished, so later harvest work starts from the recorded state. No mined episode's entry was changed beyond its transcript and drive lines.
+- **Assabile harvest register, second sync of 21 November 2026: 8 episodes updated across 2 series, 8 machine transcripts recorded (0 episodes added).** Five episodes of the Ahkam al-Janaiz series (Mohamed Hassan) and three of Wa Nalqa al-Ahibba (Amr Khaled) now show their transcripts and drive state in the register. Mined episodes were not changed beyond those lines.
 ### Changed
 - **Rule change for one lane: audio of the YouTube channel @muftimenkofficial may be downloaded for local transcription (founder ruling, 21 November 2026).** The ruling is recorded in the sources policy and in the three documents that used to forbid YouTube downloads (plan 25, the audio and video harvest method, plan 15), scoped to that channel alone. The audio and transcripts stay in the harvest workspace and are never published; the museum publishes only its own wording, cited by timestamp, with a link to the video.
 
