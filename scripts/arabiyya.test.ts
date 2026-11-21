@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import type { Node } from "./build-graph.js";
 import { arabiyyaCorpusOf, arabiyyaTagSection, isArabiyyaPassage, stripMarks } from "./arabiyya.js";
 
-// Requirements: docs/engineering/64-arabic-language-browser-requirements.md (R2, R3, R4).
+// Requirements: docs/engineering/66-arabic-language-browser-requirements.md (R2, R3, R4).
 const makeNode = (id: string, cls: string, data: Record<string, any> = {}, tags: string[] = []): Node => ({
   id, class: cls, slug: id.split("/")[1], label: { ar: id, en: id, ur: id }, summary: { ar: "", en: "", ur: "" }, stub: false,
   wings: [], regions: [], periods: [], tags, aliases: [], themes: [], data, prose: {}, degree: 0, contemporaries: [], updated: "2026-11-21",

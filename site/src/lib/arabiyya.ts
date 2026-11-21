@@ -1,4 +1,4 @@
-// The Arabic Language Browser's shared reads (docs/plan/73-arabic-language-browser.md): every passage of
+// The Arabic Language Browser's shared reads (docs/plan/74-arabic-language-browser.md): every passage of
 // the Qur'an, the hadith, the seerah, the tafsir and the harvested books that speaks about the Arabic
 // language, plus the curated records on its history, script, sciences, dialects, world, scholars and
 // books — all over the one graph. Passages are found by the shared detector in scripts/arabiyya.ts at

@@ -1,4 +1,4 @@
-// The Arabic Language Browser's shared reads (docs/plan/73-arabic-language-browser.md): which passage
+// The Arabic Language Browser's shared reads (docs/plan/74-arabic-language-browser.md): which passage
 // records speak about the Arabic language — the Qur'an's own verses on its Arabic tongue, the hadith
 // and the reports of the Companions and Successors, the seerah, the tafsir and every other harvested
 // book — and which section each belongs to. Detection runs at build time over the compiled graph, so a
@@ -23,7 +23,7 @@ export const stripMarks = (s: string): string =>
 
 /**
  * The Qur'an's own words about its language. Every verse of the frozen text that carries one of
- * these is about the tongue of the revelation: «عربي» (twelve verses), «أعجمي» / «الأعجمين»,
+ * these is about the tongue of the revelation: «عربي» (eleven verses), «أعجمي» / «الأعجمين»,
  * «بلسان قومه» (14:4) and «بلسانك» (19:97, 44:58). «الأعراب» (the desert Arabs) does not match.
  */
 const QURAN_ARABIC = /عربي|أعجمي|الأعجمين|بلسان قومه|بلسانك/;
