@@ -39,7 +39,7 @@ A recording is a primary source for what the speaker says. It is not corroborati
 - **Describe, attribute, label.** Lecture material on contested questions (creed differences, madhhab differences, other religions, politics) goes into `perspectives` with the Sunni position first, labelled; no verdict in the museum's voice.
 - **No honorifics typed** (the UI renders them); no figurative depictions.
 - **Platform figures** (subscribers, views, plays) are dated platform numbers, never museum facts without a date.
-- **Sites that forbid collection are not used.** Check the site's robots.txt and terms before the first bulk download. YouTube-hosted lectures are cited as pointers only: this method never downloads from YouTube (its terms forbid it; `publication-standard` and `15-local-harvest.md` §5 rule 5 apply).
+- **Sites that forbid collection are not used.** Check the site's robots.txt and terms before the first bulk download. YouTube-hosted lectures are cited as pointers only: this method never downloads from YouTube (its terms forbid it; `publication-standard` and `15-local-harvest.md` §5 rule 5 apply). **Exception:** **Founder ruling, 21 November 2026 (lane `mufti-menk`, channel `@muftimenkofficial` only):** audio may be downloaded from YouTube for local transcription, for that one channel and no other channel or site. The audio and the transcript stay in the harvest workspace (`$HARVEST`, outside the repository) and are never committed or published; the audio file is deleted once its transcript is written and checked.
 
 ## Include everything, and categorise it (founder, 25 Oct 2026)
 
