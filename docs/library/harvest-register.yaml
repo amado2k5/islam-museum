@@ -23428,6 +23428,7 @@ audio_series:
     completion: downloaded
     unverified: ["page_url and series_page_url follow the assabile URL pattern, not individually re-checked", "lecturer name taken from the pipeline lecturer list or the register", "downloaded and transcript dates are the queue times of the pipeline steps", "media URL recorded only for tombstoned episodes (deleted.tsv); null otherwise", "episodes_total counts the episode lines queued so far, not the series total stated by the site", "duration null: not measured for audio downloads"]
   # END audio_series
+  # END audio_series
 
 video_series:
   # BEGIN video_series
@@ -25811,7 +25812,7 @@ video_series:
     series_page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba"
     episodes_total: null
     episodes_audio: 29
-    episodes_transcribed: 40
+    episodes_transcribed: 42
     transcript: { pass: pass5-qwen, model: "oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2", state: partial, run_dates: "2026-11-15" }
     mining: { state: none, episodes_mined: 0, ranges: null, held: null, basis: null }
     ingestion: { state: in_progress, prs: [], ledger: "docs/delegation/assabile-wa-nal9a-al-aheba.md", work_id: "work/wa-nal9a-al-aheba" }
@@ -25850,8 +25851,8 @@ video_series:
       - { n: 40, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-40", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep40.mp4", format: mp4, duration: "50:56", bytes: 145604175, sha256: "575ba69825014bf002310b67010140640e7a528ef916116a3a57a0ee746781ea", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
       - { n: 41, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-41", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep41.mp4", format: mp4, duration: "49:42", bytes: 144214402, sha256: "36c06f656c69880ee3509f4e68ae6db1461d9acbd10254e2b30ca23811fd32ad", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
       - { n: 42, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-42", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep42.mp4", format: mp4, duration: "53:48", bytes: 136111565, sha256: "67893eef75035705cfd99d5135bff21931ba5437259aac6b7e9862bf562a7820", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
-      - { n: 43, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-43", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep43.mp4", format: mp4, duration: "48:11", bytes: 134852924, sha256: "229cfadd7e1476d7e915505ddca0d0cd3e6b0f1e0ae2d7db35560a214f87832e", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
-      - { n: 44, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-44", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep44.mp4", format: mp4, duration: "50:26", bytes: 143974627, sha256: "1c97bef9bf3bbbfcbabe557ffacce7f08a028e0aaa4b6a1955dac766d2eeeacc", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
+      - { n: 43, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-43", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep43.mp4", format: mp4, duration: "48:11", bytes: 134852924, sha256: "229cfadd7e1476d7e915505ddca0d0cd3e6b0f1e0ae2d7db35560a214f87832e", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
+      - { n: 44, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-44", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep44.mp4", format: mp4, duration: "50:26", bytes: 143974627, sha256: "1c97bef9bf3bbbfcbabe557ffacce7f08a028e0aaa4b6a1955dac766d2eeeacc", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
       - { n: 45, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-45", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep45.mp4", format: mp4, duration: "53:29", bytes: 161761752, sha256: "483cc4f7b11b759edb07e9c71be067480493bdc38903ed7cc66545ab80635a72", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
       - { n: 46, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-46", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep46.mp4", format: mp4, duration: "49:31", bytes: 127552606, sha256: "4aca1f3855ec17c936bf7398596adc69ae7f44f8ebeeb1870189eae00c5e7149", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
       - { n: 47, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-47", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep47.mp4", format: mp4, duration: "50:56", bytes: 145604175, sha256: "b820407d427f70db7f07dbf870f7e3d9762405c3cedbca5ccaa060ac200ffeb0", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
@@ -26394,7 +26395,8 @@ video_series:
     ingestion: { state: none, prs: [], ledger: "docs/delegation/assabile-egypt-progress.md", work_id: null }
     checksums_file: "raw/assabile/amr-khaled/daawa-litaayush/SHA256SUMS"
     episodes:
-      - { n: 18, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/daawa-litaayush/episode-18", file: "raw/assabile/amr-khaled/daawa-litaayush/ep18.mp4", format: mp4, duration: null, bytes: 155833920, sha256: "fd47caea2d55871024ed6e4540254b0292f0a56dda277f93f0846406153a0f1a", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
+      - { n: 17, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/daawa-litaayush/episode-17", file: "raw/assabile/amr-khaled/daawa-litaayush/ep17.mp4", format: mp4, duration: null, bytes: 138738011, sha256: "68135f59e6275b4003e9d02ba81b2d570325d80e4f3f3aaeb58de2d7a8842c8d", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
+      - { n: 18, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/daawa-litaayush/episode-18", file: "raw/assabile/amr-khaled/daawa-litaayush/ep18.mp4", format: mp4, duration: "50:26", bytes: 155833920, sha256: "fd47caea2d55871024ed6e4540254b0292f0a56dda277f93f0846406153a0f1a", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
       - { n: 19, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/daawa-litaayush/episode-19", file: "raw/assabile/amr-khaled/daawa-litaayush/ep19.mp4", format: mp4, duration: "51:45", bytes: 150411140, sha256: "126a74d15507d66a6f1de59b9cbb40bf39607c1b3a7e80c761d70543fbcdce04", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
       - { n: 20, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/daawa-litaayush/episode-20", file: "raw/assabile/amr-khaled/daawa-litaayush/ep20.mp4", format: mp4, duration: "50:05", bytes: 140610655, sha256: "e80d9bb6adc0679e2eda06f7122d10192d67d517851621e6eda0b2b299a8ee18", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
       - { n: 21, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/daawa-litaayush/episode-21", file: "raw/assabile/amr-khaled/daawa-litaayush/ep21.mp4", format: mp4, duration: "49:47", bytes: 141644175, sha256: "1710921462ef3caa545bcb12a4d3597bad80fd3f6d54d9f59ec55a52f9576deb", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
@@ -26419,6 +26421,26 @@ video_series:
       - { n: 2, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/kalam-min-al-qalb/episode-02", file: "raw/assabile/amr-khaled/kalam-min-al-qalb/ep02.mp4", format: mp4, duration: "54:07", bytes: 156984129, sha256: "485a6f7a50ccb58108cf95cb5c4ea949ec10538df3f365740f6f7016c3cf3ad9", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
       - { n: 3, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/kalam-min-al-qalb/episode-03", file: "raw/assabile/amr-khaled/kalam-min-al-qalb/ep03.mp4", format: mp4, duration: "55:00", bytes: 172646923, sha256: "00e7d19a321cadac34fb1f14d9111345f7c4f2bddd81d2b45758f2f5c42f6d36", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
       - { n: 4, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/kalam-min-al-qalb/episode-04", file: "raw/assabile/amr-khaled/kalam-min-al-qalb/ep04.mp4", format: mp4, duration: "1:00:34", bytes: 180537988, sha256: "fc4b3b65d8f309cf5f6cb26877ab9a95038fa52770bfff22f9ceabf926a19b37", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
+      - { n: 5, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/kalam-min-al-qalb/episode-05", file: "raw/assabile/amr-khaled/kalam-min-al-qalb/ep05.mp4", format: mp4, duration: "54:18", bytes: 165541483, sha256: "9ab338226c23d47b91822d1c8185f7ee53132e860ea6dc20508982e768e5a270", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
+    completion: downloaded
+    unverified: ["page_url and series_page_url follow the assabile URL pattern, not individually re-checked", "lecturer name taken from the pipeline lecturer list or the register", "downloaded and transcript dates are the queue times of the pipeline steps", "media URL recorded only for tombstoned episodes (deleted.tsv); null otherwise", "episodes_total counts the episode lines queued so far, not the series total stated by the site"]
+  - id: assabile-amr-khaled-rehla-lisaada
+    title: "rehla-lisaada"
+    media_type: video
+    site_url: https://www.assabile.com
+    lecturer: { name: "Amr Khaled", page_url: "https://www.assabile.com/amr-khaled" }
+    series_page_url: "https://www.assabile.com/amr-khaled/lessons/rehla-lisaada"
+    episodes_total: 3
+    episodes_audio: 2
+    episodes_transcribed: 0
+    transcript: { pass: null, model: null, state: none, run_dates: null }
+    mining: { state: none, episodes_mined: 0, ranges: null, held: null, basis: null }
+    ingestion: { state: none, prs: [], ledger: "docs/delegation/assabile-egypt-progress.md", work_id: null }
+    checksums_file: "raw/assabile/amr-khaled/rehla-lisaada/SHA256SUMS"
+    episodes:
+      - { n: 1, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/rehla-lisaada/episode-01", file: "raw/assabile/amr-khaled/rehla-lisaada/ep01.mp4", format: mp4, duration: "34:31", bytes: 142550673, sha256: "e0d34fb4bc8f9fff500dfc506e310bea7dd9462d75fc6d877cf927a8b01459a2", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
+      - { n: 2, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/rehla-lisaada/episode-02", file: "raw/assabile/amr-khaled/rehla-lisaada/ep02.mp4", format: mp4, duration: "34:01", bytes: 121975121, sha256: "574a6e567b935566e4df5a3e7377eccefb25a1ccf236902ce7ca835048ecc626", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
+      - { n: 3, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/rehla-lisaada/episode-03", file: "raw/assabile/amr-khaled/rehla-lisaada/ep03.mp4", format: mp4, duration: null, bytes: 135432638, sha256: "f4d3e320dfc56c98347f390f9348beb1a00e6ed49328b8ca3d337d16e1be5e07", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
     completion: downloaded
     unverified: ["page_url and series_page_url follow the assabile URL pattern, not individually re-checked", "lecturer name taken from the pipeline lecturer list or the register", "downloaded and transcript dates are the queue times of the pipeline steps", "media URL recorded only for tombstoned episodes (deleted.tsv); null otherwise", "episodes_total counts the episode lines queued so far, not the series total stated by the site"]
   # END video_series
