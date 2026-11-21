@@ -1784,6 +1784,10 @@ explore:
       title: "Navigateur des califes"
       desc: "Chaque calife groupé par son califat — des Rachidun à Sokoto — avec son règne, sa chaîne de succession, les événements que son règne a vus et la notice citée."
       menu: "Parcourir les califes et leurs règnes"
+    arabiyya:
+      title: "Navigateur de la langue arabe"
+      desc: "L'arabe, langue du Coran : les versets qui nomment sa langue, ce qu'en disent le hadith, les Compagnons et les savants, l'inimitabilité de son expression, puis son histoire, son écriture, sa grammaire, ses dialectes, son monde, ses savants et ses livres."
+      menu: "Parcourir l'arabe, langue du Coran"
     maajim:
       title: "Navigateur des dictionnaires"
       desc: "Dictionnaires arabes et islamiques : qui les a écrits, quand, à partir de quels ouvrages antérieurs, comment ils sont classés et où on peut les lire."
@@ -2095,6 +2099,80 @@ khutab:
     nikah: "Sermon de mariage"
     farewell: "Sermon d’adieu"
     other: "Sermon"
+arabiyya:
+  title: "Navigateur de la langue arabe : la langue du Coran"
+  lede: "L'arabe tel que le Coran le nomme et tel que les sources le décrivent : les versets où le Coran parle de sa propre langue, les récits rapportés du Prophète, des Compagnons et des Successeurs, les histoires de ceux qui l'ont entendu, le débat sur son inimitabilité, puis l'histoire, l'écriture, les sciences, les dialectes, le monde, les savants et les livres de l'arabe."
+  badge: "Explorateur de la langue arabe"
+  status: "Cette version contient {v} versets où le Coran parle de sa langue, {p} passages du hadith, de la sira, du tafsir et des livres moissonnés qui parlent de l'arabe, et {r} fiches rédigées. Les passages sont repérés par leurs mots : certains ne mentionnent l'arabe qu'en passant ; chacun s'ouvre sur sa page avec sa source."
+  method_title: "La méthode du navigateur"
+  method_note: "Rien ici n'est tenu dans une liste à part. Les passages sont repérés à la construction du site, en comparant les mots de chaque fiche de texte du graphe du musée : un livre moissonné plus tard ajoute ses passages le jour de son arrivée. Les fiches rédigées sont des fiches ordinaires du musée, étiquetées arabiyya-browser et arabiyya-<section>. Le texte des versets vient uniquement des fichiers Tanzil figés. Quand les savants divergent, la fiche donne chaque avis sous son nom, sans trancher."
+  api: "Le jeu de données complet se trouve à"
+  contents_title: "Sur cette page"
+  empty: "Aucune fiche dans cette version pour l'instant."
+  passages_title: "Ce que les sources disent de l'arabe"
+  passages_note: "Passages des textes moissonnés par le musée dont les mots parlent de la langue arabe : la langue de Quraysh, le parler des Arabes, l'apprentissage de l'arabe, la grammaire et ses fondateurs, les fautes de langue et l'inimitabilité du Coran. L'extrait est le début du passage tel qu'il figure dans la source ; un texte lu par machine sur une image peut comporter des erreurs de lecture."
+  kin_title: "Salles voisines"
+  corpora:
+    quran:
+      title: "Le Coran parle de sa langue"
+      desc: "Chaque verset du texte figé qui dit que la révélation est arabe, qu'elle est venue dans la langue de son peuple, ou qui oppose l'arabe à une langue étrangère. Ouvrez un verset pour sa page, ses traductions et son commentaire."
+    sunnah:
+      title: "Dans le hadith et les récits"
+      desc: "Récits des recueils de hadith qui parlent de la langue arabe, de la langue de Quraysh ou de la mise par écrit du Coran dans cette langue."
+    seerah:
+      title: "Dans la sira"
+      desc: "Passages des livres de la vie du Prophète qui parlent de la langue."
+    tafsir:
+      title: "Dans les commentaires"
+      desc: "Passages des commentaires du Coran qui traitent de l'arabe du Coran."
+    books:
+      title: "Dans les autres livres moissonnés"
+      desc: "Histoire, biographies, droit, sciences du Coran et belles-lettres : partout où un livre moissonné parle de l'arabe."
+  sections:
+    lisan:
+      title: "L'arabe, langue du Coran"
+      desc: "Pourquoi la révélation est en arabe selon les commentateurs, la langue de Quraysh, les sept ahruf, et ce que les premières générations ont dit de l'apprentissage de l'arabe."
+    ijaz:
+      title: "La langue inimitable du Coran"
+      desc: "Le défi lancé par le Coran, ceux qui l'ont entendu et ce qu'ils ont dit, et la manière dont les savants ont expliqué son inimitabilité : avis, exemples et récits, chacun sous sa source."
+    origins:
+      title: "Origines et histoire"
+      desc: "D'où vient l'arabe, sa place parmi les langues sémitiques, les Arabes avant l'islam, et comment la langue est passée de l'Arabie au monde."
+    script:
+      title: "Lettres et écriture"
+      desc: "L'alphabet, la ponctuation et la vocalisation du mushaf, et l'art d'écrire l'arabe."
+    sciences:
+      title: "Les sciences de l'arabe"
+      desc: "Grammaire, morphologie, rhétorique, métrique, lexicographie et théorie de la langue, et la naissance de chacune."
+    dialects:
+      title: "Dialectes anciens et modernes"
+      desc: "Les parlers des tribus à l'époque de la révélation, et les arabes parlés d'aujourd'hui à côté de la langue écrite."
+    world:
+      title: "L'arabe dans le monde"
+      desc: "Où l'on parle arabe, les pays arabes, l'arabe parmi les langues du monde musulman, et ce qu'il a donné aux autres langues et reçu d'elles."
+    scholars:
+      title: "Les savants de la langue"
+      desc: "Les grammairiens, lexicographes et rhétoriciens qui ont décrit l'arabe."
+    books:
+      title: "Les livres de la langue"
+      desc: "Les ouvrages fondateurs de la grammaire, de la rhétorique, de la théorie de la langue et du vocabulaire du Coran. Les dictionnaires ont leur propre navigateur."
+  viz:
+    title: "L'anneau des lettres"
+    note: "Les lettres de l'arabe dans l'ordre que leur a donné al-Khalil ibn Ahmad dans le Kitab al-Ayn, premier dictionnaire arabe : non pas alif, ba, ta, mais selon le lieu où chaque son se forme, du fond de la gorge jusqu'aux lèvres. Chaque arc coloré est un point d'articulation."
+    aria: "Un anneau des lettres arabes dans l'ordre d'al-Khalil, groupées par point d'articulation, avec au centre les chiffres de cette version"
+    verses: "versets nomment la langue du Coran"
+    others: "passages sur l'arabe · fiches rédigées"
+    source: "L'ordre est celui rapporté d'al-Khalil dans le Kitab al-Ayn ; les fiches du musée :"
+    groups:
+      halq: "Gorge"
+      lahat: "Luette"
+      shajr: "Côté de la bouche"
+      asala: "Pointe de la langue"
+      nat: "Avant du palais"
+      litha: "Gencives"
+      dhalq: "Bord de la langue"
+      shafa: "Lèvres"
+      jawf: "Bouche ouverte et hamza"
 maajim:
   title: "Navigateur des dictionnaires"
   lede: "Les grands dictionnaires de la langue arabe et des sciences islamiques : qui a écrit chacun, quand, à partir de quels ouvrages antérieurs, comment il est classé et où on peut le lire."
