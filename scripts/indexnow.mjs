@@ -5,6 +5,9 @@
  *   node scripts/indexnow.mjs                 URLs changed in the last commit (git diff HEAD~1 HEAD)
  *   node scripts/indexnow.mjs --all          every URL in the live sitemaps (one-time bootstrap)
  *   node scripts/indexnow.mjs --sitemaps      only the sitemap index and sitemaps
+ *
+ * Every mode also names the sitemap files listed in the live sitemap-index.xml (read past the edge cache), so the
+ * search engines learn about all of them, the newest included.
  *   add --dry-run to print what would be sent without sending it
  *
  * The islam.museum sitemap (@astrojs/sitemap) carries no <lastmod>, so changed
@@ -87,9 +90,23 @@ async function urlsFromGit() {
   return { urls: [...urls], entityChanges };
 }
 
+// The sitemap files the live site lists, read from sitemap-index.xml (the file the build writes; /sitemap.xml is a
+// copy of it) and past the edge cache: on 20 November 2026 a copy of /sitemap.xml made while the deploy was running
+// still listed 7 of the 11 sitemaps hours later, so a ping built from it left out the newest ones (the French and
+// Spanish pages). Empty when the index cannot be read; the caller then still names /sitemap.xml.
+async function liveSitemapUrls() {
+  try {
+    const res = await fetch(`${siteUrl}/sitemap-index.xml?nocache=${Date.now()}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return [...(await res.text()).matchAll(/<loc>(.*?)<\/loc>/g)].map(m => unescape(m[1]));
+  } catch (err) {
+    console.log(`Could not read ${siteUrl}/sitemap-index.xml (${err.message}); naming ${siteUrl}/sitemap.xml only.`);
+    return [];
+  }
+}
+
 async function urlsFromLiveSitemaps() {
-  const indexXml = await (await fetch(`${siteUrl}/sitemap.xml`)).text();
-  const sitemapUrls = [...indexXml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => unescape(m[1]));
+  const sitemapUrls = await liveSitemapUrls();
   const urls = [];
   for (const sm of sitemapUrls) {
     const xml = await (await fetch(sm)).text();
@@ -99,10 +116,10 @@ async function urlsFromLiveSitemaps() {
 }
 
 let urlList;
-let sitemapUrls = [`${siteUrl}/sitemap.xml`];
+let sitemapUrls = [`${siteUrl}/sitemap.xml`, ...(await liveSitemapUrls())];
 if (flag('all') || flag('sitemaps')) {
   const live = await urlsFromLiveSitemaps();
-  sitemapUrls = live.sitemapUrls.length ? live.sitemapUrls : sitemapUrls;
+  sitemapUrls = [...new Set([...sitemapUrls, ...live.sitemapUrls])];
   urlList = flag('sitemaps') ? [`${siteUrl}/sitemap.xml`, ...sitemapUrls] : [...live.urls, ...sitemapUrls];
 } else {
   const git = await urlsFromGit();
