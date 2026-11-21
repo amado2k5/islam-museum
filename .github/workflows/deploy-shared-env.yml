@@ -131,6 +131,10 @@ jobs:
             jobs=$(gh api --paginate "repos/$GH_REPO/actions/runs/$id/jobs" --jq '.jobs[] | "\(.name)\t\(.conclusion)"')
             grep -qxF "$(printf 'test\tsuccess')" <<<"$jobs" || { echo "its unit tests did not pass"; return; }
             grep -qxF "$(printf 'build (shared)\tsuccess')" <<<"$jobs" || { echo "its \"build (shared)\" job did not pass"; return; }
+            # Runs made before the whole-site check existed have no such job and are accepted; a run that has it must pass it.
+            if grep -qF "$(printf 'check (whole site)\t')" <<<"$jobs"; then
+              grep -qxF "$(printf 'check (whole site)\tsuccess')" <<<"$jobs" || { echo "its whole-site checks (check:site and check:weight) did not pass"; return; }
+            fi
             live=$(gh api "repos/$GH_REPO/actions/runs/$id/artifacts" --jq '.artifacts[] | select(.expired == false) | .name')
             grep -qxF dist-shared <<<"$live" || { echo "it has no live dist-shared artifact (expired, or the shared parts were not built in that run)"; return; }
           }
@@ -159,12 +163,15 @@ jobs:
           [ "$branch" = "$SOURCE_BRANCH" ] || { echo "::error::Build run $id built $branch, not $SOURCE_BRANCH."; exit 1; }
           sitemap=false
           gh api "repos/$GH_REPO/actions/runs/$id/artifacts" --jq '.artifacts[] | select(.expired == false) | .name' | grep -qxF dist-sitemap && sitemap=true
+          pagecount=false
+          gh api "repos/$GH_REPO/actions/runs/$id/artifacts" --jq '.artifacts[] | select(.expired == false) | .name' | grep -qxF site-pages && pagecount=true
           {
             echo "run_id=$id"
             echo "sha=$sha"
             echo "created=$created"
             echo "title=$title"
             echo "sitemap=$sitemap"
+            echo "pagecount=$pagecount"
           } >> "$GITHUB_OUTPUT"
           {
             echo "## Deploying the shared parts from language build $id"
@@ -215,6 +222,14 @@ jobs:
           path: dist-sitemap
           run-id: ${{ steps.build.outputs.run_id }}
           github-token: ${{ github.token }}
+      - name: Download the page count of the same run
+        if: steps.build.outputs.pagecount == 'true'
+        uses: actions/download-artifact@v8
+        with:
+          name: site-pages
+          path: site-pages
+          run-id: ${{ steps.build.outputs.run_id }}
+          github-token: ${{ github.token }}
       - name: Unpack, and check that no language's pages are in it
         run: |
           set -euo pipefail
@@ -249,7 +264,14 @@ jobs:
           else
             echo "::warning::No release block found at the top of CANARY.md; the footer will show no version."
           fi
-          pages=$(curl -s -L --max-time 30 "$SITE_URL/api/v1/meta/deploy.json" | jq -r '.pages // 0' 2>/dev/null || echo 0)
+          # The page count is the whole site's, counted by the build's check job the way the one-job deploy counted it
+          # (every html file but the search indexes). A run without that job (older runs) keeps the live count, and says so.
+          if [ -f site-pages/pages.txt ]; then
+            pages=$(tr -dc '0-9' < site-pages/pages.txt)
+          else
+            echo "::warning::This build has no page count (no \"check (whole site)\" job); the stamp keeps the live count, which may be out of date."
+            pages=$(curl -s -L --max-time 30 "$SITE_URL/api/v1/meta/deploy.json" | jq -r '.pages // 0' 2>/dev/null || echo 0)
+          fi
           [[ "$pages" =~ ^[0-9]+$ ]] || pages=0
           jq -n --arg t "$(date -u +%Y-%m-%dT%H:%M:%SZ)" --arg sha "$SHA" --argjson run "$RUN_ID" --arg env "$ENVIRONMENT" \
             --arg version "$version" --arg version_date "$version_date" --argjson pages "$pages" \

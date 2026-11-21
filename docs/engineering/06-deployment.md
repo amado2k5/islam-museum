@@ -374,8 +374,34 @@ that the build does not have, is reported and the others still run; if the share
 fail, no language is deployed. Shared first is the safe order: pages published afterwards
 find the scripts, styles and API files of their own commit already there.
 
-**Still not covered.** `check:site` and `check:weight` read the whole built site and are
-run by no job of the by-language build; they stay with the one build.
+**What the one deploy did that the parts now do (audit of 21 November 2026).** Four things
+of the one build and the one deploy had been left out of the first version of the parts:
+
+- `check:site` and `check:weight` read the whole built site (the first reports a missing page
+  when one language is absent, the second reads the Arabic routes), so no language job can
+  run them. The job `check (whole site)` of `build-lang.yml` puts the shared parts and the
+  five languages together again (about 66 GB on the runner, one archive unpacked and deleted
+  at a time) and runs both. Run on the real build 44761868478 they passed: 493,860 pages, 0
+  errors, 4 warnings, 86 weight routes, none over budget. The shared deploy refuses a run
+  that has this job and whose job did not succeed; runs made before the job existed are
+  still accepted.
+- The page count in the deploy stamp (`/api/v1/meta/deploy.json`, shown on the Backstage
+  page) was copied from the previous live stamp, which is not the new build's count: on 21
+  November production still said 279,334 while the build had 493,860 pages. The same job now
+  counts the pages the way the one deploy did (every html file but the search indexes), as
+  the artifact `site-pages`, and the shared deploy stamps that number. A run without it keeps
+  the live count and says so in a warning.
+- IndexNow (the job `notify-indexnow` of `deploy-env.yml`, production only) is now a job of
+  `deploy-all-parts.yml`, after every part has been published, and is skipped when any part
+  failed or when the repository variable `INDEXNOW` is `off`. The single shared and
+  per-language production deploys do not send it.
+- The `seed` input (bootstrap the publish record from the bucket) is not offered by the
+  parts: they refuse to run without a record. Use the one deploy to seed a new bucket.
+
+**Not the same as the one build.** The by-language artifacts live 5 days, not 14, and
+nothing prunes them (the job `keep-newest` of the one build does not exist here); a build
+older than five days has to be made again before it can be deployed. A failing test does
+not cancel the language builds already running.
 
 **Removal.** Delete `build-lang.yml`, `deploy-lang-env.yml`, `deploy-shared-env.yml`, the ten
 `deploy-*lang-*.yml` files, `deploy-shared.yml`, `deploy-uat-shared.yml`,
