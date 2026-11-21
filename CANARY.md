@@ -5569,6 +5569,8 @@ sweep: 34 live rule-decided records re-checked
 ### Data
 - Harvest register: 1,009 Assabile episodes (Omar Abdelkafy's series and others) are marked off the drive (`on_drive: false`, deleted 21 November 2026). Each was fully harvested first (transcribed, mined and ingested), carries its SHA-256 and restore URL, and its transcript is kept; the audio or video file is deleted to free about 75 GB on the microSD.
 - **80 new passages for the Elegy and Death-Announcement Browser:** 40 cited excerpts (at most 40 words, machine-read, not corrected) from each of the two books, on elegies, death announcements and condolence, each labelled in five languages.
+### Data
+- **The Assabile lecture register gains 12 new series and 220 episodes, and records 4 transcripts.** Nine audio series by Mishary Al-Kharraz and Mohamed Hassan and three video series by Amr Khaled now have their episode lines in the harvest register: the file on the drive, its size and checksum, and its download date. Video episodes take the length of their split audio. The four transcripts are marked transcribed; nothing is mined yet, and no existing episode line changed.
 
 ## v2.26.0 — 2026-11-20
 ### Added
