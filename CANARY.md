@@ -5573,6 +5573,7 @@ sweep: 34 live rule-decided records re-checked
 ### Added
 - **Two works of al-Dhahabi now have their own pages: «سير أعلام النبلاء» (`work/siyar-alam-nubala`) and «تاريخ الإسلام» (`work/tarikh-islam-dhahabi`),** each with a five-language summary and prose, and linked to their author. Their source records existed but had no work record, so their passages could not be cited.
 ### Data
+- **The Assabile harvest register records two more transcripts, on two Wa Nalqa al-Ahibba episodes (Amr Khaled).** The register sync of 21 November 2026 sets the transcript (pass5-qwen) on episodes 51 and 53, marks them as transcribed, and raises the series' transcribed count from 49 to 51. One series is touched and no book is newly marked OCR complete in this cycle; episodes already mined keep their fields except the drive flags.
 - Harvest register: 1,009 Assabile episodes (Omar Abdelkafy's series and others) are marked off the drive (`on_drive: false`, deleted 21 November 2026). Each was fully harvested first (transcribed, mined and ingested), carries its SHA-256 and restore URL, and its transcript is kept; the audio or video file is deleted to free about 75 GB on the microSD.
 - **80 new passages for the Elegy and Death-Announcement Browser:** 40 cited excerpts (at most 40 words, machine-read, not corrected) from each of the two books, on elegies, death announcements and condolence, each labelled in five languages.
 ### Data
