@@ -1,0 +1,27 @@
+id: concept/ilm-al-sarf
+class: concept
+kind: discipline
+tags: [arabiyya-browser, arabiyya-sciences]
+label:
+  ar: "علم الصرف"
+  en: "Arabic morphology (sarf)"
+  ur: "علم صرف"
+  fr: "La morphologie arabe (sarf)"
+  es: "La morfología árabe (sarf)"
+summary:
+  ar: "الصرف أو التصريف علم بنية الكلمة. يقول ابن جني في المنصف إنه ميزان العربية وإن جميع أهلها يحتاجون إليه، وإن بعض اللغة يؤخذ بالقياس بواسطته لا بالسماع، وإنه وسط بين النحو واللغة. وتصف الموسوعة البريطانية بنية العربية بالجذر والوزن، وفي كتاب العين المنسوب إلى الخليل أن لا بناء فوق خمسة أحرف. ولم يُعثر على رواية قديمة لمن أسس هذا العلم."
+  en: "Sarf, or tasrif, is the science of the form of the word. In al-Munsif Ibn Jinni says it is the balance of Arabic that all its people need, that part of the language is taken by analogy through it and not by hearing, and that it stands between grammar and lexicon. The Encyclopaedia Britannica describes the structure of Arabic as root and pattern, and Kitab al-Ayn, ascribed to al-Khalil, says no structure exceeds five letters. No early account of its founder was found."
+  ur: "صرف یا تصریف لفظ کی بناوٹ کا علم ہے۔ المنصف میں ابن جنی کہتے ہیں کہ یہ عربی کا میزان ہے جس کی تمام اہل عربیت کو حاجت ہے، زبان کا کچھ حصہ اس کے ذریعے قیاس سے لیا جاتا ہے سماع سے نہیں، اور یہ نحو اور لغت کے درمیان ہے۔ برٹانیکا عربی کی بناوٹ کو جڑ اور وزن سے بیان کرتا ہے، اور خلیل کی طرف منسوب کتاب العین کے مطابق بناوٹ پانچ حروف سے زیادہ نہیں۔ بانی کے بارے میں کوئی قدیم روایت نہیں ملی۔"
+  fr: "Le sarf, ou tasrif, est la science de la forme du mot. Dans al-Munsif, Ibn Jinni dit qu'il est la balance de l'arabe dont tous ses gens ont besoin, qu'une partie de la langue se prend par analogie grâce à lui et non par l'ouï-dire, et qu'il se tient entre la grammaire et le lexique. La Britannica décrit la structure de l'arabe comme racine et schème, et le Kitab al-Ayn, attribué à al-Khalil, dit qu'aucune structure ne dépasse cinq lettres. Aucun récit ancien sur son fondateur n'a été trouvé."
+  es: "El sarf, o tasrif, es la ciencia de la forma de la palabra. En al-Munsif Ibn Jinni dice que es la balanza del árabe que toda su gente necesita, que parte de la lengua se toma por analogía mediante ella y no por oído, y que se sitúa entre la gramática y el léxico. La Britannica describe la estructura del árabe como raíz y patrón, y el Kitab al-Ayn, atribuido a al-Khalil, dice que ninguna estructura pasa de cinco letras. No se halló ningún relato antiguo sobre su fundador."
+wings: [words, ideas]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: concept/ilm-al-nahw, sources: [source/munsif-ibn-jinni-1954] }
+  - { type: related_to, target: person/ibn-jinni, sources: [source/munsif-ibn-jinni-1954] }
+  - { type: related_to, target: person/al-khalil-ibn-ahmad-al-farahidi, sources: [source/kitab-al-ayn-makhzumi] }
+  - { type: related_to, target: work/kitab-al-ayn, sources: [source/kitab-al-ayn-makhzumi] }
+  - { type: related_to, target: concept/ulum-al-lisan-al-arabi, sources: [source/munsif-ibn-jinni-1954] }
+provenance: { layer: own-research, source: "Ibn Jinni, al-Munsif p.1-4; Kitab al-Ayn (attributed to al-Khalil) vol. 1 p.49; Ibn Khallikan, Wafayat al-A'yan vol. 2 p.246; Britannica, Arabic language, read on 21 Nov 2026.", generated_by: "Claude Code", model: "claude-fable-5-2", run: "arabiyya-browser-1" }
+sources: [source/munsif-ibn-jinni-1954, source/kitab-al-ayn-makhzumi, source/britannica-arabic-language, source/wafayat-ihsan-abbas]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-fable-5-2); written from the cited sources, not read by a human; translations are machine translations by the same model" }

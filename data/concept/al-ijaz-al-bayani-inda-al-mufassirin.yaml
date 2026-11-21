@@ -1,0 +1,23 @@
+id: concept/al-ijaz-al-bayani-inda-al-mufassirin
+class: concept
+kind: doctrine
+tags: [arabiyya-browser, arabiyya-ijaz]
+label:
+  ar: "الإعجاز البياني عند المفسرين"
+  en: "The inimitability of the Qur'an's language in the commentaries"
+  ur: "مفسرین کے ہاں قرآن کا بیانی اعجاز"
+  fr: "L'inimitabilité de la langue du Coran chez les commentateurs"
+  es: "La inimitabilidad de la lengua del Corán en los comentarios"
+summary:
+  ar: "كيف شرح الطبري وابن كثير والقرطبي والبغوي آيات التحدي: المثل المطلوب مثله في البيان عند الطبري لأنه نزل بلسانهم، والتحدي عند ابن كثير ثلاث مراتب من القرآن كله إلى عشر سور إلى سورة، وهو عام في كل سورة طويلة أو قصيرة، ونفي الإتيان بمثله في المستقبل خبر عن غيب. ويذكر ابن كثير القول بالصرفة ويجعله على سبيل التنزل."
+  en: "How al-Tabari, Ibn Kathir, al-Qurtubi and al-Baghawi explain the challenge verses: for al-Tabari the 'like' asked for is a like in clear expression, since it came in their own tongue; for Ibn Kathir the challenge has three stages, from the whole Qur'an to ten suras to one, and covers every sura, long or short, while the statement that they will never match it is a report of the unseen. Ibn Kathir mentions the sarfa view and accepts it only as a concession."
+wings: [words, ideas]
+themes: [scripture-and-its-sciences, linguistics]
+relations:
+  - { type: related_to, target: concept/ijaz-al-quran, sources: [source/tafsir-ibn-kathir-quran-com] }
+  - { type: related_to, target: concept/al-tahaddi-bil-quran, sources: [source/tafsir-ibn-kathir-quran-com] }
+  - { type: related_to, target: concept/sama-quraysh-lil-quran, sources: [source/tafsir-ibn-kathir-quran-com] }
+  - { type: related_to, target: concept/al-arabiyya-lughat-al-quran, sources: [source/tafsir-tabari-quran-com] }
+provenance: { layer: own-research, source: "Quran.com tafsir API, resources 15, 14, 90 and 94, read on 21 Nov 2026 for verses 2:23, 2:24, 10:38, 11:13, 17:88, 52:33-34", generated_by: "Claude Code", model: "claude-fable-5-2", run: "arabiyya-browser-1" }
+sources: [source/tafsir-tabari-quran-com, source/tafsir-ibn-kathir-quran-com, source/tafsir-qurtubi-quran-com, source/tafsir-baghawi-quran-com]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-fable-5-2); written from the cited sources, not read by a human; translations are machine translations by the same model" }

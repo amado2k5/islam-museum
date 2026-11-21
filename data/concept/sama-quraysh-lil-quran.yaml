@@ -1,0 +1,24 @@
+id: concept/sama-quraysh-lil-quran
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-ijaz]
+label:
+  ar: "من سمعوا القرآن من قريش وما قالوا"
+  en: "The men of Quraysh who heard the Qur'an, and what they said"
+  ur: "قریش کے وہ لوگ جنہوں نے قرآن سنا اور انہوں نے کیا کہا"
+  fr: "Les hommes de Quraysh qui entendirent le Coran, et ce qu'ils dirent"
+  es: "Los hombres de Quraysh que oyeron el Corán y lo que dijeron"
+summary:
+  ar: "أخبار ينقلها المفسرون عن أثر سماع القرآن في أهل الفصاحة من قريش: الوليد بن المغيرة الذي قال إن لقوله لحلاوة وإنه ليعلو ولا يعلى ثم قال إنه سحر يؤثر، وتواصي قريش باللغو والصفير عند تلاوته، وإسلام عمر بن الخطاب بعد قراءته صحيفة فيها أول سورة طه. والروايات مختلفة الطرق، وكل منها منسوب إلى راويه."
+  en: "Reports the commentators transmit on what hearing the Qur'an did to the masters of speech among Quraysh: al-Walid ibn al-Mughira, who said its words had a sweetness and that it rises and is not surpassed, then called it magic handed down; Quraysh agreeing to drown the recitation with noise and whistling; and Umar ibn al-Khattab becoming a Muslim after reading a sheet with the opening of sura Ta-Ha. The reports come by different chains, and each is given under its narrator."
+wings: [words, ideas]
+themes: [scripture-and-its-sciences, linguistics]
+relations:
+  - { type: related_to, target: person/al-walid-ibn-al-mughira, sources: [source/tafsir-tabari-quran-com] }
+  - { type: related_to, target: person/umar-ibn-al-khattab, sources: [source/tafsir-qurtubi-quran-com] }
+  - { type: related_to, target: person/abu-jahl, sources: [source/tafsir-tabari-quran-com] }
+  - { type: related_to, target: concept/ijaz-al-quran, sources: [source/tafsir-qurtubi-quran-com] }
+  - { type: related_to, target: concept/al-arabiyya-lughat-al-quran, sources: [source/tafsir-tabari-quran-com] }
+provenance: { layer: own-research, source: "Quran.com tafsir API, resources 15, 14, 90 and 94, read on 21 Nov 2026 for verses 74:11-25, 41:26, 20:1 and 2:24", generated_by: "Claude Code", model: "claude-fable-5-2", run: "arabiyya-browser-1" }
+sources: [source/tafsir-tabari-quran-com, source/tafsir-ibn-kathir-quran-com, source/tafsir-qurtubi-quran-com, source/tafsir-baghawi-quran-com]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-fable-5-2); written from the cited sources, not read by a human; translations are machine translations by the same model" }

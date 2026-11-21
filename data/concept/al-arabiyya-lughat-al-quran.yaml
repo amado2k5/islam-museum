@@ -1,0 +1,23 @@
+id: concept/al-arabiyya-lughat-al-quran
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-lisan]
+label:
+  ar: "العربية لغة القرآن"
+  en: "Arabic, the language of the Qur'an"
+  ur: "عربی، قرآن کی زبان"
+  fr: "L'arabe, langue du Coran"
+  es: "El árabe, lengua del Corán"
+summary:
+  ar: "خمس عشرة آية يتحدث فيها القرآن عن لسانه: إحدى عشرة تصفه أو تصف لسانه بأنه عربي، وأربع تذكر لسان قوم الرسول ولسان النبي والأعجمين. يعلل الطبري والبغوي ذلك بأن كل رسول يُبعث بلسان قومه ليفهموا عنه، ويزيد ابن كثير أن لغة العرب أفصح اللغات وأبينها وأوسعها، ويرى القرطبي أن نزوله بلسانهم يقيم الإعجاز لأنهم أعلم الناس بأنواع الكلام."
+  en: "Fifteen verses in which the Qur'an speaks of its own tongue: eleven call it, or its tongue, Arabic, and four speak of the tongue of the Messenger's people, the Prophet's tongue and the non-Arabs. Al-Tabari and al-Baghawi explain it by the rule that every messenger is sent in his people's tongue so that they understand him; Ibn Kathir adds that Arabic is the most eloquent, clearest and widest of languages; al-Qurtubi holds that its coming in their tongue establishes its inimitability, since they knew the kinds of speech best."
+wings: [words, ideas]
+themes: [scripture-and-its-sciences, linguistics]
+relations:
+  - { type: related_to, target: language/arabic, sources: [source/tafsir-tabari-quran-com] }
+  - { type: related_to, target: concept/ijaz-al-quran, sources: [source/tafsir-qurtubi-quran-com] }
+  - { type: related_to, target: concept/al-ahruf-al-sabaa, sources: [source/tafsir-baghawi-quran-com] }
+  - { type: related_to, target: concept/al-tahaddi-bil-quran, sources: [source/tafsir-tabari-quran-com] }
+provenance: { layer: own-research, source: "Quran.com tafsir API, resources 15 (al-Tabari), 14 (Ibn Kathir), 90 (al-Qurtubi) and 94 (al-Baghawi), read on 21 Nov 2026 for verses 12:2, 13:37, 14:4, 16:103, 19:97, 20:113, 26:195, 26:198-199, 39:28, 41:3, 41:44, 42:7, 43:3, 44:58, 46:12; passage/bukhari-4987 in the museum's graph", generated_by: "Claude Code", model: "claude-fable-5-2", run: "arabiyya-browser-1" }
+sources: [source/tafsir-tabari-quran-com, source/tafsir-ibn-kathir-quran-com, source/tafsir-qurtubi-quran-com, source/tafsir-baghawi-quran-com, source/sahih-al-bukhari]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-fable-5-2); written from the cited sources, not read by a human; translations are machine translations by the same model" }
