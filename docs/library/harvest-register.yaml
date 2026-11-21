@@ -23198,7 +23198,7 @@ audio_series:
     series_page_url: "https://www.assabile.com/mohamed-hassan/lessons/al-sira-al-nabawiya"
     episodes_total: 18
     episodes_audio: 18
-    episodes_transcribed: 13
+    episodes_transcribed: 15
     transcript: { pass: "pass5-qwen", model: "oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2", state: partial, run_dates: "2026-11-21..2026-11-21" }
     mining: { state: none, episodes_mined: 0, ranges: null, held: null, basis: null }
     ingestion: { state: none, prs: [], ledger: "docs/delegation/assabile-egypt-progress.md", work_id: null }
@@ -23220,8 +23220,8 @@ audio_series:
       - { n: 14, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/al-sira-al-nabawiya/episode-14", file: "raw/assabile/mohamed-hassan/al-sira-al-nabawiya/ep14.mp3", format: mp3, duration: null, bytes: 3510640, sha256: "df025510ac4758c935b9caa3a8b110dc3c8a84df87b429997a9596e67eac3e7a", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
       - { n: 15, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/al-sira-al-nabawiya/episode-15", file: "raw/assabile/mohamed-hassan/al-sira-al-nabawiya/ep15.mp3", format: mp3, duration: null, bytes: 3572848, sha256: "d6984ad7057288a340df50d18eab695537faa30974401c8db384ff2c3bdb5b40", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
       - { n: 16, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/al-sira-al-nabawiya/episode-16", file: "raw/assabile/mohamed-hassan/al-sira-al-nabawiya/ep16.mp3", format: mp3, duration: null, bytes: 3446704, sha256: "dd286ab1018708641da66a1b3c773ce948e1c10c7788de06d14c1910b2a81860", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
-      - { n: 17, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/al-sira-al-nabawiya/episode-17", file: "raw/assabile/mohamed-hassan/al-sira-al-nabawiya/ep17.mp3", format: mp3, duration: null, bytes: 3724912, sha256: "a7fe2fe78ab2474cc77bbe8e187af7b9034928990266cab8f70e519b266db664", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
-      - { n: 18, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/al-sira-al-nabawiya/episode-18", file: "raw/assabile/mohamed-hassan/al-sira-al-nabawiya/ep18.mp3", format: mp3, duration: null, bytes: 3512368, sha256: "0453e19b03e47c5f3782cc9c79949bb0acae1f7bedde1924147e875971c4ecc2", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
+      - { n: 17, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/al-sira-al-nabawiya/episode-17", file: "raw/assabile/mohamed-hassan/al-sira-al-nabawiya/ep17.mp3", format: mp3, duration: null, bytes: 3724912, sha256: "a7fe2fe78ab2474cc77bbe8e187af7b9034928990266cab8f70e519b266db664", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
+      - { n: 18, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/al-sira-al-nabawiya/episode-18", file: "raw/assabile/mohamed-hassan/al-sira-al-nabawiya/ep18.mp3", format: mp3, duration: null, bytes: 3512368, sha256: "0453e19b03e47c5f3782cc9c79949bb0acae1f7bedde1924147e875971c4ecc2", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
     completion: downloaded
     unverified: ["page_url and series_page_url follow the assabile URL pattern, not individually re-checked", "lecturer name taken from the pipeline lecturer list or the register", "downloaded and transcript dates are the queue times of the pipeline steps", "media URL recorded only for tombstoned episodes (deleted.tsv); null otherwise", "episodes_total counts the episode lines queued so far, not the series total stated by the site", "duration null: not measured for audio downloads"]
   - id: assabile-mohamed-hassan-al-tarbia-limatha
@@ -25932,7 +25932,7 @@ video_series:
     series_page_url: "https://www.assabile.com/amr-khaled/lessons/mojadedoun-1"
     episodes_total: 2
     episodes_audio: 2
-    episodes_transcribed: 1
+    episodes_transcribed: 2
     transcript: { pass: "pass5-qwen", model: "oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2", state: partial, run_dates: "2026-11-21..2026-11-21" }
     mining: { state: none, episodes_mined: 0, ranges: null, held: null, basis: null }
     ingestion: { state: none, prs: [], ledger: "docs/delegation/assabile-egypt-progress.md", work_id: null }
@@ -25950,7 +25950,7 @@ video_series:
       - { n: 10, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/mojadedoun-1/episode-10", file: "raw/assabile/amr-khaled/mojadedoun-1/ep10.mp4", format: mp4, duration: "46:37", bytes: 159701185, sha256: "b99a9f8e19fd6e901f922e9af05ed91636a55175cc3d423e0601adb9bc0a56c4", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
       - { n: 11, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/mojadedoun-1/episode-11", file: "raw/assabile/amr-khaled/mojadedoun-1/ep11.mp4", format: mp4, duration: "42:27", bytes: 142436698, sha256: "28e3a93ba0846f34572fefd8c74fa96bc31392b879ff529f73e8ea952b3f269a", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
       - { n: 12, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/mojadedoun-1/episode-12", file: "raw/assabile/amr-khaled/mojadedoun-1/ep12.mp4", format: mp4, duration: "47:41", bytes: 169031160, sha256: "b9b7be2332f5eecae55b35f93a23f4ea2e4f9b464f26a5025996371f28766824", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
-      - { n: 13, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/mojadedoun-1/episode-13", file: "raw/assabile/amr-khaled/mojadedoun-1/ep13.mp4", format: mp4, duration: "45:54", bytes: 138965850, sha256: "196e0552bf4a6d444bf17d5d5646a3bcc229ff4f5003cf490bdb2e11a5d8bd1b", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
+      - { n: 13, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/mojadedoun-1/episode-13", file: "raw/assabile/amr-khaled/mojadedoun-1/ep13.mp4", format: mp4, duration: "45:54", bytes: 138965850, sha256: "196e0552bf4a6d444bf17d5d5646a3bcc229ff4f5003cf490bdb2e11a5d8bd1b", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
       - { n: 14, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/mojadedoun-1/episode-14", file: "raw/assabile/amr-khaled/mojadedoun-1/ep14.mp4", format: mp4, duration: "47:34", bytes: 139046650, sha256: "c65deb3c74584352c69a7284917f3776aa9935f2ebbd011eb601ab554cd7d1db", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
     completion: downloaded
     unverified: ["page_url and series_page_url follow the assabile URL pattern, not individually re-checked", "lecturer name taken from the pipeline lecturer list or the register", "downloaded and transcript dates are the queue times of the pipeline steps", "media URL recorded only for tombstoned episodes (deleted.tsv); null otherwise", "episodes_total counts the episode lines queued so far, not the series total stated by the site"]
