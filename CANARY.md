@@ -5567,6 +5567,7 @@ sweep: 34 live rule-decided records re-checked
 ### Added
 - **Two works of al-Dhahabi now have their own pages: «سير أعلام النبلاء» (`work/siyar-alam-nubala`) and «تاريخ الإسلام» (`work/tarikh-islam-dhahabi`),** each with a five-language summary and prose, and linked to their author. Their source records existed but had no work record, so their passages could not be cited.
 ### Data
+- Harvest register: 1,009 Assabile episodes (Omar Abdelkafy's series and others) are marked off the drive (`on_drive: false`, deleted 21 November 2026). Each was fully harvested first (transcribed, mined and ingested), carries its SHA-256 and restore URL, and its transcript is kept; the audio or video file is deleted to free about 75 GB on the microSD.
 - **80 new passages for the Elegy and Death-Announcement Browser:** 40 cited excerpts (at most 40 words, machine-read, not corrected) from each of the two books, on elegies, death announcements and condolence, each labelled in five languages.
 
 ## v2.26.0 — 2026-11-20
