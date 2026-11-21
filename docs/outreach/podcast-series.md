@@ -32,21 +32,22 @@ https://www.youtube.com/playlist?list=PLWNwHwKNZ720
 | # | Title | Museum source | YouTube |
 |---|-------|---------------|---------|
 | 1 | The Man Who Tried to Fly | https://islam.museum/en/person/abbas-ibn-firnas/ | https://youtu.be/JjWjcIJTnow |
-| 2 | The Elephant Clock | https://islam.museum/en/person/al-jazari-engineer/ | https://youtu.be/mlT6v7ZMX04 |
-| 3 | The Longest Journey | https://islam.museum/en/person/ibn-battuta-muhammad/ | https://youtu.be/QWogmlYHkFM |
-| 4 | The Woman Who Built a University | https://islam.museum/en/person/fatima-al-fihri/ | https://youtu.be/Fu-r7V0heBU |
-| 5 | The House of Wisdom | https://islam.museum/en/place/baghdad/ | https://youtu.be/FlERo81YaN8 |
-| 6 | The Doctor Who Listened to the Heart | https://islam.museum/en/person/ibn-al-nafis/ | https://youtu.be/t-z-Hv_2aZY |
-| 7 | The Star Counters | https://islam.museum/en/person/al-khwarizmi/ | https://youtu.be/eLWzyMakQ5k |
-| 8 | The Monkey and the Tortoise | https://islam.museum/en/work/kalila-wa-dimna/ | https://youtu.be/9nulTbwtYwo |
-| 9 | The Man Who Played with Light | https://islam.museum/en/person/ibn-al-haytham/ | https://youtu.be/iD5He6_F58A |
-| 10 | The Silver Map | https://islam.museum/en/person/al-idrisi-muhammad-ibn-abd-allah/ | https://youtu.be/TWUqR79w1G0 |
+| 2 | The Elephant Clock | https://islam.museum/en/person/al-jazari-engineer/ | https://youtu.be/XdQO3zt3nEg |
+| 3 | The Longest Journey | https://islam.museum/en/person/ibn-battuta-muhammad/ | https://youtu.be/jkfwgIICI9s |
+| 4 | The Woman Who Built a University | https://islam.museum/en/person/fatima-al-fihri/ | https://youtu.be/Ed9vSMQznLk |
+| 5 | The House of Wisdom | https://islam.museum/en/place/baghdad/ | https://youtu.be/EkoLzkjC7Gk |
+| 6 | The Doctor Who Listened to the Heart | https://islam.museum/en/person/ibn-al-nafis/ | https://youtu.be/uW1YRhTrUW0 |
+| 7 | The Star Counters | https://islam.museum/en/person/al-khwarizmi/ | https://youtu.be/RpqAYH6_Iak |
+| 8 | The Monkey and the Tortoise | https://islam.museum/en/work/kalila-wa-dimna/ | https://youtu.be/WwNHaRboN7U |
+| 9 | The Man Who Played with Light | https://islam.museum/en/person/ibn-al-haytham/ | https://youtu.be/OxhQeo_tUPA |
+| 10 | The Silver Map | https://islam.museum/en/person/al-idrisi-muhammad-ibn-abd-allah/ | https://youtu.be/1pBr_LwP5k0 |
 
-Two notes on this list. Episode 1's playlist entry is the picture-book
-version; an earlier cover-art version of the same episode
-(https://youtu.be/qqW_cuoi6Pk) remains on the channel, outside the playlist.
-Episode 4's video is the repaired version: the first recording had a
-synthesis fault, and its video stays private.
+Two notes on this list. All ten episodes are flip picture-books: Episode 1
+was made as one from the start, and Episodes 2–10 were remade as flip
+picture-books on 20 November 2026. The earlier cover-art versions remain
+Public on the channel, outside the playlist — Episode 1's is at
+https://youtu.be/qqW_cuoi6Pk. Episode 4's video is the repaired version:
+the first recording had a synthesis fault, and its video stays private.
 
 ## 3. Arabic catalogue — «وقت حكايات هدهد»
 
