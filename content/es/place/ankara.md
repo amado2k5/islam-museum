@@ -22,5 +22,8 @@ Añade que [[person/al-mutasim|al-Mu'tasim]] la tomó de camino a [[place/amoriu
 ## La otra Ankara cerca de al-Hira
 Yaqut dice que Ankara es también el nombre de otro lugar en el distrito de al-Hira, el nombrado en un poema de al-Aswad ibn Ya'fur al-Nahshali, y transmite una anécdota de al-Asma'i sobre el juez Sawwar ibn Abd Allah y esos versos. Luego dice que algunos eruditos sostuvieron que la Ankara del verso de al-Aswad es la Ankara de la tierra de los bizantinos, donde se asentó la tribu de Iyad cuando Cosroes la expulsó de su país; encuentra muy buena esta opinión y dice que la considera correcta {cite:mujam-al-buldan-sader-1995 1 p.272}. Así, Yaqut primero distingue dos lugares del mismo nombre y luego, según la opinión de esos eruditos, los une; esta página atribuye esa opinión a ellos.
 
+## En la TDV İslâm Ansiklopedisi
+El artículo «Ankara» de la TDV İslâm Ansiklopedisi continúa la historia de la ciudad más allá del período medieval, donde se detiene la entrada de Yaqut. Dice que Ankara fue incorporada a las tierras otomanas en 1354 por Süleyman Paşa, hijo de Orhan Gazi, y que en 1402 la ciudad fue escenario de la batalla entre Bayezid I y Timur {cite:dia-ankara ankara}. Para el período moderno, el artículo dice que Mustafa Kemal llegó a Ankara el 27 de diciembre de 1919, que la Gran Asamblea Nacional se reunió allí el 23 de abril de 1920, y que Ankara fue aceptada como capital del nuevo Estado turco el 13 de octubre de 1923, proclamándose la república en la ciudad el 29 de octubre de 1923 {cite:dia-ankara ankara}.
+
 ## Una nota sobre el alcance
-Las fuentes leídas para esta página no dicen nada sobre Ankara en los periodos otomano o moderno, por lo que no se afirma nada al respecto.
+La entrada de Yaqut no dice nada sobre Ankara en los periodos otomano o moderno; el artículo de la enciclopedia anterior cubre esos periodos en líneas generales. Esta página no afirma nada más allá de las fuentes que cita.

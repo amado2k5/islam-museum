@@ -5566,6 +5566,8 @@ sweep: 34 live rule-decided records re-checked
 - **Two works of al-Dhahabi now have their own pages: «سير أعلام النبلاء» (`work/siyar-alam-nubala`) and «تاريخ الإسلام» (`work/tarikh-islam-dhahabi`),** each with a five-language summary and prose, and linked to their author. Their source records existed but had no work record, so their passages could not be cited.
 ### Data
 - **80 new passages for the Elegy and Death-Announcement Browser:** 40 cited excerpts (at most 40 words, machine-read, not corrected) from each of the two books, on elegies, death announcements and condolence, each labelled in five languages.
+### Added
+- **The Ankara page now rests on two sources, and its first source can be followed to the text.** The TDV İslâm Ansiklopedisi's article on Ankara is a new source record, and the place page gains a section from it in Arabic, English, Urdu, French and Spanish: the city's incorporation into the Ottoman lands in 1354, the battle between Bayezid I and Timur fought there in 1402, and Ankara's becoming the capital of the Turkish Republic in 1923 — the Ottoman and modern periods the page previously had to leave blank. The record of Yaqut's Mu'jam al-Buldan (Dar Sader, 1995) now also carries the address of the Shamela reading (book 23735) from which its text was read, so a citation of it can be followed to the text itself. The change answers a note from VEKAM in Ankara, who could not reach the source the page rested on and cautioned against a history grounded in a single reference.
 
 ## v2.26.0 — 2026-11-20
 ### Added
