@@ -6,3 +6,4 @@ export const LAUNCHGOOD = "https://www.launchgood.com/v4/campaign/build_the_worl
 export const GITHUB_SPONSORS = "https://github.com/sponsors/amado2k5";
 export const RAISELY = "https://build-islam-museum.raiselysite.com";
 export const GOFUNDME = "https://www.gofundme.com/f/help-keep-islammuseum-free-for-everyone";
+export const BUYMEACOFFEE = "https://buymeacoffee.com/islammuseum";

@@ -5632,6 +5632,7 @@ sweep: 34 live rule-decided records re-checked
 
 ### Added
 - **The Hudhud's Story Time podcast feeds now carry seasons, and the English feed carries all twenty episodes.** The English feed (`/podcast/feed.xml`) gains the ten Season 2 episodes, each item tagged with its iTunes season and episode number alongside the ten Season 1 episodes, so Apple Podcasts and Spotify group the series into Season 1 and Season 2 instead of an unknown season. A new Arabic feed (`/podcast/feed-ar.xml`) carries the ten Arabic episodes as Season 1 with the same tags, ready for its own Apple Podcasts and Spotify shows once it is live. The series catalogue records that the English show was published on Apple Podcasts and submitted to Spotify on 21 November 2026.
+- **Buy Me a Coffee joins the museum's support options.** The museum opened its page at buymeacoffee.com/islammuseum on 21 November 2026 (payouts connected through the founder's Stripe account, page currency Canadian dollars). The Support page gains a Buy Me a Coffee card with the service's own icon and a line in each of the five languages, and the landing page's "Donate and support us" list gains the same link, alongside Patreon, PayPal, LaunchGood, GitHub Sponsors, Raisely and GoFundMe. Support stays optional and buys no control, as with every other channel.
 
 ## v2.26.0 — 2026-11-20
 ### Added
