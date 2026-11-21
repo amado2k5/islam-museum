@@ -1,0 +1,31 @@
+id: source/tafsir-ibn-kathir-quran-com
+class: source
+kind: primary
+type: website
+label:
+  ar: "تفسير ابن كثير كما تعرضه منصة Quran.com"
+  en: "Tafsir Ibn Kathir (Tafsir al-Qur'an al-'Azim) as served by Quran.com"
+  ur: "تفسیر ابن کثیر، جیسا کہ Quran.com پیش کرتا ہے"
+  fr: "Tafsir d'Ibn Kathir tel que servi par Quran.com"
+  es: "Tafsir de Ibn Kathir tal como lo sirve Quran.com"
+summary:
+  ar: "نص تفسير ابن كثير مجزأً على الآيات كما تعرضه واجهة منصة Quran.com؛ قُرئ منه في 21 نوفمبر 2026 تفسير آيات لسان القرآن وآيات التحدي وآيات سورة المدثر في الوليد بن المغيرة."
+  en: "The text of Tafsir Ibn Kathir (Tafsir al-Qur'an al-'Azim) split by verse as served by the Quran.com tafsir API; read on 21 November 2026 for the verses on the tongue of the Qur'an, the challenge verses and the verses of sura al-Muddaththir on al-Walid ibn al-Mughira."
+  ur: "تفسیر ابن کثیر کا متن آیت وار تقسیم کے ساتھ، جیسا کہ Quran.com کا تفسیری API دیتا ہے؛ 21 نومبر 2026 کو قرآن کی زبان کی آیات، چیلنج کی آیات اور ولید بن مغیرہ کے بارے میں سورۂ مدثر کی آیات کے لیے پڑھا گیا۔"
+  fr: "Le texte du Tafsir d'Ibn Kathir découpé par verset tel que le sert l'API tafsir de Quran.com ; lu le 21 novembre 2026 pour les versets sur la langue du Coran, les versets du défi et les versets de la sourate al-Muddaththir sur al-Walid ibn al-Mughira."
+  es: "El texto del Tafsir de Ibn Kathir dividido por aleyas tal como lo sirve la API de tafsir de Quran.com; leído el 21 de noviembre de 2026 para las aleyas sobre la lengua del Corán, las aleyas del desafío y las aleyas de la sura al-Muddaththir sobre al-Walid ibn al-Mughira."
+title: "تفسير القرآن العظيم"
+author: [{ family: "Ibn Kathir", given: "Isma'il ibn Umar" }]
+publisher: "Quran Foundation (Quran.com)"
+issued: { date-parts: [[2026]] }
+language: ar
+URL: "https://quran.com/"
+reliability_note: "Read on 21 Nov 2026 through the Quran.com tafsir API (resource id 14), api.quran.com/api/v4/tafsirs/14/by_ayah/{sura}:{aya}. The API does not state which printed edition it follows; the text for 74:15 was not served on the day of reading. Cite by verse, not by page."
+open_access: true
+provenance:
+  source: "api.quran.com v4 tafsir resource 14, verses 12:2, 13:37, 14:4, 16:103, 19:97, 20:1, 20:113, 26:192-199, 39:28, 41:3, 41:26, 41:44, 42:7, 43:3, 44:58, 46:12, 2:23-24, 10:38, 11:13, 17:88, 52:33-34, 74:11-25"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: arabiyya-browser-1
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-2)" }
+sources: [source/tafsir-ibn-kathir-quran-com]
