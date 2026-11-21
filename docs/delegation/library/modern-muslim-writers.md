@@ -210,3 +210,15 @@ Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's ow
   - No Qur'an text typed; the verses appear only as `passage` links.
 - **Checks:** `npm run validate` 0 errors (1953 warnings, mostly pre-existing title-collision warnings); `npm run graph` and `npm run coverage` run in the same commit.
 - **Next step:** read vol. 2 from p. 10 (2:144 on) and vol. 3 from p. 8 (2:254 on, and 3:1 onward); add a second source for the two publication dates and the author's death year before any record leaves draft; add a sentence from Rida on the qibla view to `event/change-of-qibla` (its prose is not yet changed); decide whether a `concept/naskh` record is warranted once the naskh discussion in vol. 2 is read.
+
+## Risalat al-Tawhid, Abduh (packet w8-risalat-tawhid-1, 21 November 2026)
+
+- **Drafted from the body, not only the introduction:** scan pp. 63 to 70 and 82 to 84 (OCR; printed folios 61 to 68 and 80 to 82). Introduction read at scan pp. 7 to 11. Verified by a separate agent against the OCR; the page images are not on the drive.
+- **New entities:**
+  - `concept/husn-wa-qubh` (good and ugly acts, scan pp. 63 to 70)
+  - `concept/ilm-allah-wa-al-ikhtiyar` (God's knowledge and human choice; the author's view labelled as his; perspectives block with the Ash'ari, Mu'tazila and Jabriyya positions as the book's footnotes state them)
+  - `concept/al-risala-al-amma` (general mission of the messengers and the miracle, scan pp. 82 to 84; no perspectives block yet)
+- **Reused, not created:** `source/abduh-risalat-tawhid-imara-1994` (its summary and prose now say which pages have been read), `work/risalat-al-tawhid` (completeness 1 to 2, source note updated), `person/muhammad-abduh`.
+- **Not created, and why:** the agreement of religions on tawhid (scan pp. 147 to 148) overlaps `concept/ikhtilaf-ahl-al-adyan`; freedom of thought and renewal (scan pp. 141 to 142) overlaps `concept/tajdid` and `concept/taqlid`, and `concept/freedom-of-thought-and-despotism` is a different thesis.
+- **Not yet read:** the chapters on God's attributes, the Qur'an and the afterlife (scan pp. 85 to 138 and 149 to 186). Next resume point: scan p. 85.
+- **Open items:** `concept/al-risala-al-amma` needs a Sunni position on the miracle from a source outside this book (logged as a GEMINI line in `docs/delegation/gemini-queue.md`). The claimed reading of scan pp. 139 to 148 in the work record is not verified.

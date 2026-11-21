@@ -18,4 +18,4 @@ El editor describe el libro como uno de los textos más importantes de Abduh, y 
 El editor informa, citando a Abduh, que el islam apoya la razón para vencer la imitación, y que esta última debilitó el espíritu de iniciativa y creatividad en la comunidad. Esta es una opinión de Abduh, que expresa con vehemencia, y se presenta aquí como su punto de vista personal, no como la postura de todos los suníes. La cuestión de la razón y la imitación en la tradición suní tiene diversas perspectivas {cite:abduh-risalat-tawhid-imara-1994 p.11}.
 
 ## Nota sobre la fuente
-Hasta el momento solo se ha leído la introducción; el texto en sí aún no se ha leído. Las fechas de Abduh proporcionadas por el editor requieren una segunda fuente antes de poder confiar en ellas.
+Hasta el momento se han leído la introducción y las secciones del cuerpo del texto en las páginas escaneadas 63 a 70 y 82 a 84; el resto del libro aún no se ha leído. Las fechas de Abduh proporcionadas por el editor requieren una segunda fuente antes de poder confiar en ellas.
