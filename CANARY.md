@@ -5096,6 +5096,7 @@ warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemin
 warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/work/holy-quran-english-nahaboo.md: non-Sunni view stated before its label: "{cite:gloqur-nahaboo-mauritius}
 
 ### Data
+- **Assabile harvest register: 43 episode lines updated, none added, across 6 series (21 November 2026).** The register sync sets the transcript (pass5-qwen) on 10 episodes that had none, and records the drive flags for them; 33 episodes already transcribed and mined are marked deleted from the microSD, with the SHA-256 and restore URL kept, and their transcripts stay in place. Episode lines of mined episodes change only in the drive and deleted flags. The Wa Nalqa al-Ahibba lines are included because their packet (PR #7884) is merged.
 - **Assabile harvest register: 37 fully mined episodes are marked deleted from the microSD (21 November 2026).** Each was transcribed, mined and ingested before its audio or video file was removed to free space. The register keeps the SHA-256 and the restore URL for every episode, so the media can be fetched again, and the transcripts are kept.
 
 ## لماذا وُضعت
