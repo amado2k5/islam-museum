@@ -23254,7 +23254,7 @@ audio_series:
     series_page_url: "https://www.assabile.com/mohamed-hassan/lessons/el-sabaa-el-mubikat"
     episodes_total: 6
     episodes_audio: 6
-    episodes_transcribed: 4
+    episodes_transcribed: 5
     transcript: { pass: "pass5-qwen", model: "oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2", state: partial, run_dates: "2026-11-21..2026-11-21" }
     mining: { state: none, episodes_mined: 0, ranges: null, held: null, basis: null }
     ingestion: { state: none, prs: [], ledger: "docs/delegation/assabile-egypt-progress.md", work_id: null }
@@ -23265,7 +23265,7 @@ audio_series:
       - { n: 3, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/el-sabaa-el-mubikat/episode-03", file: "raw/assabile/mohamed-hassan/el-sabaa-el-mubikat/ep03.mp3", format: mp3, duration: null, bytes: 134264192, sha256: "01bd0a3a203e0cee51f692c06d55f31670cae12709bce8cf9a34c192c1b6cf34", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
       - { n: 4, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/el-sabaa-el-mubikat/episode-04", file: "raw/assabile/mohamed-hassan/el-sabaa-el-mubikat/ep04.mp3", format: mp3, duration: null, bytes: 140744192, sha256: "0010942f2c75ef67f00c0074bc378852a02990834fdc70f47d33e0fd4dcf80b1", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
       - { n: 5, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/el-sabaa-el-mubikat/episode-05", file: "raw/assabile/mohamed-hassan/el-sabaa-el-mubikat/ep05.mp3", format: mp3, duration: null, bytes: 981936, sha256: "24b9f4d4480b8e045500b5f646419e3f5fae9d69e8133db6c3858540f6e697ff", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
-      - { n: 6, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/el-sabaa-el-mubikat/episode-06", file: "raw/assabile/mohamed-hassan/el-sabaa-el-mubikat/ep06.mp3", format: mp3, duration: null, bytes: 756208, sha256: "4206e8c8cdcd0866ccbbc3d6cbfa2570049a08c5f2cd841a0b906537d1964a3b", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
+      - { n: 6, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/el-sabaa-el-mubikat/episode-06", file: "raw/assabile/mohamed-hassan/el-sabaa-el-mubikat/ep06.mp3", format: mp3, duration: null, bytes: 756208, sha256: "4206e8c8cdcd0866ccbbc3d6cbfa2570049a08c5f2cd841a0b906537d1964a3b", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
     completion: downloaded
     unverified: ["page_url and series_page_url follow the assabile URL pattern, not individually re-checked", "lecturer name taken from the pipeline lecturer list or the register", "downloaded and transcript dates are the queue times of the pipeline steps", "media URL recorded only for tombstoned episodes (deleted.tsv); null otherwise", "episodes_total counts the episode lines queued so far, not the series total stated by the site", "duration null: not measured for audio downloads"]
   - id: assabile-mohamed-hassan-haqiqat-al-tawheed
@@ -25889,7 +25889,7 @@ video_series:
     series_page_url: "https://www.assabile.com/amr-khaled/lessons/stories-from-the-quran-2"
     episodes_total: 26
     episodes_audio: 27
-    episodes_transcribed: 13
+    episodes_transcribed: 14
     transcript: { pass: "pass5-qwen", model: "oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2", state: partial, run_dates: "2026-11-21..2026-11-21" }
     mining: { state: none, episodes_mined: 0, ranges: null, held: null, basis: null }
     ingestion: { state: none, prs: [], ledger: "docs/delegation/assabile-egypt-progress.md", work_id: null }
@@ -25908,7 +25908,7 @@ video_series:
       - { n: 11, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/stories-from-the-quran-2/episode-11", file: "raw/assabile/amr-khaled/stories-from-the-quran-2/ep11.mp4", format: mp4, duration: "42:17", bytes: 143380967, sha256: "10627815badc043c598530dc897aaf498c3f4a9372d6bb376cf63262bd538ed0", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
       - { n: 12, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/stories-from-the-quran-2/episode-12", file: "raw/assabile/amr-khaled/stories-from-the-quran-2/ep12.mp4", format: mp4, duration: "42:45", bytes: 121560959, sha256: "441caca41feef91a43b659c89d5d816e3b6278073ab73778da91e63248fc83fa", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
       - { n: 13, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/stories-from-the-quran-2/episode-13", file: "raw/assabile/amr-khaled/stories-from-the-quran-2/ep13.mp4", format: mp4, duration: "41:25", bytes: 119649472, sha256: "773bfda8f062755ccf556eea7ebed7dacc132b6ee2957bef11a5e4c9f9e5e232", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
-      - { n: 14, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/stories-from-the-quran-2/episode-14", file: "raw/assabile/amr-khaled/stories-from-the-quran-2/ep14.mp4", format: mp4, duration: "42:05", bytes: 121180019, sha256: "cd76d840c6a5664bed62e764cc31e226a09c0a5b5b44074b71f0ac6cef867aaf", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
+      - { n: 14, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/stories-from-the-quran-2/episode-14", file: "raw/assabile/amr-khaled/stories-from-the-quran-2/ep14.mp4", format: mp4, duration: "42:05", bytes: 121180019, sha256: "cd76d840c6a5664bed62e764cc31e226a09c0a5b5b44074b71f0ac6cef867aaf", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
       - { n: 15, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/stories-from-the-quran-2/episode-15", file: "raw/assabile/amr-khaled/stories-from-the-quran-2/ep15.mp4", format: mp4, duration: "30:19", bytes: 78625839, sha256: "cfb4f708e6c7ac16202d0a28a7d21109dd2c2a81f73ffcc8502e90bc9b2801e5", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
       - { n: 16, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/stories-from-the-quran-2/episode-16", file: "raw/assabile/amr-khaled/stories-from-the-quran-2/ep16.mp4", format: mp4, duration: "41:44", bytes: 126238598, sha256: "3647544bacc219bbbb21e46a6851022e519b56e9a09ce0482020a46b5a96d657", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
       - { n: 17, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/stories-from-the-quran-2/episode-17", file: "raw/assabile/amr-khaled/stories-from-the-quran-2/ep17.mp4", format: mp4, duration: "40:18", bytes: 104341142, sha256: "3927bfa186b02fbd4d1c78aea7735750bf9395387c326fc426db1c5072fa979c", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
