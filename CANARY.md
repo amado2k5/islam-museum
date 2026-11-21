@@ -5094,6 +5094,9 @@ warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemin
 ويذكر ابن تيمية أن هؤلاء المتكلمة أهون شأناً من الفلاسفة الذين يرون نصوص ال…" (name the community first, docs/scope.md)
 warn  /Users/ahmedabdelaal/Documents/GitHub/islam-museum/.claude/worktrees/gemini-islamic-dictionaries-prompt-181f73/content/ar/work/holy-quran-english-nahaboo.md: non-Sunni view stated before its label: "{cite:gloqur-nahaboo-mauritius}
 
+### Data
+- **Assabile harvest register: 37 fully mined episodes are marked deleted from the microSD (21 November 2026).** Each was transcribed, mined and ingested before its audio or video file was removed to free space. The register keeps the SHA-256 and the restore URL for every episode, so the media can be fetched again, and the transcripts are kept.
+
 ## لماذا وُضعت
 أراد ناهابو، بعد نجاح ترجمته الك…" (name the community first, docs/scope.md)
 warn  content/en/concept/akhlaq.md: no section headings
