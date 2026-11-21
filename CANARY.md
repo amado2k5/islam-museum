@@ -5571,6 +5571,7 @@ sweep: 34 live rule-decided records re-checked
 - **80 new passages for the Elegy and Death-Announcement Browser:** 40 cited excerpts (at most 40 words, machine-read, not corrected) from each of the two books, on elegies, death announcements and condolence, each labelled in five languages.
 ### Data
 - **The Assabile lecture register gains 12 new series and 220 episodes, and records 4 transcripts.** Nine audio series by Mishary Al-Kharraz and Mohamed Hassan and three video series by Amr Khaled now have their episode lines in the harvest register: the file on the drive, its size and checksum, and its download date. Video episodes take the length of their split audio. The four transcripts are marked transcribed; nothing is mined yet, and no existing episode line changed.
+- **The harvest register now records 141 more Assabile episodes, 3 more series and 2 more transcripts.** The register sync of 21 November 2026 adds the new episode lines and their series headers, fills in downloaded files, durations and transcripts, and sets the on-drive state from the queue. In all, 160 episode lines were added or updated. Of already-mined episodes, only the on-drive and deleted states could change.
 
 ## v2.26.0 — 2026-11-20
 ### Added
