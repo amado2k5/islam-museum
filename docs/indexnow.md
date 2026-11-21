@@ -36,6 +36,16 @@ lives in `docs/engineering/06-deployment.md` (§3 and §8).
   node scripts/indexnow.mjs --dry-run    # print what would be sent, send nothing
   ```
 
+- **Where it runs.** After the one production deploy (`deploy-env.yml`, job
+  `notify-indexnow`) and, since 21 November 2026, after "Deploy all parts to production"
+  (`deploy-all-parts.yml`, same job name, after every part and skipped when a part failed).
+  The standalone shared and per-language production deploys do not send it.
+- **The sitemap list.** Every mode names `sitemap.xml` and the sitemap files listed in the
+  live `sitemap-index.xml`, read past the edge cache (21 November 2026). A copy of
+  `/sitemap.xml` made during a deploy can stay in the edge cache for hours: on 20 November
+  it listed 7 of 11 sitemaps, so a list built from it left out the newest ones. If the index
+  cannot be read, the script names `sitemap.xml` only, as before, and the ping still goes.
+
 ## Production only — never uat
 
 Two independent guards keep staging out of search engines:
