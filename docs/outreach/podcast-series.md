@@ -74,18 +74,22 @@ passed YouTube's copyright and Community Guidelines checks with no issues.
 
 - **YouTube — complete.** Both series, all twenty episodes, published
   20 November 2026 (the English series began publishing on 19 November).
-- **Museum RSS feed — built, awaiting deployment.** The feed lives in this
-  repository (`site/public/podcast/feed.xml`) and goes live at the founder's
-  next deployment.
-- **Apple Podcasts — draft exists, publish follows the deployment.** A draft
-  show "Hudhud's Story Time" (Show ID 6837007282) is already created in Apple
-  Podcasts Connect. Once the feed is live it is repointed to
-  https://islam.museum/podcast/feed.xml, refreshed and published; Apple's
-  review typically takes one to three days.
-- **Spotify — submission follows.** The same museum feed is submitted to
-  Spotify for Creators once it is live.
-- **In the meantime,** the English series is also available on an interim
-  hosted feed, and Episode 1's picture-book is on the museum's TikTok.
+- **Museum RSS feed — live.** The English feed
+  (`site/public/podcast/feed.xml`) went live with the founder's deployment
+  of 20 November 2026 and now carries all twenty English episodes — Season 1
+  (10) and Season 2 (10) — every item tagged with its iTunes season and
+  episode numbers.
+- **Arabic RSS feed — built, goes live at the next deployment.**
+  `site/public/podcast/feed-ar.xml` carries the ten Arabic episodes as
+  Season 1, with season and episode tags; its own Apple Podcasts and
+  Spotify shows follow once it is live.
+- **Apple Podcasts — published 21 November 2026.** "Hudhud's Story Time"
+  (Show ID 6837007282) is Available with all episodes:
+  https://podcasts.apple.com/us/podcast/hudhuds-story-time/id6837007282
+- **Spotify — submitted and accepted 21 November 2026.** The show is
+  processing at https://open.spotify.com/show/33hhSGkhTtqtaJvUUOdtne
+  (Spotify advised availability within 24 hours).
+- Episode 1's picture-book is also on the museum's TikTok.
 
 ## 5. Announcements
 
@@ -103,15 +107,14 @@ One sentence is safe, and nothing stronger:
 > English and Arabic, every one drawn from the museum's own records and
 > linked back to them; voices generated with AI and disclosed as such.
 
-No download or listener numbers exist yet, so none may be quoted, and
-availability on Apple Podcasts or Spotify must not be claimed until those
-listings are actually live.
+No download or listener numbers exist yet, so none may be quoted.
+Availability on Apple Podcasts may be claimed (the show is live);
+availability on Spotify may be claimed once its show page resolves.
 
 ## 7. Open steps
 
-1. The founder's deployment makes the museum feed live.
-2. Apple Podcasts: repoint the draft, refresh, publish.
-3. Spotify for Creators: submit the same feed.
-4. An Arabic audio feed and show of its own — the Arabic series is
-   video-first for now.
-5. A "Listen" corner in the Kids' Wing on the site.
+1. The founder's deployment makes the Arabic feed live; then create its
+   Apple Podcasts and Spotify shows.
+2. Anghami: submit both feeds.
+3. Add the English Season 2 episodes to the catalogue tables in §2.
+4. A "Listen" corner in the Kids' Wing on the site.
