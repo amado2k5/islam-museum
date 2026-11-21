@@ -5608,6 +5608,9 @@ sweep: 34 live rule-decided records re-checked
 ### Data
 - Data: Assabile harvest register: Wa Nalqa series reconciled, 37 episodes marked mined (episodes 9 to 31 and 33 to 46, from the landed packets), header recounted from the episode lines (48 transcribed, down from a drifted 55). Episodes 32, 47 and 48 stay flagged, not mined.
 
+### Data
+- Assabile harvest register (lecture archive): 12 transcript lines added across two series, the Mishary al-Kharraz series "Kayfa tataladado bi salatika" (episodes 12 to 20) and the Amr Khaled series "Wa Nalqa al-Ahibba" (episodes 65 to 67); the register records episode 65 to 67 as transcribed. Wa Nalqa al-Ahibba episodes 49, 51, 52, 53 and 54 are marked mined now, their packets having landed, and the series counts are recounted from its episode lines (58 transcribed, 42 mined). Episodes 47, 48, 50 and 55 keep their state.
+
 ## v2.26.0 — 2026-11-20
 ### Added
 - **The text of *al-Ṣiḥāḥ* is now in the museum, page by page.** The 1865 Būlāq printing, read with Apple Vision, is published as 1,228 records, one for each scan page of the two volumes (646 and 582; covers and library plates are left out). Each record cites its scan, shows the page text and says plainly that it is a machine reading: in a sample of six lines checked by eye against the page image, about one word in five had a wrong or split letter. `/{lang}/maajim/sihah/` lists the pages by volume. The text is not yet divided into entries and nothing beyond that sample has been checked. This follows the founder's ruling of 20 November 2026 (route A, then widened to all the pages), now written into `docs/sources-policy.md` and the decision inbox.
