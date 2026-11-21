@@ -74,9 +74,12 @@ passed YouTube's copyright and Community Guidelines checks with no issues.
 
 - **YouTube — complete.** Both series, all twenty episodes, published
   20 November 2026 (the English series began publishing on 19 November).
-- **Museum RSS feed — built, awaiting deployment.** The feed lives in this
-  repository (`site/public/podcast/feed.xml`) and goes live at the founder's
-  next deployment.
+- **Museum RSS feeds.** The English feed lives in this repository
+  (`site/public/podcast/feed.xml`) and has been live at
+  https://islam.museum/podcast/feed.xml since the founder's deployment of
+  20 November 2026. The Arabic series has its own feed
+  (`site/public/podcast/feed-ar.xml`, added 21 November 2026), which goes
+  live at the founder's next deployment.
 - **Apple Podcasts — draft exists, publish follows the deployment.** A draft
   show "Hudhud's Story Time" (Show ID 6837007282) is already created in Apple
   Podcasts Connect. Once the feed is live it is repointed to

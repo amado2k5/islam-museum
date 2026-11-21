@@ -5606,6 +5606,7 @@ sweep: 34 live rule-decided records re-checked
 
 ### Data
 - Data: Assabile harvest register: Wa Nalqa series reconciled, 37 episodes marked mined (episodes 9 to 31 and 33 to 46, from the landed packets), header recounted from the episode lines (48 transcribed, down from a drifted 55). Episodes 32, 47 and 48 stay flagged, not mined.
+- **The Arabic children's podcast gains its own museum RSS feed.** «وقت حكايات هدهد» — the ten Arabic episodes of Hudhud's Story Time — now has a dedicated feed at `site/public/podcast/feed-ar.xml`, mirroring the English feed: Arabic title and descriptions, language ar, the Kids' Wing (جناح الصغار) as its home link, the same series cover, Kids & Family → Stories for Kids category, not explicit. Episode audio is served from the series' hosted media URLs, the same pattern as the English feed. The feed goes live at the founder's next deployment, after which the Arabic series can be submitted to Apple Podcasts, Spotify and Anghami alongside the English one.
 
 ## v2.26.0 — 2026-11-20
 ### Added
