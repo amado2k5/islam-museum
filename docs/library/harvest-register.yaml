@@ -22115,7 +22115,6 @@ audio_series:
       - { n: 30, title: null, page_url: "https://www.assabile.com/zaghloul-el-naggar/lessons/el-hadara-el-nabaouia/episode-30", file: "raw/assabile/zaghloul-el-naggar/el-hadara-el-nabaouia/ep30.mp3", format: mp3, duration: "6:30", bytes: 1562868, sha256: "9a70b1d0d29c9bd6fbb8ace500fd6b202c6d53ec56c7d18ebb8342b5bd249886", on_drive: false, deleted: "2026-11-21", from: "https://media.assabile.com/assabile/lessons_8234632432/mp3/zaghloul-el-naggar/368-8434-f68b4023e1cb.mp3", downloaded: "2026-11-01", transcript: "pass5-qwen", mining: "mined" }
     completion: complete
     unverified: ["page_url and series_page_url follow the pattern used by discover_series.py (episode pages were fetched to build the manifest), not individually re-checked", "downloaded date is the file modification time (or, where the media file was removed after transcription, the SHA256SUMS time); media files no longer on the drive are marked on_drive false and keep their recorded sha256", "per-episode ingesting PRs not recorded; PRs are series level (all merged PRs touching the work record)"]
-  # END audio_series
   - id: assabile-muhammad-salih-al-munajjid-massael-qitab-al-salat
     title: "massael-qitab-al-salat"
     media_type: audio
@@ -22389,7 +22388,6 @@ audio_series:
       - { n: 35, title: null, page_url: "https://www.assabile.com/muhammad-salih-al-munajjid/lessons/masael-men-ahqam-salat-al-janaez/episode-35", file: "raw/assabile/muhammad-salih-al-munajjid/masael-men-ahqam-salat-al-janaez/ep35.mp3", format: mp3, duration: null, bytes: 857488, sha256: "3a039fe64d2396d130b1c3397529deea01a3c8a0bb99ae4cc5007bfe9fab5690", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
     completion: downloaded
     unverified: ["page_url and series_page_url follow the assabile URL pattern, not individually re-checked", "lecturer name taken from the pipeline lecturer list or the register", "downloaded and transcript dates are the queue times of the pipeline steps", "media URL recorded only for tombstoned episodes (deleted.tsv); null otherwise", "episodes_total counts the episode lines queued so far, not the series total stated by the site", "duration null: not measured for audio downloads"]
-  # END audio_series
   - id: assabile-muhammad-salih-al-munajjid-al-dawarate-al-hadetha-fi-mezan-al-shareya
     title: "al-dawarate-al-hadetha-fi-mezan-al-shareya"
     media_type: audio
@@ -22587,7 +22585,6 @@ audio_series:
       - { n: 22, title: null, page_url: "https://www.assabile.com/muhammad-salih-al-munajjid/lessons/hulul-sharea-lilmashaqel-al-ejtemaea/episode-22", file: "raw/assabile/muhammad-salih-al-munajjid/hulul-sharea-lilmashaqel-al-ejtemaea/ep22.mp3", format: mp3, duration: null, bytes: 4636899, sha256: "c09508a5de533a85a27ee0c544002e91ba84cc6d314aa20d0025a9b6e0e84227", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
     completion: downloaded
     unverified: ["page_url and series_page_url follow the assabile URL pattern, not individually re-checked", "lecturer name taken from the pipeline lecturer list or the register", "downloaded and transcript dates are the queue times of the pipeline steps", "media URL recorded only for tombstoned episodes (deleted.tsv); null otherwise", "episodes_total counts the episode lines queued so far, not the series total stated by the site", "duration null: not measured for audio downloads"]
-  # END audio_series
   - id: assabile-mohamed-hassan-tafsir-surat-maryam
     title: "tafsir-surat-maryam"
     media_type: audio
@@ -22768,7 +22765,6 @@ audio_series:
       - { n: 10, title: null, page_url: "https://www.assabile.com/muhammad-salih-al-munajjid/lessons/al-ayam-al-maalumat-al-achr-al-awal-men-dee-al-hejja/episode-10", file: "raw/assabile/muhammad-salih-al-munajjid/al-ayam-al-maalumat-al-achr-al-awal-men-dee-al-hejja/ep10.mp3", format: mp3, duration: null, bytes: 14771567, sha256: "fd74eccce24b57e681a9c90d6042d53a3fc1acb888d3921ecc1f43edd4308af2", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
     completion: downloaded
     unverified: ["page_url and series_page_url follow the assabile URL pattern, not individually re-checked", "lecturer name taken from the pipeline lecturer list or the register", "downloaded and transcript dates are the queue times of the pipeline steps", "media URL recorded only for tombstoned episodes (deleted.tsv); null otherwise", "episodes_total counts the episode lines queued so far, not the series total stated by the site", "duration null: not measured for audio downloads"]
-  # END audio_series
   - id: assabile-mohamed-hassan-tafsir-al-quran-al-adeem
     title: "tafsir-al-quran-al-adeem"
     media_type: audio
@@ -22863,7 +22859,6 @@ audio_series:
       - { n: 78, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/tafsir-al-quran-al-adeem/episode-78", file: "raw/assabile/mohamed-hassan/tafsir-al-quran-al-adeem/ep78.mp3", format: mp3, duration: null, bytes: 14043960, sha256: "fedcc0120f29d3092f4d654c739f4427b39c77ba16913706f2437a6a68a56248", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
     completion: downloaded
     unverified: ["page_url and series_page_url follow the assabile URL pattern, not individually re-checked", "lecturer name taken from the pipeline lecturer list or the register", "downloaded and transcript dates are the queue times of the pipeline steps", "media URL recorded only for tombstoned episodes (deleted.tsv); null otherwise", "episodes_total counts the episode lines queued so far, not the series total stated by the site", "duration null: not measured for audio downloads"]
-  # END audio_series
   - id: assabile-mohamed-hassan-taamolat-fi-surat-al-hujurat
     title: "taamolat-fi-surat-al-hujurat"
     media_type: audio
@@ -22892,7 +22887,6 @@ audio_series:
       - { n: 12, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/taamolat-fi-surat-al-hujurat/episode-12", file: "raw/assabile/mohamed-hassan/taamolat-fi-surat-al-hujurat/ep12.mp3", format: mp3, duration: null, bytes: 2234736, sha256: "7a7c954e91c77b3af75e83938c6a7acbe3c57f99e4926587e5a3e1669d404c2b", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
     completion: downloaded
     unverified: ["page_url and series_page_url follow the assabile URL pattern, not individually re-checked", "lecturer name taken from the pipeline lecturer list or the register", "downloaded and transcript dates are the queue times of the pipeline steps", "media URL recorded only for tombstoned episodes (deleted.tsv); null otherwise", "episodes_total counts the episode lines queued so far, not the series total stated by the site", "duration null: not measured for audio downloads"]
-  # END audio_series
   - id: assabile-mohamed-hassan-khatirat-el-fajr
     title: "khatirat-el-fajr"
     media_type: audio
@@ -23072,7 +23066,6 @@ audio_series:
       - { n: 26, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/sharh-kitab-el-durus-el-mohima-liaama-el-uma/episode-26", file: "raw/assabile/mohamed-hassan/sharh-kitab-el-durus-el-mohima-liaama-el-uma/ep26.mp3", format: mp3, duration: null, bytes: 9776554, sha256: "f99d50a93b7dbaa08725fc067922e307ab5b7936687416ff81e956c10ee8b572", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
     completion: downloaded
     unverified: ["page_url and series_page_url follow the assabile URL pattern, not individually re-checked", "lecturer name taken from the pipeline lecturer list or the register", "downloaded and transcript dates are the queue times of the pipeline steps", "media URL recorded only for tombstoned episodes (deleted.tsv); null otherwise", "episodes_total counts the episode lines queued so far, not the series total stated by the site", "duration null: not measured for audio downloads"]
-  # END audio_series
   - id: assabile-mishary-al-kharraz-kayfa-tataladado-bi-salatika
     title: "kayfa-tataladado-bi-salatika"
     media_type: audio
@@ -23368,7 +23361,6 @@ audio_series:
       - { n: 37, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/jibril-yasal-wa-annabiy-yojib/episode-37", file: "raw/assabile/mohamed-hassan/jibril-yasal-wa-annabiy-yojib/ep37.mp3", format: mp3, duration: null, bytes: 20642498, sha256: "b6292aa461ea7109f84d731b5237be9afca6ab3b5e5c6329a07abf49bdee0a06", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
     completion: downloaded
     unverified: ["page_url and series_page_url follow the assabile URL pattern, not individually re-checked", "lecturer name taken from the pipeline lecturer list or the register", "downloaded and transcript dates are the queue times of the pipeline steps", "media URL recorded only for tombstoned episodes (deleted.tsv); null otherwise", "episodes_total counts the episode lines queued so far, not the series total stated by the site", "duration null: not measured for audio downloads"]
-  # END audio_series
   - id: assabile-muhammad-salih-al-munajjid-selselat-al-wafa-beahwal-al-mustafa
     title: "selselat-al-wafa-beahwal-al-mustafa"
     media_type: audio
@@ -23427,7 +23419,6 @@ audio_series:
       - { n: 10, title: null, page_url: "https://www.assabile.com/muhammad-salih-al-munajjid/lessons/zad-al-hajej/episode-10", file: "raw/assabile/muhammad-salih-al-munajjid/zad-al-hajej/ep10.mp3", format: mp3, duration: null, bytes: 2349832, sha256: "fa029139b7e1294de767b7a692e76cd7de612e5f555619ab6fb23a68d9214e9b", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
     completion: downloaded
     unverified: ["page_url and series_page_url follow the assabile URL pattern, not individually re-checked", "lecturer name taken from the pipeline lecturer list or the register", "downloaded and transcript dates are the queue times of the pipeline steps", "media URL recorded only for tombstoned episodes (deleted.tsv); null otherwise", "episodes_total counts the episode lines queued so far, not the series total stated by the site", "duration null: not measured for audio downloads"]
-  # END audio_series
   # END audio_series
 
 video_series:
@@ -25812,7 +25803,7 @@ video_series:
     series_page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba"
     episodes_total: null
     episodes_audio: 29
-    episodes_transcribed: 46
+    episodes_transcribed: 49
     transcript: { pass: pass5-qwen, model: "oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2", state: partial, run_dates: "2026-11-15" }
     mining: { state: none, episodes_mined: 0, ranges: null, held: null, basis: null }
     ingestion: { state: in_progress, prs: [], ledger: "docs/delegation/assabile-wa-nal9a-al-aheba.md", work_id: "work/wa-nal9a-al-aheba" }
@@ -25857,10 +25848,10 @@ video_series:
       - { n: 46, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-46", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep46.mp4", format: mp4, duration: "49:31", bytes: 127552606, sha256: "4aca1f3855ec17c936bf7398596adc69ae7f44f8ebeeb1870189eae00c5e7149", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
       - { n: 47, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-47", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep47.mp4", format: mp4, duration: "50:56", bytes: 145604175, sha256: "b820407d427f70db7f07dbf870f7e3d9762405c3cedbca5ccaa060ac200ffeb0", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
       - { n: 48, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-48", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep48.mp4", format: mp4, duration: "52:30", bytes: 159696144, sha256: "c4c5223cc10fe59823d197385796e798b65564b3eabf64f717514ebcdd217778", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
-      - { n: 49, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-49", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep49.mp4", format: mp4, duration: "35:13", bytes: 91884613, sha256: "2486ae9aea86a1477e92ca0b99cc909ad2f38bd5292aee24de79bfc4811a4b61", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
-      - { n: 50, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-50", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep50.mp4", format: mp4, duration: "29:03", bytes: 72237263, sha256: "442f7983f5973a44a572ad716123e21fbea870b7e19788ef5a5be0635c31fbe6", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
+      - { n: 49, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-49", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep49.mp4", format: mp4, duration: "35:13", bytes: 91884613, sha256: "2486ae9aea86a1477e92ca0b99cc909ad2f38bd5292aee24de79bfc4811a4b61", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
+      - { n: 50, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-50", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep50.mp4", format: mp4, duration: "29:03", bytes: 72237263, sha256: "442f7983f5973a44a572ad716123e21fbea870b7e19788ef5a5be0635c31fbe6", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
       - { n: 51, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-51", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep51.mp4", format: mp4, duration: "52:38", bytes: 145585141, sha256: "821bfbbf71f95f3fac69bc55446cd52f7e50022ddb1012892339b027032c820e", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
-      - { n: 52, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-52", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep52.mp4", format: mp4, duration: "51:32", bytes: 157430100, sha256: "ebaca89e11aa75bc61e01a508114720e1520f1e145d30758bd8e1e65c66bb1db", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
+      - { n: 52, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-52", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep52.mp4", format: mp4, duration: "51:32", bytes: 157430100, sha256: "ebaca89e11aa75bc61e01a508114720e1520f1e145d30758bd8e1e65c66bb1db", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
       - { n: 53, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-53", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep53.mp4", format: mp4, duration: "53:17", bytes: 149396542, sha256: "53095ba7e56ad26df10aa75ad7f821656d089061ef7df3ac4ab2bf22dc56b47c", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
       - { n: 54, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-54", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep54.mp4", format: mp4, duration: "52:24", bytes: 148057852, sha256: "fd58a6d44882d3de3c95a727f3c1c5fce0e1d92050a54ec8aabe18ed11c6c138", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
       - { n: 55, title: null, page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-55", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep55.mp4", format: mp4, duration: "50:52", bytes: 142786941, sha256: "d638f7972c8060d1c440206a832b662d8fe82e0ccf4e3d6343dec679fdabeaa4", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
