@@ -1,0 +1,45 @@
+---
+id: concept/fadl-taallum-al-arabiyya
+lang: fr
+source_lang: ar
+translators: ["claude-fable-5-2 (machine translation)"]
+---
+## Résumé
+Cette page rassemble ce qui est rapporté sur l'apprentissage de l'arabe chez les Compagnons et les Successeurs, ainsi que les arguments de deux grands savants, [[person/al-shafii|al-Shafi'i]] dans la Risala et [[person/ibn-taymiyya|Ibn Taymiyya]] dans Iqtida' al-Sirat al-Mustaqim. Chaque récit est donné avec son rapporteur et le jugement des éditeurs modernes, car certains sont déclarés authentiques par un éditeur et interrompus par un autre, et certains sont cités sans aucune chaîne. La page décrit ce qui a été dit et ne rend aucun avis juridique.
+
+## Récits des Compagnons et ce qui est attribué à Umar
+Dans le Musannaf, au chapitre « Ce qui est venu sur l'i'rab du Coran », Ibn Abi Shayba rapporte d'Ubayy ibn Ka'b que l'on devait apprendre l'arabe comme on apprend la mémorisation du Coran. L'éditeur dit que les hommes de sa chaîne sont dignes de confiance {cite:musannaf-ibn-abi-shayba-shathri-2015 16 p.390}. Ce récit est attribué à Ubayy, non à Umar.
+
+Dans le même chapitre figure une parole de [[person/umar-ibn-al-khattab|Umar ibn al-Khattab]] par Abu Mu'awiya, d'après Asim, d'après Muriq : « Apprenez le lahn et les parts d'héritage, car cela fait partie de votre religion. » La note de l'éditeur sur ce récit porte le mot « sahih » {cite:musannaf-ibn-abi-shayba-shathri-2015 16 p.392}. La même parole, avec la Sunna ajoutée, a un récit plus loin dans le Musannaf {cite:musannaf-ibn-abi-shayba-shathri-2015 17 p.245}.
+
+Dans un autre récit, un rapporteur dit avoir interrogé al-Hasan al-Basri, qui répondit : ne t'est-il pas parvenu ce qu'Umar a écrit, qu'on apprenne l'arabe, la bonne expression et la compréhension de la religion ? L'éditeur juge ce récit interrompu, car al-Hasan n'a pas entendu Umar {cite:musannaf-ibn-abi-shayba-shathri-2015 16 p.391}.
+
+Al-Suyuti, dans le Jam' al-Jawami', cite Abu Muslim al-Basri disant qu'Umar affirma qu'apprendre l'arabe affermit l'intelligence et accroît la virilité morale, et l'attribue à al-Bayhaqi dans les Shu'ab et à al-Khatib dans al-Jami'. L'éditeur des Shu'ab dit que sa chaîne comprend des gens qu'il ne connaît pas. Sur la même page, Ata ibn Abi Rabah rapporte qu'Umar entendit un homme parler persan pendant le tawaf, le prit par les bras et lui dit de chercher un chemin vers l'arabe {cite:jam-al-jawami-azhar-2005 14 p.753}.
+
+## La lettre d'Umar à Abu Musa
+Ibn Abi Shayba rapporte qu'Umar écrivit à Abu Musa al-Ash'ari : « Cela dit, cherchez à comprendre la Sunna, cherchez à comprendre l'arabe et donnez au Coran son i'rab, car il est arabe. » La chaîne va de Isa ibn Yunus à Thawr puis à Umar ibn Zayd {cite:musannaf-ibn-abi-shayba-shathri-2015 14 p.226}. Ailleurs dans le Musannaf se trouve un ajout leur disant d'adopter les manières de Ma'add, car ils sont des Ma'addites {cite:musannaf-ibn-abi-shayba-shathri-2015 16 p.389}.
+
+Les éditeurs modernes divergent sur le jugement. L'éditeur du Musannaf le dit inconnu et interrompu, car Umar ibn Zayd est faible et ne rapporte pas d'Umar {cite:musannaf-ibn-abi-shayba-shathri-2015 14 p.226} {cite:musannaf-ibn-abi-shayba-shathri-2015 16 p.389}. Al-Bukhari, dans al-Tarikh al-Kabir, dit que la lettre d'Umar à Abu Musa est mursal {cite:tarikh-kabir-bukhari-hyderabad 6 p.157}. Ibn Taymiyya donne le récit avec la chaîne même d'Ibn Abi Shayba, et l'éditeur de l'Iqtida' dit n'avoir trouvé mention d'Umar ibn Zayd que chez al-Bukhari et Ibn Abi Hatim, et que Isa ibn Yunus est digne de confiance et sûr {cite:iqtida-aql-1999 1 p.527}. Nous avons également lu une note de l'éditeur de l'abrégé d'al-Ba'li de l'Iqtida' disant que le récit figure dans le Musannaf avec une chaîne authentique ; les jugements des éditeurs sont donc contraires.
+
+## Al-Hasan al-Basri
+Dans le Tafsir d'Ibn Wahb, au chapitre « Sur l'arabe dans le Coran », Hammad ibn Zayd rapporte d'Ubayda ibn Zayd al-Numayri : j'ai entendu al-Hasan dire : « L'étrangeté de langue les a perdus ; ils interprètent le Coran autrement que son interprétation » {cite:tafsir-ibn-wahb-muranyi-2003 3 p.44}. Par « étrangeté » ('ujma) on entend l'étrangeté de la langue ; les éditeurs n'en disent pas plus sur la page lue.
+
+Al-Shatibi, dans al-I'tisam, cite cette parole et une autre d'al-Hasan, donnée en réponse à une question sur l'apprentissage de l'arabe : un homme lit un verset, ne trouve pas son sens et se perd. L'éditeur dit que la chaîne de la seconde parole est authentique, et que la parole sur l'étrangeté est chez al-Bukhari par ce même al-Numayri, de statut inconnu, sans que l'on ait trouvé quelqu'un qui l'ait déclaré digne de confiance ; le récit est donc faible à cause de lui {cite:itisam-shatibi-ibn-al-jawzi 2 p.52}.
+
+## Al-Shafi'i dans la Risala
+Au chapitre du cinquième « bayan », al-Shafi'i traite l'affirmation que le Coran contient des mots non arabes, et il argumente à partir de versets dont [[passage/quran-14-4|Ibrahim 4]] et [[passage/quran-41-44|Fussilat 44]] que sa langue est purement arabe {cite:risala-shafii-shakir-1938 p.45} {cite:risala-shafii-shakir-1938 p.47}. Il dit ensuite : « Tout musulman doit apprendre de la langue des Arabes ce que son effort atteint », afin d'attester l'unicité de Dieu et la mission, de réciter le Livre de Dieu et de dire le takbir, le tasbih et le tashahhud {cite:risala-shafii-shakir-1938 p.48}. Tout ce qu'il apprend en plus lui est préférable, comme apprendre la prière, et en cela il est un suiveur, non un suivi {cite:risala-shafii-shakir-1938 p.49}.
+
+## Ibn Taymiyya dans Iqtida' al-Sirat al-Mustaqim
+Ibn Taymiyya tient que, pour une ville, une maison, un marché ou une chancellerie, faire d'une autre langue son habitude est blâmable, puisque l'arabe est l'emblème de l'islam et la langue du Coran et que l'habitude ressemble aux non-Arabes. Il rappelle que les premiers musulmans accoutumèrent les gens des pays où ils s'installèrent à l'arabe jusqu'à ce qu'il l'emporte, puis que les gens se relâchèrent, prirent l'habitude du persan, et que l'arabe fut délaissé chez beaucoup {cite:iqtida-aql-1999 1 p.526}.
+
+Il donne alors son argument : « Sache que l'habitude d'une langue exerce sur l'intelligence, le caractère et la religion un effet fort et manifeste. » Il ajoute que l'arabe lui-même fait partie de la religion et que le connaître est obligatoire, puisque comprendre le Livre et la Sunna est une obligation qui ne s'accomplit pas sans lui, et que ce sans quoi une obligation ne s'accomplit pas est lui-même obligatoire ; une part en est fard 'ayn et une part fard kifaya. Il s'appuie sur la lettre d'Umar à Abu Musa {cite:iqtida-aql-1999 1 p.527}.
+
+Il cite ensuite une parole qui ordonne d'apprendre l'arabe parce qu'il fait partie de la religion, et d'apprendre les fara'id parce qu'elles en font partie, en la présentant comme tirée d'un autre récit d'Umar, sans chaîne. Il explique que la compréhension de l'arabe est la voie pour comprendre les paroles de la religion, et celle de la Sunna pour comprendre ses actes. Les notes de l'éditeur sur la page se bornent aux variantes entre manuscrits et ne jugent pas le récit {cite:iqtida-aql-1999 1 p.528}.
+
+## Un récit célèbre qui ne tient pas
+Un récit circule largement qui ordonne d'aimer les Arabes pour trois raisons : le Prophète est arabe, le Coran est arabe et la langue des gens du Paradis est l'arabe. Al-Hakim le donne dans al-Mustadrak d'après Ibn Abbas, d'après le Prophète, et sa chaîne comprend al-Ala ibn Amr al-Hanafi et Yahya ibn Burayd al-Ash'ari. Les éditeurs de l'édition Dar al-Risala disent que sa chaîne est extrêmement faible, et citent Abu Hatim al-Razi : « c'est un hadith mensonger », et al-Uqayli, selon qui il est rejeté et sans fondement {cite:mustadrak-risala-2018 7 p.692}.
+
+Al-Hakim pensait autrement et le jugea authentique, comme le consigne Ibn al-Mulaqqin ; son abrégé répond que Ahmad et d'autres ont affaibli Yahya et que celui-ci n'est pas un pilier {cite:mukhtasar-istidrak-ibn-al-mulaqqin 5 p.2470}. Al-Fattani rapporte qu'al-Dhahabi répondit à al-Hakim qu'il est faible, ni authentique ni fabriqué {cite:tadhkirat-al-mawduat-fattani p.112}. Al-Albani le juge fabriqué {cite:daif-al-jami-albani p.26}. Pour ces critiques, le récit va de faible à rejeté ; cette page ne s'y appuie donc pas pour le mérite de l'arabe.
+
+## Ce que cette page n'atteint pas
+La formule « Apprenez l'arabe, car il fait partie de votre religion » n'a pas été trouvée avec une chaîne complète dans les pages lues ; Ibn Taymiyya la donne sans chaîne. Le jugement de l'éditeur de l'abrégé d'al-Ba'li selon lequel la lettre d'Umar a une chaîne authentique a été lu dans un livre qui ne figure pas parmi les sources de cette page, qui ne s'appuie donc pas sur lui. Les livres d'Ibn al-Jawzi sur les récits fabriqués n'ont pas été lus, ni le Talkhis d'al-Dhahabi lui-même ; ses jugements sont lus tels que d'autres les citent.

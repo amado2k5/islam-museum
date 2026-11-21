@@ -1,0 +1,26 @@
+id: concept/al-arabiyya-lughat-al-quran
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-lisan]
+label:
+  ar: "العربية لغة القرآن"
+  en: "Arabic, the language of the Qur'an"
+  ur: "عربی، قرآن کی زبان"
+  fr: "L'arabe, langue du Coran"
+  es: "El árabe, lengua del Corán"
+summary:
+  ar: "خمس عشرة آية يتحدث فيها القرآن عن لسانه: إحدى عشرة تصفه أو تصف لسانه بأنه عربي، وأربع تذكر لسان قوم الرسول ولسان النبي والأعجمين. يعلل الطبري والبغوي ذلك بأن كل رسول يُبعث بلسان قومه ليفهموا عنه، ويزيد ابن كثير أن لغة العرب أفصح اللغات وأبينها وأوسعها، ويرى القرطبي أن نزوله بلسانهم يقيم الإعجاز لأنهم أعلم الناس بأنواع الكلام."
+  en: "Fifteen verses in which the Qur'an speaks of its own tongue: eleven call it, or its tongue, Arabic, and four speak of the tongue of the Messenger's people, the Prophet's tongue and the non-Arabs. Al-Tabari and al-Baghawi explain it by the rule that every messenger is sent in his people's tongue so that they understand him; Ibn Kathir adds that Arabic is the most eloquent, clearest and widest of languages; al-Qurtubi holds that its coming in their tongue establishes its inimitability, since they knew the kinds of speech best."
+  ur: "قرآن پندرہ آیات میں اپنی زبان کا ذکر کرتا ہے۔ گیارہ آیات اسے یا اس کی زبان کو عربی کہتی ہیں، اور چار رسول کی قوم کی زبان، نبی کی زبان اور عجمیوں کا ذکر کرتی ہیں۔ طبری اور بغوی اس کی وجہ یہ بتاتے ہیں کہ ہر رسول اپنی قوم کی زبان میں بھیجا جاتا ہے تاکہ وہ اس کی بات سمجھیں۔ ابن کثیر کے نزدیک عربی سب زبانوں میں فصیح ترین، واضح ترین اور وسیع ترین ہے۔ قرطبی کہتے ہیں کہ ان کی زبان میں نزول اعجاز کو ثابت کرتا ہے، کیونکہ وہ کلام کی قسموں کو سب سے بہتر جانتے تھے۔"
+  fr: "Quinze versets dans lesquels le Coran parle de sa propre langue : onze le disent arabe, ou disent sa langue arabe, et quatre évoquent la langue du peuple du Messager, la langue du Prophète et les non-Arabes. Al-Tabari et al-Baghawi l'expliquent par la règle que chaque messager est envoyé dans la langue de son peuple afin qu'il le comprenne ; Ibn Kathir ajoute que l'arabe est la plus éloquente, la plus claire et la plus vaste des langues ; al-Qurtubi tient que sa descente dans leur langue établit son inimitabilité, puisqu'ils connaissaient mieux que tous les genres de discours."
+  es: "Quince versículos en los que el Corán habla de su propia lengua: once lo llaman árabe, o llaman árabe a su lengua, y cuatro mencionan la lengua del pueblo del Mensajero, la lengua del Profeta y a los no árabes. Al-Tabari y al-Baghawi lo explican con la regla de que todo mensajero es enviado en la lengua de su pueblo para que lo entienda; Ibn Kathir añade que el árabe es la más elocuente, clara y amplia de las lenguas; al-Qurtubi sostiene que su descenso en su lengua establece su inimitabilidad, pues ellos conocían mejor que nadie las clases de discurso."
+wings: [words, ideas]
+themes: [scripture-and-its-sciences, linguistics]
+relations:
+  - { type: related_to, target: language/arabic, sources: [source/tafsir-tabari-quran-com] }
+  - { type: related_to, target: concept/ijaz-al-quran, sources: [source/tafsir-qurtubi-quran-com] }
+  - { type: related_to, target: concept/al-ahruf-al-sabaa, sources: [source/tafsir-baghawi-quran-com] }
+  - { type: related_to, target: concept/al-tahaddi-bil-quran, sources: [source/tafsir-tabari-quran-com] }
+provenance: { layer: own-research, source: "Quran.com tafsir API, resources 15 (al-Tabari), 14 (Ibn Kathir), 90 (al-Qurtubi) and 94 (al-Baghawi), read on 21 Nov 2026 for verses 12:2, 13:37, 14:4, 16:103, 19:97, 20:113, 26:195, 26:198-199, 39:28, 41:3, 41:44, 42:7, 43:3, 44:58, 46:12; passage/bukhari-4987 in the museum's graph", generated_by: "Claude Code", model: "claude-fable-5-2", run: "arabiyya-browser-1" }
+sources: [source/tafsir-tabari-quran-com, source/tafsir-ibn-kathir-quran-com, source/tafsir-qurtubi-quran-com, source/tafsir-baghawi-quran-com, source/sahih-al-bukhari]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-fable-5-2); written from the cited sources, not read by a human; translations are machine translations by the same model" }

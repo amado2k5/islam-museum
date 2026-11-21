@@ -12,6 +12,7 @@ import { primaryYear, recordOfNode, SECTION_IDS, sectionsOf, taxonomy as modernT
 import { reachFormula, reachIndex, REACH_LISTS } from "./modern/reach.js";
 import { companionIndex, decadeKey } from "./companions.js";
 import { DREAM_TAG, dreamCorpusOf, dreamTagSection, isDreamPassage } from "./dreams.js";
+import { ARABIYYA_TAG, arabiyyaCorpusOf, arabiyyaTagSection, isArabiyyaPassage } from "./arabiyya.js";
 import { madhahibMembers } from "./madhahib.js";
 import { umamMembers, umamMentionCounts } from "./umam.js";
 import { ULAMA_TAG, isUlamaPerson, isUlamaPassage, ulamaCategoriesOf, ulamaPersonSection, ulamaCorpusOf, ulamaTagSection, ulamaTagTopics, ulamaNameMatches } from "./ulama.js";
@@ -296,6 +297,14 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
     fields: ["kind", "wings", "themes", "tags"] },
   { file: "angels.json", feature: "angels-browser", pick: (n) => n.tags.includes("angels-browser"),
     fields: ["kind", "wings", "themes", "tags"] },
+  { file: "arabiyya.json", feature: "arabiyya-browser",
+    pick: (n) => n.tags.includes(ARABIYYA_TAG) || isArabiyyaPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "genre", "authors", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? arabiyyaCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : arabiyyaTagSection(n),
+    }) },
   { file: "dreams.json", feature: "dream-browser",
     pick: (n) => n.tags.includes(DREAM_TAG) || isDreamPassage(n),
     fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],

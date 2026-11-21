@@ -36,6 +36,7 @@ export const GET: APIRoute = () => {
     `- [Poetry dataset](${SITE}/api/v1/poetry.json) — every poem and diwan with poets, language, genre and metre`,
     `- [Screening Room dataset](${SITE}/api/v1/screens.json) — every film, series and programme with format, release, countries and ids`,
     `- [Ghayb Browser dataset](${SITE}/api/v1/ghayb.json) — every unseen-topic record tagged ghayb-browser with kind, section tag, themes and edges`,
+    `- [Arabic Language Browser dataset](${SITE}/api/v1/arabiyya.json) — every record tagged arabiyya-browser (the sciences, scholars, books, dialects and world of Arabic) and every passage of the Qur'an, the hadith, the seerah, the tafsir and the harvested books that speaks about the Arabic language, each with its section`,
     `- [Dictionaries Browser dataset](${SITE}/api/v1/maajim.json) — every dictionary record tagged maajim-browser with kind, genre, authors, section tag and edges`,
     `- [Nature Explorer dataset](${SITE}/api/v1/nature.json) — every natural-world record tagged nature-browser with kind, section tag, themes and edges`,
     `- [Angels Browser dataset](${SITE}/api/v1/angels.json) — every angel-related record tagged angels-browser with kind, section tag, themes and edges`,

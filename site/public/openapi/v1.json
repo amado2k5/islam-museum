@@ -947,6 +947,21 @@
         }
       }
     },
+    "/arabiyya.json": {
+      "get": {
+        "operationId": "getArabiyya",
+        "summary": "Arabic Language Browser dataset",
+        "description": "The Arabic Language Browser dataset: every record tagged arabiyya-browser (Arabic as the language of the Qur'an, the inimitability of its language, the history, script, sciences, dialects, world, scholars and books of Arabic) and every passage record of the Qur'an, the hadith, the seerah, the tafsir and the other harvested books whose text speaks about the Arabic language, each with its section.",
+        "responses": {
+          "200": {
+            "description": "Every record and detected passage of the browser with section, kind, work, ref, tags and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/maajim.json": {
       "get": {
         "operationId": "getMaajim",
