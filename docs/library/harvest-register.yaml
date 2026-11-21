@@ -23232,7 +23232,7 @@ audio_series:
     series_page_url: "https://www.assabile.com/mohamed-hassan/lessons/al-tarbia-limatha"
     episodes_total: 6
     episodes_audio: 6
-    episodes_transcribed: 2
+    episodes_transcribed: 4
     transcript: { pass: "pass5-qwen", model: "oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2", state: partial, run_dates: "2026-11-21..2026-11-21" }
     mining: { state: none, episodes_mined: 0, ranges: null, held: null, basis: null }
     ingestion: { state: none, prs: [], ledger: "docs/delegation/assabile-egypt-progress.md", work_id: null }
@@ -23240,8 +23240,8 @@ audio_series:
     episodes:
       - { n: 1, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/al-tarbia-limatha/episode-01", file: "raw/assabile/mohamed-hassan/al-tarbia-limatha/ep01.mp3", format: mp3, duration: null, bytes: 13480796, sha256: "11215cecde43a2dbdb8256d8476ca06574638f0dfd78f426be649d64498a6a3d", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
       - { n: 2, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/al-tarbia-limatha/episode-02", file: "raw/assabile/mohamed-hassan/al-tarbia-limatha/ep02.mp3", format: mp3, duration: null, bytes: 12957799, sha256: "a3c71a24e6ea1329ebdc1946f1519f636d7c68491eb26a9714b535aa74f7a886", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
-      - { n: 3, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/al-tarbia-limatha/episode-03", file: "raw/assabile/mohamed-hassan/al-tarbia-limatha/ep03.mp3", format: mp3, duration: null, bytes: 14958077, sha256: "40ab4d93fa748e881d628b4d1ad2e6e38189261e66e457ba4ba49b6e028801b2", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
-      - { n: 4, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/al-tarbia-limatha/episode-04", file: "raw/assabile/mohamed-hassan/al-tarbia-limatha/ep04.mp3", format: mp3, duration: null, bytes: 13591528, sha256: "06e1829e5c59a43205c2b77735dfd9183ae098634e780f12f9790e5fe282a30e", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
+      - { n: 3, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/al-tarbia-limatha/episode-03", file: "raw/assabile/mohamed-hassan/al-tarbia-limatha/ep03.mp3", format: mp3, duration: null, bytes: 14958077, sha256: "40ab4d93fa748e881d628b4d1ad2e6e38189261e66e457ba4ba49b6e028801b2", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
+      - { n: 4, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/al-tarbia-limatha/episode-04", file: "raw/assabile/mohamed-hassan/al-tarbia-limatha/ep04.mp3", format: mp3, duration: null, bytes: 13591528, sha256: "06e1829e5c59a43205c2b77735dfd9183ae098634e780f12f9790e5fe282a30e", on_drive: true, from: null, downloaded: "2026-11-21", transcript: "pass5-qwen", mining: "transcribed" }
       - { n: 5, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/al-tarbia-limatha/episode-05", file: "raw/assabile/mohamed-hassan/al-tarbia-limatha/ep05.mp3", format: mp3, duration: null, bytes: 13886549, sha256: "25b93b67e3fd7ec30e89e45d6803b3ded4e27fdce7299bb9e01370c72fecf0ce", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
       - { n: 6, title: null, page_url: "https://www.assabile.com/mohamed-hassan/lessons/al-tarbia-limatha/episode-06", file: "raw/assabile/mohamed-hassan/al-tarbia-limatha/ep06.mp3", format: mp3, duration: null, bytes: 14797589, sha256: "471fd1445a3ffa6932ff712a91fd3a81954b98cbf2a40f29c3ca18712bd9d989", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
     completion: downloaded
