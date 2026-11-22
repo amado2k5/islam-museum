@@ -1,0 +1,29 @@
+---
+id: concept/smell-shamm
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/smell-shamm.md}
+---
+## Definisi
+Dalam bahasa, 'sham' adalah kata benda verbal dari 'sammattu' 'ashmah,' yaitu indra hidung dan merasakan bau. 'Mencium sesuatu' berarti mencium sesuatu di bawah hidung untuk menarik aromanya, dan 'istintikah' berarti mencium bau mulut. Makna teknisnya tidak melampaui linguistik. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10181}
+
+## Putusan yang Diwajibkan
+Mencium bisa menjadi kewajiban, seperti saksi mencium bau mulut orang mabuk untuk mendeteksi bau alkohol, atau mencium bau dalam perselisihan seperti merespons dengan kesalahan. Bisa dilarang atau tidak disukai, seperti mencium parfum untuk seseorang dalam ihram selama Haji atau Umrah menurut mereka yang mengatakannya, dan mencium parfum yang digunakan oleh wanita non-mahram. Bau parfum juga diperbolehkan, seperti mencium bunga dan parfum, yang diperbolehkan, dan parfum diperbolehkan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10181} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10182}
+
+## Aroma orang yang berpuasa itu enak, dan sejenisnya
+Hanafi dan Malik berpendapat bahwa jika orang yang berpuasa menghirup dupa ke tenggorokannya dan mencium aromanya, ia memutus puasanya untuk menghindarinya; tetapi jika tidak sampai ke tenggorokannya, ia tidak memutus puasa. Mencium udara yang beraroma mawar atau sejenisnya tidak dipecahkan menurut Hafi, tetapi Maliki tidak menyukainya. Syafi'i tidak suka mencium bau kemangi di siang hari untuk orang yang berpuasa karena itu adalah kemewahan, jadi disarankan untuk menghindarinya. Hanbalis mengatakan bahwa jika parfum dibubuk, maka tidak disukai untuk menciumnya, karena tidak menjamin jiwa akan menariknya ke tenggorokan, juga tidak suka mencium aroma mawar, amber, atau musk murni. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10182}
+
+## mencium aroma Muharram yang baik
+Hanafi dan Malik tidak suka mencium aroma parfum untuk orang yang dilarang, tetapi menurut Malikis tidak ada perbedaan antara parfum maskulin dan feminin dalam bentuk Mudawwana yang tampak nyata. Al-Baji mengatakan dilarang mencium aroma feminin. Syafi'i tidak menyukai hal ini, dan dipahami oleh ulama terhormat bahwa mencium aroma yang dianggap menyenangkan, seperti mawar, musk, dan kamper adalah dilarang. Ada perbedaan pendapat mengenai basil Persia dan narcissus; beberapa mengatakan hal ini diperbolehkan berdasarkan apa yang diceritakan dari Uthman tentang basil, dan dikatakan dilarang. Hanbalis berdoa: Apa yang tumbuh untuk sesuatu yang tidak baik, seperti wormwood, lavender, dan buah-buahan, diperbolehkan tanpa tebusan; apa yang manusia tanam untuk parfum tetapi tidak membuat parfum, seperti basil Persia, memiliki dua sisi; apa yang tumbuh untuk parfum dan dibuat dari parfum, seperti mawar, dianggap sebagai tebusan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10182} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10183} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10184}
+
+## Ijara untuk Bau
+Hanafi dan Maliki tidak mengizinkan menyewa sesuatu seperti apel untuk mencium baunya, karena menurut Hanafi, aroma tersebut adalah manfaat yang tidak diinginkan, dan Maliki mengatakan itu tidak memiliki nilai hukum. Shafi'i mengizinkan menyewakan musk dan aroma untuk diciumnya karena manfaatnya sudah ditetapkan. Hanbalis membedakan: diperbolehkan menyewa sisa parfum, sandal, dan kamper untuk mencium untuk sementara lalu mengembalikannya, tetapi tidak sah menyewa barang yang rusak dari dekat, seperti mawar dan violet. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10184}
+
+## Kejahatan berat terhadap indera penciuman
+- Jika itu disengaja, seperti seseorang yang mencium seseorang dan baunya hilang, dia harus membalas atas apa yang telah dilakukannya. Jika baunya tidak hilang, dia harus melakukan seperti yang dilakukan para ahli untuk menghilangkan bau itu. Jika tidak dapat dihilangkan kecuali dengan tindak pidana, aroma itu dihilangkan dan uang darah menjadi wajib; ini adalah pandangan Malikis dan Hanbali, dan pandangan paling benar adalah Syafi'i. Menurut Hanafi, uang darah wajib karena pelaku tidak dapat dipukul dengan apa yang menyebabkan bau itu hilang, sehingga setara tidak terpenuhi.
+- Jika itu adalah kesalahan atau luka tidak dapat dibalas, maka uang darah penuh harus dibayar jika pembatalan itu disebabkan oleh lubang hidung, karena itu adalah rasa khusus untuk mendapatkan manfaat. Mayoritas mendasarkan ini pada hadits tentang uang darah di hidung, dan para ulama hadis mengatakan itu aneh dan Ibn Hajar tidak menemukannya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10184} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10185}
+- Jika bau hilang dari salah satu lubang hidung, setengah dari uang darah harus dibayar; jika hilang, harus dibayar sesuai bagian jika memungkinkan; jika tidak, itu adalah keputusan hakim. Siapa pun yang mengklaim bau dihilangkan akan diuji dengan bau tajam, menyenangkan, dan busuk; jika bau itu rapuh untuk parfum dan mengerutkan dahi karena bau busuk, pendapatnya harus diucapkan dengan tangan kanan; jika tidak, pendapat itu untuk korban; jika dia mengklaim kekurangan, pendapatnya adalah mengucapkannya dengan tangan kanan sesuai Syafi'i dan Hanbali. Jika hidung dipotong dan baunya hilang, maka ada dua uang darah menurut Shafi'i dan Hanbali, dan satu uang darah menurut Maliki. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10185}
+
+## Bukti minum minuman beralkohol dengan mencium aroma
+Para ahli hukum berbeda pendapat mengenai penetapan minuman yang memerlukan hukuman dengan mencium bau alkohol di mulut peminum, dan detailnya ada dalam bab tentang minuman. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10185}

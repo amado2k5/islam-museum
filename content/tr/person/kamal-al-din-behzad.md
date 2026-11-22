@@ -1,0 +1,18 @@
+---
+id: person/kamal-al-din-behzad
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/kamal-al-din-behzad.md}
+---
+## Özet
+Kamal al-Din Behzad al-Herati, İslami minyatürleri taklit eden en ünlü ressamdır ve geç Timuri ve erken Safevi dönemlerinde Herat kraliyet atölyelerinin ve ardından Tebriz atölyelerinin başkanıdır. {cite:wikipedia-kamal-al-din-behzad-en} İran ansiklopedisinin belirttiği gibi, hiçbir yazar onun hayatına dair tutarlı bir biyografi sunmamaktadır; aslında doğum tarihi bilinmemektedir: kaynak tahminleri Arapça ansiklopedilerde yaklaşık 854 Hicri / yaklaşık 1450 M.S., İngilizce makalede 1455 ile 1460 yılları arasında, Farsça makalede 855 ile 865 Hicri ve modern bir araştırmacıya göre 1465 arasında değişmektedir. {cite:iranica-behzad} {cite:wikipedia-kamal-al-din-behzad-ar} {cite:wikipedia-kamal-al-din-behzad-en} {cite:wikipedia-kamal-al-din-behzad-fa}
+
+## Herat
+Behzad küçük yaşta yetim kalmış, fotoğrafçı, hattat, Timuri saray kütüphanesi müdürü Mirk Naqash tarafından büyütülmüş ve eğitilmiştir. {cite:iranica-behzad} {cite:wikipedia-kamal-al-din-behzad-en} İlk olarak Mir Ali Shir Nawa'i'i, ardından Sultan Hüseyin Bayqara'nın yanında çalıştı. 1486'da Sultan'ın kararnamesiyle Herat kraliyet atölyelerinin başına atandı; Mirk'in yerine geçti ve onun saltanatı sırasında Herat Akademisi en görkemli dönemine ulaştı. {cite:wikipedia-kamal-al-din-behzad-en} 893 Hicri / 1488 M.S. tarihli Saadi'nin 'Bustan' minyatürleri, resimlerin içindeki mimari yazıtlarda gizlenmiş olup, onun elinin en güvenilir kanıtıdır. {cite:iranica-behzad} İran Ansiklopedisi, yüzyılında Herat çevresindeki birkaç yetenekli ressamdan biri olarak kabul edildiğini ve mutlak üstünlüğünün Safevi döneminden kalma bir kural olduğunu, fırçalarını Mani'ninkilerle karşılaştıran bir fermanda tekrarlandığını belirtir. {cite:iranica-behzad}
+
+## Tebriz ve Tartışmalı Sonuç
+1506'da Hüseyin Baykra'nın ölümünden sonra, Babur Behzad Herat'ta Muhammed Şeybani Han'ın himayesi altında kaldı. {cite:iranica-behzad} Daha sonra bilinmeyen tarih ve koşullar altında Tebriz'e taşındı ve Safevi saray atölyelerini yönetti; Şah İsmail'in 928 H/1522 yılında onu atamasına dair ünlü kararı, İran'ın kronolojik atfedilmesini sorgulayan bir belgeye dayanır ve Safevi yazarlar Şah Tahmasp'ı işvereni olarak gösterir. {cite:iranica-behzad} {cite:wikipedia-kamal-al-din-behzad-en} Fars makalesi, 942 Hicri'de Tahmasp hizmetinde öldüğünü ve Tebriz'de, Kamal Hucandi'nin yanında, Kəmalin mezarlığında gömüldüğünü belirtir; bu durum İran kaynaklarında Dost Muhammed tarafından da aktarılmıştır. {cite:wikipedia-kamal-al-din-behzad-fa} {cite:iranica-behzad} İngilizce makalede Herat'ta öldüğü ve mezarı Muhtar Dağı'nın altında olduğu belirtilmektedir. {cite:wikipedia-kamal-al-din-behzad-en} Bu kayıt her iki anlatımı da korumakta ve ölüm yerinde bir sınır belirtmemektedir.
+
+## tarikat
+Hiçbir okunabilir kaynak Behzad'ın dini, kolu veya doktrini hakkında bahsetmiyor: üç makale din üzerinde hiçbir kısıtlama taşımıyor, Wikidata'nın hiçbir dini değeri yok ve İran ansiklopedisi sessizdir. {cite:wikipedia-kamal-al-din-behzad-en} {cite:wikipedia-kamal-al-din-behzad-fa} {cite:wikidata-kamal-al-din-behzad} Ve Sufi temaları — ruhun arayışının simgesi olarak okunan Yusuf'un baştan çıkarılması, dans eden dervişler, ve bir derviş imgesi — mahkeme siparişleri ve şiirsel metinler, fotoğrafçının kendisinden gelen tanıklıklar değil. {cite:wikipedia-kamal-al-din-behzad-en}

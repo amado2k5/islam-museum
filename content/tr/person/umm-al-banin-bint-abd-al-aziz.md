@@ -1,0 +1,24 @@
+---
+id: person/umm-al-banin-bint-abd-al-aziz
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/umm-al-banin-bint-abd-al-aziz.md}
+---
+## Özet
+Um el-Banin bint Abdulaziz, [[person/al-walid-ibn-abd-al-malik|el-Velid bin Abdül-Malik'in]] kuzeni. {cite:muruj-al-dhahab p.149-150}
+
+## Alwaleed ve Al-Hajjaj ile
+Al-Mas'udi, Al-Walid'in [[person/al-hajjaj-ibn-yusuf|Al-Hacac'ın peçe içinde oturmasına itiraz]] ettiğini anlatır. Al-Hacć Al-Walid'e şöyle dedi: Kadınların gülümseme alışkanlıklarını bırak, çünkü kadın kahraman değil, bir kokudur. Bunun üzerine ona selam vermesini emretti. {cite:muruj-al-dhahab p.149-150}
+
+## El-Selabi'nin bahsettikleri
+Al-Sallabi, Kur'an'ı ezberlediğini ve sabah ve akşam sakladığını, her Cuma bir köleyi serbest bıraktığını belirtir. Muhammed bin Yusuf'un zorla aldığını bildirdiğinde hediyesini geri vermiştir. {cite:salabi-umayyad-state-2020 p.136-139}
+
+El-Hajcaj Al-Walid ile içeri girdiğinde onu azarladığı ve İbn el-Zubeyr'in öldürülmesini hatırlattığı belirtilir. {cite:salabi-umayyad-state-2020 p.136-139}
+
+## Tariq Al-Suwaidan'ın "Ölümsüz Kadınlar" programında
+Tariq Al-Suwaidan [[person/tariq-al-suwaidan|"Ölümsüz Kadınlar"]] programının yirmi altı ve yirmi yedinci bölümlerini, halifelerin evlerinde doğruluk örneği olarak um al-Banin bint Abdulaziz bin Merwan'a [[work/nesaa-khalidat-program|ithaf]] eder. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep26 00:01:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep26 00:02:00} Babasının Mısır'ı yirmi yıl yönettiği, Ömer bin Abdülaziz'in babası olduğu ve kocasının Halife Al-Walid bin Abd al-Malik olduğu belirtilir. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep26 00:02:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep26 00:05:00} Medine'de doğmuştur, Al-Walid hac yolculuğu sırasında onu görüp evlenmiştir ve ona Abdulaziz, Muhammed ve Aişe'yi doğurmuştur. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep26 00:07:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep26 00:07:30} Kur'an'ı çok az ezberledi ve bolca hadis yazdı; bu bilgisi Ebu Sür'ah-Dimashqi ve İbn Maküle'den de aktarılmıştır. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep26 00:08:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep26 00:08:30}
+
+Uzun dualar ettiği ve uyarı işaretlerinden etkilendiği ve insanlara Allah'ın hayranlığından daha iyi bir şey sunmadığına inandığı belirtilir. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep26 00:10:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep26 00:10:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep26 00:11:00} Her hafta bir at alır ve bir yıllık mücahid ile birlikte gönderir, her Cuma bir köleyi özgür bırakır ve ona geçimini verirdi. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep26 00:11:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep26 00:12:30} İbn al-Jawzi'nin 'Sifat al-Safwa' adlı eserinden Yemen valisi Muhammed bin Yusuf'un nadir hediyeler getirdiği anlatılır. Zorla alındığını duyunca, evine girmeyi reddetti. El-Velid, vali Kara Taş'ta haksızca girmeyeceğine dair elli yemin edene kadar onu kabul etmedi. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep26 00:15:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep26 00:17:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep26 00:19:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep26 00:21:30}
+
+Yirmi yedinci bölümde, tarihi kitaplardan anlatılır ki, kadın El-Welid'e silahsız olarak El-Haccac ile oturmasını söylemiş, bu yüzden El-Hacac kadının kahraman değil, sevgilisi olduğunu söylemiştir. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep27 00:06:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep27 00:08:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep27 00:12:00} El-Hacac'tan Müslüman olarak gelmesini istemiş, onu bekletmiş ve bir örtü arkasından konuşarak Abdullah ibn el-Zubeyr ibn Dhat al-Niqnayn'ı öldürmekle gururlu olduğunu azarlamış ve halifenin eşlerinin parfüm ve takılarını onu kurtaran askerlere harcamak için sattıklarını hatırlatmıştır. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep27 00:14:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep27 00:15:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep27 00:16:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep27 00:20:00} El-Hacac'ın cevap bulmadan çıktığını söyler. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep27 00:24:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep27 00:24:30} Son olarak, her halkın bir açgözlülüğü ve verme arzusu olduğunu, bunun onlar için açlara verdiği yiyecekten daha tatlı olduğunu söyler. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep27 00:25:00}

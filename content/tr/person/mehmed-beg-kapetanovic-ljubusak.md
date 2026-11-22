@@ -1,0 +1,12 @@
+---
+id: person/mehmed-beg-kapetanovic-ljubusak
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/mehmed-beg-kapetanovic-ljubusak.md}
+---
+## Özet
+
+Mehmet Bek Kaptanović Ljubošak (19 Aralık 1839 – 29 Temmuz 1902), Ljuboški yakınlarındaki Vitina'dan Bosnalı bir yazar ve yetkiliydi; Mohibi adıyla yazmıştır. {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs} Lyubushki Okulu'nda Türkçe, Arapça ve Farsça eğitimi aldı, Osmanlı yönetiminde birkaç şehirde ilçe valisi olarak görev yaptı, 1878'de Saraybosna'ya yerleşti ve 1893'te Mustafa Fadil Bašić'in yerine şehrin ikinci belediye başkanı oldu. {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs} {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} Saltanatı sırasında, Saraybosna elektrikli sokak aydınlatması aldı ve 1 Mayıs 1895'te Avrupa'daki ilk elektrikli tramvay hizmetlerinden biri açıldı; Temmuz 1898'de yaşanan bir felç, Nisan 1899'da istifa etmek zorunda kalmasına neden olan bozulmayı başlattı. {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs}
+
+1891'de, Bosna milliyetçi düşüncesi için bir platform olan 'Pushniak' dergisini kurdu; burada Bosnalı Müslümanların Hırvat ya da Sırp değil, kendi başlarına bir halk olduğunu savundu. {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-hr} Ülkeyi dolaşarak popüler hazinesini topladı: 'Halk Hazinesi' (1887) yaklaşık beş bin söz ve deyim topladı ve Doğu Hazinesi'nde (1896) Türkçe, Arapça ve Farsça atasözleri ekledi; ayrıca Bosna'daki Müslümanların (1886) ne düşündüğünü ve gelecekleri hakkında mektupları da ekledi (1893). {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs} {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} 1902'de Saraybosna'nın Grabavitsa kentinde öldü — bugün İngilizce ve Hırvatça'da 29 Temmuz, Bosnakça ve Wikidata metinlerinde 28 Temmuz, Sırpça'da ise 26 Temmuz olarak bildirilmektedir — oğlu Reza Bey ise 24 Aralık 1931'de vefat etti. {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} {cite:wikidata-mehmed-beg-kapetanovic-ljubusak}

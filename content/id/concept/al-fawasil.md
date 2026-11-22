@@ -1,0 +1,15 @@
+---
+id: concept/al-fawasil
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/al-fawasil.md}
+---
+## Ringkasan
+Koma adalah kata di akhir sebuah bait, seperti rima puisi dan premis sajak. [[person/badr-al-din-al-zarkashi|Al-Zarkashi]] menganggap mengetahui koma dan awal bait sebagai jenis [[work/al-burhan-fi-ulum-al-quran-zarkashi|bukti ketiga]]. {cite:burhan-dar-al-hadith-2006 p.50} Dilaporkan dari [[person/abu-amr-al-dani|Abu Amr al-Dani]] bahwa kata di akhir kalimat, dan dari [[person/al-jabari-abu-ishaq-ibrahim-ibn-umar|al-Ja'bari]] bahwa ini bertentangan dengan terminologi, dan dari Qadi Abu Bakr bahwa jeda adalah huruf serupa dalam suku kata yang membantu menyampaikan makna. {cite:burhan-dar-al-hadith-2006 p.50}
+
+## Koma dan awal bait
+Al-Dani membedakan keduanya: koma adalah ucapan yang terpisah dari apa yang berikutnya, dan bisa berupa awal ayat atau bukan kepala; setiap awal ayat adalah koma, tidak setiap koma adalah awal ayat; karena alasan ini, Sibawayh secara bulat menyamakan kata-kata yang bukan awal ayat. {cite:burhan-dar-al-hadith-2006 p.50} Disebut 'fasil' karena memisahkan kedua ucapan, dan mereka tidak menyebutnya 'isjā': Adapun menyebutnya 'fasilā', Al-Qur'an An menggambarkan ayat-ayatnya sebagai 'fasāsī'. Adapun menghindari kata 'sajā' (rima), asalnya berasal dari rima burung, sehingga Al-Qur'an dihormati karena dipinjam darinya, dan karena merupakan salah satu sifat-sifat Allah, maka tidak dijelaskan dalam apa yang tidak diperbolehkan. {cite:burhan-dar-al-hadith-2006 p.50} {cite:burhan-dar-al-hadith-2006 p.51} Mereka membedakan keduanya dengan mengatakan bahwa rima itu dimaksudkan sendiri dan maknanya dialihkan kepadanya, sementara jeda mengikuti makna dan tidak dimaksudkan dengan sendirinya. {cite:burhan-dar-al-hadith-2006 p.51}
+
+## Apakah ada rima dalam Al-Quran?
+Al-Rumani [[person/ali-ibn-isa-al-rummani|mendasarkan]] bukunya 'Ijaz al-Qur'an' pada hal ini bahwa jeda adalah retorika dan rima adalah cacat. [[person/al-baqillani|Al-Baqillani mengikuti]] dalam bukunya tentang mukjizat, mengutip kaum Ash'arite yang mengatakan bahwa rima tidak mungkin dalam Al-Qur'an, dan Abu al-Hasan al-Ash'ari menyatakan hal ini. {cite:burhan-dar-al-hadith-2006 p.51} Banyak lawan mereka menegaskan rima di dalamnya, mengatakan bahwa itu adalah bentuk pembedaan dalam retorika, seperti paronomasia dan perhatian. Mereka mengutip keutamaan Harun atas Musa di satu tempat dan penundaan di tempat terakhir untuk memastikan koma. {cite:burhan-dar-al-hadith-2006 p.51} Al-Baqillani membantah bahwa jika rima itu sajak, maka tidak akan menyimpang dari gaya bicara mereka, sehingga tidak dianggap mukjizat, dan rima adalah sesuatu yang disusun oleh para imam Arab dan penyangkalan yang lebih tepat. {cite:burhan-dar-al-hadith-2006 p.51}

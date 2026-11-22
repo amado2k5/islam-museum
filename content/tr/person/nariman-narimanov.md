@@ -1,0 +1,36 @@
+---
+id: person/nariman-narimanov
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/nariman-narimanov.md}
+---
+
+# Nariman Narimanov
+
+## Özet
+Nariman Kerbeley Najafoglu Narimanov (14 Nisan 1870 – 19 Mart 1925), modern Azerbaycan edebiyatının öncülerinden biri olan Azerbaycanlı yazar, hekim, devrimci Bolşevik ve devlet adamıydı. 1894 yılında Bakü'de Türk dilini konuşanlar için ilk halka açık okuma kütüphanesini kurdu ve Azerbaycan Sovyet Cumhuriyeti hükümetinin başkanlığını yaptı (1920–1922), ardından 30 Aralık 1922'den Moskova'daki ölümüne kadar Sovyetler Birliği Merkez Yürütme Komitesi başkanlarından biri oldu. {cite:wikipedia-nariman-narimanov-en} {cite:wikipedia-nariman-narimanov-ar}
+
+## Erken yaşamı ve eğitimi
+Tiflis'te, onu Gurri Öğretmenler Enstitüsü'ne gönderebilen orta sınıf tüccarlardan oluşan bir Azerbaycanlı ailede doğdu ve burada mezun oldu. {cite:wikipedia-nariman-narimanov-en} 1891'de Bakü'ye taşındı ve kültürel, eğitimsel, edebi ve siyasi faaliyetlerde bulundu. 1902'de Bakü Lisesi'nden dış diploma aldı, ardından Odessa'daki İmparatorluk Novossiya Üniversitesi Tıp Fakültesi'ne kaydoldu ve 1908'de mezun oldu. {cite:wikipedia-nariman-narimanov-en} {cite:wikipedia-nariman-narimanov-ar}
+
+## Yazar ve Öğretmen
+1894'te İstanbul, Sofya, Kahire, Tahran, Tebriz ve diğerlerinden kitap ve dergilerin yer aldığı Bakü'deki Türk Müslüman topluluğu için ilk halka açık okuma salonunu kurdu. Rus makalesinde anlatıldığı üzere, Kafkasya'daki Müslümanlar için aydınlatıcı bir merkez haline geldi—öyle ki Şeyh al-Islam burayı kınamış ve tehlikeli bir sıcak nokta olarak görmüştür. {cite:wikipedia-nariman-narimanov-en} {cite:wikipedia-nariman-narimanov-ru} Tiflis'in Kızil Ajal köyündeki okulda eğitim gördü ve köylülerin yaşamını yakından tanıdı. Gençliğinde "Cehalet" (1894, 1895'te Bakü'de sahnelendi), "Şemdan Bey" (1895), Azerbaycan edebiyatının ilk ulusal romanı olarak kabul edilen "Bahador ve Sona" (1896–1908) ve tarihsel trajedinin temelini atan "Nader Şah" (1899) oyunlarını yazdı. {cite:wikipedia-nariman-narimanov-en} Dördüncü sınıf tıp öğrencisiyken, 1910'da eserlerinde Arapça makalede ele alınan "Tıp ve İslam" adlı eserini yazdı. {cite:wikipedia-nariman-narimanov-az} {cite:wikipedia-nariman-narimanov-ar} İngilizce makale, erken romanlarının eski geleneklerden ve dini batıl inançlardan vazgeçmeyi çağrıda bulunduğunu belirtir — bu tutumlar bölümünde müzeye atfedilen edebi bir görüş, inanç temelinde değil. {cite:wikipedia-nariman-narimanov-en}
+
+## Tıp ve Devrim
+1905 devrimi sırasında Bolşeviklere katıldı ve Odessa'da öğrenci hareketine liderlik etti. 1909'da tutuklandı ve Astrahan'a beş yıl iç sürgün cezasına çarptırıldı. 15 Temmuz 1913'te Bakü'ye döndü ve burada hastanelerde doktor ve bölüm başkanı olarak çalıştı, edebi ve sosyal faaliyetlerine devam etti. {cite:wikipedia-nariman-narimanov-en} Nisan 1917'de 'Hemmt' komitesi rehberliğinde Bakü'de düzenlenen Kafkasya Müslüman Konferansı'na katıldı. Ekim Devrimi'nden sonra Azerbaycan Sosyal Demokrat Partisi'nin başkanı ve Bakü Sovyeti'nde Halk Ekonomisi Halk Komiseri oldu. Yirmi altı Bakü Komiserinin kaderinden kaçarak Astrahan'a kaçtı; burada Rusya Dışişleri Bakanlığı'nda Yakın Doğu Bölümü başkanı ve ardından Etnik İşlerden Sorumlu Komiser Yardımcısı olarak atandı. {cite:wikipedia-nariman-narimanov-en} Temmuz 1919'da Azerbaycan'ın bağımsız bir Sovyet cumhuriyeti olarak tanınmasına ilişkin Politbüro kararında etkili bir rol oynadığı kabul edilir. {cite:wikipedia-nariman-narimanov-en}
+
+## Sovyet Azerbaycan'ın başında
+1920'de Azerbaycan Devrim Komitesi başkanı, ardından Azerbaycan Sovyet Cumhuriyeti Halk Komiserliği Konseyi başkanı olarak atandı. Nisan ve Mayıs 1922'de Sovyet heyetinin bir parçası olarak Cenova konferansına katıldı, Sovyetler Birliği Konseyi başkanı seçildi ve 30 Aralık 1922'de Sovyetler Birliği Merkez Yürütme Komitesi onu dört başkanından biri olarak seçti; Nisan 1923'te ise partinin Merkez Komitesi adayı üye oldu. {cite:wikipedia-nariman-narimanov-en} Azerbaycan makalesi, hükümetinin halkın gelenek ve göreneklerine saygı gösterdiğini, dini ve geleneksel bayramları resmi bayram olarak ilan ettiğini belirtir. {cite:wikipedia-nariman-narimanov-az} Kendini yücelten bir milliyetçi olarak, Kafkasya'daki Stalin'in adamı Sergo Ordzhonikidze ile çatıştı ve Kafkasya'dan uzak tutmak için Moskova'daki görevlere atandı. {cite:wikipedia-nariman-narimanov-en}
+
+## Ölümü ve mirası
+19 Mart 1925'te Moskova'da öldü — İngilizce makale yatağında kalp krizi geçirerek öldüğünü belirtirken, Azerbaycan ve Arapça makaleler ölümünü gizemli olarak tanımlıyor ve müze anlaşmazlığı doğruluyor — ve Kızıl Meydan'daki Kremlin Duvarı Mezarlığı'nın 7 No'lu Toplu Mezarlığı'na defnedildi. {cite:wikipedia-nariman-narimanov-en} {cite:wikipedia-nariman-narimanov-az} {cite:wikidata-nariman-narimanov} Troçki, ölümünün Lenin'den sonra Doğu dünyası için en büyük ikinci kayıp olduğunu söyledi ve Ordzhonikidze onu "partimizin Doğu'daki en büyük temsilcisi" olarak tanımladı. {cite:wikipedia-nariman-narimanov-en} 1930'ların sonlarında, ölümünden sonra "Hemmet" üyeleriyle birlikte milliyetçilikle suçlandı, ardından 1953'ten sonra kademeli olarak görevine iade edildi ve 1972'de memleketinde tamamlandı. {cite:wikipedia-nariman-narimanov-en} Bugün, Azerbaycan Tıp Üniversitesi, bir metro istasyonu, Azerbaycan mahalleleri ve sokakları ile birçok eski Sovyet ülkesinde bu ismi taşımaktadır. {cite:wikipedia-nariman-narimanov-en}
+
+## Pozisyonlar ve Eleştiriler
+Bu bölüm, kaynaklar tarafından bildirilen durumları sunar ve müze tarafından verilen bir karar değildir.
+
+**İnancı.** Narimanov'un doktrinini hiçbir kaynak adlandırmıyor. Kaynaklar tam olarak her iki yönde de bunu veriyor: İngilizce, erken romanlarının "eski gelenekler ve dini batıl inançlardan" vazgeçmeyi önerdiğini söylüyor, Rusça ise onun eserlerinden birini propaganda edebiyatının en iyi örneklerinden biri olarak tanımlıyor—yani bir eserin yazarının inancına tanıklık değil, edebi bir eserin tanımı—ve Şeyh al-İslam'ın kütüphanesini kınamasını, ki bu rakiplerinin ona karşı tutumudur. {cite:wikipedia-nariman-narimanov-en} {cite:wikipedia-nariman-narimanov-ru} Öte yandan, Azerbaycan hükümetinin dini bayramlara saygısından ve tıbbi misyonu "tıp ve İslam"dan bahseder. {cite:wikipedia-nariman-narimanov-az} Adındaki "Kerbel" unsuruna gelince, bu babasının Kerbelaya yaptığı hac yolculuğunun başlığıdır—bir aile geçmişi, tanıklık değil. Bunların hiçbiri iki bağımsız mezhep tanıklığı ya da kişisel ateizmin iki bağımsız tanıklığı statüsüne sahip değildir (bu, Akhoundov'un 32. dalgadaki emsalinin sınırıdır), bu yüzden inancı "bilinmeyen" olarak kaydedilmiş ve pozisyonlar burada pozisyon olarak kalmıştır. Wikidata, onun görüşüne göre din için hiçbir değer taşımıyor. {cite:wikidata-nariman-narimanov}
+
+## Kaynaklar
+- Yukarıda belirtilen kaynaklar `data/source/`.
+- Makalenin sonraki çevirileri ve düzenlemeleri, net güncelleme tarihleriyle periyodik olarak gözden geçirilmelidir.

@@ -1,0 +1,53 @@
+---
+id: person/tariq-ibn-ziyad
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/tariq-ibn-ziyad.md}
+---
+## Ringkasan
+Tariq ibn Ziyad adalah seorang komandan Berber yang memimpin pasukan Islam yang menaklukkan Semenanjung Iberia pada tahun 92 H / 711 M. Ensiklopedia Islam menyatakan bahwa tanggal kelahiran dan kematiannya tidak diketahui. Pada saat kampanye, ia tinggal di [[place/tanja|Tangier]] dan mengambil alih kekuasaan atas nama [[person/musa-ibn-nusayr|Musa ibn Nusayr]], gubernur [[place/ifriqiya|Ifriqiya]]. {cite:encyclopaedia-of-islam-2 vol. 10 p. 257} Gunung tempat ia mendarat masih menggunakan namanya di Gibraltar. {cite:encyclopaedia-of-islam-2 vol. 10 p. 258}
+
+Artikel tersebut menegaskan bahwa segala sesuatu yang diceritakan tentang awal mula kehadiran Islam di [[place/al-andalus|Andalusia]] didasarkan pada data yang saling bertentangan, sehingga sulit untuk menentukan identitas dan keadaan saat mereka memasuki negara tersebut. Berikut adalah apa yang dinyatakan dalam artikel tersebut bersama dengan apa yang ditemukan dalam sumber museum. {cite:encyclopaedia-of-islam-2 vol. 10 p. 257}
+
+## Status sumber
+Artikel tersebut menjelaskan alasan kesulitan sejarah penaklukan. Tidak ada teks Islam kontemporer tentang peristiwa tersebut, bahkan teks dari periode yang mendekati peristiwa tersebut. Bukti paling awal dari masa itu adalah dua catatan Kristen yang sangat singkat: Chronica byzantia-arabica pada tahun 741 M dan Continuatio Hispana pada tahun 754 M. {cite:encyclopaedia-of-islam-2 vol. 10 p. 257}
+
+Karya Islam tertua yang masih ada adalah Futuh Misr karya Ibn Abd al-Hakam dan Sejarah karya Ibn Habib, keduanya dari abad ke-3 H/abad ke-9 M. Artikel tersebut menyatakan bahwa mereka cenderung menerima narasi legendaris dan melebih-lebihkan hasil yang dikumpulkan setelahnya. Sebagian besar sumber lain adalah sumber yang lebih baru dan mengumpulkan materi dengan nilai yang bervariasi, termasuk dua buku dengan penulis yang tidak diketahui, 'Akhbar Majmoo' dan 'Penaklukan Andalus.' Para peneliti kontemporer berbeda pendapat tentang mereka: beberapa melihatnya sebagai versi tertulis awal dari narasi lisan kuno, sementara yang lain menganggapnya sebagai kompilasi ringkasan teks lama yang lebih baru. Namun demikian, artikel ini menganggap garis besar umum narasi sejarah sebagai stabil. Ia juga mengingat bahwa J. Valvey mengusulkan penurunan di [[place/cartagena|Cartagena]], sebuah pendapat yang sulit diterima sepenuhnya oleh artikel tersebut, namun menurutnya menunjukkan bahwa beberapa gagasan umum perlu direvisi. {cite:encyclopaedia-of-islam-2 vol. 10 p. 257}
+
+## Latar Belakang dan Kontak Julian
+Sebagian besar sejarawan percaya bahwa Tariq adalah klien Berber Musa ibn Nusayr dan ikut serta di bawah komandonya dalam penaklukan Maroko sebagai pemimpin barisan depan. Ketika Musa kembali ke Ifriqiya, ia meninggalkan Tariq bersama kelompok yang sebagian besar berber yang tinggal di Tangier. {cite:encyclopaedia-of-islam-2 vol. 10 p. 257}
+
+Dari Tangier, Tariq menghubungi gubernur [[place/ceuta|Ceuta]], yang disebut artikel sebagai Count Julian yang legendaris, lihat [[person/julian-count-of-ceuta|Julian]]. Artikel tersebut menyatakan bahwa ia adalah orang Gotik dan pengikut raja Gotik di Toledo, dan bahwa ia mendorong Tariq untuk menyerang. Beberapa catatan menganggap utusan Julian adalah Musa sendiri, dan mengatakan Musa memperoleh izin dari khalifah di Damaskus. Namun, artikel tersebut meyakini, berdasarkan apa yang terjadi setelahnya, bahwa lebih mungkin Tariq bertindak sendiri tanpa menunggu persetujuan eksplisit dari atasannya. {cite:encyclopaedia-of-islam-2 vol. 10 p. 257}
+
+Sebelum Tariq, ada serangan kecil di pantai. Serangan terpenting, dan menurut banyak penulis saja, dipimpin oleh Berber lain, Turaif, dengan sekitar lima ratus orang pada tahun 91 H / 710 M. {cite:encyclopaedia-of-islam-2 vol. 10 p. 258}
+
+## Obour
+Pada musim semi tahun berikutnya, Rajab 92 AH / April 711 M, Tariq menyeberangi selat dengan perahu yang disediakan oleh Julian. Kekuatannya hampir seluruhnya barbar, dan ia mendarat di kaki gunung yang dinamai namanya. Banyak sumber Arab sepakat tentang empat kapal dan dua belas ribu pesawat tempur, dalam satu atau beberapa kelompok. Artikel tersebut menyatakan angka-angka ini tidak dapat diverifikasi tetapi sering mendekati kebenaran. Artikel tersebut menyimpulkan bahwa penyeberangan itu lambat, dengan puluhan perjalanan per kapal selama beberapa hari, dan tanpa perlawanan serius dari sebagian besar penduduk yang dapat dengan mudah menggagalkannya. Penurunan ini dibaca sebagai dilakukan dengan keterlibatan penduduk lokal atau dengan sikap acuh tak acuh mereka. {cite:encyclopaedia-of-islam-2 vol. 10 p. 258}
+
+## Pertempuran melawan Ladhreek
+Raja Gotik [[person/roderick|Lazaric saat itu sibuk]] melawan Peshkene, sehingga ia segera berangkat bersama pasukannya. Sementara itu, Muslim telah membangun benteng di Gibraltar dan melancarkan serangan kecil untuk membawa pasokan. Pertemuan berlangsung pada akhir Ramadan dan tanggal pertama Shawwal, yaitu pada bulan Juli, di dekat sungai yang bisa menjadi Lembah Lakka atau Sungai Barbat, tidak jauh dari pendaratan. [[place/guadalete|Lembah Lakka]] memiliki catatan khusus di museum. Artikel tersebut mencatat bahwa Muslim hampir tidak bergerak selama sekitar tiga bulan, sehingga pasukan Spanyol dapat berkumpul menjadi pasukan yang kuat, yang dianggap secara strategis tidak bijaksana. {cite:encyclopaedia-of-islam-2 vol. 10 p. 258}
+
+Artikel tersebut berargumen bahwa kekalahan pasukan Dhariq sebagian besar disebabkan oleh perpecahan besar di antara dirinya, yang secara tradisional dikenal sebagai pendukung keluarga mantan raja Gheitsha, yang berkontribusi baik melalui tindakan maupun kelalaian terhadap kekalahan dan kematian Ludariq. Artikel itu menambahkan bahwa tidak ada satu pun pihak yang terlibat dalam peristiwa itu yang membayangkan seluruh semenanjung runtuh. Setelah kemenangan tak terduga itu, Tariq, katanya, menyadari rapuhnya kohesi negara Gothic dan tahu bahwa ia memiliki kesempatan untuk menjadi penguasa negara atau mengubah serangan pesisir menjadi kampanye menguntungkan di kota-kota kaya di pedalaman. {cite:encyclopaedia-of-islam-2 vol. 10 p. 258}
+
+## Pawai ke Toledo
+Tariq kemudian menuju [[place/istija|Istijja]], di mana sisa-sisa tentara Gotik, termasuk pendukung Ghitche, berlindung. Pertempuran itu sama sengitnya dengan yang pertama, dan Muslim menang untuk kedua kalinya, dibantu oleh Julian, menurut beberapa sumber. Pasukan yang kalah berlindung di kota dan menyerah tak lama kemudian. {cite:encyclopaedia-of-islam-2 vol. 10 p. 258}
+
+Dengan demikian, tidak ada lagi yang menghalangi kemajuannya. Artikel tersebut menyebutkan bahwa ia membagi pasukannya menjadi empat kelompok, menuju tujuan termasuk [[place/granada|Granada]] dan [[place/cordoba|Cordoba]], yang terakhir dipimpin oleh [[person/mughith-al-rumi|Mughith al-Rumi]], sementara ia menuju [[place/tulaytula|Toledo]]. Ibu kota Gotik jatuh ke tangannya tanpa perlawanan setelah para tokoh-tokoh meninggalkannya. Beberapa sumber menambahkan bahwa ia melanjutkan ke utara hingga mencapai Lembah Batu dan kemudian [[place/astorga|Asturga]]. {cite:encyclopaedia-of-islam-2 vol. 10 p. 258} Lihat [[event/conquest-of-al-andalus|penaklukan al-Andalus]] dan [[event/conquest-of-tulaytula|penaklukan Toledo]].
+
+## Pertemuan dengan Musa dan seterusnya
+Selama waktu itu, Musa ibn Nusayr tiba di Semenanjung Arab dengan tentara yang sebagian besar orang Arab. Tariq menemuinya di atau dekat Toledo. Artikel tersebut mengatakan bahwa Musa tampak bertekad menghukumnya dengan keras, tetapi akhirnya menerima teguran keras. Sejak saat itu, dikatakan bahwa Tariq disebutkan, tuannya menutupinya, dan dia kembali bersamanya ke Timur pada tahun 95 H. Catatan terakhir yang diketahui tentang perselingkuhannya, menurut artikel tersebut, adalah bahwa dia bergabung dengan para terdakwa dalam kasus melawan Musa, dan dia masih menderita akibat penghinaan yang dialaminya di Toledo. {cite:encyclopaedia-of-islam-2 vol. 10 p. 258}
+
+## Catatan Lain dalam Sumber Museum
+Sumber lain dalam koleksi museum menyebutkan kisah Tariq secara berbeda di berbagai tempat, termasuk sejarah dan perlakuan Musa terhadapnya.
+
+Al-Tabari menyebutkan bahwa Musa ibn Nusayr marah padanya, memecatnya, dan mengirimnya ke Toledo pada tahun 93 H. {cite:tabari-tarikh-abu-al-fadl j.6 p.481}
+
+Menurut al-Baladhuri, ia adalah agen Musa dan yang pertama menyerbu al-Andalus pada tahun 92 H, menaklukkannya dan kemudian Toledo. Menurut al-Maqri, Musa memberinya izin untuk menikahi tujuh ribu orang Berber, sebagian besar di antaranya dengan empat kapal, dan ia mendarat di Gibraltar, yang dikaitkan dengannya, pada Sha'ban 92 H. {cite:nafh-tib-maqqari p.267}
+
+Al-Maqri menceritakan bahwa Musa mendapat inspirasi ketika ia maju ke Dhuriq, sehingga ia memberinya lima ribu, sehingga jumlahnya menjadi dua belas ribu. {cite:nafh-tib-maqqari p.278}
+
+Adapun buku Slabi, disebutkan penyeberangannya di Rajab pada tahun 92 AH dan pendaratannya di sebuah gunung yang dikenal dengan namanya. Khotbah yang dikaitkan dengannya dianggap sebagai subjek catatan gaya dan sejarah, dan narasi pembakaran kapal tidak stabil. {cite:salabi-umayyad-state-2020 p.68} {cite:salabi-umayyad-state-2020 p.70}
+
+## Menurut Ibn Abd al-Hakam
+Ibn Abd al-Hakam memanggilnya Tariq ibn Ziyad di satu tempat, dan Tariq ibn Amr di dua tempat. {cite:futuh-misr-amir-1999 p. 275} {cite:futuh-misr-amir-1999 p. 276} {cite:futuh-misr-amir-1999 p. 283} Musa mengangkatnya sebagai gubernur Tangier pada tahun sembilan puluh dua, dan dia membawa seorang budak perempuan bernama um Hakim. Dia meninggalkannya di sebuah pulau yang dinamai Pulau um Hakim. {cite:futuh-misr-amir-1999 p. 276} {cite:futuh-misr-amir-1999 p. 278} Dia menyandera kedua putrinya dari Yalian. {cite:futuh-misr-amir-1999 p. 277} Kemudian Musa menulis kepadanya agar tidak melewati Cordoba. Ketika dia bertemu dengannya di Cordoba, Tariq mengatakan bahwa dia hanyalah tuannya, dan penaklukan ini adalah miliknya. {cite:futuh-misr-amir-1999 p. 280} Ibn Abd al-Hakam menceritakan bahwa Musa memenjarakannya setelah ia mengira akan membunuhnya, sehingga Tariq memanggil [[person/al-walid-ibn-abd-al-malik|al-Walid ibn Abd al-Malik]], yang menulis kepada Musa mengancamnya jika ia menyakitinya, sehingga ia membebaskannya. {cite:futuh-misr-amir-1999 p. 283} Lihat [[object/table-of-solomon|Ma'idah Suleiman]].

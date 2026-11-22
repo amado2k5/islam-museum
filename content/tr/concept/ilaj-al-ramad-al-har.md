@@ -1,0 +1,12 @@
+---
+id: concept/ilaj-al-ramad-al-har
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/ilaj-al-ramad-al-har.md}
+---
+## Hematolojik ve safra: flebitom, sonra caydırıcı, ardından olgunlaşma
+Safra veya kanlı madde nedeniyle oluşan konjonktivitin ortak yönetimi flebite ve kusmaya neden olur (müshil ve tonik isimleri kullanılmaz). Tüm bunlar, göze soğutucu sıvı sürmek ve içine damıtmak, ardından yumurta akı ve akıntısı uygulanmak, ardından katmanların kalınlaşması, tıkanıklık ve ağrının artmaması için caydırıcı spreyler uygulanmalıdır. Madde kusma, çekim ve caydırıcılarla itilirse, olgun maddeler önce listelenir, caydırıcılarla karıştırılır, sonra dağıtılır ve önce eklenir (test edilmiş olgunlaştırıcıların ve meyve sularının isimleri). Su hiçbir şey taşımaz) Konjonktivit alınırsa, daha güçlü çözücülerin kullanımı artar. Beynin saf olduğunu biliyorsanız banyo yapın ve biraz güçlü, eski, az miktarda taze, içilebilir içecek yedikten birkaç saat sonra banyo yapın. Sonrasında sıcak su veya banyo ile yıkanırsanız bu daha faydalıdır {cite:canon-ibn-sina-print-v2 p.173} {cite:canon-ibn-sina-print-v2 p.174}
+
+## Kan, safra ve eritrosit dallanması
+Madde kanlıysa, flebitomdan sonra dökülür ve uçlar diğerlerinden daha kanlı ve sıkı olur, ayrıca bahsedilen sıvılar başlangıçta kullanılmıştır (karıştırma detayları geçerli değildir). Ağrı şiddetliyse, belirtilenlere nazik olun. Safra flebitomdan sonra safra üretmek için dışarı atılırsa ve taze suyla banyo yaparsanız, başınıza ve gözlere soğuk su uygulayabilir veya yüzü biraz sirke ile karıştırılmış soğuk suyla yıkayabilirsiniz. Safrada büzücü maddeleri başlangıçta kullanmadan kullanma cesaretine sahip olmalısınız Aşırı şişlikler de kullanılır, meyve sıkacaklarında çözülür. Kızarıklık için, müshil ve enjeksiyonlarla kusma sonrası, büzücü maddeden yapılan bandaj (isimleri ve açıklamaları belirtilmemiştir) ve sürekli sıcak bir süngerle kapatılmalı, yumuşak, çözünmüş bir bezle sargı faydalıdır. Göz sürekli sütle yıkanmalı ve soğutulup nemlendirilmelidir, ancak sadece soğutma ile sınırlamak yavaşlatır ve uyuşturur. Durum çözülür ve kızarıklık devam ederse, nazikçe kuruması için bandajlanmalıdır {cite:canon-ibn-sina-print-v2 p.174}.

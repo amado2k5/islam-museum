@@ -1,0 +1,15 @@
+---
+id: person/al-qurtubi
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/al-qurtubi.md}
+---
+
+## Çeviri
+Ebu Abdullah Muhammed bin Ahmed ibn Ebi Bekir ibn Faraj el-Ensari el-Khazraci el-Kurtubi el-Endülüsi, Kur'an tefsiriyle tanınan bir Maliki alimi ve hadis uzmanıydı. Endülüs'te doğdu ve oradan Levant'a seyahat edenler arasındaydı. El-Dhahabi onun hakkında şöyle demiştir: "Şeyhlerden seyahat etti, yazdı ve onlardan dinledi" {cite:encyclopaedia-of-islam-2 vol. 5 p. 550}. Bu tefsirin bir kısmını Şeyh Ebu el-Abbalus'tan duydu "Al-Mufhim fi Sharh Muslim" kitabının yazarı Ahmed ibn Umar al-Qurtubi, Ebu el-Hasan Ali bin Muhammed bin Hafs el-Yahsubi ve hafız Ebu Ali el-Hasan ibn Muhammed bin Muhammed el-Bekri'den {cite:nafh-tib-maqqari 2/211} rivayet etmiştir. El-Dhahabi biyografisinde öğretmenleri arasında İbn Rawah, İbn el-Cemaiz ve Ebu el-Abbas bin el-Muzayin'den bahsetmiştir {cite:siyar-alam-nubala 17/97}.
+
+Yukarı Mısır'daki Minyat Banu Khasib'e yerleşti, burada ikamet etti ve kapsamlı tefsirini burada yaptı, her benzersiz detayla kendini yordu {cite:siyar-alam-nubala 17/97}. Doğru, dindar ve münzevi, resmiyetli bir adamdı; tek bir giysi ve başında bir şapka giymiş, ibadet ve yazı arasında ahiretle ilgili işlerle ilgileniyordu {cite:nafh-tib-maqqari 2/210}. On beş ciltlik Kuran tefsiri üzerine bir kitap derledi, "Al-Asna fi Sharh al-Asma'al-Husna" adlı iki ciltlik "Al-Tadhkira fi Amourat al-Akhirah", "Al-Taqsi" üzerine bir şerh ve diğer eserler {cite:nafh-tib-maqqari 2/210-211} kaleme aldı. Al-Dhahabi, büyük tefsirini yolcular takip ettiğini söylemiştir {cite:nafh-tib-maqqari 2/211}. 671 Hicri yılının Şavval'ın dokuzuncusu Pazartesi gecesi Minyat ibn Khasib'de öldü ve orada defnedildi {cite:nafh-tib-maqqari 2/211}. İbn al-İmad şöyle dedi: O, bir imamdı, hadislerin anlamlarında çeşitli alimlerden, iyi yazılmış ve iyi aktarılmıştı {cite:shadharat-dhahab p. 335}.
+
+## Girişinde açıklanan yorumu
+El-Kurtubi, Kur'an hükümlerinin [[work/al-jami-li-ahkam-al-quran|kapsamlı tefsirinin başında adını anar]]: Ebu Abdullah Muhammed bin Ahmed ibn Ebi Bekir ibn Farah el-Ensari el-Endereli el-Endülüs, o zaman el-Kurtubi. {cite:jami-ahkam-quran-resala-v1 p.5} Hayatı boyunca Allah'ın Kitabı'na kendini adamayı uygun gördüğünü, bu yüzden içinde tefsir, dil, dilbilgisi, okumaları, sapık insanların çürütülmesini ve hükümlere tanıklık eden hadisleri birleştirerek 'kendime bir hatırlatma ve Ramsi günü için bir hazine' yaptığını belirtir. {cite:jami-ahkam-quran-resala-v1 p.7} {cite:jami-ahkam-quran-resala-v1 p.8} Şartı, "konuşanlara görüş eklemek, yazarlarına hadis eklemek" ve yorumculardan gerekli olanlar dışında birçok hikayeyi dışlamak ve her ayete vahy nedenlerini, garip durumlarını ve hükmünü açıklayan konularda hüküm vermektir. {cite:jami-ahkam-quran-resala-v1 p.8}

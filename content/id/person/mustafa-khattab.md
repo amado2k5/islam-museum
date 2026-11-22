@@ -1,0 +1,12 @@
+---
+id: person/mustafa-khattab
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/mustafa-khattab.md}
+---
+## Ringkasan
+
+Mustafa Khattab adalah seorang ulama dan imam Kanada-Mesir, yang terjemahan bahasa Inggrisnya dari Al-Qur'an, "Al-Qur'an yang Jelas," termasuk terjemahan yang paling banyak beredar di Amerika Utara. Sumber tidak memberikan tanggal lahir atau tempat lahir—biografi institusionalnya diam seperti entri ensiklopedia—sehingga catatan ini meninggalkan kelahirannya tanpa spekulasi {cite:wikidata-khattab}{cite:cik-khattab-bio}. Sumber yang tercatat adalah pelatihan lengkap dalam Al-Qur'an dan bahasanya: ia menghafal seluruh Al-Qur'an dalam ukuran kecil, memegang lisensi resmi dalam pembacaan menurut narasi Hafs beserta rantai transmisinya, dan meraih gelar sarjana, magister, dan doktor dalam studi Islam dalam bahasa Inggris dengan predikat kehormatan dari Fakultas Bahasa dan Penerjemahan di Universitas Al-Azhar {cite:wikipedia-khattab-en}.
+
+Khattab adalah anggota tim pertama yang menerjemahkan shalat Taraweeh secara langsung pada Ramadan dari Masjid Agung di Mekah dan Masjid Nabi di Madinah (2002–2005), dan telah memberikan kuliah di Al-Azhar selama lebih dari satu dekade sejak 2003{cite:wikipedia-khattab-en}; biografi institusionalnya mencatat kuliah di Al-Azhar antara 2003 dan 2009, serta kuliahnya tentang Islam di Universitas Clemson (2009–2010){cite:cik-khattab-bio}. Ia telah menjadi imam di Amerika Serikat dan Kanada sejak 2007, bekerja sebagai pembimbing agama untuk Muslim di Universitas Brock (2014–2016), anggota Dewan Imam Kanada, dan Sarjana Fulbright untuk Dialog Antaragama. Catatan institusionalnya mencatatnya sebagai imam di Pusat Islam Anatolia {cite:wikipedia-khattab-en}{cite:cik-khattab-bio}. "Seri Al-Quran Jelas: Terjemahan Bahasa Inggris yang Objektif" (Al-Furqan Foundation, 2015) — diakreditasi oleh Al-Azhar dan didukung oleh Dewan Imam Kanada — menjadi terjemahan default di situs web quran.com pada tahun 2020; seri ini berkembang hingga mencakup edisi anak-anak (2020) dan kamus (2021), bersama dua buku sebelumnya, "The Nation of Islam" (2011) dan "Outperforming Fox News" (2017) {cite:wikipedia-khattab-en}.

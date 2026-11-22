@@ -1,0 +1,15 @@
+---
+id: concept/istirkha-al-lisan
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/istirkha-al-lisan.md}
+---
+## Penyebab dan bukti substansinya
+Relaksasi lidah termasuk di antara jenis relaksasi yang disebutkan sebelumnya, dan penyebab yang diketahui sudah diketahui. Bisa disebabkan oleh kelembapan darah-air, atau mungkin karena penyebab di otak, atau mungkin karena saraf yang menggerakkannya atau cabang yang menghubungkannya. Anda tahu apa yang terjadi di otak dan apa yang terjadi tanpanya, seperti yang Anda temukan pada organ lain yang berasal dari otak dalam hal sensasi dan gerakan. Ini mungkin menunjukkan bahwa zat tersebut berdarah, kemerahan lidah dan suhunya, atau zat tersebut adalah zat tipis dan cair dengan aliran air liur tipis yang berlebihan, penggunaan pelarut terbatas, dan mendapat manfaat termasuk kontraksi {cite:canon-ibn-sina-print-v2 p.255}
+## Jenis gangguan bicara dan kondisi anak laki-laki
+Relaksasi lidah dapat mencapai titik di mana ucapan hilang, sulit, atau berubah, termasuk al-fafa', tamtamam, al-muta'a', dan al-tugh (al-fa'a yang lebih sering mengulang huruf 'fa', atau seseorang yang tidak bisa mengucapkan atau mengucapkan 'tamam' adalah seseorang yang melakukan kesalahan pengucapan, seolah-olah hurufnya adalah ta', meem, al-mut'ta', yang tidak menyadari ucapannya, dan al-thaq, yang tidak bisa mengucapkan huruf 'ra' dengan benar, sehingga ia mengucapkannya 'lama' atau 'ghina' seperti yang ditulis para juru tulis). Di antara anak laki-laki ada yang tidak bisa berbicara dalam waktu lama, dan di antara mereka yang memiliki 'muta'ta' dalam ucapan mereka, ketika mereka mengalami penyakit panas, lidah mereka mulai melarutkan kelembapan yang terperangkap di akar sarafnya. Dengan cara ini, anak laki-laki yang paling lamban tumbuh dan kelembapannya menjadi sedang, dan ia menjadi fasih {cite:canon-ibn-sina-print-v2 p.256}.
+## Perawatannya
+Tubuh harus dibersihkan, lalu kepala harus dibersihkan dengan obat-obatan khusus yang ditemukan dalam penanganan penyakit kepala. Untuk obat yang spesifik di area tersebut, biasanya disarankan menggosok dengan cairan larut, berkumur dengan airnya, dan membilas dengan cairan tersebut. Menggosok lidah dapat membantu membuat tubuh sangat mengeluarkan air liur. Obat-obatan ini dan yang serupa juga diaplikasikan pada leher, dan pil dapat dibuat untuk menguleni agar tidak cepat larut dan menahan butiran di bawah lidah. Jika anak melambat berbicara, ia harus terus menggerakkan lidah, memijat, dan mengeluarkan air liur (meniru, nama, dan bahan dibahas) {cite:canon-ibn-sina-print-v2 p.256} {cite:canon-ibn-sina-print-v2 p.257}
+## Insiden yang dapat dipindahkan
+Seseorang ditahan dan terkena serat keras di dekat membran yang terhubung ke lidah, menyebabkan lidah rileks (kejadian yang disampaikan oleh Kitab sebagai laporan, bukan sebagai rekayasa) {cite:canon-ibn-sina-print-v2 p.258}

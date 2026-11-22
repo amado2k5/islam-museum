@@ -1,0 +1,24 @@
+---
+id: building/citadel-of-cairo
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/building/citadel-of-cairo.md}
+---
+## Özet
+Yumanz Kalenin Mokattam Dağı'nın çıkıntısında inşa edilmesi, [[person/salah-al-din-yusuf-ibn-ayyub|Salah al-Din']] in Kahire mimari tarihine yaptığı en büyük katkı olarak kabul edilir. {cite:yeomans-islamic-cairo-2006 p.105} İnşaat 1176 yılında başladı ve ana kapısı Bab al-Madraj, 1183 yılına tarihlenen bir kurucu yazıt taşır. Yumanz, bunun Selahaddin'in Kahire'den nihai ayrılışından sonraki yıl içinde ilk aşamanın sonunu işaret ettiğine inanır. {cite:yeomans-islamic-cairo-2006 p.107} Yapı [[person/al-malik-al-kamil|Kral Kamil]] tarafından tamamlanmış ve onu oraya yerleşen ilk sultan yapmıştır. {cite:yeomans-islamic-cairo-2006 p.109}
+
+## Pozisyon Seçimi
+Yumanz, Al-Maqrizi'den alıntı yapar; Salah al-Din bu yeri saf havası nedeniyle seçmiş, eti içine koymuş, iki günden fazla yumuşak kalmış ve Kahire'de gece gün bozulmuştur. {cite:yeomans-islamic-cairo-2006 p.105} Yumanz, gerçek motivasyonun savunma zorunluluğu olduğuna inanır; bu, Salah al-Din'in bildiği Levant ve Haçlı kaleleriyle örneklenmiştir. Alan şehri kuzeydoğudan korur ve hükümet ile içerideki askerlerin güvenliğini sağlardı. {cite:yeomans-islamic-cairo-2006 p.105} Arazi boş değildi: Abbasi döneminden beri buraya bir hava kubbesi inşa edilmiş ve Fatımi camileri ile türbeleri yıkılmış, alanı temizlemek için yıkılmıştı. {cite:yeomans-islamic-cairo-2006 p.27} {cite:yeomans-islamic-cairo-2006 p.107}
+
+## İnşaat ve İşçiler
+Al-Maqrizi, Giza'daki bazı küçük piramitlerin taşlarını çıkarmak için yıkıldığını, ancak taşın çoğunun dağın kendisinden kesildiğini, bunun da doğu kale duvarları ile Mokattam duvarları arasında bir boşluk oluşturduğunu belirtir. {cite:yeomans-islamic-cairo-2006 p.105} Endülüslü [[person/ibn-jubayr-muhammad|gezgin İbn Jubeyr]] (MS 1183), taş kesen, mermer serpen ve kalenin etrafına kaya oyulmuş hendek kazan sayısız Roma esirini anlatmıştır. {cite:yeomans-islamic-cairo-2006 p.106} 1187 öncesinde Mısır'da çalışan savaş esirlerinin sayısı elli bin olarak tahmin edilmişti ve Yomanz bu sayıyı muhtemelen 1179 seferlerinden abartılı olarak değerlendirir. {cite:yeomans-islamic-cairo-2006 p.107}
+
+## Duvarlar, kuleler ve kapılar
+Bugün kale kuzey, güney ve alt avluya ayrılmıştır; batıdaki yerleşim alanı ve diwanlar başlangıçta kuzeydeki askeri avludan ayrıydı. {cite:yeomans-islamic-cairo-2006 p.105} Cresswell, Salah al-Din'in surlarının uzunluğunu 1.400 metre olarak tahmin eder; kayaya inşa edilmiş, düz taşla kaplı küçük yarım daire kuleleri vardır; her 100 metrede bir çıkıntı yapan olukları olan haç şeklinde odalar ve duvarlar içinde sürekli bir portiko vardır. {cite:yeomans-islamic-cairo-2006 p.107} 1183 yılına ait üç orijinal kapı kalmıştır: Bab al-Madraj, Bab al-Qarafa ve İmam Kulesi'ndeki doğu kapısı. {cite:yeomans-islamic-cairo-2006 p.107} Bugün giriş kapısı, Muhammed Ali tarafından 1826 yılında inşa edilen yeni kapı ile Eyyubi duvarı arasında yer almaktadır. Girişinin üzerinde, en eski örneklerinden biri olan Naskh yazıtıyla temel yazıtı yer almaktadır; burada sultanlar Jaqmaq, Qaitbay ve Tuman Bey I'in restorasyon yazıtları bulunmaktadır. Koridorunda Al-Nasir Muhammed'in adını taşıyan bir kubbe bulunmaktadır. {cite:yeomans-islamic-cairo-2006 p.107} {cite:yeomans-islamic-cairo-2006 p.108} Sultan Cengblat diğer iki kapıyı 1501 yılında Osmanlılardan koruma olarak mühürlemiştir. {cite:yeomans-islamic-cairo-2006 p.108}
+
+## Al-Kamil Kuleleri
+Al-Kamil, mevcut kuleleri güçlendirip genişletti; Haddad Kulesi ve Ramla Kulesi'ni yeni yarım dairesel birimlerle kapladı ve doğu kapısını İmam Kulesi'ne (1183-1207) genişletti. Kendi başına kale gibi duran devasa kare kuleler ekledi; bunların en iyileri Karkilian Kulesi (Yılan Kulesi) ve Tarfa Kulesi (1207) idi; Tarfa Kulesi yaklaşık otuz metreye otuz metre genişliğindeydi. {cite:yeomans-islamic-cairo-2006 p.109} {cite:yeomans-islamic-cairo-2006 p.110} Bazı odaları hapishane olarak kullanıldı ve Fatımi ailesinin son üyesi Yılan Kulesi'nde öldü. {cite:yeomans-islamic-cairo-2006 p.101} {cite:yeomans-islamic-cairo-2006 p.111} Al-Kamil Kuleleri, Şam ve Bosra kalelerinde de görülen Salah al-Din Al-Amlas kulelerinin taşlarının aksine, kaba kabartmalı taşlarıyla bilinir. {cite:yeomans-islamic-cairo-2006 p.111}
+
+Kale, [[building/bir-yusuf-cairo|Bir Yusuf']] u içerir ve sonraki yapıları arasında [[building/al-nasir-muhammad-mosque|Al-Nasir Muhammad Camii]] ve [[building/ablaq-palace-cairo|Al-Qasr Al-Ablak]] bulunmaktadır. {cite:yeomans-islamic-cairo-2006 p.106} {cite:yeomans-islamic-cairo-2006 p.108}

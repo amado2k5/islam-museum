@@ -1,0 +1,9 @@
+---
+id: concept/nabbash
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/nabbash.md}
+---
+## Ringkasan
+Dalam istilah tertentu, penggali adalah orang yang mencuri kain kafan orang mati setelah pemakaman, dan 'nabsha' adalah profesi menggali makam, sedangkan pencuri lebih umum. Tidak ada perbedaan pendapat mengenai larangan tindakan ini, tetapi ahli hukum berbeda pendapat dalam menganggapnya sebagai pencuri yang tangannya dipotong: mayoritas Maliki, Shafi'i, Hanbali, dan Abu Yusuf berpendapat bahwa jika ia mencuri nisab pencurian, makam biasanya digunakan sebagai perisai pelindung kain kafan. Mereka mendukung narasi Aisha dan Ibn al-Zubayr sebagai bukti bahwa itu tidak dipotong untuk menggali di Arafat. Abu Hanifa, Muhammad, dan lainnya berpendapat bahwa tidak ada potongan pada hadits 'tidak ada potongan pada yang tersembunyi,' yang aneh, dan karena kain kafan itu menolak orang, maka tidak terjaga. Ada perbedaan pendapat mengenai syarat memotong makam: makam harus dalam dan tertutup, seluruh kain kafan harus dikeluarkan dari makam, dan almarhum harus berada di dalamnya. Ada perbedaan pendapat mengenai masalah laut. Penentang penggali dalam mencuri kain kafan di antara para Syafi adalah pemilik pertama kain kafan, sementara Hanbal menganggap ahli waris. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15440} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15441} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15442} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15443} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15444} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15445}

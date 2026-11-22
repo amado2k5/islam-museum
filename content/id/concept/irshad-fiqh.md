@@ -1,0 +1,14 @@
+---
+id: concept/irshad-fiqh
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/irshad-fiqh.md}
+---
+## Panduan
+Panduan adalah makna linguistik dari panduan dan indikasi; dikatakan sebagai panduan menuju sesuatu, dan karenanya: membimbingnya. Para sarjana prinsip menyebut bimbingan sebagai salah satu makna metaforis yang dirujuk pada perintah tersebut, dan mendefinisikannya sebagai pengajaran tentang materi duniawi. Mereka mengilustrasikannya dengan memerintahkan kutipan dua orang dalam ayat Surah Al-Baqarah (282). Itu mendekati rekomendasi karena mereka berbagi keinginan untuk mencapai manfaat, tetapi rekomendasi adalah untuk kepentingan dunia lain, dan panduan adalah untuk kepentingan duniawi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2187}
+Ahli hukum menggunakan panduan untuk menunjukkan kebaikan dan minat, baik duniawi maupun lain, dan mereka juga menggunakannya dalam arti usuli. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2187}
+Panduan identik dengan nasihat, memerintah kebaikan, dan melarang kejahatan, tetapi beberapa ahli hukum telah mengadopsi ungkapan 'memerintahkan kebaikan dan melarang kejahatan' dalam apa yang mereka sepakati secara bulat tentang kewajiban atau larangannya, dan telah menyatakan panduan dalam masalah perselisihan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2187}
+Para ahli usul (usul) menyebutkan bahwa jika kepentingan perintah panduan adalah kepentingan duniawi, maka tidak ada ganjaran jika dilakukan hanya untuk tujuan duniawi; jika dilakukan dengan kepatuhan dan penyerahan kepada Tuhan, maka itu diberi ganjaran untuk hal eksternal. Jika niatnya adalah untuk mematuhi dan meraih manfaat, maka ia pantas mendapatkan hadiah yang lebih kecil daripada hadiah hanya untuk berniat mematuhi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2187}
+Putusan tentang membimbing orang menuju kebaikan, membimbing mereka ke arahnya, dan memberi nasihat menurut para ahli hukum adalah kewajiban, berdasarkan firman Allah dalam Surah Al-Imran (104) tentang bangsa yang menyeru kepada kebaikan, dan hadits: "Agama adalah nasihat yang tulus," asalkan dilakukan dengan lembut dan lembut, karena lebih dekat dengan penerimaan. Tempat kewajiban adalah ketika seseorang mencurigai manfaat dan tidak takut akan manfaat itu untuk dirinya sendiri, kekayaannya, atau orang lain. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2187}
+Putusan perintah panduan menurut para sarjana prinsip dalam pembahasan perintah, dan di antara para ahli hukum dalam diskusi tentang memerintahkan kebaikan dan melarang kejahatan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2188}

@@ -1,0 +1,36 @@
+---
+id: concept/khalwa
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/khalwa.md}
+---
+## Özet
+Birçok sonraki tasavvuf [[concept/tasawwuf|için "geri çekilme]]", arayanların belirli bir anma ve kalp toplama yerinde yalnızlığıdır; bazen kırk gün olarak tahmin edilir. [[work/majmu-al-fatawa|Majmu' al-Fatawa'nın onuncu cildinde]] İbn Teymiyye [[person/ibn-taymiyya|, sonraki alimler arasında gerçekleşen]] bazı ibadet türlerini tartışırken "yenilikçi inzivalar" olarak adlandırdığı şeyleri tartışır ve bunların meşru i'tikaf olarak kabul edildiğini söyler. {cite:majmu-fatawa-qasim-v10 p. 393} {cite:majmu-fatawa-qasim-v10 p. 404}
+
+## Şeriat I'tikaf ve Geri Çekilme
+İbn Teymiyye, Peygamber ve sahabeleri gibi camilerde itikaf yapmak, ki bu meşru bir ibadet eylemidir, ile yeni kurulmuş inzivayı ayırır. {cite:majmu-fatawa-qasim-v10 p. 393} Bazıları, Peygamber'in vahiy öncesi Hira Mağarası'nda i'tikaf yapmayı reddetmesini reddeder: peygamberlikten önce yaptığı şey, sonrasında koyduğu yasalarla takip edilir. Hicretten birkaç yıl önce Mekke'de yaşamasına ve fetih yılı olan Kade'nin Umresi ile Veda Hac için girmesine rağmen, Allah ya da doğru rehber halifelerinin ona bildirdiği şekilde Hira Mağarası'na çıkmadığı belirtilir. Söylenene göre, İslam öncesi dönemde Kureyş'in gelmesini emreden Abdul Muttalib'dir. {cite:majmu-fatawa-qasim-v10 p. 393}
+
+## Kırklı yıllar
+İbn Teymiyye, bir grubun inzivayı kırk gün olarak gördüğünü ve önemini büyüttüğünü anlatır; Musa'nın Tanrı'nın on geceyi tamamladığı otuz gece atandığını ve İsa'nın kırk gün oruç tutmasıyla ilgili rivayetlere dayanarak, hitap ve inişin Hira Mağarası'ndan sonra vahy gibi gerçekleştiğini söyler. Bunun, Musa'ya Şabat'ın verildiği ve Müslümanların Şabat'ı uygulamadığı gibi, kaldırılmış bir yasaya bağlılık olduğuna inanır. {cite:majmu-fatawa-qasim-v10 p. 394}
+
+## İbn Teymiye tarafından sunulan Ebu Hamid'in yöntemi
+İbn Teymiyye, inzivadaki kişilerin bazılarının dua, oruç, ezet ve anma gibi dini ibadet türlerine bağlı kaldığını söyler. Bunların çoğu, [[person/al-ghazali-abu-hamid|Ebu Hamid el-Hazali yöntemi de dahil olmak üzere yasadışı kategorilere]] ayrılır: inzivadaki kişinin namaz kılmayı aşmaması, ne hadis okumaması ne de incelemesi ve hatırlaması emredilir; anma genel ifadesi 'La ilaha illa Allah', 'Allah Allah' ve 'Huhu Huhu' gibi özel ifadeler olarak ikiye ayrılır. {cite:majmu-fatawa-qasim-v10 p. 396} İbn Teymiyye, tekil biçimde anmanın şeriatta bir yenilik ve dilsel bir hata olduğunu düşünür çünkü soyut ad sadece konuşma değildir. En iyi sözler ve hatırlar olan hadisleri aktarır: Allah'a şükürler olsun, Allah'tan başka bir ilah yoktur ve Allah Büyüktür. {cite:majmu-fatawa-qasim-v10 p. 396} El-Gazali [[work/ihya-ulum-al-din|'nin bu uyandırma yöntemini sıkça]] övdüğü, hitabı Musa gibi duyduğunu, hatta amaçlamasa bile söylediği anlatılır. İbn Teymiyye bunu felsefesinin bir kalıntısı olarak görür; çünkü [[person/ibn-sina|İbn Sina gibi filozof]], bilgi kalplerinde olanların "aktif akıldan" taştığını iddia eder. {cite:majmu-fatawa-qasim-v10 p. 398}
+
+## Yanıtlar
+İbn Teymiyye, bu yaklaşımı çürütmenin birkaç yönünü sıralar; bunlar arasında: 'etkin aklın' gerçek olmadığı; kalplere düşenin doğru ise melekler, sahte ise şeytanlar aracılığıyla olduğunu; peygamberlerin vahiyi melekler veya konuşma yoluyla aldığı, sadece taşma yoluyla değil; kalbini her düşünceden boşaltan kişinin içinde olanların doğru olduğunu bilmediği; ve kalp Tanrı'nın hatırlamasından yoksunsa, Şeytan'ın onu koruyucu olarak kabul ettiğini. {cite:majmu-fatawa-qasim-v10 p. 398} {cite:majmu-fatawa-qasim-v10 p. 399} Bu bölümün, merhametli devletleri arayanların şeytani hallerden şüphe ettiğini ve azizlerin mucizelerini hayal ettiklerini söyler. {cite:majmu-fatawa-qasim-v10 p. 400} Elçi'nin getirdiği boşluğun, kalbi Tanrı'nın sevmediği şeylerle boşaltmak ve sevdiği şeylerle doldurmak olduğunu görür: tapınma, sevgi, korku ve Tanrı'ya güven. {cite:majmu-fatawa-qasim-v10 p. 401} El-Gazali, kalbin arınmasının Çin halkının yazıtını temsil etmek için Romalıların duvarının parlatılmasına benzetilmesini eleştirir. Al-Gazali'nin bilgiyi 'astronomik ruha' kazıdığını ve buna İbn Sina'nın ardından Korunan Levha olarak adlandırdığını düşünür. {cite:majmu-fatawa-qasim-v10 p. 402}
+
+## Açlık, uykusuzluk ve sessizlik
+İbn Teymiyye, inzivaya çekilenler arasında, İbn Arabi ve onun yolunu takip edenlerin ayrıntılı anlattığı [[person/ibn-arabi-muhyi-al-din|gibi, belirli anıları, belirli geçimleri ve bilinen vahiyleri]] olanların olduğunu, açlık, uykusuzluk ve sessizlik ile yasal sınırları olmayan inzivayı emrettiklerini belirtir. {cite:majmu-fatawa-qasim-v10 p. 403} [[person/abu-talib-al-makki|Ebu Talib el-Makki'nin]] bunlardan bazılarını andığını, ancak Kur'an ve Sünnet'e daha çok bağlı kaldığını, zayıf veya hatta uydurma hadislerden bahsettiğini, örneğin el-Hidr'den rivayet edilen 'el-Masba'at' hadisleri ve gündüz ve gece duaları gibi şeylerden bahsettiğini söyler. {cite:majmu-fatawa-qasim-v10 p. 403} {cite:majmu-fatawa-qasim-v10 p. 404}
+
+## Meşru Geri Çekilme
+İbn Teymiyye, meşru inzivanın ve inzivanın olumlu emredilenler veya tavsiye edilenler olduğunu söyler: yasak şeylerden kaçınmak ve kaçınmak zorunludur ve insanların izin verilen ve faydasız şeylerden uzaklaşmaları tavsiye edilir. Tawus'un şu sözünden atıfta bulunur: Evet, bir erkeğin inzivası onun evidir. Cuma ve cemaat namazını sürdürürken bilgi veya çalışma peşinde koşan bazı yerleri terk eden haklıdır ve bir vadide namaz kılıp zekat verdiği bir mutazila adamının hadisini aktarır. {cite:majmu-fatawa-qasim-v10 p. 404} {cite:majmu-fatawa-qasim-v10 p. 405} Bu, [[question/is-seclusion-better-than-company-for-the-seeker|yolcunun yalnızlığı mı yoksa karışmayı mı tercih etmesi meselesiyle ilgilidir]]. Mağaralar, mezarlar ve arkeolojik alanlar gibi namaz çağrısı veya cemaat olmayan yerlerde inzivada olanların niyetini eleştirir ve orada başlarına gelenlerin mucize olarak gördükleri şeytani devletler olduğuna inanır. {cite:majmu-fatawa-qasim-v10 p. 406}
+
+:::perspectives
+**Ehl-sünnet (Hanbali): Majmu' al-Fatawa'da İbn Teymiye.** Belirli bir zamanda veya belirli anmalarda belirlenen yeni inzivalar yeniliktir ve öngörülen inziva, camilerde i'tikaf'tır; kötülükten ve Cuma günleri ile cemaat namazı sırasında izin edilen fazlalıklardan kaçınılır. {cite:majmu-fatawa-qasim-v10 p. 404} {cite:majmu-fatawa-qasim-v10 p. 405}
+
+**Sufiler: İbn Teymiye tarafından sunulan Ebu Hamid el-Gazali ve onu takip edenler.** Zorunlu dualar, anma ve kalbi boşaltmakla sınırlı geri çekilmek, arayanların uyanışta açığa çıkarılması ve övgüye ulaştığı bir yoldur. {cite:majmu-fatawa-qasim-v10 p. 396} {cite:majmu-fatawa-qasim-v10 p. 398}
+:::
+
+## Burada bahsedilmeyenler
+El-Gazali'nin ve tasavvuf yöntemleri inzivadaki yöntemler burada İbn Teymiye'nin aktarımı ve eleştirisiyle sunulmakta ve bunlar İhya ile tarikatların kitaplarından sunulmalıdır; henüz tasavvuf tarikatlarına veya akademik çalışmalara inzivanın tarihini dahil etmemişlerdir.

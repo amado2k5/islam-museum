@@ -1,0 +1,27 @@
+---
+id: concept/al-daruriyyat-al-khams
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/al-daruriyyat-al-khams.md}
+---
+## Özet
+[[person/abu-ishaq-al-shatibi|El-Şatibi'ye göre, ']] El-Müvafakat'tan [[work/al-muwafaqat|Al-Makasid kitabında]], Şeriatın üç [[concept/maqasid-al-shariah|amacının birincisi: gerekli, gerekli ve iyileştirici. {cite:muwafaqat-draz-ilmiyya p. 221} Bu, bunların din ve dünyevi yaşamın çıkarlarının tesisi için vazgeçilmez olduğu anlamına gelir; böylece kaybedilirlerse, dünyevi çıkarlar doğruluğa değil, yozlaşmaya, aldatmaya ve can kaybına yol açar; ahirette ise kurtuluş ve mutluluğun kaybına yol açar. {cite:muwafaqat-draz-ilmiyya p. 221} Bunların toplamı beşten oluşur: din, yaşam, soy, zenginlik ve aklın korunması. El-Şatibi şöyle der: "Dediler ki: Her dinde bir düşünce vardır." {cite:muwafaqat-draz-ilmiyya p. 222}]]
+
+## Varoluşun ve yokluğun hem de yokluğun hem de yokluğun her iki tarafından ezberleme
+El-Şatibi, gerekliliklerin korunmasının iki şekilde yapıldığını belirtir: temellerini kuran ve ilkelerini belirleyen, yani varoluş açısından gözlemlemek; ve herhangi bir gerçek ya da beklenen bozulmayı engelleyen şey, yani onları yokluk açısından gözlemlemektir. {cite:muwafaqat-draz-ilmiyya p. 221} İbadetin temelleri, iman ve iman tanıklığı, dua, zekat, oruç ve hac gibi temeller, dinin varoluş açısından korunmasına dayanır; yiyecek, içecek, giysi ve konfor tüketimi gibi gelenekler, yaşamın ve zihnin varoluş açısından korunmasına bağlıdır; işlemler ise varoluş perspektifinden soy ve serveti korumaya bağlıdır. {cite:muwafaqat-draz-ilmiyya p. 221} İyiliği emretmek ve kötülüğü yasaklamakla birleşen suçlar, herkesin var olmama yüzünden korunmasını ifade eder: kısa ve ömür boyu kan parası, akla cezalandırma ve mülkiyetin kesilmesi ve sorumlu tutulması gibi. {cite:muwafaqat-draz-ilmiyya p. 222}
+
+## Zorunluluklardan sonra
+- **İhtiyaçlar**: Sıkıntıların genişlemesi ve hafifletilmesi açısından eksik olan, bu genellikle zorluk ve sıkıntıya yol açar. İhmal edilirse, zorluk olağan yolsuzluk seviyesine ulaşmadan hesap verebilir. Örnekler arasında hastalık ve seyahat nedeniyle hafifletilen ibadet eylemleri; gelenekte avlanma ve iyi şeylerin tadını çıkarma izinlidir; işlemler, borçlar, değişim ve salam; ceza davalarında qasama ve aqilah'a kan parası dayatma; ve zanaatkârların sorumlu tutulması yer alır. {cite:muwafaqat-draz-ilmiyya p. 222} {cite:muwafaqat-draz-ilmiyya p. 223}
+- **İyileştirmeler**: Geleneklerin erdemlerine uygun olanı benimsemek ve hakim zihinlerin reddettiği kirli hallerden kaçınmak. Bu, asil ahlak kategorisiyle birleştirilir; örnekler arasında kirlerin giderilmesi, özel bölgelerin örtülmesi, yeme ve içme görgü kuralları ve kirli maddelerin satışının yasaklanması yer alır. {cite:muwafaqat-draz-ilmiyya p. 223}
+- **Al-Mukamilat**: Her seviyenin kendi tamamlayıcısı ve tamamlayıcısı vardır; böylece kaybı zorunluysa, eşit ceza, adil bakım, tazminat, mahram dışı kadınlara bakmanın yasaklanması, küçük sarhoş maddelerin yasaklanması ve cemaat ile cuma namazı gibi dini ritüellerin sergilenmesi gibi orijinal bilgeliğini etkilemez. {cite:muwafaqat-draz-ilmiyya p. 223}
+
+## Daraz'ın yorumları
+Abdullah Daraz, kenar notlarında al-Şatibi'nin dini korumayı genişlettiğini, bunu tüm yükümlülükler için bir amaç haline getirdiğini, diğerlerinin ise zina cezasını soy türlerinin karışması nedeniyle çocukları korumak için koyduğunu ve bu konuda al-Şatibi'nin ne dediğini net olarak belirtmediğini belirtir. {cite:muwafaqat-draz-ilmiyya p. 221} {cite:muwafaqat-draz-ilmiyya p. 222} 'Şerh al-Tahrir'den alıntılandığı gibi, amaçların bu beşle sınırlandırılması, gerçeklik ve tarikatların geleneklerine bakarak tümevarım yoluyla belirlenir. {cite:muwafaqat-draz-ilmiyya p. 222} Girişinde, Daraz, el-Şatibi'den önceki ilke âlimlerinin amaçları gereklilik, ihtiyaç ve iyileştirmeler olarak ayırmaktan sadece benzetme bölümünde nedeni ayırırken bir referans olarak belirttiklerine inanır. {cite:muwafaqat-draz-ilmiyya p. 6}
+
+## Burada bahsedilmeyenler
+Kitabın birinci türü El-Makasid'in diğer sayıları (tamamlayıcı metinler ve bunların koşullarını dikkate alarak gereklileri diğerlerinden önceliklendirme) burada belirtilmemiştir, ayrıca bu bölünmenin tarihi El-Şatibi'den önce gelenlere göre de belirtilmemiştir.
+
+## Al-Shatibi öncesi El-Gazali'de
+Al-Ghazali [[person/al-ghazali-abu-hamid|, ']] Al-Mustasfa' adlı eserinde, [[work/al-mustasfa|Şeriatın yaratılış için beş amacı olarak görür: dinlerini, hayatlarını, zihinlerini, soylarını ve servetlerini korumak, korunmalarını gereklilikler arasında koymak, bunu zorunluluk düzeyine eşitlemek, yanlış yönlendirilmiş kâfiri öldürmek, dini korumak için yeniliklerini çağıran yenilikçileri cezalandırmak, hayatları korumak için intikam, zihinleri korumak için içki içmenin cezası, soy ve soyu korumak için zina cezası ve zenginliği korumak için gaspçılar ve hırsızların cezalandırılması. Bu beş ilkeyi kaçırmanın yasaklanmasının herhangi bir tarikat mezhebi olmadan mümkün olmadığını düşünür. {cite:mustasfa-tijariyya-1356-v1 p.144} Ayrıca bakınız]]: El-Maslah el-Mursalah [[concept/al-maslaha-al-mursala|]].

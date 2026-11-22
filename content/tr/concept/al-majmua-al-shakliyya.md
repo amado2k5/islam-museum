@@ -1,0 +1,20 @@
+---
+id: concept/al-majmua-al-shakliyya
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/al-majmua-al-shakliyya.md}
+---
+## Özet
+Tariq Al-Suwaidan 'nominal grup tekniğini' Wisconsin Üniversitesi tarafından icat edilen ve zamanın ne olduğunu anlamak için on binden fazla toplantıyı doktora araştırmasına tabi tutan bir toplantı yönetim yöntemi olarak tanımlıyor; araştırmalar, zamanın dörtte birinde normal yöntemin dört katını—on altı kat daha iyi—verdiğini ve şu anda öğretilen versiyonun revize edilmiş nominal grup olduğunu göstermektedir: ⁦(needs_source للأرقام)⁩, {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:50:30}, {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:51:00}, {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:52:30}, {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:53:00}.
+Formalizm olarak adlandırıldı çünkü insanlar tartışmadan koltuklarında oturur — ki bu etkinliğinin sırrıdır {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:02:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:08:30}.
+
+## Onun Beş Adımı
+İlk adım, maddenin alt başlıklarını tartışmadan belirlemektir; ikinci adım, her kişinin görüşünü sessizce ayrı ayrı yazmasıdır — moderatörün kuralı: yazdıkları sürece süre uzatar ve çoğu durursa adım sona erer — üçüncüsü ise tüm görüşleri sırayla tek tek ve tekrarlanmadan belirgin bir yerde toplamak; dördüncü adım sadece itirazlar ve soruşturmalar açmak — hukuki nedenlerle veya doğrulama amaçlı yapılan itirazlar, görüşler değil — ve beşinci adım {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:54:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:55:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:56:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:57:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:59:30} oylamasıdır.
+
+## Oy verme
+Çelişkili önerilerde—bir derginin tek bir adı olarak—her kişi tartışmasız üç oy hakkına sahiptir; net bir görüş ortaya çıkarsa madde sona erer; aksi takdirde, her öneriyi destekleyen ve karşı çıkan sınırlı bir tartışma başlatılır, ardından her kişi için bir oy verilir ve eşitlik başkanın oyuyla belirlenir {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:01:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:02:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:04:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:05:30}.
+Entegre önerilerde—birbirini birleştiren hedefler olarak—her öneri ayrı ayrı tek çoğunluk oyu ile oylanır ve iki iç hedef çatıştığında seçmenler, birinin zaferinin diğerini geçersiz kıldığı konusunda uyarılır {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:06:30}, {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:07:30}, {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:08:30}.
+
+## Sınırları
+Onun için resmi grup, entelektüel veya bilimsel görüşler oluşturmak amacıyla yapılan toplantılar için uygun değildir—bunlar tartışma gerektirir ve bir kişinin görüşü tüm görüşlerinden daha iyi olabilir—daha çok günlük işleri yönetmek içindir; beyin fırtınası hakkında bazı durumlar için uygun olduğunu ve alışılmış yöntemden daha fazla alternatif sunduğunu, ancak çoğuna uygun olmadığını söyler {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:06:00}, {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:09:30}, {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:10:00}.

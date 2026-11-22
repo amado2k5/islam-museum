@@ -1,0 +1,12 @@
+---
+id: person/ahmad-ibn-al-hasan-al-zarkashi
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/ahmad-ibn-al-hasan-al-zarkashi.md}
+---
+## Tanım
+Ahmad ibn al-Hasan, İbn al-Zarkashi, Şihab al-Din olarak bilinir, bazı bilimlerde yer almış bir hukukçuydu. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10349}
+
+## Ders ve Sınıflandırmalar
+El-Hüssemiye Okulu'nda eğitim aldı ve eserleri arasında Şerh el-Hidayah bulunmaktadır. 733 Hicri'de öldü. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10349}

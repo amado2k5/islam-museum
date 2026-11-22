@@ -1,0 +1,12 @@
+---
+id: concept/al-zafara
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/al-zafara.md}
+---
+## Sınırları ve çeşitleri
+Bu, konjonktiva veya gözü çevreleyen diyaframdan gelen bir ektir; çoğu durumda başlayıp her zaman konjonktivanın üzerinden geçer, bazen korneayı kandırır ve forameni kapatmak için içeri girer. Bazıları daha sert, bazıları yumuşaktır ve bazıları sarı, kırmızı veya karaciğer renginde olabilir. Dhabradan, konjonktivaya bitişik olan ve hızlı ve en hafif askıda kalan konjonktivaya bitişik olan kısımdır; diğerleri ise soyulması gereken bir birleşiğin bitişiğidir {cite:canon-ibn-sina-print-v2 p.186}
+
+## İşleme
+En iyi yöntem, özellikle demir eksikliği nedeniyle kazımaktır. Sert olanlara gelince, uygulanmazsa kazımak zarar verir ve olta ile çıkarılmalıdır. Askıya düşerse kolayca ödünç verilebilir. Saç veya ipekle soyulamıyorsa, altına iğne veya nazik bir bıçak ucu ile delinmelidir. Bu bir veya iki yerde gereklidir. Eğer işe yaramazsa, keskin olmayan bir ütüyle nazikçe soyulmalıdır. Mümkün olduğunca atkı yırtığı ortaya çıkaracak noktaya maruz kalmadan çıkarılmalıdır. Renk aralarındaki farkı gösterir (kazıma, ödünç alma ve soyma açıklamaları kitapta anlatıldığı gibi aktarılır, bir iş olarak değil). Göz kapağındaki konjonktiva kesmek için hiçbir şey kullanılmazsa, hasta gözü sürekli çevirmelidir, ardından üç gün sonra kalan kısmı keskin yarıklarla çıkarılır. İlaç kullanımı ise dhaphra'nın kalınlaşması için büyük bir sorun değildir. Yine de, çok berrak ve çürümüş (kohl, shyafāt isimleri ve damlaların alınmadığı gibi) karışımı olduğu için göz bebeğinde keskin bir sızı olur. İlaç kullanmadan önce, göz ısınana kadar sıcak buharın üzerine dökülmeli, yüz kızarmalı veya yıkanmak için kullanılmalıdır. Bence kaynar şurup veya az miktarda karışık şurup üzerine dökülüp dhabraya sürtülmelidir (kitaptaki yazarın görüşü). Kalın, kırmızı ve yaşlanmış bir parmağım olan ben, rengi yeşile dönene kadar aşırı sıcak suya karıştırılmış bir ilacı denedim ve kullandım, çok faydalı buldum (kitaptan aynı yazara atfedilen bir deney raporu ve adı olmayan ilac) {cite:canon-ibn-sina-print-v2 p.186} {cite:canon-ibn-sina-print-v2 p.187}

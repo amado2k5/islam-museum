@@ -1,0 +1,18 @@
+---
+id: person/al-jawhari-abu-nasr-ismail-ibn-hammad
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/al-jawhari-abu-nasr-ismail-ibn-hammad.md}
+---
+## Özet
+Ebu Nasr İsmail bin Hammad al-Jawhari al-Farabi, Farablı bir dilbilimciydi; [[work/al-sihah-jawhari|Sihah, dilin tacı ve doğru Arapça koleksiyonlarının sözlüğünün]] yazarıdır. {cite:mawsuat-a3lam-ulama-adaba} {cite:sihah-attar-1979-v1 p.1} Bakri, Şeyh Amin, 'Mu'jam al-Udaba' adlı eserinde Yaqut al-Hamawi'den alıntı yapar: 'Al-Jawhari, dönemin zeka ve anlayış harikalarından biriydi; kökeni Türk topraklarından, Farab'dan gelir ve dilbilim ile edebiyatın önde gelen bir figürüdür.' {cite:sihah-attar-1979-scan-b p.21} 'Alim ve Yazarların Seçkinleri Ansiklopedisi'nde 'al-Jawhari' adının nedeni bilinmemektedir. {cite:mawsuat-a3lam-ulama-adaba}
+
+## Bilgi Arayıcıları ve Yolculuğu
+El-Cevhari, Ebu [[person/abu-ali-al-farisi|Ali el-Farsi]] (ö. 356 Hicri) ve [[person/al-sirafi|Ebu Seyid el-Sirafi]] (ö. 368 Hicri) ile Arapça eğitimi aldı ve eğitimini Hicaz âlimlerinden ve onların vatanlarındaki Araplardan aldı. Rebi'ye ve Mudra topraklarını gezdi, ardından Horasan'a döndü ve ardından [[place/nishapur|Nişapur'a]] giderek öğretmen, yazar ve hat sanatı öğretmeni olarak yaşadı. {cite:sihah-attar-1979-scan-b p.21} {cite:sihah-attar-1979-scan-b p.22} Annesinin kardeşi [[person/ishaq-ibn-ibrahim-al-farabi|, 'Diwan al-Adab'ın yazarı Ebu İbrahim İshaq ibn İbrahim el-Farabi'dir]] ; Attar, Yakut'tan al-Jawhari'nin el yazısıyla yazılmış 'Diwan al-Adab' adlı bir kopyasını gördüğünü ve bu eserin Farab'da Ebu İbrahim'e okuduğunu belirttiğini bildirir. Attar bu ifadeyi yanlış bulur çünkü el-Farabi kitabını Zabid dilinde yazmış ve orada ölmüştür. {cite:sihah-attar-1979-scan-b p.7}
+
+## El-Sihah
+Al-Jawhari, Nişapur'da Abu Mansur Abdul Rahim Al-Bishki için Al-Sihah'ı yazdı ve edebi bir bilim alımı ve fıkıh ilkelerinin vaiziydi. {cite:sihah-attar-1979-scan-b p.22} Usul'ü daha sonraki ve sonra başlangıcı doğrultusunda düzenledi ve editörü Ahmed Abdul Ghafoor Attar, onu sözlükler okulunun başında görmüş, ardından Lisan al-Arab ve Al-Qamus'u takip etmiştir. Metodolojisini kendisinin icat ettiğine ve Al-Bandaniji'nin "Takfiye Kitabı"nı okumadığına inanır; [[question/did-al-jawhari-originate-the-method-of-al-sihah|bakalım Al-Jawhari Sihah koleksiyonlarının metodolojisinin yaratıcısı mı]]?. {cite:sihah-attar-1979-v1 p.21} {cite:sihah-attar-1979-v1 p.36} Attar, Al-Jawhari'nin girişinde "daha önce hiç yapmadığım bir sırayla" düzenlediğini bildirir. {cite:sihah-attar-1979-v1 p.30}
+
+## Ölümü
+Bakri Şeyh Amin'in aktardığına göre biyografik kitaplar, Al-Jawhari'nin fısıltılarla yakalandığını, bu yüzden Nişapur'daki eski caminin çatısına çıkıp şöyle dediğini anlatır: Bu dünyada daha önce hiç yapmadığım bir şeyi yaptım, bu yüzden ahiret için daha önce hiç yapmadığım bir şeyi yapacağım. İki kapı kapattı ve uçtuğunu iddia etti, bu yüzden kendini attı ve öldü. {cite:sihah-attar-1979-scan-b p.22} Ölüm yılı konusunda anlaşmazlık var: ansiklopedi ve Daral-Hadis baskısı 398 Hile anılıyor. Bakri Şeyh Amin, araştırmacıların Attar'ın bahsettiği yıl olan 393 Hicri yılını tercih ettiğini, Halil-Atiyah ise 400 H.Y. yılını anıyor. {cite:mawsuat-a3lam-ulama-adaba} {cite:sihah-tamir-dar-al-hadith-2009 p.1} {cite:sihah-attar-1979-scan-b p.22} {cite:sihah-attar-1979-v1 p.20} {cite:sihah-attar-1979-v1 p.24}

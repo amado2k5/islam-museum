@@ -1,0 +1,15 @@
+---
+id: person/sulayman-i-of-tlemcen
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/sulayman-i-of-tlemcen.md}
+---
+## Ikhtisar
+Sulayman ibn Abdullah ibn al-Hasan ibn al-Hasan ibn Ali ibn Abi Talib, dari keluarga Hashimite al-Hasan, dan saudara Idris {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 15 p. 242}. Al-Safadi menyebutkan dalam Al-Wafi bahwa ia termasuk di antara mereka yang pergi bersama al-Husayn ibn Ali ibn al-Hasan dalam perangkap ketika memberontak melawan al-Hadi, dan bahwa ia dibunuh. Ia kemudian mengutip narasi lain dari al-Bayhaqi {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 15 p. 242}. Al-Safadi tidak menyebutkan tahun kelahiran atau kematiannya dalam biografi ini.
+
+## Dua cerita berdasarkan pengalamannya
+Al-Safadi mengatakan bahwa Al-Bayhaqi menyebutkan bahwa ia dikenal sebagai Suleiman dari Maroko dan mengklaim bahwa ia tidak dibunuh oleh jebakan tetapi masuk ke Maroko untuk meminta perintah. Hal ini memaksanya melarikan diri hingga ia bekerja sebagai pelaut di laut dan bekerja sebagai tentara bayaran unta di darat. Para gubernur Abbasiyah mencarinya, sehingga bangsa Berber membelanya {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 15 p. 242}. Al-Safadi mengutip ayat-ayat di mana ia mengatakan bahwa mereka adalah suku Barat yang mendukungnya, termasuk dalam bangsa Berber, menjaga Nabi dan hukumnya dalam keluarganya, dan bahwa tidak merugikan mereka bahwa Hashim meninggalkan mereka dan memberinya keluarga yang bukan dari garis keturunannya. Ayat-ayat lain memuji Tuhan karena membimbing orang melalui kakeknya dan mengatakan bahwa mereka adalah putra dan keturunannya {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 15 p. 242}.
+
+## Di Tlemcen dan keturunannya
+Al-Safadi menyebutkan bahwa hubungannya berlangsung hingga ia datang ke Tlemcen, di mana keturunan saudaranya Idris, termasuk Imamat, menghormatinya hingga ia wafat {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 15 p. 242}. Kemudian terjadi perselisihan antara kedua kelompok tersebut, sehingga mereka mengusir keturunannya ke Barat Tengah sesuai dengan konteks frasa {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 15 p. 242}. Putra-putranya yang paling terkenal adalah Hamza ibn Sulayman, yang menjadi milik mereka pasar Hamza di Maroko. Putra-putranya mewarisi posisi tersebut di sana hingga Jawhar al-Mu'izzi datang kepada mereka. Ia membawa masing-masing yang terkenal ke al-Mu'izz dan menyingkirkan mereka dari kerajaan mereka. Sisa-sisa dari mereka tetap berada di pegunungan dan pinggiran, terkenal dan dihormati di antara suku Berber {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 15 p. 242}. Al-Safadi mengatakan bahwa ia adalah ayah Muhammad yang masuk Maghreb {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 15 p. 242}.

@@ -1,0 +1,34 @@
+---
+id: person/khedive-ismail
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/khedive-ismail.md}
+---
+## Ringkasan
+Ismail Pasha adalah Khedive Mesir dari tahun 1863 hingga 1879, putra kedua [[person/ibrahim-pasha-misri|Ibrahim Pasha]] dan cucu Muhammad [[person/muhammad-ali-pasha|Ali]]. {cite:encyclopaedia-of-islam-2 vol. 4 p. 205} Ensiklopedia Islam menggambarkannya ambisius seperti kakeknya tetapi bekerja tanpa sumber daya militer dan kekuatan pribadi yang dimiliki kakeknya, dan berusaha mencapai banyak hal dalam waktu singkat. {cite:encyclopaedia-of-islam-2 vol. 4 p. 205}
+
+## Kehidupan dan Karier Awal
+Ia lahir di [[place/cairo|Kairo]] pada 31 Desember 1830, dan menerima pendidikan dasar di sekolah istana swasta yang didirikan oleh Muhammad Ali untuk keluarganya, di mana ia belajar bahasa Arab, Persia, dan Turki. {cite:encyclopaedia-of-islam-2 vol. 4 p. 205} Ia kemudian dikirim ke Paris dalam misi pendidikan Mesir, di mana ia mempelajari bahasa Prancis, beberapa ilmu modern, dan aspek teknik, lalu kembali ke Mesir pada tahun 1848. {cite:encyclopaedia-of-islam-2 vol. 4 p. 205}
+
+Setelah Abbas I naik ke tampuk kekuasaan, ia pergi bersama pangeran-pangeran lain dari keluarga tersebut ke [[place/istanbul|Istanbul]] untuk sementara waktu, dan Sultan Abdulmejid mengangkatnya sebagai anggota Dewan Kehakiman Negara. {cite:encyclopaedia-of-islam-2 vol. 4 p. 205} Selama masa pemerintahan pamannya Said Pasha, ia kembali ke Mesir pada tahun 1854 dan memimpin dewan yang sama. Pada tahun 1855, ia dikirim ke istana Napoleon III di Paris dan memimpin misi lain ke Vatikan. Pada tahun 1861, Said mengangkatnya sebagai komandan tentara, yang berarti panglima tertinggi. {cite:encyclopaedia-of-islam-2 vol. 4 p. 205} Artikel tersebut mencatat bahwa ketika ia menjadi gubernur pada 18 Januari 1863, ia memiliki pengalaman luas dalam administrasi, diplomasi, urusan militer, dan pengetahuan langsung tentang Eropa serta Sublime Porte. {cite:encyclopaedia-of-islam-2 vol. 4 p. 205}
+
+## Tiga tujuannya
+Artikel tersebut menyatakan bahwa kebijakannya memiliki tiga tujuan: kemerdekaan yang lebih besar dan akhirnya sepenuhnya dari Sultan Ottoman, mempercepat modernisasi komersial, militer, dan budaya, serta membangun sebuah kekaisaran di Afrika. {cite:encyclopaedia-of-islam-2 vol. 4 p. 205} Artikel ini berargumen bahwa ketiga tujuan ini membutuhkan hubungan berisiko dengan Inggris dan Prancis, konfrontasi berbahaya dengan kedaulatan Ottoman, pengeluaran besar yang berakhir dengan kehancuran, dan bahwa Westernisasi yang cepat menanam benih kerusuhan ekonomi, sosial, dan budaya. {cite:encyclopaedia-of-islam-2 vol. 4 p. 205}
+
+## Firman dan Gelar Khedival
+Melalui dekret tanggal 27 Mei 1866, Ismail membeli perubahan sistem warisan kepada putra sulung di cabangnya, dengan hak untuk menambah tentara, mencetak koin, dan memberikan gelar. {cite:encyclopaedia-of-islam-2 vol. 4 p. 205} Pada 8 Juni 1867, sebuah dekret memberinya gelar Khediv dan kemerdekaan dalam urusan internal dan keuangannya. {cite:encyclopaedia-of-islam-2 vol. 4 p. 205} Hubungan kemudian menjadi tegang, dan dekret tanggal 29 November 1869 membatalkan sebagian besar keuntungan tahun 1867, diikuti firman 10 September 1872 dan 8 Juni 1873, mengembalikan hak untuk meminjam dari Eropa dan mengakui statusnya. {cite:encyclopaedia-of-islam-2 vol. 4 p. 205}
+
+## Pembaruan di dalam
+Mesir berpartisipasi dalam Pameran Paris pada tahun 1867, dan Terusan Suez diresmikan dengan meriah dua tahun kemudian. {cite:encyclopaedia-of-islam-2 vol. 4 p. 205} Ismail merestrukturisasi angkatan darat, armada, dan pendidikan militer, membangun sekolah baru, memungkinkan orang Eropa mendirikan sekolah mereka sendiri, mendukung surat kabar, dan memperluas percetakan pemerintah di Bulaq. {cite:encyclopaedia-of-islam-2 vol. 4 p. 205} Ia mendirikan perpustakaan nasional yang kemudian menjadi perpustakaan, masyarakat geografi, dan museum di bawah pengawasan arkeolog Prancis Mariette Pasha, menandatangani perjanjian anti-perbudakan, dan mendirikan kantor pos pemerintah pertama di Mesir. {cite:encyclopaedia-of-islam-2 vol. 4 p. 205} Negara ini dibagi menjadi empat belas distrik, yang menjadi dasar administrasi Mesir selama seratus tahun. {cite:encyclopaedia-of-islam-2 vol. 4 p. 205}
+
+Sebuah artikel tentang pendidikan di Mesir menambahkan bahwa pengeluaran sekolah meningkat sepuluh kali lipat selama masa pemerintahannya dan bahwa [[group/dar-al-ulum|Dar al-Uloom]] untuk pelatihan guru didirikan pada tahun 1872. {cite:encyclopaedia-of-islam-2 vol. 5 p. 369} Jaringan telegraf dan kereta api diperluas, kota [[place/ismailia|Ismailia dibangun]], dan kanal Ibrahimiya serta Ismailia digali. {cite:encyclopaedia-of-islam-2 vol. 4 p. 206}
+
+## Utang dan Isolasi
+Artikel tersebut menggambarkan peminjamannya dari Eropa sebagai peningkatan utang publik yang sangat besar, dan Undang-Undang Kompensasi 1871, yang mewajibkan pemilik membayar pajak enam tahun di muka sebagai imbalan pengurangan permanen setengah pajak, dalam upaya mengumpulkan dana domestik. {cite:encyclopaedia-of-islam-2 vol. 4 p. 206} Pada tahun 1875, ia menjual sahamnya yang 176602 di Perusahaan Terusan Suez kepada pemerintah Inggris seharga empat juta pound. {cite:encyclopaedia-of-islam-2 vol. 4 p. 206} Otoritasnya semakin terkikis oleh pengawasan Eropa atas keuangan, dana utang publik pada tahun 1876, dan pengadilan campuran pada tahun 1875. {cite:encyclopaedia-of-islam-2 vol. 4 p. 206} Dewan Perwakilan didirikan pada tahun 1866, dan pemerintahan menteri yang lemah diadili pada tahun 1878-1879. {cite:encyclopaedia-of-islam-2 vol. 4 p. 206} Sultan dengan tegas mencopotnya dari negara-negara Eropa pada 25 Juni 1879, sehingga ia meninggalkan Mesir menuju Eropa keesokan harinya dan meninggal di Istanbul. {cite:encyclopaedia-of-islam-2 vol. 4 p. 206}
+
+## Evaluasi
+Artikel tersebut berargumen bahwa perubahan sosial dan ekonomi selama pemerintahannya menjadi dasar bagi perkembangan selanjutnya, tetapi keterasingannya bersifat politik dan meninggalkan masalah yang menyebabkan pendudukan Inggris. {cite:encyclopaedia-of-islam-2 vol. 4 p. 206} Artikel tersebut menyimpulkan bahwa dengan ambisi dan kecerobohan finansialnya, ia mendorong munculnya Mesir modern, sehingga ia tidak hanya harus melihatnya sebagai Khedive yang bencana tetapi juga sebagai salah satu penguasa kreatif negara itu. {cite:encyclopaedia-of-islam-2 vol. 4 p. 206}
+
+## Apa yang belum didaftarkan
+Versi hasil scan artikel dihapus sebelum tanggal kematiannya, jadi tidak ada tanggal kematian yang disebutkan di sini.

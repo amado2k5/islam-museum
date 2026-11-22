@@ -1,0 +1,16 @@
+---
+id: concept/hudud-allah-wal-kabair
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/hudud-allah-wal-kabair.md}
+---
+# Batas dan dosa besar Tuhan
+
+Al-Qur'an menyebutkan 'batas-batas Allah' dalam putusan utama: dalam perceraian, 'Inilah batas yang ditetapkan Allah, jadi janganlah melanggarnya' (Al-Baqarah 229), mengenai puasa, 'Inilah batas yang ditetapkan Allah, jadi janganlah mendekatinya' (Al-Baqarah 187), dan memperingatkan: 'Dan siapa yang melanggar batas yang ditetapkan Allah telah berbuat salah pada dirinya sendiri' (At-Takh 1), dan 'Dan siapa pun melanggar batas Allah—itulah pelaku kesalahan' (Al-Baqarah 229). Dalam bahasa para ahli hukum, 'hudud' telah menjadi nama untuk hukuman yang ditetapkan oleh Syariah untuk Allah Yang Maha Kuasa: hudud untuk perselingkuhan, hudud untuk fitnah, hudud untuk pencurian, hudud untuk alkohol, hudud untuk murtad, dan hudud untuk berperang (haraba), serta ta'zir dan qisas yang terkait menurut sebagian orang — makna ini memperluas istilah Al-Qur'an ke bab-bab yurisprudensi sebagaimana ditetapkan oleh entri 'Hudud' dalam Ensiklopedia Yurisprudensial Kuwait {cite:fiqh-mawsua-kuwaitiyya-noor-v3}.
+
+"Dosa besar" adalah bentuk jamak dari 'dosa besar': dosa-dosa yang secara ketat dilarang oleh Syariah dan membuat beberapa menjadi subjek hukuman yang ditetapkan atau peringatan khusus. Al-Qur'an membedakan antara dosa besar dan dosa kecil dalam pernyataannya: "Mereka yang menghindari dosa besar dan kebejatan kecuali dosa" (An-Najm 32), dan pernyataannya: "Jika kamu menghindari dosa besar yang kamu larang, Kami akan menebus kesalahanmu" (An-Nisa 31). Dalam Sunnah, terdapat hadits "Hindari tujuh benda mematikan" dalam Sahih al-Bukhari (2766) dan Sahih Muslim (89): mengaitkan mitra dengan Allah, sihir, membunuh jiwa yang telah dilarang Allah kecuali dengan hak, mengonsumsi riba, memakan harta yatim piatu, berpaling pada hari perjalanan, dan mencemarkan nama baik wanita suci, beriman, dan tidak peduli {cite:sahih-al-bukhari}.
+
+Kedua topik sepakat bahwa dosa besar adalah dosa yang ditetapkan hukuman di dunia ini atau diancam di akhirat: perselingkuhan, pencurian, fitnah, dan alkohol adalah dosa besar yang disepakati dan dibatasi dalam Syariah; dan dosa besar tanpa batas—seperti politeisme, ketidakpatuhan kepada orang tua, dan riba yang mengonsumsi—diancam dan bertobat oleh Akhirat, dengan pintunya terbuka.
+
+The Limits of Allah and Major Crimes Browser mengumpulkan setiap penyebutan tentang dua topik ini dalam sumber museum: ayat-ayat hudud dan ayat dosa-dosa besar, hadits tentang Hudud dan Mubaqaat dalam dua Sahih, Muwatta, dan Sunan, serta biografi dan laporan para Sahabat dan Pengikut Nabi dan Pengikut mengenai pelaksanaan hukuman dan pertobatan atas dosa besar, serta setiap penyebutan dalam sebuah kitab yang terjadi pada hari bagian-bagiannya diwahyukan—setiap catatan dengan sumbernya, dan setiap teks draf agar seseorang dapat membacanya.

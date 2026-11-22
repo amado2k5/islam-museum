@@ -1,0 +1,10 @@
+---
+id: object/sajjada-mamlukiyya
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/object/sajjada-mamlukiyya.md}
+---
+
+## Ringkasan
+Karpet wol Mamluk dengan pola geometris tengah simetris, kemungkinan Mesir; awal abad ke-16, dari karpet Mamluk Kairo yang langka. Disimpan di Metropolitan Museum of Art. {cite:met-open-access}

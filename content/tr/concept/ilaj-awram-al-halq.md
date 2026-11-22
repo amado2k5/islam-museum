@@ -1,0 +1,9 @@
+---
+id: concept/ilaj-awram-al-halq
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/ilaj-awram-al-halq.md}
+---
+## Derecelendirme, özellik ve niyetler
+Bunun faydalarından biri, fontanelin tıraş edilmesi, önce açıklandığı gibi kaplaması, ardından yavaş yavaş olgunlaşmış olanlara ve ardından belirtilen dereceye kadar güçlü açıklıklara ulaşmasıdır. Faydalı olanlardan biri de bahsedilen hapşırmadır. Toynak, uvula ve bademcik tümörlerinde, boğaz organları da dahil olmak üzere özellikleriyle çalışan denenmiş ve test edilmiş şeyler arasında, özellikle lacivert morla boyanmış iplikler alıp yılanı boğmak ve ardından bu tümörlere sahip olanların boynunu çevrelemek vardır; bu da beklenen sınırın ötesinde derin, muhteşem ve şaşırtıcı bir fayda sağlar (söz) 'El-Mecribat el-Mücebiyyat' adlı özel nitelikle kitap, kurucuya sunulan ve rapor edilen bir zincir olarak alınmıştır) ve süt, acıyı kısıtlayan, yumuşatan ve yatıştıran şeylerle sona eren asil ilaçlardan biridir. Kasılan, eriyen veya olgunlaşan şeylerin kullanımı üzerine düşünülmeli, vücudun yumuşaklığı ve sertliği gözlemlenmelidir; böylece güçlüler sertliği güçlendirir, yumuşak yumuşak yumuşatır. Yaş, mizaç, zaman ve alışkanlık da dikkate alınmalıdır. Bu, uvula ve bademcik tümörleri ile gevşemelerine özgü olabilir ve buna ayrılmış bir bölüm ayrılmıştır. Tedavi yöntemleri arasında bölgede ve üç yerde 'El-Amiz' yer alır: Biri spondylusun kaybolduğu an, ikincisi yukarı düşmemesi gereken uvula ve bademciklerin çıkarılması için, üçüncüsü ise flegmatik tümörler için (kanallar daralırsa, bu yüzden göz kırparak arındırmak ve yatıştırmak için {cite:canon-ibn-sina-print-v2 p.291}

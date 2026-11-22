@@ -1,0 +1,18 @@
+---
+id: concept/aas
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/aas.md}
+---
+## Doğa ve Seçim
+Mersin iyi bilinir ve tatlılığı, tatlılığı ve serinliğiyle acılık içerir. Özü daha güçlüdür, topraksı bir özü ve hafif yumuşak bir özü vardır; yağının bahsedilen tüm faydalara sahip olduğu belirtilir {cite:canon-ibn-sina-print-v1 p.345}. En güçlüsü koyulaşan olanıdır, özellikle yuvarlak yapraklı khosrani, özellikle dağ olan; en ince beyaz çiçek, yaprak özsuyu ve meyvenin özsuyu en iyisidir; ve suyu yaşlandığında zayıflar {cite:canon-ibn-sina-print-v1 p.345}.
+
+## Mizaç ve Davranışlar
+Hafif bir ısıya sahiptir, çoğunlukla soğuktur ve daraltması soğukluğundan daha fazladır. İlkinde soğuk olmak ve ikincisinde {cite:canon-ibn-sina-print-v1 p.345} kurumak gibidir. İshal, ter ve tüm kanamayı engeller, cilt altındaki nemi kurur; uzun süre pişirirsek onarımı hızlandırır, meyveler yerine yanması vücut kokusunu tazeler, besin değeri sınırlıdır; içeceklerde akciğer ağrısı ve öksürükten mantıklı veya fayda sağlayan hiçbir şey yoktur, içeceği {cite:canon-ibn-sina-print-v1 p.345}.
+
+## Üyelerin Faydaları
+Yağı, suyu ve pişirmesi saç köklerini güçlendirir, saç dökülmesini önler, uzatır ve özellikle tanelerini koyulaştırır; kuru yaprakları koltuk altı ve bez kalıntılarını, dut yerine külü engeller, melazma ve çilleri arındırır, vitiligoyu {cite:canon-ibn-sina-print-v1 p.345} giderir. Sıcak tümörleri, kızarıklığı, antizmi, sivilceleri, yaraları ve ellerdeki şeyleri yatıştırır, ateşten yanar. Aynı şekilde, şurubu ve yaprakları bandaj, yağ ve merhem olarak kullanılır. Kuru meyvesi ocakta bırakılırsa faydalıdır. Şurup içinde poultis olarak pişirilen meyvesi el ve ayaklardaki yaraları iyileştirir, ateşi yakar ve şişliği önler {cite:canon-ibn-sina-print-v1 p.345}. Meyvesinden yapılan bir pansuman eklemleri rahatlatmaya yardımcı olur {cite:canon-ibn-sina-print-v1 p.346}. Kanamayı önler, likenleri giderir, baş ve kulak ülserlerini kurur, su kuruduğunda irin oluşur. İçeceği diş etlerini rahatlatmaya yardımcı olur; yaprakları şurup ile pişirilip bandajlanırsa şiddetli baş ağrılarını hafifletir; şaraptan önce içildiğinde ise khimar {cite:canon-ibn-sina-print-v1 p.346} etkisini önler. Konjonktiviti ve çıkıntıyı yatıştırır; arpa ezmesiyle pişirildiğinde göz tümörlerini iyileştirir. Külleri göz hastalıkları için ilaçlara dahil edilir {cite:canon-ibn-sina-print-v1 p.346}. Kalbi güçlendirir, çarpıntıyı hafifletir, meyvesi tatlılığıyla öksürüğü önler, müshilse mideyi kasarak güçlendirir. Meyvesi kan pompalamaya faydalıdır, Rabbi {cite:canon-ibn-sina-print-v1 p.346} gibi. Mideyi, özellikle Tanrısını güçlendirir ve sevgisi mideye fazla sıvı akışını engeller {cite:canon-ibn-sina-print-v1 p.346}. Meyvesinin suyu idrar söktürücüdür ve idrar yanmasını ve mesane yanmasını önler. Suyu doğayı destekler, safra kesesi ve melanchoke ishalini engeller, hemoroidler için faydalıdır ve testis tümörlerine {cite:canon-ibn-sina-print-v1 p.346} faydalıdır. Tarantülü ısırmaktan, meyvesini şurup ile içildiğinde ve akrep sokmalarından {cite:canon-ibn-sina-print-v1 p.346} faydalıdır.
+
+## Rahim, adet dönemi, fetus ve bah (kurucunun yargısı nedeniyle askıya alınmış başlıklı bir transfer)
+Kitapta mersinin adet geçişini önlemede iyi olduğu, meyvesinin rahim nemini uzaklaştırmada faydalı olduğu ve pişirilmesinin mekik ve rahmin dışarı atılması için faydalı olduğu belirtilir {cite:canon-ibn-sina-print-v1 p.346}; bu aktarım kitaba öneri verilmeden aktarılır.

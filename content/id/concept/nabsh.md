@@ -1,0 +1,9 @@
+---
+id: concept/nabsh
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/nabsh.md}
+---
+## Ringkasan
+Menggali secara linguistik berarti mengungkap yang dikubur dan mengungkap apa yang tersembunyi. Menggali makam sebelum erosi tidak diperlukan secara bulat dilarang oleh ahli hukum karena melanggar kesucian almarhum. Menggali diperbolehkan karena kebutuhan atau tujuan yang sah: jika uang jatuh ke dalam kubur, maka memiliki nilai penggalian yang akan diambil oleh Maliki, Shafi'i, dan Hanbali. Ada perbedaan pendapat mengenai kewajiban dan syaratnya agar almarhum tidak berubah. Jika almarhum menelan uang orang lain Ada pendapat mulai dari denda hingga mensterilkan tanah dan membelah perut. Makam digali untuk kain kafan yang direbut secara umum dengan rincian. Diperbolehkan menggali makam yang dikubur di tanah yang direbut, tetapi hanya untuk mengangkut almarhum sesuai Hanbalis dalam kasus tertentu, dan tidak mengubur orang lain kecuali setelah dipakai menurut Malikis dan Hanbali. Juga diperbolehkan menggali makam politeis karena kekayaan menurut Hanafi dan Hanbali. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15446} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15447} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15448} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15449} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15450} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15451} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15452} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15453} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15454} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15455} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15456}

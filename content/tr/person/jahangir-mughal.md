@@ -1,0 +1,30 @@
+---
+id: person/jahangir-mughal
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/jahangir-mughal.md}
+---
+## Genel Bakış
+Jahangir, Hindistan'daki Babür soyundan dördüncü Babür kralıydı ve Ekber'in hayatta kalan ilk oğluydu. 17 Rabi'al-Awwal 977 H.Y., yani 31 Ağustos 1569'a denk gelirken, Agra yakınlarındaki Fatehpur Sikri'de, Racput annesi Maryam al-Zamani'den {cite:encyclopaedia-of-islam-2 vol. 2 p. 404} doğumunun aracılığına atfedilen Şeyh Salim el-Caşti'nin inzivasında doğdu. İslam Ansiklopedisi makalesinin yazarı, adının Şeyh'ten sonra Salim olduğunu ve Ekber'in Şeyh Baba {cite:encyclopaedia-of-islam-2 vol. 2 p. 404} olarak adlandırıldığını belirtir.
+
+## Babasıyla yaşanan anlaşmazlık
+Makalede en büyük hastalığın 1001 Hicri (1591) yılında meydana geldiği belirtilir ve Süleym'in kendisi için zehir düzenlemekle suçlandığı, bunun aralarındaki mesafenin aralarındaki mesafeye yol açtığı ve 1008 Hicri (1599) yılında, Sulim'in isyan edip Allahabad'da {cite:encyclopaedia-of-islam-2 vol. 2 p. 404} bağımsızlığını ilan ettiği dönemde zirveye ulaştığı belirtilir. 1010 Hicri'de (1601 M.S.'ye karşılık gelir) büyük bir orduyla Agra'ya doğru yürüdü, ardından Allahabad'a döndü, burada kral unvanı verildi ve bir saray kurdu. Bayram Han'ın {cite:encyclopaedia-of-islam-2 vol. 2 p. 405} dul eşi Salima Sultan Begüm, aralarındaki uzlaşmayı arabuluculuk etti. Makale, cariye Anarkalı ile yaşadığı aşk hikayesinin tarih tarafından desteklenmediğine inanmaktadır {cite:encyclopaedia-of-islam-2 vol. 2 p. 405}. Babası Ebu el-Fadl'ın babasını kandırdığını düşündüğü belirtilir; bu yüzden 1011 Hicri (1602 M.S.) yılında Bir Singh Deo el-Bandili'yi Dekkan'dan dönerken kendisiyle yüzleşmesi için görevlendirmiştir. Bir Singh öldürülmüş ve başı ona gönderilmiştir. Makale bu öldürmeyi haksız olarak tanımlamaktadır {cite:encyclopaedia-of-islam-2 vol. 2 p. 405}.
+
+## Taht ve Oğulları
+Akbar'ın 1013 Hicri'deki ölümünden sonra (1605 M.S.'ye karşılık gelir), bazı paralarında {cite:encyclopaedia-of-islam-2 vol. 2 p. 405} geçen Ebu el-Muzaffar Muhammed Cihangir Gazi unvanıyla tahta çıktı. En büyük oğlu Hüsrav, 1015 Hicri'de (1606 M.S.'ye karşılık) isyan etti, sonra barıştı, ancak babası onu affetmedi. Makalede, bir Sih liderin Hüsrav'ı isyanında barındırdığı ve cezalandırıldığı, bu cezanın sert kabul edildiği ve Hint Müslümanları ile Sihler arasında uzun süreli bir düşmanlık yarattığı belirtilir {cite:encyclopaedia-of-islam-2 vol. 2 p. 405}. 1016 Hicri'de (1607 M.S.'ye karşılık gelir), Kabil'de onu öldürme planı ortaya çıktı; dört lideri idam edildi ve Hüsrav'ın gözü kısmen çıkarıldı {cite:encyclopaedia-of-islam-2 vol. 2 p. 405}.
+
+## Noor Jahan ile Evliliği
+1020 Hicri'de, yani 1611 M.S.'de, Itimad al-Dawla olarak bilinen [[person/nur-jahan|Nur Jahan]] bint Ghiyath Beg ile evlendi. Makale, bu evliliği onun yönetiminde yeni bir dönemin başlangıcı olarak kabul eder {cite:encyclopaedia-of-islam-2 vol. 2 p. 405}. Çağdaş kaynakların, onun ona olan sevgisi ve eski eşi Ali Quli Khan Istajlu'yu (Bashir Afkan) öldürme planını anlatan popüler hikayeden bahsetmediği belirtilir. Evlendikten sonra yavaş yavaş fiili iktidarı ele geçirmiş ve adını onun adıyla birlikte altın paralara {cite:encyclopaedia-of-islam-2 vol. 2 p. 405} yazmıştır.
+
+## Dönemindeki akademisyenler
+Makalede, [[person/nur-allah-al-shustari|Lahor'da baş yargıç olarak atanan ve takiyye doktrinini gizleyen Şii alim Nurullah Şuştari'nin, makaleye göre aynı zamanda Şii olan Nur Jahan'ın yükselişinden sonra Sünniler arasında şüphe uyandıran kararlar çıkarmaya başladığı, Sünni halkta şüphe uyandıran kararlar çıkardığı, bunun sonucunda Sünni yargıda Şii olmakla suçlandığı ve imparatorun emriyle öldürüldüğü belirtilir {cite:encyclopaedia-of-islam-2 vol. 2 p. 405}. Makale, Jahangir'in Şeyh]] Ahmed el-Sarhindi'yi [[person/ahmad-sirhindi|sahtekar olarak tanımladığını, onu Gvalior Kalesi'nde hapsettiğini ve yaklaşık bir yıl sonra {cite:encyclopaedia-of-islam-2 vol. 2 p. 405} fikrini değiştirdiğini bildirmektedir]].
+
+## Khurram İsyanı ve Son Kriz
+1032 Hicri yılında (1623 M.S.), Prens Hurram, yani Şah Cihan, kızı Şahryar'ın tahta geçmesini isteyen Nur Jahan'ın entrikaları yüzünden isyan etti. Durum, devletin prestijini zayıflatan ve hazineyi tüketen bir iç savaşa dönüşmek üzereydi; ta ki Khurram, 1035 Hicri Hicri'de (Mart 1626 M.S.) Mahabit Han'a {cite:encyclopaedia-of-islam-2 vol. 2 p. 406} teslim olana kadar. Aynı yıl, Mahabbat Han, Nur Jahan ve kardeşi Asif Han'ın etkisinden uzaklaştırmak için Jahangir'i ele geçirmeye çalıştı, ancak başlangıçta başarılı oldu {cite:encyclopaedia-of-islam-2 vol. 2 p. 406}.
+
+## Ölümü
+27 Safar 1037 H.S.'de, yani 28 Ekim 1627'ye denk gelirken, güneş çağının elli sekizinci yılında ve hükümdarlığının yirmi ikinci yılında Rajouri'den Bhamber'e yaptığı yolculuk sırasında öldü. Cenazesi Lahor'a götürüldü ve Nur Jahan'ın masraflarıyla üzerine bir türbe kurduğu yere defnedildi {cite:encyclopaedia-of-islam-2 vol. 2 p. 406}.
+
+## Makaledeki fotoğrafı
+Makale, onu edebiyat ve sanatı destekleyen, keskin gözlemci, cömert ve adaletsizlikten nefret eden eğitimli bir adam olarak tanımlar; her ezilen kişiyi sarsmak için Agra Sarayı'ndan çanlı altın bir zincir astırdığını belirtir {cite:encyclopaedia-of-islam-2 vol. 2 p. 406}. Tuzak Jahangiri olarak bilinen anılarını, Keşmir'in güzelliği, florası ve hayvanlarını anlatan bir yer olarak tanımlar, bunları Babur'un anılarıyla daha açık bir şekilde karşılaştırır ve yazarın alkolizmini ve bazen zalimliğini kabul ettiğini belirtir {cite:encyclopaedia-of-islam-2 vol. 2 p. 406}. Makale, dönemini genel olarak barışçıl ve refah içinde, sanayi, ticaret, mimari, resim ve edebiyatın geliştiği, Mewar ve Dekkan'daki savaşlar ve Bengal'deki sınırlı huzursuzlukla gölgelendiği {cite:encyclopaedia-of-islam-2 vol. 2 p. 406} olarak değerlendirilir.

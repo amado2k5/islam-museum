@@ -1,0 +1,22 @@
+---
+id: person/farid-al-din-attar
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/farid-al-din-attar.md}
+---
+
+## Hayatı ve Tarihi
+Farid al-Din Muhammed bin İbrahim el-Attar, doğum ve ölüm tarihleri kesin olarak belirlenemeyen bir Pers Sufi şairidir. Dawlatshah, onun 513 Hicri (1119 M.S.) yılında doğduğunu belirtir. Yaygın inanç, Moğolların onu 627 Hicri (1230) yılında Nişapur'da öldürdüğüdür, ancak kaynak Moğolların Nişapur'u 617 Hicri (1220) yılından itibaren fethettiğini belirtir. Bazı el yazmalarındaki tarihi bir şiir, Nafisi'nin bahsettiği başka bir kaynak ve Mir Ali Şir tarafından dikilen bir türbe üzerindeki bir yazıt, 'Kuşların Konferansı'nı yazdıktan üç yıl sonra, 586 Hicri (1190 M.S.) yılında öldüğünü belirtir. Materyalde Nafisi'nin 627 Hicri yılını ısrarla belirttiği, ancak sahte bir kitaba ve Cami'nin, babasıyla birlikte yaklaşık 616 veya 618 Hicri yıllarında Balkh'tan göç eden Celaleddin el-Rumi'ye 'Asrar Nama' verdiğine dair ifadesine dayandığı belirtilir. Eczacı ve hekimdi; gerçek anlamda bir Sufi olmasa da azizlere hayranlık duyar ve çocukluğundan itibaren onlarla ilgili hikayelerden etkilenirdi. {cite:encyclopaedia-of-islam-2 vol. 1 p. 802}
+
+## Üç yayın koleksiyonu
+Ona atfedilen eserler, içerik ve üslup olarak öyle bir grup halinde ayrılmıştır ki, hepsini tek bir kişiye atfetmek zordur. İlk grup: "Kuş Konferansı," "Elahi Nama" ve "Masibat Nama," diwan ve "Mukhtar Nama" ile birlikte. İkincisi: "Ashtarnama" ve "Benliğin Özü"; üçüncüsü: "Mucizelerin Tezahürü" ve "Lisan al-Ghayb." Dördüncü grupta ise iç kanıtlar bunun kendisine ait olmadığını kanıtlar. İkinci gruptaki materyal şüpheli olsa da makul kalırken, üçüncü grup kesinlikle intihal olarak kabul edilir. {cite:encyclopaedia-of-islam-2 vol. 1 p. 802-803}
+
+## Grup Bir
+Erken destanlar, en büyük güzelliklerinin kaynağı olan birçok hikayeyle serpiştirilmiş net bir ana hikayeye sahiptir. "Kuşların Konferansı", Simurgh'u kendi arayışları olarak aran, hoopoe'nun yönlendirdiği kuşları anlatır, ancak yedi korkunç vadiden sonra sadece otuz kuş hayatta kalır, ilahi öz olduklarını fark eder ve Simurgh'a dalarlar. "Masibat Nama", şeyhin tüm efsanevi ve kozmik varlıkları ziyaret etmesini tavsiye ettiği bir Sufi müridini, böylece kendisinde ilahi bir güç bulmasını anlatır. "Duam", dünyevi konuları arzulayan bir kral ve altı oğlunun hikayesini anlatır; bu da onları daha yüksek hedeflere çeker. "Sırları" anlatı çerçevesine sahip değildir ve maddeyle ilgili varoluştan önce benlik fikrini tekrarlar. "Khosrow Name" aşk ve macera üzerine romantik bir romanken, "Bend Nameh" geniş ün kazanmış ve Türkiye'de en az sekiz kez basılmış küçük bir ahlaki incelemedir. {cite:encyclopaedia-of-islam-2 vol. 1 p. 803}
+
+## İkinci Grup ve Al-Hallaj
+İkinci koleksiyonda hikayeler daha azdır ve dikkat dış dünyadan büyük bir tutkuyla takip edilen sınırlı fikirlere kayar: fiziksel ölümle bile tam yok oluş, varoluşun birliği ve benliğin Tanrı olarak bilinmesi. "Ashtar Nama" ilahi benliği temsil eden bir Türk kuklası etrafında döner ve ikinci bölümü neredeyse tamamen al-Hallaj hakkındadır; o, al-Junayd, İbn al-Khafif, Ebu Yezid ve al-Şibli ile darağacında konuşur, Tanrı olarak konuşurken üniter bir teoloji geliştirir. "Benliğin Özü" al-Hallaj'ı yok oluşun bir modeli olarak alır; Ali'nin bir kuyuda ilahi sırları fısıldadığı hikayeyi içerir; burada bir kamış büyüyüp flüt yapılır; materyal, bu hikaye ile Celaluddin Rumi'nin Masnavi'sinin ilk dizeleri arasında açık bir bağlantı görür. {cite:encyclopaedia-of-islam-2 vol. 1 p. 803-804}
+
+## Diğer yayınlar ve Health Issue'u
+Birinci grubun eserleri arasında, Tahran'da bilimsel doğrulama olmaksızın basılan Diwan ve Sufilerin biyografileri ve sözü üzerine büyük bir düzyazı olan "Tadhkirat al-Awliya" da vardır; bu eser el-Attar'ın kapsamlı şekilde düzenlediği el-Hallac'ın biyografisiyle sona erer. Üçüncü derleme "Mucizelerin Tezahürü", Attar'ın tüm eserlerini kendine ait olarak iddia eder, Celaleddin Rumi'nin ortaya çıkışını öngörür, Hafız ve Kasım el-Enver'den bahseder ve "Lisan al-Ghayb"da yer aldığı gibi Şiiliği ortaya koyar. Materyal, bunların edebi değeri olmadığını savunur ve konudaki önceki görüşünü geri çeker. {cite:encyclopaedia-of-islam-2 vol. 1 p. 804}

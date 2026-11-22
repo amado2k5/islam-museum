@@ -1,0 +1,33 @@
+---
+id: concept/al-arabiyya-fi-mali
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/al-arabiyya-fi-mali.md}
+---
+## Ringkasan
+Halaman ini menyajikan apa yang dikatakan ringkasan penelitian yang disediakan museum tentang bahasa Arab di Mali: status hukumnya, variasi yang digunakan, dan nomor resmi yang diterima. Di Mali, Hassaniya adalah bahasa nasional yang diakui, dan sensus 2022 disajikan dengan angka-angkanya yang diterima. Museum tidak membuka halaman yang disebut abstrak, dan pendiri mengizinkan penggunaannya seperti yang dinyatakan pada 21 November 2026. Karena ringkasan menyatakan tidak menemukan sumber atau nomor resmi, maka demikian yang tertulis secara verbatim di halaman, dan museum tidak menyertakan nomor dari sumbernya sendiri.
+
+## Apa halaman ini?
+Halaman ini adalah artikel tentang topik "Arab di Mali," dari bagian "Dunia" di browser Arab, dan merupakan salah satu halaman yang membahas bahasa Arab di luar negara yang dianggap Arab. Halaman ini menjawab tiga pertanyaan: Apa status hukum bahasa Arab di sana? Jenis bahasa Arab apa yang dibahas? Dan apa saja angka resmi yang dipublikasikan tentang para pembicara, jika ada? Museum ini mematuhi apa yang diwajibkan pada semua halamannya: suara deskriptif yang tidak berwibawa, setiap pernyataan yang dikaitkan dengan halamannya, dan tidak menghakimi isu kontroversial. Seluruh materi berasal dari satu ringkasan penelitian; halaman tersebut menjelaskan apa yang dikatakan ringkasan dan tidak mengklaim telah membaca sumbernya.
+
+## Latar Belakang dan Tanggal
+Tanggal ringkasan di sini adalah Konstitusi Mali 2023 dan sensus 2022 (RGPH5), yang mengeluarkan laporan tentang karakteristik budaya penduduk. Laporan ini tidak mencantumkan tanggal kedatangan Hassaniya ke Mali utara maupun pendidikan agama Arab, dan hanya menjelaskan situasi setelah 2022. Untuk konteks sejarah, lihat [[concept/taarib-al-maghrib|Arabisasi Maroko]], yang membahas gelombang yang membawa Hassaniya Arabia jauh dari pantai Mediterania.
+
+## Status Hukum
+Pasal 31 Konstitusi Mali 2023, menurut ringkasan tersebut, menyatakan bahwa bahasa nasional adalah bahasa resmi, dan bahasa Prancis adalah bahasa kerja {cite:constitution-mali-2023-sgg}. Hassania, yaitu bahasa Moor, adalah salah satu dari 13 bahasa nasional yang diakui di Mali, sehingga memiliki status resmi; bahasa Arab klasik atau Modern tidak termasuk dalam tiga belas bahasa nasional resmi {cite:cefan-mali} {cite:cefan-mali-constitution-2023}. Ini berasal dari ringkasan yang dikaitkan dengan dua halaman Universitas Laval, dan museum tidak membaca teks konstitusi maupun indeks tiga belas bahasa itu sendiri.
+
+## Item Lisan
+Ringkasan menyebutkan Hassaniya, yang digunakan di Mali utara dan barat laut, serta Arab, yang tercatat dalam sensus sebagai item terpisah, bersama dengan bahasa Arab klasik dan modern dalam konteks keagamaan dan pendidikan {cite:cefan-mali} {cite:instat-mali-rgph5-2022-cultural-characteristics}. Artinya adalah sensus membedakan antara "Al-Mor/Hassaniya" dan "Arab," dan ringkasan tidak menjelaskan apa yang terkandung dalam kategori kedua. Untuk hubungan Hassaniya dengan Mauritania, lihat [[concept/al-arabiyya-fi-mauritania|Bahasa Arab di Mauritania]] dan [[concept/lahjat-al-maghrib|dialek Maroko]].
+
+## Angka Resmi
+Ringkasan dari sensus keuangan 2022 (RGPH5) yang diterbitkan oleh INSTAT menunjukkan bahwa di antara rumah tangga penduduk biasa berusia tiga tahun ke atas, jumlahnya adalah 19.141.586, dengan angka ini {cite:instat-mali-rgph5-2022-cultural-characteristics}. Bahasa ibu: Al-Moor/Hassaniya 176.197 (0,92 persen), dan Arab 81.208 (0,42 persen). Bahasa utama yang digunakan: Al-Moor/Hassaniya 158.958 (0,83 persen), dan Arab 100.654 (0,52 persen). Ini adalah angka sensus yang dilaporkan dalam ringkasan, dan museum tidak menggabungkan atau mengubah kedua kategori tersebut.
+
+## Bagaimana Sumber Berbeda
+Halaman yang dinamai untuk artikel ini terdiri dari berbagai jenis. Teks resmi dan statistik: Konstitusi Mali, 2023 (Jurnal resmi) {cite:constitution-mali-2023-sgg} dan INSTAT Mali, RGPH5 2022: karakteristik budaya penduduk {cite:instat-mali-rgph5-2022-cultural-characteristics}; halaman referensi, akademik, dan jurnalistik: halaman CEFAN / Université Laval tentang Mali {cite:cefan-mali} dan halaman CEFAN tentang Konstitusi Mali 2023 {cite:cefan-mali-constitution-2023}. Teks resmi dan statistik berbicara atas nama negara atau kantor statistik, dan halaman referensi, akademik, serta jurnalistik menggambarkan dan menafsirkan, dan Wikipedia hanya memberikan nama, tempat, dan tanggal. Jika spesies berbeda, museum mengirimkan setiap jenis dengan suara sendiri tanpa bobot, dan museum tidak membuka salah satu dari mereka.
+
+## Dalam gambaran yang lebih besar
+Halaman ini termasuk dalam bab "Dunia" dan dibaca bersama dengan halaman-halaman negara-negara Arab di dalamnya. Untuk kerangka umum, lihat [[concept/al-alam-al-arabi|negara-negara Arab dan universitasnya]], untuk dikotomi antara bahasa Arab klasik dan [[concept/al-fusha-wal-lahajat|lisan serta dialek]], serta untuk menanyakan apakah bahasa Arab lisan adalah satu bahasa atau dialek [[concept/tasnif-al-arabiyya-lughatan-am-lahajat|, klasifikasikan bahasa Arab: bahasa atau dialek]]. Untuk halaman negara dan tempat [[place/mali|, lihat Mali]]. Untuk sejarah umum bahasa, lihat [[concept/tarikh-al-lugha-al-arabiyya|sejarah bahasa Arab]] dan [[concept/al-arabiyya-fi-al-alam-al-yawm|bahasa Arab di dunia saat ini]].
+
+## kecuali halaman ini memberitahunya
+Museum tidak membuka halaman apa pun yang dinamai ringkasannya, termasuk teks konstitusional, sensus, ensiklopedia, artikel, dan laporan; semua hal di atas dikaitkan dengan ringkasan saat tiba, bukan pembacaan halaman-halaman tersebut oleh museum. Museum tidak mengukur jumlah pembicara atau persentase. Di mana Wikipedia muncul, mereka mengaitkan fakta entitas hanya dalam bentuk nama, tempat, dan tanggal, serta apa yang disampaikan dalam bentuk klaim yang dikaitkan dengan ringkasan, bukan pada suara museum. Apa yang tidak ditemukan dalam ringkasan tetap tidak ada: apa kategori "Arab" dalam sensus, yang tidak dijelaskan dalam ringkasan. Museum tidak mengisi kekosongan ini dengan estimasi atau angka dari sumber yang tidak disebutkan namanya. Pendiri mengizinkan penggunaan ini pada 21 November 2026, dan halaman tersebut tidak memuat penilaian tentang bagaimana bahasa Arab diklasifikasikan di sana.

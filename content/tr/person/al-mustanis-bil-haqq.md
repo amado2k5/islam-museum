@@ -1,0 +1,13 @@
+---
+id: person/al-mustanis-bil-haqq
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/al-mustanis-bil-haqq.md}
+---
+## Özet
+Yaratılıştan ıssız olan El-Mustanas bil-Haqq, metinde adı geçmeyenler için kullanılan bir unvandır. [[person/abu-nuaym-al-asbahani-ahmad|Ebu Nu'eym]], onun biyografisi, "[[work/hilyat-al-awliya|Hilyat al-Awliya]]"nın (basılı biyografi 544) onuncu cildinde yer alır ve sıralaması 545'tir. El-Khabar isimsiz bir unvandır, bu nedenle bu kayıtta ona bir isim atfedilmemiştir. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/167} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/168}
+
+## Obaid Al-Basri Sorusu
+Osman bin Muhammed el-Muthmali, Ebu el-Hasan Muhammed bin Ahmed'den şöyle der: Ben Ubeyd al-Basri'yim. Dedi ki: Bir adama sessizce sordum: Seni bu yere oturtmaya ne itti? O dedi ki: Ve senin sorun nedir ki, ararsan yakalayamıyorsun, takip edersen üzerine düşmez? Ben dedim: Bana ne olduğunu söyle. O dedi ki: Bildiğim budur ki, Allah'la oturmak cennetin zevklerini alır. Ben dedim: Ne zaman? O Dedim ki: Ah, ruhumun zafer kazandığını ve yaratılıştan kaçtığını sandım, sonra yerimde yalancıyım; eğer Allah'ın gerçek bir sevgilisi olsaydım, kimse beni görmezdi. Dedim ki: Âşıkların Allah'ın yeryüzündeki halefleri, O'nun yaratılışı tarafından sevildikleri ve O'nun onları itaat etmeleri için göndereceğini? Bana bağırdı ve dedi ki: Ey aldatılmış, eğer kalbinin arkasında sevgi kokusunu ve yakınlığı koklayabilseydin, gördüklerinden fazlasını görmene gerek kalmazdı. Sonra dedi ki: Ey gök ve yer, cennet ve cehennemden bahsetmenin kalbimden geçmediğine tanıklık edin, eğer doğruysam öldürün beni. Tanrı aşkına, ondan sonra hiçbir kelime duymadım. Sonra bir grup buldum ve dediler ki: Çocuk ne yaptı? Bunu sordular, dediler ki: Geri dön, çünkü Tanrı onu aldı. Onlarla dua ettim ve dedim ki: Bu adam kim, sen kimsin? Dediler ki: Bu, kalbi Allah'ın dostu İbrahim'in kalbinde olan bir adam. Kendini cennet ve cehennemden bahsetmenin kalbinden geçmediğini söylerken görmedin mi? İbrahim dışında böyle biri Tanrı'nın dostu mıydı? Dedim ki: Peki sen kimsin? Dediler ki: Biz yedi özel olanlarız. Dedim ki: Bize bir şey öğret. Dediler ki: Bilmek istemezsin, tanınmak istemeyenler arasında olduğunu da bilmek istemezsin. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/168}

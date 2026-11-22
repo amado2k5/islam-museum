@@ -1,0 +1,35 @@
+---
+id: person/al-khatib-al-baghdadi-ahmad
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/al-khatib-al-baghdadi-ahmad.md}
+---
+## Özet
+Hafızan Ebu Bekir Ahmed bin Ali bin Tebit, Bağdat'ın hadis âlimi ve tarihçisi olarak bilinen El-Hatib el-Bağdadi; 392 Hicri doğumlu babası, Bağdat'ın Dızıcan köyünden Ebu El-Hasan Hatib idi {cite:tarikh-islam-dhahabi p. 86}. Zicam'ın 7'si Pazartesi günü 463 Hicce Mesih'te vefat etti ve Bab Harb'da Biş el-Hafi {cite:tarikh-islam-dhahabi p. 107} yanına defnedildi. Bağdatlıların Nizamiyye Okulu'nda {cite:tarikh-islam-dhahabi p. 107} kendisinden duyduğu "Bağdat Tarihi" adlı kitabı yazdı.
+
+## Biyografisinden
+On bir yaşında duydu, yirmi yaşında Basra'ya, yirmi üç yaşında Nişapur'a ve ardından İsfahan'a gitti. El-Barqani, onunla birlikte Ebu Nuaym'a yazarak tavsiye etti {cite:tarikh-islam-dhahabi pp. 87-91}. Hac için Şam'a gitti, burada Şam, Sur ve Mekke'den haber aldı, burada el-Kudey ile tanıştı ve beş gün boyunca "Sahih al-Buhari"yi al-Marwaziyye'nin yanında inceledi. Trablus'ta, Dar al-Ilm'in sahibi Yargıç al-Hüseyin bin Bişr ile hitabet üzerine bir tartışma yaptı {cite:tarikh-islam-dhahabi pp. 92-93}.
+
+İbn el-Cavazi, din adamı İbn el-Mesleme'nin kendisine, bazı Yahudilerin gösterdiği ve Cezi'nin Haybar halkından cizye feragat edildiğini iddia eden bir mektubu sunduğunu ve bu mektupta sahabelerin tanıklıklarını içerdiğini anlatır. Vaiz, mektubun sahte olduğunu ve bunun fetih gününde İslam'a geçen Muaviye'nin, yedinci yılda Haybar'ın tanıklığını içerdiğini, ayrıca Banu Kureyze gününde ölen Sa'd bin Mu'adh'ın tanıklığını içerdiğini savunur {cite:muntazam-ibn-al-jawzi j.8 pp. 265-267}.
+
+El-Basasiri'nin karışıklığı sırasında saklandı ve 451 Hicri yılında Bağdat'tan ayrılarak Şam'a gitti, ardından Şam, Sur, Trablus ve Halep'te kaldı ve Sur'da Kutsal Ev'i ziyaret etti. Daha sonra Al-Rahba'ya döndü ve 462 Hicce {cite:tarikh-islam-dhahabi pp. 92-93} {cite:muntazam-ibn-al-jawzi j.8 pp. 265-267} yılında Dhu al-Hijce ile Bağdat'a girdi. Eskiden Ahmed ibn Hanbal okulunu takip ediyordu, ancak yoldaşları ona karşı çıkıp zarar verdiler, bu yüzden Şafii okuluna {cite:muntazam-ibn-al-jawzi j.8 pp. 265-267} geçti. Yaklaşık altmış eser yazdı, ölümünden sonra kitapları yakıldı ve çoğu korundu {cite:tarikh-islam-dhahabi p. 99}.
+
+## Al-Kifaya'nın Haydarabad baskısının çevirisinde
+Osmanlı Ansiklopedisi baskısının editörleri, El-Hatib'in biyografisini [[work/al-kifaya-fi-ilm-al-riwaya|Al-Kifayah kitabına]] eklediler ve bu biyografi kitaplarından derlemişlerdir. {cite:kifaya-khatib-hyderabad-1357 p. 452} Babası Ali bin Tebit'in biyografisindeki 'Bağdat'tan 'Tarikh Bağdat'tan, onun vaiz olduğunu, kökeninin Araplardan olduğunu ve Fırat Nehri yakınında ikametgahı olan bir klanı olduğunu belirtmişlerdir. {cite:kifaya-khatib-hyderabad-1357 p. 452}
+
+**Doğumu.** Bilginler anlaşmazlığı sunar: Perşembe günü İbn el-Subki ve İbn Khallikan'a göre Cumada el-Ahira'nın altı yüz doksan yılıdır; İbn Khayrun'un el yazısıyla 'Al-Muntazam'da olduğu gibi doksan bir yıl; el-Dhahabi, İbn al-Sam'ani ve İbn el-Salah'a göre doksan iki. El-Nevavi bunu doksan bir ile sınırlamıştır. El-Sakhavi, 'Eti'nin bizzat el-Hatib'in rivayeti olduğunu belirtmiştir. {cite:kifaya-khatib-hyderabad-1357 p. 452}
+
+**İmamlara övgü.** İbn el-Sam'ani'den, onun zamanının imamı olduğunu ve zamanını tartışmasız ezberlediğini bildirdiler. Yaklaşık yüz eser yazdı ve bunlar hadis alimleri için önemli bir eser haline geldi. İbn Makula, [[person/al-daraqutni|el-Daraqutni'den sonra Bağdatlılar arasında]] kimsenin onun eşi olmadığını ve Ebu İshaq el-Şirazi'nin onu el-Daraqutni ve muadillerine benzettiğini bildirdi. {cite:kifaya-khatib-hyderabad-1357 p. 453} {cite:kifaya-khatib-hyderabad-1357 p. 454} Beş gün içinde el-Mervaziye'nin kızına Sahih al-Buhari'yi okuduğunu ve elinde bir parça ile yolda yürüyüp okumaya çalıştığını belirttiler. {cite:kifaya-khatib-hyderabad-1357 p. 453}
+
+**Onun Okulu ve İnancı. ** Araştırmacılar, İbn el-Cavazi'nin uzun süre Ahmed okulunu takip ettiğini, ancak Hanbalıların onun yenilikçilere olan eğilimini gördüklerinde ona yöneldiğini söylediğini aktardılar. Daha sonra Şafii okuluna geçti ve yazılarında onlara karşı katı oldu; araştırmacılar, adil bakan herkesin İbn el-Cavazi'nin temsil ettiği şeyde önyargı görmediğine ve belki de Aş'eri yenilikçilerinden bahsettiğine inanıyor. {cite:kifaya-khatib-hyderabad-1357 p. 454} İbn el-Subki'den alıntı yaptılar, el-Kattani, Ebu el-Hasan el-Eşari'nin okulunu takip ettiğini ve el-Dahabi'den sıfatlar doktrininin onların göründüğü gibi geçtiğini belirtmiştir. Sonra İbn el-Subki, el-Dahabi'yi bunun el-Eşəri'nin görüşü olduğunu söyleyerek çürütmüştür; alimler ise el-Dahabinin 'Tadhkirah'ta el-Hatib'in metinlerinden açıkça alıntıladığı ve inançtaki öğretisinin Selef öğretisi olduğunu sonucuna varırlar. {cite:kifaya-khatib-hyderabad-1357 p. 454} {cite:kifaya-khatib-hyderabad-1357 p. 455}
+
+**Serveti ve bağışı.** Hadis ve bilgi öğrencilerine harcama yapacak kadar zengindi, insanların namazlarını kabul etmekten kaçındı. Hastalandığında, Halife [[person/al-qaim-billah|el-Kaim bi-Amr Allah'tan izin aldıktan sonra tüm kitaplarını bağışladı ve varlığını hayır işlerine]] dağıttı; çünkü varisi sadece kamu hazinesi vardı. {cite:kifaya-khatib-hyderabad-1357 p. 455} {cite:kifaya-khatib-hyderabad-1357 p. 456} Ebu Zekeriye el-Tebrizi'den rivayet edilir ki, Şam Camii'nin minaresinde onu ziyaret eder ve kalem alması için dinar verirdi. {cite:kifaya-khatib-hyderabad-1357 p. 456}
+
+**Ölümü ve defnisi.. ** Ölüm tarihinde anlaştıklarını söylediler ve 'Al-Muntazam'dan alıntı yaptılar: Bağdat'a girip orada tarihi anlatmak ve [[person/bishr-al-hafi|Bişr bin el-Harit'in yanına gömülmek niyetinde Zamzam suyu]] içtim. Zür Hizce 7'si Pazartesi sabahı, 463 H.C. Dirbül-Silsila'da Nizamiye okulunun yakınındaki bir odada öldü. Ebu İshaq el-Şirazi tabutunu taşıyarak Bişr'in yanına gömdü. {cite:kifaya-khatib-hyderabad-1357 p. 456} Ahmed bin Ali el-Turaythithi orada kendisi için mezar kazmıştı ama engelledi. Ebu Sa'd el-Sufi ona dedi ki: Eğer Bişr hayatta olsaydı ve sen ve vaiz ona girseydiniz, hanginiz yanına otururdu? Dedi ki: Vaiz ve kalbi memnun oldu, tatmin oldu. {cite:kifaya-khatib-hyderabad-1357 p. 456}
+
+## OpenITI blogunda çalışır
+Bu yazarın OpenITI blogu, 0463 KhatibBaghdadi ID altında 29 eseri korumaktadır; bunlar arasında: Al-Khatib Al-Baghdadi'nin Arba'a Majalis, Al-Anba' Al-Muhakam fi, Al-Khatib Al-Baghdadi ve Awali Malik, Al-Khatib'in Romanı. {cite:openiti-corpus 0463KhatibBaghdadi}
+
+## Biblissima referans dosyasında
+Fransız referans dosyası Biblissima, bu bayrağı kimlik numarası Q531 altında «Aḥmad ibn ʿAlī al- H̱aṭīb al-Baġdādī (1002-1071)» isim formunda kaydeder ve formül, dosyada belirtilen doğum ve ölüm yıllarını da içerir. {cite:biblissima Q531}

@@ -1,0 +1,18 @@
+---
+id: person/ibn-tunart
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/ibn-tunart.md}
+---
+## Genel Bakış
+Muhammed ibn Abdullah ibn Tumart al-Masmudi al-Barbari, Ebu Abdullah, el-Mahdi olarak da bilinir, aynı zamanda Muhammedlerin Mehdi'si olarak da bilinir. El-Zerkali, onu Fas Kralı Sultan Abdül-Mümin bin Ali'nin devletinin kurulmasının kurucusu ve Mu'minid Kumiyya devletinin kurucusu olarak tanımlamıştır. Batıdaki Cebel el-Susu'nun kabilelerinden biri olan Masamda Hargha kabilesine mensuptu ve Hargha, soyunu el-Hasan bin Ali'ye kadar takip etmiştir. Önemli figürlerdeki yaşamı 485 Hicri (1092 M.S.) ile 524 Hicri arasındadır, bu da 1130 M.S.'ye karşılık gelir. Soyu hakkında el-Zarkali, biyografinin kenarında belirtilen ifadelere atıfta bulunmuştur {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 pp. 228-229}.
+
+## Bilgi Peşinde Bırakılması ve Çağrısı
+Kabilesinde doğup büyüdü, yaklaşık 500 Hicri yılında bilgi aramak için Doğu'ya seyahat etti, sonra Irak'a ulaştı, Hac yaptı ve bir süre Mekke'de kaldı. Dindarlığı ve şeriatla çelişenleri yasaklamadaki sertliğiyle tanınıyordu. Mekke'de bir grup ona düşmanca yaklaştı, bu yüzden Mısır'a gitti, ancak hükümet onu kovdu ve Mağrip'e geri döndü. Mehdiye'ye yerleşti ve gördüğü eğlence aletleri ile şarap kaplarını kırdı, ardından Bejaia'ya geçti ve orada Malala adlı köylerden birine sürüldü; burada soylu ve zeki genç Abdül-Mümin bin Ali el-Kaisi el-Kumi ile tanıştı ve onu davet etmeyi kabul etti {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 pp. 228-229}.
+
+## Tinmel ve Mahdia
+Destekçilerini topladı ve Abd al-Mu'min eşliğinde Marakeş'e gitti. Hoşgörüsüz bir kral olan Ali ibn Yusuf ibn Tashfin'in meclisine katıldı, ancak İbn Tumart onun yenilikleri ve yanlışları nedeniyle eleştirdi. Sonra varlığından ayrıldı ve Tinmlal dağlarında tahkimatlı bir yere yerleşti, oradaki sakinleri ona dönene kadar vaaz verdi. Doğruluğuyla ün kazandı, onları İbn Taşfin'e karşı isyana kışkırttı, bu yüzden askerlerini öldürdüler ve tahkim ettiler. Davasını güçlendirdi ve Mehdi el-Kaim bi-Amr Allah lakabını aldı. Marakeş'i fethetmeden kısa süre önce öldü, ancak temelleri kurdu ve kurdu, sonraki fetihler ise yoldaşı Abd al-Mu'min {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 pp. 228-229} tarafından yönetildi.
+
+## Tanımı ve Kitapları
+El-Zerkali onu koyu tenli, büyük, önemli, keskin bakışlı, kurnaz bir Ebu Fasih ve edebi bir figür olarak tanımlamıştır. Bilgi hazinesi, el yazması ve en değerli basılı eserleri vardır; bu kitapta Abdül-Mümin bin Ali tarafından dikte edilen yorumları da vardır. Al-İstika'da Al-Selavi'den alıntı yapılır ki, şafak ezan çağrısına bir kelime eklemiştir. Biyografisinin bir kısmını 'Akhbar al-Mahdi ibn Tumart ve Almohad Devleti'nin Başlangıcı' adlı kitaba adamıştır basılmış ve yazarı onu yanılmaz İmam olarak tanımlar; dönemde geldiğini ve kendisine inanmayanları sağır ettiğini inançsızlık olarak belirtir. El-Zerkali, Ensar, Mühacirun, mağara, savaşlar ve halifeler gibi sözlerinde, İbn Tumart'ın peygamberlik biyografisini gözlerinin önüne koyduğuna, tezahürlerini izlediğine ve gruplarının ve bazı yerlerinin isimlerini ödünç aldığına dair kanıt olarak görmektedir. Saad Zaghloul'un İskenderiye'deki kitabında şöyle der: Muhammad ibn Tumart and the Renewal Movement in the Magreb and Andalusia, basılmış {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 pp. 228-229}.

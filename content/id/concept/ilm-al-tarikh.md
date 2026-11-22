@@ -1,0 +1,22 @@
+---
+id: concept/ilm-al-tarikh
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/ilm-al-tarikh.md}
+---
+## Ringkasan
+Ibn Khaldun melihat dalam pengantar bahwa seni sejarah mulia dalam doktrin, penuh manfaat, dan mulia dalam tujuan. Seni ini memperkenalkan kita pada kondisi bangsa-bangsa masa lalu dalam moral mereka, para nabi dalam biografi mereka, dan raja dalam negara serta kebijakan mereka. {cite:muqaddima-ibn-khaldun p.22-23}
+
+## Kondisinya menurut Ibn Khaldun
+Ia mengatakan bahwa sejarah membutuhkan banyak kritik, pengetahuan yang beragam, wawasan yang baik, dan verifikasi. Jika sebuah laporan hanya didasarkan pada transmisi dan tidak diatur oleh prinsip adat, aturan politik, atau sifat urbanisasi, maka kesalahan mungkin tidak dapat dipercaya. {cite:muqaddima-ibn-khaldun p.22-23}
+
+## Kesalahan Sejarawan
+Ibn Khaldun menyebutkan bahwa sejarawan dan komentator terjebak dalam salah tafsir dalam cerita karena mereka hanya mengandalkan transmisi. Ia percaya bahwa jumlah kekayaan dan tentara adalah yang paling mungkin salah. {cite:muqaddima-ibn-khaldun p.22-23}
+
+Ia mewakili, dengan menyangkal apa yang dilaporkan al-Mas'udi dan banyak sejarawan, bahwa pasukan Anak-anak Israel berjumlah enam ratus ribu. Ia mengatakan bahwa Mesir dan Levant tidak dapat menampung mereka, dan massa Persia terbesar di al-Qadisiyyah adalah seratus dua puluh ribu menurut pengangkutan Saif, dan enam puluh ribu menurut transportasi Aisha dan al-Zuhri. {cite:muqaddima-ibn-khaldun p.22-23}
+
+Ini adalah metodologi Ibn Khaldun. Yang tidak disebutkan di sini: evaluasi peneliti terhadap metodologinya. Perlu sumber tambahan.
+
+## Dalam program "Apa yang Telah Sumbangkan Muslim kepada Dunia" oleh Ragheb El-Serjani
+Ragheb Al-Serjani [[person/ragheb-al-sergani|percaya]] dalam episode pertama program [[work/what-did-muslims-bring-to-the-world|"Apa yang Telah Disampaikan Muslim kepada Dunia" bahwa]] peradaban Islam didokumentasikan dan ditulis secara tidak adil, hanya menampilkan aspek militer dan politik dengan segala hasutannya, sementara aspek etis, ilmiah, dan sosialnya tetap berada di rak perpustakaan dan forum akademik yang tidak diketahui oleh masyarakat umum. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:02:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:03:00} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:03:30} Ia mengatakan bahwa mempelajari sejarah penting untuk membangun suatu bangsa karena Tuhan telah menetapkan hukum tetap untuk alam semesta, termasuk hukum naik turunnya bangsa. Siapa pun yang mengetahuinya akan mengharapkan bangsanya pada waktunya. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:04:00} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:05:00} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:05:30} Ia mengutip perintah Al-Qur'an untuk menceritakan kija, menyatakan bahwa sekitar sepertiga Al-Qur'an adalah kisah tentang nabi dan bangsa-bangsa baik maupun jahat, bagaimana mereka muncul dan bagaimana mereka jatuh. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:08:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:09:00} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:09:30} Disebutkan bahwa beberapa ulama besar menganggap menceritakan sejarah sebagai pemborosan waktu, dan [[person/al-sakhawi|Al-Sakhawi]] menanggapi dengan sebuah buku lengkap berjudul "Teguran kepada Mereka yang Mengkritik Sejarah." {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:10:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:11:00} Ia mengatakan bahwa semua bangsa merayakan sejarahnya tidak peduli seberapa singkat, dan ia mengutip Amerika sebagai contoh, yang sejarahnya dimulai pada tahun 1776 dan memiliki museum di mana-mana, mengutip pepatah: Siapa yang tidak memiliki sejarah tidak memiliki masa depan. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep01 00:11:30}

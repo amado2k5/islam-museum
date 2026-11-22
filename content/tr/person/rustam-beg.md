@@ -1,0 +1,18 @@
+---
+id: person/rustam-beg
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/rustam-beg.md}
+---
+## Özet
+Rustam Bey Bayindar — tam adı Ebu el-Muzaffar Sultan Rustam bin Maksud bin Uzun Hasan — Ak Kayinlu'nun beşinci sultanıydı ve Yaqub Bey'in ölümünden sonra çıkan aile çatışmasında 1492'den 1497'ye kadar hüküm sürdü. {cite:wikipedia-rustam-beg-en} {cite:wikipedia-rustam-beg-ru} Vikipedi'nin dört dilbilimsel baskısı ve Wikidata unsuru bu kimlikte hemfikirdir: İbn Maksud Bey ve birliğin kurucusu Uzun Hasan'ın torunu olarak 1492'de Tebriz'e atanmış ve 1497'de kuzeni Ahmed Bey tarafından tahttan indirilmiştir. {cite:wikipedia-rustam-beg-en} {cite:wikipedia-rustam-beg-fa} {cite:wikipedia-rustam-beg-tr} {cite:wikidata-rustam-beg} ve doğum tarihi kesin olarak bilinmemektedir—Rus makalesi açıkça belirtir—bu kayıtta doğum yılı yoktur: müze listesinde listelenen 1465 numarası gördüğümüz hiçbir kaynakta belgelenmemiştir ve 1477'nin Wikidata'daki bireysel değeri kaynak belirtilmemiştir. {cite:wikipedia-rustam-beg-ru} {cite:wikidata-rustam-beg}
+
+## Tahta Giden Yol
+Babası Bağdat valisi Maqsud, Uzun Hasan'ın ölümünden sonra kardeşi Sultan Halil'e karşı isyan etti ve 1478'de idam edildi; Rustem bir süre ortadan kayboldu ve ardından Sultan Yaqub'un saltanatı sırasında Tebriz'e döndü. {cite:wikipedia-rustam-beg-ru} Annesinin kardeşi Aybah Sultan onu Tebriz'e getirdiğinde Nahçıvan'da hapsedildi. {cite:wikipedia-rustam-beg-fa} {cite:wikipedia-rustam-beg-en} Orada, Burnak ve Kaçar kabilelerinin desteğiyle, kuzeni Sultan Baysungar — 1493'te öldürüldü — 1492 Mayıs sonlarında yenildi ve idam edildi. {cite:wikipedia-rustam-beg-en} {cite:wikipedia-rustam-beg-ru}
+
+## Antlaşma
+Farsça makale, Rustam'ın yoksullar için yaptığı reçeteyi Aq Koyunlu döneminde eşi benzeri görülmemiş bir ölçekle ve cömertliğiyle adının ün kazandığını belirtir. {cite:wikipedia-rustam-beg-fa} İsfahan'daki Darb Kuşk kapısı onun hükümdarlığına aittir; 902 Hicri (1496–97) tarihli yazıtı ise hüküm süren sultan tarafından adlandırılmıştır. {cite:wikipedia-rustam-beg-en} 1494'te Erdebil'in Safevilerine saldırdı, Şeyh Haydar'ın oğlu ve halefi Genç İsmail'i mağlup etti ve onu kaçmaya zorladı. {cite:wikipedia-rustam-beg-ru}
+
+## Düşüş ve ölüm
+1497'de kuzeni Ahmad Bey—Godeh Ahmad—Osmanlı desteğiyle ona karşı isyan etti ve hızla galip geldi. {cite:wikipedia-rustam-beg-ru} {cite:wikipedia-rustam-beg-tr} Rostam'ın o yıl nasıl öldüğü üç kaynakta anlatılır: İngilizce makale, tahtı geri alma girişiminin başarısız olması sonrası aylar sonra tahttan indirildiğini ve idam edildiğini belirtir; Fars, 902 Hicri'de Tebriz'de yenilip öldürüldüğünü ve oradaki İmzamzadeh Chaharmnar'a gömüldüğünü söyler; Rus ise Gürcistan'a kaçtığını ve kısa süre sonra orada öldüğünü belirtir. {cite:wikipedia-rustam-beg-en} {cite:wikipedia-rustam-beg-fa} {cite:wikipedia-rustam-beg-ru} Aynı yıl, 1497, üzerinde anlaşılır ve Wikidata da buna katılmaktadır. {cite:wikidata-rustam-beg} İngilizce ve Farsça makaleler Rostam'ı bilgi kutularında Sünni olarak tanımlar, ancak örtüşen bilimsel temellere dayanırlar — her iki durumda da İran Ansiklopedisi'ndeki Aq Qoyunlu maddesi alıntılanmıştır — ve gördüğümüz hiçbir anlatı kaynağı insanın kendisinin fıkıh okulunu tanımamaktadır, bu nedenle bu kayıt tanıklığı kanıtlar ve dini doktrinle belgelenmemiş, kesin değildir. {cite:wikipedia-rustam-beg-en} {cite:wikipedia-rustam-beg-fa} {cite:wikipedia-rustam-beg-ru}

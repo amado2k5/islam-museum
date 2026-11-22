@@ -1,0 +1,9 @@
+---
+id: concept/awar-one-eyed
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/awar-one-eyed.md}
+---
+## Ringkasan
+Dalam linguistik, 'awr' berarti hilangnya sensasi pada satu mata, dan ahli hukum menggunakannya dalam maknanya {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11908}. Istilah ini dibedakan dari 'isha', yaitu penglihatan buruk di malam hari, dari 'amash, yang berarti penglihatan buruk dengan air mata mengalir, dan dari 'awwal' serta dari kebutaan yang mencakup mata {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11909}. Menurut mayoritas, 'awrah' tidak cukup dalam sebuah pengorbanan jika matanya hilang, dan aliran Hanafi cukup jika ada putih di mata dan sensasi tidak hilang {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11909} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11910}. Hak untuk membatalkan pernikahan tidak ditetapkan kecuali salah satu pasangan mengsyaratkan keselamatan darinya {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11910}. Membebaskan pria bermata satu sudah cukup sebagai penebusan menurut mayoritas ahli hukum {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11911}. Dalam kasus orang bermata satu atau sahih, saheeh tidak dianggap sebagai 'awra' (orang bermata satu), dan dalam kasus ini, uang darah penuh diambil sesuai mazhab Maliki, setengah uang darah diambil menurut Hanafi dan Shafi'i, dan menurut Hanafi dan Shafi'i, uang darah penuh harus dibayar kepada pelaku {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11911} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11912}. Mereka yang melebihi kondisi orang yang tepat dihukum untuk orang bermata satu menurut Hanafi dan Shafi'i, dan Maliki memiliki pilihan antara pembalasan dan uang darah {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11912}.

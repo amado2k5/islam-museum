@@ -1,0 +1,26 @@
+---
+id: person/cheikh-ahmed-tidiane-sy
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/cheikh-ahmed-tidiane-sy.md}
+---
+## Özet
+Şeyh Ahmed Tijani Si, lakaplı Al Maktoum (29 Aralık 1925 – 15 Mart 2017), Senegalli bir Tijani bilgini, eğitimci, politikacı ve sanayiciydi. Sirin Babiker Si'nin oğlu ve Hac Malik Si'nin torunudur. Hayatını eğitimli gençlere yönelik İslam öğreterek geçirdi, Senegal'in en erken siyasi partilerinden birini kurdu, Birleşik Arap Cumhuriyeti'ne büyükelçi olarak hizmet etti ve sonraki yıllarında Si ailesi tarafından halefleri olarak tanındı. {cite:wikipedia-cheikh-ahmed-tidiane-sy-fr} {cite:wikidata-cheikh-ahmed-tidiane-sy}
+
+## Erken Yaşamı
+Babası gibi, 29 Aralık 1925'te Saint-Louis'te, babası Sirin Babiker Si ve annesi Sakhna Astu Kan'ın çocuğu olarak doğdu. Annesi İmam Mapa Diakho Ba'nın soyundan geliyordu. Babası arkadaşları ve öğretmenleri arasında büyüdü, on dört yaşında İslam bilimlerinin alt ve orta bölümlerini tamamladı ve on altı yaşında ilk kitabı "Almoravidlerin Kötü Alışkanlıkları"nı yayımladı. 28 Haziran 1950 tarihli bir Fransız sömürge raporu, onu "babasının en sevilen ve yetenekli oğlu" olarak tanımladı ve Arap kültürüne tutkuyla bağlı, Batı'dan etkilenen genç bir İslam öğrencisi olduğunu söyledi. {cite:wikipedia-cheikh-ahmed-tidiane-sy-fr}
+
+## Eğitim Hareketi
+1950'de özellikle Senegalli Müslüman gençlere yönelik bir İslami savunuculuk hareketi olan "Kozri Mezoulman Eğitmeni"ni (İslami Eğitim Söylemi) kurdu ve aynı zamanda "Ebedi İslam" dergisini çıkardı; ardından 1955'te gençlere dini eğitim vermek için "İslami Eğitim Derneği"ni kurdu. Dedesi zawiyalar ve okullar kurmuş, babası ise "Daherat"ta takipçiler örgütlemişken, kendisi 1940'lardan itibaren sendikalarda Daherat'ı örgütledi ve konferansları onun imzası haline geldi; 8 Temmuz 1956'da Teis şehrindeki Rex Sineması'nda verilen "Din ve İnsanlık" konferansıyla başladı. 1968 grevinin ardından Tifaouane'deki Mawlid hacılar korumasız kaldıktan sonra, Mawlid Örgütlenme Komitesi'ni (COSKAS) kurdu ve bunu küçük kardeşi Sarin Abdulaziz C.'ye emanet etti. Tijaniyya tarikatına doğan ve resmi statüsü 20 Şubat 1978'de onaylanan 'Al-Mustashdeen wal-Mustarshidat' (Dahira Al-Mustarshidin) hareketinin manevi rehberiydi; oğlu Sarin Mustafa Si daha sonra bu grubun manevri yetkilisi oldu. {cite:wikipedia-cheikh-ahmed-tidiane-sy-fr} {cite:wikipedia-serigne-moustapha-sy-fr}
+
+Eğitimi, İslam'ın ritüel tezahürlerinden daha geniş olduğunu doğruladı: "Ne yazık ki Senegalli Müslüman için, İslam'ı beş sütunla karıştırma eğilimindedir, ki bunlar neyse ki sadece sloganlarıdır." Tijaniyya tarikatına doğdu, ona katıldı, çerçevesinde bağlılık yemini etti ve şiirlerinde bu bağlantıyı şöyle ifade etti: "Rabbim bana El-Tijani olarak anılmayı nimet etti." Fransız makale, onun aidiyetinin sadece soyundan değil, 1963'te kendisine "Fa Elika" adlı şiiriyle hitap eden tarikatın kurucusu Ahmed Al-Tijani adına somutlaşan değerlerden kaynaklandığını belirtiyor. {cite:wikipedia-cheikh-ahmed-tidiane-sy-fr}
+
+## Siyaset, İş Dünyası ve Diplomasi
+Şubat 1959'da 'Senegal Dayanışma Partisi'ni kurdu ve 22 Mart 1959 yasama seçimlerinde Léopold Sédar Senghor bloğuna karşı yarıştı; haftalar sonra, Haziran 1959'daki Tifaouane olaylarının ardından hapse atıldı. Senegal'in bağımsızlığından sonra, Senghor 11 Kasım 1960'ta kararnameyle onu Birleşik Arap Cumhuriyeti'ne Olağanüstü ve Tam Yetkili Büyükelçi olarak atadı. İş dünyasında ulaşım ve tarıma yatırım yaptı, 'Sonakos' adını alan petrol presleri satın aldı ve 'Sokosem' olan kireç ve çimento şirketini devraldı. {cite:wikipedia-cheikh-ahmed-tidiane-sy-fr}
+
+## Eserleri
+Eserleri arasında "Fa Elika" (Ekim 1963), babası üzerine yazdığı "Babamız Ebu Bekir" ağıtı, Samia'yı öven "Biz Tijani'nin Çocuklarıyız", büyükbabasının biyografisi "Senegal Ulusunun Bilinmeyen"i, hukuk devleti üzerine bir çalışma ve Aldo Moro'da (1978) bir ağıt bulunmaktadır. Konferansları Senegal'in kamu meselelerini ele aldı: "İslam ve Sosyalizm" (1963), Dakar Üniversitesi'nde "İslam ve Protesto" (1969) ve "İslam ve Zenciler" (1972). {cite:wikipedia-cheikh-ahmed-tidiane-sy-fr}
+
+## Halifelik Meselesi ve Ölümü
+Hayatı boyunca yalnızca bir manevi otoriteyi kabul etti: babası Sirin Babiker Sy; babasının 1957'deki ölümünden sonra, aile anlaşmazlıkları onu Babiker'in soyuna sadık olanlar için Tifaouan'da paralel bir zawna kurmaya yöneltti. Kendisi 'Halife el-Aam' unvanını reddetti ve bunu kafa karışıklığı yaratan sömürge dönemi olarak gördü. Fransız makalesi, kardeşi Sirin Mansour Si'nin 2012'deki ölümüyle 'Büyük Halife' olma sürecini anlatıyor ve ilerleyen yıllarında Hac Malik Si'nin ailesinin halefi olarak oybirliğiyle tanındığını belirtiyor. 15 Mart 2017 Çarşamba günü Dakar'daki evinde hayatını kaybetti; yerine kardeşi Sirin Abdulaziz Si Al-Amin ve cenaze duası lideri geçti ve önerdiği gibi Tifawan'ın Ndiandakhum mahallesinde defnedildi. {cite:wikipedia-cheikh-ahmed-tidiane-sy-fr} {cite:wikidata-cheikh-ahmed-tidiane-sy}

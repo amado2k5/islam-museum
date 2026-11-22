@@ -1,0 +1,29 @@
+---
+id: concept/ikhtiyar
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/ikhtiyar.md}
+---
+## Definisi
+Pilihan secara linguistik berarti memilih satu hal daripada yang lain. Secara teknis, niat adalah sesuatu yang berfluktuasi antara keberadaan dan ketidakadaan, dalam kemampuan pelaku untuk lebih memilih satu aspek daripada yang lain. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1964}
+## Istilah terkait
+Pilihan adalah hak yang muncul melalui otorisasi hukum, seperti opsi jatuh tempo, atau dari hak yang dikontrakkan, seperti opsi kondisi. Setiap pilihan diikuti oleh pilihan, bukan setiap pilihan yang didasarkan pada pilihan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1964}
+Dalam penggunaan para ahli hukum, niat adalah niat, yaitu niat dari tindakan dan arah ke arahnya, seperti yang mereka katakan dalam 'divorce by metafor': jika ia bermaksud demikian, maka itu terjadi; jika tidak, maka tidak terjadi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1964}
+Menurut Hanafi, kepuasan bukanlah pilihan; kepuasan adalah perluasan jiwa, dan tidak ada koeksistensi umum di antara mereka, karena seseorang dapat memilih sesuatu yang tidak disetujuinya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1965}
+## Paksaan, Kepuasan, dan Pilihan
+Perbedaan di antara Hanafi muncul dalam hal pemaksaan: paksaan tanpa jalan keluar, seperti kemungkinan pemukulan dan pembatasan, membatalkan persetujuan tetapi tidak membatalkan pilihan, sedangkan paksaan yang merupakan upaya hukum meniadakan persetujuan dan membatalkan pilihan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1965}
+## Kriteria Seleksi
+Agar pilihan itu sah, pemiliknya harus bertanggung jawab, dan niatnya harus seorang tiran yang tidak memiliki otoritas siapa pun. Pilihan menjadi tidak sah jika salah satu syarat kewajiban terganggu, misalnya jika orang yang dipilih gila atau di bawah umur tanpa pembeda, atau pilihannya didasarkan pada pilihan orang lain; misalnya, siapa pun yang dipaksa melaksanakan perintah paksaan yang dimaksudkan untuk menghindari paksaan, sehingga pilihannya menjadi tidak sah karena didasarkan pada pilihan paksaan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1965}
+Jika pilihan yang korup bertentangan dengan pilihan yang benar, pilihan yang benar lebih baik jika tindakan tersebut dapat dikaitkan dengannya; jika tidak, tetap dikaitkan dengan pilihan yang korup, seperti paksaan atas kata-kata dan tindakan di mana seseorang tidak cocok menjadi alat bagi orang lain, seperti makan dan berhubungan seks. Rincian tentang ini ada dalam 'Ikrah' (paksaan). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1965}
+## Pilihan dan sumbernya
+Pilihan dapat diberikan oleh pembuat undang-undang, seperti pilihan orang yang diminta untuk dipilih antara air dan batu dan sejenisnya, serta pilihan pelaku yang menyatakan ketidakpercayaan sebagai salah satu karakteristik ayat tersebut. Pilihan ini juga dapat dikeluarkan oleh orang lain, seperti mitra yang memberikan pilihan kepada rekannya antara membeli sahamnya, menjual sahamnya kepadanya, atau menjual seluruh toko kepada pihak ketiga. Hanya pemilik sah atau seseorang yang secara hukum mewakilinya yang memiliki pilihan tersebut. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1965}
+## Apa jawaban pilihan
+Hak-hak ada dua jenis: hak Allah Yang Maha Tinggi dan hak para hamba. Apa pun yang termasuk di antara hak Allah, seperti kewajiban khusus seperti shalat, dan apa yang dilarang seperti perselingkuhan, hamba tidak memiliki pilihan dari sudut pandang kewajiban. Dan apa pun yang termasuk hak hamba, seperti hutang, pemberian, penolakan karena kesalahan, atau pendahuluan, ia memiliki pilihan, dan ini dilakukan dengan membuat Pemberi Hukum merdeka, bukan dengan kemerdekaan atas pilihannya. Al-Shatibi berkata mengenai hal ini. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1966}
+Pilihan dapat diterapkan pada dua hal, keduanya diperbolehkan, sehingga individu dapat memilih mana pun yang mereka inginkan. Pilihan dapat ditolak karena dua hal, keduanya dilarang; jika seseorang dipaksa memilih satu, ia harus memilih yang lebih aman. Pilihan ini dapat ditolak sebagai halal dan haram, sehingga tidak diperbolehkan menolak pilihan kecuali untuk apa yang diperbolehkan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1966}
+## Pilihan, Hukuman, dan Kebijaksanaan Legitimasi Hukumannya
+Pilihan adalah syarat untuk terjadinya hadiah dan hukuman di akhirat, dan itu adalah syarat agar hukuman dijatuhkan pada perbuatan di dunia ini. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1966}
+Hukum pilihan adalah untuk mencapai kepentingan para pelayan, yang merupakan salah satu tujuan Syariah. Manfaatnya bisa bersifat individu bagi yang terpilih atau bagi orang lain jika pilihan terbatas pada mereka, atau bisa bersifat kolektif. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1966}
+## Lokasi Pencarian
+Para ahli hukum menyebutkan pilihan dalam berbagai konteks yurisprudensi: memilih orang yang mencari bantuan dalam penyucian, individu memilih antara doa publik dan doa rahasia, pengembara memilih antara menggabungkan dan tidak menggabungkan doa, pilihan peziarah antara pernikahan tunggal sementara dan pernikahan, pilihan pasangan dalam perceraian yang dapat dibatalkan, anak di bawah umur memilih antara orang tuanya di akhir hak asuh menurut beberapa ahli hukum, memilih yang dengan preemption antara mengambil dan meninggalkannya, memilih imam di tanah terbuka dengan paksa, dan hakim memilih hukuman yang mencegah dalam hukuman diskresioner. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1966} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1967}
+Hal ini dirinci dalam bab-babnya, serta dalam opsi kontraktual seperti opsi pubertas, pembebasan, cacat, dan pemisahan transaksi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1967}

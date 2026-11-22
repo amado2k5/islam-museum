@@ -1,0 +1,37 @@
+---
+id: person/al-waqidi
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/al-waqidi.md}
+---
+## Özet
+Muhammed bin Amr bin Vakid, Banu Haşim'in özgür kaderi, biyografi ve seferlerin yazarı. Hadislerde zayıf. 209 Hicri yılında, yetmiş yedi yaşında öldü. {cite:muruj-al-dhahab p.426-427}
+
+İbn Haldun, onu El-Mes'udi arasında önde gelen tarihçiler arasında saydı ve kitaplarındaki yanlış anlamalara atıfta bulundu. {cite:muqaddima-ibn-khaldun p.15} İbn el-Nadim, Futuh al-Sham'ın yazarında Ebu Mihnaf ve El-Medeynî ile işbirliği yaptığını belirtti. {cite:fihrist-ibn-al-nadim p.293}
+
+El-Mes'udi ile yaptığı raporlar arasında, arkadaşı el-Haşimi'nin onu teselli ettiği bin dirhem hikayesi de vardır. El-Mevun haberi duydu ve onlara yedi bin dinar hibe verdi. {cite:muruj-al-dhahab p.426-427}
+
+## Altın için ölçülü dengede
+El-Dahabi [[person/al-dhahabi|]], Muhammed bin Ömer ibn Vakir el-Eslami tarafından [[work/mizan-al-itidal|Mizan el-I'tidal'da onların]] özgür kaderi el-Vaqidi el-Medeni el-Kadi olarak biyografisini sunar ve onu "zayıflığına rağmen yazıların yazarı ve bilgi taşıyıcılarından biri" olarak tanımlar. {cite:mizan-itidal-bijawi-v3 p. 662} İki kaynak arasında babasının adı konusunda bir anlaşmazlık vardır: el-Dahabi'ye göre 'Ömer', el-Mes'udi'ye göre 'Amr'dir. {cite:mizan-itidal-bijawi-v3 p. 662} {cite:muruj-al-dhahab p.426-427} El-Dhahabi, 130 Hicri yılında doğduğunu, İbn Jureyc, İbn Eclan, Ma'mar ve Tevr ibn Yezid ile tanıştığını, dedesinin ise Abdullah ibn Buraidah ibn al-Husayb'ın özgür adamı olduğunu belirtir. {cite:mizan-itidal-bijawi-v3 p. 664}
+
+Bunu, [[person/ibn-majah|İbn Majah'ın]] İbn Ebi Şeybe'den Cuma günü giyimle ilgili bir hadis anlattığına ve bu şeyhin Bağdat hakimi el-Vaqidi olduğunun kanıtı olarak gösteriyor ve şöyle diyor: 'İbn Majah'ın onu isimlendirmeye cesaret edememesi sizin için yeterlidir.' {cite:mizan-itidal-bijawi-v3 p. 662} {cite:mizan-itidal-bijawi-v3 p. 663} Kenarda, araştırmacının editörü, bir kopyadan alıntı yaparak 'İbn Ebi Şeybe'nin yanlış anlaşıldığını belirtir, İbn Majah değil. {cite:mizan-itidal-bijawi-v3 p. 663}
+
+## Yara içinde
+Ahmed bin Hanbal [[person/ahmad-ibn-hanbal|şöyle]] dedi: Hadisleri çarpıtan bir yalancı, yeğenim el-Zuhri'nin Muammer ve benzeri konularda hadislerini okur. {cite:mizan-itidal-bijawi-v3 p. 663} İbn [[person/yahya-ibn-main|Meyin]] şöyle dedi: O güvenilir değildir ve bir keresinde şöyle dedi: Onun hadisi yazılı değildir. {cite:mizan-itidal-bijawi-v3 p. 663} [[person/al-bukhari|El-Buhari]] ve Ebu Hatim şöyle dediler: Terk edilmiştir, Ebu Hatim ve el-Nasai de şöyle dediler: O hadisleri uydurur, El-Daraqutni der ki: Zayıftır, İbn 'Adî ise şöyle dedi: Onun hadisleri korunmamıştır ve felaket ondan kaynaklanır. {cite:mizan-itidal-bijawi-v3 p. 663} Ebu Ghalib, [[person/ali-ibn-al-madini|İbn el-Madini'den]] al-Waqidi'nin hadisleri uydurduğunu ve el-Muğira bin Muhammed'in ondan al-Haytham ibn 'Adi'nin ona el-Vakidi'den daha güvenilir olduğunu, hadis, soybilim veya başka hiçbir konuda onaylamadığını bildirmiştir. {cite:mizan-itidal-bijawi-v3 p. 663} {cite:mizan-itidal-bijawi-v3 p. 664} El-Buhari şöyle dedi: Onlar onun hakkında sessiz kaldılar ve İbn Rahvey şöyle dedi: Bence o, hadisleri uyduranlardan biridir. {cite:mizan-itidal-bijawi-v3 p. 665} İshaq bin el-Tabba'dan, Mekke'ye giderken el-Vaqidi'nin duayı yanılttığını gördüğü bildirilmiştir. {cite:mizan-itidal-bijawi-v3 p. 664} El-Dhahabi, kendisine karşı eleştirilen hadislerinden örnekler vermiştir; bunlar arasında As'ad al-Himyari'nin lanetini yasaklayan bir hadis vardır. {cite:mizan-itidal-bijawi-v3 p. 664}
+
+## Ezberlediğiniz ve öğrettiğiniz için övgüler
+El-Dhahabi, Mücahit bin Musa'dan şöyle der: Kimsenin El-Vaqidi'den daha ezberlenmiş kimse tarafından yazmadığını söyler ve şöyle yorum yapar: "O doğruydu; raporları, biyografileri, seferleri, olayları, insanların günlerini ve fıkıhı ezberlemede en iyisiydi." {cite:mizan-itidal-bijawi-v3 p. 663} Süleyman El-Şadkuni'den de şöyle dediği aktarılır: Ya El-Vakidi en doğru olandı ya da en yalancıydı, çünkü onun hakkında bir kitap yazdı ve sonra ona sordu ve tek bir harfi bile değiştirmedi. {cite:mizan-itidal-bijawi-v3 p. 664} Ebu Davud, İbn el-Medini'den al-Vakidi'nin otuz bin garip hadis anlattığını aktarmıştır. {cite:mizan-itidal-bijawi-v3 p. 664}
+
+Muhammed bin Selam el-Cumemi şöyle dedi: O, zamanının bir âlimiydi. [[person/ibrahim-al-harbi|İbrahim el-Harbi]] şöyle dedi [[person/abd-al-aziz-al-darawardi|: El-Vakidi, İslam'da güvenilir kişidir, İslam konularında en bilgili kişidir. İslam öncesi döneme gelince, o dönem hakkında hiçbir şey bilmiyordu. {cite:mizan-itidal-bijawi-v3 p. 665} Mus'ab al-Zubeyri şöyle dedi: Allah'a yemin ederim, onun gibi bir şey görmedik, ve dedi ki: Güvenilir ve güvenililgici]]. El-Deraberdi [[person/yazid-ibn-harun|şöyle dedi: El-Vaqidi hadislerde Müminlerin Komutanıdır. {cite:mizan-itidal-bijawi-v3 p. 665}]] Yezid bin Harun [[person/abu-ubayd-al-qasim-ibn-sallam|ve Ebu Ubeyd ona]] güvendiler, Muhammed bin İshaq el-Sekani ise dedi ki: Eğer bana güvenilmeseydi, ondan rivayet etmezdim. {cite:mizan-itidal-bijawi-v3 p. 665} İbn Sa'd ondan şöyle bir şey anlattı: Kitapları ezberlemesinden fazlası ve benim ezberlemem kitaplarımdan daha büyüktür. {cite:mizan-itidal-bijawi-v3 p. 665} Ya'qub ibn Şeybe, batı tarafından hareket ettiğinde kitaplarını yirmi yüz yirmi metre taşıdığını ve altı yüz kamatar kitabı olduğu söylenir. {cite:mizan-itidal-bijawi-v3 p. 665}
+
+## Bağdat'taki yargı sistemi ve ölümü
+El-Dahabi, 'Tarih Bağdat'ta [[person/al-khatib-al-baghdadi-ahmad|El-Hatib'den]] alıntı yaparak, El-Vaqidi'nin Bağdat'a geldiğini ve doğu tarafının yargıcı olarak atandığını, kendisinin hem doğu hem batı için de adı geçenlerden biri olduğunu belirtmiştir. Seferler, biyografi, dersler, Peygamber'in raporları, kendi zamanındaki ve ölümünden sonraki olaylar, fıkıh kitapları ve hadislerdeki farklılıklar üzerine kitaplarıyla sokaklarda dolaşmıştır. Cömertliği ve cömertliğiyle ünlüydü. {cite:mizan-itidal-bijawi-v3 p. 665} {cite:mizan-itidal-bijawi-v3 p. 666} El-Dahabi, raporları ve varoluşunun bir derlemesi olan 'Büyük Tarih'ine atıfta bulunur. {cite:mizan-itidal-bijawi-v3 p. 666} El-Dhahabi'ye göre 207 yılında, el-Mes'udi'ye göre ise 209 yılında Zhu Hicce'de yargıç olarak görev yaparken hayatını kaybetmiştir. {cite:mizan-itidal-bijawi-v3 p. 666} {cite:muruj-al-dhahab p.426-427} El-Dhahabi biyografisini şöyle bitiriyor: "Vakidi'nin zayıflığı üzerinde uzlaşma sağlanmıştır." {cite:mizan-itidal-bijawi-v3 p. 666}
+
+:::perspectives
+- **Ehl-sünnet: Ahmed, İbn Ma'in, el-Buhari, Ebu Hatim, el-Nasa'i, İbn el-Medini, İbn Rahavey, el-Daraqutni, İbn 'Adi ve el-Dahabi**: Terk edilmiş veya uydurma hadislerdir ve el-Dahabi'ye göre uzlaşı zayıftır. {cite:mizan-itidal-bijawi-v3 p. 663} {cite:mizan-itidal-bijawi-v3 p. 665} {cite:mizan-itidal-bijawi-v3 p. 666}
+- **Ehl-sünne: Mus'ab al-Zubayri, Yazid bin Harun, Ebu Ubeyd, İbrahim el-Harbi, el-Deraverdi ve el-Saghani**: güvenilir, güvenilir ve raporlarda imamdır. {cite:mizan-itidal-bijawi-v3 p. 665}
+:::
+
+## OpenITI blogunda çalışır
+Bu yazarın OpenITI blogu, 0207Waqidi ID altında 3 eser kaydediyor; bunlar arasında: Levant'ın Fetihleri, Al-Maghaz, Kitab al-Ridda. {cite:openiti-corpus 0207Waqidi}

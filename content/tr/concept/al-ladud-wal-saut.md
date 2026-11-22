@@ -1,0 +1,25 @@
+---
+id: concept/al-ladud-wal-saut
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/al-ladud-wal-saut.md}
+---
+## Özet
+Al-'ladud, bir kişinin ağzının bir tarafına su verdiği şeydir, 'al-s'ut' ise burna dökülen şeydir {cite:zad-al-maad p.619} {cite:zad-al-maad p.624}. Rivayetlerde Peygamber dilenmeyi istemiştir {cite:sahih-al-bukhari 5691} ve hastalığı sırasında ailesinin üzgün olduğunu, bu yüzden onlara bunu yapmamalarını tavsiye etmiş, ardından şöyle demiştir: 'Evde sadece Abbas kalmıştır' {cite:sahih-al-bukhari 5709} ve Hint udunun 'idrarı hafifletmek ve kirliliğin kirliliğinden doğum yapmak için kullanılır' {cite:sahih-al-bukhari 5692}. El-Tirmidhi'de: 'Aldığınız en iyi tedavi hapşırmak, hapşırmak, kupa tutmak ve yürümektir.' Zinciri Al-Muhakkiq'e göre zayıftır {cite:zad-al-maad p.616}.
+
+## Tanım
+İbn el-Qayyim, el-Esma'i'den Ebu Ubeyd'den 'el-ladood'un, bir kişinin ağzın iki tarafından birindeki suya verdiği, vadiden her iki tarafından alınan suya verildiği, 'vürcü'nün ise ağzın ortasında olduğunu anlatır. 'al-ladud'un fetha ile doğum yaptığı ilaç, 'sut'un ise burundan verilen ilaç olduğunu {cite:zad-al-maad p.619} anlatır. 'Sut'u buruna giren şey olarak tanımlar; bu, vurulur, elenir, yoğurulur, kurutulur ve gerektiğinde çözülür. Sırtüstü yatarken ve omuzları arasında yatarken buruna yutulur, başını indirmek için kaldırılır, böylece süt beynine ulaşır ve hapşırarak içindekileri çıkarır {cite:zad-al-maad p.624}.
+
+## Al-Sa'out Haberlerde
+El-Buhari, İbn Abbas'tan Peygamber'in kupa yaptığını ve kupacı için ücretini verdiğini ve {cite:sahih-al-bukhari 5691} [[passage/bukhari-api-5691|Buhari 5691]]'i aradığını rivayet eder; Ebu Davud ise {cite:sunan-abi-dawud 3867} [[passage/abudawud-api-3867|Ebu Davud'u aradığını rivayet eder]]. İbn El-Kayyim, Peygamber'in kırlangıçla tedaviyi gerektiğinde övdüğünü söyler {cite:zad-al-maad p.624}. İbn Abbas'tan Tirmidi'de şöyle bir hadis vardır: "Aldığınız en iyi tedavi yutkunma ve şişlik, kupa ve yürümektir." Yürümek, mizacı yumuşatan, çıkmayı kolaylaştıran ve doğrulayıcı zincirinin zayıflığına işaret eden ilaçtır {cite:zad-al-maad p.616} [[passage/tirmidhi-api-2048|El-Tirmidi 2048]].. Hint udunda: "Bakire'yi rahatlatmak için kullanır ve aynı kirlilikten doğurur" {cite:sahih-al-bukhari 5692} [[passage/bukhari-api-5692|Al-Bukhari 5692]] [[passage/abudawud-api-3877|, Abu Davud 3877]]. Detaylar için bkz. [[concept/al-qust-al-hindi|Al-Qist Al-Hindi ve Al-Bahri]].
+
+## Haberlerdeki sert
+Ebu Davud, Sad'd bin Ebi Vakkas'tan hastalandığını rivayet eder, Peygamber onu ziyarete geldi, elini göğsünün arasına koydu, kalbinde soğuk buldu ve ona şöyle dedi: "Sen bir maf' adamısın. O halde Thaqif'ten Al-Haris ibn Kaldah'a gel, çünkü o şifacı bir adamdır. Medine'nin Ajwa'sından yedi hurma alsın ve onları nuveleriyle birlikte sana getirsin, sonra sana getirecek" {cite:sunan-abi-dawud 3875} {cite:zad-al-maad p.624} Ebu [[passage/abudawud-api-3875|Davud 3875]]. İbn al-Kayyim, kalbi acı çeken kişinin kalbi acı çeken kişidir ve hurmanın bu hastalık için olağanüstü bir özelliği olduğunu, özellikle Medine tarihleri ve özellikle tarih tarihleri, ve Vahiyle gerçekleşen yedi başka özellik vardır ve beraberinde şu hadisi getirir: "Yedi yüksek hurma ile uyanın, o gün ne zehir ne de sihir ona zarar vermez" {cite:zad-al-maad p.624}. Bu, tarihler ve mülke atfedilmesiyle ilgili ifadesidir.
+
+## Peygamber'in hastalığındaki oğlu
+El-Buhari Aişe'den rivayet eder: Hastalığı sırasında onu ziyaret ettik ve bize beni doğurmamamızı tavsiye etmeye başladı. Biz de dedik ki: Hastanın tıbbı sevmemesi. Bilinci yerine geldiğinde dedi ki: "Beni doğurmanı yasaklamadım mı?" Biz de dedik ki: Hastanın tıbbı sevmemesi. O dedi ki: "Evde sadece bir çocuk kalır, ona bakıyorum, sadece Abbas, çünkü o seni görmedi." {cite:sahih-al-bukhari 5709} [[passage/bukhari-api-5709|El-Buhari 5709]] [[passage/bukhari-api-4458|, El-Buhari 4458]]. İbn el-Kayyim ayrıca Um Salamah ve Esma bint Umais'in ona bir garnitür yiyeceğinden korktuklarını, ona Hint udu, biraz Ras ve damla yağ verdiklerini anlatır, o da şöyle dedi: "Allah bana o hastalığı bulaştırmazdı," ve araştırmacı, bulaşım zincirinin çok zayıf olduğunu, Abdülrazzak'ın benzer bir zinciri ses zinciriyle anlattığını belirtir {cite:zad-al-maad p.619}. İbn al-Kayyim bu rapordan, failin Allah uğruna yasak değilse yaptığı cezanın aynısını çıkarır ve bunun Ahmed tarafından açıkça belirtildiğini ve Doğru Rehberli Halifeler tarafından {cite:zad-al-maad p.619} tarafından belirlendiğini belirtir. Daha geniş bir konu için bkz. [[concept/al-tibb-al-nabawi|Peygamberlik Tıbbı]] ve [[concept/hijama|Kupa Kullanımı]].
+
+## Not
+Bu sayfa, haberleri ve İbn el-Kayyim'in Ludd ve Sa'ut hakkında söylediklerini anlatır, tıbbi tavsiye vermemektedir.

@@ -1,0 +1,25 @@
+---
+id: person/abdel-khalek-sarwat-pasha
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/abdel-khalek-sarwat-pasha.md}
+---
+
+# Abd El, Khaleq Tharwat Pasha
+
+## Ringkasan
+Abdel Khaleq Tharwat Pasha (1873–1928) adalah seorang hakim dan politisi Mesir: Jaksa Agung Mesir pertama sejak pendudukan Inggris, Menteri Kehakiman dan kemudian Menteri Dalam Negeri, serta Perdana Menteri dua kali — pada tahun 1922 ketika kemerdekaan sepihak Mesir dari Inggris dikeluarkan, dan pada tahun 1927–1928 ketika ia menolak rancangan perjanjian, ia telah kembali dari London dan mengundurkan diri. Artikel berbahasa Inggris ini bertentangan pada hari kematiannya di Paris, dengan menyatakan 22 September dan 22 November 1928 secara bersamaan; artikel ini mengikuti pembacaan September, yang juga membawa nilai tepat Wikidata dalam hitungan hari, dan sejarah dikenal sebagai sesuatu yang bertentangan. {cite:wikipedia-abdel-khalek-sarwat-pasha-en} {cite:wikidata-abdel-khalek-sarwat-pasha}
+
+## Hakim
+Ia lahir di Kairo pada tahun 1873 — tanggal lengkap artikel tentang masa kecilnya tercatat 31 Maret 1873 — dalam keluarga yang berasal dari Anatolia; ayahnya, Ismail Abdul Khaleq Pasha, adalah penguasa Mesir (yang bertanggung jawab atas keuangannya). Ia lulus dari Fakultas Hukum Khedivial pada tahun 1893 dan menghabiskan dua puluh enam tahun di Kementerian Kehakiman sebagai jaksa, hakim, dan sekretaris penasihat hukum Inggris; Muhammad Hussein Heikal menulis bahwa kepercayaan yang ia dapatkan memungkinkannya menjadi pengambil keputusan utama di kementerian sebelum mencapai usia dua puluh lima tahun. Pada tahun 1912, atas rekomendasi Saad Zaghloul, yang saat itu menjadi Menteri Kehakiman dan kemudian menjadi saingan politiknya, ia menjadi orang Mesir pertama yang memegang jabatan Jaksa Agung sejak pendudukan, meskipun mendapat keberatan dari Khedive, Inggris, dan rekan-rekan menterinya; ketika ditekan untuk menggugat surat kabar liberal 'Al-Jarida,' ia menolak, karena mengingat tidak ada undang-undang yang membenarkan penuntutan yang diperlukan. Dari 5 April 1914 hingga 22 April 1919, ia menjabat sebagai Menteri Kehakiman di kementerian Hussein Rushdi, memperkenalkan jaminan bagi terdakwa dan aturan untuk banding. {cite:wikipedia-abdel-khalek-sarwat-pasha-en}
+
+## Perdana Menteri Pengumuman
+Setelah perpecahan Wafd, ia mengambil alih Kementerian Dalam Negeri di Adly Yakan pada tahun 1921. Ketika Adly mengundurkan diri setelah kegagalan negosiasi curzon, Tharwat menetapkan syarat untuk membentuk pemerintahan. Pada 28 Februari 1922, Inggris mengeluarkan deklarasi kemerdekaan sepihak, mengakui Mesir sebagai negara berdaulat merdeka, dengan empat isu yang diperuntukkan bagi London; pada 1 Maret, Tharwat membentuk kabinetnya, mempertahankan portofolio Dalam Negeri dan Urusan Luar Negeri, dengan program berbasis konstitusi, mengakhiri darurat militer, pemilihan, dan pemulihan Kementerian Luar Negeri. Pemerintahannya jatuh pada 30 November 1922. Ia adalah salah satu pendiri Partai Liberal Konstitusional. Ketika ia dipanggil kembali pada 26 April 1927, setelah kematian Saad Zaghloul mengubah kepemimpinan delegasi, ia bernegosiasi di London dengan Austin Chamberlain mengenai isu-isu yang disimpan; ia menolak rancangan perjanjian yang ia kembalikan dari delegasi dan kementeriannya sendiri pada 4 Maret 1928, dan mengundurkan diri pada 16 Maret 1928. Ia meninggal di Paris pada tahun yang sama saat kunjungan pribadi, ditemani oleh istri dan putranya Mustafa, dan dimakamkan di Kairo setelah pemakaman nasional. Tanggal kematian dalam artikel tersebut—22 September dalam ringkasan narasi dan 22 November di bagian obituari—tetap tercatat bersama dalam catatannya; sumber-sumber tidak pasti di antara keduanya. {cite:wikipedia-abdel-khalek-sarwat-pasha-en}
+
+## Isu doktrinnya
+Seperti dalam kasus Adly Yakan, catatan tidak ada. Artikel berbahasa Inggris tidak membawa bidang untuk agama, dan di mana narasi panjangnya menyentuh agama, sebagai kebijakan — para pendiri komite dan kalangan agama berhadapan dengan kaum liberal dalam kasus buku Taha Hussein, yang diberikan Hussein kepada Tharwat. Tidak ada yang disebut milik Tharwat sendiri. Artikel Arab tidak memuat bidang agama, dan Wikidata juga tidak memiliki nilai untuk itu. Karier yudisial dan menteri di negara di mana sebagian besar penduduknya Muslim adalah sebuah posisi, bukan sertifikat; dan dalam semua yang dikonsultasikan, tidak ada sumber independen yang menyebut sekolah pribadi untuk pria tersebut. Imannya dicatat secara anonim. {cite:wikipedia-abdel-khalek-sarwat-pasha-en} {cite:wikipedia-abdel-khalek-sarwat-pasha-ar} {cite:wikidata-abdel-khalek-sarwat-pasha}
+
+## Sumber
+- Entitas dari sumber yang didefinisikan di atas, terdaftar pada `data/source/`.
+- Revisi artikel ini harus diberi tanggal dan menyebutkan sumber yang mengubah setiap insiden.

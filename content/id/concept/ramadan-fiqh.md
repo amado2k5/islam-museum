@@ -1,0 +1,9 @@
+---
+id: concept/ramadan-fiqh
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/ramadan-fiqh.md}
+---
+## Ringkasan
+Ramadan adalah nama bulan yang terkenal, yang dikatakan demikian karena jatuh pada hari-hari Ramad yang panas. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8986} Bulan Ramadan ditetapkan dengan melihat bulan sabitnya; jika tidak memungkinkan, bulan ini menyelesaikan Sha'ban selama tiga puluh hari. Para ahli hukum berbeda pendapat mengenai jumlah saksi: Hanafi, Syafi'i, dan Hanbal cukup dengan satu keadilan, sementara Malikis hanya mengonfirmasinya dengan dua hakim. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8986} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8987} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8988} Para ahli hukum sepakat mempertimbangkan kesaksian dua orang yang adil di bulan sabit Syawal. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8988} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8989} Ramadan khusus untuk wahyu Al-Qur'an, kewajiban berpuasa yang disepakati secara bulat, kebajikan amal selama Al-Qur'an, Malam Keputusan, dan Sunnah Taraweeh serta I'tikaf dalam sepuluh malam terakhir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8989} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8990} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8991} Disarankan untuk mempelajari Al-Qur'an pada masa ini, dan ditekankan bahwa orang yang berpuasa memecahkan puasa dan melakukan Umrah. Para ahli hukum berbeda pendapat tentang cara terbaik untuk mencari nafkah dan mendedikasikan diri untuk beribadah selama masa itu. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8991} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8992}

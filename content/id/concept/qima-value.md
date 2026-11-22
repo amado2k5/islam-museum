@@ -1,0 +1,25 @@
+---
+id: concept/qima-value
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/qima-value.md}
+---
+## Ringkasan
+Dalam bahasa, nilai adalah harga sesuatu berdasarkan penilaian, dan dalam terminologi, nilai adalah apa yang dilakukan barang tersebut sebagai standar tanpa penambahan atau penurunan {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13149}. Harga dibedakan dari harga yang disepakati antara para pihak yang berkontrak, dan dari harga yang ditentukan oleh penjual atau sultan {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13149} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13150}.
+
+## homoseksual dan berbasis nilai
+Ekuivalen adalah yang satuan dan bagiannya identik sehingga beberapa menggantikan yang lain tanpa perbedaan signifikan. Adapun nilai berbasis (qimi), ini adalah sesuatu yang tidak memiliki padanan di pasar atau ada dengan variasi signifikan dalam nilai {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13150}. Dengan demikian, nilai diperkirakan berdasarkan nilai, dan nilai serupa diperkirakan oleh nilai tersebut {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13150}.
+
+## Tempat di mana nilai harus dibayar
+Nilai pertama-tama wajib diberikan pada barang berharga jika barang tersebut harus bertanggung jawab. Contohnya adalah barang yang dijual dalam penjualan cacat jika barang tersebut rusak oleh pembeli: menurut Hanafi, yang merupakan aliran Hanbali, pembeli bertanggung jawab atas nilainya, dan Malikis membedakan antara barang rusak dan rusak yang dipersengketakan, bertanggung jawab atas harga, dan jika disepakati atas ketidakbatalannya, nilai tersebut bertanggung jawab {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13150}. Shafi'i mengatakan bahwa yang setara bertanggung jawab atas nilai yang sama dan maksimum bagi yang berdiri {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13151}. Adapun penjualan palsu menurut Hanafi, tidak ada tanggung jawab menurut Abu Hanifa, tetapi nilainya dijamin menurut Abu Yusuf dan Muhammad {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13151}.
+
+Contoh lain dari yang direbut tahta adalah: jika dirusak oleh perebut kuasa, wajib menggantinya; jika setara, maka dimasukkan ke dalam yang setara, dan jika berharga, maka dimasukkan dalam nilai. Ia mengutip hadits dari Anas mengenai mangkuk yang dipecahkan oleh salah satu Ibu Orang Beriman. Nabi membuang mangkuk yang utuh dan memegang mangkuk yang rusak. Dasar untuk menjamin nilai adalah hadits Ibn Umar tentang pembebasan pasangan dari budak {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13152} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13153}.
+
+Nilai juga wajib ketika ekuivalen tidak mungkin dalam zat yang sama, seperti barang yang dijual serupa dalam penjualan serupa yang cacat atau diambil alih jika tidak dapat dikembalikan. Shafi'i dan Hanbalis telah menjelaskan bahwa ketidakmungkinan ekuivalen disebabkan oleh ketiadaan, jaraknya, atau keberadaannya akibat kenaikan harga setara {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13153}. Mengenai barang yang dilarutkan karena perbedaan harga jika dirugikan oleh pembeli, ahli hukum berbeda mengenai tanggung jawabnya: menurut Hanbalis dan Nawawi dari Shafi'i, yang merupakan pandangan Maliki, ia bertanggung jawab berdasarkan nilainya, sementara pandangan paling umum di antara pandangan Shafi'i dan Maliki adalah bahwa ia bertanggung jawab atas ekuivalen dalam ekuivalen dan nilai dalam barang bernilai {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13154}.
+
+## Apa yang menjamin nilai dan contoh bersama
+Jika buruan yang dimiliki dibunuh oleh mahram atau dibunuh oleh orang yang sah di tempat suci, maka dijamin berdasarkan nilai bagi pemiliknya dan juga hak Allah Yang Maha Kuasa, jika memiliki setara berkat, sebagaimana secara eksplisit dinyatakan dalam Surah Al-Ma'idah, ayat 95 {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13154}. Jika tidak memiliki nilai yang setara dengan hasil tersebut, seperti burung yang dimiliki, dua nilai wajib untuknya: satu untuk hak Allah dan satu lagi untuk pemilik {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13155}.
+
+## Waktu pertimbangan nilai
+Para ahli hukum berbeda pendapat mengenai waktu penilaian barang yang harus dimintai pertanggungjawaban atas nilainya. Hanafi, pandangan yang terkenal di kalangan mazhab Maliki dan syafi'i, menganggapnya sebagai hari kepemilikan, dengan berargumen bahwa pembeli hanya bertanggung jawab atas kepemilikan dengan mengambil alih. Hanbali, Muhammad dari Hanafi, dan seorang ruah menurut syafi'i, menganggapnya sebagai hari kehancuran, karena diperbolehkan memegangnya, sehingga benda itu seperti barang pinjaman {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13151} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13152}. Mazhab Sy'i berpendapat bahwa ia harus diwajibkan dengan nilai maksimum dari kepemilikan hingga kehancuran {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13151}.

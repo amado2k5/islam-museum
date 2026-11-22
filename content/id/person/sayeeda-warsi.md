@@ -1,0 +1,18 @@
+---
+id: person/sayeeda-warsi
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/sayeeda-warsi.md}
+---
+## Ringkasan
+Saida Warsi, Baroness Warsi, adalah seorang politikus dan pengacara asal Inggris, lahir dengan nama Saeeda Hussain Warsi di Dewsbury, West Yorkshire, pada 28 Maret 1971. Dia adalah putri imigran Pakistan. Dia bekerja sebagai pengacara sebelum terjun ke dunia politik, dianugerahi gelar bangsawan seumur hidup pada tahun 2007, menjadi ketua bersama Partai Konservatif dari 2010 hingga 2012, dan menjadi wanita Muslim pertama yang menjabat di Kabinet Inggris. Dia mengundurkan diri dari pemerintahan pada Agustus 2014 sebagai protes terhadap kebijakannya terhadap Gaza dan meninggalkan Partai Konservatif pada tahun 2024. {cite:wikipedia-sayeeda-warsi-en} {cite:wikipedia-sayeeda-warsi-ar}
+
+## Kehidupan
+Warsi tumbuh besar di West Yorkshire dalam keluarga imigran Muslim Pakistan dari Biwal; ayahnya membangun perusahaan manufaktur keluarga setelah memulai sebagai pekerja pabrik dan sopir bus. {cite:wikipedia-sayeeda-warsi-en} Dia meraih kualifikasi sebagai pengacara dan bekerja di Royal Prosecution sebelum mencalonkan diri ke Parlemen. {cite:wikipedia-sayeeda-warsi-en} Dia menikah dengan sepupunya Naeem pada tahun 1990, dan pernikahan itu berakhir dengan perceraian pada tahun 2007, lalu menikah dengan Iftikhar Azam pada tahun 2009. Pasangan ini tinggal di Wakefield dengan lima anak. {cite:wikipedia-sayeeda-warsi-en} Dia berbicara bahasa Punjabi, Urdu, dan Gujarati selain bahasa Inggris, serta mendirikan Baroness Warsi Foundation untuk mendukung mobilitas sosial, kesetaraan gender, dan pemahaman agama. {cite:wikipedia-sayeeda-warsi-en} Ia umumnya dikenal dalam sumber sebagai Muslim — menteri perempuan Muslim pertama di kabinet, dan sebagai "Muslim sendiri" dalam artikel Telegraph yang dikutip oleh artikel tersebut — namun tidak ada sumber yang menyebutkan sekolah atau ordo miliknya, sehingga agamanya tercatat sebagai tidak diketahui. {cite:wikipedia-sayeeda-warsi-en} {cite:wikidata-sayeeda-warsi}
+
+## Karya
+Setelah gagal mencalonkan diri untuk Dewsbury pada 2005 — dia adalah wanita Muslim pertama yang dinominasikan oleh Partai Konservatif — dia dianugerahi gelar Lord for Life pada 2007 dan menjabat sebagai Menteri Bayangan untuk Kohesi Komunitas. {cite:wikipedia-sayeeda-warsi-en} Pada Mei 2010, dia menjadi menteri tanpa portofolio di Kabinet dan ketua bersama Partai Konservatif, serta wanita Muslim pertama yang duduk di Kabinet. {cite:wikipedia-sayeeda-warsi-ar} {cite:wikipedia-sayeeda-warsi-en} Dalam amandemen 2012, dia menjadi Menteri Negara Pertama di Kantor Luar Negeri dan Persemakmuran serta Menteri Iman dan Komunitas, posisi yang dibuat untuknya, di mana dia bekerja pada toleransi agama dan memimpin Gugus Tugas Keuangan Islam pemerintah. {cite:wikipedia-sayeeda-warsi-en} Pada 5 Agustus 2014, dia mengundurkan diri, menggambarkan kebijakan pemerintah terhadap Gaza sebagai tidak dapat dibenarkan secara moral dan tidak sesuai dengan kepentingan nasional Inggris. {cite:wikipedia-sayeeda-warsi-ar} {cite:wikipedia-sayeeda-warsi-en} Setelah itu, ia menjadi suara terkemuka dalam isu Islamofobia di dalam Partai Konservatif, menyerukan penyelidikan independen; pada September 2024, ia mengundurkan diri dari disiplin partai parlemen dan meninggalkan partai. {cite:wikipedia-sayeeda-warsi-en}
+
+## Sumber
+- Sumber-sumber yang disebutkan di atas tercantum di bawah `data/source/`.

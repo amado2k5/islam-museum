@@ -1,0 +1,31 @@
+---
+id: concept/ishra
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/ishra.md}
+---
+## Özet
+Dilde 'Ashra', bir araya gelmek ve karışmak anlamına gelir ve bir kadının kocasının arkadaşı anlamına gelir. Terminolojide, eşler arasında tanıdıklık ve birliktelik açısından olanlar {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11626}.
+
+## İyi cinsel ilişkiye ilişkin karar
+Hanafileri ve Hanbaliler, eşler arasında iyi niyet içinde birlikte yaşamanın tavsiye edildiğine inanırken, Malikiler bunu bir yargı değil, bir din olarak zorunlu kabul eder {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11627}. Anlamı, hakların tam anlamıyla iyi karakterle yerine getirilmesidir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11627} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11628}.
+
+## Kocanın Hakları
+Bir kadına günahsız zevk ve itaat için teslim olma, zevki veya gerçekleşmesini engelleyen hiçbir şeyi engelleme, sevmediği kişilere evinde izin vermeme ve ancak onun izni olmadan dışarı çıkma hakkına sahiptir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11629}, {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11631}, {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11633}. Çoğunluk hizmetin zorunlu olmadığını düşünürken, Hanefi mezhebi bunun bir din olarak zorunlu olduğunu savunur {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11633} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11634}.
+
+## Eşin Hakları
+Çeyiz ve geçim hakkı, cinsel ilişki yoluyla iffet yapma hakkı vardır ve çoğunluğun izni olmadan izole edilme hakkına sahiptir; ayrıca birden fazla kişiyle evliyse evlilik veya eşler arasındaki bölünme payını alma hakkına sahiptir (1 {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11634}, {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11635}, {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11636}.
+
+## Ortak Haklar
+İyilik, zevk ve mirasla yaşamak {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11636} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11637}.
+
+## Arama Konumları
+Çeyiz (çeyiz) ile detaylı çeyiz, nafaka (nafaka) ve 'eşler arasında bölünme' {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11636} bölümünde yemin.
+
+## Abdulrahman Mansour'un "Ailelerimiz" programında
+Abdulrahman Mansour [[person/abd-al-rahman-mansour|]], "Ahalina" [[work/ahaleena|programının ilk iki bölümünü eşler]] arasındaki "iletişim becerileri" olarak adlandırdığı şeye adar; "iyi bir süre" ifadesini kullanır. {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:05:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:04:00} Evliliğin bir nimet olduğunu ve huzur, sevgi, merhamet ve samimiyetin sağlandığı bir işaret olması için hem eşin hem de karının becerileri öğrenmesi gerektiğini söyler. {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:04:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:05:30} Evlilikten sonra ortak bir zayıflığı anlatır: nişan günlerinde iltifat sözleri ve ardından ayrılık, her iki eşin de partnerlerinin değiştiğinden şikayet etmesi. {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:06:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:06:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:07:00}
+
+Üzerinde düşündüğü beceriler arasında eşler arasında açık duygusal iletişim yer alır. Eşin bunu televizyon dizilerinde duyduğunu ve mektuplarda okuduğunu düşünür, bu yüzden sözleşme öncesinde talipler arasında ilişkiye girmesi yasak olsa da, bunu kocasından duymak daha iyidir; {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:07:00}, {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:09:30}, {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:10:00}, espri ve gülümseme; evini yemek yaparken ve düzenlerken eşle flört etmek; karşı çıktığında onun fikrine saygı göstermek; ve dikkatle dinlemek. {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:10:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:12:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:13:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:13:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:14:00} Peygamber'in Aişa'ya olan sevgisini ilan ettiğini belirtir. {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:01:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:01:30} Sonra hediyelerden, süslemelerden, temizlikten, "boşanmanın anahtarı" olan suçlanmaya değer nitelikleri olmayan övgüye değer gayretten, Kur'an okuma ve birlikte ders almak gibi ortak ilgi alanlarından ve "küçük hataları görmezden gelme sanatından" bahseder. {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:01:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:03:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:04:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:05:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:05:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:06:00}
+
+Kadına kocasını süslü bir gülümsemeyle karşılamasını, sesini alçaltmasını, şikayet etmeyi ertelemesini ve nazik bir sözle veda etmesini emreder. {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:06:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:07:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:07:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:08:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:08:30} Koca ayrıca karısını ve yemeğini övmesi, anne babasına bakması, Peygamber'in ailesinin mesleğinde yaptığı gibi ev işlerinde yardım etmesi, işinden vazgeçmesi ve dinlemesi emredilir. {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:10:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:11:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:12:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:13:00} Başka bir olayda, çocukların önünde eşler arasında tartışmaları yasaklar; babanın çocuklarının annesine duyduğu sevginin çocukları seven en büyük şeylerden biri olduğunu söyler. {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:14:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep04 00:14:30}

@@ -1,0 +1,12 @@
+---
+id: concept/ilaj-al-gharb
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/ilaj-al-gharb.md}
+---
+## Çağdaş ve Çağdaş Yönetimi
+Batı kronik bir tümördür ve hadis hadisle daha yumuşaktır; hadis ise bahsettiğimiz müshil ilaçlarla tedavi edilirken, kronik için gerçek tedavi koterizasyondur, yani yarı veya yerine geçen bir şeydir. Eğer koterizasyon dışında başka bir ilaç kullanmak istersem, içindekine kadar sıkmak, sonra damlayan bir büzücü şurup ile yıkamak tercih edilir. Eğer küçükse, iki ya da üç gün boyunca bükülmüş şekilde bırakın, bir şey tencereye toplanana kadar, sonra yıkayıp ardından Muhammed bin Zekeriye'ye atfedilen batı siyafını kendisi için damlatın, özellikle el-'Afs suyunda yatıştırmak için (ona atfedilen eleme, kitabın raporu gibi kopyasız aktarılır). En iyi damla, her iki damladan bir damla damla damlatmaktır, bir saat boyunca. En iyi önlemlerden biri, ilacı eğimle provans etmek ve ardından yamaçta pamuklu çubuk sararak ilaçları içine batırmak ve ilaç sıvı mı yoksa parçacık mı olsun diye koymaktır. İlaç kullanıldığında, bandajla bağlanmalı ve sessiz kalmalıdır {cite:canon-ibn-sina-print-v2 p.182}
+
+## Arındırma ve kemik olgunluğu üzerinde çalışma
+Eğer batı haline gelirse, önce arıtmak ve sonra tedavi etmek yasası vardır. Arıtıcılar arasında kamışları içine alıp bala batırmak, Batı'ya uygulamak ve ardından bal suyuna batırılmış süngerle yıkamak {cite:canon-ibn-sina-print-v2 p.182} vardır. Kemik olgunlaşır ve ilaç olarak kullanılamazsa, kesilmeli, içi açığa çıkarılmış ve kemiğe ulaşırsa ölü eti alınmalıdır. Sonra üç şekilde tedavi edilir: kemik sağlıklıysa, üzerinde beliren siyahlıkla kazıyın, bir koterize ilacıyla doldurun, sıkılaştırıp bir süre bekletin. Daha ciddiyse koterizasyon gereklidir. Ayrıca, çürümüş etin delici bir delik açılması gerekebilir; yani koterizasyon boşluğun dibinde, burun veya göze doğru eğik değil, mümkün olduğunca derin olmalıdır. Göz küresi dikkatlice ayarlanmalı, ardından koterize edilip ilaçlarla serpilip bandajlanmalıdır. Belki de koterizasyon piercingden daha iyidir ve mümkün olduğunca sadece onunla sınırlandırılmalıdır (el işi, ütüleme ve delme kitapta anlatıldığı gibi bulaşır, bir iş biçimi olarak değil) {cite:canon-ibn-sina-print-v2 p.183}
