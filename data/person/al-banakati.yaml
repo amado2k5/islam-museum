@@ -1,0 +1,31 @@
+id: person/al-banakati
+class: person
+label:
+  ar: "البناكتي"
+  en: "al-Banakati"
+  ur: "البناکتی"
+  fr: "al-Banakati"
+  es: "al-Banakati"
+names:
+  - { value: "al-Banakati", kind: full }
+gender: male
+summary:
+  ar: "مؤرخ فارسي من مدينة بناكت في ما وراء النهر، ألف موجزا عاما في التاريخ سماه بناكتي، وكان يرجع إليه المؤرخون بعده {cite:jami-al-tawarikh-khashshab-1960 p. 153}. ويرى الخشاب أنه أدرج في تاريخه القطعة المنسوبة إلى عبد الله البيضاوي، فإما نقلها كما هي وإما اختصرها، وأن القطعة تتصل بجامع التواريخ {cite:jami-al-tawarikh-khashshab-1960 p. 153}. ومخطوطة كتابه وقعت في مجموعة ريتش التي اشترتها الحكومة البريطانية {cite:jami-al-tawarikh-khashshab-1960 p. 154}."
+  en: "A Persian historian from Banakat in Transoxiana who wrote a general history called Banakati, to which later historians often turned {cite:jami-al-tawarikh-khashshab-1960 p. 153}. The editor argues that he included the passage attributed to al-Baydawi, copied or abridged, and that the passage belongs to the Jami' al-Tawarikh {cite:jami-al-tawarikh-khashshab-1960 p. 153}. The manuscript of his book passed through the Rich collection, which the British government bought {cite:jami-al-tawarikh-khashshab-1960 p. 154}."
+  es: "Historiador persa de Banakat, en Transoxiana, autor de una historia general llamada Banakati, a la que recurrieron después los historiadores {cite:jami-al-tawarikh-khashshab-1960 p. 153}. El editor sostiene que incluyó el pasaje atribuido a al-Baydawi, copiado o abreviado, y que ese pasaje pertenece al Jami' al-Tawarikh {cite:jami-al-tawarikh-khashshab-1960 p. 153}. El manuscrito de su obra pasó por la colección Rich, que compró el gobierno británico {cite:jami-al-tawarikh-khashshab-1960 p. 154}."
+  fr: "Historien persan de Banakat, en Transoxiane, auteur d'une histoire générale appelée Banakati, à laquelle les historiens postérieurs eurent souvent recours {cite:jami-al-tawarikh-khashshab-1960 p. 153}. L'éditeur soutient qu'il a inclus le passage attribué à al-Baydawi, copié ou abrégé, et que ce passage relève du Jami' al-Tawarikh {cite:jami-al-tawarikh-khashshab-1960 p. 153}. Le manuscrit de son livre est passé par la collection Rich, achetée par le gouvernement britannique {cite:jami-al-tawarikh-khashshab-1960 p. 154}."
+  ur: "ماوراء النہر کے شہر بناکت کا فارسی مؤرخ، جس نے بناکتی کے نام سے ایک عمومی تاریخ لکھی، جس کی طرف بعد کے مؤرخ رجوع کرتے رہے {cite:jami-al-tawarikh-khashshab-1960 p. 153}۔ مرتب کے مطابق اس نے البیضاوی سے منسوب ٹکڑا نقل یا مختصر کر کے شامل کیا، اور یہ ٹکڑا جامع التواریخ سے متعلق ہے {cite:jami-al-tawarikh-khashshab-1960 p. 153}۔ اس کتاب کا نسخہ ریچ کے مجموعے سے گزرا جسے برطانوی حکومت نے خریدا {cite:jami-al-tawarikh-khashshab-1960 p. 154}۔"
+roles: [historian]
+regions: [persia-central-asia]
+wings: [people]
+relations:
+  - { type: related_to, target: person/rashid-al-din-hamadani, note: "The editor argues that he had Rashid al-Din's work before him when he wrote his own history (scan page 153).", sources: [source/jami-al-tawarikh-khashshab-1960] }
+  - { type: related_to, target: work/tarikh-al-khata, note: "The editor argues that the passage published as Tarikh al-Khata passed through his history (scan page 153).", sources: [source/jami-al-tawarikh-khashshab-1960] }
+sources: [source/jami-al-tawarikh-khashshab-1960]
+provenance:
+  layer: own-research
+  source: "Scan pages 153 and 154 of source/jami-al-tawarikh-khashshab-1960 (printed pages 127 and 128), OCR by Apple Vision, read by the packet drafter. Dawlatshah's statement on the date of the book is cited by the editor and is not checked here. The name of the town is read as Banakat from the OCR; the spelling and the town's modern name are not checked. The editor's hypothesis on the origin of the passage is the editor's and is attributed to him. No death date is on these pages."
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "jami-tawarikh-v2p1-p121-180"
+status: { review: published, generated_by: "Claude Haiku 5.5" }

@@ -1,0 +1,31 @@
+id: person/haydar-al-razi
+class: person
+label:
+  ar: "حيدر الرازي"
+  en: "Haydar al-Razi"
+  ur: "حیدر رازی"
+  fr: "Haydar al-Razi"
+  es: "Haydar al-Razi"
+names:
+  - { value: "Haydar al-Razi", kind: full }
+gender: male
+summary:
+  ar: "مؤرخ فارسي كتب في القرن السابع عشر، ويدل كلامه على أن بضع مجلدات من جامع التواريخ كانت تحت يده {cite:jami-al-tawarikh-khashshab-1960 p. 132}. وفي جزئه الخاص بالصين يكرر قطعة نشرت باسم عبد الله البيضاوي تكرارا موجزا {cite:jami-al-tawarikh-khashshab-1960 p. 151}، ويذكر أنه نقل أخبار ملوك خطاى عن تاريخ غازان، أي جامع رشيدي {cite:jami-al-tawarikh-khashshab-1960 p. 151}."
+  en: "A Persian historian of the seventeenth century. His own words, the editor says, show that several volumes of Jami' al-Tawarikh were in his hands {cite:jami-al-tawarikh-khashshab-1960 p. 132}. In his Chinese section he gives a short repetition of the passage published under the name of al-Baydawi {cite:jami-al-tawarikh-khashshab-1960 p. 151}, and he states that his account of the kings of Khitai came from the history of Ghazan, that is the Jami' Rashidi {cite:jami-al-tawarikh-khashshab-1960 p. 151}."
+  es: "Historiador persa del siglo XVII. Según el editor, sus propias palabras muestran que tenía en sus manos varios volúmenes del Jami' al-Tawarikh {cite:jami-al-tawarikh-khashshab-1960 p. 132}. En su sección sobre China repite de forma breve un pasaje publicado bajo el nombre de al-Baydawi {cite:jami-al-tawarikh-khashshab-1960 p. 151}, y afirma que tomó la historia de los reyes de Jitai de la historia de Ghazan, es decir, el Jami' Rashidi {cite:jami-al-tawarikh-khashshab-1960 p. 151}."
+  fr: "Historien persan du XVIIe siècle. Selon l'éditeur, ses propres paroles montrent qu'il disposait de plusieurs volumes du Jami' al-Tawarikh {cite:jami-al-tawarikh-khashshab-1960 p. 132}. Dans sa partie sur la Chine, il reprend brièvement un passage publié sous le nom d'al-Baydawi {cite:jami-al-tawarikh-khashshab-1960 p. 151} ; il dit tirer l'histoire des rois du Khitaï de l'histoire de Ghazan, c'est-à-dire du Jami' Rashidi {cite:jami-al-tawarikh-khashshab-1960 p. 151}."
+  ur: "سترہویں صدی کا فارسی مؤرخ۔ مرتب کے مطابق اس کے اپنے الفاظ بتاتے ہیں کہ جامع التواریخ کی کئی جلدیں اس کے پاس تھیں {cite:jami-al-tawarikh-khashshab-1960 p. 132}۔ اپنے چینی حصے میں اس نے البیضاوی کے نام سے شائع ہونے والے ایک ٹکڑے کا مختصر اعادہ کیا {cite:jami-al-tawarikh-khashshab-1960 p. 151}، اور کہا کہ خطائی بادشاہوں کی تفصیل اس نے غازان کی تاریخ، یعنی جامع رشیدی، سے لی {cite:jami-al-tawarikh-khashshab-1960 p. 151}۔"
+roles: [historian]
+regions: [persia-central-asia]
+wings: [people]
+relations:
+  - { type: related_to, target: work/tarikh-al-khata, note: "Gives a short repetition of the Chinese passage that is published as Tarikh al-Khata (scan page 151).", sources: [source/jami-al-tawarikh-khashshab-1960] }
+  - { type: related_to, target: person/rashid-al-din-hamadani, note: "Names Rashid al-Din's work as the source of his account of the kings of Khitai (scan page 151).", sources: [source/jami-al-tawarikh-khashshab-1960] }
+sources: [source/jami-al-tawarikh-khashshab-1960]
+provenance:
+  layer: own-research
+  source: "Scan pages 132, 151 and 152 of source/jami-al-tawarikh-khashshab-1960 (printed pages 106, 125 and 129), OCR by Apple Vision, read by the packet drafter. The seventeenth-century date is the editor's statement on scan page 132; the title of his history is not given on these pages. The OCR of scan page 151 is damaged in the sentence naming the source; the reading Ghazan's history, that is the Jami' Rashidi, is the editor's reading and is marked uncertain."
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "jami-tawarikh-v2p1-p121-180"
+status: { review: published, generated_by: "Claude Haiku 5.5" }

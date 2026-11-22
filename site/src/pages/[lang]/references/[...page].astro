@@ -6,17 +6,20 @@ import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
 
-// The landing shows every list; the books, the longest by far, show their first rows there and continue on
-// /references/books/<n>/ (audit S18: the one page was 611 KB).
+// The landing shows the first rows of the two longest lists (the books and the web pages) and every other list in full;
+// each of the two continues on its own paged sub-pages: /references/books/<n>/ and /references/web/<n>/
+// (audit S18: the one page was 611 KB, and the landing was 567 KB once the 576 web pages were printed in full).
 export function getStaticPaths() {
-  const bookCount = readdirSync(repoPath("data", "source")).filter((f) => f.endsWith(".yaml")).map((f) => parse(readFileSync(join(repoPath("data", "source"), f), "utf8"))).filter((r) => r?.type === "book").length;
-  const pages = Math.ceil(bookCount / 400);
+  const sourceRecords = readdirSync(repoPath("data", "source")).filter((f) => f.endsWith(".yaml")).map((f) => parse(readFileSync(join(repoPath("data", "source"), f), "utf8")));
+  const bookPages = Math.ceil(sourceRecords.filter((r) => r?.type === "book").length / 400);
+  const webPages = Math.ceil(sourceRecords.filter((r) => r?.type === "webpage").length / 400);
   return LANGS.flatMap((lang) => [
-    { params: { lang, page: undefined }, props: { lang, booksPage: 0 } },
-    ...Array.from({ length: pages }, (_x, k) => ({ params: { lang, page: k === 0 ? "books" : `books/${k + 1}` }, props: { lang, booksPage: k + 1 } })),
+    { params: { lang, page: undefined }, props: { lang, booksPage: 0, webPage: 0 } },
+    ...Array.from({ length: bookPages }, (_x, k) => ({ params: { lang, page: k === 0 ? "books" : `books/${k + 1}` }, props: { lang, booksPage: k + 1, webPage: 0 } })),
+    ...Array.from({ length: webPages }, (_x, k) => ({ params: { lang, page: k === 0 ? "web" : `web/${k + 1}` }, props: { lang, booksPage: 0, webPage: k + 1 } })),
   ]);
 }
-const { lang, booksPage } = Astro.props as { lang: Lang; booksPage: number };
+const { lang, booksPage, webPage } = Astro.props as { lang: Lang; booksPage: number; webPage: number };
 const T = ui(lang).references;
 
 // Every source record in data/source, read at build time.
@@ -68,22 +71,29 @@ const software = [...new Set([...deps("package.json"), ...deps("site/package.jso
   return { name, version: "", licence: "" };
 });
 
-const BOOKS_LANDING = 150, BOOKS_PER = 400; // BOOKS_PER is repeated in getStaticPaths, which cannot read this scope
+// BOOKS_PER and WEB_PER are repeated in getStaticPaths, which cannot read this scope
+const LIST_LANDING = 150, BOOKS_PER = 400, WEB_PER = 400;
 const books = ofType("book");
 const booksUrl = (n: number) => (n <= 1 ? `/${lang}/references/books/` : `/${lang}/references/books/${n}/`);
 const bookPages = Math.ceil(books.length / BOOKS_PER);
-const booksShown = booksPage === 0 ? books.slice(0, BOOKS_LANDING) : books.slice((booksPage - 1) * BOOKS_PER, booksPage * BOOKS_PER);
+const booksShown = booksPage === 0 ? books.slice(0, LIST_LANDING) : books.slice((booksPage - 1) * BOOKS_PER, booksPage * BOOKS_PER);
+const webs = ofType("webpage");
+const webUrl = (n: number) => (n <= 1 ? `/${lang}/references/web/` : `/${lang}/references/web/${n}/`);
+const webPages = Math.ceil(webs.length / WEB_PER);
+const websShown = webPage === 0 ? webs.slice(0, LIST_LANDING) : webs.slice((webPage - 1) * WEB_PER, webPage * WEB_PER);
+const isBookSub = booksPage > 0, isWebSub = webPage > 0, isLanding = !isBookSub && !isWebSub;
 const PG = (ui(lang) as any).paged;
 const dash = (v: any) => (v === undefined || v === null || v === "" ? "—" : String(v));
 ---
-<BaseLayout lang={lang} title={booksPage > 0 ? `${T.title} · ${T.books}${booksPage > 1 ? ` · ${booksPage}` : ""}` : T.title} description={T.lede} path={booksPage > 0 ? booksUrl(booksPage) : `/${lang}/references/`}>
+<BaseLayout lang={lang} title={isBookSub ? `${T.title} · ${T.books}${booksPage > 1 ? ` · ${booksPage}` : ""}` : isWebSub ? `${T.title} · ${T.web}${webPage > 1 ? ` · ${webPage}` : ""}` : T.title} description={T.lede} path={isBookSub ? booksUrl(booksPage) : isWebSub ? webUrl(webPage) : `/${lang}/references/`}>
   <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
     <h1>{T.title}</h1>
     <p style="font-size:1.2rem;max-width:var(--measure)">{T.lede}</p>
 
+    {!isWebSub && (<>
     <h2 id="books">{T.books} <span class="ui muted">· {books.length}</span></h2>
-    {booksPage === 0 && books.length > BOOKS_LANDING && <p class="ui"><a class="chip" style="border:1px solid var(--gold)" href={booksUrl(1)}>{fmt(PG.all, { n: String(books.length), section: T.books })} <span class="flip" aria-hidden="true">→</span></a></p>}
-    <ol class="ui refs" start={booksPage > 0 ? (booksPage - 1) * BOOKS_PER + 1 : 1}>
+    {isLanding && books.length > LIST_LANDING && <p class="ui"><a class="chip" style="border:1px solid var(--gold)" href={booksUrl(1)}>{fmt(PG.all, { n: String(books.length), section: T.books })} <span class="flip" aria-hidden="true">→</span></a></p>}
+    <ol class="ui refs" start={isBookSub ? (booksPage - 1) * BOOKS_PER + 1 : 1}>
       {booksShown.map((r) => (
         <li id={r.id.replace("/", "-")}>
           <b>{title(r)}</b>
@@ -99,7 +109,7 @@ const dash = (v: any) => (v === undefined || v === null || v === "" ? "—" : St
         </li>
       ))}
     </ol>
-    {booksPage > 0 && (
+    {isBookSub && (
       <nav class="ui paged-nav" aria-label={PG.nav_label} style="margin:1rem 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px">
         {booksPage > 1 ? <a class="chip" rel="prev" href={booksUrl(booksPage - 1)}>{PG.prev}</a> : null}
         {Array.from({ length: bookPages }, (_x, n) => n + 1).map((n) => n === booksPage
@@ -109,11 +119,13 @@ const dash = (v: any) => (v === undefined || v === null || v === "" ? "—" : St
         <a href={`/${lang}/references/#books`}>{PG.back}</a>
       </nav>
     )}
-    {booksPage === 0 && (<>
+    </>)}
+    {!isBookSub && (<>
 
-    <h2>{T.web}</h2>
+    <h2 id="web">{T.web} <span class="ui muted">· {webs.length}</span></h2>
+    {isLanding && webs.length > LIST_LANDING && <p class="ui"><a class="chip" style="border:1px solid var(--gold)" href={webUrl(1)}>{fmt(PG.all, { n: String(webs.length), section: T.web })} <span class="flip" aria-hidden="true">→</span></a></p>}
     <ul class="ui refs">
-      {ofType("webpage").map((r) => (
+      {websShown.map((r) => (
         <li>
           <b>{title(r)}</b>
           <div class="ui muted">
@@ -125,6 +137,18 @@ const dash = (v: any) => (v === undefined || v === null || v === "" ? "—" : St
         </li>
       ))}
     </ul>
+    {isWebSub && (
+      <nav class="ui paged-nav" aria-label={PG.nav_label} style="margin:1rem 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px">
+        {webPage > 1 ? <a class="chip" rel="prev" href={webUrl(webPage - 1)}>{PG.prev}</a> : null}
+        {Array.from({ length: webPages }, (_x, n) => n + 1).map((n) => n === webPage
+          ? <span class="chip" aria-current="page" style="border:1px solid var(--gold)">{n}</span>
+          : <a class="chip" href={webUrl(n)} aria-label={fmt(PG.page_n, { n: String(n) })}>{n}</a>)}
+        {webPage < webPages ? <a class="chip" rel="next" href={webUrl(webPage + 1)}>{PG.next}</a> : null}
+        <a href={`/${lang}/references/#web`}>{PG.back}</a>
+      </nav>
+    )}
+    </>)}
+    {isLanding && (<>
 
     <h2>{T.datasets}</h2>
     <ul class="ui refs">

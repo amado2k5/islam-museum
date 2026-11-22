@@ -1,0 +1,31 @@
+id: person/mirkhwand
+class: person
+label:
+  ar: "ميرخوند"
+  en: "Mirkhwand"
+  ur: "میرخواند"
+  fr: "Mirkhwand"
+  es: "Mirjuand"
+names:
+  - { value: "Mirkhwand", kind: full }
+gender: male
+summary:
+  ar: "مؤرخ فارسي نقل عن جامع التواريخ لرشيد الدين فقرات كاملة دون أن يذكر اسمه، بحسب قراءة الخشاب {cite:jami-al-tawarikh-khashshab-1960 p. 128}. وينقل كذلك عن الكتاب في أخبار المغول {cite:jami-al-tawarikh-khashshab-1960 p. 128}، وهو من المؤرخين الذين لم يذكروا الأجزاء الأخيرة من الكتاب {cite:jami-al-tawarikh-khashshab-1960 p. 128}."
+  en: "A Persian historian who copied whole passages of Rashid al-Din's Jami' al-Tawarikh without naming him, according to the editor {cite:jami-al-tawarikh-khashshab-1960 p. 128}. He drew on the work for Mongol history {cite:jami-al-tawarikh-khashshab-1960 p. 128} and, in the editor's reading, never mentions its later volumes {cite:jami-al-tawarikh-khashshab-1960 p. 128}."
+  es: "Historiador persa que copió pasajes enteros del Jami' al-Tawarikh de Rashid al-Din sin nombrarlo, según el editor {cite:jami-al-tawarikh-khashshab-1960 p. 128}. Se sirvió de la obra para la historia mongol {cite:jami-al-tawarikh-khashshab-1960 p. 128}; según la lectura del editor, no menciona sus volúmenes posteriores {cite:jami-al-tawarikh-khashshab-1960 p. 128}."
+  fr: "Historien persan qui recopia des passages entiers du Jami' al-Tawarikh de Rashid al-Din sans le nommer, selon l'éditeur {cite:jami-al-tawarikh-khashshab-1960 p. 128}. Il s'appuie sur l'ouvrage pour l'histoire mongole {cite:jami-al-tawarikh-khashshab-1960 p. 128} ; selon la lecture de l'éditeur, il ne mentionne pas ses volumes ultérieurs {cite:jami-al-tawarikh-khashshab-1960 p. 128}."
+  ur: "فارسی مؤرخ جس نے رشید الدین کی جامع التواریخ سے پورے پورے حصے نقل کیے مگر ان کا نام نہیں لیا، مرتب کے مطابق {cite:jami-al-tawarikh-khashshab-1960 p. 128}۔ اس نے منگول تاریخ کے لیے کتاب سے استفادہ کیا {cite:jami-al-tawarikh-khashshab-1960 p. 128}، اور مرتب کی قراءت کے مطابق اس کی بعد کی جلدوں کا ذکر نہیں کرتا {cite:jami-al-tawarikh-khashshab-1960 p. 128}۔"
+roles: [historian]
+regions: [persia-central-asia]
+wings: [people]
+relations:
+  - { type: related_to, target: person/rashid-al-din-hamadani, note: "Copied passages of Rashid al-Din's history without naming him (scan page 128).", sources: [source/jami-al-tawarikh-khashshab-1960] }
+  - { type: related_to, target: person/khwandamir, note: "Named together with Khwandamir as the two later historians who used the work (scan page 128).", sources: [source/jami-al-tawarikh-khashshab-1960] }
+sources: [source/jami-al-tawarikh-khashshab-1960]
+provenance:
+  layer: own-research
+  source: "Scan page 128 of source/jami-al-tawarikh-khashshab-1960 (printed page 102), OCR by Apple Vision, read by the packet drafter; the editor's statement is attributed to the editor. The title of Mirkhwand's own history is not on these pages and is not given. The OCR of the name is clean; no death date is on these pages."
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "jami-tawarikh-v2p1-p121-180"
+status: { review: published, generated_by: "Claude Haiku 5.5" }

@@ -1,0 +1,31 @@
+id: person/ali-yazdi
+class: person
+label:
+  ar: "علي يزدي"
+  en: "Ali Yazdi"
+  ur: "علی یزدی"
+  fr: "Ali Yazdi"
+  es: "Ali Yazdi"
+names:
+  - { value: "Ali Yazdi", kind: full }
+gender: male
+summary:
+  ar: "مؤرخ من القرن التاسع الهجري، كتب مع أولغ بيك عرضا لحوادث فروع الإمبراطورية المغولية الأربعة، ولم يستنيرا برشيد الدين بل فضلا روايات أخرى {cite:jami-al-tawarikh-khashshab-1960 p. 156}{cite:jami-al-tawarikh-khashshab-1960 p. 157}. واعتمد في بداية عهد جنكيزخان ومفاخره على قصص بعيدة عن الحقيقة، بحسب قراءة الخشاب {cite:jami-al-tawarikh-khashshab-1960 p. 157}، وأخذ عنه ميرخوند وخوندمير ما يقع فيه من أخطاء {cite:jami-al-tawarikh-khashshab-1960 p. 157}."
+  en: "A historian of the ninth century AH who, with Ulugh Beg, presented the events of the four branches of the Mongol empire. They did not use Rashid al-Din and preferred other accounts {cite:jami-al-tawarikh-khashshab-1960 p. 156}{cite:jami-al-tawarikh-khashshab-1960 p. 157}. According to the editor, their account of the beginnings of Genghis Khan and his glories rests on stories far from the truth, and Mirkhwand and Khwandamir followed them in these errors {cite:jami-al-tawarikh-khashshab-1960 p. 157}."
+  es: "Historiador del siglo IX de la Hégira que, junto con Ulugh Beg, presentó los sucesos de las cuatro ramas del imperio mongol. No utilizaron a Rashid al-Din y prefirieron otras narraciones {cite:jami-al-tawarikh-khashshab-1960 p. 156}{cite:jami-al-tawarikh-khashshab-1960 p. 157}. Según el editor, su relato de los orígenes de Genghis Khan se apoya en historias alejadas de la verdad, y Mirkhwand y Khwandamir siguieron sus errores {cite:jami-al-tawarikh-khashshab-1960 p. 157}."
+  fr: "Historien du IXe siècle de l'Hégire qui, avec Ulugh Beg, exposa les événements des quatre branches de l'empire mongol. Ils ne se servirent pas de Rashid al-Din et préférèrent d'autres récits {cite:jami-al-tawarikh-khashshab-1960 p. 156}{cite:jami-al-tawarikh-khashshab-1960 p. 157}. Selon l'éditeur, leur récit des débuts de Gengis Khan repose sur des histoires éloignées de la vérité, que Mirkhwand et Khwandamir reprirent à leur suite {cite:jami-al-tawarikh-khashshab-1960 p. 157}."
+  ur: "نویں صدی ہجری کا مؤرخ، جس نے الغ بیگ کے ساتھ منگول سلطنت کی چاروں شاخوں کے واقعات پیش کیے۔ دونوں نے رشید الدین سے استفادہ نہیں کیا اور دوسری روایات کو ترجیح دی {cite:jami-al-tawarikh-khashshab-1960 p. 156}{cite:jami-al-tawarikh-khashshab-1960 p. 157}۔ مرتب کے مطابق چنگیز خان کے آغاز اور اس کی عظمت کا بیان حقیقت سے دور کہانیوں پر مبنی ہے، اور میرخواند و خواندمیر نے ان غلطیوں میں ان کی پیروی کی {cite:jami-al-tawarikh-khashshab-1960 p. 157}۔"
+roles: [historian]
+regions: [persia-central-asia]
+wings: [people]
+relations:
+  - { type: related_to, target: person/ulugh-beg, note: "Co-author with Ulugh Beg of the presentation of the four Mongol branches (scan page 156).", sources: [source/jami-al-tawarikh-khashshab-1960] }
+  - { type: related_to, target: person/rashid-al-din-hamadani, note: "Did not follow Rashid al-Din's account, in the editor's reading (scan page 157).", sources: [source/jami-al-tawarikh-khashshab-1960] }
+sources: [source/jami-al-tawarikh-khashshab-1960]
+provenance:
+  layer: own-research
+  source: "Scan pages 156 and 157 of source/jami-al-tawarikh-khashshab-1960 (printed pages 130 and 131), OCR by Apple Vision, read by the packet drafter. The OCR of the first lines is damaged; the names Ali Yazdi and Ulugh Beg are read on the page and not checked against the image. The editor's judgement on their sources is attributed to the editor. No death date is on these pages. The 'century' is the ninth century AH as the editor states it."
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "jami-tawarikh-v2p1-p121-180"
+status: { review: published, generated_by: "Claude Haiku 5.5" }
