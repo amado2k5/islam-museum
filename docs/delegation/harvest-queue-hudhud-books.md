@@ -96,3 +96,13 @@ Download state of the other items: the 19 existing source records are mostly dow
 Held for the founder (see above, not queued): T1-12 Aristotle's *Metaphysics*; T2-10 Ibn Rushd's commentaries.
 
 Not queued but noted (cheap fixes for a later task, no harvest needed): T1-11, T1-20 and T1-25 exist as source records that the author's record does not cite.
+
+## Download log (21 November 2026, founder instruction: download the 14 to the microSD)
+
+Source for all: archive.org items (the same route as the Jami' al-Tawarikh scan). Files are in `raw/library/<id>/` on the microSD, claimed and closed in `WORK-REGISTRY.md`, and entered in `harvest-register.yaml` (segment `books:hudhud-queue`) as `downloaded`. Sizes matched archive.org's listing; sha256 and page counts for the full set are pending.
+
+Downloaded (12): T1-3 Kalila wa Dimna (Azzam ed.); T1-10 Alf Layla (Cairo edition, 4 vols); T1-15 Rubaiyat (Badr Tawfiq's Arabic with FitzGerald's English; a translation, not the Persian quatrains); T1-16 Nowruznameh (**only a 2008 Arabic study of the book, not the text itself**); T1-19 Kulliyat; T1-21 Shukuk; T1-22 Mansuri; T1-26 Munqidh (has a text layer); T2-2 Shamil (Shamela database, digital text); T2-5 Kitab al-Hind (1957 edition); T2-8 Kitab al-Hiyal; T2-9 al-Farabi's Rasa'il (**unverified** that it holds the treatise on the aims of the Metaphysics).
+
+Not downloaded (2): T2-4 Jam' wa-l-Tafriq and T2-7 Risala fi Istikhraj al-Mu'amma: no scan found on archive.org by Arabic or English title. al-Khwarizmi's Jam' wa-l-Tafriq is not known to survive in Arabic, and al-Kindi's treatise needs the Mrayati–Meer–Tayyan edition or a library source.
+
+Scanned PDFs among these still need OCR (all except Munqidh and Shamil). Nothing has been OCRed or mined.
