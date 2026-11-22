@@ -213,7 +213,8 @@ def main():
                 new = {"id": ident, "lang": lang, "source_lang": a.src, "translators": [f"{who[0]}, draft translation"]}
                 for k, v in fm.items():
                     if k not in ("id", "lang", "source_lang", "translators", "provenance", "translation_of"): new[k] = v
-                new["provenance"] = {"generated_by": f"scripts/local-mt/import_gt.py (spanish lane, {who[2]}, managed by Claude Code)",
+                lane = "turkish-indonesian" if a.lang in ("tr", "id") else "spanish"
+                new["provenance"] = {"generated_by": f"scripts/local-mt/import_gt.py ({lane} lane, {who[2]})",
                                      "model": who[1], "run": f"{who[3]}-{lang}-{a.date}", "source": f"content/{a.src}/{ident}.md"}
                 text = "---\n" + yaml.safe_dump(new, allow_unicode=True, sort_keys=False, width=10000, default_flow_style=None).rstrip("\n") + "\n---\n" + tr_body
                 if not text.endswith("\n"): text += "\n"
