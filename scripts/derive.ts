@@ -170,7 +170,7 @@ export function derive(c: Compiled) {
     visit(n, "start", n.data.date?.start); visit(n, "end", n.data.date?.end);
   }
 
-  return { timeline, map, ego, snapshots, onThisDay: { gregorian: onThisDay, hijri: hijriDay }, related: buildRelated(c), synonyms: { ar: buildSynonyms(c, "ar"), en: buildSynonyms(c, "en"), fr: buildSynonyms(c, "fr") } };
+  return { timeline, map, ego, snapshots, onThisDay: { gregorian: onThisDay, hijri: hijriDay }, related: buildRelated(c), synonyms: { ar: buildSynonyms(c, "ar"), en: buildSynonyms(c, "en"), fr: buildSynonyms(c, "fr"), tr: buildSynonyms(c, "tr"), id: buildSynonyms(c, "id") } };
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
@@ -179,7 +179,7 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   mkdirSync(p(".cache", "derived"), { recursive: true });
   for (const [k, v] of Object.entries(d)) writeFileSync(p(".cache", "derived", `${k}.json`), JSON.stringify(v));
   mkdirSync(p("site", "public"), { recursive: true });
-  for (const lang of ["ar", "en", "fr"] as const) {
+  for (const lang of ["ar", "en", "fr", "tr", "id"] as const) {
     writeFileSync(p("site", "public", `search-synonyms.${lang}.json`), JSON.stringify(d.synonyms[lang]));   // the whole map, for anyone who wants it
     for (const [shard, part] of synonymShards(d.synonyms[lang])) writeFileSync(p("site", "public", `search-synonyms.${lang}_${shard}.json`), JSON.stringify(part));   // what the search page loads
   }

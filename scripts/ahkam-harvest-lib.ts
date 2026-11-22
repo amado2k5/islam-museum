@@ -8,7 +8,7 @@ export { clean, HONORIFIC_LEFT, q, uniq } from "./arkan-harvest-lib.js";
 
 /** ar, en, ur, fr, es. */
 export type Five = [string, string, string, string, string];
-export const LANGS5 = ["ar", "en", "ur", "fr", "es"] as const;
+export const LANGS5 = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
 
 /** The record each theme's passages mention. */
 export const AHKAM_ANCHOR: Record<AhkamTopic, string> = {

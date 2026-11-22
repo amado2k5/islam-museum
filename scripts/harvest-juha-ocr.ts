@@ -31,7 +31,7 @@ const JUHA_DIR = arg("--juha");
 const OUT_DIR = "data/passage";
 if (!ROOT || ROOT.startsWith("--")) throw new Error("usage: harvest-juha-ocr.ts <books dir> [--dry] [--only <prefix>] [--juha <dir>]");
 
-const LANGS = ["ar", "en", "ur", "fr", "es"] as const;
+const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
 type Lang = (typeof LANGS)[number];
 type L5 = Record<Lang, string>;
 

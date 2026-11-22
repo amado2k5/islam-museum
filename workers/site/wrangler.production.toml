@@ -30,7 +30,7 @@ binding = "ASSETS"
 # A path that matches no asset answers with the site's own 404 page (404.html), as Pages did.
 not_found_handling = "404-page"
 # Only these paths run the Worker; all other requests are served straight from assets.
-run_worker_first = ["/ar", "/en", "/ur", "/fr", "/es", "/ar/*", "/en/*", "/ur/*", "/fr/*", "/es/*", "/media/*", "/edu/*", "/timeline-data/*", "/gift-shop/*", "/brand/*", "/openapi/*", "/podcast/*", "/sitemap*", "/feed.xml", "/llms*", "/search-synonyms*", "/favicon*", "/apple-touch-icon.png", "/.well-known/api-catalog", "/pagefind-ar/*", "/pagefind-en/*", "/pagefind-ur/*", "/pagefind-fr/*", "/pagefind-es/*"]
+run_worker_first = ["/ar", "/en", "/ur", "/fr", "/es", "/tr", "/id", "/ar/*", "/en/*", "/ur/*", "/fr/*", "/es/*", "/tr/*", "/id/*", "/media/*", "/edu/*", "/timeline-data/*", "/gift-shop/*", "/brand/*", "/openapi/*", "/podcast/*", "/sitemap*", "/feed.xml", "/llms*", "/search-synonyms*", "/favicon*", "/apple-touch-icon.png", "/.well-known/api-catalog", "/pagefind-ar/*", "/pagefind-en/*", "/pagefind-ur/*", "/pagefind-fr/*", "/pagefind-es/*", "/pagefind-tr/*", "/pagefind-id/*"]
 
 [[r2_buckets]]
 binding = "SITE_BUCKET"
@@ -57,7 +57,7 @@ binding = "ASSETS"
 not_found_handling = "404-page"
 # Same list as production plus /api/* (so UAT's API redirects use uat-api, via HOST_REWRITES) and
 # /robots.txt, which the Worker answers with "Disallow: /" in UAT.
-run_worker_first = ["/ar", "/en", "/ur", "/fr", "/es", "/ar/*", "/en/*", "/ur/*", "/fr/*", "/es/*", "/media/*", "/edu/*", "/timeline-data/*", "/gift-shop/*", "/brand/*", "/openapi/*", "/podcast/*", "/sitemap*", "/feed.xml", "/llms*", "/search-synonyms*", "/favicon*", "/apple-touch-icon.png", "/.well-known/api-catalog", "/api/*", "/robots.txt", "/pagefind-ar/*", "/pagefind-en/*", "/pagefind-ur/*", "/pagefind-fr/*", "/pagefind-es/*"]
+run_worker_first = ["/ar", "/en", "/ur", "/fr", "/es", "/tr", "/id", "/ar/*", "/en/*", "/ur/*", "/fr/*", "/es/*", "/tr/*", "/id/*", "/media/*", "/edu/*", "/timeline-data/*", "/gift-shop/*", "/brand/*", "/openapi/*", "/podcast/*", "/sitemap*", "/feed.xml", "/llms*", "/search-synonyms*", "/favicon*", "/apple-touch-icon.png", "/.well-known/api-catalog", "/api/*", "/robots.txt", "/pagefind-ar/*", "/pagefind-en/*", "/pagefind-ur/*", "/pagefind-fr/*", "/pagefind-es/*", "/pagefind-tr/*", "/pagefind-id/*"]
 
 [[env.uat.r2_buckets]]
 binding = "SITE_BUCKET"

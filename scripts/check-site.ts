@@ -88,12 +88,12 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   const sitemap = listFiles(dist, ".xml").filter((f) => /sitemap/.test(f)).map((f) => readFileSync(f, "utf8")).join("\n");
   for (const f of listFiles(p("data", "exhibit"), ".yaml").filter((f) => /\/pathway-/.test(f))) {
     const slug = f.replace(/.*\/pathway-/, "").replace(/\.yaml$/, "");
-    for (const lang of ["ar", "en", "ur", "fr", "es"]) if (!sitemap.includes(`/${lang}/learn/teachers/pathways/${slug}/`)) errors.push(`sitemap: /${lang}/learn/teachers/pathways/${slug}/ is missing`);
+    for (const lang of ["ar", "en", "ur", "fr", "es", "tr", "id"]) if (!sitemap.includes(`/${lang}/learn/teachers/pathways/${slug}/`)) errors.push(`sitemap: /${lang}/learn/teachers/pathways/${slug}/ is missing`);
   }
   // the teen 60-second pages (E4): every topic's route is in the sitemap in the three languages and
   // its page carries a schema.org Course JSON-LD block
   const topicIds = (readFileSync(p("edu", "topics-50.yaml"), "utf8").match(/^- id: ([a-z0-9-]+)/gm) ?? []).map((m) => m.replace("- id: ", ""));
-  for (const lang of ["ar", "en", "ur", "fr", "es"]) for (const id of topicIds) {
+  for (const lang of ["ar", "en", "ur", "fr", "es", "tr", "id"]) for (const id of topicIds) {
     if (!sitemap.includes(`/${lang}/shabab/60s/${id}/`)) errors.push(`sitemap: /${lang}/shabab/60s/${id}/ is missing`);
     const f = p("dist", lang, "shabab", "60s", id, "index.html");
     if (!existsSync(f)) { errors.push(`missing page: ${lang}/shabab/60s/${id}/index.html`); continue; }
@@ -103,7 +103,7 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   // is at most 2 MB, and carries no <script src and no absolute http(s) URL (an xmlns is a namespace,
   // not a fetch), so it opens from file:// with no internet
   const packIds = (readFileSync(p("edu", "packs.yaml"), "utf8").match(/- id: ([a-z-]+)/g) ?? []).map((m) => m.replace("- id: ", ""));
-  for (const lang of ["ar", "en", "ur", "fr", "es"]) for (const id of packIds) {
+  for (const lang of ["ar", "en", "ur", "fr", "es", "tr", "id"]) for (const id of packIds) {
     const f = p("dist", lang, "learn", "teachers", "offline", `${id}.html`);
     if (!existsSync(f)) { errors.push(`offline pack missing: ${lang}/learn/teachers/offline/${id}.html`); continue; }
     const buf = readFileSync(f);
@@ -166,7 +166,7 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   else if (!readFileSync(modernFigures, "utf8").includes("data-modern-row")) errors.push("ar/modern/figures/ lists no record (no data-modern-row)");
   // audit of 5 November 2026: each exhibit appears once on the exhibits index, entity pages show no review state or
   // completeness score, every language has its embed index and its own not-found page
-  for (const lang of ["ar", "en", "ur", "fr", "es"]) {
+  for (const lang of ["ar", "en", "ur", "fr", "es", "tr", "id"]) {
     // The same strings the pages were rendered with: a key a language has not translated yet is filled from English
     // (site/src/lib/i18n.ts), so a partly translated language is checked against what its pages really show.
     const T = ui(lang as Lang);
@@ -202,7 +202,7 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   }
   // audit of 13 November 2026, Part II: the Ten are ten; no person stands in a list of beings; Signs is scoped and the
   // four hereafter browsers say how they differ; a merged record's old id builds no page of its own
-  for (const lang of ["ar", "en", "ur", "fr", "es"]) {
+  for (const lang of ["ar", "en", "ur", "fr", "es", "tr", "id"]) {
     const read = (...seg: string[]) => { const f = p("dist", lang, ...seg, "index.html"); return existsSync(f) ? readFileSync(f, "utf8") : null; };
     const companions = read("companions") ?? "";
     const tenAt = companions.indexOf('id="ten-title"');

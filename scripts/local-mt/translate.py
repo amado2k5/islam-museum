@@ -21,14 +21,14 @@ import argparse, concurrent.futures, glob, itertools, json, os, re, sys, threadi
 import yaml
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-LANG_NAME = {"es": "Spanish", "fr": "French"}
+LANG_NAME = {"es": "Spanish", "fr": "French", "tr": "Turkish", "id": "Indonesian"}
 SPINE = ["event", "place", "work", "person", "concept", "building", "object"]
 SACRED = ["practice", "question", "passage"]  # last: translated from English like the rest (founder, 18 Nov 2026)
 LEVELED = re.compile(r"^## (For Sprouts|For Explorers|For Scholars)\s*$", re.M)
-BROKEN = re.compile(r"^\s+(ur|ar|en|fr|es): \"", re.M)  # a frontmatter line that leaked into the prose
+BROKEN = re.compile(r"^\s+(ur|ar|en|fr|es|tr|id): \"", re.M)  # a frontmatter line that leaked into the prose
 HONORIFIC = re.compile(
     r"(peace be upon him|\bpbuh\b|\(saw\)|ﷺ|la paz sea con (él|ella)|que dios (esté|este) (complacido|satisfecho)|que dios tenga misericordia"
-    r"|paix (soit )?sur lui|que dieu soit satisfait|que dieu l'agrée|que dieu lui fasse miséricorde|صلى الله عليه|عليه السلام|رضي الله ع|رحمه الله)", re.I)
+    r"|paix (soit )?sur lui|que dieu soit satisfait|que dieu l'agrée|que dieu lui fasse miséricorde|sallallahu|aleyhi ve sellem|aleyhisselam|\bs\. ?a\. ?v\b|\bsav\b|allah (?:onu|onun) (?:kutsa|razı)|shallallahu|semoga (?:allah )?(?:senantiasa )?(?:memberi|melimpahkan|meridhai|meridho)|semoga keselamatan|alaihissalam|alaihis salam|صلى الله عليه|عليه السلام|رضي الله ع|رحمه الله)", re.I)
 FIXED_HEADINGS = {
     "es": {"Brief": "En breve", "For young visitors": "Para los visitantes jóvenes", "Notes for scholars": "Notas para investigadores",
            "Notes for researchers": "Notas para investigadores", "Overview": "Visión general", "Summary": "Resumen", "Legacy": "Legado",
@@ -36,6 +36,12 @@ FIXED_HEADINGS = {
     "fr": {"Brief": "En bref", "For young visitors": "Pour les jeunes visiteurs", "Notes for scholars": "Notes pour les chercheurs",
            "Notes for researchers": "Notes pour les chercheurs", "Overview": "Vue d'ensemble", "Summary": "Résumé", "Legacy": "Héritage",
            "Sources": "Sources", "References": "Références", "Curatorial notes": "Notes de conservation", "Life": "Vie", "Works": "Œuvres"},
+    "tr": {"Brief": "Kısaca", "For young visitors": "Genç ziyaretçiler için", "Notes for scholars": "Araştırmacılar için notlar",
+           "Notes for researchers": "Araştırmacılar için notlar", "Overview": "Genel bakış", "Summary": "Özet", "Legacy": "Miras",
+           "Sources": "Kaynaklar", "References": "Kaynakça", "Curatorial notes": "Küratöryel notlar", "Life": "Hayatı", "Works": "Eserleri"},
+    "id": {"Brief": "Singkatnya", "For young visitors": "Untuk pengunjung muda", "Notes for scholars": "Catatan untuk peneliti",
+           "Notes for researchers": "Catatan untuk peneliti", "Overview": "Ikhtisar", "Summary": "Ringkasan", "Legacy": "Warisan",
+           "Sources": "Sumber", "References": "Rujukan", "Curatorial notes": "Catatan kuratorial", "Life": "Kehidupan", "Works": "Karya"},
 }
 ERA_RULE = {
     "es": 'Write "AH" as "H" (91 AH -> 91 H), "CE" as "d. C." and "BCE" as "a. C."; write "Qur\'an" as "Corán".',

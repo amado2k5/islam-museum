@@ -31,6 +31,6 @@ export function loadHomework(): HomeworkTopic[] {
 
 export function viewHomework(t: HomeworkTopic, lang: Lang): HomeworkView {
   const n = byId.get(t.target)!;
-  return { id: t.id, title: t.title[lang] ?? (lang === "fr" || lang === "es" ? t.title.en : t.title.ar) ?? t.title.ar, href: href(lang, n.id) };
+  return { id: t.id, title: t.title[lang] ?? (lang === "fr" || lang === "es" || lang === "tr" || lang === "id" ? t.title.en : t.title.ar) ?? t.title.ar, href: href(lang, n.id) };
 }
 export const homeworkViews = (lang: Lang): HomeworkView[] => loadHomework().map((t) => viewHomework(t, lang));
