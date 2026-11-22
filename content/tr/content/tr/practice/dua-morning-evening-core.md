@@ -1,0 +1,12 @@
+---
+id: practice/dua-morning-evening-core
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/practice/dua-morning-evening-core.md}
+---
+## Özet
+El-Nawavi'nin bahsettiklerinin ilki, kitabın en geniş bölümü olan sabah ve akşam söylenenlerle ilgili bölümdür: Bağışlama Ustası, Tasbih (Yüz Kez Tesbih), Üç Sureler ve Allah'ın Tam Sözlerine sığınmak. {cite:al-adhkar-nawawi-arnaut-1994 p. 76}
+
+## Al-Nawawi'nin 'Al-Adhkar'da topladıkları
+El-Nevawi, bu bölümün kitabın en geniş bölümü olduğunu ve bazı kısaltılmış bölümlerden bahsettiğini söyler. Hepsini tamamlayamayan herkes, sadece bir kez bile olsa {cite:al-adhkar-nawawi-arnaut-1994 p. 76} ne isterse onu anlatsın. Sahih al-Buhari' [[person/muhammad|de, Peygamber]]'in 'Bağışlama Ustası'ndan Shaddad ibn Aws'tan ve başlangıcını rivayet eder: 'Ey Allah, sen benim Rabbimsin; Senden başka ilahi yoktur, ben Senin hizmetçinim iken beni yarattın.' Akşam bunu söyleyip o gece ölen cennete girer ya da oradaki insanların arasında olur, aynı şekilde sabah vakti {cite:al-adhkar-nawawi-arnaut-1994 p. 76}. Ebu'dan Sahih Müslim'de rivayet eder Huraira, sabah ve akşam yüz kez "Subhan Allah ve Bihamdihi" desen, Dirillik Günü'nde getirdiğinden daha iyi bir şeyle gelmeyeceğini, sadece aynı şeyi söyleyen ya da ekleyen {cite:al-adhkar-nawawi-arnaut-1994 p. 76} olduğunu söyledi. Abdullah ibn Hubayb'dan, Sünan Abi Davud, El-Tirmidi ve El-Nesei'de gerçek zincirlerle rivayet edilmiştir ki, Peygamber ona akşam ve sabah üç kez İhlas ve Muavvizetayn surelerini okumasını emretmiş ve Tirmidi'nin iyi, doğru {cite:al-adhkar-nawawi-arnaut-1994 p. 77} söylediğini söylemiştir. Ebu Hureyre'den rivayet eder: "Ey Allah, sabaha Seninle girdik, Seninle girdik, Seninle yaşadık, Seninle yaşadık, Seninle ölürüz. Diriliş Sana aittir." Tirmidi dedi Hasan {cite:al-adhkar-nawawi-arnaut-1994 p. 77}. Sahih Müslüman'da bir adamın akrep tarafından sokulduğu ve Peygamber'in ona, 'Akşam, 'Allah'ın yarattığı kötülükten mükemmel sözlerinde sığınacağım' deseydin {cite:al-adhkar-nawawi-arnaut-1994 p. 78} rivayet edilir. Ayrıca Osman'dan Sünan Abi Davud ve Tirmidi'de şöyle rivayet edilir: 'Allah'ın adıyla, yeryüzünde ve gökte hiçbir şey zarar görmez,' ve El-Tirmizi bunun iyi ve doğru olduğunu söylemiştir {cite:al-adhkar-nawawi-arnaut-1994 p. 78}.

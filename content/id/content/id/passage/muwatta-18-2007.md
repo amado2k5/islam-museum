@@ -1,0 +1,13 @@
+---
+id: passage/muwatta-18-2007
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/passage/muwatta-18-2007.md}
+---
+
+## Ringkasan
+Malik menceritakan dari Zayd ibn Aslam dari ayahnya bahwa ia berkata: Abdullah dan Ubayd Allah, putra Umar ibn al-Khattab, pergi dengan pasukan ke Irak. Ketika mereka tutup, mereka melewati Abu Musa al-Ash'ari, gubernur Basra, yang menyambut dan memfasilitasi mereka, lalu berkata: Jika aku bisa melakukan sesuatu yang bermanfaat untuk kalian, aku akan melakukannya. Lalu dia berkata: Ya, ini uang dari Allah yang ingin aku kirimkan kepada Panglima Orang Beriman. Jadi aku akan memberikannya kepadamu, sehingga kamu akan membeli barang dari Irak, lalu menjualnya di Madinah, dan menyerahkan modalnya kepada Panglima Orang Beriman dan keuntungan akan menjadi milikmu. Mereka berkata: Kami berharap. Dia bersuara, dan menulis kepada Umar ibn al-Khattab untuk mengambil uang itu dari mereka. Ketika mereka datang dan menjualnya, mereka mendapat keuntungan. Ketika mereka memberikan uang ini kepada Umar, dia berkata: Apakah tentara memakan leluhurnya seperti yang kamu lakukan? Mereka berkata: Tidak. Umar ibn al-Khattab berkata: 'Anak-anak Panglima Orang Beriman, maka leluhurmu memberikan uang dan memperolehnya.' Adapun Abdullah, dia diam, dan Ubayd Allah berkata: 'Apa yang pantas bagimu, wahai Panglima Orang Beriman? Jika uang itu berkurang atau mati, aku akan jamin.' Umar berkata: 'Berikan kepadanya.' Abdullah terdiam, dan Ubayd Allah meninjaunya. Seorang pria di antara sahabat Umar berkata: 'Wahai Panglima Orang Beriman, jika kamu memberinya pinjaman.' Umar berkata: 'Engkau telah memberinya pinjaman.' Umar mengambil modal dan setengah keuntungannya, dan Abdullah serta Ubayd Allah mengambil setengah dari keuntungan itu. {cite:muwatta-maruf-1997 p.221} {cite:muwatta-maruf-1997 p.222}
+
+## Lokasinya di museum
+Buku ini termasuk dalam [[passage/muwatta-kitab-18-qiraad|Muwatta, kitab al-Qarad]]. Sumbernya [[work/muwatta-malik|adalah al-Muwatta]]. Buku ini menyebutkan [[person/malik-ibn-anas|Malik ibn Anas]], [[person/zayd-ibn-aslam|Zayd ibn Aslam]], [[person/abdullah-ibn-umar|Abdullah ibn Umar ibn al-Khattab]], [[person/ubaydallah-ibn-umar|Ubayd Allah ibn Umar]], [[person/umar-ibn-al-khattab|Umar ibn al-Khattab]], dan [[person/abu-musa-al-ashari|Abu Musa al-Ash'ari]]. Buku ini juga dibangun di atasnya dalam bab-bab [[concept/qiradh|Qiradh]] dan [[concept/salaf|Salaf]].

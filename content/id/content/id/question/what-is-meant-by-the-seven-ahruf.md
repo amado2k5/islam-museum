@@ -1,0 +1,22 @@
+---
+id: question/what-is-meant-by-the-seven-ahruf
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/question/what-is-meant-by-the-seven-ahruf.md}
+---
+## Ringkasan
+Asal mula edisi ini adalah hadits yang diceritakan oleh al-Suyuti, seperti yang diucapkan oleh al-Suyuti, dua puluh satu sahabat, dan Abu Ubayd menyatakan mutawatirnya (tersebar luas): "Al-Qur'an ini diwahyukan dalam tujuh huruf." {cite:itqan-suyuti p. 308} Ibn Hibban, seperti yang dilaporkan al-Suyuti, mengatakan bahwa perbedaan pendapat tentang maknanya mencapai tiga puluh lima pendapat, yang tidak disebutkan oleh hakim melainkan apa yang lebih dikenal. {cite:itqan-suyuti p. 328} Museum ini menyajikan yang paling penting berdasarkan atribusi kepada pemiliknya tanpa prasangka. Lihat [[concept/al-ahruf-al-sabaa|tujuh surat]], [[event/umar-and-hisham-ibn-hakim-surat-al-furqan|Umar, dan Hisham]].
+
+## Apa yang disepakati para ahli
+Ibn al-Jazari berkata: Para ulama berbeda pendapat mengenai makna tujuh kata "meskipun mereka sepakat bahwa tujuannya bukan agar satu huruf dibacakan dalam tujuh cara, karena ini hanya ada dalam kata-kata sederhana," dan bahwa tidak diperbolehkan merujuk pada tujuh pembaca terkenal ini, karena mereka tidak diciptakan maupun diciptakan. {cite:nashr-dahman-damascus-1345-v1 p. 34} Al-Sabt mengatakan maksudnya bukan agar setiap kata dibacakan dengan tujuh cara; jika tidak, ia akan mengatakan "tujuh huruf" dengan menghilangkan "ع." Sebaliknya, Al-Qur'an diwahyukan dengan syarat dan perluasan ini sehingga perbedaannya tidak melebihi tujuh wajah, tidak peduli berapa banyak jumlahnya. Kata pertama dalam [[passage/quran-1-4|Al-Fatiha 4]] dibacakan dengan cara yang mencapai tujuh atau sepuluh kali, satu kata dalam Surah Al-Ma'idah dibaca dengan dua puluh dua cara, dan kata Al-Ta'tafuf dalam [[passage/quran-17-23|Al-Isra 23]] diterjemahkan ke dalam tiga puluh tujuh bahasa, dan variasi dalam bahasa tersebut tidak melebihi tujuh cara berbeda. {cite:manahil-irfan-sabt p. 173}
+
+## Kebijaksanaan yang Diberikan
+Al-Sabt mengatakan bahwa kebijaksanaan di balik wahyu Al-Qur'an dalam tujuh huruf adalah kemudahan bagi seluruh bangsa Islam, terutama bahasa Arab yang pernah terlihat di dalamnya; ia mengutip hadis Abu ibn Ka'b yang dikatakan Jibril: "Sesungguhnya, Allah memerintahkanmu untuk membaca Al-Qur'an kepada bangsamu dengan huruf." Nabi memohon kepada Allah agar sehat dan ampun, dan berkata bangsanya tidak akan mampu menanggungnya sampai mencapai tujuh huruf. Dalam sebuah hadits, Nabi memberitahu Jibril bahwa ia telah mengirim surat kepada bangsa buta huruf, termasuk tetua fana, orang tua, dan anak laki-laki itu. {cite:manahil-irfan-sabt p. 159} {cite:manahil-irfan-sabt p. 157} Ibn al-Jazari juga berkata bahwa Allah menciptakan bagi mereka 'luas dalam bahasa dan semudah vokalnya seperti halnya Ia memudahkan agama bagi mereka.' {cite:nashr-dahman-damascus-1345-v1 p. 33}
+
+## Kelangsungan surat-surat
+Isu lain terkait: Apakah tujuh huruf itu tetap ada dalam Al-Qur'an? Sekelompok ahli hukum, pembaca, dan teolog berpendapat bahwa semua huruf tersebut ditemukan dalam Al-Qur'an Uthmani karena tidak diperbolehkan bagi Ummah untuk mengabaikan pemindahan apa pun darinya. Mayoritas ulama berpendapat bahwa huruf-huruf itu hanya mengandung apa yang mungkin dengan menggambarnya untuk memasukkan Ardah terakhir. Ibn Jarir al-Tabari dan mereka yang setuju dengannya berpendapat bahwa Ummah dibatasi hanya pada satu huruf untuk mengumpulkan firman tersebut. {cite:manahil-irfan-sabt p. 183} {cite:manahil-irfan-sabt p. 184} Dan Al-Sabbath memilih bahwa Al-Qur'an memasukkan beberapa dari tujuh huruf, bukan semuanya. {cite:manahil-irfan-sabt p. 184} Lihat [[concept/al-arda-al-akhira|Ardah terakhir]].
+
+## Apa yang tidak saya katakan
+Saya mengutip pernyataan-pernyataan ini dari Al-Sabt, Ibn Al-Jazari, dan Al-Suyuti; dan saya tidak mengutip satu pun huruf dari Al-Qur'an, jadi saya menggambarkan contoh dalam kata-kata, dan tabel itu tidak menghitung empat puluh pernyataan maupun menampilkan siapa pun yang tidak setuju. Saya mengandalkan 'Tahdhib Manahil al-Irfan' daripada 'Manahil al-Irfan' asli oleh Al-Zurqani, jadi apa yang saya atribusikan kepada Al-Zurqani dikaitkan melalui Sabat.

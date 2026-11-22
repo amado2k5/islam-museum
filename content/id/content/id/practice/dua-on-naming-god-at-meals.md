@@ -1,0 +1,12 @@
+---
+id: practice/dua-on-naming-god-at-meals
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/dua-on-naming-god-at-meals.md}
+---
+## Ringkasan
+Apa yang disebutkan al-Nawawi dalam 'Buku Kenangan Makan dan Minum' mengenai topik penamaan saat makan dan minum, deskripsinya, dan apa yang dikatakan jika dilupakan, serta bab tentang tidak mendiskualifikasi makanan. {cite:al-adhkar-nawawi-arnaut-1994 p. 229}
+
+## Apa yang dikumpulkan al-Nawawi dalam 'Al-Adhkar'
+Al-Nawawi membuka bab tentang nama nama tersebut saat makan dan minum dengan menceritakan dalam dua Sahih dari Umar ibn Abi Salamah bahwa [[person/muhammad|Nabi]] berkata kepadanya: "Dengan nama Allah dan makanlah dengan tangan kananmu" {cite:al-adhkar-nawawi-arnaut-1994 p. 229}. Ia menceritakan dari Abu Dawood dan Al-Tirmidhi dari Aisha bahwa siapa pun yang lupa menyebut Allah di awal makan harus berkata: "Dalam nama Allah di awal dan akhir." Al-Tirmidhi mengucapkan hadis yang baik dan otentik {cite:al-adhkar-nawawi-arnaut-1994 p. 229}. Dari Sahih Muslim dari Hudhayfah bahwa Nabi mengambil tangan seorang gadis hamba dan kemudian tangan seorang Badui yang ingin memasukkan tangannya ke dalam makanan, dan berkata bahwa Setan memperbolehkan makan makanan yang tidak menyebut nama Allah {cite:al-adhkar-nawawi-arnaut-1994 p. 230}. Dan dari Abu Dawud dan An-Nasa'i dari Umayyah ibn Makhshi bahwa seorang pria tidak menyebut nama itu sampai ada sepotong yang tersisa, maka ia berkata: "Dalam nama Allah, permulaan dan akhirnya." Nabi berkata bahwa Setan masih makan bersamanya {cite:al-adhkar-nawawi-arnaut-1994 p. 230}. Al-Nawawi mengatakan bahwa para ulama sepakat dengan rekomendasi untuk mengucapkan nama di awal makanan, bahwa minum sama saja, dan disarankan untuk mengucapkannya dengan lantang {cite:al-adhkar-nawawi-arnaut-1994 p. 230}. Siapa pun yang mengatakan nama itu singkat, itu sudah cukup, dan jika salah satu pemakan mengatakan nama itu cukup untuk yang lain {cite:al-adhkar-nawawi-arnaut-1994 p. 231}. Kemudian diceritakan dalam bab tentang tidak menyalahkan makanan dari Abu Huraira dalam dua Syait bahwa Nabi tidak pernah mengkritik makanan; jika dia menginginkannya, dia memakannya, dan jika dia tidak suka, dia meninggalkannya {cite:al-adhkar-nawawi-arnaut-1994 p. 231}.

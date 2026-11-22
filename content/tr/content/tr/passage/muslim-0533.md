@@ -1,0 +1,13 @@
+---
+id: passage/muslim-0533
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/passage/muslim-0533.md}
+---
+
+## Özet
+Osman bin Affan'ın Peygamber'in Camii'ni inşa ederken, insanların değiştirmeyi sevmediği zamanlarda anlattığı anlatım — Sahih Müslüm'deki camiler kitabındaki cami inşaatı bölümünde; yüzyıllar boyunca cami kapılarına asılı olan vakıf projeleriyle asılmış metin. {cite:sahih-muslim}
+
+## Müzedeki konumu
+Kaynağı [[work/sahih-muslim|Sahih Muslim]]'dir. [[person/muhammad|Muhammed]] ve [[person/uthman-ibn-affan|Osman bin Affan'dan]] bahseder.

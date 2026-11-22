@@ -1,0 +1,35 @@
+---
+id: passage/muwatta-kitab-01-salat
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/passage/muwatta-kitab-01-salat.md}
+---
+## Özet
+Namaz Kitabı, [[work/muwatta-malik|Yahya ibn Yahya al-Laythi]] tarafından Malik [[person/yahya-ibn-yahya-al-laythi|ibn Anas'tan anlatılan]] Muwatta'[[person/malik-ibn-anas|nın ilk kitabıdır]] ve 1997'de Dar al-Gharb al-Islami tarafından Bashar Awad Ma'ruf tarafından basılmıştır. İlk cilt 33-303. sayfaları PDF dosya numaralandırmasıyla kapsar ve bu baskı, yükseltilmiş bir hadis, askıya alınmış bir rapor, bir rapor ve Malik'in bir beyanı dahil olmak üzere 590 numaralı metin içerir ve 139 bölüme dağıtılmıştır. {cite:muwatta-maruf-1997 p.33} {cite:muwatta-maruf-1997 p.303}
+
+## Kitapta toplananlar
+Kitap sadece dua biçimiyle sınırlı kalmaz; aksine onunla ilgili her şeyi zamandan başlayıp anma ve yalvarışla sona eren bir sırayla sunar:
+
+- **El-Mağakit** (Hadisler 1–31): Namaz kârının geçimi, Cuma vakti, namazın ötesinde uyuyan kişinin kalması, göç sırasında namaz kılmanın yasaklanması ve açılışı [[passage/muwatta-1-001|, Ömer bin Abdülaziz ve Urve'nin]] Cebriel'in düşüşü hakkındaki hadisleridir ve Peygamber'in namazları belirlenen zamanlarda Peygamber'le birlikte kaçırmıştır. {cite:muwatta-maruf-1997 p.33} {cite:muwatta-maruf-1997 p.49}
+- **Arınma** (32–171): [[practice/wudu|Abdest alma]] yapmak, abdest almak için gerekmemek, ateşe dokunan şeylerden abdest kaçınmak, çorapları silmek, burun kanaması, evlilik öncesi sıvılar, özel bölgelere dokunmak, büyük ritüel kirlilik için ghusl, [[concept/tayammum|tayammum]], adet [[concept/hayd|ve istihada bölümleri, çocuğun idrarını yapmak ve miswak. {cite:muwatta-maruf-1997 p.50} {cite:muwatta-maruf-1997 p.111}]]
+- **Namaz ve Okumanın Çağrısı ve Açılışı** (172–234): Ezan çağrısı, seyahat sırasında yapılan çağrı, çağrının belirlenen şafak öncesi namazı (shur), namazın açılışı, Mağrip, İşa ve Fecr'de okunma, ümmül-Kur'an, imamın arkasında okuma ve güvence namazı. {cite:muwatta-maruf-1997 p.113} {cite:muwatta-maruf-1997 p.139}
+- **Oturmak, Taşahhud ve Unutkanlık** (235–265): Otururken icra etmek, Taşahhud'u yapmak, imamın önünde başını kaldırmak, iki birim namaz kılmak, duayı şüpheyle yaklaşmak ve namazdan dikkatini dağıtan şeyi aramak. {cite:muwatta-maruf-1997 p.142} {cite:muwatta-maruf-1997 p.155}
+- **Cuma** (266–298): Cuma günü ritüel banyo yapmak, imam vaazı verirken dikkatle dinlemek ve rak'a ulaşan kişinin Cuma günü saat olan Sa'i'yi kılmak, boyun çaprazlamak ve Cuma namazında okumak. {cite:muwatta-maruf-1997 p.156} {cite:muwatta-maruf-1997 p.168}
+- **Gece ve Vitr Namazı ile Fecr'in İki Rek'ahı** (299–340): Ramazan'da namaz kılmaya teşvik edilir, Ramazan gecesi namazı edilir, Peygamber'in Witr'de namazıdır, Witr kılınca emir verilir ve Fecr sonrası vitr edilir. {cite:muwatta-maruf-1997 p.169} {cite:muwatta-maruf-1997 p.186}
+- **Cemaat duası, kısaltma duası ve cemaat** (341–414): Cemaat duasının erdemleri, karanlık ve şafak, imamla dua etmeyi tekrarlamak, otururken imama dua etmek, ortadaki dua, aynı giysi giymek, iki duayı birleştirmek, seyahat ederken duaları kısaltmak ve dağda gönüllü dualar. {cite:muwatta-maruf-1997 p.188} {cite:muwatta-maruf-1997 p.214}
+- **Duha, Sutra ve Namaz Camii** (415–486): Duha namazı, ibadet edenin ve perdesinin önünde sıkı bir geçiş, sıraların düzeltilmesi, ellerin yerleştirilmesi, Kunut kılınması, namazı beklemek ve ona doğru yürümek, dönüp alkışlamak, Peygamber'e duaların gönderilmesi, ardından namaz ve cesaretlendirmeyi birleştiren iki bölüm. {cite:muwatta-maruf-1997 p.216} {cite:muwatta-maruf-1997 p.248}
+- **Çubuklar, korku, tutulma ve yağmur** (487–518): İki bayramı yıkamak, vaaz öncesi dua etmek, sabah öncesi yemek yemek, [[practice/salat-al-khawf|]] korku [[practice/salat-al-kusuf|duası]], tutulma [[practice/salat-al-istisqa|duası, yağmur]] yağışı ve yıldızlarla yağmak. {cite:muwatta-maruf-1997 p.250} {cite:muwatta-maruf-1997 p.268}
+- **Kıble ve Peygamber Camii** (519–529): İnsan ihtiyaçları için Kıble'ye yüzleşmenin yasaklanması ve bunda taviz, Kıble'de tükürmenin yasaklanması, Kıble hakkında bahsedilenler ve [[building/prophets-mosque|Peygamber'in Camii]]'nde namaz kılmanın erdemidir. {cite:muwatta-maruf-1997 p.268} {cite:muwatta-maruf-1997 p.273}
+- **Kadınlar ve Camiler, Kur'an** (530–559): Kadınların camiye gitmesi, Kur'an'a dokunanların el destmemi emredi, abdest olmadan okunmasına izin vermesi ve 'Tahzib'i (Kur'an'ın dini yorumu) yer alır. [[passage/muwatta-1-540|Kur'an üzerine yedi harf]] hadisi, [[passage/muwatta-1-542|'Vahiy size nasıl gelir]]' hadisi, Kur'an [[practice/sujud-al-tilawa|'ın secdesi]] ve El-İhla ile Mülk surelerinin erdemlerini içeren kapsamlı bir bölüm vardır. {cite:muwatta-maruf-1997 p.273} {cite:muwatta-maruf-1997 p.287}
+- **Zikr vel-Dilekâ** (560–583): [[concept/dhikr|Allah'ın anılması]] ve orada [[practice/dua|dua]] ve eylemde bahsedilenler. {cite:muwatta-maruf-1997 p.287} {cite:muwatta-maruf-1997 p.300}
+- **Kitabın Sonucu** (584–590): Fajr ve Asr sonrası namaz kılmanın yasaklanması ve son metni [[passage/muwatta-1-590|, Sa'ib bin Yezid'in]] Ömer'in Asr'dan sonra namaz kıldığı için El-Munkadir'e vurduğu yazısıdır. {cite:muwatta-maruf-1997 p.301} {cite:muwatta-maruf-1997 p.303}
+
+## Kitapta Malik'in yöntemi
+Malik, her bölümü yükseltilmiş (varsa marfu') ile açar, ardından Medine halkının Sahabeleri ve Takipçilerinin raporlarıyla başlar ve birçok bölümü kendi sözleriyle bitirir. Yahya "Malik dedi" veya "Malik'ten soruldu" ifadesiyle başlar ve sık sık "konu bizim tarafımızca kabul edildi" ve "burada işlem yapılmaz" ifadelerini ekler. Kitapta Malik, "oraya ulaştığını" söyleyerek birçok açıklamayı anlatır ve editör, kenar notlarında bu bağlantıları altı kitabın yazarları ve diğerleriyle açıklar. {cite:muwatta-maruf-1997 p.256} {cite:muwatta-maruf-1997 p.273}
+
+## Araştırmacının Notları
+Doğrulayıcı, Malik'ten anlatan her metnin altında, Ebu Mus'ab al-Zuhri, Suweyd ibn Sa'id, el-Kanebi, Abdullah ibn Yusuf el-Tunisi ve Yahya ibn Yahya el-Nisaburi gibi yoldaşları arasında yer alır. Sahhihay, Sünan ve kapsamlı Musnad'daki yerlerine atıfta bulunur. [[person/ibn-abd-al-barr|İbn Abd al-Barr'ın]] önsöz ve anma ile ilişkili ve ilişkisiz olarak sözlerini ve Muwatta'nın rivayetçileri arasındaki farklılıkları ve dayandığı el yazısı kopyalarındaki farklılıkları belirtir. Bu kenar notları, araştırmacıya atfedilen hadis kayıtlarında geçer ve müzede hiçbir hadis, yalnızca onu söyleyenin adına atfedildiği ölçüde değerlendirilmez. {cite:muwatta-maruf-1997 p.33} {cite:muwatta-maruf-1997 p.281}
+
+## Müzedeki konumu
+Kitabın 590 metninin her birinin, içinde bulunanları kendi kelimeleriyle anlatan, en yüksek anlatıcısını ve bölümünü belirten, doğrulayıcının alıntısını ve uygun olduğunda metinden kısa bir alıntı içeren özel bir kaydı vardır; bkz. [[practice/salah|Dua]] ve [[concept/tahara|Arınma]]. {cite:muwatta-maruf-1997 p.33}

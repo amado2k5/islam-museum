@@ -1,0 +1,12 @@
+---
+id: practice/dua-on-dressing
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/dua-on-dressing.md}
+---
+## Ringkasan
+Apa yang dikatakan saat mengenakan pakaian baru atau melepasnya, dan apa yang dikatakan kepada seseorang yang mengenakan pakaian baru, seperti yang disusun oleh al-Nawawi dalam 'Al-Adhkar' dari kitab Ibn al-Sunni, Sunan, dan Sahih al-Bukhari. {cite:al-adhkar-nawawi-arnaut-1994 p. 20}
+
+## Apa yang dikumpulkan al-Nawawi dalam 'Al-Adhkar'
+Al-Nawawi mengatakan bahwa disarankan untuk mengucapkan 'Dalam nama Allah' saat memakainya, dan nama itu dianjurkan dalam segala perbuatan {cite:al-adhkar-nawawi-arnaut-1994 p. 20}. Dinawayatkan dari buku Ibn al-Sunni dari Abu Sa'id al-Khudri bahwa [[person/muhammad|ketika Nabi]] mengenakan pakaian, ia akan menamainya lalu berkata: 'Ya Allah, aku memohon kebaikan dan yang terbaik milik-Nya, dan aku memohon perlindungan kepada-Mu dari kejahatan dan kejahatan dari apa yang menjadi miliknya.' {cite:al-adhkar-nawawi-arnaut-1994 p. 20}. Dalam pakaian baru, ia menceritakan hadits dari Abu Sa'id yang ia autentikasi dan atribusikan kepada Sunan Abu Dawood, al-Tirmidhi, dan al-Nasa'i: "Ya Allah, segala puji adalah untuk-Mu, Engkau telah memakaikan pakaian-Nya. Aku memohon kebaikan-Mu dan yang terbaik yang telah Dia lakukan untuk-Nya, dan aku memohon perlindungan kepada-Mu dari kejahatan dan kejahatan atas apa yang telah Dia lakukan untuknya." {cite:al-adhkar-nawawi-arnaut-1994 p. 21}. Dari kitab Al-Tirmidhi dari Umar: "Puji bagi Allah yang telah memakaikan aku dengan apa yang biasa kupakai untuk menutupi ketelanjangan dan memperindah diriku dalam hidupku" {cite:al-adhkar-nawawi-arnaut-1994 p. 21}. Bagi mereka yang melihat pakaian baru di dalamnya, tercantum dari Sahih al-Bukhari pepatah um Khalid: "Pakailah dan ciptakanlah kamu." Dalam kitab-kitab Ibn Majah dan Ibn al-Sunni, dia berkata kepada Umar: "Kenakan pakaian baru, hiduplah dengan terpuji, dan mati sebagai syahid" {cite:al-adhkar-nawawi-arnaut-1994 p. 21}. Satu bab dimulai dengan kanan dalam pemakaian dan pelepasan dengan yang kiri, dan bab tentang apa yang dikatakan saat melepas pakaian dari kitab Ibn al-Sunni dari Anas: "Dalam nama Allah, yang tidak memiliki dewa selain Dia" {cite:al-adhkar-nawawi-arnaut-1994 p. 22}.

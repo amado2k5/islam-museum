@@ -1,0 +1,13 @@
+---
+id: passage/arbaun-18
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/passage/arbaun-18.md}
+---
+
+## Ringkasan
+Hadis Abu Dharr dan Mu'adh ibn Jabal, yang merupakan hadis kedelapan belas dalam Arba'in al-Nawawiyyah dan dalam komentar Ibn Rajab; diceritakan oleh al-Tirmidhi (1987), yang mengatakan itu adalah hadis yang baik, dan dalam beberapa salinan hadis itu baik dan otentik, dari riwayat Sufyan al-Thawri dari Habib ibn Abi Thabit dari Maymun ibn Abi Shabib dari Abu Dharr dan dengan rantai ini dari Mu'adh. Al-Tirmidhi menyebutkan dari gurunya Mahmoud ibn Ghailan bahwa hadis Abu Dharr lebih otentik, dan al-Daraqutni lebih memilih rantai transmisi melalui rantai mursal; al-Hakim mengautentikasikannya sesuai dengan syarat dua Shaykh, dan Ibn Rajab menjelaskan bahwa itu adalah kesalahpahaman Dalam dua hal: Maymun ibn Abi Shabib tidak menceritakan Al-Bukhari dalam bahasa Sahih maupun Muslim kecuali dalam pengantar bukunya, dan bahwa pendengaran Maymun dari salah satu Sahabat tidak terbukti — Al-Falas mengatakan tidak ada 'Saya mendengar' dalam riwayatnya dari Para Sahabat, dan Abu Hatim mengatakan naratifnya dari Abu Dharr dan Aisha tidak terkait, dan Abu Dawood mengatakan ia tidak bertemu Aisha maupun melihat Ali — dan ia mengutip pendapat Al-Bukhari, Ali ibn Madini, Abu Zur'ah, dan Abu Hatim bahwa hadis hanya terkait dengan keaslian pertemuan tersebut, Kata-kata Ahmad dan teks eksplisit Al-Shafi'i dalam surat tersebut menunjukkan hal ini, yang semuanya berbeda dari pendapat Muslim. Wasiat tersebut diceritakan dalam maknanya kepada Mu'adh ketika ia dikirim ke Yaman dan kepada Abu Dharr dalam perintah lain, termasuk 'Aku menasihatkanmu untuk takut kepada Allah dalam rahasiamu dan di depan umum.' Abu Huraira juga mengatakan bahwa hal yang paling umum yang membawa orang ke surga adalah 'kesalehan Allah dan watak yang baik.' Ini adalah nasihat komprehensif tentang hak Allah dan hak-hak hamba-Nya (Jami' al-Ulum wa al-Hikam, hlm. 375–431). {cite:ibn-rajab-jami-ulum-hikam}
+
+## Lokasinya di museum
+Sumbernya [[work/arbaun-nawawi|adalah Empat Puluh Kitab Nawawi]]. Buku ini menyebutkan [[person/abu-dharr-al-ghifari|Abu Dharr al-Ghifari]] dan [[person/muadh-ibn-jabal|Mu'adh ibn Jabal]]. Buku ini didasarkan pada bab-bab [[concept/taqwa|tentang kesalehan]], [[concept/khuluq|karakter baik]], [[concept/ittisal-al-isnad|keterhubungan rantai transmisi, dan pembentukan pertemuan]].

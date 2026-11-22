@@ -1,0 +1,12 @@
+---
+id: practice/dua-not-cursing-dead-visiting-graves
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/dua-not-cursing-dead-visiting-graves.md}
+---
+## Ringkasan
+Apa yang disusun al-Nawawi mengenai larangan mengutuk orang mati dan pengecualiannya, serta apa yang dikatakan pengunjung makam dalam istilah damai dan permohonan, serta apa yang dilarang pengunjung. {cite:al-adhkar-nawawi-arnaut-1994 p. 165}
+
+## Apa yang dikumpulkan al-Nawawi dalam 'Al-Adhkar'
+Al-Nawawi menceritakan dalam bab tentang larangan mengutuk orang mati dari Aisha dalam Al-Bukhari bahwa [[person/muhammad|Nabi]] berkata: "Jangan hina orang mati, karena mereka telah mencapai apa yang mereka bawa" {cite:al-adhkar-nawawi-arnaut-1994 p. 165}, dan dari Ibn Umar dalam Abu Dawood dan Al-Tirmidhi: "Ingatlah kebajikan orang yang telah mati dan jauhilah kejahatan mereka," yang telah dilemahkan oleh Al-Tirmidhi {cite:al-adhkar-nawawi-arnaut-1994 p. 165} {cite:al-adhkar-nawawi-arnaut-1994 p. 166}. Ia mengatakan bahwa para ulama melarang mengutuk Muslim yang telah meninggal yang tidak dinyatakan berdosa {cite:al-adhkar-nawawi-arnaut-1994 p. 166}, dan ia lebih suka diperbolehkan menyebutkan kesalahan orang kafir yang telah meninggal dan Muslim yang telah meninggal yang dinyatakan tidak bermoral atau inovatif, jika itu melibatkan kepentingan Untuk memperingatkan mereka {cite:al-adhkar-nawawi-arnaut-1994 p. 167}. Dalam kunjungan ke makam, diceritakan dalam Sahih Muslim dari Aisha bahwa Nabi biasa pergi larut malam ke Al-Baqi' dan berkata, "Salam sejahtera ke atas kamu, rumah umat yang beriman" {cite:al-adhkar-nawawi-arnaut-1994 p. 167}. Dinawayatkan dalam Al-Tirmidhi dari Ibn Abbas: "Salam sejahtera ke atas kamu, wahai umat makam. Semoga Allah mengampuni kami dan kamu. Kalian adalah leluhur kami dan kami mengikuti jejak langkah." Al-Tirmidhi juga mengucapkan hadits yang baik {cite:al-adhkar-nawawi-arnaut-1994 p. 168}. Disarankan bagi pengunjung untuk mengucapkan, mengingat, berdoa untuk umat pemakaman, dan meningkatkan kunjungan {cite:al-adhkar-nawawi-arnaut-1994 p. 168}. Bab-bab diakhiri dengan berita tentang seorang wanita yang melewati sebuah makam, yang berkata kepadanya, "Takutlah Tuhan dan bersabarlah" {cite:al-adhkar-nawawi-arnaut-1994 p. 168}.

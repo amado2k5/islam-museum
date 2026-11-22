@@ -1,0 +1,12 @@
+---
+id: practice/dua-in-fever-pain-and-wishing-for-death
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/practice/dua-in-fever-pain-and-wishing-for-death.md}
+---
+## Özet
+Al-Nawawi'nin baş ağrısı veya ateşi olanlar, hastaların şiddetli ağrı çektiğini söylemesi, zarar nedeniyle ölüm dilemekten hoşlanmaması ve soylu topraklarda ölüm için yalvarışlar hakkında bölümlerde topladıkları. {cite:al-adhkar-nawawi-arnaut-1994 p. 137}
+
+## Al-Nawawi'nin 'Al-Adhkar'da topladıkları
+El-Nevavi, İbn Abbas'tan İbn Sünni'nin kitabından [[person/muhammad|Peygamber'in]] onlara tüm acı ve ateşi öğrettiğini ve şöyle dediğini rivayet eder: "Yüce Allah'ın adıyla, Na'ar'ın terinin kötülüğünden ve ateşin sıcaklığının kötülüğünden Yüce Allah'a sığınırız" {cite:al-adhkar-nawawi-arnaut-1994 p. 137}. Hastaların kendi başlarına El-Fatiha, El-İhla ve iki Mu'avwidatayn okup, ellerine üflemelerini ve daha önce bahsedilen acı duasını {cite:al-adhkar-nawawi-arnaut-1994 p. 137} dua etmelerini söyler. Hastaların şiddetli acı çektiğini söylemelerinin izinliliği konusunda, öfke veya sıkıntıdan kaynaklanmıyorsa bunda bir hoşnutsuzluk olmadığını söyler {cite:al-adhkar-nawawi-arnaut-1994 p. 137}. İbn Mesud'dan iki Sahih'te, Peygamber kendini kötü hissederken ona yaklaşmış ve 'Sen hasta ve çok hastasın' demiş, o da 'Evet, aranızdan iki kişinin hasta olduğu gibi' demiştir {cite:al-adhkar-nawawi-arnaut-1994 p. 137}. Ölüm dilekten hoşlanma hakkındaki bölümde, Anas'tan iki Sahih'te Peygamber'in şöyle dediği belirtilir: 'Başına gelen kötülükten ölüm dileme.' Eğer bunu yapmak zorundaysa, 'Ey Allah, hayat iyiyse beni dirilt, ölüm benim için daha iyiyse al' demelidir {cite:al-adhkar-nawawi-arnaut-1994 p. 138}. Âlimler, zamanın bozulması ve benzeri nedenlerle dininden korkarak ölümü dileyen kişinin bundan hoşlanmadığını söyler {cite:al-adhkar-nawawi-arnaut-1994 p. 138}. Yüce topraklarda ölüm için yalvarma hakkındaki bölümde, Hafsa'dan Sahih al-Buhari'de Ömer şöyle demiştir: "Ey Allah, bana davanla şehit et ve ölümümü Resulun topraklarında kıl." Ömer, bunun nasıl mümkün olduğunu sordu ve o da "Allah isterse getirsin" dedi {cite:al-adhkar-nawawi-arnaut-1994 p. 138}.

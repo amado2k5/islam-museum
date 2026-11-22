@@ -1,0 +1,21 @@
+---
+id: polity/anushtegin-dynasty
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/polity/anushtegin-dynasty.md}
+---
+## Özet
+Anuştakinidler, Hwarazmşah unvanını taşıyan son dönemlerdi ve onların saltanatı sırasında devlet ekonomik ve siyasi zirveye ulaşarak büyük bir imparatorluk haline geldi; bu durum paralarının ve süslemelerinin kalitesiyle kanıtlanmaktadır. {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 11} Şahrukh Mirza İsmailov, ilk iki hanedan kralının paralarının bilinmediğini, en eski bilinenlerin ise Selçuklu paralarına kopyalanan Aladdin Atsiz'in paraları olduğunu belirtir. {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 95} Selçukluların, Harezm hükümdarlarının yaklaşık M.S. 1129 civarında saldırmasına izin vermedikleri sonucuna varılır. {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 117}
+
+## Bağımlılıktan Sultanlığa
+- Atsiz (521–551 Hicri / 1127–1157 M.S.): En eski paralarında, bazılarında bir Selçuklu sultanını yüce efendi, bazılarında Sanjar'ı, beşinde ise Irak Selçuklularının Mes'ud Sultanını (538, 539 ve 543 H) anmıştır. Adı yaklaşık 548 Hicri / 1154 yılında tek başına basılmış ve 'Sultan' unvanı ilk kez onun saltanatı sırasında Harezm paralarında geçmiştir. {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 95} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 96} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 97} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 98}
+- Il Arslan (551–567 Hicri / 1157–1172 MS): Babası onu Jund'a atadıktan sonra öldürüldü, ardından bağımsız olarak öldürüldü ve Nisa, Dehistan ve Nişapur'u boyunduruk altına aldıktan sonra 'Büyük Sultan' unvanını aldı. {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 99} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 100} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 101}
+- Sultan Şah Mahmud (567–589 Hicri / 1172–1193 M.S): Tarzan, biri altın rengindeydi ve Sultan unvanına sahipti. {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 102}
+- Ala al-Din Takş (567–596 Hicri / 1172–1200 M.S.): Halife el-Mustadi ve ardından el-Nasir adlarıyla Harezm ve Nişapur'da basılan paralar. {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 103}
+- Aladdin Muhammed: Buniyatov'a göre otuzdan fazla şehirde 'II. İskender' ve 'İnananların Komutanı Burhan' gibi unvanlarla madeni paralar basıldı. {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 107} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 109} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 110}
+- Celaleddin Munkaberni: 1226'da ele geçirdikten sonra Tiflis'te de olmak üzere uzak bölgelerde basılmış ve çeşitli ağırlık ve şekillerde basılmıştır: üçgen, kare, oval, özgül ve gözyaşı şeklinde. Yazar, bunları ilerleyen yıllarındaki zor koşullarının kanıtı olarak görür. {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 116} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 117}
+
+## parası
+Yazar, 135 Anuştakian tipini saymıştır: Atsaz için 13, Arslan için 8, Sultan Şah için 2, Takş için 22, Muhammed için 64 ve Celaleddin için 24. {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 117} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 118} Kur'an'daki çoğu ayetin çıkarıldığı ve bazılarının şövalye, Fars ve boğa gibi hayvan ve insan figürlerinin yer aldığı not edilmiştir; çünkü bunlar devlete katılan ülkelerdeki önceki yöneticilerin modellerine dayanıyordu. {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 11} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 12} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 95} Il Arslan'dan sonra hiçbir hükümdarın sikkelerinde 'Khwarazmşah' unvanının geçmediğini, hükümdarların 'Sultan' unvanını devletin Harezm sınırlarını aşması nedeniyle anmaya başladığını ve 'Hırazmşah' unvanının prenslere ve bölgesel valilere verildiğini belirtir. {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 117} Nehir ötesindeki dönemler arasında Semerkand, Buhara, Termez vardı; Horasan ve eski Guriler arasında ise Herat, Balh, Merv, Nişapur, Gazni ve Peşaver vardı. {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 164} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 173}

@@ -1,0 +1,23 @@
+---
+id: question/may-the-mushaf-be-written-in-imlai-spelling
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/question/may-the-mushaf-be-written-in-imlai-spelling.md}
+---
+## Ringkasan
+Masalahnya praktis: Apakah diperbolehkan mencetak Mushaf hari ini sesuai dengan aturan ortografi yang umum digunakan di antara masyarakat, bukan aksara yang digunakan oleh Para Sahabat atas perintah Uthman? Khalid Al-Sabt menyampaikan tiga pendapat dalam "Tahdhib al-Manahil," dan Al-Suyuti mengutip pernyataan Malik, Ahmad, dan Al-Bayhaqi. {cite:manahil-irfan-sabt p. 317} {cite:itqan-suyuti p. 2199}
+
+## Pendapat pertama: Komitmen harus dibuat
+Al-Sabt mengumpulkan sebagian besar bukti: bahwa para sahabat menulis Al-Qur'an pada masa Uthman menurut aksara ini dan bahwa konsensus mereka tercapai, serta membuka pintu kontradiksi itu adalah alasan untuk memanipulasi Al-Qur'an, dan beberapa aturan aksara berbeda dari satu wilayah ke wilayah lain, sehingga menimbulkan keraguan dan perselisihan. Diceritakan bahwa Mus'ab ibn Sa'd berkata: Orang-orang menyadari ketika Uthman memecahkan Al-Qur'an dan terkesan olehnya. {cite:manahil-irfan-sabt p. 317} Al-Sakhawi menceritakan dari Malik dan mengaitkan kebenaran itu kepadanya karena kebenaran itu mempertahankan keadaan aslinya. {cite:manahil-irfan-sabt p. 318} Al-Sabt mengutip Nizam al-Din al-Nishaburi bahwa wajib bagi pembaca, ulamawan, dan penulis untuk mengikuti naskah ini karena itu adalah naskah Zayd ibn Thabit, yang dapat dipercaya oleh Rasul Allah dan juru tulis wahyunya. {cite:manahil-irfan-sabt p. 319}
+Disebutkan bahwa orang-orang ini berbeda dalam mengarahkan kewajiban tersebut; beberapa melihatnya sebagai waqfwf dari Nabi, dan mengatakan pada hari Sabtu bahwa bukti mereka tidak mendukung pembuktian itu, dan pandangan yang lebih mungkin adalah bahwa itu bukan waqf, melainkan harus dipatuhi untuk bukti sebelumnya. {cite:manahil-irfan-sabt p. 319} Lihat [[question/is-the-rasm-tawqifi|apakah putusan itu tertulis]]?
+
+## Tanggapan Sabtu kepada mereka yang menginginkan fasilitasi
+Al-Sabt menanggapi klaim mereka bahwa banyak pelajar tidak cukup menguasai aksara untuk membaca Mushaf karena kurangnya pengetahuan mereka tentang aksara, dengan mengutip enam poin: aksara Ottoman memiliki keunggulan; pendapat mayoritas didasarkan pada bukti; bahwa terminologi penulisan dapat berubah; dan menjadikan Mushaf terjebak pada istilah modern dapat menimbulkan kekacauan yang mirip dengan yang terjadi pada masa Uthman, seperti yang dikatakan beberapa orang kepada yang lain: 'Rasmi lebih baik daripada aksara Anda'; bahwa aksara Ottoman seperti aksara umum yang menyatukan bangsa untuk menulis Kitab Tuhannya, seperti bahasa Arab; dan bahwa pembacaan dapat difasilitasi dengan menyiarkan Al-Qur'an secara akurat dan akurat serta dengan menyiarkan seni Tajweed. {cite:manahil-irfan-sabt p. 320} Ia menambahkan bahwa majalah Al-Azhar menyarankan agar di akhir setiap halaman dicatat kata-kata yang berbeda dari aksara biasa, dan bahwa aksara Ottoman Mushaf tidak melanggar aturan kita dalam tulisan tangan dan ejaan kecuali sedikit dalam beberapa kata. {cite:manahil-irfan-sabt p. 321}
+
+## Dua pendapat lainnya
+Pendapat kedua, yang dikaitkan dengan Ibn Khaldun dan didukung dengan antusias oleh al-Baqillani, adalah bahwa tulisan Mushaf itu idioologis. Dalam pengantar yang sama, Ibn Khaldun mengatakan bahwa para Sahabat menggambar Mushaf dengan tulisan mereka, yang tidak kuat dalam penguasaannya, sehingga banyak tulisan mereka berbeda dari naskah standar. Kemudian para Pengikut mengikuti naskah berkat mereka dengan apa yang telah dilakukan Sahabat Rasulullah, sehingga mereka mengikuti dan menetapkan tulisan tersebut, dan para ulama memperingatkan agar tidak menulis di tempatnya. {cite:muqaddima-ibn-khaldun p. 417} Pendapat ketiga, yang dikaitkan dengan al-Izz ibn Abd al-Salam seperti yang diceritakan oleh al-Zarkashi dalam 'Al-Burhan': apa yang ada dalam tabel di atas. Al-Zarkashi berkata: 'Ini terjadi pada masa-masa awal ketika pengetahuan masih hidup dan sehat, tetapi sekarang mungkin ada ketakutan akan pakaian.' {cite:manahil-irfan-sabt p. 322}
+
+## Apa yang tidak saya katakan
+Saya mengutip pendapat dari Al-Sabt dan Al-Suyuti, dan saya belum membaca Al-Muqani' karya Al-Dani, maupun Al-Intisar karya Al-Baqillani, maupun Al-Burhan karya Al-Zarkashi sendiri, jadi saya hanya mengaitkan apa yang dikutip dari mereka di sini; museum menyajikan pendapat dan tidak mendukungnya.
