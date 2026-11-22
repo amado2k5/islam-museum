@@ -1,0 +1,75 @@
+---
+id: concept/lahjat-al-sham
+lang: es
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Resumen
+Bilad al-Sham es el [[place/levant|Levante]], que comprende [[place/syria|Siria]], [[place/lebanon|Líbano]], [[place/jordan|Jordania]] y [[place/palestine|Palestina]], y entre sus ciudades [[place/damascus|Damasco]]. Esta página reúne lo que se leyó sobre el habla de su gente en dos fuentes: la división moderna de los grupos dialectales de la Encyclopaedia Britannica, y lo que dicen los antiguos libros de lengua sobre los árabes del margen contiguo al Levante y el relato de Ibn Jaldún sobre el habla de las ciudades. No se halló en las referencias leídas ninguna descripción detallada del dialecto levantino, de modo que la página es breve, en la medida de lo que se leyó. Más tarde se añadieron secciones sobre la clasificación, los rasgos principales y el número de hablantes a partir de un archivo de investigación entregado al museo; matizan la observación de que no se había hallado nada de ello.
+
+## La descripción moderna
+La Encyclopaedia Britannica dice en su artículo sobre la lengua árabe que las variedades habladas difieren mucho y que algunas no las entienden los hablantes de otras, que los grandes grupos dialectales de los tiempos modernos son los de Arabia, Irak, Siria, Egipto y el norte de África, y que los tres casos de la flexión han desaparecido en su mayor parte de las variedades habladas {cite:britannica-arabic-language}. Para ella el Levante es un grupo en sí mismo, pero el artículo no detalla sus rasgos ni sus límites.
+
+## Los árabes contiguos al Levante en al-Muzhir
+Al-Suyuti transmite de al-Farabi que la lengua no se tomó de Quda'a, Gasán e Iyad porque eran contiguos a la gente del Levante, la mayoría cristianos que leían en hebreo {cite:muzhir-mansur-1998 1 p.167}. Ibn Jaldún dice que la lengua de Mudar se echó a perder por su mezcla con los no árabes cuando se apoderaron de los reinos de Irak, el Levante, Egipto y el Magreb, y su facultad ya no tomó la forma primera, de modo que se convirtió en otra lengua {cite:tarikh-ibn-khaldun-shahada-1981 1 p.767}. Es una afirmación de Ibn Jaldún sobre la lengua en general, no sobre el Levante en particular, y en ella no describe ningún dialecto levantino.
+
+## El habla de las ciudades en Ibn Jaldún
+Ibn Jaldún tiene un capítulo en el que dice que la lengua de los sedentarios y de las ciudades es una lengua que se sostiene por sí misma, distinta de la de Mudar, y que varía de ciudad en ciudad: la lengua de la gente del este difiere algo de la de la gente del oeste, y lo mismo la de la gente de al-Ándalus, cada uno transmitiendo su propósito con su propia habla, y la pérdida del i'rab no los perjudica {cite:tarikh-ibn-khaldun-shahada-1981 1 p.770}. Explica el alejamiento de la lengua primera por la mezcla con los no árabes: quien se mezcló más con ellos tiene una lengua más alejada de la original, puesto que la facultad se adquiere por la enseñanza {cite:tarikh-ibn-khaldun-shahada-1981 1 p.770}. Dice en un lugar cercano que cuando los árabes se impusieron a las naciones del este, persas y turcos, se mezclaron con ellos y sus lenguas circularon entre ellos, de modo que su habla se estropeó con la corrupción de la facultad hasta convertirse en otra lengua {cite:tarikh-ibn-khaldun-shahada-1981 1 p.771}. Contrapone el este al oeste y a al-Ándalus en su discurso y no da al Levante una descripción propia.
+
+## Lo que esta página no alcanza
+No se halló en las referencias leídas ninguna descripción de los rasgos del dialecto levantino, ni de sus sonidos, ni de su gramática, ni de su vocabulario, ni un recuento de sus hablantes, ni diferencias entre los dialectos de Damasco, Beirut, Amán y Jerusalén o entre ciudades, aldeas y desierto; y no se leyó ningún estudio dialectal moderno. No se leyeron los artículos de la Enciclopedia sobre los países en cuestión, de modo que lo que aquí se relata del Levante procede del artículo general sobre el árabe y de los antiguos libros de lengua. Para el cuadro general véase [[concept/al-fusha-wal-lahajat|el árabe estándar y los dialectos hablados hoy]]. Otras referencias sobre los dialectos levantinos, estudios dialectales y estudios del habla de ciudades, aldeas y desierto, deberán añadirse una vez leídas y claro su contenido. Hasta entonces la página consigna los límites de lo leído, no una descripción del dialecto.
+
+## De dónde proceden las secciones siguientes
+Las secciones siguientes sobre la clasificación, los rasgos principales y el número de hablantes proceden de un archivo de investigación sobre seis grupos dialectales árabes entregado al museo por el fundador, que lo elaboró con un asistente de investigación de IA (Google Gemini). El archivo daba los títulos de las páginas, sus direcciones exactas, editores y fechas, y decía lo que afirma cada página. El museo no abrió esas páginas por sí mismo; el 21 de noviembre de 2026 el fundador aprobó usar el archivo sin volver a comprobarlas. Cada afirmación siguiente se atribuye, pues, a su página tal como la recoge el archivo, las fichas de fuentes están marcadas como no abiertas por el museo, y quien necesite certeza debe abrir las páginas. Cuando el archivo dice no haber hallado fuente, esta página también lo dice. Cuando las secciones anteriores de esta página dicen que no se halló descripción, clasificación ni recuento de hablantes, se refieren a las referencias que el museo leyó por sí mismo.
+
+## Clasificación
+Glottolog 5.4 sitúa el árabe levantino (identificador nort3139, código ISO 639-3 apc) dentro del afroasiático, semítico, semítico occidental, semítico central, arabio, árabe y árabe levantino-chipriota, que abarca las variedades libanesas y sirias y el árabe levantino meridional (sout3123, con fellahi y madani); señala que ISO 639-3 fusionó el código ajp en apc en enero de 2023 {cite:glottolog-levantine-arabic} {cite:glottolog-south-levantine-arabic}. La página gratuita de Ethnologue (29.ª edición, 2026) sitúa apc, de nombre árabe al-shāmī, en el afroasiático dentro de la macrolengua árabe, en Siria, Israel, Jordania, Líbano, Palestina y Turquía {cite:ethnologue-apc}.
+
+La Encyclopedia of Arabic Language and Linguistics de Brill trata Líbano, Siria, Palestina/Israel y Jordania como uno de los cinco grandes conjuntos dialectales, atravesado por la división entre habla nómada (beduina) y sedentaria (rural y urbana) {cite:brill-eall-toponyms} {cite:brill-eall-palestinian-arabic}, y clasifica las variedades urbanas como el árabe de Damasco entre los compuestos poligenéticos {cite:brill-eall-polygenesis}. Los artículos de la Encyclopaedia Britannica sobre el Levante y sobre Jordania identifican el árabe levantino (al-ʿarabiyyah al-shāmiyyah) en Siria, Líbano, Palestina y Jordania {cite:britannica-levant} {cite:britannica-jordan}, y una página del Academic Commons de la City University of New York señala la división entre habla sedentaria urbana (Madinee), habla de aldea (Falahi) y habla beduina {cite:cuny-levantine-arabic}. El archivo de investigación no halló ninguna fuente de la UNESCO sobre el asunto.
+
+## Rasgos principales
+**Fonología.** Brill señala que los dialectos urbanos funden la q clásica y la oclusiva glotal en oclusiva glotal y pierden las interdentales (th pasa a t, dh a d o z, dh enfática a d enfática o z), mientras que los rurales tienen k o una k posterior y los beduinos g, y ambos conservan las interdentales {cite:brill-eall-palestinian-arabic}. La imāla eleva y adelanta la a final y media hacia [ɛ, e, i], salvo bloqueo por enfáticas o postvelares {cite:brill-eall-vowel-raising} {cite:brill-eall-palestinian-arabic}. Los dialectos admiten grupos de dos consonantes al inicio, suprimen i y u átonas en sílaba abierta no final e insertan una i epentética sin mover el acento {cite:brill-eall-palestinian-arabic}.
+
+**Morfología.** El imperfectivo toma el prefijo indicativo b-; el futuro se marca con raḥ (o ḥa- y ta- en palestino); y el pseudoverbo bidd-/badd-, «querer», está muy extendido {cite:brill-eall-palestinian-arabic} {cite:brill-eall-polygenesis}. Las variedades urbanas y septentrionales neutralizan el género en el plural, mientras que los dialectos palestinos rurales y beduinos conservan los plurales femeninos; la negación usa ma- (urbano, norte) o ma-...-š (rural), con miš para predicados no verbales {cite:brill-eall-palestinian-arabic}.
+
+**Sintaxis.** El orden de palabras admite un orden sujeto-verbo-objeto flexible junto a verbo-sujeto-objeto {cite:cuny-levantine-arabic} {cite:brill-eall-palestinian-arabic}. La posesión analítica usa tabaʿ o la; fī(h) marca existencia y capacidad (fiyyi, fīk); y las relativas de objeto exigen un pronombre resuntivo {cite:brill-eall-palestinian-arabic} {cite:brill-eall-cypriot-maronite-arabic}.
+
+**Léxico.** Brill señala un sustrato arameo y siríaco (por ejemplo šōb, «calor», y naṭar, «guardar») y, en árabe palestino, préstamos del francés, italiano, inglés, turco, griego, persa y hebreo {cite:brill-eall-aramaic-syriac-loanwords} {cite:brill-eall-palestinian-arabic}; la página del CUNY hace la misma observación general sobre el préstamo {cite:cuny-levantine-arabic}.
+
+## Número de hablantes
+El archivo de investigación da dos cifras. La página Sociology of Language del CUNY (2024) dice que el árabe levantino tiene más de 30 millones de hablantes en Líbano, Siria, Jordania, Palestina y la diáspora {cite:cuny-levantine-arabic}. La entrada de Brill sobre el árabe palestino (última actualización el 25 de marzo de 2019) da aproximadamente 8,5 millones de hablantes nativos del subconjunto palestino {cite:brill-eall-palestinian-arabic}. El archivo no halló ninguna cifra en Ethnologue (29.ª edición, 2026; los recuentos exactos están tras un acceso de pago), Glottolog, Britannica o la UNESCO {cite:ethnologue-apc}. Las dos cifras proceden de años y de tipos de fuente distintos y no se suman.
+
+## Expresiones comunes
+Un resumen de investigación entregado al museo añadió una comparación de sesenta expresiones y palabras en seis dialectos árabes, entre ellas saludos, preguntar cómo está alguien, preguntar qué quiere y los números del uno al cinco. La variedad de referencia es aquí el árabe levantino urbano. Las preguntas se dirigen por lo general a un hablante masculino. La transliteración está normalizada para la comparación, y la ortografía árabe puede estarlo donde una fuente usa transcripción fonética en lugar de escritura árabe. Los equivalentes en árabe estándar se dan para la comparación y no son necesariamente citas de las fuentes dialectales. El museo no abrió las páginas nombradas; las fuentes son como las refirió el resumen, y sus etiquetas figuran en la última columna. {cite:fsi-levantine-and-egyptian-arabic-comparative-study} {cite:al-hakkak-how-to-say-it-in-colloquial-arabic-2016}
+
+| Español | Dialecto | Transliteración | Equivalente en árabe estándar | Fuente |
+|---|---|---|---|---|
+| Hola | مرحبا | marḥaba | مرحباً | L1, p. 39 |
+| Adiós | مع السلامة | maʿ is-salāme | مع السلامة | L1, p. 39 |
+| ¿Cómo estás? | كيفك؟ | kīfak? | كيف حالك؟ | L1, p. 39 |
+| Bien, gracias a Dios | منيح، الحمد لله | mnīḥ, il-ḥamdu lillāh | بخير، الحمد لله | L1, p. 39 |
+| ¿Qué quieres? | شو بدّك؟ | shū biddak? | ماذا تريد؟ | L2, p. 2 |
+| Uno | واحد | wāḥad | واحد | L1, p. 14 |
+| Dos | تنين | tnēn | اثنان | L1, p. 14 |
+| Tres | تلاتة | tlāte | ثلاثة | L1, p. 14 |
+| Cuatro | أربعة | arbaʿa | أربعة | L1, p. 14 |
+| Cinco | خمسة | khamse | خمسة | L1, p. 14 |
+
+Convenciones de transliteración: ā, ī y ū representan vocales largas; ē y ō vocales medias largas; ʿ representa ع; ʾ representa ء; ḥ representa ح; kh representa خ; y gh representa غ.
+
+Un rasgo especialmente reconocible es el uso de شو para «qué» y de بدّك para expresar «quieres».
+
+### Fuentes de la tabla
+- **L1:** Foreign Service Institute (FSI), Levantine and Egyptian Arabic: Comparative Study, pp. 14, 16 and 39; un estudio comparativo publicado por el Foreign Service Institute de EE. UU. {cite:fsi-levantine-and-egyptian-arabic-comparative-study}
+- **L2:** Ghalib Al-Hakkak and students of Université Paris 1 Panthéon-Sorbonne, How to Say It in Colloquial Arabic?, 2016, p. 2, Beirut examples; un documento con ejemplos de Beirut {cite:al-hakkak-how-to-say-it-in-colloquial-arabic-2016}
+
+### Obras de referencia especializadas
+| Autor | Obra de referencia | Año |
+|---|---|---|
+| Mark W. Cowell | A Reference Grammar of Syrian Arabic | 1964 |
+| Karl Stowasser and Moukhtar Ani | A Dictionary of Syrian Arabic: English-Arabic | 1964 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+Son obras especializadas que lista el resumen; dice que ninguna expresión particular de las tablas se atribuyó a estos libros sin comprobar las entradas pertinentes, de modo que son lecturas complementarias y no la fuente de las expresiones de la tabla. {cite:cowell-1964-reference-grammar-of-syrian-arabic} {cite:stowasser-ani-1964-dictionary-of-syrian-arabic} {cite:ryding-2005-reference-grammar-msa}
+
+Para las seis variedades lado a lado véase [[concept/al-muqarana-bayna-lahajat-al-arabiyya|Comparación de los dialectos árabes]].

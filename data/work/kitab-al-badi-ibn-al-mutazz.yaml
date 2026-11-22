@@ -1,0 +1,24 @@
+id: work/kitab-al-badi-ibn-al-mutazz
+class: work
+kind: book
+label:
+  ar: "كتاب البديع"
+  en: "Kitab al-Badi (Abd Allah ibn al-Mu'tazz)"
+  ur: "كتاب البديع"
+  fr: "Kitab al-Badi (Abd Allah ibn al-Mu'tazz)"
+  es: "Kitab al-Badi (Abd Allah ibn al-Mu'tazz)"
+summary:
+  ar: "كتاب البديع، كتاب في البلاغة لمؤلفه عبد الله بن المعتز، وتاريخه بحسب ملخص بحثي قُدّم إلى المتحف: 888م; ت 908م {cite:wikipedia-en-abdallah-ibn-al-mutazz}. وجواب الملخص عن وجوده في المكتبة الشاملة: نعم، والكتاب في المكتبة الشاملة: Book 11661 {cite:shamela-ws-book-11661}. لم يقرأ المتحف الكتاب."
+  en: "Kitab al-Badi, a book on rhetoric (balagha) by Abd Allah ibn al-Mu'tazz; its date in a research summary supplied to the museum is 888 CE; d. 908 CE {cite:wikipedia-en-abdallah-ibn-al-mutazz}. The summary's answer on its presence in the Shamela library: Yes, the book is in the Shamela library: Book 11661 {cite:shamela-ws-book-11661}. The museum has not read the book."
+  ur: "كتاب البديع، بلاغت پر ایک کتاب، مصنف عبد الله بن المعتز؛ میوزیم کو دیے گئے تحقیقی خلاصے میں اس کی تاریخ: 888ء; وفات 908ء {cite:wikipedia-en-abdallah-ibn-al-mutazz}۔ شاملہ میں موجودگی پر خلاصے کا جواب: جی ہاں، کتاب المکتبۃ الشاملہ میں ہے: Book 11661 {cite:shamela-ws-book-11661}۔ میوزیم نے یہ کتاب نہیں پڑھی۔"
+  fr: "Kitab al-Badi, livre sur la rhétorique (balagha) de Abd Allah ibn al-Mu'tazz ; sa date dans une synthèse de recherche remise au musée : 888; m. 908 {cite:wikipedia-en-abdallah-ibn-al-mutazz}. Réponse de la synthèse sur sa présence dans la bibliothèque Shamela : Oui, le livre figure dans la bibliothèque Shamela : Book 11661 {cite:shamela-ws-book-11661}. Le musée n'a pas lu le livre."
+  es: "Kitab al-Badi, libro sobre retórica (balagha) de Abd Allah ibn al-Mu'tazz; su fecha en un resumen de investigación entregado al museo: 888; m. 908 {cite:wikipedia-en-abdallah-ibn-al-mutazz}. Respuesta del resumen sobre su presencia en la biblioteca Shamela: Sí, el libro está en la biblioteca Shamela: Book 11661 {cite:shamela-ws-book-11661}. El museo no ha leído el libro."
+wings: [words, ideas]
+themes: [linguistics]
+tags: [arabiyya-browser, arabiyya-books]
+relations:
+  - { type: authored_by, target: person/ibn-al-mutazz, sources: [source/wikipedia-en-abdallah-ibn-al-mutazz] }
+  - { type: related_to, target: concept/ilm-al-balagha, sources: [source/wikipedia-en-abdallah-ibn-al-mutazz] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md, section 5); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat. The museum has not read this book beyond the pages named on the source record.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/wikipedia-en-abdallah-ibn-al-mutazz, source/shamela-ws-book-11661, source/badi-ibn-al-mutazz-dar-al-jil-1990]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

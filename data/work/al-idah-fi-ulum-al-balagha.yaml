@@ -9,7 +9,8 @@ summary:
   fr: "Fiche de brouillon pour l'ouvrage al-Idah fi ulum al-balagha d'al-Khatib al-Qazwini; ses sources ne sont pas encore vérifiées sur la page."
   ur: "الخطیب القزوینی کے الائدۃ فی العلوم البلاغہ کے لیے مسودہ کارڈ؛ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
 wings: []
-sources: [source/al-aalam]
+tags: [arabiyya-browser, arabiyya-books]
+sources: [source/al-aalam, source/wikipedia-en-al-idah-fi-ulum-al-balagha, source/shamela-ws-book-7380]
 external_ids: { wikidata: "Q6719501" }
 provenance:
   layer: own-research
@@ -18,3 +19,6 @@ provenance:
   model: "SWE-2 High"
   run: wikidata-import-wave2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: authored_by, target: person/jalal-al-din-al-qazwini, sources: [source/wikipedia-en-al-idah-fi-ulum-al-balagha] }
+  - { type: related_to, target: concept/ilm-al-balagha, sources: [source/wikipedia-en-al-idah-fi-ulum-al-balagha] }

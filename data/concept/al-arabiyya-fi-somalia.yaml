@@ -1,0 +1,29 @@
+id: concept/al-arabiyya-fi-somalia
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في الصومال"
+  en: "Arabic in Somalia"
+  ur: "صومالیہ میں عربی"
+  fr: "L'arabe en Somalie"
+  es: "El árabe en Somalia"
+summary:
+  ar: "مكانة العربية في الصومال كما تقولها دائرة المعارف البريطانية وكتاب حقائق العالم: الصومالية والعربية لغتان رسميتان، والصومالية يفهمها أهل البلاد جميعاً، والعربية تُتكلَّم في الشمال والمدن الساحلية، وللإيطالية والإنجليزية والسواحلية مواضع، وكُتبت الصومالية بالحرف اللاتيني سنة 1973. ولا تقول الصفحتان شيئاً عن لهجة عربية صومالية. وأُضيف نص الحكم الدستوري بلغته الأصلية كما ورد في ملخص بحثي لم يتحقق المتحف منه على الصفحة."
+  en: "The place of Arabic in Somalia as the Encyclopaedia Britannica and The World Factbook state it: Somali and Arabic are official languages, Somali understood across the country and Arabic spoken mainly in the north and the coastal towns; Italian, English and Swahili have their places, and Somali was given a Latin orthography in 1973. The pages say nothing on a Somali Arabic dialect. The constitutional text is added in its original wording, as supplied in a research summary that the museum did not check against the page."
+  ur: "صومالیہ میں عربی کا مقام جیسا انسائیکلوپیڈیا برٹانیکا اور ورلڈ فیکٹ بک بیان کرتی ہیں: صومالی اور عربی سرکاری زبانیں ہیں، صومالی پورے ملک میں سمجھی جاتی ہے اور عربی زیادہ تر شمال اور ساحلی شہروں میں بولی جاتی ہے؛ اطالوی، انگریزی اور سواحلی کی اپنی جگہیں ہیں، اور صومالی کو 1973 میں لاطینی رسم الخط دیا گیا۔ دونوں صفحات کسی صومالی عربی لہجے کے بارے میں کچھ نہیں کہتے۔ آئینی حکم کی عبارت اصل زبان میں شامل کی گئی ہے، جیسی ایک تحقیقی خلاصے میں ملی جسے متحف نے صفحے سے نہیں جانچا۔"
+  fr: "La place de l'arabe en Somalie selon l'Encyclopaedia Britannica et The World Factbook : le somali et l'arabe sont langues officielles, le somali compris dans tout le pays et l'arabe parlé surtout dans le nord et les villes côtières ; l'italien, l'anglais et le swahili ont leurs places, et le somali a reçu une orthographe latine en 1973. Les pages ne disent rien d'un dialecte arabe somalien. Le texte constitutionnel est ajouté dans sa langue d'origine, tel que fourni par un résumé de recherche que le musée n'a pas vérifié sur la page."
+  es: "El lugar del árabe en Somalia según la Encyclopaedia Britannica y The World Factbook: el somalí y el árabe son lenguas oficiales, el somalí comprendido en todo el país y el árabe hablado sobre todo en el norte y las ciudades costeras; el italiano, el inglés y el suajili tienen sus lugares, y el somalí recibió una ortografía latina en 1973. Las páginas no dicen nada de un dialecto árabe somalí. Se añade el texto constitucional en su lengua original, tal como lo entrega un resumen de investigación que el museo no verificó en la página."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: place/somalia, sources: [source/britannica-somalia] }
+  - { type: related_to, target: language/arabic, sources: [source/britannica-somalia] }
+  - { type: related_to, target: language/somali, sources: [source/britannica-somalia] }
+  - { type: related_to, target: language/swahili, sources: [source/britannica-somalia] }
+  - { type: related_to, target: concept/al-alam-al-arabi, sources: [source/britannica-arab-league] }
+  - { type: related_to, target: concept/al-fusha-wal-lahajat, sources: [source/cia-factbook-somalia] }
+  - { type: related_to, target: concept/lughat-al-qabail, sources: [source/cia-factbook-somalia] }
+provenance: { layer: own-research, source: "Britannica Somalia and CIA World Factbook Somalia page (archived copy), read on 21 Nov 2026. Constitutional wording and official addresses supplied by the founder in a research summary, 21 Nov 2026, used without re-checking the pages. Language-share figures supplied by the founder in a research summary, 21 Nov 2026, used without re-checking the pages.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-countries-b" }
+sources: [source/britannica-arab-league, source/britannica-semitic-languages, source/britannica-somalia, source/cia-factbook-somalia, source/nbs-somalia-shds-2020, source/official-constitution-somalia, source/official-constitution-somalia-english-pdf, source/unfpa-somalia-pess-2014]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

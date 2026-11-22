@@ -1,0 +1,24 @@
+id: work/musiqa-al-shir
+class: work
+kind: book
+label:
+  ar: "موسيقى الشعر"
+  en: "Musiqa al-Shir (Ibrahim Anis)"
+  ur: "موسيقى الشعر"
+  fr: "Musiqa al-Shir (Ibrahim Anis)"
+  es: "Musiqa al-Shir (Ibrahim Anis)"
+summary:
+  ar: "موسيقى الشعر، كتاب في العروض والقوافي لمؤلفه إبراهيم أنيس، وتاريخه بحسب ملخص بحثي قُدّم إلى المتحف: نُشر 1948م; ت 1977م {cite:archive-org-musiqa-al-shir}. وجواب الملخص عن وجوده في المكتبة الشاملة: لا، فقد ذكر الملف أن البحث في موقع shamela.ws لم يعثر على مطابقة . لم يقرأ المتحف الكتاب."
+  en: "Musiqa al-Shir, a book on prosody (arud and qawafi) by Ibrahim Anis; its date in a research summary supplied to the museum is pub. 1948 CE; d. 1977 CE {cite:archive-org-musiqa-al-shir}. The summary's answer on its presence in the Shamela library: No: the file reports that a search of shamela.ws returned no match . The museum has not read the book."
+  ur: "موسيقى الشعر، عروض و قوافی پر ایک کتاب، مصنف إبراهيم أنيس؛ میوزیم کو دیے گئے تحقیقی خلاصے میں اس کی تاریخ: اشاعت 1948ء; وفات 1977ء {cite:archive-org-musiqa-al-shir}۔ شاملہ میں موجودگی پر خلاصے کا جواب: نہیں؛ فائل کے مطابق shamela.ws میں تلاش سے کوئی مطابق اندراج نہیں ملا ۔ میوزیم نے یہ کتاب نہیں پڑھی۔"
+  fr: "Musiqa al-Shir, livre sur la prosodie (arud et qawafi) de Ibrahim Anis ; sa date dans une synthèse de recherche remise au musée : publ. 1948; m. 1977 {cite:archive-org-musiqa-al-shir}. Réponse de la synthèse sur sa présence dans la bibliothèque Shamela : Non : le fichier signale qu'une recherche sur shamela.ws n'a donné aucune correspondance . Le musée n'a pas lu le livre."
+  es: "Musiqa al-Shir, libro sobre prosodia (arud y qawafi) de Ibrahim Anis; su fecha en un resumen de investigación entregado al museo: publ. 1948; m. 1977 {cite:archive-org-musiqa-al-shir}. Respuesta del resumen sobre su presencia en la biblioteca Shamela: No: el archivo indica que una búsqueda en shamela.ws no dio ninguna coincidencia . El museo no ha leído el libro."
+wings: [words, ideas]
+themes: [linguistics]
+tags: [arabiyya-browser, arabiyya-books]
+relations:
+  - { type: authored_by, target: person/ibrahim-anis, sources: [source/archive-org-musiqa-al-shir] }
+  - { type: related_to, target: concept/ilm-al-arud, sources: [source/archive-org-musiqa-al-shir] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md, section 4); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat. The museum has not read this book.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/archive-org-musiqa-al-shir]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

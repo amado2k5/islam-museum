@@ -1,0 +1,20 @@
+id: person/muhammad-abd-al-khaliq-udayma
+class: person
+label: { ar: "محمد عبد الخالق عضيمة", en: "Muhammad Abd al-Khaliq Udayma", ur: "محمد عبد الخالق عضيمة", fr: "Muhammad Abd al-Khaliq Udayma", es: "Muhammad Abd al-Khaliq Udayma" }
+roles: [scholar, writer]
+gender: male
+tags: [arabiyya-browser, arabiyya-scholars]
+summary:
+  ar: "محمد عبد الخالق عضيمة، مؤلف «المغني في تصريف الأفعال»؛ ويورد ملخص بحثي قُدّم إلى المتحف تاريخ وفاته هكذا: ت 1404هـ / 1984م {cite:ketabonline-al-mughni-fi-tasrif-al-afal}."
+  en: "Muhammad Abd al-Khaliq Udayma, author of \"al-Mughni fi Tasrif al-Afal\"; a research summary supplied to the museum gives his date as d. 1404 AH / 1984 CE {cite:ketabonline-al-mughni-fi-tasrif-al-afal}."
+  ur: "محمد عبد الخالق عضيمة، «المغني في تصريف الأفعال» کے مصنف؛ میوزیم کو دیا گیا ایک تحقیقی خلاصہ ان کی تاریخ یوں دیتا ہے: وفات 1404ھ / 1984ء {cite:ketabonline-al-mughni-fi-tasrif-al-afal}۔"
+  fr: "Muhammad Abd al-Khaliq Udayma, auteur de « al-Mughni fi Tasrif al-Afal » ; une synthèse de recherche remise au musée donne sa date ainsi : m. 1404 H / 1984 {cite:ketabonline-al-mughni-fi-tasrif-al-afal}."
+  es: "Muhammad Abd al-Khaliq Udayma, autor de «al-Mughni fi Tasrif al-Afal»; un resumen de investigación entregado al museo da su fecha así: m. 1404 H. / 1984 {cite:ketabonline-al-mughni-fi-tasrif-al-afal}."
+wings: [people]
+themes: [linguistics]
+died: { edtf: "1984", hijri: "1404", calendar: gregorian, precision: year, status: tradition, derived: true, note: "Date from a research summary supplied to the museum, pages not opened (founder approval 21 Nov 2026) {cite:ketabonline-al-mughni-fi-tasrif-al-afal}." }
+relations:
+  - { type: authored, target: work/al-mughni-fi-tasrif-al-afal, sources: [source/ketabonline-al-mughni-fi-tasrif-al-afal] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/ketabonline-al-mughni-fi-tasrif-al-afal]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

@@ -1,0 +1,20 @@
+id: person/abd-allah-al-tayyib
+class: person
+label: { ar: "عبد الله الطيب", en: "Abd Allah al-Tayyib", ur: "عبد الله الطيب", fr: "Abd Allah al-Tayyib", es: "Abd Allah al-Tayyib" }
+roles: [scholar, writer]
+gender: male
+tags: [arabiyya-browser, arabiyya-scholars]
+summary:
+  ar: "عبد الله الطيب، مؤلف «المرشد إلى فهم أشعار العرب»؛ ويورد ملخص بحثي قُدّم إلى المتحف تاريخ وفاته هكذا: ت 1424هـ / 2003م {cite:archive-org-al-murshid-ila-fahm-ashar-al-arab}."
+  en: "Abd Allah al-Tayyib, author of \"al-Murshid ila Fahm Ashar al-Arab\"; a research summary supplied to the museum gives his date as d. 1424 AH / 2003 CE {cite:archive-org-al-murshid-ila-fahm-ashar-al-arab}."
+  ur: "عبد الله الطيب، «المرشد إلى فهم أشعار العرب» کے مصنف؛ میوزیم کو دیا گیا ایک تحقیقی خلاصہ ان کی تاریخ یوں دیتا ہے: وفات 1424ھ / 2003ء {cite:archive-org-al-murshid-ila-fahm-ashar-al-arab}۔"
+  fr: "Abd Allah al-Tayyib, auteur de « al-Murshid ila Fahm Ashar al-Arab » ; une synthèse de recherche remise au musée donne sa date ainsi : m. 1424 H / 2003 {cite:archive-org-al-murshid-ila-fahm-ashar-al-arab}."
+  es: "Abd Allah al-Tayyib, autor de «al-Murshid ila Fahm Ashar al-Arab»; un resumen de investigación entregado al museo da su fecha así: m. 1424 H. / 2003 {cite:archive-org-al-murshid-ila-fahm-ashar-al-arab}."
+wings: [people]
+themes: [linguistics]
+died: { edtf: "2003", hijri: "1424", calendar: gregorian, precision: year, status: tradition, derived: true, note: "Date from a research summary supplied to the museum, pages not opened (founder approval 21 Nov 2026) {cite:archive-org-al-murshid-ila-fahm-ashar-al-arab}." }
+relations:
+  - { type: authored, target: work/al-murshid-ila-fahm-ashar-al-arab, sources: [source/archive-org-al-murshid-ila-fahm-ashar-al-arab] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/archive-org-al-murshid-ila-fahm-ashar-al-arab]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

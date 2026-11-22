@@ -1,0 +1,24 @@
+id: work/al-tasrif-al-muluki
+class: work
+kind: book
+label:
+  ar: "التصريف الملوكي"
+  en: "al-Tasrif al-Muluki (Ibn Jinni)"
+  ur: "التصريف الملوكي"
+  fr: "al-Tasrif al-Muluki (Ibn Jinni)"
+  es: "al-Tasrif al-Muluki (Ibn Jinni)"
+summary:
+  ar: "التصريف الملوكي، كتاب في الصرف والتصريف لمؤلفه ابن جني، وتاريخه بحسب ملخص بحثي قُدّم إلى المتحف: ت 392هـ / 1002م {cite:wikipedia-ar-ibn-jinni}. وجواب الملخص عن وجوده في المكتبة الشاملة: لا يوجد له إدراج مستقل، وشرح الثمانيني عليه برقم 124334 في فهرس الشاملة بحسب الملف {cite:mr-mas-shamela-nahw-sarf-books}. لم يقرأ المتحف الكتاب."
+  en: "al-Tasrif al-Muluki, a book on morphology (sarf and tasrif) by Ibn Jinni; its date in a research summary supplied to the museum is d. 392 AH / 1002 CE {cite:wikipedia-ar-ibn-jinni}. The summary's answer on its presence in the Shamela library: No standalone entry; the file gives al-Thamanini's commentary as Book ID 124334 in the Shamela index {cite:mr-mas-shamela-nahw-sarf-books}. The museum has not read the book."
+  ur: "التصريف الملوكي، صرف و تصریف پر ایک کتاب، مصنف ابن جني؛ میوزیم کو دیے گئے تحقیقی خلاصے میں اس کی تاریخ: وفات 392ھ / 1002ء {cite:wikipedia-ar-ibn-jinni}۔ شاملہ میں موجودگی پر خلاصے کا جواب: اس کا الگ اندراج نہیں؛ فائل کے مطابق ثمانینی کی شرح شاملہ کی فہرست میں کتاب نمبر 124334 ہے {cite:mr-mas-shamela-nahw-sarf-books}۔ میوزیم نے یہ کتاب نہیں پڑھی۔"
+  fr: "al-Tasrif al-Muluki, livre sur la morphologie (sarf et tasrif) de Ibn Jinni ; sa date dans une synthèse de recherche remise au musée : m. 392 H / 1002 {cite:wikipedia-ar-ibn-jinni}. Réponse de la synthèse sur sa présence dans la bibliothèque Shamela : Pas d'entrée autonome ; le fichier donne le commentaire d'al-Thamanini sous le numéro 124334 de l'index de Shamela {cite:mr-mas-shamela-nahw-sarf-books}. Le musée n'a pas lu le livre."
+  es: "al-Tasrif al-Muluki, libro sobre morfología (sarf y tasrif) de Ibn Jinni; su fecha en un resumen de investigación entregado al museo: m. 392 H. / 1002 {cite:wikipedia-ar-ibn-jinni}. Respuesta del resumen sobre su presencia en la biblioteca Shamela: Sin entrada propia; el archivo da el comentario de al-Thamanini como libro 124334 del índice de Shamela {cite:mr-mas-shamela-nahw-sarf-books}. El museo no ha leído el libro."
+wings: [words, ideas]
+themes: [linguistics]
+tags: [arabiyya-browser, arabiyya-books]
+relations:
+  - { type: authored_by, target: person/ibn-jinni, sources: [source/wikipedia-ar-ibn-jinni] }
+  - { type: related_to, target: concept/ilm-al-sarf, sources: [source/wikipedia-ar-ibn-jinni] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md, section 3); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat. The museum has not read this book.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/wikipedia-ar-ibn-jinni, source/mr-mas-shamela-nahw-sarf-books]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

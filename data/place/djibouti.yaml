@@ -1,0 +1,33 @@
+id: place/djibouti
+class: place
+kind: region
+tags: [arabiyya-world]
+label:
+  ar: "جيبوتي"
+  en: "Djibouti"
+  ur: "جبوتی"
+  fr: "Djibouti"
+  es: "Yibuti"
+summary:
+  ar: "جمهورية جيبوتي، دولة ذات سيادة وجمهورية رئاسية موحدة، استقلت عن فرنسا في 27 يونيو 1977، عاصمتها مدينة جيبوتي، لغتاها الرسميتان العربية والفرنسية ولغتاها الوطنيتان الصومالية والعفرية."
+  en: "The Republic of Djibouti, a sovereign state and unitary presidential republic, independent from France on 27 June 1977, with Djibouti City as its capital, Arabic and French as official languages and Somali and Afar as national languages."
+  ur: "جمہوریہ جبوتی، خودمختار ریاست اور وحدانی صدارتی جمہوریہ، 27 جون 1977 کو فرانس سے آزاد، دارالحکومت جبوتی شہر، سرکاری زبانیں عربی اور فرانسیسی، قومی زبانیں صومالی اور عفر۔"
+  fr: "La République de Djibouti, État souverain et république présidentielle unitaire, indépendante de la France le 27 juin 1977, avec la ville de Djibouti pour capitale, l'arabe et le français pour langues officielles et le somali et l'afar pour langues nationales."
+  es: "La República de Yibuti, Estado soberano y república presidencial unitaria, independiente de Francia el 27 de junio de 1977, con la ciudad de Yibuti como capital, el árabe y el francés como lenguas oficiales y el somalí y el afar como lenguas nacionales."
+wings: [place]
+regions: [east-africa]
+coordinates: [11.8, 42.433333]
+coordinate_precision: approx
+coordinate_note: "Coordinate location of the state on Wikidata Q977, 11 48 0 N 42 25 59.99 E, converted to decimal degrees; taken from a research summary without opening the page, treated as approximate. The English Wikipedia article gives Djibouti City, the capital, at 11.600 N 43.167 E."
+external_ids: { wikidata: "Q977" }
+relations:
+  - { type: related_to, target: language/arabic, sources: [source/wikipedia-djibouti-en, source/wikidata-djibouti] }
+  - { type: related_to, target: language/somali, sources: [source/wikipedia-djibouti-en, source/wikidata-djibouti] }
+sources: [source/wikipedia-djibouti-en, source/wikidata-djibouti]
+provenance:
+  layer: own-research
+  source: "The facts come from a research summary of the English Wikipedia article and the Wikidata item that was supplied to the museum and approved by the founder on 21 November 2026; the museum did not open the pages and no revision id was available. Entity facts only (names, coordinates, status, dates, memberships, languages) under the Wikipedia and Wikidata rule of 26 October 2026; the revision ids and the date checked required by the authenticity ledger could not be recorded, because the pages were not opened, so they remain to be recorded when the pages are read. Wikidata item Q977, English Wikipedia article Djibouti."
+  generated_by: "Claude Code"
+  model: "claude-sonnet-5-5"
+  run: "arabiyya-browser-places"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary of Wikipedia and Wikidata that the museum did not check against the pages, approved by the founder on 21 November 2026; not read by a human; translations are machine translations by the same model" }

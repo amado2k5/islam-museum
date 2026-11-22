@@ -1,0 +1,31 @@
+id: concept/al-laqab-wal-khitab
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-scholars]
+label:
+  ar: "اللقب والخطاب"
+  en: "Laqab and khitab"
+  ur: "لقب اور خطاب"
+  fr: "Laqab et khitab"
+  es: "Laqab y khitab"
+summary:
+  ar: "اللقب اسم إضافي يرتبط بصفات الشخص أو مظهره أو إنجازه أو سمعته أو مكانته، منه ما يمدح ومنه ما يصف ومنه ما قد يسوء، وفئة منه تُصنَّف أحياناً خطاباً وهي ألقاب «الدين» و«الدولة» و«الملك»؛ وكثير من هذه الألقاب التشريفية صار أسماء عادية، كما يعرضه ملف بحثي قُدّم إلى المتحف {cite:jstor-schimmel-islamic-names} {cite:wafayat-ayan}."
+  en: "The laqab is an additional name tied to a person's qualities, appearance, accomplishments, reputation or status, some complimentary, some descriptive, some unflattering; a class of honorific is sometimes classed apart as khitab, titles ending in al-Din, al-Dawla or al-Mulk, and many of these later became ordinary names, as a research file supplied to the museum sets it out {cite:jstor-schimmel-islamic-names} {cite:wafayat-ayan}."
+  ur: "لقب ایک اضافی نام ہے جو کسی شخص کی صفات، ظاہری ہیئت، کارنامے، شہرت یا مرتبے سے وابستہ ہوتا ہے، بعض مدحیہ، بعض وصفی اور بعض ناگوار؛ ان القاب کی ایک قسم کو بعض اوقات الگ سے «خطاب» شمار کیا جاتا ہے، یعنی وہ القاب جو «الدین»، «الدولہ» یا «الملک» پر ختم ہوتے ہیں، اور ان میں سے بہت سے آگے چل کر عام نام بن گئے، جیسا کہ عجائب گھر کو پیش کی گئی ایک تحقیقی فائل بیان کرتی ہے {cite:jstor-schimmel-islamic-names} {cite:wafayat-ayan}۔"
+  fr: "Le laqab est un nom supplémentaire lié aux qualités, à l'apparence, aux accomplissements, à la réputation ou au rang d'une personne, certains élogieux, certains descriptifs, certains peu flatteurs ; une catégorie d'honorifiques est parfois classée à part sous le nom de khitab, des titres terminés par al-Din, al-Dawla ou al-Mulk, et beaucoup d'entre eux sont devenus plus tard des prénoms ordinaires, comme l'expose un dossier de recherche remis au musée {cite:jstor-schimmel-islamic-names} {cite:wafayat-ayan}."
+  es: "El laqab es un nombre adicional vinculado a las cualidades, el aspecto, los logros, la reputación o el rango de una persona, algunos elogiosos, otros descriptivos, otros poco halagadores; una clase de honorífico se clasifica a veces aparte como khitab, títulos que terminan en al-Din, al-Dawla o al-Mulk, y muchos de ellos se convirtieron después en nombres corrientes, según lo expone un expediente de investigación entregado al museo {cite:jstor-schimmel-islamic-names} {cite:wafayat-ayan}."
+wings: [words, people]
+themes: [names-and-honorifics, linguistics]
+regions: [global]
+relations:
+  - { type: related_to, target: concept/ilm-al-asma-wal-alqab, note: "The system this is part of.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: concept/laqab-fiqh, note: "The legal definition of the laqab.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: person/salah-al-din-yusuf-ibn-ayyub, note: "Salah al-Din as an honorific laqab.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: person/nur-al-din-mahmud-ibn-zangi, note: "Nur al-Din.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: person/umar-ibn-al-khattab, note: "al-Faruq.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: person/khalid-ibn-al-walid, note: "Sayf Allah.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: person/harun-al-rashid, note: "al-Rashid.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: person/al-jahiz, note: "The one with protruding eyes.", sources: [source/jstor-schimmel-islamic-names] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (classical-arabic-names.md); the museum did not open the cited pages; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-printing-names-laws-1 }
+sources: [source/jstor-schimmel-islamic-names, source/wafayat-ayan, source/brill-reference-works-home, source/bnf-kitcat-arabic-names]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

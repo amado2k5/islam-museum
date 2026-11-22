@@ -1,0 +1,32 @@
+---
+id: concept/al-arabiyya-fi-eritrea
+lang: en
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Summary
+This page sets out what a research summary supplied to the museum says about Arabic in Eritrea: its legal status, the varieties spoken and the official figures, each as the summary gives it. The constitution designates no official language, and in practice, the summary says, Arabic works as a language of work beside Tigrinya and English. The museum did not open the pages the summary names, and the founder approved using it as supplied on 21 November 2026. Where the summary says that no official source or figure was found, this page says exactly that and supplies no number of its own.
+
+## What this page is
+This page is an article on the subject "Arabic in Eritrea", in the world chapter of the Arabic browser, one of the pages that treat Arabic outside the states counted as Arab. It answers three questions: what is the legal status of Arabic there, which varieties of it are spoken, and what official figures have been published on speakers, if any. The museum keeps here to what it keeps to on all its pages: a describing voice, not a commanding one, every statement ascribed to its page, and no verdict on a disputed question. All the material comes from one research summary, so the page describes what the summary said and does not claim to have read the sources.
+
+## Background and dates
+The summary gives few dates here: the 1997 constitution, the 2017 UNICEF report on language and learning, and its statement that the country has held no official national census since independence. It does not tell when or how Arabic reached the Eritrean Red Sea coast, and the museum supplies no story of its own for that, pointing instead to [[concept/intishar-al-arabiyya-baada-al-fath|The spread of Arabic after the conquests]] for the general frame.
+
+## Legal status
+Eritrea has no constitutionally designated official language: Article 4(3) of the 1997 Constitution guarantees the equality of all Eritrean languages, according to the summary {cite:constituteproject-eritrea-1997}. In practice, the summary says, Tigrinya, Arabic and English serve as working languages de facto {cite:eritrea-embassy-switzerland-facts-and-figures} {cite:pcgn-eritrea-toponymic-factfile}, and Arabic is taught as a school subject and used as a medium of instruction in some schools {cite:unicef-eritrea-language-and-learning-2017}. This is the summary's wording; the museum did not read the constitution or the pages of the embassy, the British government and UNICEF.
+
+## Varieties spoken
+The summary names Modern Standard Arabic; Sudanese Arabic in the western lowlands and as a lingua franca; Hijazi Arabic, spoken natively by the Rashaida community on the Red Sea coast; and smaller coastal communities speaking Ta'izzi-Adeni and Hadhrami Arabic {cite:wikipedia-languages-of-eritrea} {cite:wikipedia-rashaida-people}. It notes that Dahalik is an Ethio-Semitic language rather than a variety of Arabic, though heavily influenced by it {cite:wikipedia-dahalik-language}. The names and places come from Wikipedia; the description is ascribed to the summary. For comparison see [[concept/lahjat-al-hijaz|The dialect of the Hijaz]] and [[concept/al-arabiyya-fi-sudan|Arabic in Sudan]].
+
+## Official figures
+The summary found no official government census and no UN or UNESCO count of speakers. It explains this by saying that Eritrea has not conducted an official national population census since independence {cite:wikipedia-demographics-of-eritrea}, a statement ascribed to the page as the summary relayed it. On that basis the museum gives no number for speakers of Arabic in Eritrea, estimates no share, and takes no figure from any other source that the summary did not name.
+
+## How the sources differ
+The pages named for this record are of different kinds. Official texts and statistics: Constitution of Eritrea (1997) {cite:constituteproject-eritrea-1997}; Reference, academic and press pages: Facts and figures (Eritrea) {cite:eritrea-embassy-switzerland-facts-and-figures}, Eritrea Toponymic Factfile {cite:pcgn-eritrea-toponymic-factfile} and Language and Learning in Eritrea (2017) {cite:unicef-eritrea-language-and-learning-2017}; Wikipedia pages: Languages of Eritrea {cite:wikipedia-languages-of-eritrea}, Rashaida people {cite:wikipedia-rashaida-people}, Dahalik language {cite:wikipedia-dahalik-language} and Demographics of Eritrea {cite:wikipedia-demographics-of-eritrea}. The official texts and statistics speak for the state or the statistical office; the reference, academic and press pages describe and interpret; Wikipedia supports only names, places and dates. Where the kinds differ, the museum reports each in its own voice without choosing between them, and it opened none of them.
+
+## In the wider picture
+This page belongs to the world chapter and is read with the pages on the Arab countries in it. For the wider frame see [[concept/al-alam-al-arabi|the Arab states and their League]]; for the standard and the spoken varieties see [[concept/al-fusha-wal-lahajat|Fusha and the dialects]]; and for the question whether the spoken varieties are one language or several see [[concept/tasnif-al-arabiyya-lughatan-am-lahajat|Classifying Arabic: one language or dialects]]. The place page for the country is [[place/eritrea|Eritrea]]. For the general history of the tongue see [[concept/tarikh-al-lugha-al-arabiyya|The history of the Arabic language]] and [[concept/al-arabiyya-fi-al-alam-al-yawm|Arabic in the world today]].
+
+## What this page did not reach
+The museum did not open any of the pages the summary names, constitutional texts, censuses, encyclopedia entries, articles and reports, so everything above is ascribed to the summary as it arrived, not to a reading of those pages. The museum measured no number of speakers and estimated no share. Where Wikipedia is named, it supports entity facts only, names, places and dates, and the claims it carries are ascribed to the summary, not to the museum's voice. What the summary did not find stays unfound: no official government census and no UN or UNESCO count of speakers. The museum fills this gap with no estimate and with no figure from a source that was not named. The founder approved this use on 21 November 2026, and the page carries no verdict on how Arabic ought to be classified there.

@@ -1,0 +1,31 @@
+id: concept/tasnif-al-arabiyya-lughatan-am-lahajat
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-dialects]
+label:
+  ar: "هل العربية لغة واحدة أم عدة لغات؟ تصنيف الأصناف العربية"
+  en: "Is Arabic one language or several? How the varieties are classified"
+  ur: "کیا عربی ایک زبان ہے یا کئی؟ اقسام کی درجہ بندی"
+  fr: "L'arabe est-il une langue ou plusieurs ? Le classement des variétés"
+  es: "¿Es el árabe una lengua o varias? La clasificación de las variedades"
+summary:
+  ar: "كيف تصنّف ثلاثة أنظمة العربية: مكتبة الكونغرس في ISO 639-2 لغة واحدة برمز ara، وISO 639-3 لغة كبرى تضم ثماني وعشرين لغة فردية نشطة، وإثنولوج 2026 كل صنف لغة قائمة بنفسها، مع جدول الأكواد. تنسب الصفحة كل تصنيف إلى صاحبه ولا ترجّح بينها، ومصدرها ملخص بحثي قدّمه المؤسس ووافق على استعماله في 21 نوفمبر 2026 ولم يفتح المتحف صفحاته؛ وأعداد المتكلمين غير مذكورة لأنها محجوبة في إثنولوج."
+  en: "How three systems classify Arabic: the Library of Congress in ISO 639-2 as one language with the code ara, ISO 639-3 as a macrolanguage with 28 active individual languages, and Ethnologue 2026 with each variety a language of its own, with the table of codes. The page ascribes each classification to its owner and prefers none; its source is a research summary the founder supplied and approved on 21 November 2026, whose pages the museum did not open; speaker numbers are not given because Ethnologue withholds them."
+  ur: "تین نظام عربی کو کیسے درجہ بند کرتے ہیں: لائبریری آف کانگریس ISO 639-2 میں ایک زبان `ara` کے کوڈ کے ساتھ، ISO 639-3 ایک بڑی زبان جس میں اٹھائیس فعال انفرادی زبانیں ہیں، اور ایتھنولوگ 2026 جس میں ہر قسم الگ زبان ہے، کوڈ کی فہرست کے ساتھ۔ صفحہ ہر درجہ بندی اس کے مالک کی طرف منسوب کرتا ہے اور کسی کو ترجیح نہیں دیتا؛ ماخذ بانی کا فراہم کردہ تحقیقی خلاصہ ہے جس کی منظوری 21 نومبر 2026 کو دی گئی اور جس کے صفحات عجائب گھر نے نہیں کھولے؛ بولنے والوں کے اعداد نہیں دیے گئے کیونکہ ایتھنولوگ انہیں روکتی ہے۔"
+  fr: "Comment trois systèmes classent l'arabe : la Bibliothèque du Congrès dans l'ISO 639-2 comme une langue de code ara, l'ISO 639-3 comme une macrolangue de 28 langues individuelles actives, et Ethnologue 2026 avec chaque variété comme langue à part, avec la table des codes. La page attribue chaque classement à son auteur sans en préférer aucun ; sa source est un résumé de recherche fourni par le fondateur et approuvé le 21 novembre 2026, dont le musée n'a pas ouvert les pages ; les nombres de locuteurs ne sont pas donnés car Ethnologue les réserve."
+  es: "Cómo clasifican el árabe tres sistemas: la Biblioteca del Congreso en la ISO 639-2 como una lengua de código ara, la ISO 639-3 como una macrolengua con 28 lenguas individuales activas, y Ethnologue 2026 con cada variedad como lengua propia, con la tabla de códigos. La página atribuye cada clasificación a su autor sin preferir ninguna; su fuente es un resumen de investigación entregado por el fundador y aprobado el 21 de noviembre de 2026, cuyas páginas el museo no abrió; no se dan cifras de hablantes porque Ethnologue las reserva."
+wings: [words, ideas]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: language/arabic, sources: [source/loc-iso-639-2-ara] }
+  - { type: related_to, target: concept/al-fusha-wal-lahajat, sources: [source/ethnologue-ara] }
+  - { type: related_to, target: concept/lughat-al-qabail, sources: [source/ethnologue-arabic-subgroup] }
+  - { type: related_to, target: concept/lahjat-misr, sources: [source/ethnologue-arabic-subgroup] }
+  - { type: related_to, target: concept/lahjat-al-sham, sources: [source/ethnologue-arabic-subgroup] }
+  - { type: related_to, target: concept/lahjat-al-khalij, sources: [source/ethnologue-arabic-subgroup] }
+  - { type: related_to, target: concept/lahjat-al-hijaz, sources: [source/ethnologue-arabic-subgroup] }
+  - { type: related_to, target: concept/lahjat-al-yaman, sources: [source/ethnologue-arabic-subgroup] }
+  - { type: related_to, target: concept/lahjat-al-maghrib, sources: [source/ethnologue-arabic-subgroup] }
+provenance: { layer: own-research, source: "Research file on the ISO 639-2, ISO 639-3 and Ethnologue classification of Arabic varieties supplied by the founder (compiled with Google Gemini); the museum did not open the pages; used with the founder's approval of 21 Nov 2026.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-classification-1" }
+sources: [source/loc-iso-639-2-ara, source/iso-639-3-ara, source/ethnologue-ara, source/ethnologue-arabic-subgroup]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary the museum did not verify against the pages; translations are machine translations by the same model" }

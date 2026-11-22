@@ -1,6 +1,6 @@
 # Project status and how to resume
 
-_Last updated 17 November 2026._ Read this first in a new session, then `docs/plan/00-README.md` (the plan) and `CLAUDE.md` (the rules)._
+_Last updated 21 November 2026._ Read this first in a new session, then `docs/plan/00-README.md` (the plan) and `CLAUDE.md` (the rules)._
 
 ## Reach — the Tranco ranking log
 
@@ -18,8 +18,12 @@ Tranco (tranco-list.eu) is a research ranking of popular domains, recomputed dai
 | 2026-11-15 | 1,112,567 |
 | 2026-11-16 | 1,062,888 |
 | 2026-11-17 | 993,535 |
+| 2026-11-18 | 927,168 |
+| 2026-11-19 | 887,932 |
+| 2026-11-20 | 857,945 |
+| 2026-11-21 | 716,997 |
 
-Latest, checked 17 November 2026: **#993,535** on the list dated 17 November 2026 — up 69,353 places in a day from #1,062,888 (list of 16 November), and **inside the top 1,000,000**: the milestone this log watches, reached 37 days after the museum opened on 11 October 2026, and 25 days after its first Tranco reading (#4,609,967 on the list of 23 October 2026 — a climb of 3,616,432 places). The 17 November rank was read from the published list file itself (list V38GN, the full list of 4,564,981 domains) before the API carried it.
+Latest, checked 21 November 2026: **#716,997** on the list dated 21 November 2026 — up 140,948 places in a day from #857,945 (list of 20 November), and well inside the top 1,000,000 this log watches. The museum opened on 11 October 2026; 41 days later it stands 3,892,970 places above its first Tranco reading (#4,609,967 on the list of 23 October 2026). The 21 November rank was read from the published list file itself (list 46YLX, the full list of 4,338,665 domains) before the API carried it.
 
 ## What exists
 
@@ -291,5 +295,6 @@ Devin's schema needs arrive as `docs/requests/devin-*.md`. Unresolved references
 | Sport Browser — Sports and Competitions in Islam (plan 66, `docs/plan/66-sport-browser.md`; spec `docs/engineering/58-sport-browser-requirements.md`; lane `sport`) | Built 2026: `/[lang]/sport/` trilingual page with five corpus sections, eight topic chips and the contest-ground signature view, guarded-lexicon detection in `scripts/sport.ts`, new `sport` class with 17 seeds + 5 contest events + 10 records tagged in place, athletes read from `person.sports`, `/api/v1/sport.json`, Explore menu and landing card; books fill as harvested |
 | Muslim Media-Makers Browser — «متصفح إعلاميو المسلمون» (plan 68, `docs/plan/67-i3lam-browser.md`; spec `docs/engineering/59-i3lam-browser-requirements.md`) | Built 2026: `/[lang]/i3lam/` trilingual page with the transmission-wire signature view, the 11-role media chain, the state-speaks offices, a curated Qur'an anchor set and four corpus feeds; feed grows from `mentions` edges and the `i3lam-browser` tag; 7 new `job` records with trilingual prose, 48 `occupations` links; Explore menu and landing card |
 
+- 21 November 2026: the Arabic Language Browser («متصفح اللغة العربية لغة القرآن») is built at `/{lang}/arabiyya/` — 15 Qur'an verses, 77 detected passages, 114 curated records (22 new with prose in five languages, 92 tagged in place), 42 new source records, `/api/v1/arabiyya.json`; plan `docs/plan/74-arabic-language-browser.md`, requirements `docs/engineering/66-arabic-language-browser-requirements.md`; merged, goes live at the founder's next deploy; the new prose is AI-written and not read by a human.
 - 20 November 2026: the Dictionaries Browser starts at `/{lang}/maajim/` — nine dictionary records tagged `maajim-browser`, eight TDV source records and two Bulaq 1282/1865 *al-Sihah* scan records, with `/api/v1/maajim.json`; the founder chose route A (pilot from a pre-1925 print, link out for the rest); the text of the Bulaq 1282/1865 *al-Sihah* follows as 1,228 page passages (machine reading, accuracy sample stated on every page) with 6,382 entry starts marked on 1,214 pages and a roots index; plan `docs/plan/72-dictionaries-browser.md`.
 - 17 November 2026: the Heroes of Islam explorer ships at `/{lang}/heroes/` — six virtue trails (`exhibit/hero-*`, 24 hero records, trilingual narratives) with `/api/v1/heroes.json`; plan `docs/plan/71-heroes-explorer.md`, progress `docs/delegation/heroes-progress.md`.

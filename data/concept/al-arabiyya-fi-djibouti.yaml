@@ -1,0 +1,28 @@
+id: concept/al-arabiyya-fi-djibouti
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في جيبوتي"
+  en: "Arabic in Djibouti"
+  ur: "جبوتی میں عربی"
+  fr: "L'arabe à Djibouti"
+  es: "El árabe en Yibuti"
+summary:
+  ar: "مكانة العربية في جيبوتي كما تقولها دائرة المعارف البريطانية وكتاب حقائق العالم: العربية والفرنسية لغتان رسميتان، والصومالية والعفرية لغتا أكبر جماعتين وهما كوشيتان شرقيتان لا يفهم متكلمو إحداهما الأخرى، وفي مدينة جيبوتي جالية يمنية قديمة. ولا تقول الصفحتان شيئاً عن لهجة عربية جيبوتية، وللمتحف سجل مكان لجيبوتي مرتبط بهذا السجل. وأُضيف نص الحكم الدستوري بلغته الأصلية كما ورد في ملخص بحثي لم يتحقق المتحف منه على الصفحة."
+  en: "The place of Arabic in Djibouti as the Encyclopaedia Britannica and The World Factbook state it: Arabic and French are official languages; Somali and Afar are the languages of the two largest groups, both Eastern Cushitic and not mutually intelligible; Djibouti city has a long-established Yemeni Arab community. The pages say nothing on a Djiboutian Arabic dialect, and the museum has a place record for Djibouti, linked to this record. The constitutional text is added in its original wording, as supplied in a research summary that the museum did not check against the page."
+  ur: "جبوتی میں عربی کا مقام جیسا انسائیکلوپیڈیا برٹانیکا اور ورلڈ فیکٹ بک بیان کرتی ہیں: عربی اور فرانسیسی سرکاری زبانیں ہیں؛ صومالی اور عفر دو سب سے بڑے گروہوں کی زبانیں ہیں، دونوں مشرقی کوشی اور ایک دوسرے کے لیے ناقابل فہم؛ جبوتی شہر میں یمنی عربوں کی قدیم جماعت ہے۔ دونوں صفحات کسی جبوتی عربی لہجے کے بارے میں کچھ نہیں کہتے، اور میوزیم کے پاس جبوتی کا مقام کا ریکارڈ ہے جو اس سے جڑا ہے۔ آئینی حکم کی عبارت اصل زبان میں شامل کی گئی ہے، جیسی ایک تحقیقی خلاصے میں ملی جسے متحف نے صفحے سے نہیں جانچا۔"
+  fr: "La place de l'arabe à Djibouti selon l'Encyclopaedia Britannica et The World Factbook : l'arabe et le français sont langues officielles ; le somali et l'afar sont les langues des deux plus grands groupes, tous deux couchitiques orientaux et non mutuellement intelligibles ; la ville de Djibouti compte une communauté arabe yéménite établie de longue date. Les pages ne disent rien d'un dialecte arabe djiboutien, et le musée a une fiche de lieu pour Djibouti, liée à cette fiche. Le texte constitutionnel est ajouté dans sa langue d'origine, tel que fourni par un résumé de recherche que le musée n'a pas vérifié sur la page."
+  es: "El lugar del árabe en Yibuti según la Encyclopaedia Britannica y The World Factbook: el árabe y el francés son lenguas oficiales; el somalí y el afar son las lenguas de los dos mayores grupos, ambas cusitas orientales y no mutuamente inteligibles; la ciudad de Yibuti tiene una comunidad árabe yemení establecida desde hace tiempo. Las páginas no dicen nada de un dialecto árabe yibutiano, y el museo tiene un registro de lugar para Yibuti, enlazado a este registro. Se añade el texto constitucional en su lengua original, tal como lo entrega un resumen de investigación que el museo no verificó en la página."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: language/arabic, sources: [source/britannica-djibouti] }
+  - { type: related_to, target: language/somali, sources: [source/britannica-djibouti] }
+  - { type: related_to, target: place/djibouti, sources: [source/wikipedia-djibouti-en, source/wikidata-djibouti] }
+  - { type: related_to, target: concept/al-alam-al-arabi, sources: [source/britannica-arab-league] }
+  - { type: related_to, target: concept/al-fusha-wal-lahajat, sources: [source/cia-factbook-djibouti] }
+  - { type: related_to, target: concept/lughat-al-qabail, sources: [source/britannica-djibouti] }
+provenance: { layer: own-research, source: "Britannica Djibouti and CIA World Factbook Djibouti page (archived copy), read on 21 Nov 2026. Constitutional wording and official addresses supplied by the founder in a research summary, 21 Nov 2026, used without re-checking the pages. Language-share figures supplied by the founder in a research summary, 21 Nov 2026, used without re-checking the pages.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-countries-b" }
+sources: [source/wikidata-djibouti, source/wikipedia-djibouti-en, source/alaraby-djibouti-constitution-1992, source/britannica-arab-league, source/britannica-djibouti, source/britannica-semitic-languages, source/cia-factbook-djibouti, source/instad-rgph3-tome4-socioculturelles, source/official-constitution-djibouti, source/official-constitution-djibouti-presidency]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

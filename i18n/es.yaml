@@ -1728,6 +1728,10 @@ explore:
       title: "Explorador de los califas"
       desc: "Cada califa agrupado por su califato (de los Rashidun a Sokoto), con su reinado, su cadena de sucesión, los acontecimientos de su reinado y el registro citado."
       menu: "Explorar los califas y sus reinados"
+    arabiyya:
+      title: "Navegador de la lengua árabe"
+      desc: "El árabe, lengua del Corán: las aleyas que nombran su lengua, lo que dicen de ella el hadiz, los Compañeros y los sabios, la inimitabilidad de su expresión, y su historia, escritura, gramática, dialectos, mundo, sabios y libros."
+      menu: "Recorrer el árabe, lengua del Corán"
     maajim:
       title: "Explorador de diccionarios"
       desc: "Diccionarios árabes e islámicos: quién los escribió, cuándo, a partir de qué obras anteriores, cómo están ordenados y dónde se pueden leer."
@@ -2703,6 +2707,9 @@ support:
   gofundme_title: "Campaña en GoFundMe"
   gofundme_body: "La campaña del museo en GoFundMe: da una vez, en tu propia moneda, para los costes de alojamiento y funcionamiento."
   gofundme_cta: "Donar en GoFundMe"
+  buymeacoffee_title: "Un café en Buy Me a Coffee"
+  buymeacoffee_body: "La página del museo en Buy Me a Coffee: invita a un café con una pequeña donación única, en dólares canadienses, para los costes de alojamiento y funcionamiento."
+  buymeacoffee_cta: "Invitar a un café"
   other_title: "Otras formas de ayudar"
   other_body: "Si una membresía mensual no te conviene, puedes aportar código, revisiones o traducciones, o compartir el museo con las personas que conoces."
   contribute: "Contribuir en GitHub"
@@ -3528,6 +3535,80 @@ khutab:
     nikah: "Sermón de matrimonio"
     farewell: "Sermón de despedida"
     other: "Sermón"
+arabiyya:
+  title: "Navegador de la lengua árabe: la lengua del Corán"
+  lede: "El árabe tal como lo nombra el Corán y como lo describen las fuentes: las aleyas en que el Corán habla de su propia lengua, los relatos transmitidos del Profeta, de los Compañeros y de los Sucesores, las historias de quienes lo oyeron, el debate sobre su inimitabilidad, y la historia, la escritura, las ciencias, los dialectos, el mundo, los sabios y los libros del árabe."
+  badge: "Explorador de la lengua árabe"
+  status: "Esta versión contiene {v} aleyas en que el Corán habla de su lengua, {p} pasajes del hadiz, la sira, el tafsir y los libros cosechados que hablan del árabe, y {r} fichas redactadas. Los pasajes se localizan por sus palabras, de modo que algunos solo mencionan el árabe de paso; cada uno se abre en su página con su fuente."
+  method_title: "El método del navegador"
+  method_note: "Nada aquí se guarda en una lista aparte. Los pasajes se localizan al construir el sitio, comparando las palabras de cada ficha de texto del grafo del museo: un libro cosechado más tarde añade sus pasajes el día en que llega. Las fichas redactadas son fichas ordinarias del museo, etiquetadas arabiyya-browser y arabiyya-<section>. El texto de las aleyas procede únicamente de los archivos Tanzil congelados. Donde los sabios discrepan, la ficha da cada opinión con su nombre y no emite veredicto."
+  api: "El conjunto de datos completo está en"
+  contents_title: "En esta página"
+  empty: "Todavía no hay fichas en esta versión."
+  passages_title: "Lo que dicen las fuentes sobre el árabe"
+  passages_note: "Pasajes de los textos cosechados por el museo cuyas palabras hablan de la lengua árabe: la lengua de Quraysh, el habla de los árabes, el aprendizaje del árabe, la gramática y sus fundadores, los errores de lengua y la inimitabilidad del Corán. El extracto es el comienzo del pasaje tal como figura en la fuente; un texto leído por máquina a partir de una imagen puede contener errores de lectura."
+  kin_title: "Salas vecinas"
+  corpora:
+    quran:
+      title: "El Corán habla de su lengua"
+      desc: "Cada aleya del texto congelado que dice que la revelación es árabe, que vino en la lengua de su pueblo, o que contrapone el árabe a una lengua extranjera. Abra una aleya para ver su página, sus traducciones y su comentario."
+    sunnah:
+      title: "En el hadiz y los relatos"
+      desc: "Relatos de las colecciones de hadiz que hablan de la lengua árabe, de la lengua de Quraysh o de la escritura del Corán en ella."
+    seerah:
+      title: "En la sira"
+      desc: "Pasajes de los libros de la vida del Profeta que hablan de la lengua."
+    tafsir:
+      title: "En los comentarios"
+      desc: "Pasajes de los comentarios del Corán que tratan del árabe del Corán."
+    books:
+      title: "En los demás libros cosechados"
+      desc: "Historia, biografías, derecho, ciencias del Corán y letras: allí donde un libro cosechado habla del árabe."
+  sections:
+    lisan:
+      title: "El árabe, lengua del Corán"
+      desc: "Por qué la revelación está en árabe según los comentaristas, la lengua de Quraysh, los siete ahruf, y lo que dijeron las primeras generaciones sobre aprender árabe."
+    ijaz:
+      title: "La lengua inimitable del Corán"
+      desc: "El desafío que planteó el Corán, quienes lo oyeron y lo que dijeron, y cómo explicaron los sabios su inimitabilidad: opiniones, ejemplos y relatos, cada uno con su fuente."
+    origins:
+      title: "Orígenes e historia"
+      desc: "De dónde viene el árabe, su lugar entre las lenguas semíticas, los árabes antes del islam, y cómo la lengua pasó de Arabia al mundo."
+    script:
+      title: "Letras y escritura"
+      desc: "El alfabeto, la puntuación y vocalización del mushaf, y el arte de escribir el árabe."
+    sciences:
+      title: "Las ciencias del árabe"
+      desc: "Gramática, morfología, retórica, métrica, lexicografía y teoría de la lengua, y cómo nació cada una."
+    dialects:
+      title: "Dialectos antiguos y modernos"
+      desc: "Las hablas de las tribus en la época de la revelación, y los árabes hablados de hoy junto a la lengua escrita."
+    world:
+      title: "El árabe en el mundo"
+      desc: "Dónde se habla árabe, los países árabes, el árabe entre las lenguas del mundo musulmán, y lo que dio a otras lenguas y tomó de ellas."
+    scholars:
+      title: "Los sabios de la lengua"
+      desc: "Los gramáticos, lexicógrafos y retóricos que describieron el árabe."
+    books:
+      title: "Los libros de la lengua"
+      desc: "Las obras fundacionales de la gramática, la retórica, la teoría de la lengua y el vocabulario del Corán. Los diccionarios tienen su propio navegador."
+  viz:
+    title: "El anillo de las letras"
+    note: "Las letras del árabe en el orden que les dio al-Jalil ibn Ahmad en el Kitab al-Ayn, el primer diccionario árabe: no alif, ba, ta, sino según el lugar donde se forma cada sonido, desde el fondo de la garganta hasta los labios. Cada arco de color es un punto de articulación."
+    aria: "Un anillo de las letras árabes en el orden de al-Jalil, agrupadas por punto de articulación, con las cifras de esta versión en el centro"
+    verses: "aleyas nombran la lengua del Corán"
+    others: "pasajes sobre el árabe · fichas redactadas"
+    source: "El orden es el transmitido de al-Jalil en el Kitab al-Ayn; las fichas del museo:"
+    groups:
+      halq: "Garganta"
+      lahat: "Úvula"
+      shajr: "Lado de la boca"
+      asala: "Punta de la lengua"
+      nat: "Parte anterior del paladar"
+      litha: "Encías"
+      dhalq: "Borde de la lengua"
+      shafa: "Labios"
+      jawf: "Boca abierta y hamza"
 maajim:
   title: "Explorador de diccionarios"
   lede: "Los grandes diccionarios de la lengua árabe y de las ciencias islámicas: quién escribió cada uno, cuándo, a partir de qué obras anteriores, cómo está ordenado y dónde se puede leer."
@@ -6250,6 +6331,21 @@ jobs:
     hint: "Pasa el cursor, enfoca o toca un recuadro para leerlo aquí."
     open: "Abrir el oficio"
     outline_title: "La misma calle como lista"
+name_card:
+  heading: "El nombre, elemento por elemento"
+  shuhra: "Conocido como"
+  ism: "Nombre de pila (ism)"
+  kunya: "Nombre parental (kunya)"
+  nasab: "Ascendencia (nasab)"
+  laqab: "Epíteto (laqab)"
+  khitab: "Título honorífico (khitab)"
+  nisba: "Filiación (nisba)"
+  ancestral: "Nombre tomado de un antepasado"
+  variants: "Formas variantes del nombre completo"
+  spellings: "Grafías"
+  disputed: "discutido"
+  uncertain: "incierto"
+  link_note: "Un enlace en un nombre muestra una asociación con ese registro. No dice que la persona naciera allí ni que descienda de él."
 career:
   heading: "Carrera"
   no_dates: "Estos cargos no tienen fechas registradas, por lo que se listan aquí con palabras."

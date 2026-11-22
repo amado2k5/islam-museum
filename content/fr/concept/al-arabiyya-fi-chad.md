@@ -1,0 +1,32 @@
+---
+id: concept/al-arabiyya-fi-chad
+lang: fr
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Résumé
+Cette page expose ce que dit un résumé de recherche remis au musée sur l'arabe au Tchad : son statut juridique, les variétés parlées et les chiffres officiels, chacun tel que le résumé le donne. Le tableau est surtout juridique : l'arabe et le français sont les deux langues officielles, et aucun décompte officiel de locuteurs n'a été trouvé. Le musée n'a pas ouvert les pages que nomme le résumé, et le fondateur a approuvé l'usage du résumé tel que fourni le 21 novembre 2026. Là où le résumé dit qu'aucune source officielle ni aucun chiffre n'a été trouvé, cette page dit exactement cela et ne fournit aucun nombre de son cru.
+
+## Ce qu'est cette page
+Cette page est un article sur le sujet « l'arabe au Tchad », dans le chapitre du monde du navigateur de l'arabe, l'une des pages qui traitent de l'arabe hors des États comptés comme arabes. Elle répond à trois questions : quel est le statut juridique de l'arabe là-bas, quelles variétés en sont parlées, et quels chiffres officiels ont été publiés sur les locuteurs, s'il y en a. Le musée s'y tient à ce qu'il observe sur toutes ses pages : une voix qui décrit et non qui commande, chaque énoncé attribué à sa page, et aucun verdict sur une question disputée. Toute la matière vient d'un seul résumé de recherche ; la page décrit donc ce que le résumé a dit et ne prétend pas avoir lu les sources.
+
+## Contexte et dates
+Le résumé ne donne aucune histoire de l'arabe au Tchad en dehors des dates des deux documents sur lesquels il s'appuie : le recensement de 2009 (RGPH2) et la constitution de 2023 dans sa version consolidée d'octobre 2025. La page lit donc une situation juridique en vigueur plutôt qu'un parcours historique, et le musée n'attribue au résumé aucun récit qu'il n'a pas fait de l'arrivée de l'arabe au Tchad ; ce récit est laissé aux pages historiques du navigateur de l'arabe, la première étant [[concept/intishar-al-arabiyya-baada-al-fath|La diffusion de l'arabe après les conquêtes]].
+
+## Statut juridique
+L'article 10 de la Constitution du Tchad de 2023, dans sa version consolidée d'octobre 2025, fait du français et de l'arabe les deux langues officielles et confie la promotion des langues nationales à la loi nationale, selon le résumé de recherche {cite:constitution-chad-2023-mjp}. Le résumé ajoute qu'en pratique l'arabe standard moderne ou classique est la langue écrite co-officielle de la législation et de l'administration, tandis que l'arabe tchadien est une langue véhiculaire parlée entre les communautés {cite:cefan-tchad}. C'est ce que dit le résumé, attribué à ses deux pages ; le musée n'a pas lu l'article lui-même et ne juge pas la description de la pratique.
+
+## Variétés parlées
+Le résumé nomme deux sortes qui s'opposent : l'arabe standard moderne ou classique, et l'arabe tchadien, appelé aussi arabe shuwa ou arabe soudanique occidental, qui comprend des variétés urbaines et l'arabe bagirmi et montre l'influence de l'arabe soudanais et de l'arabe libyen {cite:wikipedia-chadian-arabic} {cite:cefan-tchad}. Wikipédia ne sert ici que pour les noms et les lieux ; la description de l'influence et de la fonction est attribuée au résumé. Pour comparer avec le voisin de l'est voir [[concept/al-arabiyya-fi-sudan|L'arabe au Soudan]], et avec celui du nord [[concept/al-arabiyya-fi-libya|L'arabe en Libye]].
+
+## Chiffres officiels
+Le résumé n'a trouvé ni recensement officiel du gouvernement ni décompte de locuteurs de l'ONU ou de l'UNESCO, et le dit. Ce qu'il a trouvé, c'est le recensement de 2009, le RGPH2 de l'INSEED, qui donne des parts d'alphabétisation parmi les adultes lettrés de 15 ans et plus, et non des nombres de locuteurs : 10,3 % lettrés en arabe seul et 2,1 % en français et en arabe. {cite:inseed-rgph2-2009-global-indicators} Ce sont des parts d'alphabétisation, non des décomptes de locuteurs, et le musée ne les convertit pas en nombre et n'en infère rien.
+
+## En quoi les sources diffèrent
+Les pages nommées pour cette notice sont de natures différentes. Textes officiels et statistiques : 2023 Constitution of Chad (consolidated Oct. 2025) {cite:constitution-chad-2023-mjp} et INSEED RGPH2 Global Indicators (2009 census) {cite:inseed-rgph2-2009-global-indicators} ; Pages de référence, académiques et de presse : CEFAN / Université Laval page on Chad {cite:cefan-tchad} ; Pages Wikipédia : Chadian Arabic {cite:wikipedia-chadian-arabic}. Les textes officiels et les statistiques parlent au nom de l'État ou de l'office statistique ; les pages de référence, académiques et de presse décrivent et interprètent ; Wikipédia ne soutient que les noms, les lieux et les dates. Là où les natures diffèrent, le musée rapporte chacune avec sa propre voix sans trancher, et n'en a ouvert aucune.
+
+## Dans un cadre plus large
+Cette page relève du chapitre du monde et se lit avec les pages sur les pays arabes qu'il contient. Pour le cadre général voir [[concept/al-alam-al-arabi|Les États arabes et leur Ligue]] ; pour le standard et les parlers voir [[concept/al-fusha-wal-lahajat|Fusha et dialectes]] ; et pour la question de savoir si les parlers sont une langue ou plusieurs voir [[concept/tasnif-al-arabiyya-lughatan-am-lahajat|Classer l'arabe : langue ou dialectes]]. La page du lieu est [[place/chad|Tchad]]. Pour l'histoire générale de la langue voir [[concept/tarikh-al-lugha-al-arabiyya|L'histoire de la langue arabe]] et [[concept/al-arabiyya-fi-al-alam-al-yawm|L'arabe dans le monde aujourd'hui]].
+
+## Ce que cette page n'a pas atteint
+Le musée n'a ouvert aucune des pages que nomme le résumé, textes constitutionnels, recensements, notices d'encyclopédie, articles et rapports ; tout ce qui précède est donc attribué au résumé tel qu'il est arrivé, et non à une lecture de ces pages. Le musée n'a mesuré aucun nombre de locuteurs et n'a estimé aucune part. Là où Wikipédia est nommé, il ne soutient que des faits d'entité, noms, lieux et dates, et les affirmations qu'il porte sont attribuées au résumé et non à la voix du musée. Ce que le résumé n'a pas trouvé reste introuvé : ni recensement officiel du gouvernement ni décompte de locuteurs de l'ONU ou de l'UNESCO. Le musée ne comble pas ce vide par une estimation ni par un chiffre d'une source non nommée. Le fondateur a approuvé cet usage le 21 novembre 2026, et la page ne porte aucun verdict sur la manière de classer l'arabe là-bas.

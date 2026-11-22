@@ -1,0 +1,30 @@
+id: concept/huruf-al-arabiyya-wa-makharijuha
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-script]
+label:
+  ar: "حروف العربية ومخارجها"
+  en: "The letters of Arabic and where they are made"
+  ur: "عربی کے حروف اور ان کے مخارج"
+  fr: "Les lettres de l'arabe et leurs points d'articulation"
+  es: "Las letras del árabe y dónde se producen"
+summary:
+  ar: "ما يرويه كتاب العين المنسوب إلى الخليل بن أحمد عن تسعة وعشرين حرفاً في العربية، منها خمسة وعشرون صحيحاً وأربعة جوف، وترتيب الحروف بحسب مواضعها من الحلق إلى الشفتين، يقابله ما تقوله دائرة المعارف البريطانية عن ثمانية وعشرين حرفاً تُكتب من اليمين إلى اليسار، وعن نسب الأبجدية إلى النبطية، وعن الكوفي والنسخ والخطوط اللاحقة واللغات التي تبنّت الأبجدية."
+  en: "What the Kitab al-Ayn, attributed to al-Khalil ibn Ahmad, says of twenty-nine letters in Arabic, twenty-five of them sound and four hollow, and their order by place from the throat to the lips, set beside what the Encyclopaedia Britannica says of twenty-eight letters written from right to left, the script's descent from the Nabataean, Kufic and Naskh and the later hands, and the languages that took the script over."
+  ur: "کتاب العین، جو خلیل بن احمد سے منسوب ہے، عربی کے انتیس حروف کے بارے میں کیا کہتی ہے، جن میں پچیس صحیح اور چار جوف ہیں، اور حلق سے ہونٹوں تک مقام کے لحاظ سے ان کی ترتیب؛ اور اس کے ساتھ انسائیکلوپیڈیا برٹانیکا کا بیان کہ حروف اٹھائیس ہیں جو دائیں سے بائیں لکھے جاتے ہیں، ابجد کا نبطی سے نسب، کوفی اور نسخ اور بعد کے خط، اور وہ زبانیں جنھوں نے یہ رسم الخط اپنایا۔"
+  fr: "Ce que dit le Kitab al-Ayn, attribué à al-Khalil ibn Ahmad, de vingt-neuf lettres en arabe, dont vingt-cinq saines et quatre creuses, et de leur ordre par lieu, de la gorge aux lèvres, mis en regard de ce que dit l'Encyclopaedia Britannica de vingt-huit lettres écrites de droite à gauche, de la descendance de l'écriture depuis le nabatéen, du coufique et du naskh et des styles ultérieurs, et des langues qui ont repris l'écriture."
+  es: "Lo que dice el Kitab al-Ayn, atribuido a al-Khalil ibn Ahmad, de veintinueve letras en árabe, veinticinco sanas y cuatro huecas, y su orden por lugar, de la garganta a los labios, junto a lo que dice la Encyclopaedia Britannica de veintiocho letras escritas de derecha a izquierda, la descendencia de la escritura del nabateo, el cúfico y el naskh y los estilos posteriores, y las lenguas que adoptaron la escritura."
+wings: [words, ideas]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: work/kitab-al-ayn, sources: [source/kitab-al-ayn-makhzumi] }
+  - { type: related_to, target: person/al-khalil-ibn-ahmad-al-farahidi, sources: [source/kitab-al-ayn-makhzumi] }
+  - { type: related_to, target: concept/khatt-al-arabi, sources: [source/britannica-arabic-alphabet] }
+  - { type: related_to, target: concept/kufic-script, sources: [source/britannica-arabic-alphabet] }
+  - { type: related_to, target: concept/naskh-script, sources: [source/britannica-arabic-alphabet] }
+  - { type: related_to, target: concept/thuluth-script, sources: [source/britannica-arabic-alphabet] }
+  - { type: related_to, target: concept/maghribi-script, sources: [source/britannica-arabic-alphabet] }
+  - { type: related_to, target: concept/naqt-al-ijam, sources: [source/britannica-arabic-alphabet] }
+provenance: { layer: own-research, source: "Kitab al-Ayn (attributed to al-Khalil), vol. 1 p.49, 57-58; Ibn Khallikan, Wafayat al-A'yan vol. 2 p.246; Britannica, Arabic alphabet (revised 24 Sept 2026), read on 21 Nov 2026.", generated_by: "Claude Code", model: "claude-fable-5-2", run: "arabiyya-browser-1" }
+sources: [source/kitab-al-ayn-makhzumi, source/wafayat-ihsan-abbas, source/britannica-arabic-alphabet]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-fable-5-2); written from the cited sources, not read by a human; translations are machine translations by the same model" }

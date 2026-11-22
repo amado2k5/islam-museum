@@ -1,0 +1,20 @@
+id: person/ibrahim-anis
+class: person
+label: { ar: "إبراهيم أنيس", en: "Ibrahim Anis", ur: "إبراهيم أنيس", fr: "Ibrahim Anis", es: "Ibrahim Anis" }
+roles: [scholar, writer]
+gender: male
+tags: [arabiyya-browser, arabiyya-scholars]
+summary:
+  ar: "إبراهيم أنيس، مؤلف «موسيقى الشعر»؛ ويورد ملخص بحثي قُدّم إلى المتحف تاريخ وفاته هكذا: ت 1977م {cite:archive-org-musiqa-al-shir}."
+  en: "Ibrahim Anis, author of \"Musiqa al-Shir\"; a research summary supplied to the museum gives his date as d. 1977 CE {cite:archive-org-musiqa-al-shir}."
+  ur: "إبراهيم أنيس، «موسيقى الشعر» کے مصنف؛ میوزیم کو دیا گیا ایک تحقیقی خلاصہ ان کی تاریخ یوں دیتا ہے: وفات 1977ء {cite:archive-org-musiqa-al-shir}۔"
+  fr: "Ibrahim Anis, auteur de « Musiqa al-Shir » ; une synthèse de recherche remise au musée donne sa date ainsi : m. 1977 {cite:archive-org-musiqa-al-shir}."
+  es: "Ibrahim Anis, autor de «Musiqa al-Shir»; un resumen de investigación entregado al museo da su fecha así: m. 1977 {cite:archive-org-musiqa-al-shir}."
+wings: [people]
+themes: [linguistics]
+died: { edtf: "1977", calendar: gregorian, precision: year, status: tradition, derived: true, note: "Date from a research summary supplied to the museum, pages not opened (founder approval 21 Nov 2026) {cite:archive-org-musiqa-al-shir}." }
+relations:
+  - { type: authored, target: work/musiqa-al-shir, sources: [source/archive-org-musiqa-al-shir] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/archive-org-musiqa-al-shir]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

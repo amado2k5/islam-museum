@@ -1,0 +1,30 @@
+id: concept/ilm-al-bayan
+class: concept
+kind: discipline
+tags: [arabiyya-browser, arabiyya-sciences]
+label:
+  ar: "علم البيان"
+  en: "The science of bayan"
+  ur: "علمِ بیان"
+  fr: "La science du bayan"
+  es: "La ciencia del bayan"
+summary:
+  ar: "تعريف علم البيان عند السكاكي والقزويني وابن خلدون، وسبب انحصاره عند السكاكي في الدلالات العقلية، وأقسام التشبيه عنده، وأربعة أمثلة قرآنية عدّها ابن المعتز استعارات، الزخرف 4 والإسراء 24 ومريم 4 ويس 37، مع ما قاله القرطبي والبغوي وابن كثير عند الآيات."
+  en: "The definition of bayan in al-Sakkaki, al-Qazwini and Ibn Khaldun, al-Sakkaki's reason for confining it to intellectual indications, his kinds of simile, and four Qur'anic examples that Ibn al-Mu'tazz counted as metaphors, al-Zukhruf 4, al-Isra' 24, Maryam 4 and Ya Sin 37, with what al-Qurtubi, al-Baghawi and Ibn Kathir say at the verses."
+  ur: "بیان کی تعریف سکاکی، قزوینی اور ابن خلدون کے ہاں، سکاکی کی وہ وجہ کہ یہ علم عقلی دلالتوں تک کیوں محدود ہے، ان کی تشبیہ کی اقسام، اور چار قرآنی مثالیں جنہیں ابن المعتز نے استعارات شمار کیا، الزخرف 4، الاسراء 24، مریم 4 اور یس 37، ان آیات پر قرطبی، بغوی اور ابن کثیر کے کہے ہوئے کے ساتھ۔"
+  fr: "La définition du bayan chez al-Sakkaki, al-Qazwini et Ibn Khaldun, la raison pour laquelle al-Sakkaki le limite aux indications intellectuelles, ses sortes de comparaison, et quatre exemples coraniques qu'Ibn al-Mu'tazz comptait comme des métaphores, al-Zukhruf 4, al-Isra' 24, Maryam 4 et Ya Sin 37, avec ce que disent al-Qurtubi, al-Baghawi et Ibn Kathir à ces versets."
+  es: "La definición del bayan en al-Sakkaki, al-Qazwini e Ibn Jaldún, la razón por la que al-Sakkaki lo limita a las indicaciones intelectuales, sus clases de comparación, y cuatro ejemplos coránicos que Ibn al-Mu'tazz contaba como metáforas, al-Zukhruf 4, al-Isra' 24, Maryam 4 y Ya Sin 37, con lo que dicen al-Qurtubi, al-Baghawi e Ibn Kathir en esos versículos."
+wings: [words, ideas]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: concept/ilm-al-balagha, sources: [source/idah-khafaji-dar-al-jil] }
+  - { type: related_to, target: concept/ilm-al-maani, sources: [source/idah-khafaji-dar-al-jil] }
+  - { type: related_to, target: concept/ilm-al-badi, sources: [source/badi-ibn-al-mutazz-dar-al-jil-1990] }
+  - { type: related_to, target: concept/al-ijaz-al-bayani-inda-al-mufassirin, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+  - { type: related_to, target: work/asrar-al-balagha, sources: [source/idah-khafaji-dar-al-jil] }
+  - { type: related_to, target: person/al-sakkaki, sources: [source/miftah-al-ulum-zarzur-1987] }
+  - { type: related_to, target: person/ibn-al-mutazz, sources: [source/badi-ibn-al-mutazz-dar-al-jil-1990] }
+  - { type: related_to, target: person/abd-al-qahir-al-jurjani, sources: [source/idah-khafaji-dar-al-jil] }
+provenance: { layer: own-research, source: "Miftah al-Ulum pp.162, 329-330, 334-337; al-Idah (Qazwini, ed. Khafaji) vol. 1 pp.7, 50; Tarikh Ibn Khaldun vol. 1 pp.760-761; al-Badi' (Ibn al-Mu'tazz) pp.75-77; Quran.com tafsir API, resources 90, 94, 14 for verses 17:24, 19:4, 36:37, 43:4, read on 21 Nov 2026.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-concepts-1" }
+sources: [source/miftah-al-ulum-zarzur-1987, source/idah-khafaji-dar-al-jil, source/tarikh-ibn-khaldun-shahada-1981, source/badi-ibn-al-mutazz-dar-al-jil-1990, source/tafsir-qurtubi-quran-com, source/tafsir-baghawi-quran-com, source/tafsir-ibn-kathir-quran-com]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

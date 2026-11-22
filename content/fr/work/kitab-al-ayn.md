@@ -20,3 +20,9 @@ Ibn Duraid a rapporté que le livre parvint à Bassora en l'an 208 de l'Hégire,
 
 ## Le point de vue d'Ahmad Amin
 Ahmad Amin affirme que les érudits s'accordent presque tous à dire que l'idée de collecter la langue de cette manière revient à al-Khalil, même s'ils divergent quant à savoir s'il en a écrit la totalité ou seulement une partie. {cite:duha-islam p.595}
+
+## Place dans le corpus
+
+Kitab al-Ayn figure dans un résumé de recherche remis au musée : une liste de soixante des ouvrages les plus cités sur la langue arabe, douze dans chacune de ses cinq sciences, où il se trouve dans la section « Dictionnaires ». Le résumé attribue l'ouvrage à [[person/al-khalil-ibn-ahmad-al-farahidi|Al-Khalil ibn Ahmad al-Farahidi]] et en donne la date ainsi : VIIIe siècle; mort de l'auteur 786 ou 791 ap. J.-C. / 170 ou 175 de l'Hégire. Il nomme la page de Wikipédia anglaise « Kitab al-'Ayn » comme la page qui documente l'ouvrage {cite:wikipedia-kitab-al-ayn-en}. Sur sa présence dans la bibliothèque Shamela, le résumé dit : Oui, elle figure dans la bibliothèque Shamela comme livre 1682, avec un lien vers la page 48 {cite:shamela-kitab-al-ayn}.
+
+Le musée a pris ces éléments du résumé tels quels. Le fondateur a approuvé l'usage du résumé sans nouvelle vérification le 21 novembre 2026, et le musée n'a pas ouvert les pages qu'il nomme. Le musée a lu un exposé sur le livre dans le Duha al-Islam d'Ahmad Amin, comme l'indique sa notice, et n'a pas lu le livre lui-même. Cette notice ne dit donc rien du contenu du livre, de ses chapitres, de ses éditions ou de ses commentaires, au-delà de ce que citent les autres sections de cette page. Le numéro du livre dans Shamela n'est qu'un repère bibliographique ; aucun texte n'en a été copié.

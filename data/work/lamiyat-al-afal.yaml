@@ -1,0 +1,24 @@
+id: work/lamiyat-al-afal
+class: work
+kind: book
+label:
+  ar: "لامية الأفعال"
+  en: "Lamiyat al-Afal (Ibn Malik)"
+  ur: "لامية الأفعال"
+  fr: "Lamiyat al-Afal (Ibn Malik)"
+  es: "Lamiyat al-Afal (Ibn Malik)"
+summary:
+  ar: "لامية الأفعال، كتاب في الصرف والتصريف لمؤلفه ابن مالك، وتاريخه بحسب ملخص بحثي قُدّم إلى المتحف: ت 672هـ / 1274م {cite:qaf-lamiyat-al-afal}. وجواب الملخص عن وجوده في المكتبة الشاملة: نعم، مع شروحها، ومنها فتح الأقفال برقم 133416 في الشاملة بحسب الملف {cite:shamela-ws-book-133416}. لم يقرأ المتحف الكتاب."
+  en: "Lamiyat al-Afal, a book on morphology (sarf and tasrif) by Ibn Malik; its date in a research summary supplied to the museum is d. 672 AH / 1274 CE {cite:qaf-lamiyat-al-afal}. The summary's answer on its presence in the Shamela library: Yes, with commentaries, for example Fath al-Aqfal, Book ID 133416, according to the file {cite:shamela-ws-book-133416}. The museum has not read the book."
+  ur: "لامية الأفعال، صرف و تصریف پر ایک کتاب، مصنف ابن مالك؛ میوزیم کو دیے گئے تحقیقی خلاصے میں اس کی تاریخ: وفات 672ھ / 1274ء {cite:qaf-lamiyat-al-afal}۔ شاملہ میں موجودگی پر خلاصے کا جواب: جی ہاں، شروح کے ساتھ، مثلاً فتح الاقفال کتاب نمبر 133416، فائل کے مطابق {cite:shamela-ws-book-133416}۔ میوزیم نے یہ کتاب نہیں پڑھی۔"
+  fr: "Lamiyat al-Afal, livre sur la morphologie (sarf et tasrif) de Ibn Malik ; sa date dans une synthèse de recherche remise au musée : m. 672 H / 1274 {cite:qaf-lamiyat-al-afal}. Réponse de la synthèse sur sa présence dans la bibliothèque Shamela : Oui, avec des commentaires, par exemple Fath al-Aqfal, numéro 133416, selon le fichier {cite:shamela-ws-book-133416}. Le musée n'a pas lu le livre."
+  es: "Lamiyat al-Afal, libro sobre morfología (sarf y tasrif) de Ibn Malik; su fecha en un resumen de investigación entregado al museo: m. 672 H. / 1274 {cite:qaf-lamiyat-al-afal}. Respuesta del resumen sobre su presencia en la biblioteca Shamela: Sí, con comentarios, por ejemplo Fath al-Aqfal, libro 133416, según el archivo {cite:shamela-ws-book-133416}. El museo no ha leído el libro."
+wings: [words, ideas]
+themes: [linguistics]
+tags: [arabiyya-browser, arabiyya-books]
+relations:
+  - { type: authored_by, target: person/ibn-malik-al-jayyani, sources: [source/qaf-lamiyat-al-afal] }
+  - { type: related_to, target: concept/ilm-al-sarf, sources: [source/qaf-lamiyat-al-afal] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md, section 3); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat. The museum has not read this book.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/qaf-lamiyat-al-afal, source/shamela-ws-book-133416]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

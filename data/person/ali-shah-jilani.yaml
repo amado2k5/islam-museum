@@ -1,0 +1,31 @@
+id: person/ali-shah-jilani
+class: person
+label:
+  ar: "علي شاه الجيلاني"
+  en: "Ali Shah al-Jilani"
+  ur: "علی شاہ جیلانی"
+  fr: "Ali Shah al-Jilani"
+  es: "Ali Shah al-Jilani"
+names:
+  - { value: "Ali Shah al-Jilani", kind: full }
+gender: male
+summary:
+  ar: "تاجر في شبابه للأحجار الكريمة والنسيج، عرّفه تجارته بشخصيات مهمة، ثم قدّمه أولجايتو فأُعجب بنشاطه، وعيّنه مديراً لمصنع النسيج في بغداد وأنتج نسيجاً بديعاً {cite:jami-al-tawarikh-khashshab-1960 p. 54}. وصار بعد ذلك مقرّباً من السلطان، وأنشأ في السلطانية عمائر أجمل مما كان فيها، ثم اختير ليحل محل سعد الدين الساوجي في الوزارة {cite:jami-al-tawarikh-khashshab-1960 p. 55}. طلب رشيد الدين من السلطان أن يجعله زميلاً له في الوزارة {cite:jami-al-tawarikh-khashshab-1960 p. 56}."
+  en: "In his youth a dealer in precious stones and textiles, whose trade gave him contacts among important people; Oljeitu took to his energy and made him director of the textile workshop at Baghdad, where he produced fine cloth {cite:jami-al-tawarikh-khashshab-1960 p. 54}. He rose in the sultan's favour and was chosen to replace Sa'd al-Din al-Sawaji in the vizierate {cite:jami-al-tawarikh-khashshab-1960 p. 55}. The introduction reports that Rashid al-Din himself asked the sultan to make Ali Shah his colleague {cite:jami-al-tawarikh-khashshab-1960 p. 56}."
+  es: "En su juventud comerciante de piedras preciosas y tejidos, cuyo oficio le dio contactos con personas importantes; Oljeitu se fijó en su energía y lo nombró director del taller de tejidos de Bagdad, donde produjo telas admirables {cite:jami-al-tawarikh-khashshab-1960 p. 54}. Ganó el favor del sultán y fue elegido para reemplazar a Sa'd al-Din al-Sawaji en el visirato {cite:jami-al-tawarikh-khashshab-1960 p. 55}. La introducción recoge que el propio Rashid al-Din pidió al sultán que lo hiciera su colega {cite:jami-al-tawarikh-khashshab-1960 p. 56}."
+  fr: "Dans sa jeunesse marchand de pierres précieuses et de tissus, dont le commerce lui donna des relations avec des personnages importants ; Oljeitu, frappé par son énergie, le nomma directeur de l'atelier de textiles de Bagdad, où il produisit des étoffes remarquables {cite:jami-al-tawarikh-khashshab-1960 p. 54}. Il gagna la faveur du sultan et fut choisi pour remplacer Sa'd al-Din al-Sawaji dans le vizirat {cite:jami-al-tawarikh-khashshab-1960 p. 55}. L'introduction rapporte que Rashid al-Din lui-même demanda au sultan d'en faire son collègue {cite:jami-al-tawarikh-khashshab-1960 p. 56}."
+  ur: "جوانی میں قیمتی پتھروں اور کپڑے کے تاجر، جس کے کاروبار نے انہیں اہم شخصیات سے ملوایا؛ اولجایتو ان کی سرگرمی سے متاثر ہوئے اور انہیں بغداد کے کپڑے کے کارخانے کا ناظم بنایا، جہاں انہوں نے عمدہ کپڑا تیار کیا {cite:jami-al-tawarikh-khashshab-1960 p. 54}۔ وہ سلطان کی نظرِ عنایت میں بڑھے اور سعد الدین ساوجی کی جگہ وزارت کے لیے منتخب ہوئے {cite:jami-al-tawarikh-khashshab-1960 p. 55}۔ مقدمے کے مطابق خود رشید الدین نے سلطان سے درخواست کی کہ انہیں ان کا ساتھی بنایا جائے {cite:jami-al-tawarikh-khashshab-1960 p. 56}۔"
+roles: [vizier, merchant]
+regions: [persia-central-asia]
+wings: [people]
+relations:
+  - { type: successor_of, target: person/sad-al-din-sawaji, sources: [source/jami-al-tawarikh-khashshab-1960] }
+  - { type: lived_in, target: place/baghdad, note: "Textile workshop at Baghdad, scan page 54.", sources: [source/jami-al-tawarikh-khashshab-1960] }
+sources: [source/jami-al-tawarikh-khashshab-1960]
+provenance:
+  layer: own-research
+  source: "Scan pages 54 to 56 of source/jami-al-tawarikh-khashshab-1960, OCR by Apple Vision; the name is read as Ali Shah on the OCR and the nisba as al-Jilani in the title of the passage at scan page 54"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "jami-tawarikh-v1-p001-060"
+status: { review: published, generated_by: "Claude Haiku 5.5" }

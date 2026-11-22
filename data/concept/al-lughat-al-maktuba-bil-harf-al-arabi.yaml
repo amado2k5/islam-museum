@@ -1,0 +1,36 @@
+id: concept/al-lughat-al-maktuba-bil-harf-al-arabi
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-script]
+label:
+  ar: "اللغات المكتوبة بالحرف العربي"
+  en: "Languages written in the Arabic script"
+  ur: "عربی رسم الخط میں لکھی جانے والی زبانیں"
+  fr: "Les langues écrites en caractères arabes"
+  es: "Las lenguas escritas en caracteres árabes"
+summary:
+  ar: "إحدى عشرة لغة كُتبت أو تُكتب بالحرف العربي مع ما أضافته إليه من حروف وما جرى لكل منها: الفارسية والأردية والبشتو والكردية السورانية والأويغورية والملايو الجاوية والتركية العثمانية والسواحيلية والهوسا والولوف والسندية، كما يعرضها جدول في ملف بحثي قُدّم إلى المتحف؛ بعضها أبقى الحرف العربي وبعضها استبدل به اللاتيني أو السيريلي {cite:openarabic-perso-arabic-alphabet} {cite:wikipedia-arabic-script-en}."
+  en: "Eleven languages written or once written in the Arabic script, with the letters each added and what became of each: Persian, Urdu, Pashto, Sorani Kurdish, Uyghur, Jawi Malay, Ottoman Turkish, Swahili, Hausa, Wolof and Sindhi, as a table in a research file supplied to the museum sets them out; some kept the Arabic script and some replaced it with Latin or Cyrillic {cite:openarabic-perso-arabic-alphabet} {cite:wikipedia-arabic-script-en}."
+  ur: "گیارہ زبانیں جو عربی رسم الخط میں لکھی گئیں یا لکھی جاتی ہیں، ہر ایک نے اس میں جو حروف بڑھائے اور ہر ایک کا جو انجام ہوا: فارسی، اردو، پشتو، سورانی کردی، اویغور، جاوی ملائی، عثمانی ترکی، سواحلی، ہاؤسا، ولوف اور سندھی، جیسا کہ عجائب گھر کو پیش کی گئی ایک تحقیقی فائل کا جدول انہیں پیش کرتا ہے؛ کچھ نے عربی رسم الخط برقرار رکھا اور کچھ میں اس کی جگہ لاطینی یا سیریلی آ گئی {cite:openarabic-perso-arabic-alphabet} {cite:wikipedia-arabic-script-en}۔"
+  fr: "Onze langues écrites, ou autrefois écrites, en caractères arabes, avec les lettres que chacune y a ajoutées et ce qu'il en est advenu : le persan, l'ourdou, le pachto, le kurde sorani, l'ouïghour, le malais jawi, le turc ottoman, le swahili, le haoussa, le wolof et le sindhi, tels qu'un tableau d'un dossier de recherche remis au musée les présente ; certaines ont gardé l'écriture arabe et d'autres l'ont remplacée par le latin ou le cyrillique {cite:openarabic-perso-arabic-alphabet} {cite:wikipedia-arabic-script-en}."
+  es: "Once lenguas escritas, o escritas en otro tiempo, en caracteres árabes, con las letras que cada una añadió y lo que fue de cada una: persa, urdu, pastún, kurdo sorani, uigur, malayo yaui, turco otomano, suajili, hausa, wolof y sindhi, tal como las presenta una tabla de un archivo de investigación entregado al museo; unas conservaron la escritura árabe y otras la sustituyeron por la latina o la cirílica {cite:openarabic-perso-arabic-alphabet} {cite:wikipedia-arabic-script-en}."
+wings: [words, ideas]
+themes: [linguistics]
+regions: [global]
+relations:
+  - { type: related_to, target: concept/al-huruf-al-mudafa-fi-al-lughat-al-farisiyya-wa-ghayriha, note: "The added letters, set out language by language.", sources: [source/openarabic-perso-arabic-alphabet] }
+  - { type: related_to, target: concept/arabizi, note: "The Latin-letter writing of colloquial Arabic.", sources: [source/wikipedia-arabic-script-en] }
+  - { type: related_to, target: language/arabic, sources: [source/wikipedia-arabic-script-en] }
+  - { type: related_to, target: language/persian, sources: [source/wikipedia-persian-alphabet-en] }
+  - { type: related_to, target: language/urdu, sources: [source/wikipedia-urdu-alphabet-en] }
+  - { type: related_to, target: language/pashto, sources: [source/openarabic-perso-arabic-alphabet] }
+  - { type: related_to, target: language/kurdish, sources: [source/wikipedia-kurdish-alphabets-en] }
+  - { type: related_to, target: language/malay, note: "Jawi.", sources: [source/academickids-jawi] }
+  - { type: related_to, target: language/turkish, note: "The Ottoman alphabet and the 1928 reform.", sources: [source/wikipedia-ottoman-turkish-alphabet-en] }
+  - { type: related_to, target: language/swahili, note: "Ajami.", sources: [source/wikipedia-swahili-ajami-en] }
+  - { type: related_to, target: language/hausa, note: "Ajami.", sources: [source/wikipedia-limba-hausa-ro] }
+  - { type: related_to, target: place/xinjiang, note: "Where Uyghur is still officially written in the Arabic script.", sources: [source/wikipedia-uyghur-arabic-alphabet-en] }
+  - { type: related_to, target: place/tajikistan, note: "Where Persian (Tajik) moved from Arabic script to Latin and then Cyrillic.", sources: [source/wikipedia-tajik-alphabets-en] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (arabic_script_languages_and_arabizi.md); the museum did not open the cited pages; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-printing-names-laws-1 }
+sources: [source/wikipedia-persian-alphabet-en, source/wikipedia-tajik-alphabets-en, source/openarabic-perso-arabic-alphabet, source/wikipedia-urdu-alphabet-en, source/wikipedia-kurdish-alphabets-en, source/wikipedia-uyghur-arabic-alphabet-en, source/wikipedia-yanalif-en, source/academickids-jawi, source/wikipedia-ottoman-turkish-alphabet-en, source/wikipedia-arabic-script-en, source/wikipedia-swahili-ajami-en, source/wikipedia-limba-hausa-ro, source/wikipedia-wolofal-alphabet-en, source/wikipedia-wolofal-fr, source/britannica-sindhi-language, source/wikipedia-sindhis-en]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

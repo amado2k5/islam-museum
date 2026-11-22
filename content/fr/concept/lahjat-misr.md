@@ -1,0 +1,80 @@
+---
+id: concept/lahjat-misr
+lang: fr
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Résumé
+L'Égypte est un pays du nord-est de l'Afrique dont la capitale est [[place/cairo|Le Caire]], et le parler égyptien compte parmi les dialectes arabes les plus connus. Cette page rassemble ce que dit l'article de l'Encyclopaedia Britannica sur les langues de l'Égypte, la plus complète des références lues sur les dialectes, et ce que disent les anciens livres de langue des Arabes de la marge de l'Égypte. La page attribue chaque description à son auteur, et ne donne aucun chiffre sur le nombre de locuteurs parce que l'article lu n'en énonce pas. Des sections sur la classification, les principaux traits et le nombre de locuteurs ont été ajoutées ensuite à partir d'un dossier de recherche fourni au musée ; elles nuancent la remarque selon laquelle rien de tel n'avait été trouvé.
+
+## L'arabe standard et le parler vernaculaire en Égypte
+L'Encyclopédie dit que la langue officielle de l'Égypte est l'arabe et que la plupart des Égyptiens parlent l'un de ses nombreux vernaculaires, qui diffèrent beaucoup de la langue littéraire. Elle décrit l'arabe standard moderne comme appris seulement à l'école et comme la lingua franca des personnes instruites à travers le monde arabe ; elle dit que sa grammaire et sa syntaxe sont restées largement inchangées depuis le VIIe siècle, et que son style, son ordre des mots et sa phraséologie sont plus simples et plus souples que dans l'arabe classique et dérivent souvent de l'anglais ou du français {cite:britannica-egypt-languages}.
+
+## Les groupes du parler égyptien
+L'Encyclopédie dit qu'à côté de la langue écrite il existe des vernaculaires et dialectes régionaux de l'arabe, appelés collectivement al-'ammiyya, qui diffèrent largement de la variété littéraire et entre eux ; que dans ce qu'elle appelle le parler égyptien on peut discerner plusieurs groupes vernaculaires distincts, chacun assez homogène avec des strates de variation en son sein ; et que les différences d'un lieu à l'autre sont tantôt subtiles, tantôt profondes. Elle nomme le dialecte des Bédouins du désert oriental et du Sinaï, un groupe distinct pour les Bédouins du désert occidental, un vernaculaire de Haute-Égypte nettement différent de celui du Caire, le dialecte du Caire employé avec des variations dans les villes du Delta, et le vernaculaire propre aux ruraux {cite:britannica-egypt-languages}. Elle ajoute qu'un long contact avec les étrangers a mis beaucoup de mots d'emprunt dans le parler cairote, et que la place du Caire dans l'industrie cinématographique arabe a rendu son dialecte largement compris dans le monde arabe {cite:britannica-egypt-languages}.
+
+## Langues minoritaires et copte
+L'Encyclopédie énumère de petits groupes linguistiques en Égypte : les Bedja du sud du désert oriental, avec une langue couchitique connue sous le nom de To Bedawi, bien que certains parlent le tigré et que beaucoup emploient l'arabe ; un groupe de l'oasis de Siwa dont la langue est apparentée, mais non étroitement, aux langues berbères ; et les Nubiens, qui parlent des langues soudanaises orientales présentant des traits couchitiques. Elle dit qu'à la conquête islamique le copte était la langue de la vie religieuse et quotidienne de la masse de la population, et que dès le XIIe siècle l'arabe était entré dans l'usage commun, même chez les coptes chrétiens, dont l'ancienne langue ne subsista que comme langue liturgique de l'Église copte orthodoxe {cite:britannica-egypt-languages}.
+
+## La marge de l'Égypte dans al-Muzhir
+Al-Suyuti relaie d'al-Farabi que la langue n'a pas été prise de Lakhm et de Judham parce qu'ils voisinaient avec les gens d'Égypte et les Coptes {cite:muzhir-mansur-1998 1 p.167}. Ibn Khaldun nomme l'Égypte parmi les royaumes que les Arabes prirent et où ils se mêlèrent aux non-Arabes {cite:tarikh-ibn-khaldun-shahada-1981 1 p.767}. Ce sont deux énoncés anciens faits dans le cadre de l'argument par la langue, et aucun ne décrit le parler égyptien.
+
+## Ce que cette page n'atteint pas
+Seule la section sur les langues de l'article de l'Encyclopédie sur l'Égypte a été lue, de sorte que rien d'autre n'est attribué à l'Encyclopédie. Elle n'énonce pas les traits phonétiques ou grammaticaux du parler égyptien, qui ne sont donc pas donnés ici, et aucun décompte de ses locuteurs n'a été trouvé, ni la part des locuteurs de chaque groupe. Aucune étude dialectale détaillée n'a été lue. Pour le tableau général voir [[concept/al-fusha-wal-lahajat|l'arabe standard et les dialectes parlés aujourd'hui]].
+
+## D'où viennent les sections suivantes
+Les sections ci-dessous sur la classification, les principaux traits et le nombre de locuteurs viennent d'un dossier de recherche sur six groupes dialectaux arabes fourni au musée par le fondateur, qui l'a constitué avec un assistant de recherche d'IA (Google Gemini). Le dossier donnait les titres des pages, leurs adresses exactes, leurs éditeurs et leurs dates, et disait ce que chaque page énonce. Le musée n'a pas ouvert ces pages lui-même ; le 21 novembre 2026, le fondateur a approuvé l'usage du dossier sans les revérifier. Chaque énoncé ci-dessous est donc attribué à sa page telle que le dossier la rapporte, les notices de sources sont marquées comme non ouvertes par le musée, et le lecteur qui veut une certitude doit ouvrir les pages. Quand le dossier dit n'avoir trouvé aucune source, cette page le dit aussi. Quand les sections précédentes de cette page disent qu'aucune description, classification ou aucun décompte de locuteurs n'a été trouvé, elles visent les références que le musée a lues lui-même.
+
+## Classification
+Glottolog 5.4 place l'arabe égyptien (identifiant egyp1253, code ISO 639-3 arz) dans l'afro-asiatique, le sémitique, le sémitique occidental, le sémitique central, l'arabique, l'arabe, l'arabe égyptique et l'arabe égypto-soudanais, et le divise en arabe cairote, du centre du delta du Nil, d'Égypte orientale, du nord-est du delta et de l'ouest du delta, séparé de ses branches sœurs l'arabe sa'idi (Haute-Égypte) et l'arabe égyptien du désert occidental {cite:glottolog-egyptian-arabic}. La page libre d'Ethnologue (29e édition, 2026) place arz dans le macrolangue arabe comme langue institutionnelle de communication élargie originaire du delta du Nil {cite:ethnologue-arz}.
+
+Les études linguistiques, dit le dossier de recherche, assimilent d'ordinaire l'« arabe égyptien » à l'arabe cairote {cite:ucla-xu-egyptian-arabic-vowels}, que l'Encyclopaedia Britannica dit largement compris dans le monde arabe grâce au cinéma et à la télévision égyptiens {cite:britannica-cairo-arabic-widely-understood}. Sur le plan prosodique, un article de l'Université de Stony Brook rapporte que le cairote et le bas-égyptien sont des dialectes « à attaque CV », par contraste avec les dialectes de Haute-Égypte qui admettent des syllabes CVVC à l'intérieur du mot {cite:stonybrook-broselow-syllable-structure}. Des variétés bédouines sont parlées à l'est et à l'ouest du Nil, le Sinaï reliant le Néguev, l'égyptien du nord-est et l'arabe bédouin hijazi {cite:brill-eall-bedouin-arabic}. Le dossier de recherche n'a trouvé aucune source de l'UNESCO sur ce point.
+
+## Principaux traits
+**Phonologie.** Une page reproduisant la Coptic Encyclopedia dit que le cairote et une bonne partie de la Basse-Égypte réalisent le q classique comme occlusive glottale et le j comme g, alors que la Haute-Égypte réalise q comme g {cite:claremont-coptic-loanwords-egyptian-arabic}. Un mémoire de l'UCLA donne à l'arabe égyptien trois voyelles brèves (i, u, a) et cinq longues (ī, ū, ē, ō, ā), les alvéolaires emphatiques propageant la postériorisation et l'abaissement sur le mot phonologique {cite:ucla-xu-egyptian-arabic-vowels}. Selon l'article de Stony Brook, le cairote interdit les attaques complexes, abrège les voyelles longues en syllabe fermée non finale (kitaab + na devient kitabna), insère une voyelle épenthétique après la deuxième consonne d'un groupe de trois, et supprime i inaccentué dans certains contextes {cite:stonybrook-broselow-syllable-structure}.
+
+**Morphologie.** Britannica note que l'égyptien parlé a perdu les désinences casuelles classiques et le duel verbal {cite:britannica-arabic-language} {cite:britannica-egyptian-colloquial-vs-msa}. Les thèmes d'imperfectif se combinent avec bi- (présent, indicatif) et ha- (futur) ; les racines à glide initial gardent le glide (wasˤal, ji-wsˤal) ; et les perfectifs cairotes du premier schème admettent a et i alors que l'alexandrin n'admet que a {cite:ucla-xu-egyptian-arabic-vowels}.
+
+**Syntaxe.** Une thèse du MIT de 1991 décrit l'arabe égyptien comme laissant les mots interrogatifs en place dans les propositions principales et subordonnées ; les arguments interrogatifs antéposés forment des clivées réduites avec illi et un pronom résomptif obligatoire, alors que les adjoints interrogatifs antéposés omettent illi. Les relatives exigent illi plus un pronom résomptif, et les déclaratives subordonnées emploient inn {cite:mit-typology-of-wh-questions}.
+
+**Lexique.** La page de la Coptic Encyclopedia et une entrée de Brill signalent un substrat copte important dans l'agriculture, la faune du Nil et les expressions (tamy, « limon du Nil », timsah, « crocodile », tannish, « ignorer ») {cite:claremont-coptic-loanwords-egyptian-arabic} {cite:brill-eall-dialects-genesis}, à côté de nombreux emprunts turcs et européens {cite:claremont-coptic-loanwords-egyptian-arabic} {cite:britannica-egyptian-colloquial-vs-msa}.
+
+## Nombre de locuteurs
+Le dossier de recherche donne un chiffre. La page « Languages by number of native speakers » de l'Encyclopaedia Britannica, datée du 4 août 2023, donne 77 436 230 locuteurs natifs de l'arabe égyptien, d'après des données d'Ethnologue du début des années 2020 {cite:britannica-languages-by-native-speakers}. Le dossier n'a trouvé aucun chiffre dans la page libre d'Ethnologue (29e édition, 2026 ; les décomptes exacts sont derrière un accès payant), Glottolog, Brill ou l'UNESCO {cite:ethnologue-arz}. Ce chiffre est un décompte de locuteurs natifs du début des années 2020 tel que le rapporte Britannica, non un recensement actuel.
+
+## Expressions courantes
+Un résumé de recherche remis au musée a ajouté une comparaison de soixante expressions et mots dans six dialectes arabes, dont les salutations, la demande de nouvelles, la demande de ce que veut l'interlocuteur et les nombres de un à cinq. La variété de référence est ici l'arabe du Caire. Les questions s'adressent en général à un locuteur masculin. La translittération est normalisée pour la comparaison, et l'orthographe arabe peut l'être là où une source emploie une transcription phonétique plutôt que l'écriture arabe. Les équivalents en arabe standard sont fournis pour la comparaison et ne sont pas nécessairement des citations des sources dialectales. Le musée n'a pas ouvert les pages nommées ; les sources sont telles que le résumé les a rapportées, et ses étiquettes figurent dans la dernière colonne. {cite:yalla-masry-egyptian-arabic-phrase-guide-greetings} {cite:northwestern-first-year-arabic-mikhaeel-2024} {cite:el-baz-say-it-in-arabic-egyptian-dialect-1968} {cite:lisaan-masry-numbers}
+
+| Français | Dialecte | Translittération | Équivalent en arabe standard | Source |
+|---|---|---|---|---|
+| Bonjour | أهلاً | ahlan | أهلاً | E1 |
+| Bonjour (le matin) | صباح الخير | ṣabāḥ il-khēr | صباح الخير | E1, E2 |
+| Comment allez-vous ? | إزيّك؟ | izzayyak? | كيف حالك؟ | E1, E2 |
+| Je vais bien | الحمد لله | il-ḥamdu lillāh | أنا بخير، الحمد لله | E1 |
+| Que voulez-vous ? | عاوز إيه؟ | ʿāwiz ēh? | ماذا تريد؟ | E3 |
+| Un | واحد | wāḥid | واحد | E2, E4 |
+| Deux | اتنين | itnēn | اثنان | E2, E4 |
+| Trois | تلاتة | talāta | ثلاثة | E2, E4 |
+| Quatre | أربعة | arbaʿa | أربعة | E2, E4 |
+| Cinq | خمسة | khamsa | خمسة | E2, E4 |
+
+Conventions de translittération : ā, ī et ū représentent les voyelles longues ; ē et ō les voyelles moyennes longues ; ʿ représente ع ; ʾ représente ء ; ḥ représente ح ; kh représente خ ; et gh représente غ.
+
+Un trait distinctif que montre le tableau est la prononciation de ث comme t dans le vocabulaire courant du dénombrement, comme تلاتة au lieu de ثلاثة.
+
+### Sources du tableau
+- **E1:** Yalla Masry, Egyptian Arabic Phrase Guide: Greetings; une ressource en ligne d'apprentissage de l'arabe égyptien avec audio {cite:yalla-masry-egyptian-arabic-phrase-guide-greetings}
+- **E2:** Ragy Mikhaeel, First-Year Arabic, Northwestern University Libraries, 2024, lessons 1.1, 2 and 4.2; un manuel en libre accès {cite:northwestern-first-year-arabic-mikhaeel-2024}
+- **E3:** F. El-Baz, Say It in Arabic (Egyptian Dialect), 1968, General Expressions, item 40; un recueil d'expressions imprimé {cite:el-baz-say-it-in-arabic-egyptian-dialect-1968}
+- **E4:** Lisaan Masry, Egyptian Arabic Dictionary and Grammar, Numbers; un dictionnaire et une grammaire en ligne de l'arabe égyptien {cite:lisaan-masry-numbers}
+
+### Ouvrages de référence spécialisés
+| Auteur | Ouvrage de référence | Année |
+|---|---|---|
+| Martin Hinds and El-Said Badawi | A Dictionary of Egyptian Arabic: Arabic-English | 1986 |
+| Manfred Woidich | Das Kairenisch-Arabische: Eine Grammatik | 2006 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+Ce sont des ouvrages spécialisés que le résumé liste ; il dit qu'aucune expression particulière des tableaux n'a été attribuée à ces livres sans vérifier les entrées pertinentes, de sorte qu'ils sont des lectures complémentaires et non la source des expressions du tableau. {cite:hinds-badawi-1986-dictionary-of-egyptian-arabic} {cite:woidich-2006-das-kairenisch-arabische} {cite:ryding-2005-reference-grammar-msa}
+
+Pour les six variétés côte à côte, voir [[concept/al-muqarana-bayna-lahajat-al-arabiyya|Comparaison des dialectes arabes]].

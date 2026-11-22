@@ -1742,6 +1742,10 @@ explore:
       title: "The Caliphs Browser"
       desc: "Every caliph grouped by his caliphate — Rashidun to Sokoto — with his reign, succession chain, the events his reign saw and the cited record."
       menu: "Browse the caliphs and their reigns"
+    arabiyya:
+      title: "Arabic Language Browser"
+      desc: "Arabic, the language of the Qur'an: the verses that name its tongue, what the hadith, the Companions and the scholars said about it, the inimitability of its language, and its history, script, grammar, dialects, world, scholars and books."
+      menu: "Browse Arabic, the language of the Qur'an"
     maajim:
       title: "Dictionaries Browser"
       desc: "Arabic and Islamic dictionaries: who wrote them, when, from which earlier works, how they are arranged and where they can be read."
@@ -2752,6 +2756,9 @@ support:
   gofundme_title: GoFundMe campaign
   gofundme_body: The museum's campaign on GoFundMe — give once, in your own currency, toward hosting and running costs.
   gofundme_cta: Donate on GoFundMe
+  buymeacoffee_title: Buy Me a Coffee
+  buymeacoffee_body: The museum's page on Buy Me a Coffee — buy a coffee with a small one-time gift, in Canadian dollars, toward hosting and running costs.
+  buymeacoffee_cta: Buy a coffee
   other_title: Other ways to help
   other_body: If a monthly membership does not suit you, you can contribute code, reviews or translations, or share the museum with people you know.
   contribute: Contribute on GitHub
@@ -3593,6 +3600,80 @@ khutab:
     nikah: "Marriage sermon"
     farewell: "Farewell sermon"
     other: "Sermon"
+arabiyya:
+  title: "Arabic Language Browser: the language of the Qur'an"
+  lede: "Arabic as the Qur'an names it and as the sources describe it: the verses in which the Qur'an speaks of its own tongue, the reports of the Prophet, the Companions and the Successors, the stories of those who heard it, the discussion of its inimitable language, and the history, script, sciences, dialects, world, scholars and books of Arabic."
+  badge: "Arabic language explorer"
+  status: "This build holds {v} verses in which the Qur'an speaks of its language, {p} passages from the hadith, the seerah, the tafsir and the harvested books that speak about Arabic, and {r} curated records. The passages are found by their wording, so some mention Arabic only in passing; each one opens on its own page with its source."
+  method_title: "The browser's method"
+  method_note: "Nothing here is kept in a side list. Passages are found when the site is built, by matching the wording of every passage record in the museum's graph, so a book harvested later adds its passages on the day it lands. The curated records are ordinary museum records tagged arabiyya-browser and arabiyya-<section>. Verse text comes only from the frozen Tanzil files. Where scholars differ, the record gives each view under its name and gives no verdict."
+  api: "The whole dataset is at"
+  contents_title: "On this page"
+  empty: "No records in this build yet."
+  passages_title: "What the sources say about Arabic"
+  passages_note: "Passages from the museum's harvested texts whose wording speaks of the Arabic language: the tongue of Quraysh, the speech of the Arabs, learning Arabic, grammar and its founders, mistakes of speech, and the Qur'an's inimitability. The excerpt is the opening of the passage as it stands in the source; text read by machine from a scan can carry reading errors."
+  kin_title: "Neighbouring halls"
+  corpora:
+    quran:
+      title: "The Qur'an on its own language"
+      desc: "Every verse of the frozen text that says the revelation is Arabic, that it came in the tongue of its people, or that sets Arabic beside a foreign tongue. Open a verse for its page, translations and commentary."
+    sunnah:
+      title: "In the hadith and the reports"
+      desc: "Reports from the hadith collections that speak of the Arabic tongue, the tongue of Quraysh or the writing of the Qur'an in it."
+    seerah:
+      title: "In the seerah"
+      desc: "Passages from the books of the Prophet's life that speak of the language."
+    tafsir:
+      title: "In the commentaries"
+      desc: "Passages from the Qur'an commentaries that discuss the Arabic of the Qur'an."
+    books:
+      title: "In the other harvested books"
+      desc: "History, biography, law, Qur'anic sciences and letters: wherever a harvested book speaks about Arabic."
+  sections:
+    lisan:
+      title: "Arabic, the language of the Qur'an"
+      desc: "Why the revelation is in Arabic as the commentators explain it, the tongue of Quraysh, the seven ahruf, and what the early generations said about learning Arabic."
+    ijaz:
+      title: "The inimitable language of the Qur'an"
+      desc: "The challenge the Qur'an set, the people who heard it and what they said, and how scholars explained its inimitability: views, examples and stories, each under its source."
+    origins:
+      title: "Origins and history"
+      desc: "Where Arabic comes from, its place among the Semitic languages, the Arabs before Islam, and how the language moved from Arabia across the world."
+    script:
+      title: "Letters and script"
+      desc: "The alphabet, the pointing and vowelling of the mushaf, and the art of writing Arabic."
+    sciences:
+      title: "The sciences of Arabic"
+      desc: "Grammar, morphology, rhetoric, prosody, lexicography and the theory of language, and how each began."
+    dialects:
+      title: "Dialects, old and new"
+      desc: "The speech of the tribes in the age of revelation, and the spoken Arabics of today beside the written language."
+    world:
+      title: "Arabic in the world"
+      desc: "Where Arabic is spoken, the Arab countries, Arabic among the languages of the Muslim world, and what it gave other languages and took from them."
+    scholars:
+      title: "The scholars of the language"
+      desc: "The grammarians, lexicographers and rhetoricians who described Arabic."
+    books:
+      title: "The books of the language"
+      desc: "The foundational books of Arabic grammar, rhetoric, language theory and the vocabulary of the Qur'an. The dictionaries have their own browser."
+  viz:
+    title: "The ring of the letters"
+    note: "The letters of Arabic in the order al-Khalil ibn Ahmad gave them in Kitab al-Ayn, the first Arabic dictionary: not alif, ba, ta, but by where each sound is made, from the depth of the throat out to the lips. Each coloured arc is one place of articulation."
+    aria: "A ring of the Arabic letters in al-Khalil's order, grouped by place of articulation, with this build's counts in the middle"
+    verses: "verses name the Qur'an's tongue"
+    others: "passages about Arabic · curated records"
+    source: "The order is the one reported from al-Khalil in Kitab al-Ayn; the museum's records:"
+    groups:
+      halq: "Throat"
+      lahat: "Uvula"
+      shajr: "Side of the mouth"
+      asala: "Tip of the tongue"
+      nat: "Front of the palate"
+      litha: "Gums"
+      dhalq: "Edge of the tongue"
+      shafa: "Lips"
+      jawf: "Open mouth and hamza"
 maajim:
   title: "Dictionaries Browser"
   lede: "The great dictionaries of Arabic and of the Islamic sciences: who wrote each one, when, from which earlier works, how it is arranged, and where it can be read."
@@ -6315,6 +6396,21 @@ jobs:
     hint: "Hover, focus or tap a tile to read it here."
     open: "Open the job"
     outline_title: "The same street as a list"
+name_card:
+  heading: "The name, element by element"
+  shuhra: "Known as"
+  ism: "Given name (ism)"
+  kunya: "Parental name (kunya)"
+  nasab: "Descent (nasab)"
+  laqab: "Epithet (laqab)"
+  khitab: "Honorific title (khitab)"
+  nisba: "Affiliation (nisba)"
+  ancestral: "Name from an ancestor"
+  variants: "Variant forms of the full name"
+  spellings: "Spellings"
+  disputed: "disputed"
+  uncertain: "uncertain"
+  link_note: "A link on a name shows an association with that record. It does not say the person was born there or descended from it."
 career:
   heading: "Career"
   no_dates: "These posts have no recorded dates, so they are listed here in words."

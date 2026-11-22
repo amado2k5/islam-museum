@@ -1,0 +1,33 @@
+---
+id: concept/al-arabiyya-fi-qatar
+lang: es
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Resumen
+Lo que se encontró sobre el árabe en Catar: los artículos 1 y 80 de la Constitución tal como los muestra el Constitute Project, la afirmación de la enciclopedia de que la mayoría de los cataríes habla un dialecto del árabe del Golfo parecido al de los Estados vecinos, y los nombres de las variedades cataríes en el árbol de Glottolog, con el enunciado de lo que no se halló. Para el lugar véase [[place/qatar|Catar]]. Para los Estados árabes en general véase [[concept/al-alam-al-arabi|Los Estados árabes y la Liga de los Estados Árabes]]. Se añade el texto constitucional en su lengua original, tal como lo entrega un resumen de investigación que el museo no verificó en la página.
+
+## El estatus oficial
+El artículo 1 de la Constitución de Catar, en la traducción del Constitute Project, dice que su lengua oficial es la lengua árabe, y el artículo 80 exige a un miembro del Consejo Consultivo que lea y escriba con soltura el árabe {cite:constituteproject-qatar}. El texto se titula «2003» en la página y está marcado «modificado posteriormente»; las modificaciones no se leyeron. El artículo sobre las lenguas semíticas de la Encyclopaedia Britannica incluye a Catar entre los Estados donde el árabe es oficial {cite:britannica-semitic-languages}.
+
+## El texto constitucional
+La Constitución Permanente de Catar de 2004, artículo 1. El resumen de investigación entregado al museo da este texto árabe: «دينها الإسلام ، والشريعة الإسلامية مصدر رئيسي لتشريعاتها ، ونظامها ديمقراطي يقوم على الشورى والعدل وسيادة القانون ، ولغتها الرسمية هي اللغة العربية.», que el museo traduce: «Su religión es el islam, la sharía islámica es una fuente principal de su legislación, su sistema es una democracia basada en la consulta, la justicia y el imperio de la ley, y su lengua oficial es la lengua árabe». El resumen nombra Al Meezan, the Qatar Legal Portal como fuente oficial; el museo no abrió esa página, por lo que el texto se toma del resumen tal como se entregó, y el fundador aprobó usarlo así el 21 de noviembre de 2026 {cite:official-constitution-qatar}.
+
+## Proporciones de las lenguas
+Ninguna cifra oficial. El censo de 2020 omite la lengua. Organismos emisores y años nombrados en el resumen: PSA (NPC) / UNSD, 2020. Esta sección procede de un resumen de investigación entregado al museo; el museo no abrió las páginas que nombra, y el fundador aprobó usar el resumen tal como se entregó el 21 de noviembre de 2026 {cite:npc-qatar-census-2020-summary} {cite:undata-table-27}.
+
+## Las variedades habladas
+La Encyclopaedia Britannica dice en su artículo sobre Catar que la mayoría de los cataríes habla un dialecto del árabe del Golfo parecido a los dialectos de los Estados vecinos {cite:britannica-qatar}. El árbol de Glottolog enumera, bajo el árabe del Golfo, el «árabe catarí del norte» y el «árabe catarí del sur» {cite:glottolog-arabic}. Las dos fuentes coinciden en la filiación al Golfo, y ninguna dice en qué difiere el norte del sur. La página de la Biblioteca del Congreso sobre la población de Catar no nombra ninguna lengua.
+
+La misma página de Manchester divide los dialectos árabes en unidades geográficas, una de ellas la de los dialectos de la península arábiga; no nombra los Estados de esa unidad, así que situar este Estado en ella es una inferencia por su ubicación, y dice que en la mayoría de los países árabes difieren los dialectos urbanos y rurales, como los de sedentarios y antiguos nómadas (beduinos) {cite:manchester-arabic-structural-variation}. El árbol de Glottolog muestra variedades con nombre propio bajo «árabe de la península arábiga» {cite:glottolog-arabic}; son dos clasificaciones distintas, un grupo geográfico en Manchester y variedades separadas en Glottolog, y el museo no escoge entre ellas. No se leyó la página de Ethnologue, así que la clasificación de SIL no se conoce aquí. Para más sobre los dialectos véase [[concept/lahjat-al-khalij|Los dialectos del Golfo]].
+
+## Otras lenguas
+No se halló en lo leído ninguna otra lengua de Catar ni proporciones lingüísticas entre ciudadanos y residentes; las páginas leídas no responden a esa pregunta.
+
+## El estándar y las variedades habladas juntos
+La página de la Universidad de Manchester sobre los dialectos del árabe describe la situación general del mundo arabófono como de tres niveles: el árabe estándar moderno, lengua del Estado, la enseñanza, los servicios públicos y los medios; el árabe clásico, el del Corán, los textos religiosos y el culto; y los dialectos coloquiales del trato diario, que la página dice que la gente suele tener por de poco valor aunque son habituales en la canción, el teatro y el cine {cite:manchester-arabic-sociolinguistic}. Es una descripción del mundo árabe en general, no de este Estado solo, y no se leyó ningún estudio que lo mida aquí. Sobre la relación del estándar con las variedades habladas véase [[concept/al-fusha-wal-lahajat|El árabe estándar y los dialectos hablados hoy]], y sobre las diferencias entre los hablas de las tribus antes del estándar [[concept/lughat-al-qabail|Los dialectos de las tribus y la lengua de Quraysh]].
+
+## Lo que esta página no alcanza
+No se halló en lo leído ningún recuento de hablantes de árabe en este Estado ni proporciones de sus lenguas. La página del Estado en el World Factbook de la CIA ya no está disponible: la dirección devolvió un aviso fechado el 4 de febrero de 2026 que anuncia el fin de la publicación; la página del país de la enciclopedia no pudo obtenerse con la herramienta disponible, ni la de Ethnologue, y lo que aquí se toma de la enciclopedia viene de fichas de fuentes leídas antes. En la sección El estatus oficial, las formulaciones constitucionales proceden de textos traducidos; en la sección El texto constitucional, proceden de un resumen de investigación entregado al museo y no se verificaron en las páginas. El museo no estima ninguna cifra; las que dan otras páginas están en [[concept/al-arabiyya-fi-al-alam-al-yawm|El árabe en las Naciones Unidas y la UNESCO, y las cifras de hablantes]]. Esta página atribuye cada enunciado a su página y fue escrita a partir de estas fuentes, sin lectura humana; lo antiguo o terciario debe reverificarse.
+
+Nota añadida el 21 de noviembre de 2026: las secciones El texto constitucional y Proporciones de las lenguas proceden de resúmenes de investigación entregados al museo, y el museo no abrió las páginas que nombran; donde esta sección dice que un texto o una proporción no se leyó, describe la lectura anterior del museo y se ha dejado tal cual.

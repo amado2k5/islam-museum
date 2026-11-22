@@ -1,0 +1,27 @@
+id: concept/awzan-al-fiil-al-ashara
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-sciences]
+label:
+  ar: "أوزان الفعل العشرة"
+  en: "The ten verb forms (awzan) of Arabic"
+  ur: "عربی افعال کے دس اوزان"
+  fr: "Les dix formes verbales (awzan) de l'arabe"
+  es: "Las diez formas verbales (awzan) del árabe"
+summary:
+  ar: "جدول الأوزان من الأول إلى العاشر على جذر ك-ت-ب كما أوردها ملخص بحثي عن نظام الجذر والوزن في العربية: صيغة الماضي والمضارع بالحركات، ومثال كل وزن، ومعناه الغالب، وأرقام الصفحات في ريدنغ 2005 ورايت 1896. الوزن التاسع وزنٌ فقط ولا مادة معجمية له من هذا الجذر. أرقام الصفحات من الملخص ولم يتحقق منها المتحف."
+  en: "The table of verb forms I to X on the root k-t-b as given by a research summary on the root-and-pattern system of Arabic: the perfect and imperfect patterns with vowels, an example for each form, its usual meaning, and the page numbers in Ryding 2005 and Wright 1896. Form IX is given as a pattern only, with no lexicalised verb from this root. The page numbers are the summary's and the museum did not check them."
+  ur: "عربی کے جذر اور وزن کے نظام پر ایک تحقیقی خلاصے میں دیا گیا جذر ک-ت-ب پر پہلے سے دسویں وزن تک کا جدول: ماضی اور مضارع کی صیغے حرکات کے ساتھ، ہر وزن کی مثال، اس کا عام معنی، اور رائڈنگ 2005 اور رائٹ 1896 میں صفحات کے نمبر۔ نواں وزن صرف وزن کے طور پر ہے اور اس جذر سے اس کا کوئی لغوی فعل نہیں۔ صفحات کے نمبر خلاصے کے ہیں اور عجائب گھر نے ان کی جانچ نہیں کی۔"
+  fr: "Le tableau des formes verbales I à X sur la racine k-t-b tel que le donne un résumé de recherche sur le système racine-schème de l'arabe : schèmes de l'accompli et de l'inaccompli avec voyelles, un exemple pour chaque forme, son sens habituel, et les numéros de page chez Ryding 2005 et Wright 1896. La forme IX n'est donnée que comme schème, sans verbe lexicalisé sur cette racine. Les numéros de page sont ceux du résumé et le musée ne les a pas vérifiés."
+  es: "La tabla de las formas verbales I a X sobre la raíz k-t-b tal como la da un resumen de investigación sobre el sistema de raíz y patrón del árabe: patrones del perfecto y del imperfecto con vocales, un ejemplo de cada forma, su sentido habitual y los números de página en Ryding 2005 y Wright 1896. La forma IX se da solo como patrón, sin verbo lexicalizado sobre esta raíz. Los números de página son los del resumen y el museo no los comprobó."
+wings: [words, ideas]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: concept/ilm-al-sarf, sources: [source/ryding-2005-reference-grammar-msa, source/wright-grammar-of-the-arabic-language-vol1] }
+  - { type: related_to, target: concept/ilm-al-nahw, sources: [source/ryding-2005-reference-grammar-msa] }
+  - { type: related_to, target: concept/al-asma-al-mushtaqqa, sources: [source/ryding-2005-reference-grammar-msa, source/wright-grammar-of-the-arabic-language-vol1] }
+  - { type: related_to, target: language/arabic, sources: [source/ryding-2005-reference-grammar-msa] }
+  - { type: related_to, target: concept/ulum-al-lisan-al-arabi, sources: [source/wright-grammar-of-the-arabic-language-vol1] }
+provenance: { layer: own-research, source: "Research summary on the Arabic root-and-pattern system, case, number, numerals and diptotes supplied by the founder (compiled with Google Gemini); the museum did not open the pages it cites, page numbers are the summary's and unchecked, and the summary was used with the founder's approval of 21 Nov 2026.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-diglossia-grammar-phrases-1" }
+sources: [source/ryding-2005-reference-grammar-msa, source/wright-grammar-of-the-arabic-language-vol1]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model; the cited pages were not opened by the museum (research summary supplied by the founder, used with his approval of 21 Nov 2026)" }

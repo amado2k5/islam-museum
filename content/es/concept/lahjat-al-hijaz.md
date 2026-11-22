@@ -1,0 +1,77 @@
+---
+id: concept/lahjat-al-hijaz
+lang: es
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Resumen
+El Hiyaz es la región del oeste de la [[place/arabian-peninsula|península arábiga]]; contiene [[place/mecca|La Meca]] y [[place/medina|Medina]] y fue el hogar de [[group/quraysh|Quraysh]]. Esta página reúne lo que se leyó sobre el habla del Hiyaz, sobre todo antiguas descripciones en los libros de lengua que transmiten al-Suyuti e Ibn Jaldún, pues en las referencias leídas no se halló ninguna descripción del dialecto hiyazí de hoy. La página atribuye cada descripción a su autor; los dialectos de las tribus tienen su propia página, [[concept/lughat-al-qabail|los dialectos de las tribus y la lengua de Quraysh]]. Más tarde se añadieron secciones sobre la clasificación, los rasgos principales y el número de hablantes a partir de un archivo de investigación entregado al museo; matizan la observación de que no se había hallado nada de ello.
+
+## El lugar
+En su artículo sobre Arabia Saudí, la Encyclopaedia Britannica sitúa el Hiyaz en las tierras altas del oeste, a lo largo del mar Rojo, y lo llama la cuna del islam, con sus ciudades más sagradas, La Meca y Medina {cite:britannica-saudi-arabia}. En su artículo sobre la lengua árabe dice que los grandes grupos dialectales de los tiempos modernos son los de Arabia, Irak, Siria, Egipto y el norte de África {cite:britannica-arabic-language}; así, para ella el Hiyaz cae dentro del grupo de Arabia, y el artículo no da una descripción separada de él.
+
+## El Hiyaz y Tamim sobre el funcionamiento de «ma»
+En al-Muzhir, al-Suyuti transmite de Ibn Jinni, en al-Khasa'is, que los dialectos, pese a sus diferencias, son todos autoridad, y da como ejemplo la lengua del Hiyaz al hacer actuar a «ma» sobre el nombre y la de Tamim al no hacerlo; cada una, dice, es admitida por la analogía, de modo que nadie puede rechazar un dialecto por el otro, y lo más que puede hacerse es elegir uno y reforzarlo frente a su par {cite:muzhir-mansur-1998 1 p.204}. Es una de las declaraciones más claras de los libros de lengua sobre un rasgo gramatical de los hiyazíes.
+
+## Palabras y formas atribuidas a la gente del Hiyaz
+En otro lugar, al-Suyuti transmite de al-Qali que la lengua del Hiyaz tiene dha'a al-baql yadh'a, mientras que la gente de Nechd dice dhawa yadhwi, y que los kufíes refieren también dhawiya, que no es fasih {cite:muzhir-mansur-1998 1 p.170}. En el mismo lugar se dice que la gente del Hiyaz dice qatara yaqtiru, y que el verbo tiene otra forma con damma en la ta' que es la menos frecuente de las formas {cite:muzhir-mansur-1998 1 p.170}. En el capítulo sobre los préstamos transmite de Ibn Durustawayh, a propósito de jass, que tiene por préstamo persa, que algunos dicen qass con fatha, y que es la lengua de la gente del Hiyaz {cite:muzhir-mansur-1998 1 p.216}. Son ejemplos dispersos anotados en un compendio, no una descripción sistemática de un dialecto.
+
+## Quraysh y los sedentarios del Hiyaz
+Al-Suyuti relata que Tha'lab dijo que Quraysh se elevaron en fasaha por encima de la 'an'ana de Tamim, la kashkasha de Hawazin, la kaskasa de Rabi'a, la talta de Bahra' y otras, y transmite de al-Farabi que Quraysh eran los mejores de los árabes para elegir las palabras más elocuentes, las más fáciles para la lengua al pronunciar {cite:muzhir-mansur-1998 1 p.167}. Transmite también de al-Farabi que la lengua no se tomó de los sedentarios del Hiyaz, porque quienes la transmitieron los encontraron, cuando empezaron a transmitirla, ya mezclados con otras naciones y con la lengua echada a perder, y que quienes la transmitieron fueron la gente de Basora y de Kufa {cite:muzhir-mansur-1998 1 p.168}. Ibn Jaldún dice que la lengua de Quraysh era la más elocuente y la más clara de los dialectos árabes por su lejanía de las tierras de los no árabes por todos lados, y luego los que los rodeaban, Zaqif, Hudhayl, Juzá'a, Kinana, Gatafán, Asad y Tamim {cite:tarikh-ibn-khaldun-shahada-1981 1 p.765}. Así, las fuentes leídas toman la lengua de Quraysh como modelo y no toman a los sedentarios del Hiyaz como fuente para la transmisión de la lengua; cada página atribuye su afirmación a su autor.
+
+## Lo que esta página no alcanza
+No se halló en las referencias leídas ninguna descripción del dialecto hiyazí contemporáneo, ni de su sonido, ni de su gramática, ni de su vocabulario, ni un recuento de sus hablantes, y no se leyó ningún estudio dialectal moderno. No se leyeron artículos que dividan el Hiyaz en ciudades y beduinos. Todo lo expuesto aquí sobre los hiyazíes es una descripción antigua de palabras y formas sueltas, transmitida por al-Suyuti de autores cuyos libros no se leyeron por sí mismos, y parte viene en el contexto de la clasificación de los dialectos, que el museo expone atribuida a sus autores. Para el cuadro general véase [[concept/al-fusha-wal-lahajat|el árabe estándar y los dialectos hablados hoy]].
+
+## De dónde proceden las secciones siguientes
+Las secciones siguientes sobre la clasificación, los rasgos principales y el número de hablantes proceden de un archivo de investigación sobre seis grupos dialectales árabes entregado al museo por el fundador, que lo elaboró con un asistente de investigación de IA (Google Gemini). El archivo daba los títulos de las páginas, sus direcciones exactas, editores y fechas, y decía lo que afirma cada página. El museo no abrió esas páginas por sí mismo; el 21 de noviembre de 2026 el fundador aprobó usar el archivo sin volver a comprobarlas. Cada afirmación siguiente se atribuye, pues, a su página tal como la recoge el archivo, las fichas de fuentes están marcadas como no abiertas por el museo, y quien necesite certeza debe abrir las páginas. Cuando el archivo dice no haber hallado fuente, esta página también lo dice. Cuando las secciones anteriores de esta página dicen que no se halló descripción, clasificación ni recuento de hablantes, se refieren a las referencias que el museo leyó por sí mismo.
+
+## Clasificación
+Glottolog 5.4 sitúa el árabe hiyazí (identificador hija1235, código ISO 639-3 acw) dentro del afroasiático, semítico, semítico occidental, semítico central, arabio, árabe y árabe de la península arábiga, con cuatro subdivisiones: Tihaamah costero, hiyazí del norte, hiyazí del sur y Tihaamah de los valles {cite:glottolog-hijazi-arabic}. La página gratuita de Ethnologue (29.ª edición, 2026) lo sitúa en afroasiático, semítico, central, meridional, árabe, como lengua indígena estable de Arabia Saudí dentro de la macrolengua árabe {cite:ethnologue-acw}.
+
+La Encyclopedia of Arabic Language and Linguistics de Brill, en su entrada «Meccan Arabic», sitúa el mecano en el grupo árabe occidental (hiyazí) como árabe hiyazí urbano (La Meca, Yeda, Medina), lo contrapone al hiyazí beduino y a los dialectos de Tihāma, y señala estrechas afinidades con el árabe egipcio, sudanés y levantino {cite:brill-eall-meccan-arabic}. Su entrada «Saudi Arabia» contrapone el hiyazí urbano nivelado al hiyazí rural, que forma un continuo con Yemen y Néyed {cite:brill-eall-saudi-arabia}, y su entrada «Bedouin Arabic» vincula el hiyazí beduino con las variedades beduinas del Néguev y el Sinaí {cite:brill-eall-bedouin-arabic}. El artículo de la Encyclopaedia Britannica sobre Arabia Saudí menciona tres grandes grupos dialectales, oriental, central y occidental, sin nombrar el hiyazí {cite:britannica-saudi-arabia-climate}. El archivo de investigación no halló ninguna fuente de la UNESCO sobre el asunto.
+
+## Rasgos principales
+**Fonología.** Brill señala que el hiyazí urbano y el rural realizan la q clásica como g, la k como k (sin la africación najdí de la k en La Meca y Yeda) y la j como j, salvo ž entre la tribu de los Ḥarb cerca de Medina {cite:brill-eall-saudi-arabia} {cite:brill-eall-bedouin-arabic}. El hiyazí rural conserva las interdentales th y dh, mientras que el urbano las funde en t y d y funde la dad y la dh enfática en dad, con la dh enfática en algunas palabras mecanas {cite:brill-eall-meccan-arabic} {cite:brill-eall-saudi-arabia}. Los diptongos ay y aw pasan a ē y ō; el mecano suprime las vocales breves altas átonas en sílaba abierta e inserta una a epentética ante sufijos consonánticos en ciertas formas de tema {cite:brill-eall-meccan-arabic}. Un artículo sobre el hiyazí beduino describe un acento sensible a la cantidad, hacia la derecha y no final {cite:kwpl-bedouin-hijazi-stress}.
+
+**Morfología.** El hiyazí urbano ha perdido el femenino plural de verbos y pronombres y solo distingue el género en la segunda y tercera persona del singular {cite:brill-eall-meccan-arabic} {cite:brill-eall-saudi-arabia}. El mecano usa hāda, hādi y hadōl para «este, estos» y hādak(a), hadīk(a) y hadōlāk(a) para «aquel, aquellos», geminada los marcadores aplicativos -l- y -b- tras -t, usa la forma VII (an-, at-) como pasiva y sustituye la forma IX por la forma II {cite:brill-eall-meccan-arabic}.
+
+**Sintaxis.** El mecano usa tanto el orden sujeto-verbo-objeto como verbo-sujeto-objeto (con un pronombre resuntivo para un objeto antepuesto), ḥagg para la posesión analítica, bi-, gāʿid o ʿammāl para el progresivo, ḥa- o rāḥ para el futuro, y mā, mū, lā o ʾiṣḥa para la negación {cite:brill-eall-meccan-arabic}; el hiyazí urbano y el rural comparten un gid, gad o gīd preverbal {cite:brill-eall-saudi-arabia}. Una página del departamento de lingüística de Georgetown señala que los plurales no humanos provocan concordancia en femenino singular {cite:georgetown-ruth-kramer-research}.
+
+**Léxico.** El hiyazí comparte voces arábigas como baġa/yabġi, «querer», y ḥagg, «de» {cite:brill-eall-saudi-arabia}; el mecano tiene términos locales como mirakkab, «cocina», y daḥḥīn, «ahora», junto a préstamos turcos y persas (duġri) y europeos (kanaba, kundēšan) {cite:brill-eall-meccan-arabic}.
+
+## Número de hablantes
+El archivo de investigación no encontró ningún recuento de hablantes del árabe hiyazí. La página gratuita de Ethnologue (29.ª edición, 2026) guarda los recuentos exactos tras un acceso de pago {cite:ethnologue-acw}; la entrada de Brill sobre el árabe mecano dice que un recuento preciso es difícil por la población cosmopolita de La Meca {cite:brill-eall-meccan-arabic}; y Glottolog, Britannica, la UNESCO y los sitios universitarios no dan ningún total. Esta página, por tanto, no da cifra alguna.
+
+## Expresiones comunes
+Un resumen de investigación entregado al museo añadió una comparación de sesenta expresiones y palabras en seis dialectos árabes, entre ellas saludos, preguntar cómo está alguien, preguntar qué quiere y los números del uno al cinco. La variedad de referencia es aquí el árabe hiyazí urbano, asociado con Yeda, La Meca y Medina. Las preguntas se dirigen por lo general a un hablante masculino. La transliteración está normalizada para la comparación, y la ortografía árabe puede estarlo donde una fuente usa transcripción fonética en lugar de escritura árabe. Los equivalentes en árabe estándar se dan para la comparación y no son necesariamente citas de las fuentes dialectales. El museo no abrió las páginas nombradas; las fuentes son como las refirió el resumen, y sus etiquetas figuran en la última columna. {cite:fsi-saudi-arabic-basic-course-urban-hijazi-dialect} {cite:openarabic-saudi-arabic-resources}
+
+| Español | Dialecto | Transliteración | Equivalente en árabe estándar | Fuente |
+|---|---|---|---|---|
+| Hola | مرحبا | marḥaba | مرحباً | H1, p. 1 |
+| Buenos días | صباح الخير | ṣabāḥ al-khēr | صباح الخير | H1, p. 4 |
+| ¿Cómo estás? | كيف حالك؟ | kēf ḥālak? | كيف حالك؟ | H1, p. 1 |
+| Bien, gracias a Dios | طيّب، الحمد لله | ṭayyib, al-ḥamdu lillāh | بخير، الحمد لله | H1, p. 1 |
+| ¿Qué quieres? | إيش تبغى؟ | ēsh tibgha? | ماذا تريد؟ | H2 |
+| Uno | واحد | wāḥid | واحد | H1, Numbers |
+| Dos | اثنين | itnēn | اثنان | H1, Numbers |
+| Tres | ثلاثة | talāta | ثلاثة | H1, Numbers |
+| Cuatro | أربعة | arbaʿa | أربعة | H1, Numbers |
+| Cinco | خمسة | khamsa | خمسة | H1, Numbers |
+
+Convenciones de transliteración: ā, ī y ū representan vocales largas; ē y ō vocales medias largas; ʿ representa ع; ʾ representa ء; ḥ representa ح; kh representa خ; y gh representa غ.
+
+Obsérvese que el manual del FSI escribe ثلاثة pero transcribe su pronunciación como talāta. La ortografía de los dialectos árabes no siempre reproduce cada diferencia fonética.
+
+### Fuentes de la tabla
+- **H1:** Foreign Service Institute, Saudi Arabic Basic Course: Urban Hijazi Dialect, 1975, Student Text, lessons 1-2 and the section on cardinal numbers; un manual básico del dialecto hiyazí urbano {cite:fsi-saudi-arabic-basic-course-urban-hijazi-dialect}
+- **H2:** OpenArabic, Saudi Arabic Resources: Najdi vs Hejazi vs Modern Standard Arabic, comparative vocabulary table; una referencia de aprendizaje en línea complementaria, no un diccionario impreso {cite:openarabic-saudi-arabic-resources}
+
+### Obras de referencia especializadas
+| Autor | Obra de referencia | Año |
+|---|---|---|
+| Omar F. Khorshid | Saudi Arabic Basic Course: Urban Hijazi Dialect | 1975 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+Son obras especializadas que lista el resumen; dice que ninguna expresión particular de las tablas se atribuyó a estos libros sin comprobar las entradas pertinentes, de modo que son lecturas complementarias y no la fuente de las expresiones de la tabla. {cite:fsi-saudi-arabic-basic-course-urban-hijazi-dialect} {cite:ryding-2005-reference-grammar-msa}
+
+Para las seis variedades lado a lado véase [[concept/al-muqarana-bayna-lahajat-al-arabiyya|Comparación de los dialectos árabes]].

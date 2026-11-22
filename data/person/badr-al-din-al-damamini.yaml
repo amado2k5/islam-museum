@@ -1,0 +1,20 @@
+id: person/badr-al-din-al-damamini
+class: person
+label: { ar: "بدر الدين الدماميني", en: "Badr al-Din al-Damamini", ur: "بدر الدين الدماميني", fr: "Badr al-Din al-Damamini", es: "Badr al-Din al-Damamini" }
+roles: [scholar, writer]
+gender: male
+tags: [arabiyya-browser, arabiyya-scholars]
+summary:
+  ar: "بدر الدين الدماميني، مؤلف «العيون الغامزة على خبايا الرامزة»؛ ويورد ملخص بحثي قُدّم إلى المتحف تاريخ وفاته هكذا: ت 827هـ / 1424م {cite:waqfeya-al-uyun-al-ghamiza}."
+  en: "Badr al-Din al-Damamini, author of \"al-Uyun al-Ghamiza ala Khabaya al-Ramiza\"; a research summary supplied to the museum gives his date as d. 827 AH / 1424 CE {cite:waqfeya-al-uyun-al-ghamiza}."
+  ur: "بدر الدين الدماميني، «العيون الغامزة على خبايا الرامزة» کے مصنف؛ میوزیم کو دیا گیا ایک تحقیقی خلاصہ ان کی تاریخ یوں دیتا ہے: وفات 827ھ / 1424ء {cite:waqfeya-al-uyun-al-ghamiza}۔"
+  fr: "Badr al-Din al-Damamini, auteur de « al-Uyun al-Ghamiza ala Khabaya al-Ramiza » ; une synthèse de recherche remise au musée donne sa date ainsi : m. 827 H / 1424 {cite:waqfeya-al-uyun-al-ghamiza}."
+  es: "Badr al-Din al-Damamini, autor de «al-Uyun al-Ghamiza ala Khabaya al-Ramiza»; un resumen de investigación entregado al museo da su fecha así: m. 827 H. / 1424 {cite:waqfeya-al-uyun-al-ghamiza}."
+wings: [people]
+themes: [linguistics]
+died: { edtf: "1424", hijri: "0827", calendar: julian, precision: year, status: tradition, derived: true, note: "Date from a research summary supplied to the museum, pages not opened (founder approval 21 Nov 2026) {cite:waqfeya-al-uyun-al-ghamiza}." }
+relations:
+  - { type: authored, target: work/al-uyun-al-ghamiza, sources: [source/waqfeya-al-uyun-al-ghamiza] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/waqfeya-al-uyun-al-ghamiza]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

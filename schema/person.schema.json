@@ -542,7 +542,126 @@
           }
         }
       }
+    },
+    "name_parts": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Classical Arabic name as structured data (founder approved 21 Nov 2026, docs/data/name-parts.md): each element supports several values, each with its own sources, certainty and an optional link to a record that does not assert birth or descent.",
+      "properties": {
+        "ism": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/name_part"
+          }
+        },
+        "kunya": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/name_part"
+          }
+        },
+        "nasab": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/name_part"
+          }
+        },
+        "laqab": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/name_part"
+          }
+        },
+        "khitab": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/name_part"
+          }
+        },
+        "nisba": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/name_part"
+          }
+        },
+        "ancestral": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/name_part"
+          }
+        },
+        "shuhra": {
+          "$ref": "#/$defs/name_part"
+        },
+        "spellings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "variants": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/name_part"
+          }
+        }
+      }
     }
   },
-  "unevaluatedProperties": false
+  "unevaluatedProperties": false,
+  "$defs": {
+    "name_part": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value"
+      ],
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "lang": {
+          "type": "string"
+        },
+        "translit": {
+          "type": "string"
+        },
+        "meaning": {
+          "$ref": "_base.schema.json#/$defs/localized"
+        },
+        "certainty": {
+          "enum": [
+            "attested",
+            "disputed",
+            "uncertain"
+          ]
+        },
+        "link": {
+          "type": "string",
+          "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+        },
+        "link_kind": {
+          "enum": [
+            "place",
+            "tribe",
+            "occupation",
+            "dynasty",
+            "school",
+            "ancestor",
+            "other"
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          }
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
 }

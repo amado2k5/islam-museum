@@ -1,0 +1,32 @@
+id: group/majma-al-lugha-al-arabiyya-bi-dimashq
+class: group
+kind: institution
+tags: [arabiyya-browser, arabiyya-scholars]
+label:
+  ar: "مجمع اللغة العربية بدمشق"
+  en: "Arab Academy of Damascus (Majma' al-Lugha al-'Arabiyya bi-Dimashq)"
+  ur: "مجمع اللغۃ العربیہ دمشق"
+  fr: "Académie arabe de Damas (Majma' al-Lugha al-'Arabiyya bi-Dimashq)"
+  es: "Academia Árabe de Damasco (Majma' al-Lugha al-'Arabiyya bi-Dimashq)"
+summary:
+  ar: "مجمع اللغة العربية بدمشق، أقدم المجامع اللغوية العربية الحديثة كما يلخص ملف بحث قُدّم للمتحف. بدأ سنة 1918-1919 في عهد فيصل الأول، وترأسه محمد كرد علي من 1919 إلى 1953، وأصدر مجلة علمية من سنة 1921 وحقق كتباً وكلّف بمعاجم منها متن اللغة لأحمد رضا، وتصدّر التعريب بعد العهد العثماني."
+  en: "The Arab Academy of Damascus, the oldest modern Arabic language academy according to a research summary supplied to the museum. It began in 1918-1919 under Faisal I, was presided over by Muhammad Kurd Ali from 1919 to 1953, issued a scholarly journal from 1921, published critical editions and commissioned dictionaries such as Ahmad Rida's Matn al-Lugha, and led Arabisation after Ottoman rule."
+  ur: "مجمع اللغۃ العربیہ دمشق، جدید عربی لسانی مجامع میں سب سے قدیم، جیسا کہ عجائب گھر کو فراہم کردہ تحقیقی خلاصہ بتاتا ہے۔ اس کی ابتدا 1918-1919ء میں فیصل اول کے دور میں ہوئی، محمد کرد علی 1919ء سے 1953ء تک اس کے صدر رہے، اس نے 1921ء سے علمی رسالہ نکالا، کتابوں کے تنقیدی ایڈیشن شائع کیے اور احمد رضا کی متن اللغۃ جیسی لغات کی ذمہ داری دی، اور عثمانی دور کے بعد تعریب میں پیش پیش رہا۔"
+  fr: "L'Académie arabe de Damas, la plus ancienne des académies modernes de la langue arabe selon une note de recherche fournie au musée. Elle naît en 1918-1919 sous Fayçal Ier, est présidée par Muhammad Kurd Ali de 1919 à 1953, publie une revue savante dès 1921, donne des éditions critiques et commande des dictionnaires comme le Matn al-Lugha d'Ahmad Rida, et mène l'arabisation après la période ottomane."
+  es: "La Academia Árabe de Damasco, la más antigua de las academias modernas de la lengua árabe según un resumen de investigación entregado al museo. Nació en 1918-1919 bajo Faisal I, la presidió Muhammad Kurd Ali de 1919 a 1953, publicó una revista erudita desde 1921, editó críticamente libros y encargó diccionarios como el Matn al-Lugha de Ahmad Rida, y encabezó la arabización tras el dominio otomano."
+wings: [words, people]
+themes: [linguistics]
+periods: [period/modern-era]
+regions: [levant-iraq]
+founded: { edtf: "1919", calendar: gregorian, precision: year, status: historical, note: "The research summary gives the origin as 1918-1919 under Faisal I of Syria and Muhammad Kurd Ali as founding president from 1919; the exact day of the formal founding is not given.", sources: [source/wikipedia-arab-academy-of-damascus-en] }
+relations:
+  - { type: founded_by, target: person/muhammad-kurd-ali, note: "Founding president 1919-1953, as the research summary gives.", sources: [source/wikipedia-arab-academy-of-damascus-en] }
+  - { type: located_in, target: place/damascus, sources: [source/wikipedia-arab-academy-of-damascus-en] }
+  - { type: related_to, target: person/faisal-i-of-iraq, note: "The origin falls in the reign of Faisal I of Syria, as the summary gives.", sources: [source/wikipedia-arab-academy-of-damascus-en] }
+  - { type: related_to, target: person/ahmad-rida, note: "The Academy commissioned his Matn al-Lugha, as the summary gives.", sources: [source/encyclopedia-com-arab-academy-damascus] }
+  - { type: related_to, target: work/mujam-matn-al-lugha, note: "Commissioned by the Academy, as the summary gives.", sources: [source/encyclopedia-com-arab-academy-damascus] }
+  - { type: related_to, target: group/ittihad-al-majami-al-lughawiyya-al-ilmiyya-al-arabiyya, note: "One of the three founding academies of the Union.", sources: [source/wikipedia-union-of-arab-language-academies-ar] }
+  - { type: related_to, target: group/majma-al-lugha-al-arabiyya-bi-al-qahira, note: "Sister academy.", sources: [source/wikipedia-arab-academy-of-damascus-en] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (pages not opened by the museum; founder approval 21 Nov 2026) citing English and Arabic Wikipedia and Encyclopedia.com on the Arab Academy of Damascus.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-academies-1 }
+sources: [source/wikipedia-arab-academy-of-damascus-en, source/wikipedia-arab-academy-of-damascus-ar, source/encyclopedia-com-arab-academy-damascus, source/wikipedia-union-of-arab-language-academies-ar, source/alhawary-arabic-applied-linguistics-2021]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

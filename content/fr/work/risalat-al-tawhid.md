@@ -18,4 +18,4 @@ L'éditeur décrit le livre comme l'un des textes les plus importants d'Abduh, e
 L'éditeur rapporte, d'après Abduh, que l'islam prône la raison pour contrer l'imitation, et que cette dernière a affaibli l'esprit d'initiative et de créativité au sein de la communauté. Il s'agit là de l'opinion d'Abduh, qu'il exprime avec force, et qui est présentée ici comme son point de vue personnel, et non comme la position de tous les sunnites. La question de la raison et de l'imitation dans l'héritage sunnite fait l'objet de plusieurs interprétations {cite:abduh-risalat-tawhid-imara-1994 p.11}.
 
 ## Note sur la source
-Seule l'introduction a été lue à ce jour ; le texte lui-même n'a pas encore été lu. Les dates concernant Abduh, données par l'éditeur, nécessitent une vérification auprès d'une autre source avant d'être considérées comme fiables.
+L'introduction et les sections du corps du texte aux pages numérisées 63 à 70 et 82 à 84 ont été lues à ce jour ; le reste du livre n'a pas encore été lu. Les dates concernant Abduh, données par l'éditeur, nécessitent une vérification auprès d'une autre source avant d'être considérées comme fiables.

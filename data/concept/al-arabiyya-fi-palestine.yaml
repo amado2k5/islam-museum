@@ -1,0 +1,28 @@
+id: concept/al-arabiyya-fi-palestine
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في فلسطين"
+  en: "Arabic in Palestine"
+  ur: "فلسطین میں عربی"
+  fr: "L'arabe en Palestine"
+  es: "El árabe en Palestina"
+summary:
+  ar: "مكانة العربية في فلسطين كما تُقرأ في نص القانون الأساسي الفلسطيني، وفي دائرة المعارف البريطانية، وفي كتاب حقائق العالم: المادة الرابعة تجعل العربية اللغة الرسمية، والكتاب يذكر العبرية والإنجليزية إلى جانبها، وتروي الموسوعة تسمية «فلسطين» بالعربية في العصر الإسلامي الأول. ولم يُقرأ شيء عن اللهجة ولا عن أعداد المتكلمين. وأُضيف نص الحكم الدستوري بلغته الأصلية كما ورد في ملخص بحثي لم يتحقق المتحف منه على الصفحة."
+  en: "The place of Arabic in Palestine as read in the text of the Palestinian Basic Law, the Encyclopaedia Britannica and The World Factbook: Article 4 makes Arabic the official language, the Factbook lists Hebrew and English beside it, and the encyclopedia tells how the name Palestine was given in Arabic in the early Islamic era. Nothing was read on dialect or on numbers of speakers. The constitutional text is added in its original wording, as supplied in a research summary that the museum did not check against the page."
+  ur: "فلسطین میں عربی کا مقام جیسا فلسطینی بنیادی قانون کے متن، انسائیکلوپیڈیا برٹانیکا اور ورلڈ فیکٹ بک میں پڑھا گیا: چوتھی دفعہ عربی کو سرکاری زبان قرار دیتی ہے، فیکٹ بک اس کے ساتھ عبرانی اور انگریزی کا ذکر کرتی ہے، اور برٹانیکا بتاتی ہے کہ ابتدائی اسلامی دور میں «فلسطین» کا نام عربی میں کیسے پڑا۔ لہجے اور بولنے والوں کی تعداد کے بارے میں کچھ نہیں پڑھا گیا۔ آئینی حکم کی عبارت اصل زبان میں شامل کی گئی ہے، جیسی ایک تحقیقی خلاصے میں ملی جسے متحف نے صفحے سے نہیں جانچا۔"
+  fr: "La place de l'arabe en Palestine telle qu'elle se lit dans le texte de la Loi fondamentale palestinienne, l'Encyclopaedia Britannica et The World Factbook : l'article 4 fait de l'arabe la langue officielle, le Factbook cite l'hébreu et l'anglais à ses côtés, et l'encyclopédie rapporte le nom de Palestine donné en arabe au premier âge islamique. Rien n'a été lu sur le dialecte ni sur le nombre de locuteurs. Le texte constitutionnel est ajouté dans sa langue d'origine, tel que fourni par un résumé de recherche que le musée n'a pas vérifié sur la page."
+  es: "El lugar del árabe en Palestina según el texto de la Ley Fundamental palestina, la Encyclopaedia Britannica y The World Factbook: el artículo 4 hace del árabe la lengua oficial, el Factbook cita el hebreo y el inglés a su lado, y la enciclopedia cuenta cómo se dio el nombre de Palestina en árabe en la primera época islámica. No se leyó nada sobre el dialecto ni sobre el número de hablantes. Se añade el texto constitucional en su lengua original, tal como lo entrega un resumen de investigación que el museo no verificó en la página."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: place/palestine, sources: [source/britannica-palestine, source/constitute-palestine-basic-law-2005] }
+  - { type: related_to, target: language/arabic, sources: [source/constitute-palestine-basic-law-2005] }
+  - { type: related_to, target: concept/al-alam-al-arabi, sources: [source/britannica-semitic-languages] }
+  - { type: related_to, target: concept/al-fusha-wal-lahajat, sources: [source/cia-factbook-west-bank] }
+  - { type: related_to, target: concept/lughat-al-qabail, sources: [source/cia-factbook-west-bank] }
+  - { type: related_to, target: concept/lahjat-al-sham, sources: [source/cia-factbook-west-bank] }
+provenance: { layer: own-research, source: "Palestinian Basic Law 2003 rev. 2005 (Constitute Project), Britannica Palestine, CIA World Factbook West Bank and Gaza Strip pages (archived copies), read on 21 Nov 2026. Constitutional wording and official addresses supplied by the founder in a research summary, 21 Nov 2026, used without re-checking the pages. Language-share figures supplied by the founder in a research summary, 21 Nov 2026, used without re-checking the pages.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-countries-b" }
+sources: [source/britannica-arab-league, source/britannica-palestine, source/britannica-semitic-languages, source/cia-factbook-gaza-strip, source/cia-factbook-west-bank, source/constitute-palestine-basic-law-2005, source/official-constitution-palestine, source/pcbs-palestine-census-2017-metadata, source/undata-table-27]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

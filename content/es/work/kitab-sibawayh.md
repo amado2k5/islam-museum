@@ -16,3 +16,9 @@ Cuando alguien deseaba leer el libro con al-Mubarrad, este preguntaba: "¿Has na
 
 ## Edición Zain (2015)
 El Dr. Muhammad Kadhim al-Bakka reorganizó el libro mediante una «clasificación sistemática» en la que los capítulos se agrupan en secciones y partes. Su introducción expone la clasificación y sus principios. Su edición comienza con la introducción del editor, seguida de los primeros capítulos del libro, sobre «la palabra y el habla» (al-kalim wa-l-kalam) {cite:bakka-kitab-sibawayh-2015 p.9-10} {cite:bakka-kitab-sibawayh-2015 p.25}.
+
+## Lugar en el canon
+
+al-Kitab (Kitab Sibawayh) aparece en un resumen de investigación entregado al museo: una lista de sesenta de las obras más citadas sobre la lengua árabe, doce en cada una de sus cinco ciencias, donde figura en la sección «Gramática». El resumen atribuye la obra a [[person/sibawayh|Sibawayh]] y da su fecha así: muerte del autor hacia 793–796 d. C. / hacia 177–180 de la hégira. Nombra la página de Wikipedia en inglés «Sibawayh» como la página que documenta la obra {cite:wikipedia-kitab-sibawayh-en}. Sobre su presencia en la biblioteca Shamela, el resumen dice: Sí, está indexada en la biblioteca Shamela, mediante un enlace PDF de Shamela, con el identificador de libro 57057 {cite:shamela-kitab-sibawayh}.
+
+El museo tomó esto del resumen tal como está. El fundador aprobó usar el resumen sin nueva verificación el 21 de noviembre de 2026, y el museo no abrió las páginas que nombra. El museo ha leído páginas de la introducción y de los primeros capítulos de la edición de al-Bakka citada en esta página, y nada más allá. Por ello este registro no dice nada del contenido del libro, de sus capítulos, ediciones o comentarios, más allá de lo que citen otras secciones de esta página. El número del libro en Shamela es solo una referencia bibliográfica; no se copió ningún texto de él.

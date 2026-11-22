@@ -1,0 +1,31 @@
+id: event/execution-of-ghiyath-al-din-736
+class: event
+kind: death
+label:
+  ar: "إعدام غياث الدين بن رشيد الدين سنة 736"
+  en: "Execution of Ghiyath al-Din, son of Rashid al-Din, 736 AH"
+  ur: "غیاث الدین بن رشید الدین کا قتل، 736ھ"
+  fr: "Exécution de Ghiyath al-Din, fils de Rashid al-Din, 736 AH"
+  es: "Ejecución de Ghiyath al-Din, hijo de Rashid al-Din, 736 AH"
+summary:
+  ar: "أُعدم غياث الدين بن رشيد الدين في الحادي عشر من رمضان سنة 736هـ، بعد هزيمة أرباخان، الذي كان يقاتل إلى جانبه {cite:jami-al-tawarikh-khashshab-1960 p. 92}. وكان قد أُسر على يد الأمير علي، الذي استقبله بكل تكريم، لكن الأمراء الآخرين أصروا على إعدامه {cite:jami-al-tawarikh-khashshab-1960 p. 92}. وبعده بثلاثة أيام أو أربعة أُعدم أخوه بالمصير نفسه {cite:jami-al-tawarikh-khashshab-1960 p. 92}. وأعقب ذلك نهب الربع الرشيدي وبيوت الوزير وأصدقائه {cite:jami-al-tawarikh-khashshab-1960 p. 92}."
+  en: "Ghiyath al-Din, son of Rashid al-Din, was executed on 11 Ramadan 736 AH, after the defeat of Arpa Khan, for whom he had fought {cite:jami-al-tawarikh-khashshab-1960 p. 92}. He had been taken by Amir Ali, who received him with honour, but the other amirs insisted on his death {cite:jami-al-tawarikh-khashshab-1960 p. 92}. His brother met the same fate three or four days later {cite:jami-al-tawarikh-khashshab-1960 p. 92}. The Rab' Rashidi quarter, the wazir's house and his friends' houses were then looted {cite:jami-al-tawarikh-khashshab-1960 p. 92}."
+  ur: "غیاث الدین بن رشید الدین کو 11 رمضان 736ھ کو ارباخان کی شکست کے بعد قتل کیا گیا، جن کی طرف سے وہ لڑے تھے {cite:jami-al-tawarikh-khashshab-1960 p. 92}۔ ان کے بھائی کو تین یا چار دن بعد اسی انجام سے دوچار ہونا پڑا {cite:jami-al-tawarikh-khashshab-1960 p. 92}۔ اس کے بعد ربع رشیدی لوٹ لیا گیا {cite:jami-al-tawarikh-khashshab-1960 p. 92}۔"
+  fr: "Ghiyath al-Din, fils de Rashid al-Din, fut exécuté le 11 ramadan 736 AH, après la défaite d'Arpa Khan, aux côtés duquel il avait combattu {cite:jami-al-tawarikh-khashshab-1960 p. 92}. Capturé par l'émir Ali, qui le reçut avec honneur, il fut livré à la mort parce que les autres émirs l'exigeaient {cite:jami-al-tawarikh-khashshab-1960 p. 92}. Son frère subit le même sort trois ou quatre jours plus tard {cite:jami-al-tawarikh-khashshab-1960 p. 92}. Le quartier Rab' Rashidi, la maison du vizir et celles de ses amis furent alors pillés {cite:jami-al-tawarikh-khashshab-1960 p. 92}."
+  es: "Ghiyath al-Din, hijo de Rashid al-Din, fue ejecutado el 11 de ramadán de 736 AH, tras la derrota de Arpa Khan, con quien había combatido {cite:jami-al-tawarikh-khashshab-1960 p. 92}. Capturado por el emir Ali, que lo recibió con honores, fue entregado a la muerte porque los demás emires lo exigían {cite:jami-al-tawarikh-khashshab-1960 p. 92}. Su hermano corrió la misma suerte tres o cuatro días después {cite:jami-al-tawarikh-khashshab-1960 p. 92}. El barrio Rab' Rashidi, la casa del visir y las de sus amigos fueron saqueados {cite:jami-al-tawarikh-khashshab-1960 p. 92}."
+wings: [people, time]
+themes: [politics-governance-and-authority]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { hijri: "0736-09-11", calendar: julian, precision: day, status: historical, note: "11 رمضان سنة 736هـ كما يذكرها الخشاب {cite:jami-al-tawarikh-khashshab-1960 p. 92}. التحويل الميلادي غير مذكور في النص ولم يُشتق هنا." }
+relations:
+  - { type: had_participant, target: person/ghiyath-al-din-ibn-rashid, role: "المحكوم عليه بالإعدام", sources: [source/jami-al-tawarikh-khashshab-1960] }
+sources: [source/jami-al-tawarikh-khashshab-1960]
+provenance:
+  layer: own-research
+  source: "Scan pages 91 to 92 of source/jami-al-tawarikh-khashshab-1960, OCR by Apple Vision, read by the packet drafter. The date 11 Ramadan 736 is printed on scan 92; the names of the amirs in the same passage are partly garbled and are not used except Arpa Khan and Ali."
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "jami-tawarikh-v2p1-p061-120"
+status: { review: published, generated_by: "Claude Haiku 5.5" }

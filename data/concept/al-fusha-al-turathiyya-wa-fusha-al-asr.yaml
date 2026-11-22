@@ -1,0 +1,28 @@
+id: concept/al-fusha-al-turathiyya-wa-fusha-al-asr
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-lisan]
+label:
+  ar: "فصحى التراث وفصحى العصر"
+  en: "Classical Arabic and Modern Standard Arabic"
+  ur: "کلاسیکی عربی اور جدید معیاری عربی"
+  fr: "L'arabe classique et l'arabe standard moderne"
+  es: "El árabe clásico y el árabe estándar moderno"
+summary:
+  ar: "ما يقوله ملخص بحثي عن الفرق بين الفصحى الكلاسيكية للقرآن والتراث والفصحى المعاصرة: اتفاقهما في الصرف والنحو الأساسيين عند ريدنغ، واختلافهما في المفردات والتراكيب والأسلوب عند هولز وديم وصحيفة Language Log. لم يفتح المتحف الصفحات التي يستشهد بها، ولا تحكم الصفحة بين الباحثين."
+  en: "What a research summary says of the difference between the Classical Arabic of the Qur'an and the heritage and Modern Standard Arabic: their shared core morphology and grammar in Ryding, and their differences in vocabulary, syntax and style in Holes, Diem and Language Log. The museum did not open the pages it cites, and the page does not decide between scholars."
+  ur: "ایک تحقیقی خلاصہ قرآن اور ورثے کی کلاسیکی فصیح عربی اور جدید معیاری عربی کے فرق کے بارے میں جو کہتا ہے: رائڈنگ کے ہاں بنیادی صرف و نحو میں ان کی یکسانی، اور ہولز، ڈیم اور Language Log کے ہاں ذخیرۂ الفاظ، ترکیب اور اسلوب میں ان کا فرق۔ عجائب گھر نے جن صفحات کا حوالہ دیا انہیں نہیں کھولا، اور صفحہ ماہرین کے درمیان فیصلہ نہیں کرتا۔"
+  fr: "Ce que dit un résumé de recherche de la différence entre l'arabe classique du Coran et du patrimoine et l'arabe standard moderne : leur noyau commun de morphologie et de grammaire chez Ryding, et leurs différences de vocabulaire, de syntaxe et de style chez Holes, Diem et Language Log. Le musée n'a pas ouvert les pages qu'il cite, et la page ne tranche pas entre les spécialistes."
+  es: "Lo que dice un resumen de investigación sobre la diferencia entre el árabe clásico del Corán y del patrimonio y el árabe estándar moderno: su núcleo común de morfología y gramática en Ryding, y sus diferencias de vocabulario, sintaxis y estilo en Holes, Diem y Language Log. El museo no abrió las páginas que cita, y la página no decide entre los estudiosos."
+wings: [words, ideas]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: concept/al-izdiwajiyya-al-lughawiyya-fi-al-arabiyya, sources: [source/ryding-2005-reference-grammar-msa] }
+  - { type: related_to, target: concept/al-fusha-wal-lahajat, sources: [source/ryding-2005-reference-grammar-msa, source/languagelog-arabic-and-the-vernaculars-2022] }
+  - { type: related_to, target: language/arabic, sources: [source/ryding-2005-reference-grammar-msa] }
+  - { type: related_to, target: concept/al-arabiyya-lughat-al-quran, sources: [source/ryding-2005-reference-grammar-msa] }
+  - { type: related_to, target: concept/ilm-al-nahw, sources: [source/languagelog-arabic-and-the-vernaculars-2022] }
+  - { type: related_to, target: concept/ilm-al-sarf, sources: [source/ryding-2005-reference-grammar-msa] }
+provenance: { layer: own-research, source: "Research summary on Arabic diglossia, Classical and Modern Standard Arabic and teaching Arabic, supplied by the founder (compiled with Google Gemini); the museum did not open the pages it cites and used the summary with the founder's approval of 21 Nov 2026.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-diglossia-grammar-phrases-1" }
+sources: [source/ryding-2005-reference-grammar-msa, source/languagelog-arabic-and-the-vernaculars-2022, source/google-books-holes-modern-arabic, source/diem-1974-hochsprache-und-dialekt]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model; the cited pages were not opened by the museum (research summary supplied by the founder, used with his approval of 21 Nov 2026)" }

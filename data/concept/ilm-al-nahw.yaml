@@ -1,0 +1,29 @@
+id: concept/ilm-al-nahw
+class: concept
+kind: discipline
+tags: [arabiyya-browser, arabiyya-sciences]
+label:
+  ar: "علم النحو"
+  en: "Arabic grammar (nahw)"
+  ur: "علم نحو"
+  fr: "La grammaire arabe (nahw)"
+  es: "La gramática árabe (nahw)"
+summary:
+  ar: "يعرّف ابن جني النحو بأنه انتحاء سمت كلام العرب في تصرفه من إعراب وغيره، ويذكر أن الكلمة كانت مصدراً عاماً بمعنى القصد ثم خُصّت. ويرى ابن خلدون أنه أهم علوم اللسان لأنه به يُعرف الفاعل من المفعول، ويروي أن العلماء وضعوه لما تغيرت ملكة العرب، ويسمّي أبا الأسود والخليل وسيبويه. ويجعله عبد القاهر الجرجاني أساس النظم. وأصل العلم ومدرستاه لهما صفحتان."
+  en: "Ibn Jinni defines nahw as following the manner of Arab speech in its inflection and other changes, and notes that the word was a general verbal noun meaning aiming, later made specific. Ibn Khaldun holds it the most important of the sciences of the tongue because by it the agent is known from the object, and relates that scholars set it down when the Arabs' faculty changed. Abd al-Qahir al-Jurjani makes it the basis of nazm. Its origin and two schools have their own pages."
+  ur: "ابن جنی نحو کی تعریف عربوں کے کلام کے طریقے کی پیروی کے طور پر کرتے ہیں، اور ذکر کرتے ہیں کہ لفظ عام مصدر تھا جس کا مطلب ارادہ ہے، پھر خاص ہو گیا۔ ابن خلدون کے نزدیک یہ زبان کے علوم میں سب سے اہم ہے کیونکہ اس سے فاعل مفعول سے پہچانا جاتا ہے، اور علماء نے اسے تب وضع کیا جب عربوں کا ملکہ بدلا۔ عبد القاہر جرجانی اسے نظم کی بنیاد بناتے ہیں۔ اصل اور مدارس کے الگ صفحے ہیں۔"
+  fr: "Ibn Jinni définit le nahw comme le fait de suivre la manière du discours des Arabes dans sa flexion, et note que le mot était un nom verbal général signifiant viser, puis fut spécialisé. Ibn Khaldun le tient pour la plus importante des sciences de la langue parce que par lui on reconnaît l'agent de l'objet, et relate que les savants le mirent par écrit quand la faculté des Arabes changea. Abd al-Qahir al-Jurjani en fait la base du nazm. Son origine et ses deux écoles ont leurs pages."
+  es: "Ibn Jinni define el nahw como seguir la manera del discurso de los árabes en su flexión, y anota que la palabra era un nombre verbal general que significa apuntar, luego especializado. Ibn Jaldún lo tiene por la más importante de las ciencias de la lengua porque por él se conoce el agente del objeto, y cuenta que los sabios lo pusieron por escrito cuando la facultad de los árabes cambió. Abd al-Qahir al-Jurjani lo hace base del nazm. Su origen y sus dos escuelas tienen páginas propias."
+wings: [words, ideas]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: concept/ibtida-al-nahw, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+  - { type: related_to, target: concept/madrasat-al-nahw-al-basriyya-kufiyya, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+  - { type: related_to, target: concept/ilm-al-sarf, sources: [source/munsif-ibn-jinni-1954] }
+  - { type: related_to, target: concept/ulum-al-lisan-al-arabi, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+  - { type: related_to, target: concept/nazariyyat-al-ijaz-wal-nazm, sources: [source/dalail-al-ijaz-shakir-1992] }
+  - { type: related_to, target: person/sibawayh, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+  - { type: related_to, target: person/abu-al-aswad-al-duali, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+provenance: { layer: own-research, source: "al-Khasa'is (Ibn Jinni) vol. 1 p.35; Tarikh Ibn Khaldun (al-Muqaddima) vol. 1 p.753-755; Dala'il al-I'jaz (al-Jurjani) vol. 1 p.81; al-Munsif (Ibn Jinni) p.4, read on 21 Nov 2026.", generated_by: "Claude Code", model: "claude-fable-5-2", run: "arabiyya-browser-1" }
+sources: [source/khasais-najjar, source/tarikh-ibn-khaldun-shahada-1981, source/dalail-al-ijaz-shakir-1992, source/munsif-ibn-jinni-1954]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-fable-5-2); written from the cited sources, not read by a human; translations are machine translations by the same model" }

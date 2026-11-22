@@ -1,0 +1,27 @@
+id: concept/al-arabiyya-fi-sudan
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في السودان"
+  en: "Arabic in Sudan"
+  ur: "سوڈان میں عربی"
+  fr: "L'arabe au Soudan"
+  es: "El árabe en Sudán"
+summary:
+  ar: "مكانة العربية في السودان كما تقولها دائرة المعارف البريطانية وكتاب حقائق العالم: العربية والإنجليزية لغتان رسميتان، وللنوبية والبجاوية والفورية ذكر في الكتاب، وتروي الموسوعة سيادة العربية في الشمال وهجرة القبائل العربية جنوباً ونوبة النيل المستعربة ومدارس الفور القرآنية. ولا تقول الصفحتان شيئاً عن اللهجة السودانية ولا عن أعداد المتكلمين. وأُضيف نص الحكم الدستوري بلغته الأصلية كما ورد في ملخص بحثي لم يتحقق المتحف منه على الصفحة."
+  en: "The place of Arabic in Sudan as the Encyclopaedia Britannica and The World Factbook state it: Arabic and English are official, the Factbook names Nubian, Ta Bedawie and Fur, and the encyclopedia tells of the ascendancy of Arabic in the north, the southward move of Arab nomads, the Arabized Nubians of the Nile and Qur'anic schools among the Fur. The pages say nothing on the Sudanese dialect or on numbers of speakers. The constitutional text is added in its original wording, as supplied in a research summary that the museum did not check against the page."
+  ur: "سوڈان میں عربی کا مقام جیسا انسائیکلوپیڈیا برٹانیکا اور ورلڈ فیکٹ بک بیان کرتی ہیں: عربی اور انگریزی سرکاری ہیں، فیکٹ بک نوبی، تا بداوی اور فور کے نام لیتی ہے، اور برٹانیکا شمال میں عربی کے غلبے، عرب بدوؤں کی جنوب کی ہجرت، نیل کے عربی اثر والے نوبیوں اور فور قوم کے قرآنی مدارس کا ذکر کرتی ہے۔ دونوں صفحات سوڈانی لہجے اور بولنے والوں کی تعداد کے بارے میں کچھ نہیں کہتے۔ آئینی حکم کی عبارت اصل زبان میں شامل کی گئی ہے، جیسی ایک تحقیقی خلاصے میں ملی جسے متحف نے صفحے سے نہیں جانچا۔"
+  fr: "La place de l'arabe au Soudan selon l'Encyclopaedia Britannica et The World Factbook : l'arabe et l'anglais sont officiels, le Factbook nomme le nubien, le ta bedawie et le four, et l'encyclopédie raconte l'ascendant de l'arabe dans le nord, la migration des nomades arabes vers le sud, les Nubiens arabisés du Nil et les écoles coraniques des Four. Les pages ne disent rien du dialecte soudanais ni du nombre de locuteurs. Le texte constitutionnel est ajouté dans sa langue d'origine, tel que fourni par un résumé de recherche que le musée n'a pas vérifié sur la page."
+  es: "El lugar del árabe en Sudán según la Encyclopaedia Britannica y The World Factbook: el árabe y el inglés son oficiales, el Factbook nombra el nubio, el ta bedawie y el fur, y la enciclopedia cuenta el predominio del árabe en el norte, el desplazamiento de nómadas árabes hacia el sur, los nubios arabizados del Nilo y las escuelas coránicas entre los fur. Las páginas no dicen nada del dialecto sudanés ni del número de hablantes. Se añade el texto constitucional en su lengua original, tal como lo entrega un resumen de investigación que el museo no verificó en la página."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: place/sudan, sources: [source/britannica-sudan] }
+  - { type: related_to, target: language/arabic, sources: [source/britannica-sudan] }
+  - { type: related_to, target: concept/al-alam-al-arabi, sources: [source/britannica-semitic-languages] }
+  - { type: related_to, target: concept/al-fusha-wal-lahajat, sources: [source/cia-factbook-sudan] }
+  - { type: related_to, target: concept/lughat-al-qabail, sources: [source/cia-factbook-sudan] }
+provenance: { layer: own-research, source: "Britannica Sudan (main page and three sub-pages) and CIA World Factbook Sudan page (archived copy), read on 21 Nov 2026. Constitutional wording and official addresses supplied by the founder in a research summary, 21 Nov 2026, used without re-checking the pages. Language-share figures supplied by the founder in a research summary, 21 Nov 2026, used without re-checking the pages.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-countries-b" }
+sources: [source/alaraby-sudan-constitutional-document-2025, source/britannica-arab-league, source/britannica-semitic-languages, source/britannica-sudan, source/britannica-sudan-cultural-life, source/britannica-sudan-islamic-encroachments, source/britannica-sudan-spread-of-islam, source/cia-factbook-sudan, source/ihsn-sudan-census-2008, source/official-constitution-sudan, source/official-constitution-sudan-announcement, source/official-constitution-sudan-pdf, source/undata-table-27]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

@@ -1,0 +1,29 @@
+id: concept/ulum-al-lisan-al-arabi
+class: concept
+kind: discipline
+tags: [arabiyya-browser, arabiyya-sciences]
+label:
+  ar: "علوم اللسان العربي عند ابن خلدون"
+  en: "The sciences of the Arabic tongue according to Ibn Khaldun"
+  ur: "ابن خلدون کے نزدیک عربی زبان کے علوم"
+  fr: "Les sciences de la langue arabe selon Ibn Khaldun"
+  es: "Las ciencias de la lengua árabe según Ibn Jaldún"
+summary:
+  ar: "يحصر ابن خلدون في المقدمة علوم اللسان العربي في أربعة أركان هي اللغة والنحو والبيان والأدب، ويرى معرفتها ضرورية لأهل الشريعة لأن الكتاب والسنة بلغة العرب، ويقدّم النحو لأن به يُعرف الفاعل من المفعول والمبتدأ من الخبر. ثم يروي نشأة النحو لما فسدت مَلَكة العرب بمخالطة الأعاجم، وأول من كتب فيه أبو الأسود الدؤلي، ثم الخليل وسيبويه، ويذكر الكتب المتأخرة."
+  en: "In the Muqaddima Ibn Khaldun limits the sciences of the Arabic tongue to four pillars, lexicon, grammar, rhetoric and literature, and holds them necessary for the people of the Shari'a because the Book and the Sunna are in Arabic. He puts grammar first because by it the agent is known from the object. He then tells how grammar arose when the Arabs' faculty was corrupted by mixing with non-Arabs: Abu al-Aswad al-Du'ali first wrote on it, then al-Khalil and Sibawayh."
+  ur: "ابن خلدون المقدمہ میں عربی زبان کے علوم کو چار ارکان میں محدود کرتے ہیں، یعنی لغت، نحو، بیان اور ادب، اور انہیں اہل شریعت کے لیے ضروری سمجھتے ہیں کیونکہ کتاب و سنت عربی میں ہیں۔ وہ نحو کو مقدم رکھتے ہیں کیونکہ اس سے فاعل مفعول سے پہچانا جاتا ہے۔ پھر بتاتے ہیں کہ نحو کیسے وجود میں آیا جب عجمیوں سے میل جول سے عربوں کا ملکہ بگڑا: پہلے ابو الاسود دؤلی نے لکھا، پھر خلیل اور سیبویہ نے۔"
+  fr: "Dans la Muqaddima, Ibn Khaldun limite les sciences de la langue arabe à quatre piliers, le lexique, la grammaire, la rhétorique et la littérature, et les tient pour nécessaires aux gens de la Loi parce que le Livre et la Sunna sont en arabe. Il place la grammaire en tête parce que par elle on reconnaît l'agent de l'objet. Il raconte ensuite comment elle est née quand la faculté des Arabes fut altérée par le contact des non-Arabes : Abu al-Aswad al-Du'ali écrivit le premier, puis al-Khalil et Sibawayh."
+  es: "En la Muqaddima, Ibn Jaldún limita las ciencias de la lengua árabe a cuatro pilares, léxico, gramática, retórica y literatura, y las tiene por necesarias para la gente de la Ley porque el Libro y la Sunna están en árabe. Pone la gramática primero porque por ella se conoce el agente del objeto. Cuenta luego cómo nació cuando la facultad de los árabes se alteró al mezclarse con los no árabes: Abu al-Aswad al-Du'ali escribió primero, luego al-Khalil y Sibawayh."
+wings: [words, ideas]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: person/ibn-khaldun, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+  - { type: related_to, target: work/al-muqaddima, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+  - { type: related_to, target: concept/ilm-al-nahw, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+  - { type: related_to, target: concept/ibtida-al-nahw, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+  - { type: related_to, target: concept/madrasat-al-nahw-al-basriyya-kufiyya, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+  - { type: related_to, target: concept/malakat-al-lugha, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+  - { type: related_to, target: person/sibawayh, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+provenance: { layer: own-research, source: "Ibn Khaldun, Tarikh Ibn Khaldun (al-Muqaddima, ch. 45) vol. 1 p.753-755, in the Shamela copy of the Shahada edition, read on 21 Nov 2026.", generated_by: "Claude Code", model: "claude-fable-5-2", run: "arabiyya-browser-1" }
+sources: [source/tarikh-ibn-khaldun-shahada-1981]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-fable-5-2); written from the cited sources, not read by a human; translations are machine translations by the same model" }

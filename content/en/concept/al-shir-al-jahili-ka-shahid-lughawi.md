@@ -1,0 +1,23 @@
+---
+id: concept/al-shir-al-jahili-ka-shahid-lughawi
+lang: en
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Summary
+The early philologists, grammarians and Qur'an commentators took pre-Islamic poetry to be the diwan of the Arabs, that is, their register, and an authoritative body of eloquent Arabic uncorrupted by error, to which they turned to check the meanings of words, morphological forms and the rules of syntax. This page sets out two sides of that practice as a research summary supplied to the museum reports them: the use of verse in explaining rare words of the Qur'an, whose example is the Masa'il of Nafi ibn al-Azraq, and its use in building grammar, whose example is Sibawayh's al-Kitab {cite:routledge-quran-formative-interpretation-rippin} {cite:asjp-masail-nafi-ibn-al-azraq-article} {cite:archive-wansbrough-quranic-studies} {cite:dokumen-baalbaki-legacy-of-the-kitab}.
+
+## Poetry as the Arabs' register
+The summary says the early scholars of Arabic regarded pre-Islamic poetry as a reference corpus to be consulted whenever the meaning of a word, its form, or the manner of its inflection was disputed. This is the idea the famous phrase 'poetry is the diwan of the Arabs' sums up, and the museum has a wider page on its setting, [[concept/shiir-diwan-al-arab|Poetry as the Arabs' register]]. The chief sources of such citation are the odes of the poets and their other diwans, and the Mu'allaqat and their poets are set out in the page [[concept/al-muallaqat|The Mu'allaqat]].
+
+## The Masa'il of Nafi ibn al-Azraq
+In Qur'an commentary and in the books on its rare words, a line of pre-Islamic verse was brought as proof that an obscure word or a difficult expression of the Qur'an had a root in established Arab usage before Islam. The best-known case is what is called the Masa'il of [[person/nafi-ibn-al-azraq|Nafi ibn al-Azraq]], the leader of the Kharijites, who questions [[person/abdullah-ibn-abbas|Ibn Abbas]], who died in 68 AH, 687 CE, about some two hundred rare Qur'anic expressions. Of its examples the summary names one word in [[passage/quran-70-37|sura 70, verse 37]] (izin) and one in [[passage/quran-55-35|sura 55, verse 35]] (shuwaz); the text of the two verses is not given here, because Qur'an text is written only from the frozen file. Nafi demands for each answer a witness from pre-Islamic poetry, and among the witnesses of the Masa'il are lines of [[person/ubayd-ibn-al-abras|Abid ibn al-Abras]]. The summary refers here to Issa Boullata's study of Qur'an exegesis, to Ihsan Abbas, and to John Wansbrough's Quranic Studies {cite:routledge-quran-formative-interpretation-rippin} {cite:asjp-masail-nafi-ibn-al-azraq-article} {cite:archive-wansbrough-quranic-studies}. The page does not rule on whether the Masa'il truly go back to Ibn Abbas, nor on what scholars have raised about it, for the museum has read none of these references.
+
+## Sibawayh and the verse witness
+The summary reports that [[person/sibawayh|Sibawayh]], who died about 180 AH, 796 CE, built syntax and morphology on Arab speech as heard from the Bedouin, on Qur'anic readings, and on verse witnesses. From Ramzi Baalbaki it gives that in [[work/kitab-sibawayh|al-Kitab]] he cites about 1,050 lines of poetry, besides 447 Qur'anic verses and about 350 idiomatic prose patterns. He used lines now to establish a regular rule of syntax, now to tell what is allowed in speech from what belongs to poetic necessity, darura shi'riyya. These figures are ascribed to Baalbaki as the summary passed them on, and the museum has not counted them {cite:dokumen-baalbaki-legacy-of-the-kitab}.
+
+## References the summary names
+For this part the summary refers to Baalbaki's The Legacy of the Kitab, published by Brill in 2008, and its first chapter, 'The Use of Mithal and Shahid', and to Khadija al-Hadithi's al-Shahid wa-usul al-nahw fi Kitab Sibawayh of 1974 as cited in Baalbaki. For the comparison of the schools of Basra and Kufa in their use of witnesses see [[concept/madrasatay-al-basra-wal-kufa|The schools of Basra and Kufa]], and for grammar in general [[concept/ilm-al-nahw|Arabic grammar (nahw)]] {cite:dokumen-baalbaki-legacy-of-the-kitab}.
+
+## Basis
+The page rests on a research summary supplied to the museum; the museum did not open the pages named, and the founder approved relying on it as it stands on 21 November 2026. What is written here is attributed to the summary, including the numbers, dates and names. The page does not take up the scholars' question of how far the transmitted pre-Islamic verse is authentic, and it quotes no line of verse.

@@ -1,0 +1,28 @@
+id: concept/al-arabiyya-fi-oman
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في عُمان"
+  en: "Arabic in Oman"
+  ur: "عمان میں عربی"
+  fr: "L'arabe à Oman"
+  es: "El árabe en Omán"
+summary:
+  ar: "ما وُجد عن العربية في عُمان: نص المادة 3 من النظام الأساسي كما يعرضه Constitute، وأسماء اللهجتين العمانية والظفارية في شجرة Glottolog، وملاحظة جامعة مانشستر عن النبر في جنوب عُمان، مع بيان ما لم يُعثر عليه. وأُضيف نص الحكم الدستوري بلغته الأصلية كما ورد في ملخص بحثي لم يتحقق المتحف منه على الصفحة."
+  en: "What was found on Arabic in Oman: the text of Article 3 of the Basic Statute as the Constitute Project shows it, the names of the Omani and Dhofari varieties in Glottolog's tree, and the University of Manchester's remark on stress in southern Oman, with a statement of what was not found. The constitutional text is added in its original wording, as supplied in a research summary that the museum did not check against the page."
+  ur: "عمان میں عربی کے بارے میں جو ملا: نظامِ اساسی کی دفعہ 3 کا متن جیسا Constitute دکھاتا ہے، Glottolog کے شجرے میں عمانی اور ظفاری اقسام کے نام، اور مانچسٹر یونیورسٹی کا جنوبی عمان میں زور کے بارے میں اشارہ، اور جو نہیں ملا اس کا بیان۔ آئینی حکم کی عبارت اصل زبان میں شامل کی گئی ہے، جیسی ایک تحقیقی خلاصے میں ملی جسے متحف نے صفحے سے نہیں جانچا۔"
+  fr: "Ce qui a été trouvé sur l'arabe à Oman : le texte de l'article 3 de la Loi fondamentale tel que le montre le Constitute Project, les noms des variétés omanaise et dhofarie dans l'arbre de Glottolog, et la remarque de l'université de Manchester sur l'accent dans le sud d'Oman, avec l'énoncé de ce qui n'a pas été trouvé. Le texte constitutionnel est ajouté dans sa langue d'origine, tel que fourni par un résumé de recherche que le musée n'a pas vérifié sur la page."
+  es: "Lo que se encontró sobre el árabe en Omán: el texto del artículo 3 de la Ley Fundamental tal como lo muestra el Constitute Project, los nombres de las variedades omaní y dhofarí en el árbol de Glottolog, y la observación de la Universidad de Manchester sobre el acento en el sur de Omán, con el enunciado de lo que no se halló. Se añade el texto constitucional en su lengua original, tal como lo entrega un resumen de investigación que el museo no verificó en la página."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: place/oman, sources: [source/constituteproject-oman] }
+  - { type: related_to, target: concept/lahjat-al-khalij, sources: [source/manchester-arabic-structural-variation] }
+  - { type: related_to, target: concept/al-alam-al-arabi, sources: [source/britannica-semitic-languages] }
+  - { type: related_to, target: language/arabic, sources: [source/britannica-semitic-languages] }
+  - { type: related_to, target: concept/al-fusha-wal-lahajat, sources: [source/manchester-arabic-sociolinguistic] }
+  - { type: related_to, target: concept/lughat-al-qabail, sources: [source/manchester-arabic-sociolinguistic] }
+provenance: { layer: own-research, source: "Constitute Project constitution texts, Library of Congress Country Studies, University of Manchester Dialects of Arabic pages, Glottolog classification tree and Encyclopaedia Britannica records, read on 21 Nov 2026. Constitutional wording and official addresses supplied by the founder in a research summary, 21 Nov 2026, used without re-checking the pages. Language-share figures supplied by the founder in a research summary, 21 Nov 2026, used without re-checking the pages.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-countries-a" }
+sources: [source/britannica-semitic-languages, source/constituteproject-oman, source/glottolog-arabic, source/manchester-arabic-sociolinguistic, source/manchester-arabic-structural-variation, source/official-constitution-oman, source/undata-table-27, source/unsd-oman-e-census-2020]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

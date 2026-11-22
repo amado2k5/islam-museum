@@ -1,0 +1,31 @@
+---
+id: concept/al-arabiyya-fi-sudan
+lang: en
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Summary
+This page sets out the place of [[language/arabic|Arabic]] in [[place/sudan|Sudan]] from four pages of the Encyclopaedia Britannica, the main Sudan page and three sub-pages, and from the Sudan page of The World Factbook. It ascribes each statement to its page and estimates no number of speakers. The constitutional text is added in its original wording, as supplied in a research summary that the museum did not check against the page.
+
+## Official status
+Article 6(b) of the Transitional Constitutional Document, as amended in February 2025, makes Arabic and English the official languages for the work of the government and calls Arabic the most widespread national language in Sudan; the wording and its source are in the next section {cite:official-constitution-sudan}. The infobox on the encyclopedia's Sudan page lists the official languages as Arabic and English, with a footnote beside the list reading: official working language per the 2005 interim constitution {cite:britannica-sudan}. The research summary says the 2005 interim constitution was repealed by the 2019 Document, so that footnote describes an earlier text and not the provision now in force; it replaces the earlier note that the footnote was unclear. The Factbook says: Arabic (official), English (official), Nubian, Ta Bedawie, Fur {cite:cia-factbook-sudan}. The sources name the same two official languages, and the Factbook adds three language names without shares.
+
+## Constitutional text
+The Transitional Constitutional Document of 2019, as amended in February 2025, Article 6(b). The research summary supplied to the museum gives this Arabic wording: «تكون اللغتان العربية والإنجليزية اللغتين الرسميتين لأعمال الحكومة. اللغة العربية هي اللغة القومية الأوسع انتشاراً في السودان.», which the museum translates: "Arabic and English are the two official languages for the work of the government. Arabic is the most widespread national language in Sudan". The summary names the Official Gazette of the Sudan Ministry of Justice as the official source; the museum did not open that page, so the wording is taken from the summary as supplied, and the founder approved using it so on 21 November 2026 {cite:official-constitution-sudan} {cite:official-constitution-sudan-pdf} {cite:official-constitution-sudan-announcement} {cite:alaraby-sudan-constitutional-document-2025}. The summary says the 2019 Transitional Constitutional Document repealed the 2005 Interim Constitution and originally contained no language article. It says the Sovereignty Council and the Cabinet adopted the Amendment on 19 February 2025 and that it was published in the Official Gazette on 23 February 2025, with an announcement on the Ministry's site, the gazette index and a direct PDF, and that the wording was corroborated through Al-Araby Al-Jadeed.
+
+## Language shares
+No official figure. Language is omitted from the 2008 census, and the sixth census has been postponed. Issuing bodies and years named in the summary: CBS Sudan / UNSD, 2008. This section comes from a research summary supplied to the museum; the museum did not open the pages it names, and the founder approved using the summary as supplied on 21 November 2026 {cite:ihsn-sudan-census-2008} {cite:undata-table-27}.
+
+## The standard and the spoken
+The two pages read say nothing on how the standard relates to Sudanese colloquial, and name no dialect; for the duality in general see [[concept/al-fusha-wal-lahajat|Fusha and the dialects]]. All the encyclopedia says here of the general state of the language is that Islam and the Arabic language achieved ascendancy in many northern parts of the region, while older African languages and cultures predominated in the south {cite:britannica-sudan}. That page describes the region as it was before the secession of the south in 2011, so the statement should not be ascribed to today's borders alone.
+
+## Other languages in the country
+In its Ethnic groups entry the Factbook says Sudanese Arabs are approximately 70 percent, followed by Fur, Beja, Nuba, Ingessana, Uduk, Fallata, Masalit and others, and that there are over 500 groups {cite:cia-factbook-sudan}. That is the Factbook's figure for ethnic groups, not a share of Arabic speakers, and it is not made to say more. For languages of peoples elsewhere compare [[concept/lughat-al-qabail|the languages of the tribes]].
+
+## From the history of the language
+The encyclopedia says the Arabized Nubians settled along the Nile were where Muslim missionaries succeeded best, with a devotion to Islam absent among the nomadic Arabs who had first reached the Sudan after the collapse of the kingdom of Maqurrah {cite:britannica-sudan-spread-of-islam}. It tells that Arab nomads, above all the Juhaynah, moved south with their herds when Dunqulah could no longer withstand them in the 15th century, intermarried with the Nubians and introduced Arab Muslim culture to the Christian inhabitants {cite:britannica-sudan-islamic-encroachments}. Elsewhere it mentions Qur'anic schools among the Fur in which elementary Arabic, arithmetic and the Qur'an were taught {cite:britannica-sudan-cultural-life}. These are accounts of history and spread, and do not say that Arabic became the language of every group.
+
+## What this page did not reach
+Not read: the pages of the Sudanese constitutional text itself, whose wording is taken from a research summary; any Ethnologue or Glottolog classification of Sudanese Arabic or Juba Arabic; the University of Manchester dialects site, not loaded because its certificate was invalid; or any share of speakers of Arabic or any other language. The Factbook page was read in a copy archived by the Internet Archive on 29 December 2025, because the agency's site no longer serves it, and its Languages entry prints no estimate date. For the country among the Arab states see [[concept/al-alam-al-arabi|the Arab states and the League]].
+
+Note added on 21 November 2026: the Constitutional text and Language shares sections come from research summaries supplied to the museum, and the museum did not open the pages they name; where this section says a text or a share was not read, it describes the museum's own earlier reading and has been left as written.

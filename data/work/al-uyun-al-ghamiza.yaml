@@ -1,0 +1,24 @@
+id: work/al-uyun-al-ghamiza
+class: work
+kind: book
+label:
+  ar: "العيون الغامزة على خبايا الرامزة"
+  en: "al-Uyun al-Ghamiza ala Khabaya al-Ramiza (Badr al-Din al-Damamini)"
+  ur: "العيون الغامزة على خبايا الرامزة"
+  fr: "al-Uyun al-Ghamiza ala Khabaya al-Ramiza (Badr al-Din al-Damamini)"
+  es: "al-Uyun al-Ghamiza ala Khabaya al-Ramiza (Badr al-Din al-Damamini)"
+summary:
+  ar: "العيون الغامزة على خبايا الرامزة، كتاب في العروض والقوافي لمؤلفه بدر الدين الدماميني، وتاريخه بحسب ملخص بحثي قُدّم إلى المتحف: ت 827هـ / 1424م {cite:waqfeya-al-uyun-al-ghamiza}. وجواب الملخص عن وجوده في المكتبة الشاملة: لا، فقد ذكر الملف أن البحث في موقع shamela.ws لم يعثر على مطابقة . لم يقرأ المتحف الكتاب."
+  en: "al-Uyun al-Ghamiza ala Khabaya al-Ramiza, a book on prosody (arud and qawafi) by Badr al-Din al-Damamini; its date in a research summary supplied to the museum is d. 827 AH / 1424 CE {cite:waqfeya-al-uyun-al-ghamiza}. The summary's answer on its presence in the Shamela library: No: the file reports that a search of shamela.ws returned no match . The museum has not read the book."
+  ur: "العيون الغامزة على خبايا الرامزة، عروض و قوافی پر ایک کتاب، مصنف بدر الدين الدماميني؛ میوزیم کو دیے گئے تحقیقی خلاصے میں اس کی تاریخ: وفات 827ھ / 1424ء {cite:waqfeya-al-uyun-al-ghamiza}۔ شاملہ میں موجودگی پر خلاصے کا جواب: نہیں؛ فائل کے مطابق shamela.ws میں تلاش سے کوئی مطابق اندراج نہیں ملا ۔ میوزیم نے یہ کتاب نہیں پڑھی۔"
+  fr: "al-Uyun al-Ghamiza ala Khabaya al-Ramiza, livre sur la prosodie (arud et qawafi) de Badr al-Din al-Damamini ; sa date dans une synthèse de recherche remise au musée : m. 827 H / 1424 {cite:waqfeya-al-uyun-al-ghamiza}. Réponse de la synthèse sur sa présence dans la bibliothèque Shamela : Non : le fichier signale qu'une recherche sur shamela.ws n'a donné aucune correspondance . Le musée n'a pas lu le livre."
+  es: "al-Uyun al-Ghamiza ala Khabaya al-Ramiza, libro sobre prosodia (arud y qawafi) de Badr al-Din al-Damamini; su fecha en un resumen de investigación entregado al museo: m. 827 H. / 1424 {cite:waqfeya-al-uyun-al-ghamiza}. Respuesta del resumen sobre su presencia en la biblioteca Shamela: No: el archivo indica que una búsqueda en shamela.ws no dio ninguna coincidencia . El museo no ha leído el libro."
+wings: [words, ideas]
+themes: [linguistics]
+tags: [arabiyya-browser, arabiyya-books]
+relations:
+  - { type: authored_by, target: person/badr-al-din-al-damamini, sources: [source/waqfeya-al-uyun-al-ghamiza] }
+  - { type: related_to, target: concept/ilm-al-arud, sources: [source/waqfeya-al-uyun-al-ghamiza] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md, section 4); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat. The museum has not read this book.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/waqfeya-al-uyun-al-ghamiza]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }
