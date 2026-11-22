@@ -24,9 +24,6 @@ open a new block on top with the new version and today's date.
 - 92 records the museum already held (grammarians, lexicographers, books, scripts, the Arabs before Islam) now carry the browser's tags; nothing else in them changed. 42 source records were added for the editions and pages read on 21 November 2026.
 ### Tests
 - `scripts/arabiyya.test.ts` checks the detector: the verses, the known false positives (a man named Ibn al-Arabi, a bare citation of the dictionary Lisan al-Arab), and that a passage from a book harvested later is picked up.
-### Fixed
-- **The References page is light again: its list of websites and online sources now shows the first 150 and continues on its own pages** (`/{lang}/references/web/`, 400 a page), the way the book list already did. With 576 web sources the Arabic page had grown to 567 KB, over its 500 KB budget, and stopped the full build; it is now about 295 KB.
-- The place record for Khansa (from the Jami' al-Tawarikh batch) stored its name in a field places do not have; it now uses `historical_names`, so the content check passes again.
 
 ### Data (Arabic Language Browser, books chapter)
 
@@ -34,6 +31,10 @@ open a new block on top with the new version and today's date.
 - One new source record, the Damascus (Dar al-Fikr, 1985) edition of Mughni al-Labib as shown on Shamela, with its page-numbering difficulty stated on the record. The page that closes the author's preface shows the number 1316 between pages 15 and 17; it is cited as page 16 by position and marked as an inference.
 - Two difficulties are stated on the records rather than hidden: the Shamela copy of al-Sahibi carries an introduction signed by Ahmad Hasan Basaj while the museum's source record names the publisher Muhammad Ali Baydun; and the Shamela text of Dala'il al-I'jaz gives a reference to Hud 13 beside a verse whose words are those of al-Isra 88.
 - Fixed: three Arabic Language Browser concept records carried the wings value `places`, which the schema does not allow; it is now `place`.
+
+### Fixed
+- **The Arabic references page is back under its page-weight budget.** The landing of `/{lang}/references/` printed all 576 web-page records, and at 567 KB it was over the 500 KB listing budget, which failed the whole-site check of build 44988045069. The landing now shows the first 150 web pages, as it already did for the books, with a link to the full list on `/{lang}/references/web/` and its numbered sub-pages. Every record is still listed, and the other lists on the landing are unchanged.
+- **The Khansa place record passes validation again.** The record added in the Jami' al-Tawarikh batch carried a `names` field that the place schema does not define, which failed `npm run validate` and two tests on `main`. The name is already the record's English label, so the field is removed and nothing else in the record changes.
 
 ### Changed
 - **The project status page's Tranco ranking log is current to 21 November 2026.** islam.museum stands at **#716,997** on the Tranco list of 21 November 2026 (list 46YLX, read from the published list file of 4,338,665 domains) — up 140,948 places in a day, and 3,892,970 places above its first reading of #4,609,967 on 23 October 2026. The log's rows for 18–21 November and its Latest note record the climb.
@@ -220,6 +221,8 @@ open a new block on top with the new version and today's date.
 - **Assabile harvest register, fifty-seventh sync of 22 November 2026: 1 episode updated in 1 series, 1 machine transcript recorded (0 episodes added).** Episode 13 of Al-Khota al-Habib by Amr Khaled now shows its machine transcript and the state transcribed.
 - **Assabile harvest register, fifty-eighth sync of 22 November 2026: 2 episodes updated in 1 series, 2 machine transcripts recorded (0 episodes added).** Episodes 30 and 31 of Jibril wa al-Nabi by Mohamed Hassan now show their machine transcripts and the state transcribed.
 - **Assabile harvest register, fifty-ninth sync of 22 November 2026: 3 episodes updated across 2 series, 3 machine transcripts recorded (0 episodes added).** Episodes 32 and 33 of Jibril wa al-Nabi by Mohamed Hassan and episode 14 of Al-Khota al-Habib by Amr Khaled now show their machine transcripts and the state transcribed.
+- **Assabile harvest register, sixtieth sync of 22 November 2026: 1 episode updated in 1 series, 1 machine transcript recorded (0 episodes added).** Episode 15 of Al-Khota al-Habib by Amr Khaled now shows its machine transcript and the state transcribed.
+- **Assabile harvest register, sixty-first sync of 22 November 2026: 2 episodes updated in 1 series, 2 machine transcripts recorded (0 episodes added).** Episodes 34 and 35 of Jibril wa al-Nabi by Mohamed Hassan now show their machine transcripts and the state transcribed.
 ### Changed
 - **Rule change for one lane: audio of the YouTube channel @muftimenkofficial may be downloaded for local transcription (founder ruling, 21 November 2026).** The ruling is recorded in the sources policy and in the three documents that used to forbid YouTube downloads (plan 25, the audio and video harvest method, plan 15), scoped to that channel alone. The audio and transcripts stay in the harvest workspace and are never published; the museum publishes only its own wording, cited by timestamp, with a link to the video.
 
