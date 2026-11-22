@@ -1,0 +1,12 @@
+---
+id: event/banu-khuthaym-and-ibn-bustam-ask-safety-and-it-is-given-292
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/banu-khuthaym-and-ibn-bustam-ask-safety-and-it-is-given-292.md}
+---
+## Ringkasan
+"Ketika Banu Khuthaymah melihat ini, mereka berkata kepada Ibn Humayd: Entah kamu meminta keselamatan untuk kami bersama, atau kami berpisah agar masing-masing dapat menemukan keselamatan di pihaknya sendiri." Dia menjawab mereka seperti yang mereka minta {cite:sira-hadi-ila-al-haqq p.294}. Mereka memanggil Ibn Bastam, yang menemui mereka dan menyuruhnya mencari perlindungan dari al-Hadi. Dia menjawab dan pergi kepada al-Hadi untuk mencari keselamatan mereka, dan dia menjawab mereka demi keselamatan mereka {cite:sira-hadi-ila-al-haqq p.294}.
+
+## Detail
+Mereka meminta dia bertemu [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Abu Muhammad ibn Ubayd Allah]] untuk menghiburnya. Dia bertemu mereka, dan wajah serta sahabat Banu al-Harith ikut bersamanya. Mereka masuk ke al-Hadi dan mencari perlindungan bersamanya, sehingga dia mengamankan mereka {cite:sira-hadi-ila-al-haqq p.294}. Mereka memintanya untuk menjauhi desa selama dua hari sampai mereka meninggalkan tempat suci, dan dia setuju. Mereka berpisah dari desa, masing-masing kembali ke tempatnya {cite:sira-hadi-ila-al-haqq p.294}. Di sini, seperti yang disebutkan sebelumnya, 'Abu Muhammad ibn Ubayd Allah' dibaca sebagai Muhammad ibn Ubayd Allah, yang kunya adalah Abu Ja'far. Salinan digital mengonfirmasi pencetakan dalam format ini. Teks tidak disebutkan Siapa Banu Khuthaimah lebih dari sekadar kelompok di bawah Ibn Humayd, dan museum tidak mengaitkan mereka dengan [[group/al-khushaymiyyun|Khushaymiyyah yang terdaftar]]; nama di sini dicetak sebagai 'Khuthaymah' dan di halaman sebelumnya dengan sh; oleh karena itu, catatan terpisah dibuat untuk menggabungkan mereka jika terbukti bahwa mereka adalah satu. Narasi berasal dari para pendukung al-Hadi dalam sebuah buku Zaydi, dan dinyatakan bahwa al-Hadi memberikan mereka keselamatan dan museum tidak menguasainya. Setelah itu, [[event/al-hadi-enters-al-hajar-on-monday-17-shaban-292|disebutkan masuknya al-Hadi ke dalam Hajih]].

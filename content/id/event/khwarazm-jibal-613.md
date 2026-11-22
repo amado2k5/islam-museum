@@ -1,0 +1,12 @@
+---
+id: event/khwarazm-jibal-613
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/khwarazm-jibal-613.md}
+---
+## Ringkasan
+Ala al-Din Muhammad Khwarazm Shah berbaris ke tanah pegunungan, memerintahnya, menangkap Atabeg Sa'd ibn Dakla, penguasa Persia, lalu menghormatinya dan membebaskannya sebagai dasar untuk membagi tanah di antara mereka. {cite:kamil-ibn-al-athir p. 371}
+
+## Detail
+Ibn al-Athir menyebutkan dalam peristiwa tahun 614 H bahwa Khwarazm Shah berbaris ke pegunungan dan memerintah mereka. Alasan pergerakannya adalah karena ia telah merebut sungai itu, menaklukkan Khosht, dan meningkatkan kekuasaannya. Ia ingin berkhotbah di Baghdad dan diberi gelar Sultan, tetapi perintah itu adalah untuk mengusirnya. Ia marah karena ketika utusannya kembali ke Baghdad, ia akan membawa orang lain. Di antaranya adalah ketika Aghlamsh memerintah pegunungan, ia memberikan pidato di semua pegunungan. Ketika Batiniyah membunuhnya, ia marah dan pergi untuk mencegah negeri-negeri menyimpang dari ketaatannya. Ia berjalan bersama pasukan menyeberangi tanah dan tiba di Ray, di mana ia mengambil alih kendali. {cite:kamil-ibn-al-athir p. 371} Ketika Atabeg Saad ibn Dakla, penguasa Persia, mengetahui kematian Aghlamish, ia mengumpulkan pasukannya dan berjalan menuju tanah pegunungan dengan harapan menguasainya karena wilayah itu kosong. Ia tiba di Isfahan, di mana rakyatnya mematuhinya. Ia berbaris dari sana mencari irigasi tetapi tidak mengetahui kedatangan Khwarezm Shah. Ia bertemu dengan pasukan depannya, mengira mereka adalah tentara dari tanah itu, melawan mereka dan menemukan mereka hingga hampir mengalahkan mereka. Saat di sana, Jattar muncul kepada Khwarazm Shah, menanyakan tentangnya, dan memberitahunya. Ia menyerah, pasukannya dikalahkan, dan ia ditawan. Ia dibawa ke Khwarazm Shah, yang menghormatinya, berjanji kebaikan, menjamin keselamatannya, dan bersumpah akan taat. Kesepakatan antara mereka adalah beberapa wilayah akan diserahkan sementara yang lain tetap tinggal. Ia membebaskannya dan mengirim pasukan bersamanya ke Persia untuk menyerahkan apa yang telah mereka sepakati. {cite:kamil-ibn-al-athir p. 371}

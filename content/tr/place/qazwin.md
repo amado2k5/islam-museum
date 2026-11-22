@@ -1,0 +1,14 @@
+---
+id: place/qazwin
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/place/qazwin.md}
+---
+## Özet
+Kazvin, Cebel-Daylam'da bir şehirdir. El-Baladhuri, Daylam'ın karşısında yaşayan Asvaraların, Müslümanların Kazvin'de onları kandırmasıyla İslam'a geçtiklerini, tıpkı [[place/basra|Basra'nın Asvarası'nın İslam'a geçtiği]] gibi belirtir. {cite:futuh-buldan-maarif-1407 p.394}
+
+Ek bir kaynak gerekir: Verilerde olay tarihi belirtilmez.
+
+## Yaqut'un ülkeler sözlüğünde
+Yaqut, Kazvin'i dördüncü bölgede yer alan Rayı'dan yirmi yedi farsakh ve Abhar'dan on iki farsakh uzaklıkta ünlü bir şehir olarak tanımlar. {cite:mujam-al-buldan-sader-1995 4 p.342} İbn el-Fakih'ten bildirilir ki, burayı ilk kuran Sapur Dhu al-Aktaf olmuş, kalesinin Farsça'da 'Kushrin' olarak adlandırıldığı ve Daylamlılarla arasında, yeryüzünün krallarının Daylamları püskürtmek için bilezik taktığı bir dağ vardır. {cite:mujam-al-buldan-sader-1995 4 p.342} Osman bin Aftan'ın 24 yılında El-Bara' bin Azib'i Rey'den atadığı, sonra Abhar'a yürüyüp onu fethettiği, ardından Kazvin'i işgal ettiği ve Abhar'ın halkına cizye hariç kabul ettikleri şartlar sunduğu, bunun zorunlu olduğunu anlayınca İslam'a geçtikleri ve oraya yerleştikleri topraklar ondalık oldu. Aralarında beş yüz Müslüman adam yerleştirip onlara toprak kesip Tan'aha adını verdiğini belirtir. {cite:mujam-al-buldan-sader-1995 4 p.342} {cite:mujam-al-buldan-sader-1995 4 p.343} Sayın ibn As'ın, Velid bin Uqbah'tan sonra Kufa'yı ele geçirdiğinde Daylam'a saldırdığını, Kazvin'e geldiğini ve burayı Kufe halkının kalesi haline getirdiğini söyler. {cite:mujam-al-buldan-sader-1995 4 p.343} El-Hadi, Musa şehri olarak bilinen bir şehrin inşasını emretti, El-Reşid buraya girdi, camiyi inşa etti, inşa edebileceğini ayırdı ve halkına her yıl on bin dirhem vererek yükü hafifletti. {cite:mujam-al-buldan-sader-1995 4 p.343} El-Hacac'ın oğlu Muhammed El-Daylam'ı işgal ettiğini, onun Kazvin'e yerleşip El-Tevr Camii olarak bilinen bir cami inşa ettiğini. {cite:mujam-al-buldan-sader-1995 4 p.343} Hadis âlimlerinin, ezberleyenler ve eleştirmenlere göre doğru olmayan erdemler anlattığını ve bunların rivayetini atladığını söyler. {cite:mujam-al-buldan-sader-1995 4 p.343} Ona birçok kişi atfedilir; bunlar arasında El-Halil bin Abdullah ibn Al-Halil Ebu Ya'la el-Kazwini ve Sünan kitabının ezbercisi İbn Majah Ebu Abdullah Muhammed bin Yezid el-Kazwini. Ca'far bin İdris'ten bahsedilir; Cufher bin İdris, Ramazan'dan sekiz ay önce, Pazartesi günü vefat ettiği ve 209 Hicri doğumlu olduğunu söyler. {cite:mujam-al-buldan-sader-1995 4 p.344}

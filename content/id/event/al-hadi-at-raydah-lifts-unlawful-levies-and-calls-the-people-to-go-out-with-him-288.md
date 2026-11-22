@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-at-raydah-lifts-unlawful-levies-and-calls-the-people-to-go-out-with-him-288
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/al-hadi-at-raydah-lifts-unlawful-levies-and-calls-the-people-to-go-out-with-him-288.md}
+---
+## Ringkasan
+Penduduk kota [[person/al-hadi-yahya-al-rassi|berkumpul bersama]] al-Hadi di [[place/raydah-yemen|Raydah]], yang menurut komentar editor tentang Mu'jam al-Buldan, adalah sebuah kota di Yaman yang berjarak perjalanan sehari dari Sana'a, dengan mata-mata dan kebun anggurnya. Mereka bersukacita atas kedatangannya sama seperti mendengar tentang keadilannya dan penguasa tidak adil yang mereka alami {cite:sira-hadi-ila-al-haqq p.203} {cite:sira-hadi-ila-al-haqq p.204}. Ketika ia tiba di sana, ia mencabut dari rakyatnya pajak yang tidak sah atau tidak boleh dikumpulkan, dan memerintahkan rakyat untuk bersiap pergi bersamanya ke sebuah kota bernama Kharafa {cite:sira-hadi-ila-al-haqq p.204}.
+
+## Detail
+Narator mengatakan bahwa al-Hadi menunjukkan bahwa [[person/abu-al-atahiya-ibn-bishr|Abu al-Atahiyah telah]] menyerahkan sungai dan timur kepadanya, serta apa yang ada di tangan [[person/al-daam-ibn-ibrahim|para pendukung]], yang telah dikalahkan Abu al-Atahiyah. Ia memerintahkan orang-orang untuk bangkit bersamanya melakukan keliling bencana, masuk ke dalamnya, dan memeriksa orang-orang mereka. Ia menyatakan bahwa ia akan kembali setelah beberapa hari jika telah menyelesaikan semua yang telah dipercayakan Abu al-Atahiya kepadanya. Abu al-Atahiyah bermaksud menyerahkan seluruh urusan dari tangannya kepada al-Hadi, dan ada kesepakatan di antara mereka yang tidak ada seorang pun di antara rakyat yang pernah mendengar {cite:sira-hadi-ila-al-haqq p.204}. Nama-nama mata air, timur, dan kharafa adalah seperti dalam edisi cetak, tidak terkait dengan tempat-tempat. Narator menceritakan perjalanan seorang Imam Zaydi dan apa yang ia umumkan, dan tidak ada keputusan tentang museum tentangnya. Museum tersebut didahului oleh [[event/al-hadi-at-al-haira-seizes-the-offenders-and-goes-by-khiwan-to-athafit-288]] dan diikuti oleh [[event/al-hadi-goes-by-madar-and-kharaqa-to-hadaqan-near-sanaa-288]].

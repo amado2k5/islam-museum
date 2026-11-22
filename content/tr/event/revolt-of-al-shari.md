@@ -1,0 +1,14 @@
+---
+id: event/revolt-of-al-shari
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/revolt-of-al-shari.md}
+---
+## Özet
+Ebu el-Amud el-Şeri, el-Muntasir döneminde Yemen, El-Buwazic ve Musul bölgelerine gitti; yanında Rabiah ve Kürtlerden saraydan katılanlar da vardı. {cite:muruj-al-dhahab p. 520-521}
+
+## Son
+Al-Muntasir, Sama Türk'ün komutasında bir ordu gönderdi, onu yakaladı ve halifeliğe taşıdı. Al-Muntasir onu affetti, ondan bir söz aldı ve serbest bıraktı. {cite:muruj-al-dhahab p. 520-521}
+
+Verilerde kaydedilen tarih 248 H.

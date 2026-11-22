@@ -1,0 +1,27 @@
+---
+id: event/al-hadi-the-conduct-of-his-majlis-as-muhammad-ibn-ubaydallah-saw-it-286
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/al-hadi-the-conduct-of-his-majlis-as-muhammad-ibn-ubaydallah-saw-it-286.md}
+---
+## Ringkasan
+Ali ibn Muhammad [[person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi|berkata]]: Saya bertanya kepada Abu [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Muhammad ibn Ubayd Allah]] tentang pertemuan Yahya ibn al-Husayn, dan dia berkata: Saya melihat [[person/al-hadi-yahya-al-rassi|Yahya ibn al-Husayn]] dalam perhimpunannya sopan dengan tata krama Rasulullah {cite:sira-hadi-ila-al-haqq p.121}. Saya hanya mengetahui ini karena saya menuliskan tata krama Nabi dan melihat Yahya mengikutinya {cite:sira-hadi-ila-al-haqq p.121}. Laporan itu adalah Zaydi dalam suara para pengikut Imam, dan yang dipuji adalah pendapat narator, bukan keputusan ensiklopedia.
+
+## Suasana Dewan
+Ia berkata: Pertemuannya adalah ketenangan, martabat, peringatan, kesedihan, pencarian pengampunan, dan perdebatan dalam pengetahuan—tidak ada omongan kosong, tidak ada pertengkaran dengan bahasa cabul, dan tidak ada kebohongan. Ia akan menyelidiki ucapan pembicara sampai kebenarannya jelas. Ia akan mendekati yang lemah, miskin, dan yang muda dalam pertemuannya, dan memerintahkan mereka untuk melakukannya serta menunjukkan belas kasih kepada mereka {cite:sira-hadi-ila-al-haqq p.121}. Ia melihat anak itu membawa seorang anak laki-laki kecil, sehingga ia mempermalukannya sampai ia duduk dekat dengannya, mulai mengelus kepalanya, lalu memerintahkannya melakukan sesuatu {cite:sira-hadi-ila-al-haqq p.121}.
+
+## Berbicara dengan Para Pendamping Duduk
+Ia akan berbicara dengan para sahabatnya, tertawa bersama mereka, dan berdebat dengan mereka dengan segala pengetahuan sampai mereka memahami. Jika mereka mendapat jawaban, ia akan memperkenalkannya kepada mereka {cite:sira-hadi-ila-al-haqq p.122}. Ia melihat Ia menghormati bangsawan dari setiap bangsa dan mengakui nilai mereka, dan berkata bahwa tradisi itu berasal dari Rasulullah {cite:sira-hadi-ila-al-haqq p.122}. Ia bersikap sabar dan bermartabat, tidak marah karena pembicaraan berlebihan, tidak bosan dengan pertanyaan, dan ia akan menjawab setiap penanya dengan tenang, sabar, dan pengetahuan {cite:sira-hadi-ila-al-haqq p.122}.
+
+## Kesetaraan antar manusia
+Ia berkata: Yang dekat dan yang jauh, sahabat dan musuh adalah setara dalam kebenaran di hadapannya; ia tidak condong kepada siapa pun karena keinginan dalam penilaian, juga tidak berpura-pura berpengetahuan kepada siapa pun {cite:sira-hadi-ila-al-haqq p.122}. Ketika ditanya tentang ilmu pengetahuan, ia menjawabnya dengan lembut, tidak menegur siapa pun, meninggikan suaranya, dan mengkritik dengan keras kepada siapa pun, tetapi mengulang-ulang jawaban itu sampai ia memahaminya, dan tidak menjadi sombong atau sombong {cite:sira-hadi-ila-al-haqq p.122}.
+
+## Jesadnya di Dewan
+Ia mengalihkan pandangannya antara rekan-rekannya ke kanan dan kiri agar semua yang hadir memahami apa yang ia katakan dan tidak peduli dengan semua kata-katanya. Ia jarang bergerak, tidak condong di antara teman-temannya, maupun merendahkan mereka. Ia diam saat diam, tidak ragu dalam berbicara maupun lelah dalam menjawab {cite:sira-hadi-ila-al-haqq p.122}. Ia tidak akan berdiri dari teman-temannya sampai mereka berdiri, dan jika diperlukan, ia sabar sampai mereka pergi; narator tahu bahwa ia harus berdiri di hadapan itu, tetapi kemurahan hati dan kesopanan menghalanginya {cite:sira-hadi-ila-al-haqq p.122}. Ia mengatakan bahwa narator datang bahwa Nabi tidak akan berdiri dari para sahabatnya sampai mereka berpisah {cite:sira-hadi-ila-al-haqq p.123}.
+
+## Peduli pada orang lain
+Ia sangat memikirkan kebenaran umat Islam, menunjukkan belas kasih dan belas kasih, serta sering menegur orang-orang, memerintahkan mereka untuk taat dan memerintahkan kebaikan serta melarang kejahatan, serta berdebat dengan adil kepada mereka yang menentangnya. Ia tidak pernah salah dalam jawabannya tetapi bersikap lembut, mengajarkan argumennya, dan berkata: 'Lihatlah dan teguhlah' {cite:sira-hadi-ila-al-haqq p.123}. Ia akan mendengarkan dan merespons mereka yang berbicara kepadanya sampai kata-katanya selesai dan tidak terputus, lalu ia akan menjawab tanpa kasar, keras, atau bosan {cite:sira-hadi-ila-al-haqq p.123}. Ia menasihati orang untuk berbelas kasih dan terhubung, melarang mereka dari penindasan, iri hati, dan gangguan, memeriksa kondisi mereka, menanyakan urusan dan mata pencaharian mereka, serta mendisiplinkan mereka dengan tata krama yang menghiasi mereka di dunia ini dan mendekatkan mereka kepada Pencipta {cite:sira-hadi-ila-al-haqq p.123}.
+
+## Apa yang diperhatikan
+Yang di atas dijelaskan oleh satu saksi di hadapannya dengan apresiasi, dan ia mendasarkan perbandingannya dengan etiket Nabi pada apa yang ia tulis tentang etiket tersebut; deskripsi tersebut tidak merupakan keputusan dari ensiklopedia. Pada halaman pertama pertemuan tersebut, terdapat judul berjudul 'Konsili Yahya ibn al-Husayn dan Etika-Etikanya,' awalnya 'Manzala' bukan 'Majlis-nya,' yang dimodifikasi oleh editor dari salinan kedua {cite:sira-hadi-ila-al-haqq p.121}.

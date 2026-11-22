@@ -1,0 +1,25 @@
+---
+id: event/khurasani-ghazis-at-rayy-355
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/khurasani-ghazis-at-rayy-355.md}
+---
+## Özet
+355 Hicri yılındaki olaylarda, [[person/ibn-miskawayh|Miskawayh]] [[work/tajarib-al-umam|'Tajirab al-Umam]]'da Rayy' [[place/rayy|de Horasan'dan gelen büyük bir ordunun halkını]] istilacı olarak gösterdiğini, Daylam'a karşı planlarını ve ilerledikten sonra durumun nasıl tersine döndüğünü anlatır. {cite:tajarib-al-umam-surush-v6 p.259} Bu hikayeyi Miskawayh tanık olarak anlatır; o dönemde [[person/ibn-al-umayd|Rukn al-Dawla']] nın bakanı [[person/rukn-al-dawla|İbn al-'Amid'e hizmet]] ediyordu.
+
+## Gelişleri ve dekanın oğlunun tavsiyesi
+Ray'daki Rukn al-Dawla, Horasan'dan tahminen yirmi bin kişilik bir gruptan bir haber aldı; bu grupların istilacı olduğu düşünülüyordu. Sınır başı İsfuzan bin İbrahim, onların davranışlarını işgalci olarak görmediği ve tek bir liderleri olmadığı için şüphelendi; her kasabanın bir lideri vardı. {cite:tajarib-al-umam-surush-v6 p.259} İbn al-'Amid, birlikte girmelerine izin verilmemesi gerektiğini ve yaklaşık iki bin kişinin girmesi gerektiğini belirtti. Ne kadar çok adam ayrılsa, aynı sayıda kişi girmeliydi. Rukn al-Dawla reddetti ve şöyle dedi: Krallar, Horasan ordusunu koruduğum için söylemesin; bu yüzden dağınık birliklerini dağda ve İsfahan'da toplamasını tavsiye etti, ancak o da reddetti. {cite:tajarib-al-umam-surush-v6 p.260}
+
+## Talepleri
+Büyük bir fille birlikte Rayı'da kamp kurdular ve liderleri İbn el-'Amid'in toplandığı toplantıda para istediler. Onlara çok az şeyin yetebileceğini düşündü. Tüm kasabaların vergisini talep ettiler, bunun Müslüman hazinesinden bir kadın vekil için toplandığını iddia ettiler ve hiçbir kadın vekilin sınırlarındaki Romalılar ve Ermenilerin açgözlülüğünden daha büyük olmadığını iddia ettiler. {cite:tajarib-al-umam-surush-v6 p.260} Yanlarında bir ordu istediler, seslerini yükselttiler ve yanlarında hukukçular da getirdiler. {cite:tajarib-al-umam-surush-v6 p.261} Konuşma fırsatı bulamadıklarında, Daylam'a döndüler, onları kâfir ilan ettiler ve lanetlediler. Ramazan ayında, geceleri silahlı olarak dışarı çıkar, iyilik emrettiklerini iddia eder, halkın mendillerini ve sarıklarını çalarlardı. {cite:tajarib-al-umam-surush-v6 p.261}
+
+## Çatışma
+Onlar ile İbrahim bin Babi'nin bazı yoldaşları arasında bir anlaşmazlık çıktı ve bir Daylamlı adam öldü. Yaklaşık bin yağmacı Bab İbrahim'de toplandı ve savaş gece aralarında kalana kadar sürdü. {cite:tajarib-al-umam-surush-v6 p.261} Sonra İbn al-'Amid'in yaşadığı yerden Medine'ye girdiler. İbn al-'Amid onları karşıladı ve kolundan mızrakla bıçakladı. Evi ve hazinesi yağmalandı, kitap hazinesi tek başına teslim edildi ve bu da Miskawayh'e gönderildi. İbn al-'Amid ona bunu sorduğunda ve iyi durumda olduğunu söylediğinde ayrıldı ve tüm hazinelerin telafi edildiğini, bunların yerine konulmaz olduğunu söyledi. {cite:tajarib-al-umam-surush-v6 p.262} {cite:tajarib-al-umam-surush-v6 p.263} Devlet karargahı beş yüz komutanı ve yakın arkadaşı ile yaklaşık üç yüz gençten oluşuyordu. Ay ortasında Çarşamba günü Ramazan ayında Horasaniyya şehir kapılarında dağıldı, her yönden saldırdı ve valinin evine yöneldi. {cite:tajarib-al-umam-surush-v6 p.263} {cite:tajarib-al-umam-surush-v6 p.264} Meydan, kasa sandıkları taşıyan katırlarla dolup taştı, ta ki Rukn al-Dawla çıkış bulamayınca birkaç sandık kırıldı. Miskawayh şöyle diyor: "Ve ben halkla birlikteydim." Editör, dipnotta bu ifadenin Miskawayh'in otobiyografisinden olduğunu belirtiyor. {cite:tajarib-al-umam-surush-v6 p.264}
+
+## Kurnaz ve Kırıcı
+Daylamlıların ruhları düşmanlarının sayısı nedeniyle zayıfladı, bu yüzden Rukn al-Dawla al-Rikabiyyah onlara Ali ibn Kamah'ın beklediği yola doğru koşup toz kaldırmalarını emretti. Halk bağırdı ve şöyle dedi: Bu Ali ibn Kamah. Rukn al-Dawla yönetimi ele aldı ve Khurasani kırıldı. {cite:tajarib-al-umam-surush-v6 p.265} Rivayete göre, bir grup kasabada, buldukları Daylamlı kıyafetler giyenleri katlediyor ve 'kâfirler diyarında kâfirlere karşı yapılan gibi' takbir söylüyordu, ta ki Rukn al-Dawla güvenlik çağrısı yapana kadar. {cite:tajarib-al-umam-surush-v6 p.265} Sonra onların gitmelerine izin verdi ve prestijleri azaldıktan sonra esirlerini serbest bıraktı. Miskawayh, ellerindeki halde dışarı çıksalardı, Romalılardan her türlü parayı alacaklarını belirtti. {cite:tajarib-al-umam-surush-v6 p.266}
+
+## Dekan'ın Oğlu'na Takdir
+Gelinin oğlu Miskawayh, sonradan onun daha güçlü bir halk görmediğini, onları ayıran şeyin liderlerinin çokluğu ve kıskançlık olduğunu, fırsatları kaçırdıklarını duydu; bazıları ise Ray'ye girip prensin kapısında kimse olmadan geçtikleri alayları ve başka bir gece şehre girdiklerinde, yani hilal gecesiydi. {cite:tajarib-al-umam-surush-v6 p.266}

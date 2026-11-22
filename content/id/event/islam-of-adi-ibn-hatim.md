@@ -1,0 +1,28 @@
+---
+id: event/islam-of-adi-ibn-hatim
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/islam-of-adi-ibn-hatim.md}
+---
+## Ringkasan
+[[person/adi-ibn-hatim|Adi ibn Hatim]], penguasa [[group/tayy|Tayy]], melarikan diri dari Nabi ke orang Kristen Suriah, lalu kembali atas isyarat saudara perempuannya, datang ke Madinah, dan memeluk Islam setelah percakapan yang diceritakan sendiri. {cite:ibn-hisham-saqqa 4/225} {cite:ibn-hisham-saqqa 4/227}
+
+## Kebencian dan pelariannya
+Ibn Ishaq menceritakan "dalam apa yang telah sampai kepadaku" dari 'Adi bahwa tidak ada orang Arab yang membenci Nabi lebih dalam ketika mendengarnya; dia adalah orang Kristen terhormat yang berjalan di antara kaumnya di sekitar, dan sangat religius serta memerintah di antara kaumnya. {cite:ibn-hisham-saqqa 4/225} Dia memerintahkan seorang anak Arab yang sedang menggembala untanya untuk menyiapkan unta yang dipermalukan dan gemuk di dekatnya, dan mengumumkan pengumumannya ketika mendengar pasukan Muhammad telah menyeberangi negeri-negeri. Suatu hari, dia datang kepadanya dan berkata bahwa dia melihat panji-panji dan bertanya tentangnya, dan mereka berkata: Ini adalah pasukan Muhammad. {cite:ibn-hisham-saqqa 4/225} Dia menahan keluarga dan anak-anaknya untuk bergabung dengan pengikut Kristennya di Levant, sehingga dia mengikuti Jushayya. Ibn Hisham berkata: Itu juga disebut Hawshayya, dan dia meninggalkan putri Hatim di masa kini dan menetap di Levant. {cite:ibn-hisham-saqqa 4/225} Para peneliti menyebutkan bahwa Al-Jushayyah adalah gunung kabut dekat Dhariyah di tanah Najd, dan bahwa putri Hatim adalah Safanah, seperti yang disarankan Al-Suhaili. {cite:ibn-hisham-saqqa 4/225}
+
+## Putri Hatim
+Kuda-kuda Nabi memukul [[person/safana-bint-hatim|putri Hatim]] di dalam tawanan Tayy, sehingga dia berbicara kepada Nabi sampai dia dibebaskan dan dipersiapkan. Dia mengikuti saudaranya di Damaskus dan menegurnya karena dia telah bertahan dari keluarganya dan meninggalkan sisa-sisa ayahnya. Kemudian dia menyarankan agar Nabi segera bergabung dengan pria itu: jika dia seorang nabi, dia akan disukai oleh pendahulunya, dan jika dia seorang raja, dia tidak akan dipermalukan dalam kemuliaan Yaman. Dia berkata: Demi Tuhan, inilah pendapatnya. Lihatlah [[event/capture-and-release-of-hatims-daughter|penawanan dan pembebasan putri Hatim]]. {cite:ibn-hisham-saqqa 4/226} {cite:ibn-hisham-saqqa 4/227}
+
+## Kedatangannya dan Islam
+Adi keluar sampai sampai di Madinah, masuk ke masjid Nabi, menyapanya, dan berkata: Siapakah pria itu? Dia berkata: Adi ibn Hatim; maka Nabi berdiri dan bersamanya pergi ke rumahnya. {cite:ibn-hisham-saqqa 4/227} Dalam perjalanan, seorang wanita tua yang lemah bertemu dengannya, menghentikannya, dan dia berdiri lama untuk berbicara tentang kebutuhannya. Adi berkata dalam hati: Demi Allah, ini bukan sebuah kerajaan. {cite:ibn-hisham-saqqa 4/227} Ketika dia masuk ke rumahnya, dia mengambil bantal, terbuat dari kulit yang diisi serat dan melemparkannya kepadanya dan berkata: Duduklah di atas ini. Dia berkata: Sebaliknya, kamu. Dia berkata: Lebih baik kamu. Jadi Adi duduk di atasnya, dan Nabi duduk di tanah. Adi berkata dalam hati: Demi Allah, ini bukan perintah raja. {cite:ibn-hisham-saqqa 4/227} Kemudian dia berkata kepadanya: Wahai Adi ibn Hatim, bukankah engkau seorang yang tunduk? Dia berkata: Ya; bukankah engkau berjalan di antara umatmu di Mirba'? Dia berkata: Ya; dia berkata: Itu tidak sah bagimu dalam agama; dia berkata: Ya, demi Allah, dan dia tahu bahwa dia adalah nabi utusan yang tahu apa yang tidak dia ketahui. {cite:ibn-hisham-saqqa 4/227} Lalu dia berkata kepadanya: Mungkin apa yang kamu lihat akan mencegahmu masuk ke agama ini dari kebutuhan mereka, karena demi Allah, kekayaan akan meluap di antara mereka sampai tidak ada yang mengambilnya; dan mungkin apa yang kamu lihat akan menghalangimu dari banyaknya musuh mereka dan jumlah kecil mereka. Jadi biarlah dia segera mendengar tentang seorang wanita yang meninggalkan Al-Qadisiyyah dengan unta mengunjungi rumah ini tanpa rasa takut; dan mungkin itu akan mencegahmu melihat raja dan otoritas di antara yang lain. Biarlah dia segera mendengar tentang istana putih dari tanah Babilon yang ditaklukkan untuk mereka. {cite:ibn-hisham-saqqa 4/227} Dia berkata: Jadi aku memeluk Islam. {cite:ibn-hisham-saqqa 4/227}
+
+Adi biasa berkata: Dua telah berlalu dan yang ketiga masih ada. Demi Tuhan, kamu akan jadi: Aku telah melihat istana putih di tanah Babilonia dibuka, dan aku melihat wanita itu meninggalkan Al-Qadisiyyah dengan unta tanpa rasa takut, sampai dia melakukan Haji di rumah ini. Yang ketiga adalah melimpah pada kekayaan agar tidak ada yang mengambilnya. {cite:ibn-hisham-saqqa 4/227} {cite:ibn-hisham-saqqa 4/228}
+
+## Dari penjelasan para penyidik
+"Al-Murba'" mengambil seperempat rampasan karena ia adalah tuan mereka, "Al-Dhullal" adalah kecantikan yang mudah dijinakkan, dan "Al-Rukusi" berasal dari Rukusi, yaitu orang-orang yang memiliki agama antara Kristen dan Sabian; dengan dua tambahan dalam tanda kurung dari satu versi. {cite:ibn-hisham-saqqa 4/225} {cite:ibn-hisham-saqqa 4/227}
+
+## Tanda Baru
+- Seluruh laporan ini 'sesuai dengan apa yang sampai kepada saya' menurut kata-kata Adi. {cite:ibn-hisham-saqqa 4/225}
+- "Al-Joshiya," juga disebut "Al-Hawshiyya," menurut Ibn Hisham. {cite:ibn-hisham-saqqa 4/225}
+- Tahun Islamnya: 9 H atau 10 H menurut Ibn Hajar. {cite:ibn-hajar-isaba p.1014}

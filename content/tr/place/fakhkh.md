@@ -1,0 +1,18 @@
+---
+id: place/fakhkh
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/place/fakhkh.md}
+---
+## Özet
+Mu'jam al-Buldan'daki Fakh, Mekke'de bir vadidir ve 'Gün Fakh', 169 Hicri yılında Alevilerden Hüseyin bin Ali'nin Abbasi ordularıyla karşılaştığı savaşa atıfta bulunur. {cite:mujam-al-buldan-sader-1995 4 p.237} {cite:mujam-al-buldan-sader-1995 4 p.238}
+
+## Ülkeler sözlüğünde
+Yaqut, fa'nın üzerine bir fetha ve vurgulu kha ile ismi düzeltir ve 'fakh'ın kuşları yakalamak için kullanılan tuzak anlamına geldiğini, bunun Arapça olmadığını ve Arapça adının 'al-taraq' olduğunu belirtir. Sonra 'fakh'ın Mekke'de bir vadi olduğunu söyler ve Seyyid Ali'den al-Zahir vadisi olduğu bildirilir. Bilal'in bir ayetini anlatır; burada Al-Izkhar ve Al-Celil ile birlikte bir tuzakta gece geçirmek istediğini söyler; bu bir özellik aktarılmazdır. İsmin başka bir anlamı olan Peygamber 'Azim ibn al-Haris al-Muharibi tarafından verilen sudan bahseder ve bu haber al-Hazmi'ye atfedilir. {cite:mujam-al-buldan-sader-1995 4 p.237} {cite:mujam-al-buldan-sader-1995 4 p.238}
+
+## Tuzak günü
+Yaqut, el-Hüseyin bin Ali ibn el-Hasan ibn Ali ibn Ebi Talib'in 169 Hicri yılında Zhu'd-Qi'dah'a kendi çıkarı için çağrıya çıktığını anlatır. Medine'deki bir grup Alevi ona halife olarak bağlılık yemini etti ve ardından Mekke'ye yürüdü. Fakh'a ulaştığında, el-Abbas ibn Muhammed ibn Ali ibn Abdullah ibn Abdullah ibn Abbas ve diğerlerinin liderliğindeki Abbasi orduları onu karşıladı. Tarviye gününde buluştular ve ona güvenlik sundular. Fakh'a ulaştığında, Abbas ibn Muhammed ibn Ali ibn Abdullah ibn Abdullah ibn Abbas ve diğerlerinin liderliğindeki ordular onu karşıladı. Terviye gününde buluştular ve ona güvenlik sundular. Fakh'a ulaştığında, Abbas ibn Muhammed ibn Ali ibn Abdullah ibn ibn Abdullah ibn Abbas ve diğerlerinin liderliğindeki Abbasi orduları onu karşıladı. Terviye gününde buluştular ve ona güvenlik sundular. Fakh'a ulaştığında, Abbas ibn Muhammed ibn Ali ibn Abdullah ibn ibn Abdullah ibn Abbas ve diğerlerinin liderliğindeki ordular onu karşıladı. Terviye gününde buluştular ve ona güvenlik sundular. Fakh'a ulaştığında, Abbas orduları Yaqut, Mübarek el-Turki'nin onu okla vurduğu ve başını el-Hadi'ye taşıyarak öldüğü söylendiğini söyler. Askerlerinden ve ailesinden bir grup öldürüldü ve cesetleri üç gün boyunca orada kaldı ve ta ki yaratıklar onları yedikten sonra. Bu nedenle, Kerbela sonrası hiçbir felaketin bundan daha şiddetli olmadığı söylenir. Ayrıca Fakh'ın sahabeleri için iki ağıt anlatır: ilki İsa ibn Abdullah tarafından, ikincisi ise Musa ibn Davud ibn Salm tarafından babası için. Burada anlatılan ayetler aktarılmamıştır, aktarılmamıştır. Abdullah ibn Umar ve bir grup Sahabe'nin bu yerde gömüldüğünü ekler; bu Yaqut'un görüşüdür. {cite:mujam-al-buldan-sader-1995 4 p.238}
+
+## Müzenin Tanımı
+Müze kayıtları, Fakh'ı Mekke yakınlarında bir yer ve 169 Hicri yılında Aleviler Savaşı'nın gerçekleştiği yer olarak tanımlar; bu durum Ülkeler Sözlüğü'nde bulunanlarla örtüşür. Kayıttaki koordinatlar eski güzergahlardan yaklaşık olarak alınır ve Yaqut mesafe belirtmez. Bu olayın özel bir kaydı olan [[event/battle-of-fakhkh|Fah Savaşı]]'dır ve komutanı [[person/husayn-ibn-ali-sahib-fakhkh|Fekh'in sahibi El-Hüseyin bin Ali olarak kaydedilmiştir]]. Yakut, muhabirlerin anlattığı gibi Fekh gününü sunmuş ve bu iki taraf tarafından da bir yargı olarak kabul edilmemiştir.

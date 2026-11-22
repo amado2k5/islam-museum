@@ -1,0 +1,17 @@
+---
+id: place/arabian-peninsula
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/place/arabian-peninsula.md}
+---
+## Ringkasan
+Semenanjung Arab, yaitu Semenanjung Arab, adalah wilayah luas yang mencakup Hijaz, Najda, Yaman, Oman, dan lainnya. Yaqut al-Hamawi memasukkan entri 'Jazira al-Arab' dalam kamus negaranya, yang mengkaji alasan nama tersebut, batas-batasnya, dan kategorinya. {cite:mujam-al-buldan-sader-1995 2 p.137}
+
+## Dalam kamus negara Yaqut
+Yaqut menyatakan bahwa para ulama berbeda dalam mendefinisikannya, dan pernyataan terbaik tentangnya adalah apa yang diceritakan Abu al-Mundhir Hisham ibn Muhammad ibn al-Sa'ib dengan rantai dari Ibn Abbas. Alasan nama tersebut adalah karena sungai dan laut mengelilingi tanah orang Arab dari segala arah, membuatnya seperti pulau di laut, pulau-pulau. Ia kemudian menggambarkan aliran Sungai Efrat dan laut yang mengelilinginya dari Irak, kemudian Basra, Abadan hingga Qatif, Hajar, Bahrain, Qatar, Oman, Al-Shahr, Hadramawt, Aden, Yaman, Jeddah, Al-Tur, Ayla, dan Qizam Mesir. Ia menambahkan Sungai Nil yang berasal dari bagian atas Sudan di bagian baratnya, lalu pesisir Palestina, Levant, dan Qasranin. {cite:mujam-al-buldan-sader-1995 2 p.137} Lihat [[place/hadramawt|Hadramaut]] dan [[place/oman|Oman]].
+
+Menurut riwayat ini, orang Arab membagi semenanjungnya menjadi lima bagian dalam puisi dan beritanya: Tihama, Hijaz, Najd, Al-'Urud, dan Yaman. Ia menjelaskan bahwa Jabal al-Sarat, yang terbesar di antara bangsa Arab, membentang dari dasar Yaman hingga mencapai tepi Lembah Levant. Orang Arab menyebutnya Hijaz karena merupakan penghalang antara Lembah Yordan, yaitu Tihama yang rendah, dan Najd, yang tinggi; bahwa apa yang di sebelah barat gunung mencapai Saif al-Bahr adalah Tihama, dan di timur gurun Najd hingga pinggiran Irak adalah Najd; bahwa tanah Yamama, Bahrain, dan tetangganya adalah yang unggul; dan yang tersisa adalah tiga pihak ke Sana'a, Hadramawt, Al-Shahr, Oman, dan Yaman. {cite:mujam-al-buldan-sader-1995 2 p.137} Narasi menempatkan Mekah dari Tihamah, dan Medina serta Taif dari Najd dan Al-Aliyyah. {cite:mujam-al-buldan-sader-1995 2 p.137} Lihat [[place/tihama|Tihamah]], [[place/hijaz|Hejaz]], [[place/najd|Najd]], [[place/yemen|Yaman]], [[place/mecca|Mekah]], [[place/medina|Madinah]], dan [[place/taif|Taif]].
+
+Ia kemudian menyampaikan pendapat lain: dari Ibn al-A'rabi bahwa pulau itu berada di atas gurun, dan disebut pulau karena melintasi Sungai Efrat dan Tigris. {cite:mujam-al-buldan-sader-1995 2 p.137} Dan dari al-Haytham ibn 'Adi, Semenanjung Arab berasal dari Al-Adhib hingga Hadramawt; dan dari Al-Asma'i bahwa panjangnya hingga Aden adalah Abyan dan lebarnya dari Al-Ablah hingga Jeddah. {cite:mujam-al-buldan-sader-1995 2 p.138} Juga dilaporkan dari Al-Asma'i bahwa wilayah ini terbagi menjadi empat bagian: Yaman, Najd, Hijaz, dan Lembah Yordan, yang merupakan Tihamah. Di antaranya adalah Hejaz, Tihamah, Yaman, Saba, Al-Ahqaf, Al-Yamama, Al-Shihr, Hajar, Oman, Taif, Najran, Al-Hijr, tanah Thamud, tanah Kindah, pegunungan Tayy, dan segala sesuatu di antaranya. {cite:mujam-al-buldan-sader-1995 2 p.138} Lihat [[place/najran|Najran]].

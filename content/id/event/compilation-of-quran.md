@@ -1,0 +1,31 @@
+---
+id: event/compilation-of-quran
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/compilation-of-quran.md}
+---
+## Ringkasan
+Kisah penyusunan Al-Qur'an selama kekhalifahan [[person/abu-bakr|Abu Bakr]] diceritakan dari [[person/zayd-ibn-thabit|Zayd ibn Thabit]], dan asal-usulnya berasal dari Sahih al-Bukhari. {cite:sahih-al-bukhari 4986}
+
+## The Novel
+Abu Bakr mengirim surat kepada Zayd setelah pembantaian orang-orang Yamama, dan [[person/umar-ibn-al-khattab|Umar bersamanya]]. Umar berkata bahwa pembunuhan itu membuat para pembaca merasa malu dan takut banyak Al-Qur'an akan hilang, sehingga ia memutuskan untuk menyusunnya. Abu Bakr ragu-ragu karena Nabi tidak melakukannya, jadi Umar berkata itu baik, dan ia meninjaunya sampai Allah membuka dadanya. {cite:sahih-al-bukhari 4986}
+
+Kemudian Abu Bakr mengatakan kepada Zayd bahwa ia adalah pemuda bijaksana yang tidak menuduh dan telah menulis wahyu itu, serta memintanya mengikuti Al-Qur'an dan menyusunnya. Zayd ragu-ragu pada gilirannya, lalu Tuhan membuka dadanya. Ia mengumpulkan dari tulang rusuk, bahu, dan bau manusia. {cite:sahih-al-bukhari 4986}
+
+Zayd menemukan dua ayat dari akhir Surah At-Tawbah bersama [[person/khuzayma-ibn-thabit|Khuzaymah ibn Thabit]], yang tidak ditemukan pada orang lain. {cite:sahih-al-bukhari 4986}
+
+Teks lengkap menurut Al-Bukhari tentang kebajikan Al-Qur'an, yang diceritakan oleh Ibn Shihab dari Ubayd ibn al-Sabiq dari Zayd. {cite:sahih-al-bukhari 4986}
+
+## Versi Uthman dalam Narasi Al-Tabari
+
+Al-Tabari menceritakan kumpulan ini dengan rangkaian transmisi melalui Ibn Shihab al-Zuhri dan Kharijah ibn Zayd dari ayahnya Zayd ibn Thabit, kemudian melanjutkan ke salinan yang ditulis selama masa pemerintahan Utsman. Setelah kematian Abu Bakar, gulungan itu tetap berada di tangan Hafsa, istri Nabi {cite:tafsir-tabari-shakir-v01 p. 60}. Hudhayfah ibn al-Yaman datang dari Pertempuran Marj Armenia dan memberitahu Utsman bahwa rakyat Suriah membaca sesuai dengan bacaan Abu ibn Ka'b dan rakyat Irak membaca menurut Ibn Mas'ud, dan bahwa masing-masing kelompok menyatakan yang lain sebagai kafir {cite:tafsir-tabari-shakir-v01 p. 60}. Utsman memerintahkan Zayd untuk menulis Al-Qur'an bersama yang lain, menulis apa yang mereka sepakati, dan menyerahkan kepadanya apa yang mereka tidak sepakati; Aban ibn Sa'id ibn al-As menyebutkan teks di antara mereka {cite:tafsir-tabari-shakir-v01 p. 60}. 'Il' (Illa) Al-Tabari untuk membatasinya pada satu huruf disebutkan dalam [[concept/al-ahruf-al-sabaa]] dan {cite:tafsir-tabari-shakir-v01 p. 59}.
+
+## Cara Membuktikan Zaid: Dua Saksi
+Ibn Abi Dawud menceritakan bahwa Umar berkata: Barangsiapa menerima sesuatu dari Rasulullah dari Al-Qur'an, biarlah ia membawanya. Mereka biasa menulis ini di koran, tablet, dan kertas, dan ia tidak menerima apa pun dari siapa pun sampai dua saksi bersaksi. {cite:itqan-suyuti p. 383} Juga diceritakan melalui Hisham ibn Urwah dari ayahnya bahwa Abu Bakr berkata kepada 'Umar dan Zaid: 'Duduklah di pintu masjid, dan siapa pun yang membawa kalian dua saksi pada sesuatu dari Kitab Allah, tulislah.' {cite:itqan-suyuti p. 383} Ibn Hajar berkata: Tampaknya kedua saksi itu berarti hafalan dan kitab; Al-Sakhawi mengatakan mereka bersaksi bahwa apa yang tertulis ditulis di hadapan Rasulullah atau dari aspek di mana Al-Qur'an diwahyukan; dan Abu Shama mengatakan tujuan mereka bukan menulis kecuali dari kata-kata yang tepat yang ditulis di tangan Nabi, bukan sekadar hafalan. {cite:itqan-suyuti p. 384} Al-Layth ibn Sa'd berkata bahwa Surah terakhir Bara'ah hanya ditemukan bersama Abu Khuzaymah ibn Thabit, maka ia berkata: Tuliskanlah, karena Rasulullah menjadikan kesaksiannya sebagai kesaksian dua orang. {cite:itqan-suyuti p. 384}
+
+## Tempat surat kabar tetap
+Naskah-naskah itu tetap dimiliki Abu Bakr hingga Allah mengakhiri hidupnya, lalu bersama Umar selama hidupnya, kemudian bersama Hafsa bint Umar. {cite:itqan-suyuti p. 379} Ibn Hajar menyarankan bahwa apa yang ada dalam kulit dan kuda dikumpulkan sebelum disusun pada masa Abu Bakr, kemudian dalam gulungan. {cite:itqan-suyuti p. 387} Dalam kitab-kitab ilmu Al-Qur'an, terdapat riwayat tentang Ali yang menyusun Al-Qur'an setelah wafatnya Nabi. Ibn Hajar percaya bahwa tujuan mengumpulkannya adalah untuk meletakkannya di dalam petinya, dan ia menjelaskan apa yang diceritakan dari Abd Khayr dari Ali, bahwa Abu Bakr adalah yang paling dihargai di antara Al-Qur'an dan bahwa ia adalah yang pertama menyusun Kitab Allah, karena itu adalah yang paling otentik dan dapat diandalkan. {cite:itqan-suyuti p. 380} {cite:itqan-suyuti p. 381}
+
+## Perbedaan antara kedua kelompok tersebut
+Al-Suyuti mengutip Ibn al-Tin bahwa perbedaan antara kompilasi Abu Bakr dan kompilasi Uthman adalah kompilasi Abu Bakr karena kekhawatiran bahwa sebagian Al-Qur'an mungkin hilang jika kalah dalam kampanyenya, karena tidak dikumpulkan di satu tempat. Ia menyusunnya menjadi halaman-halaman yang mengatur ayat-ayat surahnya sesuai dengan apa yang telah ditetapkan Nabi untuk mereka; dan bahwa kompilasi Uthman disebabkan oleh perbedaan pendapat yang meluas dalam aspek pembacaan ketika mereka membacanya dalam bahasa mereka di berbagai bahasa, yang menyebabkan beberapa orang salah : lainnya. {cite:itqan-suyuti p. 391} Al-Harith al-Muhasibi mengatakan bahwa kepercayaan umum di antara umat adalah penyusun Al-Qur'an adalah Uthman, tetapi kenyataannya tidak demikian; sebaliknya, Uthman memimpin orang untuk membaca dengan satu cara berdasarkan pilihan yang terjadi antara dia dan mereka yang menyaksikannya di antara Muhajirun dan Ansar. Adapun yang pertama mengumpulkan kalimat, dia adalah al-Siddiq. {cite:itqan-suyuti p. 392} Al-Hakim melaporkan bahwa kompilasi ketiga adalah susunan surah pada masa Utsman. {cite:itqan-suyuti p. 387} Lihat [[event/uthman-standardizes-mushaf|Monoteisme Mushaf dalam Khalifah Uthman]], [[concept/adawat-al-kitaba-al-ula|Alat Tulis Pertama]], dan [[concept/kuttab-al-wahy|Kitab Wahyu]].

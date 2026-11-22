@@ -1,0 +1,12 @@
+---
+id: event/the-rout-the-broken-safety-and-the-imprisonment-of-the-leaders-at-sanaa-288
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/the-rout-the-broken-safety-and-the-imprisonment-of-the-leaders-at-sanaa-288.md}
+---
+## Özet
+Ali bin Muhammed [[person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi|şöyle dedi]]: Halk Sana' a'dan ayrılana kadar yenildi ve [[person/al-hadi-yahya-al-rassi|el-Hadi]] onları takip ederek mezarlıkta bir grubu öldürdü. Sonra [[person/abu-al-atahiya-ibn-bishr|Ebu el-Atahiyye onu]] takip etti ve evine dönmesini istedi. Silahsız döndü ve yoldaşlarına kapısında kalmalarını emretti {cite:sira-hadi-ila-al-haqq p.210}. [[group/al-jafatim-sanaa|El-Cafatim]], saatlerinden itibaren Ebu el-Atahiye'ye güvenlik istedi. El-Hadi onlara konuştu ve dedi ki: Ne isterseniz yapın. Ebu el-Atahiyye evlerinize gönderdi ve hepsiyle birlikte Sana'a'ya girdiler {cite:sira-hadi-ila-al-haqq p.210}. Ertesi gün el-Hadi'ye verilmesi için çağrı emredildi. orduya kadar. Bazı askerler atlarına binip erzaklarını aldı ama bir araya gelmediler. El-Hadi onlardan çirkin sözler duydu, sahip oldukları tüm güvenliği bozdu ve oybirliğiyle onunla savaşmayı kabul ettiler {cite:sira-hadi-ila-al-haqq p.210}.
+
+## Detaylar
+Ertesi gün geldiğinde, anlatıcıya göre el-Hadi yaşlılara, liderlere, adamlarına ve aralarındaki güçlü ve yolsuzlulara seslendi. Geldiklerinde ve evine döndüklerinde, onları hapse atıp hapsetmelerini emretti, silahlarını ve hayvanlarını aldı ve [[group/tabari-emigrants-with-al-hadi|Tiberlilere]] dağıttı. Kasaba sakinleşti, sakinleşti, halk sağlıklı olmaya başladı ve çatışma sona erdi, anlatıcıya göre {cite:sira-hadi-ila-al-haqq p.210}. Anlatıcının güvenliği ihlal etme ifadesi kimin ihlal ettiğini belirtmez. Müze, güvenliğin ihlal edildiğini ve ardından zorlukların onunla savaşmayı kabul ettiğini, onun dediği gibi, tercihsiz olarak kabul ettiğini bildirir. Editörün dipnotunda, ṣ versiyonu "Güvenlik, böylece güvence altına alındı." şeklinde okunur. 'Mezarlıkta grubu öldürmek' ifadesinde, orijinal konuda bir karışıklık vardır, bu yüzden müze, bir grubun öldürüldüğü gerçeğiyle sınırlıdır. Kur'an raporlarına göre, bu yargısız hapis cezasıdır ve müze bunu diğerleriyle karşılaştırmaz.

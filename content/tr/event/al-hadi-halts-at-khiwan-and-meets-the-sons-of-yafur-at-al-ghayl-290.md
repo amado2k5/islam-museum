@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-halts-at-khiwan-and-meets-the-sons-of-yafur-at-al-ghayl-290
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/al-hadi-halts-at-khiwan-and-meets-the-sons-of-yafur-at-al-ghayl-290.md}
+---
+## Özet
+Bu, 245. sayfanın sonunda sona eren cümlenin devamıdır: [[person/al-hadi-yahya-al-rassi|El-Hadi]], El-Da'[[person/al-daam-ibn-ibrahim|ile]] Khiyawan'da [[place/khiwan|kaldı ve günlerce orada kaldı]]. O dönemde İbn El-Dahhak [[person/ibn-al-dahhak-rebel-at-khiwan-286|]], Turaif ailesine [[group/banu-tarif|eğilimliydi ve kasabadan kaçtı {cite:sira-hadi-ila-al-haqq p.245} {cite:sira-hadi-ila-al-haqq p.246}. İnsanlar El-Hadi'ye gelip onun servetini kesip evini yıkmasından bahsettiler. O da öyle düşündü ve]] Dhu'd'un evine [[place/bayt-dhud-yemen|gidip birkaç gün {cite:sira-hadi-ila-al-haqq p.246} orada kaldı]].
+
+## Detaylar
+Al-Da', [[person/al-daam-ibn-ibrahim|Al Ya'far']] ın oğullarına [[group/banu-yafur|Al-Bun'da buluşmak]] için yazdı ve Al-Da'da bunu [[place/al-bawn-yemen|yaptı. Onlarla buluşmak üzere yola çıktı ve onlar]] Al-Ghayl ile [[place/al-ghayl-al-bawn-yemen|karşılaştı. Al-Hadi]], [[person/muhammad-ibn-said-ibn-yusuf|Muhammed bin Sa']] id'e Al-Da'ile birlikte Ya'far'ın oğullarının yemin etmelerini emretti. Onlar onlardan emanet, antlaşma ve antlaşmaları kabul etti. Yollarını terk etmeyi, başka bir versiyonda ise yoldan ayrılmayı kabul ettiler. Al-Hadi ve Al-Da'Sana'a yürüyecek, sonra her biri kendi yerlerine dönecekti {cite:sira-hadi-ila-al-haqq p.246}. [[event/the-strife-between-al-yafur-and-their-slaves-and-al-daams-appeal-to-al-hadi-290|Al-Ya'far arasındaki anlaşmazlık ile Al-Da']]'a yazdıkları mektup hakkında önceki rapor, ve aşağıda [[event/al-hadi-waits-at-bayt-dhud-and-falj-and-moves-by-raydah-and-madar-to-sabal-290|Dhu'ud ve Falaj'ın evinde beklenen rehber ve Subal'a nakli]] yer almaktadır. Kitapta İbn al-Dahhak yalnızca bu isimle adlandırılmıştır, bu nedenle müze, 286 Hicri yılındaki Khiyawan raporunun yazarı olduğunu iddia etmez ve onu da ilişkilendirmez; aynı şekilde Muhammed ibn Sa'id ile de bağlantılıdır. Anlatıcı, parasını kesmek isteyenlerin kimleri olduğunu belirtmemiştir.

@@ -1,0 +1,41 @@
+---
+id: event/deathbed-and-burial-of-umar
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/deathbed-and-burial-of-umar.md}
+---
+## Ringkasan
+Catatan ini mencakup apa yang diceritakan dalam kitab tentang hari-hari terakhir kehidupan Umar [[person/umar-ibn-al-khattab|ibn al-Khattab]] setelah penusukan, pembersihannya, doa untuknya, penguburannya, dan apa yang terjadi setelahnya, melengkapi [[event/death-of-umar|kematian Umar]] dan [[event/testament-of-umar-after-the-stabbing|wasiatnya setelah penusukan]]. Ia ditikam pada hari Rabu, tanggal keempat Dhu al-Hijjah, usia dua puluh tiga, hidup tiga hari, lalu meninggal. Ia dimakamkan pada hari Minggu, tanggal satu Muharram, tanggal dua puluh empat, di kamar Aisyah di samping Nabi dan Abu Bakr. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 138} {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 418}
+
+## Hari-hari terakhirnya
+Orang-orang menggendong Umar ke rumahnya saat darah mengalir, sehingga dia terbangun lalu pingsan. Ketika mereka mengingatkannya tentang shalat, dia bangun dan berkata: Tidak ada Islam bagi seseorang yang meninggalkan shalat, lalu melakukan wudhu dan berdoa. {cite:fath-al-bari scan vol. 1 p. 408} Ibn Kathir menyebutkan bahwa setelah Haji, Umar memohon kepada Allah dalam Al-Abtah untuk membawanya dan menganugerahkan syahid di tanah Nabi-Nya. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 137} Dalam riwayat Abu Ishaq, dokter berkata kepadanya: Nasihatinya, karena aku hanya berpikir kamu akan mati pada hari atau besok. {cite:fath-al-bari scan vol. 1 p. 409} Al-Muhibb al-Tabari mengatakan bahwa para ulama sejarah sepakat bahwa dia tetap tinggal setelah ditikam tiga kali dan kemudian meninggal. {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 418}
+
+Al-Muhibb al-Tabari menyebutkan bahwa ia biasa berkata saat sekarat dengan kepala bersandar di pangkuan putranya Abdullah: Saya tidak adil pada diri sendiri, kecuali saya seorang Muslim, saya berdoa dan berpuasa. {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 418}
+
+## Izin untuk mengubur
+Umar mengirim surat kepada Aisha meminta izin untuk dimakamkan bersama dua sahabatnya, dan dia memberi, seperti dalam hadis al-Bukhari. {cite:fath-al-bari scan vol. 1 p. 403} {cite:fath-al-bari scan vol. 1 p. 404} Dalam riwayat Urwah, Umar berkata: Izinkan aku dimakamkan bersama sahabatku, dan dia berkata: Ya, demi Allah. Ketika seorang pria dikirim kepadanya, dia akan berkata, 'Tidak, demi Allah, aku tidak pernah memilih mereka.' {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 408} Ibn Hajar menceritakan dari Ibn Sa'd dari Malik bahwa Umar takut dia mungkin memberi izin selama hidupnya karena kesopanan dan akan kembali setelah kematiannya, maka dia memerintahkan mereka untuk meminta izin lagi setelah kematiannya. {cite:fath-al-bari scan vol. 1 p. 413} Hafsa dan para wanita datang menangis di rumahnya selama satu jam, lalu masuk ke rumah para pria itu. {cite:fath-al-bari scan vol. 1 p. 404}
+
+## Ghusl, pelindung, dan doa
+Ibn al-Athir menyebutkan dalam 'Asad al-Ghabah' bahwa ketika Umar wafat, ia didoakan di masjid, dibawa di atas ranjang Rasulullah, dan dimandikan oleh putranya Abdullah. {cite:usd-al-ghaba scan vol. 1 p. 914} Ja'far ibn Muhammad menceritakan dari ayahnya bahwa ketika ia memandikan Umar, membalutnya, dan menggendongnya di tempat tidur, Ali berdiri di atasnya dan berkata: Tidak ada orang di dunia ini yang lebih dicintai untuk bertemu Allah dengan gulungan bukunya daripada orang berpakaian ini. Kemudian ia menangis hingga janggutnya basah kuyup. {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 419}
+
+Ada dua riwayat lengkap mengenai doa atas dirinya: Urwah ibn al-Zubayr melaporkan bahwa ketika Umar dibunuh, Ali dan Uthman bergegas memimpin doa untuk dirinya. Suhaib berkata kepada mereka: 'Datanglah kepada kalian berdua, karena Aku telah menugaskan lebih banyak dari kalian daripada hanya mengirimkan berkat kepada Umar saat aku memimpin kalian dalam doa yang telah ditetapkan.' Suhaib berdoa untuknya. {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 418} Pada awal dan akhir, Abd al-Rahman ibn Awf berkata kepada Ali dan Uthman: 'Kalian bukan salah satu dari ini; ini hanya untuk Suhayb, yang diperintahkan Umar untuk memimpin umat dalam doa.' Suhaib kemudian maju dan berdoa untuknya. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 145} Ibn Qutaybah menyebutkan, seperti yang dilaporkan oleh Ibn al-Athir, bahwa Suhaib berdoa untuknya dan bahwa dia dimakamkan bersama Rasulullah dan Abu Bakr. {cite:usd-al-ghaba scan vol. 1 p. 914}
+
+## Pemakaman dan Makam
+Di makamnya, menurut kisah Singa Hutan, putranya Abdullah, Uthman ibn Affan, Sa'id ibn Zayd, dan Abdur Rahman ibn Awf tinggal di makamnya. {cite:usd-al-ghaba scan vol. 1 p. 914} Pada awal dan akhir, umat dewan tinggal bersama putranya kecuali Talha karena ia tidak ada. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 145} Dalam hadis al-Bukhari, mereka keluar dengan peti mati dan berangkat berjalan. Abdullah ibn Umar menyambutnya dan berkata: 'Umar ibn al-Khattab meminta izin.' Aisha berkata: 'Biarkan dia masuk.' Jadi ia diterima dan diletakkan di sana bersama dua sahabatnya. {cite:fath-al-bari scan vol. 1 p. 404}
+
+Aisha mengatakan, seperti yang diceritakan oleh Ibn Hajar dari Ibn Sa'd, bahwa ia tidak mengenakan pakaian karena Umar dimakamkan di rumahnya. {cite:fath-al-bari scan vol. 1 p. 412} Ibn Hajar menceritakan dari Akhbar al-Madina dari Ibn Zubala, dengan laporan lemah, dari Sa'id ibn al-Musayyib, bahwa ketiga makam tersebut ada dalam deskripsi rumah Aisyah dan bahwa ada tempat di mana Yesus dimakamkan. Hadits menyebutkan apa yang dijatuhkan dari Nabi bahwa makamnya berada di tempat itu, begitu juga makam Abu Bakr, Umar, dan Yesus, putra Maria, yang tidak ditetapkan bersamanya. {cite:fath-al-bari scan vol. 1 p. 412} Untuk makam, lihat [[place/medina|Madinah]] dan [[building/prophets-mosque|Masjid Nabi]].
+
+## Apa yang Dia Tinggalkan
+Umar menasihatinya untuk melunasi hutangnya. Ibn Hajar menjelaskan perbedaan mengenai nilainya: delapan puluh enam ribu menurut Al-Bukhari, dan dua puluh enam ribu menurut Ibn Zubala. Nafi'an menyangkal adanya utang karena salah satu ahli waris menjual warisannya seharga seratus ribu. {cite:fath-al-bari scan vol. 1 p. 411} {cite:fath-al-bari scan vol. 1 p. 412} Ibn Kathir menyebutkan bahwa total istri yang dinikahi Umar pada era pra-Islam dan Islam adalah tujuh, dan ia memiliki tiga belas anak, termasuk Zayd yang Agung, Zayd yang Muda, Asim, Abdullah, dan tiga bernama Abd al-Rahman, Ubayd Allah, Iyad, Hafsa, Ruqayyah, dan Zaynab. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 139} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 140}
+
+## Narasi dan Perbedaannya
+- Hari penusukan dan kematian: Ibn Kathir menyarankan bahwa ia menikam empat orang yang tersisa di Dhu al-Hijjah pada hari Rabu, dan ia menyebutkan pendapat lain tentang tiga yang tersisa atau tujuh yang tersisa. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 138}
+- Pemakaman: Al-Waqidi menyebutkan dari Ibn Sa'd bahwa ia dimakamkan pada pagi bulan sabit Muharram tahun dua puluh empat, dan Uthman Al-Akhnasi menganggap keduanya sekaligus. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 138} {cite:usd-al-ghaba scan vol. 1 p. 914}
+- Usianya: Ibn Kathir menghitung sepuluh pendapat, termasuk lima puluh lima dan enam puluh tiga, dan Al-Waqidi mengatakan bahwa enam puluh adalah otentik baginya. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 138} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 139}
+- Orang yang berdoa untuknya: Suhaib dalam riwayat yang disebutkan. {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 418}
+- Mereka yang tinggal di makamnya: Abdullah, Uthman, Saeed, dan Abdul Rahman dalam satu narasi, dan orang-orang yang dikonsultasikan kecuali Talha dalam cerita lain. {cite:usd-al-ghaba scan vol. 1 p. 914} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 145}
+
+## Sumber dan Dokumentasi
+Pembukaan Bary, Singa Hutan, Riyadh Segar, Awal dan Akhir. Dan nomor halaman, nomor halaman survei.

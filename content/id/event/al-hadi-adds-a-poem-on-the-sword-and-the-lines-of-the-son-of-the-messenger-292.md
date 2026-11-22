@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-adds-a-poem-on-the-sword-and-the-lines-of-the-son-of-the-messenger-292
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/al-hadi-adds-a-poem-on-the-sword-and-the-lines-of-the-son-of-the-messenger-292.md}
+---
+## Ringkasan
+Al-Hadi juga menulis ayat-ayat lain di bagian bawah bukunya yang menyatakan bahwa tidak ada penghalang bagi rakyat terhadap kekelirukan dan korupsi kecuali pedang, dan bahwa peringatan sudah dekat dan waktu perang telah tiba {cite:sira-hadi-ila-al-haqq p.280}. Kemudian ia mengikutinya dengan dua baris panjang di mana ia mengaitkan dirinya kepada Rasul Allah dan penerusnya {cite:sira-hadi-ila-al-haqq p.281}.
+
+## Detail
+Penyair menggambarkan Imam, yang berarti dirinya sendiri, sebagai seorang yang bergantung, teguh seperti singa, selalu memaafkan lalu menyucikan, mengambil restu dan penghormatan kepada Islam, hingga pemberontakan dan penindasan berlebihan mereka berlanjut. Ia memuji mereka dalam perang, yakin akan kemenangan dari Tuhan, dan memanggil mereka untuk menemukan, berjuang, dan berjaga-jaga. Ia menyebutkan bahwa ia akan meraih dengan pedangnya yang disebut Dhu al-Fiqar di tengah semak perang sampai kegelapan terungkap, dan senjata serta tangan akan terbang pergi dan kepala jatuh. Ia menggambarkan statusnya sebagai di tengah kenabian, mengatakan bahwa ia tumbuh di antara tajam tombak {cite:sira-hadi-ila-al-haqq p.280} {cite:sira-hadi-ila-al-haqq p.281}. Ia menyimpulkan dengan mengatakan bahwa kitab telah mencapai waktunya, menghilangkan segala kebodohan dan terlarang, dan bahwa Allah melakukan apa yang Dia kehendaki {cite:sira-hadi-ila-al-haqq p.281}. Dalam dua ayat berikutnya, ia mengakui dirinya sebagai Rasul Allah dan penerusnya, mengatakan bahwa kebajikan dan pencapaiannya tak terhitung, dan sejak zaman dahulu ia telah berada di antara kehancuran perang dengan menusuk dan memukul {cite:sira-hadi-ila-al-haqq p.281}. Catatan kaki menunjuk pada bacaan naskah Sad, yang dalam aslinya adalah "dan juga kepadanya" dalam "Famam," dan "Al-Ayyam," serta fakta bahwa kata 'saq' adalah jamak dari 'saq,' yang merupakan bahasa untuk kaki. Puisi ini dikaitkan dengan Al-Hadi dalam sebuah buku Zaydi, dan klaim garis keturunan dan kebajikan ini tidak dibuktikan oleh museum, juga kata kesalahan tidak diulang.

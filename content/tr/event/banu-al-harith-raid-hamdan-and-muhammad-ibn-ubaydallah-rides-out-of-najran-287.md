@@ -1,0 +1,12 @@
+---
+id: event/banu-al-harith-raid-hamdan-and-muhammad-ibn-ubaydallah-rides-out-of-najran-287
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/banu-al-harith-raid-hamdan-and-muhammad-ibn-ubaydallah-rides-out-of-najran-287.md}
+---
+## Özet
+[[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Ebu Ca'fer Muhammed bin Ubeyd Allah]] Necerran'a [[place/najran|geldiğinde]], anlatıcıya göre halk rehberden gördükleri için onun yerinden korktu [[person/al-hadi-yahya-al-rassi|]]. Anlatıcıya göre, en iyi davranışlarda onları takip etti, fuhuş ve ahlaksızlık yapanlara karşı sertti ve doğru, dürüst olanları yanına getirdi. Hepsi onu sınadıktan ve davranışlarını öğrendikten sonra kendi ülkelerinde yaydı ve övdü. Bu, anlatıcının babasına övgüsüdür ve müze bunu böyle kaydeder {cite:sira-hadi-ila-al-haqq p.200}.
+
+## Detaylar
+Gerçek uzun süre yalan halkına göründüğünde, doğru olacağından temkinli davrandılar. [[group/banu-al-harith-ibn-kab|Banu al-Harith'ten bazı yozlaşmış kişiler]], Akililere olanları duyunca Banu al-Harith çölüne doğru yola çıktılar. Bir parça at toplayıp [[group/banu-hamdan|Hamdan'a baskın düzenlediler, ancak]] İmam'a {cite:sira-hadi-ila-al-haqq p.200} karşı verdikleri emri yerine getiremediler. Haber Muhammed bin Ubeyd Allah'a ulaştı, bu yüzden nöbetinden onları aramaya başladı ve Necran vadisinin dibine ulaştı ve hiçbirini yakalayamadı. Kabile mahallesindeyken, Banu al-Harith'ten bir adam onu takip etti Adı El-Jahir ibn Ziyad idi ve yanında sevgi gösteren Banu el-Harit'ten bir adam vardı. Yanında ordusu olmadığı için yerine dönmesini istediler ve Banu el-Harit'in üzerine düşebileceği konusunda uyardılar. Geri döneceğine yemin ettiler ve bazıları halkla birlikte gidip onları getireceklerine söz verdiler. Sonra köye döndü ve el-Hadi'ye yozlaşmışların Hamdan'a {cite:sira-hadi-ila-al-haqq p.200} {cite:sira-hadi-ila-al-haqq p.201} baskınını bildiren mektup yazdı. Bkz. [[person/al-jahir-ibn-ziyad-of-banu-al-harith]]. Basılı baskıdaki isimler Abl Vigin tarafından doğrulanmıştır. Önce [[event/al-hadis-verse-on-his-first-war-with-the-kulaybis-and-akilis-287]] ve ardından [[event/al-hadi-writes-to-banu-al-harith-in-verse-and-they-pledge-to-muhammad-ibn-ubaydallah-287]] gelir.

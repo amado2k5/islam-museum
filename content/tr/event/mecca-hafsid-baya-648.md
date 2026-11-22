@@ -1,0 +1,18 @@
+---
+id: event/mecca-hafsid-baya-648
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/mecca-hafsid-baya-648.md}
+---
+## Özet
+بعد سقوط بغداد بيد التتر وانقطاع رسم الخلافة فيها، وظهور الدعوة الحفصية بإفريقية، أجمع شريف [[place/mecca|مكة]] [[person/abu-numayy-sharif-mecca|أبو نمي]] وأخوه إدريس على مبايعة [[person/al-mustansir-hafsi|المستنصر الحفصي]]. فخطب أهل مكة له في موسم الحج. {cite:tarikh-ibn-khaldun-ibar}
+
+## دور ابن سبعين
+يذكر ابن خلدون أن الفقيه الصوفي [[person/ibn-sabin|ابن سبعين]]، وكان نازلاً بجوار الحرم، شارك الشريفين في الأمر. فأملى رسالة البيعة وكتبها بخطه. {cite:tarikh-ibn-khaldun-ibar}
+
+## نتيجة البيعة
+بحسب المصدر دخل الحرم في الدعوة الحفصية. {cite:tarikh-ibn-khaldun-ibar}
+
+## التاريخ
+جعل المصدر الحادثة في دولة المستنصر بعد وفاة أبيه سنة 647هـ، فتقدّر نحو سنة 648هـ، وهذا تحويل مشتق ⁦(نحو 1250م)⁩. لم يُذكر رقم الصفحة في البيانات، ويحتاج التأريخ إلى مصدر ثانٍ.

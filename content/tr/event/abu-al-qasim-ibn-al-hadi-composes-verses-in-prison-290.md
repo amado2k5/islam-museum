@@ -1,0 +1,12 @@
+---
+id: event/abu-al-qasim-ibn-al-hadi-composes-verses-in-prison-290
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/abu-al-qasim-ibn-al-hadi-composes-verses-in-prison-290.md}
+---
+## Özet
+"Ebu el-Kasım bin Hadi ila al-Haqq'ın Şiirlerinin Anlatı" başlığı altında kitap, Ebu el-Kasim'e hapis sırasında atfedilen ayetleri içerir {cite:sira-hadi-ila-al-haqq p.253}. Başlangıçta, kalbinin demirin ağırlığından korkmadığını ve sadece yerine getirmedikleri bir antlaşma için onları Qana'da ziyaret ettiğini söyler. Hamdan'ı onların yoldaşı olmakla ve Allah'ın Elçisi'nin korumasını korumamakla suçlar. Eğer [[group/khawlan-tribe|Khawlan yanında]] olsaydı, onu terk etmeyi kabul etmeyeceğini söyler. Sadık kalanların sadakatinden bahseder ve İmam'ı över {cite:sira-hadi-ila-al-haqq p.253} {cite:sira-hadi-ila-al-haqq p.254}. Başka bir pasajda, Turaif ailesinden birine hitap eder, amacının dünyevi bir kral olduğunu reddeder, Rabbinin intikamını aldığını, davranışları nedeniyle alay ettiğini ve babasının İmam olduğunu {cite:sira-hadi-ila-al-haqq p.254} söyler.
+
+## Detaylar
+Üçüncü bir parçada, zincirlerinin gözlerinde tozdan daha az olduğunu ve kederin karakterleri olmadığını söyler. Dördüncü bir parçada [[person/abu-al-ghasham-ibn-tarif|ise Abu al-Ghasham'a]] hitap eder ve kendi soyunu ile Shibam'ın onlar üzerindeki üzüntüsünden bahseder. Beşinci bölüm 255. sayfanın sonunda başlar ve [[event/abu-al-qasim-answers-a-woman-in-verse-on-the-fortune-of-his-captors-290|256. sayfada devam]] eder, şiir ise 265. sayfaya {cite:sira-hadi-ila-al-haqq p.254} {cite:sira-hadi-ila-al-haqq p.255} kadar devam eder. Müze, kitabın dizelerini doğrudan aktarmaz veya eleştiri sözleri kullanmaz, sadece kitapta anlatılan anlamlarını anlatır. Kitaptaki şiirler Abu al-Qasim'e atfedilir ve müze bunun atfedilmesini doğrulamamıştır. Önceki [[event/jaftam-is-seized-at-arthal-and-jailed-at-bayt-bus-290|esirler Onu kurutup Bus'un evine hapsetti]]. Ebu el-Gazam bunu yalnızca Ebu el-Gazam bin Tarif'in kaydıyla ilişkilendirdi, çünkü kitapta soyunun belirtilmediği için. Müze, orijinalin kenarlarında 'El-Bugha'nın gevşek toprakta yorumlanmasını okudu.

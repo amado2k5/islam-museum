@@ -1,0 +1,24 @@
+---
+id: event/massacre-of-the-citadel-1226
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/massacre-of-the-citadel-1226.md}
+---
+## Ringkasan
+Dalam peristiwa tahun 1226 H, [[person/abd-al-rahman-al-jabarti|Al-Jabarti]] menggambarkan dalam [[work/ajaib-al-athar|'Keajaiban Kuno']] bagaimana pasukan [[person/muhammad-ali-pasha|Muhammad Ali Pasha membunuh]] pangeran Mamluk Mesir dan pengikutnya di [[building/citadel-of-cairo|Benteng Kairo]] pada hari Jumat, tanggal enam Safar, lalu mengikuti mereka melalui rumah-rumah di kota. Di pinggir beberapa salinan, judul laporan ini berbunyi: "Penyebutan pembunuhan pangeran Mesir dan pengikutnya." {cite:ajaib-al-athar-moreh-2013-v4 p.176} {cite:ajaib-al-athar-moreh-2013-v4 p.177}
+
+## Pendahuluan
+Al-Jabarti menceritakan bahwa Pasha meniru putranya Tusun Pasha 'Sari Askar' dari karavan yang menuju Hejaz, menunjukkan kereta, dan meminta para astrolog memilih waktu untuk mengenakan jubah perjalanan kepada putranya. Ia beritahu bahwa ia mengirim tentara ke Levant bersama Shahin Bey Al-Alfi, dan Al-Jabarti menggambarkan hal ini sebagai 'salah satu ilusi.' {cite:ajaib-al-athar-moreh-2013-v4 p.176} Pada hari Kamis, pasukan kavaleri berkeliaran di pasar, menyerukan agar prosesi menjadi 'gambar tubuh tua,' dan mereka berparade dengan surat peringatan kepada para prajurit senior dan pangeran Mesir, meminta kehadiran mereka di benteng pagi-pagi dengan perhiasan dan perhiasan mereka. {cite:ajaib-al-athar-moreh-2013-v4 p.176} {cite:ajaib-al-athar-moreh-2013-v4 p.177}
+
+## Jumat
+Para pangeran dan pengikutnya menaiki kuda, masuk ke Pasha, minum kopi, dan berdebat dengan mereka. Kemudian prosesi diseret masuk: Dallah, kemudian gubernur, Muhtasib, Agha, dan Wajaqliya, kemudian pangeran Mesir, dan kemudian kelompok militer. {cite:ajaib-al-athar-moreh-2013-v4 p.177} Al-Jabarti mengatakan bahwa Pasha 'tinggal' hanya bersama Hassan Pasha, Saleh Kouj, dan Al-Katkhuda, dan menangkapnya pagi hari ke Ibrahim Agha Aghat Al-Bab. Ketika Dalat dan di belakang mereka keluar melalui gerbang Azab, Saleh Kouj memerintahkan agar gerbang ditutup, sehingga para pangeran dikurung di jurang curam yang dipahat di batu di atas gerbang Azab. Para prajurit dihentikan di tembok di atasnya, dan mereka ditembak dari bawah dan atas, tetapi mereka tidak bisa kembali karena formasi kuda di dalam ngarai. {cite:ajaib-al-athar-moreh-2013-v4 p.177} Shahin Beg, Suleiman Bey, penjaga pintu, dan lainnya turun dari kuda mereka dan menaiki pedang hingga mencapai halaman yang menghadap Balai Tiang. Shahin Beg terluka, dipenggal, dan dibawa ke Pasha. Suleiman Beg memanjat tembok menara besar dan mengejarnya dengan memukulnya hingga jatuh. {cite:ajaib-al-athar-moreh-2013-v4 p.177}
+
+Al-Jabarti menyebutkan bahwa militer tidak menunjukkan belas kasihan kepada mereka yang berbaring di antara 'anak-anak rakyat' dan warga kota yang berdandan sebagai pangeran untuk dihiasi, sambil berteriak: 'Saya bukan tentara maupun Mamluk,' dan bahwa mereka yang menangkapnya hidup-hidup dipenjara, lalu leher mereka dipukul satu per satu di halaman Diwan hingga sesi malam. {cite:ajaib-al-athar-moreh-2013-v4 p.177} {cite:ajaib-al-athar-moreh-2013-v4 p.178}
+
+## Di kota
+Ketika keributan terjadi, orang-orang melarikan diri dari toko, lalu tentara dikirim ke rumah para pangeran dan tetangga mereka untuk menjarah, menangkap wanita dan pelayan, serta merampok perhiasan mereka. Al-Jabarti menceritakan bahwa beberapa dari mereka memotong tangan seorang wanita sehingga tidak bisa segera dilepas borgolnya. {cite:ajaib-al-athar-moreh-2013-v4 p.178} Banyak rumah bangsawan yang bukan pangeran yang dimaksudkan dijarah, termasuk beberapa yang ditugaskan untuk melayani pasha. {cite:ajaib-al-athar-moreh-2013-v4 p.179} Pada hari Sabtu, pasha turun dari benteng dan melewati gendarmerie, menegur mereka karena menjarah, dan Al-Jabarti berkomentar bahwa mereka adalah yang pertama menjarah. {cite:ajaib-al-athar-moreh-2013-v4 p.179}
+
+## Hasil
+Al-Jabarti berkata: "Dalam insiden ini, lebih dari seribu orang tewas—komandan, tentara, pengintai, dan Mamluk." Mayat mereka dibawa di atas kayu dan dilemparkan ke dalam lubang di Rumaila bertumpuk, yang tidak dibedakan pangeran dari yang lain, menyebutnya sebagai "salah satu insiden paling mengerikan yang belum pernah terjadi sebelumnya." {cite:ajaib-al-athar-moreh-2013-v4 p.181} Hanya Ahmed Bey yang selamat dari milenium karena ketidakhadirannya di Hutan, dan Amin Beyk, yang memanjat dari benteng dan melarikan diri ke Levant. Omar Bey membunuh Al-Alfi di Fayoum dan mengirim kepalanya, dan gubernur Al-Minya mengirim tiga puluh lima kepala. {cite:ajaib-al-athar-moreh-2013-v4 p.181}

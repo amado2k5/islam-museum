@@ -1,0 +1,12 @@
+---
+id: event/the-dearth-and-the-arms-ban-on-banu-al-harith-and-yam-at-najran-291
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/the-dearth-and-the-arms-ban-on-banu-al-harith-and-yam-at-najran-291.md}
+---
+## Özet
+Ali bin Muhammed şöyle dedi: Yemen'de bir felaket oldu, ülkeye yayıldı ve insanlar orada birbirini yedi. Anlatıcının anlattığı gibi, yozlaşmış ve yalancı insanlar, Banu al-Haris ve Yam Ali Amil al-Hadi'den Necran'da {cite:sira-hadi-ila-al-haqq p.274} gerçeğe yükseldi. Muhammed bin Ubeyd Allah şöyle dedi: Onlara karşı sert davrandım ve bunu reddettim, elimden geleni aldım, onları hapse attım ve demire attım, Sa'de'ye götürdüm, vadinin tepesinden silah taşımalarını yasakladım ki kimse silah taşımasın. İnsanlar şaşkına döndü, şehir güvence altına alındı ve sahte adamlar teslim oldu. {cite:sira-hadi-ila-al-haqq p.274}.
+
+## Detaylar
+O zamanlar yanında ordusu yoktu, sadece yaklaşık yirmi adamla (bir el yazmasında, s. 26) hizmet etti ve kendisi ile çocukları tarafından kendisine verilen yükümlülüğü yerine getirdi, Allah bu konuda yardımcıydı. Bir süre bu görevde kaldı, ta ki Al-Hatmah {cite:sira-hadi-ila-al-haqq p.274} {cite:sira-hadi-ila-al-haqq p.275} ortaya çıkana kadar. Orijinalin dipnotunda başlık şöyle geçer: "Hadi'nin ajanının Necran'da Banu al-Harith'e karşı silah taşımasının yasaklanması" ve dipnotta Al-Hutmah'ın katı bir sünnet olduğunu açıklar. Ebu [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Ca'fer Muhammed bin Ubeyd Allah olan Muhammed ibn]] Ubeyd Allah konuşur, birinci şahıs halinde, Necran'daki El-Hadi valisi ve Ebu el-Ravi [[person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi|Ali bin Muhammed]]'dir. Anlatım, işçinin karşıtlarını, bir Zeydi kitabındaki anlatıcının ifadesinden alınan niteliklerle tanımlar ve müze bunları bir hüküm olarak bildirmez; kitapta hapsedilenlerin isimleri yer almaz. Kuraklığın kendisi [[event/ibn-khalaf-flees-to-tihama-and-abu-al-qasim-enters-sanaa-with-the-sons-of-yafur-291|bu yılki Sana'a raporunda]] da geçer. Tarih yıl içinde doğrudur. Bahsedilen grup, daha önce Necran raporlarında bahsedilen [[group/banu-al-harith-ibn-kab|Banu el-Harit]]'e yakındır ve bu bağlantı mümkündür, kesin değildir. Bu rapor, Ebu el-Kasim'in [[place/saada|Sa'da'ya dönüşünden]] sonradır.

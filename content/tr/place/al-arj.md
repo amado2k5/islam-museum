@@ -1,0 +1,19 @@
+---
+id: place/al-arj
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/place/al-arj.md}
+---
+## Özet
+Al-Arj, İbn İshaq tarafından Göç Yolu'nda bahsedilen, Kube [[place/quba|ile Mekke arasındaki göç güzergahında yer alan bir topraktır]] ; bu eserin yazarı Al-Hareeq Al-Makhutum'un yazarıdır. {cite:mubarakpuri-raheeq}
+
+Ek bir kaynak gerekir: hassas konumlandırma.
+
+## Ülkeler sözlüğünde
+Yakut, 'al-Arj' adını 'ayn' üzerine bir fetha ve ra'ya bir sukun ile yazar ve anlamında şu ifadeler sunar: Ebu Zeyd'e göre çok sayıda deve, Ebu Hatim'e göre iki yüzün üzerinde ve neredeyse bin, İbn al-Sikkit'e göre ise yaklaşık seksen. {cite:mujam-al-buldan-sader-1995 4 p.98} İbn el-Kalbi'den rivayet edilir ki, Tub'a, Medine halkıyla Mekke'ye giden savaştan döndüğünde topal hayvanlar görmüş ve yere buna göre isim vermiştir. Kathir'e göre, yol ondan uzaklaşır. {cite:mujam-al-buldan-sader-1995 4 p.98} Daha sonra burayı şair el-'Arji Abdullah ibn 'Ömer ibn 'Amr ibn Osman ibn Affan tarafından atfedilen Taif diyarındaki bir vadide büyük bir köy olarak tanımlar; Tihamah'ın ilk köyü olduğunu, Medine ile arasında yetmiş sekiz mil uzaklıkta, Hudhayl topraklarında yer aldığını belirtir. Bu nedenle, Ebu Dhu'ayb'a ait ve Hawazin ile bağlantılı bir evde yer alır. {cite:mujam-al-buldan-sader-1995 4 p.98} {cite:mujam-al-buldan-sader-1995 4 p.99} Sonra İshaq'tan, Banu Nasr ibn Muaviye diyarında el-Arji'ye ait Al-Arj adlı bir bahçenin hikayesini anlatır ve Şarkılar Kitabı'na atıfta bulunur. {cite:mujam-al-buldan-sader-1995 4 p.99} 'Jazirah al-Arab'daki Al-Asma'i'den rivayet edilir ki, Taif diyarında 'Arj'den farklı olan ve Mekke ile Medine arasında yer alan 'Arraj' adlı bir vadi vardır. {cite:mujam-al-buldan-sader-1995 4 p.99}
+
+Sonra Al-Hazmi'den ekler ki, 'Al-Arj, hac kervanlarının seyahat ettiği Mekke ile Medine arasındaki engelin ve sulama bağlamının adı olduğunu, dağının Lübnan Dağı'na bağlandığını ve Yemen'de sütçülerle saldırganlar arasında bir topallık olduğunu belirtir. Evindeki köpek kavgası için hangisinin kullanıldığını bilmediğini itiraf eder. {cite:mujam-al-buldan-sader-1995 4 p.99} 'Rikwab'da, El-Arj iki toprak arasında olduğu ve Peygamber'in göçü sırasında Dhu al-Bajadayn ile birlikte geçtiği engebeli ve engebeli bir yerdir; 'Al-Ruwaithah'da ise 'Arj ile Al-Ruha' arasında bir yemek istasyonudur. {cite:mujam-al-buldan-sader-1995 3 p.64} {cite:mujam-al-buldan-sader-1995 3 p.105}
+
+## Müzenin Tanımı
+Müze kartında, El-Mübarekfuri'den alınan kartta, İbn İshaq tarafından belirtilen Kube ile Mekke arasındaki göç yolunda 'al-Arj' ve tam konum için ek bir kaynak olarak belirtilmiştir. Yakut ise bir maddede ayrılması gereken anlamları toplar: 'al-Arj' (Hudhayl topraklarındaki Taif çevresindeki 'birleştirici köy'), ardından 'al-Arj' Mekke ile Medine arasında Hac Yolu'nda engel olarak atfedilen 'al-Arj' ve ardından 'Arj al-Yaman' (yol). Al-Asma' (Al-Asmaman) 'Ben kendim bildirdim ki, 'Taif Arj'ı' Mekke ile Medine arasındaki 'Arj al-Taif' yolu değildir. 'Medine ile arasında yetmiş sekiz mil vardır' ifadesi ilk köyü tanımlamak için kullanılır, bu yüzden 'Taif Arj'ına mı yoksa yolun çıkıntısına mı atıfta bulunduğu belirsizdir; ifade açıktır. Müze kartıyla eşleşen şey, Hac Yolu'nda binerken yapılan topallıktır ve Yaqut'un okuması bunun Peygamber'in göçüyle bağlantısını destekler, ancak bu müzenin tanımıdır, Yaqut hakkında bir karar değildir. Kart noktası (23.8644, 39.1244) bir alan olarak kayıtlıdır; şehrin müze noktasına 83,6 km, Quba'ya 81,4 km ve Mekke'ye 280,9 km uzaklıktadır; mil farkı nedeniyle doğrudan yetmiş sekiz mil ile kıyaslanamaz.

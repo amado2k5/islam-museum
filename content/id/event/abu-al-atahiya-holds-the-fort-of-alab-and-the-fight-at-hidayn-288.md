@@ -1,0 +1,12 @@
+---
+id: event/abu-al-atahiya-holds-the-fort-of-alab-and-the-fight-at-hidayn-288
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/abu-al-atahiya-holds-the-fort-of-alab-and-the-fight-at-hidayn-288.md}
+---
+## Ringkasan
+Ketika hari Senin memasuki hari lima hari Shawwal, [[person/al-hadi-yahya-al-rassi|Al-Hadi]] [[person/abu-al-atahiya-ibn-bishr|memerintahkan Abu Al-Atahiya]] untuk pergi dengan kemah ke Benteng [[place/alab-sanaa-yemen|Alab]] dan menginap di sana pada Selasa malam. Ketika salat fajar selesai, beberapa kuda rakyat menyerbu benteng, sehingga ia turun dari kuda dan mengusir mereka, membunuh beberapa dari mereka, dan kembali ke posisinya {cite:sira-hadi-ila-al-haqq p.232}. Orang-orang itu berangkat bersama pasukan mereka ke tempat bernama [[place/hidayn-sanaa-yemen|Haddin]], sehingga Abu Al-Atahiya mengirim surat kepada Al-Hadi untuk memberitahukan kepadanya. Al-Hadi pergi bersama semua pasukannya, dan Abu Al-Atahiya turun dari benteng bersama mereka. Al-Hadi maju ke arah mereka hingga mencapai dua batas dan akhirnya kewalahan. Rekan-rekannya berada di kanan, kiri, dan tengah, dan Abu al-Atahiyah serta yang bersamanya berada di Al-Maysarah {cite:sira-hadi-ila-al-haqq p.232}. Orang-orang menyerangnya, dan Al-Hadi beserta pasukannya menyerang Al-Maysarah dan memukul mereka mundur, mengalahkan mereka, dan pedang berhenti melawan mereka, membunuh banyak dari mereka. Mereka maju ke dua perbatasan, dan [[person/ali-ibn-sulayman-ibn-al-qasim|Ali ibn Sulayman]] {cite:sira-hadi-ila-al-haqq p.232} mengikuti mereka.
+
+## Detail
+Editor menambahkan dalam catatan kaki pernyataan penulis Ghayat al-Amani: Tabar Hudayn, Al-Hamdani mengatakan bahwa Tabar adalah gunung dekat Sana'a, dan seorang penulis hadis yang namanya tercantum dalam catatan kaki bahwa pegunungan Hadayn terletak sekitar tujuh kilometer di selatan Sana'a {cite:sira-hadi-ila-al-haqq p.232}. Senin adalah lima hari setelah Shawwal tidak sesuai dengan kalender, sehingga museum tidak menyediakan hari yang tepat. Berita tersebut berkaitan dengan [[event/the-deaths-of-ali-ibn-sulayman-and-abu-al-atahiya-at-hidayn-288|pembunuhan Ali ibn Sulayman dan Abu al-Atahiyah di Hadin]].

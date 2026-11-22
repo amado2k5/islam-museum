@@ -1,0 +1,24 @@
+---
+id: work/al-mujam-al-awsat
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/work/al-mujam-al-awsat.md}
+---
+## Genel Bakış
+Süleyman bin Ahmed el-Tebarani'nin Orta Sözlüğü, üç sözlüğünden biri; İbn Nasir al-Din şöyle derdi ki, el-Teberni'nin onun hakkında şöyle derdi: O ruhani çünkü onu çalıştı {cite:shadharat-dhahab p. 30}.
+
+## Abu Ishaq al-Huwaini'nin 'İnci Kabukları'nda
+Ebu İshaq el-Huveyi [[person/abu-ishaq-al-heweny|]], Musnad al-Bazzar, el-Teberni'nin 'Al-Awsat'ı ve İbn 'Adi'nin 'El-Kamil'i gibi yazarlarının hadislerine eleştiri içeren kitapları sevdiğini, bunları geçici amaçlarla okuduğunu ve faydalarını kaydettiğini söyler. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep27 00:20:00} El-Teberni'nin kendisini en çok 'Tanbih al-Hajid' adlı kitabında eleştirdiğini söyler., bu yüzden eleştirilerini topladı ve bunlara '... el-Tabarani'nin ortasında ortaya çıkan yanlış anlamalarla.' başlıklı bir kitapta ekledi. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep28 00:23:30} 'al-Awsat'ın metinlerinin çoğunlukla doğru olduğunu, ancak sorunun aktarım zincirlerinde yattığını söyler; çünkü el-Tebarani bunu bir aktarım zinciri olarak sınıflandırmıştır. Eğer reddedilmiş zincire sahip ünlü bir hadis kabul edilmezse, altında el-Buhari ve Müslüman'ın anlattığını yazmak doğru değildir; bunun yerine 'Bu zincirle reddedildi' yazıp gerekçesini açıklamak doğru olur. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep28 00:25:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep28 00:26:00} El-Tebarani'nin önünde dursa ayaklarını yıkadığını ama kimsenin hatasız olmadığını söylüyor ve yeni baskıda birçok eleştirisini geri çekti, kitap baskıya hazır. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep28 00:24:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep28 00:26:30}
+
+## Dar al-Haramain baskısındaki konusu ve metodolojisi
+
+Dar al-Haramazn baskısının editörü, 'Al-Wasat'ın konusunun nadir ve faydalı hadislerin derlemesi ve bunların tuhaflığı ile benzersizlik veya çelişkisinin açıkça belirtilmesi olduğuna inanır. Onlar için hadislerin kusurlarının birincil kaynağıdır ve kütüphanelerde gizli kalmıştır, ta ki kaybolduğu ünlenene kadar. {cite:mujam-awsat-haramayn-1415-v1 p.23} Yaqut'tan alıntı yaparlar ki, Al-Tabarani [[work/al-mujam-al-kabir|'Al-Kabir]]'i Sahabelerin adında, 'Al-Wasat'ı öğretmenlerinin nadir olaylarında ve [[work/al-mujam-al-saghir|'Al-Saghir' kelimelerini öğretmenlerinin]] adında yazmıştır. Al-Dhahabi, öğretmenler sözlüğünde her öğretmene tuhaflıklarını ve mucizelerini sunduğunu ve Yahya ibn Manda'nın bunu yirmi dört cilt halinde derlediğini belirtir. {cite:mujam-awsat-haramayn-1415-v1 p.83} {cite:mujam-awsat-haramayn-1415-v1 p.84} El-Tebarani'nin, biyografiyi yazan şeyhten başka bir rivayetten bir hadis sunarak o şeyh'e getirdiği garip hadisi yüceltebileceğini belirtirler, bu yüzden bu hadislere sayılar vermediler ve kendi sözleri gibi kabul ettiler. {cite:mujam-awsat-haramayn-1415-v1 p.12} Eklemelerinde El-Heytimi'nin 'Majma' el-Bahreyn' adlı eserine başka bir kopya olarak dayandılar. {cite:mujam-awsat-haramayn-1415-v1 p.11}
+
+## Önceki Baskının Kopyası ve Eleştirisi
+
+İki kopyaya dayandılar: Türkiye'den gelen iki ciltlik orijinali (309 ve 310 yapraklar), her ciltte ilk folyo kaybolmuş ve sahibi mühründen tanımlanmıştır: Bursa'da kütüphane sahibi olan Hüssemeddin Hüseyin ibn Muhammed el-Kutahi el-Rumi el-Hanafi, Buqarah Celabi Zada (ö. 1007 H) olarak bilinir; ikincisi ise Koprieli el yazmasıdır. {cite:mujam-awsat-haramayn-1415-v1 p.84} {cite:mujam-awsat-haramayn-1415-v1 p.85} Dr. Mahmud el-Tahan'ın ilk ciltlerin doğrulanmasını eleştirirler; belgelerde birçok yazım hatası, çarpıtma ve eksiklik içerdiğini, metni düzeltmek için 'Majma' al-Zawa'id'e dayandığını savunurlar; bu doğru değildir çünkü al-Haythami tüm aktarım zincirini atlamaktadır; bu onların değerlendirmesidir. {cite:mujam-awsat-haramayn-1415-v1 p.29} {cite:mujam-awsat-haramayn-1415-v1 p.30}
+
+## Al-Tabarani'nin Ma'aloul Üzerindeki Sessizliği: Çağdaş Bir Çalışma
+
+İslamabad Uluslararası İslam Üniversitesi'nden Fazl-ur-Rahman ve Abdul Hamid Kharub'un 'Tahdhib al-Afkar' dergisinde yazdığı, el-Teberani'nin 'Al-Wasat'ta sessiz kaldığı hadisler üzerine bir çalışmayı inceler; hatalı hadisler hakkında sessiz kalma konusunda özel bir yaklaşımı olmadığını, susmadığı şeylerin çoğunun zayıf, terk edilmiş veya reddedilmiş olduğunu, mutlak benzersizlik içeren veya zayıf ve bilinmeyen rivayetler içeren hadisler hakkında sessiz kaldığını belirtir. {cite:tahdhib-al-afkar-tabarani-sukut p.1} {cite:tahdhib-al-afkar-tabarani-sukut p.9}

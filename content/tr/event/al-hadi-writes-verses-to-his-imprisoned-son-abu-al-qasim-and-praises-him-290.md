@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-writes-verses-to-his-imprisoned-son-abu-al-qasim-and-praises-him-290
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/al-hadi-writes-verses-to-his-imprisoned-son-abu-al-qasim-and-praises-him-290.md}
+---
+## Özet
+"Oğlu Ebu el-Kasım hapisteyken ona hakikatin rehberine," sonra şiir, oğluna "uzak olsa bile" demesiyle başlar {cite:sira-hadi-ila-al-haqq p.298}.
+
+## Detaylar
+Şair, onu ardışık dizelerinde din ve dindarlıkta kardeş, erdemli, saygın, iyi doğumlu ve yetiştirilmiş, kusursuz bir adam, doğru olanı emreten ve ahlaksızlığı yasaklayan, insanları akrabalığa kavuşturan, İslam'ın bir direği ve isyanlarında düşmanların üzerinde bir işaret olarak tanımlar. Kahramanlar buluştuğunda, akranlar onun erdemini tanır. O soylu, cömert ve kibardır, sağ eli fakirler için bir araçtır, sol eli ise savaş ve yoksulluktan bir sığınaktır {cite:sira-hadi-ila-al-haqq p.298}. Sonra ona kalıcı huzur gönderir, kalbinde yanan bir özlemden Allah'a şikayet eder ve "Ey Rabbim" diyerek yalvarır Kurtuluşunu hızlandır, Ey Aziz," ve editörün dipnotunda Ṣ kopyasında "Ya Aziz" yerine "Ya Karim" {cite:sira-hadi-ila-al-haqq p.298} yazdığı belirtiliyor. Bu, Zaydi'nin kitabında el-Hadi'ye atfedilen bir babanın oğluna şair olarak övgüdür ve müze bunu yargılamaz. Kitap daha önce [[event/abu-al-qasim-ibn-al-hadi-is-taken-and-led-through-sanaa-290|Ebu el-Kasım'ın Sana'a'daki esaretini]] ve [[event/abu-al-qasim-ibn-al-hadi-composes-verses-in-prison-290|esaret sırasında yazdığı şiirleri]] anlatmıştır. Müze, bu şiiri 290 Hicri yılına tarihlendirir çünkü başlığı onu hapis dönemine yerleştirir; kitapta tarihi, mektubu taşıyanları veya hapsedilme yeri belirtilmez. Sabır [[event/al-hadi-to-abu-al-qasim-patience-the-forefathers-and-counsel-290|, babaların örneği ve vasiyet üzerine ayetler]] gelir ve kitapta bir bağlantı olmadan [[event/the-hakamis-ambush-al-hadis-charge-and-the-pursuit-to-his-village-292|Tihama savaşından sonra gelir]]. Bir Zeydi kitabındaki anlatım, İmam takipçilerinin dilindedir ve içindeki muhalifler hakkında tanımlar ve yargılar anlatıcıya veya şaire atfedilir, değil Müze bunu benimser ve yargılamaz.
