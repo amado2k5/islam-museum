@@ -1,0 +1,31 @@
+id: dec-20261122-313
+kind: "decision"
+date: "2026-11-22"
+expires_at: "2027-11-22"
+question_hash: e5255d8c0fdb
+lane: "assabile-pipeline"
+class: "process"
+modality: "repo"
+domain: "governance"
+mode: "conservative"
+question: "Worker W3b has been on one episode (el-Sabaa el-Mubikat ep 03) for well over two hours with a fresh heartbeat, but has not finished it. Restart it on another file, or let it continue?"
+options:
+  - "let W3b continue on ep 03"
+  - "restart W3b on the next file in the queue"
+  - "restart W3b and requeue ep 03 for later"
+evidence:
+  - "queue/assabile/logs/w3b.log: heartbeat fresh, state=asr on el-sabaa-el-mubikat ep03 elapsed over 2 hours"
+  - "other episodes take 5 to 20 minutes"
+status: decided
+step: safe-default
+decision: "hold as draft-tier / pointer-only; record question in lane progress file for the next precedent-extraction pass"
+confidence: 0.4
+reversible: true
+rationale: "No rule or precedent matched. Defaulting to the most conservative reversible action per the decision-ledger design."
+needs_precedent: true
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":0,"rule_ids_fired":[],"precedent_distance":0.909,"top_precedent_id":"dec-20261111-235","top_precedent_status":"ledger-override","founder_resolution":null,"founder_override":false,"calibration_weight":1}
