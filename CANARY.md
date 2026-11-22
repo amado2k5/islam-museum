@@ -32,6 +32,9 @@ open a new block on top with the new version and today's date.
 - Two difficulties are stated on the records rather than hidden: the Shamela copy of al-Sahibi carries an introduction signed by Ahmad Hasan Basaj while the museum's source record names the publisher Muhammad Ali Baydun; and the Shamela text of Dala'il al-I'jaz gives a reference to Hud 13 beside a verse whose words are those of al-Isra 88.
 - Fixed: three Arabic Language Browser concept records carried the wings value `places`, which the schema does not allow; it is now `place`.
 
+### Fixed
+- **The Arabic references page is back under its page-weight budget.** The landing of `/{lang}/references/` printed all 576 web-page records, and at 567 KB it was over the 500 KB listing budget, which failed the whole-site check of build 44988045069. The landing now shows the first 150 web pages, as it already did for the books, with a link to the full list on `/{lang}/references/web/` and its numbered sub-pages. Every record is still listed, and the other lists on the landing are unchanged.
+
 ### Changed
 - **The project status page's Tranco ranking log is current to 21 November 2026.** islam.museum stands at **#716,997** on the Tranco list of 21 November 2026 (list 46YLX, read from the published list file of 4,338,665 domains) — up 140,948 places in a day, and 3,892,970 places above its first reading of #4,609,967 on 23 October 2026. The log's rows for 18–21 November and its Latest note record the climb.
 
