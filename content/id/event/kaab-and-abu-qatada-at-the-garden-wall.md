@@ -1,0 +1,18 @@
+---
+id: event/kaab-and-abu-qatada-at-the-garden-wall
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/kaab-and-abu-qatada-at-the-garden-wall.md}
+---
+## Ringkasan
+طال على كعب جفاء المسلمين فتسوّر جدار حائط ابن عمه أبي قتادة وسلّم عليه فلم يرد، ثم ناشده ثلاثاً فقال في الثالثة: «الله ورسوله أعلم». {cite:ibn-hisham-saqqa 4/178}
+
+## الرواية
+قال كعب: حتى إذا طال ذلك عليّ من جفوة المسلمين مشيت حتى تسوّرت جدار حائط أبي قتادة، وهو ابن عمي وأحب الناس إلي، فسلّمت عليه فوالله ما ردّ علي التحية. {cite:ibn-hisham-saqqa 4/178}
+
+## المناشدة
+فقلت: يا أبا قتادة، أنشدك بالله هل تعلم أني أحب الله ورسوله؟ فسكت، فعدت فناشدته فسكت، فعدت فناشدته فقال: الله ورسوله أعلم؛ ففاضت عيناي ووثبت فتسوّرت الحائط ثم غدوت إلى السوق. {cite:ibn-hisham-saqqa 4/178}
+
+## ملاحظات المصدر والتمريض
+- لا يسمي ابن إسحاق أبا قتادة إلا «أبو قتادة» وابن عم كعب؛ فلم يُوحَّد مع أي ترجمة أخرى في هذه الدفعة.

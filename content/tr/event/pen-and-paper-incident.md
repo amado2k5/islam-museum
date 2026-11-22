@@ -1,0 +1,19 @@
+---
+id: event/pen-and-paper-incident
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/pen-and-paper-incident.md}
+---
+
+## Özet
+يوم الخميس قبل الوفاة بأربعة أيام طلب النبي أن يُؤتى بما يكتب به كتاباً لن يضلوا بعده، فاختلف أهل البيت حين قال عمر حسبكم كتاب الله، فقال النبي: قوموا عني {cite:mubarakpuri-raheeq ص466}.
+
+## خبر الوقعة
+قال النبي وقد اشتد به الوجع: هلمّوا أكتب لكم كتاباً لن تضلوا بعده، وفي البيت رجال فيهم عمر {cite:mubarakpuri-raheeq ص466؛ sahih-al-bukhari}. فقال عمر: قد غلب عليه الوجع وعندكم القرآن حسبكم كتاب الله، فاختلف أهل البيت واختصموا فمنهم من يقول قرّبوا يكتب لكم ومنهم من يقول ما قال عمر، فلما أكثروا اللغط قال النبي: قوموا عني {cite:mubarakpuri-raheeq ص466؛ sahih-al-bukhari}. وأوصى النبي ذلك اليوم بثلاث: إخراج اليهود والنصارى والمشركين من جزيرة العرب، وإجازة الوفود بنحو ما كان يجيزهم، وأما الثالث فنسيه الراوي {cite:mubarakpuri-raheeq ص466-467}. وكان النبي مع شدة مرضه يصلي بالناس حتى ذلك اليوم وصلى بهم المغرب يقرأ فيها بالمرسلات عرفا {cite:mubarakpuri-raheeq ص467؛ sahih-al-bukhari}.
+
+## وجهات نظر
+يرى أهل السنة أن عمر رقّ لحال النبي واكتفى بكتاب الله، ومع ذلك عدّ ابن عباس اليوم رزية لفوات الكتاب {cite:mubarakpuri-raheeq ص466؛ sahih-al-bukhari}. وتقرأ التقاليد الشيعية الواقعة منعاً لكتابة نص كان سيُكتب، بينما يتعامل المؤرخون مع الخبر بوصفه خلافاً لاحقاً لا يمكن إعادة بناء نصّه {cite:mubarakpuri-raheeq ص466}.
+
+## للزوار الصغار
+في مرضه طلب النبي ورقة ليكتب شيئاً للناس، فاختلف الحاضرون هل يأتون بها أم يكتفون بالقرآن، فطلب منهم النبي أن يتركوه.

@@ -1,0 +1,18 @@
+---
+id: event/revolt-at-shibam-ibn-abbad-killed-288
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/revolt-at-shibam-ibn-abbad-killed-288.md}
+---
+## Ringkasan
+خرج رجل من ولد أبي الخير بن يعفر من شبام، ورجل من همدان يقال له [[person/sasaa-ibn-jafar-al-hamdani|صعصعة بن جعفر]]، فنزلا بجانب [[place/bayt-dhukhar|بيت ذخار]] محالفين على [[person/al-hadi-yahya-al-rassi|الهادي]]، وظاهرهم جمع من الناس {cite:sira-hadi-ila-al-haqq p.18} {cite:sira-hadi-ila-al-haqq p.19}.
+
+## السبب كما يرويه الكتاب
+يقول الراوي إن الهادي قبض أيديهم عما لا يجب، وحرّم عليهم شرب الخمر والفساد والمنكرات، فخرجوا محاربين ناقمين ذلك عليه {cite:sira-hadi-ila-al-haqq p.19}. وهذا السبب من لسان الراوي.
+
+## مجرى الأحداث
+كان الهادي قد صعد جبل بيت ذخار، واستخلف على شبام [[person/muhammad-ibn-abbad-al-tamimi|محمد بن عباد]]، فدخل المخالفون شبام فقُتل، وذلك في جمادى الآخرة سنة 288هـ. ونزل الهادي من الجبل فطردهم، وخرجوا هاربين، ودخل شبام ودفن ابن عباد {cite:sira-hadi-ila-al-haqq p.19}. وانظر [[group/banu-yafur|آل يعفر]].
+
+## انظر أيضاً
+يُروى الحدث نفسه بتفصيل أوفى في [[event/the-qudumis-enter-shibam-break-the-prison-and-ibn-abi-abbad-is-killed-288]] و[[event/abu-al-atahiya-and-ibn-al-daam-rout-the-qudumis-and-al-hadi-buries-ibn-abi-abbad-288]] {cite:sira-hadi-ila-al-haqq p.218} {cite:sira-hadi-ila-al-haqq p.219}، ولم يوفق المتحف بين الروايتين.
