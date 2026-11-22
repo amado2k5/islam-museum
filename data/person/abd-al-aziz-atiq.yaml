@@ -1,0 +1,20 @@
+id: person/abd-al-aziz-atiq
+class: person
+label: { ar: "عبد العزيز عتيق", en: "Abd al-Aziz Atiq", ur: "عبد العزيز عتيق", fr: "Abd al-Aziz Atiq", es: "Abd al-Aziz Atiq" }
+roles: [scholar, writer]
+gender: male
+tags: [arabiyya-browser, arabiyya-scholars]
+summary:
+  ar: "عبد العزيز عتيق، مؤلف «علم العروض والقافية»؛ ويورد ملخص بحثي قُدّم إلى المتحف تاريخ وفاته هكذا: ت 1396هـ / 1976م {cite:waqfeya-ilm-al-arud-wa-al-qafiya-atiq}."
+  en: "Abd al-Aziz Atiq, author of \"Ilm al-Arud wa-l-Qafiya\"; a research summary supplied to the museum gives his date as d. 1396 AH / 1976 CE {cite:waqfeya-ilm-al-arud-wa-al-qafiya-atiq}."
+  ur: "عبد العزيز عتيق، «علم العروض اور القافية» کے مصنف؛ میوزیم کو دیا گیا ایک تحقیقی خلاصہ ان کی تاریخ یوں دیتا ہے: وفات 1396ھ / 1976ء {cite:waqfeya-ilm-al-arud-wa-al-qafiya-atiq}۔"
+  fr: "Abd al-Aziz Atiq, auteur de « Ilm al-Arud wa-l-Qafiya » ; une synthèse de recherche remise au musée donne sa date ainsi : m. 1396 H / 1976 {cite:waqfeya-ilm-al-arud-wa-al-qafiya-atiq}."
+  es: "Abd al-Aziz Atiq, autor de «Ilm al-Arud wa-l-Qafiya»; un resumen de investigación entregado al museo da su fecha así: m. 1396 H. / 1976 {cite:waqfeya-ilm-al-arud-wa-al-qafiya-atiq}."
+wings: [people]
+themes: [linguistics]
+died: { edtf: "1976", hijri: "1396", calendar: gregorian, precision: year, status: tradition, derived: true, note: "Date from a research summary supplied to the museum, pages not opened (founder approval 21 Nov 2026) {cite:waqfeya-ilm-al-arud-wa-al-qafiya-atiq}." }
+relations:
+  - { type: authored, target: work/ilm-al-arud-wa-al-qafiya-atiq, sources: [source/waqfeya-ilm-al-arud-wa-al-qafiya-atiq] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/waqfeya-ilm-al-arud-wa-al-qafiya-atiq]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

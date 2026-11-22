@@ -10,9 +10,11 @@ summary:
   ur: "المعجم الوسیط، قاہرہ کی مجمع اللغۃ العربیہ کی لغات میں سے ایک، جو 1932ء میں قائم ہوئی۔ اس کے مقاصد میں ایک ایسی لغت تھی جو عربی کی تاریخی نشوونما دکھائے؛ اوگسٹ فشر کا آکسفورڈ انگلش ڈکشنری کے مقابل عربی لغت کی طرف کام دوسری جنگِ عظیم اور 1949ء میں ان کی وفات سے رک گیا، المعجم الکبیر کی تیاری جاری رہی اور 1956ء میں 500 صفحات کی نمونہ جلد ماہرین کو پیش کی گئی۔ مصری وزارتِ تعلیم کی 1936ء میں متوسط حجم کی سائنسی اور فنی اصطلاحات پر مشتمل، شکلوں اور تصویروں کے ساتھ لغت کی درخواست سے الوسیط وجود میں آئی۔ یہ کاپی رائٹ میں ہے اور یہاں صرف اس کا بیان ہے۔"
 genre: [lexicon]
 language: language/arabic
-tags: [maajim-browser, maajim-modern]
+tags: [maajim-browser, maajim-modern, arabiyya-browser, arabiyya-books]
 wings: [words]
-sources: [source/dia-el-mucemul-vasit]
+sources: [source/dia-el-mucemul-vasit, source/wikipedia-al-mujam-al-wasit-ar, source/shamela-al-mujam-al-wasit]
+relations:
+  - { type: authored_by, target: group/majma-al-lugha-al-arabiyya-bi-al-qahira, sources: [source/wikipedia-al-mujam-al-wasit-ar] }
 provenance:
   layer: own-research
   source: "source/dia-el-mucemul-vasit (TDV İslâm Ansiklopedisi, read 20 November 2026)"

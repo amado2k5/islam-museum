@@ -1,0 +1,25 @@
+id: work/al-muqtadab
+class: work
+kind: book
+label:
+  ar: "المقتضب"
+  en: "al-Muqtadab (al-Mubarrad)"
+  ur: "المقتضب"
+  fr: "al-Muqtadab (al-Mubarrad)"
+  es: "al-Muqtadab (al-Mubarrad)"
+summary:
+  ar: "«المقتضب» كتاب في علم النحو العربي نسبه ملخص بحثي قُدّم إلى المتحف إلى المبرد، وذكر تاريخه هكذا: وفاة المؤلف 898م / 285هـ {cite:wikipedia-al-muqtadab-ar}. وعدّه الملخص بين ستين كتاباً هي الأكثر استشهاداً بها في علوم العربية الخمسة."
+  en: "al-Muqtadab is a work of Arabic grammar that a research summary supplied to the museum ascribes to al-Mubarrad, giving its date as: author died 898 CE / 285 AH {cite:wikipedia-al-muqtadab-ar}. The summary counts it among sixty of the most-cited works in the five Arabic sciences."
+  ur: "«المقتضب» عربی نحو کی کتاب ہے جسے عجائب گھر کو دیا گیا ایک تحقیقی خلاصہ المبرد سے منسوب کرتا ہے اور اس کی تاریخ یوں دیتا ہے: مصنف کی وفات 898 ء / 285 ھ {cite:wikipedia-al-muqtadab-ar}۔ خلاصہ اسے عربی کے پانچ علوم کی ساٹھ سب سے زیادہ حوالہ دی جانے والی کتابوں میں شمار کرتا ہے۔"
+  fr: "al-Muqtadab est un ouvrage de grammaire arabe qu'un résumé de recherche remis au musée attribue à al-Mubarrad, en donnant sa date ainsi : mort de l'auteur 898 ap. J.-C. / 285 de l'Hégire {cite:wikipedia-al-muqtadab-ar}. Le résumé le compte parmi soixante des ouvrages les plus cités dans les cinq sciences de l'arabe."
+  es: "al-Muqtadab es una obra de gramática árabe que un resumen de investigación entregado al museo atribuye a al-Mubarrad, y cuya fecha da así: muerte del autor 898 d. C. / 285 de la hégira {cite:wikipedia-al-muqtadab-ar}. El resumen la cuenta entre sesenta de las obras más citadas en las cinco ciencias del árabe."
+wings: [words]
+themes: [linguistics]
+tags: [arabiyya-browser, arabiyya-books]
+periods: [period/abbasid-fragmentation]
+relations:
+  - { type: authored_by, target: person/al-mubarrad, sources: [source/wikipedia-al-muqtadab-ar] }
+  - { type: about, target: concept/ilm-al-nahw, sources: [source/wikipedia-al-muqtadab-ar] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (the 60 most-cited Arabic linguistic works, sections Dictionaries and Grammar); its facts are used without re-verification by the founder's approval of 21 Nov 2026; the museum did not open the pages the summary names.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-books-1" }
+sources: [source/wikipedia-al-muqtadab-ar, source/shamela-al-muqtadab]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

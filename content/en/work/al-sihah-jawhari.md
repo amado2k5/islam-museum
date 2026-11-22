@@ -22,3 +22,9 @@ Bakri Shaykh Amin, following Attar, says al-Sihah came down by three routes: thr
 ## Editions used here
 - Ahmad Abd al-Ghafur Attar's edition: 1st, Cairo, 1376 AH / 1956; 2nd, Beirut, Dar al-Ilm lil-Malayin, 1399 AH / 1979, with a preface dated Mecca, Rajab 1399. {cite:sihah-attar-1979-v1 p.2} {cite:sihah-attar-1979-v1 p.7}
 - Dar al-Hadith's (Cairo) one-volume printing of 1430 AH / 2009, "arranged alphabetically by the first letters", revised by Muhammad Muhammad Tamir — a modern rearrangement that departs from al-Jawhari's own order. {cite:sihah-tamir-dar-al-hadith-2009 p.1} {cite:sihah-tamir-dar-al-hadith-2009 p.4}
+
+## Place in the canon
+
+al-Sihah (Taj al-Lugha wa Sihah al-Arabiyya) appears in a research summary supplied to the museum: a list of sixty of the most-cited works on the Arabic language, twelve in each of its five sciences, where it stands in the section "Dictionaries". The summary ascribes the work to [[person/al-jawhari-abu-nasr-ismail-ibn-hammad|Abu Nasr Isma'il ibn Hammad al-Jawhari]] and gives its date as: 10th–11th century; author died c. 1002–1009 CE / c. 393 AH. It names the Arabic Wikipedia page “تاج اللغة وصحاح العربية” as the page documenting the work {cite:wikipedia-al-sihah-jawhari-ar}. On its presence in the Shamela library the summary says: Yes, it is in the Shamela library as book 23235, with a link to page 12 {cite:shamela-al-sihah-jawhari}.
+
+The museum took this from the summary as it stands. The founder approved using the summary without re-verification on 21 November 2026, and the museum did not open the pages it names. The museum has read pages of the Sihah in the editions its record lists, and nothing beyond them. This record therefore says nothing of the book's contents, chapters, editions or commentaries beyond what other sections of this page cite. The Shamela book number is a bibliographic pointer only; no text was copied from it.

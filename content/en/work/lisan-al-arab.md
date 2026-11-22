@@ -31,3 +31,9 @@ The preface of the first edition gives his birth as 690. A footnote on the same 
 ## The preface of the first edition
 
 The preface reproduced in this edition is signed by Ahmad Faris al-Shidyaq, editor of al-Jawa'ib, and dated 17 Rajab 1300 AH. It presents the dictionary as a compilation of al-Jawhari's Sihah with Ibn Barri's margins, al-Azhari's Tahdhib, Ibn Sida's Muhkam, Ibn Duraid's Jamhara and Ibn al-Athir's Nihaya {cite:lisan-al-arab-dar-sadir p. 6}. It thanks Husayn Husni Bey, supervisor of the Bulaq press, and Husayn Effendi Ali al-Deek, who bore the cost of the printing, and says that the editors gathered sound manuscripts from several places {cite:lisan-al-arab-dar-sadir p. 6}.
+
+## Place in the canon
+
+Lisan al-Arab appears in a research summary supplied to the museum: a list of sixty of the most-cited works on the Arabic language, twelve in each of its five sciences, where it stands in the section "Dictionaries". The summary ascribes the work to [[person/ibn-manzur|Ibn Manzur]] and gives its date as: completed 1290 CE; author died 1311/1312 CE. It names the English Wikipedia page “Lisan al-Arab” as the page documenting the work {cite:wikipedia-lisan-al-arab-en}. On its presence in the Shamela library the summary says: Yes, it is in the Shamela library as book 1687, with a link to page 5752 {cite:shamela-lisan-al-arab}.
+
+The museum took this from the summary as it stands. The founder approved using the summary without re-verification on 21 November 2026, and the museum did not open the pages it names. The museum has read the front matter of volume one of the Dar Sadir edition named on this page, and nothing beyond it. This record therefore says nothing of the book's contents, chapters, editions or commentaries beyond what other sections of this page cite. The Shamela book number is a bibliographic pointer only; no text was copied from it.

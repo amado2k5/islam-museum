@@ -1,0 +1,39 @@
+id: concept/marahil-tatawwur-al-khatt-al-arabi
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-script]
+label:
+  ar: "مراحل تطور الخط العربي"
+  en: "The stages of development of the Arabic script"
+  ur: "عربی رسم الخط کے ارتقا کے مراحل"
+  fr: "Les étapes du développement de l'écriture arabe"
+  es: "Las etapas del desarrollo de la escritura árabe"
+summary:
+  ar: "خمس مراحل بترتيبها الزمني: الكوفي، ثم الإعجام والتشكيل، ثم النسخ، ثم الثلث، ثم الرقعة، من أواخر القرن السابع إلى القرن التاسع عشر، كما يعرضها ملخص بحثي قُدّم إلى المتحف، مع من نُسب إليهم تقعيدها {cite:met-development-spread-calligraphic-scripts} {cite:britannica-kufic-script} {cite:wikipedia-kufic-en}."
+  en: "Five stages in chronological order: Kufic, then the dots and vowel marks, then Naskh, then Thuluth, then Ruq'ah, from the late seventh to the nineteenth century, as a research summary supplied to the museum presents them, with the people credited with standardising them {cite:met-development-spread-calligraphic-scripts} {cite:britannica-kufic-script} {cite:wikipedia-kufic-en}."
+  ur: "پانچ مراحل زمانی ترتیب سے: کوفی، پھر نقطے اور حرکات، پھر نسخ، پھر ثلث، پھر رقعہ، ساتویں صدی کے آخر سے انیسویں صدی تک، جیسا میوزیم کو فراہم کیا گیا تحقیقی خلاصہ انھیں پیش کرتا ہے، ان کے ساتھ جن کی طرف ان کی ضابطہ بندی منسوب ہے {cite:met-development-spread-calligraphic-scripts} {cite:britannica-kufic-script} {cite:wikipedia-kufic-en}۔"
+  fr: "Cinq étapes dans l'ordre chronologique : le coufique, puis les points et les signes vocaliques, puis le naskh, puis le thuluth, puis le ruqʿa, de la fin du VIIe au XIXe siècle, telles que les présente une synthèse de recherche remise au musée, avec les personnes à qui l'on en attribue la normalisation {cite:met-development-spread-calligraphic-scripts} {cite:britannica-kufic-script} {cite:wikipedia-kufic-en}."
+  es: "Cinco etapas en orden cronológico: el cúfico, luego los puntos y las vocales, luego el naskh, luego el zuluz, luego el ruqa, desde fines del siglo VII hasta el XIX, tal como las presenta un resumen de investigación entregado al museo, con las personas a quienes se atribuye su normalización {cite:met-development-spread-calligraphic-scripts} {cite:britannica-kufic-script} {cite:wikipedia-kufic-en}."
+wings: [words, ideas]
+themes: [linguistics, arts-of-the-book]
+regions: [global]
+relations:
+  - { type: related_to, target: concept/kufic-script, sources: [source/met-development-spread-calligraphic-scripts] }
+  - { type: related_to, target: concept/floriated-kufic, sources: [source/met-development-spread-calligraphic-scripts] }
+  - { type: related_to, target: concept/naqt-al-ijam, sources: [source/wikipedia-arabic-diacritics-en] }
+  - { type: related_to, target: concept/naqt-al-irab, sources: [source/wikipedia-arabic-diacritics-en] }
+  - { type: related_to, target: concept/naskh-script, sources: [source/britannica-naskhi-script] }
+  - { type: related_to, target: concept/thuluth-script, sources: [source/britannica-thuluth-script] }
+  - { type: related_to, target: concept/al-aqlam-al-sitta, sources: [source/britannica-thuluth-script] }
+  - { type: related_to, target: concept/riqa-script, sources: [source/wikipedia-ruqah-script-en] }
+  - { type: related_to, target: person/abu-al-aswad-al-duali, sources: [source/wikipedia-abu-al-aswad-al-duali-en] }
+  - { type: related_to, target: person/nasr-ibn-asim, sources: [source/wikipedia-arabic-diacritics-en] }
+  - { type: related_to, target: person/al-khalil-ibn-ahmad-al-farahidi, sources: [source/wikipedia-al-khalil-ibn-ahmad-al-farahidi-en] }
+  - { type: related_to, target: person/ibn-muqla, sources: [source/britannica-naskhi-script] }
+  - { type: related_to, target: person/ibn-al-bawwab, sources: [source/britannica-naskhi-script] }
+  - { type: related_to, target: person/shaykh-hamdullah, sources: [source/britannica-naskhi-script] }
+  - { type: related_to, target: person/kazasker-mustafa-izzet, sources: [source/wikipedia-ruqah-script-en] }
+  - { type: related_to, target: concept/aqdam-al-nuqush-al-arabiyya, sources: [source/met-development-spread-calligraphic-scripts] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_inscriptions_and_script_history.md); the museum did not open the cited pages; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-inscriptions-1 }
+sources: [source/met-development-spread-calligraphic-scripts, source/britannica-kufic-script, source/wikipedia-kufic-en, source/wikipedia-arabic-diacritics-en, source/wikipedia-abu-al-aswad-al-duali-en, source/wikipedia-al-khalil-ibn-ahmad-al-farahidi-en, source/britannica-naskhi-script, source/wikipedia-naskh-script-en, source/britannica-thuluth-script, source/wikipedia-thuluth-en, source/wikipedia-ruqah-script-en, source/ekhtiar-how-to-read-islamic-calligraphy-2018, source/wafayat-ayan]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; translations are machine translations by the same model" }

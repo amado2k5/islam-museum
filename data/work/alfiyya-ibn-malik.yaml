@@ -12,10 +12,12 @@ summary:
 wings: []
 periods: [period/mongol-post-mongol]
 regions: [andalus-europe, levant-iraq]
+relations:
+  - { type: authored_by, target: person/ibn-malik-al-jayyani, sources: [source/wikipedia-alfiyya-ibn-malik-en] }
 provenance:
   layer: own-research
   source: "كشف الظنون لحاجي خليفة ⁦(ط الفرقان)⁩ ج١ ص 578-582 مدخل 1564"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kashf-batch-7
-sources: [source/kashf-zunun-furqan]
+sources: [source/kashf-zunun-furqan, source/wikipedia-alfiyya-ibn-malik-en, source/shamela-alfiyya-ibn-malik]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
