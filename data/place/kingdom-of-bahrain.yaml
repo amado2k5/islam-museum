@@ -1,0 +1,31 @@
+id: place/kingdom-of-bahrain
+class: place
+kind: region
+tags: [arabiyya-world]
+label:
+  ar: "البحرين"
+  en: "Bahrain"
+  ur: "بحرین"
+  fr: "Bahreïn"
+  es: "Baréin"
+summary:
+  ar: "مملكة البحرين، دولة جزرية ذات سيادة وملكية دستورية على الخليج، مستقلة في 14 أغسطس 1971 ومملكة منذ 14 فبراير 2002، عاصمتها المنامة، لغتها الرسمية العربية."
+  en: "The Kingdom of Bahrain, a sovereign island country and constitutional monarchy in the Gulf, independent on 14 August 1971 and a kingdom since 14 February 2002, with Manama as its capital and Arabic as its official language."
+  ur: "مملکت بحرین، خلیج میں ایک خودمختار جزیرہ ملک اور آئینی بادشاہت، 14 اگست 1971 کو آزاد اور 14 فروری 2002 سے مملکت، دارالحکومت منامہ، سرکاری زبان عربی۔"
+  fr: "Le Royaume de Bahreïn, pays insulaire souverain et monarchie constitutionnelle du Golfe, indépendant le 14 août 1971 et royaume depuis le 14 février 2002, avec Manama pour capitale et l'arabe pour langue officielle."
+  es: "El Reino de Baréin, país insular soberano y monarquía constitucional del Golfo, independiente el 14 de agosto de 1971 y reino desde el 14 de febrero de 2002, con Manama como capital y el árabe como lengua oficial."
+wings: [place]
+regions: [arabia]
+coordinates: [26.0675, 50.551111]
+coordinate_precision: approx
+coordinate_note: "Coordinate location of the state on Wikidata Q398, 26 4 3 N 50 33 4 E, converted to decimal degrees; taken from a research summary without opening the page, treated as approximate. The English Wikipedia article gives Manama, the capital, at 26.217 N 50.583 E."
+relations:
+  - { type: related_to, target: language/arabic, sources: [source/wikipedia-bahrain-en, source/wikidata-bahrain] }
+sources: [source/wikipedia-bahrain-en, source/wikidata-bahrain]
+provenance:
+  layer: own-research
+  source: "The facts come from a research summary of the English Wikipedia article and the Wikidata item that was supplied to the museum and approved by the founder on 21 November 2026; the museum did not open the pages and no revision id was available. Entity facts only (names, coordinates, status, dates, memberships, languages) under the Wikipedia and Wikidata rule of 26 October 2026; the revision ids and the date checked required by the authenticity ledger could not be recorded, because the pages were not opened, so they remain to be recorded when the pages are read. Wikidata item Q398, English Wikipedia article Bahrain."
+  generated_by: "Claude Code"
+  model: "claude-sonnet-5-5"
+  run: "arabiyya-browser-places"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary of Wikipedia and Wikidata that the museum did not check against the pages, approved by the founder on 21 November 2026; not read by a human; translations are machine translations by the same model" }
