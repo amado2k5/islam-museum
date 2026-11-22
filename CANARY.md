@@ -46,6 +46,10 @@ open a new block on top with the new version and today's date.
 - Twenty-four new source records: eleven Britannica pages (Palestine; Sudan and three of its sub-pages; Libya People; Tunisia Languages; Algeria Languages; Somalia; Djibouti; Comoros), the Palestinian Basic Law as shown by the Constitute Project, and twelve Factbook country pages. The Factbook pages are cited from the copies archived by the Internet Archive (dates recorded on each record) because cia.gov no longer serves them. Djibouti has no place record, so its page is unlinked until one exists.
 - Not read and said so on the records: the University of Manchester dialects site (its certificate was invalid at the time), Ethnologue, Glottolog, and any national constitution other than Palestine's.
 
+### Changed (Arabic Language Browser)
+
+- Twelve passages that only mentioned the Arabic language in passing (a quoted verse inside another argument, a cited book title, a bare phrase on a dictionary entry) were taken out of the detected list after a page-by-page read, so the browser shows 65 detected passages instead of 77. Borderline ones were kept.
+
 ## v2.26.1 — 2026-11-20
 ### Data
 - **Assabile harvest register: 9 episodes updated across 2 series, 8 transcripts recorded (0 episodes added).** The register now shows which Assabile episodes are on the drive and which machine transcripts are finished, so later harvest work starts from the recorded state. No mined episode's entry was changed beyond its transcript and drive lines.
