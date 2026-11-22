@@ -20,7 +20,12 @@ Credentials come from the environment and are never written to the repository:
 The ledger DIR/azure-ledger.json makes every step resumable: batch id, per-file status, which blobs are up, which
 downloads are in. A batch translates one source container; targets tr and id in the same job (up to 10 targets allowed).
 """
-import argparse, base64, datetime, glob as globmod, hashlib, hmac, json, os, re, sys, time, urllib.parse, urllib.request
+import argparse, base64, datetime, glob as globmod, hashlib, hmac, json, os, re, ssl, sys, time, urllib.parse, urllib.request
+
+try:
+    import certifi; SSL = ssl.create_default_context(cafile=certifi.where())
+except ImportError:
+    SSL = ssl.create_default_context()
 
 def env(k):
     v = os.environ.get(k)
@@ -52,17 +57,36 @@ def sas(container, perms, days=2):
 
 def req(method, url, data=None, headers=None, raw=False):
     r = urllib.request.Request(url, data=data, method=method, headers=headers or {})
-    with urllib.request.urlopen(r, timeout=300) as resp:
+    with urllib.request.urlopen(r, timeout=300, context=SSL) as resp:
         return (resp.read() if raw else resp.read().decode("utf-8")), dict(resp.headers)
 
 def blob(method, url, data=None, headers=None):
     return req(method, url, data, {**(headers or {}), "x-ms-version": "2020-12-06"})
 
+def signed_blob(method, path_qs, data=None, content_type="", content_md5="", canon_extra=None, extra_res=None):
+    """SharedKey-signed Blob request (service version 2020-12-06).
+    path_qs '/container/blob?query'; canon_extra: extra x-ms-* headers ('x-ms-blob-type:BlockBlob');
+    extra_res: canonicalized-resource query lines ('comp:list', 'restype:container')."""
+    acct, key = acct_key()
+    date = datetime.datetime.now(datetime.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
+    if data is not None and not content_type: content_type = "application/octet-stream"
+    fields = [method, "", "", str(len(data)) if data else "", content_md5, content_type, "", "", "", "", "", ""]
+    xh = sorted([f"x-ms-date:{date}", "x-ms-version:2020-12-06"] + (canon_extra or []))
+    res = [f"/{acct}{path_qs.split('?')[0]}"] + sorted(extra_res or [])
+    canon = "\n".join(fields + xh + res)
+    sig = base64.b64encode(hmac.new(base64.b64decode(key), canon.encode(), hashlib.sha256).digest()).decode()
+    hdrs = {"x-ms-date": date, "Authorization": f"SharedKey {acct}:{sig}"}
+    if content_type: hdrs["Content-Type"] = content_type
+    if content_md5: hdrs["Content-MD5"] = content_md5
+    for h in canon_extra or []: hdrs[h.split(":", 1)[0]] = h.split(":", 1)[1]
+    if data is not None: hdrs["Content-Length"] = str(len(data))
+    elif method in ("PUT", "POST"): hdrs["Content-Length"] = "0"
+    return blob(method, f"https://{acct}.blob.core.windows.net{path_qs}", data, hdrs)
+
 def containers():
-    acct, _ = acct_key()
     for c in ("trans-src", "trans-tr", "trans-id", "trans-gloss"):
         try:
-            blob("PUT", f"https://{acct}.blob.core.windows.net/{c}?restype=container", headers={"Content-Length": "0"})
+            signed_blob("PUT", f"/{c}?restype=container", b"", extra_res=["restype:container"])
             print(f"created {c}")
         except urllib.error.HTTPError as e:
             print(f"{c}: {e.code} (exists)" if e.code == 409 else f"{c}: {e.code} {e.read()[:200]}")
@@ -74,49 +98,32 @@ def sas_headers(url):
 def upload(container, path, dest=None):
     dest = dest or os.path.basename(path)
     data = open(path, "rb").read()
-    url = f"https://{acct_key()[0]}.blob.core.windows.net/{container}/{urllib.parse.quote(dest)}"
-    # block-blob PUT signed with a shared-key Authorization header
-    acct, key = acct_key()
-    length = str(len(data))
     md5 = base64.b64encode(hashlib.md5(data).digest()).decode()
-    date = datetime.datetime.now(datetime.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
-    canon = "\n".join(["PUT", "", "", length, md5, "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-                       "", "", "", "", "", ""] + [f"x-ms-blob-type:BlockBlob", f"x-ms-date:{date}", "x-ms-version:2020-12-06",
-                                                  f"/{acct}/{container}/{dest}"])
-    sig = base64.b64encode(hmac.new(base64.b64decode(key), canon.encode(), hashlib.sha256).digest()).decode()
-    blob("PUT", url, data, {"Content-Length": length, "Content-MD5": md5, "x-ms-blob-type": "BlockBlob",
-                            "x-ms-date": date, "Content-Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-                            "Authorization": f"SharedKey {acct}:{sig}"})
+    signed_blob("PUT", f"/{container}/{urllib.parse.quote(dest)}", data,
+                content_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                content_md5=md5, canon_extra=["x-ms-blob-type:BlockBlob"])
     return dest
 
 def list_blobs(container, prefix=""):
-    acct, key = acct_key()
     out, marker = [], ""
     while True:
-        q = f"restype=container&comp=list&prefix={urllib.parse.quote(prefix)}" + (f"&marker={urllib.parse.quote(marker)}" if marker else "")
-        date = datetime.datetime.now(datetime.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
-        canon = "\n".join(["GET"] + [""] * 12 + [f"x-ms-date:{date}", "x-ms-version:2020-12-06", f"/{acct}/{container}", "comp:list", f"prefix:{prefix}", "restype:container"])
-        sig = base64.b64encode(hmac.new(base64.b64decode(key), canon.encode(), hashlib.sha256).digest()).decode()
-        text, _ = blob("GET", f"https://{acct}.blob.core.windows.net/{container}?{q}", headers={"x-ms-date": date, "Authorization": f"SharedKey {acct}:{sig}"})
+        q = f"?restype=container&comp=list&prefix={urllib.parse.quote(prefix)}" + (f"&marker={urllib.parse.quote(marker)}" if marker else "")
+        res = ["comp:list", f"marker:{marker}" if marker else "marker:", f"prefix:{prefix}", "restype:container"]
+        text, _ = signed_blob("GET", f"/{container}{q}", extra_res=[r for r in res if not r.endswith(":")])
         out += re.findall(r"<Name>(.*?)</Name>", text)
         m = re.search(r"<NextMarker>(.*?)</NextMarker>", text)
         if not m or not m.group(1): return out
         marker = m.group(1)
 
 def download_blob(container, name, path):
-    url = sas(container, "rl").split("?")[0] + "/" + urllib.parse.quote(name) + "?" + sas(container, "rl").split("?")[1]
-    data, _ = req("GET", url, raw=True)
-    os.makedirs(os.path.dirname(path), exist_ok=True)
+    base, q = sas(container, "rl").split("?")
+    data, _ = req("GET", f"{base}/{urllib.parse.quote(name)}?{q}", raw=True)
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     open(path, "wb").write(data)
     return len(data)
 
 def delete_blob(container, name):
-    acct, key = acct_key()
-    date = datetime.datetime.now(datetime.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
-    canon = "\n".join(["DELETE"] + [""] * 12 + [f"x-ms-date:{date}", "x-ms-version:2020-12-06", f"/{acct}/{container}/{name}"])
-    sig = base64.b64encode(hmac.new(base64.b64decode(key), canon.encode(), hashlib.sha256).digest()).decode()
-    blob("DELETE", f"https://{acct}.blob.core.windows.net/{container}/{urllib.parse.quote(name)}",
-         headers={"x-ms-date": date, "Authorization": f"SharedKey {acct}:{sig}"})
+    signed_blob("DELETE", f"/{container}/{urllib.parse.quote(name)}")
 
 def turl(path):
     return env("AZURE_TRANSLATOR_ENDPOINT").rstrip("/") + path
