@@ -1,0 +1,31 @@
+id: person/khwandamir
+class: person
+label:
+  ar: "خوندمير"
+  en: "Khwandamir"
+  ur: "خواندمیر"
+  fr: "Khwandamir"
+  es: "Jwandamir"
+names:
+  - { value: "Khwandamir", kind: full }
+gender: male
+summary:
+  ar: "مؤرخ فارسي صاحب كتاب حبيب السير، ينقل كثيرا عن جامع التواريخ لرشيد الدين دون أن يرجع إليه في المواضع المعنية، بحسب قراءة الخشاب {cite:jami-al-tawarikh-khashshab-1960 p. 128}. وكان يذكر الكتاب في الأوصاف الجغرافية الملحقة بتاريخه، ولا أثر لذكره فيها {cite:jami-al-tawarikh-khashshab-1960 p. 128}."
+  en: "A Persian historian, author of Habib al-Siyar, who often quoted Rashid al-Din's Jami' al-Tawarikh without citing it at those points, according to the editor {cite:jami-al-tawarikh-khashshab-1960 p. 128}. The editor notes that he would be expected to name the source in the geographical descriptions appended to his history, where no trace of the name appears {cite:jami-al-tawarikh-khashshab-1960 p. 128}."
+  es: "Historiador persa, autor del Habib al-Siyar, que citó con frecuencia el Jami' al-Tawarikh de Rashid al-Din sin atribuírselo en esos pasajes, según el editor {cite:jami-al-tawarikh-khashshab-1960 p. 128}. El editor observa que cabría esperar la mención de la fuente en las descripciones geográficas anexas a su historia {cite:jami-al-tawarikh-khashshab-1960 p. 128}."
+  fr: "Historien persan, auteur de l'Habib al-Siyar, qui cita souvent le Jami' al-Tawarikh de Rashid al-Din sans le nommer en ces passages, selon l'éditeur {cite:jami-al-tawarikh-khashshab-1960 p. 128}. L'éditeur note qu'on attendrait la mention de la source dans les descriptions géographiques annexées à son histoire {cite:jami-al-tawarikh-khashshab-1960 p. 128}."
+  ur: "فارسی مؤرخ، حبیب السیر کے مصنف، جس نے رشید الدین کی جامع التواریخ سے کثرت سے نقل کیا مگر ان مقامات پر حوالہ نہیں دیا، مرتب کے مطابق {cite:jami-al-tawarikh-khashshab-1960 p. 128}۔ مرتب کے مطابق اس کی تاریخ کے ساتھ شامل جغرافیائی تفصیلات میں ماخذ کا نام آنا چاہیے تھا، مگر وہاں اس کا کوئی ذکر نہیں {cite:jami-al-tawarikh-khashshab-1960 p. 128}۔"
+roles: [historian]
+regions: [persia-central-asia]
+wings: [people]
+relations:
+  - { type: related_to, target: person/rashid-al-din-hamadani, note: "Quoted Rashid al-Din's history without naming him at the relevant points (scan page 128).", sources: [source/jami-al-tawarikh-khashshab-1960] }
+  - { type: related_to, target: person/mirkhwand, note: "Named with Mirkhwand as the two later historians who used the work (scan page 128).", sources: [source/jami-al-tawarikh-khashshab-1960] }
+sources: [source/jami-al-tawarikh-khashshab-1960]
+provenance:
+  layer: own-research
+  source: "Scan page 128 of source/jami-al-tawarikh-khashshab-1960 (printed page 102), OCR by Apple Vision, read by the packet drafter; the editor's judgement is attributed to the editor. The OCR reads the title Habib al-Siyar with some damage in the surrounding marks; the title is read as Habib al-Siyar. No death date is on these pages."
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "jami-tawarikh-v2p1-p121-180"
+status: { review: published, generated_by: "Claude Haiku 5.5" }
