@@ -1,0 +1,32 @@
+id: event/dismissal-of-rashid-al-din-717
+class: event
+kind: other
+label:
+  ar: "عزل رشيد الدين من الوزارة سنة 717"
+  en: "Dismissal of Rashid al-Din from the vizierate, 717 AH"
+  ur: "رشید الدین کی وزارت سے معزولی، 717ھ"
+  fr: "Destitution de Rashid al-Din du vizirat, 717 AH"
+  es: "Destitución de Rashid al-Din como visir, 717 AH"
+summary:
+  ar: "في أواخر رجب سنة 717هـ عُزل رشيد الدين من منصبه بعد حملة من الوشايات والمكائد قادها علي شاه وأعوانه لدى السلطان ألجايتو، ويذكر الخشاب أنه ترك السلطانية بعد عزله مباشرة وذهب إلى تبريز {cite:jami-al-tawarikh-khashshab-1960 p. 74 to 77}. وكان الخلاف بينه وبين علي شاه قد بلغ مداه، وقد اشتركت في الوشاية أطراف من الديوان {cite:jami-al-tawarikh-khashshab-1960 p. 74}. ولم يرض عن العزل أمير آخر، وقد حزن له حزناً شديداً {cite:jami-al-tawarikh-khashshab-1960 p. 77}."
+  en: "In the last days of Rajab 717 AH Rashid al-Din was removed from office, after a campaign of denunciations and intrigue led by Ali Shah and his supporters at the court of Oljeitu {cite:jami-al-tawarikh-khashshab-1960 p. 74 to 77}. Immediately after his removal he left Sultaniyya for Tabriz {cite:jami-al-tawarikh-khashshab-1960 p. 74 to 77}. Several officials of the diwan had joined the intrigue against him {cite:jami-al-tawarikh-khashshab-1960 p. 74}. Another amir, the text says, did not accept the removal and grieved for it {cite:jami-al-tawarikh-khashshab-1960 p. 77}."
+  ur: "717ھ کے رجب کے آخری دنوں میں علی شاہ اور ان کے ساتھیوں کی سازشوں اور الزامات کی مہم کے بعد رشید الدین کو ان کے منصب سے ہٹا دیا گیا {cite:jami-al-tawarikh-khashshab-1960 p. 74 to 77}۔ معزولی کے فوراً بعد وہ سلطانیہ سے تبریز چلے گئے {cite:jami-al-tawarikh-khashshab-1960 p. 74 to 77}۔"
+  fr: "Dans les derniers jours de rajab 717 AH, Rashid al-Din fut démis de ses fonctions après une campagne de dénonciations et d'intrigues menée par Ali Shah et ses partisans à la cour d'Oljeitu {cite:jami-al-tawarikh-khashshab-1960 p. 74 to 77}. Aussitôt démis, il quitta Sultaniyya pour Tabriz {cite:jami-al-tawarikh-khashshab-1960 p. 74 to 77}. Plusieurs fonctionnaires du diwan s'étaient joints à l'intrigue {cite:jami-al-tawarikh-khashshab-1960 p. 74}."
+  es: "En los últimos días de rayab de 717 AH Rashid al-Din fue removido de su cargo tras una campaña de denuncias e intrigas dirigida por Ali Shah y sus partidarios en la corte de Oljeitu {cite:jami-al-tawarikh-khashshab-1960 p. 74 to 77}. Inmediatamente después de su destitución salió de Sultaniyya hacia Tabriz {cite:jami-al-tawarikh-khashshab-1960 p. 74 to 77}. Varios funcionarios del diwan se habían sumado a la intriga {cite:jami-al-tawarikh-khashshab-1960 p. 74}."
+wings: [people, time, place]
+themes: [politics-governance-and-authority]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { hijri: "0717-07", calendar: julian, precision: month, status: historical, note: "أواخر رجب سنة 717هـ كما يذكرها الخشاب {cite:jami-al-tawarikh-khashshab-1960 p. 74 to 77}. السنة الميلادية المطبوعة بجوارها في النص قراءة OCR ولم تُنقل ولم تُشتق." }
+relations:
+  - { type: occurred_at, target: place/sultaniyya, sources: [source/jami-al-tawarikh-khashshab-1960] }
+  - { type: had_participant, target: person/rashid-al-din-hamadani, role: "الوزير المعزول", sources: [source/jami-al-tawarikh-khashshab-1960] }
+sources: [source/jami-al-tawarikh-khashshab-1960]
+provenance:
+  layer: own-research
+  source: "Scan pages 74 to 77 of source/jami-al-tawarikh-khashshab-1960, OCR by Apple Vision, read by the packet drafter. The month is printed as the end of Rajab; the Christian year is OCR text. Names of some amirs in scan 77 are garbled and are not used."
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "jami-tawarikh-v2p1-p061-120"
+status: { review: published, generated_by: "Claude Haiku 5.5" }
