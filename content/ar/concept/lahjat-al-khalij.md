@@ -35,3 +35,39 @@ translators: []
 
 ## أعداد المتكلمين
 لم يجد ملف البحث عدداً للمتكلمين بالعربية الخليجية. فالصفحة المجانية من Ethnologue ⁦(الطبعة التاسعة والعشرون، 2026)⁩ تحجب الأعداد الدقيقة للمتكلمين بها لغةً أولى وثانية خلف حاجز دفع، ولا يذكر عدداً Glottolog ولا بريل ولا البريطانية ولا اليونسكو ولا المواقع الجامعية التي رجع إليها {cite:ethnologue-afb}. لذلك لا تذكر هذه الصفحة رقماً ولا تقدّره.
+
+## عبارات شائعة
+أضاف ملخص بحثي قُدّم إلى المتحف مقارنة بين ستين عبارة وكلمة في ست لهجات عربية، منها التحيات والسؤال عن الحال والسؤال عمّا يريده المخاطب والأعداد من واحد إلى خمسة. واللهجة المرجعية هنا هي العربية الكويتية والخليجية. والأسئلة موجهة في الغالب إلى متكلم مذكر واحد، والنقل الحرفي موحّد للمقارنة، وقد يكون الرسم العربي موحّداً حيث يستعمل المصدر كتابة صوتية لا خطاً عربياً. والمقابلات الفصيحة مقدَّمة للمقارنة وليست بالضرورة اقتباساً من مصادر اللهجة. ولم يفتح المتحف الصفحات المذكورة؛ فالمصادر كما أوردها الملخص، وفي العمود الأخير رموزه. {cite:gulfarabic-com-greeting-people-i} {cite:parallel-arabic-learn-kuwaiti-arabic} {cite:gulfarabic-com-numbers-cardinals-and-ordinals}
+
+| المعنى | العبارة | النقل الحرفي | المقابل في الفصحى | المصدر |
+|---|---|---|---|---|
+| التحية | يا هلا | yā hala | أهلاً | G1 |
+| تحية الصباح | صباح الخير | ṣabāḥ il-khayr | صباح الخير | G1 |
+| السؤال عن الحال | شلونك؟ | shlōnak? | كيف حالك؟ | G2 |
+| الجواب: بخير والحمد لله | زين، الحمد لله | zayn, il-ḥamdu lillāh | بخير، الحمد لله | G2 |
+| السؤال عمّا يريده المخاطب | شنو تبي؟ | shinu tibī? | ماذا تريد؟ | G2 |
+| واحد | واحد | wāḥid | واحد | G3 |
+| اثنان | إثنين | ithnēn | اثنان | G3 |
+| ثلاثة | ثلاثة | thalātha | ثلاثة | G3 |
+| أربعة | أربعة | arbaʿa | أربعة | G3 |
+| خمسة | خمسة | khamsa | خمسة | G3 |
+
+رموز النقل الحرفي: ā وī وū حركات طويلة؛ وē وō حركتان وسطيتان طويلتان؛ وʿ للعين؛ وʾ للهمزة؛ وḥ للحاء؛ وkh للخاء؛ وgh للغين.
+
+وخلافاً للهجتي القاهرة والشام الحضرية، تحافظ كثير من اللهجات الخليجية على نطق الثاء بين الأسنان th، كما في «ثلاثة».
+
+### مصادر الجدول
+- **G1:** GulfArabic.com, online course, vocabulary lesson V.2.1, Greeting People I; دورة على الشبكة {cite:gulfarabic-com-greeting-people-i}
+- **G2:** Parallel Arabic, online Kuwaiti Arabic course, Learn Kuwaiti Arabic, section Hear Kuwaiti; دورة كويتية على الشبكة {cite:parallel-arabic-learn-kuwaiti-arabic}
+- **G3:** GulfArabic.com, grammar lesson G.4.3, Numbers: Cardinals and Ordinals; درس قواعد على الشبكة {cite:gulfarabic-com-numbers-cardinals-and-ordinals}
+
+### مراجع متخصصة
+| المؤلف | المرجع | السنة |
+|---|---|---|
+| Hamdi A. Qafisheh | A Short Reference Grammar of Gulf Arabic | 1977 |
+| Clive Holes | Gulf Arabic | 1990 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+هذه مراجع متخصصة أوردها الملخص في قائمته، ويقول الملخص إنه لم يُنسب إليها تعبير بعينه من الجداول دون التحقق من مداخلها، فهي قراءة إضافية لا مصدر لعبارات الجدول. {cite:qafisheh-1977-short-reference-grammar-of-gulf-arabic} {cite:holes-1990-gulf-arabic} {cite:ryding-2005-reference-grammar-msa}
+
+وللمقارنة بين اللهجات الست جنباً إلى جنب انظر [[concept/al-muqarana-bayna-lahajat-al-arabiyya|المقارنة بين لهجات العربية]].

@@ -41,3 +41,40 @@ Glottolog 5.4 مصری عربی ⁦(شناخت egyp1253، ISO 639-3 کوڈ arz)�
 
 ## بولنے والوں کی تعداد
 تحقیقی خلاصہ ایک عدد دیتا ہے۔ انسائیکلوپیڈیا برٹانیکا کا صفحہ «مادری بولنے والوں کی تعداد کے لحاظ سے زبانیں»، مؤرخہ 4 اگست 2023، مصری عربی کے 77,436,230 مادری بولنے والے بتاتا ہے، جو 2020 کی دہائی کے آغاز کے Ethnologue کے اعداد و شمار کا حوالہ دیتا ہے {cite:britannica-languages-by-native-speakers}۔ خلاصے کو Ethnologue کے مفت صفحے ⁦(انتیسواں ایڈیشن، 2026؛ درست تعداد ادائیگی کی دیوار کے پیچھے ہیں)⁩، Glottolog، بریل یا یونیسکو میں کوئی عدد نہیں ملا {cite:ethnologue-arz}۔ یہ عدد برٹانیکا کی رپورٹ کے مطابق 2020 کی دہائی کے آغاز کے مادری بولنے والوں کی گنتی ہے، موجودہ مردم شماری نہیں۔
+
+## عام جملے
+عجائب گھر کو دیے گئے ایک تحقیقی خلاصے نے چھ عربی بولیوں میں ساٹھ جملوں اور الفاظ کا موازنہ شامل کیا، جن میں سلام دعا، حال پوچھنا، یہ پوچھنا کہ مخاطب کیا چاہتا ہے، اور ایک سے پانچ تک کے اعداد ہیں۔ یہاں حوالہ جاتی بولی قاہری عربی ہے۔ سوالات عموماً ایک مرد مخاطب سے ہیں۔ حرفی نقل موازنے کے لیے یکساں کی گئی ہے، اور جہاں مآخذ عربی رسم الخط کے بجائے صوتی نقل برتتا ہے وہاں عربی املا یکساں کیا گیا ہو سکتا ہے۔ فصیح مقابل موازنے کے لیے دیے گئے ہیں اور ضروری نہیں کہ بولی کے مآخذ سے اقتباس ہوں۔ عجائب گھر نے مذکور صفحات نہیں کھولے؛ مآخذ وہی ہیں جو خلاصے نے بتائے، اور اس کی علامتیں آخری کالم میں ہیں۔ {cite:yalla-masry-egyptian-arabic-phrase-guide-greetings} {cite:northwestern-first-year-arabic-mikhaeel-2024} {cite:el-baz-say-it-in-arabic-egyptian-dialect-1968} {cite:lisaan-masry-numbers}
+
+| اردو | بولی | حرفی نقل | فصیح مقابل | مآخذ |
+|---|---|---|---|---|
+| سلام | أهلاً | ahlan | أهلاً | E1 |
+| صبح بخیر | صباح الخير | ṣabāḥ il-khēr | صباح الخير | E1, E2 |
+| آپ کیسے ہیں؟ | إزيّك؟ | izzayyak? | كيف حالك؟ | E1, E2 |
+| میں ٹھیک ہوں | الحمد لله | il-ḥamdu lillāh | أنا بخير، الحمد لله | E1 |
+| آپ کیا چاہتے ہیں؟ | عاوز إيه؟ | ʿāwiz ēh? | ماذا تريد؟ | E3 |
+| ایک | واحد | wāḥid | واحد | E2, E4 |
+| دو | اتنين | itnēn | اثنان | E2, E4 |
+| تین | تلاتة | talāta | ثلاثة | E2, E4 |
+| چار | أربعة | arbaʿa | أربعة | E2, E4 |
+| پانچ | خمسة | khamsa | خمسة | E2, E4 |
+
+حرفی نقل کے اصول: ā، ī اور ū لمبی حرکات ہیں؛ ē اور ō لمبی درمیانی حرکات؛ ʿ سے ع؛ ʾ سے ء؛ ḥ سے ح؛ kh سے خ؛ اور gh سے غ مراد ہے۔
+
+جدول میں جو ایک نمایاں خصوصیت ظاہر ہوتی ہے وہ روزمرہ گنتی کے الفاظ میں ث کا ت کی طرح بولا جانا ہے، جیسے «ثلاثة» کی جگہ «تلاتة»۔
+
+### جدول کے مآخذ
+- **E1:** Yalla Masry, Egyptian Arabic Phrase Guide: Greetings; مصری عربی سیکھنے کا آن لائن ذریعہ، آواز کے ساتھ {cite:yalla-masry-egyptian-arabic-phrase-guide-greetings}
+- **E2:** Ragy Mikhaeel, First-Year Arabic, Northwestern University Libraries, 2024, lessons 1.1, 2 and 4.2; کھلی رسائی کی درسی کتاب {cite:northwestern-first-year-arabic-mikhaeel-2024}
+- **E3:** F. El-Baz, Say It in Arabic (Egyptian Dialect), 1968, General Expressions, item 40; جملوں کی مطبوعہ کتاب {cite:el-baz-say-it-in-arabic-egyptian-dialect-1968}
+- **E4:** Lisaan Masry, Egyptian Arabic Dictionary and Grammar, Numbers; مصری عربی کی آن لائن لغت اور قواعد {cite:lisaan-masry-numbers}
+
+### ماہرانہ مراجع
+| مصنف | مرجع | سال |
+|---|---|---|
+| Martin Hinds and El-Said Badawi | A Dictionary of Egyptian Arabic: Arabic-English | 1986 |
+| Manfred Woidich | Das Kairenisch-Arabische: Eine Grammatik | 2006 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+یہ ماہرانہ تصانیف ہیں جو خلاصہ اپنی فہرست میں دیتا ہے؛ وہ کہتا ہے کہ جدولوں کی کسی خاص عبارت کو متعلقہ اندراجات کی جانچ کے بغیر ان کتابوں کی طرف منسوب نہیں کیا گیا، اس لیے یہ مزید مطالعہ ہیں، جدول کی عبارتوں کا مآخذ نہیں۔ {cite:hinds-badawi-1986-dictionary-of-egyptian-arabic} {cite:woidich-2006-das-kairenisch-arabische} {cite:ryding-2005-reference-grammar-msa}
+
+چھ بولیوں کو ساتھ ساتھ دیکھنے کے لیے [[concept/al-muqarana-bayna-lahajat-al-arabiyya|عربی بولیوں کا موازنہ]] دیکھیں۔

@@ -1,0 +1,26 @@
+id: concept/al-arabiyya-fi-nigeria
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في نيجيريا"
+  en: "Arabic in Nigeria"
+  ur: "نائجیریا میں عربی"
+  fr: "l'arabe au Nigéria"
+  es: "el árabe en Nigeria"
+summary:
+  ar: "تعرض هذه الصفحة ما يقوله ملخص بحثي زُوّد به المتحف عن العربية في نيجيريا: مكانتها القانونية، والأصناف المحكية منها، والأرقام الرسمية كما وردت. ولا تملك العربية الفصحى ولا عربية الشوا في نيجيريا وضعاً دستورياً رسمياً أو وطنياً بحسب الملخص. ولم يفتح المتحف الصفحات التي يسمّيها الملخص، وقد أجاز المؤسس استعماله كما ورد في 21 نوفمبر 2026. وحيث يقول الملخص إنه لم يجد مصدراً رسمياً أو رقماً فهذا ما تقوله الصفحة بلفظه، ولا يضع المتحف رقماً من عنده."
+  en: "This page sets out what a research summary supplied to the museum says about Arabic in Nigeria: its legal status, the varieties spoken and the official figures, each as the summary gives it. According to the summary, neither Standard Arabic nor Shuwa Arabic has constitutional official or national status in Nigeria. The museum did not open the pages the summary names, and the founder approved using it as supplied on 21 November 2026. Where the summary says that no official source or figure was found, this page says exactly that and supplies no number of its own."
+  ur: "یہ صفحہ وہ پیش کرتا ہے جو متحف کو فراہم کردہ ایک تحقیقی خلاصہ نائجیریا میں عربی کے بارے میں کہتا ہے: اس کی قانونی حیثیت، بولی جانے والی اقسام اور سرکاری اعداد و شمار، ہر ایک جیسا خلاصہ دیتا ہے۔ خلاصے کے مطابق نائجیریا میں نہ معیاری عربی اور نہ شووا عربی کو آئینی سرکاری یا قومی حیثیت حاصل ہے۔ متحف نے خلاصے کے بیان کردہ صفحات نہیں کھولے، اور بانی نے 21 نومبر 2026 کو خلاصے کو جیسا ملا اسی طرح استعمال کرنے کی منظوری دی۔ جہاں خلاصہ کہتا ہے کہ کوئی سرکاری ماخذ یا عدد نہیں ملا وہاں یہ صفحہ بالکل یہی کہتا ہے اور اپنی طرف سے کوئی عدد نہیں دیتا۔"
+  fr: "Cette page expose ce que dit un résumé de recherche remis au musée sur l'arabe au Nigéria : son statut juridique, les variétés parlées et les chiffres officiels, chacun tel que le résumé le donne. Selon le résumé, ni l'arabe standard ni l'arabe shuwa n'a de statut constitutionnel officiel ou national au Nigéria. Le musée n'a pas ouvert les pages que nomme le résumé, et le fondateur a approuvé l'usage du résumé tel que fourni le 21 novembre 2026. Là où le résumé dit qu'aucune source officielle ni aucun chiffre n'a été trouvé, cette page dit exactement cela et ne fournit aucun nombre de son cru."
+  es: "Esta página expone lo que dice un resumen de investigación entregado al museo sobre el árabe en Nigeria: su estatus jurídico, las variedades habladas y las cifras oficiales, cada una como la da el resumen. Según el resumen, ni el árabe estándar ni el árabe shuwa tienen estatus constitucional oficial o nacional en Nigeria. El museo no abrió las páginas que nombra el resumen, y el fundador aprobó usarlo tal como se entregó el 21 de noviembre de 2026. Donde el resumen dice que no se halló ninguna fuente oficial ni cifra, esta página dice exactamente eso y no aporta ningún número propio."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: language/arabic, sources: [source/dubawa-muric-fact-check-arabic-inscription] }
+  - { type: related_to, target: place/nigeria, sources: [source/nigerian-constitution-section-55-languages] }
+  - { type: related_to, target: concept/al-arabiyya-fi-chad, sources: [source/wikipedia-chadian-arabic] }
+  - { type: related_to, target: concept/al-arabiyya-fi-niger, sources: [source/wikipedia-chadian-arabic] }
+provenance: { layer: own-research, source: "Research summary on the status of Arabic and its varieties in twelve non-Arab states and regions, supplied by the founder on 21 Nov 2026 and used without re-checking the pages it names, as the founder authorised; pages not opened by the museum.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-outside-spread-1" }
+sources: [source/dubawa-muric-fact-check-arabic-inscription, source/nalv-nigeria-arabic-language-village, source/nerdc-national-language-policy, source/nigerian-constitution-section-55-languages, source/tvcnews-fg-cancels-mother-tongue-policy, source/wikipedia-chadian-arabic]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

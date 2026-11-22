@@ -35,3 +35,39 @@ La Encyclopaedia Britannica sitúa el árabe en el semítico central y agrupa lo
 
 ## Número de hablantes
 El archivo de investigación no encontró ningún recuento de hablantes del árabe del Golfo. La página gratuita de Ethnologue (29.ª edición, 2026) guarda los recuentos exactos de primera y segunda lengua tras un acceso de pago, y Glottolog, Brill, Britannica, la UNESCO y los sitios universitarios consultados no indican ninguno {cite:ethnologue-afb}. Esta página, por tanto, no da cifra alguna ni la estima.
+
+## Expresiones comunes
+Un resumen de investigación entregado al museo añadió una comparación de sesenta expresiones y palabras en seis dialectos árabes, entre ellas saludos, preguntar cómo está alguien, preguntar qué quiere y los números del uno al cinco. La variedad de referencia es aquí el árabe kuwaití y del Golfo. Las preguntas se dirigen por lo general a un hablante masculino. La transliteración está normalizada para la comparación, y la ortografía árabe puede estarlo donde una fuente usa transcripción fonética en lugar de escritura árabe. Los equivalentes en árabe estándar se dan para la comparación y no son necesariamente citas de las fuentes dialectales. El museo no abrió las páginas nombradas; las fuentes son como las refirió el resumen, y sus etiquetas figuran en la última columna. {cite:gulfarabic-com-greeting-people-i} {cite:parallel-arabic-learn-kuwaiti-arabic} {cite:gulfarabic-com-numbers-cardinals-and-ordinals}
+
+| Español | Dialecto | Transliteración | Equivalente en árabe estándar | Fuente |
+|---|---|---|---|---|
+| Hola | يا هلا | yā hala | أهلاً | G1 |
+| Buenos días | صباح الخير | ṣabāḥ il-khayr | صباح الخير | G1 |
+| ¿Cómo estás? | شلونك؟ | shlōnak? | كيف حالك؟ | G2 |
+| Bien, gracias a Dios | زين، الحمد لله | zayn, il-ḥamdu lillāh | بخير، الحمد لله | G2 |
+| ¿Qué quieres? | شنو تبي؟ | shinu tibī? | ماذا تريد؟ | G2 |
+| Uno | واحد | wāḥid | واحد | G3 |
+| Dos | إثنين | ithnēn | اثنان | G3 |
+| Tres | ثلاثة | thalātha | ثلاثة | G3 |
+| Cuatro | أربعة | arbaʿa | أربعة | G3 |
+| Cinco | خمسة | khamsa | خمسة | G3 |
+
+Convenciones de transliteración: ā, ī y ū representan vocales largas; ē y ō vocales medias largas; ʿ representa ع; ʾ representa ء; ḥ representa ح; kh representa خ; y gh representa غ.
+
+A diferencia del árabe cairota corriente y del levantino urbano, muchas variedades del Golfo conservan la pronunciación interdental de ث como th, como ilustra ثلاثة.
+
+### Fuentes de la tabla
+- **G1:** GulfArabic.com, online course, vocabulary lesson V.2.1, Greeting People I; un curso en línea {cite:gulfarabic-com-greeting-people-i}
+- **G2:** Parallel Arabic, online Kuwaiti Arabic course, Learn Kuwaiti Arabic, section Hear Kuwaiti; un curso en línea de árabe kuwaití {cite:parallel-arabic-learn-kuwaiti-arabic}
+- **G3:** GulfArabic.com, grammar lesson G.4.3, Numbers: Cardinals and Ordinals; una lección de gramática en línea {cite:gulfarabic-com-numbers-cardinals-and-ordinals}
+
+### Obras de referencia especializadas
+| Autor | Obra de referencia | Año |
+|---|---|---|
+| Hamdi A. Qafisheh | A Short Reference Grammar of Gulf Arabic | 1977 |
+| Clive Holes | Gulf Arabic | 1990 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+Son obras especializadas que lista el resumen; dice que ninguna expresión particular de las tablas se atribuyó a estos libros sin comprobar las entradas pertinentes, de modo que son lecturas complementarias y no la fuente de las expresiones de la tabla. {cite:qafisheh-1977-short-reference-grammar-of-gulf-arabic} {cite:holes-1990-gulf-arabic} {cite:ryding-2005-reference-grammar-msa}
+
+Para las seis variedades lado a lado véase [[concept/al-muqarana-bayna-lahajat-al-arabiyya|Comparación de los dialectos árabes]].

@@ -1,0 +1,26 @@
+id: concept/al-arabiyya-fi-cameroon
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في الكاميرون"
+  en: "Arabic in Cameroon"
+  ur: "کیمرون میں عربی"
+  fr: "l'arabe au Cameroun"
+  es: "el árabe en Camerún"
+summary:
+  ar: "تعرض هذه الصفحة ما يقوله ملخص بحثي زُوّد به المتحف عن العربية في الكاميرون: مكانتها القانونية، والأصناف المحكية منها، والأرقام الرسمية كما وردت. وفي الكاميرون تكون الإنجليزية والفرنسية رسميتين، وتؤدي عربية الشوا وظيفة التواصل الأوسع في الشمال بلا تقنين بحسب الملخص. ولم يفتح المتحف الصفحات التي يسمّيها الملخص، وقد أجاز المؤسس استعماله كما ورد في 21 نوفمبر 2026. وحيث يقول الملخص إنه لم يجد مصدراً رسمياً أو رقماً فهذا ما تقوله الصفحة بلفظه، ولا يضع المتحف رقماً من عنده."
+  en: "This page sets out what a research summary supplied to the museum says about Arabic in Cameroon: its legal status, the varieties spoken and the official figures, each as the summary gives it. In Cameroon English and French are official, and the summary says Shuwa Arabic serves wider communication in the north without standardisation. The museum did not open the pages the summary names, and the founder approved using it as supplied on 21 November 2026. Where the summary says that no official source or figure was found, this page says exactly that and supplies no number of its own."
+  ur: "یہ صفحہ وہ پیش کرتا ہے جو متحف کو فراہم کردہ ایک تحقیقی خلاصہ کیمرون میں عربی کے بارے میں کہتا ہے: اس کی قانونی حیثیت، بولی جانے والی اقسام اور سرکاری اعداد و شمار، ہر ایک جیسا خلاصہ دیتا ہے۔ کیمرون میں انگریزی اور فرانسیسی سرکاری ہیں، اور خلاصے کے مطابق شووا عربی شمال میں بغیر معیاربندی کے وسیع تر رابطے کا کام دیتی ہے۔ متحف نے خلاصے کے بیان کردہ صفحات نہیں کھولے، اور بانی نے 21 نومبر 2026 کو خلاصے کو جیسا ملا اسی طرح استعمال کرنے کی منظوری دی۔ جہاں خلاصہ کہتا ہے کہ کوئی سرکاری ماخذ یا عدد نہیں ملا وہاں یہ صفحہ بالکل یہی کہتا ہے اور اپنی طرف سے کوئی عدد نہیں دیتا۔"
+  fr: "Cette page expose ce que dit un résumé de recherche remis au musée sur l'arabe au Cameroun : son statut juridique, les variétés parlées et les chiffres officiels, chacun tel que le résumé le donne. Au Cameroun l'anglais et le français sont officiels, et le résumé dit que l'arabe shuwa sert à la communication plus large dans le nord sans normalisation. Le musée n'a pas ouvert les pages que nomme le résumé, et le fondateur a approuvé l'usage du résumé tel que fourni le 21 novembre 2026. Là où le résumé dit qu'aucune source officielle ni aucun chiffre n'a été trouvé, cette page dit exactement cela et ne fournit aucun nombre de son cru."
+  es: "Esta página expone lo que dice un resumen de investigación entregado al museo sobre el árabe en Camerún: su estatus jurídico, las variedades habladas y las cifras oficiales, cada una como la da el resumen. En Camerún el inglés y el francés son oficiales, y el resumen dice que el árabe shuwa sirve a la comunicación más amplia en el norte sin normalización. El museo no abrió las páginas que nombra el resumen, y el fundador aprobó usarlo tal como se entregó el 21 de noviembre de 2026. Donde el resumen dice que no se halló ninguna fuente oficial ni cifra, esta página dice exactamente eso y no aporta ningún número propio."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: language/arabic, sources: [source/brill-eall-cameroon-arabic] }
+  - { type: related_to, target: place/cameroon, sources: [source/brill-eall-cameroon-arabic] }
+  - { type: related_to, target: concept/al-arabiyya-fi-chad, sources: [source/brill-eall-cameroon-arabic] }
+  - { type: related_to, target: concept/al-arabiyya-fi-nigeria, sources: [source/brill-eall-cameroon-arabic] }
+provenance: { layer: own-research, source: "Research summary on the status of Arabic and its varieties in twelve non-Arab states and regions, supplied by the founder on 21 Nov 2026 and used without re-checking the pages it names, as the founder authorised; pages not opened by the museum.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-outside-spread-1" }
+sources: [source/brill-eall-cameroon-arabic, source/wikipedia-chadian-arabic, source/wikipedia-list-of-linguistic-rights-in-african-constitutions]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

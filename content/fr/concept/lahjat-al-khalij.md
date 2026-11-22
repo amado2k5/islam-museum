@@ -35,3 +35,39 @@ L'Encyclopaedia Britannica place l'arabe dans le sémitique central et répartit
 
 ## Nombre de locuteurs
 Le dossier de recherche n'a trouvé aucun décompte de locuteurs pour l'arabe du Golfe. La page libre d'Ethnologue (29e édition, 2026) garde les décomptes exacts de première et de seconde langue derrière un accès payant, et Glottolog, Brill, Britannica, l'UNESCO et les sites universitaires consultés n'en donnent aucun {cite:ethnologue-afb}. Cette page ne donne donc aucun chiffre et n'en estime pas.
+
+## Expressions courantes
+Un résumé de recherche remis au musée a ajouté une comparaison de soixante expressions et mots dans six dialectes arabes, dont les salutations, la demande de nouvelles, la demande de ce que veut l'interlocuteur et les nombres de un à cinq. La variété de référence est ici l'arabe koweïtien et du Golfe. Les questions s'adressent en général à un locuteur masculin. La translittération est normalisée pour la comparaison, et l'orthographe arabe peut l'être là où une source emploie une transcription phonétique plutôt que l'écriture arabe. Les équivalents en arabe standard sont fournis pour la comparaison et ne sont pas nécessairement des citations des sources dialectales. Le musée n'a pas ouvert les pages nommées ; les sources sont telles que le résumé les a rapportées, et ses étiquettes figurent dans la dernière colonne. {cite:gulfarabic-com-greeting-people-i} {cite:parallel-arabic-learn-kuwaiti-arabic} {cite:gulfarabic-com-numbers-cardinals-and-ordinals}
+
+| Français | Dialecte | Translittération | Équivalent en arabe standard | Source |
+|---|---|---|---|---|
+| Bonjour | يا هلا | yā hala | أهلاً | G1 |
+| Bonjour (le matin) | صباح الخير | ṣabāḥ il-khayr | صباح الخير | G1 |
+| Comment allez-vous ? | شلونك؟ | shlōnak? | كيف حالك؟ | G2 |
+| Bien, grâce à Dieu | زين، الحمد لله | zayn, il-ḥamdu lillāh | بخير، الحمد لله | G2 |
+| Que voulez-vous ? | شنو تبي؟ | shinu tibī? | ماذا تريد؟ | G2 |
+| Un | واحد | wāḥid | واحد | G3 |
+| Deux | إثنين | ithnēn | اثنان | G3 |
+| Trois | ثلاثة | thalātha | ثلاثة | G3 |
+| Quatre | أربعة | arbaʿa | أربعة | G3 |
+| Cinq | خمسة | khamsa | خمسة | G3 |
+
+Conventions de translittération : ā, ī et ū représentent les voyelles longues ; ē et ō les voyelles moyennes longues ; ʿ représente ع ; ʾ représente ء ; ḥ représente ح ; kh représente خ ; et gh représente غ.
+
+À la différence de l'arabe cairote courant et de l'arabe levantin urbain, beaucoup de variétés du Golfe conservent la prononciation interdentale de ث en th, comme l'illustre ثلاثة.
+
+### Sources du tableau
+- **G1:** GulfArabic.com, online course, vocabulary lesson V.2.1, Greeting People I; un cours en ligne {cite:gulfarabic-com-greeting-people-i}
+- **G2:** Parallel Arabic, online Kuwaiti Arabic course, Learn Kuwaiti Arabic, section Hear Kuwaiti; un cours en ligne d'arabe koweïtien {cite:parallel-arabic-learn-kuwaiti-arabic}
+- **G3:** GulfArabic.com, grammar lesson G.4.3, Numbers: Cardinals and Ordinals; une leçon de grammaire en ligne {cite:gulfarabic-com-numbers-cardinals-and-ordinals}
+
+### Ouvrages de référence spécialisés
+| Auteur | Ouvrage de référence | Année |
+|---|---|---|
+| Hamdi A. Qafisheh | A Short Reference Grammar of Gulf Arabic | 1977 |
+| Clive Holes | Gulf Arabic | 1990 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+Ce sont des ouvrages spécialisés que le résumé liste ; il dit qu'aucune expression particulière des tableaux n'a été attribuée à ces livres sans vérifier les entrées pertinentes, de sorte qu'ils sont des lectures complémentaires et non la source des expressions du tableau. {cite:qafisheh-1977-short-reference-grammar-of-gulf-arabic} {cite:holes-1990-gulf-arabic} {cite:ryding-2005-reference-grammar-msa}
+
+Pour les six variétés côte à côte, voir [[concept/al-muqarana-bayna-lahajat-al-arabiyya|Comparaison des dialectes arabes]].

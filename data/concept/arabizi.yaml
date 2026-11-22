@@ -1,0 +1,26 @@
+id: concept/arabizi
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-script]
+label:
+  ar: "العربيزي"
+  en: "Arabizi"
+  ur: "عربیزی"
+  fr: "Arabizi"
+  es: "Arabizi"
+summary:
+  ar: "نظام كتابة لاتيني غير رسمي للعامية العربية في الرسائل القصيرة ومواقع التواصل، يمزج الحروف اللاتينية بأرقام مثل 2 للهمزة و3 للعين و7 للحاء و9 للصاد أو القاف؛ ونشأ في أواخر التسعينيات ومطلع الألفية في عصر الآسكي، كما يعرضه ملف بحثي قُدّم إلى المتحف {cite:awej-tls-arabizi-12-1-pdf} {cite:ala-journals-uni-lj-3arabizi-69} {cite:jlls-arabizi-3962}."
+  en: "An informal Latin-letter writing system for colloquial Arabic in text messages and social media, mixing Latin letters with numerals such as 2 for the hamza, 3 for the ayn, 7 for the ha and 9 for the sad or qaf; it arose in the late 1990s and early 2000s in the ASCII era, as a research file supplied to the museum presents it {cite:awej-tls-arabizi-12-1-pdf} {cite:ala-journals-uni-lj-3arabizi-69} {cite:jlls-arabizi-3962}."
+  ur: "بول چال کی عربی کے لیے لاطینی حروف میں ایک غیر رسمی نظامِ تحریر، جو ٹیکسٹ پیغامات اور سماجی رابطوں میں استعمال ہوتا ہے اور لاطینی حروف کو اعداد کے ساتھ ملاتا ہے، جیسے ہمزہ کے لیے 2، عین کے لیے 3، حاء کے لیے 7 اور صاد یا قاف کے لیے 9؛ یہ 1990 کی دہائی کے اواخر اور 2000 کی دہائی کے آغاز میں اسکی (ASCII) کے دور میں پیدا ہوا، جیسا کہ عجائب گھر کو پیش کی گئی ایک تحقیقی فائل اسے پیش کرتی ہے {cite:awej-tls-arabizi-12-1-pdf} {cite:ala-journals-uni-lj-3arabizi-69} {cite:jlls-arabizi-3962}."
+  fr: "Un système d'écriture informel en lettres latines pour l'arabe dialectal dans les SMS et les réseaux sociaux, mêlant lettres latines et chiffres comme 2 pour la hamza, 3 pour le 'ayn, 7 pour le ha et 9 pour le sad ou le qaf ; il est apparu à la fin des années 1990 et au début des années 2000, à l'ère de l'ASCII, tel qu'un dossier de recherche remis au musée le présente {cite:awej-tls-arabizi-12-1-pdf} {cite:ala-journals-uni-lj-3arabizi-69} {cite:jlls-arabizi-3962}."
+  es: "Un sistema de escritura informal en letras latinas para el árabe coloquial en mensajes de texto y redes sociales, que mezcla letras latinas con numerales como 2 para la hamza, 3 para la ayn, 7 para la ha y 9 para la sad o la qaf; surgió a finales de los años noventa y principios de los 2000, en la era del ASCII, tal como lo presenta un expediente de investigación entregado al museo {cite:awej-tls-arabizi-12-1-pdf} {cite:ala-journals-uni-lj-3arabizi-69} {cite:jlls-arabizi-3962}."
+wings: [words, today]
+themes: [linguistics]
+regions: [arab-world]
+relations:
+  - { type: related_to, target: concept/lawhat-al-mafatih-al-arabiyya, note: "Arabizi arose where Arabic keyboards were missing.", sources: [source/jlls-arabizi-3962] }
+  - { type: related_to, target: concept/al-lughat-al-maktuba-bil-harf-al-arabi, note: "The Arabic script and what replaced it elsewhere.", sources: [source/awej-tls-arabizi-12-1-pdf] }
+  - { type: related_to, target: language/arabic, sources: [source/awej-tls-arabizi-12-1-pdf] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (arabic_script_languages_and_arabizi.md); the museum did not open the cited pages; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-printing-names-laws-1 }
+sources: [source/awej-tls-arabizi-12-1-pdf, source/ala-journals-uni-lj-3arabizi-69, source/jlls-arabizi-3962, source/researchgate-yaghan-2008-arabizi, source/cerj-hajir-rasman-mcinerney-2022-pdf]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

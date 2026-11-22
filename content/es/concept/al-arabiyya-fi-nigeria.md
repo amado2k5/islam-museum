@@ -1,0 +1,32 @@
+---
+id: concept/al-arabiyya-fi-nigeria
+lang: es
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Resumen
+Esta página expone lo que dice un resumen de investigación entregado al museo sobre el árabe en Nigeria: su estatus jurídico, las variedades habladas y las cifras oficiales, cada una como la da el resumen. Según el resumen, ni el árabe estándar ni el árabe shuwa tienen estatus constitucional oficial o nacional en Nigeria. El museo no abrió las páginas que nombra el resumen, y el fundador aprobó usarlo tal como se entregó el 21 de noviembre de 2026. Donde el resumen dice que no se halló ninguna fuente oficial ni cifra, esta página dice exactamente eso y no aporta ningún número propio.
+
+## Qué es esta página
+Esta página es un artículo sobre el tema «el árabe en Nigeria», en el capítulo del mundo del explorador del árabe, una de las páginas que tratan del árabe fuera de los Estados que se cuentan como árabes. Responde a tres preguntas: cuál es el estatus jurídico del árabe allí, qué variedades de él se hablan y qué cifras oficiales se han publicado sobre los hablantes, si las hay. El museo se atiene aquí a lo que observa en todas sus páginas: una voz que describe y no que manda, cada afirmación atribuida a su página y ningún veredicto sobre una cuestión disputada. Toda la materia viene de un único resumen de investigación; la página describe, pues, lo que dijo el resumen y no pretende haber leído las fuentes.
+
+## Contexto y fechas
+La secuencia del resumen es corta: la constitución de 1999, la Política Nacional de Lenguas de 2022, que incluía enseñanza opcional del árabe, y su cancelación en noviembre de 2025 en favor del inglés como única lengua de instrucción. La Nigeria Arabic Language Village se menciona como existente, sin fecha de fundación. El resumen no cuenta la historia de la llegada del árabe a Borno, y el museo no la inventa.
+
+## Estatus jurídico
+Según el resumen, ni el árabe estándar ni el árabe shuwa tienen estatus constitucional oficial o nacional en Nigeria; conforme a la Constitución de 1999 (secciones 55 y 97) el inglés es la lengua oficial principal, con el hausa, el igbo y el yoruba junto a él en la Asamblea Nacional {cite:nigerian-constitution-section-55-languages} {cite:nerdc-national-language-policy}. El Gobierno Federal gestiona la Nigeria Arabic Language Village en Ngala, estado de Borno {cite:nalv-nigeria-arabic-language-village}. El resumen añade que la Política Nacional de Lenguas de 2022, que incluía enseñanza opcional del árabe, fue cancelada en noviembre de 2025 en favor del inglés como única lengua de instrucción {cite:tvcnews-fg-cancels-mother-tongue-policy}. Es la afirmación del resumen sobre sus páginas; el museo no leyó ninguna.
+
+## Variedades habladas
+El resumen nombra el árabe shuwa, es decir el árabe nigeriano o chadiano, en el noreste de Nigeria y sobre todo en el estado de Borno, y el árabe clásico y estándar moderno en la educación islámica y los contextos religiosos {cite:wikipedia-chadian-arabic} {cite:dubawa-muric-fact-check-arabic-inscription}. La clase shuwa cruza así las fronteras con Chad, Camerún y Níger, como muestran también las páginas de esos países. Para comparar véanse [[concept/al-arabiyya-fi-chad|El árabe en Chad]] y [[concept/al-arabiyya-fi-niger|El árabe en Níger]].
+
+## Cifras oficiales
+El resumen no encontró ningún censo oficial nigeriano ni recuento de hablantes de la ONU o la UNESCO, y ninguna de las páginas que nombra para esta sección lleva una cifra. Con ese fundamento el museo no da ni cifra ni proporción de hablantes de árabe en Nigeria y no extrae ninguna cifra de la página de verificación de hechos ni de otra página nombrada aquí.
+
+## En qué difieren las fuentes
+Las páginas nombradas para este registro son de naturalezas distintas. Textos oficiales y estadísticas: Nigerian Constitution, Chapter V, Part I, Section 55: Languages {cite:nigerian-constitution-section-55-languages}, National Language Policy {cite:nerdc-national-language-policy} y Nigeria Arabic Language Village (NALV) {cite:nalv-nigeria-arabic-language-village}; Páginas de referencia, académicas y de prensa: FG cancels policy on use of mother tongue, adopts English for child education {cite:tvcnews-fg-cancels-mother-tongue-policy} y Israel's currency has Arabic inscription, Nigeria is not a secular state: other claims by MURIC fact-checked {cite:dubawa-muric-fact-check-arabic-inscription}; Páginas de Wikipedia: Chadian Arabic {cite:wikipedia-chadian-arabic}. Los textos oficiales y las estadísticas hablan en nombre del Estado o de la oficina de estadística; las páginas de referencia, académicas y de prensa describen e interpretan; Wikipedia solo respalda nombres, lugares y fechas. Donde las naturalezas difieren, el museo informa de cada una con su propia voz sin decidir entre ellas, y no abrió ninguna.
+
+## En el cuadro más amplio
+Esta página pertenece al capítulo del mundo y se lee junto a las páginas sobre los países árabes que contiene. Para el marco general véase [[concept/al-alam-al-arabi|Los Estados árabes y su Liga]]; para el estándar y los hablados véase [[concept/al-fusha-wal-lahajat|Fusha y dialectos]]; y para la cuestión de si los hablados son una lengua o varias véase [[concept/tasnif-al-arabiyya-lughatan-am-lahajat|Clasificar el árabe: lengua o dialectos]]. La página del lugar es [[place/nigeria|Nigeria]]. Para la historia general de la lengua véanse [[concept/tarikh-al-lugha-al-arabiyya|La historia de la lengua árabe]] y [[concept/al-arabiyya-fi-al-alam-al-yawm|El árabe en el mundo hoy]].
+
+## Lo que esta página no alcanzó
+El museo no abrió ninguna de las páginas que nombra el resumen, textos constitucionales, censos, entradas de enciclopedia, artículos e informes; todo lo anterior se atribuye por tanto al resumen tal como llegó, y no a una lectura de esas páginas. El museo no midió ninguna cifra de hablantes ni estimó ninguna proporción. Donde se nombra Wikipedia, solo respalda hechos de entidad, nombres, lugares y fechas, y las afirmaciones que lleva se atribuyen al resumen y no a la voz del museo. Lo que el resumen no encontró sigue sin encontrarse: ni un censo oficial ni un recuento de hablantes de la ONU o la UNESCO. El museo no llena ese vacío con una estimación ni con una cifra de una fuente no nombrada. El fundador aprobó este uso el 21 de noviembre de 2026, y la página no lleva ningún veredicto sobre cómo debe clasificarse el árabe allí.

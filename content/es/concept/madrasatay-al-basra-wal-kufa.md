@@ -1,0 +1,32 @@
+---
+id: concept/madrasatay-al-basra-wal-kufa
+lang: es
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Resumen
+Esta página compara las dos grandes escuelas de la gramática árabe, Basora y Kufa, en lo que cada una acepta como testimonio y en qué principio de razonamiento pone primero, la analogía o la transmisión. Transmite lo que un resumen de investigación entregado al museo dejó consignado en una tabla, y añade lo que el resumen dice sobre la reunión por parte de Ibn al-Anbari de los puntos de disputa entre ellas. Las dos escuelas tienen una página general, [[concept/madrasat-al-nahw-al-basriyya-kufiyya|La escuela basrí y kufí]] {cite:pageplace-baalbaki-early-islamic-grammatical-tradition-preview} {cite:al-kindi-publisher-ijllt-nahwu-kufah-2023} {cite:qaf-min-tarikh-al-nahw-al-arabi}.
+
+## Las figuras de las dos escuelas
+Para Basora, el resumen nombra a [[person/al-khalil-ibn-ahmad-al-farahidi|al-Khalil ibn Ahmad]], [[person/sibawayh|Sibawayh]] y [[person/al-mubarrad|al-Mubarrad]]; para Kufa, a [[person/al-ruasi|al-Ru'asi]], [[person/al-kisai|al-Kisa'i]], [[person/al-farra|al-Farra]] y [[person/ahmad-ibn-yahya-tha-lab|Tha'lab]] {cite:pageplace-baalbaki-early-islamic-grammatical-tradition-preview} {cite:al-kindi-publisher-ijllt-nahwu-kufah-2023} {cite:qaf-min-tarikh-al-nahw-al-arabi}. La lista es la del resumen; la página no afirma que sea completa, y no se leyó ninguna obra de ninguno de ellos.
+
+## El método basrí
+El resumen atribuye a los basríes una preferencia por la analogía, es decir, el razonamiento por semejanza estricta, y por las reglas sistemáticas y la explicación causal. Según el resumen, limitan los testimonios a los poetas preislámicos y a los primeros poetas mukhadram y a informantes beduinos puros, y descartan un verso anómalo, o atestiguado una sola vez, como necesidad poética, de modo que no se construye regla sobre él {cite:pageplace-baalbaki-early-islamic-grammatical-tradition-preview} {cite:al-kindi-publisher-ijllt-nahwu-kufah-2023} {cite:qaf-min-tarikh-al-nahw-al-arabi}.
+
+## El método kufí
+El resumen atribuye a los kufíes una preferencia por la transmisión, es decir, lo que se refiere firmemente de los árabes, sobre la analogía rígida. Aceptan un conjunto más amplio de testimonios poéticos, incluidos versos raros y dialectales y los que tienen una sola atestación, y aceptan las lecturas coránicas no canónicas como base válida para una regla. Esta diferencia sobre los testimonios es lo que enlaza con la página [[concept/al-shir-al-jahili-ka-shahid-lughawi|La poesía preislámica como testimonio lingüístico]] {cite:pageplace-baalbaki-early-islamic-grammatical-tradition-preview} {cite:al-kindi-publisher-ijllt-nahwu-kufah-2023} {cite:qaf-min-tarikh-al-nahw-al-arabi}.
+
+## La tabla comparativa
+La tabla tiene cuatro filas: las figuras, el método central, el uso de testimonios y la síntesis a la que llegó la tradición. El método de Basora es la analogía y el razonamiento causal, el de Kufa la transmisión; los testimonios de Basora son más estrechos, los de Kufa más amplios. Para la síntesis clásica el resumen nombra a Ibn al-Anbari, muerto en 577 de la Hégira, 1181 d. C., que reunió en su al-Insaf fi masa'il al-khilaf 121 puntos de disputa gramatical entre las escuelas; el registro del museo sobre él es [[person/al-anbari-abd-al-rahman|al-Anbari, Abd al-Rahman]] {cite:pageplace-baalbaki-early-islamic-grammatical-tradition-preview} {cite:al-kindi-publisher-ijllt-nahwu-kufah-2023} {cite:qaf-min-tarikh-al-nahw-al-arabi}.
+
+## Analogía, transmisión y necesidad
+En el uso de los gramáticos, la analogía consiste en llevar una palabra a su semejante en cuanto a la norma cuando comparten un fundamento, de modo que de lo regular se hace una regla aplicable a lo que nunca se oyó. La transmisión consiste en atenerse a lo que se refiere firmemente de árabes de confiada elocuencia, de modo que una decisión descansa solo en un texto transmitido. El resumen da a entender que los basríes pusieron en primer lugar la primera y por ello tuvieron que limitar el material oído a lo regular, contando lo anómalo, o el verso atestiguado solo, como necesidad poética, es decir, lo que se permite únicamente al poeta para conservar la métrica; y que los kufíes pusieron en primer lugar la segunda y por ello toleraron lo que no es regular. Esto es una explicación de términos, no un informe del resumen, pensada solo para facilitar la lectura de la tabla {cite:pageplace-baalbaki-early-islamic-grammatical-tradition-preview} {cite:al-kindi-publisher-ijllt-nahwu-kufah-2023} {cite:qaf-min-tarikh-al-nahw-al-arabi}.
+
+## Ibn al-Anbari y los puntos de disputa
+El resumen ve en Ibn al-Anbari al autor de la síntesis clásica de la disputa, pues en un solo libro reunió 121 cuestiones en que basríes y kufíes diferían. Eso significa que la querella entre las escuelas ya no quedó como una querella de método solamente, sino que se volvió una lista de cuestiones definidas de gramática en las que una opinión podía contraponerse a otra. El resumen no nombra las cuestiones ni lo que el autor prefería en ellas, de modo que la página no transmite nada de ellas y se atiene al número dado {cite:pageplace-baalbaki-early-islamic-grammatical-tradition-preview} {cite:al-kindi-publisher-ijllt-nahwu-kufah-2023} {cite:qaf-min-tarikh-al-nahw-al-arabi}.
+
+## Referencias que nombra el resumen
+El resumen nombra el estudio de Kees Versteegh, «Grammar and Exegesis: The Origins of Kufan Grammar and the Tafsir Muqatil», en Der Islam 67 (1990), páginas 206 a 242, reimpreso en The Early Islamic Grammatical Tradition, editado por Ramzi Baalbaki (Routledge, 2007); un artículo de 2023 en el International Journal of Language and Linguistics Teaching sobre cómo la escuela kufí deriva reglas de los datos; y Min tarikh al-nahw al-arabi de Sa'id al-Afghani. El museo no abrió ninguno {cite:pageplace-baalbaki-early-islamic-grammatical-tradition-preview} {cite:al-kindi-publisher-ijllt-nahwu-kufah-2023} {cite:qaf-min-tarikh-al-nahw-al-arabi}.
+
+## Fundamento
+La página se apoya en un resumen de investigación entregado al museo, cuyo uso sin nueva verificación aprobó el fundador el 21 de noviembre de 2026. Todo lo escrito arriba se atribuye al resumen. La página no juzga entre las escuelas. La división en un método analógico y un método de transmisión es la del resumen, y el museo no ha leído el detalle de la disputa en las cuestiones particulares.
