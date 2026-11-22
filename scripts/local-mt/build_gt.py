@@ -15,7 +15,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from translate import BROKEN, LEVELED, ROOT, protect, queue  # noqa: E402
 
 ap = argparse.ArgumentParser()
-ap.add_argument("--lang", required=True, choices=["es", "fr", "both", "en", "ur"], help="both: one file for the two languages (records missing in either)")
+ap.add_argument("--lang", required=True, choices=["es", "fr", "both", "en", "ur", "tr", "id"], help="both: one file for the two languages (records missing in either)")
 ap.add_argument("--dir", required=True)
 ap.add_argument("--n", type=int, required=True, help="file number")
 ap.add_argument("--bytes", type=int, default=990_000)

@@ -5,7 +5,7 @@ export const GET: APIRoute = () => {
   const lines = [
     "# islam.museum",
     "",
-    "> An open, free, all-digital museum of Islam: faith, civilization, peoples, places, ideas, objects and living culture. Published in Arabic (/ar/), English (/en/), Urdu (/ur/), French (/fr/) and Spanish (/es/); Arabic is canonical; the other four are translations, including machine translations. Prose CC BY-SA 4.0; data CC0.",
+    "> An open, free, all-digital museum of Islam: faith, civilization, peoples, places, ideas, objects and living culture. Published in Arabic (/ar/), English (/en/), Urdu (/ur/), French (/fr/), Spanish (/es/), Turkish (/tr/) and Indonesian (/id/); Arabic is canonical; the other six are translations, including machine translations. Prose CC BY-SA 4.0; data CC0.",
     "",
     "Every entry cites sources and distinguishes scriptural, traditional, historical and debated claims. Contested topics carry parallel perspectives. Cite pages by URL.",
     "",

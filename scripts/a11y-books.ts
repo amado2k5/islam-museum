@@ -17,7 +17,7 @@ import { readBigJson } from "./lib/graph-file.mjs";
 
 const DIST = p("dist");
 // BUILD_LANG (the by-language build, `npm run build:lang`): only that language's pages are in dist/, so only its books are made.
-const LANGS = (["ar", "en", "ur", "fr", "es"] as const).filter((l) => !process.env.BUILD_LANG || l === process.env.BUILD_LANG);
+const LANGS = (["ar", "en", "ur", "fr", "es", "tr", "id"] as const).filter((l) => !process.env.BUILD_LANG || l === process.env.BUILD_LANG);
 const BRL_TABLE: Record<string, string> = {
   ar: "/tables/ar-ar-g1.utb", // liblouis has no Arabic contracted table
   en: "/tables/en-ueb-g2.ctb",

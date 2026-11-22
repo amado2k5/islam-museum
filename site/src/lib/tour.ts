@@ -127,8 +127,8 @@ export function viewExhibits(list: Exhibit[], lang: Lang): ExhibitView[] {
     record: e.record,
     label: e.label[lang] ?? e.label.en,
     desc: e.desc[lang] ?? e.desc.en,
-    material: e.material?.[lang] ?? (lang === "fr" || lang === "es" ? e.material?.en : e.material?.ar) ?? "",
-    museum: e.museum?.[lang] ?? (lang === "fr" || lang === "es" ? e.museum?.en : e.museum?.ar) ?? "",
+    material: e.material?.[lang] ?? (lang === "ar" || lang === "en" || lang === "ur" ? e.material?.ar : e.material?.en) ?? "",
+    museum: e.museum?.[lang] ?? (lang === "ar" || lang === "en" || lang === "ur" ? e.museum?.ar : e.museum?.en) ?? "",
   }));
 }
 

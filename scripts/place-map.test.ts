@@ -171,7 +171,7 @@ describe("place map: a page, its script, its styles and its data come from one b
 });
 
 describe("place map: strings", () => {
-  const langs = ["ar", "en", "ur", "fr", "es"].map((l) => parse(readFileSync(new URL(`../i18n/${l}.yaml`, import.meta.url), "utf8")).map.viewer);
+  const langs = ["ar", "en", "ur", "fr", "es", "tr", "id"].map((l) => parse(readFileSync(new URL(`../i18n/${l}.yaml`, import.meta.url), "utf8")).map.viewer);
   it("names the twelve regions and the ten kinds of place in every language", () => {
     for (const v of langs) {
       expect(Object.keys(v.regions)).toHaveLength(12);

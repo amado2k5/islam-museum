@@ -133,7 +133,7 @@ function buildCensus() {
     inventionRecords.map((record) => record.attribution?.status ?? "unassigned"),
   );
   const inventionArticlesByLanguage = Object.fromEntries(
-    ["ar", "en", "ur", "fr", "es"].map((lang) => [
+    ["ar", "en", "ur", "fr", "es", "tr", "id"].map((lang) => [
       lang,
       inventionProse.filter((file) => rel(file).split("/")[1] === lang).length,
     ]),

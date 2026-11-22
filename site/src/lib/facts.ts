@@ -37,7 +37,7 @@ export function loadFacts(): Fact[] {
   return out;
 }
 
-export const factText = (f: Fact, lang: Lang): string => (lang === "fr" || lang === "es" ? f[lang] ?? f.en : f[lang as "ar" | "en" | "ur"]) ?? f.ar;
+export const factText = (f: Fact, lang: Lang): string => (lang === "ar" || lang === "en" || lang === "ur" ? f[lang] : f[lang] ?? f.en) ?? f.ar;
 
 export function viewFact(f: Fact, lang: Lang): FactView {
   const n = byId.get(f.id);

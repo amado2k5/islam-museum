@@ -41,7 +41,7 @@ describe("QuranEnc.com verse translations (French, Spanish)", () => {
     }
   });
   it("the credit string exists in all five languages and names the version", () => {
-    for (const l of ["ar", "en", "ur", "fr", "es"]) expect(readFileSync(p("i18n", `${l}.yaml`), "utf8")).toMatch(/translation_credit_quranenc: .*\{tr\}.*\{v\}/);
+    for (const l of ["ar", "en", "ur", "fr", "es", "tr", "id"]) expect(readFileSync(p("i18n", `${l}.yaml`), "utf8")).toMatch(/translation_credit_quranenc: .*\{tr\}.*\{v\}/);
   });
   it("the translations are not copied into the frozen records", () => {
     const s = readFileSync(p("data", "passage", "quran-2-255.yaml"), "utf8");
