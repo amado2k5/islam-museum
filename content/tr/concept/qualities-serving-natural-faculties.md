@@ -1,0 +1,18 @@
+---
+id: concept/qualities-serving-natural-faculties
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/qualities-serving-natural-faculties.md}
+---
+## Özet
+İbn Sina, dört doğal gücün ilk dört nitelikle hizmet ettiğini: sıcaklık, soğuk, nem ve kuruluk ile hizmet ettiğini; soğukluğun genişlikte olduğunu, özellikle değil; kuruluk ve nemin her bir kuvvetin etkisine bağlı olduğunu açıklar {cite:canon-ibn-sina-print-v1 pp.96-98}.
+
+## Sıcak ve Soğuk
+Isı gerçekte dört kişi için ortak bir hizmet olarak hizmet eder. Soğukluk konusunda ise, bir kısmı genişliğe hizmet edebilir, özellikle değil, çünkü soğutmanın temel özelliği, tüm kuvvetlere karşı olmasıdır çünkü tüm etkileri hareketlerle gerçekleşir ve soğuk ölümcüldür, bu hareketleri yönlendirir ve engeller. Ancak, lifi uygun şekilde hapsederek ışını tutmada etkilidir, böylece makineyi hazırlar, kuvvetin kendisine dahil olmaz. İtki, serinlikten faydalanır; rüzgarın çözünmesini engeller, onu kalınlaştırmak için gereken şeylerle ve geniş eğirilmiş lifi toplayıp sarar. Bu aynı zamanda makine için bir hazırlıktır; aynı harekete girerse, hareketi zararlar ve söndürür {cite:canon-ibn-sina-print-v1 pp.96-97}.
+
+## Al-Yaboosa
+Kuru olma ihtiyacı, üç gücün etkisinde yatar: taşıyıcılar, yani çekici, itici ve tutucu. İki taşıyıcıya gelince, kuruluk, ruhun bu kuvvetleri güçlü bir itişle hareket ettirmesinde temel bir güveni sağladığı için, ruhun veya aletin özünde nemli gevşememeyi engeller. Tutucu ısıdan çok kuruya ihtiyaç duyar, çünkü durgunluk süresi, enine lifin tutunma süresinden daha uzundur; ve erkeklerin mizacı nemli olmaya çok daha yatkın olduğundan, bu güç onlarda zayıflar {cite:canon-ibn-sina-print-v1 p.97}. Çekici olanın ısı ihtiyacı, kuru olma ihtiyacından daha fazladır, çünkü en uzun süresi karıştırmaktır ve güçlü hareket gerektirir. Çekim, ya demir mıknatısının çektiği çekim kuvvetiyle ya da su çeşmelerde çekildiği için vakum gerekliliğiyle, ya da bir lamba alevi yağ aleviyle çekilen ısıyla gerçekleşir. Bu üçüncü kategori vakum gerekliliğinden kaynaklansa da, mıknatıs ısıyla birlikte olduğunda çekim daha güçlüdür. İtici yakıt için ise, kuru olma ihtiyacı çekici ve tutucudan daha azdır; çünkü hiç süspansiyon gerektirmez, bunun yerine karıştırma ve hafif bir yoğuşma gerektirir ve bu da bastırma ve itme işlemlerine yardımcı olur {cite:canon-ibn-sina-print-v1 p.97}.
+
+## Digestive ve Erkekler
+En çok ısıya ihtiyaç duyan sindirim sistemidir ve kuruluğa ihtiyacı yoktur; aksine, yiyeceği kolaylaştırmak ve onu akarsulara nüfuz edip formları kabul etmeye hazırlamak için nem gerekir {cite:canon-ibn-sina-print-v1 p.98}. İbn Sina, sindirime nem yardımcı olsaydı, erkek çocukların katı şeyleri sindiremeyeceğini söyleyenlere yanıt verir: bunun sebebi homojenlik ve onlardan kaçınmaktır, çünkü zor olan erkeklerin mizacına uymaz, bu yüzden sindirim güçleri onu baskın etmez, kavrayıp itme de hızla kabul etmez. Genç erkeklerin aksine, bu onların mizacına uygundur ve beslenmeleri için uygundur {cite:canon-ibn-sina-print-v1 p.98}. Kavramanın uzun süre tutuş ve hafif bir hareket yardımı, çok kısa süre ve çok fazla yardım gerektiren bir tutuş, güvenilir olmayan bir tutuş ve çözülme ile karıştırma gerektiren bir sindirim gerektirdiği kabul edilmektedir; bu nedenle dört modun kullanımında değişiklik gösterir {cite:canon-ibn-sina-print-v1 p.98}.

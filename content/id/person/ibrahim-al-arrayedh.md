@@ -1,0 +1,19 @@
+---
+id: person/ibrahim-al-arrayedh
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/ibrahim-al-arrayedh.md}
+---
+## Abstrak
+Ibrahim Al-Arayed (1908–2002) adalah seorang penyair dan penulis Bahrain, yang secara luas dianggap sebagai salah satu tokoh paling menonjol dalam sastra Bahrain modern dan pemimpin gerakan sastra Bahrain sepanjang abad kedua puluh. Ia lahir di Bombay dari ayah Bahrain dan ibu Irak, dan menghabiskan karier profesionalnya sebagai guru, petugas bea cukai, dan karyawan di sebuah perusahaan minyak, menulis dan menerjemahkan puisi ke dalam bahasa Arab, Persia, Urdu, dan Inggris; pada awal 1970-an, ia memimpin dewan yang merancang konstitusi pertama Bahrain, dan pada tahun 2006, rumahnya di Manama menjadi Ibrahim Al-Arayedh House of Poetry. {cite:wikipedia-ibrahim-al-arrayedh-ar} {cite:wikidata-ibrahim-al-arrayedh}
+
+## Kehidupannya
+Al-Arayed lahir di Bombay, India, pada 8 Maret 1908; ayahnya berasal dari Manama dan ibunya dari Irak. Ia pertama kali mengunjungi Bahrain pada tahun 1922 pada usia empat belas tahun, belajar di Sekolah Al-Hidaya Al-Khalifiyah, sekolah formal pertama di pulau itu, lalu kembali ke Bombay untuk menyelesaikan studinya dan pindah ke Universitas Islam Aligarh, di mana kecintaannya pada sastra Urdu semakin dalam; ia menguasai bahasa Persia, Inggris, dan Urdu bersama bahasa Arab. Setelah kembali ke Bahrain pada tahun 1927, ia mengajar bahasa Inggris di Sekolah Al-Hidaya selama empat tahun, kemudian menjadi wakil kepala sekolah Ja'fari dan mengundurkan diri setelah perselisihan dengan otoritas kolonial Inggris. Ia bekerja sebagai bendahara di Otoritas Bea Cukai, memimpin departemen terjemahan dari tahun 1937 hingga Perang Dunia II menutup perusahaan, bekerja di stasiun radio di Delhi pada tahun 1943, kemudian bergabung dengan Bahrain Oil Company dan tetap di sana hingga pensiun pada tahun 1967. Pada tahun 1974, ia diangkat sebagai duta besar keliling, kemudian duta besar luar biasa dan berkuasa penuh di Kementerian Luar Negeri. {cite:wikipedia-ibrahim-al-arrayedh-en}
+
+## Puisi dan Warisannya
+Ia mulai menulis puisi pada usia delapan belas tahun dan menerbitkan kumpulan puisi pertamanya di Baghdad pada tahun 1931. Terjemahannya meliputi puisi dalam bahasa Arab, Persia, Urdu, dan Inggris, dan puisinya mendapat pembaca di Irak, Suriah, dan Mesir; American University of Beirut mengundangnya untuk memberikan kuliah tentang sastra Arab. Di antara bukunya adalah: "To Bethlehem" tentang perjuangan Palestina, "Bitter Bread" tentang kemiskinan dan ketidakadilan sosial, serta "The Tragedy of Existence" tentang keberadaan manusia. Kumpulan puisinya "Poems from Bahrain" menggambarkan suasana budaya dan sosial negara tersebut. Ia mendirikan sekolahnya sendiri, dan Sheikh Isa bin Salman Al Khalifa mengangkatnya sebagai presiden Dewan Konstitusi yang bertugas menyusun konstitusi pertama Bahrain sebelum kemerdekaan dari Inggris. Ia meninggal pada Mei 2002 — Wikidata mencatat 28 Mei — pada usia sembilan puluh empat tahun akibat komplikasi pernapasan, dan dimakamkan di pemakaman Manama di sebelah putrinya Layla. Raja Hamad menamai sebuah jalan di Manama dengan namanya; kediamannya di Qudaibiya pada tahun 2006 membuka Ibrahim Al-Arayed House of Poetry, dan UNESCO menghormati warisannya pada tahun 2008 dengan pameran di kantor pusatnya di Paris. {cite:wikipedia-ibrahim-al-arrayedh-en} {cite:wikidata-ibrahim-al-arrayedh}
+
+## Sumber
+- Entitas dari sumber yang disebutkan di atas, terdaftar pada `data/source/`.
+- Ulasan artikel ini harus diberi tanggal dan disebutkan sumber yang mengubah setiap insiden.

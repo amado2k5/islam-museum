@@ -1,0 +1,15 @@
+---
+id: concept/al-qula-wa-al-quruh-al-khabitha
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/al-qula-wa-al-quruh-al-khabitha.md}
+---
+## Apa itu dan penyebabnya
+Sariawan adalah borok yang terbentuk di kulit mulut dan lidah dengan melebar dan melebar. Ular ini dapat sering terpapar pada anak laki-laki, dan sebagian besar yang terpapar disebabkan oleh susu yang buruk atau pencernaan yang buruk di lambung. Ini juga bisa disebabkan oleh campuran apa pun. Putih sebagian besar adalah dahak asin, kuning adalah empedu dan lebih meradang daripada yang lain, hitam gelap, merah terang berdarah, dan yang paling berbahaya adalah hitam {cite:canon-ibn-sina-print-v2 p.262}.
+## Variasinya dan kebiasaan Galen menamainya
+Beberapa jenis thrush bisa sangat korosif, beberapa lebih sering, beberapa mungkin dengan tumor, atau mungkin sendiri. Setiap tukak yang muncul di permukaan mulut akan cepat mengembang karena panas yang konstan dan kulitnya lembap serta lembut. Galen biasanya menyebutnya thrush selama masih di permukaan; jika membusuk dan tenggelam, ia tidak menyebutnya thrush melainkan luka ganas yang membutuhkan obat kaustik (biasanya dikaitkan dengan Galen). Thrush bisa menjadi lebih umum saat hujan deras, dan lebih umum pada demam epidemi {cite:canon-ibn-sina-print-v2 p.262}.
+## Pengobatan
+Pertama-tama harus dicampur dengan flea efektif dominan dengan muntah dari seluruh tubuh jika sering terjadi, kemudian dari keringat dekat mulut jenis ini (tempat flebitis dipindahkan seperti yang disebut buku), karena bermanfaat untuk semua penyakit fisik dan oral panas. Kemudian obat buang air yang disebutkan digunakan, dengan obat kuat mengobati kelembapan dan nanah berlebih, dan durasi dengan kekuatan, sedang dengan sedang, dan lemah dengan lemah. Jika tukak hampir mencapai tulang, dibutuhkan minyak yang sangat kuat jenis ini, dan semua minyak, termasuk minyak, harus dihindari {cite:canon-ibn-sina-print-v2 p.262}.
+## Mengelola kategori dan usia
+Untuk obat, obat diambil dari obat jerawat dingin dan panas yang disebutkan di bab pertama. Apa pun yang berwarna merah berdarah awalnya cocok untuk mereka yang mengalami kontraksi dan pendinginan ringan, lalu apa yang diperbolehkan dan yang larut hingga pirang dan kuning harus ditambahkan ke pendinginan obat. Jika tidak, obat tersebut harus terlebih dahulu mengering dan membilas dengan moderasi terlebih dahulu, lalu yang mengering dan larut dengan kuat, dengan mempertimbangkan usia. Untuk bayi, obat mereka harus lebih lemah dan susu harus dirawat dengan baik. Untuk orang dewasa, obatnya harus lebih kuat. Untuk anak-anak, hanya makanan yang dapat bermanfaat, dan jika mereka tidak makan, harus diberikan kepada ibu yang menyusui. Obat dingin, astringen, dan halal digunakan sesuai jenis genus ini (nama, penghentian, dan salep disebutkan) {cite:canon-ibn-sina-print-v2 p.262} {cite:canon-ibn-sina-print-v2 p.263}

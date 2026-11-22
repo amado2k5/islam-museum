@@ -1,0 +1,21 @@
+---
+id: concept/iftira
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/iftira.md}
+---
+## Ringkasan
+Sheikh mengatakan bahwa Islam melarang fitnah terhadap ciptaan, dan siapa pun yang mengatakan sesuatu tentang seseorang yang bukan dalam dirinya akan ditolak dalam hidupnya, dan akibatnya akan buruk dan terhina dalam mata pencaharian dan penghidupannya. Dia mengutip ayat Allah Yang Maha Kuasa bahwa siapa yang memfitnah akan gagal. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:02:00} Dia melihat fitnah sebagai kumpulan dosa besar: kebohongan, kebohongan, dan ketidakadilan, yang dilakukan oleh suami terhadap istrinya dan sebaliknya, dari manajer ke karyawannya, dan dari orang yang bertanggung jawab kepada mereka yang di bawahnya. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:02:30}
+
+## pembawa yang buruk
+Diceritakan bahwa seorang pria datang kepada salah satu orang yang berbudi luhur dan memberitahunya bahwa si anu berbicara buruk tentangnya, berkata: Orang yang berbicara menembakkan panah yang tidak sampai kepadaku, dan kamu datang dan menanamkannya di hatiku; dan disimpulkan bahwa seseorang bukanlah penyabar kejahatan tetapi kebaikan. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:30} Disebutkan bahwa Islam mengizinkan seorang mediator antara pasangan atau pihak yang bersengketa untuk mengucapkan kata-kata baik kepada masing-masing pihak yang tidak dia ucapkan, seperti seorang suami yang mengatakan kepada istrinya bahwa ibunya mengingatnya dengan baik, dan menganggap itu sebagai kebohongan yang diperbolehkan. [[concept/kadhib|Lihat berbohong]]. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:04:00} Dia menyebutkan hadits tentang hamba terburuk, yang menyebarkan gosip dan membubarkan orang yang dicintai yang terhina dan tercemar. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:04:00}
+
+## Mencari Alasan
+Ia percaya bahwa jika seseorang mengucapkan kata-kata yang salah sembilan persepuluh dan sepersepuluh di antaranya bisa baik, ia harus dipegang pada persepuluh yang baik dan menerima alasan dari mereka yang meminta maaf kepadanya karena ia merendahkan diri dengan meminta maaf. Ia menyebutkan bahwa tidak ada yang lebih dikasihi olehnya daripada alasan dari Tuhan. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:06:00} Ia mengutip ayat bahwa Tuhan tidak suka berbicara jahat secara terbuka kecuali dari mereka yang telah berbuat salah. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:06:30}
+
+## The World Wide Web
+Ia mengkritik mereka yang menyebarkan kata-kata buruk di internet, salah menafsirkan situasi, berjuang untuk kehormatan, dan menyebarkan kabar palsu, serta percaya bahwa itu seharusnya menjadi sarana belas kasihan dan kebaikan, bukan cara pemisahan dan kekacauan. Itulah pandangannya. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:07:00}
+
+## Gigi Al-Shafi'i
+Diceritakan bahwa [[person/al-shafii|Al-Shafi'i]] telah berusia tujuh puluh tahun dengan gigi putih yang kuat, jadi ia mengatakan bahwa ini adalah kepercayaan yang ia jaga sejak kecil, agar Allah menjaganya di usia tua. Sheikh menjelaskan ini dengan mengatakan ia tidak makan benda terlarang bersama mereka dan tidak menggunakan lidahnya untuk merusak kehormatan orang ⁦(needs_source: القصة من رواية الشيخ)⁩. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:08:00} Ia percaya bahwa firman itu memiliki nilai: dengan satu kata seseorang masuk Islam, dengan kata yang menegakkan pernikahan, dan dengan kata yang berakhir. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:08:30}

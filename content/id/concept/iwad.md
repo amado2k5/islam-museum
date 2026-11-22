@@ -1,0 +1,9 @@
+---
+id: concept/iwad
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/iwad.md}
+---
+## Ringkasan
+Dalam istilah linguistik, kompensasi adalah substitusi, yang diberikan sebagai imbalan atas sesuatu, dan merujuk pada imbalan di Akhirat {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11928}. Para ahli hukum mewajibkan pembayaran kompensasi dalam kontrak pertukaran, dan penyewa serta penyewa harus membayar mas kawin istri, dan yang merusak sesuatu yang serupa atau nilainya, dan pelaku membayar uang darah {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11928}, {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11929}, {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11931}. Di antara kompensasi adalah kompensasi yang tidak berlaku sebagai kompensasi, seperti darah, bangkai, alkohol, dan membuat mas kawin dalam ternak {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11929} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11930}. Kompensasi bersifat finansial atau non-finansial, dan di antara syaratnya adalah harus diketahui dan diperkirakan pada saat kontrak pertukaran untuk menyelesaikan sengketa. Pemberi Hukum telah menetapkan beberapa kompensasi seperti uang darah, fidya, dan penebusan {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11930}, {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11936}, {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11937}, {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11938}. Kompensasi dapat dibatalkan setelah kematian pihak yang berkontrak, atau melalui pembebasan, pengampunan, atau oleh Islam dalam kasus jizya {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11942} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11943}.

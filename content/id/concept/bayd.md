@@ -1,0 +1,16 @@
+---
+id: concept/bayd
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/bayd.md}
+---
+
+## Alam dan Pilihan
+Telur ini dikenal {cite:canon-ibn-sina-print-v1 p.396}. Pilihan: Telur yang lunak lebih disukai dari telur ayam, diikuti oleh telur burung yang mengalir melalui aliran yang sama, seperti Tarad dan Daraj. Untuk telur bebek dan sejenisnya, telur ini segar {cite:canon-ibn-sina-print-v1 p.396}.
+
+## Temperamen dan Tindakan
+Temperamen: pada tahap moderasi, warna putihnya ke dingin, dan kekuningannya terhadap panas. Keduanya lembap, terutama putih, dan yang paling kering adalah telur angsa dan burung unta {cite:canon-ibn-sina-print-v1 p.396}. Kata kerja: Telur ini mengandung ketegangan terutama saat dipanggang, dan keputihannya meredakan rasa sakit tajam akibat godaannya. Yang terbaik adalah Nimbrecht, yang cepat meresap, sedangkan yang lebih kompleks lebih lambat dicerna dan lebih bergizi {cite:canon-ibn-sina-print-v1 p.396}.
+
+## Manfaat oleh Anggota
+Ornamen: Kulit putih menghilangkan warna kulitnya, mencegah paparan sinar matahari terhadap warna dan menghilangkannya {cite:canon-ibn-sina-print-v1 p.396}. Tumor dan jerawat: Digunakan untuk mencegah tumor {cite:canon-ibn-sina-print-v1 p.396}. Luka dan luka: Digunakan untuk menyuntikkan tukak lambung dan tumor, dilapisi minyak pada bara {cite:canon-ibn-sina-print-v1 p.397}, dan berguna untuk operasi pada area duduk dan pubis {cite:canon-ibn-sina-print-v1 p.397}. Mesin sendi: Alat ini melunakkan saraf dan berguna untuk semua nyeri sendi {cite:canon-ibn-sina-print-v1 p.397}. Organ kepala: Digunakan sebagai obat untuk menghentikan pendarahan membran otak, berguna untuk flu, dan kuning telur ayam bermanfaat untuk tumor panas di telinga {cite:canon-ibn-sina-print-v1 p.397}. Organ mata: Warna putihnya meredakan nyeri mata, dan warna kuning dengan minyak saffron dan mawar sangat bermanfaat untuk iritasi mata. Tepung jelai adalah ramuan yang mencegah kalsida keluar dari mata {cite:canon-ibn-sina-print-v1 p.397}. Organ pernapasan dan dada: Membantu mengatasi suara tenggorokan, batuk, kolera, tuberkulosis, serak akibat demam, sesak napas, dan tekanan darah {cite:canon-ibn-sina-print-v1 p.397}. Organ makanan: Dimasak seperti cuka mencegah penyerapan zat ke dalam lambung {cite:canon-ibn-sina-print-v1 p.397}. Organ yang Digoyang: Dimasak mencegah diare, terutama jika Anda merasa mentah secara langsung. Jika dipanggang di atas abu, ini bermanfaat untuk istilaq jika dimakan dengan jus yang terkepal dan air dari hasram. Ini membantu mengatasi kekasaran usus dan kandung kemih. Putihnya terkonsentrasi dengan minyak mahkota untuk tukak lambung usus. Ini bermanfaat untuk luka pada lutut. Jika Anda merasa luka, membantu perdarahan dan urin {cite:canon-ibn-sina-print-v1 p.397}. Semua telur, terutama telur burung, akan bertambah pucat. Dikatakan bahwa jika telur angsa dicampur dengan minyak hangat kuku dan jatuh ke rahim, menstruasi berkurang setelah empat hari. Pernyataan ini disampaikan sesuai laporan dan tidak dianggap sebagai rekomendasi {cite:canon-ibn-sina-print-v1 p.397}.

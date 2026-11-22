@@ -1,0 +1,9 @@
+---
+id: concept/hifz-preservation
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/hifz-preservation.md}
+---
+## Ringkasan
+Menghafal dalam bahasa berarti mencegah kehilangan dan kerusakan, dan berarti mempertahankan komitmen serta mengurangi kelalaian, seperti menghafal Al-Qur'an dengan penuh kepala. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7135} Menghafal Al-Fatiha dalam shalat wajib bagi siapa saja yang bisa, meskipun tidak dapat mempelajarinya atau mengucapkannya dari Mushaf; Shafi'i dan Hanbalis mengharuskan menghafalnya dalam setiap rak'ah, dan Hanafi mengharuskan menghafal satu ayat panjang atau tiga ayat pendek. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7136} Memberi prioritas pada cakrawala untuk memimpin shalat menurut mayoritas, dan lebih memilih yang paling akurat dan menghafal menurut Hanbalis dan Shafi'i dibandingkan yang lebih otentik, seperti dalam pepatah: "Yang paling sering dibacakan dari Kitab Allah memimpin umat." {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7136} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7137} Wakaf dan wasiat kepada para pembaca dibatasi hanya untuk menghafal Al-Qur'an menurut Shafi'i dan Hanbali, dan menghafal Al-Qur'an sebagai mas kawin diperbolehkan menurut syafi'i, tetapi tidak menurut Hanafi dan Maliki. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7137} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7138} Menjaga deposit mewajibkan penyimpan untuk menyimpannya dalam tempat yang serupa, dan tidak ada tanggung jawab jika dihancurkan tanpa kelalaian atau berlebihan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7139}

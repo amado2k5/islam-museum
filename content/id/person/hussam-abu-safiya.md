@@ -1,0 +1,30 @@
+---
+id: person/hussam-abu-safiya
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/hussam-abu-safiya.md}
+---
+## Ringkasan
+Hussam Abu Safiya adalah seorang dokter anak Palestina yang menjadi terkenal sebagai direktur Rumah Sakit Kamal Adwan di Gaza utara selama bulan-bulan perang, kemudian ditahan oleh otoritas Israel sejak Desember 2024 tanpa dakwaan publik, menurut organisasi hak asasi manusia. {cite:wikipedia-hussam-abu-safiya}
+
+## Kehidupan Awal dan Pelatihan
+Ia lahir pada 21 November 1973 di kamp pengungsi Jabalia di utara Jalur Gaza, dan tumbuh di lingkungan di mana institusi kesehatan menjadi salah satu sektor terberat di sektor yang terkepung. Ia belajar kedokteran di luar negeri — di Universitas Ahmed Yesoui — lalu mengkhususkan diri dalam pediatri dan neonatologi, meraih gelar master, lulus ujian dewan Palestina, dan bekerja sebagai dokter di Kementerian Kesehatan Gaza. {cite:wikipedia-hussam-abu-safiya}
+
+## Karier
+Ia dipromosikan ke Rumah Sakit Kamal Adwan di Beit Lahia — salah satu rumah sakit paling terkemuka di Gaza utara — hingga menjadi kepala departemen pediatri di sana, kemudian diangkat sebagai direktur rumah sakit pada Februari 2024, menggantikan Ahmed Al-Kahlout. Selama periode itu, wilayah utara terus-menerus dikepung dan dibombardir, dan rumah sakit menjadi salah satu fasilitas operasional terakhir di wilayah tersebut; Abu Safiya muncul dalam video dan panggilan yang menggambarkan kekurangan bahan bakar, obat-obatan, dan makanan, serta menerima korban luka di tengah runtuhnya sistem kesehatan, hingga ia menjadi wajah media dari krisis sektor kesehatan. {cite:wikipedia-hussam-abu-safiya} {cite:muslim500-hussam-abu-safiya}
+
+## Penangkapan dan kontroversi
+Pada 27 Desember 2024, tentara Israel melakukan evakuasi paksa staf rumah sakit dan pasien, dan rekaman disiarkan Abu Safiya meninggalkan rumah sakit menuju tank Israel sebelum menangkapnya bersama ratusan orang lainnya. Sumber mengaitkan kepada otoritas Israel bahwa rumah sakit tersebut digunakan oleh pejuang dan dokter tersebut terkait dengan kelompok bersenjata; dokter, keluarganya, dan pendukungnya membantah adanya afiliasi bersenjata atau aktivitas tempur, dan Kementerian Kesehatan Gaza serta organisasi hak asasi manusia mengonfirmasi bahwa dia ditahan sebagai dokter. Pihak berwenang mengklasifikasikannya sebagai "kombatan ilegal" dan tidak mengajukan tuntutan resmi. Organisasi hak asasi manusia memindahkannya antara penjara termasuk Ofer dan Rakvit. Physicians for Human Rights — Israel mendokumentasikan memburuknya kesehatannya, dan Mahkamah Agung Israel menolak banding untuk melanjutkan penahanannya. Museum menampilkan insiden-insiden ini yang dikaitkan dengan pemiliknya tanpa putusan. {cite:wikipedia-hussam-abu-safiya}
+
+## Status dan Warisan
+Buku "The Five Hundred Muslims" memasukkannya sebagai salah satu tokoh Muslim kontemporer paling menonjol; kasusnya menjadi simbol—di antara para pendukungnya dan organisasi hak asasi manusia internasional—menempatkan tenaga medis dalam konflik, dengan banyak yang menuntut pembebasan atau pengadilan atas tuduhan yang jelas. {cite:muslim500-hussam-abu-safiya} {cite:wikipedia-hussam-abu-safiya}
+
+## Catatan tentang rekaman
+Konteks penangkapannya dilihat dari perspektif yang lebih luas: sumber menyebutkan bahwa lebih dari tiga ratus tenaga kesehatan ditangkap selama perang di Gaza, dan banyak dari mereka—seperti yang diklasifikasikan Abu Safiya—sebagai "kombatan ilegal" menurut hukum Israel, klasifikasi yang legitimasi dan kondisinya diperdebatkan oleh organisasi hak asasi manusia, karena para praktisinya—menurut laporan dari Physicians for Human Rights – Israel—menolak diadili atau diwakili secara hukum penuh. Dalam bulan-bulan menjelang penangkapannya, Abu Safiya telah kehilangan putranya — menurut laporan pers yang dikutip dalam sumber tersebut — selama peristiwa perang, namun ia tetap menjalankan rumah sakit tersebut, yang menjadikan biografinya—di antara para pengikutnya—sebuah kisah tentang profesionalisme seorang dokter selama perang, bukan hanya perselisihan hukum. {cite:wikipedia-hussam-abu-safiya}
+## Tindak lanjut Internasional
+Kasusnya sedang diikuti oleh beberapa pihak di dalam dan luar Palestina: pengacara dan organisasi hak asasi manusia menuntut agar ia diizinkan menjalani pemeriksaan medis independen dan dibebaskan atau diadili; surat kabar internasional telah menerbitkan laporan tentang kondisinya, dan keluarga serta pendukungnya berkampanye untuk pembebasannya. Dalam catatan museum, ia termasuk di antara mereka yang status publiknya ditentukan oleh satu peristiwa yang sedang berlangsung; harap dicatat bahwa catatan ini mencerminkan sumber yang tersedia pada saat dokumen ini disusun pada November 2026, dan detailnya mungkin berubah seiring perkembangan kasus ini. {cite:wikipedia-hussam-abu-safiya} {cite:muslim500-hussam-abu-safiya}
+## Bacaan Tambahan
+Museum menyarankan agar siapa pun yang ingin mengikuti kasus ini untuk mengunjungi sumber-sumber yang disebutkan dalam log ini — artikel Wikipedia bahasa Inggris dan berkas "Muslims of the Five Hundred" — serta laporan yang dirujuk oleh organisasi hak asasi manusia dan kantor berita; log ini tidak menggantikan mengikuti kasus selama masih berlangsung. {cite:wikipedia-hussam-abu-safiya} {cite:muslim500-hussam-abu-safiya}
+## Kesimpulan
+Catatan Hussam Abu Safiya menggabungkan dua biografi: biografi seorang dokter profesional yang naik dari dokter anak menjadi mengelola salah satu rumah sakit terpenting di utara Gaza, dan kisah seorang tahanan yang kasusnya menjadi bahan perdebatan internasional tentang hukum, perang, dan pekerjaan medis di zona konflik. Museum ini menampilkan kedua bagian tersebut bersama-sama, sebagaimana didokumentasikan oleh sumber, yang mengaitkan posisi para pihak kepada pemiliknya. {cite:wikipedia-hussam-abu-safiya}

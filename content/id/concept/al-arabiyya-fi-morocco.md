@@ -1,0 +1,32 @@
+---
+id: concept/al-arabiyya-fi-morocco
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/al-arabiyya-fi-morocco.md}
+---
+## Ringkasan
+Halaman ini menyajikan status [[language/arabic|bahasa Arab]] di [[place/morocco|Maroko]] sebagaimana tercantum dalam artikel Encyclopaedia Britannica tentang Maroko dan di halaman Maroko dalam buku 'Facts of the World.' Setiap pernyataan dikaitkan dengan halamannya sendiri, dan jika kedua sumber berbeda, Anda menyebutkannya bersama-sama dan tidak memilihnya. Saya menambahkan teks putusan konstitusional dalam bahasa aslinya seperti yang muncul dalam ringkasan penelitian yang tidak diverifikasi museum di halaman tersebut.
+
+## Status resmi
+Ensiklopedia menyatakan bahwa bahasa Arab adalah salah satu dari dua bahasa nasional dan resmi, dan dua pertiga penduduk berbicara demikian {cite:britannica-morocco}. World Factbook menyatakan: Bahasa Arab adalah bahasa resmi, dan bahasa Amazigh, termasuk Amazigh resmi, Tchelhit, dan Trifit, serta bahasa Prancis, yang sering menjadi bahasa bisnis, pemerintahan, dan diplomasi {cite:cia-factbook-morocco}. Ensiklopedia menempatkan Maroko dalam artikel tentang bahasa Semitik di antara negara-negara di mana bahasa Arab adalah resmi {cite:britannica-semitic-languages}. Sumber-sumber sepakat mengenai status resmi bahasa Arab.
+
+## Teks konstitusional
+Konstitusi Maroko tahun 2011, Pasal 5. Ringkasan penelitian yang diberikan kepada museum memuat teks Arab: "Bahasa Arab tetap menjadi bahasa resmi negara." Ringkasan tersebut menyebut Mahkamah Konstitusi Maroko sebagai sumber resmi; museum tidak membuka halaman tersebut, karena teks diambil dari ringkasan yang diterima, dan pendiri mengizinkan penggunaannya dalam bentuk ini pada 21 November 2026 {cite:official-constitution-morocco}. Ringkasan tersebut merujuk pada putusan tersebut sebagai "bab," dan ditetapkan di sini berdasarkan Pasal 5.
+
+## Rasio Bahasa
+Bahasa lokal yang digunakan, di antara total populasi, dan tidak eksklusif: Darija 91,9%, Amazig 24,8%, Hassania 0,8%. Bahasa tertulis dan baca di antara pembelajar usia 10 tahun ke atas: Arab 99,2%, Prancis 57,7%, Inggris 20,5%, Tamazight dengan Tifinagh 1,5%, Spanyol 1,2%. Entitas eksportir Komisi Tinggi untuk Perencanaan HCP, sensus 2024, Desember 2024, halaman 19 dan 20. Ringkasan menambahkan bahwa presentasi tahun 2024 menggabungkan bahasa Amazigh dalam satu angka, sementara sensus 2014 memisahkannya menjadi Tashlahit 14,1%, Tamazight 7,9%, dan Trifit 4,0%. Bagian ini diambil dari ringkasan penelitian yang disediakan oleh museum; museum tidak membuka halaman yang disebutkan, dan pendiri mengizinkan penggunaan abstrak tersebut seperti yang dinyatakan pada 21 November 2026 {cite:hcp-morocco-rgph-2024} {cite:hcp-morocco-2014-amazigh-languages}.
+
+## Klasik dan lisan
+Dua halaman yang dapat dibaca tidak menyebutkan perbedaan antara Arab Standar Modern dan Darija Maroko, juga tidak menyebutkan dialek, sehingga museum tidak memberikan klasifikasi; untuk dualitas umum, lihat [[concept/al-fusha-wal-lahajat|Arab Klasik dan dialek]]. Ensiklopedia menyatakan bahwa bahasa Prancis adalah bahasa sekunder yang penting, dan bahwa bahasa Spanyol serta Inggris juga digunakan oleh banyak orang {cite:britannica-morocco}, dan buku ini menggambarkan bahasa Prancis seperti di atas. Dari nama negara, ensiklopedia menyebutkan bahwa nama Arabnya 'Maroko' berasal dari tempat matahari terbenam, karena lokasinya di ujung barat belahan bumi timur.
+
+## Bahasa lain di negara ini
+Di sini, kedua sumber berbeda dalam rasio: ensiklopedia menyatakan bahwa Amazigh, yang merupakan bahasa Amazigh, digunakan oleh sepertiga populasi dan menjadi resmi pada tahun 2011 {cite:britannica-morocco}; buku tersebut menyatakan bahwa persentase penutur Amazigh diperdebatkan, dan menjadikan kelompok etnis Arab dan Amazigh bersama-sama sembilan puluh sembilan persen {cite:cia-factbook-morocco}, mencatat bahwa ini tidak termasuk data dari Sahara Barat sebelumnya. Jadi, tidak ada angka yang disukai di sini. Di seluruh Maghreb, ensiklopedia menyatakan bahwa sekitar seperenam penduduk berbicara Berber, sebagian besar di Aljazair dan Maroko, dan sebagian besar juga berbicara dalam bentuk Arab {cite:britannica-maghrib}. Untuk perbandingan dengan bahasa-bahasa bangsa-bangsa, lihat [[concept/lughat-al-qabail|bahasa Kabyle]].
+
+## Dari sejarah lidah
+Dalam sejarah bahasa Arab di wilayah ini, Ensiklopedia Maroko menyatakan bahwa orang Arab memaksakan Islam dan bahasa Arab kepada penduduk asli setelah penaklukan pada abad ketujuh dan kedelapan {cite:britannica-maghrib}. Dalam artikel tentang Maroko, wilayah ini dikenal setelah penaklukan Arab pada akhir abad ketujuh sebagai Maroko, dan sebagian besar penduduknya menerima Islam, serta bahwa Almoravid, dinasti Amazigh asli pertama di Afrika Utara, memerintah sebuah kekaisaran dari Andalusia hingga sebagian Afrika sub-Sahara pada abad kesebelas {cite:britannica-morocco}. Ini adalah pernyataan sejarah dan tidak menggambarkan keadaan bahasa Arab atau Amazigh. Untuk posisi Maroko dalam Liga Arab, yang dimasukinya pada tahun 1958 seperti yang disebutkan oleh ensiklopedia, lihat [[concept/al-alam-al-arabi|Negara-negara Arab dan Liga mereka]].
+
+## kecuali halaman ini memberitahunya
+Ia tidak membaca konstitusi Maroko, juga tidak membaca kata-kata yang secara resmi menjadikan bahasa Amazigh sebagai bahasa resmi; melainkan ia menyebutkan apa yang dikatakan ensiklopedia. Ia tidak membaca klasifikasi Etnologi atau Glotologi Darija Maroko, maupun situs web dialek Arab Universitas Manchester, sehingga ia tidak membawanya karena sertifikatnya tidak sah. Halaman Buku Fakta Dunia dibaca dari salinan yang diarsipkan oleh Internet Archive pada 9 Januari 2026, karena situs web lembaga tersebut tidak lagi menyediakannya, dan buku tersebut tidak mencetak perkiraan tanggal untuk bagian bahasa. Museum tidak memiliki nomor terpisah untuk penutur bahasa Arab atau Amazigh.
+
+Catatan ditambahkan pada 21 November 2026: Bagian tentang atribusi teks konstitusional dan bahasa diambil dari dua abstrak penelitian yang disediakan oleh museum, dan museum tidak membuka halaman yang mereka sebutkan; jika bagian ini menyatakan bahwa teks atau atribusi tidak dibaca, maka menggambarkan bacaan museum sebelumnya dan tidak dibaca.

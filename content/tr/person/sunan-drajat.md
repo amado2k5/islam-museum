@@ -1,0 +1,18 @@
+---
+id: person/sunan-drajat
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/sunan-drajat.md}
+---
+## Özet
+Doğum adı Radin Qasim olan Sunen Dajat, Endonezya makalesinde genç adı Radin Hashim ve lakabı Radin Sharifuddin olarak geçer — Songhu valilerinden (Songhu valileri) biri olarak kabul edilir ve genellikle İslam'ı Cava halkı arasında bir din olarak kabul eden dokuz azizden biridir. {cite:wikipedia-sunan-drajat-en} {cite:wikipedia-sunan-drajat-id} Sunen Amble'nin oğlu ve Sunen Bonang'ın küçük kardeşidir. İngilizce makalede kendisi ve kardeşi Java genelinde aile çalışmalarında yer alır. {cite:wikipedia-sunan-drajat-en} Yaşam tarihleri çağdaş belgelerden değil, Cava geleneğinden alınmıştır: makaleler ve Wikidata doğumunu 1470 olarak belirtirken, Endonezya ve Arapça makaleler onu 1533, İngilizler ise 1522 olarak belirtir; bu tartışma bu kayıtta korunmuş ve detaylandırılmamıştır. {cite:wikipedia-sunan-drajat-id} {cite:wikipedia-sunan-drajat-ar} {cite:wikipedia-sunan-drajat-en}
+
+## Ailesi ve şeyhleri
+Gelenek, onun Surabaya'da doğduğunu ve ölümünü Bachiran Palamungan'da belirler; burada Dajdat köyüne geçti. {cite:wikipedia-sunan-drajat-en} {cite:wikipedia-sunan-drajat-id} Endonezya makale bilgi kutusunda babası Sunen Ambel ve annesi Dewi Chandrawati'den bahsedilir ve Sunen Ambel ile Sunen Gunung Jati yaşlıları arasında yer alır; makalenin kendisi referanssız olarak etiketlendiği için bu bağlantılar bu notla kaydedilmiştir. {cite:wikipedia-sunan-drajat-id} Damak'ın saltanatı sırasında verilen Bachiran'daki muaf köy (Bardikan) Dajdat'ta, Dalm Kapı yatılı okulunu kurdu ve bölgeyi onlarca yıl yönetti. 1520'de Radin Fateh ona Sunen Mayang Madu unvanını verdi. {cite:wikipedia-sunan-drajat-id}
+
+## İnançtan önce iyi oluş
+En çok sosyal öğretilerini hatırlar: insanların refahının inanç öğretiminden önce geldiğini görmüştür—sıkı çalışma, cömertlik ve yoksulluğun ortadan kaldırılması. Endonezya makalesi, bugün işlediği felsefeyi yedi seviyede sıralar; "başkalarının kalbine her zaman neşe getirmekten" sevinç içinde uyanık olmaya, temel ve en ünlü ilkesine kadar: körlere asa vermek, açlara yiyecek vermek, çıplakları giydirmek, yağmurla yakalananlara barınak sağlamak, bunu cahilleri eğitmek, yoksulları zenginleştirmek, utanmazları disipline etmek ve acı çekenleri korumak olarak yorumlar. {cite:wikipedia-sunan-drajat-id} Arapça makale ayrıca Cava halkını eğitme, onları besleme, yetimlere ve yoksullara bakma ve dini bilimler için bir enstitü kurma ilgisini özetlemektedir. {cite:wikipedia-sunan-drajat-ar} Kardeşi Bonang gibi, müziği de bir iyilik olarak adlandırdı: tambang ona 'bankor' adlı matchapat atfedilir ve Gamlane enstrümanları olan Singo Mangkook yerel müzede kutsal alanının yanındaki yere saklanır. {cite:wikipedia-sunan-drajat-en} {cite:wikipedia-sunan-drajat-id}
+
+## Dini ve mezhebi
+Endonezya makale bilgi kutusu, onun Sünni mezhebini ve bir hukuk alanını boş verir; Arapça makale ise, ailesinin sınıflandırıldığı Ba'lawi soyağacı geleneğine dayanır ve onun inancını Ehl-sünnet vel-Cema'ah ve Şafii mezhebine atfeder ve hayatını 875–940 H. yıllarına bağlar. {cite:wikipedia-sunan-drajat-id} {cite:wikipedia-sunan-drajat-ar} Bağımsız bir kaynak ikinci bir fıkıh okulunu belirtmemiştir, bu nedenle bu kayıt Şafii şahitliğini korur ancak benimsemez; doğrulanmış eseri, Cava'da İslam'ı yayan bir aziz ve öğretmenin eseridir. {cite:wikipedia-sunan-drajat-en}

@@ -1,0 +1,15 @@
+---
+id: person/abd-al-wahhab-al-shaarani
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/abd-al-wahhab-al-shaarani.md}
+---
+## Genel Bakış
+Abdul Wahhab ibn Ahmed ibn Ali al-Hanafi'nin soyu Muhammed bin al-Hanafiyyah, al-Sha'rani, Ebu Muhammed'den gelir; kendisi tasavvuf alimlerinden biridir. Mısır'ın Qalqashanda kentinde doğdu ve Monufiya'nın köylerinden biri olan Saqiyat Abi Sha'ra'da büyüdü; bu köy kendisine ait olduğu yerdir. Ayrıca al-Sha'rani ve al-Sha'rawi olarak da adlandırılır. Kahire'de öldü. Önemli kişiler arasında yaşam öyküsü 898 Hicri (1493 M.S.) ile 973 Hicri (1565 M.S. {cite:alam-zirikli-dar-al-ilm-2002 vol. 4 pp. 180-181} arasında değişir.
+
+## Yayınlanmış Eserleri
+El-Zerkali, yayımlanan eserler arasında şunlar gibi birçok eser belirtmiştir: El-Enver el-Kudsiyye fi Ma'rifat Adab el-'Ubudiyah, El-Bahr el-Mevrud fi el-Muhtiq ve el-Ühud, el-Bedr el-Munir fi el-Hadis, Tanbih el-Müghtarin fi Adab al-Din, Tanbih al-Mughtarin fi Adab al-Din, Tanbih al-Mughtarin fi Adab al-Din, Tanbih al-Mughtarin fi Adab al-Din, Tanbih al-Mughtarin fi Ma Diff al-Tahir al-Kurr, al-Durar al-Kurta, al-Durar al-Awsa wa al-Awsat, al-Durar al-Muntara fi Zubd al-'Ulum, Al-Durar al-Muntara, Dağılmış Ünlü Bilimler Severleri, Risalah, Durar al-Ghawwas min Fetava el-Khawas, El-Kubra kükürt 'Ülüm el-'Ulum, El-Cevhir ve el-Durar el-Elvset, el-Durar el-Mu'tahir fi el-Mudhadith el-Mudhadi, Tanbih el-Müghtarin fi Adab al-Din, 'Tanbih al-Mughtarin fi Adab al-Din', 'Tanbih al-Mughtarin fi Adab al-Din', 'Tanbih al-Mughtarin fi Adab al-Din', 'Tanbih al-Mughtarin fi Adab al-Din' al-'Nahdir al-'al-Mu'tahir fi Adab al-'Ud, 'al-Jawahir wa al-Durar al-Kurta', 'al-Wanab al-Mu İyi sınıflarda ışıkların öncüsüdür ve El-Şa'rani'nin başlıca sınıfları olarak bilinir; ayrıca Müsmedan antlaşmalarını, tıpta Tadhkirat al-Suvedi'nin özetini ve el-Qurtubi'nin Tadhkirat'ını, öğütlerini ve arayanların bilgisini ele al-Mutbouli'nin iradesinin açıklamasında Ila rasmus tariq al-'Arifin, Mashriq al-anwar, al-Manah al-Sunniyah ve Sünnet'in fethetmesinde lütu {cite:alam-zirikli-dar-al-ilm-2002 vol. 4 pp. 180-181} f verilmesinde kutsal ışıkların öncüsüdür.
+
+## El Yazması Eserleri
+El yazmalarında bahsettiği eserler arasında şunlar yer alır: 'Al-Ajwabat al-Mardiyya 'Bir Hukukçu ve Sufi İmamları', 'Hakimlerin Adabı', 'Irshad al-Talibin ila Maraqat al-Ulama' al-'Alamin, 'Ruhların Sevinci, İşitme ve Hadaq fima Tarbak al-Qawm al-Qawm in El Yazısı', 'İslam Kardeşlerinin Hakları', 'Uyarılar', 'Zafer Işıklarına Ek, küçük bir cilt', 'İlahi Niteliklerde Keşif Kuralları', 'Fıkıhlılar ve Fakirler Arasında Aptallar İçin Prenslerle Arkadaşlık Koşullarına Rehberlik', Rabat Kütüphanesi'nde bir risale {cite:alam-zirikli-dar-al-ilm-2002 vol. 4 pp. 180-181}.

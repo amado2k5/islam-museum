@@ -1,0 +1,16 @@
+---
+id: object/chessman-of-yusuf-al-bahlili
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/object/chessman-of-yusuf-al-bahlili.md}
+---
+## Ikhtisar
+Sebuah bidak catur yang dipahat dari penampang gading gajah besar, setinggi 15,3 cm, disimpan di Perbendaharaan Medali di Perpustakaan Nasional Paris (Chab. 3271). {cite:welch-india-art-and-culture-1985 p. 126} Lukisan ini menggambarkan seorang pria berkumis, mungkin seorang raja, duduk kokoh di atas tumpukan gajah perang yang menyerbu ke medan perang, dikelilingi oleh empat ksatria, dengan gajah itu melilitkan belalainya di sekitar ksatria musuh, dan gajah membungkuk dari kursinya menarik tangan ksatria tersebut. {cite:welch-india-art-and-culture-1985 p. 126} Di tepi hodge terdapat relief berulang tentara infanteri yang mengacungkan pedang dan roda gigi, dan di bawah kaki belakang gajah terdapat tepi yang hancur menandakan kemenangan. {cite:welch-india-art-and-culture-1985 p. 126} Bagian depan pangkal dan kaki kuda yang terancam mungkin patah, dan sisa lengan serta kaki di kepala gajah menunjukkan hilangnya ragum kedua. {cite:welch-india-art-and-culture-1985 p. 126}
+
+## Legenda Charlemagne
+Tanggal yang disarankan untuk menulisnya dari abad kedelapan hingga kelima belas. {cite:welch-india-art-and-culture-1985 p. 126} Surin Malkian Shirwani menyebutkan bahwa pada abad kesembilan belas, bangunan ini secara luas dianggap sebagai bagian dari set yang diberikan oleh Khalifah Abbasiyah [[person/harun-al-rashid|Harun al-Rashid]] kepada Kaisar Charlemagne, dan ia percaya alasan kebingungan tersebut adalah karena hal itu disebutkan dalam inventaris biara kerajaan Saint-Denis pada tahun 1505 setelah permainan catur gading yang hilang yang dikaitkan dengan Charlemagne. {cite:welch-india-art-and-culture-1985 p. 126}
+
+## Tanda tangan dan atribusinya
+Di bawahnya terdapat tanda tangan Arab "Karya Yusuf al-Bahlili," dan Malkian Shirvani percaya bahwa gaya aksara Kufic sederhana dan bentuk "min a'mal" mencegah tanggalnya berasal dari akhir abad kesebelas atau awal abad kedua belas. {cite:welch-india-art-and-culture-1985 p. 126} Buku ini memuat detail yang menghubungkan mereka dengan dunia Iran Timur: sepatu bergaya kuno Iran Timur, pola langkahnya, pelana kuda, lutut, cakram gantung, dan kentang persegi panjang, yang muncul pada peralatan makan Sasanian dan wadah Asia Tengah serta Khorasan pra-Islam. {cite:welch-india-art-and-culture-1985 p. 126} {cite:welch-india-art-and-culture-1985 p. 127} Dari sini, kemungkinan besar dilakukan di pusat di barat laut India menggunakan peralatan militer Iran, kemungkinan besar sebagai vasal Kesultanan Ghaznavid, yang memerintah dari Ghazni setelah [[person/mahmud-ghaznawi|penaklukan kerajaan dari Tigris hingga Gangga oleh Mahmud dari Ghazna]] hingga tahun 1173. {cite:welch-india-art-and-culture-1985 p. 127} Kerajaan Shirvani menahan putusan akhir menunggu studi yang lebih luas. {cite:welch-india-art-and-culture-1985 p. 126}

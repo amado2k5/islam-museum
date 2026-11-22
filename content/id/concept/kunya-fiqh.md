@@ -1,0 +1,25 @@
+---
+id: concept/kunya-fiqh
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/kunya-fiqh.md}
+---
+## Ringkasan
+Kunya tidak diberikan oleh ayah atau ibu, seperti Abu Abdullah dan um al-Khayr. Al-Jurjani menambahkan: atau anak laki-laki atau perempuan; ini adalah nama yang berbeda dari nama atau gelar pemberian, digunakan bersama atau di bawahnya untuk menghormati pemiliknya, dan merujuk pada bangsawan. Kunya menjadi terkenal di kalangan Arab hingga dikenal terutama dengan nama-nama seperti Abu Talib dan Abu Lahab {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13538}.
+
+## Kata-kata terkait: nama belakang dan nama
+Gelar adalah apa yang seseorang panggil berdasarkan namanya, sebuah kata yang menunjukkan pujian atau kritik; gelar dan kunya memiliki definisi yang sama dengan orang yang dipanggil oleh mereka, tetapi berbeda karena gelar tersebut dipahami sebagai pujian atau menyalahkan, sedangkan julukan adalah apa yang berasal dari ayah atau ibu {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13538} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13539}. Menurut ahli tata bahasa, nama adalah apa yang menunjukkan makna tersendiri yang tidak terkait dengan waktu {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13539}.
+
+## Keputusan tentang julukan Nabi
+Para ulama berbeda pendapat dalam hal ini berdasarkan lima aliran pemikiran {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13539}. Pertama: Sama sekali tidak diperbolehkan menggunakan kunya Nabi Abu al-Qasim selama hidupnya, dan diperbolehkan setelah kematiannya apakah nama orang yang memegang kunya adalah Muhammad atau bukan, berdasarkan hadis: 'Sebutkan nama saya tetapi jangan gunakan kunyah saya,' dan hadis Abu Huraira yang melarang menggabungkan namanya dengan kunya {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13539} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13540}. Al-Rafi'i berkata: Tampaknya ini lebih tepat, karena orang masih melakukannya tanpa penyangkalan {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13540}. Keempat: Dilarang memanggil Muhammad dan mengambil kunya Abu al-Qasim sama sekali. Dari Umar diceritakan bahwa beliau berkata: Jangan menyebut siapa pun dengan nama nabi, dan Iyad berkata demikian karena menghormati nama Nabi {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13540}. Kelima: Tidak pernah diperbolehkan menggunakan kunya selama hidupnya, dan setelah kematiannya, dilarang menamainya Muhammad atau Ahmad, dan diperbolehkan bagi orang lain. Ibn Hajar mengatakan bahwa dia adalah yang paling adil di antara aliran pemikiran meskipun keanehannya {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13540} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13541}.
+
+## Keputusan tentang Teknik
+Mayoritas ahli hukum mengatakan bahwa adalah Sunnah bagi orang berbudi untuk diberikan kunya kepada pria dan wanita, dan bagi pria untuk diberikan kunya oleh anak sulungnya jika ia memiliki seorang putra, dan demikian pula bagi seorang wanita oleh anak sulungnya {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13541}. Ibn Muflih mengutip hadits Hani ibn Yazid, yang diberikan kunya oleh Abu Shurayh, dan bahwa lebih baik diberikan kunya kepada anak tertua, dan diperbolehkan menggunakannya di tempat lain, sama seperti Nabi diberikan Abu Ibrahim {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13541}.
+
+## Siapa pun yang tidak punya anak, dan julukannya adalah kafir dan pendosa
+Siapa pun yang tidak memiliki anak boleh diberikan kunya oleh anak orang lain, seperti yang dikatakan Nabi kepada Aisha ketika ia curiga tidak memiliki anak: 'Julukan dia oleh putramu Abdullah (keponakannya) (keponakannya) {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13541}. Diperbolehkan memberikan kunya sesuai dengan kondisi seseorang, seperti Abu Turab dan Abu Huraira {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13541}. Para ahli hukum berkata: Orang kafir, pendosa, atau inovator tidak boleh diberikan kunya karena mereka bukan di antara umat yang terhormat dan terhormat, dan kami telah memerintahkan untuk keras kepada mereka kecuali karena takut godaan atau pujian, seperti dalam Abu Lahab {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13541}.
+
+## julukan anak laki-laki
+Para ahli hukum berbeda pendapat mengenai kunya anak muda dan mereka yang tidak lahir darinya. Mayoritas setuju bahwa tidak ada bahaya, berdasarkan hadits Anas tentang Abu Umair dan apa yang dilakukan al-Naghir, serta pernyataan Umar: 'Cepatlah memberi julukan anak-anak Anda, agar julukan buruk tidak terburu-buru mendatangkan kepada mereka,' dan menurut hadits Ibn Mas'ud, Nabi memberinya julukan Abu Abdur Rahman sebelum ia lahir; para ulama biasa membuat anak itu optimis bahwa ia akan hidup sampai lahir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13541} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13542}. Ibn Abidin berkata: Jika kunya putranya yang masih kecil disebut Abu Bakr, beberapa orang tidak menyukainya, tetapi rakyat biasa tidak membencinya, karena orang ingin ia optimis {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13542}.
+

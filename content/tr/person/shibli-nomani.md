@@ -1,0 +1,50 @@
+---
+id: person/shibli-nomani
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/shibli-nomani.md}
+---
+## Özet
+Shibli Al-Numani (3 Haziran 1857 – 18 Kasım 1914), İslam alimi, şair, filozof, tarihçi, eğitim düşünürü, yazar, hatip, Hindistan'ın reformcusu ve Britanya Hindistanı'ndaki Oryantalistlerin eleştirmeniydi. {cite:wikipedia-shibli-nomani-en} Urdu tarih yazımının babası olarak kabul edilir ve Türk İslam Ansiklopedisi (TDV), onu Hindistan alt kıtasındaki ilk modern Müslüman tarihçi olarak tanımlar; geleneksel tarihsel bakış açılarını modern tarih yazımıyla birleştirir. {cite:wikipedia-shibli-nomani-en} {cite:tdv-shibli-nomani} Bölgesinde Alikra ve Al-Nadwa adlı iki etkili hareketle ilişkilendirildi, burada on altı yıl eğitim gördü, Lucknow'da Dar Uloom Nadwa Al-Ulama'yı yönetti ve Azam Kara'da Dar Al-Musannifin Akademisi'ni kurdu. {cite:wikipedia-shibli-nomani-en} {cite:tdv-shibli-nomani}
+
+Adı Muhammed; lakabı Şibli'dir — el-Cuneyd el-Bağdadi'nin öğrencisi Sufi Ebu Bekir el-Şibli'den adını almıştır — ve nisabesi 'el-Nu'mani' büyük İmam Nu'man bin Tebit Ebu Hanifa'dan türemiştir. {cite:tdv-shibli-nomani} {cite:wikipedia-shibli-nomani-en}
+
+## Erken yaşamı ve eğitimi
+Al-Numani, 3 Haziran 1857'de Azam Kara yakınlarındaki Pandul (Pandwal)'da Wikdata ve Urduca makale kutusunda, ya da 4 Haziran'da İngilizce makale ve Urduca metinde doğdu. {cite:wikidata-shibli-nomani} {cite:wikipedia-shibli-nomani-ur} {cite:wikipedia-shibli-nomani-en} Müslüman bir Rajput ailesinde doğdu: büyük büyükbabası Shivraj Singh, Arılar'dan olup çok daha önce İslam'a geçmişti ve ebeveynleri Habibullah ile yerleşik Hatun'du. {cite:wikipedia-shibli-nomani-en} Küçük kardeşleri eğitim için Londra'ya giderken — bunlardan biri Allahabad Yüksek Mahkemesi'nde avukat olarak dönmüştür — Shibli, Jariyakot geleneğinin rasyonalist âlimi Muhammad Farooq Al-Jariyakuti'den evde geleneksel İslami eğitim aldı; Urduca makale kutusunda öğretmenleri arasında Ahmad Ali Saharnapuri'den de bahsediliyor. {cite:wikipedia-shibli-nomani-en} {cite:wikipedia-shibli-nomani-ur} Genç bir hac yolculuğu yaptı — 1876'da Urduca makale metninde ve 1877'de TDV'ye girişte — baro sınavını geçti, kısa bir süre çalıştı ve ardından sınavdan ayrıldı. {cite:wikipedia-shibli-nomani-ur} {cite:tdv-shibli-nomani}
+
+## 1892 Balosu ve Yolculuğu Üzerine
+1882'de Shibli, Ahmed Khan tarafından kurulan Alikere'deki Anglo-Oriental Mohammedan College'da Arapça öğretmeye başladı; İngilizce makalede on altı yıl Farsça ve Arapça öğretmenliği ve 1882-1898 yılları arasında görev süresi bahsediliyor. {cite:tdv-shibli-nomani} {cite:wikipedia-shibli-nomani-en} Alikra'da Thomas Walker Arnold ve diğer İngiliz akademisyenlerle tanıştı, onlarla modern Batı fikirlerini tartıştı ve Arnold'dan Fransızca öğrendi. {cite:wikipedia-shibli-nomani-en} {cite:wikipedia-shibli-nomani-ur} Alikere'de çalışırken, 1883'te Azam Kara'da ulusal bir kolej kurdu. {cite:tdv-shibli-nomani}
+
+1892'de Arnold ile birlikte Osmanlı topraklarında — Levant, Türkiye ve Mısır'da — büyük kütüphaneleri ziyaret etti; İstanbul'da Sultan II. Abdulhamid onu karşıladı ve El-Majidi Nişanı ile ödüllendirdi, Kahire'de ise Muhammed Abduh ile tanıştı. {cite:wikipedia-shibli-nomani-en} {cite:tdv-shibli-nomani} {cite:wikipedia-shibli-nomani-ur} Osmanlı Halifeliği'nin destekçisi olarak yazdı ve konferanslar verdi; Beyrut ve Kudüs'ten geçerek Ezher ve Mısır kütüphanelerinde çalıştı. {cite:tdv-shibli-nomani} 1894'te Alimler Sempozyumu'nun kuruluş toplantısına katıldı ve aynı yıl 'Alim Güneşi' unvanını kazandı. {cite:tdv-shibli-nomani}
+
+Alikra'da bile kolejin entelektüel atmosferini hayal kırıklığı olarak buldu ve gerçekten bağımsızlığını kurucusunun ölümünden sonra kazandı: Sir Syed 1898'de öldüğünde koleji kalıcı olarak terk etti. {cite:wikipedia-shibli-nomani-en}
+
+## Haydarabad ve sempozyum
+Daha sonra Haydarabad Devlet Eğitim Departmanı'nda danışman oldu — TDV, Kasım 1900'de nakil olarak tarihlendi, babasından miras kalan borçları ödedi ve rejime hizmetini ve 1903'te Urdu Teşvik Derneği'nin ilk sekreterliğini hatırlıyor. {cite:wikipedia-shibli-nomani-en} {cite:tdv-shibli-nomani} Oradaki eğitim reformları geniş kapsamlıydı: politikalarıyla Haydarabad Urdu Usmani Üniversitesi, eğitim merkezi haline geldi ve ulusal dili yüksek öğrenim aracı olarak kullanan ilk Hint üniversitesi oldu. {cite:wikipedia-shibli-nomani-en}
+
+1905'te, Dar al-Uloom Nadwa al-Ulama'nın arkasındaki itici güç olarak Lucknow'a gitti — dergisi 'Al-Nadwa'nın editörü ve bilimsel işler direktörü, ayrıca 1905-1913 yılları arasında English Essay Fund'da Eğitim Dairesi sekreteri olarak — öğretim ve müfredatlarda reformlar getirdi. {cite:tdv-shibli-nomani} {cite:wikipedia-shibli-nomani-en} Geleneksel bilginler sınıfı reformlarına karşı çıktı, bu yüzden 3 Mart 1913'te istifa etti; öğrencileri Dar al-Uloom'dan ayrılmasını istemediler ve üç ay boyunca Dar al-Uloom'da eğitim görmeyi reddettiler. {cite:tdv-shibli-nomani} {cite:wikipedia-shibli-nomani-en} Büyük Nefret bölgelerine yerleşti. {cite:wikipedia-shibli-nomani-en}
+
+## Yazarlar Evi ve Ölüm
+Shibli uzun zamandır Avrupa akademilerini örnek alarak oluşturulmuş 'Dar al-Musannifin' adlı kitaphaneyi kurmayı hayal ediyordu, ancak seminerde bunu başaramadı. 1914'te Azam Kara'da kurdu, bungalovlarını, mango bahçelerini ve kitaplarını bağışladı, ailesini ve akrabalarını da aynı şekilde yapmaya teşvik etti; öğrencisi Seyyid Süleyman el-Nadwi bu işi üstlendi, bu nedenle kurumun ilk resmi toplantısı ölümünden üç gün sonra, 21 Kasım 1914'te yapıldı. {cite:tdv-shibli-nomani} {cite:wikipedia-shibli-nomani-en} Ağustos 1914'te, ağabeyinin hastalığını duyunca Allahabad'a gitmişti; kardeşi vefat etti ve Shibli Azam Kara'ya taşındı, burada akademinin planını geliştirdi ve 18 Kasım 1914'te vefat etti. {cite:wikipedia-shibli-nomani-en}
+
+Majid, 1876'da Al-Nisa ile evlendi; çocukları arasında kaynaklara göre oğlu Hamid Hassan Al-Numani (1882–1942) ve iki kızı Rabia Hatun ile Jannat El-Fatima adlanıyor. {cite:wikipedia-shibli-nomani-en} Arapça makalede yorumcu Abdul Hamid Al-Farahi'nin kuzeni olarak kabul ediliyor. {cite:wikipedia-shibli-nomani-ar} Pakistan Post, 1992'de "Özgürlüğün Öncüleri" serisinde onun için bir anma pulu çıkardı. {cite:wikipedia-shibli-nomani-en}
+
+## Düşünce ve Pozisyonlar
+Bu bölüm, kaynaklar tarafından bildirilen değerlendirmeleri sunar ve müzeden bir yargı değildir.
+
+**Yeni Teoloji.** TDV Shibli'nin girişinin ikinci bölümü, Hindistan'daki Yeni Kalam hareketinin bir temsilcisini sunar: reformun temelinin fıkıh veya siyaset değil, teolojinin temel olduğunu ve eski teoloji metodolojisinin materyalizm karşısında artık yeterli olmadığını, yeni teolojinin inançlarıyla birlikte dinin tarihsel, etik ve sosyal yönlerini ele alması, kalp ve vicdanı akla birlikte dikkate alması gerektiğini savunmuştur. {cite:tdv-shibli-nomani} Hindistan'daki Selefi eğilimli alimlerin aksine, sadece ilk yüzyıllardan değil, tüm İslami mirastan faydalanmakta ısrar etmiştir. Al-Ghazali, Fakhr al-Din al-Razi ve Rumi hepsi kelam âlimleri olarak kabul ediliyordu. {cite:tdv-shibli-nomani}
+
+**Alikra ile eleştirmenleri arasında.** Hem Shibli hem de Sir Sayyid, Müslümanların iyiliğini ve Batı bilgisini onlara ulaştırmak istediler, ancak Sir Sayyid 1857'den sonra Müslümanları İngiliz gazabından korumaya çalışırken, Shibli onların miraslarını yeniden kazandırarak kendilerine güvenmelerini istedi. {cite:wikipedia-shibli-nomani-en} Bazı yazarlar daha da ileri giderek onu Alikra'nın kendi hareketinin karşıtı olarak tasvir etti: 'Kitne Pakistan' romanında dar görüşlü bir âlim olarak tasvir edilirken, Arif al-Islam 'Atatürk Kerbelada' Alikra'ya karşı şiddetli davrandığını iddia etti—bu imgeler, Shibli'nin akademik biyografileri ve 2011'de Shams-your-Rahman Farooqi'nin sunduğu bilimsel geleneğin haksız olduğu imgelerdir. Farooqi, Shibli'nin 'Al-Faruq' yazmaya karşı olmasına rağmen Sir Sayyid'den hiç şüphe etmediğini belirtir. {cite:wikipedia-shibli-nomani-en}
+
+**Onun Doktrini.** Kaynaklar bu müzenin hangi standartta kaydedildiği konusunda hemfikir değildir. Arapça makale kutusu açıkça Hanefi okulu ve Maturidi inancını atfeder; İngilizce makale kutusu sadece "Sünni" yazar ve içeriği—bir okul tarihi kitabından alıntı yaparak—Deobandi okulunun destekçisi olarak nitelendirir; TDV girişinde herhangi bir düşünce mezhebine değinmez ve Wikidata genel olarak İslam'ı verir. {cite:wikipedia-shibli-nomani-ar} {cite:wikipedia-shibli-nomani-en} {cite:tdv-shibli-nomani} {cite:wikidata-shibli-nomani} Bu nedenle, bu kayıttaki inancı sınıflandırılmamış ve sertifikalar olduğu gibi belirtilmiştir.
+
+## Yayınlar
+TDV'de basıldığı en önemli eserleri şunlardır: "Al-Ma'mun" (1887), Urduca ilk büyük tarihsel eseri; "Nu'man'ın Biyografisi" (1891) Ebu Hanifa'nın hayatı ve Hanefi fıkhi en önemli konuları üzerine; "Omar al-Faruq" (1899), Halife Ömer biyografisi; "Al-Ghazali" (1902); "Sawaneh Mawlana Rum" (1902), Rumi'yi bir âlim olarak sunar teoloji olarak Sufi; "Farsların Şiiri" (1909–1919), Fars şiirinin tarihi; "Kalam Bilimi" ve "Kalam" klasik kalam tarihi ve yeni kalamın kuruluşu için; "Roma, Mısır ve Levant Gezi Günlüğü" 1892 yolculuğu hakkında; ve "Peygamberin Biyografisi" beş cilt olarak planlanmış, ilk iki cildini Süleyman el-Nadvi ölümünden sonra tamamlamış, ilki ise 1918'de ölümünden sonra basılmıştır. {cite:tdv-shibli-nomani} {cite:wikipedia-shibli-nomani-en}
+
+## Kaynaklar
+- İngilizce Vikipedi, "Shibli Nomani," 1380888050 inceleme. {cite:wikipedia-shibli-nomani-en}
+- Urduca Vikipedi, "Shibli Nomani" 11800886 inceledi. {cite:wikipedia-shibli-nomani-ur}
+- Arapça Vikipedi, 'Shibli Al-Numani'73831110 incelemesi. {cite:wikipedia-shibli-nomani-ar}
+- Türk İslam Ansiklopedisi (TDV), 'Shibli Al-Numani' (Anis Ahmed ve M. Said Ozerwarlı, Cilt 39, 2010). {cite:tdv-shibli-nomani}
+- Wikidata, Q773259. {cite:wikidata-shibli-nomani}

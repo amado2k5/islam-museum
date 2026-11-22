@@ -1,0 +1,13 @@
+---
+id: person/bishan-das
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/bishan-das.md}
+---
+## Ringkasan
+Jahangir [[person/jahangir-mughal|menyebutkan]] dalam [[work/tuzuk-i-jahangiri|memoarnya]] bahwa ia mengirim duta besarnya Khan Alam ke Persia seorang pelukis bernama Pushan Das, "tak tertandingi di zamannya dalam dunia lukisan potret," untuk melukis potret Shah dan negarawan-negaranya yang terkemuka. Ia melukis sebagian besar potret mereka, terutama potret "Saudara Shah," sampai-sampai para pelayan Shah mengatakan potret itu sangat presisi; ia diberi hadiah seekor gajah. {cite:beach-grand-mogul-1978 p. 107} Khan Alam tinggal di sana hingga tahun 1029 H / 1620 M. Milo beralih ke Pantai Cleveland hingga Peschen Das tidak berada di India pada tahun-tahun paling subur masa pemerintahan Jahangir. {cite:beach-grand-mogul-1978 p. 107}
+
+## Biografi dan Gaya Karyanya
+Di pinggiran [[object/muraqqa-e-gulshan|patch Gulshan]], terdapat prasasti yang menyatakan bahwa ia adalah keponakan [[person/nanha-painter|Nanha]], keduanya berusia sama. Ia menampilkan karyanya dalam dua manuskrip kekaisaran dari abad ke-16, dan pada dekade pertama abad ketujuh belas, ia telah mencapai status yang membuatnya menjadi salah satu ilustrator di pinggir patchwork dengan [[person/daulat-painter|kuas negara]]. {cite:beach-grand-mogul-1978 p. 107} {cite:beach-grand-mogul-1978 p. 147} Penulis menggambarkan warnanya sebagai gelap dan berwarna tanah gelap dan tulisannya dalam panas yang sederhana, memberikan kehangatan dan vitalitas pada karakternya. Ia melihat keberagaman karakter dalam "Kelahiran Jahangir" yang dikaitkan dengannya sekitar tahun 1620 M sebagai sesuatu yang luar biasa, terutama wanita di tempat suci, yang biasanya digambar dengan gaya stereotip. Dia kurang memperhatikan ruang dan bayangan dibandingkan [[person/abu-al-hasan-nadir-al-zaman|Abu al-Hasan]] dan [[person/govardhan-painter|Gordhan]]; karakternya hidup dengan fitur dan gerakan. {cite:beach-grand-mogul-1978 p. 60} {cite:beach-grand-mogul-1978 p. 107} Adapun foto-foto pertemuan Khan Alam dengan Shah [[person/abbas-i-safavi|Abbas yang]] dikaitkan dengannya, Beach tidak melihatnya dengan kualitas yang dia jamin ada di tangannya, dan kemungkinan banyak di antaranya ditiru. {cite:beach-grand-mogul-1978 p. 107}

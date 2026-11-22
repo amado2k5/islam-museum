@@ -1,0 +1,15 @@
+---
+id: person/abd-al-haqq-i-marinid
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/abd-al-haqq-i-marinid.md}
+---
+## Ikhtisar
+Abd al-Haqq ibn Muhyu ibn Abi Bakr ibn Hamama ibn Muhammad al-Marini, Abu Muhammad, pendiri negara Marinid di Maghreb jauh seperti yang dijelaskan oleh al-Zarkali. Ia disebutkan lahir pada tahun 542 H, sesuai dengan tahun 1147 M, dan meninggal pada tahun 614 H, yang bertepatan dengan tahun 1217 M {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 282}.
+
+## Garis keturunan dan etnis
+Al-Zarkali mengatakan bahwa putra-putra Marin adalah orang Berber dari Maroko, dari suku Zenata. Tempat tinggal mereka di tanah Qibla membentang dari Zab Ifriqiya hingga Sijilmasa. Mereka berkeliaran di gurun tanpa berada di bawah kekuasaan sultan maupun membayar pajak. Pekerjaan mereka adalah berburu dan merampok di pinggiran tanah {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 282}. Kepemimpinan mereka dimiliki oleh leluhur subjek biografi ini, di antaranya dikenal Al-Mukhaddab ibn Askar ibn Muhammad, yang tewas dalam beberapa perang antara [[person/abd-al-mumin-ibn-ali|Abd al-Mu'min al-Kumi]] dan [[polity/almoravid-dynasty|Almoravid]] pada tahun 540 H {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 282}. Kepemimpinan berpindah ke sepupunya Abu Bakr ibn Hamama, dan dari dia ke putranya Abu Khalid Muhyu. Dia tewas di gurun Zab pada tahun 592 H, dan setelahnya, putranya Abd al-Haqq {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 282} mengambil alih kepemimpinan suku tersebut.
+
+## Biografinya
+Abd al-Haqq lahir di Zab dan pindah bersama rakyatnya ke [[place/maghreb|barat jauh]] pada tahun 610 H, mendapat manfaat dari air yang melimpah dan tanah subur. Mereka memiliki benteng 'Tazota' dan tanah Rif di sekitarnya {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 282}. [[polity/almohad-caliphate|Suku Almohad melawan]] mereka, rakyat Marrakesh dan Fez, serta Marinid menang pada tahun 613 H. Emir Abd al-Haqq ikut berbaris bersama mereka ke Rabat [[place/taza|Taza]], membunuh gubernurnya, dan mengalahkan mereka yang bersamanya dari Almohad dan pendukungnya {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 282}. Kemudian beberapa anak buahnya dari Banu Askar berangkat dan menuju suku Banu Riyah, suku Arab terkuat di gurun tersebut, dan kembali Mereka bertempur dengannya dalam jumlah besar, sehingga ia sabar bertahan dan bersumpah setia kepada anak buahnya untuk mati sebelum dirinya {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 282}. Pertempuran terjadi di dekat lembah Sebou, bermil-mil dari Tafartast. Marinid menang tetapi terluka akibat kematian emir mereka, sehingga mereka menguburnya di luar desa Tafartast dekat [[place/meknes|Meknassa]] {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 282}. Al-Zarkali mengatakan ini adalah penampilan pertama mereka dalam bentuk kekuatan dan persatuan {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 282}.

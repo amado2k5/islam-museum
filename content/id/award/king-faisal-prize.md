@@ -1,0 +1,35 @@
+---
+id: award/king-faisal-prize
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/award/king-faisal-prize.md}
+---
+
+## Ringkasan
+Penghargaan King Faisal, yang sebelumnya dikenal sebagai King Faisal International Prize, adalah penghargaan tahunan yang disponsori oleh King Faisal Foundation di Riyadh, diberikan "kepada pria dan wanita yang berdedikasi yang kontribusinya memberikan perubahan positif," dalam lima kategori: melayani Islam, studi Islam, bahasa dan sastra Arab, ilmu pengetahuan, dan kedokteran. {cite:wikipedia-king-faisal-prize-en}
+
+## Bagaimana Anda memulai?
+Penghargaan ini pertama kali diberikan pada tahun 1979 kepada ulama Pakistan Abu Al-A'la Maududi atas jasanya kepada Islam, dan pada tahun yang sama, Fuad Sezgin menerima Penghargaan Studi Islam atas studinya tentang dampak ulama Muslim terhadap peradaban Eropa. {cite:wikipedia-king-faisal-prize-en} Cabang Kedokteran ditambahkan pada tahun 1982 dan cabang Ilmu Pengetahuan pada tahun 1984. Penghargaan Pelayanan kepada Islam diberikan kepada Raja Khalid pada tahun 1981 dan Raja Fahd pada tahun 1984, dan dibagi oleh Ahmed Deedat dan Roger Garaudi pada tahun 1986. {cite:wikipedia-king-faisal-prize-en}
+
+## Cara memberikan
+Setiap tahun, komite seleksi menentukan mata pelajaran studi Islam, sastra Arab, dan kedokteran, sementara ilmu pengetahuan bergantian antara fisika, matematika, kimia, dan biologi. {cite:wikipedia-king-faisal-prize-en} Institusi Islam, universitas, dan pemenang sebelumnya dinominasikan; nominasi dari individu atau partai tidak diterima; pemenang pelayanan Islam dipilih langsung oleh panitia seleksi, sementara cabang lain menjalani penilaian ilmiah. Komite khusus internasional bertemu di kantor pusat yayasan di Riyadh setiap bulan Januari untuk keputusan akhir. {cite:wikipedia-king-faisal-prize-en} Penghargaan ini terdiri dari sertifikat yang ditulis dalam aksara Diwani, medali emas 24 karat seberat 200 gram, dan jumlah 750.000 riyal yang dibagi di antara pemenang jika jumlahnya banyak, dan diberikan dalam upacara di Riyadh di bawah naungan Raja Arab Saudi. {cite:wikipedia-king-faisal-prize-en}
+
+## Siapa yang mendapatkannya
+Di antara pemenang Layanan Islam [[person/mahathir-mohamad|adalah Mahathir Mohamad]] pada tahun 1997 sebagai Perdana Menteri Malaysia, Recep Tayyip Erdoğan pada tahun 2010, Zakir Naik pada tahun 2015, dan Raja Salman pada tahun 2017; di antara pemenang Studi Islam adalah Muhammad Nasiruddin Al-Albani pada tahun 1999 untuk verifikasi hadits, Yusuf Al-Qaradawi pada tahun 1994, dan Khalil Inalıgık pada tahun 2011. {cite:wikipedia-king-faisal-prize-en} Di bidang ilmu pengetahuan, [[person/ahmed-zewail|Ahmed Zewail menerima]] Penghargaan Fisika pada tahun 1989 bersama Theodor Hansch, dan Omar Yaghi menerima Penghargaan Kimia pada tahun 2015 bersama Michael Gretzel. {cite:wikipedia-king-faisal-prize-en} Penghargaan Layanan Islam untuk tahun 2026 diumumkan pada 15 April 2026, bersama antara Sheikh Abdul Latif Al-Fawzan dari Arab Saudi dan Bapak Mohammed Mohammed Abu Mousa dari Mesir. {cite:wikipedia-king-faisal-prize-en}
+
+Artikel tersebut menyebutkan bahwa Amerika Serikat, Mesir, Arab Saudi, Inggris, dan Jerman adalah negara dengan kemenangan terbanyak hingga 2026, dan bahwa Sidney Brenner dianggap sebagai Yahudi pertama yang menang di sana pada tahun 1992. {cite:wikipedia-king-faisal-prize-en}
+
+## Saat ini
+Penghargaan ini berlangsung setiap tahun, dan King Faisal Foundation mempublikasikan para pemenangnya di situs webnya. {cite:wikipedia-king-faisal-prize-en}
+
+## Aku membawanya di museum
+Dalam pelayanan kepada Islam: [[person/abul-ala-maududi|Abu Al-A'la Al-Maududi]] (1979), [[person/abu-al-hasan-ali-nadwi|Abu Al-Hasan Ali Al-Hasani Al-Nadwi]] (1980), [[person/mohammad-natsir|Muhammad Nasser]] (1980), [[person/khalid-bin-abdulaziz|Khalid bin Abdulaziz Al Saud]] (1981), [[person/ibn-baz-abd-al-aziz|Ibn Baz Abdulaziz bin Abdullah]] (1982), [[person/hassanein-makhlouf|Hassanein Muhammad Makhlouf]] (1983), [[person/tunku-abdul-rahman|Tunku Abdulrahman]] (1983), [[person/fahd-bin-abdulaziz|Fahd bin Abdulaziz Al Saud]] (1984), [[person/ahmed-deedat|Ahmed Deedat]] (1986), [[person/roger-garaudy|Roger Garaudi]] (1986), [[person/abubakar-gumi|Abu Bakr Mahmoud Gumi]] (1987), [[person/ahmad-domocao-alonto|Ahmed Domocao Alonto]] (1988), [[person/muhammad-al-ghazali-modern|Mohamed Al-Ghazali]] (1989), [[person/ali-al-tantawi|Ali Al-Tantawi]] (1990), [[person/khurshid-ahmad-economist|Khurshid Ahmed]] (1990), [[person/abdullah-omar-nasseef|Abdullah bin Omar Naseef]] (1991), [[person/alija-izetbegovic|Ali Izzat Begovic]] (1993), [[person/muhammad-ibn-salih-al-uthaymin|Mohammed bin Saleh Al-Othaimeen]] (1994), [[person/jad-al-haqq-ali-jad-al-haqq|Jad Al-Haq bin Ali Jad Al-Haq]] (1995), [[person/abdel-rahman-al-sumait|Abdulrahman Al-Sumait]] (1996), [[person/mahathir-mohamad|Mahathir Mohamad]] (1997), [[person/abdou-diouf|Abdu Diouf]] (1998), [[person/sultan-bin-muhammad-al-qasimi|Sultan bin Mohammed Al Qasimi]] (2002), [[person/abdel-rahman-swar-al-dahab|Abdulrahman Suwar Al-Dhahab]] (2004), [[person/mintimer-shaimiev|Montimir Shaimiyev]] (2007), [[person/abdullah-bin-abdulaziz|Abdullah bin Abdulaziz Al Saud]] (2008), [[person/recep-tayyip-erdogan|Recep Tayyip Erdoğan]] (2010), [[person/abdullah-ahmad-badawi|Abdullah Ahmed Badawi]] (2011), [[person/ahmed-lemu|Sheikh Ahmed Limo]] (2014), [[person/zakir-naik|Zakir Naik]] (2015), [[person/salman-bin-abdulaziz|Salman bin Abdulaziz Al Saud]] (2017), [[person/ali-hassan-mwinyi|Ali Hassan Mweini]] (2022), [[person/hamid-choi|Hamed Choi]] (2023), [[person/mohammad-al-sammak|Mohammed Al-Sammak]] (2024). {cite:wikipedia-king-faisal-prize-en}
+
+Dalam studi Islam: [[person/fuat-sezgin|Fouad Sezgin]] (1979), [[person/muhammad-mustafa-al-azami|Muhammad Mustafa Al-A'zami]] (1980), [[person/mustafa-al-zarqa|Mustafa Al-Zarqa]] (1984), [[person/yusuf-al-qaradawi|Yusuf Al-Qaradawi]] (1994), [[person/sayyid-sabiq|Sayyid Sabiq]] (1994), [[person/akram-diya-al-umari|Akram Diaa Al-Omari]] (1996), [[person/al-albani-muhammad-nasir-al-din|Al-Albani Muhammad Nasir Al-Din]] (1999); dan dalam Bahasa dan Sastra Arab: [[person/mahmud-muhammad-shakir|Mahmoud Muhammad Shaker]] (1984), [[person/yahya-haqqi|Yahya Haqi]] (1990), [[person/aisha-abd-al-rahman|Aisha Abdul Rahman (Bint Al-Shati')]] (1994). {cite:wikipedia-king-faisal-prize-en} {cite:king-faisal-prize-laureates}
+
+Dalam Sains: [[person/ahmed-zewail|Ahmed Zewail]] (1989). {cite:wikipedia-king-faisal-prize-en}
+
+## Referensi
+- Artikel Wikipedia bahasa Inggris tentang King Faisal Prize, diulas pada 31 Oktober 2026. {cite:wikipedia-king-faisal-prize-en}
+- Halaman pemenang di situs resmi penghargaan, halaman untuk setiap pemenang (cabang, tahun, tanggal lahir, justifikasi hibah, dan pembaruan selanjutnya), diakses pada 7 November 2026. {cite:king-faisal-prize-laureates}

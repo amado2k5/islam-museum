@@ -1,0 +1,16 @@
+---
+id: concept/asma-al-basir
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/asma-al-basir.md}
+---
+
+## Ringkasan
+Al-Basir: Sang Maha Melihat: Dia yang melihat segala sesuatu yang tersembunyi dari-Nya. Ini adalah nama ke-27 dalam daftar Nama-nama Terindah Allah, seperti yang disebutkan dalam hadits Abu Huraira di Al-Tirmidhi {cite:jami-al-tirmidhi}; Ibn Qayyim al-Jawziyyah mendedikasikan satu bab untuk menjelaskan nama-nama ini dalam Jala al-Afham {cite:jala-afham-ibn-qayyim}.
+
+## Dalam Al-Qur'an
+Nama ini muncul dalam ayat-ayat, termasuk: [[passage/quran-17-1|17:1]], [[passage/quran-40-20|40:20]], [[passage/quran-40-56|40:56]], [[passage/quran-42-11|42:11]].
+
+## Per tahun
+Ia diceritakan dalam hadits Abu Huraira: "Sesungguhnya, Allah memiliki sembilan puluh sembilan nama, seratus kecuali satu; siapa pun yang menyebutkannya akan masuk Surga" {cite:sahih-muslim}.

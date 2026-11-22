@@ -1,0 +1,11 @@
+---
+id: person/thuwayba
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/thuwayba.md}
+---
+Thuwaybah, wanita bebas Abu Lahab, adalah yang pertama menyusui Nabi setelah ibunya dengan susu putranya Masruh. Dia adalah orang yang sama yang menyusui [[person/hamza|Hamza ibn Abd al-Muttalib sebelum dia]] dan setelahnya menyusui Abu Salamah ibn Abd al-Asad al-Makhzumi — sehingga kedua saudaranya disapih bersama. {cite:mubarakpuri-raheeq}
+
+## Dalam program Abla Al-Kahlawi "In Love of the Chosen One"
+Abla al-Kahlawi [[person/abla-al-kahlawi|menganggap]] Thuwaybah sebagai "ibu kedua" Nabi setelah Amina dalam programnya [[work/fi-hub-al-mustapha|"Dalam Kasih kepada Yang Terpilih]]." {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:07:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:09:00} Dinawaykan bahwa paman Nabi sangat sedih atas saudaranya Abdullah karena ia telah meninggal dan tidak melihat putranya. Ketika mawlat-nya Thuwaybah memberitahunya bahwa Amina telah melahirkan Muhammad, ia sangat bersukacita dan membebaskannya, dan kakeknya Abdul Muttalib bersukacita atas dirinya. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:07:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:07:30} Dia mengatakan bahwa Thuwaybah pergi melihat wajah bayi itu dan menjadi dekat dengannya. Dia baru lahir, jadi dia memeluk dan menyusui anak laki-lakinya sendiri, dan dia mendapatkan kehormatan serta berkah dari menyusui anaknya. Dia tidak pernah meninggalkan Amina atau Muhammad, dan dia hidup untuknya sebagai ibu kedua yang dia cintai dengan sepenuh cinta. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:07:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:08:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:08:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:09:00} Nama yang terdengar dalam catatan paman ini tidak sesuai dengan sumber yang disebutkan di atas, yang menjadikan Thuwaybah sebagai mantan Abu Lahab, sehingga nama itu tidak tertulis di sini. {cite:mubarakpuri-raheeq}

@@ -1,0 +1,9 @@
+---
+id: concept/mubalagha-fiqh
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/mubalagha-fiqh.md}
+---
+## Ringkasan
+Berlebihan dalam bahasa berarti ijtihad dan bukan kelalaian, dan melebih-lebihkan {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13823}. Para ahli hukum sepakat bahwa membilas dan menghirup secara berlebihan adalah Sunnah bagi mereka yang tidak berpuasa, tetapi bagi orang yang berpuasa, hal itu tidak disukai olehnya, berdasarkan hadits Laqit ibn Sabra: "Dan menghirup berlebihan kecuali Anda sedang berpuasa" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13823}. Mayoritas ahli hukum sepakat bahwa disarankan untuk melakukan wudhu secara menyeluruh dengan mencuci apa yang melebihi kewajiban, berdasarkan hadits Abu Huraira tentang mujallin mujallin. Orang Hanbal menganggap berlebihan di area tempat air mengalir, sementara Malili memerlukan gosok {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13823-13824}. Menurut mayoritas, disarankan untuk menggosok tumit, tetapi pencucian berlebihan tidak disukai {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13824-13825}. Umat Malik dan Shafi'i menyarankan meninggikan suara saat panggilan salat tanpa usaha, Hanafi menyarankan pembacaan dengan suara keras, dan Hanbal menganggap meninggikan suara sebagai tiang sesuai kemampuan seseorang {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13825}. Sebagai pujian, Al-Nawawi mengatakan bahwa larangan tersebut diartikan sebagai risiko dan menambahkan deskripsi, tetapi bagi mereka yang tidak takut godaan, tidak ada larangan {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13825}.

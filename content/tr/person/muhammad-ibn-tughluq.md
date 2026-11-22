@@ -1,0 +1,18 @@
+---
+id: person/muhammad-ibn-tughluq
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/muhammad-ibn-tughluq.md}
+---
+## Özet
+İbn Battuta'nın ziyaret ettiği ve karşı hizmet ettiği [[person/ibn-battuta-muhammad|Hindistan ve Sindh Kralı Sultan Ebu al-Mujahid Mucahid Mucahid Muhammed Şah ibn Ghiyath al-Din Taghluq Shah]] 'ı ziyaret etti. {cite:rihla-ibn-battuta-khayriyya-1904 p.354} İbn Battuta adının 'Yunus' olduğunu söyler. Babası Taghluk öldüğünde, krallığı tartışmasız ele geçirdi ve Muhammed olarak adlandırıldı, Ebu al-Mujahid adını aldı. Taghluk'u karşılamak için inşa edilen kioskun çöküşü ve üzerine düştüğünü anlatır; bazı kişiler onun canlı çıkarılıp hazırlandığını iddia eder ve mühendisi vezir Khwaja Jahan'ın Muhammed Şah'ın gözdesi olduğunu iddia eder. {cite:rihla-ibn-battuta-khayriyya-1904 p.354}
+
+## İbn Battuta'ya göre Özelliği
+İbn Battuta, Hindistan krallarıyla ilgili haberlerin çoğunun Baş Yargıç Kamal al-Din ibn al-Burhan al-Ghaznawi'den alındığını, bu kral hakkındaki haberlerin çoğunun ise gördüklerinden geldiğini söyler. {cite:rihla-ibn-battuta-khayriyya-1904 p.354} Onu "hediye verme ve kan dökme konusunda en sevilen insan" olarak tanımlar; kapısında zengin ya da hayatta olan yoksul bir kişi öldürülür, ancak en alçakgönüllü ve dışa dönük adil, dua ve ihmal ettiği için cezalandırmada katı ve çoğunlukla cömerttir. Cömertliğinin söylediklerinin doğru olduğuna yemin eder. {cite:rihla-ibn-battuta-khayriyya-1904 p.354} {cite:rihla-ibn-battuta-khayriyya-1904 p.355} Sultan'ın Delhi'deki evini, "Dar Sarah" olarak adlandırılan üç kapısını ve ilk kapının dışında oturan cellatları anlatır; çünkü Sultan'ın öldürülmesini emreden kişinin Bab al-Mashur'da öldürülüp üç kişi orada bırakılması adettendir. {cite:rihla-ibn-battuta-khayriyya-1904 p.355}
+
+## Ne büyük bir lanet onun için
+İbn Battuta, "Bu Sultanın Fatakatı ve Yaptıklarından BahsEtmek" başlıklı bir bölüm adar; burada alçakgönüllülüğüne, adaletine ve cömertliğine rağmen kan dökmekte, genç ve yaşlıları cezalandırmakta ve alimler, doğru ya da onurlu insanlara saygısızlık etmekte çok cesur olduğunu ve kendisinin kapısında yatan ölüleri gördüğünü belirtir. {cite:rihla-ibn-battuta-khayriyya-1904 p.378} Bunlar arasında, ceza korkusuyla harekete geçmeyi kabul eden kardeşi Mas'ud Han'ın onu öldürmesi de vardır. {cite:rihla-ibn-battuta-khayriyya-1904 p.378} "Kendisine karşı aldığı en büyük intikamın" [[place/delhi|Delhi]] halkını kırk günlük bir yürüyüşle Dawlatabad'a tahliye etmesi olduğunu düşünür; Al-Mashur'da kendisine hakaretler içeren bir bölme bulduktan sonra. Evlerini satın aldı ve taşınmalarını emretti, sonra geride kalanları emretti ve şehir boşaldı; sonrasında içeri girdiğini ve birkaç bina dışında boş bulduğunu söylüyor. {cite:rihla-ibn-battuta-khayriyya-1904 p.385} Tüm bunlar kendi anlatımıdır, gördüğü ya da duyduğu şekliyle, başka bir kaynak eklenmedi.
+
+## İbn Battuta hizmetinde
+Sultan İbn Battuta, onu yılda on iki bin dinar maaşla Delhi valisi olarak atadı ve Delhi yargısının "bizim için en büyük görev" olduğunu söyledi. Maliki okulu ve hitabet eksikliği için özür dilediğinde, ona iki vekil atadı ve alçakgönüllülükle Arapça şöyle dedi: "Aksine, sen bizim efendimiz ve hizmetkarımızsın." {cite:rihla-ibn-battuta-khayriyya-1904 p.412} Ayrıca [[question/credibility-of-ibn-battuta|İbn Battuta'nın cömertliğiyle ilgili raporlarına inanma]] meselesine bakınız.

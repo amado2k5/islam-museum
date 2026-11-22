@@ -1,0 +1,16 @@
+---
+id: person/mohamed-bey-el-mouradi
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/mohamed-bey-el-mouradi.md}
+---
+## Ringkasan
+
+# Mohammed Bay Al-Muradi
+
+Muhammad Bey Al-Muradi (wafat 14 Oktober 1696) adalah Bey Tunis Al-Muradi, putra sulung Murad Bey II dan cucu Yusuf Dey dari ibunya {cite:wikipedia-mohamed-bey-el-mouradi-ar}. Artikel-artikel yang dibaca tidak mencantumkan tahun kelahirannya; dan Wikidata hanya mencantumkan kelahirannya sebagai dekade yang tepat (1750-an), karena angka 1655 dalam antrean adalah perkiraan tengah yang tidak dibuktikan oleh teks {cite:wikidata-mohamed-bey-el-mouradi}. Artikel bahasa Inggris menempatkan pemerintahannya pada tahun 1675, tahun kematian ayahnya, sementara bahasa Prancis dan Arab menghitung masa pemerintahannya sebenarnya sebagai 1686, ketika ia memperoleh kekuasaan tunggal setelah perjuangan panjang {cite:wikipedia-mohamed-bey-el-mouradi-en} {cite:wikipedia-mohamed-bey-el-mouradi-fr}.
+
+Perang saudara Mouradi menguras masa pemerintahannya. Pamannya Muhammad al-Hafsi — diasingkan pada tahun 1679 — dan saudaranya Ali ibn Murad, yang berlindung di Beylik Konstantinus dan menggalang suku-suku barat laut yang dipimpin Muhammad ibn Shakir dengan janji emas dan perak, mengepung Tunis, sehingga Muhammad Bey melarikan diri ke Kairouan, kemudian membongkar pengepungan dan bertemu saudaranya di Pertempuran Karima di Dataran Fahs pada tahun 1677. Ali menang dan terisolasi di Tunis, sementara Muhammad tetap dikepung di Kairouan {cite:wikipedia-mohamed-bey-el-mouradi-en}. Dey menjadi mediator di Aljir, yang menghasilkan perjanjian damai tahun 1679, namun perjanjian itu tidak bertahan lama: Janissari Tunisia memilih pemimpin mereka Ahmad Chalabi, yang mengalahkannya dan menjarah Tunisia pada tahun 1686. Muhammad menuduh saudaranya Ali mendukung mereka, membunuhnya, dan mengambil alih kekuasaan tunggal {cite:wikipedia-mohamed-bey-el-mouradi-en}. Pada tahun 1694, Dey Aljir, Haji Shaban, menyerbu Tunisia dengan bantuan pengklaim Muhammad bin Shakir, menganeksasinya selama berbulan-bulan, dan mengangkat Ben Shaker sebagai Baya. Orang Tunisia memberontak, mengalahkannya di Kairouan pada tahun 1695, dan merebut kembali negara Al-Muradi {cite:wikipedia-mohamed-bey-el-mouradi-en}.
+
+Di tengah kekacauan ini, yang dikenal sebagai 'Revolusi Tunisia,' ia membangun monumen abadi: Masjid Sidi Mahrez—Masjid Muhammad Bey—di Tunis yang meniru masjid Istanbul dengan kubah besar di tengahnya; ia membangun kembali pasar Chachia; membangun masjid dan sekolah di Beja, Kef, Gafsa, Tozeur, dan Gabes, termasuk Masjid Bey di Kairouan; dan pada tahun 1690, ia membangun Jembatan Tabarba dan bendungannya di atas Oued Majrada {cite:wikipedia-mohamed-bey-el-mouradi-fr} {cite:wikipedia-mohamed-bey-el-mouradi-ar}. Ia meninggal pada 14 Oktober 1696, dan dimakamkan di makam kakeknya Hammouda Pasha Bey, meninggalkan dua putra kecil, Murad dan Hassan, dan digantikan oleh saudaranya Ramadan Bey {cite:wikipedia-mohamed-bey-el-mouradi-ar}.

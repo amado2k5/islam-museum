@@ -1,0 +1,16 @@
+---
+id: concept/ahl-al-hadith
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/ahl-al-hadith.md}
+---
+## Özet
+Hadis halkı, diğer adıyla hadis âlimleri, ikinci yüzyıl Hâs. hadis alimlerinin hareketiydi. Peygamber'e atfedilen hadislerin, eski düşünce mezheblerinin dayandığı 'miras uygulama'dan önce geldiğine, hatta tek bir kişi tarafından aktarılmış olsa bile, inanıyorlardı ve zincirin eleştirisini yöntemleri haline getirdiler. {cite:encyclopaedia-of-islam-2 vol. 1 p. 280}
+
+## İslam Ansiklopedisi Anlatımı
+Hadis eğilimi ilk olarak eski Arap Sünnet kavramını, yani cemaatte uygulanan geleneği canlandırarak ortaya çıktı; bu gelenek daha sonra Peygamber'in Sünneti oldu. Bu gelenek, ikinci yüzyılın başında ortaya çıkan eski fıkıh mezhebleri arasında 'miras kalan iş' olarak somutlaştı. Hadis alimleri kısa süre sonra ortaya çıktı ve eski mezheblerin görüş ve kişisel ectihadlarının aksine, Peygamber'e atfedilen hadislerin bireysel kişiler tarafından aktarılmış olsa bile miras kalan şeylerden önce geldiğini iddia ettiler. Hadis alimleri, Peygamber'e atfedilen birçok hadisi kendileri de teşvik etti, bunları toplama, iyileştirme, aktarma ve inceleme konusunda uzmanlaştı ve onları aramak için geniş çapta seyahat ettiler. Bu materyalin çoğu tarihsel araştırma standartlarına göre doğru kabul edilmese de, Müslümanlar üçüncü yüzyıldan itibaren ana bölümlerini kabul ettiler. {cite:encyclopaedia-of-islam-2 vol. 1 p. 280}
+
+Bu hareket, ikinci yüzyıl hicri tarihindeki en önemli olaydı. Okullar başlangıçta buna karşı çıktı ve yükseltilmiş hadislerin otoritesi tartışması, o yüzyılın büyük kısmının kalıtsal çalışmalarıyla meşgul oldu. Hadis alimlerinin tezi, Kur'an'dan sonraki en yüksek otoriteye dayanarak oluşturulduğunda başarı garanti edildi ve eski mezhebler hadislerin artan akınına karşı gerçek bir savunmaya sahip değildi. El-Şafii, hadis alimlerinin tezini benimsedi ve diğer mezhebler bunu prensipte kabul etti, ancak mutlaka okullarını değiştirmediler. Ahmed bin Hanbal'ın okulu tamamen hadistikti. Son teori Tewfik'tir: Hadisler prensipte kabul edilir, ancak uygulamaları uzlaşıya bağlıdır. {cite:encyclopaedia-of-islam-2 vol. 1 p. 280}
+
+Hadis âlimlerinin temel amacı, eski okullar gibi, hukuki konuları dini ve etik hususlara tabi tutmaktı; bazen sadece hukuki konulara odaklansalar da. Al-Şafii, akıl yürütme standartlarının eski mezheblerden farklı olduğunu ve her hadisi ayrım gözetmeksizin kabul eden aşırı aşırıya kaçan hadis âlimlerinin ayrıldığını şikayet etti. Çoğu hadis âlim, güvenilir hadisleri diğerlerinden ayırt etmek için aktarım zincirini eleştirdi; bu eleştiri, bu konuda standartları daha az katı olan eski mezheplere yönelikti. İsnad eleştirisi, hadislerin tarihsel geçerliliğini doğrudan etkilemez. 2. Hicri / MS 8. yüzyıldan itibaren hadislerin incelenmesi kendi başına bir amaç haline geldi ve hadis bilimi fıhhiha karşı bir muhalefet değil, onun tamamlayıcısı, kendi başına bir bilim haline geldi. Teknik uzman için yaygın terim hadis âlimidir. {cite:encyclopaedia-of-islam-2 vol. 1 p. 281}

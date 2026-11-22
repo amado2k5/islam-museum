@@ -1,0 +1,16 @@
+---
+id: person/mohamed-ben-larbi-al-alaoui
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/mohamed-ben-larbi-al-alaoui.md}
+---
+## Özet
+
+Muhammed bin El-Arabi bin Muhammed El-Haşimi El-Alavi El-Madgari (1884–1964), Fas'ta nadir bir unvanla "Şeyh el-İslam" lakabıyla anılır, bir hukukçu, yargıç, politikacı ve Fas'ta Ulusal Selefizmin kurucusuydu. Fas Öğretmeni'ne göre, 7 Dhu al-Hijjah 1301 veya 1302 Hicce'de, 1884 M.S. tarihinde, Tafilalt vahalarından biri olan Madghara'daki Yeni Saray'da doğdu; diğer kaynaklar ise 1880 yılını verir ve diğer okumalar ezberlenirken 1884 yılı seçildi. {cite:wikipedia-mohamed-ben-larbi-al-alaoui-ar} {cite:wikipedia-mohamed-ben-larbi-al-alaoui-es} {cite:wikidata-mohamed-ben-larbi-al-alaoui}
+
+Başlangıcını babasından aldı, gençliğinde Darqawi tarikatına katıldı ve Madghara'daki en önde gelen figürlerinden biri oldu. Daha sonra sarayların hakimi olarak görev yaptıktan sonra 1909'da Fes'e taşınarak El-Karaviyin Üniversitesi'nde önde gelen alimlerin yanında eğitim aldı; bu alan, batıl inançları koparan ve Kur'an ile Sünnet'e dönmeyi çağrıdan geçen Şeyh Ebu Şuayb El-Dukkali'nin Selefiliği olarak bilinen hareketi yürüttü. {cite:wikipedia-mohamed-ben-larbi-al-alaoui-ar} {cite:wikipedia-mohamed-ben-larbi-al-alaoui-es} 1912'de Karawiyyin'in en yüksek belgesi olan Al-Alamiyyah aldı ve orada eğitim gördü. Öğrencileri arasında [[person/mohamed-hassan-ouazzani|Muhammed bin Al-Hassan Al-Wazzani]], [[person/allal-al-fassi|Allal Al-Fassi]] ve Al-Mukhtar Al-Soussi vardı ve 1915'te yeni Fes'in yargıcı oldu. {cite:wikipedia-mohamed-ben-larbi-al-alaoui-ar}{cite:wikipedia-mohamed-ben-larbi-al-alaoui-fr}
+
+Yalnız bir hukukçu değildi: 1912'den itibaren Tanca basınında sömürgeciye karşı yazdı, İslami Hayır Kurumu'nun kurulmasına katıldı ve 1928'de Rabat'taki Temyiz Mahkemesi başkanı, ardından 1938'den itibaren Adalet Bakanı olarak yükseldi. Genel Başkan ile çatıştı ve onu Madghara'ya sürgün etti, ardından 1944'te bağımsızlık talep eden gösterinin bastırılmasının ardından bakanlıktan istifa etti. {cite:wikipedia-mohamed-ben-larbi-al-alaoui-fr} {cite:wikipedia-mohamed-ben-larbi-al-alaoui-es} En büyük anı 1953'te Muhammed V'i tahttan indiren bir kararnameyi imzalaması istendiğinde geldi, ancak reddetti ve İbn Arafa da bağlılık yemini etmeyi reddetti. Fransa onu Tiznit'e sürgün etti ve yetmişli yaşlarında işkence etti, ta ki 1955'te Sultan'ın dönüşüyle geri dönene kadar. {cite:wikipedia-mohamed-ben-larbi-al-alaoui-ar} {cite:wikipedia-mohamed-ben-larbi-al-alaoui-es}
+
+Bağımsızlıktan sonra Taç Bakanı, Muhammed V'nin danışmanı ve Danışma Konseyi başkanı oldu. 1960'ta istifa etti, emekli oldu ve 1962 anayasasının boykot çağrısında bulundu; onu özünde sömürge olarak tanımladı. Memleketine döndü ve 23 Muharrem 1384 H., Perşembe akşamı, 4 Haziran 1964'e denk gelen Fes'te hayatını kaybetti. Babası ve büyükannesiyle birlikte, yeni sarayda hiçbir ihtişamdan uzak sıradan bir mezara defnedildi. {cite:wikipedia-mohamed-ben-larbi-al-alaoui-ar} {cite:wikipedia-mohamed-ben-larbi-al-alaoui-fr}

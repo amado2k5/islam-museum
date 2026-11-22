@@ -1,0 +1,13 @@
+---
+id: person/abu-abd-allah-al-qalansi
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/abu-abd-allah-al-qalansi.md}
+---
+## Özet
+Ebu Abdullah el-Kalansi beşikteydi ve haklı bir temele sahipti, bu yüzden kusurlarda kurtarılmaya hakkı vardı. [[person/abu-nuaym-al-asbahani-ahmad|Ebu Nu'aym]], onun biyografisini '[[work/hilyat-al-awliya|Hilyat al-Awliya]]'nın (basılı biyografi 530) onuncu cildinde 160 ve 161. sayfalarda, 531 sayfalık bir diziyle sunmaktadır. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/160} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/161}
+
+## Denizde Yeminler
+Abdul Vahid bin Bekir, Ebu Abdullah el-Kalansi'nin bazı yolculuklarında denize yolculuk ettiğini ve rüzgarın onu teknelerine savurduğunu anlatır. Geminin adamlarını çağırdı, yalvardı ve yemin etti: Hepimiz Allah'la bir antlaşma yaptık ve Allah bizi kurtarırsa yemin ettik. Yani sen de yemin ettin ve Allah'la bir antlaşma yaptın. O dedi ki: Ben dünyadan koptum, yeminlerle ne ilgim var? Onlar ona ısrar ettiler, o da dedi ki: Tanrı bana bir yemin etti ki, Tanrı beni fil eti yememekten kurtaracak. Dediler ki: Bu yemin nedir! Fil eti yer mi? Dedi ki: Bana olan buydu ve Allah bunu dilime yazdı. Gemi kırıldı, o ve bir grup adamı karaya çıktı, günlerce tadı almadan kaldılar. Sonra bir fil doğdu, onu aldılar, kestiler, etini yediler ve ona sundular. Dedi ki: Tanrı'ya filin etini yemeyeceğime yemin ettim ve söz verdim. Onu zorla suçladılar ama o reddetti ve sözünde kararlı kaldı. Yediler, doydular ve uyudular. Filler buzağılarını aramaya geldiler ve onu takip ettiler, ama kokusunu buzağılarının kemiklerine kadar koklamaya devam ettiler. Sonra yanına geldiler ama et kokusu bulamadılar, arka ayaklarını çevirip ona binmesini işaret ettiler, o da onlara bindi ve korku ve karanlık bir yere şiddetle yürüdüler, onu indirmekle tehdit ettiler. Atından indi. Sabah olunca siyah bir mahsul ve insanlar gördü, onu krallıklarına götürüp hikayeyi anlattılar. Dedi ki: O gece ne kadar yürüdüğünü biliyor musun? Dedi ki: Hayır. Şöyle dedi: Sekiz günlük bir yolculuk bir gecede sürdü. Onlarla kaldı, götürülüp geri dönene kadar. "Böyle orijinallerde" ifadesinin taraması, 160. sayfanın dipnotunda yer aldı ve 142. sayfadaki önceki bir çeviriye atıfta bulundu, ancak aynı olduğu doğrulanmadı ve burada da kanıtlanmadı.

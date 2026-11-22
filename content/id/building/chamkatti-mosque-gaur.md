@@ -1,0 +1,13 @@
+---
+id: building/chamkatti-mosque-gaur
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/building/chamkatti-mosque-gaur.md}
+---
+## Ikhtisar
+Masjid Jamkti terletak di sisi barat Jalan Dinajpur, di timur Bab Lakajori, yang merupakan pintu masuk timur Benteng Ghor. Bersama dengan masjid Raj Bibi dan Walton, masjid ini merupakan kelompok masjid persegi yang berkesinambungan dengan kubah. {cite:hasan-mosque-architecture-pre-mughal-bengal-1979 p. 115} Namanya terkait dengan sekelompok dervish yang menyiksa diri mereka sendiri dan dikenal sebagai 'Jamkti,' yang berarti 'pemotong kulit.' Konon Yusuf Shah membangunnya untuk menghormati seorang pria miskin yang menjadi terkenal karenanya. {cite:hasan-mosque-architecture-pre-mughal-bengal-1979 p. 115} {cite:hasan-mosque-architecture-pre-mughal-bengal-1979 p. 116} Penulis menyebutkan bahwa sultan ini, yang dikenal akan keadilan dan kebenarannya, melarang alkohol dan membangun tiga masjid di lembah tersebut: Jamkti (883 H), [[building/darasbari-mosque|Darsbari]] (884 H), dan [[building/tantipara-mosque-gaur|Tanti Para]] (885 H). {cite:hasan-mosque-architecture-pre-mughal-bengal-1979 p. 116}
+
+## Bangunannya
+Ini adalah bangunan kubus dengan aula dalam berukuran 23 kaki 8 inci di setiap arah, didukung oleh menara sudut segi delapan. Dinding batanya dilapisi batu, dan total dimensinya adalah 50 kaki 4 inci × 33 kaki 8 inci. {cite:hasan-mosque-architecture-pre-mughal-bengal-1979 p. 116} {cite:hasan-mosque-architecture-pre-mughal-bengal-1979 p. 117} Bangunan ini bergerak dari persegi ke segi delapan dengan ceruk bata. Bagian oktagonal diukir dengan enam belas sisi, dan fasadnya memiliki tiga anak tangga yang tersembunyi. {cite:hasan-mosque-architecture-pre-mughal-bengal-1979 p. 117} Ia menambahkan portiko depan selebar 9 kaki 11 inci dengan tiga lengkungan pada lahan persegi yang dimulai dengan makam Ikhlakhi dengan tiga lengkungan, dengan kubah silinder di tengah dan sisi-sisinya dengan kubah bersilang. Dekorasi fasadnya didominasi oleh ornamen rantai dan lonceng, dan corniche-nya melengkung seperti kebanyakan masjid di Bengal. {cite:hasan-mosque-architecture-pre-mughal-bengal-1979 p. 117} Lukisan ini terukir pada tahun 883 AH di British Museum, diterbitkan oleh penulis pada tahun 1966. {cite:hasan-mosque-architecture-pre-mughal-bengal-1979 p. 117} {cite:hasan-mosque-architecture-pre-mughal-bengal-1979 p. 123}

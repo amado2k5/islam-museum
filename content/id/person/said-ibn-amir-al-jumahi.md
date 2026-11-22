@@ -1,0 +1,16 @@
+---
+id: person/said-ibn-amir-al-jumahi
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/said-ibn-amir-al-jumahi.md}
+---
+## Ringkasan
+Sa'id ibn Amir ibn Hudhaym al-Jumahi al-Qurashi, salah satu sahabat Rasulullah dan salah satu komandan pasukan Iyad ibn Ghanam. Al-Baladhuri menceritakan dari al-Waqidi bahwa ia berada di sisi kanan pasukan ketika ia berbaris ke al-Jazira di tengah Sha'ban pada tahun 18 H, dengan Maysara ibn Masruq di depan dan Safwan ibn al-Mu'tal di kiri. {cite:futuh-buldan-maarif-1407 p.237} Lihat juga [[event/conquest-of-jazira|Fath al-Jazirah]].
+
+Al-Mas'udi menceritakan bahwa orang-orang Homs mengeluh kepada Umar dan menyebutkan bahwa ia tidak akan keluar kepada mereka sampai fajar dan tidak akan membalas pada malam hari. Umar mengirimkan seribu dinar kepadanya, yang ia bagikan kepada anak-anak yatim dan yang membutuhkan hingga hanya sebagian kecil yang tersisa. {cite:muruj-al-dhahab p.602-603}
+
+## Dalam program Abla Al-Kahlawi "In Love of the Chosen One"
+Abla al-Kahlawi [[person/abla-al-kahlawi|menyebut]] Saeed ibn Amir dalam episode tentang kemurahan hati dalam programnya [[work/fi-hub-al-mustapha|'In Love of the Chosen One,']] sebagai contoh kemurahan hati yang dipelajari para sahabat dari Nabi. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep20 00:06:30} Ia menceritakan bahwa Umar ibn al-Khattab mengangkatnya sebagai pengganti al-Sham, sebuah kota kaya yang menarik perhatian siapa pun yang berkunjung. Itu adalah pembicaraan pernikahan, sehingga pengantin wanitanya ingin membeli mereka dengan uang yang ia berikan untuk hidup demi hidup. Ia berkata akan menukarnya dengan perdagangan yang menguntungkan, lalu membagikannya kepada orang miskin di Levant. Setiap kali ia bertanya tentang perdagangan, ia mengatakan itu akan menguntungkan, sampai seorang kerabat menceritakan kisah itu, dan ia menangis atas pemberian itu. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep20 00:06:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep20 00:07:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep20 00:07:30}
+
+Diceritakan bahwa orang-orang Levant mengeluh kepada Umar, dan semua keluhan mereka menunjukkan bahwa dia adalah orang besar: bahwa dia tidak keluar pada malam hari karena siang untuk mereka dan malam untuk Tuhannya. Dia menunda pergi selama dua hari karena hanya memiliki dua pakaian, satu untuk dipakai dan dicuci yang lain, dan dia pingsan karena melihat Khabib ibn Adi disiksa dan dibunuh saat dia masih politeis dan tidak membelanya. Setiap kali dia menyebutnya, dia pingsan. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep20 00:08:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep20 00:08:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep20 00:09:00} Dalam riwayat Al-Mas'udi yang disebutkan di atas, orang-orang Homs mengeluh kepada Umar bahwa dia tidak akan keluar kepada mereka sampai fajar terbit dan tidak membalas pada malam hari. {cite:muruj-al-dhahab p.602-603}

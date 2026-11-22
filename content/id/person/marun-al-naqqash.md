@@ -1,0 +1,17 @@
+---
+id: person/marun-al-naqqash
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/marun-al-naqqash.md}
+---
+# Maroun al-Naqqash
+
+## Ringkasan
+Maroun Al-Naqqash — Maroun bin Elias bin Mikhail Al-Naqash — (1817–1855) adalah seorang pedagang Lebanon yang menjadi pelopor teater Arab. Ia lahir di Sidon pada 9 Februari 1817, dan keluarganya pindah ke Beirut pada tahun 1825, di mana ia belajar bahasa Arab dan sastra, hukum, serta bahasa asingnya termasuk Prancis, Italia, dan Turki, serta belajar pembukuan. Ia bekerja sebagai kepala Departemen Bea Cukai di Beirut dan menjadi anggota kamar dagangnya. Pada tahun 1846, ia melakukan perjalanan ke Italia dan mengenal teater dan opera Italia. Saat kembali, ia mengadaptasi drama Molière "The Miser" ke dalam puisi Arab, yang berjudul "The Miser": diterbitkan pada tahun 1847 dan dipentaskan pada tahun 1848, menandai pertunjukan teater pertama yang diketahui dalam bahasa Arab. Ia meninggal karena demam di Tarsus pada 1 Juni 1855, pada usia tiga puluh delapan tahun. Tidak ada artikel tentang dirinya di Wikipedia bahasa Urdu; halaman ini didasarkan pada artikel berbahasa Inggris dan Arab. {cite:wikipedia-marun-al-naqqash-en} {cite:wikipedia-marun-al-naqqash-ar}
+
+## Kayu Arab pertama
+Dengan izin dari otoritas Ottoman, Al-Naqash membangun sebuah teater di sebelah rumahnya di Beirut. Setelah "The Miser," ia menulis dua drama orisinal: "Abu al-Hasan the Fool or Harun al-Rashid," yang terinspirasi oleh Seribu Satu Malam, dipentaskan pada tahun 1850, dan "The Envious Swift," dipentaskan pada awal 1850-an, sehingga artikel bahasa Inggris menjadi 1852 dan versi Arab 1853. Aktor pertama adalah pria dari keluarganya; wanita baru mulai berakting kemudian. Saudaranya Nicolas dan keponakannya Salim al-Naqqash juga adalah orang teater: mereka membentuk kelompok dan mengandalkan teater Prancis dalam karya Arab mereka, dan setelah pindah ke Mesir, mereka berkontribusi pada kemunculan awal teater Arab di sana. Artikel Arab mencatat bahwa diskusi tersebut, sebagai tanggapan atas keberatan dari kaum konservatif dan rohaniwan, serta kecurigaan dan kesalahannya, mengubah panggungnya menjadi gereja tepat sebelum kematiannya. {cite:wikipedia-marun-al-naqqash-en} {cite:wikipedia-marun-al-naqqash-ar}
+
+## Catatan tentang agamanya
+Kedua artikel tersebut tidak mengatakan hal yang sama. Artikel berbahasa Inggris secara pribadi menggambarkannya sebagai "pedagang Maronit," dan bagian pendidikan menyebutkan ia lahir dalam keluarga Maronit, berdasarkan studi Mati Moussa tahun 1972 tentang asal-usul teater swasta Arab. Artikel berbahasa Arab sama sekali tidak menyebutnya sebagai agama; yang mencatat tindakannya adalah tindakannya: mengubah teaternya menjadi gereja di bawah tekanan dari kaum konservatif dan rohaniwan. Oleh karena itu, log datanya mencatat agamanya sebagai "tidak diketahui," sementara kedua bacaan tersebut tetap terjaga: satu teks menyebutkan afiliasi pribadinya yang tidak cukup dibahas di museum ini saja, dan masalah tersebut ditandai di sana menunggu penilaian pendiri dalam formasi berulang ini. {cite:wikipedia-marun-al-naqqash-en} {cite:wikipedia-marun-al-naqqash-ar}

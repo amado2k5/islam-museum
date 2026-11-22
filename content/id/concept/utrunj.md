@@ -1,0 +1,16 @@
+---
+id: concept/utrunj
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/utrunj.md}
+---
+
+## Alam dan Pilihan
+Pohon ini sudah dikenal luas, dan lemak yang diambil dari kulitnya kuat, sedangkan lemak yang diambil dari kulitnya lebih lemah di segala aspek {cite:canon-ibn-sina-print-v1 p.367}. Margin menjelaskan bahwa pohon ini tinggi, buahnya seperti lemon besar, dan terdiri dari empat bagian: kulit, daging, asam, dan biji {cite:canon-ibn-sina-print-v1 p.367}.
+
+## Temperamen dan Tindakan
+Kulit al-taraj panas pada yang pertama dan kering di akhir yang kedua, dan dagingnya panas pada yang pertama dan lembap di dalamnya. Beberapa bahkan mengatakan bahwa yang pertama dingin dan lembap, dan asamnya dingin dan kering pada yang ketiga, dan bijinya panas pada yang pertama dan kering pada yang ketiga {cite:canon-ibn-sina-print-v1 p.367}.
+
+## Manfaat oleh Anggota
+Kata kerja dan sifat: Dagingnya membengkak, daunnya menenangkan kembung, dan kasarnya lebih lembut dari itu. Keasamannya adalah janggut yang memecah empedu, biji dan kulitnya larut, dan jika kulitnya dimasukkan ke dalam pakaian, ia mencegah pembusukan, dan baunya menyembuhkan kerusakan udara serta wabah {cite:canon-ibn-sina-print-v1 p.367}. Dekorasi: Keasamannya menghilangkan warna dan menghilangkan melasma, dan membakar kulitnya adalah lapisan yang baik untuk kusta, dan memasaknya meningkatkan rasa {cite:canon-ibn-sina-print-v1 p.368}. Pada tumor dan jerawat: keasamannya bermanfaat untuk herpes zoster {cite:canon-ibn-sina-print-v1 p.368}. Pada mesin sendi: minyaknya bermanfaat untuk relaksasi saraf dan kelumpuhan, dan keasamannya buruk untuk saraf {cite:canon-ibn-sina-print-v1 p.368}. Di organ kepala: ia mendapat manfaat dari kekuatan, dan memasak al-taraj sangat meningkatkan rasa {cite:canon-ibn-sina-print-v1 p.368}. Di organ mata: kollel dengan asamnya, yang menghilangkan kuning di mata {cite:canon-ibn-sina-print-v1 p.368}. Di organ pernapasan dan dada: keasamannya menenangkan palpitasi panas, dan selai baik untuk tenggorokan dan paru-paru, tetapi keasamannya buruk untuk dada {cite:canon-ibn-sina-print-v1 p.368}. Di antara organ makanan: dagingnya buruk untuk perut, kembung lambat, dan sebaiknya dimakan bersama selai. Daunnya memperkuat lambung dan usus. Kasar dan kulitnya membantu pencernaan saat ditambahkan ke makanan. Selai lemon berwarna coklat untuk perut, dan air asamnya bermanfaat untuk penyakit kuning serta meredakan muntah empedu {cite:canon-ibn-sina-print-v1 p.368}. Di organ pencernaan: dagingnya menyebabkan kolik, keasamannya membatasi lambung dan mendukung diare empedu, bijinya membantu wasir, dan jus asamnya menenangkan budak betina {cite:canon-ibn-sina-print-v1 p.368}. Di antara racun: bijinya tahan terhadap semua racun, terutama racun kalajengking saat diminum dan dilapisi. Kulitnya hampir seperti itu, dan bermanfaat untuk menggigit ular dengan diminum, dan kulitnya adalah perban {cite:canon-ibn-sina-print-v1 p.368}.

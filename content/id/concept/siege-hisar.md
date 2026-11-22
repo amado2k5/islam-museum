@@ -1,0 +1,9 @@
+---
+id: concept/siege-hisar
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/siege-hisar.md}
+---
+## Ringkasan
+Pengepungan berarti memperketat pengepungan terhadap musuh dan mengepung mereka di kota, benteng, atau benteng, serta mencegah masuk dan keluar sampai mereka menyerah. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7107} Secara bulat diperbolehkan bagi Imam atau wakilnya untuk mengepung kafir di tanah dan benteng mereka, meskipun mereka termasuk wanita dan anak-anak. Nabi mengepung rakyat Taif. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7107} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7108} Ketika Imam mengepung sebuah benteng, ia harus mengambilnya dengan salah satu sifat: menyerahkan dan melindungi darah, harta benda, dan anak-anak kecil mereka, atau menghabiskan uang untuk deposit atau jizya, atau membukanya, atau melihat manfaat dari menarik diri, atau tunduk pada pemerintahan penguasa. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7108} Islam selama pengepungan sebelum menyerah melindungi darah dan harta, tetapi setelah penaklukan, Islam melindungi darah tetapi tidak kekayaan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7108} Mengenai pengepungan para pemberontak: umat Shafi'i tidak menahan makanan dan minuman dari mereka, sementara Maliki mengizinkan menahan air dan air kecuali ada anak-anak dan wanita di antara mereka. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7109} Jika para pengepung meminta uang untuk mengangkat pengepungan, imam tidak menjawab kecuali karena takut akan kehancuran umat Islam. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7109}

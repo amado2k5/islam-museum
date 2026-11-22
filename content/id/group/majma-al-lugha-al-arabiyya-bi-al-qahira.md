@@ -1,0 +1,24 @@
+---
+id: group/majma-al-lugha-al-arabiyya-bi-al-qahira
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/group/majma-al-lugha-al-arabiyya-bi-al-qahira.md}
+---
+## Ringkasan
+Akademi Bahasa Arab di Kairo didirikan melalui dekret kerajaan pada 31 Desember 1932, dan secara resmi dibuka pada 30 Januari 1934, sesuai ringkasan penelitian yang disampaikan ke museum. {cite:wikipedia-academy-of-the-arabic-language-in-cairo-en research summary} {cite:alhawary-arabic-applied-linguistics-2021 research summary} {cite:arabicacademy-gov-eg research summary} Ringkasan tersebut menyatakan bahwa karyanya disesuaikan dengan kebutuhan ilmu pengetahuan dan budaya modern, pembentukan terminologi ilmiah, serta penerbitan kamus utama. Halaman ini menyajikan isi ringkasan sebagaimana adanya, dan museum tidak membuka halaman yang menjadi dasar museum, dengan izin pendiri pada 21 November 2026.
+
+## Pendiri dan Pendiri
+Ringkasan menyatakan bahwa dekret tersebut dikeluarkan pada 31 Desember 1932, dan pembukaan dilakukan lebih dari setahun kemudian, pada 30 Januari 1934. {cite:wikipedia-academy-of-the-arabic-language-in-cairo-en research summary} {cite:alhawary-arabic-applied-linguistics-2021 research summary} Pendirian tersebut dikaitkan dengan Raja [[person/fuad-i-of-egypt|Fuad I]] dari Mesir, yang menyebutkan Perdana Menteri Ismail Sedky, Menteri Pendidikan Mohamed Helmy Issa, [[person/ahmed-lutfi-al-sayyid|Ahmed Lotfi El-Sayed]], dan Sekretaris Jenderal permanen pertama, Mansour Fahmy. {cite:wikipedia-academy-of-the-arabic-language-in-cairo-en research summary} Ringkasan tidak merinci apa yang masing-masing lakukan; halaman ini cukup dengan nama dan posisi yang disebutkan, dan belum ada catatan di museum untuk Ismail Sedky, Mohamed Helmy Issa, atau Mansour Fahmy.
+
+## Peran
+Ringkasan tersebut menggambarkan karya Akademi sebagai penyesuaian bahasa Arab dengan kebutuhan ilmiah dan budaya pada masa itu, termasuk penetapan istilah ilmiah dalam bahasa Arab. {cite:wikipedia-academy-of-the-arabic-language-in-cairo-en research summary} Disebutkan bahwa ia memimpin diskusi awal tentang reformasi tulisan Arab, termasuk identifikasi huruf p dan v untuk dua bunyi p dan v, yang tidak memiliki huruf dalam alfabet Arab. {cite:wikipedia-academy-of-the-arabic-language-in-cairo-en research summary} Referensi ini singkat, dan ringkasan tidak menjelaskan apa yang akhirnya diputuskan atau apa yang diadopsi, sehingga harus dibaca sebagai fakta bahwa Akademi adalah pihak dalam diskusi ini.
+
+## Kamus dan Publikasi
+Ringkasan menyebutkan kamus utama kompleks ini sebagai "Al-Mu'jam Al-Kabir" dan "Al-Mu'jam Al-Waseet." {cite:wikipedia-academy-of-the-arabic-language-in-cairo-en research summary} Museum memiliki catatan untuk masing-masing: [[work/al-mujam-al-kabir-majma-al-qahira|Al-Mu'jam Al-Kabir]] dan [[work/al-mujam-al-wasit|Al-Mu'jam Al-Waseet]]. Ringkasan menyebutkan bahwa situs resmi kompleks adalah salah satu referensinya, dan tidak menyebutkan jurnal, konferensi, atau jumlah volume Al-Mu'jam Al-Kabir milik Akademi. {cite:arabicacademy-gov-eg research summary} Kamus umumnya memiliki browser khusus di museum.
+
+## Hubungan dengan Arabisasi, Terminologi, dan Persatuan
+Istilah ilmiah ini merupakan hasil dari akademi yang muncul dalam ringkasan, dan aspek praktis dari isu Arabisasi, yaitu membuat bahasa Arab mampu menyampaikan makna ilmiah modern. {cite:wikipedia-academy-of-the-arabic-language-in-cairo-en research summary} Pada tahun 1971, akademi ini, bersama dengan akademi Baghdad dan Damaskus, termasuk di antara pendiri [[group/ittihad-al-majami-al-lughawiyya-al-ilmiyya-al-arabiyya|Persatuan Akademi Linguistik Ilmiah Arab]], yang pertama kali dipimpin [[person/taha-hussein|oleh Taha Hussein]]. {cite:wikipedia-union-of-arab-language-academies-ar research summary} [[group/majma-al-lugha-al-arabiyya-bi-dimashq|Akademi Damaskus]] lebih tua dari Kairo, seperti yang dijelaskan dalam ringkasan, diikuti [[group/al-majma-al-ilmi-al-iraqi|oleh Akademi Ilmiah Irak]]. Konteks yang lebih luas [[concept/tarikh-al-lugha-al-arabiyya|mencakup sejarah bahasa Arab]] dan [[concept/al-alam-al-arabi|dunia Arab]].
+
+## kecuali halaman ini memberitahunya
+Sumber halaman ini adalah ringkasan penelitian yang diajukan ke museum berdasarkan Wikipedia bahasa Inggris dan situs resmi Akademi. Museum tidak membuka halaman-halaman tersebut, dan pendiri mengizinkan penggunaan abstrak tanpa verifikasi ulang pada 21 November 2026. Di sini, tidak diketahui apa keputusan Akademi terkait dua surat tersebut, nama anggotanya, karya para pemimpinnya, maupun tanggal publikasi kamus. Semua hal di atas dikaitkan dengan abstrak.

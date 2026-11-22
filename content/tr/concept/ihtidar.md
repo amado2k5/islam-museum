@@ -1,0 +1,12 @@
+---
+id: concept/ihtidar
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/ihtidar.md}
+---
+## Özet
+Ölmek, ölümün varlığıdır ve ölmekte olan kişi bunu ölüm bağlamında kabul eden kişidir. Belirtileri arasında gevşemiş ayaklar, eğri burun ve sarkık şakaklar bulunur. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1726} Ölmekte olan kişinin meşru tavsiyelerinden biri, ailesine hazırlık, gömme ve yeniliklerden kaçınma konusunda Sünnet'i takip etmelerini tavsiye etmektir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1727} Hukukçular, Kur'an'ın ölüm sırasında okunması konusunda farklı görüşlere sahiptir: El-Nevavi Kur'an'ı tavsiye ederken, Malikiler ölüm üzerinde, sonrasında ve mezar evlerinde ondan hoşlanmazlardı. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1728} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1729}
+
+## Ahmed Farid'in "Tekne" derslerinde
+[[work/the-boat-ahmad-farid|"El-Karib"te]] Ahmed Farid, meleklerin Allah'ın egemenliğini kabul edenlerin üzerine inip sonra kararlı kalarak onları rahatlattığı ve korku ile kederi ortadan kaldırdığı ayetle ilgili iki [[person/ahmad-farid|görüşü belirtir]] : bu ayet her zaman üzerlerine iner ya da ölümde, kul zayıf ve bu dünyadan ve ahiretten en çok korktuğunda, geride bıraktıklarından en çok üzülürken, böylece kalbinden gelecek korkusunu ve çocukları, serveti ve dünyevi yaşamı için üzüntüsünü kaldırır. {cite:assabile-ahmad-farid the-boat/ep06 00:03:30} {cite:assabile-ahmad-farid the-boat/ep06 00:04:00} {cite:assabile-ahmad-farid the-boat/ep06 00:04:30} Onun rivayetinde, bir inananın ruhu, Allah'ın iznini bildirdiğinde, su taşıyanın ağzından bir damla gibi akar, güneş ışınlarından daha parlak hoş bir koku ve ışık taşır. İnkar ve kötü ruhlar ise, hoşnutsuzluk müjdesi olduğunda bedende dağılır, melekler ona vurur ve gitmesini emreder. {cite:assabile-ahmad-farid the-boat/ep07 00:01:00} {cite:assabile-ahmad-farid the-boat/ep07 00:01:30} İki ruhun bedenin yıkanmasına tanık olduğunu ve cenaze sırasında konuştuğunu söyler; ilki öncelik ister, ikincisi keder ister. Bu yüzden cenazeyi hızlandırmak Sünnet'ti. {cite:assabile-ahmad-farid the-boat/ep07 00:01:00} {cite:assabile-ahmad-farid the-boat/ep07 00:02:00} {cite:assabile-ahmad-farid the-boat/ep07 00:02:30}

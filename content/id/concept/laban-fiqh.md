@@ -1,0 +1,25 @@
+---
+id: concept/laban-fiqh
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/laban-fiqh.md}
+---
+## Ringkasan
+Dalam linguistik, susu adalah cairan putih yang ditemukan pada betina manusia dan hewan, dan merupakan nama genus jamak dari 'alban'; kolostrum adalah bentuk pertamanya saat lahir, dan susu dari setiap pohon memiliki air secara analogi {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13567}.
+
+## Yang murni dan yang tidak murni dari susu
+Susu dari hewan hidup yang dimakan daging, seperti sapi dan domba, adalah murni secara bulat, seperti yang dikatakan Allah dalam Surah An-Nahl (ayat 66) tanpa teksnya dikutip di sini {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13567}. Mereka berbeda pendapat mengenai produk susu berdasarkan perbedaan mereka mengenai izin makan hewan: susu kuda murni menurut Shafi'i, Hanbali, Abu Yusuf, dan Muhammad; menurut Maliki, dianggap tidak murni menurut daging {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13567} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13568}; dan susu keledai domestik dianggap tidak murni menurut Maliki, Syafi'i, dan Hanbali, karena dilarang dimakan {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13568} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13569}. Susu dari manusia hidup secara bulat murni, dan susu manusia mati murni menurut Hanafi dan Shafi'i, dan tampaknya menurut Hanbali, dan tidak murni atau murni menurut Malikis {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13569}. Susu dari hewan mati dianggap tidak murni menurut Malikis dan Shafi'i, serta pandangan yang tampak dari aliran Hanbali, dan itu murni menurut Abu Hanifa {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13568}.
+
+## Menjual susu
+Menjual susu hewan yang dimakan setelah diperah diperbolehkan secara bulat. Adapun penjualan susu dalam ambing, mayoritas Hanafi, Shafi'i, dan Hanbal melarangnya karena kualitas dan kuantitas yang kurang serta pencampuran susu. Menurut hadits Ibn Abbas yang ditangguhkan: Ia melarang menjual wol di punggung domba atau susu dalam ambing; Malik mengizinkannya karena susu direndam dengan barang-barangnya selama periode yang diketahui, begitu juga Al-Hasan dan Sa'id ibn Jubayr {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13569} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13570}. Menjual susu manusia diperbolehkan menurut Malik dan Shafi'i, tetapi pandangan paling benar adalah menurut Hanbali, dan menurut Hanafi serta kelompok Hanbali, itu tidak diperbolehkan karena bukan untuk uang, dan Ahmad {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13570} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13571} melarangnya.
+
+## Tangga dalam susu
+Salam dalam susu diperbolehkan menurut Shafi'i, tetapi yang paling benar adalah menurut Hanbali, dan diwajibkan mencantumkan spesies, jenis, dan padang rumput hewan; sah untuk ukuran dan berat. Ahmad menyetujui salam jika itu ukuran atau berat {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13571}. Salam berlaku di ladang pemerahan menurut Hanbal meskipun mengandung sedikit air, tetapi menurut Shafi'i, tidak berlaku untuk susu asam {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13571}. Malikis mengizinkan salam dalam susu, tetapi laporannya berbeda menurut Hanafi {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13571} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13572}.
+
+## Memanfaatkan susu sapi orang lain
+Syafi'i dan Malikis berpendapat dan narasi Ahmad bahwa siapa pun yang melewati ternak orang lain tanpa dipaksa hanya boleh memerahnya dengan izin pemiliknya, berdasarkan hadits Ibn Umar: Tidak ada yang memerah susu ternak seseorang tanpa izin {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13571} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13572}. Dalam riwayat lain dari Ahmad, yang merupakan pandangan Maliki, diperbolehkan bagi mereka untuk memerah susu dan minum tanpa membawa apa pun, berdasarkan hadits Samura tentang meminta izin, kemudian memerah susu dan minum jika tidak ada orang di sana {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13572}. Ibn Hajar mengizinkan banyak generasi awal untuk makan dan minum secara mutlak {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13572}, dan bagi yang membutuhkan, diperbolehkan tanpa perselisihan menurut Malikis {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13572}.
+
+## Menjual susu bersama
+Produk susu adalah riba, sehingga tidak diperbolehkan menjual sebagian dari produk tersebut satu sama lain jika jenis yang sama, kecuali misalnya, untuk transaksi tangan kosong. Mayoritas Hanafi dan Al-Adhar, menurut Shafi'i, dan salah satu narasi di antara Hanbalis adalah bahwa produk susu adalah genus: susu domba dan kambing adalah satu jenis, dan susu sapi serta kerbau adalah satu jenis. Diperbolehkan menjual susu sapi dengan susu domba secara berbeda; pandangan Maliki adalah satu narasi di antara Hanbalis dan kebalikan dari pandangan yang lebih maju di antara Shafi'i, yang merupakan jenis yang sama {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13572}.
+

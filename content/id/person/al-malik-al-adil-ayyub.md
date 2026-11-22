@@ -1,0 +1,36 @@
+---
+id: person/al-malik-al-adil-ayyub
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/al-malik-al-adil-ayyub.md}
+---
+## Ringkasan
+Al-Malik al-Adil Sayf al-Din Abu Bakr ibn Ayyub, saudara Salah al-Din. Ketika al-Malik al-Aziz meninggal di Mesir pada tahun 595 AH dan putranya al-Mansur didirikan, al-Adil memerintah Mesir, dan putranya [[person/al-malik-al-kamil|al-Malik al-Kamil]] menetap di sana. {cite:tarikh-khulafa-minhaj-1434 p. 694}
+
+Ia meninggal pada tanggal tujuh Jumada al-Akhirah tahun 615 H di Alaqeen. Ia berada di Nuba Damietta, berusia tujuh puluh lima tahun dan bulan, dan dimakamkan di makamnya di Damaskus. {cite:kamil-ibn-al-athir p. 393-394}
+
+Ibn al-Athir melaporkan bahwa [[person/al-malik-al-afdal-ali|Al-Afdal]], keponakannya, tidak memiliki kerajaan kecuali mereka yang adil mengambilnya darinya. Ia membagi tanah di antara putra-putranya selama hidupnya, masing-masing tetap berada di kerajaannya sendiri. {cite:kamil-ibn-al-athir p. 393-394}
+
+## Di Al-Maqrizi
+Al-Maqrizi menyebutkan bahwa putranya Al-Kamil berada di Al-Adiliyya dekat Damietta, dan ketika ia mengetahui kematian ayahnya, ia menjadi merdeka di Kerajaan Mesir. {cite:khitat-maqrizi-1998 p.643}
+
+Disebutkan bahwa Al-Adil meninggalkan Marj al-Safar, jatuh sakit, dan meninggal pada tanggal tujuh Jumada al-Akhirah. Putranya, Raja Isa, menyembunyikan kematiannya, membawanya dengan kandang ke Damaskus, menguburkannya di bentengnya, lalu memindahkannya ke sekolah al-Adiliyya di Damaskus. {cite:khitat-maqrizi-1998 p.643}
+
+Dalam tabel pajak, terdapat koleksi yang memuat namanya, "Diwan Al-Adly Al-Saeed." {cite:khitat-maqrizi-1998 p.291}
+
+## Ensiklopedia Islam: Apa yang dinyatakan dalam artikel
+Ensiklopedia Islam (edisi kedua, tanpa tanda tangan) menggambarkan orang adil pertama, Abu Bakr Muhammad ibn Ayyub, Sayf al-Din ('Sayf al-Din', disebut Safadin oleh para Salib), saudara Saladin, pembantunya dan ahli waris spiritual. Ia lahir pada Muharram 540 H (Juni–Juli 1145 M), atau pada 538 (1143–1144 M) menurut catatan lain, di Damaskus atau Baalbek. Ia menemani Salah al-Din ke Mesir dalam kampanye ketiga Shirkuh pada 564 (1169 M). Setelah kematian Nur al-Din pada 569 (1174 M), ia memerintah Mesir selama salah al-Din berulang kali absen di Levant dan disebut 'Sultan Mesir yang sejati.' Ia mengambil alih Aleppo pada tahun 579 (1183 M) dengan otoritas penuh, kemudian Salah al-Din mengembalikannya kepada al-Zahir pada tahun 582 (1186 M). {cite:encyclopaedia-of-islam-2 vol. 1 p. 216}
+
+Ia memerintah Karak dan Balqa selama kampanye Hijrah 583–584 dan Perang Salib berikutnya, ikut serta dalam penaklukan Palestina selatan, memainkan peran penting dalam negosiasi dengan Richard the Lionheart, dan bahkan dikatakan telah mengusulkan untuk menikahi saudara perempuan Raja Richard Joan. Pada tahun 588 (1192 M), ia dipindahkan ke Jazira dan Diyarbakir. Setelah kematian Saladin pada tahun 589 (1193 M), ia mengalahkan Al-Afdal, yang menjabat sebagai wakil di Damaskus, dan menyatakan Sultan atas Mesir dan Levant pada tahun 596 (1200 M). Al-Zahir mengakuinya pada tahun 598 (1202 M) dan dikonfirmasi oleh khalifah pada tahun 604 (1207 M), membagi provinsinya kepada putra-putranya: Al-Kamil di Mesir, Al-Mu'azzam di Damaskus, Al-Awhid dan Al-Ashraf di Al-Jazira, serta Diyarbakir. {cite:encyclopaedia-of-islam-2 vol. 1 p. 217}
+
+Ia mempertahankan persatuan kerajaan Salah al-Din melawan Perang Salib yang diperbarui, mempromosikan agama dan ilmu pengetahuan, membuat perjanjian dagang dengan negara-negara Italia, dan menjaga perdamaian dengan para Tentara Salib lokal melalui gencatan senjata berturut-turut. Ketika Perang Salib Kelima tiba pada tahun 614 (1217 M), ia pindah ke Levant untuk membantu Al-Mu'azzam dan menyiapkan persediaan untuk Damietta. Ia kemudian jatuh sakit dan meninggal di Alaykin di luar Damaskus pada 7 Jumada al-Awwal 615 (31 Agustus 1218 M). {cite:encyclopaedia-of-islam-2 vol. 1 p. 217}
+
+## Untuk kuncup
+Raja yang adil Sayf al-Din Abu Bakr ibn Ayyub, saudara Salah al-Din, membantunya. Ia memerintah Mesir selama ketidakhadiran saudaranya, dan ketika keponakannya al-Aziz meninggal pada tahun 595 H, ia memerintah Mesir, kemudian putranya al-Kamil tinggal di sana, membagi tanah di antara anak-anaknya selama hidupnya. Ia meninggal pada tahun 615 H. di Al-'Aqayn dan dimakamkan di Damaskus.
+
+## Untuk penjelajah
+Raja yang adil Sayf al-Din Abu Bakr Muhammad ibn Ayyub, saudara Salah al-Din—yang disebut Safadin oleh para Tentara Salib—lahir pada Muharram 540 H. Ia menemani Salah al-Din ke Mesir dalam kampanye ketiga Shirkuh pada 564 H. Setelah kematian Nur al-Din, ia memerintah Mesir tanpa kehadiran saudaranya sampai ia disebut 'Sultan Mesir yang sejati.' Ia mengambil alih Aleppo pada tahun 579 H, lalu mengembalikannya kepada Salah al-Din al-Zahir pada tahun 582 H. Ketika al-Aziz meninggal pada tahun 595 H, dan putranya al-Mansur didirikan, al-Adil memerintah Mesir, lalu putranya al-Kamil menetap di sana. Ibn al-Athir melaporkan bahwa al-Afdal tidak memerintah kerajaan kecuali ia mengambilnya darinya, dan ia membagi tanah di antara putra-putranya selama hidupnya, sehingga masing-masing tetap di kerajaannya sendiri. Ia meninggal pada tanggal tujuh Jumada al-Akhirah tahun 615 H di Al-'Alaqin pada usia tujuh puluh lima tahun. Ia dibawa dalam pemindahan ke Damaskus, dimakamkan di bentengnya, lalu dipindahkan ke sekolahnya yang sesungguhnya; dalam tabel pajak, terdapat koleksi yang disebut 'Diwan Adili Al-Saeed.'
+
+## Untuk Pembelajar
+Raja yang adil Sayf al-Din Abu Bakr Muhammad ibn Ayyub, saudara Salah al-Din, pendamping spiritualnya, dan ahli warisnya—disebut Safadin oleh para Salib—lahir pada Muharram 540 H di Damaskus atau Baalbek, dan beberapa orang mengatakan 538 H. Ia menemani Salah al-Din ke Mesir dalam kampanye ketiga Shirkuh pada 564 H. Setelah Nur al-Din meninggal pada 569 H, ia memerintah Mesir selama saudaranya sering absen di Levant, hingga ia disebut 'Sultan Mesir yang sejati.' Ia mengambil alih Aleppo pada tahun 579 H dengan otoritas penuh, kemudian Salah al-Din mengembalikannya kepada al-Zahir pada tahun 582 H. Ketika Raja al-Aziz wafat di Mesir pada tahun 595 H dan putranya al-Mansur didirikan, al-Adil memerintah Mesir, diikuti oleh putranya al-Kamil — dan menurut al-Maqrizi, al-Kamil berada di Adiliya dekat Damietta, sehingga ia menjadi merdeka dari kerajaan setelah mendengar kematian ayahnya. Ibn al-Athir melaporkan bahwa Al-Afdal, keponakannya, tidak memiliki kerajaan kecuali ia mengambilnya darinya, dan ia membagi tanah di antara putra-putranya selama hidupnya, masing-masing tetap di kerajaannya sendiri. Ia meninggal pada tanggal tujuh Jumada al-Akhirah tahun 615 H di Al-'Alaqin — ia melakukan perjalanan dari Marj al-Safar dan jatuh sakit — saat berada di wilayah Damietta pada usia tujuh puluh lima tahun dan bulan; putranya al-Mu'azzam Isa menyembunyikan kematiannya, membawanya dalam wadah ke Damaskus, menguburnya di bentengnya, lalu memindahkannya ke sekolahnya yang seharusnya; dalam tabel pajak, diwan 'Al-Adli Al-Saeed' dinamai namanya.

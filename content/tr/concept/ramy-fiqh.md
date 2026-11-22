@@ -1,0 +1,9 @@
+---
+id: concept/ramy-fiqh
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/ramy-fiqh.md}
+---
+## Özet
+Dilde 'al-ram' 'kadf' ve 'al-liqa'dır; hukukçular bunu Jamarat'ı taşlamak için, 'ram' ise avcılık ve cihadda ok atmak, 'rami' ise atmak anlamına gelir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8996} Atılan cemarat üçerdir: küçük veya en alt olan Hayf Camii'nin yanında, sonra ortadaki ve ardından Mina'nın sonunda yer alan büyük Akabe Cema'si. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8996} Cemaratın taşlanması, sünnet ve uzlaşmaya göre Hac'ın bir yükümlülüğüdür ve birçok hadiste bahsedilir; taşlamadan önce katliamdan önce taşlanma emri de dahil. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8996} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8997} Geçerliliği için, hac yolculuğunun Hac öncesi ve Arafat'ta dururken gerçekleşmesi ve atmanın çoğunluk için taş olarak kabul edilmesi gerekmektedir. Hanafiler toprak, toprak ve sıva gibi yeryüzü türlerine izin vermiş ve genişletmiştir. Metal, altın veya gümüşü geçerli saymazlar ve her dağılmış taş için yedi çakıl taşı olması gerekir ve taşlar bir çakıl yığınına düşer. hedef amaçlanmıştır, o zaman elle atmak ya da yerleştirmek yeterli değildir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8997} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8998} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8999} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9000} Cemarat'ın Taşreeq günlerinde çoğunluğa göre, Kurban Günü eylemlerinin sırası ise çoğunluğa göre düzenlenmelidir: taşlama, sonra kesim, sonra tıraş etme, sonra Tewaf al-Ifada. Şafiilere göre bu Sünnettir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9001} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9011}

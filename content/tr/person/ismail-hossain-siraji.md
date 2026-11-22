@@ -1,0 +1,34 @@
+---
+id: person/ismail-hossain-siraji
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/ismail-hossain-siraji.md}
+---
+## Özet
+Syed Ismail Hussain Siraji (1880–1931), günümüz Bangladeş'i sınırları olan Sirajganj'dan Bengalli bir yazar ve şairdi. Bengal'in Müslüman Rönesans döneminde eğitimi teşvik ettiği ve İslami mirası yücelttiği en önde gelen yazarlardan biri olarak kabul edilir. {cite:wikipedia-ismail-hossain-siraji-en} {cite:banglapedia-ismail-hossain-siraji} Yazılarının ve konuşmalarının ana konusu Bengal'deki sonraki Müslüman topluluğun uyanışı olan bir vaiz olarak ün kazandı. Bengal'e Hilafet hareketinin tanıtılmasına önemli katkı sağladı ve Balkan savaşları sırasında Osmanlı İmparatorluğu'na tıbbi malzeme sağladı. {cite:wikipedia-ismail-hossain-siraji-en}
+
+## Erken yaşamı ve eğitimi
+İngilizce makaleye göre, 13 Temmuz 1880'de Babna bölgesinin Sirajganj bölgesindeki Diyar Dhangara bölgesindeki Bani Konja'da doğdu; Bangladeş ise 1880 yılında yerleşti ve doğum yerine duyduğu sevgiyle 'Saraji' ekini ekledi. {cite:wikipedia-ismail-hossain-siraji-en} {cite:banglapedia-ismail-hossain-siraji} Seyyid ailesinden geliyordu; bu ailenin selefi Seyyid Ali Azam, İran'ın Şiraz'ından Bengal'e göç etmiş ve Babür sarayında beğeni kazanmıştı. Birçok soyundan gelenler Yunan tıbbı uygulayıcılarıydı. {cite:wikipedia-ismail-hossain-siraji-en} Babası Mawlawi Syed Abdul Karim Khandkar (1856–1924) Yunan tıbbı yapıyordu ancak varlıklı değildi. İngilizce makalede onun alt polis müfettişi olduğu ve annesi Noor Jahan Hanum'un Peştun kökenli olduğu belirtilmektedir. {cite:wikipedia-ismail-hossain-siraji-en} {cite:banglapedia-ismail-hossain-siraji}
+
+Çocukluğunda yerel ilkokulda Arapça ve Farsça öğrendi, ardından Jinan Dayini Junior English Ortaokulu'nda eğitim gördü. Mali nedenlerle üniversiteye gidemedi, ancak evde Sanskritçe dilbilgisi, edebiyatı ve sözlükleri okudu, Shibli Al-Numani ve Muhammad Iqbal gibi Hintli Müslüman yazarların kitaplarını okudu ve onlardan büyük ölçüde etkilendi. {cite:wikipedia-ismail-hossain-siraji-en} {cite:banglapedia-ismail-hossain-siraji}
+
+## Yolculuk
+Kamuya açık konuşmalar yazarak ve yaparak geçinir, vaiz olarak büyük ün kazanır ve mezhepçi olmadan Müslüman çıkarlarını savunurdu; aksine, kaynakların eşit paylaşımına dayalı Hindu-İslam birliği inancıdır. {cite:banglapedia-ismail-hossain-siraji} {cite:wikipedia-ismail-hossain-siraji-en} On dokuz yaşında ilk şiir kitabı 'Anal Prabhaa'yı (İngilizce makale 1899'da yürüyüş metninde ve 1900'de burada bahsedilen eserler listesinde geçer), ardından 1908'de yeniden yayımlandı. İsyanla suçlandı, kitabı yasakladı ve Mart 1910'da hapse atıldı. Güney Asya'da Britanya Rajı'ndan bağımsızlık çağrısı yaptığı için hapsedilen ilk şair olduğu ve hayatı boyunca 144. madde uyarınca 82 emir verildiği söylenir. {cite:wikipedia-ismail-hossain-siraji-en}
+
+1912'de Balkan savaşlarında Osmanlı kuvvetlerine tıbbi yardım sağlayan bir heyete katıldı ve ertesi yıl Bengal'e döndü. 1921'de Hindistan Bilginler Derneği'nin bir şubesi haline gelen Bangla Alimler Derneği'nin (Anjman Ulama-e-Bengal) kurucuları arasındaydı. 1930'da sivil itaatsizlik hareketine katılımı nedeniyle görevden uzaklaştırıldı. {cite:wikipedia-ismail-hossain-siraji-en} Hindistan Ulusal Kongresi, Tüm Hindistan Müslüman Derneği, Bengal Bilginler Derneği, Hint Bilginler Derneği, Swarajya Partisi ve Köylüler Komitesi gibi birçok parti ve organizasyonda aktifti. {cite:banglapedia-ismail-hossain-siraji} Sirajganj çiftçilerini toprak sahibi ve tefecilik karşıtı çizgilerle harekete geçirdi ve Bengal Müslüman Rönesansı'nın önde gelen isimlerinden biriydi. Müslümanları İngilizce öğrenmeye ve yükseköğrenim görmeye teşvik etti, böylece statülerini geri kazandılar ve kadınların eğitimini destekledi. {cite:banglapedia-ismail-hossain-siraji} {cite:wikipedia-ismail-hossain-siraji-en}
+
+## Yayınlar
+'Islam', 'Islam Pratcharak', 'Prabasi', 'Pratsharak', 'Kohinoor', 'Sultan', 'Mohammadi', 'Saugat', 'Naba Jog' ve 'Naba Noor' gibi birçok çağdaş dergide yazılar yazdı. Yazılarının çoğu İslami gelenekleri, kültürü ve mirası yüceltmiş, modern eğitim ve doğru İslami öğrenme yöntemleri çağrısında bulunmuştur. {cite:banglapedia-ismail-hossain-siraji} {cite:wikipedia-ismail-hossain-siraji-en} Şiirsel eserleri arasında şunlar bulunmaktadır: 'Anal Prabha', 'Akanakha' (1906), 'Ochkhas' (1907), 'Udbodhan' (1907), 'Naba Odibna' (1907), 'Spain Bijoy Kapiya' (1914), 'Sangeet Sanjibani' (1916), 'Premanjali' (1916) ve 'Mahashikha Mahakapiya' (ölümünden sonra 1969 ve 1971'de yayımlandı). {cite:banglapedia-ismail-hossain-siraji} {cite:wikipedia-ismail-hossain-siraji-en}
+
+Romanları arasında şunlar yer alır: 'Ray Nandini' (1915), 'Tara Bai' (1916), 'Fairuza Begum' (1918), 'Nooruddin' (1919), İngilizce deneme 'Amy G. Tomar' (1917), 'Torushku Brumon' (1913), 'Sree Shikha' (1907) kadın eğitimi üzerine ve 'Sagati Prem' (1916). {cite:banglapedia-ismail-hossain-siraji} {cite:wikipedia-ismail-hossain-siraji-en}
+
+## Pozisyonlar ve Eleştiriler
+Bu bölüm, müzeden alınan bir yargı olarak değil, kaynaklardan alıntılanan pozisyonların sunumu olarak okunmaktadır. Siraji şiiri, Shibli al-Numani ve Muhammad Iqbal gibi, bir yandan Hint Müslüman topluluğunu uyandırmak ve diğer yandan Hindu-Müslüman ilişkilerinin bozulmasını durdurmak için dini ve seküler düşüncenin uyumlaştırılmasının gerekliliğini vurgulamıştır. {cite:banglapedia-ismail-hossain-siraji} İngilizce makaleye göre, görüşleri başlangıçta kabul görmemiştir, çünkü bazen konuşmaları sırasında nesneler fırlatmıştır. {cite:wikipedia-ismail-hossain-siraji-en} Hiçbir kaynak onun mehhabını adlandırmamıştır, bu nedenle medhhab alanı veri kayıtlarında bilinmemektedir. {cite:wikipedia-ismail-hossain-siraji-en} {cite:banglapedia-ismail-hossain-siraji}
+
+## Ölüm ve Etkisi
+17 Temmuz 1931'de, bağımsızlıktan on altı yıl önce, Bengal başkanlığında vefat etti. {cite:wikipedia-ismail-hossain-siraji-en} 5 Mart 1948'de Hussain Shahid Suhrawardy, Sirji'nin "en zorlu yolları tek başına yürüdüğünü, uyuyan bir ulusun lekelenip geçmiş ihtişamına uyanıp lekelenmesine izin vermediğini, kitabının Prabha elektriğine ulaştığını, gençken kanımızı çektiğini" söyledi. {cite:wikipedia-ismail-hossain-siraji-en} Geride bir eş, beş oğul ve iki kız bıraktı ve Muhammad Inam-ul-Haq ile Muhammad Najibur Rahman gibi Bengal Müslüman yazarlarının sonraki neslini etkiledi. {cite:wikipedia-ismail-hossain-siraji-en}
+
+## Kaynaklar
+- Yukarıda belirtilen kaynaklar `data/source/`.
+- Makalenin sonraki çevirileri ve düzenlemeleri, net güncelleme tarihleriyle periyodik olarak gözden geçirilmelidir.

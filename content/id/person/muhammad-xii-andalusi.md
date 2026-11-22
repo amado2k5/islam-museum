@@ -1,0 +1,22 @@
+---
+id: person/muhammad-xii-andalusi
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/muhammad-xii-andalusi.md}
+---
+## Ikhtisar
+Muhammad ibn Ali, juga dikenal sebagai Abu Abdullah, adalah putra Abu al-Hasan Ali ibn Sa'd ibn Ali ibn Yusuf ibn Muhammad al-Ghani Billah al-Nasri dari Banu al-Ahmar al-Ansari al-Khazraji, yang dikenal sebagai Abu Abdullah, dan orang Spanyol memanggilnya Bu Abdal Boabdil. Menurut al-Zarkali, ia adalah raja terakhir al-Andalus. Dilaporkan dari al-Maqri bahwa ia adalah sultan yang kekuasaannya diambil alih Granada dan negaranya mengakhiri kerajaan Islam di al-Andalus. Ia menyebutkan kematiannya pada tahun 940 H, yang bertepatan dengan tahun 1533 M, tetapi tidak menyebutkan tahun kelahirannya {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 290}.
+
+## Biografinya
+Ia lahir di Granada dan dibesarkan di bawah asuhan ayahnya, Abu al-Hasan al-Ghani Billah, dan menyaksikan beberapa peristiwa, namun ditangkap oleh Spanyol pada tahun 888 H. Ayahnya buta, sehingga ia melemahkan administrasi kerajaan, sehingga ia membawa seorang saudara bernama Muhammad ibn Sa'd, yang dikenal sebagai al-Zaghl, dan turun tahta sebelum tahun 890 H. Ketika orang Spanyol melihat kekuatan al-Zaghl, mereka sepakat dengan keponakannya Abu Abdullah, yang sedang dalam tahanan mereka, untuk membebaskannya, dan ia serta mereka yang berada di bawah pemerintahannya akan menjalin gencatan senjata dan damai dengan mereka {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 290}.
+
+Ia pergi ke Balash, di mana rakyatnya mematuhinya pada tahun 891 H, lalu maju ke pinggiran Bayazin dekat Granada, di mana orang-orang di sana mendukungnya, dan pertempuran pecah antara ia dan pamannya al-Zaghl. Abu Abdullah meminta bantuan dari orang Spanyol sambil berdamai dengan mereka, yang mendukungnya. Zaghl terpaksa meninggalkan Granada untuk mengusir penjajah Spanyol dari beberapa negeri terdekat, sehingga Abu Abdullah masuk dan rakyatnya bersumpah setia kepadanya pada tahun 892 H. Urusan al-Zaghl berakhir dengan orang Spanyol berdamai dan melayani mereka, lalu ia berlayar ke Oran dan menetap di Tlemcen. Al-Maqri mengatakan keturunannya di sana dikenal sebagai Banu Sultan al-Andalus {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 290}.
+
+## Jatuhnya Granada dan Pengasingannya
+Orang Spanyol meminta untuk membentuk pasukan di Alhambra dekat Granada, tetapi mereka dicegah masuk, sehingga mereka berbalik melawannya dan memutuskan perdamaian dengan mereka. Ia melawan mereka pada tahun 895 H, dan perang berlangsung selama sekitar dua tahun. Granada dikepung, dan rakyatnya hancur, sehingga para pemimpin mereka menyarankan agar ia berdamai dan mengamankan musuh dari Alhambra. Ia menandatangani perjanjian damai yang terdiri dari 67 pasal, sebagian besar menurut Al-Zarkali terdapat di bagian kedua Nafh al-Tib, halaman 1268. Musuh menduduki Alhambra dan menguasai seluruh Granada, lalu memerintahkannya mundur ke desa Andrash, salah satu desa Al-Bashrat, di mana ia pindah bersama keluarga, pelayan, dan uangnya pada tahun 897 H. {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 pp. 290–291}.
+
+Al-Zarkali menyebutkan bahwa Raja Ferdinand menunjukkan bahwa Abu Abdullah meminta izin ke tanah Adwa, sehingga ia menulis surat kepada penguasa Almeria untuk mengirimnya ke mana pun ia mau. Ia kemudian berlayar dari Udhra, menetap di Melilla, dan menetap di kota Fez. Dilaporkan dari penulis 'Laqt al-Fara'id' bahwa musuh memasuki Granada pada tanggal kedua Rabi' al-Awwal tahun 897 H, dan Sultannya pergi dan menetap di Fez {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 pp. 290–291}.
+
+## Apa yang dikatakan dalam kesimpulannya
+Al-Zarkali menceritakan dari Al-Maqri, yang meninggal pada tahun 1041 H, bahwa ia tiba di Fez bersama keluarga dan putra-putranya, membangun beberapa istana di sana dengan gaya arsitektur Andalusia, dan bahwa Al-Maqri melihatnya dan masuk ke sana, serta keturunannya di Fez hingga tahun 1037 H mengambil dari sumbangan orang miskin dan membutuhkan. Ia mengutip Shakib Arslan yang mengatakan bahwa negara Islam di Al-Andalus didirikan selama tujuh ratus tujuh puluh delapan tahun sejak kekalahan Dhuriq di tepi Lembah Besar hingga penyerahan Granada {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 291}.

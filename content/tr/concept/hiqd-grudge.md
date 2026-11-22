@@ -1,0 +1,9 @@
+---
+id: concept/hiqd-grudge
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/hiqd-grudge.md}
+---
+## Özet
+Nefret, dilde kin ve nefrete çekilmek, kalpte düşmanlık tutmak, fırsatını beklemek, düşmanlıktan dolayı insanlara kötü düşünceler beslemek ya da intikam aramak anlamına gelir. Gerçekte, bastırılan öfkedir çünkü sahibi hemen zevk alamıyor, bu yüzden iç benliğine geri dönüp kin buluyor, nefrete dönüşüyor. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7172} Kıskançlıktan, kıskançlıktan kutsamanın alınmasını ya da elinden alınmasını istemekten ve kaynağı olan öfke ile ayırt edilir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7172} Hükmetmesi amacına bağlıdır: eğer haksız kıskançlık ve kin kaynaklıysa, İslam hukukunda suçludur, çünkü düşmanlık ve düşmanlık yaratır. Kur'an, inananların birliğine öfkeyle parmaklarını ısıran münafıkları kınamıştır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7173} Bu bölümdeki hadisler arasında 'Mümin, kin dolu değildir' adlı hadis vardır; el-Iraki, bunun Peygamber'in davasından kaynaklanmadığını, bunun yerine el-Fudayl bin İyad'ın sözünden geldiğini söylemiştir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7173} Şifalar arasında hediyeler ve el sıkışmalar vardır; çünkü bunların kalbi özgür bıraktığı rivayet edilir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7174} Adaletsizliği geri püskürtülemeyen bir zallime ya da Müslümanlara zarar veren bir kâfire karşı nefret İslam hukukunda kınanmaz; ezilen kişi acı çekmeden hakkını affedebilir ve talep edebilir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7174} Hukukçular, bir yarışmacının rakibine karşı nefretten neredeyse tamamen muaf olmadığını belirtir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7173}

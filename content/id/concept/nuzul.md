@@ -1,0 +1,12 @@
+---
+id: concept/nuzul
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/nuzul.md}
+---
+## Ringkasan
+Dalam linguistik, 'nazul' berarti turun dari satu ketinggian ke ketinggian lain. Dalam firitur, ada beberapa keputusan: Apa yang dilakukan pengkhotbah Jumat setelah menyelesaikan khotbah. Menurut Hanafi, muezzin memimpin shalat setelah ia turun; menurut Maliki, ia mencari pengampunan lalu turun untuk berdoa; menurut Shafi'i, ia terus turun setelah muezzin menyelesaikan iqama; menurut Hanbali, ia turun ketika muezzin mengatakan doa telah ditetapkan. Perbedaan pendapat para kafir di masjid diperbolehkan menurut Hanbalis karena kebutuhan, dan penunggang tidak diwajibkan turun untuk sujud membaca di hadapan jemaat; melainkan, ia wajib. Hanafi mewajibkannya turun untuk berdoa, yang tidak diwajibkan oleh mazhab Maliki. Menurunkan sperma dengan keinginan secara sengaja membatalkan puasa menurut mayoritas ahli hukum. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15647} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15648} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15649}
+
+## Dalam program Al-Shaarawi "Pertemuan Iman"
+Dalam episode dua puluh tujuh Meeting [[work/likaa-al-iman|Faith]], [[person/muhammad-mutawalli-al-shaarawi|Al-Shaarawi ditanya tentang waktu]] yang dibutuhkan agar Al-Qur'an diwahyukan. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep27 00:07:30} Ia mendamaikan wahyunya pada Laylat al-Qadr dengan turunnya Al-Qur'an pada bulan Ramadan dengan mengatakan bahwa Al-Qur'an ada di Tablet Yang Terjaga. Ia turun seketika ke surga terendah di Laylat al-Qadr, lalu terbagi seiring waktu dengan misi Rasululan, sehingga setiap kali suatu putusan diungkapkan, maka terungkap. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep27 00:08:00} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep27 00:08:30} Pada episode dua puluh delapan, ia percaya bahwa metodologi tersebut mendahului penciptaan manusia, dan sang pencipta mendefinisikan tujuan ciptaannya sebelum membuatnya, dengan mengutip ajaran Al-Qur'an sebagai pengantar penciptaan manusia di awal Surah Ar-Rahman. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep28 00:04:00} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep28 00:04:30}

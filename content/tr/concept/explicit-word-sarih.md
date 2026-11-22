@@ -1,0 +1,19 @@
+---
+id: concept/explicit-word-sarih
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/explicit-word-sarih.md}
+---
+## Tanım ve ilgili terimler
+Dilbilimde açık olan tamamen diğer şeylerle ilişkilidir ve terminolojide ise sık kullanımla kastedilen açık konuşmadır. Metonimi, amaçlanan anlamı kullanımla gizlerken, ince olan, hedef dinleyicinin açıklık olmadan anladığı şeydir. Fark şudur ki, açık kişi niyetini sadece niyetsiz söyleyerek algılarken, metonimi dinleyici tarafından tereddüt edilir, bu yüzden niyet gerektirir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10370} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10371}
+
+## Açık Soket
+Açık kaynağın Şeriat'ın yaygınlığı mı yoksa yaygın kullanımı mı olduğu konusunda anlaşmazlık vardır. El-Subki bu saflara daha çok yönelmiştir: önce Kur'an ve Sünnet'te tekrarlanan ve alimler ile genel halk arasında yaygın olan boşanma terimi gibi kesinlikle açık olan şeyler; sonra tekrarlanan ve nadir kısım, sonra nadir anlatım, sonra Şeriat savunucuları tarafından yaygın olarak konuşulan ama adı geçmeyen şeyler, sonra bahsedilmeyen ve alimler tarafından yaygın olarak kabul edilmeyenler, ve eğer genel halk arasında yaygınsa, bunun mecazi bir metonimi olduğu daha doğrudur. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10371}
+
+## Al-Sarih'te Hukuk Kuralları
+Birinci kural, açık kelimenin ibadet anlamını içerdiği, bu yüzden sahibinin boşanma kelimesini bağdan kopma olarak yorumlaması kabul edilemez. İkincisi, açık kelimenin sözlü işaretle bir metafor haline gelebileceğidir. Üçüncüsü, açık kelimenin nedeni tetiklemek için niyeti gerektirmediği, metonimin aksine, zorlananın niyetinin dışlanmasıdır. Dördüncüsü ise, açık kelimenin çağrı olmadan kendi başına hareket etmesidir ve kâfir kişi şöyle denirse muaf tutulur: Şöyle de: Allah'tan başka bir tanrı olmadığını şahit ediyorum. Beşincisi: Şeriat'ın her bölümü açıkça türetilmiştir, abdest, tayammum, ortaklık ve khul' hariç. Altıncı olarak, konusundaki açık söz, konusunda uygulandığında, boşanma, zihar ve iptal gibi başka hiçbir şeyin metaforu değildir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10372} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10373} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10374}
+
+## El-Sarih fi Babab el-Fiqh
+Açık ve metonimik, nişan ve evlilik hariç, tüm hukuk dallarında bulunur; burada metonim yoktur ve iftira durumunda açık ve metonimik ile çağrı birleştirilir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10374}
+Satışta açıkça "Seni sattım", "Aldım" ve "kabul ettim" denir. Bağışlarda ise açıkça "durdun, koydun ya da sakladın" denir. Bazı Maliki ve Şafi'ler bunu kısıtlanmadıkça bir örtmece olarak kabul eder. Hediyelerde, hediyelerde, bağışlarda ve hediyelerde sen verdin ve sahiplendin. Nişanda ise evlenme ve başkalarını ifşa etme niyeti açıkça belirtilir. Evlilikte evlilik ve evlilik açıktır. Khula'da khul' ve fayda kelimeleri açıktır. Boşanmada ise ifadeler ve türevler açıktır, ayrılık ve serbest bırakma çoğunluk arasında açık değildir. Zihar'da ise açıkça: "Sen bana annemin sırtı gibisin." İftira kelimesinde açıkça taşlamaktır, metafor ise 'Ey ahlaksız, ahlaksızsın', ve açıklama. Ben ise zina eden biri değilim. Yeminlerde açıktır: "Tanrı'ya böyle bir yemin var," ve "Tanrı'ya benim üzerimde" konusunda yeminin ifadesi olmadan anlaşmazlık vardır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10374} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10375} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10376} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10377} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10378} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10379}

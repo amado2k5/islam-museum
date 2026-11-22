@@ -1,0 +1,25 @@
+---
+id: person/sheikh-mujibur-rahman
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/sheikh-mujibur-rahman.md}
+---
+## Özet
+Şeyh Mujibur Rahman (17 Mart 1920 – 15 Ağustos 1975), Bangladeşli bir siyasetçi, devrimci ve devlet adamıydı; Bangladeş'in kurucusu ve ilk cumhurbaşkanıydı. Bangladeş'in Tunjibara kentinde doğdu ve Müslüman Ligi'nde, ardından Awami Ligi'nde yükselerek Doğu Pakistan'ın tek lideri oldu. 1970'teki Pakistan'ın ilk genel seçimlerinde partisini zafere taşıdı. Askeri hükümet iktidarı ona devretmeyi reddedince, 1971'de Bangladeş'in ortaya çıktığı bağımsızlık mücadelesinin simgesi haline geldi. Batı Pakistan'da hapisteyken geçici hükümeti yönetti, ardından 1972-1975 yılları arasında Başbakan ve 1975'te Cumhurbaşkanı olarak yeni devleti yönetti; ancak ailesinin çoğu askeri darbede suikaste uğradı. Bangladeşliler ona 'Bengal'in Dostu' anlamına gelen Bangabandhu unvanını verirler. {cite:wikipedia-sheikh-mujibur-rahman-en} {cite:wikipedia-sheikh-mujibur-rahman-ar}
+
+## Köken
+Mujib, 17 Mart 1920'de Bengal'in Faridpur bölgesindeki Gobangang'daki Tunjibara köyünde Bengal Müslümanı 'Şeyh'in ailesinde doğdu. Babası Şeyh Lutfur Rahman, Gobangang sarayında çalışan, annesi ise Şeyh Sira Khatun'dur. Ailesi, makalede Bengal'e gelen Şeyh Abdul Awwal Darwish'e kadar izlenir; kendisi bir grup Müslüman vaizle birlikte Bengal'e gelmiştir. Mujeeb, altı çocuk arasında üçüncüsüydü ve evde 'Khokka' lakabıyla anılıyordu. Gobangang'da okullara devam etti, dört yıl göz ameliyatı için ara verdi, ardından 1942'de ortaöğrenimini tamamladı, Kalküta'da bir İslami kolejde okudu ve 1947'de üniversite diplomasını aldı. Eğitimi sırasında Bengal Müslüman Ligi'ne ilgi duydu ve Hussain Shaheed Suhrawardi'nin etkisiyle Pakistan davası için çalıştı. {cite:wikipedia-sheikh-mujibur-rahman-en}
+
+## Bağımsızlığa Giden Yol
+Bölünmeden sonra Mujib, 1948'de Doğu Pakistan Müslüman Öğrenciler Birliği'nin ve 1949'da Awami Müslüman Birliği'nin — daha sonra Awami Ligi — kurulmasına katıldı ve 1954'te Doğu Pakistan Eyalet Meclisi üyesi olarak seçildi. Pakistan parlamentosunda Doğu Bengal'in haklarını savundu ve İngiliz ile Pakistan dönemlerinde uzun süreler hapis yattı. 1966'da Doğu Pakistan için geniş özerklik talep eden 'Altı Nokta'yı önerdi ve Bengal milliyetçiliğinin tanınan lideri oldu. Partisi 1970 seçimlerinde mutlak çoğunluğu kazandı, ancak Yahya Han'ın askeri rejimi iktidarı devretmeyi reddetti. 7 Mart 1971'de Mujib, Dakka'da büyük bir toplantıya hitap ederek halkını kurtuluş mücadelesine hazırlanmaya çağırdı ve UNESCO daha sonra bu konuşmayı Dünya Hafızası'na kaydetti. 25 Mart 1971'de ordunun harekâtı sırasında tutuklandı ve kendi adına kurtuluş savaşı yürütülürken Batı Pakistan'da gözaltına alındı; Bangladeş'in geçici hükümeti onun liderliğinde kuruldu. {cite:wikipedia-sheikh-mujibur-rahman-en}
+
+## Bangladeş Lideri
+Mujib, Ocak 1972'de Dakka'ya döndü ve Başbakan oldu. Hükümeti, savaşla harap olmuş bir ülkeyi yeniden inşa etti, Bangladeş'e milliyetçilik, sosyalizm, demokrasi ve laiklik temelli 1972 anayasası verdi, 1973'te ilk genel seçimleri yaptı, dünyanın çoğu ülkesiyle ilişkileri normalleştirdi ve 1974'te Birleşmiş Milletler Genel Kurulu'nda ilk Bengalce konuşmasını yaptı. Makale, hükümetinin kaos, yolsuzluk ve ekonomik krizle karşı karşıya olduğunu, 1974 kıtlığının çok sayıda kişinin öldüğünü ve kurduğu paramiliter güç Jatiya Rakhi Bahini'nin insan hakları ihlallerine karıştığını belirtiyor. Ocak 1975'te, "İkinci Devrim" adını verdiği bir hareketi başlattı; bu olay onu cumhurbaşkanı yaptı, Paxal'ı ülkedeki tek yasal parti yaptı, diğer partileri feshetti ve sivil özgürlükleri kısıtladı. Devlet başkanı olarak dini politikası, laik bir anayasayı, laikliğin dine düşmanlık anlamına gelmediğini kamuya açık açıklamalarla, İslami kurumun kurulması ve Bangladeş'in 1974'te İslam İşbirliği Teşkilatı'na katılmasıyla birleştirdi — müze tarafından kişisel bir aidiyet beyanı olarak değil, bu devlet politikası olarak kaydedildi. {cite:wikipedia-sheikh-mujibur-rahman-en}
+
+## Suikastı ve mirası
+Mujib, 15 Ağustos 1975'te Dakka'nın Danmundi kentindeki evinde, eşi, üç çocuğu ve ailesinin çoğu üyesiyle birlikte bir askeri darbe sonucu öldürüldü. İki kızı Hasina ve Rihanna yurtdışında hayatta kalmayı başardı. Tungibara'da defnedildi ve anıt mezarı burada duruyor. Mirası Bangladeş'te hâlâ bölünme kaynağı olmaya devam ediyor: ülkeyi bağımsızlığa taşıdığı ve Bengal egemenliğini yeniden tesis ettiği için tanınıyor, kıtlık, ihlaller ve son dönemindeki zorbalık nedeniyle eleştiriliyor. 2004 BBC anketinde tüm zamanların en büyük Bengal kişiliği seçildi. {cite:wikipedia-sheikh-mujibur-rahman-en}
+
+## Kaynaklar
+- Yukarıda belirtilen tanımlı kaynakların varlıkları, `data/source/`.
+- Bu makalenin incelemeleri tarihli olmalı ve her olayı değiştiren kaynağın adını taşımalı.

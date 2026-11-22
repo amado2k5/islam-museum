@@ -1,0 +1,15 @@
+---
+id: person/al-hasan-ibn-musa-ibn-shakir
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/al-hasan-ibn-musa-ibn-shakir.md}
+---
+## Özet
+El-Hasan ibn Musa ibn Şakir, astronom Musa ibn Şakir'in üç oğlu olan Banu Musa'nın en küçüğüdür; Musa Musa Halife himayesinde Bağdat'taki Bilgelik Evi'nde eğitim almış, bu da burayı çeviri ve özgün bilgi merkezi haline getirmiştir. {cite:wikipedia-banu-musa-en} {cite:wikipedia-banu-musa-ar} Arapça makale, onu matematik ve astronomi alanında kardeşler arasında en bilgili olarak tanımlar. {cite:wikipedia-banu-musa-ar} İngilizce makalede kullanılan çalışmalar doğum veya ölüm yılını doğrulamaz: onu yalnızca dokuzuncu yüzyıla tarihler ve Muhammed'in ölüm yılı olan 873'ün kardeşler arasında bilinen tek yıl olduğunu belirler. {cite:wikipedia-banu-musa-en} Arapça makale ise 810–873 yıllarında onun için basılmıştır — ve ölüm yılı 873'ü tekrarlar — ve Wikidata öğesi aynı iki yılı taşır; hepsi kaynak olmadan ve aynı hadis geleneğinden kalmakta, burada tarih olarak değil, roman olarak korunmaktadır. {cite:wikipedia-banu-musa-ar} {cite:wikidata-al-hasan-ibn-musa-ibn-shakir}
+
+## Mühendisliğin sahibi
+Al-Hassan'a atfedilen tek eser, kaybolmuş olan "Yuvarlak Dikdörtgen Şekil Kitabı"dır. {cite:wikipedia-banu-musa-en} {cite:fihrist-ibn-al-nadim} İçeriği gelenekten bilinir: iğne ve iplikle elips (elips) çizme yöntemi, bugün hâlâ Bahçıvan'ın elips çizme yöntemi olarak çalışılmaktadır. {cite:wikipedia-banu-musa-en} Bu, Bani Musa tarzında bir eserdi: Yunan geometrik bir konu—kardeşi Muhammed'in de yazdığı koniler—iplik ve iğnelerle yapılmış bir yapıya dönüştürülmüştür. {cite:wikipedia-banu-musa-en}
+
+## Ortak çalışmalar
+İki kardeşi gibi, Al-Hasan da eğitimini saray astronomu Yahya ibn Abi Mansur'dan aldı ve aileyi tanımlayan projelere katıldı: Yunanca el yazmalarını getirmek için Roma misyonları, Sinjar'da bir boylam derecesini ölçen ücretli çevirmenler çemberi ve yaklaşık 847-869 yılları arasında Bağdat'tan kaydedilen meteorolojik program. {cite:wikipedia-banu-musa-en} Yunan soyağacı geometrisini sayısal değerlerle yeniden formüle eden ve yüzyıllarca Gerardo Cremoni'nin Latince çevirisiyle okunan "Basit ve Küresel Şekillerin Alanını Bilme Kitabı" adlı kitap, kaynakların nadiren kardeşten kardeşe ayırt edildiği yaygın bir uygulamadan doğmuştur. {cite:wikipedia-banu-musa-en} {cite:wikipedia-banu-musa-ur} Bu, bireysel görüntüsünün üç kardeşin görüntülerini gizlemesinin nedenlerinden biridir: tarihsel kaynaklar—İngilizce makalede belirtildiği gibi—kardeşler arasında çoğu zaman hiç ayrım yapmamıştır. {cite:wikipedia-banu-musa-en} İncelenen hiçbir kaynak bunu el-Hasan için bir din veya düşünce okulu olarak tanımlamaz, bu yüzden biyografisinin güvenilir olmadığı kanıtlanmıştır. {cite:wikipedia-banu-musa-en} {cite:wikidata-al-hasan-ibn-musa-ibn-shakir} {cite:wikidata-banu-musa}

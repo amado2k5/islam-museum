@@ -1,0 +1,33 @@
+---
+id: concept/al-arabiyya-fi-iran-khuzestan
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/al-arabiyya-fi-iran-khuzestan.md}
+---
+## Ringkasan
+Halaman ini menyajikan apa yang dikatakan ringkasan penelitian yang disediakan museum tentang bahasa Arab di Khuzestan, Iran: status hukumnya, varian yang digunakan, dan nomor resmi yang diterima. Tidak ada status administratif resmi untuk bahasa Arab lisan di sana, sementara bahasa Arab Standar religius mengharuskan Pasal 16 diajarkan di sekolah menengah, menurut abstrak. Museum tidak membuka halaman yang disebut abstrak, dan pendiri mengizinkan penggunaannya seperti yang dinyatakan pada 21 November 2026. Karena ringkasan menyatakan tidak menemukan sumber atau nomor resmi, inilah yang tertulis secara verbatim di halaman, dan museum tidak menyertakan angka darinya.
+
+## Apa halaman ini?
+Halaman ini adalah artikel tentang topik "Bahasa Arab di Khuzestan, Iran," dari bagian "Dunia" di browser bahasa Arab, dan merupakan salah satu halaman yang membahas bahasa Arab di luar negara yang dianggap sebagai Arab. Halaman ini menjawab tiga pertanyaan: Apa status hukum bahasa Arab di sana? Jenis bahasa Arab mana yang mewakili bahasa tersebut? Dan berapa angka resmi yang dipublikasikan tentang para pembicara, jika ada? Museum ini menjalankan apa yang dilakukan di semua halamannya: suara deskriptif tanpa perintah, setiap pernyataan yang dikaitkan dengan halamannya, dan tanpa penilaian atas isu kontroversial. Seluruh materi berasal dari satu ringkasan penelitian; halaman tersebut menjelaskan apa yang dikatakan ringkasan dan tidak mengklaim telah membaca sumbernya.
+
+## Latar Belakang dan Tanggal
+Tanggal ringkasan di sini adalah Konstitusi Iran 1989 beserta pasal 15 dan 16, dan tidak menceritakan sejarah bahasa Arab di Khuzestan. Namun, sejarah ini memiliki kaitan di halaman museum: halaman para diwan mencatat transisi administrasi dari Persia Tengah ke Arab di Irak pada tahun 697, kemudian di Khorasan pada tahun 741–742; lihat [[concept/taarib-al-dawawin|Arabisasi para diwan]]. Museum tidak menyatakan bahwa ini adalah asal mula Arabisme Khuzestan, karena ringkasan tidak menyebutkannya.
+
+## Status Hukum
+Menurut ringkasan tersebut, Pasal 15 Konstitusi Iran menjadikan bahasa Persia sebagai satu-satunya bahasa resmi dan mengizinkan pengajaran bahasa regional dan etnis dalam pers, media, dan sastra bersamaan dengan bahasa Persia, yang secara praktis diterapkan dalam tingkat terbatas {cite:constituteproject-iran-1989} {cite:learnpersianonline-languages-of-iran}. Pasal 16 mengharuskan pengajaran bahasa Arab Al-Qur'an klasik pada tahap sekunder {cite:constituteproject-iran-1989}. Adapun bahasa Arab lisan lokal, tidak ada status administratif resmi untuknya. Ini adalah pernyataan ringkasan, dan museum tidak membaca teks kedua artikel tersebut.
+
+## Item Lisan
+Ringkasan ini disebut Bahasa Arab Khuzestan, sebuah varietas bahasa Arab dari Mesopotamia selatan yang dibedakan oleh pengucapan qaf (gələt). Bahasa ini digunakan dalam bahasa Ahvaz, Abadan, Al-Muhammara, Shadgan, Al-Hawizah, Bustan, dan Susangerd, serta memiliki kontak kuat dengan bahasa Persia dan Bakhtiari Luri {cite:jipa-khuzestani-arabic} {cite:brill-book-9789004510241-khuzestan}. Varietas induk memiliki halaman Arab di Irak dengan tetangga [[concept/al-arabiyya-fi-iraq|baratnya]], dan daerah ini [[place/khuzestan-province|mencakup Khuzestan]] dan [[place/al-ahwaz|Ahvaz]].
+
+## Angka Resmi
+Ringkasan tersebut tidak menemukan sensus resmi pemerintah maupun jumlah pembicara di Perserikatan Bangsa-Bangsa atau UNESCO. Hal ini dijelaskan oleh fakta bahwa Pusat Statistik Iran tidak menerbitkan rincian bahasa {cite:fanack-population-of-iran}, yang merupakan pernyataan halaman seperti yang dikutip dalam ringkasan. Museum tidak mencantumkan jumlah penutur bahasa Arab di Khuzestan, tidak ada persentase, dan tidak mengambil angka dari sumber lain.
+
+## Bagaimana Sumber Berbeda
+Halaman yang dinamai untuk artikel ini terdiri dari berbagai jenis. Teks resmi dan statistik: Konstitusi Iran (1989) {cite:constituteproject-iran-1989}; halaman referensi, akademik, dan pers: Languages of Iran {cite:learnpersianonline-languages-of-iran}, Khuzestani Arabic {cite:jipa-khuzestani-arabic}, Brill book page 9789004510241 (dinamai dari Khuzestani Arabic) {cite:brill-book-9789004510241-khuzestan}, dan Population of Iran {cite:fanack-population-of-iran}. Teks resmi dan statistik berbicara atas nama negara atau Kantor Statistik, sementara referensi, akademik, dan jurnalistik menggambarkan dan menafsirkan, dan Wikipedia hanya mencantumkan nama, tempat, dan tanggal. Jika jenisnya berbeda, museum melaporkan setiap jenis dengan suara sendiri tanpa bobot, dan museum tidak membuka salah satunya.
+
+## Dalam gambaran yang lebih besar
+Halaman ini termasuk dalam bab "Dunia" dan dibaca bersama halaman negara-negara Arab di dalamnya. Untuk kerangka umum, lihat [[concept/al-alam-al-arabi|negara-negara Arab dan universitasnya]], serta dialek antara bahasa Arab lisan klasik dan [[concept/al-fusha-wal-lahajat|klasik serta dialek]], dan untuk menanyakan apakah bahasa Arab lisan adalah satu bahasa atau dialek [[concept/tasnif-al-arabiyya-lughatan-am-lahajat|, klasifikasikan Arab: bahasa atau dialek]]. Negara ini memiliki halaman tempat [[place/iran|Iran]]. Untuk sejarah umum bahasa ini, lihat [[concept/tarikh-al-lugha-al-arabiyya|sejarah bahasa Arab]] dan [[concept/al-arabiyya-fi-al-alam-al-yawm|bahasa Arab di dunia saat ini]].
+
+## kecuali halaman ini memberitahunya
+Museum tidak membuka halaman apa pun yang disebut abstrak, termasuk teks konstitusional, sensus, ensiklopedia, artikel, dan laporan; semua hal di atas dikaitkan dengan ringkasan saat tiba, bukan pembacaan halaman-halaman tersebut oleh museum. Museum tidak mengukur jumlah pembicara atau persentase. Di mana Wikipedia muncul, mereka mengaitkan fakta entitas hanya dalam hal nama, tempat, dan tanggal, serta apa yang disampaikan dalam bentuk klaim yang dikaitkan dengan ringkasan, bukan pada suara museum. Apa yang tidak ditemukan dalam ringkasan tetap tidak ada: tidak ada jumlah resmi dan tidak ada jumlah pembicara di Perserikatan Bangsa-Bangsa atau UNESCO. Museum tidak mengisi kekosongan ini dengan perkiraan atau sejumlah sumber yang tidak disebutkan namanya. Pendiri mengizinkan penggunaan ini pada 21 November 2026, dan halaman tersebut tidak memuat aturan tentang bagaimana bahasa Arab diklasifikasikan di sana.

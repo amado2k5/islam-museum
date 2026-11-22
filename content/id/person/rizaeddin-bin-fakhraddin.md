@@ -1,0 +1,35 @@
+---
+id: person/rizaeddin-bin-fakhraddin
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/rizaeddin-bin-fakhraddin.md}
+---
+
+# Ridaeddin Fakhr al-Din
+
+## Ringkasan
+Rida al-Din ibn Fakhr al-Din (1859–1936) adalah seorang cendekiawan dan penulis Tatar dan Bashkir, salah satu penulis paling produktif dari gerakan baru — gerakan reformasi Islam di Rusia Tsar. {cite:wikipedia-rizaeddin-bin-fakhraddin-en} Ia terpilih sebagai hakim dalam administrasi agama Muslim pada tahun 1891, kemudian mengedit surat kabar 'Waqt,' mendirikan majalah 'Shura,' majalah Tatar terlama di kekaisaran, dan setelah revolusi, ia menjadi mufti Rusia Eropa hingga wafatnya. {cite:wikipedia-rizaeddin-bin-fakhraddin-en} {cite:wikipedia-rizaeddin-bin-fakhraddin-ur} Karya paling terkenalnya adalah karya biografi 'Athar,' yang tetap menjadi referensi yang sangat baik bagi beberapa sarjana Asia Tengah yang biografinya ia tulis. {cite:wikipedia-rizaeddin-bin-fakhraddin-en}
+
+Asal-usulnya terbagi dalam sumber yang sama, dan museum menampilkan bacaan daripada melarutkannya: artikel dalam bahasa Arab dan Urdu mencatat 13 Januari 1859 di desa Kigochat di provinsi Samara, artikel berbahasa Inggris diterbitkan 12 Januari 1858, Wikidata mencatat 4 Januari 1859, dan literatur khusus tentang tanggal 1858–1936 muncul dengan judul yang sama. {cite:wikipedia-rizaeddin-bin-fakhraddin-ar} {cite:wikipedia-rizaeddin-bin-fakhraddin-ur} {cite:wikipedia-rizaeddin-bin-fakhraddin-en} {cite:wikidata-rizaeddin-bin-fakhraddin} Catatan tersebut mengikuti 13 Januari 1859, yang menyebutnya sebagai "diperdebatkan." {cite:wikipedia-rizaeddin-bin-fakhraddin-ar}
+
+## Perjalanan
+Ia lahir sebagai putra seorang ulama dari desa Kiguchat, dan belajar di perpustakaan desa yang dikelola ayahnya, kemudian di sekolah di desa tetangga Chelshli, di mana ia kemudian mengajar sendiri kelas bawah. {cite:wikipedia-rizaeddin-bin-fakhraddin-en} {cite:wikipedia-rizaeddin-bin-fakhraddin-ur} Artikel Urdu menyebutkan bahwa ia masuk sekolah Justopol saat kecil, pergi ke Kazan pada tahun 1886, di mana ia bertemu dengan sejarawan dan ulama agama Shihab al-Din Marjani. Pada musim panas 1888, ia bertemu Jamal al-Din al-Afghani di St. Petersburg; ia menganggap Marjani, al-Afghani, dan Ismail Gisperinsky sebagai pembimbing spiritualnya. {cite:wikipedia-rizaeddin-bin-fakhraddin-ur} Artikel berbahasa Inggris juga menyebutkan bahwa ia sempat belajar di Masjid Marjani dan bertemu dengan orang Afghan itu dalam perjalanan ke Petersburg. {cite:wikipedia-rizaeddin-bin-fakhraddin-en}
+
+Pada usia tiga puluh tahun, ia menjadi ulama dan kepala sekolah di desa Elbek, dan pada tahun 1891 ia terpilih sebagai hakim—anggota Administrasi Agama Rusia untuk Muslim (Al-Jami') dan pindah ke kantor pusatnya di Ufa, di mana ia mengelola arsip yang luas. {cite:wikipedia-rizaeddin-bin-fakhraddin-en} Pada revolusi 1905, ia memberikan program reformasi luas kepada Mufti Al-Jami yang memperluas tanggung jawabnya untuk mencakup Muslim Kazakh, namun pemerintah Rusia menolaknya. {cite:wikipedia-rizaeddin-bin-fakhraddin-en} Pada tahun 1906, ia pensiun dari jabatan keagamaan dan menjadi editor surat kabar 'Waqt' di Orenburg, di mana ia menjadi teman dekat Musa Jarallah Begiyev. {cite:wikipedia-rizaeddin-bin-fakhraddin-en} Pada tahun 1908, ia mulai menerbitkan dan mengedit majalah 'Shura' hingga akhirnya ditutup oleh otoritas Soviet pada tahun 1918. {cite:wikipedia-rizaeddin-bin-fakhraddin-en} {cite:wikipedia-rizaeddin-bin-fakhraddin-ur}
+
+Setelah kematian Mufti Ghilimjan Baroudi pada 6 Desember 1921, ia mengambil posisi Mufti dalam administrasi agama, dan pada 10 Juli 1923, ia secara resmi terpilih sebagai Mufti dan tetap menjabat hingga wafat. {cite:wikipedia-rizaeddin-bin-fakhraddin-ur} Artikel berbahasa Inggris mencatat kembalinya ia ke posisi keagamaan pada tahun 1921 dan menggambarkannya sebagai Mufti Rusia Eropa hingga kematiannya pada tahun 1936, menambahkan bahwa ia sebisa mungkin menghindari kerja sama dengan Soviet. {cite:wikipedia-rizaeddin-bin-fakhraddin-en} Ia meninggal di Ufa pada 12 April 1936, dan dimakamkan di Pemakaman Kota Islam; Wikidata juga memuat nilai 11 April, yang tercantum dalam catatan dan tidak mengikuti nilainya. {cite:wikipedia-rizaeddin-bin-fakhraddin-ur} {cite:wikidata-rizaeddin-bin-fakhraddin}
+
+## Karya
+Ia adalah penulis produktif, menulis lebih dari enam puluh buku, selain teks jurnalistik, karya pendidikan, dan artikel tentang kondisi Muslim Rusia serta isu-isu seperti pendidikan perempuan dan kebijakan keluarga. {cite:wikipedia-rizaeddin-bin-fakhraddin-en} Karya terpentingnya adalah edisi biografi dua jilid dari para sarjana Asia Tengah, "Athar" bersama "Mashhoor Erler" (Pria Terkenal), yang ia tulis saat bekerja di Arsip Administrasi Agama Muslim; ia juga memiliki volume pendamping tentang Wanita Terkenal (Mashhoor Khatunler). {cite:wikipedia-rizaeddin-bin-fakhraddin-en} Dalam artikelnya tahun 1906 "Kebutuhan dan Kritik Muslim Rusia," ia mengkritik tuntutan reformis para ulama yang ditujukan kepada penguasa Rusia karena kekayaan generalisasi. {cite:wikipedia-rizaeddin-bin-fakhraddin-en} Artikel berbahasa Arab memuat beberapa karya Tatar, termasuk biografi Imam Al-Ghazali dan komentar tentang "Jawami' al-Kalim." {cite:wikipedia-rizaeddin-bin-fakhraddin-ar}
+
+## Posisi dan Kritik
+Bagian ini menyajikan situasi sebagaimana diceritakan oleh sumber, bukan sebagai penilaian museum.
+
+**Reformasi dalam Islam.** Menurut Azada-Aisha Rohrlich Seperti yang dilaporkan dalam artikel berbahasa Inggris, pentingnya pendidikan dalam mengatasi kemiskinan dan kemungkinan rekonsiliasi antara Islam dan ilmu pengetahuan adalah inti dari pandangan dunianya; ia melihat naik turunnya bangsa sebagai sesuatu yang langsung terkait dengan sistem kepercayaan mereka, dan bahwa menolak takhayul serta kembali ke awal mula Islam adalah hal yang penting untuk kebangkitan Islam. {cite:wikipedia-rizaeddin-bin-fakhraddin-en} Ia juga mengkritik karya sejarah Ibn Khallikan karena berfokus pada tindakan para penguasa, dan malah berusaha menghormati tindakan Muslim biasa dalam bukunya. {cite:wikipedia-rizaeddin-bin-fakhraddin-en}
+
+**Posisi dan agamanya.** Jabatan peradilan dan muftinya adalah posisi dalam administrasi agama Muslim di kekaisaran dan kemudian pada era Soviet, sebuah institusi dengan lingkungan Hanafi; museum mencatat posisi-posisi tersebut sebagai peristiwa dari kariernya, bukan sebagai bukti sekolah pribadi, dan tidak ada sumber yang menyebutkan sekolahnya yang mencatat agamanya dalam register data sebagai "tidak diketahui." {cite:wikidata-rizaeddin-bin-fakhraddin}
+
+## Referensi
+- Entitas dari sumber yang didefinisikan di atas, terdaftar pada `data/source/`.
+- Revisi artikel ini harus diberi tanggal dan menyebutkan sumber yang mengubah setiap insiden.

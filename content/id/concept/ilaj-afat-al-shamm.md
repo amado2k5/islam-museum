@@ -1,0 +1,11 @@
+---
+id: concept/ilaj-afat-al-shamm
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/ilaj-afat-al-shamm.md}
+---
+## Pengobatan suasana hati buruk dan kebingungan
+Jika penyebabnya adalah temperamen buruk, harus diobati dengan cara yang sebaliknya, yaitu otak anterior dari nodul, hidangan, pembengkakan, pembengkakan, dan perban yang disebutkan dalam bab perawatan kepala. Bentuk suasana hati buruk yang paling umum adalah suasana hati dingin, baik di perut depan, baik di kedua puting, dan obat paling efektif untuk ini adalah sut-up jenis salep panas yang dikenal (nama obatnya tidak memilikinya). Jika penyebabnya adalah kebingungan di perut otak, hal itu didukung oleh apa yang telah dikatakan tentang penyakit diri sendiri, yang menyebabkan kebingungan dengan snippet, gharghar, sutat, nashqat, smoulders, dan sejenisnya. Jika perlu menghentikan keringat, itu dilakukan, dan dalam semua kasus, merujuk pada prinsip yang diberikan dalam pengobatan kepala {cite:canon-ibn-sina-print-v2 p.236}.
+## Pengobatan penyumbatan dan sensasi tunggal
+Jika penyebabnya adalah sumbatan pada tulang lembek yang disebut filter, gunakan tabung longgar dan hirup dari tabung tersebut yang disebut saringan. Kulit kepala kemudian harus menempel pada kulit kepala dan berkumur dengan zat panas dan asam. Untuk yang sudah dicoba pada shauniz, direndam dalam cuka selama berhari-hari, lalu dihancurkan halus, kemudian dicampur dengan minyak, diteteskan ke hidung, dan dihirup sebanyak mungkin (salinan yang diuji, cat, dan obat bubuk menunjukkan jenisnya, bukan nama dan bahan). Jika penyebabnya wasir, dia merasakan baik tapi tidak merasakan bau buruk, dia terus minum dengan bandbeidster berulang kali sampai sembuh (seperti yang saya cetakkan, dan nama itu berasal dari nama obat yang disimpan). Sedangkan untuk seseorang yang merasakan bau busuk tapi tidak merasakan yang baik, dia terus mengisap musk sampai kondisinya membaik dan membaik (seperti yang saya tertulis) {cite:canon-ibn-sina-print-v2 p.236}.

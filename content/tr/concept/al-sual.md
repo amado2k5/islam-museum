@@ -1,0 +1,9 @@
+---
+id: concept/al-sual
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/al-sual.md}
+---
+## öksürük
+Ayrıca, dikkatsizlik veya konuşmadan dikkatsizlik nedeniyle dereye bir şey düştüğünde öksürük çekebilir (kitabın metnindeki bir satır) {cite:canon-ibn-sina-print-v2 p.327}

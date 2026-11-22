@@ -1,0 +1,24 @@
+---
+id: person/al-hujwiri
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/al-hujwiri.md}
+---
+## Ringkasan
+Abu al-Hasan Ali ibn Uthman ibn Abi Ali al-Jalabi al-Hujwiri al-Ghaznawi adalah seorang ulama Sufi pada abad kelima H. Ia hidup pada masa pemerintahan Ghaznavid dan meninggal pada masa pemerintahan Sultan [[person/ibrahim-ghaznavi|Ibrahim al-Ghaznawi]]. Ia adalah penulis [[work/kashf-al-mahjub|Kashf al-Mahjub]]. {cite:kashf-al-mahjub-qandil-2007-v1 p. 10}
+
+## Garis keturunan dan latar belakangnya
+Badi' Juma'a, dalam pengantar terjemahan Arab, mengatakan bahwa ia lahir di kota [[place/ghazna|Ghazni]], dari situ ia mendapat gelar Ghaznawi. Ia dijuluki Jalabi dan Al-Hujwiri sesuai dengan 'Jalab' dan 'Hujwir,' yang merupakan distrik di Ghazni. Tanggal lahirnya tidak diketahui, dan diyakini pada akhir abad keempat. {cite:kashf-al-mahjub-qandil-2007-v1 p. 10} Hanya sedikit yang diketahui tentang kehidupan pribadinya, seperti yang disebutkan dalam bukunya: Ia belajar di bawah bimbingan Abu al-Abbas al-Shaqani, mengikuti jalan Sufi di bawah bimbingan Abu al-Fadl Muhammad ibn al-Hasan al-Khatli, menerima beberapa ajaran Sufi dari Abu al-Qasim al-Jurjani dan 'Khwaja' al-Muzaffar Ahmad ibn Hamdan, serta bertemu dengan sezamannya [[person/al-qushayri-abu-l-qasim|Abu al-Qasim al-Qushayri]]. {cite:kashf-al-mahjub-qandil-2007-v1 p. 10}
+
+## Perjalanan dan pemukimannya di Lahore
+Al-Hujwiri melakukan perjalanan ke seluruh dunia Islam, dari Levant ke Turkestan, dan dari Laut Kaspia ke India. Ia mengunjungi Irak, Khorasan, Transoxiana, Khuzestan, Persia, Azerbaijan, dan Jurjan, dan ia tidak sependapat dengan beberapa sheikh Sufi. {cite:kashf-al-mahjub-qandil-2007-v1 p. 10} Perjalanannya berlangsung hingga tahun 431 H ketika ia pertama kali mengunjungi [[place/lahore|Lahore]], di mana ia berada pada fitnah tahun 435 H pada masa pemerintahan Sultan Maudud dari Ghazni, di mana ia ditangkap di antara tawanan; dipercaya bahwa ia meninggalkannya untuk Ghazni dan Khorasan antara tahun 435 H dan 441 H, lalu kembali ke India dan menetap di Lahore hingga wafat. {cite:kashf-al-mahjub-qandil-2007-v1 p. 10} {cite:kashf-al-mahjub-qandil-2007-v1 p. 11}
+
+Muqaddam mengatakan bahwa ia termasuk salah satu penceramah Islam paling awal di anak benua India, dan bahwa ia berkontribusi pada konversi banyak orang dari Lahore, terutama 'Rai Raju,' wakil Lahore pada masa pemerintahan Sultan Maudud. {cite:kashf-al-mahjub-qandil-2007-v1 p. 11} Ia meninggal di Lahore sekitar tahun 465 H, dan makamnya di sana masih ada di dalam makamnya yang dikenal sebagai 'Data King Bakhsh,' nama yang digunakan di India dan Pakistan. {cite:kashf-al-mahjub-qandil-2007-v1 p. 11}
+
+## Karya-karyanya
+Al-Hujwiri menulis banyak buku yang namanya ia sebutkan dalam 'Kashf al-Mahjub'; beberapa hilang selama hidupnya dan beberapa setelah kematiannya, sehingga hanya Kashf al-Mahjub yang tersisa. {cite:kashf-al-mahjub-qandil-2007-v1 p. 11} Ia mengatakan dalam pengantarnya bahwa ia pernah menulis buku tentang topik ini sebelumnya, semuanya hilang, dan beberapa pengklaim meminjamnya untuk berburu orang. {cite:kashf-al-mahjub-qandil-2007-v1 p. 200} Dalam bab tentang kesalahan, ia berbicara dalam sudut pandang orang pertama: 'Dan aku adalah Ali ibn Uthman al-Jalabi,' dan ia percaya bahwa menyalahkan pada masa awal berarti tindakan yang patut disalahkan, dan bahwa siapa pun yang ingin disalahkan pada zamannya hanya perlu memperpanjang doa itu. {cite:kashf-al-mahjub-qandil-2007-v1 p. 266}
+
+## Dalam Oxford Dictionary of Islam
+Oxford Dictionary of Islam menyebutkan Hujwiri, yang meninggal pada tahun 1072, seorang pemikir dan teoritikus Sufi dari era abad pertengahan, serta penulis buku teoretis besar "Kashf al-Mahjub." Ia mengatakan buku tersebut mencantumkan dua belas aliran teoretis Sufisme, sepuluh di antaranya diterima dan dua dikritik, serta menjelaskan ajaran masing-masing sekte. Ia menceritakan bahwa ia melihat sepuluh aliran yang diterima menegaskan kebenaran dan merupakan bagian dari mayoritas Muslim yang bergantung, serta mengutuk Halluliyyah atas klaim mereka tentang inkarnasi, persatuan, dan kemiripan, serta mengkritik Hallaji karena meninggalkan Syariah. Ia membandingkannya dengan Al-Ghazali dan Ibn Arabi dalam pencariannya untuk keseimbangan antara pemikiran dan praktik Islam, menjadikan Sufisme sebagai semangat pendorong bagi semua. Ia menambahkan bahwa ia memuliakan selibat dan, seperti yang dikatakan kamus, ia menetapkan bahwa perempuan adalah penyebab segala kejahatan di dunia. {cite:oxford-dictionary-of-islam e889}

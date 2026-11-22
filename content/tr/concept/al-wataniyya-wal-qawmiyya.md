@@ -1,0 +1,21 @@
+---
+id: concept/al-wataniyya-wal-qawmiyya
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/al-wataniyya-wal-qawmiyya.md}
+---
+
+# Vatanseverlik, Milliyetçilik ve Arapçılık — İslam ile Bölünme Çizgisi
+
+## Bölüm ve oylama
+"Ilımlılık"ın altıncı bölümü, vatan ve Arapçılık ile İslam'a ait olma arasındaki sınırı tartıştı {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:01:00}. Halkın — eğitimli bir grubun — sesi sadece %45'inin vatanseverlik ve milliyetçiliğin net bir tanımına sahip olduğuydu {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:07:00}; %78'i Arap birliğini İslami birliğin bir adımı olarak görüyor {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:30:00}; ve %76'sı bağlılıkları arasında bir çelişki hissetmiyor {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:54:00}.
+
+## Dört farklı kavram
+Siyaset bilimi profesörü karışımı netleştirdi: Milliyetçilik, bir hükümet tarafından yönetilen belirli bir vatan ile bağlantıdır — hizmet ve savunma gibi yasal görevler ile vatandaşlık ve eğitim gibi haklar, yaşanmış kültürel bir boyuta sahiptir; {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:11:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:12:00} Milliyetçilik, kültürel, dilsel ve tarihsel birlik duygusu ile tek bir devlet tarafından kurulamayacak ortak bir arzu bağıdır; {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:12:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:12:30} Kimlik, kültürel, ideolojik veya dini bağlılığa sahip bir gruba ait olma hissidir — bu, Amerika'daki Arap'ın davasını desteklemesi gibi durumlarda ortaya çıkar {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:13:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:13:30}.
+
+## Milliyetçilikten önce arapçılık
+Wahid Abdel Majid temel olarak şöyle ayırt etti: Arapçılık eski tarihsel ve medeniyet bir bağlılıktır — dil ortak bir tarih ve bilinç yaratır — oysa "Arap milliyetçiliği" on dokuzuncu yüzyılda var olmayan, Batı milliyetçiliğinden etkilenen, din fark etmeksizin Arapları diğerlerinden üstün tutan siyasi bir doktrin haline gelen modern bir kavramdır — Hristiyan Arap için, onun için Müslüman gibi {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:16:00}, {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:18:00}, {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:18:30}, {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:19:00}. Halid El-Kasım ekledi: Arapçılık vazgeçilmez bir bağlılık — paylaşılan ırk, tarih ve umutlar — "Arap, bu umutları, uygarlığı ve dili paylaşan kişidir, sadece bir ırk değil" {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:21:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:22:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:22:30}.
+
+## Kesinti noktası — hoşgörüsüzlük, ait olmama
+Sunucu şu kuralla bitirdi: adalet kurallarına dayalı ayrımcılık kabul edilebilir — vatandaşın prosedür olmadan girmesi nedeniyle ülkesinde bir vatandaşı işte tercih etmek — ve adalete dayalı olmayan kör fanatizm reddedilir {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:13:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:13:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:14:00}. Herkesin kâr ve zararı paylaştığı bir şirket olarak vatanseverlik — haklar ve görevler {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:17:30}. Kişisel gururunu kabul etti: "Kur'an'ı anlayan bir Arap olduğum için Allah'a şükrediyorum — Allah halktan Banu Kinana'yı ve aralarından Banu Haşim'i seçti" — ama Araplar Almanların ırkları ve yok ettikleri uluslarla övünürken, "onlara karşı duracağız" {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:17:00}. Sonuç olarak: Vatanseverlik ve Arapçılığa ait olmak, fanatizm, ayrımcılık, adaletsizlik veya üstünlük içermediği sürece İslam'a aykırı değildir — "ve bu ılımlıdır" {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:30}.

@@ -1,0 +1,16 @@
+---
+id: concept/ikhfa
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/ikhfa.md}
+---
+## Tanım
+Dilde gizleme, gizleme ve gizleme anlamına gelir; Kur'an'da: "Size göstermediklerini kendilerinde gizlerler," bu yüzden geçişlidir, anlam gizlemenin aksine, ki gizleme gerekli ve gizlenmeye itaatkârdır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1935}
+İlgili kelimeler: sırlar, dilsel ve teknik olarak, gizlenme ve bunu ortaya çıkarmak anlamına gelebilir, örneğin "ve pişmanlığı gizlemek" ifadesinde, yani onlar açığa çıkardı, ki bu tam tersidir; ve 'najwa' ise arkadaşınızla iletişim kurmak için kullandığınız gizli konuşmadır. Fark şudur ki, fısıldamak sadece konuşmadır, gizlenme ise konuşma ve eylemi ifade eder, bu yüzden aralarındaki ilişki genel ve özgüldür. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1936}
+Toplam karar vatandaşa göre değişir: {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1936}
+Birincisi: Niyeti gizlemek: Peygamber ve sahabeleri tarafından niyetin ifade edilmesi tavsiye edilmez, bu yüzden niyeti gizlemek tavsiye edilir, çünkü yeri kalptir; ayrıca dilin dille söylenmesinin de tavsiye edildiği söylenir. Hac ve Umre konusunda ise, Hanafi ve Şafi'ler niyetin söylenmesinin tavsiye edildiğini söyler. Hanbaliler ve Maliki görüşü kesinlikle karışıklığı ortadan kaldıracak şeyleri söylemeyi önerirken, Maliki görüşü niyeti dile getirmekten kaçınmanın daha iyidir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1936}
+İkincisi: Sadaka ve zekatı gizlemek: El-Tabari ve diğerleri, gönüllü sadakada saklanmanın daha iyi olduğu, zorunlu sadakada kamuya açıklamanın daha iyi olduğu konusunda uzlaştığını bildirdiler; Allah'ın şöyle dediği gibi: "Ve bunu gizleyip yoksullara verirseniz, sizin için daha iyidir," ve "Bir adam sadaka verip saklarsa öyle ki sol eli sağ elinin ne harcadığını bilmez." İbn Atiye şöyle dedi: Günümüzde bu, zorunlu sadakayı gizlemeye benzer, çünkü bunu engelleyen çok sayıda kişi vardır. Ayrıca bağışçı onu takip edenler arasındaysa, göstermek daha iyidir denir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1936} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1937}
+Üçüncüsü: Hilal kaybolur: Eğer hilal Şaban veya Ramazan'da kaybolursa, ayın otuz gün sayısını tamamlamak zorunludur, çünkü şöyle denir: "Gördüğünde oruç tut, gördüğünde oruçunu aç. Eğer senin için karanlıksa, Şaban ayının otuz gününü tamamla." {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1937}
+Dördüncü: İnancı gizlemek: İnancını saklayan ve kalbinde içtenlikle inanan birinin değerlendirmesi hakkında iki görüş vardır: birincisi, Elçi'nin gelişini bildiği ve söylemediği şeylere inandığıdır; ikincisi ise, iki tanıklığı söylemenin iman için bir koşul ya da bir parçası olduğudur. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1937}
+Beşinci: Anmayı gizlemek: İlk nesiller, gizli anmanın sözlü anmaya üstünlüğü konusunda farklı görüşteydi; örneğin, İzzeddin ibn Abdülselam ve İbn Hajar el-Heytami şöyle demiştir: Kalbi hatırlamak daha iyidir, Kadi İyad ve el-Balkini ise dil uygulamasını tercih ettiler. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1937}

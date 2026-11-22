@@ -1,0 +1,32 @@
+---
+id: concept/al-arabiyya-fi-jordan
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/al-arabiyya-fi-jordan.md}
+---
+## Özet
+Ürdün'de Arapça hakkında bulunanlar: Constitution tarafından sunulan anayasanın 2. maddesi, Kongre Kütüphanesi'nin Arapça biçimleri, bedeviler ve komşular ile küçük gruplarla paylaşılan lehçeler üzerine çalışmasının tanımı ve Manchester ile Glottolog'da Levantin sınıflandırması, bulunamayanlar için. Yer için bkz [[place/jordan|. Ürdün. Genel olarak Arap ülkeleri için bkz]]. Arap ülkeleri ve Arap Devletleri Ligi [[concept/al-alam-al-arabi|. Anayasa kararının metnini, müzenin sayfada doğrulamadığı bir araştırma özetinde belirtildiği gibi orijinal dilinde ekledim]].
+
+## Resmi statü
+Ürdün Anayasası'nın İkinci Maddesi, Constitute dergisinde yayımlanan "1952 Modified 2016" başlıklı çevirisinde, İslam'ın devlet dini ve Arapça'nın resmi dil olduğunu belirtir {cite:constituteproject-jordan}. Encyclopaedia Britannica'daki Sami dilleri üzerine makale, Ürdün'ü Arapça'nın resmi dil olduğu ülkeler arasında saymaktadır {cite:britannica-semitic-languages}. Her iki kaynak da hemfikirdir.
+
+## Anayasa metni
+2022 değişikliğinden sonra 1952 Haşimi Krallığı Anayasası, Madde 2. Müze tarafından sağlanan araştırma özetinde Arapça metin yer almaktadır: "İslam devlet dinidir ve Arapça resmi dilidir." Özet, Ürdün'deki Sosyal Güvenlik Yatırım Fonu resmi kaynak olarak belirtilmiştir; müze o sayfayı açmamıştır, çünkü metin alınan özetten alınmıştır ve kurucu bu biçimde kullanımını 21 Kasım 2026'da {cite:official-constitution-jordan} yetkilendirmiştir.
+
+## Dil Oranları
+Resmi bir atıf yok. Dil 2015 nüfus sayımı anketine dahil edilmemiştir. Özetin adını verdiği kaynaklar ve yıllar: DOS Ürdün / UNSD, 2015. Bu bölüm, müze tarafından sağlanan bir araştırma özetinden alınmıştır; müze, adını verdiği sayfaları açmamış ve kurucu, özetin kullanımına 21 Kasım 2026 {cite:dos-jordan-census-2015-questionnaire} {cite:undata-table-27} tarihinde belirtildiği şekilde izin vermiştir.
+
+## konuşulan lehçeler
+Kongre Kütüphanesi'nin bir çalışması, etnik köken veya din fark etmeksizin her Ürdünlünün Arapça konuştuğunu; bunun üç biçimden oluştuğu belirtiliyor: klasik, modern klasik Arapça ve yerel lehçeler; öğrenenler genellikle modern klasik Arapça ve lehçesini bilir; birçoğu Kur'an ifadelerini ezberler ancak klasik Arapça konuşmaz {cite:loc-jordan-ethnicity-language}. Araştırma, çoğu Ürdünlünün Suriye, Lübnan ve bazı Irak ile paylaşılan bir lehçe konuştuğunu, şehir ve köy sakinleri ile Bedeviler arasında aynı köy içindeki mahallelerde bile farklılıklar olduğunu belirtir. Araplar genellikle Bedevi konuşmasının en saf klasik dile daha yakın olduğuna ve Suudi Arabistan'dan geçen birkaç Bedevinin Suudi'ye yakın bir lehçe konuşabileceğine inanır {cite:loc-jordan-ethnicity-language}. Manchester, Ürdün'ü Levant grubuna yerleştirir ve Glottolog, Güney Levant dili altında 'al-falahi' ve 'al-Madani' {cite:manchester-arabic-structural-variation} {cite:glottolog-arabic} olarak iki tür listeler; ancak bunları Ürdün ile isimleriyle ilişkilendirmez. Manchester web sitesi arşivinde, 2015 yılında Ürdün Arapçasında ödünç alınan kelimeler üzerine bir çalışma vardır; bu çalışma {cite:manchester-arabic-sociolinguistic} olarak okunmamıştır. Ürdün sayfası, lehçesinin bazı bölgelerde Irak ile paylaşıldığını, diğer sınıflandırmalarda ise Irak'ın farklı olduğunu belirtir; bu, daha önce Suriye sayfasında açıklanmıştır. Lehçeler hakkında daha fazla bilgi için [[concept/lahjat-al-sham|Levant lehçesine]] bakınız.
+
+## Diğer diller
+Çalışma, yaklaşık 25.000 Sünni Müslüman Çerkes'ten bahsetmekte ve hepsinin Arapça konuştuğunu, Araplarla melezleşmenin yaygın olduğunu belirtmektedir; yaklaşık iki bin Çeçen, Amman ve İrbid'deki yaklaşık %1 Ermeni olduğunu belirtmektedir; ana dilleri Ermeniler ve İngilizce bu bölümde {cite:loc-jordan-ethnicity-language} belirtilmemiştir. Ürdün'ün Arapça olmayan dilleri veya soyları bulunmamıştır ve rakamlar eski bir çalışmadan alınmıştır.
+
+## Modern Standart Arapça ve konuşulan diller birlikte
+Manchester Üniversitesi'nin Arap lehçeleri sayfası, Arap dünyasındaki genel durumu üç seviyeden oluştuğu şekilde tanımlar: Devlet dili, eğitim, hizmetler ve medya olarak Modern Standart Arapça; Kur'an'da Klasik Arapça, dini metinler ve ibadet; ve günlük iletişim için konuşulan lehçeler. Sayfanın gözünde, genellikle insanlar için pek bir değer taşımaz, ancak şarkı, tiyatro ve sinemada yaygın olarak kullanılır {cite:manchester-arabic-sociolinguistic}. Bu, sadece bu ülkenin değil, Arap dünyasının genel bir tanımıdır ve orada bunu ölçen herhangi bir çalışma okunmamıştır. Modern Standart Arapça ile konuşulan diller arasındaki ilişki [[concept/al-fusha-wal-lahajat|için bkz. Modern Standart Arapça ve günümüzde konuşulan]] lehçeler ve Standart Standart Arapçadan önceki kabile [[concept/lughat-al-qabail|dilleri ile kabilelerin dilleri ve Kurayş dili]] arasındaki farklılıklar nedeniyle.
+
+## bu sayfa ona bilgi vermezse
+Bu ülkede Arapça konuşan sayısı veya okuduklarında dil yüzdesi bulunmamıştır; CIA'nın Küresel Bilgi Kitabı'ndaki devlet sayfası artık mevcut değildir, çünkü 4 Şubat 2026 tarihli bir bülten yayının durdurulduğunu duyurmaktadır. Encyclopaedia Britannica'daki devlet sayfası, mevcut araç veya Ethnologue sayfası kullanılarak okunamıyordu. Burada ansiklopediden alıntılananlar daha önce okunan kaynaklardan alınmıştır. Resmi statü bölümündeki anayasa ifadeleri çevrilmiş metinlerden alınmışken, anayasa metni metni müze tarafından sağlanan ve sayfalarda doğrulanmamış bir araştırma özetinden alınmıştır. Müze, Birleşmiş Milletler ve UNESCO'daki diğer Arapça sayfa sayısını, [[concept/al-arabiyya-fi-al-alam-al-yawm|sayısını veya konuşmacı sayısını tahmin]] etmemektedir. Bu sayfa her ifadeyi kendi sayfasına atfeder ve insan okunmasıyla değil, bu kaynaklardan yazılmıştır; eski veya üçüncü sınıf olanlar yeniden doğrulanır.
+
+21 Kasım 2026'da eklenen not: Anayasa metni ve dil atıflarıyla ilgili bölümler, müze tarafından sağlanan iki araştırma özetinden alınmıştır ve müze, adını verdikleri sayfaları açmamıştır; bu bölümde bir metnin veya atıfın okunmadığı belirtilmişse, müzenin önceki okumaları anlatılır ve okunmamıştır.

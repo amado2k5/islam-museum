@@ -1,0 +1,36 @@
+---
+id: concept/riaya
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/riaya.md}
+---
+## Ringkasan
+"Kepedulian" adalah peringkat [[concept/al-maqamat-wal-ahwal|kedua puluh tiga]] di antara [[work/madarij-al-salikin|para pencari]]. Ibn al-Qayyim [[person/ibn-qayyim-al-jawziyya|mendefinisikannya]] sebagai mengamati pengetahuan dan melestarikannya melalui tindakan, berpegang pada tindakan dengan kebaikan dan [[concept/ikhlas|ketulusan]] serta melindunginya dari bahaya, serta mempertimbangkan kondisi dengan menyetujui dan melestarikannya dengan membuat perbedaan; "jadi kehati-hatian dijaga dan dipegang." {cite:madarij-salikin-mukhtar-v1 p. 482}
+
+## Novel, Pengetahuan, dan Perawatan
+Ibn al-Qayyim menganggap tingkat pengetahuan dan tindakan adalah tiga: 'narasi,' yang hanya menyampaikan dan membawa narator; 'Dirayah,' yang merupakan pemahaman dan penalaran dengan maknanya; dan 'Riyah,' yang bertindak sesuai dengan apa yang ia pelajari dan implikasinya; kemudian ia berkata: 'Migrasi adalah perhatian utama narasi, perhatian para sarjana adalah pemahaman, dan pengetahuan adalah perhatian terhadap perhatian.' {cite:madarij-salikin-mukhtar-v1 p. 482}
+
+## Puisi Monastisisme
+Ibn al-Qayyim mengutip ayat [[passage/quran-57-27|27 bahwa]] Tuhan mengutuk mereka yang tidak mengamati apa yang mereka ciptakan dari monastisisme sebagai hak untuk merawatnya, dan ia berhenti sejenak pada tata bahasa gramatikalnya sebagai "monastisisme" dalam akusatif oleh kata kerja "ibta'itah" (ia yang menciptakannya) pada objek kerja, baik melalui kata kerja yang disebutkan menurut Kufan atau oleh dekrit yang ditafsirkan sebagai Basranis, bukan berdasarkan kemunculan sebutan di atasnya. Dengan demikian, jeda lengkap adalah "dan rahmat" menurut dia. {cite:madarij-salikin-mukhtar-v1 p. 482} Tiga aspek disebutkan dalam akusatif "kecuali untuk mencari kersanan Allah": itu adalah objek atau pengganti objek "Kami yang menulisnya," dan ia menolak kedua kasus tersebut, dan kemungkinan besar itu adalah pengecualian yang terpisah, artinya mereka hanya menciptakannya untuk mencari kehendak Tuhan, lalu mereka disalahkan karena mengabaikannya. {cite:madarij-salikin-mukhtar-v1 p. 482} {cite:madarij-salikin-mukhtar-v1 p. 483}
+
+## Siapa pun yang berpegang pada kedekatan yang harus dia jaga
+Ibn al-Qayyim menyimpulkan dari ayat tersebut bahwa siapa pun yang berkomitmen kepada Allah dalam bentuk kedekatan apapun tidak berkewajiban oleh Allah, dia wajib merawat dan menyelesaikannya. Dia menyebutkan bahwa banyak ahli hukum mewajibkan mereka yang telah menetapkan ketaatan yang direkomendasikan untuk menyelesaikannya, menjadikan komitmen inisiasi seperti membuat janji. Dia mengaitkan ini dengan Abu Hanifa, Malik, dan [[person/ahmad-ibn-hanbal|Ahmad]] dalam salah satu narasi, dan mengatakan itu adalah konsensus atau seperti konsensus dalam salah satu dari dua ritual, tanpa memeriksa masalah ini secara mendalam. Dia kemudian menyatakan: Jika Allah mengutuk mereka yang tidak menghormati pengabdian yang Dia inovasi, bagaimana dengan yang tidak menganggap pengabdian yang diatur oleh Allah? {cite:madarij-salikin-mukhtar-v1 p. 483} Di pinggir terdapat komentar bertanda tangan bernama "Al-Faqi" yang sangat mengkritik monastisisme Kristen dan mengaitkannya dengan Sufi, yang merupakan keputusan komentator, bukan kata-kata Ibn al-Qayyim. {cite:madarij-salikin-mukhtar-v1 p. 483}
+
+## Definisi Al-Harawi dan Derajatnya
+Ibn al-Qayyim mengutip [[person/al-ansari-al-harawi-abd-allah|al-Harawi]]: Perawatan adalah 'pelestarian dengan perawatan,' yang terdiri dari tiga tingkat: merawat perbuatan, merawat kondisi, dan merawat waktu. Verifier menyebutkan bahwa bagi al-Harawi ini adalah peringkat utama kategori ketiga [[work/manazil-al-sairin|rumah]], yaitu kategori transaksi. {cite:madarij-salikin-mukhtar-v1 p. 483} Ibn al-Qayyim menafsirkan 'menjaga dengan perhatian' sebagai pelestarian, perawatan, dan pemenuhan hak barang penggembalaan, seperti gembala. {cite:madarij-salikin-mukhtar-v1 p. 484}
+
+## Sponsor Bisnis
+Menurut al-Harawi, itu berarti memberikannya dengan merendahkannya, melakukannya tanpa melihatnya, dan memimpinnya menurut jalan ilmu, bukan hiasan. Ibn al-Qayyim menjelaskan menyelamatkan dengan bebas dari pengabaian kekurangan atau kelebihan dengan menambah tindakan yang ditetapkan, dan merendahkan dengan merendahkan tindakan itu sendiri, karena apa yang sesuai dengan kebesaran Allah adalah hal lain. Dia melaporkan bahwa tanda menerima perbuatan adalah penghinaan dan kemerdekaan, mengutip Nabi yang memohon pengampunan tiga kali setelah salam doa, perintah untuk mencari pengampunan setelah Haji, dan pujian bagi mereka yang memohon pengampunan setelah shalat malam. Dia menjelaskan "tanpa melihatnya" sebagai tidak mencantumkan atau menyebutkannya karena takut akan keajaiban dan kebaikan, dan "melakukannya sesuai dengan ilmu" berarti bahwa itu didasarkan pada pengetahuan yang diperoleh dari ceruk kenabian dengan ketulusan dan bukan keindahan di antara manusia. {cite:madarij-salikin-mukhtar-v1 p. 484}
+
+## Perawatan Status
+Menurut al-Harawi, ijtihad dianggap sebagai cermin, kepastian sebagai kejenuhan, dan keadaan klaim; yaitu, menuduh diri sendiri dalam ijtihadnya dan tidak kewalahan atau ditenangkan olehnya. {cite:madarij-salikin-mukhtar-v1 p. 484} Ibn al-Qayyim menafsirkan 'jenuh' sebagai hadits 'orang yang puas dengan apa yang tidak diberikan pakaian palsu,' dan ia menyebutkan dua aspek kepastian: bahwa apa yang ia peroleh dengan kepastian adalah anugerah dari Allah dan karunia yang tidak dimiliki hamba, atau bahwa ia menuduh keyakinannya tidak memperoleh apa yang layak diterimanya; dan menggeneralisasi ini menjadi kebenaran, ketulusan, dan pengetahuan. Adapun memandang keadaan sebagai klaim, hal itu memurnikan jiwa dari 'kecerobohan tuntutan' yang ia atribusikan kepada Setan. {cite:madarij-salikin-mukhtar-v1 p. 485}
+
+## Menjaga waktu
+Menurut al-Harawi, itu adalah berhenti di setiap langkah, lalu menjauh dari kehadiran kemurnian citranya, dan kemudian meninggalkan saksi kemurniannya. Ibn al-Qayyim menjelaskannya: berdiri di hadapan setiap gerakan yang tampak dan tersembunyi untuk memperbaikinya dengan niat, ketulusan, dan tindak lanjut, tidak melangkah "agresif dan liar," lalu menghilang dari saksi keutamaannya sendiri, karena kemurnian itu berasal dari gambarnya sendiri, yaitu dirinya sendiri, dan kemudian dia tidak memperhatikan kemurnian itu sendiri karena itu adalah sisa jiwa. Editor menyebutkan bahwa kata-kata pada stasiun-stasiun dalam manuskripnya sedikit berbeda. {cite:madarij-salikin-mukhtar-v1 p. 485} {cite:madarij-salikin-mukhtar-v1 p. 486}
+
+## Keterkaitannya dengan pengawasan
+Segera setelah perawatan datang tingkat [[concept/muraqaba|pengawasan]], yang didefinisikan Ibn al-Qayyim sebagai pengetahuan berkelanjutan hamba akan kebenaran dalam bentuk lahiriah dan dalamannya. {cite:madarij-salikin-mukhtar-v1 p. 486}
+
+## Apa yang tidak disebutkan di sini
+Ia belum menambahkan teks Al-Harawi sendiri, juga belum dijelaskan secara rinci tentang kewajiban doa sukarela yang dimulai dari buku fiqh.

@@ -1,0 +1,18 @@
+---
+id: person/bapsi-sidhwa
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/bapsi-sidhwa.md}
+---
+## Özet
+Babsi Siddhwa (1938–2024), İngilizce yazan ve Amerika Birleşik Devletleri'nde yaşayan Pakistanlı bir romancıydı. Karaçi'de Zerdüşt bir Parsi ailesinde doğdu ve Lahor'da büyüdü. İki yaşında çocuk felci oldu ve hayatı boyunca etkilerini yaşadı. {cite:wikipedia-bapsi-sidhwa-en} Hindistan'ın bölünmesini konu alan "Ice-Candy-Man" (1988; 1991'de Amerika Birleşik Devletleri'nde "Cracking India" adıyla yayımlandı) adlı romanıyla ünlendi. Deepa Mehta, bu romanı "Earth" (1998) filmine uyarladı ve romanı "Water" (2006) filme uyarlandı. {cite:wikipedia-bapsi-sidhwa-en} 1991'de Pakistan 'Mükemmellik Yıldızı' madalyasını aldı, 2000 yılında Zerdüşt Onur Listesi'ne alındı ve 25 Aralık 2024'te Houston'da vefat etti. {cite:wikipedia-bapsi-sidhwa-en} {cite:fezana-bapsi-sidhwa-memoriam}
+
+## Hayatı
+Siddhwa, 11 Ağustos 1938'de Karaçi'de bir Peştun ve Tahmina Bhandara'nın kızı olarak doğdu ve ailesi doğumundan yaklaşık üç ay sonra Lahor'a taşındı. {cite:wikipedia-bapsi-sidhwa-en} İki yaşında çocuk felci kaptı; bu hastalık ağır çocukluk ameliyatları gerektirdi ve ömür boyu sürecek bir etki bıraktı; Lahor'da büyüdü ve daha sonra romanlarında yer alan bölünme şiddetinin sahnelerine tanık oldu. {cite:wikipedia-bapsi-sidhwa-en} 1957'de Lahor'daki Kennard Koleji'nden lisans derecesi aldı, on dokuz yaşında evlendi ve Bombay'a taşındı; evlilik beş yıl sonra sona erdi, bu yüzden Lahor'a döndü, ardından Zerdüşt olan Noshir Siddhwa ile evlendi, çocuklarını orada büyüttü ve yazmaya başladı. {cite:wikipedia-bapsi-sidhwa-en} Harvard'da bir bursun ardından Columbia Üniversitesi'nde eğitim gördü, ardından Houston'a yerleşerek St. Thomas Üniversitesi, Rice Üniversitesi Sürekli Eğitim Okulu'nda ve diğerlerinde eğitim gördü. {cite:wikipedia-bapsi-sidhwa-en} Siddhwa'nın kendisi bir Zerdüşttü: Vizana'nın ölüm ilanında Houston Zerdüşt Derneği'ndeki aktif faaliyetlerinden bahsediliyor ve ruhu için Zerdüşt dualarıyla sona eriyor. {cite:fezana-bapsi-sidhwa-memoriam} 25 Aralık 2024'te Houston, Teksas'ta seksen altı yaşında hayatını kaybetti. {cite:wikipedia-bapsi-sidhwa-en} {cite:fezana-bapsi-sidhwa-memoriam}
+
+## Eserleri
+Romanları, büyüdüğü Lahor'dan materyal alır. "The Crow Eaters" (1978) romanı bir Parsi ailesinin komik tasviridir; "Gelin" (1982), Kohistan dağlarında evlenen bir kabile kızını konu alır; "Buz Şeker Adam" (1988), Bölünme hikayesini Lahor'da yaşayan Parsi çocuğu Lenny'nin gözünden anlatır; ve "Bir Amerikan Çocuğu" (1993) ise bir Pakistanlı kızı Amerika Birleşik Devletleri'ne gönderir. {cite:wikipedia-bapsi-sidhwa-en} Deepa Mehta, "Buz Şeker Adam"ı "Earth" (1998) filmine, romanı "Water"ı (2006) ise "Water" (2005) filmine uyarlamıştır. {cite:wikipedia-bapsi-sidhwa-en} Ayrıca Lahor için 'City of Sin and Splendour' adlı kitabı (2006) editörlüğünü yaptı ve 2013'te 'Their Language of Love' adlı kitabı yayımladı. {cite:wikipedia-bapsi-sidhwa-en} Onurlar arasında 'Curtain of Excellence' (1991), Leila Wallace–Reader's Digest Book Award (1994) ve İtalyan Mondello Ödülü 'Water' (2007) yer alıyor; ve 'Vizana', 2022'de Pepsi Siddhwa Edebiyat Ödülü'nü kurdu. {cite:wikipedia-bapsi-sidhwa-en} {cite:fezana-bapsi-sidhwa-memoriam}
+
+## Kaynaklar
+- Yukarıda belirtilen kaynaklar `data/source/` altında listelenmiştir.

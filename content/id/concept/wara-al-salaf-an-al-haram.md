@@ -1,0 +1,36 @@
+---
+id: concept/wara-al-salaf-an-al-haram
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/wara-al-salaf-an-al-haram.md}
+---
+## Ringkasan
+Ini adalah catatan cerita: menceritakan apa yang tercatat di museum tentang kesalehan Nabi, para Sahabat, dan para Pengikut di tengah hal-hal terlarang dan meragukan, masing-masing cerita dengan posisinya sendiri. Di antaranya adalah tanggal yang jatuh dan Nabi meninggalkannya karena takut itu adalah amal, cucunya Al-Hasan dan tanggal amal, Abu Bakr dan makanan yang diperoleh dari ramalan, dan Umar beserta susu unta memberikan sedekah. Kemudian ada pepatah dan cerita tentang menghindari apa yang diperbolehkan demi kehati-hatian terhadap apa yang salah, semuanya dikaitkan dengan sumbernya.
+
+## Per tahun
+Tanggal yang ditemukan oleh Nabi. [[passage/bukhari-api-2055|Sahih al-Bukhari 2055]] menceritakan dari Anas bahwa Nabi melewati tanggal yang jatuh dan berkata, 'Jika bukan amal, saya akan memakannya' {cite:sahih-al-bukhari 2055}. Ia menambahkan bahwa Hammam menceritakannya dari Abu Huraira dengan kata-kata bahwa ia menemukan kurma jatuh di atas tempat tidurnya {cite:sahih-al-bukhari 2055}.
+
+Al-Hasan dan tanggal amal. [[passage/bukhari-api-1491|Sahih al-Bukhari 1491 menceritakan]] dari Abu Huraira bahwa Al-Hasan ibn Ali mengambil kurma dari tanggal amal dan memasukkannya ke mulutnya. Nabi berkata, 'Kakh kakh' untuk membuangnya, lalu berkata: 'Apakah engkau tidak mengira kami tidak makan amal?' {cite:sahih-al-bukhari 1491}.
+
+Meninggalkan apa yang diperbolehkan. [[passage/tirmidhi-api-2451|Jami' at-Tirmidhi 2451]] menceritakan dari Atiyah al-Sa'di, salah satu sahabat Nabi, bahwa Rasulullah berkata seorang hamba tidak mencapai usia menjadi saleh sampai ia meninggalkan apa yang diperbolehkan karena berhati-hati atas kesalahan. Abu Isa mengatakan ini adalah hadits yang baik dan aneh yang hanya diketahui dari sudut pandang ini {cite:jami-al-tirmidhi 2451}.
+
+## Dalam berita tentang Para Sahabat, Pengikut, dan buku-buku para sarjana
+Abu Bakr dan Makanan Ramal. Aisha mengatakan dalam [[passage/bukhari-api-3842|Sahih al-Bukhari 3842]] bahwa Abu Bakr memiliki seorang anak laki-laki yang membawa pajak kepadanya dan dia biasa makan dari itu. Suatu hari, Abu Bakr membawakan sesuatu kepadanya, dan Abu Bakr makan dari itu. Anak itu berkata kepadanya, 'Apakah kamu tahu apa ini?' Dia menjawab, 'Apa itu?' Dia berkata, 'Saya sedang meramal untuk seorang pria di era pra-Islam, dan peramal terbaik adalah kecuali saya menipunya.' Dia bertemu saya dan memberitahu saya itu. Inilah yang saya makan. Kemudian bagian rekaman pada perbuatan Abu Bakr {cite:sahih-al-bukhari 3842} terhenti.
+
+Umar dan susu amal. [[passage/muwatta-api-606|Muwatta Malik 606]] menceritakan dari Aslam bahwa Umar ibn Al-Khattab minum susu dan terkesan. Ia bertanya kepada orang yang memberinya susu dari mana asal susu itu. Ia mengatakan bahwa ia datang ke air yang ia beri nama dan mendapati itu adalah berkah amal saat mereka menyiram. Mereka memerah susunya, dan ia memasukkannya ke dalam mangkuk penyiramnya. Umar memasukkan tangannya dan mengambilnya {cite:muwatta-malik 606}.
+
+Ahmad dan pertanyaan tentang kesalehan. Dalam [[passage/sahaba-safwat-safwa-halal-1-429|deskripsi kaum elit]], diceritakan dari Ahmad ibn Abdullah ibn Khalid bahwa Ahmad ibn Hanbal ditanya tentang pertanyaan tentang kesalehan, dan ia mengatakan ia memohon ampunan kepada Allah dan bahwa tidak diperbolehkan baginya untuk berbicara tentang masalah kesalehan. Bagian tersebut berhenti di situ {cite:sifat-al-safwa-tartusi-2012 p.429}.
+
+Malik ibn Dinar dan tanggal yang sah. Abu Nu'aym menceritakan dalam [[passage/sahaba-hilyat-awliya-halal-2-371|Hilyat al-Awliya]] dari Malik ibn Dinar bahwa ia mengatakan memberikan amal dengan tanggal yang sah lebih disukainya daripada memberi amal dengan seratus ribu yang tidak sah {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 p.371}.
+
+Hati dan godaan. Abu Nu'aym menceritakan bahwa ujian dihadapkan kepada hati; setiap hati yang meminumnya ditandai dengan rasa gelap; jika menolak, noda putih akan ditusuk. Siapa pun yang ingin tahu apakah dia telah dilanda godaan harus melihat; jika dia melihat apa yang dia anggap terlarang atau dilarang, maka dia telah menderita {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 p.273}. Laporan yang sama menyebutkan [[passage/sahaba-hayat-sahaba-halal-1-530|kehidupan Para Sahabat]] {cite:hayat-al-sahaba-kandahlawi-sabbani p.530} dan [[passage/sahaba-safwat-safwa-halal-1-220|deskripsi elit]] {cite:sifat-al-safwa-tartusi-2012 p.220}.
+
+Mereka yang berpuasa dan berdoa adalah orang saleh. Di [[passage/sahaba-hilyat-awliya-halal-1-178|satu tempat dalam Ornamen Para Kudus]], ada laporan tentang suatu bangsa yang dulu berpuasa dan berdoa, tetapi ketika sesuatu yang terlarang terjadi pada mereka, mereka akan melompat ke arahnya, dan Tuhan membatalkan perbuatan mereka. Hal ini dikatakan sebagai tanggapan atas ketakutan seorang penanya bahwa dia mungkin salah satu dari mereka {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 p.178}.
+
+Tingkat kesalehan. Al-Ghazali menceritakan dalam [[passage/ihya-halal-2-132|Ihya Uloom al-Din]] dari Ibrahim ibn Adham bahwa asketisme adalah wajib, supererogatori, dan aman; demikian pula wajib adalah asketisme dalam hal yang terlarang, sukarela adalah asketisme dalam hal-hal yang sah, dan keselamatan adalah asketisme dalam hal-hal yang meragukan {cite:ihya-shamela-dar-al-marifa p.132}. Pada halaman [[passage/ihya-halal-3-223|223]], dia mengulangi ini {cite:ihya-shamela-dar-al-marifa p.223}. [[passage/sahaba-hilyat-awliya-halal-9-84|Hilyat al-Awliya menyebutkan]] kategori orang yang takut, beberapa di antaranya meninggalkan yang terlarang karena takut akan bencana, dan mengatakan bahwa para pertapa meninggalkan tindakan yang jelas terlarang, dan para pertapa meninggalkan semua keraguan {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 p.84}. Ibn Rajab menyebutkan dalam [[passage/jami-ulum-hikam-halal-2-626|Jami' al-Ulum wal-Hikam]] Para ulama saleh seperti Ahmad dan Malik sangat ingin menggunakan istilah terlarang untuk sesuatu yang mereka sendiri tidak yakin akan dilarang, yang diragukan atau kontroversial. Dilaporkan dari al-Nakha'i bahwa mereka tidak menyukai hal-hal yang tidak mereka larang {cite:ibn-rajab-jami-ulum-hikam p.626}.
+
+Dalam [[passage/muwafaqat-halal-2-69|Al-Muwafaqat]] karya Al-Shatibi, dinyatakan bahwa apa yang diperbolehkan bisa menjadi sarana untuk melakukan apa yang dilarang, sehingga dibiarkan sebagai sarana, seperti yang dikatakan: Aku meninggalkan selubung yang sah di antara diriku dan yang terlarang dan tidak melarangnya {cite:muwafaqat p.69}. [[passage/muwafaqat-halal-1-189|Halaman 189]] dan [[passage/muwafaqat-halal-2-229|229]] mengulangi pandangan ini {cite:muwafaqat p.189} {cite:muwafaqat p.229}.
+
+## Di museum
+Halal and Haram Browser mengumpulkan segala sesuatu yang berkaitan dengan topik ini dalam sumber museum, beserta sumber setiap teks. Catatan komprehensif untuk bagian ini adalah [[concept/halal-haram|apa yang halal, haram, dan mana yang diragukan]].

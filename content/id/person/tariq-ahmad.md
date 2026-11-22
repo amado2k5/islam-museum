@@ -1,0 +1,18 @@
+---
+id: person/tariq-ahmad
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/tariq-ahmad.md}
+---
+## Ringkasan
+Tariq Ahmed, Baron Ahmed dari Wimbledon, adalah seorang pengusaha Inggris dan bangsawan Konservatif seumur hidup, lahir dengan nama Tariq Mahmoud Ahmed di Lambeth, London, pada 3 April 1968. Setelah berkarier di bidang perbankan dan keuangan, ia masuk ke House of Lords pada tahun 2011 dan memegang posisi menteri kontrak penuh, terakhir sebagai Menteri Negara untuk Timur Tengah, Asia Selatan, dan Perserikatan Bangsa-Bangsa dari tahun 2017 hingga 2024. Ia adalah anggota Komunitas Muslim Ahmadiyya. {cite:wikipedia-tariq-ahmad-en} {cite:wikipedia-tariq-ahmad-ar}
+
+## Kehidupan
+Ahmed lahir di Lambeth dari orang tua imigran yang berbahasa Punjabi dari Pakistan; ayahnya lahir di Gurdaspur dan ibunya di Jodhpur, yang saat itu masih merupakan India Britania. {cite:wikipedia-tariq-ahmad-en} Ia belajar di Rattless School di Merton Park dan meraih gelar Sarjana Seni dari University of London South Bank. {cite:wikipedia-tariq-ahmad-en} Ia menikah dengan teman Ahmed dan memiliki dua anak. {cite:wikipedia-tariq-ahmad-en} Keanggotaannya dalam Komunitas Islam Ahmadiyya dibuktikan oleh teks-teks independen: artikel berbahasa Inggris menyebutkan bahwa dia adalah bagian dari kelompok tersebut dan pernah menjabat sebagai wakil presiden organisasi pemuda mereka, Khaddam Ahmadiyya, {cite:wikipedia-tariq-ahmad-en}. Artikel Arab secara eksplisit menyatakan bahwa dia "berasal dari komunitas Ahmadiyya" dan "anggota komunitas Ahmadiyya," {cite:wikipedia-tariq-ahmad-ar}. Aliansi Evangelikal menulis pada tahun 2018 bahwa "Lord Ahmad Muslim Ahmadi," mengutip pernyataannya saat menjadi utusan Perdana Menteri untuk kebebasan beragama: "Sebagai seorang pria beriman, saya merasakan hal ini dengan mendalam." {cite:evangelical-alliance-lord-ahmad-2018}
+
+## Karya
+Ahmed bergabung dengan program pascasarjana di NatWest Bank pada tahun 1991, kemudian bekerja di Bernstein Alliance, dan sejak 2004 menjadi direktur di Skidden Financial. {cite:wikipedia-tariq-ahmad-en} Ia menjabat sebagai anggota dewan lokal di Wimbledon dari 2002 hingga 2014 dan sebagai Wakil Pemimpin Partai Konservatif dari 2008 hingga 2010. {cite:wikipedia-tariq-ahmad-en} Ia dianugerahi gelar seumur hidup pada Januari 2011 sebagai Baron Ahmed Wimbledon, memegang posisi junior di Kementerian Komunitas dan Pemerintahan Lokal, Kementerian Transportasi, dan Kementerian Dalam Negeri, di mana ia menjabat sebagai Menteri Kontra-Ekstremisme. {cite:wikipedia-tariq-ahmad-en} Dari 2017 hingga 2024, ia menjabat sebagai Menteri Negara di Kementerian Luar Negeri yang mencakup Asia Selatan, Persemakmuran, Perserikatan Bangsa-Bangsa, Timur Tengah, dan Afrika Utara. Ia juga menjabat sebagai Perwakilan Khusus Perdana Menteri untuk Pencegahan Kekerasan Seksual dalam Konflik, dan sejak 2018 sebagai Utusan Khusus Perdana Menteri untuk Kebebasan Beragama atau Kepercayaan. {cite:wikipedia-tariq-ahmad-en} {cite:evangelical-alliance-lord-ahmad-2018} Pada upacara ulang tahun Raja tahun 2024, ia dianugerahi Ordo St. Michael dan St. George dengan pangkat Knight Commander atas jasa-jasa pada kebijakan luar negeri Inggris, urusan kemanusiaan, Persemakmuran, iman, integrasi, komunitas, dan keluarga. {cite:wikipedia-tariq-ahmad-en}
+
+## Sumber
+- Sumber-sumber yang disebutkan di atas tercantum di bawah `data/source/`.

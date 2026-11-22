@@ -1,0 +1,9 @@
+---
+id: group/banu-abd-al-madan-najran
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/group/banu-abd-al-madan-najran.md}
+---
+## Ringkasan
+Banu Abd al-Madan adalah sebuah suku di Najran yang disebutkan oleh narator dalam laporan [[group/banu-al-harith-ibn-kab|serangan oleh Banu al-Harith]] pada malam tanggal tujuh belas Ramadan tahun 286 H. Mereka ditemani oleh sekelompok pria Madani bersama [[person/abdullah-ibn-al-husayn-al-rassi|Abdullah ibn al-Husayn]] dan [[person/ahmad-ibn-muhammad-governor-of-najran|Ahmad ibn Muhammad]], dan tiga di antaranya tewas {cite:sira-hadi-ila-al-haqq p.146}. Kemudian Banu Abd al-Madan, yang bersama mereka, meminta untuk pulang ke rumah mereka karena takut akan kehancuran, dan mereka menjawab. Kemudian mereka berteriak kepada para pendukung mereka dan bertarung melawan Banu al-Harith hingga pagi {cite:sira-hadi-ila-al-haqq p.146}. Setelah itu, Hamdan mengatakan kepada kedua pria itu bahwa mereka tidak mempercayai Banu Abd al-Madan atas mereka dan bahwa itu adalah otentik bagi mereka bahwa Banu al-Harith menanggapi apa yang diminta {cite:sira-hadi-ila-al-haqq p.146} kepada {cite:sira-hadi-ila-al-haqq p.147}, lalu mengirim sekelompok dari mereka bersama [[person/al-mujahir-ibn-ziyad-al-qatani|Al-Majhir ibn Ziyad]] kepada Abu Muhammad untuk bersekutu dengan mereka {cite:sira-hadi-ila-al-haqq p.147}. Laporan ini mewakili kisah narator Zaydi tentang sebuah suku yang sikapnya berubah-ubah, dan museum tidak menghakimi mereka. Lihat [[event/banu-al-harith-attack-abdullah-ibn-al-husayn-and-ahmad-ibn-muhammad-at-najran-286]] dan [[event/pledge-at-najran-and-the-fight-below-minas-286]].

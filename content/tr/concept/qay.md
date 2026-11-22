@@ -1,0 +1,34 @@
+---
+id: concept/qay
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/qay.md}
+---
+## Özet
+Dilbilimde kusma, 'qāʿ' sözünün fiil isimidir, o zaman dışarı atılan yiyecekleri ifade etmek için kullanılırdı. Terminolojide, yiyecekten mideye yerleştikten sonra çıkan yiyecektir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13102}. Hukukçular, bunu 'qalas'tan ayırır; 'qalas' ağız ile birlikte veya altında boğazdan çıkan, kalmayan bir şeydir; geri dönerse kusmaktır {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13102}. Makale, kusmuğun saflığı ve kirliliğini, ayrıca abdest, namaz ve oruç üzerindeki etkisini ele alır {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13102}.
+
+## Kusmuğun saflığı ve kirliliği
+Hukukçular kusmuğun saflığı ve kirliliği konusunda farklı görüşlere sahip olmuştur {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13103}. Hanefiler, Şafiiler ve Hanbaliler onun kirliliği konusunda yer alır ve her mezhebin kendi ayrıntıları vardır {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13103}.
+- Hanefi'ye göre, kirliliği ağırdır, çünkü bir kişinin bedeninden çıkan ve arınma aracı olan her şey ağırdır ve bu konuda aralarında bir anlaşmazlık yoktur {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13103}. Bu, ağzın dolması kadar geçerlidir; bundan azı ise Ebu Yusuf'un {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13103} görüşüne göre saf sayılır. El-Nasafi fetvalarında, ağzı doldurmak için bir dirhem kusma miktarını aşan her şey giysi giysiyle namaz kılmayı engeller ve Ebu Hanife'den rivayet edilmiştir ki, bu ancak müstehcen değilse yasak değildir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13103}. Beş khamdan giysiyi yıkamaya dair bir hadisi aktardılar ve araştırmacı, bu zincirde iki zayıf adam olduğunu belirtti {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13103}.
+- Şafiilere göre, mide mideye ulaşsa bile değişmese de kirliliği kalır, çünkü mide bozulmaya geçiş yeridir ve dışkılama gibi olur {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13103}. İnsanları etkileyecek kadar bol kusmuk, pirelerin kanı gibi muaftır ve bal için istisna yapılır ve onu saf sayılır {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13103}.
+- Hanbali'ye göre, kirliliği, midede geçersiz hale gelebilen bir yiyecek olmasıdır, bu yüzden dışkıya benzetilir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13104}. Ahmad'ın 'Yasra'sında kan gibi olduğu ve ondan küçük bir kısmının bile muaf olmadığı anlatılır {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13104}.
+- Malikilere göre, kirli kusmuk, yiyecek durumundan değişen ve kirliliğin özelliklerine benzemese bile giysiden, vücuttan veya yerinden yıkanması gereken kusmuktur. Sarı veya balgamla değişiyorsa ve yiyecek halinden çıkmazsa, saf sayılır. Asitlik veya benzeri bir şeyle değişirse, Mudawwana'nın görünürdeki anlamı ve bir grubun seçimi nedeniyle saf sayılır. Diğerleri ise katılmamış ve kusmuk kirliliğin herhangi bir özelliğine benzeyen {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13104} olarak kabul etmiştir.
+
+## Temizlik üzerindeki etkisi
+Maliki ve Şafii mezhebeleri kusmanın abdest almayı geçersiz kılmadığını savunurdu {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13104}. Hanefilere göre, ağız dolu olduğu sürece, ister yiyecek ister su olsun, değişmese bile {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13104} kusma geçersizdir. Ağzı doldurma sınırları, ağzın sadece resmiyet yoluyla kullanılmasıdır ve konuşmanın yasak olduğu söylenir. Kusmayı midenin alt kısmındaki ağzın kirliliği ile açıklamışlardır {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13104}. Ağız dolu değilse kusmaz, balgam kusması da bol olsa bile geçersiz kılmaz. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13104} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13105}.
+- Bir kişi biraz dağınık kusarsa ve ağzının dolgunluğuna ulaşırsa, abdest alma geçersiz sayılır. Toplanma kriterinde bir fark vardır: Ebu Yusuf cemaatin birliğini düşünürken, Muhammed nedenin birliğini, yani mide bulantısını, yazara göre en doğru olanı kabul eder {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13105}. Ve nefes vermekle, az ya da çok kırılır, çünkü iki yolun dışında olan şey yeni bir olaydır {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13105}.
+- Hanbaliler, her bireyin ruhuna kendi görüşüne göre tatmin edilirse ve en ufak bir şekilde de bozmazsa {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13105} iptal edilir.
+
+## Dua üzerindeki etkisi
+Saflık, duanın geçerliliği için bir koşuldur ve saflığı geçersiz kılan şey duayı geçersiz kılar {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13105}.
+- Hanefilere göre, kusmadan önce kirlilik varsa, namaz kılan küçük kişi abdest alır ve gereğinden fazlasını yapmadıkça namazını yapar; aşarsa namazı geçersizdir. Küçük küçük kişi taşahhuddan sonra kusarsa, abdest ve huzur yapar; küçük küçük olan ise sütunlarda hiçbir şey kalmadığı için kasıtlı olarak namaz kılmıştır {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13105} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13106}. Yazar, yürüme, çekimser kalma ve çıkış gibi inşaat kurallarını ve yeniden başlama, imaat ve ardışıklık {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13106} detaylarını belirtir.
+- Maliki'ye göre, kolundan hafif saf bir kusmuk ve ona hiçbir şey eklenmezse, duası geçersiz sayılmaz. Eğer kirli, aşırı ya da kasıtlı olarak geçersiz kılınmışsa, geçersiz sayılır; ama unutkanlıktan yapılırsa, geçersiz sayılmaz. Selamlaşmadan sonra unutkanlığa secdelenir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13106}.
+- Şafiilere göre, kirlilikten önce gelenlerle ilgili iki görüş vardır: yeni durumda namazı geçersiz olur, eski durumda ise geçersiz değildir. Ayrılır, abdest alır ve Aişe'nin dönme ve inşa etme hadislerine dayanarak inşa eder. Kendi isteğiyle bir şey aktardığı için, bu idrar kaçırma gibidir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13106}.
+- Hanbalilere göre, kusma aşırı olursa duası geçersiz sayılır ve duası tekrarlanmalıdır. Ahmad'ın anlatımı, kolay kusması konusunda farklılık gösterir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13107}.
+
+## Oruç üzerindeki etkisi
+Fıkılılar, El-Tirmidhi'nin rivayet ettiği ve iyi {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13107} olarak derecelendirilen "Boğazından kusarsa, orucun boşuna kalan kişinin orucunu geçersiz kılmaz" hadisine dayanarak oruç kusması durumunda oruçun geçersiz kılınmadığını kabul ederler. Kusma oruç tutan kişinin suçu olmadan kendi kendine geri dönerse, Hanefi'lerden Malikiler, Şafiiler ve Ebu Yusuf'a göre orucu geçersiz sayılır, ancak Hanefilerden Hanbali ve Muhammed'e göre oruc geçersiz sayılmaz, çünkü oruc yok {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13107}.
+
+## Arama Konumları
+Yazar, abdest alma kararlarını ayrıntılı olarak 'wudu' maddesinden, oruç kararlarında ise 'fast' {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13105} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13107} girişine atıfta bulunmuştur.

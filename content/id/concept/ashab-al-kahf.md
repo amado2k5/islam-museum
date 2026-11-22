@@ -1,0 +1,28 @@
+---
+id: concept/ashab-al-kahf
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/ashab-al-kahf.md}
+---
+## Ringkasan
+Sheikh Omar Abdul Kafi menggambarkan gua tempat anak-anak itu berlindung sebagai sempit, gelap, dan mengatakan mereka mencari perlindungan di sana tanpa tanda-tanda kelegaan. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:29:30}
+
+## Dari pelajaran Sheikh Omar Abdul Kafi: Penafsiran Al-Qur'an (Episode 4)
+
+Sang Sheikh bertanya kepada pendengarnya tentang gua itu: Apakah gua itu lebih lebar atau lebih sempit, dan apakah gua itu bercahaya atau gelap, menyimpulkan bahwa gua itu sempit dan gelap {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:29:30}. Ia kemudian menyebutkan bahwa para pemuda mencari perlindungan di gua ini tanpa tanda-tanda kelegaan sebelumnya, meskipun mereka berharap Tuhan mereka akan menyebarkan belas kasih-Nya untuk mereka {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:29:30}.
+
+## Ensiklopedia Islam: Mitos dan Asal-usulnya
+Pemilik gua adalah para pemuda yang oleh orang Kristen di Barat disebut 'Tujuh Pemuda Efesus.' Dalam legenda, selama penganiayaan terhadap orang Kristen pada masa pemerintahan Kaisar Decius (249-251 M), tujuh pemuda Kristen melarikan diri ke sebuah gua dekat Efesus, di mana mereka tertidur dengan ajaib, dan ketika ditemukan setelah waktu yang lama, mereka tidur selamanya. Lokasi makam mereka telah menjadi tempat ibadah setidaknya sejak awal abad keenam M. Kisah ini ditemukan dalam banyak literatur Timur dan Barat, terutama Yunani dan Siria, dengan versi Yunani tampaknya yang tertua. {cite:encyclopaedia-of-islam-2 vol. 1 p. 740-741}
+
+## Narasi Al-Qur'an
+Muhammad mengambil legenda tersebut, serta banyak kisah asal Yahudi dan Kristen, dan menggunakannya dalam khotbah dalam Al-Qur'an, dalam Surah Al-Kahf (ayat 9-26), yang menjadi nama surah tersebut. Pilar-pilar cerita ini jelas: para pemuda melarikan diri ke gua untuk benar-benar percaya kepada satu Allah; mereka tidur secara ajaib selama 309 tahun (ayat 25), yang bagi mereka dianggap sebagai hari terbanyak (ayat 19); penemuan mereka terjadi ketika seseorang mengirim koin tua ke Madinah untuk membeli makanan. Namun, beberapa detail masih diragukan. Al-Qur'an sendiri menyebutkan bahwa jumlah anak laki-laki dikatakan tiga, lima, atau tujuh, dan hanya Tuhan yang tahu berapa lama mereka tidur. Anjing yang 'mengembangkan lengannya dengan berburu' (ayat 18) dihitung di antara mereka (ayat 22), seolah-olah dianggap suci. Referensi tentang masjid yang dibangun di tempat peristirahatan mereka (ayat 21) tidak jelas, dan frasa 'al-Raqim' (ayat 9) menjadi bahan perdebatan: para komentator menganggapnya sebagai nama anjing, nama tempat, atau prasasti. {cite:encyclopaedia-of-islam-2 vol. 1 p. 740-741}
+
+## Interpreter, Sebaran, dan Sihir
+Para komentator dan sejarawan Arab mengisi kekosongan dalam teks Al-Qur'an dengan banyak materi dari warisan Kristen Timur tentang Tujuh Anak Laki-laki, karena narasi mereka penting dalam penyebaran legenda sebelum Islam. Ketika legenda ini mulai mapan di kalangan Muslim, legenda ini dikaitkan dengan tempat-tempat di dunia Islam, seperti gua-gua di Yordania timur, Kapadokia, Turkestan Timur, dan Andalusia, meskipun awalnya berasal dari Efesus. Seiring waktu, cerita ini bergeser ke arah sihir. Oleh karena itu, kebiasaan menggantung halaman yang memuat nama anak-anak laki-laki dijelaskan, mencari berkah atau untuk mengusir kejahatan. Nama anjing Kalmir memiliki peran khusus: adalah kebiasaan di kalangan orang Turki di Turkestan Timur dan Indonesia untuk menulis kata "ketmir," yang berarti "tercatat" pada huruf yang dimaksudkan untuk dijaga agar tidak hilang. L. Massignon mencoba membaca cerita dari dalamnya, dalam arti yang terjadi bagi umat Muslim. {cite:encyclopaedia-of-islam-2 vol. 1 p. 740-741}
+
+## Dari program 'Taman Harapan' oleh Omar Abdelkafi
+Sheikh percaya bahwa seseorang tidak memilih takdirnya sendiri tetapi menanggungnya, dan kita diciptakan untuk menjalani hidup, bukan untuk memahaminya. Ia berhenti sejenak saat menggambarkan anak muda seperti yang Tuhan ikat hati mereka, melihat bahwa orang percaya sejati adalah yang terikat pada hatinya, dan hal ini terjadi ketika ia menyerahkan urusan itu kepada Allah seperti pencuri menyerahkan diri dengan mengangkat tangan, dan gua itu sempit dan gelap tanpa sumber daya, namun Allah menyebarkan rahmat-Nya untuk mereka di dalamnya. Kebahagiaan terletak pada sempit dan lebarnya hati, bukan pada sempit dan luasnya tempat itu. Ia membacakan makna sebuah ayat karya Elijah Abu Madi agar sukacita bebas dari istana dan tinggal di pondok itu. {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:10:00}
+
+## Dalam konteks yang tak terlihat
+Mereka tidur selama tiga ratus tahun dan bertambah sembilan tahun — tanda yang tak terlihat dalam waktu dan kebangkitan tanpa korupsi.
