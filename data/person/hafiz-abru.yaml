@@ -1,0 +1,30 @@
+id: person/hafiz-abru
+class: person
+label:
+  ar: "حافظ أبرو"
+  en: "Hafiz-i Abru"
+  ur: "حافظ ابرو"
+  fr: "Hafiz-i Abru"
+  es: "Hafiz-i Abru"
+names:
+  - { value: "Hafiz-i Abru", kind: full }
+gender: male
+summary:
+  ar: "كاتب كتب ذيلاً لجامع التواريخ عن أولجايتو وأبي سعيد ومن خلفهما من الإيلخانيين، يُلحق في آخر المخطوطة {cite:jami-al-tawarikh-khashshab-1960 p. 6}. وقد نشر بياني هذا الذيل في إيران سنة 1937 مع ترجمة فرنسية وتعليقات {cite:jami-al-tawarikh-khashshab-1960 p. 10}."
+  en: "A writer who composed an appendix to the Jami' al-Tawarikh on Oljeitu, Abu Sa'id and their Ilkhanid successors, which is attached at the end of the manuscript {cite:jami-al-tawarikh-khashshab-1960 p. 6}. The introduction says that Bayani published this appendix in Iran in 1937 with a French translation and notes {cite:jami-al-tawarikh-khashshab-1960 p. 10}. The appendix is named again in the introduction's account of the Ilkhanid history {cite:jami-al-tawarikh-khashshab-1960 p. 21}."
+  es: "Escritor que compuso un apéndice a Jami' al-Tawarikh sobre Oljeitu, Abu Sa'id y sus sucesores ilcánidas, que va al final del manuscrito {cite:jami-al-tawarikh-khashshab-1960 p. 6}. La introducción dice que Bayani publicó este apéndice en Irán en 1937 con traducción francesa y notas {cite:jami-al-tawarikh-khashshab-1960 p. 10}."
+  fr: "Auteur d'un appendice au Jami' al-Tawarikh sur Oljeitu, Abu Sa'id et leurs successeurs ilkhanides, placé à la fin du manuscrit {cite:jami-al-tawarikh-khashshab-1960 p. 6}. L'introduction indique que Bayani publia cet appendice en Iran en 1937, avec une traduction française et des notes {cite:jami-al-tawarikh-khashshab-1960 p. 10}."
+  ur: "ایک مصنف جنہوں نے جامع التواریخ کے ساتھ اولجایتو، ابوسعید اور ان کے ایلخانی جانشینوں کے بارے میں ایک ذیل لکھا، جو مخطوطے کے آخر میں ہے {cite:jami-al-tawarikh-khashshab-1960 p. 6}۔ مقدمے کے مطابق بیانی نے 1937ء میں ایران میں یہ ذیل فرانسیسی ترجمے اور حواشی کے ساتھ شائع کیا {cite:jami-al-tawarikh-khashshab-1960 p. 10}۔"
+roles: [historian]
+regions: [persia-central-asia]
+wings: [people, words]
+relations:
+  - { type: authored, target: work/jami-al-tawarikh, note: "Appendix (dhayl) to the Jami' al-Tawarikh, per scan pages 6 and 10; the appendix is not a separate work record in this packet.", sources: [source/jami-al-tawarikh-khashshab-1960] }
+sources: [source/jami-al-tawarikh-khashshab-1960]
+provenance:
+  layer: own-research
+  source: "Scan pages 6, 9, 10 and 14 of source/jami-al-tawarikh-khashshab-1960, OCR by Apple Vision; the 1937 date and the editor name Bayani are read on the OCR and not checked against the image"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "jami-tawarikh-v1-p001-060"
+status: { review: published, generated_by: "Claude Haiku 5.5" }

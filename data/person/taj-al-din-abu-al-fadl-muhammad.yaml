@@ -1,0 +1,32 @@
+id: person/taj-al-din-abu-al-fadl-muhammad
+class: person
+label:
+  ar: "تاج الدين أبو الفضل محمد"
+  en: "Taj al-Din Abu al-Fadl Muhammad"
+  ur: "تاج الدین ابو الفضل محمد"
+  fr: "Taj al-Din Abu al-Fadl Muhammad"
+  es: "Taj al-Din Abu al-Fadl Muhammad"
+names:
+  - { value: "Taj al-Din Abu al-Fadl Muhammad", kind: full }
+gender: male
+summary:
+  ar: "من سلالة علي، بدأ واعظاً في بغداد ثم رقّاه أولجايتو إلى نقابة الأشراف في العراق والري وخراسان {cite:jami-al-tawarikh-khashshab-1960 p. 58}. وفي ذي القعدة سنة 700 هـ قُتل هو وولداه، وفق رواية مؤرخ من آل علي يرويها الخشاب، وقد دبّر رشيد الدين قتله بحسب الرواية {cite:jami-al-tawarikh-khashshab-1960 p. 59}. يرى الخشاب أن الرواية تحمل سمات تثير الريب {cite:jami-al-tawarikh-khashshab-1960 p. 60}. انظر حادثة الإعدام."
+  en: "A descendant of Ali who began as a preacher in Baghdad and was raised by Oljeitu to the office of naqib of the Ashraf in Iraq, Rayy and Khurasan {cite:jami-al-tawarikh-khashshab-1960 p. 58}. According to an Alid chronicler, as the introduction reports it, he and his two sons were killed in Dhu al-Qa'da 700 AH on Rashid al-Din's order, and his body was mutilated by the Baghdad crowd {cite:jami-al-tawarikh-khashshab-1960 p. 59}. The translator notes that this account has features that raise doubt {cite:jami-al-tawarikh-khashshab-1960 p. 60}. See the execution record."
+  es: "Descendiente de Ali, comenzó como predicador en Bagdad y Oljeitu lo elevó al cargo de naqib de los ashraf en Irak, Rayy y Jorasán {cite:jami-al-tawarikh-khashshab-1960 p. 58}. Según un cronista alida, tal como lo recoge la introducción, él y sus dos hijos fueron asesinados en dhu al-qa'da del año 700 de la Hégira por orden de Rashid al-Din, y la muchedumbre de Bagdad mutiló su cuerpo {cite:jami-al-tawarikh-khashshab-1960 p. 59}. El traductor señala que el relato presenta rasgos que despiertan dudas {cite:jami-al-tawarikh-khashshab-1960 p. 60}. Véase el registro de la ejecución."
+  fr: "Descendant d'Ali, il commença comme prédicateur à Bagdad ; Oljeitu l'éleva à la charge de naqib des Ashraf en Irak, à Rayy et au Khorassan {cite:jami-al-tawarikh-khashshab-1960 p. 58}. Selon un chroniqueur alide, tel que l'introduction le rapporte, lui et ses deux fils furent tués en dhu al-qa'da 700 de l'Hégire sur ordre de Rashid al-Din, et la foule de Bagdad mutila son corps {cite:jami-al-tawarikh-khashshab-1960 p. 59}. Le traducteur note que ce récit présente des traits qui suscitent le doute {cite:jami-al-tawarikh-khashshab-1960 p. 60}. Voir la notice de l'exécution."
+  ur: "علی کی نسل سے، بغداد میں واعظ کی حیثیت سے آغاز کیا اور اولجایتو نے انہیں عراق، ری اور خراسان کی نقابتِ اشراف تک بڑھایا {cite:jami-al-tawarikh-khashshab-1960 p. 58}۔ ایک علوی مؤرخ کے بیان کے مطابق، جیسا کہ مقدمے میں نقل ہوا ہے، 700ھ کے ذوالقعدہ میں رشید الدین کے حکم سے انہیں اور ان کے دو بیٹوں کو قتل کیا گیا، اور بغداد کے ہجوم نے ان کی لاش کے ساتھ بدسلوکی کی {cite:jami-al-tawarikh-khashshab-1960 p. 59}۔ مترجم نے نشاندہی کی ہے کہ اس روایت میں ایسی باتیں ہیں جو شک پیدا کرتی ہیں {cite:jami-al-tawarikh-khashshab-1960 p. 60}۔ اعدام کا ریکارڈ دیکھیں۔"
+roles: [preacher, naqib]
+regions: [levant-iraq]
+wings: [people]
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/jami-al-tawarikh-khashshab-1960] }
+  - { type: participated_in, target: event/execution-of-taj-al-din-naqib-700, sources: [source/jami-al-tawarikh-khashshab-1960] }
+  - { type: critic_of, target: person/rashid-al-din-hamadani, note: "The Alid account blames Rashid al-Din; it is reported, not verified, by the introduction.", sources: [source/jami-al-tawarikh-khashshab-1960] }
+sources: [source/jami-al-tawarikh-khashshab-1960]
+provenance:
+  layer: own-research
+  source: "Scan pages 58 to 60 of source/jami-al-tawarikh-khashshab-1960, OCR by Apple Vision; the Alid chronicler is named in the introduction only as 'Umdat al-Talib' in a footnote (scan page 58) and is not separately recorded"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "jami-tawarikh-v1-p001-060"
+status: { review: published, generated_by: "Claude Haiku 5.5" }

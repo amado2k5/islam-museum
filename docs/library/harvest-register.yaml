@@ -18275,8 +18275,8 @@ books:
     physical: {pages: 652}
     ocr: {state: complete, date: '2026-11-21', failed_pages: 0, unzipped_location: books/history/jami-al-tawarikh/, note: 'both PDFs read page by page with Apple Vision (ocrmac accurate), ignoring the archive.org text layer: part 1 412 pages, part 2 240 pages'}
     ocr_archive: {state: none}
-    mining: {state: not_started}
-    ingestion: {state: none}
+    mining: {state: in_progress, entities: '17 data files cite source/jami-al-tawarikh-khashshab-1960 (batch 1, part 1 pages 1-60); further batches follow in the supervisor state packets/jami-supervisor/state.json'}
+    ingestion: {state: partial, graph_ids: [source/jami-al-tawarikh-khashshab-1960, source/tarikh-wassaf]}
     completion: ocr_done
     unverified:
     - edition

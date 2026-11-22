@@ -1,0 +1,31 @@
+id: person/sad-al-din-sawaji
+class: person
+label:
+  ar: "سعد الدين الساوجي"
+  en: "Sa'd al-Din al-Sawaji"
+  ur: "سعد الدین ساوجی"
+  fr: "Sa'd al-Din al-Sawaji"
+  es: "Sa'd al-Din al-Sawaji"
+names:
+  - { value: "Sa'd al-Din al-Sawaji", kind: full }
+gender: male
+summary:
+  ar: "وزير من ساوة، كان يشارك رشيد الدين الوزارة في عهد أولجايتو {cite:jami-al-tawarikh-khashshab-1960 p. 44}. ابتدأ يفقد مكانته في سنة 711 هـ، إذ نافسه علي شاه جيلان فاستولى على مكانه {cite:jami-al-tawarikh-khashshab-1960 p. 54}. وفي خلاف مع رشيد الدين أمام السلطان، وشى به رشيد الدين، فدفع حياته ثمناً لاختلاس حقيقي أو مزعوم، واختير علي شاه ليحل محله {cite:jami-al-tawarikh-khashshab-1960 p. 56}."
+  en: "A vizier from Sawa who shared the vizierate with Rashid al-Din under Oljeitu {cite:jami-al-tawarikh-khashshab-1960 p. 44}. From 711 AH he began to lose his place to Ali Shah al-Jilani {cite:jami-al-tawarikh-khashshab-1960 p. 54}. After a drunken quarrel with Rashid al-Din before the sultan, Rashid reported him, and he paid with his life for embezzlement, real or alleged; Ali Shah was chosen to replace him {cite:jami-al-tawarikh-khashshab-1960 p. 56}."
+  es: "Visir de Sawa que compartió el visirato con Rashid al-Din bajo Oljeitu {cite:jami-al-tawarikh-khashshab-1960 p. 44}. Desde 711 de la Hégira comenzó a perder su posición ante Ali Shah al-Jilani {cite:jami-al-tawarikh-khashshab-1960 p. 54}. Tras una disputa ebria con Rashid al-Din ante el sultán, Rashid lo denunció, y pagó con la vida por malversación, real o supuesta; Ali Shah fue elegido para sustituirlo {cite:jami-al-tawarikh-khashshab-1960 p. 56}."
+  fr: "Vizir originaire de Sawa, qui partagea le vizirat avec Rashid al-Din sous Oljeitu {cite:jami-al-tawarikh-khashshab-1960 p. 44}. À partir de 711 de l'Hégire, il commença à perdre sa place au profit d'Ali Shah al-Jilani {cite:jami-al-tawarikh-khashshab-1960 p. 54}. Après une dispute alcoolisée avec Rashid al-Din en présence du sultan, Rashid le dénonça ; il paya de sa vie un détournement réel ou supposé, et Ali Shah fut choisi pour le remplacer {cite:jami-al-tawarikh-khashshab-1960 p. 56}."
+  ur: "ساوہ کا ایک وزیر، جو اولجایتو کے دور میں رشید الدین کے ساتھ وزارت میں شریک تھا {cite:jami-al-tawarikh-khashshab-1960 p. 44}۔ 711ھ سے اس کا مقام علی شاہ جیلانی کے ہاتھوں جانے لگا {cite:jami-al-tawarikh-khashshab-1960 p. 54}۔ سلطان کے سامنے رشید الدین کے ساتھ ایک نشے کی حالت کے جھگڑے کے بعد رشید الدین نے اس کی شکایت کی، اور حقیقی یا مفروضہ غبن کی وجہ سے اس نے جان دی؛ علی شاہ کو اس کی جگہ منتخب کیا گیا {cite:jami-al-tawarikh-khashshab-1960 p. 56}۔"
+roles: [vizier]
+regions: [persia-central-asia]
+wings: [people]
+relations:
+  - { type: opposed, target: person/rashid-al-din-hamadani, sources: [source/jami-al-tawarikh-khashshab-1960] }
+  - { type: participated_in, target: event/sadr-jahan-fall-697, note: "Named as co-vizier at the time of the trial of Sadr Jahan (scan page 41).", sources: [source/jami-al-tawarikh-khashshab-1960] }
+sources: [source/jami-al-tawarikh-khashshab-1960]
+provenance:
+  layer: own-research
+  source: "Scan pages 28 to 56 of source/jami-al-tawarikh-khashshab-1960, OCR by Apple Vision; the date 711 AH is read on the OCR (scan page 54) and checked on no image; the date of his death is not stated on these pages"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "jami-tawarikh-v1-p001-060"
+status: { review: published, generated_by: "Claude Haiku 5.5" }

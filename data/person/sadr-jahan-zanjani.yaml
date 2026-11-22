@@ -1,0 +1,32 @@
+id: person/sadr-jahan-zanjani
+class: person
+label:
+  ar: "صدر جهان الزنجاني"
+  en: "Sadr Jahan al-Zanjani"
+  ur: "صدر جہاں زنجانی"
+  fr: "Sadr Jahan al-Zanjani"
+  es: "Sadr Jahan al-Zanyani"
+names:
+  - { value: "Sadr al-Din al-Zanjani", kind: full }
+  - { value: "Sadr Jahan", kind: laqab }
+gender: male
+summary:
+  ar: "وزير من زنجان، يلقّب صدر جهان، وكانت بينه وبين رشيد الدين صداقة متينة في البداية {cite:jami-al-tawarikh-khashshab-1960 p. 38}. تقدّم عليه حساده بالسعاية، ثم اعترف بعد ذلك ببراءة صديقه، لكن أعضاء المجلس اتهموه بالاختلاس أمام السلطان، فحكم عليه بالإعدام بعد سنة 697 هـ، وقُسّمت أعمال الوزارة بين رشيد الدين وسعد الدين {cite:jami-al-tawarikh-khashshab-1960 p. 41}."
+  en: "A vizier from Zanjan known as Sadr Jahan, who was at first on close terms with Rashid al-Din {cite:jami-al-tawarikh-khashshab-1960 p. 38}. Rivals set the two against each other; after Sadr Jahan accused Rashid formally before Ghazan and then was himself charged with embezzlement, he was sentenced to death, and the vizierate was divided between Rashid al-Din and Sa'd al-Din {cite:jami-al-tawarikh-khashshab-1960 p. 41}. The introduction reads the year as 697 AH and not 699, as a copying error {cite:jami-al-tawarikh-khashshab-1960 p. 41}. See the event record."
+  es: "Visir de Zanjan conocido como Sadr Jahan, quien al principio mantuvo una estrecha amistad con Rashid al-Din {cite:jami-al-tawarikh-khashshab-1960 p. 38}. Sus rivales los enfrentaron; tras acusar Sadr Jahan formalmente a Rashid ante Ghazan y ser él mismo acusado de malversación, fue condenado a muerte, y el visirato se dividió entre Rashid al-Din y Sa'd al-Din {cite:jami-al-tawarikh-khashshab-1960 p. 41}. La introducción lee el año como 697 de la Hégira y no 699, por error de copia {cite:jami-al-tawarikh-khashshab-1960 p. 41}. Véase el registro del acontecimiento."
+  fr: "Vizir de Zandjan connu sous le nom de Sadr Jahan, qui fut d'abord un proche de Rashid al-Din {cite:jami-al-tawarikh-khashshab-1960 p. 38}. Ses rivaux les opposèrent ; après que Sadr Jahan eut formellement accusé Rashid devant Ghazan, puis fut lui-même accusé de détournement, il fut condamné à mort et le vizirat fut partagé entre Rashid al-Din et Sa'd al-Din {cite:jami-al-tawarikh-khashshab-1960 p. 41}. L'introduction lit l'année 697 de l'Hégire et non 699, comme une erreur de copie {cite:jami-al-tawarikh-khashshab-1960 p. 41}. Voir la notice de l'événement."
+  ur: "زنجان کے ایک وزیر، جو صدر جہان کے نام سے مشہور تھے اور ابتدا میں رشید الدین کے گہرے دوست تھے {cite:jami-al-tawarikh-khashshab-1960 p. 38}۔ حاسدوں نے دونوں کو ایک دوسرے کے خلاف بھڑکایا؛ صدر جہان نے غازان کے سامنے رشید الدین پر باقاعدہ الزام لگایا، پھر خود غبن کے الزام میں پکڑے گئے، انہیں موت کی سزا ہوئی، اور وزارت رشید الدین اور سعد الدین کے درمیان تقسیم ہوئی {cite:jami-al-tawarikh-khashshab-1960 p. 41}۔ مقدمے کے مطابق سال 697ھ ہے نہ کہ 699ھ، جسے نقل کی غلطی سمجھا گیا ہے {cite:jami-al-tawarikh-khashshab-1960 p. 41}۔"
+roles: [vizier]
+regions: [persia-central-asia]
+wings: [people]
+relations:
+  - { type: participated_in, target: event/sadr-jahan-fall-697, sources: [source/jami-al-tawarikh-khashshab-1960] }
+  - { type: opposed, target: person/rashid-al-din-hamadani, note: "Rivalry and then the formal charge; the two were first close friends.", sources: [source/jami-al-tawarikh-khashshab-1960] }
+sources: [source/jami-al-tawarikh-khashshab-1960]
+provenance:
+  layer: own-research
+  source: "Scan pages 37 to 41 of source/jami-al-tawarikh-khashshab-1960, OCR by Apple Vision; the footnote of scan page 38 names Mirkhwand and Khwandamir as sources for the story and is not separately recorded"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "jami-tawarikh-v1-p001-060"
+status: { review: published, generated_by: "Claude Haiku 5.5" }
