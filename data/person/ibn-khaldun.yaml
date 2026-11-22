@@ -4,6 +4,13 @@ aliases: [person/ibn-khaldun-abd-al-rahman]
 label: { ar: "ابن خلدون", en: "Ibn Khaldun", es: "Ibn Khaldun", fr: "Ibn Khaldun", ur: "ابن خلدون" }
 names:
   - { kind: full, lang: ar, value: "ولي الدين أبو زيد عبد الرحمن بن محمد بن خلدون" }
+name_parts:
+  ism: [{ value: "عبد الرحمن", translit: "Abd al-Rahman", certainty: attested, sources: [source/mawsuat-a3lam-ulama-adaba] }]
+  kunya: [{ value: "أبو زيد", translit: "Abu Zayd", certainty: attested, sources: [source/mawsuat-a3lam-ulama-adaba] }]
+  laqab: [{ value: "ولي الدين", translit: "Wali al-Din", certainty: attested, sources: [source/mawsuat-a3lam-ulama-adaba] }]
+  ancestral: [{ value: "ابن خلدون", translit: "Ibn Khaldun", note: "Khaldun is an ancestor of the family, not the father; the full line is given in names", certainty: attested, sources: [source/mawsuat-a3lam-ulama-adaba] }]
+  shuhra: { value: "ابن خلدون", translit: "Ibn Khaldun", certainty: attested }
+  spellings: ["Ibn Khaldun", "Ibn Khaldoun"]
 roles: [historian, philosopher]
 traditions: [sunni]
 born: { edtf: "1332", hijri: "0732", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }

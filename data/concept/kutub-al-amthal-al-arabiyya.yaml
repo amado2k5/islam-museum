@@ -1,0 +1,38 @@
+id: concept/kutub-al-amthal-al-arabiyya
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-lisan]
+label:
+  ar: "كتب الأمثال العربية الكبرى"
+  en: "The great Arabic proverb books"
+  ur: "عربی امثال کی بڑی کتابیں"
+  fr: "Les grands livres de proverbes arabes"
+  es: "Los grandes libros de proverbios árabes"
+summary:
+  ar: "أربعة كتب في الأمثال العربية: كتاب الأمثال لأبي عبيد القاسم بن سلام، وجمهرة الأمثال لأبي هلال العسكري، والمستقصى للزمخشري، ومجمع الأمثال للميداني، بتواريخها وأعداد أمثالها كما ينقلها ملخص بحثي قُدّم إلى المتحف {cite:arabictypinglab-arabic-proverbs} {cite:ketabonline-majma-al-amthal-p16}."
+  en: "Four books of Arabic proverbs: Abu Ubayd al-Qasim ibn Sallam's Kitab al-Amthal, Abu Hilal al-Askari's Jamharat al-Amthal, al-Zamakhshari's al-Mustaqsa and al-Maydani's Majma al-Amthal, with their dates and counts as a research summary supplied to the museum reports them {cite:arabictypinglab-arabic-proverbs} {cite:ketabonline-majma-al-amthal-p16}."
+  ur: "عربی امثال کی چار کتابیں: ابو عبید قاسم بن سلام کی کتاب الامثال، ابو ہلال عسکری کی جمہرۃ الامثال، زمخشری کی المستقصیٰ اور میدانی کی مجمع الامثال، ان کی تاریخوں اور امثال کی تعداد کے ساتھ جیسا میوزیم کو دیا گیا تحقیقی خلاصہ نقل کرتا ہے {cite:arabictypinglab-arabic-proverbs} {cite:ketabonline-majma-al-amthal-p16}۔"
+  fr: "Quatre livres de proverbes arabes : le Kitab al-Amthal d'Abu Ubayd al-Qasim ibn Sallam, la Jamharat al-Amthal d'Abu Hilal al-Askari, al-Mustaqsa d'al-Zamakhshari et Majma al-Amthal d'al-Maydani, avec leurs dates et leurs effectifs tels que les rapporte une synthèse de recherche remise au musée {cite:arabictypinglab-arabic-proverbs} {cite:ketabonline-majma-al-amthal-p16}."
+  es: "Cuatro libros de proverbios árabes: el Kitab al-Amthal de Abu Ubayd al-Qasim ibn Sallam, la Jamharat al-Amthal de Abu Hilal al-Askari, al-Mustaqsa de al-Zamakhshari y Majma al-Amthal de al-Maydani, con sus fechas y cantidades tal como los recoge un resumen de investigación entregado al museo {cite:arabictypinglab-arabic-proverbs} {cite:ketabonline-majma-al-amthal-p16}."
+wings: [words, ideas]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: work/majma-al-amthal, sources: [source/arabictypinglab-arabic-proverbs] }
+  - { type: related_to, target: person/al-maydani, sources: [source/arabictypinglab-arabic-proverbs] }
+  - { type: related_to, target: person/abu-hilal-al-askari, sources: [source/arabnews-archive-216491] }
+  - { type: related_to, target: person/al-zamakhshari, sources: [source/turath-al-mustaqsa-6895] }
+  - { type: related_to, target: person/abu-ubayd-al-qasim-ibn-sallam, sources: [source/arrafid-article-amthal-stories] }
+  - { type: related_to, target: work/al-amthal-al-saira, sources: [source/arrafid-article-amthal-stories] }
+  - { type: related_to, target: concept/mathal-raja-a-bi-khuffay-hunayn, sources: [source/arabictypinglab-arabic-proverbs] }
+  - { type: related_to, target: concept/mathal-ala-ahliha-janat-baraqish, sources: [source/arabictypinglab-arabic-proverbs] }
+  - { type: related_to, target: concept/mathal-al-sayfa-dayyat-al-laban, sources: [source/arabictypinglab-arabic-proverbs] }
+  - { type: related_to, target: concept/mathal-jaza-sinimmar, sources: [source/arabictypinglab-arabic-proverbs] }
+  - { type: related_to, target: concept/mathal-mawaid-urqub, sources: [source/arabictypinglab-arabic-proverbs] }
+  - { type: related_to, target: concept/mathal-sabaqa-al-sayf-al-adhl, sources: [source/arabictypinglab-arabic-proverbs] }
+  - { type: related_to, target: concept/mathal-rubba-ramyatin-min-ghayri-ram, sources: [source/arabictypinglab-arabic-proverbs] }
+  - { type: related_to, target: concept/mathal-biyadi-la-biyadi-amr, sources: [source/arabictypinglab-arabic-proverbs] }
+  - { type: related_to, target: concept/mathal-atatka-bihain-rijlah, sources: [source/arabictypinglab-arabic-proverbs] }
+  - { type: related_to, target: concept/mathal-ata-al-abad-ala-lubad, sources: [source/arabictypinglab-arabic-proverbs] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file classical_arabic_proverbs_and_collections.md); the museum did not open the cited pages; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-proverbs-1 }
+sources: [source/arabnews-archive-216491, source/ubjh-journal-article-1117, source/turath-al-mustaqsa-6895, source/moswrat-al-mustaqsa-pdf-3410, source/arabictypinglab-arabic-proverbs, source/ketabonline-majma-al-amthal-p16, source/arrafid-article-amthal-stories]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; translations are machine translations by the same model" }

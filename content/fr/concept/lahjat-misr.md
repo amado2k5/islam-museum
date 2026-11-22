@@ -41,3 +41,40 @@ Les études linguistiques, dit le dossier de recherche, assimilent d'ordinaire l
 
 ## Nombre de locuteurs
 Le dossier de recherche donne un chiffre. La page « Languages by number of native speakers » de l'Encyclopaedia Britannica, datée du 4 août 2023, donne 77 436 230 locuteurs natifs de l'arabe égyptien, d'après des données d'Ethnologue du début des années 2020 {cite:britannica-languages-by-native-speakers}. Le dossier n'a trouvé aucun chiffre dans la page libre d'Ethnologue (29e édition, 2026 ; les décomptes exacts sont derrière un accès payant), Glottolog, Brill ou l'UNESCO {cite:ethnologue-arz}. Ce chiffre est un décompte de locuteurs natifs du début des années 2020 tel que le rapporte Britannica, non un recensement actuel.
+
+## Expressions courantes
+Un résumé de recherche remis au musée a ajouté une comparaison de soixante expressions et mots dans six dialectes arabes, dont les salutations, la demande de nouvelles, la demande de ce que veut l'interlocuteur et les nombres de un à cinq. La variété de référence est ici l'arabe du Caire. Les questions s'adressent en général à un locuteur masculin. La translittération est normalisée pour la comparaison, et l'orthographe arabe peut l'être là où une source emploie une transcription phonétique plutôt que l'écriture arabe. Les équivalents en arabe standard sont fournis pour la comparaison et ne sont pas nécessairement des citations des sources dialectales. Le musée n'a pas ouvert les pages nommées ; les sources sont telles que le résumé les a rapportées, et ses étiquettes figurent dans la dernière colonne. {cite:yalla-masry-egyptian-arabic-phrase-guide-greetings} {cite:northwestern-first-year-arabic-mikhaeel-2024} {cite:el-baz-say-it-in-arabic-egyptian-dialect-1968} {cite:lisaan-masry-numbers}
+
+| Français | Dialecte | Translittération | Équivalent en arabe standard | Source |
+|---|---|---|---|---|
+| Bonjour | أهلاً | ahlan | أهلاً | E1 |
+| Bonjour (le matin) | صباح الخير | ṣabāḥ il-khēr | صباح الخير | E1, E2 |
+| Comment allez-vous ? | إزيّك؟ | izzayyak? | كيف حالك؟ | E1, E2 |
+| Je vais bien | الحمد لله | il-ḥamdu lillāh | أنا بخير، الحمد لله | E1 |
+| Que voulez-vous ? | عاوز إيه؟ | ʿāwiz ēh? | ماذا تريد؟ | E3 |
+| Un | واحد | wāḥid | واحد | E2, E4 |
+| Deux | اتنين | itnēn | اثنان | E2, E4 |
+| Trois | تلاتة | talāta | ثلاثة | E2, E4 |
+| Quatre | أربعة | arbaʿa | أربعة | E2, E4 |
+| Cinq | خمسة | khamsa | خمسة | E2, E4 |
+
+Conventions de translittération : ā, ī et ū représentent les voyelles longues ; ē et ō les voyelles moyennes longues ; ʿ représente ع ; ʾ représente ء ; ḥ représente ح ; kh représente خ ; et gh représente غ.
+
+Un trait distinctif que montre le tableau est la prononciation de ث comme t dans le vocabulaire courant du dénombrement, comme تلاتة au lieu de ثلاثة.
+
+### Sources du tableau
+- **E1:** Yalla Masry, Egyptian Arabic Phrase Guide: Greetings; une ressource en ligne d'apprentissage de l'arabe égyptien avec audio {cite:yalla-masry-egyptian-arabic-phrase-guide-greetings}
+- **E2:** Ragy Mikhaeel, First-Year Arabic, Northwestern University Libraries, 2024, lessons 1.1, 2 and 4.2; un manuel en libre accès {cite:northwestern-first-year-arabic-mikhaeel-2024}
+- **E3:** F. El-Baz, Say It in Arabic (Egyptian Dialect), 1968, General Expressions, item 40; un recueil d'expressions imprimé {cite:el-baz-say-it-in-arabic-egyptian-dialect-1968}
+- **E4:** Lisaan Masry, Egyptian Arabic Dictionary and Grammar, Numbers; un dictionnaire et une grammaire en ligne de l'arabe égyptien {cite:lisaan-masry-numbers}
+
+### Ouvrages de référence spécialisés
+| Auteur | Ouvrage de référence | Année |
+|---|---|---|
+| Martin Hinds and El-Said Badawi | A Dictionary of Egyptian Arabic: Arabic-English | 1986 |
+| Manfred Woidich | Das Kairenisch-Arabische: Eine Grammatik | 2006 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+Ce sont des ouvrages spécialisés que le résumé liste ; il dit qu'aucune expression particulière des tableaux n'a été attribuée à ces livres sans vérifier les entrées pertinentes, de sorte qu'ils sont des lectures complémentaires et non la source des expressions du tableau. {cite:hinds-badawi-1986-dictionary-of-egyptian-arabic} {cite:woidich-2006-das-kairenisch-arabische} {cite:ryding-2005-reference-grammar-msa}
+
+Pour les six variétés côte à côte, voir [[concept/al-muqarana-bayna-lahajat-al-arabiyya|Comparaison des dialectes arabes]].

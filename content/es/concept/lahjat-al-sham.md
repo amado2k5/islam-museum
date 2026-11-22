@@ -38,3 +38,38 @@ La Encyclopedia of Arabic Language and Linguistics de Brill trata Líbano, Siria
 
 ## Número de hablantes
 El archivo de investigación da dos cifras. La página Sociology of Language del CUNY (2024) dice que el árabe levantino tiene más de 30 millones de hablantes en Líbano, Siria, Jordania, Palestina y la diáspora {cite:cuny-levantine-arabic}. La entrada de Brill sobre el árabe palestino (última actualización el 25 de marzo de 2019) da aproximadamente 8,5 millones de hablantes nativos del subconjunto palestino {cite:brill-eall-palestinian-arabic}. El archivo no halló ninguna cifra en Ethnologue (29.ª edición, 2026; los recuentos exactos están tras un acceso de pago), Glottolog, Britannica o la UNESCO {cite:ethnologue-apc}. Las dos cifras proceden de años y de tipos de fuente distintos y no se suman.
+
+## Expresiones comunes
+Un resumen de investigación entregado al museo añadió una comparación de sesenta expresiones y palabras en seis dialectos árabes, entre ellas saludos, preguntar cómo está alguien, preguntar qué quiere y los números del uno al cinco. La variedad de referencia es aquí el árabe levantino urbano. Las preguntas se dirigen por lo general a un hablante masculino. La transliteración está normalizada para la comparación, y la ortografía árabe puede estarlo donde una fuente usa transcripción fonética en lugar de escritura árabe. Los equivalentes en árabe estándar se dan para la comparación y no son necesariamente citas de las fuentes dialectales. El museo no abrió las páginas nombradas; las fuentes son como las refirió el resumen, y sus etiquetas figuran en la última columna. {cite:fsi-levantine-and-egyptian-arabic-comparative-study} {cite:al-hakkak-how-to-say-it-in-colloquial-arabic-2016}
+
+| Español | Dialecto | Transliteración | Equivalente en árabe estándar | Fuente |
+|---|---|---|---|---|
+| Hola | مرحبا | marḥaba | مرحباً | L1, p. 39 |
+| Adiós | مع السلامة | maʿ is-salāme | مع السلامة | L1, p. 39 |
+| ¿Cómo estás? | كيفك؟ | kīfak? | كيف حالك؟ | L1, p. 39 |
+| Bien, gracias a Dios | منيح، الحمد لله | mnīḥ, il-ḥamdu lillāh | بخير، الحمد لله | L1, p. 39 |
+| ¿Qué quieres? | شو بدّك؟ | shū biddak? | ماذا تريد؟ | L2, p. 2 |
+| Uno | واحد | wāḥad | واحد | L1, p. 14 |
+| Dos | تنين | tnēn | اثنان | L1, p. 14 |
+| Tres | تلاتة | tlāte | ثلاثة | L1, p. 14 |
+| Cuatro | أربعة | arbaʿa | أربعة | L1, p. 14 |
+| Cinco | خمسة | khamse | خمسة | L1, p. 14 |
+
+Convenciones de transliteración: ā, ī y ū representan vocales largas; ē y ō vocales medias largas; ʿ representa ع; ʾ representa ء; ḥ representa ح; kh representa خ; y gh representa غ.
+
+Un rasgo especialmente reconocible es el uso de شو para «qué» y de بدّك para expresar «quieres».
+
+### Fuentes de la tabla
+- **L1:** Foreign Service Institute (FSI), Levantine and Egyptian Arabic: Comparative Study, pp. 14, 16 and 39; un estudio comparativo publicado por el Foreign Service Institute de EE. UU. {cite:fsi-levantine-and-egyptian-arabic-comparative-study}
+- **L2:** Ghalib Al-Hakkak and students of Université Paris 1 Panthéon-Sorbonne, How to Say It in Colloquial Arabic?, 2016, p. 2, Beirut examples; un documento con ejemplos de Beirut {cite:al-hakkak-how-to-say-it-in-colloquial-arabic-2016}
+
+### Obras de referencia especializadas
+| Autor | Obra de referencia | Año |
+|---|---|---|
+| Mark W. Cowell | A Reference Grammar of Syrian Arabic | 1964 |
+| Karl Stowasser and Moukhtar Ani | A Dictionary of Syrian Arabic: English-Arabic | 1964 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+Son obras especializadas que lista el resumen; dice que ninguna expresión particular de las tablas se atribuyó a estos libros sin comprobar las entradas pertinentes, de modo que son lecturas complementarias y no la fuente de las expresiones de la tabla. {cite:cowell-1964-reference-grammar-of-syrian-arabic} {cite:stowasser-ani-1964-dictionary-of-syrian-arabic} {cite:ryding-2005-reference-grammar-msa}
+
+Para las seis variedades lado a lado véase [[concept/al-muqarana-bayna-lahajat-al-arabiyya|Comparación de los dialectos árabes]].

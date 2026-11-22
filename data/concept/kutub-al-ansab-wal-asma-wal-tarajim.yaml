@@ -1,0 +1,36 @@
+id: concept/kutub-al-ansab-wal-asma-wal-tarajim
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-scholars]
+label:
+  ar: "كتب الأنساب والأسماء والتراجم"
+  en: "Books of genealogy, names and biographies"
+  ur: "انساب، اسماء اور تراجم کی کتابیں"
+  fr: "Livres de généalogie, de noms et de biographies"
+  es: "Libros de genealogía, nombres y biografías"
+summary:
+  ar: "مراجع الأسماء العربية كما يعرضها ملف بحثي قُدّم إلى المتحف: ستة كتب في الأنساب والنسب منها أنساب السمعاني وجمهرة ابن حزم، وثمانية في الأسماء والكنى والمؤتلف والمختلف، واثنا عشر معجم تراجم، وسبعة مراجع أكاديمية حديثة، وسبعة موارد إلكترونية أبرزها «أونوماستيكون أرابيكوم» {cite:onomasticon-arabicum-cnrs} {cite:jstor-schimmel-islamic-names} {cite:nyu-arabic-collections-online}."
+  en: "The reference works on Arabic names as a research file supplied to the museum sets them out: six books on genealogy and nisbas, among them al-Sam'ani's al-Ansab and Ibn Hazm's Jamhara, eight on names, kunyas and confusable names, twelve biographical dictionaries, seven modern academic works and seven online resources, chiefly the Onomasticon Arabicum {cite:onomasticon-arabicum-cnrs} {cite:jstor-schimmel-islamic-names} {cite:nyu-arabic-collections-online}."
+  ur: "عربی ناموں کے مراجع، جیسا کہ میوزیم کو پیش کی گئی ایک تحقیقی فائل انہیں بیان کرتی ہے: انساب و نسبت پر چھ کتابیں جن میں سمعانی کی الانساب اور ابن حزم کی جمہرہ شامل ہیں، اسماء، کنیتوں اور مؤتلف و مختلف پر آٹھ، تراجم کی بارہ لغات، سات جدید علمی مراجع اور سات آن لائن وسائل، جن میں نمایاں «اونوماستیکون ارابیکم» ہے {cite:onomasticon-arabicum-cnrs} {cite:jstor-schimmel-islamic-names} {cite:nyu-arabic-collections-online}."
+  fr: "Les ouvrages de référence sur les noms arabes, tels qu'un dossier de recherche remis au musée les présente : six livres sur la généalogie et les nisbas, dont al-Ansab d'al-Sam'ani et la Jamhara d'Ibn Hazm, huit sur les noms, les kunyas et les noms susceptibles d'être confondus, douze dictionnaires biographiques, sept ouvrages universitaires modernes et sept ressources en ligne, principalement l'Onomasticon Arabicum {cite:onomasticon-arabicum-cnrs} {cite:jstor-schimmel-islamic-names} {cite:nyu-arabic-collections-online}."
+  es: "Las obras de referencia sobre los nombres árabes tal como las presenta un expediente de investigación entregado al museo: seis libros sobre genealogía y nisbas, entre ellos al-Ansab de al-Sam'ani y la Jamhara de Ibn Hazm, ocho sobre nombres, kunyas y nombres que pueden confundirse, doce diccionarios biográficos, siete obras académicas modernas y siete recursos en línea, principalmente el Onomasticon Arabicum {cite:onomasticon-arabicum-cnrs} {cite:jstor-schimmel-islamic-names} {cite:nyu-arabic-collections-online}."
+wings: [words, people]
+themes: [names-and-honorifics, history-writing-and-social-thought]
+regions: [global]
+relations:
+  - { type: related_to, target: concept/ilm-al-asma-wal-alqab, note: "The system these works describe.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: concept/al-nasab-wal-nisba, note: "Al-Sam'ani's book on nisbas.", sources: [source/nyu-arabic-collections-online] }
+  - { type: related_to, target: work/al-ansab-samani, sources: [source/nyu-arabic-collections-online] }
+  - { type: related_to, target: work/al-lubab-fil-ansab, sources: [source/nyu-arabic-collections-online] }
+  - { type: related_to, target: work/jamharat-ansab-al-arab, sources: [source/nyu-arabic-collections-online] }
+  - { type: related_to, target: work/al-mutalif-wa-al-mukhtalif, sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: work/al-isaba-fi-tamyiz-al-sahaba, sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: work/al-istiab, sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: work/al-tabaqat-al-kubra-ibn-sad, sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: work/al-tarikh-al-kabir, sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: work/al-wafi-bil-wafayat, sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: work/alam-al-zirikli, sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: person/ibn-khallikan, sources: [source/wafayat-ayan] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (classical-arabic-names.md); the museum did not open the cited pages; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-printing-names-laws-1 }
+sources: [source/jstor-schimmel-islamic-names, source/persee-home, source/cambridge-core-home, source/brill-reference-works-home, source/onomasticon-arabicum-cnrs, source/bnf-kitcat-arabic-names, source/princeton-arabic-naco-manual, source/loc-authorities-id-loc-gov, source/viaf-org, source/nyu-arabic-collections-online, source/islamic-manuscript-association, source/wafayat-ayan, source/tdv-islam-ansiklopedisi-home]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

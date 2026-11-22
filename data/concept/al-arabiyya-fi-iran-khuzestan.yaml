@@ -1,0 +1,27 @@
+id: concept/al-arabiyya-fi-iran-khuzestan
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في خوزستان بإيران"
+  en: "Arabic in Khuzestan, Iran"
+  ur: "ایران کے خوزستان میں عربی"
+  fr: "l'arabe au Khouzistan, en Iran"
+  es: "el árabe en Juzestán, Irán"
+summary:
+  ar: "تعرض هذه الصفحة ما يقوله ملخص بحثي زُوّد به المتحف عن العربية في خوزستان بإيران: مكانتها القانونية، والأصناف المحكية منها، والأرقام الرسمية كما وردت. ولا وضع إداري رسمي للعربية المحكية هناك، أما الفصحى الدينية فتفرض المادة 16 تعليمها في الثانوية بحسب الملخص. ولم يفتح المتحف الصفحات التي يسمّيها الملخص، وقد أجاز المؤسس استعماله كما ورد في 21 نوفمبر 2026. وحيث يقول الملخص إنه لم يجد مصدراً رسمياً أو رقماً فهذا ما تقوله الصفحة بلفظه، ولا يضع المتحف رقماً من عنده."
+  en: "This page sets out what a research summary supplied to the museum says about Arabic in Khuzestan, Iran: its legal status, the varieties spoken and the official figures, each as the summary gives it. Local spoken Arabic has no official administrative status there, while Article 16, the summary says, requires the teaching of Qur'anic Arabic in secondary schools. The museum did not open the pages the summary names, and the founder approved using it as supplied on 21 November 2026. Where the summary says that no official source or figure was found, this page says exactly that and supplies no number of its own."
+  ur: "یہ صفحہ وہ پیش کرتا ہے جو متحف کو فراہم کردہ ایک تحقیقی خلاصہ ایران کے خوزستان میں عربی کے بارے میں کہتا ہے: اس کی قانونی حیثیت، بولی جانے والی اقسام اور سرکاری اعداد و شمار، ہر ایک جیسا خلاصہ دیتا ہے۔ وہاں مقامی بولی جانے والی عربی کی کوئی سرکاری انتظامی حیثیت نہیں، جبکہ خلاصے کے مطابق دفعہ 16 ثانوی اسکولوں میں قرآنی عربی کی تدریس لازم کرتی ہے۔ متحف نے خلاصے کے بیان کردہ صفحات نہیں کھولے، اور بانی نے 21 نومبر 2026 کو خلاصے کو جیسا ملا اسی طرح استعمال کرنے کی منظوری دی۔ جہاں خلاصہ کہتا ہے کہ کوئی سرکاری ماخذ یا عدد نہیں ملا وہاں یہ صفحہ بالکل یہی کہتا ہے اور اپنی طرف سے کوئی عدد نہیں دیتا۔"
+  fr: "Cette page expose ce que dit un résumé de recherche remis au musée sur l'arabe au Khouzistan, en Iran : son statut juridique, les variétés parlées et les chiffres officiels, chacun tel que le résumé le donne. L'arabe parlé local n'y a aucun statut administratif officiel, tandis que l'article 16, dit le résumé, impose l'enseignement de l'arabe coranique dans le secondaire. Le musée n'a pas ouvert les pages que nomme le résumé, et le fondateur a approuvé l'usage du résumé tel que fourni le 21 novembre 2026. Là où le résumé dit qu'aucune source officielle ni aucun chiffre n'a été trouvé, cette page dit exactement cela et ne fournit aucun nombre de son cru."
+  es: "Esta página expone lo que dice un resumen de investigación entregado al museo sobre el árabe en Juzestán, Irán: su estatus jurídico, las variedades habladas y las cifras oficiales, cada una como la da el resumen. El árabe hablado local no tiene allí ningún estatus administrativo oficial, mientras que el artículo 16, dice el resumen, impone la enseñanza del árabe coránico en la secundaria. El museo no abrió las páginas que nombra el resumen, y el fundador aprobó usarlo tal como se entregó el 21 de noviembre de 2026. Donde el resumen dice que no se halló ninguna fuente oficial ni cifra, esta página dice exactamente eso y no aporta ningún número propio."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: language/arabic, sources: [source/brill-book-9789004510241-khuzestan] }
+  - { type: related_to, target: place/khuzestan-province, sources: [source/jipa-khuzestani-arabic] }
+  - { type: related_to, target: place/al-ahwaz, sources: [source/jipa-khuzestani-arabic] }
+  - { type: related_to, target: place/iran, sources: [source/constituteproject-iran-1989] }
+  - { type: related_to, target: concept/al-arabiyya-fi-iraq, sources: [source/jipa-khuzestani-arabic] }
+provenance: { layer: own-research, source: "Research summary on the status of Arabic and its varieties in twelve non-Arab states and regions, supplied by the founder on 21 Nov 2026 and used without re-checking the pages it names, as the founder authorised; pages not opened by the museum.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-outside-spread-1" }
+sources: [source/brill-book-9789004510241-khuzestan, source/constituteproject-iran-1989, source/fanack-population-of-iran, source/jipa-khuzestani-arabic, source/learnpersianonline-languages-of-iran]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

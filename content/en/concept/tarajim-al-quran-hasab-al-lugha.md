@@ -1,0 +1,32 @@
+---
+id: concept/tarajim-al-quran-hasab-al-lugha
+lang: en
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Summary
+This page lists the best-known Qur'an translations in seven languages, with translators, dates and titles as a research summary supplied to the museum gives them. The dates and titles come from the summary and were not re-checked, the pages it points to were not opened, and Wikipedia is used here only as a source for entity facts. The list connects to [[concept/awail-tarjamat-al-quran|The first translations of the Qur'an]] and to the naming of a translation as tafsir in [[concept/limadha-tusamma-al-tarjama-tafsiran|Why a translation is called an interpretation]].
+
+## English
+The first English translation made directly from Arabic is [[person/george-sale|George Sale]]'s of 1734, The Koran, Commonly Called the Alcoran of Mohammed, which drew on the Latin edition Marracci produced in 1698 {cite:wikipedia-list-of-translations-of-the-quran on English} {cite:lexilogos-coran on Coran}. John Medows Rodwell followed in 1861, arranging the suras chronologically, and E. H. Palmer in 1880 {cite:wikipedia-list-of-translations-of-the-quran on English}; Maulana Muhammad Ali's English Translation of the Holy Qur'an with Commentary in 1917 {cite:wikipedia-list-of-translations-of-the-quran on English}; [[person/muhammad-marmaduke-pickthall|Marmaduke Pickthall]]'s The Meaning of the Glorious Koran in 1930 {cite:byustudies-language-of-god-understanding-the-quran on Pickthall} {cite:wikipedia-list-of-translations-of-the-quran on English}; [[person/abdullah-yusuf-ali|Abdullah Yusuf Ali]]'s The Holy Qur'an: Text, Translation and Commentary in 1934 {cite:wikipedia-list-of-translations-of-the-quran on English}; Arthur J. Arberry's The Koran Interpreted in 1955 {cite:meforum-assessing-english-translations-of-the-quran on Arberry} {cite:albayan-uk-text-609 on id=609}; and [[person/m-a-s-abdel-haleem|M. A. S. Abdel Haleem]]'s The Qur'an in Oxford World's Classics in 2004 {cite:qiyam-journal-sharia-law-article-2-5-239 on Abdel Haleem} {cite:wikipedia-pt-lista-de-traducoes-do-alcorao on Abdel Haleem}.
+
+## French
+The first French translation directly from Arabic is André Du Ryer's L'Alcoran de Mahomet of 1647 {cite:lexilogos-coran on Coran} {cite:wikipedia-list-of-translations-of-the-quran on French}. Claude-Étienne Savary's Le Coran of 1783 or 1786 and Albert Kazimirski's Le Koran of 1840 followed {cite:brill-eqo-eqcom-00208 on EQCOM-00208} {cite:lexilogos-coran on Coran}. In the twentieth century came Régis Blachère (1949-1950), [[person/muhammad-hamidullah|Muhammad Hamidullah]] (1959) and Jacques Berque's Le Coran: Essai de traduction (1990) {cite:researchgate-french-translations-of-the-quran-353415877 on French translations} {cite:iicss-5c202eq on the IICSS file}.
+
+## Spanish
+The summary's first entry is Joaquín García Bravo's El Corán of 1907, printed in Barcelona and derived from Savary's French {cite:brill-eqo-eqcom-00208 on EQCOM-00208} {cite:dialnet-article-5249370 on Dialnet article}. Then came Rafael Cansinos Assens's El Korán of 1951 (Madrid, Aguilar) and Juan Vernet's El Corán of 1953 (Barcelona) {cite:dialnet-article-5249370 on Dialnet article} {cite:wikipedia-pt-lista-de-traducoes-do-alcorao on Spanish}, then Julio Cortés's El Corán of 1979 (Herder edition 1986) and Abdel Ghani Melara Navío's El Noble Corán of 1996 (King Fahd Complex edition 2005) {cite:dialnet-article-5249370 on Dialnet article} {cite:wikipedia-pt-lista-de-traducoes-do-alcorao on Spanish}.
+
+## Urdu
+Shah [[person/shah-abdul-qadir-dehlavi|Abdul Qadir Dehlvi]]'s Mudih al-Qur'an, completed in 1790 and printed in 1828, is widely recognised as the first idiomatic Urdu translation {cite:wikipedia-list-of-translations-of-the-quran on Urdu} {cite:haqqfinder-shah-waliullah-dehlawi on Shah Waliullah Dehlawi}. It was followed by Ashraf Ali Thanvi's Bayan al-Qur'an (1905), Ahmad Raza Khan's Kanz al-Iman (1912) and Mahmud al-Hasan Deobandi's Tarjama Shaykh al-Hind (1915-1919) {cite:wikipedia-list-of-translations-of-the-quran on Urdu}.
+
+## Persian
+The earliest surviving complete Persian translation and commentary is the Tafsir-e Tabari of the tenth century, followed by Kashf al-Asrar wa-Uddat al-Abrar of the eleventh or twelfth century from the school of Abu Mansur al-Ansari {cite:wikipedia-list-of-translations-of-the-quran on Persian} {cite:wikipedia-list-of-tafsir-works on Tafsir works}. Shah Waliullah Dehlawi translated the Qur'an into Persian in 1151 AH, 1738 CE, as Fath al-Rahman fi Tarjamat al-Qur'an {cite:haqqfinder-shah-waliullah-dehlawi on Shah Waliullah Dehlawi} {cite:isam-veri-dkm181555n on the ISAM file}.
+
+## Turkish
+[[person/elmalili-hamdi-yazir|Elmalili Muhammed Hamdi Yazir]] translated and explained the Qur'an between 1935 and 1939 as Hak Dini Kur'an Dili {cite:isam-veri-d02512-2012-ozgeli on the Ozgeli article}; Omer Riza Dogrul between 1943 and 1955 as Tanri Buyrugu {cite:wikipedia-list-of-translations-of-the-quran on Turkish}. Then came the translation of the Turkish Religious Foundation (TDV), 1982 or 1993, and that of Halil Altuntas and Muzaffer Sahin {cite:openbookpublishers-obp-0381-ch2 on chapter 2} {cite:gloqur-translation-of-the-week-31-altuntas-sahin on translation of the week 31}.
+
+## Swahili
+The first complete Swahili translation is Godfrey Dale's Tafsiri ya Kurani of 1923, by an Anglican missionary {cite:jamiiforums-kumbe-quran-tukufu-ina-tafsiri-kibao on JamiiForums thread}. Shaykh al-Amin bin Ali al-Mazrui's printed translation of the thirtieth juz' followed in the 1930s, and Mubarak Ahmad Ahmadi's Kurani Tukufu in 1953 {cite:ajis-article-417-195-1883 on AJIS} {cite:jamiiforums-kumbe-quran-tukufu-ina-tafsiri-kibao on JamiiForums thread}. Then Abdullah Saleh al-Farsy's Qurani Takatifu in 1969 and Ali Muhsin al-Barwani's in 1995 {cite:asjp-down-article-87-9-2-138977 on the ASJP article} {cite:researchgate-al-buhriy-mrima-swahili-translation-360361702 on al-Buhriy}.
+
+## What this page does not reach
+None of the pages pointed to, a long run of encyclopaedias, journals and forums, was opened; the dates and titles come from a research summary supplied to the museum, and the founder approved using it on 21 November 2026 without re-verification. Some dates, such as Savary's, the Cortés and Melara Navío editions and the Turkish religious foundation's, carry two years in the summary itself and were not resolved. The page does not claim to cover every translation, and translations into other languages are not given.

@@ -38,3 +38,38 @@ L'Encyclopedia of Arabic Language and Linguistics de Brill traite le Liban, la S
 
 ## Nombre de locuteurs
 Le dossier de recherche donne deux chiffres. La page Sociology of Language du CUNY (2024) dit que l'arabe levantin compte plus de 30 millions de locuteurs au Liban, en Syrie, en Jordanie, en Palestine et dans la diaspora {cite:cuny-levantine-arabic}. L'entrée de Brill sur l'arabe palestinien (dernière mise à jour le 25 mars 2019) donne environ 8,5 millions de locuteurs natifs pour le sous-ensemble palestinien {cite:brill-eall-palestinian-arabic}. Le dossier n'a trouvé aucun chiffre dans Ethnologue (29e édition, 2026 ; les décomptes exacts sont derrière un accès payant), Glottolog, Britannica ou l'UNESCO {cite:ethnologue-apc}. Les deux chiffres viennent d'années et de types de sources différents et ne sont pas additionnés.
+
+## Expressions courantes
+Un résumé de recherche remis au musée a ajouté une comparaison de soixante expressions et mots dans six dialectes arabes, dont les salutations, la demande de nouvelles, la demande de ce que veut l'interlocuteur et les nombres de un à cinq. La variété de référence est ici l'arabe levantin urbain. Les questions s'adressent en général à un locuteur masculin. La translittération est normalisée pour la comparaison, et l'orthographe arabe peut l'être là où une source emploie une transcription phonétique plutôt que l'écriture arabe. Les équivalents en arabe standard sont fournis pour la comparaison et ne sont pas nécessairement des citations des sources dialectales. Le musée n'a pas ouvert les pages nommées ; les sources sont telles que le résumé les a rapportées, et ses étiquettes figurent dans la dernière colonne. {cite:fsi-levantine-and-egyptian-arabic-comparative-study} {cite:al-hakkak-how-to-say-it-in-colloquial-arabic-2016}
+
+| Français | Dialecte | Translittération | Équivalent en arabe standard | Source |
+|---|---|---|---|---|
+| Bonjour | مرحبا | marḥaba | مرحباً | L1, p. 39 |
+| Au revoir | مع السلامة | maʿ is-salāme | مع السلامة | L1, p. 39 |
+| Comment allez-vous ? | كيفك؟ | kīfak? | كيف حالك؟ | L1, p. 39 |
+| Bien, grâce à Dieu | منيح، الحمد لله | mnīḥ, il-ḥamdu lillāh | بخير، الحمد لله | L1, p. 39 |
+| Que voulez-vous ? | شو بدّك؟ | shū biddak? | ماذا تريد؟ | L2, p. 2 |
+| Un | واحد | wāḥad | واحد | L1, p. 14 |
+| Deux | تنين | tnēn | اثنان | L1, p. 14 |
+| Trois | تلاتة | tlāte | ثلاثة | L1, p. 14 |
+| Quatre | أربعة | arbaʿa | أربعة | L1, p. 14 |
+| Cinq | خمسة | khamse | خمسة | L1, p. 14 |
+
+Conventions de translittération : ā, ī et ū représentent les voyelles longues ; ē et ō les voyelles moyennes longues ; ʿ représente ع ; ʾ représente ء ; ḥ représente ح ; kh représente خ ; et gh représente غ.
+
+Un trait particulièrement reconnaissable est l'emploi de شو pour « quoi » et de بدّك pour exprimer « tu veux ».
+
+### Sources du tableau
+- **L1:** Foreign Service Institute (FSI), Levantine and Egyptian Arabic: Comparative Study, pp. 14, 16 and 39; une étude comparative publiée par le Foreign Service Institute américain {cite:fsi-levantine-and-egyptian-arabic-comparative-study}
+- **L2:** Ghalib Al-Hakkak and students of Université Paris 1 Panthéon-Sorbonne, How to Say It in Colloquial Arabic?, 2016, p. 2, Beirut examples; un document avec des exemples de Beyrouth {cite:al-hakkak-how-to-say-it-in-colloquial-arabic-2016}
+
+### Ouvrages de référence spécialisés
+| Auteur | Ouvrage de référence | Année |
+|---|---|---|
+| Mark W. Cowell | A Reference Grammar of Syrian Arabic | 1964 |
+| Karl Stowasser and Moukhtar Ani | A Dictionary of Syrian Arabic: English-Arabic | 1964 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+Ce sont des ouvrages spécialisés que le résumé liste ; il dit qu'aucune expression particulière des tableaux n'a été attribuée à ces livres sans vérifier les entrées pertinentes, de sorte qu'ils sont des lectures complémentaires et non la source des expressions du tableau. {cite:cowell-1964-reference-grammar-of-syrian-arabic} {cite:stowasser-ani-1964-dictionary-of-syrian-arabic} {cite:ryding-2005-reference-grammar-msa}
+
+Pour les six variétés côte à côte, voir [[concept/al-muqarana-bayna-lahajat-al-arabiyya|Comparaison des dialectes arabes]].

@@ -41,3 +41,40 @@ Linguistic studies, the research summary says, typically equate "Egyptian Arabic
 
 ## Speaker numbers
 The research summary gives one figure. The Encyclopaedia Britannica's page "Languages by number of native speakers", dated 4 August 2023, gives 77,436,230 native speakers of Egyptian Arabic, citing Ethnologue data of the early 2020s {cite:britannica-languages-by-native-speakers}. The summary found no figure in Ethnologue's free page (29th edition, 2026; exact counts are behind a paywall), Glottolog, Brill or UNESCO {cite:ethnologue-arz}. The figure is a count of native speakers as of the early 2020s as reported by Britannica, not a current census.
+
+## Common phrases
+A research summary supplied to the museum added a comparison of sixty expressions and words across six Arabic dialects, including greetings, asking how someone is, asking what someone wants, and the numbers one to five. The reference variety here is Cairene Arabic. Questions are generally addressed to one male speaker. Transliteration is normalized for comparison, and Arabic spelling may be normalized where a source uses phonetic transcription rather than Arabic script. The MSA equivalents are supplied for comparison and are not necessarily quotations from the dialect sources. The museum did not open the pages named; the sources are as the summary reported them, and its labels are given in the last column. {cite:yalla-masry-egyptian-arabic-phrase-guide-greetings} {cite:northwestern-first-year-arabic-mikhaeel-2024} {cite:el-baz-say-it-in-arabic-egyptian-dialect-1968} {cite:lisaan-masry-numbers}
+
+| English | Dialect | Transliteration | MSA equivalent | Source |
+|---|---|---|---|---|
+| Hello | أهلاً | ahlan | أهلاً | E1 |
+| Good morning | صباح الخير | ṣabāḥ il-khēr | صباح الخير | E1, E2 |
+| How are you? | إزيّك؟ | izzayyak? | كيف حالك؟ | E1, E2 |
+| I'm fine | الحمد لله | il-ḥamdu lillāh | أنا بخير، الحمد لله | E1 |
+| What do you want? | عاوز إيه؟ | ʿāwiz ēh? | ماذا تريد؟ | E3 |
+| One | واحد | wāḥid | واحد | E2, E4 |
+| Two | اتنين | itnēn | اثنان | E2, E4 |
+| Three | تلاتة | talāta | ثلاثة | E2, E4 |
+| Four | أربعة | arbaʿa | أربعة | E2, E4 |
+| Five | خمسة | khamsa | خمسة | E2, E4 |
+
+Transliteration conventions: ā, ī and ū represent long vowels; ē and ō represent long mid-vowels; ʿ represents ع; ʾ represents ء; ḥ represents ح; kh represents خ; and gh represents غ.
+
+A distinctive characteristic illustrated here is the pronunciation of ث as t in everyday counting vocabulary, such as تلاتة instead of ثلاثة.
+
+### Sources of the table
+- **E1:** Yalla Masry, Egyptian Arabic Phrase Guide: Greetings; an online Egyptian Arabic learning resource with audio {cite:yalla-masry-egyptian-arabic-phrase-guide-greetings}
+- **E2:** Ragy Mikhaeel, First-Year Arabic, Northwestern University Libraries, 2024, lessons 1.1, 2 and 4.2; an open-access textbook {cite:northwestern-first-year-arabic-mikhaeel-2024}
+- **E3:** F. El-Baz, Say It in Arabic (Egyptian Dialect), 1968, General Expressions, item 40; a printed book of expressions {cite:el-baz-say-it-in-arabic-egyptian-dialect-1968}
+- **E4:** Lisaan Masry, Egyptian Arabic Dictionary and Grammar, Numbers; an online dictionary and grammar of Egyptian Arabic {cite:lisaan-masry-numbers}
+
+### Specialist reference works
+| Author | Reference work | Year |
+|---|---|---|
+| Martin Hinds and El-Said Badawi | A Dictionary of Egyptian Arabic: Arabic-English | 1986 |
+| Manfred Woidich | Das Kairenisch-Arabische: Eine Grammatik | 2006 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+These are specialist works the summary lists; it says no individual expression in the tables was attributed to these books without checking the relevant entries, so they are further reading and not the source of the table's expressions. {cite:hinds-badawi-1986-dictionary-of-egyptian-arabic} {cite:woidich-2006-das-kairenisch-arabische} {cite:ryding-2005-reference-grammar-msa}
+
+For the six varieties side by side see [[concept/al-muqarana-bayna-lahajat-al-arabiyya|A comparison of Arabic dialects]].

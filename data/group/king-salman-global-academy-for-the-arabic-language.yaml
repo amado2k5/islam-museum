@@ -1,0 +1,32 @@
+id: group/king-salman-global-academy-for-the-arabic-language
+class: group
+kind: institution
+tags: [arabiyya-browser, arabiyya-scholars]
+label:
+  ar: "مجمع الملك سلمان العالمي للغة العربية"
+  en: "King Salman Global Academy for the Arabic Language"
+  ur: "شاہ سلمان عالمی مجمعِ عربی زبان"
+  fr: "Académie mondiale du roi Salmane pour la langue arabe"
+  es: "Academia Mundial Rey Salmán de la Lengua Árabe"
+summary:
+  ar: "مجمع الملك سلمان العالمي للغة العربية في الرياض، أُنشئ سنة 2020 بقرار مجلس الوزراء رقم 34 وتاريخ 13 / 1 / 1442هـ نحو 1 سبتمبر 2020، مرجع وطني ودولي في سياسات اللغة العربية وتخطيطها، له أدوات لغوية حاسوبية ومدونات وقاموس الرياض للغة العربية المعاصرة ومكتبة رقمية وبرامج واختبارات تعليمية وشراكات مع الألكسو، كما يلخصه ملف بحثي قُدّم إلى المتحف {cite:ksaa-gov-sa} {cite:alecso-org}."
+  en: "The King Salman Global Academy for the Arabic Language in Riyadh, founded in 2020 by Council of Ministers decree No. 34 of 13/01/1442 AH, about 1 September 2020, a national and international reference for Arabic language policy and planning, with computational linguistics tools and corpora, the Riyadh Dictionary of Contemporary Arabic, a digital library, educational programmes and tests, and partnerships with ALECSO, as a research file supplied to the museum summarises it {cite:ksaa-gov-sa} {cite:alecso-org}."
+  ur: "شاہ سلمان عالمی مجمعِ عربی زبان، ریاض میں، جو 2020 میں کابینہ کے فیصلہ نمبر 34 مورخہ 13/01/1442ھ، یعنی تقریباً 1 ستمبر 2020، سے قائم ہوا، عربی زبان کی پالیسی اور منصوبہ بندی میں قومی اور بین الاقوامی حوالہ ہے، جس کے پاس کمپیوٹیشنل لسانیات کے اوزار اور لسانی ذخائر، ریاض کی لغتِ معاصر عربی، ایک ڈیجیٹل لائبریری، تعلیمی پروگرام اور امتحانات، اور الیکسو کے ساتھ شراکتیں ہیں، جیسا کہ عجائب گھر کو پیش کی گئی ایک تحقیقی فائل اسے خلاصہ کرتی ہے {cite:ksaa-gov-sa} {cite:alecso-org}۔"
+  fr: "L'Académie mondiale du roi Salmane pour la langue arabe, à Riyad, fondée en 2020 par la décision n° 34 du Conseil des ministres du 13/01/1442 de l'Hégire, soit vers le 1er septembre 2020, référence nationale et internationale pour la politique et la planification de la langue arabe, dotée d'outils de linguistique computationnelle et de corpus, du Dictionnaire de Riyad de l'arabe contemporain, d'une bibliothèque numérique, de programmes éducatifs et de tests, et de partenariats avec l'ALECSO, comme le résume un dossier de recherche remis au musée {cite:ksaa-gov-sa} {cite:alecso-org}."
+  es: "La Academia Mundial Rey Salmán de la Lengua Árabe, en Riad, fundada en 2020 por la decisión n.º 34 del Consejo de Ministros del 13/01/1442 de la Hégira, hacia el 1 de septiembre de 2020, referencia nacional e internacional de la política y la planificación de la lengua árabe, con herramientas de lingüística computacional y corpus, el Diccionario de Riad del árabe contemporáneo, una biblioteca digital, programas educativos y pruebas, y alianzas con la ALECSO, según lo resume un expediente de investigación entregado al museo {cite:ksaa-gov-sa} {cite:alecso-org}."
+wings: [words, today]
+themes: [linguistics, education]
+periods: [period/modern-era]
+regions: [arabia]
+founded: { edtf: "2020", calendar: gregorian, precision: year, status: historical, note: "Founded in 2020 by Council of Ministers decree No. 34 of 13/01/1442 AH, about 1 September 2020, as the research summary gives it.", sources: [source/ksaa-gov-sa] }
+relations:
+  - { type: located_in, target: place/riyadh, note: "Seat of the Academy, per the summary.", sources: [source/ksaa-gov-sa] }
+  - { type: related_to, target: group/alecso, note: "Partner on unified terminology dictionaries and language-policy systems.", sources: [source/ksaa-gov-sa, source/alecso-org] }
+  - { type: related_to, target: group/ittihad-al-majami-al-lughawiyya-al-ilmiyya-al-arabiyya, note: "The Union of Arab Language Academies.", sources: [source/ksaa-gov-sa] }
+  - { type: related_to, target: group/majma-al-lugha-al-arabiyya-bi-al-qahira, note: "An older academy of the Arabic language.", sources: [source/ksaa-gov-sa] }
+  - { type: related_to, target: concept/mashru-mujam-al-doha-al-tarikhi, note: "Another contemporary Arabic-language project of the Gulf.", sources: [source/ksaa-gov-sa] }
+  - { type: related_to, target: place/saudi-arabia, sources: [source/ksaa-gov-sa] }
+  - { type: related_to, target: language/arabic, sources: [source/ksaa-gov-sa] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Arabic_Language_Institutions_Gulf_Arabian_Peninsula.md); the museum did not open the cited pages; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-printing-names-laws-1 }
+sources: [source/ksaa-gov-sa, source/alecso-org]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

@@ -1,0 +1,26 @@
+id: concept/al-asma-al-mushtaqqa
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-sciences]
+label:
+  ar: "الأسماء المشتقة في العربية"
+  en: "Derived nouns (al-asma al-mushtaqqa) in Arabic"
+  ur: "عربی کے مشتق اسماء"
+  fr: "Les noms dérivés (al-asma al-mushtaqqa) en arabe"
+  es: "Los nombres derivados (al-asma al-mushtaqqa) en árabe"
+summary:
+  ar: "جدول الأسماء المشتقة من الفعل كما أوردها ملخص بحثي: اسم الفاعل واسم المفعول واسم المكان واسم الآلة والمصدر، ووزن كل منها من الصيغة الأولى ومن الصيغ II إلى X، ومثالها من الجذر ك-ت-ب، وأرقام الصفحات عند ريدنغ 2005 ورايت 1896. أرقام الصفحات من الملخص ولم يتحقق منها المتحف."
+  en: "The table of nouns derived from the verb as given by a research summary: active participle, passive participle, noun of place, noun of instrument and verbal noun, the pattern of each from form I and from forms II to X, examples from the root k-t-b, and the page numbers in Ryding 2005 and Wright 1896. The page numbers are the summary's and the museum did not check them."
+  ur: "ایک تحقیقی خلاصے میں دیا گیا فعل سے مشتق اسماء کا جدول: اسم فاعل، اسم مفعول، اسم مکان، اسم آلہ اور مصدر، ہر ایک کا پہلے وزن اور II تا X سے وزن، جذر ک-ت-ب سے مثالیں، اور رائڈنگ 2005 اور رائٹ 1896 میں صفحات کے نمبر۔ صفحات کے نمبر خلاصے کے ہیں اور عجائب گھر نے ان کی جانچ نہیں کی۔"
+  fr: "Le tableau des noms dérivés du verbe tel que le donne un résumé de recherche : participe actif, participe passif, nom de lieu, nom d'instrument et nom verbal, le schème de chacun depuis la forme I et depuis les formes II à X, des exemples sur la racine k-t-b, et les numéros de page chez Ryding 2005 et Wright 1896. Les numéros de page sont ceux du résumé et le musée ne les a pas vérifiés."
+  es: "La tabla de los nombres derivados del verbo tal como la da un resumen de investigación: participio activo, participio pasivo, nombre de lugar, nombre de instrumento y nombre verbal, el patrón de cada uno desde la forma I y desde las formas II a X, ejemplos sobre la raíz k-t-b y los números de página en Ryding 2005 y Wright 1896. Los números de página son los del resumen y el museo no los comprobó."
+wings: [words, ideas]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: concept/awzan-al-fiil-al-ashara, sources: [source/ryding-2005-reference-grammar-msa, source/wright-grammar-of-the-arabic-language-vol1] }
+  - { type: related_to, target: concept/ilm-al-sarf, sources: [source/ryding-2005-reference-grammar-msa] }
+  - { type: related_to, target: concept/ilm-al-nahw, sources: [source/wright-grammar-of-the-arabic-language-vol1] }
+  - { type: related_to, target: language/arabic, sources: [source/ryding-2005-reference-grammar-msa] }
+provenance: { layer: own-research, source: "Research summary on the Arabic root-and-pattern system, case, number, numerals and diptotes supplied by the founder (compiled with Google Gemini); the museum did not open the pages it cites, page numbers are the summary's and unchecked, and the summary was used with the founder's approval of 21 Nov 2026.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-diglossia-grammar-phrases-1" }
+sources: [source/ryding-2005-reference-grammar-msa, source/wright-grammar-of-the-arabic-language-vol1]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model; the cited pages were not opened by the museum (research summary supplied by the founder, used with his approval of 21 Nov 2026)" }

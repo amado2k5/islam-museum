@@ -1,0 +1,32 @@
+id: person/izz-al-din-talib-dalqandi
+class: person
+label:
+  ar: "عز الدين طالب الملقب بدلقندي"
+  en: "Izz al-Din Talib, called Dalqandi"
+  ur: "عزالدین طالب، دلقندی کے لقب سے"
+  fr: "Izz al-Din Talib, dit Dalqandi"
+  es: "Izz al-Din Talib, llamado Dalqandi"
+names:
+  - { kind: full, lang: en, value: "Izz al-Din Talib" }
+  - { kind: laqab, lang: ar, value: "عز الدين طالب الملقب بدلقندي" }
+gender: male
+roles: [emir]
+summary:
+  ar: "عز الدين طالب، الملقب بدلقندي، ينتسب إلى آل علي، وينقل الخشاب عن مؤرخ يسميه أنه قبل بترحاب أن يكون الجلاد في إعدام رشيد الدين، ثأراً لموت تاج الدين النقيب {cite:jami-al-tawarikh-khashshab-1960 p. 81}. وقد أُمسك به عند باب القصر بعد ذلك، وقُتل بأمر الأمير جوبان، بعد أن دبّر مع آخرين خطة لاغتيال جوبان نفسه {cite:jami-al-tawarikh-khashshab-1960 p. 83}."
+  en: "Izz al-Din Talib, called Dalqandi, was an Alid. The introduction, citing a historian it names, says he eagerly accepted the task of executioner for Rashid al-Din, in revenge for the death of Taj al-Din the naqib {cite:jami-al-tawarikh-khashshab-1960 p. 81}. He was later seized at the palace door and killed on Amir Chupan's order, after planning with others to assassinate Chupan {cite:jami-al-tawarikh-khashshab-1960 p. 83}. The introduction presents the revenge motive as the historian's account and does not treat it as established."
+  ur: "عزالدین طالب، جنہیں دلقندی کہا جاتا تھا، آل علی سے منسوب تھے۔ خشاب ایک مؤرخ کے حوالے سے بیان کرتے ہیں کہ انہوں نے تاج الدین نقیب کی موت کے بدلے کے طور پر رشید الدین کے قتل کا جلاد بننا قبول کیا {cite:jami-al-tawarikh-khashshab-1960 p. 81}۔ بعد میں امیر چوپان کے حکم پر قتل کیے گئے {cite:jami-al-tawarikh-khashshab-1960 p. 83}۔"
+  fr: "Izz al-Din Talib, dit Dalqandi, était un Alide. L'introduction, citant un historien qu'elle nomme, dit qu'il accepta avec empressement d'être le bourreau de Rashid al-Din, par vengeance pour la mort du naqib Taj al-Din {cite:jami-al-tawarikh-khashshab-1960 p. 81}. Il fut ensuite arrêté à la porte du palais et tué sur ordre de l'émir Chupan, après avoir projeté avec d'autres l'assassinat de celui-ci {cite:jami-al-tawarikh-khashshab-1960 p. 83}. L'introduction présente le mobile de la vengeance comme le récit de l'historien, sans le tenir pour établi."
+  es: "Izz al-Din Talib, llamado Dalqandi, era alida. La introducción, citando a un historiador que nombra, dice que aceptó con entusiasmo ser el verdugo de Rashid al-Din, como venganza por la muerte del naqib Taj al-Din {cite:jami-al-tawarikh-khashshab-1960 p. 81}. Fue después detenido a la puerta del palacio y muerto por orden del emir Chupan, tras planear con otros el asesinato de este {cite:jami-al-tawarikh-khashshab-1960 p. 83}. La introducción presenta el motivo de la venganza como el relato del historiador, sin darlo por establecido."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: related_to, target: person/choban, note: "Killed on Chupan's order after a plot against Chupan (scan 83).", sources: [source/jami-al-tawarikh-khashshab-1960] }
+sources: [source/jami-al-tawarikh-khashshab-1960]
+provenance:
+  layer: own-research
+  source: "Scan pages 81 and 83 of source/jami-al-tawarikh-khashshab-1960, OCR by Apple Vision, read by the packet drafter. The introduction names the historian only as one of those mentioned earlier; the footnote on scan 81 cites an Arabic manuscript (Umdat al-Talib), and the historian is not named here; the nickname is read as Dalqandi and is doubtful."
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "jami-tawarikh-v2p1-p061-120"
+status: { review: published, generated_by: "Claude Haiku 5.5" }

@@ -1,0 +1,31 @@
+id: concept/al-ism-wal-kunya
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-scholars]
+label:
+  ar: "الاسم والكنية"
+  en: "Ism and kunya"
+  ur: "اسم اور کنیت"
+  fr: "Ism et kunya"
+  es: "Ism y kunya"
+summary:
+  ar: "الاسم هو الاسم الشخصي الذي يُعطى عند الميلاد أو بعده، والكنية تسمية بأبي أو أم تحمل غالباً إشارة إلى ولد أو صفة ولا تدل بالضرورة على أبوة حقيقية؛ ومن أمثلتها أبو القاسم لمحمد وأم عبد الله لعائشة وأبو هريرة بسبب هرّة صغيرة، كما يعرضها ملف بحثي قُدّم إلى المتحف مع الحديثين اللذين يستشهد بهما {cite:jstor-schimmel-islamic-names} {cite:sunnah-com-abu-dawud-4970} {cite:sunnah-com-tirmidhi-3839}."
+  en: "The ism is the personal name given at or soon after birth, and the kunya a name with Abu or Umm that often refers to a child or a quality and does not necessarily establish real parenthood; examples are Abu al-Qasim for Muhammad, Umm Abd Allah for Aisha and Abu Hurayra from a small kitten, as a research file supplied to the museum sets it out with the two hadith it cites {cite:jstor-schimmel-islamic-names} {cite:sunnah-com-abu-dawud-4970} {cite:sunnah-com-tirmidhi-3839}."
+  ur: "اسم وہ ذاتی نام ہے جو پیدائش کے وقت یا اس کے فوراً بعد رکھا جاتا ہے، اور کنیت ابو یا ام والا نام ہے جو اکثر کسی بچے یا صفت کی طرف اشارہ کرتا ہے اور ضروری نہیں کہ حقیقی والدیت ثابت کرے؛ مثالیں محمد کے لیے ابو القاسم، عائشہ کے لیے ام عبد اللہ، اور ابو ہریرہ ایک چھوٹی بلی کے بچے کی وجہ سے ہیں، جیسا کہ عجائب گھر کو پیش کی گئی ایک تحقیقی فائل ان دو احادیث کے ساتھ اسے بیان کرتی ہے جن کا وہ حوالہ دیتی ہے {cite:jstor-schimmel-islamic-names} {cite:sunnah-com-abu-dawud-4970} {cite:sunnah-com-tirmidhi-3839}۔"
+  fr: "L'ism est le nom personnel donné à la naissance ou peu après, et la kunya un nom en Abu ou Umm qui renvoie souvent à un enfant ou à une qualité et n'établit pas nécessairement une parenté réelle ; des exemples sont Abu al-Qasim pour Muhammad, Umm Abd Allah pour Aïcha et Abu Hurayra d'après un petit chaton, tels qu'un dossier de recherche remis au musée les expose avec les deux hadiths qu'il cite {cite:jstor-schimmel-islamic-names} {cite:sunnah-com-abu-dawud-4970} {cite:sunnah-com-tirmidhi-3839}."
+  es: "El ism es el nombre personal dado al nacer o poco después, y la kunya un nombre con Abu o Umm que a menudo remite a un hijo o a una cualidad y no establece necesariamente una paternidad real; ejemplos son Abu al-Qasim para Muhammad, Umm Abd Allah para Aisha y Abu Hurayra por un gatito, tal como los expone un archivo de investigación entregado al museo con los dos hadices que cita {cite:jstor-schimmel-islamic-names} {cite:sunnah-com-abu-dawud-4970} {cite:sunnah-com-tirmidhi-3839}."
+wings: [words, people]
+themes: [names-and-honorifics, linguistics]
+regions: [global]
+relations:
+  - { type: related_to, target: concept/ilm-al-asma-wal-alqab, note: "The system this is two parts of.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: concept/anasir-al-asma-al-arabiyya, note: "Abu and Umm, and the compound names with Abd.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: concept/kunya-fiqh, note: "The legal definition of the kunya.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: person/muhammad, note: "His kunya, Abu al-Qasim.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: person/aisha, note: "Umm Abd Allah.", sources: [source/sunnah-com-abu-dawud-4970] }
+  - { type: related_to, target: person/abu-hurayra, note: "The kitten and the kunya.", sources: [source/sunnah-com-tirmidhi-3839] }
+  - { type: related_to, target: person/abu-bakr, note: "Known by his kunya.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: person/ali-ibn-abi-talib, note: "Abu al-Hasan.", sources: [source/jstor-schimmel-islamic-names] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (classical-arabic-names.md); the museum did not open the cited pages; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-printing-names-laws-1 }
+sources: [source/jstor-schimmel-islamic-names, source/sunnah-com-abu-dawud-4970, source/sunnah-com-tirmidhi-3839, source/bnf-kitcat-arabic-names]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

@@ -1,0 +1,30 @@
+id: concept/al-nasab-wal-nisba
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-scholars]
+label:
+  ar: "النسب والنسبة"
+  en: "Nasab and nisba"
+  ur: "نسب اور نسبت"
+  fr: "Nasab et nisba"
+  es: "Nasab y nisba"
+summary:
+  ar: "النسب سلسلة الانتماء إلى الأب والأجداد بابن أو بنت أو بنو، والنسبة اسم منسوب بياء النسب يربط الشخص بمكان أو قبيلة أو مهنة أو مذهب؛ ولا يدل الاسم الجغرافي على المولد بالضرورة ولا القبلي على النسب البيولوجي، كما يعرضه ملف بحثي قُدّم إلى المتحف مع جداول الأمثلة {cite:jstor-schimmel-islamic-names} {cite:bnf-kitcat-arabic-names}."
+  en: "The nasab is the chain of belonging to a father and ancestors through ibn, bint or banu, and the nisba is a relational name with the ending -i that ties a person to a place, tribe, trade or school; a place nisba does not necessarily show birth and a tribal one not biological descent, as a research file supplied to the museum sets it out with tables of examples {cite:jstor-schimmel-islamic-names} {cite:bnf-kitcat-arabic-names}."
+  ur: "نسب باپ اور آباء و اجداد سے تعلق کا سلسلہ ہے جو ابن، بنت یا بنو کے ذریعے بیان ہوتا ہے، اور نسبت وہ منسوب نام ہے جو یائے نسبت کے ساتھ کسی شخص کو کسی مقام، قبیلے، پیشے یا مکتبِ فکر سے جوڑتا ہے؛ جغرافیائی نسبت لازماً جائے پیدائش کی دلیل نہیں اور قبائلی نسبت لازماً حیاتیاتی نسب کی، جیسا کہ عجائب گھر کو پیش کی گئی ایک تحقیقی فائل مثالوں کے جدولوں کے ساتھ بیان کرتی ہے {cite:jstor-schimmel-islamic-names} {cite:bnf-kitcat-arabic-names}۔"
+  fr: "Le nasab est la chaîne d'appartenance à un père et à des ancêtres par ibn, bint ou banu, et la nisba est un nom relationnel à terminaison en -i qui rattache une personne à un lieu, une tribu, un métier ou une école ; une nisba de lieu ne prouve pas nécessairement la naissance, ni une nisba tribale la descendance biologique, comme l'expose un dossier de recherche remis au musée avec des tableaux d'exemples {cite:jstor-schimmel-islamic-names} {cite:bnf-kitcat-arabic-names}."
+  es: "El nasab es la cadena de pertenencia a un padre y a antepasados mediante ibn, bint o banu, y la nisba es un nombre relacional con terminación en -i que vincula a una persona con un lugar, una tribu, un oficio o una escuela; una nisba de lugar no demuestra necesariamente el nacimiento, ni una tribal la descendencia biológica, según lo expone un expediente de investigación entregado al museo con tablas de ejemplos {cite:jstor-schimmel-islamic-names} {cite:bnf-kitcat-arabic-names}."
+wings: [words, people]
+themes: [names-and-honorifics, linguistics]
+regions: [global]
+relations:
+  - { type: related_to, target: concept/ilm-al-asma-wal-alqab, note: "The system this is two parts of.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: concept/nasab, note: "The juristic treatment of lineage.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: concept/nasab-al-nabi, note: "The genealogy of Muhammad.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: concept/kutub-al-ansab-wal-asma-wal-tarajim, note: "The books of nisbas and genealogies.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: work/al-ansab-samani, note: "The principal classical work on nisbas.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: person/ibn-khaldun, note: "Khaldun was an ancestor, not his father's name.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: person/muhammad, note: "His genealogy as the example.", sources: [source/jstor-schimmel-islamic-names] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (classical-arabic-names.md); the museum did not open the cited pages; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-printing-names-laws-1 }
+sources: [source/jstor-schimmel-islamic-names, source/bnf-kitcat-arabic-names, source/persee-home, source/brill-reference-works-home, source/nyu-arabic-collections-online]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

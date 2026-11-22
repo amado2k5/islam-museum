@@ -1,0 +1,30 @@
+id: event/rab-rashidi-canal-710
+class: event
+kind: other
+label:
+  ar: "قناة الربع الرشيدي 710"
+  en: "The canal for the Rab' al-Rashidi, 710 AH"
+  ur: "ربع رشیدی کی نہر، 710ھ"
+  fr: "Le canal du Rab'-i Rashidi, 710 de l'Hégire"
+  es: "El canal del Rab'-i Rashidi, 710 de la Hégira"
+summary:
+  ar: "في سنة 710 هـ أنفق رشيد الدين أموالاً طائلة على قناة منقورة في الصخر تجتاز جبلاً ثم البسفوح والوديان، حتى تصل إلى الضاحية الرشيدية بتبريز، بعد أن كان النهر الذي أُخذت منه يجري بجوار تبريز دون جدوى {cite:jami-al-tawarikh-khashshab-1960 p. 50}. يذكر الخشاب أن مثل هذا العمل لو صدر عن ملك لكان من آيات فخره، ولا يكاد المرء يصدقه حين يعلم أنه تم بأمر فرد وبأمواله {cite:jami-al-tawarikh-khashshab-1960 p. 50}."
+  en: "In 710 AH Rashid al-Din spent large sums on a channel cut through rock, crossing a mountain and then the slopes and valleys, to reach the Rashidi suburb at Tabriz; the river it drew from had until then run past Tabriz to no purpose {cite:jami-al-tawarikh-khashshab-1960 p. 50}. The introduction says such a work, had a king done it, would be a mark of his glory; that one man did it from his own wealth is hard to believe {cite:jami-al-tawarikh-khashshab-1960 p. 50}."
+  es: "En 710 de la Hégira Rashid al-Din gastó grandes sumas en un canal excavado en la roca, que atravesaba una montaña y luego las laderas y los valles, hasta llegar al arrabal Rashidi de Tabriz; el río del que se tomaba el agua había corrido hasta entonces junto a Tabriz sin utilidad {cite:jami-al-tawarikh-khashshab-1960 p. 50}. La introducción dice que tal obra, si fuera de un rey, sería señal de su gloria; que un solo hombre la hiciera con su fortuna cuesta creerlo {cite:jami-al-tawarikh-khashshab-1960 p. 50}."
+  fr: "En 710 de l'Hégire, Rashid al-Din dépensa des sommes considérables pour un canal creusé dans le roc, traversant une montagne puis les pentes et les vallées, pour atteindre le faubourg rashidi de Tabriz ; le fleuve dont il prélevait l'eau coulait jusque-là sans utilité près de Tabriz {cite:jami-al-tawarikh-khashshab-1960 p. 50}. L'introduction note qu'une telle œuvre, venant d'un roi, serait la marque de sa gloire ; qu'un seul homme l'ait faite de sa fortune est difficile à croire {cite:jami-al-tawarikh-khashshab-1960 p. 50}."
+  ur: "710ھ میں رشید الدین نے چٹان کاٹ کر بنائی گئی ایک نہر پر بھاری رقم خرچ کی، جو ایک پہاڑ اور پھر ڈھلانوں اور وادیوں سے گزر کر تبریز کے رشیدی محلے تک پہنچی؛ جس دریا سے پانی لیا گیا وہ اس سے پہلے تبریز کے قریب بے فائدہ بہتا تھا {cite:jami-al-tawarikh-khashshab-1960 p. 50}۔ مقدمہ کہتا ہے کہ ایسا کام اگر کسی بادشاہ سے صادر ہوتا تو اس کی شان کی نشانی ہوتا؛ اور یقین کرنا مشکل ہے کہ یہ ایک فرد نے اپنے مال سے کیا {cite:jami-al-tawarikh-khashshab-1960 p. 50}۔"
+date:
+  start: { edtf: "1310/1311", hijri: "0710", calendar: julian, precision: year, status: tradition, note: "سنة 710 هـ؛ الميلادي كما يذكره الكتاب في الصفحة 50 بين 1310 و1311 ⁦(قراءة OCR، لم تُراجع على الصورة)⁩" }
+wings: [place, made, time]
+regions: [persia-central-asia]
+relations:
+  - { type: had_participant, target: person/rashid-al-din-hamadani, role: "الممول", sources: [source/jami-al-tawarikh-khashshab-1960] }
+  - { type: occurred_at, target: place/tabriz, sources: [source/jami-al-tawarikh-khashshab-1960] }
+sources: [source/jami-al-tawarikh-khashshab-1960]
+provenance:
+  layer: own-research
+  source: "Scan page 50 of source/jami-al-tawarikh-khashshab-1960, OCR by Apple Vision; the hill name and the year reading (the OCR has a damaged 'f/' before 710) are uncertain and not used beyond the year 710"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "jami-tawarikh-v1-p001-060"
+status: { review: published, generated_by: "Claude Haiku 5.5" }

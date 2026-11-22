@@ -1,0 +1,27 @@
+id: concept/al-arabiyya-fi-malta
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في مالطا"
+  en: "Arabic in Malta"
+  ur: "مالٹا میں عربی"
+  fr: "l'arabe à Malte"
+  es: "el árabe en Malta"
+summary:
+  ar: "تعرض هذه الصفحة ما يقوله ملخص بحثي زُوّد به المتحف عن العربية في مالطا: مكانتها القانونية، والأصناف المحكية منها، والأرقام الرسمية كما وردت. ومالطا حالة فريدة في الملخص: لغة سامية وطنية رسمية في الاتحاد الأوروبي، تنحدر من العربية الصقلية وتُكتب بالحرف اللاتيني. ولم يفتح المتحف الصفحات التي يسمّيها الملخص، وقد أجاز المؤسس استعماله كما ورد في 21 نوفمبر 2026. وحيث يقول الملخص إنه لم يجد مصدراً رسمياً أو رقماً فهذا ما تقوله الصفحة بلفظه، ولا يضع المتحف رقماً من عنده."
+  en: "This page sets out what a research summary supplied to the museum says about Arabic in Malta: its legal status, the varieties spoken and the official figures, each as the summary gives it. Malta is a singular case in the summary: a national Semitic language, official in the European Union, descended from Siculo-Arabic and written in the Latin alphabet. The museum did not open the pages the summary names, and the founder approved using it as supplied on 21 November 2026. Where the summary says that no official source or figure was found, this page says exactly that and supplies no number of its own."
+  ur: "یہ صفحہ وہ پیش کرتا ہے جو متحف کو فراہم کردہ ایک تحقیقی خلاصہ مالٹا میں عربی کے بارے میں کہتا ہے: اس کی قانونی حیثیت، بولی جانے والی اقسام اور سرکاری اعداد و شمار، ہر ایک جیسا خلاصہ دیتا ہے۔ خلاصے میں مالٹا ایک منفرد صورت ہے: ایک قومی سامی زبان، یورپی یونین میں سرکاری، جو صقلی عربی سے اتری ہے اور لاطینی رسم الخط میں لکھی جاتی ہے۔ متحف نے خلاصے کے بیان کردہ صفحات نہیں کھولے، اور بانی نے 21 نومبر 2026 کو خلاصے کو جیسا ملا اسی طرح استعمال کرنے کی منظوری دی۔ جہاں خلاصہ کہتا ہے کہ کوئی سرکاری ماخذ یا عدد نہیں ملا وہاں یہ صفحہ بالکل یہی کہتا ہے اور اپنی طرف سے کوئی عدد نہیں دیتا۔"
+  fr: "Cette page expose ce que dit un résumé de recherche remis au musée sur l'arabe à Malte : son statut juridique, les variétés parlées et les chiffres officiels, chacun tel que le résumé le donne. Malte est un cas singulier dans le résumé : une langue sémitique nationale, officielle dans l'Union européenne, descendue de l'arabo-sicilien et écrite en alphabet latin. Le musée n'a pas ouvert les pages que nomme le résumé, et le fondateur a approuvé l'usage du résumé tel que fourni le 21 novembre 2026. Là où le résumé dit qu'aucune source officielle ni aucun chiffre n'a été trouvé, cette page dit exactement cela et ne fournit aucun nombre de son cru."
+  es: "Esta página expone lo que dice un resumen de investigación entregado al museo sobre el árabe en Malta: su estatus jurídico, las variedades habladas y las cifras oficiales, cada una como la da el resumen. Malta es un caso singular en el resumen: una lengua semítica nacional, oficial en la Unión Europea, descendiente del sículo-árabe y escrita en alfabeto latino. El museo no abrió las páginas que nombra el resumen, y el fundador aprobó usarlo tal como se entregó el 21 de noviembre de 2026. Donde el resumen dice que no se halló ninguna fuente oficial ni cifra, esta página dice exactamente eso y no aporta ningún número propio."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: language/arabic, sources: [source/ec-representation-malta-maltese-language] }
+  - { type: related_to, target: place/malta, sources: [source/ncml-national-council-for-the-maltese-language] }
+  - { type: related_to, target: concept/al-arabiyya-fi-al-andalus-wa-siqilliyya, sources: [source/ncml-national-council-for-the-maltese-language] }
+  - { type: related_to, target: concept/lahjat-al-maghrib, sources: [source/ncml-national-council-for-the-maltese-language] }
+  - { type: related_to, target: concept/al-arabiyya-fi-cyprus, sources: [source/wikipedia-cypriot-arabic] }
+provenance: { layer: own-research, source: "Research summary on the status of Arabic and its varieties in twelve non-Arab states and regions, supplied by the founder on 21 Nov 2026 and used without re-checking the pages it names, as the founder authorised; pages not opened by the museum.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-outside-spread-1" }
+sources: [source/ec-representation-malta-maltese-language, source/eur-lex-council-regulation-930-2004, source/fra-constitution-of-malta, source/ncml-national-council-for-the-maltese-language, source/nso-malta-census-2021-vol-3, source/nso-malta-skills-survey-2022, source/unesco-atlas-languages-in-danger-pf0000187026, source/wikipedia-cypriot-arabic, source/wikipedia-languages-of-malta]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

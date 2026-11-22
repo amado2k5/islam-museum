@@ -41,3 +41,38 @@ L'Encyclopedia of Arabic Language and Linguistics de Brill décrit l'arabe yém�
 
 ## Nombre de locuteurs
 Le dossier de recherche donne des chiffres de deux sources et une affirmation d'une troisième, et signale les premiers comme anciens. Une page d'archive de cours de l'Université Stanford, de 2003, qui reproduit des chiffres de 1995 et 1996, donne 7 600 000 locuteurs de l'arabe sanaani (1996) ; 6 760 000 au Yémen et 6 840 000 au total pour l'arabe ta'izzi-adeni (1996) ; 300 000 au Yémen et 410 000 au total pour l'arabe hadrami (1995) ; et 1 000 au Yémen pour l'arabe judéo-yéménite (1995) {cite:stanford-yemen-variability-immigration}. Ce sont des chiffres vieux de 25 à 30 ans tirés d'une page de cours, et le musée les donne comme tels, non comme des décomptes actuels. L'article de l'Encyclopaedia Britannica sur le Yémen (mis à jour le 20 novembre 2026) dit que plus des neuf dixièmes des Yéménites parlent un dialecte arabe comme première langue {cite:britannica-yemen-land}. La page-pays d'Ethnologue (29e édition, 2026) donne la population totale du Yémen à 35 220 000, mais garde les décomptes de locuteurs par langue derrière un accès payant {cite:ethnologue-yemen}. Le dossier n'a trouvé aucun chiffre dans Glottolog, Brill ou l'UNESCO.
+
+## Expressions courantes
+Un résumé de recherche remis au musée a ajouté une comparaison de soixante expressions et mots dans six dialectes arabes, dont les salutations, la demande de nouvelles, la demande de ce que veut l'interlocuteur et les nombres de un à cinq. La variété de référence est ici l'arabe yéménite, avec des réserves régionales. Les questions s'adressent en général à un locuteur masculin. La translittération est normalisée pour la comparaison, et l'orthographe arabe peut l'être là où une source emploie une transcription phonétique plutôt que l'écriture arabe. Les équivalents en arabe standard sont fournis pour la comparaison et ne sont pas nécessairement des citations des sources dialectales. Le musée n'a pas ouvert les pages nommées ; les sources sont telles que le résumé les a rapportées, et ses étiquettes figurent dans la dernière colonne. {cite:dliflc-yemeni-language-survival-kit-module-3} {cite:dliflc-yemeni-language-survival-kit-module-5} {cite:dliflc-yemeni-language-survival-kit-module-2} {cite:yemen-times-yemens-tourist-guide-1999}
+
+| Français | Dialecte | Translittération | Équivalent en arabe standard | Source |
+|---|---|---|---|---|
+| Bonjour | مرحبا | marḥaba | مرحباً | Y1, Module 3 |
+| Bonjour (le matin) | صباح الخير | ṣabāḥ al-khayr | صباح الخير | Y1, Module 3 |
+| Comment allez-vous ? | كيف حالك؟ | kēf ḥālak? | كيف حالك؟ | Y1, Module 3 |
+| Je vais bien, merci, et vous ? | أنا بخير، شكراً، وأنت؟ | āna bikhayr, shukran, wa-ant? | أنا بخير، شكراً، وأنت؟ | Y1, Module 3 |
+| Que voulez-vous ? | إيش تشتي؟ | ēsh tishtī? | ماذا تريد؟ | Y2, p. 27 |
+| Un | واحد | wāḥid | واحد | Y1, Module 5 |
+| Deux | اثنين | ithnayn | اثنان | Y1, Module 5 |
+| Trois | ثلاثة | thalātha | ثلاثة | Y1, Module 5 |
+| Quatre | أربعة | arbaʿa | أربعة | Y1, Module 5 |
+| Cinq | خمسة | khamsa | خمسة | Y1, Module 5 |
+
+Conventions de translittération : ā, ī et ū représentent les voyelles longues ; ē et ō les voyelles moyennes longues ; ʿ représente ع ; ʾ représente ء ; ḥ représente ح ; kh représente خ ; et gh représente غ.
+
+L'arabe yéménite recouvre plusieurs variétés régionales, dont le sanʿani, l'adeni, le taʿizzi et le hadrami. Les exemples de ce tableau ne doivent pas être interprétés comme exclusifs au Yémen, ni comme prononcés de façon identique dans tout le pays. Le verbe تشتي est un trait particulièrement reconnaissable de plusieurs variétés yéménites. Le cours du DLIFLC documente aussi sa forme à la première personne اشتي et sa forme négative ماشتيش dans le module 2. L'expression est imprimée dans le guide touristique sous la forme Eysh tishti? et, selon le résumé, est documentée indépendamment dans une étude linguistique de 2025 sur l'arabe d'Aden, tableau 39 ; le résumé n'a pas donné les références complètes de cette étude.
+
+### Sources du tableau
+- **Y1:** Defense Language Institute Foreign Language Center (DLIFLC), Arabic-Yemeni Basic Language Survival Kit, 2010, Module 3: Greetings and Introductions and Module 5: Numbers; un kit de survie linguistique avec écriture arabe, transcription phonétique et audio {cite:dliflc-yemeni-language-survival-kit-module-3} {cite:dliflc-yemeni-language-survival-kit-module-5} {cite:dliflc-yemeni-language-survival-kit-module-2}
+- **Y2:** Yemen's Tourist Guide, 1999, p. 27, Learn Useful Arabic Phrases; un exemple attesté dans un guide de phrases plutôt qu'une entrée de dictionnaire vérifiée {cite:yemen-times-yemens-tourist-guide-1999}
+
+### Ouvrages de référence spécialisés
+| Auteur | Ouvrage de référence | Année |
+|---|---|---|
+| Janet C. E. Watson | Ṣbaḥtū! A Course in Ṣanʿānī Arabic | 1996 |
+| Hamdi A. Qafisheh | NTC's Yemeni Arabic-English Dictionary | 2000 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+Ce sont des ouvrages spécialisés que le résumé liste ; il dit qu'aucune expression particulière des tableaux n'a été attribuée à ces livres sans vérifier les entrées pertinentes, de sorte qu'ils sont des lectures complémentaires et non la source des expressions du tableau. {cite:watson-1996-sbahtu-course-in-sanani-arabic} {cite:qafisheh-2000-ntcs-yemeni-arabic-english-dictionary} {cite:ryding-2005-reference-grammar-msa}
+
+Pour les six variétés côte à côte, voir [[concept/al-muqarana-bayna-lahajat-al-arabiyya|Comparaison des dialectes arabes]].

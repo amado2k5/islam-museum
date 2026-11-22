@@ -38,3 +38,37 @@ La Encyclopaedia Britannica trata el norte de África como una de las cinco gran
 
 ## Número de hablantes
 El archivo de investigación da una cifra para el Magreb: 24 millones de hablantes de árabe marroquí en Marruecos, alrededor del 90 % de la población, tomada de un artículo de mayo de 2017 del departamento de lingüística de Yale que cita el censo marroquí de 2004 {cite:yale-family-agreement-moroccan-arabic}. Es una afirmación de ese artículo, sobre un solo país y ligada a un censo de 2004, y difiere de la de la Encyclopaedia Britannica, expuesta más arriba en esta página, según la cual el árabe lo habla dos tercios de la población de Marruecos; el museo recoge ambas con sus fuentes y no las concilia. Para las cifras agregadas del magrebí y de las demás variedades nacionales el archivo no halló fuente alguna: la página gratuita de Ethnologue sobre el árabe marroquí (29.ª edición, 2026) guarda los recuentos exactos tras un acceso de pago {cite:ethnologue-ary}, el Atlas de las lenguas del mundo en peligro de la UNESCO (3.ª edición, 2010) señala que los censos norteafricanos carecen de desglose lingüístico y solo cubre variedades minoritarias en peligro {cite:unesco-atlas-north-africa-middle-east}, y Glottolog, Britannica y Brill no dan totales agregados.
+
+## Expresiones comunes
+Un resumen de investigación entregado al museo añadió una comparación de sesenta expresiones y palabras en seis dialectos árabes, entre ellas saludos, preguntar cómo está alguien, preguntar qué quiere y los números del uno al cinco. La variedad de referencia es aquí la darija marroquí. Las preguntas se dirigen por lo general a un hablante masculino. La transliteración está normalizada para la comparación, y la ortografía árabe puede estarlo donde una fuente usa transcripción fonética en lugar de escritura árabe. Los equivalentes en árabe estándar se dan para la comparación y no son necesariamente citas de las fuentes dialectales. El museo no abrió las páginas nombradas; las fuentes son como las refirió el resumen, y sus etiquetas figuran en la última columna. {cite:peace-corps-morocco-moroccan-arabic-textbook-2011}
+
+| Español | Dialecto | Transliteración | Equivalente en árabe estándar | Fuente |
+|---|---|---|---|---|
+| Hola | السلام عليكم | s-salāmu ʿalaykum | السلام عليكم | M1, p. 5 |
+| Buenos días | صباح الخير | ṣbāḥ l-khīr | صباح الخير | M1, p. 5 |
+| ¿Cómo estás? | كيف داير؟ | kīf dāyr? | كيف حالك؟ | M1, p. 6 |
+| Bien, gracias a Dios | لاباس، الحمد لله | lābās, l-ḥamdu llāh | بخير، الحمد لله | M1, p. 6 |
+| ¿Qué quieres? | شنو بغيتي؟ | shnu bghīti? | ماذا تريد؟ | M1, p. 35 |
+| Uno | واحد | wāḥd | واحد | M1, p. 22 |
+| Dos | جوج | jūj | اثنان | M1, p. 22 |
+| Tres | تلاتة | tlāta | ثلاثة | M1, p. 22 |
+| Cuatro | ربعة | rbʿa | أربعة | M1, p. 22 |
+| Cinco | خمسة | khmsa | خمسة | M1, p. 22 |
+
+Convenciones de transliteración: ā, ī y ū representan vocales largas; ē y ō vocales medias largas; ʿ representa ع; ʾ representa ء; ḥ representa ح; kh representa خ; y gh representa غ.
+
+Las diez expresiones están atestiguadas en este manual. El diálogo de compras incluye la pregunta con una forma de tratamiento cortés adicional. El número جوج es particularmente distintivo. El árabe marroquí también reduce con frecuencia las vocales breves, produciendo grupos consonánticos como los de ربعة y خمسة. La tabla cubre solo la darija marroquí entre los dialectos magrebíes.
+
+### Fuentes de la tabla
+- **M1:** Peace Corps Morocco, Moroccan Arabic Textbook, 2011 edition; printed pages 5-6 (greetings), 22 (cardinal numbers), 35 (shopping vocabulary and dialogue); un manual para voluntarios del Cuerpo de Paz {cite:peace-corps-morocco-moroccan-arabic-textbook-2011}
+
+### Obras de referencia especializadas
+| Autor | Obra de referencia | Año |
+|---|---|---|
+| Richard S. Harrell | A Short Reference Grammar of Moroccan Arabic | 1962 |
+| Richard S. Harrell and Harvey Sobelman | A Dictionary of Moroccan Arabic: Moroccan-English | 1966 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+Son obras especializadas que lista el resumen; dice que ninguna expresión particular de las tablas se atribuyó a estos libros sin comprobar las entradas pertinentes, de modo que son lecturas complementarias y no la fuente de las expresiones de la tabla. {cite:harrell-1962-short-reference-grammar-of-moroccan-arabic} {cite:harrell-sobelman-1966-dictionary-of-moroccan-arabic} {cite:ryding-2005-reference-grammar-msa}
+
+Para las seis variedades lado a lado véase [[concept/al-muqarana-bayna-lahajat-al-arabiyya|Comparación de los dialectos árabes]].

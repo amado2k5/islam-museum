@@ -1,0 +1,28 @@
+id: concept/al-iraab-wal-mamnu-min-al-sarf
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-sciences]
+label:
+  ar: "الإعراب والممنوع من الصرف"
+  en: "Case endings (i'rab) and diptotes"
+  ur: "اعراب اور ممنوع من الصرف"
+  fr: "Les cas (i'rab) et les diptotes"
+  es: "Los casos (i'rab) y los diptotos"
+summary:
+  ar: "جدول الحالات الثلاث، الرفع والنصب والجر، ولواحقها بحسب نوع الاسم: المثلث المعرّف والنكرة والممنوع من الصرف وجمع المؤنث السالم والمثنى وجمع المذكر السالم، مع قاعدة الممنوع من الصرف وأصنافه الكبرى، كما أوردها ملخص بحثي. أرقام الصفحات عند ريدنغ 2005 ورايت 1896 والغلاييني من الملخص ولم يتحقق منها المتحف."
+  en: "The table of the three cases, nominative, accusative and genitive, and their endings by type of noun: definite and indefinite triptotes, diptote, sound feminine plural, dual and sound masculine plural, with the rule for diptotes and their main classes, as given by a research summary. The page numbers in Ryding 2005, Wright 1896 and al-Ghalayini are the summary's and the museum did not check them."
+  ur: "تینوں حالتوں، رفع، نصب اور جر، اور اسم کی قسم کے مطابق ان کے لاحقوں کا جدول: معرفہ اور نکرہ مثلث، ممنوع من الصرف، جمع مؤنث سالم، مثنیٰ اور جمع مذکر سالم، ساتھ ممنوع من الصرف کا قاعدہ اور اس کی بڑی اقسام، جیسے ایک تحقیقی خلاصے نے دیں۔ رائڈنگ 2005، رائٹ 1896 اور الغلاینی میں صفحات کے نمبر خلاصے کے ہیں اور عجائب گھر نے ان کی جانچ نہیں کی۔"
+  fr: "Le tableau des trois cas, nominatif, accusatif et génitif, et de leurs terminaisons selon le type de nom : triptotes défini et indéfini, diptote, pluriel féminin sain, duel et pluriel masculin sain, avec la règle des diptotes et leurs principales classes, tel que le donne un résumé de recherche. Les numéros de page chez Ryding 2005, Wright 1896 et al-Ghalayini sont ceux du résumé et le musée ne les a pas vérifiés."
+  es: "La tabla de los tres casos, nominativo, acusativo y genitivo, y sus terminaciones según el tipo de nombre: triptotos definido e indefinido, diptoto, plural femenino sano, dual y plural masculino sano, con la regla de los diptotos y sus clases principales, tal como la da un resumen de investigación. Los números de página en Ryding 2005, Wright 1896 y al-Ghalayini son los del resumen y el museo no los comprobó."
+wings: [words, ideas]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: concept/ilm-al-nahw, sources: [source/ryding-2005-reference-grammar-msa, source/wright-grammar-of-the-arabic-language-vol1] }
+  - { type: related_to, target: concept/naqt-al-irab, sources: [source/ryding-2005-reference-grammar-msa] }
+  - { type: related_to, target: concept/al-muthanna-wal-jam-wal-adad-min-thalatha-ila-ashara, sources: [source/ryding-2005-reference-grammar-msa] }
+  - { type: related_to, target: work/jami-al-durus-al-arabiyya, sources: [source/elbassair-jami-al-durus-al-arabiyya-pdf] }
+  - { type: related_to, target: person/mustafa-al-ghalayini, sources: [source/elbassair-jami-al-durus-al-arabiyya-pdf] }
+  - { type: related_to, target: language/arabic, sources: [source/ryding-2005-reference-grammar-msa] }
+provenance: { layer: own-research, source: "Research summary on the Arabic root-and-pattern system, case, number, numerals and diptotes supplied by the founder (compiled with Google Gemini); the museum did not open the pages it cites, page numbers are the summary's and unchecked, and the summary was used with the founder's approval of 21 Nov 2026.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-diglossia-grammar-phrases-1" }
+sources: [source/ryding-2005-reference-grammar-msa, source/wright-grammar-of-the-arabic-language-vol1, source/elbassair-jami-al-durus-al-arabiyya-pdf]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model; the cited pages were not opened by the museum (research summary supplied by the founder, used with his approval of 21 Nov 2026)" }

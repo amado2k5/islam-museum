@@ -1,0 +1,32 @@
+id: dec-20261122-314
+kind: "decision"
+date: "2026-11-22"
+expires_at: "2027-11-22"
+question_hash: 7afd1db0aa73
+lane: "assabile-pipeline"
+class: "process"
+modality: "repo"
+domain: "governance"
+mode: "conservative"
+question: "Worker W6 (binbaz.org.sa fatwa crawl) has restarted about nine times in ninety minutes, each time hitting the same unrecognised page (id 1832) and backing off. Should the crawler be restarted again, or stopped until a parser or site check is done?"
+options:
+  - "stop W6 and hold its held ids until the parser is checked"
+  - "keep restarting W6 under the crash rule"
+  - "skip the unrecognised ids and keep crawling the rest"
+evidence:
+  - "queue/assabile/logs/w6.log: three pages in a row errored, backing off 10 minutes, repeated restarts"
+  - "AGENTS.md: a worker that is stalled is restarted, but a deliberate backoff is not a crash"
+  - "docs/agents/orchestration/lane-rules.md: never held or idle; skip the item and move on"
+status: decided
+step: safe-default
+decision: "hold as draft-tier / pointer-only; record question in lane progress file for the next precedent-extraction pass"
+confidence: 0.4
+reversible: true
+rationale: "No rule or precedent matched. Defaulting to the most conservative reversible action per the decision-ledger design."
+needs_precedent: true
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":0,"rule_ids_fired":[],"precedent_distance":0.881,"top_precedent_id":"dec-20261108-175","top_precedent_status":"ledger-override","founder_resolution":null,"founder_override":false,"calibration_weight":1}
