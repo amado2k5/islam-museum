@@ -22,6 +22,9 @@ open a new block on top with the new version and today's date.
 ### Tests
 - `scripts/arabiyya.test.ts` checks the detector: the verses, the known false positives (a man named Ibn al-Arabi, a bare citation of the dictionary Lisan al-Arab), and that a passage from a book harvested later is picked up.
 
+### Changed
+- **The project status page's Tranco ranking log is current to 21 November 2026.** islam.museum stands at **#716,997** on the Tranco list of 21 November 2026 (list 46YLX, read from the published list file of 4,338,665 domains) — up 140,948 places in a day, and 3,892,970 places above its first reading of #4,609,967 on 23 October 2026. The log's rows for 18–21 November and its Latest note record the climb.
+
 ## v2.26.1 — 2026-11-20
 ### Data
 - **Assabile harvest register: 9 episodes updated across 2 series, 8 transcripts recorded (0 episodes added).** The register now shows which Assabile episodes are on the drive and which machine transcripts are finished, so later harvest work starts from the recorded state. No mined episode's entry was changed beyond its transcript and drive lines.
