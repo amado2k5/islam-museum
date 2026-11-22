@@ -138,6 +138,14 @@ open a new block on top with the new version and today's date.
 ### Changed
 - The ten qira'at, the seven ahruf, Ibn Mujahid's selection of the seven, and the conditions of a sound reading gained sections: the ten readers with their narrators, death dates and features, the dialects linked to the seven ahruf with the other views, and the main works; they now also carry the arabiyya-browser and arabiyya-ijaz tags.
 
+### Added (structured names on person records)
+
+- **A person record can now carry its classical Arabic name as structured data (`name_parts`).** The founder approved the proposal on 21 November 2026. Each element of the name (given name, kunya, line of descent, epithet, honorific title, nisba, ancestral designation, the name the person is known by, spellings and source-attributed variants) can hold several values, each with its own sources, a certainty (attested, disputed or uncertain) and, for a nisba, an optional link to a place, tribe, occupation, dynasty or school that does not claim birth there or descent from it. The field is optional and no record is invalid without it. The validator checks that every cited source and linked record exists. Ibn Khaldun is the first record to use it. The shape is described in `docs/data/name-parts.md`. The site does not show it yet.
+
+### Tests
+
+- `scripts/name-parts.test.ts` checks the schema for the new field: the Ibn Khaldun record passes, several values and a link pass, and an unknown element, an unknown certainty, a malformed link and a missing value fail.
+
 ## v2.26.1 — 2026-11-20
 ### Data
 - **Assabile harvest register: 9 episodes updated across 2 series, 8 transcripts recorded (0 episodes added).** The register now shows which Assabile episodes are on the drive and which machine transcripts are finished, so later harvest work starts from the recorded state. No mined episode's entry was changed beyond its transcript and drive lines.
