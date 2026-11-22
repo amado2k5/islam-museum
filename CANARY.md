@@ -24,6 +24,9 @@ open a new block on top with the new version and today's date.
 - 92 records the museum already held (grammarians, lexicographers, books, scripts, the Arabs before Islam) now carry the browser's tags; nothing else in them changed. 42 source records were added for the editions and pages read on 21 November 2026.
 ### Tests
 - `scripts/arabiyya.test.ts` checks the detector: the verses, the known false positives (a man named Ibn al-Arabi, a bare citation of the dictionary Lisan al-Arab), and that a passage from a book harvested later is picked up.
+### Fixed
+- **The References page is light again: its list of websites and online sources now shows the first 150 and continues on its own pages** (`/{lang}/references/web/`, 400 a page), the way the book list already did. With 576 web sources the Arabic page had grown to 567 KB, over its 500 KB budget, and stopped the full build; it is now about 295 KB.
+- The place record for Khansa (from the Jami' al-Tawarikh batch) stored its name in a field places do not have; it now uses `historical_names`, so the content check passes again.
 
 ### Data (Arabic Language Browser, books chapter)
 
