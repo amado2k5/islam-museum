@@ -1,0 +1,20 @@
+---
+id: concept/lahjat-al-sham
+lang: en
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Summary
+Bilad al-Sham is the [[place/levant|Levant]], which includes [[place/syria|Syria]], [[place/lebanon|Lebanon]], [[place/jordan|Jordan]] and [[place/palestine|Palestine]], and among its cities [[place/damascus|Damascus]]. This page gathers what was read of the speech of its people in two sources: the Encyclopaedia Britannica's modern division of the dialect groups, and what the old books of language say of the Arabs on the edge adjoining the Levant and Ibn Khaldun's account of the speech of the cities. No detailed description of the Levantine dialect was found in the references read, so the page is short, as far as what was read goes.
+
+## The modern description
+The Encyclopaedia Britannica says in its article on the Arabic language that the spoken varieties differ a great deal and that some are not understood by speakers of others, that the chief dialect groups in modern times are those of Arabia, Iraq, Syria, Egypt and North Africa, and that the three cases of inflection have mostly disappeared from the spoken varieties {cite:britannica-arabic-language}. For it the Levant is a group in itself, but the article does not detail its features or limits.
+
+## The Arabs adjoining the Levant in al-Muzhir
+Al-Suyuti relays from al-Farabi that the language was not taken from Quda'a, Ghassan and Iyad because they adjoined the people of the Levant, most of whom were Christians who read Hebrew {cite:muzhir-mansur-1998 1 p.167}. Ibn Khaldun says the tongue of Mudar was spoiled by their mixing with the non-Arabs when they took the realms of Iraq, the Levant, Egypt and the Maghrib, its faculty no longer taking the first form, so that it turned into another language {cite:tarikh-ibn-khaldun-shahada-1981 1 p.767}. This is Ibn Khaldun's statement about the tongue in general, not about the Levant in particular, and he describes no Levantine dialect in it.
+
+## The speech of the cities in Ibn Khaldun
+Ibn Khaldun has a chapter that the language of the settled people and the cities is a language standing by itself, differing from that of Mudar, and that it varies from city to city: the tongue of the people of the east differs somewhat from that of the people of the west, and likewise the people of al-Andalus, each conveying his purpose by his own speech, and the loss of i'rab does not harm them {cite:tarikh-ibn-khaldun-shahada-1981 1 p.770}. He explains the distance from the first language by mixing with the non-Arabs: whoever mixed with them more has a language further from the original, since the faculty is gained by teaching {cite:tarikh-ibn-khaldun-shahada-1981 1 p.770}. He says in a nearby place that when the Arabs overcame the nations of the east, the Persians and the Turks, they mixed with them and their languages passed among them, so that their speech was spoiled with the spoiling of the faculty until it became another language {cite:tarikh-ibn-khaldun-shahada-1981 1 p.771}. He sets east against west and al-Andalus in his talk and gives the Levant no description of its own.
+
+## What this page does not reach
+No description of the features of the Levantine dialect was found in the references read, whether of its sounds, grammar or vocabulary, nor a count of its speakers, nor differences among the dialects of Damascus, Beirut, Amman and Jerusalem or between towns, villages and the desert; and no modern dialect survey was read. The Encyclopaedia's articles on the countries concerned were not read, so what is related here of the Levant comes from the general article on Arabic and from the old books of language. For the general picture see [[concept/al-fusha-wal-lahajat|Standard Arabic and the spoken dialects today]]. Other references on Levantine dialects, dialect surveys and studies of the speech of towns, villages and the desert, should be added once read and their content is clear. Until then the page records the limits of what was read, not a description of the dialect.

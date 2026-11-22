@@ -32,6 +32,11 @@ open a new block on top with the new version and today's date.
 ### Changed
 - **The project status page's Tranco ranking log is current to 21 November 2026.** islam.museum stands at **#716,997** on the Tranco list of 21 November 2026 (list 46YLX, read from the published list file of 4,338,665 domains) — up 140,948 places in a day, and 3,892,970 places above its first reading of #4,609,967 on 23 October 2026. The log's rows for 18–21 November and its Latest note record the climb.
 
+### Data (Arabic Language Browser: the sciences of rhetoric and the Arabic dialects)
+- Ten new concept records in five languages, tagged for the Arabic Language Browser. Rhetoric (arabiyya-sciences): the science of rhetoric, ma'ani, bayan and badi', each with prose built from pages actually read: al-Qazwini's al-Idah (with Khafaji's commentary), al-Sakkaki's Miftah al-Ulum, Ibn al-Mu'tazz's al-Badi', Ibn Khaldun's Muqaddima and al-Jurjani's Dala'il, with Qur'anic examples pointed to by verse page and explained from the tafsir of al-Qurtubi, al-Baghawi and Ibn Kathir (no verse text typed). Dialects (arabiyya-dialects): the Gulf, the Hejaz, the Levant, Egypt, the Maghrib and Yemen, each stating plainly what the sources read say and what they do not (no speaker counts or modern features were found for most of them, and the pages say so instead of filling the gap).
+- Ten new source records: al-Idah (Khafaji ed.), Miftah al-Ulum (Zarzur ed.), al-Badi' (Ibn al-Mu'tazz, Dar al-Jil) and Encyclopaedia Britannica pages on Egypt (languages), Yemen, Qatar, Bahrain, Morocco, the Maghrib, Mauritania and Saudi Arabia. The Shamela copy of al-Idah read carries only the ma'ani section, which each page notes.
+- All new prose and translations are AI-written from the cited sources and have not been read by a human; Urdu, French and Spanish are machine translations.
+
 ## v2.26.1 — 2026-11-20
 ### Data
 - **Assabile harvest register: 9 episodes updated across 2 series, 8 transcripts recorded (0 episodes added).** The register now shows which Assabile episodes are on the drive and which machine transcripts are finished, so later harvest work starts from the recorded state. No mined episode's entry was changed beyond its transcript and drive lines.
