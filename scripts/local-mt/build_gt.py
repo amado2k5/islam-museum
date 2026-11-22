@@ -114,6 +114,6 @@ while len(data) > a.bytes and len(records) > 1:  # drop whole records from the e
 if not records: print("nothing left to build"); sys.exit(3)
 os.makedirs(a.dir, exist_ok=True)
 name = a.name or (f"gt-{a.n:03d}" if a.lang == "both" else f"gt-{a.lang}-{a.n:03d}")
-open(os.path.join(a.dir, name + "-en.docx"), "wb").write(data)
+open(os.path.join(a.dir, name + f"-{a.src}.docx"), "wb").write(data)
 json.dump(records, open(os.path.join(a.dir, name + ".json"), "w", encoding="utf-8"), ensure_ascii=False)
 print(f"{name}\trecords {len(records)}\twords {words}\tbytes {len(data)}")
