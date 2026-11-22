@@ -1,0 +1,6 @@
+question: "Worker W3b has been on one episode (el-Sabaa el-Mubikat ep 03) for well over two hours with a fresh heartbeat, but has not finished it. Restart it on another file, or let it continue?"
+class: "process"
+lane: "assabile-pipeline"
+options: ["let W3b continue on ep 03", "restart W3b on the next file in the queue", "restart W3b and requeue ep 03 for later"]
+evidence: ["queue/assabile/logs/w3b.log: heartbeat fresh, state=asr on el-sabaa-el-mubikat ep03 elapsed over 2 hours", "other episodes take 5 to 20 minutes"]
+proposed_action: "option 3: restart W3b on the next file and requeue ep 03 at the end"

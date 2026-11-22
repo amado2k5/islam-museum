@@ -1,0 +1,6 @@
+question: "Worker W6 (binbaz.org.sa fatwa crawl) has restarted about nine times in ninety minutes, each time hitting the same unrecognised page (id 1832) and backing off. Should the crawler be restarted again, or stopped until a parser or site check is done?"
+class: "process"
+lane: "assabile-pipeline"
+options: ["stop W6 and hold its held ids until the parser is checked", "keep restarting W6 under the crash rule", "skip the unrecognised ids and keep crawling the rest"]
+evidence: ["queue/assabile/logs/w6.log: three pages in a row errored, backing off 10 minutes, repeated restarts", "AGENTS.md: a worker that is stalled is restarted, but a deliberate backoff is not a crash", "docs/agents/orchestration/lane-rules.md: never held or idle; skip the item and move on"]
+proposed_action: "option 3: skip the unrecognised ids, keep the crawl going, and stop restarting W6 by hand"
