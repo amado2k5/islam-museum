@@ -116,3 +116,13 @@ Scanned PDFs among these still need OCR (all except Munqidh and Shamil). Nothing
 ### OCR (21–22 November 2026)
 
 All 13 PDF books (everything except al-Shamil, which is a Shamela database) were run through `scripts/harvest/library/ocr_book.py` (Apple Vision, `ocrmac`) on the founder's Mac; text is in `books/<id>/` on the microSD, not in git. About 6,150 pages in all. The scans of Kalila wa Dimna were 5,500 by 7,200 pixels at 200 dpi and stalled Apple Vision, so pages were rendered at about 2,400 px wide for it and everything after it (a patched copy kept outside the repo). The al-Kindi PDFs already carried a text layer. Counts of near-empty pages are in `harvest-register.yaml`; Kalila (81 of 376), al-Hiyal (47) and the Nowruznameh study (46) are the highest and have not been looked at. Spot read of Kalila p. 60 came out as clean Arabic. Not yet done: OCR zips, any review of OCR quality, mining and source records.
+
+## Second fetch (22 November 2026): replacement editions for thin holdings
+
+Checked the 19 existing source records against `harvest-register.yaml` and the microSD: all have text on disk. The Ibn Jubayr scans carry a text layer (the register's "partial" only counts pages that needed OCR). Three works were held only in part or by web page, so better editions were fetched from archive.org and OCRd with Apple Vision (quality not reviewed):
+
+- `jazari-jami-arabic` (archive.org JZRI1979SCI, 633 pages): Arabic al-Jazari, for `source/jazari-hill-1974`.
+- `kitab-al-ayn-khalil` (20260406_20260406_0201, 1,753 pages): full Kitab al-'Ayn, for `source/kitab-al-ayn-makhzumi`.
+- `tasrif-zahrawi-latin` (20210303_20210303_1822, 189 pages): despite its Arabic title this is an early Latin print of Albucasis (*Methodus medendi*), not the Arabic al-Tasrif. The whole Arabic al-Tasrif is still wanted.
+- Jami' al-Tawarikh volume 1: three candidate PDFs were downloaded to `raw/library/jami-al-tawarikh-vol1/` (AAlexandrina-141609, AAlexandrina-429978, 20241003_20241003_1100); the one with a text layer reads as volume 2 part 1 (already held). Not OCRd, not identified; not in the register.
+- Still not found: Arabic *Jam' wa-l-Tafriq*, al-Farabi's aims-of-the-Metaphysics treatise, the Persian Rubaiyat and the Nowruznameh text itself.
