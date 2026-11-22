@@ -4,7 +4,7 @@
 // "index.html" file names Astro writes (for example "ar/person/muhammad/index.html").
 // The site keeps trailingSlash "always", so a request without a slash is redirected.
 
-export const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id", "tr", "id"];
+export const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"];
 
 const isLangPath = (pathname) => LANGS.some((l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`));
 
