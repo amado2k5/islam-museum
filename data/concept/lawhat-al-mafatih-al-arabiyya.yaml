@@ -1,0 +1,26 @@
+id: concept/lawhat-al-mafatih-al-arabiyya
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-script]
+label:
+  ar: "لوحة المفاتيح العربية"
+  en: "The Arabic keyboard"
+  ur: "عربی کی بورڈ"
+  fr: "Le clavier arabe"
+  es: "El teclado árabe"
+summary:
+  ar: "خمسة أنماط من لوحات المفاتيح العربية كما يلخصها ملف بحثي قُدّم إلى المتحف: معيار «أسمو 663» لسنة 1987، ونمط «عربي (101)» في ويندوز على قاعدة كويرتي، ونمطا «عربي (102)» و«عربي (102) أزرتي» في المغرب العربي، والفرق بين «عربي» و«عربي - PC» في ماك، واللوحة الصوتية {cite:researchgate-asmo-663-keyboard-figure} {cite:microsoft-qa-arabic-keyboards} {cite:arabictyping101-arabic-101-vs-102}."
+  en: "Five kinds of Arabic keyboard as a research file supplied to the museum summarises them: the ASMO 663 standard of 1987, the Arabic (101) layout in Windows on a QWERTY base, the Arabic (102) and Arabic (102) AZERTY layouts of North Africa, the difference between Arabic and Arabic - PC on the Mac, and the phonetic layout {cite:researchgate-asmo-663-keyboard-figure} {cite:microsoft-qa-arabic-keyboards} {cite:arabictyping101-arabic-101-vs-102}."
+  ur: "عربی کی بورڈ کی پانچ اقسام، جیسا کہ عجائب گھر کو پیش کی گئی ایک تحقیقی فائل ان کا خلاصہ کرتی ہے: 1987 کا معیار «اسمو 663»، ونڈوز میں کوِرٹی بنیاد پر «عربی (101)» ترتیب، مغربِ عربی کی «عربی (102)» اور «عربی (102) ازرٹی» ترتیبیں، میک پر «عربی» اور «عربی - PC» کا فرق، اور صوتی ترتیب {cite:researchgate-asmo-663-keyboard-figure} {cite:microsoft-qa-arabic-keyboards} {cite:arabictyping101-arabic-101-vs-102}."
+  fr: "Cinq types de claviers arabes tels qu'un dossier de recherche remis au musée les résume : la norme ASMO 663 de 1987, la disposition Arabic (101) de Windows sur une base QWERTY, les dispositions Arabic (102) et Arabic (102) AZERTY de l'Afrique du Nord, la différence entre Arabic et Arabic - PC sur Mac, et la disposition phonétique {cite:researchgate-asmo-663-keyboard-figure} {cite:microsoft-qa-arabic-keyboards} {cite:arabictyping101-arabic-101-vs-102}."
+  es: "Cinco tipos de teclado árabe tal como los resume un expediente de investigación entregado al museo: la norma ASMO 663 de 1987, la distribución Arabic (101) de Windows sobre una base QWERTY, las distribuciones Arabic (102) y Arabic (102) AZERTY del norte de África, la diferencia entre Arabic y Arabic - PC en el Mac, y la distribución fonética {cite:researchgate-asmo-663-keyboard-figure} {cite:microsoft-qa-arabic-keyboards} {cite:arabictyping101-arabic-101-vs-102}."
+wings: [words, ideas]
+themes: [linguistics]
+regions: [global]
+relations:
+  - { type: related_to, target: concept/al-tibaa-wal-ahruf-wa-unicode-al-arabi, note: "The encoding the layouts enter.", sources: [source/microsoft-qa-arabic-keyboards] }
+  - { type: related_to, target: concept/arabizi, note: "Arabizi grew where Arabic keyboards were missing, per the summary.", sources: [source/psu-symbolcodes-glossary] }
+  - { type: related_to, target: language/arabic, sources: [source/microsoft-qa-arabic-keyboards] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (arabic_printing_typography_unicode_keyboards.md); the museum did not open the cited pages; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-printing-names-laws-1 }
+sources: [source/researchgate-asmo-663-keyboard-figure, source/psu-symbolcodes-glossary, source/microsoft-qa-arabic-keyboards, source/openarabic-arabic-keyboard-with-harakat, source/arabictyping101-arabic-101-vs-102, source/kromekeycaps-what-is-an-arabic-pc-keyboard]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

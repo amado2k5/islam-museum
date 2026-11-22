@@ -35,3 +35,39 @@ The Encyclopaedia Britannica places Arabic in Central Semitic and groups the mod
 
 ## Speaker numbers
 The research summary found no speaker count for Gulf Arabic. The free page of Ethnologue (29th edition, 2026) keeps exact first- and second-language counts behind a paywall, and Glottolog, Brill, Britannica, UNESCO and the university sites it consulted state none {cite:ethnologue-afb}. This page therefore gives no figure and does not estimate one.
+
+## Common phrases
+A research summary supplied to the museum added a comparison of sixty expressions and words across six Arabic dialects, including greetings, asking how someone is, asking what someone wants, and the numbers one to five. The reference variety here is Kuwaiti and Gulf Arabic. Questions are generally addressed to one male speaker. Transliteration is normalized for comparison, and Arabic spelling may be normalized where a source uses phonetic transcription rather than Arabic script. The MSA equivalents are supplied for comparison and are not necessarily quotations from the dialect sources. The museum did not open the pages named; the sources are as the summary reported them, and its labels are given in the last column. {cite:gulfarabic-com-greeting-people-i} {cite:parallel-arabic-learn-kuwaiti-arabic} {cite:gulfarabic-com-numbers-cardinals-and-ordinals}
+
+| English | Dialect | Transliteration | MSA equivalent | Source |
+|---|---|---|---|---|
+| Hello | يا هلا | yā hala | أهلاً | G1 |
+| Good morning | صباح الخير | ṣabāḥ il-khayr | صباح الخير | G1 |
+| How are you? | شلونك؟ | shlōnak? | كيف حالك؟ | G2 |
+| Fine, thank God | زين، الحمد لله | zayn, il-ḥamdu lillāh | بخير، الحمد لله | G2 |
+| What do you want? | شنو تبي؟ | shinu tibī? | ماذا تريد؟ | G2 |
+| One | واحد | wāḥid | واحد | G3 |
+| Two | إثنين | ithnēn | اثنان | G3 |
+| Three | ثلاثة | thalātha | ثلاثة | G3 |
+| Four | أربعة | arbaʿa | أربعة | G3 |
+| Five | خمسة | khamsa | خمسة | G3 |
+
+Transliteration conventions: ā, ī and ū represent long vowels; ē and ō represent long mid-vowels; ʿ represents ع; ʾ represents ء; ḥ represents ح; kh represents خ; and gh represents غ.
+
+Unlike mainstream Cairene and urban Levantine Arabic, many Gulf varieties preserve the interdental pronunciation of ث as th, as illustrated by ثلاثة.
+
+### Sources of the table
+- **G1:** GulfArabic.com, online course, vocabulary lesson V.2.1, Greeting People I; an online course {cite:gulfarabic-com-greeting-people-i}
+- **G2:** Parallel Arabic, online Kuwaiti Arabic course, Learn Kuwaiti Arabic, section Hear Kuwaiti; an online Kuwaiti Arabic course {cite:parallel-arabic-learn-kuwaiti-arabic}
+- **G3:** GulfArabic.com, grammar lesson G.4.3, Numbers: Cardinals and Ordinals; an online grammar lesson {cite:gulfarabic-com-numbers-cardinals-and-ordinals}
+
+### Specialist reference works
+| Author | Reference work | Year |
+|---|---|---|
+| Hamdi A. Qafisheh | A Short Reference Grammar of Gulf Arabic | 1977 |
+| Clive Holes | Gulf Arabic | 1990 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+These are specialist works the summary lists; it says no individual expression in the tables was attributed to these books without checking the relevant entries, so they are further reading and not the source of the table's expressions. {cite:qafisheh-1977-short-reference-grammar-of-gulf-arabic} {cite:holes-1990-gulf-arabic} {cite:ryding-2005-reference-grammar-msa}
+
+For the six varieties side by side see [[concept/al-muqarana-bayna-lahajat-al-arabiyya|A comparison of Arabic dialects]].

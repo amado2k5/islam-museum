@@ -1,0 +1,28 @@
+id: concept/al-tibaa-wal-ahruf-wa-unicode-al-arabi
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-script]
+label:
+  ar: "الطباعة والحروف الطباعية وترميز يونيكود العربي"
+  en: "Printing, type and the Unicode Arabic block"
+  ur: "طباعت، حروفِ طباعت اور عربی یونی کوڈ"
+  fr: "Imprimerie, caractères et bloc arabe d'Unicode"
+  es: "Imprenta, tipos y el bloque árabe de Unicode"
+summary:
+  ar: "كيف تحوّل الحرف العربي من حروف معدنية متعددة الأشكال إلى آلات الصف الحار فالتصميم الرقمي: حروف غرانجون الخمسة ، وتبسيط ليوتايب ومونوتايب، ومشروع «العربية الموحدة» لنصري خطار سنة 1947، ونظام مطبعة الأهرام سنة 1968، ومحرك «ديكوتايب» سنة 1985، وكتلة يونيكود العربية في إصدار 1.0 سنة 1991، كما يعرضها ملف بحثي قُدّم إلى المتحف {cite:reading-typoarabic-justification-part-1} {cite:aub-nasri-khattar-collection-finding-aid} {cite:unicode-1-0-code-charts-2-pdf}."
+  en: "How the Arabic letter passed from multi-shaped metal sorts to hot-metal machines and then digital design: Granjon's five Medici fonts, the Linotype and Monotype simplification, Nasri Khattar's Unified Arabic of 1947, the automated setting at al-Ahram in 1968, DecoType's engine of 1985 and the Unicode Arabic block in version 1.0 of 1991, as a research file supplied to the museum presents them {cite:reading-typoarabic-justification-part-1} {cite:aub-nasri-khattar-collection-finding-aid} {cite:unicode-1-0-code-charts-2-pdf}."
+  ur: "عربی حرف کس طرح کئی شکلوں والے دھاتی حروف سے ہاٹ میٹل مشینوں اور پھر ڈیجیٹل ڈیزائن تک پہنچا: گرانجون کے پانچ میڈیچی فونٹ، لائنوٹائپ اور مونوٹائپ کی سادگی، نصری خطار کی 1947 کی «متحدہ عربی»، 1968 میں الاہرام میں خودکار کمپوزنگ، 1985 میں ڈیکوٹائپ کا انجن، اور 1991 کے ورژن 1.0 میں یونی کوڈ کا عربی بلاک، جیسا کہ عجائب گھر کو پیش کی گئی ایک تحقیقی فائل انہیں پیش کرتی ہے {cite:reading-typoarabic-justification-part-1} {cite:aub-nasri-khattar-collection-finding-aid} {cite:unicode-1-0-code-charts-2-pdf}."
+  fr: "Comment la lettre arabe est passée de caractères de plomb à formes multiples aux machines à composer à chaud, puis à la conception numérique : les cinq fontes Médicis de Granjon, la simplification de Linotype et de Monotype, l'arabe unifié de Nasri Khattar en 1947, la composition automatisée d'al-Ahram en 1968, le moteur de DecoType en 1985 et le bloc arabe d'Unicode dans la version 1.0 de 1991, tels qu'un dossier de recherche remis au musée les présente {cite:reading-typoarabic-justification-part-1} {cite:aub-nasri-khattar-collection-finding-aid} {cite:unicode-1-0-code-charts-2-pdf}."
+  es: "Cómo la letra árabe pasó de tipos de metal de formas múltiples a las máquinas de composición en caliente y luego al diseño digital: las cinco fuentes Médici de Granjon, la simplificación de Linotype y Monotype, el árabe unificado de Nasri Khattar en 1947, la composición automatizada de al-Ahram en 1968, el motor de DecoType en 1985 y el bloque árabe de Unicode en la versión 1.0 de 1991, tal como los presenta un expediente de investigación entregado al museo {cite:reading-typoarabic-justification-part-1} {cite:aub-nasri-khattar-collection-finding-aid} {cite:unicode-1-0-code-charts-2-pdf}."
+wings: [words, ideas]
+themes: [linguistics, arts-of-the-book]
+regions: [global]
+relations:
+  - { type: related_to, target: concept/tarikh-al-tibaa-al-arabiyya, note: "The printing milestones that come before the type story here.", sources: [source/reading-typoarabic-justification-part-1] }
+  - { type: related_to, target: concept/marahil-tatawwur-al-khatt-al-arabi, sources: [source/brill-eall-sim-000043] }
+  - { type: related_to, target: concept/naskh-script, note: "The Naskh book typefaces refined in the nineteenth century.", sources: [source/khatt-foundation-imprimerie-catholique] }
+  - { type: related_to, target: concept/lawhat-al-mafatih-al-arabiyya, note: "The keyboard layouts that sit on top of the encoding.", sources: [source/unicode-chart-u0600-pdf] }
+  - { type: related_to, target: language/arabic, sources: [source/unicode-1-0-code-charts-2-pdf] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (arabic_printing_typography_unicode_keyboards.md); the museum did not open the cited pages; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-printing-names-laws-1 }
+sources: [source/reading-typoarabic-justification-part-1, source/brill-eall-sim-000043, source/khatt-foundation-imprimerie-catholique, source/aub-nasri-khattar-collection-finding-aid, source/arabicdesignarchive-nasri-khattar, source/myfonts-decotype-foundry, source/unicode-1-0-code-charts-2-pdf, source/unicode-chart-u0600-pdf]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

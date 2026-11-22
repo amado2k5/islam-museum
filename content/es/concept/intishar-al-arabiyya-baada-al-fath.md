@@ -1,0 +1,29 @@
+---
+id: concept/intishar-al-arabiyya-baada-al-fath
+lang: es
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Resumen
+Lo que dice un resumen de investigación entregado al museo sobre cómo se difundió el árabe fuera de la península arábiga después del siglo VII: por la conquista militar, la reforma administrativa, el asentamiento urbano y las migraciones tribales posteriores. Esta página es la primera puerta de cuatro: esta, [[concept/taarib-al-dawawin|La arabización de los dīwāns]], [[concept/al-arabiyya-fi-al-andalus-wa-siqilliyya|El árabe en al-Ándalus y Sicilia]] y [[concept/taarib-al-maghrib|La arabización del Magreb]]. El museo no abrió las páginas que nombra el resumen, y el fundador aprobó usarlas tal como se entregaron el 21 de noviembre de 2026.
+
+## Qué es esta página
+Esta página da la imagen general antes del detalle: cómo el árabe pasó de lengua de comunidades de la península a lengua de administración, saber y vida diaria en regiones que hablaban griego, arameo, copto, persa, bereber y latín africano. Transmite lo que dice el resumen, atribuido a sus páginas, y distingue lo que dijo Wikipedia, lo que dijo una fuente universitaria (una clase del Massachusetts Institute of Technology), lo que dijo un capítulo de Fred Donner alojado en el sitio Almuslih, y lo que dijo la Encyclopaedia Britannica en su página Maghrib, que el museo leyó por sí mismo. El museo no juzga aquí ni la «conquista» ni la «arabización»; transmite afirmaciones y nombra a quienes las hacen.
+
+## El periodo de conquista, siglos VII y VIII
+El resumen dice que tras la muerte de Muhammad en 632 los califatos rashidun y omeya se expandieron desde la península por el Levante, Egipto, Irak, Persia, el norte de África, Iberia y Asia Central, creando uno de los mayores imperios de la historia {cite:wikipedia-early-muslim-conquests} {cite:wikipedia-arabization}. Es el terreno por el que el museo sigue las páginas sobre el árabe; para el lugar del árabe hoy en partes de él véase [[concept/al-arabiyya-fi-al-alam-al-yawm|El árabe en el mundo hoy]]. Wikipedia respalda aquí solo nombres, fechas y lugares; la descripción de la extensión del imperio se atribuye al resumen.
+
+## Las ciudades-guarnición (amsar)
+El resumen nombra ciudades fundadas por los primeros ejércitos árabes: Basora y Kufa en Irak, al-Jabiya en Siria, Fustat en Egipto y Kairuán en Túnez, y dice que se convirtieron en grandes centros administrativos y culturales donde los colonos arabohablantes interactuaron con las poblaciones locales {cite:wikipedia-amsar} {cite:mit-civic-architecture-in-islamic-history-l2}. El museo tiene páginas de los lugares: [[place/basra|Basora]], [[place/kufa|Kufa]], [[place/al-fustat|Fustat]] y [[place/qayrawan|Kairuán]]. La página anota que estas ciudades son el lugar del encuentro lingüístico, y no da ningún recuento de sus habitantes ni de sus lenguas, pues el resumen no da ninguna cifra.
+
+## Un cambio gradual, no una imposición
+El resumen dice que en las primeras décadas la élite gobernante árabe formó una aristocracia en gran parte separada y no forzó un cambio de lengua, y que el árabe se difundió durante los siglos siguientes por la conversión al islam, los matrimonios mixtos, el comercio y el prestigio de la administración estatal {cite:wikipedia-arabization} {cite:donner-the-islamic-conquests-almuslih}. Es la afirmación del resumen sobre las dos páginas, que el museo no leyó. Frente a ella está lo que el museo leyó en la página Maghrib de la Encyclopaedia Britannica: que tras la conquista de los siglos VII y VIII los árabes impusieron el islam y el árabe a los pueblos nativos, en la palabra de la página {cite:britannica-maghrib}. Las dos fuentes describen el mismo proceso con dos verbos distintos, difundirse e imponer, y el museo registra ambos y no elige.
+
+## Los cuatro hilos que siguen las páginas posteriores
+El resumen divide la historia en cuatro hilos. Primero, la arabización de los dīwāns, es decir de la administración, entre 697 y 742, tema de [[concept/taarib-al-dawawin|La arabización de los dīwāns]]. Segundo, al-Ándalus, Sicilia y Malta, con el fin del árabe en España, en [[concept/al-arabiyya-fi-al-andalus-wa-siqilliyya|El árabe en al-Ándalus y Sicilia]]. Tercero, el Magreb en sus oleadas urbana y beduina, en [[concept/taarib-al-maghrib|La arabización del Magreb]]. Cuarto, la forma de la lengua hoy, en [[concept/al-fusha-wal-lahajat|Fusha y dialectos]]. Esta división es la del resumen, y el museo la sigue porque coincide con los capítulos de los libros generales.
+
+## En qué difieren las fuentes
+Las fuentes nombradas para esta página son de tres naturalezas. Páginas de Wikipedia sobre las conquistas, la arabización y las ciudades-guarnición, que respaldan solo nombres, fechas y lugares. Una clase universitaria y el capítulo de Donner, dos referencias académicas que según el resumen respaldan respectivamente la descripción de las ciudades-guarnición y la lentitud del cambio. Y la Encyclopaedia Britannica, que el museo leyó directamente y cuya formulación sobre la imposición del árabe difiere en tono de la del resumen. El museo no confunde estas naturalezas: nombra cada una y dice lo que dijo.
+
+## Lo que esta página no alcanzó
+El museo no abrió ninguna de las cinco páginas que el resumen nombra para esta sección; todo lo anterior sobre ellas se atribuye por tanto al resumen tal como llegó, salvo la página Maghrib de la Britannica, leída directamente. El museo no da ninguna cifra sobre la población de las ciudades-guarnición ni sobre la velocidad del cambio lingüístico en cada región, pues el resumen no lleva ninguna. Cada región mencionada tiene detalles disputados, por ejemplo cuánto dejaron las lenguas más antiguas en el árabe nuevo, que el resumen no alcanzó y el museo no inventó. El fundador aprobó este uso el 21 de noviembre de 2026.

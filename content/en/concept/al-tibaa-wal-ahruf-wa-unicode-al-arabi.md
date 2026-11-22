@@ -1,0 +1,26 @@
+---
+id: concept/al-tibaa-wal-ahruf-wa-unicode-al-arabi
+lang: en
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Summary
+This page deals with the history of the Arabic letter as a printing type and then a digital one, as a research file supplied to the museum summarises it: the four separate forms of a letter in metal setting, the simplification of the twentieth century, Nasri Khattar's attempt, the automated setting at al-Ahram, DecoType's engine for classical script grammar, and the Unicode Arabic block. Dates and names are as the summary has them, and the museum did not open the pages it cites.
+## Metal type and justification (sixteenth to nineteenth century)
+The summary says the first European printers adapted the mechanics of Latin movable type to cursive Arabic by cutting separate sorts for the isolated, initial, medial and final shapes, and that Robert Granjon's five Medici fonts of 1580 to 1586 became the standard, though compositors used straight extension sorts to justify lines {cite:reading-typoarabic-justification-part-1}. In the nineteenth century the Bulaq press and the Imprimerie Catholique in Beirut refined Naskh book typefaces {cite:khatt-foundation-imprimerie-catholique} {cite:brill-eall-sim-000043}.
+## Hot-metal machines and twentieth-century simplification
+The summary says the Linotype and Monotype machines reduced the Arabic glyph set for mechanical setting. In 1947 the Lebanese architect and typographer Nasri Khattar proposed Unified Arabic, a system of detached letterforms aimed at simplifying printing and learning {cite:aub-nasri-khattar-collection-finding-aid} {cite:arabicdesignarchive-nasri-khattar}. In November 1968 al-Ahram likely became the first newspaper to adopt automated Arabic composition, on Linotype or Compugraphic machines with automatic insertion of extension {cite:reading-typoarabic-justification-part-1}.
+## DecoType and classical script grammar
+DecoType was founded in 1985 by Thomas Milo, Mirjam Somers and Peter Somers and developed the Arabic Calligraphic Engine, which models digitally the script grammar of classical manuscripts, according to the summary; it licensed its technology to Microsoft, Adobe and Apple {cite:brill-eall-sim-000043} {cite:myfonts-decotype-foundry}.
+## The Unicode Arabic block
+The summary says the primary Arabic block, U+0600 to U+06FF, was added in Unicode version 1.0 in October 1991, encoding logical characters rather than positional presentation forms {cite:unicode-1-0-code-charts-2-pdf} {cite:unicode-chart-u0600-pdf}. That is, the encoding keeps the letter itself and leaves the font and the shaping engine to choose the initial, medial or final form from the letter's position, which joins the history of metal setting to the history of the screen.
+## What follows
+After the encoding come the keyboards that enter these letters, in [[concept/lawhat-al-mafatih-al-arabiyya|the Arabic keyboard]]; the older printing history is at [[concept/tarikh-al-tibaa-al-arabiyya|the history of Arabic printing]], and for the scripts that became the bases of type see [[concept/marahil-tatawwur-al-khatt-al-arabi|the stages of development of the Arabic script]]. The language has its own record at [[language/arabic|Arabic]].
+## What the museum holds back on
+The summary hesitates between likely and thought in saying which newspaper first adopted automated setting, and over the founding year of some presses, and that hesitation stands. The museum has not checked that Granjon's five fonts are the only five, that DecoType licensed all three companies, or the Unicode version number, all of which are as the summary said them.
+## The chronology in outline
+By the summary, the page can be put in five points: the sixteenth to nineteenth century for metal type with its four positional forms and Granjon's five fonts; then 1947 for Nasri Khattar's Unified Arabic; then November 1968 for al-Ahram's automated setting; then 1985 for the founding of DecoType and the building of its calligraphic engine; then October 1991 for the Unicode Arabic block in version 1.0. In this order the letter moves from being cast in metal to being encoded in computer memory, and one question stays the same at each stage: how to write a letter whose shape changes with its position and which is stretched by extension to level the line.
+## The technical terms
+Tatwil is the stretching of a letter or a join to level a line, for which compositors used straight sorts. Qawa'id al-khatt, the rules of the script, are the rules classical calligraphers followed in manuscripts, which DecoType's engine tried to imitate. Logical encoding means a letter is kept by its identity, not its shape, so it remains one letter whether joined or detached, while positional presentation forms are the pictures the font draws on screen or paper. With this distinction the reader sees why, by the summary, Unicode chose the first and not the second.
+## Basis
+This entry rests on a research summary supplied to the museum. The museum did not open the pages it cites, and the founder approved using it as it stands on 21 November 2026, so everything here is what the summary reports, not what the museum checked.

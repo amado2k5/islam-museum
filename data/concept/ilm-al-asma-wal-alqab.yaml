@@ -1,0 +1,31 @@
+id: concept/ilm-al-asma-wal-alqab
+class: concept
+kind: discipline
+tags: [arabiyya-browser, arabiyya-scholars]
+label:
+  ar: "علم الأسماء والألقاب"
+  en: "Onomastics: names and epithets"
+  ur: "علم الاسماء: ناموں اور القاب کا علم"
+  fr: "L'onomastique : noms et épithètes"
+  es: "Onomástica: nombres y epítetos"
+summary:
+  ar: "الأسماء العربية الكلاسيكية نظام يسجّل النسب والقرابة والقبيلة والبلد والمهنة والمذهب والصفة والمكانة، لا اسماً أول ولقب عائلة فقط؛ وتتألف من خمسة عناصر هي الاسم والكنية والنسب واللقب والنسبة، ولا يحمل كل شخص الخمسة، كما يعرضها ملف بحثي قُدّم إلى المتحف مع مثال ابن خلكان {cite:jstor-schimmel-islamic-names} {cite:tdv-islam-ansiklopedisi-home} {cite:wafayat-ayan}."
+  en: "The classical Arabic naming system records ancestry, kinship, tribe, place, trade, school, quality and standing, not just a first name and a family name; it has five parts, the ism, kunya, nasab, laqab and nisba, and not every person bore all five, as a research file supplied to the museum sets it out with the example of Ibn Khallikan {cite:jstor-schimmel-islamic-names} {cite:tdv-islam-ansiklopedisi-home} {cite:wafayat-ayan}."
+  ur: "کلاسیکی عربی نام رکھنے کا نظام نسب، قرابت، قبیلہ، مقام، پیشہ، مکتب، صفت اور مرتبہ درج کرتا ہے، محض پہلا نام اور خاندانی نام نہیں؛ اس کے پانچ اجزا ہیں، اسم، کنیت، نسب، لقب اور نسبت، اور ہر شخص پانچوں نہیں رکھتا تھا، جیسا کہ عجائب گھر کو پیش کی گئی ایک تحقیقی فائل ابن خلکان کی مثال کے ساتھ اسے بیان کرتی ہے {cite:jstor-schimmel-islamic-names} {cite:tdv-islam-ansiklopedisi-home} {cite:wafayat-ayan}۔"
+  fr: "Le système classique de dénomination arabe consigne l'ascendance, la parenté, la tribu, le lieu, le métier, l'école, la qualité et le rang, et non un simple prénom et un nom de famille ; il comprend cinq éléments, l'ism, la kunya, le nasab, le laqab et la nisba, et toute personne ne portait pas les cinq, tel qu'un dossier de recherche remis au musée l'expose avec l'exemple d'Ibn Khallikan {cite:jstor-schimmel-islamic-names} {cite:tdv-islam-ansiklopedisi-home} {cite:wafayat-ayan}."
+  es: "El sistema clásico de nombres árabes registra la ascendencia, el parentesco, la tribu, el lugar, el oficio, la escuela, la cualidad y el rango, y no solo un nombre de pila y un apellido; consta de cinco partes, el ism, la kunya, el nasab, el laqab y la nisba, y no toda persona llevaba las cinco, tal como lo expone un archivo de investigación entregado al museo con el ejemplo de Ibn Khallikan {cite:jstor-schimmel-islamic-names} {cite:tdv-islam-ansiklopedisi-home} {cite:wafayat-ayan}."
+wings: [words, people]
+themes: [names-and-honorifics, linguistics]
+regions: [global]
+relations:
+  - { type: related_to, target: concept/al-ism-wal-kunya, note: "The first two of the five parts.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: concept/al-nasab-wal-nisba, note: "The third and fifth parts.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: concept/al-laqab-wal-khitab, note: "The fourth part.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: concept/anasir-al-asma-al-arabiyya, note: "The recurrent elements in names.", sources: [source/jstor-schimmel-islamic-names] }
+  - { type: related_to, target: concept/nasha-at-asma-al-usar-al-arabiyya, note: "How family names developed.", sources: [source/bnf-kitcat-arabic-names] }
+  - { type: related_to, target: concept/kutub-al-ansab-wal-asma-wal-tarajim, note: "The reference works and authority files.", sources: [source/onomasticon-arabicum-cnrs] }
+  - { type: related_to, target: person/ibn-khallikan, note: "The worked example of a full name.", sources: [source/tdv-islam-ansiklopedisi-home, source/wafayat-ayan] }
+  - { type: related_to, target: concept/arabiyya, sources: [source/jstor-schimmel-islamic-names] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (classical-arabic-names.md); the museum did not open the cited pages; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-printing-names-laws-1 }
+sources: [source/tdv-islam-ansiklopedisi-home, source/wafayat-ayan, source/jstor-schimmel-islamic-names, source/bnf-kitcat-arabic-names, source/onomasticon-arabicum-cnrs, source/brill-reference-works-home]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

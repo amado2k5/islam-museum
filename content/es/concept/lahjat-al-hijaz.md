@@ -41,3 +41,37 @@ La Encyclopedia of Arabic Language and Linguistics de Brill, en su entrada «Mec
 
 ## Número de hablantes
 El archivo de investigación no encontró ningún recuento de hablantes del árabe hiyazí. La página gratuita de Ethnologue (29.ª edición, 2026) guarda los recuentos exactos tras un acceso de pago {cite:ethnologue-acw}; la entrada de Brill sobre el árabe mecano dice que un recuento preciso es difícil por la población cosmopolita de La Meca {cite:brill-eall-meccan-arabic}; y Glottolog, Britannica, la UNESCO y los sitios universitarios no dan ningún total. Esta página, por tanto, no da cifra alguna.
+
+## Expresiones comunes
+Un resumen de investigación entregado al museo añadió una comparación de sesenta expresiones y palabras en seis dialectos árabes, entre ellas saludos, preguntar cómo está alguien, preguntar qué quiere y los números del uno al cinco. La variedad de referencia es aquí el árabe hiyazí urbano, asociado con Yeda, La Meca y Medina. Las preguntas se dirigen por lo general a un hablante masculino. La transliteración está normalizada para la comparación, y la ortografía árabe puede estarlo donde una fuente usa transcripción fonética en lugar de escritura árabe. Los equivalentes en árabe estándar se dan para la comparación y no son necesariamente citas de las fuentes dialectales. El museo no abrió las páginas nombradas; las fuentes son como las refirió el resumen, y sus etiquetas figuran en la última columna. {cite:fsi-saudi-arabic-basic-course-urban-hijazi-dialect} {cite:openarabic-saudi-arabic-resources}
+
+| Español | Dialecto | Transliteración | Equivalente en árabe estándar | Fuente |
+|---|---|---|---|---|
+| Hola | مرحبا | marḥaba | مرحباً | H1, p. 1 |
+| Buenos días | صباح الخير | ṣabāḥ al-khēr | صباح الخير | H1, p. 4 |
+| ¿Cómo estás? | كيف حالك؟ | kēf ḥālak? | كيف حالك؟ | H1, p. 1 |
+| Bien, gracias a Dios | طيّب، الحمد لله | ṭayyib, al-ḥamdu lillāh | بخير، الحمد لله | H1, p. 1 |
+| ¿Qué quieres? | إيش تبغى؟ | ēsh tibgha? | ماذا تريد؟ | H2 |
+| Uno | واحد | wāḥid | واحد | H1, Numbers |
+| Dos | اثنين | itnēn | اثنان | H1, Numbers |
+| Tres | ثلاثة | talāta | ثلاثة | H1, Numbers |
+| Cuatro | أربعة | arbaʿa | أربعة | H1, Numbers |
+| Cinco | خمسة | khamsa | خمسة | H1, Numbers |
+
+Convenciones de transliteración: ā, ī y ū representan vocales largas; ē y ō vocales medias largas; ʿ representa ع; ʾ representa ء; ḥ representa ح; kh representa خ; y gh representa غ.
+
+Obsérvese que el manual del FSI escribe ثلاثة pero transcribe su pronunciación como talāta. La ortografía de los dialectos árabes no siempre reproduce cada diferencia fonética.
+
+### Fuentes de la tabla
+- **H1:** Foreign Service Institute, Saudi Arabic Basic Course: Urban Hijazi Dialect, 1975, Student Text, lessons 1-2 and the section on cardinal numbers; un manual básico del dialecto hiyazí urbano {cite:fsi-saudi-arabic-basic-course-urban-hijazi-dialect}
+- **H2:** OpenArabic, Saudi Arabic Resources: Najdi vs Hejazi vs Modern Standard Arabic, comparative vocabulary table; una referencia de aprendizaje en línea complementaria, no un diccionario impreso {cite:openarabic-saudi-arabic-resources}
+
+### Obras de referencia especializadas
+| Autor | Obra de referencia | Año |
+|---|---|---|
+| Omar F. Khorshid | Saudi Arabic Basic Course: Urban Hijazi Dialect | 1975 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+Son obras especializadas que lista el resumen; dice que ninguna expresión particular de las tablas se atribuyó a estos libros sin comprobar las entradas pertinentes, de modo que son lecturas complementarias y no la fuente de las expresiones de la tabla. {cite:fsi-saudi-arabic-basic-course-urban-hijazi-dialect} {cite:ryding-2005-reference-grammar-msa}
+
+Para las seis variedades lado a lado véase [[concept/al-muqarana-bayna-lahajat-al-arabiyya|Comparación de los dialectos árabes]].

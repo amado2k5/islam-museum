@@ -1,0 +1,27 @@
+id: concept/al-alfaz-al-ilmiyya-al-arabiyya-fi-al-lughat-al-ura-biyya
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "الألفاظ العلمية العربية في اللغات الأوروبية"
+  en: "Arabic scientific words in European languages"
+  ur: "یورپی زبانوں میں عربی سائنسی الفاظ"
+  fr: "Les mots scientifiques arabes dans les langues européennes"
+  es: "Las palabras científicas árabes en las lenguas europeas"
+summary:
+  ar: "تسع كلمات علمية أوروبية من أصل عربي: algebra وalgorithm وalchemy وalcohol وzenith وnadir وazimuth، وsyrup وelixir، وأصل كل منها العربي كما يعرضه ملخص بحثي قُدّم إلى المتحف {cite:etymonline-algebra} {cite:etymonline-zenith} {cite:merriam-webster-elixir}."
+  en: "Nine European scientific words of Arabic origin, algebra, algorithm, alchemy, alcohol, zenith, nadir, azimuth, syrup and elixir, and the Arabic source of each as a research summary supplied to the museum sets them out {cite:etymonline-algebra} {cite:etymonline-zenith} {cite:merriam-webster-elixir}."
+  ur: "عربی الاصل نو یورپی سائنسی الفاظ: algebra، algorithm، alchemy، alcohol، zenith، nadir، azimuth، syrup اور elixir، اور ہر ایک کا عربی ماخذ جیسا میوزیم کو دیا گیا تحقیقی خلاصہ بیان کرتا ہے {cite:etymonline-algebra} {cite:etymonline-zenith} {cite:merriam-webster-elixir}۔"
+  fr: "Neuf mots scientifiques européens d'origine arabe, algebra, algorithm, alchemy, alcohol, zenith, nadir, azimuth, syrup et elixir, et la source arabe de chacun telle qu'une synthèse de recherche remise au musée l'expose {cite:etymonline-algebra} {cite:etymonline-zenith} {cite:merriam-webster-elixir}."
+  es: "Nueve palabras científicas europeas de origen árabe, algebra, algorithm, alchemy, alcohol, zenith, nadir, azimuth, syrup y elixir, y la fuente árabe de cada una tal como la expone un resumen de investigación entregado al museo {cite:etymonline-algebra} {cite:etymonline-zenith} {cite:merriam-webster-elixir}."
+wings: [words, ideas]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: concept/harakat-al-tarjama-al-abbasiyya, sources: [source/britannica-arab-scholars-greek-medical-learning] }
+  - { type: related_to, target: concept/algebra, sources: [source/etymonline-algebra] }
+  - { type: related_to, target: person/al-khwarizmi, sources: [source/etymonline-algebra] }
+  - { type: related_to, target: work/al-jabr-wal-muqabala, sources: [source/etymonline-algebra] }
+  - { type: related_to, target: concept/astronomy, sources: [source/etymonline-zenith] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file abbasid_translation_arabic_science_arabization.md); the museum did not open the cited pages; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-translation-1 }
+sources: [source/wikipedia-list-english-words-arabic-origin-n-s-en, source/merriam-webster-elixir, source/etymonline-algebra, source/etymonline-chemistry, source/merriam-webster-alchemy, source/etymonline-alcohol, source/etymonline-zenith, source/merriam-webster-zenith, source/etymonline-nadir, source/etymonline-azimuth, source/britannica-arab-scholars-greek-medical-learning]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; translations are machine translations by the same model" }

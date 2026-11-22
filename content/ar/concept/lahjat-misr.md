@@ -41,3 +41,40 @@ translators: []
 
 ## أعداد المتكلمين
 يعطي ملف البحث رقماً واحداً. تذكر صفحة دائرة المعارف البريطانية «اللغات بحسب عدد الناطقين الأصليين»، المؤرخة في 4 أغسطس 2023، أن عدد الناطقين الأصليين بالعربية المصرية 77,436,230، نقلاً عن بيانات Ethnologue في مطلع العقد الثالث من القرن الحادي والعشرين {cite:britannica-languages-by-native-speakers}. ولم يجد الملف رقماً في الصفحة المجانية من Ethnologue ⁦(الطبعة التاسعة والعشرون، 2026؛ والأعداد الدقيقة خلف حاجز دفع)⁩ ولا في Glottolog ولا بريل ولا اليونسكو {cite:ethnologue-arz}. والرقم عدد للناطقين الأصليين في مطلع عشرينيات القرن كما أوردته البريطانية، وليس تعداداً حالياً.
+
+## عبارات شائعة
+أضاف ملخص بحثي قُدّم إلى المتحف مقارنة بين ستين عبارة وكلمة في ست لهجات عربية، منها التحيات والسؤال عن الحال والسؤال عمّا يريده المخاطب والأعداد من واحد إلى خمسة. واللهجة المرجعية هنا هي اللهجة القاهرية. والأسئلة موجهة في الغالب إلى متكلم مذكر واحد، والنقل الحرفي موحّد للمقارنة، وقد يكون الرسم العربي موحّداً حيث يستعمل المصدر كتابة صوتية لا خطاً عربياً. والمقابلات الفصيحة مقدَّمة للمقارنة وليست بالضرورة اقتباساً من مصادر اللهجة. ولم يفتح المتحف الصفحات المذكورة؛ فالمصادر كما أوردها الملخص، وفي العمود الأخير رموزه. {cite:yalla-masry-egyptian-arabic-phrase-guide-greetings} {cite:northwestern-first-year-arabic-mikhaeel-2024} {cite:el-baz-say-it-in-arabic-egyptian-dialect-1968} {cite:lisaan-masry-numbers}
+
+| المعنى | العبارة | النقل الحرفي | المقابل في الفصحى | المصدر |
+|---|---|---|---|---|
+| التحية | أهلاً | ahlan | أهلاً | E1 |
+| تحية الصباح | صباح الخير | ṣabāḥ il-khēr | صباح الخير | E1, E2 |
+| السؤال عن الحال | إزيّك؟ | izzayyak? | كيف حالك؟ | E1, E2 |
+| الجواب عن الحال | الحمد لله | il-ḥamdu lillāh | أنا بخير، الحمد لله | E1 |
+| السؤال عمّا يريده المخاطب | عاوز إيه؟ | ʿāwiz ēh? | ماذا تريد؟ | E3 |
+| واحد | واحد | wāḥid | واحد | E2, E4 |
+| اثنان | اتنين | itnēn | اثنان | E2, E4 |
+| ثلاثة | تلاتة | talāta | ثلاثة | E2, E4 |
+| أربعة | أربعة | arbaʿa | أربعة | E2, E4 |
+| خمسة | خمسة | khamsa | خمسة | E2, E4 |
+
+رموز النقل الحرفي: ā وī وū حركات طويلة؛ وē وō حركتان وسطيتان طويلتان؛ وʿ للعين؛ وʾ للهمزة؛ وḥ للحاء؛ وkh للخاء؛ وgh للغين.
+
+ومن الخصائص التي يظهرها الجدول نطق الثاء تاءً في ألفاظ العدّ اليومية، كما في «تلاتة» بدل «ثلاثة».
+
+### مصادر الجدول
+- **E1:** Yalla Masry, Egyptian Arabic Phrase Guide: Greetings; موقع إلكتروني لتعلم العربية المصرية مع تسجيلات صوتية {cite:yalla-masry-egyptian-arabic-phrase-guide-greetings}
+- **E2:** Ragy Mikhaeel, First-Year Arabic, Northwestern University Libraries, 2024, lessons 1.1, 2 and 4.2; كتاب دراسي مفتوح الوصول {cite:northwestern-first-year-arabic-mikhaeel-2024}
+- **E3:** F. El-Baz, Say It in Arabic (Egyptian Dialect), 1968, General Expressions, item 40; كتاب عبارات مطبوع {cite:el-baz-say-it-in-arabic-egyptian-dialect-1968}
+- **E4:** Lisaan Masry, Egyptian Arabic Dictionary and Grammar, Numbers; قاموس وقواعد على الشبكة للعربية المصرية {cite:lisaan-masry-numbers}
+
+### مراجع متخصصة
+| المؤلف | المرجع | السنة |
+|---|---|---|
+| Martin Hinds and El-Said Badawi | A Dictionary of Egyptian Arabic: Arabic-English | 1986 |
+| Manfred Woidich | Das Kairenisch-Arabische: Eine Grammatik | 2006 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+هذه مراجع متخصصة أوردها الملخص في قائمته، ويقول الملخص إنه لم يُنسب إليها تعبير بعينه من الجداول دون التحقق من مداخلها، فهي قراءة إضافية لا مصدر لعبارات الجدول. {cite:hinds-badawi-1986-dictionary-of-egyptian-arabic} {cite:woidich-2006-das-kairenisch-arabische} {cite:ryding-2005-reference-grammar-msa}
+
+وللمقارنة بين اللهجات الست جنباً إلى جنب انظر [[concept/al-muqarana-bayna-lahajat-al-arabiyya|المقارنة بين لهجات العربية]].

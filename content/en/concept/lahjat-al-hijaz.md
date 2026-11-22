@@ -41,3 +41,37 @@ Brill's Encyclopedia of Arabic Language and Linguistics, in its entry on Meccan 
 
 ## Speaker numbers
 The research summary found no speaker count for Hijazi Arabic. The free page of Ethnologue (29th edition, 2026) keeps exact counts behind a paywall {cite:ethnologue-acw}; Brill's entry on Meccan Arabic says an accurate count is difficult because of Mecca's cosmopolitan population {cite:brill-eall-meccan-arabic}; and Glottolog, Britannica, UNESCO and the university sites give no total. This page therefore gives no figure.
+
+## Common phrases
+A research summary supplied to the museum added a comparison of sixty expressions and words across six Arabic dialects, including greetings, asking how someone is, asking what someone wants, and the numbers one to five. The reference variety here is urban Hijazi Arabic, associated with Jeddah, Mecca and Medina. Questions are generally addressed to one male speaker. Transliteration is normalized for comparison, and Arabic spelling may be normalized where a source uses phonetic transcription rather than Arabic script. The MSA equivalents are supplied for comparison and are not necessarily quotations from the dialect sources. The museum did not open the pages named; the sources are as the summary reported them, and its labels are given in the last column. {cite:fsi-saudi-arabic-basic-course-urban-hijazi-dialect} {cite:openarabic-saudi-arabic-resources}
+
+| English | Dialect | Transliteration | MSA equivalent | Source |
+|---|---|---|---|---|
+| Hello | مرحبا | marḥaba | مرحباً | H1, p. 1 |
+| Good morning | صباح الخير | ṣabāḥ al-khēr | صباح الخير | H1, p. 4 |
+| How are you? | كيف حالك؟ | kēf ḥālak? | كيف حالك؟ | H1, p. 1 |
+| Fine, thank God | طيّب، الحمد لله | ṭayyib, al-ḥamdu lillāh | بخير، الحمد لله | H1, p. 1 |
+| What do you want? | إيش تبغى؟ | ēsh tibgha? | ماذا تريد؟ | H2 |
+| One | واحد | wāḥid | واحد | H1, Numbers |
+| Two | اثنين | itnēn | اثنان | H1, Numbers |
+| Three | ثلاثة | talāta | ثلاثة | H1, Numbers |
+| Four | أربعة | arbaʿa | أربعة | H1, Numbers |
+| Five | خمسة | khamsa | خمسة | H1, Numbers |
+
+Transliteration conventions: ā, ī and ū represent long vowels; ē and ō represent long mid-vowels; ʿ represents ع; ʾ represents ء; ḥ represents ح; kh represents خ; and gh represents غ.
+
+Note that the FSI textbook writes ثلاثة but transcribes its pronunciation as talāta. Arabic dialect spelling does not always reproduce every phonetic difference.
+
+### Sources of the table
+- **H1:** Foreign Service Institute, Saudi Arabic Basic Course: Urban Hijazi Dialect, 1975, Student Text, lessons 1-2 and the section on cardinal numbers; a basic course book on the urban Hijazi dialect {cite:fsi-saudi-arabic-basic-course-urban-hijazi-dialect}
+- **H2:** OpenArabic, Saudi Arabic Resources: Najdi vs Hejazi vs Modern Standard Arabic, comparative vocabulary table; a supplementary online learning reference rather than a printed dictionary {cite:openarabic-saudi-arabic-resources}
+
+### Specialist reference works
+| Author | Reference work | Year |
+|---|---|---|
+| Omar F. Khorshid | Saudi Arabic Basic Course: Urban Hijazi Dialect | 1975 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+These are specialist works the summary lists; it says no individual expression in the tables was attributed to these books without checking the relevant entries, so they are further reading and not the source of the table's expressions. {cite:fsi-saudi-arabic-basic-course-urban-hijazi-dialect} {cite:ryding-2005-reference-grammar-msa}
+
+For the six varieties side by side see [[concept/al-muqarana-bayna-lahajat-al-arabiyya|A comparison of Arabic dialects]].

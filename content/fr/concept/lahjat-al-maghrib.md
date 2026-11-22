@@ -38,3 +38,37 @@ L'Encyclopaedia Britannica traite l'Afrique du Nord comme l'une des cinq grandes
 
 ## Nombre de locuteurs
 Le dossier de recherche donne un chiffre pour le Maghreb : 24 millions de locuteurs de l'arabe marocain au Maroc, soit environ 90 % de la population, tiré d'un article de mai 2017 du département de linguistique de Yale qui cite le recensement marocain de 2004 {cite:yale-family-agreement-moroccan-arabic}. C'est l'affirmation de cet article, sur un seul pays et liée à un recensement de 2004, et elle diffère de celle de l'Encyclopaedia Britannica, exposée plus haut sur cette page, selon laquelle l'arabe est parlé par les deux tiers de la population du Maroc ; le musée consigne les deux avec leurs sources et ne les concilie pas. Pour les chiffres agrégés du maghrébin et des autres variétés nationales, le dossier n'a trouvé aucune source : la page libre d'Ethnologue sur l'arabe marocain (29e édition, 2026) garde les décomptes exacts derrière un accès payant {cite:ethnologue-ary}, l'Atlas des langues en danger dans le monde de l'UNESCO (3e édition, 2010) note que les recensements nord-africains n'ont pas de ventilation linguistique et ne couvre que les variétés minoritaires menacées {cite:unesco-atlas-north-africa-middle-east}, et Glottolog, Britannica et Brill ne donnent aucun total agrégé.
+
+## Expressions courantes
+Un résumé de recherche remis au musée a ajouté une comparaison de soixante expressions et mots dans six dialectes arabes, dont les salutations, la demande de nouvelles, la demande de ce que veut l'interlocuteur et les nombres de un à cinq. La variété de référence est ici la darija marocaine. Les questions s'adressent en général à un locuteur masculin. La translittération est normalisée pour la comparaison, et l'orthographe arabe peut l'être là où une source emploie une transcription phonétique plutôt que l'écriture arabe. Les équivalents en arabe standard sont fournis pour la comparaison et ne sont pas nécessairement des citations des sources dialectales. Le musée n'a pas ouvert les pages nommées ; les sources sont telles que le résumé les a rapportées, et ses étiquettes figurent dans la dernière colonne. {cite:peace-corps-morocco-moroccan-arabic-textbook-2011}
+
+| Français | Dialecte | Translittération | Équivalent en arabe standard | Source |
+|---|---|---|---|---|
+| Bonjour | السلام عليكم | s-salāmu ʿalaykum | السلام عليكم | M1, p. 5 |
+| Bonjour (le matin) | صباح الخير | ṣbāḥ l-khīr | صباح الخير | M1, p. 5 |
+| Comment allez-vous ? | كيف داير؟ | kīf dāyr? | كيف حالك؟ | M1, p. 6 |
+| Bien, grâce à Dieu | لاباس، الحمد لله | lābās, l-ḥamdu llāh | بخير، الحمد لله | M1, p. 6 |
+| Que voulez-vous ? | شنو بغيتي؟ | shnu bghīti? | ماذا تريد؟ | M1, p. 35 |
+| Un | واحد | wāḥd | واحد | M1, p. 22 |
+| Deux | جوج | jūj | اثنان | M1, p. 22 |
+| Trois | تلاتة | tlāta | ثلاثة | M1, p. 22 |
+| Quatre | ربعة | rbʿa | أربعة | M1, p. 22 |
+| Cinq | خمسة | khmsa | خمسة | M1, p. 22 |
+
+Conventions de translittération : ā, ī et ū représentent les voyelles longues ; ē et ō les voyelles moyennes longues ; ʿ représente ع ; ʾ représente ء ; ḥ représente ح ; kh représente خ ; et gh représente غ.
+
+Les dix expressions sont toutes attestées dans ce manuel. Le dialogue d'achat inclut la question avec une forme d'adresse polie supplémentaire. Le nombre جوج est particulièrement distinctif. L'arabe marocain réduit aussi fréquemment les voyelles brèves, produisant des groupes de consonnes comme dans ربعة et خمسة. Le tableau ne couvre que la darija marocaine parmi les dialectes maghrébins.
+
+### Sources du tableau
+- **M1:** Peace Corps Morocco, Moroccan Arabic Textbook, 2011 edition; printed pages 5-6 (greetings), 22 (cardinal numbers), 35 (shopping vocabulary and dialogue); un manuel pour les volontaires du Peace Corps {cite:peace-corps-morocco-moroccan-arabic-textbook-2011}
+
+### Ouvrages de référence spécialisés
+| Auteur | Ouvrage de référence | Année |
+|---|---|---|
+| Richard S. Harrell | A Short Reference Grammar of Moroccan Arabic | 1962 |
+| Richard S. Harrell and Harvey Sobelman | A Dictionary of Moroccan Arabic: Moroccan-English | 1966 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+Ce sont des ouvrages spécialisés que le résumé liste ; il dit qu'aucune expression particulière des tableaux n'a été attribuée à ces livres sans vérifier les entrées pertinentes, de sorte qu'ils sont des lectures complémentaires et non la source des expressions du tableau. {cite:harrell-1962-short-reference-grammar-of-moroccan-arabic} {cite:harrell-sobelman-1966-dictionary-of-moroccan-arabic} {cite:ryding-2005-reference-grammar-msa}
+
+Pour les six variétés côte à côte, voir [[concept/al-muqarana-bayna-lahajat-al-arabiyya|Comparaison des dialectes arabes]].

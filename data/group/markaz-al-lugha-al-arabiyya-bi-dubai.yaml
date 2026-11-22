@@ -1,0 +1,28 @@
+id: group/markaz-al-lugha-al-arabiyya-bi-dubai
+class: group
+kind: institution
+tags: [arabiyya-browser, arabiyya-scholars]
+label:
+  ar: "مركز اللغة العربية في دبي ⁦(معهد تعليمي خاص)⁩"
+  en: "The Arabic Language Centre in Dubai (a private teaching institute)"
+  ur: "دبئی میں عربی زبان کا مرکز ⁦(ایک نجی تدریسی ادارہ)⁩"
+  fr: "Le Centre de langue arabe de Dubaï (un institut d'enseignement privé)"
+  es: "El Centro de Lengua Árabe de Dubái (un instituto de enseñanza privado)"
+summary:
+  ar: "مركز اللغة العربية في دبي (The Arabic Language Centre) مدرسة لغات خاصة تأسست سنة 1980 على يد المربية مليحة وهبة في مركز دبي التجاري العالمي، متخصصة في تعليم العربية لغة أجنبية للكبار والأطفال والشركات بـ«طريقة مليحة»؛ وهو معهد تجاري لا مجمع لغوي حكومي ولا جهة بحثية، كما يلخصه ملف بحثي قُدّم إلى المتحف {cite:arabiclanguagecentre-com}."
+  en: "The Arabic Language Centre in Dubai is a private language school founded in 1980 by the educator Maliha Wehbe at the Dubai World Trade Centre, specialising in Arabic as a foreign language for adults, children and corporate clients with the proprietary Maliha Method; it is a commercial teaching institute and not a government language academy or research body, as a research file supplied to the museum summarises it {cite:arabiclanguagecentre-com}."
+  ur: "دبئی میں عربی زبان کا مرکز (The Arabic Language Centre) ایک نجی لسانی مدرسہ ہے جسے 1980 میں معلمہ ملیحہ وہبہ نے دبئی ورلڈ ٹریڈ سینٹر میں قائم کیا؛ یہ بالغوں، بچوں اور کمپنیوں کے لیے عربی بطور غیر ملکی زبان پڑھانے میں مہارت رکھتا ہے اور اس کے لیے \"ملیحہ طریقہ\" استعمال کرتا ہے۔ یہ ایک تجارتی تدریسی ادارہ ہے، نہ کوئی سرکاری لسانی اکیڈمی اور نہ کوئی تحقیقی ادارہ، جیسا کہ عجائب گھر کو پیش کی گئی ایک تحقیقی فائل اس کا خلاصہ کرتی ہے {cite:arabiclanguagecentre-com}."
+  fr: "Le Centre de langue arabe de Dubaï (The Arabic Language Centre) est une école de langues privée fondée en 1980 par l'éducatrice Maliha Wehbe au Dubai World Trade Centre, spécialisée dans l'enseignement de l'arabe comme langue étrangère aux adultes, aux enfants et aux entreprises avec la « méthode Maliha » qui lui est propre ; c'est un institut d'enseignement commercial et non une académie de langue gouvernementale ni un organisme de recherche, comme le résume un dossier de recherche remis au musée {cite:arabiclanguagecentre-com}."
+  es: "El Centro de Lengua Árabe de Dubái (The Arabic Language Centre) es una escuela de idiomas privada fundada en 1980 por la educadora Maliha Wehbe en el Dubai World Trade Centre, especializada en la enseñanza del árabe como lengua extranjera para adultos, niños y empresas con el «método Maliha» que le es propio; es un instituto de enseñanza comercial y no una academia de la lengua gubernamental ni un organismo de investigación, tal como lo resume un expediente de investigación entregado al museo {cite:arabiclanguagecentre-com}."
+wings: [words, today]
+themes: [linguistics, education]
+periods: [period/modern-era]
+regions: [arabia]
+founded: { edtf: "1980", calendar: gregorian, precision: year, status: historical, note: "A private language school founded in 1980 by the educator Maliha Wehbe at the Dubai World Trade Centre, as the research summary gives it.", sources: [source/arabiclanguagecentre-com] }
+relations:
+  - { type: located_in, target: place/dubai, note: "Seat of the centre, per the summary.", sources: [source/arabiclanguagecentre-com] }
+  - { type: related_to, target: group/majma-al-lugha-al-arabiyya-bi-al-shariqa, note: "Contrast: a government academy in the same state.", sources: [source/arabiclanguagecentre-com] }
+  - { type: related_to, target: language/arabic, sources: [source/arabiclanguagecentre-com] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Arabic_Language_Institutions_Gulf_Arabian_Peninsula.md); the museum did not open the cited pages; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-printing-names-laws-1 }
+sources: [source/arabiclanguagecentre-com]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

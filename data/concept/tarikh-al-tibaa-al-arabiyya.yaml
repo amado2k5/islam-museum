@@ -1,0 +1,30 @@
+id: concept/tarikh-al-tibaa-al-arabiyya
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-script]
+label:
+  ar: "تاريخ الطباعة العربية"
+  en: "The history of Arabic printing"
+  ur: "عربی طباعت کی تاریخ"
+  fr: "Histoire de l'imprimerie arabe"
+  es: "Historia de la imprenta árabe"
+summary:
+  ar: "محطات الطباعة العربية كما يلخصها ملف بحثي قُدّم إلى المتحف: الحروف العربية المحفورة على الخشب سنة 1486، وأول كتاب عربي بحروف متحركة سنة 1514، وأول مصحف مطبوع في البندقية بين 1537 و1538، ومطبعة ميديتشي الشرقية في روما من 1584، ثم مطبعتا قزحيا والشوير في جبل لبنان، ومطبعة بولاق في القاهرة، والمطبعة الكاثوليكية في بيروت {cite:mashq-studio-type-design} {cite:wikipedia-medici-oriental-press-en} {cite:ijodh-0201-06}."
+  en: "The milestones of Arabic printing as a research file supplied to the museum summarises them: Arabic letters cut in wood in 1486, the first Arabic book in movable type in 1514, the first printed Qur'an in Venice in 1537 to 1538, the Medici Oriental Press in Rome from 1584, then the Qozhaya and Shuwayr presses in Mount Lebanon, the Bulaq press in Cairo, and the Imprimerie Catholique in Beirut {cite:mashq-studio-type-design} {cite:wikipedia-medici-oriental-press-en} {cite:ijodh-0201-06}."
+  ur: "عربی طباعت کے سنگ میل، جیسا کہ عجائب گھر کو پیش کی گئی ایک تحقیقی فائل ان کا خلاصہ کرتی ہے: 1486 میں لکڑی پر تراشے گئے عربی حروف، 1514 میں متحرک حروف میں پہلی عربی کتاب، 1537 سے 1538 کے درمیان وینس میں پہلا مطبوعہ قرآن، 1584 سے روم میں میڈیچی مشرقی مطبع، پھر جبلِ لبنان میں قزحیا اور شویر کے مطبع، قاہرہ میں بولاق کا مطبع، اور بیروت میں کیتھولک مطبع {cite:mashq-studio-type-design} {cite:wikipedia-medici-oriental-press-en} {cite:ijodh-0201-06}."
+  fr: "Les jalons de l'imprimerie arabe tels qu'un dossier de recherche remis au musée les résume : des lettres arabes gravées sur bois en 1486, le premier livre arabe en caractères mobiles en 1514, le premier Coran imprimé à Venise en 1537-1538, l'Imprimerie orientale des Médicis à Rome à partir de 1584, puis les presses de Qozhaya et de Chouayr au Mont-Liban, la presse de Boulaq au Caire et l'Imprimerie catholique à Beyrouth {cite:mashq-studio-type-design} {cite:wikipedia-medici-oriental-press-en} {cite:ijodh-0201-06}."
+  es: "Los hitos de la imprenta árabe tal como los resume un expediente de investigación entregado al museo: letras árabes grabadas en madera en 1486, el primer libro árabe en tipos móviles en 1514, el primer Corán impreso en Venecia en 1537-1538, la Imprenta Oriental de los Médici en Roma desde 1584, después las imprentas de Qozhaya y de Shuwayr en el Monte Líbano, la imprenta de Bulaq en El Cairo y la Imprimerie Catholique en Beirut {cite:mashq-studio-type-design} {cite:wikipedia-medici-oriental-press-en} {cite:ijodh-0201-06}."
+wings: [words, ideas]
+themes: [linguistics, arts-of-the-book]
+regions: [global]
+relations:
+  - { type: related_to, target: concept/marahil-tatawwur-al-khatt-al-arabi, note: "Naskh, the base of Arabic printing in the summary, is treated there.", sources: [source/mashq-studio-type-design] }
+  - { type: related_to, target: concept/naskh-script, sources: [source/khatt-foundation-imprimerie-catholique] }
+  - { type: related_to, target: person/muhammad-ali-pasha, note: "Founder of the Bulaq press in the summary.", sources: [source/ijodh-0201-06, source/cambridge-ijmes-journeymen-middlemen-muslim-printing] }
+  - { type: related_to, target: place/mount-lebanon, note: "The Qozhaya press (1610) and the Shuwayr press (1734).", sources: [source/calameo-photographing-lebanons-heritage, source/researchgate-moukarzel-first-arabic-book-lebanon-1734] }
+  - { type: related_to, target: place/rome, note: "The Medici Oriental Press, from 1584.", sources: [source/wikipedia-medici-oriental-press-en, source/mashq-studio-type-design] }
+  - { type: related_to, target: place/cairo, note: "The Bulaq press, Cairo.", sources: [source/ijodh-0201-06] }
+  - { type: related_to, target: person/ibn-sina, note: "His Qanun was printed by the Medici press in 1593, per the summary.", sources: [source/mashq-studio-type-design] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (arabic_printing_typography_unicode_keyboards.md); the museum did not open the cited pages; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-printing-names-laws-1 }
+sources: [source/mashq-studio-type-design, source/princeton-century-millennium-pdf, source/wikipedia-medici-oriental-press-en, source/jhiblog-early-history-arabic-printing-europe, source/calameo-photographing-lebanons-heritage, source/researchgate-moukarzel-first-arabic-book-lebanon-1734, source/ijodh-0201-06, source/cambridge-ijmes-journeymen-middlemen-muslim-printing, source/khatt-foundation-imprimerie-catholique, source/brill-jjs-2-2-p248, source/imarabe-photographing-lebanon-heritage-1864-1970]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

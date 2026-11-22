@@ -38,3 +38,37 @@ The Encyclopaedia Britannica treats North Africa as one of five main dialect reg
 
 ## Speaker numbers
 The research summary gives one figure for the Maghrib: 24 million speakers of Moroccan Arabic in Morocco, about 90 per cent of the population, a figure taken from a May 2017 Yale linguistics paper that cites Morocco's 2004 census {cite:yale-family-agreement-moroccan-arabic}. This is a statement of that paper, about one country and tied to a 2004 census, and it differs from the Encyclopaedia Britannica's statement, set out earlier on this page, that Arabic is spoken by two-thirds of Morocco's population; the museum records both with their sources and does not reconcile them. For aggregate Maghrebi figures and for the other national varieties the summary found no source: the free Ethnologue page for Moroccan Arabic (29th edition, 2026) keeps exact counts behind a paywall {cite:ethnologue-ary}, UNESCO's Atlas of the World's Languages in Danger (3rd edition, 2010) notes that North African censuses lack linguistic breakdowns and covers only endangered minority varieties {cite:unesco-atlas-north-africa-middle-east}, and Glottolog, Britannica and Brill report no aggregate totals.
+
+## Common phrases
+A research summary supplied to the museum added a comparison of sixty expressions and words across six Arabic dialects, including greetings, asking how someone is, asking what someone wants, and the numbers one to five. The reference variety here is Moroccan Darija. Questions are generally addressed to one male speaker. Transliteration is normalized for comparison, and Arabic spelling may be normalized where a source uses phonetic transcription rather than Arabic script. The MSA equivalents are supplied for comparison and are not necessarily quotations from the dialect sources. The museum did not open the pages named; the sources are as the summary reported them, and its labels are given in the last column. {cite:peace-corps-morocco-moroccan-arabic-textbook-2011}
+
+| English | Dialect | Transliteration | MSA equivalent | Source |
+|---|---|---|---|---|
+| Hello | السلام عليكم | s-salāmu ʿalaykum | السلام عليكم | M1, p. 5 |
+| Good morning | صباح الخير | ṣbāḥ l-khīr | صباح الخير | M1, p. 5 |
+| How are you? | كيف داير؟ | kīf dāyr? | كيف حالك؟ | M1, p. 6 |
+| Fine, thank God | لاباس، الحمد لله | lābās, l-ḥamdu llāh | بخير، الحمد لله | M1, p. 6 |
+| What do you want? | شنو بغيتي؟ | shnu bghīti? | ماذا تريد؟ | M1, p. 35 |
+| One | واحد | wāḥd | واحد | M1, p. 22 |
+| Two | جوج | jūj | اثنان | M1, p. 22 |
+| Three | تلاتة | tlāta | ثلاثة | M1, p. 22 |
+| Four | ربعة | rbʿa | أربعة | M1, p. 22 |
+| Five | خمسة | khmsa | خمسة | M1, p. 22 |
+
+Transliteration conventions: ā, ī and ū represent long vowels; ē and ō represent long mid-vowels; ʿ represents ع; ʾ represents ء; ḥ represents ح; kh represents خ; and gh represents غ.
+
+All ten expressions are attested in this textbook. The shopping dialogue includes the question with an additional polite form of address. The number جوج is particularly distinctive. Moroccan Arabic also frequently reduces short vowels, producing consonant clusters such as those in ربعة and خمسة. The table covers Moroccan Darija only among the Maghrebi dialects.
+
+### Sources of the table
+- **M1:** Peace Corps Morocco, Moroccan Arabic Textbook, 2011 edition; printed pages 5-6 (greetings), 22 (cardinal numbers), 35 (shopping vocabulary and dialogue); a textbook for Peace Corps volunteers {cite:peace-corps-morocco-moroccan-arabic-textbook-2011}
+
+### Specialist reference works
+| Author | Reference work | Year |
+|---|---|---|
+| Richard S. Harrell | A Short Reference Grammar of Moroccan Arabic | 1962 |
+| Richard S. Harrell and Harvey Sobelman | A Dictionary of Moroccan Arabic: Moroccan-English | 1966 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+These are specialist works the summary lists; it says no individual expression in the tables was attributed to these books without checking the relevant entries, so they are further reading and not the source of the table's expressions. {cite:harrell-1962-short-reference-grammar-of-moroccan-arabic} {cite:harrell-sobelman-1966-dictionary-of-moroccan-arabic} {cite:ryding-2005-reference-grammar-msa}
+
+For the six varieties side by side see [[concept/al-muqarana-bayna-lahajat-al-arabiyya|A comparison of Arabic dialects]].

@@ -38,3 +38,38 @@ Brill's Encyclopedia of Arabic Language and Linguistics treats Lebanon, Syria, P
 
 ## Speaker numbers
 The research summary gives two figures. The CUNY Sociology of Language page (2024) says Levantine Arabic has over 30 million speakers across Lebanon, Syria, Jordan, Palestine and the diaspora {cite:cuny-levantine-arabic}. Brill's entry on Palestinian Arabic (last updated 25 March 2019) gives approximately 8.5 million native speakers of the Palestinian subset {cite:brill-eall-palestinian-arabic}. The summary found no figure in Ethnologue (29th edition, 2026; exact counts are behind a paywall), Glottolog, Britannica or UNESCO {cite:ethnologue-apc}. The two figures come from different years and different kinds of source and are not added together.
+
+## Common phrases
+A research summary supplied to the museum added a comparison of sixty expressions and words across six Arabic dialects, including greetings, asking how someone is, asking what someone wants, and the numbers one to five. The reference variety here is urban Levantine Arabic. Questions are generally addressed to one male speaker. Transliteration is normalized for comparison, and Arabic spelling may be normalized where a source uses phonetic transcription rather than Arabic script. The MSA equivalents are supplied for comparison and are not necessarily quotations from the dialect sources. The museum did not open the pages named; the sources are as the summary reported them, and its labels are given in the last column. {cite:fsi-levantine-and-egyptian-arabic-comparative-study} {cite:al-hakkak-how-to-say-it-in-colloquial-arabic-2016}
+
+| English | Dialect | Transliteration | MSA equivalent | Source |
+|---|---|---|---|---|
+| Hello | مرحبا | marḥaba | مرحباً | L1, p. 39 |
+| Goodbye | مع السلامة | maʿ is-salāme | مع السلامة | L1, p. 39 |
+| How are you? | كيفك؟ | kīfak? | كيف حالك؟ | L1, p. 39 |
+| Fine, thank God | منيح، الحمد لله | mnīḥ, il-ḥamdu lillāh | بخير، الحمد لله | L1, p. 39 |
+| What do you want? | شو بدّك؟ | shū biddak? | ماذا تريد؟ | L2, p. 2 |
+| One | واحد | wāḥad | واحد | L1, p. 14 |
+| Two | تنين | tnēn | اثنان | L1, p. 14 |
+| Three | تلاتة | tlāte | ثلاثة | L1, p. 14 |
+| Four | أربعة | arbaʿa | أربعة | L1, p. 14 |
+| Five | خمسة | khamse | خمسة | L1, p. 14 |
+
+Transliteration conventions: ā, ī and ū represent long vowels; ē and ō represent long mid-vowels; ʿ represents ع; ʾ represents ء; ḥ represents ح; kh represents خ; and gh represents غ.
+
+A particularly recognizable feature is the use of شو for “what” and بدّك to express “you want.”
+
+### Sources of the table
+- **L1:** Foreign Service Institute (FSI), Levantine and Egyptian Arabic: Comparative Study, pp. 14, 16 and 39; a comparative study published by the US Foreign Service Institute {cite:fsi-levantine-and-egyptian-arabic-comparative-study}
+- **L2:** Ghalib Al-Hakkak and students of Université Paris 1 Panthéon-Sorbonne, How to Say It in Colloquial Arabic?, 2016, p. 2, Beirut examples; a document with examples from Beirut {cite:al-hakkak-how-to-say-it-in-colloquial-arabic-2016}
+
+### Specialist reference works
+| Author | Reference work | Year |
+|---|---|---|
+| Mark W. Cowell | A Reference Grammar of Syrian Arabic | 1964 |
+| Karl Stowasser and Moukhtar Ani | A Dictionary of Syrian Arabic: English-Arabic | 1964 |
+| Karin C. Ryding | A Reference Grammar of Modern Standard Arabic | 2005 |
+
+These are specialist works the summary lists; it says no individual expression in the tables was attributed to these books without checking the relevant entries, so they are further reading and not the source of the table's expressions. {cite:cowell-1964-reference-grammar-of-syrian-arabic} {cite:stowasser-ani-1964-dictionary-of-syrian-arabic} {cite:ryding-2005-reference-grammar-msa}
+
+For the six varieties side by side see [[concept/al-muqarana-bayna-lahajat-al-arabiyya|A comparison of Arabic dialects]].

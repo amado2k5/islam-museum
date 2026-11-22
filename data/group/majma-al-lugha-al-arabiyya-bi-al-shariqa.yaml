@@ -1,0 +1,31 @@
+id: group/majma-al-lugha-al-arabiyya-bi-al-shariqa
+class: group
+kind: institution
+tags: [arabiyya-browser, arabiyya-scholars]
+label:
+  ar: "مجمع اللغة العربية بالشارقة"
+  en: "Arabic Language Academy in Sharjah"
+  ur: "مجمعِ عربی زبان شارجہ"
+  fr: "Académie de la langue arabe de Sharjah"
+  es: "Academia de la Lengua Árabe de Sharjah"
+summary:
+  ar: "مجمع اللغة العربية بالشارقة، أُنشئ سنة 2016 بالمرسوم الأميري رقم 96 لسنة 2016 الصادر عن حاكم الشارقة الشيخ الدكتور سلطان بن محمد القاسمي، جهة حكومية علمية تدعم قضايا العربية ومجامع اللغة العربية والإسلامية وتشرف على عمل معجمي كبير وتصدر مجلة ومكتبة وتستضيف جوانب من اتحاد المجامع، كما يلخصه ملف بحثي قُدّم إلى المتحف {cite:alashj-ae} {cite:dohadictionary-org-home}."
+  en: "The Arabic Language Academy in Sharjah, founded in 2016 by Amiri Decree No. 96 of 2016 of the Ruler of Sharjah, Sheikh Dr. Sultan bin Muhammad Al Qasimi, a government academic body supporting Arabic language issues and Arab and Islamic language academies, overseeing a major lexicographical work, with a journal, a library and the hosting of aspects of the Union of Arab Language Academies, as a research file supplied to the museum summarises it {cite:alashj-ae} {cite:dohadictionary-org-home}."
+  ur: "مجمعِ عربی زبان شارجہ، جو 2016 میں حاکمِ شارجہ شیخ ڈاکٹر سلطان بن محمد القاسمی کے امیری فرمان نمبر 96 برائے 2016 سے قائم ہوا، ایک سرکاری علمی ادارہ ہے جو عربی زبان کے مسائل اور عربی و اسلامی لسانی مجامع کی معاونت کرتا ہے، ایک بڑے لغوی کام کی نگرانی کرتا ہے، ایک جریدہ اور ایک لائبریری رکھتا ہے اور اتحادِ مجامع کے بعض پہلوؤں کی میزبانی کرتا ہے، جیسا کہ عجائب گھر کو پیش کی گئی ایک تحقیقی فائل اسے خلاصہ کرتی ہے {cite:alashj-ae} {cite:dohadictionary-org-home}۔"
+  fr: "L'Académie de la langue arabe de Sharjah, fondée en 2016 par le décret émiral n° 96 de 2016 du souverain de Sharjah, le cheikh Dr Sultan bin Muhammad Al Qasimi, organe académique gouvernemental qui soutient les questions de langue arabe et les académies de langue arabes et islamiques, supervise une grande œuvre lexicographique, possède une revue et une bibliothèque et accueille certains aspects de l'Union des académies de langue arabe, comme le résume un dossier de recherche remis au musée {cite:alashj-ae} {cite:dohadictionary-org-home}."
+  es: "La Academia de la Lengua Árabe de Sharjah, fundada en 2016 por el Decreto Emiral n.º 96 de 2016 del gobernante de Sharjah, el jeque Dr. Sultán bin Muhammad Al Qasimi, órgano académico gubernamental que apoya las cuestiones de la lengua árabe y las academias de lengua árabes e islámicas, supervisa una gran obra lexicográfica, tiene una revista y una biblioteca y acoge aspectos de la Unión de Academias de la Lengua Árabe, según lo resume un expediente de investigación entregado al museo {cite:alashj-ae} {cite:dohadictionary-org-home}."
+wings: [words, today]
+themes: [linguistics, education]
+periods: [period/modern-era]
+regions: [arabia]
+founded: { edtf: "2016", calendar: gregorian, precision: year, status: historical, note: "Founded in 2016 by Amiri Decree No. 96 of 2016 of the Ruler of Sharjah, as the research summary gives it.", sources: [source/alashj-ae] }
+relations:
+  - { type: located_in, target: place/sharjah, note: "Seat of the Academy, per the summary.", sources: [source/alashj-ae] }
+  - { type: related_to, target: person/sultan-bin-muhammad-al-qasimi, note: "The Ruler of Sharjah who issued the Amiri decree, per the summary.", sources: [source/alashj-ae] }
+  - { type: related_to, target: group/ittihad-al-majami-al-lughawiyya-al-ilmiyya-al-arabiyya, note: "The summary says it hosts aspects of the Union.", sources: [source/alashj-ae] }
+  - { type: related_to, target: concept/mashru-mujam-al-doha-al-tarikhi, note: "Some historical interaction around historical lexicography.", sources: [source/alashj-ae, source/dohadictionary-org-home] }
+  - { type: related_to, target: group/majma-al-lugha-al-arabiyya-bi-al-qahira, note: "An older academy.", sources: [source/alashj-ae] }
+  - { type: related_to, target: language/arabic, sources: [source/alashj-ae] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Arabic_Language_Institutions_Gulf_Arabian_Peninsula.md); the museum did not open the cited pages; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-printing-names-laws-1 }
+sources: [source/alashj-ae, source/dohadictionary-org-home]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }
