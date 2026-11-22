@@ -24,7 +24,9 @@ export function prosePerspectiveIssues(body: string): Omit<Issue, "file">[] {
     });
     const frenchSunni = labels.length > 0 && /\bsunnites?\b/u.test(labels[0]) && !/\bnon[\s\-‐‑]+sunnites?\b/u.test(labels[0]);
     const spanishSunni = labels.length > 0 && /(?<![\p{L}])sunn?í(?:es)?(?![\p{L}])/u.test(labels[0]) && !/(?<![\p{L}])no[\s\-‐‑]+sunn?í/u.test(labels[0]);
-    if (labels.length && !(labels[0].startsWith("sunni") || labels[0].includes("أهل السنة") || labels[0].startsWith("سني") || frenchSunni || spanishSunni)) {
+    const turkishSunni = labels.length > 0 && /(?<![\p{L}])(?:sünni|ehl[\s\-‐‑]i?[\s\-‐‑]?sünnet|sünnet)(?![\p{L}])/iu.test(labels[0]);
+    const indonesianSunni = labels.length > 0 && /(?<![\p{L}])(?:sunnah|ahl[\s\-‐‑]?(?:al[\s\-‐‑]?)?sunnah|ahlussunnah)(?![\p{L}])/iu.test(labels[0]);
+    if (labels.length && !(labels[0].startsWith("sunni") || labels[0].includes("أهل السنة") || labels[0].startsWith("سني") || frenchSunni || spanishSunni || turkishSunni || indonesianSunni)) {
       issues.push({ level: "error", msg: "the perspectives block must start with the Sunni entry (docs/scope.md)" });
     }
   }
