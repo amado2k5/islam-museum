@@ -147,6 +147,10 @@ open a new block on top with the new version and today's date.
 
 - `scripts/name-parts.test.ts` checks the schema for the new field: the Ibn Khaldun record passes, several values and a link pass, and an unknown element, an unknown certainty, a malformed link and a missing value fail.
 
+### Added (name card)
+
+- **A person's page now shows a name card when the record carries structured name parts.** The card lists the classical Arabic name element by element (given name, kunya, descent, epithet, honorific title, affiliation, ancestral name), each with its transliteration, gloss, a "disputed" or "uncertain" mark where the sources are not sure, and, for an affiliation linked to a place, tribe, occupation, dynasty or school, a link to that record. A sentence under the card says a link shows an association only and never that the person was born there or descended from it. The card is plain HTML and ships in Arabic, English, Urdu, French and Spanish. Only pages of people whose records have `name_parts` change (Ibn Khaldun today), so the deploy stays small.
+
 ## v2.26.1 — 2026-11-20
 ### Data
 - **Assabile harvest register: 9 episodes updated across 2 series, 8 transcripts recorded (0 episodes added).** The register now shows which Assabile episodes are on the drive and which machine transcripts are finished, so later harvest work starts from the recorded state. No mined episode's entry was changed beyond its transcript and drive lines.

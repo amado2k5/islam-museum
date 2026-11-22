@@ -1,0 +1,62 @@
+---
+// The person's name card (docs/data/name-parts.md, founder approval of 21 November 2026): the classical Arabic name shown
+// element by element, each value with its transliteration, gloss, certainty and the sources behind it. A nisba or other
+// element linked to a record shows the association only; the card says in words that a link is not birth or descent.
+// Plain HTML, no script. Rendered only when the record carries `name_parts`.
+import { byId, href, labelOf } from "../lib/graph";
+import { ui, type Lang } from "../lib/i18n";
+import type { Node } from "../../../scripts/build-graph";
+
+interface Props { node: Node; lang: Lang }
+const { node: n, lang } = Astro.props;
+const T = (ui(lang) as any).name_card;
+const np = (n.data.name_parts ?? {}) as Record<string, any>;
+const ORDER = ["ism", "kunya", "nasab", "laqab", "khitab", "nisba", "ancestral"] as const;
+const rows = ORDER.map((k) => ({ k, items: ((np[k] ?? []) as any[]) })).filter((r) => r.items.length > 0);
+const shuhra = np.shuhra as any | undefined;
+const spellings = (np.spellings ?? []) as string[];
+const variants = (np.variants ?? []) as any[];
+const gloss = (m: any) => (m && typeof m === "object" ? m[lang] ?? m.en ?? m.ar : undefined);
+const certain = (c: string | undefined) => (c === "disputed" ? T.disputed : c === "uncertain" ? T.uncertain : undefined);
+const hasLink = [...rows.flatMap((r) => r.items), ...variants].some((x) => x.link);
+---
+<section class="sec ui" aria-labelledby="name-card-title" data-name-card>
+  <h2 id="name-card-title">{T.heading}</h2>
+  {shuhra && (
+    <p style="margin:0 0 10px"><span class="muted">{T.shuhra}</span>{" "}<b lang={shuhra.lang ?? "ar"} dir="auto">{shuhra.value}</b>
+      {shuhra.translit && <span class="muted"> · {shuhra.translit}</span>}</p>
+  )}
+  <dl style="margin:0">
+    {rows.map(({ k, items }) => (
+      <div style="margin:0 0 10px">
+        <dt style="font-weight:600">{T[k]}</dt>
+        {items.map((x) => (
+          <dd style="margin:2px 0 0;padding-inline-start:0">
+            <span lang={x.lang ?? "ar"} dir="auto">{x.value}</span>
+            {x.translit && <span class="muted"> · {x.translit}</span>}
+            {gloss(x.meaning) && <span class="muted"> · {gloss(x.meaning)}</span>}
+            {certain(x.certainty) && <span class="chip" style="margin-inline-start:6px">{certain(x.certainty)}</span>}
+            {x.link && byId.get(x.link) && <a class="chip" style="margin-inline-start:6px" href={href(lang, x.link)}>{labelOf(byId.get(x.link)!, lang)}</a>}
+            {x.note && <span class="muted" lang="en" style="display:block;font-size:.9rem">{x.note}</span>}
+          </dd>
+        ))}
+      </div>
+    ))}
+  </dl>
+  {variants.length > 0 && (
+    <div style="margin:0 0 10px">
+      <p style="font-weight:600;margin:0">{T.variants}</p>
+      <ul role="list" style="margin:2px 0 0;padding-inline-start:1.2rem">
+        {variants.map((x) => (
+          <li>
+            <span lang={x.lang ?? "ar"} dir="auto">{x.value}</span>
+            {certain(x.certainty) && <span class="chip" style="margin-inline-start:6px">{certain(x.certainty)}</span>}
+            {x.note && <span class="muted" lang="en"> · {x.note}</span>}
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+  {spellings.length > 0 && <p class="muted" style="margin:0 0 6px">{T.spellings}: <span lang="en">{spellings.join(", ")}</span></p>}
+  {hasLink && <p class="muted" style="margin:0;font-size:.9rem">{T.link_note}</p>}
+</section>
