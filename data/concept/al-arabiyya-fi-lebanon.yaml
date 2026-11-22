@@ -1,0 +1,28 @@
+id: concept/al-arabiyya-fi-lebanon
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في لبنان"
+  en: "Arabic in Lebanon"
+  ur: "لبنان میں عربی"
+  fr: "L'arabe au Liban"
+  es: "El árabe en el Líbano"
+summary:
+  ar: "ما وُجد عن العربية في لبنان: المادة 11 من الدستور في العربية والفرنسية كما يعرضها Constitute، ووصف دراسة مكتبة الكونغرس لأشكال العربية والعامية اللبنانية والفرنسية والإنجليزية والأرمنية والسريانية واقتراح الكتابة بالعامية، وتصنيف الشامية عند مانشستر وGlottolog، مع ما لم يُعثر عليه."
+  en: "What was found on Arabic in Lebanon: Article 11 of the Constitution on Arabic and French as the Constitute Project shows it, the Library of Congress study's account of the forms of Arabic, Lebanese colloquial, French, English, Armenian and Syriac and the proposal to write the colloquial, and the Levantine classification at Manchester and Glottolog, with what was not found."
+  ur: "لبنان میں عربی کے بارے میں جو ملا: دستور کی دفعہ 11 عربی اور فرانسیسی پر جیسا Constitute دکھاتا ہے، لائبریری آف کانگریس کی تحقیق کا عربی کی صورتوں، لبنانی عامی، فرانسیسی، انگریزی، آرمینی اور سریانی کا بیان اور عامی لکھنے کی تجویز، اور مانچسٹر اور Glottolog میں شامی گروہ کی درجہ بندی، اور جو نہیں ملا اس کے ساتھ۔"
+  fr: "Ce qui a été trouvé sur l'arabe au Liban : l'article 11 de la Constitution sur l'arabe et le français tel que le montre le Constitute Project, le compte rendu de l'étude de la Bibliothèque du Congrès sur les formes de l'arabe, le parler libanais, le français, l'anglais, l'arménien et le syriaque et la proposition d'écrire le parlé, et la classification levantine chez Manchester et Glottolog, avec ce qui n'a pas été trouvé."
+  es: "Lo que se encontró sobre el árabe en el Líbano: el artículo 11 de la Constitución sobre el árabe y el francés tal como lo muestra el Constitute Project, el relato del estudio de la Biblioteca del Congreso sobre las formas del árabe, el hablado libanés, el francés, el inglés, el armenio y el siríaco y la propuesta de escribir el hablado, y la clasificación levantina en Manchester y Glottolog, con lo que no se halló."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: place/lebanon, sources: [source/constituteproject-lebanon] }
+  - { type: related_to, target: concept/lahjat-al-sham, sources: [source/manchester-arabic-structural-variation] }
+  - { type: related_to, target: concept/al-alam-al-arabi, sources: [source/britannica-semitic-languages] }
+  - { type: related_to, target: language/arabic, sources: [source/britannica-semitic-languages] }
+  - { type: related_to, target: concept/al-fusha-wal-lahajat, sources: [source/manchester-arabic-sociolinguistic] }
+  - { type: related_to, target: concept/lughat-al-qabail, sources: [source/manchester-arabic-sociolinguistic] }
+provenance: { layer: own-research, source: "Constitute Project constitution texts, Library of Congress Country Studies, University of Manchester Dialects of Arabic pages, Glottolog classification tree and Encyclopaedia Britannica records, read on 21 Nov 2026.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-countries-a" }
+sources: [source/britannica-semitic-languages, source/constituteproject-lebanon, source/glottolog-arabic, source/loc-lebanon-languages, source/manchester-arabic-sociolinguistic, source/manchester-arabic-structural-variation]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

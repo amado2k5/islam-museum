@@ -1,0 +1,25 @@
+---
+id: concept/al-arabiyya-fi-yemen
+lang: es
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Resumen
+Lo que se encontró sobre el árabe en Yemen: el texto de la constitución en la traducción de las Naciones Unidas en el Constitute Project, la afirmación de la enciclopedia de que la gente habla diversos dialectos del árabe, y los nombres de las variedades yemeníes en el árbol de Glottolog, con el enunciado de lo que no se halló. Para el lugar véase [[place/yemen|Yemen]]. Para los Estados árabes en general véase [[concept/al-alam-al-arabi|Los Estados árabes y la Liga de los Estados Árabes]].
+
+## El estatus oficial
+El artículo 2 de la constitución de Yemen, en la traducción del Constitute Project, dice que el islam es la religión del Estado y el árabe su lengua oficial; la constitución no trata la lengua en ningún otro artículo. El texto mostrado se titula «1991 (rev. 2015)» y lleva anexa una Declaración Transitoria de 2015 en traducción de las Naciones Unidas, temporal por sus propios términos, así que no se afirma que la página muestre un texto permanente asentado {cite:constituteproject-yemen}. El artículo sobre las lenguas semíticas de la Encyclopaedia Britannica incluye a Yemen entre los Estados donde el árabe es oficial {cite:britannica-semitic-languages}.
+
+## Las variedades habladas
+La Encyclopaedia Britannica abre su artículo sobre Yemen diciendo que la gente habla diversos dialectos del árabe; solo se leyeron las primeras líneas del artículo {cite:britannica-yemen}. El árbol de Glottolog enumera variedades yemeníes por su nombre: el árabe de Saná, de Taizz-Adén, del Hadramaut y el judeoyemení {cite:glottolog-arabic}. La Universidad de Manchester anota que en algunos dialectos yemeníes ambos géneros aparecen en los pronombres de primera persona del singular {cite:manchester-arabic-structural-variation}. No se hallaron las proporciones de estas variedades entre la población.
+
+La misma página de Manchester divide los dialectos árabes en unidades geográficas, una de ellas la de los dialectos de la península arábiga; no nombra los Estados de esa unidad, así que situar este Estado en ella es una inferencia por su ubicación, y dice que en la mayoría de los países árabes difieren los dialectos urbanos y rurales, como los de sedentarios y antiguos nómadas (beduinos) {cite:manchester-arabic-structural-variation}. El árbol de Glottolog muestra variedades con nombre propio bajo «árabe de la península arábiga» {cite:glottolog-arabic}; son dos clasificaciones distintas, un grupo geográfico en Manchester y variedades separadas en Glottolog, y el museo no escoge entre ellas. No se leyó la página de Ethnologue, así que la clasificación de SIL no se conoce aquí. Para más sobre los dialectos véase [[concept/lahjat-al-yaman|Los dialectos de Yemen]].
+
+## Otras lenguas
+El árbol de Glottolog sitúa el mehri yemení, oriental y occidental, bajo la rama del sudarábigo moderno de las lenguas semíticas, rama separada del árabe en el árbol {cite:glottolog-arabic}. No se leyó nada sobre el número de hablantes de mehri ni sobre otras lenguas de Yemen.
+
+## El estándar y las variedades habladas juntos
+La página de la Universidad de Manchester sobre los dialectos del árabe describe la situación general del mundo arabófono como de tres niveles: el árabe estándar moderno, lengua del Estado, la enseñanza, los servicios públicos y los medios; el árabe clásico, el del Corán, los textos religiosos y el culto; y los dialectos coloquiales del trato diario, que la página dice que la gente suele tener por de poco valor aunque son habituales en la canción, el teatro y el cine {cite:manchester-arabic-sociolinguistic}. Es una descripción del mundo árabe en general, no de este Estado solo, y no se leyó ningún estudio que lo mida aquí. Sobre la relación del estándar con las variedades habladas véase [[concept/al-fusha-wal-lahajat|El árabe estándar y los dialectos hablados hoy]], y sobre las diferencias entre los hablas de las tribus antes del estándar [[concept/lughat-al-qabail|Los dialectos de las tribus y la lengua de Quraysh]].
+
+## Lo que esta página no alcanza
+No se halló en lo leído ningún recuento de hablantes de árabe en este Estado ni proporciones de sus lenguas. La página del Estado en el World Factbook de la CIA ya no está disponible: la dirección devolvió un aviso fechado el 4 de febrero de 2026 que anuncia el fin de la publicación; la página del país de la enciclopedia no pudo obtenerse con la herramienta disponible, ni la de Ethnologue, y lo que aquí se toma de la enciclopedia viene de fichas de fuentes leídas antes. Las formulaciones constitucionales proceden de textos traducidos, no de los originales árabes. El museo no estima ninguna cifra; las que dan otras páginas están en [[concept/al-arabiyya-fi-al-alam-al-yawm|El árabe en las Naciones Unidas y la UNESCO, y las cifras de hablantes]]. Esta página atribuye cada enunciado a su página y fue escrita a partir de estas fuentes, sin lectura humana; lo antiguo o terciario debe reverificarse. No se leyó el resto del artículo sobre Yemen de la enciclopedia, sobre su población y sus lenguas.

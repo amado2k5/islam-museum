@@ -1,0 +1,28 @@
+id: concept/al-arabiyya-fi-united-arab-emirates
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في الإمارات"
+  en: "Arabic in the United Arab Emirates"
+  ur: "متحدہ عرب امارات میں عربی"
+  fr: "L'arabe aux Émirats arabes unis"
+  es: "El árabe en los Emiratos Árabes Unidos"
+summary:
+  ar: "ما وُجد عن العربية في الإمارات العربية المتحدة: نص المادة 7 من الدستور كما يعرضه Constitute، وعبارة دراسة مكتبة الكونغرس عن نسبة العرب عرقاً، وما تضعه الشجرة والتصنيفات الجغرافية، مع بيان أنه لم يُعثر على وصف للهجة إماراتية ولا على نسب لغات."
+  en: "What was found on Arabic in the United Arab Emirates: the text of Article 7 of the Constitution as the Constitute Project shows it, the Library of Congress study's figure for ethnic Arabs, and what the classification tree and geographical groupings give, with a statement that no description of an Emirati dialect and no language shares were found."
+  ur: "متحدہ عرب امارات میں عربی کے بارے میں جو ملا: دستور کی دفعہ 7 کا متن جیسا Constitute دکھاتا ہے، لائبریری آف کانگریس کی تحقیق کا نسلی عربوں کا تناسب، اور شجرہ اور جغرافیائی گروہ بندیاں کیا دیتی ہیں، اور یہ بیان کہ اماراتی بولی کا کوئی بیان اور زبانوں کے تناسب نہیں ملے۔"
+  fr: "Ce qui a été trouvé sur l'arabe aux Émirats arabes unis : le texte de l'article 7 de la Constitution tel que le montre le Constitute Project, le chiffre de l'étude de la Bibliothèque du Congrès pour les Arabes ethniques, et ce que donnent l'arbre de classification et les groupements géographiques, avec l'énoncé qu'aucune description d'un dialecte émirati ni aucune part de langues n'a été trouvée."
+  es: "Lo que se encontró sobre el árabe en los Emiratos Árabes Unidos: el texto del artículo 7 de la Constitución tal como lo muestra el Constitute Project, la cifra del estudio de la Biblioteca del Congreso sobre los árabes étnicos, y lo que dan el árbol de clasificación y las agrupaciones geográficas, con el enunciado de que no se halló descripción de un dialecto emiratí ni proporciones de lenguas."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: place/united-arab-emirates, sources: [source/constituteproject-united-arab-emirates] }
+  - { type: related_to, target: concept/lahjat-al-khalij, sources: [source/manchester-arabic-structural-variation] }
+  - { type: related_to, target: concept/al-alam-al-arabi, sources: [source/britannica-semitic-languages] }
+  - { type: related_to, target: language/arabic, sources: [source/britannica-semitic-languages] }
+  - { type: related_to, target: concept/al-fusha-wal-lahajat, sources: [source/manchester-arabic-sociolinguistic] }
+  - { type: related_to, target: concept/lughat-al-qabail, sources: [source/manchester-arabic-sociolinguistic] }
+provenance: { layer: own-research, source: "Constitute Project constitution texts, Library of Congress Country Studies, University of Manchester Dialects of Arabic pages, Glottolog classification tree and Encyclopaedia Britannica records, read on 21 Nov 2026.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-countries-a" }
+sources: [source/britannica-qatar, source/britannica-semitic-languages, source/constituteproject-united-arab-emirates, source/glottolog-arabic, source/loc-uae-population, source/manchester-arabic-sociolinguistic, source/manchester-arabic-structural-variation]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }
