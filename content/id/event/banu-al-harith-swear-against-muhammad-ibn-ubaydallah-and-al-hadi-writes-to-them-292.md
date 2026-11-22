@@ -1,0 +1,14 @@
+---
+id: event/banu-al-harith-swear-against-muhammad-ibn-ubaydallah-and-al-hadi-writes-to-them-292
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/banu-al-harith-swear-against-muhammad-ibn-ubaydallah-and-al-hadi-writes-to-them-292.md}
+---
+## Ringkasan
+Hingga di Jumada al-Awwal pada tahun 292 H, Banu al-Harith berkumpul saat buah itu tiba dan bersekutu melawan Muhammad ibn Ubayd Allah {cite:sira-hadi-ila-al-haqq p.275}. Dengan judul "Berita Perselisihan antara Banu al-Harith dan Abu Ja'far": Mereka sepakat dengan [[person/ibn-humayd-of-banu-al-harith-286|Ibn Humayd]] mengenai hal ini dan mengirim Abu Ja'far untuk memperingatkannya. Abu Ja'far Muhammad ibn Ubayd Allah menulis kepada al-Hadi untuk memberitahukan hal ini, sehingga al-Hadi menulis surat ini kepada Banu al-Harith {cite:sira-hadi-ila-al-haqq p.275}.
+
+## Detail
+Dengan judul "Salinan Kitab Al-Hadi ila al-Haqq ila Banu al-Harith," buku ini dibuka dengan Basmala, kemudian dari Abdullah Imam al-Hadi kepada Kebenaran, Panglima Orang Beriman Yahya ibn al-Husayn, kepada Ibn Humayd dan pengikutnya dari Banu al-Harith, yang digambarkan dalam kitab sebagai orang-orang pengkhianat dan kurang bersyukur. Kemudian disebutkan bahwa Allah tidak mengubah kondisi suatu bangsa sampai mereka mengubah apa yang ada di dalam [[passage/quran-13-11|diri mereka. (Ar-Ra'd 13:11]]), dan bahwa mereka adalah orang yang tertipu dan sombong yang tidak belajar dari orang lain maupun tidak mendapat manfaat dari pengalaman mereka {cite:sira-hadi-ila-al-haqq p.275}. Buku ini berlanjut di halaman-halaman berikutnya dan akan dibaca dalam kumpulan berikutnya mulai halaman 276. Kata-kata yang digunakan buku untuk menyapa Banu al-Harith berasal dari kata-kata al-Hadi dalam bukunya maupun dalam kitab Zaydi. Museum tidak mengutipnya sebagai putusan maupun mengulangi kata-kata yang menyalahkan [[event/the-dearth-and-the-arms-ban-on-banu-al-harith-and-yam-at-najran-291|. Larangan membawa senjata terhadap mereka sebelumnya telah disebutkan]] sebelum laporan ini. Narasi tersebut dikaitkan dengan Ali ibn Muhammad dalam laporan sebelumnya, dan buku ini tidak menyebutkan nama narator di sini. Dalam catatan kaki halaman, terdapat bacaan dari salinan hlm. "Dia melayani dua puluh enam," dan bahwa Surah Ar-Ra'd 11/13 adalah tempat kutipan; museum tidak mengutip teks ayat tersebut dan cukup dengan referensi.
+
+Kelanjutan buku pada hlm. 276 hingga 285: [[event/al-hadi-tells-banu-al-harith-their-favour-will-change-and-recalls-the-ungrateful-town-292]], dan berikut mengenai pertempuran di Minas pada [[event/banu-al-harith-and-yam-attack-abu-jafar-in-the-village-and-are-driven-to-the-hill-292]].

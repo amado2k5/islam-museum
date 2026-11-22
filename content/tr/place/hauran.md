@@ -1,0 +1,9 @@
+---
+id: place/hauran
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/place/hauran.md}
+---
+## Yaqut'un ülkeler sözlüğünde
+Yaqut, Hauran adını bir fetha ile kaydeder ve muhtemelen 'Har Hahur'dan gelmiş olabilir; 'Tepelerden sonraki hurilerden Allah'a sığınırız' ifadesini belirtir; bu, eklendikten sonra azalma anlamına gelir. {cite:mujam-al-buldan-sader-1995 2 p.317} Burayı, Kıble tarafında Şam'ın geniş bir bölgesi olarak tanımlar; birçok köy, çiftlik ve köy Arap evi olarak kalmıştır ve şiirlerinde sıkça anılır. Ana şehri Bosra'dır. {cite:mujam-al-buldan-sader-1995 2 p.317} Umar ibn al-Khattab'ın Alqama ibn 'Alatha'yı Hauran'dan atadığı ve şair Al-Hutay'ah'ın ona geldiği belirtilir. Mezarından insanlar ayrıldıktan sonra gelmiş, Yaqut'tan okuduğu ayetlerle onu övmüştür. {cite:mujam-al-buldan-sader-1995 2 p.317} Tha'lab'dan bildirildiğine göre, Levant halkı her Kura'yı asker olarak adlandırır. {cite:mujam-al-buldan-sader-1995 2 p.318} Hauran'ın Şam'dan önce fethedildiğini söyler: Halid Bosra'ya vardığında Müslümanlar toplanmış, barış içinde fethetmiş ve Hauran topraklarına yayılmıştır. Adhra'at hükümdarı, Bosra halkının üzerinde anlaştığı barışa benzer bir barış aramak için onlara gelmiştir. {cite:mujam-al-buldan-sader-1995 2 p.318} Levantlı keşiş İbrahim ibn Eyyub el-Hurani, ona adil olduğunu atfetmiş ve onu doğru biri olarak tanımlamıştır. El-Velid bin Müslüm ve Muda ibn İsa'dan rivayet etmiştir. {cite:mujam-al-buldan-sader-1995 2 p.318} Huran'ın Nejd'de suyun adı olduğunu ekler; Nasr ise bunun Yamama ile Mekke arasında olduğunu düşündüğünü bildirmiştir. {cite:mujam-al-buldan-sader-1995 2 p.318}

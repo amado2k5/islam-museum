@@ -1,0 +1,24 @@
+---
+id: event/al-hadi-expedition-to-barat-285
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/al-hadi-expedition-to-barat-285.md}
+---
+## Özet
+Kitap, [[place/barat-yemen|Barat meselesinin, aynı zamanda Şakir topraklarından olduğunu]], [[person/al-hadi-yahya-al-rassi|Sa'dah'ta]] el-Hadi'ye [[place/saada|dua eden, ona bağlılık yemini eden ve yanında bir vali göndermesini isteyen bazı halkından geldiğini anlatır. Kendisi yoldaşlarından birini gönderdi, ancak bir grup onu reddetti ve Cuma günü namaz kılmasını engelledi. Sefer'den yaklaşık yirmi iki gün sonra {cite:sira-hadi-ila-al-haqq p.82} {cite:sira-hadi-ila-al-haqq p.83} el-Hadi'ye yazdı. Bu, anlatıcıya övgü ve yorum içeren bir Zeydi rivayetidir. Ansiklopedi olayı aktarıldığı şekilde sunar]].
+
+## Dağ ve çıkış
+Halkı seslerini yükseltmeye emretti ve Bart'a doğru yola çıktı; Bart, bir hükümdarın asla girmediği büyük, heybetli, engebeli bir dağdı. Sadece üç çıkış yolu vardı. Halkı, Hamdan'dan, Şakir'den olan ve 'Dahmah' {cite:sira-hadi-ila-al-haqq p.83} olarak adlandırılan büyük bir halktı. Pazar günü El-Hadi onlara geldi ve kabilelerinden bazılarının bulunduğu 'Al-Hijr' adlı bir yerde kamp kurdu. Onlarla birlikte yoldaşlarının yanına bir grup gönderdi, onları çağırıp tanımak için. Sonra dağın eteğindeki 'Adilah' adlı bir yere gitti ve birçok kişi onun tırmanabileceği yolu istemek için dışarı çıktı ({cite:sira-hadi-ila-al-haqq p.83}. Yusuf [[person/yusuf-ibn-muhammad-al-hasani|bin Muhammed el-Hasani]], Ali ibn al-Husayn, Ebu Fatimah el-Futaimi, Muhammed bin Zubeyr ve Abd al-Malik ibn Abd al-Malik al-Yarsamiyun dahil olmak üzere bir grup yoldaşını gönderdi; dağa tırmanıp düşmanlarına karşı yolu yönettiler. El-Hadi kampına çıktı, dağın zirvesine ulaştılar, ardından askerlere mevzilerinde durmalarını emretti. Sekiz at ve yirmi altı adamla ilerledi, halkın yanına yaklaştı, onları çağırdı, azarladı ve şöyle dedi: "Ey halkım, aranızda Allah'ın Kitabı vardır. Allah'a itaat ettiğimiz sürece bize itaat edin. Allah'a itaatsizlik edersek, size itaat edemeyiz" {cite:sira-hadi-ila-al-haqq p.83}.
+
+## Çatışma
+Onlardan kendisini ve suya giden yolu bırakmalarını istedi, böylece içip arınabilirdi. Susuzluk ona ve yoldaşlarına zarar vermişti, ancak onlar reddetti ve sudan uzaklaşmaya çalıştılar, oklar ona ve yoldaşlarına ok attı, oklar ona isabet etti ve bazı yoldaşlarını yaraladı {cite:sira-hadi-ila-al-haqq p.84}. Onların sadece kendisiyle savaşmak istediğini görünce saldırdı, yoldaşları da peşinden gitti. Tanrı ona zafer verdi, üçünü öldürdü ve yaraladı, bir grup esir aldı ve bazılarına zarar vermek isteyen bir adamı engelledi. Grup yenildi, askerler tarafından soyuldu ve onları öldürmekle tehdit ettiler. Al-Hadi bağırdı: Birini öldüren onunla birliktedir. Anlatıcıya, halkın dönecek bir grubu olmadığını, yani onları yöneten bir komutanın olduğunu ve toplanmış bir kalabalık olduğunu {cite:sira-hadi-ila-al-haqq p.84} söyledi.
+
+## Güvenlik ve Soygun
+Onlar güvenlik ve bağlılık aradılar, o da onları kabul etti ve güvence altına aldı. Gerçeğe bağlı ona bağlılık yemini ettiler, doğru olanı emrettiler, kötülüğü yasakladılar ve esirleri serbest bırakıp ganimeti geri vermesini istediler. O esirleri serbest bıraktı, ordusunu topladı ve bu ganimetin sizin için yasal olduğunu, ancak bana ver ki halkı geri ödeyip barıştırabileyim. Umarım Tanrı bana bir ödül daha verir ki size tazminat verebileyim. Onu ona geri verdiler, geri verdiler ve esirleri serbest bıraktılar {cite:sira-hadi-ila-al-haqq p.84}. Üç gün Barat'ta kaldı; ordusundan kimse çiftçilik yapmak ya da başka bir şey yapmak zorunda kalmadı, ordusundan kimse evlerinde kalmadı, ta ki atları 'musaj' dikenli bir ağaç {cite:sira-hadi-ila-al-haqq p.84} yeyene kadar. Bkz. [[concept/ghanima]].
+
+## Ordu Davranışı Haberleri
+Bazı askerler, kendisi için bir deve bırakıp Zarra'ya girdiğini anlatır. Ürün sahibi, rehbere öğreteceğini söyledi. Deve, rehberden korktuğu için deveden uzaklaştı. Ürün sahibi deveyi terk edildiğini görünce bağırdı: Deveni al, sonra geri döndü ve aldı {cite:sira-hadi-ila-al-haqq p.85}. El-Hadi, rehberin ordusundan gördüğü en iyi şeyin, bir grubun kendisinden uzakta bir Dum (nabaq) adlı ağacın altında kamp kurması olduğunu ama ondan hiçbir şey almadıklarını söylediğini duydu. O yerden geçerken dalların halini gördü {cite:sira-hadi-ila-al-haqq p.85}.
+
+## Dönüş
+El-Hadi, halkını duyduktan sonra Perşembe günü Bart'tan ayrıldı ve ona itaat etti. Necran'dan Abdulaziz bin Mervan adında bir adamı vali olarak bıraktı {cite:sira-hadi-ila-al-haqq p.85}. 285 Hicri {cite:sira-hadi-ila-al-haqq p.85} yılında Sefer'in son gününe kadar Pazar günü Sa'de'ye vardı.

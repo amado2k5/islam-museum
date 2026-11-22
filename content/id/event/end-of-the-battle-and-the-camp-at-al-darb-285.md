@@ -1,0 +1,24 @@
+---
+id: event/end-of-the-battle-and-the-camp-at-al-darb-285
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/end-of-the-battle-and-the-camp-at-al-darb-285.md}
+---
+## Ringkasan
+Setelah al-Hadi [[person/al-hadi-yahya-al-rassi|berhenti]] di al-Muhajjah dan banyak perlemparan buah pir di antara kedua kelompok, tidak ada sahabat al-Hadi yang terluka, menurut narator {cite:sira-hadi-ila-al-haqq p.104}. Laporan ditambahkan dengan suara para pengikut Imam, dan museum menampilkan apa yang diceritakan para narator tanpa penilaian.
+
+## Ibn Al-Ghamr dan akhir hari
+Seorang ksatria dari [[person/al-daam-ibn-ibrahim|masyarakat Al-Da'am]] bernama Ibn Al-Ghamr muncul di antara para sahabat Al-Hadi, yang mengalahkan mereka, dan Tuhan memberikan kemenangan kepada mereka, sehingga mereka membunuhnya. Tidak ada satu pun dari sahabat Al-Hadi yang terbunuh, dan pertempuran berlanjut hingga malam tiba dan gelap tiba, lalu mereka berpisah. Seorang pria dari para sahabat Al-Da'am dibunuh dan diserahkan kepada para sahabat Al-Hadi {cite:sira-hadi-ila-al-haqq p.104}. Semua orang kembali ke kamp mereka, mengalami banyak luka dari kedua belah pihak. Al-Hadi mengikuti [[place/al-darb-banu-rabia-yemen|jalan]] Banu Rabi'ah dan Al-Da'am menuju [[place/athafit|Athafat]], dan masing-masing tetap tinggal di kemahnya karena dingin yang hebat dan angin kencang {cite:sira-hadi-ila-al-haqq p.104}.
+
+## Kata-kata pemandu di jalan
+Al-Hadi mengikuti jalan tersebut, yaitu tempat dengan sedikit pertanian dan sedikit air. Menurut narator, ia sering berkata bahwa jika orang-orang taat dan sabar dengannya, melawan para penindas ini tidak akan mustahil bahkan sehari pun dalam panas atau dingin untuk bergabung dengan Tuhan atau memberikan kemenangan atas mereka. Ia tidak ingin turun dari pelananya siang atau malam kecuali saat waktu doa sampai Tuhan mengungkapkan kebenaran kepadanya atau bergabung dengannya. Memang, Tuhan adalah yang dicari pertolongan dalam ketidakberdayaan manusia, peningkatan sedikit, dan kelemahan mereka dalam menegakkan kebenaran {cite:sira-hadi-ila-al-haqq p.105}. Frasa "kegelapan" adalah deskripsi narator tentang lawan Al-Hadi yang oleh museum dikaitkan dengannya.
+
+## Air dan pasokan
+Ketika orang-orang mendengar bahwa pemandu telah kembali ke tempatnya, mereka membawa makanan, pakan, dan segala sesuatu yang layak untuk tentara. Air bertambah di sana berkat rahmat Tuhan, menurut narator. Orang-orang menyiram hewan-hewan dengan ghil di tempat yang kasar dan kasar dengan sedikit air {cite:sira-hadi-ila-al-haqq p.105}. Narator mendengar beberapa Banu Rabi'ah menyebutkan bahwa ghil hanya mengandung sedikit air. Ketika pemandu datang, airnya bertambah hingga ditanam, dan narator melihat tanaman disiram dari ghil itu {cite:sira-hadi-ila-al-haqq p.105}. Peneliti mengatakan di pinggirannya bahwa ghil adalah apa yang mengalir di permukaan bumi, yaitu 'al-'yih,' dan narator mengatakan bahwa ghil dalam bahasa masyarakat Hijaz berarti 'ayn' {cite:sira-hadi-ila-al-haqq p.105}. Kelimpahan air adalah berita yang disampaikan oleh narator dari penduduk setempat, dan dikaitkan dengan mereka.
+
+## Permintaan untuk menyerbu desa-desa Arhab
+Al-Hadi tetap di tempatnya, dan Banu Rabi'ah serta Banu Suraim datang kepadanya dan memintanya untuk tetap di tempatnya dan membebaskan mereka dalam perang serta menyerang desa-desa Arhab di Al-Sabie dan Kharfan, karena orang-orang Al-Sab' dan Kharfan berasal dari Arhab dan bersama Arhab saat ia masuk, dan mereka menghukum serta membunuh Abu Umar. Bersama Abu Umar ada sekelompok dari Banu Rabi'ah dan Banu Sarim, yang mengambil senjata dan pakaian mereka {cite:sira-hadi-ila-al-haqq p.105}. Banu Rabi'ah mencari Arhab bersama tiga orang yang tewas bersama Al-Hadi dalam pertempuran. Mereka memintanya untuk membebaskan mereka agar mereka bisa berganti dan menjarah desa-desa. Ia menolak dan berkata, 'Jika kalian melakukannya, aku akan mulai bertarung denganmu.' {cite:sira-hadi-ila-al-haqq p.105}. Dia memberi mereka banyak nasihat dan mengalihkan perhatian dari apa yang diperintahkan kepadanya, sehingga mereka menerimanya dan tidak membangkang. Mereka kadang berkata, 'Bukankah mereka membunuh kami dan mengambil barang-barang kami?' Dia akan menjawab, 'Ya.' Kemudian kalimat itu berakhir di tepi halaman dan berlanjut ke halaman berikutnya, yang belum dibaca dalam kumpulan ini {cite:sira-hadi-ila-al-haqq p.105}.
+
+## Sejarah
+Buku tersebut tidak menyebutkan tanggal untuk kediaman ini, yang terjadi setelah 14 Shawwal 285 AH, sehingga tidak ada tanggal yang tercatat.

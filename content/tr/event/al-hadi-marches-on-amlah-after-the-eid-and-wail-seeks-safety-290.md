@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-marches-on-amlah-after-the-eid-and-wail-seeks-safety-290
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/al-hadi-marches-on-amlah-after-the-eid-and-wail-seeks-safety-290.md}
+---
+## Özet
+El-Hadi, [[person/al-hadi-yahya-al-rassi|Erafə bayramına kadar Sa'de'de kaldı; bu sırada]] veyla, yolda [[group/wailat-shakir|insanların servetini ve hayatlarını kurcalayarak kötülük ve yolsuzluğu ortaya çıkarıyordu, anlatıcıya göre. Khawlan'dan birçok asker topladı]] [[group/khawlan-tribe|ve Kurban Bayramı'ndan dört gün sonra yola çıktı, geceyi Hicr'de geçirdi. Sonra]] Amlah'a [[place/amlah-yemen|gitti. Kasabanın dar bir bölümüne ulaştığında, Wa'ila'nın askerlerini o kanyular ve dağlarda {cite:sira-hadi-ila-al-haqq p.250} {cite:sira-hadi-ila-al-haqq p.251} yorgun buldu]].
+
+## Detaylar
+İlk ordusu, ellerindeki tüm ağır yüklerle geniş bir yere ulaşana kadar geldi. Ordunun mızrağı geride kaldı ve halk bir saat boyunca savaştı, ta ki Khawlaniler dağlardan çıkıp onları kovup bir grubu öldürene kadar. Bir Khawlani adamı öldürüldü. Tüm ordu ilerleyerek Amlah köyüne yerleşti, orada bulduklarını yağmaladılar ve günlerce evleri ve kuyuları yıktılar, palmiye ağaçları ve üzümler kestiler. Halk bu konuda güvenlik aradı, ancak anlatıcıya göre o yaramazlıkları ve sadakatsizlikleri nedeniyle bundan nefret etti. Köylerde dolaştı ve köy köy yok etti, ta ki onlar kendi elleriyle ona saldırana kadar, bu yüzden onları güvence altına aldı ve büyük bir mücadeleden sonra Sa'dah'a döndü {cite:sira-hadi-ila-al-haqq p.251}. Orijinal dipnotta 'Ağaçlarını Yok Etme, Yağmalama, Kesme ve Sakinlerini Güvence Altına Almamada Fıkra Faydaları' başlığı yer alır ve müze varlığını kaydeder, ekleme yapmaz veya herhangi bir hükümden bahsetmez. İlki [[event/al-hadi-at-warwar-treats-with-ibn-khalaf-and-returns-to-saada-on-news-of-jaftam-290|, Al-Hadi'nin Saada'ya dönüşü ve dönüşüdür]]; karşılaştırma için Wa'ilah'a yapılan önceki yürüyüşle karşılaştırmak gerekirse, [[event/al-hadi-marches-on-wail-of-shakir-and-takes-sureties-290|Al-Hadi'nin Şakir'den Wa'ila kasabasına yolculuğudur]]. Metnin adı 'Arafah Günü'dür, el yazmasında belirtildiği gibi. Dhu al-Hijjah'daki tarihi ise düzenin bir tahminidir.

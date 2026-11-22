@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-answers-and-sends-a-poem-to-banu-al-harith-292
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/al-hadi-answers-and-sends-a-poem-to-banu-al-harith-292.md}
+---
+## Ringkasan
+Dalam buku Al-Hadi kepada Muhammad ibn Ubayd Allah, terdapat ayat-ayat yang ia perintahkan untuk ditujukan kepada Banu Al-Harith, yang pertama adalah: 'Banu Harith menyampaikan dariku,' sebuah surat yang mengungkapkan kekhawatiran Dhu Gham. {cite:sira-hadi-ila-al-haqq p.284}. Museum merangkum maknanya, dan ayat-ayat tersebut dikaitkan dengan Al-Hadi dalam buku Zaydi ini.
+
+## Detail
+Penyair menceritakan kepada Banu Harith bagaimana ia melarikan diri tanpa bersyukur atas kebaikan yang telah dilakukan kepada mereka. Ia menghidupkan mereka kembali setelah kematian mereka hampir tiba dan kematian menggerogoti mereka dengan giginya, seolah-olah ia hampir menggigit mereka. Ia melewati cawan penawanan mereka satu demi satu, dan rasa terima kasih mereka kepadanya berbeda dari apa yang orang ucapkan terima kasih {cite:sira-hadi-ila-al-haqq p.284}. Kemudian ia memanggil mereka untuk memulai perangnya, karena hujan deras dengan kematian, menyamakan perang dengan awan yang muncul dengan kilat dan petir mereka dimulai. Ia menyuruh mereka menggali terowongan di tanah dan berhati-hati terhadap bilah kapak, dan bahwa tombak di tangan orang beriman tidak mengalir ke atas orang, dan bahwa binatang putih bekerja di kepala musuh ketika penguasa kebenaran yang berafiliasi dengan Rasul mencari mereka, dan panji-panji para mukmin maju dan hati musuh tertutup {cite:sira-hadi-ila-al-haqq p.284}. Ia kemudian mengatakan bahwa ia melindungi agama dan mengikuti jejak kakeknya Muhammad, serta memiliki perintah yang tegas seperti batu halus dan tinggi yang asalnya berakar kuat di bumi, orang-orang putus asa akan retaknya {cite:sira-hadi-ila-al-haqq p.284} {cite:sira-hadi-ila-al-haqq p.285}. Di pinggir halaman 285, terdapat penjelasan linguistik tentang kata "al-fantas" dari kamus, beserta koreksi dari salinan h. Baris-baris puisi menjadi kabur dalam pemindaian otomatis, jadi ikuti urutan halaman seperti yang dibaca dari gambar. Museum tidak mengulangi perbandingan penyair dengan Banu al-Harith dengan apa yang ia rendahkan pada mereka.

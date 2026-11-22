@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-takes-hostages-from-yam-and-banu-al-harith-and-ibn-abbad-arrives-with-aid-from-al-tarif-289
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/al-hadi-takes-hostages-from-yam-and-banu-al-harith-and-ibn-abbad-arrives-with-aid-from-al-tarif-289.md}
+---
+## Özet
+Sonra el-Hadi [[person/al-hadi-yahya-al-rassi|Sa'de']] ye [[place/saada|gitti ve bir süre orada kaldı. Sonra]] Ya' [[group/yam-tribe|ile]] Banu al-Harith [[group/banu-al-harith-ibn-kab|arasında bir çatışma çıktı, ta ki Ya'yolu korkutup yollar kesilene kadar. Bunu duyunca]] Necer'e [[place/najran|gitti ve çok sayıda askerle {cite:sira-hadi-ila-al-haqq p.243} kaleye ulaştı. Sonra zamanından el-Yaməyin köyünde kamp kurana kadar yürüdü, onlardan kırk adam aldı, hapsetti ve ardından yürüyerek]] [[place/al-hajar-najran|el-Hacir]] köyünde yerleşti Sonra Banu al-Harith'e gitti, onlardan otuz adam aldı ve onları vadinin tepesine kadar yönlendirdi. Vadi'i'den otuz adam aldı ve onları Sa'de'de hapsedene kadar götürdü; orada bir ay {cite:sira-hadi-ila-al-haqq p.243} kaldılar.
+
+## Detaylar
+Sonra 'Haras' (orijinalde ve 'S'de olduğu gibi, doğrulayıcı bunun 'kharaj' kelimesinin yanlış yazılışı olduğunu düşünüyor) [[person/abdullah-ibn-bustam|İbn Bastam]], Muhammed ibn Abdülmalik ve bir grup başkasıydı. Hadi hapsedilen yoldaşları hakkında konuştular, o da onları serbest bıraktı, giydirdi, iyi davrandı ve onlar da yerlerine dönüp orada yerleştiler {cite:sira-hadi-ila-al-haqq p.243}. El-Hadi Sa'de'ye vardığında [[person/ahmad-ibn-abbad-al-akili|, İbn Abbad el-Akili]], Ramazan ayı sonunda, 289 Hicri yılına ait Al Turaif [[group/banu-tarif|ailesinden bir erzakla geldi]]. El-Hadi, atlarını yemleri ve çevresini gözetlemeleri, koyun getirmeleri ve öldürmeleri için gönderdi. Takip edenler ise {cite:sira-hadi-ila-al-haqq p.243} bir süre kalmıştır. Müze, kitapta olduğu gibi rehine sayısını ve gün sayısını vermektedir; soy hattına göre belirtilmeyen isimler (İbn Bastam ve Muhammed ibn Abdül-Malik) önceki kayıtlara ait değildir; çünkü İbn Bastam olasılıkla bağlantılıdır ve Muhammed ibn Abdül-Malik hiçbir kayıtta bilinmemektedir. Bkz. [[event/al-hadi-leaves-his-son-at-sada-and-goes-down-to-najran-where-banu-al-harith-ask-pardon-289]].

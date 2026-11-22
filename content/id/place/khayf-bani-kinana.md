@@ -1,0 +1,17 @@
+---
+id: place/khayf-bani-kinana
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/place/khayf-bani-kinana.md}
+---
+## Ringkasan
+Khayf Banu Kinana adalah suku Safi di [[place/mecca|Mekah]]. Dalam surat itu, Nabi berkata kepada Quraish: Pengangkatanmu adalah Khayf Banu Kinana. Mahsab itulah yang ditetapkan para peziarah setelah [[place/mina|Mina]], menurut Al-Azraqi. {cite:azraqi-akhbar-makka}
+
+Lokasinya belum ditentukan dengan koordinat. Sumber tambahan diperlukan.
+
+## Dalam kamus negara
+Yaqut menyebutkan Khayf Banu Kinana di beberapa tempat dengan deskripsi yang berbeda-beda. Dalam 'Kinanah,' ia mengatakan bahwa itu adalah masjid di Mina di tanah Mekah, dan bahwa itu adalah cabang Banu Kanana yang terletak di antara Hajun dan Wasfi Sabbab. {cite:mujam-al-buldan-sader-1995 4 p.481} Dalam 'Khayyf,' ia menjelaskan kata tersebut sebagai sesuatu yang turun dari kekerasan gunung dan aliran air tinggi, dan menamai Masjid Khayf dari Mina berdasarkan nama itu. Ia juga menceritakan dari Qadi Iyad bahwa Khayf Banu Kinana adalah 'Muhaysab' menurut penjelasan riwayat Abd al-Razzaq, dan bahwa itu adalah alun-alun datar Mekah, dan beberapa orang menganggapnya sebagai subjek 'al-abtah'; dilaporkan dari al-Zuhri bahwa Khayf adalah lembah, dan dari al-Hazmi bahwa Khayf Banu Kinana di Mina telah dihuni oleh Nabi. {cite:mujam-al-buldan-sader-1995 2 p.412} Dalam 'Al-Muhasib', ia menempatkannya di antara Mekah dan Mina dan mendekati Mina, menjadikannya dataran Mekah, yang sendiri adalah musuh Banu Kinanah, dan berbatasan dengan awal Hajun menuju Mina. Al-Asma'i melaporkan bahwa batasnya adalah antara masyarakat Amr dan masyarakat Banu Kinanah. {cite:mujam-al-buldan-sader-1995 5 p.62} Dalam 'Al-Abtah', ia mengatakan bahwa ia juga musuh Banu Kinanah, dan ia melaporkan bahwa ia adalah orang yang suka melipat diri, dan masuknya menolaknya. {cite:mujam-al-buldan-sader-1995 1 p.74}
+
+## Definisi Museum
+Al-Baqaqa, dari Al-Azraqi, adalah suku Safi di Mekah yang disebut Khayf Banu Kinanah, dan di dalamnya Nabi berkata kepada Quraish: 'Pengangkatanmu adalah Khayf Banu Kinanah,' yaitu 'Mahsab' yang diturunkan para peziarah setelah Mina. Yaqut setuju bahwa Khayf Banu Kanana adalah 'Muhasib' dan dekat Al-Hajun, tidak menyebutkan kabar pengangkatan tersebut, juga tidak hanya menyebut 'Al-Safi' di pintu masuk Al-Khayf, Al-Kinanah, Al-Mahsab, dan Al-Abtah. Yang paling dekat dengan mereka adalah 'Safi Al-Sabbab'; ia juga menyebut 'Sha'b Al-Safi' di Mekah di dua tempat lain yang tidak terkait dengan Al-Khayf, yaitu entri 'Shawa' {cite:mujam-al-buldan-sader-1995 3 p.369} dan 'Niza'at Al-Shawa' Dari Al-Hazmi {cite:mujam-al-buldan-sader-1995 5 p.281}, ia menjadikan Al-Safi sebagai Khif Banu Kinana, sebuah bacaan dari museum yang tidak disebutkan oleh Yaquet. Lokasinya bervariasi: Masjid Mina di Mekah, Mina dekat Al-Hazmi, antara Mekah dan Mina, dan lebih dekat ke Mina. Titik kartu berjarak 3,4 km dari titik museum di Mekah dan 4,8 km dari titik museum ke Mina, artinya lebih dekat ke Mekah, yang bertentangan dengan pepatah Yaqut "lebih dekat ke Mina." Museum membiarkan poin tersebut seperti adanya dan menyerahkan pertanyaan untuk penelitian eksternal. Lihat [[place/mecca|Mekah]] dan [[place/mina|Mina]].

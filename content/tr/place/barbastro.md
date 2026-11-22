@@ -1,0 +1,15 @@
+---
+id: place/barbastro
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/place/barbastro.md}
+---
+## Özet
+Barbashtar, Al-Maqri'ye göre Zaragoza yakınlarında bir İngiliz kasabasıdır. 456 Hicri'de kırk günlük kuşatma ve su kanalının çöküşünden sonra Ardmani ordusu tarafından ele geçirilmiştir. Orada yaşanan katliamları ve esaretleri anlatan İbn Hayyan'dan alıntı yapar ve kendisi gibi Müslümanlara tanıklık etmediğini belirtir. Sonra Ahmed el-Muktadir bin Hud, 457 Hicri yılında Cumedül-Avval'da şehri geri aldı. {cite:nafh-tib-maqqari p.449-454}
+
+## Ülkeler sözlüğünde
+Yaqut, ikinci 'ba'da damma, kaval üzerinde sukun ve 't' harfinde fetha ile 'Barbashtar'dan bahseder ve Barbatani'nin eserlerinden bunun doğu el-Endülüs'te büyük bir şehir olduğunu söyler. 452 Hicri başında Romalılara geldiği ve Konstantinopolis hükümdarına yedi bin seçilmiş bakire hediye ettiği, ardından Müslümanların onları beş yıl sonra 457 Hicri yılında Ahmed ibn Süleyman ibn Hud emirliğinde geri aldığı, bu süre zarfında on bin kadını ganimet olarak ele geçirdikleri ve ardından Franklara döndükleri belirtilir. Orada saray kalesi, bakah kalesi ve Qasr al-Minuqash kalesi dahil olmak üzere birçok kalesi vardı. İki kişi ona atfedilir: Kur'an ve hadis âlimi olan ve Ramazan 451 Hicri'de ölen Ebu el-Kasım Halaf ibn Yusuf ibn Eyyub ibn Zekeriye el-Tujibi el-Tahri el-Berbetari. {cite:mujam-al-buldan-sader-1995 1 p.370-371} Başka bir yerde, el-Bakka kalesinin Barbastar yakınlarında olduğu ve onun döneminde Frankların kontrolünde olduğu belirtilir. {cite:mujam-al-buldan-sader-1995 1 p.328}
+
+## Müzenin Tanımı
+Yaqut'un görüntüsü, Barbashtar'ın doğu Endülüs'te büyük bir şehir olup düştüp geri kazanıldığı kaydıyla uyumludur, ancak iki versiyon tarih açısından farklılık gösterir: Yaqut, düşüşünü 452 Hicri yılının başına, iyileşmesini ise beş yıl sonra 457 H yılına yerleştirir. Yayınlanan baskıda, iyileşme yılı "57" olarak yazılmış ve yüzlerce yıl "beş yıl sonra" ifadesinden alınmıştır. El-Maqriri ise, kayıtta İbn Hayyan'dan alıntı yaparak, düşüşü 456 H yılında, iyileşmeyi ise 457 H yılında, yani bir yıldan kısa bir sürede yerleştirir. Müze iki anlatıyı korur ve aralarında seçim yapmaz. Müze, kayıtta 'Ahmed ibn Süleyman ibn Hud' olarak 'Ahmed ibn Süleyman ibn Hud [[person/al-muqtadir-ibn-hud|' olarak kayıt]] defterinde geçmektedir; kayıt isim ve zaman olarak karşılık gelir, Yaqut'tan bir metin değildir. Yaqut, şehrin Franklara geri dönmesiyle sona ererken, kayıt geri dönüş noktasında sona erer. Yaqut'un Barbataniyya'ya bağımsız bir girişi vardır; bu da onu büyük bir şehir yapar ve eserleri burada Barbashatter'in eserleri için kullanılan isim olan Larda'nın eserleriyle bağlantılıdır ve müze bunu Barbachatar ile eşdeğer tutmaz. Yaqut koordinat vermediği için kayıt defterinin yerini tartışmaz.

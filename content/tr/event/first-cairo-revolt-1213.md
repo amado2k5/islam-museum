@@ -1,0 +1,32 @@
+---
+id: event/first-cairo-revolt-1213
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/first-cairo-revolt-1213.md}
+---
+## Özet
+1213 Hicri yılındaki Cumedül-Avvel olaylarında, [[work/ajaib-al-athar|antikaların harikaları]] arasında, El-Cebarti, Mısır'ın işgalinin üçüncü ayında [[person/abd-al-rahman-al-jabarti|Fransızlara karşı Kahire]]'nin genel [[place/cairo|ayaklanmasını ve ardından şehre ve]] El-Ezher Camii'ne yapılan top saldırılarını [[building/al-azhar|anlatır. {cite:ajaib-al-athar-moreh-v3 p.59} {cite:ajaib-al-athar-moreh-v3 p.60} Bu]], Fransız kampanyasının Mısır'a yönelik bir [[event/french-campaign-egypt-1213|parçasıdır]].
+
+## Ondan önce ne oldu
+Al-Jabarti daha önce, Fransızların pazarlarda on beş gün boyunca giysi ve bagaj serpme, her mahalleye bir kadın ve iki erkek atanarak evlere denetim için girmeleri gerektiğini, çünkü vebanın ortaya çıkacağından korktuğu ve Mansouri Marina'daki yetkililer ile hastaların vakıfların askıya alınması nedeniyle maaşlarının askıya alınmasıyla ilgili şikayetlerini belirtmiştir. {cite:ajaib-al-athar-moreh-v3 p.58} Diwan meclisi, birilerinin şeyhlere miras paylaşımı hakkında soru sorduğunu, bunun üzerine yasal yükümlülüklerden bahsettiklerini ve ardından nasıl bölüneceklerini yazdıklarını anlatır. {cite:ajaib-al-athar-moreh-v3 p.58} {cite:ajaib-al-athar-moreh-v3 p.59}
+
+Cumesi günü, Cumadeldi-Awwal'ın onuncusunda, ofise 'mülk ve gayrimenkul değerlemeleri' listesini getirdiler; en yüksek sekiz frank, ortada altı ve en düşük üç frank koydular. Ayda bir riyalden az kira ödemeden muaf tutuldu, ajanlar, hanlıklar, hamamlar ve dükkanlar için otuz kırk kira belirlediler, buna ilanlar yapıştırdılar ve en yüksek ile en düşükleri ayırt etmek için mühendisler atandılar. {cite:ajaib-al-athar-moreh-v3 p.59} Bu yayılınca halk çok rahatsız oldu ve yoğunlaştı, bir grup sıradan insan onlarla ve bazı genel uzmanlarla hemfikir oldu ve 'olayların sonuçlarını düşünmeyenler' olarak kabul etti. Birçoğu 'onları yönetecek bir lider ya da lider olmadan toplandı.' {cite:ajaib-al-athar-moreh-v3 p.59}
+
+## Pazar
+Pazar günü, silahlarda sakladıklarını göstererek cihatta birleştiler. Seyyid Bedr, Hüseyiyye halkı ve dışarıdaki mahallelerdeki panik ile birlikte geldi ve "Nasrallah İslam'ın dinidir" diye bağırdı. Yaklaşık bin kişi veya daha fazla askeri hakimin evine gidip onu taşladılar. Bir kalabalık El-Ezher Camii'nde toplandı. {cite:ajaib-al-athar-moreh-v3 p.59} Daboui, süvarilerinden oluşan bir grupla birlikte geldi, Al-Ghuriya ve Al-Sadiqiya'dan geçerek Şeyh'in evine ulaştı h Al-Sharqawi, fakat onu bulamadı. Sonra hakimin evine gitti, kalabalığı buldu ve iki saray arasından ayrıldı. Hızla yanına koşup onu dövdüler, o da onu öldürdü ve birçok şövalyesi öldürüldü. {cite:ajaib-al-athar-moreh-v3 p.59} Sonra Bab Al-Futuh, Al-Nasr ve Al-Barqiya'dan Bab Zuweila ve Bab Al-Sha'riya'ya kadar iç mahallelerin kenarını ele geçirdiler, dükkan teraslarını yıktılar ve taşlarını barikatlara çevirdiler. {cite:ajaib-al-athar-moreh-v3 p.59} Dış bölgelerin halkı hareket etmedi ve Antik Mısır ile Bulak, askeri konutlara yakınlıkları nedeniyle onlardan saptı. {cite:ajaib-al-athar-moreh-v3 p.60}
+
+Al-Jabarti, halkın 'sınırları aştığını', Al-Jawaniyah mahallesini, Levant Hristiyanlarının evlerini, Al-Aroam'ı ve çevresindeki Müslüman evlerini yağmaladığını, depozitolar ve güven fondlarını aldığını belirtir. {cite:ajaib-al-athar-moreh-v3 p.60}
+
+## top atışı
+Ertesi gün, Fransızlar El-Berqiya tepelerinde ve kalede toplar, bombalar ve toplarla durdu. Liderleri şeyhlerle iletişime geçmişti, ancak onlar cevap vermedi. Öğleden sonra geçtikten sonra, evlere ve mahallelere, "özellikle El-Ezher Camii'ni" ve yakınlardaki savaşçıların bulunduğu yerlere, örneğin El-Guriye pazarı ve El-Fehahamin'e saldırdılar, ta ki mermiler evlerin duvarlarını yıkana kadar. {cite:ajaib-al-athar-moreh-v3 p.60} Şeyhler, Fransızların reisine giderek okçuluğu kaldırmasını istediler. Şef gecikme için onları azarladı, sonra bahanelerini kabul edip taşlamanın kaldırılmasını emretti, böylece güvenlik çağrısı yaptılar. {cite:ajaib-al-athar-moreh-v3 p.60} Hüseyiyye ve dış avluların halkı, üç saat sonra gece barutları bitene kadar savaşmaya devam etti. {cite:ajaib-al-athar-moreh-v3 p.61}
+
+## El-Ezher'e giriş
+El-Cebarti, Fransızların bir gece uykusundan sonra şehre girdiğini, barikatları yıktıklarını, ardından at sırtında El-Ezher Camii'ne girdiklerini, atlarını kıbleye bağladıklarını, fenerleri kırdıklarını, öğrencilerin ve komşuların trübelerini kırdıklarını, içindekileri yağmaladıklarını, kitapları ve Kur'anları yere attıklarını, ezdiklerini ve karşılaşanların kıyafetlerini soyduklarını anlatır. {cite:ajaib-al-athar-moreh-v3 p.61} Salı günü, bir grup caminin kapısında sıraya girdi ve namaz kılmaya gelenler geri döndü. El-Cebarti, buranın "bir zamanlar en onurlu yer olmasına rağmen ihlal edildiğini" ve insanların korktuklarını halkına bıraktığını, Fransızların ise nadiren buradan geçtiğini söylüyor. {cite:ajaib-al-athar-moreh-v3 p.61}
+
+## Sonrasında
+Levantlı Hristiyanlar ve yağmalanan Aravailer, Fransızların reisine şikayette bulundu. El-Cebarti, Müslümanların onları sadece Fransızlarla bağlantıları nedeniyle yağmaladıklarına ve Müslüman komşularının da yağmaladığına inanıyor. {cite:ajaib-al-athar-moreh-v3 p.62} Bartlemin, milislere ve silah taşıyanları tutuklamakla görevlendirildi. Yardımcıları insanları tutukladı, hapse attı ve yağmalanmış mallar talep etti. El-Cebarti, birçok kişinin katledildiğini ve Nil'e atıldığını, bu iki gün ve sonrasında "sayısız ulus"un öldüğünü belirtiyor. {cite:ajaib-al-athar-moreh-v3 p.62} Çarşamba günü, şeyhler "Sari Askar"a giderek her iki dilde de güvenlik çağrılmak için yola çıktılar. Onlara söz verdi ve genelciler arasındaki isyana sebep olanları tespit etmelerini talep etti. {cite:ajaib-al-athar-moreh-v3 p.62}
+
+## Metin hakkında not
+Al-Jabarti bu raporun büyük kısmını kafiyeli olarak yazıyor ve araştırmacı Shmuel Moret, "Antikaların Harikaları" metni ile "Francis Dönemi" ve "Kutsallaşmanın Görünümü" metinleri arasında kenarlarda zıtlık oluşturuyor; metinler yer değiştiriyor veya farklılık gösteriyor. {cite:ajaib-al-athar-moreh-v3 p.59} {cite:ajaib-al-athar-moreh-v3 p.60}

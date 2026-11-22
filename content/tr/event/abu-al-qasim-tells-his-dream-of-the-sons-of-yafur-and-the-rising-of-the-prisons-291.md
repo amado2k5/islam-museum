@@ -1,0 +1,12 @@
+---
+id: event/abu-al-qasim-tells-his-dream-of-the-sons-of-yafur-and-the-rising-of-the-prisons-291
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/abu-al-qasim-tells-his-dream-of-the-sons-of-yafur-and-the-rising-of-the-prisons-291.md}
+---
+## Özet
+Ali ibn Muhammed dedi ki: Muhammed ibn Sa'id bana şöyle dedi: Ebu el-Kasım bir gün bana dedi ki: Bil ki dün gece rüyamda oğlum Ya'far'ın bu kaleye girdiğini ve bizi bu hapis ve zincirlerden kurtardığını gördüm. Onlar acı çekerken beni aralarına oturttu ve nazikçe konuştu. Günlerce onlarla kaldık, sonra bize bir pelerin ve hayvanlar gönderip ayrıldık. Ona dedim ki: İnşallah öyle olacak {cite:sira-hadi-ila-al-haqq p.270}. Sonra kaldık ve İbn Halef başına gelen bir olayda Khawlan'ın doğusuna çıktı ve Jarrah'ı huzurunda bıraktı. Jarrah Sana'a'ya gitti, hapsedilmesini bozdu ve içeridekileri serbest bıraktı. El-Hadi'nin yoldaşları kimseye lütuf etmeden gerçeğe çıktı ve ona katıldılar. Al-Yafi'i Khawlan'ın evine yerleşti ve köle ordusu dışarı çıktı {cite:sira-hadi-ila-al-haqq p.270}.
+
+## Detaylar
+Bu durum, Safar'ın 23'ü Cuma günü, Ya'far'ın oğullarının ordusundan bir grup anlatıcıların [[place/bayt-bus-sanaa-yemen|evini denetleyip kalenin]] etrafında otlayan koyunları yağmalayana kadar devam etti. Geceyi kalenin yakınında kamp kurana kadar ayrıldılar {cite:sira-hadi-ila-al-haqq p.270}. Sayfa 270'te, [[person/ibrahim-ibn-khalaf-ibn-tarif|İbn Halef'in]] şehri isimlendirmeden 'Khawlan'ın doğusuna gittiği ve Hadur'dan sonra gelen Jarrah'ın kitapta soyunu netleştirmediği, 'Hadur'un basılı baskıdaki gibi okunduğu belirtilir. 274. sayfada, Saada'ya varışlarından sonra Abu soruyor Anlatıcı El-Kasım: "Vizyonu nasıl gördün?" böylece vizyon okuyucunun zihnine geri döner. Tarih ay içinde kesin; bahsedilen Cuma müzenin tablo takvimine uymuyor. 291 Hicri yılı bu düzenlemeden türetilmiştir; bu rapor [[event/abu-al-qasim-ibn-al-hadi-is-chained-at-sanaa-and-moved-to-bayt-bus-290|, onun Sana'a'ya kaydı, Bus evine nakli]] ve [[event/jaftam-is-seized-at-arthal-and-jailed-at-bayt-bus-290|Caftem'in tutuklanmasından önce]] gerçekleşmiştir. Bu, imamın takipçileri tarafından anlatılan bir Zeydi kitabındaki bir rivayettir ve rüya anlatıcı tarafından aktarılır, müzenin bu konuda herhangi bir kararı yoktur.

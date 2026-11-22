@@ -1,0 +1,37 @@
+---
+id: event/testament-of-ahmad-ibn-hanbal
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/testament-of-ahmad-ibn-hanbal.md}
+---
+## Özet
+Bu kayıt, Ahmed bin Hanbal [[person/ahmad-ibn-hanbal|'ın yazılı vasiyeti, son günleri, kefeni, mirası ve Peygamber]]'in üzerine konulmasını emrettiği şiirleri hakkında rivayet edilenleri derler. Ölüm [[event/death-of-ahmad-ibn-hanbal|ve cenaze kaydı]], ölüm tarihi, üzerine yapılan cenaze namazı ve yas tutanların sayısını tamamlar. İki oğlu Salih ve Abdullah'ın rivayetlerine göre, 241 Hicri yılında, Rabi'al-Awwal'dan on iki ay önce, bir Cuma günü vefat etmiştir. {cite:siyar-alam-nubala scan vol. 1 p. 964} {cite:siyar-alam-nubala scan vol. 1 p. 965}
+
+## Vasiyet nasıl ortaya çıktı?
+Ebu Bekir el-Mervazi, Ebu Abdullah'ın bir gece oruç tutarken ona uyardığını ve şöyle dediğini anlatır: "Beni aç bırakan odur, bana bir şeyler yedir." Ona bir somun ekmekten az getirdi ve yedi. Kendini rahatlatmak ve dinlenmek için kalkardı, ta ki el-Murwadhi bezi ıslatıp yüzüne atana kadar ruhunun ona dönmesini sağlayana kadar. Bunu ordudayken öğütledi ve ben onun vasiyetine tanıklık ediyorum. {cite:siyar-alam-nubala scan vol. 1 p. 964} Rivayette dikte tarihi belirtilmez.
+
+## Vasiyetnamenin Metni ve İçeriği
+Salih anlatır ki, babası ağır hastalandığında ona: "Vasiyeti bana oku, o da ona okudu ve olduğu gibi onayladı." dediğini anlatır. {cite:tarikh-dimashq-ibn-asakir-fikr-1995 vol. 5 p. 326} Sonra İbn Asakir şöyle başlar: En Lütf, Merhametli Allah'ın adıyla. Ahmed bin Muhammed bin Hanbal'ın önerdiği budur; Allah'tan başka bir ilahın yoldaşı olmadan ve Muhammed'in O'nun kulu ve elçisi olduğuna tanıklık etmelidir. Sonra görevi, okuyucunun [[passage/quran-9-33|Et-Tewbe 33'te gözden geçirdiği Kur'an'dan bir cümleyle]] anlatılır; ailesi ve akrabalarına Allah'ı ibadet edenler için ibadet etmelerini, övgüler arasında O'nu övmelerini ve Müslüman cemaatine öğütlenmelerini tavsiye etti. Ayrıca Allah'ı Rabbi olarak, İslam'ı dini olarak ve Muhammed'i Peygamberi olarak kabul etmesini tavsiye etti. {cite:tarikh-dimashq-ibn-asakir-fikr-1995 vol. 5 p. 326} El-Dhahabi, Siyar A'lam el-Nubala'da Abdullah ibn Ahmed'in bu vasiyeti anlattığını ve tanıklığın yanında borç beyanı da içerdiğini söyler; yani bir içki için yaklaşık elli dinar borcu vardı, bu da söyledikleriyle doğrulanır ve bu da evin gelirinden öder. Miktarı ödediğinde, Abdullah ve Salih oğullarına, Ahmed'in oğullarına verilir. {cite:siyar-alam-nubala scan vol. 1 p. 950} Bu otomatik sayfayı okumak başka bir sütunla iç içe geçmiştir, bu yüzden sadece bu açık kısım kabul edilir.
+
+## Son günleri
+Abdullah, babası ciddi şekilde hastalandığında inlediğini anlatır. Bu ona anlatılır ve Tavus'tan hastanın inlemesinin Allah'a bir şikayet olduğunu duyduğunu ve ölür ölmez öldüğünü söyler. {cite:tarikh-dimashq-ibn-asakir-fikr-1995 vol. 5 p. 325} Ölümünden bir gün önce cebinden iki gümüş dirhem içeren bir çuval çıkardığını ve şöyle dediğini anlatır: Bana tek bir yemin ettiler, çünkü sanırım hayatımda bir kez yeminimi bozdum. {cite:tarikh-dimashq-ibn-asakir-fikr-1995 vol. 5 p. 325} Salih son günlerinde şöyle dediğini anlatır: Kharikama bak. Baktım ve içinde bir dirhem olduğunu gördüm. Dedi ki: Git hurma al, bu yeminimi kefiyetini sağlar. Ben de öyle yaptım ve hurmanın fiyatından sadece üçte biri ya da benzeri bir şey kalmıştı. Ona dedim ki: Allah'a şükürler olsun, o da dedi ki: Vasiyeti bana oku. {cite:tarikh-dimashq-ibn-asakir-fikr-1995 vol. 5 p. 326} Salih anlatır: Babasının ölümüne sakalını bağlamak için bir bez tutarak gitmişti, terlemeye başladı, sonra uyandı, gözlerini açtı ve eliyle dedi ki: Hayır, henüz değil, üç kez. Ona sordu, dedi ki: İblis ayakkabımın yanında durdu, parmaklarını ısırarak, 'Ey Ahmed, beni sındırdın.' dedi. Ben de dedim ki: Ölene kadar olmaz. {cite:tarikh-dimashq-ibn-asakir-fikr-1995 vol. 5 p. 324} Salih diyor ki, zihni ölene kadar kararlı kalmış. {cite:siyar-alam-nubala scan vol. 1 p. 964}
+
+## Peygamberin Saçları
+El-Hallal, Hanbal'dan İsma ibn 'İssam'dan, el-Fadl ibn el-Rabi'nin bazı oğullarının Ebu Abdullah'a hapisteyken üç saç verdiklerini, bunların Peygamber'in saçından olduğunu söylediklerini anlatır. Ölümünde, her gözüne bir saç ve dilinde bir saç bırakılmasını vasiyet etti ve ölümünde bunu yaptı. {cite:siyar-alam-nubala scan vol. 1 p. 965} Rapor, erdemlerde aktarım zinciriyle aktarılır ve müze bunu anlatıcısına atfeder, ancak orijinal saçlar doğrulanmamıştır.
+
+## Yıkama ve Örtüleme
+Salih rivayet eder ki, [[person/muhammad-ibn-abd-allah-ibn-tahir|İbn Tahir'in kaşları]] çatılmıştı ve iki genç adam üzerinde giysi ve parfüm mendilleri taşıyordu. Prens onu huzurla karşıladı ve Müminler Komutanı orada olsaydı yapacağı şeyi yaptı. Salih dedi ki: İnananlar Komutanına söyle ki, Müminler Komutanı Ebu Abdullah'ı yaşamı boyunca sevmediği şeylerden kurtardı ve ölümünden sonra hoşlanmadığı şeylerle onu takip etmek istemiyorum. {cite:siyar-alam-nubala scan vol. 1 p. 965} Köle kız ona tentar sahip olduğu bir giysi örmüştü, o da yirmi sekiz dirhem ödeyerek iki gömlek kestirdi. Kız onun için iki sargı kesti, Furan'dan ise üç sarıma bölünmüş, üç sarıma bölünmüş üçüncü bir sargıyı aldı, o da yıkamayı ve örtmeyi bitirdi. Banu Haşim'in yaklaşık yüz üyesi alnını öpmek için geldi, ta ki yatağa kaldırılana kadar. {cite:siyar-alam-nubala scan vol. 1 p. 965} Başka bir anlatımda köle kızın büyük bir giysi ördüğü ve şöyle dediği belirtilir: Kesme, bırak, o onun kefeniydi. {cite:siyar-alam-nubala scan vol. 1 p. 964} Anlatıda kimin yıkadığı belirtilmez.
+
+## Geride Bıraktıkları: Çocukları ve Mirası
+El-Dhahabi, Ahmed Salih'in en büyük oğlunun İsfahan yargıcı olarak atandığını ve 265 Hicri yılında, altmış yaşından fazla olarak orada öldüğünü belirtir; çocukları arasında, babasının anlatıcısı Abdullah vardı, babası 290 Hicri'de 77 yaşında vefat etti; ve Saeed, Ahmad'ın ölümünden elli gün önce doğdu; Hasan, Muhammed ve Zeyneb hakkında ise durumları hakkında hiçbir bilgi ona ulaşmamıştır. {cite:siyar-alam-nubala scan vol. 1 p. 964} Yazılı kaynaklar, borçlarının ödendiği ev ve cebinde kalan birkaç dirhem dışında bir ev veya servetten bahsetmez. {cite:siyar-alam-nubala scan vol. 1 p. 950} {cite:tarikh-dimashq-ibn-asakir-fikr-1995 vol. 5 p. 326}
+
+## Mezar
+Ölüm kaydı, [[event/death-of-ahmad-ibn-hanbal|kendisi için yapılan dualar ve Asr namazından sonra defin işlemlerini içermektedir; burada okunan kaynaklar mezarın tam yerini belirtmemektedir]].
+
+## Anlatılar ve Farklılıkları
+El-Mervazi'nin rivayeti, Abdullah'ın vasiyetle ilgili rivayetinden farklıdır: ilkinde orduda hastalık öncesi açlık ve açlıktan zayıf düşmüştür {cite:siyar-alam-nubala scan vol. 1 p. 964}, ikincisinde Salih son hastalığında ona vasiyeti okuyup onaylamıştır {cite:tarikh-dimashq-ibn-asakir-fikr-1995 vol. 5 p. 326}. Ne El-Dahabi ne de İbn Asakir, her iki durumda da vasiyetin tek bir vasiyet olup olmadığını netleştirmez. El-Dahabi, İbn Kâni'nin ölümünü Rabi'l-Akhir'e yerleştirmekle hata yaptığını belirtir. {cite:siyar-alam-nubala scan vol. 1 p. 965}
+
+## Kaynaklar ve Dokümantasyon
+İbn Asakir'in Tarikh Dimashq'u, Beşinci Cilt, sayfa 324–326; ve el-Dhahabi'nin Siyar A'lam al-Nubala'sı, sayfalar 950 ve 964–965. Harita kitaplarının sayfa numaraları, anket sayfalarının sayfa numaralarıdır.

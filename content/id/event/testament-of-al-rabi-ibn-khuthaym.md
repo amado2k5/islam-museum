@@ -1,0 +1,31 @@
+---
+id: event/testament-of-al-rabi-ibn-khuthaym
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/testament-of-al-rabi-ibn-khuthaym.md}
+---
+## Ringkasan
+[[person/al-rabi-ibn-khuthaym|Al-Rabi' ibn Khuthaym]], seorang Tabi'i dari Kufa dari Banu Thawr, meninggal di Kufa saat pemerintahan Ubayd Allah ibn Ziyad atas wilayah tersebut. {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 312} Ibn Sa'd menceritakan wasiatnya dengan beberapa rantai transmisi, dan Abu Nu'aym menceritakannya dalam Al-Hilyah, dengan sedikit perbedaan dalam kata-katanya, yang akan kami jelaskan di bawah.
+
+## Hari-hari terakhirnya
+Ibn Sa'd menceritakan bahwa Al-Rabi' menderita kelumpuhan. Ia biasa pergi berdoa dibimbing oleh dua orang, dan dikatakan bahwa ia telah diberi izin. Ia berkata: Jika kau mendengar 'Hayya 'ala al-Falah, maka jawablah.' {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 309} Dalam kisah lain, ia diarahkan untuk berdoa dengan kelumpuhan, dan dikatakan kepadanya, 'Wahai Abu Yazid, engkau telah diberi izin.' Ia berkata ia mendengar 'Hayya 'ala al-Salah, Hayya 'ala al-Falah, jika kau bisa mendapatkannya, meskipun engkau mau.' {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 309} Dawud al-Attar menyebutkan bahwa Bakr ibn Ma'iz biasa berdiri di atasnya, mengurapinya, meniup kepalanya, dan membersihkannya. Suatu hari, Rabi' meneteskan air liur, dan Bakr menangis. Al-Rabi' menanyakan alasan tangisannya. {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 309} Al-Hasan melaporkan bahwa dikatakan kepada Al-Rabi', yang terkena stroke: 'Andai saja kau mencari pengobatan.' Ia berkata: 'Kembalilah, Thamud, sahabat Ar-Rass, dan berabad-abad di antara mereka adalah yang menggambarkan dan menggambarkannya, sehingga baik yang menggambarkan maupun yang digambarkan untuknya tidak tersisa kecuali bahwa ia telah meninggal.' {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 311} Al-Sha'bi menceritakan bahwa mereka datang kepadanya, kembali kepadanya, dan memintanya berdoa, sehingga ia memohon dengan doa yang menyeluruh, penuh kebaikan, dan mencari perlindungan dari segala kejahatan. {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 310}
+
+## Teks dan Isi Wasiat
+Ibn Sa'd menceritakan dari Sufyan dari ayahnya dari Mundhir al-Thawri bahwa Al-Rabi' mewariskan setelah kematiannya dan berkata: Inilah yang diakui Al-Rabi' ibn Khuthaym untuk dirinya sendiri, dan aku bersaksi kepada Tuhan untuknya. Dia cukup bagi Tuhan sebagai saksi, pembalas bagi hamba-hamba-Nya yang benar, dan pemberi ganjaran; dia puas dengan Tuhan sebagai Tuhan-Nya, Muhammad sebagai nabi, dan Islam sebagai agamanya, dan senang dengan dirinya sendiri dan mereka yang taat kepadanya untuk menyembah Tuhan di antara para penyembah, memuji-Nya di antara yang terpuji, dan menasihati komunitas Muslim. {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 311} Dia menceritakannya dari Shu'bah dari Sa'id ibn Masruq. Ketika Sa'id ditanya apakah dia mendengarnya, dia berkata bahwa para sheikh dan orang hidup memberitahukan kepadanya, dan di dalamnya tertulis "dan kepada mereka yang mengikuti Aku di antara Muslim" bukan "dan kepada mereka yang taat kepada-Ku." {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 312} Abu Nu'aym menceritakan wasiat melalui berbagai rantai dari al-Thawri dan dari Jarir dari Abu Hayyan al-Taymi dari ayahnya, dan ia menyebutkan riwayat Shu'bah dari Sa'id ibn Masruq. Shu'bah berkata kepada Sa'id: Siapa yang memberitahumu? Ia berkata: Orang hidup yang menceritakan kepadaku dari al-Rabi'. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 scan vol. 2 p. 111} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 scan vol. 2 p. 112} Isi wasiat adalah kesaksian dan kepuasan dengan Allah sebagai Tuhan, dengan Nabi, dan dengan Islam, serta perjanjian jiwa untuk beribadah, memuji, dan memberi nasihat tulus kepada umat Muslim, dan tidak melibatkan pembagian kekayaan.
+
+## Tidak ada yang merasakannya
+Ibn Sa'd menceritakan dari Al-Rabi bahwa ia berkata: Jangan biarkan siapa pun mengetahui tentang Aku dan bertanya padaku dengan selamat. {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 311} Disebutkan di tempat lain bahwa ia memerintahkan: Mintalah aku kepada Tuhanku untuk perlindungan, dan narator menjelaskan ini dengan mengatakan bahwa tidak ada seorang pun yang dipanggil untuk itu. {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 312}
+
+## Dia tidak pergi
+Sumber harfiah tidak menyebutkan uang yang ditinggalkan Al-Rabi'. Ibn Sa'd menceritakan dari seorang hamba kebaikan bahwa dia menemaninya dalam serangan, dan dia kembali dengan budak dan binatang. Kemudian, ketika dia datang kepadanya beberapa hari kemudian, dia tidak merasakan apa-apa tentang budak itu atau hewan-hewan itu. Ketika dia bertanya, dia tidak menjawab pada awalnya. Kemudian dia menyebutkan sebuah ayat dari [[passage/quran-3-92|Al-Imran 92]] tentang menghabiskan dari apa yang dicintai seseorang. {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 311} Abu Nu'aym menceritakan bahwa dia biasa mengenakan baju pencium seharga tiga atau empat dirham. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 scan vol. 2 p. 113}
+
+## Kematian dan Makam
+Ibn Sa'd berkata: Al-Rabi' ibn Khuthaym wafat di Kufa saat pemerintahan Ubayd Allah ibn Ziyad atas wilayah itu. {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 312} Sumber-sumber yang dikutip tidak menyebutkan tempat cuciannya atau lokasi makamnya, sehingga tidak dikaitkan dengan tempat mana pun.
+
+## Narasi dan Perbedaannya
+Kata-kata wasiat berbeda dalam 'man ta'a'ni' dan 'min ita'a'i', dalam 'wa mthiba', serta frasa 'oleh furqan' atau 'oleh Al-Qur'an sebagai imam' dalam riwayat Shu'bah dan Isra'il dari Sa'id ibn Masruq dari Mundhir al-Thawri. {cite:tabaqat-ibn-sad-khanji-2001 vol. 8 p. 312} Ibn Sa'd tidak menyebutkan tanggal kematiannya selain masa jabatan Ubayd Allah ibn Ziyad, sehingga tidak ada tanggal yang diperkirakan dalam catatan ini.
+
+## Sumber dan Dokumentasi
+Al-Tabaqat al-Kubra oleh Ibn Sa'd, Jilid Delapan, halaman 309–312; dan Hilyat al-Awliya oleh Abu Nu'aym, halaman 111–113 jilid dua. Nomor halaman buku survei adalah nomor halaman dari halaman survei.

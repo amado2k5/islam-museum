@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-stands-with-seven-horsemen-and-the-eight-names-292
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/al-hadi-stands-with-seven-horsemen-and-the-eight-names-292.md}
+---
+## Ringkasan
+"Dan dia hanya berdiri bersama tujuh penunggang kuda." Kemudian halaman itu menyebutkan mereka: Al-Qasim dan Abdullah, putra Muhammad ibn al-Qasim, al-Husayn ibn Musa ibn Sulayman, Ali ibn Muhammad, Yahya al-Sulaymi, Ibrahim al-Hajuri, Ali ibn Sa'id al-Yarsami, dan Husayn al-'Uqdi {cite:sira-hadi-ila-al-haqq p.296} {cite:sira-hadi-ila-al-haqq p.297}.
+
+## Detail
+Dalam catatan kaki di hlm. 297: "Perlu dicatat bahwa jumlah ksatria ini adalah delapan, jadi jumlah yang benar kemungkinan sembilan" {cite:sira-hadi-ila-al-haqq p.297}. Ini adalah catatan dari editor, dan museum tidak merinci, juga tidak menambah atau menghilangkan nama-nama tersebut. Museum membedakan antara dua nama 'Ali ibn Muhammad' dan 'Ali ibn Muhammad ibn Ubayd Allah al-Abbasi, narator buku ini, karena teks tidak mengatributkan yang lain, sehingga tidak ada catatan tentang 'Ali ibn Muhammad' yang dibuat di sini. Nama-nama lain memiliki catatan: [[person/al-qasim-ibn-muhammad-ibn-al-qasim-horseman-292|Al-Qasim]] dan [[person/abdullah-ibn-muhammad-ibn-al-qasim-horseman-292|Abdullah]], putra Muhammad bin Al-Qasim, [[person/al-husayn-ibn-musa-ibn-sulayman-horseman-292|Al-Husayn bin Musa bin Suleiman]], [[person/yahya-al-sulaymi-horseman-292|Yahya Al-Sulaymi]], [[person/ibrahim-al-hujuri-horseman-292|Ibrahim Al-Hajuri]], [[person/ali-ibn-said-al-yarsami-horseman-292|Ali bin Saeed Al-Yarasmi]], dan [[person/husayn-al-aqadi-horseman-292|Hussein Al-'Aqdi]]. Setelah itu, Al-Hadi berdiri "berhadapan dengan kamp Al-Hakami, dan mereka jatuh ke dalam kamp dan menjarahnya" {cite:sira-hadi-ila-al-haqq p.297}. Peristiwa ini diceritakan setelah [[event/the-fight-in-tihama-and-the-breaking-of-al-hadis-left-wing-292|sisi kiri]] dipecahkan. Narasi dalam buku Zaydi dalam bahasa para pengikut Imam, serta deskripsi dan penilaian yang terkandung tentang lawan, dikaitkan dengan narator atau penyair, dan tidak didukung atau dinilai oleh museum.

@@ -1,0 +1,12 @@
+---
+id: event/al-hadis-verse-on-his-first-war-with-the-kulaybis-and-akilis-287
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/al-hadis-verse-on-his-first-war-with-the-kulaybis-and-akilis-287.md}
+---
+## Ringkasan
+Setelah mengatakan ini, narator menceritakan [[person/al-hadi-yahya-al-rassi|pertempuran terakhir Al-Hadi]] pertama melawan Kulaybiyyin dan Akilis dalam [[place/allaf-yemen|Alaf]] dan [[place/saada|Sa'dah]], mengatakan bahwa Al-Hadi menulisnya dalam satu sajak, dan dalam catatan kaki editor, ia membaca manuskrip lain {cite:sira-hadi-ila-al-haqq p.198}, {cite:sira-hadi-ila-al-haqq p.199}, dan {cite:sira-hadi-ila-al-haqq p.200}. Maknanya adalah bahwa ketenangan perang datang setelah insomnia, dan hidup menjadi menyenangkan setelah kerinduan, dan bahwa musuh menyaksikan kematian dan meninggalkan rumah, tanaman, anggur, budak, baju zirah, senjata, furnitur, pakaian, barang, dan anak-anak. Mereka meletakkan senjata dan berpencar di pegunungan yang sulit, diikuti oleh Mereka merekrutnya dan membunuh mereka yang mengikuti {cite:sira-hadi-ila-al-haqq p.198} {cite:sira-hadi-ila-al-haqq p.199}.
+
+## Detail
+Ia menggambarkan kubu mereka yang ia sebut penindas, kosong dari yang baru maupun lama, menenangkan amarahnya dengan kekerasan mereka, menyalahkan pemimpin Akilid [[person/ahmad-ibn-abbad-al-akili|Ahmad ibn Abbad]] dan pengikutnya karena menentang kebenaran, mengatakan bahwa memperkuat jalan Alaf tidak menguntungkan mereka dan bahwa ia menyerbu jalan itu, memperingatkan bahwa tidak ada gunung yang dapat menyelamatkan pria itu dan ia akan segera mengejarnya {cite:sira-hadi-ila-al-haqq p.199}. Ayat-ayat tersebut diakhiri dengan mengatakan bahwa Imam membela kebenaran dan mereka yang berdiri bersamanya sebagai tokoh berani yang dipercaya dalam perang, dan bahwa mereka adalah prajurit Tuhan di bumi dan panji kebenaran mengalahkan mereka {cite:sira-hadi-ila-al-haqq p.199} {cite:sira-hadi-ila-al-haqq p.200}. Museum tidak mengulangi kritik puisi terhadap lawan-lawannya, klaimnya adalah klaim Imam dan pengikutnya, dan museum tidak menghakimi mereka. Puisi itu mendahuluinya [[event/ahmad-ibn-abbad-asks-safety-is-refused-and-goes-to-iraq-287]].

@@ -1,0 +1,12 @@
+---
+id: event/banu-al-harith-come-down-to-najran-and-plot-against-the-imam-288
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/banu-al-harith-come-down-to-najran-and-plot-against-the-imam-288.md}
+---
+## Özet
+Orijinal başlık altında: Necran'da Banu al-Harith'in muhalefetinin haberi. [[person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi|Ali bin Muhammed]] şöyle dedi: Ramazan ayında ve [[person/al-hadi-yahya-al-rassi|el-Hadi]] ile savaş olduğunda, [[group/banu-yafur|Ya'far ailesi]] ve [[group/banu-tarif|Turaif ailesi]] Banu [[group/banu-al-harith-ibn-kab|al-Harith hasat zamanında {cite:sira-hadi-ila-al-haqq p.229}]] Necerran [[place/najran|'a indi]]. İmama karşı yolsuzluk yaratmak için komplo kurdular ve [[person/abdullah-ibn-bustam|İbn Bastem]], Banu al-Harith arasında varlık ve itaat yapmalarını teşvik etti ki el-Hadi ona ihtiyaç duyardı {cite:sira-hadi-ila-al-haqq p.229}.
+
+## Detaylar
+Anlatıcı, haksızlık veya haksızlık olmaksızın yolsuzluk konusunda oybirliğiyle anlaştıklarını söyler. Bu, anlatıcının el-Hadi ve el-Muhazz hakkında verdiği tanıklıktır; bunları atfedilmiş olarak belirtir ve doğrulamaz ya da reddetmez. Sonra el-Hadi'nin onlardan bahsetmediğini, bu yüzden İbn [[person/ibn-humayd-of-banu-al-harith-286|Hümayd]] ve İbn Bustem'in Banu al-Harit, [[group/shakir-hamdan-tribe|Şakir]] çölü ve Tayam'ı (basılı olduğu gibi, yani Yam) toplayıp, fakirlerin servetinden bir kısmını tahsis ettiler {cite:sira-hadi-ila-al-haqq p.229}. [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Muhammed bin Ubeyd Allah]] bunu gördüğünde, Oğlu Ali bin Muhammed, el-Hisn ve kardeşi el-Kasım ibn Muhammed'e gönderdi ve onlara Şakir ve Thaqif'e bağırmalarını, Minas ve içindekilerin karşısında durmalarını emretti ki Banu el-Haris dağılsın. Onlar da dağıldılar ve Şakir, Thaqif ve Vadi'ah onlara katılarak Muhammed bin Ubeydullah'ın {cite:sira-hadi-ila-al-haqq p.230} yanına al-Hacar köyüne girdiler. Olaylar [[event/banu-al-harith-besiege-muhammad-ibn-ubaydallah-at-al-hajar-288]] ile bağlantılıdır. Metin, 288'den sonraki Ramazan tarihini belirtmez, sadece aşağıdaki raporda iki yüz seksen sekizinci yıl olarak belirtilmiştir.
