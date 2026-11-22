@@ -18241,6 +18241,204 @@ books:
     - used_by.prs
     notes: 'Two files named 1001-inventions.sqlite and 1001-inventions-fts.sqlite in the same folder are 0 bytes and are not counted. Inventions lane docs: docs/inventions/research.md. Dataset entry inventions-research-downloads covers the rest of the folder.'
   # END books:older-lanes
+  # BEGIN books:hudhud-queue
+  - id: kalila-wa-dimna
+    title: كليلة ودمنة
+    author: ابن المقفع; Ibn al-Muqaffa'
+    category: adab-zuhd
+    volumes: 1 file (376 pages), Azzam edition 1994 per archive metadata
+    acquisition: {source: 'archive.org item AAlexandrina-302582 (https://archive.org/details/AAlexandrina-302582)', date: '2026-11-21', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: 376}
+    ocr: {state: none}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified: [edition, publisher, year, sha256, ocr.quality]
+    notes: 'raw/library/kalila-wa-dimna/ on the microSD; queued by docs/delegation/harvest-queue-hudhud-books.md; scanned PDF, needs OCR'
+  - id: alf-layla-wa-layla
+    title: ألف ليلة وليلة (طبعة القاهرة)
+    author: traditional
+    category: adab-zuhd
+    volumes: 4 volumes (archive reports 328 pages for each; not independently checked)
+    acquisition: {source: 'archive.org item Alf-Layla-Cairo (https://archive.org/details/Alf-Layla-Cairo)', date: '2026-11-21', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: 1312}
+    ocr: {state: none}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified: [edition, publisher, year, sha256, ocr.quality]
+    notes: 'raw/library/alf-layla-wa-layla/ on the microSD; queued by docs/delegation/harvest-queue-hudhud-books.md; scanned PDF, needs OCR'
+  - id: rubaiyat-khayyam
+    title: رباعيات الخيام (ترجمة بدر توفيق، مع ترجمة إنكليزية)
+    author: attributed to Umar Khayyam; translator Badr Tawfiq
+    category: poetry
+    volumes: 1 file, Arabic translation with English
+    acquisition: {source: 'archive.org item 20251117_20251117_0356 (https://archive.org/details/20251117_20251117_0356)', date: '2026-11-21', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: 155}
+    ocr: {state: none}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified: [edition, publisher, year, sha256, ocr.quality]
+    notes: 'raw/library/rubaiyat-khayyam/ on the microSD; queued by docs/delegation/harvest-queue-hudhud-books.md; scanned PDF, needs OCR'
+  - id: nowruznameh-khayyam
+    title: عمر الخيام عالم الفلك والرياضيات وكتابه نوروز نامه
+    author: Umar Khayyam (study; 2008)
+    category: science
+    volumes: 1 file; a modern Arabic study of Khayyam and the Nowruz-nama, not the Persian text
+    acquisition: {source: 'archive.org item elshandawily9553 (https://archive.org/details/elshandawily9553)', date: '2026-11-21', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: 260}
+    ocr: {state: none}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified: [edition, publisher, year, sha256, ocr.quality]
+    notes: 'raw/library/nowruznameh-khayyam/ on the microSD; queued by docs/delegation/harvest-queue-hudhud-books.md; scanned PDF, needs OCR'
+  - id: kulliyat-ibn-rushd
+    title: كتاب الكليات
+    author: ابن رشد; Ibn Rushd
+    category: medicine
+    volumes: 1 file, 390 MB
+    acquisition: {source: 'archive.org item elshandawily8217 (https://archive.org/details/elshandawily8217)', date: '2026-11-21', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: 388}
+    ocr: {state: none}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified: [edition, publisher, year, sha256, ocr.quality]
+    notes: 'raw/library/kulliyat-ibn-rushd/ on the microSD; queued by docs/delegation/harvest-queue-hudhud-books.md; scanned PDF, needs OCR'
+  - id: shukuk-razi-jalinus
+    title: الشكوك على جالينوس
+    author: أبو بكر الرازي; al-Razi
+    category: medicine
+    volumes: 2 files (front matter 1 page, text 252 pages)
+    acquisition: {source: 'archive.org item ash-shukuk_al_Jalinus (https://archive.org/details/ash-shukuk_al_Jalinus)', date: '2026-11-21', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: 253}
+    ocr: {state: none}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified: [edition, publisher, year, sha256, ocr.quality]
+    notes: 'raw/library/shukuk-razi-jalinus/ on the microSD; queued by docs/delegation/harvest-queue-hudhud-books.md; scanned PDF, needs OCR'
+  - id: mansuri-razi
+    title: المنصوري في الطب
+    author: أبو بكر الرازي; al-Razi
+    category: medicine
+    volumes: 2 files (front matter 1 page, text 734 pages)
+    acquisition: {source: 'archive.org item al-mansuri_fi_at-tib (https://archive.org/details/al-mansuri_fi_at-tib)', date: '2026-11-21', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: 735}
+    ocr: {state: none}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified: [edition, publisher, year, sha256, ocr.quality]
+    notes: 'raw/library/mansuri-razi/ on the microSD; queued by docs/delegation/harvest-queue-hudhud-books.md; scanned PDF, needs OCR'
+  - id: munqidh-ghazali
+    title: المنقذ من الضلال
+    author: أبو حامد الغزالي; al-Ghazali
+    category: aqeedah
+    volumes: 1 file, has a text layer (not scanned)
+    acquisition: {source: 'archive.org item almon9id_mina_dalal (https://archive.org/details/almon9id_mina_dalal)', date: '2026-11-21', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: 53}
+    ocr: {state: complete}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified: [edition, publisher, year, sha256, ocr.quality]
+    notes: 'raw/library/munqidh-ghazali/ on the microSD; queued by docs/delegation/harvest-queue-hudhud-books.md; text layer present, no OCR needed'
+  - id: shamil-ibn-nafis
+    title: الشامل في الصناعة الطبية
+    author: ابن النفيس; Ibn al-Nafis
+    category: medicine
+    volumes: 1 zip holding a Shamela database (240.db), digital text, not a scan; volume covered unknown
+    acquisition: {source: 'archive.org item tahirkhan576-240 (https://archive.org/details/tahirkhan576-240)', date: '2026-11-21', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: null}
+    ocr: {state: none}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified: [edition, publisher, year, sha256, ocr.quality]
+    notes: 'raw/library/shamil-ibn-nafis/ on the microSD; queued by docs/delegation/harvest-queue-hudhud-books.md; digital text, no OCR needed'
+  - id: kitab-al-hind-biruni
+    title: تحقيق ما للهند من مقولة مقبولة في العقل أو مرذولة
+    author: البيروني; al-Biruni
+    category: science
+    volumes: 1 file (1957 per archive metadata)
+    acquisition: {source: 'archive.org item AAlexandrina-112708 (https://archive.org/details/AAlexandrina-112708)', date: '2026-11-21', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: 666}
+    ocr: {state: none}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified: [edition, publisher, year, sha256, ocr.quality]
+    notes: 'raw/library/kitab-al-hind-biruni/ on the microSD; queued by docs/delegation/harvest-queue-hudhud-books.md; scanned PDF, needs OCR'
+  - id: hiyal-banu-musa
+    title: كتاب الحيل
+    author: بنو موسى بن شاكر; Banu Musa
+    category: science
+    volumes: 1 file
+    acquisition: {source: 'archive.org item 20240206_20240206_1144 (https://archive.org/details/20240206_20240206_1144)', date: '2026-11-21', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: 574}
+    ocr: {state: none}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified: [edition, publisher, year, sha256, ocr.quality]
+    notes: 'raw/library/hiyal-banu-musa/ on the microSD; queued by docs/delegation/harvest-queue-hudhud-books.md; scanned PDF, needs OCR'
+  - id: farabi-rasail
+    title: رسائل أبي نصر محمد الفارابي
+    author: الفارابي; al-Farabi
+    category: philosophy
+    volumes: 1 file; whether it holds the treatise on the aims of the Metaphysics is not yet verified
+    acquisition: {source: 'archive.org item elshandawily10296 (https://archive.org/details/elshandawily10296)', date: '2026-11-21', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: 285}
+    ocr: {state: none}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified: [edition, publisher, year, sha256, ocr.quality]
+    notes: 'raw/library/farabi-rasail/ on the microSD; queued by docs/delegation/harvest-queue-hudhud-books.md; scanned PDF, needs OCR'
+  - id: kindi-istikhraj-muamma
+    title: علم التعمية واستخراج المعمى عند العرب (Mrayati, Meer, Tayyan; contains al-Kindi's Risala fi Istikhraj al-Mu'amma)
+    author: Mrayati-Meer-Tayyan (editors); al-Kindi (treatise)
+    category: science
+    volumes: 2 files (420 and 466 pages), the archive item's two PDFs; which volume holds the Kindi text not yet checked
+    acquisition: {source: 'archive.org item origins_of_ancient_arab_criptography_and_criptanalysis', date: '2026-11-21', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: 886}
+    ocr: {state: none}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified: [edition, publisher, year, sha256, ocr.quality]
+    notes: 'raw/library/kindi-istikhraj-muamma/; scanned PDFs, need OCR; 2008 per archive metadata'
+  - id: algoritmi-de-numero-indorum-khwarizmi
+    title: Trattati d'aritmetica pubblicati da Baldassarre Boncompagni, Algoritmi de numero Indorum (Latin text of al-Khwarizmi's Indian reckoning)
+    author: al-Khwarizmi (Latin translation); Boncompagni (editor, 1857)
+    category: science
+    volumes: 1 file, only 24 pages (looks like a partial Google Books scan of the 1857 volume)
+    acquisition: {source: 'archive.org item bub_gb_Jyat9f1pSIYC', date: '2026-11-21', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: 24}
+    ocr: {state: complete}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified: [edition, completeness, sha256]
+    notes: 'raw/library/algoritmi-de-numero-indorum-khwarizmi/; text layer present; substitute for the lost Arabic Kitab al-Jam wa-l-Tafriq, a Latin version of his Indian-reckoning book, identification still a hypothesis'
+  # END books:hudhud-queue
   # END books
 
 # audio_series and video_series share one shape (media_type: audio | video | audio_video).
