@@ -573,6 +573,19 @@ export function validateAll(extra: { entity: any; file: string }[] = [], options
       if (o.polity && clsOf(o.polity) !== "polity") err(file, `${w}.polity: ${o.polity} is not a polity`);
       for (const t of o.trained_under ?? []) if (clsOf(t) !== "person") err(file, `${w}.trained_under: ${t} is not a person`);
     }
+    // ---- structured name (docs/data/name-parts.md): every cited source and every link exists; a nisba link never asserts descent, only a named record
+    if (entity.name_parts) {
+      const np = entity.name_parts as Record<string, any>;
+      const parts: [string, any][] = [];
+      for (const [k, v] of Object.entries(np)) {
+        if (Array.isArray(v) && k !== "spellings") v.forEach((x, i) => parts.push([`name_parts.${k}[${i}]`, x]));
+        else if (v && typeof v === "object" && !Array.isArray(v)) parts.push([`name_parts.${k}`, v]);
+      }
+      for (const [w, x] of parts) {
+        for (const s of x.sources ?? []) if (!known.has(s)) err(file, `${w}: source ${s} does not exist`);
+        if (x.link && !known.has(x.link)) err(file, `${w}.link: ${x.link} is not a record`);
+      }
+    }
     for (const [i, j] of ((entity.jobs ?? []) as any[]).entries()) {
       const w = `jobs[${i}]`;
       for (const s of j.sources ?? []) if (!known.has(s)) err(file, `${w}: source ${s} does not exist`);
