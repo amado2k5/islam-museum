@@ -5,10 +5,16 @@ source_lang: ar
 translators: ["claude-sonnet-5-5 (machine translation)"]
 ---
 ## Summary
-This page sets out the place of [[language/arabic|Arabic]] in [[place/morocco|Morocco]] as it appears in the Encyclopaedia Britannica article on Morocco and in the Morocco page of The World Factbook. It ascribes each statement to its page and, where the two differ, names both and chooses neither.
+This page sets out the place of [[language/arabic|Arabic]] in [[place/morocco|Morocco]] as it appears in the Encyclopaedia Britannica article on Morocco and in the Morocco page of The World Factbook. It ascribes each statement to its page and, where the two differ, names both and chooses neither. The constitutional text is added in its original wording, as supplied in a research summary that the museum did not check against the page.
 
 ## Official status
 The encyclopedia says Arabic is one of the national and official languages and is spoken by two-thirds of the population {cite:britannica-morocco}. The Factbook says: Arabic (official), Tamazight languages (Tamazight (official), Tachelhit, Tarifit), French (often the language of business, government, and diplomacy) {cite:cia-factbook-morocco}. In its article on the Semitic languages the encyclopedia lists Morocco among the places where Arabic is official {cite:britannica-semitic-languages}. The sources agree that Arabic is official.
+
+## Constitutional text
+The Constitution of Morocco of 2011, Article 5. The research summary supplied to the museum gives this Arabic wording: «تظل العربية اللغة الرسمية للدولة.», which the museum translates: "Arabic remains the official language of the State". The summary names the Constitutional Court of Morocco as the official source; the museum did not open that page, so the wording is taken from the summary as supplied, and the founder approved using it so on 21 November 2026 {cite:official-constitution-morocco}. The summary labels the provision with the Arabic word fasl, meaning chapter; it is rendered here as Article 5.
+
+## Language shares
+Local languages used, total population, non-exclusive: Darija 91.9%, Amazigh 24.8%, Hassania 0.8%. Languages read and written, literate population aged 10 and over: Arabic 99.2%, French 57.7%, English 20.5%, Amazigh in Tifinagh 1.5%, Spanish 1.2%. Issued by the HCP, 2024 census, December 2024, pages 19 to 20. The summary adds that the 2024 presentation aggregates Amazigh, while the 2014 census broke it down into Tachelhit 14.1%, Tamazight 7.9% and Tarifit 4.0%. This section comes from a research summary supplied to the museum; the museum did not open the pages it names, and the founder approved using the summary as supplied on 21 November 2026 {cite:hcp-morocco-rgph-2024} {cite:hcp-morocco-2014-amazigh-languages}.
 
 ## The standard and the spoken
 The two pages read say nothing on the difference between the standard and Moroccan Arabic and name no dialect, so the museum sets no classification; for the duality in general see [[concept/al-fusha-wal-lahajat|Fusha and the dialects]]. The encyclopedia says French is an important secondary language and Spanish and English are also widely spoken {cite:britannica-morocco}; the Factbook describes French as above. Of the country's name the encyclopedia says its Arabic name, al-Maghrib, means the place where the sun sets, from its position in the westernmost region of the Eastern Hemisphere.
@@ -21,3 +27,5 @@ For the history of Arabic in the region, the Maghrib article says that after the
 
 ## What this page did not reach
 Not read: the text of the Moroccan constitution, so the wording that makes Tamazight official was not read and only the encyclopedia's statement is given; any Ethnologue or Glottolog classification of Moroccan Arabic; the University of Manchester dialects site, not loaded because its certificate was invalid. The Factbook page was read in a copy archived by the Internet Archive on 9 January 2026, because the agency's site no longer serves it, and its Languages entry prints no estimate date. The museum has no independent figure for speakers of Arabic or Tamazight.
+
+Note added on 21 November 2026: the Constitutional text and Language shares sections come from research summaries supplied to the museum, and the museum did not open the pages they name; where this section says a text or a share was not read, it describes the museum's own earlier reading and has been left as written.

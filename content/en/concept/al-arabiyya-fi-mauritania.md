@@ -5,10 +5,16 @@ source_lang: ar
 translators: ["claude-sonnet-5-5 (machine translation)"]
 ---
 ## Summary
-This page sets out the place of [[language/arabic|Arabic]] in [[place/mauritania|Mauritania]] as it appears in the Encyclopaedia Britannica article on Mauritania and in the Mauritania page of The World Factbook. It ascribes each statement to its page and, where the two differ in naming or description, names both.
+This page sets out the place of [[language/arabic|Arabic]] in [[place/mauritania|Mauritania]] as it appears in the Encyclopaedia Britannica article on Mauritania and in the Mauritania page of The World Factbook. It ascribes each statement to its page and, where the two differ in naming or description, names both. The constitutional text is added in its original wording, as supplied in a research summary that the museum did not check against the page.
 
 ## Official status
 The encyclopedia says the official language of Mauritania is Arabic, and that Fula, Soninke and Wolof are national languages {cite:britannica-mauritania}. The Factbook says: Arabic (official and national), Pular, Soninke, Wolof (all national languages), French {cite:cia-factbook-mauritania}. In its article on the Semitic languages the encyclopedia lists Mauritania among the places where Arabic is official and names the same three national languages {cite:britannica-semitic-languages}. The sources agree; they differ in the name of Fula, which the Factbook calls Pular, and in the Factbook's listing of French, which the encyclopedia does not give.
+
+## Constitutional text
+The Constitution of Mauritania, Article 6. The research summary supplied to the museum gives this Arabic wording: «اللغة الرسمية هي العربية.», which the museum translates: "The official language is Arabic". The summary names the Constitutional Council of Mauritania as the official source; the museum did not open that page, so the wording is taken from the summary as supplied, and the founder approved using it so on 21 November 2026 {cite:official-constitution-mauritania}.
+
+## Language shares
+These are unweighted microdata, not official population statistics. The catalog page of ANSADE itself warns that raw unweighted case counts cannot be interpreted as official population summary statistics, so the figures below are raw sample cases and nothing more. No official weighted figure: the summary notes that the RGPH-5 PDFs returned HTTP 404. Mother tongue (variable Q11), raw unweighted cases of the 10% sample of RGPH-5, 2023: Arabic 74.5%, Poular 16.8%, Soninké 3.3%, Wolof 1.4%, other 4%; the variable does not separate Hassaniya. Issued by ANSADE. This section comes from a research summary supplied to the museum; the museum did not open the pages it names, and the founder approved using the summary as supplied on 21 November 2026 {cite:ansade-mauritania-variable-v417} {cite:ansade-mauritania-publications-rgph5}.
 
 ## The standard and the spoken
 Of the spoken language the encyclopedia says the Moors speak Hassaniyya, a dialect based primarily on Arabic grammar with a vocabulary of Arabic and Arabized Amazigh words, and that many Hassaniyya speakers also understand Egyptian and Syrian Arabic because of Middle Eastern television and radio {cite:britannica-mauritania}. The Factbook says in a note that the spoken Arabic in Mauritania differs considerably from Modern Standard Arabic and that the Mauritanian dialect, which incorporates many Tamazight words, is referred to as Hassaniya {cite:cia-factbook-mauritania}. The two describe the dialect in close terms: the encyclopedia says its vocabulary is Arabic and Arabized Amazigh, the Factbook that it has many Tamazight words. For the duality of standard and colloquial in general see [[concept/al-fusha-wal-lahajat|Fusha and the dialects]].
@@ -21,3 +27,5 @@ The encyclopedia says Mauritania forms a geographic and cultural bridge between 
 
 ## What this page did not reach
 Not read: any Mauritanian constitutional text; any Ethnologue or Glottolog classification of Hassaniyya; the University of Manchester dialects site, not loaded because its certificate was invalid; or any share of speakers of Arabic or Hassaniyya. The Factbook page was read in a copy archived by the Internet Archive on 31 December 2025, because the agency's site no longer serves it, and its Languages entry prints no estimate date. The ethnic percentages are the Factbook's alone; the encyclopedia was not read on them.
+
+Note added on 21 November 2026: the Constitutional text and Language shares sections come from research summaries supplied to the museum, and the museum did not open the pages they name; where this section says a text or a share was not read, it describes the museum's own earlier reading and has been left as written.

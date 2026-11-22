@@ -15,10 +15,11 @@ periods: [period/abbasid-early]
 regions: [egypt-nile]
 provenance:
   layer: own-research
+  note: "Full name and death date in al-Dhahabi's Siyar added 21 Nov 2026 from a research summary supplied to the museum and approved for use by the founder; the page was not opened by the museum."
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-93
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/islamweb-siyar-al-hawfi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 relations:
-  - { type: lived_in, target: place/misr, note: "From text: of Egypt", sources: [source/shadharat-dhahab], confidence: low }
+  - { type: lived_in, target: place/misr, note: "From text: of Egypt", sources: [source/shadharat-dhahab, source/islamweb-siyar-al-hawfi], confidence: low }
