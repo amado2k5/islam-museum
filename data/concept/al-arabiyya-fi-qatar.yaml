@@ -1,0 +1,28 @@
+id: concept/al-arabiyya-fi-qatar
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في قطر"
+  en: "Arabic in Qatar"
+  ur: "قطر میں عربی"
+  fr: "L'arabe au Qatar"
+  es: "El árabe en Catar"
+summary:
+  ar: "ما وُجد عن العربية في قطر: المادتان 1 و80 من الدستور كما يعرضهما Constitute، وعبارة الموسوعة أن أكثر القطريين يتكلمون لهجة من العربية الخليجية قريبة مما حولها، وأسماء الأنواع القطرية في شجرة Glottolog، مع بيان ما لم يُعثر عليه."
+  en: "What was found on Arabic in Qatar: Articles 1 and 80 of the Constitution as the Constitute Project shows them, the encyclopedia's statement that most Qataris speak a dialect of Gulf Arabic similar to that of the surrounding states, and the names of the Qatari varieties in Glottolog's tree, with a statement of what was not found."
+  ur: "قطر میں عربی کے بارے میں جو ملا: دستور کی دفعات 1 اور 80 جیسا Constitute دکھاتا ہے، انسائیکلوپیڈیا کا یہ بیان کہ زیادہ تر قطری خلیجی عربی کی ایسی بولی بولتے ہیں جو گرد و پیش کی ریاستوں سے ملتی ہے، اور Glottolog کے شجرے میں قطری اقسام کے نام، اور جو نہیں ملا اس کا بیان۔"
+  fr: "Ce qui a été trouvé sur l'arabe au Qatar : les articles 1 et 80 de la Constitution tels que les montre le Constitute Project, l'affirmation de l'encyclopédie que la plupart des Qataris parlent un dialecte de l'arabe du Golfe proche de celui des États voisins, et les noms des variétés qataries dans l'arbre de Glottolog, avec l'énoncé de ce qui n'a pas été trouvé."
+  es: "Lo que se encontró sobre el árabe en Catar: los artículos 1 y 80 de la Constitución tal como los muestra el Constitute Project, la afirmación de la enciclopedia de que la mayoría de los cataríes habla un dialecto del árabe del Golfo parecido al de los Estados vecinos, y los nombres de las variedades cataríes en el árbol de Glottolog, con el enunciado de lo que no se halló."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: place/qatar, sources: [source/constituteproject-qatar] }
+  - { type: related_to, target: concept/lahjat-al-khalij, sources: [source/manchester-arabic-structural-variation] }
+  - { type: related_to, target: concept/al-alam-al-arabi, sources: [source/britannica-semitic-languages] }
+  - { type: related_to, target: language/arabic, sources: [source/britannica-semitic-languages] }
+  - { type: related_to, target: concept/al-fusha-wal-lahajat, sources: [source/manchester-arabic-sociolinguistic] }
+  - { type: related_to, target: concept/lughat-al-qabail, sources: [source/manchester-arabic-sociolinguistic] }
+provenance: { layer: own-research, source: "Constitute Project constitution texts, Library of Congress Country Studies, University of Manchester Dialects of Arabic pages, Glottolog classification tree and Encyclopaedia Britannica records, read on 21 Nov 2026.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-countries-a" }
+sources: [source/britannica-qatar, source/britannica-semitic-languages, source/constituteproject-qatar, source/glottolog-arabic, source/manchester-arabic-sociolinguistic, source/manchester-arabic-structural-variation]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

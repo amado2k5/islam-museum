@@ -43,7 +43,10 @@ Concepts (five languages, full prose): `al-arabiyya-lughat-al-quran`, `dawa-al-m
 
 ## 6. Next steps (lane `arabiyya`)
 
-1. `work` and `person` records for the books and authors named above, with prose in five languages.
-2. A record per dialect group and per Arab country, from sources to be chosen and recorded.
-3. A read of the detected passages, with exclusions recorded in `ARABIYYA_EXCLUDE`.
-4. `mentions` edges from the new concept records to the verses they discuss, if the founder wants them shown on verse pages.
+Done on 21 November 2026 (second batch): five `work` records for the classic books on Arabic (al-Khasa'is, al-Muzhir, al-Sahibi, Dala'il al-I'jaz, Mughni al-Labib); four rhetoric records (balagha, ma'ani, bayan, badi'); six dialect-group records (Gulf, Hijaz, Levant, Egypt, Maghrib, Yemen); and one record per Arab League state, 22 in all (`al-arabiyya-fi-<country>`, tag `arabiyya-world`). Not read for the country records: Ethnologue, Britannica pages that refused fetching, the Arab League site, Pearson MapMaster; the CIA World Factbook is cited from Internet Archive copies because cia.gov retired it on 4 February 2026.
+
+Still open:
+
+1. A read of the detected passages, with exclusions recorded in `ARABIYYA_EXCLUDE`.
+2. `mentions` edges from the concept records to the verses they discuss, if the founder wants them shown on verse pages.
+3. Dialect features and speaker counts for the six dialect groups (none were found in the sources read), and a human read of all AI-written prose and translations.

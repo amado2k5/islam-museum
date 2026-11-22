@@ -1,0 +1,27 @@
+id: concept/al-arabiyya-fi-iraq
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في العراق"
+  en: "Arabic in Iraq"
+  ur: "عراق میں عربی"
+  fr: "L'arabe en Irak"
+  es: "El árabe en Irak"
+summary:
+  ar: "ما وُجد عن العربية في العراق: المادة 4 من دستور 2005 في اللغات الرسمية كما يعرضها Constitute، ووصف دراسة مكتبة الكونغرس للعربية العراقية والكردية، وتصنيف اللهجات الرافدية، مع بيان الخلاف بين المصادر وما لم يُعثر عليه."
+  en: "What was found on Arabic in Iraq: Article 4 of the 2005 constitution on the official languages as the Constitute Project shows it, the Library of Congress study's account of Iraqi Arabic and of Kurdish, and the classification of the Mesopotamian dialects, with the differences between sources and what was not found."
+  ur: "عراق میں عربی کے بارے میں جو ملا: 2005 کے دستور کی دفعہ 4 سرکاری زبانوں پر جیسا Constitute دکھاتا ہے، لائبریری آف کانگریس کی تحقیق کا عراقی عربی اور کردی کا بیان، اور بین النہرینی بولیوں کی درجہ بندی، مآخذ کے اختلاف اور جو نہیں ملا اس کے ساتھ۔"
+  fr: "Ce qui a été trouvé sur l'arabe en Irak : l'article 4 de la constitution de 2005 sur les langues officielles tel que le montre le Constitute Project, le compte rendu de l'étude de la Bibliothèque du Congrès sur l'arabe irakien et le kurde, et la classification des dialectes mésopotamiens, avec les différences entre sources et ce qui n'a pas été trouvé."
+  es: "Lo que se encontró sobre el árabe en Irak: el artículo 4 de la constitución de 2005 sobre las lenguas oficiales tal como lo muestra el Constitute Project, el relato del estudio de la Biblioteca del Congreso sobre el árabe iraquí y el kurdo, y la clasificación de los dialectos mesopotámicos, con las diferencias entre fuentes y lo que no se halló."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: place/iraq, sources: [source/constituteproject-iraq] }
+  - { type: related_to, target: concept/al-alam-al-arabi, sources: [source/britannica-semitic-languages] }
+  - { type: related_to, target: language/arabic, sources: [source/britannica-semitic-languages] }
+  - { type: related_to, target: concept/al-fusha-wal-lahajat, sources: [source/manchester-arabic-sociolinguistic] }
+  - { type: related_to, target: concept/lughat-al-qabail, sources: [source/manchester-arabic-sociolinguistic] }
+provenance: { layer: own-research, source: "Constitute Project constitution texts, Library of Congress Country Studies, University of Manchester Dialects of Arabic pages, Glottolog classification tree and Encyclopaedia Britannica records, read on 21 Nov 2026.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-countries-a" }
+sources: [source/britannica-semitic-languages, source/constituteproject-iraq, source/glottolog-arabic, source/loc-iraq-kurds, source/loc-iraq-people, source/manchester-arabic-sociolinguistic, source/manchester-arabic-structural-variation]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

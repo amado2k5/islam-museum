@@ -1,0 +1,23 @@
+---
+id: concept/lahjat-al-hijaz
+lang: es
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Resumen
+El Hiyaz es la región del oeste de la [[place/arabian-peninsula|península arábiga]]; contiene [[place/mecca|La Meca]] y [[place/medina|Medina]] y fue el hogar de [[group/quraysh|Quraysh]]. Esta página reúne lo que se leyó sobre el habla del Hiyaz, sobre todo antiguas descripciones en los libros de lengua que transmiten al-Suyuti e Ibn Jaldún, pues en las referencias leídas no se halló ninguna descripción del dialecto hiyazí de hoy. La página atribuye cada descripción a su autor; los dialectos de las tribus tienen su propia página, [[concept/lughat-al-qabail|los dialectos de las tribus y la lengua de Quraysh]].
+
+## El lugar
+En su artículo sobre Arabia Saudí, la Encyclopaedia Britannica sitúa el Hiyaz en las tierras altas del oeste, a lo largo del mar Rojo, y lo llama la cuna del islam, con sus ciudades más sagradas, La Meca y Medina {cite:britannica-saudi-arabia}. En su artículo sobre la lengua árabe dice que los grandes grupos dialectales de los tiempos modernos son los de Arabia, Irak, Siria, Egipto y el norte de África {cite:britannica-arabic-language}; así, para ella el Hiyaz cae dentro del grupo de Arabia, y el artículo no da una descripción separada de él.
+
+## El Hiyaz y Tamim sobre el funcionamiento de «ma»
+En al-Muzhir, al-Suyuti transmite de Ibn Jinni, en al-Khasa'is, que los dialectos, pese a sus diferencias, son todos autoridad, y da como ejemplo la lengua del Hiyaz al hacer actuar a «ma» sobre el nombre y la de Tamim al no hacerlo; cada una, dice, es admitida por la analogía, de modo que nadie puede rechazar un dialecto por el otro, y lo más que puede hacerse es elegir uno y reforzarlo frente a su par {cite:muzhir-mansur-1998 1 p.204}. Es una de las declaraciones más claras de los libros de lengua sobre un rasgo gramatical de los hiyazíes.
+
+## Palabras y formas atribuidas a la gente del Hiyaz
+En otro lugar, al-Suyuti transmite de al-Qali que la lengua del Hiyaz tiene dha'a al-baql yadh'a, mientras que la gente de Nechd dice dhawa yadhwi, y que los kufíes refieren también dhawiya, que no es fasih {cite:muzhir-mansur-1998 1 p.170}. En el mismo lugar se dice que la gente del Hiyaz dice qatara yaqtiru, y que el verbo tiene otra forma con damma en la ta' que es la menos frecuente de las formas {cite:muzhir-mansur-1998 1 p.170}. En el capítulo sobre los préstamos transmite de Ibn Durustawayh, a propósito de jass, que tiene por préstamo persa, que algunos dicen qass con fatha, y que es la lengua de la gente del Hiyaz {cite:muzhir-mansur-1998 1 p.216}. Son ejemplos dispersos anotados en un compendio, no una descripción sistemática de un dialecto.
+
+## Quraysh y los sedentarios del Hiyaz
+Al-Suyuti relata que Tha'lab dijo que Quraysh se elevaron en fasaha por encima de la 'an'ana de Tamim, la kashkasha de Hawazin, la kaskasa de Rabi'a, la talta de Bahra' y otras, y transmite de al-Farabi que Quraysh eran los mejores de los árabes para elegir las palabras más elocuentes, las más fáciles para la lengua al pronunciar {cite:muzhir-mansur-1998 1 p.167}. Transmite también de al-Farabi que la lengua no se tomó de los sedentarios del Hiyaz, porque quienes la transmitieron los encontraron, cuando empezaron a transmitirla, ya mezclados con otras naciones y con la lengua echada a perder, y que quienes la transmitieron fueron la gente de Basora y de Kufa {cite:muzhir-mansur-1998 1 p.168}. Ibn Jaldún dice que la lengua de Quraysh era la más elocuente y la más clara de los dialectos árabes por su lejanía de las tierras de los no árabes por todos lados, y luego los que los rodeaban, Zaqif, Hudhayl, Juzá'a, Kinana, Gatafán, Asad y Tamim {cite:tarikh-ibn-khaldun-shahada-1981 1 p.765}. Así, las fuentes leídas toman la lengua de Quraysh como modelo y no toman a los sedentarios del Hiyaz como fuente para la transmisión de la lengua; cada página atribuye su afirmación a su autor.
+
+## Lo que esta página no alcanza
+No se halló en las referencias leídas ninguna descripción del dialecto hiyazí contemporáneo, ni de su sonido, ni de su gramática, ni de su vocabulario, ni un recuento de sus hablantes, y no se leyó ningún estudio dialectal moderno. No se leyeron artículos que dividan el Hiyaz en ciudades y beduinos. Todo lo expuesto aquí sobre los hiyazíes es una descripción antigua de palabras y formas sueltas, transmitida por al-Suyuti de autores cuyos libros no se leyeron por sí mismos, y parte viene en el contexto de la clasificación de los dialectos, que el museo expone atribuida a sus autores. Para el cuadro general véase [[concept/al-fusha-wal-lahajat|el árabe estándar y los dialectos hablados hoy]].

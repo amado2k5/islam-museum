@@ -1,0 +1,23 @@
+---
+id: concept/lahjat-al-yaman
+lang: en
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Summary
+Yemen is the country in the south-western corner of [[place/arabian-peninsula|Arabia]], with [[place/sanaa|Sanaa]] as capital, and was the seat of the state of [[group/himyar|Himyar]]. This page gathers what was read of the speech of Yemen in two kinds of source: the Encyclopaedia Britannica in its brief modern description, and the old books of language on the tongue of Himyar and on what they ascribe to the language of Yemen, mostly old descriptions relayed second hand. The page ascribes every description to its author, and no detailed description of the dialects of Yemen today was found.
+
+## The modern description
+The Encyclopaedia Britannica says in its article on Yemen that the people speak various dialects of Arabic {cite:britannica-yemen}; the part of the article read goes no further. In its article on the Arabic language it says the chief dialect groups in modern times are those of Arabia, Iraq, Syria, Egypt and North Africa {cite:britannica-arabic-language}, so Yemen falls under the Arabia group in this division.
+
+## The tongue of Himyar
+In al-Sahibi, in the chapter on the differences between the dialects of the Arabs, Ibn Faris gives among the differences of opposition Himyar's saying thib to one standing, meaning sit, and relates that Zayd ibn Abd Allah ibn Darim came as a delegate to one of the kings of Himyar and found him at a hunting place on a high mountain; the king said to him thib, and he took it for an order to leap off the mountain, and leapt and died, and the king said: we have no Arabic here; whoever enters Zafar should learn Himyari {cite:sahibi-baydun-1997 p.27} {cite:sahibi-baydun-1997 p.28}. Al-Suyuti gives the same difference in al-Muzhir {cite:muzhir-mansur-1998 1 p.203}. Ibn Khaldun holds that the language of Himyar is another language, differing from that of Mudar in much of its forms, inflections and vowel endings, as the language of the Arabs of his own time differs from that of Mudar, and he rejects those who take them for one language {cite:tarikh-ibn-khaldun-shahada-1981 1 p.767} {cite:tarikh-ibn-khaldun-shahada-1981 1 p.768}.
+
+## Features ascribed to the language of Yemen
+Ibn Faris relays from Ibn Duraid that a sound between qaf, kaf and jim is a widespread dialect in Yemen, so that they say kamal for jamal when pressed, and that a sound between shin, jim and ya' shows in ghulamij for the masculine and ghulamish for the feminine {cite:sahibi-baydun-1997 p.30}. Al-Suyuti relays from books on fiqh al-lugha, under the heading 'the blameworthy dialects', that among the features of the language of Yemen are watm, making sin into ta' as in al-nat for al-nas; shanshana, making kaf into shin as in labbaysh for labbayk; and changing ya' to jim in annexation, as in ghulamij {cite:muzhir-mansur-1998 1 p.176} {cite:muzhir-mansur-1998 1 p.177}. The heading of the chapter is its authors' judgement, and the museum does not adopt describing these features as blameworthy; it sets them out ascribed to their authors.
+
+## Yemen, the Qur'an and descent
+Al-Suyuti says in the chapter on knowing the eloquent that words from the dialects of the people of Yemen in the Qur'an are well known, and mentions that it is reported as a raised report that the Qur'an came down in the language of the two Ka'bs, Ka'b ibn Lu'ayy and Ka'b ibn Amr, who is the father of Khuza'a; the page read gives no judgement on this report {cite:muzhir-mansur-1998 1 p.167}. He relays from al-Farabi that the language was not taken from the people of Yemen because of their mixing with India and Abyssinia {cite:muzhir-mansur-1998 1 p.168}. Ibn Faris answers those who claim that the Himyari tongue of the Qahtanis shows they are not Arabs, saying that a difference of dialects does not impugn lineages {cite:sahibi-baydun-1997 p.31}.
+
+## What this page does not reach
+No description of the dialects of Yemen today was found in the references read, whether in Sanaa, Aden, Tihama or Hadramawt, nor a count of their speakers; no modern dialect survey was read, nor texts on the ancient South Arabian languages. What al-Muzhir and al-Sahibi say of the language of Yemen are old descriptions of features in the speech of some Arabs, and whether they belong to Yemen as a whole or to particular tribes is a question the museum leaves to its authors. For the general picture see [[concept/al-fusha-wal-lahajat|Standard Arabic and the spoken dialects today]] and [[concept/lughat-al-qabail|the dialects of the tribes and the tongue of Quraysh]].

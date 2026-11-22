@@ -1,0 +1,37 @@
+id: concept/ilm-al-balagha
+class: concept
+kind: discipline
+tags: [arabiyya-browser, arabiyya-sciences]
+label:
+  ar: "علم البلاغة"
+  en: "Rhetoric (balagha)"
+  ur: "علمِ بلاغت"
+  fr: "La rhétorique (balagha)"
+  es: "La retórica (balagha)"
+summary:
+  ar: "ما يقوله القزويني في الإيضاح عن بلاغة الكلام والمتكلم وتقسيم علم البلاغة إلى المعاني والبيان والبديع، وحدّا السكاكي في المفتاح للمعاني والبيان، ووصف ابن خلدون للأصناف الثلاثة وتاريخها وثمرتها في فهم الإعجاز، وما يقوله شارح الإيضاح خفاجي في نشأة التدوين وفي تفاوت بلاغة القرآن. وتنسب الصفحة كل قول إلى صاحبه."
+  en: "What al-Qazwini says in al-Idah of the eloquence of speech and of the speaker and of the division of the science of rhetoric into ma'ani, bayan and badi'; al-Sakkaki's two definitions in the Miftah; Ibn Khaldun's account of the three kinds, their history and their fruit in understanding i'jaz; and what Khafaji, the commentator on al-Idah, says of the beginnings of writing on it and of whether the Qur'an's eloquence varies. The page ascribes each statement to its author."
+  ur: "قزوینی کا الایضاح میں کلام اور متکلم کی فصاحت اور بلاغت کے بارے میں کہنا اور علمِ بلاغت کی معانی، بیان اور بدیع میں تقسیم؛ سکاکی کی مفتاح میں دو تعریفیں؛ ابن خلدون کا تینوں اصناف، ان کی تاریخ اور اعجازِ قرآن کے فہم میں ان کے ثمرے کا بیان؛ اور الایضاح کے شارح خفاجی کا اس پر لکھنے کی ابتدا اور اس بارے میں کہنا کہ قرآن کی بلاغت میں تفاوت ہے یا نہیں۔ صفحہ ہر بات اس کے صاحب کی طرف منسوب کرتا ہے۔"
+  fr: "Ce que dit al-Qazwini dans al-Idah de l'éloquence du discours et du locuteur et de la division de la science de la rhétorique en ma'ani, bayan et badi' ; les deux définitions d'al-Sakkaki dans le Miftah ; l'exposé d'Ibn Khaldun sur les trois sortes, leur histoire et leur fruit dans la compréhension de l'i'jaz ; et ce que dit Khafaji, commentateur d'al-Idah, des débuts de l'écriture sur ce sujet et de la question de savoir si l'éloquence du Coran varie. La page attribue chaque propos à son auteur."
+  es: "Lo que dice al-Qazwini en al-Idah sobre la elocuencia del discurso y del hablante y sobre la división de la ciencia de la retórica en ma'ani, bayan y badi'; las dos definiciones de al-Sakkaki en el Miftah; el relato de Ibn Jaldún sobre las tres clases, su historia y su fruto en la comprensión del i'jaz; y lo que dice Khafaji, comentarista de al-Idah, sobre los comienzos de la escritura sobre ella y sobre si la elocuencia del Corán varía. La página atribuye cada afirmación a su autor."
+wings: [words, ideas]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: concept/ilm-al-maani, sources: [source/idah-khafaji-dar-al-jil] }
+  - { type: related_to, target: concept/ilm-al-bayan, sources: [source/idah-khafaji-dar-al-jil] }
+  - { type: related_to, target: concept/ilm-al-badi, sources: [source/idah-khafaji-dar-al-jil] }
+  - { type: related_to, target: concept/nazariyyat-al-ijaz-wal-nazm, sources: [source/dalail-al-ijaz-shakir-1992] }
+  - { type: related_to, target: concept/ijaz-al-quran, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+  - { type: related_to, target: concept/al-ijaz-al-bayani-inda-al-mufassirin, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+  - { type: related_to, target: concept/ulum-al-lisan-al-arabi, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+  - { type: related_to, target: work/al-idah-fi-ulum-al-balagha, sources: [source/idah-khafaji-dar-al-jil] }
+  - { type: related_to, target: work/asrar-al-balagha, sources: [source/idah-khafaji-dar-al-jil] }
+  - { type: related_to, target: work/dalail-al-ijaz-al-jurjani, sources: [source/idah-khafaji-dar-al-jil] }
+  - { type: related_to, target: person/al-sakkaki, sources: [source/miftah-al-ulum-zarzur-1987] }
+  - { type: related_to, target: person/jalal-al-din-al-qazwini, sources: [source/idah-khafaji-dar-al-jil] }
+  - { type: related_to, target: person/abd-al-qahir-al-jurjani, sources: [source/idah-khafaji-dar-al-jil] }
+  - { type: related_to, target: person/ibn-khaldun, sources: [source/tarikh-ibn-khaldun-shahada-1981] }
+  - { type: related_to, target: person/ibn-al-mutazz, sources: [source/idah-khafaji-dar-al-jil] }
+provenance: { layer: own-research, source: "al-Idah (Qazwini, ed. Khafaji) vol. 1 pp.7, 17, 41, 48-51, 54; Miftah al-Ulum (al-Sakkaki) pp.161-162; Tarikh Ibn Khaldun (al-Muqaddima) vol. 1 pp.761-762; Dala'il al-I'jaz (al-Jurjani) vol. 1 p.81, read on Shamela on 21 Nov 2026.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-concepts-1" }
+sources: [source/idah-khafaji-dar-al-jil, source/miftah-al-ulum-zarzur-1987, source/tarikh-ibn-khaldun-shahada-1981, source/dalail-al-ijaz-shakir-1992]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

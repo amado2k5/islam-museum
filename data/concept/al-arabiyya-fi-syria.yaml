@@ -1,0 +1,28 @@
+id: concept/al-arabiyya-fi-syria
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في سوريا"
+  en: "Arabic in Syria"
+  ur: "شام میں عربی"
+  fr: "L'arabe en Syrie"
+  es: "El árabe en Siria"
+summary:
+  ar: "ما وُجد عن العربية في سوريا: المادة 4 من نص دستور 2012 كما يعرضه Constitute وهو مصنّف فيه «تاريخي»، ووصف دراسة مكتبة الكونغرس للعربية السورية ومواقف الناس من المحكية، وتصنيف الشامية عند مانشستر وGlottolog، مع بيان الخلاف بين المصادر وما لم يُعثر عليه."
+  en: "What was found on Arabic in Syria: Article 4 of the 2012 constitution as the Constitute Project shows it, where the text is marked \"Historical\", the Library of Congress study's account of Syrian Arabic and of attitudes to the spoken form, and the Levantine classification at Manchester and Glottolog, with the differences between sources and what was not found."
+  ur: "شام میں عربی کے بارے میں جو ملا: 2012 کے دستور کی دفعہ 4 جیسا Constitute دکھاتا ہے جہاں متن «تاریخی» درج ہے، لائبریری آف کانگریس کی تحقیق کا شامی عربی اور بولی کی طرف رویوں کا بیان، اور مانچسٹر اور Glottolog میں شامی گروہ کی درجہ بندی، مآخذ کے اختلاف اور جو نہیں ملا اس کے ساتھ۔"
+  fr: "Ce qui a été trouvé sur l'arabe en Syrie : l'article 4 de la constitution de 2012 tel que le montre le Constitute Project, où le texte est marqué « historique », le compte rendu de l'étude de la Bibliothèque du Congrès sur l'arabe syrien et les attitudes envers le parlé, et la classification levantine chez Manchester et Glottolog, avec les différences entre sources et ce qui n'a pas été trouvé."
+  es: "Lo que se encontró sobre el árabe en Siria: el artículo 4 de la constitución de 2012 tal como lo muestra el Constitute Project, donde el texto está marcado «histórico», el relato del estudio de la Biblioteca del Congreso sobre el árabe sirio y las actitudes hacia el hablado, y la clasificación levantina en Manchester y Glottolog, con las diferencias entre fuentes y lo que no se halló."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: place/syria, sources: [source/constituteproject-syria] }
+  - { type: related_to, target: concept/lahjat-al-sham, sources: [source/manchester-arabic-structural-variation] }
+  - { type: related_to, target: concept/al-alam-al-arabi, sources: [source/britannica-semitic-languages] }
+  - { type: related_to, target: language/arabic, sources: [source/britannica-semitic-languages] }
+  - { type: related_to, target: concept/al-fusha-wal-lahajat, sources: [source/manchester-arabic-sociolinguistic] }
+  - { type: related_to, target: concept/lughat-al-qabail, sources: [source/manchester-arabic-sociolinguistic] }
+provenance: { layer: own-research, source: "Constitute Project constitution texts, Library of Congress Country Studies, University of Manchester Dialects of Arabic pages, Glottolog classification tree and Encyclopaedia Britannica records, read on 21 Nov 2026.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-countries-a" }
+sources: [source/britannica-semitic-languages, source/constituteproject-syria, source/glottolog-arabic, source/loc-syria-arabs, source/manchester-arabic-sociolinguistic, source/manchester-arabic-structural-variation]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

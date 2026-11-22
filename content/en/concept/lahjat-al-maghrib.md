@@ -1,0 +1,20 @@
+---
+id: concept/lahjat-al-maghrib
+lang: en
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Summary
+The Maghrib here is the west of the Arab world, from [[place/libya|Libya]], [[place/tunisia|Tunisia]], [[place/algeria|Algeria]] and [[place/morocco|Morocco]] to [[place/mauritania|Mauritania]], and in old usage it takes in [[place/al-andalus|al-Andalus]]. This page gathers what was read of the speech of its people in five references: the Encyclopaedia Britannica's general article on the Arabic language and its articles on Morocco, the Maghrib and Mauritania, and Ibn Khaldun's chapters on the speech of the cities. The page ascribes every description to its author and gives no description of the features of the Maghribi darija, since the references read do not state them.
+
+## The Encyclopaedia's description
+In its article on the Arabic language the Encyclopaedia says North Africa is one of the chief dialect groups in modern times {cite:britannica-arabic-language}. In its article on the Maghrib it says the Arabs conquered the Maghrib in the 7th and 8th centuries, that they imposed on the native peoples Islam and Arabic, the language of the Qur'an, and that most North African societies nonetheless kept their cultural identity {cite:britannica-maghrib}. In its article on Morocco it says Arabic is one of the country's two national and official languages and is spoken by two-thirds of the population, that Tamazight, the language of the Imazighen, is spoken by one-third and became official in 2011, that French is an important secondary language and Spanish and English are widely spoken {cite:britannica-morocco}. The page sets these statements out as they stand and does not reconcile them.
+
+## Hassaniyya in Mauritania
+The Encyclopaedia says in its article on Mauritania that Arabic is the official language and that Fula, Soninke and Wolof are national languages. It says the Moors speak Hassaniyya Arabic, a dialect based chiefly on Arabic grammar with a vocabulary of both Arabic and Arabized Amazigh words, and that many of its speakers understand Egyptian and Syrian Arabic because of Middle Eastern television and radio {cite:britannica-mauritania}. This is one of the few passages read that names a particular western dialect and says something of its character.
+
+## The cities in Ibn Khaldun
+Ibn Khaldun says the language of the cities is a language standing by itself, differing from that of Mudar, and that it varies from city to city: the tongue of the people of the east differs somewhat from that of the people of the west, and likewise the people of al-Andalus, each conveying his purpose by his own speech, and the loss of i'rab does not harm them {cite:tarikh-ibn-khaldun-shahada-1981 1 p.770}. He says the Arabs in Ifriqiya and the Maghrib mixed with the Berbers, among the non-Arabs, who filled the land with their numbers, so that non-Arab speech overcame the Arabic tongue they had and it became another, mixed language, and that al-Andalus was likewise with the non-Arabs of the Galicians and the Franks {cite:tarikh-ibn-khaldun-shahada-1981 1 p.770} {cite:tarikh-ibn-khaldun-shahada-1981 1 p.771}. This is his explanation of what he saw in his own time, not a description of sound or grammar.
+
+## What this page does not reach
+No description of the features of Moroccan, Algerian, Tunisian or Libyan darija was found in the references read, whether in sounds, inflection or vocabulary, nor a count of the Maghrib's speakers of Arabic, nor the effect on them of Amazigh, French and Spanish; and no modern dialect survey was read. The two-thirds said of Morocco is the Encyclopaedia's statement about that country alone, not about the whole Maghrib, and no matching shares for Algeria, Tunisia and Libya appear in the references read. The Encyclopaedia's word for the imposition of Arabic on the people of the Maghrib is its own, and historians have other statements that were not read. For the general picture see [[concept/al-fusha-wal-lahajat|Standard Arabic and the spoken dialects today]].
