@@ -12,7 +12,7 @@ TDV [[person/kamal-al-din-al-farisi|mencatat]] "Tadhkirat al-Ahbab fi Bayan al-T
 
 Mactotter menggambarkan [[invention/farisi-amicable-factorization|metode pembuktian berdasarkan faktor dan pilihan struktural]] dari aturan Thabit ibn Qurra sebelumnya. Aturan tersebut tetap berada di tangan penulisnya, dan tesisnya bukanlah pengetahuan pertama tentang pasangan 220 dan 284 atau penemuan semua teori bilangan. Pertanyaannya independen dari [[work/tanqih-al-manazir-farisi|penyempurnaan debat]], meskipun kedua buku tersebut memiliki kepenulisan yang sama {cite:farisi-mactutor introduction-and-number-theory}.
 
-## Al-Qaida dan Metode Pembuktian
+## Kaidah dan Metode Pembuktian
 
 Presentasi universitas dimulai dari aturan yang mengharuskan bilangan prima dari tiga bilangan yang dibangun dari pangkat 2, lalu menghasilkan pasangan yang penuh kasih. Ia menggambarkan perubahan Persia sebagai lebih luas daripada sekadar perbaikan bukti: menggunakan struktur analisis untuk pangkat prima dan metode membangun pilihan. MacTotter mengaitkan Rashid dengan pembacaan karya tentang keunikan analisis dan upaya membuktikannya, serta menyebutkan ketidaksepakatan para peneliti dalam menganggapnya sebagai bukti lengkap {cite:farisi-mactutor factorization-debate}.
 

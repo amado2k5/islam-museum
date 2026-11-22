@@ -16,4 +16,4 @@ Al-Mas'udi'ye göre, Al-Mansur Jarir al-Bajali'yi gönderdi; Jarir al-Bajali, Ma
 El-Tabari'nin dizininde, Abdullah ibn Ali'nin isyanı ve yenilgisi bundan önce bahsedilmektedir. {cite:tabari-tarikh-abu-al-fadl j.7 p.667}
 
 ## Al-Dinawari'de
-El-Dinavari, [[person/abu-hanifa-al-dinawari|]] Ebu Müslim'in bin süvariyle Abu Ca'fer'e yürüyüp ordusunu bıraktığını ve onu Rumiyah'da karşıladığını anlatır. {cite:akhbar-tiwal-amir p. 380} Ebu Ca'fer onu bir sarayda tuttu ve üç gün ziyaret etti, ardından dördüncü gün muhafızların komutanı Osman bin Nehik yanında kaldı. Ebu Ca'far alkışlayınca, kılıçlarla saldırdılar. {cite:akhbar-tiwal-amir p. 380} {cite:akhbar-tiwal-amir p. 381} {cite:akhbar-tiwal-amir p. 382}
+El-Dinavari, [[person/abu-hanifa-al-dinawari|]] Ebu Müslim'in bin süvariyle Abu Ca'fer'e yürüyüp ordusunu bıraktığını ve onu Rumiyye'de karşıladığını anlatır. {cite:akhbar-tiwal-amir p. 380} Ebu Ca'fer onu bir sarayda tuttu ve üç gün ziyaret etti, ardından dördüncü gün muhafızların komutanı Osman bin Nehik yanında kaldı. Ebu Ca'far alkışlayınca, kılıçlarla saldırdılar. {cite:akhbar-tiwal-amir p. 380} {cite:akhbar-tiwal-amir p. 381} {cite:akhbar-tiwal-amir p. 382}
