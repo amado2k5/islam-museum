@@ -18260,6 +18260,29 @@ books:
 #           from: null, downloaded: null, transcript: null, mining: null, prs: [] }
 #     completion: ...
 #     unverified: []
+  - id: jami-al-tawarikh
+    title: جامع التواريخ
+    author: رشيد الدين فضل الله الهمذاني; Rashid al-Din Fadl Allah al-Hamadhani
+    publisher: 'unconfirmed (archive.org item 20241003_20241003_1100; edition: Tarikh al-Mughul, ed. Muhammad Sadiq Nashat et al.)'
+    year: unconfirmed
+    language: ar
+    category: history
+    volumes: 2 file(s)
+    files:
+    - {name: جامع التواريخ ج ١.pdf, bytes: 8744206, pages: 412, ocr_pages: 412, sha256: 2fe0d61963221074b5b06677c5fcd2d68f7b16b7a3afc7c4040432f049cf7652}
+    - {name: جامع التواريخ ج٢.pdf, bytes: 4563108, pages: 240, ocr_pages: 240, sha256: 82d4c05f5fb22beef306c0dc3f07184394438c00e69691816dac749a12a4318c}
+    acquisition: {source: 'archive.org item 20241003_20241003_1100 (https://archive.org/details/20241003_20241003_1100)', date: '2026-11-21', by: queue/assabile bin (curl to raw/library/jami-al-tawarikh), file_name: 'جامع التواريخ ج ١.pdf; جامع التواريخ ج٢.pdf', sha256_status: computed}
+    physical: {pages: 652}
+    ocr: {state: complete, date: '2026-11-21', failed_pages: 0, unzipped_location: books/history/jami-al-tawarikh/, note: 'both volumes read page by page with Apple Vision (ocrmac accurate), ignoring the archive.org text layer: volume 1 412 pages, volume 2 240 pages'}
+    ocr_archive: {state: none}
+    mining: {state: not_started}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - edition
+    - year
+    - publisher
+
 audio_series:
   # BEGIN audio_series
   - id: assabile-abdul-hamid-kishk-shorut-kobol-assalat
