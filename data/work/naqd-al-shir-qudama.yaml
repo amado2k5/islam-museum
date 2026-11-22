@@ -1,0 +1,24 @@
+id: work/naqd-al-shir-qudama
+class: work
+kind: book
+label:
+  ar: "نقد الشعر"
+  en: "Naqd al-Shir (Qudama ibn Ja'far)"
+  ur: "نقد الشعر"
+  fr: "Naqd al-Shir (Qudama ibn Ja'far)"
+  es: "Naqd al-Shir (Qudama ibn Ja'far)"
+summary:
+  ar: "نقد الشعر، كتاب في البلاغة لمؤلفه قدامة بن جعفر، وتاريخه بحسب ملخص بحثي قُدّم إلى المتحف: ت نحو 932–948م {cite:wikipedia-en-qudama-ibn-jafar}. وجواب الملخص عن وجوده في المكتبة الشاملة: نعم، والكتاب في المكتبة الشاملة: #28181 (Shamela index) {cite:mr-mas-shamela-adab-wbalagha-books}. لم يقرأ المتحف الكتاب."
+  en: "Naqd al-Shir, a book on rhetoric (balagha) by Qudama ibn Ja'far; its date in a research summary supplied to the museum is d. c. 932–948 CE {cite:wikipedia-en-qudama-ibn-jafar}. The summary's answer on its presence in the Shamela library: Yes, the book is in the Shamela library: #28181 (Shamela index) {cite:mr-mas-shamela-adab-wbalagha-books}. The museum has not read the book."
+  ur: "نقد الشعر، بلاغت پر ایک کتاب، مصنف قدامة بن جعفر؛ میوزیم کو دیے گئے تحقیقی خلاصے میں اس کی تاریخ: وفات تقریباً 932–948ء {cite:wikipedia-en-qudama-ibn-jafar}۔ شاملہ میں موجودگی پر خلاصے کا جواب: جی ہاں، کتاب المکتبۃ الشاملہ میں ہے: #28181 (Shamela index) {cite:mr-mas-shamela-adab-wbalagha-books}۔ میوزیم نے یہ کتاب نہیں پڑھی۔"
+  fr: "Naqd al-Shir, livre sur la rhétorique (balagha) de Qudama ibn Ja'far ; sa date dans une synthèse de recherche remise au musée : m. vers 932–948 {cite:wikipedia-en-qudama-ibn-jafar}. Réponse de la synthèse sur sa présence dans la bibliothèque Shamela : Oui, le livre figure dans la bibliothèque Shamela : #28181 (Shamela index) {cite:mr-mas-shamela-adab-wbalagha-books}. Le musée n'a pas lu le livre."
+  es: "Naqd al-Shir, libro sobre retórica (balagha) de Qudama ibn Ja'far; su fecha en un resumen de investigación entregado al museo: m. hacia 932–948 {cite:wikipedia-en-qudama-ibn-jafar}. Respuesta del resumen sobre su presencia en la biblioteca Shamela: Sí, el libro está en la biblioteca Shamela: #28181 (Shamela index) {cite:mr-mas-shamela-adab-wbalagha-books}. El museo no ha leído el libro."
+wings: [words, ideas]
+themes: [linguistics]
+tags: [arabiyya-browser, arabiyya-books]
+relations:
+  - { type: authored_by, target: person/qudama-ibn-jafar, sources: [source/wikipedia-en-qudama-ibn-jafar] }
+  - { type: related_to, target: concept/ilm-al-balagha, sources: [source/wikipedia-en-qudama-ibn-jafar] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md, section 5); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat. The museum has not read this book.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/wikipedia-en-qudama-ibn-jafar, source/mr-mas-shamela-adab-wbalagha-books]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

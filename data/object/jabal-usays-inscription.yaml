@@ -1,0 +1,28 @@
+id: object/jabal-usays-inscription
+class: object
+kind: other
+tags: [arabiyya-browser, arabiyya-script]
+label:
+  ar: "نقش جبل أسيس"
+  en: "The Jabal Usays inscription"
+  ur: "کتبۂ جبل اُسیس"
+  fr: "L'inscription de Jabal Usays"
+  es: "La inscripción de Jabal Usays"
+summary:
+  ar: "كتابة من أربعة أسطر بالعربية القديمة على حجر منحوت قرب قمة جبل أسيس جنوب شرقي دمشق، مؤرخة بسنة 528 أو 529م أو 532 أو 533م بقراءة بديلة، يذكر فيها رقيم بن معرِّف الأوسي أن «الحارث الملك» أرسله حارساً للحدود {cite:wikipedia-jebel-usays-inscription-en}."
+  en: "A four-line text in Old Arabic on a cut stone near the summit of Jabal Usays south-east of Damascus, dated 528 or 529 CE, or 532 or 533 CE on an alternative reading, in which Ruqaym son of Ma'arrif the Awsite says \"al-Harith the king\" sent him as a frontier guard {cite:wikipedia-jebel-usays-inscription-en}."
+  ur: "دمشق کے جنوب مشرق میں جبل اُسیس کی چوٹی کے قریب تراشے ہوئے پتھر پر قدیم عربی کی چار سطریں، جو 528 یا 529 عیسوی کی ہیں، یا متبادل قراءت پر 532 یا 533 کی، جن میں رقیم بن معرّف اوسی کہتا ہے کہ «الحارث بادشاہ» نے اسے سرحدی پہرے دار بنا کر بھیجا {cite:wikipedia-jebel-usays-inscription-en}۔"
+  fr: "Texte de quatre lignes en vieil arabe sur une pierre taillée près du sommet du Jabal Usays, au sud-est de Damas, daté de 528 ou 529, ou de 532 ou 533 selon une lecture alternative, où Ruqaym fils de Ma'arrif, des Aws, dit qu'« al-Harith le roi » l'a envoyé comme garde-frontière {cite:wikipedia-jebel-usays-inscription-en}."
+  es: "Texto de cuatro líneas en árabe antiguo sobre una piedra labrada cerca de la cima del Jabal Usays, al sureste de Damasco, fechado en 528 o 529, o en 532 o 533 según una lectura alternativa, en el que Ruqaym hijo de Ma'arrif, de los Aws, dice que «al-Harith el rey» lo envió como guardián de la frontera {cite:wikipedia-jebel-usays-inscription-en}."
+wings: [words, objects]
+themes: [linguistics]
+regions: [levant-iraq]
+made: { edtf: "0528/0529", calendar: julian, precision: year, status: debated, derived: true, note: "Year 423 of the Bostran era, given as 528/529 CE by the research summary; an alternative reading gives 532/533 CE; the museum does not choose {cite:wikipedia-jebel-usays-inscription-en}. The founder's second file names {cite:wmich-quranic-jesus-dissertation} as support; not opened." }
+relations:
+  - { type: related_to, target: place/damascus, sources: [source/wikipedia-jebel-usays-inscription-en] }
+  - { type: related_to, target: polity/ghassanid-kingdom, sources: [source/wikipedia-jebel-usays-inscription-en] }
+  - { type: related_to, target: concept/khatt-al-arabi, sources: [source/britannica-arabic-alphabet] }
+  - { type: related_to, target: object/zabad-inscription, sources: [source/oxford-cult-of-saints-e01817-zabad] }
+  - { type: related_to, target: concept/aqdam-al-nuqush-al-arabiyya, sources: [source/wikipedia-jebel-usays-inscription-en] }
+sources: [source/wikipedia-jebel-usays-inscription-en, source/britannica-arabic-alphabet, source/oxford-cult-of-saints-e01817-zabad, source/wmich-quranic-jesus-dissertation]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; translations are machine translations by the same model" }

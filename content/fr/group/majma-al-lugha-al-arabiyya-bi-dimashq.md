@@ -1,0 +1,20 @@
+---
+id: group/majma-al-lugha-al-arabiyya-bi-dimashq
+lang: fr
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Vue d'ensemble
+L'Académie arabe de Damas (Majma' al-Lugha al-'Arabiyya bi-Dimashq) est, selon la note de recherche fournie au musée, la plus ancienne des académies modernes de la langue arabe. Elle naît en 1918-1919 sous [[person/faisal-i-of-iraq|Fayçal Ier]], souverain de la Syrie, et [[person/muhammad-kurd-ali|Muhammad Kurd Ali]] en est le premier président, de 1919 à 1953. {cite:wikipedia-arab-academy-of-damascus-en research summary} {cite:alhawary-arabic-applied-linguistics-2021 research summary} {cite:wikipedia-arab-academy-of-damascus-ar research summary} Cette page rapporte ce que dit cette note ; le musée n'a pas ouvert les pages sur lesquelles elle repose, avec l'accord du fondateur du 21 novembre 2026.
+
+## Fondation et fondateurs
+La note dit que l'Académie est née en 1918 et 1919 sous le règne de Fayçal Ier, et ne donne aucun jour précis pour la fondation officielle. {cite:wikipedia-arab-academy-of-damascus-en research summary} {cite:alhawary-arabic-applied-linguistics-2021 research summary} Elle nomme Muhammad Kurd Ali président fondateur de 1919 à 1953, c'est-à-dire jusqu'à sa mort comme l'indique sa propre fiche. Avec lui, elle cite comme savants fondateurs Sa'id ibn Ali al-Karmi, Mitri Qandalaft et Abd al-Qadir al-Mubarak ; le musée n'a pas encore de fiche pour ces trois personnes, et seuls leurs noms, tels que la note les donne, sont énoncés ici. {cite:wikipedia-arab-academy-of-damascus-ar research summary} La note dit que l'Académie fut conçue sur le modèle de l'Académie française. {cite:encyclopedia-com-arab-academy-damascus research summary}
+
+## Rôle et œuvres
+La note dit que l'Académie a mené le mouvement d'arabisation après la domination ottomane, c'est-à-dire le travail consistant à faire de l'arabe la langue de l'administration, de l'enseignement et de la science à la place de l'ancienne langue d'État. {cite:encyclopedia-com-arab-academy-damascus research summary} Elle a étudié la culture et l'histoire arabes ainsi que l'arabe littéraire (al-fusha), publié une revue savante à partir de 1921 et des éditions critiques de livres. {cite:encyclopedia-com-arab-academy-damascus research summary} Parmi les dictionnaires qu'elle a commandés figure le Matn al-Lugha d'Ahmad Rida, soit le [[work/mujam-matn-al-lugha|Mu'jam Matn al-Lugha]] d'[[person/ahmad-rida|Ahmad Rida]]. {cite:encyclopedia-com-arab-academy-damascus research summary} La note ne donne ni le nom de la revue ni le nombre de ses volumes.
+
+## Arabisation et terminologie
+La note place l'arabisation en tête des tâches de l'Académie après la période ottomane, soit la recherche de mots arabes pour des sens modernes. {cite:encyclopedia-com-arab-academy-damascus research summary} Avec les académies du Caire et de Bagdad, elle devint en 1971 l'une des fondatrices de l'[[group/ittihad-al-majami-al-lughawiyya-al-ilmiyya-al-arabiyya|Union des académies de la langue arabe]], organe qui coordonne le travail des académies sur la terminologie scientifique. {cite:wikipedia-union-of-arab-language-academies-ar research summary} Sa sœur en Égypte est l'[[group/majma-al-lugha-al-arabiyya-bi-al-qahira|Académie de la langue arabe du Caire]], et en Irak une troisième est l'[[group/al-majma-al-ilmi-al-iraqi|Académie irakienne des sciences]]. Pour le tableau d'ensemble, voir [[concept/al-alam-al-arabi|le monde arabe]] et [[concept/tarikh-al-lugha-al-arabiyya|l'histoire de l'arabe]].
+
+## Ce que cette page n'atteint pas
+La source est une note de recherche fournie au musée, appuyée sur Wikipédia en anglais et en arabe et sur Encyclopedia.com ; le musée n'a pas ouvert ces pages, et le fondateur a approuvé l'usage de la note sans nouvelle vérification le 21 novembre 2026. On ignore donc ici le jour exact de la fondation officielle, le nom de la revue, les éditions critiques publiées, le sort de l'Académie après la mort de Kurd Ali et ses autres membres. Tout ce qui précède est attribué à la note.

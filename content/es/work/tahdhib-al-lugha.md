@@ -1,0 +1,19 @@
+---
+id: work/tahdhib-al-lugha
+lang: es
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Resumen
+
+Tahdhib al-Lugha es una obra de lexicografía árabe, atribuida por un resumen de investigación entregado al museo a [[person/abu-mansur-al-azhari|Abu Mansur al-Azhari]]. Esta página expone dónde se sitúa en una lista de las obras más citadas sobre las ciencias del árabe: su campo, su autor y su fecha tal como los da el resumen, su presencia en la biblioteca Shamela y lo que aquí no se sabe de ella.
+
+## El autor y la fecha
+
+El resumen atribuye el libro a [[person/abu-mansur-al-azhari|Abu Mansur al-Azhari]] y da su fecha así: siglo X; muerte del autor 980 o 981 d. C. / 370 de la hégira {cite:wikipedia-tahdhib-al-lugha-en}. Eso es todo lo que esta página dice del autor y de la fecha; quien busque la vida del autor la hallará en su propio registro cuando exista, y quien quiera el detalle de la datación irá a la página documental que nombra el resumen.
+
+## Lugar en el canon
+
+Tahdhib al-Lugha aparece en un resumen de investigación entregado al museo: una lista de sesenta de las obras más citadas sobre la lengua árabe, doce en cada una de sus cinco ciencias, donde figura en la sección «Diccionarios». El resumen atribuye la obra a [[person/abu-mansur-al-azhari|Abu Mansur al-Azhari]] y da su fecha así: siglo X; muerte del autor 980 o 981 d. C. / 370 de la hégira. Nombra la página de Wikipedia en inglés «Abu Mansur al-Azhari» como la página que documenta la obra {cite:wikipedia-tahdhib-al-lugha-en}. Sobre su presencia en la biblioteca Shamela, el resumen dice: Sí, figura en la biblioteca Shamela como libro 7031, con un enlace a la página 383 {cite:shamela-tahdhib-al-lugha}.
+
+El museo tomó esto del resumen tal como está. El fundador aprobó usar el resumen sin nueva verificación el 21 de noviembre de 2026, y el museo no abrió las páginas que nombra. El museo no ha leído el libro en sí. Por ello este registro no dice nada del contenido del libro, de sus capítulos, ediciones o comentarios, más allá de lo que citen otras secciones de esta página. El número del libro en Shamela es solo una referencia bibliográfica; no se copió ningún texto de él.

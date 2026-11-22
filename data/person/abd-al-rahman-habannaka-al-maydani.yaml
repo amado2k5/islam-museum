@@ -1,0 +1,20 @@
+id: person/abd-al-rahman-habannaka-al-maydani
+class: person
+label: { ar: "عبد الرحمن حسن حبنكة الميداني", en: "Abd al-Rahman Hasan Habannaka al-Maydani", ur: "عبد الرحمن حسن حبنكة الميداني", fr: "Abd al-Rahman Hasan Habannaka al-Maydani", es: "Abd al-Rahman Hasan Habannaka al-Maydani" }
+roles: [scholar, writer]
+gender: male
+tags: [arabiyya-browser, arabiyya-scholars]
+summary:
+  ar: "عبد الرحمن حسن حبنكة الميداني، مؤلف «البلاغة العربية: أسسها وعلومها وفنونها»؛ ويورد ملخص بحثي قُدّم إلى المتحف تاريخ وفاته هكذا: ت 1425هـ / 2004م {cite:wikipedia-ar-abd-al-rahman-habannaka-al-maydani}."
+  en: "Abd al-Rahman Hasan Habannaka al-Maydani, author of \"al-Balagha al-Arabiyya: Ususuha wa-Ulumuha wa-Fununuha\"; a research summary supplied to the museum gives his date as d. 1425 AH / 2004 CE {cite:wikipedia-ar-abd-al-rahman-habannaka-al-maydani}."
+  ur: "عبد الرحمن حسن حبنكة الميداني، «البلاغة العربية: أسسها اور علومها اور فنونها» کے مصنف؛ میوزیم کو دیا گیا ایک تحقیقی خلاصہ ان کی تاریخ یوں دیتا ہے: وفات 1425ھ / 2004ء {cite:wikipedia-ar-abd-al-rahman-habannaka-al-maydani}۔"
+  fr: "Abd al-Rahman Hasan Habannaka al-Maydani, auteur de « al-Balagha al-Arabiyya: Ususuha wa-Ulumuha wa-Fununuha » ; une synthèse de recherche remise au musée donne sa date ainsi : m. 1425 H / 2004 {cite:wikipedia-ar-abd-al-rahman-habannaka-al-maydani}."
+  es: "Abd al-Rahman Hasan Habannaka al-Maydani, autor de «al-Balagha al-Arabiyya: Ususuha wa-Ulumuha wa-Fununuha»; un resumen de investigación entregado al museo da su fecha así: m. 1425 H. / 2004 {cite:wikipedia-ar-abd-al-rahman-habannaka-al-maydani}."
+wings: [people]
+themes: [linguistics]
+died: { edtf: "2004", hijri: "1425", calendar: gregorian, precision: year, status: tradition, derived: true, note: "Date from a research summary supplied to the museum, pages not opened (founder approval 21 Nov 2026) {cite:wikipedia-ar-abd-al-rahman-habannaka-al-maydani}." }
+relations:
+  - { type: authored, target: work/al-balagha-al-arabiyya-al-maydani, sources: [source/wikipedia-ar-abd-al-rahman-habannaka-al-maydani] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/wikipedia-ar-abd-al-rahman-habannaka-al-maydani]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

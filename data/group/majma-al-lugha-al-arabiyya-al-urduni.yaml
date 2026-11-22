@@ -1,0 +1,28 @@
+id: group/majma-al-lugha-al-arabiyya-al-urduni
+class: group
+kind: institution
+tags: [arabiyya-browser, arabiyya-scholars]
+label:
+  ar: "مجمع اللغة العربية الأردني"
+  en: "Jordan Academy of Arabic (Majma' al-Lugha al-'Arabiyya al-Urduni)"
+  ur: "مجمع اللغۃ العربیہ الاردنی"
+  fr: "Académie jordanienne de la langue arabe (Majma' al-Lugha al-'Arabiyya al-Urduni)"
+  es: "Academia Jordana de la Lengua Árabe (Majma' al-Lugha al-'Arabiyya al-Urduni)"
+summary:
+  ar: "مجمع اللغة العربية الأردني في عمّان، أُنشئ أول مرة قصيراً في 1923-1924 على يد سعيد الكرمي، ثم أُعيد تأسيسه بقانون مؤقت رقم 40 في 1 يوليو 1976، كما يلخص ملف بحث قُدّم للمتحف. يحفظ العربية وينظمها ويعرّب المصطلح التقني والجامعي ويحيي التراث العربي الإسلامي، وله مجلة نصف سنوية ومعاجم واختبار كفاية في العربية."
+  en: "The Jordan Academy of Arabic in Amman, first established briefly in 1923-1924 by Sa'id al-Karmi and then re-established by Provisional Law No. 40 on 1 July 1976, as a research summary supplied to the museum gives it. It regulates and preserves Arabic, Arabises technical and university-level terms, revives the Arab-Islamic heritage, and publishes a biannual journal and dictionaries and oversees Arabic proficiency testing."
+  ur: "عمّان میں مجمع اللغۃ العربیہ الاردنی، جو پہلے مختصر طور پر 1923-1924ء میں سعید الکرمی کے ہاتھوں قائم ہوا اور پھر 1 جولائی 1976ء کو عارضی قانون نمبر 40 سے دوبارہ قائم کیا گیا، جیسا کہ عجائب گھر کو فراہم کردہ تحقیقی خلاصہ دیتا ہے۔ یہ عربی کو منظم اور محفوظ کرتا ہے، تکنیکی اور جامعاتی اصطلاحات کی تعریب کرتا ہے، عربی اسلامی ورثے کو زندہ کرتا ہے، نیم سالانہ رسالہ اور لغات شائع کرتا ہے اور عربی مہارت کے امتحانات کی نگرانی کرتا ہے۔"
+  fr: "L'Académie jordanienne de la langue arabe à Amman, d'abord établie brièvement en 1923-1924 par Sa'id al-Karmi puis rétablie par la loi provisoire n° 40 le 1er juillet 1976, comme le donne une note de recherche fournie au musée. Elle régule et préserve l'arabe, arabise les termes techniques et universitaires, ravive le patrimoine arabo-islamique, publie une revue semestrielle et des dictionnaires et supervise les tests de maîtrise de l'arabe."
+  es: "La Academia Jordana de la Lengua Árabe en Amán, establecida primero brevemente en 1923-1924 por Sa'id al-Karmi y restablecida luego por la Ley Provisional n.º 40 el 1 de julio de 1976, según un resumen de investigación entregado al museo. Regula y preserva el árabe, arabiza los términos técnicos y universitarios, revive el patrimonio árabe-islámico, publica una revista semestral y diccionarios y supervisa las pruebas de competencia en árabe."
+wings: [words, people]
+themes: [linguistics]
+periods: [period/modern-era]
+regions: [levant-iraq]
+founded: { edtf: "1976-07-01", calendar: gregorian, precision: day, status: historical, note: "Re-established by Royal Decree (Provisional Law No. 40) on 1 July 1976, beginning work in October or November 1976; a first, brief academy of 1923-1924 is attributed to Sa'id al-Karmi. As the research summary gives it.", sources: [source/wikipedia-jordan-academy-of-arabic-en] }
+relations:
+  - { type: located_in, target: place/amman, sources: [source/wikipedia-jordan-academy-of-arabic-en] }
+  - { type: related_to, target: group/ittihad-al-majami-al-lughawiyya-al-ilmiyya-al-arabiyya, note: "Linked as a sister academy; the summary does not say when Jordan joined the Union.", sources: [source/wikipedia-union-of-arab-language-academies-ar] }
+  - { type: related_to, target: concept/al-arabiyya-fi-jordan, note: "Arabic in Jordan.", sources: [source/wikipedia-jordan-academy-of-arabic-en] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (pages not opened by the museum; founder approval 21 Nov 2026) citing English and Arabic Wikipedia and the Academy's official website on the Jordan Academy of Arabic.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-academies-1 }
+sources: [source/wikipedia-jordan-academy-of-arabic-en, source/wikipedia-jordan-academy-of-arabic-ar, source/arabic-jo, source/jordan-gbd-2024-chapter-2502]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

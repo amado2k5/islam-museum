@@ -1,0 +1,25 @@
+id: work/al-usul-fi-al-nahw
+class: work
+kind: book
+label:
+  ar: "الأصول في النحو"
+  en: "al-Usul fi al-Nahw (Ibn al-Sarraj)"
+  ur: "الاصول فی النحو"
+  fr: "al-Usul fi al-Nahw (Ibn al-Sarraj)"
+  es: "al-Usul fi al-Nahw (Ibn al-Sarraj)"
+summary:
+  ar: "«الأصول في النحو» كتاب في علم النحو العربي نسبه ملخص بحثي قُدّم إلى المتحف إلى ابن السراج، وذكر تاريخه هكذا: وفاة المؤلف 928–929م / 316هـ {cite:wikipedia-al-usul-fi-al-nahw-ar}. وعدّه الملخص بين ستين كتاباً هي الأكثر استشهاداً بها في علوم العربية الخمسة."
+  en: "al-Usul fi al-Nahw is a work of Arabic grammar that a research summary supplied to the museum ascribes to Ibn al-Sarraj, giving its date as: author died 928–929 CE / 316 AH {cite:wikipedia-al-usul-fi-al-nahw-ar}. The summary counts it among sixty of the most-cited works in the five Arabic sciences."
+  ur: "«الاصول فی النحو» عربی نحو کی کتاب ہے جسے عجائب گھر کو دیا گیا ایک تحقیقی خلاصہ ابن السراج سے منسوب کرتا ہے اور اس کی تاریخ یوں دیتا ہے: مصنف کی وفات 928–929 ء / 316 ھ {cite:wikipedia-al-usul-fi-al-nahw-ar}۔ خلاصہ اسے عربی کے پانچ علوم کی ساٹھ سب سے زیادہ حوالہ دی جانے والی کتابوں میں شمار کرتا ہے۔"
+  fr: "al-Usul fi al-Nahw est un ouvrage de grammaire arabe qu'un résumé de recherche remis au musée attribue à Ibn al-Sarraj, en donnant sa date ainsi : mort de l'auteur 928–929 ap. J.-C. / 316 de l'Hégire {cite:wikipedia-al-usul-fi-al-nahw-ar}. Le résumé le compte parmi soixante des ouvrages les plus cités dans les cinq sciences de l'arabe."
+  es: "al-Usul fi al-Nahw es una obra de gramática árabe que un resumen de investigación entregado al museo atribuye a Ibn al-Sarraj, y cuya fecha da así: muerte del autor 928–929 d. C. / 316 de la hégira {cite:wikipedia-al-usul-fi-al-nahw-ar}. El resumen la cuenta entre sesenta de las obras más citadas en las cinco ciencias del árabe."
+wings: [words]
+themes: [linguistics]
+tags: [arabiyya-browser, arabiyya-books]
+periods: [period/abbasid-fragmentation]
+relations:
+  - { type: authored_by, target: person/ibn-al-sarraj, sources: [source/wikipedia-al-usul-fi-al-nahw-ar] }
+  - { type: about, target: concept/ilm-al-nahw, sources: [source/wikipedia-al-usul-fi-al-nahw-ar] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (the 60 most-cited Arabic linguistic works, sections Dictionaries and Grammar); its facts are used without re-verification by the founder's approval of 21 Nov 2026; the museum did not open the pages the summary names.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-books-1" }
+sources: [source/wikipedia-al-usul-fi-al-nahw-ar, source/shamela-al-usul-fi-al-nahw]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

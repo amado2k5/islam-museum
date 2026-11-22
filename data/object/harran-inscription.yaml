@@ -1,0 +1,28 @@
+id: object/harran-inscription
+class: object
+kind: other
+tags: [arabiyya-browser, arabiyya-script]
+label:
+  ar: "نقش حران في اللجاة"
+  en: "The Harran inscription in the Lajah"
+  ur: "لجاۃ میں حران کا کتبہ"
+  fr: "L'inscription de Harran dans le Lajah"
+  es: "La inscripción de Harran en el Lajah"
+summary:
+  ar: "كتابة تأسيس مسيحية باليونانية والعربية القديمة في مزار شهيد بحران من محافظة السويداء، مؤرخة بسنة 567 أو 568م، تذكر أن الفيلارك شرحبيل بن ظالم بنى مزاراً للقديس يوحنا {cite:wikipedia-harran-inscription-en}."
+  en: "A Christian dedicatory inscription in Greek and Old Arabic at a martyr shrine at Harran in as-Suwayda Governorate, dated 567 or 568 CE, recording that the phylarch Sharahil son of Zalim built a martyrium of Saint John {cite:wikipedia-harran-inscription-en}."
+  ur: "محافظۃ السویدا کے حران میں ایک شہیدی مزار پر یونانی اور قدیم عربی میں مسیحی تاسیسی کتبہ، 567 یا 568 عیسوی کا، جو درج کرتا ہے کہ فیلارک شرحبیل بن ظالم نے سینٹ جان کا مزار بنایا {cite:wikipedia-harran-inscription-en}۔"
+  fr: "Inscription de dédicace chrétienne en grec et en vieil arabe dans un sanctuaire martyrial de Harran, dans le gouvernorat de Soueïda, datée de 567 ou 568, consignant que le phylarque Sharahil fils de Zalim a construit un martyrium de saint Jean {cite:wikipedia-harran-inscription-en}."
+  es: "Inscripción dedicatoria cristiana en griego y árabe antiguo en un santuario martirial de Harran, en la gobernación de Suwayda, fechada en 567 o 568, que registra que el filarca Sharahil hijo de Zalim construyó un martirio de San Juan {cite:wikipedia-harran-inscription-en}."
+wings: [words, objects]
+themes: [linguistics]
+regions: [levant-iraq]
+made: { edtf: "0567/0568", calendar: julian, precision: year, status: historical, derived: true, note: "Year 463 of the Bostran era, given as 567/568 CE by the research summary {cite:wikipedia-harran-inscription-en}. The founder's second file names {cite:wmich-quranic-jesus-dissertation} as support; not opened." }
+relations:
+  - { type: related_to, target: place/damascus, sources: [source/wikipedia-harran-inscription-en] }
+  - { type: related_to, target: place/syria, sources: [source/wikipedia-harran-inscription-en] }
+  - { type: related_to, target: concept/khatt-al-arabi, sources: [source/britannica-arabic-alphabet] }
+  - { type: related_to, target: object/zabad-inscription, sources: [source/oxford-cult-of-saints-e01817-zabad] }
+  - { type: related_to, target: concept/aqdam-al-nuqush-al-arabiyya, sources: [source/wikipedia-harran-inscription-en] }
+sources: [source/wikipedia-harran-inscription-en, source/britannica-arabic-alphabet, source/oxford-cult-of-saints-e01817-zabad, source/wmich-quranic-jesus-dissertation]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; translations are machine translations by the same model" }

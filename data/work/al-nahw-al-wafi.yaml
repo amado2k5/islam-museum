@@ -1,0 +1,25 @@
+id: work/al-nahw-al-wafi
+class: work
+kind: book
+label:
+  ar: "النحو الوافي"
+  en: "al-Nahw al-Wafi (Abbas Hasan)"
+  ur: "النحو الوافی"
+  fr: "al-Nahw al-Wafi (Abbas Hasan)"
+  es: "al-Nahw al-Wafi (Abbas Hasan)"
+summary:
+  ar: "«النحو الوافي» كتاب في علم النحو العربي نسبه ملخص بحثي قُدّم إلى المتحف إلى عباس حسن، وذكر تاريخه هكذا: وفاة المؤلف 1979م / 1399هـ {cite:wikipedia-al-nahw-al-wafi-ar}. وعدّه الملخص بين ستين كتاباً هي الأكثر استشهاداً بها في علوم العربية الخمسة."
+  en: "al-Nahw al-Wafi is a work of Arabic grammar that a research summary supplied to the museum ascribes to Abbas Hasan, giving its date as: author died 1979 CE / 1399 AH {cite:wikipedia-al-nahw-al-wafi-ar}. The summary counts it among sixty of the most-cited works in the five Arabic sciences."
+  ur: "«النحو الوافی» عربی نحو کی کتاب ہے جسے عجائب گھر کو دیا گیا ایک تحقیقی خلاصہ عباس حسن سے منسوب کرتا ہے اور اس کی تاریخ یوں دیتا ہے: مصنف کی وفات 1979 ء / 1399 ھ {cite:wikipedia-al-nahw-al-wafi-ar}۔ خلاصہ اسے عربی کے پانچ علوم کی ساٹھ سب سے زیادہ حوالہ دی جانے والی کتابوں میں شمار کرتا ہے۔"
+  fr: "al-Nahw al-Wafi est un ouvrage de grammaire arabe qu'un résumé de recherche remis au musée attribue à Abbas Hasan, en donnant sa date ainsi : mort de l'auteur 1979 ap. J.-C. / 1399 de l'Hégire {cite:wikipedia-al-nahw-al-wafi-ar}. Le résumé le compte parmi soixante des ouvrages les plus cités dans les cinq sciences de l'arabe."
+  es: "al-Nahw al-Wafi es una obra de gramática árabe que un resumen de investigación entregado al museo atribuye a Abbas Hasan, y cuya fecha da así: muerte del autor 1979 d. C. / 1399 de la hégira {cite:wikipedia-al-nahw-al-wafi-ar}. El resumen la cuenta entre sesenta de las obras más citadas en las cinco ciencias del árabe."
+wings: [words]
+themes: [linguistics]
+tags: [arabiyya-browser, arabiyya-books]
+periods: [period/contemporary-era]
+relations:
+  - { type: authored_by, target: person/abbas-hasan-nahwi, sources: [source/wikipedia-al-nahw-al-wafi-ar] }
+  - { type: about, target: concept/ilm-al-nahw, sources: [source/wikipedia-al-nahw-al-wafi-ar] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (the 60 most-cited Arabic linguistic works, sections Dictionaries and Grammar); its facts are used without re-verification by the founder's approval of 21 Nov 2026; the museum did not open the pages the summary names.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-books-1" }
+sources: [source/wikipedia-al-nahw-al-wafi-ar, source/shamela-al-nahw-al-wafi]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

@@ -10,8 +10,10 @@ summary:
   fr: "Fiche de brouillon de l'Ajurrumiyya d'Ibn Ajurrum, le manuel de grammaire étudié dans les écoles depuis des siècles; ses sources ne sont pas encore vérifiées sur la page."
   ur: "ابن اجورم کے اجورومیہ کے لیے ڈرافٹ کارڈ، جو صدیوں سے اسکولوں میں پڑھا جانے والا گرامر پرائمر ہے۔ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
 wings: []
-sources: [source/al-aalam, source/al-mutun-al-ilmiyya-azhar]
+sources: [source/al-aalam, source/al-mutun-al-ilmiyya-azhar, source/wikipedia-ajurrumiyya-en, source/shamela-ajurrumiyya]
 external_ids: { wikidata: "Q4699994" }
+relations:
+  - { type: authored_by, target: person/ibn-ajurrum, sources: [source/wikipedia-ajurrumiyya-en] }
 provenance:
   layer: own-research
   source: "Wikidata candidate; work attested in grammar-study histories — entry not yet checked on the page"

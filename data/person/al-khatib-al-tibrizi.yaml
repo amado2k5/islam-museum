@@ -1,0 +1,20 @@
+id: person/al-khatib-al-tibrizi
+class: person
+label: { ar: "الخطيب التبريزي يحيى بن علي", en: "al-Khatib al-Tibrizi", ur: "الخطيب التبريزي يحيى بن علي", fr: "al-Khatib al-Tibrizi", es: "al-Khatib al-Tibrizi" }
+roles: [scholar, writer]
+gender: male
+tags: [arabiyya-browser, arabiyya-scholars]
+summary:
+  ar: "الخطيب التبريزي يحيى بن علي، مؤلف «الكافي في العروض والقوافي»؛ ويورد ملخص بحثي قُدّم إلى المتحف تاريخ وفاته هكذا: ت 502هـ / 1109م {cite:archive-org-al-kafi-fi-al-arud-wa-al-qawafi}."
+  en: "al-Khatib al-Tibrizi (Yahya ibn Ali), author of \"al-Kafi fi al-Arud wa-l-Qawafi (also edited as al-Wafi)\"; a research summary supplied to the museum gives his date as d. 502 AH / 1109 CE {cite:archive-org-al-kafi-fi-al-arud-wa-al-qawafi}."
+  ur: "الخطيب التبريزي يحيى بن علي، «الكافي في العروض اور القوافي» کے مصنف؛ میوزیم کو دیا گیا ایک تحقیقی خلاصہ ان کی تاریخ یوں دیتا ہے: وفات 502ھ / 1109ء {cite:archive-org-al-kafi-fi-al-arud-wa-al-qawafi}۔"
+  fr: "al-Khatib al-Tibrizi (Yahya ibn Ali), auteur de « al-Kafi fi al-Arud wa-l-Qawafi (also edited as al-Wafi) » ; une synthèse de recherche remise au musée donne sa date ainsi : m. 502 H / 1109 {cite:archive-org-al-kafi-fi-al-arud-wa-al-qawafi}."
+  es: "al-Khatib al-Tibrizi (Yahya ibn Ali), autor de «al-Kafi fi al-Arud wa-l-Qawafi (also edited as al-Wafi)»; un resumen de investigación entregado al museo da su fecha así: m. 502 H. / 1109 {cite:archive-org-al-kafi-fi-al-arud-wa-al-qawafi}."
+wings: [people]
+themes: [linguistics]
+died: { edtf: "1109", hijri: "0502", calendar: julian, precision: year, status: tradition, derived: true, note: "Date from a research summary supplied to the museum, pages not opened (founder approval 21 Nov 2026) {cite:archive-org-al-kafi-fi-al-arud-wa-al-qawafi}." }
+relations:
+  - { type: authored, target: work/al-kafi-fi-al-arud-wa-al-qawafi, sources: [source/archive-org-al-kafi-fi-al-arud-wa-al-qawafi] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/archive-org-al-kafi-fi-al-arud-wa-al-qawafi]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

@@ -1,0 +1,20 @@
+id: person/izz-al-din-al-zanjani
+class: person
+label: { ar: "عز الدين الزنجاني", en: "Izz al-Din al-Zanjani", ur: "عز الدين الزنجاني", fr: "Izz al-Din al-Zanjani", es: "Izz al-Din al-Zanjani" }
+roles: [scholar, writer]
+gender: male
+tags: [arabiyya-browser, arabiyya-scholars]
+summary:
+  ar: "عز الدين الزنجاني، مؤلف «التصريف العزي»؛ ويورد ملخص بحثي قُدّم إلى المتحف تاريخ وفاته هكذا: ت 655هـ / 1257م {cite:ketabonline-tasrif-al-izzi}."
+  en: "Izz al-Din al-Zanjani, author of \"Tasrif al-Izzi (al-Izzi fi al-Tasrif)\"; a research summary supplied to the museum gives his date as d. 655 AH / 1257 CE {cite:ketabonline-tasrif-al-izzi}."
+  ur: "عز الدين الزنجاني، «التصريف العزي» کے مصنف؛ میوزیم کو دیا گیا ایک تحقیقی خلاصہ ان کی تاریخ یوں دیتا ہے: وفات 655ھ / 1257ء {cite:ketabonline-tasrif-al-izzi}۔"
+  fr: "Izz al-Din al-Zanjani, auteur de « Tasrif al-Izzi (al-Izzi fi al-Tasrif) » ; une synthèse de recherche remise au musée donne sa date ainsi : m. 655 H / 1257 {cite:ketabonline-tasrif-al-izzi}."
+  es: "Izz al-Din al-Zanjani, autor de «Tasrif al-Izzi (al-Izzi fi al-Tasrif)»; un resumen de investigación entregado al museo da su fecha así: m. 655 H. / 1257 {cite:ketabonline-tasrif-al-izzi}."
+wings: [people]
+themes: [linguistics]
+died: { edtf: "1257", hijri: "0655", calendar: julian, precision: year, status: tradition, derived: true, note: "Date from a research summary supplied to the museum, pages not opened (founder approval 21 Nov 2026) {cite:ketabonline-tasrif-al-izzi}." }
+relations:
+  - { type: authored, target: work/tasrif-al-izzi, sources: [source/ketabonline-tasrif-al-izzi] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/ketabonline-tasrif-al-izzi]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

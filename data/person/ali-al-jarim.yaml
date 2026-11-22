@@ -1,0 +1,20 @@
+id: person/ali-al-jarim
+class: person
+label: { ar: "علي الجارم", en: "Ali al-Jarim", ur: "علي الجارم", fr: "Ali al-Jarim", es: "Ali al-Jarim" }
+roles: [scholar, writer]
+gender: male
+tags: [arabiyya-browser, arabiyya-scholars]
+summary:
+  ar: "علي الجارم، مؤلف «البلاغة الواضحة»؛ ويورد ملخص بحثي قُدّم إلى المتحف تاريخ وفاته هكذا: ت 1949م {cite:wikipedia-ar-ali-al-jarim}."
+  en: "Ali al-Jarim, author of \"al-Balagha al-Wadiha\"; a research summary supplied to the museum gives his date as d. 1949 CE {cite:wikipedia-ar-ali-al-jarim}."
+  ur: "علي الجارم، «البلاغة الواضحة» کے مصنف؛ میوزیم کو دیا گیا ایک تحقیقی خلاصہ ان کی تاریخ یوں دیتا ہے: وفات 1949ء {cite:wikipedia-ar-ali-al-jarim}۔"
+  fr: "Ali al-Jarim, auteur de « al-Balagha al-Wadiha » ; une synthèse de recherche remise au musée donne sa date ainsi : m. 1949 {cite:wikipedia-ar-ali-al-jarim}."
+  es: "Ali al-Jarim, autor de «al-Balagha al-Wadiha»; un resumen de investigación entregado al museo da su fecha así: m. 1949 {cite:wikipedia-ar-ali-al-jarim}."
+wings: [people]
+themes: [linguistics]
+died: { edtf: "1949", calendar: gregorian, precision: year, status: tradition, derived: true, note: "Date from a research summary supplied to the museum, pages not opened (founder approval 21 Nov 2026) {cite:wikipedia-ar-ali-al-jarim}." }
+relations:
+  - { type: authored, target: work/al-balagha-al-wadiha, sources: [source/wikipedia-ar-ali-al-jarim] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/wikipedia-ar-ali-al-jarim]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

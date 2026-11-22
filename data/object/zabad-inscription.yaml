@@ -1,0 +1,28 @@
+id: object/zabad-inscription
+class: object
+kind: other
+tags: [arabiyya-browser, arabiyya-script]
+label:
+  ar: "نقش زبد الثلاثي اللغة"
+  en: "The trilingual Zabad inscription"
+  ur: "تین زبانوں والا کتبۂ زبد"
+  fr: "L'inscription trilingue de Zabad"
+  es: "La inscripción trilingüe de Zabad"
+summary:
+  ar: "كتابة تأسيس مسيحية بالعربية القديمة واليونانية والسريانية على عتبة بازلتية لمزار القديس سرجيوس في زبد شمال سورية، مؤرخة بسنة 512م أو 24 أيلول 511م، وتحفظ في متحف الفن والتاريخ في بروكسل {cite:oxford-cult-of-saints-e01817-zabad} {cite:wikipedia-zabad-inscription-en}."
+  en: "A Christian dedicatory inscription in Old Arabic, Greek and Syriac on a basalt lintel of the shrine of Saint Sergios at Zabad in northern Syria, dated 512 CE or 24 September 511 CE and held in the Art and History Museum in Brussels {cite:oxford-cult-of-saints-e01817-zabad} {cite:wikipedia-zabad-inscription-en}."
+  ur: "شمالی شام میں زبد کے سینٹ سرجیوس کے مزار کی بازالٹ چوکھٹ پر قدیم عربی، یونانی اور سریانی میں مسیحی تاسیسی کتبہ، 512 عیسوی یا 24 ستمبر 511 عیسوی کا، جو برسلز کے میوزیم آف آرٹ اینڈ ہسٹری میں محفوظ ہے {cite:oxford-cult-of-saints-e01817-zabad} {cite:wikipedia-zabad-inscription-en}۔"
+  fr: "Inscription de dédicace chrétienne en vieil arabe, grec et syriaque sur un linteau de basalte du sanctuaire de saint Serge à Zabad, dans le nord de la Syrie, datée de 512 ou du 24 septembre 511 et conservée au Musée d'Art et d'Histoire de Bruxelles {cite:oxford-cult-of-saints-e01817-zabad} {cite:wikipedia-zabad-inscription-en}."
+  es: "Inscripción dedicatoria cristiana en árabe antiguo, griego y siríaco sobre un dintel de basalto del santuario de San Sergio en Zabad, en el norte de Siria, fechada en 512 o el 24 de septiembre de 511 y conservada en el Museo de Arte e Historia de Bruselas {cite:oxford-cult-of-saints-e01817-zabad} {cite:wikipedia-zabad-inscription-en}."
+wings: [words, objects]
+themes: [linguistics]
+regions: [levant-iraq]
+made: { edtf: "0512", calendar: julian, precision: year, status: debated, derived: true, note: "512 CE, or 24 September 511 CE under the northern Syrian Macedonian calendar (24 Gorpiaios, year 823 of the Seleucid era); both given by the research summary, the museum does not choose {cite:oxford-cult-of-saints-e01817-zabad} {cite:wikipedia-zabad-inscription-en}. The founder's second file names {cite:wmich-quranic-jesus-dissertation} as support; not opened." }
+holding_institution: "Art and History Museum, Brussels (as stated in the research summary)"
+relations:
+  - { type: related_to, target: place/aleppo, sources: [source/oxford-cult-of-saints-e01817-zabad] }
+  - { type: related_to, target: concept/khatt-al-arabi, sources: [source/britannica-arabic-alphabet] }
+  - { type: related_to, target: object/namara-inscription, sources: [source/wikipedia-namara-inscription-en] }
+  - { type: related_to, target: concept/aqdam-al-nuqush-al-arabiyya, sources: [source/oxford-cult-of-saints-e01817-zabad] }
+sources: [source/oxford-cult-of-saints-e01817-zabad, source/wikipedia-zabad-inscription-en, source/britannica-arabic-alphabet, source/wmich-quranic-jesus-dissertation]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; translations are machine translations by the same model" }

@@ -1,0 +1,27 @@
+id: concept/ummahat-al-kutub-fi-ulum-al-arabiyya
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-books]
+label:
+  ar: "أمهات الكتب في علوم العربية"
+  en: "The mother books of the Arabic sciences (sixty works)"
+  ur: "علوم عربیہ کی بنیادی کتابیں"
+  fr: "Les livres fondateurs des sciences de l'arabe (soixante ouvrages)"
+  es: "Los libros fundamentales de las ciencias del árabe (sesenta obras)"
+summary:
+  ar: "جدول جامع لستين كتاباً من أكثر الكتب ذكراً في علوم العربية، اثني عشر في كل علم من المعاجم والنحو والصرف والعروض والبلاغة، مع مؤلف كل كتاب وتاريخه وما قاله ملخص بحثي قُدّم إلى المتحف عن وجوده في المكتبة الشاملة، وروابط إلى سجل كل كتاب {cite:wikipedia-ar-al-bayan-wa-al-tabyin}."
+  en: "A single table of sixty of the most-cited books in the sciences of Arabic, twelve each for dictionaries, grammar, morphology, prosody and rhetoric, with each book's author, date and what a research summary supplied to the museum says of its presence in the Shamela library, linking to the record of each book {cite:wikipedia-ar-al-bayan-wa-al-tabyin}."
+  ur: "عربی کے علوم میں سب سے زیادہ مذکور ساٹھ کتابوں کا ایک جدول، لغات، نحو، صرف، عروض اور بلاغت کی بارہ بارہ، ہر کتاب کے مصنف، تاریخ اور شاملہ میں موجودگی کے بارے میں میوزیم کو دیے گئے تحقیقی خلاصے کے بیان کے ساتھ، اور ہر کتاب کے اندراج کے روابط {cite:wikipedia-ar-al-bayan-wa-al-tabyin}۔"
+  fr: "Un tableau unique de soixante des livres les plus cités dans les sciences de l'arabe, douze pour chacune : dictionnaires, grammaire, morphologie, prosodie, rhétorique, avec l'auteur, la date de chaque livre et ce que dit de sa présence dans la bibliothèque Shamela une synthèse de recherche remise au musée, avec des liens vers la fiche de chaque livre {cite:wikipedia-ar-al-bayan-wa-al-tabyin}."
+  es: "Una tabla única de sesenta de los libros más citados en las ciencias del árabe, doce para cada una: diccionarios, gramática, morfología, prosodia y retórica, con el autor y la fecha de cada libro y lo que dice de su presencia en la biblioteca Shamela un resumen de investigación entregado al museo, con enlaces al registro de cada libro {cite:wikipedia-ar-al-bayan-wa-al-tabyin}."
+wings: [words, ideas]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: concept/ilm-al-sarf, sources: [source/wikipedia-ar-al-bayan-wa-al-tabyin] }
+  - { type: related_to, target: concept/ilm-al-arud, sources: [source/wikipedia-ar-al-bayan-wa-al-tabyin] }
+  - { type: related_to, target: concept/ilm-al-balagha, sources: [source/wikipedia-ar-al-bayan-wa-al-tabyin] }
+  - { type: related_to, target: concept/ilm-al-nahw, sources: [source/wikipedia-ar-al-bayan-wa-al-tabyin] }
+  - { type: related_to, target: language/arabic, sources: [source/wikipedia-ar-al-bayan-wa-al-tabyin] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/wikipedia-ar-al-bayan-wa-al-tabyin]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }
