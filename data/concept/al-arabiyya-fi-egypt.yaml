@@ -1,0 +1,28 @@
+id: concept/al-arabiyya-fi-egypt
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في مصر"
+  en: "Arabic in Egypt"
+  ur: "مصر میں عربی"
+  fr: "L'arabe en Égypte"
+  es: "El árabe en Egipto"
+summary:
+  ar: "مكانة العربية في مصر كما تقولها دائرة المعارف البريطانية وكتاب حقائق العالم: لغة رسمية، يتكلم أكثر المصريين إحدى عاميّاتها المتعددة وتختلف عن الفصحى المكتوبة، وللصعيد والدلتا والبدو لهجات متمايزة، وحلّت العربية محل القبطية في الحياة اليومية بحلول القرن الثاني عشر وبقيت القبطية لغة طقسية. وتنبّه الصفحة إلى ما لم يُقرأ."
+  en: "The place of Arabic in Egypt as the Encyclopaedia Britannica and The World Factbook state it: an official language, with most Egyptians speaking one of its several colloquials, which differ from the written standard; Upper Egypt, the Delta and the Bedouin have distinct varieties; Arabic replaced Coptic in daily life by the 12th century, and Coptic remained liturgical. The page notes what was not read."
+  ur: "مصر میں عربی کا مقام جیسا انسائیکلوپیڈیا برٹانیکا اور ورلڈ فیکٹ بک بیان کرتی ہیں: سرکاری زبان، اکثر مصری اس کی کوئی ایک بول چال کی شکل بولتے ہیں جو لکھی جانے والی معیاری عربی سے مختلف ہے؛ صعید، ڈیلٹا اور بدوؤں کی الگ بولیاں ہیں؛ بارہویں صدی تک عربی روزمرہ میں قبطی کی جگہ لے چکی تھی اور قبطی عبادتی زبان رہ گئی۔ صفحہ بتاتا ہے کہ کیا نہیں پڑھا گیا۔"
+  fr: "La place de l'arabe en Égypte selon l'Encyclopaedia Britannica et The World Factbook : langue officielle, la plupart des Égyptiens parlant l'un de ses parlers, qui diffèrent du standard écrit ; la Haute-Égypte, le Delta et les Bédouins ont des variétés distinctes ; l'arabe a remplacé le copte dans la vie quotidienne au XIIe siècle et le copte est resté liturgique. La page note ce qui n'a pas été lu."
+  es: "El lugar del árabe en Egipto según la Encyclopaedia Britannica y The World Factbook: lengua oficial, con la mayoría de los egipcios hablando uno de sus coloquiales, que difieren del estándar escrito; el Alto Egipto, el Delta y los beduinos tienen variedades distintas; el árabe sustituyó al copto en la vida diaria hacia el siglo XII y el copto quedó como lengua litúrgica. La página anota lo que no se leyó."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: place/misr, sources: [source/britannica-egypt-languages] }
+  - { type: related_to, target: language/arabic, sources: [source/britannica-egypt-languages] }
+  - { type: related_to, target: concept/al-alam-al-arabi, sources: [source/britannica-semitic-languages] }
+  - { type: related_to, target: concept/al-fusha-wal-lahajat, sources: [source/britannica-egypt-languages] }
+  - { type: related_to, target: concept/lughat-al-qabail, sources: [source/britannica-egypt-languages] }
+  - { type: related_to, target: concept/lahjat-misr, sources: [source/britannica-egypt-languages] }
+provenance: { layer: own-research, source: "Britannica Egypt: Languages and CIA World Factbook Egypt page (archived copy), read on 21 Nov 2026.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-countries-b" }
+sources: [source/britannica-egypt-languages, source/britannica-semitic-languages, source/cia-factbook-egypt]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

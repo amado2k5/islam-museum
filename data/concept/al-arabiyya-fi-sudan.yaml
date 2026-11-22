@@ -1,0 +1,27 @@
+id: concept/al-arabiyya-fi-sudan
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في السودان"
+  en: "Arabic in Sudan"
+  ur: "سوڈان میں عربی"
+  fr: "L'arabe au Soudan"
+  es: "El árabe en Sudán"
+summary:
+  ar: "مكانة العربية في السودان كما تقولها دائرة المعارف البريطانية وكتاب حقائق العالم: العربية والإنجليزية لغتان رسميتان، وللنوبية والبجاوية والفورية ذكر في الكتاب، وتروي الموسوعة سيادة العربية في الشمال وهجرة القبائل العربية جنوباً ونوبة النيل المستعربة ومدارس الفور القرآنية. ولا تقول الصفحتان شيئاً عن اللهجة السودانية ولا عن أعداد المتكلمين."
+  en: "The place of Arabic in Sudan as the Encyclopaedia Britannica and The World Factbook state it: Arabic and English are official, the Factbook names Nubian, Ta Bedawie and Fur, and the encyclopedia tells of the ascendancy of Arabic in the north, the southward move of Arab nomads, the Arabized Nubians of the Nile and Qur'anic schools among the Fur. The pages say nothing on the Sudanese dialect or on numbers of speakers."
+  ur: "سوڈان میں عربی کا مقام جیسا انسائیکلوپیڈیا برٹانیکا اور ورلڈ فیکٹ بک بیان کرتی ہیں: عربی اور انگریزی سرکاری ہیں، فیکٹ بک نوبی، تا بداوی اور فور کے نام لیتی ہے، اور برٹانیکا شمال میں عربی کے غلبے، عرب بدوؤں کی جنوب کی ہجرت، نیل کے عربی اثر والے نوبیوں اور فور قوم کے قرآنی مدارس کا ذکر کرتی ہے۔ دونوں صفحات سوڈانی لہجے اور بولنے والوں کی تعداد کے بارے میں کچھ نہیں کہتے۔"
+  fr: "La place de l'arabe au Soudan selon l'Encyclopaedia Britannica et The World Factbook : l'arabe et l'anglais sont officiels, le Factbook nomme le nubien, le ta bedawie et le four, et l'encyclopédie raconte l'ascendant de l'arabe dans le nord, la migration des nomades arabes vers le sud, les Nubiens arabisés du Nil et les écoles coraniques des Four. Les pages ne disent rien du dialecte soudanais ni du nombre de locuteurs."
+  es: "El lugar del árabe en Sudán según la Encyclopaedia Britannica y The World Factbook: el árabe y el inglés son oficiales, el Factbook nombra el nubio, el ta bedawie y el fur, y la enciclopedia cuenta el predominio del árabe en el norte, el desplazamiento de nómadas árabes hacia el sur, los nubios arabizados del Nilo y las escuelas coránicas entre los fur. Las páginas no dicen nada del dialecto sudanés ni del número de hablantes."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: place/sudan, sources: [source/britannica-sudan] }
+  - { type: related_to, target: language/arabic, sources: [source/britannica-sudan] }
+  - { type: related_to, target: concept/al-alam-al-arabi, sources: [source/britannica-semitic-languages] }
+  - { type: related_to, target: concept/al-fusha-wal-lahajat, sources: [source/cia-factbook-sudan] }
+  - { type: related_to, target: concept/lughat-al-qabail, sources: [source/cia-factbook-sudan] }
+provenance: { layer: own-research, source: "Britannica Sudan (main page and three sub-pages) and CIA World Factbook Sudan page (archived copy), read on 21 Nov 2026.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-countries-b" }
+sources: [source/britannica-arab-league, source/britannica-semitic-languages, source/britannica-sudan, source/britannica-sudan-cultural-life, source/britannica-sudan-islamic-encroachments, source/britannica-sudan-spread-of-islam, source/cia-factbook-sudan]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

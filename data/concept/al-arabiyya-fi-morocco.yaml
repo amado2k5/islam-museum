@@ -1,0 +1,28 @@
+id: concept/al-arabiyya-fi-morocco
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في المغرب"
+  en: "Arabic in Morocco"
+  ur: "مراکش میں عربی"
+  fr: "L'arabe au Maroc"
+  es: "El árabe en Marruecos"
+summary:
+  ar: "مكانة العربية في المغرب كما تقولها دائرة المعارف البريطانية وكتاب حقائق العالم: لغة وطنية ورسمية، تقول الموسوعة إن ثلثي السكان يتكلمونها وإن الأمازيغية ثلثهم ورسمية منذ 2011، ويقول الكتاب إن نسبة متكلمي الأمازيغية موضع خلاف ويسمّي منها التشلحيت والتريفيت، وللفرنسية مكانة في الأعمال والحكم. وتذكر الصفحة الخلاف بين المصدرين ولا تختار."
+  en: "The place of Arabic in Morocco as the Encyclopaedia Britannica and The World Factbook state it: a national and official language, which the encyclopedia says two-thirds of the population speak, with Tamazight spoken by one-third and official since 2011, while the Factbook says the share of Tamazight speakers is disputed and names Tachelhit and Tarifit among its forms; French has a place in business and government. The page states the difference between the two sources and chooses neither."
+  ur: "مراکش میں عربی کا مقام جیسا انسائیکلوپیڈیا برٹانیکا اور ورلڈ فیکٹ بک بیان کرتی ہیں: قومی اور سرکاری زبان، جسے برٹانیکا کے مطابق دو تہائی آبادی بولتی ہے اور امازیغی ایک تہائی اور 2011 سے سرکاری؛ فیکٹ بک کہتی ہے کہ امازیغی بولنے والوں کا تناسب متنازع ہے اور اس کی شکلوں میں تشلحیت اور تریفیت کے نام لیتی ہے؛ فرانسیسی کا کاروبار اور حکومت میں مقام ہے۔ صفحہ دونوں مآخذ کا فرق بتاتا ہے اور کسی کو ترجیح نہیں دیتا۔"
+  fr: "La place de l'arabe au Maroc selon l'Encyclopaedia Britannica et The World Factbook : langue nationale et officielle, que, selon l'encyclopédie, les deux tiers de la population parlent, le tamazight étant parlé par un tiers et officiel depuis 2011, alors que le Factbook dit que la part des locuteurs du tamazight est contestée et nomme le tachelhit et le tarifit parmi ses formes ; le français a une place dans les affaires et le gouvernement. La page énonce la différence entre les deux sources sans choisir."
+  es: "El lugar del árabe en Marruecos según la Encyclopaedia Britannica y The World Factbook: lengua nacional y oficial, que según la enciclopedia hablan dos tercios de la población, con el tamazight hablado por un tercio y oficial desde 2011, mientras que el Factbook dice que la proporción de hablantes de tamazight es discutida y nombra el tachelhit y el tarifit entre sus formas; el francés tiene un lugar en los negocios y el gobierno. La página enuncia la diferencia entre las dos fuentes y no elige."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: place/morocco, sources: [source/britannica-morocco] }
+  - { type: related_to, target: language/arabic, sources: [source/britannica-morocco] }
+  - { type: related_to, target: concept/al-alam-al-arabi, sources: [source/britannica-arab-league] }
+  - { type: related_to, target: concept/al-fusha-wal-lahajat, sources: [source/cia-factbook-morocco] }
+  - { type: related_to, target: concept/lughat-al-qabail, sources: [source/cia-factbook-morocco] }
+  - { type: related_to, target: concept/lahjat-al-maghrib, sources: [source/cia-factbook-morocco] }
+provenance: { layer: own-research, source: "Britannica Morocco and CIA World Factbook Morocco page (archived copy), read on 21 Nov 2026.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-countries-b" }
+sources: [source/britannica-arab-league, source/britannica-maghrib, source/britannica-morocco, source/britannica-semitic-languages, source/cia-factbook-morocco]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

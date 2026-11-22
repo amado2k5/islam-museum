@@ -1,0 +1,28 @@
+id: concept/al-arabiyya-fi-tunisia
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في تونس"
+  en: "Arabic in Tunisia"
+  ur: "تیونس میں عربی"
+  fr: "L'arabe en Tunisie"
+  es: "El árabe en Túnez"
+summary:
+  ar: "مكانة العربية في تونس كما تقولها دائرة المعارف البريطانية وكتاب حقائق العالم: لغة رسمية يتكلم أكثر الناس فيها لهجة تونسية، وتُدرَّس الفصحى في المدارس، وتمّ تعريب البلاد ثقافياً في الأغلب بنهاية القرن الثاني عشر، وبقيت البربرية عند جزء ضئيل في الجنوب، وللفرنسية دور كبير. وفي نسبة متكلمي الفرنسية يذكر الكتاب ما لا تذكره الموسوعة."
+  en: "The place of Arabic in Tunisia as the Encyclopaedia Britannica and The World Factbook state it: an official language, with most people speaking a Tunisian dialect, the standard taught in schools; the country's cultural Arabization largely complete by the end of the 12th century, Berber kept by a tiny fraction in the south, and French playing a major role. On the share of French speakers the Factbook gives what the encyclopedia does not."
+  ur: "تیونس میں عربی کا مقام جیسا انسائیکلوپیڈیا برٹانیکا اور ورلڈ فیکٹ بک بیان کرتی ہیں: سرکاری زبان، اکثر لوگ تیونسی لہجہ بولتے ہیں اور فصیح اسکولوں میں پڑھائی جاتی ہے؛ بارہویں صدی کے آخر تک ملک کی ثقافتی تعریب بڑی حد تک مکمل ہو چکی تھی، جنوب میں آبادی کا ایک ننھا حصہ بربر زبانیں بولتا ہے، اور فرانسیسی کا بڑا کردار ہے۔ فرانسیسی بولنے والوں کے تناسب پر فیکٹ بک وہ دیتی ہے جو برٹانیکا نہیں دیتی۔"
+  fr: "La place de l'arabe en Tunisie selon l'Encyclopaedia Britannica et The World Factbook : langue officielle, la plupart des gens parlant un dialecte tunisien, le standard étant enseigné à l'école ; l'arabisation culturelle du pays largement achevée à la fin du XIIe siècle, le berbère conservé par une infime fraction au sud, et le français jouant un rôle majeur. Sur la part des francophones, le Factbook donne ce que l'encyclopédie ne donne pas."
+  es: "El lugar del árabe en Túnez según la Encyclopaedia Britannica y The World Factbook: lengua oficial, con la mayoría hablando un dialecto tunecino y el estándar enseñado en las escuelas; la arabización cultural del país en gran parte completada a finales del siglo XII, el bereber conservado por una fracción minúscula en el sur y el francés con un papel importante. Sobre la proporción de francófonos, el Factbook da lo que la enciclopedia no da."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: place/tunisia, sources: [source/britannica-tunisia-languages] }
+  - { type: related_to, target: language/arabic, sources: [source/britannica-tunisia-languages] }
+  - { type: related_to, target: concept/al-alam-al-arabi, sources: [source/britannica-arab-league] }
+  - { type: related_to, target: concept/al-fusha-wal-lahajat, sources: [source/britannica-tunisia-languages] }
+  - { type: related_to, target: concept/lughat-al-qabail, sources: [source/britannica-tunisia-languages] }
+  - { type: related_to, target: concept/lahjat-al-maghrib, sources: [source/cia-factbook-tunisia] }
+provenance: { layer: own-research, source: "Britannica Tunisia: Languages and CIA World Factbook Tunisia page (archived copy), read on 21 Nov 2026.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-countries-b" }
+sources: [source/britannica-arab-league, source/britannica-maghrib, source/britannica-semitic-languages, source/britannica-tunisia-languages, source/cia-factbook-tunisia]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }

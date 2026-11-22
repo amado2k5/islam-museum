@@ -1,0 +1,28 @@
+id: concept/al-arabiyya-fi-libya
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-world]
+label:
+  ar: "العربية في ليبيا"
+  en: "Arabic in Libya"
+  ur: "لیبیا میں عربی"
+  fr: "L'arabe en Libye"
+  es: "El árabe en Libia"
+summary:
+  ar: "مكانة العربية في ليبيا كما تقولها دائرة المعارف البريطانية وكتاب حقائق العالم: لغة رسمية يتكلمها كل الليبيين تقريباً، ونسبهم إلى بني هلال وبني سليم كما تروي الموسوعة، والأمازيغية في مواضع محدودة وأبرزها النفوسية، والإنجليزية والإيطالية مفهومتان في المدن. ولا تقول الصفحتان شيئاً عن تصنيف اللهجة."
+  en: "The place of Arabic in Libya as the Encyclopaedia Britannica and The World Factbook state it: the official language spoken by almost all Libyans, who claim descent from the Banu Hilal and Banu Sulaym as the encyclopedia tells it; Amazigh in limited places, Nafusi above all; English and Italian understood in the cities. The pages say nothing on the classification of the dialect."
+  ur: "لیبیا میں عربی کا مقام جیسا انسائیکلوپیڈیا برٹانیکا اور ورلڈ فیکٹ بک بیان کرتی ہیں: سرکاری زبان جو تقریباً سب لیبیائی بولتے ہیں، جو بنو ہلال اور بنو سلیم سے نسبت کا دعویٰ کرتے ہیں جیسا برٹانیکا بیان کرتی ہے؛ محدود مقامات پر امازیغی، خاص طور پر نفوسی؛ اور شہروں میں انگریزی اور اطالوی کی سمجھ۔ دونوں صفحات لہجے کی درجہ بندی کے بارے میں کچھ نہیں کہتے۔"
+  fr: "La place de l'arabe en Libye selon l'Encyclopaedia Britannica et The World Factbook : langue officielle parlée par presque tous les Libyens, qui revendiquent une descendance des Banu Hilal et des Banu Sulaym selon l'encyclopédie ; l'amazigh en des lieux limités, le nafusi surtout ; l'anglais et l'italien compris dans les villes. Les pages ne disent rien du classement du dialecte."
+  es: "El lugar del árabe en Libia según la Encyclopaedia Britannica y The World Factbook: lengua oficial hablada por casi todos los libios, que reivindican descender de los Banu Hilal y los Banu Sulaym según la enciclopedia; el amazigh en lugares limitados, sobre todo el nafusi; el inglés y el italiano comprendidos en las ciudades. Las páginas no dicen nada de la clasificación del dialecto."
+wings: [words, place]
+themes: [linguistics]
+relations:
+  - { type: related_to, target: place/libya, sources: [source/britannica-libya-people] }
+  - { type: related_to, target: language/arabic, sources: [source/britannica-libya-people] }
+  - { type: related_to, target: concept/al-alam-al-arabi, sources: [source/britannica-arab-league] }
+  - { type: related_to, target: concept/al-fusha-wal-lahajat, sources: [source/cia-factbook-libya] }
+  - { type: related_to, target: concept/lughat-al-qabail, sources: [source/britannica-libya-people] }
+  - { type: related_to, target: concept/lahjat-al-maghrib, sources: [source/cia-factbook-libya] }
+provenance: { layer: own-research, source: "Britannica Libya: People and CIA World Factbook Libya page (archived copy), read on 21 Nov 2026.", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "arabiyya-browser-countries-b" }
+sources: [source/britannica-arab-league, source/britannica-libya-people, source/britannica-maghrib, source/britannica-semitic-languages, source/cia-factbook-libya]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from the cited sources, not read by a human; translations are machine translations by the same model" }
