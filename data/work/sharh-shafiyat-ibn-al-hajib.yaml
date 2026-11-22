@@ -1,0 +1,24 @@
+id: work/sharh-shafiyat-ibn-al-hajib
+class: work
+kind: book
+label:
+  ar: "شرح شافية ابن الحاجب"
+  en: "Sharh Shafiyat Ibn al-Hajib (al-Radi al-Astarabadhi)"
+  ur: "شرح شافية ابن الحاجب"
+  fr: "Sharh Shafiyat Ibn al-Hajib (al-Radi al-Astarabadhi)"
+  es: "Sharh Shafiyat Ibn al-Hajib (al-Radi al-Astarabadhi)"
+summary:
+  ar: "شرح شافية ابن الحاجب، كتاب في الصرف والتصريف لمؤلفه الرضي الأسترابادي، وتاريخه بحسب ملخص بحثي قُدّم إلى المتحف: ت نحو 686هـ / نحو 1287م {cite:qaf-sharh-shafiyat-ibn-al-hajib}. وجواب الملخص عن وجوده في المكتبة الشاملة: نعم، والكتاب في المكتبة الشاملة: Book ID 21567 {cite:shamela-org-pdf-sharh-shafiyat-ibn-al-hajib}. لم يقرأ المتحف الكتاب."
+  en: "Sharh Shafiyat Ibn al-Hajib, a book on morphology (sarf and tasrif) by al-Radi al-Astarabadhi; its date in a research summary supplied to the museum is d. c. 686 AH / c. 1287 CE {cite:qaf-sharh-shafiyat-ibn-al-hajib}. The summary's answer on its presence in the Shamela library: Yes, the book is in the Shamela library: Book ID 21567 {cite:shamela-org-pdf-sharh-shafiyat-ibn-al-hajib}. The museum has not read the book."
+  ur: "شرح شافية ابن الحاجب، صرف و تصریف پر ایک کتاب، مصنف الرضي الأسترابادي؛ میوزیم کو دیے گئے تحقیقی خلاصے میں اس کی تاریخ: وفات تقریباً 686ھ / تقریباً 1287ء {cite:qaf-sharh-shafiyat-ibn-al-hajib}۔ شاملہ میں موجودگی پر خلاصے کا جواب: جی ہاں، کتاب المکتبۃ الشاملہ میں ہے: Book ID 21567 {cite:shamela-org-pdf-sharh-shafiyat-ibn-al-hajib}۔ میوزیم نے یہ کتاب نہیں پڑھی۔"
+  fr: "Sharh Shafiyat Ibn al-Hajib, livre sur la morphologie (sarf et tasrif) de al-Radi al-Astarabadhi ; sa date dans une synthèse de recherche remise au musée : m. vers 686 H / vers 1287 {cite:qaf-sharh-shafiyat-ibn-al-hajib}. Réponse de la synthèse sur sa présence dans la bibliothèque Shamela : Oui, le livre figure dans la bibliothèque Shamela : Book ID 21567 {cite:shamela-org-pdf-sharh-shafiyat-ibn-al-hajib}. Le musée n'a pas lu le livre."
+  es: "Sharh Shafiyat Ibn al-Hajib, libro sobre morfología (sarf y tasrif) de al-Radi al-Astarabadhi; su fecha en un resumen de investigación entregado al museo: m. hacia 686 H. / hacia 1287 {cite:qaf-sharh-shafiyat-ibn-al-hajib}. Respuesta del resumen sobre su presencia en la biblioteca Shamela: Sí, el libro está en la biblioteca Shamela: Book ID 21567 {cite:shamela-org-pdf-sharh-shafiyat-ibn-al-hajib}. El museo no ha leído el libro."
+wings: [words, ideas]
+themes: [linguistics]
+tags: [arabiyya-browser, arabiyya-books]
+relations:
+  - { type: authored_by, target: person/radi-al-din-al-astarabadhi, sources: [source/qaf-sharh-shafiyat-ibn-al-hajib] }
+  - { type: related_to, target: concept/ilm-al-sarf, sources: [source/qaf-sharh-shafiyat-ibn-al-hajib] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md, section 3); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat. The museum has not read this book.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/qaf-sharh-shafiyat-ibn-al-hajib, source/shamela-org-pdf-sharh-shafiyat-ibn-al-hajib]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

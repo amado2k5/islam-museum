@@ -1,0 +1,29 @@
+---
+id: concept/marahil-tatawwur-al-khatt-al-arabi
+lang: es
+source_lang: ar
+translators: ["claude-sonnet-5-5 (machine translation)"]
+---
+## Resumen
+Esta página expone cinco etapas del desarrollo de la escritura árabe en orden cronológico, tal como las da un resumen de investigación entregado al museo: el cúfico desde fines del siglo VII hasta el X, luego los puntos y las vocales de fines del VII y el VIII, luego el naskh, luego el zuluz en el siglo X, luego el ruqa en el XIX. El orden sigue el comienzo de cada etapa y algunas se solapan; todo lo que sigue es el relato del resumen, tal como el museo lo atribuye.
+
+## Primero: el cúfico
+El cúfico surgió en Kufa, en Irak, según el resumen, y es la forma caligráfica más antigua del árabe, marcada por trazos angulares y rectilíneos y un énfasis horizontal. Empezó sin puntos consonánticos ni signos vocálicos y siguió siendo la escritura principal de los primeros coranes en pergamino, de las monedas, los tejidos y las inscripciones arquitectónicas hasta los siglos X y XI, y dio lugar después a formas ornamentales como el cúfico florido, el anudado y el cuadrado {cite:met-development-spread-calligraphic-scripts} {cite:britannica-kufic-script} {cite:wikipedia-kufic-en}. Un ejemplo temprano es la [[object/dome-of-the-rock-inscription|inscripción de la Cúpula de la Roca]]. El museo tiene fichas sobre la [[concept/kufic-script|escritura cúfica]] y el [[concept/floriated-kufic|cúfico florido]]; la del cúfico, siguiendo a Ekhtiar, dice que el nombre viene de [[place/kufa|Kufa]] pero designa una familia de escrituras y no un lugar de hechura {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 23}. Los dos relatos se ponen lado a lado.
+
+## Segundo: los puntos y las vocales
+Los puntos y las vocales surgieron en Basora para resolver la ambigüedad de la escritura sin puntuar. Abu al-Aswad al-Du'ali ⁦(m. 688 o 689)⁩ introdujo puntos de color para las vocales breves; Nasr ibn 'Asim (m. 708 o 709) y Yahya ibn Ya'mar introdujeron signos, puntos o rayas, que distinguen consonantes parecidas, el i'jam; y al-Khalil ibn Ahmad al-Farahidi (718 a 786 o 791) sustituyó los puntos de color por los conocidos signos de trazo, fatha, kasra, damma y shadda, escritos con la tinta del texto {cite:wikipedia-arabic-diacritics-en} {cite:wikipedia-abu-al-aswad-al-duali-en} {cite:wikipedia-al-khalil-ibn-ahmad-al-farahidi-en}. Véanse [[person/abu-al-aswad-al-duali|Abu al-Aswad al-Du'ali]], [[person/nasr-ibn-asim|Nasr ibn 'Asim]], [[person/al-khalil-ibn-ahmad-al-farahidi|al-Khalil]], [[place/basra|Basora]], [[concept/naqt-al-irab|el punteado de las vocales]] y [[concept/naqt-al-ijam|el punteado de las letras]], donde la historia se cuenta con las palabras de otras fuentes.
+
+## Tercero: el naskh
+El naskh es una cursiva pequeña, redondeada y muy legible que nació en el siglo VII para la escritura cotidiana, las cartas y la administración; [[person/ibn-muqla|Ibn Muqla]] (m. 940) e [[person/ibn-al-bawwab|Ibn al-Bawwab]] (m. 1022 o 1031) la normalizaron en el siglo X, y el calígrafo otomano el sheij [[person/shaykh-hamdullah|Hamdullah]] la refinó después. Desde el siglo XI sustituyó en gran parte al cúfico para copiar libros y el Corán, y se convirtió en la base de la imprenta árabe moderna y de los tipos digitales {cite:britannica-naskhi-script} {cite:wikipedia-naskh-script-en}. La ficha del museo sobre Ibn al-Bawwab da su muerte en 423 AH, es decir 1032 {cite:wafayat-ayan}, por lo que se señala la diferencia con la fecha del resumen. El naskh tiene su ficha: [[concept/naskh-script|escritura naskh]].
+
+## Cuarto: el zuluz
+Ibn Muqla codificó el zuluz en el siglo X como una de las Seis Plumas; con sus trazos curvos y oblicuos sustituyó la angulosidad del cúfico, inclinándose un tercio, el zuluz, de cada letra, lo que da nombre a la escritura, y se acompaña de signos vocálicos decorativos. Los refinamientos otomanos van del siglo XV al XIX. Se convirtió en la escritura monumental y de aparato por excelencia para las inscripciones de mezquitas, los títulos de suras y los paneles arquitectónicos {cite:britannica-thuluth-script} {cite:wikipedia-thuluth-en}. Véanse [[concept/thuluth-script|escritura zuluz]] y [[concept/al-aqlam-al-sitta|las seis plumas]].
+
+## Quinto: el ruqa
+El ruqa se desarrolló en el Imperio otomano y fue normalizado en el siglo XIX por Mumtaz Efendi (1810 a 1872) y Mustafa Izzet Efendi (1801 a 1876) a partir del zuluz y el naskh. Se compone de letras recortadas, trazos cortos y rectos y líneas de base horizontales iguales, para la rapidez y la legibilidad, y según el resumen sigue siendo el estilo de escritura manual cotidiana más usado del mundo árabe {cite:wikipedia-ruqah-script-en}. Véase [[person/kazasker-mustafa-izzet|Kazasker Mustafa Izzet Efendi]]. El museo no hace de este ruqa lo mismo que la pluma clásica [[concept/riqa-script|Riqa']] de las seis plumas; cada uno tiene su ficha y su descripción.
+
+## Lo que muestra el orden y dónde se solapan las etapas
+Las cinco etapas se ordenan por sus comienzos y no se suceden estrictamente: el cúfico duró hasta los siglos X y XI; los puntos y las vocales se solapan con el cúfico porque no son una escritura sino signos añadidos al escrito; el naskh tenía un origen de escritura cotidiana en el siglo VII antes de su normalización; el naskh y el zuluz se vinculan ambos a Ibn Muqla; y el ruqa llega solo, siglos después. Otras fichas del museo difieren en puntos de detalle y pueden leerse a través de las fichas enlazadas.
+
+## Base
+Esta ficha se apoya en un resumen de investigación entregado al museo. El museo no abrió las páginas que cita, y el fundador aprobó usar el resumen tal como está el 21 de noviembre de 2026; cada dato aquí es, pues, lo que el resumen refiere de esas páginas, no una comprobación del museo. Las fechas, los nombres y las atribuciones son los que da, incluidas las fechas de muerte de Ibn al-Bawwab y de Nasr ibn 'Asim, y sus reservas se conservan tal cual.

@@ -1,0 +1,24 @@
+id: work/tasrif-al-izzi
+class: work
+kind: book
+label:
+  ar: "التصريف العزي"
+  en: "Tasrif al-Izzi (al-Izzi fi al-Tasrif) (Izz al-Din al-Zanjani)"
+  ur: "التصريف العزي"
+  fr: "Tasrif al-Izzi (al-Izzi fi al-Tasrif) (Izz al-Din al-Zanjani)"
+  es: "Tasrif al-Izzi (al-Izzi fi al-Tasrif) (Izz al-Din al-Zanjani)"
+summary:
+  ar: "التصريف العزي، كتاب في الصرف والتصريف لمؤلفه عز الدين الزنجاني، وتاريخه بحسب ملخص بحثي قُدّم إلى المتحف: ت 655هـ / 1257م {cite:ketabonline-tasrif-al-izzi}. وجواب الملخص عن وجوده في المكتبة الشاملة: لا، فهو ليس في فهرس الشاملة الرسمي بحسب الملف {cite:mr-mas-shamela-nahw-sarf-books}. لم يقرأ المتحف الكتاب."
+  en: "Tasrif al-Izzi (al-Izzi fi al-Tasrif), a book on morphology (sarf and tasrif) by Izz al-Din al-Zanjani; its date in a research summary supplied to the museum is d. 655 AH / 1257 CE {cite:ketabonline-tasrif-al-izzi}. The summary's answer on its presence in the Shamela library: No: the file says it is not in the official Shamela index {cite:mr-mas-shamela-nahw-sarf-books}. The museum has not read the book."
+  ur: "التصريف العزي، صرف و تصریف پر ایک کتاب، مصنف عز الدين الزنجاني؛ میوزیم کو دیے گئے تحقیقی خلاصے میں اس کی تاریخ: وفات 655ھ / 1257ء {cite:ketabonline-tasrif-al-izzi}۔ شاملہ میں موجودگی پر خلاصے کا جواب: نہیں؛ فائل کے مطابق یہ شاملہ کی سرکاری فہرست میں نہیں {cite:mr-mas-shamela-nahw-sarf-books}۔ میوزیم نے یہ کتاب نہیں پڑھی۔"
+  fr: "Tasrif al-Izzi (al-Izzi fi al-Tasrif), livre sur la morphologie (sarf et tasrif) de Izz al-Din al-Zanjani ; sa date dans une synthèse de recherche remise au musée : m. 655 H / 1257 {cite:ketabonline-tasrif-al-izzi}. Réponse de la synthèse sur sa présence dans la bibliothèque Shamela : Non : le fichier dit qu'il ne figure pas dans l'index officiel de Shamela {cite:mr-mas-shamela-nahw-sarf-books}. Le musée n'a pas lu le livre."
+  es: "Tasrif al-Izzi (al-Izzi fi al-Tasrif), libro sobre morfología (sarf y tasrif) de Izz al-Din al-Zanjani; su fecha en un resumen de investigación entregado al museo: m. 655 H. / 1257 {cite:ketabonline-tasrif-al-izzi}. Respuesta del resumen sobre su presencia en la biblioteca Shamela: No: el archivo dice que no figura en el índice oficial de Shamela {cite:mr-mas-shamela-nahw-sarf-books}. El museo no ha leído el libro."
+wings: [words, ideas]
+themes: [linguistics]
+tags: [arabiyya-browser, arabiyya-books]
+relations:
+  - { type: authored_by, target: person/izz-al-din-al-zanjani, sources: [source/ketabonline-tasrif-al-izzi] }
+  - { type: related_to, target: concept/ilm-al-sarf, sources: [source/ketabonline-tasrif-al-izzi] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md, section 3); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat. The museum has not read this book.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/ketabonline-tasrif-al-izzi, source/mr-mas-shamela-nahw-sarf-books]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

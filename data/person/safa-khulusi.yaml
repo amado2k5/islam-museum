@@ -1,0 +1,20 @@
+id: person/safa-khulusi
+class: person
+label: { ar: "صفاء خلوصي", en: "Safa' Khulusi", ur: "صفاء خلوصي", fr: "Safa' Khulusi", es: "Safa' Khulusi" }
+roles: [scholar, writer]
+gender: male
+tags: [arabiyya-browser, arabiyya-scholars]
+summary:
+  ar: "صفاء خلوصي، مؤلف «فن التقطيع الشعري والقافية»؛ ويورد ملخص بحثي قُدّم إلى المتحف تاريخ وفاته هكذا: ت 1995م {cite:mustansiriyah-fann-al-taqti-al-shiri-wa-al-qafiya}."
+  en: "Safa' Khulusi, author of \"Fann al-Taqti al-Shiri wa-l-Qafiya\"; a research summary supplied to the museum gives his date as d. 1995 CE {cite:mustansiriyah-fann-al-taqti-al-shiri-wa-al-qafiya}."
+  ur: "صفاء خلوصي، «فن التقطيع الشعري اور القافية» کے مصنف؛ میوزیم کو دیا گیا ایک تحقیقی خلاصہ ان کی تاریخ یوں دیتا ہے: وفات 1995ء {cite:mustansiriyah-fann-al-taqti-al-shiri-wa-al-qafiya}۔"
+  fr: "Safa' Khulusi, auteur de « Fann al-Taqti al-Shiri wa-l-Qafiya » ; une synthèse de recherche remise au musée donne sa date ainsi : m. 1995 {cite:mustansiriyah-fann-al-taqti-al-shiri-wa-al-qafiya}."
+  es: "Safa' Khulusi, autor de «Fann al-Taqti al-Shiri wa-l-Qafiya»; un resumen de investigación entregado al museo da su fecha así: m. 1995 {cite:mustansiriyah-fann-al-taqti-al-shiri-wa-al-qafiya}."
+wings: [people]
+themes: [linguistics]
+died: { edtf: "1995", calendar: gregorian, precision: year, status: tradition, derived: true, note: "Date from a research summary supplied to the museum, pages not opened (founder approval 21 Nov 2026) {cite:mustansiriyah-fann-al-taqti-al-shiri-wa-al-qafiya}." }
+relations:
+  - { type: authored, target: work/fann-al-taqti-al-shiri-wa-al-qafiya, sources: [source/mustansiriyah-fann-al-taqti-al-shiri-wa-al-qafiya] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/mustansiriyah-fann-al-taqti-al-shiri-wa-al-qafiya]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

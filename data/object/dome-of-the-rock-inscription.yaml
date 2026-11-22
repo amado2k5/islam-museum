@@ -1,0 +1,31 @@
+id: object/dome-of-the-rock-inscription
+class: object
+kind: other
+tags: [arabiyya-browser, arabiyya-script]
+label:
+  ar: "نقش قبة الصخرة سنة 72هـ"
+  en: "The Dome of the Rock inscription of 72 AH"
+  ur: "72ھ کا قبۃ الصخرہ کا کتبہ"
+  fr: "L'inscription du Dôme du Rocher de 72 H"
+  es: "La inscripción de la Cúpula de la Roca del año 72 AH"
+summary:
+  ar: "شريط فسيفسائي طوله نحو 240 متراً بالخط الكوفي المبكر داخل قبة الصخرة في القدس، مؤرخ بسنة 72هـ ⁦(691-692م)⁩، فيه مقاطع قرآنية من أقدم ما بقي وصيغ تقوى وكتابة تأسيس استُبدل فيها اسم عبد الملك بن مروان باسم المأمون {cite:britannica-dome-of-the-rock} {cite:wikipedia-dome-of-the-rock-en} {cite:smarthistory-dome-of-the-rock}."
+  en: "A mosaic band about 240 metres long in early Kufic inside the Dome of the Rock in Jerusalem, dated 72 AH (691-692 CE), with some of the earliest surviving Qur'anic passages, pious formulas and a dedicatory text in which the name of Abd al-Malik ibn Marwan was replaced by al-Ma'mun's {cite:britannica-dome-of-the-rock} {cite:wikipedia-dome-of-the-rock-en} {cite:smarthistory-dome-of-the-rock}."
+  ur: "یروشلم میں قبۃ الصخرہ کے اندر ابتدائی کوفی میں تقریباً 240 میٹر لمبی موزائیک پٹی، 72ھ ⁦(691-692 عیسوی)⁩ کی، جس میں قرآنی عبارتوں کے قدیم ترین مقامات، دینی کلمات اور ایک تاسیسی عبارت ہے جس میں عبد الملک بن مروان کا نام مامون کے نام سے بدلا گیا {cite:britannica-dome-of-the-rock} {cite:wikipedia-dome-of-the-rock-en} {cite:smarthistory-dome-of-the-rock}۔"
+  fr: "Bande de mosaïque d'environ 240 mètres en coufique ancien à l'intérieur du Dôme du Rocher à Jérusalem, datée de 72 H (691-692), avec quelques-uns des plus anciens passages coraniques conservés, des formules pieuses et un texte de fondation où le nom d'Abd al-Malik ibn Marwan fut remplacé par celui d'al-Ma'mun {cite:britannica-dome-of-the-rock} {cite:wikipedia-dome-of-the-rock-en} {cite:smarthistory-dome-of-the-rock}."
+  es: "Banda de mosaico de unos 240 metros en cúfico antiguo en el interior de la Cúpula de la Roca, en Jerusalén, fechada en 72 AH (691-692), con algunos de los pasajes coránicos más antiguos conservados, fórmulas piadosas y un texto de fundación en el que el nombre de Abd al-Malik ibn Marwan fue sustituido por el de al-Ma'mun {cite:britannica-dome-of-the-rock} {cite:wikipedia-dome-of-the-rock-en} {cite:smarthistory-dome-of-the-rock}."
+wings: [words, objects]
+themes: [linguistics, arts-of-the-book]
+regions: [levant-iraq]
+made: { edtf: "0691/0692", hijri: "0072", calendar: julian, precision: year, status: historical, derived: true, note: "72 AH as stated in the dedicatory text; the Gregorian equivalent 691-692 CE is derived, following the research summary {cite:britannica-dome-of-the-rock} {cite:wikipedia-dome-of-the-rock-en}." }
+relations:
+  - { type: related_to, target: building/dome-of-the-rock, sources: [source/wikipedia-dome-of-the-rock-en, source/smarthistory-dome-of-the-rock] }
+  - { type: related_to, target: event/dome-of-the-rock-construction, sources: [source/wikipedia-dome-of-the-rock-en] }
+  - { type: related_to, target: place/jerusalem, sources: [source/wikipedia-dome-of-the-rock-en] }
+  - { type: related_to, target: person/abd-al-malik-ibn-marwan, sources: [source/met-byzantium-and-islam-dome-of-the-rock] }
+  - { type: related_to, target: person/abd-allah-al-mamun, sources: [source/met-byzantium-and-islam-dome-of-the-rock] }
+  - { type: related_to, target: concept/kufic-script, sources: [source/smarthistory-dome-of-the-rock] }
+  - { type: related_to, target: concept/quranic-inscriptions-on-coins, sources: [source/wikipedia-dome-of-the-rock-en] }
+  - { type: related_to, target: concept/aqdam-al-nuqush-al-arabiyya, sources: [source/britannica-dome-of-the-rock] }
+sources: [source/britannica-dome-of-the-rock, source/wikipedia-dome-of-the-rock-en, source/smarthistory-dome-of-the-rock, source/met-byzantium-and-islam-dome-of-the-rock, source/ekhtiar-how-to-read-islamic-calligraphy-2018]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; translations are machine translations by the same model" }

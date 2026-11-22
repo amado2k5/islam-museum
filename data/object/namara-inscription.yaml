@@ -1,0 +1,30 @@
+id: object/namara-inscription
+class: object
+kind: other
+tags: [arabiyya-browser, arabiyya-script]
+label:
+  ar: "نقش النمارة، قبر امرئ القيس بن عمرو"
+  en: "The Namara inscription, epitaph of Imru' al-Qays ibn 'Amr"
+  ur: "کتبۂ نمارہ، امرؤ القیس بن عمرو کا مرثیہ"
+  fr: "L'inscription de Namara, épitaphe d'Imru' al-Qays ibn 'Amr"
+  es: "La inscripción de Namara, epitafio de Imru' al-Qays ibn 'Amr"
+summary:
+  ar: "كتابة جنائزية من خمسة أسطر بالعربية القديمة بالخط النبطي على عتبة بازلتية، مؤرخة في 7 كانون الأول 328م، لامرئ القيس بن عمرو «ملك العرب»، وُجدت في النمارة سنة 1901 وتحفظ في اللوفر برقم AO 4083 {cite:louvre-collections-namara-ao-4083} {cite:wikipedia-namara-inscription-en}."
+  en: "A five-line funerary text in Old Arabic in the Nabataean script on a basalt lintel, dated 7 December 328 CE, for Imru' al-Qays ibn 'Amr, \"king of the Arabs\"; found at al-Namara in 1901 and held in the Louvre as AO 4083 {cite:louvre-collections-namara-ao-4083} {cite:wikipedia-namara-inscription-en}."
+  ur: "بازالٹ کی چوکھٹ پر نبطی رسم الخط میں قدیم عربی کی پانچ سطروں کی تدفینی تحریر، 7 دسمبر 328 عیسوی کی، امرؤ القیس بن عمرو «عربوں کے بادشاہ» کے لیے؛ 1901 میں النمارہ سے ملی اور لوور میں AO 4083 کے نمبر سے محفوظ ہے {cite:louvre-collections-namara-ao-4083} {cite:wikipedia-namara-inscription-en}۔"
+  fr: "Texte funéraire de cinq lignes en vieil arabe en écriture nabatéenne sur un linteau de basalte, daté du 7 décembre 328, pour Imru' al-Qays ibn 'Amr, « roi des Arabes » ; trouvé à al-Namara en 1901 et conservé au Louvre sous le numéro AO 4083 {cite:louvre-collections-namara-ao-4083} {cite:wikipedia-namara-inscription-en}."
+  es: "Texto funerario de cinco líneas en árabe antiguo con escritura nabatea sobre un dintel de basalto, fechado el 7 de diciembre de 328, para Imru' al-Qays ibn 'Amr, «rey de los árabes»; hallado en al-Namara en 1901 y conservado en el Louvre con el número AO 4083 {cite:louvre-collections-namara-ao-4083} {cite:wikipedia-namara-inscription-en}."
+wings: [words, objects]
+themes: [linguistics]
+regions: [levant-iraq]
+made: { edtf: "0328-12-07", calendar: julian, precision: day, status: historical, derived: true, note: "7 Kaslul, year 223 of the Nabataean era of Bostra, given as 7 December 328 CE by the research summary {cite:louvre-collections-namara-ao-4083} {cite:wikipedia-namara-inscription-en}. Also supported, per the founder's second file, by {cite:lindstedt-christianity-muhammad-followers-brill-2024} (not opened)." }
+holding_institution: "Musée du Louvre, Paris"
+accession_number: "AO 4083"
+relations:
+  - { type: related_to, target: place/damascus, sources: [source/wikipedia-namara-inscription-en] }
+  - { type: related_to, target: polity/nabataean-kingdom, sources: [source/britannica-arabic-alphabet] }
+  - { type: related_to, target: concept/khatt-al-arabi, sources: [source/britannica-arabic-alphabet] }
+  - { type: related_to, target: object/raqosh-epitaph-jsnab-17, sources: [source/wikipedia-jsnab-17-en] }
+  - { type: related_to, target: concept/aqdam-al-nuqush-al-arabiyya, sources: [source/wikipedia-namara-inscription-en] }
+sources: [source/louvre-collections-namara-ao-4083, source/wikipedia-namara-inscription-en, source/britannica-arabic-alphabet, source/lindstedt-christianity-muhammad-followers-brill-2024]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; translations are machine translations by the same model" }

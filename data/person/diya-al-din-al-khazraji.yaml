@@ -1,0 +1,20 @@
+id: person/diya-al-din-al-khazraji
+class: person
+label: { ar: "ضياء الدين الخزرجي", en: "Diya al-Din al-Khazraji", ur: "ضياء الدين الخزرجي", fr: "Diya al-Din al-Khazraji", es: "Diya al-Din al-Khazraji" }
+roles: [scholar, writer]
+gender: male
+tags: [arabiyya-browser, arabiyya-scholars]
+summary:
+  ar: "ضياء الدين الخزرجي، مؤلف «الرامزة الشافية / الخزرجية»؛ ويورد ملخص بحثي قُدّم إلى المتحف تاريخ وفاته هكذا: ت 626 أو 627هـ / 1229م {cite:qnl-al-ramiza-al-shafiya-al-khazrajiyya}."
+  en: "Diya al-Din al-Khazraji, author of \"al-Ramiza al-Shafiya (al-Khazrajiyya)\"; a research summary supplied to the museum gives his date as d. 626 or 627 AH / 1229 CE {cite:qnl-al-ramiza-al-shafiya-al-khazrajiyya}."
+  ur: "ضياء الدين الخزرجي، «الرامزة الشافية / الخزرجية» کے مصنف؛ میوزیم کو دیا گیا ایک تحقیقی خلاصہ ان کی تاریخ یوں دیتا ہے: وفات 626 یا 627ھ / 1229ء {cite:qnl-al-ramiza-al-shafiya-al-khazrajiyya}۔"
+  fr: "Diya al-Din al-Khazraji, auteur de « al-Ramiza al-Shafiya (al-Khazrajiyya) » ; une synthèse de recherche remise au musée donne sa date ainsi : m. 626 ou 627 H / 1229 {cite:qnl-al-ramiza-al-shafiya-al-khazrajiyya}."
+  es: "Diya al-Din al-Khazraji, autor de «al-Ramiza al-Shafiya (al-Khazrajiyya)»; un resumen de investigación entregado al museo da su fecha así: m. 626 o 627 H. / 1229 {cite:qnl-al-ramiza-al-shafiya-al-khazrajiyya}."
+wings: [people]
+themes: [linguistics]
+died: { edtf: "1229~", hijri: "0626", calendar: julian, precision: year, status: tradition, derived: true, note: "Date from a research summary supplied to the museum, pages not opened (founder approval 21 Nov 2026) {cite:qnl-al-ramiza-al-shafiya-al-khazrajiyya}. The summary gives 626 or 627 AH; the Hijri value shown is the first." }
+relations:
+  - { type: authored, target: work/al-ramiza-al-shafiya-al-khazrajiyya, sources: [source/qnl-al-ramiza-al-shafiya-al-khazrajiyya] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/qnl-al-ramiza-al-shafiya-al-khazrajiyya]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

@@ -1,0 +1,24 @@
+id: work/al-tatbiq-al-sarfi
+class: work
+kind: book
+label:
+  ar: "التطبيق الصرفي"
+  en: "al-Tatbiq al-Sarfi (Abduh al-Rajihi)"
+  ur: "التطبيق الصرفي"
+  fr: "al-Tatbiq al-Sarfi (Abduh al-Rajihi)"
+  es: "al-Tatbiq al-Sarfi (Abduh al-Rajihi)"
+summary:
+  ar: "التطبيق الصرفي، كتاب في الصرف والتصريف لمؤلفه عبده الراجحي، وتاريخه بحسب ملخص بحثي قُدّم إلى المتحف: نُشر 1973م; ت 2010م {cite:wikipedia-ar-abduh-al-rajihi}. وجواب الملخص عن وجوده في المكتبة الشاملة: لا؛ فالذي في فهرس الشاملة بحسب الملف هو التطبيق النحوي فقط {cite:mr-mas-shamela-nahw-sarf-books}. لم يقرأ المتحف الكتاب."
+  en: "al-Tatbiq al-Sarfi, a book on morphology (sarf and tasrif) by Abduh al-Rajihi; its date in a research summary supplied to the museum is pub. 1973 CE; d. 2010 CE {cite:wikipedia-ar-abduh-al-rajihi}. The summary's answer on its presence in the Shamela library: No: according to the file, only al-Tatbiq al-Nahwi is in the Shamela index {cite:mr-mas-shamela-nahw-sarf-books}. The museum has not read the book."
+  ur: "التطبيق الصرفي، صرف و تصریف پر ایک کتاب، مصنف عبده الراجحي؛ میوزیم کو دیے گئے تحقیقی خلاصے میں اس کی تاریخ: اشاعت 1973ء; وفات 2010ء {cite:wikipedia-ar-abduh-al-rajihi}۔ شاملہ میں موجودگی پر خلاصے کا جواب: نہیں؛ فائل کے مطابق شاملہ کی فہرست میں صرف التطبیق النحوی ہے {cite:mr-mas-shamela-nahw-sarf-books}۔ میوزیم نے یہ کتاب نہیں پڑھی۔"
+  fr: "al-Tatbiq al-Sarfi, livre sur la morphologie (sarf et tasrif) de Abduh al-Rajihi ; sa date dans une synthèse de recherche remise au musée : publ. 1973; m. 2010 {cite:wikipedia-ar-abduh-al-rajihi}. Réponse de la synthèse sur sa présence dans la bibliothèque Shamela : Non : selon le fichier, seul al-Tatbiq al-Nahwi figure dans l'index de Shamela {cite:mr-mas-shamela-nahw-sarf-books}. Le musée n'a pas lu le livre."
+  es: "al-Tatbiq al-Sarfi, libro sobre morfología (sarf y tasrif) de Abduh al-Rajihi; su fecha en un resumen de investigación entregado al museo: publ. 1973; m. 2010 {cite:wikipedia-ar-abduh-al-rajihi}. Respuesta del resumen sobre su presencia en la biblioteca Shamela: No: según el archivo, solo al-Tatbiq al-Nahwi figura en el índice de Shamela {cite:mr-mas-shamela-nahw-sarf-books}. El museo no ha leído el libro."
+wings: [words, ideas]
+themes: [linguistics]
+tags: [arabiyya-browser, arabiyya-books]
+relations:
+  - { type: authored_by, target: person/abduh-al-rajihi, sources: [source/wikipedia-ar-abduh-al-rajihi] }
+  - { type: related_to, target: concept/ilm-al-sarf, sources: [source/wikipedia-ar-abduh-al-rajihi] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md, section 3); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat. The museum has not read this book.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/wikipedia-ar-abduh-al-rajihi, source/mr-mas-shamela-nahw-sarf-books]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

@@ -1,0 +1,32 @@
+id: concept/aqdam-al-nuqush-al-arabiyya
+class: concept
+kind: term
+tags: [arabiyya-browser, arabiyya-script]
+label:
+  ar: "أقدم النقوش العربية بالترتيب"
+  en: "The earliest Arabic inscriptions, in order"
+  ur: "عربی کے قدیم ترین کتبے، ترتیب سے"
+  fr: "Les plus anciennes inscriptions arabes, dans l'ordre"
+  es: "Las inscripciones árabes más antiguas, en orden"
+summary:
+  ar: "ست نقوش مؤرخة بالترتيب، من نقش رقوش في الحِجر سنة 267م إلى نقش قبة الصخرة سنة 72هـ، مروراً بالنمارة وزبد وجبل أسيس وحران، كما يعرضها ملخص بحثي قُدّم إلى المتحف، مع التواريخ البديلة والتحفظات كما وردت {cite:britannica-arabic-alphabet}."
+  en: "Six dated inscriptions in order, from the Raqosh epitaph at al-Hijr in 267 CE to the Dome of the Rock inscription of 72 AH, by way of Namara, Zabad, Jabal Usays and Harran, as a research summary supplied to the museum presents them, with the alternative dates and reservations as given {cite:britannica-arabic-alphabet}."
+  ur: "چھ تاریخ دار کتبے ترتیب سے، 267 عیسوی میں الحجر کے رقوش کے کتبے سے لے کر 72ھ کے قبۃ الصخرہ کے کتبے تک، نمارہ، زبد، جبل اُسیس اور حران سے ہوتے ہوئے، جیسا میوزیم کو فراہم کیا گیا تحقیقی خلاصہ انھیں پیش کرتا ہے، متبادل تاریخوں اور تحفظات کے ساتھ جیسے وہ آئے {cite:britannica-arabic-alphabet}۔"
+  fr: "Six inscriptions datées dans l'ordre, de l'épitaphe de Raqosh à al-Hijr en 267 à l'inscription du Dôme du Rocher de 72 H, en passant par Namara, Zabad, Jabal Usays et Harran, telles que les présente une synthèse de recherche remise au musée, avec les dates alternatives et les réserves telles qu'elles sont données {cite:britannica-arabic-alphabet}."
+  es: "Seis inscripciones fechadas en orden, desde el epitafio de Raqosh en al-Hijr en 267 hasta la inscripción de la Cúpula de la Roca del año 72 AH, pasando por Namara, Zabad, Jabal Usays y Harran, tal como las presenta un resumen de investigación entregado al museo, con las fechas alternativas y las reservas tal como se dan {cite:britannica-arabic-alphabet}."
+wings: [words, ideas]
+themes: [linguistics, arts-of-the-book]
+regions: [global]
+relations:
+  - { type: related_to, target: object/raqosh-epitaph-jsnab-17, sources: [source/diconab-inscription-196] }
+  - { type: related_to, target: object/namara-inscription, sources: [source/wikipedia-namara-inscription-en] }
+  - { type: related_to, target: object/zabad-inscription, sources: [source/oxford-cult-of-saints-e01817-zabad] }
+  - { type: related_to, target: object/jabal-usays-inscription, sources: [source/wikipedia-jebel-usays-inscription-en] }
+  - { type: related_to, target: object/harran-inscription, sources: [source/wikipedia-harran-inscription-en] }
+  - { type: related_to, target: object/dome-of-the-rock-inscription, sources: [source/britannica-dome-of-the-rock] }
+  - { type: related_to, target: concept/khatt-al-arabi, sources: [source/britannica-arabic-alphabet] }
+  - { type: related_to, target: concept/kufic-script, sources: [source/smarthistory-dome-of-the-rock] }
+  - { type: related_to, target: concept/marahil-tatawwur-al-khatt-al-arabi, sources: [source/met-development-spread-calligraphic-scripts] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_inscriptions_and_script_history.md); the museum did not open the cited pages; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-inscriptions-1 }
+sources: [source/britannica-arabic-alphabet, source/diconab-inscription-196, source/wikipedia-jsnab-17-en, source/louvre-collections-namara-ao-4083, source/wikipedia-namara-inscription-en, source/oxford-cult-of-saints-e01817-zabad, source/wikipedia-zabad-inscription-en, source/wikipedia-jebel-usays-inscription-en, source/wikipedia-harran-inscription-en, source/britannica-dome-of-the-rock, source/wikipedia-dome-of-the-rock-en, source/smarthistory-dome-of-the-rock]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; translations are machine translations by the same model" }

@@ -1,0 +1,20 @@
+id: person/ibn-usfur-al-ishbili
+class: person
+label: { ar: "ابن عصفور الإشبيلي", en: "Ibn Usfur al-Ishbili", ur: "ابن عصفور الإشبيلي", fr: "Ibn Usfur al-Ishbili", es: "Ibn Usfur al-Ishbili" }
+roles: [scholar, writer]
+gender: male
+tags: [arabiyya-browser, arabiyya-scholars]
+summary:
+  ar: "ابن عصفور الإشبيلي، مؤلف «الممتع الكبير في التصريف»؛ ويورد ملخص بحثي قُدّم إلى المتحف تاريخ وفاته هكذا: ت 669هـ / 1270م {cite:qaf-al-mumti-fi-al-tasrif}."
+  en: "Ibn Usfur al-Ishbili, author of \"al-Mumti fi al-Tasrif (al-Mumti al-Kabir)\"; a research summary supplied to the museum gives his date as d. 669 AH / 1270 CE {cite:qaf-al-mumti-fi-al-tasrif}."
+  ur: "ابن عصفور الإشبيلي، «الممتع الكبير في التصريف» کے مصنف؛ میوزیم کو دیا گیا ایک تحقیقی خلاصہ ان کی تاریخ یوں دیتا ہے: وفات 669ھ / 1270ء {cite:qaf-al-mumti-fi-al-tasrif}۔"
+  fr: "Ibn Usfur al-Ishbili, auteur de « al-Mumti fi al-Tasrif (al-Mumti al-Kabir) » ; une synthèse de recherche remise au musée donne sa date ainsi : m. 669 H / 1270 {cite:qaf-al-mumti-fi-al-tasrif}."
+  es: "Ibn Usfur al-Ishbili, autor de «al-Mumti fi al-Tasrif (al-Mumti al-Kabir)»; un resumen de investigación entregado al museo da su fecha así: m. 669 H. / 1270 {cite:qaf-al-mumti-fi-al-tasrif}."
+wings: [people]
+themes: [linguistics]
+died: { edtf: "1270", hijri: "0669", calendar: julian, precision: year, status: tradition, derived: true, note: "Date from a research summary supplied to the museum, pages not opened (founder approval 21 Nov 2026) {cite:qaf-al-mumti-fi-al-tasrif}." }
+relations:
+  - { type: authored, target: work/al-mumti-fi-al-tasrif, sources: [source/qaf-al-mumti-fi-al-tasrif] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/qaf-al-mumti-fi-al-tasrif]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

@@ -1,0 +1,31 @@
+id: group/ittihad-al-majami-al-lughawiyya-al-ilmiyya-al-arabiyya
+class: group
+kind: international-organisation
+tags: [arabiyya-browser, arabiyya-scholars]
+label:
+  ar: "اتحاد المجامع اللغوية العلمية العربية"
+  en: "Union of Arab Language Academies (Ittihad al-Majami' al-Lughawiyya al-'Ilmiyya al-'Arabiyya)"
+  ur: "اتحاد المجامع اللغویۃ العلمیۃ العربیۃ"
+  fr: "Union des académies de la langue arabe (Ittihad al-Majami' al-Lughawiyya al-'Ilmiyya al-'Arabiyya)"
+  es: "Unión de Academias de la Lengua Árabe (Ittihad al-Majami' al-Lughawiyya al-'Ilmiyya al-'Arabiyya)"
+summary:
+  ar: "اتحاد المجامع اللغوية العلمية العربية، أُسس في 13 مارس 1971 بعد توصية مؤتمر لجامعة الدول العربية سنة 1956، كما يلخص ملف بحث قُدّم للمتحف. أسسه مجمعا القاهرة وبغداد ودمشق، وكان طه حسين أول رئيس وإبراهيم مدكور أميناً عاماً، ومقره مدينة السادس من أكتوبر في مصر، وهو ينسّق عمل المجامع ويوحّد المصطلح العلمي بندوات دورية ويتصدر المعجم التاريخي للغة العربية."
+  en: "The Union of Arab Language Academies, founded on 13 March 1971 after a recommendation of an Arab League conference in 1956, as a research summary supplied to the museum gives it. It was founded jointly by the academies of Cairo, Baghdad and Damascus, with Taha Hussein as first president and Ibrahim Madkour as secretary-general, is headquartered in 6th of October City, Egypt, coordinates member academies, standardises scientific terms through periodic symposia and spearheaded the Historical Dictionary of the Arabic Language."
+  ur: "اتحاد المجامع اللغویۃ العلمیۃ العربیۃ، جو 13 مارچ 1971ء کو عرب لیگ کی 1956ء کی ایک کانفرنس کی سفارش کے بعد قائم ہوا، جیسا کہ عجائب گھر کو فراہم کردہ تحقیقی خلاصہ دیتا ہے۔ اسے قاہرہ، بغداد اور دمشق کے مجامع نے مل کر قائم کیا، طہ حسین پہلے صدر اور ابراہیم مدکور سیکرٹری جنرل تھے، اس کا صدر دفتر مصر کے شہر السادس من اکتوبر میں ہے، یہ رکن مجامع کے کام کو مربوط کرتا ہے، دوری سمپوزیا سے علمی اصطلاح کو یکساں بناتا ہے اور عربی زبان کی تاریخی لغت کی قیادت کرتا ہے۔"
+  fr: "L'Union des académies de la langue arabe, fondée le 13 mars 1971 après une recommandation d'une conférence de la Ligue arabe en 1956, comme le donne une note de recherche fournie au musée. Elle fut fondée conjointement par les académies du Caire, de Bagdad et de Damas, avec Taha Hussein premier président et Ibrahim Madkour secrétaire général, a son siège à la ville du 6-Octobre en Égypte, coordonne les académies membres, uniformise les termes scientifiques par des colloques périodiques et a mené le Dictionnaire historique de la langue arabe."
+  es: "La Unión de Academias de la Lengua Árabe, fundada el 13 de marzo de 1971 tras una recomendación de una conferencia de la Liga Árabe en 1956, según un resumen de investigación entregado al museo. La fundaron conjuntamente las academias de El Cairo, Bagdad y Damasco, con Taha Hussein como primer presidente e Ibrahim Madkour como secretario general; tiene su sede en la ciudad del 6 de Octubre, Egipto, coordina las academias miembros, unifica los términos científicos mediante simposios periódicos y encabezó el Diccionario histórico de la lengua árabe."
+wings: [words, people]
+themes: [linguistics]
+periods: [period/modern-era]
+regions: [egypt-nile]
+founded: { edtf: "1971-03-13", calendar: gregorian, precision: day, status: historical, note: "Founded on 13 March 1971 following a recommendation of an Arab League conference in 1956, as the research summary gives it.", sources: [source/wikipedia-union-of-arab-language-academies-ar] }
+relations:
+  - { type: founded_by, target: group/majma-al-lugha-al-arabiyya-bi-al-qahira, note: "Founding academy.", sources: [source/wikipedia-union-of-arab-language-academies-ar] }
+  - { type: founded_by, target: group/al-majma-al-ilmi-al-iraqi, note: "Founding academy.", sources: [source/wikipedia-union-of-arab-language-academies-ar] }
+  - { type: founded_by, target: group/majma-al-lugha-al-arabiyya-bi-dimashq, note: "Founding academy.", sources: [source/wikipedia-union-of-arab-language-academies-ar] }
+  - { type: related_to, target: person/taha-hussein, note: "First president, as the research summary gives.", sources: [source/wikipedia-union-of-arab-language-academies-ar] }
+  - { type: related_to, target: person/ahmad-abd-al-sattar-al-jawari, note: "Elected assistant secretary-general at the founding, as the research summary gives.", sources: [source/wikipedia-union-of-arab-language-academies-ar] }
+  - { type: related_to, target: group/majma-al-lugha-al-arabiyya-al-urduni, note: "A sister academy; the summary does not say when it joined.", sources: [source/wikipedia-union-of-arab-language-academies-ar] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (pages not opened by the museum; founder approval 21 Nov 2026) citing Arabic Wikipedia and the Union's official website on the Union of Arab Language Academies.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-academies-1 }
+sources: [source/wikipedia-union-of-arab-language-academies-ar, source/unionacademies-org]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }

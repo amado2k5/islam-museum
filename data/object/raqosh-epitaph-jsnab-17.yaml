@@ -1,0 +1,28 @@
+id: object/raqosh-epitaph-jsnab-17
+class: object
+kind: other
+tags: [arabiyya-browser, arabiyya-script]
+label:
+  ar: "نقش رقوش JSNab 17 في الحِجر"
+  en: "The Raqosh epitaph, JSNab 17, at Hegra"
+  ur: "الحجر میں رقوش کا کتبہ JSNab 17"
+  fr: "L'épitaphe de Raqosh, JSNab 17, à Hégra"
+  es: "El epitafio de Raqosh, JSNab 17, en Hegra"
+summary:
+  ar: "كتابة جنائزية بالآرامية النبطية والعربية القديمة بالخط النبطي العربي، على واجهة مقبرة في الحِجر ⁦(مدائن صالح)⁩، مؤرخة بحزيران أو تموز 267م، ذكر فيها كعبو بن حرتت أنه بنى القبر لأمه رقوش {cite:diconab-inscription-196} {cite:wikipedia-jsnab-17-en}."
+  en: "A funerary text in Nabataean Aramaic and Old Arabic in the Nabataeo-Arabic script on a tomb facade at al-Hijr (Mada'in Salih), dated June or July 267 CE, in which Ka'bu son of Hrtt says he built the tomb for his mother Raqosh {cite:diconab-inscription-196} {cite:wikipedia-jsnab-17-en}."
+  ur: "نبطی آرامی اور قدیم عربی میں نبطی-عربی رسم الخط میں تدفینی تحریر، الحجر ⁦(مدائنِ صالح)⁩ میں ایک مقبرے کے سامنے کے حصے پر، جون یا جولائی 267 عیسوی کی، جس میں کعبو بن حرتت کہتا ہے کہ اس نے اپنی ماں رقوش کے لیے مقبرہ بنایا {cite:diconab-inscription-196} {cite:wikipedia-jsnab-17-en}۔"
+  fr: "Texte funéraire en araméen nabatéen et vieil arabe, en écriture nabatéo-arabe, sur la façade d'un tombeau à al-Hijr (Mada'in Salih), daté de juin ou juillet 267, où Ka'bu fils de Hrtt dit avoir construit le tombeau pour sa mère Raqosh {cite:diconab-inscription-196} {cite:wikipedia-jsnab-17-en}."
+  es: "Texto funerario en arameo nabateo y árabe antiguo, en escritura nabateo-árabe, en la fachada de una tumba en al-Hijr (Mada'in Salih), fechado en junio o julio de 267, en el que Ka'bu hijo de Hrtt dice haber construido la tumba para su madre Raqosh {cite:diconab-inscription-196} {cite:wikipedia-jsnab-17-en}."
+wings: [words, objects]
+themes: [linguistics]
+regions: [arabia]
+made: { edtf: "0267-06/0267-07", calendar: julian, precision: month, status: historical, derived: true, note: "Month of Tammuz, year 162 of the era of the Province of Arabia, converted to June or July 267 CE by the research summary; not recomputed by the museum {cite:diconab-inscription-196} {cite:wikipedia-jsnab-17-en}." }
+relations:
+  - { type: related_to, target: place/al-hijr, sources: [source/diconab-inscription-196, source/wikipedia-jsnab-17-en] }
+  - { type: related_to, target: polity/nabataean-kingdom, sources: [source/britannica-arabic-alphabet] }
+  - { type: related_to, target: concept/khatt-al-arabi, sources: [source/britannica-arabic-alphabet] }
+  - { type: related_to, target: object/namara-inscription, sources: [source/wikipedia-namara-inscription-en] }
+  - { type: related_to, target: concept/aqdam-al-nuqush-al-arabiyya, sources: [source/diconab-inscription-196] }
+sources: [source/diconab-inscription-196, source/wikipedia-jsnab-17-en, source/britannica-arabic-alphabet]
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; translations are machine translations by the same model" }

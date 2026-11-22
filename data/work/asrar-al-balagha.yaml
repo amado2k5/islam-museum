@@ -10,7 +10,7 @@ summary:
   ur: "عبد القاہر الجرجانی کے اسرار البلاغہ کے لیے مسودہ کارڈ، فصاحت کی سائنس پر مقالہ؛ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
 wings: []
 tags: [arabiyya-browser, arabiyya-books]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikipedia-en-asrar-al-balagha, source/shamela-org-pdf-asrar-al-balagha]
 external_ids: { wikidata: "Q19419030" }
 provenance:
   layer: own-research
@@ -19,3 +19,6 @@ provenance:
   model: "SWE-2 High"
   run: wikidata-import-wave2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: authored_by, target: person/abd-al-qahir-al-jurjani, sources: [source/wikipedia-en-asrar-al-balagha] }
+  - { type: related_to, target: concept/ilm-al-balagha, sources: [source/wikipedia-en-asrar-al-balagha] }

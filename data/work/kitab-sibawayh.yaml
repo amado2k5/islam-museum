@@ -10,5 +10,7 @@ summary:
   ur: "سیباویہ کی گرامر کی کتاب — اس سے پہلے کوئی نظیر نہیں اور اس کے بعد کوئی ہم مرتبہ نہیں۔ 42 آدمیوں نے اسے فی ثعلب بنانے میں مدد کی۔ 142-143}۔"
 wings: [words]
 tags: [arabiyya-browser, arabiyya-books]
-sources: [source/fihrist-ibn-al-nadim, source/bakka-kitab-sibawayh-2015]
+relations:
+  - { type: authored_by, target: person/sibawayh, sources: [source/wikipedia-kitab-sibawayh-en] }
+sources: [source/fihrist-ibn-al-nadim, source/bakka-kitab-sibawayh-2015, source/wikipedia-kitab-sibawayh-en, source/shamela-kitab-sibawayh]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

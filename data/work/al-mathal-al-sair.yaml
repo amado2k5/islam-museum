@@ -1,0 +1,24 @@
+id: work/al-mathal-al-sair
+class: work
+kind: book
+label:
+  ar: "المثل السائر في أدب الكاتب والشاعر"
+  en: "al-Mathal al-Sair fi Adab al-Katib wa-l-Shair (Diya' al-Din ibn al-Athir)"
+  ur: "المثل السائر في أدب الكاتب والشاعر"
+  fr: "al-Mathal al-Sair fi Adab al-Katib wa-l-Shair (Diya' al-Din ibn al-Athir)"
+  es: "al-Mathal al-Sair fi Adab al-Katib wa-l-Shair (Diya' al-Din ibn al-Athir)"
+summary:
+  ar: "المثل السائر في أدب الكاتب والشاعر، كتاب في البلاغة لمؤلفه ضياء الدين ابن الأثير، وتاريخه بحسب ملخص بحثي قُدّم إلى المتحف: ت 637هـ / 1239م {cite:wikipedia-ar-al-mathal-al-sair}. وجواب الملخص عن وجوده في المكتبة الشاملة: نعم، والكتاب في المكتبة الشاملة: Book 23794 and Book 10551 {cite:shamela-ws-book-23794} {cite:shamela-ws-book-10551}. لم يقرأ المتحف الكتاب."
+  en: "al-Mathal al-Sair fi Adab al-Katib wa-l-Shair, a book on rhetoric (balagha) by Diya' al-Din ibn al-Athir; its date in a research summary supplied to the museum is d. 637 AH / 1239 CE {cite:wikipedia-ar-al-mathal-al-sair}. The summary's answer on its presence in the Shamela library: Yes, the book is in the Shamela library: Book 23794 and Book 10551 {cite:shamela-ws-book-23794} {cite:shamela-ws-book-10551}. The museum has not read the book."
+  ur: "المثل السائر في أدب الكاتب والشاعر، بلاغت پر ایک کتاب، مصنف ضياء الدين ابن الأثير؛ میوزیم کو دیے گئے تحقیقی خلاصے میں اس کی تاریخ: وفات 637ھ / 1239ء {cite:wikipedia-ar-al-mathal-al-sair}۔ شاملہ میں موجودگی پر خلاصے کا جواب: جی ہاں، کتاب المکتبۃ الشاملہ میں ہے: Book 23794 and Book 10551 {cite:shamela-ws-book-23794} {cite:shamela-ws-book-10551}۔ میوزیم نے یہ کتاب نہیں پڑھی۔"
+  fr: "al-Mathal al-Sair fi Adab al-Katib wa-l-Shair, livre sur la rhétorique (balagha) de Diya' al-Din ibn al-Athir ; sa date dans une synthèse de recherche remise au musée : m. 637 H / 1239 {cite:wikipedia-ar-al-mathal-al-sair}. Réponse de la synthèse sur sa présence dans la bibliothèque Shamela : Oui, le livre figure dans la bibliothèque Shamela : Book 23794 and Book 10551 {cite:shamela-ws-book-23794} {cite:shamela-ws-book-10551}. Le musée n'a pas lu le livre."
+  es: "al-Mathal al-Sair fi Adab al-Katib wa-l-Shair, libro sobre retórica (balagha) de Diya' al-Din ibn al-Athir; su fecha en un resumen de investigación entregado al museo: m. 637 H. / 1239 {cite:wikipedia-ar-al-mathal-al-sair}. Respuesta del resumen sobre su presencia en la biblioteca Shamela: Sí, el libro está en la biblioteca Shamela: Book 23794 and Book 10551 {cite:shamela-ws-book-23794} {cite:shamela-ws-book-10551}. El museo no ha leído el libro."
+wings: [words, ideas]
+themes: [linguistics]
+tags: [arabiyya-browser, arabiyya-books]
+relations:
+  - { type: authored_by, target: person/ibn-al-athir-diya-al-din, sources: [source/wikipedia-ar-al-mathal-al-sair] }
+  - { type: related_to, target: concept/ilm-al-balagha, sources: [source/wikipedia-ar-al-mathal-al-sair] }
+provenance: { layer: own-research, source: "Research summary supplied to the museum (Gemini research file arabic_linguistic_canon_60_books.md, section 5); the cited pages were not opened by the museum; founder approval to use it without re-verification, 21 Nov 2026, in chat. The museum has not read this book.", generated_by: "Claude Code", model: claude-sonnet-5-5, run: arabiyya-browser-books-2 }
+sources: [source/wikipedia-ar-al-mathal-al-sair, source/shamela-ws-book-23794, source/shamela-ws-book-10551]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-sonnet-5-5); written from a research summary supplied to the museum, cited pages not opened, founder approval 21 Nov 2026; not read by a human; translations are machine translations by the same model" }
