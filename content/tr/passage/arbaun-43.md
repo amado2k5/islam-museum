@@ -1,0 +1,13 @@
+---
+id: passage/arbaun-43
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/passage/arbaun-43.md}
+---
+
+## Özet
+İbn Abbas'ın hadisi şöyle der: Allah'ın Resulü şöyle demiştir: "Mirası hak sahiplerine bağlayın, kalan miras ne varsa, o kişi daha layık olur." — İbn Recep'in kırk Nevevi hadisine eklediği sekiz hadisin ilki, bazı yorumcuların El-Nevavi'nin kendisini gözden kaçırdığını iddia ettiğini ve onların miras ve kapsamlılık kurallarını içerdiğini belirtir; bunlar El-Buhari (6732, 6746) ve Müslüman (1615) tarafından Vahib ve Ruh ibn el-Kasim tarafından babasından İbn Tepes'ten rivayet edilmiştir; Muslim da Muammer'den, Yahya ibn Eyyub tarafından İbn Tavus'tan rivayet etmiş, el-Tevri tarafından rivayet edilmiştir İbn Uyaynah, İbn Jureyc ve diğerleri, İbn Tavus'tan babasından bir mursal (mursal) olarak anlatmış, İbn Abbas'tan bahsetmemiş, En-Nasa'i ise onu göndermeyi tercih etmiştir. Alimler, 'zorunlu yükümlülükleri gerçek sahiplerine bağlamak' anlamında farklı görüşteydiler. İmam Ahmed ve İshaq ibn Rahveyh'in de dahil olduğu bir grup, zorunlu yükümlülüklerin Allah Kitabı'nda belirtilenler olduğunu, geriye kalanların ise en yakın müttefiklere ait olduğunu savunmuştur. Buna göre, İbn Abbas, bir kız kardeşin kalanını acı yoluyla aldığını savunmuş, tüm halkın kendisine karşı olduğunu kabul etmiş ve Zahiri takipçileri de bunu takip etmiştir. Alimlerin çoğunluğu — Ömer, Ali, Aişe ve Zayd — bu görüşü savunuyordu — Ömer, Ali, Aişe ve Zayd İbn Mes'ud ve Mu'adh — kız kardeş ve kızın bir ortaklar olduğunu ve bir miktar üstünlüğe sahip olduğunu söylediler. İbn el-Zubeyr ve Masruk İbn Abbas'ın görüşünü takip etti, sonra geri çektiler; bazıları akrabaların akrabalık yoluyla miras almasını reddetmek için "erkek erkek için geriye kalan" ifadesini kanıt olarak kullandı. Varisler, hadisin akrabalığın mirasını belirttiğini, başkalarının inkârını değil, yanıt verdi. İbn Receb ise "erkek erkek" meselesine yanıt verdi; bu nedenle kısıtlama bir kişiye atıfta bulunmak için kullanılabileceğini belirtti. El-Suhaili ayrıca hadislerdeki aşırı ve keyfi ifadelere de yanıt verdi (Cami' al-Ulum wa al-Hikam, s. 846–863). {cite:ibn-rajab-jami-ulum-hikam}
+
+## Müzedeki konumu
+Kaynağı [[work/jami-ulum-hikam|Jami'al-Ulum wa al-Hikam]]'dır. Abdullah [[person/abdullah-ibn-abbas|ibn Abbas]]'tan bahseder. Ayrıca [[concept/ilm-al-faraid|miras biliminin bölümlerine]] dayanır.

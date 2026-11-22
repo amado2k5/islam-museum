@@ -1,0 +1,12 @@
+---
+id: practice/dua-hajj-hijr-baytullah-sai
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/practice/dua-hajj-hijr-baytullah-sai.md}
+---
+## Özet
+El-Nawawi'nin 'Adhkar'da derlediği şey, Hicr duası, Evde yapılan dua, Safa ile Merve arasında Sa'i için yapılan dualar, seçilmiş dualar ve Mekke'den Mina'ya giderken söylenenleri içerir. {cite:al-adhkar-nawawi-arnaut-1994 p. 196}
+
+## Al-Nawawi'nin 'Al-Adhkar'da topladıkları
+Bu bölümlerde, El-Nevavi Mina'ya gitmeden önce Mekke ayinlerinin dualarını derler. Hicr'deki duaların, yani Ev'in bir parçası olarak kabul edildiğini söyler ve rivayetten şöyle der: "Ey Rab, Senin iyiliğini umarak uzak bir yerden Sana geldim, böylece Senin iyiliğinden iyilik alacağım" {cite:al-adhkar-nawawi-arnaut-1994 p. 196}. Ayette, Usama bin Zeyd'in En-Nasa'i kitabında [[person/muhammad|, Peygamber Ev'e girdiğinde Kabe'nin]] arka duvarından aldığı şeyi getirdiği, yüzünü ve yanağını ona koyduğunu, Allah'ı övdüğü, övdüğü, bağışlanmasını istediği ve sonra her köşeye gittiği anlatılır Tekbir, tahlil, tesbih, övgü, dilek ve af dileyerek sonra ayrıldı {cite:al-adhkar-nawawi-arnaut-1994 p. 196}. Sa'i'de Sünnet'in Safa üzerinde durup Kabe'ye karşı tekbir ve dua ile durmak, telbiyse üç kez zikr etmek ve aynı şeyi Mervâ'da yapmak olduğunu söyler {cite:al-adhkar-nawawi-arnaut-1994 p. 196}. İbn Ömer'den, Allah diniyle koruma, O'na itaat, Allah'a sevgi, melekleri, peygamberleri ve doğru hizmetkarları {cite:al-adhkar-nawawi-arnaut-1994 p. 197} dileyerek Safa üzerinde yakar, ve Safa ile Merve arasında sözünü anar: "Rabbim, bildiklerini affet, merhamet et ve affet. Gerçekten sen En Yüce, En Cömertsin" {cite:al-adhkar-nawawi-arnaut-1994 p. 197}. Sonra Sa'i ve her yer için duaları seçer; bunlar arasında: "Ey Allah, kalplerin dönen, kalbimi dinine sıkı tut" ve "Ey Allah, seni hatırlamama yardım et, teşekkür et ve sana iyi ibadet et." Diyor ki, Kur'an okumak daha iyidir ve bunların hepsini birleştirmek ya da önemli olanla sınırlamak daha iyidir {cite:al-adhkar-nawawi-arnaut-1994 p. 197}. Mekke'den Mina'ya giderken şöyle demek tavsiye edilir: "Ey Allah, Sana umutluyorum ve sana dua ediyorum, o yüzden umudumun doğruluğuna ulaşayım" {cite:al-adhkar-nawawi-arnaut-1994 p. 197}.

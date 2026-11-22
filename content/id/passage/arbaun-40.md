@@ -1,0 +1,13 @@
+---
+id: passage/arbaun-40
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/passage/arbaun-40.md}
+---
+
+## Ringkasan
+Hadis Ibn Umar berkata: Rasulullah menggendong bahuku dan berkata: 'Jadilah di dunia ini seolah-olah engkau adalah orang asing atau pengembara.' — Ibn Umar biasa berkata: 'Ketika engkau memasuki malam, janganlah menunggu pagi, dan ketika bangun, janganlah menunggu malam. Ambillah dari kesehatan untuk penyakitmu dan dari hidupmu untuk kematianmu.' — Ini adalah hadis keempat puluh dalam Nawawiyyah keempat puluh dan dalam komentar Ibn Rajab; diceritakan oleh Al-Bukhari (6416) dari Ali ibn Al-Madini dari Muhammad ibn Abd al-Rahman al-Tafawi dari Al-A'mash dari Mujahid dari Ibn Umar. Lebih dari satu penghafal telah membicarakan tentang Frasa 'Mujahid yang diceritakan kepada kita' tidak otentik dan ditolak oleh Ibn al-Madini, karena al-A'mash tidak mendengar hadits ini dari Mujahid; sebaliknya, ia mendengarnya dari Layth ibn Abi Sulaym dari dirinya, dan al-'Uqaili serta lainnya menyebutkan hal ini. Hadis ini juga diceritakan oleh al-Tirmidhi (2333) dari hadits Layth dari Mujahid, yang menambahkan, 'Berjanjilah pada dirimu di antara orang-orang di kubur,' dan menambahkan dalam kata-kata Ibn Umar: 'Karena engkau tidak tahu, wahai hamba Allah, apa namamu besok.' Ibn Majah (4114) juga menceritakannya tetapi tidak menyebutkan pernyataan Ibn Umar; dan Ahmad serta al-Nasa'i menceritakannya dari al-Awza'i. Dari Abda ibn Abi Lubaba dari Ibn Umar dengan ungkapan "Sembahlah Allah seolah-olah kamu melihat-Nya, dan berdirilah di dunia ini seolah-olah kamu orang asing atau pengembara" — Abdah bertemu Ibn Umar tetapi berbeda pendapat tentang apa yang didengarnya darinya. Ahmad mengatakan dia bertemu dengannya di Suriah, dan Abu Hatim mengatakan dia melihatnya sebagai sebuah penglihatan; Ibn Rajab berkata: Hadits ini adalah dasar dari singkatnya harapan di dunia, dan bahwa seorang mukmin tidak boleh menjadikan dunia sebagai rumah atau tanah air untuk menemukan kedamaian di dalamnya (Jami' al-Ulum wa al-Hikam, hlm. 810–823). {cite:ibn-rajab-jami-ulum-hikam}
+
+## Lokasinya di museum
+Sumbernya [[work/arbaun-nawawi|adalah Empat Puluh Kitab Nawawi]]. Buku ini menyebutkan [[person/abdullah-ibn-umar|Abdullah ibn Umar ibn Al-Khattab]]. Buku ini dibangun di atasnya dalam [[concept/qisar-al-amal|bab-bab Qasr al-Amal]] dan [[concept/zuhd|Asketisme]].

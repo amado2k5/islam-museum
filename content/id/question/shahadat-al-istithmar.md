@@ -1,0 +1,22 @@
+---
+id: question/shahadat-al-istithmar
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/question/shahadat-al-istithmar.md}
+---
+## Ringkasan
+
+Isu kontemporer: Apakah keuntungan dari riba terlarang ini atau halal (halal) yang disimpan di tabungan bank dan kantor pos, atau sertifikat investasi dibeli oleh pemiliknya [[concept/riba|, yang menghasilkan keuntungan yang telah ditentukan? Apakah keuntungan dari riba]] terlarang ini diperbolehkan? [[person/ahmad-shalabi-historian|Ahmed Shalaby]] menyajikan hal ini dalam "[[work/al-iqtisad-fi-al-fikr-al-islami|Ekonomi dalam Pemikiran Islam]]," yang mengatakan bahwa umat Muslim yang berdagang dalam hal ini mencapai ratusan juta, jadi topik ini harus dipelajari dengan cermat dan diperiksa kembali. {cite:iqtisad-fikr-islami-shalabi-1993 p.123}
+
+## Pepatah
+
+:::perspectives
+- **Ahl al-Sunnah: Pendapat Larangan Alkohol, sebagaimana dinarasikan oleh Shalabi**: Shalabi menyebutkan bahwa beberapa peneliti menganggap transaksi ini dilarang, dan dilaporkan dari Sheikh Abdullah Al-Mashhad bahwa beberapa peneliti menganggapnya terlarang sementara yang lain menganggapnya diperbolehkan; dan ia menceritakan dari alasan mereka yang cenderung melarang bahwa uang membawa keuntungan tanpa usaha atau risiko. {cite:iqtisad-fikr-islami-shalabi-1993 p.140} {cite:iqtisad-fikr-islami-shalabi-1993 p.141} Pandangan ini tidak disampaikan ke sini dari buku-buku para penulisnya maupun dari putusan dewan yurisprudensi yang mengadopsinya (needs_source).
+- **Ahl al-Sunnah: Pendapat tentang Diperbolehkan, Shalabi dan Mereka yang Mewariskan Darinya**: Shalabi percaya bahwa Al-Qur'an, komentator, hadits, dan ahli hukum mengaitkan riba dengan pinjaman, dan bahwa kegagalan dalam kontrak dan ketentuan diperbolehkan kecuali secara eksplisit dilarang. Ia mengukur hasil dari spekulasi dan sewa rumah dan tanah, serta menyebutkan bahwa apa yang diberikan mungkin merupakan kompensasi atas runtuhnya mata uang. {cite:iqtisad-fikr-islami-shalabi-1993 p.13} {cite:iqtisad-fikr-islami-shalabi-1993 p.140} {cite:iqtisad-fikr-islami-shalabi-1993 p.142} Pembubaran ini dikaitkan dengan Abdul Rahman Issa, Ali Al-Khafif yang percaya bahwa memperlakukan dana tabungan bukanlah riba karena penyetor mengambil kembali uangnya kapan pun ia mau, dan dari studi yang dipresentasikan oleh Ali Al-Khafif dan Weis Sweilem di konferensi Akademi Riset Islam di Kairo tahun 1972, serta dari Abdel Moneim Al-Nimr dan dari Komite Riset Yurisprudensi di Akademi Riset Islam di Al-Azhar, di mana sebagian besar perwakilan dari empat aliran pemikiran memutuskan pada pertemuan April dan Mei 1976 bahwa keuntungan sertifikat investasi Bank Nasional bukanlah riba karena tidak adanya eksploitasi dan kemungkinan kerugian, dan beberapa menganggapnya spekulasi yang sah. {cite:iqtisad-fikr-islami-shalabi-1993 p.144} {cite:iqtisad-fikr-islami-shalabi-1993 p.145} Ia mengutip kata-kata Ibn Taymiyyah, Ibn al-Qayyim, dan Muhammad Abduh tentang menghilangkan kesulitan dan mengaitkan riba dengan kebijaksanaan. {cite:iqtisad-fikr-islami-shalabi-1993 p.142}
+- **Opini akademik: Belum dipindahkan (needs_source)**.
+:::
+
+## Posisi Shalabi tentang Perselisihan
+
+Shalabi percaya bahwa perbedaan pendapat atas apa yang tidak dinyatakan secara eksplisit adalah hal yang wajar, mengutip ijtihad Zayd ibn Thabit mengenai warisan ibunya, dan bahwa berbagai aliran pemikiran adalah berkah yang tidak boleh berubah menjadi konflik, dan bahwa meminta semua orang untuk menyetujui satu putusan adalah mustahil. {cite:iqtisad-fikr-islami-shalabi-1993 p.124} {cite:iqtisad-fikr-islami-shalabi-1993 p.125} Ia mengatakan bahwa Islam "tidak diatur oleh perkumpulan" seperti beberapa agama, dan bahwa pemikiran Islam menyambut konsensus jika memungkinkan, tetapi memberikan hak kepada Muslim yang mendalam untuk ijtihad, mengutip hadits Mu'adh ibn Jabal. {cite:iqtisad-fikr-islami-shalabi-1993 p.125} Ia menggambarkan pernyataan larangan mutlak sebagai tidak menghormati pendapat orang lain, dan mengutip Sheikh Abdullah Al-Mashhad yang mengatakan bahwa seorang Muslim dapat memilih salah satu arah tanpa rasa malu. {cite:iqtisad-fikr-islami-shalabi-1993 p.141} Ini adalah pendapat penulis, yang diceritakan oleh museum yang dikaitkan dengannya, dan ia tidak memilih salah satunya.

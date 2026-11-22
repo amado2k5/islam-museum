@@ -1,0 +1,13 @@
+---
+id: passage/muwatta-3-718
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/passage/muwatta-3-718.md}
+---
+
+## Ringkasan
+Hadits pertama adalah tentang menerima sedekah dan siapa yang diizinkan menerimanya. Malik menceritakan dari Zayd ibn Aslam dari Ata ibn Yasar, seorang narator mursal, bahwa Nabi berkata: Amal tidak diperbolehkan bagi orang kaya kecuali lima hal: seseorang yang menjadi budak di jalan Allah, seorang pekerja atas sedekah, seorang penghutang, orang yang membelinya dengan uangnya, atau orang yang memiliki tetangga miskin yang memberi sedekah kepada yang membutuhkan dan memberikan orang miskin kepada orang kaya. Verifier menyebutkan bahwa ia menceritakannya dari Malik Abu Mus'ab dan al-Qa'nabi bersama Abu Dawood (1635) dan Muhammad ibn al-Hasan al-Shaybani (343). Ia juga melaporkan dari Ibn Abd al-Barr (Al-Tamhid 5/95) bahwa Malik dikirim dan diikuti oleh Ibn Uyaynah dan Ismail ibn Umayyah, dan bahwa al-Thawri menceritakannya dari Zayd dari Ata: 'Thabit memberitahuku, dan Ma'mar menghubungkannya dari Abu Sa'id al-Khudri (Abd al-Razzaq 7151, Abu Dawood 1636, Ibn Majah 1841, Ibn Khuzaymah 2374, al-Hakim 1/407), dan bahwa Abu Hatim, Abu Zur'ah, dan al-Daraqutni melakukan kesalahan dalam riwayat Muammar. Narasi muwassil (terhubung). Kemudian editor membahas panjang lebar narasi Abd al-Razzaq dari Muammar dan al-Thawri, menyebutkan bahwa Ibn Khuzaymah, al-Hakim, al-Bayhaqi, al-Mundhiri, dan al-Albani—sama dalam komentarnya tentang Ibn Majah—mengotentikkan mawsul berdasarkan penerimaan peningkatan kepercayaan. Ia kemudian menyarankan bahwa mursal lebih otentik karena kesepakatan Malik, Ibn 'Uyaynah, dan Ismail ibn Umayyah terhadapnya, serta kebingungan para sahabat al-Thawri. {cite:muwatta-maruf-1997 p.360} {cite:muwatta-maruf-1997 p.361}
+
+## Lokasinya di museum
+[[passage/muwatta-kitab-03-zakat|Muwatta mencakup Kitab Zakat]]. Sumbernya [[work/muwatta-malik|adalah Al-Muwatta]]. Buku ini menyebutkan [[person/muhammad|Muhammad]], [[person/ata-ibn-yasar|Ata ibn Yasar]], [[person/zayd-ibn-aslam|Zayd ibn Aslam]], [[person/abu-said-al-khudri|Abu Sa'id al-Khudri]], [[person/sufyan-al-thawri|Sufyan al-Thawri]], [[person/sufyan-ibn-uyayna|Sufyan ibn 'Uyaynah]], [[person/ibn-abd-al-barr|Ibn Abd al-Barr]], dan [[person/al-daraqutni|Al Daraqutni]]. Buku ini juga didasarkan pada [[practice/zakat|bab-bab zakat]] dan [[concept/sadaqa|amal]].

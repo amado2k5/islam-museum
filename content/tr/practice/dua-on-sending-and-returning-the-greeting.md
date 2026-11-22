@@ -1,0 +1,12 @@
+---
+id: practice/dua-on-sending-and-returning-the-greeting
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/practice/dua-on-sending-and-returning-the-greeting.md}
+---
+## Özet
+El-Nawavi'nin 'Barış Kitabı'nda barış hükmünde bahsettiği şey: gruba ait olanın selamının ödülü, Kitap ve Elçi'nin selamı, sağır, dilsiz ve çocuğun selamlanması ve toplantılarda tekrar tekrar selamlaşma. {cite:al-adhkar-nawawi-arnaut-1994 p. 247}
+
+## Al-Nawawi'nin 'Al-Adhkar'da topladıkları
+Barış hükmünün bölümünde, El-Nevawi, Zeyd bin Aslam'dan Al-Muwatta [[person/muhammad|'da Peygamber]]'in şöyle dediğini anlatır: "Eğer bir kişi onları selamlarsa, bu onlar için yeterlidir," ve bunun sağlam bir iletişim zinciri olan bir elçi olduğunu {cite:al-adhkar-nawawi-arnaut-1994 p. 247} söyler. Al-Mutawalli ve diğerlerinden rivayet edilir ki, birini duvarın arkasından çağıran, ona yazan ya da selamlamak için bir elçi gönderen ve o ona ulaştığında cevap almalıdır {cite:al-adhkar-nawawi-arnaut-1994 p. 247}. Aişe'den iki Sahih'ten rivayet edilir ki, Peygamber ona şöyle demiştir: "Bu, size selam gönderen Cebrail'dir," selam karşılık verdi ve eklendi, "Ve Allah'ın merhameti ve bereketleriyle." Bazı rivayetlerde "ve Onun nimetleri" yer almadığı, bunun El-Tirmidi'nin rivayetinde yer aldığı ve onun bunun iyi ve gerçek olduğunu söylediği belirtilir {cite:al-adhkar-nawawi-arnaut-1994 p. 247}. Sünen Ebi Davud'da Peygamber, babasının selamını ileten kişiye şöyle demiştir: "Ve selam, selamınız aleyküm," ve rivayetin bilinmeyen birinden geldiğini, ancak erdem hadislerine hoşgörülü olduğunu söyler {cite:al-adhkar-nawawi-arnaut-1994 p. 248}. El-Mutvalli'den rivayete göre, sağır kişi ona konuşma ve jestlerle selamlar ve dilsiz kişinin jestini alır {cite:al-adhkar-nawawi-arnaut-1994 p. 248}. Doğru görüşün, çocuğun selamını geri verme zorunluluğu olduğunu savunur ve [[passage/quran-4-86|An-Nisa Suresi 86]] {cite:al-adhkar-nawawi-arnaut-1994 p. 248}'ı alıntılar. Bölümün sonunda, yakından karşılanırsa selamlaşmanın tekrarlanması önerilir ve Ebu Dawood'da Abu Huraira'dan, aralarında bir ağaç ya da duvar durursa ve sonra karşılarsa, onu selamlaması gerektiği anlatılır {cite:al-adhkar-nawawi-arnaut-1994 p. 249}.

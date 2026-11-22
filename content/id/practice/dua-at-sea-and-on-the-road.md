@@ -1,0 +1,12 @@
+---
+id: practice/dua-at-sea-and-on-the-road
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/dua-at-sea-and-on-the-road.md}
+---
+## Ringkasan
+Apa yang disebutkan al-Nawawi dalam 'Kitab Adhkar al-Musafir' tentang naik kapal, permohonan pengembara, mengucapkan takbir saat naik kapal, memuliakan Allah saat turun, dan apa yang dikatakan ketika binatang berlari lepas atau desa terlihat. {cite:al-adhkar-nawawi-arnaut-1994 p. 221}
+
+## Apa yang dikumpulkan al-Nawawi dalam 'Al-Adhkar'
+Di sini, Al-Nawawi menyajikan apa yang dikatakan para pelancong di laut dan di jalan. Ia membuka pintu untuk naik kapal dengan dua ayat, Surah [[passage/quran-11-41|Hud 41]] dan [[passage/quran-43-12|Surah Az-Zukhruf 12]] {cite:al-adhkar-nawawi-arnaut-1994 p. 221}, kemudian menceritakan dari kitab Ibn al-Sunni dari al-Husayn ibn Ali bahwa [[person/muhammad|Nabi]] menjadikan kata-kata di antara ayat-ayat yang ia sebutkan sebagai perlindungan bagi bangsanya agar tidak tenggelam jika mereka naik {cite:al-adhkar-nawawi-arnaut-1994 p. 221}. Dari Abu Dawood, al-Tirmidhi, dan Ibn Majah dari Abu Huraira bahwa ada tiga doa yang tak diragukan lagi terjawab: Doa orang tertindas, doa dari para pengembara, dan doa ayah untuk anaknya. Al-Tirmidhi mengucapkan hadits yang baik {cite:al-adhkar-nawawi-arnaut-1994 p. 222}. Dari dua Sahih dari Ibn Umar, setelah selesai melaksanakan Haji atau Umrah dan melaksanakan doa Thaniyyah, ia membacakan takbir tiga kali, lalu berkata: "Kembalilah, bertobat, beribadahlah, sujud kepada Tuhan kita, puji-Muji-Muji" {cite:al-adhkar-nawawi-arnaut-1994 p. 222}. Di antara dua Shahi dari Abu Musa adalah mereka meninggikan suara bersama Talil dan Takbir, dan ia berkata kepada mereka: "Berdirilah berdoa untuk diri kalian" {cite:al-adhkar-nawawi-arnaut-1994 p. 223}. Dari buku Ibn al-Sunni dari Ibn Mas'ud, dikatakan bahwa siapa pun yang berlari liar di padang gurun harus berseru: "Wahai hamba Allah, tahan diri." Al-Nawawi menceritakan bahwa dia dan beberapa gurunya {cite:al-adhkar-nawawi-arnaut-1994 p. 223} {cite:al-adhkar-nawawi-arnaut-1994 p. 224} mengalami hal ini. Saat melihat desa yang ingin dia masuki, dia menceritakan doa dari Suhaib yang berkata: "Aku mohon kebaikan desa ini, penduduknya, dan kebaikan di dalamnya" {cite:al-adhkar-nawawi-arnaut-1994 p. 224}.

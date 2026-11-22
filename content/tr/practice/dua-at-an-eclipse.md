@@ -1,0 +1,12 @@
+---
+id: practice/dua-at-an-eclipse
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/practice/dua-at-an-eclipse.md}
+---
+## Özet
+Al-Nawawi'nin güneş ve ay tutulmaları için öngörülen anma bölümlerinde derlediği şey: anma, dua, hayırseverlik, tutulma duası, vaazı ve kurtuluş. {cite:al-adhkar-nawawi-arnaut-1994 p. 174}
+
+## Al-Nawawi'nin 'Al-Adhkar'da topladıkları
+El-Nevavi, tutulmalar sırasında belirlenen anma ayetlerinde, güneş ve ay tutulmalarında Allah'ın hatırlamasını ve duasını artırmak için sünnet olduğunu ve namazın Müslümanların mutabakatıyla bunun sünneti olduğunu {cite:al-adhkar-nawawi-arnaut-1994 p. 174} belirtir. Aişe'den iki Sahih [[person/muhammad|'te Peygamber]]'in şöyle dediği anlatılır: Güneş ve ay, Allah'ın iki işaretidir ve kimsenin ölümü ya da yaşamı için küçülmez. Bunu gördüğünüzde Allah'a dua edin, Allah'ı yüceltin ve sadaka yapın {cite:al-adhkar-nawawi-arnaut-1994 p. 174}. Bazı rivayetlerde 'Yüce Allah'ı unutmayın' denir ve Ebu Musa el-Eş'ari'nin hadisinden rivayet ettikleri: 'O halde onu anmaya acele edin.' ve O'nun duası ve af dilemesi." Al-Mugira bin Şube'nin hadislerinden: "Allah'a yala ve dua et," ve El-Buhari de bunu Ebu Bekir'den {cite:al-adhkar-nawawi-arnaut-1994 p. 174} rivayet etmiştir. Sahih Muslim'in Abd al-Rahman ibn Samura'dan rivayet ettiği gibi, Peygamber'e güneş tutulmuşken namazda dururken, ellerini kaldırıp yüceltmiş, övmüş, ilahi söylemiş ve dua ederek ortaya çıkmıştır {cite:al-adhkar-nawawi-arnaut-1994 p. 175}. Tutulma namazı sırasında okunmanın uzatılması ve secdeyi uzatmanın tavsiye edildiğini söyler. Çoğu bilimsel kitabında bilinen görüşün farklı olduğu belirtilir, ancak doğru görüş uzatmaktır ve bu iki Sahih'te {cite:al-adhkar-nawawi-arnaut-1994 p. 175} doğrudur. Ay tutulması sırasında yüksek sesle okunması, güneş tutulması sırasında ise gizlice okunması, ardından namazdan sonra Allah'a itaat, sadakat ve özgürleşme için iki vaaz okuması tavsiye edilir {cite:al-adhkar-nawawi-arnaut-1994 p. 175}. Sahih al-Bukhari'de Asma'dan Peygamber'in güneş tutulması sırasında {cite:al-adhkar-nawawi-arnaut-1994 p. 175} kurtuluş emrini verdiği rivayet edilir.
