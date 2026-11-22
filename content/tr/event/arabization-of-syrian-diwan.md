@@ -6,7 +6,7 @@ translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11
 provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/arabization-of-syrian-diwan.md}
 ---
 ## Özet
-Al-Baladhuri, Levant Diwanı' nın [[person/abd-al-malik-ibn-marwan|Abdülmelik bin Mervan göreve gelene kadar Rumiyah'da]] kaldığını ve bu yüzden 81 H yılında nakledilmesini emrettiğini anlatır. {cite:futuh-buldan-maarif-1407 p.271}
+Al-Baladhuri, Levant Diwanı' nın [[person/abd-al-malik-ibn-marwan|Abdülmelik bin Mervan göreve gelene kadar Rumiyye'de]] kaldığını ve bu yüzden 81 H yılında nakledilmesini emrettiğini anlatır. {cite:futuh-buldan-maarif-1407 p.271}
 
 ## Haberler
 Al-Baladhuri, Roma yazıcılarından bir adamın yazacak su bulamadığını ve mürekkep kabında boşa harcadığını belirtir. Abd al-Malik bunu duyunca, [[person/sulayman-ibn-sad-al-khushani|Süleyman bin Sa']] d'a divanı devretmesini emretti. Süleyman, Ürdün'den bir yıl yardım olarak haraç istedi, ona verdi ve onu Ürdün'e atadı; yıl bitmeden transferi tamamladı. {cite:futuh-buldan-maarif-1407 p.271}

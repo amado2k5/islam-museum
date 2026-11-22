@@ -8,7 +8,7 @@ provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian la
 ## Ringkasan
 Pengepungan Hassan bin Khair al-Din di Oran dan pelabuhan besar pada tahun 971 H / 1563 M {cite:dawlat-uthmaniyya-salabi p. 250-251}.
 
-## Tentara dan Al-Qaeda
+## Tentara dan Pangkalan
 Hassan [[person/hasan-ibn-khayr-al-din|meninggalkan]] Aljazair dengan lima belas ribu penembak dan seribu kavaleri Sabahi di bawah [[person/ahmad-muqran-al-zawawi|komando Ahmed Meqran]], serta dua belas ribu dari Zawawa dan Bani Abbas. Armada mengangkut persediaan ke Mostaganem, markas operasi; pengepungan dilakukan pada 13 April {cite:dawlat-uthmaniyya-salabi p. 250}.
 
 ## Mengangkat pengepungan
