@@ -22,6 +22,13 @@ open a new block on top with the new version and today's date.
 ### Tests
 - `scripts/arabiyya.test.ts` checks the detector: the verses, the known false positives (a man named Ibn al-Arabi, a bare citation of the dictionary Lisan al-Arab), and that a passage from a book harvested later is picked up.
 
+### Data (Arabic Language Browser, books chapter)
+
+- Five records for the classic books on the Arabic language joined the Arabic Language Browser's "books" chapter, each with full prose in Arabic, English, Urdu, French and Spanish and cited page by page: al-Khasa'is (Ibn Jinni), al-Muzhir fi Ulum al-Lugha (al-Suyuti), al-Sahibi fi Fiqh al-Lugha (Ibn Faris), Dala'il al-I'jaz (Abd al-Qahir al-Jurjani) and Mughni al-Labib an Kutub al-A'arib (Ibn Hisham al-Ansari). A reader of the Arabiyya chapters can now open the book behind each quotation, see what part of it was read, and follow links to the grammar, origin-of-language and inimitability pages. The prose says plainly which chapters were read and which were not.
+- One new source record, the Damascus (Dar al-Fikr, 1985) edition of Mughni al-Labib as shown on Shamela, with its page-numbering difficulty stated on the record. The page that closes the author's preface shows the number 1316 between pages 15 and 17; it is cited as page 16 by position and marked as an inference.
+- Two difficulties are stated on the records rather than hidden: the Shamela copy of al-Sahibi carries an introduction signed by Ahmad Hasan Basaj while the museum's source record names the publisher Muhammad Ali Baydun; and the Shamela text of Dala'il al-I'jaz gives a reference to Hud 13 beside a verse whose words are those of al-Isra 88.
+- Fixed: three Arabic Language Browser concept records carried the wings value `places`, which the schema does not allow; it is now `place`.
+
 ### Changed
 - **The project status page's Tranco ranking log is current to 21 November 2026.** islam.museum stands at **#716,997** on the Tranco list of 21 November 2026 (list 46YLX, read from the published list file of 4,338,665 domains) — up 140,948 places in a day, and 3,892,970 places above its first reading of #4,609,967 on 23 October 2026. The log's rows for 18–21 November and its Latest note record the climb.
 
