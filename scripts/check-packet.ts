@@ -200,7 +200,7 @@ export function checkPacket(packetDir: string, repo: string = ROOT): PacketResul
     for (const lang of LANGS) {
       if (langs.has(lang)) continue;
       if (inRepoProse(id, lang) && !declaredNew.includes(id)) continue; // existing prose in that language stays as it is
-      err(`content/*/${id}.md`, `no ${lang} file: new prose ships in ar, en, ur, fr and es together`);
+      err(`content/*/${id}.md`, `no ${lang} file: new prose ships in ar, en, ur, fr, es, tr and id together`);
     }
     if (!dataFiles.has(id) && !inRepoData(id)) err(`content/*/${id}.md`, `no data file for ${id} in the repository or the packet`);
     for (const [lang, { rel, abs }] of langs) {

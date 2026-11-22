@@ -59,7 +59,7 @@ export function connectionsOf(id: string, lang: Lang): Group[] {
     const label = forward ? forward.label[lang] ?? forward.label.en : base?.inverse_label[lang] ?? base?.inverse_label.en ?? e.type;
     const n = byId.get(e.to);
     if (!n) continue;
-    const g = groups.get(e.type) ?? { type: e.type, label, items: [] };
+    const g = groups.get(e.type) ?? { type: e.type, label, items: [] as Group["items"] };
     g.items.push({ node: n, edge: e });
     groups.set(e.type, g);
   }
@@ -156,7 +156,7 @@ export function jsonLd(n: Node, lang: Lang, path: string) {
     if (!place && n.class === "journey") {
       const wp = (Array.isArray(d.waypoints) ? d.waypoints : []).map((w: any) => byId.get(w?.place)).find(Boolean);
       const lg = (Array.isArray(d.legs) ? d.legs : []).map((l: any) => byId.get(l?.from)).find(Boolean);
-      place = wp ?? lg;
+      place = (wp ?? lg) ?? place;
     }
     if (place) {
       ld.location = { "@type": "Place", name: labelOf(place, lang), address: postalAddressOf(place, lang), ...(place.coordinates ? { geo: { "@type": "GeoCoordinates", latitude: place.coordinates[0], longitude: place.coordinates[1] } } : {}) };

@@ -72,8 +72,8 @@ for (const n of realNodes) {
       edgeNonMuhammad.length > 0 ||
       (edges.has("person/muhammad") && (generic.length > 0 || detectedSubjects.includes("person/muhammad")));
     if (!include) continue;
-    const allSubjects = dedup([...detectedSubjects, ...edges]) as MessengerTopic[];
-    const displayTopics = dedup([...detectedSubjects, ...edgeNonMuhammad, ...generic]) as MessengerTopic[];
+    const allSubjects = dedup([...detectedSubjects, ...edges] as MessengerTopic[]);
+    const displayTopics = dedup([...detectedSubjects, ...edgeNonMuhammad, ...generic] as MessengerTopic[]);
     const item: MessengerItem = { node: n, section: passageSection(n), work: byId.get(n.data.work as string), topics: displayTopics };
     feedItems.push(item);
     for (const s of allSubjects) if (MESSENGER_SUBJECT_SET.has(s)) bump(subjectPassages, s, item);

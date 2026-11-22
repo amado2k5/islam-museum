@@ -65,7 +65,7 @@ const bump = (m: Map<string, QurunItem[]>, key: string, item: QurunItem) => {
 for (const n of realNodes) {
   if (n.class === "passage") {
     const corpus = passageSection(n);
-    const detected = qurunTopicsOf(n, corpus);
+    const detected = qurunTopicsOf(n, corpus === "curated" ? undefined : corpus);
     const edges = edgeSubjects.get(n.id) ?? new Set<string>();
     const include = detected.length > 0 || edges.size > 0;
     if (!include) continue;
