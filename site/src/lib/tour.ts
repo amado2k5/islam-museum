@@ -72,7 +72,7 @@ export function viewJourneys(journeys: Journey[], lang: Lang): JourneyView[] {
   }));
 }
 
-export interface Trilingual { ar: string; en: string; ur: string; fr?: string; es?: string }
+export interface Trilingual { ar: string; en: string; ur: string; fr?: string; es?: string; tr?: string; id?: string }
 
 /** One Objects-hall stop: a procedural mesh (`build`) labelled from an object record. */
 export interface Exhibit {
