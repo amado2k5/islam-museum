@@ -18410,6 +18410,34 @@ books:
     completion: downloaded
     unverified: [edition, publisher, year, sha256, ocr.quality]
     notes: 'raw/library/farabi-rasail/ on the microSD; queued by docs/delegation/harvest-queue-hudhud-books.md; scanned PDF, needs OCR'
+  - id: kindi-istikhraj-muamma
+    title: علم التعمية واستخراج المعمى عند العرب (Mrayati, Meer, Tayyan; contains al-Kindi's Risala fi Istikhraj al-Mu'amma)
+    author: Mrayati-Meer-Tayyan (editors); al-Kindi (treatise)
+    category: science
+    volumes: 2 files (420 and 466 pages), the archive item's two PDFs; which volume holds the Kindi text not yet checked
+    acquisition: {source: 'archive.org item origins_of_ancient_arab_criptography_and_criptanalysis', date: '2026-11-21', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: 886}
+    ocr: {state: none}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified: [edition, publisher, year, sha256, ocr.quality]
+    notes: 'raw/library/kindi-istikhraj-muamma/; scanned PDFs, need OCR; 2008 per archive metadata'
+  - id: algoritmi-de-numero-indorum-khwarizmi
+    title: Trattati d'aritmetica pubblicati da Baldassarre Boncompagni, Algoritmi de numero Indorum (Latin text of al-Khwarizmi's Indian reckoning)
+    author: al-Khwarizmi (Latin translation); Boncompagni (editor, 1857)
+    category: science
+    volumes: 1 file, only 24 pages (looks like a partial Google Books scan of the 1857 volume)
+    acquisition: {source: 'archive.org item bub_gb_Jyat9f1pSIYC', date: '2026-11-21', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: 24}
+    ocr: {state: complete}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified: [edition, completeness, sha256]
+    notes: 'raw/library/algoritmi-de-numero-indorum-khwarizmi/; text layer present; substitute for the lost Arabic Kitab al-Jam wa-l-Tafriq, a Latin version of his Indian-reckoning book, identification still a hypothesis'
   # END books:hudhud-queue
   # END books
 

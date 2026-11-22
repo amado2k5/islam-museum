@@ -106,3 +106,9 @@ Downloaded (12): T1-3 Kalila wa Dimna (Azzam ed.); T1-10 Alf Layla (Cairo editio
 Not downloaded (2): T2-4 Jam' wa-l-Tafriq and T2-7 Risala fi Istikhraj al-Mu'amma: no scan found on archive.org by Arabic or English title. al-Khwarizmi's Jam' wa-l-Tafriq is not known to survive in Arabic, and al-Kindi's treatise needs the Mrayati–Meer–Tayyan edition or a library source.
 
 Scanned PDFs among these still need OCR (all except Munqidh and Shamil). Nothing has been OCRed or mined.
+
+### Second pass, in the Mac Chrome browser (21 November 2026)
+
+- T2-7 al-Kindi: archive.org item `origins_of_ancient_arab_criptography_and_criptanalysis` (Mrayati–Meer–Tayyan, 2 PDFs, 886 pages) downloaded as `kindi-istikhraj-muamma`. Scanned; needs OCR; the volume holding the Risala is not yet checked.
+- T2-4 al-Khwarizmi: no Arabic *Jam' wa-l-Tafriq* found. The Latin *Algoritmi de numero Indorum* (Boncompagni 1857) was downloaded instead as `algoritmi-de-numero-indorum-khwarizmi`, but the scan is only 24 pages, so it is partial; the identification with the queued title is still a hypothesis.
+- Still open: a text of the Nowruznameh itself (T1-16), a verified al-Farabi treatise on the aims of the Metaphysics (T2-9), and the Persian quatrains (T1-15).
