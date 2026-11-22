@@ -3,8 +3,8 @@ import { repoPath } from "./paths";
 import { parse } from "yaml";
 
 // Arabic canonical, English, Urdu, French, Spanish, Turkish and Indonesian published beside it (docs/language.md): /ar/, /en/, /ur/, /fr/, /es/, /tr/ and /id/ ship together.
-export const ALL_LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id", "tr", "id"] as const;
-export type Lang = "ar" | "en" | "ur" | "fr" | "es" | "tr" | "id" | "tr" | "id";
+export const ALL_LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
+export type Lang = "ar" | "en" | "ur" | "fr" | "es" | "tr" | "id";
 // The languages this build writes pages for: all of them, unless BUILD_LANG names one (the by-language build,
 // .github/workflows/build-lang.yml, docs/engineering/06-deployment.md section 9). Page files build their paths from
 // LANGS. Whatever a page says about the other languages (hreflang alternates, the language switcher, counts) reads
