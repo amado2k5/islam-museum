@@ -6,17 +6,24 @@ import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
 
-// The landing shows every list; the books, the longest by far, show their first rows there and continue on
-// /references/books/<n>/ (audit S18: the one page was 611 KB).
+// The landing shows every list; the books and the web pages, the longest by far, show their first rows there and
+// continue on /references/books/<n>/ and /references/web/<n>/ (audit S18: the one page was 611 KB; the landing
+// passed 500 KB again at 576 web pages, 22 November 2026).
 export function getStaticPaths() {
-  const bookCount = readdirSync(repoPath("data", "source")).filter((f) => f.endsWith(".yaml")).map((f) => parse(readFileSync(join(repoPath("data", "source"), f), "utf8"))).filter((r) => r?.type === "book").length;
-  const pages = Math.ceil(bookCount / 400);
+  const types = readdirSync(repoPath("data", "source")).filter((f) => f.endsWith(".yaml")).map((f) => parse(readFileSync(join(repoPath("data", "source"), f), "utf8"))?.type);
+  const sections = { books: "book", web: "webpage" } as const;
   return LANGS.flatMap((lang) => [
-    { params: { lang, page: undefined }, props: { lang, booksPage: 0 } },
-    ...Array.from({ length: pages }, (_x, k) => ({ params: { lang, page: k === 0 ? "books" : `books/${k + 1}` }, props: { lang, booksPage: k + 1 } })),
+    { params: { lang, page: undefined }, props: { lang, section: undefined, sectionPage: 0 } },
+    ...Object.entries(sections).flatMap(([section, type]) =>
+      Array.from({ length: Math.ceil(types.filter((t) => t === type).length / 400) }, (_x, k) => ({
+        params: { lang, page: k === 0 ? section : `${section}/${k + 1}` },
+        props: { lang, section, sectionPage: k + 1 },
+      }))),
   ]);
 }
-const { lang, booksPage } = Astro.props as { lang: Lang; booksPage: number };
+const { lang, section, sectionPage } = Astro.props as { lang: Lang; section?: "books" | "web"; sectionPage: number };
+const booksPage = section === "books" ? sectionPage : 0;
+const webPage = section === "web" ? sectionPage : 0;
 const T = ui(lang).references;
 
 // Every source record in data/source, read at build time.
@@ -69,18 +76,26 @@ const software = [...new Set([...deps("package.json"), ...deps("site/package.jso
 });
 
 const BOOKS_LANDING = 150, BOOKS_PER = 400; // BOOKS_PER is repeated in getStaticPaths, which cannot read this scope
+const WEB_LANDING = 150, WEB_PER = 400; // WEB_PER likewise
 const books = ofType("book");
 const booksUrl = (n: number) => (n <= 1 ? `/${lang}/references/books/` : `/${lang}/references/books/${n}/`);
 const bookPages = Math.ceil(books.length / BOOKS_PER);
 const booksShown = booksPage === 0 ? books.slice(0, BOOKS_LANDING) : books.slice((booksPage - 1) * BOOKS_PER, booksPage * BOOKS_PER);
+const webs = ofType("webpage");
+const webUrl = (n: number) => (n <= 1 ? `/${lang}/references/web/` : `/${lang}/references/web/${n}/`);
+const webPages = Math.ceil(webs.length / WEB_PER);
+const webShown = webPage === 0 ? webs.slice(0, WEB_LANDING) : webs.slice((webPage - 1) * WEB_PER, webPage * WEB_PER);
+const pageTitle = booksPage > 0 ? `${T.title} · ${T.books}${booksPage > 1 ? ` · ${booksPage}` : ""}` : webPage > 0 ? `${T.title} · ${T.web}${webPage > 1 ? ` · ${webPage}` : ""}` : T.title;
+const pagePath = booksPage > 0 ? booksUrl(booksPage) : webPage > 0 ? webUrl(webPage) : `/${lang}/references/`;
 const PG = (ui(lang) as any).paged;
 const dash = (v: any) => (v === undefined || v === null || v === "" ? "—" : String(v));
 ---
-<BaseLayout lang={lang} title={booksPage > 0 ? `${T.title} · ${T.books}${booksPage > 1 ? ` · ${booksPage}` : ""}` : T.title} description={T.lede} path={booksPage > 0 ? booksUrl(booksPage) : `/${lang}/references/`}>
+<BaseLayout lang={lang} title={pageTitle} description={T.lede} path={pagePath}>
   <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
     <h1>{T.title}</h1>
     <p style="font-size:1.2rem;max-width:var(--measure)">{T.lede}</p>
 
+    {webPage === 0 && (<>
     <h2 id="books">{T.books} <span class="ui muted">· {books.length}</span></h2>
     {booksPage === 0 && books.length > BOOKS_LANDING && <p class="ui"><a class="chip" style="border:1px solid var(--gold)" href={booksUrl(1)}>{fmt(PG.all, { n: String(books.length), section: T.books })} <span class="flip" aria-hidden="true">→</span></a></p>}
     <ol class="ui refs" start={booksPage > 0 ? (booksPage - 1) * BOOKS_PER + 1 : 1}>
@@ -109,11 +124,13 @@ const dash = (v: any) => (v === undefined || v === null || v === "" ? "—" : St
         <a href={`/${lang}/references/#books`}>{PG.back}</a>
       </nav>
     )}
+    </>)}
     {booksPage === 0 && (<>
 
-    <h2>{T.web}</h2>
+    <h2 id="web">{T.web} <span class="ui muted">· {webs.length}</span></h2>
+    {webPage === 0 && webs.length > WEB_LANDING && <p class="ui"><a class="chip" style="border:1px solid var(--gold)" href={webUrl(1)}>{fmt(PG.all, { n: String(webs.length), section: T.web })} <span class="flip" aria-hidden="true">→</span></a></p>}
     <ul class="ui refs">
-      {ofType("webpage").map((r) => (
+      {webShown.map((r) => (
         <li>
           <b>{title(r)}</b>
           <div class="ui muted">
@@ -125,6 +142,17 @@ const dash = (v: any) => (v === undefined || v === null || v === "" ? "—" : St
         </li>
       ))}
     </ul>
+    {webPage > 0 && (
+      <nav class="ui paged-nav" aria-label={PG.nav_label} style="margin:1rem 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px">
+        {webPage > 1 ? <a class="chip" rel="prev" href={webUrl(webPage - 1)}>{PG.prev}</a> : null}
+        {Array.from({ length: webPages }, (_x, n) => n + 1).map((n) => n === webPage
+          ? <span class="chip" aria-current="page" style="border:1px solid var(--gold)">{n}</span>
+          : <a class="chip" href={webUrl(n)} aria-label={fmt(PG.page_n, { n: String(n) })}>{n}</a>)}
+        {webPage < webPages ? <a class="chip" rel="next" href={webUrl(webPage + 1)}>{PG.next}</a> : null}
+        <a href={`/${lang}/references/#web`}>{PG.back}</a>
+      </nav>
+    )}
+    {webPage === 0 && (<>
 
     <h2>{T.datasets}</h2>
     <ul class="ui refs">
@@ -166,6 +194,7 @@ const dash = (v: any) => (v === undefined || v === null || v === "" ? "—" : St
         <li><b>{s.name}</b> <span class="ui muted">{s.version} · {T.licence}: {dash(s.licence)}</span></li>
       ))}
     </ul>
+    </>)}
     </>)}
   </div>
 </BaseLayout>
