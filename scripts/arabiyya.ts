@@ -45,8 +45,26 @@ const AR_ARABIC = new RegExp(
   ].join("|"),
 );
 
-/** Passage records whose only lexical hit is a known false positive (curated escape hatch; empty until one is found). */
-export const ARABIYYA_EXCLUDE = new Set<string>([]);
+/**
+ * Passage records whose only lexical hit is a known false positive (curated escape hatch).
+ * Read one by one on 21 Nov 2026 (docs/plan/74-arabic-language-browser.md): a quoted verse inside
+ * another argument, a cited book title, a passing remark, or a bare "from the speech of the Arabs"
+ * attached to a dictionary entry. Borderline passages were kept.
+ */
+export const ARABIYYA_EXCLUDE = new Set<string>([
+  "passage/aqeedah-jawab-sahih-ibn-taymiyya-016",
+  "passage/cosmos-athar-baqiya-biruni-002",
+  "passage/rawd-unuf-ahkam-3-442",
+  "passage/subul-huda-qiraat-1-184",
+  "passage/uloom-al-quran-itqan-003",
+  "passage/uloom-al-quran-burhan-zarkashi-004",
+  "passage/sihah-bulaq-v1-p0238",
+  "passage/sihah-bulaq-v1-p0495",
+  "passage/sihah-bulaq-v1-p0624",
+  "passage/sihah-bulaq-v2-p0113",
+  "passage/sihah-bulaq-v2-p0358",
+  "passage/sihah-bulaq-v2-p0561",
+]);
 
 /** True when the passage's own Arabic text speaks about the Arabic language. */
 export function isArabiyyaPassage(n: Node): boolean {
