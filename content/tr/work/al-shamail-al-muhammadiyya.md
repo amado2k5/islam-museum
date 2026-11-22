@@ -1,0 +1,23 @@
+---
+id: work/al-shamail-al-muhammadiyya
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/work/al-shamail-al-muhammadiyya.md}
+---
+## Özet
+"Şama'il al-Muhammediye", İmam [[person/al-tirmidhi-muhammad-ibn-isa|Ebu İsa Muhammed bin İsa ibn Tirmizi]] Suresi (209–279 H.) tarafından Peygamber'in ahlaki ve ahlaki sıfatları ile ibadet, yaşam ve iş koşulları üzerine yazdığı kitaptır. {cite:shamail-kushak-2012 p.4} {cite:shamail-kushak-2012 p.6} Abdülkadir el-Arna'ut, Peygamber'in silatifleri üzerine en büyük eserlerden biri olarak önsözünde bunu tanımlar. {cite:shamail-kushak-2012 p.6}
+
+## İçeriği ve düzeni
+Editörü Abdu Kuşak, kitabın elli altı bölüme yayılmış dört yüzün üzerinde hadis içerdiğini ve her birinin bir veya daha fazla hadisin türetildiği bir başlığa sahip olduğunu belirtir. {cite:shamail-kushak-2012 p.9} El-Tirmidi, önce Peygamber'in karakterini anlatan hadislerle, sonra boyama, sürme, giysi, sandalet, yüzük, kılıç ve sarık gibi genel görünüşüyle, ardından yaşam, yiyecek ve içecek gibi günlük yaşam konularıyla, ardından parfümü, konuşması, kahkahası, şakaları ve iyi arkadaşlığı gibi sosyal yönleriyle başlamıştır. {cite:shamail-kushak-2012 p.9} Sonra uykusu, ibadeti, okuması, ağlaması, yatak örtüsü, alçakgönüllülüğü, karakteri, alçakgönüllülüğü ve kupa tutmasıyla ilgili olanları anlattı; ardından isimleri, yaşı, ölümü, mirası ve rüyalarda görme hakkını anlattı. Kitabı [[person/muhammad-ibn-sirin|, yalancılardan rivayet etmemek için Muhammed ibn Sirin]]'in bir haberiyle bitirdi. {cite:shamail-kushak-2012 p.10}
+
+Awama baskısında, bölümler Tanrı'nın Elçisi'nin yaratılışı (s. 15), Peygamberlik Mührü (s. 80) ve şiir (s. 105) bölümleriyle başlar; ölüm (s. 646), miras (s. 671) ve rüyalardaki vizyon (s. 680) konularında bölümlerle sona erer. {cite:shamail-bajuri-awwama-2001 p.15} {cite:shamail-bajuri-awwama-2001 p.80} {cite:shamail-bajuri-awwama-2001 p.105} {cite:shamail-bajuri-awwama-2001 p.646} {cite:shamail-bajuri-awwama-2001 p.671} {cite:shamail-bajuri-awwama-2001 p.680} {cite:shamail-bajuri-awwama-2001 p.697}
+
+## Statüsü
+Kuşak, el-Tirmidi'nin Şema'il'i tek bir derlemede derleyen ilk kişi olma onuruna sahip olduğunu, Sahih, Sünan ve Musnadlar arasında dağıtıldıktan sonra belirtir. {cite:shamail-kushak-2012 p.10} Onu öven alimler arasında: 'Şama'il el-Resul'de İbn Kathir, bu alanda toplanan en iyi eserler arasında sayar; ve '[[work/jam-wasail-shamail|Jam' al-Wasa'il'de Molla Ali el-Kari]], çalışmasının 'o cenabın talatını okuyormuş gibi' olduğunu söylemiştir; el-Manavi'yi 'alanında eşsiz, düzeni ve anlaşılmasıyla eşsiz bir kitap' olarak tanımlamıştır; ve Muhammed bin Kasım Cassus bulunmaktadır. {cite:shamail-kushak-2012 p.10} {cite:shamail-kushak-2012 p.11} El-Kattani, el-Tirmidi'nin eserleri arasında 'kıymetli, tanınmış ve ünlü bir kitap' olarak anmıştır. {cite:shamail-kushak-2012 p.12}
+
+## Yorumları, özetleri ve çevirileri
+Kuşak, El-Şamil üzerine alfabetik olarak düzenlenmiş yetmiş iki şerh derlediğini söyler; bunlar [[work/ashraf-al-wasail-ila-fahm-al-shamail|arasında İbn Hajar el-Haytami'nin "Ashraf al-Wasa'il ila Fahm al-Shama'il]]"i, Ali al-Qari'nin "Cami' al-Wasa'il" ve el-Bajuri'nin '[[work/al-mawahib-al-laduniyya-ala-al-shamail|Al-Mawahib al-Ladunniyyah]]' adlı eserleri yer alır. {cite:shamail-kushak-2012 p.12} {cite:shamail-kushak-2012 p.13} {cite:shamail-kushak-2012 p.21} Al-Arna'ut, editörün ayrıca on beş kısaltma topladığını ve kitabın Türkçe, Urduca, Farsça, Fransızca ve İngilizceye çevrildiğini belirtir. {cite:shamail-kushak-2012 p.7} Kuşk'un adlandırdığı çeviriler arasında şunlar vardır: İshaq Khwaja'nın 'I Stand the Means in Türkçe', Karamat Ali al-Junfuri'nin Urduca 'Anwar Muhammadi', Marwan Jardali'nin Fransızca çevirisi ve Hidayat Hüseyin'in İngilizce bir diğeri vardır. {cite:shamail-kushak-2012 p.25} Bazı âlimler, Şama'il'in yazarlarını yazmaya ithaf etmiştir; örneğin İbrahim el-Laqani (ö. 1041 H) ve İbn Allan al-Siddiqi (ö. 1057 H). {cite:shamail-kushak-2012 p.24}
+
+## El yazmaları ve baskıları
+Kushak, kitabın yirmi üç el yazmasını sadece Şam'daki Al-Asad Kütüphanesi'nde saydığını ve dört kopyaya dayandığını belirtir. {cite:shamail-kushak-2012 p.25} Burada kullanılan el yazmasında, editörün daha sonra Peygamberin Hayatı Bölümü gibi bazı bölümlerin düzenini Umariyya Okulu el yazmasına atıfta bulunarak düzelttiği belirtilmiştir. {cite:shamail-kushak-2012 p.2} Ve Awama baskısı, metni Al-Bajuri'nin yorumlarıyla derlemektedir. {cite:shamail-bajuri-awwama-2001 p.5}

@@ -1,0 +1,29 @@
+---
+id: work/fatwa-dar-alifta-tailors-liability-for-damaged-cloth
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/work/fatwa-dar-alifta-tailors-liability-for-damaged-cloth.md}
+---
+
+## Özet
+
+Değerli kumaşı keserken hata yapan ve zarar veren bir terzi hakkında soru sorulduğunda, [[group/dar-al-ifta-al-misriyya|Mısır Dar al-Ifta, terzinin]] elinde kesim ve ölçüm sırasında zarar görenin ortak çalışan olduğu için yasal olarak sorumlu olduğunu ve bunun için sorumlu olduğunu; bu mümkün değilse, zarar günündeki değerine değer olduğunu yanıtladı. {cite:dar-alifta fatwa 8993}
+
+## Soru
+
+Soru soran, terzi olarak çalışan bir adamın ona belirli özelliklere uygun bir giysi dikmesi için değerli bir kumaş parçası verdiğini ve bunun üzerinde hemfikir olduklarını belirtti. Kesim sırasında kalıp ölçülerinde hata yaptı, bu da kumaşın zarar görmesine ve istediği giysinin terziliğine uygun hale gelmesine neden oldu. Şöyle sordu: Bu kumaşı sahibine tazminat olarak değiştirmek zorunda mı? {cite:dar-alifta fatwa 8993}
+
+## Cevap
+
+Al-Dar, mali işlemlerin hükümlerinin, yaratılışın faydalarını adalet çerçevesinde sağlamak için yasalaştırıldığını açıklayarak başladı; [[person/ala-al-din-al-kasani|Al-Kasani]]'nin [[work/badai-al-sanai|Bada'i'al-Sana']] i' (4/174) adlı eserinde alıntı yaparak Allah'ın hizmetkarlarının ihtiyaçları için sözleşmeler yasalaştırdığını, bu sözleşmeler arasında kiralama da olduğunu ve İbn [[person/ibn-qudama-al-maqdisi|Qudame]]'nin [[work/al-mughni|Al-Mughni]]'de (5/341) belirttiği gibi, bilinen bir iş için başka birini işe almanın caizliği konusunda hukukçular arasında bir anlaşmazlık olmadığını belirtti. {cite:dar-alifta fatwa 8993} Daha sonra, kiracının yararına olduğu belirli bir süre çalışan özel işçi ile bir grup için çalışan ortak işçi arasında ayrım yapılmıştır; işe alınan kişi, boyacı, kasap veya terzi gibi başkaları için çalışmasını engelleyemez. Bu, [[person/ala-al-din-al-samarqandi|Al-Samarqandi]]'nin Tuhfat Al-Fuqaha (2/352) ve terziler, hamallar, komisyoncular, saatçiler ve kuyumcular ortak çalışan olarak listelenen Yargı Kuralları Günlüğü'nün 422. maddesinden alıntılanmıştır. {cite:dar-alifta fatwa 8993}
+
+Meclis, Hanefi, Maliki, Şafii ve Hanbali okullarından çoğu hukukçunun, ortak çalışan kişinin kendi eliyle işlediği suçtan sorumlu olduğunu kabul ettiğini, bunun zanaatkârların ve mal sahiplerinin çıkarlarına hizmet ettiğini hükmetti. Bunu ihmal etmek, herkesin kendi giysisini dikmekte iyi olmadığı için insanların servetini yok etmek için bir bahanedir. Zanaatkârların yıkım hakkındaki açıklaması kabul edilirse, hemen dava açarlar ve malların sahipleri zarar görür. İnsanlar ihtiyaçlarına rağmen ayrıntıları ihmal eder ve bu da zanaatkârların geçim kaynaklarına zarar verir. Bu nedenle, bu detayların dahil edilmesi her iki taraf için de faydalı olur. {cite:dar-alifta fatwa 8993} [[person/ali-ibn-abi-talib|Ali bin Ebu Talib'in]] şort ve demirci kefaletini verdiğini aktardım ve insanların sadece buna hak kazandığını söyledim; bunu Abd al-Razzaq ve [[person/ibn-abi-shayba|İbn Abi Şeybah anlattı]]. Al-Naftb'de (2/561) Al-Sogdi'den alıntı yaptım; ortak işçinin cezasıyla yok edilen şeyin kararlaştırıldığı şekilde garanti edildiğini belirttim. [[person/ibn-shas-al-judhami|İbn Şas]] 'ın 'Aqd al-Jawahir al-Thamina' (3/936) adlı eserinde, kiralık işçinin elinin kendisine teslim edilen mallara dokunarak el garantisi vererek etkilediğini belirtir. Ve [[person/qadi-abd-al-wahhab-al-maliki|Al-Isharaf'ta (2/665) yargıç Abd al-Wahhab]]'dan da dahil edilmesinin açıklaması Her iki grubun çıkarları doğrultusunda ve [[person/al-khatib-al-shirbini|]] Mughni Al-Muhtaj [[work/mughni-al-muhtaj|'daki Al-Khatib Al-Sharbini]]'den (3/477) ortak kiralanan kişinin kasaplar ve terziler için gelenek olan bir göreve [[person/al-buhuti-mansur-ibn-yunus|bağlı olduğunu belirtti. Al-Bahuti]], Sharh Muntaha Al-Iradat'ta (2/271), ortak kiralanan kişinin kısa kesim ve terzi hatalarının detaylı olarak yaptığı her türlü zarardan sorumlu olduğunu söyledi. {cite:dar-alifta fatwa 8993}
+
+Sonra Meclis nasıl garanti edileceğini açıkladı: Varsayılan durum, terzinin piyasa karşılığı varsa veya eşsizse ya da değerinde elde edilemiyorsa benzer miktarda kumaş getirmelidir; çünkü varsayılan olarak eşdeğeri ve değeri için değer garanti edilmektir ve değer ancak eşdeğer olduğunda değere aktarılır, ki El-İzz bin Abdülselam [[work/qawaid-al-ahkam|Qawa'id al-Ahkam]] 'da (2/196) belirtmiştir. Eğer değere aktarılırsa, zarar gününün değeri sayılır, kendisinin dediği [[person/ibn-nujaym|gibiİbn Najim]], Al-Ashbah wal-Naza'ir (s. 314) adlı eserinde, zarar gören mülkün zarar görmeden zarar gördüğünü, yıkım gününde tartışmasız değerli sayıldığını belirtirken, [[person/ibn-hajar-al-haytami|İbn Hajar al-Haytami]] Tuhfat [[work/tuhfat-al-muhtaj|al-Muhtaj]] 'da (6/180) ortak kiracının zarar günü üzerindeki değerden sorumlu olduğunu belirtir. {cite:dar-alifta fatwa 8993}
+
+Meclis, terzinin elinde kesim ve ölçüm sırasında zarar gören ve detaylandırmaya uygun olmayan herhangi bir kumaşın yasal olarak sorumlu olduğunu sonucuna varmıştır. Varsayılan durum, zarar verdiği şeyin belirtildiği eşdeğer kumaştan sorumludur. Eşdeğer kalite elde edilemiyorsa, zarar günü buna değerdir. {cite:dar-alifta fatwa 8993}
+
+## Bu albüm hakkında
+
+Mısır Dar Al-Ifta, bu fetvayı 17 Haziran 2026 dar-alifta.org tarihli 8993 numaralı web sitesinde, Büyük Müftü [[person/nazir-ayyad|Nazir Muhammed Ayad'ın fetvalarından tazminat kategorisi altında]] yayımlamıştır. {cite:dar-alifta fatwa 8993} Müze, bu metni yayıncısına atfedilen tarihi bir belge olarak kaydetmiş ve fetva vermemiştir.

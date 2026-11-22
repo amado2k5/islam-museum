@@ -1,0 +1,19 @@
+---
+id: work/adwa-al-bayan
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/work/adwa-al-bayan.md}
+---
+## Özet
+"Adwa'al-Bayan fi Idah al-Qur'an bil-Qur'an", [[person/muhammad-al-amin-al-shinqiti-al-jakani|Muhammed el-Emin bin Muhammed el-Muhtar el-Jakni el-Şenqiti]] 'nin (1325–1393 H) tafsiridir ve biyografisinin yazarı bunu en büyük ve en görkemli kitabı olarak tanımlar; ayrıca Sure Mücedilaya ulaştığını belirtir. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.1} {cite:athar-shinqiti-adwa-ataat-2019-v1 p.35}
+
+## Metodolojisi, adından ve yazarının biyografisinden bilinir
+Kitabın başlığı, metodolojisinin kökenini gösterir: Kur'an'ın Kur'an ile açıklanması. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.1} Biyografinin yazarı, Şeyh'in Ahl al-Sunnah wal-Jama'ah'ın inançlarını, özellikle derslerinde ve kitaplarında sıkça doğruladığını ve kitaplarında, 'özellikle Adwa' al-Bayan'da. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.24} {cite:athar-shinqiti-adwa-ataat-2019-v1 p.25} Medine'de yerleşmesi ve Peygamber Camii'nde öğrettiği, dört mezhebi temsil edenlerle tanışıp delil aradığı, ülkesindeki eğitimi Maliki okuluna odaklandıktan sonra okullar hakkındaki bilgisini genişlettiği ve bunun fıkıh meselelerinde açıklık ışığını belirgin şekilde etkilediği belirtilir. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.27} {cite:athar-shinqiti-adwa-ataat-2019-v1 p.28} Adwa'al-Bayan'da Maraqi al-Saud tefsirinde ortaya koyduğu konulara değindiği belirtilir. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.38} Onun geri çekilmesine bir örnek olarak kutsal aylarda savaşma meselesi verilebilir; [[question/is-the-prohibition-of-fighting-in-the-sacred-months-abrogated|kutsal aylarda savaşma yasağının kaldırılıp kaldırılmadığına bakın]].. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.38}
+
+## Tamamlanma
+El-Şenketi kitabı tamamlamamış, bu yüzden öğrencisi [[person/atiyya-salim|Atiyah Salim]] basılı baskının sekizinci ve dokuzuncu ciltlerinde tamamlamıştır. Bu ek, Şeyh'in eserler projesine dahil edilmemiştir çünkü orijinal eseri değildir. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.12} Dokuzuncu bölüm, ekin ikinci kısmı olarak En-Naba Suresi ile başlar; ikinci baskısının kapağında (1400 H) ise Muhammed ibn Awad ibn Ladin masraflarıyla bilgi öğrencileri için bir vakıf olarak basılmıştır. {cite:tatimmat-adwa-al-bayan-1400-j9 p.1} {cite:tatimmat-adwa-al-bayan-1400-j9 p.2} {cite:tatimmat-adwa-al-bayan-1400-j9 p.3} Basımlı Bayan'ın sonunda, 'Bayan al-Nasikh wa al-Nasukh' adlı [[work/al-itqan-fi-ulum-al-quran|eserinde Şeyh'in iptal edilen ayetlerde]] bahsettiği on ayeti açıkladığı küçük bir mektup vardır. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.35}
+
+## Yayınları
+- Şeyh'in yaşamı sırasında basılan eski baskı, Madani baskısı olarak bilinir. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.14}
+- "Seçkin Şeyh Muhammed El-Emin El-Şenqiti'nin Eserleri" adlı eser, Cidde'deki İslami Fiqh Akademisi tarafından, Bakr bin Abdullah Abu Zayd'in denetiminde, proje için on dokuz ciltten yedi cilt olarak yayımlanmıştır. Al-Madani'nin baskısı tarafından kabul edildi, sayfa numaraları kenarlarına yerleştirildi ve özellikle şiirde, Abdul Rahman Al-Sudais'in el yazmasındaki düzeltmelerine atıfta bulunarak birçok yazım hatası düzeltildi. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.7} {cite:athar-shinqiti-adwa-ataat-2019-v1 p.14} {cite:athar-shinqiti-adwa-ataat-2019-v1 p.15} {cite:athar-shinqiti-adwa-ataat-2019-v1 p.17} Şeyh kitaplarını satmadı ve Bakr Abu Zayd ona şöyle dediğini söylüyor: Ben hitabeti Allah Kitabı ile değişmem. {cite:athar-shinqiti-adwa-ataat-2019-v1 p.31} {cite:athar-shinqiti-adwa-ataat-2019-v1 p.32}

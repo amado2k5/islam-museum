@@ -1,0 +1,19 @@
+---
+id: place/al-raji
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/place/al-raji.md}
+---
+## Ringkasan
+Al-Raji' adalah tempat di antara Asfan dan Mekah, dan disebut Al-Hadda. Al-Bakri menyebutkan bahwa 'Adhd dan Al-Qarah mengkhianati Khabib ibn 'Adi dan para sahabatnya di sana. {cite:mujam-ma-istaajam-bakri}
+
+Diperlukan sumber tambahan untuk menemukannya secara tepat, dan koordinat belum dicatat.
+
+## Dalam kamus negara
+Yaqut menyebutkan sebuah tempat di mana 'Adil dan Al-Qarah dikhianati oleh tujuh orang yang dikirim Nabi bersama mereka, termasuk [[person/asim-ibn-thabit|Asim ibn Thabit]], [[person/khubayb-ibn-adi|Khubayb ibn 'Adi]], dan Marthad ibn Abi Murtad al-Ghanawi, dan mengatakan bahwa itu adalah air untuk Hudhayl. Ia menambahkan bahwa Ibn Ishaq dan Al-Waqidi menganggapnya dekat dengan ketenangan antara Mekah dan Ta'if, dan bahwa Abu Dhu'ayb menyebutkannya di sebuah rumah, serta bahwa tempat itu berisi sumur Muawiyah, yang bukan sumur Ma'una. {cite:mujam-al-buldan-sader-1995 3 p.29} Dalam entri yang sama, terdapat catatan kedua: Dinawayatkan dari Ibn Ishaq dalam perjalanannya ke Khaybar bahwa Nabi tinggal di sebuah lembah dengan nama ini antara Khaybar dan Ghatafan untuk mencegah Ghatafan mencapai penduduk Khaybar, meninggalkan orang-orang berat, wanita, dan yang terluka. Yaqut menilai bahwa itu bukan yang pertama, karena yang pertama berada dekat Ta'if dan Khaybar, lima hari dari Madinah menuju Levant, sehingga jarak antara kedua tempat itu lebih dari lima belas hari. Ia mengakhiri dengan dua puisi [[person/hassan-ibn-thabit|karya Hassan ibn Thabit]] dalam Khubayb dan para sahabat Raji', dan mengatakan ia memasukkan puisi kedua dengan kelemahannya karena menamai semua orang. {cite:mujam-al-buldan-sader-1995 3 p.29}
+
+Dua pintu masuk lain terhubung ke sana. Dalam Al-Hidda, ia mengatakan bahwa tempat yang disebutkan oleh Al-Bukhari dalam pembunuhan Asim berada di antara Asfan dan Mekah, dan Al-Bakri juga mencatatnya. Abu Hatim menamai sebuah tempat antara Mekah dan Taif sebagai "Al-Hudda" tanpa alif, yang bukan yang pertama, dan ia menggabungkannya dengan tempat itu di pintu masuk untuk menghilangkan kebingungan. {cite:mujam-al-buldan-sader-1995 5 p.395} Dalam Gran, Ibn Ishaq menceritakan jalan Nabi "dalam Serangan Al-Raji'," yang berakhir di Gran, tempat tinggal Banu Lihyan, dan Gharan dikenal sebagai lembah antara Amj dan Usfan. {cite:mujam-al-buldan-sader-1995 4 p.191}
+
+## Definisi Museum
+Teks kartu tersebut, dari Al-Bakri, adalah Rajee pertama: sebuah tempat antara Asfan dan Mekah yang disebut Al-Hidda, di mana Adil dan Al-Qarah mengkhianati Khabib ibn Adi dan para sahabatnya. Ini bukan Rajee' Yaqut kedua dekat Khaybar. Yaqut setuju dengan laporan tersebut dan bahwa itu adalah air untuk Hudhayl, tetapi ia tidak mengatakan bahwa Al-Rajee disebut 'Al-Hadda', melainkan mengatakan itu dekat Al-Hadda, dan ia memberikan Al-Hidda dua tempat: antara Mekah dan Taif di pintu masuk Al-Raji', menurut Ibn Ishaq dan Al-Waqidi, dan antara Asfan dan Mekah di pintu masuk Al-Hidda', menurut Al-Bukhari dan Al-Bakri. Museum tidak memisahkan keduanya. Titik kartu (22.15, 39.65) berjarak sekitar 39 kilometer dari titik museum Isfan dan sekitar 83 kilometer dari titik Mekah, meskipun Asfan dan Mekah hanya berjarak sekitar 74 kilometer. Titik tersebut berada di timur laut jalan di antara keduanya, bukan di sana; catatan pada kartu menggambarkannya kira-kira hanya berada di antara Rabigh dan Mekah, dan Yaqut tidak memberikan koordinat untuk mengujinya. Kartu [[place/ghuran]] di museum berada di tempat lain, kota Al-Idrisi dalam empat tahap Dendera, bukan Gran Yaqut. Lihat juga [[event/incident-of-al-raji|insiden Al-Rajee]].

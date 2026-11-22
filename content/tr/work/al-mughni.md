@@ -1,0 +1,23 @@
+---
+id: work/al-mughni
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/work/al-mughni.md}
+---
+
+## Özet
+İbn Kudem el-Makdisi'nin en ünlü tefsiri olan Muhtaşsar el-Kharqi üzerine tefsiri {cite:madkhal-ibn-badran-turki p.425}. Yazarın el yazısıyla dokuz büyük ciltten oluşuyordu ve İbn Bedran'ın döneminde dolaşıma giren kopyaların çoğu on üç cilt halinde {cite:madkhal-ibn-badran-turki p.425} bulunuyordu.
+
+## İslami Ansiklopedi'de
+İslam Ansiklopedisi'nde kitap için özel bir kayıt bulunmadığından, hakkında bahsedilenler kısadır. Yazarı hakkında yazdığı [[person/ibn-qudama-al-maqdisi|makalede, İbn Kudem]], hadis halkı arasında bir Hanbali münzevi, hukukçu ve teolog olarak tanımlanır; [[place/jammail|541 Hicri / 1147 yılında Kudüs]] yakınlarındaki [[place/damascus|Cemail'de doğmuş ve]] 620 Hicri / 1223 yılında Şam'da ölmüştür {cite:encyclopaedia-of-islam-2 vol. 3 p. 874}. El-Mughni ve El-Umde, olumlu fıkıh üzerine eserleri arasındadır; Rawdat al-Nazir fi Manhaj al-Fiqh ise hepsinin basıldığını ekler {cite:encyclopaedia-of-islam-2 vol. 3 p. 875}. Materyallerini, aslen Hanbali alimlerinden oluşan Banu Kudame arasında yazılmış Hanbali okuluna yerleştirir Filistin'den, Zengid ve Eyyubi dönemlerinde Şam'da önemli bir konuma sahip oldu ve 1922-1930 yılları arasında Kahire'de basılan on iki ciltlik Hanbali fıkıhı üzerine bir kitap olan Al-Mughni'yi geride bıraktığı söylenir; bu kitap hâlâ büyük bir üne sahiptir {cite:encyclopaedia-of-islam-2 vol. 3 p. 171}.
+
+İbn el-Farra'nın kaydı, kitabın okul içindeki statüsüne dair bir not ekler. Tüm Hanbalılar üç yüzyıl boyunca, HIC sekizinci yüzyıl ortaları/M.S. on dördüncü yüzyıla kadar kaldı ve İbn el-Farra'ya sadece 'yargıç' dendi. Daha sonra İbn Kudamah'ın önemi Al-Mughni adlı kitabıyla arttı ve 9. yüzyıl Ahri / 15. yüzyılda Hanbalılar bu unvanı el-Mardevi'ye {cite:encyclopaedia-of-islam-2 vol. 3 p. 798} vermeye eğilimli oldular. Çember kitabın içeriği hakkında daha fazla ayrıntı vermediğinden, sonraki bölümler başka kaynaklara dayanmaktadır.
+
+## Müfredat
+Yazar, el-Hurçi'nin özetinden bir konuyu yazar; örneğin bölümün biyografisi, sonra bunu açıklar ve neyi belirttiğini açıklar, ardından metinde olmayan ama ona benzeyen şeyleri belirtir, neyin farklılaştığını ve neyin üzerinde uzlaşıldığını açıklar, her imamın ulaştığı noktaları belirtir ve bu raporları hadis {cite:madkhal-ibn-badran-turki p.425} kişilerinin kitaplarına atfeder. İbn Muflih, kitabın doktrini etkileyici ve özetlediğini söylemiştir {cite:madkhal-ibn-badran-turki p.426}.
+
+## Abu Ishaq al-Huwaini'nin 'İnci Kabukları'nda
+Ebu İshaq el-Huveyi [[person/abu-ishaq-al-heweny|]], Beyrut'taki Dar Al-Kitab Al-Arabi baskısından "Al-Mughni with Al-Sharh Al-Kabir" adlı kitabın aldığı ilk kitaplardan biri olduğunu ve fiyatını karşılayamadığını, bu yüzden kitapları için yayınevinden bir kısmını aldığını ve sevinçten bir gece bile uyumadığını söyler. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep18 00:04:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep18 00:04:30} Dar Hajr baskısında İbn Qudamah'ın "Al-Mughni" adlı kitabı, onun için en sevilen Hanbali kitaplarından biri olarak kabul edilir ve Dr. Abdulfattah Al-Hilu ile ekibi de anılır. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep17 00:05:30}
+
+1990'ların başında, kendisi ve Şeyh Muhammed bin İsmail el-Mukaddam her ay Kahire'ye gittiklerini, bu yüzden Muqaddam'ın İskenderiye'den Kafr al-Sheikh'e gelip birlikte seyahat etmesi konusunda anlaştıklarını anlatır. Yolda 'el-Mughni' rehberliğinde çalışmalarını önerdi: al-Muqaddam fıkıh meselelerini hazırladı ve hadisleri bizzat hazırladı. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep25 00:10:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep25 00:10:30} Sonra el-Muqaddim'in Kahire'ye seyahatleri sona erdi d, bu yüzden yaklaşık seksen hadis yayımlanana kadar tek başına ofisine gitti ve kitabın başında eserler yayımlandı, ardından projeleri, dersleri ve seyahatleri onu meşgul etti. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep25 00:11:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep25 00:11:30} İlk yayımlanan kitabı "Esl el-Hitab bi Neqd el-Mughni 'an al-Mughni 'an al-Hafz wa al-al-Kitab"ın İbn Kudema'ya atfedildiğini çünkü "el-Mughni" isminin insanların zihninde bu kitabı çağrıştırdığını belirtir. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep12 00:12:30}

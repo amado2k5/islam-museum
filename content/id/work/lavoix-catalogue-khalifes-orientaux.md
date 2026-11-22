@@ -1,0 +1,22 @@
+---
+id: work/lavoix-catalogue-khalifes-orientaux
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/work/lavoix-catalogue-khalifes-orientaux.md}
+---
+## Ringkasan
+"Indeks Koin Islam di Perpustakaan Nasional: Khalifah Timur" diterbitkan di Paris oleh National Press pada tahun 1887 atas perintah Menteri Pendidikan Umum, Ibadah, dan Seni Rupa, yang disusun oleh Henri Lavoie, Asisten Gubernur di Departemen Medali, Batu Terukir, dan Antik. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 663} Ini adalah volume yang didedikasikan untuk koin Kekhalifahan Agung, ditutup dengan indeks tokoh-tokoh penting dalam panel Arab dan ilustrasi. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 37} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 9}
+
+## Pendahuluan
+Lavoie mengatakan bahwa Tizenhausen mengumpulkan semua yang diterbitkan hingga tahun 1875 tentang koin khalifah Timur, dan ia tidak berniat mengulang karya ini, melainkan mengajukan pertanyaan yang diajukan kepadanya selama proses katalog, terutama pada awal pembuatan koin Islam. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 661} Di antara yang ia nyatakan dalam pengantarnya:
+- bahwa orang Arab tidak memiliki mata uang sendiri sebelum Islam dan pada masa Nabi, dan bahwa koin Romawi (dinar) dan kasru (dirham) dibawa kepada mereka melalui perdagangan, dan setelah penaklukan, mereka mempertahankan mata uang yang sudah mereka kenal. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 661} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 660}
+- Diwan dan percetakan uang tetap berada di tangan para juru tulis dan pengrajin dari Persia, Romawi, dan Yahudi selama sekitar enam puluh tahun, hingga Diwan Irak diterjemahkan ke dalam bahasa Arab atas perintah al-Hajjaj, dan Abd al-Malik memerintahkan penerjemahan Diwan al-Sham. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 659} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 658}
+- Umar mempertahankan dirham Sasanian dalam gaya aslinya, aksara Pahlavi, dan altar api, mengganti tanggal Sasanian dengan tanggal Hijra, dan gaya yang dicabut adalah Khosrow II. Kemudian, nama khalifah dan gubernur menggantikan nama raja, dan semua gubernur mulai bermogok di kota mereka sejak tahun 25 H. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 655}
+- Para sejarawan berbeda pendapat mengenai tahun reformasi Abd al-Malik antara 74 dan 77 H, dan bahwa al-Hajjaj terus mencetak koin dengan gaya Sasanian atas namanya di Al-Bayda, Persia, hingga tahun 83 H. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 642}
+- Reformasi ini membuat kritik menjadi anonim, hanya merujuk pada otoritas tertinggi, sebagai respons terhadap hak mogok yang direbut oleh gubernur dan khalifah saingan seperti Ibn al-Zubayr, saudaranya Mus'ab, dan Qutri ibn al-Faja'a. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 643} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 644}
+- Bahwa simbal kaca mengendalikan berat dinar dan dirham, dan bahwa orang Arab mengadopsi penggunaannya dari Bizantium. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 616} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 617}
+- Koin Abbasiyah tetap tidak disebutkan namanya sampai nama al-Mahdi, putra mahkota, muncul pada dirham pada masa pemerintahan ayahnya al-Mansur, bahwa Harun al-Rashid mengizinkan penulisan nama menteri dan gubernurnya, dan bahwa nama kota al-Darb pertama kali muncul pada dinar selama masa pemerintahan al-Ma'mun dengan frasa [[passage/quran-30-4|"Milik Tuhan sebelum dan sesudah."]] {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 615} {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 614}
+
+Ia menyimpulkan bahwa koin-koin Kekhalifahan Agung telah dipelajari setelah Freyne, Castiglioni, Marsden, Thornburg, Surrey, dan Stikle, dan koin-koin Negara-negara Merdeka menunggu penelitian komprehensif. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 613} Ia berterima kasih kepada Henri Souffier atas peninjauan eksperimen tersebut dan mencatat tanggal pengenalan di Kabinet Medali, Oktober 1887. {cite:lavoix-catalogue-monnaies-musulmanes-bn-1887 p. 612}
