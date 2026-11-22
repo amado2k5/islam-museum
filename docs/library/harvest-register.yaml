@@ -18438,6 +18438,48 @@ books:
     completion: ocr_done
     unverified: [edition, completeness, sha256]
     notes: 'raw/library/algoritmi-de-numero-indorum-khwarizmi/ and OCR text in books/algoritmi-de-numero-indorum-khwarizmi/ on the microSD; Apple Vision via scripts/harvest/library/ocr_book.py (pages rendered ~2400 px wide); text layer plus 2 OCRed pages; OCR quality not reviewed; needs OCR zip'
+  - id: jazari-jami-arabic
+    title: الجامع بين العلم والعمل النافع في صناعة الحيل
+    author: الجزري; al-Jazari
+    category: medicine-science
+    volumes: 1 file (633 pages), 1979 edition (Ahmad Y. al-Hassan) per archive metadata
+    acquisition: {source: 'archive.org item JZRI1979SCI (https://archive.org/details/JZRI1979SCI)', date: '2026-11-22', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: 633}
+    ocr: {state: complete, date: '2026-11-22', unzipped_location: books/jazari-jami-arabic/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified: [edition, editor, year, sha256, ocr.quality]
+    notes: 'Arabic text of al-Jazari for source/jazari-hill-1974 (Hill translation); Apple Vision OCR; quality not reviewed; needs OCR zip'
+  - id: kitab-al-ayn-khalil
+    title: كتاب العين
+    author: الخليل بن أحمد الفراهيدي
+    category: lugha
+    volumes: 1 file (1753 pages)
+    acquisition: {source: 'archive.org item 20260406_20260406_0201 (https://archive.org/details/20260406_20260406_0201)', date: '2026-11-22', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: 1753}
+    ocr: {state: complete, date: '2026-11-22', unzipped_location: books/kitab-al-ayn-khalil/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified: [edition, editor, year, sha256, ocr.quality]
+    notes: 'Full-book PDF for source/kitab-al-ayn-makhzumi (previously Shamela web pages only); Apple Vision OCR; edition not identified; quality not reviewed; needs OCR zip'
+  - id: tasrif-zahrawi-latin
+    title: Methodus medendi (Albucasis, Latin print) — archive title التصريف لمن عجز عن التأليف
+    author: الزهراوي; Abulcasis (Albucasis)
+    category: medicine-science
+    volumes: 1 file (189 pages)
+    acquisition: {source: 'archive.org item 20210303_20210303_1822 (https://archive.org/details/20210303_20210303_1822)', date: '2026-11-22', by: 'claude-sonnet-5-5 / hudhud-story-books-harvest-d2b478', sha256_status: pending}
+    physical: {pages: 189}
+    ocr: {state: complete, date: '2026-11-22', unzipped_location: books/tasrif-zahrawi-latin/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified: [edition, year, sha256, ocr.quality, work-identity]
+    notes: 'NOT the Arabic text: the scan is an early Latin print of Albucasis (Methodus medendi, 3 books) despite its Arabic archive title; Latin OCR by Apple Vision is rough; the whole Arabic al-Tasrif is still wanted; needs OCR zip'
   # END books:hudhud-queue
   # END books
 
