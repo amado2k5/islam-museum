@@ -1,0 +1,31 @@
+id: event/tayfur-camp-fire-706
+class: event
+kind: other
+label:
+  ar: "حريق خيمة طيفور بن أولجايتو 706"
+  en: "Fire in the tent of Tayfur, son of Oljeitu, 706 AH"
+  ur: "طیفور بن اولجایتو کے خیمے میں آگ، 706ھ"
+  fr: "Incendie de la tente de Tayfur, fils d'Oljeitu, 706 de l'Hégire"
+  es: "Incendio en la tienda de Tayfur, hijo de Oljeitu, 706 de la Hégira"
+summary:
+  ar: "في الحملة على جيلان، في السنة التالية لسنة 705 هـ، شبّ حريق في الخيمة التي كان ينام فيها طيفور بن أولجايتو وهو طفل، فأُصيب حارس بحروق بالغة وهو يضم الخيمة المشتعلة إلى صدره، ونجا الأمير الصغير لأن الحارس وزميله أطفآ النار قبل أن تأتي على الخيمة {cite:jami-al-tawarikh-khashshab-1960 p. 47}. وأُخبرت السلطانة الدزمش، فأمرت بتوزيع صدقات كثيرة على الفقراء {cite:jami-al-tawarikh-khashshab-1960 p. 48}. وقد رُوي القصة لأولجايتو في حضور النويان بولاد آغا ورشيد الدين وبعض الأمراء {cite:jami-al-tawarikh-khashshab-1960 p. 47}."
+  en: "During the campaign against Gilan, in the year after 705 AH, a fire broke out in the tent where the young Tayfur, son of Oljeitu, was sleeping. A guard was badly burned as he pressed the burning tent to his chest, and the prince was saved because the guard and a comrade put the fire out before it reached the cot {cite:jami-al-tawarikh-khashshab-1960 p. 47}. The favourite queen, Dazmish, was told, and gave large alms to the poor {cite:jami-al-tawarikh-khashshab-1960 p. 48}. The story was told to Oljeitu in the presence of the chief amir Bulad Aqa, Rashid al-Din and other amirs {cite:jami-al-tawarikh-khashshab-1960 p. 47}."
+  es: "Durante la campaña contra Gilan, en el año posterior a 705 de la Hégira, se produjo un incendio en la tienda donde dormía el joven Tayfur, hijo de Oljeitu. Un guardia quedó gravemente quemado al estrechar contra el pecho la tienda en llamas, y el pequeño príncipe fue salvado por un compañero que acudió a ayudarlo {cite:jami-al-tawarikh-khashshab-1960 p. 47}. La reina favorita, Dazmish, fue informada y repartió grandes limosnas entre los pobres {cite:jami-al-tawarikh-khashshab-1960 p. 48}. Según el relato que recibió Oljeitu, Rashid al-Din estaba entre los emires presentes {cite:jami-al-tawarikh-khashshab-1960 p. 47}."
+  fr: "Pendant la campagne contre le Gilan, l'année suivant 705 de l'Hégire, un incendie se déclara dans la tente où dormait le jeune Tayfur, fils d'Oljeitu. Un garde fut gravement brûlé en serrant contre sa poitrine la tente en feu, et le jeune prince fut sauvé par un compagnon venu l'aider {cite:jami-al-tawarikh-khashshab-1960 p. 47}. La reine favorite, Dazmish, fut prévenue et distribua de grandes aumônes aux pauvres {cite:jami-al-tawarikh-khashshab-1960 p. 48}. Selon le récit entendu par Oljeitu, Rashid al-Din faisait partie des émirs présents {cite:jami-al-tawarikh-khashshab-1960 p. 47}."
+  ur: "گیلان کی مہم کے دوران، 705ھ کے بعد کے سال میں، اس خیمے میں آگ لگ گئی جہاں اولجایتو کا کم سن بیٹا طیفور سو رہا تھا؛ ایک محافظ جلتے ہوئے خیمے کو سینے سے لگانے سے شدید جل گیا، اور شہزادہ اس لیے بچا کہ محافظ اور اس کے ساتھی نے آگ بجھا دی {cite:jami-al-tawarikh-khashshab-1960 p. 47}۔ پسندیدہ ملکہ دزمش کو خبر دی گئی اور انہوں نے فقرا میں بڑی خیرات تقسیم کرنے کا حکم دیا {cite:jami-al-tawarikh-khashshab-1960 p. 48}۔ یہ قصہ اولجایتو کو نویان بولاد آغا، رشید الدین اور دوسرے امرا کی موجودگی میں سنایا گیا {cite:jami-al-tawarikh-khashshab-1960 p. 47}۔"
+date:
+  start: { hijri: "0706", calendar: julian, precision: year, status: historical, derived: true, note: "السنة التالية لسنة 705 هـ، وفق الصفحة 46 ⁦(السنة التالية لحادثة الاختبار بلحم الإبل)⁩؛ السنة مشتقة من الترتيب وليست مذكورة بالنص" }
+wings: [people, time]
+regions: [persia-central-asia]
+relations:
+  - { type: had_participant, target: person/oljeitu, role: "والد الأمير الذي كاد يحترق", sources: [source/jami-al-tawarikh-khashshab-1960] }
+  - { type: had_participant, target: person/rashid-al-din-hamadani, role: "حضر رواية الحادثة لأولجايتو، ولم يذكر النص أنه كان في موضع الحريق", sources: [source/jami-al-tawarikh-khashshab-1960] }
+  - { type: occurred_at, target: place/gilan, sources: [source/jami-al-tawarikh-khashshab-1960] }
+sources: [source/jami-al-tawarikh-khashshab-1960]
+provenance:
+  layer: own-research
+  source: "Scan pages 46 to 48 of source/jami-al-tawarikh-khashshab-1960, OCR by Apple Vision; the year 706 is derived from 'the following year' after 705 and marked derived; the place name Qanqur-Ulang on the OCR is not used"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "jami-tawarikh-v1-p001-060"
+status: { review: published, generated_by: "Claude Haiku 5.5" }
