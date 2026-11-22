@@ -85,7 +85,7 @@ open a new block on top with the new version and today's date.
 - Fourteen new source records back the section: seven for the pages the figures come from (Wikipedia articles, Encyclopaedia Iranica, two Encyclopedia.com entries; the Wikipedia ones are marked as secondary summaries) and one Wiktionary record per language listing its ten entry pages.
 
 ### Docs (Hudhud's Story Time books)
-- **A check and a harvest queue for the books named in the kids' story series.** Of the 36 books and works the 40 scripts name or describe, 19 are already source records and 3 of those are not yet cited by their author's record; 15 are not in the museum and are queued in `docs/delegation/harvest-queue-hudhud-books.md`, and 2 (Aristotle's *Metaphysics* and Ibn Rushd's commentaries as a body) wait for the founder's decision. No source, content or entity record was changed.
+- **A check and a harvest queue for the books named in the kids' story series.** Of the 36 books and works the 40 scripts name or describe, 19 are already source records and 3 of those are not yet cited by their author's record; 14 are not in the museum and are queued, and 1 (Jami' al-Tawarikh, volume 2) is already downloaded and OCR'd but has no source record in `docs/delegation/harvest-queue-hudhud-books.md`, and 2 (Aristotle's *Metaphysics* and Ibn Rushd's commentaries as a body) wait for the founder's decision. No source, content or entity record was changed.
 
 ## v2.26.1 — 2026-11-20
 ### Data

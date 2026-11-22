@@ -1,6 +1,6 @@
 # Harvest queue — books named in "Hudhud's Story Time"
 
-Checked 21 November 2026 against `data/source/` (11,418 source records) and `data/work/`. No existing "wanted books" queue was found: `docs/library/harvest-register.yaml` records items already downloaded or harvested, and `docs/library/enrichment/` queues gaps in records. This file is the queue for the books below and was created for this task; a lane that harvests one of them records it in `harvest-register.yaml` (the usual rule) and marks it here.
+Checked 21 November 2026 against `data/source/` (11,418 source records), `data/work/` and, after a correction the same day, `docs/library/harvest-register.yaml` (searched by Arabic and Latin title: only T1-13 is held; the other 14 have no entry, so nothing is downloaded for them. The Tier 2 titles were searched by Arabic title only). No existing "wanted books" queue was found: `docs/library/harvest-register.yaml` records items already downloaded or harvested, and `docs/library/enrichment/` queues gaps in records. This file is the queue for the books below and was created for this task; a lane that harvests one of them records it in `harvest-register.yaml` (the usual rule) and marks it here.
 
 Scope of the check: 36 items from the 40 final scripts (26 named by title, 10 described but not titled). Check and queue only: no source record, no content and no entity record was created or edited. Matching was by Arabic and English title, transliteration variants, author and alternate titles; a match is the same work, not the same author. "Source record" means a file in `data/source/`; a `work` record (the book as an entity) is noted where one exists, but a work record alone is not a harvested source.
 
@@ -11,8 +11,9 @@ Status markers: [ ] queued · [~] in a lane's hands · [x] harvested and cited.
 | | Count |
 |---|---|
 | Already a source record | 19 (Tier 1: 16; Tier 2: 3) |
+| Downloaded and OCR'd but no source record yet (found in `harvest-register.yaml` after the first pass) | 1 (T1-13, volume 2 only) |
 | Of those, exist but the author's or subject's record does not cite them (EXISTS–UNCITED) | 3 (items T1-11, T1-20, T1-25) |
-| NOT FOUND, queued below | 15 (Tier 1: 9; Tier 2: 6) |
+| NOT FOUND, queued below | 14 (Tier 1: 8; Tier 2: 6) |
 | Founder decision, not queued | 2 (T1-12 Aristotle's Metaphysics; T2-10 Ibn Rushd's commentaries) |
 
 ## Table (one row per item)
@@ -35,7 +36,7 @@ Status markers: [ ] queued · [~] in a lane's hands · [x] harvested and cited.
 | 10 | Alf Layla wa Layla | traditional | NOT FOUND (`work/alf-layla-wa-layla` exists, cites Ibn al-Nadim, al-Mas'udi, EI2) | n/a | QUEUE (authorship traditional) |
 | 11 | Kitab al-'Ayn | al-Khalil ibn Ahmad | `source/kitab-al-ayn-makhzumi` (also `arabica-kitab-al-ayn`, `dia-kitabul-ayn`) | **EXISTS–UNCITED**: cited by the work record and concepts, not by `person/al-khalil-ibn-ahmad-al-farahidi` | cite it |
 | 12 | Metaphysics | Aristotle | NOT FOUND | n/a | **founder decision** |
-| 13 | Jami' al-Tawarikh | Rashid al-Din | NOT FOUND (only Wikipedia/Wikidata records about the author; `work/jami-al-tawarikh` cites EI2) | n/a | QUEUE |
+| 13 | Jami' al-Tawarikh | Rashid al-Din | No source record, but **downloaded and OCR'd** (register id `jami-al-tawarikh`, acquired 2026-11-21, `ocr_done`, 652 pages: volume 2 only, Hulagu to Kaykhatu). `work/jami-al-tawarikh` cites EI2 | n/a | create the source record; queue volume 1 (Mongol tribes, Genghis, Ogedei to Mongke) only if wanted |
 | 14 | Kitab al-Jabr (Khayyam's algebra) | Umar Khayyam | `source/khayyam-woepcke-1851` (Woepcke, *L'algèbre d'Omar Alkhayyami*; no `work` record for it — `work/khayyam-euclid-commentary` is a different book) | yes (person) | none |
 | 15 | Al-Rubaiyat | attributed to Khayyam | NOT FOUND | n/a | QUEUE |
 | 16 | Nowruznameh | Umar Khayyam | NOT FOUND | n/a | QUEUE |
@@ -76,7 +77,7 @@ Centuries are approximate (hijri century in brackets). "Cite from" lists the ent
 
 - [ ] **T1-3 · Kalila wa Dimna** · كليلة ودمنة · Ibn al-Muqaffa' (Arabic version of the Pahlavi, from the Sanskrit Panchatantra) · 8th c. CE (2nd c. AH) · EN S1 E8 · cite from `work/kalila-wa-dimna`, `person/ibn-al-muqaffa`
 - [ ] **T1-10 · Alf Layla wa Layla (The Thousand and One Nights)** · ألف ليلة وليلة · traditional / anonymous, grown over several centuries · 8th–16th c. CE (2nd–10th c. AH) · AR S1 E9 (Sindbad) · cite from `work/alf-layla-wa-layla`
-- [ ] **T1-13 · Jami' al-Tawarikh (Compendium of Chronicles)** · جامع التواريخ · Rashid al-Din Hamadani (written in Persian) · 14th c. CE (8th c. AH) · EN S2 E9 · cite from `work/jami-al-tawarikh`, `person/rashid-al-din-hamadani`
+- [~] **T1-13 · Jami' al-Tawarikh (Compendium of Chronicles)** · جامع التواريخ · Rashid al-Din Hamadani (Persian original; the scan is an Arabic edition) · 14th c. CE (8th c. AH) · EN S2 E9 · cite from `work/jami-al-tawarikh`, `person/rashid-al-din-hamadani`. **Already in `harvest-register.yaml` as `jami-al-tawarikh`: downloaded and OCR'd 2026-11-21, volume 2 parts 1 and 2 only. Not a harvest task: needs a source record and mining. Volume 1 is not held.**
 - [ ] **T1-15 · Al-Rubaiyat (Quatrains)** · الرباعيات · attributed to Umar Khayyam (attribution of individual quatrains is disputed; record it as attributed) · 11th–12th c. CE (5th–6th c. AH) · AR S2 E3 · cite from `person/umar-khayyam`
 - [ ] **T1-16 · Nowruznameh** · نوروزنامه · Umar Khayyam (attribution to be verified) · 11th–12th c. CE (5th–6th c. AH) · AR S2 E3 · cite from `person/umar-khayyam`
 - [ ] **T1-19 · Al-Kulliyat fi al-Tibb (Colliget)** · الكليات في الطب · Ibn Rushd · 12th c. CE (6th c. AH) · AR S2 E4 · cite from `person/ibn-rushd`
@@ -89,6 +90,8 @@ Centuries are approximate (hijri century in brackets). "Cite from" lists the ent
 - [ ] **T2-7 · Risala fi Istikhraj al-Mu'amma (Manuscript on Deciphering Cryptographic Messages)** · رسالة في استخراج المعمى · al-Kindi · 9th c. CE (3rd c. AH) · EN S2 E1 · cite from `person/al-kindi`
 - [ ] **T2-8 · Kitab al-Hiyal (Book of Ingenious Devices)** · كتاب الحيل · Banu Musa (Muhammad, Ahmad and al-Hasan) · 9th c. CE (3rd c. AH) · EN S2 E2 · cite from `group/banu-musa`
 - [ ] **T2-9 · Fi aghrad ma ba'd al-tabi'a (On the Aims of the Metaphysics)** · مقالة في أغراض ما بعد الطبيعة · al-Farabi (identification to verify) · 10th c. CE (4th c. AH) · EN S2 E7 · cite from `person/al-farabi`
+
+Download state of the other items: the 19 existing source records are mostly downloaded and OCR'd (Ihya and Muqaddimah OCR partial; Ibn Jubayr's Rihla OCR partial, mining not started); per `harvest-register.yaml`, not checked on the microSD itself.
 
 Held for the founder (see above, not queued): T1-12 Aristotle's *Metaphysics*; T2-10 Ibn Rushd's commentaries.
 
