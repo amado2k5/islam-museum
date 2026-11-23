@@ -1,0 +1,13 @@
+---
+id: passage/muwatta-15-1682
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/passage/muwatta-15-1682.md}
+---
+
+## Ringkasan
+Malik berkata, dan saya pernah mendengar bahwa Umar ibn Al-Khattab berkata tentang seorang wanita yang suaminya menceraikannya saat dia tidak ada, lalu berdamai dan tidak memberitahunya tentang kembalinya Malik itu. Dia sudah mendengar tentang perceraian wanita itu dan dia menikah, karena jika suami lainnya masuk bersamanya atau tidak, tidak mungkin suami pertamanya yang menceraikannya menjadi suami pertamanya. Malik berkata: Ini adalah hal yang paling saya sukai yang pernah saya dengar tentang ini dan tentang orang yang hilang. {cite:muwatta-maruf-1997 p.89}
+
+## Lokasinya di museum
+Buku ini termasuk dalam [[passage/muwatta-kitab-15-talaq|Muwatta, Kitab Cerai]]. Sumbernya [[work/muwatta-malik|adalah Muwatta]]. Buku ini menyebutkan [[person/malik-ibn-anas|Malik ibn Anas]] dan [[person/umar-ibn-al-khattab|Umar ibn al-Khattab]]. Buku ini juga dibangun di atasnya dalam bab-bab [[concept/talaq|Talaq]].

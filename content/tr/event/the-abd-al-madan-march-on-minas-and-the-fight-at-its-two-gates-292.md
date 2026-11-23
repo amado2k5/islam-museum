@@ -1,0 +1,12 @@
+---
+id: event/the-abd-al-madan-march-on-minas-and-the-fight-at-its-two-gates-292
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/the-abd-al-madan-march-on-minas-and-the-fight-at-its-two-gates-292.md}
+---
+## Özet
+İki gün sonra, Banu Abd al-Madan öğrendi ve söyledi—mektupta onlara hitap edenlerden bahsedilmez—kendi taraflarından bir adam gönderdiklerini, onları yok etmek amacıyla gönderdiklerini ve sonunda İbn Bastam'ın yanında olduğunu söyledi. Onları savaşa götüren oydu, ancak sadece onları ve Madani halkını yok etmeyi hedefledi {cite:sira-hadi-ila-al-haqq p.282}. Bu işin liderleri [[person/rabi-ibn-abi-al-rukud|Rabi' ibn Abi al-Rukud]] ve Ali ibn Rabi'ydi ve Minas'ın akıbeti konusunda anlaştılar, bu yüzden Yamayiler ve müttefiklerle kaldılar {cite:sira-hadi-ila-al-haqq p.282}.
+
+## Detaylar
+Amaçları, İbn Bustam'ı öldürmek, aralarındaki önceki düşmanlık nedeniyle ve Banu al-Haris'in Muhammed bin Ubeyd Allah'tan aldığı acıdan kaçınmaktı. Hepsi birlikte Minas'a yürüdüler {cite:sira-hadi-ila-al-haqq p.282}. Muhammed bin Ubeyd Allah dışarı çıktı ve hizmetkarlarıyla birlikte Minas Yolu'nun doğu kapısında durdu, İbn Bastam ve Banu Rabi'ah ise batı yolunda durdu. Çatışma her iki yolda da şiddetli sürdü ve Banu al-Harith Minas'a {cite:sira-hadi-ila-al-haqq p.282} {cite:sira-hadi-ila-al-haqq p.283} girmeye hevesle girene kadar sürdü. Yaralar her yerde yaygındı; Ebu Ca'far'ın hizmetkarları arasında ve Banu Rabi'ah'tan seksen kişilik yanlarında olanlar öldürüldü. O gün Ebu Ca'far eşsiz bir üstünlükle görev yaptı ve orduyu ve müttefikleri büyük bir soylulukla yaralandı {cite:sira-hadi-ila-al-haqq p.283}. Çatışmalar İşa'ya kadar devam etti, ardından Banu Al-Harith köye döndü {cite:sira-hadi-ila-al-haqq p.283}. Kitaptaki 'Banu Al-Harith'in başardıklarına ulaşamayacaklar' ifadesi, baskıda sorunlu bir anlamdır ve anlatıcının sözlerinden Banu Al-Harith'e zarar vermemeleri için uyarı olarak alınır. Burada Banu Rabi'ah hangi Rabi'ah olduklarını bilmez ve bir kayda bağlı değildir. Buradaki kitap, mahkumların İbn Bastam'a yönelttiği suçlamaların ne olduğunu bilmez; bu suçlamalar onların rivayetinden alınmıştır, Mutahaf'tan değil.
