@@ -1,0 +1,13 @@
+---
+id: passage/muwatta-1-575
+lang: tr
+source_lang: ar
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Google Translate documents)', model: google-translate, run: gt-docs-tr-2026-11-23, source: content/ar/passage/muwatta-1-575.md}
+---
+
+## Özet
+Malik, Abdullah ibn Abdullah ibn Cabir ibn Atik'ten rivayet etti ki, Abdullah ibn Ömer şöyle dedi: Abdullah ibn Ömer, Ensar'ın bir köyü olan Beni Muaviye'ye geldi ve mescidimizde Peygamber'in nerede namaz kıldığını bilip bilmediğimizi sordu. Ona mescidin bir köşesini gösterdim. Sonra bana orada üç şey için dua ettiğini sordu ve ben de ona şöyle dedim: Dışarıdan hiçbir düşmanın onlara üstün gelmemesi ve kıtlıkla helak olmamaları için dua etti ve ikisi de kabul edildi. Ayrıca güçlerinin birbirlerine karşı kullanılmaması için dua etti, ancak bu kabul edilmedi. O da: Doğru söyledin dedi. Sonra şöyle dedi: Kıyamet gününe kadar kaos olacaktır. Araştırmacı, İbn Abdülberr'in (el-Tamhid 19/195) el-Muvatta'nın rivayet zincirinde büyük bir karışıklık olduğunu söylediğini aktarıyor: Yahya, İbn Vahb, İbn Bukayr ve Ma'n gibi bir grup, Abdullah, Malik'in hocası ile İbn Ömer arasına kimseyi koymamıştır; başka bir grup Atik ibn el-Harith'i dahil etmiştir; ve el-Ka'nabi, el-Tunisi ve Mutarrif gibi bir başka grup ise Cabir ibn Atik'i dahil etmiştir. Yahya'nın rivayetinin daha doğru olma olasılığının yüksek olduğunu düşünüyor çünkü bu rivayet İbn Vahb, Ma'n ve çoğu rivayetçi tarafından doğrulanmıştır. Ayrıca, el-Buhari ve Ebu Hatim'in Abdullah ibn Abdullah'ın İbn Ömer'den işittiğini doğruladığını belirtiyor. Araştırmacı, Ebu Mus'ab'ın (624) ve İshak ibn Süleyman'ın, Yahya'nın rivayetine benzer şekilde, el-Hakim'in derlemesinde (4/517) rivayet ettiğini ve Suveyd, el-Ka'nebi ve İbn Mehdi'nin ise Ahmed'in derlemesinde (5/445) ve el-Şafiî'nin derlemesinde Cabir ibn Atik'ten bahsederek rivayet ettiğini ekliyor. {cite:muwatta-maruf-1997 p.296} {cite:muwatta-maruf-1997 p.297}
+
+## Müzedeki konumu
+[[passage/muwatta-kitab-01-salat|El-Muwatta, Dua Kitabı]]'nda yer almaktadır. Kaynağı [[work/muwatta-malik|Al-Muwatta]]'dır. Burada [[person/muhammad|Muhammed]], [[person/abdullah-ibn-umar|Abdullah ibn Ömer ibn el-Hattab]], [[person/abdallah-ibn-abdallah-ibn-jabir-ibn-atik|Abdallah ibn Abdullah ibn Cabir ibn Atik]], [[group/ansar|Al-Ensar]], [[place/medina|Al-Medine Al-Munevwarah]], [[person/ibn-abd-al-barr|Ibn Abd al-Barr]]'dan bahsediliyor ve [[person/al-bukhari|Muhammed ibn İsmail el-Buhari]]. [[practice/dua|Dua]] ile ilgili bölümler için temel olarak kullanılır.

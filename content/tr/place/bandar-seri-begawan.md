@@ -1,0 +1,27 @@
+---
+id: place/bandar-seri-begawan
+lang: tr
+source_lang: ar
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-23), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Google Translate documents)', model: google-translate, run: gt-docs-tr-2026-11-23, source: content/ar/place/bandar-seri-begawan.md}
+---
+## Özet
+Bandar Seri Begawan, günümüzde Borneo adasında bulunan Brunei'nin başkentidir. Şakib Arslan'ın yorumlarıyla birlikte "İslam Dünyasının Mevcut Durumu" adlı kitap, "Brunei Şehri" ve "Brunei Kasabası"ndan bahsetmekte ancak Bandar Seri Begawan'dan söz etmemektedir. Bu sayfa, kitaptaki "Brunei Şehri"nin müze etiketinde tanımlanan şehir olduğunu varsaymaktadır; bu, yazarın yorumudur, metnin kendisi değildir. {cite:stoddard-arslan-hadir-1923 1 p.351} Kitap, şehir hakkında çok az bilgi içermekte, bunun yerine "Java ve Komşularında İslam" başlıklı bölümde ada, sultanlıkları ve çevredeki olaylara odaklanmaktadır.
+
+## Brunei adasının tanımı
+Kitap, Borneo'yu Malezya takımadalarının en büyük adası ve Yeni Gine'den sonra dünyanın en büyük adası olarak tanımlıyor; alanı 746.000 kilometrekare. Ekvatorun altında yer alıyor, dağları ağaçlarla kaplı ve büyük nehirleri, mineralleri, değerli taşları ve bol miktarda petrolü var. İngiltere ve Hollanda arasında bölünmüş durumda: doğu, güney ve batı Hollandalıların, kuzey ise İngilizlerin kontrolünde. Sarawak Prensliği, İngiliz Doğu Hindistan Şirketi'nin kuzey Borneo'daki toprakları, Labuan Adası ve Brunei şehrini içeriyor. {cite:stoddard-arslan-hadir-1923 1 p.351} Bkz. [[place/borneo|Borneo]] ve [[place/brunei|Brunei]].
+
+Borneo'nun kuzeyde Çin ve Hindistan ile ilişkileri olduğunu, yöneticilerinin çoğunun Hint kökenli olduğunu ve Hindu ibadetine adanmış çok sayıda tapınak içerdiğini belirtiyor. İslam'ın Borneo'ya 16. yüzyılın ortalarına kadar girmediğini ve oradaki ilk Müslüman sultanın 1590 yılında Sukkadan tahtına çıkan Giri Kuzuma olduğunu belirtiyor. {cite:stoddard-arslan-hadir-1923 1 p.352} Bu, kitabın batı kıyılarını örnek olarak kullanarak adanın genel anlatımıdır. Bu sayfa Brunei'nin İslamlaşmasına değinmiyor ve kitap İslam'ın oraya gelişinin tarihini vermiyor. Kitabın başka bir yerinde, oryantalist Hurgronje'nin araştırmasına atıfta bulunularak, İslam'ın Java'dan Sumatra'ya ve Borneo, Sulawesi ve doğu adalarının bazı bölgelerine, ona göre Hindistan'dan gelen Müslüman tüccarlar aracılığıyla barışçıl yollarla yayıldığı belirtiliyor. {cite:stoddard-arslan-hadir-1923 1 p.339}
+
+## Brunei Prensi ve Sanpas
+Kitabın Sanpas Sultanlığı hakkındaki tartışmasında, bu sultanlığın Johor'lu Malezyalılar tarafından kurulduğu, 1609 yılında Hollanda Doğu Hindistan Şirketi ile bir antlaşma imzaladığı ve 17. yüzyılın ilk yarısında Brunei Emiri Radin Sulaiman bin Raja Tengah'ın Sanpas Kralını yenerek onu sürgün ettiği belirtiliyor. Annesi Sukadana kraliyet ailesindendi ve Sanpas'ta ikamet ediyordu. Radin Sulaiman daha sonra Sultan Muhammed Safiuddin adıyla hüküm sürdü ve kitabın yazıldığı zamana kadar kraliyet hanedanının ilk hükümdarıydı. {cite:stoddard-arslan-hadir-1923 1 p.353}
+
+## James Brooke ve Brunei
+Kitap, başkenti Kuching olan Sarawak Emirliği'nin kökenlerini anlatıyor. Kitap, gemisiyle Brunei'ye gelen ve oradaki durumun adaletsizlik, baskı, güvensizlik ve insanların mallarına el konulmasıyla dayanılmaz olduğunu gören James Brooke adlı bir İngiliz denizciden bahsediyor. Muda Hasan adlı bir hükümdar, İngiliz kaptana güvendi ve ona işleri emanet etti. Muda Hasan düzeni ve güvenliği sağladı ve Brunei Sultanı, James'i Sarawak'ın hükümdarı olarak tanıdı ve böylece onu Emir yaptı. Bu tanınmanın yılı sayfada belirtilmemiştir. Kitap daha sonra 1842 yılından bahsederek, James'in Müslümanlara karşı direnişinde putperestleri kullandığını ve İngiliz hükümetinin Araplar ve Malaylarla olan savaşlarında ona bir miktar destek sağladığını belirtiyor. Avrupalılara ve yerlilere eşit davrandığını, bunun da emirliğin halkına mutluluk getirdiğini ve genişlemesine yol açtığını iddia ediyor. 1863 yılında öldü ve yerine yeğeni Karas Brooke geçti; bu noktada krallık Büyük Britanya'nın koruması altına girdi. {cite:stoddard-arslan-hadir-1923 1 p.353} Arslan bir dipnotta, Avrupa hükümetlerinin eşitlik politikasını örnek almasını umduğunu belirtiyor. {cite:stoddard-arslan-hadir-1923 1 p.353} Bkz. [[place/kuching|Cushing]], [[event/anglo-bruneian-war|Anglo-Brunian Savaşı]] ve [[event/battle-of-brunei-town-1845|Brunei Şehri Muharebesi 1845]]; bu iki kart müze içindir ve kitapta bunlar hakkında hiçbir şey okunmamaktadır.
+
+## Ada sakinleri
+Kitap, Borneo'nun nüfusunu 1,7 milyon olarak tahmin ediyor; bu sayıya yaklaşık 60.000 Çinli, birkaç bin Arap ve yaklaşık 2.000 Avrupalı dahil olup, büyüklüğüne göre seyrek nüfuslu olduğunu belirtiyor. İç kesimlerde ağırlıklı olarak Dayakların, kıyı şeridinde ise Müslüman Malayların yaşadığını ifade ediyor. {cite:stoddard-arslan-hadir-1923 1 p.353}
+
+## Kaynak hakkında not
+Kitap, 20. yüzyılın başlarına ait rakamlar ve tahminler içermektedir. Brunei şehrini, camisini veya kraliyet sarayını anlatmamakta, Bandar Seri Begawan'dan da bahsetmemektedir. Araştırmadaki bazı tarihler eksik veya çarpıtılmış olduğundan çıkarılmıştır. Arslan, Avrupa kaynaklarından alıntılar yapmakta ve kendi yorumlarını eklemektedir; kraliyet ailelerinin kökenleri ve Avrupalılar hakkında söyledikleri tamamen kendi anlatımıdır.
