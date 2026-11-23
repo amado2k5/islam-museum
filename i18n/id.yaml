@@ -6186,6 +6186,10 @@ explore:
       desc: Setiap penyebutan korespondensi dalam Al-Qur'an, Sunnah, dan biografi, serta setiap kitab yang muncul — surat-surat Nabi kepada raja dan kaisar, surat-surat para khalifah dan apa yang ditulis
         kepada mereka, surat Salomo kepada Bilqis — bersama setiap ayat dan laporan dengan sumbernya.
       menu: Jelajahi buku dan korespondensi dalam Al-Qur'an dan buku-buku
+    nuzul:
+      title: "Browser Asbab al-Nuzul"
+      desc: "Setiap riwayat tentang mengapa suatu ayat atau surah diturunkan dalam Al-Qur'an, Sunnah, sirah, riwayat para Sahabat dan Tabi'in, dan setiap kitab yang dihimpun — wahyu pertama di gua, sebab-sebab ayat hijab, khamar, ifk, li'an, dan zihar — setiap riwayat dengan sumbernya."
+      menu: "Jelajahi sebab-sebab turunnya wahyu dalam Al-Qur'an dan kitab-kitab"
     munazarat:
       title: Peramban Debat
       desc: Setiap penyebutan perdebatan dan perdebatan dalam Al-Qur'an, Sunnah, dan biografi, serta setiap buku yang telah diterbitkan — argumen Abraham dengan umatnya dan Nimrod, Mubahala umat Kristen
@@ -8898,3 +8902,49 @@ personas:
       - title: "Berdiskusi dengan data"
         body: "Grafik, data terbuka, dan riset, sehingga Anda bisa menguji klaim apa pun sendiri."
     note: "Museum ini ditulis dari sudut pandang Ahl al-Sunnah dan menyatakan hal tersebut. Ini adalah titik awal yang diumumkan, dan pendapat lain akan dipanggil saat disampaikan. Gugatan tanpa dokumen adalah cacat yang dilaporkan, bukan doktrin tersembunyi. Museum ini bukan platform debat dan tidak memiliki komentar."
+nuzul:
+  title: "Browser Asbab al-Nuzul"
+  lede: "Setiap riwayat tentang sebab turunnya wahyu yang dibawa sumber-sumber museum — peristiwa atau pertanyaan di balik suatu ayat atau surah: wahyu pertama di gua Hira, sebab-sebab ayat hijab, khamar, ifk, li'an, zihar, dan perubahan kiblat — sebagaimana diriwayatkan para Sahabat, Tabi'in, dan kitab-kitab tafsir, hadis, dan sirah, serta setiap sebab dalam setiap kitab yang dihimpun — catatan bersumber yang bertambah seiring datangnya teks baru."
+  badge: "Penjelajah sebab turunnya wahyu"
+  status: "Bangunan ini memuat {n} catatan dalam {s} bagian; teks-teksnya draf hingga dibaca manusia."
+  method_title: "Metode browser"
+  method_note: "Setiap catatan di sini adalah catatan museum biasa — dengan sumber dan prosanya. Sebab-sebab ditemukan saat kompilasi oleh detektor terjaga atas teks pasal — rumus sebab eksplisit («سبب نزول», «أسباب النزول») dan rumus wahyu yang terikat konteks ayat («نزلت هذه الآية», «فأنزل الله», «نزلت في فلان», «نزل جبريل»), yang harus berada di samping kata ayat, surah, atau Al-Qur'an; makna turun lainnya tetap di luar — hujan, hujan es, banjir, bencana, tamu, turunnya Isa, dan makna medis — positif palsu terverifikasi dikeluarkan menurut id, dan setiap kitab yang dihimpun kemudian membawa sebabnya ke sini secara otomatis begitu pasalnya mendarat di graf; catatan terpilih bergabung melalui tag nuzul-browser. Setiap pasal ditandai sebab bila melaporkan sebab nyata dan sebutan bila tentang ilmu asbab al-nuzul, dan chip perawi menggolongkan riwayat kenabian, sahabat, tabi'i, atau kemudian."
+  api: "Seluruh himpunan tersedia di"
+  sections_title: "Bagian-bagian browser"
+  narrators_title: "Generasi riwayat"
+  all_narrators: "Semua generasi"
+  filter_label: "Saring sebab-sebab"
+  filter_none: "Tidak ada hasil."
+  empty: "Belum ada catatan sebab turunnya wahyu dalam bangunan ini."
+  kinds:
+    occasion: "melaporkan sebab"
+    mention: "tentang ilmunya"
+  narrators:
+    prophetic: "Kenabian"
+    companion: "Sahabat"
+    tabii: "Tabi'i"
+    later: "Kemudian"
+  sections:
+    quran:
+      title: "Dalam Al-Qur'an"
+      desc: "Apa yang dikatakan Al-Qur'an sendiri tentang keadaan turunnya — ayat-ayat yang menamai peristiwa atau pertanyaan yang mereka jawab, dan pasal-pasal korpus beku yang melaporkan suatu sebab."
+    sunnah:
+      title: "Dalam Sunnah"
+      desc: "Riwayat-riwayat sebab dari koleksi hadis — apa yang dijelaskan Nabi ketika suatu ayat turun, pertanyaan-pertanyaan yang diajukan kepadanya, dan peristiwa-peristiwa yang dijawab ayat-ayat, dalam Sahih al-Bukhari, Sahih Muslim, Muwatta, dan Sunan."
+    seerah:
+      title: "Dalam sirah"
+      desc: "Sebab-sebab yang dibawa kitab-kitab sirah dan sejarah — episode-episode wahyu di dalam peristiwa biografi — terisi dengan sendirinya seiring mendaratnya pasal sirah baru."
+    books:
+      title: "Dalam kitab-kitab lain"
+      desc: "Riwayat sebab dari setiap karya lain yang dihimpun — kitab-kitab asbab dan tafsir, sejarah, adab — digolongkan menurut genre karya saat pasalnya tiba."
+    curated:
+      title: "Catatan tentang sebab-sebab"
+      desc: "Catatan terpilih museum tentang sebab-sebab itu sendiri: sebab-sebab turun yang masyhur sebagai catatan bernama, karya-karya asbab dan edisi-edisinya, serta konsep-konsep ilmu ini."
+  viz:
+    title: "Di mana sebab-sebab berdiri"
+    caption: "Sinar-sinar turun dari garis langit ke surah-surah yang membawa riwayat sebab di sini — {n} catatan pada surahnya; {e} lainnya, tanpa nomor surah, ada dalam daftar di bawah."
+    how: "Pilih satu generasi untuk mewarnai sinar hanya dengan riwayatnya; pilih lagi untuk melihat semuanya."
+    hint: "Arahkan, fokuskan, atau sentuh sinar untuk melihat ke mana ia turun."
+    sky_title: "Surah-surah, dalam urutan mushaf"
+    sky_note: "{n} dari {total} surah membawa riwayat sebab; sisanya pucat."
+    count_in: "{n} catatan"
