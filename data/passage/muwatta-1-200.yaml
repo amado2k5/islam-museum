@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/muhammad-ibn-shihab-al-zuhri, person/salim-ibn-abdallah-ibn-umar]
 work: work/muwatta-malik
 ref: "1.200"
-label: { ar: "الموطأ 200 — ابن عمر يكبر كلما خفض ورفع", en: "Muwatta 200", es: "200 palabras", fr: "200 mots", ur: "200 الفاظ" }
+label: { ar: "الموطأ 200 — ابن عمر يكبر كلما خفض ورفع", en: "Muwatta 200", es: "200 palabras", fr: "200 mots", ur: "200 الفاظ", tr: "El-Muvatta 200 — İbn Ömer, başını eğip kaldırdığı her seferinde “Allahu Ekber” der.", id: "Al-Muwatta 200 — Ibnu Umar mengucapkan “Allahu Akbar” setiap kali ia menundukkan atau mengangkat kepalanya." }
 summary:
   ar: "أثر يرويه مالك عن ابن شهاب عن سالم بن عبد الله أن عبد الله بن عمر كان يكبر في الصلاة كلما خفض ورفع؛ وهو في باب افتتاح الصلاة. ويذكر المحقق أنه رواه عن مالك أبو مصعب وعبد الرزاق. {cite:muwatta-maruf-1997 p.126}"
+  tr: "Malik'in İbn Şihab'tan, o da Salim ibn Abdullah'tan rivayet ettiği bir hadiste, Abdullah ibn Ömer'in namazda eğilip kalkarken her seferinde \"Allahu Ekber\" (Allah en büyüktür) dediği belirtilir; bu, namaza başlama bölümünde yer almaktadır. Editör, bu hadisin Malik'ten Ebu Musab ve Abdül-Razzak tarafından rivayet edildiğini belirtmektedir. {cite:muwatta-maruf-1997 s.126}"
+  id: "Sebuah riwayat yang dinarasikan oleh Malik dari Ibnu Shihab dari Salim ibn Abdullah menyatakan bahwa Abdullah ibn Umar biasa mengucapkan \"Allahu Akbar\" (Allah Maha Besar) dalam salat setiap kali ia menurunkan atau mengangkat dirinya; ini terdapat dalam surah tentang memulai salat. Editor menyebutkan bahwa riwayat ini dinarasikan dari Malik oleh Abu Musab dan Abd al-Razzaq. {cite:muwatta-maruf-1997 p.126}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
   - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }

@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1670"
-label: { ar: "الموطأ 1670 — مالك: بلغه عن القاسم بن محمد مثل ذلك", en: "Muwatta 1670", es: "Muwatta 1670", fr: "Muwatta 1670", ur: "موطا 1670" }
+label: { ar: "الموطأ 1670 — مالك: بلغه عن القاسم بن محمد مثل ذلك", en: "Muwatta 1670", es: "Muwatta 1670", fr: "Muwatta 1670", ur: "موطا 1670", tr: "El-Muvatta 1670 — Malik: Bu bilgiyi El-Kâsım bin Muhammed'den aldığını belirtmiştir.", id: "Al-Muwatta 1670 — Malik: Dia diberitahu tentang hal yang sama dari Al-Qasim bin Muhammad" }
 summary:
   ar: "بلغ مالكا عن القاسم بن محمد مثل ذلك. {cite:muwatta-maruf-1997 p.85}"
+  tr: "Malik, benzer bir şeyi el-Kâsım ibn Muhammed'den rivayet etmiştir. {cite:muwatta-maruf-1997 s.85}"
+  id: "Malik meriwayatkan hal serupa berdasarkan riwayat dari al-Qasim ibn Muhammad. {cite:muwatta-maruf-1997 p.85}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
   - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }

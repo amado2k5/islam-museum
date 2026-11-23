@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "4371"
-label: { ar: "صحيح مسلم 4371 — الأب والأبوة", en: "Sahih Muslim 4371 — the father and fatherhood", ur: "صحیح مسلم 4371 — باپ اور والدیت", es: "Sahih Muslim 4371 — El padre y la paternidad", fr: "Sahih Muslim 4371 — Le père et la paternité" }
+label: { ar: "صحيح مسلم 4371 — الأب والأبوة", en: "Sahih Muslim 4371 — the father and fatherhood", ur: "صحیح مسلم 4371 — باپ اور والدیت", es: "Sahih Muslim 4371 — El padre y la paternidad", fr: "Sahih Muslim 4371 — Le père et la paternité", tr: "Sahih Muslim 4371 — Baba ve Babalık", id: "Sahih Muslim 4371 — Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا هَمَّامٌ، حَدَّثَنَا عَطَاءٌ، عَنْ صَفْوَانَ بْنِ يَعْلَى ابْنِ، مُنْيَةَ عَنْ أَبِيهِ، قَالَ أَتَى النَّبِيَّ رَجُلٌ وَقَدْ عَضَّ يَدَ رَجُلٍ فَانْتَزَعَ يَدَهُ فَسَقَطَتْ ثَنِيَّتَاهُ - يَعْنِي الَّذِي عَضَّهُ - قَالَ فَأَبْطَلَهَا النَّبِيُّ وَقَالَ \" أَرَدْتَ أَنْ تَقْضَمَهُ كَمَا يَقْضَمُ الْفَحْلُ \"."
 summary:
   ar: "حديث في صحيح مسلم، رقم 4371، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 4371، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sahih Muslim, n.° 4371 (El Libro de los Juramentos, Muharibin, Qasas (Represalia) y Diyat (Indemnización por Sangre)), menciona al padre y la paternidad. El Navegador de la Paternidad en el Islam lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Sahih Muslim, n° 4371 (Le Livre des Serments, Muharibin, Qasas (Rétribution) et Diyat (Prix du Sang)), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les versets du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih Müslim'de 4371 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 4371, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4371 (book 28 hadith 30); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

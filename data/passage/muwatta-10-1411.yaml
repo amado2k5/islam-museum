@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1411"
-label: { ar: "الموطأ 1411 — مالك سئل عن شاة تردت فكسرت فأدركها صاحبها فذبحها فسال دمها ولم تتحرك: إن كانت تطرف فليأكلها", en: "Muwatta 1411", es: "Muwatta 1411", fr: "Muwatta 1411", ur: "موطا 1411" }
+label: { ar: "الموطأ 1411 — مالك سئل عن شاة تردت فكسرت فأدركها صاحبها فذبحها فسال دمها ولم تتحرك: إن كانت تطرف فليأكلها", en: "Muwatta 1411", es: "Muwatta 1411", fr: "Muwatta 1411", ur: "موطا 1411", tr: "El-Muvatta 1411 — Malik'e, düşüp bacağı kırılan bir koyun soruldu. Sahibi onu yakalayıp kesti, kanı akıyordu ama kıpırdamıyordu: Eğer göz kırpıyorsa, onu yesin.", id: "Al-Muwatta 1411 — Malik ditanya tentang seekor domba yang jatuh dan kakinya patah, lalu pemiliknya mengejarnya dan menyembelihnya, dan darahnya mengalir tetapi domba itu tidak bergerak: Jika domba itu berkedip, maka biarkan dia memakannya." }
 summary:
   ar: "سئل مالك عن شاة تردت فكسرت، فأدركها صاحبها فذبحها، فسال الدم منها ولم تتحرك. فقال مالك إن كان ذبحها ونفسها يجري وهي تطرف فليأكلها. {cite:muwatta-maruf-1997 p.632}"
+  tr: "Malik'e düşüp bacağını kıran bir koyun hakkında soru soruldu. Sahibi koyuna yetişip onu kesti, ancak koyundan kan akıyordu ve hareket etmiyordu. Malik, \"Eğer koyun hâlâ nefes alıp göz kırparken kesildiyse, o zaman yiyebilir.\" dedi. {cite:muwatta-maruf-1997 s.632}"
+  id: "Malik ditanya tentang seekor domba yang jatuh dan kakinya patah. Pemiliknya mengejarnya dan menyembelihnya, tetapi darah mengalir darinya dan domba itu tidak bergerak. Malik berkata, \"Jika dia menyembelihnya saat domba itu masih bernapas dan berkedip, maka dia boleh memakannya.\" {cite:muwatta-maruf-1997 p.632}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-10-dhaba-ih }
   - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }

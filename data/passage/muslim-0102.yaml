@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "102"
-label: { ar: "مسلم 102 — من غشنا فليس منا", en: "Muslim 102 — Whoever cheats us is not one of us", es: "Musulmán 102 — Quien nos engaña no es de los nuestros", fr: "Muslim 102 — Celui qui nous trompe n'est pas des nôtres", ur: "مسلم 102 - جو ہمیں دھوکہ دے وہ ہم میں سے نہیں ہے۔" }
+label: { ar: "مسلم 102 — من غشنا فليس منا", en: "Muslim 102 — Whoever cheats us is not one of us", es: "Musulmán 102 — Quien nos engaña no es de los nuestros", fr: "Muslim 102 — Celui qui nous trompe n'est pas des nôtres", ur: "مسلم 102 - جو ہمیں دھوکہ دے وہ ہم میں سے نہیں ہے۔", tr: "Müslim 102 — Bizi aldatan bizden değildir.", id: "Muslim 102 — Barangsiapa menipu kita, ia bukanlah termasuk golongan kita." }
 text: "مر رسول الله على صبرة طعام فأدخل يده فيها فنالت أصابعه بللاً، فقال: ما هذا يا صاحب الطعام؟ قال: أصابته السماء يا رسول الله؛ قال: «أفلا جعلته فوق الطعام كي يراه الناس؟ من غشني فليس مني»"
 summary:
   ar: "رواية أبي هريرة في كتاب الإيمان من صحيح مسلم؛ البائع الذي أخفى البلل تحت صبرة الطعام — نص الغش التجاري الأشهر في الدواوين."
+  tr: "Sahih Müslim'de yer alan İman Kitabı'ndaki Ebu Hurayra rivayetine göre; yiyecek yığınının altına ıslaklığı gizleyen satıcı, Divanlardaki en ünlü ticari dolandırıcılık örneğidir."
+  id: "Riwayat Abu Hurairah dalam Kitab Iman dari Sahih Muslim; penjual yang menyembunyikan barang basah di bawah tumpukan makanan — contoh penipuan komersial paling terkenal di Diwan."
 relations:
   - { type: part_of, target: passage/muslim-kitab-01 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

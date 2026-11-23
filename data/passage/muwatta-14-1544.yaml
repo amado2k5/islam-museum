@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "14.1544"
-label: { ar: "الموطأ 1544 — مالك: بلغه عن الزبير بن العوام مثل ذلك", en: "Muwatta 1544", es: "Muwatta 1544", fr: "Muwatta 1544", ur: "موطا 1544" }
+label: { ar: "الموطأ 1544 — مالك: بلغه عن الزبير بن العوام مثل ذلك", en: "Muwatta 1544", es: "Muwatta 1544", fr: "Muwatta 1544", ur: "موطا 1544", tr: "El-Muvatta 1544 — Malik: Ona benzer bir şeyden El-Zubayr ibn El-Awwam'ın rivayetiyle bahsedilmişti.", id: "Al-Muwatta 1544 — Malik: Dia mendapat informasi serupa dari Al-Zubayr ibn Al-Awwam." }
 summary:
   ar: "بلغ مالكا عن الزبير بن العوام مثل ذلك. {cite:muwatta-maruf-1997 p.46}"
+  tr: "Malik, Zübeyr ibn el-Avvam'dan da benzer bir şey rivayet etmiştir. {cite:muwatta-maruf-1997 s.46}"
+  id: "Malik meriwayatkan hal serupa dari riwayat Al-Zubayr ibn Al-Awwam. {mengutip:muwatta-maruf-1997 hal.46}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
   - { type: mentions, target: person/zubayr-ibn-al-awwam, sources: [source/muwatta-maruf-1997] }

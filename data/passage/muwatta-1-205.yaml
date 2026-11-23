@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.205"
-label: { ar: "الموطأ 205 — مالك: المنفرد ينسى تكبيرة الافتتاح يستأنف", en: "Muwatta 205", es: "Muwatta 205", fr: "Muwatta 205", ur: "موطا 205" }
+label: { ar: "الموطأ 205 — مالك: المنفرد ينسى تكبيرة الافتتاح يستأنف", en: "Muwatta 205", es: "Muwatta 205", fr: "Muwatta 205", ur: "موطا 205", tr: "El-Muvatta 205 — Malik: Tek başına namaz kılan bir kimse açılış tekbirini unutursa, namaza devam etmelidir.", id: "Al-Muwatta 205 — Malik: Jika seseorang yang shalat sendirian lupa takbir pembuka, maka ia harus melanjutkan shalatnya." }
 summary:
   ar: "قول لمالك في باب افتتاح الصلاة: الذي يصلي لنفسه فينسى تكبيرة الافتتاح يستأنف صلاته. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.127}"
+  tr: "Malik, namazın başlangıcı bölümünde şöyle buyurmuştur: \"Kim tek başına namaz kılar ve tekbiri (Allahu Ekber demeyi) unutursa, namazına yeniden başlamalıdır.\" Araştırmacı, bunun Malik'ten Ebu Mus'ab ve Suveyd tarafından rivayet edildiğini belirtmektedir. {cite:muwatta-maruf-1997 s.127}"
+  id: "Malik berkata dalam surah tentang pembukaan salat: Barang siapa yang salat sendirian dan lupa takbir pembuka (mengucapkan \"Allahu Akbar\"), maka ia harus memulai salatnya dari awal. Peneliti menyebutkan bahwa hadits ini diriwayatkan dari Malik oleh Abu Mus'ab dan Suwaid. {cite:muwatta-maruf-1997 p.127}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

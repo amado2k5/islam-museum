@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "3799"
-label: { ar: "صحيح مسلم 3799 — الأب والأبوة", en: "Sahih Muslim 3799 — the father and fatherhood", ur: "صحیح مسلم 3799 — باپ اور والدیت", es: "Sahih Muslim 3799 — El padre y la paternidad", fr: "Sahih Muslim 3799 — Le père et la paternité" }
+label: { ar: "صحيح مسلم 3799 — الأب والأبوة", en: "Sahih Muslim 3799 — the father and fatherhood", ur: "صحیح مسلم 3799 — باپ اور والدیت", es: "Sahih Muslim 3799 — El padre y la paternidad", fr: "Sahih Muslim 3799 — Le père et la paternité", tr: "Sahih Muslim 3799 — Baba ve Babalık", id: "Sahih Muslim 3799 — Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالاَ حَدَّثَنَا جَرِيرٌ، عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ \" لاَ يَجْزِي وَلَدٌ وَالِدًا إِلاَّ أَنْ يَجِدَهُ مَمْلُوكًا فَيَشْتَرِيَهُ فَيُعْتِقَهُ \". وَفِي رِوَايَةِ ابْنِ أَبِي شَيْبَةَ \" وَلَدٌ وَالِدَهُ \"."
 summary:
   ar: "حديث في صحيح مسلم، رقم 3799، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 3799، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe del Sahih Muslim, n.º 3799 (El Libro de la Emancipación de los Esclavos), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Sahih Muslim, n° 3799 (Le Livre de l'affranchissement des esclaves), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih Müslim'de 3799 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 3799, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3799 (book 20 hadith 29); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

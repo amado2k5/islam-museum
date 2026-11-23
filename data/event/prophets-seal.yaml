@@ -1,13 +1,15 @@
 id: event/prophets-seal
 class: event
 kind: other
-label: { ar: "خاتم النبي للمراسلة", en: "The Prophet's Seal for Correspondence", es: "El sello del Profeta para la correspondencia", fr: "Le sceau du Prophète pour la correspondance", ur: "خط و کتابت کے لیے نبی کی مہر" }
+label: { ar: "خاتم النبي للمراسلة", en: "The Prophet's Seal for Correspondence", es: "El sello del Profeta para la correspondencia", fr: "Le sceau du Prophète pour la correspondance", ur: "خط و کتابت کے لیے نبی کی مہر", tr: "Peygamberin yazışma yüzüğü", id: "Cincin Nabi untuk berkorespondensi" }
 summary:
   ar: "قال أنس بن مالك لما أراد رسول الله أن يكتب إلى ملك الروم قيل له إنهم لا يقرءون الكتاب إلا أن يكون مختوماً فاتخذ خاتماً من فضة فكأني أنظر إلى بياضه في يده ونقش عليه محمد رسول الله."
   en: "Anas ibn Malik: when the Prophet meant to write to the Byzantine king he was told 'they do not read a letter unsealed', so he took a silver seal — 'as if I see its whiteness on his hand' — engraved 'Muhammad, Messenger of God'."
   es: "Anas ibn Malik: cuando el Profeta quiso escribirle al rey bizantino, le dijeron que \"no leen cartas sin sellar\", así que tomó un sello de plata —\"como si viera su blancura en su mano\"— grabado con la inscripción \"Mahoma, Mensajero de Dios\"."
   fr: "Anas ibn Malik: lorsque le Prophète voulut écrire au roi byzantin, on lui dit: « On ne lit pas une lettre non scellée. » Il prit donc un sceau d'argent — « comme si je voyais sa blancheur sur sa main » — gravé « Muhammad, Messager de Dieu »."
   ur: "انس بن مالک کہتے ہیں کہ جب نبی نے بازنطینی بادشاہ کو خط لکھنے کا ارادہ کیا تو آپ سے کہا گیا کہ 'وہ بغیر مہر والا خط نہیں پڑھتے'، تو آپ نے چاندی کی ایک مہر لے لی - 'گویا میں آپ کے ہاتھ پر اس کی سفیدی دیکھ رہا ہوں' - کندہ 'محمد، رسول اللہ'۔"
+  tr: "Enes bin Malik şöyle dedi: Allah'ın Elçisi Romalıların kralına mektup yazmak istediğinde, mektubun mühürlenmedikçe okunmayacağı söylendi. Bunun üzerine gümüşten bir yüzük yaptırdı ve ben neredeyse yüzüğün beyazlığını elinde görebiliyorum; yüzüğün üzerine de Allah'ın Elçisi Muhammed'in adı kazınmıştı."
+  id: "Anas bin Malik berkata: Ketika Rasulullah ingin menulis surat kepada Raja Romawi, beliau diberitahu bahwa mereka tidak akan membaca surat itu kecuali jika disegel. Maka beliau membuat cincin dari perak, dan aku hampir bisa melihat keputihannya di tangannya, dan nama Muhammad, Rasulullah, terukir di atasnya."
 periods: [period/prophetic-era]
 relations:
   - { type: had_participant, target: person/muhammad, role: "صاحب الخاتم", sources: [source/futuh-buldan-maarif-1407] }

@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/yahya-ibn-said-al-ansari, person/said-ibn-al-musayyab]
 work: work/muwatta-malik
 ref: "1704"
-label: { ar: "الموطأ 1704 — سعيد بن المسيب: الطلاق للرجال، والعدة للنساء", en: "Muwatta 1704", es: "Muwatta 1704", fr: "Muwatta 1704", ur: "موطا 1704" }
+label: { ar: "الموطأ 1704 — سعيد بن المسيب: الطلاق للرجال، والعدة للنساء", en: "Muwatta 1704", es: "Muwatta 1704", fr: "Muwatta 1704", ur: "موطا 1704", tr: "El-Muvatta 1704 — Sa’id ibn al-Musayyab: Boşanma erkekler içindir, bekleme süresi ise kadınlar içindir.", id: "Al-Muwatta 1704 — Sa’id ibn al-Musayyab: Perceraian adalah untuk laki-laki, dan masa iddah adalah untuk perempuan." }
 summary:
   ar: "يروي مالك عن يحيى بن سعيد عن سعيد بن المسيب أنه كان يقول الطلاق للرجال، والعدة للنساء. {cite:muwatta-maruf-1997 p.96}"
+  tr: "Malik, Yahya ibn Sa'id'den, o da Sa'id ibn al-Musayyab'dan rivayetle, şöyle buyurduğunu aktarır: Boşanma erkekler içindir, bekleme süresi ise kadınlar içindir. {cite:muwatta-maruf-1997 s.96}"
+  id: "Malik meriwayatkan dari Yahya ibn Sa'id, dari Sa'id ibn al-Musayyab, bahwa beliau biasa berkata: Perceraian adalah untuk laki-laki, dan masa iddah adalah untuk perempuan. {cite:muwatta-maruf-1997 p.96}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
   - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }

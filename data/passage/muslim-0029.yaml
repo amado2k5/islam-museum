@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "29"
-label: { ar: "مسلم 29 — وصية عبادة عند الموت: حرم الله عليه النار", en: "Muslim 29 — Ubada's deathbed report: the Fire forbidden for him", es: "Muslim 29 — El relato de Ubada en su lecho de muerte: el Fuego le fue prohibido.", fr: "Muslim 29 — Rapport d'Ubada sur son lit de mort: le Feu lui est interdit", ur: "مسلم 29 - عبادہ کی موت کی خبر: اس کے لیے آگ حرام ہے۔" }
+label: { ar: "مسلم 29 — وصية عبادة عند الموت: حرم الله عليه النار", en: "Muslim 29 — Ubada's deathbed report: the Fire forbidden for him", es: "Muslim 29 — El relato de Ubada en su lecho de muerte: el Fuego le fue prohibido.", fr: "Muslim 29 — Rapport d'Ubada sur son lit de mort: le Feu lui est interdit", ur: "مسلم 29 - عبادہ کی موت کی خبر: اس کے لیے آگ حرام ہے۔", tr: "Müslim 29 — Ölüm anında ibadet etme isteği: Allah ona ateşi haram kılmıştır", id: "Muslim 29 — Wasiat ibadah pada saat kematian: Allah telah mengharamkan api neraka baginya" }
 text: "قال عبادة بن الصامت في الموت: والله ما من حديث سمعته من رسول الله لكم فيه خير إلا حدثتكموه إلا حديثاً واحداً وسوف أحدثكموه اليوم وقد أحيط بنفسي، سمعت رسول الله يقول: من شهد أن لا إله إلا الله وأن محمداً رسول الله حرم الله عليه النار"
 summary:
   ar: "رواية عبادة بن الصامت على فراش الموت في باب دعوة الشهادتين من كتاب الإيمان في صحيح مسلم؛ أخرج ما احتفظ به لنفسه أخيراً: الشهادتان تحرّمان النار."
+  tr: "Sahih Müslim'deki İman Kitabı'nda, iki şahitliğe çağrı bölümünde, Ubede ibn el-Samit'in ölüm döşeğinde anlattığına göre, sonunda kendisinden sakladığı şeyi açıkladı: İki şahitlik, cehennem ateşini yasaklar."
+  id: "Riwayat Ubadah ibn al-Samit di ranjang kematiannya dalam bab tentang seruan kepada dua syahadat dalam Kitab Iman di Sahih Muslim; akhirnya beliau mengungkapkan apa yang selama ini disimpannya: Dua syahadat itu meniadakan api neraka."
 relations:
   - { type: part_of, target: passage/muslim-kitab-01 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

@@ -1,7 +1,7 @@
 id: event/hijri-calendar-decree
 class: event
 kind: law-enacted
-label: { ar: "كتاب عمر التاريخ", en: "'Umar institutes the Hijri calendar (16 AH)", es: "'Umar instituye el calendario Hijri (16 AH)", fr: "'Umar institue le calendrier Hijri (16 AH)", ur: "عمر نے ہجری کیلنڈر ⁦(16 ہجری)⁩ قائم کیا" }
+label: { ar: "كتاب عمر التاريخ", en: "'Umar institutes the Hijri calendar (16 AH)", es: "'Umar instituye el calendario Hijri (16 AH)", fr: "'Umar institue le calendrier Hijri (16 AH)", ur: "عمر نے ہجری کیلنڈر ⁦(16 ہجری)⁩ قائم کیا", tr: "Ömer'in Tarih Kitabı", id: "Kitab Sejarah Omar" }
 date:
   start: { edtf: "0637", hijri: "0016", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 16؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 351}." }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "En este año, 'Umar instituyó el calendario por consejo de 'Ali, fechando la era islámica a partir de la Hégira, la convención que la umma aún mantiene {cite:kamil-ibn-al-athir p. 351}."
   fr: "Cette année-là, 'Umar institua le calendrier sur les conseils d''Ali, faisant remonter l'ère islamique à l'Hégire — la convention que l'umma conserve encore {cite:kamil-ibn-al-athir p. 351}."
   ur: "اس سال میں عمر نے علی کے مشورے پر ہجرت سے اسلامی دور کی تاریخ کے ساتھ کیلنڈر قائم کیا - جس کنونشن کو امت آج بھی برقرار رکھتی ہے۔ 351}۔"
+  tr: "Bu yılda Ömer ibn el-Hattab, Ali ibn Abi Talib'in tavsiyesi üzerine takvimi yazdı ve İslam takviminin başlangıcını Peygamberin hicreti olarak belirledi. {Kaynak: Kamil ibn el-Atir, s. 351}"
+  id: "Pada tahun ini, Umar ibn al-Khattab menulis kalender atas saran Ali ibn Abi Talib, dan beliau menjadikan hijrah Nabi sebagai awal kalender Islam {cite:kamil-ibn-al-athir p. 351}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/madinat-al-mubarak, sources: [source/kamil-ibn-al-athir] }

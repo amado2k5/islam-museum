@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "1633"
-label: { ar: "سنن أبي داود 1633 — الأب والأبوة", en: "Sunan Abi Dawud 1633 — the father and fatherhood", ur: "سنن ابی داؤد 1633 — باپ اور والدیت", es: "Sunan Abi Dawud 1633 — El padre y la paternidad", fr: "Sunan Abi Dawud 1633 — Le père et la paternité" }
+label: { ar: "سنن أبي داود 1633 — الأب والأبوة", en: "Sunan Abi Dawud 1633 — the father and fatherhood", ur: "سنن ابی داؤد 1633 — باپ اور والدیت", es: "Sunan Abi Dawud 1633 — El padre y la paternidad", fr: "Sunan Abi Dawud 1633 — Le père et la paternité", tr: "Sunan Abi Davud 1633 — Baba ve Babalık", id: "Sunan Abi Dawud 1633 — Sang Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا عِيسَى بْنُ يُونُسَ، حَدَّثَنَا هِشَامُ بْنُ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَدِيِّ بْنِ الْخِيَارِ، قَالَ أَخْبَرَنِي رَجُلاَنِ، أَنَّهُمَا أَتَيَا النَّبِيَّ فِي حَجَّةِ الْوَدَاعِ وَهُوَ يَقْسِمُ الصَّدَقَةَ فَسَأَلاَهُ مِنْهَا فَرَفَعَ فِينَا الْبَصَرَ وَخَفَضَهُ فَرَآنَا جَلْدَيْنِ فَقَالَ \" إِنْ شِئْتُمَا أَعْطَيْتُكُمَا وَلاَ حَظَّ فِيهَا لِغَنِيٍّ وَلاَ لِقَوِيٍّ مُكْتَسِبٍ \"."
 summary:
   ar: "حديث في سنن أبي داود، رقم 1633، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابی داؤد کی حدیث نمبر 1633، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Abi Dawud, n.° 1633 (Zakat (Kitab Al-Zakat)), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sunan Abi Dawud, n° 1633 (Zakat), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sünen Ebu Davud'da yer alan 1633 numaralı hadiste baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Sunan Abi Dawud, no. 1633, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1633 (book 9 hadith 78); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

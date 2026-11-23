@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "4485"
-label: { ar: "صحيح مسلم — حديث 4485", en: "Sahih Muslim 4485 — The Book of Judicial Decisions", ur: "صحیح مسلم — حدیث 4485", es: "Sahih Muslim 4485 — El Libro de Decisiones Judiciales", fr: "Sahih Muslim 4485 — Le Livre des décisions judiciaires" }
+label: { ar: "صحيح مسلم — حديث 4485", en: "Sahih Muslim 4485 — The Book of Judicial Decisions", ur: "صحیح مسلم — حدیث 4485", es: "Sahih Muslim 4485 — El Libro de Decisiones Judiciales", fr: "Sahih Muslim 4485 — Le Livre des décisions judiciaires", tr: "Sahih Müslim — Hadis 4485", id: "Sahih Muslim — Hadits 4485" }
 text: "كَتَبَ مُعَاوِيَةُ إِلَى الْمُغِيرَةِ اكْتُبْ إِلَىَّ بِشَىْءٍ سَمِعْتَهُ مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏ فَكَتَبَ إِلَيْهِ أَنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏ \"‏ إِنَّ اللَّهَ كَرِهَ لَكُمْ ثَلاَثًا قِيلَ وَقَالَ وَإِضَاعَةَ الْمَالِ وَكَثْرَةَ السُّؤَالِ ‏\"‏ ‏.‏"
 summary:
   ar: "في صحيح مسلم؛ إرسال كتاب أو رسالة إلى طرف."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم میں؛ کسی فریق کو خط یا پیغام بھیجنا."
   es: "En Sahih Muslim; enviar una carta o mensaje a un partido."
   fr: "Dans Sahih Muslim; l'envoi d'une lettre ou d'un message à une personne."
+  tr: "Sahih Müslim'de; bir tarafa kitap veya mektup göndermek."
+  id: "Dalam Sahih Muslim; mengirim buku atau surat kepada suatu pihak."
 relations:
   - { type: part_of, target: passage/muslim-kitab-30 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }

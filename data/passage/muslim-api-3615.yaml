@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "3615"
-label: { ar: "صحيح مسلم 3615 — النسب والانتساب", en: "Sahih Muslim 3615 — paternity and lineage", ur: "صحیح مسلم 3615 — نسب اور انتساب", es: "Sahih Muslim 3615 — paternidad y linaje", fr: "Sahih Muslim 3615 — paternité et lignée" }
+label: { ar: "صحيح مسلم 3615 — النسب والانتساب", en: "Sahih Muslim 3615 — paternity and lineage", ur: "صحیح مسلم 3615 — نسب اور انتساب", es: "Sahih Muslim 3615 — paternidad y linaje", fr: "Sahih Muslim 3615 — paternité et lignée", tr: "Sahih Muslim 3615 — Soy ve Bağlantı", id: "Sahih Muslim 3615 — Silsilah dan Afiliasi" }
 text: "وَحَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، وَعَبْدُ بْنُ حُمَيْدٍ، - قَالَ ابْنُ رَافِعٍ - حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنِ ابْنِ الْمُسَيَّبِ، وَأَبِي، سَلَمَةَ عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" الْوَلَدُ لِلْفِرَاشِ وَلِلْعَاهِرِ الْحَجَرُ \"."
 summary:
   ar: "حديث في صحيح مسلم، رقم 3615، يذكر النسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 3615، جس میں نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 3615 (El Libro de la Lactancia), menciona la paternidad y el linaje. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Le Sahih Muslim, n° 3615 (Le Livre de l'allaitement), mentionne la paternité et la lignée. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant du père."
+  tr: "Sahih Müslim'de 3615 numaralı hadis, soy ve atalardan bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 3615, menyebutkan tentang garis keturunan dan leluhur. Peramban \"Kebapakan dalam Islam\" mengumpulkannya dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/intisab, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3615 (book 17 hadith 48); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

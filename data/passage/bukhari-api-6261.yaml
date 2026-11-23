@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "6261"
-label: { ar: "صحيح البخاري — حديث 6261", en: "Sahih al-Bukhari 6261 — Asking Permission", ur: "صحیح بخاری — حدیث 6261", es: "Sahih al-Bukhari 6261 — Pedir permiso", fr: "Sahih al-Bukhari 6261 — Demander la permission" }
+label: { ar: "صحيح البخاري — حديث 6261", en: "Sahih al-Bukhari 6261 — Asking Permission", ur: "صحیح بخاری — حدیث 6261", es: "Sahih al-Bukhari 6261 — Pedir permiso", fr: "Sahih al-Bukhari 6261 — Demander la permission", tr: "Sahih el-Buhari - Hadis 6261", id: "Sahih al-Bukhari — Hadits 6261" }
 text: "رَسُولِ اللَّهِ صلى الله عليه وسلم أَنَّهُ ذَكَرَ رَجُلاً مِنْ بَنِي إِسْرَائِيلَ أَخَذَ خَشَبَةً فَنَقَرَهَا، فَأَدْخَلَ فِيهَا أَلْفَ دِينَارٍ وَصَحِيفَةً مِنْهُ إِلَى صَاحِبِهِ‏.‏ وَقَالَ عُمَرُ بْنُ أَبِي سَلَمَةَ عَنْ أَبِيهِ سَمِعَ أَبَا هُرَيْرَةَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏ \"‏ نَجَرَ خَشَبَةً، فَجَعَلَ الْمَالَ فِي جَوْفِهَا، وَكَتَبَ إِلَيْهِ صَحِيفَةً مِنْ فُلاَنٍ إِلَى فُلاَنٍ ‏\"‏‏.‏"
 summary:
   ar: "في صحيح البخاري؛ ذكر كتابة كتاب أو إرساله."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری میں؛ خط لکھنے یا بھیجنے کا ذکر."
   es: "En Sahih al-Bukhari; mención de escribir o enviar una carta."
   fr: "Dans Sahih al-Bukhari; mention de la rédaction ou de l'envoi d'une lettre."
+  tr: "Sahih el-Buhari'de onun bir kitap yazdığı veya gönderdiği belirtilmektedir."
+  id: "Dalam Sahih al-Bukhari, disebutkan bahwa beliau menulis sebuah buku atau mengirimkannya."
 relations:
   - { type: part_of, target: passage/bukhari-kitab-79 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }

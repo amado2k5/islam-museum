@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "6005"
-label: { ar: "صحيح مسلم 6005 — الأب والأبوة", en: "Sahih Muslim 6005 — the father and fatherhood", ur: "صحیح مسلم 6005 — باپ اور والدیت", es: "Sahih Muslim 6005 — El padre y la paternidad", fr: "Sahih Muslim 6005 — Le père et la paternité" }
+label: { ar: "صحيح مسلم 6005 — الأب والأبوة", en: "Sahih Muslim 6005 — the father and fatherhood", ur: "صحیح مسلم 6005 — باپ اور والدیت", es: "Sahih Muslim 6005 — El padre y la paternidad", fr: "Sahih Muslim 6005 — Le père et la paternité", tr: "Sahih Muslim 6005 — Baba ve Babalık", id: "Sahih Muslim 6005 — Ayah dan Peran Ayah" }
 text: "وَحَدَّثَنِي إِسْحَاقُ بْنُ مَنْصُورٍ، أَخْبَرَنَا عَبْدُ الصَّمَدِ بْنُ عَبْدِ الْوَارِثِ، حَدَّثَنَا إِبْرَاهِيمُ، بْنُ سَعْدٍ حَدَّثَنَا سَعْدٌ، عَنْ أَبِيهِ، عَنْ سَعْدِ بْنِ أَبِي وَقَّاصٍ، قَالَ لَقَدْ رَأَيْتُ يَوْمَ أُحُدٍ عَنْ يَمِينِ، رَسُولِ اللَّهِ وَعَنْ يَسَارِهِ رَجُلَيْنِ عَلَيْهِمَا ثِيَابٌ بِيضٌ يُقَاتِلاَنِ عَنْهُ كَأَشَدِّ الْقِتَالِ مَا رَأَيْتُهُمَا قَبْلُ وَلاَ بَعْدُ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 6005، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 6005، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.º 6005 (El Libro de las Virtudes), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sahih Muslim, n° 6005 (Le Livre des Vertus), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih Müslim'de 6005 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 6005, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6005 (book 43 hadith 64); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1810"
-label: { ar: "الموطأ 1810 — مالك: بيع الثمار قبل أن يبدو صلاحها من بيع الغرر", en: "Muwatta 1810", es: "Muwatta 1810", fr: "Muwatta 1810", ur: "موطا 1810" }
+label: { ar: "الموطأ 1810 — مالك: بيع الثمار قبل أن يبدو صلاحها من بيع الغرر", en: "Muwatta 1810", es: "Muwatta 1810", fr: "Muwatta 1810", ur: "موطا 1810", tr: "Al-Muwatta 1810 — Malik: Meyveyi olgunlaşmadan satmak, belirsizlik içeren bir satış işlemidir.", id: "Al-Muwatta 1810 — Malik: Menjual buah sebelum matang adalah penjualan yang mengandung ketidakpastian." }
 summary:
   ar: "قال مالك: وبيع الثمار قبل أن يبدو صلاحها من بيع الغرر. {cite:muwatta-maruf-1997 p.141}"
+  tr: "Malik şöyle dedi: Meyveyi olgunlaşmadan satmak, belirsizlik içeren bir satıştır. {cite:muwatta-maruf-1997 s.141}"
+  id: "Malik berkata: Menjual buah sebelum matang adalah penjualan yang mengandung ketidakpastian. {cite:muwatta-maruf-1997 p.141}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

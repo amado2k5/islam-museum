@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "7421"
-label: { ar: "صحيح مسلم 7421 — الأب والأبوة", en: "Sahih Muslim 7421 — the father and fatherhood", ur: "صحیح مسلم 7421 — باپ اور والدیت", es: "Sahih Muslim 7421 — El padre y la paternidad", fr: "Sahih Muslim 7421 — Le père et la paternité" }
+label: { ar: "صحيح مسلم 7421 — الأب والأبوة", en: "Sahih Muslim 7421 — the father and fatherhood", ur: "صحیح مسلم 7421 — باپ اور والدیت", es: "Sahih Muslim 7421 — El padre y la paternidad", fr: "Sahih Muslim 7421 — Le père et la paternité", tr: "Sahih Muslim 7421 — Baba ve Babalık", id: "Sahih Muslim 7421 — Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، وَقَالاَ، جَمِيعًا حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، عَنْ سَعِيدٍ، ح وَحَدَّثَنَا ابْنُ الْمُثَنَّى، حَدَّثَنَا مُعَاذُ بْنُ هِشَامٍ، حَدَّثَنَا أَبِي كُلُّهُمْ، عَنْ قَتَادَةَ، عَنْ مُطَرِّفٍ، عَنْ أَبِيهِ، قَالَ انْتَهَيْتُ إِلَى النَّبِيِّ. فَذَكَرَ بِمِثْلِ حَدِيثِ هَمَّامٍ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 7421، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 7421، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 7421 (El Libro del Zuhd y el Ablandamiento de los Corazones), menciona al padre y la paternidad. El Navegador de la Paternidad en el Islam lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Sahih Muslim, n° 7421 (Le Livre du Zuhd et de l'adoucissement des cœurs), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les versets du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih Müslim'de 7421 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 7421, menyebutkan tentang ayah dan peran ayah. Situs web \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 7421 (book 55 hadith 5); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

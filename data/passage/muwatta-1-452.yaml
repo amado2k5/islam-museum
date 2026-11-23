@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani]
 work: work/muwatta-malik
 ref: "1.452"
-label: { ar: "الموطأ 452 — ابن عمر لا يلتفت في صلاته", en: "Muwatta 452", es: "Muwatta 452", fr: "Muwatta 452", ur: "موطا 452" }
+label: { ar: "الموطأ 452 — ابن عمر لا يلتفت في صلاته", en: "Muwatta 452", es: "Muwatta 452", fr: "Muwatta 452", ur: "موطا 452", tr: "El-Muvatta 452 — İbn Ömer namaz kılarken arkasına dönmez.", id: "Al-Muwatta 452 — Ibnu Umar tidak berbalik badan saat shalatnya" }
 summary:
   ar: "أثر يرويه مالك عن نافع أن ابن عمر لم يكن يلتفت في صلاته؛ وهو في باب الالتفات والتصفيق عند الحاجة في الصلاة. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.232}"
+  tr: "Malik'in Nafi'den rivayet ettiği bir hadiste İbn Ömer'in namaz sırasında başını çevirmediği belirtilmektedir; bu, namazda gerektiğinde dönme ve alkışlama bölümü kapsamına girer. Editör, bu rivayetin Malik'ten Ebu Mus'ab ve Suveyd tarafından nakledildiğini belirtmektedir. {cite:muwatta-maruf-1997 s.232}"
+  id: "Sebuah riwayat yang dinarasikan oleh Malik dari Nafi’ menyatakan bahwa Ibnu Umar tidak menolehkan kepalanya saat shalat; ini termasuk dalam bab tentang menoleh dan bertepuk tangan bila perlu saat shalat. Editor menyebutkan bahwa riwayat ini dinarasikan oleh Abu Mus’ab dan Suwaid dari Malik. {cite:muwatta-maruf-1997 p.232}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
   - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }

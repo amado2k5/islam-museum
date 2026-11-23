@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "42"
-label: { ar: "صحيح البخاري 42 — مضاعفة الحسنة بعشر أمثالها، عدد السيئات", en: "Sahih al-Bukhari 42 — the good deed multiplied tenfold and beyond; a stated number of bad deeds", ur: "صحیح بخاری 42 — نیکی کا دس گنا اور اس سے زیادہ بڑھنا، برائیوں کی تعداد", es: "Sahih al-Bukhari 42 — la buena acción multiplicada por diez y más; un número determinado de malas acciones", fr: "Sahih al-Bukhari 42 — la bonne action multipliée par dix et au-delà; un nombre déterminé de mauvaises actions" }
+label: { ar: "صحيح البخاري 42 — مضاعفة الحسنة بعشر أمثالها، عدد السيئات", en: "Sahih al-Bukhari 42 — the good deed multiplied tenfold and beyond; a stated number of bad deeds", ur: "صحیح بخاری 42 — نیکی کا دس گنا اور اس سے زیادہ بڑھنا، برائیوں کی تعداد", es: "Sahih al-Bukhari 42 — la buena acción multiplicada por diez y más; un número determinado de malas acciones", fr: "Sahih al-Bukhari 42 — la bonne action multipliée par dix et au-delà; un nombre déterminé de mauvaises actions", tr: "Sahih el-Buhari 42 — İyiliğin sevabı on katına çıkarılır, kötülüğün sevabı ise on katına çıkarılır.", id: "Sahih al-Bukhari 42 — Pahala amal kebaikan dilipatgandakan sepuluh kali lipat jumlah amal buruk" }
 text: "حَدَّثَنَا إِسْحَاقُ بْنُ مَنْصُورٍ، قَالَ حَدَّثَنَا عَبْدُ الرَّزَّاقِ، قَالَ أَخْبَرَنَا مَعْمَرٌ، عَنْ هَمَّامٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ \" إِذَا أَحْسَنَ أَحَدُكُمْ إِسْلاَمَهُ، فَكُلُّ حَسَنَةٍ يَعْمَلُهَا تُكْتَبُ لَهُ بِعَشْرِ أَمْثَالِهَا إِلَى سَبْعِمِائَةِ ضِعْفٍ، وَكُلُّ سَيِّئَةٍ يَعْمَلُهَا تُكْتَبُ لَهُ بِمِثْلِهَا \"."
 summary:
   ar: "حديث في صحيح البخاري، رقم 42، يذكر مضاعفة الحسنة بعشر أمثالها، وعدد السيئات. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 42، جس میں نیکی کا دس گنا اور اس سے زیادہ بڑھنا، برائیوں کی تعداد کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
   es: "Un relato en Sahih al-Bukhari, n.° 42 (Creencia), habla de una buena acción multiplicada por diez y más allá, así como de una cantidad determinada de malas acciones. El Libro Mayor de Hasanat y Sayyi'at lo incluye entre los textos que cuentan, registran, borran o ponderan una acción."
   fr: "Un hadith du Sahih al-Bukhari, n° 42 (La Croyance), mentionne que les bonnes actions sont multipliées par dix, voire plus, par rapport à un nombre précis de mauvaises actions. Le Livre des Hasanat et Sayyi'at le recense parmi les textes qui dénombrent, inscrivent, effacent ou évaluent les actes."
+  tr: "Sahih el-Buhari'nin 42. hadisinde, iyi amellerin on kat artırılacağından bahsedilir ve kötü amellerin sayısı da sıralanır. Bu hadis, iyi ve kötü amellerin yanı sıra, amelleri sayan, kaydeden, silen veya tartan metinleri de içerir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 42, menyebutkan bahwa amal kebaikan dilipatgandakan sepuluh kali, dan juga mencantumkan jumlah amal buruk. Hadits ini menyertakan daftar amal baik dan buruk beserta teks yang menghitung, mencatat, menghapus, atau menimbang perbuatan."
 relations:
   - { type: part_of, target: passage/bukhari-kitab-02 }
   - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }

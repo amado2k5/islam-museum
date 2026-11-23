@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "6092"
-label: { ar: "صحيح البخاري 6092 — ضحك وتبسم", en: "Sahih al-Bukhari 6092 — laughter and smiling", ur: "صحیح بخاری 6092 — ہنسی اور تبسم", fr: "Sahih al-Bukhari 6092 — rire et sourire", es: "Sahih al-Bujari 6092 — risa y sonrisa" }
+label: { ar: "صحيح البخاري 6092 — ضحك وتبسم", en: "Sahih al-Bukhari 6092 — laughter and smiling", ur: "صحیح بخاری 6092 — ہنسی اور تبسم", fr: "Sahih al-Bukhari 6092 — rire et sourire", es: "Sahih al-Bujari 6092 — risa y sonrisa", tr: "Sahih el-Buhari 6092 — Kahkaha ve Gülümseme", id: "Sahih al-Bukhari 6092 — Tawa dan Senyum" }
 text: "حَدَّثَنَا يَحْيَى بْنُ سُلَيْمَانَ، قَالَ حَدَّثَنِي ابْنُ وَهْبٍ، أَخْبَرَنَا عَمْرٌو، أَنَّ أَبَا النَّضْرِ، حَدَّثَهُ عَنْ سُلَيْمَانَ بْنِ يَسَارٍ، عَنْ عَائِشَةَا ـ قَالَتْ مَا رَأَيْتُ النَّبِيَّ مُسْتَجْمِعًا قَطُّ ضَاحِكًا حَتَّى أَرَى مِنْهُ لَهَوَاتِهِ، إِنَّمَا كَانَ يَتَبَسَّمُ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 6092، فيه ضحك وتبسم. يجمعه متصفح جحا والفلكلور الإسلامي مع نصوص القرآن والسنة والسيرة والكتب في الضحك والمزاح والنوادر."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 6092، جس میں ہنسی اور تبسم ہے۔ جحا اور اسلامی لوک ادب کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   fr: "Un récit de Sahih al-Bukhari, n° 6092, avec rire et sourire. Le Navigateur de Juha et du folklore islamique le recense avec les textes du Coran, de la Sunna, de la sîra et des livres sur le rire, la plaisanterie et les anecdotes."
   es: "Un relato de Sahih al-Bujari, n.º 6092, con risa y sonrisa. El Navegador de Juha y del folclore islámico lo recoge junto a los textos del Corán, la Sunna, la sira y los libros sobre la risa, la broma y las anécdotas."
+  tr: "Sahih el-Buhari'de 6092 numaralı hadis, kahkaha ve gülümsemeyi içermektedir. Bu hadis, Juha ve İslami folklor derleyicisi tarafından, Kur'an, Sünnet, biyografi ve kahkaha, mizah ve anekdotlar üzerine yazılmış kitaplardan metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 6092, berisi tawa dan senyuman. Hadits ini disusun oleh Juha dan perajin cerita rakyat Islam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang tawa, humor, dan anekdot."
 relations:
   - { type: mentions, target: concept/al-dahik, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6092 (book 78 hadith 119); matn excerpt of at most 55 words chosen by the Juha browser's detector (scripts/juha.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-hadithapi-1" }

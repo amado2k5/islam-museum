@@ -1,7 +1,7 @@
 id: event/death-ghiyath-ghuri-599
 class: event
 kind: death
-label: { ar: "وفاة غياث الدين ملك الغور", en: "death of Ghiyath al-Din, king of Ghur", es: "Muerte de Ghiyath al-Din, rey de Ghur.", fr: "mort de Ghiyath al-Din, roi de Ghur", ur: "غیاث الدین، غور کے بادشاہ کی وفات" }
+label: { ar: "وفاة غياث الدين ملك الغور", en: "death of Ghiyath al-Din, king of Ghur", es: "Muerte de Ghiyath al-Din, rey de Ghur.", fr: "mort de Ghiyath al-Din, roi de Ghur", ur: "غیاث الدین، غور کے بادشاہ کی وفات", tr: "Ghor Kralı Ghiyath al-Din'in Ölümü", id: "Kematian Ghiyath al-Din, Raja Ghor" }
 date:
   start: { edtf: "1202~", hijri: "0599", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Murió Ghiyath al-Din Muhammad ibn Sam, rey de Ghur, Ghazna y el imperio de Jorasán en la India; considerado el más justo y lúcido de los reyes, un erudito entre los eruditos. Su hermano Shihab al-Din Muhammad al-Ghuri gobernaba ahora solo {cita:kamil-ibn-al-athir, pág. 281}."
   fr: "Ghiyath al-Din Muhammad ibn Sam mourut, roi de Ghur, de Ghazna et de l'empire du Khorasan-Inde; considéré comme le plus juste et le plus clairvoyant des rois, un érudit parmi les érudits. Son frère Shihab al-Din Muhammad al-Ghuri régnait désormais seul {cite:kamil-ibn-al-athir p. 281}."
   ur: "غیاث الدین محمد بن سام کا انتقال ہوا - غور، غزنا اور خراسان-انڈیا سلطنت کا بادشاہ؛ بادشاہوں میں سب سے زیادہ انصاف پسند اور صاف گو، اہل علم میں شمار ہوتا ہے۔ اس کا بھائی شہاب الدین محمد الثوری اب تنہا حکومت کرتا تھا 281}۔"
+  tr: "Ghor, Gazne ve Horasan ile Hindistan'dan kendisine bağlı olan bölgelerin kralı Ghiyath al-Din Muhammad ibn Sam vefat etti. O, en adaletli, zeki ve bilge krallardan biriydi; öyle ki, onun gibi bir kralın daha önce hiç görülmediği söylenirdi. Kendini âlimlerden biri olarak kabul ederdi. Ondan sonra kardeşi Shihab al-Din Muhammad al-Ghauri al-Mustaqil kral oldu. {cite:kamil-ibn-al-athir s. 281}"
+  id: "Ghiyath al-Din Muhammad ibn Sam, raja Ghor, Ghazna, dan wilayah yang berada di bawah kekuasaannya dari Khorasan dan India, wafat. Beliau adalah salah satu raja yang paling adil, cerdas, dan bijaksana, sampai-sampai dikatakan bahwa belum pernah ada raja seperti beliau. Beliau menganggap dirinya sebagai salah satu ulama. Setelahnya, saudaranya Shihab al-Din Muhammad al-Ghauri al-Mustaqil menjadi raja. {cite:kamil-ibn-al-athir p. 281}"
 wings: [time]
 relations:
   - { type: occurred_at, target: place/ghazna, sources: [source/kamil-ibn-al-athir] }

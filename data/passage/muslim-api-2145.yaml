@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2145"
-label: { ar: "صحيح مسلم 2145 — ساعة الاحتضار والوفاة", en: "Sahih Muslim 2145 — a deathbed and last hours", ur: "صحیح مسلم 2145 — وقتِ وفات اور آخری لمحات", es: "Sahih Muslim 2145 — lecho de muerte y últimas horas", fr: "Sahih Muslim 2145 — Un lit de mort et les dernières heures" }
+label: { ar: "صحيح مسلم 2145 — ساعة الاحتضار والوفاة", en: "Sahih Muslim 2145 — a deathbed and last hours", ur: "صحیح مسلم 2145 — وقتِ وفات اور آخری لمحات", es: "Sahih Muslim 2145 — lecho de muerte y últimas horas", fr: "Sahih Muslim 2145 — Un lit de mort et les dernières heures", tr: "Sahih Muslim 2145 — Ölüm Vakti ve Vefat", id: "Sahih Muslim 2145 — Saat-saat Sakaratul Maut dan Kematian" }
 text: "وَحَدَّثَنِي عَلِيُّ بْنُ حُجْرٍ السَّعْدِيُّ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنِ الأَعْمَشِ، عَنْ أَبِي، صَالِحٍ عَنِ ابْنِ عُمَرَ، قَالَ لَمَّا طُعِنَ عُمَرُ أُغْمِيَ عَلَيْهِ فَصِيحَ عَلَيْهِ فَلَمَّا أَفَاقَ قَالَ أَمَا عَلِمْتُمْ أَنَّ رَسُولَ اللَّهِ قَالَ \" إِنَّ الْمَيِّتَ لَيُعَذَّبُ بِبُكَاءِ الْحَىِّ \"."
 summary:
   ar: "حديث في صحيح مسلم، رقم 2145، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 2145، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 2145 (El Libro de la Oración - Funerales), menciona un lecho de muerte y las últimas horas. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sahih Muslim, n° 2145 (Le Livre de la prière – Les funérailles), évoque le lit de mort et les dernières heures. Le navigateur de textes religieux le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, des dernières heures, des biens, des reliques et des tombes."
+  tr: "Sahih Müslim'de 2145 numaralı hadis, ölüm anını ve ölüm sürecini konu almaktadır. Bu hadis, vasiyetnameler, miras, antikalar ve türbeler üzerine çalışan kişiler tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 2145, menyebutkan saat kematian dan saat sekarat. Hadits ini dikumpulkan oleh mereka yang mempelajari wasiat, warisan, barang antik, dan makam suci, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ihtidar, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2145 (book 11 hadith 23); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

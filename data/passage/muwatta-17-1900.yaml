@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1900"
-label: { ar: "الموطأ 1900 — مالك: بلغه أن عثمان بن عفان كان ينهى عن الحكرة", en: "Muwatta 1900", es: "Muwatta 1900", fr: "Muwatta 1900", ur: "موطا 1900" }
+label: { ar: "الموطأ 1900 — مالك: بلغه أن عثمان بن عفان كان ينهى عن الحكرة", en: "Muwatta 1900", es: "Muwatta 1900", fr: "Muwatta 1900", ur: "موطا 1900", tr: "El-Muvatta 1900 — Malik: Osman ibn Affan'ın stokçuluğu yasakladığı kendisine bildirilmişti.", id: "Al-Muwatta 1900 — Malik: Dia diberitahu bahwa Uthman ibn Affan biasa melarang penimbunan" }
 summary:
   ar: "قال مالك: وبلغه أن عثمان بن عفان كان ينهى عن الحكرة. {cite:muwatta-maruf-1997 p.180}"
+  tr: "Malik şöyle dedi: Osman ibn Affan'ın stokçuluğu yasakladığı kendisine bildirildi. {cite:muwatta-maruf-1997 s.180}"
+  id: "Malik berkata: Dia diberitahu bahwa Uthman bin Affan biasa melarang penimbunan. {cite:muwatta-maruf-1997 p.180}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

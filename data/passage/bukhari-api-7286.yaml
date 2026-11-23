@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "7286"
-label: { ar: "صحيح البخاري 7286 — القراء", en: "Sahih al-Bukhari 7286 — the readers", ur: "صحیح بخاری 7286 — قراء", es: "Sahih al-Bukhari 7286 — los lectores", fr: "Sahih al-Bukhari 7286 — les lecteurs" }
+label: { ar: "صحيح البخاري 7286 — القراء", en: "Sahih al-Bukhari 7286 — the readers", ur: "صحیح بخاری 7286 — قراء", es: "Sahih al-Bukhari 7286 — los lectores", fr: "Sahih al-Bukhari 7286 — les lecteurs", tr: "Sahih el-Buhari 7286 — Okuyucular", id: "Sahih al-Bukhari 7286 — Pembaca" }
 text: "… حُذَيْفَةَ بْنِ بَدْرٍ فَنَزَلَ عَلَى ابْنِ أَخِيهِ الْحُرِّ بْنِ قَيْسِ بْنِ حِصْنٍ، وَكَانَ مِنَ النَّفَرِ الَّذِينَ يُدْنِيهِمْ عُمَرُ، وَكَانَ الْقُرَّاءُ أَصْحَابَ مَجْلِسِ عُمَرَ وَمُشَاوَرَتِهِ كُهُولاً كَانُوا أَوْ شُبَّانًا فَقَالَ عُيَيْنَةُ لاِبْنِ أَخِيهِ يَا ابْنَ أَخِي هَلْ لَكَ وَجْهٌ عِنْدَ هَذَا الأَمِيرِ فَتَسْتَأْذِنَ لِي عَلَيْهِ قَالَ سَأَسْتَأْذِنُ لَكَ عَلَيْهِ. قَالَ ابْنُ عَبَّاسٍ فَاسْتَأْذَنَ لِعُيَيْنَةَ فَلَمَّا دَخَلَ …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 7286، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 7286، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 7286 (Aferrarse al Corán y la Sunnah), menciona a los lectores. El explorador del museo sobre cómo se leía y escribía el Corán lo enumera junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
   fr: "Un hadith du Sahih al-Bukhari, n° 7286 (S'attacher fermement au Coran et à la Sunna), mentionne les lecteurs. Le catalogue du musée consacré à la lecture et à la transcription du Coran répertorie ces lectures avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Sahih el-Buhari'de 7286 numaralı hadis, Kur'an okuyucularından bahsetmektedir. Bu hadis, Kur'an okunuşları, yazısı, hat sanatı ve diyakritik işaretleri konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 7286, menyebutkan para pembaca Al-Quran. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, tulisan, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 7286 (book 96 hadith 17); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

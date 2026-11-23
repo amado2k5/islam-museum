@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "7327"
-label: { ar: "صحيح البخاري 7327 — دفن وقبر ومرقد", en: "Sahih al-Bukhari 7327 — a burial, grave or resting place", ur: "صحیح بخاری 7327 — تدفین، قبر اور مرقد", es: "Sahih al-Bukhari 7327 — un entierro, tumba o lugar de descanso", fr: "Sahih al-Bukhari 7327 — un lieu de sépulture, une tombe ou un lieu de repos" }
+label: { ar: "صحيح البخاري 7327 — دفن وقبر ومرقد", en: "Sahih al-Bukhari 7327 — a burial, grave or resting place", ur: "صحیح بخاری 7327 — تدفین، قبر اور مرقد", es: "Sahih al-Bukhari 7327 — un entierro, tumba o lugar de descanso", fr: "Sahih al-Bukhari 7327 — un lieu de sépulture, une tombe ou un lieu de repos", tr: "Sahih el-Buhari 7327 — Defin, mezar ve istirahat yeri", id: "Sahih al-Bukhari 7327 — Pemakaman, kuburan, dan tempat peristirahatan" }
 text: "حَدَّثَنَا عُبَيْدُ بْنُ إِسْمَاعِيلَ، حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ لِعَبْدِ اللَّهِ بْنِ الزُّبَيْرِ ادْفِنِّي مَعَ صَوَاحِبِي وَلاَ تَدْفِنِّي مَعَ النَّبِيِّ فِي الْبَيْتِ، فَإِنِّي أَكْرَهُ أَنْ أُزَكَّى. وَعَنْ هِشَامٍ، عَنْ أَبِيهِ، أَنَّ عُمَرَ، أَرْسَلَ إِلَى عَائِشَةَ ائْذَنِي لِي أَنْ أُدْفَنَ مَعَ صَاحِبَىَّ فَقَالَتْ إِي وَاللَّهِ. قَالَ وَكَانَ الرَّجُلُ إِذَا أَرْسَلَ إِلَيْهَا …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 7327، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 7327، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 7327, menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, propiedades, reliquias y tumbas."
   fr: "Un hadith du Sahih al-Bukhari (n° 7327) mentionne un lieu de sépulture. Le navigateur de textes sacrés le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Sahih el-Buhari'de 7327 numaralı hadis, defin, mezarlar ve türbelerden bahsetmektedir. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler üzerine araştırmalar yapan bir uzman tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 7327, menyebutkan tentang penguburan, kuburan, dan makam. Hadits ini disusun oleh peneliti wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 7327 (book 0 hadith 0); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "1289"
-label: { ar: "صحيح البخاري 1289 — دفن وقبر ومرقد", en: "Sahih al-Bukhari 1289 — a burial, grave or resting place", ur: "صحیح بخاری 1289 — تدفین، قبر اور مرقد", es: "Sahih al-Bukhari 1289 — un entierro, tumba o lugar de descanso", fr: "Sahih al-Bukhari 1289 — un lieu de sépulture, une tombe ou un lieu de repos" }
+label: { ar: "صحيح البخاري 1289 — دفن وقبر ومرقد", en: "Sahih al-Bukhari 1289 — a burial, grave or resting place", ur: "صحیح بخاری 1289 — تدفین، قبر اور مرقد", es: "Sahih al-Bukhari 1289 — un entierro, tumba o lugar de descanso", fr: "Sahih al-Bukhari 1289 — un lieu de sépulture, une tombe ou un lieu de repos", tr: "Sahih el-Buhari 1289 — Defin, mezar ve istirahat yeri", id: "Sahih al-Bukhari 1289 — Pemakaman, kuburan, dan tempat peristirahatan" }
 text: "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي بَكْرٍ، عَنْ أَبِيهِ، عَنْ عَمْرَةَ بِنْتِ عَبْدِ الرَّحْمَنِ، أَنَّهَا أَخْبَرَتْهُ أَنَّهَا، سَمِعَتْ عَائِشَةَا ـ زَوْجَ النَّبِيِّ قَالَتْ إِنَّمَا مَرَّ رَسُولُ اللَّهِ عَلَى يَهُودِيَّةٍ يَبْكِي عَلَيْهَا أَهْلُهَا فَقَالَ \" إِنَّهُمْ لَيَبْكُونَ عَلَيْهَا، وَإِنَّهَا لَتُعَذَّبُ فِي قَبْرِهَا \"."
 summary:
   ar: "حديث في صحيح البخاري، رقم 1289، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 1289، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 1289 (Funerales (Al-Janaa'iz)), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sahih al-Bukhari, n° 1289 (Funérailles (Al-Janaa'iz)), mentionne un lieu de sépulture, une tombe ou un lieu de repos. Le navigateur de textes sacrés le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Sahih el-Buhari'nin 1289 numaralı hadisinde defin, mezar ve türbeden bahsedilir. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler konusunda uzmanlaşmış araştırmacılar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 1289, menyebutkan tentang penguburan, kuburan, dan makam. Hadits ini disusun oleh para peneliti yang ahli dalam wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1289 (book 23 hadith 47); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

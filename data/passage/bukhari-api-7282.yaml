@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "7282"
-label: { ar: "صحيح البخاري 7282 — القراء", en: "Sahih al-Bukhari 7282 — the readers", ur: "صحیح بخاری 7282 — قراء", es: "Sahih al-Bukhari 7282 — los lectores", fr: "Sahih al-Bukhari 7282 — les lecteurs" }
+label: { ar: "صحيح البخاري 7282 — القراء", en: "Sahih al-Bukhari 7282 — the readers", ur: "صحیح بخاری 7282 — قراء", es: "Sahih al-Bukhari 7282 — los lectores", fr: "Sahih al-Bukhari 7282 — les lecteurs", tr: "Sahih el-Buhari 7282 — Okuyucular", id: "Sahih al-Bukhari 7282 — Pembaca" }
 text: "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا سُفْيَانُ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنْ هَمَّامٍ، عَنْ حُذَيْفَةَ، قَالَ يَا مَعْشَرَ الْقُرَّاءِ اسْتَقِيمُوا فَقَدْ سُبِقْتُمْ سَبْقًا بَعِيدًا فَإِنْ أَخَذْتُمْ يَمِينًا وَشِمَالاً، لَقَدْ ضَلَلْتُمْ ضَلاَلاً بَعِيدًا."
 summary:
   ar: "حديث في صحيح البخاري، رقم 7282، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 7282، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 7282 (Aferrarse al Corán y la Sunnah), menciona a los lectores. El explorador del museo sobre cómo se leía y escribía el Corán lo enumera junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
   fr: "Un hadith du Sahih al-Bukhari, n° 7282 (S'attacher fermement au Coran et à la Sunna), mentionne les lecteurs. Le catalogue du musée consacré à la lecture et à la transcription du Coran répertorie ces lectures avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Sahih el-Buhari'de 7282 numaralı hadis, Kur'an okuyucularından bahsetmektedir. Bu derleme, Kur'an okunuşları, yazı, hat sanatı ve diyakritik işaretler hakkında bilgilerin yanı sıra Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine kitaplardan metinler içermektedir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 7282, menyebutkan para pembaca Al-Quran. Koleksi ini menyusun informasi tentang bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, beserta teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 7282 (book 96 hadith 14); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

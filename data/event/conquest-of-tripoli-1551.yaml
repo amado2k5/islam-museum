@@ -1,13 +1,15 @@
 id: event/conquest-of-tripoli-1551
 class: event
 kind: conquest
-label: { ar: "فتح طرابلس الغرب", en: "Conquest of Tripoli", es: "Conquista de Trípoli", fr: "Conquête de Tripoli", ur: "طرابلس کی فتح" }
+label: { ar: "فتح طرابلس الغرب", en: "Conquest of Tripoli", es: "Conquista de Trípoli", fr: "Conquête de Tripoli", ur: "طرابلس کی فتح", tr: "Trablus'un Fethi", id: "Penaklukan Tripoli" }
 summary:
   ar: "بطاقة أولية لفتح طرابلس الغرب سنة ١٥٥١م، أخذ سنان باشا وتورغود رئيس للمدينة من فرسان مالطا؛ لم تُراجع مصادره على الصفحة بعد."
   en: "Draft card for the Ottoman conquest of Tripoli in 1551, Sinan Pasha and Turgut Reis's capture of the city from the Knights of Malta; its sources are not yet checked on the page."
   es: "Boceto para la conquista otomana de Trípoli en 1551, captura de la ciudad por Sinan Pasha y Turgut Reis a los Caballeros de Malta; sus fuentes aún no han sido verificadas en la página."
   fr: "Carte de projet relative à la conquête ottomane de Tripoli en 1551, la prise de la ville par Sinan Pacha et Turgut Reis aux Chevaliers de Malte; ses sources ne sont pas encore vérifiées sur la page."
   ur: "1551 میں طرابلس پر عثمانی فتح کے لیے ڈرافٹ کارڈ، سنان پاشا اور ترگت رئیس کا مالٹا کے شورویروں سے شہر پر قبضہ؛ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
+  tr: "1551 yılında Trablus'un fethine dair ön bir anlatım; bu olayda Sinan Paşa ve Turgut, Malta Şövalyelerinden şehrin yönetimini devralmıştır; sayfadaki kaynaklar henüz incelenmemiştir."
+  id: "Catatan awal tentang penaklukan Tripoli pada tahun 1551 M, di mana Sinan Pasha dan Turgut mengambil alih kekuasaan sebagai kepala kota dari Ksatria Malta; sumber-sumber yang tercantum di halaman ini belum ditinjau."
 relations:
   - { type: occurred_at, target: place/tarabulus-gharb, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }

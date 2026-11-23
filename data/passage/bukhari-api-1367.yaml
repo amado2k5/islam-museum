@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "1367"
-label: { ar: "صحيح البخاري 1367 — رثاء وثناء على ميت", en: "Sahih al-Bukhari 1367 — an elegy or praise of the dead", ur: "صحیح البخاری 1367 — مرثیہ یا میت کی تعریف", fr: "Sahih al-Bukhari 1367 — une élégie ou un éloge du défunt", es: "Sahih al-Bukhari 1367 — una elegía o elogio del difunto" }
+label: { ar: "صحيح البخاري 1367 — رثاء وثناء على ميت", en: "Sahih al-Bukhari 1367 — an elegy or praise of the dead", ur: "صحیح البخاری 1367 — مرثیہ یا میت کی تعریف", fr: "Sahih al-Bukhari 1367 — une élégie ou un éloge du défunt", es: "Sahih al-Bukhari 1367 — una elegía o elogio del difunto", tr: "Sahih el-Buhari 1367 — Merhum için övgü ve methiye", id: "Sahih al-Bukhari 1367 — Pujian dan sanjungan untuk orang yang telah meninggal" }
 text: "حَدَّثَنَا آدَمُ، حَدَّثَنَا شُعْبَةُ، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ صُهَيْبٍ، قَالَ سَمِعْتُ أَنَسَ بْنَ مَالِكٍ ـ يَقُولُ مَرُّوا بِجَنَازَةٍ فَأَثْنَوْا عَلَيْهَا خَيْرًا، فَقَالَ النَّبِيُّ \" وَجَبَتْ \". ثُمَّ مَرُّوا بِأُخْرَى فَأَثْنَوْا عَلَيْهَا شَرًّا فَقَالَ \" وَجَبَتْ \". فَقَالَ عُمَرُ بْنُ الْخَطَّابِ ـ مَا وَجَبَتْ قَالَ \" هَذَا أَثْنَيْتُمْ عَلَيْهِ خَيْرًا فَوَجَبَتْ لَهُ الْجَنَّةُ، وَهَذَا أَثْنَيْتُمْ عَلَيْهِ …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 1367، فيه رثاء وثناء على ميت. يجمعه متصفح أشهر ما قيل في الرثاء والنعي مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين وما في الكتب المحصودة في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح البخاری کی حدیث نمبر 1367، جس میں مرثیہ یا میت کی تعریف ہے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے قرآن، سنت، سیرت، صحابہ و تابعین کے آثار اور جمع شدہ کتابوں کی عبارتوں کے ساتھ درج کرتا ہے۔"
   fr: "Un récit dans Sahih al-Bukhari, n° 1367, qui contient une élégie ou un éloge du défunt. Le navigateur des élégies et des annonces de décès le recense avec les textes du Coran, de la Sunna, de la sîra, les récits des Compagnons et des Successeurs et les livres moissonnés sur ce sujet."
   es: "Un relato en Sahih al-Bukhari, n.º 1367, que contiene una elegía o elogio del difunto. El navegador de elegías y anuncios de fallecimiento lo recoge junto con los textos del Corán, la Sunna, la sira, los relatos de los Compañeros y los Sucesores y los libros cosechados sobre este tema."
+  tr: "Sahih el-Buhari'de 1367 numaralı hadis, vefat edenler için övgü ve ağıtlar içermektedir. Bu derleme, Kur'an, Sünnet, Peygamberin biyografisi, Sahabeler ve haleflerinin rivayetleri ve diğer ilgili kitaplardan metinlerle birlikte en ünlü ağıt ve övgülerden bazılarını içermektedir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 1367, berisi pujian dan sanjungan untuk orang yang telah meninggal. Kompilasi ini mencakup beberapa elegi dan pujian yang paling terkenal, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi Nabi, kisah para Sahabat dan Penerus mereka, serta buku-buku relevan lainnya."
 relations:
   - { type: mentions, target: concept/ritha-wal-nay, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1367 (book 23 hadith 119); matn excerpt of at most 55 words, honorific formulas left out; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-hadithapi-1" }

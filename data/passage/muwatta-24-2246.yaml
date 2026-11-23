@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2246"
-label: { ar: "الموطأ 2246 — مالك عن ابن شهاب: أنه سمعه يقول: مضت السنة أن العبد إذا أعتق تبعه ماله", en: "Muwatta 2246", es: "Muwatta 2246", fr: "Muwatta 2246", ur: "موطا 2246" }
+label: { ar: "الموطأ 2246 — مالك عن ابن شهاب: أنه سمعه يقول: مضت السنة أن العبد إذا أعتق تبعه ماله", en: "Muwatta 2246", es: "Muwatta 2246", fr: "Muwatta 2246", ur: "موطا 2246", tr: "El-Muvatta 2246 — Malik, İbn Şihab'dan rivayetle şöyle dediğini işitti: Bir köle azat edildiğinde malının da onunla birlikte gitmesi sünnettir.", id: "Al-Muwatta 2246 — Malik, berdasarkan riwayat Ibn Shihab: bahwa ia mendengar beliau berkata: Sudah menjadi sunnah bahwa jika seorang budak dibebaskan, hartanya akan tetap bersamanya." }
 summary:
   ar: "يروي مالك أنه سمع ابن شهاب يقول: مضت السنة أن العبد إذا أعتق تبعه ماله. {cite:muwatta-maruf-1997 p.326}"
+  tr: "Malik, İbn Şihab'ın şöyle dediğini rivayet eder: \"Bir köle azat edildiğinde malının da onunla birlikte gitmesi yerleşik bir uygulamadır.\" {cite:muwatta-maruf-1997 s.326}"
+  id: "Malik meriwayatkan bahwa ia mendengar Ibnu Shihab berkata: Sudah menjadi kebiasaan yang berlaku bahwa jika seorang budak dibebaskan, hartanya akan tetap bersamanya. {cite:muwatta-maruf-1997 p.326}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-24-itq }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

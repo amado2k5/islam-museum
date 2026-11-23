@@ -7,6 +7,8 @@ label:
   es: "El Gran Tour"
   fr: "Le Grand Tour"
   ur: "گرینڈ ٹور"
+  tr: "Büyük Tur"
+  id: "Tur Agung"
 summary:
   ar: 'مسار التعريف الكامل بالمتحف: من السيرة إلى الخلفاء إلى العلم إلى الفن إلى الحاضر — عشر غرف للقارئ
     الجديد.'
@@ -14,6 +16,8 @@ summary:
   es: "La visita guiada al museo para el nuevo visitante."
   fr: "Le grand tour du musée pour le nouveau visiteur."
   ur: "نئے آنے والے کے لیے میوزیم کا عظیم الشان دورہ۔"
+  tr: "Müzeye giriş niteliğinde eksiksiz bir rota: biyografiden halifelere, bilimden sanata ve günümüze kadar — yeni okuyucular için on oda."
+  id: "Rute pengantar lengkap ke museum: dari biografi hingga khalifah, sains, seni, hingga masa kini — sepuluh ruangan untuk pembaca baru."
 audience:
 - newcomer
 - student
@@ -28,12 +32,16 @@ rooms:
     es: "El comienzo"
     fr: "Le début"
     ur: "آغاز"
+    tr: "başlangıç"
+    id: "awal mula"
   body:
     ar: 'النبي والسيرة: القصة تبدأ.'
     en: 'النبي والسيرة: القصة تبدأ.'
     es: "El Profeta y la Biografía: La historia comienza."
     fr: "Le Prophète et la biographie: Le récit commence."
     ur: "نبی اور سیرت: کہانی شروع ہوتی ہے۔"
+    tr: "Peygamber ve Biyografisi: Hikaye başlıyor."
+    id: "Sang Nabi dan Biografinya: Kisah dimulai."
   features:
   - person/muhammad
   - building/kaaba
@@ -44,12 +52,16 @@ rooms:
     es: "Biblia"
     fr: "Le livre"
     ur: "کتاب"
+    tr: "Kitap"
+    id: "Buku itu"
   body:
     ar: 'القرآن والسنة: المصدران.'
     en: 'القرآن والسنة: المصدران.'
     es: "El Corán y la Sunnah: las dos fuentes."
     fr: "Le Coran et la Sunna: les deux sources."
     ur: "قرآن و سنت: دو ماخذ۔"
+    tr: "Kur'an ve Sünnet: İki kaynak."
+    id: "Al-Quran dan Sunnah: dua sumber utama."
   features:
   - passage/quran-1
   - work/sahih-al-bukhari
@@ -60,12 +72,16 @@ rooms:
     es: "El califato"
     fr: "Le califat"
     ur: "خلافت"
+    tr: "Halifelik"
+    id: "Kalifat"
   body:
     ar: من أبي بكر إلى آخر العثمانيين.
     en: من أبي بكر إلى آخر العثمانيين.
     es: "Desde Abu Bakr hasta el último de los otomanos."
     fr: "D'Abou Bakr au dernier des Ottomans."
     ur: "ابوبکر سے لے کر عثمانیوں کے آخری دور تک۔"
+    tr: "Ebu Bekir'den son Osmanlı'ya kadar."
+    id: "Dari Abu Bakr hingga penguasa Ottoman terakhir."
   features:
   - person/abu-bakr
   - polity/ottoman-empire
@@ -75,12 +91,16 @@ rooms:
     es: "Ciencia"
     fr: "Science"
     ur: "سائنس"
+    tr: "Bilim"
+    id: "Sains"
   body:
     ar: 'بيت الحكمة إلى مراغة: قرن الذهب.'
     en: 'بيت الحكمة إلى مراغة: قرن الذهب.'
     es: "La Casa de la Sabiduría a Maragheh: El Cuerno de Oro."
     fr: "La Maison de la Sagesse à Maragheh: La Corne d'Or."
     ur: "دی ہاؤس آف وزڈم ٹو مراگہ: سونے کا ہارن۔"
+    tr: "Maragheh'e Bilgelik Evi: Altın Boynuz."
+    id: "Rumah Kebijaksanaan menuju Maragheh: Tanduk Emas."
   features:
   - building/bayt-al-hikma
   - person/al-khwarizmi
@@ -91,12 +111,16 @@ rooms:
     es: "Las artes"
     fr: "Les arts"
     ur: "فنون"
+    tr: "Sanat"
+    id: "Seni"
   body:
     ar: 'العمارة والخط والمخطوط: الفنون.'
     en: 'العمارة والخط والمخطوط: الفنون.'
     es: "Arquitectura, caligrafía y manuscritos: las artes."
     fr: "Architecture, calligraphie et manuscrits: les arts."
     ur: "فن تعمیر، خطاطی، اور مخطوطات: فنون۔"
+    tr: "Mimari, hat sanatı ve el yazmaları: sanatlar."
+    id: "Arsitektur, kaligrafi, dan manuskrip: seni."
   features:
   - building/dome-of-the-rock
   - object/al-mushaf-al-azraq
@@ -107,12 +131,16 @@ rooms:
     es: "El mundo"
     fr: "Le monde"
     ur: "دنیا"
+    tr: "dünya"
+    id: "dunia"
   body:
     ar: 'من الأندلس إلى جاوة: الأمة كلها.'
     en: 'من الأندلس إلى جاوة: الأمة كلها.'
     es: "De Andalucía a Java: toda la nación."
     fr: "De l'Andalousie à Java: toute la nation."
     ur: "اندلس سے جاوا تک: پوری قوم۔"
+    tr: "Endülüs'ten Java'ya: tüm ülke."
+    id: "Dari Andalusia hingga Jawa: seluruh bangsa."
   features:
   - place/al-andalus
   - place/java
@@ -123,12 +151,16 @@ rooms:
     es: "La pantalla"
     fr: "L'écran"
     ur: "سکرین"
+    tr: "ekran"
+    id: "layar"
   body:
     ar: 'الإسلام في السينما: 300 عمل.'
     en: 'الإسلام في السينما: 300 عمل.'
     es: "El Islam en el cine: 300 obras."
     fr: "L'islam au cinéma: 300 œuvres."
     ur: "سنیما میں اسلام: 300 کام۔"
+    tr: "Sinemada İslam: 300 Eser."
+    id: "Islam dalam Sinema: 300 Karya."
   features:
   - screen/al-risala-1976
   - screen/umar-al-mukhtar-1981
@@ -138,12 +170,16 @@ rooms:
     es: "Hoy"
     fr: "Aujourd'hui"
     ur: "آج"
+    tr: "Bugün"
+    id: "Hari ini"
   body:
     ar: 'الأحياء: الأعمال والتعليم والخير.'
     en: 'الأحياء: الأعمال والتعليم والخير.'
     es: "Seres vivos: negocios, educación y beneficencia."
     fr: "Les êtres vivants: entreprises, éducation et charité."
     ur: "زندہ چیزیں: کاروبار، تعلیم، اور صدقہ۔"
+    tr: "Canlı varlıklar: iş dünyası, eğitim ve hayır işleri."
+    id: "Makhluk hidup: bisnis, pendidikan, dan amal."
   features:
   - listing/islamic-relief
   - listing/zaytuna-college

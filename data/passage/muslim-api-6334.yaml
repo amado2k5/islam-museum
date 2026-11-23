@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "6334"
-label: { ar: "صحيح مسلم 6334 — القراء", en: "Sahih Muslim 6334 — the readers", ur: "صحیح مسلم 6334 — قراء", es: "Sahih Muslim 6334 — los lectores", fr: "Sahih Muslim 6334 — les lecteurs" }
+label: { ar: "صحيح مسلم 6334 — القراء", en: "Sahih Muslim 6334 — the readers", ur: "صحیح مسلم 6334 — قراء", es: "Sahih Muslim 6334 — los lectores", fr: "Sahih Muslim 6334 — les lecteurs", tr: "Sahih Muslim 6334 — Okuyucular", id: "Sahih Muslim 6334 — Pembaca" }
 text: "… فَنَتَحَدَّثُ إِلَيْهِ - وَقَالَ ابْنُ نُمَيْرٍ عِنْدَهُ - فَذَكَرْنَا يَوْمًا عَبْدَ اللَّهِ بْنَ مَسْعُودٍ فَقَالَ لَقَدْ ذَكَرْتُمْ رَجُلاً لاَ أَزَالُ أُحِبُّهُ بَعْدَ شَىْءٍ سَمِعْتُهُ مِنْ رَسُولِ اللَّهِ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" خُذُوا الْقُرْآنَ مِنْ أَرْبَعَةٍ مِنِ ابْنِ أُمِّ عَبْدٍ - فَبَدَأَ بِهِ - وَمُعَاذِ بْنِ جَبَلٍ وَأُبَىِّ بْنِ كَعْبٍ وَسَالِمٍ مَوْلَى أَبِي حُذَيْفَةَ \"."
 summary:
   ar: "حديث في صحيح مسلم، رقم 6334، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 6334، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sahih Muslim, n.° 6334 (El Libro de los Méritos de los Compañeros), menciona a los lectores. El navegador del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
   fr: "Un récit du Sahih Muslim, n° 6334 (Livre des mérites des Compagnons), mentionne les lecteurs. Le catalogue du musée consacré à la lecture et à la transcription du Coran le répertorie avec les textes du Coran, la Sunna, la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Sahih Müslim'de 6334 numaralı hadis, Kur'an okuyucularından bahsetmektedir. Bu derleme, Kur'an okunuşları, yazı, hat sanatı ve diyakritik işaretler hakkında bilgilerin yanı sıra Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine kitaplardan metinler içermektedir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 6334, menyebutkan para pembaca Al-Quran. Koleksi ini menyusun informasi tentang bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, beserta teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6334 (book 44 hadith 164); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

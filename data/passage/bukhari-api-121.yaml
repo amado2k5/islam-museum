@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "121"
-label: { ar: "صحيح البخاري 121 — وصية أو عهد أخير", en: "Sahih al-Bukhari 121 — a testament or parting counsel", ur: "صحیح بخاری 121 — وصیت یا آخری نصیحت", es: "Sahih al-Bukhari 121 — un testamento o consejo de despedida", fr: "Sahih al-Bukhari 121 — un testament ou un conseil d'adieu" }
+label: { ar: "صحيح البخاري 121 — وصية أو عهد أخير", en: "Sahih al-Bukhari 121 — a testament or parting counsel", ur: "صحیح بخاری 121 — وصیت یا آخری نصیحت", es: "Sahih al-Bukhari 121 — un testamento o consejo de despedida", fr: "Sahih al-Bukhari 121 — un testament ou un conseil d'adieu", tr: "Sahih el-Buhari 121 — Son bir vasiyet veya antlaşma", id: "Sahih al-Bukhari 121 — Sebuah wasiat atau perjanjian terakhir" }
 text: "حَدَّثَنَا حَجَّاجٌ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ أَخْبَرَنِي عَلِيُّ بْنُ مُدْرِكٍ، عَنْ أَبِي زُرْعَةَ، عَنْ جَرِيرٍ، أَنَّ النَّبِيَّ قَالَ لَهُ فِي حَجَّةِ الْوَدَاعِ \" اسْتَنْصِتِ النَّاسَ \" فَقَالَ \" لاَ تَرْجِعُوا بَعْدِي كُفَّارًا يَضْرِبُ بَعْضُكُمْ رِقَابَ بَعْضٍ \"."
 summary:
   ar: "حديث في صحيح البخاري، رقم 121، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 121، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 121 (Conocimiento), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sahih al-Bukhari, n° 121 (La Connaissance), mentionne un testament ou des dernières volontés. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Sahih el-Buhari'nin 121 numaralı hadisinde, son vasiyetten bahsedilir. Bu hadis, vasiyetler, miras, kutsal emanetler ve türbeler konusunda uzmanlaşmış araştırmacılar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 121, menyebutkan wasiat terakhir. Hadits ini disusun oleh para peneliti yang ahli dalam wasiat, warisan, relik, dan makam, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 121 (book 3 hadith 63); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

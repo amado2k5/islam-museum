@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "5437"
-label: { ar: "صحيح مسلم 5437 — الأب والأبوة", en: "Sahih Muslim 5437 — the father and fatherhood", ur: "صحیح مسلم 5437 — باپ اور والدیت", es: "Sahih Muslim 5437 — El padre y la paternidad", fr: "Sahih Muslim 5437 — Le père et la paternité" }
+label: { ar: "صحيح مسلم 5437 — الأب والأبوة", en: "Sahih Muslim 5437 — the father and fatherhood", ur: "صحیح مسلم 5437 — باپ اور والدیت", es: "Sahih Muslim 5437 — El padre y la paternidad", fr: "Sahih Muslim 5437 — Le père et la paternité", tr: "Sahih Muslim 5437 — Baba ve Babalık", id: "Sahih Muslim 5437 — Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ نَافِعٍ، عَنْ إِبْرَاهِيمَ بْنِ عَبْدِ، اللَّهِ بْنِ حُنَيْنٍ عَنْ أَبِيهِ، عَنْ عَلِيِّ بْنِ أَبِي طَالِبٍ، أَنَّ رَسُولَ اللَّهِ نَهَى عَنْ لُبْسِ الْقَسِّيِّ وَالْمُعَصْفَرِ وَعَنْ تَخَتُّمِ الذَّهَبِ وَعَنْ قِرَاءَةِ الْقُرْآنِ فِي الرُّكُوعِ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 5437، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 5437، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 5437 (El Libro de la Vestimenta y el Adorno), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sahih Muslim, n° 5437 (Le Livre des vêtements et des ornements), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih Müslim'de 5437 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 5437, menyebutkan tentang ayah dan peran ayah. Peramban \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5437 (book 37 hadith 52); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/muhammad-ibn-shihab-al-zuhri]
 work: work/muwatta-malik
 ref: "1669"
-label: { ar: "الموطأ 1669 — ابن شهاب: لكل مطلقة متعة", en: "Muwatta 1669", es: "Muwatta 1669", fr: "Muwatta 1669", ur: "موطا 1669" }
+label: { ar: "الموطأ 1669 — ابن شهاب: لكل مطلقة متعة", en: "Muwatta 1669", es: "Muwatta 1669", fr: "Muwatta 1669", ur: "موطا 1669", tr: "El-Muvatta 1669 — İbn Şihab: Her boşanmış kadın bir hediyeye hak kazanır.", id: "Al-Muwatta 1669 — Ibn Shihab: Setiap wanita yang bercerai berhak mendapatkan hadiah" }
 summary:
   ar: "يروي مالك عن ابن شهاب أنه قال لكل مطلقة متعة. {cite:muwatta-maruf-1997 p.85}"
+  tr: "Malik, İbn Şihab'dan rivayetle, her boşanmış kadının bir hediyeye hakkı olduğunu söylediğini aktarır. {cite:muwatta-maruf-1997 s.85}"
+  id: "Malik meriwayatkan dari Ibnu Shihab bahwa beliau berkata setiap wanita yang bercerai berhak mendapatkan hadiah. {cite:muwatta-maruf-1997 p.85}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
   - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }

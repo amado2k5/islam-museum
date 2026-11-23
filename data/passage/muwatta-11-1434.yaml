@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/ismail-ibn-abi-hakim, person/ubayda-ibn-sufyan-al-hadrami, person/abu-hurayra, person/muhammad]
 work: work/muwatta-malik
 ref: "1434"
-label: { ar: "الموطأ 1434 — إسماعيل بن أبي حكيم عن عبيدة بن سفيان الحضرمي عن أبي هريرة: أكل كل ذي ناب من السباع حرام، وهو الأمر عندنا", en: "Muwatta 1434", es: "Muwatta 1434", fr: "Muwatta 1434", ur: "موطا 1434" }
+label: { ar: "الموطأ 1434 — إسماعيل بن أبي حكيم عن عبيدة بن سفيان الحضرمي عن أبي هريرة: أكل كل ذي ناب من السباع حرام، وهو الأمر عندنا", en: "Muwatta 1434", es: "Muwatta 1434", fr: "Muwatta 1434", ur: "موطا 1434", tr: "El-Muvatta 1434 — İsmail bin Ebu Hakim, Ubeyde bin Sufyan el-Hadrami'den, o da Ebu Hurayra'dan rivayetle: Dişli yırtıcı hayvanların yenmesi haramdır ve bu bizim hükmümüzdür.", id: "Al-Muwatta 1434 — Ismail bin Abi Hakim, berdasarkan riwayat Ubaidah bin Sufyan Al-Hadrami, berdasarkan riwayat Abu Hurairah: Memakan binatang buas yang bertaring hukumnya haram, dan inilah hukum menurut kami." }
 summary:
   ar: "يروي مالك عن إسماعيل بن أبي حكيم عن عبيدة بن سفيان الحضرمي عن أبي هريرة أن رسول الله قال أكل كل ذي ناب من السباع حرام، وقال مالك وهو الأمر عندنا. {cite:muwatta-maruf-1997 p.641}"
+  tr: "Malik, İsmail ibn Abi Hakim'den, o da Ubeyde ibn Sufyan el-Hadrami'den, o da Ebu Hurayra'dan rivayetle, Allah Resulü'nün şöyle buyurduğunu nakletmiştir: \"Dişli yırtıcı hayvanların etini yemek haramdır.\" Malik dedi ki: \"Bu, aramızda yerleşik bir uygulamadır.\" {cite:muwatta-maruf-1997 s.641}"
+  id: "Malik meriwayatkan dari Ismail bin Abi Hakim, dari Ubaydah bin Sufyan al-Hadrami, dari Abu Hurayrah, bahwa Rasulullah SAW bersabda: “Memakan binatang buas yang bertaring diharamkan.” Malik berkata: “Ini adalah kebiasaan yang sudah mapan di antara kami.” {cite:muwatta-maruf-1997 p.641}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-11-sayd }
   - { type: mentions, target: person/ismail-ibn-abi-hakim, sources: [source/muwatta-maruf-1997] }

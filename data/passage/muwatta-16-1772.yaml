@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/yahya-ibn-said-al-ansari]
 work: work/muwatta-malik
 ref: "1772"
-label: { ar: "الموطأ 1772 — يحيى بن سعيد عن سعيد بن المسيب: لا رضاعة إلا ما كان في المهد، وإلا ما أنبت اللحم والدم", en: "Muwatta 1772", es: "Muwatta 1772", fr: "Muwatta 1772", ur: "موطا 1772" }
+label: { ar: "الموطأ 1772 — يحيى بن سعيد عن سعيد بن المسيب: لا رضاعة إلا ما كان في المهد، وإلا ما أنبت اللحم والدم", en: "Muwatta 1772", es: "Muwatta 1772", fr: "Muwatta 1772", ur: "موطا 1772", tr: "El-Muvatta 1772 — Yahya bin Said, Said bin El-Musayyab'dan rivayetle: Beşikte gerçekleşen ve et ve kanın büyümesine neden olan emzirme dışında emzirme yoktur.", id: "Al-Muwatta 1772 — Yahya bin Saeed berdasarkan riwayat Saeed bin Al-Musayyab: Tidak ada ASI kecuali yang terjadi di dalam buaian, dan kecuali yang menyebabkan pertumbuhan daging dan darah." }
 summary:
   ar: "يروي يحيى عن مالك عن يحيى بن سعيد أنه سمع سعيد بن المسيب يقول: لا رضاعة إلا ما كان في المهد، وإلا ما أنبت اللحم والدم. {cite:muwatta-maruf-1997 p.123}"
+  tr: "Yahya, Malik'ten, o da Yahya ibn Sa'id'den rivayet ederek, Sa'id ibn al-Musayyab'ın şöyle dediğini işittiğini aktarır: \"Bebeklik döneminde gerçekleşen ve et ve kanın büyümesine neden olan emzirme dışında emzirme yoktur.\" {cite:muwatta-maruf-1997 s.123}"
+  id: "Yahya meriwayatkan dari Malik, dari Yahya ibn Sa'id, bahwa ia mendengar Sa'id ibn al-Musayyab berkata: \"Tidak ada ASI kecuali yang terjadi pada masa bayi, dan kecuali yang menyebabkan pertumbuhan daging dan darah.\" {cite:muwatta-maruf-1997 p.123}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-16-radaa }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "6921"
-label: { ar: "صحيح البخاري 6921 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 6921 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 6921 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 6921 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sahih al-Bukhari 6921 — mentions de nations, religions et peuples non musulmans" }
+label: { ar: "صحيح البخاري 6921 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 6921 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 6921 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 6921 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sahih al-Bukhari 6921 — mentions de nations, religions et peuples non musulmans", tr: "Sahih el-Buhari 6921 — Gayrimüslim milletlerin, dinlerin ve halkların anılması", id: "Sahih al-Bukhari 6921 — Penyebutan bangsa, agama, dan kaum non-Muslim" }
 text: "حَدَّثَنَا خَلاَّدُ بْنُ يَحْيَى، حَدَّثَنَا سُفْيَانُ، عَنْ مَنْصُورٍ، وَالأَعْمَشِ، عَنْ أَبِي وَائِلٍ، عَنِ ابْنِ مَسْعُودٍ ـ قَالَ قَالَ رَجُلٌ يَا رَسُولَ اللَّهِ أَنُؤَاخَذُ بِمَا عَمِلْنَا فِي الْجَاهِلِيَّةِ قَالَ \" مَنْ أَحْسَنَ فِي الإِسْلاَمِ لَمْ يُؤَاخَذْ بِمَا عَمِلَ فِي الْجَاهِلِيَّةِ، وَمَنْ أَسَاءَ فِي الإِسْلاَمِ أُخِذَ بِالأَوَّلِ وَالآخِرِ \"."
 summary:
   ar: "حديث في صحيح البخاري، رقم 6921، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 6921، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.º 6921 (Apóstatas), con menciones de naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
   fr: "Un hadith du Sahih al-Bukhari, n° 6921 (Apostats), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages relatifs aux nations, religions, sectes et peuples non musulmans."
+  tr: "Sahih el-Buhari'de 6921 numaralı hadis, gayrimüslim milletleri, dinleri ve halkları zikretmektedir. Bu hadis, gayrimüslim milletler, dinler, mezhepler ve halklar konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, Peygamberin biyografisi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 6921, menyebutkan bangsa-bangsa, agama-agama, dan kaum-kaum non-Muslim. Hadits ini disusun oleh seorang peneliti yang ahli dalam bangsa-bangsa, agama-agama, sekte-sekte, dan kaum-kaum non-Muslim, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi Nabi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: group/al-mushrikun, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6921 (book 88 hadith 4); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

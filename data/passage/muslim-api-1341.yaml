@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1341"
-label: { ar: "صحيح مسلم — حديث 1341", en: "Sahih Muslim 1341 — The Book of Mosques and Places of Prayer", ur: "صحیح مسلم — حدیث 1341", es: "Sahih Muslim 1341 — El Libro de las Mezquitas y Lugares de Oración", fr: "Sahih Muslim 1341 — Le Livre des Mosquées et des Lieux de Prière" }
+label: { ar: "صحيح مسلم — حديث 1341", en: "Sahih Muslim 1341 — The Book of Mosques and Places of Prayer", ur: "صحیح مسلم — حدیث 1341", es: "Sahih Muslim 1341 — El Libro de las Mezquitas y Lugares de Oración", fr: "Sahih Muslim 1341 — Le Livre des Mosquées et des Lieux de Prière", tr: "Sahih Müslim - Hadis 1341", id: "Sahih Muslim — Hadits 1341" }
 text: "أَبِي سَعِيدٍ، عَنْ وَرَّادٍ، كَاتِبِ الْمُغِيرَةِ بْنِ شُعْبَةَ قَالَ كَتَبَ مُعَاوِيَةُ إِلَى الْمُغِيرَةِ ‏.‏ بِمِثْلِ حَدِيثِ مَنْصُورٍ وَالأَعْمَشِ ‏.‏"
 summary:
   ar: "في صحيح مسلم؛ إرسال كتاب أو رسالة إلى طرف."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم میں؛ کسی فریق کو خط یا پیغام بھیجنا."
   es: "En Sahih Muslim; enviar una carta o mensaje a un partido."
   fr: "Dans Sahih Muslim; l'envoi d'une lettre ou d'un message à une personne."
+  tr: "Sahih Müslim'de; bir tarafa kitap veya mektup göndermek."
+  id: "Dalam Sahih Muslim; mengirim buku atau surat kepada suatu pihak."
 relations:
   - { type: part_of, target: passage/muslim-kitab-05 }
   - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-muslim] }

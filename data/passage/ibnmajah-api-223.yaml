@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "223"
-label: { ar: "سنن ابن ماجه 223 — ما خلّفه من تركة وميراث", en: "Sunan Ibn Majah 223 — what was left behind: estate and inheritance", ur: "سنن ابن ماجہ 223 — ترکہ اور میراث", es: "Sunan Ibn Majah 223 — Lo que quedó: patrimonio y herencia", fr: "Sunan Ibn Majah 223 — Ce qui a été laissé derrière: biens et héritage" }
+label: { ar: "سنن ابن ماجه 223 — ما خلّفه من تركة وميراث", en: "Sunan Ibn Majah 223 — what was left behind: estate and inheritance", ur: "سنن ابن ماجہ 223 — ترکہ اور میراث", es: "Sunan Ibn Majah 223 — Lo que quedó: patrimonio y herencia", fr: "Sunan Ibn Majah 223 — Ce qui a été laissé derrière: biens et héritage", tr: "Sunan İbn Majah 223 — Miras ve vasiyet olarak geride bıraktığı şeyler", id: "Sunan Ibn Majah 223 — Apa yang ditinggalkannya berupa warisan dan peninggalan" }
 text: "… لَهُ طَرِيقًا إِلَى الْجَنَّةِ وَإِنَّ الْمَلاَئِكَةَ لَتَضَعُ أَجْنِحَتَهَا رِضًا لِطَالِبِ الْعِلْمِ وَإِنَّ طَالِبَ الْعِلْمِ يَسْتَغْفِرُ لَهُ مَنْ فِي السَّمَاءِ وَالأَرْضِ حَتَّى الْحِيتَانِ فِي الْمَاءِ وَإِنَّ فَضْلَ الْعَالِمِ عَلَى الْعَابِدِ كَفَضْلِ الْقَمَرِ عَلَى سَائِرِ الْكَوَاكِبِ إِنَّ الْعُلَمَاءَ هُمْ وَرَثَةُ الأَنْبِيَاءِ إِنَّ الأَنْبِيَاءَ لَمْ يُوَرِّثُوا دِينَارًا وَلاَ دِرْهَمًا إِنَّمَا وَرَّثُوا الْعِلْمَ فَمَنْ أَخَذَهُ أَخَذَ بِحَظٍّ وَافِرٍ \"."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 223، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابن ماجہ کی حدیث نمبر 223، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Ibn Majah, n.º 223 (El Libro de la Sunnah), menciona lo que quedó tras de sí: bienes y herencia. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
   fr: "Un hadith du Sunan Ibn Majah, n° 223 (Le Livre de la Sunna), mentionne ce qui a été laissé derrière soi: biens et héritage. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "İbn Majah Süneni'nde yer alan 223 numaralı hadiste, Peygamberin geride bıraktığı mal varlığı ve miras hakkında bilgi verilmektedir. Bu derleme, vasiyetnameler, miras, tarihi yerler ve türbeler konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sunan Ibn Majah, no. 223, menyebutkan apa yang ditinggalkannya berupa harta warisan. Ini disusun oleh seorang peneliti yang ahli dalam wasiat, warisan, situs bersejarah, dan makam suci, beserta teks-teks terkait dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 223 (book 0 hadith 223); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

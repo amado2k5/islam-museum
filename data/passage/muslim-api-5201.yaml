@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "5201"
-label: { ar: "صحيح مسلم 5201 — أثر من الآثار المحفوظة", en: "Sahih Muslim 5201 — a relic kept after its owner", ur: "صحیح مسلم 5201 — محفوظ آثار و تبرکات", es: "Sahih Muslim 5201 — una reliquia conservada después de su propietario.", fr: "Sahih Muslim 5201 — une relique conservée après son propriétaire" }
+label: { ar: "صحيح مسلم 5201 — أثر من الآثار المحفوظة", en: "Sahih Muslim 5201 — a relic kept after its owner", ur: "صحیح مسلم 5201 — محفوظ آثار و تبرکات", es: "Sahih Muslim 5201 — una reliquia conservada después de su propietario.", fr: "Sahih Muslim 5201 — une relique conservée après son propriétaire", tr: "Sahih Muslim 5201 — Korunmuş bir gelenek", id: "Sahih Muslim 5201 — Sebuah tradisi yang terpelihara" }
 text: "… قَالَ سَمِعْتُ سَعِيدَ بْنَ الْمُسَيَّبِ، يَقُولُ سَمِعْتُ عَبْدَ اللَّهِ بْنَ عُمَرَ، يَقُولُ عِنْدَ هَذَا الْمِنْبَرِ - وَأَشَارَ إِلَى مِنْبَرِ رَسُولِ اللَّهِ - قَدِمَ وَفْدُ عَبْدِ الْقَيْسِ عَلَى رَسُولِ اللَّهِ فَسَأَلُوهُ عَنِ الأَشْرِبَةِ فَنَهَاهُمْ عَنِ الدُّبَّاءِ وَالنَّقِيرِ وَالْحَنْتَمِ. فَقُلْتُ لَهُ يَا أَبَا مُحَمَّدٍ وَالْمُزَفَّتِ وَظَنَنَّا أَنَّهُ نَسِيَهُ فَقَالَ لَمْ أَسْمَعْهُ يَوْمَئِذٍ مِنْ عَبْدِ اللَّهِ بْنِ عُمَرَ …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 5201، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 5201، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 5201 (El Libro de las Bebidas), menciona una reliquia conservada tras la muerte de su dueño. El Navegador de Testamentos la incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sahih Muslim, n° 5201 (Le Livre des Boissons), mentionne une relique conservée après son propriétaire. Le navigateur de testaments la répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "Sahih Müslim'de 5201 numaralı hadiste, korunmuş bir kutsal emanetten bahsedilir. Bu derleme, vasiyetnameler, miras, kutsal emanetler ve türbeler konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birlikte hazırlanmıştır."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 5201, menyebutkan sebuah relik yang terpelihara. Ini disusun oleh seorang peneliti yang ahli dalam wasiat, warisan, relik, dan makam suci, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tabarruk, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5201 (book 36 hadith 75); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

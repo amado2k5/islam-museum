@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "98"
-label: { ar: "مسلم 98 — من حمل علينا السلاح فليس منا", en: "Muslim 98 — Whoever bears arms against us is not of us", es: "Musulmán 98 — Quien empuñe armas contra nosotros no es de los nuestros.", fr: "Muslim 98 — Quiconque prend les armes contre nous n'est pas des nôtres", ur: "مسلم 98 - جو ہمارے خلاف ہتھیار اٹھائے وہ ہم میں سے نہیں ہے۔" }
+label: { ar: "مسلم 98 — من حمل علينا السلاح فليس منا", en: "Muslim 98 — Whoever bears arms against us is not of us", es: "Musulmán 98 — Quien empuñe armas contra nosotros no es de los nuestros.", fr: "Muslim 98 — Quiconque prend les armes contre nous n'est pas des nôtres", ur: "مسلم 98 - جو ہمارے خلاف ہتھیار اٹھائے وہ ہم میں سے نہیں ہے۔", tr: "Müslim 98 — Bize karşı silahlanan, bizden değildir.", id: "Muslim 98 — Barangsiapa mengangkat senjata melawan kita, ia bukanlah termasuk golongan kita." }
 text: "قال رسول الله: «من حمل علينا السلاح فليس منا»"
 summary:
   ar: "رواية عبد الله بن عمر في باب تحريم حمل السلاح على المسلمين من كتاب الإيمان في صحيح مسلم؛ يجعل توجيه السلاح إلى مسلم خروجاً من جمعتهم."
+  tr: "Sahih Müslim'deki İman Kitabı'nda Müslümanların silah taşımasının yasaklanması bölümünde Abdullah bin Ömer'in rivayetine göre, bir Müslümana silah doğrultmak, o Müslümanın topluluğundan ayrılma eylemi olarak nitelendirilir."
+  id: "Riwayat Abdullah bin Omar dalam bab tentang larangan umat Islam membawa senjata dari Kitab Iman dalam Sahih Muslim menyatakan bahwa mengarahkan senjata kepada seorang Muslim merupakan tindakan meninggalkan komunitas mereka."
 relations:
   - { type: part_of, target: passage/muslim-kitab-01 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

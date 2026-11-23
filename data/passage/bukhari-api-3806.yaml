@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "3806"
-label: { ar: "صحيح البخاري 3806 — القراء", en: "Sahih al-Bukhari 3806 — the readers", ur: "صحیح بخاری 3806 — قراء", es: "Sahih al-Bukhari 3806 — los lectores", fr: "Sahih al-Bukhari 3806 — les lecteurs" }
+label: { ar: "صحيح البخاري 3806 — القراء", en: "Sahih al-Bukhari 3806 — the readers", ur: "صحیح بخاری 3806 — قراء", es: "Sahih al-Bukhari 3806 — los lectores", fr: "Sahih al-Bukhari 3806 — les lecteurs", tr: "Sahih el-Buhari 3806 — Okuyucular", id: "Sahih al-Bukhari 3806 — Pembaca" }
 text: "حَدَّثَنِي مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا غُنْدَرٌ، حَدَّثَنَا شُعْبَةُ، عَنْ عَمْرٍو، عَنْ إِبْرَاهِيمَ، عَنْ مَسْرُوقٍ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍوما ـ سَمِعْتُ النَّبِيَّ يَقُولُ \" اسْتَقْرِئُوا الْقُرْآنَ مِنْ أَرْبَعَةٍ مِنَ ابْنِ مَسْعُودٍ وَسَالِمٍ مَوْلَى أَبِي حُذَيْفَةَ، وَأُبَىٍّ، وَمُعَاذِ بْنِ جَبَلٍ \"."
 summary:
   ar: "حديث في صحيح البخاري، رقم 3806، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 3806، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sahih al-Bukhari, n.° 3806 (Méritos de los Ayudantes en Medina (Ansar)), menciona a los lectores. El navegador del museo sobre cómo se leía y escribía el Corán lo enumera junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
   fr: "Un hadith du Sahih al-Bukhari, n° 3806 (Mérites des Compagnons de Médine (Ansar)), mentionne les lecteurs. Le catalogue du musée consacré à la lecture et à la transcription du Coran le répertorie avec les textes du Coran, la Sunna, la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Sahih el-Buhari'de 3806 numaralı hadis, Kur'an okuyucularından bahsetmektedir. Bu derleme, Kur'an okunuşları, yazı, hat sanatı ve diyakritik işaretler hakkında bilgilerin yanı sıra Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine kitaplardan metinler içermektedir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 3806, menyebutkan para pembaca Al-Quran. Koleksi ini mengumpulkan informasi tentang bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, beserta teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3806 (book 63 hadith 31); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

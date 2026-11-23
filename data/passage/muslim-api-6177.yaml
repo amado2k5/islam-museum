@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "6177"
-label: { ar: "صحيح مسلم 6177 — الأب والأبوة", en: "Sahih Muslim 6177 — the father and fatherhood", ur: "صحیح مسلم 6177 — باپ اور والدیت", es: "Sahih Muslim 6177 — El padre y la paternidad", fr: "Sahih Muslim 6177 — Le père et la paternité" }
+label: { ar: "صحيح مسلم 6177 — الأب والأبوة", en: "Sahih Muslim 6177 — the father and fatherhood", ur: "صحیح مسلم 6177 — باپ اور والدیت", es: "Sahih Muslim 6177 — El padre y la paternidad", fr: "Sahih Muslim 6177 — Le père et la paternité", tr: "Sahih Muslim 6177 — Baba ve Babalık", id: "Sahih Muslim 6177 — Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا خَالِدُ بْنُ عَبْدِ اللَّهِ، عَنْ خَالِدٍ، عَنْ أَبِي عُثْمَانَ، أَخْبَرَنِي عَمْرُو بْنُ الْعَاصِ، أَنَّ رَسُولَ اللَّهِ بَعَثَهُ عَلَى جَيْشِ ذَاتِ السَّلاَسِلِ فَأَتَيْتُهُ فَقُلْتُ أَىُّ النَّاسِ أَحَبُّ إِلَيْكَ قَالَ \" عَائِشَةُ \". قُلْتُ مِنَ الرِّجَالِ قَالَ \" أَبُوهَا \". قُلْتُ ثُمَّ مَنْ قَالَ \" عُمَرُ \". فَعَدَّ رِجَالاً."
 summary:
   ar: "حديث في صحيح مسلم، رقم 6177، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 6177، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 6177 (El Libro de los Méritos de los Compañeros), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sahih Muslim, n° 6177 (Livre des mérites des Compagnons), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les versets du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih Müslim'de 6177 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 6177, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6177 (book 44 hadith 9); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

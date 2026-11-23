@@ -1,7 +1,7 @@
 id: event/abu-al-hayja-hamadan-593
 class: event
 kind: campaign
-label: { ar: "إرسال الأمير أبي الهيجاء إلى همذان", en: "Abu al-Hayja sent against Hamadan", fr: "Abu al-Hayja envoyé contre Hamadan", es: "Abu al-Hayja enviado contra Hamadan", ur: "ابو الحیجہ نے حمدان کے خلاف بھیجا۔" }
+label: { ar: "إرسال الأمير أبي الهيجاء إلى همذان", en: "Abu al-Hayja sent against Hamadan", fr: "Abu al-Hayja envoyé contre Hamadan", es: "Abu al-Hayja enviado contra Hamadan", ur: "ابو الحیجہ نے حمدان کے خلاف بھیجا۔", tr: "Prens Ebu el-Hayja'nın Hemedan'a gönderilmesi", id: "Mengirim Pangeran Abu al-Hayja ke Hamadan" }
 date:
   start: { edtf: "1196~", hijri: "0593", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   fr: "Al-Nasir envoya l’émir Abu al-Hayja à Hamadan et s’en empara avec le Jibal environnant ; lorsque le Khwarazmshah Tekish envahit le pays, le vizir le reçut avec honneur et le fit repartir {cite:kamil-ibn-al-athir p. 236}."
   es: "Al-Nasir envió al emir Abu al-Hayja a Hamadán y lo tomó con su Jibal; cuando el sha de Corasmia Tekish invadió el país, el visir lo recibió con honores y lo hizo regresar {cite:kamil-ibn-al-athir p. 236}."
   ur: "النصیر نے امیر ابو الحیجہ کو حمدان بھیجا اور اسے جبل کے ساتھ لے گیا۔ جب خوارزمشاہ تکیش نے ملک پر قبضہ کیا تو وزیر نے اس کا احترام کے ساتھ استقبال کیا اور اسے واپس کر دیا {حوالہ: کامل ابن الاثیر صفحہ 236}۔"
+  tr: "Halife Nasır, Prens Ebu el-Hayca'yı Hamadan'a gönderdi ve o da şehri ve çevresindeki dağlık bölgeleri fethetti. Harezm Şah Tekiş şehri ele geçirdi, bunun üzerine halifenin veziri ona saygı gösterdi, iyi davrandı ve onunla savaşması için geri gönderdi. {kaynak: Kamil İbn el-Atir s. 236}"
+  id: "Khalifah Al-Nasir mengutus Pangeran Abu Al-Hayja ke Hamadan, dan ia menaklukkannya beserta wilayah pegunungan sekitarnya. Khwarazm Shah Tekish kemudian menaklukkannya, sehingga menteri Khalifah menghormatinya, memperlakukannya dengan baik, dan mengirimnya kembali untuk berperang bersamanya. {cite:kamil-ibn-al-athir p. 236}"
 wings: [time]
 relations:
   - { type: occurred_at, target: place/hamadan, sources: [source/kamil-ibn-al-athir] }

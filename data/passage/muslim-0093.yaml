@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "93"
-label: { ar: "مسلم 93 — الموجبتان", en: "Muslim 93 — The two guarantees", es: "Musulmán 93 — Las dos garantías", fr: "Muslim 93 — Les deux garanties", ur: "مسلم 93 - دو ضمانتیں۔" }
+label: { ar: "مسلم 93 — الموجبتان", en: "Muslim 93 — The two guarantees", es: "Musulmán 93 — Las dos garantías", fr: "Muslim 93 — Les deux garanties", ur: "مسلم 93 - دو ضمانتیں۔", tr: "Müslüman 93 — İki olumlu olan", id: "Muslim 93 — Dua hal positifnya" }
 text: "قال جابر: أتى النبي رجل فقال: يا رسول الله ما الموجبتان؟ قال: من مات لا يشرك بالله شيئاً دخل الجنة، ومن مات يشرك بالله شيئاً دخل النار"
 summary:
   ar: "رواية جابر بن عبد الله في باب حرمة دم المؤمن من كتاب الإيمان في صحيح مسلم؛ جواب النبي عن سؤال «ما الموجبتان» بالتوحيد موجباً للجنة والشرك موجباً للنار."
+  tr: "Sahih Müslim'in İman Kitabı'ndaki \"Müminin Kanının Kutsallığı\" bölümünde Cabir bin Abdullah'ın rivayetine göre, Peygamberimiz \"İki şey neyi zorunlu kılar?\" sorusuna şu cevabı vermiştir: Tevhid cenneti, şirk ise cehennemi zorunlu kılar."
+  id: "Riwayat Jabir bin Abdullah dalam surah tentang kesucian darah orang beriman dari Kitab Iman dalam Sahih Muslim; jawaban Nabi atas pertanyaan “Apakah dua hal yang mewajibkan?”: tauhid mewajibkan surga dan politeisme mewajibkan neraka."
 relations:
   - { type: part_of, target: passage/muslim-kitab-01 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

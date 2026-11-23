@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1437"
-label: { ar: "الموطأ 1437 — زيد بن أسلم عن ابن وعلة المصري عن ابن عباس: إذا دبغ الإهاب فقد طهر", en: "Muwatta 1437", es: "Muwatta 1437", fr: "Muwatta 1437", ur: "موطا 1437" }
+label: { ar: "الموطأ 1437 — زيد بن أسلم عن ابن وعلة المصري عن ابن عباس: إذا دبغ الإهاب فقد طهر", en: "Muwatta 1437", es: "Muwatta 1437", fr: "Muwatta 1437", ur: "موطا 1437", tr: "El-Muvatta 1437 — Zeyd ibn Aslam, İbn Ve'la el-Mişri'den, o da İbn Abbas'tan rivayetle: Deri tabaklanmışsa, temizlenmiş demektir.", id: "Al-Muwatta 1437 — Zayd ibn Aslam, berdasarkan riwayat Ibn Wa’la al-Misri, berdasarkan riwayat Ibn Abbas: Jika kulit disamak, maka kulit tersebut telah disucikan." }
 text: "إذا دُبغَ الإِهابُ فَقدْ طَهرَ"
 summary:
   ar: "يروي مالك عن زيد بن أسلم عن ابن وعلة المصري عن عبد الله بن عباس أن رسول الله قال إذا دبغ الإهاب فقد طهر. {cite:muwatta-maruf-1997 p.643}"
+  tr: "Malik, Zeyd ibn Aslam'dan, o da İbn Ve'la el-Miser'den, o da Abdullah ibn Abbas'tan rivayetle, Allah Resulü'nün şöyle buyurduğunu nakletmiştir: \"Deri tabaklanmışsa, temizlenmiştir.\" {cite:muwatta-maruf-1997 s.643}"
+  id: "Malik meriwayatkan dari Zayd ibn Aslam, dari Ibn Wa'la al-Misri, dari Abdullah ibn Abbas, bahwa Rasulullah SAW bersabda: \"Jika kulit disamak, maka kulit itu telah disucikan.\" {cite:muwatta-maruf-1997 p.643}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-11-sayd }
   - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }

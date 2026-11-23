@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1432"
-label: { ar: "الموطأ 1432 — مالك: إذا أكل ذلك ميتا فلا يضره من صاده", en: "Muwatta 1432", es: "Muwatta 1432", fr: "Muwatta 1432", ur: "موطا 1432" }
+label: { ar: "الموطأ 1432 — مالك: إذا أكل ذلك ميتا فلا يضره من صاده", en: "Muwatta 1432", es: "Muwatta 1432", fr: "Muwatta 1432", ur: "موطا 1432", tr: "El-Muvatta 1432 — Malik: Eğer ölüsünü yerse, onu avlayana zarar vermez.", id: "Al-Muwatta 1432 — Malik: Jika hewan itu memakan mangsanya yang sudah mati, maka hal itu tidak membahayakan pemburunya." }
 summary:
   ar: "يقول مالك إذا أكل ذلك ميتا، فلا يضره من صاده. {cite:muwatta-maruf-1997 p.640}"
+  tr: "Malik, ölü bir hayvanı yerse, onu avlayan kişi tarafından zarar görmeyeceğini söylüyor. {cite:muwatta-maruf-1997 s.640}"
+  id: "Malik mengatakan bahwa jika ia memakan hewan yang mati, ia tidak akan dirugikan oleh siapa pun yang memburunya. {cite:muwatta-maruf-1997 p.640}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-11-sayd }
   - { type: basis_for, target: practice/sayd, sources: [source/muwatta-maruf-1997] }

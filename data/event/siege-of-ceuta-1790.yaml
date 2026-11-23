@@ -1,13 +1,15 @@
 id: event/siege-of-ceuta-1790
 class: event
 kind: siege
-label: { ar: "حصار سبتة ⁦(١٧٩٠)⁩", en: "Siege of Ceuta", es: "Sitio de Ceuta", fr: "Siège de Ceuta", ur: "سیوٹا کا محاصرہ" }
+label: { ar: "حصار سبتة ⁦(١٧٩٠)⁩", en: "Siege of Ceuta", es: "Sitio de Ceuta", fr: "Siège de Ceuta", ur: "سیوٹا کا محاصرہ", tr: "Ceuta Kuşatması (1790)", id: "Pengepungan Ceuta (1790)" }
 summary:
   ar: "بطاقة أولية لحصار سبتة في ١٧٩٠–١٧٩١م، حصار مولاي يزيد للمدينة الإسبانية؛ لم تُراجع مصادره على الصفحة بعد."
   en: "Draft card for the Siege of Ceuta in 1790–91, Mulay Yazid's siege of the Spanish-held city; its sources are not yet checked on the page."
   es: "Boceto de ficha del asedio de Ceuta en 1790-91, el asedio de Mulay Yazid a la ciudad en manos españolas; sus fuentes aún no han sido verificadas en la página."
   fr: "Carte de projet pour le siège de Ceuta en 1790-1791, le siège de la ville occupée par les Espagnols par Moulay Yazid; ses sources ne sont pas encore vérifiées sur la page."
   ur: "1790-91 میں سیوٹا کے محاصرے کے لیے ڈرافٹ کارڈ، مول یزید کا ہسپانوی زیر قبضہ شہر کا محاصرہ؛ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
+  tr: "1790-1791 yıllarında gerçekleşen Ceuta kuşatmasının ön haritası; Mualey Yazid'in İspanyol şehrini kuşatması; kaynakları henüz bu sayfada incelenmemiştir."
+  id: "Peta pendahuluan pengepungan Ceuta pada tahun 1790–1791 M, pengepungan kota Spanyol oleh Moulay Yazid; sumber-sumbernya belum ditinjau di halaman ini."
 relations:
   - { type: occurred_at, target: place/ceuta, sources: [source/tarikh-islam-hasan-ibrahim] }
   - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }

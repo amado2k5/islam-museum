@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "242"
-label: { ar: "سنن ابن ماجه 242 — جمع القرآن والمصاحف", en: "Sunan Ibn Majah 242 — the collection of the Qur'an and the codices", ur: "سنن ابن ماجہ 242 — جمعِ قرآن اور مصاحف", es: "Sunan Ibn Majah 242 — la colección del Corán y los códices", fr: "Sunan Ibn Majah 242 — le recueil du Coran et des codex" }
+label: { ar: "سنن ابن ماجه 242 — جمع القرآن والمصاحف", en: "Sunan Ibn Majah 242 — the collection of the Qur'an and the codices", ur: "سنن ابن ماجہ 242 — جمعِ قرآن اور مصاحف", es: "Sunan Ibn Majah 242 — la colección del Corán y los códices", fr: "Sunan Ibn Majah 242 — le recueil du Coran et des codex", tr: "Sunan İbn Majah 242 — Kur'an ve Kur'an Melodilerinin Derlenmesi", id: "Sunan Ibn Majah 242 — Kumpulan Al-Qur'an dan Salinan Al-Qur'an" }
 text: "… حَدَّثَنِي أَبُو عَبْدِ اللَّهِ الأَغَرُّ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ ـ \" إِنَّ مِمَّا يَلْحَقُ الْمُؤْمِنَ مِنْ عَمَلِهِ وَحَسَنَاتِهِ بَعْدَ مَوْتِهِ عِلْمًا عَلَّمَهُ وَنَشَرَهُ وَوَلَدًا صَالِحًا تَرَكَهُ وَمُصْحَفًا وَرَّثَهُ أَوْ مَسْجِدًا بَنَاهُ أَوْ بَيْتًا لاِبْنِ السَّبِيلِ بَنَاهُ أَوْ نَهْرًا أَجْرَاهُ أَوْ صَدَقَةً أَخْرَجَهَا مِنْ مَالِهِ فِي صِحَّتِهِ وَحَيَاتِهِ يَلْحَقُهُ مِنْ بَعْدِ مَوْتِهِ \"."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 242، يذكر جمع القرآن والمصاحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابن ماجہ کی حدیث نمبر 242، جس میں جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Ibn Majah, n.º 242 (El Libro de la Sunnah), menciona la colección del Corán y los códices. El navegador del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
   fr: "Un rapport du Sunan Ibn Majah, n° 242 (Le Livre de la Sunna), mentionne la collecte du Coran et des codex. Le catalogue du musée consacré à la lecture et à l'écriture du Coran répertorie ces textes, ainsi que la Sunna, la Sîra et les ouvrages traitant de ce sujet."
+  tr: "İbn Majah'ın Sünen'inde yer alan 242 numaralı hadiste, Kur'an'ın ve el yazmalarının derlenmesinden bahsedilir. Bu hadis, Kur'an okunuşları, yazısı, hat sanatı ve diyakritik işaretleri konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan Ibn Majah, no. 242, menyebutkan penyusunan Al-Quran dan manuskripnya. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/mushaf, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 242 (book 0 hadith 242); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

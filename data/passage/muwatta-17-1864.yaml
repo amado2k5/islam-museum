@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/abdallah-ibn-dinar, person/abdullah-ibn-umar, person/muhammad]
 work: work/muwatta-malik
 ref: "1864"
-label: { ar: "الموطأ 1864 — مالك عن عبد الله بن دينار عن ابن عمر: من ابتاع طعاما فلا يبعه حتى يقبضه", en: "Muwatta 1864", es: "Muwatta 1864", fr: "Muwatta 1864", ur: "موطا 1864" }
+label: { ar: "الموطأ 1864 — مالك عن عبد الله بن دينار عن ابن عمر: من ابتاع طعاما فلا يبعه حتى يقبضه", en: "Muwatta 1864", es: "Muwatta 1864", fr: "Muwatta 1864", ur: "موطا 1864", tr: "El-Muvatta 1864 — Malik, Abdullah bin Dinar'dan, o da İbn Ömer'den rivayetle: Yiyecek satın alan kimse, onu teslim almadan satmamalıdır.", id: "Al-Muwatta 1864 — Malik, berdasarkan riwayat Abdullah bin Dinar, berdasarkan riwayat Ibn Umar: Barangsiapa membeli makanan, janganlah menjualnya sebelum ia menguasainya." }
 summary:
   ar: "يروي مالك عن عبد الله بن دينار عن عبد الله بن عمر أن رسول الله قال: من ابتاع طعاما فلا يبعه حتى يقبضه. {cite:muwatta-maruf-1997 p.167}"
+  tr: "Malik, Abdullah ibn Dinar'dan, o da Abdullah ibn Umar'dan naklederek, Allah Resulü'nün şöyle buyurduğunu rivayet eder: \"Kim yiyecek satın alırsa, onu eline geçmeden satmasın.\" {cite:muwatta-maruf-1997 s.167}"
+  id: "Malik meriwayatkan dari Abdullah ibn Dinar, dari Abdullah ibn Umar, bahwa Rasulullah SAW bersabda: “Barang siapa membeli makanan, hendaklah ia tidak menjualnya sebelum ia menguasainya.” {cite:muwatta-maruf-1997 p.167}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

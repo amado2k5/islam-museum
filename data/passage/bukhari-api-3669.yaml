@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "3669"
-label: { ar: "صحيح البخاري 3669 — ساعة الاحتضار والوفاة", en: "Sahih al-Bukhari 3669 — a deathbed and last hours", ur: "صحیح بخاری 3669 — وقتِ وفات اور آخری لمحات", es: "Sahih al-Bukhari 3669 — un lecho de muerte y últimas horas", fr: "Sahih al-Bukhari 3669 — Un lit de mort et les dernières heures" }
+label: { ar: "صحيح البخاري 3669 — ساعة الاحتضار والوفاة", en: "Sahih al-Bukhari 3669 — a deathbed and last hours", ur: "صحیح بخاری 3669 — وقتِ وفات اور آخری لمحات", es: "Sahih al-Bukhari 3669 — un lecho de muerte y últimas horas", fr: "Sahih al-Bukhari 3669 — Un lit de mort et les dernières heures", tr: "Sahih el-Buhari 3669 — Ölüm Vakti ve Vefat", id: "Sahih al-Bukhari 3669 — Saat-saat Sakaratul Maut dan Kematian" }
 text: "… الزُّبَيْدِيِّ، قَالَ عَبْدُ الرَّحْمَنِ بْنُ الْقَاسِمِ أَخْبَرَنِي الْقَاسِمُ، أَنَّ عَائِشَةَا ـ قَالَتْ شَخَصَ بَصَرُ النَّبِيِّ ثُمَّ قَالَ \" فِي الرَّفِيقِ الأَعْلَى \". ثَلاَثًا، وَقَصَّ الْحَدِيثَ، قَالَتْ فَمَا كَانَتْ مِنْ خُطْبَتِهِمَا مِنْ خُطْبَةٍ إِلاَّ نَفَعَ اللَّهُ بِهَا، لَقَدْ خَوَّفَ عُمَرُ النَّاسَ وَإِنَّ فِيهِمْ لَنِفَاقًا، فَرَدَّهُمُ اللَّهُ بِذَلِكَ. ثُمَّ لَقَدْ بَصَّرَ أَبُو بَكْرٍ النَّاسَ الْهُدَى وَعَرَّفَهُمُ الْحَقَّ …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 3669، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 3669، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 3669, menciona un lecho de muerte y las últimas horas. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sahih al-Bukhari (n° 3669) évoque un lit de mort et les dernières heures. Le navigateur de textes sacrés le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, des dernières heures, des biens, des reliques et des tombes."
+  tr: "Sahih el-Buhari'de 3669 numaralı hadis, ölüm anını ve ölüm sürecini konu almaktadır. Bu hadis, vasiyetnameler, miras, antikalar ve türbeler üzerine çalışan kişiler tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 3669, menyebutkan tentang saat kematian dan proses sekarat. Hadits ini dikumpulkan oleh para ahli wasiat, warisan, barang antik, dan makam suci, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ihtidar, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3669 (book 0 hadith 0); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

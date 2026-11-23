@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "2460"
-label: { ar: "صحيح البخاري 2460 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 2460 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 2460 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 2460 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sahih al-Bukhari 2460 — mentions de nations, religions et peuples non musulmans" }
+label: { ar: "صحيح البخاري 2460 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 2460 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 2460 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 2460 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sahih al-Bukhari 2460 — mentions de nations, religions et peuples non musulmans", tr: "Sahih el-Buhari 2460 — Gayrimüslim milletlerin, dinlerin ve halkların anılması", id: "Sahih al-Bukhari 2460 — Penyebutan bangsa, agama, dan kaum non-Muslim" }
 text: "حَدَّثَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، حَدَّثَنِي عُرْوَةُ، أَنَّ عَائِشَةَا ـ قَالَتْ جَاءَتْ هِنْدُ بِنْتُ عُتْبَةَ بْنِ رَبِيعَةَ، فَقَالَتْ يَا رَسُولَ اللَّهِ إِنَّ أَبَا سُفْيَانَ رَجُلٌ مِسِّيكٌ، فَهَلْ عَلَىَّ حَرَجٌ أَنْ أُطْعِمَ مِنَ الَّذِي لَهُ عِيَالَنَا فَقَالَ \" لاَ حَرَجَ عَلَيْكِ أَنْ تُطْعِمِيهِمْ بِالْمَعْرُوفِ \"."
 summary:
   ar: "حديث في صحيح البخاري، رقم 2460، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 2460، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe del Sahih al-Bukhari, n.º 2460 (Opresiones), menciona naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista de textos del Corán, la Sunnah, la Seerah y libros sobre naciones, religiones, sectas y pueblos no musulmanes."
   fr: "Un hadith du Sahih al-Bukhari, n° 2460 (Oppressions), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages consacrés aux nations, religions, sectes et peuples non musulmans."
+  tr: "Sahih el-Buhari'de 2460 numaralı hadis, gayrimüslim milletleri, dinleri ve halkları zikretmektedir. Bu hadis, gayrimüslim milletler, dinler, mezhepler ve halklar konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, Peygamberin biyografisi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 2460, menyebutkan bangsa-bangsa, agama-agama, dan kaum-kaum non-Muslim. Hadits ini disusun oleh seorang peneliti yang ahli dalam bangsa-bangsa, agama-agama, sekte-sekte, dan kaum-kaum non-Muslim, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi Nabi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: person/utba-ibn-rabia, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2460 (book 46 hadith 21); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

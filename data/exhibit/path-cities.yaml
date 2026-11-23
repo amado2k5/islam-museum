@@ -7,12 +7,16 @@ label:
   es: "Ciudades del Islam"
   fr: "Cités de l'Islam"
   ur: "اسلام کے شہر"
+  tr: "İslam Şehirleri"
+  id: "Kota-kota Islam"
 summary:
   ar: 'مسار في حواضر الحضارة: الحرمان والقدس، فعواصم الخلافة، فقرطبة وفاس وتمبكتو، فإسطنبول.'
   en: A trail through the capitals of the civilization.
   es: "Un recorrido por las capitales de la civilización."
   fr: "Un itinéraire à travers les capitales de la civilisation."
   ur: "تہذیب کے دارالحکومتوں کے ذریعے ایک پگڈنڈی."
+  tr: "Medeniyet merkezlerinden geçen bir rota: El-Hirman ve El-Kuds, ardından Halifeliğin başkentleri, sonra Kurtuba, Fez ve Timbuktu, son olarak da İstanbul."
+  id: "Sebuah rute melalui pusat-pusat peradaban: Al-Hirman dan Al-Quds, kemudian ibu kota Kekhalifahan, lalu Cordoba, Fez dan Timbuktu, kemudian Istanbul."
 audience:
 - newcomer
 - student
@@ -27,12 +31,16 @@ rooms:
     es: "Los santuarios"
     fr: "Les sanctuaires"
     ur: "پناہ گاہیں"
+    tr: "yoksunluk"
+    id: "perampasan"
   body:
     ar: مكة الكعبة والمدينة المسجد.
     en: Mecca's Kaaba and Medina's Mosque.
     es: "La Kaaba de La Meca y la Mezquita de Medina."
     fr: "La Kaaba de La Mecque et la mosquée de Médine."
     ur: "مکہ کا کعبہ اور مدینہ کی مسجد۔"
+    tr: "Mekke'de Kabe, Medine'de ise cami bulunur."
+    id: "Mekah adalah Ka'bah dan Madinah adalah masjidnya."
   features:
   - place/mecca
   - place/medina
@@ -43,12 +51,16 @@ rooms:
     es: "Jerusalén"
     fr: "Jérusalem"
     ur: "یروشلم"
+    tr: "Kudüs"
+    id: "Yerusalem"
   body:
     ar: أولى القبلتين وثالث الحرمين.
     en: First qibla, third sanctuary.
     es: "Primera qibla, tercer santuario."
     fr: "Première qibla, troisième sanctuaire."
     ur: "قبلہ اول، تیسرا حرم۔"
+    tr: "İki kıbleden birincisi ve iki kutsal camiden üçüncüsü."
+    id: "Kiblat pertama dari dua kiblat dan masjid suci ketiga dari dua masjid suci."
   features:
   - place/jerusalem
   - building/al-aqsa-mosque
@@ -58,12 +70,16 @@ rooms:
     es: "Capitales"
     fr: "Capitales"
     ur: "کیپٹلز"
+    tr: "Halifeliğin Başkentleri"
+    id: "Ibu Kota Kekhalifahan"
   body:
     ar: دمشق فبغداد فالقاهرة.
     en: Damascus, Baghdad, Cairo.
     es: "Damasco, Bagdad, El Cairo."
     fr: "Damas, Bagdad, Le Caire."
     ur: "دمشق، بغداد، قاہرہ۔"
+    tr: "Önce Şam, sonra Bağdat, sonra Kahire."
+    id: "Damaskus, lalu Baghdad, kemudian Kairo."
   features:
   - place/damascus
   - place/baghdad
@@ -74,12 +90,16 @@ rooms:
     es: "El Oeste"
     fr: "L'Ouest"
     ur: "مغرب"
+    tr: "Batı"
+    id: "Barat"
   body:
     ar: قرطبة النور وفاس العلم وغرناطة الحمراء.
     en: Cordoba's light, Fez's learning, Granada's Alhambra.
     es: "La luz de Córdoba, el saber de Fez, la Alhambra de Granada."
     fr: "La lumière de Cordoue, le savoir de Fès, l'Alhambra de Grenade."
     ur: "قرطبہ کی روشنی، فیز کی تعلیم، گریناڈا کا الہمبرا۔"
+    tr: "Cordoba, ışığın şehri; Fez, bilginin şehri; Granada ise kırmızının şehridir."
+    id: "Cordoba adalah kota cahaya, Fez adalah kota pengetahuan, dan Granada adalah kota merah."
   features:
   - place/cordoba
   - place/fez
@@ -90,12 +110,16 @@ rooms:
     es: "El Sur"
     fr: "Le Sud"
     ur: "جنوب"
+    tr: "Güney"
+    id: "Selatan"
   body:
     ar: 'تمبكتو: عاصمة الذهب والمخطوط.'
     en: 'Timbuktu: capital of gold and manuscripts.'
     es: "Tombuctú: capital del oro y los manuscritos."
     fr: "Tombouctou: capitale de l'or et des manuscrits."
     ur: "ٹمبکٹو: سونے اور مخطوطات کا سرمایہ۔"
+    tr: "Timbuktu: Altın ve el yazmalarının başkenti."
+    id: "Timbuktu: Ibu kota emas dan manuskrip."
   features:
   - place/timbuktu
   - person/mansa-musa
@@ -105,12 +129,16 @@ rooms:
     es: "El Norte"
     fr: "Le Nord"
     ur: "شمال"
+    tr: "Kuzey"
+    id: "Utara"
   body:
     ar: 'القسطنطينية فإسطنبول: آخر عواصم الخلافة.'
     en: 'Constantinople to Istanbul: the last caliphal capital.'
     es: "De Constantinopla a Estambul: la última capital califal."
     fr: "De Constantinople à Istanbul: la dernière capitale califale."
     ur: "قسطنطنیہ تا استنبول: آخری خلیفہ دارالحکومت۔"
+    tr: "Konstantinopolis ve İstanbul: Halifeliğin son başkentleri."
+    id: "Konstantinopel dan Istanbul: ibu kota terakhir Kekhalifahan."
   features:
   - place/istanbul
   - place/samarra

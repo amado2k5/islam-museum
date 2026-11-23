@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "223"
-label: { ar: "مسلم 223 — الطهور شطر الإيمان", en: "Muslim 223 — Purity is half of faith", es: "Musulmán 223 — La pureza es la mitad de la fe", fr: "Muslim 223 — La pureté est la moitié de la foi", ur: "مسلم 223 - طہارت نصف ایمان ہے۔" }
+label: { ar: "مسلم 223 — الطهور شطر الإيمان", en: "Muslim 223 — Purity is half of faith", es: "Musulmán 223 — La pureza es la mitad de la fe", fr: "Muslim 223 — La pureté est la moitié de la foi", ur: "مسلم 223 - طہارت نصف ایمان ہے۔", tr: "Müslim 223 — Temizlik imanın yarısıdır", id: "Muslim 223 — Kesucian adalah separuh dari iman" }
 text: "قال رسول الله: «الطهور شطر الإيمان، والحمد لله تملأ الميزان، وسبحان الله والحمد لله تملآن ما بين السموات والأرض، والصلاة نور، والصدقة برهان، والصبر ضياء، والقرآن حجة لك أو عليك»"
 summary:
   ar: "رواية أبي مالك الأشعري، أول حديث في كتاب الطهارة من صحيح مسلم؛ مقياس الأعمال في الميزان: الطهور والحمد والصلاة والصدقة والصبر والقرآن."
+  tr: "Ebu Malik el-Eş'ari tarafından rivayet edilen, Sahih Müslim'deki Temizlik Kitabı'nın ilk hadisi; amellerin terazideki ölçüsü: temizlik, övgü, namaz, zekât, sabır ve Kur'an."
+  id: "Diriwayatkan oleh Abu Malik al-Ash’ari, hadits pertama dalam Kitab Penyucian dari Sahih Muslim; ukuran amal perbuatan dalam timbangan: penyucian, pujian, shalat, sedekah, kesabaran dan Al-Qur'an."
 relations:
   - { type: part_of, target: passage/muslim-kitab-02 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
