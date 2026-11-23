@@ -18,6 +18,7 @@ import recordingsMansour from "../data/recordings-abd-al-rahman-mansour.json";
 import recordingsAnwar from "../data/recordings-mosaad-anwar.json";
 import recordingsAbdussalam from "../data/recordings-ahmed-abdussalam.json";
 import recordingsHosny from "../data/recordings-mustafa-hosny.json";
+import recordingsAhmedElSayed from "../data/recordings-ahmed-el-sayed.json";
 
 export interface RecordingRef {
   series: string;       // archive slug, e.g. aadau-al-islam
@@ -44,6 +45,8 @@ const SPEAKER_BY_SOURCE: Record<string, string> = {
   "source/assabile-mosaad-anwar": "mosaad-anwar",
   "source/assabile-ahmed-abdussalam": "ahmed-abdussalam",
   "source/assabile-mustafa-hosny": "mustafa-hosny",
+  // A podcast, not an Assabile archive: the page of an episode is its SoundCloud page, and a citation names the whole episode (no time).
+  "source/podcast-ahmed-el-sayed": "ahmed-el-sayed",
 };
 const LOCATOR = /^([a-z0-9-]+)\/ep(\d+)(?:\s+(\d{1,2}):(\d{2}):(\d{2}))?/;
 
@@ -64,6 +67,7 @@ const MAP_BY_SPEAKER: Record<string, Known> = {
   "mosaad-anwar": recordingsAnwar as Known,
   "ahmed-abdussalam": recordingsAbdussalam as Known,
   "mustafa-hosny": recordingsHosny as Known,
+  "ahmed-el-sayed": recordingsAhmedElSayed as Known,
 };
 
 export const seriesTitle = (slug: string) =>
@@ -79,7 +83,9 @@ export function recordingRef(source: string, locator?: string): RecordingRef | n
   const time = h !== undefined ? `${h}:${mi}:${s}` : undefined;
   const seconds = time !== undefined ? Number(h) * 3600 + Number(mi) * 60 + Number(s) : undefined;
   const known = MAP_BY_SPEAKER[speaker]?.[series]?.[String(ep)];
-  const page = known?.page ?? `https://www.assabile.com/${speaker}/lessons/${series}/episode-${String(ep).padStart(2, "0")}`;
+  // An episode the map does not hold yet: the archive's own page pattern for an Assabile speaker, the podcast's profile for a podcast.
+  const fallback = speaker === "ahmed-el-sayed" ? "https://soundcloud.com/alsayyed_ah" : `https://www.assabile.com/${speaker}/lessons/${series}/episode-${String(ep).padStart(2, "0")}`;
+  const page = known?.page ?? fallback;
   const media = known && seconds !== undefined ? `${known.media}#t=${seconds}` : known?.media;
   return { series, seriesTitle: seriesTitle(series), ep, time, page, media };
 }
