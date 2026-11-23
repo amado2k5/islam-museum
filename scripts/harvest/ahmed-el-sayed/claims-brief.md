@@ -45,3 +45,10 @@ Aim for 8 to 16 sections for a 60 to 100 minute episode, in the order the topics
 8. **Content safety.** Before writing, read `docs/agents/content-safety.md`. If the episode names an organisation, media outlet or person the file blocks, do not write a claim about it: put one line in `excluded` with why `blocked content`, and tell the lead agent in your final message.
 9. **Arabic text** in `claims_ar` and `topic_ar`: a parenthetical that contains Arabic script is written `⁦(…)⁩` (U+2066 before the opening parenthesis, U+2069 after the closing one); better, avoid parentheses.
 10. Write the file, then reply in two or three lines: sections written, entities matched, entities unmatched, anything excluded for safety. Do not paste the file in your reply.
+
+## Rules added after review (23 November 2026)
+Apply to every series after the first; the reasons are in `docs/agents/lanes/ahmed-el-sayed.md`.
+11. **No generalising judgement about a people.** Do not write a claim that gives a lasting bad character, collective guilt, ridicule or contempt to a people, a sect or a religion as such (for example a generalisation about Jews, Shia or others). Record the historical event he narrates with the actors named, and list the generalisation in `excluded` with why `generalising judgement about a people`. A position he says a group holds may be recorded as his description of that position, attributed, with the section flagged `polemical`.
+12. **No honorific in any form**, including «رضي الله عنه» and its forms, and avoid the phrase «عليها السلام» even where it means conveying a greeting: the validator rejects it, so write it another way (`check_claims.py` now catches both).
+13. **At most 25 sections** for a long episode: keep to what the lecture teaches.
+14. A series of his that treats the Companions, the caliphs and the first civil strife follows the museum's voice rules: judgements of people and groups are his ("He holds that ..."), flagged `contested` or `polemical`, and where views differ say what he says each holds without taking a side.
