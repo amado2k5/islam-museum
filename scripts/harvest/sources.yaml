@@ -1790,4 +1790,17 @@ sources:
       note: 'publisher of free Islamic booklets; founder example: "The Rights of Animals in Islam" (2nd edition), from the "animals in islam" search results, 22 Nov 2026'
     status: enabled
 
+  podcast-ahmed-el-sayed:
+    name: Ahmed Elsayed's podcast on SoundCloud (lectures and series, audio)
+    url: https://soundcloud.com/alsayyed_ah
+    feed: https://feeds.soundcloud.com/users/soundcloud:users:72673970/sounds.rss
+    licence: "lectures published openly by the author on podcast platforms; the feed states All rights reserved (read 23 Nov 2026), so facts are extracted with citation to the whole episode and the audio and transcripts are never republished"
+    layer: copyrighted-reference
+    method: "feed metadata read with scripts/harvest/ahmed-el-sayed/fetch_feed.py (follows the feed's own next links, two-second pause, identified User-Agent) and turned into harvest/ahmed-el-sayed/ledger.tsv by build_ledger.py; audio from the feed's own enclosure links with scripts/harvest/audio/download.py; transcription and extraction under docs/agents/audio-video-harvest.md; citations are whole-episode, series/epNN with no time"
+    limits:
+      pause_seconds: 2
+      note: "835 episodes in the public feed on 23 Nov 2026; the feed owner's contact address is never stored; episode dates are upload dates"
+      youtube: "not downloaded: the founder ruling of 21 Nov 2026 covers @muftimenkofficial only; a YouTube fallback for this speaker needs its own ruling"
+    status: enabled
+
 workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museum-harvest)
