@@ -1,7 +1,7 @@
 id: event/zahir-manbij-597
 class: event
 kind: conquest
-label: { ar: "ملك الملك الظاهر منبج وحصره", en: "al-Zahir Ghazi takes Manbij and is besieged", es: "Al-Zahir Ghazi toma Manbij y es asediado.", fr: "al-Zahir Ghazi prend Manbij et est assiégée", ur: "الظاہر غازی نے منبج کو لے لیا اور اس کا محاصرہ کر لیا۔" }
+label: { ar: "ملك الملك الظاهر منبج وحصره", en: "al-Zahir Ghazi takes Manbij and is besieged", es: "Al-Zahir Ghazi toma Manbij y es asediado.", fr: "al-Zahir Ghazi prend Manbij et est assiégée", ur: "الظاہر غازی نے منبج کو لے لیا اور اس کا محاصرہ کر لیا۔", tr: "Kral Zahir, Manbij'in sahibiydi ve şehri kuşattı.", id: "Raja Al-Zahir memiliki Manbij dan mengepungnya." }
 date:
   start: { edtf: "1200~", hijri: "0597", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Al-Zahir Ghazi ibn Saladin tomó Manbij y su región, fue asediado en ella por sus rivales ayubíes, luego hizo la paz {cite:kamil-ibn-al-athir p. 269}."
   fr: "Al-Zahir Ghazi ibn Saladin prit Manbij et sa région, y fut assiégé par ses rivaux ayyoubides, puis fit la paix {cite:kamil-ibn-al-athir p. 269}."
   ur: "الظاہر غازی ابن صلاح الدین نے منبج اور اس کے علاقے پر قبضہ کر لیا، اس کے ایوبی حریفوں نے اس کا محاصرہ کر لیا، پھر صلح کر لی۔ 269}۔"
+  tr: "Halep, Manbij ve Levant'ın diğer bölgelerinin hükümdarı Kral Zahir Gazi bin Salah Al-Din, orada Eyyubi rakipleri tarafından kuşatılmış, daha sonra onunla barış yapmışlardır. {cite:kamil-ibn-al-athir s. 269}"
+  id: "Raja Al-Zahir Ghazi bin Salah Al-Din, penguasa Aleppo, Manbij, dan wilayah Levant lainnya, dikepung oleh para pesaingnya dari Dinasti Ayyubiyah, kemudian mereka berdamai dengannya. {cite:kamil-ibn-al-athir p. 269}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/manbij, sources: [source/kamil-ibn-al-athir] }

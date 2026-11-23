@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1536"
-label: { ar: "موطأ مالك 1536 — الحرام", en: "Muwatta Malik 1536 — the unlawful", ur: "موطأ مالک 1536 — حرام", es: "Muwatta Malik 1536: lo ilegal", fr: "Muwatta Malik 1536 — l'illégal" }
+label: { ar: "موطأ مالك 1536 — الحرام", en: "Muwatta Malik 1536 — the unlawful", ur: "موطأ مالک 1536 — حرام", es: "Muwatta Malik 1536: lo ilegal", fr: "Muwatta Malik 1536 — l'illégal", tr: "Muwatta Malik 1536 — Mescid-i Haram", id: "Muwatta Malik 1536 — Al-Haram" }
 text: "… كَمَثَلِ رَجُلٍ وَضَعَ بَيْنَ يَدَيْهِ خَمْرًا لِيَشْرَبَهَا فَلَمْ يَفْعَلْ فَلَيْسَ عَلَيْهِ حَدٌّ وَمِثْلُ ذَلِكَ رَجُلٌ جَلَسَ مِنِ امْرَأَةٍ مَجْلِسًا وَهُوَ يُرِيدُ أَنْ يُصِيبَهَا حَرَامًا فَلَمْ يَفْعَلْ وَلَمْ يَبْلُغْ ذَلِكَ مِنْهَا فَلَيْسَ عَلَيْهِ أَيْضًا فِي ذَلِكَ حَدٌّ. قَالَ مَالِكٌ الأَمْرُ الْمُجْتَمَعُ عَلَيْهِ عِنْدَنَا أَنَّهُ لَيْسَ فِي الْخُلْسَةِ قَطْعٌ بَلَغَ ثَمَنُهَا مَا يُقْطَعُ فِيهِ أَوْ لَمْ يَبْلُغْ."
 summary:
   ar: "حديث في موطأ مالك، رقم 1536، يذكر الحرام. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 1536، جس میں حرام کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
   es: "Un informe en Muwatta Malik, n.° 1536 (Hudud), menciona lo ilícito. El Navegador Halal y Haram lo incluye junto con los textos del Corán, la Sunnah, la sirah y los relatos de los Compañeros y Sucesores sobre lo que es lícito e ilícito."
   fr: "Un hadith du Muwatta Malik, n° 1536 (Hudud), mentionne ce qui est illicite. Le Halal and Haram Browser le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les hadiths des Compagnons et des Successeurs concernant ce qui est licite et ce qui est illicite."
+  tr: "Malik'in Muwatta'sında yer alan 1536 numaralı hadis, haram olan şeylerden bahsetmektedir. Bu hadis, helal ve haram konularında Kur'an, Sünnet, Peygamberin hayatı ve Sahabeler ile onların haleflerinden rivayetleri içeren Helal ve Haram Tarayıcısı tarafından derlenmiştir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 1536, menyebutkan apa yang diharamkan. Hadits ini dikompilasi oleh Halal and Haram Browser, yang mencakup teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan riwayat dari para Sahabat dan Penerus mereka mengenai apa yang diperbolehkan dan apa yang diharamkan."
 relations:
   - { type: mentions, target: concept/halal-haram, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1536 (book 41 hadith 8); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }

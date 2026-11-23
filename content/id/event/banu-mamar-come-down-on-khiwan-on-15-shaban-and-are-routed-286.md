@@ -1,0 +1,30 @@
+---
+id: event/banu-mamar-come-down-on-khiwan-on-15-shaban-and-are-routed-286
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/banu-mamar-come-down-on-khiwan-on-15-shaban-and-are-routed-286.md}
+---
+## Ringkasan
+Setelah [[person/al-hadi-yahya-al-rassi|al-Hadi]] kembali ke [[place/khiwan|Khiwan]], ia tinggal selama beberapa hari, lalu memberitahunya bahwa rakyat, yaitu [[group/banu-mamar-hamdan|Banu Muammar]], 'telah berkumpul dan berkonsultasi dalam perjalanan ke Khiwan untuk melawan al-Hadi.' 'Al-Hadi tidak menyangkal atau mempercayainya atas kebaikan, pengampunan, dan pengampunan yang telah ia berikan kepada mereka' {cite:sira-hadi-ila-al-haqq p.137}. Narasi ini adalah Zaydi dan terkait dengan [[event/al-hadi-pardons-banu-mamar-at-al-ghubayyib-and-returns-to-khiwan-286]].
+
+## Apa yang dikatakan tentang hasutan
+Narator berkata, "Beberapa orang menyebutkan bahwa sebuah kelompok di Khiwan diarahkan kepada mereka tentang hal ini," dan mereka menggoda mereka dengan sesuatu dari persepuluhan, lalu mereka diarahkan dengan makanan dan mendesak mereka untuk melapor kepada Imam, sehingga "sekitar tiga ratus orang" berkumpul di antara mereka {cite:sira-hadi-ila-al-haqq p.137}. Ini adalah pernyataan dari individu yang tidak dikenal yang tidak menyebutkan pihak atau orang mana pun, dan deskripsi narator tentang motif mereka adalah keputusan darinya, dan narator menceritakannya sebagai atribut tanpa mengonfirmasi atau menyangkalnya.
+
+## Hari tengah Sha'ban
+"Pada hari Minggu, di tengah Sha'ban, setelah salat subuh, orang-orang telah tiba di sebuah gunung dekat Khaywan," orang-orang itu mengangkat senjata dan pergi ke rumah al-Hadi. Ia lebih terhormat daripada aula di kubah tempat ia tinggal dan melihat orang-orang bertarung di gunung {cite:sira-hadi-ila-al-haqq p.137}. Ia membuat rakyat melarikan diri untuk bergerak menuju mereka, sehingga ia memerintahkan mereka mundur, tetapi mereka menolak untuk melanjutkan. Ia menyuruh putranya [[person/al-murtada-muhammad|Abu al-Qasim untuk memanjat]], mengembalikan orang-orang itu, dan meninggalkan mereka di tempatnya sampai orang-orang keluar kepada mereka. Ia menggambarkan orang-orang dengan cara yang keras dan tidak diulang oleh museum {cite:sira-hadi-ila-al-haqq p.138}. Abu al-Qasim menunggang kuda "dengan kemeja dan jubah" sampai orang-orang itu kembali. Mereka telah mendekati kelompok itu, sehingga mereka berbalik dan kembali ke al-Hadi {cite:sira-hadi-ila-al-haqq p.138}.
+
+## Dialog di Gunung
+Ketika orang-orang melihat Abu al-Qasim mendekati mereka dan memanggil rakyat Khiwan, sekelompok dari mereka berbicara kepadanya dan berkata: "Wahai suku kami, tidak ada perang antara kami dan kalian, dan kami hanya mengharapkan kebaikan untukmu. Singkirkan pria ini dari hadapanmu." Seorang pria dari kota menjawab: "Adapun kami, kami tidak akan mengusirnya, tetapi jika kalian ingin mengusirnya, silakan usir dia sendiri." Dalam buku itu, sebuah frasa dibacakan setelahnya: "Entah itu mengejeknya," yang maknanya tidak jelas {cite:sira-hadi-ila-al-haqq p.138}. Dari konteksnya, dipahami bahwa para pembicara adalah orang-orang dari gunung, dan responsnya datang dari penduduk setempat.
+
+## Memobilisasi Hadi dan berjuang
+Al-Hadi mendengar hal ini, maka ia memerintahkan kuda-kuda itu dipasang, tetapi bukan senjatanya, maupun Abu al-Qasim. Ia menunggang kuda dan meninggalkan rumah, mengusir kavaleri [[group/tabari-emigrants-with-al-hadi|Tiberia]] dan yang bersama mereka dari kanan dan kiri; ia menempatkan orang-orang dari suku Khiwan di sayap kanan, dan di sayap kiri ada orang-orang dari San'ani dan lainnya. Ia mengambil kuda Hamdani dari rakyat Khiwan, beberapa penunggang kuda mereka, dan bangsawan mereka, bersama dengan orang-orang Khiwan, orang Tiberia, dan sekelompok rakyat biasa. Ia berjalan menuju rakyat {cite:sira-hadi-ila-al-haqq p.138}. Orang-orang turun dari gunung, melempar panah dan batu, dan pertempuran pun terjadi. Al-Hadi memerintahkan para pria untuk bercampur dengan mereka, lalu Dia dan Abu al-Qasim terus bertahan hingga mereka saling gugur {cite:sira-hadi-ila-al-haqq p.138}. Dia mengalahkan rakyat "yang paling kalah di antara kalian, tidak ada yang akan berbalik melawan siapa pun" {cite:sira-hadi-ila-al-haqq p.138}.
+
+## Surat di gunung
+Al-Hadi memanggil para prajurit, sehingga mereka mengejar. Al-Hadi turun dari kudanya di lereng gunung "karena tidak ada latihan kuda di sana," dan bertarung dengan berjalan kaki. Dalam catatan kaki nomor folio 27 {cite:sira-hadi-ila-al-haqq p.138}. Pertempuran semakin sengit, dan sekelompok orang Tiberia serta penduduk Khiyawan terluka ringan, dan seorang Mamluk milik beberapa orang Khivan tewas dengan panah. "Mereka mengalami banyak luka dari teman-teman Al-Hadi dan mengalahkan mereka" {cite:sira-hadi-ila-al-haqq p.138} {cite:sira-hadi-ila-al-haqq p.139}. Mereka mengejar sekelompok orang dan membawa mereka kepadanya, sehingga ia merawat mereka dan mengirim mereka kembali ke rekan-rekan mereka. "Maka mereka semua pergi, kalah dan kalah" {cite:sira-hadi-ila-al-haqq p.139}.
+
+## Setelah pertempuran
+Al-Hadi kembali ke rumahnya dan berteriak kepada orang-orang, dan pada hari Selasa, sekelompok orang dari [[group/banu-rabia-hamdan|Banu Rabi'ah datang kepadanya]] dan tinggal bersamanya {cite:sira-hadi-ila-al-haqq p.139}. Narator kemudian melanjutkan khotbah Jumat pada [[event/abu-al-qasim-leads-the-friday-prayer-and-preaches-jihad-at-khiwan-286]].
+
+## Catatan
+Minggu, tanggal lima belas Sha'ban, sesuai dengan Sabtu secara tabel, karena kalender buku ini mendahului kalender satu hari, seperti pada kelompok sebelumnya; tanggal diturunkan. Pada halaman 138, kata-kata dialamatkan dengan identifikasi optik dengan disertasi dalam garis pertempuran pada huruf gunung, sehingga frasa "di antara mereka dan al-Hadi" tidak dijelaskan. Nama-nama korban tewas dan yang terluka tidak disebutkan.

@@ -1,0 +1,12 @@
+---
+id: place/erbil
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/place/erbil.md}
+---
+## Ringkasan
+Erbil, yang kini ditulis sebagai 'Erbil,' adalah benteng benteng dan kota besar di area tanah terbuka yang luas. Yaqut menganggapnya bagian dari Mosul, terletak di antara Zabin sekitar dua hari perjalanan dari Mosul. Bentengnya terletak di atas bukit tinggi tanah lebar, dikelilingi parit dalam, berisi pasar, rumah petani, dan masjid. Ia membandingkannya dengan Benteng Aleppo, meskipun lebih besar dan luas. Pada masanya, sebuah kota besar didirikan di dekat benteng, dibangun oleh Pangeran Muzaffar al-Din al-Kukbari ibn Zain al-Din, yang membangun tembok, pasar, dan kawasan cahayal, dan orang asing mengunjunginya hingga menjadi kota besar. Yaqut menyebutkan bahwa pangeran memberikan banyak belas kasih kepada orang asing dan membebaskan tawanan dari tangan kafir, dan pada saat yang sama tidak adil kepada rakyat dalam mengumpulkan kekayaan, menurut penilaiannya sendiri. Sebagian besar penduduk Madinah dan sekitarnya adalah orang Kurdi yang menjadi Arab, dan ada tujuh hari antara Madinah dan Baghdad untuk perjalanan karavan. Tidak ada kebun buah atau sungai yang mengalir di sekitarnya, sehingga sebagian besar ditanam di kanal bawah tanah dan diminum dari sumur segar. Yaqut menyebutkan bahwa ia tidak melihat siapa pun yang dikaitkan dengan Fadl di sana kecuali Abu al-Barakat al-Mubarak ibn Ahmad, yang dikenal sebagai al-Mustawfi. Yaqut meneliti asal-usul nama tersebut dan menyarankan bahwa nama itu berasal dari 'rubl,' sejenis pohon, atau dari vegetasi yang melimpah. {cite:mujam-al-buldan-yaqut p.177} {cite:mujam-al-buldan-yaqut p.176}
+
+## Dalam katalog Institut Arkeologi Jerman
+Katalog Institut Arkeologi Jerman mencatat tempat ini sebagai tempat dengan nomor 2771775 dan nama yang disukainya adalah 'Arbil' dalam bahasa Arab, dan induk dalam urutan tersebut adalah unit administratif 'Arbil'. Katalog ini mencantumkan nama-nama termasuk bahasa Jerman 'Erbil' dan 'Hewlêr', bentuk Arab 'Erbil' dan 'Erbil', serta dua bentuk Arab tanpa spesifikasi bahasa, 'Ha Waller' dan 'Hawler', serta bentuk Suryani 'ܐܪܒܝܠ'. {cite:idai-gazetteer 2771775}

@@ -1,0 +1,16 @@
+---
+id: building/qila-i-kuhna-mosque
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/building/qila-i-kuhna-mosque.md}
+---
+## Genel Bakış
+Qala-e-Kahna Camii, Delhi'deki [[building/purana-qila-delhi|eski]] kalenin güneydoğusunda, [[building/sher-mandal-delhi|Sher Mandal yakınlarında yer]] almaktadır. {cite:nath-history-of-mughal-architecture-1-1982 p. 160} Cephesinde beş kemer ve beş kemerli bir ibadet evidir; her kemer kendi iwanındadır, kemersiz, büyük girişleri veya minareleri yoktur. Nath'a göre, bu tarzın en eksiksiz örneği ve Hindistan'da birlikte yeni bir olgu olarak görülmektedir. {cite:nath-history-of-mughal-architecture-1-1982 p. 161} {cite:nath-history-of-mughal-architecture-1-1982 p. 168}
+
+## Süslü bina
+Kıble duvarı, gri taştan yapılmış olup, bir kornişle iki katmana bölünmüştür; üzerinde kırmızı taşa işlenmiş beyaz mermer şerit bulunur; üst katmanda üç belirgin pencere bulunur ve arka köşelerinde üç katmanlı iki sekizgen kule bulunur. {cite:nath-history-of-mughal-architecture-1-1982 p. 160} {cite:nath-history-of-mughal-architecture-1-1982 p. 161} Orta iwan, kırmızı taşta beyaz mermer ve siyah arduvaz, geometrik şekillerde mermerden kırmızı taş ve kemerin tabanından sarkmış lotus tomurcuklarından oluşan bir çerçeve ile kaplanmıştır. {cite:nath-history-of-mughal-architecture-1-1982 p. 162} Ana mihrap beyaz mermerden yapılmıştır ve üç iç içe geçen yarım kubbe ile çevrelenmiş yazılı dizeler vardır. {cite:nath-history-of-mughal-architecture-1-1982 p. 163} Tek kubbe, etrafında on altı kaburga bulunan bir kolyeyi destekler ve içinde Yeşil, mavi ve sarı Kaişan kalıntıları vardır. {cite:nath-history-of-mughal-architecture-1-1982 p. 165} Camii, Naskh alfabesiyle kazınmış birçok Kur'an ayeti ve Kufik'ten birkaç ayet içerir; bunlar arasında orta kolyenin etrafında Feth suresi ve başka bir kolye etrafında Mülk suresi bulunur. {cite:nath-history-of-mughal-architecture-1-1982 p. 171}
+
+## Onun oranı
+Cami genellikle Sher Shah'a, Abbas Han Sarwani'nin Delhi'deki hükümdarın kalesinde taş bir cami inşa ettiğini ve süslemeleri için altın ile lapis lazuli harcadığını belirttiği ve 'Tarikh-e-Dawoodi'nin yazarı Abdullah'a dayanarak atfedilir. {cite:nath-history-of-mughal-architecture-1-1982 p. 169} Nath, caminin ne altın ne de lapis lazuli içermediğini ve tarzının Sahasram'daki Şer Şah binalarından farklı olduğunu iddia eder. Humayun'un kaleyi 1533'te sipariş ettiğine ve 1540'ta Hindistan'dan kaçtığında tamamlanmadığını, bu yüzden Akbar'ın erken dönemlerinde tamamlandığına inanır. Bu nedenle, Atke Han ve Humayun'un türbelerinde beyaz mermer, kırmızı taş ve kakma kullanılmaya katılmaktadır. {cite:nath-history-of-mughal-architecture-1-1982 p. 169} {cite:nath-history-of-mughal-architecture-1-1982 p. 170} {cite:nath-history-of-mughal-architecture-1-1982 p. 171} Zanaatkârların muhtemelen Gwalior'dan geldiğine ve Man Mandir Sarayı'nın özelliklerini taşıdığına inanılmaktadır. {cite:nath-history-of-mughal-architecture-1-1982 p. 171}

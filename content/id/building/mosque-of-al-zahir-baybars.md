@@ -1,0 +1,16 @@
+---
+id: building/mosque-of-al-zahir-baybars
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/building/mosque-of-al-zahir-baybars.md}
+---
+## Ringkasan
+Yumans menyebutkan bahwa [[person/baybars|al-Zahir Baybars]] dikatakan telah mendirikan sekitar dua ratus enam puluh sembilan bangunan di seluruh negara Mamluk, tetapi hal terpenting yang ia tinggalkan di Kairo adalah masjidnya (1266-1269 M), yang berdiri dalam reruntuhan di pinggiran utara di belakang [[building/bab-al-nasr|Bab al-Nasr]] dan [[building/bab-al-futuh|Bab al-Futuh]]. {cite:yeomans-islamic-cairo-2006 p.127} Ini adalah masjid besar pertama yang dibangun setelah [[building/mosque-of-al-hakim|Masjid al-Hakim]], karena Ayyubiyah mengambil Masjid al-Hakim sebagai masjid pertama mereka dan lebih memilih merenovasi masjid yang ada daripada yang baru. {cite:yeomans-islamic-cairo-2006 p.127} Baybars secara pribadi mengawasi pembangunannya dan mengatur pemindahan material dari bangunan Tentara Salib di Jaffa untuk digunakan kembali. {cite:yeomans-islamic-cairo-2006 p.127}
+
+## Tangga lagu
+Fasadnya yang panjang, dengan gerbang dan penyangga sudut yang menonjol, mengingatkan pada Masjid Mahdia di Tunis, sementara desain kubah besarnya menunjukkan tradisi Seljuk. {cite:yeomans-islamic-cairo-2006 p.128} Masjid ini memiliki arcade: halaman yang diapit di timur laut dan barat daya oleh tiga lempengan batu dalam, portiko dua lempengan dalam di barat laut, dan aula doa enam sejajar dengan qibla kecuali tiga di tengah, lebih tinggi dari satu yang tegak lurus terhadap mihrab yang menuju ke kubah. {cite:yeomans-islamic-cairo-2006 p.128} Kubah kayu, terbuat dari bahan Benteng Jaffa Salib, menutupi sembilan ubin di atas pilar berat, dan ukurannya kira-kira sebesar kubah [[building/mausoleum-of-imam-al-shafii|mausoleum Shafi'i]]; Youmanz menganggapnya sebagai inovasi yang menciptakan tempat suci mandiri di dalam rumah doa yang meniru masjid Persia dan Anatolia. Hillebrand percaya itu juga merupakan kamar Sultan. {cite:yeomans-islamic-cairo-2006 p.128}
+
+## Fasad dan Pintu
+Penopang yang menonjol memotong dinding tempat serambi dalam berakhir, dengan jendela runcing yang menampilkan jendela plester, dan dekorasi eksterior terbatas pada tiga pintu dan balkon bertingkat. {cite:yeomans-islamic-cairo-2006 p.128} Pintu utama adalah kubus menonjol di tengah dinding barat laut, berkubah pada segitiga bulat, dengan simbal dan lengkungan empuk seperti Gerbang Zuweila dan Gereja Makam Suci, serta dasar menara, yang batang persegi panjangnya tetap ada hingga era 'Deskripsi Mesir.' {cite:yeomans-islamic-cairo-2006 p.128} Pintu samping menampilkan lengkungan beralur dan kubah dengan hiasan pecah yang menyerupai arsitektur Romawi. {cite:yeomans-islamic-cairo-2006 p.128} Youmanz melihat dalam kekakuan bentengnya citra seorang pembangun, dan disebutkan bahwa Napoleon menjadikannya barak untuk tentaranya. {cite:yeomans-islamic-cairo-2006 p.128} {cite:yeomans-islamic-cairo-2006 p.129}

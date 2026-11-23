@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1195"
-label: { ar: "الموطأ 1195 — مالك: أهل مكة يصلون بمنى إذا حجوا ركعتين ركعتين حتى ينصرفوا إلى مكة", en: "Muwatta 1195", es: "Muwatta 1195", fr: "Muwatta 1195", ur: "موطا 1195" }
+label: { ar: "الموطأ 1195 — مالك: أهل مكة يصلون بمنى إذا حجوا ركعتين ركعتين حتى ينصرفوا إلى مكة", en: "Muwatta 1195", es: "Muwatta 1195", fr: "Muwatta 1195", ur: "موطا 1195", tr: "El-Muvatta 1195 — Malik: Mekke halkı, Hac ibadetini yerine getirirken Mina'da ikişer rekat namaz kılarlar ve Mekke'ye dönene kadar bu şekilde devam ederler.", id: "Al-Muwatta 1195 — Malik: Penduduk Mekah melaksanakan salat di Mina, ketika mereka menunaikan ibadah haji, dua rakaat sekaligus, hingga mereka kembali ke Mekah." }
 text: "يُصَلُّونَ بمنىّ إذا حَجُوا رَكْعَتَيْنِ رَكْعَتَينِ"
 summary:
   ar: "يقول مالك في أهل مكة إنهم يصلون بمنى إذا حجوا ركعتين ركعتين، حتى ينصرفوا إلى مكة. {cite:muwatta-maruf-1997 p.538}"
+  tr: "Malik, Mekke halkının Hac ibadetini yerine getirirken Mina'da ikişer rekat namaz kıldığını ve Mekke'ye dönene kadar bu şekilde devam ettiğini söylüyor. {cite:muwatta-maruf-1997 s.538}"
+  id: "Malik mengatakan bahwa penduduk Mekah melaksanakan salat di Mina, dua rakaat sekaligus, ketika mereka kembali ke Mekah. {cite:muwatta-maruf-1997 p.538}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
   - { type: mentions, target: place/mina, sources: [source/muwatta-maruf-1997] }

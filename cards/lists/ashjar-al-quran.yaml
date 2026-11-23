@@ -1,18 +1,110 @@
 slug: ashjar-al-quran
-title: { ar: "أشجار ذكرت في القرآن", en: "Trees mentioned in the Quran", fr: "Les arbres mentionnés dans le Coran" }
+title:
+  ar: أشجار ذكرت في القرآن
+  en: Trees mentioned in the Quran
+  fr: Les arbres mentionnés dans le Coran
+  tr: Kur'an'da bahsedilen ağaçlar
+  id: Pohon-pohon yang disebutkan dalam Al-Qur'an
 lede:
-  ar: "سبعة أشجار ونباتات خلّدها القرآن — من النخلة إلى الزقوم."
-  en: "Seven trees and plants immortalized by the Quran — from the date-palm to the zaqqum."
+  ar: سبعة أشجار ونباتات خلّدها القرآن — من النخلة إلى الزقوم.
+  en: Seven trees and plants immortalized by the Quran — from the date-palm to the zaqqum.
   fr: Sept arbres et plantes évoqués dans le Coran, du palmier au zaqqoum.
+  tr: Yedi ağaç ve bitki — Kur'an'da ölümsüzleştirilmiş — palmiye ağacından Zeqqüm'e kadar.
+  id: Tujuh pohon dan tanaman diabadikan oleh Al-Qur'an — dari pohon palem hingga Zaqqum.
 source_card: d5b0b44c
-status: { review: draft }
+status:
+  review: draft
 quiz: true
-kids: true # opted into the Kids' Wing reading shelf (docs/agents/kids-content.md §4: gating is opt-in)
+kids: true
 items:
-  - { title: { ar: "النخلة", en: "The date-palm", fr: "Le palmier" }, body: { ar: "مثل الكلمة الطيبة؛ أصلها ثابت وفرعها في السماء.", en: "Like the good word: its root firm, its branches in the sky.", fr: "Le verset évoque une bonne parole à travers l’image d’un arbre solidement enraciné aux branches élevées." }, ref: "ق 10" }
-  - { title: { ar: "الزيتونة", en: "The olive", fr: "L’olivier" }, body: { ar: "شجرة مباركة يُقسم بها.", en: "A blessed tree, sworn by.", fr: "Un arbre béni qui apparaît dans un serment coranique." }, ref: "التين 1" }
-  - { title: { ar: "التينة", en: "The fig", fr: "Le figuier" }, body: { ar: "يُقسم بها مع الزيتون.", en: "Sworn by alongside the olive.", fr: "Il apparaît dans un serment aux côtés de l’olivier." }, ref: "التين 1" }
-  - { title: { ar: "السدر", en: "The lote tree", fr: "Le jujubier" }, body: { ar: "سدرة المنتهى عندها جنة المأوى.", en: "The Lote Tree of the Utmost Boundary, near the Garden of Refuge.", fr: "Le récit situe le Jardin du refuge auprès du jujubier de la limite." }, ref: "النجم 14–15" }
-  - { title: { ar: "الطلح", en: "The talh", fr: "Le talh" }, body: { ar: "من نعيم أهل الجنة: طلح منضود.", en: "Among Paradise's bliss: clustered talh.", fr: "Le verset évoque le talh parmi les délices du Paradis." }, ref: "الواقعة 29" }
-  - { title: { ar: "اليقطين", en: "The gourd plant", fr: "La courge" }, body: { ar: "أنبتها الله على يونس بعد نجاته.", en: "God grew it over Yunus after his rescue.", fr: "Le récit évoque une plante que Dieu fait pousser auprès de Jonas après son salut." }, ref: "الصافات 146" }
-  - { title: { ar: "الزقوم", en: "The zaqqum", fr: "Le zaqqoum" }, body: { ar: "شجرة تخرج في أصل الجحيم طعام الأثيم.", en: "A tree growing in Hell's depths, food of the sinful.", fr: "Le verset décrit un arbre de l’Enfer servant de nourriture au pécheur." }, ref: "الدخان 43–44" }
+- title:
+    ar: النخلة
+    en: The date-palm
+    fr: Le palmier
+    tr: Palmiye ağacı
+    id: Pohon palem
+  body:
+    ar: مثل الكلمة الطيبة؛ أصلها ثابت وفرعها في السماء.
+    en: 'Like the good word: its root firm, its branches in the sky.'
+    fr: Le verset évoque une bonne parole à travers l’image d’un arbre solidement enraciné aux branches élevées.
+    tr: İyi kelime gibi; kökeni sabittir ve dalı gökyüzündedir.
+    id: Seperti kata baik; asalnya tetap dan cabangnya ada di langit.
+  ref: ق 10
+- title:
+    ar: الزيتونة
+    en: The olive
+    fr: L’olivier
+    tr: Al-Zaytuna
+    id: Al-Zaytuna
+  body:
+    ar: شجرة مباركة يُقسم بها.
+    en: A blessed tree, sworn by.
+    fr: Un arbre béni qui apparaît dans un serment coranique.
+    tr: Yemin edilecek kutsanmış bir ağaç.
+    id: Pohon yang diberkati untuk dijadikan sumpah.
+  ref: التين 1
+- title:
+    ar: التينة
+    en: The fig
+    fr: Le figuier
+    tr: Al-Tinah
+    id: Al-Tinah
+  body:
+    ar: يُقسم بها مع الزيتون.
+    en: Sworn by alongside the olive.
+    fr: Il apparaît dans un serment aux côtés de l’olivier.
+    tr: Zeytinlerle paylaştır.
+    id: Bagi dengan zaitun.
+  ref: التين 1
+- title:
+    ar: السدر
+    en: The lote tree
+    fr: Le jujubier
+    tr: Sidr
+    id: Sidr
+  body:
+    ar: سدرة المنتهى عندها جنة المأوى.
+    en: The Lote Tree of the Utmost Boundary, near the Garden of Refuge.
+    fr: Le récit situe le Jardin du refuge auprès du jujubier de la limite.
+    tr: Sidrat al-Muntaha sığınak cennetidir.
+    id: Sidrat al-Muntaha adalah surga perlindungan.
+  ref: النجم 14–15
+- title:
+    ar: الطلح
+    en: The talh
+    fr: Le talh
+    tr: Talh
+    id: Talh
+  body:
+    ar: 'من نعيم أهل الجنة: طلح منضود.'
+    en: 'Among Paradise''s bliss: clustered talh.'
+    fr: Le verset évoque le talh parmi les délices du Paradis.
+    tr: 'Cennet halkının mutluluğundan: Talah Mandud.'
+    id: 'Dari kebahagiaan orang-orang Surga: Talah Mandud.'
+  ref: الواقعة 29
+- title:
+    ar: اليقطين
+    en: The gourd plant
+    fr: La courge
+    tr: Kabak
+    id: Labu
+  body:
+    ar: أنبتها الله على يونس بعد نجاته.
+    en: God grew it over Yunus after his rescue.
+    fr: Le récit évoque une plante que Dieu fait pousser auprès de Jonas après son salut.
+    tr: Tanrı, Yunus'un kurtuluşundan sonra onu yüceltti.
+    id: Tuhan membangkitkannya untuk Yunus setelah keselamatannya.
+  ref: الصافات 146
+- title:
+    ar: الزقوم
+    en: The zaqqum
+    fr: Le zaqqoum
+    tr: Zaqqum
+    id: Zaqqum
+  body:
+    ar: شجرة تخرج في أصل الجحيم طعام الأثيم.
+    en: A tree growing in Hell's depths, food of the sinful.
+    fr: Le verset décrit un arbre de l’Enfer servant de nourriture au pécheur.
+    tr: Cehennemin kökünden çıkan ağaç, günahkârların yiyeceğidir.
+    id: Pohon yang tumbuh di akar neraka adalah makanan bagi orang berdosa.
+  ref: الدخان 43–44

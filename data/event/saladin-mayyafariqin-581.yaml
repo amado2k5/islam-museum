@@ -1,7 +1,7 @@
 id: event/saladin-mayyafariqin-581
 class: event
 kind: conquest
-label: { ar: "ملك صلاح الدين ميافارقين", en: "Saladin takes Mayyafariqin", es: "Saladino toma a Mayyafariqin", fr: "Saladin prend Mayyafariqin", ur: "صلاح الدین مایافارقین لیتا ہے۔" }
+label: { ar: "ملك صلاح الدين ميافارقين", en: "Saladin takes Mayyafariqin", es: "Saladino toma a Mayyafariqin", fr: "Saladin prend Mayyafariqin", ur: "صلاح الدین مایافارقین لیتا ہے۔", tr: "Mayyafariqin Kralı Selahaddin", id: "Raja Saladin dari Mayyafariqin" }
 date:
   start: { edtf: "1185~", hijri: "0581", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Saladino tomó Mayyafariqin y sus dependencias de Diyar Bakr después de la tregua de Mosul, extendiendo su reino de Jaziran {cite:kamil-ibn-al-athir p. 134}."
   fr: "Saladin prit Mayyafariqin et ses dépendances de Diyar Bakr après la trêve de Mossoul, étendant ainsi son royaume de Jaziran {cite:kamil-ibn-al-athir p. 134}."
   ur: "صلاح الدین نے موصل کی جنگ بندی کے بعد مایافارقین اور اس کے دیار بکر کے انحصار کو لے لیا، اپنے جزیران کے دائرے میں توسیع کی۔ 134}۔"
+  tr: "Selahaddin, Musul'dan barış içinde ayrıldıktan sonra Diyar Bekr topraklarındaki Mayyafariqin ve çevresini yönetti; böylece krallığı Cezire, Diyar Bekr ve Diyar Rabi'a'da genişledi. {Kaynak: Kamil ibn el-Ashir s. 134}"
+  id: "Saladin memerintah Mayyafariqin dan wilayahnya di tanah Diyar Bakr setelah ia meninggalkan Mosul dengan damai, sehingga kerajaannya meluas di Al-Jazira, Diyar Bakr dan Diyar Rabi’a {cite:kamil-ibn-al-athir p. 134}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/mayyafariqin, sources: [source/kamil-ibn-al-athir] }

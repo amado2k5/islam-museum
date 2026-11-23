@@ -1,0 +1,9 @@
+---
+id: concept/rukuh-fiqh
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/rukuh-fiqh.md}
+---
+## Özet
+Ruku', eğilmenin dilidir ve namazda, başı eğerek sırtı belirli bir şekilde bükülerek dizlerin dizlere ulaşmasını sağlar. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8972} Bu, 'Eğil ve secde' ayetine ve namazını günah edenin hadisine dayanan bir sütundur. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8972} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8973} Çoğunluk huzurun zorunlu olduğunu düşünürken, Hanefi görüşü bunu zorunludur. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8973} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8974} Yeterlilik, dizler dizlere ulaşana kadar bükülmektir ve en tamamlanış sırt ile boynun düz tutulmasıdır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8974} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8975} İbadetçi, çoğunluğun önünde eğilme tekizini söylerken ellerini kaldırır ve eğilirken tekiri söyler. Hanafiler ise ellerini sadece ihram sırasında kaldırdığını söyler. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8976} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8977} Tasbih eğilmek için buyurulur, ancak mezhepler düzeni ve sayısı açısından farklılık gösterir ve eğilirken okumak hoş karşılanmaz. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8978} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8979} İmamın, takipçiler için zor olduğunda içe geleni beklerken eğilmeyi uzatması hoş karşılanmaz, Allah'tan başka kimsenin önünde eğilmek de hoş karşılanmaz, hatta niyeti saygı için olsa bile. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8980} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8981}

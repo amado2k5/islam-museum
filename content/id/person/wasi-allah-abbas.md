@@ -1,0 +1,18 @@
+---
+id: person/wasi-allah-abbas
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/wasi-allah-abbas.md}
+---
+## Ringkasan
+Wasiullah bin Muhammad Abbas adalah seorang ulama dan editor hadits kontemporer, yang dijelaskan pada halaman judul edisi kedua edisi beliau tentang verifikasi [[work/fadail-al-sahaba-ahmad|Kebajikan Para Sahabat]] sebagai profesor asosiasi di Universitas um Al-Qura di Mekah {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.4}.
+
+## Kesadarannya akan Kebajikan Para Sahabat
+Wasiullah Abbas menjadikan verifikasi [[person/ahmad-ibn-hanbal|buku Ahmad ibn Hanbal]] sebagai subjek gelar doktornya {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.8}. Buku itu dicetak oleh Universitas um Al-Qura di Pusat Penelitian Ilmiah pada tahun 1403 H. Ketika salinan habis, ia merevisi dan memperbaikinya lalu mengirimkannya ke rumah Ibn al-Jawzi. Ia menulis pengantar edisi kedua di Mekah pada 25 Rabi' al-Thani 1420 H {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.5-6}. Dalam pengantarnya, ia berterima kasih kepada gurunya Sayyid Ahmad Saqr atas nasihatnya meskipun sakit, Dr. Muhammad Abu Shahba atas bimbingannya, dan dua mahasiswa di Perguruan Tinggi Syariah di Mekah yang membantunya meninjau teks dan memperbaiki edisi cetak {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.9}.
+
+## Metodologi
+Disebutkan bahwa ia menyalin manuskrip unik yang ditulis tangan, membandingkannya, dan memberi nomor haditsnya, dan tugas tersulitnya adalah menerjemahkan setiap narator secara rinci, tidak terbatas pada 'Taqrib' atau 'Al-Kashif' {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.44}. Ia menjelaskan hal ini dengan menemukan narator yang menurut Ibn Hajar dalam 'Al-Taqrib' diterima, disembunyikan, atau tidak diketahui, kemudian ditemukan dalam rantai transmisi otentik 'Al-Jarh wa al-Ta'dil' atau 'Tarikh Baghdad', sehingga keputusan hadis berubah dengan mengubahnya menjadi narator {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.45}. Ia menulis biografi menggunakan metode ini untuk lebih dari 1.762 narator, menilai rantai tersebut sebagai otentik, baik, atau lemah, dan menegaskan putusan imam-imam sebelumnya dan memperjelas apa yang tampak bertentangan dengannya bersama dengan perjuangannya {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.45}. Ia mengambil hadits beserta bukti pendukung dan tindak lanjutnya, dan berusaha untuk tidak mengutip jalan apa pun kecuali bahwa ia telah menilai, membedakan antara tempat dan hal-hal aneh, serta membuat indeks {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.45-46}.
+
+## Pandangannya adalah yang utama
+Editor memilih definisi Sahabat menurut Ibn Hajar sebagai definisi yang paling diterima {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.11}. Ia menyatakan dalam bab pertama bahwa Ahl al-Sunnah wa al-Jama'ah secara bulat setuju akan keadilan Para Sahabat, mengutip teks Al-Khatib Al-Baghdadi dan Ibn Kathir {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.18-19}. Dalam pengantar yang sama, ia sangat mengkritik mereka yang mengkritik para Sahabat dan mengutip dari sumber Syiah narasi murtad kecuali tiga orang lain yang menanggapinya {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.8} {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.19}. Ia menyebutkan dalam biografi Ahmad bahwa ia mulai mengedit "Kitab al-'Illal wa Ma'rifat al-Rijal" oleh Ahmad, lalu menambahkan dalam edisi kedua bahwa itu telah diverifikasi dan dicetak {cite:fadail-sahaba-ahmad-wasi-allah-1999 p.29}.

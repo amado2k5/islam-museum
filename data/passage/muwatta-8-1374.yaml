@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1374"
-label: { ar: "الموطأ 1374 — يحيى: مالك يقول من قال علي نذر ولم يسم شيئا، إن عليه كفارة يمين", en: "Muwatta 1374", es: "Muwatta 1374", fr: "Muwatta 1374", ur: "موطا 1374" }
+label: { ar: "الموطأ 1374 — يحيى: مالك يقول من قال علي نذر ولم يسم شيئا، إن عليه كفارة يمين", en: "Muwatta 1374", es: "Muwatta 1374", fr: "Muwatta 1374", ur: "موطا 1374", tr: "El-Muvatta 1374 — Yahya: Malik şöyle der: “Kim, ‘Ben bir adak adadım’ der de, hiçbir şey belirtmezse, yeminini bozduğu için kefaret ödemek zorundadır.”", id: "Al-Muwatta 1374 — Yahya: Malik berkata, “Barang siapa yang mengucapkan, ‘Aku telah bernazar,’ tanpa menyebutkan hal tertentu, maka ia wajib membayar tebusan karena melanggar sumpah.”" }
 summary:
   ar: "يقول يحيى سمعت مالكا يقول من قال علي نذر، ولم يسم شيئا، إن عليه كفارة يمين. {cite:muwatta-maruf-1997 p.614}"
+  tr: "Yahya şöyle dedi: Malik'in şöyle dediğini duydum: \"Kim 'Yemin ettim' der de, hiçbir şey belirtmezse, yeminini bozduğu için kefaret ödemek zorundadır.\" {cite:muwatta-maruf-1997 s.614}"
+  id: "Yahya berkata: Aku mendengar Malik berkata: Barangsiapa berkata, \"Aku telah bernazar,\" tanpa menyebutkan apa pun, maka ia harus membayar tebusan karena melanggar sumpah. {cite:muwatta-maruf-1997 p.614}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-08-nudhur }
   - { type: basis_for, target: concept/kaffara, sources: [source/muwatta-maruf-1997] }

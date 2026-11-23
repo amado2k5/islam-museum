@@ -1,0 +1,27 @@
+---
+id: person/badruddin-tyabji
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/badruddin-tyabji.md}
+---
+## Özet
+Badruddin Tayebji (10 Ekim 1844 – 19 Ağustos 1906), Britanya Rajı döneminde Hintli bir avukat, aktivist ve siyasetçiydi. Bombay Yüksek Mahkemesi'nde avukatlık yapan ilk Hintli, Hindistan Ulusal Mahkemesi'nin üçüncü başkanı, ilk Müslüman başkanı ve kurucularından biriydi. {cite:wikipedia-badruddin-tyabji-en} Tayebji, 1874 yılında Bombay'da Anjman İslam Koleji'ni kurdu. Başlangıçta tek bir okul olarak başladı ve bugün okul öncesinden lisansüstü eğitime kadar seksenden fazla kurumu kapsamaktadır. Taibji ailesinin en önde gelen üyesi olarak kabul edilir. {cite:wikipedia-badruddin-tyabji-en} İngilizce makalede ölüm tarihi farklılık gösterir: giriş ve bilgi kartında 19 Ağustos 1906 geçerken, ölüm ilanı bölümünde 26 Ağustos 1906 belirtilmiştir. Kurumun verilerinde farklılıklar gözlemlenmiş ve tanıtım tarihi takip edilmiştir. {cite:wikipedia-badruddin-tyabji-en}
+
+## Erken yaşamı ve eğitimi
+Tayebji, 10 Ekim 1844'te Bombay'da, Molla Tayyib Ali Bhai Mian'ın oğlu olarak doğdu. Süleymani Bohra topluluğuna mensuptu ve Kampai'den göç eden eski bir Arap ailesindendi. Bu aile kökeni bir aile kökenidir ve Badruddin'in kendi doktrininin kanıtı değildir. Bu nedenle, mezhebi kurumun verilerinde bilinmemektedir. {cite:wikipedia-badruddin-tyabji-en} Babası, yedi oğlunun tamamını Hint Müslümanları tarafından İngilizce eğitiminin nefret edildiği bir dönemde daha ileri eğitim için Avrupa'ya gönderdi. Ağabeyi Qamaruddin, İngiltere ve Galler'de kabul edilen ilk Hintli avukattı, bu yüzden on beş yaşındaki Badruddin Baro'ya katılmak için ilham aldı. {cite:wikipedia-badruddin-tyabji-en} Tayebji, Dada Makhra Okulu'nda Urduca ve Farsça çalıştı, ardından Bombay'daki Elphinstone Enstitüsü'ne katıldı, göz tedavisi için Fransa'ya gitti ve 1860'ta Londra'daki Newbury High Park College'a, ardından 1863'te University College London ve Middle Temple'a katıldı. 1864 sonlarında görme yetisi zayıf nedeniyle Bombay'a döndü, ardından eğitimine devam etti ve Nisan 1867'de avukatlığa kabul edildi. {cite:wikipedia-badruddin-tyabji-en}
+
+## Hukuk ve Belediye Kariyeri
+Tayebji, Aralık 1867'de Bombay'a döndü ve Bombay Yüksek Mahkemesi'nde ilk Hintli avukat oldu. {cite:wikipedia-badruddin-tyabji-en} 1873'te Bombay Belediye Meclisi'ne atandı, 1875-1905 yılları arasında Bombay Üniversitesi Konseyi üyesiydi, 1882'de Bombay Yasama Meclisi'ne atandı ve 1886'da sağlık sorunları nedeniyle istifa etti. {cite:wikipedia-badruddin-tyabji-en} Firozshah Mehta ve Kashinath Trimbak Telang ile birlikte, 1885'te Bombay Başkanlık Meclisi'nin kurulmasında başlıca yetkililerden biriydi; bu meclis Hindistan çıkarlarını savundu ve 1885 sonlarında Bombay'da Hindistan Ulusal Kongresi'nin ilk toplantısına ev sahipliği yaptı. {cite:wikipedia-badruddin-tyabji-en}
+
+## Hindistan Ulusal Kongresi
+Badruddin ve ağabeyi Qamaruddin, Hindistan Ulusal Kongresi'nin kurulmasında derin rol oynadılar ve Taybaji, Hindu ve Müslümanların desteğini kazanarak ulusal etkisini genişletmek için çalıştı. 1887-1888 yılları arasında konferansın başkanlığı sırasında Müslüman topluluğu birleştirmeye odaklandı. {cite:wikipedia-badruddin-tyabji-en} Taybaji, şehirdeki Müslümanlar arasında sosyal iletişimi teşvik etmek amacıyla Bombay'da İslam Kulübü ve İslam Spor Salonu'nun kurulmasında rol oynadı. {cite:wikipedia-badruddin-tyabji-en} Müslümanların konferansı boykot etme çağrılarına yanıt olarak, Taybaji tüm mezhepçi ve mezhepçi önyargıları reddettiğini açıkladı ve 1888'deki Allahabad Konferansı'nda, Hindu veya Müslüman heyetlerin grup olarak gündeme getirdiği hiçbir konunun tartışılmaması gerektiğini belirten on üçüncü kararı sundu. {cite:wikipedia-badruddin-tyabji-en} Konferansın Müslüman liderler arasında en önde gelen eleştirmenlerinden biri olan Syed Ahmad Khan, Taibji'ye açık bir mektup yazarak konferansın temel ilkelerini Müslüman çıkarlarına aykırı olmayan ilkeleri netleştirmeye çağırdı. {cite:wikipedia-badruddin-tyabji-en} 1887'de Madras Konferansı'na yaptığı başkanlık konuşmasında, Taibji, Bombay'daki Anjuman Islam temsilcisi olarak, Hindistan'ın çeşitli topluluklarının—Hindular, Müslümanlar, Parsiler ve Hristiyanlar—koşullarında, herhangi bir mezhep liderinin reform ve ortak kamu hakları peşinde başkalarından uzak durmalarını gerektiren bir şey görmediğini söyledi. {cite:wikipedia-badruddin-tyabji-en}
+
+## Yargı ve Sosyal Hizmet
+Haziran 1895'te Taybaji, Bombay Yüksek Mahkemesi'nde yargıç oldu; bu göreve terfi eden ilk Müslüman ve üçüncü Hintli oldu; makaleye göre 1902'de ise bu mahkemenin yargısına başkanlık eden ilk Hintli oldu. {cite:wikipedia-badruddin-tyabji-en} Taybaji, kadınların özgürleşmesinde aktifti ve Zinana sistemini zayıflatmak için çalıştı; tüm kızlarını Bombay'da eğitim için gönderdi ve 1904'te ikisi İngiltere'nin Hazelmere kentindeki yatılı okullara gönderildi. {cite:wikipedia-badruddin-tyabji-en}
+
+## Ölümü ve Ailesi
+Tayebji, 1906'da Londra'da bir tatil sırasında ani bir kalp krizi sonucu hayatını kaybetti. {cite:wikipedia-badruddin-tyabji-en} Rathat Naf ile evliydi ve on sekiz çocukları oldu; Abbas Tayebji onun yeğeniydi. {cite:wikipedia-badruddin-tyabji-en}
+
+## Kaynaklar
+- Yukarıda belirtilen kaynaklar `data/source/`.

@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1895"
-label: { ar: "مسلم 1895 — من جهز غازياً فقد غزا", en: "Muslim 1895 — Whoever equips a fighter has fought", es: "Musulmán 1895 — Quien equipa a un combatiente ha luchado", fr: "Muslim 1895 — Celui qui équipe un combattant a combattu", ur: "مسلم 1895 - جس نے جنگجو کو لیس کیا اس نے جنگ کی۔" }
+label: { ar: "مسلم 1895 — من جهز غازياً فقد غزا", en: "Muslim 1895 — Whoever equips a fighter has fought", es: "Musulmán 1895 — Quien equipa a un combatiente ha luchado", fr: "Muslim 1895 — Celui qui équipe un combattant a combattu", ur: "مسلم 1895 - جس نے جنگجو کو لیس کیا اس نے جنگ کی۔", tr: "Müslim 1895 — Bir savaşçıyı teçhizatlandıran, kendisi de savaşa girmiş olur.", id: "Muslim 1895 — Barangsiapa mempersenjatai seorang prajurit, ia sendiri telah berperang." }
 text: "قال رسول الله: من جهز غازياً في سبيل الله فقد غزا، ومن خلفه في أهله بخير فقد غزا"
 summary:
   ar: "رواية زيد بن خالد الجهني في باب أجر من جهز غازياً أو خلفه بخير من كتاب الإمارة في صحيح مسلم؛ تجهيز الغازي وخلفان أهله بخير كلاهما عند أجر الغزو."
+  tr: "Sahih Müslim'deki Liderlik Kitabı'nda, bir savaşçıyı teçhizatlandıran veya yokluğunda ailesine bakan kimsenin sevabı bölümünde Zeyd bin Halid el-Cuhani'nin rivayetine göre; bir savaşçıyı teçhizatlandırmak ve yokluğunda ailesine bakmak, savaş bağlamında sevap kazandıran davranışlardır."
+  id: "Riwayat Zaid bin Khalid Al-Juhani dalam bab tentang pahala orang yang memperlengkapi seorang prajurit atau mengurus keluarganya saat ia tidak ada, dari Kitab Kepemimpinan dalam Sahih Muslim; memperlengkapi seorang prajurit dan mengurus keluarganya saat ia tidak ada sama-sama mendapat pahala dalam konteks peperangan."
 relations:
   - { type: part_of, target: passage/muslim-kitab-33 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

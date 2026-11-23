@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2592"
-label: { ar: "مسلم 2592 — من يحرم الرفق يحرم الخير", en: "Muslim 2592 — Whoever is deprived of gentleness is deprived of good", es: "Muslim 2592 — Quien está privado de gentileza está privado de buena voluntad", fr: "Muslim 2592 — Quiconque est privé de douceur est privé du bien", ur: "مسلم 2592 - جو نرمی سے محروم رہا وہ بھلائی سے محروم رہا۔" }
+label: { ar: "مسلم 2592 — من يحرم الرفق يحرم الخير", en: "Muslim 2592 — Whoever is deprived of gentleness is deprived of good", es: "Muslim 2592 — Quien está privado de gentileza está privado de buena voluntad", fr: "Muslim 2592 — Quiconque est privé de douceur est privé du bien", ur: "مسلم 2592 - جو نرمی سے محروم رہا وہ بھلائی سے محروم رہا۔", tr: "Müslim 2592 — İyilikten mahrum olan, iyilikten mahrumdur.", id: "Muslim 2592 — Barangsiapa yang tidak mendapat kebaikan, maka ia juga tidak mendapat kemurahan hati." }
 text: "قال رسول الله: «من يحرم الرفق يحرم الخير»"
 summary:
   ar: "رواية جرير بن عبد الله في كتاب البر من صحيح مسلم؛ خبر جامع يجعل حرمان الرفق حرماناً للخير كله."
+  tr: "Sahih Müslim'de yer alan Salihlik Kitabı'ndaki Cerir bin Abdullah'ın rivayeti; iyilikten mahrum kalmayı her türlü iyilikten mahrum kalma olarak nitelendiren kapsamlı bir rivayettir."
+  id: "Riwayat Jarir bin Abdullah dalam Kitab Kebajikan dari Sahih Muslim; sebuah laporan komprehensif yang menjadikan hilangnya kebaikan sebagai hilangnya segala kebaikan."
 relations:
   - { type: part_of, target: passage/muslim-kitab-45 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

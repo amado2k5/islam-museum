@@ -1,0 +1,12 @@
+---
+id: place/dumbawand
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/place/dumbawand.md}
+---
+## Ringkasan
+Gunung Dunbawand adalah gunung terbesar di Tabaristan. Al-Baladhuri menyebutkan bahwa Sa'id ibn al-As menaklukkannya bersama dataran Tabaristan dan Al-Ruwayan selama kampanyenya pada tahun 29 H. {cite:futuh-buldan-maarif-1407}
+
+## Dalam kamus negara Yaqut
+Yaqut mengoreksi nama itu dengan damma pada dal, sukoon pada biarawati, fatha pada waw, sukoon kedua pada biarawati yang diakhiri dengan dal, dan secara linguistik dijadikan 'Dabavand,' dengan mengatakan bahwa itu adalah gunung dekat Rayy, menyebutkan panjang dan lebarnya di wilayah keempat. {cite:mujam-al-buldan-sader-1995 2 p.475} Dilaporkan dari Ibn al-Kalbi bahwa nama itu berasal dari kisah Armail, yang digambarkan berasal dari Nabati Zab dan berada di dapur Zahhak; ketika Afridun merebut al-Dahhak dan memenjarakannya di Dahhak, ia berkata kepada Arma'il 'Dunbawand,' artinya aku menemukan ekor-ekor itu dan menyelamatkannya dariku. {cite:mujam-al-buldan-sader-1995 2 p.475} Kemudian deskripsi gunung ini disampaikan dari surat penyair Mas'ar ibn Muhallal: sebuah gunung tinggi dan menjulang yang saljunya tidak pernah meninggalkan puncaknya, baik di musim panas maupun musim dingin, dikenal sebagai Gunung Al-Bayurasaf. Siapa pun yang melihatnya dari daerah irigasi melihatnya seolah-olah berada tiga atau dua farsakh jauhnya, dengan mata air belerang di puncaknya yang mengeluarkan asap, dan di dekatnya terdapat mineral. Dikaitkan dengan rakyat biasa bahwa Sulayman ibn Dawud memenjarakan sebuah marda di sana, dan Ifredun memenjarakan Bayurasaf. {cite:mujam-al-buldan-sader-1995 2 p.476} Cerita ini juga diceritakan oleh Ali ibn Zayn, juru tulis Al-Maziyar, tentang sebuah delegasi dari Tabaristan yang mendaki puncaknya dalam lima hari, menemukannya sekitar seratus jerib, dan melihat tujuh puluh ceruk dari mana asap belerang keluar. {cite:mujam-al-buldan-sader-1995 2 p.476} Yaqut menyebutkan bahwa Dunband adalah salah satu penaklukan Sa'id ibn al-Asi pada masa Uthman, menaklukkannya bersama Ruwayyan pada tahun 29 atau 30 H. {cite:mujam-al-buldan-sader-1995 2 p.477}

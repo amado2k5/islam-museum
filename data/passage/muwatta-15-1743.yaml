@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani, person/abdullah-ibn-umar]
 work: work/muwatta-malik
 ref: "1743"
-label: { ar: "الموطأ 1743 — نافع عن ابن عمر: كان لا يعزل، وكان يكره العزل", en: "Muwatta 1743", es: "Muwatta 1743", fr: "Muwatta 1743", ur: "موطا 1743" }
+label: { ar: "الموطأ 1743 — نافع عن ابن عمر: كان لا يعزل، وكان يكره العزل", en: "Muwatta 1743", es: "Muwatta 1743", fr: "Muwatta 1743", ur: "موطا 1743", tr: "El-Muvatta 1743 — İbn Ömer'den rivayet edildiğine göre Nafi': Cinsel ilişkiyi yarıda kesme uygulamasını yapmazdı ve bundan hoşlanmazdı.", id: "Al-Muwatta 1743 — Diriwayatkan oleh Nafi’ dari Ibnu Umar: Dia tidak melakukan coitus interruptus, dan dia tidak menyukai coitus interruptus." }
 summary:
   ar: "يروي مالك عن نافع عن عبد الله بن عمر أنه كان لا يعزل، وكان يكره العزل. {cite:muwatta-maruf-1997 p.111}"
+  tr: "Malik, Nafi'den, o da Abdullah ibn Umar'dan rivayet ettiğine göre, cinsel ilişkiyi kesme uygulamasını yapmadığını ve bundan hoşlanmadığını söyler. {cite:muwatta-maruf-1997 s.111}"
+  id: "Malik meriwayatkan dari Nafi’ dari Abdullah ibn Umar bahwa ia tidak melakukan coitus interruptus, dan ia tidak menyukainya. {cite:muwatta-maruf-1997 p.111}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

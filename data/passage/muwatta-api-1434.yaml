@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1434"
-label: { ar: "موطأ مالك 1434 — الأب والأبوة", en: "Muwatta Malik 1434 — the father and fatherhood", ur: "موطأ مالک 1434 — باپ اور والدیت", es: "Muwatta Malik 1434 — El padre y la paternidad", fr: "Muwatta Malik 1434 — le père et la paternité" }
+label: { ar: "موطأ مالك 1434 — الأب والأبوة", en: "Muwatta Malik 1434 — the father and fatherhood", ur: "موطأ مالک 1434 — باپ اور والدیت", es: "Muwatta Malik 1434 — El padre y la paternidad", fr: "Muwatta Malik 1434 — le père et la paternité", tr: "Muwatta Malik 1434 — Baba ve Babalık", id: "Muwatta Malik 1434 — Sang Ayah dan Peran Ayah" }
 text: "وَحَدَّثَنِي مَالِكٌ، عَنْ عَمْرِو بْنِ يَحْيَى الْمَازِنِيِّ، عَنْ أَبِيهِ، أَنَّ الضَّحَّاكَ بْنَ خَلِيفَةَ، سَاقَ خَلِيجًا لَهُ مِنَ الْعُرَيْضِ فَأَرَادَ أَنْ يَمُرَّ بِهِ فِي أَرْضِ مُحَمَّدِ بْنِ مَسْلَمَةَ فَأَبَى مُحَمَّدٌ. فَقَالَ لَهُ الضَّحَّاكُ لِمَ تَمْنَعُنِي وَهُوَ لَكَ مَنْفَعَةٌ تَشْرَبُ بِهِ أَوَّلاً وَآخِرًا وَلاَ يَضُرُّكَ. فَأَبَى مُحَمَّدٌ فَكَلَّمَ فِيهِ الضَّحَّاكُ عُمَرَ بْنَ الْخَطَّابِ فَدَعَا عُمَرُ بْنُ الْخَطَّابِ …"
 summary:
   ar: "حديث في موطأ مالك، رقم 1434، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 1434، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Muwatta Malik, n.° 1434 (Sentencias), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Muwatta Malik, n° 1434 (Jugements), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Malik'in Muwatta'sında yer alan 1434 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 1434, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits ini dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1434 (book 36 hadith 36); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

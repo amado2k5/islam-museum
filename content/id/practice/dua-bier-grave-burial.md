@@ -1,0 +1,12 @@
+---
+id: practice/dua-bier-grave-burial
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/dua-bier-grave-burial.md}
+---
+## Ringkasan
+Apa yang dikumpulkan al-Nawawi mengenai apa yang dikatakan dan dilakukan saat berjalan bersama pemakaman, melewatinya, membawa almarhum ke dalam kubur, setelah pemakaman, dan mengajarkannya. {cite:al-adhkar-nawawi-arnaut-1994 p. 160}
+
+## Apa yang dikumpulkan al-Nawawi dalam 'Al-Adhkar'
+Dalam bab tentang apa yang dikatakan seseorang saat pemakaman, menurut al-Nawawi disarankan untuk terlibat dalam mengenang dan merenung nasib almarhum. Ia percaya bahwa pendekatan yang benar adalah yang digunakan para pendahulu untuk diam dan tidak meninggikan suara dengan pembacaan atau peringatan {cite:al-adhkar-nawawi-arnaut-1994 p. 160}. Ia juga mengatakan bahwa melafalkan saat pemakaman berlangsung lama secara bulat dilarang oleh para ulama {cite:al-adhkar-nawawi-arnaut-1994 p. 160}. Siapa pun yang melewati pemakaman disarankan untuk berkata, "Kemuliaan bagi Yang Hidup Selama, yang tidak mati" {cite:al-adhkar-nawawi-arnaut-1994 p. 161}. Mengenai pemakaman almarhum, diceritakan dalam Abu Dawood, al-Tirmidhi, dan al-Bayhaqi dari Ibn Umar bahwa [[person/muhammad|Nabi]] Ia biasa berkata, 'Atas nama Allah dan atas Sunnah Rasulullah.' Al-Tirmidhi juga melaporkan hadits yang baik {cite:al-adhkar-nawawi-arnaut-1994 p. 161}. Setelah pemakaman, adalah Sunnah untuk memeras tiga orang Het dari kepala tubuh, dan disarankan duduk bersamanya sebanyak saat menyembelih akar dan membagi dagingnya {cite:al-adhkar-nawawi-arnaut-1994 p. 161} {cite:al-adhkar-nawawi-arnaut-1994 p. 162}. Dinawayatkan dalam Abu Dawood dan Al-Bayhaqi dengan rantai baik dari Uthman bahwa ketika Nabi selesai mengubur, ia akan berdiri dan berkata: 'Mohon ampun untuk saudaramu dan mohon keteguhannya, karena sekarang ia sedang diminta' {cite:al-adhkar-nawawi-arnaut-1994 p. 162}. Kemudian disebutkan bahwa almarhum diajarkan setelah pemakaman, bahwa sekelompok temannya merekomendasikannya, dan bahwa anak di bawah umur tidak diajarkan {cite:al-adhkar-nawawi-arnaut-1994 p. 162} {cite:al-adhkar-nawawi-arnaut-1994 p. 163}.

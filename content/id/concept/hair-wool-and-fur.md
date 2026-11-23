@@ -1,0 +1,57 @@
+---
+id: concept/hair-wool-and-fur
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/hair-wool-and-fur.md}
+---
+## Aturan tentang rambut manusia
+Rambut manusia itu murni baik hidup maupun mati, terhubung atau terpisah. Para ahli hukum mengutip kemurniannya sebagai bukti bahwa Nabi mempercayakan Abu Talhah dengan rambutnya untuk dibagikan kepada umat manusia. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10074}
+Mereka sepakat bahwa tidak diperbolehkan memanfaatkan rambut manusia untuk dijual atau digunakan, karena rambut manusia dihormati, dan tidak diperbolehkan bagian mana pun dari rambut tersebut menjadi terdegradasi atau vulgar. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10074}
+
+## Rambut hewan mati
+Hanafi, Maliki, dan Hanbal berpendapat bahwa rambut orang yang telah meninggal dianggap murni jika murni selama hidup, karena kematian tidak menodai apa yang tidak dirasakan atau disakiti. Mereka mengutip kata-kata Allah dalam Surah An-Nahl (80) mengenai rasa syukur kepada wol, rambut, dan puisi. Syafi'i menganggap rambut itu tidak murni kecuali untuk apa yang membersihkan kulitnya dengan penyamakan, dan mereka mendukung makna umum Al-Ma'idah (3) mengenai larangan bangkai. Umat Malik secara eksklusif menyatakan kemurnian bulu babi jika dipotong dan tidak dicabut. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10074} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10075}
+
+## Kepala orang mati dan tubuhnya
+- Rambut di kepala orang mati: Hanafi dan Hanbal berpendapat bahwa mencukur atau menyisirnya tidak diperbolehkan, karena itu bukan ritual maupun hiasan. Syafi'i di Al-Mukhtar dan Malik mengizinkan mencukur jika tidak disukai, dan Shafi'i membatasinya apakah adat bagi almarhum untuk mencukur. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10075}
+- Rambut di kepala wanita yang telah meninggal: Mayoritas ahli hukum merekomendasikan agar kepangnya dibuat dengan tiga kepang yang menggantung di belakangnya, dan menurut mazhab Hanafi, kepang itu harus diletakkan di dadanya, berdasarkan apa yang diceritakan um Atiyyah dalam puisi putri Nabi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10076}
+- Bulu tubuh lainnya: Mali dan Shafi'i yang tidak disukai dalam Al-Mukhtar mencukur apa yang tidak dilarang selama hidup. Maliki, Hanbali, dan Shafi'i mengatakan bahwa setiap rambut yang dibungkus dengan almarhum dalam kain kafan dan dikubur. Menurut para Shafi'i, rambut itu dikubur di tanah di luar makam. Hanbalis melarang mencukur jenggot dan bagian kemaluan almarhum karena menyentuh bagian pribadi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10076}
+
+## Mengelap rambut saat wudor
+Umat Malik dan Hanbal berpendapat bahwa mengelap semua rambut di kepala adalah wajib selama wudhu, sementara Syafi'i cukup untuk mengelap apa yang disebut mengelap, meskipun jarang terjadi. Hanafi mewajibkan penggelapan sebesar dahi, yaitu seperempat kepala, berdasarkan hadits Al-Mughira ibn Shu'bah tentang Nabi yang mengusap dahinya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10077}
+
+## Membatalkan wudhu dengan menyentuh rambut
+Syafi'i, menurut pandangan paling otentik dan Hanbali, berpendapat bahwa wudhu tidak dibatalkan dengan menyentuh rambut, karena kenikmatan biasanya hanya terjadi ketika kulit menyentuh, dan disarankan untuk melakukan wudhu dari rambut tersebut. Menurut Syafi'i, wudhu pria dibatalkan dengan menyentuh rambut wanita, karena rambut memegang kendali atas tubuh dalam perbolehan pernikahan dan kewajiban melakukan ghusl dalam keadaan kotoran besar. Maliki mewajibkan pembatalan dengan menyentuh rambut bagi seseorang yang menikmatinya jika ia bermaksud menyenangkan, dan itu tidak dibatalkan oleh penghalang ringan atau tebal. Hanafi sama sekali tidak menganggap pembatalan dengan sentuhan kecuali dilakukan dalam keadaan tidak suci. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10077} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10078}
+
+## Mencuci rambut kepala dari kotoran ritual besar
+Para ahli hukum sepakat tentang kewajiban untuk mengalirkan air ke bagian luar dan dalam rambut kepala bagi pria dan wanita, baik yang berkelanjutan maupun tidak, berdasarkan hadits bahwa di bawah setiap rambut terdapat kemurnian ritual besar, dan hadis Ali mengenai seseorang yang meninggalkan noda rambut dalam keadaan kotoran besar. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10078}
+
+## Pembatalan kepang wanita dalam ghusl
+Mayoritas aliran Hanafi, Maliki, dan Shafi'i, dan ini adalah pandangan beberapa Hanbali, berpendapat bahwa seorang wanita tidak wajib membuka ikatan kepang jika air mencapai akar rambutnya tanpa memutuskannya; jika hanya sampai dengan menarik, maka itu wajib. Hal yang sama berlaku untuk mencuci kotoran berat, menstruasi, dan pendarahan pasca melahirkan. Mereka mengutip hadits um Salama mengenai dia yang mengatakan bahwa dia mengencangkan rambutnya, yang mengatakan cukup menggosok tiga helai rambut hitti ke kepalanya lalu air harus menuangkan ke atasnya. Mayoritas menafsirkan hadits sebagai air yang sampai ke akar rambut. Para Hanbal berpendapat bahwa seorang wanita harus mematahkan rambutnya selama menstruasi dan perdarahan pasca melahirkan, dan tidak wajib mencuci rambutnya jika dia menceritakan akar rambutnya dan rambutnya tidak diikat dengan banyak benang. Mereka mengutip hadits Aisha mengenai perintah untuk mematahkan dan menyisir selama menstruasi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10078} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10079}
+
+## Mencukur rambut bayi baru lahir
+Mayoritas Maliki, Shafi'i, dan Hanbal memegang rekomendasi untuk mencukur kepala bayi baru lahir pada hari ketujuh dan memberikan amal dengan emas atau perak menurut Maliki dan Shafi'i, serta perak menurut Hanbali, setelah membantai 'aqiqah, berdasarkan hadits tentang Fatimah mencukur rambut Hasan. Hanafi berpendapat bahwa mencukur diperbolehkan karena 'aqiqah diperbolehkan menurut mereka, dan menurut mereka dianggap tidak disukai karena dibatalkan oleh pengorbanan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10079} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10080}
+
+## Melihat rambut wanita asing
+Para ahli hukum sepakat bahwa tidak diperbolehkan melihat rambut wanita non-mahram, dan tidak diperbolehkan baginya untuk mengungkapkannya kepada non-mahram atas namanya. Menurut Hanafi dan Shafi'i, tidak diperbolehkan melihatnya meskipun terpisah. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10080}
+
+## Menjual Rambut dan Wol
+Mayoritas Hanafi, Shafi'i, dan Hanbal berpendapat bahwa menjual wol di punggung domba tidak diperbolehkan, karena hadits Ibn Abbas melarang menjual buah sebelum wanginya dan wol di punggungnya. Mereka berargumen bahwa wol melekat pada hewan dan tidak dijual sebagai bagian-bagiannya, karena tumbuh secara bertahap dan bercampur dengan yang lain. Keluarga Malik mengizinkan penjualannya dengan cara mencukur untuk pemeriksaan, berdasarkan berat, dan dengan melihat domba, asalkan pencukuran tidak menunda lebih dari setengah bulan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10079} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10080}
+Maliki, Shafi'i, dan Hanbal mengizinkan wol dikenakan dengan berat, bukan dengan potong. Perlu dijelaskan jenis, asal-usulnya, laki-laki atau perempuan, warnanya, waktu di musim gugur atau musim semi, panjang dan pendeknya, beratnya, dan bahwa bulu harus bebas dari bulu dan duri. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10080}
+
+## Sambungan Rambut
+Dilarang menggabungkan rambut wanita dengan rambut yang tidak murni atau rambut manusia, baik yang sudah menikah maupun tidak, dengan atau tanpa izin suami. Hanafi menganggap rambut ini tidak disukai. Mereka mengutip larangan mengutuk orang yang menghubungkan dan menghubungkan yang menghubungkan dan yang menghubungkannya, dan alasan larangan itu adalah penipuan dan mengubah ciptaan Tuhan, serta larangan mendapatkan manfaat dari rambut manusia karena martabatnya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10081}
+Adapun menghubungkan rambut murni non-manusia, Syafi'i memegang pandangan yang benar bahwa itu dilarang jika tidak menikah, sementara pendapat kedua tidak menyukainya. Dalam pernikahan, ada tiga alasan, yang paling benar adalah diperbolehkannya dengan izin suami. Hanafi mengizinkan rambut non-manusia selama wanita memperpanjang rambutnya, sementara Malili melarang sambungan terus-menerus, dan Hanbal melarangnya dengan rambut atau lainnya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10081}
+
+## Rambut Mengeriting dalam Doa
+Para ahli hukum sepakat tentang ketidaksukaan mengikat rambut saat shalat, dan 'iqn' adalah mengencangkan kepang di sekitar kepala atau mengumpulkan dan mengikatnya di belakang, yang tidak disukai sebagai ketidaksukaan untuk memurnikannya. Jika seseorang berdoa dengan cara ini, doanya sah. Ibn al-Mundhir menceritakan dari Al-Hasan al-Basri tentang kewajiban untuk mengulangnya. Mereka mengutip hadits Ibn Abbas mengenai Abdullah ibn al-Harith, yang memerintahkan sujud pada tujuh bagian terbesar dan tidak menutupi pakaian dan rambut. Malik mengatakan larangan ini terbatas bagi mereka yang melakukan ini untuk shalat. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10081} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10082}
+
+## Perawatan Rambut
+Disarankan untuk melakukan rajil puisi, berdasarkan hadits Abu Huraira tentang penghormatan puisi, dan karena Nabi sangat menyukai tarjil. Disarankan untuk melakukan Tayyam di dalamnya, dan menghindari Sunnah ghab, dan penggunaan yang berlebihan tidak disukai, dan disarankan untuk mengurapi rambut demi kotoran. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10082}
+
+## Bulu hewan hidup
+Bulu hewan hidup, baik karnivora maupun lainnya, terhubung atau terpisah darinya.
+- Rambut makanan yang terhubung dengannya, yang diambil darinya, murni dan hidup, berdasarkan kesepakatan, dan masyarakat sepakat sepenuhnya tentang kemurnian apa yang dipotong hidup-hidup karena kebutuhan orang akan pakaian dan perlengkapan tidur. Adapun yang tercekik, asal-usulnya adalah lemak, menurut sebagian orang, tidak murni, dan Malikis menetapkan bahwa itu harus dicukur, bukan diculik.
+- Adapun apa yang dipisahkan dalam hidup, menurut Hanafi dan Malik itu murni jika dipotong, dan menurut Syafi'i, itu murni jika dipotong. Dalam kasus lain, itu tidak murni karena apa yang jelas dari yang hidup dianggap mati. Ada juga hadits Abu Waqid mengenai pemotongan hewan domba, dan Syafi'i pengecualian puisi karena konsensus tentang kemurniannya. Menurut mazhab Hanbali, aturan atas rambut hewan mana pun sama dengan semua bagiannya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10082} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10083}
+- Rambut yang tidak dimakan dan terhubung dengannya murni berdasarkan konsensus. Hanafi mengecualikan babi, Shafi'i dan Hanbal mengecualikan babi dan anjing, dan Maliki menganggap mereka murni, karena prinsip dasar mereka adalah setiap makhluk hidup itu murni. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10083}
+- Ada perbedaan pendapat mengenai puisi anjing yang terpisah dan babi: Hanafi dan Malik memutuskan bahwa yang terpisah itu murni, kecuali yang tidak murni di mata, seperti babi, menurut Hanafi. Syafi'i menganggapnya tidak murni, sementara Hanbali, mengikuti aliran pemikiran, mengikuti aturan semua bagian lain, dan Ibn Taymiyyah memilih kemurnian rambut mereka. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10083} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.10084}

@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/abdallah-ibn-dinar, person/abdullah-ibn-umar, person/muhammad]
 work: work/muwatta-malik
 ref: "2268"
-label: { ar: "الموطأ 2268 — ابن دينار عن ابن عمر: النهي عن بيع الولاء وهبته", en: "Muwatta 2268", es: "Muwatta 2268", fr: "Muwatta 2268", ur: "موطا 2268" }
+label: { ar: "الموطأ 2268 — ابن دينار عن ابن عمر: النهي عن بيع الولاء وهبته", en: "Muwatta 2268", es: "Muwatta 2268", fr: "Muwatta 2268", ur: "موطا 2268", tr: "El-Muvatta 2268 — İbn Dinar, İbn Ömer'den rivayetle: Miras hakkının satılması veya bağışlanmasının yasaklanması.", id: "Al-Muwatta 2268 — Ibn Dinar berdasarkan riwayat Ibn Umar: Larangan menjual atau memberikan hak waris." }
 summary:
   ar: "يروي مالك عن عبد الله بن دينار عن عبد الله بن عمر أن النبي نهى عن بيع الولاء وعن هبته. {cite:muwatta-maruf-1997 p.336}"
+  tr: "Malik, Abdullah ibn Dinar'dan, o da Abdullah ibn Umar'dan rivayet ettiğine göre, Peygamberimiz velayetin (sadakatin) satılmasını ve hediye edilmesini yasaklamıştır. {cite:muwatta-maruf-1997 s.336}"
+  id: "Malik meriwayatkan dari Abdullah ibn Dinar, dari Abdullah ibn Umar, bahwa Nabi melarang jual beli dan pemberian wala' (kesetiaan). {cite:muwatta-maruf-1997 p.336}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-24-itq }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

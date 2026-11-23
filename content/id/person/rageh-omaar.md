@@ -1,0 +1,18 @@
+---
+id: person/rageh-omaar
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/rageh-omaar.md}
+---
+## Ringkasan
+Rajeh Omar (lahir 19 Juli 1967) adalah seorang jurnalis dan penulis asal Inggris keturunan Somalia. Ia menjadi terkenal sebagai koresponden BBC dari Baghdad selama invasi Irak tahun 2003, dan ia membawakan serial dokumenter 'Witness' tentang pulau Inggris tersebut. Sejak 2013, ia menjadi koresponden khusus dan editor urusan internasional di ITV News. {cite:wikipedia-rageh-omaar-en}
+
+## Kehidupan
+Omar lahir di Mogadishu, Somalia, pada 19 Juli 1967, dari ayahnya Abdullah dan ibunya Sahra Omar; ayahnya adalah seorang akuntan yang kemudian menjadi pengusaha dan mendirikan surat kabar independen pertama di negara itu. {cite:wikipedia-rageh-omaar-en} {cite:wikidata-rageh-omaar} Keluarganya pindah ke Inggris saat ia berusia dua tahun. {cite:wikipedia-rageh-omaar-en} Kakak laki-lakinya, Mohamed Abdullahi Omar, kemudian menjadi Menteri Luar Negeri Somalia. {cite:wikipedia-rageh-omaar-en} Ia belajar di Dragon School di Oxford dan Cheltenham College, serta belajar sejarah modern di New College, University of Oxford. {cite:wikipedia-rageh-omaar-en} Artikel berbahasa Inggris menyebutkan bahwa Omar adalah Muslim, dan judul bukunya tahun 2006 "Only Half of Me: Being Muslim in Britain" menggambarkan negosiasinya antara dua identitasnya; tidak ada sumber yang dibaca untuk menyebutkan sekolah atau metode. {cite:wikipedia-rageh-omaar-en} Ia menikah dengan Georgiana Montgomery Cunningham pada tahun 2000; mereka memiliki tiga anak dan tinggal di Chiswick, London barat. {cite:wikipedia-rageh-omaar-en}
+
+## Karya
+Omar memulai sebagai magang di surat kabar The Voice, bekerja lepas di Yaman pada tahun 1991 sebagian besar untuk BBC World Service, kemudian kembali ke London sebagai produser dan jurnalis radio di BBC, dan kemudian bekerja sebagai koresponden untuk stasiun tersebut di Somaliland. {cite:wikipedia-rageh-omaar-en} Liputan langsungnya tentang invasi Irak tahun 2003 untuk berita BBC membuatnya dikenal di Amerika Serikat sebagai "Scud Stud," dan bukunya tentang perang, "Revolution Day" (2005), membahas dampak rezim Saddam Hussein, sanksi PBB, dan perang terhadap warga sipil Irak. {cite:wikipedia-rageh-omaar-en} Sejak saat itu, ia menyatakan penyesalan bahwa liputan, termasuk liputannya, berfokus pada rezim dan inspektur senjata serta kurang memperhatikan rakyat Irak. {cite:wikipedia-rageh-omaar-en} Pada September 2006, ia bergabung dengan Al Jazeera England, di mana ia membawakan serial dokumenter malam 'Witness' hingga 2010, kemudian 'The Rajeh Omar Report.' {cite:wikipedia-rageh-omaar-en} Dokumenternya meliputi 'An Islamic History of Europe' (BBC Four, 2005), 'The Life of Muhammad' (BBC Two, 2011), dan 'The Ottomans: Muslim Emperors of Europe' (BBC Two, 2013). {cite:wikipedia-rageh-omaar-en} Ia bergabung dengan ITV News sebagai koresponden khusus pada Januari 2013, dipromosikan menjadi Editor Urusan Internasional pada 2014, dan menjadi Wakil Presenter 'Akhbar Al-Ashira' pada 2015. {cite:wikipedia-rageh-omaar-en} mengalami kemunduran di siaran selama buletin '10 PM News' pada 26 April 2024, sehingga ia menerima perawatan medis; ia kembali ke program tersebut sebagai koresponden pada 27 Januari 2025. {cite:wikipedia-rageh-omaar-en}
+
+## Sumber
+- Sumber-sumber yang disebutkan di atas tercantum di bawah `data/source/`.

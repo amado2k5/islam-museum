@@ -1,0 +1,19 @@
+---
+id: building/ram-bagh-agra
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/building/ram-bagh-agra.md}
+---
+## Ringkasan
+Ram Bagh, yang awalnya 'Aram Bagh,' yang berarti 'Taman Relief,' adalah sebuah kebun buah di tepi sungai berseberangan dengan Benteng Merah Sungai Jamna di [[place/agra|Accra. Kebun ini diperkirakan berasal dari]] tahun 1526 M melalui sebuah lukisan yang tergantung di [[person/john-brookes|Brooks]], dan diyakini sebagai kebun buah Mongol tertua yang masih ada, dalam gambar yang dapat dibedakan, meskipun dengan banyak perubahan. {cite:brookes-gardens-of-paradise-1987 p.128} {cite:brookes-gardens-of-paradise-1987 p.129}
+
+## Kebun Babur I di Accra
+Babur [[person/babur-mughal|menulis]] bahwa kelangkaan air mengalir adalah salah satu kekurangan utama India, dan ia ingin air mengalir melalui roda tempat ia mendarat, serta agar tanah diatur secara teratur dan simetris. Lokasi pasti kebun pertama yang ia bangun di Accra tidak diketahui; tradisi menyebut tempat di tikungan sungai 'Jhar Bagh,' tetapi Brooks menyarankan itu adalah Ram Bagh. Gaya kebun ini terdiri dari jalur geometris dan teras tinggi yang menghadap kebun buah, dan Babur mungkin menyambut keturunan Timur dan Genghis Khan di sana pada tahun 1528 M. {cite:brookes-gardens-of-paradise-1987 p.128} {cite:brookes-gardens-of-paradise-1987 p.129} Kebun ini dirawat selama [[person/jahangir-mughal|masa pemerintahan Jahangir]], yang menggambarkannya dengan kekaguman. {cite:brookes-gardens-of-paradise-1987 p.130}
+
+## Nama-namanya
+Rizvi [[person/syed-ali-nadeem-rezavi|menyebutkan]] bahwa tempat ini juga dikenal sebagai Bagh Gul Afshan, dan [[person/nur-jahan|Nurjahan]] merenovasinya serta menamainya Bagh Nur Afshan. {cite:rezavi-iranian-influence-indian-architecture-2002 p.130}
+
+## Taman Gunung Berapi di Nath
+R. Nath Rambagh dikenal sebagai 'Bagh Gul Afshan' (taman tempat mawar tersebar), yang diberi nama Babur, dan ini adalah satu-satunya kebun buahnya yang tersisa di Accra, di tepi timur Sungai Jamna antara Biland Bagh dan Chini Ka Rawda; kemudian disebut 'Aram Bagh' dan diubah menjadi 'Ram Bagh.' {cite:nath-history-of-mughal-architecture-1-1982 p. 90} {cite:nath-history-of-mughal-architecture-1-1982 p. 91} Taman ini terletak di empat teras yang berbeda, dan platform utama memiliki delapan platform yang ditinggikan, meniru 'kebun Hasht Behesht.' {cite:nath-history-of-mughal-architecture-1-1982 p. 90} Air berasal dari sebuah sumur di tepi sungai tinggi di selatan dalam sistem kincir air, mengalir ke sebuah cekungan, lalu mengalir ke aliran ke sebuah kolam, dari situ mengalir melalui saluran lebar di sekitar platform persegi, lalu turun ke platform kedua dalam delapan aliran air lebar di setiap sisi aliran air. {cite:nath-history-of-mughal-architecture-1-1982 p. 91} {cite:nath-history-of-mughal-architecture-1-1982 p. 92} Di bawah sebuah platform batu lebar di sungai di bagian barat laut, terdapat lantai bawah tanah yang berisi kumpulan pemandian, penampungan air, dan kanal air. Menurut Nath, pemandian Babur adalah pemandian 'dingin', yang katanya sangat dingin dalam panas hingga hampir kedinginan; cara kerjanya tetap menjadi rahasia. {cite:nath-history-of-mughal-architecture-1-1982 p. 92} {cite:nath-history-of-mughal-architecture-1-1982 p. 94} {cite:nath-history-of-mughal-architecture-1-1982 p. 95} Nath percaya bahwa Babur adalah pelopor desain lanskap di India dan membangun tradisi yang diikuti oleh penerusnya di istana dan tempat suci mereka. {cite:nath-history-of-mughal-architecture-1-1982 p. 93}

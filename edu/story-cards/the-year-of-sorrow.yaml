@@ -1,109 +1,211 @@
 slug: the-year-of-sorrow
 title:
-  ar: "عام الحزن"
-  en: "The Year of Sorrow"
-  ur: "عامِ غم"
-  fr: "L’année du chagrin"
+  ar: عام الحزن
+  en: The Year of Sorrow
+  ur: عامِ غم
+  fr: L’année du chagrin
+  tr: Keder Yılı
+  id: Tahun Duka
 lede:
-  ar: "سنة فقد فيها النبي عمّه أبا طالب وزوجته خديجة — في اثنتي عشرة بطاقة."
-  en: "The year the Prophet lost his uncle Abu Talib and his wife Khadijah — in twelve cards."
-  ur: "وہ سال جب نبی نے اپنے چچا ابو طالب اور بیوی خدیجہ کو کھویا — بارہ کارڈز میں۔"
-  fr: "En douze cartes, l’année où le prophète Muhammad perdit son oncle Abou Talib et son épouse Khadija."
-status: { review: published }
-sources: [source/ibn-hisham-saqqa, source/ibn-sad-tabaqat-bewley]
-
+  ar: سنة فقد فيها النبي عمّه أبا طالب وزوجته خديجة — في اثنتي عشرة بطاقة.
+  en: The year the Prophet lost his uncle Abu Talib and his wife Khadijah — in twelve cards.
+  ur: وہ سال جب نبی نے اپنے چچا ابو طالب اور بیوی خدیجہ کو کھویا — بارہ کارڈز میں۔
+  fr: En douze cartes, l’année où le prophète Muhammad perdit son oncle Abou Talib et son épouse Khadija.
+  tr: Peygamber'in amcası Ebu Talib ve eşi Hadijah'ı on iki kartta kaybettiği bir yıl.
+  id: Tahun di mana Nabi kehilangan pamannya Abu Talib dan istrinya Khadijah—dalam dua belas kartu.
+status:
+  review: published
+sources:
+- source/ibn-hisham-saqqa
+- source/ibn-sad-tabaqat-bewley
 provenance:
-  generated_by: "Devin"
-  model: "Devin (Cognition)"
-  run: "education-E5-story-cards"
-  source: "سيرة ابن هشام؛ الرحيق المختوم — إعادة صياغة بأمانة، صيغة أطفال."
+  generated_by: Devin
+  model: Devin (Cognition)
+  run: education-E5-story-cards
+  source: سيرة ابن هشام؛ الرحيق المختوم — إعادة صياغة بأمانة، صيغة أطفال.
   fr:
-    generated_by: "Devin"
-    model: "unknown"
-    run: "devin-a7ba389df57d4bdb9b7515fa59f40242"
-    source: "Existing English text in this activity, with Arabic consulted for religious material."
+    generated_by: Devin
+    model: unknown
+    run: devin-a7ba389df57d4bdb9b7515fa59f40242
+    source: Existing English text in this activity, with Arabic consulted for religious material.
 cards:
-  - title: { ar: "أبو طالب", en: "Abu Talib", ur: "ابو طالب", fr: "Abou Talib" }
-    motif: mountain
-    narration:
-      ar: "أبو طالب عم النبي وكافله منذ صغره وحماه من قريش أربعين سنة."
-      en: "Abu Talib was the Prophet's uncle, his guardian since childhood, his shield from Quraysh for forty years."
-      ur: "ابو طالب نبی کے چچا تھے، بچپن سے ان کے کافل اور چالیس برس قریش سے ان کے ڈھال۔"
-      fr: "Abou Talib, l’oncle du Prophète, l’avait pris en charge dès l’enfance et l’avait protégé de Quraych pendant quarante ans."
-  - title: { ar: "خديجة", en: "Khadijah", ur: "خدیجہ", fr: "Khadija" }
-    motif: tree
-    narration:
-      ar: "خديجة بنت خويلد أول من آمن به، زوجته وأم أولاده وأول مؤمنة."
-      en: "Khadijah bint Khuwaylid was the first to believe in him — his wife, mother of his children, first believer."
-      ur: "خدیجہ بنت خویلد پہلی مومن تھیں — ان کی بیوی، اولاد کی ماں، سب سے پہلی ایمان والی۔"
-      fr: "Khadija bint Khouwaylid, son épouse et la mère de ses enfants, fut la première à croire en lui."
-  - title: { ar: "الحصار", en: "The boycott", ur: "محاصرہ", fr: "Le blocus" }
-    motif: city
-    narration:
-      ar: "قبلهما بسنوات حاصرت قريش بني هاشم في الشعب ثلاث سنين."
-      en: "Years before, Quraysh had besieged the Banu Hashim in the valley for three years."
-      ur: "اس سے پہلے قریش نے بنو ہاشم کو شعب میں تین برس محاصرہ کیا تھا۔"
-      fr: "Des années plus tôt, Quraych avait assiégé les Banou Hachim dans la vallée pendant trois ans."
-  - title: { ar: "الجوع", en: "The hunger", ur: "بھوک", fr: "La faim" }
-    motif: moon
-    narration:
-      ar: "أكل الناس ورق الشجر والجلود من الجوع حتى انتهى الحصار."
-      en: "People ate tree leaves and hides from hunger until the boycott ended."
-      ur: "بھوک سے لوگ درخت کے پتے اور کھالیں کھاتے رہے یہاں تک کہ محاصرہ ختم ہوا۔"
-      fr: "Les gens eurent si faim qu’ils mangèrent des feuilles d’arbre et du cuir jusqu’à la fin du blocus."
-  - title: { ar: "المرض", en: "The illness", ur: "بیماری", fr: "La maladie" }
-    motif: moon
-    narration:
-      ar: "في السنة العاشرة من البعثة مرض أبو طالب مرضاً شديداً."
-      en: "In the tenth year of the mission Abu Talib fell gravely ill."
-      ur: "بعثت کے دسویں سال ابو طالب سخت بیمار ہوئے۔"
-      fr: "La dixième année de la mission du Prophète, Abou Talib tomba gravement malade."
-  - title: { ar: "الوفاة", en: "The passing", ur: "وصال", fr: "La mort d’Abou Talib" }
-    motif: star
-    narration:
-      ar: "توفي أبو طالب ولم يقل كلمة الشهادة، فحزن عليه النبي حزناً شديداً."
-      en: "Abu Talib passed without saying the testimony; the Prophet grieved for him deeply."
-      ur: "ابو طالب شہادت کہے بغیر گزر گئے؛ نبی ان پر بہت غمگین ہوئے۔"
-      fr: "Abou Talib mourut sans prononcer la profession de foi. Le Prophète en fut profondément attristé."
-  - title: { ar: "خديجة أيضاً", en: "Khadijah too", ur: "خدیجہ بھی", fr: "Khadija aussi" }
-    motif: tree
-    narration:
-      ar: "وبعده بأيام، قيل ثلاثة أو خمسة وثلاثين، توفيت خديجة."
-      en: "Days after him — some say three, some thirty-five — Khadijah passed."
-      ur: "ان کے بعد دنوں میں — کہتے ہیں تین یا پینتیس — خدیجہ گزر گئیں۔"
-      fr: "Khadija mourut quelques jours après lui : trois jours selon certains récits, trente-cinq selon d’autres."
-  - title: { ar: "عام الحزن", en: "The naming", ur: "نام", fr: "L’année du chagrin" }
-    motif: book
-    narration:
-      ar: "سُميت تلك السنة عام الحزن لشدة ما أصاب النبي فيها."
-      en: "That year was named the Year of Sorrow for how much befell the Prophet in it."
-      ur: "اس سال کو عامِ غم کہا گیا اس شدید مصیبت کے لیے جو اس پر آئی۔"
-      fr: "On l’appela l’année du chagrin tant les épreuves du Prophète furent lourdes cette année-là."
-  - title: { ar: "الطائف", en: "Ta'if", ur: "طائف", fr: "Taïf" }
-    motif: mountain
-    narration:
-      ar: "خرج إلى الطائف ينادي أهلها، فردّوه وأغروا به سفهاءهم فرجع مجروحاً."
-      en: "He went to Ta'if calling its people; they refused and set their riffraff on him until he returned wounded."
-      ur: "وہ طائف گئے، لوگوں نے انکار کیا اور سفلے لگائے؛ وہ زخمی لوٹے۔"
-      fr: "Il alla prêcher aux habitants de Taïf. Ils le repoussèrent et lancèrent des gens contre lui. Il en revint blessé."
-  - title: { ar: "حائط", en: "The garden", ur: "باغ", fr: "Le jardin" }
-    motif: tree
-    narration:
-      ar: "دخل حائطاً لابني ربيعة فاستظل تحته، وواساه غلام نصراني."
-      en: "He sheltered in the two Rabi'a sons' garden, and a Christian boy comforted him."
-      ur: "وہ ربیعہ کے بیٹوں کے باغ میں ٹھہرے، ایک مسیحی لڑکے نے تسلی دی۔"
-      fr: "Il se réfugia dans le jardin des deux fils de Rabia, où un jeune chrétien le réconforta."
-  - title: { ar: "الملك", en: "The angel's offer", ur: "فرشتے کی پیشکش", fr: "La proposition de l’ange" }
-    motif: mountain
-    narration:
-      ar: "قال ملك الجبال: إن شئت أطبقت عليهم الأخشبين؛ فقال: لا، لعل الله يخرج من أصلابهم من يعبده."
-      en: "The angel of the mountains offered to close the two mountains on them; he said: no — perhaps God will bring worshippers from their offspring."
-      ur: "پہاڑوں کے فرشتے نے پیشکش کی کہ پہاڑ ملا دوں؛ انہوں نے کہا: نہیں، شاید اللہ ان کی اولاد سے عبادت کرنے والے نکالے۔"
-      fr: "L’ange des montagnes lui proposa de refermer les deux montagnes sur les habitants. Le Prophète refusa, dans l’espoir que certains de leurs descendants adoreraient Dieu."
-  - title: { ar: "السماء", en: "The heavens open", ur: "آسمان کھلے", fr: "Le ciel s’ouvre" }
-    motif: star
-    narration:
-      ar: "ثم كانت رحلة الإسراء والمعراج، فصار صدره للسماء والأوس والخزرج يبايعون."
-      en: "Then came the journey of Isra' and Mi'raj, and soon the Aws and Khazraj were pledging."
-      ur: "پھر معراج کا سفر آیا اور جلد اوس اور خزرج بیعت کرنے لگے۔"
-      fr: "Puis vinrent le Voyage nocturne et l’Ascension. Peu après, les Aws et les Khazraj prêtèrent allégeance au Prophète."
+- title:
+    ar: أبو طالب
+    en: Abu Talib
+    ur: ابو طالب
+    fr: Abou Talib
+    tr: Ebu Talib
+    id: Abu Talib
+  motif: mountain
+  narration:
+    ar: أبو طالب عم النبي وكافله منذ صغره وحماه من قريش أربعين سنة.
+    en: Abu Talib was the Prophet's uncle, his guardian since childhood, his shield from Quraysh for forty years.
+    ur: ابو طالب نبی کے چچا تھے، بچپن سے ان کے کافل اور چالیس برس قریش سے ان کے ڈھال۔
+    fr: Abou Talib, l’oncle du Prophète, l’avait pris en charge dès l’enfance et l’avait protégé de Quraych pendant quarante ans.
+    tr: Ebu Talib, çocukluğundan beri Peygamber'in amcası ve vasisiydi ve onu kırk yıl boyunca Kureyş'ten korudu.
+    id: Abu Talib adalah paman dan wali Nabi sejak kecil dan melindunginya dari Quraisy selama empat puluh tahun.
+- title:
+    ar: خديجة
+    en: Khadijah
+    ur: خدیجہ
+    fr: Khadija
+    tr: Khadija
+    id: Khadija
+  motif: tree
+  narration:
+    ar: خديجة بنت خويلد أول من آمن به، زوجته وأم أولاده وأول مؤمنة.
+    en: Khadijah bint Khuwaylid was the first to believe in him — his wife, mother of his children, first believer.
+    ur: خدیجہ بنت خویلد پہلی مومن تھیں — ان کی بیوی، اولاد کی ماں، سب سے پہلی ایمان والی۔
+    fr: Khadija bint Khouwaylid, son épouse et la mère de ses enfants, fut la première à croire en lui.
+    tr: Khadijah bint Khuwaylid, ona, eşine, çocuklarının annesine ve ilk kadın inananlara inanan ilk kişiydi.
+    id: Khadijah bint Khuwaylid adalah yang pertama percaya padanya, istrinya, ibu dari anak-anaknya, dan wanita pertama yang percaya.
+- title:
+    ar: الحصار
+    en: The boycott
+    ur: محاصرہ
+    fr: Le blocus
+    tr: Kuşatma
+    id: Pengepungan
+  motif: city
+  narration:
+    ar: قبلهما بسنوات حاصرت قريش بني هاشم في الشعب ثلاث سنين.
+    en: Years before, Quraysh had besieged the Banu Hashim in the valley for three years.
+    ur: اس سے پہلے قریش نے بنو ہاشم کو شعب میں تین برس محاصرہ کیا تھا۔
+    fr: Des années plus tôt, Quraych avait assiégé les Banou Hachim dans la vallée pendant trois ans.
+    tr: Onlardan yıllar önce, Qureyş, El-Şaab'ta Banu Haşim'i üç yıl boyunca kuşattı.
+    id: Bertahun-tahun sebelumnya, Quraisy mengepung Banu Hashim di Al-Shaab selama tiga tahun.
+- title:
+    ar: الجوع
+    en: The hunger
+    ur: بھوک
+    fr: La faim
+    tr: Açlık
+    id: Kelaparan
+  motif: moon
+  narration:
+    ar: أكل الناس ورق الشجر والجلود من الجوع حتى انتهى الحصار.
+    en: People ate tree leaves and hides from hunger until the boycott ended.
+    ur: بھوک سے لوگ درخت کے پتے اور کھالیں کھاتے رہے یہاں تک کہ محاصرہ ختم ہوا۔
+    fr: Les gens eurent si faim qu’ils mangèrent des feuilles d’arbre et du cuir jusqu’à la fin du blocus.
+    tr: İnsanlar açlıktan yaprak ve deri yediler, kuşatma sona erene kadar.
+    id: Orang-orang memakan daun dan kulit karena kelaparan sampai pengepungan berakhir.
+- title:
+    ar: المرض
+    en: The illness
+    ur: بیماری
+    fr: La maladie
+    tr: Hastalık
+    id: Penyakit
+  motif: moon
+  narration:
+    ar: في السنة العاشرة من البعثة مرض أبو طالب مرضاً شديداً.
+    en: In the tenth year of the mission Abu Talib fell gravely ill.
+    ur: بعثت کے دسویں سال ابو طالب سخت بیمار ہوئے۔
+    fr: La dixième année de la mission du Prophète, Abou Talib tomba gravement malade.
+    tr: Misyonun onuncu yılında Abu Talib ciddi şekilde hastalandı.
+    id: Pada tahun kesepuluh misi, Abu Talib jatuh sakit parah.
+- title:
+    ar: الوفاة
+    en: The passing
+    ur: وصال
+    fr: La mort d’Abou Talib
+    tr: Ölüm
+    id: Kematian
+  motif: star
+  narration:
+    ar: توفي أبو طالب ولم يقل كلمة الشهادة، فحزن عليه النبي حزناً شديداً.
+    en: Abu Talib passed without saying the testimony; the Prophet grieved for him deeply.
+    ur: ابو طالب شہادت کہے بغیر گزر گئے؛ نبی ان پر بہت غمگین ہوئے۔
+    fr: Abou Talib mourut sans prononcer la profession de foi. Le Prophète en fut profondément attristé.
+    tr: Ebu Talib şehit sözü söylemeden öldü, bu yüzden Peygamber onun için derin bir üzüntü duydu.
+    id: Abu Talib meninggal tanpa mengucapkan kata-kata syahid, sehingga Nabi sangat berduka atas dirinya.
+- title:
+    ar: خديجة أيضاً
+    en: Khadijah too
+    ur: خدیجہ بھی
+    fr: Khadija aussi
+    tr: Khadija da
+    id: Khadija juga
+  motif: tree
+  narration:
+    ar: وبعده بأيام، قيل ثلاثة أو خمسة وثلاثين، توفيت خديجة.
+    en: Days after him — some say three, some thirty-five — Khadijah passed.
+    ur: ان کے بعد دنوں میں — کہتے ہیں تین یا پینتیس — خدیجہ گزر گئیں۔
+    fr: 'Khadija mourut quelques jours après lui : trois jours selon certains récits, trente-cinq selon d’autres.'
+    tr: Birkaç gün sonra, üç ya da otuz beş yaşında Khadica'nın öldüğü söylenir.
+    id: Beberapa hari kemudian, dikatakan tiga atau tiga puluh lima hari Khadijah meninggal.
+- title:
+    ar: عام الحزن
+    en: The naming
+    ur: نام
+    fr: L’année du chagrin
+    tr: Keder Yılı
+    id: Tahun Duka
+  motif: book
+  narration:
+    ar: سُميت تلك السنة عام الحزن لشدة ما أصاب النبي فيها.
+    en: That year was named the Year of Sorrow for how much befell the Prophet in it.
+    ur: اس سال کو عامِ غم کہا گیا اس شدید مصیبت کے لیے جو اس پر آئی۔
+    fr: On l’appela l’année du chagrin tant les épreuves du Prophète furent lourdes cette année-là.
+    tr: O yıl, Peygamber'e yaşananların şiddeti nedeniyle Hüzün Yılı olarak adlandırıldı.
+    id: Tahun itu disebut Tahun Kesedihan karena beratnya apa yang menimpa Nabi selama tahun itu.
+- title:
+    ar: الطائف
+    en: Ta'if
+    ur: طائف
+    fr: Taïf
+    tr: Taif
+    id: Taif
+  motif: mountain
+  narration:
+    ar: خرج إلى الطائف ينادي أهلها، فردّوه وأغروا به سفهاءهم فرجع مجروحاً.
+    en: He went to Ta'if calling its people; they refused and set their riffraff on him until he returned wounded.
+    ur: وہ طائف گئے، لوگوں نے انکار کیا اور سفلے لگائے؛ وہ زخمی لوٹے۔
+    fr: Il alla prêcher aux habitants de Taïf. Ils le repoussèrent et lancèrent des gens contre lui. Il en revint blessé.
+    tr: Taif'e gidip halkını çağırdı, fakat onlar onu geri çevirdiler ve aptallarını onunla birlikte ayarttılar, bu yüzden yaralı olarak geri döndü.
+    id: Dia pergi ke Taif memanggil rakyatnya, tapi mereka menolaknya dan menggoda orang bodoh mereka bersamanya, sehingga dia kembali dalam keadaan terluka.
+- title:
+    ar: حائط
+    en: The garden
+    ur: باغ
+    fr: Le jardin
+    tr: Duvar
+    id: Dinding
+  motif: tree
+  narration:
+    ar: دخل حائطاً لابني ربيعة فاستظل تحته، وواساه غلام نصراني.
+    en: He sheltered in the two Rabi'a sons' garden, and a Christian boy comforted him.
+    ur: وہ ربیعہ کے بیٹوں کے باغ میں ٹھہرے، ایک مسیحی لڑکے نے تسلی دی۔
+    fr: Il se réfugia dans le jardin des deux fils de Rabia, où un jeune chrétien le réconforta.
+    tr: Rabi'ah'ın oğulları için bir duvara girdi ve altına sığındı, bir Hristiyan çocuk onu teselli etti.
+    id: Ia masuk ke tembok untuk anak-anak Rabi'ah dan berlindung di bawahnya, dan seorang anak Kristen menghiburnya.
+- title:
+    ar: الملك
+    en: The angel's offer
+    ur: فرشتے کی پیشکش
+    fr: La proposition de l’ange
+    tr: Kral
+    id: Raja
+  motif: mountain
+  narration:
+    ar: 'قال ملك الجبال: إن شئت أطبقت عليهم الأخشبين؛ فقال: لا، لعل الله يخرج من أصلابهم من يعبده.'
+    en: 'The angel of the mountains offered to close the two mountains on them; he said: no — perhaps God will bring worshippers from their offspring.'
+    ur: 'پہاڑوں کے فرشتے نے پیشکش کی کہ پہاڑ ملا دوں؛ انہوں نے کہا: نہیں، شاید اللہ ان کی اولاد سے عبادت کرنے والے نکالے۔'
+    fr: L’ange des montagnes lui proposa de refermer les deux montagnes sur les habitants. Le Prophète refusa, dans l’espoir que certains de leurs descendants adoreraient Dieu.
+    tr: 'Dağların Kralı dedi ki: İsterseniz, iki tahta parçayı etraflarına sarabilirim; dedi ki: Hayır, belki Allah onların belinden O''na ibadet edenleri çıkarır.'
+    id: 'Raja Pegunungan berkata: Jika kau mau, aku bisa membungkus dua potongan kayu di sekeliling mereka; ia berkata: Tidak, mungkin Allah akan mengeluarkan dari pinggang mereka orang-orang yang menyembah-Nya.'
+- title:
+    ar: السماء
+    en: The heavens open
+    ur: آسمان کھلے
+    fr: Le ciel s’ouvre
+    tr: Gökyüzü
+    id: Langit
+  motif: star
+  narration:
+    ar: ثم كانت رحلة الإسراء والمعراج، فصار صدره للسماء والأوس والخزرج يبايعون.
+    en: Then came the journey of Isra' and Mi'raj, and soon the Aws and Khazraj were pledging.
+    ur: پھر معراج کا سفر آیا اور جلد اوس اور خزرج بیعت کرنے لگے۔
+    fr: Puis vinrent le Voyage nocturne et l’Ascension. Peu après, les Aws et les Khazraj prêtèrent allégeance au Prophète.
+    tr: Sonra İsra ve Mi'raj'ın yolculuğu geldi, göğsü göklere yükseldi ve Ostrow ile Khazraj bağlılık yemini etti.
+    id: Kemudian datanglah perjalanan Isra dan Mi'raj, dan dadanya terangkat ke langit, dan Burung Unta serta Khazraj bersumpah setia.

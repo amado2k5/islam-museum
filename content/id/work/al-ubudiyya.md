@@ -1,0 +1,30 @@
+---
+id: work/al-ubudiyya
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/work/al-ubudiyya.md}
+---
+## Ringkasan
+"Perbudakan" adalah jawaban yang ditulis oleh [[person/ibn-taymiyya|Ibn Taymiyyah]] atas pertanyaan dalam ayat [[passage/quran-2-21|21 Al-Baqarah]] yang memerintahkan orang untuk menyembah Tuhan mereka: Apa itu penyembahan dan cabangnya? Apakah seluruh agama termasuk di dalamnya? Apa kenyataan perbudakan? Apakah itu pangkat tertinggi di dunia ini dan akhirat, atau adakah pangkat di atasnya? {cite:majmu-fatawa-qasim-v10 p. 149} Itu ada dalam jilid sepuluh [[work/majmu-al-fatawa|fatwa yang dikumpulkan]] setelah "Penyakit Hati dan Penyembuhannya." {cite:majmu-fatawa-qasim-v10 p. 772}
+
+## Batas ibadah
+Jawabannya dibuka dengan definisi yang sudah dikenal: ibadah adalah "nama kolektif untuk semua yang Allah cintai dan senang, baik dari dalam maupun luar." {cite:majmu-fatawa-qasim-v10 p. 149} Ini mencakup doa, zakat, puasa, haji, kejujuran dalam percakapan, memenuhi kepercayaan, menghormati orang tua, menjaga ikatan keluarga, memenuhi perjanjian, memerintahkan kebaikan, melarang kejahatan, jihad, kebaikan kepada tetangga, yatim piatu, orang miskin, pengembara, yang memiliki dan hewan, permohonan, ingatan, dan pembacaan; kemudian perbuatan hati: kasih kepada Allah dan Rasul-Nya, takut kepada-Nya, berbalik kepada-Nya, kesungguhan dalam agama, kesabaran atas hukuman-Nya, syukur atas berkat-Nya, menerima keputusan-Nya, bergantung kepada-Nya, harapan akan rahmat-Nya, dan takut akan hukuman-Nya. {cite:majmu-fatawa-qasim-v10 p. 149} {cite:majmu-fatawa-qasim-v10 p. 150} Dan Dia menjadikan penyembahan sebagai tujuan tercinta Allah yang menjadi tujuan ciptaan-Nya, dan melalui itu Dia mengutus semua utusan, seperti yang dikatakan Nuh, Hud, Salih, dan Shu'ayb kepada umat mereka, menggambarkan malaikat-Nya, nabi, dan elit ciptaan-Nya melalui mereka, serta mengutuk orang-orang sombong di sekitar mereka. {cite:majmu-fatawa-qasim-v10 p. 150} {cite:majmu-fatawa-qasim-v10 p. 151}
+
+## Tidak ada siapa pun untuk Tuhan dan untuk Tuhan serta utusan-Nya
+Ibn Taymiyyah membedakan antara apa yang dibuat untuk Allah dan Rasul-Nya bersama-sama, seperti taat, kepuasan, dan pemberian, dan apa yang hanya untuk Allah saja, seperti ibadah dan apa yang sesuai seperti ketergantungan dan ketakutan, serta seperti 'al-hasb' yang berarti 'cukup'; ia menganggap sebagai kesalahan besar dalam Tafsir [[passage/quran-8-64|al-Anfal 64]] bahwa umat beriman bersama Allah dalam kaitannya dengan Nabi. {cite:majmu-fatawa-qasim-v10 p. 154}
+
+## Maksudnya budak
+Jawabannya menjelaskan bahwa 'hamba' pertama berarti 'penyembah' yang telah disembah, dihinakan, dikelola, dan diarahkan Allah. Dalam pengertian ini, seluruh ciptaan adalah hamba Allah—yang benar dan yang jahat, yang beriman dan yang kafir—karena mereka adalah Tuhan dan Penguasa mereka dan tidak melampaui kehendak dan kuasa-Nya; perbedaannya adalah bahwa umat beriman mengetahui dan mengakui hal ini, dan mengetahui bahwa kesombongan dalam menolak menerima kebenaran adalah hukuman bagi pemiliknya. {cite:majmu-fatawa-qasim-v10 p. 154} {cite:majmu-fatawa-qasim-v10 p. 155} Makna kedua dari 'hamba' adalah 'penyembah' yang menyembah Allah dan tidak menyembah Dia selain Dia, yang merupakan pelayan agama khusus yang menjadi pusat jawabannya. {cite:majmu-fatawa-qasim-v10 p. 157}
+
+## Kesempurnaan makhluk dalam perbudakan
+Ia menetapkan bahwa kesempurnaan ciptaan terletak pada pencapaian pengabdian kepada Allah, dan semakin seseorang menyadarinya, semakin besar kesempurnaan dan pangkatnya meningkat. Siapa pun yang membayangkan bahwa makhluk ciptaan meninggalkan perbudakan dengan cara apapun, atau penyimpangan darinya lebih lengkap, menurut pandangannya, adalah salah satu yang paling bodoh dan sesat dari ciptaan. {cite:majmu-fatawa-qasim-v10 p. 176} Ia menganggap ketergantungan kepada Allah dan mencari pertolongan sebagai bagian dari ibadah, tetapi hanya disebutkan sebagai kenangan karena mereka adalah bantuan segala jenis. {cite:majmu-fatawa-qasim-v10 p. 176}
+
+## Kebebasan hati dan perbudakannya
+Ia mengutip hadis "Sengsara hamba dirham, celakalah hamba dinar," yang menyatakan bahwa siapa pun yang menempelkan hatinya pada uang maka menjadi budaknya. {cite:majmu-fatawa-qasim-v10 p. 180} Ia percaya bahwa menawan hati lebih besar daripada menawan tubuh. Jika seorang Muslim menawan atau memperbudaknya, ia adalah orang jahat tanpa hak, dan itu tidak merugikan jika ia menjalankan tugasnya. Adapun mereka yang memperbudak hatinya kepada orang lain selain Allah, itu merugikan mereka, meskipun secara lahiriah mereka milik manusia. Ia merangkum ini dengan mengatakan: "Kebebasan adalah kebebasan hati, dan perbudakan adalah perbudakan hati." {cite:majmu-fatawa-qasim-v10 p. 186}
+
+## Retret, cinta, dan kehancuran
+Menurut indeks volume tersebut, jawabannya berlanjut pada preferensi orang dalam penyembahan, iman, dan kasih, serta fakta bahwa kesombongan bertentangan dengan perbudakan, dan bahwa persahabatan serta cinta adalah realisasi dari perbudakan, dan bahwa perbudakan bukan sekadar penghinaan tanpa cinta. {cite:majmu-fatawa-qasim-v10 p. 772} {cite:majmu-fatawa-qasim-v10 p. 773} Ia kemudian menyajikan [[concept/fana-sufi|tiga jenis pemusnahan]]: pemusnahan dari kehendak tidak lain selain Tuhan, pemusnahan dari menyaksikan kesetaraan, dan pemusnahan dari keberadaan kesetaraan. {cite:majmu-fatawa-qasim-v10 p. 218} {cite:majmu-fatawa-qasim-v10 p. 219} {cite:majmu-fatawa-qasim-v10 p. 223}
+
+## Lokasinya
+Jawabannya menggabungkan bab tentang monoteisme dan bab tentang perilaku: karena ibadah, baginya, mencakup baik hukum lahiriah maupun perbuatan hati, dan perbudakan adalah sesuatu yang tidak ada ciptaan yang bisa melepasi mereka. {cite:majmu-fatawa-qasim-v10 p. 149} {cite:majmu-fatawa-qasim-v10 p. 176}

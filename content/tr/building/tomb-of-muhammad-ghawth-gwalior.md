@@ -1,0 +1,19 @@
+---
+id: building/tomb-of-muhammad-ghawth-gwalior
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/building/tomb-of-muhammad-ghawth-gwalior.md}
+---
+## Genel Bakış
+Gwalior'daki Şeyh [[person/muhammad-ghawth-gwaliori|Muhammed Ghaus'un türbesi]], köşeleri eğimsiz, altı katlı kuleler ve her iki tarafın ortasında kare bir çıkıntı bulunan kare bir çıkıntı ve geniş bir gölgelikle çevrili, büyük oyma kabloların üzerine eğilmiş geniş bir tente bulunan düzenli bir kare yapıdır. {cite:nath-history-of-mughal-architecture-1-1982 p. 218} {cite:nath-history-of-mughal-architecture-1-1982 p. 224} Geniş tek kubbe, yüksek kare bir platformda sekizgen bir boyun üzerinde durur ve dört altıgen chitrik kitrikülle çevrilidir; Nath'ın ifadesine göre tavuklar arasında tavus kuşunu andırır. {cite:nath-history-of-mughal-architecture-1-1982 p. 218}
+
+## İç mekan ve ağları
+Kare salonun bir kenarı 13,11 metredir, kubbesi köşe nişlerini destekler ve ortasında, Şeyh'in mezar taşını barındıran, ince oyulmuş kafeslerle çevrili, tente yatağı şeklinde dikdörtgen mermer bir niş vardır. {cite:nath-history-of-mughal-architecture-1-1982 p. 218} {cite:nath-history-of-mughal-architecture-1-1982 p. 219} Salonun etrafında 5,87 metre genişliğinde yüksek bir portiko vardır, sütunları 8,53 metre yüksekliğinde ve kuzey ile doğu taraflarında pullarla dolu yarım daire kemerleri vardır: yirmiden fazla desende yaklaşık yüz panel, çoğu geometriktir. {cite:nath-history-of-mughal-architecture-1-1982 p. 219} Nath, bu ölçekte ölçekli ölçek kullanan ilk Moğol binası olarak kabul eder; bu, Fathapur Sikri'nin atölyelerinden yaklaşık on yıl önce, İskender'de ise yaklaşık kırk yıl daha büyük bir mozoledir. {cite:nath-history-of-mughal-architecture-1-1982 p. 219} Güneybatı köşesindeki bir sütunda, 1008 Hicri/1599 yılında Dekkan'da gerçekleşen büyük bir seferi kaydeden bir Farsça yazıt vardır ve kuruluş gerçekleşene kadar başka bir yazıt yoktur. {cite:nath-history-of-mughal-architecture-1-1982 p. 219}
+
+## Kim yaptı?
+Kaynaklar türbeyi kimin inşa ettiğini belirtmez: Al-Badauni, şeyhin hankasını Gwalior'da inşa ettiğini, Abu al-Fadl'ın ise sessiz kaldığını belirtir. {cite:nath-history-of-mughal-architecture-1-1982 p. 220} Nath, zahitin ya da oğullarının ya da Akbar'ın onu finanse etme ihtimalinden hoşlanmaz ve dönemin en büyük müzisyeni Baneh Tansen'in, Gwalior'un oğlu ve şeyhin öğrencisi olduğu, şeyhin ölüm yılı olan 970 H/1562'de Akbar'ın sarayına geldiği ve yaklaşık 1590 civarında Gvalior'da ayaklarının dibine gömüldüğüne inanılır. {cite:nath-history-of-mughal-architecture-1-1982 p. 221} {cite:nath-history-of-mughal-architecture-1-1982 p. 222} {cite:nath-history-of-mughal-architecture-1-1982 p. 223} Nath, bunun için doğrudan bir yazıt veya belgesel kanıt olmadığını kabul eder. {cite:nath-history-of-mughal-architecture-1-1982 p. 223}
+
+## Etkisi
+Nath, kawbiller ve çhatriyatlar üzerindeki gölge ve gölgelerin burada kararlı olarak kullanılan yerel unsurlar olduğuna, en büyük etkinin Fatehpur Sikri ve Sikandra'daki türbesinde olduğunu, kubbesinin Delhi'deki 'Bathani' kubbelerine yakın olduğuna ve mağakh ile kawbil'in ilhamının Gujarat'tan Rajasthan ve Gwalior'daki Man Mandir Sarayı'ndan geldiğine inanır. {cite:nath-history-of-mughal-architecture-1-1982 p. 224} {cite:nath-history-of-mughal-architecture-1-1982 p. 225} Onu Ahmedabad yakınlarındaki Sarkhahej'deki Şeyh Ahmed Khattu türbesine (1416-1451 yılları arasında) benzetir ve Şeyh'in Gujarat'ta kaldığı dönemde gördüğü muhtemeldir. {cite:nath-history-of-mughal-architecture-1-1982 p. 226}

@@ -1,17 +1,50 @@
-# «اليوم عن» daily series template (proposal §5).
-# Each day: a card id + a one-line prompt. The renderer picks day-of-year % N.
 series: al-yaum-an
-title: { ar: "اليوم عن…", en: "Today about…", fr: "Aujourd’hui, à propos de…" }
+title:
+  ar: اليوم عن…
+  en: Today about…
+  fr: Aujourd’hui, à propos de…
+  tr: Bugün hakkında...
+  id: Hari ini tentang...
 entries:
-  - card: cards/wordmap/adhaban.json
-    prompt: { ar: "كم صيغة للفظ «عذابًا» في القرآن؟", en: "How many forms of 'punishment' occur in the Quran?", fr: "Combien de formes du mot « châtiment » rencontre-t-on dans le Coran ?" }
-  - card: cards/wordmap/wa-bashshir.json
-    prompt: { ar: "من هم المبشَّرون في القرآن؟", en: "Who are given glad tidings in the Quran?", fr: "À qui une bonne nouvelle est-elle annoncée dans le Coran ?" }
-  - card: cards/lists/mafatih-al-faraj.yaml
-    prompt: { ar: "احفظ اليوم مفتاحًا واحدًا من مفاتيح الفرج.", en: "Memorize one key of relief today.", fr: "Retenir aujourd’hui une clé du soulagement." }
-  - card: cards/lists/al-sab-al-mubiqat.yaml
-    prompt: { ar: "راجع الموبقات السبع — واحذرها.", en: "Review the seven destructive sins — and beware them.", fr: "Revoir les sept péchés destructeurs et leurs mises en garde." }
-  - card: cards/explainers/salat-al-duha.yaml
-    prompt: { ar: "صلِّ الضحى اليوم ركعتين.", en: "Pray two rak'ahs of Duha today.", fr: "Accomplir aujourd’hui deux unités de la prière du duha." }
-  - card: cards/stories/ashab-al-kahf.yaml
-    prompt: { ar: "اقرأ قصة أصحاب الكهف وتدبرها.", en: "Read the story of the Cave's people and reflect.", fr: "Lire le récit des gens de la Caverne et y réfléchir." }
+- card: cards/wordmap/adhaban.json
+  prompt:
+    ar: كم صيغة للفظ «عذابًا» في القرآن؟
+    en: How many forms of 'punishment' occur in the Quran?
+    fr: Combien de formes du mot « châtiment » rencontre-t-on dans le Coran ?
+    tr: Kur'an'da "adhabban" kelimesinin kaç biçimi var?
+    id: Berapa banyak bentuk kata "adhabban" dalam Al-Qur'an?
+- card: cards/wordmap/wa-bashshir.json
+  prompt:
+    ar: من هم المبشَّرون في القرآن؟
+    en: Who are given glad tidings in the Quran?
+    fr: À qui une bonne nouvelle est-elle annoncée dans le Coran ?
+    tr: Kur'an'daki misyonerler kimlerdir?
+    id: Siapa para misionaris dalam Al-Qur'an?
+- card: cards/lists/mafatih-al-faraj.yaml
+  prompt:
+    ar: احفظ اليوم مفتاحًا واحدًا من مفاتيح الفرج.
+    en: Memorize one key of relief today.
+    fr: Retenir aujourd’hui une clé du soulagement.
+    tr: Bugün vulva anahtarlarından birini kaydedin.
+    id: Simpan salah satu kunci vulva hari ini.
+- card: cards/lists/al-sab-al-mubiqat.yaml
+  prompt:
+    ar: راجع الموبقات السبع — واحذرها.
+    en: Review the seven destructive sins — and beware them.
+    fr: Revoir les sept péchés destructeurs et leurs mises en garde.
+    tr: Yedi ölümcül şeyi gözden geçirin — ve onlara karşı dikkatli olun.
+    id: Tinjau kembali tujuh hal mematikan — dan waspadalah terhadap mereka.
+- card: cards/explainers/salat-al-duha.yaml
+  prompt:
+    ar: صلِّ الضحى اليوم ركعتين.
+    en: Pray two rak'ahs of Duha today.
+    fr: Accomplir aujourd’hui deux unités de la prière du duha.
+    tr: Bugün iki rekah dua edin.
+    id: Doalah Dua hari ini dua rak'ah.
+- card: cards/stories/ashab-al-kahf.yaml
+  prompt:
+    ar: اقرأ قصة أصحاب الكهف وتدبرها.
+    en: Read the story of the Cave's people and reflect.
+    fr: Lire le récit des gens de la Caverne et y réfléchir.
+    tr: Mağara İnsanlarının hikayesini okuyun ve üzerinde düşünün.
+    id: Bacalah kisah Orang-Orang Gua dan renungkanlah.

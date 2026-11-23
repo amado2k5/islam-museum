@@ -1,83 +1,294 @@
 surah: 7
 slug: al-araf
 sources_consulted:
-  - "Quranic Diagrammatic Overview (QDO draft) — Surah al-A'raf 8 sections (1-58, 59-64, 65-72, 73-79, 80-84, 85-102, 103-171, 172-206)"
-  - "Qurtubi vol.7 description (Diwan Press) — A'raf: stories of the prophets, Musa and Pharaoh at length"
+- Quranic Diagrammatic Overview (QDO draft) — Surah al-A'raf 8 sections (1-58, 59-64, 65-72, 73-79, 80-84, 85-102, 103-171, 172-206)
+- 'Qurtubi vol.7 description (Diwan Press) — A''raf: stories of the prophets, Musa and Pharaoh at length'
 map:
-  - title: { ar: "المقدمة: آدم وإبليس", en: "Introduction: Adam and Iblis" }
-    range: [1, 58]
-    family: stories
-    summary:
-      ar: "قصة الخلق والسجود وإباء إبليس، والهبوط، ولباس التقوى، وخلق السماوات والأرض والدعاء."
-      en: "Creation, the prostration and Iblis's refusal, the descent, the garment of God-consciousness, creation of the heavens and supplication."
-    children:
-      - { title: { ar: "السجود وإباء إبليس", en: "The Prostration, Iblis's Refusal" }, range: [11, 18] }
-      - { title: { ar: "الجنة والهبوط", en: "The Garden and the Descent" }, range: [19, 25] }
-      - { title: { ar: "لباس التقوى", en: "The Garment of Piety" }, range: [26, 27] }
-      - { title: { ar: "الزينة عند المساجد", en: "Adornments at Mosques" }, range: [31, 32] }
-      - { title: { ar: "الخلق والدعاء", en: "Creation and Supplication" }, range: [54, 56] }
-  - title: { ar: "نوح وقومه", en: "Noah and His People" }
-    range: [59, 64]
-    family: stories
-    summary:
-      ar: "أول المرسلين في السورة: دعوة نوح قومه إلى عبادة الله وحده فكذبوه فأنجاه الله وأغرقهم."
-      en: "The first messenger in the surah: Noah calls his people to Allah alone; they deny him — he is saved, they drowned."
-    children: []
-  - title: { ar: "هود وعاد", en: "Hud and Ad" }
-    range: [65, 72]
-    family: stories
-    summary:
-      ar: "هود يدعو عادا إلى التوحيد فيستكبرون بقوتهم، فأهلكهم الله بريح صرصر."
-      en: "Hud calls Ad to oneness; they boast of strength — Allah destroys them with a furious wind."
-    children: []
-  - title: { ar: "صالح وثمود", en: "Salih and Thamud" }
-    range: [73, 79]
-    family: stories
-    summary:
-      ar: "صالح وآية الناقة، فعقروها عتوا، فأخذتهم الرجفة."
-      en: "Salih and the she-camel sign; they hamstrung it in defiance — the earthquake seized them."
-    children:
-      - { title: { ar: "ناقة الله آية", en: "Allah's She-Camel as a Sign" }, range: [73, 73] }
-  - title: { ar: "لوط وقومه", en: "Lot and His People" }
-    range: [80, 84]
-    family: stories
-    summary:
-      ar: "إنكار لوط للفاحشة التي ما سبقهم إليها أحد، فأمطر الله عليهم حجارة."
-      en: "Lot denounces the indecency none committed before them — Allah rains stones upon them."
-    children: []
-  - title: { ar: "شعيب وسنة الله في القرى", en: "Shu'ayb and Allah's Way with Towns" }
-    range: [85, 102]
-    family: stories
-    summary:
-      ar: "شعيب يأمر مدين بالكيل والميزان، ثم بيان سنة الله: البأساء والضراء قبل التمكين."
-      en: "Shu'ayb commands Madyan to fair measure; then Allah's pattern: hardship before ease and establishment."
-    children:
-      - { title: { ar: "أوفوا الكيل والميزان", en: "Give Full Measure" }, range: [85, 85] }
-      - { title: { ar: "البأساء ثم التمكين", en: "Hardship, Then Establishment" }, range: [94, 96] }
-  - title: { ar: "موسى وفرعون وبنو إسرائيل", en: "Moses, Pharaoh, and the Israelites" }
-    range: [103, 171]
-    family: stories
-    summary:
-      ar: "أطول قصص السورة: الآيات والعصا، وإيمان السحرة، والطوفان والجراد، والميقات والألواح، والعجل، والسبعون."
-      en: "The surah's longest narrative: the signs and staff, the magicians' faith, plagues, the appointed time and Tablets, the calf, the seventy."
-    children:
-      - { title: { ar: "رسالة موسى والآيات", en: "Moses's Message and Signs" }, range: [104, 108] }
-      - { title: { ar: "إيمان السحرة", en: "The Magicians' Faith" }, range: [120, 126] }
-      - { title: { ar: "الطوفان والجراد والقمل", en: "Flood, Locusts, and Lice" }, range: [133, 135] }
-      - { title: { ar: "الميقات والألواح", en: "The Appointed Time and Tablets" }, range: [142, 147] }
-      - { title: { ar: "العجل والتوبة", en: "The Calf and Repentance" }, range: [148, 153] }
-      - { title: { ar: "السبعون والنبي الأمي", en: "The Seventy and the Unlettered Prophet" }, range: [155, 157] }
-      - { title: { ar: "أصحاب السبت", en: "The Sabbath People" }, range: [163, 166] }
-      - { title: { ar: "رفع الطور", en: "The Mount Raised Above Them" }, range: [171, 171] }
-  - title: { ar: "الخاتمة: الميثاق والذكر", en: "Closing: The Covenant and Remembrance" }
-    range: [172, 206]
-    family: faith
-    summary:
-      ar: "ميثاق الذر: ألست بربكم، وعبرة من أوتي الآيات فانسلخ، والأسماء الحسنى، وخذ العفو، والاستماع للقرآن."
-      en: "The covenant of the offspring — 'Am I not your Lord'; the lesson of the one given signs who slipped; the beautiful names; pardon; listening to the Quran."
-    children:
-      - { title: { ar: "ميثاق ألست بربكم", en: "The 'Am I Not Your Lord' Covenant" }, range: [172, 174] }
-      - { title: { ar: "الذي آتيناه آياتنا", en: "The One Given Our Signs" }, range: [175, 177] }
-      - { title: { ar: "الأسماء الحسنى", en: "The Most Beautiful Names" }, range: [180, 180] }
-      - { title: { ar: "خذ العفو", en: "Take to Pardoning" }, range: [199, 199] }
-      - { title: { ar: "الاستماع للقرآن والذكر", en: "Listening to the Quran, Remembrance" }, range: [204, 206] }
+- title:
+    ar: 'المقدمة: آدم وإبليس'
+    en: 'Introduction: Adam and Iblis'
+    tr: 'Giriş: Adem ve Şeytan'
+    id: 'Pendahuluan: Adam dan Iblis'
+  range:
+  - 1
+  - 58
+  family: stories
+  summary:
+    ar: قصة الخلق والسجود وإباء إبليس، والهبوط، ولباس التقوى، وخلق السماوات والأرض والدعاء.
+    en: Creation, the prostration and Iblis's refusal, the descent, the garment of God-consciousness, creation of the heavens and supplication.
+    tr: Yaratılışın hikayesi, secde, İblis'in gururu, iniş, dindarlık giysisi, göklerin ve yerin yaratılışı ve yalvarış.
+    id: Kisah penciptaan, sujud, kesombongan Iblis, turun, pakaian kesalehan, penciptaan langit dan bumi, serta permohonan.
+  children:
+  - title:
+      ar: السجود وإباء إبليس
+      en: The Prostration, Iblis's Refusal
+      tr: Secde ve Şeytanın Gururu
+      id: Sujud dan kesombongan Setan
+    range:
+    - 11
+    - 18
+  - title:
+      ar: الجنة والهبوط
+      en: The Garden and the Descent
+      tr: Cennet ve Iniş
+      id: Surga dan Penurunan
+    range:
+    - 19
+    - 25
+  - title:
+      ar: لباس التقوى
+      en: The Garment of Piety
+      tr: dindarlık giysisi
+      id: pakaian kesalehan
+    range:
+    - 26
+    - 27
+  - title:
+      ar: الزينة عند المساجد
+      en: Adornments at Mosques
+      tr: Camilerde süslemeler
+      id: Dekorasi di masjid
+    range:
+    - 31
+    - 32
+  - title:
+      ar: الخلق والدعاء
+      en: Creation and Supplication
+      tr: Yaratılış ve Dua
+      id: Penciptaan dan Doa
+    range:
+    - 54
+    - 56
+- title:
+    ar: نوح وقومه
+    en: Noah and His People
+    tr: Nuh ve halkı
+    id: Nuh dan kaumnya
+  range:
+  - 59
+  - 64
+  family: stories
+  summary:
+    ar: 'أول المرسلين في السورة: دعوة نوح قومه إلى عبادة الله وحده فكذبوه فأنجاه الله وأغرقهم.'
+    en: 'The first messenger in the surah: Noah calls his people to Allah alone; they deny him — he is saved, they drowned.'
+    tr: 'Suredeki ilk elçi: Nuh''un halkına yalnızca Allah''a ibadet etmeleri için yaptığı çağrısı, fakat onlar onu reddetti, fakat Allah onu kurtardı ve onları boğdu.'
+    id: 'Utusan pertama dalam surat: seruan Nuh kepada umat-nya untuk hanya beribadah kepada Allah, tetapi mereka menolak-Nya, namun Allah menyelamatkannya dan menenggelamkan mereka.'
+  children: []
+- title:
+    ar: هود وعاد
+    en: Hud and Ad
+    tr: Hood and Return
+    id: Hood dan Return
+  range:
+  - 65
+  - 72
+  family: stories
+  summary:
+    ar: هود يدعو عادا إلى التوحيد فيستكبرون بقوتهم، فأهلكهم الله بريح صرصر.
+    en: Hud calls Ad to oneness; they boast of strength — Allah destroys them with a furious wind.
+    tr: Hud, 'Ad'ı tek tanrıcılığa çağırır, ancak güçleri konusunda kibirlidirler, bu yüzden Tanrı onları kükreyen bir rüzgarla yok eder.
+    id: Hud menyerukan 'Ad ke momodeisme, tetapi mereka sombong tentang kekuatan mereka, sehingga Tuhan menghancurkan mereka dengan angin yang mengaum.
+  children: []
+- title:
+    ar: صالح وثمود
+    en: Salih and Thamud
+    tr: Salih ve Semud
+    id: Saleh dan Thamud
+  range:
+  - 73
+  - 79
+  family: stories
+  summary:
+    ar: صالح وآية الناقة، فعقروها عتوا، فأخذتهم الرجفة.
+    en: Salih and the she-camel sign; they hamstrung it in defiance — the earthquake seized them.
+    tr: Salih ve ayet-el-Naka, öfkeyle onu sakatladılar ve titreme onları sardı.
+    id: Saleh dan Ayat al-Naqa, sehingga mereka melukai Sakura dengan amarah, dan gemetar menguasai mereka.
+  children:
+  - title:
+      ar: ناقة الله آية
+      en: Allah's She-Camel as a Sign
+      tr: Tanrı'nın dişi devesi bir ayettir
+      id: Unta betina Tuhan adalah sebuah ayat
+    range:
+    - 73
+    - 73
+- title:
+    ar: لوط وقومه
+    en: Lot and His People
+    tr: Lot ve halkı
+    id: Lot dan kaumnya
+  range:
+  - 80
+  - 84
+  family: stories
+  summary:
+    ar: إنكار لوط للفاحشة التي ما سبقهم إليها أحد، فأمطر الله عليهم حجارة.
+    en: Lot denounces the indecency none committed before them — Allah rains stones upon them.
+    tr: Lut'un daha önce hiç kimsenin işlemediği ahlaksızlığı reddetmesi, böylece Tanrı üzerlerine taş yağdırdı.
+    id: Penyangkalan Lot atas ketidakmoralan yang belum pernah dilakukan siapa pun sebelum mereka, sehingga Tuhan menurunkan batu ke atas mereka.
+  children: []
+- title:
+    ar: شعيب وسنة الله في القرى
+    en: Shu'ayb and Allah's Way with Towns
+    tr: Köylerde Şuayb ve Allah'ın Sünneti
+    id: Shuayb dan Sunnah Tuhan di desa-desa
+  range:
+  - 85
+  - 102
+  family: stories
+  summary:
+    ar: 'شعيب يأمر مدين بالكيل والميزان، ثم بيان سنة الله: البأساء والضراء قبل التمكين.'
+    en: 'Shu''ayb commands Madyan to fair measure; then Allah''s pattern: hardship before ease and establishment.'
+    tr: 'Şuayb, borçluya ölçüp tartmasını emreder, ardından Allah''ın yasasını açıklar: güçlenmeden önceki zorluk ve sıkıntı.'
+    id: 'Shu''ayb memerintahkan penghutang untuk mengukur dan menimbang, lalu menjelaskan hukum Tuhan: kesulitan dan kesulitan sebelum kekuasaan.'
+  children:
+  - title:
+      ar: أوفوا الكيل والميزان
+      en: Give Full Measure
+      tr: Yeter ölçü ve denge
+      id: Cukup ukuran dan keseimbangan
+    range:
+    - 85
+    - 85
+  - title:
+      ar: البأساء ثم التمكين
+      en: Hardship, Then Establishment
+      tr: Sefalet ve ardından güçlenme
+      id: Kesengsaraan lalu pemberdayaan
+    range:
+    - 94
+    - 96
+- title:
+    ar: موسى وفرعون وبنو إسرائيل
+    en: Moses, Pharaoh, and the Israelites
+    tr: Musa, Firavun ve İsrailoğulları
+    id: Musa, Firaun, dan Anak-anak Israel
+  range:
+  - 103
+  - 171
+  family: stories
+  summary:
+    ar: 'أطول قصص السورة: الآيات والعصا، وإيمان السحرة، والطوفان والجراد، والميقات والألواح، والعجل، والسبعون.'
+    en: 'The surah''s longest narrative: the signs and staff, the magicians'' faith, plagues, the appointed time and Tablets, the calf, the seventy.'
+    tr: 'Surenin en uzun hikayeleri: Ayetler ve Asa, Sihirbazların İnancı, Sel ve Çekirgeler, Miqat ve Tabletler, Buzağı ve Yetmişler.'
+    id: 'Cerita-cerita terpanjang surat: Ayat-ayat dan Tongkat, Iman Para Penyihir, Banjir dan Belalang, Miqat dan Tablet, Anak Sapi, dan Tujuh Puluh.'
+  children:
+  - title:
+      ar: رسالة موسى والآيات
+      en: Moses's Message and Signs
+      tr: Musa'nın Mektubu ve Ayetler
+      id: Surat Musa dan Ayat-ayat
+    range:
+    - 104
+    - 108
+  - title:
+      ar: إيمان السحرة
+      en: The Magicians' Faith
+      tr: Büyücülerin İnancı
+      id: Iman Para Penyihir
+    range:
+    - 120
+    - 126
+  - title:
+      ar: الطوفان والجراد والقمل
+      en: Flood, Locusts, and Lice
+      tr: Sel, çekirge ve bit
+      id: Banjir, belalang, dan kutu
+    range:
+    - 133
+    - 135
+  - title:
+      ar: الميقات والألواح
+      en: The Appointed Time and Tablets
+      tr: Miqat ve Tabletler
+      id: Miqat dan Tablet
+    range:
+    - 142
+    - 147
+  - title:
+      ar: العجل والتوبة
+      en: The Calf and Repentance
+      tr: Buzağı ve Tövbe
+      id: Anak Sapi dan Pertobatan
+    range:
+    - 148
+    - 153
+  - title:
+      ar: السبعون والنبي الأمي
+      en: The Seventy and the Unlettered Prophet
+      tr: Yetmişler ve okuma yazma bilmeyen peygamber
+      id: Tujuh Puluh dan nabi yang buta huruf
+    range:
+    - 155
+    - 157
+  - title:
+      ar: أصحاب السبت
+      en: The Sabbath People
+      tr: Cumartesi Sahipleri
+      id: Pemilik Sabtu
+    range:
+    - 163
+    - 166
+  - title:
+      ar: رفع الطور
+      en: The Mount Raised Above Them
+      tr: Faz Kaldırma
+      id: Angkat Fase
+    range:
+    - 171
+    - 171
+- title:
+    ar: 'الخاتمة: الميثاق والذكر'
+    en: 'Closing: The Covenant and Remembrance'
+    tr: 'Sonuç: Antlaşma ve Anma'
+    id: 'Kesimpulan: Perjanjian dan Kenangan'
+  range:
+  - 172
+  - 206
+  family: faith
+  summary:
+    ar: 'ميثاق الذر: ألست بربكم، وعبرة من أوتي الآيات فانسلخ، والأسماء الحسنى، وخذ العفو، والاستماع للقرآن.'
+    en: The covenant of the offspring — 'Am I not your Lord'; the lesson of the one given signs who slipped; the beautiful names; pardon; listening to the Quran.
+    tr: 'Sözünün ahidi: Ben sizin Rabbiniz değil miyim? Ayetler verilenlerden bir ders olarak, güzel isimler alınır, bağışlanır ve Kur''an''ı dinleriz.'
+    id: 'Perjanjian Sabda: Bukankah aku Tuhanmu? Pelajaran dari mereka yang diberi ayat-ayat itu, sehingga kita akan diambil nama-nama indah, dan menerima pengampunan, dan mendengarkan Al-Qur''an.'
+  children:
+  - title:
+      ar: ميثاق ألست بربكم
+      en: The 'Am I Not Your Lord' Covenant
+      tr: 'Ferman: Ben sizin Efendiniz değilim'
+      id: Piagam Aku bukan Tuanmu
+    range:
+    - 172
+    - 174
+  - title:
+      ar: الذي آتيناه آياتنا
+      en: The One Given Our Signs
+      tr: Ki biz işaretlerimizi verdik
+      id: Yang telah Kami berikan tanda-tanda Kami
+    range:
+    - 175
+    - 177
+  - title:
+      ar: الأسماء الحسنى
+      en: The Most Beautiful Names
+      tr: Güzel İsimler
+      id: Nama-nama Indah
+    range:
+    - 180
+    - 180
+  - title:
+      ar: خذ العفو
+      en: Take to Pardoning
+      tr: Affı al
+      id: Ambil pengampunan
+    range:
+    - 199
+    - 199
+  - title:
+      ar: الاستماع للقرآن والذكر
+      en: Listening to the Quran, Remembrance
+      tr: Kur'an'ı dinlemek ve anmak
+      id: Mendengarkan Al-Qur'an dan Kenangan
+    range:
+    - 204
+    - 206

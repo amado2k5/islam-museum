@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1431"
-label: { ar: "الموطأ 1431 — مالك: لا بأس بأكل الحيتان يصيدها المجوسي، لقول النبي في البحر هو الطهور ماؤه الحل ميتته", en: "Muwatta 1431", es: "Muwatta 1431", fr: "Muwatta 1431", ur: "موطا 1431" }
+label: { ar: "الموطأ 1431 — مالك: لا بأس بأكل الحيتان يصيدها المجوسي، لقول النبي في البحر هو الطهور ماؤه الحل ميتته", en: "Muwatta 1431", es: "Muwatta 1431", fr: "Muwatta 1431", ur: "موطا 1431", tr: "El-Muvatta 1431 — Malik: Mecusilerin yakaladığı balinaları yemekte bir sakınca yoktur, çünkü Peygamber deniz hakkında şöyle buyurmuştur: Suyu temizdir ve ölü hayvanları helaldir.", id: "Al-Muwatta 1431 — Malik: Tidak ada salahnya memakan ikan paus yang ditangkap oleh seorang Majusi, karena Nabi bersabda tentang laut: airnya suci dan bangkai hewan di dalamnya halal." }
 text: "هُو الطَّهُورُ مَاؤُهُ، الْحِلُّ مَيْتَتهُ"
 summary:
   ar: "يقول مالك لا بأس بأكل الحيتان يصيدها المجوسي، لأن رسول الله قال في البحر هو الطهور ماؤه الحل ميتته. {cite:muwatta-maruf-1997 p.640}"
+  tr: "Malik, Mecusilerin yakaladığı balinaları yemenin sakıncası olmadığını söyler; çünkü Allah'ın Resulü deniz hakkında şöyle buyurmuştur: \"Suyu temizdir ve ölü hayvanları helaldir.\" {cite:muwatta-maruf-1997 s.640}"
+  id: "Malik mengatakan tidak ada yang salah dengan memakan paus yang ditangkap oleh seorang Majusi, karena Rasulullah SAW bersabda tentang laut: airnya suci dan bangkai hewan di dalamnya halal. {cite:muwatta-maruf-1997 p.640}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-11-sayd }
   - { type: basis_for, target: practice/sayd, sources: [source/muwatta-maruf-1997] }

@@ -1,6 +1,6 @@
 id: invention/kashi-sine-one-degree
 class: invention
-label: { ar: "حساب الكاشي التكراري لجيب درجة واحدة", en: "Al-Kashi's iterative sine-one-degree computation", ur: "ایک درجے کے جیب کا کاشی کا تکراری حساب", es: "El cálculo iterativo de seno de un grado de Al-Kashi", fr: "Calcul itératif du sinus à un degré d'Al-Kashi" }
+label: { ar: "حساب الكاشي التكراري لجيب درجة واحدة", en: "Al-Kashi's iterative sine-one-degree computation", ur: "ایک درجے کے جیب کا کاشی کا تکراری حساب", es: "El cálculo iterativo de seno de un grado de Al-Kashi", fr: "Calcul itératif du sinus à un degré d'Al-Kashi", tr: "Tek bir sinüsün tekrarlayan toplamını hesaplama", id: "Menghitung jumlah berulang dari sebuah sinus tunggal" }
 names:
   - { kind: alternate, lang: en, value: "Numerical cubic solution associated with the Chord and Sine" }
 summary:
@@ -9,6 +9,8 @@ summary:
   ur: "وتر و جیب میں مکعبی مساوات سے متعلق عددی بہتری؛ جیب یا خط کش و پرکار سے تثلیث کی ایجاد نہیں {cite:kashi-mactutor final treatise}۔"
   es: "Mejora numérica asociada con una cúbica en la cuerda y el seno, no invención del seno o trisección con regla y compás {cite:kashi-mactutor final treatise}."
   fr: "Amélioration numérique associée à une cubique dans la Corde et le Sinus, et non invention du sinus ou de la trisection à la règle et au compas {cite: traité final de Kashi-Mactutor}."
+  tr: "Kirişler ve sinüsler üzerine incelemede kübik bir denkleme ilişkin sayısal iyileştirme, sinüsün icadı veya cetvel ve pergel ile üçgenleme değil {cite:kashi-mactutor final treatise}."
+  id: "Perbaikan numerik terkait dengan persamaan kubik dalam risalah tentang tali busur dan sinus, bukan penemuan sinus atau triangulasi dengan penggaris dan kompas {cite:kashi-mactutor final treatise}."
 domain: mathematics
 kind: algorithm
 disciplines: [mathematics, astronomy]

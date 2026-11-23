@@ -1,0 +1,9 @@
+---
+id: concept/insects-hasharat
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/insects-hasharat.md}
+---
+## Ringkasan
+Serangga adalah hewan kecil di bumi dan hewan mereka, dan dikatakan bahwa mereka adalah serangga di bumi yang tidak mengandung racun, dan berbeda dari definisi di antara ahli zoologi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7091} Ada dua pendapat tentang memakannya: Hanafi, Shafi'i, dan Hanbal melarangnya kecuali belalang, sementara Shafi'i dan Hanbalis mengecualikan kadal, jerboa, dan lainnya. Malikis mengizinkan semua serangga kecuali babi, dan beberapa melarangnya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7091} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7092} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7093} Dan siapa pun yang memakannya jika memiliki jiwa cair, mereka harus dibersihkan, dan apa yang tidak memiliki jiwa cair, seperti belalang, tidak diwajibkan dimakan menurut mayoritas yang mengizinkannya. Malik berkata: Harus dimakan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7094} Membunuh serangga tidak sepenuhnya diperintahkan maupun dilarang; membunuh serangga berbahaya seperti ular lima langkah, ular, tokek, dan tikus dianjurkan. Menurut syafi'i, membunuh semut solomonial, lebah, dan katak dilarang. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7095} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7096} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7097} Muharram berhak membunuh serangga menurut Hanafi, Shafi'i, dan Hanbali, karena tidak dianggap sebagai perburuan yang dilarang. Malikis mengizinkan membunuh yang berbahaya untuk mencegah bahaya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7097} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7098}

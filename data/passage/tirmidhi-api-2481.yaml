@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "2481"
-label: { ar: "جامع الترمذي 2481 — الأب والأبوة", en: "Jami' al-Tirmidhi 2481 — the father and fatherhood", ur: "جامع ترمذی 2481 — باپ اور والدیت", es: "Jami' al-Tirmidhi 2481 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 2481 — le père et la paternité" }
+label: { ar: "جامع الترمذي 2481 — الأب والأبوة", en: "Jami' al-Tirmidhi 2481 — the father and fatherhood", ur: "جامع ترمذی 2481 — باپ اور والدیت", es: "Jami' al-Tirmidhi 2481 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 2481 — le père et la paternité", tr: "Cami' el-Tirmizi 2481 — Baba ve Babalık", id: "Jami' al-Tirmidhi 2481 — Ayah dan Peran Ayah" }
 text: "… بْنُ أَبِي أَيُّوبَ، عَنْ أَبِي مَرْحُومٍ عَبْدِ الرَّحِيمِ بْنِ مَيْمُونٍ، عَنْ سَهْلِ بْنِ مُعَاذِ بْنِ أَنَسٍ الْجُهَنِيِّ، عَنْ أَبِيهِ، أَنَّ رَسُولَ اللَّهِ قَالَ \" مَنْ تَرَكَ اللِّبَاسِ تَوَاضُعًا لِلَّهِ وَهُوَ يَقْدِرُ عَلَيْهِ دَعَاهُ اللَّهُ يَوْمَ الْقِيَامَةِ عَلَى رُءُوسِ الْخَلاَئِقِ حَتَّى يُخَيِّرَهُ مِنْ أَىِّ حُلَلِ الإِيمَانِ شَاءَ يَلْبَسُهَا \". هَذَا حَدِيثٌ حَسَنٌ. وَمَعْنَى قَوْلِهِ \" حُلَلِ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 2481، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 2481، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe de Jami' al-Tirmidhi, n.º 2481 (Capítulos sobre la descripción del Día del Juicio, Ar-Riqaq y Al-Wara'), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 2481 (chapitres sur la description du Jour du Jugement, Ar-Riqaq et Al-Wara'), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Cami' el-Tirmizi'de yer alan 2481 numaralı hadiste baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı bu hadisi Kur'an, Sünnet, biyografi ve konuyla ilgili diğer kitaplardan metinlerle birleştirir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 2481, menyebutkan tentang ayah dan peran ayah. Fitur \"Peran Ayah dalam Islam\" menggabungkan hadits ini dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang subjek tersebut."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2481 (book 37 hadith 67); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

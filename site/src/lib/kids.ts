@@ -7,7 +7,7 @@ import { parseLocalized } from "./i18n";
 import { repoPath } from "./paths";
 import type { Lang } from "./i18n";
 
-export interface Bilingual { ar: string; en: string; ur?: string; fr?: string }
+export interface Bilingual { ar: string; en: string; ur?: string; fr?: string; es?: string; tr?: string; id?: string }
 
 export interface QuestStop {
   slug: string;
@@ -53,7 +53,7 @@ const esc = (s: string) =>
  */
 export function kidsHonorify(text: string, lang: Lang, names: string[]): string {
   let t = esc(text);
-  const suffix = lang === "ar" ? "عليه السلام" : lang === "ur" ? "علیہ السلام" : lang === "fr" ? "(paix soit sur lui)" : lang === "es" ? "(la paz sea con él)" : "(peace be upon him)";
+  const suffix = lang === "ar" ? "عليه السلام" : lang === "ur" ? "علیہ السلام" : lang === "fr" ? "(paix soit sur lui)" : lang === "es" ? "(la paz sea con él)" : lang === "tr" ? "(selâm onun üzerine olsun)" : lang === "id" ? "(semoga keselamatan atasnya)" : "(peace be upon him)";
   for (const name of names) {
     if (!name) continue;
     const i = t.indexOf(name);
@@ -64,7 +64,8 @@ export function kidsHonorify(text: string, lang: Lang, names: string[]): string 
 }
 
 /** The text for a language; a language without its own text falls back to Arabic (same script and direction). */
-const pick = <T>(b: { ar: T; en: T; ur?: T; fr?: T }, lang: Lang): T => (b[lang] ?? b.ar);
+const pick = <T>(b: { ar: T; en: T; ur?: T; fr?: T; es?: T; tr?: T; id?: T }, lang: Lang): T =>
+  b[lang] ?? (lang === "ar" || lang === "ur" ? b.ar : b.en ?? b.ar);
 
 /** Select the page language and honorify each stop's story with that stop's prophet name. */
 export function viewQuestStops(stops: QuestStop[], lang: Lang): QuestStopView[] {
@@ -155,7 +156,7 @@ export interface SproutLine { slug: string; icon: string; line: string; lineHtml
 /** Buds-lane (4–6) one-liners: lang-selected sprout, honorified with that stop's prophet name. */
 export function viewSproutLines(stops: QuestStop[], lang: Lang): SproutLine[] {
   return stops.map((s) => {
-    const line = s.sprout?.[lang] ?? (lang === "fr" || lang === "es" ? s.sprout?.en : s.sprout?.ar) ?? "";
+    const line = s.sprout?.[lang] ?? (lang === "fr" || lang === "es" || lang === "tr" || lang === "id" ? s.sprout?.en : s.sprout?.ar) ?? "";
     return {
       slug: s.slug,
       icon: s.icon,

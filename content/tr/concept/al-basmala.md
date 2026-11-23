@@ -1,0 +1,34 @@
+---
+id: concept/al-basmala
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/al-basmala.md}
+---
+## Özet
+Basmele, "En Rahmetli, En Merhametli Allah'ın adıyla" ifadesidir; bu ifade Kur'an'ın açılışı ve müminlerin eylemleriyle başlar. El-Şaarawi, Kur'an'ın Allah'ın adıyla birlikte indirildiğine ve ilk vahiyin 'Rabbinin adıyla oku' ([[passage/quran-96-1|El-'Alak 1]]) olduğuna inanır; bu nedenle okuyan Allah'ın amaçladığı en baştan başlar. {cite:tafsir-sharawi-khawatir-scan p.41}
+
+## Yardım ve övgü arıyorum
+El-Şaravi, Basmala ile El-Hemd arasında ayrım yapar: Basmale, insan kapasitesinin ötesinde konularda Allah'ın gücünden yardım isterken, övgü Tanrı'nın yaptıkları için şükrandır. Basmele'deki 'Majeste' kelimesi mükemmellik özelliklerini kapsar, bu yüzden her eylemde aranır. {cite:tafsir-sharawi-khawatir-scan p.46} {cite:tafsir-sharawi-khawatir-scan p.52}
+
+## İsimle başlayın
+El-Şaaravi, müminin Allah'ın adıyla başladığı hayat örnekleri verir: yemek, muayene, eve giriş ve evlilik. İsmi ananın, Allah'ı kızdıracak bir eyleme başlamaktan utandığını söyler. Ayrıca, Basmala ile başlamayan önemli bir şeyin kesildiğini belirten bir hadisi aktarır ve dipnotta, Al-Suyuti'nin bunu El-Cemi el-Saghir'de anlattığını ve aktarım zincirini sağlam olarak değerlendirdiğini belirtir. {cite:tafsir-sharawi-khawatir-scan p.47}
+
+## Kuyruklu yıldız ve Basmala
+El-Şaarawi, günahın Basmala'yı engellemediğine inanır; çünkü 'En Lütuf, En Merhametli' ayetleri bize bağışlamayı hatırlatır, çünkü Tanrı ona merhametle girer. {cite:tafsir-sharawi-khawatir-scan p.52} {cite:tafsir-sharawi-khawatir-scan p.53}
+
+## Yazarın Görüşü
+Bu, El-Şaaravi'nin yorumudur ve ona atfedilmiştir. Bu sayfalarda Basmele'nin yükümlülüğü veya her sureden bir ayet olduğu konusunda başka fıhil veya yorumlayıcı görüşler sunulmamıştır ve henüz gözden geçirilmemiştir; baskı doğrulanmamıştır ve sayılar yayımlanmadan önceki basılı versiyonla eşleşmektedir.
+
+## Al-Shaarawi'nin "İnanç Buluşması" programında
+Meeting Faith [[work/likaa-al-iman|'in on yedinci bölümünde]] El-Şaarawi [[person/muhammad-mutawalli-al-shaarawi|'ye]] sorulur: Basmala Kur'an'ın bir parçası mı? {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep17 00:00:00} Surelerin başında, Bara'ah suresi hariç ve bir kez En-Naml Suresi'nin merkezinde ([[passage/quran-27-30|An-Naml 30]]) yer aldığını söyler; bu nedenle çarmıhtaki ayet Kur'an ve sureden bir ayettir. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep17 00:00:30} Bunun El-Fatiha'da bir ayet olduğuna inanır ve bu nedenle El-Fetiye ikinci ayet olarak kabul edilir. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep17 00:01:00} Fetiye ve En-Naml olmayan diye gelince, onlar Kur'an'dan ona gelmiştir, ancak her sureden bir ayet değildir; daha çok sureleri ayırmak için gelmişlerdir. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep17 00:01:00} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep17 00:01:30}
+
+## Tantawi'nin "Al-Tafsir al-Waseet" adlı eserinde
+[[person/muhammad-sayyid-tantawi|Muhammed Seyyid Tantavi]], [[work/al-tafsir-al-wasit|Al-Tafsir Al-Waseet]]'te alimlerin Basmela'nın En-Naml Suresi'[[passage/quran-27-30|nden bir ayetin parçası olduğu yönündeki görüş birliğini]] anlatır ve sonrasında aralarındaki anlaşmazlık şudur: Sureleri ayırmak için ayrı bir ayet mi indirilmiştir, yoksa El-Fatiha ile her bir sureden bir ayet mi? {cite:tafsir-tantawi-wasit p.17} Bazıları bunun El-Fatiha'dan ve her sureden bir ayet olduğuna inanır ve argümanları arasında, ilk nesillerin Muşaf'ta bunu onayladığı, içinde olmayan şeylerin çıkarılmasını emrettiği ve bu yüzden 'Ameen' yazmadıkları belirtilmiştir; [[person/abdullah-ibn-abbas|]] İbn Abbas [[person/abu-hurayra|, İbn Ömer]], Ebu Hureyre [[person/said-ibn-jubayr|]], Seyid bin Cübeyr [[person/al-shafii|]], Şafii [[person/ahmad-ibn-hanbal|ve Ahmed de görüşlerinden birinde bunu]] söylediler. {cite:tafsir-tantawi-wasit p.17} Diğerleri bunun El-Fatiha'dan bir ayet ya da başka bir ayet değil, ayrılmak ve bereket aramak için Kur'an'dan indirilmiş tek bir ayet olduğunu düşünür. Argümanlarından biri, eğer bu ayet Fetihe ya da her bir sureden olsaydı, insanların bu konuda farklı görüşe düşmeyeceğidir. {cite:tafsir-tantawi-wasit p.17} Namazda, yüksek sesle veya gizlice okunma zorunluluğu konusunda da anlaşmazlık olduğu belirtilir ve bunun doğrulanması fıkıh kitapları ve hüküm ayetlerinin yorumlarına atıfta bulunur. {cite:tafsir-tantawi-wasit p.17} Tevbe suresinin başlangıcının olmaması [[question/why-no-basmala-in-surat-al-tawba|ise, Tevbe suresinin neden Temele ile başlamadığı]] şeklinde kaydedilmiştir..
+
+Anlamında, Basranlılardan 'ism'in 'sama'dan, Kufanlılardan ise 'sama'dan türediği bildirilir. Basran görüşü, küçültme ve çoğul ('sama' (isimler) kelimeleri köküne döndürür görüşü tarafından desteklenir. {cite:tafsir-tantawi-wasit p.15} [[person/al-qurtubi|Al-Qurtubi'den ']] yücelik' kelimesinin Allah'ın en büyük ve en kapsamlı isimleri olduğu bildirilir. 'Ar-Rahman al-Rahim' hakkında ifadeler belirtir; 'al-rahman'ın 'büyük merhamet', 'al-rahim'in ise sonsuzluk anlamına geldiğini ve genitif ile genitifin 'abtida' kelimesinin atladığı biçime bağlı olduğunu, yani Allah'ın adıyla kutsanmış bir şekilde okumaya başlarım, putperestlerin tanrılarının isimleriyle başlattıklarını reddederim. {cite:tafsir-tantawi-wasit p.15} {cite:tafsir-tantawi-wasit p.16}
+
+## El-Taberi'nin Tefsir'inde: Basmala ve Yapısı
+El-Taberi, tefsir alimleri ve okunanların surenin 'yedi' olarak adlandırıldığını, çünkü yedi ayetten oluştuğunu, onu yedi ayet yapan ayetler konusunda anlaşmazlık yaşadıklarını belirtir: Kufe halkının çoğunluğu 'En Rahman ve Merhametli Allah'ın adıyla' bundan geldiğini söylerken, diğerleri bunun kendilerinden biri olmadığını ve yedincinin 'onlara bahşedildiğini' söyler; bu, Medine'deki çoğu ayetçinin görüşüdür {cite:tafsir-tabari-shakir-v01 p. 109}.
+Daha sonra "Bismillah"ın konuşmadaki anlamını açıklar: Allah'ın Peygamberini tüm eylemlerinden önce güzel adlarını anmaya öncelik vererek disipline ettiğini, böylece söylemenin Sünnet'e ve ardından yaratılışa dönüştüğünü, "Bismillah" ifadesinin görünürdeki anlamının, 'B' {cite:tafsir-tabari-shakir-v01 p. 114} harfinin eklendiği atlanmış fiili ortaya çıkarmaya yettiğini.
+Tahmin meselesine gelince, el-Taberi kendi kendine itiraz eder: Neden 'Allah'ın adıyla' demedi, 'Tanrı'nın adıyla duruyorum' yerine ve anlamının 'Tanrı'yı her şeyden önce anarak başlarım' olduğunu söylüyor, önceden belirlenmiş fiilin tam olarak 'Tanrı tarafından okuyorum' olduğunu değil {cite:tafsir-tabari-shakir-v01 p. 115} {cite:tafsir-tabari-shakir-v01 p. 116}.

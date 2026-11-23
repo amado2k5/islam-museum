@@ -10,7 +10,7 @@ name: Deploy the shared parts (reusable, one environment)
 #   (sitemaps, feed, llms.txt, search synonyms, favicons, the API catalog), with the deploy stamp;
 # - the site Worker (routing and rules) with its assets (scripts, styles, fonts, the root page, robots.txt);
 # - the Cloudflare Pages project, with the same assets.
-# What it never touches: any language's pages (ar/, en/, ur/, fr/, es/) or search index (pagefind-<lang>/). Those are
+# What it never touches: any language's pages (ar/, en/, ur/, fr/, es/, tr/, id/) or search index (pagefind-<lang>/). Those are
 # published by the "Deploy <lang> pages" workflows. publish.mjs --only-shared compares the build with the part of the
 # publish record that belongs to no language and writes the rest of the record back as it was.
 #
@@ -238,7 +238,7 @@ jobs:
           rm dist-shared.tar.zst
           test -f dist/index.html
           test -d dist/api
-          for d in ar en ur fr es pagefind-ar pagefind-en pagefind-ur pagefind-fr pagefind-es; do
+          for d in ar en ur fr es tr id pagefind-ar pagefind-en pagefind-ur pagefind-fr pagefind-es pagefind-tr pagefind-id; do
             [ ! -e "dist/$d" ] || { echo "::error::The shared artifact holds $d/, which belongs to a language."; exit 1; }
           done
           [ -z "$(ls dist/sitemap*.xml 2>/dev/null)" ] || { echo "::error::The shared artifact holds a sitemap; it comes from the sitemap job only."; exit 1; }

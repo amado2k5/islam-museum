@@ -1,0 +1,21 @@
+---
+id: concept/qissat-ashab-al-qarya
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/qissat-ashab-al-qarya.md}
+---
+## Ringkasan
+Dalam episode kelima serial "A Story and Lesson," Omar Abdelkafi menceritakan kisah penduduk desa yang dikirim oleh para utusan, menjadikannya bukti bahwa kebenaran tidak pernah kekurangan pendukung dan hal pertama yang ditemui para utusan adalah penyangkalan. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:01:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:02:30}
+
+## Penolakan lalu penguatan
+Disebutkan bahwa Allah mengirim dua orang ke desa, tetapi mereka menyangkal, sehingga Dia memperkuat mereka dengan yang ketiga, berkata, 'Kami diutus kepada kalian.' Orang-orang itu menjawab bahwa mereka hanyalah manusia seperti mereka dan mereka berbohong. Dia berkata, 'Allah memerintahkan Nabi-Nya untuk memberi teladan ini bagi umat-Nya.' {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:01:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:02:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:02:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:04:00} Dia percaya bahwa kelimpahan utusan kepada suatu bangsa bukanlah bukti kebaikan mereka, melainkan banyaknya penyakit mereka. Banyaknya dokter di sekitar orang sakit menunjukkan banyaknya penyakitnya. Dalam konteks ini disebutkan bahwa utusan Anak-anak Israel sangat banyak (jumlah yang disebutkan oleh Taqribi dari pernyataannya, needs_source). {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:05:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:05:30}
+
+## Habib Al-Najjar
+Ia mengatakan bahwa seorang pria dari desa mendukung para utusan, yang namanya dalam buku sejarah dan eksposisi adalah Habib al-Najjar, dikenal sebagai sahabat Yasin, dan ia datang untuk mendorong rakyatnya mengikuti utusan yang tidak meminta hadiah selama mereka dipandu. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:04:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:05:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:06:00} Ia menceritakan bahwa rakyatnya membunuhnya dan menginjak-injaknya dengan kaki mereka, dan ketika jiwanya pergi, ia diperintahkan untuk masuk ke Surga, menjadikannya contoh akhir yang baik, dan mengatakan bahwa hal itu membutuhkan kesabaran selama satu jam atas kebenaran. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:06:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:09:30}
+
+## Penyimpangan Sheikh
+- Dikatakan seorang pria bertanya kepada Al-Hasan al-Basri: Saya biasa menjahit pakaian para peziarah, jadi apakah saya berdosa? Dia berkata: Kalian seperti para peziarah, dan dia memanggil seseorang untuk tidak mendukung kebohongan agar tidak berkumpul dengan keluarganya. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:01:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:01:30}
+- Ia melanjutkan kisah [[person/abdullah-ibn-salam|Abdullah ibn Salam]] bersama rakyatnya, sebagai bukti penyangkalan tersebut. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:02:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:04:00}
+- Dia berbicara tentang [[concept/al-rizq-al-rububi|makanan]] dan bahwa itu ada di langit, serta menceritakan kisah Salomo dan semut itu. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:06:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:07:00}
+- Diceritakan oleh para sarjana bahwa seseorang lahir menangis sementara keluarganya tertawa, jadi ia harus bekerja sampai ia pergi dari dunia ini sambil tertawa sementara mereka menangis, dan berkata: Orang yang benar berkata, saat dibawa ke kuburnya, 'Bawalah aku ke depan.' {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:08:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:08:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep05 00:09:00}

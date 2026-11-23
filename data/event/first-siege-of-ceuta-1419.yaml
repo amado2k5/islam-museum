@@ -1,13 +1,15 @@
 id: event/first-siege-of-ceuta-1419
 class: event
 kind: siege
-label: { ar: "حصار سبتة الأول", en: "First Siege of Ceuta", es: "Primer asedio de Ceuta", fr: "Premier siège de Ceuta", ur: "سیوٹا کا پہلا محاصرہ" }
+label: { ar: "حصار سبتة الأول", en: "First Siege of Ceuta", es: "Primer asedio de Ceuta", fr: "Premier siège de Ceuta", ur: "سیوٹا کا پہلا محاصرہ", tr: "Ceuta'nın Birinci Kuşatması", id: "Pengepungan Pertama Ceuta" }
 summary:
   ar: "بطاقة أولية لحصار سبتة الأول سنة ١٤١٩م، محاولة المرينيين استردادها من البرتغال؛ لم تُراجع مصادره على الصفحة بعد."
   en: "Draft card for the First Siege of Ceuta in 1419, the Marinid attempt to retake the city from Portugal; its sources are not yet checked on the page."
   es: "Boceto de ficha para el Primer Sitio de Ceuta en 1419, el intento de los mariníes de reconquistar la ciudad a Portugal; sus fuentes aún no han sido verificadas en la página."
   fr: "Carte de projet pour le premier siège de Ceuta en 1419, la tentative des Mérinides de reprendre la ville aux Portugais; ses sources ne sont pas encore vérifiées sur la page."
   ur: "1419 میں سیوٹا کے پہلے محاصرے کے لیے ڈرافٹ کارڈ، میرینیڈ نے پرتگال سے شہر کو واپس لینے کی کوشش؛ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
+  tr: "1419 yılında Marinidlerin Portekiz'den geri almak için gerçekleştirdiği Ceuta kuşatmasının ön anlatımı; sayfadaki kaynaklar henüz incelenmemiştir."
+  id: "Catatan awal tentang pengepungan pertama Ceuta pada tahun 1419 M, upaya Dinasti Marinid untuk merebutnya kembali dari Portugal; sumber-sumber yang tercantum di halaman ini belum ditinjau."
 relations:
   - { type: occurred_at, target: place/ceuta, sources: [source/tarikh-islam-hasan-ibrahim] }
   - { type: during_reign, target: person/al-mutadid-billah-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }

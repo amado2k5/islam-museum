@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1195"
-label: { ar: "موطأ مالك 1195 — ما خلّفه من تركة وميراث", en: "Muwatta Malik 1195 — what was left behind: estate and inheritance", ur: "موطأ مالک 1195 — ترکہ اور میراث", es: "Muwatta Malik 1195 — lo que dejó: patrimonio y herencia", fr: "Muwatta Malik 1195 — Ce qui a été laissé derrière: domaine et héritage" }
+label: { ar: "موطأ مالك 1195 — ما خلّفه من تركة وميراث", en: "Muwatta Malik 1195 — what was left behind: estate and inheritance", ur: "موطأ مالک 1195 — ترکہ اور میراث", es: "Muwatta Malik 1195 — lo que dejó: patrimonio y herencia", fr: "Muwatta Malik 1195 — Ce qui a été laissé derrière: domaine et héritage", tr: "Muwatta Malik 1195 — Geride bıraktığı miras ve vasiyet", id: "Muwatta Malik 1195 — Apa yang ditinggalkannya berupa warisan dan peninggalan" }
 text: "حَدَّثَنِي يَحْيَى، عَنْ مَالِكٍ، عَنِ ابْنِ شِهَابٍ، عَنْ طَلْحَةَ بْنِ عَبْدِ اللَّهِ بْنِ عَوْفٍ، - قَالَ وَكَانَ أَعْلَمَهُمْ بِذَلِكَ - وَعَنْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ، أَنَّ عَبْدَ الرَّحْمَنِ بْنَ عَوْفٍ، طَلَّقَ امْرَأَتَهُ الْبَتَّةَ وَهُوَ مَرِيضٌ فَوَرَّثَهَا عُثْمَانُ بْنُ عَفَّانَ مِنْهُ بَعْدَ انْقِضَاءِ عِدَّتِهَا."
 summary:
   ar: "حديث في موطأ مالك، رقم 1195، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 1195، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Muwatta Malik, n.° 1195 (Divorcio), menciona lo que quedó: bienes y herencia. El Navegador de Testamentos lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, propiedades, reliquias y tumbas."
   fr: "Un rapport du Muwatta Malik, n° 1195 (Divorce), mentionne ce qui a été laissé: biens et héritage. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Malik'in Muwatta'sında yer alan 1195 numaralı hadis, Peygamberin geride bıraktığı mal varlığı ve miras hakkında bilgi vermektedir. Bu hadis, vasiyetnameler, miras, tarihi yerler ve türbeler konusunda uzmanlaşmış araştırmacılar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 1195, menyebutkan apa yang ditinggalkannya berupa harta warisan. Hadits ini disusun oleh para peneliti yang ahli dalam wasiat, warisan, situs bersejarah, dan makam suci, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1195 (book 29 hadith 4); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2284"
-label: { ar: "مسلم 2284 — آخذ بحجزكم وأنتم تقحمون في النار", en: "Muslim 2284 — I hold you back while you plunge into the fire", es: "Musulmán 2284 — Yo te detengo mientras te lanzas al fuego", fr: "Muslim 2284 — Je te retiens pendant que tu plonges dans le feu", ur: "مسلم 2284 - جب تم آگ میں ڈوبتے ہو تو میں تمہیں روکتا ہوں۔" }
+label: { ar: "مسلم 2284 — آخذ بحجزكم وأنتم تقحمون في النار", en: "Muslim 2284 — I hold you back while you plunge into the fire", es: "Musulmán 2284 — Yo te detengo mientras te lanzas al fuego", fr: "Muslim 2284 — Je te retiens pendant que tu plonges dans le feu", ur: "مسلم 2284 - جب تم آگ میں ڈوبتے ہو تو میں تمہیں روکتا ہوں۔", tr: "Müslim 2284 — Ateşe atılırken sizi ben tutuyorum.", id: "Muslim 2284 — Aku menahanmu saat kau dilemparkan ke dalam api" }
 text: "قال رسول الله: إنما مثلي ومثل أمتي كمثل رجل استوقد ناراً، فجعلت الدواب والفراش يقعن فيه، فأنا آخذ بحجزكم وأنتم تقحمون فيه"
 summary:
   ar: "رواية أبي هريرة في باب مثل ما بعث به النبي من الهدى والعلم من كتاب الفضائل في صحيح مسلم؛ مثل النبي الذي يمسك أصحابه عن النار والفراش يقع فيها."
+  tr: "Sahih Müslim'in Faziletler Kitabı'ndaki \"Peygamberin hidayet ve ilim konusunda gönderildiği örnek\" bölümünde Ebu Hurayra'nın rivayetine göre; Peygamberin, arkadaşlarını ateşten uzak tutması ve yatağının ateşe düşmesi örneği."
+  id: "Riwayat Abu Hurairah dalam bab tentang contoh petunjuk dan ilmu yang dibawa Nabi dari Kitab Keutamaan dalam Sahih Muslim; contoh Nabi yang menjauhkan para sahabatnya dari api neraka dan tempat tidur jatuh ke dalamnya."
 relations:
   - { type: part_of, target: passage/muslim-kitab-43 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

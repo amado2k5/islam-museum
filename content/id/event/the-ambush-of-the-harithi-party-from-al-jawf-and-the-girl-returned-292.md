@@ -1,0 +1,12 @@
+---
+id: event/the-ambush-of-the-harithi-party-from-al-jawf-and-the-girl-returned-292
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/the-ambush-of-the-harithi-party-from-al-jawf-and-the-girl-returned-292.md}
+---
+## Ringkasan
+"Ali ibn Muhammad berkata: Kemudian pemandu kebenaran mendengar bahwa sekelompok dari Banu al-Harith datang dari Al-Jawf." Ia mengirim pasukan kepada mereka dan duduk bersama mereka. Ketika orang-orang tiba, mereka membawa kuda dan pria, debu berkumpul, dan tak seorang pun mengenali siapa pun. Dua orang terluka, dan banyak binatang yang membawa beban mereka diambil {cite:sira-hadi-ila-al-haqq p.292} {cite:sira-hadi-ila-al-haqq p.293}.
+
+## Detail
+Ada seorang wanita muda yang menunggang salah satu muatan, jadi mereka membawanya sampai tiba di pasukan. Dia menyebutkan bahwa dia dimiliki, tetapi ketika dia sampai di Qarqar, dia menyebutkan bahwa dia milik Ibn Humayd {cite:sira-hadi-ila-al-haqq p.293}. Al-Hadi memanggilnya, mengenakan pakaian, dan membawanya bersama sekelompok budak perempuan Wada'iyyin. Dia mengirim seorang pria dari Banu al-Harith yang berada dalam pasukannya. Dia membawanya sampai mendekati orang-orang, memanggil mereka, memberitahu garis keturunan gadis-gadis itu, lalu pergi, dan mereka membawanya {cite:sira-hadi-ila-al-haqq p.293}. Narator menyebutkan bahwa Al-Hadi mengembalikan gadis itu kepada bangsanya setelah mengetahui garis keturunannya, tanpa menyebutkan usia atau namanya. Di pinggir naskah S, terdapat dua bacaan Al-Subiya dan Al-Askar {cite:sira-hadi-ila-al-haqq p.293}. Narasi berasal dari para pendukung Imam dalam sebuah kitab Zaydi, dan saya menyebutkannya untuk memperjelas bahwa gadis-gadis itu kembali tanpa pembayaran sesuai teks, dan museum tidak menambahkan lebih dari itu. Kejadian ini terjadi setelah [[event/the-camp-at-qarqar-the-cutting-of-palms-and-the-razing-of-markets-292|kamp di Qarqar]] dan sebelum [[event/the-fight-at-the-lane-gate-and-the-cutting-of-the-palms-of-banu-khuthaym-292|pertempuran di Bab al-Darb. Laporan ini bertanggal]] Sunnah karena Al-Qur'an tidak menyebutkan hari atau bulan setelah akhir Rajab. Al-Jawf adalah tempat yang tidak disebutkan dalam halaman-halaman ini, dan tidak ada catatan yang dibuat.

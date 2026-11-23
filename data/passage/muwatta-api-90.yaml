@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "90"
-label: { ar: "موطأ مالك 90 — جمع القرآن والمصاحف", en: "Muwatta Malik 90 — the collection of the Qur'an and the codices", ur: "موطأ مالک 90 — جمعِ قرآن اور مصاحف", es: "Muwatta Malik 90 — la colección del Corán y los códices", fr: "Muwatta Malik 90 — le recueil du Coran et des codex" }
+label: { ar: "موطأ مالك 90 — جمع القرآن والمصاحف", en: "Muwatta Malik 90 — the collection of the Qur'an and the codices", ur: "موطأ مالک 90 — جمعِ قرآن اور مصاحف", es: "Muwatta Malik 90 — la colección del Corán y los códices", fr: "Muwatta Malik 90 — le recueil du Coran et des codex", tr: "Muwatta Malik 90 — Kur'an ve Kur'an Rüylerinin Derlenmesi", id: "Muwatta Malik 90 — Kumpulan Al-Qur'an dan Salinan Al-Qur'an" }
 text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنْ إِسْمَاعِيلَ بْنِ مُحَمَّدِ بْنِ سَعْدِ بْنِ أَبِي وَقَّاصٍ، عَنْ مُصْعَبِ بْنِ سَعْدِ بْنِ أَبِي وَقَّاصٍ، أَنَّهُ قَالَ كُنْتُ أُمْسِكُ الْمُصْحَفَ عَلَى سَعْدِ بْنِ أَبِي وَقَّاصٍ فَاحْتَكَكْتُ فَقَالَ سَعْدٌ لَعَلَّكَ مَسِسْتَ ذَكَرَكَ قَالَ فَقُلْتُ نَعَمْ. فَقَالَ قُمْ فَتَوَضَّأْ فَقُمْتُ فَتَوَضَّأْتُ ثُمَّ رَجَعْتُ."
 summary:
   ar: "حديث في موطأ مالك، رقم 90، يذكر جمع القرآن والمصاحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 90، جس میں جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Muwatta Malik, n.° 90 (Pureza), menciona la colección del Corán y los códices. El catálogo del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
   fr: "Un rapport du Muwatta Malik, n° 90 (Pureté), mentionne la collection du Coran et des codex. Le catalogue du musée, consacré à la lecture et à l'écriture du Coran, répertorie ces documents avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Malik'in Muwatta adlı eserinin 90 numaralı hadisinde Kur'an'ın ve el yazmalarının derlenmesinden bahsedilir. Bu hadis, Kur'an okunuşları, yazısı, hat sanatı ve diyakritik işaretleri konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Muwatta karya Malik, nomor 90, menyebutkan penyusunan Al-Quran dan manuskripnya. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/mushaf, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 90 (book 2 hadith 59); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

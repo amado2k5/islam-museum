@@ -45,7 +45,7 @@ function languagesOf(d: Record<string, any>): string[] {
   const out = new Set<string>();
   const langs = d.languages;
   if (Array.isArray(langs)) for (const v of langs) if (isLang(v)) out.add(v);
-  else if (langs && typeof langs === "object") for (const v of langs.original ?? []) if (isLang(v)) out.add(v);
+  else if (langs && typeof langs === "object") for (const v of (langs as { original?: unknown[] }).original ?? []) if (isLang(v)) out.add(v);
   if (typeof d.language === "string" && d.language.startsWith("language/")) {
     const code = byId.get(d.language)?.data?.iso639_1 ?? byId.get(d.language)?.data?.code;
     if (isLang(code)) out.add(code);
@@ -129,7 +129,7 @@ export const kindLabel = (kind: string | undefined, lang: Lang): string => {
   return T.modern?.kinds?.[kind] ?? T.inventions?.kinds?.[kind] ?? kind.replace(/[-_]/g, " ");
 };
 const displayNames = (lang: Lang, type: "region" | "language") => {
-  try { return new Intl.DisplayNames([lang === "ar" ? "ar" : lang === "ur" ? "ur" : lang === "fr" ? "fr" : lang === "es" ? "es" : "en"], { type }); } catch { return undefined; }
+  try { return new Intl.DisplayNames([lang === "en" ? "en" : lang], { type }); } catch { return undefined; }
 };
 export const countryName = (cc: string, lang: Lang): string => { try { return displayNames(lang, "region")?.of(cc.toUpperCase()) ?? cc.toUpperCase(); } catch { return cc.toUpperCase(); } };
 export const languageName = (code: string, lang: Lang): string => { try { return displayNames(lang, "language")?.of(code) ?? code; } catch { return code; } };

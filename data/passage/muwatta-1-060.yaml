@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.60"
-label: { ar: "الموطأ 60 — جابر: رأيت أبا بكر أكل لحماً ثم صلى ولم يتوضأ", en: "Muwatta 60", es: "60 Muwatta", fr: "60 Muwatta", ur: "60 موطا" }
+label: { ar: "الموطأ 60 — جابر: رأيت أبا بكر أكل لحماً ثم صلى ولم يتوضأ", en: "Muwatta 60", es: "60 Muwatta", fr: "60 Muwatta", ur: "60 موطا", tr: "El-Muvatta 60 — Cabir: Ebu Bekir'in et yediğini ve sonra abdest almadan namaz kıldığını gördüm.", id: "Al-Muwatta 60 — Jabir: Aku melihat Abu Bakar makan daging lalu shalat tanpa berwudhu." }
 text: "رأيت أبا بكر الصديق أكل لحماً ثم صلى ولم يتوضأ"
 summary:
   ar: "أثر يرويه يحيى عن مالك عن أبي نعيم وهب بن كيسان أنه سمع جابر بن عبد الله الأنصاري يقول إنه رأى أبا بكر الصديق أكل لحماً ثم صلى ولم يتوضأ؛ وهو في باب ترك الوضوء مما مست النار. ويذكر المحقق أن عبد الرزاق وابن أبي شيبة أخرجا آثاراً عن أبي بكر بهذا المعنى. {cite:muwatta-maruf-1997 p.63}"
+  tr: "Yahya'nın Malik'ten, o da Ebu Nu'aym Vahb ibn Kaysan'dan rivayet ettiği bir hadiste, Cabir ibn Abdullah el-Ensari'nin, Ebu Bekir el-Siddik'in et yedikten sonra abdest almadan namaz kıldığını gördüğünü söylediği belirtilir; bu, ateş üzerinde pişirilmiş yemek yedikten sonra abdest almamakla ilgili bölüme girer. Araştırmacı, Abdül-Razzak ve İbn Abi Şeybe'nin de Ebu Bekir'den bu anlamda rivayetler aktardığını belirtmektedir. {cite:muwatta-maruf-1997 s.63}"
+  id: "Sebuah riwayat yang dinarasikan oleh Yahya atas otoritas Malik, atas otoritas Abu Nu'aym Wahb ibn Kaysan, menyatakan bahwa ia mendengar Jabir ibn Abdullah al-Ansari berkata bahwa ia melihat Abu Bakr al-Siddiq makan daging lalu shalat tanpa berwudhu; ini termasuk dalam bab tentang tidak berwudhu setelah mengonsumsi makanan yang dimasak di atas api. Peneliti menyebutkan bahwa Abd al-Razzaq dan Ibn Abi Shaybah meriwayatkan riwayat atas otoritas Abu Bakr dengan makna ini. {cite:muwatta-maruf-1997 p.63}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
   - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }

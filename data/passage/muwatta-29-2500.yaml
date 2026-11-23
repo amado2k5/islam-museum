@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2500"
-label: { ar: "الموطأ 2500 — مالك: المأمومة ما خرق العظم إلى الدماغ وتكون في الرأس", en: "Muwatta 2500", es: "2500 vatios", fr: "2500 watts", ur: "2500 واٹ" }
+label: { ar: "الموطأ 2500 — مالك: المأمومة ما خرق العظم إلى الدماغ وتكون في الرأس", en: "Muwatta 2500", es: "2500 vatios", fr: "2500 watts", ur: "2500 واٹ", tr: "Al-Muwatta 2500 — Malik: Kafa yarası, kemiği delerek beyne ulaşan ve kafada meydana gelen bir delici yaradır.", id: "Al-Muwatta 2500 — Malik: Luka di kepala adalah luka tusuk yang menembus tulang hingga ke otak dan terjadi di kepala." }
 summary:
   ar: "قال مالك: والمأمومة ما خرق العظم إلى الدماغ، ولا تكون المأمومة إلا في الرأس. {cite:muwatta-maruf-1997 p.429}"
+  tr: "Malik şöyle dedi: Kafa yarası, kemiği delerek beyne ulaşan bir yaradır ve bu tür bir yara yalnızca kafada meydana gelir. {cite:muwatta-maruf-1997 s.429}"
+  id: "Malik berkata: Luka di kepala adalah luka yang menembus tulang hingga ke otak, dan luka seperti itu hanya terjadi di kepala. {cite:muwatta-maruf-1997 p.429}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

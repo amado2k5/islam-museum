@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1035"
-label: { ar: "مسلم 1035 — إن هذا المال خضرة حلوة", en: "Muslim 1035 — This wealth is fresh and sweet", es: "Musulmán 1035 — Esta riqueza es fresca y dulce", fr: "Muslim 1035 — Cette richesse est fraîche et douce", ur: "مسلم 1035 - یہ مال تازہ اور میٹھا ہے۔" }
+label: { ar: "مسلم 1035 — إن هذا المال خضرة حلوة", en: "Muslim 1035 — This wealth is fresh and sweet", es: "Musulmán 1035 — Esta riqueza es fresca y dulce", fr: "Muslim 1035 — Cette richesse est fraîche et douce", ur: "مسلم 1035 - یہ مال تازہ اور میٹھا ہے۔", tr: "Müslim 1035 — Bu para yeşil ve tatlıdır.", id: "Muslim 1035 — Uang ini berwarna hijau dan manis" }
 text: "قال حكيم بن حزام: سألت النبي فأعطاني ثم سألته فأعطاني، فقال: يا حكيم إن هذا المال خضرة حلوة، فمن أخذه بطيب نفس بورك له فيه، ومن أخذه بإشراف نفس لم يبارك له فيه وكان كالذي يأكل ولا يشبع، واليد العليا خير من اليد السفلى"
 summary:
   ar: "رواية حكيم بن حزام في باب تحريم المسألة للناس من كتاب الزكاة في صحيح مسلم؛ المال الذي يؤخذ بطيب نفس يبارك فيه، والمأخوذ بإشراف نفس كمن يأكل ولا يشبع — وسياقها أن النبي أعطاه ثلاثاً ثم نهاه عن السؤال."
+  tr: "Sahih Müslim'deki Zekat Kitabı'nın, insanlardan para istemenin yasaklanması bölümünde Hakim bin Hizam'ın rivayeti şöyledir: \"İsteyerek alınan para bereketlidir, açgözlülükle alınan para ise yediği halde doymayan gibidir.\" Bu rivayetin bağlamı ise Peygamber'in ona üç şey verdikten sonra istemeyi yasaklamasıdır."
+  id: "Riwayat Hakim bin Hizam dalam bab tentang larangan meminta uang dari orang lain dalam Kitab Zakat di Sahih Muslim: Uang yang diambil dengan sukarela adalah diberkati, dan uang yang diambil dengan keserakahan seperti orang yang makan tetapi tidak kenyang — dan konteksnya adalah bahwa Nabi memberinya tiga hal dan kemudian melarangnya meminta."
 relations:
   - { type: part_of, target: passage/muslim-kitab-12 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

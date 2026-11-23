@@ -43,7 +43,7 @@ describe("every folder published to R2 is registered everywhere", () => {
     for (const line of lines) {
       const allowed = line.match(/"([^"]*)"/)![1].split(",");
       for (const d of r2Dirs) expect(allowed, `ALLOWED_PREFIXES lacks ${d}/`).toContain(`${d}/`);
-      for (const l of ["ar", "en", "ur", "fr", "es"]) expect(allowed, `ALLOWED_PREFIXES lacks ${l}/`).toContain(`${l}/`);
+      for (const l of ["ar", "en", "ur", "fr", "es", "tr", "id"]) expect(allowed, `ALLOWED_PREFIXES lacks ${l}/`).toContain(`${l}/`);
     }
   });
 

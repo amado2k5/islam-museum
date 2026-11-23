@@ -1,0 +1,15 @@
+---
+id: event/al-hadi-spares-the-routed-and-burns-the-stores-at-thila-286
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/al-hadi-spares-the-routed-and-burns-the-stores-at-thila-286.md}
+---
+## Ringkasan
+Ketika [[group/banu-al-harith-ibn-kab|Banu al-Harith]] dikalahkan di Jabal [[place/al-ukhdud|al-Okhdood]], mereka berpegang erat, meletakkan senjata dan pakaian, dan orang-orang mengambilnya dari segala sisi {cite:sira-hadi-ila-al-haqq p.172}. Kemudian [[person/al-hadi-yahya-al-rassi|al-Hadi mengampuni para]] pemberontak, yang kalah, dan yang terluka, serta memerintahkan para tentara mundur dan tidak mengikuti mereka. Orang-orang berbalik dan mencegah mereka mendaki gunung melawan mereka. Ia memerintahkan kepala-kepala itu diambil dari jalan, banyak di antaranya berhasil diambil. Kemudian ia memerintahkan agar jalan setapak desa ditutup, dan orang-orang dilarang mengikuti mereka {cite:sira-hadi-ila-al-haqq p.172}. Editor menyebutkan di catatan pinggir bahwa deskripsi Semenanjung Arab, hlm. 67, menempatkan parit di Khawlan. Dan bahwa 'Muntakhabat di Akhbar al-Yaman, hlm.31' berarti Ngarai Najran, yang disebutkan oleh Dhu Nuwas, sehingga museum tersebut tidak disebutkan secara spesifik.
+
+## Untuk manusia dan palungan
+Ketika ia berdoa salat siang, ia mengumpulkan pasukannya dan berangkat dengan bala bantuan hingga tiba di [[place/rajla-najran|Marjla]], yang terletak di dasar lembah, desa terakhir Najran. Ia menemukan Banu Al-Harith yang kalah di bawah pohon palem, berbaring bersama istri dan kuda mereka. Mereka membawa unggas dan kuda untuk membawa rampasan Najran. Ketika mereka melihatnya, mereka melompat ke atas kuda dan kuda mereka, menaikinya, dan melarikan diri {cite:sira-hadi-ila-al-haqq p.172}. Al-Hadi memilih satu kelompok untuk setiap tiga puluh atau empat puluh penunggang kuda dan memerintahkan para prajurit untuk berhenti, maju dari pasar ke pasar hingga ia membawa mereka keluar dari bawah Najran dan mencapai sumber air yang disebut [[place/madhud-najran|palungan]] Kemudian ia pergi tanpa membalas pembunuhan {cite:sira-hadi-ila-al-haqq p.172}. Ia disambut oleh berat mereka, kekurangan mereka, dan unta mereka yang dikendarai wanita, sehingga ia memberi izin dan memerintahkan agar tidak ada yang membantah mereka, tetapi tidak ada yang menolak mereka {cite:sira-hadi-ila-al-haqq p.172}.
+
+## Tiga
+Dia pergi ke sebuah benteng mereka bernama [[place/thila-najran|Thala]], dikelilingi oleh gudang makanan. Dia memerintahkan pasukan untuk menjarah, menghancurkan, dan membakar benteng tersebut {cite:sira-hadi-ila-al-haqq p.172} {cite:sira-hadi-ila-al-haqq p.173}. Angka-angka dan apa yang dia lakukan di sini dari sudut pandang narator. Dia terhubung dengan [[event/al-hadi-hangs-the-slain-of-banu-al-harith-and-lets-them-be-buried-286]].

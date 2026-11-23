@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "2989"
-label: { ar: "سنن النسائي 2989 — أثر من الآثار المحفوظة", en: "Sunan al-Nasa'i 2989 — a relic kept after its owner", ur: "سنن نسائی 2989 — محفوظ آثار و تبرکات", es: "Sunan al-Nasa'i 2989 — una reliquia conservada después de su propietario.", fr: "Sunan al-Nasa'i 2989 — une relique conservée après son propriétaire" }
+label: { ar: "سنن النسائي 2989 — أثر من الآثار المحفوظة", en: "Sunan al-Nasa'i 2989 — a relic kept after its owner", ur: "سنن نسائی 2989 — محفوظ آثار و تبرکات", es: "Sunan al-Nasa'i 2989 — una reliquia conservada después de su propietario.", fr: "Sunan al-Nasa'i 2989 — une relique conservée après son propriétaire", tr: "Sünen el-Nesa'i 2989 — Korunmuş bir hadis", id: "Sunan al-Nasa'i 2989 — Sebuah hadits yang dilestarikan" }
 text: "أَخْبَرَنَا مُحَمَّدُ بْنُ مَنْصُورٍ، قَالَ حَدَّثَنَا الْحَسَنُ بْنُ مُوسَى، قَالَ حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، عَنْ قَيْسِ بْنِ سَعْدٍ، عَنْ عَطَاءٍ، عَنْ مُعَاوِيَةَ، قَالَ أَخَذْتُ مِنْ أَطْرَافِ شَعْرِ رَسُولِ اللَّهِ بِمِشْقَصٍ كَانَ مَعِي بَعْدَ مَا طَافَ بِالْبَيْتِ وَبِالصَّفَا وَالْمَرْوَةِ فِي أَيَّامِ الْعَشْرِ. قَالَ قَيْسٌ وَالنَّاسُ يُنْكِرُونَ هَذَا عَلَى مُعَاوِيَةَ."
 summary:
   ar: "حديث في سنن النسائي، رقم 2989، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 2989، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 2989 (El Libro del Hajj), menciona una reliquia conservada tras la muerte de su propietario. El Navegador de Testamentos la incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sunan al-Nasa'i, n° 2989 (Le Livre du Hajj), mentionne une relique conservée après son propriétaire. Le navigateur de testaments la répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "Sunan-ı Nesai'de 2989 numaralı hadis, korunmuş bir rivayetten bahsetmektedir. Bu hadis, vasiyetnameler, miras, gelenekler ve türbeler üzerine çalışan araştırmacılar tarafından Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, no. 2989, menyebutkan sebuah tradisi yang lestari. Hadits ini dikumpulkan oleh para peneliti wasiat, warisan, tradisi, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tabarruk, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2989 (book 24 hadith 372); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

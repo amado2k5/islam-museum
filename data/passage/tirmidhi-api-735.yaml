@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "735"
-label: { ar: "جامع الترمذي 735 — الأب والأبوة", en: "Jami' al-Tirmidhi 735 — the father and fatherhood", ur: "جامع ترمذی 735 — باپ اور والدیت", es: "Jami' al-Tirmidhi 735 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 735 — le père et la paternité" }
+label: { ar: "جامع الترمذي 735 — الأب والأبوة", en: "Jami' al-Tirmidhi 735 — the father and fatherhood", ur: "جامع ترمذی 735 — باپ اور والدیت", es: "Jami' al-Tirmidhi 735 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 735 — le père et la paternité", tr: "Cami' el-Tirmizi 735 — Baba ve Babalık", id: "Jami' al-Tirmidhi 735 — Sang Ayah dan Peran Ayah" }
 text: "… كُنْتُ أَنَا وَحَفْصَةُ، صَائِمَتَيْنِ فَعُرِضَ لَنَا طَعَامٌ اشْتَهَيْنَاهُ فَأَكَلْنَا مِنْهُ فَجَاءَ رَسُولُ اللَّهِ فَبَدَرَتْنِي إِلَيْهِ حَفْصَةُ وَكَانَتِ ابْنَةَ أَبِيهَا فَقَالَتْ يَا رَسُولَ اللَّهِ إِنَّا كُنَّا صَائِمَتَيْنِ فَعُرِضَ لَنَا طَعَامٌ اشْتَهَيْنَاهُ فَأَكَلْنَا مِنْهُ. قَالَ \" اقْضِيَا يَوْمًا آخَرَ مَكَانَهُ \". قَالَ أَبُو عِيسَى وَرَوَى صَالِحُ بْنُ أَبِي الأَخْضَرِ وَمُحَمَّدُ بْنُ أَبِي حَفْصَةَ هَذَا الْحَدِيثَ عَنِ الزُّهْرِيِّ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 735، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 735، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Jami' al-Tirmidhi, n.º 735 (El Libro del Ayuno), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 735 (Le Livre du jeûne), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Cami' el-Tirmizi'nin 735 numaralı hadisinde baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı bu hadisi Kur'an, Sünnet, biyografi ve konuyla ilgili diğer kitaplardan metinlerle birleştirir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 735, menyebutkan tentang ayah dan peran ayah. Fitur \"Peran Ayah dalam Islam\" menggabungkan hadits ini dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang subjek tersebut."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 735 (book 8 hadith 54); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

@@ -44,7 +44,7 @@ o.check("every added site file belongs to the courses surface", all(mine(f) for 
 allowed = {"site/src/components/Landing.astro", "i18n/ar.yaml", "i18n/en.yaml", "i18n/ur.yaml"}
 outside = sorted(f for f in set(modified) if not mine(f) and f not in allowed)
 o.check("outside the courses surface, the only existing files modified are the homepage component and the three string files", not outside, ", ".join(outside))
-for lang in ("ar", "en", "ur", "fr", "es"):
+for lang in ("ar", "en", "ur", "fr", "es", "tr", "id"):
     was = yaml.safe_load(subprocess.run(["git", "show", f"{BASE}:i18n/{lang}.yaml"], cwd=ROOT, capture_output=True, text=True, check=True).stdout)
     now = yaml.safe_load(open(os.path.join(ROOT, "i18n", f"{lang}.yaml"), encoding="utf-8"))
     n_was, n_now = len(was.pop("courses", {}) or {}), len(now.pop("courses", {}) or {})
@@ -82,14 +82,14 @@ try:
 finally:
     shutil.rmtree(base_dir)
 same = []
-for p in [f"{l}/learn/index.html" for l in ("ar", "en", "ur", "fr", "es")]:
+for p in [f"{l}/learn/index.html" for l in ("ar", "en", "ur", "fr", "es", "tr", "id")]:
     a, b = os.path.join(out_old, p), os.path.join(out_new, p)
     ok = os.path.exists(a) and os.path.exists(b) and filecmp.cmp(a, b, shallow=False)
     same.append(ok)
     o.note(f"  {'identical' if ok else 'DIFFERENT'}  /{p}  ({os.path.getsize(b) if os.path.exists(b) else 'missing'} bytes)")
 o.check("the three /learn/ hubs are byte-identical to the base's build", all(same), f"{sum(same)} of 3 identical")
 home_ok = []
-for l in ("ar", "en", "ur", "fr", "es"):
+for l in ("ar", "en", "ur", "fr", "es", "tr", "id"):
     a = open(os.path.join(out_old, l, "index.html"), encoding="utf-8").read()
     b = open(os.path.join(out_new, l, "index.html"), encoding="utf-8").read()
     n_sec = len(re.findall(r'<section class="band cxp"', b))

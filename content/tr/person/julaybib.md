@@ -1,0 +1,17 @@
+---
+id: person/julaybib
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/julaybib.md}
+---
+## Özet
+Julaibib, [[person/abu-ishaq-al-heweny|Ebu İshaq el-Huveyni]]'nin 'Kalam fi al-Awliya' adlı anılarında [[work/sayd-al-khatir|'Seyd el-Khater'den]], azizin güzel bir görünüme sahip olması gerekmediğine tanıklık eden bir yoldaştır. İyi biri olmasa da, Allah'ın dostları arasında olduğuna kesinlikle inanır. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:09:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:10:00} Öldürülme hikayesinin Sahih Muslim'da olduğunu, hikayenin başlangıçta Musnad Ahmad'da bir Müslüman zinciriyle tamamlandığını, Ahmad'ın rivayetinin uzun olduğunu ve Müslüman'ın sonuncusunu aldığını söyler. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:09:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:15:00}
+
+## Evlilik
+Al-Huwaini, Julabiba'nın kadınlarla şakalaştığını ve sahabelerden birinin karısının ona girmesini yasakladığını rivayet eder. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:09:30} Sonra Peygamber bir adama kızını teklif etti, ardından onu Julabib için istediğini açıkladı. Adam konuyu annesine geri verdi, annesi ise daha onurlu bir konuşmayı reddettiği için reddetti. Kız örtü arkasında dedi ki: Konuyu Allah'ın Elçisine mi geri vereceksin? Beni ona gönder, çünkü o beni kaybetmeyecek. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:10:30} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:11:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:12:00} Al-Huwaini cevabını, Allah ve Elçisi bir şey emrettiğinde hiçbir iman eden erkek ya da kadının en iyi seçime sahip olmayacağı ayetiyle ilişkilendirir ve kimsenin sandaletlerinin tuzağı altında ne olduğunu, iyi ya da kötü olduğunu bilmediğini söyler. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:12:30} Bazı rivayetçilerin Tebit el-Banani'ye Peygamber'in gelin için yaptığı duayı sordukları ve onun sabah ona iyilik edilmesi için bir dua ettiğini, bu parçanın gönderildiğini ve daha sonra Medine'de geçirilen günlerden biri haline geldiğini söylediği belirtilir. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:17:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:17:30}
+
+## Onun Cinayeti
+Bir savaştan sonra Peygamber, rivayetinde sordu: Eksik olan var mı? Üç kez Jlebiba'yı kaybettiğini söyledi ve yedileriyle birlikte öldürülmüş halde bulundu. Peygamber yanında durdu ve onun kendisinden olduğunu, sadece Peygamber'in kollarında yatağı olduğunu söyledi. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:15:30} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:16:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:16:30} Buradan Al-Huwaini, kendisinin Allah'ın dostları arasında olduğunu sonucuna varır. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:16:30} ⁦(needs_source: لا يسمّي الحويني الغزوة التي قُتل فيها جليبيب، ولا تذكر صفحته في المتحف بعدُ مصدرًا مستقلًا.)⁩
+
+Arşivin yedinci bölümü aynı dersi yeniden kaydeder. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep07 00:02:00}

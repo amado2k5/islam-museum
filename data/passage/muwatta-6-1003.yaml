@@ -4,10 +4,12 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani, person/abdullah-ibn-umar]
 work: work/muwatta-malik
 ref: "1003"
-label: { ar: "الموطأ 1003 — ابن عمر: لا يحتجم المحرم إلا أن يضطر إليه مما لا بد له منه", en: "Muwatta 1003", es: "Muwatta 1003", fr: "Muwatta 1003", ur: "موطا 1003" }
+label: { ar: "الموطأ 1003 — ابن عمر: لا يحتجم المحرم إلا أن يضطر إليه مما لا بد له منه", en: "Muwatta 1003", es: "Muwatta 1003", fr: "Muwatta 1003", ur: "موطا 1003", tr: "İbn Umar, El-Muvatta 1003: İhramda bulunan bir hacı, mecbur kalmadıkça hacamat yaptırmamalıdır.", id: "Al-Muwatta 1003 — Ibn Umar: Seorang jamaah haji yang sedang ihram tidak boleh melakukan bekam kecuali terpaksa melakukannya karena kebutuhan." }
 text: "لا يحتجم المحرم إلا أن يضطر إليه مما لا بد له منه"
 summary:
   ar: "يرويه مالك عن نافع عن عبد الله بن عمر، أنه كان يقول: لا يحتجم المحرم إلا أن يضطر إليه مما لا بد له منه. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1190) وسويد ومحمد بن الحسن الشيباني (416)، وأنه عند البخاري معلقاً من طريق مالك. {cite:muwatta-maruf-1997 p.470}"
+  tr: "Malik, Nafi'den, o da Abdullah ibn Umar'dan rivayet ederek şöyle buyurmuştur: \"İhramda olan bir hacı, kesinlikle gerekli olmadıkça hacamat yaptırmamalıdır.\" Araştırmacı, bunun Malik'ten rivayetle Ebu Mus'ab (1190), Suveyd ve Muhammed ibn el-Hasan el-Şeybani (416) tarafından da nakledildiğini ve Buhari'de Malik'ten rivayetle askıya alınmış bir rivayet olarak bulunduğunu belirtmektedir. {cite:muwatta-maruf-1997 s.470}"
+  id: "Malik meriwayatkan hadits ini dari Nafi’ yang juga meriwayatkan dari Abdullah ibn Umar, yang biasa berkata: “Seorang jamaah haji yang sedang ihram tidak boleh melakukan bekam kecuali jika benar-benar diperlukan.” Peneliti menyebutkan bahwa hadits ini diriwayatkan dari Malik oleh Abu Mus’ab (1190), Suwaid, dan Muhammad ibn al-Hasan al-Shaybani (416), dan bahwa hadits ini ditemukan dalam al-Bukhari sebagai riwayat yang ditangguhkan dari Malik. {cite:muwatta-maruf-1997 p.470}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
   - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }

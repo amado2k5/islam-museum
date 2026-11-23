@@ -1,0 +1,23 @@
+---
+id: concept/rubaiyyat-sinaat-al-mubdiin
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/rubaiyyat-sinaat-al-mubdiin.md}
+---
+## Özet
+"Yaratıcılar" programının açılışında Tariq Al-Suwaidan, İslam tarihinin büyük şahsiyetlerinin biyografilerini yönetim ve insan gelişimi bilimleri ışığında inceleyip analiz ederek türetilen bir metodoloji sunar: her biri dört unsurdan oluşan dört aşama, bunlara "Yaratıcıların Yaratılışının Dörtlüsü" veya "Büyüklerin Sırları" adını vermiştir. Büyüklüğün tesadüf ya da katı koşullar olmadığını, bunun yerine çıkarılıp öğretilebilen bir metodoloji olduğunu belirtir {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:07:00}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:08:30}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:22:00}.
+Bunu sınırlar; istisnaların var olduğunu ve her karaktere yüzde yüz uygulanmadığını belirtir {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:11:00}.
+
+## Başlangıç Alevi
+İlk aşama çoğunlukla insanların ilgisi olmayan unsurlara sahiptir: zeka ve cehalet — yetenekli bireylerin daha yaratıcı olma fırsatı, çocukların zekasının test edilmesini ve aralarındaki üstünlere odaklanılmasını önerir — ve özel yetenek — ve her insanın bir yeteneği olduğunu, ancak büyüklerin bunu keşfedip yatırdığını sonucuna varır; örnekler arasında birçok bilim insanının olağanüstü hafıza ve en ünlüsü baba olduğu için özel durumlar bulunur — çünkü bu erken sorumluluk ve bağımsızlık verir "bağımlı ne yenilik yapar ne de liderlik yapar," ebeveynlerin çocuklarına egemenlik yerine özgürlük ve karar alma alanı bırakmaları tavsiyesiyle — ve çocukların da belirttiği gibi, çocukların Bilimsel, liderlik ve iş aileleri daha fazla fırsata sahiptir ve lüks ile esneklik bunların yüzde onunu geçmez (needs_source) — seçkin erken eğitim — ardından ana kaynağı anne veya yetenek konusundaki şeyh ya da eğitimci {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:11:30}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:12:30}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:13:30}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:14:30}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:15:00}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:16:00}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:16:30} olan özel bakım gelir.
+
+## Trend Kristalleşmesi
+İkinci aşama dört unsurdan oluşur: arzuyu tanımlamak—ve çocukları sevmedikleri uzmanlaşmaya zorlamamak, çünkü sevmedikleri işte çalışanlar üretebilir ama yaratıcı olmayacaktır — sonra tek bir alanı tanımlamak, sonra alanlar arasında dağınıklığı önlemek ve odaklanmak, ardından vizyon ve hırsı tanımlamak — ve bir gencin iş, bölüm başkanı ya da hatta bir bakanlık hırsının utanç vericidir, çünkü bahsettiği büyükler yöneticilerden ve bakanlardan daha yüksektir ve onlar yüzyıllardır {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:17:00}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:17:30}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:18:00}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:18:30} parmak izleri kalmıştır.
+
+## İnşaatın tamamlanması
+Üçüncü aşama, ona göre 'Aşama' olarak adlandırdığı bir aşama, yaklaşık otuz yaşına kadar sürer: bilgi aramak ve alandaki yeteneği en üst düzeyde geliştirmek, büyük uzmanlarla etkileşimde bulunmak, asla sarsılmayan güçlü bir irade ve büyük bilginlere eserleri düzeltmek için sunmak sırasında sürekli eğitim {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:19:00}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:20:00}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:20:30}.
+
+## Olağanüstü Bağışlar
+Dördüncü aşama: Alan ve vermeyenler iz bırakmaz; unsurları, her biri bir öncekinden daha yüksek olan büyük ardışık başarılar ve siyasi huzursuzluk, öğrenciler ve takipçiler gibi engelleri ve genel koşulları aşan kararlılıktır—çünkü öğrencileri bırakmayan ölümsüz değildir—ve alem, dini görevler, aile, beden ve ruh arasındaki yaşam dengesi {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:21:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:21:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:22:00}.
+Ulusun sadece yüzde iki yaratıcıya ve büyük figürlere ihtiyaç duyduğunu, ardından geri kalanının geldiğini belirtir ve bu tarihte {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:22:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:23:00} açıkça görülmektedir.

@@ -1,0 +1,12 @@
+---
+id: practice/dua-maghrib-and-witr
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/practice/dua-maghrib-and-witr.md}
+---
+## Özet
+El-Nevavi'nin Mağrip Ezan bölümlerinde, Mağrib namazından sonra ve Witr namazında derlediği şeyler: Azan'ı duyma duası, Taleel'i on kez duymak, Witr'de okunanlar ve selamdan sonra ve sonunda söylenenler. {cite:al-adhkar-nawawi-arnaut-1994 p. 88}
+
+## Al-Nawawi'nin 'Al-Adhkar'da topladıkları
+El-Nevavi, Üm Selam'dan Sünen Ebi Davud ve Tirmidi'de [[person/muhammad|Peygamber'in ona]] Mağrip ezanında söylemeyi öğrettiğini anlatır: "Ey Allah, bu gecenin yaklaşışı, gününün sonudur ve yalvaranların sesleridir, beni affet" {cite:al-adhkar-nawawi-arnaut-1994 p. 88}. Mağrip namazından sonra ne söyleneceği bölümünde, ibadet edenin tüm namazlardan sonra önceki anıları okuduğu ve Mağrip Sünnetinden sonra {cite:al-adhkar-nawawi-arnaut-1994 p. 88} artması tavsiye edildiği söylenir. Üm Selame'den İbn Sünni'nin kitabında, Peygamber Mağrip'ten ayrıldığında iki reket namaz kapar ve ardından duasında Allah'ın dinine kalpleri güçlendirmesi için dua ederdi {cite:al-adhkar-nawawi-arnaut-1994 p. 88}. Tırmidi kitabında, 'Ömerre bin Şabib'in rivayetinde, Mağrib'ten sonra on kez 'Allah'tan başka bir tanrı yoktur, ortaksız' derse ve Allah sabaha kadar onu şeytandan korumak için muhafızlar gönderir. Ammarah'ın Peygamber'den duyduğunu bilmediğini ve En-Nasa'i'nin bunu iki zincirle anlattığını belirtir; en doğrusu İbn Asakir II'dir, Ensar'dan bir adamdan {cite:al-adhkar-nawawi-arnaut-1994 p. 88}. Witr bölümünde, üç rek'at kılan kişinin Sünnet'in birinci, ikinci ve üçüncü surede üç sureyi okuması, bunlara başlangıç demesi, üçüncüde ise iki Muavvidhatayn eklemesi gerektiği belirt {cite:al-adhkar-nawawi-arnaut-1994 p. 88} ilir. Ebu ibn Ka'b'dan, Ebu Davud ve En-Nasa'i'de gerçek zincirlerle rivayet edilir ki, Peygamber Witr'de selam ettiğinde 'Kutsal Kral'a şükürler olsun' derdi ve En-Nasa'i ile İbn al-Sunni rivayetlerinde üç kez {cite:al-adhkar-nawawi-arnaut-1994 p. 89} anlatılır. Ali'den rivayet edilir ki, nazetinin sonunda şöyle derdi: 'Ey Allah, gazabından Senin zevkine sığınıyorum ve cezana sığınıyorum.' Tirmidi Hasan {cite:al-adhkar-nawawi-arnaut-1994 p. 89} buyurdu.

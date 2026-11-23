@@ -1,0 +1,22 @@
+---
+id: concept/yaqin-fiqh
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: draft
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/yaqin-fiqh.md}
+---
+## Ringkasan
+
+Kepastian dalam bahasa berarti pengetahuan, menghilangkan keraguan, dan mencapai perintah, yang merupakan kebalikan dari keraguan. Dalam terminologi yurisprudensi, kepastian adalah kepastian hati mengenai terjadinya atau tidak terjadi sesuatu. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18001}
+
+Istilah terkait: Keraguan dalam bahasa berarti kecurigaan; dalam terminologi teknis, keraguan adalah keraguan antara dua hal yang berlawanan tanpa memihak salah satu dalam kasus sang perasa, dan kaitannya dengan kepastian adalah kontradiksi. Dalam linguistik, ilusi berarti bahaya hati, dan dalam terminologi teknis, ilusi adalah kepercayaan yang melemah, dan hubungannya dengan kepastian adalah sebaliknya. Dalam linguistik, kecurigaan adalah keraguan yang lebih kuat antara kedua sisi kepercayaan, dan dalam terminologi, adalah keyakinan yang lebih kuat dengan kemungkinan sebaliknya, dan kaitannya dengan kepastian adalah sebaliknya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18001} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18002}
+
+Putusan hukum yang berkaitan dengan kepastian: Dasar-dasar agama, seperti iman kepada Allah, malaikat-Nya, utusan-Nya, kitab-kitab-Nya, dan Hari Terakhir, hanya dapat ditetapkan oleh kepastian. Para ahli hukum telah mengutip ayat-ayat dari Surah Muhammad (ayat 19), Surah Al-Hujurat (ayat 15), Surah Al-Baqarah (ayat 26), Surah Al-An'am (ayat 82), dan Surah Ar-Ra'd (ayat 28). Dan perkataan-Nya dalam Surah Al-Baqarah (ayat 46) tentang dugaan berarti kepastian, dan dalam Surah Al-Haqqa (ayat 20) dan Surah Al-Kahf (ayat 53), makna dugaan adalah kepastian menurut mayoritas. Rincian dapat ditemukan dalam kitab-kitab kredo. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18002} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18003}
+
+Prinsip Yurisprudensi yang Terkait dengan Kepastian: Para ahli hukum telah menetapkan aturan umum untuk mengutamakan kepastian daripada keraguan, kecurigaan, dan ilusi, yang paling penting adalah:
+Prinsip pertama: Kepastian tidak hilang dengan keraguan. Artinya adalah bahwa apa yang ditetapkan dengan kepastian tidak timbul dari keraguan, dan tidak dapat diangkat kecuali dengan kepastian. Buktinya adalah hadits: "Jika salah satu dari kalian menemukan sesuatu di perutnya dan meragukan apakah dia harus mengeluarkan sesuatu atau tidak, mereka tidak boleh meninggalkan masjid sampai dia mendengar suara atau mencium baunya," dan hadits Abu Sa'id: "Jika salah satu dari kalian meragukan doanya dan tidak tahu berapa lama dia berdoa, hilangkan keraguan itu dan membangun apa yang dia yakini," dan hadis Abd al-Rahman ibn Awf mengenai konstruksi, setidaknya seperti yang dikutip oleh Ibn Hajar. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18003} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18004}
+Di antara cabang aturan ini: "Prinsipnya adalah bahwa apa yang dulu tetap seperti semula." Siapa pun yang yakin akan kemurnian dan meragukan ketidakmurnian dianggap murni, dan siapa pun yang yakin akan ketidakmurnian dan meragukan kemurnian dianggap sebagai orang yang baru diciptakan. "Kesalahan adalah pembebasan tanggung jawab," sehingga satu saksi tidak diterima dalam praduga tanggung jawab kecuali didukung oleh alasan lain. Dan "Siapa pun yang meragukan apakah dia melakukan sesuatu atau tidak, kelalaian adalah bahwa dia tidak melakukannya." Ini mencakup aturan: Siapa pun yang yakin dengan tindakan dan meragukan sedikit atau banyak, dianggap kecil karena itu pasti, kecuali tanggung jawab itu dipikirkan oleh yang asli dan hanya dibebaskan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18004}
+Aturan kedua: Pelanggaran dalam barang adalah pelarangan (larangan). Jika seorang wanita bertemu dengan hal yang sah maupun yang dilarang, larangan berlaku, sehingga tidak diperbolehkan untuk menyelidiki bagian pribadi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18004}
+Prinsip ketiga: Gagal bayar dalam sesuatu adalah tidak ada. Contohnya adalah pernyataan pekerja pinjaman mengenai pernyataannya, 'Saya tidak mendapat keuntungan.' {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18004}
+Dan dia meninjau dengan ragu dan ilusi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18004}

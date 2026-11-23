@@ -8,6 +8,8 @@ const GREG = {
   ur: ["جنوری", "فروری", "مارچ", "اپریل", "مئی", "جون", "جولائی", "اگست", "ستمبر", "اکتوبر", "نومبر", "دسمبر"],
   fr: ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"],
   es: ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"],
+  tr: ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"],
+  id: ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"],
 };
 const HIJRI = {
   en: ["Muharram", "Safar", "Rabi' I", "Rabi' II", "Jumada I", "Jumada II", "Rajab", "Sha'ban", "Ramadan", "Shawwal", "Dhu al-Qa'da", "Dhu al-Hijja"],
@@ -15,6 +17,8 @@ const HIJRI = {
   ur: ["محرم", "صفر", "ربیع الاول", "ربیع الثانی", "جمادی الاول", "جمادی الثانی", "رجب", "شعبان", "رمضان", "شوال", "ذوالقعدہ", "ذوالحجہ"],
   fr: ["Mouharram", "Safar", "Rabi' I", "Rabi' II", "Joumada I", "Joumada II", "Rajab", "Cha'bane", "Ramadan", "Chawwal", "Dhou al-Qa'da", "Dhou al-Hijja"],
   es: ["Muharram", "Safar", "Rabi' I", "Rabi' II", "Yumada I", "Yumada II", "Rayab", "Sha'ban", "Ramadán", "Shawwal", "Dhu al-Qa'da", "Dhu al-Hiyya"],
+  tr: ["Muharrem", "Safer", "Rebiülevvel", "Rebiülâhir", "Cemaziyelevvel", "Cemaziyelâhir", "Receb", "Şaban", "Ramazan", "Şevval", "Zilkade", "Zilhicce"],
+  id: ["Muharam", "Safar", "Rabiulawal", "Rabiulakhir", "Jumadilawal", "Jumadilakhir", "Rajab", "Syakban", "Ramadan", "Syawal", "Zulkaidah", "Zulhijah"],
 };
 // Era and approximation labels per language. Urdu uses its own forms; Arabic keeps the Hijri-era marks.
 export const ERA = {
@@ -23,6 +27,8 @@ export const ERA = {
   ur: { ce: "عیسوی", bce: "قبل مسیح", ah: "ھ", bh: "قبل ہجرت", approx: "تقریباً ", approxTail: " ⁦(تقریباً)⁩" },
   fr: { ce: "ap. J.-C.", bce: "av. J.-C.", ah: "H", bh: "av. H", approx: "v. ", approxTail: " (env.)" },
   es: { ce: "d. C.", bce: "a. C.", ah: "H", bh: "a. H.", approx: "c. ", approxTail: " (aprox.)" },
+  tr: { ce: "MS", bce: "MÖ", ah: "H", bh: "HÖ", approx: "y. ", approxTail: " (yaklaşık)" },
+  id: { ce: "M", bce: "SM", ah: "H", bh: "SH", approx: "k. ", approxTail: " (perkiraan)" },
 } as const;
 export const GREG_MONTHS = GREG;
 export const HIJRI_MONTHS = HIJRI;
@@ -55,6 +61,8 @@ function interval(edtf: string, lang: Lang, era: (y: number) => string): string 
   if (lang === "en") return `between ${a} and ${b} ${era(b)}`.trim();
   if (lang === "fr") return `entre ${num(a, lang)} et ${num(b, lang)} ${era(b)}`.trim();
   if (lang === "es") return `entre ${num(a, lang)} y ${num(b, lang)} ${era(b)}`.trim();
+  if (lang === "tr") return `${num(a, lang)} ile ${num(b, lang)} arasında ${era(b)}`.trim();
+  if (lang === "id") return `antara ${num(a, lang)} dan ${num(b, lang)} ${era(b)}`.trim();
   if (lang === "ur") return `${num(a, lang)} اور ${num(b, lang)} کے درمیان ${era(b)}`.trim();
   return `بين ${num(a, lang)} و${num(b, lang)} ${era(b)}`.trim();
 }

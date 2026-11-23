@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1608"
-label: { ar: "جامع الترمذي 1608 — ما خلّفه من تركة وميراث", en: "Jami' al-Tirmidhi 1608 — what was left behind: estate and inheritance", ur: "جامع ترمذی 1608 — ترکہ اور میراث", es: "Jami' al-Tirmidhi 1608 — lo que quedó: patrimonio y herencia", fr: "Jami' al-Tirmidhi 1608 — Ce qui a été laissé derrière: biens et héritage" }
+label: { ar: "جامع الترمذي 1608 — ما خلّفه من تركة وميراث", en: "Jami' al-Tirmidhi 1608 — what was left behind: estate and inheritance", ur: "جامع ترمذی 1608 — ترکہ اور میراث", es: "Jami' al-Tirmidhi 1608 — lo que quedó: patrimonio y herencia", fr: "Jami' al-Tirmidhi 1608 — Ce qui a été laissé derrière: biens et héritage", tr: "Cami' el-Tirmizi 1608 — Miras ve vasiyet olarak geride bıraktıkları", id: "Jami' al-Tirmidhi 1608 — Apa yang ditinggalkannya berupa warisan dan peninggalan" }
 text: "… يَرِثُكَ قَالَ أَهْلِي وَوَلَدِي. قَالَتْ فَمَا لِي لاَ أَرِثُ أَبِي فَقَالَ أَبُو بَكْرٍ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" لاَ نُورَثُ \". وَلَكِنِّي أَعُولُ مَنْ كَانَ رَسُولُ اللَّهِ يَعُولُهُ وَأُنْفِقُ عَلَى مَنْ كَانَ رَسُولُ اللَّهِ يُنْفِقُ عَلَيْهِ. قَالَ أَبُو عِيسَى وَفِي الْبَابِ عَنْ عُمَرَ وَطَلْحَةَ وَالزُّبَيْرِ وَعَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ وَسَعْدٍ وَعَائِشَةَ. وَحَدِيثُ أَبِي هُرَيْرَةَ حَدِيثٌ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 1608، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 1608، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe de Jami' al-Tirmidhi, n.º 1608 (El Libro de las Expediciones Militares), menciona lo que quedó: bienes y herencias. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 1608 (Livre des expéditions militaires), mentionne ce qui a été laissé derrière soi: biens et héritage. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Cami' el-Tirmizi'nin 1608 numaralı hadisinde, Peygamberin geride bıraktığı mal varlığı ve miras hakkında bilgi verilmektedir. Bu derleme, vasiyetnameler, miras, eski eserler ve türbeler konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birlikte hazırlanmıştır."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 1608, menyebutkan apa yang ditinggalkannya berupa harta warisan. Ini disusun oleh seorang peneliti yang ahli dalam wasiat, warisan, barang antik, dan makam suci, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1608 (book 21 hadith 71); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

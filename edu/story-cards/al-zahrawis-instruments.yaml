@@ -1,109 +1,210 @@
 slug: al-zahrawis-instruments
 title:
-  ar: "آلات الزهراوي"
-  en: "Al-Zahrawi's Instruments"
-  ur: "زہراوی کے اوزار"
-  fr: "Les instruments d’Al-Zahrawi"
+  ar: آلات الزهراوي
+  en: Al-Zahrawi's Instruments
+  ur: زہراوی کے اوزار
+  fr: Les instruments d’Al-Zahrawi
+  tr: Al-Zahrawi Enstrümanları
+  id: Al-Zahrawi Instruments
 lede:
-  ar: "طبيب قرطبة الذي علّم الجراحة للعالم — صور أدواته في اثنتي عشرة بطاقة."
-  en: "Cordoba's surgeon who taught the world surgery — his instruments in twelve cards."
-  ur: "قرطبہ کا سرجن جس نے دنیا کو سرجری سکھائی — اس کے اوزار بارہ کارڈز میں۔"
-  fr: "Douze cartes sur les instruments du médecin de Cordoue qui a enseigné la chirurgie au monde."
-status: { review: published }
-sources: [source/fihrist-ibn-al-nadim]
-
+  ar: طبيب قرطبة الذي علّم الجراحة للعالم — صور أدواته في اثنتي عشرة بطاقة.
+  en: Cordoba's surgeon who taught the world surgery — his instruments in twelve cards.
+  ur: قرطبہ کا سرجن جس نے دنیا کو سرجری سکھائی — اس کے اوزار بارہ کارڈز میں۔
+  fr: Douze cartes sur les instruments du médecin de Cordoue qui a enseigné la chirurgie au monde.
+  tr: Dünyaya cerrahi öğreten Cordoba'lı doktor — aletlerini on iki kartta tasvir etti.
+  id: Dokter dari Cordoba yang mengajarkan bedah kepada dunia — ia menggambarkan instrumennya dalam dua belas kartu.
+status:
+  review: published
+sources:
+- source/fihrist-ibn-al-nadim
 provenance:
-  generated_by: "Devin"
-  model: "Devin (Cognition)"
-  run: "education-E5-story-cards"
-  source: "التصريف لمن عجز عن التأليف للزهراوي، المقالة الثلاثون — إعادة صياغة."
+  generated_by: Devin
+  model: Devin (Cognition)
+  run: education-E5-story-cards
+  source: التصريف لمن عجز عن التأليف للزهراوي، المقالة الثلاثون — إعادة صياغة.
   fr:
-    generated_by: "Devin"
-    model: "unknown"
-    run: "devin-a7ba389df57d4bdb9b7515fa59f40242"
-    source: "Existing English text in this activity, with Arabic consulted for religious material."
+    generated_by: Devin
+    model: unknown
+    run: devin-a7ba389df57d4bdb9b7515fa59f40242
+    source: Existing English text in this activity, with Arabic consulted for religious material.
 cards:
-  - title: { ar: "قرطبة", en: "Cordoba", ur: "قرطبہ", fr: "Cordoue" }
-    motif: city
-    narration:
-      ar: "أبو القاسم الزهراوي طبيب في قرطبة الأندلس في القرن العاشر."
-      en: "Abu al-Qasim al-Zahrawi was a physician in tenth-century Cordoba."
-      ur: "ابو القاسم الزہراوی دسویں صدی میں قرطبہ کا طبیب تھا۔"
-      fr: "Abou al-Qasim al-Zahrawi était médecin à Cordoue au Xe siècle."
-  - title: { ar: "طبيب الملك", en: "The king's doctor", ur: "بادشاہ کا حکیم", fr: "Le médecin du calife" }
-    motif: star
-    narration:
-      ar: "كان طبيب الخليفة الأموي عبد الرحمن الناصر، أكبر أطباء عصره."
-      en: "He was physician to the Umayyad caliph Abd al-Rahman al-Nasir, the greatest doctor of his age."
-      ur: "وہ اموی خلیفہ عبدالرحمن الناصر کا حکیم تھا، اپنے زمانے کا سب سے بڑا طبیب۔"
-      fr: "Médecin du calife omeyyade Abd al-Rahman al-Nasir, il était le plus grand médecin de son époque."
-  - title: { ar: "التصريف", en: "Al-Tasrif", ur: "التصریف", fr: "Al-Tasrif" }
-    motif: book
-    narration:
-      ar: "كتب موسوعة التصريف في ثلاثين مقالة، آخرها في الجراحة."
-      en: "He wrote the thirty-part encyclopedia al-Tasrif, the last on surgery."
-      ur: "اس نے تیس مقالوں کی موسوعہ التصریف لکھی، آخری مقالہ سرجری پر۔"
-      fr: "Il rédigea une encyclopédie en trente parties, Al-Tasrif, dont la dernière porte sur la chirurgie."
-  - title: { ar: "الرسومات", en: "The drawings", ur: "نقشے", fr: "Les dessins" }
-    motif: manuscript
-    narration:
-      ar: "رسم في كتابه أكثر من مئتي أداة جراحية لم يكن أحد رسمها قبله."
-      en: "He drew over two hundred surgical instruments no one had drawn before."
-      ur: "اس نے دو سو سے زائد سرجری کے اوزار بنائے جو پہلے کسی نے نہیں بنائے۔"
-      fr: "Il dessina plus de deux cents instruments chirurgicaux que personne n’avait représentés avant lui."
-  - title: { ar: "المشرط", en: "The scalpel", ur: "مشرط", fr: "Le bistouri" }
-    motif: pen
-    narration:
-      ar: "المشرط: سكين دقيق يفتح الجلد للعمليات — وصفه الزهراوي وأدخله الطب."
-      en: "The scalpel: a fine blade to open the skin — al-Zahrawi described it for surgery."
-      ur: "مشرط: باریک چاقو جو جلد کاٹتا ہے — زہراوی نے سرجری کے لیے اسے بیان کیا۔"
-      fr: "Al-Zahrawi décrivit l’usage chirurgical du bistouri, une lame fine qui sert à inciser la peau."
-  - title: { ar: "الملقط", en: "The forceps", ur: "ملقط", fr: "Les pinces" }
-    motif: pen
-    narration:
-      ar: "الملقط: يمسك الأشياء الصغيرة داخل الجرح — من أدواته التي بقيت."
-      en: "The forceps: grippers for small things inside a wound — one of his lasting tools."
-      ur: "ملقط: زخم کے اندر چھوٹی چیزیں پکڑنے والا اوزار — اس کی باقی ماندہ ایجاد۔"
-      fr: "Les pinces servent à saisir de petits objets dans une plaie. Elles font partie des instruments qui lui ont survécu."
-  - title: { ar: "الخيوط", en: "The sutures", ur: "ٹانکے", fr: "Les sutures" }
-    motif: book
-    narration:
-      ar: "أول من خيّط الجروح بخيوط أمعاء القطط — غرز تذوب في الجسم."
-      en: "He was first to sew wounds with catgut — stitches that dissolve inside the body."
-      ur: "وہ پہلا تھا جس نے زخم کٹ کے رگوں سے سئے — ٹانکے جو جسم میں گل جاتے ہیں۔"
-      fr: "Il fut le premier à refermer des plaies avec du catgut, un fil de suture qui se résorbe dans le corps."
-  - title: { ar: "الكي", en: "The cautery", ur: "داغ", fr: "La cautérisation" }
-    motif: star
-    narration:
-      ar: "الكي بالنار يوقف النزيف ويعقم الجرح — فصلٌ كامل في كتابه."
-      en: "Cautery stops bleeding and cleans the wound — a whole chapter in his book."
-      ur: "داغ خون بند کرتا ہے اور زخم صاف کرتا ہے — اس کی کتاب کا مکمل باب۔"
-      fr: "La cautérisation arrête le saignement et nettoie la plaie. Il lui consacra un chapitre entier."
-  - title: { ar: "الحجر", en: "The stone", ur: "پتھر", fr: "Le calcul de la vessie" }
-    motif: mountain
-    narration:
-      ar: "وصف استخراج حصاة المثانة بطريقة ظلت مرجعاً قروناً."
-      en: "He described removing bladder stones in a way that stayed the reference for centuries."
-      ur: "اس نے مثانے کی پتھر نکالنے کا طریقہ لکھا جو صدیوں مرجع رہا۔"
-      fr: "Il décrivit une méthode pour retirer les calculs de la vessie qui resta une référence pendant des siècles."
-  - title: { ar: "الولادة", en: "The childbirth", ur: "زچگی", fr: "L’accouchement" }
-    motif: tree
-    narration:
-      ar: "علّم القابلات ووصف الولادات المتعسرة بأدق التفاصيل."
-      en: "He taught midwives and described difficult births in fine detail."
-      ur: "اس نے قابلاؤں کو سکھایا اور مشکل زچگی کی تفصیل بیان کی۔"
-      fr: "Il forma des sages-femmes et décrivit avec précision les accouchements difficiles."
-  - title: { ar: "أوروبا", en: "Europe", ur: "یورپ", fr: "L’Europe" }
-    motif: sea
-    narration:
-      ar: "ترجم التصريف إلى اللاتينية فصار مرجع الجراحة في أوروبا خمسة قرون."
-      en: "Al-Tasrif was translated to Latin and stayed Europe's surgery textbook for five centuries."
-      ur: "التصریف لاطینی میں ترجمہ ہوئی اور پانچ صدیوں یورپ کی سرجری کی مرجع رہی۔"
-      fr: "Traduit en latin, Al-Tasrif resta pendant cinq siècles un manuel de chirurgie en Europe."
-  - title: { ar: "اليوم", en: "Today", ur: "آج", fr: "Aujourd’hui" }
-    motif: book
-    narration:
-      ar: "تسميه كليات الجراحة أبا الجراحة الحديثة — أدواته ما زالت تُصنع."
-      en: "Surgery schools call him the father of modern surgery — his tools are still made."
-      ur: "سرجری کالج اسے جدید سرجری کا باپ کہتے ہیں — اس کے اوزار آج بھی بنتے ہیں۔"
-      fr: "Dans les écoles de chirurgie, on le surnomme le père de la chirurgie moderne. Certains de ses instruments sont encore fabriqués."
+- title:
+    ar: قرطبة
+    en: Cordoba
+    ur: قرطبہ
+    fr: Cordoue
+    tr: Córdoba
+    id: Córdoba
+  motif: city
+  narration:
+    ar: أبو القاسم الزهراوي طبيب في قرطبة الأندلس في القرن العاشر.
+    en: Abu al-Qasim al-Zahrawi was a physician in tenth-century Cordoba.
+    ur: ابو القاسم الزہراوی دسویں صدی میں قرطبہ کا طبیب تھا۔
+    fr: Abou al-Qasim al-Zahrawi était médecin à Cordoue au Xe siècle.
+    tr: Ebu el-Kasım el-Zehravi, onuncu yüzyılda Endülüs'ün Kordoba kentinde bir hekimdi.
+    id: Abu al-Qasim al-Zahrawi adalah seorang dokter di Cordoba, al-Andalus, pada abad kesepuluh.
+- title:
+    ar: طبيب الملك
+    en: The king's doctor
+    ur: بادشاہ کا حکیم
+    fr: Le médecin du calife
+    tr: Kralın Doktoru
+    id: Dokter Raja
+  motif: star
+  narration:
+    ar: كان طبيب الخليفة الأموي عبد الرحمن الناصر، أكبر أطباء عصره.
+    en: He was physician to the Umayyad caliph Abd al-Rahman al-Nasir, the greatest doctor of his age.
+    ur: وہ اموی خلیفہ عبدالرحمن الناصر کا حکیم تھا، اپنے زمانے کا سب سے بڑا طبیب۔
+    fr: Médecin du calife omeyyade Abd al-Rahman al-Nasir, il était le plus grand médecin de son époque.
+    tr: Emevi Halifesi Abdülrahman el-Nasir'in hekimi, zamanının en büyük hekimiydi.
+    id: Dokter Khalifah Umayyah Abd al-Rahman al-Nasir adalah dokter terbesar pada masanya.
+- title:
+    ar: التصريف
+    en: Al-Tasrif
+    ur: التصریف
+    fr: Al-Tasrif
+    tr: Drenaj
+    id: Drainase
+  motif: book
+  narration:
+    ar: كتب موسوعة التصريف في ثلاثين مقالة، آخرها في الجراحة.
+    en: He wrote the thirty-part encyclopedia al-Tasrif, the last on surgery.
+    ur: اس نے تیس مقالوں کی موسوعہ التصریف لکھی، آخری مقالہ سرجری پر۔
+    fr: Il rédigea une encyclopédie en trente parties, Al-Tasrif, dont la dernière porte sur la chirurgie.
+    tr: Drenaj ansiklopedisini otuz makaleden oluşan bir bölüm yazdı; sonuncusu cerrahi üzerineydi.
+    id: Ia menulis ensiklopedia tentang drainase dalam tiga puluh artikel, yang terakhir membahas bedah.
+- title:
+    ar: الرسومات
+    en: The drawings
+    ur: نقشے
+    fr: Les dessins
+    tr: Grafikler
+    id: Grafis
+  motif: manuscript
+  narration:
+    ar: رسم في كتابه أكثر من مئتي أداة جراحية لم يكن أحد رسمها قبله.
+    en: He drew over two hundred surgical instruments no one had drawn before.
+    ur: اس نے دو سو سے زائد سرجری کے اوزار بنائے جو پہلے کسی نے نہیں بنائے۔
+    fr: Il dessina plus de deux cents instruments chirurgicaux que personne n’avait représentés avant lui.
+    tr: Kitabında, daha önce kimsenin çizmediği iki yüzden fazla cerrahi alet resimledi.
+    id: Dalam bukunya, ia mengilustrasikan lebih dari dua ratus instrumen bedah yang belum pernah digambar oleh siapa pun sebelumnya.
+- title:
+    ar: المشرط
+    en: The scalpel
+    ur: مشرط
+    fr: Le bistouri
+    tr: neşter
+    id: pisau bedah
+  motif: pen
+  narration:
+    ar: 'المشرط: سكين دقيق يفتح الجلد للعمليات — وصفه الزهراوي وأدخله الطب.'
+    en: 'The scalpel: a fine blade to open the skin — al-Zahrawi described it for surgery.'
+    ur: 'مشرط: باریک چاقو جو جلد کاٹتا ہے — زہراوی نے سرجری کے لیے اسے بیان کیا۔'
+    fr: Al-Zahrawi décrivit l’usage chirurgical du bistouri, une lame fine qui sert à inciser la peau.
+    tr: 'Neşter: Ameliyatlar için deriyi açan ince bir bıçak — Zahrawi tarafından tanımlanmış ve tıbba dahil edilmiştir.'
+    id: 'Pisau bedah: pisau halus yang membuka kulit untuk operasi — dijelaskan oleh Zahrawi dan diperkenalkan ke dunia medis.'
+- title:
+    ar: الملقط
+    en: The forceps
+    ur: ملقط
+    fr: Les pinces
+    tr: cımbız
+    id: pinset
+  motif: pen
+  narration:
+    ar: 'الملقط: يمسك الأشياء الصغيرة داخل الجرح — من أدواته التي بقيت.'
+    en: 'The forceps: grippers for small things inside a wound — one of his lasting tools.'
+    ur: 'ملقط: زخم کے اندر چھوٹی چیزیں پکڑنے والا اوزار — اس کی باقی ماندہ ایجاد۔'
+    fr: Les pinces servent à saisir de petits objets dans une plaie. Elles font partie des instruments qui lui ont survécu.
+    tr: 'Cımbız: Yaranın içinde küçük nesneler tutar — kalan araçlarından biri.'
+    id: 'Pinset: Dia memegang benda kecil di dalam luka — salah satu alat yang tersisa.'
+- title:
+    ar: الخيوط
+    en: The sutures
+    ur: ٹانکے
+    fr: Les sutures
+    tr: Threads
+    id: Benang Merah
+  motif: book
+  narration:
+    ar: أول من خيّط الجروح بخيوط أمعاء القطط — غرز تذوب في الجسم.
+    en: He was first to sew wounds with catgut — stitches that dissolve inside the body.
+    ur: وہ پہلا تھا جس نے زخم کٹ کے رگوں سے سئے — ٹانکے جو جسم میں گل جاتے ہیں۔
+    fr: Il fut le premier à refermer des plaies avec du catgut, un fil de suture qui se résorbe dans le corps.
+    tr: Kedi bağırsaklarının iplikleriyle yaraları ilk kez ipleyen kişidir — vücuda eriyen dikişler.
+    id: Yang pertama menjahit luka dengan benang usus kucing — jahitan yang meleleh ke dalam tubuh.
+- title:
+    ar: الكي
+    en: The cautery
+    ur: داغ
+    fr: La cautérisation
+    tr: ütüleme
+    id: menyetrika
+  motif: star
+  narration:
+    ar: الكي بالنار يوقف النزيف ويعقم الجرح — فصلٌ كامل في كتابه.
+    en: Cautery stops bleeding and cleans the wound — a whole chapter in his book.
+    ur: داغ خون بند کرتا ہے اور زخم صاف کرتا ہے — اس کی کتاب کا مکمل باب۔
+    fr: La cautérisation arrête le saignement et nettoie la plaie. Il lui consacra un chapitre entier.
+    tr: Ateş yakma kanamayı durdurur ve yaraları sterilize eder — kitabında tam bir bölüm.
+    id: Kauterisasi api menghentikan pendarahan dan mensterilkan luka — satu bab penuh dalam bukunya.
+- title:
+    ar: الحجر
+    en: The stone
+    ur: پتھر
+    fr: Le calcul de la vessie
+    tr: taş
+    id: batu
+  motif: mountain
+  narration:
+    ar: وصف استخراج حصاة المثانة بطريقة ظلت مرجعاً قروناً.
+    en: He described removing bladder stones in a way that stayed the reference for centuries.
+    ur: اس نے مثانے کی پتھر نکالنے کا طریقہ لکھا جو صدیوں مرجع رہا۔
+    fr: Il décrivit une méthode pour retirer les calculs de la vessie qui resta une référence pendant des siècles.
+    tr: Mesane taşı çıkarımı yüzyıllardır referans olarak tanımlanmıştır.
+    id: Ekstraksi batu kandung kemih dijelaskan dengan cara yang telah menjadi referensi selama berabad-abad.
+- title:
+    ar: الولادة
+    en: The childbirth
+    ur: زچگی
+    fr: L’accouchement
+    tr: Doğum
+    id: Kelahiran
+  motif: tree
+  narration:
+    ar: علّم القابلات ووصف الولادات المتعسرة بأدق التفاصيل.
+    en: He taught midwives and described difficult births in fine detail.
+    ur: اس نے قابلاؤں کو سکھایا اور مشکل زچگی کی تفصیل بیان کی۔
+    fr: Il forma des sages-femmes et décrivit avec précision les accouchements difficiles.
+    tr: Ebe olarak ve zor doğumları en ince ayrıntıyla anlattı.
+    id: Kebidanan dan menggambarkan persalinan yang sulit dengan detail terkecil.
+- title:
+    ar: أوروبا
+    en: Europe
+    ur: یورپ
+    fr: L’Europe
+    tr: Avrupa
+    id: Eropa
+  motif: sea
+  narration:
+    ar: ترجم التصريف إلى اللاتينية فصار مرجع الجراحة في أوروبا خمسة قرون.
+    en: Al-Tasrif was translated to Latin and stayed Europe's surgery textbook for five centuries.
+    ur: التصریف لاطینی میں ترجمہ ہوئی اور پانچ صدیوں یورپ کی سرجری کی مرجع رہی۔
+    fr: Traduit en latin, Al-Tasrif resta pendant cinq siècles un manuel de chirurgie en Europe.
+    tr: Morfoloji Latinceye çevrildi ve beş yüzyıl boyunca Avrupa'da cerrahi için birincil referans oldu.
+    id: Morfologi ini diterjemahkan ke dalam bahasa Latin, menjadikannya referensi utama untuk bedah di Eropa selama lima abad.
+- title:
+    ar: اليوم
+    en: Today
+    ur: آج
+    fr: Aujourd’hui
+    tr: Günümüz
+    id: Saat ini
+  motif: book
+  narration:
+    ar: تسميه كليات الجراحة أبا الجراحة الحديثة — أدواته ما زالت تُصنع.
+    en: Surgery schools call him the father of modern surgery — his tools are still made.
+    ur: سرجری کالج اسے جدید سرجری کا باپ کہتے ہیں — اس کے اوزار آج بھی بنتے ہیں۔
+    fr: Dans les écoles de chirurgie, on le surnomme le père de la chirurgie moderne. Certains de ses instruments sont encore fabriqués.
+    tr: Cerrahi fakülteler ona modern cerrahinin babası diyor — aletleri hâlâ üretiliyor.
+    id: Perguruan tinggi bedah menyebutnya bapak bedah modern — alat-alatnya masih terus dibuat.

@@ -21,7 +21,8 @@ from translate import BROKEN, FIXED_HEADINGS, HONORIFIC, LEVELED, ROOT, check, p
 
 REC = re.compile(r"^\s*#{3,4}\s*(\d+)\s*#{3,4}\s*$")
 ERA = {"es": [(r"(\d) (?:AH|d\. ?H\.|A\.H\.)(?!\w)", r"\1 H"), (r"(\d) (?:BCE|a\. ?e\. ?c\.|AEC)(?!\w)", r"\1 a. C."), (r"(\d) (?:CE|e\. ?c\.|EC)(?!\w)", r"\1 d. C.")],
-       "fr": [(r"(\d) (?:AH|A\.H\.)(?!\w)", r"\1 H"), (r"(\d) (?:BCE|av\. ?n\. ?è\.)(?!\w)", r"\1 av. J.-C."), (r"(\d) (?:CE|EC|de notre ère)(?!\w)", r"\1 apr. J.-C.")]}
+       "fr": [(r"(\d) (?:AH|A\.H\.)(?!\w)", r"\1 H"), (r"(\d) (?:BCE|av\. ?n\. ?è\.)(?!\w)", r"\1 av. J.-C."), (r"(\d) (?:CE|EC|de notre ère)(?!\w)", r"\1 apr. J.-C.")],
+       "tr": [], "id": []}
 
 
 def paragraphs(path):
@@ -130,14 +131,14 @@ def check_any(src_body, tr_body, src, lang):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--lang", required=True, choices=["es", "fr", "en", "ur"])
+    ap.add_argument("--lang", required=True, choices=["es", "fr", "en", "ur", "tr", "id"])
     ap.add_argument("--src", default="en", choices=["en", "ar"], help="language the file was translated from")
     ap.add_argument("--map", required=True)
     ap.add_argument("--docx", default="")
     ap.add_argument("--txt", default="", help="a plain-text answer instead of a Word file (Gemini): one paragraph per line")
     ap.add_argument("--log", required=True)
     ap.add_argument("--out", default=ROOT)
-    ap.add_argument("--engine", default="google", choices=["google", "word", "gemini"], help="who translated the file: Google Translate documents, or Word for Mac (Microsoft Translator)")
+    ap.add_argument("--engine", default="google", choices=["google", "word", "gemini", "azure"], help="who translated the file: Google Translate documents, Word for Mac, Gemini, or Azure AI Document Translation (async batch)")
     ap.add_argument("--taken", default="", help="file of ids another lane is translating; never written")
     ap.add_argument("--date", default=time.strftime("%Y-%m-%d"), help="day the file was translated on translate.google.com")
     a = ap.parse_args()
@@ -206,12 +207,14 @@ def main():
                 problem = check(body, tr_body, lang) if plain_pair else check_any(body, tr_body, a.src, lang)
                 if problem: raise ValueError(problem)
                 who = (f"Google Translate (document translation on translate.google.com, {a.date})", "google-translate", "Google Translate documents", "gt-docs") if a.engine == "google" else \
+                      (f"Azure AI Document Translation (async batch API, resource translationregion1/eastus, {a.date})", "azure-ai-translator-nmt", "Azure AI Document Translation", "azdocs") if a.engine == "azure" else \
                       (f"Google Gemini (gemini.google.com, Task mode, model shown as Hydrogen, {a.date})", "gemini (Hydrogen)", "Google Gemini in the browser", "gemini") if a.engine == "gemini" else \
                       (f"Microsoft Translator (Translate Document in Word for Mac, {a.date})", "microsoft-translator", "Word for Mac Translate Document", "word-docs")
                 new = {"id": ident, "lang": lang, "source_lang": a.src, "translators": [f"{who[0]}, draft translation"]}
                 for k, v in fm.items():
                     if k not in ("id", "lang", "source_lang", "translators", "provenance", "translation_of"): new[k] = v
-                new["provenance"] = {"generated_by": f"scripts/local-mt/import_gt.py (spanish lane, {who[2]}, managed by Claude Code)",
+                lane = "turkish-indonesian" if a.lang in ("tr", "id") else "spanish"
+                new["provenance"] = {"generated_by": f"scripts/local-mt/import_gt.py ({lane} lane, {who[2]})",
                                      "model": who[1], "run": f"{who[3]}-{lang}-{a.date}", "source": f"content/{a.src}/{ident}.md"}
                 text = "---\n" + yaml.safe_dump(new, allow_unicode=True, sort_keys=False, width=10000, default_flow_style=None).rstrip("\n") + "\n---\n" + tr_body
                 if not text.endswith("\n"): text += "\n"

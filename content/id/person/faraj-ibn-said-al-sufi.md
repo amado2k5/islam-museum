@@ -1,0 +1,13 @@
+---
+id: person/faraj-ibn-said-al-sufi
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/faraj-ibn-said-al-sufi.md}
+---
+## Ringkasan
+Abu Ruh al-Faraj ibn Sa'id al-Sufi mengkritik jalan para imam dan para pemangku kepentingan, serta menyampaikan dari mereka apa yang diperlakukan para pelayan. [[person/abu-nuaym-al-asbahani-ahmad|Abu Nu'aym memberikan biografi tentangnya]] dalam jilid kesepuluh '[[work/hilyat-al-awliya|Hilyat al-Awliya]]' (biografi cetak 534), halaman 162 dan 163, dan urutannya adalah 535. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/162} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/163}
+
+## Menarik, mengagumkan, dan terima kasih
+Uthman ibn Ammar menceritakan bahwa ia mendengar Hammad ibn Zayd berkata: Ayyub al-Sakhtiyani, Yunus ibn Ubayd, Ibn 'Awn, dan Thabit al-Banani berkumpul dalam satu rumah, dan Thabit berkata: Bagaimana mungkin seorang hamba jika ia berdoa kepada Allah dan doanya dijawab? Ibn 'Awn berkata: Penderitaan ada di dalam dirinya. Thabit berkata: Ia takjub atas apa yang Allah lakukan untuknya. Yunus ibn 'Ubayd berkata: Seorang hamba tidak akan terkesan dengan apa yang Allah lakukan untuknya kecuali ketika dia dibimbing olehnya. Ayyub berkata: Dan apa tanda dituntun? Dia berkata: Ketika seorang hamba memiliki status di hadapan Allah, dia menjaganya dan mempertahankannya, maka berkat Allah, Allah memberinya pangkat yang lebih tinggi dari yang pertama. Tetapi ketika dia mengabaikan rasa syukur, Allah menariknya pergi. Pengabaian terhadap rasa syukurnya adalah cara Allah untuk memancingnya, sehingga dia mengatasi pengetahuan akan menjadi perlahan dari rasa syukur. Dan ketika seorang hamba bersyukur dalam hatinya, ia tahu rasa syukurnya dengan memeriksa dari mana asalnya. Jika ia benar-benar tahu ini, ia tunduk; dan ketika ia tunduk, Allah menghilangkan kesandungannya. Hammad berkata: Ibn Umar ditanya tentang umpan dan berkata: Itu adalah penipuan terhadap para hamba yang tersesat. Kemudian mereka semua menangis, dan Ayyub mengangkat tangan dan berkata: Wahai Yang Mengetahui yang tak terlihat dan kesaksian, kami tidak akan berhasil jika Engkau tidak menggantikan kami, dan kami tidak punya kekuatan jika Engkau tidak melindungi kami. Ayyub tahu kepada teman-temannya bahwa doanya telah dijawab. Sebuah ungkapan muncul di akhir laporan yang tidak jelas dalam pemindaian dan tidak tercatat di sini. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/163}

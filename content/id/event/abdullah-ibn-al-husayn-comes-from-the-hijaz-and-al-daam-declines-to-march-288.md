@@ -1,0 +1,12 @@
+---
+id: event/abdullah-ibn-al-husayn-comes-from-the-hijaz-and-al-daam-declines-to-march-288
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/abdullah-ibn-al-husayn-comes-from-the-hijaz-and-al-daam-declines-to-march-288.md}
+---
+## Ringkasan
+Al-Hadi [[person/al-hadi-yahya-al-rassi|tinggal]] di Buraidah selama dua hari, kemudian [[person/abu-al-atahiya-ibn-bishr|Abu al-Atahiyah membawanya dengan]] pasukan dari Hamdan. Saat tiba, ia berjalan hingga berkemah di [[place/madar-yemen|Madar]], di mana ia tinggal beberapa hari {cite:sira-hadi-ila-al-haqq p.224}. Kemudian saudaranya [[person/abdullah-ibn-al-husayn-al-rassi|Abdullah ibn al-Husayn datang kepadanya]] bersama sekitar delapan puluh orang dari Mudar dan sekelompok Alawit yang ikut dari Hijaz. Ia tiba di makamnya dan membawa mereka ke Sa'dah, dan al-Hadi {cite:sira-hadi-ila-al-haqq p.224} mengikuti. Ketika al-Hadi menerima perintahnya, ia [[person/al-daam-ibn-ibrahim|bertemu al-Da'am ibn Ibrahim]] dan meminta bantuan atas [[group/banu-tarif|keluarga Turaif]] Ia telah berjanji kepadanya {cite:sira-hadi-ila-al-haqq p.224}. Ketika Abdullah ibn al-Husayn bertemu al-Da'am, ia memberitahunya tentang perang melawan Banu Turaif, dengan berkata: Rakyat berada dalam kelompok yang melampaui kekuatanmu. Ia mengambil alih dan menggantikan al-Hadi dengan apa yang telah diberikan kepadanya {cite:sira-hadi-ila-al-haqq p.224} {cite:sira-hadi-ila-al-haqq p.225}. Jadi Abdullah ibn al-Husayn kembali kepada al-Hadi dan memberitahukan bahwa al-Da'am telah meninggalkannya {cite:sira-hadi-ila-al-haqq p.225}.
+
+## Detail
+Frasa "Panduan kebenaran mematahkan perang Banu Turaif" tidak lurus seperti yang dicetak dan dibaca oleh gambar yang dihapus juga. Museum memahaminya dari konteks bahwa Al-Da'am mengalihkan Abdullah dari perang karena halaman berikutnya menyebutkan "Al-Da'am mengkhianatinya," sehingga bacaan lebih baik, tidak pasti. Jumlah Mudaris sekitar delapan puluh, menurut kata-kata narator: "hampir delapan puluh." Abdullah melarang istrinya, juga tidak melahirkan. Dia tidak menyebutkan bulan atau hari. Peristiwa ini berurutan dari halaman 224, yang didahului oleh halaman 223. Urutan itu mendahului [[event/al-hadi-routs-al-yafur-and-al-tarif-before-sanaa-288]].

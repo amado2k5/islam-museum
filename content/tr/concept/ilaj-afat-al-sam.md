@@ -1,0 +1,15 @@
+---
+id: concept/ilaj-afat-al-sam
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/ilaj-afat-al-sam.md}
+---
+## Her şeyi söyle ve safra kesesini sıcak ve özel olarak uyarla
+Öncelikle, kulağa damlayan her şeyin ılık olması gerektiği, soğuk ya da sıcak olmaması gerektiğini söyleriz. Bu genel bir görüştür, sonra konu netleştirilir: Safra kesesi için ise, safra kesesi müshil ile dışarı atılmalıdır, çünkü safra kesesi ishhali sıkça görülür ve bu elbette sağırlığı ortadan kaldırır. Ayrıca, sıklıkla safra değişimine yol açar, bu da hapsolabilir ve sağır olabilir. Ama sadece ısı varsa, yağlar ve diğer soğutucular (ilaçların isimleri ve dozları dahil edilmemiştir) {cite:canon-ibn-sina-print-v2 p.220}
+## Bu soğuk ve soğuk madde ile ilgili
+Soğuk ve soğuk maddelere maruz kalan kişi için, tüm sıcak yağlar bundan fayda sağlar; soğuk madde tıkanırsa dışarı atıldıktan sonra, yani baş için genel kusma olarak bilinir ve bilinen maddeler kullanıldıktan sonra; egzersiz bu konuda çok faydalıdır, ayrıca kulakta yüksek bağırış, korna sesleri ve benzeri şeyler de vardır. Ayrıca pişmiş helal maddelerden buharın kulağa ulaşması için bir huni yapmak da mümkündür (yağlar, meyve suları, bileşikler, tahıllar ve miktarları belirtilmez) {cite:canon-ibn-sina-print-v2 p.220}
+## Kuru ve barajdan ve nedenlerin sonuçlarından gelen kişi
+Kuruluk yaşayanlar için tedavi, banyo, yemek, nemlendirici içecekle devam etmek, orta miktarda yağ ve ılık su ile başa dökülmek ve öksürüğü bilinen şekilde tedavi etmektir. Tıkanıklık yaşayanlar ise tıkanıklık bölümünde belirtilenlere göre tedavi edilmelidir. Eğer sağır aniden ortaya çıkarsa, bilinen yöntemlerden fayda görebilir. Baş ağrısı yaşayanlar ise bilinen şeylerden fayda sağlamalıdır. Baş ağrısı çekenler kusmaya başlamalı ve ardından bilinen maddeleri damlatmalıdır (ilaçların, bileşiklerin, hapların isimleri ve miktarları dahil edilmemiştir) {cite:canon-ibn-sina-print-v2 p.221}
+## Ortak ilaçlar ve sağırlık için kusma
+Konuşmanın başına dönenler gibi, var olan her şeyin—işitme ağırlığı, ağrıları, rüzgarları, rezonans ve rezonans—soğuk ve soğuktan kaynaklandığını söyleriz. Tüm bunların yaygın çözümlerinden biri bilinenlerdir. Böyle bir tedavi erkek çocuklara uygulandığında, bilinenlerden faydalanırlar. Faydalı kompresler arasında gözleri ve alt kulakları yumuşatmak için kullanıldığı bilinir. Aynı şekilde, baş bölümünde bahsedilen tüpler karışıklığa neden olur ve kulağın buharına girmesini sağlamak için bunlarla hizalanır. Sağır için kusmak, her seferinde gücünü korumak ve olgunluğa ulaşmak için sayısını artırmak ve azaltmak için daha iyidir. Tümörlerden etkilenenler ise sıcak ve soğuk olanları bilinen yöntemlerle tedavi ederler ve tekrarlamaya gerek yoktur (ilaçların, kompreslerin, tüplerin, merhemlerin isimleri ve miktarları uygulanmaz) {cite:canon-ibn-sina-print-v2 p.221} {cite:canon-ibn-sina-print-v2 p.222}

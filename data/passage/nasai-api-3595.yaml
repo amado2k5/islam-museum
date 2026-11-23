@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "3595"
-label: { ar: "سنن النسائي 3595 — ما خلّفه من تركة وميراث", en: "Sunan al-Nasa'i 3595 — what was left behind: estate and inheritance", ur: "سنن نسائی 3595 — ترکہ اور میراث", es: "Sunan al-Nasa'i 3595 — Lo que quedó: patrimonio y herencia", fr: "Sunan al-Nasa'i 3595 — Ce qui a été laissé derrière: biens et héritage" }
+label: { ar: "سنن النسائي 3595 — ما خلّفه من تركة وميراث", en: "Sunan al-Nasa'i 3595 — what was left behind: estate and inheritance", ur: "سنن نسائی 3595 — ترکہ اور میراث", es: "Sunan al-Nasa'i 3595 — Lo que quedó: patrimonio y herencia", fr: "Sunan al-Nasa'i 3595 — Ce qui a été laissé derrière: biens et héritage", tr: "Sunan an-Nasa'i 3595 — Miras ve veraset olarak geride bıraktıkları", id: "Sunan an-Nasa'i 3595 — Apa yang ditinggalkannya berupa warisan dan peninggalan" }
 text: "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، قَالَ حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا سُفْيَانُ، قَالَ حَدَّثَنِي أَبُو إِسْحَاقَ، قَالَ سَمِعْتُ عَمْرَو بْنَ الْحَارِثِ، يَقُولُ مَا تَرَكَ رَسُولُ اللَّهِ إِلاَّ بَغْلَتَهُ الْبَيْضَاءَ وَسِلاَحَهُ وَأَرْضًا تَرَكَهَا صَدَقَةً."
 summary:
   ar: "حديث في سنن النسائي، رقم 3595، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 3595، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 3595 (El Libro de las Donaciones), menciona lo que se dejó como legado: bienes y herencia. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
   fr: "Un hadith du Sunan al-Nasa'i, n° 3595 (Le Livre des dotations), mentionne ce qui a été laissé derrière soi: biens et héritage. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Sunan-ı Nesai'de yer alan 3595 numaralı hadis, Peygamberin geride bıraktığı mal varlığı ve miras hakkında bilgi vermektedir. Bu derleme, vasiyetnameler, miras, kutsal emanetler ve türbeler konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birlikte hazırlanmıştır."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, nomor 3595, menyebutkan apa yang ditinggalkan beliau berupa harta warisan. Hadits ini disusun oleh seorang peneliti yang ahli dalam wasiat, warisan, relik, dan makam suci, beserta teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3595 (book 29 hadith 2); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

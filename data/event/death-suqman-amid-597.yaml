@@ -1,7 +1,7 @@
 id: event/death-suqman-amid-597
 class: event
 kind: death
-label: { ar: "وفاة سقمان صاحب آمد وملك أخيه محمود", en: "death of Suqman of Amid — his brother Mahmud succeeds", es: "muerte de Suqman de Amid — su hermano Mahmud le sucede", fr: "Mort de Suqman d'Amid — son frère Mahmud lui succède", ur: "امید کے سقمان کی موت - اس کا بھائی محمود کامیاب ہوا۔" }
+label: { ar: "وفاة سقمان صاحب آمد وملك أخيه محمود", en: "death of Suqman of Amid — his brother Mahmud succeeds", es: "muerte de Suqman de Amid — su hermano Mahmud le sucede", fr: "Mort de Suqman d'Amid — son frère Mahmud lui succède", ur: "امید کے سقمان کی موت - اس کا بھائی محمود کامیاب ہوا۔", tr: "Amid hükümdarı Sukman'ın ölümü ve kardeşi Mahmud'un tahta çıkışı.", id: "Kematian Suqman, penguasa Amid, dan pemerintahan saudaranya Mahmud." }
 date:
   start: { edtf: "1200~", hijri: "0597", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Suqman II al-Artuqi de Amid murió y le sucedió su hermano Najm al-Din Mahmud, el Suqman que había derrotado famosamente a Qilij Arslan de Rum {cite:kamil-ibn-al-athir p. 276}."
   fr: "Suqman II al-Artuqi d'Amid mourut et son frère Najm al-Din Mahmud lui succéda — le Suqman qui avait vaincu Qilij Arslan de Rum {cite:kamil-ibn-al-athir p. 276}."
   ur: "امید کے سقمان ثانی الارتقی کا انتقال ہوگیا اور اس کا بھائی نجم الدین محمود جانشین ہوا - وہ سقمان جس نے مشہور طور پر روم کے قلیج ارسلان کو شکست دی تھی۔ 276}۔"
+  tr: "Amid hükümdarı II. Sukman öldü ve yerine kardeşi Necmü'ddin Mahmud kral oldu. Sukman, Rum hükümdarı Kilij Arslan'ı yenmesiyle ünlüydü. {kaynak: Kamil ibn al-athir s. 276}"
+  id: "Suqman II, penguasa Amid, meninggal dunia, dan saudaranya Najm al-Din Mahmud menjadi raja. Suqman terkenal karena mengalahkan Kilij Arslan, penguasa Rum. {cite:kamil-ibn-al-athir p. 276}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/amid, sources: [source/kamil-ibn-al-athir] }

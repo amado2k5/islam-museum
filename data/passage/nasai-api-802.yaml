@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "802"
-label: { ar: "سنن النسائي 802 — اليتيم وفقد الأب", en: "Sunan al-Nasa'i 802 — the orphan and the father lost", ur: "سنن نسائی 802 — یتیم اور باپ کی موت", es: "Sunan al-Nasa'i 802 — El huérfano y el padre perdido", fr: "Sunan al-Nasa'i 802 — L'orphelin et le père perdus" }
+label: { ar: "سنن النسائي 802 — اليتيم وفقد الأب", en: "Sunan al-Nasa'i 802 — the orphan and the father lost", ur: "سنن نسائی 802 — یتیم اور باپ کی موت", es: "Sunan al-Nasa'i 802 — El huérfano y el padre perdido", fr: "Sunan al-Nasa'i 802 — L'orphelin et le père perdus", tr: "Sunan an-Nasa'i 802 — Yetim ve Babayı Kaybetme", id: "Sunan an-Nasa'i 802 — Anak Yatim dan Kehilangan Ayah" }
 text: "أَخْبَرَنَا سُوَيْدُ بْنُ نَصْرٍ، قَالَ أَنْبَأَنَا عَبْدُ اللَّهِ بْنُ الْمُبَارَكِ، عَنْ سُلَيْمَانَ بْنِ الْمُغِيرَةِ، عَنْ ثَابِتٍ، عَنْ أَنَسٍ، قَالَ دَخَلَ عَلَيْنَا رَسُولُ اللَّهِ وَمَا هُوَ إِلاَّ أَنَا وَأُمِّي وَالْيَتِيمُ وَأُمُّ حَرَامٍ خَالَتِي فَقَالَ \" قُومُوا فَلأُصَلِّيَ بِكُمْ \". قَالَ فِي غَيْرِ وَقْتِ صَلاَةٍ - قَالَ - فَصَلَّى بِنَا."
 summary:
   ar: "حديث في سنن النسائي، رقم 802، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 802، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 802 (El Libro de la Oración (Al-Imamah)), menciona al huérfano y al padre fallecido. El navegador \"La paternidad en el Islam\" lo incluye en su lista de textos del Corán, la Sunnah, la sirah y los libros sobre la figura paterna."
   fr: "Un hadith du Sunan al-Nasa'i, n° 802 (Le Livre de la prière (Al-Imamah)), mentionne l'orphelin et le père disparu. Le site « Paternité en Islam » répertorie ce hadith avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la figure paternelle."
+  tr: "Sunan-ı Nesai'de yer alan 802 numaralı hadis, yetimlerden ve babasızlık durumundan bahsetmektedir. \"İslam'da Babalık\" bölümü, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alıntılarla birlikte derlemektedir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, nomor 802, menyebutkan tentang anak yatim dan kehilangan seorang ayah. Bagian \"Kebapakan dalam Islam\" mengumpulkan hadits ini bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/yatim-fiqh, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 802 (book 10 hadith 26); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

@@ -1,39 +1,106 @@
 surah: 27
 slug: an-naml
 sources_consulted:
-  - "kuttab.com — Surah An-Naml mind map (4 blocks: 1-14, 15-44, 45-58, 59-93)"
-  - "Standard thematic divisions (cross-checked)"
+- 'kuttab.com — Surah An-Naml mind map (4 blocks: 1-14, 15-44, 45-58, 59-93)'
+- Standard thematic divisions (cross-checked)
 map:
-  - title: { ar: "النار والآيات التسع", en: "The Fire and the Nine Signs" }
-    range: [1, 14]
-    family: stories
-    summary:
-      ar: "هدى وبشرى للمؤمنين، ونداء موسى عند النار، وإرساله إلى فرعون بتسع آيات فجحدوها ظلما وعلوا."
-      en: "Guidance and glad tidings for believers; Moses called at the fire; sent to Pharaoh with nine signs, denied unjustly."
-    children: []
-  - title: { ar: "سليمان والنملة والهدهد", en: "Solomon, the Ant and the Hoopoe" }
-    range: [15, 44]
-    family: stories
-    summary:
-      ar: "مُلك سليمان ومنطق الطير، وتحذير النملة وتبسمه، ونبأ سبأ، والكتاب إلى الملكة، وعرشها والصرح."
-      en: "Solomon's kingdom and the speech of birds; the ant's warning and his smile; Sheba's news; the letter; her throne; the palace."
-    children:
-      - { title: { ar: "النملة", en: "The Ant" }, range: [18, 19] }
-      - { title: { ar: "الهدهد وسبأ", en: "The Hoopoe and Sheba" }, range: [22, 28] }
-      - { title: { ar: "عرش بلقيس", en: "The Queen's Throne" }, range: [38, 42] }
-  - title: { ar: "ثمود ولوط", en: "Thamud and Lot" }
-    range: [45, 58]
-    family: stories
-    summary:
-      ar: "صالح وثمود: التسعة الرهط الذين يفسدون ومكرهم، ولوط وقومه، ومطر السوء على المنذرين."
-      en: "Salih and Thamud: the nine plotters and their scheme; Lot and his people; the evil rain on the warned."
-    children: []
-  - title: { ar: "من الخالق؟", en: "Who Creates?" }
-    range: [59, 93]
-    family: faith
-    summary:
-      ar: "خمسة أسئلة تنتهي بأإله مع الله، ودابة الأرض تكلم الناس، والنفخ في الصور، وخاتمة السورة بالحمد."
-      en: "Five questions each ending 'is there a god with Allah'; the Beast speaking; the Trumpet; the close in praise."
-    children:
-      - { title: { ar: "أإله مع الله", en: "A God with Allah?" }, range: [60, 64] }
-      - { title: { ar: "دابة الأرض", en: "The Beast of the Earth" }, range: [82, 82] }
+- title:
+    ar: النار والآيات التسع
+    en: The Fire and the Nine Signs
+    tr: Ateş ve Dokuz Kıta
+    id: Api dan Sembilan Ayat
+  range:
+  - 1
+  - 14
+  family: stories
+  summary:
+    ar: هدى وبشرى للمؤمنين، ونداء موسى عند النار، وإرساله إلى فرعون بتسع آيات فجحدوها ظلما وعلوا.
+    en: Guidance and glad tidings for believers; Moses called at the fire; sent to Pharaoh with nine signs, denied unjustly.
+    tr: İnananlar için rehberlik ve müjde, Musa'nın ateşe çağrısı ve Firavun'a dokuz işaretle göndermesi, ama haksız ve kibirli bir şekilde reddettiler.
+    id: Petunjuk dan kabar gembira bagi orang beriman, dan panggilan Musa di Api, serta suratnya kepada Firaun dengan sembilan tanda, tetapi mereka menolaknya dengan tidak adil dan sombong.
+  children: []
+- title:
+    ar: سليمان والنملة والهدهد
+    en: Solomon, the Ant and the Hoopoe
+    tr: Süleyman, karınca ve hoopoe
+    id: Salomo, semut, dan burung hoopoe
+  range:
+  - 15
+  - 44
+  family: stories
+  summary:
+    ar: مُلك سليمان ومنطق الطير، وتحذير النملة وتبسمه، ونبأ سبأ، والكتاب إلى الملكة، وعرشها والصرح.
+    en: Solomon's kingdom and the speech of birds; the ant's warning and his smile; Sheba's news; the letter; her throne; the palace.
+    tr: Süleyman Krallığı, kuşların mantığı, Karınca'nın uyarısı ve gülümsemesi, Saba haberi, Kraliçe'ye Mektup, Tahtı ve Yapı.
+    id: Kerajaan Salomo, logika burung-burung, peringatan dan senyum Semut, kabar Saba, Surat untuk Ratu, Tahtanya, dan Bangunan.
+  children:
+  - title:
+      ar: النملة
+      en: The Ant
+      tr: karınca
+      id: semut
+    range:
+    - 18
+    - 19
+  - title:
+      ar: الهدهد وسبأ
+      en: The Hoopoe and Sheba
+      tr: Hoopoe ve Saba
+      id: Hoopoe dan Saba
+    range:
+    - 22
+    - 28
+  - title:
+      ar: عرش بلقيس
+      en: The Queen's Throne
+      tr: Belqis tahtı
+      id: Takhta Belqis
+    range:
+    - 38
+    - 42
+- title:
+    ar: ثمود ولوط
+    en: Thamud and Lot
+    tr: Thamud ve Lot
+    id: Thamud dan Lot
+  range:
+  - 45
+  - 58
+  family: stories
+  summary:
+    ar: 'صالح وثمود: التسعة الرهط الذين يفسدون ومكرهم، ولوط وقومه، ومطر السوء على المنذرين.'
+    en: 'Salih and Thamud: the nine plotters and their scheme; Lot and his people; the evil rain on the warned.'
+    tr: 'Salih ve Semud: yozlaşan ve kurnaz dokuz kişi, Lut ve onun kamı, ve uyarıcıların üzerine kötülük yağmuru.'
+    id: 'Saleh dan Thamud: sembilan yang merusak dan licik, Lot dan umatnya, dan hujan kejahatan atas para pengawal.'
+  children: []
+- title:
+    ar: من الخالق؟
+    en: Who Creates?
+    tr: Yaratıcı kimdir?
+    id: Siapakah Sang Pencipta?
+  range:
+  - 59
+  - 93
+  family: faith
+  summary:
+    ar: خمسة أسئلة تنتهي بأإله مع الله، ودابة الأرض تكلم الناس، والنفخ في الصور، وخاتمة السورة بالحمد.
+    en: Five questions each ending 'is there a god with Allah'; the Beast speaking; the Trumpet; the close in praise.
+    tr: Beş soru, Tanrı'nın Tanrı ile biter; yeryüzünün canavarı insanlara konuşur, borazanları çalır ve surenin sonunda övgüyle bitirilir.
+    id: Lima pertanyaan yang diakhiri dengan Tuhan bersama Tuhan, binatang bumi berbicara kepada orang-orang, meniup terompet, dan penutup surah dengan pujian.
+  children:
+  - title:
+      ar: أإله مع الله
+      en: A God with Allah?
+      tr: Tanrı Tanrı ile
+      id: Tuhan bersama Tuhan
+    range:
+    - 60
+    - 64
+  - title:
+      ar: دابة الأرض
+      en: The Beast of the Earth
+      tr: toprak canavarı
+      id: binatang bumi
+    range:
+    - 82
+    - 82

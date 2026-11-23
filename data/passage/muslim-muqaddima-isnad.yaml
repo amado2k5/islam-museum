@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "muqaddima"
-label: { ar: "مقدمة مسلم — الإسناد من الدين", en: "Muslim's prologue — the isnad is part of the religion", es: "Prólogo musulmán: el isnad es parte de la religión.", fr: "Prologue de Muslim — l'isnad fait partie de la religion", ur: "مسلم کی تجویز - اسناد مذہب کا حصہ ہے۔" }
+label: { ar: "مقدمة مسلم — الإسناد من الدين", en: "Muslim's prologue — the isnad is part of the religion", es: "Prólogo musulmán: el isnad es parte de la religión.", fr: "Prologue de Muslim — l'isnad fait partie de la religion", ur: "مسلم کی تجویز - اسناد مذہب کا حصہ ہے۔", tr: "İslamiyet'e Giriş — Hakikat zinciri dinin bir parçasıdır.", id: "Pengantar Islam — Rantai periwayatan adalah bagian dari agama." }
 text: "سمعت عبد الله بن المبارك يقول: «الإسناد من الدين، ولولا الإسناد لقال من شاء ما شاء»"
 summary:
   ar: "مقولة عبد الله بن المبارك في مقدمة صحيح مسلم عن وجوب الثقة في النقل؛ جملة تأسيسية لعلم الحديث كله — لولا السند لقال من شاء ما شاء."
+  tr: "Abdullah bin Al-Mubarak'ın Sahih Muslim'in girişinde rivayet zincirine güvenmenin gerekliliği hakkındaki ifadesi, hadis ilminin tamamı için temel bir ifadedir; eğer rivayet zinciri olmasaydı, herkes istediğini söyleyebilirdi."
+  id: "Pernyataan Abdullah bin Al-Mubarak dalam pengantar Sahih Muslim tentang pentingnya kepercayaan pada riwayat hadits merupakan pernyataan mendasar bagi seluruh ilmu hadits — jika bukan karena rantai periwayatan, siapa pun dapat mengatakan apa pun yang mereka inginkan."
 relations:
   - { type: mentions, target: person/abd-allah-ibn-al-mubarak, sources: [source/sahih-muslim] }
   - { type: mentions, target: concept/isnad, sources: [source/sahih-muslim] }

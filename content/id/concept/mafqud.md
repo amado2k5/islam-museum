@@ -1,0 +1,46 @@
+---
+id: concept/mafqud
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/mafqud.md}
+---
+
+## Ringkasan
+Dalam linguistik, orang yang hilang entah hilang atau tidak ada, dan dalam terminologi, tidak ada berarti ia tidak mengetahui tempat, kehidupan, atau kematiannya, dan beritanya terputus dari keluarganya. Para ahli hukum membahas putusan istrinya, propertinya, wasiat, warisan, pengelolaan asetnya, dan akhir dari kehilangannya, dan artikel ini belum sepenuhnya selesai. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14829} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14830}
+
+## Jenis-jenis yang hilang
+Di antara Hanafi dan Shafi'i, ada satu jenis, dan di antara Maliki ada tipe: hilang di tanah Muslim, hilang di tanah musuh, hilang dalam pertempuran melawan Muslim dengan kafir, dan hilang dalam pertempuran melawan Muslim dengan kafir. Menurut Hanbali, ada dua jenis: satu yang ketidakhadirannya adalah keselamatan, dan satu lagi yang ketidakhadirannya adalah kematian yang tampak, seperti tentara yang gugur dalam pertempuran. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14829} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14830}
+
+## Istri Wanita Hilang
+Kehilangan tidak memengaruhi kontrak pernikahan, sehingga istri tetap dalam pernikahannya, dan dia berhak atas tunjangan berdasarkan kesepakatan para ahli hukum. Perceraiannya, suami suaminya, dan pemindahannya tunduk pada perceraian, ketekunan, dan pemberian, dan masing-masing mewarisi yang lain sampai kehilangan berakhir. Mengenai masa tunggu, Ali berpendapat bahwa dia tetap berada di bawah ketidaksalahan Ali sampai dia meninggal atau menceraikannya, yang merupakan pandangan para Hanafi dan Shafi'i dalam pendapat baru. Umar berpendapat bahwa masa tunggu harus empat tahun, kemudian masa tunggu untuk kematian adalah empat bulan sepuluh hari, seperti yang dinyatakan oleh Utsman, Ibn Umar, dan Ibn Abbas. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14830}
+
+## Durasi Magang
+Malikis: Istri orang hilang di tanah Muslim menunggu selama empat tahun, kemudian ia mematuhi masa tunggu dan tidak sah sampai setelahnya. Bagi orang hilang di tanah musuh, istrinya tidak sah kecuali setelah kematian yang dipastikan atau mencapai usia yang tidak hidup hingga usia yang sama. Ini adalah tujuh puluh menurut Malik, Ibn al-Qasim, dan Ashhab. Menurut Hanbali, ada dua pendapat mengenai orang hilang yang ketidakhadirannya tampak sebagai keselamatan: yang pertama tidak mengakhiri pernikahan sampai kematiannya dikonfirmasi, yang merupakan aliran pemikiran; yang kedua adalah menunggu hingga mencapai sembilan puluh tahun menurut narasi lain. Jika ketidakhadirannya tampaknya adalah kematian, ia menunggu selama empat tahun lalu mematuhi masa tunggu kematian. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14831}
+
+## Awal masa magang
+Menurut kebanyakan orang yang mengatakan masa tunggu dimulai sejak masalah dirujuk ke hakim, yang merupakan pandangan Umar, Ata, Qatadah, dan mazhab Maliki, beberapa mengatakan sejak masa putus asa atas keberadaannya setelah penyelidikan, dan beberapa mengatakan sejak masa okultasi. Di antara mereka yang mengatakan menunggu adalah syarat bahwa wali orang hilang menceraikannya, yang merupakan narasi menurut Hanbali. Setelah menunggu masa tunggu, masa tunggu kematian adalah empat bulan sepuluh hari, dan menurut Malikis dan Hanbali, tidak memerlukan keputusan hakim mengenai masa tunggu. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14831} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14832}
+
+## Putusan hakim tentang pemisahan
+Jika hakim memutuskan pemisahan, maka itu divalidasi secara nyata tanpa tersembunyi menurut Syafi'i, dan divalidasi baik secara nyata maupun batin menurut Hanbali. Siapa pun yang menikah sebelum masa berlaku berlaku dianggap tidak sah. Menurut Hanafi, klaim pernikahan tidak diputuskan terhadap orang yang absen dengan bukti, berbeda dengan mazhab Maliki. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14832} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14833}
+
+## Dana yang Hilang
+Kerugian memengaruhi aset yang ada milik orang yang hilang dan perolehannya melalui wasiat, warisan, dan pengelolaan. Hanafi tidak menjual properti yang hilang; mereka menjual apa yang korupsi terburu-buru pada buah dan mempertahankan harganya. Keluarga Malik mengizinkan penjualan jika orang yang hilang dibayar oleh utang atau hak. Orang yang hilang memiliki istri dan tunjangan yang dikumpulkan dari kekayaannya; jika tidak memiliki kekayaan, terdapat perbedaan pendapat di antara para ahli hukum. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14833} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14834} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14835}
+
+## Wasiat dan Warisan
+Aliran pemikiran Hanafi menghentikan surat wasiat untuk orang yang hilang sampai kondisinya terungkap. Jika mereka tampak hidup sebelum kematian sebaya, mereka berhak mendapatkannya, dan jika dinyatakan mati, wasiat itu dikembalikan kepada ahli waris pewasiat. Orang yang hilang dianggap hidup terkait harta mereka, sehingga tidak ada yang mewarisi dari mereka, dan bagian warisan mereka disimpan sampai masalah tersebut jelas. Jika dikonfirmasi bahwa kematiannya terjadi setelah kematian ahli warisnya, atau dia meninggal sebelum kematiannya, atau masa yang berlalu tanpa mengetahuinya, almarhum dikembalikan kepada ahli waris almarhum. Ini adalah pandangan dalam aliran Hanbali, dan pandangan yang paling benar adalah bahwa itu adalah milik orang yang hilang dan didistribusikan di antara ahli warisnya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14835} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14836}
+
+## Akhir kerugian
+Kehilangan berakhir dengan salah satu dari tiga hal: kembalinya orang yang hilang ke tanah airnya, konfirmasi kematian mereka di hadapan hakim, atau memutuskan bahwa mereka meninggal setelah beberapa waktu berlalu sejak hilang atau saat mencapai usia tertentu. Inilah yang disepakati para ahli hukum mengenai kematian yang dikonfirmasi dan dikonfirmasi, tetapi berbeda pendapat dalam memutuskan bahwa dia dianggap mati. Hanafi, menurut makna yang tampak dari narasi tersebut, percaya bahwa kematian ditetapkan jika tidak ada satu pun dari bangsanya yang tinggal di negaranya. Mereka menetapkan usia seratus dua puluh, seratus, sembilan puluh, atau tujuh puluh, dan beberapa menyerahkan masalah tersebut kepada imam. Menurut syafi'i, pandangan yang benar adalah bahwa penentuan usia diserahkan pada penalaran independen imam. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14837} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14838} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14839}
+
+## Pembagian kekayaannya setelah penghakiman sebagai telah meninggal
+Jika masa tersebut berakhir, warisan dibagi di antara ahli waris yang hadir pada hari ia dianggap meninggal, menurut putusan Umar dan Utsman, yang merupakan pandangan yang lebih benar menurut Hanbali. Beberapa Hanbal berpendapat bahwa warisan dibagi setelah masa tunggu istri berakhir jika kerugian lebih mungkin hilang. Ahli waris yang masih hidup diberikan pada hari penghakiman kematiannya, menurut beberapa Hanafi, Maliki, dan Shafi'i. Istrinya mengamati masa tunggu kematian sejak waktu pembagian warisan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14839} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14840}
+
+## Dampak Hukuman Mati terhadap Pernikahan Pernikahan
+Dengan demikian, putusan tersebut merupakan validator atau manifestasi dari sengketa yang berlaku: jika ditetapkan, masa tunggu tidak dimulai dan istri tidak menikah sampai setelah putusan tersebut; jika jelas, masa tunggu dimulai setelah masa tunggu berakhir, dan penjatuhan putusan tidak relevan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14840}
+
+## Efek orang hilang yang muncul hidup setelah dijatuhi hukuman mati pada istri
+Jika wanita yang hilang kembali sebelum pernikahan istrinya, maka ia adalah istrinya menurut Hanafi dan Malikus menurut pandangan yang sudah dikenal. Jika ia kembali setelah menikah dengan orang lain: Menurut Maliki, ada dua riwayat, yang terkuat menurut Ibn al-Qasim dan Ashhab, bahwa tidak ada cara baginya untuk menikahinya. Menurut para Syafi'i, ada dua pendapat dalam pandangan lama, dan dalam pendapat baru, pernikahannya tidak sah dan ia kembali kepadanya setelah masa tunggu dari yang kedua. Menurut Hanbali, jika yang kedua tidak bernikah dengannya, ia adalah istri dari yang pertama, dan jika ia melakukan penyeramat, yang pertama lebih baik antara mengambil Shad's dan mas kawinnya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14841} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14842}
+
+## Dampak penampilannya terhadap uangnya
+Menurut Hanafi, orang yang hilang tidak mengambil kembali dari istri dan anak-anaknya apa yang mereka keluarkan dengan izin hakim; mereka menjamin apa yang dijual dan mengambil sisa di tangan ahli waris. Menurut Malik dan Shafi'i, dia mengambil kembali seluruh hartanya, bahkan setelah pembagian itu. Menurut Hanbali, dia mengambil apa yang ditemukan dari hartanya dan apa yang hilang dijamin kepada ahli waris menurut narasi yang otentik. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14842}

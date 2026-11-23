@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani]
 work: work/muwatta-malik
 ref: "1444"
-label: { ar: "الموطأ 1444 — نافع عن ابن عمر: لم يسأله أحد من أهله عقيقة إلا أعطاه، وكان يعق عن ولده بشاة شاة، عن الذكور والإناث", en: "Muwatta 1444", es: "Muwatta 1444", fr: "Muwatta 1444", ur: "موطا 1444" }
+label: { ar: "الموطأ 1444 — نافع عن ابن عمر: لم يسأله أحد من أهله عقيقة إلا أعطاه، وكان يعق عن ولده بشاة شاة، عن الذكور والإناث", en: "Muwatta 1444", es: "Muwatta 1444", fr: "Muwatta 1444", ur: "موطا 1444", tr: "El-Muvatta 1444 — İbn Ömer'den rivayet edildiğine göre Nafi': Ailesinden hiç kimse ondan akika (yeni doğan bebek için kurban) istemeden ona vermezdi. Hem erkek hem de kız çocukları için tek bir koyunla akika keserdi." }
 summary:
   ar: "يروي مالك عن نافع أن عبد الله بن عمر لم يكن يسأله أحد من أهله عقيقة إلا أعطاه إياها، وكان يعق عن ولده بشاة شاة، عن الذكور والإناث. {cite:muwatta-maruf-1997 p.646}"
+  tr: "Malik, Nafi’den rivayetle, Abdullah ibn Umar’ın ailesinden hiçbirinin akika (yeni doğan için kurban) isteğini geri çevirmediğini ve hem erkek hem de kız çocukları için her birine birer koyun kurban ederek akika yaptığını bildirir. {cite:muwatta-maruf-1997 s.646}"
+  id: "Malik meriwayatkan dari Nafi’ bahwa Abdullah ibn Umar tidak pernah menolak permintaan dari anggota keluarganya untuk melakukan aqiqah (kurban untuk bayi yang baru lahir), dan beliau akan melaksanakan aqiqah untuk anak-anaknya, baik laki-laki maupun perempuan, dengan mengorbankan satu ekor domba untuk masing-masing. {cite:muwatta-maruf-1997 p.646}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-12-aqiqa }
   - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }

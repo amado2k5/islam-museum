@@ -1,0 +1,22 @@
+---
+id: place/aghmat
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/place/aghmat.md}
+---
+## Özet
+Aghmat, Fas'ın en batısında yer alan bir şehirdir. Al-Idrisi, tüccarlarının [[place/sijilmasa|Sijilmasa]] ve Drâa ile birlikte çöl yolunu kullanarak [[place/ghana|Gana topraklarına]] gittiğini belirtir. {cite:nuzhat-al-mushtaq-2002 p.105}
+
+## İslam Ansiklopedisi Anlatımı
+Aghmat, Fas'ın güneyinde, Marakeş'in yaklaşık 25 kilometre güneyinde, Ourika Vadisi'nde, Yüksek Atlas'ın eteklerinde yer alan küçük bir kasabadır ve ortaçağ tarihçileri tarafından Türbin olarak kabul edilir. 5. yüzyıl Hicri/11. yüzyıldan itibaren, bu isim yaklaşık 2,5 kilometre aradaki iki yerleşime verilmiştir: Aghmat Oulan, adı Helena adlı bir Berber kabilesinden adını alan ve şu anda küçük kasaba olan Aghmat Ourica. Al-Bakri ve Al-Idrisi, burayı bol meyve bahçeleriyle gelişen bir şehir olarak tanımlar ve sakinleri çalışmalarında çok çalışmaktadır. {cite:encyclopaedia-of-islam-2 vol. 1 p. 272}
+
+Marakeş'in kuruluşundan önce, Aghmat güney Fas'ın en büyük kentsel merkeziydi ve bazı biyografik kitaplar buranın aktif bir kültürel merkez olduğunu göstermektedir. Yusuf ibn Tashfin iktidara gelmeden önceki yirmi beş yılda, Cordoba ve Kairouan'dan birçok âlim Aghmat'ı ziyaret etti; bunların çoğu Ifriqiya'daki huzursuzluk nedeniyle sürgüne gönderildi. O dönemde Aghmat, Maghrawa lideri Luqut ibn Yusuf'un liderliğindeki küçük bir Berberi devletinin başkentiydi ve Zaynab the Nafzawi ile evlendi; etrafında bir edebi çevre toplandı. Daha sonra Zeyneb, Lamtuna'nın lideri Ebu Bekir ile, ardından onun halefi ve yardımcısı Yusuf ibn Tashfin ile evlendi ve Lamtuna liderleri daha zarif bir yaşam tarzıyla tanındı. {cite:encyclopaedia-of-islam-2 vol. 1 p. 272}
+
+Marakeş Almoravidlerin başkenti olduğunda, bu çevrenin birçok üyesi oraya taşındı ve bu, Aghmat'ın çöküşünün başlangıcını işaret etti; bu çöküş uzun süre sonra tamamlandı. Almoravidler, iki tahttan indirilmiş Endülüs prensi ile birlikte Aghmat'a yerleştiler: Ziridlerden Granada hükümdarı Abdullah ibn Balqin ve Sevilla hükümdarı Al-Mu'tamid ibn Abbad. Aghmat, al-Mahdi ibn Tumart'ın Doğu'dan dönüş yolculuğundaki son duraktı; yüksek Atlas Dağları'ndaki "görünüşünden" önce. Leon Africanus'un saltanatı sırasında eski şehir tamamen çökmüştü. {cite:encyclopaedia-of-islam-2 vol. 1 p. 272}
+
+## Ülkeler sözlüğünde
+Yaqut, Aghmat'ı 'Berberilerin topraklarında, Marakeş yakınlarındaki Mağrip [[place/marrakesh|']] te bir bölge, iyilikle dolu iki karşıt şehir' olarak görür; dört aşama ötesinde denize, Sus Al-Far Okyanus'a, [[place/sijilmasa|Sijilmasa'dan ise sekiz aşama Fas'a]] uzanır. Onların iddia ettiği gibi, Fas'ta her türlü iyilikte evrensel bir toprak yoktur, ondan daha fazla ya da daha şanslı bir toprak yoktur {cite:mujam-al-buldan-sader-1995 1 p.225}. Halkı iki grup tarafından kabul edilir: biri İbn Varsand'ın takipçileri arasında çoğunlukla kuru doğaya sahip olan Musavidler, diğeri ise Maliki Haşviyya'dır; aralarında sürekli çatışmalar vardır ve her grup da Cami diğer namazdan sonra tek başına yapılır — 300. Hicra'dan sonra çok önce tanık olan Musuli tüccarı İbn Havkal'ın belirttiği gibi, Yakut "Şimdi nasıl olduğunu bilmiyorum" demiştir—birkaç ülke oradan geçti; bunlar arasında örtülü olanların durumu, ardından Abdül-Mümin ve oğulları {cite:mujam-al-buldan-sader-1995 1 p.225}. Ağmet şehri ile Marakeş arasında, bir dağın eteğinde yer alan ve Masamadah için kullanılan üç farsakh vardır; burada deriler dünyanın en yüksek kalitesinde derilerle tabaklanır ve Mağrip'in geri kalanına taşınır. Ebu Harun Musa ibn Abdullah el-Ağmati doğuya seyahat ederek Semerkand'a ulaşmıştır. Ayrıca Sevilla'nın hükümdarı el-Mu'tamid bin Abbad'ın hapsedilmesinden ve İbn al-Labbana'nın bu konudaki şiirlerinden de bahseder {cite:mujam-al-buldan-sader-1995 1 p.225}.
+
+## Müzenin Tanımı
+Agmat kartı, aynı girişin konusu olan Marakeş yakınlarındaki Fas şehridir. Müze, Yaqut değil — iki kartın noktaları arasındaki mesafeyi ölçmüştür: Aghmat (31.42, -7.80) ve Marakeş (31.6342, -7.9999), 6371.0088 kilometre yarıçaplı bir küre üzerine kesilmiş ceplerle 30.4 kilometre ölçülmüştür; basılı 'üç farsakh'a kıyasla, Aghmat ile Sijilmasa arasındaki mesafe ise 31.28, -4.28 kilometredir.

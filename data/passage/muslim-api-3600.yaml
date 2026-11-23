@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "3600"
-label: { ar: "صحيح مسلم 3600 — الأب والأبوة", en: "Sahih Muslim 3600 — the father and fatherhood", ur: "صحیح مسلم 3600 — باپ اور والدیت", es: "Sahih Muslim 3600 — El padre y la paternidad", fr: "Sahih Muslim 3600 — Le père et la paternité" }
+label: { ar: "صحيح مسلم 3600 — الأب والأبوة", en: "Sahih Muslim 3600 — the father and fatherhood", ur: "صحیح مسلم 3600 — باپ اور والدیت", es: "Sahih Muslim 3600 — El padre y la paternidad", fr: "Sahih Muslim 3600 — Le père et la paternité", tr: "Sahih Muslim 3600 — Baba ve Babalık", id: "Sahih Muslim 3600 — Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا عَمْرٌو النَّاقِدُ، وَابْنُ أَبِي عُمَرَ، قَالاَ حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ عَبْدِ الرَّحْمَنِ، بْنِ الْقَاسِمِ عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ جَاءَتْ سَهْلَةُ بِنْتُ سُهَيْلٍ إِلَى النَّبِيِّ فَقَالَتْ يَا رَسُولَ اللَّهِ إِنِّي أَرَى فِي وَجْهِ أَبِي حُذَيْفَةَ مِنْ دُخُولِ سَالِمٍ - وَهُوَ حَلِيفُهُ. فَقَالَ النَّبِيُّ \" أَرْضِعِيهِ \". قَالَتْ وَكَيْفَ أُرْضِعُهُ وَهُوَ رَجُلٌ كَبِيرٌ فَتَبَسَّمَ …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 3600، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 3600، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 3600 (El Libro de la Lactancia Materna), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sahih Muslim, n° 3600 (Le Livre de l'allaitement), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih Müslim'de 3600 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 3600, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3600 (book 17 hadith 33); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "6482"
-label: { ar: "صحيح مسلم 6482 — ساعة الاحتضار والوفاة", en: "Sahih Muslim 6482 — a deathbed and last hours", ur: "صحیح مسلم 6482 — وقتِ وفات اور آخری لمحات", es: "Sahih Muslim 6482 — un lecho de muerte y últimas horas", fr: "Sahih Muslim 6482 — Un lit de mort et les dernières heures" }
+label: { ar: "صحيح مسلم 6482 — ساعة الاحتضار والوفاة", en: "Sahih Muslim 6482 — a deathbed and last hours", ur: "صحیح مسلم 6482 — وقتِ وفات اور آخری لمحات", es: "Sahih Muslim 6482 — un lecho de muerte y últimas horas", fr: "Sahih Muslim 6482 — Un lit de mort et les dernières heures", tr: "Sahih Muslim 6482 — Ölüm Vakti ve Vefat", id: "Sahih Muslim 6482 — Saat-saat Sakaratul Maut dan Kematian" }
 text: "حَدَّثَنِيهِ مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا مُحَمَّدُ بْنُ بَكْرٍ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، بِهَذَا الإِسْنَادِ وَلَمْ يَذْكُرْ قَبْلَ مَوْتِهِ بِشَهْرٍ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 6482، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 6482، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.º 6482 (El Libro de los Méritos de los Compañeros), menciona un lecho de muerte y las últimas horas. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sahih Muslim, n° 6482 (Livre des mérites des Compagnons), mentionne un lit de mort et les dernières heures. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, des dernières heures, des biens, des reliques et des tombes."
+  tr: "Sahih Müslim'de 6482 numaralı hadis, ölüm anını ve ölüm sürecini konu almaktadır. Bu hadis, vasiyetnameler, miras, antikalar ve türbeler üzerine çalışan kişiler tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 6482, menyebutkan saat kematian dan proses sekarat. Hadits ini dikumpulkan oleh para ahli wasiat, warisan, barang antik, dan makam suci, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ihtidar, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6482 (book 44 hadith 311); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

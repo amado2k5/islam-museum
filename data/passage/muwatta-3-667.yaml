@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "667"
-label: { ar: "الموطأ 667 — مالك: من أفاد ذهباً أو ورقاً فلا زكاة عليه فيها حتى يحول عليها الحول من يوم أفادها", en: "Muwatta 667", es: "Muwatta 667", fr: "Muwatta 667", ur: "موطا 667" }
+label: { ar: "الموطأ 667 — مالك: من أفاد ذهباً أو ورقاً فلا زكاة عليه فيها حتى يحول عليها الحول من يوم أفادها", en: "Muwatta 667", es: "Muwatta 667", fr: "Muwatta 667", ur: "موطا 667", tr: "El-Muvatta 667 — Malik: Altın veya gümüşü elde eden kimse, onu elde ettiği günden itibaren bir yıl geçmeden zekât vermekle yükümlü değildir.", id: "Al-Muwatta 667 — Malik: Barangsiapa memperoleh emas atau perak, ia tidak wajib membayar zakat atasnya sampai setahun setelah ia memperolehnya." }
 summary:
   ar: "قول لمالك يختم به باب الزكاة في العين: من أفاد مالاً ذهباً أو ورقاً فلا زكاة عليه فيه حتى يحول عليه الحول من يوم أفاده. ويذكر المحقق أن لفظة «مالاً» ليست في نسخة م وهي في النسخ الخطية، وأنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.339}"
+  tr: "Malik, nakit zekât hakkındaki bölümü şu ifadeyle sonlandırır: Altın veya gümüş olarak mal edinen kimse, onu edindiği günden itibaren bir yıl geçmeden zekât vermekle yükümlü değildir. Editör, \"mal\" kelimesinin M el yazmasında bulunmadığını, ancak diğer el yazmalarında mevcut olduğunu ve Ebu Mus'ab'ın bunu Malik'ten rivayet ettiğini belirtmektedir. {cite:muwatta-maruf-1997 s.339}"
+  id: "Malik mengakhiri bab tentang zakat atas uang tunai dengan pernyataan berikut: Barangsiapa memperoleh harta berupa emas atau perak, ia tidak wajib membayar zakat atasnya sampai setahun berlalu sejak hari ia memperolehnya. Editor mencatat bahwa kata \"harta\" tidak ada dalam manuskrip M tetapi ada dalam manuskrip lain, dan bahwa Abu Mus'ab meriwayatkannya dari Malik. {cite:muwatta-maruf-1997 p.339}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

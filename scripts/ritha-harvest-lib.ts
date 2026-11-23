@@ -7,7 +7,7 @@ import YAML from "yaml";
 import type { RithaKind } from "./ritha.js";
 
 export const RITHA_ANCHOR_RECORD = "concept/ritha-wal-nay";
-export const LANGS5 = ["ar", "en", "ur", "fr", "es"] as const;
+export const LANGS5 = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
 export type L5 = Record<(typeof LANGS5)[number], string>;
 
 /** What each kind says, for the label and the summary. */

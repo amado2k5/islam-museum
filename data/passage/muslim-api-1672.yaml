@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1672"
-label: { ar: "صحيح مسلم 1672 — وصية أو عهد أخير", en: "Sahih Muslim 1672 — a testament or parting counsel", ur: "صحیح مسلم 1672 — وصیت یا آخری نصیحت", es: "Sahih Muslim 1672 — un testamento o consejo de despedida", fr: "Sahih Muslim 1672 — un testament ou un conseil d'adieu" }
+label: { ar: "صحيح مسلم 1672 — وصية أو عهد أخير", en: "Sahih Muslim 1672 — a testament or parting counsel", ur: "صحیح مسلم 1672 — وصیت یا آخری نصیحت", es: "Sahih Muslim 1672 — un testamento o consejo de despedida", fr: "Sahih Muslim 1672 — un testament ou un conseil d'adieu", tr: "Sahih Muslim 1672 — Son Vasiyetname", id: "Sahih Muslim 1672 — Surat Wasiat Terakhir" }
 text: "حَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا عَبْدُ الْوَارِثِ، حَدَّثَنَا أَبُو التَّيَّاحِ، حَدَّثَنِي أَبُو عُثْمَانَ النَّهْدِيُّ، عَنْ أَبِي هُرَيْرَةَ، قَالَ أَوْصَانِي خَلِيلِي بِثَلاَثٍ بِصِيَامِ ثَلاَثَةِ أَيَّامٍ مِنْ كُلِّ شَهْرٍ وَرَكْعَتَىِ الضُّحَى وَأَنْ أُوتِرَ قَبْلَ أَنْ أَرْقُدَ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 1672، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 1672، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sahih Muslim, n.° 1672 (El Libro de la Oración - Viajeros), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sahih Muslim, n° 1672 (Le Livre de la prière – Guide du voyageur), mentionne un testament ou des dernières volontés. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Sahih Müslim'de 1672 numaralı hadis, vasiyet veya son miras konusundan bahsetmektedir. Bu hadis, vasiyetler, miras, kutsal emanetler ve türbeler konusunda uzmanlaşmış araştırmacılar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 1672, menyebutkan tentang wasiat atau surat wasiat terakhir. Hadits ini disusun oleh para peneliti yang ahli dalam wasiat, warisan, relik, dan makam suci, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1672 (book 6 hadith 102); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

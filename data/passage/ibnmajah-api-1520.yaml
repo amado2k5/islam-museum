@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "1520"
-label: { ar: "سنن ابن ماجه 1520 — دفن وقبر ومرقد", en: "Sunan Ibn Majah 1520 — a burial, grave or resting place", ur: "سنن ابن ماجہ 1520 — تدفین، قبر اور مرقد", es: "Sunan Ibn Majah 1520 — un lugar de entierro, tumba o descanso.", fr: "Sunan Ibn Majah 1520 — un lieu de sépulture, une tombe ou un lieu de repos" }
+label: { ar: "سنن ابن ماجه 1520 — دفن وقبر ومرقد", en: "Sunan Ibn Majah 1520 — a burial, grave or resting place", ur: "سنن ابن ماجہ 1520 — تدفین، قبر اور مرقد", es: "Sunan Ibn Majah 1520 — un lugar de entierro, tumba o descanso.", fr: "Sunan Ibn Majah 1520 — un lieu de sépulture, une tombe ou un lieu de repos", tr: "Sunan İbn Majah 1520 - Defin, Mezar ve Türbe", id: "Sunan Ibnu Majah 1520 — Pemakaman, Kuburan, dan Tempat Suci" }
 text: "حَدَّثَنَا مُحَمَّدُ بْنُ الصَّبَّاحِ، أَنْبَأَنَا يَحْيَى بْنُ الْيَمَانِ، عَنْ مِنْهَالِ بْنِ خَلِيفَةَ، عَنْ عَطَاءٍ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ رَسُولَ اللَّهِ ـ أَدْخَلَ رَجُلاً قَبْرَهُ لَيْلاً وَأَسْرَجَ فِي قَبْرِهِ."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 1520، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابن ماجہ کی حدیث نمبر 1520، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Ibn Majah, n.° 1520 (Capítulos sobre los funerales), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sunan Ibn Majah, n° 1520 (Chapitres relatifs aux funérailles), mentionne un lieu de sépulture, une tombe ou un lieu de repos. Le navigateur de textes sacrés le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "İbn Majah'ın Sünen'inde yer alan 1520 numaralı hadiste, defin, mezar ve türbeden bahsedilir. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler üzerine araştırmalar yapan bir uzman tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan Ibn Majah, no. 1520, menyebutkan tentang penguburan, kuburan, dan makam. Hadits ini disusun oleh peneliti wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1520 (book 6 hadith 88); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

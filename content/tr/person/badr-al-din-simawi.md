@@ -1,0 +1,11 @@
+---
+id: person/badr-al-din-simawi
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/badr-al-din-simawi.md}
+---
+## Özet
+Badr al-Din Mahmoud ibn İsra'il, Samawna'nın İbn Kadi olarak bilinir, Murad I döneminde Roma topraklarındaki Edirne yakınlarındaki Samawna Kalesi'nde doğdu. Babası kalenin hakimi, askeri komutanı ve fatihiydi. Al-Shaqaiq al-Numaniyyah'ın yazarı, Kur'an'ı ezberlediğini, morfoloji ve dilbilgisi öğrendiğini, ardından Mısır'a giderek Seyyid al-Sharif al-Jurcani ile Mubarakshah al-Manqiqi'nin yanında eğitim aldığını anlatır Kahire'de Akmal al-Din al-Babiri dönemindeydi. Öğrencileri arasında Memlük Sultanı Faraj bin Barquq da vardı; o zamanlar Sufi ilgisine kapıldı, bu yüzden Şeyh Sa'id al-Akhlati ile birlikte Tebriz, Bitlis, Mısır, Halep ve Konya arasında dolaştı. Musa ibn Bayezid iktidara geldiğinde, onu ordusunun hakimi olarak atadı. Kardeşi Muhammed Musa öldürüldüğünde, Badr al-Din Badr al-Din'i ailesiyle birlikte Aznik'te {cite:dawlat-uthmaniyya-salabi p. 74} hapsetti.
+
+İznik'te, Al-Sallabi'nin Müslümanlar ile diğerleri arasında ayrım olmaksızın zenginlik ve dinlerde eşitlik olarak tanımladığı çağrısına başladı. Yazar bunu, kendi görüşüne göre sonraki çağrılara benzeyen 'yozlaşmış bir doktrin' olarak görür — bu, yazarın hareketine dair yargısıdır, tarafsız bir tanım değildir {cite:dawlat-uthmaniyya-salabi p. 74-75}. En ünlü savunucularından biri, Sultan Sisman'ın komutanını öldüren ve Karaburnu'da vezir Bayezid Paşa tarafından yenilgiye uğratan Bir Kılça Mustafa {cite:dawlat-uthmaniyya-salabi p. 75} idi. Badr al-Din, Afflaik prensin desteğiyle Deli Orman'a ilerledi ve yedi ila sekiz bin arasında savaşçı topladı. Muhammed I kendisi ona saldırdı ve komuta merkezini Siruz'da kurdu. Kuvvetleri yenildi ve Sultan'ın istihbaratı tarafından hile yoluyla yakalandı. Sultan ona sarımsı yüzünü sorduğunda, "Güneş, efendim, gün batımına yaklaştıkça sararar." dedi. Şeriat mahkemesi kuruldu ve alimlerin fetvasıyla {cite:dawlat-uthmaniyya-salabi p. 76} idama mahkûm edildi.

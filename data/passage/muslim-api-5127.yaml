@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "5127"
-label: { ar: "صحيح مسلم 5127 — الأب والأبوة", en: "Sahih Muslim 5127 — the father and fatherhood", ur: "صحیح مسلم 5127 — باپ اور والدیت", es: "Sahih Muslim 5127 — El padre y la paternidad", fr: "Sahih Muslim 5127 — Le père et la paternité" }
+label: { ar: "صحيح مسلم 5127 — الأب والأبوة", en: "Sahih Muslim 5127 — the father and fatherhood", ur: "صحیح مسلم 5127 — باپ اور والدیت", es: "Sahih Muslim 5127 — El padre y la paternidad", fr: "Sahih Muslim 5127 — Le père et la paternité", tr: "Sahih Muslim 5127 — Baba ve Babalık", id: "Sahih Muslim 5127 — Ayah dan Peran Ayah" }
 text: "… التَّمِيمِيُّ، أَخْبَرَنَا حَجَّاجُ بْنُ مُحَمَّدٍ، عَنِ ابْنِ جُرَيْجٍ، حَدَّثَنِي ابْنُ شِهَابٍ، عَنْ عَلِيِّ بْنِ حُسَيْنِ بْنِ عَلِيٍّ، عَنْ أَبِيهِ، حُسَيْنِ بْنِ عَلِيٍّ عَنْ عَلِيِّ بْنِ أَبِي طَالِبٍ، قَالَ أَصَبْتُ شَارِفًا مَعَ رَسُولِ اللَّهِ فِي مَغْنَمٍ يَوْمَ بَدْرٍ وَأَعْطَانِي رَسُولُ اللَّهِ شَارِفًا أُخْرَى فَأَنَخْتُهُمَا يَوْمًا عِنْدَ بَابِ رَجُلٍ مِنَ الأَنْصَارِ وَأَنَا أُرِيدُ أَنْ أَحْمِلَ عَلَيْهِمَا إِذْخِرًا …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 5127، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 5127، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 5127 (El Libro de las Bebidas), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sahih Muslim, n° 5127 (Le Livre des Boissons), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih Müslim'de 5127 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 5127, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5127 (book 36 hadith 1); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

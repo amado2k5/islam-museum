@@ -1,0 +1,26 @@
+---
+id: place/ayn-zarba
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/place/ayn-zarba.md}
+---
+## Ringkasan
+Ain Zarbah adalah salah satu kota di perbatasan Levant, dan al-Baladhuri memiliki laporan tentang pembangunan serta pertahanannya.
+
+## Konstruksi
+Al-Rashid memerintahkan pembangunan dan penguatan kota tersebut pada tahun 180 H. Ia menugaskan sekelompok orang dari Khurasan dan lainnya ke sana, dan membangun rumah di sana. {cite:futuh-buldan-maarif-1407 p.234}
+
+## merampok
+Bangsa Romawi dan al-Qasim ibn al-Rashid, seorang penduduk Dabiq, menyerbu bentengnya, merebut ternak rakyatnya, dan menangkap Bashar. Orang-orang al-Masisah dan mutawa'tahnya melarikan diri kepada mereka dan menyelamatkan apa yang menimpa mereka. Al-Qasim meninggalkan bentengnya, menghancurkannya, dan menambah pengiriman. {cite:futuh-buldan-maarif-1407 p.234}
+
+## Setelah itu
+Al-Mu'tasim membawa orang-orang dari Al-Zat, yang menguasai Al-Bata'ih antara Wasit dan Basra, dan rakyatnya mendapat manfaat dari mereka. {cite:futuh-buldan-maarif-1407 p.235}
+
+## Dalam kamus negara
+Pintu masuk Yaqut al-Ra'is, dalam aksara, adalah 'Ain Zarbi,' dengan fatha di zay, sukun di r', lalu 'ba' dan alif maqsura. Ia mengatakan nama itu mungkin berasal dari 'zarb al-ghunam,' yang berarti penanya. Ia menggambarkannya sebagai sebuah kota bernama Al-Thaghr dekat Al-Masisa. Ibn al-Faqih melaporkan bahwa renovasi dan pembangunannya dilakukan oleh Abu Sulayman al-Turki, pelayan yang diangkat al-Rashid sebagai gubernur perbatasan, sekitar tahun 190 H. Kemudian Romawi mengalahkannya dan menghancurkannya, sehingga Sayf al-Dawla ibn Hamdan menghabiskan tiga juta dirham untuk merekonstruksinya, tetapi orang Romawi kembali dan merebutnya pada masa pemerintahannya, seperti yang disebutkan dalam Tarsus; ia menulis bahwa kota itu masih berada di tangan mereka, bahwa penduduknya saat ini adalah orang Armenia, dan berasal dari karya Ibn Liyun. Di antara para ulama, Abu Muhammad Ismail ibn Ali sang penyair disebut 'Ayn Zarbi, dan dua ayat dikaitkan dengannya. Muhammad ibn Yunus ibn Hashim al-'Ayn Zarbi, pembaca yang dikenal sebagai Al-Iskaf, mengumpulkan ayat-ayat dari Al-Qur'an dan meninggal pada tanggal delapan belas Dhu al-Hijjah tahun 411 H. Kemudian, dalam sebuah ayat yang dimulai dengan al-Waqidi, disebutkan bahwa al-Rashid memerintahkan pembangunan dan penguatan kota 'Ain Zarbi pada tahun 1800 H, memanggil orang-orang dari Khurasan dan lainnya, serta membangun rumah mereka. Bagian ini berlanjut ke masa al-Mu'tasim, yang tinggal di sana dan sekitarnya oleh sekelompok Zat yang menguasai rawa-rawa antara Wasit dan Basra, dan penduduk perbatasan mendapat manfaat dari hal tersebut. {cite:mujam-al-buldan-sader-1995 4 p.177-178}
+
+Ada pintu masuk pendek di Zarbah yang merujuk pada pintu masuk mata air dan mengatakan bahwa itu adalah pelabuhan, dekat Al-Masisa. {cite:mujam-al-buldan-sader-1995 3 p.136} Di Al-Thas, dianggap bahwa dari Al-Masisah ke Ain Zarbah ada panggung, dan dari sana ke Udna Dejata. {cite:mujam-al-buldan-sader-1995 2 p.79} Di Uzna, dilaporkan dari Ibn al-Faqih bahwa bangunan kota itu dibangun pada tahun 1900 oleh Abu Sulaym, seorang pelayan Turki yang ditunjuk oleh Al-Rashid di perbatasan, Omar Tarsus, dan Ain Zarba; nama di pintu masuk ini adalah Abu Salim, dan di pintu masuk Ain Zarbi adalah Abu Suleiman, dan museum menyimpan mereka seperti adanya. {cite:mujam-al-buldan-sader-1995 1 p.133} Di Sisiya, dikatakan bahwa kota itu berada di Ain Zarba. {cite:mujam-al-buldan-sader-1995 3 p.297}
+
+## Definisi Museum
+Kartu dari al-Baladhuri menggambarkan perintah al-Rashid pada tahun 180 H, penugasan masyarakat Khurasan dan lainnya, penataan taman mereka, serangan oleh orang Romawi pada masa al-Qasim, dan pemukiman al-Mu'tasim al-Zat. Menurut Yaqut, ia memerintahkan tahun 180 dan menunjuk orang-orang Khorasani dan al-Zat, tetapi ia menyebutkannya dalam bagian yang dimulai dengan nama al-Waqidi. Apa yang disebutkan tentang al-Mu'tasim tidak mungkin berasal dari kata-kata al-Waqidi sendiri karena ia meninggal sebelum era itu, dan ia mengikutinya tanpa nama baru; museum tidak mengetahui apakah Yaqut mengambil paragraf dari al-Baladhuri, yang tidak disebutkan di sini; pembaruan diperpanjang sekitar tahun 190 oleh Abu Sulayman dari Ibn al-Faqih, kehilangan orang Romawi berikutnya, dan pembangunan Sayf al-Dawla, tetapi tidak ada di kartu. Kedua laporan tersebut tidak saling bertentangan secara permukaan; satu memerintahkan pembangunan kota dan yang lain pembaruan serta arsitektur, tetapi Yaqut tidak menyetujuinya. Nama kartu "Anazarbus" dan definisi tempat yang disebutkan dalam koordinat, Delikaya di provinsi Adana, berasal dari museum, bukan di Yaqut. Titik kartu (37.2486, 35.9011) berjarak sekitar 41 kilometer dari titik museum Al-Musaysa dan sekitar 58 kilometer dari titik Azna; fase Yaqut Al-Musaysa sesuai urutan pengukuran lurus ini, dan lurus serta panggung adalah skala tidak beraturan. Lihat juga [[place/masisa|Al-Musaysa]].

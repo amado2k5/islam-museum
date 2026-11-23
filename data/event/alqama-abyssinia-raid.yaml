@@ -1,7 +1,7 @@
 id: event/alqama-abyssinia-raid
 class: event
 kind: raid
-label: { ar: "بعث علقمة بن مجزّز إلى الحبشة", en: "Alqama ibn Mujazziz's expedition against Abyssinia (20 AH)", es: "Expedición de Alqama ibn Mujazziz contra Abisinia (20 AH)", fr: "Expédition d'Alqama ibn Mujazziz contre l'Abyssinie (20 AH)", ur: "حبشہ کے خلاف علقمہ بن مجاز کی مہم ⁦(20ھ)⁩" }
+label: { ar: "بعث علقمة بن مجزّز إلى الحبشة", en: "Alqama ibn Mujazziz's expedition against Abyssinia (20 AH)", es: "Expedición de Alqama ibn Mujazziz contra Abisinia (20 AH)", fr: "Expédition d'Alqama ibn Mujazziz contre l'Abyssinie (20 AH)", ur: "حبشہ کے خلاف علقمہ بن مجاز کی مہم ⁦(20ھ)⁩", tr: "Alkame ibn Mücaziz Habeşistan'a gönderildi", id: "Alqama ibn Mujazziz diutus ke Abyssinia" }
 date:
   start: { edtf: "0641", hijri: "0020", calendar: julian, precision: year, status: debated, derived: true, note: "سنة 20 وقيل 31؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 387}." }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "'Umar envió a Alqama ibn Mujazziz al-Mudliji por mar contra Abisinia después de sus incursiones en la costa; los musulmanes fueron golpeados duramente, y 'Umar se prometió a sí mismo no volver a transportar jamás a un asaltante por mar {cite:kamil-ibn-al-athir p. 387}."
   fr: "'Umar envoya Alqama ibn Mujazziz al-Mudliji par mer contre l'Abyssinie après ses raids sur la côte; les musulmans furent durement touchés, et 'Umar se promit de ne plus jamais transporter un pillard par mer {cite:kamil-ibn-al-athir p. 387}."
   ur: "عمر نے علقمہ بن مجاز المدلجی کو ساحل پر چھاپہ مارنے کے بعد حبشہ کے خلاف سمندر کے ذریعے بھیجا؛ مسلمانوں کو سخت مارا گیا، اور عمر نے پھر کبھی اپنے آپ کو سمندر کے ذریعے حملہ آور لے جانے کا پابند نہیں کیا۔ 387}۔"
+  tr: "Ömer, İslam topraklarını işgal eden ve Müslümanlara zarar veren Habeşistan'a Alkama bin Mücaziz el-Mudlaji'yi gönderdi. Ömer, bundan sonra asla kimseyi fetih için denize göndermeyeceğine dair kendi kendine yemin etti. {Kaynak: Kamil İbn el-Atir s. 387}"
+  id: "Omar mengutus Alqama bin Mujazziz Al-Mudlaji ke Abyssinia, yang telah menginvasi wilayah Islam dan kaum Muslimin menderita kerugian. Omar bersumpah pada dirinya sendiri bahwa ia tidak akan pernah mengirim siapa pun ke laut untuk penaklukan. {cite:kamil-ibn-al-athir p. 387}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/abyssinia, sources: [source/kamil-ibn-al-athir] }

@@ -1,20 +1,136 @@
 slug: nabatat-al-quran
-title: { ar: "نباتات خلدها القرآن", en: "Plants immortalized by the Quran", fr: "Les plantes évoquées dans le Coran" }
+title:
+  ar: نباتات خلدها القرآن
+  en: Plants immortalized by the Quran
+  fr: Les plantes évoquées dans le Coran
+  tr: Kur'an'da ölümsüzleştirilen bitkiler
+  id: Tanaman yang diabadikan oleh Al-Qur'an
 lede:
-  ar: "تسعة نباتات ورد ذكرها في القرآن الكريم."
-  en: "Nine plants mentioned in the Holy Quran."
+  ar: تسعة نباتات ورد ذكرها في القرآن الكريم.
+  en: Nine plants mentioned in the Holy Quran.
   fr: Neuf plantes mentionnées dans le Coran.
+  tr: Kuran-ı Kerim'de bahsedilen dokuz bitki.
+  id: Sembilan tanaman yang disebutkan dalam Al-Qur'an.
 source_card: ec17a5d8
-status: { review: draft }
+status:
+  review: draft
 quiz: true
-kids: true # opted into the Kids' Wing reading shelf (docs/agents/kids-content.md §4: gating is opt-in)
+kids: true
 items:
-  - { title: { ar: "النخيل", en: "Date-palms", fr: "Les palmiers" }, body: { ar: "من آيات الله في إخراج الثمرات.", en: "Among God's signs in bringing forth fruits.", fr: "L’apparition de leurs fruits est présentée comme un signe de Dieu." }, ref: "النحل 11" }
-  - { title: { ar: "الزيتون", en: "Olives", fr: "L’olivier" }, body: { ar: "شجرة مباركة زيتونة لا شرقية ولا غربية.", en: "A blessed olive tree, neither eastern nor western.", fr: "Le verset évoque un olivier béni à travers une image de lumière." }, ref: "النور 35" }
-  - { title: { ar: "الأعناب", en: "Grapevines", fr: "Les vignes" }, body: { ar: "من ثمرات النخيل والأعناب.", en: "Among the fruits of date-palms and grapevines.", fr: "Le verset évoque les fruits des palmiers et des vignes." }, ref: "النحل 67" }
-  - { title: { ar: "الرمان", en: "Pomegranates", fr: "Les grenadiers" }, body: { ar: "من فاكهة الجنة.", en: "Among the fruits of Paradise.", fr: "Leurs fruits figurent parmi ceux du Paradis." }, ref: "الرحمن 68" }
-  - { title: { ar: "السدر", en: "Lote trees", fr: "Le jujubier" }, body: { ar: "سدر مخضود من نعيم الجنة.", en: "Thornless lote trees among Paradise's bliss.", fr: "Le verset évoque un jujubier sans épines parmi les délices du Paradis." }, ref: "الواقعة 28" }
-  - { title: { ar: "التين", en: "Figs", fr: "Le figuier" }, body: { ar: "يُقسم به مع الزيتون.", en: "Sworn by alongside the olive.", fr: "Il apparaît dans un serment aux côtés de l’olivier." }, ref: "التين 1" }
-  - { title: { ar: "اليقطين", en: "Gourd", fr: "La courge" }, body: { ar: "أنبتها الله على يونس.", en: "God grew it over Yunus.", fr: "Le récit évoque une plante que Dieu fait pousser auprès de Jonas." }, ref: "الصافات 146" }
-  - { title: { ar: "الزنجبيل", en: "Ginger", fr: "Le gingembre" }, body: { ar: "من شراب أهل الجنة.", en: "Among the drink of Paradise's people.", fr: "Il est évoqué dans une boisson des habitants du Paradis." }, ref: "الإنسان 17" }
-  - { title: { ar: "الريحان", en: "Sweet basil", fr: "Les plantes aromatiques" }, body: { ar: "والحب ذو العصف والريحان.", en: "Grain with husk, and fragrant basil.", fr: "Le verset associe les plantes odorantes aux céréales et à leur enveloppe." }, ref: "الرحمن 12" }
+- title:
+    ar: النخيل
+    en: Date-palms
+    fr: Les palmiers
+    tr: Palmiyeler
+    id: Palem
+  body:
+    ar: من آيات الله في إخراج الثمرات.
+    en: Among God's signs in bringing forth fruits.
+    fr: L’apparition de leurs fruits est présentée comme un signe de Dieu.
+    tr: Tanrı'nın meyve üretimiyle ilgili işaretleri arasında.
+    id: Di antara tanda-tanda Tuhan mengenai produksi buah.
+  ref: النحل 11
+- title:
+    ar: الزيتون
+    en: Olives
+    fr: L’olivier
+    tr: zeytinler
+    id: zaitun
+  body:
+    ar: شجرة مباركة زيتونة لا شرقية ولا غربية.
+    en: A blessed olive tree, neither eastern nor western.
+    fr: Le verset évoque un olivier béni à travers une image de lumière.
+    tr: Kutsanmış bir zeytin ağacı, ne Doğu ne de Batı.
+    id: Pohon zaitun yang diberkati, bukan Timur maupun Barat.
+  ref: النور 35
+- title:
+    ar: الأعناب
+    en: Grapevines
+    fr: Les vignes
+    tr: Üzüm
+    id: Anggur
+  body:
+    ar: من ثمرات النخيل والأعناب.
+    en: Among the fruits of date-palms and grapevines.
+    fr: Le verset évoque les fruits des palmiers et des vignes.
+    tr: Palmiye ve üzüm meyveleri.
+    id: Sawit dan buah jeruk bali.
+  ref: النحل 67
+- title:
+    ar: الرمان
+    en: Pomegranates
+    fr: Les grenadiers
+    tr: nar
+    id: delima
+  body:
+    ar: من فاكهة الجنة.
+    en: Among the fruits of Paradise.
+    fr: Leurs fruits figurent parmi ceux du Paradis.
+    tr: Cennetin meyvesinden.
+    id: Dari buah Surga.
+  ref: الرحمن 68
+- title:
+    ar: السدر
+    en: Lote trees
+    fr: Le jujubier
+    tr: Sidr
+    id: Sidr
+  body:
+    ar: سدر مخضود من نعيم الجنة.
+    en: Thornless lote trees among Paradise's bliss.
+    fr: Le verset évoque un jujubier sans épines parmi les délices du Paradis.
+    tr: Cennetin mutluluğundan tıraşlanmış bir lotet ağacı.
+    id: Pohon lote yang dicukur dari kebahagiaan Surga.
+  ref: الواقعة 28
+- title:
+    ar: التين
+    en: Figs
+    fr: Le figuier
+    tr: İncir
+    id: Ara
+  body:
+    ar: يُقسم به مع الزيتون.
+    en: Sworn by alongside the olive.
+    fr: Il apparaît dans un serment aux côtés de l’olivier.
+    tr: Zeytinlerle paylaştırın.
+    id: Bagi dengan zaitun.
+  ref: التين 1
+- title:
+    ar: اليقطين
+    en: Gourd
+    fr: La courge
+    tr: Kabak
+    id: Labu
+  body:
+    ar: أنبتها الله على يونس.
+    en: God grew it over Yunus.
+    fr: Le récit évoque une plante que Dieu fait pousser auprès de Jonas.
+    tr: Tanrı onu Yunus'ta yetiştirdi.
+    id: Tuhan membesarkannya di atas Yunus.
+  ref: الصافات 146
+- title:
+    ar: الزنجبيل
+    en: Ginger
+    fr: Le gingembre
+    tr: Zencefil
+    id: Jahe
+  body:
+    ar: من شراب أهل الجنة.
+    en: Among the drink of Paradise's people.
+    fr: Il est évoqué dans une boisson des habitants du Paradis.
+    tr: Cennet halkının içkisinden.
+    id: Dari minuman orang-orang Surga.
+  ref: الإنسان 17
+- title:
+    ar: الريحان
+    en: Sweet basil
+    fr: Les plantes aromatiques
+    tr: Fesleğen
+    id: Kemangi
+  body:
+    ar: والحب ذو العصف والريحان.
+    en: Grain with husk, and fragrant basil.
+    fr: Le verset associe les plantes odorantes aux céréales et à leur enveloppe.
+    tr: Ve fırtına ve fesleğene olan aşk.
+    id: Dan cinta dengan badai dan kemangi.
+  ref: الرحمن 12

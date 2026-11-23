@@ -45,7 +45,7 @@ function packet(files: Record<string, string>, manifest: string): string {
 const good = (extraBody = "") => {
   const id = "place/zz-test-town";
   const f: Record<string, string> = { [`data/${id}.yaml`]: dataYaml(id) };
-  for (const l of ["ar", "en", "ur", "fr", "es"]) f[`content/${l}/${id}.md`] = prose(id, l, `## Summary\nText about [[person/muhammad|him]]. {cite:5pillars p. 1}${extraBody}`);
+  for (const l of ["ar", "en", "ur", "fr", "es", "tr", "id"]) f[`content/${l}/${id}.md`] = prose(id, l, `## Summary\nText about [[person/muhammad|him]]. {cite:5pillars p. 1}${extraBody}`);
   return packet(f, MANIFEST([id]));
 };
 const has = (r: { errors: string[] }, re: RegExp) => r.errors.some((e) => re.test(e));
@@ -72,7 +72,7 @@ describe("check-packet", () => {
   it("accepts the landed-packet shape: prose frontmatter with id, lang and status only, provenance kept in the data record", () => {
     const id = "place/zz-test-town";
     const f: Record<string, string> = { [`data/${id}.yaml`]: dataYaml(id) };
-    for (const l of ["ar", "en", "ur", "fr", "es"]) f[`content/${l}/${id}.md`] = `---\nid: ${id}\nlang: ${l}\nsource_lang: ar\ntranslators: ["x, draft translation"]\nstatus:\n  review: draft\n---\n## Summary\nText. {cite:5pillars p. 1}\n`;
+    for (const l of ["ar", "en", "ur", "fr", "es", "tr", "id"]) f[`content/${l}/${id}.md`] = `---\nid: ${id}\nlang: ${l}\nsource_lang: ar\ntranslators: ["x, draft translation"]\nstatus:\n  review: draft\n---\n## Summary\nText. {cite:5pillars p. 1}\n`;
     const r = checkPacket(packet(f, MANIFEST([id])));
     expect(r.errors).toEqual([]);
     expect(r.warnings.filter((w) => /provenance/.test(w))).toEqual([]);
@@ -98,7 +98,7 @@ describe("check-packet", () => {
   it("accepts a link to an entity inside the same packet", () => {
     const a = "place/zz-a", b = "place/zz-b";
     const f: Record<string, string> = { [`data/${a}.yaml`]: dataYaml(a), [`data/${b}.yaml`]: dataYaml(b) };
-    for (const id of [a, b]) for (const l of ["ar", "en", "ur", "fr", "es"]) f[`content/${l}/${id}.md`] = prose(id, l, id === a ? "See [[place/zz-b]]." : "Text.");
+    for (const id of [a, b]) for (const l of ["ar", "en", "ur", "fr", "es", "tr", "id"]) f[`content/${l}/${id}.md`] = prose(id, l, id === a ? "See [[place/zz-b]]." : "Text.");
     expect(checkPacket(packet(f, MANIFEST([a, b]))).errors).toEqual([]);
   });
   it("fails on honorifics, Qur'an markers, ellipses and unwrapped Arabic parentheses", () => {
@@ -108,7 +108,7 @@ describe("check-packet", () => {
     expect(has(checkPacket(good(" and so on…")), /ellipsis/)).toBe(true);
     const id = "place/zz-test-town";
     const f: Record<string, string> = { [`data/${id}.yaml`]: dataYaml(id) };
-    for (const l of ["ar", "en", "ur", "fr", "es"]) f[`content/${l}/${id}.md`] = prose(id, l, l === "ar" ? "مدينة (مكة) قديمة" : "Text");
+    for (const l of ["ar", "en", "ur", "fr", "es", "tr", "id"]) f[`content/${l}/${id}.md`] = prose(id, l, l === "ar" ? "مدينة (مكة) قديمة" : "Text");
     expect(has(checkPacket(packet(f, MANIFEST([id]))), /U\+2066/)).toBe(true);
     f["content/ar/" + id + ".md"] = prose(id, "ar", "مدينة ⁦(مكة)⁩ قديمة");
     expect(checkPacket(packet(f, MANIFEST([id]))).errors).toEqual([]);

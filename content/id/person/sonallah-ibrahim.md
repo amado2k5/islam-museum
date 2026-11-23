@@ -1,0 +1,18 @@
+---
+id: person/sonallah-ibrahim
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/sonallah-ibrahim.md}
+---
+## Ringkasan
+Sanallah Ibrahim adalah seorang novelis dan penulis cerita pendek Mesir (1937–2025), salah satu tokoh paling menonjol dari 'Generasi Enam Puluhan' dalam sastra Arab. {cite:wikipedia-sonallah-ibrahim-en} Ia dipenjara antara tahun 1959 dan 1964 karena menjadi anggota gerakan demokratis Marxis untuk pembebasan nasional, dan penahanannya menjadi bahan novel pertamanya 'That Scent'; di antara karyanya adalah 'The Committee', 'Himself', 'Sharaf', dan 'Warda'. {cite:wikipedia-sonallah-ibrahim-ar} Pada tahun 2003, ia menolak menerima penghargaan Forum Kairo untuk Novel Kreatif sebagai bentuk protes terhadap kebijakan pemerintah Mesir. {cite:wikipedia-sonallah-ibrahim-en}
+
+## Kehidupan
+Ibrahim lahir di Kairo pada tahun 1937; artikel dalam bahasa Inggris dan Wikidata menyebutkan bahwa ia lahir pada 3 Agustus 1937, sementara artikel Arab dan Urdu mencatat tanggal lahirnya pada 24 Februari 1937, sesuai dengan 13 Dhu al-Hijjah 1355 H. Museum mencatat kedua tanggal tersebut dan mengadopsi tanggal pertama sebagai sesuatu yang diperdebatkan. {cite:wikipedia-sonallah-ibrahim-en} {cite:wikipedia-sonallah-ibrahim-ar} Ayahnya adalah pegawai kelas menengah atas. Ia masuk Universitas Kairo untuk belajar hukum pada tahun 1952 dan bergabung dengan Gerakan Pembebasan Nasional Demokratik di sana. {cite:wikipedia-sonallah-ibrahim-en} Ia ditangkap pada tahun 1959 dan dijatuhi hukuman tujuh tahun, dibebaskan pada tahun 1964. Ia menulis tentang pengalamannya di penjara dalam "That Scent" (1966) dan otobiografinya "Diaries of the Oasis." {cite:wikipedia-sonallah-ibrahim-en} Ia termasuk di antara kontributor majalah sastra avant-garde 'Gallery 68'. {cite:wikipedia-sonallah-ibrahim-en} Pada tahun 2003, ia menolak menerima Penghargaan Forum Kairo untuk Kreativitas Novel Arab, senilai seratus ribu pound, karena penentangannya terhadap kebijakan pemerintah. {cite:wikipedia-sonallah-ibrahim-ar} Ia meninggal di Kairo pada 13 Agustus 2025, pada usia delapan puluh delapan tahun. Artikel berbahasa Inggris menyebutkan bahwa kematiannya terjadi setelah menderita pneumonia. {cite:wikipedia-sonallah-ibrahim-ar} {cite:wikipedia-sonallah-ibrahim-en} Sumber menggambarkan ia memiliki pandangan kiri dan afiliasi politik, tanpa afiliasi agama yang menyebutkannya, dan museum tidak mencatat agama apapun sebagai miliknya. {cite:wikipedia-sonallah-ibrahim-en} {cite:wikidata-sonallah-ibrahim}
+
+## Karya
+Novel-novelnya sering diceritakan dengan sudut pandang orang pertama dan dengan nada dingin dan objektif yang menyerupai laporan jurnalistik, diselingi kutipan dari surat kabar dan majalah. {cite:wikipedia-sonallah-ibrahim-en} Di antara novelnya: "The Star of August" (1974), "The Committee" (1981), satir terhadap kebijakan keterbukaan, "Beirut, Beirut" (1984) tentang perang saudara Lebanon, "That" (1992), "Honor" (1997), "Rose" (2000), tentang aktivisme kiri di Yaman dan Oman pada 1960-an dan 1970-an, "Americanly" (2003), "Voyeurism" (2007), "Ice" (2011), dan "1970" (2020). {cite:wikipedia-sonallah-ibrahim-en} Ia menerima Al Owais Prize dalam Cerita Pendek, Novel, dan Teater (1992–1993) serta Ibn Rushd Prize untuk Kebebasan Berfikir (2004). {cite:wikipedia-sonallah-ibrahim-en}
+
+## Sumber
+- Sumber-sumber yang disebutkan di atas tercantum di bawah `data/source/`.

@@ -1,0 +1,9 @@
+---
+id: concept/mazun-fiqh
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/mazun-fiqh.md}
+---
+## Özet
+Dilsel olarak, 'ma'zoon' 'adhan'ın pasif ortacıdır, yani o buna izin verir ve hukukçular bağlantıyı atlayıp 'yetkili hizmetkar' derler {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13776}. Teknik olarak, vasisini kaldıran ve efendisinden köle, vasisi ise reşit değilse vasisinden izin veren kişidir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13776}. Çoğu hukukçu, yetkili kişiye haklı olması halinde izin verir, ancak Şafiiler arasında en doğru görüş, ticarette reşit olmaya izin verilmediği, bunun yerine vasisinin sözleşmeyi üstlendiği {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13776} görüşüdür. İzin zaman, yer ve düzenleme türüyle sınırlıdır. Hanefiler özel izni genelleşirken, Malikiler izin vermeyi vasinin iznine bağlı olarak kabul eder {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13776-13778}. Yetkili çocuk çocuğun eylemleri, tamamen faydalı ve tamamen zararlı bireyler ile aralarında tereddüt edenler arasında bölünür. Mutlak hediye, çoğunluğa göre küçük kişi tarafından kabul edilir, zararlı eylemler izin alınsa bile geçerli değildir ve Hanafi ve Malikilere göre izin öncesi değişim durdurulur, izin anlaşmazlık sağlandıktan sonra Şafiiler ve Haneliler arasında {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13778-13780}. Hanefiler, Malikiler ve Hanelilere göre, aptal yetkili kişinin eylemi geçerlidir, ancak daha doğru görüşe göre geçerli değildir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13780}. Yetkili çocuk ölürse, baba ise vasilik sona erer ve izin geçersizdir; eğer vasi ise, vasilik sona erer ve izin geçersiz sayılır {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13780}.

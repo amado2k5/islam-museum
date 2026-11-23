@@ -1,0 +1,102 @@
+---
+id: event/battle-of-the-camel
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/battle-of-the-camel.md}
+---
+## Özet
+Deve Savaşı, 36 Hicri yılında Basra yakınlarında [[person/ali-ibn-abi-talib|Ali ibn Ebi Talib]] ile Talha, El-Zubeyr ve [[person/aisha|Aişeden oluşan bir grup arasında]] gerçekleşti. El-Taberi, raporunu 36 Hicri yılında kaydetmiştir. {cite:tabari-tarikh-abu-al-fadl j.4 p.583}
+
+## Al-Tabari'nin Anlatımı
+El-Taberi, Ali'nin Talha ve el-Zubeyr izin aldıktan sonra Basra'ya gittiğini, Dhu Kar'a yerleştiğini ve Hasan ile Ammar ibn Yasir'i halkı seferber etmek için Kufa'ya gönderdiğini belirtir. Sonra savaş çıktı ve el-Zubeyr bin el-Avvem öldürüldü. Sonra Ali Aişa'ya girdi ve Basra halkı ona bağlılık yemini etti. {cite:tabari-tarikh-abu-al-fadl j.4 p.583}
+
+## Al-Suyuti'nin Anlatımı
+Al-Suyuti'ye göre, Talha ve Al-Zubayr Mekke'ye gidip Aisha'yı Basra'ya götürerek Osman kanını istediler, böylece Ali onlarla buluştu. Savaş 36 Hicri yılında Cumada'l-Akhirah'da gerçekleşti ve Talha ile El-Zubeyr öldü, ölü sayısı on üç bine ulaştı. Ali, Basra'da on beş gece kaldıktan sonra Kufe'ye döndü. {cite:tarikh-khulafa-minhaj-1434 p.294}
+
+## Al-Mas'udi'ye göre sayılar
+Al-Mas'udi, develerin ölü sayısının on üç bin olduğunu ve Ali'nin beş bin yoldaşının öldürüldüğünü belirtti. Sayıya karşı çıktığını, bazılarının her tarafın eğilimine bağlı olarak yedi bin on bin olduğunu söylediğine dikkat çekti. {cite:muruj-al-dhahab p.645}
+
+## Al-Sallabi'nin ekledikleri: Mekke'den Basra'ya
+Talha, el-Zubeyr ve Aişe, Osman ölümünden yaklaşık dört ay sonra, 36 Hicri yılında Rabi'al-Thani'de Mekke'ye geldiler. {cite:sallabi-ali-vol2 p. 33} Emeviliyler Mekke'ye sığınmıştı ve Osman döneminde Basra valisi olan Abdullah ibn Amir orada servet sunmak için bulunuyordu. Ya'la ibn Umayyah Yemen'den para ve silahlarla geldi. {cite:sallabi-ali-vol2 p. 34} Basra'yı seçtiler çünkü onların değerlendirmelerinde en zayıf şehirdi ve Osman'ın kanını arayıp halk arasında barışacakları ilan edildi. {cite:sallabi-ali-vol2 p. 34}
+
+## Savaş öncesi Basra'da
+Ekip Basra dışındaki Al-Khuraybah'da kamp kurdu ve soylulara destek için gönderdi. {cite:sallabi-ali-vol2 p. 41} Al-Zubayr, [[person/al-ahnaf-ibn-qays|Al-Ahnaf ibn Qays'a]] gönderdi, o da yanındakilerle birlikte onlara katıldı. Al-Sallabi, Al-Zuhri'den Basra halkının çoğunun onları takip ettiğini anlatır. {cite:sallabi-ali-vol2 p. 41} Hakim bin Jibla ve yoldaşları, Aisha'nın yoldaşlarıyla çıkan bir kavgada öldürüldü. Abu Mikhnaf'ın rivayetinde [[person/uthman-ibn-hunayf|, Osman bin Hanif]]'in saçını dövüp yolduğu belirtilir. Al-Selabi bu rivayeti reddeder çünkü Abu Mikhnaf tarafından suçlanmaktadır. {cite:sallabi-ali-vol2 p. 42} {cite:sallabi-ali-vol2 p. 44}
+
+## Son müzakereler
+Ali, Kufanlar onu geciktirdikten sonra Dhi Kar'dan ayrıldı. Sonra [[person/al-qaqa-ibn-amr|el-Ka'ka ibn Amr]], Aişa, Talha ve el-Zubeyr'e geldi ve onlarla Basra'daki Osman katillerinin bilindiğini, onları terk etmenin ya da aynı anda intikam almanın daha büyük bir isyan başlatacağını savundu. Sabırlı olmaya karar verdiler, ancak söz yerine getirildikten sonra intikam alınacaktı. {cite:sallabi-ali-vol2 p. 51} {cite:sallabi-ali-vol2 p. 52}
+
+## Savaş Gecesi
+Al-Sallabi, Al-Taberi'den anlatır ki, Sabaeanlar geceyi her iki grupla birlikte geçirmeyi planladılar, bu yüzden halk ayaklanıp her iki grup da diğerinin kendilerini sattığını düşündü. {cite:sallabi-ali-vol2 p. 53} {cite:sallabi-ali-vol2 p. 54} Al-Tahawi, Al-Baqillani ve İbn Hazm gibi çoğu alim, geceyi her iki gruba da kalabalıkların saldırısı olarak kabul ettiklerini belirtir. {cite:sallabi-ali-vol2 p. 54} {cite:sallabi-ali-vol2 p. 55}
+
+## Olay Günü
+Çatışma oklarla başladı, sonra savaş alevlendi. Talha önce hedefini bilmeyen bir okla vuruldu, bu yüzden Basra'ya götürüldü ve orada öldü. El-Selabi, Talha'nın kan dökmek için değil, yeniden şekil almak için dışarı çıktığını ve yarasının savaşın başında olduğunu belirtti, El-Ahnaf'ın dediği gibi. {cite:sallabi-ali-vol2 p. 58} Ali, Peygamber'in Ali ile adaletsiz olduğu sürece onunla savaşacağını söyledikten sonra El-Zubeyr savaş alanını terk etti. [[person/amr-ibn-jurmuz|Amr bin Cırmuz]], Sibaa vadisinde onu takip etti ve öldürdü. {cite:sallabi-ali-vol2 p. 57} {cite:sallabi-ali-vol2 p. 86} {cite:sallabi-ali-vol2 p. 87} İkinci raundda, Basra'nın hakimi [[person/kab-ibn-suwar|Ka'b ibn Sur]], Tanrı Kitabı'nı çağırırken öldürüldü. Sabaylar deve attı ve başlıkları vurdu. {cite:sallabi-ali-vol2 p. 58} {cite:sallabi-ali-vol2 p. 59}
+
+Ali Abdullah bin Badal, devenin başlığının alınmasını ve güvenli bir yere geri götürülmesini emretti, böylece deve etrafındaki kavga sona erdi. {cite:sallabi-ali-vol2 p. 60} Sonra kimsenin bir planlayıcıyı takip etmemesi, yaralılara hazırlık yapmaması, sadece ordudaki ganimetleri, ister silah ister araç olsun, alması ve eşyalarını ordusundan herhangi biriyle bulanların onu alması emredildi. {cite:sallabi-ali-vol2 p. 60} {cite:sallabi-ali-vol2 p. 63}
+
+## Ölen Sayısı
+El-Sallabi, İbn Ebi Haythamah, Halife bin Hayyat ve diğerlerinin Katadah'a göre yirmi bin, Saif'e göre on ya da on beş bin, El-Ya'kubi'ye göre otuz binden fazla olmak üzere farklı rakamlar verdiklerini belirtir. Bu sayıları abartılı bulur ve en yakın tahmin, çatışmanın kısa sürmesi ve savunma niteliğinden dolayı kayıpların nispeten az olduğudur. {cite:sallabi-ali-vol2 p. 60} {cite:sallabi-ali-vol2 p. 61} Halife'nin koruduğu isimlerin yaklaşık yüz olduğu, maksimumun ise yaklaşık iki yüz olduğu düşünülmektedir. {cite:sallabi-ali-vol2 p. 62}
+
+## Olay Tarihi
+El-Sallabi, Halife bin Hayyat'tan Katadah zincirine dayanarak, olayın 36 Hicri yılında Cumada'l-Ahira'da gerçekleştiğine ve en doğru görüşün Perşembe veya Cuma olduğuna inanır. {cite:sallabi-ali-vol2 p. 65}
+
+## Olaydan sonra
+Basra'nın esirleri, kabile abile ona bağlılık yemini etti ve Musa ibn Talha ona sahip olduğu toprak gelirini verdi. Al-Sallabi, Marwan ibn al-Hakam'ın Ali ona iyi davrandıktan sonra bağlılık yemini ettiğini belirtti. {cite:sallabi-ali-vol2 p. 64} Sonra Aişe'yi tekne ve erzakla Medine'ye hazırladı, Basra'nın kadınlarından kırk kadın seçti ve onu Ali'ye kilometrelerce gönderdi. Yolculuk, 36 Hile yılının ilk Recep'inde gerçekleşti. {cite:sallabi-ali-vol2 p. 75}
+
+## Yazarın değerlendirmesi
+El-Sallabi, Ayşe'nin savaşmak istediğini reddeder ve onun savaşmak istediği iddiasının yanlış olduğunu, çünkü gerçek anlatımların gösterdiği gibi reform için gittiğini söyler. {cite:sallabi-ali-vol2 p. 75} El-Sallabi, Talha ve El-Zubeyr'in Muaviyeden daha yakın olduklarına dört açıdan inanır: Ali'ye isteyerek bağlılık yemini ettikleri, Osman kanını istemek istedikleri ve Ali ile devede kasıtlı olarak savaşmadıkları için. {cite:sallabi-ali-vol2 p. 20} El-Sallabi, olaydan sonra Ali, Aisha, Talha ve Al-Zubair'in pişmanlıklarından bahsetti; Ali, yirmi yıl önce ölseydi diye düşündüğünü ve Aisha deveyi bahsettiğinde peçesini ıslatana kadar ağladığını söyledi. {cite:sallabi-ali-vol2 p. 77}
+
+## Yazarın eleştiri için sunduğu alanlar
+El-Sallabi, Mervan bin Hakam'ın hikayesi ve Talha'nın öldürülmesi hakkında İbn Kathir'den alıntı yaparak birçok anlatı sunar. Eğer Mervan Talha'yı öldürmüş ve sonra el-Buhari ondan anlatsaydı, bu anlatının kabul edilmesini engellerdi. {cite:sallabi-ali-vol2 p. 62} {cite:sallabi-ali-vol2 p. 63}
+
+## Desteklenen görüş
+El-Selabi ve Ehl-sünnet tarafından benimsenen rivayet, Ali'nin gerçeğe daha yakın olduğu, her iki grubun da gayretli olduğu ve Sahabelerin birbirleriyle savaşmayı düşünmediği yönündedir. {cite:sallabi-ali-vol2 p. 65} {cite:sallabi-ali-vol2 p. 55}
+
+## Halife ibn Khayyat ile
+Halife ibn Khayyat, [[person/khalifa-ibn-khayyat|savaşın Cuma günü, Cuma günü Tub al-Basra yakınlarındaki zawiya'da gerçekleştiğini, Cuma günü Cuma günü gerçekleştiğini belirtir. {cite:tarikh-khalifa-umari-1985 p. 181} Ali'nin sekiz yüz Ensar ve Ridwan'a bağlılık yemini eden dört yüz kişi vardı. {cite:tarikh-khalifa-umari-1985 p. 184} Öldürülenlerin sayısı konusunda anlaşmazlık vardır: Katadah yirmi bin, Ali ibn Zayd ise yedi bin dedi. {cite:tarikh-khalifa-umari-1985 p. 186} O gün öldürülenlerin isimleri açıklandıktan sonra bahsedilir. {cite:tarikh-khalifa-umari-1985 p. 187}]]
+
+## İslam Ansiklopedisi'nin sundukları ve nasıl sınıflandırıldığı
+
+İslam Ansiklopedisi'nin ikinci baskısındaki "Deve" makalesi, L. Viccia Faglieri tarafından yazılmış akademik bir sunumdur. Olayı 36 Hicri yılında, yaklaşık Kasım–Aralık 656 CE yılında, Basra yakınlarında Cumada el-Ahirah tarihlendirir ve Ali, Aişe'nin karşısında Talha ve el-Zubeyr adlı sahabelerle birlikte yer alır. {cite:encyclopaedia-of-islam-2 vol. 2 p. 439} Ehl-sünne'nin rivayetleri ve bilimsel tutumları, önceki bölümlerde ayrıntılı olarak belirtilmiştir; bu bölümler el-Tabari, el-Süyâti, el-Mesudi ve Halife bin Hayyat'a dayanmakta ve bu kaydın el-Sallabi perspektiflerine dayanmaktadır. Aşağıdaki bölümler akademik sunumu ve makalenin yazarına atfedilen bir hüküm verdiği yerleri kapsar. Makale olayın Şii anlatımını sunmadığı için burada bahsedilmez ve müze de bahsedilen sahabeler hakkında karar vermemektedir.
+
+## Akademik Teklif: Mekke'den Basra'ya
+
+Makalede, [[person/aisha|Halife]] Osman bin Affan'ın öldürüldüğünü öğrendiğinde Aişe [[place/mecca|'nin Mekke'de Umre]] [[person/uthman-ibn-affan|]] ayini yaptığı ve [[place/medina|Medine'ye dönerken Ali'nin]] halifeliğe bağlılık yemini ve şehrin düzeninin bozulmasını duyduğu belirtilir. Geri dönerek Kabe yakınlarında tutkulu bir vaaz vererek kalabalığı Osman öldürmekle suçladı ve sorumluların cezalandırılmasını talep etti. Osman'ın haksız yere öldürüldüğünü söyledi. {cite:encyclopaedia-of-islam-2 vol. 2 p. 439} Yazar, daha önce Osman'ın eleştirmeni olduğunu ancak öldürülmesini kabul etmediğini ve Ali'nin öldürülmesinden faydalanmasına tahammül edemeyeceğini, ona karşı eski bir kin beslediğini belirtir. {cite:encyclopaedia-of-islam-2 vol. 2 p. 439}
+
+Makale, Al-Tabari'den alıntı yaparak, Osman Usman'ın ölümünden yaklaşık dört ay [[person/talha-ibn-ubaydullah|sonra Talha]] ve [[person/zubayr-ibn-al-awwam|el-Zubeyr'in]] Ali'den Umre'ye gitmek için Mekke'ye gitmek için izin istediklerini ve Ali'nin bu izinleri verdiğini anlatır; Ali bu tartışmalarda Ali iktidarı üstlenmeyi reddeder. Yazar daha sonra, bu kişilerin olaylardan rahatsız olan bazı Emevi ve diğer Müslümanlarla birlikte Ali'ye karşı bir komplo kurduğunu anlatır. {cite:encyclopaedia-of-islam-2 vol. 2 p. 439} Yazar, Ali'nin Osman'ın katillerine karşı hoşgörülü, rakipleri karşısındaki zayıflığı ve Kureyş'e karşı popülerlik talep eden politikası olarak daha derin nedenler olarak görülür. Bu, [[place/kufa|Kufe halkının]] Ali'nin gönderdiği valiyi reddettiğini ve [[person/abu-musa-al-ashari|Ebu Musa el-Eş'ari'yi tercih]] ettiğini, [[person/muawiya-ibn-abi-sufyan|ayrıca Levant'taki Muaviye]]'nin bağlılık yemini etmeyi reddettiğini gösterir. {cite:encyclopaedia-of-islam-2 vol. 2 p. 439}
+
+General, [[place/basra|oradan para ve asker umuduyla Basra'yı seçti. Aisha, Talha ve Al-Zubair'in Uthman'a karşı muhalefeti körüklemesi ve Ali'nin seçilmesinden hemen]] sonra ona bağlılık yemini ettikleri için halkı harekete geçirmeyi kabul etti. Makalede, sadakat yemininin kendisine zorla kabul edildiğini iddia etmek zorunda kaldıkları belirtiliyor. Hafsa bint Umar [[person/hafsa|önce dışarı çıkmayı planlıyordu, ancak kardeşi Abdullah onu caydırdı. {cite:encyclopaedia-of-islam-2 vol. 2 p. 439}]]
+
+Makalede ekipte yüzlerce adam olduğu ve altı yüz ile yedi yüz arasında bir soru sorulduğu belirtiliyor. Ali bunu öğrendi, yaklaşık yedi yüz savaşçı topladı ve el-Tabari'ye göre Rabi' al-Thani'nin sonunda Medine'den ayrıldı, onları durdurmak niyetindeydi, ancak [[place/al-rabadha|Rabadha'da]] onların oradan geçtiklerini öğrenince Irak'a yöneldi. {cite:encyclopaedia-of-islam-2 vol. 2 p. 439} Makale ayrıca köpeklerin havladığı al-Hawab hikayesini anlatıyor; Aişe, Peygamber'e atfedilen bir uyarıyı hatırladı ve neredeyse geri dönecekti, ta ki buranın el-Hawab olmadığından emin olana kadar; yazar bunu sadece kaynaklardaki büyük önemi nedeniyle anıyor. {cite:encyclopaedia-of-islam-2 vol. 2 p. 439}
+
+## Akademik Sunum: Basra Savaş Öncesi
+
+Basra yakınlarında, Aişe'nin grubunun liderleri müzakerelere başladı ve çağrıyı başlattı. Aişe, seçkinlere yazdı, bir elçi gönderdi ve reform hedefini sundu. Makale, grubu için bunun Şeriat'ın ve sınırlarının yeniden tesis edilmesi, Osman Usman'ın intikamını almak ve konuyu usulüne uygun olarak seçilmiş bir halifenin eline vermek anlamına geldiğini açıklıyor. Ali için bu, otoritesini yeniden tesis etmek, Peygamber'in geleneğine dönmek ve ayrıcalıkların sona erdirilmesi anlamına geliyordu. {cite:encyclopaedia-of-islam-2 vol. 2 p. 439} Basra halkı bölünmüştü; Ali tarafından atanan vali Osman [[person/uthman-ibn-hunayf|bin Hunayf]], Ali'nin gelişini beklemeyi geciktirirken, diğerleri Aişe, Talha ve el-Zubeyr'e katıldı. {cite:encyclopaedia-of-islam-2 vol. 2 p. 439} {cite:encyclopaedia-of-islam-2 vol. 2 p. 440}
+
+Ardından El-Murbad'da bir vaaz verildi, bu da Dar el-Rizq yakınlarında huzursuzluk ve çatışmalara yol açtı; bu olayda polis şefi Hakim bin Cibla öldürüldü. Vali, sarayı, Büyük Camii'yi ve hazineyi elinde tutacak, ta ki bir elçi Medine'ye dönene kadar elinde tutacak ve Talha ile el-Zubeyr'in gerçekten Ali'ye bağlılık yemini etmeye zorlanıp zorlanmadığını soracaktı. İki adam namaz liderliği konusunda tartıştı, bu yüzden Aişe, onların gün gün dönüşümlü olarak hareket etmelerine veya başka bir anlatımda oğullarını sırayla yapmalarına karar verdi. {cite:encyclopaedia-of-islam-2 vol. 2 p. 440} Peygamber'in cevabı Talha ve el-Zubeyr lehine oldu, ancak valiye bunun tersini belirten bir mektup ulaştı. Vali istifa etmeyi reddetti, camide kavga çıktı ve Aişe'nin grubu hazineye saldırdı, muhafızlarını öldürdü veya esir aldı ve İbn Hunayf'ı saraydan kovdu. Makalede, Ali'nin Medine'deki esirlerinden intikam tehdidinde bulunmasının ardından hayatta kaldığı ve ona katıldığı belirtiliyor; burada kardeşi Sahl valiydi. {cite:encyclopaedia-of-islam-2 vol. 2 p. 440}
+
+Saldırganın kim olduğu sorulduğunda, makalede bazı anlatıların Aisha'nın ekibini ılımlılıkları için övdüğü ve adamlarının sadece savunma için ellerini kullanmasını yasakladığı belirtilir. Yine de yazar, ekibinin saldırgan olduğunu çünkü erzak ve paraya ihtiyaçları olduğunu ve vali ile Ali'nin ilerleyen kuvvetleri arasına girmekten korktuklarını belirtir. {cite:encyclopaedia-of-islam-2 vol. 2 p. 440} Basra onlar için yerleştikten sonra, Osman evinin kuşatmasına katılanları teslim etmeleri istenmiştir. Makalede altı yüz kişinin öldüğü ve sadece Harqus ibn Zuhayr'ın kabilesinin koruması altında hayatta kaldığı belirtilir. Bu durum Basra halkının bir kısmını kızdırdı ve destekçilerine dağıtılan hediyeler ve malzemeler bu yüzden Banu Abd al-Kais dahil üç bin adam Ali'ye katılmak üzere Dhi [[place/dhi-qar|Qar'a]] gitti. Makale, [[person/al-ahnaf-ibn-qays|El-Ahnaf bin Kais]] ve kabilesinin tarafsız kaldığını ekliyor. {cite:encyclopaedia-of-islam-2 vol. 2 p. 440}
+
+## Akademik Teklif: Ali ve Kufa
+
+Makalede, vali ile görüşmelerin yirmi altı gün sürdüğü, Ali'nin Basra'ya gitmeden önce halkını kazanmak için Kufa'ya yaklaşmayı tercih ettiği için Dhu Kar'a ulaştığı belirtiliyor. Ebu Musa el-Eş'ari, Ali'nin sözünü kabul etse de, Kufe halkını yaklaşan isyanı bırakmaya çağırdı. Ali'nin elçileri, [[person/malik-al-ashtar|el-Eştar]], İbn Abbas ve [[person/ammar-ibn-yasir|Ammar ibn Yasir dahil]], al-Makal'a göre altı ila yedi ila on iki bin arasında değişen bir grup yerliyi kendisine gitmeye ikna etmeyi başardı ve bazı sorular sordular. Ebu Musa tahttan indirildi. {cite:encyclopaedia-of-islam-2 vol. 2 p. 440} Sonra Ali Basra yakınlarına yerleşti, müzakereler yapıldı ve herkes bir anlaşmanın yakın olduğunu düşündü, ancak çatışmalar başladı. {cite:encyclopaedia-of-islam-2 vol. 2 p. 440}
+
+## Akademik Sunum: Dövüş
+
+Makale, çatışmayı kimin başlattığının yine gizemli bir soru olduğunu belirtir. Bazı anlatımlar, Ali'nin adamlarına saldırmamalarını emrettiğini ve sadece bazı destekçilerini öldürdükten sonra savaştığını çünkü rakiplerinin kıble halkından olduğunu belirtir. Makalede ayrıca el-Taberi'nin bir rivayetine atıfta bulunarak, Ali'nin Osman öldürmekle suçlananlara güvenlik sağlamak istemediği, bu yüzden onların güvenliklerinden korkarak onun bilmediği sürpriz bir saldırıyla savaşmaya başladığını belirtir. {cite:encyclopaedia-of-islam-2 vol. 2 p. 440} Çatışma sabah saatlerinden gün batımına kadar sürmüştür; İbn Qutaybe'ye atfedilen bir kitaba göre yedi gündür. En yaygın tarih, 36 Hicri yılının Cumada el-Ahira'nın onuncusudur, yani 4 Aralık 656'ya karşılık gelir ve makalede Caitani'nin savaşın on beşinci gününü, yani 9 Aralık'a denk geldiğini belirtir. {cite:encyclopaedia-of-islam-2 vol. 2 p. 440}
+
+Yazar, savaşçıların genellikle kabileler ve klanlardan, hatta ailelerin kendisinden olduğunu belirtir. Aisha, savaşın sonunda oklarla saplanmış güçlü bir başlıklı bir deveyle oradaydı. Yaralanmadı ve kaderi kolundaki bir çizikti. Devenin etrafındaki çatışmalar şiddetliydi; savunucular sırayla devenin kütüklerinde şiirler okuyarak düştüler ve orada ölenlerin sayısı kırk ile 2.700 arasında değişiyordu. Ali'nin yoldaşları, deveyi yaralayarak yan yatmasına neden oldular. {cite:encyclopaedia-of-islam-2 vol. 2 p. 440}
+
+Makaleye göre, savaş zaten bununla sonuçlanmıştı. Talha'nın oku isabet etti, birçok kaynak bunu [[person/marwan-ibn-al-hakam|Marwan ibn al-Hakam'a]] atfeder, bu yüzden kısa süre sonra öldüğü eve çekildi. El-Zubeyr ise, kendi kesinliği zayıfladı, Ali'nin önceki bir mesele ve Peygamber'in sözleri içeren bir hadisten sonra savaş alanını terk etti. Makalede, bazı Banu Tamim tarafından takip edildiği ve Wadi al-Sibaa'da boş bir yerde öldürüldüğü, el-Ahnaf'ın ise bunu teşvik etmekle suçlandığı belirtilir. {cite:encyclopaedia-of-islam-2 vol. 2 p. 440} Yazar, savaşı Araplar arasında gelenek olduğu üzere bir dizi düello ve rütbe çatışması olarak tanımlar ve kaynakların taktiksel seyrinin yeniden yapılandırılmasına izin vermediğini belirtir. {cite:encyclopaedia-of-islam-2 vol. 2 p. 441}
+
+## Akademik Teklif: Rakamlar
+
+Makale, iki ordunun gücünün hesaplanamayacağını belirtir. Kayıp sayısı altı bin ile otuz bin arasında değişir ve yazar, Ali'nin ordusunun, şehirden gelenler ve onu takip edenler dahil olmak üzere kendi ordusunun on beş bini zar zor aşması nedeniyle bu sayının büyük ölçüde abartıldığını savunur. {cite:encyclopaedia-of-islam-2 vol. 2 p. 441}
+
+## Akademik Teklif: Olaydan Sonra
+
+Aisha alındı, ancak makalede ona tam saygı gösterildiği belirtiliyor. Ali, onun Medine'ye dönmesi gerektiğine kesin bir karar verdi. Kendisiyle savaşan herkese güvenlik sağladı ve dahil bazı kişiler, aralarında Marwan ibn al-Hakam, Muaviye'ye gitti. {cite:encyclopaedia-of-islam-2 vol. 2 p. 441} Ali'nin yenilen kadınları ve çocukları köleleştirmeyi ve paralarını almayı reddetmesi, sahada bulunanlar dışında paralarını almayı reddetti, destekçileri arasında büyük bir tepki yarattı; neden kanlarına izin vererek böyle muamele gördüğünü merak ettiler. Makale, Harici halkının daha sonra Ali'ye karşı protesto ettiğini ekliyor. {cite:encyclopaedia-of-islam-2 vol. 2 p. 441} Ali, Basra halkından bağlılık yemini aldı ve [[person/abdullah-ibn-abbas|İbn Abbas]], Ziyad bin Abi ile birlikte bunu atadı; bu durum el-Aştar'ı kızdırdı çünkü el-Abbas'ın iki diğer oğlu Yemen ve Mekke'de yönetiyordu. {cite:encyclopaedia-of-islam-2 vol. 2 p. 441}
+
+## Akademik Teklif: Yazarın Takdiri
+
+Viccia Faglieri, Aisha'yı hareketin baskın figürü olarak görür; enerjik ve hedefine doğru ilerler, ancak taviz ve itaat anlarında hariç. Talha ve Al-Zubair, tartıştıklarını ve yeminlerini bozmak için zayıf bahaneler sunduklarını, savaşmaktan çekildiklerini, hırsla hareket eden ve başarılı olma kararlılığı olmayan iki adam olduklarını okurlar. Bu yazarın yorumudur; bu olayla ilgili başka kayıtlı görüşler de vardır; Al-Sallabi'nin Sünnilere karşı tutumu da dahil olmak üzere, Sahabelerin hedeflerini farklı şekilde tanımlar. {cite:encyclopaedia-of-islam-2 vol. 2 p. 441} Ayrıca Caetani'nin Marwan'ın Aisha'nın arkasındaki gizli organizatör olduğunu önerdiğini belirtir ve onu çekici olarak tanımlar, ancak kaynaklar bunu doğrulamaz. {cite:encyclopaedia-of-islam-2 vol. 2 p. 441}

@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1817"
-label: { ar: "الموطأ 1817 — مالك: بلغه أن عمر بن عبد العزيز قضى بوضع الجائحة، وعلى ذلك الأمر عندنا", en: "Muwatta 1817", es: "Muwatta 1817", fr: "Muwatta 1817", ur: "موطا 1817" }
+label: { ar: "الموطأ 1817 — مالك: بلغه أن عمر بن عبد العزيز قضى بوضع الجائحة، وعلى ذلك الأمر عندنا", en: "Muwatta 1817", es: "Muwatta 1817", fr: "Muwatta 1817", ur: "موطا 1817", tr: "El-Muvatta 1817 — Malik: Ömer ibn Abdülaziz'in salgının durdurulması gerektiği yönünde hüküm verdiği kendisine bildirildi ve bu hüküm bizim tarafımızda da geçerlidir.", id: "Al-Muwatta 1817 — Malik: Dia diberitahu bahwa Umar ibn Abd al-Aziz telah memutuskan bahwa pandemi harus dihentikan, dan itulah keputusan yang berlaku di antara kita." }
 summary:
   ar: "قال مالك: وحدثني أنه بلغه أن عمر بن عبد العزيز قضى بوضع الجائحة، قال مالك: وعلى ذلك الأمر عندنا. {cite:muwatta-maruf-1997 p.144}"
+  tr: "Malik dedi ki: Bana Ömer ibn Abdülaziz'in vebanın durdurulması gerektiği yönünde bir hüküm verdiğini duyduğunu söyledi. Malik dedi ki: Bizim de hükmümüz budur. {cite:muwatta-maruf-1997 s.144}"
+  id: "Malik berkata: Dia memberitahuku bahwa dia mendengar Umar ibn Abd al-Aziz telah memutuskan bahwa wabah itu harus dihentikan. Malik berkata: Itulah hukum yang berlaku di tempat kami. {cite:muwatta-maruf-1997 p.144}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

@@ -1,0 +1,18 @@
+---
+id: concept/idrak-fiqh
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/idrak-fiqh.md}
+---
+## Definisi dan istilah terkait
+Dalam linguistik, 'idar' merujuk pada mengejar dan mencapai kematangan pada hewan dan buah-buahan, serta melihat, dan kata benda verbalnya adalah 'dar'. Para ahli hukum menggunakannya dalam arti ini, mengatakan: 'dia mematuhi harga,' yang berarti dia mematuhinya; 'adrak al-ghulwul' berarti dia mencapai usia kesabaran, dan 'tarakta' al-tamar' berarti matang, sehingga dijamin 'dar'. Beberapa orang menggunakannya untuk berarti 'jadd' (generasi baru). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2002}
+Para ulama usul menggunakan 'Madarik al-Sharia' untuk merujuk pada tempat-tempat di mana keputusan diinginkan, seperti ijtihad. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2002}
+Beberapa ahli hukum membedakan antara orang yang mencapai doa, yang mengikutinya, dan yang mendahuluinya, meskipun 'tarak' dan 'taqiq' sama dalam bahasa. Orang yang menangkap orang yang shalat sepenuhnya bersama imam meskipun dia menangkap sebagian dari rak'ah pertama yang membungkuk, yang melewatkan semua atau sebagian rak'ah dengan alasan setelah mengikutinya, dan yang mendahuluinya oleh imam oleh semua atau sebagian rak'ah. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2002}
+## Kesimpulan Keseluruhan
+Putusan ini bervariasi tergantung pada penggunaan yurisprudensial atau usul, dan penggunaan usul dalam lampiran Usuli. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2003}
+Dalam ibadah, persepsi tentang shalat wajib adalah mengejar dan menerima ganjaran penuh setelah menyelesaikannya dengan sempurna, meskipun ada perbedaan pendapat tentang apa yang dimaksud dengan pemahaman. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2003} Menurut mayoritas ahli hukum, kebajikan jamaah dicapai dengan berbagi sebagian shalat dengan imam, meskipun itu terjadi di akhir sidang terakhir sebelum salam. Mazhab Maliki tidak memperoleh kebajikan kecuali dengan melakukan rak'ah penuh bersama imam. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2003}
+Dalam transaksi, aturannya adalah bahwa siapa pun yang memiliki properti orang lain berhak atas properti tersebut dibandingkan siapa pun, jika terbukti bahwa dia memilikinya dengan bukti, atau jika orang yang memilikinya atas properti tersebut jujur terhadapnya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2003}
+Di bawah aturan ini terdapat jaminan kamuflase, yaitu pengembalian harga ketika barang yang dijual jatuh tempo. Menurut mayoritas ahli hukum, jaminan pound berlaku, berdasarkan hadits "Siapa pun yang menemukan properti yang tepat bersama seorang pria berhak mendapatkannya," dan karena kebutuhan itu diperlukan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2003}
+## Lokasi Pencarian
+Para ahli hukum membahas konsep 'keuntungan' dalam banyak konteks: melihat rak'ah di akhir waktu shalat, melihat berdiri di Arafah saat Haji, membayar zakat atas buah jika tercapai, dan menjamin bendungan. Para Syafi'i membahas ini dalam hal tanggung jawab, Maliki dalam penjualan, Hanafi dalam jaminan, dan Hanbalis dalam 'Al-Salam' di bawah hak asuh barang yang dijual. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2003} Di antaranya adalah hubungan antara seorang anak laki-laki dan seorang budak perempuan di batu, menjual buah di pohon sebelum dan sesudah penyitaan, serta melihat hewan hidup dalam hewan berburu dan disembelih. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2003}

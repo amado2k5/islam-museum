@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "6144"
-label: { ar: "صحيح البخاري 6144 — الأب والأبوة", en: "Sahih al-Bukhari 6144 — the father and fatherhood", ur: "صحیح بخاری 6144 — باپ اور والدیت", es: "Sahih al-Bukhari 6144 — El padre y la paternidad", fr: "Sahih al-Bukhari 6144 — Le père et la paternité" }
+label: { ar: "صحيح البخاري 6144 — الأب والأبوة", en: "Sahih al-Bukhari 6144 — the father and fatherhood", ur: "صحیح بخاری 6144 — باپ اور والدیت", es: "Sahih al-Bukhari 6144 — El padre y la paternidad", fr: "Sahih al-Bukhari 6144 — Le père et la paternité", tr: "Sahih el-Buhari 6144 — Baba ve Babalık", id: "Sahih al-Bukhari 6144 — Ayah dan Peran Ayah" }
 text: "… النَّخْلَةُ، فَكَرِهْتُ أَنْ أَتَكَلَّمَ وَثَمَّ أَبُو بَكْرٍ وَعُمَرُ، فَلَمَّا لَمْ يَتَكَلَّمَا قَالَ النَّبِيُّ \" هِيَ النَّخْلَةُ \". فَلَمَّا خَرَجْتُ مَعَ أَبِي قُلْتُ يَا أَبَتَاهْ وَقَعَ فِي نَفْسِي أَنَّهَا النَّخْلَةُ. قَالَ مَا مَنَعَكَ أَنْ تَقُولَهَا لَوْ كُنْتَ قُلْتَهَا كَانَ أَحَبَّ إِلَىَّ مِنْ كَذَا وَكَذَا. قَالَ مَا مَنَعَنِي إِلاَّ أَنِّي لَمْ أَرَكَ وَلاَ أَبَا بَكْرٍ تَكَلَّمْتُمَا، فَكَرِهْتُ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 6144، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 6144، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.º 6144 (Buenas costumbres y modales (Al-Adab)), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sahih al-Bukhari, n° 6144 (Les bonnes manières et la bienséance), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les versets du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih el-Buhari'de 6144 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 6144, menyebutkan tentang ayah dan peran ayah. Situs web \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6144 (book 78 hadith 170); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

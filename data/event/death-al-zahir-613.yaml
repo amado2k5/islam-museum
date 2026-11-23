@@ -1,7 +1,7 @@
 id: event/death-al-zahir-613
 class: event
 kind: death
-label: { ar: "وفاة الملك الظاهر غازي بن صلاح الدين", en: "Death of al-Malik al-Zahir of Aleppo", es: "Muerte de al-Malik al-Zahir de Alepo", fr: "Mort d'al-Malik al-Zahir d'Alep", ur: "حلب کے الملک الظاہر کی موت" }
+label: { ar: "وفاة الملك الظاهر غازي بن صلاح الدين", en: "Death of al-Malik al-Zahir of Aleppo", es: "Muerte de al-Malik al-Zahir de Alepo", fr: "Mort d'al-Malik al-Zahir d'Alep", ur: "حلب کے الملک الظاہر کی موت", tr: "Kral Zahir Gazi bin Salah el-Din'in Ölümü", id: "Kematian Raja Al-Zahir Ghazi bin Salah al-Din" }
 date:
   start: { edtf: "1216~", hijri: "0613", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "al-Malik al-Zahir Ghazi ibn Saladin, señor de Alepo, murió —el mejor y más justo de los ayubíes, dice Ibn al-Athir—; su hijo pequeño al-Aziz le sucedió {cite:kamil-ibn-al-athir p. 369}."
   fr: "al-Malik al-Zahir Ghazi ibn Saladin, seigneur d'Alep, mourut — le meilleur et le plus juste des Ayyoubides, dit Ibn al-Athir; son fils en bas âge al-Aziz lui succéda {cite:kamil-ibn-al-athir p. 369}."
   ur: "المالک الظاہر غازی ابن صلاح الدین، حلب کے آقا، وفات پا گئے - ایوبیوں میں سب سے بہترین اور انصاف پسند، ابن الثیر کہتے ہیں؛ اس کا شیر خوار بیٹا العزیز جانشین ہوا 369}۔"
+  tr: "Halep hükümdarı Kral Zahir Gazi bin Salah Al-Din vefat etti. Eyyub'un oğullarının en iyi ve en adil olanlarından biriydi. Oğlu Aziz, henüz çocuk yaşta tahta geçti. {cite:kamil-ibn-al-athir s. 369}"
+  id: "Raja Al-Zahir Ghazi bin Salah Al-Din, penguasa Aleppo, wafat. Beliau adalah salah satu putra Ayyub yang terbaik dan paling adil. Putranya, Al-Aziz, menggantikannya sejak masih kecil. {cite:kamil-ibn-al-athir p. 369}"
 wings: [time]
 relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/kamil-ibn-al-athir] }

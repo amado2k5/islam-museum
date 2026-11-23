@@ -1,0 +1,18 @@
+---
+id: concept/zij-sabi-fifty-seven-chapters
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/zij-sabi-fifty-seven-chapters.md}
+---
+## Özet
+Al-Battani döngüsüne elli yedi bölümü sıralayan bir indeksle açar: kitabın başı, aritmetik, çember ve eğim ipleri, burcun yükselişi; sonra bölgelerin özellikleri, gölge, irtifa ve saatler; sonra sabit gezegenlerin boyutları; ardından güneş, ay, beş gezegen, tutulmalar ve tarihlerin hareketleri. İki enstrüman ve kitabın sonuyla bitirir. {cite:zij-sabi-nallino-byblion pp.5-9}.
+
+## Bölüm I'den On Yedi'ye
+İlk bölümdeki dizin kitabın başlangıcını listeler; ikinci bölüm astronomik çemberi, çarpmayı, kökleri ve bölmeyi sınıflandırır; üçüncü bölüm çemberin parçalarının ve tablolardaki yarım tellerin dizislerini; dördüncü bölüm gün ortalamasından burçların eğimini kapsar; beşinci bölüm ise düz astronomide burcunun yükselişini kapsar. Altıncı bölüm ise günün ortalamasına ve yükselmiş dünyaya paralel çizgilerin özelliklerini; yedinci bölüm kış ve yazın doğu ve gün batımlarını; sekizinci ve dokuzuncu kutup yükselişini ve en uzun günün artışını; onuncu yükselme ve gölge; on birinci onların açısıdır; on ikinci gün çizgisi; on üç, her ülkede burçların yükselişini; on dördüncü ülkenin gözlem enlemlerini; on beşinci gün güneşin öğle vakti yüksekliğini; on altıncı gün güneşi ölçerek yükseltiğini; on yedinci ise saatlerdeki yükseltiğidir. {cite:zij-sabi-nallino-byblion pp.5-6}.
+
+## On Sekizinci Bölümden Kırk Birinci Bölüme
+İndeks, sabit ve değişken gezegenler için on sekizden yirmi beşe kadar bölümler ayırır: gün ortalamasından uzaklıkları, gün yaylarının yarısı, gün doğumu derecesi, gece saatleri, irtifalar ve özellikleri. Sonra yirmi altıncı bölüm gezegenler arasındaki boyutlar için, yirmi yedinci güneş yılının uzunluğu ve güneşin hareketi için, yirmi sekizinci gün hareketinin değişimi, yirmi dokuzuncu gün ve gece değişimi için, otuz birinci ayın gök cisimleri ve iki tutulmanın nedenleri ve otuz birinci gezegenlerin yörüngeleri içindir. Bunu kronoloji bölümleri takip eder: Araplar, Romalılar, Persler ve Kıptiler tarihindeki otuz ikinci; güneşin konumunda otuz üçüncü; takvim saatlerinde otuz dördüncü bölüm; doğuş ve on iki evde otuz beşinci; sonra otuzaltıncıdan kırk birinci ay'a kadar olan bölümler: gerçek konumu, iki düğüm, genişliği, görünüş ve mesafe farkı ve hilal görülmesi. {cite:zij-sabi-nallino-byblion pp.7-8}.
+
+## Kırk İki'den Elli Yedinci Bölüme Kadar
+Kırk iki ila kırk dört bölümler, güneş ve ayın karşılaşmaları ile bunların karşıtları, hesaplama ve tablo ile ay ve güneş tutulmalarını ele alır. Kırk beşten kırk sekizinci bölümlere kadar, beş kafa karıştırıcı gezegenin konumlarını, konumlarını, dönüşlerini, gösterilerini, görünümlerini ve kayboluşlarını, ardından Güneşle olan sabitlerin şekillerini, gezegenlerin boyutlarını, çaplarını ve boyutlarını kapsar. Bunu takip eden elli birinci bölüm gözlem yoluyla sabitlerin hareketi, elli ikinci bölüm tılsımların astronomik hareketler hakkında bahsettikleri, elli üçüncü bölüm yılların düzenlenmesi üzerine, elli dördüncü bölüm önermelere göre iletişimle, elli beşinci bölüm çiviler arasındaki ekliptikler, elli altıncı bölüm düz mermer üzerine günün saatlerini bilmek için ve elli yedinci bölüm kitabın kapanışı ve aleti astronomi ile iki gözlemsel alet biçiminde tanımlamaktadır. {cite:zij-sabi-nallino-byblion pp.8-9}.

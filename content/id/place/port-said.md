@@ -1,0 +1,28 @@
+---
+id: place/port-said
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/place/port-said.md}
+---
+## Ringkasan
+Port Said adalah sebuah pelabuhan di pantai Mediterania Mesir di ujung utara [[place/suez-canal|Terusan Suez]] dan di tepi baratnya. Ensiklopedia Islam menyebutkan lokasinya di lintang 31 derajat 16 menit utara dan bujur 32 derajat 19 menit timur, serta menyatakan bahwa jalur ini terhubung ke [[place/cairo|Kairo]], yang berjarak 233 kilometer, melalui jalur kereta api reguler yang didirikan pada tahun 1904 melalui Zagazig dan [[place/ismailia|Ismailia]], serta Damietta dan [[place/alexandria|Alexandria]]. {cite:encyclopaedia-of-islam-2 vol. 8 p. 353} Setelah pembangunan kanal, kanal ini menjadi pelabuhan kedua Mesir setelah Alexandria, dan kini menjadi ibu kota sebuah gubernur yang menggunakan nama tersebut. Populasi gubernur diperkirakan sekitar 382.000 pada tahun 1986, dan populasi kota sekitar 374.000. {cite:encyclopaedia-of-islam-2 vol. 8 p. 353}
+
+## Pendirian
+Artikel tersebut menyatakan bahwa Port Said didirikan pada tahun 1859 ketika diputuskan untuk memotong kanal pada masa pemerintahan Gubernur [[person/said-pasha|Said Pasha]], dan kanal ini dinamai menurut namanya. Lokasinya berada di bawah air kecuali sebuah jalur berpasir selebar 200 hingga 300 yard yang memisahkan Danau Manzala dari Mediterania. Lokasi ini dipilih oleh tim insinyur yang dipimpin oleh La Roche dan [[person/ferdinand-de-lesseps|de Lesseps]], bukan karena merupakan titik terdekat di seberang isthpass ke Suez, tetapi karena kedalaman airnya lebih cocok untuk kanal yang direncanakan. {cite:encyclopaedia-of-islam-2 vol. 8 p. 353} Artikel Said Pasha mengonfirmasi bahwa pelabuhan di ujung utara kanal dinamai menurut namanya. {cite:encyclopaedia-of-islam-2 vol. 8 p. 925}
+
+## Tumbuh bersama kanal
+Ketika pekerjaan dimulai, lima rumah kayu dibangun di atas air di atas tiang besar, berisi toko roti dan penyulingan air untuk pengunjung. Setahun kemudian, alat pengeruk mulai memperdalam pelabuhan baru, dan tanah liat yang diangkat langsung digunakan untuk mengangkat lahan bengkel dan bangunan. Karena hal ini tidak mengikuti pertumbuhan pesat kota seiring kemajuan pekerjaan menuju Ismailia, dan karena tidak adanya tambang di dekatnya, Perusahaan Doso mulai memproduksi batu buatan yang tahan terhadap air laut pada tahun 1865. Masing-masing memiliki berat sekitar 22 ton, dan digunakan untuk dua penghalang gelombang besar pelabuhan luar serta untuk menyiapkan lahan pembangunan baru; artikel tersebut merinci hal ini dan merujuk pada rencana rekonsiliasi Ali Pasha Mubarak. {cite:encyclopaedia-of-islam-2 vol. 8 p. 354}
+
+Pada tahun 1865, kapal pos menyeberangi kanal menuju Ismailia, dan dua pemecah gelombang selesai dibangun pada tahun 1868, dan kanal dibuka pada tahun 1869. Kota ini dipenuhi oleh konsul dan perwakilan dari banyak negara, dan populasinya mencapai sepuluh ribu. {cite:encyclopaedia-of-islam-2 vol. 8 p. 354}
+
+## Kota pada abad kesembilan belas dan kedua puluh
+Artikel tersebut menyatakan bahwa pada akhir abad kesembilan belas, Port Said adalah stasiun pasokan batu bara terbesar di dunia, terutama untuk lalu lintas kanal, dan pada awal abad kedua puluh, Port Said menjadi titik ekspor kapas, beras, dan produk lain dari Delta timur, serta pusat produksi ikan. Di antara bangunan utamanya terdapat kantor pusat [[group/suez-canal-company|Perusahaan Terusan Suez]], dan populasinya pada tahun 1907 sekitar 49.884 jiwa. Pelabuhan luar mencakup area 570 feddan; dari tahun 1903 hingga 1909, cekungan baru didirikan di tepi timur, dan sebuah kota baru bernama Port Fouad didirikan di sana untuk menampung para pekerja dermaga. {cite:encyclopaedia-of-islam-2 vol. 8 p. 354}
+
+Khedive [[person/khedive-ismail|Ismail memerintahkan]] pembangunan empat menara dengan biaya pemerintah Mesir di Rosetta, Burullus, dan Menara Ezba dekat Damietta dan Port Said. Menara Port Said berdiri setinggi 174 kaki, dengan lebar yang khas dibandingkan tiga menara lainnya, terlihat dari jarak 20 mil. Di ujung barat penghalang, berdiri patung besar Lesbes, dibuat oleh E. Fermet, diresmikan pada tahun 1899. {cite:encyclopaedia-of-islam-2 vol. 8 p. 354}
+
+## Perang 1956 dan Setelahnya
+Presiden Gamal Abdel Nasser menasionalisasi kanal pada tahun 1956. Selama perang Inggris-Prancis-Israel di Mesir pada akhir Oktober dan awal November, Port Said mengalami kerusakan parah akibat serangan udara dan pendaratan Inggris serta Prancis, dan patung De Lesseps dihancurkan. Setelah perang, kerusakan diperbaiki dan kanal dibuka kembali. Dalam perang Juni 1967, pasukan Israel mencapai tepi timur kanal, dan kanal tetap ditutup selama bertahun-tahun. Artikel tersebut menyatakan bahwa kanal kembali hidup setelah Perjanjian Camp David tahun 1978 dan perjanjian damai tahun 1979, bahwa biaya transit menjadi bagian penting dari pendapatan Mesir, dan Port Said telah mendapatkan kembali sebagian kemakmuran sebelumnya. {cite:encyclopaedia-of-islam-2 vol. 8 p. 354}
+
+## Sumber dan Kekosongan
+Artikel tersebut menyebutkan sumber utama kontemporernya, Rencana Tawfiqi Ali Pasha Mubarak, Bulaq Kairo 1305-1306 H, serta pendapatan statistik tahunan ganda pemerintah Mesir dan Perusahaan Terusan Suez. {cite:encyclopaedia-of-islam-2 vol. 8 p. 354} Museum tidak meninjau sumber-sumber ini, dan catatan ini menampilkan Port Said seperti yang ditunjukkan dalam artikel hingga tahun 1980-an.

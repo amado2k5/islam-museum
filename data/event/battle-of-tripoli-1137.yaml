@@ -1,13 +1,15 @@
 id: event/battle-of-tripoli-1137
 class: event
 kind: battle
-label: { ar: "معركة طرابلس", en: "Battle of Tripoli", es: "Batalla de Trípoli", fr: "Bataille de Tripoli", ur: "طرابلس کی لڑائی" }
+label: { ar: "معركة طرابلس", en: "Battle of Tripoli", es: "Batalla de Trípoli", fr: "Bataille de Tripoli", ur: "طرابلس کی لڑائی", tr: "Trablus Savaşı", id: "Pertempuran Tripoli" }
 summary:
   ar: "بطاقة أولية لمعركة طرابلس؛ لم تُراجع مصادره على الصفحة بعد."
   en: "Draft card for Battle of Tripoli; its sources are not yet checked on the page."
   es: "Boceto de ficha para la Batalla de Trípoli; sus fuentes aún no han sido verificadas en la página."
   fr: "Fiche de projet pour la bataille de Tripoli; ses sources ne sont pas encore vérifiées sur la page."
   ur: "طرابلس کی جنگ کے لیے ڈرافٹ کارڈ؛ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
+  tr: "Trablus Savaşı'na dair ön rapor; sayfadaki kaynaklar henüz incelenmemiştir."
+  id: "Laporan pendahuluan tentang Pertempuran Tripoli; sumber-sumber yang tercantum di halaman ini belum ditinjau."
 relations:
   - { type: occurred_at, target: place/tarabulus-sham, sources: [source/tarikh-islam-hasan-ibrahim] }
   - { type: during_reign, target: person/al-hafiz-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }

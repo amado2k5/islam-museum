@@ -1,0 +1,16 @@
+---
+id: concept/insan
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/insan.md}
+---
+
+## Doğa ve Seçim
+Burada insan vücudundan alınan materyaller sunulmakta ve kitap bunları 'qail' ve 'qalu' biçimlerinde anmaktadır; yani bunlar yazarın önerisi değil, aktarılan sözlerdir {cite:canon-ibn-sina-print-v1 p.373}.
+
+## Mizaç ve Davranışlar
+Kitap, bu makaleler için kapsamlı bir nitelikten bahsetmez ve aşağıda üyelere göre her özneye atfedilen fiiller yer almaktadır.
+
+## Üyelerin Faydaları
+Süslemede: İnsan menisi vitiligoyu temizler, benzer şekilde bakırda kullanılan erkek çocuklarının idrarındaki tuz melazmayı giderir ve gübre arındırma için faydalıdır {cite:canon-ibn-sina-print-v1 p.373}. Tümörlerde ve sivilcelerde: bulanık insan idrarının közleri kurtardığı, gübresinin sıcak olduğu ve saçlarının külü sivilceleri iyileştirdiği söylenir. Ghee ile karıştırıldığında enfeksiyöz tümörleri önler {cite:canon-ibn-sina-print-v1 p.373}. Yaralar ve ülserlerde: idrarı ülserleşmiş uyuzu giderir ve zona hastalığından faydalanır {cite:canon-ibn-sina-print-v1 p.373}. Eklem aletlerinde: adet kanının gut ağrısını yatıştırdığı söylenir, aynı şekilde insan spermi balmumu ve yağla {cite:canon-ibn-sina-print-v1 p.374}. Saç derisi organlarında: ağrılı kulak ve dişe damlayan gül yağı ile saçını yakmak, iddia edilen durumu yatıştırır; oruç tutan kişinin tükürüğü kulaktan solucan atarım; insan kemiği epilepsi için verilen yanık sudur; kulak kiri migren için faydalıdır {cite:canon-ibn-sina-print-v1 p.374}. Göz organlarında: bal ile pişirildiğinde beyaz gözlü bakır bir kapta idrarı soğuktan faydalanır ve uyuz ile göz kaşıntısına yardımcı olan başka bir ilaçla saçını yakır {cite:canon-ibn-sina-print-v1 p.374}. Solunum ve göğüs organlarında: Erkeklerin idrarının sarhoşken nefes darlığına yardımcı olduğu, kadın sütünün tüberküloz için çok faydalı olduğu söylenir {cite:canon-ibn-sina-print-v1 p.374}. Besin organlarında: insan sütünün mide sızını yatıştırdığı ve içicinin haberi olmadan iki deriyle idrarının içildiği, bunun özellikle bal ve nohut suyu ile sarılığa ve gübreye fayda sağladığı söylenir {cite:canon-ibn-sina-print-v1 p.374}. Titreyen organlarda: insan sütü idrara çıkmaya neden olur {cite:canon-ibn-sina-print-v1 p.374}. Adet kanının mümkün olmasının bile gebeliği engellediği söylenir {cite:canon-ibn-sina-print-v1 p.374}. Kadın sütü rahim ülserleri için faydalıdır {cite:canon-ibn-sina-print-v1 p.374}. İnsan idrarının ishali durdurduğu ve pırasa ile pişirilen rahmi arındırdığı söylenir {cite:canon-ibn-sina-print-v1 p.374}. Diyetlerde: dolaşımlı diyetlerde sulanırsa bal veya şarapla kuru gübre {cite:canon-ibn-sina-print-v1 p.374}. Zehirlerde: Kadının sütü deniz tavşanına karşı panzehirdir, insan dişleri ezilip yılanın ısırığında bırakılır ki bundan fayda sağlansın, gübre insan ısırığına serpilir ve tükürüğü akrepleri ve yılanları öldürür. Bir insan aç karnına ısırırsa, ısıran organ ülserleşir {cite:canon-ibn-sina-print-v1 p.374}.

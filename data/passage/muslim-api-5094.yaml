@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "5094"
-label: { ar: "صحيح مسلم 5094 — الأب والأبوة", en: "Sahih Muslim 5094 — the father and fatherhood", ur: "صحیح مسلم 5094 — باپ اور والدیت", es: "Sahih Muslim 5094 — El padre y la paternidad", fr: "Sahih Muslim 5094 — Le père et la paternité" }
+label: { ar: "صحيح مسلم 5094 — الأب والأبوة", en: "Sahih Muslim 5094 — the father and fatherhood", ur: "صحیح مسلم 5094 — باپ اور والدیت", es: "Sahih Muslim 5094 — El padre y la paternidad", fr: "Sahih Muslim 5094 — Le père et la paternité", tr: "Sahih Muslim 5094 — Baba ve Babalık", id: "Sahih Muslim 5094 — Ayah dan Peran Ayah" }
 text: "… مُسْلِمٍ، عَنْ سَعِيدِ بْنِ مَسْرُوقٍ، عَنْ عَبَايَةَ، عَنْ جَدِّهِ، رَافِعٍ ثُمَّ حَدَّثَنِيهِ عُمَرُ بْنُ سَعِيدِ بْنِ مَسْرُوقٍ، عَنْ أَبِيهِ، عَنْ عَبَايَةَ بْنِ، رِفَاعَةَ بْنِ رَافِعِ بْنِ خَدِيجٍ عَنْ جَدِّهِ، قَالَ قُلْنَا يَا رَسُولَ اللَّهِ إِنَّا لاَقُو الْعَدُوِّ غَدًا وَلَيْسَ مَعَنَا مُدًى فَنُذَكِّي بِاللِّيطِ وَذَكَرَ الْحَدِيثَ بِقِصَّتِهِ وَقَالَ فَنَدَّ عَلَيْنَا بَعِيرٌ مِنْهَا فَرَمَيْنَاهُ بِالنَّبْلِ حَتَّى وَهَصْنَاهُ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 5094، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 5094، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 5094 (El Libro de los Sacrificios), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Le Sahih Muslim, n° 5094 (Le Livre des Sacrifices), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce passage avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih Müslim'de 5094 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 5094, menyebutkan tentang ayah dan peran ayah. Situs web \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5094 (book 35 hadith 31); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

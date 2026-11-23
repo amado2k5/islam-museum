@@ -1,7 +1,7 @@
 id: event/seal-in-well-aris
 class: event
 kind: other
-label: { ar: "سقوط خاتم النبي في بئر أريس", en: "the Prophet's seal lost in Bi'r Aris (30 AH)", es: "El sello del Profeta se perdió en Bi'r Aris (30 AH).", fr: "Le sceau du Prophète perdu à Bi'r Aris (30 AH)", ur: "بیر عریس ⁦(30 ہجری)⁩ میں مہر رسول کا گم ہونا" }
+label: { ar: "سقوط خاتم النبي في بئر أريس", en: "the Prophet's seal lost in Bi'r Aris (30 AH)", es: "El sello del Profeta se perdió en Bi'r Aris (30 AH).", fr: "Le sceau du Prophète perdu à Bi'r Aris (30 AH)", ur: "بیر عریس ⁦(30 ہجری)⁩ میں مہر رسول کا گم ہونا", tr: "Peygamberin yüzüğü Aris kuyusuna düştü.", id: "Cincin Nabi jatuh ke dalam sumur Aris." }
 date:
   start: { edtf: "0650", hijri: "0030", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 30؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 483}." }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "El anillo del sello del Profeta se le resbaló de la mano a Uthman y cayó en Bi'r Aris, un pozo a dos millas de Medina; lo achicaron y nunca lo encontraron, un presagio que la gente recordó durante mucho tiempo {cite:kamil-ibn-al-athir p. 483}."
   fr: "L'anneau du sceau du Prophète glissa de la main d'Uthman dans Bi'r Aris, un puits à deux milles de Médine; ils le retirèrent et ne le retrouvèrent jamais — un présage dont les gens se souvinrent longtemps {cite:kamil-ibn-al-athir p. 483}."
   ur: "نبی کی مہر کی انگوٹھی عثمان کے ہاتھ سے پھسل کر مدینہ سے دو میل کے فاصلے پر واقع کنواں بئر عریس میں گر گئی۔ انہوں نے اسے ضمانت دی اور اسے کبھی نہیں ملا - ایک شگون لوگوں کو طویل عرصے سے یاد تھا۔ 483}۔"
+  tr: "Bu yılda Peygamberin yüzüğü Osman'ın elinden düşerek Medine'ye iki mil uzaklıktaki Aris kuyusuna düştü. Kuyuyu kuruttular ama yüzük bulunamadı. Bu, insanları sorumlu tutan şeylerden biriydi. {Kaynak: Kamil ibn el-Sir, s. 483}"
+  id: "Pada tahun ini cincin Nabi jatuh dari tangan Utsman ke dalam sumur Aris, yang berjarak dua mil dari Madinah. Mereka mengeringkan sumur itu tetapi cincin tersebut tidak ditemukan. Ini adalah salah satu hal yang mewajibkan orang-orang {cite:kamil-ibn-al-athir p. 483}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/madinat-al-mubarak, sources: [source/kamil-ibn-al-athir] }

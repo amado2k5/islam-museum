@@ -1,0 +1,21 @@
+---
+id: event/al-hadi-at-khirfan-and-al-subay-and-the-march-to-hawth-286
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/al-hadi-at-khirfan-and-al-subay-and-the-march-to-hawth-286.md}
+---
+## Ringkasan
+Ketika kuda-kuda [[person/al-hadi-yahya-al-rassi|Abu al-Atahiya]] tiba di [[person/abu-al-atahiya-ibn-bishr|al-Hadi]], bersama [[person/jarrah-ibn-bishr|Jarrah ibn Bishr]], mereka pergi membawa [[group/khirfan-arhab|domba]] dan [[group/al-subay-arhab|al-Sabae']] untuk memanggil mereka mendengarkan dan taat {cite:sira-hadi-ila-al-haqq p.111}. Menurut narator, mereka berasal dari Arhab, dari sepupu [[person/al-daam-ibn-ibrahim|al-Da'am]], dan mereka yang dulu memimpin mereka, mengganti pasukan, dan memperkuat diri dalam perangnya melawan al-Hadi {cite:sira-hadi-ila-al-haqq p.111}. Laporan ini adalah Zaydi yang diceritakan oleh para pengikut Imam, yang mengaitkan perkataan tersebut kepada narator mereka tanpa ada perintah dari Museum.
+
+## Desa kosong dan keamanan
+Ketika ia tiba di Al-Sab' dan Kharfan, ia mendapati desa-desa itu kosong dari penduduk, dan mendapati rakyatnya melarikan diri ke puncak gunung. Ia mengirim mereka dengan selamat, dan beberapa dari mereka turun {cite:sira-hadi-ila-al-haqq p.111}. Ketika tentara Abu al-Atahidya melihat desa-desa itu kosong dari penduduknya, beberapa masuk ke rumah dengan jerami dan pakan untuk rakyat, lalu mengambil sebagian pakan {cite:sira-hadi-ila-al-haqq p.111} {cite:sira-hadi-ila-al-haqq p.112}.
+
+## Feed Return
+Ketika al-Hadi mendengar hal itu, ia mengumpulkan mereka dan berkata kepada mereka: Kembalikan semua yang telah kalian ambil, dan jika ada di antara kalian yang kembali mengambil sesuatu tanpa izin dariku, aku akan memotong tangannya {cite:sira-hadi-ila-al-haqq p.112}. Mereka mengembalikan semua yang telah mereka ambil ke tempatnya di hadapan para tetua bangsa, menafsirkan apa yang mereka lihat tentang keadilan al-Hadi, kembali kepada sahabat mereka, dan memberitahu mereka tentang keadilan, pengampunan, dan keselamatannya {cite:sira-hadi-ila-al-haqq p.112}. Mereka semua turun kepadanya, dan ia mempercayai mereka, lalu membuat mereka bersumpah pada kebenaran, berdiri bersamanya, mendengarkan dan mematuhi. Mereka bersumpah setia kepadanya dan setia kepada mereka. Kemudian ia kembali ke jalan Banu Surim dan tinggal di sana selama beberapa hari {cite:sira-hadi-ila-al-haqq p.112}. Margin editor merujuk pada catatan dalam naskah asli 'Walatu' berjudul 'Faydah' {cite:sira-hadi-ila-al-haqq p.112}.
+
+## Dampak berita terhadap dukungan
+Al-Da'am mendengar kabar tentang orang-orang Al-Suba dan domba-domba itu, yang membuatnya marah karena domba-domba itu menjadi pendukungnya. Ia melihat bahwa urusan pemandu semakin dekat dan urusannya sudah direncanakan, sehingga ia sedih atas tindakan pertarungan sebelumnya serta dosa dan kesalahan yang telah ia lakukan {cite:sira-hadi-ila-al-haqq p.112}. Inilah gambaran narator tentang kondisi lawannya.
+
+## Pawai ke Hoth
+Al-Hadi bertekad untuk menghadapi dia di Khiyawan dan menyelesaikannya. Dia menembakkan roket ke antara rakyat, dan mereka berkumpul di sekelilingnya pada hari-hari terakhir Safar. Kemudian dia berbaris sampai mencapai tempat bernama [[place/hawth-yemen|Huth]], ditemani oleh pasukan besar dan bersamanya saudara Abu al-Atahiyah dan kavaleri {cite:sira-hadi-ila-al-haqq p.112}. Al-Da'am mencapai nasibnya di Huth dan mengumpulkan rakyat Khiwan. Narator mendengar darinya bahwa dia berkata kepada Banu Salman dan kelompoknya: Apa yang kalian katakan tentang pria ini? Dia mendekat dengan tekad untuk bertempur {cite:sira-hadi-ila-al-haqq p.112}. Dia mendengar bahwa beberapa dari mereka berkata kepadanya: Pendapatnya adalah untuk bertarung, dan beberapa orang berkata: Jangan bertengkar tetapi menipu orang itu, dan kamu keluar dan pergi. Di sini pidato di halaman 112 terhenti di tengah kalimat {cite:sira-hadi-ila-al-haqq p.112}. Lihat [[group/banu-salman-hamdan|Bani Salman]] dan [[place/khiwan|Khawan]].

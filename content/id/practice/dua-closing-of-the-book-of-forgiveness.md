@@ -1,0 +1,12 @@
+---
+id: practice/dua-closing-of-the-book-of-forgiveness
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/dua-closing-of-the-book-of-forgiveness.md}
+---
+## Ringkasan
+Apa yang dimasukkan al-Nawawi di akhir "Kitab Mencari Pengampunan" mengenai pencarian pengampunan, larangan diam dari siang hingga malam, dan apa yang ia masukkan dalam kitab hadis yang menjadi dasar Islam. {cite:al-adhkar-nawawi-arnaut-1994 p. 405}
+
+## Apa yang dikumpulkan al-Nawawi dalam 'Al-Adhkar'
+Di akhir 'Kitab Pencarian Pengampunan,' Al-Nawawi mengutip Al-Adawiyyah berkata: Pencarian pengampunan kita membutuhkan banyak perjuangan pengampunan. Beberapa Badui melaporkan bahwa dia berpegangan pada tirai Ka'bah, berkata: 'Ya Allah, aku memohon pengampunan dengan ketekunanku adalah kejam, dan jika aku meninggalkan pencarian pengampunan meskipun mengetahui luasnya pengampunan-Mu adalah karena kelemahan.' {cite:al-adhkar-nawawi-arnaut-1994 p. 405}. Kemudian bab tentang larangan berpuasa dari siang ke malam, yang diceritakan dari Sunan Abu Dawood dengan rantai baik dari Ali yang dia hafal dari [[person/muhammad|Nabi]]: "Jangan berpuasa dari siang sampai malam" {cite:al-adhkar-nawawi-arnaut-1994 p. 405}, dan dari Sahih al-Bukhari dari Qays ibn Abi Hazim bahwa Abu Bakr berkata kepada seorang wanita yang diam-diam melakukan Haji, 'Bicaralah, karena ini tidak diperbolehkan dan merupakan tindakan dari era pra-Islam {cite:al-adhkar-nawawi-arnaut-1994 p. 405}. Pada bagian terakhir kitab ini, ia memasukkan hadits yang didasarkan pada Islam, bersama dengan tiga puluh hadis {cite:al-adhkar-nawawi-arnaut-1994 p. 405}: yang pertama, 'Tindakan adalah dengan niat' dari Umar {cite:al-adhkar-nawawi-arnaut-1994 p. 405}, yang kedua dari Aisha dalam dua Sahih: 'Siapa yang memasukkan ke dalam materi kita sesuatu yang bukan darinya, ia ditolak' {cite:al-adhkar-nawawi-arnaut-1994 p. 406}, dan yang kelima dari al-Hasan ibn Ali: 'Serahkan apa yang meragukanmu kepada apa yang tidak meragukanmu.' Al-Tirmidhi mengatakan bahwa itu otentik {cite:al-adhkar-nawawi-arnaut-1994 p. 406}, dan yang kesepuluh dari Tamim al-Dari: 'Agama adalah nasihat yang tulus' dalam Sahih Muslim {cite:al-adhkar-nawawi-arnaut-1994 p. 407}.

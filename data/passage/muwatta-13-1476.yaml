@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/muhammad-ibn-shihab-al-zuhri, person/ali-ibn-husayn-ibn-ali]
 work: work/muwatta-malik
 ref: "1476"
-label: { ar: "الموطأ 1476 — ابن شهاب عن علي بن حسين: إنما ورث أبا طالب عقيل وطالب ولم يرثه علي، فلذلك تركنا نصيبنا من الشعب", en: "Muwatta 1476", es: "Muwatta 1476", fr: "Muwatta 1476", ur: "موطا 1476" }
+label: { ar: "الموطأ 1476 — ابن شهاب عن علي بن حسين: إنما ورث أبا طالب عقيل وطالب ولم يرثه علي، فلذلك تركنا نصيبنا من الشعب", en: "Muwatta 1476", es: "Muwatta 1476", fr: "Muwatta 1476", ur: "موطا 1476", tr: "El-Muvatta 1476 — İbn Şihab, Ali ibn Hüseyin'den rivayetle: Ebu Talib'den sadece Akil ve Talib miras aldı, Ali ise miras almadı; bu yüzden biz de halktan payımıza düşeni bıraktık.", id: "Al-Muwatta 1476 — Ibn Shihab berdasarkan riwayat Ali ibn Husayn: Hanya Aqil dan Talib yang mewarisi dari Abu Talib, dan Ali tidak mewarisi darinya, maka kami meninggalkan bagian kami dari orang-orang tersebut." }
 summary:
   ar: "يروي مالك عن ابن شهاب عن علي بن حسين أنه أخبره أنما ورث أبا طالب عقيل وطالب، ولم يرثه علي. قال فلذلك تركنا نصيبنا من الشعب. {cite:muwatta-maruf-1997 p.23}"
+  tr: "Malik, İbn Şihab'dan, o da Ali ibn Hüseyin'den rivayet ettiğine göre, İbn Şihab ona, Ebu Talib'in sadece Akil ve Talib'i miras aldığını, Ali'yi almadığını söylemiştir. İbn Şihab, \"İşte bu yüzden biz de halktan payımızı bıraktık\" demiştir. {cite:muwatta-maruf-1997 s.23}"
+  id: "Malik meriwayatkan dari Ibnu Shihab, dari Ali bin Husayn, bahwa ia mengatakan kepadanya bahwa Abu Talib hanya mewarisi Aqil dan Talib, dan bukan Ali. Ia berkata, \"Itulah sebabnya kami meninggalkan bagian kami dari orang-orang.\" {cite:muwatta-maruf-1997 p.23}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-13-faraid }
   - { type: mentions, target: person/ali-zayn-al-abidin, sources: [source/muwatta-maruf-1997] }

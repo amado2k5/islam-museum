@@ -1,0 +1,24 @@
+---
+id: work/hayat-muhammad-haykal
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/work/hayat-muhammad-haykal.md}
+---
+## Özet
+"Muhammed'in Hayatı", Mısırlı yazar [[person/muhammad-husayn-haykal|Muhammed Hüseyin Haykal'in modern bir peygamberlik]] biyografisidir ve onu "yalnızca Gerçek uğruna gerçeği arayanlara" ithaf etmiştir. {cite:hayat-muhammad-haykal-hindawi p.3} {cite:hayat-muhammad-haykal-hindawi p.9} Ezher'in Büyük İmamı [[person/muhammad-mustafa-al-maraghi|Muhammed Mustafa El-Maraghi]], 15 Şubat 1935 tarihli "Kitaba Giriş" ile bu biyografiyi tanıtmıştır. {cite:hayat-muhammad-haykal-hindawi p.20}
+
+## Maraghi'nin Tanımı
+El-Maraghi, Peygamber'in biyografisinin, tüm büyük şahsiyetlerin biyografileri gibi, içinde olmayan şeylere eklendiğine ve vahiyden önce ve sonra, vahiyden önce ve sonra, çağrı eden, yönetici, lider ve yargıç olarak büyüklüğünün incelenmesi gerektiğine, tek bir kişi tarafından yerine getirilmemesi gerektiğine inanır. {cite:hayat-muhammad-haykal-hindawi p.16} Kitabı, ruhun önceki görüşlerinden mahrum bırakılması, gözlem, deneme, karşılaştırma ve çıkarıma dayanan bilimsel yöntemi Kur'an metodolojisiyle karşılaştırarak "modern bir şekilde" tanımlar; bu yöntem aklı yargıç yapan ve taklit eleştiren Kur'an metodolojisidir. {cite:hayat-muhammad-haykal-hindawi p.17} Bu yöntemin teoloji kitaplarında eski olduğunu, sonra Doğu'da, özellikle Batılılarda unutulduğunu ve Doğuluların da bunu benimsemek için geri döndüğünü söyler. {cite:hayat-muhammad-haykal-hindawi p.18}
+
+## Yazarın oryantalistlere yönelik amacı ve tutumu
+Girişine, Muhammed adının milyonlarca insan tarafından neredeyse on dört yüzyıldır söylendiğini söyleyerek başlar ve İslam'ın doğudan Mağrip ve Endülüs'e yayılmasını inceler. {cite:hayat-muhammad-haykal-hindawi p.23} {cite:hayat-muhammad-haykal-hindawi p.24} Özellikle Fransız yazar [[person/emile-dermenghem|Émile Drumming]] 'den ve onun 'Muhammed'in Hayatı' adlı kitabından bahseder, Oryantalistlerin yazdıklarını tartışır. {cite:hayat-muhammad-haykal-hindawi p.31} Al-Maraghi ile yardım bulduğunu, Makram Obeid'in ona Sir William Muir'in 'Muhammed'in Hayatı' kitabını ödünç verdiğini ve Muir, Irving, Springer, Phil ve diğer Oryantalistlerin biyografiyi bir şekilde anlattığını belirtir. {cite:hayat-muhammad-haykal-hindawi p.40} {cite:hayat-muhammad-haykal-hindawi p.41}
+
+## Baskılar ve Önsözler
+Heikal, ikinci baskının girişinde, ilk baskının on bin kopya olarak yayımlandığını, üçte birinin baskı sırasında tükendiğini, kalanının ise yayımlandıktan sonraki üç ay içinde olduğunu belirtir. Kitabı gözden geçirir ve Al-Maraghi ile diğerlerinin gözlemlerine yanıt verir. {cite:hayat-muhammad-haykal-hindawi p.45} {cite:hayat-muhammad-haykal-hindawi p.46} Üçüncü baskının girişinde, ikinci baskıdan sadece daha doğruluk için değiştirilmiş veya revize edilmiş ifadelerle ayrıldığını belirtir. {cite:hayat-muhammad-haykal-hindawi p.81} "Teşekkür ve Teşekkür" bölümünde, o dönemde Banque Misr'in direktörü Mohamed Talaat Harb'ın ilk baskının yayımlanmasını hızlandırmasına yardımcı olduğu ve bin kopyanın İslami Hayır Kurumu'na tahsis edildiği belirtilir. {cite:hayat-muhammad-haykal-hindawi p.537}
+
+## Kitabı Oluşturmak
+Giriş ve Arapça ile Avrupa referanslarının kaydından sonra, kitap otuz bir bölümden oluşur; 'İslam öncesi Arapların Toprakları', 'Mekke, Kabe ve Kureyş' ile başlar ve şu olaylarla devam eder: doğum, evlilik, diriliş, ardından göç, Bedir, Ühür, Hendek, Hudeybiye, Haybar, Mu'tah, Mekke'nin fethi, Hunayn, Tabuk, Delegasyonlar Yılı, Veda Hac yolculuğu ve Peygamber'in hastalığı, ölümü ve defniyle sona erer, ardından iki bölümden oluşan bir sonuç yer alır. {cite:hayat-muhammad-haykal-hindawi p.5}, {cite:hayat-muhammad-haykal-hindawi p.6}, {cite:hayat-muhammad-haykal-hindawi p.11} Bölümleri arasında 'Peygamberin Eşleri' (s.305) ve 'İbrahim ve Peygamber'in Eşleri' (s.413) üzerine bir bölüm yer alır. {cite:hayat-muhammad-haykal-hindawi p.6}
+
+## Önemli Pozisyonlar
+Heikal, "Yabancıların Hikayesi"ne bir bölüm ayırır; Oryantalistlerin bu hikayeye bağlılığını ve anlatım zincirlerini izler; bu anlatı zincirlerinin zayıflığını ve hikayenin incelendiğinde "yalan olgusu" olduğunu doğrular. {cite:hayat-muhammad-haykal-hindawi p.167} Sonucun ilk bölümünü "Kur'an'da tasvir edilen İslami Medeniyet" olarak yapar ve Muhammed'in yüzyıllardır bıraktığı manevi mirasın dünya medeniyetini şekillendirdiğini, çünkü onun dini kurduğunu ve din ile medeniyetin bir arada var olduğu bir medeniyetin temelini attığını savunur. {cite:hayat-muhammad-haykal-hindawi p.481}

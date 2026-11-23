@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "519"
-label: { ar: "جامع الترمذي 519 — الأب والأبوة", en: "Jami' al-Tirmidhi 519 — the father and fatherhood", ur: "جامع ترمذی 519 — باپ اور والدیت", es: "Jami' al-Tirmidhi 519 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 519 — le père et la paternité" }
+label: { ar: "جامع الترمذي 519 — الأب والأبوة", en: "Jami' al-Tirmidhi 519 — the father and fatherhood", ur: "جامع ترمذی 519 — باپ اور والدیت", es: "Jami' al-Tirmidhi 519 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 519 — le père et la paternité", tr: "Cami' el-Tirmizi 519 — Baba ve Babalık", id: "Jami' al-Tirmidhi 519 — Sang Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا حَاتِمُ بْنُ إِسْمَاعِيلَ، عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ، عَنْ أَبِيهِ، عَنْ عُبَيْدِ اللَّهِ بْنِ أَبِي رَافِعٍ، مَوْلَى رَسُولِ اللَّهِ قَالَ اسْتَخْلَفَ مَرْوَانُ أَبَا هُرَيْرَةَ عَلَى الْمَدِينَةِ وَخَرَجَ إِلَى مَكَّةَ فَصَلَّى بِنَا أَبُو هُرَيْرَةَ يَوْمَ الْجُمُعَةِ فَقَرَأَ سُورَةَ الْجُمُعَةِ وَفِي السَّجْدَةِ الثَّانِيَةِ: ⁦(ِإذَا جَاءَكَ الْمُنَافِقُونَ )⁩ قَالَ عُبَيْدُ اللَّهِ فَأَدْرَكْتُ أَبَا هُرَيْرَةَ فَقُلْتُ لَهُ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 519، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 519، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Jami' al-Tirmidhi, n.º 519 (El Libro del Viernes), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 519 (Le Livre du vendredi), évoque le père et la paternité. Le site « Paternité en Islam » le répertorie avec les versets du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Cami' el-Tirmizi'nin 519 numaralı hadisinde baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı bunu Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birleştirir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 519, menyebutkan tentang ayah dan peran ayah. Fitur \"Peran Ayah dalam Islam\" menggabungkan hal ini dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 519 (book 4 hadith 32); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

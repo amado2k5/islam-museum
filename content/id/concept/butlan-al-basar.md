@@ -1,0 +1,13 @@
+---
+id: concept/butlan-al-basar
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/butlan-al-basar.md}
+---
+## Penyebab
+Ketidakabsahan penglihatan bisa menjadi salah satu penyebab penglihatan lemah jika terlalu berlebihan, jadi seseorang harus melihat dari sana. Namun ia mengatakan dari kepala dan meninggalkan apa yang dilakukan dengan partisipasi otak dan faktor lain, sebagaimana dipahami dari sana. Ketahuilah bahwa ketidakabsahan penglihatan terjadi ketika bagian mata yang terlihat secara fundamental utuh, atau disebabkan oleh lesi terbakar, luka cair, atau sesuatu yang mengalir melalui bagian tersebut. Kata-katanya dalam yang pertama {cite:canon-ibn-sina-print-v2 p.215}
+## Menjelaskan alasannya dengan Salama Al-Zahir
+Jika bagian mata tampak utuh dalam esensinya tetapi telah mengalami lesi dari sisi lain yang tidak terlihat oleh publik atau publik, maka lubang tersebut sehat atau tidak; jika sehat, mungkin ada sumbatan air, atau sumbatan tidak ada, melainkan di tabung berongga, baik karena sesuatu berdiri di dalam tabung atau akibat gejala kekeringan, relaksasi, pembengkakan, atau tumor di ototnya menekan dirinya sendiri atau akibat tekanan. Muncul prefront otak, seperti yang dijelaskan sebelumnya, atau presentasi kemundurannya, atau kondisi glasial yang hilang dari keselarasan dengan foramen, atau suasana hatinya telah rusak sehingga tidak cocok untuk penglihatan. Sebagian besar disebabkan oleh kelembapan berlebihan atau kekeringan yang membanjiri penyakit ini, menumpuk sendiri dan larut. Penyakit ini disebut 'Alqamou', dan tidak ada obat jika mencapai lebar maksimum atau sempitnya cakupan {cite:canon-ibn-sina-print-v2 p.215} {cite:canon-ibn-sina-print-v2 p.216}
+## Tanda-tanda
+Adapun tanda air, lebar, sempit, dan lainnya, ini disebutkan dalam babnya. Adapun alasan ikatan berongga, itu memudahkan pemahaman penuh tanda yang disebutkan dalam bab tentang air. Untuk merinci masalahnya, hal ini sulit dan hampir tidak sepenuhnya dipahami. Jika ada memar dan kemerahan, maka curigai ada pembengkakan panas pada ikatan; jika berat dan panas rendah, maka dingin; jika beratnya parah dan mata sangat lembap, zat tersebut lembap; jika mata kering, zat itu hitam; dan jika mata kering, zat itu hitam; jika terjadi benturan atau jatuh di kepala, mata pertama-tama bengkak, diikuti oleh kedalaman dan ketidakabsahan mata, sehingga menandakan bahwa membran telah robek {cite:canon-ibn-sina-print-v2 p.216}.

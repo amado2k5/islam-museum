@@ -1,0 +1,77 @@
+---
+id: person/yahya-ibn-muadh-al-razi
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/yahya-ibn-muadh-al-razi.md}
+---
+## Ringkasan
+Yahya ibn Mu'adh al-Razi, salah satu penyembah pertapa yang taat, adalah seorang penyembah yang taat dan memiliki teman; ia meninggal pada tahun 206 H dan menulis Kitab Para Murid. {cite:fihrist-ibn-al-nadim p. 260}
+
+## Dalam ornamen para santo
+Abu Nu'aym [[person/abu-nuaym-al-asbahani-ahmad|menerjemahkannya dalam]] jilid kesepuluh '[[work/hilyat-al-awliya|Hilyat al-Awliya]]' (biografi 463), dimulai dengan bait-bait tentang dosa dan mencari pengampunan. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/51}
+
+**Kasih dan Rasa Bersalah.** Dia berkata dia percaya kepada Tuhannya dengan kasih dengan sukarela, tetapi dosa datang kepadanya tanpa rela, sehingga kebencian akan kesalahan hilang dengan kesediaan kasih, karena Allah Maha Penyayang di antara yang Maha Penyayang. Dia berdoa: Jika Engkau tidak berbelas kasihan kepada-Ku, maka kasihanilah Aku dengan rahmat yang dikurniakan kepada-Mu. Dan Dia berkata: Jika Allah menimpakkan keadilan-Nya atas mereka, tidak akan ada amal baik yang tersisa bagi mereka, dan jika Dia memberikan rahmat-Nya kepada mereka, tidak akan ada kejahatan yang tersisa bagi mereka. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/52}
+
+**Tiga jenis orang.** Ia berkata bahwa tubuh berada dalam penjara niat, dan bahwa manusia ada tiga: seorang pria yang sibuk dengan dunia ini dan dianggap salah; seorang pria yang sibuk dengan akhirat dan dipuji; dan seorang pria yang sibuk dengan Tuhan dari apa yang berada di bawahnya dan yang dekat. Ia berkata bahwa masalah agama adalah tentang dua hal: ketenangan hati terhadap penyediaan aspek ini, dan berusaha mencari penyediaan aspek tersebut. Dan ia berkata bahwa siapa pun yang mencium kepemimpinan tidak akan berhasil. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/53}
+
+**Dunia adalah pengantin.** Dia berkata: Dunia adalah pengantin, dan pencarinya menyisirnya; melalui asketisme, rambutnya dicabut, wajahnya digelapkan, dan pakaiannya robek; siapa pun yang menceraikan dunia ini, Akhirat akan menikahinya. Dunia adalah seikat tas yang tak pernah berakhir; jadi ingatlah Akhirat dan jangan sebutkan dunia, dan ambil dari sana apa yang akan membawamu ke Akhirat, dan jangan ambil dari sana apa yang akan menghalangimu dari Akhirat. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/54}
+
+**Pengampunan dan tanda bertemu Allah.** Ia berkata bahwa kesempurnaan pengampunan terletak pada tiga hal: penerimaan yang baik, meniru pengetahuan, dan pemberian kebajikan. Ia menjelaskan penerimaan yang baik dengan mendengarkan bukti dan melihat wasiat, jadi jangan menggelengkan kepala seolah-olah Anda tidak tahu apa yang Anda dengar, karena hal ini membuat pemiliknya menjadi sombong dan merusak perbuatan. Ia berkata bahwa tanda orang yang bertemu Allah adalah tiga sifat: bahwa ia lebih mengutamakan kehendak-Nya, bahwa ia membandingkan kesalehan-Nya agar tidak meninggalkannya dalam kesulitan dan kemudahan, dan bahwa ia melawan keinginannya. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/54}
+
+**Carilah dirimu.** Dia berkata bahwa mungkin dia pernah melihat seseorang yang berkata: 'Dua puluh tahun aku telah mencari Tuhanku,' dan dia berkata kepadanya: 'Celakalah kamu! Tuhanmu tidak perlu kamu membuang jiwamu, tetapi carilah dirimu sampai kamu menemukannya. Jika kamu menemukannya, kamu telah menemukan Tuhanmu.' Dia terkejut pada mereka yang datang kepadanya dengan penggiling yang kepalanya hilang, jadi dia mencarinya dalam satu jam dan melemparkannya kepadanya, sementara dia sendiri mencari bayam yang telah hilang dua puluh tahun lalu dan tidak bisa melakukannya. Dia berkata bahwa dunia tidak setara dengan sayap nyamuk di hadapan Tuhan, dan bahwa Surga adalah kekasih orang percaya yang menjualnya untuk apa yang dibenci, yaitu dunia. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/55}
+
+## Dalam Ornamen Para Santo (lanjutan)
+Pernyataan Yahya di halaman 56–61 berkaitan dengan terjemahan di atas. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/56-61}
+
+**Tiga derajat.** Dia berkata bahwa ada tiga orang: seorang pria yang mata pencahariannya diisi oleh mata pencahariannya, yaitu derajat orang benar; dan seorang pria yang mata pencahariannya dipenuhi dengan mata pencahariannya, sehingga itulah derajat orang yang sukses. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/56}
+
+**Jangan jadikan asketisme sebagai pengakuan.** Dia berkata: Jangan jadikan asketisme sebagai pengakuanmu untuk mendapatkan keuntungan duniawi, tetapi jadikan itu ibadahmu yang melalui itu kamu mencapai akhirat. Dan jika umat dunia berterima kasih dan memuji kamu, alihkan urusan mereka kepada yang menipu. Dia berkata bahwa ciptaan terhubung dengan sebab-sebab, dan yang tahu melekat pada penjaga sebab-sebab, dan ucapannya tentang kebesaran, kekuasaan, kemurahan hati, dan rahmat Tuhan adalah penguasa dalam hal ini dan dia masuk ke kubur-Nya dengan itu. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/57}
+
+**Mata Air Kebenaran.** Dia berkata: Orang beriman di akhirat akan memiliki mata air kebenaran, dan mereka telah menempuh gunung dari rasa syukur-Nya sampai mereka mencapai unta kelimpahan-Nya. Dia berkata bahwa orang yang tahu mungkin sibuk dengan Tuhan-nya dengan membanggakan penampilan dan pengumpulan hadiah, dan dari bersaing dengan lawan dalam pertemuan ujian. Harapan yang paling dapat diandalkan adalah harapan hamba Tuhan-Nya, dan asumsi yang paling benar adalah pendapat baik dari Allah. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/58}
+
+**Sejauh hati diam.** Dia berkata: Sejauh hati tetap tenang terhadap janji Tuhan, maka akan menyenangkan untuk hidup; sejauh hati mempertahankan ketaatan kepada-Nya, sejauh hati itu manis hatinya; sejauh hati itu melanggengkan kebaikan dari kebaikan-Nya; sejauh hati jijik terhadap ciptaan-Nya, ia menghibur mereka dengan taat kepada-Nya. Dan ganjaran atas perbuatan, jika itu hanya yang dipercepat di dunia ini, akan besar. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/59}
+
+**Mulut manusia.** Dia berkata: Mulut manusia adalah cangkangnya, bibir mereka adalah belenggu, dan gigi mereka adalah cakarnya; ketika seorang pria membuka pintu tokonya, kamu akan melihat pembuat parfum dari bartender. Dia berkata, 'Tuhan telah memanggilmu ke tempat damai, jadi lihatlah di mana kamu menjawab-Nya: Apakah itu dari kehidupan duniawimu atau dari kuburmu? Jika kamu menjawabnya dari kehidupan duniawimu, kamu masuk ke dalamnya, dan jika kamu menjawabnya dari kuburmu, kamu melarikan diri.' {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/60}
+
+**Dirham dan dunia.** Dia berkata: Dirham sudah dekat; jika kamu tidak melakukan ruqyahnya dengan baik, jangan pegang dengan tanganmu, karena jika digigitmu, ia akan membunuhmu. Dan dia berkata: Dunia adalah nama Allah karena melawan hamba-hamba-Nya, jadi ambillah racun yang diminum dalam obat, agar kamu aman. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/60}
+
+**Karakteristik Pengetahu dan Pencari.** Di antara kualitas Pengetahu ada dua sifat: Dia tidak mengungkapkan kondisinya kepada siapa pun, juga tidak mencari kondisinya siapa pun. Di antara tanda-tanda pencari adalah: kepuasan dengan perintah ilahi, kepercayaan pada janji, perbuatan tulus, rasa syukur atas ujian, pertobatan dari setiap dosa, dan ujian kehendak. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/61}
+
+**Jiwa dan jiwa.** Ia berkata bahwa jiwa itu spiritual dan bercahaya, dan napas adalah pengembara udara; jiwa merindukan yang tertinggi dari sifat mereka, dan napas merindukan tahanan penjara mereka. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/61}
+
+## Dalam Ornamen Para Santo (lanjutan kedua)
+Pernyataan Yahya di halaman 62–67 berkaitan dengan yang sebelumnya. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/62-67}
+
+**Kemangi yang layu.** Yahya melihat energi kemangi yang diletakkan beberapa anak laki-laki di kamarnya yang layu, jadi dia membawa air untuk menyiramnya. Ketika seseorang bertanya tentang hal ini, dia berkata melihat kemangi basah itu mengering karena menghentikan penyiramannya, sehingga hatinya terasa sesak, lalu dia memberinya air karena itu adalah proses pembelajaran, seolah-olah dia melihat kemangi itu disiram oleh layu. Ayah dan saudaranya biasa memanggilnya untuk mencari kehidupan duniawi, dan saudaranya menulis puisi memohon belas kasihan pada ranting yang layu. Yahya menjawab bahwa siapa pun yang dengan lembut cabang yang layu pantas mendapat belas kasihan pada saudaranya. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/62}
+
+**Ayat-ayat tentang Rasa Bersalah dan Harapan.** Yahya melafalkan ayat-ayat yang memuji Penguasa Keagungan, dan bait-bait di mana ia mengeluh atas dosa-dosa yang tidak ia tolak, berharap pengampunan dari Tuhan dan meminta agar pertanyaannya diadakan di acara pertemuan, di mana hukuman atas kengerian akan diberikan. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/63}
+
+**Tingkatan Para Pencari.** Ia berkata bahwa pangkat yang dicari oleh pengganti akhirat adalah tujuh: pertobatan, lalu asketisme, kemudian kepuasan, lalu ketakutan, lalu kerinduan, lalu cinta, lalu pengetahuan. Dengan pertobatan, mereka membersihkan diri dari dosa, dengan asketisme mereka meninggalkan dunia, dengan kepuasan mereka mengenakan topi perbudakan, dengan ketakutan mereka menembus lengkungan api, dengan kerinduan mereka mencapai Surga, dengan cinta mereka mencapai kesenangannya, dan dengan pengetahuan mereka mencapai Tuhan dan tetap di sana selamanya. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/64}
+
+**Hakikat Ketaatan.** Dia berkata: Urusan manusia itu menakjubkan; ketaatan dipercayakan kepada-Nya, berbeda dengan apa yang diperintahkan seluruh ciptaan di bumi dan di surga. Setiap hal ketaatan mengharuskanmu untuk memunculkan dari antara dua lawan yang berbeda dengan usaha besar. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/65}
+
+**Uang.** Dia berkata bahwa jika uang jatuh ke tangan penindas, maka itu adalah penyebab kehancuran mereka, dan jika jatuh ke tangan orang yang dapat dipercaya, maka itu adalah penyebab kehormatan dan keselamatan mereka. Jadi tidak ada kesalahan pada kekayaan; sebaliknya, kesalahan ada pada tindakan seseorang dengan uang. Dan dosa diperoleh melalui anggota tubuh, dan baik desa maupun toko tidak memiliki anggota tubuh; anggota tubuh itu milikmu, dan melalui mereka, dosa diperoleh. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/66}
+
+**Orang percaya dan munafik.** Ia berkata bahwa orang percaya ingin mencari Surga dan miskin bagi Tuhannya, sedangkan orang munafik tertarik pada kehidupan duniawi dan miskin pada ciptaan. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/67}
+
+**Tiga Prinsip untuk Jalan Keputusan.** Beberapa orang bijak berkata bahwa siapa pun yang tidak memiliki tiga sifat ini tidak akan menemukan jalan tekad: Pertama, seperti Tuhan tidak memberikan penyediaan Anda hari ini kepada orang lain, jangan bergantung pada orang lain; seperti Tuhan tidak ikut dalam apa yang Dia berikan kepadamu, jangan ikut dalam pekerjaan yang Anda perjuangkan (yaitu, pamer); dan seperti Tuhan tidak membebani Anda hari ini dengan pekerjaan esok, janganlah meminta penyediaan esok melalui ketidakadilan, meskipun Dia tidak memberikan keluhan kepadamu. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/67}
+
+Dia berkata: Jika kamu memperhatikan sesuatu darinya, rasanya berbeda. Orang yang jujur yang mengaku mencintainya tetapi tidak mematuhi batasnya bukanlah orang yang jujur. Seorang pria jatuh di bawah tingkat klaim mereka. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/67}
+
+## Dalam Ornamen Para Santo (lanjutan ketiga)
+Pernyataan Yahya di halaman 68–70 berkaitan dengan yang sebelumnya, mengakhiri terjemahan sekitar halaman 70, diikuti oleh terjemahan lain. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/68-70}
+
+**Kerinduan, ketergantungan pada Tuhan, dan pengetahuan.** Ia berkata bahwa kerinduan akan Surga datang dengan belas kasih, dan mengingat Api datang dari ketakutan. Kesalehan memiliki tiga kualitas: kehormatan diri, kepastian yang kuat, dan antisipasi kematian. Pengetahuan lengkap terdiri dari tiga hal: penerimaan yang baik, meniru pengetahuan, dan memberi nasihat. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/68}
+
+**Para rakan sebaya dan kerendahan hati.** Dia berkata bahwa kurangnya kerendahan hati merindukan mereka yang tidak tahu dari mana mereka diciptakan dan apa yang kembali kepada mereka. Orang yang rendah hati adalah mereka yang berpikir manusia di bumi telah berdosa, dan siapa pun yang lebih memilih berada di antara orang miskin. Jangan mengambil dari sesama siapa pun kecuali mereka yang memiliki tiga kualitas: mereka yang memperingatkanmu tentang jebakan dosa, yang mengenalimu dengan kedalaman kesalahan, dan yang menemani kamu menuju pengetahuan yang tak terlihat. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/68}
+
+**Kehormatan akhirat.** Ia berkata bahwa kehormatan akhirat terdiri dari tiga hal: menanggung kesulitan, mempermalukan diri sendiri, dan tidak suka dikenal di antara orang; artinya adalah tidak suka dikenal dan tidak berusaha mengenal orang, tetapi menghiburnya dengan ingatan Allah dalam kesendirian dan bersama manusia. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/68}
+
+**Rampasan akhirat.** Ia berkata bahwa rampasan akhirat adalah tiga: ketaatan, kebenaran, dan ketidakpatuhan; ketaatan kepada Tuhan, menghormati orang tua, dan ketidaktaatan kepada Setan. Ia mengatakan bahwa ksatria dalam agama adalah seseorang yang memiliki tiga kualitas: menjaga lidah dan berbicara hanya sesuai dengan miliknya, memegang kendali di arena perbuatan dengan memegang kehendak-Nya jika itu milik selain Tuhan dan mengirimkannya ketika milik Tuhan, serta kebenaran dalam ucapan. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/68}
+
+**Apa yang ia sesali adalah kewalahan.** Ia mengatakan bahwa ia dibanjiri oleh tiga hal: dosa-dosa para pendahulunya, hari-hari yang hilang, dan bahaya besar berdiri di hadapan Tuhan, yang ia tidak tahu apa yang tampak baginya. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/69}
+
+**Ucapan itu seperti uang.** Ia berkata: Siapa pun yang memiliki perak di mata rakyat biasa, emas di mata murid, dan di antara orang yang tahu dekat dengan mutiara dan rubi, bukanlah murid bijak Tuhan. Ia menyamakan kata-katanya dengan tiga kekayaan: dirham sebagai peringatan, dinar dalam sifat, dan mutiara serta ruby dalam pengetahuan dan kemurahan hati Tuhan. Abu Nu'aym berkata bahwa kata-kata Yahya sangat luas, jadi ia membatasi diri pada apa yang telah didiktekan. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/69}
+
+**Rantai Hadis.** Abu Nu'aym melanjutkan biografi dengan rantai riwayat Yahya, termasuk hadis tentang ketergantungan pada Allah sebagai pengumpulan iman, dan hadis dari Makhool yang menyatakan bahwa siapa pun yang menyembah Allah dengan tulus selama empat puluh hari, mata air hikmat dari hatinya akan muncul di lidahnya. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/70}

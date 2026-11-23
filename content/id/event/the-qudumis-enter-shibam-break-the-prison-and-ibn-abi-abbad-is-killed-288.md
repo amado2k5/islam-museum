@@ -1,0 +1,12 @@
+---
+id: event/the-qudumis-enter-shibam-break-the-prison-and-ibn-abi-abbad-is-killed-288
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/the-qudumis-enter-shibam-break-the-prison-and-ibn-abi-abbad-is-killed-288.md}
+---
+## Ringkasan
+Pada hari Sabtu, dua belas malam sebelum Jumada, [[person/al-hadi-yahya-al-rassi|al-Hadi menerima kabar]] bahwa orang-orang berniat naik ke gunung. Ia memerintahkan para prajurit untuk naik ke gunung, dan mereka menunggang kuda bersama [[person/abu-al-atahiya-ibn-bishr|Abu al-Atahiyah]] hingga mereka naik ke gunung. [[person/muhammad-ibn-abbad-al-tamimi|Ibn Abi Abbad]] mengikuti Shibam bersama para San'ani {cite:sira-hadi-ila-al-haqq p.217} {cite:sira-hadi-ila-al-haqq p.218}. Ketika Qadiyyin mendengar hal ini [[group/qudumis|, Qadiyyin berbaris]] ke desa Shibam pada Minggu malam, dan mereka tiba di Bab al-Darb. Ada orang-orang bodoh di antara penduduknya yang tidak menyukai pemerintahan al-Hadi karena menurut narator {cite:sira-hadi-ila-al-haqq p.218} telah melarang mereka minum dan bermoral. Rakyat itu memecahkan pintu Mereka masuk dan membongkar penjara. Abu Ziyad dan sekelompok [[group/al-jafatim-sanaa|Jafatim berada di sana]]. Ketika mereka pergi dan berkumpul, San'ani dikalahkan {cite:sira-hadi-ila-al-haqq p.218}. Ibn Abi Abbad datang dari rumah al-Hadi dan bertarung dengan mereka selama satu jam, tetapi mereka mengalahkannya dan melemparkan panah serta batu ke arahnya. Ia terus bertarung hingga menjadi martir seperti yang dikatakan narator {cite:sira-hadi-ila-al-haqq p.218}.
+
+## Detail
+Peristiwa ini diceritakan [[event/revolt-at-shibam-ibn-abbad-killed-288|pada halaman pertama ringkasan kematian Ibn Abbad]], dan terjadi di Jumada al-Akhirah menurut kitab di kedua tempat tersebut. Berikut adalah catatan rinci yang tidak disebutkan di sana. Kata 'istishad' adalah kata narator dan dikaitkan dengannya, dan bentuk permohonan tidak diulang setelah nama Ibn Abi Abbad. Abu Ziyad tidak mencantumkan seseorang karena ia hanya disebutkan dengan nama, dan demikian pula, 'Jafatim' hanya dicantumkan di sini dengan menautkan ke catatan sebelumnya. Laporan ini terkait dengan apa yang berikut dalam [[event/abu-al-atahiya-and-ibn-al-daam-rout-the-qudumis-and-al-hadi-buries-ibn-abi-abbad-288]].

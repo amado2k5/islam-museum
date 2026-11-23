@@ -1,7 +1,7 @@
 id: event/death-mustanjid-566
 class: event
 kind: death
-label: { ar: "وفاة المستنجد بالله وخلافة المستضيء", en: "death of the caliph al-Mustanjid — al-Mustaḍīʾ succeeds", es: "muerte del califa al-Mustanjid — al-Mustaḍīʾ le sucede", fr: "mort du calife al-Mustanjid — al-Mustaḍīʾ succède", ur: "خلیفہ المستنجد کی وفات - المستدع کامیاب" }
+label: { ar: "وفاة المستنجد بالله وخلافة المستضيء", en: "death of the caliph al-Mustanjid — al-Mustaḍīʾ succeeds", es: "muerte del califa al-Mustanjid — al-Mustaḍīʾ le sucede", fr: "mort du calife al-Mustanjid — al-Mustaḍīʾ succède", ur: "خلیفہ المستنجد کی وفات - المستدع کامیاب", tr: "El-Mustanjid Billah'ın ölümü ve El-Mustadi'nin halefliği", id: "Wafatnya al-Mustanjid Billah dan suksesi al-Mustadi'" }
 date:
   start: { edtf: "1170~", hijri: "0566", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "El califa al-Mustanjid bi-llāh murió y su hijo al-Mustaḍīʾ bi-amr Allāh — al-Ḥasan ibn Yūsuf — recibió el bayʿa. Al-Mustanjid fue considerado el mejor de los últimos abasíes por su inteligencia, justicia y piedad, proverbiales en ello {cite:kamil-ibn-al-athir p. 28}."
   fr: "Le calife al-Mustanjid bi-llāh mourut et son fils al-Mustaḍīʾ bi-amr Allāh — al-Ḥasan ibn Yūsuf — reçut l'allégeance. Al-Mustanjid était considéré comme le meilleur des derniers Abbassides pour son intelligence, sa justice et sa piété, qualités proverbiales en la matière {cite:kamil-ibn-al-athir p. 28}."
   ur: "خلیفہ المستنجد باللہ کا انتقال ہو گیا اور ان کے بیٹے المستدع بن عمرو اللہ الحسن بن یوسف کو بیعت کر دی گئی۔ المستنجد کو دماغ، عدل اور تقویٰ کے لحاظ سے مرحوم عباسیوں میں سب سے بہتر سمجھا جاتا تھا، اس میں کہاوت ہے: کامل ابن الاثیر صفحہ 15۔ 28}۔"
+  tr: "Halife El-Mustancid Billah vefat etti ve ondan sonra oğlu El-Mustadi' bi-Amr Allah El-Hasan bin Yusuf'a biat yemini edildi. El-Mustancid, zekâ, adalet ve din bakımından Abbasi halifelerinin en iyilerinden biriydi, hatta bu konularda örnek teşkil ediyordu. {Kaynak: Kamil İbn El-Athir, s. 28}"
+  id: "Khalifah Al-Mustanjid Billah wafat, dan setelahnya putranya Al-Mustadi’ bi-Amr Allah Al-Hasan bin Yusuf menerima sumpah setia. Al-Mustanjid adalah salah satu khalifah Abbasiyah terbaik dalam hal kecerdasan, keadilan, dan agama, sampai-sampai ia menjadi teladan dalam hal tersebut. {cite:kamil-ibn-al-athir p. 28}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/kamil-ibn-al-athir] }

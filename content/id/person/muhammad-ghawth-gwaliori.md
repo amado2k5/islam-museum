@@ -1,0 +1,16 @@
+---
+id: person/muhammad-ghawth-gwaliori
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/muhammad-ghawth-gwaliori.md}
+---
+## Ikhtisar
+Sheikh Muhammad Ghawth Sufi dari tarekat Shatariya, murid Sheikh Dhuhur dan Haji Huzoor, dikenal sebagai Hajj Hamid. Rantainya dalam Shatariyya berasal dari Abu Yazid al-Bastami, seperti yang diceritakan oleh Al-Badauni. {cite:nath-history-of-mughal-architecture-1-1982 p. 219} {cite:nath-history-of-mughal-architecture-1-1982 p. 228} Pada awal perjalanannya, ia menghabiskan dua belas tahun di kaki Pegunungan Janar melakukan olahraga intens, tinggal di gua dan memberi makan diri dengan daun. Ia mempelajari ilmu 'Da'wah' dari kakak laki-lakinya, Sheikh Bahlul. {cite:nath-history-of-mughal-architecture-1-1982 p. 219} {cite:nath-history-of-mughal-architecture-1-1982 p. 228}
+
+## Dengan raja-raja pada zamannya
+Ia memiliki hubungan baik dengan Babur. Diceritakan bahwa komandannya Rahim Dad mengambil alih benteng Gwalior melalui perantarannya, dan Humayun sangat menghormatinya sehingga sedikit yang menandinginya. Ia mempelajari ilmu khotbah dari dirinya dan saudaranya. {cite:nath-history-of-mughal-architecture-1-1982 p. 219} {cite:nath-history-of-mughal-architecture-1-1982 p. 228} Selama masa pemerintahan Sher Shah, ia menghadapi penindasan, sehingga ia pergi ke Gujarat, di mana ia mendapat murid, termasuk Sheikh Wajihuddin. {cite:nath-history-of-mughal-architecture-1-1982 p. 219} {cite:nath-history-of-mughal-architecture-1-1982 p. 228} Ia kembali ke Acre pada tahun 966 H / 1558–1559. Al-Badauni mengatakan ia bersikeras agar Akbar pemuda itu diterima di antara murid-muridnya, tetapi Akbar menolak mengajarinya. Ketika persahabatannya menjadi berat bagi Bairam Khan dan Sheikh Gadai, ia beralih ke Gwalior, di mana ia membangun khanqah, terlibat dalam Sama', melatih murid-muridnya, dan menulis buku. {cite:nath-history-of-mughal-architecture-1-1982 p. 228} {cite:nath-history-of-mughal-architecture-1-1982 p. 229}
+
+## Kematian dan Kenangannya
+Ia meninggal di Acre pada tahun 970 H / 1562 M setelah mencapai usia delapan puluh tahun, dan dimakamkan di Gwalior di [[building/tomb-of-muhammad-ghawth-gwalior|makamnya yang terkenal]]. {cite:nath-history-of-mughal-architecture-1-1982 p. 220} {cite:nath-history-of-mughal-architecture-1-1982 p. 229} Abu al-Fadl menempatkannya di kelas kedua ulama kontemporer dalam 'Ayin Akbara' dan menuduhnya dalam 'Akbarnam' menipu publik, sementara Bedaoni biasanya memujinya karena ketegasannya, menyebutkan bahwa beberapa orang miskin mengkritiknya karena statusnya yang luas. {cite:nath-history-of-mughal-architecture-1-1982 p. 220} {cite:nath-history-of-mughal-architecture-1-1982 p. 221} {cite:nath-history-of-mughal-architecture-1-1982 p. 229} Di antara murid-muridnya adalah musisi Tansen, yang dimakamkan di kakinya. {cite:nath-history-of-mughal-architecture-1-1982 p. 222} {cite:nath-history-of-mughal-architecture-1-1982 p. 223}

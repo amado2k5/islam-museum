@@ -32,7 +32,7 @@ const N = numbersFor(lang);
 // One random entry per wing card, picked in the browser from a small pool fixed at build time (scripts/wings.ts featuredPool).
 const teaser = (s: string, n = 110) => (s.length > n ? s.slice(0, n).replace(/\s+\S*$/, "") + "…" : s);
 // A wing with no entry written in the page's language yet borrows from the next language (Urdu: Arabic, then English); the link stays in the page's language.
-const FALLBACK: Record<Lang, Lang[]> = { ar: ["ar", "en"], en: ["en", "ar"], ur: ["ur", "ar", "en"], fr: ["fr", "en", "ar"], es: ["es", "en", "ar"] };
+const FALLBACK: Record<Lang, Lang[]> = { ar: ["ar", "en"], en: ["en", "ar"], ur: ["ur", "ar", "en"], fr: ["fr", "en", "ar"], es: ["es", "en", "ar"], tr: ["tr", "en", "ar"], id: ["id", "en", "ar"] };
 const featured = Object.fromEntries(WINGS.map((w) => {
   let src = lang, pool: any[] = [];
   for (const l of FALLBACK[lang]) { pool = featuredPool(realNodes as any[], w, l); src = l; if (pool.length) break; }

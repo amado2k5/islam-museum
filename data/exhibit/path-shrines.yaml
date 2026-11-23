@@ -7,6 +7,8 @@ label:
   es: "Santuarios y santuarios"
   fr: "Sanctuaires et sanctuaires"
   ur: "مزارات اور پناہ گاہیں۔"
+  tr: "Tapınaklar ve sahneler"
+  id: "Kuil dan pemandangan"
 summary:
   ar: 'مسار في أماكن الزيارة: الحرم الإبراهيمي في الخليل، ومسجد عمر في القدس، والمسجد النبوي — المشاهد
     المقدسة.'
@@ -14,6 +16,8 @@ summary:
   es: "Un sendero que recorre los santuarios visitados."
   fr: "Un sentier à travers les sanctuaires visités."
   ur: "ملاحظہ کی گئی پناہ گاہوں کے ذریعے ایک پگڈنڈی۔"
+  tr: "Ziyaret edilecek yerler rotası: Hebron'daki İbrahimi Camii, Kudüs'teki Ömer Camii ve Peygamber Camii - kutsal mekanlar."
+  id: "Rute untuk mengunjungi tempat-tempat: Masjid Ibrahimi di Hebron, Masjid Umar di Yerusalem, dan Masjid Nabi — tempat-tempat suci."
 audience:
 - newcomer
 - student
@@ -28,12 +32,16 @@ rooms:
     es: "Al-Ibrahimi"
     fr: "Al-Ibrahimi"
     ur: "الابراہیمی"
+    tr: "İbrahimi"
+    id: "Ibrahimi"
   body:
     ar: 'الخليل: مقام إبراهيم وأسرته.'
     en: 'الخليل: مقام إبراهيم وأسرته.'
     es: "Hebrón: El santuario de Abraham y su familia."
     fr: "Hébron: Le sanctuaire d'Abraham et de sa famille."
     ur: "ہیبرون: ابراہیم اور ان کے خاندان کا مزار۔"
+    tr: "Hebron: İbrahim ve ailesinin kutsal mekanı."
+    id: "Hebron: Makam Nabi Ibrahim dan keluarganya."
   features:
   - building/al-haram-al-ibrahimi
   - building/al-haram-al-ibrahimi
@@ -43,12 +51,16 @@ rooms:
     es: "Mezquita de Omar"
     fr: "Mosquée d'Omar"
     ur: "مسجد عمر"
+    tr: "Ömer Camii"
+    id: "Masjid Omar"
   body:
     ar: 'القدس: حيث صلى عمر.'
     en: 'القدس: حيث صلى عمر.'
     es: "Jerusalén: donde Omar rezó."
     fr: "Jérusalem: lieu où Omar a prié."
     ur: "یروشلم: جہاں عمر نے نماز پڑھی۔"
+    tr: "Kudüs: Ömer'in dua ettiği yer."
+    id: "Yerusalem: tempat Omar berdoa."
   features:
   - building/mosque-of-omar-jerusalem
   - person/umar-ibn-al-khattab
@@ -58,12 +70,16 @@ rooms:
     es: "El Nabawi"
     fr: "Le Nabawi"
     ur: "نبوی"
+    tr: "Peygamberlik"
+    id: "Kenabian"
   body:
     ar: 'الروضة والحجرة: أشرف المشاهد.'
     en: 'الروضة والحجرة: أشرف المشاهد.'
     es: "El jardín y la cámara: las escenas más honorables."
     fr: "Le jardin et la chambre: les scènes les plus honorables."
     ur: "باغ اور حجرہ: مناظر میں سب سے معزز۔"
+    tr: "Bahçe ve oda: en şerefli sahneler."
+    id: "Taman dan kamar: pemandangan yang paling terhormat."
   features:
   - building/prophets-mosque
   - place/medina
@@ -73,12 +89,16 @@ rooms:
     es: "Al-Aqsa"
     fr: "Al-Aqsa"
     ur: "الاقصیٰ"
+    tr: "El-Aksa"
+    id: "Al-Aqsa"
   body:
     ar: 'القبلة الأولى: ثالث الحرمين.'
     en: 'القبلة الأولى: ثالث الحرمين.'
     es: "La primera Qibla: la tercera de las dos mezquitas sagradas."
     fr: "La première Qibla: la troisième des deux mosquées saintes."
     ur: "قبلہ اول: دو مقدس مساجد میں سے تیسرا۔"
+    tr: "Birinci kıble: iki kutsal camiden üçüncüsü."
+    id: "Kiblat pertama: masjid ketiga dari dua masjid suci."
   features:
   - building/al-aqsa-mosque
   - place/jerusalem
@@ -88,12 +108,16 @@ rooms:
     es: "La Kaaba"
     fr: "La Kaaba"
     ur: "کعبہ"
+    tr: "Kabe"
+    id: "Ka'bah"
   body:
     ar: 'أول بيت للناس: مقام إبراهيم.'
     en: 'أول بيت للناس: مقام إبراهيم.'
     es: "La primera casa para la gente: la Estación de Abraham."
     fr: "La première maison pour les hommes: la Station d'Abraham."
     ur: "لوگوں کے لیے پہلا گھر: مقام ابراہیم۔"
+    tr: "İnsanlar için ilk ev: İbrahim'in makamı."
+    id: "Rumah pertama bagi manusia: Stasiun Abraham."
   features:
   - building/kaaba
   - place/mecca

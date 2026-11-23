@@ -3,7 +3,7 @@ class: passage
 unit: chapter
 work: work/sifat-al-safwa
 ref: "1:770"
-label: { ar: "صفة الصفوة، المجلد المصوَّر 1، ص 770 — نعي وإخبار بوفاة", en: "Sifat al-Safwa, scan volume 1, p. 770 — a death announcement", ur: "صفت الصفوہ، اسکین جلد 1، ص 770 — وفات کی خبر", fr: "Sifat al-Safwa, volume numérisé 1, p. 770 — une annonce de décès", es: "Sifat al-Safwa, volumen escaneado 1, p. 770 — un anuncio de fallecimiento" }
+label: { ar: "صفة الصفوة، المجلد المصوَّر 1، ص 770 — نعي وإخبار بوفاة", en: "Sifat al-Safwa, scan volume 1, p. 770 — a death announcement", ur: "صفت الصفوہ، اسکین جلد 1، ص 770 — وفات کی خبر", fr: "Sifat al-Safwa, volume numérisé 1, p. 770 — une annonce de décès", es: "Sifat al-Safwa, volumen escaneado 1, p. 770 — un anuncio de fallecimiento", tr: "Seçkinlerin Özellikleri, Resimli Cilt 1, s. 770 — Ölüm İlanı ve Duyurusu", id: "Karakteristik Kaum Elit, Jilid Ilustrasi 1, hlm. 770 — Berita Duka dan Pengumuman Kematian" }
 text: "ذكر المصطَفَين من أهل مرو صفة الصفوة عن عبد الرحمن بن مهدي قال: ما رأت عيناي مثل سفيان، ولا أقدِّم على عبد اللّٰه بن المبارك أحداً. عن عبد الرحمن بن عبيد اللّٰه قال: كنا عند الفضيل فنعي إليه ابن المبارك! …"
 summary:
   ar: "مقطع من صفة الصفوة، المجلد المصوَّر 1، ص 770، فيه نعي وإخبار بوفاة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر ولم يصحَّح. يجمعه متصفح أشهر ما قيل في الرثاء والنعي."
@@ -11,6 +11,8 @@ summary:
   ur: "صفت الصفوہ، اسکین جلد 1، ص 770 کا اقتباس جس میں وفات کی خبر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں اور بغیر تصحیح کے۔ مرثیے اور وفات کی خبر کے مشہور اقوال کا براؤزر اسے درج کرتا ہے۔"
   fr: "Un extrait de Sifat al-Safwa, volume numérisé 1, p. 770, qui contient une annonce de décès; tiré de la numérisation lue par machine, cité dans la limite de quarante mots selon la politique des sources et non corrigé. Le navigateur des élégies et des annonces de décès le recense."
   es: "Un extracto de Sifat al-Safwa, volumen escaneado 1, p. 770, que contiene un anuncio de fallecimiento; tomado del escaneo leído por máquina, citado dentro de cuarenta palabras según la política de fuentes y sin corregir. El navegador de elegías y anuncios de fallecimiento lo recoge."
+  tr: "Sifat al-Safwa, 1. Cilt, 770. sayfadan bir alıntı; ölüm ilanı ve duyurusu; makine tarafından okunabilir taranmış baskıdan alınmıştır. Metin, kaynak politikası gereği yaklaşık kırk kelime olarak özetlenmiştir ve düzeltilmemiştir. En ünlü ağıt ve ölüm ilanlarını tarayan bir kişi tarafından derlenmiştir."
+  id: "Cuplikan dari Sifat al-Safwa, Volume 1, halaman 770, berisi berita duka dan pengumuman kematian; dari edisi hasil pemindaian yang dapat dibaca mesin. Teks tersebut disarikan sekitar empat puluh kata sesuai kebijakan sumber dan belum dikoreksi. Teks ini disusun oleh mesin pencari elegi dan berita duka paling terkenal."
 relations:
   - { type: mentions, target: concept/ritha-wal-nay, sources: [source/sifat-al-safwa-tartusi-2012] }
 provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/safwat-safwa/20200206_20200206_0626, page 770; a window of at most 40 words chosen by the elegy and death-announcement detector (scripts/ritha.ts); OCR text not corrected; label and summary in five languages written from fixed wording per kind", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ritha-ocr-1" }

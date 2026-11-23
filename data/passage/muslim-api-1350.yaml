@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1350"
-label: { ar: "صحيح مسلم 1350 — القراء", en: "Sahih Muslim 1350 — the readers", ur: "صحیح مسلم 1350 — قراء", es: "Sahih Muslim 1350 — los lectores", fr: "Sahih Muslim 1350 — les lecteurs" }
+label: { ar: "صحيح مسلم 1350 — القراء", en: "Sahih Muslim 1350 — the readers", ur: "صحیح مسلم 1350 — قراء", es: "Sahih Muslim 1350 — los lectores", fr: "Sahih Muslim 1350 — les lecteurs", tr: "Sahih Muslim 1350 — Okuyucular", id: "Sahih Muslim 1350 — Pembaca" }
 text: "حَدَّثَنَا نَصْرُ بْنُ عَلِيٍّ الْجَهْضَمِيُّ، حَدَّثَنَا أَبُو أَحْمَدَ، حَدَّثَنَا حَمْزَةُ الزَّيَّاتُ، عَنِ الْحَكَمِ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي لَيْلَى، عَنْ كَعْبِ بْنِ عُجْرَةَ، عَنْ رَسُولِ اللَّهِ قَالَ \" مُعَقِّبَاتٌ لاَ يَخِيبُ قَائِلُهُنَّ - أَوْ فَاعِلُهُنَّ - ثَلاَثٌ وَثَلاَثُونَ تَسْبِيحَةً وَثَلاَثٌ وَثَلاَثُونَ تَحْمِيدَةً وَأَرْبَعٌ وَثَلاَثُونَ تَكْبِيرَةً فِي دُبُرِ كُلِّ صَلاَةٍ \". حَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 1350، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 1350، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sahih Muslim, n.° 1350 (Introducción), menciona a los lectores. El explorador del museo sobre cómo se leía y escribía el Corán lo enumera junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
   fr: "Un rapport du Sahih Muslim, n° 1350 (Introduction), mentionne les lecteurs. Le catalogue du musée consacré à la lecture et à la transcription du Coran le répertorie avec les textes du Coran, la Sunna, la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Sahih Müslim'de 1350 numaralı hadiste Kur'an okuyucularından bahsedilir. Bu derleme, Kur'an okunuşları, yazı, hat sanatı ve diyakritik işaretler hakkında bilgilerin yanı sıra Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine kitaplardan metinler içermektedir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 1350, menyebutkan para pembaca Al-Quran. Koleksi ini menyusun informasi tentang bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, beserta teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1350 (book 0 hadith 0); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

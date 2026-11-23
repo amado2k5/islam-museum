@@ -4,7 +4,7 @@
 // "index.html" file names Astro writes (for example "ar/person/muhammad/index.html").
 // The site keeps trailingSlash "always", so a request without a slash is redirected.
 
-export const LANGS = ["ar", "en", "ur", "fr", "es"];
+export const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"];
 
 const isLangPath = (pathname) => LANGS.some((l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`));
 
@@ -12,7 +12,7 @@ const isLangPath = (pathname) => LANGS.some((l) => pathname === `/${l}` || pathn
 // content, maps, images, pictures and video are published to R2 and served from there. These folders are stored in
 // R2 under the same paths (for example "media/time-browser/explorer/x.webp"); keep this list in step with
 // workers/r2-sync/batch/publish.mjs (DATA_TARGETS), wrangler.production.toml (run_worker_first) and deploy.yml.
-export const R2_DATA_DIRS = ["media", "edu", "timeline-data", "gift-shop", "brand", "openapi", "podcast", "pagefind-ar", "pagefind-en", "pagefind-ur", "pagefind-fr", "pagefind-es"];
+export const R2_DATA_DIRS = ["media", "edu", "timeline-data", "gift-shop", "brand", "openapi", "podcast", "pagefind-ar", "pagefind-en", "pagefind-ur", "pagefind-fr", "pagefind-es", "pagefind-tr", "pagefind-id"];
 // Data files at the site root (sitemaps, feed, llms.txt, search synonyms, favicons, the RFC 9727 API catalog under
 // /.well-known/) follow the same rule. Keep in step with ROOT_FILES in publish.mjs and workers/r2-sync/src/index.js,
 // run_worker_first and deploy-env.yml.
@@ -25,7 +25,7 @@ export function resolve(pathname) {
     return { type: "r2", key: pathname.endsWith("/") ? pathname.slice(1) + "index.html" : pathname.slice(1) };
   }
   if (!isLangPath(pathname)) return { type: "assets" };
-  if (pathname === "/ar" || pathname === "/en" || pathname === "/ur" || pathname === "/fr" || pathname === "/es") {
+  if (pathname === "/ar" || pathname === "/en" || pathname === "/ur" || pathname === "/fr" || pathname === "/es" || pathname === "/tr" || pathname === "/id") {
     return { type: "redirect", location: `${pathname}/` };
   }
   if (pathname.endsWith("/")) return { type: "r2", key: pathname.slice(1) + "index.html" };
@@ -183,7 +183,7 @@ export const robotsDisallowed = (env) => String(env?.ROBOTS ?? "").toLowerCase()
 // current id in the same language: /ar/person/old-slug/ -> /ar/person/new-slug/.
 // Returns the path-only Location, or null when the path is not an alias.
 export function aliasTarget(pathname, aliases) {
-  const m = pathname.match(/^\/(ar|en|ur|fr|es)\/([a-z]+)\/([^/]+)\/?$/);
+  const m = pathname.match(/^\/(ar|en|ur|fr|es|tr|id)\/([a-z]+)\/([^/]+)\/?$/);
   if (!m) return null;
   const current = aliases[`${m[2]}/${m[3]}`];
   return current ? `/${m[1]}/${current}/` : null;

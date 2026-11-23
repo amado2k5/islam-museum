@@ -1,0 +1,24 @@
+---
+id: concept/dakhil-fiqh
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/dakhil-fiqh.md}
+---
+
+## Özet
+
+Dilbilimde, 'alım', bir şeye içsel olarak giren kişinin öznesidir ve 'şeyin içinde' onun dışındaki bir farktır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8040} Hukuk bilimi terminolojisinde, uygulamada tartışmalı nesneye eli koyan ya da eğilimi bir sahibin olarak belirlenmiş ve sahip olan, sahip ve sahip olarak ifade edilen kişiyi ifade eder. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8040}
+
+Ona karşı çıkan taraf, elinde hiçbir şey olmayan ama dışarıdan gelen ve içeriden gelen kişiye mülkiyet konusunda itiraz eden dışarıdan gelen kişidir; bu nedenle eli koyup elden çıkarmakta masumdur. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8040} Eğer içeriden olan mülkiyet iddiasında dışarıdan ayrılırsa, davacı davalıdan ayrılır; dışarıdan olan davacı, içeriden olan ise davalıdır. Bu, davada varsayılan durumdur çünkü içeriden olan elinde bulunan eşya nedeniyle davaya ihtiyaç duymaz. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8040}
+
+## Genel değerlendirme ve araştırma yerleri
+
+Hukukçular, kararın itiraz edilen sahibin statüsüne göre değiştiği davalarda ve delil tercihi konularında dava sunmuşlardır:
+
+Birincisi: Mutlak mülkiyet iddiası için kanıt; iki kişi mutlak mülkiyet üzerinde tartışırsa, mülkiyet nedenini (miras veya satın alma) belirtmeden belirli mülkiyet iddiasında bulunursa ve her biri delil sunarsa, Hanbaliler arasında en bilinen Hanefi mezhebi ve Malikilerden Abd al-Malik ibn al-Majshun'un dış delillerle ilgili görüşü ve iç delilleri kaldırdılar, çünkü dış taraf davacıdır ve hadis bu tür delil davacının davasına yerleştirmiştir. Ve çünkü davacının delilleri, görünmeyen bir nedenin kurulduğunu gösterir ve kötülüğün kanıtı sadece elle işaret edilen görünür bir konuya tanıklık eder. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8041} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8042} Malikiler arasında en bilinen ve Hanbaliler arasında bir rivayet olan Şafiiler, içeriden gelen delillerin elde verilmesi için yeterli kanıt sağlamayı tercih etmiştir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8041} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8042}
+
+İkincisi: Bir sebep için eklenen mülk için delil gereklidir; eğer bu tekrar eden bir sebepse, örneğin satın alma ve dikim, Hanefi mahkemesi dışarıdan delil sunar; ancak mülkiyetin bir kişiden miras kaldığını iddia etmedikçe, o durumda iç mülkiyet kanıtı önceliklidir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8042} Doğum ve çocuk gibi tekrarlanabilir olmasa bile, sahibin ifadesi anlaşmayla sunulur çünkü mülkiyetin tercih edildiği ek bir konuya tanıklık eder. İki adam arasında bir hayvan üzerinde yaşanan bir anlaşmazlıkla ilgili Cabir hadisine atıfta bulundular, ve elindeki delil lehine karar verdi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8042} Malikiler arasında bilinen görüş, iç delillerin adalet açısından eşit olması halinde öncelik vermektir; ancak iki delilden biri nedeni belirtip diğeri sahibini serbest bırakırsa ve bu durumda sebep belirtilir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8042} Şafiilere göre, en doğru görüşte iç delil tercih edilir; ancak sahibi serbest bırakılmadıkça ve dış delil iç mekandan satın alma ile sınırlandırılmadıkça, bu durumda dış delil devrin bilgisini artırmak için öncelik verilir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8042} Hanbalilerin üç anlatısı vardır: en bilinen olanı her davada dış tarafı önceliklendirmek; ikincisi, delilleri nedeni doğruluysa iç maddeyi önceliklendirmek; aksi takdirde dış madde tercih edilir; üçüncüsü ise davalının katılımının gücüne ve elindeki hadis hükmüne tamamen dayanan iç öncelik vermektir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8042} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8043}
+
+Üçüncüsü: Delil kral-kronikçiye aittir; her biri bir tarih belirtirse, Hanafi ve Malikilere ve Hanbali anlatımına göre tarihinden alınan delil tercih edilir, çünkü mülkiyeti diğerinin itiraz etmediği bir zamanda sağlar ve varsayılan olarak sürekliliği sağlanır. Hanafiler ürün üzerindeki iddiayı dışlamış, bu yüzden sahibine mutlak öncelik vermişlerdir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8043} Şafi'ler, mülkiyet önceki tarihe aitse, kesin olarak öncesindedir ve daha sonraki tarihe aitse, düşünce okuluna da öncelik verilmesi gerekir, çünkü onların anında kaybı mülkiyeti önceki sahibine göre korur. Bazıları önceliğin tercih edildiğini, bazıları ise eşit olduklarını söyler; Hanbaliler dışa kesin öncelik verildiğini ve tarihin iptal edildiğini anlatırlar. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8043} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8044}

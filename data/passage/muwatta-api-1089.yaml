@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1089"
-label: { ar: "موطأ مالك 1089 — النسب والانتساب", en: "Muwatta Malik 1089 — paternity and lineage", ur: "موطأ مالک 1089 — نسب اور انتساب", es: "Muwatta Malik 1089 - paternidad y linaje", fr: "Muwatta Malik 1089 — paternité et lignée" }
+label: { ar: "موطأ مالك 1089 — النسب والانتساب", en: "Muwatta Malik 1089 — paternity and lineage", ur: "موطأ مالک 1089 — نسب اور انتساب", es: "Muwatta Malik 1089 - paternidad y linaje", fr: "Muwatta Malik 1089 — paternité et lignée", tr: "Muwatta Malik 1089 — Nesil ve Bağlılık", id: "Muwatta Malik 1089 — Silsilah dan Afiliasi" }
 text: "… وَلَدِ الْمُلاَعَنَةِ وَوَلَدِ الزِّنَا إِنَّهُ إِذَا مَاتَ وَرِثَتْهُ أُمُّهُ حَقَّهَا فِي كِتَابِ اللَّهِ عَزَّ وَجَلَّ وَإِخْوَتُهُ لأُمِّهِ حُقُوقَهُمْ وَيَرِثُ الْبَقِيَّةَ مَوَالِي أُمِّهِ إِنْ كَانَتْ مَوْلاَةً وَإِنْ كَانَتْ عَرَبِيَّةً وَرِثَتْ حَقَّهَا وَوَرِثَ إِخْوَتُهُ لأُمِّهِ حُقُوقَهُمْ وَكَانَ مَا بَقِيَ لِلْمُسْلِمِينَ. قَالَ مَالِكٌ وَبَلَغَنِي عَنْ سُلَيْمَانَ بْنِ يَسَارٍ، مِثْلُ ذَلِكَ. قَالَ مَالِكٌ وَعَلَى ذَلِكَ أَدْرَكْتُ أَهْلَ الْعِلْمِ بِبَلَدِنَا"
 summary:
   ar: "حديث في موطأ مالك، رقم 1089، يذكر النسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 1089، جس میں نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Muwatta Malik, n.° 1089 (Fara'id), menciona la paternidad y el linaje. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Muwatta Malik, n° 1089 (Fara'id), mentionne la paternité et la filiation. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant du père."
+  tr: "Malik'in Muwatta'sında yer alan 1089 numaralı hadis, soy ve atalardan bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 1089, menyebutkan tentang garis keturunan dan leluhur. Peramban \"Kebapakan dalam Islam\" mengumpulkannya dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/intisab, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1089 (book 27 hadith 16); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

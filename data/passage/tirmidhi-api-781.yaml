@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "781"
-label: { ar: "جامع الترمذي 781 — النسب والانتساب", en: "Jami' al-Tirmidhi 781 — paternity and lineage", ur: "جامع ترمذی 781 — نسب اور انتساب", es: "Jami' al-Tirmidhi 781 — paternidad y linaje", fr: "Jami' al-Tirmidhi 781 — paternité et lignée" }
+label: { ar: "جامع الترمذي 781 — النسب والانتساب", en: "Jami' al-Tirmidhi 781 — paternity and lineage", ur: "جامع ترمذی 781 — نسب اور انتساب", es: "Jami' al-Tirmidhi 781 — paternidad y linaje", fr: "Jami' al-Tirmidhi 781 — paternité et lignée", tr: "Cami' el-Tirmizi 781 — Soy ve Bağlantı", id: "Jami' al-Tirmidhi 781 — Silsilah dan Afiliasi" }
 text: "حَدَّثَنَا نَصْرُ بْنُ عَلِيٍّ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ قَالَ \" إِذَا دُعِيَ أَحَدُكُمْ وَهُوَ صَائِمٌ فَلْيَقُلْ إِنِّي صَائِمٌ \". قَالَ أَبُو عِيسَى وَكِلاَ الْحَدِيثَيْنِ فِي هَذَا الْبَابِ عَنْ أَبِي هُرَيْرَةَ حَسَنٌ صَحِيحٌ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 781، يذكر النسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 781، جس میں نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 781 (El Libro del Ayuno), menciona la paternidad y el linaje. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 781 (Le Livre du jeûne), mentionne la paternité et la lignée. Le site The Fatherhood in Islam Browser le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant du père."
+  tr: "Cami' el-Tirmizi'nin 781 numaralı hadisinde soy ve atalardan bahsedilir. \"İslam'da Babalık\" bölümü, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derler."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 781, menyebutkan tentang garis keturunan dan leluhur. Bagian \"Kebapakan dalam Islam\" mengumpulkannya dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/intisab, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 781 (book 8 hadith 100); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

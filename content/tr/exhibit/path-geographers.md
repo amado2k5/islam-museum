@@ -1,0 +1,10 @@
+---
+id: exhibit/path-geographers
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/exhibit/path-geographers.md}
+---
+
+## Özet
+Toprağın Tanımlayıcılarında Bir Yol: Al-Ya'qubi ve Al-Istakhri, tarihçilerin gezgini olarak Al-Mas'udi, Sicilya'da Al-Idrisi ve Yaqut Ülkeler Sözlüğü'nü yazar.

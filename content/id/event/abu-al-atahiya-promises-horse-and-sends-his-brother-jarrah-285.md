@@ -1,0 +1,18 @@
+---
+id: event/abu-al-atahiya-promises-horse-and-sends-his-brother-jarrah-285
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/abu-al-atahiya-promises-horse-and-sends-his-brother-jarrah-285.md}
+---
+## Ringkasan
+Dengan judul "Berita Abu al-Atahiya," buku tersebut menyebutkan bahwa ia adalah seorang raja dan sultan Yaman bernama Abdullah ibn Bishr, dikenal sebagai [[person/abu-al-atahiya-ibn-bishr|Abu al-Atahiyah]], gubernur [[place/sanaa|Sana'a]] dan para penentangnya {cite:sira-hadi-ila-al-haqq p.110}. Wazirnya adalah seorang pria bernama [[person/muhammad-ibn-abbad-al-tamimi|Muhammad ibn Abi Abbad]] dari Tamim, dan mereka termasuk di antara mereka yang memiliki kasih sayang dan keinginan akan kebenaran. Mereka menulis kepada [[person/al-hadi-yahya-al-rassi|al-Hadi]], menginginkannya dan keadilannya, serta berbicara tentang imaman dan kebajikan {cite:sira-hadi-ila-al-haqq p.110}. Laporan tersebut adalah Zaydi dengan suara para pengikut Imam, dan museum mengaitkan perkataan tersebut kepada narator mereka tanpa penilaian.
+
+## Janji kuda
+Abu al-Atahiyah berjanji akan memberinya seorang Skithia dan pasukan untuk mendampinginya serta pasukan melawan musuhnya, sehingga al-Hadi mengharapkan hal ini darinya {cite:sira-hadi-ila-al-haqq p.110}. Kemudian al-Hadi memutuskan untuk meninggalkan jalan Banu Rabi'ah ke tempat Banu Sarim, yang juga disebut jalan itu, selama sisa hari Dhu al-Hijjah {cite:sira-hadi-ila-al-haqq p.110}. Berita [[event/al-hadi-has-the-loot-returned-and-the-gathering-on-the-day-of-arafa-285|tentang pengusiran rampasan]] sudah selesai sebelum itu.
+
+## Mengirim Muhammad bin Suleiman dan Ismail bin Muslim
+Muhammad ibn Sulayman [[person/muhammad-ibn-sulayman-al-kufi|menceritakan]] bahwa al-Hadi memerintahkannya untuk pergi ke Sana'a untuk mengambil kuda dari Abu al-Atahiyah. Ia pergi dengan beberapa hari tersisa dari Dhu al-Hijjah. Al-Hadi kemudian pindah dan menetap di tempat bernama 'Al-Bun' dan lainnya. Mereka bercerai-berai di kota karena para prajurit takut pada al-Hadi karena ia telah mencapai batas hukumannya, menerima kebenaran, dan menolak kebohongan serta kebejatan. Ia keras kepada mereka karena hal ini dan tidak suka datang kepadanya {cite:sira-hadi-ila-al-haqq p.110}. Catatan kaki editor menyebutkan bahwa tentara yang dituju adalah mereka yang datang sebelum Abu al-Atahiya {cite:sira-hadi-ila-al-haqq p.110}. Ismail [[person/ismail-ibn-al-muslim-al-hamdani|ibn Muslim]] Ia pergi ke Abu al-Atahiyah untuk bertanya kepada para prajurit, jadi ia kembali bersama beberapa dari mereka dan tinggal di tempat bernama [[place/raydah-yemen|Raydah]] menunggu sisa pasukan {cite:sira-hadi-ila-al-haqq p.110}.
+
+## Kedatangan Jarrah bin Bishr
+Narator meninggalkan Sana'a, dengan sisa satu atau dua hari dari Dhu al-Hijjah. Al-Hadi tiba di Darb Banu Surim selama satu atau dua hari di Muharram tahun 286 H {cite:sira-hadi-ila-al-haqq p.110} {cite:sira-hadi-ila-al-haqq p.111}. Abu al-Atahiya memerintahkan para prajurit untuk berbaris ke al-Hadi; beberapa datang dan beberapa kembali. Ketika ia melihat mereka tidak suka pergi ke al-Hadi, ia mengirim saudaranya [[person/jarrah-ibn-bishr|bersama lima puluh]] penunggang kuda dan membawanya ke Darb Banu Sarim selama beberapa hari di Muharram {cite:sira-hadi-ila-al-haqq p.111}. Lihat [[event/al-daam-weighs-peace-with-al-hadi-and-sets-conditions-286]].

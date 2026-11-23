@@ -1,0 +1,9 @@
+---
+id: concept/hamala-peace-guarantee
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/hamala-peace-guarantee.md}
+---
+## Ringkasan
+Hamalah dengan fatha pada huruf Ha adalah uang darah dan denda yang ditanggung seseorang atas nama orang lain, dan secara teknis, itu adalah kewajiban yang harus dipinjam untuk membayar untuk mendamaikan antara dua kelompok yang telah terjadi darah atau uang di antara mereka. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7288} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7289} Tanggung jawab lebih luas daripada membawa pembawa senjata, karena membawa adalah jaminan uang darah dan orang lain untuk mendamaikan hubungan. Menurut Hanafi, jaminan adalah tanggung jawab penjamin atas tanggung jawab prinsipal dalam klaim, sementara menurut mayoritas, membawa mayat adalah kewajiban. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7289} Hamala sah tanpa pertentangan, dan termasuk dalam moral mulia. Orang Arab mengetahuinya, didukung oleh ayat dalam Surah Al-Anfal: 'Maka takulah Allah dan berdamailah di antara kalian sendiri.' {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7289} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7290} Diperbolehkan membayar zakat kepada unta pinjaman untuk mendamaikan perselisihan jika ia miskin; menurut Hanafi, Maliki, Shafi'i, dan Hanbali, zakat diberikan dari bagian pengutang meskipun mereka kaya, dan ini berlaku dalam kasus yang tidak membenarkan kekayaan mereka. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7290} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7291} Menurut mayoritas ahli hukum, diperbolehkan bagi seseorang untuk diminta sampai ia membayar apa yang dimilikinya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7291}

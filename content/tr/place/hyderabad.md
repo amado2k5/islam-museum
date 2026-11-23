@@ -1,0 +1,26 @@
+---
+id: place/hyderabad
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/place/hyderabad.md}
+---
+## Özet
+Haydarabad Dekkan, güney Hindistan'da bir İslam şehri ve emirliğidir ve bugün yerel kart tarafından Telangana'nın başkenti olarak tanımlanmaktadır. Prens Shakib Arslan'ın yirminci yüzyılda yazdığı romanında, Stoddard'ın kitabına yorum yaparak, Hindistan'da İngiliz koruması altındaki ilk emirlik olarak tanımlandığını, "Nizam" lakaplı bir Müslüman tarafından yönetildiğini ve nüfusunun yaklaşık 13 milyon olduğunu, bunların çoğunun Hindu olduğunu ve başkentinin çoğunluğunun Müslüman olduğunu belirtir. {cite:stoddard-arslan-hadir-1923 1 p.335} Bu sayfada sadece Arslan'ın anlatımı ve rapor ettikleri, zaman sayıları dahil, şehrin bugünkü tanımı değil ve elimizdeki müze kaynaklarında şehrin kuruluş tarihinden bahsedilmemektedir.
+
+## Hyderabad öncesi Dekkan
+Arslan, Delhi İmparatorluğu'ndan ayrılan en büyük krallığın, Bahmaniler tarafından kurulan ve merkezi Haydarabad yakınlarındaki 'Kulbarga'da bulunan Deccan olduğunu anlatır; bu bölge günümüzde Haydarabad Nizamı ile Barar ve Mahrat topraklarını da içerir. {cite:stoddard-arslan-hadir-1923 4 pp.294-295} Bahamist Ahmad I'in 1424'te Farangal'ı fethettiği ve Bahamandların hükümdarlarının II. Muhammed'in hükümdarlığı sırasında bakanı Mahmud Jawan'ın coşkusuyla güç zirvesine ulaştığı belirtilir. Dekkan'ın otoritesi Bengal Körfezi'nden Umman Denizi'ne kadar uzanmış, ardından ölümünden sonra beş bağımsız devlete bölünmüştür. {cite:stoddard-arslan-hadir-1923 4 p.295} Bunlar arasında, Arslan'a göre hükümleri Pers kökenli olan 1512-1687 yılları arasında Golcond'daki Qutb Shahi devleti vardır. {cite:stoddard-arslan-hadir-1923 4 p.295} Ahmadnagar ve Bijapur devletlerinin barıştığını ve Bidar ile Golkund krallarının katıldığını söyler. Dördü Vijayanagar'a yürüdü ve 1565 Talikot Olayı'nda Raja'yı öldürdü. {cite:stoddard-arslan-hadir-1923 4 p.295} [[polity/bahmani-sultanate|Bahmani]] Sultanlığı ile [[polity/deccan-sultanates|Deccan]], Golkund [[place/golconda|ve]] Bijapur [[place/bijapur|Sultanlıklarına]] bakınız.
+
+Arslan'a göre, Aurangzeb 1685'te Golkond ve Bijapur'u ilhak ettikten sonra, ölümünden sonra Babür İmparatorluğu'nun dağıldığını, bunun da 1724'te Bengal ve Od devletleriyle birlikte "Haydarabad-Dekkan Devleti"nin kurulmasına yol açtığını belirtir. {cite:stoddard-arslan-hadir-1923 4 pp.310-311} Bkz. [[person/aurangzeb-mughal|Aurangzeb]] ve [[polity/mughal-empire|Babür İmparatorluğu]].
+
+## İngilizlerle
+Arslan, Lord Cornwallis'in Tipu Sultan'a karşı hareket ettiğini, bir tarafta Haydarabad Nizamı, diğer tarafta Mahratların olduğunu belirtir. İngilizler, Mahratlar ve Nizam'ın ordusu 1790'da ona dört taraftan saldırdı ve barış 1792'de sona erdi; Tipu ülkesinin bir kısmını bıraktı ve para cezası ödedi. {cite:stoddard-arslan-hadir-1923 4 p.319} Hindistan'daki çoğu Müslüman prensin İngilizleri desteklediğini, Haydarabad Nizamı, Bhopal Sahib'i ve Rampur Sahib'inin en çok destek verdiğini söyler. Birçoğu daha sonra iktidar Şirketten Taç'a geçtiğinde yeni topraklarla ödüllendirildi. {cite:stoddard-arslan-hadir-1923 4 p.313} Bkz. [[person/tipu-sultan-mysuri|Tipu Sultan]] ve [[place/mysore|Mysore]].
+
+Hindistan'daki İslam Emirlikleri nüfus sayımı, Haydarabad Dekkan'ın nüfusunun 13.374.000 olduğunu, yıllık gelirinin 1.760.000 İngiliz poundu olduğunu ve doğrudan İngiliz Hindistan hükümetiyle ilişkisi olduğunu, başka hiçbir emirliğin bu durumdan yararlanmadığını belirtmektedir. {cite:stoddard-arslan-hadir-1923 4 p.316} Başka bir yerde, çoğunluğu Hadramawt'tan Araplardan oluşan otuz bin kişilik bir orduya sahip olduğu ve İngilizler tarafından sınırlı etkiye sahip bir yerleşik bakan olarak tanımlandığı ve iç bağımsızlığının neredeyse tamamlandığı, İngiltere'ye ödediği verginin ise çok az olduğu belirtilmektedir. {cite:stoddard-arslan-hadir-1923 1 p.335} Üçüncü olarak, oradaki yaklaşık iki milyon Müslümanları ve on bir milyon olan Hinduları karşılaştırdı. {cite:stoddard-arslan-hadir-1923 1 p.336}
+
+## Düzen ve Veraset
+Arslan Nizam, Haydarabad'ı İslam'ın en zengin kralı ve dünyanın en zengin krallarından biri olarak tanımlar; Osmanlı ailesi üzerinde üstün olduğunu belirtir. Halife Abdul Majid Türkiye'den sürüldüğünde ve neredeyse yoksul halde Avrupa'ya kaçtığında, Nizam onun için ayda üç yüz pound ayarlamıştır. {cite:stoddard-arslan-hadir-1923 1 p.335} Eklenir, 1932 başlarında halifenin kızının Nizam'ın oğluyla evlenmesiyle ilişkinin arttığını, bu evliliğin Ankara ve İngiltere'de iyi gitmediğini, her iki tarafın endişelerinin yersiz olduğuna inandığını belirtir. {cite:stoddard-arslan-hadir-1923 1 pp.335-336} Bu, Arslan'ın anlatımı ve görüşüdür.
+
+## Jamal al-Din al-Afghani Haydarabad'da
+Cemaleddin el-Afgan'ın biyografisinde Arslan, Goldziher'in Mısır'dan Hindistan'a sürgün edildiğinde Haydarabad el-Dekkan'da yaşamaya zorlandığını ve orada 'Modernistlerin Çürütmesi'ni yazdığını belirtir. {cite:stoddard-arslan-hadir-1923 2 p.302} Bkz. [[person/jamal-al-din-al-afghani|Cemaleddin el-Afgani]].

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "3810"
-label: { ar: "جامع الترمذي 3810 — القراء", en: "Jami' al-Tirmidhi 3810 — the readers", ur: "جامع ترمذی 3810 — قراء", es: "Jami' al-Tirmidhi 3810 — los lectores", fr: "Jami' al-Tirmidhi 3810 — les lecteurs" }
+label: { ar: "جامع الترمذي 3810 — القراء", en: "Jami' al-Tirmidhi 3810 — the readers", ur: "جامع ترمذی 3810 — قراء", es: "Jami' al-Tirmidhi 3810 — los lectores", fr: "Jami' al-Tirmidhi 3810 — les lecteurs", tr: "Cami' el-Tirmizi 3810 — Okuyucular", id: "Jami' al-Tirmidhi 3810 — Pembaca" }
 text: "حَدَّثَنَا هَنَّادٌ، قَالَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنْ شَقِيقِ بْنِ سَلَمَةَ، عَنْ مَسْرُوقٍ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، قَالَ قَالَ رَسُولُ اللَّهِ \" خُذُوا الْقُرْآنَ مِنْ أَرْبَعَةٍ مِنِ ابْنِ مَسْعُودٍ وَأُبَىِّ بْنِ كَعْبٍ وَمُعَاذِ بْنِ جَبَلٍ وَسَالِمٍ مَوْلَى أَبِي حُذَيْفَةَ \". هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 3810، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 3810، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 3810 (Capítulos sobre las virtudes), menciona a los lectores. El explorador del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 3810 (Chapitres sur les vertus), mentionne les lecteurs. Le catalogue du musée consacré à la lecture et à la transcription du Coran le répertorie avec les textes du Coran, la Sunna, la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Cami' el-Tirmizi'de 3810 numaralı hadis, Kur'an okuyucularından bahsetmektedir. Bu hadis, Kur'an okunuşları, yazısı, hat sanatı ve diyakritik işaretleri konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 3810, menyebutkan para pembaca Al-Quran. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3810 (book 49 hadith 210); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

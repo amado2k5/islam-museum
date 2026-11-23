@@ -1,0 +1,28 @@
+---
+id: event/testament-of-abdullah-ibn-masud
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/testament-of-abdullah-ibn-masud.md}
+---
+## Ringkasan
+[[person/abdullah-ibn-masud|Abdullah ibn Mas'ud]] adalah salah satu Muslim awal dan salah satu sahabat terdekat Nabi dalam pembacaannya. Al-Dhahabi menghafal teks singkat wasiatnya dalam biografi, laporan kunjungan Utsman kepadanya selama sakit, laporan tentang kekayaan yang ditinggalkan, kemudian kematiannya di Madinah dan pemakamannya di Al-Baqi'. {cite:siyar-alam-nubala scan vol. 2 p. 443}
+
+## Teks dan Isi Wasiat
+Al-Dhahabi menceritakan melalui Waki' dari Abu Umays dari Amir ibn Abdullah ibn al-Zubayr bahwa Ibn Mas'ud mewariskan dan menulis: Kehendak saya adalah kepada Allah, kepada al-Zubayr ibn al-Awwam, dan kepada putranya Abdullah ibn al-Zubayr, dan bahwa mereka sedang dalam keadaan bubar dan perselisihan mengenai harta saya, dan tidak ada wanita dari istri saya yang menikah kecuali dengan izin mereka. {cite:siyar-alam-nubala scan vol. 2 p. 443} Wasiat tersebut memiliki tiga klausul: menunjuk dua wali atas harta warisan, yaitu [[person/zubayr-ibn-al-awwam|al-Zubayr ibn al-Awwam]] dan putranya [[person/abdullah-ibn-al-zubayr|Abdullah]], membebaskan mereka dari apa yang mereka hutang di dalamnya, dan menjadikan pernikahan wanita tunduk padanya dengan syarat izin mereka. Yahya al-Hammani menceritakan dari Sharik Abu Ishaq bahwa Ibn Mas'ud memerintahkan al-Zubayr untuk berdoa untuknya. {cite:siyar-alam-nubala scan vol. 2 p. 443}
+
+## Penyakitnya dan kunjungan Othman
+Al-Dhahabi menceritakan dari Al-Sari ibn Yahya dari Abu Shuja' dari Abu Taybah bahwa Abdullah jatuh sakit, maka [[person/uthman-ibn-affan|Utsman]] mengunjunginya dan bertanya: Mengapa kau mengeluh? Dia berkata: Dosa-dosaku. Dia berkata: Apa yang kamu inginkan? Dia berkata: Kasihan dari Tuhanku. Dia berkata: Bukankah aku harus memerintahkan dokter untukmu? Dia berkata: Dokter itu membuatku sakit. Dia berkata: Bukankah aku harus memesan hadiah untukmu? Dia berkata: Aku tidak membutuhkannya. {cite:siyar-alam-nubala scan vol. 2 p. 443} Al-Dhahabi menyebutkan bahwa para narator berbeda dalam rantainya: Ibn Wahb menceritakannya dari Shuja', dan diceritakan oleh Uthman ibn Yaman dan Hajjaj ibn Nusayr dari Shuja' dari Abu Fatimah. {cite:siyar-alam-nubala scan vol. 2 p. 443} Di antara atribut yang dikaitkan kepadanya tentang kematian adalah dia berkata: Lebih baik dua yang tidak disukai, kematian dan kemiskinan. {cite:siyar-alam-nubala scan vol. 1 p. 2531}
+
+## Apa yang Dia Tinggalkan
+Al-Dhahabi menceritakan dari Saif ibn Umar dari Atiyah dari Abu Saif bahwa Ibn Mas'ud meninggalkan pemberiannya ketika Umar meninggal, dan orang-orang kaya dari Kufa melakukan hal yang sama, mengambil tanah Baradhan untuk dirinya sendiri, dan ia meninggal lebih dari sembilan puluh ribu mithqal kecuali budak, tanaman, dan ternak. {cite:siyar-alam-nubala scan vol. 2 p. 442} Setelah kematiannya, al-Zubayr mendekati Uthman dan berkata: Berikan aku hadiah Abdullah, karena keluarga Abdullah lebih berhak atas dirinya daripada harta negara, maka ia memberinya lima belas ribu. {cite:siyar-alam-nubala scan vol. 2 p. 443} Hafs ibn Ghayath menceritakan dari Hisham ibn Urwah dari ayahnya bahwa Uthman telah mencabut pemberiannya selama dua tahun. {cite:siyar-alam-nubala scan vol. 2 p. 443}
+
+## Pemakaman dan Doa
+Al-Dhahabi menceritakan dari Ubayd Allah ibn Abdullah bahwa Ibn Mas'ud meninggal di Madinah dan dimakamkan di Al-Baqi' pada tahun tiga puluh dua. Ia kurus, pendek, dan sangat kurus. {cite:siyar-alam-nubala scan vol. 2 p. 444} Ibn Abd al-Barr juga menyebutkan kematiannya di Madinah pada tahun tiga puluh dua, dan ketika ia menjadi obituari Abu al-Darda, ia berkata: Ia tidak meninggalkan apa-apa seperti dirinya setelahnya. {cite:isti-ab-ibn-abd-al-barr scan vol. 2 p. 410} Awn ibn Abdullah dan lainnya memperkirakan usianya lebih dari enam puluh tahun, sedangkan Yahya ibn Abi Utbah mengatakan enam puluh tiga. {cite:siyar-alam-nubala scan vol. 2 p. 444}
+
+## Narasi dan Perbedaannya
+Ada dua pendapat tentang tahun kematian: tiga puluh dua, yang diceritakan dan diceritakan oleh Ubayd Allah ibn Abdullah oleh sekelompok orang, dan tiga puluh tiga, serta Yahya ibn Bukayr. Al-Dhahabi lebih memilih bahwa ia meninggal di awal, sementara yang lain mengatakan ia meninggal tiga tahun sebelum Utsman. {cite:siyar-alam-nubala scan vol. 2 p. 444} Mengenai masalah hadiah, ada dua kisah yang bertentangan: bahwa ia meninggalkan karunia itu setelah kematian Umar, dan bahwa Utsman mencabut karunia itu selama dua tahun. {cite:siyar-alam-nubala scan vol. 2 p. 442} {cite:siyar-alam-nubala scan vol. 2 p. 443} Al-Dhahabi menyebutkan bahwa ia datang kepada Utsman, menyaksikan Abu Dharr dalam perjalanan ke Rabdha, dan berdoa untuknya. Lihat [[event/death-of-abu-dharr-at-al-rabadha|kematian Abu Dharr dalam Rabdha]]. {cite:siyar-alam-nubala scan vol. 2 p. 443}
+
+## Sumber dan Dokumentasi
+Ia mengandalkan dua salinan hasil scan Siyar A'lam al-Nubala', salah satunya lebih jelas dalam teks, dan pemahaman Ibn Abd al-Barr. Teks Tabaqat Ibn Sa'd tidak tersedia dalam survei tersebut, sehingga pembaca di sini tidak menemukan apa yang disebutkan Ibn Sa'd mengenai rincian kain kafan dan para gadis, dan dapat ditambahkan jika tersedia; tidak ada dalam buku tertulis yang melaporkan hal ini. Juga tidak ada yang menyebutkan lokasi pasti makam di Al-Baqi'.

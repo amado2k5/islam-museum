@@ -4,10 +4,12 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/yahya-ibn-said-al-ansari, person/muhammad]
 work: work/muwatta-malik
 ref: "1045"
-label: { ar: "الموطأ 1045 — يحيى بن سعيد بلغه عن عائشة أنها كانت تقول: المحرم لا يحله إلا البيت", en: "Muwatta 1045", es: "Muwatta 1045", fr: "Muwatta 1045", ur: "موطا 1045" }
+label: { ar: "الموطأ 1045 — يحيى بن سعيد بلغه عن عائشة أنها كانت تقول: المحرم لا يحله إلا البيت", en: "Muwatta 1045", es: "Muwatta 1045", fr: "Muwatta 1045", ur: "موطا 1045", tr: "El-Muvatta 1045 — Yahya ibn Said, Aişe'den rivayetle şöyle buyurmuştur: \"İhramlı hacı, ancak Kabe'nin eviyle ihramından kurtulur.\"", id: "Al-Muwatta 1045 — Yahya ibn Saeed meriwayatkan dari Aisyah bahwa beliau biasa berkata: “Jamaah haji yang sedang dalam keadaan ihram tidak akan terlepas dari ihram kecuali oleh rumah (Ka'bah).”" }
 text: "المحرم لا يحله إلا البيت"
 summary:
   ar: "يرويه مالك عن يحيى بن سعيد أنه بلغه عن عائشة زوج النبي أنها كانت تقول: المحرم لا يحله إلا البيت. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1163) وسويد (566). {cite:muwatta-maruf-1997 p.485}"
+  tr: "Malik, Yahya ibn Sa'id'den rivayetle, Peygamberin eşi Aişe'den şöyle bir rivayette bulunduğunu nakletmiştir: \"İhramda olan bir hacının evden (yani ihrama) çıkmasına izin verilmez.\" Editör, bunun Malik'ten Ebu Mus'ab (1163) ve Suveyd (566) tarafından da rivayet edildiğini belirtmektedir. {cite:muwatta-maruf-1997 s.485}"
+  id: "Malik meriwayatkan hadits ini dari Yahya bin Sa'id, yang mendengar dari Aisyah, istri Nabi, bahwa ia biasa berkata: \"Seorang jamaah haji yang sedang ihram tidak diperbolehkan meninggalkan rumah (yaitu, memasuki ihram).\" Editor menyebutkan bahwa hadits ini diriwayatkan dari Malik oleh Abu Mus'ab (1163) dan Suwaid (566). {cite:muwatta-maruf-1997 p.485}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
   - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }

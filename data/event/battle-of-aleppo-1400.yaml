@@ -1,13 +1,15 @@
 id: event/battle-of-aleppo-1400
 class: event
 kind: battle
-label: { ar: "معركة حلب ⁦(١٤٠٠)⁩", en: "Battle of Aleppo (1400)", es: "Batalla de Alepo (1400)", fr: "Bataille d'Alep (1400)", ur: "حلب کی جنگ (1400)" }
+label: { ar: "معركة حلب ⁦(١٤٠٠)⁩", en: "Battle of Aleppo (1400)", es: "Batalla de Alepo (1400)", fr: "Bataille d'Alep (1400)", ur: "حلب کی جنگ (1400)", tr: "Halep Muharebesi (1400)", id: "Pertempuran Aleppo (1400)" }
 summary:
   ar: "بطاقة أولية لمعركة حلب ⁦(١٤٠٠)⁩؛ لم تُراجع مصادره على الصفحة بعد."
   en: "Draft card for Battle of Aleppo (1400); its sources are not yet checked on the page."
   es: "Boceto de ficha para la Batalla de Alepo (1400); sus fuentes aún no han sido verificadas en la página."
   fr: "Carte provisoire pour la bataille d'Alep (1400); ses sources ne sont pas encore vérifiées sur la page."
   ur: "حلب کی جنگ کے لیے ڈرافٹ کارڈ (1400)؛ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
+  tr: "Halep Muharebesi'nin (1400) ön açıklaması; sayfadaki kaynaklar henüz incelenmemiştir."
+  id: "Catatan pendahuluan tentang Pertempuran Aleppo (1400); sumber-sumber di halaman ini belum ditinjau."
 relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/tarikh-islam-hasan-ibrahim] }
   - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }

@@ -5,7 +5,7 @@ import { groupPages, indexAlternates } from "../site/src/lib/paged";
 // language's own alphabet, so the header's language switch and the hreflang alternates must never name a page that is
 // not built (2,054 broken links in the first sampled link check, 13 November 2026).
 describe("indexAlternates: the other-language addresses of a letter page", () => {
-  const LANGS = ["ar", "en", "ur", "fr", "es"] as const;
+  const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
   const pages = {
     ar: groupPages([{ id: "u0627", items: Array(700) }, { id: "other", items: Array(10) }], 300),
     en: groupPages([{ id: "a", items: Array(50) }, { id: "other", items: Array(400) }], 300),

@@ -1,0 +1,17 @@
+---
+id: place/masisa
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/place/masisa.md}
+---
+## Ringkasan
+Al-Musaysah memperkuat perbatasan Suriah di Jayhan. Al-Baladhuri menyebutkan bahwa Muslim baru menetap di sana sampai Abdullah bin Abd al-Malik membangun bentengnya pada tahun 84 H di atas fondasi lamanya, menempati tiga ratus pejabat terpilih, dan membangun masjid di bukitnya. {cite:futuh-buldan-maarif-1407} Lihat [[event/building-of-masisa|pembangunan Al-Musaysa]].
+
+Gereja ini sering dikunjungi oleh para perintis Romawi. Umar ibn Abd al-Aziz ingin membongkar gereja itu, tetapi ia ditangkap ketika mengetahui gereja itu sedang didorong dari Antiokhia. Kemudian Hisham, Marwan, Abu al-Abbas, diikuti oleh al-Mansur, al-Mahdi, dan Harun, berhasil membangunnya. {cite:futuh-buldan-maarif-1407}
+
+## Dalam kamus negara
+Yaqut mengucapkan nama 'al-Masisa' dengan fatha, lalu kasra, dan shadda, dengan ya diam dan 'sedih' lainnya, seperti yang dikoreksi al-Azhari dan ahli bahasa lain. Al-Jawhari dan Khalid al-Farabi unik karena mengucapkan 'al-masisah' dengan pengucapan 's'din' yang lebih ringan, tetapi yang pertama lebih tepat; panjangnya enam puluh delapan derajat dan lebarnya tiga puluh tujuh, dan berada di wilayah kelima, sementara yang lain mengatakan keempat. Abu Awn dalam Zijjahnya mengatakan panjangnya lima puluh sembilan dan lebarnya tiga puluh enam di wilayah keempat. Ini adalah sebuah kota di tepi Seyhan, salah satu perbatasan Levant antara Antiokhia dan tanah Romawi, dekat Tarsus. Pada masanya, kota ini berada di tangan Ibn Leon dan keturunannya selama bertahun-tahun. Ini adalah salah satu perbatasan terkenal dalam Islam, tempat orang-orang benar telah lama menetap. Kota ini memiliki banyak kebun buah yang disiram oleh Jayhan. Kota ini memiliki tembok dan lima gerbang, dan menurut para biografer, dinamai menurut pembangunnya, Musisa ibn al-Rum ibn al-Yaman ibn Sam ibn Nuh. Al-Muhallabi mengatakan bahwa salah satu ciri khas al-Thaghr adalah bahwa ia biasa bekerja di tanah al-Masisa, membawa bulu ke cakrawala, dan bulu dari sana mungkin mencapai tiga puluh dinar. {cite:mujam-al-buldan-sader-1995 5 p.144-145} Al-Musaysa juga merupakan sebuah desa di Damaskus dekat Beit Lahiyya, dari mana Yazid ibn Abi Maryam al-Thaqafi al-Musaysi, yang diangkat oleh Hisham ibn Abd al-Malik sebagai 'Ariba al-Shahr, yang kemudian memecatnya. Buku ini juga menceritakan kisah Abu al-Umaytar al-Khariji, yang bersukacita ketika ia mengira para sahabatnya telah merebut al-Musaysat al-Thaghr menggantikan desa Damaskus. {cite:mujam-al-buldan-sader-1995 5 p.145}
+
+## Definisi Museum
+Pemukiman Yaqut adalah benteng perbatasan di Jayhan dalam kartu (Mopswestia); dibangun oleh Abdullah ibn Abd al-Malik pada tahun 84 H dan kemudian oleh para pembangun perbatasan, menurut catatan Al-Baladhuri dalam kartu tersebut. Adapun Yaqut, benteng ini digambarkan sebagai benteng Islam terkenal yang jatuh pada masa pemerintahannya (abad ke-7) ke tangan Ibn Leon dan putranya. Ia menyebutkan bulu berharga dan tembok lima pintu, serta desa Damaskus yang dinamai menurut nama itu adalah tempat lain yang membedakan mereka secara pribadi.

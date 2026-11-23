@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "98"
-label: { ar: "موطأ مالك 98 — الأب والأبوة", en: "Muwatta Malik 98 — the father and fatherhood", ur: "موطأ مالک 98 — باپ اور والدیت", es: "Muwatta Malik 98 — el padre y la paternidad", fr: "Muwatta Malik 98 — le père et la paternité" }
+label: { ar: "موطأ مالك 98 — الأب والأبوة", en: "Muwatta Malik 98 — the father and fatherhood", ur: "موطأ مالک 98 — باپ اور والدیت", es: "Muwatta Malik 98 — el padre y la paternidad", fr: "Muwatta Malik 98 — le père et la paternité", tr: "Muwatta Malik 98 — Baba ve Babalık", id: "Muwatta Malik 98 — Sang Ayah dan Peran Ayah" }
 text: "حَدَّثَنِي يَحْيَى، عَنْ مَالِكٍ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ أُمِّ الْمُؤْمِنِينَ، أَنَّ رَسُولَ اللَّهِ كَانَ إِذَا اغْتَسَلَ مِنَ الْجَنَابَةِ بَدَأَ بِغَسْلِ يَدَيْهِ ثُمَّ تَوَضَّأَ كَمَا يَتَوَضَّأُ لِلصَّلاَةِ ثُمَّ يُدْخِلُ أَصَابِعَهُ فِي الْمَاءِ فَيُخَلِّلُ بِهَا أُصُولَ شَعْرِهِ ثُمَّ يَصُبُّ عَلَى رَأْسِهِ ثَلاَثَ غَرَفَاتٍ بِيَدَيْهِ ثُمَّ يُفِيضُ الْمَاءَ عَلَى جِلْدِهِ كُلِّهِ."
 summary:
   ar: "حديث في موطأ مالك، رقم 98، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 98، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Muwatta Malik, n.° 98 (Pureza), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un rapport du Muwatta Malik, n° 98 (Pureté), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce rapport avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant du père."
+  tr: "Malik'in Muwatta adlı eserinin 98. hadisinde baba ve babalık konusu geçmektedir. Araştırmacı, bu hadisi İslam'da babalık bölümünde, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alıntılarla birlikte derlemiştir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 98, menyebutkan tentang ayah dan peran ayah. Peneliti mengumpulkan hadits ini dalam bagian tentang peran ayah dalam Islam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 98 (book 2 hadith 67); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

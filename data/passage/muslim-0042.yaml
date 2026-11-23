@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "42"
-label: { ar: "مسلم 42 — المسلم من سلم المسلمون", en: "Muslim 42 — The Muslim is he from whose tongue and hand Muslims are safe", es: "Musulmán 42 — El musulmán es aquel de cuya lengua y mano están a salvo los musulmanes", fr: "Musulman 42 — Le musulman est celui dont la langue et la main protègent les musulmans.", ur: "مسلم 42 - مسلمان وہ ہے جس کی زبان اور ہاتھ سے مسلمان محفوظ رہیں" }
+label: { ar: "مسلم 42 — المسلم من سلم المسلمون", en: "Muslim 42 — The Muslim is he from whose tongue and hand Muslims are safe", es: "Musulmán 42 — El musulmán es aquel de cuya lengua y mano están a salvo los musulmanes", fr: "Musulman 42 — Le musulman est celui dont la langue et la main protègent les musulmans.", ur: "مسلم 42 - مسلمان وہ ہے جس کی زبان اور ہاتھ سے مسلمان محفوظ رہیں", tr: "Müslim 42 — Müslüman, diğer Müslümanların kendisine güvenebileceği kimsedir.", id: "Muslim 42 — Seorang Muslim adalah orang yang dapat memberikan rasa aman kepada Muslim lainnya." }
 text: "سئل رسول الله: أي المسلمين خير؟ قال: «من سلم المسلمون من لسانه ويده»"
 summary:
   ar: "رواية عبد الله بن عمرو في كتاب الإيمان؛ جواب النبي عن سؤال «أي المسلمين خير؟» بسلامة المسلمين من لسان المرء ويده — من أخص تعريفات الإسلام العملي في الصحيح."
+  tr: "Abdullah bin Amr'ın İman Kitabı'ndaki rivayeti; Peygamberimizin \"Müslümanlardan hangisi en hayırlıdır?\" sorusuna, Müslümanların bir kişinin dilinden ve elinden korunmasıyla verdiği cevap, Sahih'te pratik İslam'ın en somut tanımlarından biridir."
+  id: "Riwayat Abdullah bin Amr dalam Kitab Iman; jawaban Nabi atas pertanyaan “Siapakah di antara kaum Muslimin yang terbaik?” dengan menjamin keselamatan kaum Muslimin dari ucapan dan perbuatan seseorang — adalah salah satu definisi paling spesifik tentang Islam praktis dalam Sahih."
 relations:
   - { type: part_of, target: passage/muslim-kitab-01 }
   - { type: mentions, target: person/abdullah-ibn-amr-ibn-al-as, sources: [source/sahih-muslim] }

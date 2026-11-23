@@ -1,0 +1,16 @@
+---
+id: person/ibn-mada
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/ibn-mada.md}
+---
+## Özet
+
+Ebu el-Abbas Ahmed ibn Abd al-Rahman ibn Muhammed ibn Sa'id al-Lakhmi al-Qurtubi, İbn Mada olarak bilinir, Kordoba'dan bir dilbilgici ve hukukçuydu; şehrinde tanınmış bir aileden geliyordu. {cite:wikipedia-ibn-mada-en} Doğum yılı 1116 ile 1119 M.S. arasında olduğu konusunda anlaşmazlık vardır ve Arapça makalede yılları 513–592 Hicri olarak kaydedilir; oysa 513 Hicri 1119 yılına karşılık gelir, 1116 değil. Bu anlaşmazlığı kaydında korumuştur. {cite:wikipedia-ibn-mada-ar} {cite:wikipedia-ibn-mada-en} Gençliğinde din, mühendislik ve tıp okudu, ardından Sevilla'ya taşındı ve burada Sibawayh'in kitabıyla dilbilgisi çalıştı, ardından Ceuta'ya giderek Hakim Iyad'dan tarih ve hadis okudu. {cite:wikipedia-ibn-mada-en}
+
+İbn Mada', Almohad devletinin doktrini olan Zahiri fikıhında bir otorite haline geldi. Fes ve ardından Bejaia yargıcı olarak atandı. Daha sonra, Halife Ebu Yaqub Yusuf, 580 Hicri yılında onu devlet genelinde cemaatin yargıcı olarak atadı. El-Mansur Ya'qub ibn Yusuf'un hükümdarlığı boyunca ölümüne kadar bu görevde kaldı. {cite:wikipedia-ibn-mada-ar} {cite:wikipedia-ibn-mada-en} Almohad reformları kapsamında, Zahiriyye olmayan dini kitapları kendisinin yazdığı ve kendisinin yazdığı dini kitapların engellenmesine yardımcı oldu ve el-Mansur döneminde bunların yakılmasını denetledi. {cite:wikipedia-ibn-mada-en} Hollandalı Arapçı Kees Versteeg, Zahirizme bağlılığını fanatikçe olarak tanımladı. {cite:wikipedia-ibn-mada-en}
+
+İbn Mada, dilbilgicilerine yönelik eleştirisinde üç kitap yazdı: "El-Meşriq el-Nahv," "Retoriğe uygun olmayan Tanzih al-Kur'an" ve "Dilbilgisi Reddi" ve sadece sonuncusu bize ulaştı. {cite:wikipedia-ibn-mada-ar} Doğulu dilbilgicileri, özellikle Basranlar tarafından geliştirilen dilbilgisinin, karmaşık ve yapay olacak kadar tahminler, yorumlar ve gerekçelerle abartıldığını düşünüyordu. Kaçınma çağrısında bulundu etken, tahmin ve dilbilgisel benzetme teorisini ortadan kaldırarak ve dilbilgisini Arapça konuşmanın görünür anlamı üzerine basit ve açık bir şekilde inşa etti. {cite:wikipedia-ibn-mada-en} Bu devrim, onun fıkıh doktrininin bir uzantısıydı: Zahiriyye'nin Şeriat'taki benzetme ve akıl yürütmeyi reddetmesi gibi, İbn Muda da dildeki nedenleri ve nedensel ilişkileri reddetti ve konuşmanın, her şey gibi, Tanrı tarafından emredildiğine, konuşmacı tarafından bağımsız olarak seçilmediğine inandı. {cite:wikipedia-ibn-mada-en} İbn Mudha, bugün anlaşıldığı anlamda dilbilgisel bağımlılık kavramını ele alan ilk dilbilimci olarak kabul edilir. {cite:wikipedia-ibn-mada-en}
+
+İbn Mada, yaklaşık seksen yaşında, 592 Hicri yılında, 1196 M.S.'ye karşılık gelen Jumada al-Awwal'da Sevilla'da öldü ve cemaatin hakimi olarak kalmaya devam etmektedir. {cite:wikipedia-ibn-mada-en} Wikidata, makalelerde ölüm yılını 1196 olarak kabul etmektedir, ancak 1195 yılı, transliterasyonda yanlışlıkla kısaltılmış öğesinde geçmektedir. {cite:wikidata-ibn-mada}

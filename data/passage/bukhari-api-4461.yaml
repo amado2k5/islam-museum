@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "4461"
-label: { ar: "صحيح البخاري 4461 — ما خلّفه من تركة وميراث", en: "Sahih al-Bukhari 4461 — what was left behind: estate and inheritance", ur: "صحیح بخاری 4461 — ترکہ اور میراث", es: "Sahih al-Bukhari 4461 — Lo que quedó: patrimonio y herencia", fr: "Sahih al-Bukhari 4461 — Ce qui a été laissé derrière: biens et héritage" }
+label: { ar: "صحيح البخاري 4461 — ما خلّفه من تركة وميراث", en: "Sahih al-Bukhari 4461 — what was left behind: estate and inheritance", ur: "صحیح بخاری 4461 — ترکہ اور میراث", es: "Sahih al-Bukhari 4461 — Lo que quedó: patrimonio y herencia", fr: "Sahih al-Bukhari 4461 — Ce qui a été laissé derrière: biens et héritage", tr: "Sahih el-Buhari 4461 — Miras ve vasiyet olarak geride bıraktıkları", id: "Sahih al-Bukhari 4461 — Apa yang ditinggalkan olehnya berupa warisan dan peninggalan" }
 text: "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا أَبُو الأَحْوَصِ، عَنْ أَبِي إِسْحَاقَ، عَنْ عَمْرِو بْنِ الْحَارِثِ، قَالَ مَا تَرَكَ رَسُولُ اللَّهِ دِينَارًا وَلاَ دِرْهَمًا وَلاَ عَبْدًا وَلاَ أَمَةً، إِلاَّ بَغْلَتَهُ الْبَيْضَاءَ الَّتِي كَانَ يَرْكَبُهَا، وَسِلاَحَهُ، وَأَرْضًا جَعَلَهَا لاِبْنِ السَّبِيلِ صَدَقَةً."
 summary:
   ar: "حديث في صحيح البخاري، رقم 4461، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 4461، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.º 4461 (Expediciones militares dirigidas por el Profeta (Al-Maghaazi)), menciona lo que quedó tras de sí: bienes y herencia. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
   fr: "Un récit du Sahih al-Bukhari, n° 4461 (Expéditions militaires menées par le Prophète (Al-Maghaazi)), mentionne ce qui a été laissé derrière soi: biens et héritage. Le navigateur de textes sacrés le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "Sahih el-Buhari'de 4461 numaralı hadis, geride bıraktığı mal varlığı ve miras hakkında bilgi vermektedir. Bu derleme, vasiyetnameler, miras, kutsal emanetler ve türbeler konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birlikte hazırlanmıştır."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 4461, menyebutkan apa yang ditinggalkan beliau berupa harta warisan. Hadits ini disusun oleh seorang peneliti yang ahli dalam wasiat, warisan, peninggalan, dan makam suci, beserta teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4461 (book 64 hadith 477); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

@@ -1,0 +1,24 @@
+---
+id: group/jahmiyya
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/group/jahmiyya.md}
+---
+
+## Ringkasan
+Syamiyyah terbagi menjadi tiga sekte terkait isu Al-Qur'an {cite:madkhal-ibn-badran-turki p.54}. Menurut deskripsi kitab ini, para pendukung pandangan ini mengatakan bahwa Al-Qur'an diciptakan, bahwa Allah tidak berbicara kepada Musa, dan bahwa Allah bukanlah seorang pembicara {cite:madkhal-ibn-badran-turki p.96}. Kitab ini mengutip para ulama yang sepakat bahwa siapa pun yang mengatakan demikian tunduk pada pertobatan; jika ia tidak bertobat, ia dibunuh, tidak menikah, dan tidak menerima penghakimannya {cite:madkhal-ibn-badran-turki p.54}.
+
+## Dalam Kitab Sunnah dari Sunan Abu Dawood
+Abu Dawood [[person/abu-dawud-al-sijistani|menyimpan]] dalam kitab Sunnah dari [[work/sunan-abi-dawud|Sunan]] sebuah "bab tentang Jahmiyyah" dan kemudian "bab tentang membantah Jahmiyyah." {cite:sunan-abi-dawud-ibn-hazm-1997-v5 p. 61} {cite:sunan-abi-dawud-ibn-hazm-1997-v5 p. 67}
+- **Definisi Komentator**: Komentator mengutip Muhammad Muhyiddin Abd al-Hamid bahwa Jahmiyya dikaitkan dengan [[person/jahm-ibn-safwan|Jahm ibn Safwan]] al-Samarqandi al-Rasbi, menggambarkannya sebagai 'Jabari murni' yang setuju dengan Mu'tazilit dalam menyangkal sifat kekal dan menambahkannya. Al-Tabari menyebutkan bahwa ia adalah penulis untuk [[person/al-harith-ibn-surayj|al-Harith ibn Surayj]], yang memberontak di Khorasan pada akhir masa pemerintahan Umayyah, dan inovasinya muncul dalam [[place/tirmidh|Tirmid]], dan ia dibunuh [[person/salm-ibn-ahwaz|oleh Salm ibn Ahwaz]] (dan dalam teks tertulis: 'Salamah') di [[place/marw|Marw]] pada akhir pemerintahan Umayyah. {cite:sunan-abi-dawud-ibn-hazm-1997-v5 p. 61-62}
+- **Pendengaran dan Penglihatan**: Abu Dawood menceritakan dari Abu Yunus, mantan Abu Huraira, bahwa [[person/abu-hurayra|Abu Huraira]] membacakan ayat [[passage/quran-4-58|An-Nisa 58]] hingga ayat "Mendengar, Melihat," meletakkan ibu jarinya di telinga lalu di matanya, mengatakan bahwa ia melihat Nabi melakukan ini; Abu Dawood berkata: "Ini adalah penolakan terhadap Jahmiyyah." {cite:sunan-abi-dawud-ibn-hazm-1997-v5 p. 65} [[person/abu-sulayman-al-khattabi|Al-Khattabi menjelaskan]] ini sebagai menegaskan atribut pendengaran dan penglihatan kepada Allah, bukan menegaskan telinga dan mata karena mereka menyakiti. Allah "bukan pemilik anggota tubuh, juga bukan anggota tubuh atau anggota tubuh." {cite:sunan-abi-dawud-ibn-hazm-1997-v5 p. 65}
+- **Hadis 'Membantah Jahmiyyah'**: Hadis Ibn Umar tentang pelipatan langit pada Hari Kebangkitan dan perkataannya, 'Akulah Raja, di mana para tiran?', dan hadis Abu Huraira tentang Tuhan yang turun setiap malam ke surga terendah ketika sepertiga malam tersisa masih ada. {cite:sunan-abi-dawud-ibn-hazm-1997-v5 p. 67-68}
+
+:::perspectives
+**Ahl al-Sunnah: Al-Khattabi fi Ma'alim al-Sunan. ** Aliran ulama dan ahli hukum terkemuka berpendapat bahwa hadis atribut, seperti hadis wahyu, harus dilakukan berdasarkan makna yang tampak, tanpa mencari makna atau penafsiran. Dinawayatkan dari Al-Awza'i bahwa Makhoul dan al-Zuhri biasa berkata: "Perintahkan hadis sebagaimana datangnya," dan menganggapnya sebagai salah satu yang ambigu yang percaya pada makna yang tampak dan mempercayakan batin mereka kepada Tuhan. Ia mengkritik seorang sheikh dari hadits yang berkata tentang wahyu: "Jika Dia berkehendak, Dia bergerak, dan jika Dia menghendaki, Dia tidak," dan dia menganggap ini sebagai kesalahan besar karena gerakan dan ketenangan adalah sifat makhluk ciptaan. {cite:sunan-abi-dawud-ibn-hazm-1997-v5 p. 67-68} Dalam hadis Yang Maha Tinggi dan Yang Paling Rendah dari Takhta, dia melihat bahwa ketika berbicara dilakukan dalam bentuk yang tampak, itu melibatkan semacam cara, dan cara itu ditolak oleh Tuhan; itu adalah "pidato pendekatan" yang dimaksudkan untuk menegaskan kebesaran Tuhan kepada orang Badui. {cite:sunan-abi-dawud-ibn-hazm-1997-v5 p. 64}
+
+**Ahl al-Sunnah: Referensi komentator terhadap pendapat lain.** Komentator menyebutkan bahwa Ibn al-Qayyim menulis sekitar dua puluh halaman tentang hadis al-Atit dalam penyempurnaan Mukhtasar karya al-Mundhiri, sekitar dua puluh halaman tentang makna al-istawa dan pendapat para ulama, dan bahwa [[person/muhammad-zahid-al-kawthari|Muhammad Zahid al-Kawthari]] menulis artikel "Legenda Gunung," di mana ia mengutip Ibn al-Arabi yang mengatakan bahwa hal-hal ini dikumpulkan dari Umat Kitab dan tidak memiliki dasar keaslian; teks-teks ini belum dibaca dalam sumbernya. {cite:sunan-abi-dawud-ibn-hazm-1997-v5 p. 63-64}
+:::
+
+Bab ini menyajikan Jahmiyyah yang menggambarkan lawan-lawannya; pernyataan mereka tidak dikutip dari sumbernya.

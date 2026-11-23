@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "2332"
-label: { ar: "سنن النسائي 2332 — الأب والأبوة", en: "Sunan al-Nasa'i 2332 — the father and fatherhood", ur: "سنن نسائی 2332 — باپ اور والدیت", es: "Sunan al-Nasa'i 2332 — El padre y la paternidad", fr: "Sunan al-Nasa'i 2332 — Le père et la paternité" }
+label: { ar: "سنن النسائي 2332 — الأب والأبوة", en: "Sunan al-Nasa'i 2332 — the father and fatherhood", ur: "سنن نسائی 2332 — باپ اور والدیت", es: "Sunan al-Nasa'i 2332 — El padre y la paternidad", fr: "Sunan al-Nasa'i 2332 — Le père et la paternité", tr: "Sunan an-Nasa'i 2332 — Baba ve Babalık", id: "Sunan an-Nasa'i 2332 — Sang Ayah dan Peran Ayah" }
 text: "أَخْبَرَنَا عَبْدُ الْمَلِكِ بْنُ شُعَيْبِ بْنِ اللَّيْثِ بْنِ سَعْدٍ، قَالَ حَدَّثَنِي أَبِي، عَنْ جَدِّي، قَالَ حَدَّثَنِي يَحْيَى بْنُ أَيُّوبَ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي بَكْرٍ، عَنِ ابْنِ شِهَابٍ، عَنْ سَالِمٍ، عَنْ عَبْدِ اللَّهِ، عَنْ حَفْصَةَ، عَنِ النَّبِيِّ قَالَ \" مَنْ لَمْ يُبَيِّتِ الصِّيَامَ قَبْلَ الْفَجْرِ فَلاَ صِيَامَ لَهُ \"."
 summary:
   ar: "حديث في سنن النسائي، رقم 2332، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 2332، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 2332 (El Libro del Ayuno), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sunan an-Nasa'i, n° 2332 (Le Livre du jeûne), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sunan-ı Nesai'de yer alan 2332 numaralı hadiste baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, nomor 2332, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2332 (book 22 hadith 243); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

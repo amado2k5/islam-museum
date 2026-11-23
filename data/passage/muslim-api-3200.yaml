@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "3200"
-label: { ar: "صحيح مسلم 3200 — الحلال", en: "Sahih Muslim 3200 — the lawful", ur: "صحیح مسلم 3200 — حلال", es: "Sahih Muslim 3200 — el lícito", fr: "Sahih Muslim 3200 — le licite" }
+label: { ar: "صحيح مسلم 3200 — الحلال", en: "Sahih Muslim 3200 — the lawful", ur: "صحیح مسلم 3200 — حلال", es: "Sahih Muslim 3200 — el lícito", fr: "Sahih Muslim 3200 — le licite", tr: "Sahih Muslim 3200 — Helal", id: "Sahih Muslim 3200 — Halal" }
 text: "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا حُسَيْنُ بْنُ الْحَسَنِ، حَدَّثَنَا ابْنُ عَوْنٍ، عَنِ الْقَاسِمِ، عَنْ أُمِّ الْمُؤْمِنِينَ، قَالَتْ أَنَا فَتَلْتُ، تِلْكَ الْقَلاَئِدَ مِنْ عِهْنٍ كَانَ عِنْدَنَا فَأَصْبَحَ فِينَا رَسُولُ اللَّهِ حَلاَلاً يَأْتِي مَا يَأْتِي الْحَلاَلُ مِنْ أَهْلِهِ أَوْ يَأْتِي مَا يَأْتِي الرَّجُلُ مِنْ أَهْلِهِ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 3200، يذكر الحلال. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 3200، جس میں حلال کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
   es: "Un relato en Sahih Muslim, n.º 3200 (El Libro de la Peregrinación), menciona lo lícito. El Navegador Halal y Haram lo incluye junto con los textos del Corán, la Sunnah, la sirah y los relatos de los Compañeros y Sucesores sobre lo que es lícito e ilícito."
   fr: "Un hadith du Sahih Muslim, n° 3200 (Le Livre du Pèlerinage), mentionne ce qui est licite. Le Halal and Haram Browser le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les hadiths des Compagnons et des Successeurs concernant ce qui est licite et ce qui est illicite."
+  tr: "Sahih Müslim'de 3200 numaralı hadis, helal olan şeylerden bahsetmektedir. Helal ve haram sözlüğünün bu bölümü, helal ve haram olan şeylerle ilgili olarak Kur'an, Sünnet, Peygamberimizin hayatı ve Sahabeler ile onların haleflerinin sözlerinden alınan metinleri bir araya getirmektedir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 3200, menyebutkan apa yang diperbolehkan (halal). Bagian kamus halal dan haram ini menggabungkannya dengan teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan ucapan para Sahabat dan Penerus mereka mengenai apa yang diperbolehkan dan dilarang."
 relations:
   - { type: part_of, target: passage/muslim-kitab-15 }
   - { type: mentions, target: concept/halal-haram, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }

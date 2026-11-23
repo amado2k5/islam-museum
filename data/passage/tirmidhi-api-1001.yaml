@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1001"
-label: { ar: "جامع الترمذي 1001 — العدوى", en: "Jami' al-Tirmidhi 1001 — contagion", ur: "جامع ترمذی 1001 — چھوت", es: "Jami' al-Tirmidhi 1001 — contagio", fr: "Jami' al-Tirmidhi 1001 — contagion" }
+label: { ar: "جامع الترمذي 1001 — العدوى", en: "Jami' al-Tirmidhi 1001 — contagion", ur: "جامع ترمذی 1001 — چھوت", es: "Jami' al-Tirmidhi 1001 — contagio", fr: "Jami' al-Tirmidhi 1001 — contagion", tr: "Cami' el-Tirmizi 1001 — Bulaşma", id: "Jami' al-Tirmidhi 1001 — Penularan" }
 text: "… أَبُو دَاوُدَ، أَنْبَأَنَا شُعْبَةُ، وَالْمَسْعُودِيُّ، عَنْ عَلْقَمَةَ بْنِ مَرْثَدٍ، عَنْ أَبِي الرَّبِيعِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ \" أَرْبَعٌ فِي أُمَّتِي مِنْ أَمْرِ الْجَاهِلِيَّةِ لَنْ يَدَعَهُنَّ النَّاسُ النِّيَاحَةُ وَالطَّعْنُ فِي الأَحْسَابِ وَالْعَدْوَى أَجْرَبَ بَعِيرٌ فَأَجْرَبَ مِائَةَ بَعِيرٍ مَنْ أَجْرَبَ الْبَعِيرَ الأَوَّلَ وَالأَنْوَاءُ مُطِرْنَا بِنَوْءِ كَذَا وَكَذَا \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 1001، يذكر العدوى. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 1001، جس میں چھوت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 1001 (El Libro de los Funerales), menciona el contagio. El Navegador de Medicina lo incluye en su lista de textos sobre medicina profética, medicina, anatomía, cirugía, fármacos y tratamientos."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 1001 (Livre des funérailles), mentionne la contagion. Le Répertoire des ouvrages médicaux le répertorie avec les textes sur la médecine prophétique, la médecine, l'anatomie, la chirurgie, les médicaments et les traitements."
+  tr: "Cami' el-Tirmizi'nin 1001 numaralı hadisinde bulaşıcı hastalıklardan bahsedilir. Bu hadis, tıp araştırmacısı tarafından Peygamber tıbbı, tıp, anatomi, cerrahi ve tedavi yöntemleri üzerine metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 1001, menyebutkan tentang penularan. Hadits ini dikumpulkan oleh peneliti medis bersama dengan teks-teks tentang pengobatan Nabi, kedokteran, anatomi, pembedahan, dan terapi."
 relations:
   - { type: part_of, target: passage/tirmidhi-kitab-10 }
   - { type: mentions, target: concept/medicine, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }

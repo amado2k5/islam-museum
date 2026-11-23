@@ -1,0 +1,32 @@
+---
+id: concept/al-arabiyya-fi-djibouti
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/al-arabiyya-fi-djibouti.md}
+---
+## Özet
+Bu sayfa, Arapça'nın Cibuti'deki [[language/arabic|durumunu, İngiliz Ansiklopedisi'nin Cibuti hakkındaki makalesinde ve Dünya Bilgi Kitabı'nın Cibuti sayfasında belirtildiği şekilde sunmaktadır. Her ifade kendi sayfasına atfedilmiştir ve konuşmacı sayısı tahmin edilmemiştir. Devletin müzede Cibuti olarak kayıtlı bir yeri vardır]][[place/djibouti|. Anayasa kararının metni, müzenin sayfada doğrulamadığı bir araştırma özetinde yer aldığı için orijinal diliyle eklenmiştir]].
+
+## Resmi statü
+Ansiklopedinin Cibuti sayfasındaki bilgi kutusunda resmi diller belirtilmiştir: Arapça ve Fransızca {cite:britannica-djibouti}. Dünya Gerçekler Kitabı şöyle der: Fransızca resmidir, Arapça resmidir, Somalice resmidir ve Afaria {cite:cia-factbook-djibouti}. Ansiklopedi, Sami dilleri makalesinde Arapçanın Cibuti'de Fransızca ile birlikte resmi olduğunu belirtir {cite:britannica-semitic-languages}. Üç kaynak da Arapça ve Fransızcanın resmi olduğu konusunda hemfikirdir ve kitap Somali ile Afaria dillerini de listeye ekler.
+
+## Anayasa metni
+Kasım 2025 değişikliğinden sonra 1992 tarihli Cibuti Anayasası, 1. ve 93. maddeler. Müzeye sunulan araştırma özeti iki Arapça metni içermektedir: Madde 1: "İki resmi dili Arapça ve Fransızcadır.", ve Madde 93: "Bu anayasa, hem Fransızca hem de Arapça olarak Cibuti Cumhuriyeti Resmi Gazetesi'nde kaydedilmiş ve yayımlanmıştır; Fransızca metin kabul edilen versiyondur." Özet, resmi kaynaklar olarak Cibuti Resmi Gazetesi ve Cibuti Cumhurbaşkanlığı olarak adlandırılmıştır; müze o sayfayı açmamıştır, çünkü metin alınan özetten alınmıştır ve kurucu 21 Kasım 2026 tarihinde {cite:official-constitution-djibouti} {cite:official-constitution-djibouti-presidency} {cite:alaraby-djibouti-constitution-1992} tarihinde bu biçimde kullanımına izin vermiştir. Madde 1'den ilk alıntı, özetin Al-Araby Al-Jadeed'deki arşivlenmiş bir kopyasından alıntı yaptığı Arapça versiyondur ve ayrıca Fransızca metnin başkanlık sayfasından da bahsedilmektedir. İkincisi, Madde 93'ten, Kasım 2025 değişikliğinden sonra Resmi Gazete'de yer aldığı gibi Arapçadır. Madde 93, Fransızca metni resmi otorite yapar.
+
+## Dil Oranları
+5 yaş ve üzeri yerleşik sakinler arasında birden fazla yanıt verilen diller (N = 882.594): Somali %78,4, Fransızca %41,6, Arapça %26,6, Afaria %25,8. İhracatçı kuruluş Ulusal İstatistik Enstitüsü INSTAD, Kasım 2025'te yayımlanan Üçüncü Genel Nüfus Sayımı'nda RGPH-3 RGPH-3. Özet, Arapça rakamının hem Fransızca hem Arapça konuşanları (%21,6) hem de yalnızca Arapça konuşanları (%5,1) içerdiğini, Fransızca rakamının ise Fransızca ve Arapça'yı (%21,6) ve sadece Fransızca (%20,2) içerdiğini belirtmektedir. Sadece ana dil: Resmi bir yüzde yoktur. Raporun özetinde verilen başlık, google.com'den INSTAD başlığının etrafına sarılmış bir araştırma bağlantısıdır; orijinal başlık bağlantıda gösterildiği gibi kaydedilmiştir ve müze bunun çalışır durumda olduğunu doğrulamamıştır. Bu bölüm, müze tarafından sağlanan bir araştırma özetinden alınmıştır; müze, adını verdiği sayfaları açmamış ve kurucu özetin kullanımına 21 Kasım 2026 {cite:instad-rgph3-tome4-socioculturelles} tarihinde belirtildiği şekilde izin vermiştir.
+
+## Klasik ve sözlü
+İki sayfa, Cibuti'de konuşulan Arapça dili hakkında, Modern Standart Arapça ile günlük arapça arasındaki fark hakkında hiçbir şey söylemiyor, ayrıca bir lehçe adını vermiyor, bu yüzden müze onları sınıflandırmaz; genel ikilik için bkz [[concept/al-fusha-wal-lahajat|. Standart Arapça ve lehçeler]]. Ansiklopedinin ülkedeki Araplar hakkında söylediği şey, Cibuti'de eski bir Yemenli Arap topluluğu olduğu {cite:britannica-djibouti}. Kitap, etnik unsuru diğerleri olarak sınıflandırıyor; bunlar yüzde beş, "çoğunlukla Yemenli Araplar, ayrıca Fransızlar, Etiyopyalılar ve İtalyanlar" {cite:cia-factbook-djibouti} ve bu kitabın sınıflandırmasıdır.
+
+## Ülkedeki diğer diller
+Ansiklopedi, en büyük iki grubun Somali ve Afar olduğunu, dillerinin Doğu Cossa ile bağlantılı olduğunu, ancak konuşanların birbirini anlamadığını belirtir. Afar dili, Saho diliyle lehçesel bir bağ kurar ve Somali başkent ile güneydoğu çeyreğinde {cite:britannica-djibouti} yoğunlaşmıştır. Kitapta Somali'nin yüzde altmış, Afar'ın yüzde otuz beşi ve kalan beşi {cite:cia-factbook-djibouti} yer alır. Kitapta bu rakamlar etnik kökenlere aittir, konuşanların yüzdesi değil. Etnik dillerle karşılaştırmalar için [[concept/lughat-al-qabail|bkz. Kabile]] dilleri ve Somali'nin daha geniş bağlamı [[language/somali|olan Somali]]'ye bakınız.
+
+## Dilin tarihinden
+Ansiklopedi, ülkenin 1896'dan 1967'ye kadar Fransız Somalisi, 1967'den 1977'ye kadar Fransa'nın Afar ve El-İssa bölgesi olarak bilindiğini ve 27 Haziran 1977'de Fransa'dan bağımsızlığını kazandığında Cibuti adını benimsediğini belirtmektedir {cite:britannica-djibouti}. Bunlar Arapça hakkında bilgi vermeyen tarihsel ifadelerdir. Ansiklopedinin belirttiği gibi, Arap ülkeleri arasındaki konum ve 1977'de Lig [[concept/al-alam-al-arabi|'e katılımları için bkz. Arap Devletleri ve Birliği]].
+
+## bu sayfa ona bilgi vermezse
+Cibuti anayasa metnini, Cibuti'deki herhangi bir Arapçanın etnolojik veya glotoloji sınıflandırmasını ya da Manchester Üniversitesi Arapça lehçeleri web sitesini okumadı, bu yüzden sertifikasının geçersiz olması nedeniyle sertifikayı taşımadı. Arapça veya başka bir şey için konuşanların soy ağaçlarını okumadı. Dünya Bilgi Kitabı'nın sayfası, ajansın web sitesinde artık sunulmadığı ve kitap diller bölümünde tahmin tarihini basmadığı için 22 Aralık 2025'te Internet Archive tarafından arşivlenen bir kopyadan okundu. Daha sonra [[place/djibouti|, müzenin sayfalarında doğrulamadığı bir araştırma özetine dayanarak Cibuti]] Sicili oluşturuldu ve kurucu 21 Kasım 2026'da kullanımına izin verdi.
+
+21 Kasım 2026'da eklenen not: Anayasa metni ve dil atıflarıyla ilgili bölümler, müze tarafından sağlanan iki araştırma özetinden alınmıştır ve müze, adını verdikleri sayfaları açmamıştır; bu bölümde bir metnin veya atıfın okunmadığı belirtilmişse, müzenin önceki okumaları anlatılır ve okunmamıştır.

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "322"
-label: { ar: "جامع الترمذي — حديث 322", en: "Jami' al-Tirmidhi 322 — The Book on Salat (Prayer)", ur: "جامع ترمذی — حدیث 322", es: "Jami' al-Tirmidhi 322 — El Libro sobre el Salat (la oración)", fr: "Jami' al-Tirmidhi 322 — Le Livre sur la Salat (Prière)" }
+label: { ar: "جامع الترمذي — حديث 322", en: "Jami' al-Tirmidhi 322 — The Book on Salat (Prayer)", ur: "جامع ترمذی — حدیث 322", es: "Jami' al-Tirmidhi 322 — El Libro sobre el Salat (la oración)", fr: "Jami' al-Tirmidhi 322 — Le Livre sur la Salat (Prière)", tr: "Cami' el-Tirmizi - Hadis 322", id: "Jami' al-Tirmidzi — Hadits 322" }
 text: "أَبُو عِيسَى وَمَنْ تَكَلَّمَ فِي حَدِيثِ عَمْرِو بْنِ شُعَيْبٍ إِنَّمَا ضَعَّفَهُ لأَنَّهُ يُحَدِّثُ عَنْ صَحِيفَةِ جَدِّهِ كَأَنَّهُمْ رَأَوْا أَنَّهُ لَمْ يَسْمَعْ هَذِهِ الأَحَادِيثَ مِنْ جَدِّهِ ‏.‏ قَالَ عَلِيُّ بْنُ عَبْدِ اللَّهِ وَذُكِرَ عَنْ يَحْيَى بْنِ سَعِيدٍ أَنَّهُ قَالَ حَدِيثُ عَمْرِو بْنِ شُعَيْبٍ عِنْدَنَا وَاهِي ‏.‏ وَقَدْ كَرِهَ قَوْمٌ مِنْ أَهْلِ الْعِلْمِ الْبَيْعَ وَالشِّرَاءَ فِي الْمَسْجِد …"
 summary:
   ar: "في جامع الترمذي؛ ذكر كتابة كتاب أو إرساله."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی میں؛ خط لکھنے یا بھیجنے کا ذکر."
   es: "En Jami' al-Tirmidhi; mención de escribir o enviar una carta."
   fr: "Dans Jami' al-Tirmidhi; mention de la rédaction ou de l'envoi d'une lettre."
+  tr: "Cami'ül-Tirmizi'de onun bir kitap yazdığı veya gönderdiği belirtilmektedir."
+  id: "Dalam Jami’ al-Tirmidhi, disebutkan bahwa beliau menulis sebuah buku atau mengirimkannya."
 relations:
   - { type: part_of, target: passage/tirmidhi-kitab-02 }
   - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }

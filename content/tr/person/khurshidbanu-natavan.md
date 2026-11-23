@@ -1,0 +1,36 @@
+---
+id: person/khurshidbanu-natavan
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/khurshidbanu-natavan.md}
+---
+
+# Khorshidbanu yetersiz
+
+## Özet
+Hurshidbanu Tawan (1832–1897), Karabağ'ın son hanlığı Mahdi Quli Han'ın kızı ve tek varisi olan Azerbaycanlı şair ve hayırseverdi. Halk tarafından 'Han'ın Kızı' (Khan Qizzi) olarak bilinirdi. {cite:wikipedia-khurshidbanu-natavan-en} {cite:wikipedia-khurshidbanu-natavan-ru} Azerbaycan'ın en önde gelen aşk şiiri şairlerinden biri olarak kabul edilir. Azerbaycanca ve Farsça yazdı, Şuşa'da Karabağ şairleri ve müzisyenlerini bir araya getiren 'Majlis al-Uns' adlı bir edebiyat konseyi kurdu, şehre ilk su hattını uzattı ve Avrupa sergilerinde yetiştirdiği ve kazandığı Karabağ atlarıyla ünlendi. {cite:wikipedia-khurshidbanu-natavan-en} {cite:wikipedia-khurshidbanu-natavan-az}
+
+## Erken yaşamı ve eğitimi
+Şuşa'da doğdu — dört makale ve Wikidata 6 Ağustos 1832 olarak yayımlanmışken, İngilizce ve Arapça makaleler 5 Ağustos olarak verilmiş, müze ise baskın okumayı kaydetmiş, ancak anlaşmazlıklar açıklanmıştır — Mahdi Quli Khan (1763–1845) ve Badr Jahan Begum'un tek çocuğuydu ve büyükannesi Khurshid Begum bint Jawad Khan'ın adını taşımaktadır. {cite:wikipedia-khurshidbanu-natavan-en} {cite:wikipedia-khurshidbanu-natavan-ar} {cite:wikidata-khurshidbanu-natavan} Teyzesi Kohar Agha tarafından büyütüldü; Kohar Agha ona müzik, şiir ve resim öğretti. Evde Doğu dillerini öğrendi ve Ferdowsi, Nizami, Saadi, Hafez, Nawai ve Fuduli okudu. {cite:wikipedia-khurshidbanu-natavan-en} {cite:wikipedia-khurshidbanu-natavan-ru} Azerbaycan makalesi, çocukluğunda Kur'an ayetlerini ve dini hükümleri dünyevi bilimlerle birlikte ezberlediği belirtiliyor — müzenin biyografisinde yer alan eğitimini anlattığı bir tanım. {cite:wikipedia-khurshidbanu-natavan-az}
+
+## Mirası ve Ailesi
+Babası on dört yaşındayken vefat etti ve 1.315 hane, 41 göçebe bölge ve yedi köy gibi geniş topraklar bıraktı; ardından 1861'de annesinden dokuz köy daha miras aldı. {cite:wikipedia-khurshidbanu-natavan-en} Muhtemelen 1847'de soylu Qomuki Khasai Utsmayev ile evlendi ve Mehdi Quli Khan Wafa ile Khanbeke Hanım (1856–1921) dünyaya getirdi, ardından 1866'da Şuşa'nın sıradan halkından Sayyid Hussein Agha Mirov ile evlendi ve beş çocuk sahibi oldu. {cite:wikipedia-khurshidbanu-natavan-en} {cite:wikipedia-khurshidbanu-natavan-ru} 1858'de Bakü'de romancı Alexander Dumas ile tanıştı, hediyeler verdi ve Dumas bu buluşmayı yazdı. {cite:wikipedia-khurshidbanu-natavan-ru}
+
+## Yoldaşlık Konseyi ve Şiiri
+Şuşa'da ve Azerbaycan genelinde ilk edebi dernekleri kurdu ve destekledi; en ünlüsü, Karabağ'ın büyük şairleri ve müzisyenlerini bir araya getiren 'Majlis al-Uns' (Dostlar Konseyi)'dir. İngilizce makale kuruluşunu 1864'e tarihlendirirken, Rusça makale 1872'de organize edilip başkanlık ettiğini belirtir. Müze her iki okumayı da kaydetmektedir. {cite:wikipedia-khurshidbanu-natavan-en} {cite:wikipedia-khurshidbanu-natavan-ru} 1850'lerde 'Horşid' adıyla şiir yazmaya başladı ve erken dönem şiirlerinin çoğu kayboldu. 1870'ten itibaren kendisi için Farsça'da 'zayıf, çaresiz' anlamına gelen 'Nawan' unvanını benimsedi. {cite:wikipedia-khurshidbanu-natavan-ru} {cite:wikipedia-khurshidbanu-natavan-az} Aşk şiirleri ve dörtlükleri insanlık, nezaket, dostluk ve aşk temalarına odaklanır. Birçoğu, aile hayatında mutsuz olan ve gençliğinde oğlunu kaybeden bir kadını anlatan hüzünlü romantik şiirlerdir. Şiirleri günümüzde hâlâ halk şarkılarında söylenmektedir. {cite:wikipedia-khurshidbanu-natavan-en} Tüm koleksiyonu günümüze ulaşmamıştır; Salman Mumtaz ilk şiir koleksiyonunu 1928'de yayımlamıştır. {cite:wikipedia-khurshidbanu-natavan-ru}
+
+## Hayır Çalışmaları
+Karabağ'ın sosyal ve kültürel gelişimindeki çabalarıyla ün kazandı: saltanatı sırasında Şuşa'da bir saray, cami, ticari evler, tiyatro, kulüpler ve gerçekçi bir okul inşa edildi, Rus makalesinde de belirtildiği gibi — ve bu eserler biyografisinde uygun yerlerinde bakım ve inşaat olarak burada anlatılır. {cite:wikipedia-khurshidbanu-natavan-ru} En ünlü eserleri, 1872'de Sari Baba'daki İsa kaynağından Şuşa'ya uzatılan su hattıdır; bu hatt, on kilometre uzaklıkta, yüz bin rubleye mal olmuş, şehrin su sorununu çözmüş ve 'Han'ın Kızının Suyu' ile 'Nawan Kaynakları' olarak bilinmektedir. {cite:wikipedia-khurshidbanu-natavan-ru} {cite:wikipedia-khurshidbanu-natavan-en} Karabağ at ırkının geliştirilmesi ve yayılması üzerinde çalıştı, atlarını Paris Dünya Fuarı'nda (1867), Moskova Tarım Fuarı'nda (1869) ve Tiflis'te (1882) sergiledi, altın madalyalar ve takdir belgeleri kazandı. {cite:wikipedia-khurshidbanu-natavan-en}
+
+## Ölümü ve mezarı
+Şuşa'da öldü — İngilizce, Azerbaycanca, Arapça ve Wikidata makaleleri 2 Ekim 1897 tarihini verirken, Rusça makale "Eylül – 8 Ekim 1897" olarak belirtilmiş, müze ise "tartışmalı" kategorisinde baskın okumayı açıklamayla belirlemiş — ve Ağdam'daki Emirlikler Mezarlığı'na defnedildi. {cite:wikipedia-khurshidbanu-natavan-en} {cite:wikipedia-khurshidbanu-natavan-ru} {cite:wikidata-khurshidbanu-natavan} Birinci Karabağ Savaşı'nda Ağdam bölgesinin işgalinden sonra mezarı zarar gördü ve Ocak 2021'de bölge Azerbaycan'a döndükten sonra, fotoğrafçı Reza Daqti, mezarın yok olduğunu, mezarının çıkarıldığını ve kemiklerinin kaybolduğunu bildirdi. {cite:wikipedia-khurshidbanu-natavan-en} {cite:wikipedia-khurshidbanu-natavan-ru} Hayat Abdullah Yaffa tarafından (1982) yapılan ve Şuşa'nın işgalinden sonra Bakü'de kurşunlarla dolu olan iki meclisli heykeli Ocak 2021'de Şuşa'ya iade edildi. Ayrıca Bakü'de (1960) bir heykeli ve daha sonra Belçika'nın Waterloo ile Fransa'nın Evian kentlerinde heykelleri bulunmaktadır. {cite:wikipedia-khurshidbanu-natavan-en} {cite:wikipedia-khurshidbanu-natavan-ru}
+
+## Pozisyonlar ve Eleştiriler
+Bu bölüm, kaynaklar tarafından bildirilen durumları sunar ve müze tarafından verilen bir karar değildir.
+
+**İnancı.** Hiçbir kaynak Lanawan'ı kişisel bir tarikat olarak tanımlamıyor. Rusça makale, kişisel biyografisi bölümünde "eski Karabağ ailesi — Cavashirliler — Şii Müslümanlar'a mensup olduğunu" belirtiyor: tanım ailesine aittir, kendisine değil ve müze tabanındaki aile soyu kişisel tanıklıktan ziyade arka plan olarak kabul edilir, bu yüzden "Şii"yi mezhepsel bir değere dönüştürme kuralı geçerli değildir. {cite:wikipedia-khurshidbanu-natavan-ru} Bunun ötesinde, bağlam: gençliğinde ayetleri ve hükümleri ezberlemesi, eğitimi ve bakım ile inşaat için Şuşa'da cami inşa etmesi. {cite:wikipedia-khurshidbanu-natavan-az} {cite:wikipedia-khurshidbanu-natavan-ru} Wikidata'nın onun görüşüne göre dini bir değeri yoktur. {cite:wikidata-khurshidbanu-natavan} Bu nedenle, inancı 'bilinmeyen' olarak kaydedildi, oysa ailesiyle ilgili tüm Rus makalesi günlüğünde tutuldu: iki bağımsız kaynak kendi doktrinini adlandırsaydı, kayıt değişirdi.
+
+## Kaynaklar
+- Yukarıda belirtilen kaynaklar `data/source/`.
+- Makalenin sonraki çevirileri ve düzenlemeleri, net güncelleme tarihleriyle periyodik olarak gözden geçirilmelidir.

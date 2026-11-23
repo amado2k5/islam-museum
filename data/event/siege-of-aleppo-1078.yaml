@@ -1,13 +1,15 @@
 id: event/siege-of-aleppo-1078
 class: event
 kind: siege
-label: { ar: "حصار حلب", en: "Siege of Aleppo", es: "Sitio de Alepo", fr: "Siège d'Alep", ur: "حلب کا محاصرہ" }
+label: { ar: "حصار حلب", en: "Siege of Aleppo", es: "Sitio de Alepo", fr: "Siège d'Alep", ur: "حلب کا محاصرہ", tr: "Halep Kuşatması", id: "Pengepungan Aleppo" }
 summary:
   ar: "بطاقة أولية لحصار حلب؛ لم تُراجع مصادره على الصفحة بعد."
   en: "Draft card for Siege of Aleppo; its sources are not yet checked on the page."
   es: "Boceto de ficha para el asedio de Alepo; sus fuentes aún no han sido verificadas en la página."
   fr: "Fiche de projet pour le siège d'Alep; ses sources ne sont pas encore vérifiées sur la page."
   ur: "حلب کے محاصرے کے لیے ڈرافٹ کارڈ؛ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
+  tr: "Halep kuşatmasına ilişkin ön rapor; kaynakları henüz sayfada incelenmemiştir."
+  id: "Laporan pendahuluan tentang pengepungan Aleppo; sumber-sumbernya belum ditinjau di halaman ini."
 relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/tarikh-islam-hasan-ibrahim] }
   - { type: during_reign, target: person/al-muqtadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }

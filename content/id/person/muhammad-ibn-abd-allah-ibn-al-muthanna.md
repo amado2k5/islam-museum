@@ -1,0 +1,21 @@
+---
+id: person/muhammad-ibn-abd-allah-ibn-al-muthanna
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/muhammad-ibn-abd-allah-ibn-al-muthanna.md}
+---
+## Ikhtisar
+Muhammad ibn Abdullah ibn al-Muthanna ibn Abdullah ibn Anas ibn Malik al-Ansari al-Khazraji al-Najjari al-Basri, Abu Abdullah, digambarkan oleh al-Dhahabi sebagai imam, ulamawan, ulama hadis, dapat dipercaya, hakim Basra {cite:siyar-alam-nubala-ideas-house ص3523}. Ia mengatakan bahwa ia mencari ilmu saat muda, dan bahwa ia lahir pada tahun 1810 H, menurut Muhammad ibn al-Muthanna al-Anzi {cite:siyar-alam-nubala-ideas-house ص3523}.
+
+## Guru dan muridnya
+Ia menceritakan dari Sulayman al-Taymi, Hamid al-Tawil, Sa'id al-Jariri, Ibn 'Awn, Ash'ath ibn Abd al-Malik al-Hamrani, Habib ibn al-Shahid, ayahnya Abdullah ibn al-Muthanna, Ibn Jurayj, Hisham ibn Hassan, Shu'bah, al-Mammam, al-Ma'sudi, dan Khalq, dan disebutkan kepada Zafar al-Faqi h {cite:siyar-alam-nubala-ideas-house ص3523}, {cite:siyar-alam-nubala-ideas-house ص3524}. Abu al-Walid al-Tayalisi, Ahmad, Ibn Ma'in, Bandar, Abu Bakr ibn Abi Shaybah, al-Za'farani, al-Falas, Ali ibn al-Madini, Qutaybah, Abu Hatim dan putranya Abd al-Kabir, Isma'il ibn Ishaq al-Qadi, dan banyak kerabat dekat mereka adalah Abu Muslim al-Kaji {cite:siyar-alam-nubala-ideas-house ص3524}.
+
+## Apa yang dikatakan para kritikus
+Al-Ahwas ibn al-Mufaddal menceritakan dari Ibn Ma'in bahwa ia dapat dipercaya, dan Ibn Ma'in mengatakan ia layak mendapat otoritas yudisial {cite:siyar-alam-nubala-ideas-house ص3524}. Abu Hatim mengatakan ia jujur dan hanya melihat tiga imam: Ahmad ibn Hanbal, Sulayman ibn Dawud al-Hashimi, dan Muhammad ibn Abdullah al-Ansari {cite:siyar-alam-nubala-ideas-house ص3524}. An-Nasa'i mengatakan tidak ada yang salah dengannya, dan Abu Dawood mengatakan ia sangat berubah {cite:siyar-alam-nubala-ideas-house ص3524}. Zakariya al-Saji mengatakan ia adalah orang mulia dan berilmu yang tidak termasuk di antara ksatria hadis seperti Yahya al-Qattan dan rekan-rekannya, dan pendapat itu menang darinya {cite:siyar-alam-nubala-ideas-house ص3524}. Al-Athram berkata dari Ahmad bahwa apa yang ia tetapkan di antara para ulama hadis adalah mempertimbangkan pendapat, dan untuk mendengarkan, ia mendengarkan, dan jika bukunya hilang, ia mulai menceritakan dari kitab hambanya Abu Hakim {cite:siyar-alam-nubala-ideas-house ص3524}. Yahya ibn Sa'id membantah riwayatnya dari Habib ibn al-Shahid mengenai ihtijam padahal itu dilarang, dan al-Dhahabi berkomentar bahwa rantai riwayat lain lemah, dan bahwa al-Ansari juga menceritakan hadits Yazid ibn al-Asam {cite:siyar-alam-nubala-ideas-house ص3524}. Museum mengaitkan setiap putusan kepada penulisnya dan tidak mendukungnya.
+
+## Peradilan
+Ia mempelajari hukum dari Uthman al-Batti, Suwar ibn Abdullah, Ubayd Allah ibn al-Hasan al-Anbari, dan dikatakan ia mempelajari fiksi dari Zufar dan Abu Yusuf, dan Allah yang paling mengetahui {cite:siyar-alam-nubala-ideas-house ص3524}. Ia diangkat menjadi hakim Basra pada masa al-Rashid setelah Mu'adh ibn Mu'adh, kemudian datang ke Baghdad dan mengambil alih jabatan hakim di bagian timur setelah al-Awfi, menurut apa yang disampaikan al-Dhahabi dari Ibn Qutaybah. Ketika al-Amin menjabat, ia memberhentikannya dan mengangkatnya atas ketidakadilan setelah Ibn Ulayyah {cite:siyar-alam-nubala-ideas-house ص3524}. Al-Ramhur al-Muzi menceritakan bahwa al-Ma'mun memberinya lima puluh ribu dirham untuk dibagikan kepada para ahli hukum Basra, dan terjadi perselisihan antara dia dan Hilal ibn Muslim mengenai hal ini {cite:siyar-alam-nubala-ideas-house ص3524}.
+
+## Kematiannya
+Ibn Sa'd dan lainnya mengatakan ia meninggal di Basra di Rajab pada tahun 215 H {cite:siyar-alam-nubala-ideas-house ص3524}. Al-Dhahabi mengatakan ia hidup sembilan puluh tujuh tahun dan merupakan rantai transmisi yang paling dapat diandalkan di antara orang-orang pada zamannya, serta memiliki bagian yang terkenal dari Al-Awali {cite:siyar-alam-nubala-ideas-house ص3524}.

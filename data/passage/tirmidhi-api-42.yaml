@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "42"
-label: { ar: "جامع الترمذي 42 — الأب والأبوة", en: "Jami' al-Tirmidhi 42 — the father and fatherhood", ur: "جامع ترمذی 42 — باپ اور والدیت", es: "Jami' al-Tirmidhi 42 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 42 — le père et la paternité" }
+label: { ar: "جامع الترمذي 42 — الأب والأبوة", en: "Jami' al-Tirmidhi 42 — the father and fatherhood", ur: "جامع ترمذی 42 — باپ اور والدیت", es: "Jami' al-Tirmidhi 42 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 42 — le père et la paternité", tr: "Cami' el-Tirmizi 42 — Baba ve Babalık", id: "Jami' al-Tirmidhi 42 — Sang Ayah dan Peran Ayah" }
 text: "… الْبَابِ وَأَصَحُّ. وَرَوَى رِشْدِينُ بْنُ سَعْدٍ وَغَيْرُهُ هَذَا الْحَدِيثَ عَنِ الضَّحَّاكِ بْنِ شُرَحْبِيلَ عَنْ زَيْدِ بْنِ أَسْلَمَ عَنْ أَبِيهِ عَنْ عُمَرَ بْنِ الْخَطَّابِ أَنَّ النَّبِيَّ تَوَضَّأَ مَرَّةً مَرَّةً. قَالَ وَلَيْسَ هَذَا بِشَيْءٍ وَالصَّحِيحُ مَا رَوَى ابْنُ عَجْلاَنَ وَهِشَامُ بْنُ سَعْدٍ وَسُفْيَانُ الثَّوْرِيُّ وَعَبْدُ الْعَزِيزِ بْنُ مُحَمَّدٍ عَنْ زَيْدِ بْنِ أَسْلَمَ عَنْ عَطَاءِ بْنِ يَسَارٍ عَنِ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 42، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 42، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Jami' al-Tirmidhi, n.º 42 (El Libro de la Purificación), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 42 (Le Livre de la Purification), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Cami' el-Tirmizi'nin 42 numaralı hadisinde baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan metinlerle birleştirir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 42, menyebutkan tentang ayah dan peran ayah. Fitur \"Peran Ayah dalam Islam\" menggabungkan hadits ini dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 42 (book 1 hadith 42); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

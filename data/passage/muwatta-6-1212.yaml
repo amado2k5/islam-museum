@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani]
 work: work/muwatta-malik
 ref: "1212"
-label: { ar: "الموطأ 1212 — نافع عن ابن عمر: يكبر عند رمي كل حصاة", en: "Muwatta 1212", es: "Muwatta 1212", fr: "Muwatta 1212", ur: "موطا 1212" }
+label: { ar: "الموطأ 1212 — نافع عن ابن عمر: يكبر عند رمي كل حصاة", en: "Muwatta 1212", es: "Muwatta 1212", fr: "Muwatta 1212", ur: "موطا 1212", tr: "El-Muvatta 1212 — İbn Ömer'den rivayet edildiğine göre Nafi', her taş attığında \"Allahu Ekber\" der.", id: "Al-Muwatta 1212 — Diriwayatkan oleh Nafi’ dari Ibnu Umar: Dia mengucapkan “Allahu Akbar” ketika melempar setiap kerikil." }
 summary:
   ar: "يروي مالك عن نافع أن عبد الله بن عمر كان يكبر عند رمي الجمرة كلما رمى بحصاة. {cite:muwatta-maruf-1997 p.543}"
+  tr: "Malik, Nafi'den rivayetle Abdullah ibn Umar'ın Cemarat'a her taş attığında \"Allahu Ekber\" (Allah en büyüktür) dediğini aktarır. {cite:muwatta-maruf-1997 s.543}"
+  id: "Malik meriwayatkan dari Nafi’ bahwa Abdullah ibn Umar selalu mengucapkan “Allahu Akbar” (Allah Maha Besar) setiap kali ia melempar batu kecil ke Jamarat. {cite:muwatta-maruf-1997 p.543}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
   - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }

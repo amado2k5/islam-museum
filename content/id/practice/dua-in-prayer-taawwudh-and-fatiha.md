@@ -1,0 +1,12 @@
+---
+id: practice/dua-in-prayer-taawwudh-and-fatiha
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/dua-in-prayer-taawwudh-and-fatiha.md}
+---
+## Ringkasan
+Apa yang disusun al-Nawawi dalam bab-bab tentang mencari perlindungan setelah doa pembuka dan awal bagian bacaan: bentuk mencari perlindungan dan apa yang terkandung di dalamnya, lalu kewajiban Al-Fatiha dan yang terkait dengannya. {cite:al-adhkar-nawawi-arnaut-1994 p. 45}
+
+## Apa yang dikumpulkan al-Nawawi dalam 'Al-Adhkar'
+Al-Nawawi berkata bahwa mencari perlindungan setelah doa pembuka adalah Sunnah secara konsensus, dan itu adalah pengantar untuk pembacaan. Ia menyebutkan sebuah ayat dari [[passage/quran-16-98|Surah An-Nahl 98]] {cite:al-adhkar-nawawi-arnaut-1994 p. 45}. Ia menceritakan dari Abu Dawood, Al-Tirmidhi, Al-Nasa'i, Ibn Majah, dan Al-Bayhaqi bahwa [[person/muhammad|Nabi]] berkata sebelum membaca doa, "Aku memohon perlindungan kepada Allah dari Setan terkutuk dari tiupan, napasnya, dan hamzahnya." Ia juga menyebutkan bahwa penafsiran dalam hadits adalah: kegilaan adalah hamma, kesombongan ditiup, dan rambut itu bertiup {cite:al-adhkar-nawawi-arnaut-1994 p. 46}. Ia mengatakan mencari perlindungan adalah dianjurkan dan bukan kewajiban. Siapa pun yang meninggalkannya bukanlah dosa, doanya tidak dibatalkan, dan ia tidak boleh sujud ke dalam pelupaan, dan bahwa Dalam rak'ah pertama, disarankan secara konsensus {cite:al-adhkar-nawawi-arnaut-1994 p. 46}. Kemudian bab tentang pembacaan dimulai, menyatakan bahwa pembacaan wajib berdasarkan konsensus, dan bahwa Al-Fatiha wajib menurut mayoritas dan tidak cukup bagi mereka yang mampu melakukannya {cite:al-adhkar-nawawi-arnaut-1994 p. 46}. Ia menyebutkan hadits yang menyatakan bahwa shalat tidak cukup tanpa Al-Fatiha, yang diceritakan oleh Ibn Khuzaymah dan Ibn Hibban dalam Sahih mereka dengan rantai suara {cite:al-adhkar-nawawi-arnaut-1994 p. 47}. Ia mengatakan bahwa Basmala adalah salah satunya, meskipun penekanannya empat belas, dan siapa pun yang tidak melakukannya akan membaca sesuai ukurannya atau membaca Tasbih dan Tahleel {cite:al-adhkar-nawawi-arnaut-1994 p. 47}.

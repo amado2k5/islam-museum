@@ -1,0 +1,26 @@
+---
+id: question/did-al-tabari-reject-established-readings
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/question/did-al-tabari-reject-established-readings.md}
+---
+## Ringkasan
+[[person/al-tabari|Al-Tabari]] berhenti sejenak di Jami [[work/jami-al-bayan|' al-Bayan]] ketika ia melihat banyaknya [[concept/qiraat|pembacaan]] di 854 tempat, dan ia menyajikannya serta memperjelas pendapatnya, kadang setuju dengan para pembaca dan kadang menentang yang lain. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1365} Para ulama berbeda dalam mendeskripsikan pendekatannya: apakah ia menerapkan standar yang diterima oleh orang-orang pembacaan, atau menolak bacaan yang disepakati bulat oleh Umat?
+
+## Prinsip Al-Tabari dalam bukunya 'The Readings'
+Makki ibn Abi Talib [[person/makki-ibn-abi-talib|menceritakan]] dalam "Al-Ibanah" dari kitab yang hilang Al-Tabari dalam bacaan bahwa segala sesuatu secara otentik menyatakan bahwa Nabi mengajarkan bangsanya dari [[concept/al-ahruf-al-sabaa|tujuh huruf]], tidak ada yang boleh salah membacanya jika sesuai dengan aksara Mushaf, dan apa yang bertentangan dengan aksara itu tidak boleh dibaca dan harus dihentikan serta dibahas di dalamnya. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1364} Al-Tabari menceritakan dalam pengantar tafsirnya bahwa [[person/abu-al-aliya-al-riyahi|ketika Abu Al-'Aliya]] membacakan kepadanya, ia tidak berkata, "Bukan seperti yang dibacakan," melainkan berkata, "Adapun aku, aku membaca ini dan itu," dan Ibrahim Al-Nakha'i berkata: Aku melihat sahabatmu telah mendengar bahwa siapa pun yang tidak percaya pada surat itu telah tidak percaya pada semuanya. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1364}
+
+## Jalannya di 'Jami' al-Bayan'
+Ahmad Khalid Babiker menyimpulkan bahwa putusan al-Tabari tentang pembacaan didasarkan pada tiga pilar: kesesuaian aksara Mushaf, kesepakatan sebagian besar pembaca, dan keseragaman dalam bahasa Arab yang paling fasih. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1381} Ia setuju dengan pembaca mengenai kesepakatan kedua bacaan dalam makna, atau kesetaraan dalam popularitas atau kebenaran bahasa, seperti yang ia katakan dalam [[passage/quran-3-48|Al-Imran: 48]] Keduanya adalah dua bacaan yang berbeda makna, jadi mana pun yang dibaca pembaca adalah benar. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1365} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1366} Juga disebutkan apa yang hanya satu atau dua pembaca, atau tiga, dan mungkin apa yang ia bacakan empat, karena sebagian besar pembaca menentangnya, baik pembaca itu dihitung di antara tujuh atau sepuluh atau tidak. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1382} Contohnya termasuk penelitian tentang [[passage/quran-6-137|Al-An'am: 137]], [[passage/quran-3-181|Al-Imran: 181]], [[passage/quran-6-105|Al-An'am: 105]], [[passage/quran-2-140|Al-Baqarah: 140]], dan [[passage/quran-7-44|Al-A'raf: 44]]. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1381} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1382}
+
+## Perbedaan pendapat dan pendapat
+:::perspectives
+- **Ahl al-Sunnah: Al-Tabari sendiri**: Apa yang otentik dan sesuai dengan naskah tidak salah bagi pembacanya, tetapi apa yang menyimpang dari bacaan yang disampaikan disampaikan dengan jelas dan luas serta memegang pendapat yang bertentangan dengan kebenaran. Yang diutamakan adalah apa yang sesuai dengan naskah, dan sebagian besar pembaca serta yang paling fasih {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1364}, {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1376}, {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1377}, {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1382}.
+- **Ahl al-Sunnah: Ibn al-Jazari dalam 'Al-Nashr' seperti yang dilaporkan dalam penelitian**: Para pembaca utama bekerja pada yang paling otentik dalam keaslian, bukan pada analogi dalam bahasa Arab, dan kesepakatan bahasa Arab meskipun dengan salah satu syarat penerimaan. Beberapa orang menjadikan keaslian transmisi sebagai satu-satunya syarat {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.92} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1376}.
+- **Akademisi: Ahmed Khaled Babiker (um Al-Qura University)**: Al-Tabari tidak mematuhi prinsipnya dalam buku bacaan, sehingga ia menilai bahasa dan kadang terlalu jauh dalam membantah pembacaan yang benar dalam transliterasi dan Arab yang sesuai dengan aksara. Jika memungkinkan, ia harus meminta maaf karena ingin memperjelas kesesuaian versi yang benar dengan bahasa Arab {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1365}, {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1376}, {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.1377}.
+:::
+
+## Catatan untuk Peneliti
+- Halaman file PDF tesis. Buku Al-Tabari tentang pembacaan hilang, dan teksnya di sini dikutip dari 'Al-Ibanah' karya Makki melalui surat tersebut.
+- Teks ayat atau bacaan tidak disebutkan di sini; referensi ke ayat-ayat beserta jumlahnya seperti yang disebutkan dalam penelitian dibuat.

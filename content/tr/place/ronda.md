@@ -1,0 +1,15 @@
+---
+id: place/ronda
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/place/ronda.md}
+---
+## Özet
+Randa, Endülüs'[[place/al-andalus|te Malaga'nın batısındaki tahkimatlı şehirlerden biridir]]. El-Maqri, Kastilya hükümdarının 890 H yılında Cumada el-Avval'a yerleştiğini ve halkının Dhikwan'a destek için gittiğini belirtir. Duvarlarını yıktı ve halkı sağ salim çıktı. Tüm o topraklar ona itaat etti ve [[place/malaga|sadece ona itaat etmeye gelenler batı Malaga]]'da kaldı. {cite:nafh-tib-maqqari p.520}
+
+## Ülkeler sözlüğünde
+Yaqut, 'Randa'dan ilkinde damma, ikincisinde sukun ile anır ve buranın Takarna bölgesinden al-Andalus'ta sağlam bir kale olduğunu, akan bir nehir üzerinde eski bir şehir olduğunu, geniş tarım ve bol tarım yapıldığını söyler. Selefi'den rivayet edilir ki, 530 Hile yılında Hicaz'dan döndükten sonra Abu al-Hasan Saqi ibn Khalaf ibn Sulayman al-Asadi al-Rundi onu ziyaret etmiş ve ona Randa'nın Sevilla ile Malaga arasında bir kale olduğunu söylemiştir. Selefiler onu şanslı biri olarak tanımlar, al-Andalus'u duymuş ve sonra memleketine dönmüştür. Malaga'dan edebi bir figür olan Abu Ali Umar ibn Muhammed al-Rundi de ona atfedilir. Muhammed ibn İbrahim el-Fakhari ve Ebu Zayd al-Suhaili'den rivayet etmiş ve erdemli bir şeyhti. {cite:mujam-al-buldan-sader-1995 3 p.73-74} Onun için al-Kurah unvanı 'Takarni'dir; kaf üzerinde bir fetha ve ra'da bir sukun vardır; al-Sam'ani bunu kaf ve ra üzerinde bir damma, rahibede ise bir şada ile kaydetmiştir; bu, el-Endülüs'te birçok nehirin çıktığı ama girmediği sağlam dağları olan büyük bir kuradır ve burada Ebu Emir Muhammed bin Said el-Takarni tarafından atfedilen Randa kalesi bulunur; kendisi etkileyici şairlerden biridir. {cite:mujam-al-buldan-sader-1995 2 p.6-7} Ayrı bir girişte, 'Şiras', Takarna'nın eserlerinden verandayla bağlı olmayan başka bir kaleden bahseder. {cite:mujam-al-buldan-sader-1995 3 p.382}
+
+## Müzenin Tanımı
+Randa girişindeki "Takerna" balosunun çizimi, başlığı "Takerni"den farklıdır ve müze metindeki gibi iki çizimi aktarmıştır. Yaqut, kuşatmayı Jumada al-Awwal 890'daki kayıtlarında belirtmemiştir; kuşatma yüzyıllar öncesine aittir ve çelişmez, her biri birbirini tamamlar: Al-Maqri, Malaga'nın batısında bir şehirden bahsederken, Yaqut bunu Al-Selefi'nin anlatımına göre Sevilla ile Malaga arasında konumlandırır. Bu, kayıt noktası (36.7462, -5.1612) ile uyumludur; bu nokta Malaga rekor noktasından yaklaşık 66 kilometre ve Sevilla kayıt noktasından yaklaşık 101 kilometre uzaklıktadır, ancak Yaqut koordinat vermez ve "arada" kelimesi kesin bir konum belirtmez. Müzenin bu konudaki incelemesi sadece bölge üzerinde bir anlaşmadır. Yaqut, bahsettiği kalenin mevcut Randa şehri olduğunu söylemez; müzenin tanımı, isim ve konuma dayanır. Müze, Koura Takerni'ye dair özel bir kayıt bulunmadığı için bu kayıtla bağlantılı değildir.

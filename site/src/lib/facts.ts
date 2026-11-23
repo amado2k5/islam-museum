@@ -12,7 +12,7 @@ import { repoPath } from "./paths";
 import { byId, href, labelOf } from "./graph";
 import type { Lang } from "./i18n";
 
-export interface Fact { id: string; ar: string; en: string; ur: string; fr?: string; es?: string; sources: string[] }
+export interface Fact { id: string; ar: string; en: string; ur: string; fr?: string; es?: string; tr?: string; sources: string[] }
 export interface FactView { id: string; href: string; label: string; text: string; sources: string[] }
 
 let cache: Fact[] | null = null;
@@ -37,7 +37,8 @@ export function loadFacts(): Fact[] {
   return out;
 }
 
-export const factText = (f: Fact, lang: Lang): string => (lang === "fr" || lang === "es" ? f[lang] ?? f.en : f[lang as "ar" | "en" | "ur"]) ?? f.ar;
+export const factText = (f: Fact, lang: Lang): string =>
+  (f as Partial<Record<Lang, string>>)[lang] ?? (lang === "ar" || lang === "ur" ? f.ar : f.en ?? f.ar);
 
 export function viewFact(f: Fact, lang: Lang): FactView {
   const n = byId.get(f.id);

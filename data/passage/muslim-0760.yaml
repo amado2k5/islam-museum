@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "760"
-label: { ar: "مسلم 760 — من صام رمضان إيماناً واحتساباً", en: "Muslim 760 — Whoever fasts Ramadan in faith and hope", es: "Musulmán 760 — Quien ayuna en Ramadán con fe y esperanza", fr: "Muslim 760 — Quiconque jeûne le Ramadan avec foi et espérance", ur: "مسلم 760 - جو ایمان اور امید کے ساتھ رمضان کے روزے رکھتا ہے۔" }
+label: { ar: "مسلم 760 — من صام رمضان إيماناً واحتساباً", en: "Muslim 760 — Whoever fasts Ramadan in faith and hope", es: "Musulmán 760 — Quien ayuna en Ramadán con fe y esperanza", fr: "Muslim 760 — Quiconque jeûne le Ramadan avec foi et espérance", ur: "مسلم 760 - جو ایمان اور امید کے ساتھ رمضان کے روزے رکھتا ہے۔", tr: "Müslim 760 — Ramazan ayında imanla ve sevap kazanmak için oruç tutan kimse...", id: "Muslim 760 — Barangsiapa berpuasa Ramadan karena iman dan mengharapkan pahala" }
 text: "قال رسول الله: من صام رمضان إيماناً واحتساباً غفر له ما تقدم من ذنبه، ومن قام ليلة القدر إيماناً واحتساباً غفر له ما تقدم من ذنبه"
 summary:
   ar: "رواية أبي هريرة في باب فضل قيام رمضان من كتاب صلاة المسافرين في صحيح مسلم؛ وفي لفظ أول «من قام رمضان إيماناً واحتساباً» — صيام الشهر وقيامه وليلة القدر كلها موعودة بالمغفرة."
+  tr: "Sahih Müslim'in \"Yolcuların Namazı\" kitabındaki Ramazan ayında namaz kılmanın faziletine dair bölümde Ebu Hurayra'nın rivayetine göre; ilk rivayette, \"Kim Ramazan ayında imanla ve sevap beklentisiyle namaz kılarsa\" - yani ay boyunca oruç tutmak, Ramazan ayında namaz kılmak ve Kadir Gecesi'ni kutlamak - bunların hepsine bağışlanma vaat edilmiştir."
+  id: "Riwayat Abu Hurairah dalam bab tentang keutamaan shalat di bulan Ramadan dari kitab shalat musafir dalam Sahih Muslim; dan dalam versi pertama, “Barangsiapa yang shalat di bulan Ramadan dengan iman dan mengharapkan pahala” — berpuasa di bulan Ramadan, shalat di bulan Ramadan, dan Malam Lailatul Qadr semuanya dijanjikan pengampunan."
 relations:
   - { type: part_of, target: passage/muslim-kitab-06 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

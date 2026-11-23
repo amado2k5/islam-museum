@@ -1,0 +1,57 @@
+---
+id: person/syed-ameer-ali
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+title: سيد أمير علي (1849–1928)
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/syed-ameer-ali.md}
+---
+
+## Ringkasan
+
+Syed Amir Ali (1849–1928) adalah seorang hakim, pemikir, dan penulis India yang menjadi orang India pertama yang diangkat ke Komite Banding British Privy Council, serta mendirikan Central Mohammedan National Society dan cabang Islamic League di London. {cite:source/wikipedia-syed-ameer-ali-en} Artikel Arab menggambarkannya sebagai hakim, pemikir politik, dan penulis Islam India, serta dianggap sebagai salah satu pendiri All India Muslim League. {cite:source/wikipedia-syed-ameer-ali-ar} Bukunya 'The Spirit of Islam' (1891) adalah salah satu buku paling berpengaruh yang membela Islam di hadapan pembaca berbahasa Inggris dari generasinya. Artikel berbahasa Inggris mengutip penilaian orientalis Margale bahwa buku tersebut 'memiliki dampak kuat pada kelas terpelajar di dunia berbahasa Inggris, dan seluruh dampaknya mendukung agama yang disajikannya.' {cite:source/wikipedia-syed-ameer-ali-en}
+
+## Kehidupan Awal dan Pendidikan
+
+Ia lahir pada 6 April 1849, anak keempat dari lima putra Syed Saadat Ali, yang meninggal pada tahun 1856. {cite:source/wikipedia-syed-ameer-ali-en} Tempat kelahirannya diperdebatkan oleh tiga sumber dalam sumber: Katak in Orissa, yang didasarkan pada catatan artikel bahasa Inggris dan Oxford Dictionary of National Biographies; Chinsura dalam entri untuk Encyclopedia of Religion; dan Mohan in Od menurut Wikidata—rumah asal keluarganya, sehingga tampaknya asal-usulnya disalahartikan dengan kelahiran. {cite:source/wikipedia-syed-ameer-ali-en} {cite:source/encyclopedia-of-religion-syed-ameer-ali} {cite:source/wikidata-syed-ameer-ali} Keluarga ini mengklaim garis keturunan Nabi melalui Fatima dan Imam Ali al-Ridha, dan menetap di Lucknow pada abad kedelapan belas dalam kelompok kecil Muslim Syiah India yang berasal dari Iran. {cite:source/wikipedia-syed-ameer-ali-en} {cite:source/encyclopedia-of-religion-syed-ameer-ali} Ia belajar bahasa Persia, Arab, dan Inggris di Hooghly Mohsen College dan Universitas Calcutta — gelar Sarjana pada tahun 1867, Magister Sejarah pada tahun 1868, dan Sarjana Hukum pada tahun 1869 — kemudian berlayar ke London, di mana ia belajar di Inner Temple dari tahun 1869 hingga 1873 dan bertemu dengan Syed Ahmad Khan. {cite:source/wikipedia-syed-ameer-ali-en} {cite:source/encyclopedia-of-religion-syed-ameer-ali}
+
+## Karier
+
+Ia kembali ke Calcutta pada tahun 1873, berpraktik hukum di Mahkamah Agung, dan memberikan kuliah tentang Syariah Islam di Presidency College. {cite:source/wikipedia-syed-ameer-ali-en} Ia duduk di Dewan Legislatif Bengali sejak tahun 1878, menjadi profesor hukum pada tahun 1881, dan bergabung dengan Dewan Legislatif Gubernur Jenderal pada tahun 1883. {cite:source/wikipedia-syed-ameer-ali-en} Pada tahun 1890, ia diangkat menjadi hakim di Pengadilan Tinggi Calcutta, puncak karier hukum India pada masanya. {cite:source/wikipedia-syed-ameer-ali-en} {cite:source/encyclopedia-of-religion-syed-ameer-ali} Ia pensiun pada tahun 1904 dan menetap di Inggris bersama istrinya Isabel Ida Konstam—artikel bahasa Inggris menyebutnya sebagai Muslim pertama dari India yang secara sukarela tinggal secara permanen—dan pada tahun 1909 ia menjadi orang India pertama yang menjabat di Komite Banding Dewan Privy, di mana ia tetap hingga wafat dengan gelar 'Yang Mulia.' {cite:source/wikipedia-syed-ameer-ali-en} Artikel dalam bahasa Urdu menyoroti perbedaan yang sama: orang India pertama dan Muslim pertama di Dewan Privy. {cite:source/wikipedia-syed-ameer-ali-ur}
+
+## Kehidupan publik dan asosiasi
+
+Di Kalkuta pada tahun 1877, ia mendirikan Majelis Nasional Mohammadan Pusat — entri dalam Ensiklopedia Agama mencatat pendirian pada tahun 1878 dan artikel Urdu pada tahun 1879, dan tiga tanggal tersebut tercatat dalam daftarnya — dengan tiga puluh empat cabang dan kepemimpinannya berlangsung lebih dari dua puluh lima tahun, memperjuangkan pendidikan dan organisasi politik umat Muslim. {cite:source/wikipedia-syed-ameer-ali-en} {cite:source/encyclopedia-of-religion-syed-ameer-ali} {cite:source/wikipedia-syed-ameer-ali-ur} Ia adalah salah satu penandatangan petisi Shimla pada tahun 1906 kepada Lord Minto, sehingga menjadi salah satu pendiri All India Muslim League, dan pada tahun 1908 ia mendirikan London Muslim League, sebuah badan independen, di London. {cite:source/wikipedia-syed-ameer-ali-en} Pada tahun 1910, ia berpartisipasi dalam pendirian London Mosque Fund, yang melahirkan East London Mosque, dan mengadvokasi konstituensi Muslim yang terpisah. {cite:source/wikipedia-syed-ameer-ali-en} {cite:source/encyclopedia-of-religion-syed-ameer-ali} Setelah Perang Dunia I, ia mengadopsi isu kekhalifahan, dan pada tahun 1924 Aga Khan bergabung dalam permohonan kepada Turki untuk mempertahankan kekhalifahan; artikel berbahasa Arab mencatat tulisannya yang memprotes pembagian negara-negara Arab Ottoman dan pembelaannya terhadap Ottoman. {cite:source/encyclopedia-of-religion-syed-ameer-ali} {cite:source/wikipedia-syed-ameer-ali-ar}
+
+## Publikasi
+
+Buku pertamanya, "A Critical Examination of the Life and Teachings of Muhammad," terbit pada tahun 1873 — dan entri dalam Ensiklopedia Agama mencatat versi pertamanya pada tahun 1872 — kemudian diperluas melalui revisi menjadi "The Spirit of Islam" (1891; edisi revisi 1922 dan 1953). {cite:source/wikipedia-syed-ameer-ali-en} {cite:source/encyclopedia-of-religion-syed-ameer-ali} Artikel berbahasa Arab merangkum draf buku: membela Islam dari serangan Barat, terutama serangan misionaris, membantah tesis Orientalis tentang hubungan Islam dengan kekerasan dan perbudakan, membela hak-hak perempuan, dan memperjelas validitas Islam untuk setiap era. {cite:source/wikipedia-syed-ameer-ali-ar} Karya hukumnya, 'The Personal Law of the Muhammadans' (1880) dan 'The Muhammadan Law,' menjadikannya referensi modern yang otoritatif tentang status pribadi Islam di India Britania. Bukunya 'A Concise History of the Arabs' (1899) menyajikan sejarah awal Islam kepada audiens luas, bersama dengan 'Etika Islam' (1893), 'Islam' (1906), dan 'Status Hukum Perempuan dalam Islam' (1912). {cite:source/wikipedia-syed-ameer-ali-en} {cite:source/wikipedia-syed-ameer-ali-ur}
+
+## Kematian
+
+Ia meninggal pada 3 Agustus 1928 di Rudgwick, Sussex County — artikel bahasa Inggris menyebutkan di satu tempat sebagai 4 Agustus, dan catatannya mencakup pengantar, artikel Arab, dan Wikidata — dan ia dimakamkan di Pemakaman Brookwood. {cite:source/wikipedia-syed-ameer-ali-en} {cite:source/wikidata-syed-ameer-ali}
+
+## Posisi dan Kritik
+
+Bagian ini menyajikan sumber apa yang dikaitkan dengan Amir Ali dan bagaimana penelitian menilainya; ini bukan penilaian dari museum.
+
+**Kredo dan Proyeksi Sektariannya.** Identitas Syiah Amir Ali ditetapkan dalam dua sumber independen, sebagaimana dijelaskan dalam catatannya: Entri untuk Ensiklopedia Agama menyatakan bahwa, meskipun ia sepenuhnya membela kekhalifahan, "pada akhirnya ia tetap berkomitmen pada Imamat Syiah Rasul" — sebuah putusan berdasarkan bukunya, "The Muhammadan Law"—dan artikel berbahasa Inggris mengonfirmasi identitas Syiah keluarga tersebut dan dugaan garis keturunannya dengan Ali al-Ridha, Imam kedelapan dalam seri Dua Belas. {cite:source/encyclopedia-of-religion-syed-ameer-ali} {cite:source/wikipedia-syed-ameer-ali-en} Tidak ada sumber yang menyebutkan cabang tertentu; nilai seorang 'Syiah Dua Belas' dalam catatannya berarti pengecualian museum menurut aturan pendiri — dari istilah 'Syiah' yang ditambahkan ke konteks pendukung ini — dan ditandai oleh ini dalam catatan catatannya, bukan sekte yang dinamai menurut namanya sendiri. {cite:source/encyclopedia-of-religion-syed-ameer-ali} Entri yang sama mencatat karakter rasional dari formasi Syiahnya: ia sangat dipengaruhi oleh risalah Sayyid Karamat Ali tentang 'Meniru Mu'tazilitation Rasional dalam Teologi Syiah.' {cite:source/encyclopedia-of-religion-syed-ameer-ali}
+
+**Pembelaan Hadis.** Dalam "The Spirit of Islam," ia mempresentasikan Islam sebagai agama progresif yang rasional dan membela Khalifah Sunni sebagai kepresidenan "paul" — sebuah posisi yang ditempatkan dalam entri Ensiklopedia Agama sebagai kontras dengan komitmennya sendiri terhadap Imamat, sementara artikel Arab membacanya secara langsung membela Islam dari serangan misionaris dan orientalis. {cite:source/encyclopedia-of-religion-syed-ameer-ali} {cite:source/wikipedia-syed-ameer-ali-ar} Kebijakan konstitusionalnya — sirkuit terpisah dan regulasi kebijakan Muslim di India dan London — tercatat dalam bagian-bagian pawai di atas seperti yang disajikan dalam sumber. {cite:source/wikipedia-syed-ameer-ali-en}
+
+## Referensi
+
+- Wikipedia (Inggris), "Syed Ameer Ali", ulasan 1367332023 (2 Agustus 2026) — sumber/wikipedia-syed-ameer-ali-en.
+- Wikipedia (Arab), "Syed Ameer Ali," ulasan 77057130 (24 Oktober 2026) — sumber/wikipedia-syed-ameer-ali-ar.
+- Wikipedia (Urdu), "Syed Ameer Ali," ulasan 11485529 (8 Juli 2026) — sumber/wikipedia-syed-ameer-ali-your.
+- ويكيداتا، Q2525731 — sumber/wikidata-syed-ameer-ali.
+- David Lillifeld, "Ameer Ali, Syed," Ensiklopedia Agama (1987), via Encyclopedia.com — sumber/ensiklopedia-agama-syed-ameer-ali.
+
+## Catatan Ensiklopedia Islam
+Ensiklopedia Islam (Edisi Kedua) menggambarkan Sayyid Amir Ali (1849–1928) sebagai seorang ahli hukum dan penulis India dari keluarga Syiah yang berasal dari Khorasan bersama Nader Shah. Ia belajar di Mohsiniya College di Hoghli dekat Kalkuta, di mana ia mengenal bahasa Arab Inggris, sastra, dan hukum. Ia berada di Inggris antara tahun 1869 dan 1873, berpraktik hukum pada tahun 1873, dan menetap secara permanen di sana bersama istrinya yang berasal dari Inggris setelah pensiun dari Mahkamah Agung Bengal pada tahun 1904. {cite:encyclopaedia-of-islam-2 vol. 1 p. 464}
+
+## Kegiatan Umumnya
+Ia adalah profesor hukum Islam, pengacara, hakim, serta tokoh sosialis dan politik. Pada tahun 1883, ia menjadi salah satu dari tiga anggota India di Dewan Wakil Raja dan menjadi satu-satunya Muslim di antara mereka. Pada tahun 1909, ia menjadi anggota India pertama Komite Yudisial Dewan Ratu. Pada tahun 1877, ia mendirikan 'National Mohammedan Society,' yang bertujuan mempromosikan harmoni antar ras dan sekte di India serta melindungi kepentingan Islam. Ia menyadari kesadaran politik Islam India yang berkembang dan menentang Sir Syed Ahmad Khan dalam hal kecukupan pendidikan Barat saja untuk menjamin status Muslim India. Ia mengundurkan diri dari cabang Muslim League di London pada tahun 1913 karena aliansi liga dengan Kongres India yang menuntut 'pemerintahan sendiri.' {cite:encyclopaedia-of-islam-2 vol. 1 p. 464-465}
+
+## Penulisan dan Suksesi
+Kontribusi utamanya adalah menulis. Di London, pada tahun 1873, ia menerbitkan studi tentang Islam, yang ditulis sebagai tanggapan atas presentasi Barat tentang kehidupan dan pesan Muhammad, lalu meninjau dan menerbitkannya kembali sepanjang hidupnya dengan judul "The Spirit of Islam" (edisi 1891, 1922, dan 1953). Interpretasi liberalis modernisnya tetap berpengaruh di Barat. Setelah Perang Dunia I, ia menjadi salah satu pembela paling menonjol gerakan Khalifah di London. {cite:encyclopaedia-of-islam-2 vol. 1 p. 465}

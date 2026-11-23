@@ -1,0 +1,9 @@
+---
+id: concept/nabsh
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/nabsh.md}
+---
+## Özet
+Dilsel kazma, gömülülerin ortaya çıkması ve saklananın ortaya çıkarılması anlamına gelir. Mezar kazmak, erozyon gereksiz olmadan önce kazmak, ölenin kutsallığını ihlal ettiği için hukukçular tarafından oybirliğiyle yasaktır. Kazma, zorunluluk veya meşru bir amaç nedeniyle izinlidir: para mezara düşerse, Malikiler, Şafiiler ve Hanbaliler tarafından alınacak kazma değerine sahiptir. Ölenin değişmemesi zorunluluğu ve koşulunun değişmemesi konusunda anlaşmazlık vardır. Ölen kişi başkasının kazmasını yutarsa mülkünde, para cezalarından mülkün kısırlaştırılmasına ve karın kısmının bölünmesine kadar çeşitli görüşler vardır. Mezar, genel olarak gaspedilmiş bir kefen için detaylı şekilde kazılır. Gasp edilmiş topraklarda gömülü bir mezarın kazılması caizdir, ancak bazı durumlarda ölen kişinin taşınması için Hanbalilere göre ve başkasını ancak Maliki ve Hanbalilere göre giydikten sonra gömmek mümkündür. Hanafiler ve Hanbalilere göre zenginlik nedeniyle çoktanrılıların mezarlarının kazılması da izinlidir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15446} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15447} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15448} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15449} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15450} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15451} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15452} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15453} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15454} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15455} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15456}

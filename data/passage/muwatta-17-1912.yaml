@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/zayd-ibn-aslam, person/said-ibn-al-musayyab, person/muhammad]
 work: work/muwatta-malik
 ref: "1912"
-label: { ar: "الموطأ 1912 — يحيى عن مالك عن زيد بن أسلم عن سعيد بن المسيب: أن رسول الله نهى عن بيع الحيوان باللحم", en: "Muwatta 1912", es: "Muwatta 1912", fr: "Muwatta 1912", ur: "موطا 1912" }
+label: { ar: "الموطأ 1912 — يحيى عن مالك عن زيد بن أسلم عن سعيد بن المسيب: أن رسول الله نهى عن بيع الحيوان باللحم", en: "Muwatta 1912", es: "Muwatta 1912", fr: "Muwatta 1912", ur: "موطا 1912", tr: "El-Muvatta 1912 — Yahya, Malik'ten, o da Zeyd ibn Aslam'dan, o da Said ibn el-Musayyab'dan rivayetle: Allah Resulü, bir hayvanın eti için satılmasını yasaklamıştır.", id: "Al-Muwatta 1912 — Yahya berdasarkan riwayat Malik berdasarkan riwayat Zayd ibn Aslam berdasarkan riwayat Saeed ibn al-Musayyab: bahwa Rasulullah melarang penjualan hewan untuk diambil dagingnya" }
 summary:
   ar: "يروي يحيى عن مالك عن زيد بن أسلم عن سعيد بن المسيب أن رسول الله نهى عن بيع الحيوان باللحم. {cite:muwatta-maruf-1997 p.183}"
+  tr: "Yahya, Malik'ten, o da Zeyd ibn Aslam'dan, o da Sa'id ibn el-Musayyab'dan rivayetle, Allah Resulü'nün bir hayvanın eti için satılmasını yasakladığını nakletmiştir. {cite:muwatta-maruf-1997 s.183}"
+  id: "Yahya meriwayatkan dari Malik, dari Zayd ibn Aslam, dari Sa'id ibn al-Musayyab, bahwa Rasulullah SAW melarang penjualan hewan untuk diambil dagingnya. {cite:muwatta-maruf-1997 p.183}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
   - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }

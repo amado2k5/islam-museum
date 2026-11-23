@@ -1,0 +1,10 @@
+---
+id: object/sahn-izniq-1550
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/object/sahn-izniq-1550.md}
+---
+
+## Özet
+Sırlama altında Boyalı İznik Plakası; 1550–1570, İznik. Victoria ve Albert Müzesi, Londra'da. {cite:vam-collection}

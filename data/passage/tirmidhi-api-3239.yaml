@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "3239"
-label: { ar: "جامع الترمذي 3239 — ضحك وتبسم", en: "Jami' al-Tirmidhi 3239 — laughter and smiling", ur: "جامع ترمذی 3239 — ہنسی اور تبسم", fr: "Jami' al-Tirmidhi 3239 — rire et sourire", es: "Jami' al-Tirmidhi 3239 — risa y sonrisa" }
+label: { ar: "جامع الترمذي 3239 — ضحك وتبسم", en: "Jami' al-Tirmidhi 3239 — laughter and smiling", ur: "جامع ترمذی 3239 — ہنسی اور تبسم", fr: "Jami' al-Tirmidhi 3239 — rire et sourire", es: "Jami' al-Tirmidhi 3239 — risa y sonrisa", tr: "Cami' el-Tirmizi 3239 — Kahkaha ve gülümsemeler", id: "Jami' al-Tirmidhi 3239 — Tawa dan senyuman" }
 text: "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، حَدَّثَنَا فُضَيْلُ بْنُ عِيَاضٍ، عَنْ مَنْصُورٍ، عَنْ إِبْرَاهِيمَ، عَنْ عَبِيدَةَ، عَنْ عَبْدِ اللَّهِ، قَالَ فَضَحِكَ النَّبِيُّ تَعَجُّبًا وَتَصْدِيقًا. قَالَ هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 3239، فيه ضحك وتبسم. يجمعه متصفح جحا والفلكلور الإسلامي مع نصوص القرآن والسنة والسيرة والكتب في الضحك والمزاح والنوادر."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 3239، جس میں ہنسی اور تبسم ہے۔ جحا اور اسلامی لوک ادب کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   fr: "Un récit de Jami' al-Tirmidhi, n° 3239, avec rire et sourire. Le Navigateur de Juha et du folklore islamique le recense avec les textes du Coran, de la Sunna, de la sîra et des livres sur le rire, la plaisanterie et les anecdotes."
   es: "Un relato de Jami' al-Tirmidhi, n.º 3239, con risa y sonrisa. El Navegador de Juha y del folclore islámico lo recoge junto a los textos del Corán, la Sunna, la sira y los libros sobre la risa, la broma y las anécdotas."
+  tr: "Cami' el-Tirmizi'de yer alan 3239 numaralı hadis, kahkaha ve gülümsemeyi içermektedir. Bu hadis, Juha ve İslami folklor derleyicisi tarafından, Kur'an, Sünnet, biyografi ve kahkaha, mizah ve anekdotlar üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 3239, berisi tawa dan senyuman. Hadits ini disusun oleh Juha dan perajin cerita rakyat Islam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang tawa, humor, dan anekdot."
 relations:
   - { type: mentions, target: concept/al-dahik, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3239 (book 47 hadith 291); matn excerpt of at most 55 words chosen by the Juha browser's detector (scripts/juha.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "juha-hadithapi-1" }

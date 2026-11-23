@@ -1,0 +1,18 @@
+---
+id: concept/muhasabat-al-nafs
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/muhasabat-al-nafs.md}
+---
+## Ringkasan
+Sheikh mengatakan bahwa anggota tubuh manusia bekerja di dalam hati, karena hati adalah raja atau pengelola yang mengelola pergerakannya. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:01:30} Ia menceritakan bahwa Tembok Besar Tiongkok hanya pernah ditembus beberapa kali dalam sejarah, dan itu adalah suap yang dibayarkan kepada beberapa penjaga korup. Diketahui bahwa Setan hanya masuk ke hati dari seorang yang 'disuap' ⁦(needs_source: الخبر التاريخي كما رواه الشيخ)⁩. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:04:00}
+
+## Gerbang Setan dari para predator
+Seseorang bertanya: Apakah Setan masuk melalui matanya yang tidak menutup mata terhadap apa yang dilarang atau kesalahan orang, atau dari tangannya yang menangkap keraguan? Disebutkan bahwa siapa pun yang meragukan selama empat puluh hari akan dipukul oleh anggota tubuhnya, atau dari tangan penulis atau media yang menulis apa yang membuat orang, kelompok, dan sekte saling bermusuhan, atau dari lidahnya, atau dari kakinya yang tidak mencari masjid, reformasi, atau pemakaman. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:06:00}
+
+## Program Harian
+Ia menyarankan agar seseorang melatih anggota tubuhnya selama shalat Fajr: Wahai mata yang tidak melihat apa yang terlarang, wahai tangan yang tidak meraih keraguan, dan wahai kaki, janganlah pergi kepada apa yang tidak berkenan Allah; maka perhatikan sepanjang hari, lalu duduk beberapa menit sebelum tidur untuk bertanggung jawab atas kebaikan dan kejahatan yang telah dilakukannya, menambah kebaikan dan mencari pengampunan dari kejahatan, lalu mencela anggota tubuhnya. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:07:30} Ia percaya bahwa dengan melakukan itu, seseorang terbebas dari "perbudakan tanah liat" dan "ketakutan bercahaya" diterangi dalam dirinya. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep17 00:08:00} Lihat juga: [[concept/muraqaba|Pengamatan]].
+
+## Dari program 'Taman Harapan' oleh Omar Abdelkafi
+Sheikh menyarankan hal sederhana: seseorang harus duduk di atas alas doa selama tiga menit setelah setiap doa, bertanggung jawab atas apa yang ada di antara dua doa tersebut, dan tidur, tanpa memiliki hak atas orang lain, karena konsekuensi pada Hari Penghakiman hanya akan tercapai dengan perbuatan baik dan buruk. Ia juga menyebutkan seruan Nabi kepada Banu Hashim untuk tidak membawa amal baik kepada orang lain dan membawa beban mereka sendiri, dan ia percaya bahwa seseorang harus menimbang perbuatannya sebelum ditimbang kepadanya. {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:11:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:12:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:12:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep28 00:13:00}

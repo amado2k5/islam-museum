@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1"
-label: { ar: "موطأ مالك 1 — الأب والأبوة", en: "Muwatta Malik 1 — the father and fatherhood", ur: "موطأ مالک 1 — باپ اور والدیت", es: "Muwatta Malik 1 — El padre y la paternidad", fr: "Muwatta Malik 1 — le père et la paternité" }
+label: { ar: "موطأ مالك 1 — الأب والأبوة", en: "Muwatta Malik 1 — the father and fatherhood", ur: "موطأ مالک 1 — باپ اور والدیت", es: "Muwatta Malik 1 — El padre y la paternidad", fr: "Muwatta Malik 1 — le père et la paternité", tr: "Muwatta Malik 1 — Baba ve Babalık", id: "Muwatta Malik 1 — Sang Ayah dan Peran Ayah" }
 text: "… اللَّهِ ثُمَّ صَلَّى فَصَلَّى رَسُولُ اللَّهِ ثُمَّ صَلَّى فَصَلَّى رَسُولُ اللَّهِ ثُمَّ صَلَّى فَصَلَّى رَسُولُ اللَّهِ ثُمَّ قَالَ \" بِهَذَا أُمِرْتُ \". فَقَالَ عُمَرُ بْنُ عَبْدِ الْعَزِيزِ اعْلَمْ مَا تُحَدِّثُ بِهِ يَا عُرْوَةُ أَوَ إِنَّ جِبْرِيلَ هُوَ الَّذِي أَقَامَ لِرَسُولِ اللَّهِ وَقْتَ الصَّلاَةِ قَالَ عُرْوَةُ كَذَلِكَ كَانَ بَشِيرُ بْنُ أَبِي مَسْعُودٍ الأَنْصَارِيُّ يُحَدِّثُ عَنْ أَبِيهِ."
 summary:
   ar: "حديث في موطأ مالك، رقم 1، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 1، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Muwatta Malik, n.° 1 (Los horarios de oración), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un rapport du Muwatta Malik, n° 1 (Les Heures de la Prière), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce rapport avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Malik'in Muwatta'sında, 1 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 1, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits ini dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1 (book 1 hadith 1); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

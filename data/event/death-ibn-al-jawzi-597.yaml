@@ -1,7 +1,7 @@
 id: event/death-ibn-al-jawzi-597
 class: event
 kind: death
-label: { ar: "وفاة ابن الجوزي", en: "death of Ibn al-Jawzi — Ramadan 597", es: "muerte de Ibn al-Jawzi - Ramadán 597", fr: "mort d'Ibn al-Jawzi - Ramadan 597", ur: "وفات ابن الجوزی - رمضان 597" }
+label: { ar: "وفاة ابن الجوزي", en: "death of Ibn al-Jawzi — Ramadan 597", es: "muerte de Ibn al-Jawzi - Ramadán 597", fr: "mort d'Ibn al-Jawzi - Ramadan 597", ur: "وفات ابن الجوزی - رمضان 597", tr: "İbn el-Cevzi'nin Ölümü", id: "Kematian Ibn al-Jawzi" }
 date:
   start: { edtf: "1200~", hijri: "0597", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "En Ramadán murió Abu al-Faraj Abd al-Rahman ibn al-Jawzi, el predicador hanbalí e historiador de al-Muntazam, cuyas obras llegaron a los cientos, el waiz más famoso de la época {cite:kamil-ibn-al-athir p. 276}."
   fr: "Au Ramadan mourut Abu al-Faraj Abd al-Rahman ibn al-Jawzi — le prédicateur et historien hanbalite d'al-Muntazam dont les œuvres se comptent par centaines, le waiz le plus célèbre de l'époque {cite:kamil-ibn-al-athir p. 276}."
   ur: "رمضان المبارک میں ابو الفراج عبد الرحمن بن الجوزی - المنتظم کے حنبلی مبلغ اور مؤرخ کی وفات ہوئی جس کے کام سینکڑوں تک پہنچ گئے، جو اس زمانے کے مشہور واعظ ہیں۔ 276}۔"
+  tr: "Vaiz, tarihçi, el-Muntazam ve yüzlerce başka eserin yazarı Ebu el-Feraj Abdülrahman ibn Ali ibn el-Cevzi el-Hanbeli, Ramazan ayında vefat etti. Bağdat'ın en önde gelen alimlerinden ve İslam'ın en ünlü vaizlerinden biriydi. {cite:kamil-ibn-al-athir s. 276}"
+  id: "Abu al-Faraj Abd al-Rahman ibn Ali ibn al-Jawzi al-Hanbali, seorang pendakwah, sejarawan, penulis kitab al-Muntazam dan ratusan karya lainnya, meninggal dunia di bulan Ramadan. Beliau adalah salah satu ulama terkemuka di Baghdad dan salah satu pendakwah paling terkenal dalam Islam. {cite:kamil-ibn-al-athir p. 276}"
 wings: [time]
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/kamil-ibn-al-athir] }

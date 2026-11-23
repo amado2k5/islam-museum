@@ -1,0 +1,12 @@
+---
+id: practice/dua-at-the-completion-of-the-quran
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/practice/dua-at-the-completion-of-the-quran.md}
+---
+## Özet
+Al-Nawawi'nin sonuca ilişkin görgü kuralları bölümünde topladıkları: sona erme günü oruç tutmak, toplantılara katılmak, ilk nesillerin dua üzerindeki etkileri ve sonuçtan sonra dua ısrarı. {cite:al-adhkar-nawawi-arnaut-1994 p. 104}
+
+## Al-Nawawi'nin 'Al-Adhkar'da topladıkları
+El-Nawavi, tamamlanmanın görgü kuralları bölümünde, tamamlanmanın dua ile yapılmasının tavsiye edildiğini, tamamlamayı tamamlayan grubun birlikte gece başında veya günün başında yapılması gerektiğini ve Şeriat'ın yasaklandığı bir güne denk gelmedikçe tamamlanma gününde oruç tutulmasının tavsiye edildiğini belirtir {cite:al-adhkar-nawawi-arnaut-1994 p. 104}. Kufe takipçileri olan Talha ibn Musarraf, Al-Musayyib ibn Rafi' ve Habib ibn Abi Thabit'in tamamladıkları gün oruç tuttuklarını {cite:al-adhkar-nawawi-arnaut-1994 p. 104} doğrulukla aktardığını belirtir. Bu, okuyanlar için tavsiye edilir [[person/muhammad|İyi okumayanlar için, iki Sahih'te Peygamber'in]] adet gününün Eid gününde çıkarılmasını emrettiği ve iyiliği ve Müslümanların çağrısını görebildikleri rivayet edilir {cite:al-adhkar-nawawi-arnaut-1994 p. 104}. İbn Abi Davud, Katadah'tan iki gerçek zincirle Anas ibn Malik'in Kur'an'ı tamamladığında ailesini toplayıp namaz kılacağını anlatır. Ayrıca Al-Hakam ibn Utaybah'tan, Mücahit ve Abda ibn Abi Lubabah'ın Kur'an'ı tamamlamak istedikleri için gönderdiklerini ve duanın tamamlandığında {cite:al-adhkar-nawawi-arnaut-1994 p. 104} karşılık verildiğini anlatır. Sonra tamamlandıktan sonra dua edilmesinin tavsiye edildiğini ve şiddetle tavsiye edildiğini söyler. Bu, Musnad al-Darimi'de rivayet edilmiştir Hümayd al-A'raj'dan, Kur'an'ı okuyup sonra yalvaran kişi dört bin meleğe emanet edilir {cite:al-adhkar-nawawi-arnaut-1994 p. 105}. Dua ederken ısrar etmeli, önemli konulara ve birleştirici sözlere değinmeli ve bunların çoğu ahiret ve Müslümanların işleri hakkında olmalıdır. 'Adab al-Kur'an' {cite:al-adhkar-nawawi-arnaut-1994 p. 105} adlı kitabına atıfta bulunur. Tamamlandığında, önceki kitapların {cite:al-adhkar-nawawi-arnaut-1994 p. 105} önerdiği için ilkine bağlı başka bir tamamlamaya başlanması tavsiye edilir.

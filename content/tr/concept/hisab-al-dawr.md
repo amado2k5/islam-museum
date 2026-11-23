@@ -1,0 +1,18 @@
+---
+id: concept/hisab-al-dawr
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/hisab-al-dawr.md}
+---
+## Özet
+"Hisab al-Dur", [[person/al-khwarizmi|el-Horezmi'nin]] Cebir ve Karşılaştırma [[work/al-jabr-wal-muqabala|adlı kitabından "İrade Kitabı" nda verdiği bir unvandır]]; bilinmeyenlerin birbirine bağlı olduğu ve hesaplamanın bunlar arasında döndüğü bir grup konudan öncedir. {cite:khwarizmi-jabr-cairo-1939 p.108} Kahire baskısındaki bölümleri: Hastalıkta Evlilik, Hastalıkta Özgürleşme, Dur'da Onay ve Hastalıkta Sulam. {cite:khwarizmi-jabr-cairo-1939 p.108} {cite:khwarizmi-jabr-cairo-1939 p.110} {cite:khwarizmi-jabr-cairo-1939 p.118} {cite:khwarizmi-jabr-cairo-1939 p.121}
+
+## Hastalık sırasında evlilik örneği
+Bir adam, ölümcül hastalığı sırasında bir kadınla yüz dirhem için evlenir ve başka bir serveti yoktur, onun çeyizi on dirhemdi. Sonra kadın öldü ve servetinin üçte birini miras bıraktı, ardından koca öldü. {cite:khwarizmi-jabr-cairo-1939 p.108} Hasta kocasından yüz eşdeğer çeyiz eşdeğeri olan her şey, vasiyetinden sonra kalan paranın yarısı miras olarak kocaya geri döner ve varislerinin elindeki miktarı artırır, bu da onun hak ettiği miktarı değiştirir. {cite:khwarizmi-jabr-cairo-1939 p.108} El-Horezmi ona vasiyetini 'bir şey' yapar ve her iki tarafın elinde olanları takip eder, sonra kocanın varislerinin elinde olan onun vasiyetine eşittir, çünkü vasiyetname sadece üçte biri için geçerlidir. Zorla ödenir ve mal otuz beş dirhem olana kadar geri öder. {cite:khwarizmi-jabr-cairo-1939 p.108} {cite:khwarizmi-jabr-cairo-1939 p.109} Sonra konuyu değiştirir: kadın on dirhem borçluysa ya da koca da servetinin üçte birini bir erkeğe bırakırsa, hesaplama aynı kurala göre tekrarlanır. {cite:khwarizmi-jabr-cairo-1939 p.109}
+
+## Diğer Kapılar
+'Hastalıkta Özgürleşme'de, hastalığı sırasında iki köleyi kurtaran bir adamın ardından birinin servet bırakarak öldüğü vakalar vardır. {cite:khwarizmi-jabr-cairo-1939 p.110} Hastalık sırasında hediye edilen devam eden sorunlar da vardır; bu nedenle hediyeli kişi onunla ilişkiye girmiştir, bu yüzden kısırlık yaşamak zorundadır ve vasiyetnamede sayılır. {cite:khwarizmi-jabr-cairo-1939 p.116} {cite:khwarizmi-jabr-cairo-1939 p.117} 'Evde Belirlenen' başlığı altında, hastalığı sırasında ölümden sonra başka bir serveti olmayan bir adamın hediye verdiği ve bağışçı onunla etkileşime girdiği için kısırlık almak zorunda olduğu bir durum vardır. {cite:khwarizmi-jabr-cairo-1939 p.118} {cite:khwarizmi-jabr-cairo-1939 p.119} 'Selam fi Mard'da, hastalığı sırasında İslam'a geçen bir adam, on dirhem değerinde bir yemek için otuz dirhem vermiş ve sonra ölmüştür. Böylece kayırmacılık yirmi dirhemdir ve bir kısmı on dirhem tazminat olarak ödenebilir. {cite:khwarizmi-jabr-cairo-1939 p.121} Tüm kitap bu bölümden bir soruyla sona eriyor. {cite:khwarizmi-jabr-cairo-1939 p.122}
+
+## Hukuk Vakfı
+Bu konular, hukukçulara göre vasiyetname [[concept/wasiyya-fiqh|kararlarına dayanır]] ; örneğin, ölümcül hastaya iyilik, hediye ve özgürlük göstermek vasiyetname olarak kabul edilir, bu nedenle servetinin sadece üçte birinin ödenmesine izin verilir; bu nedenle Al-Khwarizmi mirasçılara kalan her konuda vasiyetin eşdeğeri olarak belirler. {cite:khwarizmi-jabr-cairo-1939 p.108} {cite:khwarizmi-jabr-cairo-1939 p.121} Kitap bu kararları tartışmaz, ancak kabul edilmiş kabul eder ve hesaplama yöntemini sunar.

@@ -1,0 +1,24 @@
+---
+id: practice/salat-al-jumua
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/practice/salat-al-jumua.md}
+---
+## Özet
+Cuma namazı, yetişkin Müslüman erkekler için bireysel bir zorunluluktur ve zamanı Cuma günü öğle namazı zamanıdır; Cuma haftanın son günüdür ve İslam öncesi dönemde Araplar Günü olarak adlandırılmıştır. Ka'b bin Luayy'nin bunu ilk kılan kişi olduğu ve ona Cuma adını verdiği rivayet edilir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18016} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18017}
+
+## Günün lütfu
+İbn Abidin, Cuma gününü haftanın en iyi günü ve kutlama günü, bir saat yanıt verildiği gün olarak kabul eder; bu gün Adem yaratılıp cennetten kovulur; o gün cennet halkı Rabbilerini ziyaret eder. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18017}
+
+## Cuma Yıkama
+Hukukçular, Cuma namazı için hüzün İslam hukukuna göre zorunlu olduğunu kabul ettiler: "Biriniz Cuma günü gelirse, hüsl kılmalıdır." Çoğunluk bunun sünnet olduğunu savundu ve Ahmed'den rivayet edildiği için "Cuma günü hüsl, rüya gören herkes için zorunludur" hadisinden dolayı zorunludur. Zamanı ikinci şafak doğumundan sonradır. Çoğunluk bunun namaz için olduğunu, gün için değil, bu yüzden namaz kılmayan için sünnet olmadığını savundu. Namazdan sonra hüsl kılınırsa yeterli olmayacağını kabul ettiler. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18018} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18019}
+
+## Seyahat edin ve oruç tutun
+Hukukçuların çoğu, cuma günü öğleden sonra seyahat etmenin, zorunlu olanlar için namaz kılmadan önce yasak olduğunu savunurken, Hanefiler bunun yasak nedeniyle sevilmediğini söyler. Çoğunluk, sadece oruç günü yapılmasının hoşlanmadığını savunur; bu hadise dayanır: 'Hiçbiriniz Cuma günü, sadece bir gün öncesi veya sonrası oruç tutarsınız.' Eğer bir gün eklenirse, hoşnutsuzluk geçersiz olur. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18019}
+
+## Mostafa Hosni'nin 'Merhametli Hediyeler' programında
+Mostafa Hosni, [[person/mustafa-hosny|programının beşinci bölümünde "Merhametli Olanın Hediyeleri]]"nde Cuma gününü bir "hediye" [[work/hadaya-al-rahman|yapar]]: Cuma günü yıkanan, erken camiye varan, yürüyen, imama yaklaşan ve dikkatle dinleyen bir hadis, her adımda bir yıl oruç ve ayakta durma ödülünü alır; cami ile aralarında iki yüz adım atan kişinin iki yüz yılı varmış gibi olduğunu açıklar. {cite:assabile-mustafa-hosny hadaya-al-rahman/ep05 00:00:00} {cite:assabile-mustafa-hosny hadaya-al-rahman/ep05 00:00:30} {cite:assabile-mustafa-hosny hadaya-al-rahman/ep05 00:01:00} Namazı kılmanın vaazdan önce kalbin getirilmesini ister; cuma namazından faydalanmanın vaibin gücüne değil, dinleyicinin kalbine bağlı olduğunu, çünkü tek bir kelimenin kişinin halini değiştirdiğini ve sonunda Rab'biyle karşılaştığını söyler. {cite:assabile-mustafa-hosny hadaya-al-rahman/ep05 00:01:30} {cite:assabile-mustafa-hosny hadaya-al-rahman/ep05 00:02:00} {cite:assabile-mustafa-hosny hadaya-al-rahman/ep05 00:02:30} Meleklerin cami kapısında durup orada bulunanların isimlerini yazdıkları belirtilir. İmam kürsüye çıktığında kitaplarını katlar ve vaazı dinlemek için içeri girer. İma, ibadet edene geç kalmamasını söyler. {cite:assabile-mustafa-hosny hadaya-al-rahman/ep05 00:02:30} {cite:assabile-mustafa-hosny hadaya-al-rahman/ep05 00:03:00} {cite:assabile-mustafa-hosny hadaya-al-rahman/ep05 00:03:30}
+
+## Al-Nawawi'nin 'Adhkar'ında
+El-Nevavi, "Özel Namazlarda Edkarlar" kitabını Cuma ve geceleri önerilen anma bölümleriyle açar ve o gün Kur'an'ın, anmaların, duaların ve Allah'ın [[person/muhammad|elçisine]] yapılan duaların artırılmasının önerildiğini belirtir. [[person/al-shafii|Ayrıca "Al-um"da El-Şafii'den]] Cuma gecesi {cite:al-adhkar-nawawi-arnaut-1994 p. 169} da okunmasının tavsiye edildiğini rivayet eder. Ebu Huraira'nın iki Sahih'inden, bir Müslüman hizmetlinin Allah'tan kendisine verdiği bir şeyi dileyerek namaz kılırken buna katılmadığını anlatır {cite:al-adhkar-nawawi-arnaut-1994 p. 169}. Alimlerin farklı görüşte olduğunu söyler Bu saatte, "Şerhül-Muhadhdhab"da toplanan birçok görüşe göre, birçok sahabe bunun Asr'dan sonra olduğuna inanır. Ebu Musa el-Eş'ari'nin Sahih Müslüman'daki en doğru hadisi, imamın kürsüye oturduğu zaman ile namazın tamamlandığı süre arasında {cite:al-adhkar-nawawi-arnaut-1994 p. 170} olduğudur. Anes'ten İbn el-Sünni'nin kitabından, şaf namazından önce Cuma sabahı üç kez af dilemek şöyle denilmiştir: "Allah'tan af diliyorum, O'ndan başka ilahi O'dur, Ebedi Yaşayan, Sürdüren ve O'na tövbe ederim" {cite:al-adhkar-nawawi-arnaut-1994 p. 170}. Sonra, Cuma namazı sonrası Allah'ın anmasının artırılmasının tavsiye edildiğini ve [[passage/quran-62-10|62:10 {cite:al-adhkar-nawawi-arnaut-1994 p. 171} ayetini]] aktardığını belirtir.

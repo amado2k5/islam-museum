@@ -1,0 +1,18 @@
+---
+id: person/leo-africanus
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/leo-africanus.md}
+---
+## Özet
+Afrikalı Leon, yaklaşık 1494 yılında Granada'da Hassan bin Muhammad al-Wazzan olarak doğdu ve Fez'de büyüdü; burada Al-Karawiyin Üniversitesi'nde eğitim aldı. {cite:wikipedia-leo-africanus-en} {cite:wikipedia-leo-africanus-ar} Genç yaşta diplomatik ve Tacian görevlerinde seyahat etti, yaklaşık 1510'da Timbuktu'ya ulaştı, ardından 1517'de İstanbul'a giderek Kahire, Asvan ve Kızıldeniz üzerinden döndü; çoğunlukla hac yolculuğunu gerçekleştirdi. {cite:wikipedia-leo-africanus-en} 1518'de dönüş yolunda İspanyol korsanları tarafından yakalandı. Akademik statüsünü öğrenince onu Roma'ya götürdüler, burada serbest bırakıldı ve maaş aldı. Papa X. Leo, onu 1520'de Aziz Petrus Kilisesi'nde vaftiz etti, adı John Leo de' Medici. {cite:wikipedia-leo-africanus-en}
+
+## "Afrika'nın Tanımı"
+Al-Wazzan, 1526'da Roma'da Afrika coğrafyası üzerine el yazmasını tamamladı; Giovanni Battista Ramusio tarafından 1550'de Venedik'te "Afrika'nın Tanımı" başlığıyla yayımlandı. Beş kez basıldı, Fransızca, Latince ve İngilizceye çevrildi ve modern keşif dönemine kadar Fas ve Nil Vadisi'ndeki Avrupa coğrafyacıları arasında en güvenilir kaynak olarak kaldı. {cite:wikipedia-leo-africanus-en} Eserleri arasında ayrıca Yahudi hekim Jacob Manteno için derlenen Arapça-İbranice-Latince tıbbi sözlük (Arapça dilbilgisi sadece bir parçası), Ocak 1521 tarihli Pavlus'un mektuplarının Arapça çevirisi ve İslam ile Yahudi alimlerin biyografilerinden oluşan bir ansiklopedi bulunmaktadır. {cite:wikipedia-leo-africanus-en} El yazmalarında adını Arapçaya çevirerek imzalardı: Granadalı Aslan Yahya. {cite:wikipedia-leo-africanus-en}
+
+## İki din arasında
+1520'deki vaftiz ve Wazzan'ın papalık döneminde Hristiyan olarak kamusal yaşamı belgelenmiş iki olaydır. {cite:wikipedia-leo-africanus-en} {cite:wikidata-leo-africanus} İç düşüncelerinde neye inandığı ise bilimsel araştırmalarla çözülememiş bir konuydu. Alman oryantalist Johann Albrecht Widmanstatter, Leon'un Tunus'a döndüğünü ve İslam'a döndüğünü belirtmiştir. {cite:wikipedia-leo-africanus-en} Tunuslu tarihçi Muhammed ibn al-Khoja, Hristiyanlığa geçişinin sadece yüzeysel olduğunu, çünkü 'İslam Topraklarında' adlı kitabında İslam'ın statüsünü küçümseten hiçbir şey içermediğini ve diğer kaynaklarda Tunus'a dönüşünü ve orada öldüğünü belirtmiştir. {cite:wikipedia-leo-africanus-ar} Natalie Zemon Davis, "The Travels of the Impostor" (2007) adlı kitabında onun sadakatlerini, yaşadığı iki dünya arasındaki katmanların kasıtlı bir okuması olarak okumuştur. Hiçbir kaynak, hayatının hiçbir döneminde onun için bir hukukçuluk okulundan bahsetmez, bu yüzden müze sadakatini kesinleşmiş bir konu olarak değil, tartışma konusu olarak kaydeder. {cite:wikipedia-leo-africanus-en} {cite:wikipedia-leo-africanus-ar}
+
+## Bilinmeyen Son
+Ölüm yeri de belgelenmemiştir. Bir teoriye göre, "tanım" 1550 civarında Roma'da yer alır. İkincisi, 1527'de Roma'nın yağmalanmasından önce ayrılmasına, Kuzey Afrika'ya dönmesine ve 1550'den sonra Tunus'ta yaşamasına neden olur. Üçüncü teoriye göre, V. Charles 1535'te Tunus'u fethettikten sonra, ikinci vatanı Fas'a nakledildiği ve kitabında Tanrı'nın yardımıyla dönmeyi umduğunu belirtmiştir. {cite:wikipedia-leo-africanus-en} Arap anlatısı ayrıca Tunus'a döndüğünü ve orada öldüğünü öne sürer; ancak İslam dünyasında Batı'daki ünü kadar ünlü değildi. {cite:wikipedia-leo-africanus-ar}

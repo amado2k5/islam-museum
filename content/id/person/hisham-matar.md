@@ -1,0 +1,18 @@
+---
+id: person/hisham-matar
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/hisham-matar.md}
+---
+## Ringkasan
+Hisham Gaballah Matar adalah seorang novelis dan penulis memoar Libya-Inggris, lahir di New York City pada tahun 1970. {cite:wikipedia-hisham-matar-en} Ia tumbuh besar di Tripoli dan hidup dalam pengasingan di Kairo setelah keluarganya melarikan diri dari Libya di bawah Muammar Gaddafi; memoarnya "The Return" (2016), tentang pencarian ayahnya Gaballah, yang diculik di Kairo pada tahun 1990 dan tidak pernah ditemukan, memenangkan Penghargaan Pulitzer 2017 untuk autobiografi. {cite:wikipedia-hisham-matar-en}
+
+## Kehidupan
+Matar lahir di New York City pada tahun 1970, di mana ayahnya, Gaballah Matar, bekerja dalam delegasi Libya ke Perserikatan Bangsa-Bangsa; keluarga itu kembali ke Tripoli tiga tahun kemudian. {cite:wikipedia-hisham-matar-en} Ketika pihak berwenang mengejar ayahnya, yang merupakan penentang rezim yang menonjol, keluarga itu diam-diam meninggalkan Libya menuju Mesir pada tahun 1979 dan hidup dalam pengasingan di Kairo sejak 1980; Matar belajar di Cairo American College, lalu sejak 1986 ia dikirim ke sekolah asrama di Inggris, di mana ia hidup dengan aman dengan identitas palsu. {cite:wikipedia-hisham-matar-en} Ia mengingat instruksi dari manajernya: "Saya harus berpura-pura menjadi seorang Kristen, meskipun saya tidak religius." {cite:wikipedia-hisham-matar-en} Museum mencatat hal ini sebagaimana adanya: penyamaran yang dipaksakan yang ia sendiri gambarkan sebagai kepura-puraan, bukan deklarasi agama; tidak ada sumber agama yang menyebut Hisham Matar sendiri, sehingga tidak ada agama yang tercatat untuknya. {cite:wikipedia-hisham-matar-ar} Ia belajar arsitektur di Goldsmiths College, Universitas London, dan mengelola kantor arsitektur di London sebelum beralih ke dunia menulis. {cite:wikipedia-hisham-matar-en} Pada tahun 1990, ayahnya diculik di Kairo oleh agen polisi rahasia Mesir dan diserahkan kepada rezim Libya; dua surat darinya sampai kepada keluarga dari penjara Abu Salim pada tahun 1996, dan tahanan Rafiq pada tahun 2002 melaporkan bahwa ia masih hidup, tetapi nasibnya tetap tidak diketahui. {cite:wikipedia-hisham-matar-en} Matar tinggal di London selama lebih dari tiga dekade dan merupakan profesor di Barnard College, Columbia University. {cite:wikipedia-hisham-matar-en}
+
+## Karya
+Novel pertamanya, In the Land of Men, (2006), masuk daftar pendek Man Booker Prize dan telah diterjemahkan ke dalam dua puluh delapan bahasa. {cite:wikipedia-hisham-matar-en} Disappearance Anatomy (2011) menceritakan kisah seorang ayah lain yang hilang. {cite:wikipedia-hisham-matar-en} Memoarnya "The Return: Fathers and Sons and the Land Between Them" (2016), tentang kepulangannya ke Libya setelah kejatuhan Gaddafi untuk mencari ayahnya, memenangkan Pulitzer Prize pada 2017 dan Folio Prize, serta dipilih oleh The New York Times sebagai salah satu dari sepuluh buku terbaik tahun itu. {cite:wikipedia-hisham-matar-en} "A Month in Siena" (2019) merefleksikan lukisan dan kesedihan Siena, dan novelnya "My Friends" (2024) memenangkan Orwell Prize untuk Novel Politik dan National Book Critics Circle Award untuk Fiksi. {cite:wikipedia-hisham-matar-en} Ia adalah Fellow Royal Society of Literature dan fellow kehormatan British Academy, serta dianugerahi Gschvister-Schul Prize pada tahun 2024. {cite:wikipedia-hisham-matar-en}
+
+## Sumber
+- Sumber-sumber yang disebutkan di atas tercantum di bawah `data/source/`.

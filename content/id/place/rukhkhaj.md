@@ -1,0 +1,9 @@
+---
+id: place/rukhkhaj
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/place/rukhkhaj.md}
+---
+## Ringkasan
+Al-Rukhij adalah sebuah wilayah di Sijistan. Al-Baladhuri menyebutkan bahwa Abd al-Rahman ibn Samura menaklukkan tanah antara dirinya dan tanah Al-Dawar melalui jalur Rukhiya. {cite:futuh-buldan-maarif-1407}

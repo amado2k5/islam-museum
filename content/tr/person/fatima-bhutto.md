@@ -1,0 +1,18 @@
+---
+id: person/fatima-bhutto
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/fatima-bhutto.md}
+---
+## Özet
+Fatima Bhutto (1982 doğumlu), babası Murtaza Bhutto'nun sürgünde olduğu dönemde Kabil'de doğmuş Pakistanlı bir yazar ve köşe yazarıdır ve Suriye ile Karaçi'de büyümüştür. Barnard College ve Londra'daki Oryantal ve Afrika Çalışmaları Okulu'nda eğitim gördü, on beş yaşında bir şiir koleksiyonu yayımladı, ardından aile anıları "Songs of Blood and the Sword" (2010) ve romanları "The Shadow of the Crescent Moon" (2013) ile "The Fugitives" (2019) yayımlandı. Teyzesi Benazir Bhutto'nun ve hanedan siyasetinin açık sözlü bir eleştirmenidir ve herhangi bir partiye mensup değildir. {cite:wikipedia-fatima-bhutto-en}
+
+## Hayatı
+Bhutto, 29 Mayıs 1982'de Kabil'de, babası Murtaza Bhutto ve Afgan annesi Fawziya Fasihuddin Bhutto'nun çocuğu olarak doğdu; babası General Zia-ul-Haq'ın askeri rejimi altında sürgündeydi. {cite:wikipedia-fatima-bhutto-en} {cite:wikipedia-fatima-bhutto-ar} {cite:wikidata-fatima-bhutto} Üç yaşındayken ebeveynlerinden boşandı, bu yüzden babası onu ülkeden ülkeye taşınarak büyüttü — böylece neredeyse vatansız büyüdü — ve 1989'da Suriye'de, gerçek annesi olarak gördüğü Lübnanlı bale koçu Ghanwa Bhutto ile evlendi. {cite:wikipedia-fatima-bhutto-en} Babası, 1996'da teyzesi Benazir Bhutto'nun başbakanlık döneminde Karaçi'de polis tarafından vurularak öldürüldü; üvey annesiyle birlikte Karaçi'nin Old Clifton kentinde yaşamaktadır. {cite:wikipedia-fatima-bhutto-en} Amerikan Karaçi Okulu'nda eğitim gördü ve 2004 yılında Barnard College'dan Orta Doğu ve Asya dilleri ile kültürleri alanında en yüksek onur derecesiyle lisans derecesi aldı; 2005'te Londra'daki Doğu ve Afrika Çalışmaları Okulu'ndan Güney Asya Çalışmaları alanında yüksek lisans derecesi aldı. {cite:wikipedia-fatima-bhutto-en} 2020'de "kaçaklar" hakkında yaptığı konuşmada, insanların "Ben Müslümanım" diye duyduklarında nasıl tepki verdiklerini kendi sözleriyle anlattı ve Müslümanları "bir milyardan fazla kişi" olarak tanımladı. Müze, onun mezhebini veya mezhebini kaydetmemekte ve aile geçmişini kendi inancının kanıtı olarak kullanmamaktadır. {cite:npr-fatima-bhutto-runaways-2020}
+
+## Eserleri
+İlk kitabı, şiir koleksiyonu "Whispers of the Desert," 1998'de on beş yaşında yayımlandı; "8:50, 8 Ekim 2006" (2006) Keşmir depremi hakkında tanıklıkları kaydeder. {cite:wikipedia-fatima-bhutto-en} Ailesiyle ilgili anıları olan "Songs of Blood and the Sword" (2010) için, babasının cinayetine karışan teyzesi Benazir Bhutto ve Asif Zardari'yi suçlar; babasının önyargısı nedeniyle olumsuzdan olumsuz karışık eleştiriler alır ve birkaç aile üyesi onu bilgi sahteciliğiyle suçlar. {cite:wikipedia-fatima-bhutto-en} İlk romanı "Shadow of the Crescent Moon" (2013), Belize Kadın Kurgu Ödülü uzun listesine alındı; "The Fugitives" (2019), aşırılığa çekilen üç genç Müslümanı takip ederken, "The New Kings of the World" (2019) Bollywood, Türk dizileri ve K-pop üzerine incelemeler yapıyor. {cite:wikipedia-fatima-bhutto-en} The News ve The Guardian gibi yayınlar için köşe yazıları yazıyor. {cite:wikipedia-fatima-bhutto-en} Siyasi aktivizmine rağmen hiçbir partiye ait değil ve Pakistan üzerindeki hanedanların etkisi nedeniyle siyasi kariyerini tamamen dışladığını söyledi. {cite:wikipedia-fatima-bhutto-en}
+
+## Kaynaklar
+- Yukarıda belirtilen kaynaklar `data/source/` altında listelenmiştir.

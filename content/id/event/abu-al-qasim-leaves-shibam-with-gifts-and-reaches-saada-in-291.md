@@ -1,0 +1,12 @@
+---
+id: event/abu-al-qasim-leaves-shibam-with-gifts-and-reaches-saada-in-291
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/abu-al-qasim-leaves-shibam-with-gifts-and-reaches-saada-in-291.md}
+---
+## Ringkasan
+Abu al-Qasim menulis kepada putraku Ya'far mengeluh tentang ketinggalan lama dan kebosanannya di tempat itu. Mereka mengirimkan kuda, pedang, dan surat permintaan maaf atas posisinya. Ia menerima alasan mereka dan membagikan apa yang ia arahkan kepada para pelayan dan para pengikutnya. Mereka menulis surat kepada Ali ibn al-Hasan al-Aqra'i agar ikut bersamanya dan memberitahu ke mana ia suka {cite:sira-hadi-ila-al-haqq p.274}. Mereka meninggalkan Shibam dan tiba di [[place/al-ghayl-al-bawn-yemen|Al-Ghayl]], di mana mereka bertemu [[person/al-daam-ibn-ibrahim|dengan para pekerja al-Da'am]] yang berada di roti. Al-Aqra'i pergi dan berangkat bersama mereka sampai mereka tiba di [[place/raydah-yemen|Raydah]] dan menginap, lalu melanjutkan hingga mereka [[place/warwar-yemen|menginap di Warur]] {cite:sira-hadi-ila-al-haqq p.274}.
+
+## Detail
+Abu al-Qasim berkata: Bagaimana kamu melihat mimpi yang kuceritakan tentang rumah Bus? Kemudian mereka melakukan perjalanan hingga tiba bersama al-Da'am (dalam catatan kaki 'Ibn al-Da'ma') di tempat di mana 'tenggelam' dan berhenti di sana. Kemudian mereka pergi ke Sa'dah, dan Ibn al-Da'am mengikuti mereka sampai mereka tiba [[place/saada|di Sa'dah pada hari-hari tahun dua]] ratus sembilan puluh satu. Panduan kebenaran dalam hal ini berada di Sa'dah {cite:sira-hadi-ila-al-haqq p.274}. Dia menyebutkan pernyataan Abu al-Qasim tentang [[event/abu-al-qasim-tells-his-dream-of-the-sons-of-yafur-and-the-rising-of-the-prisons-291|penglihatannya yang]] terwujud dalam kata-katanya sendiri, dan narator menyampaikan hal ini, dan tidak ada keputusan tentang museum mengenai penglihatan itu. Ali ibn al-Hasan al-Aqra'i, Insan Ibn al-Da'am, dan tempat 'draq' tidak dicatat; makna 'ghayl' di sini berasal dari bacaan yang dicetak, dan dikaitkan dengan catatan yang paling dekat, bukan jussive. Sebelum dia [[event/abu-al-qasim-lets-himself-down-from-shibam-and-is-brought-back-291|, ada upaya untuk meninggalkan Shibam]]. Laporan ini terdapat dalam sebuah kitab Zaydi karya Muhammad ibn Sa'id.

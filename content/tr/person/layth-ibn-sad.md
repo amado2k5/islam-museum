@@ -1,0 +1,28 @@
+---
+id: person/layth-ibn-sad
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/layth-ibn-sad.md}
+---
+## Özet
+El-Leyt ibn Saad El-Fehmi el-Masri, ikinci yüzyıl Hâs. Mısır'da bir hukukçu ve hadis âlimidir. Kaynaklar, onun [[person/muhammad-ibn-shihab-al-zuhri|El-Zuhri'nin yanında eğitim]] aldığını ve bilgisi hakkında kapsamlı yazılar yazdığını belirtir. {cite:tabaqat-fuqaha-abbas-1981}
+
+## Ölümü
+El-Şirazi, onun 175 Hicri yılında Şaban ortasında öldüğünü anlatır. Baskının kenar boşluklarında 'doksan beş' olarak başka bir okuma belirtildiği için tarih ek bir kaynak gerektirir. {cite:tabaqat-fuqaha-abbas-1981}
+
+## Kıbrıs ile ilgili fetva
+El-Baladhuri, sınır valisi Abdülmelik bin Salih'in, kendisine ve zamanının hukukçularına, bir olay çıkardıktan sonra Kıbrıs halkı hakkında bir mektup yazdığını anlatır. Fetvası, Müslümanları kandırmakla ve Romalılara öğüt vermekle suçlandığını, antlaşmalarının bozulmasını ve onlarla bir yıl danışmaları gerektiğini belirtir. Müslümanların topraklarına katılmak isteyen önceden zimmiydi, Romalıların topraklarına gitmek isteyen oraya giderdi, savaş açan ise olduğu gibi kalır. İhanet korkusuyla ahdi terk etmekle ilgili bir ayet aktardı. {cite:futuh-buldan-maarif-1407} [[event/fuqaha-consulta-on-cyprus|Kıbrıs ile ilgili fıkâhçıların fetvasına]] bakınız.
+
+## Kitapları ve Doktrini
+İbn el-Nadim, Malik'in yoldaşları arasında olduğunu, onun okulunu takip ettiğini, sonra kendisi için seçim yaptığını belirtir. Malik'le yazışır ve ona sorardı. "Tarikh" ve "Mesâil fi el-Fiqh" kitaplarını yazmıştır. {cite:fihrist-ibn-al-nadim p.281}
+
+## "Yaratıcılar" programında
+Tariq Al-Suwaidan Al-Layth bin Saad, kimseyle çatışmaya girmeyen bir 'bilgi ve etik' modelini sunar. 94 Hicri'de Yukarı Mısır'da bir köyde doğduğunu ve Mısır'ın şimdiye kadar gördüğü en büyük cenazede seksen bir yaşında öldüğünü {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:02:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:27:30} belirtir.
+Çıkardığı büyüklüğünün sırlarından biri, bilgi arayışındaki yolculuktur — yirmi yaşındayken 113 Hicri'de Mekke'de al-Zuhri'den duymuştur — ve gezgin bilginlerin hayatı gezgin olmayanlardan daha derin anladığını gözlemlemesi {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:03:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:03:30}.
+Alimlerin tanıklıkları arasında şunlar yer alır: Ebu Nu'eym'in Mısır'ın güvenilir ve hadis âlimi olduğunu, bölgenin lideri ve reisi olduğunu, varlığıyla övünerek Mısır valileri ve yargıçlarının danışmanlığına atıfta bulunduğunu söylemesi; Ahmed bin Hanbal'ın "Said el-Mekbari'nin en doğru hadisi el-Leyt bin Sa'd'dir" demiştir; ve el-Şafii'nin "El-Leyt Malik'ten daha bilgilidir, ancak öğrencileri onu takip etmedi" ifadesi—buradan yaratıcı kişinin kitaplarına değil, bilgisini taşıyanlarla devam ettiği {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:04:30}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:07:00}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:26:00}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:26:30} ile devam ettiği çıkarılır.
+En zenginler arasındaydı, yılda yirmi bin dinar kazanıyordu, ancak zekat ödemedi çünkü tüm parayı alimlere harcadı—her yıl ve daha fazlası zengin bir yüz dinar alırdı. Kızının düğünü için bir kuş istediğinde ona beş yüz dinar gönderdi, bu yüzden zenginliğini alay ederek alimleri halkın geçim kaynaklarından kurtararak ulusun yararına adadılar {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:11:00}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:12:00}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:13:30}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:14:00}.
+Gününü dört oturuma böldü: sultanın felaketlerinde ve ihtiyaçlarında — ve eğer sultan ya da hakim onu kandırırsa, Bağdat'a yazacak ve görevden alınacak — hadis alimleri konseyi, "Dükkâncıları benden uzak tutun, çünkü kalpleri pazarlarına bağlıdır," diyerek, dilencilerin ve halkın ihtiyaçlarının toplanması, ailesinin toplanması {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:16:00}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:16:30}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:17:30}, {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:19:00}.
+Kendisi hakkında şöyle demiştir: "Seksen yaşına ulaştım ve hiç arzu sahibi biriyle kavga etmedim." Ebu Nuaym, Al-Layth, Malik ve Al-Awza'i döneminde kaprislerin uykuda olduğunu, bu yüzden yeniliğin tartışmaya ihtiyaç duymadığını belirtir {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:19:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:20:00}.
+Ve Harun el-Reşid'in yemin hikayesi: 'İki bahçem var,' yemin etti ve alimler onu kâfir ilan eden bir fetva yayımladılar, böylece Al-Layth ona üç kez yemin etti: 'Allah'tan korkuyorum mu? O'ndan mı korkuyorum?' Sonra dedi ki, 'Sağından çıktım — ve Rabbinin huzurundaki konumdan korkan iki cövte sahiptir.' {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:23:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:24:30}.
+Ve Mısır valiliği için El-Mansur'a özür dilemesi: "Ben Mevvali'den bir adamım ve bu yüzden zayıfladım," buna Al-Mansur şöyle yanıt verdi: "Zayıflığın yok, ama benim için çalışma niyetin zayıfladı" {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:25:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep08 00:25:30}.

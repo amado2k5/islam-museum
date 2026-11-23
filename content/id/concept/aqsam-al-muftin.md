@@ -1,0 +1,32 @@
+---
+id: concept/aqsam-al-muftin
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/aqsam-al-muftin.md}
+---
+## Ringkasan
+Dalam manfaat terkait fatwa yang digunakan [[person/ibn-qayyim-al-jawziyya|Ibn Qayyim al-Jawziyyah]] untuk menyimpulkan bukunya [[work/ilam-al-muwaqqiin|I'lam al-Muwaqqi'in]], ia membuat manfaat kedua puluh sembilan bahwa para mufti yang menunjuk diri mereka sendiri untuk mengeluarkan fatwa terdiri dari empat jenis, lalu berdasarkan itu apa yang diperbolehkan untuk setiap jenis fatwa. {cite:ilam-muwaqqiin-ibn-jawzi-v6 p. 125}
+
+## Tipe Satu: Mujtahid
+Seorang ulama Kitab Allah, Sunnah Rasul-Nya, dan perkataan para sahabat, seorang mujtahid dalam memutuskan hal-hal baru, dengan niat setuju dengan bukti di mana pun mereka berada; dan ijtihadnya tidak bertentangan dengan kadang-kadang meniru orang lain. Tidak ada imam kecuali bahwa dia mengikuti seseorang yang lebih berpengetahuan darinya dalam beberapa keputusan. Dia mengutip pernyataan Al-Shafi'i dalam sebuah perkara Haji: "Saya mengatakannya dengan meniru sebuah hadiah." Dia percaya bahwa merekalah yang diizinkan mengeluarkan fatwa dan mencari fatwa, dan melalui siapa kewajiban [[concept/ijtihad|ijtihad dipenuhi, dan merekalah yang]] dia rujuk dalam hadits para inovator pada awal setiap seratus tahun. {cite:ilam-muwaqqiin-ibn-jawzi-v6 p. 125}
+
+## Tipe Dua: Mujtahid Terbatas
+Seorang mujtahid dalam aliran pemikiran mengikuti perkara, memahami fatwa, prinsip, dan keberatan Imamnya, mahir mengambil dari fatwa tersebut dan menganalogikan apa yang tidak secara eksplisit dinyatakan dalam teksnya, tanpa mengikuti imamnya dalam keputusan atau bukti. Namun, ia mengikuti jalannya dalam ijtihad dan fatwa serta memanggil sekolahnya. Disebutkan bahwa pangkat ini diklaim oleh Hanbalis seperti Hakim Abu Ya'la dan Hakim Abu Ali ibn Abi Musa, serta banyak di antara para Shafi'i. Bangsa Hafi berbeda pendapat mengenai Abu Yu'i Suf, Muhammad, dan Zafar, para Shafi'i mengenai Al-Muzani, Ibn Surayj, Ibn Al-Mundhir, Muhammad ibn Nasr Al-Marwazi, Malikis mengenai Ashhab, Ibn Abd al-Hakam, Ibn al-Qasim, dan Ibn Wahb: Apakah mereka independen dalam ijtihad atau mengikuti aliran imam mereka? Dia percaya bahwa mereka yang merenungkan kondisi mereka tahu bahwa mereka tidak meniru imam mereka dalam segala hal yang mereka katakan. {cite:ilam-muwaqqiin-ibn-jawzi-v6 p. 126}
+
+## Jenis ketiga: Mujtahid dalam aliran pemikiran
+Seseorang yang merupakan mujtahid dalam aliran pemikiran yang diikutinya, dibuktikan oleh bukti, mahir dalam fatwa-fatwanya, tidak melampaui atau bertentangan dengan pernyataan Imamnya, dan jika dia menemukan teks dari Imamnya, dia tidak menyimpang darinya. Bagi dia, dia seperti kebanyakan penulis di sekolah dan kebanyakan ulama sekte; banyak dari mereka percaya bahwa tidak perlu mengetahui Al-Qur'an, Sunnah, atau Arab untuk hanya mengandalkan teks Imamnya. {cite:ilam-muwaqqiin-ibn-jawzi-v6 p. 126} Ibn al-Qayyim mengkritik pandangan banyak dari mereka bahwa mereka memiliki ijtihad di sekolah dan melihat ajaran Imam mereka sebagai yang paling dekat dengan kebenaran, dan dia mengagumi ijtihad yang membuat mereka lebih memilih pengikutnya dan menjauhkan mereka dari ijtihad menurut firman Allah dan Rasul-Nya. {cite:ilam-muwaqqiin-ibn-jawzi-v6 p. 127}
+
+## Tipe Empat: Peniru Murni
+Kelompok yang telah mempelajari aliran pemikiran yang mereka ikuti, menghafal fatwa dan cabang mereka, dan berkomitmen pada peniruan murni; jika mereka menyebut Al-Qur'an dan Sunnah, itu untuk berkat, bukan sebagai bukti. Jika mereka melihat hadits atau fatwa otentik dari Abu Bakr, Umar, Uthman, dan Ali yang bertentangan dengan pendapat imam mereka, mereka mengambil pendapat imam mereka. {cite:ilam-muwaqqiin-ibn-jawzi-v6 p. 127} Dia percaya bahwa mereka yang seperti ini tidak dapat mengeluarkan fatwa hanya dengan mengikuti orang lain tanpa mengetahui bahwa itu benar. Jika penanya mengatakan dia ingin mengetahui pernyataan dan doktrin imam, dia diizinkan melaporkannya dan dianggap sebagai penyampai, dan tanggung jawab kemudian ada pada penanya. {cite:ilam-muwaqqiin-ibn-jawzi-v6 p. 129}
+
+## Apa yang bercabang dari divisi
+**Meniru Orang Mati.** Dalam amal ketiga puluh satu, Ibn al-Qayyim menceritakan dua pandangan dari sahabat Ahmad dan Al-Shafi'i mengenai diperbolehkannya meniru almarhum tanpa mempertimbangkan bukti: Siapa pun yang melarangnya mengatakan bahwa jika almarhum masih hidup, ijtihadnya mungkin berubah pada saat bencana; dan Ibn al-Qayyim percaya bahwa hal terbaik yang ada di tangan orang untuk meniru orang adalah meniru orang yang telah meninggal, dan bahwa pernyataan tidak mati bersama kematian para pembicaranya, sama seperti laporan tidak mati dengan kematian para naratornya. {cite:ilam-muwaqqiin-ibn-jawzi-v6 p. 129}
+
+**Fragmentasi ijtihad.** Dalam manfaat ketiga puluh dua, ditetapkan bahwa ijtihad menerima fragmentasi, sehingga seorang pria adalah mujtahid dalam jenis pengetahuan seperti warisan (farād) dan mengikuti yang lain di bidang lain. Ia menceritakan tiga aspek fatwa-nya dalam apa yang telah ia ajtihad: diperbolehkan ketika menganggapnya benar; larangan karena bab-bab yurisprudensi saling terkait; dan kebolehan dalam warisan lebih penting daripada bab lain karena putusan mereka terpisah dari bab lain dan keumumannya bersifat definitif. Diperbolehkan bagi seseorang yang berusaha pada satu atau dua isu untuk mengeluarkan fatwa dengan cara yang paling benar. {cite:ilam-muwaqqiin-ibn-jawzi-v6 p. 129} {cite:ilam-muwaqqiin-ibn-jawzi-v6 p. 130}
+
+## Keterkaitan materi dengan orang lain
+Klasifikasi ini berkaitan dengan sikap Ibn al-Qayyim terhadap [[concept/taqlid|peniruan]] dan [[question/must-a-layperson-follow-one-madhhab|kepatuhan orang sehari-hari pada satu aliran pemikiran]], serta manfaat dari putusannya bahwa pengeluaran fatwa didasarkan pada keinginan, pilihan, dan persetujuan atas tujuan dari ketidakmoralan yang paling tidak bermoral. {cite:ilam-muwaqqiin-ibn-jawzi-v6 p. 125}
+
+## Apa yang tidak disebutkan di sini
+Klasifikasi disajikan di sini hanya dari volume enam; klasifikasi kelas mufti oleh orang lain seperti Ibn al-Salah, al-Nawawi, dan Ibn Hamdan, yang dirujuk oleh editor, maupun studi modern belum ditambahkan.

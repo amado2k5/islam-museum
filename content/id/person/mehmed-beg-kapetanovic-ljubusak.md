@@ -1,0 +1,12 @@
+---
+id: person/mehmed-beg-kapetanovic-ljubusak
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/mehmed-beg-kapetanovic-ljubusak.md}
+---
+## Ringkasan
+
+Mehmet Bek Kaptanović Ljubošak (19 Desember 1839 – 29 Juli 1902) adalah seorang penulis dan pejabat Bosnia dari Vitina dekat Ljuboški, yang menulis dengan nama Mohibi. {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs} Ia belajar di Sekolah Lyubushki dan dalam bahasa Turki, Arab, dan Persia, melayani administrasi Ottoman sebagai gubernur distrik di beberapa kota, menetap di Sarajevo pada tahun 1878, dan menggantikan Mustafa Fadil Bašić sebagai walikota kedua kota pada tahun 1893. {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs} {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} Selama masa pemerintahannya, Sarajevo menerima penerangan jalan listrik dan salah satu layanan trem listrik pertama di Eropa pada 1 Mei 1895; stroke pada Juli 1898 memulai kemunduran yang memaksanya mengundurkan diri pada April 1899. {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs}
+
+Pada tahun 1891, ia mendirikan majalah 'Pushniak,' sebuah platform pemikiran nasionalis Bosnia, di mana ia berargumen bahwa Muslim Bosnia bukanlah Kroasia atau Serbia, melainkan sebuah bangsa yang berdiri sendiri. {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-hr} Ia berkeliling negeri mengumpulkan harta karun populernya: 'Harta Karun Populer' (1887) mengumpulkan sekitar lima ribu pepatah dan pepatah, serta menambahkan peribahasa Turki, Arab, dan Persia dalam Harta Karun Timur (1896), bersama surat-surat yang menanyakan apa yang dipikirkan Muslim Bosnia (1886) dan tentang masa depan mereka (1893). {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs} {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} Ia meninggal di Grabavitsa, Sarajevo, pada tahun 1902 — hari ini dilaporkan sebagai 29 Juli dalam bahasa Inggris dan Kroasia, 28 Juli dalam teks Bosnia dan Wikidata, dan 26 Juli dalam bahasa Serbia — dan putranya Reza Bey meninggal pada 24 Desember 1931. {cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} {cite:wikidata-mehmed-beg-kapetanovic-ljubusak}

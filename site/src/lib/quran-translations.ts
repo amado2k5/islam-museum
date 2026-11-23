@@ -13,10 +13,12 @@
 import type { Lang } from "./i18n";
 import french from "../data/quran-translations/french_rashid.json";
 import spanish from "../data/quran-translations/spanish_garcia.json";
+import turkish from "../data/quran-translations/turkish_rwwad.json";
+import indonesian from "../data/quran-translations/indonesian_affairs.json";
 
 interface Verse { t: string; f?: string }
 interface Edition { key: string; language: string; translator: string; title: string; version: string; last_update: string; publisher: string; source: string; verses: Record<string, Verse> }
-const EDITIONS: Partial<Record<Lang, Edition>> = { fr: french as unknown as Edition, es: spanish as unknown as Edition };
+const EDITIONS: Partial<Record<Lang, Edition>> = { fr: french as unknown as Edition, es: spanish as unknown as Edition, tr: turkish as unknown as Edition, id: indonesian as unknown as Edition };
 
 export interface QuranTranslation { text: string; footnotes?: string; translator: string; version: string; source: string; publisher: string }
 

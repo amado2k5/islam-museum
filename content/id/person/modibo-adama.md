@@ -1,0 +1,47 @@
+---
+id: person/modibo-adama
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+title: موديبو أداما (1786–1847)
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/modibo-adama.md}
+---
+
+## Ringkasan
+
+Modibo Adama (1786–1847), juga dikenal sebagai Adama Bi Urdu Hasna, adalah seorang ulama Fulani yang memimpin jihad di Fombena ("Negeri Selatan") dan mendirikan kerajaan yang dikenal sebagai Adamawa setelah namanya. {cite:source/wikipedia-modibo-adama-en} {cite:source/wikipedia-modibo-adama-ar} Wilayah ini menerima panji dari Sheikh Osman Dan Fodiu selama Revolusi Sekto, menjadikan Fumbina salah satu emirat terbesar dan paling kompleks dari Khalifah Sekto, membentang sekitar empat puluh ribu mil persegi di sebagian wilayah Nigeria, Kamerun, dan Afrika Tengah saat ini. {cite:source/wikipedia-modibo-adama-en} Artikel Prancis menambahkan bahwa ia mendirikan dinasti Pangeran Yola dan negara bagian Adamawa di Nigeria saat ini dinamai menurut namanya. {cite:source/wikipedia-modibo-adama-fr} "Modibo" sendiri adalah gelar Fulani yang berarti "sarjana," yang memengaruhi gelar kerajaannya. {cite:source/wikipedia-modibo-adama-en}
+
+## Kehidupan Awal dan Pendidikan
+
+Ia lahir di Worochkei pada tahun 1786 di awal artikel — sementara bagian asal dalam artikel bahasa Inggris yang sama menyatakan bahwa ia lahir pada tahun 1779 dan memberikan buku modern Kamerun pada tahun 1780; berbagai versi tercatat dalam catatannya tanpa bobot. {cite:source/wikipedia-modibo-adama-en} {cite:source/wikipedia-modibo-adama-fr} Ayahnya, Modibo Hasan, mengajarinya Islam hingga usia sebelas tahun, seorang Urdu (kepala suku). {cite:source/wikipedia-modibo-adama-en} Ia kemudian melakukan perjalanan mengejar ilmu, mempelajari Al-Qur'an dari Sheikh Muhammad Tahir di Bagirmi, dan tinggal sekitar sepuluh tahun bersama ulama terkenal Malam Kyari di Bernin Ngazzargamo, ibu kota Kekaisaran Borno. {cite:source/wikipedia-modibo-adama-en} Ketika ia kembali, ia mendapati ayahnya tewas dalam perselisihan lokal, sehingga ia bergabung dengan Volpi, para pedagang di Lembah Faro, dan bersama cendekiawan Modibo Hamman, ia membangun reputasi akan kesalehan dan pengetahuan di seberang hulu Sungai Benui. {cite:source/wikipedia-modibo-adama-en} Artikel Arab awalnya langsung mengaitkannya dengan klan Ba'in, sementara artikel Inggris yang lebih lengkap menempatkannya dari klan Yelaga (Yirlabi) yang baru bergabung dengan Ba'in pada tahap ini. {cite:source/wikipedia-modibo-adama-ar} {cite:source/wikipedia-modibo-adama-en}
+
+## Delegasi dan Jihad
+
+Ketika Fombena menerima kabar jihad Osman Dan Fodio yang dimulai pada tahun 1804, para pemimpin klan Fulani berkumpul di Gorenga pada tahun 1809 dan memilih Adama—seorang cendekiawan netral di antara orang Urdu yang tidak bercita-cita berkuasa—untuk memimpin delegasi mereka ke Suktu. {cite:source/wikipedia-modibo-adama-en} Osman menunjuknya sebagai 'Lamido Fombina,' yang berarti Pangeran Selatan, menyerahkan panji jihad, menugaskannya menyebarkan Islam di Fombina, membagikan panji kepada para pemimpin, dan menunggu tanda-tanda kemunculan Mahdi yang diharapkan Uthman dari Timur pada abad pertama kekhalifahan. {cite:source/wikipedia-modibo-adama-en} Naskah Yula dari Maret 1809, yang dikutip dalam artikel tersebut, mempertahankan mandat: Siapa pun yang taat Adama telah menaati Uthman, dan siapa pun yang bersumpah setia kepada Adama seolah-olah ia telah bersumpah setia kepada Uthman. {cite:source/wikipedia-modibo-adama-en} Artikel Prancis mencatat bahwa Panji Hijau berlangsung pada tahun 1806, bukan 1809, dan kedua tanggal tersebut dicatat bersama. {cite:source/wikipedia-modibo-adama-fr} Adama melarang sukarelawannya menjarah dan membunuh secara acak, dan yang terbaik dari bangsa yang kalah adalah antara Islam dan jizya; artikel tersebut mencatat bahwa sebagian besar Muslim di wilayah tersebut selain Fulani menolak jihadnya, dan ia menganggapnya sebagai alasan untuk dominasi Fulani. {cite:source/wikipedia-modibo-adama-en} Dari markasnya di Goren, ia menyerang pemukiman Bata, bergabung dengan Buba Yiru, Pangeran Gombe, melawan Yangoro, Huna, dan Kipa, serta mendirikan kantor regional baru, 'Lamido,' dari mana ia mengangkat lebih dari empat puluh sebelum wafat. {cite:source/wikipedia-modibo-adama-en} Ia mengincar Mandra, satu-satunya negara besar di wilayah tersebut, merebut ibu kotanya Dolo setelah rajanya, Bukar Jayama menolak melepaskan kedaulatannya, lalu kehilangan kedaulatan itu dalam serangan balasan dari Mora dan melarikan diri. {cite:source/wikipedia-modibo-adama-en}
+
+## Putusan di Yola
+
+Adama mundur ke Yola, yang menjadi ibu kota terakhirnya pada tahun 1841 — artikel Prancis mencantumkan urutannya: Ribadeau pada tahun 1838, Giullio pada tahun 1839, lalu Yola — dari mana ia dan kaptennya Marua, Garua, dan Ngoundiri merebut dan menyeberangi Dataran Tinggi Adamawa pada tahun 1825. {cite:source/wikipedia-modibo-adama-en} {cite:source/wikipedia-modibo-adama-fr} Atas saran Uthman, ia memerintah tiga kelas: ia sendiri adalah 'Panglima Orang Beriman' di Yola, yang hanya menjawab di hadapan sektenya; Lamibi adalah gubernur provinsi; para tetua desa berada di bawah mereka; dan upeti dibayar dengan ternak. {cite:source/wikipedia-modibo-adama-en} Beberapa pemimpin suku kuno tumbuh di wilayah yang mereka taklukkan hingga mereka menjadi semi-merdeka dan tidak selalu menjawab panggilannya, seperti yang ditunjukkan oleh perilaku Buba Najida menurut Poli. {cite:source/wikipedia-modibo-adama-en} Ia hidup dalam keadaan sederhana dan tidak pernah mengumpulkan banyak kekayaan. {cite:source/wikipedia-modibo-adama-en}
+
+## Kehidupan Pribadi dan Karakteristik
+
+Adama memiliki empat istri: Astajam, Yasibo, Mari, dan Yara. Artikel Inggris tersebut secara luas menceritakan penolakan istri keduanya, Yasibo yang menolak mengatur harem, perselisihan bahwa ia memindahkan ibu kotanya, dan tradisi bahwa ia mencabut warisan keturunannya—tradisi yang menurut artikel itu sendiri kemungkinan merupakan rumor yang dibuat oleh pendukung saingan selama krisis suksesi tahun 1847; namun dua keturunannya menjadi Lamido pada abad kedua puluh, serta dua putra dari Yara. {cite:source/wikipedia-modibo-adama-en} Ia dikenal dengan kehidupan yang taat, kadang-kadang tidak makan selama seminggu penuh dan membuat serta menjual tali; Penjelajah Inggris Hugh Clapperton, ketika melihatnya di antara para pangeran di istana Khalifah Mehmed Blue, menggambarkannya sebagai yang paling sopan dalam berpakaian. {cite:source/wikipedia-modibo-adama-en} Seperti yang dijelaskan dalam artikel, dia adalah pria tinggi dan ramping dengan wajah tegas, wajahnya memutih dengan bekas cacar. {cite:source/wikipedia-modibo-adama-en}
+
+## Kematian dan warisan
+
+Ia meninggal di Yola pada tahun 1847 dan dimakamkan di sana, dan makamnya masih berdiri hingga kini. Setelah masa pemerintahan singkat, ia digantikan oleh putranya Mohammadou Loul, dan tiga putra lainnya kemudian memegang jabatan Lamido pada masa mereka. {cite:source/wikipedia-modibo-adama-en} Pada saat kematiannya, Adamawa mencakup sekitar 103.000 kilometer persegi dan memiliki populasi sekitar satu setengah juta. {cite:source/wikipedia-modibo-adama-en} Penaklukannya menjadikan suku Fulani sebagai bangsa dominan di utara Kamerun, menyebarkan Islam hingga menjadi agama dominan di wilayah tersebut, dan membentuk ulang lingkungannya dengan menggantikan hutan di seluruh dataran tinggi. {cite:source/wikipedia-modibo-adama-en}
+
+## Posisi dan Kritik
+
+Bagian ini menyajikan apa yang sumber-sumber atribusikan kepada Adama dan apa yang mereka katakan tentangnya; ini bukan penilaian dari museum.
+
+**Kredonya seperti yang dijelaskan oleh sumber.** Tidak ada sumber yang diteliti yang menyebutkan aliran yurisprudensial atau doktrin atau afiliasi Sufi Adama sendiri, juga Wikidata tidak memuat pernyataan agamanya sama sekali; oleh karena itu, museum mencatat kepercayaannya sebagai "tidak diketahui," seperti yang ditunjukkan catatannya, baik sebagai kesimpulan dari guru-gurunya maupun dari karakter Maliki dari ulama Sekto yang melayaninya. {cite:source/wikipedia-modibo-adama-en} {cite:source/wikidata-modibo-adama} Sumber mengonfirmasi statusnya sebagai sarjana: 'Modibo' adalah gelar sarjana bagi Fulani, dan para pemimpin suku memilihnya sebagai sarjana netral, memperlakukannya dalam teks mandat tertulis sebagai cendekiawan yang dapat dipercaya dan membaca tanda-tanda waktu. {cite:source/wikipedia-modibo-adama-en}
+
+**Jihad sebagaimana didirikan.** Artikel berbahasa Inggris mencatat aturan dalam perang—tidak ada penjarahan atau pembunuhan acak—serta pemerintahan Muslim di wilayah tersebut yang bukan Fulani, yang menolak jihad dan musuhnya sebagai alasan dominasi Fulani, dan juga mencatat bahwa banyak bangsa melarikan diri dari serangannya daripada melawannya, sehingga yang lain pun mengungsi. {cite:source/wikipedia-modibo-adama-en}
+
+## Referensi
+
+- Wikipedia (Inggris), "Modibo Adama", ulasan 1365394006 (22 Juli 2026) — sumber/wikipedia-modibo-adama-en.
+- Wikipedia (Prancis), "Modibbo Adama," ulasan 240486163 (18 Oktober 2026) — sumber/wikipedia-modibo-adama-fr.
+- Wikipedia (Arab), "Modibo Adama," ulasan 61786531 (16 Maret 2023) — sumber/wikipedia-modibo-adama-ar.
+- ويكيداتا، Q959476 — sumber/wikidata-modibo-adama.

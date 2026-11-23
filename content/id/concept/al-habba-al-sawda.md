@@ -1,0 +1,22 @@
+---
+id: concept/al-habba-al-sawda
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/al-habba-al-sawda.md}
+---
+## Ringkasan
+Biji hitam adalah biji-bijian, dan dalam dua Sahih Nabi berkata: "Dalam biji hitam ada obat untuk setiap penyakit kecuali racun," dan racun berarti kematian {cite:sahih-al-bukhari 5688} {cite:sahih-muslim 5766}. Ibn Qayyim al-Jawziyyah mengatakan itu adalah al-Shuniz, dan pandangan mereka yang menganggapnya mustard atau buah pot dianggap keduanya {cite:zad-al-maad p.701}, dan "dari setiap penyakit" dipahami sebagai makna umum dari penyakit spesifik, yaitu penyakit apa pun yang dapat diterima, dan bermanfaat untuk penyakit flu {cite:zad-al-maad p.701}.
+
+## Apa yang disebutkan di berita
+Ibn al-Qayyim menceritakan dengan huruf 'Ha' dari obat tunggal hadits Abu Huraira dalam dua Sahih: "Ambil biji hitam ini, karena menyembuhkan setiap penyakit kecuali yang beracun" {cite:zad-al-maad p.701}. Laporan ini dilaporkan dalam Al-Bukhari dengan riwayat "Dalam biji hitam ada obat untuk setiap penyakit kecuali yang beracun." Laporan ini juga memuat pernyataan Ibn Shihab bahwa racun adalah kematian, dan biji hitam adalah Shuniz {cite:sahih-al-bukhari 5688} [[passage/bukhari-api-5688|al-Bukhari 5688]], dan dalam bahasa Muslim dengan makna {cite:sahih-muslim 5766} [[passage/muslim-api-5766|Muslim 5766]], dan dalam al-Tirmidhi {cite:jami-al-tirmidhi 2041} [[passage/tirmidhi-api-2041|al-Tirmidhi 2041]]. Dalam riwayat lain di Al-Bukhari, dijelaskan resep untuk seorang pasien: lima atau tujuh biji dihancurkan lalu diteteskan minyak ke hidungnya. Disebutkan bahwa Aisha menceritakan dengan hadits {cite:sahih-al-bukhari 5687} [[passage/bukhari-api-5687|Al-Bukhari 5687]].
+
+## Pengaturan biji hitam
+Ibn al-Qayyim mengatakan bahwa biji hitam adalah 'shuniz' dalam bahasa Persia, yang berarti jintan hitam, dan disebut jintan India. Ia melaporkan bahwa al-Harbi menceritakan dari al-Hasan bahwa itu adalah mustard, dan al-Harawi mengatakan itu adalah biji hijau buah murbei, dan kedua pendapat itu hanyalah ilusi, dan pandangan yang benar adalah bahwa itu adalah al-shuniz {cite:zad-al-maad p.701}. Hal ini sejalan dengan interpretasi Ibn Shihab dalam narasi al-Bukhari {cite:sahih-al-bukhari 5688}.
+
+## Makna "dari setiap penyakit"
+Ibn al-Qayyim percaya bahwa pepatah-Nya "obat untuk setiap penyakit" mirip dengan pepatah Yang Maha Kuasa dalam Al-Rih [[passage/quran-46-25|Al-Ahqaf 25]], yang berarti segala sesuatu dapat dimusnahkan, artinya dari makna umum spesifik, artinya setiap penyakit diterima sebagai obat {cite:zad-al-maad p.701}. Ia mengatakan bahwa obat ini bermanfaat melawan semua penyakit dingin dan kering secara tidak sengaja masuk ke penyakit panas kering, sehingga kekuatan obat dingin dan lembap cepat menjangkau mereka ketika diambil darinya {cite:zad-al-maad p.701}. Ia mengutip bahwa penulis hukum dan yang lain menetapkan penambahan saffron ke tablet kamper untuk mempercepat. Pelaksanaannya, dan ia mengatakan bahwa manfaat air panas pada beberapa penyakit panas dengan sifat khusus sudah dikenal luas di kalangan industrialis {cite:zad-al-maad p.701}. Untuk isu yang lebih luas tentang 'untuk setiap penyakit ada obatnya,' lihat [[concept/al-tibb-al-nabawi|Pengobatan Nabi]].
+
+## Manfaatnya seperti yang disebutkan oleh Ibn al-Qayyim
+Ibn al-Qayyim menyebutkan bahwa ini adalah jenis kering panas dan kering derajat ketiga, meredakan kembung, mengeluarkan biji labu dari usus, mendapat manfaat dari kusta, penyakit ginjal, dan penyakit flegmatik, membuka sumbatan, dan melarutkan angin {cite:zad-al-maad p.701}. Jika dipukul, diuleni dengan madu, dan diminum dengan air panas, ini menguntungkan batu ginjal dan kandung kemih, serta menolak urin, menstruasi, dan susu jika dikonsumsi [[concept/asal|berhari-hari seperti madu]] {cite:zad-al-maad p.701}. Lemaknya dan penggunaannya sebagai turunannya memiliki manfaat termasuk kelumpuhan dan tetanus, dan asapnya mengusir hama {cite:zad-al-maad p.702}. Ia juga menyebutkan bahwa minuman ini harganya dua dirham, dan beberapa mengklaim konsumsi berlebihan Pembunuh {cite:zad-al-maad p.702}. Semua ini adalah pernyataan Ibn al-Qayyim tentang seni kedokteran yang dikenal pada zamannya, yang disampaikan oleh museum, dan tidak ada yang direkomendasikan.

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "6406"
-label: { ar: "صحيح مسلم — حديث 6406", en: "Sahih Muslim 6406 — The Book of the Merits of the Companions", ur: "صحیح مسلم — حدیث 6406", es: "Sahih Muslim 6406 — El Libro de los Méritos de los Compañeros", fr: "Sahih Muslim 6406 — Le Livre des mérites des Compagnons" }
+label: { ar: "صحيح مسلم — حديث 6406", en: "Sahih Muslim 6406 — The Book of the Merits of the Companions", ur: "صحیح مسلم — حدیث 6406", es: "Sahih Muslim 6406 — El Libro de los Méritos de los Compañeros", fr: "Sahih Muslim 6406 — Le Livre des mérites des Compagnons", tr: "Sahih Müslim — Hadis 6406", id: "Sahih Muslim — Hadits 6406" }
 text: "… بْنُ بَرَّادٍ أَبُو عَامِرٍ الأَشْعَرِيُّ، وَأَبُو كُرَيْبٍ مُحَمَّدُ بْنُ الْعَلاَءِ - وَاللَّفْظُ لأَبِي عَامِرٍ - قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ بُرَيْدٍ، عَنْ أَبِي بُرْدَةَ، عَنْ أَبِيهِ، قَالَ لَمَّا فَرَغَ النَّبِيُّ صلى الله عليه وسلم مِنْ حُنَيْنٍ بَعَثَ أَبَا عَامِرٍ عَلَى جَيْشٍ إِلَى أَوْطَاسٍ فَلَقِيَ دُرَيْدَ بْنَ الصِّمَّةِ فَقُتِلَ دُرَيْدٌ وَهَزَمَ اللَّهُ أَصْحَابَهُ فَقَالَ أَبُو مُوسَى وَبَعَثَنِي مَعَ أَبِي عَامِرٍ - …"
 summary:
   ar: "في صحيح مسلم؛ ذكر ديوان أو بريد المراسلات."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم میں؛ دیوآن یا بریڈ کا ذکر."
   es: "En Sahih Muslim; mención de la cancillería o del puesto de barid."
   fr: "Dans Sahih Muslim; mention de la chancellerie ou du poste de barid."
+  tr: "Sahih Müslim'de, yazışmalar için kullanılan Divan veya postane zikredilmiştir."
+  id: "Dalam Sahih Muslim, disebutkan tentang Diwan atau kantor pos untuk korespondensi."
 relations:
   - { type: part_of, target: passage/muslim-kitab-44 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }

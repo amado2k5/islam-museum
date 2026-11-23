@@ -6,7 +6,7 @@ import { parseLocalized } from "./i18n";
 import { repoPath } from "./paths";
 import type { Lang } from "./i18n";
 
-export interface Tri { ar: string; en: string; ur: string; fr?: string; es?: string }
+export interface Tri { ar: string; en: string; ur: string; fr?: string; es?: string; tr?: string; id?: string }
 export interface BandActivity { id: string; href: string; glyph: string; label_key: string }
 export interface Band {
   id: string;

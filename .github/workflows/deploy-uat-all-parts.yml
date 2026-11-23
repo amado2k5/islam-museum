@@ -1,8 +1,8 @@
 name: Deploy all parts to UAT
 
 # UAT (https://uat.islam.museum): every part of one "Build islam.museum by language" run, in one start. It runs the shared deploy
-# (deploy-shared-env.yml) first, then the five language deploys (deploy-lang-env.yml) one after another: ar, en, ur,
-# fr, es. Together they publish what the one deploy publishes. Manual only, like every deploy.
+# (deploy-shared-env.yml) first, then the seven language deploys (deploy-lang-env.yml) one after another: ar, en, ur,
+# fr, es, tr, id. Together they publish what the one deploy publishes. Manual only, like every deploy.
 # A trial beside the one deploy, which is unchanged. A language that fails, or that the build does not have, is
 # reported and the others still run; if the shared parts fail, no language is deployed.
 on:
@@ -95,6 +95,30 @@ jobs:
     with:
       environment: uat
       language: es
+      build_run_id: ${{ inputs.build_run_id }}
+      source_branch: ${{ inputs.source_branch }}
+    secrets: inherit
+  tr:
+    needs: [shared, es]
+    # After the one before it, whatever its result: a language that failed, or that this branch does not have, does
+    # not stop the next. Nothing runs when the shared parts failed.
+    if: ${{ !cancelled() && needs.shared.result == 'success' }}
+    uses: ./.github/workflows/deploy-lang-env.yml
+    with:
+      environment: uat
+      language: tr
+      build_run_id: ${{ inputs.build_run_id }}
+      source_branch: ${{ inputs.source_branch }}
+    secrets: inherit
+  id:
+    needs: [shared, tr]
+    # After the one before it, whatever its result: a language that failed, or that this branch does not have, does
+    # not stop the next. Nothing runs when the shared parts failed.
+    if: ${{ !cancelled() && needs.shared.result == 'success' }}
+    uses: ./.github/workflows/deploy-lang-env.yml
+    with:
+      environment: uat
+      language: id
       build_run_id: ${{ inputs.build_run_id }}
       source_branch: ${{ inputs.source_branch }}
     secrets: inherit

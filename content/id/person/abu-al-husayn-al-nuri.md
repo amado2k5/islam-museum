@@ -1,0 +1,16 @@
+---
+id: person/abu-al-husayn-al-nuri
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/abu-al-husayn-al-nuri.md}
+---
+## Ringkasan
+Abu al-Husayn Ahmad ibn Muhammad al-Nuri adalah tokoh Sufi di Baghdad, yang disebutkan [[person/abu-nasr-al-sarraj|oleh Abu Nasr al-Sarraj]] dalam [[work/kitab-al-luma-fi-al-tasawwuf|buku Al-Luma']] dalam bukunya Tafsir al-Shatahiyyat, dan ia mengatakan ia hidup pada masa al-Muwaffaq. {cite:luma-sarraj-jadir-dar-al-fath p. 546} Ia menggambarkannya sebagai "di antara banyak orang dan di antara orang-orang yang memiliki tanda lembut," dengan kata-kata yang kompleks dan banyak puisi, "dan ia biasa mengambil dari laut yang luas." {cite:luma-sarraj-jadir-dar-al-fath p. 547}
+
+## Cobaan yang dialaminya adalah dengan sang rekonsiliator
+Al-Sarraj menceritakan bahwa [[person/ghulam-khalil|hamba Khalil]] dulu mengkritiknya, sehingga ia mengangkat kepada [[person/abu-ahmad-al-muwaffaq|al-Muwaffaq]] bahwa di Baghdad ada seorang bidat yang darahnya sah. Ia bersaksi bahwa ia mendengar al-Nuri berkata ia mencintai Tuhan, dan Allah mencintainya. Al-Nuri mengutip ayat cinta [[passage/quran-5-54|dalam Al-Ma'idah: 54 dan]] mengatakan bahwa cinta tidak lebih dari cinta, maka al-Muwafaq menangis. {cite:luma-sarraj-jadir-dar-al-fath p. 546} Diceritakan bahwa mereka juga bersaksi kepadanya dengan kata-kata yang ia ucapkan saat mendengar panggilan shalat dan gonggongan anjing, yang ia jelaskan dengan semangat untuk mengenang Tuhan dan memuliakan tanpa pamer, dan bahwa ia kembali dibawa ke Khalifah karena mengatakan ia berada di rumahnya bersama Tuhan. Ia mengutip ayat kedekatan [[passage/quran-50-16|q: 16]], dan khalifah mengizinkannya berbicara. {cite:luma-sarraj-jadir-dar-al-fath p. 546} {cite:luma-sarraj-jadir-dar-al-fath p. 547} Lihat [[event/mihnat-ghulam-khalil|Ujian Seorang Budak Khalil]].
+
+## Berita dan Kata-kata
+Al-Siraj menceritakan dari Abu Amr ibn Alwan bahwa Al-Nuri membawakan tiga ratus dinar kepadanya untuk sebuah properti yang ia jual kepadanya. Ia memanjat jembatan shalat dan mulai melemparkannya ke air satu per satu, sambil berkata: "Kekasihku, apakah kau ingin menipuku dengan hal seperti ini?" Ketika beberapa orang mengkritik hal ini, Al-Sarraj berkata bahwa jika ia tahu dinar itu mengalihkan perhatiannya dari Tuhan dalam sekejap mata, ia harus melemparkannya sekaligus. {cite:luma-sarraj-jadir-dar-al-fath p. 547} Dari kata-katanya "dekat dekat" dalam arti apa yang disebut Al-Sarraj sebagai "setelah jarak," Al-Sarraj mendekatkannya pada pepatah mereka, "Dosa orang yang berdekatan adalah perbuatan baik orang yang benar." {cite:luma-sarraj-jadir-dar-al-fath p. 547} Ia juga menyampaikan ayat-ayat yang ia tulis kepada [[person/abu-said-al-kharraz|Abu Sa'id Al-Kharraz]] dalam rahasia penyembunyian. {cite:luma-sarraj-jadir-dar-al-fath p. 548} Ini adalah laporan yang diceritakan oleh al-Sarraj, dan interpretasinya memiliki interpretasi Sufi.

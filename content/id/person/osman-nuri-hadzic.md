@@ -1,0 +1,12 @@
+---
+id: person/osman-nuri-hadzic
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/osman-nuri-hadzic.md}
+---
+## Ringkasan
+
+Osman Nuri Hajić (28 Juni 1869 – 23 Desember 1937) adalah seorang penulis dan pemikir Bosnia dari Mostar. Ia dididik di kantor kampung halamannya, madrašdiyat, dan sekolahnya, kemudian di Sekolah Hakim Syariah di Sarajevo, dengan studi hukum di Wina dan gelar dari Zagreb. {cite:wikipedia-osman-nuri-hadzic-bs} {cite:wikipedia-osman-nuri-hadzic-en} Cerita pertamanya, yang ditulis bersama temannya Ivan Milečević dengan nama samaran umum Aziz Osman, muncul di majalah sastra saat masih muda; ia juga menulis bersama Milicević novel "Tak Bertujuan" (1897), sebuah kritik terhadap pendidikan sekolah agama. {cite:wikipedia-osman-nuri-hadzic-bs} {cite:wikipedia-osman-nuri-hadzic-en} Ia bekerja di Pengadilan Distrik Sarajevo dan di pemerintahan daerah, kemudian menjadi guru dan kemudian direktur Sekolah Hakim Syariah. {cite:wikipedia-osman-nuri-hadzic-en}
+
+Saat masih menjadi mahasiswa, ia menerbitkan bukunya "Islam dan Budaya" (1894), sebagai tanggapan terhadap publikasi anti-Muslim yang berargumen bahwa Muslim telah berkontribusi pada budaya dan pembelajaran manusia selama berabad-abad dan bahwa pendidikan adalah kewajiban agama bagi Muslim dari kedua jenis kelamin; ia memperluas perdebatan ini kemudian dalam hidupnya dalam bukunya "Muhammad and the Quran" (1931), yang dianggap sebagai salah satu karya paling komprehensif di Bosnia tentang budaya dan sejarah Islam. {cite:wikipedia-osman-nuri-hadzic-en} Pada 1 Mei 1900, ia ikut serta dalam peluncuran majalah "Bahar" bersama Safwat Bek Bašagčić dan Adham Molabdić, mengundurkan diri setelah enam tahun, dan kembali menerbitkan pada tahun 1925 dengan seri "Geret" tentang isu perempuan dalam Islam. {cite:wikipedia-osman-nuri-hadzic-en} {cite:wikipedia-osman-nuri-hadzic-bs} Ia meninggal di Beograd pada 23 Desember 1937, dan menjadi anggota Dewan Negara Kerajaan Yugoslavia; satu bagian dari artikel bahasa Inggris saat ini tercantum sebagai 22 Desember. {cite:wikipedia-osman-nuri-hadzic-bs} {cite:wikidata-osman-nuri-hadzic} {cite:wikipedia-osman-nuri-hadzic-en}

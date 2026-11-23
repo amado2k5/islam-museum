@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani]
 work: work/muwatta-malik
 ref: "1902"
-label: { ar: "الموطأ 1902 — مالك عن نافع: اشترى عبد الله بن عمر راحلة بأربعة أبعرة مضمونة عليه، يوفيها صاحبها بالربذة", en: "Muwatta 1902", es: "Muwatta 1902", fr: "Muwatta 1902", ur: "موطا 1902" }
+label: { ar: "الموطأ 1902 — مالك عن نافع: اشترى عبد الله بن عمر راحلة بأربعة أبعرة مضمونة عليه، يوفيها صاحبها بالربذة", en: "Muwatta 1902", es: "Muwatta 1902", fr: "Muwatta 1902", ur: "موطا 1902", tr: "El-Muvatta 1902 — Malik, Nafi’den rivayetle: Abdullah bin Umar, dört deve karşılığında bir binek hayvanı satın aldı ve hayvanın sahibine kefil oldu; hayvanın bedelini de El-Rabadha'da ödeyecekti.", id: "Al-Muwatta 1902 — Malik berdasarkan riwayat Nafi’: Abdullah bin Umar membeli seekor hewan tunggangan dengan imbalan empat unta, yang dijaminnya, dan pemiliknya akan membayarnya dengan Al-Rabadha." }
 summary:
   ar: "يروي مالك عن نافع أن عبد الله بن عمر اشترى راحلة بأربعة أبعرة مضمونة عليه، يوفيها صاحبها بالربذة. {cite:muwatta-maruf-1997 p.180}"
+  tr: "Malik, Nafi’den rivayetle Abdullah ibn Umar’ın, sahibi tarafından el-Rabadha’da ödenmek üzere, kendisi kefil olduğu dört deve karşılığında bir deve satın aldığını bildirir. {cite:muwatta-maruf-1997 s.180}"
+  id: "Malik meriwayatkan dari Nafi’ bahwa Abdullah ibn Umar membeli seekor unta dengan imbalan empat unta, yang dijamin olehnya, dan akan dibayar oleh pemiliknya di al-Rabadha. {cite:muwatta-maruf-1997 p.180}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

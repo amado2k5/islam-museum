@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1692"
-label: { ar: "موطأ مالك 1692 — ما أُحل، ما لا يحل", en: "Muwatta Malik 1692 — what was made lawful; what is not lawful", ur: "موطأ مالک 1692 — جو حلال کیا گیا، جو حلال نہیں", es: "Muwatta Malik 1692 — lo que se hizo lícito; lo que no es lícito", fr: "Muwatta Malik 1692 — ce qui a été rendu licite; ce qui ne l'est pas" }
+label: { ar: "موطأ مالك 1692 — ما أُحل، ما لا يحل", en: "Muwatta Malik 1692 — what was made lawful; what is not lawful", ur: "موطأ مالک 1692 — جو حلال کیا گیا، جو حلال نہیں", es: "Muwatta Malik 1692 — lo que se hizo lícito; lo que no es lícito", fr: "Muwatta Malik 1692 — ce qui a été rendu licite; ce qui ne l'est pas", tr: "Muwatta Malik 1692 — Neler caizdir, neler caiz değildir", id: "Muwatta Malik 1692 — Apa yang diperbolehkan, apa yang tidak diperbolehkan" }
 text: "… أَبِي شُرَيْحٍ الْكَعْبِيِّ، أَنَّ رَسُولَ اللَّهِ قَالَ \" مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيُكْرِمْ جَارَهُ وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيُكْرِمْ ضَيْفَهُ جَائِزَتُهُ يَوْمٌ وَلَيْلَةٌ وَضِيَافَتُهُ ثَلاَثَةُ أَيَّامٍ فَمَا كَانَ بَعْدَ ذَلِكَ فَهُوَ صَدَقَةٌ وَلاَ يَحِلُّ لَهُ أَنْ يَثْوِيَ عِنْدَهُ حَتَّى يُحْرِجَهُ \"."
 summary:
   ar: "حديث في موطأ مالك، رقم 1692، يذكر ما أُحل، وما لا يحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 1692، جس میں جو حلال کیا گیا، جو حلال نہیں کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
   es: "Un informe en Muwatta Malik, n.° 1692 (Descripción del Profeta), menciona lo que es lícito y lo que no lo es. El Navegador Halal y Haram lo incluye junto con los textos del Corán, la Sunnah, la sirah y los relatos de los Compañeros y Sucesores sobre lo que es lícito e ilícito."
   fr: "Un hadith du Muwatta Malik, n° 1692 (La biographie du Prophète, que la paix et la bénédiction d'Allah soient sur lui), mentionne ce qui est licite et ce qui ne l'est pas. Le Halal and Haram Browser le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les hadiths des Compagnons et des Successeurs concernant ce qui est licite et ce qui ne l'est pas."
+  tr: "Malik'in Muwatta'sında yer alan 1692 numaralı hadis, helal ve haram olanı belirtmektedir. Helal ve Haram sözlüğünün bu bölümü, helal ve haram olanla ilgili olarak Kur'an, Sünnet, Peygamberin hayatı ve Sahabeler ile onların haleflerinin sözlerinden derlenmiş metinler içermektedir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 1692, menyebutkan apa yang diperbolehkan dan apa yang tidak. Bagian kamus Halal dan Haram ini menyusunnya dengan teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan ucapan para Sahabat dan Penerus mereka mengenai apa yang diperbolehkan dan apa yang diharamkan."
 relations:
   - { type: mentions, target: concept/halal-haram, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1692 (book 49 hadith 22); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }

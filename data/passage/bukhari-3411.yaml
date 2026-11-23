@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "3411"
-label: { ar: "البخاري 3411 — آسية ومريم", en: "Bukhari 3411 — Asiya and Maryam", es: "Bujari 3411 - Asiya y Maryam", fr: "Boukhari 3411 — Asiya et Maryam", ur: "بخاری 3411 - آسیہ اور مریم" }
+label: { ar: "البخاري 3411 — آسية ومريم", en: "Bukhari 3411 — Asiya and Maryam", es: "Bujari 3411 - Asiya y Maryam", fr: "Boukhari 3411 — Asiya et Maryam", ur: "بخاری 3411 - آسیہ اور مریم", tr: "Buhari 3411 - Asiye ve Meryem", id: "Bukhari 3411 — Asiya dan Maryam" }
 text: "كمل من الرجال كثير ولم يكمل من النساء إلا آسية امرأة فرعون ومريم بنت عمران، وإن فضل عائشة على النساء كفضل الثريد على سائر الطعام"
 summary:
   ar: "في كتاب أحاديث الأنبياء باب فضل مريم؛ وضع امرأتين من خارج النبوة في أعلى مقام الكمال البشري، وألحق به فضل عائشة في بابه — من أشهر أحاديث مقامات النساء."
+  tr: "“Peygamberlerin Hadisleri” kitabında, Meryem’in faziletine dair bölümde, peygamberlik dışından iki kadın insan mükemmelliğinin en yüksek makamına yerleştirilir ve bu bölümde Ayşe’nin fazileti de eklenir; bu, kadınların statüsü hakkındaki en ünlü hadislerden biridir."
+  id: "Dalam kitab “Hadits Para Nabi,” pada bab tentang keutamaan Maryam, dua wanita di luar kenabian ditempatkan pada posisi tertinggi kesempurnaan manusia, dan keutamaan Aisyah ditambahkan ke dalamnya dalam bab tersebut — salah satu hadits paling terkenal tentang kedudukan wanita."
 relations:
   - { type: part_of, target: passage/bukhari-kitab-60 }
   - { type: mentions, target: person/maryam, sources: [source/sahih-al-bukhari] }

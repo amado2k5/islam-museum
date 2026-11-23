@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "1636"
-label: { ar: "سنن النسائي 1636 — دفن وقبر ومرقد", en: "Sunan al-Nasa'i 1636 — a burial, grave or resting place", ur: "سنن نسائی 1636 — تدفین، قبر اور مرقد", es: "Sunan al-Nasa'i 1636 — un lugar de entierro, tumba o descanso.", fr: "Sunan al-Nasa'i 1636 — un lieu de sépulture, une tombe ou un lieu de repos" }
+label: { ar: "سنن النسائي 1636 — دفن وقبر ومرقد", en: "Sunan al-Nasa'i 1636 — a burial, grave or resting place", ur: "سنن نسائی 1636 — تدفین، قبر اور مرقد", es: "Sunan al-Nasa'i 1636 — un lugar de entierro, tumba o descanso.", fr: "Sunan al-Nasa'i 1636 — un lieu de sépulture, une tombe ou un lieu de repos", tr: "Sunan an-Nasa'i 1636 — Defin, mezar ve istirahat yeri", id: "Sunan an-Nasa'i 1636 — Pemakaman, kuburan, dan tempat peristirahatan" }
 text: "أَخْبَرَنَا يَحْيَى بْنُ حَبِيبِ بْنِ عَرَبِيٍّ، وَإِسْمَاعِيلُ بْنُ مَسْعُودٍ، قَالاَ حَدَّثَنَا مُعْتَمِرٌ، قَالَ سَمِعْتُ أَبِي قَالَ، سَمِعْتُ أَنَسًا، يَقُولُ أَخْبَرَنِي بَعْضُ، أَصْحَابِ النَّبِيِّ أَنَّ النَّبِيَّ لَيْلَةَ أُسْرِيَ بِهِ مَرَّ عَلَى مُوسَى وَهُوَ يُصَلِّي فِي قَبْرِهِ."
 summary:
   ar: "حديث في سنن النسائي، رقم 1636، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 1636، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 1636 (El Libro de Qiyam Al-Lail (La oración nocturna) y las oraciones voluntarias del día), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, propiedades, reliquias y tumbas."
   fr: "Un hadith du Sunan an-Nasa'i, n° 1636 (Le Livre de la prière nocturne et des prières surérogatoires du jour), mentionne un lieu de sépulture, une tombe ou un lieu de repos. Le Navigateur des Testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Sunan-ı Nesai'de 1636 numaralı hadis, defin, mezar ve türbeden bahsetmektedir. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler üzerine araştırmalar yapan bir uzman tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, no. 1636, menyebutkan tentang penguburan, kuburan, dan makam. Hadits ini disusun oleh peneliti wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1636 (book 20 hadith 39); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

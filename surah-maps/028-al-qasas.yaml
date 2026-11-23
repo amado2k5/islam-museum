@@ -1,47 +1,129 @@
 surah: 28
 slug: al-qasas
 sources_consulted:
-  - "kuttab.com — Surah Al-Qasas mind map (5 blocks: 1-21, 22-28, 29-42, 43-56, 57-88)"
-  - "Standard thematic divisions (cross-checked)"
+- 'kuttab.com — Surah Al-Qasas mind map (5 blocks: 1-21, 22-28, 29-42, 43-56, 57-88)'
+- Standard thematic divisions (cross-checked)
 map:
-  - title: { ar: "النهر والفرار", en: "The River and the Flight" }
-    range: [1, 21]
-    family: stories
-    summary:
-      ar: "طغيان فرعون، ووحي الله إلى أم موسى وإلقاؤه في اليم، ونشأته في القصر، وقتله المصري وفراره."
-      en: "Pharaoh's tyranny; Allah inspiring Moses's mother; the river basket; palace upbringing; the Egyptian slain; flight."
-    children:
-      - { title: { ar: "أم موسى والتابوت", en: "Moses's Mother and the Basket" }, range: [7, 13] }
-      - { title: { ar: "الفرار إلى مدين", en: "The Flight to Midian" }, range: [14, 21] }
-  - title: { ar: "مدين", en: "Midian" }
-    range: [22, 28]
-    family: stories
-    summary:
-      ar: "ورود ماء مدين، وسقيه للمرأتين، واستئجاره، وزواجه بإحداهما على ثماني حجج."
-      en: "The waters of Midian; watering for the two women; his hiring; marriage to one of them for eight terms."
-    children: []
-  - title: { ar: "النار وفرعون", en: "The Fire and Pharaoh" }
-    range: [29, 42]
-    family: stories
-    summary:
-      ar: "نداء موسى عند النار، والآيتين: العصا واليد، ومواجهة فرعون وملئه، وغرقهم في اليم."
-      en: "Moses called at the fire; the two signs — staff and hand; confronting Pharaoh and his court; their drowning."
-    children:
-      - { title: { ar: "العصا واليد", en: "The Staff and the Hand" }, range: [31, 32] }
-      - { title: { ar: "غرق فرعون وجنوده", en: "Pharaoh and His Hosts Drowned" }, range: [40, 42] }
-  - title: { ar: "نوران: التوراة والقرآن", en: "Two Lights: Torah and Quran" }
-    range: [43, 56]
-    family: faith
-    summary:
-      ar: "الكتاب الذي أوتي موسى هدى ورحمة، وموقف المشركين من القرآن، والذين آمنوا بالكتابين."
-      en: "The Book given to Moses as guidance and mercy; the polytheists' stance toward the Quran; believers in both."
-    children: []
-  - title: { ar: "قارون والخاتمة", en: "Qarun and the Closing" }
-    range: [57, 88]
-    family: stories
-    summary:
-      ar: "قارون وكنوزه وخسف الله به، وأن الدار الآخرة للذين لا يريدون علوا ولا فسادا، وخاتمة السورة."
-      en: "Qarun and his treasures swallowed by the earth; the Last Home for the humble; the surah's closing."
-    children:
-      - { title: { ar: "خسف قارون", en: "Qarun Swallowed" }, range: [76, 82] }
-      - { title: { ar: "الدار الآخرة", en: "The Last Home" }, range: [83, 83] }
+- title:
+    ar: النهر والفرار
+    en: The River and the Flight
+    tr: Nehir ve Kaçış
+    id: Sungai dan Pelarian
+  range:
+  - 1
+  - 21
+  family: stories
+  summary:
+    ar: طغيان فرعون، ووحي الله إلى أم موسى وإلقاؤه في اليم، ونشأته في القصر، وقتله المصري وفراره.
+    en: Pharaoh's tyranny; Allah inspiring Moses's mother; the river basket; palace upbringing; the Egyptian slain; flight.
+    tr: Firavun'un zorbalığı, Tanrı'nın Musa'nın annesine vahyi ve denize atılması, sarayda yetiştirilmesi, Mısırlıları öldürüp kaçması.
+    id: Tirani Firaun, wahyu Tuhan kepada ibu Musa dan penuntuhannya ke laut, didikan di istana, pembunuhan dan pelariannya terhadap orang Mesir.
+  children:
+  - title:
+      ar: أم موسى والتابوت
+      en: Moses's Mother and the Basket
+      tr: Um Musa ve Gemi
+      id: Um Musa dan Tabut
+    range:
+    - 7
+    - 13
+  - title:
+      ar: الفرار إلى مدين
+      en: The Flight to Midian
+      tr: Medine'ye Kaçış
+      id: Melarikan Diri ke Madinah
+    range:
+    - 14
+    - 21
+- title:
+    ar: مدين
+    en: Midian
+    tr: borçlu
+    id: debitur
+  range:
+  - 22
+  - 28
+  family: stories
+  summary:
+    ar: ورود ماء مدين، وسقيه للمرأتين، واستئجاره، وزواجه بإحداهما على ثماني حجج.
+    en: The waters of Midian; watering for the two women; his hiring; marriage to one of them for eight terms.
+    tr: Midyan'dan gelen suyun gelişi, suyunun iki kadına verilmesi, kiralanması ve sekiz hac yolculuğunda biriyle evlenmesi.
+    id: Kedatangan air dari Midian, airnya diberikan kepada kedua wanita itu, penyewaannya, dan pernikahannya dengan salah satu dari mereka dalam delapan ziarah.
+  children: []
+- title:
+    ar: النار وفرعون
+    en: The Fire and Pharaoh
+    tr: Ateş ve Firavun
+    id: Api dan Firaun
+  range:
+  - 29
+  - 42
+  family: stories
+  summary:
+    ar: 'نداء موسى عند النار، والآيتين: العصا واليد، ومواجهة فرعون وملئه، وغرقهم في اليم.'
+    en: Moses called at the fire; the two signs — staff and hand; confronting Pharaoh and his court; their drowning.
+    tr: 'Musa''nın ateşe çağrısı ve iki ayet: asa ve el, Firavun''a dönüp onu doldurup denizde boğan.'
+    id: 'Seruan Musa di atas api, dan dua ayat: tongkat dan tangan, menghadap Firaun dan mengisinya, lalu menenggelamkannya di laut.'
+  children:
+  - title:
+      ar: العصا واليد
+      en: The Staff and the Hand
+      tr: Sopa ve el
+      id: Tongkat dan tangan
+    range:
+    - 31
+    - 32
+  - title:
+      ar: غرق فرعون وجنوده
+      en: Pharaoh and His Hosts Drowned
+      tr: Firavun ve askerleri boğuldu
+      id: Firaun dan tentaranya tenggelam
+    range:
+    - 40
+    - 42
+- title:
+    ar: 'نوران: التوراة والقرآن'
+    en: 'Two Lights: Torah and Quran'
+    tr: 'Nuran: Tevrat ve Kur''an'
+    id: 'Nouran: Taurat dan Al-Qur''an'
+  range:
+  - 43
+  - 56
+  family: faith
+  summary:
+    ar: الكتاب الذي أوتي موسى هدى ورحمة، وموقف المشركين من القرآن، والذين آمنوا بالكتابين.
+    en: The Book given to Moses as guidance and mercy; the polytheists' stance toward the Quran; believers in both.
+    tr: Musa'ya rehberlik ve merhamet olarak verilen kitap, Kur'an'a ve iki kutsal metne inananların tutumuna dair tutum.
+    id: Kitab yang diberikan kepada Musa sebagai petunjuk dan belas kasihan, serta sikap para musyrik terhadap Al-Qur'an, dan mereka yang percaya pada dua Kitab Suci.
+  children: []
+- title:
+    ar: قارون والخاتمة
+    en: Qarun and the Closing
+    tr: Qarun ve Sonuç
+    id: Qarun dan Kesimpulan
+  range:
+  - 57
+  - 88
+  family: stories
+  summary:
+    ar: قارون وكنوزه وخسف الله به، وأن الدار الآخرة للذين لا يريدون علوا ولا فسادا، وخاتمة السورة.
+    en: Qarun and his treasures swallowed by the earth; the Last Home for the humble; the surah's closing.
+    tr: Qarun ve hazineleri, Allah onu yutturur, ve ahiret, yükselme ya da yozlaşma istemeyenler içindir. Surenin sonu.
+    id: Qarun dan harta-hartanya, dan Tuhan telah membuatnya menelannya, dan bahwa Akhirat adalah bagi mereka yang tidak menginginkan pengangkatan atau kerusakan. Kesimpulan surat.
+  children:
+  - title:
+      ar: خسف قارون
+      en: Qarun Swallowed
+      tr: Qarun'un tutulması
+      id: Gerhana Qarun
+    range:
+    - 76
+    - 82
+  - title:
+      ar: الدار الآخرة
+      en: The Last Home
+      tr: Öteki Zaman
+      id: Akhirat
+    range:
+    - 83
+    - 83

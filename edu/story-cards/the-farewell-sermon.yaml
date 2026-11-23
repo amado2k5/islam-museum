@@ -1,109 +1,211 @@
 slug: the-farewell-sermon
 title:
-  ar: "خطبة الوداع"
-  en: "The Farewell Sermon"
-  ur: "خطبہِ وداع"
-  fr: "Le sermon d’adieu"
+  ar: خطبة الوداع
+  en: The Farewell Sermon
+  ur: خطبہِ وداع
+  fr: Le sermon d’adieu
+  tr: Veda Konuşması
+  id: Pidato Perpisahan
 lede:
-  ar: "على جبل عرفات وقف النبي يودع الناس ويبيّن لهم دينهم — في اثنتي عشرة بطاقة."
-  en: "On Arafat's mount the Prophet bade the people farewell and set out their faith — in twelve cards."
-  ur: "عرفات کے پہاڑ پر نبی نے لوگوں کو الوداع کہا اور ان کا دین بیان کیا — بارہ کارڈز میں۔"
-  fr: "Au mont Arafat, le prophète Muhammad fit ses adieux à la foule et lui rappela les enseignements de sa religion. En douze cartes."
-status: { review: published }
-sources: [source/sahih-muslim, source/ibn-hisham-saqqa]
-
+  ar: على جبل عرفات وقف النبي يودع الناس ويبيّن لهم دينهم — في اثنتي عشرة بطاقة.
+  en: On Arafat's mount the Prophet bade the people farewell and set out their faith — in twelve cards.
+  ur: عرفات کے پہاڑ پر نبی نے لوگوں کو الوداع کہا اور ان کا دین بیان کیا — بارہ کارڈز میں۔
+  fr: Au mont Arafat, le prophète Muhammad fit ses adieux à la foule et lui rappela les enseignements de sa religion. En douze cartes.
+  tr: Arafat Dağı'nda Peygamber, insanlara veda ediyor ve dinlerini gösteriyordu — on iki kart halinde.
+  id: Di Gunung Arafat, Nabi berdiri mengucapkan selamat tinggal kepada umat dan menunjukkan agama mereka — dalam dua belas kartu.
+status:
+  review: published
+sources:
+- source/sahih-muslim
+- source/ibn-hisham-saqqa
 provenance:
-  generated_by: "Devin"
-  model: "Devin (Cognition)"
-  run: "education-E5-story-cards"
-  source: "سيرة ابن هشام، ج٤؛ صحيح مسلم، حج — إعادة صياغة بأمانة، صيغة أطفال."
+  generated_by: Devin
+  model: Devin (Cognition)
+  run: education-E5-story-cards
+  source: سيرة ابن هشام، ج٤؛ صحيح مسلم، حج — إعادة صياغة بأمانة، صيغة أطفال.
   fr:
-    generated_by: "Devin"
-    model: "unknown"
-    run: "devin-a7ba389df57d4bdb9b7515fa59f40242"
-    source: "Existing English text in this activity, with Arabic consulted for religious material."
+    generated_by: Devin
+    model: unknown
+    run: devin-a7ba389df57d4bdb9b7515fa59f40242
+    source: Existing English text in this activity, with Arabic consulted for religious material.
 cards:
-  - title: { ar: "حجة الوداع", en: "The farewell pilgrimage", ur: "حجۃ الوداع", fr: "Le pèlerinage d’adieu" }
-    motif: caravan
-    narration:
-      ar: "في السنة العاشرة للهجرة حج النبي حجته الوحيدة، وخرج معه مئة ألف أو يزيدون."
-      en: "In the tenth Hijri year the Prophet made his only Hajj, with a hundred thousand people or more."
-      ur: "ہجری کے دسویں سال نبی نے اپنی واحد حج کی، اور لاکھوں لوگ ساتھ تھے۔"
-      fr: "La dixième année de l’Hégire, le Prophète accomplit son unique grand pèlerinage, accompagné d’au moins cent mille personnes."
-  - title: { ar: "عرفات", en: "Arafat", ur: "عرفات", fr: "Arafat" }
-    motif: mountain
-    narration:
-      ar: "في اليوم التاسع من ذي الحجة وقف على جبل الرحمة وخطب الناس."
-      en: "On the ninth of Dhu al-Hijjah he stood on the Mount of Mercy and addressed the people."
-      ur: "ذوالحجہ کے نویں دن وہ کوہِ رحمت پر کھڑے ہوئے اور لوگوں سے خطاب کیا۔"
-      fr: "Le neuvième jour du mois de dhou al-hijja, il s’adressa à la foule sur le mont de la Miséricorde."
-  - title: { ar: "الدماء", en: "The blood", ur: "خون", fr: "Des droits inviolables" }
-    motif: star
-    narration:
-      ar: "قال: إن دماءكم وأموالكم وأعراضكم عليكم حرام كحرمة يومكم هذا."
-      en: "He said: your blood, your wealth and your honour are sacred to you, like this day's sanctity."
-      ur: "انہوں نے کہا: تمہارا خون، مال اور عزت تم پر حرام ہیں جیسے آج کا دن حرمت والا ہے۔"
-      fr: "Il déclara que la vie, les biens et l’honneur de chacun devaient être respectés, autant que la sainteté de ce jour."
-  - title: { ar: "الربا", en: "Usury ended", ur: "سود ختم", fr: "L’abolition de l’usure" }
-    motif: coin
-    narration:
-      ar: "أعلن أن ربا الجاهلية موضوع، وأول ربا يبدأ به ربا عمه العباس."
-      en: "He declared the usury of the Jahiliyya abolished, starting with his uncle Abbas's."
-      ur: "انہوں نے اعلان کیا کہ جاہلیت کا سود ختم، اور پہلا سود ان کے چچا عباس کا معاف ہے۔"
-      fr: "Il annonça l’abolition de l’usure héritée de l’époque préislamique, en commençant par celle de son oncle Abbas."
-  - title: { ar: "دم الجاهلية", en: "Jahiliyya's blood", ur: "جاہلیت کا خون", fr: "La fin des vengeances" }
-    motif: moon
-    narration:
-      ar: "ودماء الجاهلية موضوعة، وأول دم يبدأ به دم ابن ربيعة بن الحارث."
-      en: "And the blood of the Jahiliyya is abolished, beginning with the son of Rabi'a ibn al-Harith."
-      ur: "اور جاہلیت کا خون موقوف، پہلا خون ربیعہ بن حارث کے بیٹے کا۔"
-      fr: "Il abolit aussi les vengeances de sang de l’époque préislamique, en commençant par celle du fils de Rabia ibn al-Harith."
-  - title: { ar: "النساء", en: "The women", ur: "عورتیں", fr: "Les femmes" }
-    motif: tree
-    narration:
-      ar: "واستوصوا بالنساء خيراً — وصية بأن تُحسن معاملتهن."
-      en: "Take care of women — a charge to treat them well."
-      ur: "عورتوں کے بارے میں نیکی کی وصیت — ان کے ساتھ بھلا سلوک کرنا۔"
-      fr: "Il engagea les personnes réunies à bien traiter les femmes."
-  - title: { ar: "الكتاب", en: "The Book", ur: "کتاب", fr: "Le Livre" }
-    motif: book
-    narration:
-      ar: "تركت فيكم ما إن تمسكتم به لن تضلوا: كتاب الله."
-      en: "I have left among you that which if you hold it you will not stray: God's Book."
-      ur: "میں نے تم میں وہ چھوڑا جسے مضبوطی سے پکڑو تو کبھی بھٹکو گے نہیں: اللہ کی کتاب۔"
-      fr: "Il leur rappela qu’il leur laissait le Livre de Dieu comme guide et qu’en s’y tenant, ils ne s’égareraient pas."
-  - title: { ar: "المساواة", en: "Equality", ur: "برابری", fr: "L’égalité" }
-    motif: star
-    narration:
-      ar: "لا فضل لعربي على عجمي ولا لأبيض على أسود إلا بالتقوى."
-      en: "No Arab has merit over a non-Arab, no white over black, except by piety."
-      ur: "کسی عرب کو عجمی پر اور کسی گورے کو کالے پر فضیلت نہیں مگر تقویٰ سے۔"
-      fr: "Pour lui, ni l’origine arabe ni la couleur de peau ne conféraient de supériorité : seule comptait la piété."
-  - title: { ar: "أرحموا", en: "The message", ur: "پیغام", fr: "Une même origine" }
-    motif: mosque
-    narration:
-      ar: "الناس من آدم وآدم من تراب — كلكم سواسية كأسنان المشط."
-      en: "People are from Adam and Adam is from dust — you are all equal like a comb's teeth."
-      ur: "لوگ آدم سے ہیں اور آدم مٹی سے — تم سب برابر ہو جیسے کنگھی کے داندے۔"
-      fr: "Tous descendent d’Adam, formé de poussière, et tous sont égaux, comme les dents d’un peigne."
-  - title: { ar: "ألّا ترجعوا", en: "Do not return", ur: "واپس نہ جانا", fr: "Ne pas revenir en arrière" }
-    motif: compass
-    narration:
-      ar: "لا ترجعوا بعدي كفاراً يضرب بعضكم رقاب بعض."
-      en: "Do not return after me to disbelief, striking one another's necks."
-      ur: "میرے بعد کافر نہ بنو کہ ایک دوسرے کی گردنیں مارو۔"
-      fr: "Il leur demanda de ne pas renier leur foi après son départ en s’entretuant."
-  - title: { ar: "اليوم أكملت", en: "Completion", ur: "تکمیل", fr: "La religion parachevée" }
-    motif: book
-    narration:
-      ar: "وفي ذلك اليوم نزلت الآية التي أعلنت إتمام الدين."
-      en: "That day came down the verse announcing that the faith was completed."
-      ur: "اسی دن وہ آیت اتری جس نے دین کی تکمیل کا اعلان کیا۔"
-      fr: "Un verset révélé ce jour-là annonce que la religion est désormais complète."
-  - title: { ar: "الوداع", en: "The farewell", ur: "الوداع", fr: "L’adieu" }
-    motif: moon
-    narration:
-      ar: "قال: لعلي لا ألقاكم بعد عامي هذا — فكانت خطبة الوداع."
-      en: "He said: perhaps I will not meet you after this year of mine — and it was the Farewell Sermon."
-      ur: "انہوں نے کہا: شاید میں اس سال کے بعد تم سے نہ ملوں — اور یہ خطبۂ وداع تھا۔"
-      fr: "Il leur dit qu’il ne les reverrait peut-être pas après cette année-là. Ce fut le sermon d’adieu."
+- title:
+    ar: حجة الوداع
+    en: The farewell pilgrimage
+    ur: حجۃ الوداع
+    fr: Le pèlerinage d’adieu
+    tr: Veda Mazereti
+    id: Alasan Perpisahan
+  motif: caravan
+  narration:
+    ar: في السنة العاشرة للهجرة حج النبي حجته الوحيدة، وخرج معه مئة ألف أو يزيدون.
+    en: In the tenth Hijri year the Prophet made his only Hajj, with a hundred thousand people or more.
+    ur: ہجری کے دسویں سال نبی نے اپنی واحد حج کی، اور لاکھوں لوگ ساتھ تھے۔
+    fr: La dixième année de l’Hégire, le Prophète accomplit son unique grand pèlerinage, accompagné d’au moins cent mille personnes.
+    tr: Hicra'nın onuncu yılında Peygamber tek Hacını yaptı ve yüz bin veya daha fazlası onunla birlikte dışarı çıktı.
+    id: Pada tahun kesepuluh Hijrah, Nabi melaksanakan satu-satunya Haji, dan seratus ribu atau lebih pergi bersamanya.
+- title:
+    ar: عرفات
+    en: Arafat
+    ur: عرفات
+    fr: Arafat
+    tr: Arafat
+    id: Arafat
+  motif: mountain
+  narration:
+    ar: في اليوم التاسع من ذي الحجة وقف على جبل الرحمة وخطب الناس.
+    en: On the ninth of Dhu al-Hijjah he stood on the Mount of Mercy and addressed the people.
+    ur: ذوالحجہ کے نویں دن وہ کوہِ رحمت پر کھڑے ہوئے اور لوگوں سے خطاب کیا۔
+    fr: Le neuvième jour du mois de dhou al-hijja, il s’adressa à la foule sur le mont de la Miséricorde.
+    tr: Zul Hicce'nin dokuzuncu gününde Merhamet Dağı'nda durdu ve halka hitap etti.
+    id: Pada hari kesembilan Dhu al-Hijjah, ia berdiri di Bukit Rahmat dan berbicara kepada rakyat.
+- title:
+    ar: الدماء
+    en: The blood
+    ur: خون
+    fr: Des droits inviolables
+    tr: Kan
+    id: Darah
+  motif: star
+  narration:
+    ar: 'قال: إن دماءكم وأموالكم وأعراضكم عليكم حرام كحرمة يومكم هذا.'
+    en: 'He said: your blood, your wealth and your honour are sacred to you, like this day''s sanctity.'
+    ur: 'انہوں نے کہا: تمہارا خون، مال اور عزت تم پر حرام ہیں جیسے آج کا دن حرمت والا ہے۔'
+    fr: Il déclara que la vie, les biens et l’honneur de chacun devaient être respectés, autant que la sainteté de ce jour.
+    tr: 'Dedi ki: Kanınız, servetiniz ve onurunuz, bu gününüzün kutsallığı kadar kutsaldır.'
+    id: 'Dia berkata: Darah, kekayaanmu, dan kehormatanmu sama sucinya bagimu seperti kesucian harimu ini.'
+- title:
+    ar: الربا
+    en: Usury ended
+    ur: سود ختم
+    fr: L’abolition de l’usure
+    tr: tefecilik
+    id: riba
+  motif: coin
+  narration:
+    ar: أعلن أن ربا الجاهلية موضوع، وأول ربا يبدأ به ربا عمه العباس.
+    en: He declared the usury of the Jahiliyya abolished, starting with his uncle Abbas's.
+    ur: انہوں نے اعلان کیا کہ جاہلیت کا سود ختم، اور پہلا سود ان کے چچا عباس کا معاف ہے۔
+    fr: Il annonça l’abolition de l’usure héritée de l’époque préislamique, en commençant par celle de son oncle Abbas.
+    tr: İslam öncesi dönemin tefeciliğinin yerleştiğini ilan etti ve ilk başladığı tefecilik amcası Abbas oldu.
+    id: Ia menyatakan bahwa riba pada era pra-Islam telah ditetapkan, dan riba pertama yang ia mulai adalah pamannya Abbas.
+- title:
+    ar: دم الجاهلية
+    en: Jahiliyya's blood
+    ur: جاہلیت کا خون
+    fr: La fin des vengeances
+    tr: Cehaletin kanı
+    id: Darah kebodohan
+  motif: moon
+  narration:
+    ar: ودماء الجاهلية موضوعة، وأول دم يبدأ به دم ابن ربيعة بن الحارث.
+    en: And the blood of the Jahiliyya is abolished, beginning with the son of Rabi'a ibn al-Harith.
+    ur: اور جاہلیت کا خون موقوف، پہلا خون ربیعہ بن حارث کے بیٹے کا۔
+    fr: Il abolit aussi les vengeances de sang de l’époque préislamique, en commençant par celle du fils de Rabia ibn al-Harith.
+    tr: İslam öncesi dönemin kanı uydurulmuştur ve onunla başlayan ilk kan İbn Rabiah ibn al-Harit'in kanıdır.
+    id: Darah dari era pra-Islam adalah rekaan, dan darah pertama yang dimulai darinya adalah darah Ibn Rabi'ah ibn al-Harith.
+- title:
+    ar: النساء
+    en: The women
+    ur: عورتیں
+    fr: Les femmes
+    tr: Kadınlar
+    id: Wanita
+  motif: tree
+  narration:
+    ar: واستوصوا بالنساء خيراً — وصية بأن تُحسن معاملتهن.
+    en: Take care of women — a charge to treat them well.
+    ur: عورتوں کے بارے میں نیکی کی وصیت — ان کے ساتھ بھلا سلوک کرنا۔
+    fr: Il engagea les personnes réunies à bien traiter les femmes.
+    tr: Ve kadınlara iyi davranın—onlara iyi davranmanız için bir öneri.
+    id: Dan perlakukan wanita dengan baik—sebuah rekomendasi untuk memperlakukan mereka dengan baik.
+- title:
+    ar: الكتاب
+    en: The Book
+    ur: کتاب
+    fr: Le Livre
+    tr: Kitap
+    id: Buku
+  motif: book
+  narration:
+    ar: 'تركت فيكم ما إن تمسكتم به لن تضلوا: كتاب الله.'
+    en: 'I have left among you that which if you hold it you will not stray: God''s Book.'
+    ur: 'میں نے تم میں وہ چھوڑا جسے مضبوطی سے پکڑو تو کبھی بھٹکو گے نہیں: اللہ کی کتاب۔'
+    fr: Il leur rappela qu’il leur laissait le Livre de Dieu comme guide et qu’en s’y tenant, ils ne s’égareraient pas.
+    tr: 'Sende sıkı sıkıya tutunduğun şeyi bıraktım, yoldan sapmayacaksın: Tanrı''nın Kitabı.'
+    id: 'Aku telah meninggalkan dalam dirimu apa yang kau pegang erat, kau tidak akan tersesat: Kitab Allah.'
+- title:
+    ar: المساواة
+    en: Equality
+    ur: برابری
+    fr: L’égalité
+    tr: Eşitlik
+    id: Kesetaraan
+  motif: star
+  narration:
+    ar: لا فضل لعربي على عجمي ولا لأبيض على أسود إلا بالتقوى.
+    en: No Arab has merit over a non-Arab, no white over black, except by piety.
+    ur: کسی عرب کو عجمی پر اور کسی گورے کو کالے پر فضیلت نہیں مگر تقویٰ سے۔
+    fr: 'Pour lui, ni l’origine arabe ni la couleur de peau ne conféraient de supériorité : seule comptait la piété.'
+    tr: Hiçbir Arap, Arap olmayanlara üstün değildir, beyaz siyah üzerinde üstünlüğü yoktur, ancak dindarlık yoluyla olur.
+    id: Tidak ada Arab yang memiliki superioritas atas non-Arab, maupun kulit putih atas kulit hitam, kecuali melalui kesalehan.
+- title:
+    ar: أرحموا
+    en: The message
+    ur: پیغام
+    fr: Une même origine
+    tr: Merhamet et
+    id: Kasihanilah
+  motif: mosque
+  narration:
+    ar: الناس من آدم وآدم من تراب — كلكم سواسية كأسنان المشط.
+    en: People are from Adam and Adam is from dust — you are all equal like a comb's teeth.
+    ur: لوگ آدم سے ہیں اور آدم مٹی سے — تم سب برابر ہو جیسے کنگھی کے داندے۔
+    fr: Tous descendent d’Adam, formé de poussière, et tous sont égaux, comme les dents d’un peigne.
+    tr: İnsanlar Adem'den, Adem'den tozdan—hepiniz tarak dişi gibi eşitsiniz.
+    id: Manusia berasal dari Adam dan Adam dari debu—kalian semua setara seperti gigi sisir.
+- title:
+    ar: ألّا ترجعوا
+    en: Do not return
+    ur: واپس نہ جانا
+    fr: Ne pas revenir en arrière
+    tr: Geri gelmiyor musun?
+    id: Kamu tidak kembali?
+  motif: compass
+  narration:
+    ar: لا ترجعوا بعدي كفاراً يضرب بعضكم رقاب بعض.
+    en: Do not return after me to disbelief, striking one another's necks.
+    ur: میرے بعد کافر نہ بنو کہ ایک دوسرے کی گردنیں مارو۔
+    fr: Il leur demanda de ne pas renier leur foi après son départ en s’entretuant.
+    tr: Birbirlerinin boynuna vuran kafirler olarak benden geri dönmeyin.
+    id: Jangan kembali setelah aku sebagai kafir yang saling memukul leher.
+- title:
+    ar: اليوم أكملت
+    en: Completion
+    ur: تکمیل
+    fr: La religion parachevée
+    tr: Bugün tamamladım
+    id: Hari ini saya menyelesaikan
+  motif: book
+  narration:
+    ar: وفي ذلك اليوم نزلت الآية التي أعلنت إتمام الدين.
+    en: That day came down the verse announcing that the faith was completed.
+    ur: اسی دن وہ آیت اتری جس نے دین کی تکمیل کا اعلان کیا۔
+    fr: Un verset révélé ce jour-là annonce que la religion est désormais complète.
+    tr: O gün, dinin tamamlandığını ilan eden ayet vahyedildi.
+    id: Pada hari itu, ayat yang menyatakan penyelesaian agama diwahyukan.
+- title:
+    ar: الوداع
+    en: The farewell
+    ur: الوداع
+    fr: L’adieu
+    tr: Elveda
+    id: Selamat tinggal
+  motif: moon
+  narration:
+    ar: 'قال: لعلي لا ألقاكم بعد عامي هذا — فكانت خطبة الوداع.'
+    en: 'He said: perhaps I will not meet you after this year of mine — and it was the Farewell Sermon.'
+    ur: 'انہوں نے کہا: شاید میں اس سال کے بعد تم سے نہ ملوں — اور یہ خطبۂ وداع تھا۔'
+    fr: Il leur dit qu’il ne les reverrait peut-être pas après cette année-là. Ce fut le sermon d’adieu.
+    tr: 'Dedi ki: Belki bu yıldan sonra seninle buluşmam—böylece veda vaazı yapıldı.'
+    id: 'Ia berkata: Mungkin aku tidak akan bertemu denganmu setelah tahun ini—maka khotbah perpisahan pun diadakan.'

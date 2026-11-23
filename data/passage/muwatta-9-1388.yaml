@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani]
 work: work/muwatta-malik
 ref: "1388"
-label: { ar: "الموطأ 1388 — نافع عن ابن عمر: كان يتقي من الضحايا والبدن التي لم تسن والتي نقص من خلقها", en: "Muwatta 1388", es: "Muwatta 1388", fr: "Muwatta 1388", ur: "موطا 1388" }
+label: { ar: "الموطأ 1388 — نافع عن ابن عمر: كان يتقي من الضحايا والبدن التي لم تسن والتي نقص من خلقها", en: "Muwatta 1388", es: "Muwatta 1388", fr: "Muwatta 1388", ur: "موطا 1388", tr: "El-Muvatta 1388 — İbn Ömer'den rivayet edildiğine göre Nafi': Kurbanlık hayvanlardan ve henüz yaşlı olmayan, yaratılışı kusurlu olan develerden kaçınırdı.", id: "Al-Muwatta 1388 — Diriwayatkan oleh Nafi’ dari Ibnu Umar: Beliau biasa menghindari hewan kurban dan unta yang belum tua dan yang kualitas pembuatannya kurang baik." }
 summary:
   ar: "يروي مالك عن نافع أن عبد الله بن عمر كان يتقي من الضحايا والبدن التي لم تسن، والتي نقص من خلقها. قال مالك وهذا أحب ما سمعت إلي. {cite:muwatta-maruf-1997 p.620}"
+  tr: "Malik, Nafi'den rivayetle Abdullah ibn Umar'ın, yeterince yaşlı olmayan veya fiziksel yapısında kusur bulunan kurbanlık hayvanlardan kaçındığını nakletmiştir. Malik, \"Bu, duyduğum en hoş şeydir\" demiştir. {cite:muwatta-maruf-1997 s.620}"
+  id: "Malik meriwayatkan dari Nafi’ bahwa Abdullah ibn Umar biasa menghindari hewan kurban yang belum cukup umur atau yang memiliki cacat fisik. Malik berkata, “Ini adalah hal yang paling menyenangkan yang pernah kudengar.” {cite:muwatta-maruf-1997 p.620}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-09-dahaya }
   - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }

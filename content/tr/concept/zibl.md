@@ -1,0 +1,26 @@
+---
+id: concept/zibl
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/zibl.md}
+---
+
+## Doğa ve Seçim
+Doğa: Çöp hayvan türüne göre değişir ve aynı türün bireylerine, özellikle insanlara göre değişebilir. Ördek gübresi aşırı sıcaklığı nedeniyle kullanılmazken, doğanlar, şahinler, şahinler ve diğer yırtıcılar aşırı oldukları için nadiren kullanılır. {cite:canon-ibn-sina-print-v1 p.467}
+Doğa: Gübrenin hiçbir şeyi soğutucu veya nemlendiricide kullanılmaz; güvercin gübresi kullanılmış atıklar arasında en sıcak olanıdır ve kümes hayvanı gübresi çobanın değerinden azdır. {cite:canon-ibn-sina-print-v1 p.467}
+
+## Fiiller ve Özellikler
+Fiiller ve özellikler: Keçi gübresi, özellikle dağ gübresi, her kan akışında kullanılır ve eşek dışkısı yakılır, her kan dolaşımı için yakılmaz. Güvercin gübresi kırmızı yağlardan yapılır ve arpa unuyla çözülür. Yanmış keçi gübresi daha yumuşaktır ve ısınmaz. {cite:canon-ibn-sina-print-v1 p.467}
+
+## Üyelerin Faydaları
+Süs: Karınca, çivi yazılı ve dut siğilleri üzerine sirke ile kuzu gübresi. Melazma ve vitiligo için çekirge gübresi, ayrıca pirinçle karıştırılmış sığırcık gübresi, ayrıca hardoon gübresi ve ötleğen gübresi renk iyileştirir. Keçi gübresi, özellikle dağ gübresi, tilki hastalığına neden olurken, sıçan gübresi daha fazladır. Güvercin gübresi, rengi iyileştiren bir ilaçtır. Kertenkele gübresi melazmayı temizler. {cite:canon-ibn-sina-print-v1 p.467}
+Tümörler ve kabarcıklar: sığırların sıcak apselerde sirkeyle ıslatılması. Keçi b'r, koyun b'r ve balmumu ve gül yağı ile yakan ateşte sirke ile çıplak, bal ile güvercin gübresi, Pers ateşi tıraş için keten tohumu ve yanan ateş. Pul pul için keçi gübresi, guguk guguklar için güvercin gübresi, guguklar için houbara gübresi ve ayrıca gübre sığırcık ile pirinç karışımı. {cite:canon-ibn-sina-print-v1 p.467}
+Yaralar ve ülserler: Kemiklerden bal ile elde edilen köpek gübresi eski yaralar için faydalıdır. {cite:canon-ibn-sina-print-v1 p.467}
+Eklem aletleri: siyatik için inek gübresi, özellikle dağ keçisi gibi keçi gübresi, gut ve siyatik için domuz yağı ile. Kas zayıflığı için sirkeyle birlikte kuru domuz dışkısı içilir, sinir burkmaları ve tüm sertlik için qirouti uygulanır. Eklem ağrısı için güvercin dışkısı, eklem sertliği ve tümörler üzerinde test edilmiş testlerden keçi gübresi, özellikle Galen'in deneylerinden biri olan karışık sirke ve eti daha sert ve kuru olanlar için daha iyi olan arpa unu kullanılır. {cite:canon-ibn-sina-print-v1 p.468}
+Baş organları: Eşek güçlü burun kanaması için hırsızlık yapar veya nemi burna sıkıştırılır ve hapsolur. Güvercin gübresi mantar için faydalıdır. Galen şöyle dedi: Güvercin gübresi, baş ağrısı yumurta adı verilen baş ağrısında harfin tohumu ile kullanılıyorsa, kulak arkasındaki tümörler için inek dışkısı kullanılır. {cite:canon-ibn-sina-print-v1 p.468}
+Göz organları: göz beyazları için eşek arısı, kertenkele ve timsah gübresi, beyaz için ise güvercin gübresi ve serçe. Kanca gübresi bu açıdan dikkat çekicidir ve yazar kendisi bal ile denemiştir. Fare gübresi, kornea ülserlerinde ve korneanın altında biriken sürede test edilmiştir. {cite:canon-ibn-sina-print-v1 p.468}
+Göğüs organları: kan üfleme ve plevrez ağrısı için domuz gübresi, su ve içecek. Köpek gübresi, difteri için kullanılmak üzere kemiklerle beslenir, ayrıca flebitomu hafifletmek için erkek gübresi. Çocuk, kokusunu azaltmak için ekmekle donatılmalıdır. Tüberküloz ve benzeri durumlarda akciğerler için sığır gübresi. {cite:canon-ibn-sina-print-v1 p.468}
+Gıda organları: Özellikle dağ keçileri olmak üzere, sarılık için biraz kırlangıçla içilir. Test edilmiştir ve yağmur için pansuman ve içme olarak faydalıdır, ayrıca güneşe uygulanarak giyinme ve kaplama için kullanılır. {cite:canon-ibn-sina-print-v1 p.468}
+Dışkı organları: öküz dışkısı rahim çıkıntısına buharlaştırılır. Keçi dışkısı, özellikle dağ dışkısı, adet başlatmak ve düşük yapmak için bazı sürüntülerle içilir, dalak sertliğini kırar, kuruluğunu ezer ve özellikle test edilmiş kandarla rahim kanamasına neden olabilir. Kurt ayrıca tümör olmayan kolik kullanır. Rakhma gübresi buharlaştırma ile dökülür. Fareyi kandar ile gübre ile taşı parçalayan şurup ile gübre yapın ve bu da erkek çocukların midelerinin boşalmasına neden olabilir. Güvercin gübresi, enjeksiyon olarak kullanılırsa kolik ağrısı için etkilidir. Köpek gübresi, enjeksiyon yoluyla veya demirle pişirilmiş süt içilerek ishal ve bağırsak ülserlerinden oluşan kemiklerle beslenir. Fil gübresi, denildiği gibi, rahmi önler. {cite:canon-ibn-sina-print-v1 p.468}
+Zehirler: Keçi gübresi, özellikle dağ gübresi, sirke ve şurup ile pişirilerek dumble'ı ısırır ve Galen'e göre yılan ısırıklarına karşı etkilidir. Akrep sokmaları için şurup ile birlikte kuru çoban eşek dışkısı çok iyidir. Tavuk pisliği, boğucu mantarlara karşı denenmiş ve kanıtlanmış bir panzehirdir. Keçi dışkısı, eşek arısı zehrini çeken çekici bir güce sahiptir. Boğa dışkısı özellikle püskürtüldüğünde tahtakurularını uzaklaştırır. {cite:canon-ibn-sina-print-v1 p.469}

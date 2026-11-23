@@ -1,0 +1,15 @@
+---
+id: concept/arsh-fiqh
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/arsh-fiqh.md}
+---
+## Ben sprey yapıyorum
+Dilde 'arsh', kan parası ve tırmalama anlamına gelir; bir giysindeki kusuru azaltan şey demektir, çünkü bu tazminat sağlar. Teknik olarak: bir suçta hayattan daha az bir şey için gereken para ve bu, hayat için verilen tazminatı anlamına gelebilir, bu da kan parasıdır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2185}
+Adalet hükümeti, belirli bir miktar para içermeyen bir suçta gereken şeydir; bu bir arsh türüdür ve arsh bundan daha geniştir. Diyya, intikam süresi dolduğunda ömür boyu değil, kan parası ise hayat süresinden az diyya olarak adlandırılabilir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2185}
+Kanunu, herhangi bir eksikliği tazminat olarak belirlemiştir ki suç boşa gitmesin; yanlış bir suç veya misillemenin gecikmesi gibi misilleme gerektirmiyorsa, tazminat suçun türüne göre ödenir. Belirli bir miktar için bir hüküm varsa, buna uyulur. Bunlar arasında, Peygamber'in Yemen halkına yazdığı mektubunda belirtilen gibi, bekar bir erkek için kan parasının yarısı bekar bir erkek, bir kadın köle ve bir ceset için kan parasının üçte biri, nakledilen bir kadın için on beş deve, bir el veya ayak parmağı için bir devenin onda biri, bir diş ve bir kadın beş deve için olduğu belirtilir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2185} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2186}
+Fayda cinsi tamamen kaybolursa veya amaçlanan güzellik kaybolursa, yükümlülük tam kan parasıdır. Eğer uzuv vücutta iki kez tekrarlanırsa, kan parasının yarısı fayda kaybı için ödenir, örneğin iki ayak ve iki bacak gibi. Eğer artarsa, parmaklar gibi hesaplanır ve parmaklar eşittir. Ve açıkça belirtilmemiş olan, adil bir karardır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2186}
+A - Arsh Jarrah al-Harra: Hanafi ve Şafi'ler, sıcak bir durumda tam diyya verilecekse, özgür bir kadın için yarı diyya verilmelidir derler. Maliki ve Hanbaliler, diyye üçte bir veya daha fazlaya ulaşırsa ve üçte birden az olursa kadın erkekle eşit olur. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2186}
+B - Arshar zimminin yaraları: Hanefilere göre Müslümanlar, zimmiler ve mustimler kan parası ve kan parası açısından eşittir. Malikilere göre, bir zimminin kan parası bir Müslümanınkının yarısıdır, magi, müahid ve dinden dönenlerin ise bir Müslümanın kan parasının üçte birine sahiptir. Hanelilere göre, bunların hepsi bir Müslümanın kan parasının yarısıdır ve Şafiilere göre hepsi bir Müslümanın kan parasının üçte biridir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2186}
+C - Çoklu aruşlar: Abu Hanifa, Malik, Al-Shafi'i ve Ahmad'ın orijinal görüşü, arushların birden fazla suçla çoğaldığı ve kan parası ile tahkimatlar için talep edilen detaylara sahip oldukları yönündedir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2186}

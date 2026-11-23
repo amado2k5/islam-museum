@@ -1,0 +1,69 @@
+---
+id: person/al-mahdi
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/al-mahdi.md}
+---
+## Ringkasan
+Muhammad ibn Abdullah al-Mansur al-Mahdi, khalifah ketiga dinasti Abbasiyah, dan Ibn [[person/al-mansur|al-Mansur]]. {cite:futuh-buldan-maarif-1407} {cite:tarikh-khulafa-minhaj-1434 p. 440-442}
+
+## Pada zamannya
+Al-Baladhuri menceritakan bahwa putranya [[person/harun-al-rashid|Harun menyerbu]] tanah Romawi pada tahun 163 H dan mengepung Damalu. Ia menyebutkan perselisihan tentang nasib rakyatnya, [[event/captives-of-samalu|para tawanan Damalalu]]. {cite:futuh-buldan-maarif-1407}
+
+Ia menyelesaikan pembangunan benteng-benteng yang tersisa setelah ayahnya dan menambah pasokannya. Ia memerintahkan pembangunan acara tersebut. {cite:futuh-buldan-maarif-1407}
+
+Al-Suyuti menyebutkan bahwa ia telah bersumpah setia sebagai Putra Mahkota kepada Musa al-Hadi dan kemudian kepada Harun al-Rashid. {cite:tarikh-khulafa-minhaj-1434 p. 440-442}
+
+## Moral dan karyanya bersama Al-Masoudi
+Al-Mas'udi menggambarkannya sebagai sosok yang murah hati dan murah hati. Ia menekankan mereka yang ia sebut ateis karena penyebaran kitab-kitab Mani, Ibn Disan, dan Marqiyun. Ia adalah yang pertama memerintahkan teolog polemik untuk mengklasifikasikan buku-buku sebagai tanggapan terhadap mereka. {cite:muruj-al-dhahab p. 669}
+
+Disebutkan bahwa ia mulai membangun Masjid Suci dan Masjid Nabi, serta membangun Yerusalem setelah hancur akibat gempa bumi. {cite:muruj-al-dhahab p. 669}
+
+Diceritakan bahwa ia meninggal pada tahun 169 H di desa Rudayn, dan masa kejayaannya berlangsung selama sepuluh tahun, bulan, dan lima belas hari. {cite:muruj-al-dhahab p. 298-303}
+
+## Untuk kuncup
+Muhammad ibn Abdullah al-Mahdi adalah khalifah ketiga dari dinasti Abbasiyah dan Ibn al-Mansur. Ia menyelesaikan sisa pembangunan kota-kota perbatasan, memerintahkan pembangunan Hadath, mulai membangun Masjid Suci, Masjid Nabi, dan membangun Yerusalem setelah gempa bumi. Al-Mas'udi menggambarkannya sebagai sosok yang murah hati dan murah hati.
+
+## Untuk penjelajah
+Muhammad ibn Abdullah al-Mansur al-Mahdi adalah khalifah Abbasiyah ketiga dan Ibn al-Mansur. Al-Baladhuri menceritakan bahwa ia menyerbu tanah Romawi pada tahun 163 H, mengepung Dhamalu—dan nasib rakyatnya diperdebatkan—menyelesaikan pembangunan perbatasan dan benteng setelah ayahnya, memperkuat rekonstruksinya, memerintahkan pembangunan acara, dan bersumpah setia kepada Musa al-Hadi dan kemudian kepada Harun. Al-Masas 'Udi menggambarkannya sebagai dermawan dan murah hati, menyebutkan bahwa ia menekankan mereka yang ia sebut ateis karena penyebaran kitab-kitab Mani, Ibn Disan, dan Marqiyun, dan bahwa ia adalah yang pertama memerintahkan para teolog untuk menyusun kitab sebagai tanggapan atas mereka; ia mulai membangun Masjid Suci, Masjid Nabi, dan membangun Yerusalem setelah gempa bumi menghancurkannya. Ia meninggal di desa Rudin pada tahun 169 H, dan kekhalifahannya bertahan selama sepuluh tahun, bulan, dan lima belas hari.
+
+## Untuk Pembelajar
+Muhammad ibn Abdullah al-Mansur al-Mahdi adalah khalifah ketiga dari dinasti Abbasiyah dan Ibn al-Mansur. Al-Baladhuri menceritakan bahwa ia menyerbu putranya Harun di wilayah Bizantium pada tahun 163 H, mengepung Damalu — dan nasib rakyatnya menjadi perselisihan terkait tawanan Damalo — menyelesaikan pembangunan benteng dan benteng setelah ayahnya, meningkatkan pengisian ulang mereka, dan memerintahkan pembangunan distrik tersebut; al-Suyuti men. menyatakan bahwa ia bersumpah setia kepada putra mahkota kepada Musa al-Hadi dan kemudian kepada Harun al-Rashid. Al-Mas'udi menggambarkannya sebagai sosok yang murah hati dan murah hati, sengaja membunuh mereka yang ia sebut ateis karena penyebaran kitab-kitab Mani, Ibn Disan, dan Murqiyun, dan bahwa ia adalah yang pertama memerintahkan teolog polemik untuk menyusun buku-buku sebagai tanggapan terhadap mereka; ia juga menyebutkan bahwa ia mulai membangun Masjid Suci, Masjid Nabi, dan membangun Yerusalem setelah gempa bumi menghancurkannya. Diceritakan bahwa ia meninggal pada tahun 169 H di desa Rudayn, dan masa kejayaannya berlangsung selama sepuluh tahun, bulan, dan lima belas hari.
+
+## Karyanya untuk Khalifa bin Khayyat
+Khalifa ibn Khayyat [[person/khalifa-ibn-khayyat|mengakhiri]] catatan era ini dengan menyebut para pekerja dan mereka yang memegang jabatan. Ia mengutip mereka di sini dalam urutannya, bersama dengan baris yang ditambah editor dari sumber-sumber berikutnya untuk memperjelasnya. {cite:tarikh-khalifa-umari-1985 p. 440–443}
+
+- **Madinah:** [[person/abd-al-samad-ibn-ali|Abd al-Samad ibn Ali]] (digulingkan oleh al-Mahdi), kemudian Muhammad ibn Abdullah ibn Kathir ibn al-Salt (kemudian memecatnya), kemudian Ubayd Allah ibn Safwan al-Jumahi (kemudian memecatnya), kemudian Ja'far ibn Sulayman ibn Ali (pada tahun enam puluh, kemudian diberhentikan pada tahun enam puluh enam), kemudian Ibrahim ibn Yahya ibn Muhammad (yang meninggal), kemudian Ishaq ibn Yahya (hingga al-Mahdi wafat) {cite:tarikh-khalifa-umari-1985 p. 440}
+- **Mekah:** Muhammad ibn Abdullah ibn Kathir ibn al-Salt (digulingkan oleh al-Mahdi), kemudian Ja'far ibn Sulayman (bersama Madinah), kemudian Ubayd Allah ibn Qutham ibn al-Abbas ibn Ubayd Allah ibn al-Abbas, kemudian Ahmad ibn Ismail (hingga al-Mahdi wafat) {cite:tarikh-khalifa-umari-1985 p. 440}
+- **Yaman:** Yazid bin Mansur (yang disetujui lalu diberhentikan), kemudian Raja' bin Ruh (dari keturunan Ruh bin Zanba'), kemudian Ali bin Suleiman bin Ali bin Abdullah bin Abbas, kemudian Sulayman bin Yazid Al-Harthi, kemudian Abdullah bin Suleiman Al-Hashimi {cite:tarikh-khalifa-umari-1985 p. 440}
+- **Basra:** Ubayd Allah ibn al-Hasan (untuk shalat, kemudian al-Mahdi memecatnya), kemudian Sa'id ibn Da'laj (karena peristiwa itu, tetapi al-Mahdi memecatnya), kemudian Abd al-Malik ibn Ayyub al-Nimayri (kemudian diberhentikan pada tahun seratus enam puluh), kemudian [[person/muhammad-ibn-sulayman-al-abbasi|Muhammad ibn Sulayman ibn Ali ibn Abdullah ibn Abbas]] (kemudian memecatnya), kemudian Salih ibn Dawud (pada tahun seratus enam puluh lima, dan mengangkat budaknya yang dibebaskan Abu Muqatil), kemudian [[person/rawh-ibn-hatim|Ruh ibn Hatim]] (hingga al-Mahdi wafat) {cite:tarikh-khalifa-umari-1985 p. 440}
+- **Kufa:** Amr ibn Zuhayr (saudara al-Musayyib ibn Zuhayr al-Dhabi, kemudian memecatnya), kemudian Isa ibn Luqman ibn Muhammad ibn Hatib al-Jumahi (kemudian memecatnya), kemudian [[person/sharik-ibn-abdallah|Sharik ibn Abdullah al-Nakha'i sang hakim]] (kemudian memecatnya), kemudian Ishaq ibn al-Sabbah (yang memimpin peristiwa di bawah Sharik, kemudian mengambil alih Kufa dan diberhentikan), kemudian Hashim ibn Sa'id ibn Mansur (sepupunya, kemudian memecatnya), kemudian Musa ibn Isa (sampai al-Mahdi wafat) {cite:tarikh-khalifa-umari-1985 p. 440} {cite:tarikh-khalifa-umari-1985 p. 441}
+- **Khorasan:** Abdullah ibn Humayd ibn Qahtabah (diberhentikan oleh al-Mahdi), kemudian Abu Awn al-Himsi (kemudian diberhentikan), kemudian Mu'adh ibn Muslim (pada tahun enam puluh), kemudian al-Musayyib ibn Zuhayr (pada tahun enam puluh tiga), kemudian Abu al-Abbas al-Tusi (pada tahun enam puluh lima hingga kematian al-Mahdi) {cite:tarikh-khalifa-umari-1985 p. 441}
+- **Sijistan:** Hamza ibn Malik ibn Zuhayr ibn Muhammad al-A'idhi, kemudian Sa'id ibn Da'laj (yang meninggal), kemudian Tamim ibn Sa'd (diangkat sebagai penerus Sa'id), kemudian Muhammad ibn Ja'far ibn al-Ash'ath {cite:tarikh-khalifa-umari-1985 p. 441}
+- **Sumber Bukti:** Muhammad ibn Ma'bad ibn al-Khalil (seorang pria dari Banu Tamim, dipecat oleh al-Mahdi), kemudian [[person/rawh-ibn-hatim|Ruh ibn Hatim]] (pada tahun seratus lima puluh sembilan dan kemudian diberhentikan), kemudian Nasr ibn Muhammad al-Khuza'i (diangkat kembali dan kemudian diberhentikan), kemudian Sufaih ibn Amr (saudara Hisham ibn Amr al-Taghlibi, kemudian diberhentikan), kemudian al-Layth budaknya yang dibebaskan (hingga al-Mahdi meninggal) {cite:tarikh-khalifa-umari-1985 p. 441}
+- **Al-Jazirah:** Musa ibn Mus'ab (dipecat oleh al-Mahdi), kemudian al-Musayyib ibn Zuhayr (kemudian memecatnya), kemudian [[person/abd-al-samad-ibn-ali|Abd al-Samad ibn Ali]], kemudian al-Fadl ibn Salih, kemudian [[person/ali-ibn-sulayman-ibn-ali|Ali ibn Sulayman ibn Ali]], kemudian Imran ibn al-Manhal, kemudian Ali ibn Sulayman (yang kedua), kemudian [[person/abd-al-malik-ibn-salih|Abd al-Malik ibn Salih]] (dua kali), kemudian Abdullah ibn Salih {cite:tarikh-khalifa-umari-1985 p. 441}
+- **Ifriqiya:** [[person/yazid-ibn-hatim|Yazid ibn Hatim]] (mengaku padanya hingga ia meninggal) {cite:tarikh-khalifa-umari-1985 p. 441}
+- **Peradilan Basra:** Ubayd Allah ibn al-Hasan al-Anbari (diangkat dan kemudian diberhentikan pada tahun 169 H), kemudian Khalid ibn Taliq (dari keturunan Imran ibn Husayn, selama berbulan-bulan), kemudian Umar ibn Uthman (dari suku Quraisy) {cite:tarikh-khalifa-umari-1985 p. 441}
+- **Hakim Kufa:** [[person/sharik-ibn-abdallah|Sharik bin Abdullah Al-Nakha'i]] (mengangkatnya), kemudian Afiyya bin Yazid Al-Awdi (mengadili untuk Mahdi), kemudian Ibn Alatha Al-Aqili (mengadili untuk Mahdi) {cite:tarikh-khalifa-umari-1985 p. 442}
+- **Hakim Madinah:** Abdul Aziz bin Al-Muttalib (diangkat oleh Muhammad bin Abdullah bin Kathir dan disetujui oleh Ubayd Allah bin Safwan), kemudian Muhammad bin Imran Al-Taymi (diangkat oleh Al-Mahdi sebelumnya), kemudian Saeed bin Sulayman bin Masa'iq {cite:tarikh-khalifa-umari-1985 p. 442}
+- **Kondisi:** Nasr ibn Malik (kemudian meninggal), kemudian Hamza ibn Malik, kemudian Abdullah ibn Malik {cite:tarikh-khalifa-umari-1985 p. 442}
+- **Surat:** Abu Ubaidullah Muawiyah ibn Ubayd Allah (kemudian memecatnya), lalu Umar ibn Bazi' {cite:tarikh-khalifa-umari-1985 p. 442}
+- **Diwan Khorasan:** Bakr ibn Muawiyah al-Bahili (saat itu diberhentikan) {cite:tarikh-khalifa-umari-1985 p. 442}
+- **Diwan Pengeluaran, Rumah Kekayaan, Harta, Budak, dan Adiwan Sham:** Abu Samir Ayyub (seorang mantan Banu Fihr dari masyarakat Sham; Hatim berkata: Ayyub ibn Abi Samir) {cite:tarikh-khalifa-umari-1985 p. 442}
+- **Sang Diwan:** Ibrahim ibn Salih (diucapkan oleh Hatim, lalu meninggal), lalu Abu al-Wazir Umar ibn Mutarrif (diucapkan oleh Hatim) {cite:tarikh-khalifa-umari-1985 p. 442}
+- **Diwan Jund Khorasan:** Abdul Jabbar bin Shu'ayb {cite:tarikh-khalifa-umari-1985 p. 442}
+- **Bayt al-Mal:** Faraj bin Fadalah {cite:tarikh-khalifa-umari-1985 p. 442}
+- **Al-Mazil:** Damai sejahtera atas Tuhan-Nya {cite:tarikh-khalifa-umari-1985 p. 442}
+- **Segel:** Khalid ibn Yazid ibn Abdullah ibn Muhib al-Hamdani (yang meninggal), lalu [[person/ali-ibn-yaqtin|Ali ibn Yaqtin]] {cite:tarikh-khalifa-umari-1985 p. 443}
+- **Al-Horas:** Muharriz Abu al-Qasim, lalu Abu al-Abbas al-Tusi, kemudian Abdullah ibn Abi al-Abbas al-Tusi {cite:tarikh-khalifa-umari-1985 p. 443}
+- **Al-Hajib:** [[person/al-rabi-ibn-yunus|Al-Rabi' adalah mantan perdebatannya]], kemudian Al-Hasan ibn Al-Rabi' {cite:tarikh-khalifa-umari-1985 p. 443}
+
+## Kendali krisis: commissioning, bukan menciptakan perhitungan
+Nahida Bouzgoutt mengaitkan kepada al-Mahdi organisasi akuntansi dan pengawasan pada tahun 162 H/779 H, kemudian kantor Al-Zamaam di provinsi di pusat pada tahun 168 H/784–85 {cite:tdv-mehdi-bozkurt p.377–379}. Periode ini menggambarkan fase pertama tahun 162 H/778–79, kemudian krisis pusat untuk audit akun, pengawasan pekerjaan, dan koordinasi antara biro dan menteri atau kantor lain {cite:tdv-divan-duri Abbasid administration}. Kami mempertahankan metode setiap sumber dalam kalender Gregorian dan tidak mengambil hari atau bulan baru. [[invention/al-mahdi-zimam-oversight|Pengawasan pusat atas kendali adalah]] penugasan institusional, bukan klaim bahwa dia menciptakan akuntansi atau menulis buku panduan ketenagakerjaan sendiri. Posisi yang disebutkan tidak menyiratkan independensi politik karyawan atau keberhasilan terukur dalam menghilangkan korupsi.
+
+## Dasar identitas dan batasan berita doa
+Dalam edisi Dar al-Minhaj, hlm. 447, Al-Suyuti mengutip Abu Ubaidah bahwa al-Mahdi biasa memimpin umat dalam lima shalat harian di masjid Basra, dan bahwa ia menunggu sebagai seorang pemuja dalam laporan tentang karakter mulianya {cite:tarikh-khulafa-minhaj-1434 p.447}. Ini adalah laporan individu tentang praktik Islam, bukan kesimpulan berdasarkan nama, garis keturunan, atau koin. Kerangka virtual Sunni museum diumumkan sesuai dokumen Scope; kami tidak mengklaim termasuk dalam klasifikasi sektarian atau pengetahuan tentang keyakinan batinnya, juga tidak mengoreksi semua rantai transmisi terjemahan. Berita tentang shalat juga tidak menjadi penilaian umum atas kebijakannya atau alasan untuk menghapus berita represi dan perselisihan politik yang ditemukan dalam biografinya {cite:tdv-mehdi-bozkurt p.377–379}.
+
+## Pekerjaan dan nama yang disimpan tidak akan kami alihkan
+Daftar sebelumnya Khalifa ibn Khayyat menyimpan Umar ibn Bazi' dalam korespondensi, dan nama-nama lain dalam segel, pengeluaran, dan perbendaharaan; perbedaan dalam fungsi-fungsi ini merupakan bagian dari panduan {cite:tarikh-khalifa-umari-1985 p.442–443}. Kami tidak menggantikan posisi korespondensi dengan penunjukan pengawasan dari benang numerik yang cetaknya tidak terbukti. Kami membedakan [[concept/diwan-zamam|tali kekang dan cincin dalam narasi lama]] dari pusat Abbasiyah: nama bersama tidak sama dengan persatuan institusi {cite:futuh-buldan-maarif-1407} {cite:tdv-divan-duri Abbasid administration}. Tanggal lahir dan kematian, daftar pekerja, berita politik, dan frasa dari sumber sebelumnya tetap terjaga; penambahan ini menjelaskan perbaikan spesifik dan tidak menulis ulang seluruh kehidupan orang di sekitarnya.

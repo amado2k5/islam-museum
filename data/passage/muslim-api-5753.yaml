@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "5753"
-label: { ar: "صحيح مسلم 5753 — الحمى", en: "Sahih Muslim 5753 — fever", ur: "صحیح مسلم 5753 — بخار", es: "Sahih Muslim 5753 — fiebre", fr: "Sahih Muslim 5753 — fièvre" }
+label: { ar: "صحيح مسلم 5753 — الحمى", en: "Sahih Muslim 5753 — fever", ur: "صحیح مسلم 5753 — بخار", es: "Sahih Muslim 5753 — fiebre", fr: "Sahih Muslim 5753 — fièvre", tr: "Sahih Muslim 5753 — Ateş", id: "Sahih Muslim 5753 — Demam" }
 text: "وَحَدَّثَنِي هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، أَخْبَرَنَا ابْنُ وَهْبٍ، حَدَّثَنِي مَالِكٌ، ح وَحَدَّثَنَا مُحَمَّدُ، بْنُ رَافِعٍ حَدَّثَنَا ابْنُ أَبِي فُدَيْكٍ، أَخْبَرَنَا الضَّحَّاكُ، - يَعْنِي ابْنَ عُثْمَانَ - كِلاَهُمَا عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" الْحُمَّى مِنْ فَيْحِ جَهَنَّمَ فَأَطْفِئُوهَا بِالْمَاءِ \"."
 summary:
   ar: "حديث في صحيح مسلم، رقم 5753، يذكر الحمى. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 5753، جس میں بخار کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sahih Muslim, n.° 5753 (El Libro de los Saludos), menciona la fiebre. El Navegador de Medicina lo incluye en la lista de textos sobre medicina profética, medicina, anatomía, cirugía, fármacos y tratamientos."
   fr: "Un hadith du Sahih Muslim, n° 5753 (Le Livre des Salutations), mentionne la fièvre. Le Répertoire des ressources médicales le répertorie avec les textes sur la médecine prophétique, la médecine, l'anatomie, la chirurgie, les médicaments et les traitements."
+  tr: "Sahih Müslim'de 5753 numaralı hadis, ateşten bahsetmektedir. Bu hadis, tıp araştırmacısı tarafından Peygamber tıbbı, tıp, anatomi, cerrahi ve tedavi yöntemleri üzerine metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 5753, menyebutkan tentang demam. Hadits ini dikumpulkan oleh peneliti medis bersama dengan teks-teks tentang pengobatan Nabi, kedokteran, anatomi, pembedahan, dan terapi."
 relations:
   - { type: part_of, target: passage/muslim-kitab-39 }
   - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }

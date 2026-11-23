@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1075"
-label: { ar: "موطأ مالك 1075 — الفرض", en: "Muwatta Malik 1075 — the obligatory (fard)", ur: "موطأ مالک 1075 — فرض", fr: "Muwatta de Malik 1075 — l'obligatoire (fard)", es: "Muwatta de Malik 1075 — lo obligatorio (fard)" }
+label: { ar: "موطأ مالك 1075 — الفرض", en: "Muwatta Malik 1075 — the obligatory (fard)", ur: "موطأ مالک 1075 — فرض", fr: "Muwatta de Malik 1075 — l'obligatoire (fard)", es: "Muwatta de Malik 1075 — lo obligatorio (fard)", tr: "Muvatta Malik 1075 — Vacip", id: "Muwatta Malik 1075 — Kewajiban" }
 text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنِ ابْنِ شِهَابٍ، عَنْ قَبِيصَةَ بْنِ ذُؤَيْبٍ، أَنَّ عُمَرَ بْنَ الْخَطَّابِ، فَرَضَ لِلْجَدِّ الَّذِي يَفْرِضُ النَّاسُ لَهُ الْيَوْمَ."
 summary:
   ar: "حديث في موطأ مالك، رقم 1075، يرد فيه ذكر الفرض. يجمعه متصفح الفروض والواجبات والطاعات والمستحبات والمكروهات والمحرمات وصغائر الذنوب مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب، ويصف المتحف ما في النص ولا يُفتي به."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 1075، جس کے الفاظ میں فرض کا ذکر ہے۔ فرائض، واجبات، طاعات، مستحبات، مکروہات، محرمات اور صغیرہ گناہوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے؛ میوزیم متن کا بیان کرتا ہے، فتویٰ نہیں دیتا۔"
   fr: "Un récit de Muwatta de Malik, n° 1075, dont le texte mentionne l'obligatoire (fard). Le Navigateur des statuts légaux (obligations, actes d'obéissance, actes recommandés, réprouvés et interdits, péchés mineurs) le réunit avec les textes du Coran, de la Sunna, de la sîra et les récits des Compagnons et des Suivants sur ces thèmes ; le musée décrit ce que dit le texte et ne rend aucun avis juridique."
   es: "Un relato de Muwatta de Malik, n.º 1075, cuyo texto menciona lo obligatorio (fard). El Explorador de las calificaciones legales (obligaciones, actos de obediencia, actos recomendados, reprobados y prohibidos, y pecados menores) lo reúne con los textos del Corán, la Sunna, la sira y los relatos de los Compañeros y los Sucesores sobre estos temas; el museo describe lo que dice el texto y no emite ningún dictamen."
+  tr: "Malik'in Muwatta'sında yer alan 1075 numaralı hadis, farz olan amellerden bahsetmektedir. Bu hadis, farz ameller, görevler, itaat amelleri, tavsiye edilen ameller, mekruh ameller, haram ameller ve küçük günahlar konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, Peygamberin biyografisi ve Sahabeler ile onların haleflerinin bu konulardaki rivayetleriyle birlikte derlenmiştir. Araştırmacı metnin içeriğini açıklamış ancak buna dayanarak bir fetva vermemiştir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 1075, menyebutkan tentang amalan-amalan wajib. Hadits ini disusun oleh seorang peneliti yang ahli dalam amalan-amalan wajib, kewajiban, ketaatan, amalan yang dianjurkan, amalan yang tidak disukai, amalan yang dilarang, dan dosa-dosa kecil, beserta teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan riwayat dari para Sahabat dan Penerus mereka tentang topik-topik tersebut. Peneliti tersebut menjelaskan isi teks tersebut tetapi tidak mengeluarkan fatwa berdasarkan teks tersebut."
 relations:
   - { type: mentions, target: concept/fard, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1075 (book 27 hadith 2); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ahkam-hadithapi-1" }

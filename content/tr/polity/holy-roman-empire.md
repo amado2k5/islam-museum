@@ -1,0 +1,18 @@
+---
+id: polity/holy-roman-empire
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/polity/holy-roman-empire.md}
+---
+## Özet
+İslam Ansiklopedisi'ndeki "Nimche" makalesi, Osmanlıların Almanlara atıfta bulunmak için Slavca Nimche kelimesini kullandıklarını; bu kelimeyi daha geniş anlamda 1806'ya kadar var olan Kutsal Roma İmparatorluğu topraklarına ve daha dar anlamda modern Avusturya sınırları içindeki Habsburg topraklarına atıfta bulunduklarını belirtir. {cite:encyclopaedia-of-islam-2 vol. 8 p. 13}
+
+## Arap ve Osmanlı Yazısında İmparatorluk
+Makalede bahsedilen erken Arap eserlerinden biri, el-Mes'udi'nin 10. yüzyılda Namjin'i bir Slav kabilesi olarak andığı ve çağdaşı İbrahim bin Ya'qub'un bu bölgelere seyahat ettiği yer alır; ancak onun anlatımından bölgenin adını belirlemek mümkün değildir. {cite:encyclopaedia-of-islam-2 vol. 8 p. 13} Makale, el-İdrisi'nin 'Nuzhat al-Mushtaq'ını Avusturya hakkında en geniş ara Arapça kaynak olarak tanımlar; Karintiya'dan ve Villach gibi şehirlerden bahseder, Viyana ise sadece bir yolculuk sırasında anılır. Makale, onun şehirleri ticari önemleri nedeniyle seçtiğini belirtir. {cite:encyclopaedia-of-islam-2 vol. 8 p. 13} 17. yüzyılın ortalarından itibaren, Osmanlı tarih kayıtları Kutsal Roma İmparatorluğu'ndaki olaylara atıfta bulunmuştur; başlangıçta çok az, ardından 18. yüzyılda elçilik raporları ve seyahat haberleri sayesinde daha doğru hale gelmiştir; Ulya Çelebi, 1665'te elçilikle birlikte Viyana'ya yaptığı yolculuğu özel bir yer olarak tanımlamıştır. {cite:encyclopaedia-of-islam-2 vol. 8 pp. 13-14}
+
+## Osmanlılar ve Habsburglar
+Makale, Sultan II. Bayezid ile İmparator I. Maximilian arasındaki en eski yazışmaları 1497, 1504 ve 1510-1511 yıllarına tarihlendirir ve 1526'daki Mohács Muharebesi sonrası Macaristan'ın durumundan kaynaklanan sürekli düşmanca temasları ele alır. {cite:encyclopaedia-of-islam-2 vol. 8 p. 13} Sultan I. Süleyman, Habsburg topraklarında iki sefer düzenledi: ilki 1529'da Viyana'ya, ikincisi ise 1532'de; Macaristan'ın bir kısmı 1541'de doğrudan Osmanlı yönetimine geçtikten sonra, 1547'de I. Ferdinand, sultana yıllık 30.000 altın düşek haraç ödemesini zorunlu kılan bir antlaşma imzaladı; bu haraç sadece savaş zamanında, 1606'daki Zyvataturok Antlaşması'na kadar kaldı. {cite:encyclopaedia-of-islam-2 vol. 8 p. 13} Makale, 1683'te Kara Mustafa Paşa'nın liderliğindeki başarısız Viyana'ya saldırıyı, Macaristan'ın Habsburglara yenilmesiyle sonuçlanan uzun bir savaşın doruk noktası olarak kabul eder. {cite:encyclopaedia-of-islam-2 vol. 8 p. 13} Viyana 1615 ve Karlovce 1699 Antlaşmalarının ticaret değişimiyle ilgili hükümler içerdiğini, 1718'de Bsarovje'de ayrı bir ticaret anlaşmasının yapıldığını ve Prusya'nın 1790'da Reichenbach'ta İmparator II. Leopold'u Osmanlı topraklarını fethetmekten vazgeçirmeye zorladığını ekler. {cite:encyclopaedia-of-islam-2 vol. 8 p. 13} Habsburglar, 1547'den sonra Yüce Porte'da elçilerini korudu, Viyana'daki kalıcı Osmanlı temsilciliği ise 1797'ye kadar başlamadı. {cite:encyclopaedia-of-islam-2 vol. 8 p. 13}
+
+## Nomisma kataloğunda
+Bu imparatorluk Numisma'da "holy_roman_empire" tanımlayıcısıyla tanımlanır ve 14 Kasım 2026'da yapılan sorgulamada, kuruluşun ilişkisi aracılığıyla otuz sekiz üyelik kaydı bağlanmış ve bir ihraççı veya otorite tarafından adına herhangi bir para birimi veya para birimi türü kaydedilmemiştir. {cite:nomisma holy_roman_empire}

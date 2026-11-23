@@ -1,109 +1,210 @@
 slug: the-samarkand-observatory
 title:
-  ar: "مرصد سمرقند"
-  en: "The Samarkand Observatory"
-  ur: "سمرقند کا رصد خانہ"
-  fr: "L’observatoire de Samarcande"
+  ar: مرصد سمرقند
+  en: The Samarkand Observatory
+  ur: سمرقند کا رصد خانہ
+  fr: L’observatoire de Samarcande
+  tr: Semerkant Gözlemevi
+  id: Observatorium Samarkand
 lede:
-  ar: "أمير يقيس النجوم بدقة لم يصل إليها أحد قبل التلسكوب — في اثنتي عشرة بطاقة."
-  en: "A prince who measured the stars with a precision no one matched before the telescope — in twelve cards."
-  ur: "ایک شہزادہ جس نے ستارے اس درستگی سے ناپے کہ دوربین سے پہلے کوئی نہ پہنچا — بارہ کارڈز میں۔"
-  fr: "En douze cartes, découvre un prince qui mesurait la position des étoiles avec une précision sans égale avant le télescope."
-status: { review: published }
-sources: [source/hodgson-1974]
-
+  ar: أمير يقيس النجوم بدقة لم يصل إليها أحد قبل التلسكوب — في اثنتي عشرة بطاقة.
+  en: A prince who measured the stars with a precision no one matched before the telescope — in twelve cards.
+  ur: ایک شہزادہ جس نے ستارے اس درستگی سے ناپے کہ دوربین سے پہلے کوئی نہ پہنچا — بارہ کارڈز میں۔
+  fr: En douze cartes, découvre un prince qui mesurait la position des étoiles avec une précision sans égale avant le télescope.
+  tr: Bir prens, yıldızları teleskoptan önce kimsenin ulaşamadığı bir hassasiyetle ölçer — on iki kartta.
+  id: Seorang pangeran mengukur bintang dengan presisi yang belum pernah dicapai siapa pun sebelum teleskop — dalam dua belas kartu.
+status:
+  review: published
+sources:
+- source/hodgson-1974
 provenance:
-  generated_by: "Devin"
-  model: "Devin (Cognition)"
-  run: "education-E5-story-cards"
-  source: "تاريخ أولوغ بيك ومرصد سمرقند؛ الزيج السلطاني — إعادة صياغة بأمانة."
+  generated_by: Devin
+  model: Devin (Cognition)
+  run: education-E5-story-cards
+  source: تاريخ أولوغ بيك ومرصد سمرقند؛ الزيج السلطاني — إعادة صياغة بأمانة.
   fr:
-    generated_by: "Devin"
-    model: "unknown"
-    run: "devin-a7ba389df57d4bdb9b7515fa59f40242"
-    source: "Existing English text in this activity, with Arabic consulted for religious material."
+    generated_by: Devin
+    model: unknown
+    run: devin-a7ba389df57d4bdb9b7515fa59f40242
+    source: Existing English text in this activity, with Arabic consulted for religious material.
 cards:
-  - title: { ar: "الأمير", en: "The prince", ur: "شہزادہ", fr: "Le prince" }
-    motif: star
-    narration:
-      ar: "أولوغ بيك حاكم سمرقند في القرن الخامس عشر، حفيد تيمورلنك."
-      en: "Ulugh Beg, ruler of Samarkand in the fifteenth century, was Timur's grandson."
-      ur: "الغ بیگ، پندرہویں صدی میں سمرقند کا حاکم، تیمور کا پوتا تھا۔"
-      fr: "Oulough Beg, souverain de Samarcande au XVe siècle, était le petit-fils de Tamerlan."
-  - title: { ar: "العاشق", en: "The scholar", ur: "عالم", fr: "Le savant" }
-    motif: book
-    narration:
-      ar: "أحب الرياضيات والفلك أكثر من الملك، وجمع حوله العلماء."
-      en: "He loved mathematics and astronomy more than kingship and gathered scholars around him."
-      ur: "وہ بادشاہی سے زیادہ ریاضی اور فلکیات سے محبت رکھتا تھا اور علماء کو جمع کیا۔"
-      fr: "Il aimait les mathématiques et l’astronomie plus que le pouvoir, et s’entoura de savants."
-  - title: { ar: "المدرسة", en: "The madrasa", ur: "مدرسہ", fr: "La madrasa" }
-    motif: mosque
-    narration:
-      ar: "بنى مدرسته في ساحة الريگستان، تدرس الفلك والفقه والنحو."
-      en: "He built his madrasa in the Registan square, teaching astronomy, fiqh and grammar."
-      ur: "اس نے ریگستان چوک میں مدرسہ بنایا جہاں فلکیات، فقہ اور نحو پڑھائی جاتی۔"
-      fr: "Il fit bâtir sa madrasa sur la place du Régistan. On y enseignait l’astronomie, le droit musulman et la grammaire."
-  - title: { ar: "التل", en: "The hill", ur: "پہاڑی", fr: "La colline" }
-    motif: mountain
-    narration:
-      ar: "على تل كوهك شمال المدينة بنى مرصده، أكبر مرصد في زمانه."
-      en: "On Kohak hill north of the city he built his observatory — the largest of its age."
-      ur: "شہر کے شمال میں کوہک کی پہاڑی پر اس نے رصد خانہ بنایا — اپنے زمانے کا سب سے بڑا۔"
-      fr: "Sur la colline de Kohak, au nord de la ville, il construisit le plus grand observatoire de son époque."
-  - title: { ar: "الربع", en: "The quadrant", ur: "ربع دائرہ", fr: "Le quadrant" }
-    motif: compass
-    narration:
-      ar: "رُكّب في أرض المرصد ربع دائرة ضخم نصفه داخل الأرض، نصفه فوقها."
-      en: "A giant quadrant was set into the observatory's floor — half in the earth, half above."
-      ur: "رصد خانے کے فرش میں ایک بڑا ربع دائرہ نصب ہوا — آدھا زمین میں، آدھا اوپر۔"
-      fr: "Un immense quadrant était encastré dans le sol de l’observatoire : une moitié sous terre, l’autre au-dessus."
-  - title: { ar: "القياس", en: "The measuring", ur: "پیمائش", fr: "Les mesures" }
-    motif: star
-    narration:
-      ar: "قاس ارتفاع الشمس والنجوم بدقة بلغت ثوانٍ من الدرجة الواحدة."
-      en: "He measured the sun's and stars' heights to arc-second precision."
-      ur: "اس نے سورج اور ستاروں کی بلندی درجے کے ثانیوں تک درستگی سے ناپی۔"
-      fr: "Il mesura la hauteur du Soleil et des étoiles avec une précision de l’ordre de la seconde d’arc."
-  - title: { ar: "الفلكيون", en: "The astronomers", ur: "فلکی دان", fr: "Les astronomes" }
-    motif: moon
-    narration:
-      ar: "عمل معه قاضي زاده الرومي وعلي القشجي وجمشيد الكاشي."
-      en: "Qadi-zadeh al-Rumi, Ali al-Qushji and Jamshid al-Kashi worked beside him."
-      ur: "قاضی زادہ رومی، علی قشجی اور جمشید کاشی اس کے ساتھ کام کرتے تھے۔"
-      fr: "Qadi-zadeh al-Roumi, Ali al-Qouchji et Djamchid al-Kachi travaillèrent à ses côtés."
-  - title: { ar: "السنة", en: "The year", ur: "سال", fr: "L’année" }
-    motif: moon
-    narration:
-      ar: "حسب طول السنة النجمية: 365 يوماً و6 ساعات و10 دقائق و8 ثوانٍ."
-      en: "He calculated the sidereal year: 365 days, 6 hours, 10 minutes, 8 seconds."
-      ur: "اس نے نجومی سال کی لمبائی نکالی: 365 دن، 6 گھنٹے، 10 منٹ، 8 سیکنڈ۔"
-      fr: "Il calcula la durée de l’année sidérale : 365 jours, 6 heures, 10 minutes et 8 secondes."
-  - title: { ar: "الزيج", en: "The tables", ur: "زیج", fr: "Les tables" }
-    motif: book
-    narration:
-      ar: "ألف الزيج السلطاني: جداول ألف نجم ومواقعها وأوجها وأبعادها."
-      en: "He authored the Sultan's Zij — tables of a thousand stars, their positions, ascents and distances."
-      ur: "اس نے زیجِ سلطانی لکھی — ہزار ستاروں کے مقامات، طلوع اور فاصلے۔"
-      fr: "Il rédigea le Zij du sultan, des tables astronomiques qui donnent les positions, les ascensions et les distances d’un millier d’étoiles."
-  - title: { ar: "الدقة", en: "The accuracy", ur: "درستگی", fr: "La précision" }
-    motif: compass
-    narration:
-      ar: "بقيت جداوله أدق ما عرفه العالم حتى أتى تايكو براهي بعده بقرن ونصف."
-      en: "His tables stayed the world's most accurate until Tycho Brahe, a century and a half later."
-      ur: "اس کی جدولیں دنیا کی درست ترین رہیں یہاں تک ڈیڑھ صدی بعد ٹائیکو براہی آیا۔"
-      fr: "Ses tables restèrent les plus précises du monde jusqu’aux travaux de Tycho Brahe, un siècle et demi plus tard."
-  - title: { ar: "النهاية", en: "The end", ur: "اختتام", fr: "La fin" }
-    motif: moon
-    narration:
-      ar: "فارق الحياة بأمر ابنه عام 1449م، وهُدم مرصده، فلم يبق منه إلا الربع."
-      en: "He left this world at his son's command in 1449, and his observatory was razed — only the quadrant survived."
-      ur: "1449ء میں اپنے بیٹے کے حکم سے اس دنیا سے رخصت ہوا اور رصد خانہ گرا دیا گیا — صرف ربع دائرہ بچا۔"
-      fr: "Il fut mis à mort sur l’ordre de son fils en 1449. Son observatoire fut rasé et seul le quadrant survécut."
-  - title: { ar: "الإرث", en: "The legacy", ur: "میراث", fr: "L’héritage" }
-    motif: star
-    narration:
-      ar: "اكتشفت أطلال المرصد عام 1908م، وما زال الربع قائماً في سمرقند."
-      en: "The observatory's remains were found in 1908; the quadrant still stands in Samarkand."
-      ur: "رصد خانے کے کھنڈر 1908ء میں ملے؛ ربع دائرہ آج بھی سمرقند میں کھڑا ہے۔"
-      fr: "On retrouva les vestiges de l’observatoire en 1908. Le quadrant est toujours à Samarcande."
+- title:
+    ar: الأمير
+    en: The prince
+    ur: شہزادہ
+    fr: Le prince
+    tr: Prens
+    id: Pangeran
+  motif: star
+  narration:
+    ar: أولوغ بيك حاكم سمرقند في القرن الخامس عشر، حفيد تيمورلنك.
+    en: Ulugh Beg, ruler of Samarkand in the fifteenth century, was Timur's grandson.
+    ur: الغ بیگ، پندرہویں صدی میں سمرقند کا حاکم، تیمور کا پوتا تھا۔
+    fr: Oulough Beg, souverain de Samarcande au XVe siècle, était le petit-fils de Tamerlan.
+    tr: Ulugh Beg, on beşinci yüzyılda Semerkand'ın hükümdarıydı ve Timur'un torunuydu.
+    id: Ulugh Beg adalah penguasa Samarkand pada abad kelima belas, cucu Timur.
+- title:
+    ar: العاشق
+    en: The scholar
+    ur: عالم
+    fr: Le savant
+    tr: Sevgili
+    id: Sang kekasih
+  motif: book
+  narration:
+    ar: أحب الرياضيات والفلك أكثر من الملك، وجمع حوله العلماء.
+    en: He loved mathematics and astronomy more than kingship and gathered scholars around him.
+    ur: وہ بادشاہی سے زیادہ ریاضی اور فلکیات سے محبت رکھتا تھا اور علماء کو جمع کیا۔
+    fr: Il aimait les mathématiques et l’astronomie plus que le pouvoir, et s’entoura de savants.
+    tr: Matematiği ve astronomiyi kraldan daha çok severdi ve etrafında bilginler toplardı.
+    id: Ia lebih mencintai matematika dan astronomi daripada sang raja dan mengumpulkan para cendekiawan di sekitarnya.
+- title:
+    ar: المدرسة
+    en: The madrasa
+    ur: مدرسہ
+    fr: La madrasa
+    tr: Okul
+    id: Sekolah
+  motif: mosque
+  narration:
+    ar: بنى مدرسته في ساحة الريگستان، تدرس الفلك والفقه والنحو.
+    en: He built his madrasa in the Registan square, teaching astronomy, fiqh and grammar.
+    ur: اس نے ریگستان چوک میں مدرسہ بنایا جہاں فلکیات، فقہ اور نحو پڑھائی جاتی۔
+    fr: Il fit bâtir sa madrasa sur la place du Régistan. On y enseignait l’astronomie, le droit musulman et la grammaire.
+    tr: Okulunu Rigistan Meydanı'nda kurdu ve astronomi, hukuk ve dilbilgisi dersleri verdi.
+    id: Ia membangun sekolahnya di Lapangan Rigistan, mengajarkan astronomi, hukum, dan tata baka.
+- title:
+    ar: التل
+    en: The hill
+    ur: پہاڑی
+    fr: La colline
+    tr: tepe
+    id: bukit
+  motif: mountain
+  narration:
+    ar: على تل كوهك شمال المدينة بنى مرصده، أكبر مرصد في زمانه.
+    en: On Kohak hill north of the city he built his observatory — the largest of its age.
+    ur: شہر کے شمال میں کوہک کی پہاڑی پر اس نے رصد خانہ بنایا — اپنے زمانے کا سب سے بڑا۔
+    fr: Sur la colline de Kohak, au nord de la ville, il construisit le plus grand observatoire de son époque.
+    tr: Şehrin kuzeyindeki Kohak tepesinde, zamanının en büyük gözlemevi olan gözlemevini inşa etti.
+    id: Di bukit Kohak di utara kota, ia membangun observatoriumnya, observatorium terbesar pada masanya.
+- title:
+    ar: الربع
+    en: The quadrant
+    ur: ربع دائرہ
+    fr: Le quadrant
+    tr: çeyrek
+    id: seperempat
+  motif: compass
+  narration:
+    ar: رُكّب في أرض المرصد ربع دائرة ضخم نصفه داخل الأرض، نصفه فوقها.
+    en: A giant quadrant was set into the observatory's floor — half in the earth, half above.
+    ur: رصد خانے کے فرش میں ایک بڑا ربع دائرہ نصب ہوا — آدھا زمین میں، آدھا اوپر۔
+    fr: 'Un immense quadrant était encastré dans le sol de l’observatoire : une moitié sous terre, l’autre au-dessus.'
+    tr: Gözlemevinin zeminine, yarısı Dünya'nın içinde, yarısı üzerinde devasa bir çeyrek daire kuruldu.
+    id: Sebuah lingkaran seperempat besar dipasang di tanah observatorium, setengah di dalam Bumi dan setengah di atasnya.
+- title:
+    ar: القياس
+    en: The measuring
+    ur: پیمائش
+    fr: Les mesures
+    tr: Ölçüm
+    id: Pengukuran
+  motif: star
+  narration:
+    ar: قاس ارتفاع الشمس والنجوم بدقة بلغت ثوانٍ من الدرجة الواحدة.
+    en: He measured the sun's and stars' heights to arc-second precision.
+    ur: اس نے سورج اور ستاروں کی بلندی درجے کے ثانیوں تک درستگی سے ناپی۔
+    fr: Il mesura la hauteur du Soleil et des étoiles avec une précision de l’ordre de la seconde d’arc.
+    tr: Güneş ve yıldızların yüksekliğini saniye/derece hassasiyetiyle ölç.
+    id: Ukur tinggi matahari dan bintang dengan presisi detik per derajat.
+- title:
+    ar: الفلكيون
+    en: The astronomers
+    ur: فلکی دان
+    fr: Les astronomes
+    tr: astronomlar
+    id: astronom
+  motif: moon
+  narration:
+    ar: عمل معه قاضي زاده الرومي وعلي القشجي وجمشيد الكاشي.
+    en: Qadi-zadeh al-Rumi, Ali al-Qushji and Jamshid al-Kashi worked beside him.
+    ur: قاضی زادہ رومی، علی قشجی اور جمشید کاشی اس کے ساتھ کام کرتے تھے۔
+    fr: Qadi-zadeh al-Roumi, Ali al-Qouchji et Djamchid al-Kachi travaillèrent à ses côtés.
+    tr: Qadi Zada el-Rumi, Ali el-Kaşci ve Cemşid el-Kashi ile çalıştı.
+    id: Ia bekerja sama dengan Qadi Zada al-Rumi, Ali al-Qashji, dan Jamshid al-Kashi.
+- title:
+    ar: السنة
+    en: The year
+    ur: سال
+    fr: L’année
+    tr: Sünnet
+    id: Sunnah
+  motif: moon
+  narration:
+    ar: 'حسب طول السنة النجمية: 365 يوماً و6 ساعات و10 دقائق و8 ثوانٍ.'
+    en: 'He calculated the sidereal year: 365 days, 6 hours, 10 minutes, 8 seconds.'
+    ur: 'اس نے نجومی سال کی لمبائی نکالی: 365 دن، 6 گھنٹے، 10 منٹ، 8 سیکنڈ۔'
+    fr: 'Il calcula la durée de l’année sidérale : 365 jours, 6 heures, 10 minutes et 8 secondes.'
+    tr: 'Yıldız yılının uzunluğuna göre: 365 gün, 6 saat, 10 dakika ve 8 saniye.'
+    id: 'Menurut panjang tahun bintang: 365 hari, 6 jam, 10 menit, dan 8 detik.'
+- title:
+    ar: الزيج
+    en: The tables
+    ur: زیج
+    fr: Les tables
+    tr: Azij
+    id: Azij
+  motif: book
+  narration:
+    ar: 'ألف الزيج السلطاني: جداول ألف نجم ومواقعها وأوجها وأبعادها.'
+    en: He authored the Sultan's Zij — tables of a thousand stars, their positions, ascents and distances.
+    ur: اس نے زیجِ سلطانی لکھی — ہزار ستاروں کے مقامات، طلوع اور فاصلے۔
+    fr: Il rédigea le Zij du sultan, des tables astronomiques qui donnent les positions, les ascensions et les distances d’un millier d’étoiles.
+    tr: 'Alif Al-Zij Al-Sultani: Bin yıldızın tabloları, konumları, zirveleri ve boyutları.'
+    id: 'Alif Al-Zij Al-Sultani: Tabel seribu bintang, lokasi, puncak, dan dimensinya.'
+- title:
+    ar: الدقة
+    en: The accuracy
+    ur: درستگی
+    fr: La précision
+    tr: Doğruluk
+    id: Akurasi
+  motif: compass
+  narration:
+    ar: بقيت جداوله أدق ما عرفه العالم حتى أتى تايكو براهي بعده بقرن ونصف.
+    en: His tables stayed the world's most accurate until Tycho Brahe, a century and a half later.
+    ur: اس کی جدولیں دنیا کی درست ترین رہیں یہاں تک ڈیڑھ صدی بعد ٹائیکو براہی آیا۔
+    fr: Ses tables restèrent les plus précises du monde jusqu’aux travaux de Tycho Brahe, un siècle et demi plus tard.
+    tr: Tabloları, Taiko Brahe ondan bir buçuk yüzyıl sonra gelene kadar dünyanın bildiği en doğru tablolar olarak kaldı.
+    id: Meja-mejanya tetap yang paling akurat yang dikenal dunia sampai Taiko Brahe datang satu setengah abad setelahnya.
+- title:
+    ar: النهاية
+    en: The end
+    ur: اختتام
+    fr: La fin
+    tr: Son
+    id: Tamat
+  motif: moon
+  narration:
+    ar: فارق الحياة بأمر ابنه عام 1449م، وهُدم مرصده، فلم يبق منه إلا الربع.
+    en: He left this world at his son's command in 1449, and his observatory was razed — only the quadrant survived.
+    ur: 1449ء میں اپنے بیٹے کے حکم سے اس دنیا سے رخصت ہوا اور رصد خانہ گرا دیا گیا — صرف ربع دائرہ بچا۔
+    fr: Il fut mis à mort sur l’ordre de son fils en 1449. Son observatoire fut rasé et seul le quadrant survécut.
+    tr: Oğlunun emriyle 1449 yılında vefat etti ve gözlemevi yıkıldı, geriye sadece dörtte biri kaldı.
+    id: Ia meninggal atas perintah putranya pada tahun 1449 M, dan observatoriumnya dihancurkan, menyisakan hanya seperempat darinya.
+- title:
+    ar: الإرث
+    en: The legacy
+    ur: میراث
+    fr: L’héritage
+    tr: Miras
+    id: Warisan
+  motif: star
+  narration:
+    ar: اكتشفت أطلال المرصد عام 1908م، وما زال الربع قائماً في سمرقند.
+    en: The observatory's remains were found in 1908; the quadrant still stands in Samarkand.
+    ur: رصد خانے کے کھنڈر 1908ء میں ملے؛ ربع دائرہ آج بھی سمرقند میں کھڑا ہے۔
+    fr: On retrouva les vestiges de l’observatoire en 1908. Le quadrant est toujours à Samarcande.
+    tr: Gözlemevinin kalıntıları 1908'de keşfedildi ve mahalle hala Semerkant'ta ayaktadır.
+    id: Reruntuhan observatorium ditemukan pada tahun 1908, dan kawasan tersebut masih berdiri di Samarkand.

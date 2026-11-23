@@ -1,0 +1,9 @@
+---
+id: concept/hijama
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/hijama.md}
+---
+## Ringkasan
+Cupping adalah menghisap darah setelah kondisi dengan mujal, dan berbeda dengan phleoma, yaitu membelah pembuluh darah untuk mengeluarkan darah. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6827} Pengobatan dengan cupping direkomendasikan menurut ahli hukum berdasarkan hadits di kedua Sahih. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6827} Mengenai pembatalan wudhu, ada perbedaan pendapat: Hanafi menganggapnya batal, Hanbal mengharuskan wudhu dengan darah berlebihan, sedangkan Malili dan Shafi'i tidak memerlukan wudhu. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6828} Mengenai puasa: Hanafi tidak suka jika puasa melemahkannya, Malik memisahkan berdasarkan kekuatan fisik dan anggapan keraguan, Shafi'i tidak percaya bahwa itu memutus puasa, sedangkan Hanbali menganggapnya sebagai memutus puasa baik bagi yang sia-sia maupun yang dicup. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6829} Dalam Ihram: Hanafi tidak menganggapnya bermasalah, Malik mengizinkannya tanpa alasan jika memerlukan potong rambut, dan Shafi'i mengizinkannya jika tidak melibatkan pemotongan rambut. Hanbalis membedakan antara kebutuhan dan yang lain, dan fidya diperlukan untuk memotong rambut. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6830} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6831} Mayoritas ahli hukum menganggap diperbolehkan mengambilnya sebagai kerajinan dan menerima pembayaran. Menurut Ahmad, tidak disukai untuk mengambil upahnya. Mereka percaya bahwa tukang cukur tidak bertanggung jawab jika ia melakukan keahliannya dengan baik dan tidak melebihi standar biasa. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6831}

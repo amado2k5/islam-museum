@@ -4,10 +4,12 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/abu-bakr-ibn-hazm]
 work: work/muwatta-malik
 ref: "1470"
-label: { ar: "الموطأ 1470 — محمد بن أبي بكر بن حزم: سمع أباه يقول كان عمر يقول عجبا للعمة تورث ولا ترث", en: "Muwatta 1470", es: "Muwatta 1470", fr: "Muwatta 1470", ur: "موطا 1470" }
+label: { ar: "الموطأ 1470 — محمد بن أبي بكر بن حزم: سمع أباه يقول كان عمر يقول عجبا للعمة تورث ولا ترث", en: "Muwatta 1470", es: "Muwatta 1470", fr: "Muwatta 1470", ur: "موطا 1470", tr: "El-Muvatta 1470 — Muhammed ibn Ebu Bekr ibn Hazm: Babasının şöyle dediğini işitti: Ömer şöyle derdi: Ne garip ki, baba tarafından teyze miras alıyor ama kendisi miras almıyor!", id: "Al-Muwatta 1470 — Muhammad ibn Abi Bakr ibn Hazm: Dia mendengar ayahnya berkata: Umar biasa berkata: Betapa anehnya bahwa bibi dari pihak ayah mewarisi tetapi tidak mewarisi!" }
 text: "عَجبًا لِلْعَمَّةِ تُورَثُ وَلَا تَرثُ"
 summary:
   ar: "يروي مالك عن محمد بن أبي بكر بن حزم أنه سمع أباه كثيرا يقول كان عمر بن الخطاب يقول عجبا للعمة تورث ولا ترث. {cite:muwatta-maruf-1997 p.19}"
+  tr: "Malik, Muhammed ibn Abi Bekr ibn Hazm'dan rivayetle, babasının sık sık Ömer ibn el-Hattab'ın şöyle dediğini duyduğunu aktarır: \"Bir teyzenin miras alması ama kendisinin miras almaması ne garip!\" {cite:muwatta-maruf-1997 s.19}"
+  id: "Malik meriwayatkan dari Muhammad ibn Abi Bakr ibn Hazm bahwa ia sering mendengar ayahnya berkata bahwa Umar ibn al-Khattab biasa berkata, \"Sungguh aneh bahwa seorang bibi mewarisi tetapi tidak mewarisi!\" {cite:muwatta-maruf-1997 p.19}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-13-faraid }
   - { type: mentions, target: person/muhammad-ibn-abi-bakr-ibn-hazm, sources: [source/muwatta-maruf-1997] }

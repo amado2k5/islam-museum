@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1851"
-label: { ar: "صحيح مسلم 1851 — الأب والأبوة", en: "Sahih Muslim 1851 — the father and fatherhood", ur: "صحیح مسلم 1851 — باپ اور والدیت", es: "Sahih Muslim 1851 — El padre y la paternidad", fr: "Sahih Muslim 1851 — le père et la paternité" }
+label: { ar: "صحيح مسلم 1851 — الأب والأبوة", en: "Sahih Muslim 1851 — the father and fatherhood", ur: "صحیح مسلم 1851 — باپ اور والدیت", es: "Sahih Muslim 1851 — El padre y la paternidad", fr: "Sahih Muslim 1851 — le père et la paternité", tr: "Sahih Muslim 1851 — Baba ve Babalık", id: "Sahih Muslim 1851 — Sang Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ نُمَيْرٍ، ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا مَالِكٌ، - وَهُوَ ابْنُ مِغْوَلٍ - عَنْ عَبْدِ اللَّهِ بْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، قَالَ قَالَ رَسُولُ اللَّهِ \" إِنَّ عَبْدَ اللَّهِ بْنَ قَيْسٍ أَوِ الأَشْعَرِيَّ أُعْطِيَ مِزْمَارًا مِنْ مَزَامِيرِ آلِ دَاوُدَ \"."
 summary:
   ar: "حديث في صحيح مسلم، رقم 1851، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 1851، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sahih Muslim, n.° 1851 (El Libro de la Oración - Viajeros), menciona al padre y la paternidad. El Navegador de la Paternidad en el Islam lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sahih Muslim, n° 1851 (Le Livre de la prière – Les voyageurs), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih Müslim'de 1851 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 1851, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1851 (book 6 hadith 279); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

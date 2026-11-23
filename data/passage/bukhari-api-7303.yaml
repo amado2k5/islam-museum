@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "7303"
-label: { ar: "صحيح البخاري 7303 — الأب والأبوة", en: "Sahih al-Bukhari 7303 — the father and fatherhood", ur: "صحیح بخاری 7303 — باپ اور والدیت", es: "Sahih al-Bukhari 7303 — El padre y la paternidad", fr: "Sahih al-Bukhari 7303 — Le père et la paternité" }
+label: { ar: "صحيح البخاري 7303 — الأب والأبوة", en: "Sahih al-Bukhari 7303 — the father and fatherhood", ur: "صحیح بخاری 7303 — باپ اور والدیت", es: "Sahih al-Bukhari 7303 — El padre y la paternidad", fr: "Sahih al-Bukhari 7303 — Le père et la paternité", tr: "Sahih el-Buhari 7303 — Baba ve Babalık", id: "Sahih al-Bukhari 7303 — Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا إِسْمَاعِيلُ، حَدَّثَنِي مَالِكٌ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ أُمِّ الْمُؤْمِنِينَ، أَنَّ رَسُولَ اللَّهِ قَالَ فِي مَرَضِهِ \" مُرُوا أَبَا بَكْرٍ يُصَلِّي بِالنَّاسِ \". قَالَتْ عَائِشَةُ قُلْتُ إِنَّ أَبَا بَكْرٍ إِذَا قَامَ فِي مَقَامِكَ لَمْ يُسْمِعِ النَّاسَ مِنَ الْبُكَاءِ، فَمُرْ عُمَرَ فَلْيُصَلِّ. فَقَالَ \" مُرُوا أَبَا بَكْرٍ فَلْيُصَلِّ بِالنَّاسِ \". فَقَالَتْ عَائِشَةُ …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 7303، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 7303، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 7303 (Aferrarse al Corán y la Sunnah), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sahih al-Bukhari, n° 7303 (S'attacher fermement au Coran et à la Sunna), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih el-Buhari'de 7303 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 7303, menyebutkan tentang ayah dan peran ayah. Situs web \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 7303 (book 96 hadith 34); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

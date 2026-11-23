@@ -1,0 +1,29 @@
+---
+id: person/seku-amadu
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/seku-amadu.md}
+---
+## Ringkasan
+Sheikh Ahmadu (Ahmed bin Muhammad Labou, sekitar 1776 – 20 April 1845) adalah seorang Murabiat Fulani, pendiri Kekaisaran Masina (Dina Hamdallah) di Delta Niger Dalam yang kini berada di Mali saat ini, dan penguasanya dengan gelar Imam (Almami) dari tahun 1818 hingga kematiannya. {cite:wikipedia-seku-amadu-en} {cite:wikipedia-seku-amadu-fr} Ia memimpin jihad yang menggulingkan kekuasaan Bambara dan mendirikan negara dengan Hamdallah sebagai ibu kotanya, yang memerintah secara ketat sesuai dengan interpretasi Maliki atas Syariah, dan pengaruhnya meluas ke Jenni dan Timbuktu. {cite:wikipedia-seku-amadu-en} Ia digantikan oleh putranya Ahmadu II dan kemudian cucunya Ahmadu III. {cite:wikipedia-massina-empire-en}
+
+## Kehidupan Awal dan Pendidikan
+Artikel Prancis menyebutkan bahwa ia lahir pada tahun 1776 di Malangal, sebuah desa dekat Mopti, sementara kotak informasinya tercantum sebagai tahun 1775 atau 1776 di Masina. {cite:wikipedia-seku-amadu-fr} Sumber berbeda mengenai nama sheikh-nya dalam Qadiriyya: artikel bahasa Inggris secara eksplisit menyatakan bahwa ia adalah murid guru Sufi Qadiriya Sidi Mukhtar al-Kunti, berdasarkan Honowick (2004). {cite:wikipedia-seku-amadu-en} Artikel Prancis menyebut Sufi Kapara Varma sebagai orang yang memulainya di Qadiriyya, berdasarkan tesis Bouley tentang Sufisme di Mali (2013), dan menggambarkannya di latar depan sebagai murabat Fulani yang berafiliasi dengan Qadiri. {cite:wikipedia-seku-amadu-fr} Artikel tentang Kekaisaran Prancis Masina mengonfirmasi bahwa pendirinya adalah anggota tarekat Sufi Qadiri. {cite:wikipedia-empire-du-macina-fr} Museum menampilkan kedua narasi tersebut bersama tanpa menghilangkan salah satunya, karena afiliasi pribadi dengan Qadiri sangat kuat di keduanya, meskipun nama sheikh berbeda.
+
+## Perjalanan
+Kebangkitannya dimulai dengan jihad yang dipimpin oleh Muslim Volpe melawan pemerintahan Bambara, dan artikel Prancis tentang kekaisaran mencatat pendirian negara tersebut dalam Pertempuran Nokuma tahun 1818. {cite:wikipedia-empire-du-macina-fr} Hamdallah mendirikan ibu kotanya — seperti yang ditulis Hamdallaye dalam artikel Prancis — dan menjadi pusat negara teokratis bernama 'Al-Dina.' {cite:wikipedia-seku-amadu-en} {cite:wikipedia-seku-amadu-fr} Hukum negara didasarkan pada interpretasi ketat Maliki terhadap Syariah menurut artikel Inggris, dan artikel Kekaisaran Inggris menyatakan bahwa keputusan dewan tertingginya juga didasarkan pada interpretasi Maliki atas Syariah. {cite:wikipedia-seku-amadu-en} {cite:wikipedia-massina-empire-en} Kewenangannya meluas dari Timbuktu hingga Mopti menurut artikel Prancis, dan mencakup Jenni dan Timbuktu menurut artikel bahasa Inggris. {cite:wikipedia-empire-du-macina-fr} {cite:wikipedia-seku-amadu-en}
+
+## Negara dan Warisan
+Artikel Kekaisaran Inggris menggambarkan negaranya di garis depan sebagai kekhalifahan Muslim Sunni di Afrika Barat, sebuah deskripsi negara daripada kesaksian doktrin pendirinya, dan museum hanya mencantumkannya dalam hal ini. {cite:wikipedia-massina-empire-en} Citra negaranya dalam sumber-sumber tetap merupakan aturan agama ketat yang diperintah oleh Maliki, sebuah ciri sistem yang ia bangun. {cite:wikipedia-seku-amadu-en} {cite:wikipedia-empire-du-macina-fr}
+
+Sheikh Ahmadu meninggal pada 20 April 1845, menurut artikel Inggris yang dengan tepat mencantumkan tanggal di kepala, kotak informasi, dan akhir, sehingga kekaisaran diserahkan kepada putranya Ahmadu II. {cite:wikipedia-seku-amadu-en} Namun, tahun tersebut masih diperdebatkan: artikel Kekaisaran Inggris mencatat kematiannya pada tahun 1844 berdasarkan entri Sandomierski dalam Ensiklopedia Sejarah Afrika, yang mengakhiri pemerintahannya pada tahun 1844, dan artikel Prancis menyebutkan kematiannya pada tahun 1844 atau 1845. {cite:wikipedia-massina-empire-en} {cite:wikipedia-seku-amadu-fr} Daftar imam dalam artikel Kekaisaran Inggris mencantumkan penerusnya: Ahmadu II (1845-1852) dan kemudian Ahmadu III (1852-1862). {cite:wikipedia-massina-empire-en}
+
+## Posisi dan Kritik
+Bagian ini dibaca sebagai penyajian situasi yang dikutip dari sumber, bukan sebagai penilaian dari museum.
+
+Sumber-sumber berbeda dalam menyajikan kematian sheikh-nya seperti yang telah disebutkan sebelumnya, dan museum menyajikan kedua perselisihan tersebut tanpa memberikan bobot diam: nama Sheikh al-Qadri berbeda antara catatan Inggris dan Prancis, meskipun mereka sepakat dalam afiliasi yang sama, dan tahun kematiannya adalah 1844 menurut beberapa referensi dan 1845 menurut artikel biografi. {cite:wikipedia-seku-amadu-en} {cite:wikipedia-seku-amadu-fr} {cite:wikipedia-massina-empire-en} Imannya dalam lembar data tercatat sebagai 'Sufi' dengan rantai terdokumentasi, karena afiliasi pribadinya dengan Qadiri dibuktikan oleh sumber independen: muridnya tentang Sheikh Qadri dalam artikel bahasa Inggris, deskripsi afiliasinya dengan Qadiri dalam artikel Prancis, dan keanggotaannya dalam ordo dalam artikel tentang Kekaisaran Prancis. {cite:wikipedia-seku-amadu-en} {cite:wikipedia-seku-amadu-fr} {cite:wikipedia-empire-du-macina-fr} Ia tidak mencatat sekolah yurisprudensi pribadi, karena karakter Maliki yang digambarkan dalam sumber adalah hukum dan peradilan negaranya, yang merupakan fakta politik, bukan bukti sekolah pribadinya. {cite:wikipedia-seku-amadu-en} {cite:wikipedia-massina-empire-en}
+
+## Referensi
+- Sumber-sumber yang disebutkan di atas, tercatat dalam `data/source/`.
+- Terjemahan dan penyuntingan selanjutnya dari artikel memerlukan tinjauan berkala dengan tanggal pembaruan yang jelas.

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "2946"
-label: { ar: "جامع الترمذي 2946 — كتاب القراءات، قراءات القرآن", en: "Jami' al-Tirmidhi 2946 — the Book of the Readings; the readings of the Qur'an", ur: "جامع ترمذی 2946 — کتاب القراءات، قرآن کی قراءتیں", es: "Jami' al-Tirmidhi 2946 — El Libro de las Lecturas; las lecturas del Corán", fr: "Jami' al-Tirmidhi 2946 — le Livre des lectures; les lectures du Coran" }
+label: { ar: "جامع الترمذي 2946 — كتاب القراءات، قراءات القرآن", en: "Jami' al-Tirmidhi 2946 — the Book of the Readings; the readings of the Qur'an", ur: "جامع ترمذی 2946 — کتاب القراءات، قرآن کی قراءتیں", es: "Jami' al-Tirmidhi 2946 — El Libro de las Lecturas; las lecturas del Corán", fr: "Jami' al-Tirmidhi 2946 — le Livre des lectures; les lectures du Coran", tr: "Cami' el-Tirmizi 2946 — Kur'an Okumaları Kitabı", id: "Jami' al-Tirmidhi 2946 — Kitab Bacaan, Bacaan Al-Qur'an" }
 text: "… لِهَذَا الْحَدِيثِ. وَقَالَ بَعْضُ أَهْلِ الْعِلْمِ لاَ يُقْرَأُ الْقُرْآنُ فِي أَقَلَّ مِنْ ثَلاَثٍ لِلْحَدِيثِ الَّذِي رُوِيَ عَنِ النَّبِيِّ وَرَخَّصَ فِيهِ بَعْضُ أَهْلِ الْعِلْمِ وَرُوِيَ عَنْ عُثْمَانَ بْنِ عَفَّانَ أَنَّهُ كَانَ يَقْرَأُ الْقُرْآنَ فِي رَكْعَةٍ يُوتِرُ بِهَا وَرُوِيَ عَنْ سَعِيدِ بْنِ جُبَيْرٍ أَنَّهُ قَرَأَ الْقُرْآنَ فِي رَكْعَةٍ فِي الْكَعْبَةِ وَالتَّرْتِيلُ فِي الْقِرَاءَةِ أَحَبُّ إِلَى أَهْلِ الْعِلْمِ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 2946، يذكر قراءات القرآن. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 2946، جس میں قرآن کی قراءتیں کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 2946 (Capítulos sobre la recitación), menciona las lecturas del Corán. El navegador del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 2946 (Chapitres sur la récitation), mentionne les lectures du Coran. Le catalogue du musée consacré à la lecture et à la transcription du Coran répertorie ce rapport avec les textes du Coran, la Sunna, la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Cami' el-Tirmizi'de 2946 numaralı hadis, Kur'an'ın farklı okunuşlarından bahsetmektedir. Bu hadis, Kur'an okunuşları, yazısı, hat sanatı ve diyakritik işaretleri konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 2946, menyebutkan berbagai macam bacaan Al-Quran. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2946 (book 46 hadith 20); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts); the whole chapter is taken, honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

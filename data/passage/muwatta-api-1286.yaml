@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1286"
-label: { ar: "موطأ مالك 1286 — ما حُرّم", en: "Muwatta Malik 1286 — what was made unlawful", ur: "موطأ مالک 1286 — جو حرام کیا گیا", es: "Muwatta Malik 1286 — lo que se declaró ilegal", fr: "Muwatta Malik 1286 — ce qui a été rendu illégal" }
+label: { ar: "موطأ مالك 1286 — ما حُرّم", en: "Muwatta Malik 1286 — what was made unlawful", ur: "موطأ مالک 1286 — جو حرام کیا گیا", es: "Muwatta Malik 1286 — lo que se declaró ilegal", fr: "Muwatta Malik 1286 — ce qui a été rendu illégal", tr: "Muwatta Malik 1286 — Yasak olan nedir?", id: "Muwatta Malik 1286 — Apa yang dilarang" }
 text: "… فَقَالَ إِنِّي مَصِصْتُ عَنِ امْرَأَتِي، مِنْ ثَدْيِهَا لَبَنًا فَذَهَبَ فِي بَطْنِي فَقَالَ أَبُو مُوسَى لاَ أُرَاهَا إِلاَّ قَدْ حَرُمَتْ عَلَيْكَ. فَقَالَ عَبْدُ اللَّهِ بْنُ مَسْعُودٍ انْظُرْ مَاذَا تُفْتِي بِهِ الرَّجُلَ فَقَالَ أَبُو مُوسَى فَمَاذَا تَقُولُ أَنْتَ فَقَالَ عَبْدُ اللَّهِ بْنُ مَسْعُودٍ لاَ رَضَاعَةَ إِلاَّ مَا كَانَ فِي الْحَوْلَيْنِ. فَقَالَ أَبُو مُوسَى لاَ تَسْأَلُونِي عَنْ شَىْءٍ …"
 summary:
   ar: "حديث في موطأ مالك، رقم 1286، يذكر ما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 1286، جس میں جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
   es: "Un informe en Muwatta Malik, n.° 1286 (Lactancia), menciona lo que se considera ilícito. El Navegador Halal y Haram lo incluye junto con los textos del Corán, la Sunnah, la sirah y los relatos de los Compañeros y Sucesores sobre lo que es lícito e ilícito."
   fr: "Un hadith du Muwatta Malik, n° 1286 (L'allaitement), mentionne ce qui a été déclaré illicite. Le Halal and Haram Browser le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les hadiths des Compagnons et des Successeurs concernant ce qui est licite et ce qui est illicite."
+  tr: "Malik'in Muwatta'sında yer alan 1286 numaralı hadis, haram olan şeylerden bahsetmektedir. \"Helal ve Haram\" adlı kitabın bu bölümü, helal ve haram olan şeylerle ilgili olarak Kur'an, Sünnet, Peygamberin hayatı ve Sahabeler ile onların haleflerinin sözlerinden derlenmiştir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 1286, menyebutkan apa yang diharamkan. Bagian buku \"Halal dan Haram\" ini menyusunnya dengan teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan ucapan para Sahabat dan Penerus mereka mengenai apa yang diperbolehkan dan apa yang diharamkan."
 relations:
   - { type: mentions, target: concept/halal-haram, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1286 (book 30 hadith 15); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }

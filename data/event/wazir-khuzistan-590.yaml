@@ -1,7 +1,7 @@
 id: event/wazir-khuzistan-590
 class: event
 kind: campaign
-label: { ar: "مسير وزير الخليفة إلى خوزستان وملكها", en: "the caliph's vizier marches on and takes Khuzistan", es: "El visir del califa avanza y toma Juzestán.", fr: "Le vizir du calife poursuit sa marche et prend le Khuzistan.", ur: "خلیفہ کے وزیر نے خوزستان پر قبضہ کر لیا۔" }
+label: { ar: "مسير وزير الخليفة إلى خوزستان وملكها", en: "the caliph's vizier marches on and takes Khuzistan", es: "El visir del califa avanza y toma Juzestán.", fr: "Le vizir du calife poursuit sa marche et prend le Khuzistan.", ur: "خلیفہ کے وزیر نے خوزستان پر قبضہ کر لیا۔", tr: "Halifenin bakanının Huzistan'a ve kralına yaptığı yolculuk", id: "Perjalanan menteri Khalifah ke Khuzestan dan rajanya" }
 date:
   start: { edtf: "1194~", hijri: "0590", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Al-Nasir envió a su visir contra Juzestán y lo tomó; el castillo de Susiyan ibn Shamla cayó en manos de Bagdad cuando los hijos de su difunto señor se pelearon y uno escribió al califa ofreciéndole las llaves {cite:kamil-ibn-al-athir p. 234-235}."
   fr: "Al-Nasir envoya son vizir contre le Khuzistan et le prit — le château de Susiyan ibn Shamla tombant aux mains de Bagdad lorsque les fils de son seigneur défunt se querellèrent et que l'un d'eux écrivit au calife en lui offrant les clés {cite:kamil-ibn-al-athir p. 234-235}."
   ur: "النصیر نے اپنے وزیر کو خوزستان کے خلاف بھیجا اور اسے لے لیا - سوسیان ابن شملہ کا قلعہ بغداد پر گرا جب اس کے مردہ آقا کے بیٹوں میں جھگڑا ہوا اور ایک نے خلیفہ کو چابیاں پیش کرتے ہوئے لکھا۔ 234-235}۔"
+  tr: "Halife el-Nasır'ın veziri Huzistan'a gitti ve orayı fethetti. Bunun sebebi, kalenin sahibi Susyan bin Şamla'nın ölmesi ve oğullarının ondan sonra anlaşmazlığa düşmesiydi; bu yüzden oğullarından biri halifeye kaleyi kendisine devretmesi için bir mesaj gönderdi. {Kaynak: Kamil ibn el-Asır s. 234-235}"
+  id: "Menteri Khalifah Al-Nasir pergi ke Khuzestan dan menaklukkannya. Alasannya adalah karena pemilik bentengnya, Susyan bin Shamla, meninggal dan putra-putranya berselisih setelahnya, sehingga salah satu dari mereka mengirim pesan kepada Khalifah untuk menyerahkannya kepadanya {cite:kamil-ibn-al-athir p. 234-235}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/khuzistan, sources: [source/kamil-ibn-al-athir] }

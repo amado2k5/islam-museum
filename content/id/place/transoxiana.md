@@ -1,0 +1,19 @@
+---
+id: place/transoxiana
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/place/transoxiana.md}
+---
+## Ringkasan
+Ma'wara al-Nahr adalah nama yang digunakan untuk merujuk pada apa yang berada di seberang Sungai Jihun dalam pembagian para ahli geografi Muslim. Yaqut al-Hamawi menyusun entri tentangnya dalam Kamus Negara, yang mendefinisikan batas-batasnya dan menggambarkan kesuburan serta kekuatan rakyatnya sebagai gerbang bagi Islam, kemudian menyebutkan reruntuhannya pada periode akhir zamannya. {cite:mujam-al-buldan-sader-1995 5 p.45} {cite:mujam-al-buldan-sader-1995 5 p.46} {cite:mujam-al-buldan-sader-1995 5 p.47}
+
+## Dalam kamus negara Yaqut
+Yaqut mengatakan bahwa yang dimaksud adalah apa yang ada di seberang sungai di Khorasan; apa yang berada di timurnya disebut tanah Hayatil pada masa pra-Islam, dan dalam Islam apa yang berada di seberang sungai, dan yang di barat adalah Khorasan dan provinsi Khwarezm. Khwarezm bukan bagian dari Khorasan tetapi merupakan wilayah di puncaknya. {cite:mujam-al-buldan-sader-1995 5 p.45} Lihat [[place/khorasan|Khorasan]], [[place/samarqand|Samarkand]], dan [[place/bukhara|Bukhara]].
+
+Ia kemudian mengutip deskripsi rinci tentang peradabannya dari penulis sebelumnya, menyatakan bahwa Transoxiana adalah salah satu wilayah yang paling mulia, subur, dan paling bermanfaat, dan bahwa penduduknya cenderung pada kebaikan dan kemurahan hati serta merespons mereka yang memanggilnya dengan kekuatan dan ketahanan yang besar. {cite:mujam-al-buldan-sader-1995 5 p.45} Ia menambahkan bahwa kesuburannya melampaui deskripsi, bahwa tidak ada tempat tanpa bangunan—kota, desa, air, tanaman, atau padang rumput—airnya segar, dan berisi pakaian katun yang melebihi kebutuhan mereka dan dibawa ke cakrawala, serta tidak ada sutra yang lebih unggul dari Khujandi, serta mineral besi yang melebihi kebutuhan mereka, dan mengandung emas, perak, dan merkuri. {cite:mujam-al-buldan-sader-1995 5 p.46} Ini adalah kualitas yang diceritakan oleh Yaqut dari orang lain, bukan dari pengalamannya.
+
+Transmisi yang sama menggambarkan wilayah tersebut sebagai gerbang Islam yang dikelilingi oleh bangsa-bangsa Turkik yang disebutkan, dari Turki Gaza dari perbatasan Khwarezm ke Asbijab, lalu Turki Kharlakhiya hingga ujung jauh Farghana. Dikatakan bahwa semua perbatasannya adalah zona perang dan rakyatnya lebih beruntung dalam jihad dibandingkan yang lain. {cite:mujam-al-buldan-sader-1995 5 p.46} Diceritakan bahwa rakyat Transoxiana adalah yang paling patuh kepada pemimpin mereka, dan bahwa khalifah memanggil orang-orang dari antara mereka yang menjadi komandan dan pengiring, seperti Farajna dan Turki, dan komando mereka cukup kuat untuk mengalahkan khalifah. Disebutkan Afshin, keluarga Abu al-Saj dari Ashrusana, dan Al-Ikhshid dari Samarkand. {cite:mujam-al-buldan-sader-1995 5 p.47} Di akhir transmisi ini, dikatakan bahwa tidak ada perjalanan yang lebih baik di dunia selain Bukhara. {cite:mujam-al-buldan-sader-1995 5 p.47}
+
+Di akhir artikel, Yaqut menyebutkan nasib wilayah tersebut pada masanya: wilayah ini diperintah oleh Khwarezm Shah Muhammad ibn Taksh sekitar tahun 600, yang secara keliru diusir dan membunuh raja-raja Transoxiana yang dikenal sebagai Khanat. Setiap wilayah memiliki raja yang menjaga pihaknya. Ketika ia mengambil alih wilayah tersebut, ia gagal mengendalikan mereka, sehingga ia melepaskan pasukannya, menjarah mereka, dan mengusir rakyatnya. Kemudian Tatar datang pada tahun 617 dan menghancurkan sisanya, meninggalkan tanah-tanah itu kosong. {cite:mujam-al-buldan-sader-1995 5 p.47}

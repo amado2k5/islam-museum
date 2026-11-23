@@ -1,0 +1,32 @@
+---
+id: question/what-is-ikhlas
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/question/what-is-ikhlas.md}
+---
+
+## Ringkasan
+Ketulusan adalah memurnikan niat seseorang kepada Tuhan tanpa pamer; syarat untuk menerima perbuatan dan esensinya setara dengan sepertiga dari kebajikan Al-Quran. {cite:wikidata}
+
+## Dari pelajaran Sheikh Omar Abdul Kafi: Penjelasan Kitab Manfaat (Episode 2)
+
+Sang Sheikh mengatakan bahwa bertindak tanpa ketulusan seperti pengembara mengisi tasnya dengan pasir, yang membuatnya berat dan tidak menguntungkan {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 00:18:00}.
+
+Sheikh mengatakan bahwa pernyataan ini diambil dari hadits Nabi, dan dianggap bahwa bertindak tanpa kesungguhan seperti berdiri dalam doa, yang hanya terjadi akibat kelaparan dan haus. Kata-kata hadis {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 00:18:30} tidak disampaikan di sini.
+
+## Dari pelajaran Sheikh Omar Abdul Kafi: Penjelasan Kitab Manfaat (Episode 4)
+
+Sheikh mengatakan bahwa ketulusan, cinta memuji orang, dan pujian tidak ada bersamaan dalam hati, sama seperti air dan api tidak ada berdampingan {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:33:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:33:30}.
+
+Sheikh mengatakan bahwa salah satu tanda ketulusan adalah bahwa seseorang mengetahui ketulusan dalam dirinya sendiri, dan bahwa orang yang meniadakan ketulusan seorang hamba adalah hanya Tuhan {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:33:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:34:00}.
+
+## Dari pelajaran Sheikh Omar Abdul Kafi: Penjelasan Kitab Manfaat (Episode 5)
+
+Sheikh mengatakan bahwa pekerjaan harus dilakukan oleh Tuhan, bukan untuk orang yang mengatakan bahwa pemiliknya benar {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:38:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:38:30}.
+
+## Dari program "Wanafs wa wa Othera" oleh Omar Abdelkafi
+Sheikh percaya bahwa ketulusan adalah hubungan khusus antara hamba dan Tuhannya, dan kedudukan hati saya memiliki tiga kualitas: penyelamat tidak tahu bahwa dia tulus dan menjadi tertipu; iblis tidak melihatnya dan merusaknya; raja yang dipercayakan dengan perbuatan baik tidak memandangnya dan menulisnya; dan iblis tidak dapat menembus yang tulus. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:03:00}
+Ia menyarankan ujian ketulusan: siapa pun yang berdiri di samping kerabat miskin atau yatim piatu sampai mencapai pangkat tinggi, lalu marah karena permintaannya tidak terpenuhi, dan menyadari bahwa perbuatannya tidak tulus demi Allah. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:04:30} Hadis dari tiga hadis disebutkan oleh yang pertama dibakar oleh Api: ulama, dermawan, dan syahid, yang bertindak untuk disebut demikian. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:06:00}
+Ia menyerukan pembaruan niat dalam setiap tugas, mengkritik mereka yang menghibur atau mengembalikan orang sakit sebagai respons atas pelayanan, bukan mencari demi Tuhan. Ia percaya bahwa karyawan di tempat kerja, wanita di dapurnya, dan orang yang tidur dalam tidurnya menghitung hal ini di hadapan Tuhan. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:08:00} Hudhud Solomon dianggap sebagai contoh ketulusan karena ketekanannya dalam memanggil monoteisme. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:08:00} Diceritakan bahwa [[person/malik-ibn-anas|ketika Malik]] menyelesaikan [[work/muwatta-malik|Muwatta']] atas permintaan Panglima Orang Beriman, ia meminta agar Muwatta' diletakkan di atap Ka'bah untuk Sunnah agar dapat melihat seberapa tulus dia, dan tidak ada sepatah kata pun yang hilang setelah hujan dan angin ⁦(needs_source: القصة من رواية الشيخ)⁩. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:08:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:09:00}
+Dalam episode lain, dilaporkan oleh para sarjana bahwa bekerja untuk orang lain adalah shirk (politeisme), dan menahan diri dari bekerja untuk orang lain adalah kemunafikan, dan orang yang tulus bebas dari keduanya. Dia percaya bahwa ketulusan untuk bekerja itu seperti jiwa bagi tubuh. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:02:30} Dia memberikan contoh seseorang yang berdoa di rumah dengan tergesa-gesa dan merasa tenang di masjid di depan orang-orang. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:03:00} Dia percaya bahwa ketulusan termasuk dalam membesarkan anak melalui kisah orang benar, kepahlawanan Khalid, Sa'd, Al-Qa'qa, dan Ikrimah, serta dalam memaafkan istri, dan bahwa istri pemarah atau suami yang mudah marah mungkin menjadi jalan menuju Surga. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:08:30} Cerita ini diakhiri dengan kisah seorang pemuda yang menjaga kebun selama setahun dan tidak pernah merasakan kepercayaan dari sana. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:10:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:10:30} Lihat juga: [[concept/riya|Riya]].

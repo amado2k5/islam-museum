@@ -1,0 +1,17 @@
+---
+id: place/qulzum
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/place/qulzum.md}
+---
+## Özet
+El-Kalzam bir koy ve bir yoldur. Hint Denizi'nden Bab el-Mendab'dan ayrılan bir koydur; batı Yemen, Tihama ve Hicaz üzerinden Midyan, Ayla ve Faran'a ulaşır, Körfez'in atfedildiği El-Kalzam şehrine ulaşır, ardından güneye döner, Yukarı Mısır'ın doğusundan Kral Jawn'a geçer ve sonunda Aydhab'a ulaşır. {cite:nuzhat-al-mushtaq-2002 p.10}
+
+Fetih raporlarında, Malik al-Ashtar Mısır'a giderken el-Qulzam'ın başına geçti ve Muhammed bin Ebi Bekir onu yeniden atadı, ancak Muaviye bin Hudayj onu öldürdü. {cite:futuh-buldan-maarif-1407 p.319} El-Mutevakkil döneminde, Muhammed bin Abdullah el-Qummi, Mısır ve Hicaz yolunun valisi olarak atadı; yanında bir Mısırlı hacı filosu vardı. Mirah, el-Qilzam'dan gemiyle Bjeca topraklarına taşındı ve 'Aydhab olarak bilinen kıyıya ulaştı. {cite:futuh-buldan-maarif-1407 p.333}
+
+## timsah kuyruğu
+Bir mil uzaklıkta, bir Roma kralının Roma Denizi'ne doğru bir yol kazdığı ancak Qalzam'ın yüksekliğine bağlanmadığı timsahın kuyruğu olarak bilinen bir yer vardır. Mısır'a hac yolculuğu yapan kervanların geçtiği büyük bir köprü vardır. {cite:muruj-al-dhahab p.558}
+
+## Yaqut'un ülkeler sözlüğünde
+Yaqut, el-Kalzam'ın girişini açar; 'el-kalzam'ın bir şeyi yutmak anlamına geldiğini, denizin 'Bahr al-Kalzam' olarak adlandırıldığını çünkü binicileri tarafından yutulduğunu ve Firavun ile halkının boğulduğu yer olduğunu açıklar. {cite:mujam-al-buldan-sader-1995 4 p.387} İbn el-Kalbi'den bildirildiğine göre, Hint Denizi'nin bir kıyısı Yemen'deki Taha'im'e, ardından Cidde'ye, Mekke kıyısına, Medine kıyısına, Tur'a, Tayma'ya kadar uzanıyordu, ve Ayla Körfezi'nden Qalzam, Mısır'a ulaşana kadar uzanır. Ayrıca el-Kalzam'ın, Ayla, el-Tur ve Midyan yakınlarında Yemen Denizi kıyısında, el-Farma'ya dört gün uzaklıkta bir kasaba olduğu ve el-Kuda'i'nin burayı Yukarı Mısır'dan bir bayrakla saydığı belirtilir. {cite:mujam-al-buldan-sader-1995 4 p.387} El-Balkhi, denizi yaklaşık otuz aşama uzunluğunda ve genişliğinde, üç gece genişliğinde olarak tanımlar; el-Muhallabi ise Kalzam Dağı'nda mıknatıslı bir dağın olduğunu söyler. {cite:mujam-al-buldan-sader-1995 4 p.387} Sonra Kızm ile Mısır arasında, deniz kıyısında inşa edilmiş üç gün olduğunu, bitki, ağaç ve su olmadığını bildirir. Uzak kuyulardan su getirilir ve burası Mısır ile Levant'ın fardasıdır; buradan yükler Hicaz ve Yemen'e taşınır. {cite:mujam-al-buldan-sader-1995 4 p.388} Bunun eski özelliği olduğunu, onun zamanında harabe olduğunu ve el-Fardah'ın Süveyş adında yakınlardaki bir yere dönüştüğünü, buranın da harabe gibi olduğunu ekler. {cite:mujam-al-buldan-sader-1995 4 p.388} Ona atfedilenler arasında Al-Hasan ibn Yahya ibn al-Hasan al-Qalzami de vardır ve İbn al-Banna tarafından bildirilir ki, Çin Denizi kıyısında eski bir şehirdir; su, otlak veya ürün yoktur, Süveyş'ten getirilen su vardır ve Mısır'ın hazinesi, Hicaz'ın Ferdatı ve hacılar için bir rahatlama yeri vardır. {cite:mujam-al-buldan-sader-1995 4 p.388} Qalzam'ın aynı zamanda eski El-Endülüs'teki Granada Nehri'nin adı olduğu ve zamanında Hadara olarak adlandırıldığı sonucuna varılır. {cite:mujam-al-buldan-sader-1995 4 p.388}

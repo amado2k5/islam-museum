@@ -1,0 +1,31 @@
+---
+id: event/last-counsel-of-abd-al-malik-ibn-marwan
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/last-counsel-of-abd-al-malik-ibn-marwan.md}
+---
+## Ringkasan
+Khalifah [[person/abd-al-malik-ibn-marwan|Abd al-Malik ibn Marwan]] wafat di [[place/damascus|Damaskus]] pada pertengahan Shawwal pada tahun delapan puluh enam. Putranya dan putra mahkota [[person/al-walid-ibn-abd-al-malik|al-Walid berdoa untuknya]], dan ia dimakamkan di Bab al-Jabiyah al-Saghir. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 79} Al-Dhahabi menyampaikan wasiatnya kepada putra-putranya dan kata-katanya kepada putra mahkotanya. {cite:tarikh-islam-dhahabi scan vol. 9 p. 143} Catatan ini melengkapi [[event/death-of-abd-al-malik|catatan kematiannya]].
+
+## Kata-katanya dalam penyakit kematian
+Ibn Kathir menceritakan bahwa ketika ia sekarat, ia memerintahkan agar pintu istananya dibuka. Ia mendengar seorang pria pendek mencuci pakaian di lembah dan bertanya tentang dirinya. Ia diberitahu bahwa ia adalah pria pendek, dan ia berkata, 'Andai saja aku menjadi pria pendek, hidup dari hasil kerja sendiri dan tidak mati demi kekhalifahan.' Ketika Sa'id ibn al-Musayyib mendengar hal ini, ia berkata: Puji Allah yang membuat mereka melarikan diri kepada Kami saat mereka mati, dan kami tidak melarikan diri kepada mereka. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 79} Abu Mushir berkata bahwa saat kematiannya, ia ditanya, 'Bagaimana engkau menemukan aku?' Ia berkata: 'Aku akan menemukanmu,' dan ia membacakan ayat yang menjelaskan bahwa orang-orang datang kepada Tuhan mereka secara individu saat mereka menciptakan [[passage/quran-6-94|ternak. 94]]. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 79} Diceritakan bahwa ia berkata: Angkat aku, sehingga mereka mengangkatnya hingga ia mencium aroma udara. Ia berkata: Wahai dunia, betapa menyenangkannya kau! Tinggimu pendek, dan banyakmu tidak berarti. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 79} Al-Walid berkata kepadanya ketika ia masuk dan ia menangis, seperti yang diceritakan Al-Dhahabi: Apa ini? Kerinduan bangsa adalah kerinduan? {cite:tarikh-islam-dhahabi scan vol. 9 p. 143}
+
+## Wasiatnya kepada Al-Walid
+Al-Dhahabi melaporkan bahwa ketika Abd al-Malik melihat al-Walid menangis, ia berkata kepadanya: Ketika kau mati, gulung lengan bajumu, kenakan kulit harimau, dan letakkan pedangmu di bahumu. Siapa pun yang menampakkan diri, pukul lehernya, dan siapa pun yang diam akan mati dengan nasibnya sendiri. {cite:tarikh-islam-dhahabi scan vol. 9 p. 143} Setelah kematian saudaranya Abd al-Aziz, Abd al-Malik bersumpah setia pada suksesi kedua putranya, al-Walid dan kemudian Sulayman. {cite:tarikh-islam-dhahabi scan vol. 9 p. 135}
+
+## Kehendak-Nya kepada Anak-anaknya
+Ibn Kathir menceritakan dari beberapa dari mereka bahwa ketika kematian mendekat, ia memanggil anak-anaknya dan menasihati mereka. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 79} Al-Dhahabi melaporkan bahwa ia menasihati anak-anaknya untuk takut kepada Tuhan dan melarang mereka dari perpecahan dan perselisihan, lalu berkata kepada mereka: Lihatlah Muslim dan ikuti pendapatnya, karena di situlah surga kalian mencari perlindungan dan keturunanmu yang menjadi sumber kamu. Jadilah anak ibu yang benar, bebaslah dalam perang, dan jadilah mercusuar kebaikan, karena perang tidak membawa kematian sebelum waktunya, dan kebaikan tetap ada. Tahan kepahitan dan lembutkan dalam kesulitan. {cite:tarikh-islam-dhahabi scan vol. 9 p. 143} Dalam riwayat Al-Mada'ini, ketika dia yakin akan mati, dia memanggil gurunya Abu Al-'Alaqah dan berkata: Demi Tuhan, aku berharap aku menjadi porter sejak lahir hingga hari ini. {cite:tarikh-islam-dhahabi scan vol. 9 p. 143}
+
+## Dia tidak meninggalkannya dan putrinya
+Dalam kisah yang sama, ia hanya memiliki satu putri, Fatimah, dan ia memberinya dua anting seperti Maria dan yatim piatu Durra, sambil berkata: Ya Allah, aku tidak memilih sesuatu yang lebih penting bagiku daripada dia, jadi lindungilah dia, dan bahwa ia menikah dengan Umar ibn Abd al-Aziz. {cite:tarikh-islam-dhahabi scan vol. 9 p. 143} Ibn Kathir menceritakan bahwa ia meninggalkan sembilan belas putra, laki-laki dan perempuan, dan bahwa masa kejayaannya berlangsung dua puluh satu tahun, di mana sembilan tahun dibagi oleh Ibn al-Zubayr dan tiga belas tahun tiga setengah bulan secara mandiri. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 80} Ibn Kathir menamai putra-putranya Al-Walid, Sulayman, Marwan, Aisha, Yazid, Hisham, Abu Bakr, Fatimah, Abdullah, Muslimah, Al-Mundhir, Anbasa, Muhammad, Saad Al-Khair, dan Al-Hajjaj. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 80}
+
+## Doa dan Pemakaman
+Ibn Kathir menceritakan bahwa ia meninggal di Damaskus pada hari Jumat, dan beberapa mengatakan Rabu atau Kamis, di pertengahan Shawwal tahun delapan puluh enam. Putranya Al-Walid, putra mahkota setelahnya, memimpin doa pemakaman untuknya, dan ia dimakamkan di Bab al-Jabiyah al-Saghir. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 79} Disebutkan bahwa ia berusia enam puluh tahun menurut Abu Ma'shar, yang disahkan oleh al-Waqidi; beberapa mengatakan enam puluh tiga menurut al-Mada'ini; dan lima puluh delapan. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 80}
+
+## Narasi dan Perbedaannya
+Ibn Kathir menyebutkan bahwa Muawiyah ibn Abi Sufyan membacakan ayat-ayat yang sama pada kematiannya yang ia atribusikan kepada Abd al-Malik, di mana ia berharap tidak melepaskan takhta. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 79} Al-Dhahabi menceritakannya dalam bentuk keperawatan, mengatakan bahwa ketika Al-Walid masuk kepadanya, ia berubah menjadi ayat-ayat. {cite:tarikh-islam-dhahabi scan vol. 9 p. 143} Ada perbedaan pendapat tentang hari kematian dan jumlah putrinya, karena Ibn Kathir menyebut Fatimah dan Aisha, dan Al-Dhahabi mengatakan ia hanya memiliki Fatimah. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 80}
+
+## Sumber dan Dokumentasi
+Ia mengandalkan Ibn Kathir dan al-Dhahabi. Buku-buku Al-Tabari dari tahun delapan puluh enam tidak termasuk dalam halaman yang dibaca.

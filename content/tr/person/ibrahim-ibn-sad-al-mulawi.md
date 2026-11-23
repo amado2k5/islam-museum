@@ -1,0 +1,19 @@
+---
+id: person/ibrahim-ibn-sad-al-mulawi
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/ibrahim-ibn-sad-al-mulawi.md}
+---
+## Özet
+İbrahim bin Sa'd al-Malavi, nam-ı diğer El-Ayat, bir mucize olarak tanımlanmıştır [[person/abu-nuaym-al-asbahani-ahmad|. Ebu Nuaym, onun biyografisini "]] Hilyat al-Awliya [[work/hilyat-al-awliya|"nın (basılı biyografi 524) onuncu cildinde, sayfa 155-158'de, 525 numaralı sırayla sunmaktadır. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/155} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/158}]]
+
+## Denize çıkmak ve suyun üzerinde yürümek
+Ebu el-Haris el-Avlasi, denize açılmak amacıyla Awlas kalesinden ayrıldığını anlatır. Bazı kardeşleri şöyle der: "Dışarı çıkma, çünkü sana bir omlet hazırladım." Oturup onunla yemek yedi, sonra kıyıya indi ve İbrahim bin Sa'd'i dua ederken buldu. Onunla su üzerinde yürümesini isteyeceğini düşündü, ama selamlayınca dedi ki: Buyur, Ebu el-Harit, aklında yürü. Dedi ki: Allah'ın adıyla. İbrahim suyun üzerinde yürüdü, yürümeye başladı ve bacağı battı. İbrahim ona döndü ve dedi ki: Ey Ebu el-Haris, çıkıntı senin ayağından alındı. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/156}
+
+## Dağdaki Üçlü
+Al-Awlasi, Mekke'den mevsim dışında Levant'ı aramak için ayrıldığını anlatır; o sırada bir dağda dünyayı inceleyen üç adam bulmuştur. Bitirdiklerinde, Tanrı'ya altın ya da gümüşe dokunmayacaklarına yemin ettiler, o da dedi ki: Ben seninleyim. Sonra ayrıldılar ve aralarından biri İbrahim bin Sa'd al-Alawi oldu. Birkaç gün sonra mektubunu bekledi, sonra onu Awlas'ta deniz kenarında dua ederken gördü. Selamladığında azarladı ve üç gün boyunca hiçbir şey yememesini emretti, sonra geri döndü. Döndü. Döndüğünde onu dua ederken buldu, duasını kısalttı, elini tuttu ve deniz kenarında durdurdu. Dudaklarını hareket ettirdi ve iki yılan onlara yaklaştı, başlarını kaldırıp ağızlarını açtılar. İbrahim ona dedi ki: Balıkçı Ebu Bişr nerede? Balinalar sanki bir taş içlerinden geçmiş gibi dağıldı. Sonra ona dedi ki: Bunu yapmak zorunda değilsin, bu yüzden kumlara ve dağlara iyi bak, kişiliğini olabildiğince koru, dünyayı küçült, ta ki Tanrı'nın emri sana gelene kadar, çünkü seni bunu talep ettiğini görüyorum. Sonra ortadan kayboldu ve ölene kadar onu görmedi. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/156} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/157}
+
+## Ölümünden Sonra Mesaj
+İbrahim'in ölümünden sonra Ebu el-Haris denize çıktı ve Asvad'la karşılaştı. Ona dedi ki: "Sen Ebu el-Haris misin?" Dedi ki: Evet. Dedi ki: Allah seni kardeşin İbrahim bin Sa'd için ödüllendirsin, adı açık olan İbrahim bin Sa'd, İbrahim bin Sa'd'ın özgür adamı. İbrahim'in ona bir mesaj iletmesini tavsiye ettiğini belirtti. Şöyle der: Eğer başına yoksulluk, hastalık veya zarar gelirse, Allah'tan yardım al ve Allah'ın rizasını dile, çünkü Allah seni bilir ve hükmünü yerine getirecektir. Eğer hoşuna gidersen, büyük ödül ve şiddetli korkudan korunursun. Tatmin olmanın bir yolunu bulamazsan, dayan ve şikayet edilmeyecek olanlardan şüphe etme. Bil ki her şeyin bir nedeni vardır, her davanın belirli bir süresi vardır ve Allah'a olan her dertin anında ya da gecikmeli bir şekilde gider. Bir yaratığa korku ya da umut yüreğine bağlamaktan ya da sırrını onlara yaymaktan ya da kardeşliğine güvenmekten sakın; çünkü onların zenginleri fakir, fakirleri yoksullukta alçakgönüllü, bilginleri bilgisinde cahildir, Allah'ı korumuş birkaç kişi hariç. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/157} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/158}

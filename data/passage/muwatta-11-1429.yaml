@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1429"
-label: { ar: "الموطأ 1429 — أبو الزناد عن أبي سلمة عن أبي هريرة وزيد بن ثابت: كانا لا يريان بما لفظ البحر بأسا", en: "Muwatta 1429", es: "Muwatta 1429", fr: "Muwatta 1429", ur: "موطا 1429" }
+label: { ar: "الموطأ 1429 — أبو الزناد عن أبي سلمة عن أبي هريرة وزيد بن ثابت: كانا لا يريان بما لفظ البحر بأسا", en: "Muwatta 1429", es: "Muwatta 1429", fr: "Muwatta 1429", ur: "موطا 1429", tr: "El-Muvatta 1429 — Ebu el-Zinad, Ebu Salama'dan, o da Ebu Hurayra ve Zeyd ibn Sabit'ten rivayetle: Denizin çıkardığı şeylerde bir sakınca görmediler.", id: "Al-Muwatta 1429 — Abu al-Zinad, berdasarkan riwayat Abu Salama, berdasarkan riwayat Abu Hurayra dan Zayd ibn Thabit: Mereka tidak melihat bahaya pada apa yang dimuntahkan oleh laut." }
 summary:
   ar: "يروي مالك عن أبي الزناد عن أبي سلمة بن عبد الرحمن عن أبي هريرة وزيد بن ثابت أنهما كانا لا يريان بما لفظ البحر بأسا. {cite:muwatta-maruf-1997 p.639}"
+  tr: "Malik, Ebu el-Zinad'dan, o da Ebu Salama ibn Abd el-Rahman'dan, o da Ebu Hurayra ve Zeyd ibn Sabit'ten rivayet ederek, denizin çıkardığı şeylerde bir sakınca görmediklerini nakletmiştir. {cite:muwatta-maruf-1997 s.639}"
+  id: "Malik meriwayatkan dari Abu al-Zinad, dari Abu Salama ibn Abd al-Rahman, dari Abu Hurayra dan Zayd ibn Thabit, bahwa mereka tidak melihat bahaya pada apa yang dimuntahkan oleh laut. {cite:muwatta-maruf-1997 p.639}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-11-sayd }
   - { type: mentions, target: person/abu-al-zinad, sources: [source/muwatta-maruf-1997] }

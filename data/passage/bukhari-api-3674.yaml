@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "3674"
-label: { ar: "صحيح البخاري 3674 — أثر من الآثار المحفوظة", en: "Sahih al-Bukhari 3674 — a relic kept after its owner", ur: "صحیح بخاری 3674 — محفوظ آثار و تبرکات", es: "Sahih al-Bukhari 3674 — una reliquia conservada después de su dueño.", fr: "Sahih al-Bukhari 3674 — une relique conservée après son propriétaire" }
+label: { ar: "صحيح البخاري 3674 — أثر من الآثار المحفوظة", en: "Sahih al-Bukhari 3674 — a relic kept after its owner", ur: "صحیح بخاری 3674 — محفوظ آثار و تبرکات", es: "Sahih al-Bukhari 3674 — una reliquia conservada después de su dueño.", fr: "Sahih al-Bukhari 3674 — une relique conservée après son propriétaire", tr: "Sahih el-Buhari 3674 — Korunmuş bir gelenek", id: "Sahih al-Bukhari 3674 — Sebuah hadis yang terpelihara" }
 text: "… قَالَ فَجَاءَ الْمَسْجِدَ، فَسَأَلَ عَنِ النَّبِيِّ فَقَالُوا خَرَجَ وَوَجَّهَ هَا هُنَا، فَخَرَجْتُ عَلَى إِثْرِهِ أَسْأَلُ عَنْهُ، حَتَّى دَخَلَ بِئْرَ أَرِيسٍ، فَجَلَسْتُ عِنْدَ الْبَابِ، وَبَابُهَا مِنْ جَرِيدٍ حَتَّى قَضَى رَسُولُ اللَّهِ حَاجَتَهُ، فَتَوَضَّأَ فَقُمْتُ إِلَيْهِ، فَإِذَا هُوَ جَالِسٌ عَلَى بِئْرِ أَرِيسٍ، وَتَوَسَّطَ قُفَّهَا، وَكَشَفَ عَنْ سَاقَيْهِ وَدَلاَّهُمَا فِي الْبِئْرِ، فَسَلَّمْتُ عَلَيْهِ ثُمَّ انْصَرَفْتُ، فَجَلَسْتُ عِنْدَ الْبَابِ، …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 3674، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 3674، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.º 3674 (Compañeros del Profeta), menciona una reliquia conservada tras la muerte de su dueño. El Navegador de Testamentos la incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sahih al-Bukhari, n° 3674 (Compagnons du Prophète), mentionne une relique conservée après son propriétaire. Le navigateur de testaments la répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "Sahih el-Buhari'de 3674 numaralı hadiste, korunmuş bir kutsal emanetten bahsedilir. Bu derleme, vasiyetnameler, miras, kutsal emanetler ve türbeler konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birlikte hazırlanmıştır."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 3674, menyebutkan sebuah relik yang terpelihara. Ini disusun oleh seorang peneliti yang ahli dalam wasiat, warisan, relik, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tabarruk, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3674 (book 62 hadith 24); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

@@ -1,38 +1,127 @@
 surah: 71
 slug: nuh
 sources_consulted:
-  - "kuttab.com — Surah Nuh mind map (3 blocks: 1-12, 13-20, 21-28)"
-  - "islamicstudies.info — Tafheem ul Quran, Surah 71 (71:21-28 idols commentary)"
-  - "YouTube (جواهر العلماء) — تلاوة وتفسير سورة نوح: timeline of themes"
-  - "archive.org — المضامين التربوية في سورة نوح (surah structure and purposes)"
+- 'kuttab.com — Surah Nuh mind map (3 blocks: 1-12, 13-20, 21-28)'
+- islamicstudies.info — Tafheem ul Quran, Surah 71 (71:21-28 idols commentary)
+- 'YouTube (جواهر العلماء) — تلاوة وتفسير سورة نوح: timeline of themes'
+- archive.org — المضامين التربوية في سورة نوح (surah structure and purposes)
 map:
-  - title: { ar: "دعوة نوح ليلا ونهارا", en: "Noah's Call by Night and Day" }
-    range: [1, 12]
-    family: stories
-    summary:
-      ar: "تكليف نوح بإنذار قومه، وتنويعه أساليب الدعوة بين الليل والنهار والسر والعلن، وعرضه ثمرات الاستغفار من المطر والأموال والبنين."
-      en: "Noah charged with warning his people; he varies his call between night and day, secrecy and openness, and offers them the fruits of seeking forgiveness: rain, wealth, children."
-    children:
-      - { title: { ar: "التكليف بالإنذار", en: "The Charge to Warn" }, range: [1, 4] }
-      - { title: { ar: "أساليب الدعوة", en: "Methods of the Call" }, range: [5, 9] }
-      - { title: { ar: "ثمرات الاستغفار", en: "Fruits of Seeking Forgiveness" }, range: [10, 12] }
-  - title: { ar: "الاستدلال بالخلق", en: "The Argument from Creation" }
-    range: [13, 20]
-    family: stories
-    summary:
-      ar: "حجة نوح على قومه بآيات الله: خلقهم أطوارا، والسماوات الطباق، والقمر نورا والشمس سراجا، والأرض بساطا."
-      en: "Noah's argument to his people from Allah's signs: their creation in stages, the layered heavens, the moon as light and the sun as lamp, the earth spread as a carpet."
-    children:
-      - { title: { ar: "خلقكم أطوارا", en: "Created You in Stages" }, range: [13, 14] }
-      - { title: { ar: "السماوات والقمر والشمس", en: "The Heavens, the Moon, the Sun" }, range: [15, 16] }
-      - { title: { ar: "الأرض بساطا", en: "The Earth as a Carpet" }, range: [17, 20] }
-  - title: { ar: "العناد والدعاء", en: "Obstinacy and the Supplication" }
-    range: [21, 28]
-    family: stories
-    summary:
-      ar: "شكوى نوح من عصيان قومه وتمسكهم بالأصنام الخمسة، وعاقبتهم بالغرق والنار، ودعاؤه الجامع بالهلاك للظالمين والمغفرة للمؤمنين."
-      en: "Noah's complaint of his people's defiance and their clinging to the five idols; their end by drowning and the Fire; and his comprehensive supplication against the wrongdoers and for the believers."
-    children:
-      - { title: { ar: "الأصنام الخمسة", en: "The Five Idols" }, range: [23, 23] }
-      - { title: { ar: "الغرق والنار", en: "The Drowning and the Fire" }, range: [25, 25] }
-      - { title: { ar: "دعاء نوح", en: "Noah's Supplication" }, range: [26, 28] }
+- title:
+    ar: دعوة نوح ليلا ونهارا
+    en: Noah's Call by Night and Day
+    tr: Nuh'un gece gündüz çağrısı
+    id: Panggilan Nuh siang dan malam
+  range:
+  - 1
+  - 12
+  family: stories
+  summary:
+    ar: تكليف نوح بإنذار قومه، وتنويعه أساليب الدعوة بين الليل والنهار والسر والعلن، وعرضه ثمرات الاستغفار من المطر والأموال والبنين.
+    en: 'Noah charged with warning his people; he varies his call between night and day, secrecy and openness, and offers them the fruits of seeking forgiveness: rain, wealth, children.'
+    tr: Nuh'un halkını uyarma görevi, gece ile gündüz arasında, gizli ve halka açık dua yöntemleri ve bağışlanmanın meyveleri olan yağmur, zenginlik ve çocukları sunması.
+    id: Tugas Nuh untuk memperingatkan umatnya, berbagai metode doa yang ia lakukan antara siang dan malam, baik rahasia maupun terbuka, serta penyajiannya tentang buah dari mencari pengampunan seperti
+      hujan, kekayaan, dan anak-anak.
+  children:
+  - title:
+      ar: التكليف بالإنذار
+      en: The Charge to Warn
+      tr: Uyarı Zorunluluğu
+      id: Mandat Peringatan
+    range:
+    - 1
+    - 4
+  - title:
+      ar: أساليب الدعوة
+      en: Methods of the Call
+      tr: Savunuculuk Yöntemleri
+      id: Metode Advokasi
+    range:
+    - 5
+    - 9
+  - title:
+      ar: ثمرات الاستغفار
+      en: Fruits of Seeking Forgiveness
+      tr: Affetmeyi aramanın meyveleri
+      id: Buah dari mencari pengampunan
+    range:
+    - 10
+    - 12
+- title:
+    ar: الاستدلال بالخلق
+    en: The Argument from Creation
+    tr: Ahlakla akıl yürütme
+    id: Penalaran berdasarkan moral
+  range:
+  - 13
+  - 20
+  family: stories
+  summary:
+    ar: 'حجة نوح على قومه بآيات الله: خلقهم أطوارا، والسماوات الطباق، والقمر نورا والشمس سراجا، والأرض بساطا.'
+    en: 'Noah''s argument to his people from Allah''s signs: their creation in stages, the layered heavens, the moon as light and the sun as lamp, the earth spread as a carpet.'
+    tr: 'Nuh''un halkına karşı Tanrı''nın işaretleriyle kanıtı: Onları aşamalı olarak yarattı, gökyüzü düzlük, ay ışık, güneş bir lamba ve yer halı gibi.'
+    id: 'Bukti Nuh terhadap umat-Nya dengan tanda-tanda Allah: Dia menciptakan mereka secara bertahap, langit seperti dataran, bulan sebagai cahaya, matahari sebagai lampu, dan bumi sebagai karpet.'
+  children:
+  - title:
+      ar: خلقكم أطوارا
+      en: Created You in Stages
+      tr: Seni aşamalı olarak yarattı
+      id: Dia menciptakanmu secara bertahap
+    range:
+    - 13
+    - 14
+  - title:
+      ar: السماوات والقمر والشمس
+      en: The Heavens, the Moon, the Sun
+      tr: Gökyüzü, ay ve güneş
+      id: Langit, bulan, dan matahari
+    range:
+    - 15
+    - 16
+  - title:
+      ar: الأرض بساطا
+      en: The Earth as a Carpet
+      tr: Dünya basitçe
+      id: Bumi itu sederhana
+    range:
+    - 17
+    - 20
+- title:
+    ar: العناد والدعاء
+    en: Obstinacy and the Supplication
+    tr: İnatçılık ve dua
+    id: Keras kepala dan doa
+  range:
+  - 21
+  - 28
+  family: stories
+  summary:
+    ar: شكوى نوح من عصيان قومه وتمسكهم بالأصنام الخمسة، وعاقبتهم بالغرق والنار، ودعاؤه الجامع بالهلاك للظالمين والمغفرة للمؤمنين.
+    en: Noah's complaint of his people's defiance and their clinging to the five idols; their end by drowning and the Fire; and his comprehensive supplication against the wrongdoers and for the believers.
+    tr: Nuh'un halkının itaatsizliği ve beş puta bağlılığı, boğulma ve ateşle cezalandırılması ve suçluların yok edilmesi, inananlar için af dilemesi üzerine şikayeti.
+    id: Keluhan Nuh tentang ketidaktaatan umat-Nya dan kepatuhan mereka pada lima berhala, hukuman mereka dengan tenggelam dan api, serta doa menyeluruh untuk kehancuran bagi para pelaku kejahatan dan pengampunan
+      bagi orang beriman.
+  children:
+  - title:
+      ar: الأصنام الخمسة
+      en: The Five Idols
+      tr: Beş İdol
+      id: Lima Idola
+    range:
+    - 23
+    - 23
+  - title:
+      ar: الغرق والنار
+      en: The Drowning and the Fire
+      tr: Batma ve Yangın
+      id: Tenggelam dan Kebakaran
+    range:
+    - 25
+    - 25
+  - title:
+      ar: دعاء نوح
+      en: Noah's Supplication
+      tr: Nuh'un Duası
+      id: Doa Nuh
+    range:
+    - 26
+    - 28

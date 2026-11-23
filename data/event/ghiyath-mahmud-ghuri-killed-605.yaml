@@ -1,7 +1,7 @@
 id: event/ghiyath-mahmud-ghuri-killed-605
 class: event
 kind: death
-label: { ar: "قتل غياث الدين محمود الغوري", en: "Ghiyath al-Din Mahmud al-Ghuri killed", es: "Ghiyath al-Din Mahmud al-Ghuri asesinado", fr: "Ghiyath al-Din Mahmud al-Ghuri tué", ur: "غیاث الدین محمود الثوری مارا گیا۔" }
+label: { ar: "قتل غياث الدين محمود الغوري", en: "Ghiyath al-Din Mahmud al-Ghuri killed", es: "Ghiyath al-Din Mahmud al-Ghuri asesinado", fr: "Ghiyath al-Din Mahmud al-Ghuri tué", ur: "غیاث الدین محمود الثوری مارا گیا۔", tr: "Gıyaseddin Mahmud el-Gavri öldürüldü", id: "Ghiyath al-Din Mahmud al-Ghawri terbunuh" }
 date:
   start: { edtf: "1208~", hijri: "0605", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Ghiyath al-Din Mahmud de Ghur fue asesinado y el reino Ghurid cayó en desorden hasta que los khwarazmianos tomaron la mayor parte de él {cite:kamil-ibn-al-athir p. 337}."
   fr: "Ghiyath al-Din Mahmud de Ghur fut tué et le royaume ghuride tomba dans le désordre jusqu'à ce que les Khwarezmiens en prennent la plus grande partie {cite:kamil-ibn-al-athir p. 337}."
   ur: "غیاث الدین محمود غور کا مارا گیا اور غوری سلطنت بدامنی کا شکار ہوگئی یہاں تک کہ خوارزمیوں نے اس کا زیادہ تر حصہ لے لیا۔ 337}۔"
+  tr: "Gur hükümdarı Gıyat el-Din Mahmud ibn Gıyat el-Din öldürüldü ve ondan sonra Gurluların yönetimi bozuldu; Harezmliler topraklarının çoğunu ele geçirdi. {kaynak: Kamil ibn el-Atir s. 337}"
+  id: "Mahmud ibn Ghiyath al-Din, penguasa Ghur, terbunuh, dan pemerintahan Dinasti Ghurid terganggu setelahnya hingga Dinasti Khwarazmians menguasai sebagian besar wilayah mereka. {cite:kamil-ibn-al-athir p. 337}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/ghazna, sources: [source/kamil-ibn-al-athir] }

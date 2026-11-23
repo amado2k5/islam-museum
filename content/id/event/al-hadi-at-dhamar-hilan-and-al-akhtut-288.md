@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-at-dhamar-hilan-and-al-akhtut-288
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/al-hadi-at-dhamar-hilan-and-al-akhtut-288.md}
+---
+## Ringkasan
+Al-Hadi [[person/al-hadi-yahya-al-rassi|melakukan perjalanan]] hingga tiba [[place/dhamar|di Dhamar]], di mana ia mengirim orang-orang ke seberang-seberangnya, dan orang-orangnya berkumpul di sekelilingnya, menegur dan memberitahu apa yang menjadi kewajiban bagi mereka maupun yang terhadap. Ia tinggal di Dhamar selama beberapa hari hingga Allah memulihkan tanah itu menurut narator {cite:sira-hadi-ila-al-haqq p.212} {cite:sira-hadi-ila-al-haqq p.213}. Orang-orang Haylan datang kepadanya, dan ia mengirim bersama mereka seorang pria dari para sahabatnya bernama Muhammad Al-Balkhi. Ia meninggalkan Dhamar dan [[person/ibrahim-ibn-jafar-al-futayimi|menunjuk Ibrahim ibn Ja'far Al-Futaimi]] {cite:sira-hadi-ila-al-haqq p.213}. Ia terus bertugas hingga tiba di [[place/al-akhtut-yemen|Al-Akhot]], di mana penduduk kota berkumpul, menegur mereka, dan memberitahu mereka apa yang menjadi kewajiban bagi mereka maupun yang dihadapkan kepada mereka. Menurut narator, kota itu korup karena [[person/ibrahim-ibn-khalaf-ibn-tarif|Ibrahim ibn Khalaf]] tinggal di sana, dan kejahatan terlihatlah di sana {cite:sira-hadi-ila-al-haqq p.213}.
+
+## Detail
+Ketika al-Hadi datang ke naskah-naskah tersebut, sekelompok wanita korup dan korup yang tinggal di sana bersama Ibrahim ibn Khalaf menurut narator, maka al-Hadi tinggal di sana selama beberapa hari lalu pergi ke [[place/mankath-yemen|Mankath]] {cite:sira-hadi-ila-al-haqq p.213}. Muhammad al-Balkhi disebutkan dalam prosa dan tidak memasukkan siapa pun. Pengakuan otomatis menghilangkan baris pertama halaman 213, yang dibaca Apple Vision dari gambar halaman, yang mencakup kediaman al-Hadi di Dhamar, kedatangan orang-orang Hilan, dan nama al-Balkhi. Apa yang narator atribusikan kepada orang-orang al-Ahl al-Ahtir dan Ibrahim ibn Khalaf adalah kesalahannya sendiri, dan ia tidak menyebutkan nama mereka atau merinci apa yang ia klaim. Museum tidak mengulang atau menilai kata-kata kesalahan. Pemberi verifikasi tidak menyebutkan lokasi manuskrip tersebut.

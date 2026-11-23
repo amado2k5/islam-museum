@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1015"
-label: { ar: "مسلم 1015 — إن الله طيب لا يقبل إلا طيباً", en: "Muslim 1015 — God is pure and accepts only what is pure", es: "Musulmán 1015 — Dios es puro y acepta solo lo que es puro", fr: "Muslim 1015 — Dieu est pur et n'accepte que ce qui est pur", ur: "مسلم 1015 — خدا پاک ہے اور صرف وہی قبول کرتا ہے جو پاک ہو۔" }
+label: { ar: "مسلم 1015 — إن الله طيب لا يقبل إلا طيباً", en: "Muslim 1015 — God is pure and accepts only what is pure", es: "Musulmán 1015 — Dios es puro y acepta solo lo que es puro", fr: "Muslim 1015 — Dieu est pur et n'accepte que ce qui est pur", ur: "مسلم 1015 — خدا پاک ہے اور صرف وہی قبول کرتا ہے جو پاک ہو۔", tr: "Müslim 1015 — Allah iyidir ve sadece iyiliği kabul eder.", id: "Muslim 1015 — Allah itu baik dan hanya menerima kebaikan." }
 text: "قال رسول الله: «إن الله طيب لا يقبل إلا طيباً... ثم ذكر الرجل يطيل السفر أشعث أغبر يمد يديه إلى السماء يا رب يا رب، ومطعمه حرام ومشربه حرام وملبسه حرام وغذي بالحرام، فأنى يستجاب لذلك»"
 summary:
   ar: "رواية أبي هريرة في باب وجوب النفقة من الطيبات من كتاب الزكاة في صحيح مسلم؛ يقبض حال المسافر الداعي المحروم في صورة لا تنسى: يمد يديه إلى السماء وكل ما فيه حرام."
+  tr: "Sahih Müslim'deki Zekat Kitabı'nın hayırlı şeylerden harcama yükümlülüğü bölümünde Ebu Hurayra'nın rivayeti, her şeyden mahrum kalmış ve yardım isteyen bir yolcunun durumunu unutulmaz bir şekilde tasvir eder: ellerini göğe kaldırır ve oradaki her şey haramdır."
+  id: "Riwayat Abu Hurairah dalam bab tentang kewajiban membelanjakan sebagian dari harta yang baik dalam Kitab Zakat di Sahih Muslim, menggambarkan keadaan musafir yang kekurangan dan memohon pertolongan dalam sebuah gambaran yang tak terlupakan: ia mengangkat kedua tangannya ke langit dan segala sesuatu di dalamnya haram."
 relations:
   - { type: part_of, target: passage/muslim-kitab-12 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

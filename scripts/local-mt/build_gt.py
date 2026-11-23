@@ -15,7 +15,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from translate import BROKEN, LEVELED, ROOT, protect, queue  # noqa: E402
 
 ap = argparse.ArgumentParser()
-ap.add_argument("--lang", required=True, choices=["es", "fr", "both", "en", "ur"], help="both: one file for the two languages (records missing in either)")
+ap.add_argument("--lang", required=True, choices=["es", "fr", "both", "en", "ur", "tr", "id"], help="both: one file for the two languages (records missing in either)")
 ap.add_argument("--dir", required=True)
 ap.add_argument("--n", type=int, required=True, help="file number")
 ap.add_argument("--bytes", type=int, default=990_000)
@@ -114,6 +114,6 @@ while len(data) > a.bytes and len(records) > 1:  # drop whole records from the e
 if not records: print("nothing left to build"); sys.exit(3)
 os.makedirs(a.dir, exist_ok=True)
 name = a.name or (f"gt-{a.n:03d}" if a.lang == "both" else f"gt-{a.lang}-{a.n:03d}")
-open(os.path.join(a.dir, name + "-en.docx"), "wb").write(data)
+open(os.path.join(a.dir, name + f"-{a.src}.docx"), "wb").write(data)
 json.dump(records, open(os.path.join(a.dir, name + ".json"), "w", encoding="utf-8"), ensure_ascii=False)
 print(f"{name}\trecords {len(records)}\twords {words}\tbytes {len(data)}")
