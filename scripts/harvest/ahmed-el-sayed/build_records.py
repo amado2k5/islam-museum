@@ -57,6 +57,14 @@ def q(s):
     return json.dumps(s, ensure_ascii=False)
 
 
+_ARPAREN = re.compile(r"(?<!\u2066)\(([^()]*[\u0600-\u06FF][^()]*)\)")
+
+
+def iso(text, lang):
+    """Arabic and Urdu text: wrap a parenthetical that holds Arabic script in the direction isolates (AGENTS.md)."""
+    return _ARPAREN.sub(lambda m: LRI + "(" + m.group(1) + ")" + PDI, text) if lang in ("ar", "ur") else text
+
+
 def labels_of(repo, eid, cache={}):
     if eid in cache:
         return cache[eid]
@@ -99,9 +107,12 @@ def episode_files(repo, series, n, claims, tr, row, cfg):
         for e in s.get("entities", []):
             if e not in ents and (repo / "data" / f"{e}.yaml").exists():
                 ents.append(e)
-    title = {"ar": row["title_ar"], **tr["title"]}
-    label = {l: cfg["ep_label"][l].format(n=n, t=title[l]) for l in LANGS}
-    summary = {"ar": tr["summary"]["ar"], "en": claims["summary_en"], "ur": tr["summary"]["ur"], "fr": tr["summary"]["fr"], "es": tr["summary"]["es"]}
+    # The ledger title reads "<series> <n> | <topic> | ..."; the label already names the series and the number, so keep the topic only.
+    parts = [x.strip() for x in row["title_ar"].split("|") if x.strip()]
+    title_ar = " | ".join(parts[1:]) if len(parts) > 1 else row["title_ar"]
+    title = {"ar": title_ar, **tr["title"]}
+    label = {l: iso(cfg["ep_label"][l].format(n=n, t=title[l]), l) for l in LANGS}
+    summary = {"ar": iso(tr["summary"]["ar"], "ar"), "en": claims["summary_en"], "ur": iso(tr["summary"]["ur"], "ur"), "fr": tr["summary"]["fr"], "es": tr["summary"]["es"]}
     y = [f"id: {eid}", "class: work", "kind: lecture", "label:"]
     y += [f"  {l}: {q(label[l])}" for l in LANGS]
     y += ["summary:"] + [f"  {l}: {q(summary[l])}" for l in LANGS]
@@ -129,8 +140,8 @@ def episode_files(repo, series, n, claims, tr, row, cfg):
         for i, s in enumerate(secs):
             topic = s["topic_ar"] if lang == "ar" else (s["topic_en"] if lang == "en" else tr["sections"][i][f"topic_{lang}"])
             claim_list = s["claims_ar"] if lang == "ar" else (s["claims_en"] if lang == "en" else tr["sections"][i][f"claims_{lang}"])
-            md += [f"### {topic}", ""]
-            md += [f"- {c} {cite}" for c in claim_list]
+            md += [f"### {iso(topic, lang)}", ""]
+            md += [f"- {iso(c, lang)} {cite}" for c in claim_list]
             md.append("")
             if set(s.get("flags", [])) & {"contested", "polemical"}:
                 md += [S["view"], ""]
