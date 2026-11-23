@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "890"
-label: { ar: "موطأ مالك 890 — ما لا يحل، ما حُرّم", en: "Muwatta Malik 890 — what is not lawful; what was made unlawful", ur: "موطأ مالک 890 — جو حلال نہیں، جو حرام کیا گیا", es: "Muwatta Malik 890 — lo que no es lícito; lo que se ha hecho ilícito", fr: "Muwatta Malik 890 — ce qui n'est pas licite; ce qui a été rendu illicite" }
+label: { ar: "موطأ مالك 890 — ما لا يحل، ما حُرّم", en: "Muwatta Malik 890 — what is not lawful; what was made unlawful", ur: "موطأ مالک 890 — جو حلال نہیں، جو حرام کیا گیا", es: "Muwatta Malik 890 — lo que no es lícito; lo que se ha hecho ilícito", fr: "Muwatta Malik 890 — ce qui n'est pas licite; ce qui a été rendu illicite", tr: "Muwatta Malik 890 — İzin verilmeyen, haram olan şeyler", id: "Muwatta Malik 890 — Apa yang tidak diperbolehkan, apa yang dilarang" }
 text: "… قَالَ ذَلِكَ وَاسِعٌ وَالْحِلاَقُ بِمِنًى أَحَبُّ إِلَىَّ. قَالَ مَالِكٌ الأَمْرُ الَّذِي لاَ اخْتِلاَفَ فِيهِ عِنْدَنَا أَنَّ أَحَدًا لاَ يَحْلِقُ رَأْسَهُ وَلاَ يَأْخُذُ مِنْ شَعَرِهِ حَتَّى يَنْحَرَ هَدْيًا إِنْ كَانَ مَعَهُ وَلاَ يَحِلُّ مِنْ شَىْءٍ حَرُمَ عَلَيْهِ حَتَّى يَحِلَّ بِمِنًى يَوْمَ النَّحْرِ وَذَلِكَ أَنَّ اللَّهَ تَبَارَكَ وَتَعَالَى قَالَ {وَلاَ تَحْلِقُوا رُءُوسَكُمْ حَتَّى يَبْلُغَ الْهَدْىُ مَحِلَّهُ }"
 summary:
   ar: "حديث في موطأ مالك، رقم 890، يذكر ما لا يحل، وما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 890، جس میں جو حلال نہیں، جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
   es: "Un informe en Muwatta Malik, n.° 890 (Hajj), menciona lo que no es lícito y lo que fue declarado ilícito. El Navegador Halal y Haram lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los relatos de los Compañeros y Sucesores sobre lo que es lícito e ilícito."
   fr: "Un rapport du Muwatta Malik, n° 890 (Hajj), mentionne ce qui est illicite et ce qui a été déclaré interdit. Le Halal and Haram Browser le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les hadiths des Compagnons et des Successeurs concernant ce qui est licite et ce qui est illicite."
+  tr: "Malik'in Muwatta'sında yer alan 890 numaralı hadis, haram ve haram olan şeyleri belirtmektedir. Helal ve Haram sözlüğünün bu bölümü, Kur'an, Sünnet, Peygamberin hayatı ve Sahabeler ile onların haleflerinin helal ve haram olan şeyler hakkındaki sözlerinden derlenmiştir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 890, menyebutkan apa yang diperbolehkan dan apa yang diharamkan. Bagian kamus Halal dan Haram ini menyusunnya dengan teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan ucapan para Sahabat dan Penerus mereka mengenai apa yang diperbolehkan dan apa yang diharamkan."
 relations:
   - { type: mentions, target: concept/halal-haram, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 890 (book 20 hadith 186); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }

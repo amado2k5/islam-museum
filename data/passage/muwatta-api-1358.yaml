@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1358"
-label: { ar: "موطأ مالك 1358 — ما لا يحل", en: "Muwatta Malik 1358 — what is not lawful", ur: "موطأ مالک 1358 — جو حلال نہیں", es: "Muwatta Malik 1358 — lo que no es lícito", fr: "Muwatta Malik 1358 — ce qui n'est pas licite" }
+label: { ar: "موطأ مالك 1358 — ما لا يحل", en: "Muwatta Malik 1358 — what is not lawful", ur: "موطأ مالک 1358 — جو حلال نہیں", es: "Muwatta Malik 1358 — lo que no es lícito", fr: "Muwatta Malik 1358 — ce qui n'est pas licite", tr: "Muwatta Malik 1358 — İzin verilmeyen şeyler", id: "Muwatta Malik 1358 — Apa yang tidak diperbolehkan" }
 text: "… حَلَّ الأَجَلُ فَإِنَّهُ لاَ بَأْسَ أَنْ يَبِيعَ الْمُشْتَرِي تِلْكَ السِّلْعَةَ مِنَ الْبَائِعِ قَبْلَ أَنْ يَحِلَّ الأَجَلُ أَوْ بَعْدَ مَا يَحِلُّ بِعَرْضٍ مِنَ الْعُرُوضِ يُعَجِّلُهُ وَلاَ يُؤَخِّرُهُ بَالِغًا مَا بَلَغَ ذَلِكَ الْعَرْضُ إِلاَّ الطَّعَامَ فَإِنَّهُ لاَ يَحِلُّ أَنْ يَبِيعَهُ حَتَّى يَقْبِضَهُ وَلِلْمُشْتَرِي أَنْ يَبِيعَ تِلْكَ السِّلْعَةَ مِنْ غَيْرِ صَاحِبِهِ الَّذِي ابْتَاعَهَا مِنْهُ بِذَهَبٍ أَوْ وَرِقٍ أَوْ …"
 summary:
   ar: "حديث في موطأ مالك، رقم 1358، يذكر ما لا يحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 1358، جس میں جو حلال نہیں کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
   es: "Un informe en Muwatta Malik, n.° 1358 (Transacciones comerciales), menciona lo que no es lícito. El Navegador Halal y Haram lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los relatos de los Compañeros y Sucesores sobre lo que es lícito e ilícito."
   fr: "Un rapport du Muwatta Malik, n° 1358 (Transactions commerciales), mentionne ce qui est illicite. Le Halal and Haram Browser le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les hadiths des Compagnons et des Successeurs concernant ce qui est licite et ce qui est illicite."
+  tr: "Malik'in Muwatta'sında yer alan 1358 numaralı hadis, haram olan şeylerden bahsetmektedir. Bu hadis, helal ve haram konularında Kur'an, Sünnet, Peygamberin hayatı ve Sahabeler ile onların haleflerinden rivayetleri içeren Helal ve Haram Tarayıcısı tarafından derlenmiştir."
+  id: "Sebuah hadits dalam Muwatta karya Malik, nomor 1358, menyebutkan apa yang dilarang. Hadits ini dikompilasi oleh Halal and Haram Browser, yang mencakup teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan riwayat dari para Sahabat dan Penerus mereka mengenai apa yang diperbolehkan dan apa yang dilarang."
 relations:
   - { type: mentions, target: concept/trade-in-islam, sources: [source/muwatta-malik] }
   - { type: mentions, target: concept/halal-haram, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }

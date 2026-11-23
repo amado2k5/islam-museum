@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "641"
-label: { ar: "جامع الترمذي — حديث 641", en: "Jami' al-Tirmidhi 641 — The Book on Zakat", ur: "جامع ترمذی — حدیث 641", es: "Jami' al-Tirmidhi 641 — El Libro del Zakat", fr: "Jami' al-Tirmidhi 641 — Le Livre de la Zakat" }
+label: { ar: "جامع الترمذي — حديث 641", en: "Jami' al-Tirmidhi 641 — The Book on Zakat", ur: "جامع ترمذی — حدیث 641", es: "Jami' al-Tirmidhi 641 — El Libro del Zakat", fr: "Jami' al-Tirmidhi 641 — Le Livre de la Zakat", tr: "Cami' el-Tirmizi - Hadis 641", id: "Jami' al-Tirmidzi — Hadits 641" }
 text: "… يَحْيَى بْنُ سَعِيدٍ فِي حَدِيثِ عَمْرِو بْنِ شُعَيْبٍ وَقَالَ هُوَ عِنْدَنَا وَاهٍ ‏.‏ وَمَنْ ضَعَّفَهُ فَإِنَّمَا ضَعَّفَهُ مِنْ قِبَلِ أَنَّهُ يُحَدِّثُ مِنْ صَحِيفَةِ جَدِّهِ عَبْدِ اللَّهِ بْنِ عَمْرٍو وَأَمَّا أَكْثَرُ أَهْلِ الْحَدِيثِ فَيَحْتَجُّونَ بِحَدِيثِ عَمْرِو بْنِ شُعَيْبٍ وَيُثْبِتُونَهُ مِنْهُمْ أَحْمَدُ وَإِسْحَاقُ وَغَيْرُهُمَا ‏.‏"
 summary:
   ar: "في جامع الترمذي؛ ذكر كتابة كتاب أو إرساله."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی میں؛ خط لکھنے یا بھیجنے کا ذکر."
   es: "En Jami' al-Tirmidhi; mención de escribir o enviar una carta."
   fr: "Dans Jami' al-Tirmidhi; mention de la rédaction ou de l'envoi d'une lettre."
+  tr: "Cami'ül-Tirmizi'de onun bir kitap yazdığı veya gönderdiği belirtilmektedir."
+  id: "Dalam Jami’ al-Tirmidhi, disebutkan bahwa beliau menulis sebuah buku atau mengirimkannya."
 relations:
   - { type: part_of, target: passage/tirmidhi-kitab-07 }
   - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }

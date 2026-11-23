@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani, person/abdullah-ibn-umar, person/muhammad]
 work: work/muwatta-malik
 ref: "2453"
-label: { ar: "الموطأ 2453 — نافع عن ابن عمر: من شرب الخمر في الدنيا ولم يتب حرمها في الآخرة", en: "Muwatta 2453", es: "Muwatta 2453", fr: "Muwatta 2453", ur: "موطا 2453" }
+label: { ar: "الموطأ 2453 — نافع عن ابن عمر: من شرب الخمر في الدنيا ولم يتب حرمها في الآخرة", en: "Muwatta 2453", es: "Muwatta 2453", fr: "Muwatta 2453", ur: "موطا 2453", tr: "El-Muvatta 2453 — İbn Ömer'den rivayet edildiğine göre Nafi': Bu dünyada şarap içip tövbe etmeyen kimse, ahirette ondan mahrum kalacaktır.", id: "Al-Muwatta 2453 — Diriwayatkan oleh Nafi’ dari Ibnu Umar: Barang siapa yang meminum anggur di dunia ini dan tidak bertaubat, maka ia akan kehilangan anggur tersebut di akhirat." }
 summary:
   ar: "يروي مالك عن نافع عن عبد الله بن عمر أن النبي قال: من شرب الخمر في الدنيا ثم لم يتب منها حرمها في الآخرة. {cite:muwatta-maruf-1997 p.413} {cite:muwatta-maruf-1997 p.414}"
+  tr: "Malik, Nafi'den, o da Abdullah ibn Umar'dan rivayetle, Peygamberimizin şöyle buyurduğunu nakletmiştir: \"Kim bu dünyada şarap içer ve bundan tövbe etmezse, ahirette ondan mahrum kalacaktır.\" {cite:muwatta-maruf-1997 s.413} {cite:muwatta-maruf-1997 s.414}"
+  id: "Malik meriwayatkan dari Nafi’ yang juga meriwayatkan dari Abdullah ibn Umar bahwa Nabi bersabda: “Barang siapa yang meminum anggur di dunia ini dan tidak bertaubat darinya, maka ia akan kehilangan anggur tersebut di akhirat.” {cite:muwatta-maruf-1997 p.413} {cite:muwatta-maruf-1997 p.414}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-28-ashriba }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

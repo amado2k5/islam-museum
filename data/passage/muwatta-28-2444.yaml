@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/yahya-ibn-said-al-ansari]
 work: work/muwatta-malik
 ref: "2444"
-label: { ar: "الموطأ 2444 — سعيد بن المسيب: ما من شيء إلا يحب الله أن يعفى عنه ما لم يكن حدا", en: "Muwatta 2444", es: "Muwatta 2444", fr: "Muwatta 2444", ur: "موطا 2444" }
+label: { ar: "الموطأ 2444 — سعيد بن المسيب: ما من شيء إلا يحب الله أن يعفى عنه ما لم يكن حدا", en: "Muwatta 2444", es: "Muwatta 2444", fr: "Muwatta 2444", ur: "موطا 2444", tr: "El-Muvatta 2444 — Said ibn el-Musayyab: Allah'ın affetmekten hoşlanmadığı hiçbir şey yoktur, yeter ki bu farz kılınmış bir ceza olmasın.", id: "Al-Muwatta 2444 — Sa’id ibn al-Musayyab: Tidak ada sesuatu pun yang tidak Allah sukai untuk diampuni, selama itu bukan hukuman yang telah ditentukan." }
 summary:
   ar: "يروي مالك عن يحيى بن سعيد أنه سمع سعيد بن المسيب يقول: ما من شيء إلا الله يحب أن يُعفى عنه، ما لم يكن حدا. {cite:muwatta-maruf-1997 p.410}"
+  tr: "Malik, Yahya ibn Sa'id'den rivayetle, Sa'id ibn al-Musayyab'ın şöyle dediğini işittiğini aktarır: \"Allah'ın affedilmesini sevmediği hiçbir şey yoktur, yeter ki bu farz kılınmış bir ceza olmasın.\" {cite:muwatta-maruf-1997 s.410}"
+  id: "Malik meriwayatkan dari Yahya ibn Sa'id bahwa ia mendengar Sa'id ibn al-Musayyab berkata: \"Tidak ada sesuatu pun yang tidak Allah sukai untuk diampuni, selama itu bukan hukuman yang telah ditentukan.\" {cite:muwatta-maruf-1997 p.410}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-28-ashriba }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

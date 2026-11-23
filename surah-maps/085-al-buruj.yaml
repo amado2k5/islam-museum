@@ -1,21 +1,46 @@
 surah: 85
 slug: al-buruj
 sources_consulted:
-  - "kuttab.com — Surah Al-Buruj mind map (thematic block divisions)"
-  - "في ظلال القرآن — Sayyid Qutb (thematic surah introductions)"
+- kuttab.com — Surah Al-Buruj mind map (thematic block divisions)
+- في ظلال القرآن — Sayyid Qutb (thematic surah introductions)
 map:
-  - title: { ar: "أصحاب الأخدود", en: "The People of the Trench" }
-    range: [1, 11]
-    family: stories
-    summary:
-      ar: "والسماء ذات البروج واليوم الموعود: قتل أصحاب الأخدود النار ذات الوقود إذ هم عليها قعود، وما نقموا منهم إلا أن يؤمنوا بالله."
-      en: "By the sky of constellations and the promised Day: destroyed are the people of the trench — the fire with its fuel — who resented the believers only for their faith."
-    children:
-      - { title: { ar: "النار ذات الوقود", en: "The Fire with Its Fuel" }, range: [4, 7] }
-  - title: { ar: "بطش ربك", en: "Your Lord's Grip" }
-    range: [12, 22]
-    family: faith
-    summary:
-      ar: "إن بطش ربك لشديد إنه هو يبدئ ويعيد، الغفور الودود ذو العرش المجيد، وفرعون وثمود عبرة، بل هو قرآن مجيد في لوح محفوظ."
-      en: "Your Lord's grip is severe: He originates and restores — the Forgiving, the Loving, Lord of the glorious Throne; Pharaoh and Thamud as warning — a glorious Quran in a preserved tablet."
-    children: []
+- title:
+    ar: أصحاب الأخدود
+    en: The People of the Trench
+    tr: Groove sahipleri
+    id: Pemilik groove
+  range:
+  - 1
+  - 11
+  family: stories
+  summary:
+    ar: 'والسماء ذات البروج واليوم الموعود: قتل أصحاب الأخدود النار ذات الوقود إذ هم عليها قعود، وما نقموا منهم إلا أن يؤمنوا بالله.'
+    en: 'By the sky of constellations and the promised Day: destroyed are the people of the trench — the fire with its fuel — who resented the believers only for their faith.'
+    tr: 'Ve burçlu gökyüzü, vaat edilen gün: hendek halkı orada otururken yakıt ateşini söndürdü ve sadece Tanrı''ya inandıkları için onlara kızdılar.'
+    id: 'Dan langit dengan zodiak dan Hari yang Dijanjikan: orang-orang parit mematikan api bahan bakar saat mereka duduk di sana, dan mereka hanya membenci karena mereka percaya kepada Tuhan.'
+  children:
+  - title:
+      ar: النار ذات الوقود
+      en: The Fire with Its Fuel
+      tr: Yakıtlı Ateş
+      id: Api Berbahan Bakar
+    range:
+    - 4
+    - 7
+- title:
+    ar: بطش ربك
+    en: Your Lord's Grip
+    tr: Rabbiniz zulme uğrasın.
+    id: Semoga Tuhanmu tertindas.
+  range:
+  - 12
+  - 22
+  family: faith
+  summary:
+    ar: إن بطش ربك لشديد إنه هو يبدئ ويعيد، الغفور الودود ذو العرش المجيد، وفرعون وثمود عبرة، بل هو قرآن مجيد في لوح محفوظ.
+    en: 'Your Lord''s grip is severe: He originates and restores — the Forgiving, the Loving, Lord of the glorious Throne; Pharaoh and Thamud as warning — a glorious Quran in a preserved tablet.'
+    tr: Gerçekten de Rabbinin zulmü çok ağırdır. Başlatan ve yenileyen O'dur. Bağışlayan, Sevgi Gösteren, Yüce Tahtın Sahibi, Firavun ve Semud bir ders verir. Aksine, bu koruyucu bir tablette görkemli bir
+      Kur'an'dır.
+    id: Memang, tirani Tuhanmu sangat berat. Dialah yang memulai dan memulihkan. Yang Pemaaf, Yang Penyayang, Pemilik Takhta Mulia, Firaun dan Thamud adalah pelajaran. Sebaliknya, itu adalah Al-Qur'an yang
+      mulia dalam tablet yang terjaga.
+  children: []

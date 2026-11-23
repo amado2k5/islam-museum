@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/yahya-ibn-said-al-ansari, person/sulayman-ibn-yasar]
 work: work/muwatta-malik
 ref: "2493"
-label: { ar: "الموطأ 2493 — يحيى بن سعيد عن سليمان بن يسار: زيد بن ثابت في العين القائمة إذا أُطفئت", en: "Muwatta 2493", es: "Muwatta 2493", fr: "Muwatta 2493", ur: "موطا 2493" }
+label: { ar: "الموطأ 2493 — يحيى بن سعيد عن سليمان بن يسار: زيد بن ثابت في العين القائمة إذا أُطفئت", en: "Muwatta 2493", es: "Muwatta 2493", fr: "Muwatta 2493", ur: "موطا 2493", tr: "El-Muvatta 2493 — Yahya bin Said, Süleyman bin Yaşar'dan rivayetle: Zeyd bin Sabit, sönen bir pınar meselesi hakkında", id: "Al-Muwatta 2493 — Yahya bin Saeed berdasarkan riwayat Sulaiman bin Yasar: Zaid bin Thabit tentang masalah mata air yang hidup jika padam" }
 summary:
   ar: "يروي يحيى عن مالك عن يحيى بن سعيد عن سليمان بن يسار أن زيد بن ثابت كان يقول: في العين القائمة إذا أُطفئت مائة دينار. {cite:muwatta-maruf-1997 p.427}"
+  tr: "Yahya, Malik'ten, o da Yahya ibn Sa'id'den, o da Süleyman ibn Yasar'dan rivayetle, Zeyd ibn Sabit'in şöyle dediğini aktarır: \"Sönmüş bir pınar için tazminat yüz dinardır.\" {cite:muwatta-maruf-1997 s.427}"
+  id: "Yahya meriwayatkan dari Malik, dari Yahya ibn Sa'id, dari Sulayman ibn Yasar, bahwa Zayd ibn Thabit biasa berkata: \"Untuk mata air yang padam, ganti ruginya adalah seratus dinar.\" {cite:muwatta-maruf-1997 p.427}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

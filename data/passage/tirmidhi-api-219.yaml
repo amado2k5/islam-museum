@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "219"
-label: { ar: "جامع الترمذي 219 — الأب والأبوة", en: "Jami' al-Tirmidhi 219 — the father and fatherhood", ur: "جامع ترمذی 219 — باپ اور والدیت", es: "Jami' al-Tirmidhi 219 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 219 — le père et la paternité" }
+label: { ar: "جامع الترمذي 219 — الأب والأبوة", en: "Jami' al-Tirmidhi 219 — the father and fatherhood", ur: "جامع ترمذی 219 — باپ اور والدیت", es: "Jami' al-Tirmidhi 219 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 219 — le père et la paternité", tr: "Cami' el-Tirmizi 219 — Baba ve Babalık", id: "Jami' al-Tirmidhi 219 — Sang Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا أَحْمَدُ بْنُ مَنِيعٍ، حَدَّثَنَا هُشَيْمٌ، أَخْبَرَنَا يَعْلَى بْنُ عَطَاءٍ، حَدَّثَنَا جَابِرُ بْنُ يَزِيدَ بْنِ الأَسْوَدِ الْعَامِرِيُّ، عَنْ أَبِيهِ، قَالَ شَهِدْتُ مَعَ النَّبِيِّ حَجَّتَهُ فَصَلَّيْتُ مَعَهُ صَلاَةَ الصُّبْحِ فِي مَسْجِدِ الْخَيْفِ. قَالَ فَلَمَّا قَضَى صَلاَتَهُ وَانْحَرَفَ إِذَا هُوَ بِرَجُلَيْنِ فِي أُخْرَى الْقَوْمِ لَمْ يُصَلِّيَا مَعَهُ فَقَالَ \" عَلَىَّ بِهِمَا \". فَجِيءَ بِهِمَا تُرْعَدُ فَرَائِصُهُمَا فَقَالَ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 219، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 219، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 219 (El Libro de la Oración), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 219 (Le Livre de la Salat (Prière)), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce passage avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Cami' el-Tirmizi'nin 219 numaralı hadisinde baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan metinlerle birleştirir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 219, menyebutkan tentang ayah dan peran ayah. Fitur \"Peran Ayah dalam Islam\" menggabungkan hadits ini dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 219 (book 2 hadith 71); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

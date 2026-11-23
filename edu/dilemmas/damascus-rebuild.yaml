@@ -4,31 +4,43 @@ decision:
   ar: الأسوار أم الماء لدمشق؟
   en: Walls or water for Damascus?
   ur: دمشق کے لیے دیواریں یا پانی؟
-  fr: "Des remparts ou de l’eau pour Damas ?"
+  fr: Des remparts ou de l’eau pour Damas ?
+  tr: Şam için duvarlar mı yoksa su mu?
+  id: Tembok atau air untuk Damaskus?
 context:
-  ar: 'دمشق بعد سنوات الحصار والغلاء تستطيع مشروعًا واحدًا كبيرًا: ترميم أسوارها وبواباتها أمام جيوش العصر، أم مدّ القنوات وإصلاح الأنهار والحمّامات التي تسقي المدينة
-    كل يوم؟ القرار: الحماية أم الحياة؟'
-  en: 'Damascus after years of siege and dearth can afford one great project: restoring its walls and gates against the age''s armies, or laying the channels and
-    repairing the rivers and bathhouses that water the city every day? The decision: protection or life?'
-  ur: 'دمشق برسوں کے محاصرے اور قحط کے بعد ایک بڑا منصوبہ برداشت کر سکتی ہے: دور کی فوجوں کے سامنے دیواریں اور دروازے مرمت کرنا یا نہریں بچھانا اور نہریں اور حمام
-    درست کرنا جو شہر کو روز پانی دیتے ہیں؟ فیصلہ: حفاظت یا زندگی؟'
-  fr: "Après des années de siège et de pénurie, Damas ne peut financer qu’un seul grand chantier. Faut-il restaurer les murs et les portes pour résister aux armées, ou aménager les canaux et réparer les cours d’eau et les bains qui approvisionnent la ville chaque jour ? Que privilégier : la protection ou les besoins vitaux ?"
+  ar: 'دمشق بعد سنوات الحصار والغلاء تستطيع مشروعًا واحدًا كبيرًا: ترميم أسوارها وبواباتها أمام جيوش العصر، أم مدّ القنوات وإصلاح الأنهار والحمّامات التي تسقي المدينة كل يوم؟ القرار: الحماية أم الحياة؟'
+  en: 'Damascus after years of siege and dearth can afford one great project: restoring its walls and gates against the age''s armies, or laying the channels and repairing the rivers and bathhouses that
+    water the city every day? The decision: protection or life?'
+  ur: 'دمشق برسوں کے محاصرے اور قحط کے بعد ایک بڑا منصوبہ برداشت کر سکتی ہے: دور کی فوجوں کے سامنے دیواریں اور دروازے مرمت کرنا یا نہریں بچھانا اور نہریں اور حمام درست کرنا جو شہر کو روز پانی دیتے ہیں؟
+    فیصلہ: حفاظت یا زندگی؟'
+  fr: 'Après des années de siège et de pénurie, Damas ne peut financer qu’un seul grand chantier. Faut-il restaurer les murs et les portes pour résister aux armées, ou aménager les canaux et réparer les
+    cours d’eau et les bains qui approvisionnent la ville chaque jour ? Que privilégier : la protection ou les besoins vitaux ?'
+  tr: 'Yıllarca süren kuşatma ve yüksek fiyatlardan sonra Şam, büyük bir projeyi gerçekleştirebilir mi: dönemin ordularının önünde surlarını ve kapılarını restore etmek mi, yoksa kanalları uzatmak ve şehri
+    her gün sulayan nehir ve hamamları onarmak? Karar: Koruma mı Yaşam mı?'
+  id: 'Damaskus, setelah bertahun-tahun pengepungan dan harga tinggi, dapat menyelesaikan satu proyek besar: memulihkan tembok dan gerbangnya di depan tentara pada masa itu, atau memperpanjang kanal dan
+    memperbaiki sungai serta pemandian yang mengairi kota setiap hari? Keputusan: perlindungan atau kehidupan?'
 positions:
 - holder:
     ar: أهل الأسوار
     en: the walls party
     ur: دیواروں کے حامی
-    fr: "Les partisans des remparts"
+    fr: Les partisans des remparts
+    tr: Duvarların İnsanları
+    id: Orang-Orang Tembok
   stance:
     ar: المدينة المفتوحة تُؤخذ قبل أن تشرب
     en: the open city is taken before it can drink
     ur: کھلا شہر پانی پینے سے پہلے لیا جاتا ہے
-    fr: "Une ville sans défense sera prise avant même que ses habitants aient pu boire."
+    fr: Une ville sans défense sera prise avant même que ses habitants aient pu boire.
+    tr: Açık Şehir, içmeden önce alınır
+    id: Open City diminum sebelum Anda minum
   evidence:
     ar: جدّدوا الأسوار والأبراج في كل عهد خوف
     en: they renewed walls and towers in every fearful reign
     ur: انھوں نے ہر خوف کے دور میں دیواریں اور برج نئے کیے
-    fr: "À chaque règne menacé, ils ont rebâti les murs et les tours."
+    fr: À chaque règne menacé, ils ont rebâti les murs et les tours.
+    tr: Her korku çağında duvarları ve kuleleri yenileyin
+    id: Perbarui tembok dan menara di setiap era ketakutan
   sources:
   - place/damascus
   - building/umayyad-mosque
@@ -36,27 +48,35 @@ positions:
     ar: أهل الماء
     en: the water party
     ur: پانی کے حامی
-    fr: "Les partisans de l’eau"
+    fr: Les partisans de l’eau
+    tr: su insanları
+    id: orang air
   stance:
     ar: بلا ماء لا سور ولا سكان؛ القنوات تسقي الكل
     en: without water there is no wall and no people; the channels water all
     ur: پانی کے بغیر نہ دیوار نہ باشندے؛ نہریں سب کو سیراب کرتی ہیں
-    fr: "Sans eau, ni gens ni remparts ne tiennent. Les canaux apportent l’eau à tout le monde."
+    fr: Sans eau, ni gens ni remparts ne tiennent. Les canaux apportent l’eau à tout le monde.
+    tr: Su yok, duvar yok, sakin yok; kanallar herkesi suluyor
+    id: Tanpa air, tanpa tembok, tanpa penghuni; kanal-kanal itu mengairi semua orang
   evidence:
     ar: أصلحوا المجاري والحمّامات فعادت الحياة للأحياء
     en: they repaired the channels and bathhouses and life returned to the quarters
     ur: انھوں نے نہریں اور حمام درست کیں تو محلوں میں زندگی لوٹی
-    fr: "Ils ont réparé les canaux et les bains, et la vie est revenue dans les quartiers."
+    fr: Ils ont réparé les canaux et les bains, et la vie est revenue dans les quartiers.
+    tr: Kanalizasyon ve banyoları tamir edin, mahallelere hayat geri döndü.
+    id: Perbaiki saluran pembuangan dan kamar mandi, dan kehidupan kembali ke lingkungan sekitar.
   sources:
   - place/damascus
 reflection:
   ar: أيّهما كنت ستبني أولًا لو كنت الوالي؟ اكتب سببك.
   en: Which would you have built first as governor? Write your reason.
   ur: اگر آپ گورنر ہوتے تو پہلے کیا بناتے؟ وجہ لکھیں۔
-  fr: "À la place du gouverneur, quel chantier aurais-tu lancé en premier ? Explique pourquoi."
+  fr: À la place du gouverneur, quel chantier aurais-tu lancé en premier ? Explique pourquoi.
+  tr: Vali olsan önce hangisini inşa ederdin? Sebebini yaz.
+  id: Mana yang akan kamu bangun pertama jika kamu gubernur? Tuliskan alasanmu.
 provenance:
   fr:
-    generated_by: "Devin"
-    model: "unknown"
-    run: "devin-a7ba389df57d4bdb9b7515fa59f40242"
-    source: "Existing English text in this activity, with Arabic consulted for religious material."
+    generated_by: Devin
+    model: unknown
+    run: devin-a7ba389df57d4bdb9b7515fa59f40242
+    source: Existing English text in this activity, with Arabic consulted for religious material.

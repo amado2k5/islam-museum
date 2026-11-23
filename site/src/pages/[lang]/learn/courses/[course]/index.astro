@@ -17,7 +17,7 @@ const title = labelOf(c.subject, lang);
 const where = [c.jurisdiction && labelOf(c.jurisdiction, lang)].filter(Boolean).join(" · ");
 let i = 0;
 ---
-<BaseLayout lang={lang} title={title} description={summaryOf(c.subject, lang)} path={coursePath(lang, c)} alternates={{ ar: coursePath("ar", c), en: coursePath("en", c), ur: coursePath("ur", c), fr: coursePath("fr", c), es: coursePath("es", c) }}>
+<BaseLayout lang={lang} title={title} description={summaryOf(c.subject, lang)} path={coursePath(lang, c)} alternates={{ ar: coursePath("ar", c), en: coursePath("en", c), ur: coursePath("ur", c), fr: coursePath("fr", c), es: coursePath("es", c), tr: coursePath("tr", c), id: coursePath("id", c) }}>
   <div data-pagefind-body>
     <PageHeader title={title} lede={summaryOf(c.subject, lang)} crumbs={[{ label: T.nav.learn, href: `/${lang}/learn/` }, { label: T.syllabus.title, href: homePath(lang) }, { label: where }]} crumbsLabel={T.entity.breadcrumb} wing="ideas" titleAttrs={{ "data-pagefind-meta": "title" }} />
   </div>

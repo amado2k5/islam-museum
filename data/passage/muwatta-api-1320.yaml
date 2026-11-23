@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1320"
-label: { ar: "موطأ مالك 1320 — الأب والأبوة", en: "Muwatta Malik 1320 — the father and fatherhood", ur: "موطأ مالک 1320 — باپ اور والدیت", es: "Muwatta Malik 1320 — El padre y la paternidad", fr: "Muwatta Malik 1320 — le père et la paternité" }
+label: { ar: "موطأ مالك 1320 — الأب والأبوة", en: "Muwatta Malik 1320 — the father and fatherhood", ur: "موطأ مالک 1320 — باپ اور والدیت", es: "Muwatta Malik 1320 — El padre y la paternidad", fr: "Muwatta Malik 1320 — le père et la paternité", tr: "Muwatta Malik 1320 — Baba ve Babalık", id: "Muwatta Malik 1320 — Sang Ayah dan Peran Ayah" }
 text: "وَحَدَّثَنِي عَنْ مَالِكٍ، أَنَّهُ بَلَغَهُ عَنْ جَدِّهِ، مَالِكِ بْنِ أَبِي عَامِرٍ أَنَّ عُثْمَانَ بْنَ عَفَّانَ، قَالَ قَالَ لِي رَسُولُ اللَّهِ \" لاَ تَبِيعُوا الدِّينَارَ بِالدِّينَارَيْنِ وَلاَ الدِّرْهَمَ بِالدِّرْهَمَيْنِ \"."
 summary:
   ar: "حديث في موطأ مالك، رقم 1320، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 1320، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Muwatta Malik, n.° 1320 (Transacciones comerciales), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un rapport du Muwatta Malik, n° 1320 (Transactions commerciales), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce rapport avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant du père."
+  tr: "Malik'in Muwatta'sında yer alan 1320 numaralı hadis, baba ve babalık kavramından bahsetmektedir. Araştırmacı, bu hadisi, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alıntılarla birlikte, İslam'da babalık bölümünde derlemiştir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 1320, menyebutkan tentang ayah dan peran ayah. Peneliti mengumpulkan hadits ini dalam bagian tentang peran ayah dalam Islam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1320 (book 31 hadith 31); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

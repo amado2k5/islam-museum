@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1264"
-label: { ar: "الموطأ 1264 — مالك: ليس على المحرم فيما قطع من شجر الحرم شيء، ولم يبلغه أن أحدا حكم فيه بشيء", en: "Muwatta 1264", es: "Muwatta 1264", fr: "Muwatta 1264", ur: "موطا 1264" }
+label: { ar: "الموطأ 1264 — مالك: ليس على المحرم فيما قطع من شجر الحرم شيء، ولم يبلغه أن أحدا حكم فيه بشيء", en: "Muwatta 1264", es: "Muwatta 1264", fr: "Muwatta 1264", ur: "موطا 1264", tr: "El-Muvatta 1264 — Malik: İhram halindeki bir hacının kutsal mekânda ağaç kesmesinin cezası yoktur ve bu konuda bir hüküm verildiğini de duymamıştır.", id: "Al-Muwatta 1264 — Malik: Tidak ada hukuman bagi seorang jamaah haji yang sedang ihram menebang pohon di tempat suci, dan dia belum pernah mendengar ada yang memutuskan perkara ini." }
 summary:
   ar: "يقول مالك إنه ليس على المحرم فيما قطع من الشجر في الحرم شيء، ولم يبلغه أن أحدا حكم عليه فيه بشيء، وبئس ما صنع. {cite:muwatta-maruf-1997 p.561}"
+  tr: "Malik, ihramlı birinin kutsal alan içinde ağaç kesmesinin cezası olmadığını, bu konuda aleyhine hüküm veren kimseyi duymadığını ve böyle bir şey yapmasının ne kadar yanlış olduğunu söylüyor. {cite:muwatta-maruf-1997 s.561}"
+  id: "Malik mengatakan bahwa tidak ada hukuman bagi seseorang yang sedang ihram menebang pohon di dalam tempat suci, dan dia belum pernah mendengar ada yang memutuskan bahwa dia bersalah atas hal ini, dan betapa salahnya dia melakukan hal itu. {cite:muwatta-maruf-1997 p.561}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
   - { type: mentions, target: place/mecca, sources: [source/muwatta-maruf-1997] }

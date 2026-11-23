@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "800"
-label: { ar: "موطأ مالك 800 — المرض والمريض، الدواء", en: "Muwatta Malik 800 — illness and the sick; the drug", ur: "موطأ مالک 800 — بیماری اور بیمار، دوا", es: "Muwatta Malik 800 — la enfermedad y los enfermos; la droga", fr: "Muwatta Malik 800 — la maladie et les malades; le médicament" }
+label: { ar: "موطأ مالك 800 — المرض والمريض، الدواء", en: "Muwatta Malik 800 — illness and the sick; the drug", ur: "موطأ مالک 800 — بیماری اور بیمار، دوا", es: "Muwatta Malik 800 — la enfermedad y los enfermos; la droga", fr: "Muwatta Malik 800 — la maladie et les malades; le médicament", tr: "Muwatta Malik 800 — Hastalık ve Hasta, Tıp", id: "Muwatta Malik 800 — Penyakit dan Pasien, Kedokteran" }
 text: "حَدَّثَنِي يَحْيَى، عَنْ مَالِكٍ، عَنِ ابْنِ شِهَابٍ، عَنْ سَالِمِ بْنِ عَبْدِ اللَّهِ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، أَنَّهُ قَالَ الْمُحْصَرُ بِمَرَضٍ لاَ يَحِلُّ حَتَّى يَطُوفَ بِالْبَيْتِ وَيَسْعَى بَيْنَ الصَّفَا وَالْمَرْوَةِ فَإِذَا اضْطُرَّ إِلَى لُبْسِ شَىْءٍ مِنَ الثِّيَابِ الَّتِي لاَ بُدَّ لَهُ مِنْهَا أَوِ الدَّوَاءِ صَنَعَ ذَلِكَ وَافْتَدَى."
 summary:
   ar: "حديث في موطأ مالك، رقم 800، يذكر المرض والمريض، والدواء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 800، جس میں بیماری اور بیمار، دوا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Muwatta Malik, n.° 800 (Hajj), menciona la enfermedad y a los enfermos, así como los medicamentos. El Navegador de Medicina lo incluye en su lista de textos sobre medicina profética, medicina, anatomía, cirugía, fármacos y tratamientos."
   fr: "Un rapport du Muwatta Malik, n° 800 (Hajj), mentionne la maladie, les malades et les médicaments. Le Répertoire des médicaments le répertorie avec les textes sur la médecine prophétique, la médecine, l'anatomie, la chirurgie, les médicaments et les traitements."
+  tr: "Malik'in Muwatta adlı eserinde yer alan 800 numaralı hadis, hastalık, hasta ve ilaçtan bahsetmektedir. Bu hadis, tıp araştırmacısı tarafından Peygamber tıbbı, tıp, anatomi, cerrahi ve tedaviye ilişkin metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 800, menyebutkan tentang penyakit, pasien, dan obat-obatan. Hadits ini dikumpulkan oleh peneliti medis bersama dengan teks-teks tentang pengobatan Nabi, kedokteran, anatomi, pembedahan, dan pengobatan."
 relations:
   - { type: mentions, target: concept/medicine, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
   - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }

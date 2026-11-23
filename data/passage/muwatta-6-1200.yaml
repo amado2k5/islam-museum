@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1200"
-label: { ar: "الموطأ 1200 — مالك: من قدم مكة لهلال ذي الحجة فأهل بالحج يتم الصلاة حتى يخرج من مكة إلى منى فيقصر", en: "Muwatta 1200", es: "1200 vatios", fr: "1200 watts", ur: "1200 واٹ" }
+label: { ar: "الموطأ 1200 — مالك: من قدم مكة لهلال ذي الحجة فأهل بالحج يتم الصلاة حتى يخرج من مكة إلى منى فيقصر", en: "Muwatta 1200", es: "1200 vatios", fr: "1200 watts", ur: "1200 واٹ", tr: "El-Muvatta 1200 — Malik: Zilhicce ayının başında Mekke'ye gelen ve Hac için ihram haline giren kimse, Mekke'den Mina'ya hareket edene kadar tam namaz kılmalıdır; Mina'ya hareket ettikten sonra ise namazı kısaltmalıdır.", id: "Al-Muwatta 1200 — Malik: Barang siapa tiba di Mekah pada awal bulan Dzul-Hijjah dan memasuki keadaan ihram untuk haji, maka ia harus melaksanakan salat lengkap hingga ia meninggalkan Mekah menuju Mina, setelah itu ia meringkasnya." }
 summary:
   ar: "يقول مالك إن من قدم مكة لهلال ذي الحجة فأهل بالحج، فإنه يتم الصلاة حتى يخرج من مكة إلى منى فيقصر، لأنه قد أجمع على مقام أكثر من أربع ليال. {cite:muwatta-maruf-1997 p.539}"
+  tr: "Malik, Zilhicce ayının başında Mekke'ye varan ve Hac için ihram haline giren kimsenin, Mekke'den Mina'ya doğru yola çıkana kadar tam namaz kılması gerektiğini, Mina'ya vardığında ise namazı kısaltması gerektiğini, çünkü dört geceden fazla kalmaya karar verdiğini söyler. {cite:muwatta-maruf-1997 s.539}"
+  id: "Malik mengatakan bahwa siapa pun yang tiba di Mekah pada awal bulan Dzul Hijjah dan memasuki keadaan ihram untuk haji, maka ia harus melaksanakan salat lengkap hingga ia meninggalkan Mekah menuju Mina, di mana pada saat itu ia harus mempersingkat salatnya, karena ia telah memutuskan untuk tinggal lebih dari empat malam. {cite:muwatta-maruf-1997 p.539}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
   - { type: mentions, target: place/mecca, sources: [source/muwatta-maruf-1997] }

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "13"
-label: { ar: "جامع الترمذي 13 — ساعة الاحتضار والوفاة", en: "Jami' al-Tirmidhi 13 — a deathbed and last hours", ur: "جامع ترمذی 13 — وقتِ وفات اور آخری لمحات", es: "Jami' al-Tirmidhi 13 — lecho de muerte y últimas horas", fr: "Jami' al-Tirmidhi 13 — un lit de mort et les dernières heures" }
+label: { ar: "جامع الترمذي 13 — ساعة الاحتضار والوفاة", en: "Jami' al-Tirmidhi 13 — a deathbed and last hours", ur: "جامع ترمذی 13 — وقتِ وفات اور آخری لمحات", es: "Jami' al-Tirmidhi 13 — lecho de muerte y últimas horas", fr: "Jami' al-Tirmidhi 13 — un lit de mort et les dernières heures", tr: "Cami' el-Tirmizi 13 — Ölüm Vakti ve Vefat", id: "Jami' al-Tirmidhi 13 — Saat-saat Sakaratul Maut dan Kematian" }
 text: "… عَنِ النَّبِيِّ وَحَدِيثُ أَبِي وَائِلٍ عَنْ حُذَيْفَةَ أَصَحُّ. وَقَدْ رَخَّصَ قَوْمٌ مِنْ أَهْلِ الْعِلْمِ فِي الْبَوْلِ قَائِمًا. قَالَ أَبُو عِيسَى وَعَبِيدَةُ بْنُ عَمْرٍو السَّلْمَانِيُّ رَوَى عَنْهُ إِبْرَاهِيمُ النَّخَعِيُّ. وَعَبِيدَةُ مِنْ كِبَارِ التَّابِعِينَ يُرْوَى عَنْ عَبِيدَةَ أَنَّهُ قَالَ أَسْلَمْتُ قَبْلَ وَفَاةِ النَّبِيِّ بِسَنَتَيْنِ. وَعُبَيْدَةُ الضَّبِّيُّ صَاحِبُ إِبْرَاهِيمَ هُوَ عُبَيْدَةُ بْنُ مُعَتِّبٍ الضَّبِّيُّ وَيُكْنَى أَبَا عَبْدِ الْكَرِيمِ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 13، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 13، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Jami' al-Tirmidhi, n.º 13 (El Libro de la Purificación), menciona un lecho de muerte y las últimas horas. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un récit du Jami' al-Tirmidhi, n° 13 (Le Livre de la Purification), mentionne un lit de mort et les dernières heures. Le Navigateur des Testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, des dernières heures, des biens, des reliques et des tombes."
+  tr: "Cami' el-Tirmizi'nin 13 numaralı hadisinde ölüm anı ve ölüm süreci anlatılmaktadır. Bu hadis, vasiyetnameler, miras, tarihi yerler ve türbeler üzerine çalışan kişiler tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 13, menyebutkan tentang saat kematian dan proses sekarat. Hadits ini dikumpulkan oleh para ahli wasiat, warisan, situs bersejarah, dan makam suci, beserta teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ihtidar, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 13 (book 1 hadith 13); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

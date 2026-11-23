@@ -30,7 +30,7 @@ on:
         required: true
         type: string
       language:
-        description: "The language to publish: ar, en, ur, fr or es."
+        description: "The language to publish: ar, en, ur, fr, es, tr or id."
         required: true
         type: string
       build_run_id:
@@ -82,7 +82,7 @@ jobs:
         run: |
           set -euo pipefail
           fail() { echo "::error::$1"; exit 1; }
-          case "$LANGUAGE" in ar|en|ur|fr|es) ;; *) fail "\"$LANGUAGE\" is not a language of the site (ar, en, ur, fr, es)." ;; esac
+          case "$LANGUAGE" in ar|en|ur|fr|es|tr|id) ;; *) fail "\"$LANGUAGE\" is not a language of the site (ar, en, ur, fr, es, tr, id)." ;; esac
           for v in R2_BUCKET SITE_URL; do
             [ -n "${!v}" ] || fail "Environment \"$ENVIRONMENT\" has no variable $v. Set it in Settings → Environments → $ENVIRONMENT."
           done

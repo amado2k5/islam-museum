@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "3104"
-label: { ar: "جامع الترمذي 3104 — جمع القرآن والمصاحف", en: "Jami' al-Tirmidhi 3104 — the collection of the Qur'an and the codices", ur: "جامع ترمذی 3104 — جمعِ قرآن اور مصاحف", es: "Jami' al-Tirmidhi 3104 — la colección del Corán y los códices", fr: "Jami' al-Tirmidhi 3104 — le recueil du Coran et des codex" }
+label: { ar: "جامع الترمذي 3104 — جمع القرآن والمصاحف", en: "Jami' al-Tirmidhi 3104 — the collection of the Qur'an and the codices", ur: "جامع ترمذی 3104 — جمعِ قرآن اور مصاحف", es: "Jami' al-Tirmidhi 3104 — la colección del Corán y los códices", fr: "Jami' al-Tirmidhi 3104 — le recueil du Coran et des codex", tr: "Cami' el-Tirmizi 3104 — Kur'an ve Kur'an el yazmalarının derlemesi", id: "Jami' al-Tirmidhi 3104 — Kumpulan Al-Qur'an dan manuskrip-manuskrip Al-Qur'an" }
 text: "… قَبْلَ أَنْ يَخْتَلِفُوا فِي الْكِتَابِ كَمَا اخْتَلَفَتِ الْيَهُودُ وَالنَّصَارَى فَأَرْسَلَ إِلَى حَفْصَةَ أَنْ أَرْسِلِي إِلَيْنَا بِالصُّحُفِ نَنْسَخُهَا فِي الْمَصَاحِفِ ثُمَّ نَرُدُّهَا إِلَيْكِ فَأَرْسَلَتْ حَفْصَةُ إِلَى عُثْمَانَ بِالصُّحُفِ فَأَرْسَلَ عُثْمَانُ إِلَى زَيْدِ بْنِ ثَابِتٍ وَسَعِيدِ بْنِ الْعَاصِي وَعَبْدِ الرَّحْمَنِ بْنِ الْحَارِثِ بْنِ هِشَامٍ وَعَبْدِ اللَّهِ بْنِ الزُّبَيْرِ أَنِ انْسَخُوا الصُّحُفَ فِي الْمَصَاحِفِ وَقَالَ لِلرَّهْطِ الْقُرَشِيِّينَ الثَّلاَثَةِ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 3104، يذكر جمع القرآن والمصاحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 3104، جس میں جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 3104 (Capítulos sobre Tafsir), menciona la colección del Corán y los códices. El catálogo del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 3104 (Chapitres sur le Tafsir), mentionne la collection du Coran et des codex. Le catalogue du musée, consacré à la lecture et à l'écriture du Coran, répertorie ces documents avec les textes coraniques, la Sunna, la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Cami' el-Tirmizi'de 3104 numaralı hadis, Kur'an'ın ve el yazmalarının derlenmesinden bahsetmektedir. Bu hadis, Kur'an okunuşları, yazısı, hat sanatı ve diyakritik işaretleri konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 3104, menyebutkan penyusunan Al-Quran dan manuskrip-manuskripnya. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/mushaf, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3104 (book 47 hadith 156); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

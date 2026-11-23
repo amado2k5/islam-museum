@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2505"
-label: { ar: "الموطأ 2505 — مالك: اللحي الأسفل والأنف ليسا من الرأس في الجراح", en: "Muwatta 2505", es: "Muwatta 2505", fr: "Muwatta 2505", ur: "موطا 2505" }
+label: { ar: "الموطأ 2505 — مالك: اللحي الأسفل والأنف ليسا من الرأس في الجراح", en: "Muwatta 2505", es: "Muwatta 2505", fr: "Muwatta 2505", ur: "موطا 2505", tr: "Al-Muwatta 2505 — Malik: Yaralanma durumlarında alt çene ve burun başın bir parçası olarak kabul edilmez.", id: "Al-Muwatta 2505 — Malik: Rahang bawah dan hidung tidak dianggap sebagai bagian dari kepala dalam kasus cedera." }
 summary:
   ar: "قال مالك: ولا أرى اللحي الأسفل والأنف من الرأس في جراحهما؛ لأنهما عظمان منفردان، والرأس بعدهما عظم واحد. {cite:muwatta-maruf-1997 p.430}"
+  tr: "Malik şöyle dedi: Alt çene ve burun yaralandığında başın bir parçası olarak kabul etmiyorum, çünkü bunlar iki ayrı kemiktir ve baş o zaman tek bir kemik olur. {cite:muwatta-maruf-1997 s.430}"
+  id: "Malik berkata: Saya tidak menganggap rahang bawah dan hidung sebagai bagian dari kepala ketika terluka, karena keduanya adalah dua tulang yang terpisah, dan kepala kemudian menjadi satu tulang tunggal. {cite:muwatta-maruf-1997 p.430}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

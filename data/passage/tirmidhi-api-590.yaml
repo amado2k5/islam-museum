@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "590"
-label: { ar: "جامع الترمذي 590 — الأب والأبوة", en: "Jami' al-Tirmidhi 590 — the father and fatherhood", ur: "جامع ترمذی 590 — باپ اور والدیت", es: "Jami' al-Tirmidhi 590 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 590 — le père et la paternité" }
+label: { ar: "جامع الترمذي 590 — الأب والأبوة", en: "Jami' al-Tirmidhi 590 — the father and fatherhood", ur: "جامع ترمذی 590 — باپ اور والدیت", es: "Jami' al-Tirmidhi 590 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 590 — le père et la paternité", tr: "Cami' el-Tirmizi 590 — Baba ve Babalık", id: "Jami' al-Tirmidhi 590 — Sang Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا صَالِحُ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا أَبُو الأَحْوَصِ، عَنْ أَشْعَثَ بْنِ أَبِي الشَّعْثَاءِ، عَنْ أَبِيهِ، عَنْ مَسْرُوقٍ، عَنْ عَائِشَةَ، قَالَتْ سَأَلْتُ رَسُولَ اللَّهِ عَنْ الاِلْتِفَاتِ فِي الصَّلاَةِ قَالَ \" هُوَ اخْتِلاَسٌ يَخْتَلِسُهُ الشَّيْطَانُ مِنْ صَلاَةِ الرَّجُلِ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 590، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 590، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 590 (El Libro de los Viajes), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 590 (Le Livre du Voyage), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant du père."
+  tr: "Cami' el-Tirmizi'nin 590 numaralı hadisinde baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı bunu Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birleştirir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 590, menyebutkan tentang ayah dan peran ayah. Fitur \"Peran Ayah dalam Islam\" menggabungkan hal ini dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 590 (book 6 hadith 47); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

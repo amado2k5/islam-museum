@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/hisham-ibn-urwa]
 work: work/muwatta-malik
 ref: "1241"
-label: { ar: "الموطأ 1241 — هشام بن عروة عن أبيه: في البقرة من الوحش بقرة، وفي الشاة", en: "Muwatta 1241", es: "Muwatta 1241", fr: "Muwatta 1241", ur: "موطا 1241" }
+label: { ar: "الموطأ 1241 — هشام بن عروة عن أبيه: في البقرة من الوحش بقرة، وفي الشاة", en: "Muwatta 1241", es: "Muwatta 1241", fr: "Muwatta 1241", ur: "موطا 1241", tr: "El-Muvatta 1241 — Hişam ibn Urve, babasından rivayetle: Yabani bir inek için inek fiyatı ödenir, koyun için de aynı şey geçerlidir.", id: "Al-Muwatta 1241 — Hisham ibn Urwah, berdasarkan riwayat ayahnya: Mengenai sapi liar, seekor sapi harus diberikan, dan mengenai seekor domba" }
 summary:
   ar: "يروي مالك عن هشام بن عروة أن أباه كان يقول في البقرة من الوحش بقرة، وفي الشاة شاة. ولم يظهر في النسخة المصورة بعض نص الحكم كاملا. {cite:muwatta-maruf-1997 p.554}"
+  tr: "Malik, Hişam ibn Urve'den rivayetle, babasının yabani bir inek için \"İnek kan parası olarak verilir\" ve bir koyun için de \"Koyun kan parası olarak verilir\" dediğini aktarır. Fotoğraflanan versiyon, hükmün tam metnini içermemektedir. {cite:muwatta-maruf-1997 s.554}"
+  id: "Malik meriwayatkan dari Hisham ibn Urwah bahwa ayahnya biasa berkata mengenai sapi liar, \"Seekor sapi harus diberikan sebagai uang ganti rugi,\" dan mengenai domba, \"Seekor domba harus diberikan sebagai uang ganti rugi.\" Versi yang difoto tidak memuat teks lengkap dari fatwa tersebut. {cite:muwatta-maruf-1997 p.554}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
   - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }

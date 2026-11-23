@@ -1,31 +1,83 @@
 surah: 14
 slug: ibrahim
 sources_consulted:
-  - "kuttab.com — Surah Ibrahim mind map (3 blocks: 1-12, 13-27, 28-52)"
-  - "Standard thematic divisions (cross-checked)"
+- 'kuttab.com — Surah Ibrahim mind map (3 blocks: 1-12, 13-27, 28-52)'
+- Standard thematic divisions (cross-checked)
 map:
-  - title: { ar: "من الظلمات إلى النور", en: "From Darkness to Light" }
-    range: [1, 12]
-    family: faith
-    summary:
-      ar: "الغاية من إنزال الكتاب: إخراج الناس من الظلمات إلى النور، وتذكير بنعم الله وأيام الله."
-      en: "The purpose of revelation: bringing people from darkness to light; reminder of Allah's favors and days."
-    children:
-      - { title: { ar: "لئن شكرتم لأزيدنكم", en: "Gratitude Increases Favor" }, range: [7, 7] }
-  - title: { ar: "الكلمة الطيبة والكلمة الخبيثة", en: "The Good Word and the Evil Word" }
-    range: [13, 27]
-    family: faith
-    summary:
-      ar: "تهديد الرسل بالإخراج، ومثل الكلمة الطيبة كشجرة ثابتة، والكلمة الخبيثة كشجرة اجتثت."
-      en: "Messengers threatened with expulsion; the good word like a firm tree, the evil word like one uprooted."
-    children:
-      - { title: { ar: "مثل الكلمة الطيبة", en: "The Parable of the Good Word" }, range: [24, 26] }
-  - title: { ar: "دعاء إبراهيم ويوم الحساب", en: "Abraham's Supplication and the Day of Reckoning" }
-    range: [28, 52]
-    family: faith
-    summary:
-      ar: "دعاء إبراهيم لأهل البلد الحرام، ثم مشهد يوم تبدل الأرض غير الأرض وبرزوا لله."
-      en: "Abraham's supplication for the Secure Town's people, then the Day the earth is changed and all stand before Allah."
-    children:
-      - { title: { ar: "دعاء إبراهيم", en: "Abraham's Supplication" }, range: [35, 41] }
-      - { title: { ar: "يوم تبدل الأرض", en: "The Day the Earth Is Changed" }, range: [48, 48] }
+- title:
+    ar: من الظلمات إلى النور
+    en: From Darkness to Light
+    tr: Karanlıktan ışığa
+    id: Dari kegelapan ke terang
+  range:
+  - 1
+  - 12
+  family: faith
+  summary:
+    ar: 'الغاية من إنزال الكتاب: إخراج الناس من الظلمات إلى النور، وتذكير بنعم الله وأيام الله.'
+    en: 'The purpose of revelation: bringing people from darkness to light; reminder of Allah''s favors and days.'
+    tr: Kitabın vahyedilmesinin amacı, insanları karanlıktan ışığa çıkarmak ve onlara Tanrı'nın nimetlerini ve Tanrı'nın günlerini hatırlatmaktır.
+    id: Tujuan dari pengungkapan Kitab ini adalah untuk membawa orang keluar dari kegelapan menuju terang, dan mengingatkan mereka akan berkat Allah dan hari-hari Allah.
+  children:
+  - title:
+      ar: لئن شكرتم لأزيدنكم
+      en: Gratitude Increases Favor
+      tr: Minnettarsan, seni artıracağım
+      id: Jika kamu bersyukur, aku akan menambah jumlahmu
+    range:
+    - 7
+    - 7
+- title:
+    ar: الكلمة الطيبة والكلمة الخبيثة
+    en: The Good Word and the Evil Word
+    tr: İyi söz ve kötü söz
+    id: Kata baik dan kata buruk
+  range:
+  - 13
+  - 27
+  family: faith
+  summary:
+    ar: تهديد الرسل بالإخراج، ومثل الكلمة الطيبة كشجرة ثابتة، والكلمة الخبيثة كشجرة اجتثت.
+    en: Messengers threatened with expulsion; the good word like a firm tree, the evil word like one uprooted.
+    tr: Elçiler onları kovmakla tehdit etti ve iyi sözü sağlam bir ağaca, kötü sözü ise kökünden sökülen bir ağaca benzettiler.
+    id: Para utusan mengancam akan mengusir mereka, dan menyamakan firman baik dengan pohon yang kokoh, dan kata jahat dengan pohon yang tercabut.
+  children:
+  - title:
+      ar: مثل الكلمة الطيبة
+      en: The Parable of the Good Word
+      tr: Nazik bir kelime gibi
+      id: Seperti kata baik
+    range:
+    - 24
+    - 26
+- title:
+    ar: دعاء إبراهيم ويوم الحساب
+    en: Abraham's Supplication and the Day of Reckoning
+    tr: İbrahim'in duası ve Kıyamet Günü
+    id: Doa Ibrahim dan Hari Penghakiman
+  range:
+  - 28
+  - 52
+  family: faith
+  summary:
+    ar: دعاء إبراهيم لأهل البلد الحرام، ثم مشهد يوم تبدل الأرض غير الأرض وبرزوا لله.
+    en: Abraham's supplication for the Secure Town's people, then the Day the earth is changed and all stand before Allah.
+    tr: İbrahim'in Kutsal Şehir halkına yaptığı dua, ardından yeryüzünün yerden değiştiği ve Tanrı'nın huzuruna çıktığı günün sahnesi.
+    id: Doa Ibrahim kepada orang-orang Kota Suci, lalu adegan hari ketika bumi berubah dari bumi dan mereka muncul di hadapan Tuhan.
+  children:
+  - title:
+      ar: دعاء إبراهيم
+      en: Abraham's Supplication
+      tr: Doaa İbrahim
+      id: Doaa Ibrahim
+    range:
+    - 35
+    - 41
+  - title:
+      ar: يوم تبدل الأرض
+      en: The Day the Earth Is Changed
+      tr: Dünyanın Değiştiği Gün
+      id: Hari Bumi Berubah
+    range:
+    - 48
+    - 48

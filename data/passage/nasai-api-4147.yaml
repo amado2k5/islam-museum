@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "4147"
-label: { ar: "سنن النسائي 4147 — وصية أو عهد أخير", en: "Sunan al-Nasa'i 4147 — a testament or parting counsel", ur: "سنن نسائی 4147 — وصیت یا آخری نصیحت", es: "Sunan al-Nasa'i 4147 — un testamento o consejo de despedida", fr: "Sunan al-Nasa'i 4147 — un testament ou un conseil d'adieu" }
+label: { ar: "سنن النسائي 4147 — وصية أو عهد أخير", en: "Sunan al-Nasa'i 4147 — a testament or parting counsel", ur: "سنن نسائی 4147 — وصیت یا آخری نصیحت", es: "Sunan al-Nasa'i 4147 — un testamento o consejo de despedida", fr: "Sunan al-Nasa'i 4147 — un testament ou un conseil d'adieu", tr: "Sunan an-Nasa'i 4147 — Son vasiyetname", id: "Sunan an-Nasa'i 4147 — Surat wasiat terakhir" }
 text: "… اللَّهِ فِيهِمْ وَلَيْسَ فِي الْحَدِيثِ أَنَّهُ فَضَّلَ بَعْضَهُمْ عَلَى بَعْضٍ وَلاَ خِلاَفَ نَعْلَمُهُ بَيْنَ الْعُلَمَاءِ فِي رَجُلٍ لَوْ أَوْصَى بِثُلُثِهِ لِبَنِي فُلاَنٍ أَنَّهُ بَيْنَهُمْ وَأَنَّ الذَّكَرَ وَالأُنْثَى فِيهِ سَوَاءٌ إِذَا كَانُوا يُحْصَوْنَ فَهَكَذَا كُلُّ شَىْءٍ صُيِّرَ لِبَنِي فُلاَنٍ أَنَّهُ بَيْنَهُمْ بِالسَّوِيَّةِ إِلاَّ أَنْ يُبَيِّنَ ذَلِكَ الآمِرُ بِهِ وَاللَّهُ وَلِيُّ التَّوْفِيقِ وَسَهْمٌ لِلْيَتَامَى مِنَ الْمُسْلِمِينَ وَسَهْمٌ …"
 summary:
   ar: "حديث في سنن النسائي، رقم 4147، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 4147، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 4147 (El Libro de la Distribución de Al-Fay'), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sunan al-Nasa'i, n° 4147 (Livre de la distribution d'Al-Fay'), mentionne un testament ou des dernières volontés. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Sunan-ı Nesai'de yer alan 4147 numaralı hadis, vasiyet veya son bir ahitten bahsetmektedir. Bu hadis, vasiyet, miras, kutsal emanetler ve türbeler konusunda uzmanlaşmış araştırmacılar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, nomor 4147, menyebutkan wasiat atau perjanjian terakhir. Hadits ini disusun oleh para peneliti yang ahli dalam wasiat, warisan, relik, dan makam, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4147 (book 38 hadith 15); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

@@ -1,46 +1,121 @@
 surah: 23
 slug: al-muminun
 sources_consulted:
-  - "kuttab.com — Surah Al-Mu'minun mind map (5 blocks: 1-11, 12-22, 23-50, 51-77, 78-118)"
-  - "Standard thematic divisions (cross-checked)"
+- 'kuttab.com — Surah Al-Mu''minun mind map (5 blocks: 1-11, 12-22, 23-50, 51-77, 78-118)'
+- Standard thematic divisions (cross-checked)
 map:
-  - title: { ar: "صفات المؤمنين", en: "The Traits of Believers" }
-    range: [1, 11]
-    family: faith
-    summary:
-      ar: "سبع صفات للمفلحين: الخشوع في الصلاة، والإعراض عن اللغو، والزكاة، وحفظ الفروج والأمانات."
-      en: "Seven traits of the successful: humility in prayer, shunning idle talk, alms, guarding chastity and trusts."
-    children: []
-  - title: { ar: "أطوار الخلق والنعم", en: "Creation's Stages and Blessings" }
-    range: [12, 22]
-    family: faith
-    summary:
-      ar: "خلق الإنسان من سلالة من طين ثم أطوار الجنين، وإنزال الماء، والجنات والزيتون والأنعام."
-      en: "Man from an extract of clay through the embryo's stages; water sent down; gardens, olives, cattle."
-    children:
-      - { title: { ar: "أطوار الجنين", en: "The Embryo's Stages" }, range: [12, 14] }
-  - title: { ar: "الرسل والأمم", en: "Messengers and Nations" }
-    range: [23, 50]
-    family: stories
-    summary:
-      ar: "نوح والفلك، وأمم تُرفع وتُهلك، وموسى وهارون بالآيات، وعيسى وأمه آية."
-      en: "Noah and the ark; nations raised and destroyed; Moses and Aaron with signs; Jesus and his mother a sign."
-    children:
-      - { title: { ar: "نوح والفلك", en: "Noah and the Ark" }, range: [23, 30] }
-      - { title: { ar: "موسى وهارون", en: "Moses and Aaron" }, range: [45, 49] }
-  - title: { ar: "تقطع الأمر", en: "The Affair Torn Apart" }
-    range: [51, 77]
-    family: faith
-    summary:
-      ar: "أمة واحدة فتقطعوا شيعا، والذين يؤتون ما آتوا وقلوبهم وجلة، والاستدراج بالنعم."
-      en: "One nation, then split into sects; those who give with fearful hearts; being lured through blessings."
-    children: []
-  - title: { ar: "السمع والبصر والخاتمة", en: "Hearing, Sight, and the Closing" }
-    range: [78, 118]
-    family: faith
-    summary:
-      ar: "من جعل لكم السمع والأبصار، وطلب الرجعة والحاجز من ورائهم، وخاتمة السورة: رب اغفر وارحم."
-      en: "He who made hearing and sight; the plea to return barred behind them; the close: Lord, forgive and have mercy."
-    children:
-      - { title: { ar: "طلب الرجعة", en: "Pleading to Return" }, range: [99, 100] }
-      - { title: { ar: "رب اغفر وارحم", en: "Lord, Forgive and Have Mercy" }, range: [118, 118] }
+- title:
+    ar: صفات المؤمنين
+    en: The Traits of Believers
+    tr: İnananların Özellikleri
+    id: Karakteristik Para Penganut
+  range:
+  - 1
+  - 11
+  family: faith
+  summary:
+    ar: 'سبع صفات للمفلحين: الخشوع في الصلاة، والإعراض عن اللغو، والزكاة، وحفظ الفروج والأمانات.'
+    en: 'Seven traits of the successful: humility in prayer, shunning idle talk, alms, guarding chastity and trusts.'
+    tr: 'Başarılı olanın yedi özelliği: dua ederken alçakgönüllülük, boş konuşmalardan kaçınma, zekat, ve özel bölgeleri ile güvenleri koruma.'
+    id: 'Tujuh kualitas dari yang sukses: kerendahan hati dalam doa, menghindari omongan kosong, zakat, dan menjaga bagian pribadi serta kepercayaan.'
+  children: []
+- title:
+    ar: أطوار الخلق والنعم
+    en: Creation's Stages and Blessings
+    tr: Yaratılış aşamaları ve bereketler
+    id: Tahapan penciptaan dan berkat
+  range:
+  - 12
+  - 22
+  family: faith
+  summary:
+    ar: خلق الإنسان من سلالة من طين ثم أطوار الجنين، وإنزال الماء، والجنات والزيتون والأنعام.
+    en: Man from an extract of clay through the embryo's stages; water sent down; gardens, olives, cattle.
+    tr: İnsanı kilden oluşan bir soydan, ardından embriyo aşamalarından, su, bahçeler, zeytin ve hayvanların inişinden yarattı.
+    id: Ia menciptakan manusia dari garis keturunan tanah liat, lalu dari tahap embrio, turunnya air, kebun, zaitun, dan ternak.
+  children:
+  - title:
+      ar: أطوار الجنين
+      en: The Embryo's Stages
+      tr: Fetal evreler
+      id: Tahap janin
+    range:
+    - 12
+    - 14
+- title:
+    ar: الرسل والأمم
+    en: Messengers and Nations
+    tr: Elçiler ve Gentileler
+    id: Rasul dan orang non-Yahudi
+  range:
+  - 23
+  - 50
+  family: stories
+  summary:
+    ar: نوح والفلك، وأمم تُرفع وتُهلك، وموسى وهارون بالآيات، وعيسى وأمه آية.
+    en: Noah and the ark; nations raised and destroyed; Moses and Aaron with signs; Jesus and his mother a sign.
+    tr: Nuh ve gemilerler, dirilip yok edilen uluslar, Musa ve Harun işaretlerle, İsa ve annesi ise işaretlerle.
+    id: Nuh dan bahtera, bangsa-bangsa yang bangkit dan hancur, Musa dan Harun dengan tanda-tanda, dan Yesus serta ibunya dengan tanda-tanda.
+  children:
+  - title:
+      ar: نوح والفلك
+      en: Noah and the Ark
+      tr: Nuh ve Astronomi
+      id: Nuh dan Astronomi
+    range:
+    - 23
+    - 30
+  - title:
+      ar: موسى وهارون
+      en: Moses and Aaron
+      tr: Musa ve Harun
+      id: Musa dan Harun
+    range:
+    - 45
+    - 49
+- title:
+    ar: تقطع الأمر
+    en: The Affair Torn Apart
+    tr: Kes onu.
+    id: Putuskan.
+  range:
+  - 51
+  - 77
+  family: faith
+  summary:
+    ar: أمة واحدة فتقطعوا شيعا، والذين يؤتون ما آتوا وقلوبهم وجلة، والاستدراج بالنعم.
+    en: One nation, then split into sects; those who give with fearful hearts; being lured through blessings.
+    tr: Tek bir ulus, böylece fraksiyonlara bölünürler, kalpleri korkarak verdiklerini verenler ve kutsamalarla cezbederler.
+    id: Satu bangsa, sehingga mereka terpecah menjadi faksi-faksi, dan mereka yang memberi apa yang mereka berikan saat hati mereka ketakutan, dan godaan dengan berkah.
+  children: []
+- title:
+    ar: السمع والبصر والخاتمة
+    en: Hearing, Sight, and the Closing
+    tr: İşitme, Görme ve Sonuç
+    id: Pendengaran, Penglihatan, dan Kesimpulan
+  range:
+  - 78
+  - 118
+  family: faith
+  summary:
+    ar: 'من جعل لكم السمع والأبصار، وطلب الرجعة والحاجز من ورائهم، وخاتمة السورة: رب اغفر وارحم.'
+    en: 'He who made hearing and sight; the plea to return barred behind them; the close: Lord, forgive and have mercy.'
+    tr: 'Size işitme ve görme sağlayan, geri dönüş ve arkalarındaki bariyeri ve surenin sonunu arayan: Rabbim, affet ve merhamet et.'
+    id: 'Yang menciptakan pendengaran dan penglihatan untukmu, dan mencari kembali dan penghalang di belakang mereka, serta akhir surat: Tuhanku, ampunilah dan kasihanilah.'
+  children:
+  - title:
+      ar: طلب الرجعة
+      en: Pleading to Return
+      tr: İade talebi
+      id: Permintaan Pengembalian
+    range:
+    - 99
+    - 100
+  - title:
+      ar: رب اغفر وارحم
+      en: Lord, Forgive and Have Mercy
+      tr: Ey Rabbim, affet ve merhamet et
+      id: Ya Tuhan, ampunilah dan kasihanilah
+    range:
+    - 118
+    - 118

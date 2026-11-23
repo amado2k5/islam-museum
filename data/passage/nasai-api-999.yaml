@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "999"
-label: { ar: "سنن النسائي 999 — الأب والأبوة", en: "Sunan al-Nasa'i 999 — the father and fatherhood", ur: "سنن نسائی 999 — باپ اور والدیت", es: "Sunan al-Nasa'i 999 — El padre y la paternidad", fr: "Sunan al-Nasa'i 999 — Le père et la paternité" }
+label: { ar: "سنن النسائي 999 — الأب والأبوة", en: "Sunan al-Nasa'i 999 — the father and fatherhood", ur: "سنن نسائی 999 — باپ اور والدیت", es: "Sunan al-Nasa'i 999 — El padre y la paternidad", fr: "Sunan al-Nasa'i 999 — Le père et la paternité", tr: "Sunan an-Nasa'i 999 — Baba ve Babalık", id: "Sunan an-Nasa'i 999 — Sang Ayah dan Peran Ayah" }
 text: "أَخْبَرَنَا مُحَمَّدُ بْنُ عَلِيِّ بْنِ الْحَسَنِ بْنِ شَقِيقٍ، قَالَ حَدَّثَنَا أَبِي قَالَ، أَنْبَأَنَا الْحُسَيْنُ بْنُ وَاقِدٍ، عَنْ عَبْدِ اللَّهِ بْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، أَنَّ رَسُولَ اللَّهِ كَانَ يَقْرَأُ فِي صَلاَةِ الْعِشَاءِ الآخِرَةِ بِالشَّمْسِ وَضُحَاهَا وَأَشْبَاهِهَا مِنَ السُّوَرِ."
 summary:
   ar: "حديث في سنن النسائي، رقم 999، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 999، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 999 (El Libro del Inicio de la Oración), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sunan an-Nasa'i, n° 999 (Le Livre du Commencement de la Prière), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sunan-ı Nesai'de yer alan 999 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, nomor 999, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 999 (book 11 hadith 124); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

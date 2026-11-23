@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1459"
-label: { ar: "جامع الترمذي 1459 — الأب والأبوة", en: "Jami' al-Tirmidhi 1459 — the father and fatherhood", ur: "جامع ترمذی 1459 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1459 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 1459 — le père et la paternité" }
+label: { ar: "جامع الترمذي 1459 — الأب والأبوة", en: "Jami' al-Tirmidhi 1459 — the father and fatherhood", ur: "جامع ترمذی 1459 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1459 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 1459 — le père et la paternité", tr: "Cami' el-Tirmizi 1459 — Baba ve Babalık", id: "Jami' al-Tirmidhi 1459 — Sang Ayah dan Peran Ayah" }
 text: "… سَلْمُ بْنُ جُنَادَةَ قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ بُرَيْدِ بْنِ عَبْدِ اللَّهِ بْنِ أَبِي بُرْدَةَ، عَنْ جَدِّهِ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى، عَنِ النَّبِيِّ قَالَ \" مَنْ حَمَلَ عَلَيْنَا السِّلاَحَ فَلَيْسَ مِنَّا \". قَالَ وَفِي الْبَابِ عَنِ ابْنِ عُمَرَ وَابْنِ الزُّبَيْرِ وَأَبِي هُرَيْرَةَ وَسَلَمَةَ بْنِ الأَكْوَعِ. قَالَ أَبُو عِيسَى حَدِيثُ أَبِي مُوسَى حَدِيثٌ حَسَنٌ صَحِيحٌ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 1459، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 1459، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 1459 (El Libro de los Castigos Legales (Al-Hudud)), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 1459 (Le Livre des peines légales (Al-Hudud)), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Cami' el-Tirmizi'nin 1459 numaralı hadisinde baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı bu hadisi Kur'an, Sünnet, biyografi ve konuyla ilgili diğer kitaplardan metinlerle birleştirir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 1459, menyebutkan tentang ayah dan peran ayah. Fitur \"Peran Ayah dalam Islam\" menggabungkan hadits ini dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang subjek tersebut."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1459 (book 17 hadith 43); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

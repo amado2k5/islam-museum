@@ -347,7 +347,7 @@ jobs:
           echo "### Smoke test: $SITE_URL" >> "$GITHUB_STEP_SUMMARY"
           echo >> "$GITHUB_STEP_SUMMARY"
           bad=0
-          for p in / /ar/ /en/ /ur/ /fr/ /es/ /ar/person/muhammad/ /brand/logo-mark.svg /api/v1/meta/deploy.json /robots.txt; do
+          for p in / /ar/ /en/ /ur/ /fr/ /es/ /tr/ /id/ /ar/person/muhammad/ /brand/logo-mark.svg /api/v1/meta/deploy.json /robots.txt; do
             code=$(curl -s -o /dev/null -L -w '%{http_code}' --max-time 30 "$SITE_URL$p" || echo "000")
             echo "- \`$p\` → $code" >> "$GITHUB_STEP_SUMMARY"
             [ "$code" = "200" ] || bad=$((bad + 1))

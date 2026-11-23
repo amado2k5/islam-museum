@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "2080"
-label: { ar: "سنن النسائي 2080 — ساعة الاحتضار والوفاة", en: "Sunan al-Nasa'i 2080 — a deathbed and last hours", ur: "سنن نسائی 2080 — وقتِ وفات اور آخری لمحات", es: "Sunan al-Nasa'i 2080 — lecho de muerte y últimas horas", fr: "Sunan al-Nasa'i 2080 — Un lit de mort et les dernières heures" }
+label: { ar: "سنن النسائي 2080 — ساعة الاحتضار والوفاة", en: "Sunan al-Nasa'i 2080 — a deathbed and last hours", ur: "سنن نسائی 2080 — وقتِ وفات اور آخری لمحات", es: "Sunan al-Nasa'i 2080 — lecho de muerte y últimas horas", fr: "Sunan al-Nasa'i 2080 — Un lit de mort et les dernières heures", tr: "Sunan an-Nasa'i 2080 — Ölüm ve Ölme Saati", id: "Sunan an-Nasa'i 2080 — Saat-saat Kematian dan Sakaratul Maut" }
 text: "… عَنْ رِبْعِيٍّ، عَنْ حُذَيْفَةَ، عَنْ رَسُولِ اللَّهِ قَالَ \" كَانَ رَجُلٌ مِمَّنْ كَانَ قَبْلَكُمْ يُسِيءُ الظَّنَّ بِعَمَلِهِ فَلَمَّا حَضَرَتْهُ الْوَفَاةُ قَالَ لأَهْلِهِ إِذَا أَنَا مُتُّ فَأَحْرِقُونِي ثُمَّ اطْحَنُونِي ثُمَّ اذْرُونِي فِي الْبَحْرِ فَإِنَّ اللَّهَ إِنْ يَقْدِرْ عَلَىَّ لَمْ يَغْفِرْ لِي. قَالَ فَأَمَرَ اللَّهُ عَزَّ وَجَلَّ الْمَلاَئِكَةَ فَتَلَقَّتْ رُوحَهُ قَالَ لَهُ مَا حَمَلَكَ عَلَى مَا فَعَلْتَ …"
 summary:
   ar: "حديث في سنن النسائي، رقم 2080، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 2080، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 2080 (El Libro de los Funerales), menciona un lecho de muerte y las últimas horas. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sunan an-Nasa'i, n° 2080 (Le Livre des Funérailles), mentionne un lit de mort et les dernières heures. Le Navigateur des Testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, des dernières heures, des biens, des reliques et des tombes."
+  tr: "Sunan-ı Nesai'de yer alan 2080 numaralı hadis, ölüm anını ve ölüm sürecini konu almaktadır. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler konusunda uzmanlaşmış araştırmacılar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, nomor 2080, menyebutkan saat kematian dan proses sekarat. Hadits ini disusun oleh para peneliti yang ahli dalam wasiat, warisan, barang antik, dan makam suci, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ihtidar, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2080 (book 21 hadith 263); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

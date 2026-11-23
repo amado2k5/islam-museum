@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/muhammad-ibn-shihab-al-zuhri, person/salim-ibn-abdallah-ibn-umar, person/abdullah-ibn-umar]
 work: work/muwatta-malik
 ref: "1282"
-label: { ar: "الموطأ 1282 — سالم عن ابن عمر: مثل قول عائشة في صيام المتمتع", en: "Muwatta 1282", es: "Muwatta 1282", fr: "Muwatta 1282", ur: "موطا 1282" }
+label: { ar: "الموطأ 1282 — سالم عن ابن عمر: مثل قول عائشة في صيام المتمتع", en: "Muwatta 1282", es: "Muwatta 1282", fr: "Muwatta 1282", ur: "موطا 1282", tr: "El-Muvatta 1282 — Salim, İbn Ömer'den rivayetle: Aişe'nin Tamattu' yapanın orucu hakkında söylediklerine benzer.", id: "Al-Muwatta 1282 — Salim berdasarkan riwayat Ibnu Umar: Sama seperti apa yang dikatakan Aisyah mengenai puasa orang yang melakukan Tamattu’." }
 summary:
   ar: "يروي مالك عن ابن شهاب عن سالم بن عبد الله عن عبد الله بن عمر أنه كان يقول في ذلك مثل قول عائشة. {cite:muwatta-maruf-1997 p.569}"
+  tr: "Malik, İbn Şihab'dan, o da Salim ibn Abdullah'tan, o da Abdullah ibn Ömer'den rivayet ederek, kendisinin de Aişe ile aynı şeyi söylediğini nakletmiştir. {cite:muwatta-maruf-1997 s.569}"
+  id: "Malik meriwayatkan dari Ibnu Shihab, dari Salim ibn Abdullah, dari Abdullah ibn Umar, bahwa ia biasa mengatakan hal yang sama seperti Aisyah. {cite:muwatta-maruf-1997 p.569}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
   - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }

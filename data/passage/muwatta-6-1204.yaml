@@ -4,10 +4,12 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani, person/abdullah-ibn-umar, person/muhammad]
 work: work/muwatta-malik
 ref: "1204"
-label: { ar: "الموطأ 1204 — نافع عن ابن عمر: أناخ النبي بالبطحاء التي بذي الحليفة فصلى بها، وكان ابن عمر يفعل ذلك", en: "Muwatta 1204", es: "Muwatta 1204", fr: "Muwatta 1204", ur: "موطا 1204" }
+label: { ar: "الموطأ 1204 — نافع عن ابن عمر: أناخ النبي بالبطحاء التي بذي الحليفة فصلى بها، وكان ابن عمر يفعل ذلك", en: "Muwatta 1204", es: "Muwatta 1204", fr: "Muwatta 1204", ur: "موطا 1204", tr: "El-Muvatta 1204 — Nafi'nin İbn Ömer'den rivayet ettiğine göre: Peygamberimiz Zül-Huleyfe'deki El-Bat'ha'da durup orada namaz kılardı ve İbn Ömer de bunu yapardı.", id: "Al-Muwatta 1204 — Diriwayatkan oleh Nafi’ dari Ibnu Umar: Nabi berhenti di Al-Bat’ha’ pada bulan Dzul Hulayfah dan shalat di sana, dan Ibnu Umar biasa melakukan hal itu." }
 text: "أَنَاخَ بالبطحاءِ التي بذي الحُلَيْفَةِ، فَصَلَّى بِهَا"
 summary:
   ar: "يروي مالك عن نافع عن عبد الله بن عمر أن رسول الله أناخ بالبطحاء التي بذي الحليفة فصلى بها. قال نافع وكان عبد الله بن عمر يفعل ذلك. {cite:muwatta-maruf-1997 p.541}"
+  tr: "Malik, Nafi'den, o da Abdullah ibn Umar'dan rivayet ettiğine göre, Allah Resulü Zül-Huleyfe'deki el-Bat'ha'da durup orada namaz kılmıştır. Nafi' şöyle demiştir: \"Abdullah ibn Umar da bunu yapardı.\" {cite:muwatta-maruf-1997 s.541}"
+  id: "Malik meriwayatkan dari Nafi’ yang juga meriwayatkan dari Abdullah ibn Umar bahwa Rasulullah SAW berhenti di al-Bat’ha’ pada bulan Dhu al-Hulayfah dan shalat di sana. Nafi’ berkata, “Dan Abdullah ibn Umar biasa melakukan hal itu.” {cite:muwatta-maruf-1997 p.541}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
   - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }

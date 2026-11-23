@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "2697"
-label: { ar: "جامع الترمذي 2697 — جمع القرآن والمصاحف", en: "Jami' al-Tirmidhi 2697 — the collection of the Qur'an and the codices", ur: "جامع ترمذی 2697 — جمعِ قرآن اور مصاحف", es: "Jami' al-Tirmidhi 2697 — la colección del Corán y los códices", fr: "Jami' al-Tirmidhi 2697 — le recueil du Coran et des codex" }
+label: { ar: "جامع الترمذي 2697 — جمع القرآن والمصاحف", en: "Jami' al-Tirmidhi 2697 — the collection of the Qur'an and the codices", ur: "جامع ترمذی 2697 — جمعِ قرآن اور مصاحف", es: "Jami' al-Tirmidhi 2697 — la colección del Corán y los códices", fr: "Jami' al-Tirmidhi 2697 — le recueil du Coran et des codex", tr: "Cami' el-Tirmizi 2697 — Kur'an ve Kur'an el yazmalarının derlemesi", id: "Jami' al-Tirmidhi 2697 — Kumpulan Al-Qur'an dan manuskrip-manuskrip Al-Qur'an" }
 text: "… إِسْمَاعِيلَ شَهْرٌ حَسَنُ الْحَدِيثِ وَقَوَّى أَمْرَهُ وَقَالَ إِنَّمَا تَكَلَّمَ فِيهِ ابْنُ عَوْنٍ ثُمَّ رَوَى عَنْ هِلاَلِ بْنِ أَبِي زَيْنَبَ عَنْ شَهْرِ بْنِ حَوْشَبٍ. أَنْبَأَنَا أَبُو دَاوُدَ الْمَصَاحِفِيُّ بَلْخِيٌّ أَخْبَرَنَا النَّضْرُ بْنُ شُمَيْلٍ عَنِ ابْنِ عَوْنٍ قَالَ إِنَّ شَهْرًا نَزَكُوهُ. قَالَ أَبُو دَاوُدَ قَالَ النَّضْرُ تَرَكُوهُ أَىْ طَعَنُوا فِيهِ وَإِنَّمَا طَعَنُوا فِيهِ لأَنَّهُ وَلِيَ أَمْرَ السُّلْطَانِ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 2697، يذكر جمع القرآن والمصاحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 2697، جس میں جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 2697 (Capítulos sobre la solicitud de permiso), menciona la colección del Corán y los códices. El catálogo del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 2697 (Chapitres sur la demande de permission), mentionne la collection du Coran et des codex. Le catalogue du musée consacré à la lecture et à l'écriture du Coran répertorie ces documents avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Cami' el-Tirmizi'de 2697 numaralı hadis, Kur'an'ın ve el yazmalarının derlenmesinden bahsetmektedir. Bu hadis, Kur'an okunuşları, yazısı, hat sanatı ve diyakritik işaretleri konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 2697, menyebutkan penyusunan Al-Quran dan manuskrip-manuskripnya. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/mushaf, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2697 (book 42 hadith 10); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

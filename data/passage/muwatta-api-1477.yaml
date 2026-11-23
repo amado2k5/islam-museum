@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1477"
-label: { ar: "موطأ مالك 1477 — الأب والأبوة", en: "Muwatta Malik 1477 — the father and fatherhood", ur: "موطأ مالک 1477 — باپ اور والدیت", es: "Muwatta Malik 1477 — El padre y la paternidad", fr: "Muwatta Malik 1477 — le père et la paternité" }
+label: { ar: "موطأ مالك 1477 — الأب والأبوة", en: "Muwatta Malik 1477 — the father and fatherhood", ur: "موطأ مالک 1477 — باپ اور والدیت", es: "Muwatta Malik 1477 — El padre y la paternidad", fr: "Muwatta Malik 1477 — le père et la paternité", tr: "Muwatta Malik 1477 — Baba ve Babalık", id: "Muwatta Malik 1477 — Sang Ayah dan Peran Ayah" }
 text: "حَدَّثَنِي مَالِكٌ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، زَوْجِ النَّبِيِّ أَنَّ رَسُولَ اللَّهِ سُئِلَ عَنِ الرِّقَابِ أَيُّهَا أَفْضَلُ فَقَالَ رَسُولُ اللَّهِ \" أَغْلاَهَا ثَمَنًا وَأَنْفَسُهَا عِنْدَ أَهْلِهَا \"."
 summary:
   ar: "حديث في موطأ مالك، رقم 1477، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 1477، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Muwatta Malik, n.° 1477 (Liberación y Wala'), menciona al padre y la paternidad. El Navegador de la Paternidad en el Islam lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un rapport du Muwatta Malik, n° 1477 (Libération et Wala'), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce rapport avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant du père."
+  tr: "Malik'in Muwatta'sında yer alan 1477 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 1477, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1477 (book 38 hadith 14); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani]
 work: work/muwatta-malik
 ref: "1401"
-label: { ar: "الموطأ 1401 — نافع عن ابن عمر: لم يكن يضحي عما في بطن المرأة", en: "Muwatta 1401", es: "Muwatta 1401", fr: "Muwatta 1401", ur: "موطا 1401" }
+label: { ar: "الموطأ 1401 — نافع عن ابن عمر: لم يكن يضحي عما في بطن المرأة", en: "Muwatta 1401", es: "Muwatta 1401", fr: "Muwatta 1401", ur: "موطا 1401", tr: "El-Muvatta 1401 — İbn Ömer'den rivayet edildiğine göre Nafi': Kadının rahminde olan şey için kurban kesmedi.", id: "Al-Muwatta 1401 — Diriwayatkan oleh Nafi’ dari Ibnu Umar: Dia tidak bersembelih untuk apa yang ada di dalam kandungan seorang wanita." }
 summary:
   ar: "يروي مالك عن نافع أن عبد الله بن عمر لم يكن يضحي عما في بطن المرأة. {cite:muwatta-maruf-1997 p.626}"
+  tr: "Malik, Nafi'den rivayetle Abdullah ibn Umar'ın doğmamış bir çocuğu kurban etmediğini nakletmiştir. {cite:muwatta-maruf-1997 s.626}"
+  id: "Malik meriwayatkan dari Nafi’ bahwa Abdullah ibn Umar tidak mengorbankan janin yang belum lahir. {cite:muwatta-maruf-1997 p.626}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-09-dahaya }
   - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }

@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/umar-ibn-husayn]
 work: work/muwatta-malik
 ref: "2555"
-label: { ar: "الموطأ 2555 — عمر بن حسين مولى عائشة بنت قدامة: عبد الملك بن مروان يقيد وليا بعصا", en: "Muwatta 2555", es: "Muwatta 2555", fr: "Muwatta 2555", ur: "موطا 2555" }
+label: { ar: "الموطأ 2555 — عمر بن حسين مولى عائشة بنت قدامة: عبد الملك بن مروان يقيد وليا بعصا", en: "Muwatta 2555", es: "Muwatta 2555", fr: "Muwatta 2555", ur: "موطا 2555", tr: "El-Muvatta 2555 — Ömer ibn Hüseyin, Ayşe bint Kudame'nin azatlı kölesi: Abdülmalik ibn Mervan, bir bekçiyi sopayla zapt ediyor.", id: "Al-Muwatta 2555 — Umar ibn Husayn, budak yang dibebaskan oleh Aisha bint Qudama: Abd al-Malik ibn Marwan menahan seorang penjaga dengan tongkat" }
 summary:
   ar: "يروي يحيى عن مالك عن عمر بن حسين مولى عائشة بنت قدامة أن عبد الملك بن مروان أقاد ولي رجل من رجل قتله بعصا، فقتله وليه بعصا. {cite:muwatta-maruf-1997 p.444}"
+  tr: "Yahya, Malik'ten, o da Aişe bint Kudame'nin azatlı kölesi Ömer ibn Hüseyin'den rivayet ettiğine göre, Abdülmalik ibn Mervan, bir adamın vasisine, onu sopayla öldüren başka bir adamdan intikam almasını emretti; bunun üzerine vasi onu sopayla öldürdü. {cite:muwatta-maruf-1997 s.444}"
+  id: "Yahya meriwayatkan dari Malik, dari Umar ibn Husayn, budak yang dibebaskan oleh Aisyah binti Qudama, bahwa Abd al-Malik ibn Marwan memerintahkan pembalasan dari wali seorang pria terhadap pria lain yang telah membunuhnya dengan tongkat, sehingga wali tersebut membunuhnya dengan tongkat. {cite:muwatta-maruf-1997 p.444}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

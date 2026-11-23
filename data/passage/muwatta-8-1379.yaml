@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani]
 work: work/muwatta-malik
 ref: "1379"
-label: { ar: "الموطأ 1379 — نافع عن ابن عمر: كان يكفر عن يمينه بإطعام عشرة مساكين لكل مسكين مد من حنطة", en: "Muwatta 1379", es: "Muwatta 1379", fr: "Muwatta 1379", ur: "موطا 1379" }
+label: { ar: "الموطأ 1379 — نافع عن ابن عمر: كان يكفر عن يمينه بإطعام عشرة مساكين لكل مسكين مد من حنطة", en: "Muwatta 1379", es: "Muwatta 1379", fr: "Muwatta 1379", ur: "موطا 1379", tr: "El-Muvatta 1379 — İbn Ömer'den rivayet edildiğine göre Nafi': Yeminini, her birine bir mudd buğday vererek on fakiri doyurarak telafi ederdi.", id: "Al-Muwatta 1379 — Diriwayatkan oleh Nafi’ dari Ibnu Umar: Dia menebus sumpahnya dengan memberi makan sepuluh orang miskin, memberi setiap orang miskin satu mudd gandum." }
 summary:
   ar: "يروي مالك عن نافع أن عبد الله بن عمر كان يكفر عن يمينه بإطعام عشرة مساكين، لكل مسكين مد من حنطة. {cite:muwatta-maruf-1997 p.615}"
+  tr: "Malik, Nafi’den rivayetle, Abdullah ibn Umar’ın yeminlerini, her birine bir mudd (belirli bir ölçü) buğday vererek on fakiri doyurarak telafi ettiğini anlatır. {cite:muwatta-maruf-1997 s.615}"
+  id: "Malik meriwayatkan dari Nafi’ bahwa Abdullah ibn Umar biasa menebus sumpahnya dengan memberi makan sepuluh orang miskin, masing-masing memberikan satu mudd (ukuran tertentu) gandum. {cite:muwatta-maruf-1997 p.615}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-08-nudhur }
   - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }

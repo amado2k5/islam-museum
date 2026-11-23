@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1478"
-label: { ar: "موطأ مالك 1478 — النسب والانتساب", en: "Muwatta Malik 1478 — paternity and lineage", ur: "موطأ مالک 1478 — نسب اور انتساب", es: "Muwatta Malik 1478 - paternidad y linaje", fr: "Muwatta Malik 1478 — paternité et lignée" }
+label: { ar: "موطأ مالك 1478 — النسب والانتساب", en: "Muwatta Malik 1478 — paternity and lineage", ur: "موطأ مالک 1478 — نسب اور انتساب", es: "Muwatta Malik 1478 - paternidad y linaje", fr: "Muwatta Malik 1478 — paternité et lignée", tr: "Muwatta Malik 1478 — Nesil ve Bağlılık", id: "Muwatta Malik 1478 — Silsilah dan Afiliasi" }
 text: "وَحَدَّثَنِي مَالِكٌ، عَنْ نَافِعٍ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، أَنَّهُ أَعْتَقَ وَلَدَ زِنًا وَأُمَّهُ."
 summary:
   ar: "حديث في موطأ مالك، رقم 1478، يذكر النسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 1478، جس میں نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Muwatta Malik, n.° 1478 (Liberación y Wala'), menciona la paternidad y el linaje. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un rapport du Muwatta Malik, n° 1478 (Liberté et Wala'), mentionne la paternité et la lignée. Le site The Fatherhood in Islam Browser le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant du père."
+  tr: "Malik'in Muwatta'sında yer alan 1478 numaralı hadis, soy ve atalardan bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 1478, menyebutkan tentang garis keturunan dan leluhur. Peramban \"Kebapakan dalam Islam\" mengumpulkannya dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/intisab, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1478 (book 38 hadith 15); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

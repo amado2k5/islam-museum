@@ -75,7 +75,7 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   function* pages() {
     for (const path of paths) {
       const html = readFileSync(path, "utf8");
-      for (const m of html.matchAll(/href="\/(ar|en|ur|fr|es)\/modern\/year\/(\d+)\/"/g)) {
+      for (const m of html.matchAll(/href="\/(ar|en|ur|fr|es|tr|id)\/modern\/year\/(\d+)\/"/g)) {
         const target = `${m[1]}/modern/year/${m[2]}/index.html`;
         if (!yearLinks.has(target)) yearLinks.set(target, rel(path));
       }

@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani]
 work: work/muwatta-malik
 ref: "775"
-label: { ar: "الموطأ 775 — نافع: كان ابن عمر لا يخرج في زكاة الفطر إلا التمر، إلا مرة واحدة أخرج شعيراً", en: "Muwatta 775", es: "Muwatta 775", fr: "Muwatta 775", ur: "موطا 775" }
+label: { ar: "الموطأ 775 — نافع: كان ابن عمر لا يخرج في زكاة الفطر إلا التمر، إلا مرة واحدة أخرج شعيراً", en: "Muwatta 775", es: "Muwatta 775", fr: "Muwatta 775", ur: "موطا 775", tr: "El-Muvatta 775 — Nafi’: İbn Ömer, zekât-ı fitr olarak yalnızca hurma verirdi, bir keresinde ise arpa vermişti.", id: "Al-Muwatta 775 — Nafi’: Ibnu Umar hanya memberikan kurma sebagai Zakat al-Fitr, kecuali sekali ketika ia memberikan jelai." }
 summary:
   ar: "يرويه مالك عن نافع، أن عبد الله بن عمر كان لا يخرج في زكاة الفطر إلا التمر، إلا مرة واحدة فإنه أخرج شعيراً. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد والشافعي في مسنده. {cite:muwatta-maruf-1997 p.383}"
+  tr: "Malik, Nafi’den rivayet ettiğine göre, Abdullah ibn Umar zekât-ı fitr olarak sadece hurma verirdi, bir keresinde ise arpa vermişti. Araştırmacı, Ebu Mus’ab, Suwaid ve Şafii’nin de bunu Malik’ten rivayet ederek Musned’inde naklettiklerini belirtiyor. {cite:muwatta-maruf-1997 s.383}"
+  id: "Malik meriwayatkan dari Nafi’ bahwa Abdullah ibn Umar hanya memberikan kurma sebagai Zakat al-Fitr, kecuali sekali ketika beliau memberikan jelai. Peneliti menyebutkan bahwa Abu Mus’ab, Suwaid, dan al-Shafi’i meriwayatkannya dari Malik dalam Musnadnya. {cite:muwatta-maruf-1997 p.383}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
   - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }

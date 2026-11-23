@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/muhammad-ibn-shihab-al-zuhri, person/muhammad]
 work: work/muwatta-malik
 ref: "884"
-label: { ar: "الموطأ 884 — ابن شهاب: كان رسول الله يذهب لحاجة الإنسان في البيوت وهو معتكف", en: "Muwatta 884", es: "Muwatta 884", fr: "Muwatta 884", ur: "موطا 884" }
+label: { ar: "الموطأ 884 — ابن شهاب: كان رسول الله يذهب لحاجة الإنسان في البيوت وهو معتكف", en: "Muwatta 884", es: "Muwatta 884", fr: "Muwatta 884", ur: "موطا 884", tr: "El-Muvatta 884 — İbn Şihab: Allah'ın Resulü, inzivada olduğu zamanlarda insanların ihtiyaçlarını karşılamak için evlerine giderdi.", id: "Al-Muwatta 884 — Ibn Shihab: Rasulullah SAW biasa mengunjungi rumah-rumah orang untuk memenuhi kebutuhan mereka ketika beliau sedang menyendiri." }
 summary:
   ar: "يرويه زياد عن مالك عن ابن شهاب، أن رسول الله كان يذهب لحاجة الإنسان في البيوت. ويذكر المحقق أن عبارة «وهو معتكف» سقطت من نسخة م، وأنه رواه عن مالك أبو مصعب (881). {cite:muwatta-maruf-1997 p.426}"
+  tr: "Ziyad'ın, Malik'ten, o da İbn Şihab'tan rivayet ettiğine göre, Allah Resulü insanların ihtiyaçlarını karşılamak için evlerine giderdi. Editör, \"gizli kaldığı sırada\" ifadesinin M el yazmasında bulunmadığını ve bunun Malik'ten, Ebu Mus'ab (881) tarafından rivayet edildiğini belirtmektedir. {cite:muwatta-maruf-1997 s.426}"
+  id: "Diriwayatkan oleh Ziyad dari Malik dari Ibnu Shihab, bahwa Rasulullah SAW biasa mengunjungi rumah-rumah penduduk untuk memenuhi kebutuhan mereka. Editor mencatat bahwa frasa \"ketika beliau sedang menyendiri\" tidak ada dalam manuskrip M, dan bahwa hal itu diriwayatkan dari Malik oleh Abu Mus'ab (881). {cite:muwatta-maruf-1997 p.426}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-05-itikaf }
   - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }

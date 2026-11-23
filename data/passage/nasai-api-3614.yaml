@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "3614"
-label: { ar: "سنن النسائي 3614 — وصية أو عهد أخير", en: "Sunan al-Nasa'i 3614 — a testament or parting counsel", ur: "سنن نسائی 3614 — وصیت یا آخری نصیحت", es: "Sunan al-Nasa'i 3614 — un testamento o consejo de despedida", fr: "Sunan al-Nasa'i 3614 — un testament ou un conseil d'adieu" }
+label: { ar: "سنن النسائي 3614 — وصية أو عهد أخير", en: "Sunan al-Nasa'i 3614 — a testament or parting counsel", ur: "سنن نسائی 3614 — وصیت یا آخری نصیحت", es: "Sunan al-Nasa'i 3614 — un testamento o consejo de despedida", fr: "Sunan al-Nasa'i 3614 — un testament ou un conseil d'adieu", tr: "Sunan an-Nasa'i 3614 — Son vasiyetname", id: "Sunan an-Nasa'i 3614 — Surat wasiat terakhir" }
 text: "أَخْبَرَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا مُحَمَّدٌ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ سَمِعْتُ أَبَا إِسْحَاقَ، سَمِعَ أَبَا حَبِيبَةَ الطَّائِيَّ، قَالَ أَوْصَى رَجُلٌ بِدَنَانِيرَ فِي سَبِيلِ اللَّهِ فَسُئِلَ أَبُو الدَّرْدَاءِ فَحَدَّثَ عَنِ النَّبِيِّ قَالَ \" مَثَلُ الَّذِي يَعْتِقُ أَوْ يَتَصَدَّقُ عِنْدَ مَوْتِهِ مَثَلُ الَّذِي يُهْدِي بَعْدَ مَا يَشْبَعُ \"."
 summary:
   ar: "حديث في سنن النسائي، رقم 3614، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 3614، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 3614 (El Libro de los Testamentos), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sunan al-Nasa'i, n° 3614 (Le Livre des Testaments), mentionne un testament ou des dernières volontés. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des sépultures."
+  tr: "Sunan-ı Nesai'de yer alan 3614 numaralı hadiste, vasiyet veya son bir ahitten bahsedilmektedir. Bu hadis, vasiyet, miras, kutsal emanetler ve türbeler konusunda uzmanlaşmış araştırmacılar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, no. 3614, menyebutkan wasiat atau perjanjian terakhir. Hadits ini disusun oleh para peneliti yang ahli dalam wasiat, warisan, relik, dan makam, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3614 (book 30 hadith 4); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

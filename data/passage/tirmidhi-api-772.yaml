@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "772"
-label: { ar: "جامع الترمذي 772 — الأب والأبوة", en: "Jami' al-Tirmidhi 772 — the father and fatherhood", ur: "جامع ترمذی 772 — باپ اور والدیت", es: "Jami' al-Tirmidhi 772 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 772 — le père et la paternité" }
+label: { ar: "جامع الترمذي 772 — الأب والأبوة", en: "Jami' al-Tirmidhi 772 — the father and fatherhood", ur: "جامع ترمذی 772 — باپ اور والدیت", es: "Jami' al-Tirmidhi 772 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 772 — le père et la paternité", tr: "Cami' el-Tirmizi 772 — Baba ve Babalık", id: "Jami' al-Tirmidhi 772 — Sang Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ مُحَمَّدٍ، عَنْ عَمْرِو بْنِ يَحْيَى، عَنْ أَبِيهِ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ نَهَى رَسُولُ اللَّهِ عَنْ صِيَامَيْنِ يَوْمِ الأَضْحَى وَيَوْمِ الْفِطْرِ. قَالَ وَفِي الْبَابِ عَنْ عُمَرَ وَعَلِيٍّ وَعَائِشَةَ وَأَبِي هُرَيْرَةَ وَعُقْبَةَ بْنِ عَامِرٍ وَأَنَسٍ. قَالَ أَبُو عِيسَى حَدِيثُ أَبِي سَعِيدٍ حَدِيثٌ حَسَنٌ صَحِيحٌ. وَالْعَمَلُ عَلَيْهِ عِنْدَ أَهْلِ الْعِلْمِ. قَالَ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 772، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 772، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Jami' al-Tirmidhi, n.º 772 (El Libro del Ayuno), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 772 (Le Livre du jeûne), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Cami' el-Tirmizi'nin 772 numaralı hadisinde baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı bunu Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birleştirir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 772, menyebutkan tentang ayah dan peran ayah. Fitur \"Peran Ayah dalam Islam\" menggabungkan hal ini dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 772 (book 8 hadith 91); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

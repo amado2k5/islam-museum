@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani]
 work: work/muwatta-malik
 ref: "1399"
-label: { ar: "الموطأ 1399 — نافع عن ابن عمر: الأضحى يومان بعد يوم الأضحى", en: "Muwatta 1399", es: "Muwatta 1399", fr: "Muwatta 1399", ur: "موطا 1399" }
+label: { ar: "الموطأ 1399 — نافع عن ابن عمر: الأضحى يومان بعد يوم الأضحى", en: "Muwatta 1399", es: "Muwatta 1399", fr: "Muwatta 1399", ur: "موطا 1399", tr: "El-Muvatta 1399 — İbn Ömer'den rivayet edildiğine göre Nafi': Kurban Bayramı, Kurban Bayramı gününden iki gün sonradır.", id: "Al-Muwatta 1399 — Diriwayatkan oleh Nafi’ dari Ibnu Umar: Hari Raya Idul Adha adalah dua hari setelah hari raya Idul Adha." }
 summary:
   ar: "يقول يحيى عن مالك عن نافع أن عبد الله بن عمر قال الأضحى يومان بعد يوم الأضحى. {cite:muwatta-maruf-1997 p.626}"
+  tr: "Yahya, Malik'ten, o da Nafi'den rivayetle Abdullah ibn Umar'ın şöyle dediğini aktarır: \"Kurban Bayramı, Kurban Bayramı gününden iki gün sonradır.\" {cite:muwatta-maruf-1997 s.626}"
+  id: "Yahya meriwayatkan dari Malik, dari Nafi’, bahwa Abdullah ibn Umar berkata: “Hari Raya Idul Adha adalah dua hari setelah hari raya Idul Adha.” {cite:muwatta-maruf-1997 p.626}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-09-dahaya }
   - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }

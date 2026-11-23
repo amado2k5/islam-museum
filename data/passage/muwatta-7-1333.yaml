@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani, person/abdullah-ibn-umar]
 work: work/muwatta-malik
 ref: "1333"
-label: { ar: "الموطأ 1333 — نافع عن ابن عمر: غسل عمر بن الخطاب وكفن وصلي عليه، وكان شهيدا", en: "Muwatta 1333", es: "Muwatta 1333", fr: "Muwatta 1333", ur: "موطا 1333" }
+label: { ar: "الموطأ 1333 — نافع عن ابن عمر: غسل عمر بن الخطاب وكفن وصلي عليه، وكان شهيدا", en: "Muwatta 1333", es: "Muwatta 1333", fr: "Muwatta 1333", ur: "موطا 1333", tr: "El-Muvatta 1333 — Nafi'nin İbn Ömer'den rivayet ettiğine göre: Ömer ibn el-Hattab yıkandı, kefenlendi ve üzerine namaz kılındı; şehit oldu.", id: "Al-Muwatta 1333 — Diriwayatkan oleh Nafi’ dari Ibnu Umar: Umar bin al-Khattab dimandikan, dikafani, dan didoakan, lalu ia gugur sebagai syahid." }
 summary:
   ar: "يروي مالك عن نافع عن عبد الله بن عمر أن عمر بن الخطاب غسل وكفن وصلي عليه، وكان شهيدا. {cite:muwatta-maruf-1997 p.596}"
+  tr: "Malik, Nafi'den, o da Abdullah ibn Umar'dan rivayet ettiğine göre, Ömer ibn el-Hattab yıkanmış, kefenlenmiş ve üzerine namaz kılınmış ve şehit olmuştur. {cite:muwatta-maruf-1997 s.596}"
+  id: "Malik meriwayatkan dari Nafi’ dari Abdullah ibn Umar bahwa Umar ibn al-Khattab dimandikan, dikafani, dan didoakan, lalu ia gugur sebagai syahid. {cite:muwatta-maruf-1997 p.596}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
   - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }

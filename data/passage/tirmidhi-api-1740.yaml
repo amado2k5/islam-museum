@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1740"
-label: { ar: "جامع الترمذي 1740 — أثر من الآثار المحفوظة", en: "Jami' al-Tirmidhi 1740 — a relic kept after its owner", ur: "جامع ترمذی 1740 — محفوظ آثار و تبرکات", es: "Jami' al-Tirmidhi 1740 — una reliquia conservada después de su propietario.", fr: "Jami' al-Tirmidhi 1740 — une relique conservée après son propriétaire" }
+label: { ar: "جامع الترمذي 1740 — أثر من الآثار المحفوظة", en: "Jami' al-Tirmidhi 1740 — a relic kept after its owner", ur: "جامع ترمذی 1740 — محفوظ آثار و تبرکات", es: "Jami' al-Tirmidhi 1740 — una reliquia conservada después de su propietario.", fr: "Jami' al-Tirmidhi 1740 — une relique conservée après son propriétaire", tr: "Cami' el-Tirmizi 1740 — Korunmuş bir tarihi eser", id: "Jami' al-Tirmidhi 1740 — Sebuah peninggalan yang terpelihara" }
 text: "حَدَّثَنَا مَحْمُودُ بْنُ غَيْلاَنَ، حَدَّثَنَا حَفْصُ بْنُ عُمَرَ بْنِ عُبَيْدٍ الطَّنَافِسِيُّ، حَدَّثَنَا زُهَيْرُ بْنُ مُعَاوِيَةَ أَبُو خَيْثَمَةَ، عَنْ حُمَيْدٍ، عَنْ أَنَسٍ، قَالَ كَانَ خَاتَمُ رَسُولِ اللَّهِ مِنْ فِضَّةٍ فَصُّهُ مِنْهُ. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ غَرِيبٌ مِنْ هَذَا الْوَجْهِ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 1740، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 1740، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 1740 (El Libro de la Vestimenta), menciona una reliquia conservada tras la muerte de su dueño. El Navegador de Testamentos la incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 1740 (Livre des vêtements), mentionne une relique conservée après son propriétaire. Le Navigateur des Testaments la répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "Cami' el-Tirmizi'nin 1740 numaralı hadisinde, günümüze kadar korunmuş bir rivayetten bahsedilmektedir. Bu hadis, vasiyetnameler, miras, gelenekler ve türbeler konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 1740, menyebutkan sebuah tradisi yang terpelihara. Hadits ini disusun oleh seorang peneliti yang ahli dalam wasiat, warisan, tradisi, dan makam suci, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tabarruk, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1740 (book 24 hadith 21); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

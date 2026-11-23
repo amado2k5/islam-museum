@@ -201,7 +201,13 @@ def main():
                 for p in parts[:-1]:
                     mm = re.fullmatch(r"(.*)\[(\d+)\]", p)
                     parent = parent[mm.group(1)][int(mm.group(2))] if mm else parent[p]
-                parent[key][a.lang] = t
+                mm = re.fullmatch(r"(.*)\[(\d+)\]", key)
+                if mm:
+                    lst, idx = parent[mm.group(1)], int(mm.group(2))
+                    if isinstance(lst[idx], dict): lst[idx][a.lang] = t
+                    else: lst[idx] = {"ar": lst[idx], a.lang: t}
+                else:
+                    parent[key][a.lang] = t
             yaml.safe_dump(d, open(fp, "w", encoding="utf-8"), allow_unicode=True, sort_keys=False, width=200)
             print("wrote", f, len(items))
 

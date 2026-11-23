@@ -1,61 +1,206 @@
 surah: 47
 slug: muhammad
 sources_consulted:
-  - "alukah.net — تفسير سورة محمد (1-11: القتال وحكم الأسرى)"
-  - "tadabbur-alquran.com — تدبر سورة محمد"
-  - "ar.wikipedia.org — سورة محمد (ملخص الآيات)"
+- 'alukah.net — تفسير سورة محمد (1-11: القتال وحكم الأسرى)'
+- tadabbur-alquran.com — تدبر سورة محمد
+- ar.wikipedia.org — سورة محمد (ملخص الآيات)
 map:
-  - title: { ar: "الفريقان", en: "The Two Parties" }
-    range: [1, 3]
-    family: faith
-    summary:
-      ar: "الذين كفروا وصدوا عن سبيل الله أضل أعمالهم؛ والذين آمنوا وعملوا الصالحات وآمنوا بما نزل على محمد كفر عنهم سيئاتهم وأصلح بالهم."
-      en: "Those who disbelieve and bar from God's way — He wasted their deeds; those who believe and do good and believe in what was sent to Muhammad — He absolved their sins and set right their state."
-    children:
-      - { title: { ar: "أضل أعمالهم", en: "He Wasted Their Deeds" }, range: [1, 1] }
-      - { title: { ar: "كفر عنهم سيئاتهم", en: "He Absolved Their Sins" }, range: [2, 2] }
-  - title: { ar: "أحكام القتال والأسرى", en: "Rulings of Fighting and Captives" }
-    range: [4, 6]
-    family: law
-    summary:
-      ar: "فإذا لقيتم الذين كفروا فضرب الرقاب حتى إذا أثخنتموهم فشدوا الوثاق فإما منا بعد وإما فداء؛ والذين قتلوا في سبيل الله فلن يضل أعمالهم."
-      en: "When you meet the disbelievers, strike the necks until you have overwhelmed them, then bind firmly — then grace or ransom; those killed in God's way — He will never waste their deeds."
-    children:
-      - { title: { ar: "فضرب الرقاب", en: "Strike the Necks" }, range: [4, 4] }
-  - title: { ar: "النصر والاعتبار بالأمم", en: "Victory; Lessons from Nations" }
-    range: [7, 11]
-    family: faith
-    summary:
-      ar: "يا أيها الذين آمنوا إن تنصروا الله ينصركم ويثبت أقدامكم؛ أفلم يسيروا في الأرض فينظروا كيف كان عاقبة الذين من قبلهم دمر الله عليهم."
-      en: "Believers, if you support God He will support you and make firm your steps; have they not traveled the earth to see the end of those before them — God destroyed them."
-    children:
-      - { title: { ar: "إن تنصروا الله ينصركم", en: "If You Support God He Supports You" }, range: [7, 7] }
-      - { title: { ar: "دمر الله عليهم", en: "God Destroyed Them" }, range: [10, 10] }
-  - title: { ar: "الجنة والنار والتوحيد", en: "Garden, Fire, and Oneness" }
-    range: [12, 19]
-    family: faith
-    summary:
-      ar: "إن الله يدخل الذين آمنوا جنات تجري من تحتها الأنهار؛ مثل الجنة التي وعد المتقون فيها أنهار من ماء غير آسن؛ فاعلم أنه لا إله إلا الله واستغفر لذنبك."
-      en: "God admits believers into Gardens beneath which rivers flow; the likeness of the Garden promised the God-conscious — rivers of unspoiled water; know that there is no god but God, and ask forgiveness for your sin."
-    children:
-      - { title: { ar: "مثل الجنة", en: "The Likeness of the Garden" }, range: [15, 15] }
-      - { title: { ar: "لا إله إلا الله", en: "No God but God" }, range: [19, 19] }
-  - title: { ar: "المنافقون والابتلاء", en: "The Hypocrites; the Test" }
-    range: [20, 32]
-    family: faith
-    summary:
-      ar: "ويقول الذين آمنوا لولا نزلت سورة؛ أفلا يتدبرون القرآن أم على قلوب أقفالها؛ أم حسب الذين في قلوبهم مرض أن لن يخرج الله أضغانهم؛ ولنبلونكم حتى نعلم المجاهدين منكم والصابرين."
-      en: "Believers say: if only a surah were sent down; will they not ponder the Quran, or are there locks on hearts; did the diseased-hearted think God would not expose their rancor; We shall test you until We know your strivers and the patient."
-    children:
-      - { title: { ar: "أفلا يتدبرون القرآن", en: "Will They Not Ponder the Quran" }, range: [24, 24] }
-      - { title: { ar: "لحن القول", en: "The Tone of Speech" }, range: [29, 30] }
-      - { title: { ar: "ولنبلونكم", en: "We Shall Test You" }, range: [31, 31] }
-  - title: { ar: "الطاعة والبذل", en: "Obedience; Spending" }
-    range: [33, 38]
-    family: faith
-    summary:
-      ar: "يا أيها الذين آمنوا أطيعوا الله وأطيعوا الرسول ولا تبطلوا أعمالكم؛ فلا تهنوا وتدعوا إلى السلم وأنتم الأعلون؛ ها أنتم هؤلاء تدعون لتنفقوا في سبيل الله؛ وإن تتولوا يستبدل قوما غيركم."
-      en: "Believers, obey God and obey the Messenger and do not nullify your deeds; do not weaken and call for peace when you are the uppermost; you are called to spend in God's way; if you turn away, He will replace you with another people."
-    children:
-      - { title: { ar: "أطيعوا الله وأطيعوا الرسول", en: "Obey God and Obey the Messenger" }, range: [33, 33] }
-      - { title: { ar: "يستبدل قوما غيركم", en: "He Will Replace You" }, range: [38, 38] }
+- title:
+    ar: الفريقان
+    en: The Two Parties
+    tr: İki takım
+    id: Kedua tim
+  range:
+  - 1
+  - 3
+  family: faith
+  summary:
+    ar: الذين كفروا وصدوا عن سبيل الله أضل أعمالهم؛ والذين آمنوا وعملوا الصالحات وآمنوا بما نزل على محمد كفر عنهم سيئاتهم وأصلح بالهم.
+    en: Those who disbelieve and bar from God's way — He wasted their deeds; those who believe and do good and believe in what was sent to Muhammad — He absolved their sins and set right their state.
+    tr: İnkar edip Allah yolundan sapanlar yaptıkları sapmıştır; iman eden, doğru işler yapan ve Muhammed'e indirilenlere inananların da kötülükleri affedilir ve akılları düzeltilir.
+    id: Mereka yang tidak percaya dan berpaling dari jalan Allah, perbuatannya tersasar; dan mereka yang beriman, berbuat keadilan, dan percaya pada apa yang telah diturunkan kepada Muhammad, akan menerima
+      kesalahanana dan memperbaiki pikirannya.
+  children:
+  - title:
+      ar: أضل أعمالهم
+      en: He Wasted Their Deeds
+      tr: Eserlerinden uzak duruyorum.
+      id: Saya menjauh dari karya mereka.
+    range:
+    - 1
+    - 1
+  - title:
+      ar: كفر عنهم سيئاتهم
+      en: He Absolved Their Sins
+      tr: Günahlarını kefaret edin
+      id: Menebus dosa mereka
+    range:
+    - 2
+    - 2
+- title:
+    ar: أحكام القتال والأسرى
+    en: Rulings of Fighting and Captives
+    tr: Savaş ve Mahkumlar Kuralları
+    id: Aturan Pertempuran dan Tahanan
+  range:
+  - 4
+  - 6
+  family: law
+  summary:
+    ar: فإذا لقيتم الذين كفروا فضرب الرقاب حتى إذا أثخنتموهم فشدوا الوثاق فإما منا بعد وإما فداء؛ والذين قتلوا في سبيل الله فلن يضل أعمالهم.
+    en: When you meet the disbelievers, strike the necks until you have overwhelmed them, then bind firmly — then grace or ransom; those killed in God's way — He will never waste their deeds.
+    tr: İnfir olanlarla karşılaştığınızda, boyunlarına vurun; onları kalınlaştırdığınızda, bağları sıkılaştırın—ya bizden sonra ya da fidye için; ve Allah yolunda öldürülenlerin davranışları asla sapmaz.
+    id: Jadi ketika kamu bertemu dengan orang yang kafir, pukul lehernya hingga, setelah kamu membuatnya tebal, kencangkan ikatan itu—baik dari kami atau tebusan; dan mereka yang dibunuh di jalan Allah,
+      perbuatan-Nya tidak akan pernah tersesat.
+  children:
+  - title:
+      ar: فضرب الرقاب
+      en: Strike the Necks
+      tr: Bu yüzden boyunlarına vurdu
+      id: Jadi dia memukul leher
+    range:
+    - 4
+    - 4
+- title:
+    ar: النصر والاعتبار بالأمم
+    en: Victory; Lessons from Nations
+    tr: Uluslar Arasında Zafer ve Saygı
+    id: Kemenangan dan Penghormatan di Antara Bangsa
+  range:
+  - 7
+  - 11
+  family: faith
+  summary:
+    ar: يا أيها الذين آمنوا إن تنصروا الله ينصركم ويثبت أقدامكم؛ أفلم يسيروا في الأرض فينظروا كيف كان عاقبة الذين من قبلهم دمر الله عليهم.
+    en: Believers, if you support God He will support you and make firm your steps; have they not traveled the earth to see the end of those before them — God destroyed them.
+    tr: Ey iman edenler, Allah'ı desteklerseniz, O size destek olur ve ayaklarınızı sağlamlaştırır; onlar topraklarda dolaşıp kendilerinden öncekilerin sonunun nasıl olduğunu görmez mi? Allah onları yok
+      etti.
+    id: Wahai kamu yang beriman, jika kamu mendukung Allah, Dia akan menopang dan menguatkan kakimu; tidakkah mereka akan menjelajahi tanah ini dan melihat bagaimana akhir dari mereka sebelum mereka? Allah
+      telah menghancurkan mereka.
+  children:
+  - title:
+      ar: إن تنصروا الله ينصركم
+      en: If You Support God He Supports You
+      tr: Tanrı'yı desteklerseniz, O size yardım eder
+      id: Jika kamu mendukung Tuhan, Dia akan membantumu
+    range:
+    - 7
+    - 7
+  - title:
+      ar: دمر الله عليهم
+      en: God Destroyed Them
+      tr: Allah onları yok etsin
+      id: Semoga Tuhan menghancurkan mereka
+    range:
+    - 10
+    - 10
+- title:
+    ar: الجنة والنار والتوحيد
+    en: Garden, Fire, and Oneness
+    tr: Cennet, Cehennem ve Tek Tanrıcılık
+    id: Surga, Neraka, dan Monoteisme
+  range:
+  - 12
+  - 19
+  family: faith
+  summary:
+    ar: إن الله يدخل الذين آمنوا جنات تجري من تحتها الأنهار؛ مثل الجنة التي وعد المتقون فيها أنهار من ماء غير آسن؛ فاعلم أنه لا إله إلا الله واستغفر لذنبك.
+    en: God admits believers into Gardens beneath which rivers flow; the likeness of the Garden promised the God-conscious — rivers of unspoiled water; know that there is no god but God, and ask forgiveness
+      for your sin.
+    tr: Gerçekten Allah, iman edenleri, altında nehirlerin aktığı cennetlere kabul eder; tıpkı doğru kişilerin durgun olmayan su nehirleri vaat ettiği cennet gibidir; o yüzden bilin ki Allah'tan başka bir
+      tanrı yoktur ve günahınız için af dileyin.
+    id: Sesungguhnya, Allah akan menerima orang yang beriman ke taman di bawahnya sungai; seperti Surga yang dijanjikan orang bersekutu adalah sungai air yang tidak bergendang; maka ketahuilah bahwa tidak
+      ada Tuhan selain Allah dan mohon pengampunan atas dosamu.
+  children:
+  - title:
+      ar: مثل الجنة
+      en: The Likeness of the Garden
+      tr: Cennet gibi
+      id: Seperti surga
+    range:
+    - 15
+    - 15
+  - title:
+      ar: لا إله إلا الله
+      en: No God but God
+      tr: Allah'tan başka bir tanrı yoktur
+      id: Tidak ada Tuhan selain Allah
+    range:
+    - 19
+    - 19
+- title:
+    ar: المنافقون والابتلاء
+    en: The Hypocrites; the Test
+    tr: İkiyüzlüler ve yargılama
+    id: Para munafik dan persidangan
+  range:
+  - 20
+  - 32
+  family: faith
+  summary:
+    ar: ويقول الذين آمنوا لولا نزلت سورة؛ أفلا يتدبرون القرآن أم على قلوب أقفالها؛ أم حسب الذين في قلوبهم مرض أن لن يخرج الله أضغانهم؛ ولنبلونكم حتى نعلم المجاهدين منكم والصابرين.
+    en: 'Believers say: if only a surah were sent down; will they not ponder the Quran, or are there locks on hearts; did the diseased-hearted think God would not expose their rancor; We shall test you
+      until We know your strivers and the patient.'
+    tr: Ve iman edenler, 'Neden bir surede vahyedilmedi?' derler. Kur'an'ı ya da onun kilitlerinin kalplerini düşünmüyorlar mı? Yoksa kalplerinde hastalık olanlara Allah'ın kinlerini kaldırmaması yeterli
+      midir? Ve sizinle ve sabrınızı bilene kadar sizi sınayacağız.
+    id: Dan orang-orang yang beriman berkata, 'Mengapa surah tidak diwahyukan?' Apakah mereka tidak merenungkan Al-Qur'an, atau hati rambutnya? Atau cukup bagi mereka yang hatinya ada penyakit agar Allah
+      tidak menghapus dendam mereka? Dan Kami pasti akan menguji kalian sampai Kami mengetahui perjuangan di antara kalian dan orang yang sabar.
+  children:
+  - title:
+      ar: أفلا يتدبرون القرآن
+      en: Will They Not Ponder the Quran
+      tr: Kur'an üzerinde düşünmüyorlar mı?
+      id: Apakah mereka tidak merenungkan Al-Qur'an?
+    range:
+    - 24
+    - 24
+  - title:
+      ar: لحن القول
+      en: The Tone of Speech
+      tr: Konuşmanın tonu
+      id: Nada pidato
+    range:
+    - 29
+    - 30
+  - title:
+      ar: ولنبلونكم
+      en: We Shall Test You
+      tr: Ve seni test edelim
+      id: Dan biarkan kami menguji Anda
+    range:
+    - 31
+    - 31
+- title:
+    ar: الطاعة والبذل
+    en: Obedience; Spending
+    tr: İtaat ve Verme
+    id: Ketaatan dan Memberi
+  range:
+  - 33
+  - 38
+  family: faith
+  summary:
+    ar: يا أيها الذين آمنوا أطيعوا الله وأطيعوا الرسول ولا تبطلوا أعمالكم؛ فلا تهنوا وتدعوا إلى السلم وأنتم الأعلون؛ ها أنتم هؤلاء تدعون لتنفقوا في سبيل الله؛ وإن تتولوا يستبدل قوما غيركم.
+    en: Believers, obey God and obey the Messenger and do not nullify your deeds; do not weaken and call for peace when you are the uppermost; you are called to spend in God's way; if you turn away, He
+      will replace you with another people.
+    tr: Ey iman edenler, Allah'a ve Peygamber'e itaat edin, yaptıklarınızı geçersiz kılmayın; en yüce olduğunuz sürece zayıflamayın ve barış dilemeyin; burada Allah'ın yolunda harcama yapmaya çağırıyorsunuz;
+      eğer yüz çevirirseniz, O sizi sizden başka bir kommekle değiştirecektir.
+    id: Wahai kamu yang telah beriman, taatilah Allah dan taat kepada Rasulullah dan janganlah meniadakan perbuatanmu; janganlah melemahkan dan memanggil damai selagi kamu yang tertinggi; di sini kamu memanggil
+      untuk berbelanja di jalan Allah; dan jika kamu berbalik, Dia akan menggantikan kamu dengan bangsa lain selain kamu.
+  children:
+  - title:
+      ar: أطيعوا الله وأطيعوا الرسول
+      en: Obey God and Obey the Messenger
+      tr: Allah'a itaat et ve peygambere itaat et
+      id: Taatilah kepada Allah dan taat kepada nabi
+    range:
+    - 33
+    - 33
+  - title:
+      ar: يستبدل قوما غيركم
+      en: He Will Replace You
+      tr: Senin dışındaki insanları değiştiriyor
+      id: Dia menggantikan orang lain selain kamu
+    range:
+    - 38
+    - 38

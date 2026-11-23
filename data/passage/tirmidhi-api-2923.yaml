@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "2923"
-label: { ar: "جامع الترمذي 2923 — قراءات القرآن", en: "Jami' al-Tirmidhi 2923 — the readings of the Qur'an", ur: "جامع ترمذی 2923 — قرآن کی قراءتیں", es: "Jami' al-Tirmidhi 2923 — Las lecturas del Corán", fr: "Jami' al-Tirmidhi 2923 — les lectures du Coran" }
+label: { ar: "جامع الترمذي 2923 — قراءات القرآن", en: "Jami' al-Tirmidhi 2923 — the readings of the Qur'an", ur: "جامع ترمذی 2923 — قرآن کی قراءتیں", es: "Jami' al-Tirmidhi 2923 — Las lecturas del Corán", fr: "Jami' al-Tirmidhi 2923 — les lectures du Coran", tr: "Cami' el-Tirmizi 2923 — Kur'an Okumaları", id: "Jami' al-Tirmidhi 2923 — Bacaan Al-Qur'an" }
 text: "… فَإِذَا هِيَ تَنْعَتُ قِرَاءَةً مُفَسَّرَةً حَرْفًا حَرْفًا. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ غَرِيبٌ لاَ نَعْرِفُهُ إِلاَّ مِنْ حَدِيثِ لَيْثِ بْنِ سَعْدٍ عَنِ ابْنِ أَبِي مُلَيْكَةَ عَنْ يَعْلَى بْنِ مَمْلَكٍ عَنْ أُمِّ سَلَمَةَ. وَقَدْ رَوَى ابْنُ جُرَيْجٍ هَذَا الْحَدِيثَ عَنِ ابْنِ أَبِي مُلَيْكَةَ عَنْ أُمِّ سَلَمَةَ أَنَّ النَّبِيَّ كَانَ يُقَطِّعُ قِرَاءَتَهُ. وَحَدِيثُ لَيْثِ أَصَحُّ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 2923، يذكر قراءات القرآن. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 2923، جس میں قرآن کی قراءتیں کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 2923 (Capítulos sobre las virtudes del Corán), menciona las lecturas del Corán. El navegador del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 2923 (Chapitres sur les vertus du Coran), mentionne les lectures du Coran. Le catalogue du musée consacré à la lecture et à la transcription du Coran répertorie ces lectures avec les textes du Coran, la Sunna, la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Cami' el-Tirmizi'de yer alan 2923 numaralı hadis, Kur'an'ın farklı okunuşlarından bahsetmektedir. Bu hadis, Kur'an okunuşları, yazısı, hat sanatı ve diyakritik işaretleri konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 2923, menyebutkan berbagai macam bacaan Al-Quran. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2923 (book 45 hadith 49); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }
