@@ -1,0 +1,25 @@
+---
+id: passage/quran-9-123
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-9-123.md}
+---
+
+## Ringkasan
+Ayat 123 Surah [[passage/quran-9|At-Tawbah]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: ayat 123 dari 129 dalam surat. Teks ini disimpan dari Mushaf Wahyu Beku dan tidak ditulis ulang di sini.
+
+**Penafsiran Ayat 123 (hlm. 574-576)**
+
+Al-Tabari berkata kepada para mukmin: Wahai kalian yang telah beriman dengan Allah dan Rasul-Nya, lawanlah mereka yang mengikuti kalian di antara orang kafir, bukan yang lebih jauh dari mereka, artinya mulailah berperang dengan yang terdekat dengan kalian, dan yang terdekat adalah rumah, bukan yang paling jauh, maka yang paling jauh. Mereka yang dipanggil oleh ayat ini pada waktu itu adalah orang Romawi karena mereka adalah penduduk Levant, dan Levant lebih dekat ke Madinah daripada Irak. Adapun setelah Allah menaklukkan tanah bagi umat beriman, rakyat di setiap wilayah wajib berperang melawan sekutu mereka di antara musuh, bukan yang lebih jauh, kecuali orang dari bagian lain Islam dipaksa melakukannya. Jika mereka dipaksa, mereka harus mendukung dan mendukung mereka, karena Muslim adalah kekuatan yang kuat di atas yang lain. Untuk memvalidasi ini, setiap orang yang menafsirkan ayat ini menafsirkannya sebagai kewajiban bagi rakyat setiap wilayah untuk melawan sekutu mereka di antara musuh. Peneliti merujuk pada indeks bahasa dalam Wali. {cite:tafsir-tabari-shakir-v14 p. 574}
+
+Dan riwayat 17481 dari Ibn Umar, dari rantai Ibn Waki' dan ayahnya, Sufyan, dan Shabib ibn Gharqada: Seorang pria dari Banu Tamim bertanya kepadanya tentang pertempuran dengan Daylam, dan dia berkata, 'Kau bersama Romawi.' Dan narasi 17482 dari Al-Hasan, dari rantai Ibn Bashar, Ahmad ibn Ishaq, Ibn Waki', Abu Ahmad, Sufyan, dan Yunus: Berperanglah dengan mereka yang mengikutimu di antara orang kafir, kata Al-Daylam. Dan narasi 17483 dari Al-Hasan, melalui Ibn Waki', ayahnya, dan Al-Rabi': Ketika ditanya tentang pertempuran antara orang Romawi dan Daylam, ia akan membacakan ayat ini. Dan narasi 17484 dari Imran, saudara Ya'qub: Ia bertanya kepada Ja'far ibn Muhammad ibn Ali ibn Ali ibn Al-Husayn tentang pertempuran Daylam, dan narasi tersebut terhubung di halaman berikutnya. Verifier mengoreksi rantai tersebut dengan menyebutkan bahwa Shabib ibn Gharqada al-Sulami adalah Tabi'i yang dapat dipercaya dan bahwa penyalin atau penerbit secara keliru menambahkan 'Urwah al-Bariq. {cite:tafsir-tabari-shakir-v14 p. 575}
+
+Kelanjutan narasi 17484: Imran bertanya kepada Ja'far ibn Muhammad tentang pertempuran di Daylam, dan ia berkata, 'Lawanlah mereka dan tempatkan mereka, karena mereka termasuk di antara mereka yang Allah katakan: Bertarunglah dengan siapa yang mendekati kalian di antara orang kafir.' Penyelidik menyebutkan bahwa Ya'qub ibn Abdullah al-Qummi menceritakan dari saudara-saudaranya Abd al-Rahman dan Imran, tetapi ia tidak menemukan biografi Imran. Dan narasi 17485 dari al-Haṣầ san, melalui al-Muthanna, Abu Nu'aym, Sufyan, dan al-Rabi': Ia ditanya tentang al-Sham dan al-Daylam, dan ia berkata: Bertarunglah dengan mereka yang mendekatimu di antara orang-orang kafir, Daylam. Dan narasi tahun 17486 dari Abu Amr dan Sa'id ibn Abd al-Aziz, dari jalur Ali ibn Sahl dan al-Walid: Setiap bangsa akan meletakkan senjata dan benteng mereka setelah mereka, dan mereka mengucapkan ayat tersebut. Dan riwayat tahun 17487 dari Ibn Zayd, melalui Yunus dan Ibn Wahb: Mereka yang mengikuti mereka adalah kafir bangsa Arab, maka ia melawan mereka sampai ia selesai berperang. Setelah selesai, Allah berkata, 'Bertarunglah dengan mereka yang tidak percaya kepada Allah atau Hari Terakhir' dari ayat 29 hingga Bagian-Nya, 'Dan mereka direndahkan.' Jadi ia memerintahkan Ia untuk melawan Umat Kitab setelah selesai bertarung dengan mereka yang datang setelahnya di antara orang Arab, dan perjuangan mereka adalah jihad terbaik di mata Allah. {cite:tafsir-tabari-shakir-v14 p. 576}
+
+Adapun perkataan-Nya, 'Biarlah mereka menemukan kekerasan dalam dirimu,' itu berarti orang-orang kafir yang kamu lawan akan menghadapi kesulitan bagi mereka. Ketahuilah bahwa Allah bersama orang bersek, artinya yakinlah ketika kamu melawan mereka bahwa Allah menyertai kamu dan Dia adalah penopangmu melawan mereka. Jika kamu takut kepada Allah dan takut-Nya dengan memenuhi kewajiban dan menghindari dosa-Nya, maka Allah adalah penolong bagi mereka yang takut dan menolong-Nya. Ulama itu dengan keras merujuk pada apa yang telah disebutkan sebelumnya. {cite:tafsir-tabari-shakir-v14 p. 576}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

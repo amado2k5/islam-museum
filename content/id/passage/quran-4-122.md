@@ -1,0 +1,15 @@
+---
+id: passage/quran-4-122
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-4-122.md}
+---
+
+## Ringkasan
+Ayat 122 Surah [[passage/quran-4|An-Nisa]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: Ayat 122 dari 176 dalam surat. Teks ini disimpan dari Mushaf Tazl al-Mujaddam dan tidak ditulis ulang di sini.
+
+**Penafsiran ayat 122: janji kebenaran Allah (hal. 226-228, catatan kaki 3 pada hal. 226 dan catatan kaki 1-5 di halaman 227). ** Al-Tabari mengatakan bahwa mereka yang percaya kepada Allah dan Rasul-Nya serta mengakui kesatuan dan kenabian-Nya sebagai Rasul, serta melakukan perbuatan benar, artinya memenuhi kewajiban Allah yang telah Dia tetapkan kepada mereka, dijanjikan bahwa Allah akan menerima mereka pada Hari Kebangkitan ketika mereka menjadi taman, yaitu taman balasan atas apa yang mereka lakukan di dunia ini, dan tetap di sana selama-lamanya. Dan janji Allah untuk itu adalah kebenaran, yaitu kepastian yang benar, bukan seperti janji palsu Setan, yaitu Kesombongan bagi mereka yang berjanji kepada sekutu-Nya; sebaliknya, itu adalah janji dari seseorang yang tidak berbohong, atau melanggar janji-Nya. Deskripsi janji-Nya sebagai benar dan benar dalam ayat ini didasarkan pada apa yang sebelumnya disebutkan tentang ucapan Setan (bagian yang ditentukan, pengadilan yang salah, keinginan, dan perintah untuk menoleh ke telinga ternak kepadamu, [[passage/quran-4-119|4:119]]), serta dari janji dan keinginannya ([[passage/quran-4-120|4:120]]). Dia menggambarkan dua janji dan janji yang dijanjikan, serta memberitahu mereka tentang penghakiman umat atas setiap janji, sebagai pengingat bagi ciptaan-Nya tentang apa yang menguntungkan mereka dan menyelamatkan mereka dari kehancuran, sehingga mereka dapat berpaling dari ketidaktaatan Dia dan bertindak sesuai dengan ketaatan-Nya, sehingga mencapai apa yang telah Dia siapkan untuk mereka atas ganjaran-Nya. Kemudian Dia mengajukan pertanyaan bantahan: Apakah firman siapa pun lebih benar daripada firman-Nya sendiri? Artinya, tidak ada. Jadi bagaimana mereka bisa meninggalkan pekerjaan yang dijanjikan Tuhan mereka adalah kegilaan, tidak percaya padanya, dan menentang perintah-Nya dengan mengetahui bahwa tidak ada firman yang lebih benar darinya, dan bertindak sesuai dengan perintah Setan dengan harapan akan janji-janji palsu-Nya, mengetahui itu adalah penipuan tanpa kenyataan, dan menganggap-Nya sebagai pelindung daripada taat kepada Tuhan. Mengatakan dan berkata dalam arti yang sama. Dalam catatan kaki editor, terdapat referensi pada interpretasi sebelumnya dari karya kebenaran (hal. 226, catatan kaki 3), Surga dan Keabadian dalam Indeks Bahasa dan Kebenaran, serta klarifikasi pembacaan naskah versus versi cetak di dua tempat, termasuk nama penghancuran yang muncul dalam manuskrip dalam bentuk yang benar lainnya. {cite:tafsir-tabari-shakir-v09 p. 228}

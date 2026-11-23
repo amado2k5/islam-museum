@@ -1,0 +1,21 @@
+---
+id: passage/quran-13-36
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-13-36.md}
+---
+
+## Ringkasan
+Ayat 36 Surah [[passage/quran-13|Ar-Ra'd]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: Ayat 36 dari 43 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujmad dan tidak ditulis ulang di sini.
+
+**Penafsiran ayat 36 (hlm. 473-474)**
+
+Al-Tabari berkata tentang ayat itu: "Dan mereka yang telah Kami berikan Kitab suci bersukacita atas apa yang telah diwahyukan kepadamu, dan dari pihak-pihak adalah mereka yang menyangkal sebagian darinya. Katakanlah, 'Aku hanya diperintahkan untuk menyembah Allah dan tidak bersekutu dengan-Nya. Kepada-Nya aku memohon, dan kepada-Nya adalah balasan.'" " Dia berkata: Dan mereka yang telah Kami kirimkan Kitab Suci dari mereka yang percaya kepada-Mu dan mengikutimu, wahai Muhammad, bersukacitalah atas apa yang telah diwahyukan kepadamu. "Dan di antara faksi-faksi ada mereka yang menyangkal sebagian darinya." Dia berkata, dan di antara orang-orang sekte yang menentang kamu, dan mereka adalah orang-orang dari berbagai agama, beberapa yang menyangkal sebagian dari apa yang telah diwahyukan kepadamu. Jadi katakanlah kepada mereka, wahai umat manusia, aku hanya diperintahkan untuk menyembah Allah saja dan tidak mengaitkan orang lain dengan-Nya, maka aku akan menjadikan bagi-Nya mitra dalam penyembahan dan penyembahanku bersama-Nya, dan aku akan menyembah bersama-Nya Muslim yang taat dan tulus. Kepada-Nya aku panggil ketaatan dan penyembahan yang tulus. Kepada-Nya aku panggil manusia, dan kepada-Nya adalah takdirku. Itu "fa'al" (Mu'f'all), seperti dalam frasa "Aku kembali, kembali, dan kembali." Demikian pula, para ulama penafsiran berkata: riwayat 20454 dari Qatadah melalui rantai Bishr, Yazid, dan Sa'id: "Dan mereka yang telah Kami berikan Kitab suci bersukacita atas apa yang telah diwahyukan kepadamu." Mereka adalah sahabat Muhammad yang bersukacita dalam Kitab Allah dan Rasul-Nya dan mempercayainya. Dan perkataan-Nya, "Dan di antara para sekutu ada mereka yang menyangkal perpisahan," maksudnya orang Yahudi dan Kristen. {cite:tafsir-tabari-shakir-v16 p. 473}
+
+Dan riwayat 20455 dari Mujahid hingga al-Hasan ibn Muhammad, Shababa, Ruqa, dan Ibn Abi Nujayh: "Dan di antara para sekutu ada mereka yang menyangkal sebagian dari mereka," katanya dari Umat Kitab. Dan riwayat 20456 dari Mujahid hingga al-Muthanna, Ishaq, Abdullah, dan Ruqa': serupa. Dan riwayat 20457 dari Mujahid hingga al-Qasim, Husayn, Hajjaj, dan Ibn Jurayj: "Dan mereka yang Kami berikan Kitab Bersukacita atas apa yang telah diwahyukan kepadamu. Dan dari para sekutu adalah mereka yang menyangkal sebagian darinya" dari Umat Kitab. "Para konsekutu" adalah Umat Kitab yang semakin dekat dengan keberpihakan mereka, dan ia mengutip ayat: "Dan jika para konfederasi datang" [[passage/quran-33-20|33:20]] Ia berkata: Karena mereka bersatu melawan Nabi. Ibn Jurayj berkata tentang Mujahid: 'Sebagian ditolak.' Beberapa Al-Qur'an berkata. Narasi 20458 dari Qatadah melalui Muhammad ibn Abd al-A'la, Ibn Thawr, dan Mu'ammar: 'Bagi-Nya adalah kembali,' dan kepada-Nya adalah takdir setiap hamba. Dan narasi 20459 dari Ibn Zayd dari rantai Yunus dan Ibn Wahb: "Dan mereka yang Kami berikan Kitab Suci bersukacita atas apa yang telah diwahyukan kepadamu." Ia berkata: "Inilah yang percaya kepada Rasulullah dari antara umat Kitab Suci dan bersukacita karenanya." Ia mengucapkan: "Di antara mereka ada yang percaya, dan di antara mereka ada yang tidak" [[passage/quran-10-40|10:40]]. Dan mengenai frasa "Dan di antara para sekutu ada mereka yang menyangkal sebagian dari mereka," artinya bangsa-bangsa adalah Yahudi, Kristen, dan Majus; ada yang percaya dan ada yang menolak. {cite:tafsir-tabari-shakir-v16 p. 474}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

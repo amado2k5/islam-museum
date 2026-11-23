@@ -1,0 +1,23 @@
+---
+id: passage/quran-6-110
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-6-110.md}
+---
+
+## Ringkasan
+Ayat 110 Surah [[passage/quran-6|Al-An'am]], yang merupakan surah Mekah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: Ayat ke-110 dari 165 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujjard dan tidak ditulis ulang di sini.
+
+Al-Tabari berkata dalam "Dan Kami akan membalikkan hati dan mata mereka seperti yang mereka tidak percaya pada pertama kali, dan Kami akan memperingatkan mereka dalam kesalahan mereka, mereka akan buta." Beberapa berkata: Artinya jika Kami membawa ayat seperti yang mereka minta, mereka tidak akan percaya karena mereka tidak percaya pada apa yang terjadi sebelumnya, karena Allah campur tangan antara mereka dan itu. Berita nomor 13751 dari Ibn Abbas: Ketika para musyrik menyangkal apa yang Allah wahyukan, hati mereka tidak teguh pada apa pun yang diterima dari segala hal; dan nomor 13752 dari Ibn Zayd: Kami mencegah mereka melakukan seperti yang kami lakukan kepada mereka pada pertama kali; dan nomor 13753 dari Mujahid: Kami mencegah mereka beriman, meskipun setiap tanda datang kepada mereka, mereka tidak akan percaya seperti yang Kami buat pertama kali antara mereka dan iman. {cite:tafsir-tabari-shakir-v12 p. 44}
+
+Yang lain berkata: Maksudnya adalah: Kami memalingkan hati dan mata mereka jika mereka dikembalikan dari akhirat ke dunia, sehingga mereka tidak akan percaya seperti Kami kepada mereka, maka mereka tidak akan percaya pada dunia ini, seperti yang tertulis dalam Al-An'am 28: "Dan jika mereka dikembalikan, mereka akan kembali, mereka tidak akan melarangnya." Dan laporan nomor 13754 dari Ibn Abbas: Allah memberitahu para hamba apa yang mereka katakan sebelum mereka mengatakannya dan perbuatan mereka sebelum melakukannya. Dia mengutip ayat-ayat Az-Zumar 56-58 dalam penyesalan jiwa dan perkataannya, 'Seandainya Allah membimbingku, meskipun aku sudah minum pil.' Allah memberitahu bahwa jika mereka dikembalikan ke dunia, mereka tidak akan tetap teguh pada petunjuk, dan Dia berkata: 'Dan Kami akan memalingkan hati dan mata mereka seperti yang mereka tidak percaya pada pertama kali,' artinya jika mereka dikembalikan ke dunia, Dia akan menempatkan penghalang antara mereka dan petunjuk seperti yang Kami lakukan pertama kali. (In the footnote, it is explained what the editor added between parentheses from the manuscript to clarify the text.) [eos] {cite:tafsir-tabari-shakir-v12 p. 44}
+
+Abu Ja'far berkata: Interpretasi yang paling benar menurut saya adalah mengatakan bahwa Allah memberitahu mereka yang bersumpah demi Allah dengan usaha sumpah mereka, karena jika ada tanda yang datang kepada mereka untuk percaya, Dia mengalihkan hati dan mata mereka dan mengarahkan mereka sesuai kehendak-Nya, dan bahwa Dia dapat menegakkan mereka jika Dia menghendaki dan mengalihkan mereka jika Dia mau; dan bahwa perkataan-Nya 'karena mereka tidak percaya pada itu pertama kali' adalah bukti bentuk ucapan yang dihilangkan, dan 'mirip' menyamakan apa yang terjadi dengan sesuatu sebelumnya. Jadi makna pernyataan itu harus: Kita memalingkan hati mereka dan mengalihkan mereka dari iman dan mata mereka dari melihat kebenaran dan dari mengetahui tempat bukti. Dan jika ayat yang mereka minta sampai kepada mereka, mereka tidak percaya kepada Allah dan Rasul-Nya dan apa yang Dia bawa dari Allah, sama seperti mereka tidak percaya pada perubahan Kita sebelum itu datang sekali sebelumnya. Jika itu penafsirannya, 'h' dalam 'bih' adalah metafora untuk menyebut pembalikan. {cite:tafsir-tabari-shakir-v12 p. 45}
+
+And he explains: 'And they vowed to them in their transgression, they will be blind': And the vow of those polytheists who swore by Allah with all their oaths is that if a sign comes to them, they will believe in it when it comes, in their rebellion against Allah and their transgression within His limits, they hesitate, neither finding guidance nor seeing the truth, for abandonment has overwhelmed them and Satan has taken possession of them. [eos](And the researcher referred to what was previously mentioned in the interpretation of 'Yadhar', 'tyranny', and 'blindness'.) [eos] {cite:tafsir-tabari-shakir-v12 p. 46}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

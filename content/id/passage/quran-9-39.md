@@ -1,0 +1,23 @@
+---
+id: passage/quran-9-39
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-9-39.md}
+---
+
+## Ringkasan
+Ayat 39 Surah [[passage/quran-9|At-Tawbah]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: Ayat 39 dari 129 dalam surat. Teks ini disimpan dari Mushaf Tazl al-Mujjard dan tidak ditulis ulang di sini.
+
+**Penafsiran Ayat 39 (hlm. 254-256)**
+
+Al-Tabari berfirman: Allah berfirman kepada orang-orang beriman di antara sahabat Rasul-Nya, mengancam agar mereka tidak meninggalkan umat kepada musuh mereka dari Romawi: Jika kamu tidak berpaling, wahai orang beriman, kepada mereka yang dipanggil oleh Rasulullah, Allah akan segera menghukum kamu di dunia ini dengan meninggalkan mereka dalam hukuman yang menyakitkan, dan Dia akan menggantikan kamu dengan orang lain selain kamu. Dia berfirman: Allah akan menggantikan kamu sebagai Nabi-Nya dengan bangsa lain selain kamu yang akan ditolak ketika mereka memanggil dan menjawab-Nya ketika mereka memanggil dan taat kepada Allah dan Rasul-Nya. Dan janganlah menyakiti Dia sedikit pun. Dia berkata, 'Dan janganlah menyakiti Allah dengan meninggalkan pemberontakan dan membangkang Dia dalam bentuk apapun, karena kamu tidak membutuhkan Dia, melainkan kamu adalah orang yang membutuhkan, dan Dia adalah orang yang miskin. Dan Allah mampu melakukan segala sesuatu.' Dia berkata: 'Demi Allah, Dia mampu menghancurkan kamu dan menggantikan bangsa lain dengan kamu dan segala yang Dia kehendaki.' {cite:tafsir-tabari-shakir-v14 p. 254}
+
+Disebutkan bahwa hukuman yang menyakitkan di tempat ini adalah menahan hujan dari mereka. Dan riwayat 16721 dari Ibn Abbas, melalui Abu Kurayb, Zayd ibn al-Habbab, Abd al-Mu'min ibn Khalid al-Hanafi, dan Najdat al-Khurasani: Ia ditanya tentang ayat: 'Jangan berpaling, biarlah Dia menghukum kamu dengan hukuman yang menyakitkan.' Ia berkata: Rasulullah memanggil seorang yang hidup di antara orang Arab yang hidup, tetapi mereka ragu menghindarinya, sehingga ia menahan hujan dari mereka, dan itulah hukuman mereka; dan riwayat 16722 juga melalui Ibn Humayd dan Yahya ibn Wadhih, di mana hukuman mereka adalah hujan menahan dari mereka. Verifier menyebutkan bahwa Abu Dawud dan al-Bayhaqi yang menceritakannya, dan bahwa al-Suyuti meningkatkan atribusinya dan bahwa al-Hakim mengotorifikasinya. Dan narasi tahun 16723 dari Qatadah, melalui rantai Bishr, Yazid, dan Sa'id: Allah menggerakkan umat beriman dalam panas yang membara selama Pertempuran Tabuk di hadapan Levant, sesuai dengan apa yang Allah ketahui tentang usaha. {cite:tafsir-tabari-shakir-v14 p. 255}
+
+Beberapa orang mengklaim bahwa ayat ini dibatalkan. Dan riwayat tahun 16724 dari Ikrimah dan Al-Hasan Al-Basri, melalui Ibn Humayd, Yahya ibn Wadhih, dan Al-Husayn dan Yazid: Dia berkata: Dia berkata: 'Jangan berpaling, dan Dia pasti akan menghukummu dengan hukuman yang menyakitkan.' Dan dia berkata: Umat Madinah dan orang Badui di sekitar mereka tidak akan tinggal di belakang Rasulullah, yaitu [[passage/quran-9-120|9:120]]. Ayat berikutnya membatalkannya, dan orang-orang beriman sama sekali tidak akan berpaling, yaitu [[passage/quran-9-122|9:122]]. Al-Tabari mengatakan bahwa tidak ada laporan tentang apa yang dikatakan Ikrimah dan Al-Hasan tentang pencabutan aturan ayat ini, yang harus diterima dan tidak ada bukti Pernyataan ini disajikan sebagai sah, dan sejumlah sahabat serta pengikut menganggap putusan ini sudah ditetapkan, yang akan disebutkan kemudian. Mungkin ungkapannya 'Kecuali kamu diusir akan menghukum kamu' khusus untuk umat ini, yaitu mereka yang dimobilisasi dan tidak diusir oleh Rasulullah menurut yang disebutkan dalam riwayat Ibn Abbas. Jika demikian, maka perkataannya 'Dan orang-orang beriman tidak semua meninggalkan sama sekali' adalah larangan dari Allah agar umat beriman meninggalkan tanah Islam tanpa seorang mukmin yang tinggal di sana, dan memberitahu mereka bahwa wajib untuk menggerakkan diri melawan sebagian dari mereka dan tidak yang lain, dan itu bagi mereka yang bermobilisasi, bukan yang tidak dimobilisasi. Tidak ada pembatalan dalam satu ayat untuk ayat lain, dan keputusan masing-masing adalah masa lalu sesuai dengan apa yang dimaksudkan. {cite:tafsir-tabari-shakir-v14 p. 256}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

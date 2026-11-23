@@ -1,0 +1,33 @@
+---
+id: passage/quran-9-61
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-9-61.md}
+---
+
+## Özet
+Medine suresi olan Tevbe Suresi [[passage/quran-9|'nin 61. ayeti]]. {cite:tanzil-quran}
+
+## Konumu
+Yeri: Surede 129 ayetten 61. ayet. Metin Mushaf Tazil al-Mujmad'dan korunmuş olup burada yeniden yazılmamıştır.
+
+**61. Ayetin Yorumu (s. 324-328)**
+
+El-Taberi şöyle der: Bu münafıklar arasında, Allah'ın Elçisi bir kulak olduğunu söyleyen, yani herkesin söylediklerini duyan, kabul eden ve inanan bir grup vardır. 'Kulaklı bir adam' demelerinden gelir; dediği, duymaya ve kabul etmeye acele ettiği anlamına gelir; tıpkı söylendiği gibi: olan her şeyden emin olup olmadığından emin olduğu anlamına gelir. Kökeni, eğer onu dinlerse 'i'dahna' anlamına gelen 'azan'dan gelir. Bunlar arasında Peygamber'in 'Allah'ın Kur'an söyleyen bir peygambere kulağı gibi bir şey için ne izin verdiği rivayeti vardır. Ayrıca 'Adi ibn Zayd' sözü de vardır; bu, kalbinin eğlenceyi hafifletmek için olduğu bir ayettir, çünkü onun endişesi işitmektir ve kulak {cite:tafsir-tabari-shakir-v14 p. 325}. Araştırmacı, sekizinci ciltte daha önce bahsedilenlere atıfta bulunur ve 'fiil için kulaklı adam' ifadesini doğru tanımlamayı bilmediğini ve bunun için dilsel bir destek bulamadığını söyler. Bir adamın önce damma ile önce sukun ve sonra iki damma ile kulak verdiği bir adamdır. Doğruluğundan çok şüphe duyar ve iptal eden bir şeyin çıkarılmasından korkar. Hadisin Müslüman tarafından Ebu Hureyre'nin hadislerinden rivayet edildiği doğru olduğu belirtilir. {cite:tafsir-tabari-shakir-v14 p. 324}
+
+Bu ayetin Nabatal ibn al-Haris hakkında indirildiğini belirtti. Ve 16899 tarihli rivayet İbn İshaq'tan, İbn Hümayd ve Salama aracılığıyla: Allah onların aldatmasını, yani münafıkları ve Peygamber'e verdikleri zararı anlattı; şöyle dedi: Onların arasında Peygamber'e zarar verenler ve 'O bir kulaktır' diyenler vardır. Bunu söyleyen, duyduğuma göre Banu Amr bin Awf'un kardeşi Nabatal ibn al-Harith'ti ve bu ayet onda indirildi çünkü şöyle dedi: Muhammed sadece ona inandığı bir şeyi söyleyene izin verdi. Allah der ki, 'De ki, bir kulak senin için daha iyidir,', yani iyi duyur ve inanır. Doğrulayıcı, soylu El-Murtada ve El-Lisan'daki ayetlerin eğlence olduğunu, dinlemenin şarkı söylemek olduğunu, basılı ve el yazması kitaplarda Nabatal dışında bir isim yazıldığını ki bunun tamamen bir hata olduğunu ve raporun İbn Hişam'ın biyografisinde yer aldığını belirtir. {cite:tafsir-tabari-shakir-v14 p. 325}
+
+Okunanlar 'De ki, Azan, bu sizin için daha iyidir.' diye farklı şekilde okudular. Bölgelerdeki çoğu okuyan, 'khair'e 'azan' ekleyerek okur; yani 'Onlara söyle, ey Muhammed, bu iyi bir ezandır, kötü bir azan değildir' anlamına gelir. Al-Hasan al-Basri'den bahsedildiği gibi, onu tanween 'azan' (bir sıfat) ile okumuştur, yani 'Ey münafıklar, aranızda kim söylediklerinizi duyup size inanır, eğer Muhammed sizin tarif ettiğiniz gibiyse, ona gelip size zarar veren ve sizi suçlayan olanı inkar ettiğinizde, sizden duymuş ve size inanmıştır. Size yalan söylemektense ve söylediklerinizi kabul etmemektense sizin için daha iyidir.' Sonra onlara yalan söyledi ve dedi ki, 'Sadece Allah'a inanan ve iman edenlerden kabul edilir.' {cite:tafsir-tabari-shakir-v14 p. 325}
+
+El-Taberi, okuyanların okumasını iyiliğe kulağı ekleyip iyilikten uzaklaştırarak seçer; yani şöyle der: Bu sizin için iyilik kulağıdır, kötülük kulağı değildir. Araştırmacı ise Kur'an'ın anlamlarına Al-Farra ile atıfta bulunur. Ve İbn Abbas'tan 16900 yılındaki rivayet, El-Muthanna, Abdullah ibn Salih, Muaviye ve Ali zincirinden: O, herkesten duyulan bir kulaktır; ve 16901 rivayeti Qatada'dan, Bişr, Yezid ve Said aracılığıyla: Eskiden derlerdi ki, Muhammed sadece bizim hakkımızda hiçbir şey anlatmayan bir kulaktır, sadece kendisine söylenenleri duyan bir kulaktır; ve Mücahid'in 16902, 16903 ve 16904 rivayetleri: İstediğimizi söyleriz ve yemin ederiz, o bize inanır. {cite:tafsir-tabari-shakir-v14 p. 326}
+
+'Allah'a inanır' dediği için ise, 'Yalnızca Allah'a inanır, ortakları yoktur.' Ve 'Ve inananlar için inanır' demesi, 'Ve inananlar doğrulanmıştır, ne kâfirler ne de münafıklar' anlamına gelir. Bu, 'Muhammed o zaman Muhammed' diyen münafıklara Allah'ın inkârıdır. Der ki, 'Muhammed sadece iyi bir dinleyicidir, Allah'a ve O'ndan gelenlere inanır, müminlere inanır, Allah'a ikiyüzlülük ve kâfir olan insanlara değil.' Ayrıca şöyle denir: 'Ve inananlar için inanır' demektir, çünkü Araplar 'Ona inandım' diyor, yani 'Ona inandım', yani 'Ona inandım', yani 'Ona inandım', yani 'O ona inandı' diye ifade edilir, [[passage/quran-27-72|27:72 ayetinde]] belirtildiği gibi., ve anlamı 'yanında'dır, tıpkı El-A'raf'taki Rab ve [[passage/quran-7-154|korkanlar için ayet 7:154]]'te olduğu gibi, anlamı ise Rab'binden korkanlar içindir. Ve İbn Abbas'tan 16905 rivayeti: O, Allah'a ve müminlere inanır. {cite:tafsir-tabari-shakir-v14 p. 327}
+
+'wa rahma li li-li ay aman al-mu'ah' ifadesine gelince, okuyanlar okumada farklılık göstermiştir. Şehirlerin çoğu okuyan, 'wa rahmah'ı isimli bir anlamda okur: 'De ki: Bu sizin için daha iyi bir kulaktır' ve aranızda iman edenlere kulağa bir bağlayıcı olarak bir merhamettir. Bazı Kufanlılar 'rahmah'ı 'hakd' ile birlikte 'iyilik' ile birleştirir, 'De ki, bir kulak sizin için daha iyidir' ve 'kulak merhamettir' şeklinde yorumlar. Al-Tabari isimli kelimeyi seçer; bu kelime aranızdaki iman edenlere bir merhamettir ve Allah onu takip eden, onun rehberliğini takip eden ve Rabbinden getirdiğine inananlar için merhamet yaptı; çünkü Allah onları sapkınlıktan kurtardı ve onu takip ederek onlara cennet bahşetti. {cite:tafsir-tabari-shakir-v14 p. 328}
+
+Ve 'Ve Allah'ın Elçi'ne zarar verenler acı bir ceza çeker' dediği gibi, Yüce Allah, Resul'u eleştiren ve 'O Allah'ın kulağıdır' diyen münafıklara şöyle der; onların gibileri de onun inkârcıları ve terk etmenin ve yalancılığın cehennem ateşinde Allah'tan gelen acı bir ceza olduğunu söyleyenler arasındadır. {cite:tafsir-tabari-shakir-v14 p. 328}
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.

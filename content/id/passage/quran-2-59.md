@@ -1,0 +1,20 @@
+---
+id: passage/quran-2-59
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-2-59.md}
+---
+
+## Ringkasan
+Ayat 59 Surah [[passage/quran-2|Al-Baqarah]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: Ayat 59 dari 286 ayat dalam surat. Teks ini disimpan dari Mushaf Tazl al-Mujmad dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+Pada 2 [[passage/quran-2-59|:59]], Al-Tabari mengatakan bahwa 'badl' berbeda, dan mereka yang berbuat salah pada mereka yang melakukan sesuatu yang tidak seharusnya mereka lakukan, dan perubahan mereka adalah mengatakan sesuatu yang bertentangan dengan apa yang diperintahkan. Ia menceritakan hadits dari Abu Huraira dari Nabi yang berkata: Allah berfirman kepada anak-anak Israel, 'Masuklah pintu dengan sujud dan ucapkan 'Hitta.' Mereka berubah pakaian dan masuk sambil merangkak di bahu dan berkata, 'Sebutir butir di sehelai rambut.' Verifier menjelaskan bahwa itu diceritakan oleh Ahmad, Al-Bukhari, Muslim, dan Al-Tirmidhi, dan ada perbedaan dalam kata-katanya antara 'sha'ra' dan 'sha'ira', dan apa yang diceritakan al-Tabari melalui Ibn Ishaq memiliki rantai yang otentik dan satu lagi dengan narator yang ambigu. {cite:tafsir-tabari-shakir-v02 p. 112} {cite:tafsir-tabari-shakir-v02 p. 113}
+Laporan-laporan tersebut menceritakan bentuk-bentuk apa yang mereka katakan: dari Ibn Mas'ud 'gandum merah dengan bulu di dalamnya,' dan dari Ibn Abbas bahwa mereka diperintahkan untuk membungkuk melalui sebuah pintu kecil, dan mereka masuk di hadapan tuan mereka sambil mengolok-olok 'gandum'; dari Qatadah dan al-Hasan yang mereka masuk merangkak di paha; dari Mujahid bahwa pintu diturunkan agar mereka bisa bersujud, tetapi mereka tidak bersujud dan masuk dengan tumit; dari Al-Suddi, dari Ibn Mas'ud, yang mengucapkan kata asing yang berarti butir gandum merah dengan lubang di rambut hitam, dan dari Al-Rabi' bahwa salah satu dari mereka bersujud ada di pipinya. Dan dari Ibn Zayd bahwa mereka mengejek Musa dan berkata, 'Hitta hitta,' yang berarti apa pun 'hitta,' dan beberapa orang berkata satu sama lain, 'gandum.' Dan dari Ikrimah mereka masuk dengan kepala tertutup. {cite:tafsir-tabari-shakir-v02 p. 113} {cite:tafsir-tabari-shakir-v02 p. 114} {cite:tafsir-tabari-shakir-v02 p. 115}
+Dalam [[passage/quran-2-59|2:59]], dinyatakan bahwa mereka yang bersalah adalah mereka yang mengubah ucapan dan membangkang, dan bahwa 'rajaz' dalam bahasa Arab berarti hukuman, yang berbeda dengan 'rajaz' dengan damma pada 'ra' dalam Surah Al-Muddathir. Hadits Usama ibn Zayd dari Nabi tentang wabah disebut sebagai 'rajaz' yang digunakan oleh beberapa bangsa sebelum Anda, dan pemberi verifikasi menyebutkan asal-usulnya dari dua Sahih. {cite:tafsir-tabari-shakir-v02 p. 116}
+
+Al-Tabari melengkapi riwayat dengan rantai lain dari Usama ibn Zayd bahwa wabah itu adalah rajaz yang diwahyukan kepada mereka di hadapan Anda atau kepada Anak-anak Israel. Dan dari Qatadah, Ibn Zayd, dan Ibn Abbas bahwa rajaz adalah hukuman; dari Abu al-'Aliyah adalah kemarahan; dan dari Ibn Zayd bahwa Allah mengirimkan wabah kepada mereka, tidak menyisakan siapa pun kecuali anak-anak. Al-Tabari mengatakan bahwa hukuman Allah beragam, dan mungkin saja itu wabah atau sebaliknya, dan tidak ada indikasi dalam makna Al-Qur'an atau dalam laporan otentik dari Rasul mengenai jenisnya; pandangan yang benar adalah mengatakan seperti yang Allah katakan, itu adalah rajaz dari langit, meskipun jiwa terharu oleh kebenaran pernyataan Ibn Zayd tentang wabah itu, tetapi dia tidak mengatakannya dengan pasti karena laporan tidak menyebutkan bangsa mana yang dihukum olehnya. Makna 'mereka tidak taat' adalah mereka menyimpang dari ketaatan kepada Allah untuk membangkang-Nya. {cite:tafsir-tabari-shakir-v02 p. 117} {cite:tafsir-tabari-shakir-v02 p. 118} {cite:tafsir-tabari-shakir-v02 p. 119}

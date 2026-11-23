@@ -1,0 +1,23 @@
+---
+id: passage/quran-9-83
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-9-83.md}
+---
+
+## Ringkasan
+Ayat 83 Surah [[passage/quran-9|At-Tawbah]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: ayat 83 dari 129 ayat dalam surat. Teks ini disimpan dari Mushaf Tazl al-Mujmad dan tidak ditulis ulang di sini.
+
+**Penafsiran Ayat 83 (hlm. 403-405)**
+
+Al-Tabari berkata kepada Nabi-nya Muhammad: Jika Allah mengembalikanmu, wahai Muhammad, kepada sekelompok munafik ini dari pertempuranmu ini, maka mintalah izinmu untuk pergi bersamamu dalam pertempuran lain. Katakan kepada mereka, 'Engkau tidak akan pernah keluar bersama-Ku dan tidak akan pernah berperang bersama-Ku melawan musuh. Memang, engkau puas tinggal untuk pertama kalinya, dan saat itulah Nabi pergi ke Tabuk. Jadi duduklah bersama orang-orang yang berlawanan.' Dia berkata: 'Maka duduklah bersama mereka yang duduk di antara para munafik yang duduk berhadapan dengan Rasulullah, karena engkau di antara mereka. Maka ikutilah pengajaran mereka dan lakukanlah seperti mereka dalam ketidaktaatan kepada Allah, sebab Allah telah menjadi tidak senang kepadamu.' Peneliti merujuk pada sekte tersebut dan kembali ke apa yang telah disebutkan sebelumnya. {cite:tafsir-tabari-shakir-v14 p. 403}
+
+Dan riwayat tahun 17047 dari Ibn Abbas, melalui Muhammad ibn Sa'd, ayahnya, pamannya, dan ayahnya dari ayahnya: Seorang pria berkata, 'Wahai Rasulullah, panasnya sangat besar dan kami tidak bisa keluar, jadi janganlah kamu terhalang oleh panas.' Ini terjadi saat Pertempuran Tabuk. Allah berkata, 'Katakanlah, api neraka akan lebih panas jika mereka mengerti.' Allah memerintahkannya untuk pergi; dan orang-orang tetap tinggal dan roh mereka menguasai mereka dan berkata, 'Demi Allah, kami tidak berbuat apa-apa.' Tiga dari mereka berangkat dan bergabung dengan Rasulullah. Ketika mereka sampai kepadanya, mereka bertaubat dan kembali ke Madinah. Kemudian Allah mewahyukan: 'Jika Allah mengembalikanmu kepada Sekelompok dari mereka berkata kepadanya, 'Jangan berdiri di kubur-Nya.' Rasulullah berkata, 'Celakalah mereka yang tertinggal.' Maka Allah mengungkapkan alasan mereka ketika mereka bertobat, berkata: Allah telah menerima pertobatan Nabi, Muhajirun, dan Ansar, hingga Firman-Nya: Sesungguhnya, Allah Yang Menerima Taubat, Yang Maha Penyayang. Ini adalah [[passage/quran-9-117|ayat 9:117 dan 9:118]]. Dan narasi 17048 dari Qatadah, melalui rantai Bishr, Yazid, dan Sa'id: 'Maka duduklah bersama para pembangkang,' artinya bersama para wanita. Disebutkan kepada kita bahwa ada dua belas pria di antara para munafik, tentang siapa apa yang dikatakan. Dan riwayat 17049 dari Ibn Abbas, melalui Al-Muthanna, Abdullah ibn Salih, Muawiyah, dan Ali: para pembangkang manusia. {cite:tafsir-tabari-shakir-v14 p. 404}
+
+Al-Tabari percaya bahwa interpretasi yang benar mengenai mereka yang menentang adalah apa yang dikatakan Ibn Abbas. Adapun apa yang dikatakan Qatadah tentang wanita, itu adalah pernyataan yang tidak bermakna, karena orang Arab tidak mengumpulkan wanita jika mereka tidak memiliki pria dengan huruf ya, nun, waw, dan nun. Jika itu berarti wanita, maka dikatakan duduk bersama para pembelot atau khalifah wanita, tetapi yang kami maksud adalah mereka duduk bersama pria sakit, orang-orang pada zamannya, yang lemah di antara mereka, dan wanita. Jika pria dan wanita berkumpul dalam laporan itu, maka orang Arab memiliki dominasi laki-laki dibandingkan perempuan, dan karenanya dikatakan dengan para pembangkang. Jika maknanya diarahkan pada 'duduk bersama para perosak' dari pepatah mereka 'duduk di belakang orang korupsi,' dia akan meninggalkan jika dia menjadi korup, dan pernyataan mereka 'dia penerus yang buruk' adalah aliran pemikiran. Asal-usulnya, jika dimaksudkan dengan makna ini, berasal dari pepatah mereka 'di belakang susu, yakhlaf khaluf' yang berarti susu menjadi tidak murni dari panjang penempatannya di dalam pembawa air hingga membusuk, dan dari pepatah mereka 'di belakang mulut orang yang berpuasa' jika baunya berubah. Peneliti merujuk pada apa yang sebelumnya disebutkan dalam Khalaf. {cite:tafsir-tabari-shakir-v14 p. 405}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

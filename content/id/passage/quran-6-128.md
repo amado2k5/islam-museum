@@ -1,0 +1,25 @@
+---
+id: passage/quran-6-128
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-6-128.md}
+---
+
+## Ringkasan
+Ayat 128 Surah [[passage/quran-6|Al-An'am]], yang merupakan surah Mekah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: ayat 128 dari 165 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujjard dan tidak ditulis ulang di sini.
+
+Ayat 128: "Dan pada hari ketika Dia mengumpulkan mereka semua, wahai kumpulan jin, kamu telah banyak menambah jumlah manusia": Maksudnya dengan frasa "Dan hari ketika Dia akan mengumpulkan mereka semua," hari di mana hamba-hamba Allah yang adil—berhala, berhala, dan politeis lainnya—akan dikumpulkan bersama sekutu mereka di antara iblis yang diilhami untuk menipu mereka dengan perhiasan ucapan untuk menipu orang beriman, mengumpulkan mereka pada Kebangkitan. Dia akan berkata kepada jin: "Wahai kumpulan jin, kamu telah sangat menyesatkan manusia," dan menghilangkan "dia berkata kepada jin" sudah cukup untuk makna kata itu. Dan dengan ucapan-Nya, "Kamu telah menambah jumlah manusia," maksudnya kamu telah sangat menyesatkan dan menyesatkan mereka. Cerita ini diceritakan (13885) dari Ibn Abbas: Kamu telah menyesatkan banyak dari mereka; (13886) dari Qatadah dengan cara yang serupa; dan (13887) dari Mujahid: Kamu telah sangat menyesatkan mereka. {cite:tafsir-tabari-shakir-v12 p. 115}
+
+Ia melanjutkan: 13888 dari Mujahid seperti dirinya, dan 13889 dari Al-Hasan: Engkau telah menyesatkan banyak umat manusia. Kemudian 'Sekutu mereka di antara manusia berkata, 'Tuhan kami, kita menikmati satu sama lain.' Al-Tabari berkata: Sekutu jin di antara manusia akan menjawab, 'Tuhan kami, kita telah menikmati satu sama lain di dunia ini.' Adapun kenikmatan umat manusia terhadap jin, diceritakan (13890) dari Ibn Jurayj bahwa pada era pra-Islam seorang manusia akan turun ke bumi dan berkata, 'Aku mencari perlindungan di kepala lembah ini,' itulah kesenangan mereka, sehingga mereka akan meminta maaf pada Hari Kebangkitan. Adapun jin yang menikmati manusia, mereka tidak akan mengurangi rasa hormat umat manusia kepada mereka dengan mencari perlindungan bersama mereka, dengan berkata, 'Kami telah menghalangi jin dan manusia.' Dalam catatan kaki, edisi mengubah 'jinn' menjadi 'insan' karena tidak dapat membaca naskah tanpa titik. Editor menyebut 'al-hann' dengan kasra pada 'ha' sebagai 'ha' hidup dari jinn, dan merujuk pada 'bulu'. {cite:tafsir-tabari-shakir-v12 p. 116}
+
+"Dan kami telah sampai pada waktu yang telah ditetapkan yang telah ditunda bagi kami": Al-Tabari berkata: Mereka berkata, 'Kami telah sampai pada waktu yang telah ditetapkan untuk kematian kami,' yang berarti beberapa menikmati beberapa hari dalam hidup mereka sampai kematian mereka; dan (13891) menceritakan dari Al-Suddi: waktu yang ditentukan adalah kematian. {cite:tafsir-tabari-shakir-v12 p. 117}
+
+Kemudian 'Dia berkata, 'Api adalah tempat terakhir kalian, di mana kalian akan tinggal selama-lamanya kecuali seperti yang Allah kehendaki. Sesungguhnya, Tuhanmu Bijaksana dan Maha Tahu.' Al-Tabari berkata ini adalah laporan dari Allah mengenai mereka yang akan berkumpul pada Hari Kebangkitan di antara orang benar dengan berhala dan sahabat mereka di antara jin. Dia mengecualikan laporan tersebut dari apa yang dikenal sebagai asal-usul laporan tentang apa yang telah dibahas sebelumnya dalam maknanya. Allah berkata kepada sekutu jin di antara manusia: Api adalah tempat tinggal kalian, yang berarti api neraka, tempat tinggal kalian. Dan 'al-matwwa' dibuat dari 'thawwa' di tempat dia tinggal. Dalam catatan kaki, terdapat referensi pada penafsiran 'al-mathwa' seperti yang disebutkan sebelumnya. {cite:tafsir-tabari-shakir-v12 p. 117}
+
+Dan 'tetap di sana' berarti mereka akan tetap di sana, 'kecuali apa yang Allah kehendaki,' artinya kecuali apa yang Allah kehendaki dalam periode yang ditetapkan antara kebangkitan mereka dari kubur dan turun ke Neraka. Periode yang Allah keluarkan dari ketetapan abadi mereka di Api adalah: 'Sesungguhnya, Tuhanmu Bijaksana' dalam mengelola ciptaan-Nya dan mengarahkan mereka sesuai kehendak-Nya dari satu keadaan ke keadaan lain, 'Mengetahui' akibat dari pengelolaannya dan hasil dari urusan mereka, baik baik maupun buruk. Diceritakan bahwa Ibn Abbas menafsirkan pengecualian ini sebagai Allah meletakkan hukuman atas kehendak mereka sendiri; (13892) Dari Ibn Abbas: Tidak ada yang boleh menghakimi Allah atas ciptaan-Nya; Dia tidak akan menerima mereka ke Surga atau Neraka. Dalam catatan pinggir, edisi tersebut menambah 'an' dan merusak maknanya, dan bahwa kata itu melarang orang mengucapkan si anu di Surga dan si anu di Neraka. {cite:tafsir-tabari-shakir-v12 p. 118}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

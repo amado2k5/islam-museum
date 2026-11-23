@@ -1,0 +1,39 @@
+---
+id: passage/quran-3-72
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-3-72.md}
+---
+
+## Özet
+Medine suresi olan İmran Suresi [[passage/quran-3|'nin 72. ayeti]]. {cite:tanzil-quran}
+
+## Konumu
+Yeri: Sure'deki 200 ayetten 72. ayet. Metin Mushaf Tazl al-Mujmad'dan korunmuş olup burada yeniden yazılmamıştır.
+
+**72. ayet: Günün başında iman planı ve sonunda inançsızlık.** El-Taberi, yorum yapanların bu grubun emrettiği konuda farklı düşündüğünü söyler: günün başında iman ve sonunda inançsızlık. {cite:tafsir-tabari-shakir-v06 p. 506}
+
+**İlk görüş: görünür inanç sonra inanma.** Bazıları, Peygamber'in peygamberliğinde ve getirdiklerine inanmaları için emredildiklerini, ancak kararsızca ve içten inanç olmadan ve sonunda bunların hepsine inkar edildiklerini söyledi. Editör, basılı baskının el yazmasındakinden farklı, doğru ve güçlü bir ifadenin bulunduğunu, görünürdeki onayın bağlamının ise öncekilerle bağlantılı olduğunu belirtir. {cite:tafsir-tabari-shakir-v06 p. 506} El-Taberi, 7231 numaralı haberi rivayet eder (El-Hasan ibn Yahya, Abdul Razzaq'tan, Ma'mar'dan, Katadan): Bazıları diğerlerine şöyle dedi: Günün başında dinlerinden tatmin edin, sonunda geri alın. Onların size inanması ve sizin onlarda hoşlanmadıklarınızı gördüğünü bilmeleri daha uygundur, onların ise dinlerini terk etmeleri daha uygundur. Ve 7232 raporunda (Mu'alla bin Asad'dan, Halid'den, Hüseyin'den, Ebu Malik'ten) Yahudiler şöyle dediler: Günün başında onlarla birlikte inanın, sonunda yüz çevirin, umarım sizinle birlikte dönerler. {cite:tafsir-tabari-shakir-v06 p. 507}
+
+**El-Khabar 7233 (El-Suddi).** El-Taberi (Muhammed bin el-Hüseyin, Ahmed bin Mufaddal'dan, Asbat'tan, el-Suddi'den) Arap köylerinin hahamlarının on iki alimi olduğunu rivayet eder. Bazıları birbirlerine şöyle dedi: Günün başında Muhammed'in dinine girin ve 'Biz bunun doğru olduğuna şahit oluyoruz.' Ama gün geldiğinde kâr ederler ve 'Bilginlerimize ve alimlerimize döndük.' derler. Onlara sorduk, Muhammed'in yalancı olduğunu ve sizin hiçbir şeye karşı olduğunuzu söylediler. Biz dinimize döndük ve bu bizim için sizinkinden daha şaşırtıcıdır. Belki şüphelenirler ve 'Bu insanlar günün başında bizimleydi, peki ya onlar?' derler. Böylece Allah bunu Elçisine bildirdi. Editör, basılı baskının köy adının farklı okunduğunu, bunun bozuk bir el yazmasının bozuk bir okunması olduğunu, doğru görüşün Al-Durr al-Manthur'da (2:42) olmadığını ve bunun 'Ma Ista'jam' sözlüğünde yer adı olduğunu belirtir (s. 929). {cite:tafsir-tabari-shakir-v06 p. 507}
+
+**Haber 7234.** 7234 numaralı raporda (Ammar'dan, İbn Ebi Ca'fer'den, babasından, Hüseyin'den, Ebu Malik El-Giferi'den rivayet ettim) Yahudiler birbirlerine şöyle dediler: 'Günün başında İslam'a geçin ve sonunda geri dönün ki geri dönsünler.' Allah onların sırrını ortaya çıkardı. {cite:tafsir-tabari-shakir-v06 p. 507}
+
+**İkinci görüş: Amaçlanan anlam duadır.** Diğerleri şöyle dedi: Aksine, bana imanla ilgili emredilen şey dua ve onun günün başında onlarla birlikte olması, sonunda ise onu ihmal etmesidir. {cite:tafsir-tabari-shakir-v06 p. 508}
+
+**El-Akhbar 7235-7237.** 7235 tarihli raporda (Muhammed ibn Amr, Ebu Asim'den, İsa'dan, İbn Ebi Nuceyh'den, Mücahidden) Yahudilerin Muhammed ile şafak namazını künkü yaptıklarını ve günün ilerleyen saatlerinde onları aldatarak kâfir olduklarını, böylece insanların onu takip ettikten sonra yanlış yolculukların ortaya çıktığını gördüklerini belirttiklerini belirttiler. Ve 7236 (El-Muthanna, Ebu Hudhayfe, Şibl, İbn Ebi Nuceyh, Mücahid) ile aynı şekilde rapor edilir. Ve 7237 numaralı raporda (Muhammed ibn Sa'd, babasından, amcasından, babasından, babasından, İbn Abbas'tan) bir grup Yahudi şöyle demiştir: Muhammed'in sahabeleriyle günün başında karşılaştığınızda inanın; ve günün sonunda dualarınızı kılın, belki onlar 'Bunlar Kitap ehlileridir ve bizden daha bilgilidirler' derler ve dinlerinden döneceklerdir; ve sadece dinlerini takip edenler tarafından teselli edileceklerini savunacaklardır. {cite:tafsir-tabari-shakir-v06 p. 508}
+
+**El-Taberi'nin konuşmayı yorumlamasının başlangıcı.** Söylemenin anlamı şudur: Kitap Ehlilerinden bir grup, yani Tevrat'ı okuyan Yahudiler, şöyle demiştir: Muhammed'in günün başında gerçek dine, onun kanunlarına ve sünnetine getirdiğine inanın; günün başlangıcı ise gününün başlangıcı anlamına gelir. {cite:tafsir-tabari-shakir-v06 p. 508}
+
+**Günün başlangıcına neden 'wajh' (yüz) denir?** El-Tabari, Arapların 'wajha'nın başlangıcına en iyi ve gözlemcinin gördüğü ilk şey olduğu için adlandırdıklarını, tıpkı bir giysinin başlangıcına 'wajha' (yüz) dedikleri gibi, bunu söylediğini söyler. Rabi' ibn Ziyad'dan bir ayet alıntılar: 'Malik'in öldürülmesine sevinirse, günün başında kadınlarımıza gelsin,' bu da intikamın ilk sabah alınacağını gösterir. Bir grup tercümanın da onun söylediğine benzer bir şey söylediğini belirtir. {cite:tafsir-tabari-shakir-v06 p. 509}
+
+**Editörün Rabi' ibn Ziyad'ın ayeti üzerine kenar notları.** Editör, ayeti Kur'an metaforundan (1:97), Ebu Temmam'ın coşkusundan (3:26), ilahilerden (16:27), kütüphaneden (3:538) ve dilden çıkarır. Malik bin Zuhayr öldürüldüğünde şairin dizelerini okuduğunu ve intikamını almaya hazırlandığını belirtir. Ayrıca, ayeden sonra gelen ve şafak öncesi kalbi kırılmış, ağlayan ve yüzleri kederle kaplı kadınları anlatan ayetleri de aktarır. Bazı yorumcular, bu ayetin, Malik'in ölümüne sevinenin övünmemesi gerektiği anlamına geldiğini söyler; çünkü intikamını anlamışlardı, çünkü Araplar intikamlarını anladıktan sonra ölülerini yas tutmuşlardır. Araştırmacı, anlamının buna yakın olduğunu söyler, ancak şair intikamını hemen gerçekleştirmek istemiştir. Bunu kanıtlamak isteyen herkes, katilinin ölüm sabahı cenazeye katılmalıdır. Malik'in katilleriyle savaşmaya gitmeden önce karısına bu ayetleri okuduğuna inanır; böylece intikam peşinde ciddi olduğunu ve yavaş olmayacağını göstermek ister. {cite:tafsir-tabari-shakir-v06 p. 509}
+
+**El-Akhbar 7238-7240.** 7238 raporunda (Bişr, Yezid'den, Seyid'den, Katadah'dan) bu ifadenin amaçlanan anlamı günün başlangıcı olarak belirtilmiştir. Ve 7239 (El-Müthanna, İshak'tan, İbn Ebi Ca'fer, babasından El-Rebi'den) başlangıcının günün başlangıcı, sonu ise sonu olduğu belirtilir. Ve 7240 raporunda (El-Kısım, El-Hüseyin, Haccam, İbn Cüreyc, Mücahid) şöyle denir: Onlarla birlikte Fefr'de namaz kıl ve günün sonunda onlarla namaz kılma, belki bununla onları yoldan çıkarırsın. {cite:tafsir-tabari-shakir-v06 p. 509} {cite:tafsir-tabari-shakir-v06 p. 510}
+
+**72. ayetin son yarısının anlamı.** El-Taberi, son bölümdeki ifadesinin kastedildiğinin şudur: 'Günün sonunda, başlangıçta dinlerine inandıklarını inkâr et.' Dönüş umudlarının anlamı, dinlerinden seninle birlikte dönmüş ve onu terk etmiş olmalarıdır. {cite:tafsir-tabari-shakir-v06 p. 510}
+
+**El-Akhbar 7241-7245.** 7241 raporunda (Bişr, Yezid'den, Seyid'den, Katadah'dan) kastedilen anlam, dinlerini bırakıp sizin olduğunuz yere dönmeleridir; ve 7242 raporunda (İshak'tan El-Müthanna, İbn Ebi Ca'fer, babasından, El-Rabi'den) benzer bir rapordur. Ve 7243 raporunda (Muhammed bin Sa'd, babasından, amcasından, babasından, babasından, İbn Abbas'tan) dinlerinden dönecekleri umulmaktadır. Ve 7244 raporunda (Muhammed bin Hüseyin, Ahmed bin Mufaddal, Asbat, Al-Suddi) belki şikayet ederler. Ve 7245 raporunda (El-Kağım, El-Hüseyinden, Haccam'dan, İbn Cüreyc'den, Mücahidden) dinlerinden uzaklaştıklarını belirtirler. {cite:tafsir-tabari-shakir-v06 p. 510}
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.

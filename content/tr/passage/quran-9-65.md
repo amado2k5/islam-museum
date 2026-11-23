@@ -1,0 +1,29 @@
+---
+id: passage/quran-9-65
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-9-65.md}
+---
+
+## Özet
+Medine suresi olan Tevbe Suresi [[passage/quran-9|'nin 65]]. ayeti. {cite:tanzil-quran} Vahiyi, alimler tarafından [[event/hypocrites-mock-the-army-and-excuse|bir grup münafıkın alay edilmesi ve özür dilemesiyle]] ilişkilendirilir. {cite:ibn-hisham-saqqa}
+
+## Konumu
+Konumu: Suredeki 129 ayetten 65. ayet. Metin Mushaf Tazil al-Mujjard'dan korunmuş olup burada yeniden yazılmamıştır.
+
+**65. ayetin yorumu (s. 332-335)**
+
+El-Taberi Peygamberine şöyle dedi: Ey Muhammed, bu münafıkların yalan ve yalanlar hakkında ne söylediklerini sorsan, onlar bizim sadece oyun amaçlı söylediğimizi, oysa şakacı ve alaycı bir sohbet ettiğimizi söylerlerdi; Allah Muhammed'e şöyle der: 'Ey Muhammed, sen Allah'ın babası mısın, Kitabının ayetleri ve Elçisi mısın?' Araştırmacı, tartışmada, oyunda ve alayda daha önce bahsedilenlere atıfta bulunur. İbn İshak, bu sözü söyleyenin Banu Umeyye ibn Zeyd'in kardeşi Vadiah ibn Tebit'e iletildiğini ve bunun 16910'da İbn Hümeyd ve Selme aracılığıyla rivayet edildiğini, İbn Hişam'ın biyografisinde ise 16899'daki rivayeti takip ettiğini söylerdi. {cite:tafsir-tabari-shakir-v14 p. 332}
+
+Ve 16911 yılında Zeyd bin Aslam'dan, Ali ibn Davud, Abdullah ibn Salih, Al-Layth ve Hisham ibn Sa'd aracılığıyla rivayet eder: Münafıklar arasında bir adam Tabuk Savaşı sırasında Awf ibn Malik'e şöyle dedi: Okuyucularımız ne için kendi kabilelerini, en aldatıcı dilleri ve toplantıdaki korkaklığı arzuladı? Awf ona, 'Yalan söyledin ama sen bir münafıksın. Ben Allah'ın Elçi'ne haber vereceğim.' Awf, Allah'ın Elçi'ne haber vermek için gitti ve Kur'an'ın kendisinden önce geldiğini gördü; Zayd dedi ki: Abdullah ib. n Ömer dedi ki: Onu Peygamber'in dişi devesinin kucağına tutunup taş attığını gördüm. O dedi ki, 'Sadece şaka yapıyorduk ve oyun oynuyorduk.' Peygamber ona şöyle derdi: 'Ey Allah, Onun işaretleri ve Elçisi, alay ediyordun.' Buna ne eklenir? Doğrulayıcı, Hisam bin Said el-Medeni'nin güvenilir olduğunu ve ondan bahsettiğini, fıkhih Zeyd bin Aslam'ın İbn Ömer'den aktarma zincirinin gerçek olduğunu anlattığını belirtir. 'al-haqab'ın devenin karnına atları bağlamak için kullanılan bir ip olduğunu açıklar. {cite:tafsir-tabari-shakir-v14 p. 333}
+
+Ve 16912'de Abdullah ibn Umar'dan, Yunus, İbn Vahb, Hişam ibn Said ve Zayd ibn Aslam aracılığıyla benzer şekilde rivayet eder: Tabuk Savaşı'nda bir adam, bizim gibi okuyucularımızı görmediğimizi şöyle demiştir: 'Biz daha arzulu, daha korkak ya da buluşmada korkak değil miyiz?' Toplantıdaki bir adam dedi ki, 'Yalan söyledin ama sen bir münafıksın, Allah'ın Elçi'ne söylerdim.' Peygamber bunu duydu ve Kur'an inkar edildi; Abdullah ibn Ömer dedi ki, 'Onu Peygamber'in dişi devesinin çağına tutunurken, taşlarla fırlatıldığını gördüm ve dedi ki, 'Ey Allah'ın Elçisi, biz sadece oyun oynuyorduk.' Allah'ın Elçisi şöyle dedi: 'Allah'a, O'nun ayetlerine ve Elçi'ne alaycı oldunuz; kendinizi mazur göstermeyin, çünkü imanınızdan sonra kâfir oldunuz.' Doğrulayıcı, rivayet zincirinin doğru olduğunu ve öncekiyi tekrarladığını belirtir. {cite:tafsir-tabari-shakir-v14 p. 334}
+
+Ve 16913 yılında İkrimah'tan, Ya'qub bin İbrahim, İbn Ulayyah ve Eyyub aracılığıyla: Bir adam vardı, Allah'ın izniyle, onu affetti ve dedi ki: Ey Allah, derilerin titrediği, kalplerin arındığı bir ayet duyuyorum. Ey Allah, ölümümü davaların için bir katliam yap ki kimse, 'Yıkandım, kefenimi örttüm, gömdüm.' demesin. Dedi ki, 'Sonra Yamama gününde acı çekti ve hiçbir Müslüman başka birini bulamadı.' Araştırmacı, kalbin sorumluluğunun bir atış ve kargaşa olması olduğunu açıklar. {cite:tafsir-tabari-shakir-v14 p. 334}
+
+Ve 16914 yılında Katada'dan, Bişr, Yezid ve Said aracılığıyla: Allah'ın Elçisi'nin önünde bazı münüyüzlerle birlikte Tabuk'a yürürken gördük. Onlar, 'Umarım bu adam Şam'ın saraylarını ve kalelerini açar.' dediler. Allah Peygamberine bunu bildirdi ve Peygamber, 'Kervanları durdurun.' dedi. Onlara gelip, 'Şöyle dediniz Bunu söylediler.' Onlar, 'Ey Allah'ın Peygamberi, biz sadece meşgul ve oyun oynuyorduk.' dediler. Allah onlara duyduklarınızı vahyetti. Ve 16915 yılında Katadah'tan, Muhammed bin Abdül-A'la, Muhammed ibn Sewr ve Muammer aracılığıyla rivayet: benzer bir şey ve söylenir ki, bunun Romalıların saraylarını ve kalelerini açacağını düşündüler, bu yüzden onları çağırdı ve dedi ki, 'Böyle ve şöyle dedin.' Sadece dışarı çıkıp oyun oynadığımızı yemin ettiler. {cite:tafsir-tabari-shakir-v14 p. 335}
+
+Ve 16916 tarihli rivayet, Muhammed bin Ka'b ve diğerlerinden, El-Haris, Abdülaziz ve Ebu Ma'shar zincirinden: Münafıklar arasında bir adam dedi ki: Bu okurlarımızı sadece buluşmada kibirli, dillerde yalan ve korkak olduğumuzdan görüyorum. Bunu Allah'ın Elçisi'ne getirdi, o da geri döndü ve dişi devesine bindi, 'Ey Allah'ın Elçisi, biz sadece meşgul ve oyun oynuyorduk.' dedi: 'Ey Allah, Onun işaretleri ve Elçisi, sen onun sözünü alay ederdin: Suçlular; ayakları üflemek için kullanılırdı taşlar ve Allah'ın Elçisi Resulef'in nefesine bağlandığında neye dikkat ettiğini.' El-Muhaqqiq 'Nasf' ve 'Nas'ah'ı açıklar. Ve Mucahid'den, Mucahid'den 16917'deki rivayet, Mucahid, Ebu Asim, İsa ve İbn Ebi Nucayh'dan: Münafıklardan bir adam bize, şu kadının devesinin şu gün şu vadide olduğunu ve görünmeyeceği bilmediğini anlattı; ve 16918'de Mücahid'den benzer şekilde rivayet edilmiştir. {cite:tafsir-tabari-shakir-v14 p. 335}
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.

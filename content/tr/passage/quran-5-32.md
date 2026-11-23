@@ -1,0 +1,49 @@
+---
+id: passage/quran-5-32
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-5-32.md}
+---
+
+## Özet
+Medine suresi olan Mediye [[passage/quran-5|suresinin 32]]. ayeti. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Surede 120 ayetten 32. ayet. Metin Mushaf Tazil al-Mujaddam'dan korunmuş olup burada yeniden yazılmamıştır.
+
+**32. ayetin yorumu: Bu nedenle İsrail Çocukları için yazdık, s. 231-233**
+
+El-Tabari, 'bu yüzden ifadesinin, sebep olan, onu yapan ve işleyen' anlamına geldiğini söyler; yani kardeşini öldüren kişinin Adem'in oğullarından ve suçundan dolayı İsrailoğulları'na karşı yazdık; ayrıca bu meselenin, onu sürükleyip kazanırsanız geciktiği de söylenir. Bir şairin savaşan bir halk hakkında yazdığı bir beyt alıntılanır; bu da onun komşu ve onlara karşı fail olduğu anlamına gelir. Araştırmacı soyunu ve anlatımını belirtir. İfadenin anlamı: Kardeşini haksız yere öldüren Adem'in oğlunun suçundan İsrailoğullarına, başka bir ruh öldürülmeden haksızca bir ruhu öldüren ve intikamla ya da yeryüzünde yozlaşma olmadan öldürülen kişinin öldürülmeyi hak ettiğine karar verdik. Yeryüzündeki yozlaşması, Allah'a ve Elçisine karşı savaş ve yol korkusundan kaynaklanır. Al-Dahhak'tan 11770 tarihli rivayet, bunun anlamının, kardeşini haksız yere öldüren Adem'in oğlu için olduğunu anlatır. {cite:tafsir-tabari-shakir-v10 p. 231}
+
+Sonra yorum alimleri 'Ve kim bir ruhu öldürürse, ruh ya da topraktaki bozulma için değilse, insanlığı tamamen öldürmüş olur. Ve bir ruhu kurtaran herkes, tüm insanlığı kurtarmış gibi olur.' Bazıları şöyle dedi: Adil bir peygamber ya da imam öldüren herkes, tüm insanlığı öldürmüş olur. Kim bir peygamberi ya da adil bir lideri adil bir peygamber ya da imam gücüne bağlarsa, sanki tüm insanlığı kurtarmıştır. 11771 riayeti bunu İbn Abbas'tan aktarır ve doğrulayıcı onun rivayetlerini bilir. {cite:tafsir-tabari-shakir-v10 p. 232}
+
+İbn Abbas'tan 11772 numaralı rivayet, Allah'ın yasak ettiği bir ruhu öldürenin tüm insanları öldürmek gibi olduğunu, Allah korkusuyla yasak bir hayatı öldürmekten kaçınan kişinin ise tüm insanların, yani peygamberlerin utangaçlığı gibi olduğunu belirtir. Diğerleri ise, bir ruhu öldürenin, günah içinde öldürülen kişinin zamanında tüm insanları öldürmüş gibi olduğunu, onu yok olmaktan kurtaran kişinin tüm insanları yıkımdan kurtarmış gibi olduğunu söyler. Al-Suddi'nin bir grup yoldaş tarafından yazılan 11773 numaralı rivayeti bununla başlar. {cite:tafsir-tabari-shakir-v10 p. 233}
+
+Al-Suddi'den 11773 numaralı anlatımın devamı: "Bir ruhu öldüren kişi, günah içinde öldürülen kişi için tüm insanlığı öldürmüş gibi olur" ve "Kim onu kurtarırsa" ve yıkımdan kurtarırsa, sanki tüm insanları kurtarılanlardan kurtarmıştır. {cite:tafsir-tabari-shakir-v10 p. 234}
+
+Diğerleri ise bunun anlamının, yasak bir ruhu öldürenin tüm insanları öldürmüş gibi ateşte yakıldığını söyler. Onu kurtaran kişi, yani onu öldürmekten kurtulursa, tüm insanları öldürmekten de güvendedir. 11774, 11775 ve 11776 rivayetleri Mücahit ve İbn Abbas'tan rivayet eder: Kim öldürmezse onu kurtarmıştır, kim ise bir can kurtarırsa, sanki tüm insanları öldürmüş gibi olur. Kim kimseyi öldürmezse, ondan tamamen kurtulur. Ve Abda bin Ebi Lubabah'ın 11777 numaralı rivayetinde, Mucahid'e sormuştur; Mucahid şöyle demiştir: Eğer tüm insanları öldürürse, ödülü cehennem olur, orada sonsuza dek kalır ve Allah ona kızar, lanetler ve büyük bir ceza hazırlar. Buna [[passage/quran-4-93|4:93]] ayetinden bahsedilir. {cite:tafsir-tabari-shakir-v10 p. 234}
+
+11778 riayeti, Mücahid'den kasıtlı olarak inanan bir ruhu öldüren kişinin Allah'ın cezasını cehenneme çevireceğini, ona kızacağını ve lanetleyeceğini anlatır. Tüm insanları öldürse bile ceza artmaz ve kimseyi öldürmeyen kişi bundan rahatlar. 11779 ve 11780 numaralı iki rivayet Mücahit'e kendini kurtardığını ve günah içinde olduğunu anlatır; 11780 rivayeti ise ondan bir müminini öldürerek cehenneme gideceğini ve sanki tüm insanları öldürmüş gibi olduğunu anlatır. İbn Abbas'ın 11781 numaralı rivayeti ise, ruhu diriltmenin Allah tarafından yasak edilmiş bir ruhu öldürmediğini, çünkü onu öldürmeyi ancak halkın kurtuluş hakkı varsa öldürdüğünü söyler. {cite:tafsir-tabari-shakir-v10 p. 235}
+
+11782'den 11786'ya kadar olan rivayetler, Mücahit'ten şöyle anlatılır: Kim yasaklarsa ve öldürmezse, onu diriltmiştir; bu, En-Nisa Suresi'nde bunun bedeliyle ilgili olarak bahsedilenlere benzer; arkadaşları da bu söyler. Araştırmacı bunu, yasak bir ruhu öldürmenin tüm insanları öldürmek olduğunu, onu diriltmenin ise tüm insanları diriltmek olduğunu söyleyerek açıklar. {cite:tafsir-tabari-shakir-v10 p. 236}
+
+Diğerleri ise bunun cezalandırılması gerektiğini, tıpkı tüm insanlar öldürülseydi olduğu gibi, onu öldürerek cezalandırılması anlamına geldiğini söyledi. İbn Zayd'in 11787 numaralı rivayeti bunu anlatır. Diğerleri ise 've onu kurtaran' ifadesinin intikam yükümlü olanı affedip öldürmeyen kişi olduğunu belirtir. İbn Zayd'in 11788 numaralı rivayetinde Allah'ın ona ödül verdiğini, tıpkı tüm insanları diriltmesi gibi ve öldürülenlerin koruyucusu olduğu ya da ölen kişinin kendisinin ölmeden önce affedildiği belirtilir. 11789, 11790 ve 11791 rivayetleri El-Hasan'dan onun affeden olduğunu ve güç yükseltildikten sonra affedildiğini anlatır. {cite:tafsir-tabari-shakir-v10 p. 237}
+
+Diğerleri ise 'kim diriltti' ve kim boğulmaktan, yanmaktan ya da yok olmaktan kurtardı' anlamını söylemiştir. 11792, 11793 ve 11794 rivayetleri Mücahid'den anlatır ve Al-Muhaqqiq yakma ve yıkımı açıklar. Al-Dahhak'tan 11795 numaralı rivayet, ruhsuz bir ruhu öldüren kişinin çekimser olup olmadığını, 11796 numaralı rivayete ise onu öldürmeseydi insanları dirilteceğini ve yasakta yasal olmayacağını belirtir. {cite:tafsir-tabari-shakir-v10 p. 238}
+
+Katada ve El-Hasan, 11797 yılındaki El-Hasan'ın rivayetinde bunun büyük olduğunu, 11798 rivayetinde ise Katada'dan 11798 rivayetinde şöyle derler: Onu ruhsuz ya da çürütmeden öldüren herkes tüm insanları öldürmüş gibi olur. Allah'a yemin ederim, onun ödülü ve yükü büyüktür. O halde, ey Adem'in oğlu, onu canlandır ve mümkünse zenginliğin ve bağışlanınla onu. Bu kıble halkından bir Müslüman adamın kanının yalnızca üç kişiyle izinli olduğu bilinmemektedir: eğer İslam'dan sonra kâfir olup ölüm; ya da iffetten sonra zina taşlanmakla cezalandırılır; ya da bilerek öldürür ve kurban edilir. 11799 rivayeti de benzer şekilde Qatada'dan rivayet eder. 11800 rivayeti ise Süleyman bin Ali el-Ruba'i'den al-Hasan'a İsrailoğulları için olduğu gibi olup olmadığını sorduğunu ve şöyle dediğini anlatır: Evet, O'ndan başka tanrısı olmayan ve İsrailoğullarının kanını bizimkinden daha onurlu kılmamış olan Olan adına. {cite:tafsir-tabari-shakir-v10 p. 239}
+
+11801 rivayeti, Halid Ebi el-Fadl'dan rivayet eder ki, el-Hasan 'Ruhunu ona teslim ettim'den 'Tüm insanlığı diriltti'ye kadar ayetler okumuş, sonra şöyle demiştir: 'Allah'a yemin ederim, duyduğun gibi yükü büyüktür ve ödül istemiştir. Ve eğer Adem'in oğlu, tüm insanları öldürürsen yaptıklarından Ateşten kazandığını alacağını düşünüyorsan, Allah aşkına kendini inkâr ettin, Şeytan da seni reddetti.' Ve 11802 al-Hasan'ın 11802 riwayi 'sanki tüm insanlığı öldürmüş gibi' suçlama olarak ve 'Tüm insanlığı diriltti' olarak ödül olarak belirtir. Doğrulayıcı, anlatıcı 'Halid Ebu el-Fadl'ın durumunu doğrular ve bunun Halid bin Rabah el-Hudhali olduğunu öne sürer. {cite:tafsir-tabari-shakir-v10 p. 240}
+
+**Al-Tabari'nin 32. ayetteki seçimi, s. 240-242**
+
+El-Taberi, "sanki tüm insanlığı öldürmüş gibi" ifadesinin yorumunun, kendisinin öldürdüğü ruh dışında başka bir inanan ruhu öldüren ve Allah'a, Resulüne ve müminlere karşı savaş yaparak yeryüzünde bozulmadan kurban verilmeyi hak ettiği anlamına gelir; sanki Allah'ın [[passage/quran-4-93|4:93'te vaat ettiği gibi ağır bir ceza almak için tüm insanları öldürmüş]] gibi olur. {cite:tafsir-tabari-shakir-v10 p. 241}
+
+'Ve onu kurtaran' ifadesinin en uygun yorumu, 'Allah'ın kendisi için öldürmesini yasakladığı birini öldürmeyi yasaklayan ve onu öldürmeden önce de değildir' diyenlerin sözüdür; çünkü o, insanları kendisinden kurtararak hayata döndürmüştür; bu da onun canlandırmasıdır. Bunu, Allah'ın İbrahim ile Rab'bi hakkında tartışanların haberi ile karşılaştırır. İnkar için 'Ben hayat veririm' anlamı, onu öldürebilecekleri bırakmaktır ve 've ben öldüm' anlamı ise onu öldürenlerin öldürülmesidir. Bunu, doğrudan zarar vererek öldürmesi tüm ruhları öldürmekle eşdeğer olmayan ve hemen fayda için canlandıran hiçbir ruhun hepsini canlandırmak anlamına gelmediğini şöyle açıklar. Böylece, 'canlanma'nın anlamı, tüm ruhların ondan korunması ve öldürmesi herkesin yerine olan tek ruhun yük altında olduğu anlaşılır. {cite:tafsir-tabari-shakir-v10 p. 241}
+
+**32. ayetin tafsirinde devam etti: Ve elçilerimiz kesinlikle onlara açık kanıtlarla geldiler, s. 242**
+
+El-Tabari, bunun Allah'tan bir yemindir; Elçileri İsrailoğulları'na gelmiştir; onların hikâyeleri önceki ayetlerde "açık kanıtlarla" anlatılmışlardır; yani gönderildikleri şeyin doğruluğu ve çağrıldıkları şeyin geçerliliği konusunda açık işaretler ve kanıtlar vardır. "Sonra birçoğu ondan sonra geldi," yani elçiler açık kanıtlarla geldikten sonra, "yeryüzünde aşırılardırlar," yani Tanrı'ya karşı itaatsiz davranırlar, O'nun emir ve yasaklarına karşı çıkarlar, Tanrı'ya ve Elçilerine karşı gelirler, onların arzularını takip eder ve peygamberlerine karşı çıkarlar, bu da aşırılıktır. {cite:tafsir-tabari-shakir-v10 p. 242}
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.

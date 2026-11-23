@@ -1,0 +1,17 @@
+---
+id: passage/quran-6-107
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-6-107.md}
+---
+
+## Özet
+Mekke suresi olan An'suresinin [[passage/quran-6|107]]. ayeti. {cite:tanzil-quran}
+
+## Konumu
+Konum: Suredeki 165 ayetten 107. ayet. Metin Mushaf Tazl al-Mujjard'dan korunmuş olup burada yeniden yazılmamıştır.
+
+O, yüceltilmiş ve yüceltilerek Peygamberine şöyle der: 'Bu Allah ile yapılan mişriklerden yüz çevir ve onların tartışmasını, çekişmesini ve çekişmesini sizden uzak tut.' 'Allah isteseydi, başkalarını Allah'la birlikte paylaşmazlardı.' 'Allah isteseydi, O'nla hiçbir şey paylaşmazlardı.' 'Ve seni onların koruyucusu yapmadık.' 'Seni onlara bir elçi olarak göndermedik, seni de onların koruyucusu olarak göndermedik. Bunu onlara karşı sayacaksın. Bu bizim hakkımızdadir, senden başka.' 'Ve sen onların koruyucusu değilsin.' 'Ve sen onların koruyucusu değilsin, ne de koruyucusun.' Ve İbn Abbas'tan 13737 numaralı rapor: Yüce Olan der ki: Eğer istersen, hepsini rehberlik için toplayabilirsin. {cite:tafsir-tabari-shakir-v12 p. 32}
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.

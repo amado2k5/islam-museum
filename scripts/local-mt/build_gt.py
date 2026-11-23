@@ -27,6 +27,7 @@ ap.add_argument("--ids-file", default="", help="build from these ids (first colu
 ap.add_argument("--scheme", default="link", help="tags | num (10-digit numbers: 80… citation, 81…/82… link start/end) | link (numeric citations, link labels as Word hyperlinks); several, comma-separated, put each record in once per scheme (to compare them)")
 ap.add_argument("--name", default="")
 ap.add_argument("--src", default="en", choices=["en", "ar"], help="source language of the file (ar: comparison tests only; the lane translates from English)")
+ap.add_argument("--leveled", action="store_true", help="include reading-level records (For Sprouts/Explorers/Scholars)")
 a = ap.parse_args()
 skip = set()
 for f in (a.taken, a.failed):
@@ -85,7 +86,7 @@ for ident in ids:
     m = re.match(r"^---\n(.*?)\n---\n?(.*)$", raw, re.S)
     if not m: continue
     body = m.group(2)
-    if LEVELED.search(body) or BROKEN.search(body): continue
+    if (LEVELED.search(body) and not a.leveled) or BROKEN.search(body): continue
     lines, srcs = [], []
     for line in body.split("\n"):
         if not line.strip() or line.strip() in (":::", ":::perspectives") or re.fullmatch(r"\s*[-|: ]+\s*", line) or not re.search(r"[A-Za-z]{2}" if a.src == "en" else r"[\u0621-\u064A]{2}", line):

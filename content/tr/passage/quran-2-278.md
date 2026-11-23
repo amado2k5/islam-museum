@@ -1,0 +1,19 @@
+---
+id: passage/quran-2-278
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-2-278.md}
+---
+
+## Özet
+Medine suresi olan Bekarah Suresi [[passage/quran-2|'nin 278]]. ayeti. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Suredeki 286 ayetten 278. ayet. Metin Mushaf Tazl al-Mujjard'dan korunmuş olup burada yeniden yazılmamıştır.
+
+([[passage/quran-2-278|2:278]]) 22 ve 23. sayfalarda, El-Taberi, Allah'a ve Resul'a doğru olan, Allah'tan korkan, O'nun emrettiği şeylerde itaat eden ve yasakladığı şeylerden kaçınan kişilerin çağrısını açıklar. Tefeciliğin kalanını bırakma emri, büyümeden önce sahip oldukları sermayeleri yerine kalan servetlerini aramayı bırakmaktır. Eğer iman edenler, iman edenler, imanlarını sözle doğrulamak ve dilleriyle eylemleriyle inanmaktır; bu Al-Tabari'nin yorumudur. {cite:tafsir-tabari-shakir-v06 p. 22} Doğrulayıcı, 'eylemlerinizle' ifadesinin 'doğrulayıcılar' sözüyle ilişkili olduğunu belirtir. {cite:tafsir-tabari-shakir-v06 p. 22} El-Taberi, bu ayetin İslam'ı benimseyen bir halk hakkında indirildiğini, üzerlerinde biriktirdikleri tefecilikten bir kısmını alıp bir kısmını kaldığını söylediğini söyler. Bu yüzden Allah, bu ayet inhir edilmeden önce aldıkları için onları affetmiş ve kalanları toplamalarını yasaklamıştır. {cite:tafsir-tabari-shakir-v06 p. 22} Ve 6258'de El-Suddi'den, İslam öncesi dönemde ortak olan El-Abbas bin Abdülmuğilib ve Banu el-Muğira'dan bir adamın, Banu Amr'dan Thakif'ten gelenlere faiz verdikleri bildirilmiştir. Sonra İslam geldi ve tefecilikte büyük bir servet elde ettiler. Allah, İslam öncesi dönemde var olan fazlalığı bırakmalarını vahyetti. {cite:tafsir-tabari-shakir-v06 p. 22} {cite:tafsir-tabari-shakir-v06 p. 23} Editör, hem el yazmasında hem de basılı versiyonda, geçmiş zaman ve doğru biçimin Al-Durr al-Manthor ve al-Baghawi'den doğruladığı şeyler olduğunu belirtir ve selefler bunun ödünç olduğunu açıklar. {cite:tafsir-tabari-shakir-v06 p. 23}
+
+6259 yılında, İbn Jureyj, Thaqif'in Peygamber ile barıştığını ve halkın tefeciliğinin uydurma olduğunu bildirdi. Fetih geldiğinde, Attab ibn Asid Mekke'ye atandı. Banu Amr bin Umair ibn Awf, Banu al-Muğira'dan tefecilik alırdı ve İslam öncesi dönemde onlar için toplanan Banu al-Muğira vardı. İslam geldi ve üzerinde çok para vardı. Banu Amr onlara tefecilik istemek için geldi, ancak Banu al-Mugira onları İslam'da vermeyi reddetti ve bu vergiyi artırdı 'Atab ibn Asad'a, Allah'ın Elçi'ne yazdığı ve ayetin ardından ([[passage/quran-2-279|2:279]]) indirildiği için sonunda, 'Haksızlığa uğramayın' dedi. Peygamber, 'Atab'a yazdı ve şöyle dedi: 'Eğer kabul ederlerse, onları uyarır.' Ve İkrime'den İbn Jurayj'den bunların Amr ibn 'Umair'in oğulları olduğu belirtildi: Mas'ud, Abd Yalil, Habib ve Rabi'ah. Böylece Abd Yalil, Habib, Rabi'ah, Hilal ve Mas'ud İslam'ı benimsediler. {cite:tafsir-tabari-shakir-v06 p. 23} Editör, Bilal el-Tekafi'nin biyografisinde El-Hafız İbn Hacer'in El-İsabah'ta söylediklerine atıfta bulunuyor ve Thaqif'in uzlaşmasının onun açıklamasından önce geçtiğini, bu yüzden fetha içinde olduğu için incelediğini ve vahiy nedenlerine yönlendirdiğini düşünüyor. {cite:tafsir-tabari-shakir-v06 p. 23} 6259'da duruyoruz ve rapor 23. sayfanın sonunda 6260'ta başlıyor. Görüşler, Al-Tabari'nin yorumu ve editörün açıklamaları müzenin kararı olmadan aktarıldığı şekliyle aktarılmıştır.
+
+Ve 23 ve 24. sayfalarda devamını ([[passage/quran-2-278|2:278]]) belirtir. Ve 6260'ta El-Dahhak'tan, İslam öncesi dönemde tefecilik yaptıklarını ve İslam'ı kabul ettiklerinde başkentlerini almaları emredildi. {cite:tafsir-tabari-shakir-v06 p. 23} {cite:tafsir-tabari-shakir-v06 p. 24}

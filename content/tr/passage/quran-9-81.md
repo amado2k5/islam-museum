@@ -1,0 +1,25 @@
+---
+id: passage/quran-9-81
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-9-81.md}
+---
+
+## Özet
+Medine suresi olan Tevbe [[passage/quran-9|Suresi'nin 81]]. ayeti. {cite:tanzil-quran} Vahiyi, alimlerin [[event/hypocrites-discourage-marching-in-the-heat|şu sözüyle bağlantılıdır: Sıcakta kovulmayın]]. {cite:ibn-hisham-saqqa}
+
+## Konumu
+Konumu: Suredeki 129 ayetten 81. ayet. Metin Mushaf Tazil al-Mujjard'dan korunmuş olup burada yeniden yazılmamıştır.
+
+**81. Ayetin Yorumu (s. 397-400)**
+
+El-Tabari şöyle der: Allah'ın Elçisi ve ona inananlar ile savaştan ve düşmanlarıyla oturdukları yerlerinde savaşmaktan geride bıraktıkların, Allah'ın Elçi'nin aksine, evlerinde oturmalarıdır; çünkü Allah'ın Elçisi onları Allah'ın düşmanlarıyla savaşmaya göndermiş, ancak onlar onun emrini dinlemeyip evlerinde kalmışlardır. Araştırmacı, oturma konusunda daha önce bahsedilen şeye atıfta bulunmaktadır. {cite:tafsir-tabari-shakir-v14 p. 397}
+
+Onun sözü, 'falanca karşıt şu ve şöyle' ifadesinin fiil isminden farklıdır, bu yüzden onunla aynı fikirde değildir. Bu nedenle, kaynağı aktif kabul edilir ve 'Onunla savaştı' denir. Eğer arkasından türetilseydi, okuma 'Allah'ın Resulü'nün arkasında' olurdu, çünkü 'arkasında' sözlü isim 'halef' (halef'tir, anlaşmazlık değil. Ancak açıkladığım gibi, kaynak tersidir, bu yüzden 'Allah'ın Resulü'nden sonra' olarak okunur, ki bu bizim için doğru okumadır. Bazıları bunu 'Allah'ın El-Elçisinden sonra' anlamında yorumlamıştır; şair El-Haris bin Halid el-Makhzumi'nin bir ayetini alıntılar; bu ayet, toprak halkının ardından gelen yağmuru, sanki kadınların aralarına hasır yaydığını anlatır; bu bizim söylediklerimize yakındır, çünkü onlar onun ardından karşı tarafta oturmuşlardır. Doğrulayıcı, bunun Kur'an'daki metaforda Ebu Ubeyde'nin ifadesi olduğunu belirtir ve Ebu el-Ferac'ın El-Aghani'de 'akab' ve 'el-Şavatib' ayeti, ifadeleri için açıklamasını sunar. {cite:tafsir-tabari-shakir-v14 p. 398}
+
+Ve onun sözü: 'Ve onlar mallarını ve hayatlarını Allah yolunda zorlamaktan hoşlanmadılar,' Yüce der ki: 'Geride kalanlar, Allah'ın yolunda mal-mülkleri ve canlarıyla kâfirlere saldırmaktan nefret ederler,' yani Allah'ın kullarına destek olması için verdiği Allah'ın dinini kasteder ve taviz, aşağılanma eğilimi olarak, yorgunluk, zorluk ve servet kıtlığından ziyade rahatlığı tercih ederek Allah'a itaat etmek için kullanırlar. Dediler ki, 'Sıcakta kaçmayın,' Çünkü Peygamber onları bu savaşa, yani şiddetli sıcakta Tabuk Savaşına seferber etmişti. Münafıklar birbirlerine, 'Sıcakta kaçmayın' dediler. Allah Peygamberine şöyle dedi: 'Ey Muhammed, onlara söyle, Allah'ın emrini dinleyenlere ve Resul'a itaatsizlik edenler için hazırladığı cehennem ateşi, kendinize öğütlediğiniz bu sıcaklıktan daha özgürdür.' Daha özgür olan ise, en az zarar verene karşı dikkatli olmalı ve dikkatli olmalı, eğer anlasalardı. Der ki, 'Keşke bu münafıklar Allah'ın öğütünü anlasalar ve O'nun Kitabının ayetleri üzerinde düşünselerdi, ama Allah'ı anlamasalar, bu yüzden en az sevilmeyen, en az zararlı olan sıcaktan kaçınırlar ve sınavla karşılaşanlara en ağır ve en büyük zararı verirler.' Âlim, bahsedilenlere cihad, Allah'ın yolu, yer değiştirme ve fıkıhtan bahseder. {cite:tafsir-tabari-shakir-v14 p. 399}
+
+Ve 17033 rivayeti İbn Abbas'tan, Muhammed ibn Sa'd'ın yolundan ve babasından gelen bir anlatımda: Bu, Allah'ın Resulü'nün yazın halkı kendisini takip etmelerini emrettiği içindir. Bazı adamlar şöyle dedi: Ey Allah'ın Elçisi, sıcaklık şiddetlidir ve dışarı çıkamayız, bu yüzden sıcaktan uzaklaşma. Allah dedi ki, Cehennem ateşi anlarsa daha da sıcaktır. Allah ona gitmesini emretti. Ve 17034 rivayeti Qatada'dan, Muhammed bin Abdül-Dül aracılığıyla -A'la, Muhammed ibn Sewr ve Mu'ammar: Onların oturduğu yer Allah'ın Elçi'nden farklıdır. O dedi ki: Bu Tabük Savaşıdır. Ve 17035 tarihli rejali Muhammed bin Ka'b el-Kuazi ve diğerlerinin, el-Haris, Abdul Aziz ve Ebu Ma'shar aracılığıyla: Allah'ın Elçisi yoğun bir ateşle Tabuk'a çıktı ve Banu Selame'den bir adam dedi ki: Sıcakta uzaklaşma. Allah vahyetti: 'Cehennem ateşi' (ayet) de. Ve 17036 tarihli rivayet, İbn İshaq'tan İbn Hümayd ve Selma aracılığıyla: Sonra Allah'ın Elçisi cihad emredip toprakların yoğun sıcağı ve verimsizliğine rağmen Tabuk'a yürümek için toplandığında bazılarının sözlerini anmıştır. Yüceltilmiş ve yüceltilmiş Allah, şöyle der: 'Sıcakta kovulmayın, de ki: Cehennem ateşi daha da şiddetlidir.' Doğrulayıcı, bu haberin İbn Hişam biyografisinde 17012 rivayetinden sonra geldiğini belirtir. {cite:tafsir-tabari-shakir-v14 p. 400}
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.

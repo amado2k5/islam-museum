@@ -1,0 +1,29 @@
+---
+id: passage/quran-5-19
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-5-19.md}
+---
+
+## Ringkasan
+Ayat 19 [[passage/quran-5|Surah Al-Ma'idah]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: ayat ke-19 dari 120 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujjad dan tidak ditulis ulang di sini.
+
+**Penafsiran ayat 19: Memotong alasan dengan kedatangan pembawa kabar gembira dan peringatan, hlm. 155-158**
+
+Al-Tabari berkata dalam "Wahai Umat Kitab, Rasulullah kami datang kepada kalian untuk menjelaskan kepada kalian selama beberapa rasul agar kalian menyampaikan apa yang datang kepada kami tentang kabar baik atau peringatan": maksudnya orang Yahudi yang berada di antara para perhijrah Nabi pada hari ayat itu diwahyukan. Ini karena ketika mereka atau beberapa dari mereka memanggil mereka untuk percaya kepada-Nya dan apa yang Dia bawa kepada mereka, mereka berkata: Allah tidak mengutus nabi setelah Musa, dan tidak mewahyukan Kitab sesuai Taurat. Cerita 11616 dari Ibn Abn bas menceritakan bahwa Muadh ibn Jabal, Sa'd ibn Ubadah, dan Uqbah ibn Wahb berkata kepada orang Yahudi: Takutlah kepada Allah, karena demi Allah, kamu tahu bahwa Dia adalah Rasulullah. Kalian biasa menyebutnya kepada kami sebelum misinya dan menggambarkannya dengan gelarnya; Rafi' ibn Huraymilah dan Wahb ibn Yehuda berkata: Kami tidak mengatakan ini kepada kalian, Allah tidak mengirimkan kitab apa pun setelah Musa, dan Dia tidak mengirim pembawa atau peringatan setelahnya. Maka Allah mewahyukan ayat itu. Editor mengoreksi kedua nama tersebut dari biografi Ibn Hisham. {cite:tafsir-tabari-shakir-v10 p. 155}
+
+Dengan berkata "Rasulullah kami telah datang kepadamu," maksudnya adalah Muhammad, dan "Dia menjelaskan kepadamu" bahwa Dia akan memberimu kebenaran, memperjelas tanda-tanda petunjuk, dan membimbingmu kepada agama pilihan Allah. Narasi tahun 11617 dari Qatadah menceritakan bahwa dia membawa kriteria yang digunakan Allah untuk membedakan antara kebenaran dan kebohongan, yang menjelaskan Allah, cahaya, petunjuk-Nya, dan perlindungan-Nya bagi mereka yang mengikuti-Nya. Dan "untuk masa para rasulul" berarti jeda dari para rasululan, dan periode di sini adalah sebuah penghentian. Dari pepatah mereka, 'urusan itu terputus, itu terputus' berarti itu menjadi tenang dan tenang, yaitu keheningan kedatangan para rasululan. {cite:tafsir-tabari-shakir-v10 p. 156}
+
+Kemudian ada perbedaan pendapat tentang durasi periode tersebut, dan diceritakan berbeda dari Qatadah: Mu'mar menceritakan darinya dalam riwayat tahun 11618 bahwa jarak antara Yesus dan Muhammad adalah lima ratus enam puluh tahun, dan Sa'id ibn Abi 'Uruba menceritakan darinya dalam riwayat tahun 11619 bahwa dia menyebutkan kepada mereka bahwa itu adalah enam ratus tahun atau apa pun kehendak Tuhan, dan Allah yang paling Maha Tahu. Dan narasi tahun 11620 dari Muammar dari para sahabatnya mengatakan itu lima ratus empat puluh tahun, dan Mu'ammar mengatakan dari Qatadah lima ratus enam puluh. Dan narasi tahun 11621 dari Al-Dahhak menceritakan bahwa itu adalah empat ratus sedikit lebih dari tiga puluh tahun. {cite:tafsir-tabari-shakir-v10 p. 156}
+
+Al-Tabari menjelaskan bahwa "menyampaikan apa yang telah datang kepada kami berupa kabar baik tanpa peringatan" berarti tidak mengatakan atau menghindari mengatakan, seperti dalam Surah An-Nisa: "Allah telah memperjelas kepadamu bahwa kamu akan tersesat," artinya kamu tidak boleh tersesat. Makna dari pernyataan itu: Rasulullah kami datang kepadamu untuk menjelaskan kepada kamu tentang masa para rasul agar kamu tidak mengatakan apa yang telah datang kepada kami tentang kabar baik atau peringatan; Dia mengajarkan kepada mereka bahwa Dia telah memotong alasan mereka melalui Rasul-Nya dan menyampaikan bukti itu sendiri. {cite:tafsir-tabari-shakir-v10 p. 157}
+
+Pembawa kabar bahagia adalah orang yang taat kepada Allah, percaya kepada-Nya dan Rasul-Nya, dan bertindak atas apa yang telah Dia bawa dari Allah dengan ganjaran besar di akhirat. Yang memperingatkan adalah peringatan akan ketidaktaatan Rasulullah, kebohongan Rasul-Nya, dan bertindak bertentangan dengan perintah-Nya serta melarang apa yang tidak bisa ditanggung-Nya, yang akan menjadi hukuman menyakitkan di akhirat dan hukuman berat di Hari Penghakiman. Kemudian dijelaskan: "Sesungguhnya, telah datang kepada kamu pembawa kabar baik dan seorang peringatan, dan Allah maha berwenang atas segala sesuatu": Allah berfirman kepada orang Yahudi ini: Kami telah memaafkan dan berdebat melawan kalian melalui Rasul kami Muhammad dan menguutusnya untuk menjelaskan apa yang sulit bagimu mengenai agamamu, agar kamu tidak berkata, 'Tidak ada utusan yang datang kepada kami dari kamu.' Seorang rasul datang kepada kamu menyampaikan kabar gembira kepada mereka yang percaya dan bertindak sesuai perintah-Nya dan menahan diri dari apa yang dilarang-Nya, dan memperingatkan mereka yang membangkang dan membangkang-Nya. Dia mampu melakukan segala hal, mampu menghukum mereka yang membangkang dan memberi ganjaran kepada mereka yang taat kepada-Nya. Jadi takutlah hukuman-Nya atas ketidaktaatan dan penyangkalan terhadap Rasul-Nya, dan carilah ganjaran-Nya atas ketaatan dan iman kamu pada kabar bahagia dan peringatan-Nya. {cite:tafsir-tabari-shakir-v10 p. 158}
+
+Kita berhenti sejenak di sini pada penafsiran lengkap ayat 19 di halaman 158; dan ayat 20 dimulai di halaman berikutnya.
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

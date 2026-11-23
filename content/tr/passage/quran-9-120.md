@@ -1,0 +1,27 @@
+---
+id: passage/quran-9-120
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-9-120.md}
+---
+
+## Özet
+Medine suresi olan Tevbe Suresi [[passage/quran-9|'nin 120. ayeti]]. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Suredeki 129 ayetten 120. ayet. Metin, donmuş Tazil Mushaf'ın Mushaf'ından korunmuş olup burada yeniden yazılmamıştır.
+
+**120. ayetin yorumu (s. 561-564)**
+
+El-Taberi şöyle der: Medine'nin halkı, yani Allah'ın Elçisi'nin şehri ve çevresindekiler, Tabuk Savaşı'nda Elçi'nin arkasında kalan ve ona iman eden bedeviler, ailelerinde ve evlerinde kalmaya, yolculuğunda ona eşlik etmeye, yanında savaşmaya ve savaşında yardım etmeye istekli değillerdi. Bunun onlar için susadıkları, ne yorgunlukları, ne yorgunlukları, ne de Allah'ın davasında olmadığını, yani Allah'ın dinini kurmak, desteklemek, inançsızlık kutsal alanını yok etmek ya da hiçbir yere ayak basmak için olmadığını söyler; bu ifade bir sonraki sayfada bağlantılıdır. Araştırmacı, bahsedilen arzuya, yoluna ve Allah'ın yoluna atıfta bulunur. {cite:tafsir-tabari-shakir-v14 p. 561}
+
+El-Taberi devam eder: İnkârları kızdıran ve üzerlerine basan bir bariyere basmazlar, düşmana zarar vermezler; yani Allah'ın ya da düşmanının zenginliği, canı veya çocukları açısından zarar vermezler, ancak Allah onlara seçtiği doğru bir işin ödülünü verir. Ve şöyle demektedir: 'Gerçekten Allah, iyilik yapanların ödülünü boşa harcamaz,' yani yaratılışında en iyisini terk etmez, emrettiği şeylere itaat eder ve yasakladıklarından kaçınmaz, iyiliği için karşılık vermek ya da iyi işleri için ödüllendirmek için. Bu nedenle, Medine ve çevresindeki bedeviler arasında bunu yapanların yaptıklarının karşılığını alacağını buyurdu. {cite:tafsir-tabari-shakir-v14 p. 562}
+
+Tercümenler bu ayet üzerindeki hükmde farklı görüşler yaşadı. Bazıları bunun kesin olduğunu söyledi, özellikle Allah'ın Resulü için geçerliydi. Kendisi savaşa giderse, kimse bir bahane olmadan geri kalamazdı. Diğer imam ve valiler için, müminlerden kim isterse, Müslümanlar ona ihtiyaç duymazsa geride kalabilirdi. Ve 17462 rivayeti Katadah'dan, Bişr, Yezîd ve Said aracılığıyla: Peygamber bizzat savaşa giderse, kimse geride kalmamalıdır. Bize şöyle dediğini söyledi: Eğer zorlaştırmazsam Kendi milletim için, Allah yolunda savaşacak bir birlik bırakmazdım, ama onlarla gitmenin bir yolunu bulamıyorum ve onları benden sonra bırakmak benim için zor. Ve 17463 tarihli rivayet El-Avzai, Abdullah ibn el-Mübarek, Fazari, el-Subai, İbn Cebir ve Said ibn Abdülaziz'den, Ali bin Sahl ve el-Velid bin Müslim'den alınmıştır: Bu, Allah yolunda mücahitler arasında bu ulusun ilk ve sonuncusudur. {cite:tafsir-tabari-shakir-v14 p. 563}
+
+Bazıları ayetin indirildiğini, Müslümanlar arasında ise az olduğunu söyledi. Sık sık kaldırdıklarında, Allah 122. ayette belirtildiği gibi istediği herkese gecikme izni verdi. Ve 17464 yılında İbn Zeyd'den, Yunus ve İbn Vahb aracılığıyla rivayet: Bu, İslam'ın azdığı zamandı, ama arttığında, 'Ve inananlar hiç kaçmayacaklardı' dedi. Tüm ayet. El-Taberi şöyle der: Doğru görüş, Allah'ın 'Ve affedilen bedeviler 90. ayetten gelmiştir' demesiyle tarif ettiği kişileri kastettiğidir. Sonra şöyle dedi: Allah'ın Elçi'nin arkasında kalan Medine halkı ya da onunla cihatta kalan bedeviler için geride bırakılmamıştır. Bunun nedeni, Allah'ın Resulu'nun, kendisiyle birlikte kalkabilen herkesi, kendisinden sonra durmaya izin verilen veya emredilenler hariç, halkın eline emanet etmesidir. Geride duramayanlar ise geride kalmasına izin verilmezdi. Geride kalanların sayısı, ikiyüzlülüğün arkasında olanların ikiyüzlülüğünü ortaya koydu; geride kalanların bahanesi ise mazeretti ve Allah'ın emrinden şüphe ve şüphe duymadan ihmalkar olanlara tövbe etti. {cite:tafsir-tabari-shakir-v14 p. 563}
+
+Eğer kendi kendine yetiyorsa, onu ihmal etmek yasak değildir, ancak hoşnutsuzluktan kaynaklanıyorsa; benzer şekilde, bugün Müslümanların imamlarıyla ilgili verdikleri hükmü, İslam ve halkının onlarla birlikte olup toplanmaları gerektiği için ona itaat etmeleri zorunlu değildir. Eğer ayetin anlamı buysa, hiçbir ayet diğerini iptal etmez; çünkü hiçbiri diğerinin hükmünü tüm yönleriyle geçersiz kılmaz ve kaldırılmasını haklı çıkaracak bir rapor sunulmamıştır. Muhmasa'nın anlamını açıklamış ve başka yerlerde kıtlık olduğunu belirtmiştir. Tırnak ise, 'naalni yanallini' fiil isimidir ve 'natla' al-sha'ā' elinizle elde edilirse 'manyal' anlamına gelir, 'ta'lāl' (ta'lāl' kelimesi 'nawal'dan gelir. Arap konuşması alanında bazı alimlerin 'waw'daki 'çivi'nin yerine 'ya' ile değiştirildiğine dair bir ifadesini belirtmiş, ardından Arapça konuşmada bilinmediğini ve Arapların waw'ı sessiz ve önceki kısmı açıksa, örneğin 'al-qawl', 'awl' ve 'hawl' (wawl) gibi bir waw biçimi olarak düzelttiklerini belirtmiştir. Editör, al-Nayl'in önceki şekilde böyle bir açıklama yapılmadığını ve bunun al-Tabari'nin tefsirini oluştururken kullandığı metodolojiyi çıkarmada faydalı bulduğunu belirtmiştir. {cite:tafsir-tabari-shakir-v14 p. 564}
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.

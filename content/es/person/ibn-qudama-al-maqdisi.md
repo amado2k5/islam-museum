@@ -1,0 +1,57 @@
+---
+id: person/ibn-qudama-al-maqdisi
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-es-2026-11-23, source: content/en/person/ibn-qudama-al-maqdisi.md}
+---
+
+## Visión general
+Muwaffaq al-Din Abu Muhammad Abdallah ibn Ahmad ibn Qudama al-Maqdisi al-Hanbali, jurista de Jerusalén. {cite:lumat-al-itiqad}
+
+## Obras
+Escribió [[work/lumat-al-itiqad|Lum'at al-I'tiqad]] (El Resplandor de la Creencia), sobre el credo del pueblo de la Sunna al estilo de las primeras generaciones. La portada de la edición lo llama hanbali. {cite:lumat-al-itiqad}
+
+También escribió [[work/al-mughni|a al-Mughni]]. {cite:lumat-al-itiqad-ibn-uraiyir-2022}
+
+## Nacimiento y muerte
+Nació en Jammaʿil en el año 541 H y murió en [[place/damascus|Damasco]] en 620 H, según la introducción del editor a la segunda edición del *Lum'a*. También se dice que murió el día del Eid al-Fitr y fue enterrado en la ladera del Qasiyun. Ibn Rajab confirma ambas fechas en detalle, como se indica a continuación. {cite:lumat-al-itiqad-ibn-uraiyir-2022 p.40}
+
+## Los elogios de Ibn Taymiyya
+El editor transmite por Ibn [[person/ibn-taymiyya|Taymiyya]] que tras al-Awza'i ningún jurista más erudito que al-Muwaffaq había entrado en Siria. {cite:lumat-al-itiqad-ibn-uraiyir-2022}
+
+## En al-Dhayl ala Tabaqat al-Hanabila
+[[person/ibn-rajab|Al-Dhayl]] de [[work/dhayl-tabaqat-al-hanabila|Ibn Rajab]] lo llama jurista, asceta e imán, Shaykh al-Islam y uno de los eminentes, hermano del [[person/abu-umar-al-maqdisi|Shaykh Abu Umar]]. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 133} Nació en Sha'ban 541 en [[place/jammail|Jamma'il]] y llegó a [[place/damascus|Damasco]] con su familia a la edad de diez años; leyó el Corán, memorizó el Mukhtasar de al-Khiraqi y escuchó hadices de su padre [[person/ahmad-ibn-muhammad-ibn-qudama|Ahmad ibn Muhammad ibn Qudama]], Abu al-Makarim ibn Hilal, Abu al-Ma'ali ibn Sabir y otros. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 133}
+
+## El viaje a Bagdad
+En 561 viajó a [[place/baghdad|Bagdad]] con su primo [[person/abd-al-ghani-al-maqdisi|el hafiz Abd al-Ghani]]; ambos escucharon mucho de Hibat Allah al-Daqqaq, Ibn al-Batti, Sa'd Allah al-Dajaji, [[person/abd-al-qadir-al-jilani|Shaykh Abd al-Qadir]] y muchos otros, y también escuchó en La Meca a al-Mubarak ibn al-Tabbakh y en Mosul a su predicador. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 133} Permaneció brevemente en la escuela del Shaykh Abd al-Qadir y leyó parte del Khiraqi con él; cuando el shaykh murió, se unió a Abu al-Fath [[person/ibn-al-mani|Ibn al-Manni]], estudiando con él la ley, la disputación y la teoría jurídica de la escuela hasta que destacó, y permaneció en Bagdad unos cuatro años, según informa al-Diya de su madre, hermana del shaykh. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 134} Sibt ibn al-Jawzi menciona un regreso a Bagdad en 567, y al-Nasih Ibn al-Hanbali dice que hizo la peregrinación en 574 y luego pasó un año en Bagdad asistiendo a las lecciones de Ibn al-Manni. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 134}
+
+## Al-Mughni y las demás obras
+De vuelta en Damasco se puso a trabajar en [[work/al-mughni|al-Mughni]], su comentario sobre al-Khiraqi; al-Nasih Ibn al-Hanbali lo califica como un libro elocuente sobre la escuela en diez volúmenes, en el que trabajó y destacó y con el que adornó la escuela. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 134} Ibn Rajab ordena sus escritos: sobre los principios de la religión, al-Burhan sobre la cuestión del Corán, al-I'tiqad, la cuestión de la elevación, Dhamm al-Ta'wil, el Libro del Decreto, las Virtudes de los Compañeros y una epístola que prohíbe el estudio de los libros de los teólogos; sobre el hadic, un resumen de al-Ilal de al-Khallal; sobre derecho, al-Mughni en diez volúmenes, [[work/al-kafi-ibn-qudama|al-Kafi]] en cuatro, [[work/al-muqni-ibn-qudama|al-Muqni']], un resumen de al-Hidaya, al-Umda, los Ritos de la Peregrinación y Dhamm al-Waswas; sobre teoría jurídica, [[work/rawdat-al-nazir|al-Rawda]]. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 139} Sobre lenguaje y genealogía escribió Qun'at al-Arib sobre palabras raras, al-Tabyin sobre los linégenes de Quraysh y al-Istibsar sobre los linajes de los Ansar, y entre obras de piedad el Libro de los Penitentes, el Libro de los Que Se Aman unos a los Otros en Dios y el Libro de la ternura y el llanto. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 140}
+
+Ibn Rajab describe su método en credo como el de los imanes de hadizes, repleto de hadices, informes y cadenas de transmisión al estilo del imam Ahmad; no se mostró partidario de adentrarse en los detalles sutiles de la teología junto a los teólogos, ni siquiera para refutarlos, y ordenó pasar por alto los atributos encontrados en el Libro y la Sunna a medida que llegaban, sin explicación, preguntando cómo, comparación, distorsión, interpretación figurativa o negación. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 139} Cita [[person/izz-al-din-ibn-abd-al-salam|a al-Izz ibn Abd al-Salam]] diciendo que no había visto nada en los libros del Islam que igualara en calidad a al-Muhalla y al-Mughni de Ibn Hazm, y que no se sintió cómodo dando fatwas hasta que poseyó un ejemplar de al-Mughni. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 140}
+
+## Elogios de los eruditos
+Ibn Rajab recopila numerosos testimonios. [[person/sibt-ibn-al-jawzi|Sibt ibn al-Jawzi]] dijo que, después de su hermano Abu Umar y al-Imad, nadie de su época fue más ascético o escrupuloso; era muy modesto, se apartaba del mundo, recitaba una séptima parte del Corán cada día y noche y normalmente rezaba las oraciones de la sunna solo en casa. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 134} [[person/ibn-al-najjar|Ibn al-Najjar]] dijo: era el imán de los hanbalíes en la mezquita congregacional, digno de confianza, una prueba, noble, de abundante mérito, muy cuidadoso, a menudo silencioso, y escribía obras magníficas sobre la escuela y sobre cuestiones disputadas. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 134} {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 135} El diccionario de Umar ibn al-Hajib lo llama imán de los imames y muftí de la comunidad, y [[person/abu-shama-al-dimashqi|Abu Shama]] dice que tras la muerte de su hermano dirigió la oración en la mezquita Muzaffari y predicó los viernes cuando estaba presente. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 135} Ibn Rajab informa por más de un canal que [[person/ibn-taymiyya|Ibn Taymiyya]] dijo que nadie más erudito en derecho que al-Muwaffaq había entrado en Siria desde al-Awza'i, y señala que al-Diya' y al-Dhahabi escribieron cada uno una biografía separada de él. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 136} Al-Diya' le llamó imán en el Corán y su exégesis, en el hadiz y sus dificultades, único en su época en el derecho, y imán en la disputa, derecho de sucesiones, teoría jurídica, gramática y aritmética. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 136} Abu Bakr ibn Ghanima dijo que no conocía a nadie en su época que hubiera alcanzado el rango de razonamiento independiente (*ijtihad*) excepto al-Muwaffaq, y [[person/ibn-al-salah|Ibn al-Salah]] dijo: No he visto a Shaykh al-Muwaffaq. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 136} {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 137} [[person/abdallah-al-yunini|Abd Allah al-Yunini]] dijo que nunca debatía con nadie sin sonreír, así que la gente decía: este shaykh mata a su oponente con su sonrisa. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 137}
+
+## Fatwas y enseñanza
+Durante un tiempo celebró un círculo de debate los viernes después de la oración en la mezquita de Damasco, abandonándolo ya en la edad; los estudiantes leían con él desde la madrugada hasta que el sol estaba alto, y de nuevo desde el mediodía hasta el atardecer. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 137} Ibn Rajab recopila una selección de sus fatwas fuera de sus famosos libros, entre ellos su respuesta de que el califato de Abu Bakr fue establecido por la designación explícita del Profeta en muchos informes, en contra de la idea de que se basaba en el consenso de los Compañeros. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 144} {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 146} También registra su disposición a retirar su propio razonamiento: sobre una cuestión de agencia escribió que había dado su fatwa mediante su propio ijtihad, y que, una vez que se mostró que la opinión de las autoridades de la escuela era diferente, la suya era preferible y era necesario volver a ella. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 147}
+
+## Se informaron maravillas sobre él
+Ibn Rajab relata relatos de Sibt ibn al-Jawzi y otros relatos de él como maravillas: un hombre curado después de que al-Muwaffaq recitara versículos sobre él y le pasara la mano por la espalda, y relatos, transmitidos con cadenas, de su caminar sobre el agua. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 137} {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 138} Estos son relatos atribuidos en el libro a sus narradores y aquí se dan tal como se cuentan; el corrector de la edición añade en una nota a pie de página que los Compañeros del Mensajero de Dios eran más merecedores de tales cosas en las conquistas de las tierras. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 138}
+
+## Muerte e hijos
+Murió el sábado, día de Eid al-Fitr del año 620, en su casa de Damasco; la oración fúnebre se celebró al día siguiente y fue llevado a la ladera de Qasyun y enterrado allí, con una multitud llenando los caminos de montaña. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 142} Sibt ibn al-Jawzi nombra a sus hijos Abu al-Fadl Muhammad, Abu al-Izz Yahya y Abu al-Majd Isa, y dice que solo Isa dejó descendientes, cuya línea se extinguió entonces; Ibn Rajab añade que Mahoma murió joven en Hamadán en 599, y que Isa ejerció la predicación e imamado de la mezquita Muzaffari y murió en 615. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 143}
+
+## Para los Brotes
+Muwaffaq al-Din Ibn Qudama al-Maqdisi el Hanbali, jurista de la casa de Jerusalén, autor de 'Lum'at al-I'tiqad' sobre el credo del pueblo sunna al estilo salaf y del libro 'al-Mughni'.
+
+## Para los Exploradores
+Muwaffaq al-Din Abu Muhammad Abdullah ibn Ahmad ibn Qudama al-Maqdisi el Hanbali, jurista de la casa de Jerusalén. Escribió 'Lum'at al-I'tiqad' sobre el credo de los sunnas en el estilo salaf — titulado Hanbali en la portada de la edición — y el libro 'al-Mughni'. Nacido en Jamma'il en 541 H, murió en Damasco en 620 H según la introducción del editor de Lum'a, y se dice que murió el día de la fiesta de Fitr y fue enterrado a los pies de Qasyun.
+
+## Para los Estudiosos
+Muwaffaq al-Din Abu Muhammad Abdullah ibn Ahmad ibn Qudama al-Maqdisi el Hanbalí, jurista de la casa de Jerusalén. Escribió 'Lum'at al-I'tiqad' sobre el credo del pueblo sunna al estilo salaf, titulado Hanbali en la portada de la edición. Y escribió el libro 'al-Mughni'. Nacido en Jamma'il en 541 H, murió en Damasco en 620 H según la introducción del editor de Lum'a (2ª ed.); se dice que murió el día de la fiesta de Fitr y fue enterrado a los pies de Qasyun. Ambas fechas se basan en una misma fuente y necesitan una fuente adicional.
+
+## Obras en el corpus OpenITI
+El corpus OpenITI contiene 24 obras bajo el identificador de autor 0620IbnQudamaMaqdisi, entre ellas: Bulghat Talib Hathith; Burhan; Cumdat Fiqh; Cumdat Hazim. {cite:openiti-corpus 0620IbnQudamaMaqdisi}

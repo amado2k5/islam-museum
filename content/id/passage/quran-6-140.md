@@ -1,0 +1,21 @@
+---
+id: passage/quran-6-140
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-6-140.md}
+---
+
+## Ringkasan
+Ayat 140 Surah [[passage/quran-6|Al-An'am]], yang merupakan surah Mekah. {cite:tanzil-quran} Wahyunya terkait dengan [[concept/wad|Wadd]].
+
+## Posisinya
+Lokasinya: Ayat 140 dari 165 dalam surah. Teks ini disimpan dari Mushaf Tazl al-Mujmad dan tidak ditulis ulang di sini.
+
+Ayat 140: "Mereka yang membunuh anak-anaknya dengan bodoh tanpa pengetahuan dan melarang apa yang Allah larang, telah dimusnahkan, sebuah fitnah. Sungguh, mereka telah sesat dan tidak dibimbing dengan benar." Al-Tabari berkata: Para pembuat kebohongan tentang Tuhan mereka, orang-orang adil, berhala dan berhala yang telah diperindahkan oleh pasangan mereka, telah binasa dengan membunuh anak-anak mereka dan melarang apa yang telah dianugerahkan Tuhan kepada mereka dari kekayaan mereka. Mereka membunuh anak-anak mereka karena taat kepada mereka dan melarang apa yang Allah tetapkan untuk mereka serta menyediakan dari ternak mereka; "bodoh," artinya mereka melakukannya karena ketidaktahuan atas apa yang mereka miliki dan atas mereka, kurang akal, mimpi lemah, dan kurang pengertian Dengan kerugian langsung dan penundaan orang yang tidak disukai dari hukuman besar Allah atas dirinya, "memfitnah Allah" berarti berbohong dan menyembunyikan kebohongan terhadap-Nya. "Mereka telah tersesat," artinya mereka meninggalkan bukti kebenaran dalam tindakan mereka dan menyimpang dari jalan yang benar, "dan mereka tidak dibimbing," yaitu mereka yang melakukan sesuatu yang tidak dibimbing atau benar dalam tindakannya, dan mereka tidak berhasil dalam kebenaran. Di pinggir, semua salinan memuat "dan larangan atas apa yang dilarang bagi mereka dari kekayaan mereka," dan editor percaya hal ini bertentangan dengan interpretasi tersebut, sehingga ia mengoreksinya menjadi "apa yang telah Anda berikan kepada mereka." {cite:tafsir-tabari-shakir-v12 p. 153}
+
+Ayat ini diwahyukan tentang mereka yang kabarnya Allah sebutkan dalam ayat-ayat ini, dari perkataan-Nya, "Dan mereka membagi hasil panen dan ternak yang telah Ia sia-siakan," mereka yang biasa berlayar di lautan, meninggalkan alang-alang, dan melahirkan putri. Diceritakan (13950) dari Ikrimah bahwa diwahyukan tentang mereka yang melahirkan putri dari Rabi'ah dan Mudar. Seorang pria akan meminta istrinya memiliki seorang budak perempuan dan menikah dengan yang lain. Ketika gadis itu melahirkan yang ditentukan bahwa pria itu akan melahirkan keesokan harinya, atau jika dia meninggalkan istrinya, dia akan berkata kepadanya: Kamu seperti punggung ibuku jika dia kembali kepadamu dan kamu tidak memberinya hadiah. Dia mengambil tenda untuknya di tanah itu dan mengirimkannya kepada wanitanya untuk berkumpul bersamanya, sampai ketika dia melihat dia kembali, dia akan melangkah ke lubangnya dan kemudian meratakan dengan tanah. Dalam catatan kaki, penjelasan kata "ambillah." {cite:tafsir-tabari-shakir-v12 p. 154}
+
+(13951) menceritakan dari Al-Suddi: Kemudian ia menyebutkan apa yang mereka lakukan kepada anak-anak dan kekayaan mereka; (13952) dari Qatadah: Ini adalah praktik orang-orang yang tidak tahu. Salah satu dari mereka biasa membunuh putrinya karena takut akan kemiskinan dan kelaparan serta memberi makan anjingnya. Perkataannya, "Dan mereka melarang apa yang Allah berikan," merujuk pada orang-orang yang tidak tahu, yang membuat danau, pengembara, hubungan, dan pelindung dari iblis atas kekayaan mereka; dan (13953) dari Abdul Aziz: Jika Anda senang mengetahui tentang kebodohan orang Arab, bacalah apa yang setelah seratus tahun dari Surah Al-An'am. Abu Razin menafsirkan "mereka telah menyesatkan," yang berarti mereka telah tersesat sebelum tindakan ini dalam hal lain (13954). {cite:tafsir-tabari-shakir-v12 p. 155}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

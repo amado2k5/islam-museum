@@ -1,0 +1,27 @@
+---
+id: passage/quran-11-77
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-11-77.md}
+---
+
+## Ringkasan
+Ayat 77 Surah [[passage/quran-11|Hud]], yang merupakan surah Mekah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: ayat 77 dari 123 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujmad dan tidak ditulis ulang di sini.
+
+**Penafsiran ayat 77 (hlm. 407-411)**
+
+Dan dalam [[passage/quran-11-77|11:77]] Al-Tabari berkata: Ketika malaikat kita datang kepada Lot, kedatangan mereka dalam keadaan cemas, yang merupakan tindakan jahat. "Dia membuat mereka marah," artinya jiwanya terpukul karena mereka datang, karena dia tidak tahu bahwa mereka adalah utusan Tuhan saat kedatangan mereka sedang tertekan. Dia tahu dari umat-Nya apa yang mereka lakukan dalam ketidakmoralan mereka dan takut akan mereka. Karena itu, dia menjadi gelisah atas kedatangan mereka dan tahu dia harus membela tamu-tamunanya. Oleh karena itu, dia berkata, "Ini hari yang sulit." Dan narasi 18350 dari Ibn Abbas: Dia memiliki pikiran buruk tentang umatnya dan menjadi gelisah oleh tamu-tamunanya. {cite:tafsir-tabari-shakir-v15 p. 408}
+
+Dan narasi tahun 18351 dari Hudhayfah: Ketika para rasul datang kepada Lot saat ia berada di tanahnya tempat ia bekerja, dikatakan kepada mereka, 'Dan Allah yang paling tahu, janganlah musnahkan mereka sampai Lot menjadi saksi.' Mereka datang dan berkata, 'Kami akan menjamu kalian malam ini.' Maka ia berangkat bersama mereka. Setelah berjalan selama satu jam, ia berbalik dan berkata, 'Apakah kalian tidak tahu apa yang dilakukan orang-orang di desa ini?' Demi Allah, saya tidak tahu ada orang di bumi yang lebih jahat dari mereka. Kemudian yang kedua berkata sama seperti yang ia katakan. Ketika orang tua itu melihat mereka, istrinya keluar dan memperingatkan mereka; dan narasi tahun 18352 juga serupa. Dan cerita tahun 18353 dari Qatadah: Para malaikat datang kepada Lot saat ia berada di ladangnya, dan Allah berkata kepada para malaikat: Jika Lot bersaksi melawan mereka empat kali, aku telah mengizinkan kalian memusnahkan kehancuran mereka. Mereka berkata, Wahai Lot, kami ingin menjamu malam ini. Ia berkata, 'Aku bersaksi oleh Allah bahwa ini adalah desa terburuk di bumi dalam perbuatan.' Ia berkata demikian empat kali, sehingga Lot bersaksi empat kali dan masuk ke rumahnya bersamanya. {cite:tafsir-tabari-shakir-v15 p. 408}
+
+Dan cerita tahun 18354 dari Al-Suddi: Para malaikat pergi dari tempat Abraham menuju desa Lot dan tiba di sana pada tengah hari. Ketika mereka tiba di sungai Sodom, mereka menemukan putri Lot sedang mengambil air untuk keluarganya. Ia memiliki dua putri, yang sulung bernama Ra'ya dan yang bungsu bersuara ululasi. Mereka berkata kepadanya, 'Wahai gadis muda, apakah ada rumah?' Dia berkata, 'Ya, jangan masuk ke tempatmu sebelum aku datang kepadamu.' Dia menjauh dari bangsanya, lalu pergi kepada ayahnya dan berkata, 'Ayah, ada anak-anak di gerbang kota. Pernahkah kau melihat wajah orang yang lebih baik dari mereka? Kaummu tidak mau mengambil mereka dan mempermalukan mereka.' Kaumnya memperingatkan agar dia menambah seorang pria, dan mereka berkata, 'Biarkan kami, mari kita tambahkan orang-orang itu.' Dia membawa mereka, dan tidak ada yang tahu kecuali orang-orang dari rumah Lot. Kemudian istrinya keluar dan memberitahu orang-orangnya, berkata, 'Ada pria di rumah Lot yang wajahnya belum pernah kulihat sebelumnya.' Kemudian orang-orangnya bergegas ke arahnya. Dan narasi 18355 dari Ibn Ishaq: Para utusan pergi sesuai dengan apa yang diklaim oleh Umat Taurat dari Abraham kepada Lot dalam Mutafafaqa. Ketika para utusan datang, Lot tidak senang dengan mereka dan sangat cemas dengan ketakutan mereka, karena umatnya takut mereka akan mengungkapnya di rumah sakit, maka dia berkata, 'Ini hari yang sulit.' {cite:tafsir-tabari-shakir-v15 p. 409}
+
+Mengenai perkataan-Nya, "Dan ia berkata, ini hari yang sulit," ia berkata: Lot berkata, "Hari ini adalah hari yang berat, sangat berat dalam ujiannya." Dikatakan demikian: 'Asab hari kita adalah hari yang sulit, ia akan marah dengan pedang,' dan dari sini tertulis perkataan 'Adi ibn Zayd pada hari yang sulit, sebuah ayat yang ia bacakan saat berada dalam tahanan al-Nu'man ibn al-Mundhir; ucapan penyair 'pada hari yang sulit: 'Mengamukkan para pahlawan' pada hari yang sulit; pepatah lain pada hari sulit di Irak; dan perkataan Ka'b ibn Ja'il tentang kelompok yang akrab dengan hari sulit; dan editor menjelaskan bait-baitnya serta keadaan aneh mereka. Kemudian al-Tabari mengatakan bahwa para penafsir mengatakan sesuatu yang mirip dengan yang ia katakan, dan narasi akan muncul di halaman berikutnya. {cite:tafsir-tabari-shakir-v15 p. 410}
+
+Dan narasi 18356 dari Mujahid, 18357 dari Qatadah, dan 18359 dari Qatadah juga: 'Sulit' dan berat; narasi 18358 dari Ibn Ishaq: yang berarti hari ujian dan kesulitan; dan narasi 18360 dari Ibn Abbas: yang berarti hari yang berat. {cite:tafsir-tabari-shakir-v15 p. 411}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

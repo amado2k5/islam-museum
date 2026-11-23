@@ -1,0 +1,23 @@
+---
+id: passage/quran-12-37
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-12-37.md}
+---
+
+## Ringkasan
+Ayat 37 Surah [[passage/quran-12|Yusuf]], yang merupakan surah Mekah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: ayat 37 dari 111 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujaddad dan tidak ditulis ulang di sini.
+
+**Penafsiran ayat 37 (hlm. 100-101)**
+
+Al-Tabari berkata tentang ayat itu, "Dia berkata, 'Tidak ada makanan yang akan datang kepada kalian untuk disediakan kecuali Aku akan memberitahumu tentang penafsirannya sebelum sampai kepadamu.'" Yusuf berkata kepada dua anak laki-laki yang ditafsirkan dalam mimpi: "Tidak ada makanan yang kalian sediakan akan datang dalam mimpi kalian kecuali aku akan memberitahu kalian tentang tafsirnya saat kalian terjaga sebelum itu datang kepadamu." Narasi tahun 19284 dan 19285 dari Al-Suddi dan Ibn Ishaq memiliki narasi serupa, melalui Ibn Waki', Amr, Asbat, Ibn Humayd, dan Salma. Dengan "dengan penafsirannya," ia bermaksud apa yang mereka lihat dalam mimpi tentang makanan yang mereka lihat datang kepada mereka. {cite:tafsir-tabari-shakir-v16 p. 100}
+
+Dan dalam perkataan-Nya, "Itulah yang Tuhan saya ajarkan kepadaku," Dia berkata: Inilah yang aku ingat dari penafsiran mimpi itu dari apa yang Tuhan ajarkan kepadaku, "Aku telah meninggalkan agama sebuah umat yang tidak percaya kepada Allah," dan predikat itu adalah subjek yang berarti aku meninggalkan agama sebuah bangsa. Makna itu bukan sesuatu yang terdistorsi, tetapi dimulai dengan itu karena permulaan adalah bukti maknanya. Maknanya: Aku terpisah dari agama mereka yang tidak percaya kepada Tuhan dan mengakui keesaan-Nya, "dan di akhirat mereka adalah kafir": dan meskipun meninggalkan iman pada keesaan Allah, mereka tidak menerima kebangkitan, ganjaran, atau hukuman. "Mereka" diulang dua kali karena masuk di antara mereka "di akhirat," sehingga yang pertama menjadi seperti yang dibatalkan, dan yang kedua menjadi andalan, seperti dalam [[passage/quran-27-3|An-Naml 3]], [[passage/quran-31-4|Luqman 4]], dan [[passage/quran-23-35|Al-Mu'minun 35]]. Verifier merujuk pada interpretasi "Al-Millah" seperti yang disebutkan sebelumnya. {cite:tafsir-tabari-shakir-v16 p. 101}
+
+Jika seseorang bertanya: Apa tujuan dan makna laporan dari Yusuf ini, dan di mana jawabannya kepada kedua pemuda itu tentang penafsiran penglihatan mereka? Dikatakan demikian: Yusuf tidak suka menjawab mereka tentang penafsiran mimpi mereka karena dia tahu mimpi itu tidak disukai oleh salah satu dari mereka, jadi dia menahan diri untuk tidak menyebutkannya dan berpaling dari orang lain untuk menanyakan jawabannya. Dan narasi tahun 19286 dari Ibn Jurayj, melalui Al-Qasim, Al-Husayn, dan Hajjaj: Ia tidak menyukai frasa di antara mereka dan memberitahu sesuatu yang belum mereka tanyakan kepadanya, untuk menunjukkan bahwa ia memiliki pengetahuan. Ketika raja ingin membunuh seseorang, ia akan menyiapkan makanan yang diketahui dan mengirimkannya kepadanya. Yusuf berkata, 'Tidak ada makanan yang akan datang kepada kalian untuk memberinya kebutuhan, sampai ia mengucapkan terima kasih.' Ia tidak memanggilnya, jadi ia hanya bersama mereka. Ia berkata, 'Wahai sahabatku di penjara, apakah ada tuan yang tercerai-berai? Apakah lebih baik atau Tuhan Yang Maha Suci, untuk berkata, 'Mereka tahu?' Ia tidak memanggilnya sampai ia berkata: 'Adapun salah satu dari kalian yang minum anggur dari Tuhannya, dan yang lain disalib, dan burung-burung memakan dari kepalanya.' Mereka berkata, 'Kami tidak melihat apa-apa; kami hanya bermain.' Ia berkata: Perkara yang kalian cari fatwa telah diputuskan. Al-Tabari berkata: Menurut tafsiran yang ditafsirkan Ibn Jurayj, mengatakan "Tidak ada makanan yang akan datang kepadamu untuk menyediakan kebutuhanmu" adalah saat terjaga, bukan saat tidur. Sebaliknya, ia memberitahu mereka bahwa ia mengetahui apa yang terjadi pada makanan yang datang kepada mereka dari raja dan orang lain, karena ia tahu jenis makanan yang, ketika menimpa mereka, adalah tanda membunuh mereka yang datang, dan jenis yang, ketika datang, adalah tanda sesuatu yang lain. {cite:tafsir-tabari-shakir-v16 p. 102}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

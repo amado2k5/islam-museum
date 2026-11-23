@@ -1,0 +1,34 @@
+---
+id: event/persecution-of-mustadafin
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-fr-2026-11-23, source: content/en/event/persecution-of-mustadafin.md}
+---
+
+## Résumé
+Après que les premières méthodes les eurent épuisés, Quraysh tortura les faibles parmi ceux qui avaient embrassé l'islam à La Mecque. Chaque tribu torturait ceux de ses membres devenus musulmans, et ceux sans tribu furent soumis à diverses formes de persécution par la foule et les chefs. {cite:mubarakpuri-raheeq p.89} {cite:mubarakpuri-raheeq p.90} Parmi les plus connus des torturés figuraient [[person/bilal-ibn-rabah|Bilal]], [[person/ammar-ibn-yasir|Ammar]], [[person/yasir-ibn-amir|Yasir]], [[person/sumayya-bint-khayyat|Sumayya]] et [[person/khabbab-ibn-al-aratt|Khabbab]]. {cite:mubarakpuri-raheeq p.90} {cite:mubarakpuri-raheeq p.91}
+
+## Abu Jahl et ses mesures
+Chaque fois qu [[person/abu-jahl|'Abu Jahl]] entendait parler de quelqu'un qui avait embrassé l'islam et qui jouissait de la légitimité et de la protection, il le réprimaisait et le déshonorait. Si le converti était faible, il le battait et incitait les autres contre lui. {cite:mubarakpuri-raheeq p.89} {cite:ibn-hisham-sira 1/320} L'oncle d'[[person/uthman-ibn-affan|Uthman ibn Affan]] l'enveloppait dans un tapis de feuilles de palmier puis le fumait en dessous. Lorsque la mère de [[person/musab-ibn-umayr|Mus'ab ibn Umayr apprit]] l'existence de son islam, elle le priva de faim et le chassa de sa maison. {cite:mubarakpuri-raheeq p.89} {cite:rahma-lil-alamin 1/57}
+
+## La torture de Bilal, Ammar, Sumayya et Yasir
+[[person/umayya-ibn-khalaf|Umayya ibn Khalaf]] passait une corde autour du cou de [[person/bilal-ibn-rabah|Bilal]] et la tendait aux garçons, qui le traînaient autour des collines de La Mecque. Il le jetait sur le sable de La Mecque sous la chaleur de midi, avec une pierre posée sur sa poitrine, tandis que Bilal disait : « Un, un. » Cela continua jusqu'à ce qu [[person/abu-bakr|'Abu]] Bakr passe, le rachète et le libére. {cite:mubarakpuri-raheeq p.90} {cite:ibn-hisham-sira 1/317-318} Lorsque les polythéistes emmenèrent [[person/yasir-ibn-amir|Yasir]], sa famille, [[person/ammar-ibn-yasir|Ammar]] et [[person/sumayya-bint-khayyat|Sumayya]], à al-Abtah alors que le sable brûlait, le Prophète passa devant eux et dit : « Patience, famille de Yasir ; votre rendez-vous est le Paradis. » Yasir mourut sous la torture. [[person/abu-jahl|Abu Jahl]] poignarda Sumayya dans ses parties intimes, et elle mourut ; elle fut la première martyre de l'islam. {cite:mubarakpuri-raheeq p.90}
+
+## Khabbab, Abu Fukayha et d'autres
+Les polythéistes torturèrent [[person/khabbab-ibn-al-aratt|Khabbab]] en lui arrachant les cheveux, en le posant sur des braises incandescentes et en lui posant une pierre. {cite:mubarakpuri-raheeq p.90} {cite:ibn-hisham-sira 1/319-320} [[person/abu-fakiha|Abu Fakiha]], un client des Banu Abd al-Dar, avait une corde attachée à la jambe et fut traîné sur le sol. {cite:mubarakpuri-raheeq p.90} [[person/zinnira|Zinnira]], [[person/al-nahdiya|al-Nahdiyya]], sa fille et [[person/umm-ubays|um Ubays]] étaient des femmes esclaves qui avaient embrassé l'islam, et les polythéistes leur infligèrent des tourments similaires. {cite:mubarakpuri-raheeq p.91} Une esclave de Banu Mu'ammal embrassa l'islam, et [[person/umar-ibn-al-khattab|Umar ibn al-Khattab]], alors polythéiste, la battit jusqu'à ce qu'il se fatigue. {cite:mubarakpuri-raheeq p.91} [[person/abu-bakr|Abu Bakr]] acheta ces femmes esclaves et les libéra, comme il avait libéré Bilal et Amir ibn Fuhayra. {cite:mubarakpuri-raheeq p.91}
+
+## Notes pour les chercheurs
+- Le livre liste ceux qui ont été torturés et note que la liste est longue et douloureuse. Il renvoie les lecteurs aux sources plutôt que de détailler chaque cas.
+- Ce qui est attribué à Uthman concernant le tapis et la fumée est relaté par le livre de Rahmat lil-'Alamin. Le musée transmet cela tel quel.
+
+## Pour les jeunes visiteurs
+Les polythéistes torturèrent les pauvres et les esclaves parmi ceux qui avaient embrassé l'islam. Bilal fut torturé avec des pierres dans le désert. Ammar et sa famille furent torturés, et Sumayya mourut en tant que premier martyr de l'islam. Abu Bakr les acheta et les libéra.
+
+## Pour les Petits
+À La Mecque, les Quraysh blessèrent les faibles parmi les premiers musulmans — les plus connus furent Bilal, Ammar, Yasir, Sumayya et Khabbab. Le Prophète passa devant la famille de Yasir et dit : « Patience, famille de Yasir, votre rendez-vous est le Paradis », et Abu Bakr acheta Bilal et les femmes qui étaient blessées et les libéra.
+
+## Pour les Explorateurs
+Quraysh nuisit aux faibles parmi ceux qui devinrent musulmans à La Mecque après l'échec des premières méthodes : chaque tribu maltraitait ses propres convertis, et ceux sans tribu subirent toutes sortes de persécutions. Abu Jahl déshonorait un converti de rang et nuisait à un faible ; Umayya ibn Khalaf fit emmener Bilal dans le désert à midi pendant qu'il disait « Un, Un » jusqu'à ce qu'Abu Bakr l'achète et le libie. Yasir, Ammar et Sumayya furent emmenés à al-Abthah, et le Prophète les passa en disant « Patience, famille de Yasir, votre nomination est le Paradis » ; Khabbab fut gravement blessé ; et Abu Bakr acheta et libéra les esclaves musulmanes — Zinnira, al-Nahdiya, um Ubays. Sumayya est reconnu comme le premier martyr de l'islam.
+## Pour les Chercheurs
+Quraysh tortura les faibles parmi les convertis meccans dès que les premières méthodes échouèrent : chaque tribu tourmenta ses propres convertis, et les sans-tribus subirent toutes les formes de persécution. La procédure d'Abu Jahl : honte et disgrâce d'un converti de rang, battre et inciter contre un faible ; L'oncle d'Uthman ibn Affan l'enveloppa dans un tapis de paume et le fuma d'en bas ; la mère de Mus'ab ibn Umayr le priva de nourriture et l'expulsa. Le détail : Umayya ibn Khalaf posa Bilal sur les sables de midi avec la pierre sur sa poitrine tandis qu'il disait « Un, Un » jusqu'à ce qu'Abu Bakr le rachète ; la famille de Yasir fut emmenée à al-Abthah sous la chaleur et le Prophète passa en disant « Patience, famille de Yasir, votre place est le Paradis » — Yasir mourut sous la torture et Sumayya fut transpercé, premier martyr de l'islam ; Khabbab aux cheveux cuillés, braises ardentes et une pierre ; Abu Fakiha traîné par terre ; Zinnira, al-Nahdiya et sa fille et um Ubays — esclaves à qui on a donné ce genre ; une esclave de Banu Mu'mmil battue par Umar, alors encore polythéiste, jusqu'à ce qu'il se fatigue. Abu Bakr les acheta et les libéra, tout comme il libéra Bilal et Amir ibn Fuhayra.

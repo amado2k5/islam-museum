@@ -1,0 +1,44 @@
+---
+id: event/burial-of-the-prophet
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-es-2026-11-23, source: content/en/event/burial-of-the-prophet.md}
+---
+## Visión general
+Tras el juramento a Abu Bakr, el pueblo se dedicó a preparar al Mensajero de Dios para su entierro. {cite:ibn-hisham-dar-ibn-hazm 671} Ali ibn Abi Talib, al-Abbas y sus dos hijos al-Fadl y Qutham, Usama ibn Zayd y Shuqran, el liberto del Profeta, se encargaron de su lavado. Fue lavado con su camisa, envuelto en tres ropas blancas y enterrado en medio de la noche del miércoles. Nadie dirigió al pueblo en la oración por él. {cite:ibn-hisham-dar-ibn-hazm 671} {cite:ibn-hisham-dar-ibn-hazm 672} {cite:ibn-hisham-dar-ibn-hazm 672}
+
+## ¿Qué pasó?
+Ibn Ishaq dice que el pueblo se dedicó a preparar al Profeta el martes tras el juramento a Abu Bakr. {cite:ibn-hisham-dar-ibn-hazm 671} El Profeta no fue despojado de su ropa para lavarse; se vertió agua sobre la camisa y el cuerpo fue frotado desde debajo de ella. {cite:ibn-hisham-dar-ibn-hazm 671} {cite:ibn-hisham-dar-ibn-hazm 672} Aws ibn Khawli pidió a Alí que dejara que el Ansar participara en el lavado, y él aceptó. {cite:ibn-hisham-dar-ibn-hazm 671} Estaba envuelto en tres prendas blancas y una capa yemení a rayas. {cite:ibn-hisham-dar-ibn-hazm 672}
+
+Ibn Ishaq relata que la gente discrepaba sobre el lugar de enterramiento. Abu Bakr dijo que había oído al Profeta decir: «Ningún profeta es tomado, sino que está enterrado donde muere». Se levantó la cama sobre la que murió y se cavó la tumba debajo de ella. {cite:ibn-hisham-dar-ibn-hazm 672} Abu Ubayda ibn al-Jarrah y Abu Talha fueron llamados para cavar la tumba. Abu Ubayda cavaría la zanja como se hace para el pueblo de La Meca, y Abu Talha cavaría el nicho como se hace para el pueblo de Medina. El hombre de Abu Talha llegó primero y cavó el nicho para el Mensajero de Dios. {cite:ibn-hisham-dar-ibn-hazm 672}
+
+La gente entró en grupos para rezar por él, y luego fue enterrado desde la mitad de la noche del miércoles. {cite:ibn-hisham-dar-ibn-hazm 672} Aisha dijo que la gente no supo de su entierro hasta que oyeron el sonido de palas en lo más profundo de la noche. {cite:ibn-hisham-dar-ibn-hazm 672}
+
+Ali, al-Fadl, Qutham, Shuqran y Usama descendieron a la tumba. {cite:ibn-hisham-dar-ibn-hazm 672} Se menciona que al-Mughira ibn Shu'ba afirmó que fue el último del pueblo en haber visto al Profeta en la tumba, porque había dejado caer su anillo en la tumba a propósito, y Ibn Ishaq incluye esto en su informe. {cite:ibn-hisham-dar-ibn-hazm 673}
+
+## Relato detallado de Ibn Ishaq
+[[person/ali-ibn-abi-talib|Ali]], [[person/abbas-ibn-abd-al-muttalib|al-Abbas]], [[person/al-fadl-ibn-al-abbas|al-Fadl]], [[person/qutham-ibn-al-abbas|Qutham]], [[person/usama-ibn-zayd|Usama]] y [[person/shuqran-mawla-rasul|Shuqran]], el liberto del Profeta, se encargaron de su lavado. Usama y Shuqran vertieron el agua, y Alí lo lavó, sujetándolo contra su pecho, con la camisa puesta, frotando el cuerpo desde detrás de la camisa. {cite:ibn-hisham-saqqa 4/312} {cite:ibn-hisham-saqqa 4/313} [[person/aws-ibn-khawli|Aws ibn Khawli]] vino a ver a Alí pidiéndole su parte del Profeta, y Alí le dejó entrar. {cite:ibn-hisham-saqqa 4/312}
+
+Ibn Ishaq relata de Aisha que el pueblo no estaba de acuerdo: ¿debían despojar al Profeta de su ropa como desnudaban a sus muertos, o lavarlo con sus ropas? Dios les echó sueño hasta que ningún hombre entre ellos quedó sin su barbilla sobre el pecho. Entonces alguien les habló desde un lado de la casa, a quien no conocían: «Lavad al Profeta con sus ropas.» Así que lo lavaron con la camisa puesta. {cite:ibn-hisham-saqqa 4/313}
+
+Estaba envuelto en tres prendas: dos sábanas de algodón de Sahar y una capa a rayas. {cite:ibn-hisham-saqqa 4/313} [[person/abu-ubayda-ibn-al-jarrah|Abu Ubayda]] solía cavar para la gente de La Meca, y [[person/abu-talha-al-ansari|Abu Talha]] solía cavar para la gente de Medina y tallar un nicho. al-Abbas llamó a dos hombres y dijo: "Oh Dios, elige a tu Mensajero"; El hombre de Abu Talha encontró a Abu Talha y lo trajo, y talló un nicho para el Profeta. {cite:ibn-hisham-saqqa 4/313} {cite:ibn-hisham-saqqa 4/314}
+
+Los musulmanes discrepaban sobre el lugar de enterramiento: algunos decían que debía ser enterrado en su mezquita, y otros junto a sus compañeros. Abu Bakr dijo: "Escuché al Profeta decir: Ningún profeta es tomado, sino que se enterra donde muere." Así que su cama fue levantada y la tumba fue cavada bajo ella. {cite:ibn-hisham-saqqa 4/314} La gente se acercó a él en grupos, hombres, luego mujeres, luego niños, y nadie guió al pueblo en oración por él. {cite:ibn-hisham-saqqa 4/314} Fue enterrado en mitad de la noche del miércoles. {cite:ibn-hisham-saqqa 4/314} Aisha no supo de su entierro hasta que oyó el sonido de palas en lo profundo de la noche. {cite:ibn-hisham-saqqa 4/314} Ali, al-Fadl, Qutham y Shuqran bajaron a la tumba, y Aws ibn Khawli bajó con ellos después de que Alí se lo ordenara. {cite:ibn-hisham-saqqa 4/314} {cite:ibn-hisham-saqqa 4/315}
+
+Shuqran tomó un paño de terciopelo que el Profeta usaba para extender, lo puso en la tumba y dijo: «Por Dios, nadie lo llevará puesto después de ti, jamás». {cite:ibn-hisham-saqqa 4/315} Ibn Hisham relata de al-Mughira ibn Shu'ba que solía afirmar que fue el último en ver al Profeta en la tumba, diciendo que había dejado caer su anillo en ella a propósito. {cite:ibn-hisham-saqqa 4/315} Un grupo de Irak preguntó a Alí en Kufa sobre esto, y él dijo: "Al-Mughira mintió; el último en ver al Profeta en la tumba fue Qutham ibn al-Abbas." {cite:ibn-hisham-saqqa 4/315}
+
+## Notas sobre los informes
+- La historia del lavado y el velado de Ibn Ishaq se cuenta en varias cadenas: Abd Allah ibn Abi Bakr, al-Husayn ibn Abd Allah y Yahya ibn Abbad de su padre de Aisha. {cite:ibn-hisham-saqqa 4/312}
+- El desacuerdo entre el pueblo sobre el velo y el envoltorio se transmite desde Ja'far ibn Muhammad por su padre y por Zayn al-Abidin. {cite:ibn-hisham-saqqa 4/313}
+- Ibn Hisham señala que una copia tiene "Asad" en lugar de "As'ad" en una línea del verso de Hassan. {cite:ibn-hisham-saqqa 4/314}
+- El informe sobre al-Mughira con Ali y Qutham aparece en la narración de Ibn Ishaq sobre la cadena "de Muqsim de Abd Allah ibn al-Harith". {cite:ibn-hisham-saqqa 4/315}
+
+## Para los Brotes
+Tras el juramento a Abu Bakr, Ali ibn Abi Talib, al-Abbas y sus hijos al-Fadl y Qutham, Usama y Shuqran, el liberto del Profeta, lavaron al Profeta; fue lavado con la camisa puesta y envuelto en tres paños blancos. La gente entró en relevos para rezar por él sin imán, y fue enterrado el miércoles por la noche bajo la cama en la que murió.
+
+## Para los Exploradores
+Ibn Ishaq relata que el pueblo se dedicó a preparar al Profeta el martes tras la promesa a Abu Bakr: Ali, al-Abbas, al-Fadl, Qutham, Usama y Shuqran lo lavaron — con la camisa puesta, con agua sobre ella y el cuerpo frotado por debajo — y lo envolvieron con tres paños blancos y una venda yemení a rayas. Discreparon sobre el lugar de enterramiento hasta que Abu Bakr dijo que oyó al Profeta decir que no se lleva profeta pero que está enterrado donde lo llevan; la cama fue levantada y la tumba cavada debajo — Abu Talha cavó el lahd como hacen los medianos. La gente entró en relevos — hombres, luego mujeres, luego niños — rezando sobre él sin imán; fue enterrado en mitad de la noche del miércoles, y A'isha dice que no lo supieron hasta que escucharon las picas en la noche.
+
+## Para los Estudiosos
+Ali, al-Abbas, al-Fadl, Qutham, Usama y Shuqran lavaron al Profeta — Usama y Shuqran vertieron agua mientras Alí lo lavaba contra su pecho con la camisa puesta — y Ibn Ishaq informa desde A'isha que el pueblo durmió hasta que un orador llamó: lavadle con su ropa. Estaba envuelto en tres telas: dos piezas saharíes y una envoltura yemení a rayas. La disputa sobre el lugar de enterramiento se resolvió por la palabra del Profeta a través de Abu Bakr — no se toma profeta pero él es enterrado donde es llevado; la cama fue levantada y cavada debajo, Abu Talha cavando el lahd como hacen los medineses (Abu Ubayda cavó el shaqq de los mequeses). La gente entró en relevos rezando sobre él sin imán — hombres, luego mujeres y luego niños — y fue enterrado a media noche del miércoles; A'isha no lo supo hasta que escuchó las pyetas. Ali, al-Fadl, Qutham, Shuqran y Aws ibn Khawli descendieron a la tumba, y Shuqran enterró con él el terciopelo sobre el que el Profeta solía acostarse. Ibn Hisham registra la afirmación de al-Mughira ibn Shu'ba de ser el último en verlo en la tumba, y la respuesta de Ali de que el último era Qutham ibn al-Abbas.

@@ -1,0 +1,19 @@
+---
+id: passage/quran-7-70
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-7-70.md}
+---
+
+## Özet
+Mekke suresi olan E'raf Suresi [[passage/quran-7|'nin 70. ayeti]]. {cite:tanzil-quran}
+
+## Konumu
+Yeri: Surede 206 ayetten 70. ayet. Metin Mushaf Tazil al-Mujmad'dan korunmuş olup burada yeniden yazılmamıştır.
+
+Sonra 7:70 [[passage/quran-7-70|'te şöyle der]]: El-Taberi, 'Ad halkının Hud'a şöyle dediğini söylemiştir: Bize dinimizde olduğumuz şey için Allah'ın cezasıyla tehdit etmek için geldin, böylece yalnızca Allah'a ibadet edelim ve O'na samimi itaat edelim. {cite:tafsir-tabari-shakir-v12 p. 520}
+
+Ve atalarımızın tapındığı tanrıları ve putları terk edip onları reddedeceğiz? Biz bunu yapanlardan değiliz, ne de bizi çağırdığın şeyde Senin peşinden gitmeyiz. Eğer söylediklerinde ve vaatlerinde doğruysan, tek tanrıcılıkta samimiyeti terk edip O'ndan başka ibadet ettiğimiz şeylere ibadet ettiğimiz için bize söz verdin. {cite:tafsir-tabari-shakir-v12 p. 521}
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.

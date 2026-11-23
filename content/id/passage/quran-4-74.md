@@ -1,0 +1,19 @@
+---
+id: passage/quran-4-74
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-4-74.md}
+---
+
+## Ringkasan
+Ayat 74 Surah [[passage/quran-4|An-Nisa]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: Ayat 74 dari 176 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujmad dan tidak ditulis ulang di sini.
+
+**Penafsiran ayat (hal. 541, catatan kaki 1-3).** Al-Tabari mengatakan ini adalah perintah dari Allah kepada umat beriman untuk melawan musuh-Nya di antara umat kafir dalam segala keadaan mereka, baik mereka menang maupun kalah, dan ini merupakan pengurangan apa yang dikatakan munafik tentang mereka yang berjuang di antara para musyrik, dan bahwa mereka memiliki status tinggi dalam jihad mereka bersama Allah. Berjuang di jalan Allah dijelaskan sebagai dalam agama Allah, memanggil-Nya, dan memasuki apa yang diperintahkan oleh orang kafir, dan mereka yang menjual nyawa duniawi demi ganjaran akhirat dan apa yang Allah janjikan kepada mereka yang taat di dalamnya, dan menjual harta mereka demi mencari kehendak Allah dan berusaha untuk mereka yang diperintahkan untuk berperang di antara musuh dan musuh agama-Nya, serta pengabdian mereka kepadanya. Kemudian Dia memberitahu mereka apa yang mereka lakukan jika mereka melakukannya: Siapa pun yang berjuang demi menegakkan agama Allah dan mengangkat firman-Nya, dan musuh Allah membunuhnya atau mengalahkan mereka dan dia mengalahkan mereka, Allah akan memberinya ganjaran besar di akhirat. Apa yang Dia sebut besar tidak diketahui oleh para hamba (dan pemeriksa merujuk pada interpretasi ganjaran pada hal. 529, catatan kaki 2). Editor menyebutkan bahwa dalam naskah dan versi cetak, 'Bi Ahli al-Mushrikeen' bukan 'Bi Qaqaikeen' 'ila al-Mufīqin' (kata-kata para munafik), dan bahwa konteks tafsir menunjukkan yang kedua, yaitu apa yang dikatakan munafik ketika Muslim dikalahkan dan menang, dan bahwa kata 'kelalaian' melekat pada 'hadhad'; bahwa tempat di antara tanda kurung dalam manuskrip dan edisi cetak adalah kata yang tidak sesuai dengan kata tersebut, jadi saya dapat menyimpulkan apa yang telah ditetapkan; dan dalam kedua kasus, 'seperti jihad,' dan kata yang benar, sesuai konteksnya, adalah 'untuk jihad.' {cite:tafsir-tabari-shakir-v08 p. 541}
+
+**Narasi 9942-9943 (hlm. 542, catatan kaki 1-2).** Al-Tabari mengatakan bahwa ini menunjukkan bahwa sebagian besar makna kata kerja dalam bahasa Arab adalah 'membeli' dalam bahasa Arab sebagai 'menjual' untuk apa yang cukup untuk pengulangan. Muhammad ibn al-Husayn (9942, dari Ahmad ibn Mufaddal dari Asbat) menceritakan dari al-Suddi bahwa maknanya adalah 'mereka menjual kehidupan duniawi mereka untuk akhirat.' Yunus (9943, dari Ibn Wahb) menceritakan dari Ibn Zayd bahwa kata kerja berasal dalam arti 'menjual' dan 'mengambil,' dan bahwa mereka yang menjual Akhirat untuk dunia (kata-katanya bingung dalam menghapus dan dibaca dari konteks). Editor menyebutkan bahwa ia menambahkan tanda kurung dalam kata-kata Al-Tabari mengikuti pendekatannya di ratusan tempat sebelumnya, dan juru tulis mungkin menghilangkan frasa tersebut karena jatuh di akhir halaman, lalu ia membalik halaman dan menulis "dan waqad," merujuk pada penjelasan kata kerja di tempat sebelumnya (nomor halaman menjadi kabur). {cite:tafsir-tabari-shakir-v08 p. 542}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri. {cite:tafsir-tabari-shakir-v08 p. 542}
