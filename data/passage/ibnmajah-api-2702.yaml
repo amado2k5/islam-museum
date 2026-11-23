@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "2702"
-label: { ar: "سنن ابن ماجه 2702 — وصية أو عهد أخير", en: "Sunan Ibn Majah 2702 — a testament or parting counsel", ur: "سنن ابن ماجہ 2702 — وصیت یا آخری نصیحت", es: "Sunan Ibn Majah 2702: un testamento o consejo de despedida", fr: "Sunan Ibn Majah 2702 — un testament ou un conseil d'adieu" }
+label: { ar: "سنن ابن ماجه 2702 — وصية أو عهد أخير", en: "Sunan Ibn Majah 2702 — a testament or parting counsel", ur: "سنن ابن ماجہ 2702 — وصیت یا آخری نصیحت", es: "Sunan Ibn Majah 2702: un testamento o consejo de despedida", fr: "Sunan Ibn Majah 2702 — un testament ou un conseil d'adieu", tr: "Sunan İbn Majah 2702 - Son bir vasiyet veya antlaşma", id: "Sunan Ibnu Majah 2702 — Wasiat atau perjanjian terakhir" }
 text: "حَدَّثَنَا مُحَمَّدُ بْنُ مَعْمَرٍ، حَدَّثَنَا رَوْحُ بْنُ عَوْفٍ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ قَالَ \" مَا حَقُّ امْرِئٍ مُسْلِمٍ يَبِيتُ لَيْلَتَيْنِ وَلَهُ شَىْءٌ يُوصِي بِهِ إِلاَّ وَوَصِيَّتُهُ مَكْتُوبَةٌ عِنْدَهُ \"."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 2702، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابن ماجہ کی حدیث نمبر 2702، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Ibn Majah, n.° 2702 (Los capítulos sobre testamentos), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sunan Ibn Majah, n° 2702 (chapitres relatifs aux testaments), mentionne un testament ou des dernières volontés. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "İbn Majah'ın Sünen'inde yer alan 2702 numaralı hadiste, vasiyet veya son bir ahitten bahsedilmektedir. Bu hadis, vasiyetler, miras, kutsal emanetler ve türbeler konusunda uzmanlaşmış araştırmacılar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sunan Ibn Majah, no. 2702, menyebutkan wasiat atau perjanjian terakhir. Hadits ini disusun oleh para peneliti yang ahli dalam wasiat, warisan, relik, dan makam, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2702 (book 22 hadith 8); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

@@ -61,6 +61,8 @@ const HON_PATTERNS: Record<Lang, RegExp> = {
   ur: /(?<![\u0621-\u06D3])(رسول اللہ|نبی کریم)(?![\u0621-\u06D3])/g,
   fr: /(?<![A-Za-zÀ-ÿ])(le Messager de Dieu|le Prophète Muhammad|le Prophète|l'Envoyé de Dieu)(?![A-Za-zÀ-ÿ])/g,
   es: /(?<![A-Za-zÀ-ÿ])(el Mensajero de Dios|el Profeta Muhammad|el Profeta|el Enviado de Dios)(?![A-Za-zÀ-ÿ])/g,
+  tr: /(?<![A-Za-zÇĞİÖŞÜçğıöşü])(Allah'ın Elçisi|Allah'ın Resulü|Peygamber Muhammed|Hz\. Muhammed|Peygamber)(?![A-Za-zÇĞİÖŞÜçğıöşü])/g,
+  id: /(?<![A-Za-z])(Rasulullah|Utusan Allah|Nabi Muhammad|Nabi)(?![A-Za-z])/g,
 };
 // ﷺ belongs to Muhammad alone: "النبي صموئيل", "the Prophet Daniel" (a person, shrine or village) name another prophet, and
 // "النبي الوحيد" speaks of a prophet in general, so neither gets the mark.
@@ -98,6 +100,8 @@ const OTHER_PROPHETS: Record<Lang, string[]> = {
     "Juan", "Isa", "Jesús", "Samuel", "Daniel", "Yusha", "Josué", "Shith", "Set", "Ezequiel", "Jeremías", "Isaías", "Uzayr", "Esdras",
     "Khidr", "al-Khidr", "Luqman",
   ],
+  tr: ["Âdem", "İdris", "Nuh", "Hûd", "Sâlih", "İbrahim", "Lût", "İsmail", "İshak", "Yakup", "Yusuf", "Eyyub", "Şuayb", "Musa", "Harun", "Zülkifl", "Davut", "Süleyman", "İlyas", "Elyesa", "Yunus", "Zekeriya", "Yahya", "İsa", "Şemuel", "Danyal", "Yuşa", "Hızır", "Üzeyir", "Lokman"],
+  id: ["Adam", "Idris", "Nuh", "Hud", "Saleh", "Ibrahim", "Luth", "Ismail", "Ishak", "Yakub", "Yusuf", "Ayub", "Syu'aib", "Syuaib", "Musa", "Harun", "Zulkifli", "Daud", "Sulaiman", "Ilyas", "Ilyasa", "Yunus", "Zakaria", "Yahya", "Isa", "Samuel", "Daniel", "Yusya", "Khidr", "Khidir", "Uzair", "Luqman"],
 };
 // Every prophet in the graph other than Muhammad joins the list in each language, so a new prophet's record is covered as soon as it lands.
 for (const n of realNodes) {
@@ -112,7 +116,7 @@ for (const n of realNodes) {
     }
   }
 }
-const NAME_END: Record<Lang, string> = { ar: "(?![\u0621-\u064A])", en: "(?![A-Za-z])", ur: "(?![\u0621-\u06D3])", fr: "(?![A-Za-zÀ-ÿ])", es: "(?![A-Za-zÀ-ÿ])" };
+const NAME_END: Record<Lang, string> = { ar: "(?![\u0621-\u064A])", en: "(?![A-Za-z])", ur: "(?![\u0621-\u06D3])", fr: "(?![A-Za-zÀ-ÿ])", es: "(?![A-Za-zÀ-ÿ])", tr: "(?![A-Za-zÇĞİÖŞÜçğıöşü])", id: "(?![A-Za-z])" };
 const reEsc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const OTHER_AFTER = Object.fromEntries(
   (Object.keys(OTHER_PROPHETS) as Lang[]).map((l) => {
@@ -142,6 +146,8 @@ const COMPANION_SUFFIX: Record<Lang, { m: string; f: string }> = {
   en: { m: "(may God be pleased with him)", f: "(may God be pleased with her)" },
   fr: { m: "(que Dieu soit satisfait de lui)", f: "(que Dieu soit satisfait d'elle)" },
   es: { m: "(que Dios esté complacido con él)", f: "(que Dios esté complacido con ella)" },
+  tr: { m: "(Allah ondan razı olsun)", f: "(Allah ondan razı olsun)" },
+  id: { m: "(semoga Allah meridainya)", f: "(semoga Allah meridainya)" },
 };
 const companionCache = new Map<Lang, { name: string; suffix: string }[]>();
 function companionsFor(lang: Lang) {

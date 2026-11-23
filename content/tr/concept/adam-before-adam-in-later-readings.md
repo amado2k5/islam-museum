@@ -1,0 +1,24 @@
+---
+id: concept/adam-before-adam-in-later-readings
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/adam-before-adam-in-later-readings.md}
+---
+## Bu konuşma nereden çıktı?
+An-Nisa 1 [[passage/quran-4-1|şöyle der]]: Allah insanları tek bir ruhtan yarattı. Bu ayette, Muhammed Abdu'nun dikte ettiği ve Rashid Rida tarafından yazılan Tafsir al-Manar, bilinen tüm insanların Adem'in soyundan mı geldiği sorusunu gündeme getirir. Bazı araştırmacıların her insanın bir babası olduğuna inandığını ve 'Ey Adem'in çocukları'nın buna aykırı olmadığını belirtir; çünkü vahiy zamanındaki muhatabların onun çocukları olduğu söylemin doğruluğu için yeterlidir. Daha önce İnek Adem'in hikâyesinin yorumunda, ondan önce dünyada bu tür bir şeyin olup kan döktüğü ve yozlaştırıldığı belirtilmiştir. {cite:tafsir-manar-v04 p. 264} Burada dayandığım metin bu ve ikincil bir hadistir, bu yüzden İbn Arabi ve diğerlerine sadece Raşid Ridha'nın aktardıklarına atfedilirim.
+
+## Al-Manar'ın İmamiyye ve Sufiler hakkında aktardıkları
+Rashid Ridha, Alusi'nin Ruh al-Ma'ani'den alıntı yapar; Ruh al-Ma'ani'den Imamiyye ve Sufilerden aktardığı söylentilerde, Adem'den önce Kitap Ahli arasında ünlü olduğunu ve birçok Adem olduğunu belirtir. Jami'al-Akhbar'ın İmamiyiye'den yazarının, Tanrı'nın Adem'den önce, her bir Adem ile Adem arasında bin yıl boyunca otuz Adem yarattığını ve dünyanın elli bin yıl boyunca harap kaldığını ve ardından elli bin yıl yaşadığını aktardığını belirtir. El-Tavhid'de İbn Babavey'den bahseder, El-Sadiq'ten Tanrı'nın bin bin Adem yarattığını, Maytham'ın Nahj al-Balagha yorumunda ise Muhammed el-Beqir'den alıntı yaptığını ve Adem'den önce bin Adem veya daha fazla Ademin öldüğünü belirttiğini belirtti. {cite:tafsir-manar-v04 p. 264} Sonra şöyle der: Büyük Şeyh, fetihlerinde Adem'in kendisinden kırk bin yıl önce olduğunu ima eden bir şeyi belirtti ve fetihlerde ve diğerlerinde bu konunun başka versiyonları da var; Zain al-Arab'ı bir inançsız olarak alıntıladı ve çok sayıda Adem olduğunu söylüyor, bu yüzden Rashid Ridha bu inançsızlık beyanını kınar. {cite:tafsir-manar-v04 pp. 264-265} Metinden anlaşıldığı üzere, 'Büyük Şeyh' İbn Arabi olduğu ve kitapların aşina olduğu anlaşılıyor, ancak fetihlerin metnini okumadım, William Chetick'in eserleri gibi ikincil çalışmalara da atıfta bulunmadım, bu yüzden İbn Arabi'nin niyetini yargılamıyorum.
+
+## Rashid Reda tarafından bildirilen Mohamed Abdo'nun görüşü
+Rashid Ridha, öğretmeninin iki görüşü olduğunu belirtir: kadınlarla ilgili ayetin görünürdeki anlamının, tek ruhun tüm insanların babası Adem olduğunu ya da olmadığını söylemeyi reddettiği ve Kur'an'da tüm insanların Adem'in soyundan geldiğine dair kesin bir metin olmadığını, insan derken kastedilenin canlı, konuşan, dik ve dik hayvan olan insan olduğunu belirtir. Bu nedenle, insan geleneklerindeki araştırmacıların kökenlerinin çeşitliliği hakkında söyledikleri Kur'an tarafından çürütülmez. Rashid Ridha, bunun Adem'in tüm insanların babası olduğuna inananları inancından alıkoymadığını ve hizmetkarının Kur'an'ın bunu reddettiğini söylemediğini belirtir. {cite:tafsir-manar-v04 p. 265} Öncesinde Al-Razi'nin Al-A'raf 189 ayetinin yorumunda bahsettiği ve aynı ruhun üç yorumunu içeren Kaffal atasözü, Kureyş (Qusay anlamına gelir) ve Adem olarak belirtilir. {cite:tafsir-manar-v04 p. 264}
+
+:::perspectives
+- **Al-Manar'da aktarılan bir Sufi ve İmam ifadesi:** Adem'den önce birçok kişi vardı, rivayetlerde sayıları değişiyordu, bazıları İbn Arabi'ye atfediliyordu. {cite:tafsir-manar-v04 pp. 264-265}
+- **Kadınlar ayetiyle ilgili çoğu yorumcunun Sünni görüşü:** Tek ruh Adem'dir, insanlığın babasıdır ve Rashid'e göre, Müslümanların çoğunluğuna göre tatminidir, ayette açıkça belirtilmemiştir. {cite:tafsir-manar-v04 p. 264}
+- **Bir Hadis Sözü, Muhammed Abduh:** Kur'an'da tüm insanların Adem'den geldiğine dair kesin bir metin yoktur ve isteyen evrensel babalığa inanabilir. {cite:tafsir-manar-v04 p. 265}
+:::
+
+## Söylemediklerim
+Bu ifadeleri doğru ya da yanlış olarak değerlendirmiyorum, ayrıca genel olarak Ehl-sünnet'e atfediyorum. Çağdaş Müslüman yazarların 'Adem'den önce' tartışmalarına dair başka belgelenmiş bir kaynak bulamadım, sadece Al-Manar'da olanlar, bu yüzden doğrulamadığım isimleri eklemiyorum. İbn Abbas'tan Adem'in her biri iki toprak hakkında anlatılanlara gelince, yedi diyarın kaydına bakın, burada değil, ben okumadım. Bağlam için: [[concept/earth-before-adam|Adem'den önce dünyada kim yaşamıştı]], [[question/who-lived-on-earth-before-adam|ilgili soru]]: [[person/ibn-arabi-muhyi-al-din|İbn Arabi]], [[person/rashid-rida|Rashid]] Rida, [[person/muhammad-abduh|Muhammed Abduh]].

@@ -1,109 +1,211 @@
 slug: mansa-musas-caravan
 title:
-  ar: "قافلة مانسا موسى"
-  en: "Mansa Musa's Caravan"
-  ur: "مانسا موسیٰ کا قافلہ"
-  fr: "La caravane de Mansa Moussa"
+  ar: قافلة مانسا موسى
+  en: Mansa Musa's Caravan
+  ur: مانسا موسیٰ کا قافلہ
+  fr: La caravane de Mansa Moussa
+  tr: Mansa Musa Konvoyu
+  id: Konvoi Mansa Musa
 lede:
-  ar: "أغنى رجل في التاريخ يعبر الصحراء إلى مكة — في اثنتي عشرة بطاقة."
-  en: "The richest man in history crossing the desert to Makkah — in twelve cards."
-  ur: "تاریخ کا امیر ترین شخص صحرا پار کر کے مکہ گیا — بارہ کارڈز میں۔"
-  fr: "L’homme le plus riche de l’histoire traverse le désert pour aller à La Mecque : son voyage en douze cartes."
-status: { review: published }
-sources: [source/rihla-ibn-battuta-1958, source/umari-masalik-1924]
-
+  ar: أغنى رجل في التاريخ يعبر الصحراء إلى مكة — في اثنتي عشرة بطاقة.
+  en: The richest man in history crossing the desert to Makkah — in twelve cards.
+  ur: تاریخ کا امیر ترین شخص صحرا پار کر کے مکہ گیا — بارہ کارڈز میں۔
+  fr: 'L’homme le plus riche de l’histoire traverse le désert pour aller à La Mecque : son voyage en douze cartes.'
+  tr: Tarihin en zengin adamı çölü geçip Mekke'ye gider — on iki kartta.
+  id: Orang terkaya dalam sejarah menyeberangi gurun menuju Mekah — dalam dua belas kartu.
+status:
+  review: published
+sources:
+- source/rihla-ibn-battuta-1958
+- source/umari-masalik-1924
 provenance:
-  generated_by: "Devin"
-  model: "Devin (Cognition)"
-  run: "education-E5-story-cards"
-  source: "رحلة ابن بطوطة؛ الكلام على مانسا موسى لابن خالدون؛ العمري — إعادة صياغة."
+  generated_by: Devin
+  model: Devin (Cognition)
+  run: education-E5-story-cards
+  source: رحلة ابن بطوطة؛ الكلام على مانسا موسى لابن خالدون؛ العمري — إعادة صياغة.
   fr:
-    generated_by: "Devin"
-    model: "unknown"
-    run: "devin-a7ba389df57d4bdb9b7515fa59f40242"
-    source: "Existing English text in this activity, with Arabic consulted for religious material."
+    generated_by: Devin
+    model: unknown
+    run: devin-a7ba389df57d4bdb9b7515fa59f40242
+    source: Existing English text in this activity, with Arabic consulted for religious material.
 cards:
-  - title: { ar: "مالي", en: "Mali", ur: "مالی", fr: "Le Mali" }
-    motif: map
-    narration:
-      ar: "إمبراطورية مالي في غرب إفريقيا كانت أغنى ممالك عصرها بالذهب."
-      en: "The Mali empire in West Africa was its age's richest kingdom in gold."
-      ur: "مغربی افریقہ کی سلطنتِ مالی اپنے زمانے کا سنہری ترین ملک تھا۔"
-      fr: "En Afrique de l’Ouest, l’Empire du Mali était le royaume le plus riche en or de son époque."
-  - title: { ar: "مانسا", en: "The mansa", ur: "مانسا", fr: "Le mansa" }
-    motif: star
-    narration:
-      ar: "مانسا موسى حكم مالي من 1312م، وملكها يعني ملك الذهب."
-      en: "Mansa Musa ruled Mali from 1312 — being its king meant owning its gold."
-      ur: "مانسا موسیٰ نے 1312ء سے مالی پر حکومت کی — اس کا بادشاہ ہونا سونے کا مالک ہونا تھا۔"
-      fr: "Mansa Moussa régna sur le Mali à partir de 1312. Être le roi du Mali, c’était posséder son or."
-  - title: { ar: "النيّة", en: "The pilgrimage", ur: "عزمِ حج", fr: "Le pèlerinage" }
-    motif: compass
-    narration:
-      ar: "قرر الحج إلى مكة، فأعد أكبر قافلة عبرت الصحراء."
-      en: "He resolved on the Hajj to Makkah and prepared the largest caravan ever to cross the desert."
-      ur: "اس نے مکہ کی حج کا ارادہ کیا اور صحرا عبور کرنے والا سب سے بڑا قافلہ تیار کیا۔"
-      fr: "Il décida de faire le pèlerinage à La Mecque et prépara la plus grande caravane qui ait jamais traversé le désert."
-  - title: { ar: "العدد", en: "The number", ur: "تعداد", fr: "Combien étaient-ils ?" }
-    motif: caravan
-    narration:
-      ar: "يُروى أن ستين ألفاً خرجوا معه، فيهم جنود وعبيد وقضاة وأدباء."
-      en: "It is told that sixty thousand went with him — soldiers, servants, judges and men of letters."
-      ur: "کہا جاتا ہے کہ ساٹھ ہزار ساتھ تھے — فوجی، نوکر، قاضی اور ادباء۔"
-      fr: "On raconte que soixante mille personnes l’accompagnaient : des soldats, des serviteurs, des juges et des lettrés."
-  - title: { ar: "الذهب", en: "The gold", ur: "سونہ", fr: "L’or" }
-    motif: coin
-    narration:
-      ar: "حمل الرجال والإبل سبائك الذهب؛ قيل إن خمسمائة عبدٍ حملوا عصياً من ذهب."
-      en: "Men and camels bore gold bars; five hundred servants are said to have carried gold staffs."
-      ur: "آدمیوں اور اونٹوں نے سونے کی اینٹیں اٹھائیں؛ کہتے ہیں پانچ سو نوکر سونے کی لاٹھیاں لے کر چلے۔"
-      fr: "Hommes et chameaux portaient des lingots d’or. On dit que cinq cents serviteurs portaient des bâtons d’or."
-  - title: { ar: "تمبكتو", en: "Timbuktu", ur: "تمبکتو", fr: "Tombouctou" }
-    motif: city
-    narration:
-      ar: "من نياني عاصمته إلى تمبكتو — مدينة العلم والتجارة في الصحراء."
-      en: "From his capital Niani to Timbuktu — the desert's city of learning and trade."
-      ur: "اپنے دارالسلطنت نیانی سے تمبکتو تک — صحرا کا شہر علم اور تجارت کا۔"
-      fr: "De Niani, sa capitale, il se rendit à Tombouctou, ville de savoir et de commerce aux portes du désert."
-  - title: { ar: "القيروان", en: "Through the sands", ur: "ریگستان سے", fr: "À travers les sables" }
-    motif: camel
-    narration:
-      ar: "عبر الصحراء الكبرى على طريق القيروان ومصر، شهران في الرمل."
-      en: "He crossed the great desert on the Kairouan-and-Egypt road — two months of sand."
-      ur: "اس نے قیروان اور مصر کے راستے عظیم صحرا عبور کیا — ریت میں دو مہینے۔"
-      fr: "Il traversa le grand désert par la route de Kairouan et de l’Égypte : deux mois au milieu des sables."
-  - title: { ar: "القاهرة", en: "Cairo", ur: "قاہرہ", fr: "Le Caire" }
-    motif: city
-    narration:
-      ar: "في القاهرة أنفق من الذهب حتى قيل إن سعره انخفض في السوق سنيناً."
-      en: "In Cairo he spent so much gold that its price is said to have fallen for years."
-      ur: "قاہرہ میں اس نے اتنا سونہ خرچ کیا کہ کہتے ہیں بازار میں اس کی قیمت برسوں گری۔"
-      fr: "Au Caire, il dépensa tant d’or que son prix aurait baissé pendant des années."
-  - title: { ar: "العطاء", en: "The giving", ur: "عطاء", fr: "La générosité" }
-    motif: coin
-    narration:
-      ar: "أعطى الفقراء والعلماء والمضيفين، وما بخل على أحد."
-      en: "He gave to the poor, the scholars and his hosts, and withheld from none."
-      ur: "اس نے مسکینوں، علماء اور مضبانوں کو دیا اور کسی سے بخل نہ کیا۔"
-      fr: "Il distribua des dons aux personnes pauvres, aux savants et à ceux qui l’hébergeaient, sans oublier personne."
-  - title: { ar: "مكة", en: "Makkah", ur: "مکہ", fr: "La Mecque" }
-    motif: mosque
-    narration:
-      ar: "أدى مناسك الحج في مكة، واشترى مدارس ومكتبات لبلده."
-      en: "He performed the rites of the Hajj in Makkah, and bought schools and libraries for his country."
-      ur: "اس نے مکہ میں مناسکِ حج ادا کیے اور اپنے ملک کے لیے مدارس اور کتابیں خریدیں۔"
-      fr: "Il accomplit les rites du pèlerinage à La Mecque et acheta des écoles et des bibliothèques pour son pays."
-  - title: { ar: "العودة", en: "The return", ur: "واپسی", fr: "Le retour" }
-    motif: caravan
-    narration:
-      ar: "رجع إلى مالي بعلماء ومعماريين، وبنى جامع جنگربير في تمبكتو."
-      en: "He returned to Mali with scholars and architects, and built Timbuktu's Djinguereber mosque."
-      ur: "وہ مالی میں علماء اور معماروں کے ساتھ لوٹا اور تمبکتو میں جنگربیر مسجد بنائی۔"
-      fr: "Il retourna au Mali avec des savants et des architectes, et fit construire la mosquée Djingareyber à Tombouctou."
-  - title: { ar: "الذكر", en: "The memory", ur: "یادگار", fr: "Le souvenir" }
-    motif: star
-    narration:
-      ar: "رسمه الخرائط الأوروبية ملكاً بكرة ذهبية — لا يزال أشهر حكّام إفريقيا."
-      en: "European maps drew him as a king with a golden orb — still Africa's most famous ruler."
-      ur: "یورپی نقشوں نے اسے سونے کے گولے لئے بادشاہ بنایا — افریقہ کا معروف ترین حکمران آج بھی۔"
-      fr: "Sur les cartes européennes, il apparaît en roi portant un globe d’or. Il reste le souverain africain le plus célèbre."
+- title:
+    ar: مالي
+    en: Mali
+    ur: مالی
+    fr: Le Mali
+    tr: O benim
+    id: Itu milikku
+  motif: map
+  narration:
+    ar: إمبراطورية مالي في غرب إفريقيا كانت أغنى ممالك عصرها بالذهب.
+    en: The Mali empire in West Africa was its age's richest kingdom in gold.
+    ur: مغربی افریقہ کی سلطنتِ مالی اپنے زمانے کا سنہری ترین ملک تھا۔
+    fr: En Afrique de l’Ouest, l’Empire du Mali était le royaume le plus riche en or de son époque.
+    tr: Batı Afrika'daki Mali İmparatorluğu, döneminin en zengin altın zengini krallığıydı.
+    id: Kekaisaran Mali di Afrika Barat adalah kerajaan terkaya emas pada masanya.
+- title:
+    ar: مانسا
+    en: The mansa
+    ur: مانسا
+    fr: Le mansa
+    tr: Mansa
+    id: Mansa
+  motif: star
+  narration:
+    ar: مانسا موسى حكم مالي من 1312م، وملكها يعني ملك الذهب.
+    en: Mansa Musa ruled Mali from 1312 — being its king meant owning its gold.
+    ur: مانسا موسیٰ نے 1312ء سے مالی پر حکومت کی — اس کا بادشاہ ہونا سونے کا مالک ہونا تھا۔
+    fr: Mansa Moussa régna sur le Mali à partir de 1312. Être le roi du Mali, c’était posséder son or.
+    tr: Mansa Musa, Mali'yi 1312 yılından itibaren yönetmiştir ve kralı Altın Kralı anlamına gelir.
+    id: Mansa Musa memerintah Mali sejak tahun 1312 M, dan rajanya berarti Raja Emas.
+- title:
+    ar: النيّة
+    en: The pilgrimage
+    ur: عزمِ حج
+    fr: Le pèlerinage
+    tr: Niyet
+    id: Niat
+  motif: compass
+  narration:
+    ar: قرر الحج إلى مكة، فأعد أكبر قافلة عبرت الصحراء.
+    en: He resolved on the Hajj to Makkah and prepared the largest caravan ever to cross the desert.
+    ur: اس نے مکہ کی حج کا ارادہ کیا اور صحرا عبور کرنے والا سب سے بڑا قافلہ تیار کیا۔
+    fr: Il décida de faire le pèlerinage à La Mecque et prépara la plus grande caravane qui ait jamais traversé le désert.
+    tr: Mekke'ye Hac yapmaya karar verdi ve çölü geçmek için en büyük kervanı hazırladı.
+    id: Ia memutuskan untuk melaksanakan Haji ke Mekah dan menyiapkan karavan terbesar untuk menyeberangi gurun.
+- title:
+    ar: العدد
+    en: The number
+    ur: تعداد
+    fr: Combien étaient-ils ?
+    tr: Sorun
+    id: Keturunan
+  motif: caravan
+  narration:
+    ar: يُروى أن ستين ألفاً خرجوا معه، فيهم جنود وعبيد وقضاة وأدباء.
+    en: It is told that sixty thousand went with him — soldiers, servants, judges and men of letters.
+    ur: کہا جاتا ہے کہ ساٹھ ہزار ساتھ تھے — فوجی، نوکر، قاضی اور ادباء۔
+    fr: 'On raconte que soixante mille personnes l’accompagnaient : des soldats, des serviteurs, des juges et des lettrés.'
+    tr: Onunla birlikte askerler, köleler, yargıçlar ve edebi figürlerin de bulunduğu altmış bin kişinin dışarı çıktığı anlatılır.
+    id: Diceritakan bahwa enam puluh ribu orang ikut bersamanya, termasuk tentara, budak, hakim, dan tokoh sastra.
+- title:
+    ar: الذهب
+    en: The gold
+    ur: سونہ
+    fr: L’or
+    tr: Altın
+    id: Emas
+  motif: coin
+  narration:
+    ar: حمل الرجال والإبل سبائك الذهب؛ قيل إن خمسمائة عبدٍ حملوا عصياً من ذهب.
+    en: Men and camels bore gold bars; five hundred servants are said to have carried gold staffs.
+    ur: آدمیوں اور اونٹوں نے سونے کی اینٹیں اٹھائیں؛ کہتے ہیں پانچ سو نوکر سونے کی لاٹھیاں لے کر چلے۔
+    fr: Hommes et chameaux portaient des lingots d’or. On dit que cinq cents serviteurs portaient des bâtons d’or.
+    tr: İnsanlar ve develer altın külçeleri taşırdı; beş yüz kölenin altın çubuklar taşıdığı söylenir.
+    id: Manusia dan unta membawa batangan emas; konon lima ratus budak membawa tongkat emas.
+- title:
+    ar: تمبكتو
+    en: Timbuktu
+    ur: تمبکتو
+    fr: Tombouctou
+    tr: Timbuktu
+    id: Timbuktu
+  motif: city
+  narration:
+    ar: من نياني عاصمته إلى تمبكتو — مدينة العلم والتجارة في الصحراء.
+    en: From his capital Niani to Timbuktu — the desert's city of learning and trade.
+    ur: اپنے دارالسلطنت نیانی سے تمبکتو تک — صحرا کا شہر علم اور تجارت کا۔
+    fr: De Niani, sa capitale, il se rendit à Tombouctou, ville de savoir et de commerce aux portes du désert.
+    tr: Başkenti Niani'den, çöldeki bilim ve ticaret şehri Timbuktu'ya.
+    id: Dari Niani, ibu kotanya, hingga Timbuktu—kota ilmu pengetahuan dan perdagangan di gurun.
+- title:
+    ar: القيروان
+    en: Through the sands
+    ur: ریگستان سے
+    fr: À travers les sables
+    tr: Kairouan
+    id: Kairouan
+  motif: camel
+  narration:
+    ar: عبر الصحراء الكبرى على طريق القيروان ومصر، شهران في الرمل.
+    en: He crossed the great desert on the Kairouan-and-Egypt road — two months of sand.
+    ur: اس نے قیروان اور مصر کے راستے عظیم صحرا عبور کیا — ریت میں دو مہینے۔
+    fr: 'Il traversa le grand désert par la route de Kairouan et de l’Égypte : deux mois au milieu des sables.'
+    tr: Sahra'yı Kairouan ve Mısır rotasında geçmek, kumda iki ay kaldı.
+    id: Menyeberangi Sahara di rute Kairouan dan Mesir, dua bulan di pasir.
+- title:
+    ar: القاهرة
+    en: Cairo
+    ur: قاہرہ
+    fr: Le Caire
+    tr: Kahire
+    id: Kairo
+  motif: city
+  narration:
+    ar: في القاهرة أنفق من الذهب حتى قيل إن سعره انخفض في السوق سنيناً.
+    en: In Cairo he spent so much gold that its price is said to have fallen for years.
+    ur: قاہرہ میں اس نے اتنا سونہ خرچ کیا کہ کہتے ہیں بازار میں اس کی قیمت برسوں گری۔
+    fr: Au Caire, il dépensa tant d’or que son prix aurait baissé pendant des années.
+    tr: Kahire'de altın harcadı, ta ki fiyatının yıllarca piyasada düştüğü söylenene kadar.
+    id: Di Kairo, ia menghabiskan emas hingga dikatakan harga emas telah turun di pasar selama bertahun-tahun.
+- title:
+    ar: العطاء
+    en: The giving
+    ur: عطاء
+    fr: La générosité
+    tr: Verme
+    id: Memberi
+  motif: coin
+  narration:
+    ar: أعطى الفقراء والعلماء والمضيفين، وما بخل على أحد.
+    en: He gave to the poor, the scholars and his hosts, and withheld from none.
+    ur: اس نے مسکینوں، علماء اور مضبانوں کو دیا اور کسی سے بخل نہ کیا۔
+    fr: Il distribua des dons aux personnes pauvres, aux savants et à ceux qui l’hébergeaient, sans oublier personne.
+    tr: Fakirlere, bilginlere ve ordulara verdi ve kimseye saklamadı.
+    id: Dia memberi kepada orang miskin, cendekiawan, dan tuan rumah, dan tidak menahan siapa pun.
+- title:
+    ar: مكة
+    en: Makkah
+    ur: مکہ
+    fr: La Mecque
+    tr: Mekke
+    id: Mekah
+  motif: mosque
+  narration:
+    ar: أدى مناسك الحج في مكة، واشترى مدارس ومكتبات لبلده.
+    en: He performed the rites of the Hajj in Makkah, and bought schools and libraries for his country.
+    ur: اس نے مکہ میں مناسکِ حج ادا کیے اور اپنے ملک کے لیے مدارس اور کتابیں خریدیں۔
+    fr: Il accomplit les rites du pèlerinage à La Mecque et acheta des écoles et des bibliothèques pour son pays.
+    tr: Mekke'de Hac ayinlerini gerçekleştirdi ve şehri için okullar ile kütüphaneler satın aldı.
+    id: Ia melaksanakan ritual Haji di Mekah dan membeli sekolah serta perpustakaan untuk kotanya.
+- title:
+    ar: العودة
+    en: The return
+    ur: واپسی
+    fr: Le retour
+    tr: Dönüş
+    id: Kembali
+  motif: caravan
+  narration:
+    ar: رجع إلى مالي بعلماء ومعماريين، وبنى جامع جنگربير في تمبكتو.
+    en: He returned to Mali with scholars and architects, and built Timbuktu's Djinguereber mosque.
+    ur: وہ مالی میں علماء اور معماروں کے ساتھ لوٹا اور تمبکتو میں جنگربیر مسجد بنائی۔
+    fr: Il retourna au Mali avec des savants et des architectes, et fit construire la mosquée Djingareyber à Tombouctou.
+    tr: Alimler ve mimarlarla birlikte Mali'ye döndü ve Timbuktu'da Djangarbir Camii'ni inşa etti.
+    id: Ia kembali ke Mali bersama para cendekiawan dan arsitek dan membangun Masjid Djangarbir di Timbuktu.
+- title:
+    ar: الذكر
+    en: The memory
+    ur: یادگار
+    fr: Le souvenir
+    tr: Erkek
+    id: Laki-laki
+  motif: star
+  narration:
+    ar: رسمه الخرائط الأوروبية ملكاً بكرة ذهبية — لا يزال أشهر حكّام إفريقيا.
+    en: European maps drew him as a king with a golden orb — still Africa's most famous ruler.
+    ur: یورپی نقشوں نے اسے سونے کے گولے لئے بادشاہ بنایا — افریقہ کا معروف ترین حکمران آج بھی۔
+    fr: Sur les cartes européennes, il apparaît en roi portant un globe d’or. Il reste le souverain africain le plus célèbre.
+    tr: Avrupa haritalarında altın bir topun kralı olarak çizildi — Afrika'nın en ünlü hükümdarı olarak kalmaya devam ediyor.
+    id: Ia digambarkan di peta Eropa sebagai raja bola emas — ia tetap menjadi penguasa Afrika yang paling terkenal.

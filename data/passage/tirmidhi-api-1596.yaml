@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1596"
-label: { ar: "جامع الترمذي 1596 — أثر من الآثار المحفوظة", en: "Jami' al-Tirmidhi 1596 — a relic kept after its owner", ur: "جامع ترمذی 1596 — محفوظ آثار و تبرکات", es: "Jami' al-Tirmidhi 1596 — una reliquia conservada después de su propietario.", fr: "Jami' al-Tirmidhi 1596 — une relique conservée après son propriétaire" }
+label: { ar: "جامع الترمذي 1596 — أثر من الآثار المحفوظة", en: "Jami' al-Tirmidhi 1596 — a relic kept after its owner", ur: "جامع ترمذی 1596 — محفوظ آثار و تبرکات", es: "Jami' al-Tirmidhi 1596 — una reliquia conservada después de su propietario.", fr: "Jami' al-Tirmidhi 1596 — une relique conservée après son propriétaire", tr: "Cami' el-Tirmizi 1596 — Korunmuş bir kutsal emanet", id: "Jami' al-Tirmidhi 1596 — Sebuah peninggalan yang terpelihara" }
 text: "… اللَّيْثُ بْنُ سَعْدٍ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، أَنَّهُ قَالَ جَاءَ عَبْدٌ فَبَايَعَ رَسُولَ اللَّهِ عَلَى الْهِجْرَةِ وَلاَ يَشْعُرُ النَّبِيُّ أَنَّهُ عَبْدٌ فَجَاءَ سَيِّدُهُ فَقَالَ النَّبِيُّ \" بِعْنِيهِ \". فَاشْتَرَاهُ بِعَبْدَيْنِ أَسْوَدَيْنِ وَلَمْ يُبَايِعْ أَحَدًا بَعْدُ حَتَّى يَسْأَلَهُ أَعَبْدٌ هُوَ. قَالَ وَفِي الْبَابِ عَنِ ابْنِ عَبَّاسٍ. قَالَ أَبُو عِيسَى حَدِيثُ جَابِرٍ حَدِيثٌ حَسَنٌ غَرِيبٌ صَحِيحٌ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 1596، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 1596، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe de Jami' al-Tirmidhi, n.º 1596 (El Libro de las Expediciones Militares), menciona una reliquia conservada tras la muerte de su propietario. El Navegador de Testamentos la incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 1596 (Livre des expéditions militaires), mentionne une relique conservée après son propriétaire. Le Navigateur des Testaments la répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "Cami' el-Tirmizi'nin 1596 numaralı hadisinde, günümüze kadar ulaşmış bir rivayetten bahsedilmektedir. Bu hadis, vasiyetnameler, miras, gelenekler ve türbeler konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 1596, menyebutkan sebuah tradisi yang terpelihara. Hadits ini disusun oleh seorang peneliti yang ahli dalam wasiat, warisan, tradisi, dan makam suci, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tabarruk, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1596 (book 21 hadith 58); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

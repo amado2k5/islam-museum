@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "4746"
-label: { ar: "السنن النسائي — حديث 4746", en: "Sunan al-Nasa'i 4746 — The Book of Oaths (qasamah), Retaliation and Blood Money", ur: "سنن النسائی — حدیث 4746", es: "Sunan al-Nasa'i 4746 — El Libro de los Juramentos (qasamah), la Venganza y el Dinero de Sangre", fr: "Sunan al-Nasa'i 4746 — Le Livre des Serments (qasamah), la vengeance et l'argent du sang" }
+label: { ar: "السنن النسائي — حديث 4746", en: "Sunan al-Nasa'i 4746 — The Book of Oaths (qasamah), Retaliation and Blood Money", ur: "سنن النسائی — حدیث 4746", es: "Sunan al-Nasa'i 4746 — El Libro de los Juramentos (qasamah), la Venganza y el Dinero de Sangre", fr: "Sunan al-Nasa'i 4746 — Le Livre des Serments (qasamah), la vengeance et l'argent du sang", tr: "Sünen-i Nesa'i - Hadis 4746", id: "Sunan an-Nasa'i — Hadits 4746" }
 text: "مَا عَهِدَ إِلَىَّ رَسُولُ اللَّهِ صلى الله عليه وسلم عَهْدًا لَمْ يَعْهَدْهُ إِلَى النَّاسِ غَيْرَ أَنَّ فِي قِرَابِ سَيْفِي صَحِيفَةً فَإِذَا فِيهَا ‏ \"‏ الْمُؤْمِنُونَ تَتَكَافَأُ دِمَاؤُهُمْ يَسْعَى بِذِمَّتِهِمْ أَدْنَاهُمْ لاَ يُقْتَلُ مُؤْمِنٌ بِكَافِرٍ وَلاَ ذُو عَهْدٍ فِي عَهْدِهِ ‏\"‏ ‏.‏ مُخْتَصَرٌ ‏.‏"
 summary:
   ar: "في السنن النسائي؛ ذكر كتابة كتاب أو إرساله."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن النسائی میں؛ خط لکھنے یا بھیجنے کا ذکر."
   es: "En Sunan al-Nasa'i; mención de escribir o enviar una carta."
   fr: "Dans Sunan al-Nasa'i; mention de la rédaction ou de l'envoi d'une lettre."
+  tr: "Sunan An-Nasa’i’de onun bir kitap yazdığı veya gönderdiği belirtilmektedir."
+  id: "Dalam Sunan An-Nasa’i, disebutkan bahwa dia menulis sebuah buku atau mengirimkannya."
 relations:
   - { type: part_of, target: passage/nasai-kitab-45 }
   - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }

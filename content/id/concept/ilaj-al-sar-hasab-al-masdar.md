@@ -1,0 +1,19 @@
+---
+id: concept/ilaj-al-sar-hasab-al-masdar
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/ilaj-al-sar-hasab-al-masdar.md}
+---
+
+## serebral
+Jika epilepsi bersifat serebral, lebih baik memuntahkan zatnya bersama zat pengeluaran yang mengalir di dalamnya (nama mereka tidak disebutkan) karena diare setelah diare selama setahun. Jika flebitis diperlukan karena pencampuran apa pun, hal ini tidak boleh diabaikan. Flebitis dapat dibatasi pada tengkuk untuk menarik zat dari otak kecuali karena temperamen dan kelemahan otak yang mencegahnya. Mungkin juga perlu meningkatkan flebitoma dan meringankannya selama seminggu, kemudian meringankannya, kemudian rileks, kemudian istirahat, kemudian meringankan, dan terus mengulang-ulang hingga murni. Digunakan Setelah itu, hanya kepala yang dibersihkan (detail obat dan lokasi tidak diungkapkan); kejang harus diterima dengan perut bersih dan muntah sebelum makan jika memungkinkan. Kemudian suasana hati otak ditandai dengan tonik penghangat, bukan dengan temperamen dan perubahan suasana hati secara bertahap, melainkan secara bertahap. Jika terjadi bahaya dari hal ini, lebih nyaman {cite:canon-ibn-sina-print-v2 p.129}
+
+## Flematik, melankolis, dan empedu
+Jika penyebabnya adalah dahak, cara terbaik untuk mengeluarkannya adalah melalui pengangkatan dahak (tidak menularkan). Jika dahak benar-benar penuh, maka dahak seperti yang dijelaskan bermanfaat bagi mereka. Sedangkan untuk biji hitam, lebih mudah dilakukan daripada dahak hitam (tidak menularkan). Pada epilepsi empedu, pendinginan dan hidrasi harus ditangani, terutama dengan suntikan, dan jika terbakar, dianggap melankolis atau antara empedu dan melankolis {cite:canon-ibn-sina-print-v2 p.129} {cite:canon-ibn-sina-print-v2 p.130}.
+
+## Ibu dari anak laki-laki
+Yang disebut ibu anak laki-laki mungkin bertipe koleris bagi sebagian orang. Oleh karena itu, disarankan untuk mengobatinya dengan abzan, bersin dingin, lembap, dan pelembapan tubuh yang kuat. Jika dia laki-laki, dia memerintahkan ibu menyusui untuk memberinya susu agar mendinginkan dan tinggal di tempat dingin seperti lumbung; ini mirip dengan kaktus atau epilepsi manik. Penggunaan nama ini tidak banyak dikenal di kalangan peneliti medis {cite:canon-ibn-sina-print-v2 p.130}
+
+## Menular dan naik dari satu organ dan seluruh tubuh
+Jika epilepsi menular, maka oleskan apa yang mereka muntahkan dan gunakan ini berulang kali selama Sunnah. Setelah pemurnian, lambung harus diperkuat dan hanya makanan kim yang cepat dicerna dan baik yang harus diberikan, serta upaya harus dilakukan untuk menjaga pencernaan yang baik. Perut harus dibiarkan kosong dalam waktu lama. Apa pun penyebab rasa lapar harus ditangani seperti yang disebutkan dalam sakit kepala dan masalah lainnya. Bagi seseorang yang memiliki bagian anggota tubuh saat tumbuh, mereka harus berbaring di atas anggota tubuh saat kejang, karena dapat mencegah kejang dan menyebabkan kebingungan muntah Orang yang berada di organ dengan eksorssi yang diketahui jika ia mencapainya, atau dengan apa yang ia lukai, buru, dan bakar zat tersebut (alatnya tidak dapat dipindahkan); adapun orang yang naik ke seluruh tubuh, beberapa mengatakan bahwa jika bukan karena bahaya menyumbat arteri hibernasi dan berhentinya jiwa serta stroke berikutnya, akan ada kelegaan total bagi penderita epilepsi yang melibatkan seluruh tubuh. Ibn Sina berkata: Jika hal ini tidak memungkinkan, maka arteri yang naik tidak memiliki bahaya untuk memotongnya, jadi tidak mustahil bahwa amputasi meningkatkan manfaatnya {cite:canon-ibn-sina-print-v2 p.130}

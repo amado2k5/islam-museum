@@ -7,6 +7,8 @@ label:
   es: "Los dos santuarios"
   fr: "Les deux sanctuaires"
   ur: "دو پناہ گاہیں"
+  tr: "İki Kutsal Cami"
+  id: "Dua Masjid Suci"
 summary:
   ar: 'مسار في أقدس بقاع الأرض عند المسلمين: المسجد الحرام والكعبة وزمزم وغار حراء، ثم مسجد النبي وقباء
     وأحد والبقيع.'
@@ -15,6 +17,8 @@ summary:
   es: "Un recorrido por los lugares más sagrados: el Haram, la Kaaba, Zamzam, la cueva de Hira, la Mezquita del Profeta, Quba, Uhud y Baqi."
   fr: "Un itinéraire à travers les lieux les plus sacrés: le Haram, la Kaaba, Zamzam, la grotte de Hira, puis la mosquée du Prophète, Quba, Uhud et Baqi."
   ur: "مقدس ترین زمین سے گزرنے والا راستہ: حرم، کعبہ، زمزم، غار حرا، پھر مسجد نبوی، قبا، احد اور بقیع۔"
+  tr: "Müslümanlar için yeryüzündeki en kutsal yerlerden geçen bir rota: Büyük Cami, Kâbe, Zemzem, Hira Mağarası, ardından Peygamber Camii, Kuba, Uhud ve Bakî."
+  id: "Rute melalui tempat-tempat paling suci di bumi bagi umat Muslim: Masjidil Haram, Ka'bah, Zamzam, Gua Hira, kemudian Masjidil Haram, Quba, Uhud, dan Al-Baqi'."
 audience:
 - newcomer
 - student
@@ -29,12 +33,16 @@ rooms:
     es: "La Mezquita Sagrada"
     fr: "La Mosquée sacrée"
     ur: "مقدس مسجد"
+    tr: "Büyük Camii"
+    id: "Masjid Agung"
   body:
     ar: 'أول بيت وضع للناس: قبلة الصلاة ومحط الحج.'
     en: 'The first house for people: prayer''s qibla, hajj''s destination.'
     es: "La primera casa para la gente: la qibla de la oración, el destino del Hajj."
     fr: "La première maison des hommes: la qibla de la prière, la destination du hajj."
     ur: "لوگوں کا پہلا گھر: نماز کا قبلہ، حج کی منزل۔"
+    tr: "İnsanlar için kurulan ilk ev: dua yönü ve hac yolculuğunun varış noktası."
+    id: "Rumah pertama yang didirikan untuk manusia: arah doa dan tujuan ziarah."
   features:
   - building/masjid-al-haram
   - building/kaaba
@@ -45,12 +53,16 @@ rooms:
     es: "Zamzam"
     fr: "Zamzam"
     ur: "زمزم"
+    tr: "Zemzem"
+    id: "Zamzam"
   body:
     ar: 'بئر هاجر وإسماعيل: ماء مبارك منذ أربعة آلاف سنة.'
     en: 'Hagar and Ishmael''s well: blessed water for four millennia.'
     es: "El pozo de Agar e Ismael: agua bendita durante cuatro milenios."
     fr: "Le puits d'Agar et d'Ismaël: une eau bénite depuis quatre millénaires."
     ur: "ہاجرہ اور اسماعیل کا کنواں: چار ہزار سال تک مبارک پانی۔"
+    tr: "Hacer ve İsmail kuyusu: Dört bin yıldır kutsanmış su."
+    id: "Sumur Hagar dan Ismael: air yang diberkati selama empat ribu tahun."
   features:
   - place/bir-zamzam
   - person/ismail
@@ -60,12 +72,16 @@ rooms:
     es: "La cueva de Hira"
     fr: "La grotte d'Hira"
     ur: "حرا کا غار"
+    tr: "Hira Mağarası"
+    id: "Gua Hira"
   body:
     ar: 'هنا نزل الوحي: اقرأ باسم ربك.'
     en: 'Here revelation descended: ''Read in your Lord''s name''.'
     es: "Aquí descendió la revelación: «Lee en el nombre de tu Señor»."
     fr: "La révélation descendit alors: « Lis au nom de ton Seigneur »."
     ur: "یہاں وحی نازل ہوئی: 'پڑھ اپنے رب کے نام سے'۔"
+    tr: "İşte vahiy şöyle geldi: Rabbinin adıyla oku."
+    id: "Inilah wahyu yang diturunkan: Bacalah dengan nama Tuhanmu."
   features:
   - place/ghar-hira
   - question/how-did-revelation-begin
@@ -75,12 +91,16 @@ rooms:
     es: "La Mezquita del Profeta"
     fr: "La mosquée du Prophète"
     ur: "مسجد نبوی"
+    tr: "Peygamber Camii"
+    id: "Masjid Nabi"
   body:
     ar: هاجر إليها فأسس مسجده ودولته ودفن في حجرته.
     en: He migrated to it, founded his mosque and state, and lies in its chamber.
     es: "Emigró a ella, fundó su mezquita y su estado, y yace en su cámara."
     fr: "Il y a émigré, y a fondé sa mosquée et son État, et repose dans sa chambre funéraire."
     ur: "اس نے اس کی طرف ہجرت کی، اپنی مسجد اور ریاست کی بنیاد رکھی اور اس کے حجرے میں پڑا۔"
+    tr: "Oraya göç etti, camisini ve devletini kurdu ve odasına defnedildi."
+    id: "Dia berhijrah ke sana, mendirikan masjid dan negaranya, dan dimakamkan di kamarnya."
   features:
   - building/prophets-mosque
   - place/medina
@@ -91,12 +111,16 @@ rooms:
     es: "Quba y Uhud"
     fr: "Quba et Uhud"
     ur: "قبا اور احد"
+    tr: "Kuba ve Uhud"
+    id: "Quba dan Uhud"
   body:
     ar: أول مسجد في الإسلام وجبل يحبنا ونحبه.
     en: Islam's first mosque and the mountain that loves us.
     es: "La primera mezquita del Islam y la montaña que nos ama."
     fr: "La première mosquée de l'Islam et la montagne qui nous aime."
     ur: "اسلام کی پہلی مسجد اور پہاڑ جو ہم سے پیار کرتا ہے۔"
+    tr: "İslam'ın ilk camisi ve bizi seven, bizim de sevdiğimiz bir dağ."
+    id: "Masjid pertama dalam Islam dan sebuah gunung yang mencintai kita dan kita mencintainya."
   features:
   - building/masjid-quba
   - place/uhud
@@ -107,12 +131,16 @@ rooms:
     es: "Al-Baqi"
     fr: "Al-Baqi"
     ur: "البقیع"
+    tr: "El-Baki'"
+    id: "Al-Baqi'"
   body:
     ar: 'مقبرة المدينة: قبور الأزواج والبنات وعثمان والأصحاب.'
     en: 'Medina''s cemetery: the wives, daughters, Uthman and companions.'
     es: "El cementerio de Medina: las esposas, las hijas, Uthman y sus compañeros."
     fr: "Cimetière de Médine: les épouses, les filles, Uthman et ses compagnons."
     ur: "مدینہ کا قبرستان: بیویاں، بیٹیاں، عثمان اور صحابہ۔"
+    tr: "Şehir mezarlığı: kocaların, kızların, Osman'ın ve arkadaşlarının mezarları."
+    id: "Pemakaman kota: makam para suami, anak perempuan, Uthman, dan para sahabat."
   features:
   - place/baqi-al-gharqad
 prerequisites:

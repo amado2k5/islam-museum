@@ -1,60 +1,121 @@
 dir: ltr
 name: İslam Müzesi
-tagline: İslam'ın bütün hikâyesi için bir müze
-lang_name: Türkçe
+tagline: İslam'ın tüm hikayesi için bir müze
+lang_name: Arapça
 switch_to: العربية
 nav:
-  wings_menu: Kanatlar
+  wings_menu: Süitler
   explore_menu: Keşfet
-  more: Daha fazla
-  timeline: En eski kayıtlar
-  foundation: Temel
-  home: Ana sayfa
+  more: Daha Fazla
+  timeline: En eski malzemeler
+  foundation: Vakıf
+  home: Ana Sayfa
   time: Zaman
-  place: Mekân
+  place: Konum
   people: İnsanlar
   ideas: Fikirler
-  objects: Nesneler
-  words: Sözler
-  living: Yaşayan
-  today: Bugün
+  objects: Etkiler
+  words: Kelime
+  living: Hayatı
+  today: Günümüz
   future: Gelecek
-  made: Yapılmış
+  made: Yapıldı
   questions: Sorular
   exhibits: Sergiler
-  wander: Gezinti
+  wander: dolaşmak
   search: Ara
-  coverage: Kapsam
+  coverage: Kapsama alanı
   references: Kaynaklar
-  screen: Gösterim Salonu
-  themes: Temalar
+  screen: Sergi Salonu
+  themes: Baltalar
   map: Harita
-  learn: Tur / Öğren
-  donate: Bağış
-  gift_shop: Hediyelik dükkân
-  art: Mimarlık ve Sanat
-  browse: Türlere göz at
+  learn: Tur ve Öğren
+  donate: Bağış Yapın
+  gift_shop: hediyelik eşya dükkanı
+  art: Sanat ve Mimarlık
+  browse: Türleri Gözat
 a11y:
   skip: İçeriğe atla
-  menu_open: Menü
-  theme_light: Açık temaya geç
-  theme: Koyu modu aç/kapat
-  menu: Ana gezinme
+  menu_open: Liste
+  theme_light: Işık moduna geç
+  theme: Karanlık moda geçiş
+  menu: Ana Navigasyon
   prefs: Erişilebilirlik
-  prefs_text: Yazı boyutu
-  prefs_smaller: Daha küçük yazı
-  prefs_larger: Daha büyük yazı
+  prefs_text: Metin boyutu
+  prefs_smaller: Metni küçültme
+  prefs_larger: Metin boyutunu artır
   prefs_leading: Daha geniş satır aralığı
   prefs_contrast: Daha yüksek kontrast
-  prefs_motion: Hareketi azalt
+  prefs_motion: Azaltılmış Hareket
   prefs_links: Tüm bağlantıların altını çiz
-  prefs_note: 'Yalnızca bu cihazda saklanır — hiçbir yere gönderilmez.'
+  prefs_note: Sadece bu cihazda kalın; hiçbir şey hiçbir yere gönderilmez.
 landing:
-  eyebrow: Dijital bir müze · herkese açık
-  title_pre: İslam'ın
-  title_strong: bütün hikâyesi
-  title_post: için bir müze.
-  lede: Doğduğu dünyadan, on dört asırlık iman, ilim, sanat, şehirler, yolculuklar ve halklar boyunca bugüne kadar. Her insan, mekân, olay,
-    fikir, nesne ve uygulama, zaman ve mekânda etrafındaki her şeyle bağlantılı; her geçmişten meraklılar için.
-  meta_description: 'İslam Müzesi: İslam tarihinin açık dijital müzesi — on dört asır, her insan, mekân, olay ve fikir zaman ve mekânda birbirine bağlı.'
-  soon: İlk galeriler hazırlanıyor. Yakında açılıyor.
+  eyebrow: Dijital Müze · Herkese açık
+  title_pre: Müze
+  title_strong: İslam'ın hikayesi
+  title_post: Tamamlandı.
+  lede: Doğduğu dünyadan, on dört yüzyıllık inanç, bilim, sanat, şehirler, yolculuklar ve halklar boyunca, günümüze kadar. Her kişi, yer, olay, fikir, etki ve uygulama, her zaman ve mekânda çevresindeki
+    her şeyle bağlantılıdır; her meraklı kişi için her kesimden gelmektedir.
+  meta_description: 'İslam Müzesi: İslam''ın on dört yüzyıl boyunca tarihini ve medeniyetini konu alan açık hava dijital müzesi—her kişi, yer, olay ve fikir, çevresindeki her şeyle zaman ve mekânda bağlantılı.'
+  soon: Müze açıktır ve her yeni malzeme partisiyle genişlemektedir.
+  coverage: 'Tamamlananlar ve rakamlarla neler bekliyor: Kapsam sayfası'
+  today_is: Günümüz
+  wings: Dokuz kanat
+  start: Peygamberin göçüyle başlayın
+  start_hint: İlk ziyaret
+  how: Nasıl inşa edilir
+  entrances: Beş giriş
+  learn_title: Tur ve Öğrenme, İnşaat Aşamasında
+  learn_text: Müzenin büyük veya kafa karıştırıcı görünmemesi için seçtiğiniz hedefe doğru adım adım rehberli yollar. Beş yoldan biriyle başlayın ya da tüm {learnPaths} yollarını inceleyin.
+  learn_cta: Daha fazla bilgi edinin
+  tour_title: Tur ve Öğren
+  tour_lede: Müze büyük. Bu beş yoldan biriyle başlayın ya da tüm {learnPaths} yollarını inceleyin. Her yolun net bir hedefi ve düzenli adımları vardır.
+  plan_note: '{learnPaths} Yol — ilerlemenizi yalnızca tarayıcınızda, hesap olmadan kaydeder.'
+  all_paths: Tüm parçalar
+  wings_title: Kanatlarda dolaşın
+  wings_lede: Dokuz kanat, her kanat bir dünyaya açılan kapı.
+  explore_title: Keşfet
+  explore_lede: İçerikte gezinmenin etkileşimli yolları — yukarıda listelenen yollar dışında.
+  try: Deneyin
+  in_progress: Hazırlık aşamasında
+  widget_title: Hicri tarihinizi keşfedin
+  widget_lede: Bir Gregoryen tarihi girin, size Hicri takviminde ona ne karşılık geldiğini ve o gün neler olduğunu anlatacağız.
+  calc: Hesaplıyorum
+  date_label: Gregoryen tarih
+  corresponds: Kabul eder
+  widget_none: Müzede henüz günümüze tarihlendirilmiş bir materyal bulunmamaktadır.
+  widget_fail: Bu tarayıcıda hesap alınamadı.
+  widget_or: 'Ya da hikayedeki en ünlü yolculukla başlayın:'
+  stats: '{items} Materyal · {pages} Kayıt sayfası, her ders için sayfa Arapça, İngilizce ve Urduca · {pathways} Yol'
+  honest: Boşlukları gösteriyoruz ve gizlemeyiz
+  honest_link: Yayını izleyin
+  give_title: Bağış yapın ve bize destek olun
+  shop_title: islam.museum hediyelik eşya dükkanı
+  shop_cta: Mağazayı gezin
+  shop_prev: Önceki
+  shop_next: Sonraki
+  shop_region: Hediyelik Eşya Mağazası Kategorileri
+  art_title: Sanat sergisinden
+  art_cta: Daha fazla mimari ve sanat gör
+  featured: Seçimler · Her ziyarette değişen
+  last_updated: 'Son güncelleme: {date} GMT'
+reader:
+  translation_credit_quranenc: 'Çeviri: {tr}. Web sitesinde yayımlanmıştır QuranEnc.com sürüm {v}; sitenin şartlarına göre değişiklik yapılmadan çoğaltılmıştır ve kamu malı değildir.'
+  title: Kur'an
+  lede: Sürekli okunma için Kur'an'ın tam metni, Sure'den Sureye — Donmuş Vahiy metninden ve her ayet müzedeki kartına bir bölüm olarak sunulur.
+  index_note: Kur'an sureleri Kur'an sırasına göre düzenlenmiştir; bir sureyi tamamını okumak için tıklayın, içindeki herhangi bir ayete tıklayarak kartını bağlamı ve bağlantılarıyla birlikte açın.
+  sura_n: 'Sure: {n}'
+  read_title: '{isim} suresi — Okuma'
+  read_lede: Osmanlı Vahiy metnine göre tam {isim}, {n} ayeti okuyun; her ayet müzede kendi etiketine götürür.
+  open_ayah: Müzede Kıta kartı {ref}
+  map_link: Surenin Tematik Haritası
+  revelation_link: Kur'an, vahiy sırasına göre
+  named_in: Bahsedilenlere göre
+  sura_nav: Duvarlar arasında hareket etmek
+  credit: 'İndirme projesinden Kur''an metni v1.1 (Osmanlı yazısı), kelimesi kelimesine transkribe edilip müze verilerinde donduruldu; Kaynak:'
+  credit_source: Kaynak kart
+  translation_title: Dizelerin çevirisi
+  translation_credit: 'Çeviri: {tr}; Tanzil projesi tarafından dağıtılan kamu malı.'
+  juz_nav: Kur'an'ın Otuz Bölümü
+  juz_n: Parça {n}
+  juz_starts: Parça {n}

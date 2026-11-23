@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-fights-abu-ziyad-and-sasaa-at-al-ghayl-in-al-bawn-288
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/al-hadi-fights-abu-ziyad-and-sasaa-at-al-ghayl-in-al-bawn-288.md}
+---
+## Ringkasan
+Cerita dimulai pada hlm. 224, setelah gambar yang dihapus di halaman 223, dengan bait-bait lainnya menyebutkan Dhu al-Fiqar dan sikap kakek Ali, tanpa menyebutkan penulis apapun dalam teks tertulis, juga tidak termasuk dalam museum {cite:sira-hadi-ila-al-haqq p.224}. Kemudian narator berkata: Abu Ziyad dan Sa'sa'a dikalahkan bersama mereka sampai mereka tiba di sebuah desa bernama Balbun bernama Al-Ghayl, yang merupakan benteng benteng, tempat kemah mereka {cite:sira-hadi-ila-al-haqq p.224} [[person/al-hadi-yahya-al-rassi|). Al-Hadi mengikuti mereka]] dan bertarung sengit bersama [[place/al-ghayl-al-bawn-yemen|Al-Ghayl di Al-Bun]] hingga malam tiba, kemudian ia berbalik ke [[place/raydah-yemen|Raydah]] Aman dan menang; tidak ada satu pun rekannya yang tewas {cite:sira-hadi-ila-al-haqq p.224}. Ketika dia berada di suatu rute, dia bertemu dengan rekan-rekannya yang telah melarikan diri dan meninggalkannya. Kemudian dia mundur dan menginap di Raydah. Ketika pagi tiba, dia memerintahkan agar kepala mereka yang terbunuh dipenggal, lalu diperintahkan dibawa ke Sa'dah dan Najran {cite:sira-hadi-ila-al-haqq p.224}.
+
+## Detail
+Ghil-ghil di sini berada di Al-Bun, bukan [[place/al-ghayl-saada|di dekat Sa'dah]], tempat para ulama hadis dipenjara pada tahun 286 H; namanya sesuai dan tidak dikonfirmasi sebaliknya. Pembacaan versi lain, 'Al-Ghayl,' dan pemindaiannya juga dibaca [[event/battle-of-raydah-288|. Laporan Pertempuran Raydah]] disebutkan dalam halaman tambahan bahwa al-Hadi mengalahkan Sa'sa'ah dan rakyat Qadam pada akhir Jumada al-Akhirah. Laporan ghil tidak menyebut Raydah sebagai tempat pertempuran, dan museum juga tidak menyelaraskan kedua laporan tersebut. Deskripsi tentang yang kalah dan jumlah korban tewas berasal dari kata-kata narator. Pembawaan kepala disebutkan secara singkat sebagai dilaporkan, tanpa deskripsi atau penilaian. Laporan ini didahului oleh [[event/al-hadi-leaves-shibam-fights-on-the-road-and-goes-by-najr-and-al-bawn-to-raydah-and-bayt-dhud-288]].

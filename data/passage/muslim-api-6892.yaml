@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "6892"
-label: { ar: "صحيح مسلم 6892 — الأب والأبوة", en: "Sahih Muslim 6892 — the father and fatherhood", ur: "صحیح مسلم 6892 — باپ اور والدیت", es: "Sahih Muslim 6892 — El padre y la paternidad", fr: "Sahih Muslim 6892 — Le père et la paternité" }
+label: { ar: "صحيح مسلم 6892 — الأب والأبوة", en: "Sahih Muslim 6892 — the father and fatherhood", ur: "صحیح مسلم 6892 — باپ اور والدیت", es: "Sahih Muslim 6892 — El padre y la paternidad", fr: "Sahih Muslim 6892 — Le père et la paternité", tr: "Sahih Muslim 6892 — Baba ve Babalık", id: "Sahih Muslim 6892 — Ayah dan Peran Ayah" }
 text: "… إِسْحَاقُ بْنُ مُوسَى الأَنْصَارِيُّ، حَدَّثَنَا أَنَسُ بْنُ عِيَاضٍ، حَدَّثَنَا عُبَيْدُ اللَّهِ، حَدَّثَنِي سَعِيدُ بْنُ أَبِي سَعِيدٍ الْمَقْبُرِيُّ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" إِذَا أَوَى أَحَدُكُمْ إِلَى فِرَاشِهِ فَلْيَأْخُذْ دَاخِلَةَ إِزَارِهِ فَلْيَنْفُضْ بِهَا فِرَاشَهُ وَلْيُسَمِّ اللَّهَ فَإِنَّهُ لاَ يَعْلَمُ مَا خَلَفَهُ بَعْدَهُ عَلَى فِرَاشِهِ فَإِذَا أَرَادَ أَنْ يَضْطَجِعَ فَلْيَضْطَجِعْ عَلَى شِقِّهِ …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 6892، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 6892، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 6892 (El Libro sobre el Recuerdo de Alá, la Súplica, el Arrepentimiento y la Búsqueda del Perdón), menciona al padre y la paternidad. El Navegador sobre la Paternidad en el Islam lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Sahih Muslim, n° 6892 (Livre relatif à l'invocation d'Allah, à la supplication, au repentir et à la demande de pardon), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les versets du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih Müslim'de 6892 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 6892, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6892 (book 48 hadith 85); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

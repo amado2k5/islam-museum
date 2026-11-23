@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "4808"
-label: { ar: "السنن النسائي — حديث 4808", en: "Sunan al-Nasa'i 4808 — The Book of Oaths (qasamah), Retaliation and Blood Money", ur: "سنن النسائی — حدیث 4808", es: "Sunan al-Nasa'i 4808 — El Libro de los Juramentos (qasamah), la Venganza y el Dinero de Sangre", fr: "Sunan al-Nasa'i 4808 — Le Livre des Serments (qasamah), la vengeance et l'argent du sang" }
+label: { ar: "السنن النسائي — حديث 4808", en: "Sunan al-Nasa'i 4808 — The Book of Oaths (qasamah), Retaliation and Blood Money", ur: "سنن النسائی — حدیث 4808", es: "Sunan al-Nasa'i 4808 — El Libro de los Juramentos (qasamah), la Venganza y el Dinero de Sangre", fr: "Sunan al-Nasa'i 4808 — Le Livre des Serments (qasamah), la vengeance et l'argent du sang", tr: "Sünen-i Nesa'i - Hadis 4808", id: "Sunan an-Nasa'i — Hadits 4808" }
 text: "قَضَى رَسُولُ اللَّهِ صلى الله عليه وسلم فِي الْمُكَاتَبِ يُقْتَلُ بِدِيَةِ الْحُرِّ عَلَى قَدْرِ مَا أَدَّى ‏.‏"
 summary:
   ar: "في السنن النسائي؛ ذكر المكاتبات أو المراسلات."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن النسائی میں؛ مکاتبات کا ذکر."
   es: "En Sunan al-Nasa'i; mención de correspondencia."
   fr: "Dans Sunan al-Nasa'i; mention de correspondance."
+  tr: "Sunan al-Nisa’i’de yazışmalardan veya mektuplardan bahsedilmektedir."
+  id: "Dalam Sunan al-Nisa’i, terdapat penyebutan tentang korespondensi atau surat-surat."
 relations:
   - { type: part_of, target: passage/nasai-kitab-45 }
   - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }

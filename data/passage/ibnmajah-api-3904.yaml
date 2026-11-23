@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "3904"
-label: { ar: "سنن ابن ماجه 3904 — الأب والأبوة", en: "Sunan Ibn Majah 3904 — the father and fatherhood", ur: "سنن ابن ماجہ 3904 — باپ اور والدیت", es: "Sunan Ibn Majah 3904 — El padre y la paternidad", fr: "Sunan Ibn Majah 3904 — Le père et la paternité" }
+label: { ar: "سنن ابن ماجه 3904 — الأب والأبوة", en: "Sunan Ibn Majah 3904 — the father and fatherhood", ur: "سنن ابن ماجہ 3904 — باپ اور والدیت", es: "Sunan Ibn Majah 3904 — El padre y la paternidad", fr: "Sunan Ibn Majah 3904 — Le père et la paternité", tr: "Sunan İbn Majah 3904 — Baba ve Babalık", id: "Sunan Ibn Majah 3904 — Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى، حَدَّثَنَا سُلَيْمَانُ بْنُ عَبْدِ الرَّحْمَنِ الدِّمَشْقِيُّ، حَدَّثَنَا سَعْدَانُ بْنُ يَحْيَى بْنِ صَالِحٍ اللَّخْمِيُّ، حَدَّثَنَا صَدَقَةُ بْنُ أَبِي عِمْرَانَ، عَنْ عَوْنِ بْنِ أَبِي جُحَيْفَةَ، عَنْ أَبِيهِ، عَنْ رَسُولِ اللَّهِ ـ قَالَ \" مَنْ رَآنِي فِي الْمَنَامِ فَكَأَنَّمَا رَآنِي فِي الْيَقَظَةِ إِنَّ الشَّيْطَانَ لاَ يَسْتَطِيعُ أَنْ يَتَمَثَّلَ بِي \"."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 3904، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابن ماجہ کی حدیث نمبر 3904، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Ibn Majah, n.° 3904 (Interpretación de los sueños), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sunan Ibn Majah, n° 3904 (Interprétation des rêves), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "İbn Majah'ın Sünen'inde yer alan 3904 numaralı hadiste baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Sunan Ibn Majah, no. 3904, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3904 (book 35 hadith 12); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

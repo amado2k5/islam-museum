@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1761"
-label: { ar: "جامع الترمذي 1761 — الأب والأبوة", en: "Jami' al-Tirmidhi 1761 — the father and fatherhood", ur: "جامع ترمذی 1761 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1761 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 1761 — le père et la paternité" }
+label: { ar: "جامع الترمذي 1761 — الأب والأبوة", en: "Jami' al-Tirmidhi 1761 — the father and fatherhood", ur: "جامع ترمذی 1761 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1761 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 1761 — le père et la paternité", tr: "Cami' el-Tirmizi 1761 — Baba ve Babalık", id: "Jami' al-Tirmidhi 1761 — Sang Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا عَلِيُّ بْنُ حُجْرٍ، أَخْبَرَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ إِنَّمَا كَانَ فِرَاشُ النَّبِيِّ الَّذِي يَنَامُ عَلَيْهِ أَدَمٌ حَشْوُهُ لِيفٌ. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ. قَالَ وَفِي الْبَابِ عَنْ حَفْصَةَ وَجَابِرٍ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 1761، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 1761، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 1761 (El Libro de la Vestimenta), menciona al padre y la paternidad. El Navegador de la Paternidad en el Islam lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 1761 (Livre sur le vêtement), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Cami' el-Tirmizi'nin 1761 numaralı hadisinde baba ve babalık kavramından bahsedilir. İslam'da babalık üzerine araştırma yapanlar, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birleştirirler."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 1761, menyebutkan tentang ayah dan peran ayah. Peneliti tentang peran ayah dalam Islam menggabungkannya dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1761 (book 24 hadith 44); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

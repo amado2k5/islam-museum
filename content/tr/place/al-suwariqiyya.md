@@ -1,0 +1,12 @@
+---
+id: place/al-suwariqiyya
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/place/al-suwariqiyya.md}
+---
+## Özet
+El-Süvarkıya, [[person/al-hadi-yahya-al-rassi|el-Hadi]] ve yoldaşlarının Yemen'e giderken ulaştığı bir köydür ve Turbah ile Bişa'ya giden bir rota seçmeye kararlıydılar, ancak umdukları yol zorlaştı ve geri döndüler {cite:sira-hadi-ila-al-haqq p.38} {cite:sira-hadi-ila-al-haqq p.39}. Kenar notlarında 'Sifat al-Cazira' ve 'Mu'jam al-Buldan' {cite:sira-hadi-ila-al-haqq p.38} ifadeleri bulunmaktadır. Metin konumu daha fazla belirtilmediğinden, koordinat verilmemiştir. Bkz. [[event/al-hadi-road-to-saada-well-and-zubayd]].
+
+## Yaqut'un ülkeler sözlüğünde
+Yaqut, bu ismi nisbe (nisbe) kelimesindeki 'r' ve 'ya' harflerinden sonra 'kaf' ile anmış ve ayrıca 'al-Suwayriqiyah' olarak da adlandırıldığını, küçültülmüş bir biçimle olduğunu ve Mekke ile Medine arasında yer alan Ebu Bekir köyü olduğunu, Banu Süleyme ait bir Necdi lehçesi olduğunu belirtmiştir. {cite:mujam-al-buldan-sader-1995 3 p.276} Bir haberde, Peygamber'e isminin sorulduğunda adının Mu'aysim olduğunu, sadece az miktarda palmiye ağacı ve ürünün zarar görebileceğini söylemiştir. {cite:mujam-al-buldan-sader-1995 3 p.276} Bir haber, Peygamber'e isminin sorulduğunda adının Mu'aysim olduğunu ve sadece az miktarda palmiye ağacı ve ürünün zarar görebileceğini söylemiştir. () Bir haber, Peygamber'e isminin sorulduğunu ve bunun sadece az miktarda palmiye ağacı ve ürünün zarar görebileceğini söylemiştir. () 'Aram'dan bildirildiğine göre, burası çok sayıda yerli, bir vaaz kürsüsü, bir cami ve özellikle Banu Sulaym'dan tüccarların sıkça ziyaret ettiği bir pazarın bulunduğu büyük ve refah içinde bir köydür. Sularında biraz tuzluluk vardır, bu yüzden Wadi Suwariq ve Wadi al-Abtan'daki kuyulardan su içirler. Muz, incir, üzüm, nar, ayva, şeftali, deve, at ve koyun yetiştiren çiftlikleri ve palmiye bahçeleri vardır. Hac'a ve Dhuraiyah'a kadar Hicaz ve Necd yollarından geçerler. {cite:mujam-al-buldan-sader-1995 3 p.276} Ona atfedilenler arasında, soylu bir hukukçu ve şair olan Ebu Bekir Muhammed bin Atiq ibn Necm-el-Süvarqi el-Bekri de vardır; kendisi Horasan'a seyahat etmiş ve 538 Hicri yılında Tus'ta ölmüştür. Ebu Sad'in bazı şiirlerini ondan anlatmıştır. {cite:mujam-al-buldan-sader-1995 3 p.276}

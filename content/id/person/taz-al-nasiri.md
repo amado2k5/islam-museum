@@ -1,0 +1,23 @@
+---
+id: person/taz-al-nasiri
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/taz-al-nasiri.md}
+---
+## Ringkasan
+Sayf al-Din Taz al-Nasiri Mamluk [[person/al-nasir-muhammad-ibn-qalawun|al-Nasiri Muhammad ibn Qalawun]] naik menjadi salah satu administrator Mesir pada tahun 1950-an, lalu menjadi deputi di Aleppo, dan akhirnya buta serta diasingkan. {cite:nujum-zahira 11/15} Ibn Hajar menggambarkannya sebagai pangeran terkenal, pahlawan pemberani, yang mencintai dan menghormati para ulama, sangat baik, dan berbalik pada kebenaran. {cite:durar-kamina-jil-1993 2/214}
+
+## Kenaikannya
+Ibn Hajar mengatakan bahwa Taz masih muda pada masa al-Nasir Muhammad dan tumbuh bersama al-Nasir Ahmad di Karak. Pada masa pemerintahan al-Muzaffar Haji, ia adalah salah satu dari enam orang yang memerintah kerajaan, dan prestisenya meningkat selama [[person/al-nasir-hasan|pemerintahan al-Nasir Hasan]]. {cite:durar-kamina-jil-1993 2/214} Ibn Taghri Bardi menghitungnya sebagai salah satu dari sembilan penasihat pada tahun 748. {cite:nujum-zahira 10/188} Pada masa ini, istrinya, putri al-Nasir Muhammad, meninggal dunia. {cite:nujum-zahira 10/247}
+
+## Haji tahun 751
+Taz berangkat bersama Pangeran Bazlar dalam karavan ziarah tahun itu. {cite:nujum-zahira 10/218} Pada tanggal sepuluh Dhu al-Hijjah di Mina, terjadi bentrokan antara kafilah Mesir dan para pejuang bersenjata Sultan Yaman, Sultan Apostolik Yaman. Ia datang ke Mekah bersama kelompok besar, mengira ia menginginkan Mekah. {cite:nujum-zahira 10/226-227} Ibn Taghribirdi mengatakan pertempuran berlanjut setelah sore hari dan kamp Yaman pun bubar. {cite:nujum-zahira 10/227} Ibn Hajar merangkum bahwa Taz menangkap seorang bibagha Rusia di jalan Hijaz, bersama mujahid, penguasa Mekah, dan pemilik Madinah, dan membawa mereka semua ke Kairo. {cite:durar-kamina-jil-1993 2/214} Di Kairo, ia berdiri di benteng untuk memohon bantuan mujahid. {cite:nujum-zahira 10/229}
+
+## Beranda dan Listrik
+Pada Rabi' al-Awwal 753, Taz mulai membangun istana di Kairo, menyelesaikannya pada 754, dan mengadakan pesta untuk sultan dan para pangeran. Ibn Taghribirdi mengatakan bahwa tidak ada sultan yang tinggal di rumah seorang emir sejak al-Nasir Muhammad. {cite:nujum-zahira 10/265} {cite:nujum-zahira 10/285} Ensiklopedia Islam mencatat [[person/shaykhu-al-umari|trilogi dengan Shaykhu]] dan [[person/sarghitmish|Sarghtamish]] yang menang setelah Hassan digulingkan pada 752, dan dikatakan ia menuduh Sarghtamish dalam Rabi' al-Awwal 753 berusaha mengembalikan Hasan. {cite:encyclopaedia-of-islam-2 vol. 8 p. 1058} Ibn Taghribirdi menggambarkan bagaimana saudara dan pengikut Taz menyerang Sarghtamish dan Taz saat tidak berburu, tetapi mereka dikalahkan ketika Shaykho mempersenjatai sekitar tujuh ratus Mamluknya. {cite:nujum-zahira 10/286} Artikel lain dalam Ensiklopedia Islam menyatakan bahwa Taza dan Mankili menekan Hasan untuk mengalah, dan mereka mendirikan al-Salih. {cite:encyclopaedia-of-islam-2 vol. 3 p. 259}
+
+## Aleppo, kebutaan, dan pembebasan
+Ketika Hasan diangkat kembali pada 2 Shawwal 755, ia segera memerintahkan penangkapan Taz. Sheikh-nya memohon bantuan Taz, dan Taz melakukan perjalanan dari Kairo pada 6 Shawwal sebagai wakil gubernur Aleppo dan tiba di sana pada 5 Dhu al-Qi'dah. {cite:nujum-zahira 10/302} Pada awal 758, Hasan menangkapnya atas sinyal Serghtamish, mengikatnya, dan mengirimnya ke Alexandria. {cite:nujum-zahira 10/307} Ibn Hajar menceritakan kisah yang lebih lengkap: Dikatakan ia berniat memberontak, sehingga beberapa pangeran Aleppo memberontak melawannya, dan ia berusaha pergi ke Mesir, tetapi ia hanya setuju dengan syaratnya. Kemudian, sehari setelah Damaskus, saudara wakil Ali al-Mardini mengejarnya, menangkapnya, memerintahkan matanya dibutakan, dan ditangkap di Karak dan kemudian di Alexandria. {cite:durar-kamina-jil-1993 2/214}
+
+Setelah kematian Hasan, Yalbugha dibebaskan. Ia muncul di hadapan sultan baru dengan senyum di matanya, menanggalkan pakaiannya, dan memintanya tinggal di Yerusalem, yang dijawab. Saudara-saudaranya, Jantamer dan Qaltay, yang telah dibebaskan Hasan, juga hadir bersamanya. {cite:nujum-zahira 11/4} Ibn Taghribirdi mengatakan ia meninggal di Yerusalem pada tahun 763 H dan dianggap sebagai salah satu yang berani. {cite:nujum-zahira 11/15} Adapun Ibn Hajar, ia mengatakan ia dipindahkan ke Damaskus pada akhir tahun 762, diberi komando Tarkhana, dan meninggal pada tanggal 20 Dhu al-Hijjah 763. {cite:durar-kamina-jil-1993 2/214}

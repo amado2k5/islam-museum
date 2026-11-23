@@ -1,46 +1,164 @@
 surah: 38
 slug: sad
 sources_consulted:
-  - "tadabbur-alquran.com — مواضيع سورة صاد (1-16، 17-48، 49-66، 67-88)"
-  - "ar.wikipedia.org — سورة ص (قصص داود وسليمان وأيوب؛ إبليس)"
+- tadabbur-alquran.com — مواضيع سورة صاد (1-16، 17-48، 49-66، 67-88)
+- ar.wikipedia.org — سورة ص (قصص داود وسليمان وأيوب؛ إبليس)
 map:
-  - title: { ar: "الرد على المشركين", en: "Answering the Polytheists" }
-    range: [1, 16]
-    family: faith
-    summary:
-      ar: "ص والقرآن ذي الذكر؛ بل الذين كفروا في عزة وشقاق: تعجبوا من التوحيد، وتواصوا بالثبات على آلهتهم، وشككوا في الوحي."
-      en: "Sad, and the Quran full of remembrance; the disbelievers in pride and dissent: amazed at oneness, urging steadfastness on their gods, doubting revelation."
-    children:
-      - { title: { ar: "عزة المشركين وشقاقهم", en: "The Deniers' Pride and Dissent" }, range: [2, 3] }
-      - { title: { ar: "التعجب من التوحيد", en: "Amazement at Oneness" }, range: [4, 8] }
-  - title: { ar: "قصص الأنبياء الأوابين", en: "Stories of the Oft-Returning Prophets" }
-    range: [17, 48]
-    family: stories
-    summary:
-      ar: "اصبر على ما يقولون واذكر عبادنا الأوابين: داود ذا الأيد، وسليمان نعم العبد، وأيوب الصابر، وإبراهيم وذريته أولو الأيدي والأبصار."
-      en: "Be patient and remember Our oft-returning servants: David of strength, Solomon the excellent servant, the patient Job, Abraham and his seed of insight."
-    children:
-      - { title: { ar: "داود", en: "David" }, range: [17, 29] }
-      - { title: { ar: "سليمان", en: "Solomon" }, range: [30, 40] }
-      - { title: { ar: "أيوب", en: "Job" }, range: [41, 44] }
-      - { title: { ar: "إبراهيم وإسحاق ويعقوب", en: "Abraham, Isaac and Jacob" }, range: [45, 47] }
-      - { title: { ar: "إسماعيل واليسع وذو الكفل", en: "Ishmael, Elisha and Dhul-Kifl" }, range: [48, 48] }
-  - title: { ar: "الثواب والعقاب", en: "Reward and Punishment" }
-    range: [49, 66]
-    family: faith
-    summary:
-      ar: "هذا ذكر وإن للمتقين لحسن مآب: جنات عدن؛ وهذا وإن للطاغين لشر مآب: جهنم؛ وتخاصم أهل النار بعضهم مع بعض."
-      en: "This is a reminder: for the God-conscious a fine return — Gardens of Eden; for the tyrants an evil return — Hell; the people of the Fire disputing."
-    children:
-      - { title: { ar: "ثواب المتقين", en: "The God-conscious Rewarded" }, range: [49, 54] }
-      - { title: { ar: "عذاب الطاغين", en: "The Tyrants Tormented" }, range: [55, 58] }
-      - { title: { ar: "تخاصم أهل النار", en: "The Fire's People Disputing" }, range: [59, 64] }
-  - title: { ar: "آدم وإبليس", en: "Adam and Iblis" }
-    range: [67, 88]
-    family: stories
-    summary:
-      ar: "قل هو نبأ عظيم؛ إذ قال ربك للملائكة إني خالق بشرا من طين فسجدوا إلا إبليس استكبر، فطُرد وتوعد بإغواء الذرية."
-      en: "Say: it is a tremendous tiding — when your Lord told the angels He would create man from clay, they prostrated except Iblis, who scorned, was expelled, and vowed to mislead."
-    children:
-      - { title: { ar: "سجود الملائكة واستكبار إبليس", en: "The Angels Prostrate; Iblis Scorns" }, range: [71, 76] }
-      - { title: { ar: "طرد إبليس ووعيده", en: "Iblis Expelled; His Threat" }, range: [77, 85] }
+- title:
+    ar: الرد على المشركين
+    en: Answering the Polytheists
+    tr: Çoktanrıcılara Yanıt
+    id: Tanggapan terhadap para politeis
+  range:
+  - 1
+  - 16
+  family: faith
+  summary:
+    ar: 'ص والقرآن ذي الذكر؛ بل الذين كفروا في عزة وشقاق: تعجبوا من التوحيد، وتواصوا بالثبات على آلهتهم، وشككوا في الوحي.'
+    en: 'Sad, and the Quran full of remembrance; the disbelievers in pride and dissent: amazed at oneness, urging steadfastness on their gods, doubting revelation.'
+    tr: Kur'an ise anma kitabıdır; aksine, onur ve anlaşmazlıktan inatsızlar tek tanrıcılığa şaşırmış, tanrılarına bağlılık emretmiş, vahyeden şüphe etmişlerdir.
+    id: dan Al-Qur'an adalah yang mengenang; sebaliknya, mereka yang tidak percaya pada kehormatan dan perselisihan terpesona oleh monoteisme, mewajibkan keteguhan kepada dewa mereka, dan meragukan wahyu.
+  children:
+  - title:
+      ar: عزة المشركين وشقاقهم
+      en: The Deniers' Pride and Dissent
+      tr: Çoktanrılıların gururu ve anlaşmazlığı
+      id: Kebanggaan dan perselisihan para politeis
+    range:
+    - 2
+    - 3
+  - title:
+      ar: التعجب من التوحيد
+      en: Amazement at Oneness
+      tr: Tek tanrıcılık üzerine düşünmek
+      id: Bertanya-tanya tentang monoteisme
+    range:
+    - 4
+    - 8
+- title:
+    ar: قصص الأنبياء الأوابين
+    en: Stories of the Oft-Returning Prophets
+    tr: Geri Dönen Peygamberlerin Hikayeleri
+    id: Kisah Para Nabi yang Kembali
+  range:
+  - 17
+  - 48
+  family: stories
+  summary:
+    ar: 'اصبر على ما يقولون واذكر عبادنا الأوابين: داود ذا الأيد، وسليمان نعم العبد، وأيوب الصابر، وإبراهيم وذريته أولو الأيدي والأبصار.'
+    en: 'Be patient and remember Our oft-returning servants: David of strength, Solomon the excellent servant, the patient Job, Abraham and his seed of insight.'
+    tr: 'Söylediklerine sabırlı olun ve tövbe eden hizmetkârlarımızı unutmayın: elleri olan Davut, en iyi hizmetçi Süleyman, sarsılmaz Eyüp ve eller ve anlayış insanları İbrahim ve soyundan gelenler.'
+    id: 'Bersabarlah dengan apa yang mereka katakan, dan ingatlah hamba-hamba Kami yang bertobat: Daud yang bertangan, Salomo yang terbaik dari hamba, Ayub yang teguh, dan Abraham beserta keturunannya,
+      umat tangan dan wawasan.'
+  children:
+  - title:
+      ar: داود
+      en: David
+      tr: David
+      id: David
+    range:
+    - 17
+    - 29
+  - title:
+      ar: سليمان
+      en: Solomon
+      tr: Süleyman
+      id: Solomon
+    range:
+    - 30
+    - 40
+  - title:
+      ar: أيوب
+      en: Job
+      tr: Eeb
+      id: Ayoub
+    range:
+    - 41
+    - 44
+  - title:
+      ar: إبراهيم وإسحاق ويعقوب
+      en: Abraham, Isaac and Jacob
+      tr: İbrahim, İshak ve Yakup
+      id: Abraham, Ishak, dan Yakub
+    range:
+    - 45
+    - 47
+  - title:
+      ar: إسماعيل واليسع وذو الكفل
+      en: Ishmael, Elisha and Dhul-Kifl
+      tr: İsmail, Elisa ve Dhu al-Kifl
+      id: Ismail, Elisa, dan Dhu al-Kifl
+    range:
+    - 48
+    - 48
+- title:
+    ar: الثواب والعقاب
+    en: Reward and Punishment
+    tr: Ödül ve Ceza
+    id: Hadiah dan Hukuman
+  range:
+  - 49
+  - 66
+  family: faith
+  summary:
+    ar: 'هذا ذكر وإن للمتقين لحسن مآب: جنات عدن؛ وهذا وإن للطاغين لشر مآب: جهنم؛ وتخاصم أهل النار بعضهم مع بعض.'
+    en: 'This is a reminder: for the God-conscious a fine return — Gardens of Eden; for the tyrants an evil return — Hell; the people of the Fire disputing.'
+    tr: 'Bu bir hatırlatmadır: ''Doğrular için iyi bir dönüş vardır: Aden bahçeleri; ve zorbalar için en kötü dönüş cehennemdir; cehennem halkı birbirleriyle tartıştı.'''
+    id: 'Ini adalah pengingat: ''Memang, bagi orang benar ada balasan yang baik: taman Eden; dan memang, bagi para tiran, balasan terburuk adalah Neraka; dan orang-orang Neraka bertengkar satu sama lain.'''
+  children:
+  - title:
+      ar: ثواب المتقين
+      en: The God-conscious Rewarded
+      tr: Dindarların ödülü
+      id: Hadiah bagi orang saleh
+    range:
+    - 49
+    - 54
+  - title:
+      ar: عذاب الطاغين
+      en: The Tyrants Tormented
+      tr: Zalimin işkencesi
+      id: Siksaan tiran
+    range:
+    - 55
+    - 58
+  - title:
+      ar: تخاصم أهل النار
+      en: The Fire's People Disputing
+      tr: Cehennem halkının kavgası
+      id: Pertengkaran rakyat Neraka
+    range:
+    - 59
+    - 64
+- title:
+    ar: آدم وإبليس
+    en: Adam and Iblis
+    tr: Adem ve Şeytan
+    id: Adam dan Setan
+  range:
+  - 67
+  - 88
+  family: stories
+  summary:
+    ar: قل هو نبأ عظيم؛ إذ قال ربك للملائكة إني خالق بشرا من طين فسجدوا إلا إبليس استكبر، فطُرد وتوعد بإغواء الذرية.
+    en: 'Say: it is a tremendous tiding — when your Lord told the angels He would create man from clay, they prostrated except Iblis, who scorned, was expelled, and vowed to mislead.'
+    tr: De ki, 'Bu büyük bir haberdir,' çünkü Rabbiniz meleklere dedi ki, 'Ben kilden yaratılmış bir insanım.' Böylece kibirli, kovulan ve çocukları baştan çıkarmakla tehdit eden İblis hariç secde ettiler.
+    id: Katakanlah, 'Ini kabar besar,' karena Tuhanmu berkata kepada para malaikat, 'Aku manusia yang diciptakan dari tanah liat.' Maka mereka bersujud kecuali Iblis, yang sombong, diusir, dan mengancam
+      akan menggoda keturunan.
+  children:
+  - title:
+      ar: سجود الملائكة واستكبار إبليس
+      en: The Angels Prostrate; Iblis Scorns
+      tr: Meleklerin secdesi ve Şeytan'ın kibri
+      id: Sujud para malaikat dan kesombongan Setan
+    range:
+    - 71
+    - 76
+  - title:
+      ar: طرد إبليس ووعيده
+      en: Iblis Expelled; His Threat
+      tr: Şeytanın Kovulması ve Tehditleri
+      id: Pengusiran Setan dan ancamannya
+    range:
+    - 77
+    - 85

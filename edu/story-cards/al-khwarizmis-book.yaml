@@ -1,109 +1,211 @@
 slug: al-khwarizmis-book
 title:
-  ar: "كتاب الخوارزمي"
-  en: "Al-Khwarizmi's Book"
-  ur: "خوارزمی کی کتاب"
-  fr: "Le livre d’Al-Khwarizmi"
+  ar: كتاب الخوارزمي
+  en: Al-Khwarizmi's Book
+  ur: خوارزمی کی کتاب
+  fr: Le livre d’Al-Khwarizmi
+  tr: Al-Hwarizmi'nin Kitabı
+  id: Buku Al-Khwarizmi
 lede:
-  ar: "كتاب صغير من بغداد غيّر الحساب في العالم كله — قصة الجبر في اثنتي عشرة بطاقة."
-  en: "A small book from Baghdad that changed the world's arithmetic — the story of algebra in twelve cards."
-  ur: "بغداد کی ایک چھوٹی کتاب جس نے دنیا کا حساب بدل دیا — الجبرا کی کہانی بارہ کارڈز میں۔"
-  fr: "Un petit livre de Bagdad qui a changé la façon de calculer dans le monde : l’histoire de l’algèbre en douze cartes."
-status: { review: published }
-sources: [source/khwarizmi-jabr-cairo-1939, source/fihrist-ibn-al-nadim]
-
+  ar: كتاب صغير من بغداد غيّر الحساب في العالم كله — قصة الجبر في اثنتي عشرة بطاقة.
+  en: A small book from Baghdad that changed the world's arithmetic — the story of algebra in twelve cards.
+  ur: بغداد کی ایک چھوٹی کتاب جس نے دنیا کا حساب بدل دیا — الجبرا کی کہانی بارہ کارڈز میں۔
+  fr: 'Un petit livre de Bagdad qui a changé la façon de calculer dans le monde : l’histoire de l’algèbre en douze cartes.'
+  tr: Bağdat'tan küçük bir kitap, dünya genelinde aritmetiği değiştirdi — On iki kartta cebirin hikayesi.
+  id: Sebuah buku kecil dari Baghdad yang mengubah aritmatika di seluruh dunia — Kisah aljabar dalam dua belas kartu.
+status:
+  review: published
+sources:
+- source/khwarizmi-jabr-cairo-1939
+- source/fihrist-ibn-al-nadim
 provenance:
-  generated_by: "Devin"
-  model: "Devin (Cognition)"
-  run: "education-E5-story-cards"
-  source: "كتاب المختصر في حساب الجبر والمقابلة؛ تاريخ الرياضيات العربية — إعادة صياغة."
+  generated_by: Devin
+  model: Devin (Cognition)
+  run: education-E5-story-cards
+  source: كتاب المختصر في حساب الجبر والمقابلة؛ تاريخ الرياضيات العربية — إعادة صياغة.
   fr:
-    generated_by: "Devin"
-    model: "unknown"
-    run: "devin-a7ba389df57d4bdb9b7515fa59f40242"
-    source: "Existing English text in this activity, with Arabic consulted for religious material."
+    generated_by: Devin
+    model: unknown
+    run: devin-a7ba389df57d4bdb9b7515fa59f40242
+    source: Existing English text in this activity, with Arabic consulted for religious material.
 cards:
-  - title: { ar: "خوارزم", en: "Khwarizm", ur: "خوارزم", fr: "Le Khwarezm" }
-    motif: map
-    narration:
-      ar: "محمد بن موسى الخوارزمي من بلاد خوارزم على نهر جيحون في آسيا الوسطى."
-      en: "Muhammad ibn Musa al-Khwarizmi came from Khwarizm on the Oxus river in Central Asia."
-      ur: "محمد بن موسیٰ الخوارزمی وسطی ایشیا کے دریائے جیحون پر خوارزم سے آئے۔"
-      fr: "Muhammad ibn Moussa al-Khwarizmi venait du Khwarezm, sur les rives de l’Oxus, en Asie centrale."
-  - title: { ar: "بيت الحكمة", en: "The House of Wisdom", ur: "بیت الحکمت", fr: "La Maison de la sagesse" }
-    motif: star
-    narration:
-      ar: "عمل في بيت الحكمة ببغداد في زمن المأمون بين المترجمين والفلكيين."
-      en: "He worked at Baghdad's House of Wisdom in al-Ma'mun's time among translators and astronomers."
-      ur: "وہ مامون کے زمانے میں بغداد کے بیت الحکمت میں مترجمین اور فلکیات دانوں کے ساتھ کام کیا۔"
-      fr: "Au temps d’al-Mamoun, il travaillait à la Maison de la sagesse de Bagdad, parmi les traducteurs et les astronomes."
-  - title: { ar: "المشكلة", en: "The problem", ur: "مسئلہ", fr: "Le problème" }
-    motif: manuscript
-    narration:
-      ar: "كان الناس يضيعون في مسائل المواريث والبيع؛ أراد حلاً يعمل للجميع."
-      en: "People stumbled over inheritance and trade sums; he wanted a method for everyone."
-      ur: "لوگ وراثت اور بیع کے حساب میں الجھتے تھے؛ وہ سب کے لیے طریقہ چاہتا تھا۔"
-      fr: "Calculer des parts d’héritage ou régler des comptes de commerce posait problème. Il voulait trouver une méthode à la portée de tous."
-  - title: { ar: "الكتاب", en: "The book", ur: "کتاب", fr: "Le livre" }
-    motif: book
-    narration:
-      ar: "كتب رسالة صغيرة سماها: المختصر في حساب الجبر والمقابلة."
-      en: "He wrote a small treatise called: The Compendious Book on Calculation by Completion and Balancing."
-      ur: "اس نے چھوٹی رسالہ لکھی جس کا نام رکھا: الجبر اور مقابلہ کے حساب کی مختصر کتاب۔"
-      fr: "Il rédigea un court traité intitulé Abrégé du calcul par la restauration et la comparaison."
-  - title: { ar: "الجبر", en: "Al-jabr", ur: "الجبر", fr: "Al-jabr" }
-    motif: pen
-    narration:
-      ar: "الجبر: إكمال النقص — تنقل الكمية الناقصة إلى الجانب الآخر لتكتمل المعادلة."
-      en: "Al-jabr means completion: move the missing term across so the equation is whole."
-      ur: "الجبر یعنی تکمیل: ناقص رکن دوسری طرف لے جاؤ تاکہ مساوات مکمل ہو۔"
-      fr: "Al-jabr signifie « restauration » : on transpose un terme pour rétablir ce qui manque dans l’équation."
-  - title: { ar: "المقابلة", en: "Al-muqabala", ur: "المقابلہ", fr: "Al-muqabala" }
-    motif: compass
-    narration:
-      ar: "المقابلة: الموازنة — تحذف المثل من الطرفين حتى تبقى المعادلة بسيطة."
-      en: "Al-muqabala means balancing: subtract like terms from both sides until the equation is simple."
-      ur: "مقابلہ یعنی توازن: دونوں طرف سے یکساں ارکان ہٹاؤ یہاں تک مساوات سادہ رہ جائے۔"
-      fr: "Al-muqabala signifie « comparaison » : on retranche des termes semblables de part et d’autre pour simplifier l’équation."
-  - title: { ar: "المعادلات", en: "The equations", ur: "مساواتیں", fr: "Les équations" }
-    motif: book
-    narration:
-      ar: "جمع معادلات الدرجة الأولى والثانية وصنّفها وشرح حلها."
-      en: "He gathered the first- and second-degree equations, classified them and solved them."
-      ur: "اس نے پہلی اور دوسری درجہ کی مساواتیں جمع کیں، درجہ بندی کی اور حل سکھایا۔"
-      fr: "Il rassembla les équations du premier et du second degré, les classa et les résolut."
-  - title: { ar: "الأعداد", en: "The digits", ur: "اعداد", fr: "Les chiffres" }
-    motif: coin
-    narration:
-      ar: "كتب كتاباً آخر في الحساب الهندي، فتعلّمت أوروبا منه الأرقام 0 إلى 9."
-      en: "He wrote another book on Hindu reckoning, from which Europe learned the digits 0–9."
-      ur: "اس نے ہندوستانی حساب پر ایک اور کتاب لکھی جس سے یورپ نے 0 تا 9 کے ہندسے سیکھے۔"
-      fr: "Il écrivit un autre livre sur le calcul indien, grâce auquel l’Europe apprit à utiliser les chiffres de 0 à 9."
-  - title: { ar: "اللوغاريتم", en: "The algorithm", ur: "الگورتھم", fr: "L’algorithme" }
-    motif: star
-    narration:
-      ar: "حُرّف اسمه في اللاتينية إلى Algorithmus — ومنه جاءت كلمة الخوارزمية."
-      en: "His name was twisted in Latin to Algorithmus — the source of the word algorithm."
-      ur: "اس کا نام لاطینی میں بگڑ کر Algorithmus بنا — اور اسی سے algorithm لفظ آیا۔"
-      fr: "Son nom prit en latin la forme Algorithmus, à l’origine du mot « algorithme »."
-  - title: { ar: "الحاسوب", en: "The computer", ur: "کمپیوٹر", fr: "L’ordinateur" }
-    motif: compass
-    narration:
-      ar: "كل خطوة ينفذها حاسوب اليوم تسمى خوارزمية، باسمه."
-      en: "Every step a computer follows today is called an algorithm — named for him."
-      ur: "کمپیوٹر آج جو ہر قدم چلاتا ہے وہ algorithm کہلاتا ہے — اسی کے نام پر۔"
-      fr: "Aujourd’hui, on appelle algorithme une suite d’étapes qu’un ordinateur peut suivre. Ce mot vient de son nom."
-  - title: { ar: "الجغرافيا", en: "The geography", ur: "جغرافیہ", fr: "La géographie" }
-    motif: map
-    narration:
-      ar: "وصحّح خريطة بطليموس وكتب صورة الأرض في بيت الحكمة."
-      en: "He corrected Ptolemy's map and wrote The Image of the Earth at the House of Wisdom."
-      ur: "انہوں نے بطلیموس کے نقشے کی اصلاح کی اور بیت الحکمت میں صورت الارض لکھی۔"
-      fr: "À la Maison de la sagesse, il corrigea la carte de Ptolémée et écrivit L’Image de la Terre."
-  - title: { ar: "الإرث", en: "The legacy", ur: "میراث", fr: "L’héritage" }
-    motif: book
-    narration:
-      ar: "من كتاب صغير في بغداد جاء الجبر الذي تدرّسه مدارس الدنيا."
-      en: "From a small book in Baghdad came the algebra every school in the world now teaches."
-      ur: "بغداد کی چھوٹی کتاب سے وہ الجبرا آیا جو آج دنیا کی ہر مدرسہ پڑھاتی ہے۔"
-      fr: "De ce petit livre écrit à Bagdad est née l’algèbre qu’on enseigne aujourd’hui dans les écoles du monde entier."
+- title:
+    ar: خوارزم
+    en: Khwarizm
+    ur: خوارزم
+    fr: Le Khwarezm
+    tr: Harezm
+    id: Khwarezm
+  motif: map
+  narration:
+    ar: محمد بن موسى الخوارزمي من بلاد خوارزم على نهر جيحون في آسيا الوسطى.
+    en: Muhammad ibn Musa al-Khwarizmi came from Khwarizm on the Oxus river in Central Asia.
+    ur: محمد بن موسیٰ الخوارزمی وسطی ایشیا کے دریائے جیحون پر خوارزم سے آئے۔
+    fr: Muhammad ibn Moussa al-Khwarizmi venait du Khwarezm, sur les rives de l’Oxus, en Asie centrale.
+    tr: Muhammed bin Musa el-Horizmi, Orta Asya'daki Cihun Nehri üzerindeki Harezm topraklarından geliyordu.
+    id: Muhammad ibn Musa al-Khwarizmi berasal dari tanah Khwarezm di Sungai Jihun, Asia Tengah.
+- title:
+    ar: بيت الحكمة
+    en: The House of Wisdom
+    ur: بیت الحکمت
+    fr: La Maison de la sagesse
+    tr: Bilgelik Evi
+    id: Rumah Kebijaksanaan
+  motif: star
+  narration:
+    ar: عمل في بيت الحكمة ببغداد في زمن المأمون بين المترجمين والفلكيين.
+    en: He worked at Baghdad's House of Wisdom in al-Ma'mun's time among translators and astronomers.
+    ur: وہ مامون کے زمانے میں بغداد کے بیت الحکمت میں مترجمین اور فلکیات دانوں کے ساتھ کام کیا۔
+    fr: Au temps d’al-Mamoun, il travaillait à la Maison de la sagesse de Bagdad, parmi les traducteurs et les astronomes.
+    tr: El-Me'mun döneminde Bağdat'taki Beyt el-Hikma'da çevirmenler ve astronomlar arasında çalıştı.
+    id: Ia bekerja di Bayt al-Hikma di Baghdad pada masa al-Ma'mun di antara para penerjemah dan astronom.
+- title:
+    ar: المشكلة
+    en: The problem
+    ur: مسئلہ
+    fr: Le problème
+    tr: Sorun
+    id: Masalahnya
+  motif: manuscript
+  narration:
+    ar: كان الناس يضيعون في مسائل المواريث والبيع؛ أراد حلاً يعمل للجميع.
+    en: People stumbled over inheritance and trade sums; he wanted a method for everyone.
+    ur: لوگ وراثت اور بیع کے حساب میں الجھتے تھے؛ وہ سب کے لیے طریقہ چاہتا تھا۔
+    fr: Calculer des parts d’héritage ou régler des comptes de commerce posait problème. Il voulait trouver une méthode à la portée de tous.
+    tr: İnsanlar miras ve satış konularında kaybolmuştu; herkes için işe yarayan bir çözüm istiyordu.
+    id: Orang-orang tersesat dalam urusan warisan dan penjualan; dia menginginkan solusi yang cocok untuk semua orang.
+- title:
+    ar: الكتاب
+    en: The book
+    ur: کتاب
+    fr: Le livre
+    tr: Kitap
+    id: Buku
+  motif: book
+  narration:
+    ar: 'كتب رسالة صغيرة سماها: المختصر في حساب الجبر والمقابلة.'
+    en: 'He wrote a small treatise called: The Compendious Book on Calculation by Completion and Balancing.'
+    ur: 'اس نے چھوٹی رسالہ لکھی جس کا نام رکھا: الجبر اور مقابلہ کے حساب کی مختصر کتاب۔'
+    fr: Il rédigea un court traité intitulé Abrégé du calcul par la restauration et la comparaison.
+    tr: 'Küçük bir risale yazdı: Mukhtasar fi Hisab al-Jabr wa al-Muqabala.'
+    id: 'Ia menulis sebuah risalah kecil berjudul: The Mukhtasar fi Hisab al-Jabr wa al-Muqabala.'
+- title:
+    ar: الجبر
+    en: Al-jabr
+    ur: الجبر
+    fr: Al-jabr
+    tr: Cebir
+    id: Aljabar
+  motif: pen
+  narration:
+    ar: 'الجبر: إكمال النقص — تنقل الكمية الناقصة إلى الجانب الآخر لتكتمل المعادلة.'
+    en: 'Al-jabr means completion: move the missing term across so the equation is whole.'
+    ur: 'الجبر یعنی تکمیل: ناقص رکن دوسری طرف لے جاؤ تاکہ مساوات مکمل ہو۔'
+    fr: 'Al-jabr signifie « restauration » : on transpose un terme pour rétablir ce qui manque dans l’équation.'
+    tr: 'Cebir: Açığı tamamlamak — eksik nicelik diğer tarafa taşınarak denklemi tamamlar.'
+    id: 'Aljabar: Melengkapi defisit — kuantitas yang hilang dipindahkan ke sisi lain untuk melengkapi persamaan.'
+- title:
+    ar: المقابلة
+    en: Al-muqabala
+    ur: المقابلہ
+    fr: Al-muqabala
+    tr: Röportaj
+    id: Wawancara
+  motif: compass
+  narration:
+    ar: 'المقابلة: الموازنة — تحذف المثل من الطرفين حتى تبقى المعادلة بسيطة.'
+    en: 'Al-muqabala means balancing: subtract like terms from both sides until the equation is simple.'
+    ur: 'مقابلہ یعنی توازن: دونوں طرف سے یکساں ارکان ہٹاؤ یہاں تک مساوات سادہ رہ جائے۔'
+    fr: 'Al-muqabala signifie « comparaison » : on retranche des termes semblables de part et d’autre pour simplifier l’équation.'
+    tr: 'Röportaj: Denge — Denklemi basit tutmak için her iki tarafın atasözünü ortadan kaldırın.'
+    id: 'Wawancara: Keseimbangan — Hilangkan peribahasa dari kedua sisi agar persamaan tetap sederhana.'
+- title:
+    ar: المعادلات
+    en: The equations
+    ur: مساواتیں
+    fr: Les équations
+    tr: Denklemler
+    id: Persamaan
+  motif: book
+  narration:
+    ar: جمع معادلات الدرجة الأولى والثانية وصنّفها وشرح حلها.
+    en: He gathered the first- and second-degree equations, classified them and solved them.
+    ur: اس نے پہلی اور دوسری درجہ کی مساواتیں جمع کیں، درجہ بندی کی اور حل سکھایا۔
+    fr: Il rassembla les équations du premier et du second degré, les classa et les résolut.
+    tr: Birinci ve ikinci derece denklemleri toplayın, sınıflandırın ve çözümlerini açıklayın.
+    id: Kumpulkan persamaan tingkat pertama dan kedua, klasifikasikan, dan jelaskan solusinya.
+- title:
+    ar: الأعداد
+    en: The digits
+    ur: اعداد
+    fr: Les chiffres
+    tr: Sayılar
+    id: Nomor
+  motif: coin
+  narration:
+    ar: كتب كتاباً آخر في الحساب الهندي، فتعلّمت أوروبا منه الأرقام 0 إلى 9.
+    en: He wrote another book on Hindu reckoning, from which Europe learned the digits 0–9.
+    ur: اس نے ہندوستانی حساب پر ایک اور کتاب لکھی جس سے یورپ نے 0 تا 9 کے ہندسے سیکھے۔
+    fr: Il écrivit un autre livre sur le calcul indien, grâce auquel l’Europe apprit à utiliser les chiffres de 0 à 9.
+    tr: Hint aritmetiği üzerine başka bir kitap yazdı ve Avrupa, 0'dan 9'a kadar sayıları öğrendi.
+    id: Ia menulis buku lain tentang aritmetika India, dari mana Eropa mempelajari angka 0 hingga 9.
+- title:
+    ar: اللوغاريتم
+    en: The algorithm
+    ur: الگورتھم
+    fr: L’algorithme
+    tr: logaritma
+    id: logaritma
+  motif: star
+  narration:
+    ar: حُرّف اسمه في اللاتينية إلى Algorithmus — ومنه جاءت كلمة الخوارزمية.
+    en: His name was twisted in Latin to Algorithmus — the source of the word algorithm.
+    ur: اس کا نام لاطینی میں بگڑ کر Algorithmus بنا — اور اسی سے algorithm لفظ آیا۔
+    fr: Son nom prit en latin la forme Algorithmus, à l’origine du mot « algorithme ».
+    tr: Latince adı Algorithmus olarak yazılmıştı — bu yüzden algoritma kelimesi kullanılmıştır.
+    id: Namanya dalam bahasa Latin dieja Algorithmus — oleh karena itu kata algoritma.
+- title:
+    ar: الحاسوب
+    en: The computer
+    ur: کمپیوٹر
+    fr: L’ordinateur
+    tr: Bilgisayar
+    id: Komputer
+  motif: compass
+  narration:
+    ar: كل خطوة ينفذها حاسوب اليوم تسمى خوارزمية، باسمه.
+    en: Every step a computer follows today is called an algorithm — named for him.
+    ur: کمپیوٹر آج جو ہر قدم چلاتا ہے وہ algorithm کہلاتا ہے — اسی کے نام پر۔
+    fr: Aujourd’hui, on appelle algorithme une suite d’étapes qu’un ordinateur peut suivre. Ce mot vient de son nom.
+    tr: Bugün bir bilgisayarın yaptığı her adım, onun adını taşıyan bir algoritma olarak adlandırılır.
+    id: Setiap langkah yang dilakukan komputer saat ini disebut algoritma, dinamai menurut algoritma.
+- title:
+    ar: الجغرافيا
+    en: The geography
+    ur: جغرافیہ
+    fr: La géographie
+    tr: Coğrafya
+    id: Geografi
+  motif: map
+  narration:
+    ar: وصحّح خريطة بطليموس وكتب صورة الأرض في بيت الحكمة.
+    en: He corrected Ptolemy's map and wrote The Image of the Earth at the House of Wisdom.
+    ur: انہوں نے بطلیموس کے نقشے کی اصلاح کی اور بیت الحکمت میں صورت الارض لکھی۔
+    fr: À la Maison de la sagesse, il corrigea la carte de Ptolémée et écrivit L’Image de la Terre.
+    tr: Ptolemaios'un haritasını düzeltti ve Bilgelik Evi'nde dünyanın görüntüsünü yazdı.
+    id: Ia mengoreksi peta Ptolemy dan menulis gambar bumi di Rumah Kebijaksanaan.
+- title:
+    ar: الإرث
+    en: The legacy
+    ur: میراث
+    fr: L’héritage
+    tr: Miras
+    id: Warisan
+  motif: book
+  narration:
+    ar: من كتاب صغير في بغداد جاء الجبر الذي تدرّسه مدارس الدنيا.
+    en: From a small book in Baghdad came the algebra every school in the world now teaches.
+    ur: بغداد کی چھوٹی کتاب سے وہ الجبرا آیا جو آج دنیا کی ہر مدرسہ پڑھاتی ہے۔
+    fr: De ce petit livre écrit à Bagdad est née l’algèbre qu’on enseigne aujourd’hui dans les écoles du monde entier.
+    tr: Bağdat'ta küçük bir kitaptan, dünya okulları tarafından öğretilen cebir ortaya çıktı.
+    id: Dari sebuah buku kecil di Baghdad lahirlah aljabar, yang diajarkan oleh sekolah-sekolah di seluruh dunia.

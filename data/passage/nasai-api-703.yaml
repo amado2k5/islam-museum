@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "703"
-label: { ar: "سنن النسائي 703 — ساعة الاحتضار والوفاة", en: "Sunan al-Nasa'i 703 — a deathbed and last hours", ur: "سنن نسائی 703 — وقتِ وفات اور آخری لمحات", es: "Sunan al-Nasa'i 703 — lecho de muerte y últimas horas", fr: "Sunan al-Nasa'i 703 — Le lit de mort et les dernières heures" }
+label: { ar: "سنن النسائي 703 — ساعة الاحتضار والوفاة", en: "Sunan al-Nasa'i 703 — a deathbed and last hours", ur: "سنن نسائی 703 — وقتِ وفات اور آخری لمحات", es: "Sunan al-Nasa'i 703 — lecho de muerte y últimas horas", fr: "Sunan al-Nasa'i 703 — Le lit de mort et les dernières heures", tr: "Sunan an-Nasa'i 703 — Ölüm ve Ölme Saati", id: "Sunan an-Nasa'i 703 — Saat-saat Sakaratul Maut dan Kematian" }
 text: "… سُوَيْدُ بْنُ نَصْرٍ، قَالَ أَنْبَأَنَا عَبْدُ اللَّهِ بْنُ الْمُبَارَكِ، عَنْ مَعْمَرٍ، وَيُونُسَ، قَالاَ قَالَ الزُّهْرِيُّ أَخْبَرَنِي عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ، أَنَّ عَائِشَةَ، وَابْنَ، عَبَّاسٍ قَالاَ لَمَّا نُزِلَ بِرَسُولِ اللَّهِ فَطَفِقَ يَطْرَحُ خَمِيصَةً لَهُ عَلَى وَجْهِهِ فَإِذَا اغْتَمَّ كَشَفَهَا عَنْ وَجْهِهِ قَالَ وَهُوَ كَذَلِكَ \" لَعْنَةُ اللَّهِ عَلَى الْيَهُودِ وَالنَّصَارَى اتَّخَذُوا قُبُورَ أَنْبِيَائِهِمْ مَسَاجِدَ \"."
 summary:
   ar: "حديث في سنن النسائي، رقم 703، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 703، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 703 (El Libro de las Mezquitas), menciona un lecho de muerte y las últimas horas. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sunan al-Nasa'i, n° 703 (Le Livre des Mosquées), mentionne un lit de mort et les dernières heures. Le navigateur de textes religieux le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, des dernières heures, des biens, des reliques et des tombes."
+  tr: "Sunan-ı Nesai'de yer alan 703 numaralı hadis, ölüm anını ve ölüm sürecini konu almaktadır. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler üzerine araştırmalar yapan uzmanlar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, nomor 703, menyebutkan saat kematian dan saat sekarat. Hadits ini dikumpulkan oleh para peneliti wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ihtidar, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 703 (book 8 hadith 16); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

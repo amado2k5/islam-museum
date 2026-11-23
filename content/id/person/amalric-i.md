@@ -1,0 +1,37 @@
+---
+id: person/amalric-i
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/amalric-i.md}
+---
+## Ringkasan
+Merri, yang disebut Amalric atau Amori dalam Ensiklopedia Islam, adalah Raja bangsa Frank di [[place/jerusalem|Yerusalem]] selama tahun-tahun ketika Mesir Fatimiyah diserahkan kepada para pemimpin [[person/nur-al-din-mahmud-ibn-zangi|Nur al-Din]]. Departemen ini tidak memiliki artikel independen tentang dirinya, dan catatan ini merupakan kumpulan tempat-tempat di mana dalam artikelnya disebutkan tentang Durgham, Fatimiyah, Damietta, Nur al-Din, Sinan pemimpin Ismaili, dan lainnya, serta laporan Ibn al-Athir tentang kematiannya.
+
+## Kenaikannya ke tahta
+Artikel Nur ad-Din mencatat kenaikan tahta Murray pada Rabi' al-Awwal 558, Februari 1163 M, dan menyatakan bahwa bangsa Franka sejak itu mengalihkan perhatian mereka ke Mesir. {cite:encyclopaedia-of-islam-2 vol. 8 p. 141} Menurut catatannya, Kekhalifahan Fatimiyah sudah mulai runtuh, sehingga raja Yerusalem mengurus Mesir, di mana para pangeran memberontak melawan wazir [[person/talai-ibn-ruzzik|Tala'i ibn Razik]]. {cite:encyclopaedia-of-islam-2 vol. 8 p. 141}
+
+## Kampanye Awal
+Artikel-artikel tersebut tidak sepakat pada semua tanggal. Artikel Fatimiyah menyatakan bahwa Mari melancarkan serangan pertama ke Mesir pada tahun 1161 M, mengambil upeti dari pasukan depan, dan kembali pada tahun 1162 M, tetapi terpaksa mundur karena banjir sengaja di Delta Nil. {cite:encyclopaedia-of-islam-2 vol. 2 p. 894} [[person/dirgham-al-lakhmi|Artikel Dirgham]] menetapkan invasi pada September 1162 M, dengan tujuan menuntut upeti yang sebelumnya dijanjikan oleh Tala'i. Dirgham, yang saat itu menjadi pemimpin, dikirim untuk melawannya dan dikalahkan, tetapi Mesir membuka bendungan Nil, membanjiri dataran, dan Mari terpaksa mundur ke Palestina. {cite:encyclopaedia-of-islam-2 vol. 2 p. 343} Museum mengonfirmasi kedua pernyataan tersebut dan tidak memperdebatkan keduanya.
+
+Pada akhir 1163 atau awal 1164, pasukan depannya kembali berada di tanah Mesir. Dirgham pertama-tama mencoba memenangkan Nur ad-Din, kemudian menawarkan Mari sebuah perjanjian, sandera, dan upeti tahunan dengan syarat ia mundur. {cite:encyclopaedia-of-islam-2 vol. 2 p. 343} Artikel Nur ad-Din menambahkan bahwa tawaran Dirgham adalah perjanjian ketergantungan yang membuat Mesir tunduk pada Kerajaan Yerusalem. Mari menerima, tetapi serangan Nur ad-Din di Levant menguras tenaganya, dan ia tidak memiliki cukup tentara untuk bertempur di dua front, sehingga ia tidak dapat mengirim pasukan tepat waktu untuk mencegah [[person/asad-al-din-shirkuh|Shirkuh]] mencapai Delta pada tahun 559 H/1164 M. {cite:encyclopaedia-of-islam-2 vol. 8 p. 141}
+
+## Kompetisi untuk Mesir
+Artikel oleh penguasa Zengi menggambarkan persaingan antara Murri dan Nur al-Din untuk kontrol politik dan militer atas Mesir, kunci dominasi regional, dan menyatakan bahwa pasukan mereka memasuki Mesir tiga kali antara 559 H/1164 M dan 564 H/1168 M. Dalam Rabi' al-Thani 564, Januari 1169 M, Shirkuh, penguasa Mesir, menjadi menteri khalifah Fatimiyah. {cite:encyclopaedia-of-islam-2 vol. 11 p. 470}
+
+Artikel oleh Khalifah al-'Adid al-Wazir [[person/shawar|Shawar]], yang dipulihkan pada tahun 559 H/1164 M, menggambarkan bahwa ia meminta intervensi Mari untuk mengusir pasukan Shirkuh dari Mesir. Shirkuh menyerah di [[place/bilbays|Belbeis]] dan kembali ke Levant. {cite:encyclopaedia-of-islam-2 vol. 1 p. 216} Artikel tentang Belbeis menyatakan bahwa Mari mengepung kota tersebut. {cite:encyclopaedia-of-islam-2 vol. 1 p. 1282}
+
+## Fustat dan Kairo pada tahun 564
+Artikel tersebut [[place/al-fustat|menggambarkan Fustat]] pada tahun 564 sebagai bencana. Tentara Mari Franka berkemah tepat di selatan kota di Kolam Abyssinian. Shawar, sekutu lama mereka, telah memanggil mereka empat tahun sebelumnya dan kini memerintahkan Fustat dievakuasi dan dibakar karena takut Frank akan menggunakannya sebagai basis melawan [[place/cairo|Kairo]]. Kebakaran itu berlangsung selama lima puluh empat hari. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1001} Kartu museum adalah [[event/fustat-burning-cairo-564|Kebakaran Fustat]]. Artikel al-Aaded mengatakan bahwa Shawar, yang khawatir dengan situasi tersebut, mencoba merundingkan penarikan tentara Franka, diikuti dengan permohonan bantuan kepada Nour ad-Din, yang ia gambarkan sebagai tanda tangan perintah kejatuhan Shawar yang akan segera terjadi. {cite:encyclopaedia-of-islam-2 vol. 1 p. 216}
+
+## Damietta dan perjanjian dengan Bizantium
+Artikel Fatimiyah mencatat bahwa Kaisar Bizantium Manuel Komneen membuat kesepakatan dengan Meri pada tahun 1168 M untuk menyerang Mesir, yang ditandatangani tahun berikutnya. {cite:encyclopaedia-of-islam-2 vol. 2 p. 893} Setelah kematian Shirkuh pada 22 Jumada al-Akhira 564, yang bertepatan dengan 23 Maret 1169 M, keponakannya [[person/salah-al-din-yusuf-ibn-ayyub|Salah al-Din menjadi]] wazir, dan Meri menakuti kendalinya atas Mesir, sehingga ia mengajak seluruh dunia Kristen. Bangsa Frank memilih Damietta sebagai sasaran mereka, tetapi kurangnya koordinasi antara Bizantium dan Franka menyebabkan pengepungan dihentikan. {cite:encyclopaedia-of-islam-2 vol. 8 p. 142} Artikel [[place/dimyat|tentang Damietta menyatakan]] bahwa pengepungan berakhir pada Rabi' al-Awwal 565, Desember 1169 M. {cite:encyclopaedia-of-islam-2 vol. 2 p. 317} Lihat [[event/siege-of-damietta-1169|Pengepungan Damietta]]. Tak lama setelah itu, artikel Fatimiyah menyatakan bahwa Salah al-Din mengakhiri kekhalifahan Fatimiyah pada tahun 567 H / 1171 M. {cite:encyclopaedia-of-islam-2 vol. 2 p. 895}
+
+## Kontak Lainnya
+Sebuah artikel tentang pangeran Armenia di Kilikia menyatakan bahwa Mari turun tangan untuk memulihkan perdamaian terkait Thoros, pangeran Armenia yang kembali mengibarkan panji revolusi pada tahun 1162 M. {cite:encyclopaedia-of-islam-2 vol. 2 p. 51} Sebuah artikel oleh Sinan, pemimpin Ismaili di Levant, menyatakan bahwa pada tahun 569 H/1173 M ia mengirim utusan ke Mari untuk meminta rekonsiliasi resmi dengan negara Latin di Yerusalem. {cite:encyclopaedia-of-islam-2 vol. 8 p. 482}
+
+## Kematian dan Suksesinya
+Ibn al-Athir menulis bahwa Mari, Raja bangsa Franka, meninggal pada awal tahun 569, dan bahwa ia adalah raja yang paling berani, paling bijaksana, dan licik di antara mereka. Ia meninggalkan seorang putra kusta bernama raja Franka, dan [[person/raymond-iii-tripoli|Raymond]], penguasa Tripoli, mengambil alih administrasi. {cite:kamil-ibn-al-athir p. 68} Kartu museum menunjukkan [[event/death-of-amalric-569|kematian Mari]], dan putranya adalah [[person/baldwin-iv|Baldwin IV]]. Ensiklopedia Islam menyebutkan kematian Nur al-Din sendiri dalam artikel tentang Nur al-Din pada tahun 569 H / 1174 M, tetapi tidak mencantumkan tanggal kematian Mari. {cite:encyclopaedia-of-islam-2 vol. 8 p. 482}
+
+## Apa yang Tidak Dia Ketahui
+Sumber tertulis tidak menyebutkan kelahiran Merri, orang tuanya, atau keluarganya, juga tidak memberikan tanggal kematiannya. Annals Latin Kerajaan Yerusalem, yang tidak dibaca museum untuk catatan ini, tetap menjadi referensi pertama untuk memverifikasi tanggal dan hubungan antara peristiwa di Mesir dan Levant.

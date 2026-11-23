@@ -1,0 +1,21 @@
+---
+id: person/babur-mughal
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/babur-mughal.md}
+---
+
+## Ringkasan
+Zahiruddin Muhammad Babur, sultan Mughal pertama di India, seorang penulis memoar dan penyair, menelusuri garis keturunan ayahnya ke Timur pada generasi kelima, dan dari pihak ibunya Qutluq Nikkar Khanum hingga Genghis Khan pada derajat kelima belas. Ia lahir pada 6 Muharram 888 H / 14 Februari 1483 M, menggantikan ayahnya Umar Sheikh Mirza Fergana pada Ramadan 899 H / Juni 1494 M. {cite:encyclopaedia-of-islam-2 vol. 1 p. 904}
+
+## Konflik di Asia Tengah
+Babur mewarisi dari ayahnya konflik dengan kerabatnya atas kota-kota dan wilayah subur di Asia Tengah. Pada Rabi' al-Awwal 903 H / November 1497 M, ia berhasil menangkis upaya pamannya untuk merebut Fergana dan menduduki Samarkand, namun kalah empat bulan kemudian. Setelah itu, Andijan juga kehilangan pembagian Fergana bersama saudaranya Jahangir pada tahun 905 H / 1498-1499 M. Samarkand tiba-tiba direbut tahun berikutnya, tetapi Shaybani Khan membunuhnya di sana setelah Pertempuran Sripul (Ramadan 906 H / April-Mei 1501 M), sehingga ia menjadi penduduk nomaden yang ditinggalkan. Ia mengalahkan pasukan pendukung pamannya di Arjian pada Dhu al-Hijjah 908 H / Juni 1503 M; setelah sekitar setahun antara perjalanan Sukh dan Hishyar, ia menuju Kabul (Muharram 910 H / Juni 1504 M), di mana ia mengamankannya bersama saudaranya dan mengenakan upeti kepada suku-suku Afghanistan tetangga. Setelah kematian Sultan Husayn Mirza Bayqara, Shaybani Khan merebut sebagian besar Khorasan, tetapi Shah Ismail Safavi mengalahkannya dan membunuhnya di Merv pada 1 Ramadan 916 H / 2 Desember 1510 M. Babur menduduki Samarkand untuk ketiga kalinya (Rajab 917 H / Oktober 1511 M) sebagai vasal Shah Ismail, secara terbuka menyatakan Syiah — sehingga kehilangan dukungan rakyat — kemudian kehilangan Madinah setelah kekalahan Kuli Malik (Safar 918 H / Mei 1512 M) dan Ghajadwan (3 Ramadan 918 H / 12 November 1512 M). {cite:encyclopaedia-of-islam-2 vol. 1 p. 904}
+
+## Kabul, Kandahar, dan India
+Setelah dua tahun, Babur kembali ke Kabul sebagai pusat proyeknya di timur dan selatan; Kandahar mengamankan negosiasi di Jumada al-Akhirah 928 H / Mei 1522 M. Memanggilnya ke India, negara bagian Khan Lodi dan Bendera Khan melawan Sultan Ibrahim Lodi, ia menghancurkan pasukan Ibrahim di Panipet pada Rajab 932 H / April 1526 M, menduduki Delhi dan Agra, serta mengamankan kemenangan atas Rana Sanga Jeturi di Khanwa (Jumada al-Awwal 933 H / Maret 1527 M) di front Rajasthan, serta memperluas kemenangannya di pertemuan Ghaghra di Sungai Gangga pada Sha'ban 935 H / Mei 1529 M. He died on 6 Jumada al-Awwal 937 AH / 26 December 1530 AD in Agra, and his body was later transferred to his current grave. [eos]The article describes him as a cautious leader who learned from Uzbek leaders, applying organized order, field fortifications, rifles, artillery, and reinforcement movement. [eos](The circular line in the article is cut off in the middle; the closing paragraphs and bibliography were not captured.) [eos] {cite:encyclopaedia-of-islam-2 vol. 1 p. 904-905}
+
+## Dalam Oxford Dictionary of Islam
+Oxford Dictionary of Islam menggambarkan Babur sebagai penguasa Mughal pertama di India, yang memerintah dari tahun 1526 hingga 1530, keturunan Timur, yang menghabiskan sebagian besar hidupnya memperebutkan tanah suku di Asia Tengah. Ia mengatakan bahwa ia diundang ke India sebagai pejuang dan sekutu, menduduki Delhi pada tahun 1526, sehingga memulai dinasti Mughal. {cite:oxford-dictionary-of-islam e270}
+
+Ia menambahkan bahwa ia menulis puisi dalam bahasa Turki dan menulis autobiografi Islam besar pertama, "Babarnam." {cite:oxford-dictionary-of-islam e270} Ini sesuai dengan apa yang sebelumnya disebutkan dalam catatan Timurid asli dan tahun pendudukan Delhi. Frasa "autobiografi Islam besar pertama" dinilai dari kamus itu sendiri dan bukan berasal dari catatan ini. Lihat [[work/baburnama|Babarnam]].

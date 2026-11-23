@@ -1,0 +1,31 @@
+---
+id: person/a-r-rahman
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/a-r-rahman.md}
+---
+## Özet
+A. R. Rahman, 'Isai Puyal' ('Müzik Fırtınası' ve 'Madraslı Mozart' lakaplarıyla tanınan Hintli besteci, şarkıcı ve söz yazarıdır. {cite:wikipedia-a-r-rahman-en} {cite:britannica-a-r-rahman} Hinduizm kökenli doğan ve 1989'da ailesiyle birlikte İslam'a geçen Rahman, 'Roja', 'Lagan' ve 'Slum Millionaire' gibi filmler için yaptığı müzikler onu iki Oscar ve iki Grammy ödülüyle en çok onurlandırılan Hint senarist yaptı. {cite:wikipedia-a-r-rahman-en} {cite:britannica-a-r-rahman} İngilizce makale ve Britannica doğum yılını 1967 olarak veriyor, burada tercih edilen 1967 iken, Wikidata'nın tercih ettiği iddia 1966 ve 1967 iptal olup, anlaşmazlık günlüğünde kaydediliyor. {cite:wikipedia-a-r-rahman-en} {cite:britannica-a-r-rahman} {cite:wikidata-a-r-rahman}
+
+## Erken Yaşamı
+6 Ocak 1967'de Madras'ta (günümüzde Chennai) A. S. Dilip Kumar olarak doğdu. {cite:britannica-a-r-rahman} {cite:wikipedia-a-r-rahman-en} Babası R. K. Shekhar, Malayalam film bestecisiydi — Britannica adını 'Sekhar' olarak yazıyor — ve Rahman dokuz yaşında vefat etti. {cite:wikipedia-a-r-rahman-en} {cite:britannica-a-r-rahman} Annesi Karima, doğum adı Kastori olan Karima, babasının ölümünden sonra aileyi zor koşullarda büyüttü. {cite:wikipedia-a-r-rahman-en} Dört yaşında piyano çalmaya başladı, daha sonra ailesini desteklemek için profesyonel bir müzisyen oldu ve Ilaiyaraaja gibi besteciler için klavyeci ve düzenleyici olarak çalıştı. {cite:britannica-a-r-rahman} {cite:wikipedia-a-r-rahman-en} Profesör Dhanraj'ın yanında eğitim aldı ve Trinity College of Music'ten Batı klasik müziği diploması aldı. {cite:wikipedia-a-r-rahman-en}
+
+## İslam'a geçişi ve Sufi tarzı
+İngilizce makale, ailenin İslam'a geçişini şöyle anlatıyor: Rahman, 1984'te küçük kız kardeşi ağır hastalandığında Kadiriyya tarikatıyla tanıştı ve annesi Hindu olan annesi üzerindeki Sufizmin etkisi sonrasında tüm aile üzerinde oldu. 1989'da, yirmi üç yaşında ailesiyle birlikte İslam'ı benimsedi. {cite:wikipedia-a-r-rahman-en} Yeni adı, bir Hindu astrologun iki önerisinden — 'Abdul Rahman' ve 'Abdul Rahim' — ve annesi gördüğü bir rüyaya atıfta bulunarak 'Allah Rakha' ekledi. {cite:wikipedia-a-r-rahman-en} Britannica aynı dönüşümü doğrularak, Rahman'ın yirmili yaşlarının başında ailesiyle birlikte İslam'a geçtiğini ve bugün bilinen ismi benimsediğini belirtir. {cite:britannica-a-r-rahman} Urduca makale dönüşümü farklı şekilde anlatır: çocuğun kendi tekrarlayan hastalığı, annesinin azizin türbesinde yemini ve iyileşmesi, ardından tüm ailenin İslam'a geçişi hakkındadır; bu bağımsız bir anlatıdır ve İngilizce romanın çevirisi değildir. {cite:wikipedia-a-r-rahman-ur} Urduca makalede 'Sufizm' üzerine ayrı bir bölüm vardır; burada Rahman'ın tasavvufluğa inandığını, düzenli olarak azizlerin ve doğru insanların türbelerini ziyaret ettiğini, Pakistanlı kavval şarkıcısı Nusrat Fateh Ali Khan'ın öğrencisi olduğunu ve müziğinin maneviyatının azizlerden bir armağan olduğunu bir kez kabul ettiğini belirtir. {cite:wikipedia-a-r-rahman-ur} Bu iki bağımsız tanık hakkında—İngilizce makale buna Kadiriyya tarikatı diyor, Urduca makale ise kendisi Sufizm olarak adlandırılıyor—bu müze onun Sufi yönelimini kaydediyor ve hiçbir kaynak fıkıh okulunun adını vermiyor. {cite:wikipedia-a-r-rahman-en} {cite:wikipedia-a-r-rahman-ur}
+
+## Yükselişi
+Alwyn ve Titan kampanyaları dahil olmak üzere ticari müzikle başladı ve 1992'de kendi stüdyosu Panchathan Record Inn'i kurdu. {cite:wikipedia-a-r-rahman-en} Yönetmen Mani Ratnam ona ilk filmi 'Roja'yı (1992) verdi; bu film Ulusal Film Ödülü'nü kazandı ve Hint sinematik müziğinin sesini değiştirdi. {cite:wikipedia-a-r-rahman-en} {cite:britannica-a-r-rahman} 'Bombay', 'Rangila' ve 'Dil Si' filmleri; İngilizce makalesinde şarkısı 'Chaya Chaya' tasavvufla, ardından 'Thaal' ve 'Lagan' geldi. {cite:wikipedia-a-r-rahman-en} 2002'de Andrew Lloyd Webber'in emriyle 'Bombay Dreams' müzikalini yazdı. {cite:wikipedia-a-r-rahman-en} {cite:britannica-a-r-rahman}
+
+## Küresel Onur
+Danny Boyle'un "Slum Millionaire" (2008) filmiyle iki Oscar kazandı — film müziği ve şair Gulzar ile iş birliği olan "Jay Ho" şarkısı için — ayrıca Altın Küre ve BAFTA ödülleri, 2010'da ise iki Grammy Ödülü kazandı. {cite:wikipedia-a-r-rahman-en} {cite:britannica-a-r-rahman} "Cables Retreat" (2009) onun ilk Hollywood filmiydi ve 2010'da "127 Hours" için müzikleri besteledi. {cite:wikipedia-a-r-rahman-en} Hindistan, 2000'de Padma Shri ve 2010'da Padma Bhushan ile onurlandırdı; İngilizce makalede ise yedi ulusal film ödülü onun adına verilmiştir. {cite:britannica-a-r-rahman} {cite:wikipedia-a-r-rahman-en} Time dergisi, 2009 yılında onu dünyanın en etkili 100 kişisi arasında listelemiştir. İngilizce makale, rekor satışlarını yaklaşık 150 milyon kopya olarak tahmin etmektedir; bu tahmin makalenin kendi tahmini olarak kaydedilmiştir. {cite:wikipedia-a-r-rahman-en}
+
+## Kurumları ve sonraki eserleri
+2008'de Chennai'de KM Müzik Enstitüsü'nü, 2009'da ise yoksul çocukları müzikte eğiten 'Sunshine' orkestrasını kurdu. {cite:wikipedia-a-r-rahman-en} 2004 yılında Tüberküloz Ortaklığı ortaklığının elçisi oldu. {cite:wikipedia-a-r-rahman-en} Onursal dereceleri arasında Berklee Müzik Koleji (2014) ve Aligarh İslam Üniversitesi'nden doktora dereceleri bulunmaktadır; 2013 yılında Ontario, Markham'da bir cadde onun adını taşımaktadır. {cite:wikipedia-a-r-rahman-en} Sanal gerçeklik filmi 'Lou Musk' (2017) onun yönetmenlik ilk filmidir. {cite:wikipedia-a-r-rahman-en}
+
+## Kişisel hayatı
+1995 yılında Saira Bano ile evlendi ve üç çocukları var: Khadija, Rahima ve Amin. {cite:wikipedia-a-r-rahman-en} Kasım 2024'te çift ayrılıklarını duyurdu. {cite:wikipedia-a-r-rahman-en}
+
+## Kaynaklar
+- Yukarıda atıfta bulunulan kaynakların kuruluşları, `data/source/`'de kayıtlıdır.
+- Bu makaledeki revizyonlar tarihli olmalı ve her olayı değiştiren kaynağın adı verilmelidir.

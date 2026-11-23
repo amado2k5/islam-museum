@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "59"
-label: { ar: "موطأ مالك 59 — الأب والأبوة", en: "Muwatta Malik 59 — the father and fatherhood", ur: "موطأ مالک 59 — باپ اور والدیت", es: "Muwatta Malik 59 — el padre y la paternidad", fr: "Muwatta Malik 59 — le père et la paternité" }
+label: { ar: "موطأ مالك 59 — الأب والأبوة", en: "Muwatta Malik 59 — the father and fatherhood", ur: "موطأ مالک 59 — باپ اور والدیت", es: "Muwatta Malik 59 — el padre y la paternidad", fr: "Muwatta Malik 59 — le père et la paternité", tr: "Muwatta Malik 59 — Baba ve Babalık", id: "Muwatta Malik 59 — Sang Ayah dan Peran Ayah" }
 text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ حُمْرَانَ، مَوْلَى عُثْمَانَ بْنِ عَفَّانَ أَنَّ عُثْمَانَ بْنَ عَفَّانَ، جَلَسَ عَلَى الْمَقَاعِدِ فَجَاءَ الْمُؤَذِّنُ فَآذَنَهُ بِصَلاَةِ الْعَصْرِ فَدَعَا بِمَاءٍ فَتَوَضَّأَ ثُمَّ قَالَ وَاللَّهِ لأُحَدِّثَنَّكُمْ حَدِيثًا لَوْلاَ أَنَّهُ فِي كِتَابِ اللَّهِ مَا حَدَّثْتُكُمُوهُ ثُمَّ قَالَ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" مَا مِنِ امْرِئٍ يَتَوَضَّأُ فَيُحْسِنُ وُضُوءَهُ …"
 summary:
   ar: "حديث في موطأ مالك، رقم 59، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 59، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Muwatta Malik, n.° 59 (Pureza), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Muwatta Malik, n° 59 (Pureté), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Malik'in Muwatta adlı eserinin 59. hadisinde baba ve babalık konusu geçmektedir. Araştırmacı, bu hadisi İslam'da babalık bölümünde, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alıntılarla birlikte derlemiştir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 59, menyebutkan tentang ayah dan peran ayah. Peneliti mengumpulkan hadits ini dalam bagian tentang peran ayah dalam Islam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 59 (book 2 hadith 28); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

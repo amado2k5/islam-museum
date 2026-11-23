@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/abdallah-ibn-al-fadl, person/abd-al-rahman-ibn-hurmuz-al-araj]
 work: work/muwatta-malik
 ref: "1662"
-label: { ar: "الموطأ 1662 — عبد الله بن الفضل عن الأعرج: ورث عثمان نساء ابن مكمل منه، وكان طلقهن وهو مريض", en: "Muwatta 1662", es: "Muwatta 1662", fr: "Muwatta 1662", ur: "موطا 1662" }
+label: { ar: "الموطأ 1662 — عبد الله بن الفضل عن الأعرج: ورث عثمان نساء ابن مكمل منه، وكان طلقهن وهو مريض", en: "Muwatta 1662", es: "Muwatta 1662", fr: "Muwatta 1662", ur: "موطا 1662", tr: "El-Muvatta 1662 — Abdullah bin El-Fadl, El-Araj'dan rivayetle: Osman, İbn Mukammil'in eşlerini ondan miras aldı ve İbn Mukammil hasta iken onları boşadı.", id: "Al-Muwatta 1662 — Abdullah bin Al-Fadl berdasarkan riwayat Al-Araj: Utsman mewarisi istri-istri Ibnu Mukammil darinya, dan dia menceraikan mereka ketika dia sakit." }
 summary:
   ar: "يروي مالك عن عبد الله بن الفضل عن الأعرج أن عثمان بن عفان ورث نساء ابن مكمل منه، وكان طلقهن وهو مريض. {cite:muwatta-maruf-1997 p.83}"
+  tr: "Malik, Abdullah ibn al-Fadl'dan, o da al-A'raj'dan rivayet ettiğine göre, Osman ibn Affan, İbn Mukammil'in hasta olduğu sırada boşadığı eşlerini ondan miras almıştır. {cite:muwatta-maruf-1997 s.83}"
+  id: "Malik meriwayatkan dari Abdullah ibn al-Fadl, dari al-A'raj, bahwa Uthman ibn Affan mewarisi istri-istri Ibn Mukammil darinya, yang telah diceraikannya ketika ia sakit. {cite:muwatta-maruf-1997 p.83}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
   - { type: mentions, target: person/abdallah-ibn-al-fadl, sources: [source/muwatta-maruf-1997] }

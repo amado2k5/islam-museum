@@ -1,7 +1,7 @@
 id: event/death-sultan-shah-589
 class: event
 kind: death
-label: { ar: "وفاة سلطان شاه صاحب مرو وملك أخيه ملكشاه خراسان", en: "death of Sultan Shah of Merv — Malikshah takes Khurasan", es: "Muerte del sultán Shah de Merv: Malikshah toma Jorasán", fr: "Mort du sultan Shah de Merv — Malikshah prend le Khorasan", ur: "مرو کے سلطان شاہ کی موت - ملک شاہ نے خراسان پر قبضہ کیا۔" }
+label: { ar: "وفاة سلطان شاه صاحب مرو وملك أخيه ملكشاه خراسان", en: "death of Sultan Shah of Merv — Malikshah takes Khurasan", es: "Muerte del sultán Shah de Merv: Malikshah toma Jorasán", fr: "Mort du sultan Shah de Merv — Malikshah prend le Khorasan", ur: "مرو کے سلطان شاہ کی موت - ملک شاہ نے خراسان پر قبضہ کیا۔", tr: "Merv hükümdarı Sultan Şah ve kardeşi Horasan hükümdarı Malik Şah'ın ölümü.", id: "Kematian Sultan Shah, penguasa Merv, dan saudaranya Malik Shah, penguasa Khorasan." }
 date:
   start: { edtf: "1193~", hijri: "0589", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Sultan Shah, señor de Merv y su Jorasán, murió en Ramadán y le sucedió su hermano Malikshah, el rival que había luchado contra Khwarazmshah Tekish durante años y había hecho caer sobre él el Qara Khitay {cite:kamil-ibn-al-athir p. 228}."
   fr: "Sultan Shah, seigneur de Merv et de son Khorasan, mourut pendant le Ramadan et son frère Malikshah lui succéda — le rival qui avait combattu Khwarazmshah Tekish pendant des années et avait fait tomber le Qara Khitay sur lui {cite:kamil-ibn-al-athir p. 228}."
   ur: "مرو اور اس کے خراسان کے سردار سلطان شاہ کا انتقال رمضان میں ہوا اور اس کا بھائی ملک شاہ کامیاب ہوا - وہ حریف جس نے خوارزم شاہ تکش سے برسوں تک جنگ کی اور قرہ خیطے کو اس پر گرایا۔ 228}۔"
+  tr: "Merv ve Horasan'ın çevresindeki bölgelerin hükümdarı Sultan Şah, Ramazan ayında vefat etti ve kardeşi Malik Şah kral oldu. Sultan Şah, kardeşi Harezm Şah Tekiş ile uzun süredir anlaşmazlık içindeydi ve sonunda onu Kara-Hattayın Harezm'in eline teslim etti. {kaynak: Kamil İbn el-Athir, s. 228}"
+  id: "Sultan Shah, penguasa Merv dan daerah sekitarnya di Khorasan, meninggal pada bulan Ramadan, dan saudaranya Malik Shah menjadi raja. Sultan Shah telah lama berselisih dengan saudaranya Khwarazm Shah Tekish hingga akhirnya ia menyerahkannya ke tangan Kara-Khattayin Khwarazm. {cite:kamil-ibn-al-athir p. 228}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/merv, sources: [source/kamil-ibn-al-athir] }

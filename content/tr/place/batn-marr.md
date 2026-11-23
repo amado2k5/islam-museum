@@ -1,0 +1,15 @@
+---
+id: place/batn-marr
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/place/batn-marr.md}
+---
+## Özet
+Mekke'den Al-Juhfa'ya giden yolda, Mekke'ye yaklaşık on altı mil uzaklıkta, kumlu bir kanalda bir kaynak ve palmiye koruluklarıyla çevrili bir kaynak olan bir yer, bazı Arapları barındırıyor. {cite:nuzhat-al-mushtaq-2002 p.141}
+
+## Ülkeler sözlüğünde
+Yaqut, Mekke yakınlarındaki 'Batn Mar'dan bahseder ve ismin 'm' harflerinde bir fetha ile vurgulu 'r' harfi ile sabitlendiğini belirtir. İki palmiye vadisinin burada birleşip tek bir vadiye dönüştüğünü, okuyucunun ise girişlerine atıfta bulunduğunu söyler: 'Nakhlah' ve 'Mar'. Ebu Dhu'ayb al-Hudhali'nin 'Mar'ın Batn'ını Al-Rajee' ve 'Dhi Sidr' olarak adlandırdığı iki ayeti aktarır; buradaki tanım aktarım değildir. {cite:mujam-al-buldan-sader-1995 1 p.449} 'Nakhlat al-Shamiyya'nın girişinde, Hudhayl diyarından Mekke'den iki gece uzaklıkta, Mar'ın kalbinde birleşip tek bir vadiye dönüşen iki vadiyi anlatır. Al-Yamaniyyah, Qarn al-Manazil'den gelir ve buluşma noktası al-Bustan'dır. Halkın 'İbn Amir'in meyve bahçesi' dediğini belirtir., ve el-Esma'i, Ebu Ubeyde ve diğerlerinin burayı İbn Muammer'in bahçesi olarak gördüğünü. {cite:mujam-al-buldan-sader-1995 5 p.277} {cite:mujam-al-buldan-sader-1995 1 p.414} 'Mar' girişinde, Dhahran'ın Mar'ından bahseder ve onu Mekke'nin bir sahnesine yerleştirir. 'Aram'dan Mar'ın köy, Dhahran'ın vadi olduğunu, Aslam, Hudhayl ve Ghadhira için kaynaklar, palmiye ağaçları ve miselyum olduğunu anlatır. Ayrıca Al-Waqidi'den Mar ile Mekke arasında beş mil olduğunu bildirir. {cite:mujam-al-buldan-sader-1995 5 p.104} Bu kayıtlarda Mar vadilerinin ve Dhahran'ın Mar'ının aynı yer olduğunu söylemez. Mar vadisinde ve yakınında iki köyden bahseder: Sar'ah ile Al-Barira arasında, Mar vadisinde bir kaynak ve palmiye ağaçları {cite:mujam-al-buldan-sader-1995 2 p.307} bulunan Al-Humaymah, Mar vadisi ile Nakhlah vadisi arasında ortada yer alır. Arkadaşı Al-Hafiz Al-Najjar ona Mar vadisinde olduğunu ve uzaktan palmiye ağaçlarını gördüğünü söyler. {cite:mujam-al-buldan-sader-1995 5 p.351}
+
+## Müzenin Tanımı
+Al-Battaqa, Al-Idrisi'ye göre, Mekke'den Al-Juhfa'ya giden yol üzerinde, Mekke'ye yaklaşık on altı mil uzaklıktadır. Kumlu bir kanalda bir kaynak ve bazı Arapların sığındığı palmiye ağaçları vardır. Yaqut'un karnına giriş kaynağı, palmiye ağaçları ve mesafe yoktur; bu detaylar sadece Al-Humaymah ve Mar girişlerinde görülür. Ayn Al-Baka ve palmiyeleri, Yaqut veya Al-Idrisi tarafından bahsedilmemiş müzeden alınan Ain Al-Humaymah veya Nakhl Wasit'tir. Yaqut'un sayıları birbirine uymaz: 'Marr'da bir aşama ve Al-Waqidi'den beş mil, 'Palm Al-Shamiyah'da ise iki gece, müze aralarında bir tercih yapmaz. Kart noktası Mekke'deki müze noktasından 16,7 km uzaklıktadır. Bkz [[place/mecca|. Mekke]] ve [[place/al-juhfa|Al-Juhfa]].

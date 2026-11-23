@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/muhammad-ibn-shihab-al-zuhri, person/said-ibn-al-musayyab]
 work: work/muwatta-malik
 ref: "1705"
-label: { ar: "الموطأ 1705 — ابن شهاب عن سعيد بن المسيب: عدة المستحاضة سنة", en: "Muwatta 1705", es: "Muwatta 1705", fr: "Muwatta 1705", ur: "موطا 1705" }
+label: { ar: "الموطأ 1705 — ابن شهاب عن سعيد بن المسيب: عدة المستحاضة سنة", en: "Muwatta 1705", es: "Muwatta 1705", fr: "Muwatta 1705", ur: "موطا 1705", tr: "Al-Muwatta 1705 — İbn Şihab, Said bin Al-Musayyab'dan rivayetle: Uzun süren kanama yaşayan bir kadının bekleme süresi bir yıldır." }
 summary:
   ar: "يروي مالك عن ابن شهاب عن سعيد بن المسيب أنه قال عدة المستحاضة سنة. {cite:muwatta-maruf-1997 p.96}"
+  tr: "Malik, İbn Şihab'dan, o da Sa'id ibn al-Musayyab'dan rivayetle şöyle buyurduğunu aktarır: Uzun süreli kanaması olan bir kadının bekleme süresi bir yıldır. {cite:muwatta-maruf-1997 s.96}"
+  id: "Malik meriwayatkan dari Ibn Shihab, dari Sa'id ibn al-Musayyab, bahwa beliau berkata: Masa iddah bagi wanita yang mengalami pendarahan berkepanjangan adalah satu tahun. {cite:muwatta-maruf-1997 p.96}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
   - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }

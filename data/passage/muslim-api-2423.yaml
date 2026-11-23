@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2423"
-label: { ar: "صحيح مسلم 2423 — اليتيم وفقد الأب", en: "Sahih Muslim 2423 — the orphan and the father lost", ur: "صحیح مسلم 2423 — یتیم اور باپ کی موت", es: "Sahih Muslim 2423 — El huérfano y el padre perdido", fr: "Sahih Muslim 2423 — L'orphelin et le père perdus" }
+label: { ar: "صحيح مسلم 2423 — اليتيم وفقد الأب", en: "Sahih Muslim 2423 — the orphan and the father lost", ur: "صحیح مسلم 2423 — یتیم اور باپ کی موت", es: "Sahih Muslim 2423 — El huérfano y el padre perdido", fr: "Sahih Muslim 2423 — L'orphelin et le père perdus", tr: "Sahih Muslim 2423 — Yetim ve Babayı Kaybetme", id: "Sahih Muslim 2423 — Anak Yatim dan Kehilangan Ayah" }
 text: "… أَوْ يُلِمُّ إِلاَّ آكِلَةَ الْخَضِرِ فَإِنَّهَا أَكَلَتْ حَتَّى إِذَا امْتَلأَتْ خَاصِرَتَاهَا اسْتَقْبَلَتْ عَيْنَ الشَّمْسِ فَثَلَطَتْ وَبَالَتْ ثُمَّ رَتَعَتْ وَإِنَّ هَذَا الْمَالَ خَضِرٌ حُلْوٌ وَنِعْمَ صَاحِبُ الْمُسْلِمِ هُوَ لِمَنْ أَعْطَى مِنْهُ الْمِسْكِينَ وَالْيَتِيمَ وَابْنَ السَّبِيلِ أَوْ كَمَا قَالَ رَسُولُ اللَّهِ وَإِنَّهُ مَنْ يَأْخُذُهُ بِغَيْرِ حَقِّهِ كَانَ كَالَّذِي يَأْكُلُ وَلاَ يَشْبَعُ وَيَكُونُ عَلَيْهِ شَهِيدًا يَوْمَ الْقِيَامَةِ \"."
 summary:
   ar: "حديث في صحيح مسلم، رقم 2423، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 2423، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 2423 (El Libro del Zakat), menciona al huérfano y al padre fallecido. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre la figura paterna."
   fr: "Un hadith du Sahih Muslim, n° 2423 (Le Livre de la Zakat), mentionne l'orphelin et le père disparu. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la figure paternelle."
+  tr: "Sahih Müslim'de 2423 numaralı hadis, yetimlerden ve babasızlık durumundan bahseder. \"İslam'da Babalık\" bölümü, bu hadisi Kur'an, Sünnet, Peygamberin biyografisi ve bu konuyla ilgili diğer kitaplardan alıntılarla birlikte derlemektedir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 2423, menyebutkan tentang anak yatim dan kehilangan seorang ayah. Bagian \"Kebapakan dalam Islam\" mengumpulkan hadits ini bersama dengan teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/yatim-fiqh, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2423 (book 12 hadith 160); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

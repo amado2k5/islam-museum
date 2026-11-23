@@ -1,0 +1,26 @@
+---
+id: person/zayd-al-khayl
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/zayd-al-khayl.md}
+---
+
+## Ringkasan
+Sayyid Tayy, yang datang bersama delegasi kaumnya pada tahun 9 H, memeluk Islam, dan diangkat oleh Nabi Zayd al-Khair {cite:mubarakpuri-raheeq ص453}.
+
+## Pengalaman
+Sebuah delegasi dari Tayy, termasuk Zayd al-Khayl, tiba dan berbicara kepada Nabi, yang mempersembahkan Islam kepada mereka, dan mereka memeluk Islam dan Islam mereka baik {cite:mubarakpuri-raheeq ص453}. Nabi berkata tentang Zayd: Tidak ada orang Arab yang menyebutkan kebajikan kepada saya lalu datang kepada saya kecuali saya melihatnya, dan dikatakan tentang dia kecuali Zayd al-Khayl, karena dia tidak mencapai semua yang terkandung di dalamnya, dan dia menamainya Zayd al-Khayr {cite:mubarakpuri-raheeq ص453}.
+
+## Untuk pengunjung muda
+Zayd adalah seorang maestro yang terkenal karena kemurahan hati dan keberaniannya di antara rakyatnya. Ketika Nabi datang, ia terkesan dan menamainya 'Zaid yang Baik.'
+
+## Dalam biografi Ibn Hisham
+Dia datang dalam [[event/delegation-of-tayy|delegasi Tayy]], pemimpin mereka, dan Nabi mempersembahkan Islam kepada mereka, sehingga mereka memeluk Islam, dan Islam mereka baik. {cite:ibn-hisham-saqqa 4/224} Ibn Ishaq menceritakan dari orang-orang Tayy, yang tidak boleh dituduh, pernyataan Nabi tentang dirinya, lalu menamainya Zayd al-Khayr, memotong sebuah [[place/fayd|fida]] dan dua tanah bersamanya, dan menulis surat kepadanya. {cite:ibn-hisham-saqqa 4/224} Ketika dia kembali, Nabi berkata: Zayd melarikan diri dari panas Madinah, dan dia menamainya dengan nama yang tidak dibuktikan oleh narator. Ketika dia sampai di sebuah air di Najd yang disebut [[place/farda|Farda, dia]] terkena demam dan meninggal. Ketika dia merasakan kematian, dia berkata dua rumah menyebutkan perjalanan kaumnya dan kepergiannya di sebuah rumah di Farda. {cite:ibn-hisham-saqqa 4/224} Ketika ia meninggal, istrinya mengambil buku-buku yang dipotong Nabi untuknya dan membakarnya dengan api. {cite:ibn-hisham-saqqa 4/224}
+
+## Dalam "Gambar dari Kehidupan Para Rekan" oleh Abdul Rahman Raafat Al-Basha
+Pasha [[person/abd-al-rahman-rafat-al-basha|menggambarkan]] dua gambar Zayd dalam [[work/suwar-min-hayat-al-sahaba|kehidupan para sahabat]]: sebuah gambar pra-Islam dari buku sastra, dan gambar Islam dari biografi. {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.124} Dalam yang pertama, ia menceritakan dari Al-Shaybani dari seorang pria dari Banu Amir tentang seorang pria yang paling dermawan di antara bangsanya dan pergi meminta uang untuk keluarganya. Ia menghabiskan malam di belakang seorang pria tua yang bersembunyi dan meminum susunya. Kemudian ia mengendarai unta seorang penunggang kuda bertubuh besar. Penunggangnya mengikutinya dan menembakkan tiga busurnya ke tali kekang kuda jantan itu. Ketika pria itu menyadari bahwa kuda-kuda itu adalah Zaid dan ayah sang sheikh adalah Muhalhal, ia menyerah. Zayd menghormatinya dan tidak memberinya unta karena itu adalah saudara perempuannya. Kemudian ia menyerang Banu Numayr, memberinya sekitar seratus unta, dan mengirim seseorang untuk melindunginya kepada Al-Hirah. {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.124} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.125} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.126} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.127} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.128}
+Dalam yang kedua, disebutkan bahwa ia datang dalam delegasi besar dari Tayy, termasuk Zar ibn Sudus, Malik ibn Jubayr, dan Amir ibn Juwayn. Mereka datang kepada Nabi untuk menyampaikan khotbah; sedangkan Zar, ia iri dan berkata melihat seorang pria yang akan menguasai leher orang Arab, dan ia pergi ke Levant untuk mengkristenkan. Adapun Zayd, ia menyaksikan dua kesaksian itu, dan Nabi berkata kepadanya: Sebaliknya, engkau adalah Zayd yang baik. {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.128} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.129} Dikatakan bahwa Nabi berkata kepadanya: Engkau memiliki dua sifat yang dicintai Allah dan Rasul-Nya: kesabaran dan kesabaran. Zayd meminta tiga ratus penunggang kuda untuk digunakan melawan Romawi, dan ia terkena pengepungan Madinah dalam perjalanan pulang. Ia berkata kepada yang bersamanya: Hindari tanah Qays, karena ia tidak akan melawan Muslim sampai bertemu Tuhan, dan ia meninggal dalam perjalanan ke Najd. {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.130} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.131}
+
+## Dalam pelajaran Sheikh Omar Abd El-Kafi
+Sheikh Omar Abdul Kafi menceritakan dalam episode kesembilan [[work/tafsir-al-quran-al-qareem|Tafsir Al-Qur'an]] bahwa Zaid al-Khair mengatakan kepada Nabi ketika ia bertanya tentang perasaannya bahwa ia mencintai kebaikan dan orang-orang baik, dan ketika ia merindukan kebaikan, ia merindukannya (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:24:30} Sheikh melihat ini sebagai tanda bahwa Allah bermaksud baik untuk hamba di akhirat (pendapatnya). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:25:00}

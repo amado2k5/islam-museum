@@ -1,0 +1,12 @@
+---
+id: event/the-hakami-letters-and-the-oaths-and-abu-al-qasim-sent-to-khaywan-292
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/the-hakami-letters-and-the-oaths-and-abu-al-qasim-sent-to-khaywan-292.md}
+---
+## Özet
+El-Hadi Sa'da'ya yerleştikten sonra, hükümdarlar [[person/ibrahim-ibn-ali-al-hakami|İbrahim bin]] Ali ve [[person/al-ghatrif-al-hakami|el-Ghatrif]]'ten vatanlarının akıbetini soran mektuplar ona ulaştı. Sahip oldukları para, ordu ve halifeliği ona teslim ettiler ve kendi ellerinden verdiler {cite:sira-hadi-ila-al-haqq p.295}. Orijinalin kenarında: 'Hakemiyin el-Hadi'ye yazdı' {cite:sira-hadi-ila-al-haqq p.295}.
+
+## Detaylar
+Yemen halkının kötülüğünü ve sadakatsizliklerini bildiği için onlara cevap vermedi. Davasını kanıtlamak için güvenilir bir grup adam göndermelerine ve güvenilir kadınlarından ruhlarından verdikleri şeyler hakkında yemin edecek birini göndermesini isteyene kadar ısrar etti {cite:sira-hadi-ila-al-haqq p.295}. Güvenilir adamlarından bir grup gönderdi, onlar da yemin ettiler ve yaptıklarını ona bildirdiler. Onların kendilerini verdiklerini fark edince mermileri Khawlan'a gönderdi ve birçok asker ona {cite:sira-hadi-ila-al-haqq p.295} toplandı. Oğlu [[person/al-murtada-muhammad|Ebu al-Kasım]]'ı [[place/khiwan|Hayvan]]'a gönderdi Ona bu esere uymasını emretti. Zabid'den mektupları geldiğinde, 'Karmat savaşında' Hamdan'daki Sana'a'ya doğru yola çıktı ve oradaki bedevileri tespit edip kendisi için bir grup süvari toplamasını emretti. Ebu el-Kasım daha sonra Hayvan'a {cite:sira-hadi-ila-al-haqq p.295} kadar yürüdü. Rivayet, el-Hadi'nin Yemen halkı hakkındaki uyarısını ilk reddinin sebebi olarak gösterdiğini, ardından ittifaktan sonra kabul ettiğini belirtir; bu, anlatıcının İmam destekçileri hakkındaki kararıdır, müzenin Yemen halkı hakkındaki kararı değil. Burada 'Karmatlılar' [[group/qaramita|özel bir siciline kayıtlı bir]] gruptur ve metinde konuları belirtilmemektedir. El-Hadi ve Tihama hakkındaki raporun devamı, bu sayfanın sonraki bölümünde, 296. sayfanın başında yer almaktadır. Bu olay [[event/al-hadi-leaves-najran-for-saada-in-dhu-al-qada-292|, El-Hadi'nin Saada'ya yolculuğuyla]] ilgilidir.

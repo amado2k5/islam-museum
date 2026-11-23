@@ -1,0 +1,14 @@
+---
+id: person/saad-bouh
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/saad-bouh.md}
+---
+## Ringkasan
+
+Sheikh Saad Bouh lahir pada tahun 1285 H / 1848 M di Cekungan Timur tanah Chinguetti. Ia adalah putra ketiga puluh satu dari ayahnya, Sheikh Muhammad Fadel bin Mamin, pendiri tarekat Fadiliyya. Ia menerima pendidikan dalam bidang hukum dan sufisme dari ayah dan saudara-saudaranya. {cite:wikipedia-saad-bouh-ar} {cite:wikipedia-saad-bouh-fr} Ketika berusia delapan belas tahun, ayahnya pergi ke tanah Qibla—Trarza di Mauritania barat—untuk menyebarkan Fadliya. Ia pertama kali menetap di Touiziket, di mana ia membangun kasbah dan pusat pendidikan, kemudian pada tahun 1909 ia mendirikan pusat studinya di Namajat utara Rousseau, dan ratusan sheikh diberi wewenang untuk memberikan bunga di seluruh Afrika Barat—664 sheikh dalam sensus Taliboya Niang—hingga pada tahun 1888 ia menjadi satu-satunya perwakilan Fadliya yang diakui di Senegal, dan pengaruhnya meluas ke Fota, Cayor, Paul, Joloff, Gambia, dan Casamance. {cite:wikipedia-saad-bouh-fr} {cite:wikipedia-saad-buh-en}
+
+Catatan berbeda dalam sikapnya terhadap kolonialisme Prancis: biografi Arab menyebutkan ia berpartisipasi dalam beberapa kampanye jihad melawan penjajah Spanyol dan Prancis bersama saudaranya [[person/ma-al-aynayn|Sheikh Ma al-Ainain]], {cite:wikipedia-saad-bouh-ar}, sementara studi Prancis sezaman dan kemudian—dari Paul Marty hingga Rahael Bobrik—mendokumentasikan seorang pria yang menjadi penengah antara penguasa Prancis dan lokal, menyelamatkan penjelajah Paul Soulier dan rekan-rekannya pada tahun 1880 serta tawanan lainnya, dan pada tahun 1906 menulis 'Nasihat' terkenal kepada kakaknya, mendesaknya untuk meninggalkan jihad melawan Prancis, mengutip Al-Qur'an, Sunnah, dan sejarah, dengan prinsip bahwa siapa pun yang mengangkat senjata menjauhkan diri dari kebajikan. {cite:wikipedia-saad-bouh-fr}{cite:wikipedia-saad-buh-en}
+
+Ia meninggal di Namgat pada 12 Juli 1917, pada hari kedua puluh dua Ramadan 1335 H. Ia dimakamkan di sana, dan makamnya adalah tempat suci tempat ribuan orang berkumpul setiap Ramadan. {cite:wikipedia-saad-bouh-fr} {cite:wikipedia-saad-bouh-ar} Ia meninggalkan banyak karya dalam bidang hukum dan Sufisme — sembilan puluh lima karya dalam daftar Abdel Wadud Ould Sheikh — termasuk "Nur al-Sirat al-Mustaqim" dan puisi-puisinya yang panjang tentang Sufisme, "Nasihat Umum dan Khusus tentang Masalah Fransiskus," risalahnya tentang larangan tembakau, dan penjelasannya tentang Nama-nama Indah Tuhan. {cite:wikipedia-saad-bouh-fr} {cite:wikipedia-saad-bouh-ar}

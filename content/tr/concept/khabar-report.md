@@ -1,0 +1,9 @@
+---
+id: concept/khabar-report
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/khabar-report.md}
+---
+## Özet
+Dilbilimsel olarak haber, aktarılan ve konuşulan şeyleri ifade eder. Hadisâlimler arasında çoğunlukla hadis ile eşanlamlıdır, ancak haber, genel biçimlerinden daha geniştir. Haber, büyük fayda sağlayan bir haberdir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7537} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7538} Belirli bir kişiyle ilgili bir rapor, itiraf, delil ve iddia, genel olarak ise rivayet, hükmetme ve fetva olarak ikiye ayrılır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7538} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7539} Su, giysi veya yiyeceğin kirliliğiyle ilgili güvenilir bir kişinin raporu nedeni açıklanırsa kabul edilir, ancak bir kâfir, günahkar veya akıl hastasının haberi bu konuda kabul edilmez. Seçkin bir çocuğun haberi konusunda anlaşmazlık vardır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7539} Kıble hakkında güvenilir bir rapor çoğunluk tarafından kabul edilir, ancak kâfir, akıl hastası veya olgunlaşmamış çocuğun raporu kabul edilmez. Seçkin ve günahkar çocuklar konusunda anlaşmazlık vardır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7540} Hilal ayın görülmesiyle ilgili olarak, Ramazan Şafi'ler, Hanbeliler ve Ebu Hanife rivayetlerine göre kabul edilirken, Hanefiler gökyüzü temizse birkaç tanık ister. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7540} Ramazan hilalini gördüğünde, Malikiler otuz gün Şa'ban'ı tamamlamak ya da iki gün daha görmek ister. Bu, Şafiilerin ve Ahmed'in hadis hakkındaki rivayetidir: Gördüğünde oruç tut ve oruçunu aç. Eğer senin için bulutluysa, otuz günü tamamla. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7541}

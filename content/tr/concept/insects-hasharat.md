@@ -1,0 +1,9 @@
+---
+id: concept/insects-hasharat
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/insects-hasharat.md}
+---
+## Özet
+Böcekler, yeryüzünün küçük hayvanları ve hayvanlarıdır; zehirsiz yeryüzü böcekler oldukları söylenir, zoologlar arasındaki tanımdan farklıdırlar. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7091} Böceklerin yemesi hakkında iki görüş vardır: Hanefiler, Şafiiler ve Hanbaliler çekirge dışında onları yasaklarken, Şafi'ler ve Hanbaliler kertenkele, jerboa ve diğerlerini hariç tutar. Malikiler domuz hariç tüm böceklere izin verir, bazıları ise yasaklar. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7091} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7092} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7093} Ve onları yiyen kişi sıvı ruhluysa temizlenmelidir; sıvı ruhu olmayan, örneğin çekirgeler, çoğunluğun izin verdiği şekilde yenmek zorunda değildir. Malikiler şöyle derler: Yenmelidir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7094} Böcek öldürmek ne kesin olarak emir edilir ne de yasaktır; beş adımlı yılan, yılan, kertenkele ve fare gibi zararlı böceklerin öldürülmesi önerilir. Şafiilere göre, solo karınca, arı ve kurbağa öldürmek yasaktır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7095} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7096} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7097} Muharrem, Hanefi, Şafii ve Hanbali'ye göre böcek öldürme hakkına sahiptir, çünkü bu yasak avlanmaz. Malikiler, zararı önlemek için zararlıları öldürmeye izin verir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7097} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7098}

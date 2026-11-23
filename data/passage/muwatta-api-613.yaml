@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "613"
-label: { ar: "موطأ مالك — حديث 613", en: "Muwatta Malik 613 — Zakat", ur: "موطأ مالک — حدیث 613", es: "Muwatta Malik 613 — Zakat", fr: "Muwatta Malik 613 — Zakat" }
+label: { ar: "موطأ مالك — حديث 613", en: "Muwatta Malik 613 — Zakat", ur: "موطأ مالک — حدیث 613", es: "Muwatta Malik 613 — Zakat", fr: "Muwatta Malik 613 — Zakat", tr: "Muwatta Malik — Hadis 613", id: "Muwatta Malik — Hadits 613" }
 text: "جَاءَ كِتَابٌ مِنْ عُمَرَ بْنِ عَبْدِ الْعَزِيزِ إِلَى أَبِي وَهُوَ بِمِنًى أَنْ لاَ يَأْخُذَ مِنَ الْعَسَلِ وَلاَ مِنَ الْخَيْلِ صَدَقَةً ‏.‏"
 summary:
   ar: "في موطأ مالك؛ وصول كتاب منسوب إلى مرسل."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک میں؛ نامزد بھیجنے والے کا خط پہنچنا."
   es: "En Muwatta Malik; una carta que llega de un remitente con nombre."
   fr: "Dans Muwatta Malik; une lettre arrivant d'un expéditeur nommé."
+  tr: "Malik'in Muwatta'sında; bir aktarıcıya atfedilen bir kitabın gelişi anlatılır."
+  id: "Dalam Muwatta karya Malik; kedatangan sebuah buku yang dikaitkan dengan seorang perawi."
 relations:
   - { type: mentions, target: person/umar-ibn-abd-al-aziz, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
   - { type: mentions, target: concept/al-mukatabat, sources: [source/muwatta-malik] }

@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2588"
-label: { ar: "مسلم 2588 — ما نقصت صدقة من مال", en: "Muslim 2588 — Charity never diminishes wealth", es: "Musulmán 2588 — La caridad nunca disminuye la riqueza", fr: "Muslim 2588 — La charité ne diminue jamais la richesse", ur: "مسلم 2588 - صدقہ دولت کو کبھی کم نہیں کرتا" }
+label: { ar: "مسلم 2588 — ما نقصت صدقة من مال", en: "Muslim 2588 — Charity never diminishes wealth", es: "Musulmán 2588 — La caridad nunca disminuye la riqueza", fr: "Muslim 2588 — La charité ne diminue jamais la richesse", ur: "مسلم 2588 - صدقہ دولت کو کبھی کم نہیں کرتا", tr: "Müslim 2588 — Sadaka, serveti azaltmaz.", id: "Muslim 2588 — Sedekah tidak mengurangi kekayaan" }
 text: "قال رسول الله: «ما نقصت صدقة من مال، وما زاد الله عبداً بعفو إلا عزاً، وما تواضع أحد لله إلا رفعه الله»"
 summary:
   ar: "رواية أبي هريرة في كتاب البر من صحيح مسلم؛ ثلاثية الأجر المشهورة: الصدقة لا تنقص المال، والعفو يزيد العبد عزاً، والتواضع لله رفعة."
+  tr: "Sahih Müslim'de yer alan Salihlik Kitabı'ndaki Ebu Hurayra'nın rivayetine göre, sevabın meşhur üçlüsü şöyledir: Sadaka malı azaltmaz, bağışlama kulun şerefini artırır ve Allah'a karşı tevazu onu yüceltir."
+  id: "Riwayat Abu Hurairah dalam Kitab Kebajikan dari Sahih Muslim; tiga serangkai pahala yang terkenal: sedekah tidak mengurangi kekayaan, pengampunan menambah kehormatan seorang hamba, dan kerendahan hati di hadapan Allah meninggikan derajatnya."
 relations:
   - { type: part_of, target: passage/muslim-kitab-45 }
   - { type: mentions, target: concept/mal-fiqh, sources: [source/sahih-muslim] }

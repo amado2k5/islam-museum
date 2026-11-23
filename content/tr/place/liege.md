@@ -1,0 +1,11 @@
+---
+id: place/liege
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/place/liege.md}
+---
+## Özet
+Liège, her tarafı nehirle çevrili bir nehir adasında güzel bir şehirdir. Yeterli pazar ve sanayiye sahiptir. {cite:nuzhat-al-mushtaq-2002 p.868}
+
+Al-Idrisi, Mas'a olan mesafesinin yüz mil olduğunu belirtir. {cite:nuzhat-al-mushtaq-2002 p.868}

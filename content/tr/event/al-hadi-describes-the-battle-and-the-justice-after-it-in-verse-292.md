@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-describes-the-battle-and-the-justice-after-it-in-verse-292
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/al-hadi-describes-the-battle-and-the-justice-after-it-in-verse-292.md}
+---
+## Özet
+"O zaman beni çok uzakta göreceksiniz, ama ben de sizin aranızdayım, bir tırpan onu yakaladığında geçmişi olan bir geçmişle kafataslarınızı vuruyorum" {cite:sira-hadi-ila-al-haqq p.305}.
+
+## Detaylar
+Kendini pusuda sert olarak adlandırdığı kişiler tarafından kandırıldığını, Yemen kabileleri tarafından çevrelendiğini, yüksek rütbeli inananların çevresinde, alçak ve cahillerin arasında olduğunu söyler; bu yüzden dinini, Tahtın Sahibi'ni destekler ve ateistler "onurla savunmazlar", bu yüzden esaret altında ağılarak tutulacaklardır {cite:sira-hadi-ila-al-haqq p.305}. Sonra der ki: "Ve Rabbimin Kitabına göre yargıla," "Ve ben dedemin seçilmiş Sünnetini yerine getireceğim" {cite:sira-hadi-ila-al-haqq p.305}. Ve s. 306'da: "O zaman parçalanmış haksızlıkla karşılaşacak," ve gerçek netleşiyor, hoşnutsuzluktan sonra soylu memnun oluyor, herkes adaletle döner, dul ve yetimler tatmin olur ve o giydirilir Çıplak, borçlar ve borçlar onlardan ödenir, hepsi arasında paylaştırılır ve Tanrı onlardan memnundur: "Adaleti yoktur" {cite:sira-hadi-ila-al-haqq p.306}. Bu dizelerdeki karşıtlar, müzenin tekrarlamadığı eleştiri sözleriyle tanımlanır. Bu, bir Zeydi kitabında El-Hadi'ye atfedilen şiirsel bir vaat ve umuttur, müzeden herhangi bir olay ya da hüküm haber yoktur ve kitap burada düşmanlardan bahsetmez. Sonra, 306. sayfada, "Ve onun da vardır," dizeleri "Ey sağduyu sahibi, rehberliğin kardeşi" ile başlayan başka dizeler vardır; bu da bir sonraki bölümde ele alınacak konular arasındadır. Baskı [[event/al-hadi-warns-the-unjust-governors-in-verse-and-names-the-yemeni-regiments-292|yöneticilerine yazdığı dizelerden sonra gelir]]. Anlatım, İmam takipçilerinin dilinde bir Zaydi kitabında yer almakta olup, içinde anlatıcı veya şaire atfedilen muhalifler hakkında tanımlar ve yargılar vardır; müze tarafından ne benimsenmiştir ne de yargılanmıştır. [[event/al-hadi-addresses-the-man-of-firm-mind-and-the-saying-of-what-will-be-292|Ardından, s. 306']] da sağduyulu adama yazdığı şiirler gelir.

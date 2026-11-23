@@ -1,7 +1,7 @@
 id: event/conquest-of-takrit
 class: event
 kind: conquest
-label: { ar: "فتح تكريت", en: "Conquest of Takrit (16 AH)", es: "Conquista de Takrit (16 AH)", fr: "Conquête de Takrit (16 AH)", ur: "فتح تکریت ⁦(16ھ)⁩" }
+label: { ar: "فتح تكريت", en: "Conquest of Takrit (16 AH)", es: "Conquista de Takrit (16 AH)", fr: "Conquête de Takrit (16 AH)", ur: "فتح تکریت ⁦(16ھ)⁩", tr: "Tikrit'in Fethi", id: "Penaklukan Tikrit" }
 date:
   start: { edtf: "0637", hijri: "0016-03", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى سنة 16؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 348}." }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Takrit en el Tigris tomado en Jumada del año 16, dentro de las conquistas del este de Irak {cite:kamil-ibn-al-athir p. 348}."
   fr: "Takrit sur le Tigre pris en Jumada de l'an 16, dans les conquêtes de l'est de l'Irak {cite: kamil-ibn-al-athir p. 348}."
   ur: "دجلہ پر تکریت کو 16 جمادی الثانی میں لیا گیا، مشرقی عراق کی فتوحات کے اندر۔ 348}۔"
+  tr: "Irak'ın doğusunun fetihlerinin bir parçası olarak, 16. Cemâda yılında Dicle Nehri üzerindeki Tikrit'in fethi {kaynak: Kamil ibn el-Atir s. 348}."
+  id: "Penaklukan Tikrit di tepi Sungai Tigris pada bulan Jumada tahun keenam belas, sebagai bagian dari penaklukan Irak timur {cite:kamil-ibn-al-athir hlm. 348}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/takrit, sources: [source/kamil-ibn-al-athir] }

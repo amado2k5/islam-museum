@@ -1,0 +1,12 @@
+---
+id: practice/dua-afternoon-to-sunset
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/practice/dua-afternoon-to-sunset.md}
+---
+## Özet
+El-Nawavi'nin öğleden sonra Asr'a ve öğleden sonra gün batımına kadar söylenenlerle ilgili bölümümde derlediği şey: öğleden sonra ve Asr'den sonra sık sık anma ve hatırlayanlarla oturmanın erdemidir. {cite:al-adhkar-nawawi-arnaut-1994 p. 86}
+
+## Al-Nawawi'nin 'Al-Adhkar'da topladıkları
+El-Nevavi, öğleden sonra öğleden sonra Asr'a kadar söylenenlerle ilgili bölümde, giysi giymek, evden çıkmak, tuvalete girmek, abdest almak, camiye gitmek, müezzin dinlemek ve namaz sırasında ve sonrasında söylenenlerin önce yapıldığını belirtir. Tüm bunlar tüm namazlarla paylaşılır ve öğle sonrası {cite:al-adhkar-nawawi-arnaut-1994 p. 86} anıların ve diğer ibadet eylemlerinin artırılması tavsiye edilir. Abdullah ibn el-Saib'in Tirmizi kitabında, [[person/muhammad|Peygamber'in]] güneş battıktan sonra öğleden önce dört kez namaz kıldığı ve gök kapılarının açılacağı bir saat olduğunu söylediği ve bu yüzden benim için doğru bir iş olmasını dilediğiyle anlattığı anlatılır. Ayrıca Tirmidi'nin iyi bir hadis {cite:al-adhkar-nawawi-arnaut-1994 p. 87} anlattığını belirtmiştir. Dhuhr namazından sonra birçok anıtın okunmasının tavsiye edildiğini ve dilbilimcilerin akşam namazının güneşin zenitinden gün batımına kadar olduğunu söylediklerini belirtir. Benzer şekilde Ebu Mansur el-Azhari'den {cite:al-adhkar-nawawi-arnaut-1994 p. 87} rivayet eder. Asr'dan sonra söylenenlerle ilgili bölümde, Asr'da anma sayısının artırılmasının kesin olarak tavsiye edildiğini söyler, çünkü bu namaz, erken ve sonraki kuşakların gruplarına göre orta namazdır. Fajr da daha çok dikkat gerektirir ve günün sonu daha sık yapılır. Gün doğumundan önce, gün batımından önce, sabah ve öğleden sonra yüceltmeyi belirten ayetleri aktarır {cite:al-adhkar-nawawi-arnaut-1994 p. 87}. İbn Sünni'nin kitabında, Anas'tan zayıf bir zincirle Peygamber'in, Asr namazından gün batımına kadar Allah'ı ananlarla oturmanın, İsmail'in {cite:al-adhkar-nawawi-arnaut-1994 p. 87} sekiz soyundan geleni özgür etmekten daha çok sevdiğine dair bir rivayet edilmiştir.

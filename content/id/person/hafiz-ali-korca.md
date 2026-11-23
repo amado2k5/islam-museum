@@ -1,0 +1,12 @@
+---
+id: person/hafiz-ali-korca
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/hafiz-ali-korca.md}
+---
+## Ringkasan
+
+Hafiz Ali Korça (5 April 1873 – 7 Januari 1957) adalah seorang cendekiawan Albania dari Korça, lahir dalam keluarga ulama agama, dan menghafal Al-Qur'an pada usia dua belas tahun, yang memberinya gelar yang dikenal hingga kini. {cite:wikipedia-hafiz-ali-korca-en} Ia menerima pendidikan di Korçë dan kemudian di sekolah 'Jefete Menarele Li' di Istanbul. Ia terlibat dalam gerakan nasional Albania: ia belajar secara gratis di sekolah anak laki-laki Albania di Korçë, membela alfabet Latin di Konferensi Debre, dan mendukung Konferensi Elbasan pada tahun 1909, yang meletakkan dasar pendidikan nasional. {cite:wikipedia-hafiz-ali-korca-sq} Pada tahun 1916, ia menjadi direktur pendidikan di Tirana, Durrës, dan Albania tengah, dan pada tahun yang sama, ia menjadi kepala mufti di Dewan Tertinggi Syariah, menjabat hingga tahun 1924; ia juga merupakan salah satu pendiri dan guru sekolah Tirana, mereformasi kurikulumnya dan menulis buku pelajaran. {cite:wikipedia-hafiz-ali-korca-en} {cite:wikipedia-hafiz-ali-korca-sq}
+
+Tulisannya membawa pengetahuan agama dan sastra nasional ke dalam bahasa Albania: ia menulis sebuah kelahiran nubuat (1900), menerjemahkan "Al-Kulistan" dan "Al-Bustan" (1918) karya Saadi serta kuatrain Omar Khayam (1930) dari bahasa Persia, mengomentari bagian-bagian Al-Quran, dan menerjemahkan bagian-bagian Al-Qur'an itu sendiri yang diterbitkan pada tahun 1926. {cite:wikipedia-hafiz-ali-korca-en} Pada tahun 1925, bukunya "Bolshevism: The Destruction of Humanity" menjadikannya orang Albania pertama yang menyerang komunisme dalam publikasi, sikap yang kemudian direspons rezim komunis dengan menangkapnya di Kafaya dan menempatkannya di bawah pengawasan hingga usia delapan puluhan. {cite:wikipedia-hafiz-ali-korca-en} {cite:wikipedia-hafiz-ali-korca-sq} Ia meninggal di Kafaya dan dimakamkan di sana; biografi Albania dan Wikidata mencatat data kematiannya pada 7 Januari 1957, sementara artikel bahasa Inggris mencatat 31 Desember 1957. {cite:wikipedia-hafiz-ali-korca-sq} {cite:wikidata-hafiz-ali-korca} {cite:wikipedia-hafiz-ali-korca-en}

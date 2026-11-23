@@ -1,29 +1,90 @@
 surah: 72
 slug: al-jinn
 sources_consulted:
-  - "Tafheem ul Quran — Surah 72 Al-Jinn (tafheem.net / islamicstudies.info): rukus 1-19 and 20-28"
-  - "en.wikipedia.org — Al-Jinn summary (1-2, 3-7, 8-9, 10-14, 15-18, 19, 20-24, 25-26, 27-28)"
-  - "thelastdialogue.org — Surah Al Jinn summary: main topics"
-  - "ar.wikipedia.org — سورة الجن: مقاصد السورة"
-  - "quran.inoor.ir — أغراض سورة الجن"
+- 'Tafheem ul Quran — Surah 72 Al-Jinn (tafheem.net / islamicstudies.info): rukus 1-19 and 20-28'
+- en.wikipedia.org — Al-Jinn summary (1-2, 3-7, 8-9, 10-14, 15-18, 19, 20-24, 25-26, 27-28)
+- 'thelastdialogue.org — Surah Al Jinn summary: main topics'
+- 'ar.wikipedia.org — سورة الجن: مقاصد السورة'
+- quran.inoor.ir — أغراض سورة الجن
 map:
-  - title: { ar: "كلام الجن بعد سماع القرآن", en: "The Jinn's Speech After Hearing the Quran" }
-    range: [1, 19]
-    family: faith
-    summary:
-      ar: "نفر من الجن يستمعون القرآن فيؤمنون به، ويصححون لقومهم المعتقدات: تنزيه الله عن الصاحبة والولد، وحراسة السماء بالشهب، وأصناف الجن بين صالح وطالح."
-      en: "A band of jinn hear the Quran and believe; they correct their people's beliefs: Allah exalted above spouse and child, the guarded heaven with meteors, and jinn of different ways, righteous and otherwise."
-    children:
-      - { title: { ar: "استماع الجن وإيمانهم", en: "The Jinn Listen and Believe" }, range: [1, 2] }
-      - { title: { ar: "تنزيه الله وتصحيح المعتقدات", en: "Exalting Allah, Correcting Beliefs" }, range: [3, 7] }
-      - { title: { ar: "حراسة السماء بالشهب", en: "The Heaven Guarded with Meteors" }, range: [8, 10] }
-      - { title: { ar: "أصناف الجن", en: "The Kinds of Jinn" }, range: [11, 15] }
-  - title: { ar: "رد الرسول وعلم الغيب", en: "The Messenger's Reply and the Unseen" }
-    range: [20, 28]
-    family: faith
-    summary:
-      ar: "خطاب الرسول: لا يملك ضرا ولا رشدا، وإنما يبلغ رسالات ربه، والمساجد لله، وعلم الغيب لا يظهره الله إلا لمن ارتضى من رسول."
-      en: "The Messenger's word: he owns no harm or guidance, only conveys his Lord's messages; mosques belong to Allah; and the Unseen is disclosed only to a messenger He approves."
-    children:
-      - { title: { ar: "لا أملك ضرا ولا رشدا", en: "I Own No Harm nor Guidance" }, range: [20, 24] }
-      - { title: { ar: "عالم الغيب والرسل", en: "Knower of the Unseen and the Messengers" }, range: [25, 28] }
+- title:
+    ar: كلام الجن بعد سماع القرآن
+    en: The Jinn's Speech After Hearing the Quran
+    tr: Kur'an'ı dinledikten sonra cinlerin sözleri
+    id: Kata-kata jin setelah mendengar Al-Qur'an
+  range:
+  - 1
+  - 19
+  family: faith
+  summary:
+    ar: 'نفر من الجن يستمعون القرآن فيؤمنون به، ويصححون لقومهم المعتقدات: تنزيه الله عن الصاحبة والولد، وحراسة السماء بالشهب، وأصناف الجن بين صالح وطالح.'
+    en: 'A band of jinn hear the Quran and believe; they correct their people''s beliefs: Allah exalted above spouse and child, the guarded heaven with meteors, and jinn of different ways, righteous and
+      otherwise.'
+    tr: 'Bir grup cin Kur''an''ı dinler, ona inanır ve halkının inançlarını düzeltir: Allah''ın yoldaş ve çocuktan arınması, gökyüzünü kayan yıldızlarla koruması ve doğru ile doğru arasındaki cin türleri.'
+    id: 'Sekelompok jin mendengarkan Al-Qur''an, mempercayainya, dan mengoreksi kepercayaan umatnya: penyucian Tuhan dari sahabat dan anak, menjaga langit dengan bintang jatuh, dan jenis jin antara yang
+      benar dan yang benar.'
+  children:
+  - title:
+      ar: استماع الجن وإيمانهم
+      en: The Jinn Listen and Believe
+      tr: Cinleri ve inançlarını dinlemek
+      id: Mendengarkan jin dan iman mereka
+    range:
+    - 1
+    - 2
+  - title:
+      ar: تنزيه الله وتصحيح المعتقدات
+      en: Exalting Allah, Correcting Beliefs
+      tr: Tanrı'nın arındırıcı ve düzeltici inançları
+      id: Kepercayaan Tuhan yang memurnikan dan memperbaiki
+    range:
+    - 3
+    - 7
+  - title:
+      ar: حراسة السماء بالشهب
+      en: The Heaven Guarded with Meteors
+      tr: Gökyüzü Meteorlarla Koruma
+      id: Penjagaan langit dengan meteor
+    range:
+    - 8
+    - 10
+  - title:
+      ar: أصناف الجن
+      en: The Kinds of Jinn
+      tr: Cin türleri
+      id: Jenis-jenis Jin
+    range:
+    - 11
+    - 15
+- title:
+    ar: رد الرسول وعلم الغيب
+    en: The Messenger's Reply and the Unseen
+    tr: Peygamberin Dönüşü ve Görünmeyenin Bilgisi
+    id: Kembalinya Nabi dan Pengetahuan tentang Yang Tak Terlihat
+  range:
+  - 20
+  - 28
+  family: faith
+  summary:
+    ar: 'خطاب الرسول: لا يملك ضرا ولا رشدا، وإنما يبلغ رسالات ربه، والمساجد لله، وعلم الغيب لا يظهره الله إلا لمن ارتضى من رسول.'
+    en: 'The Messenger''s word: he owns no harm or guidance, only conveys his Lord''s messages; mosques belong to Allah; and the Unseen is disclosed only to a messenger He approves.'
+    tr: 'Resulun hitabı: Zarara veya hikmete gücü yoktur, bunun yerine Rabbinin mesajlarını iletir ve camiler Allah''a aittir ve Allah yalnızca Resul''den atadığı kişilere vahiy eder.'
+    id: 'Salam Rasulullah: Dia tidak memiliki kuasa atas bahaya atau hikmah, melainkan menyampaikan pesan dari Tuhan-Nya, dan masjid-masjid itu milik Allah, dan pengetahuan tentang yang tidak kelihatan
+      hanya diwahyukan oleh Allah kepada siapa yang ditetapkan dari Rasulullah.'
+  children:
+  - title:
+      ar: لا أملك ضرا ولا رشدا
+      en: I Own No Harm nor Guidance
+      tr: Zararım ya da bilgeliğim yok
+      id: Aku tidak punya bahaya atau kebijaksanaan
+    range:
+    - 20
+    - 24
+  - title:
+      ar: عالم الغيب والرسل
+      en: Knower of the Unseen and the Messengers
+      tr: Görünmeyenler ve haberciler dünyası
+      id: Dunia yang tak terlihat dan para utusan
+    range:
+    - 25
+    - 28

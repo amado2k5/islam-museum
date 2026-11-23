@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "5201"
-label: { ar: "السنن النسائي — حديث 5201", en: "Sunan al-Nasa'i 5201 — The Book of Adornment", ur: "سنن النسائی — حدیث 5201", es: "Sunan al-Nasa'i 5201 — El Libro del Adorno", fr: "Sunan al-Nasa'i 5201 — Le Livre de la parure" }
+label: { ar: "السنن النسائي — حديث 5201", en: "Sunan al-Nasa'i 5201 — The Book of Adornment", ur: "سنن النسائی — حدیث 5201", es: "Sunan al-Nasa'i 5201 — El Libro del Adorno", fr: "Sunan al-Nasa'i 5201 — Le Livre de la parure", tr: "Sünen-i Nesa'i — Hadis 5201", id: "Sunan an-Nasa'i — Hadits 5201" }
 text: "… عَنْ قَتَادَةَ، عَنْ أَنَسٍ، قَالَ أَرَادَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ يَكْتُبَ إِلَى الرُّومِ فَقَالُوا إِنَّهُمْ لاَ يَقْرَءُونَ كِتَابًا إِلاَّ مَخْتُومًا ‏.‏ فَاتَّخَذَ خَاتَمًا مِنْ فِضَّةٍ كَأَنِّي أَنْظُرُ إِلَى بَيَاضِهِ فِي يَدِهِ وَنُقِشَ فِيهِ مُحَمَّدٌ رَسُولُ اللَّهِ ‏.‏"
 summary:
   ar: "في السنن النسائي؛ إرسال كتاب أو رسالة إلى طرف."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن النسائی میں؛ کسی فریق کو خط یا پیغام بھیجنا."
   es: "En Sunan al-Nasa'i; enviar una carta o mensaje a una parte."
   fr: "Dans Sunan al-Nasa'i; l'envoi d'une lettre ou d'un message à une personne."
+  tr: "Sunan al-Nisa’i’de; bir tarafa kitap veya mektup göndermek."
+  id: "Dalam Sunan al-Nisa’i; mengirim buku atau surat kepada suatu pihak."
 relations:
   - { type: part_of, target: passage/nasai-kitab-48 }
   - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }

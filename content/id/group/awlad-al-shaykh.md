@@ -1,0 +1,18 @@
+---
+id: group/awlad-al-shaykh
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/group/awlad-al-shaykh.md}
+---
+
+## Asal-usul dan anggota paling awal
+Keluarga Awlad al-Sheikh, atau Banu Hamawiya, awalnya berasal dari Iran, sebuah keluarga Sufi dan ahli hukum Shafi'i. Salah satu cabangnya bermigrasi ke Levant dan menjadi berpengaruh selama periode Ayyubid akhir, terutama al-Malik al-Kamil dan putra-putranya. Anggota pertama yang diketahui adalah Abu Abdullah Muhammad ibn Hamawiyah (dalam bahasa Persia: Hamawiya) al-Juwayni, yang meninggal pada tahun 530 H (1135-1136 M). Ia adalah seorang Sufi terkenal, sheikh, dan penulis beberapa buku tentang Sufisme. {cite:encyclopaedia-of-islam-2 vol. 1 p. 815}
+
+## Imad al-Din dan Sadr al-Din
+Cucunya Imad al-Din Abu Umar Ali (meninggal 577 H, 1181 M) pindah ke Damaskus, dan pada 563 H (1167 M), Nur al-Din mengangkatnya sebagai inspektur semua institusi Sufi di Damaskus, Hama, Homs, Baalbek, dan bagian lain Levant. Dengan demikian, ia menjadi leluhur cabang keluarga Suriah dan Mesir, sambil tetap menjaga hubungan dengan cabang Iran. Di antara putranya adalah Sadr al-Din Abu al-Hasan Muhammad (543-617 H), lahir di Khorasan, yang datang bersama ayahnya ke Damaskus, menggantikannya, menikah dengan putri hakim Ibn Abi Asrun, dan menjadi teman Raja Al-Adil. Ia kemudian pergi ke Mesir, di mana ia memegang jabatan yang sama seperti di Damaskus, dan meninggal di Mosul dalam perjalanan ke Baghdad sebagai duta besar Raja al-Kamil. Adik laki-lakinya, Taj al-Din Abdullah (572-642 H), bertugas selama tujuh tahun di Maroko selama masa pemerintahan sultan Almohad, kemudian menetap di Damaskus sebagai inspektur institusi Sufi, menulis sejarah yang hanya gelarnya yang tersisa. {cite:encyclopaedia-of-islam-2 vol. 1 p. 815-816}
+
+## Fakhr al-Din Yusuf dan saudara-saudaranya
+Ketenaran keluarga ini dikaitkan dengan empat putra Sadr al-Din, terutama Fakhr al-Din Yusuf, yang lahir sekitar tahun 580 H (1184 M). Ia terjun ke dunia politik, dan pada tahun 614 H (1217 M), al-Kamil mengirimnya sebagai utusan kepada khalifah, lalu sebagai duta besar dari tahun 624 H (1229 M) kepada kaisar Hohenstaufen Frederick II, hingga penandatanganan Perjanjian Yerusalem pada 18 Februari 1229 M, dan ia menjadi teman kaisar. Ia memegang jabatan penting pada masa terakhir pemerintahan al-Kamil, dan setelah kematiannya, ia menjadi anggota dewan pemerintahan di Damaskus. Ketika ia digulingkan pada masa pemerintahan al-Adil II, ia diangkat kembali oleh al-Salih Ayyub pada tahun 643 H (1246 M) dan diangkat sebagai panglima tertinggi tentara Mesir. Pada tahun 1249 M, ketika Louis IX mengancam Mesir, ia dipercayakan untuk mempertahankan Mesir; setelah invasi Franka ke Delta, ia meninggalkan Damietta dan mundur ke Mansoura, di mana ia tewas pada 8 Februari 1250 M (4 Dhu al-Qi'dah 647 H). {cite:encyclopaedia-of-islam-2 vol. 1 p. 816}
+
+Saudara-saudaranya Imad al-Din Umar, Kamal al-Din Ahmad, dan Mu'in al-Din Hassan terlibat dalam politik pada masa akhir pemerintahan al-Kamil, setelah mereka mempelajari mazhab Shafi'i di Kairo. Imad al-Din Umar dibunuh di Damaskus oleh al-Jawad pada tahun 636 H (1239 M), ditangkap oleh Kamal al-Din pada 638 H (1241 M), dan meninggal di Gaza pada 640 H (1242 M). Mu'in al-Din Hasan diangkat menjadi menteri pada 637 H (1240 M), memimpin kampanye untuk merebut kembali Damaskus pada 1245 M, dan meninggal karena tifus pada 643 H (1246 M). {cite:encyclopaedia-of-islam-2 vol. 1 p. 816}

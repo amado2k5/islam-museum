@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "6806"
-label: { ar: "صحيح البخاري 6806 — تربية الأب ووصيته", en: "Sahih al-Bukhari 6806 — the father raising and counselling", ur: "صحیح بخاری 6806 — باپ کی تربیت اور نصیحت", es: "Sahih al-Bukhari 6806 — El padre que cría y aconseja", fr: "Sahih al-Bukhari 6806 — l'éducation et les conseils du père" }
+label: { ar: "صحيح البخاري 6806 — تربية الأب ووصيته", en: "Sahih al-Bukhari 6806 — the father raising and counselling", ur: "صحیح بخاری 6806 — باپ کی تربیت اور نصیحت", es: "Sahih al-Bukhari 6806 — El padre que cría y aconseja", fr: "Sahih al-Bukhari 6806 — l'éducation et les conseils du père", tr: "Sahih el-Buhari 6806 — Babanın Terbiyesi ve Vasiyeti", id: "Sahih al-Bukhari 6806 — Didikan dan Wasiat Ayah" }
 text: "… الْقِيَامَةِ فِي ظِلِّهِ، يَوْمَ لاَ ظِلَّ إِلاَّ ظِلُّهُ إِمَامٌ عَادِلٌ، وَشَابٌّ نَشَأَ فِي عِبَادَةِ اللَّهِ، وَرَجُلٌ ذَكَرَ اللَّهَ فِي خَلاَءٍ فَفَاضَتْ عَيْنَاهُ، وَرَجُلٌ قَلْبُهُ مُعَلَّقٌ فِي الْمَسْجِدِ، وَرَجُلاَنِ تَحَابَّا فِي اللَّهِ، وَرَجُلٌ دَعَتْهُ امْرَأَةٌ ذَاتُ مَنْصِبٍ وَجَمَالٍ إِلَى نَفْسِهَا قَالَ إِنِّي أَخَافُ اللَّهَ. وَرَجُلٌ تَصَدَّقَ بِصَدَقَةٍ فَأَخْفَاهَا، حَتَّى لاَ تَعْلَمَ شِمَالُهُ مَا صَنَعَتْ يَمِينُهُ \"."
 summary:
   ar: "حديث في صحيح البخاري، رقم 6806، يذكر تربية الأب ووصيته. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 6806، جس میں باپ کی تربیت اور نصیحت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 6806 (Límites y castigos establecidos por Alá (Hudud)), menciona la crianza y el consejo paternos. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el papel del padre."
   fr: "Un hadith du Sahih al-Bukhari, n° 6806 (Limites et châtiments fixés par Allah (Hudood)), mentionne le rôle du père dans l'éducation et les conseils. Le site « Paternité en Islam » répertorie ce hadith avec les versets du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la figure paternelle."
+  tr: "Sahih el-Buhari'de 6806 numaralı hadis, babanın yetiştirilmesi ve öğütlerinden bahseder. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan metinlerle derler."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 6806, menyebutkan tentang didikan dan nasihat seorang ayah. Situs web \"Kebapakan dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6806 (book 86 hadith 35); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

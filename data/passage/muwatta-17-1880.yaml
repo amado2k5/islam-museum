@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1880"
-label: { ar: "الموطأ 1880 — مالك: بلغه عن القاسم بن محمد عن ابن معيقيب الدوسي مثل ذلك، وهو الأمر عندنا", en: "Muwatta 1880", es: "Muwatta 1880", fr: "Muwatta 1880", ur: "موطا 1880" }
+label: { ar: "الموطأ 1880 — مالك: بلغه عن القاسم بن محمد عن ابن معيقيب الدوسي مثل ذلك، وهو الأمر عندنا", en: "Muwatta 1880", es: "Muwatta 1880", fr: "Muwatta 1880", ur: "موطا 1880", tr: "El-Muvatta 1880 — Malik: İbn Muayqib el-Dawsi'nin rivayetine göre, El-Kâsım bin Muhammed ona benzer bir şeyden bahsetmişti ve bizim durumumuz da böyledir.", id: "Al-Muwatta 1880 — Malik: Dia diberitahu oleh Al-Qasim bin Muhammad atas otoritas Ibn Mu’ayqib Al-Dawsi tentang sesuatu yang serupa, dan inilah masalah kita." }
 summary:
   ar: "قال مالك: وبلغه عن القاسم بن محمد، عن ابن معيقيب الدوسي، مثل ذلك. قال مالك: وهو الأمر عندنا. {cite:muwatta-maruf-1997 p.173}"
+  tr: "Malik şöyle dedi: İbn Muayqib al-Dawsi'nin rivayetine göre, al-Qasim ibn Muhammad'dan da benzer bir şey kendisine bildirilmişti. Malik şöyle dedi: Bu, aramızda yerleşik bir uygulamadır. {cite:muwatta-maruf-1997 s.173}"
+  id: "Malik berkata: Dia diberitahu oleh al-Qasim ibn Muhammad, berdasarkan riwayat Ibn Mu'ayqib al-Dawsi, tentang hal serupa. Malik berkata: Ini adalah kebiasaan yang sudah mapan di antara kami. {cite:muwatta-maruf-1997 p.173}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

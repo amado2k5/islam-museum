@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "3744"
-label: { ar: "سنن ابن ماجه 3744 — الأب والأبوة", en: "Sunan Ibn Majah 3744 — the father and fatherhood", ur: "سنن ابن ماجہ 3744 — باپ اور والدیت", es: "Sunan Ibn Majah 3744 — El padre y la paternidad", fr: "Sunan Ibn Majah 3744 — Le père et la paternité" }
+label: { ar: "سنن ابن ماجه 3744 — الأب والأبوة", en: "Sunan Ibn Majah 3744 — the father and fatherhood", ur: "سنن ابن ماجہ 3744 — باپ اور والدیت", es: "Sunan Ibn Majah 3744 — El padre y la paternidad", fr: "Sunan Ibn Majah 3744 — Le père et la paternité", tr: "Sunan İbn Majah 3744 — Baba ve Babalık", id: "Sunan Ibn Majah 3744 — Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا أَبُو بَكْرٍ، حَدَّثَنَا شَبَابَةُ، حَدَّثَنَا شُعْبَةُ، عَنْ خَالِدٍ الْحَذَّاءِ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي بَكْرَةَ، عَنْ أَبِيهِ، قَالَ مَدَحَ رَجُلٌ رَجُلاً عِنْدَ رَسُولِ اللَّهِ ـ فَقَالَ رَسُولُ اللَّهِ ـ \" وَيْحَكَ قَطَعْتَ عُنُقَ صَاحِبِكَ \". مِرَارًا ثُمَّ قَالَ \" إِنْ كَانَ أَحَدُكُمْ مَادِحًا أَخَاهُ فَلْيَقُلْ أَحْسِبُهُ وَلاَ أُزَكِّي عَلَى اللَّهِ أَحَدًا \"."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 3744، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابن ماجہ کی حدیث نمبر 3744، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Ibn Majah, n.° 3744 (Etiqueta), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sunan Ibn Majah, n° 3744 (Étiquette), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "İbn Majah'ın Sünen'inde yer alan 3744 numaralı hadiste baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Sunan Ibn Majah, nomor 3744, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3744 (book 33 hadith 88); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

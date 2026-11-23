@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.546"
-label: { ar: "الموطأ 546 — بلاغ: مكث ابن عمر على سورة البقرة ثماني سنين يتعلمها", en: "Muwatta 546", es: "Muwatta 546", fr: "Muwatta 546", ur: "موطا 546" }
+label: { ar: "الموطأ 546 — بلاغ: مكث ابن عمر على سورة البقرة ثماني سنين يتعلمها", en: "Muwatta 546", es: "Muwatta 546", fr: "Muwatta 546", ur: "موطا 546", tr: "Al-Muwatta 546 — Rapor: İbn Ömer sekiz yılını Bakara Suresi'ni öğrenerek geçirdi", id: "Al-Muwatta 546 — Laporan: Ibnu Umar menghabiskan delapan tahun mempelajari Surah Al-Baqarah" }
 summary:
   ar: "بلاغ يرويه مالك أنه بلغه أن عبد الله بن عمر مكث على سورة البقرة [[passage/quran-2-1|البقرة]] ثماني سنين يتعلمها. وهو آخر حديث في باب ما جاء في القرآن، ولم يعلق عليه المحقق بتخريج. {cite:muwatta-maruf-1997 p.282}"
+  tr: "Malik'in rivayet ettiği bir hadiste, Abdullah ibn Umar'ın Bakara Suresi'ni sekiz yıl boyunca öğrendiğini duyduğu belirtiliyor. Bu, Kur'an'da bahsedilenler bölümündeki son hadistir ve editör bunun için herhangi bir kaynak göstermemiştir. {cite:muwatta-maruf-1997 s.282}"
+  id: "Sebuah riwayat yang dinarasikan oleh Malik menyatakan bahwa ia mendengar Abdullah ibn Umar menghabiskan delapan tahun untuk mempelajari Surah Al-Baqarah. Ini adalah hadits terakhir dalam bab tentang apa yang disebutkan dalam Al-Qur'an, dan editor tidak memberikan sumber untuk hadits ini. {cite:muwatta-maruf-1997 p.282}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
   - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }

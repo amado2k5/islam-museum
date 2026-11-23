@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.289"
-label: { ar: "الموطأ 289 — مالك: لا جمعة على مسافر", en: "Muwatta 289", es: "Muwatta 289", fr: "Muwatta 289", ur: "موطا 289" }
+label: { ar: "الموطأ 289 — مالك: لا جمعة على مسافر", en: "Muwatta 289", es: "Muwatta 289", fr: "Muwatta 289", ur: "موطا 289", tr: "Al-Muwatta 289 — Malik: Yolcu için Cuma namazı yoktur", id: "Al-Muwatta 289 — Malik: Tidak ada salat Jumat bagi musafir." }
 summary:
   ar: "قول لمالك في باب ما جاء في الإمام ينزل بقرية يوم الجمعة في السفر: لا جمعة على مسافر. {cite:muwatta-maruf-1997 p.164}"
+  tr: "Malik, yolculuk halindeyken cuma günü bir köyde mola veren imam hakkında söylenenler bölümünde şöyle demiştir: Yolculuk eden için cuma namazı yoktur. {cite:muwatta-maruf-1997 s.164}"
+  id: "Malik berkata dalam bab tentang apa yang dikatakan tentang seorang imam yang singgah di sebuah desa pada hari Jumat saat bepergian: Tidak ada salat Jumat bagi seorang musafir. {cite:muwatta-maruf-1997 p.164}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

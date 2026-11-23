@@ -1,0 +1,18 @@
+---
+id: person/sadiqi-beg
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/sadiqi-beg.md}
+---
+## Ringkasan
+Sadeghi Beg Afshar — juga dikenal sebagai Sadeqi Ketabdar, "Sadiqi si Pustakawan" — adalah seorang pelukis, pelukis, tentara, penyair, dan penulis biografi Safawi, lahir di Tabriz sekitar tahun 1533 dan meninggal di Isfahan pada tahun 1610. {cite:wikipedia-sadiqi-beg-en} {cite:wikipedia-sadiqi-beg-fa} Ia berasal dari suku Turkmen Khodabandehlu, keturunan tentara Turki yang bermigrasi dari Suriah untuk mendukung Shah Ismail I. Ayahnya dibunuh saat ia masih muda, sehingga ia tumbuh tanpa warisan. {cite:wikipedia-sadiqi-beg-en}
+
+## Bertahun-tahun mengembara dan ubin
+Sadeghi menghabiskan tahun-tahunnya sebagai dervish pengembara sebelum memutuskan pada usia tiga puluh dua tahun untuk mengejar seni dan puisi; ia pindah ke Qazvin pada tahun 1568 dan mempelajari gaya Behzad yang agung di bawah bimbingan pelukis Muzaffar Ali — yang disebut gurunya dalam artikel Persia, sementara artikel Inggris menggambarkannya sebagai murid dan keponakannya yang mengajarinya, sebuah tren yang tidak sepakat antara kedua artikel tersebut. {cite:wikipedia-sadiqi-beg-en} {cite:wikipedia-sadiqi-beg-fa} Ia bertugas sebentar selama masa pemerintahan Ismail II, bertempur di Astrabad sekitar tahun 1581, dan tinggal jauh dari istana sepanjang masa pemerintahan Muhammad Khodabandeh; selama masa pemerintahan Abbas I, ia kembali dan menjadi kurator perpustakaan kerajaan di Qazvin hingga kebencian rekan-rekannya menyebabkan ia dipecat pada tahun 1596 — sambil tetap mempertahankan gelar dan gajinya dan, atas saran Shah, ia mempertahankan sisa hidupnya. {cite:wikipedia-sadiqi-beg-en}
+
+## Pengambilan gambar dan penulisan
+Tangannya dikenal karena warna uniknya, garis yang jelas, dan sosok-sosok kaku; ia menyumbangkan sebuah lukisan untuk "Karshasp Nameh" yang dibuat oleh Tahmasp, tujuh lukisan yang masih ada di Shahnameh karya Ismail II, dan tiga di Shahnameh karya Abbas I. Pada tahun 1593, ia secara pribadi memesan salinan "Anwar Suhaili" oleh Kashfi dan mengilustrasikannya dengan lebih dari seratus gambar. Eskandar Beg, pelukis istana kerajaan Qazvin, dikreditkan bersamanya. {cite:wikipedia-sadiqi-beg-en} Ia juga mempromosikan gaya kaligrafi Iran dalam dunia lukisan. {cite:wikipedia-sadiqi-beg-en} Dalam tulisan, buku Jaghatai 'Majma' al-Khawas' memuat biografi sekitar tiga ratus tiga puluh penyair, seniman, dan penikmat. 'Canon of Images,' sebuah sistem teknik lukisan Persia yang ditulis antara tahun 1576 dan 1602, tetap menjadi sumber utama tentang bagaimana miniatur Persia dibuat; para sejarawan mencatat bahwa ia menghindari penggunaan label keagamaan untuk teknik. {cite:wikipedia-sadiqi-beg-en}
+
+## Agama dan Denominasinya
+Tidak ada sumber yang membaca agama, sekte, atau doktrin Sadeghi yang disebutkan: tidak ada bidang agama dalam artikel bahasa Inggris atau dalam kotak info artikel Persia untuk sang seniman, dan Wikidata juga tidak menyimpan data agama yang berharga. {cite:wikipedia-sadiqi-beg-en} {cite:wikipedia-sadiqi-beg-fa} {cite:wikidata-sadiqi-beg} Adapun afiliasinya dengan Afsharid dan Khodabandeh Luyi al-Qizilbashi, itu adalah afiliasi suku, bukan sertifikat pribadi, dan pengabdiannya di istana serta tahun-tahun studinya adalah perjalanan profesional, bukan sekte; catatan ini tidak mencatat afiliasinya dengannya. {cite:wikipedia-sadiqi-beg-fa}

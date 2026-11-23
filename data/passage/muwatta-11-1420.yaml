@@ -4,10 +4,12 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani, person/abdullah-ibn-umar]
 work: work/muwatta-malik
 ref: "1420"
-label: { ar: "الموطأ 1420 — نافع عن ابن عمر: في الكلب المعلم كل ما أمسك عليك، قتل أو لم يقتل", en: "Muwatta 1420", es: "Muwatta 1420", fr: "Muwatta 1420", ur: "موطا 1420" }
+label: { ar: "الموطأ 1420 — نافع عن ابن عمر: في الكلب المعلم كل ما أمسك عليك، قتل أو لم يقتل", en: "Muwatta 1420", es: "Muwatta 1420", fr: "Muwatta 1420", ur: "موطا 1420", tr: "El-Muvatta 1420 — Nafi'nin İbn Ömer'den rivayet ettiğine göre: Eğitilmiş bir köpek, sizin için ne yakalarsa yakalasın, öldürsün ya da öldürmesin, onun için geçerlidir.", id: "Al-Muwatta 1420 — Diriwayatkan oleh Nafi’ dari Ibnu Umar: Mengenai anjing terlatih, apa pun yang ditangkapnya untukmu, baik ia membunuh atau tidak." }
 text: "كُلْ مَا أمْسَكَ عَلَيْكَ"
 summary:
   ar: "يروي مالك عن نافع عن عبد الله بن عمر أنه كان يقول في الكلب المعلم كل ما أمسك عليك، إن قتل وإن لم يأكل. {cite:muwatta-maruf-1997 p.636}"
+  tr: "Malik, Abdullah ibn Umar'dan rivayetle Nafi'den naklederek, eğitilmiş bir köpek hakkında şöyle dediğini aktarır: \"Senin için ne yakalarsa onu ye, hatta bir şeyi öldürse bile ye.\" {cite:muwatta-maruf-1997 s.636}"
+  id: "Malik meriwayatkan dari Nafi’ dari Abdullah ibn Umar bahwa beliau biasa berkata mengenai anjing terlatih: “Makanlah apa pun yang ditangkapnya untukmu, meskipun ia membunuh sesuatu dan tidak memakannya.” {cite:muwatta-maruf-1997 p.636}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-11-sayd }
   - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }

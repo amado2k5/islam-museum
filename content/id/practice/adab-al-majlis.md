@@ -1,0 +1,30 @@
+---
+id: practice/adab-al-majlis
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/adab-al-majlis.md}
+---
+## Kerahasiaan di Dewan
+Sheikh Omar Abdul Kafi mengatakan bahwa rahasia yang diucapkan dalam pertemuan tersebut adalah sebuah kepercayaan, dan hanya yang mengandung pengetahuan bermanfaat yang diulang. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:07:30}
+Ia mengatakan bahwa rumah dan pertemuan memiliki rahasia, dan orang tidak boleh menyampaikan berita tentang pertemuan di luar. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:23:00}
+Ia menceritakan sebuah hadits bahwa salah satu pengkhianatan terbesar adalah jika salah satu pasangan mewariskan rahasia yang lain kepada pasangan lain, dengan mengatakan bahwa hal ini berlaku untuk suami sama seperti untuk istri. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:22:00}
+Ia menyebutkan hadits tentang mengungkapkan rahasia, dan memberikan istri Nuh dan Lot sebagai contoh bagi mereka yang mengungkapkan rahasia ⁦(needs_source: الحديث غير مسمى في التسجيل)⁩. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:08:00}
+Ia mengatakan bahwa orang harus dibiarkan menyembah Tuhan dan hidup sesuai keinginan mereka, dan bahwa mengungkap rahasia mereka melalui penyelidikan mendorong mereka untuk berbohong. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:09:30}
+
+## Kehadiran dan Mendengarkan Dewan
+Sheikh mengkritik mereka yang menghadiri Dewan Dunia hanya untuk berdebat dan mengoreksi dirinya, dan disebutkan bahwa Al-Hasan al-Basri biasa mendengarkan dengan seksama seorang pemuda berbicara dan menjelaskan etiket mendengarkan. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep14 00:01:30}
+Ia mengatakan bahwa orang beriman di masjid itu seperti ikan di air, dan munafik seperti burung dalam sangkar, dan pernyataan ini dikaitkan dengan para ulama ⁦(needs_source: القول منسوب إلى العلماء دون اسم في التسجيل)⁩. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep14 00:03:30}
+Ia mengutip sebuah hadits yang menyatakan bahwa orang yang paling dikasihi oleh Nabi adalah mereka yang memiliki karakter terbaik, dan dari hadits dapat disimpulkan bahwa status manusia diukur dari moral mereka. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:13:00}
+Ia mengatakan bahwa iman tidak terbatas pada kata-kata, tetapi tercermin dalam etika dan perlakuan. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:03:30}
+
+## Berbicara di Dewan
+Sheikh bertanya, apakah lidah kita menahan diri dari cacian dan gosip, dan apakah pejabat hanya menerima uang yang sah? {cite:assabile-omar-abdelkafy al-naba-al-safi/ep14 00:24:00}
+
+## Berkunjung dan menikmati masa tinggal
+Sheikh mengatakan bahwa pengunjung tidak boleh tinggal lama, dan ia mengutip pernyataan seorang imam yang tidak disebutkan namanya dalam rekaman bahwa ia tidak duduk bersama seseorang yang berat jiwanya kecuali merasakan beratnya ⁦(needs_source: الإمام غير مسمّى)⁩. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep09 00:23:30}
+Ia mengatakan bahwa kunjungan yang dimaksudkan untuk mendapatkan restu pemilik status tidak tulus, bahwa kunjungan itu harus dilakukan demi Tuhan, dan bahwa kebenaran dicari tanpa restoran. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:23:30}
+Ia mengatakan bahwa ketulusan tekad berasal dari memenuhinya, termasuk menjaga ikatan keluarga, menjaga hubungan keluarga, dan mengunjungi orang sakit. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep20 00:26:00}
+
+## Dalam 'Adhkar' karya Al-Nawawi
+Dalam 'Kitab Kenangan Lain-lain,' Al-Nawawi mengatakan bahwa ia menyebarkan berbagai bab kenangan dan doa yang sangat bermanfaat darinya, dan tidak ada batasan dalam urutannya {cite:al-adhkar-nawawi-arnaut-1994 p. 297}. Di antaranya terdapat bab tentang apa yang ia katakan saat berdiri dalam pertemuan, di mana ia menceritakan dari kitab Al-Tirmidhi dari Abu Huraira bahwa siapa pun yang duduk dalam pertemuan dan menjadi sangat bingung, ia berkata sebelum berdiri: 'Segala kemuliaan bagimu, ya Allah, dan puji bagimu. Aku bersaksi bahwa tidak ada tuhan selain Engkau. Aku memohon ampun-Mu dan bertobat kepada-Mu.' Ia mengampuni apa yang ada dalam pertemuannya. Ia juga mengutip pernyataan Al-Tirmidhi sebagai Hasan Sahih ({cite:al-adhkar-nawawi-arnaut-1994 p. 298}. Di antara Sunan Abu Dawood dari Abu Barzah adalah bahwa [[person/muhammad|Nabi biasa]] mengucapkannya di akhir ketika ia ingin berdiri dari pertemuan, dan ia mengatakan itu adalah penebusan atas apa yang ada dalam pertemuan. Disebutkan bahwa Al-Hakim menceritakannya dari Aisha dan mengesahkan rantai {cite:al-adhkar-nawawi-arnaut-1994 p. 298} {cite:al-adhkar-nawawi-arnaut-1994 p. 299} miliknya. Dalam bab tentang doa seseorang yang duduk dalam perhimpunan untuk dirinya dan orang-orang yang bersamanya, diceritakan dari kitab Al-Tirmidhi dari Ibn Umar bahwa ia jarang berdiri dari pertemuan untuk memohon bagi sahabatnya, yang pertama adalah: "Ya Allah, bersumpahlah kepada kami dengan ketakutan-Mu apa yang telah Engkau halangi kami dari ketidaktaatan Engkau, dan dari ketaatan kepada-Mu adalah apa yang Engkau berikan kepada kami kepada Surga-Mu," dan Tahseen al-Tirmidhi {cite:al-adhkar-nawawi-arnaut-1994 p. 299}. Dalam bab tentang ketidaksukaan berdiri di dalam pertemuan sebelum menyebut Allah, diceritakan dari Sunan Abu Dawood dari Abu Huraira, dan dikatakan dengan rantai yang otentik bahwa orang bangkit dalam perhimpunan tanpa menyebut Allah, menyebabkan mereka menyesal {cite:al-adhkar-nawawi-arnaut-1994 p. 299}. Di antara bab-bab dalam kitab ini juga ada pujian kepada Allah pada saat kabar gembira, apa yang dikatakan ketika mendengar ayam jantan berkokok dan suara keledai berkokok, dan saat melihat api {cite:al-adhkar-nawawi-arnaut-1994 p. 297} {cite:al-adhkar-nawawi-arnaut-1994 p. 298}.

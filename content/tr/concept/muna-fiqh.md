@@ -1,0 +1,9 @@
+---
+id: concept/muna-fiqh
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/muna-fiqh.md}
+---
+## Özet
+Dilbilimde, 'al-'mu'na' ağırlık anlamına gelirken, 'al-'munah' (maddi yardım) hukukçular için 'al-kalfa' (mali giderler), yani bir kişinin harcamalar ve benzeri durumlar açısından ne kadar katlandığını ifade eder. Hukukçular genellikle 'al-'mina'ya 'al-nifqa' (maddi destek) derler. Al-Sharqawi, 'al-munnah'ın 'al-nafaqa'dan daha geniş olduğunu söylemiştir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13783-13784}. Hükümleri arasında: Zekatta ürün ve meyve giderleri vardır; bunlar Malikiler, Şafiiler, Hanbaliler ve Hanefiler arasında farklılık gösterir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13784-13785}. Kiralama yükü iki türe ayrılır: kiralanan malın iadesi ve kiracının dönem boyunca ihtiyacı olanlar. İkinci yük ise uzlaşmayla kiralayanın üzerindedir. Kiracının bakım koşulları konusunda düşünce okulları farklılık gösterir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13785-13788}; gasp edilen mülkün gaspçıya geri verilmesi yükü ve gasp edilen kişi başka bir ülkeye nakledilirse, Malikiler, Hanefiler, Şafiiler ve Haneliler ayrıntılı açıklamalara sahiptir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13788-13790}; vakıfın yükü verimden veya bahşatın durumuna bağlıdır. Hanefiler, vakıfın verimiyle başlar ve eğer Yardımları geçersiz sayılır, bu nedenle Şafiilere göre nafaka kamu hazinesinden {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13790-13791}; ödünç alınan kadının giderleri ise borçlu mu yoksa borçlu mu ve geri ödeme giderleridir. Bu konulardaki anlaşmazlık belirtilir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13791-13792}.

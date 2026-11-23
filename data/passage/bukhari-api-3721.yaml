@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "3721"
-label: { ar: "صحيح البخاري 3721 — الأب والأبوة، تربية الأب ووصيته", en: "Sahih al-Bukhari 3721 — the father and fatherhood; the father raising and counselling", ur: "صحیح بخاری 3721 — باپ اور والدیت، باپ کی تربیت اور نصیحت", es: "Sahih al-Bukhari 3721 — El padre y la paternidad; la crianza y el consejo paternos", fr: "Sahih al-Bukhari 3721 — Le père et la paternité; l'éducation et les conseils du père" }
+label: { ar: "صحيح البخاري 3721 — الأب والأبوة، تربية الأب ووصيته", en: "Sahih al-Bukhari 3721 — the father and fatherhood; the father raising and counselling", ur: "صحیح بخاری 3721 — باپ اور والدیت، باپ کی تربیت اور نصیحت", es: "Sahih al-Bukhari 3721 — El padre y la paternidad; la crianza y el consejo paternos", fr: "Sahih al-Bukhari 3721 — Le père et la paternité; l'éducation et les conseils du père", tr: "Sahih el-Buhari 3721 — Baba ve Babalık, Babanın Yetiştirilmesi ve İradesi", id: "Sahih al-Bukhari 3721 — Ayah dan Peran Ayah, Didikan dan Wasiat Ayah" }
 text: "حَدَّثَنَا عَلِيُّ بْنُ حَفْصٍ، حَدَّثَنَا ابْنُ الْمُبَارَكِ، أَخْبَرَنَا هِشَامُ بْنُ عُرْوَةَ، عَنْ أَبِيهِ، أَنَّ أَصْحَابَ النَّبِيِّ، قَالُوا لِلزُّبَيْرِ يَوْمَ الْيَرْمُوكِ أَلاَ تَشُدُّ فَنَشُدَّ مَعَكَ فَحَمَلَ عَلَيْهِمْ، فَضَرَبُوهُ ضَرْبَتَيْنِ عَلَى عَاتِقِهِ، بَيْنَهُمَا ضَرْبَةٌ ضُرِبَهَا يَوْمَ بَدْرٍ. قَالَ عُرْوَةُ فَكُنْتُ أُدْخِلُ أَصَابِعِي فِي تِلْكَ الضَّرَبَاتِ أَلْعَبُ وَأَنَا صَغِيرٌ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 3721، يذكر الأب والأبوة، وتربية الأب ووصيته. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 3721، جس میں باپ اور والدیت، باپ کی تربیت اور نصیحت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 3721 (Compañeros del Profeta), menciona al padre y la paternidad, así como la crianza y el consejo paternos. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sahih al-Bukhari, n° 3721 (Compagnons du Prophète), évoque le père et la paternité, l'éducation et les conseils paternels. Le site « Paternité en Islam » répertorie ce hadith avec les versets du Coran, la Sunna, la Sîra et les ouvrages traitant du père."
+  tr: "Sahih el-Buhari'de 3721 numaralı hadis, babayı, babalığı, babanın çocuk yetiştirmedeki rolünü ve tavsiyelerini ele almaktadır. \"İslam'da Babalık\" bölümü, bu hadisi Kur'an, Sünnet, Peygamberin biyografisi ve bu konuyla ilgili diğer kitaplardan alıntılarla birlikte derlemektedir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 3721, menyebutkan tentang ayah, peran ayah, peran ayah dalam membesarkan anak, dan nasihatnya. Bagian \"Peran Ayah dalam Islam\" mengumpulkan hadits ini bersama dengan teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3721 (book 62 hadith 69); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

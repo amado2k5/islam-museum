@@ -1,0 +1,31 @@
+---
+id: person/muhammad-asad
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/muhammad-asad.md}
+---
+## Ringkasan
+Mohammad Asad (lahir Leopold Weiss; 2 Juli 1900 – 20 Februari 1992) adalah seorang penulis, jurnalis, pelancong, pemikir politik, ahli bahasa, dan diplomat asal Pakistan, lahir di Kekaisaran Austro-Hungaria. Ia lahir di Lemburg, Galicia, dari keluarga Yahudi berdarah rabinik, memeluk Islam di Berlin pada tahun 1926, dan mengambil nama Muhammad Asad. Ia melayani negara Pakistan yang baru dibentuk sebagai Direktur Departemen Rekonstruksi Islam dan utusan untuk Perserikatan Bangsa-Bangsa di New York, dan dianggap sebagai salah satu Muslim paling berpengaruh di Eropa pada abad kedua puluh. Karya biografinya yang paling terkenal, 'The Road to Mecca' (1954) dan 'The Treatise of the Qur'an,' adalah terjemahan Al-Qur'an ke dalam bahasa Inggris beserta komentar. Karya-karya ini selesai setelah tujuh belas tahun penelitian dan, bersama dengan terjemahan Bechthall dan Yusuf Ali, merupakan salah satu terjemahan Al-Qur'an yang paling berpengaruh di era modern. {cite:wikipedia-muhammad-asad-en} {cite:wikipedia-muhammad-asad-ar}
+
+## Masa kecilnya
+Leopold Weiss lahir pada 2 Juli 1900 di Lemberg, yang saat itu merupakan bagian dari Kekaisaran Austro-Hungaria dan sekarang menjadi Lviv di Ukraina. Ia berasal dari garis keturunan panjang rabbi Yahudi, tetapi ayahnya, Akiva Weiss, melanggar tradisi dan menjadi seorang pengacara. Leopold menerima pendidikan agama, menguasai bahasa Ibrani sejak usia muda, menguasai bahasa Aram, dan mempelajari Taurat, Talmud, Mishnah, Gemara, serta interpretasi dan komentar buku tersebut. Pada pertengahan usia dua puluhan, ia sudah membaca dan menulis dalam bahasa Inggris, Prancis, Persia, dan Arab, selain bahasa aslinya, Jerman dan Polandia. Pada usia empat belas tahun, ia melarikan diri dari sekolah dan mencoba bergabung dengan tentara Austria dengan nama samaran, tetapi dipulangkan setelah sekitar seminggu. Ia belajar filsafat di Universitas Wina dan kemudian beralih ke jurnalisme. {cite:wikipedia-muhammad-asad-en} {cite:wikipedia-muhammad-asad-ar} {cite:wikidata-muhammad-asad}
+
+## Jurnalisme dan Konversi ke Islam
+Weiss melakukan tur ke Palestina Mandat sebagai jurnalis dan secara terbuka membahas para pemimpin Zionis termasuk Chaim Weizmann, menyatakan keraguannya terhadap aspek-aspek gerakan Zionis. Ketertarikannya pada Islam meningkat melalui perjalanannya di dunia Arab, dan pada tahun 1926 ia memeluk Islam di Berlin di hadapan kepala komunitas Muslim kecil di sana, mengambil nama Muhammad Asad, dan 'Asad' adalah terjemahan dari makna nama depannya Leo (singa). Artikel berbahasa Inggris menggambarkan konversinya sebagai konversi ke Islam Sunni, dan memorandum dari Institute of Thematic Studies di New Delhi (2022) secara independen menyatakan bahwa ia "menerima Islam Sunni pada tahun 1926 (di Berlin)," dan artikel dalam bahasa Urdu menambahkan bahwa ia menerima Islam di tangan Abdul Jabbar Khairi. Tidak ada sumber yang membaca catatan ini yang menyebut aliran pemikiran yurisprudensi, sehingga museum mencatat afiliasinya sebagai 'Sunni' berdasarkan kedua teks ini, tanpa aliran pemikiran apa pun. {cite:wikipedia-muhammad-asad-en} {cite:institute-of-objective-studies-asad} {cite:wikipedia-muhammad-asad-ur}
+
+## Di Semenanjung Arab dan India
+Di Arab Saudi, ia duduk dekat singa Badui dan menjadi dekat dengan pendiri negara, Raja Abdulaziz, serta melaksanakan misi rahasia untuk melacak sumber pendanaan revolusi Ikhwanul Muslimin. Tulisan Barat saat itu menjulukinya "Leopold dari bangsa Arab." Di India, ia berteman dengan penyair dan filsuf Muhammad Iqbal, yang meyakinkannya untuk meninggalkan perjalanannya ke timur dan "membantu memperjelas premis intelektual negara Islam masa depan." Ia mengedit majalah "Islamic Culture" di Hyderabad pada tahun 1937–1938, dan saat pecahnya Perang Dunia II, pemerintah Inggris menahannya selama sekitar lima tahun sebagai warga negara musuh. {cite:wikipedia-muhammad-asad-en}
+
+## Pengabdiannya untuk Pakistan
+Pada 14 Agustus 1947, Hari Kemerdekaan Pakistan, Asad memperoleh kewarganegaraan Pakistan. Ia diangkat sebagai Direktur Departemen Rekonstruksi Islam, kemudian Wakil Sekretaris Kementerian Luar Negeri (Divisi Timur Tengah), dan kemudian utusan Pakistan untuk Perserikatan Bangsa-Bangsa di New York. Setelah meninggalkan dinas pemerintahan, ia mendedikasikan dirinya untuk menulis. {cite:wikipedia-muhammad-asad-en} {cite:wikipedia-muhammad-asad-ar}
+
+## Karya-karyanya
+Buku pertamanya terbit setelah ia berpindah agama, "Islam at a Crossroads," pada tahun 1934. Biografinya, "The Road to Mecca" (1954), menjadi salah satu buku terlaris di Barat. Karya terbesarnya, "The Treatise of the Qur'an," adalah terjemahan Al-Qur'an ke dalam bahasa Inggris dengan komentar, hasil dari tujuh belas tahun penelitian ilmiah. Bersama dengan terjemahan Beckthall dan Yusuf Ali, buku ini dianggap sebagai salah satu terjemahan Al-Quran paling berpengaruh di era modern. Ia adalah pendukung kuat rasionalitas dan ketekunan dalam menafsirkan teks-teks agama, mendedikasikan karya-karyanya "kepada mereka yang berpikir." Di antara artikel-artikelnya yang kemudian adalah "This is Our Law" (1987). {cite:wikipedia-muhammad-asad-en}
+
+## Kematian dan Penghormatan
+Assad meninggal pada 20 Februari 1992 di Mijas, Spanyol — Wikidata juga mencantumkan tanggal yang bertentangan yaitu 23 Februari, dan museum mencatat tanggal artikel tersebut — dan dimakamkan di pemakaman Muslim di Granada. Pada tahun 2008, alun-alun masuk kantor Perserikatan Bangsa-Bangsa di Wina dinamai "Lapangan Mohamed Assad" untuk menghormati karyanya "Building Bridges of Religions." Para biografernya menggambarkannya sebagai "hadiah Eropa untuk Islam" dan "mediator antara Islam dan Barat." {cite:wikipedia-muhammad-asad-en} {cite:wikipedia-muhammad-asad-ar} {cite:wikidata-muhammad-asad}
+
+## Sumber
+- Entitas sumber yang disebutkan di atas, terdaftar di `data/source/`.
+- Ulasan artikel ini harus diberi tanggal dan disebutkan sumber yang mengubah setiap insiden.

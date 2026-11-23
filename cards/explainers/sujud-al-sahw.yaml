@@ -1,58 +1,145 @@
 slug: sujud-al-sahw
-title: { ar: "سجود السهو", en: "Prostration of forgetfulness", fr: "Les prosternations de l’oubli" }
+title:
+  ar: سجود السهو
+  en: Prostration of forgetfulness
+  fr: Les prosternations de l’oubli
+  tr: Unutkanlığın secdesi
+  id: Sujud karena lupa
 lede:
-  ar: "ماذا تفعل إذا سهوت في الصلاة؟ أجب عن سؤالين واعرف الحكم."
-  en: "What to do if you err in prayer? Answer two questions and get the ruling."
+  ar: ماذا تفعل إذا سهوت في الصلاة؟ أجب عن سؤالين واعرف الحكم.
+  en: What to do if you err in prayer? Answer two questions and get the ruling.
   fr: Un oubli dans la prière ? Deux questions pour comprendre la règle présentée.
+  tr: Dua ederken hata yaparsanız ne yapmalısınız? İki soruyu yanıtlayın ve kuralını öğrenin.
+  id: Apa yang harus Anda lakukan jika Anda melakukan kesalahan dalam doa? Jawab dua pertanyaan dan pelajari keputusannya.
 source_card: 8cabd697
-status: { review: draft }
+status:
+  review: draft
 widget: decision-tree
 attribution:
-  ar: "برأي الجمهور"
-  en: "Per the majority view"
+  ar: برأي الجمهور
+  en: Per the majority view
   fr: Selon l’avis majoritaire
+  tr: Kamuoyunun görüşüne göre
+  id: Menurut pendapat publik
 tree:
-  q: { ar: "ماذا حدث في الصلاة؟", en: "What happened in the prayer?", fr: "Que s’est-il passé pendant la prière ?" }
+  q:
+    ar: ماذا حدث في الصلاة؟
+    en: What happened in the prayer?
+    fr: Que s’est-il passé pendant la prière ?
+    tr: Dua sırasında ne oldu?
+    id: Apa yang terjadi dalam doa?
   options:
-    - label: { ar: "زيادة", en: "Addition", fr: "Un ajout" }
-      next:
-        q: { ar: "هل الزيادة ركن (كركعة زائدة)؟", en: "Was it a pillar (e.g. an extra rak'ah)?", fr: "L’ajout concerne-t-il un pilier, comme une unité supplémentaire ?" }
-        options:
-          - label: { ar: "نعم", en: "Yes", fr: "Oui" }
-            result:
-              ar: "اسجد سجدتين بعد السلام ثم سلِّم."
-              en: "Prostrate twice after the salam, then give salam."
-              fr: Deux prosternations après le salut final, puis un nouveau salut.
-          - label: { ar: "لا (قول أو فعل غير ركن)", en: "No", fr: "Non, une parole ou un acte qui n’est pas un pilier" }
-            result:
-              ar: "اسجد سجدتين بعد السلام."
-              en: "Prostrate twice after the salam."
-              fr: Deux prosternations après le salut final.
-    - label: { ar: "نقص", en: "Omission", fr: "Une omission" }
-      next:
-        q: { ar: "هل النقص ركن؟", en: "Was it a pillar?", fr: "L’omission concerne-t-elle un pilier ?" }
-        options:
-          - label: { ar: "نعم", en: "Yes", fr: "Oui" }
-            result:
-              ar: "ائت بالركن الناقص ثم اسجد للسهو بعد السلام."
-              en: "Perform the missed pillar, then prostrate for forgetfulness after the salam."
-              fr: Accomplir le pilier manquant, puis les prosternations de l’oubli après le salut final.
-          - label: { ar: "لا (واجب كالتشهد الأول)", en: "No (e.g. first tashahhud)", fr: "Non, une obligation comme le premier tachahhoud" }
-            result:
-              ar: "اسجد سجدتين قبل السلام."
-              en: "Prostrate twice before the salam."
-              fr: Deux prosternations avant le salut final.
-    - label: { ar: "شك", en: "Doubt", fr: "Un doute" }
-      next:
-        q: { ar: "هل ترجح عندك أحد الاحتمالين؟", en: "Does one option seem likelier?", fr: "L’une des possibilités paraît-elle plus probable ?" }
-        options:
-          - label: { ar: "نعم", en: "Yes", fr: "Oui" }
-            result:
-              ar: "ابنِ على الراجح واسجد بعد السلام."
-              en: "Act on the likelier option and prostrate after the salam."
-              fr: Retenir la possibilité la plus probable et se prosterner après le salut final.
-          - label: { ar: "لا", en: "No", fr: "Non" }
-            result:
-              ar: "ابنِ على الأقل (اليقين) واسجد قبل السلام."
-              en: "Act on the lesser (certain) number and prostrate before the salam."
-              fr: Retenir le nombre inférieur, certain, et se prosterner avant le salut final.
+  - label:
+      ar: زيادة
+      en: Addition
+      fr: Un ajout
+      tr: Artan
+      id: Peningkatan
+    next:
+      q:
+        ar: هل الزيادة ركن (كركعة زائدة)؟
+        en: Was it a pillar (e.g. an extra rak'ah)?
+        fr: L’ajout concerne-t-il un pilier, comme une unité supplémentaire ?
+        tr: Artış bir sütun mu (ekstra rak'ah gibi)?
+        id: Apakah peningkatan itu merupakan pilar (seperti ekstra rak'ah)?
+      options:
+      - label:
+          ar: نعم
+          en: 'Yes'
+          fr: Oui
+          tr: Evet
+          id: ya
+        result:
+          ar: اسجد سجدتين بعد السلام ثم سلِّم.
+          en: Prostrate twice after the salam, then give salam.
+          fr: Deux prosternations après le salut final, puis un nouveau salut.
+          tr: Selamdan sonra iki kez secde eder, ardından bitirir.
+          id: Ia bersujud dua kali setelah salam itu, lalu ia mengakhiri.
+      - label:
+          ar: لا (قول أو فعل غير ركن)
+          en: 'No'
+          fr: Non, une parole ou un acte qui n’est pas un pilier
+          tr: Hayır (sütun dışındaki bir kelime veya eylem)
+          id: Tidak (kata atau tindakan selain pilar)
+        result:
+          ar: اسجد سجدتين بعد السلام.
+          en: Prostrate twice after the salam.
+          fr: Deux prosternations après le salut final.
+          tr: Selamdan sonra iki kez secde ediyorum.
+          id: Saya bersujud dua kali setelah salam itu.
+  - label:
+      ar: نقص
+      en: Omission
+      fr: Une omission
+      tr: Kusur
+      id: Cacat
+    next:
+      q:
+        ar: هل النقص ركن؟
+        en: Was it a pillar?
+        fr: L’omission concerne-t-elle un pilier ?
+        tr: Eksiklik köşe mü?
+        id: Apakah kekurangan itu sebuah sudut?
+      options:
+      - label:
+          ar: نعم
+          en: 'Yes'
+          fr: Oui
+          tr: Evet
+          id: ya
+        result:
+          ar: ائت بالركن الناقص ثم اسجد للسهو بعد السلام.
+          en: Perform the missed pillar, then prostrate for forgetfulness after the salam.
+          fr: Accomplir le pilier manquant, puis les prosternations de l’oubli après le salut final.
+          tr: Eksik köşeyi getir, sonra selamlaşmadan sonra unutkanlığa kapan.
+          id: Bawa sudut yang hilang, lalu bersujud sampai lupa setelah sapaan.
+      - label:
+          ar: لا (واجب كالتشهد الأول)
+          en: No (e.g. first tashahhud)
+          fr: Non, une obligation comme le premier tachahhoud
+          tr: Hayır (ilk Tashahhud gibi zorunlu)
+          id: Tidak (wajib seperti Tashahhud pertama)
+        result:
+          ar: اسجد سجدتين قبل السلام.
+          en: Prostrate twice before the salam.
+          fr: Deux prosternations avant le salut final.
+          tr: Selam önünde iki secde ediyorum.
+          id: Saya bersujud dua kali sebelum salam.
+  - label:
+      ar: شك
+      en: Doubt
+      fr: Un doute
+      tr: Şüphe
+      id: Keraguan
+    next:
+      q:
+        ar: هل ترجح عندك أحد الاحتمالين؟
+        en: Does one option seem likelier?
+        fr: L’une des possibilités paraît-elle plus probable ?
+        tr: İki seçeneğin var mı?
+        id: Apakah Anda punya salah satu dari dua kemungkinan?
+      options:
+      - label:
+          ar: نعم
+          en: 'Yes'
+          fr: Oui
+          tr: Evet
+          id: ya
+        result:
+          ar: ابنِ على الراجح واسجد بعد السلام.
+          en: Act on the likelier option and prostrate after the salam.
+          fr: Retenir la possibilité la plus probable et se prosterner après le salut final.
+          tr: En doğru yaklaşıma göre inşa edin ve selamlaşmadan sonra secde edin.
+          id: Bangunlah sesuai pendekatan yang paling benar dan bersujud setelah sapaan.
+      - label:
+          ar: لا
+          en: 'No'
+          fr: Non
+          tr: hayır
+          id: Tidak
+        result:
+          ar: ابنِ على الأقل (اليقين) واسجد قبل السلام.
+          en: Act on the lesser (certain) number and prostrate before the salam.
+          fr: Retenir le nombre inférieur, certain, et se prosterner avant le salut final.
+          tr: En azından (kesinlik) inşa et ve barış öncesi secde et.
+          id: Bangun setidaknya (kepastian) dan sujud sebelum perdamaian.

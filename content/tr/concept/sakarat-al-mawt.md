@@ -1,0 +1,43 @@
+---
+id: concept/sakarat-al-mawt
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/sakarat-al-mawt.md}
+---
+## Şeyh Ömer Abdul Kafi'nin dersinden: Kur'an Yorumu (8. Bölüm)
+
+Şeyh, Nazi'at [[passage/quran-79-1|Al-Nazi'at 1'in]], ağır suçlu kâfirlerin ruhlarını alan melekler olduğunu söyler {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:36:30}. İbn Abbas'tan alıntı yapar; bir kâfirin ruhunun ayrılışını metafor olarak kullanır; başta dikenli bir ağaç dalını hayal eder (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:36:30}. Benzetmeyi devam ettirerek, bu dalı kâfirin boğazına yerleştirir, böylece her diken bir damar ve bağırsağa yapışır, sonra en güçlü kişi gelir ve dalı tek bir çekişle çeker ve bunun kâfirin ruhunun (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:37:00} nasıl atıldığını söyler.
+
+Şeyh, bunu, sufwud'u ıslak yünden çıkarmaya benzetir; yünün dikenlere yapıştığı ve kâfirin ruhunun boğulduğu yerdir. Bunun, ruh serbest bırakıldığında boğulan kişinin hissi olduğunu, inananın aksine {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:37:30} belirtir. [[passage/quran-79-2|Hareket edenlerin, bir]] insanın suyun dökülmemesi için bir kova çıkarması gibi, inananın ruhunu nazikçe harekete geçiren melekler olduğunu söyler {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:38:00}. Peygamber'in ruhun ayrılışını bir su kasasından düşen bir damla olarak tanımladığını ve Şeyh'in damlaların kolayca düştüğü bir musluk örneğini verdiğini belirtir {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:38:30}.
+
+Ölümün sarhoşluğu üzerine geldiğinde, Peygamber'in Aişe'ye ölümün sarhoşluk olduğunu söylediği ve şeyhin, ölümün sarhoşluğunu hafifletmesi için Allah'tan dua ettiği rivayet edilir {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:39:00}. Ayrıca, ölümünden hemen önce günahları kalan bir inananın, merhametten dolayı ölümün sarhoşluğuyla ağır şekilde cezalandırılabileceğini, bunun başka bir günah için son kefaret olacağını ve bu dünyadan günahsız doğduğu gibi terk edebileceğini (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:39:30} belirtir. Ölüm Meleği'nin yalnız inmediğini, onunla birlikte merhamet melekleri ve ceza melekleri {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:40:00} olmak üzere iki melek grubunun olduğunu söyler.
+
+Şeyh, bir müminin ruhunun tırnaklarından çıkarıldığını, sonra aşamalar halinde dizlere, sonra uyluklara, sonra ortaya yükseldiğini ve evreler arasında, sonra göğse, sonra Trakya [[passage/quran-75-26|Dirilişi 26]]'ya {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:40:30} bırakıldığını anlatır. Şeyh, [[passage/quran-75-27|Diriliş 27'den sonraki]] ayette Ölüm Meleği'nin çevresindekilere sorduğunu ve içinde bulunan kelime için iki açıklama sunduğunu belirtir: birincisi, bu ruhu yükseltip sahibine geri veren kişidir; ikincisi ise bu ruhu yükselen kişidir. Eğer müminse, merhamet melekleri önce gelir; değilse ceza melekleri öne çıkar {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:41:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:41:30}.
+
+:::perspectives
+- **Ehl-sünnet (henüz atfedilmedi)**: Ehl-sünnet'in bu konudaki tutumu henüz belirlenmemiştir.
+- **Şeyh Ömer Abdulkafi'nin görüşü (kişisel görüş)**: Şeyh, kelimenin iki yorumunu sunar: biri ruhu yücelten ve onu yenileyen biri {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:41:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:41:30}.
+- **Akademik veya diğer görüşler (henüz atıf yapılmamış)**: Bu konuda akademik ve diğer görüşler henüz atıf yapılmamıştır.
+:::
+
+Sonra şeyh, Ölüm Meleği'nin görüntüsünü baş cerrahın benzerliğine benzetir; cerrah ameliyathaneye ancak asistanları hazırladığında girer {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:41:30}. Benzetmeyi açıklar: hemşireler yeri hazırlar, sterilize eder, cerrahi aletleri ve numaralarını gözden geçirir, sonra anestezi uzmanı gelir, ardından baş cerrah girer {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:42:00}. İnanan, çocuklarıyla otururken Ölüm Meleği'nin odasına girdiğini gördüğünü, ancak ailesinin ruhlarının beden sınırları içinde kaldığı için onu görmediğini söyler {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:42:30}.
+
+Ölmekte olan kişinin ruhunu, ışıklar söndükten sonra kalkıştan önce tüm gücünü toplayan pistteki bir uçağa benzetir ve emniyet kemerini sıkar {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:43:00}. O anda bir kişinin zaman ve mekândan ayrıldığını, hangi gün ya da saatte olduğunu bilmediğini ve başka bir dünyaya ve başka bir hayata {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:43:30} girmeye başladığını söyler {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:44:00}. Bu diğer hayatın, ölen için sadece Tanrı'nın bildiği çok uzun evrelerden geçtiğine, oradakilerin ise bunu anlık olarak gördüğüne inanır. Ailesiyle konuşurken fincanın elinden düşmesi {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:44:00} örneği verir.
+
+Ölen kişinin komada olsa bile doktorun sözlerini duymasa bile Ölüm Meleği'ni gördüğünü söyler {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:44:30}. Hasan'ın gürültülü bir evin önünden geçip onu sorduğu ve ölü için ağladıklarını söylediklerini belirtir. Ölülerin, ağlayan kişinin henüz kurtulamadığı üç şeyden sağ çıktığını söyler: Ölüm Meleği'ni görmek, ölümün acısını tatmak ve Cennet ile Cehennem arasındaki kaderini bilmemek, bunu öğrettiği (needs_source), {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:44:30}, {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:45:00}. Sonra Şeyh, Mısır'ın fatihi Amr ibn al-As'tan bahseder; duaların, sadaka vermenin, hacın, alimlerinin buluşmalarının, anmalarının, gece namazlarının ve sadakaların 23 Hile yılından bugüne kadar yapıldığını—tarih boyunca milyonlarca ve sayısı doksan milyon—hepsinin Amr bin al-As'ın (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:45:30} iyi işler ölçeğinde yapıldığını söyler.
+
+Şeyh, Amr ibn al-As'a itiraz eden ve Mısır olmayanların itiraz edebileceğini düşünen bir Mısırlıyı eleştirir ancak bunun özellikle Mısırlıya yakışmadığını düşünür {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:46:00}.
+
+:::perspectives
+- **Ehl-sünnet (henüz atfedilmedi)**: Ehl-sünnet'in bu konudaki tutumu henüz belirlenmemiştir.
+- **Şeyh Ömer Abdülkafi'nin görüşü (kişisel görüş)**: Şeyh, Amr ibn al-As'a itiraz eden bir Mısırlıyı eleştirir ve bu itirazın Mısırlıya yakışmadığını, çünkü Mısır halkının ödülünün Amr ile ölçüldüğünü savunur {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:46:00}.
+- **Akademik veya diğer görüşler (henüz atıf yapılmamış)**: Bu konuda akademik ve diğer görüşler henüz atıf yapılmamıştır.
+:::
+
+Şeyh, Amr bin al-As'ın ruhunun ayrıldığı andaki halini, kaynar bir yağ tenceresindeki bir kuş gibi tanımladığını, ne uçan, ne hayatta kalan ne de dinlenmek için ölen bir kuş gibi olduğunu ve ruhunun iğne deliğinden çıkıyormuş gibi olduğunu söylediğini (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:46:30} anlatır. Şeyh, '[[passage/quran-79-3|Üfleyicilerin Yüzenleri' bağlamında, lüks]] kişinin Ölüm Meleği içeri girdiğinde yüzünü gördüğünü ve işin bittiğini anladığını söyler {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:46:30}. Ölümde kişinin dünyanın önemsizliğinin farkına vardığını ve konuşamayabileceğini söyler {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:47:00}.
+
+Harun el-Reşid'in tartışırken rivayet ettiği üzere, servetinin kendisine fayda sağlamadığını ve otoritesinin ona fayda sağlamadığını söylemiştir (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:47:00}. Ölüm Meleği itaatkâr bir hizmetkârın yanına girdiğinde, ruhunu, cennetten mumyalanmış melekler ve ruhu saran ruhu aldığını, ruhun onunla birlikte göklere yükseldiğini ve göklerin kapılarını açtığını söyler {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:51:00}.
+
+## Görünmeyenin bağlamında
+Ölümün sarhoşluğu gerçekle geldi — kaçış ya da cevap olmayan görünmeyeni ortaya çıkarma anı.

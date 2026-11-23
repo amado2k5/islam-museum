@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "1871"
-label: { ar: "السنن النسائي — حديث 1871", en: "Sunan al-Nasa'i 1871 — The Book of Funerals", ur: "سنن النسائی — حدیث 1871", es: "Sunan al-Nasa'i 1871 — El Libro de los Funerales", fr: "Sunan al-Nasa'i 1871 — Le Livre des funérailles" }
+label: { ar: "السنن النسائي — حديث 1871", en: "Sunan al-Nasa'i 1871 — The Book of Funerals", ur: "سنن النسائی — حدیث 1871", es: "Sunan al-Nasa'i 1871 — El Libro de los Funerales", fr: "Sunan al-Nasa'i 1871 — Le Livre des funérailles", tr: "Sünen an-Nesa'i - Hadis 1871", id: "Sunan an-Nasa'i — Hadits 1871" }
 text: "… أَنَّ عَمْرَو بْنَ شُعَيْبٍ، كَتَبَ إِلَى عَبْدِ اللَّهِ بْنِ عَبْدِ الرَّحْمَنِ بْنِ أَبِي حُسَيْنٍ يُعَزِّيهِ بِابْنٍ لَهُ هَلَكَ وَذَكَرَ فِي كِتَابِهِ أَنَّهُ سَمِعَ أَبَاهُ يُحَدِّثُ عَنْ جَدِّهِ عَبْدِ اللَّهِ بْنِ عَمْرِو بْنِ الْعَاصِ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ إِنَّ اللَّهَ لاَ يَرْضَى لِعَبْدِهِ الْمُؤْمِنِ إِذَا ذَهَبَ بِصَفِيِّهِ مِنْ أَهْلِ الأَرْضِ فَصَبَرَ وَاحْتَسَبَ وَقَالَ مَا أُمِر …"
 summary:
   ar: "في السنن النسائي؛ إرسال كتاب أو رسالة إلى طرف."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن النسائی میں؛ کسی فریق کو خط یا پیغام بھیجنا."
   es: "En Sunan al-Nasa'i; enviar una carta o mensaje a una parte."
   fr: "Dans Sunan al-Nasa'i; l'envoi d'une lettre ou d'un message à une personne."
+  tr: "Sunan al-Nisa’i’de; bir tarafa kitap veya mektup göndermek."
+  id: "Dalam Sunan al-Nisa’i; mengirim buku atau surat kepada suatu pihak."
 relations:
   - { type: part_of, target: passage/nasai-kitab-21 }
   - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }

@@ -1,0 +1,15 @@
+---
+id: concept/alamat-al-ramad
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/alamat-al-ramad.md}
+---
+## Makna rasa sakit, kedewasaan, dan tekanan
+Rasa sakit yang terjadi di mata meliputi radiasi korosif, yang lain melebar. Iritasi menunjukkan kerusakan zat dan keseragamannya, dan rasa sakit yang memanjang menunjukkan kelimpahan atau angin. Pembengkakan menunjukkan kematangan atau ketebalan bahan, yang menyertai kematangan dan disertai dengan mata pada awalnya sedikit dan cepat larut. Ini patut dipuji, dan kecintaan pada yang kecil menunjukkan kurang baik. Butiran kecil menunjukkan kematangan yang lambat. Jika kelopak mata mulai menempel, kematangan telah tiba. Selain itu, selama ada aliran air, awalnya setelah {cite:canon-ibn-sina-print-v2 p.168} {cite:canon-ibn-sina-print-v2 p.169}.
+
+## Makna Jalur Materi
+Opasitas ini dikenal karena ringannya dan penyebabnya, serta hilangnya tumor awal. Konjungtivitis dari otak ke mata sebenarnya berasal dari diafragma luar yang mematahkan kepala. Dahi meregang, pembuluh darah yang muncul berbentuk lingkaran, dan pembengkakan menjalar ke kelopak mata, menyebabkan kemerahan dan memar di dahi. Jika berasal dari diafragma bagian dalam, ini tidak muncul, dan bersin serta gatal muncul di mulut dan hidung. Jika disertai dengan perut, maka seperti yang disebutkan {cite:canon-ibn-sina-print-v2 p.169}.
+
+## Tanda-tanda Empat Jenis dan Angin
+Gemocondylephus ditandai dengan warna mata, keringat, detak pelipis, dan tanda-tanda darah lain di otak. Penyakit ini tidak menyebabkan banyak robekan, melainkan menempel dan menempel saat tidur; empedu ditandai dengan tenggorokan yang lebih parah, rasa terbakar dan meradang, kemerahan yang lebih sedikit, dan air mata tipis serta panas yang dapat menjadi ulkus atau bebas dari air mata. Darah kosong dan tidak lengket saat tidur. Bisa berupa kemerahan yang memengaruhi mata, termasuk dalam suasana hati ganas, dan mata bisa memar serta terluka oleh lalat terbang. Di antara konjungtivitis empedu Jenis gatal murni dengan sedikit kemerahan dan sedikit merokok, dan tumor tidak menunjukkan ukuran atau keluaran yang signifikan. Tumor ini terbuat dari zat yang sedikit tajam; flegmatik menunjukkan berat parah, panas rendah, dan sedikit merah. Sultan bisa berwarna putih, berlembus, dan lengket saat tidur, iritasi, dan juga berwarna wajah serta warna. Meskipun asalnya dari perut, tumor ini dapat menyebabkan mual. Kulit flegmatik bisa mencapai titik di mana konjungtiva berubah menjadi hitam seperti tumor, tetapi tidak ada robekan melainkan bengkak; dan kegelapan menandakan hal ini. Berat akibat kasih sayang, kekeringan, kecanduan, dan kurangnya adhesi. Sedangkan untuk Al-Rihi, hanya mengalami peregangan tanpa berat atau keluar, dan peregangan ini dapat menyebabkan kemerahan {cite:canon-ibn-sina-print-v2 p.169}

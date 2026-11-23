@@ -1,7 +1,7 @@
 id: event/death-atabeg-izz-589
 class: event
 kind: death
-label: { ar: "وفاة أتابك عز الدين مسعود صاحب الموصل", en: "death of the atabeg Izz al-Din Masud of Mosul", es: "Muerte del atabeg Izz al-Din Masud de Mosul", fr: "mort de l'atabeg Izz al-Din Masud de Mossoul", ur: "موصل کے عتبیگ عزالدین مسعود کی موت" }
+label: { ar: "وفاة أتابك عز الدين مسعود صاحب الموصل", en: "death of the atabeg Izz al-Din Masud of Mosul", es: "Muerte del atabeg Izz al-Din Masud de Mosul", fr: "mort de l'atabeg Izz al-Din Masud de Mossoul", ur: "موصل کے عتبیگ عزالدین مسعود کی موت", tr: "Musul hükümdarı Atabeg İzzeddin Mes'ud'un ölümü", id: "Kematian Atabeg Izz al-Din Mas'ud, penguasa Mosul" }
 date:
   start: { edtf: "1193~", hijri: "0589", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Izz al-Din Masud ibn Mawdud, atabeg de Mosul, falleció tras una marcha hacia el territorio de al-Adil, donde la enfermedad lo hizo retroceder. Fue el último Mawdudid en mantener Mosul con independencia efectiva; después de él, la ciudad pasó a manos de los artúqid baktimur y quedó bajo la órbita de Saladino {cite:kamil-ibn-al-athir p. 228-229}."
   fr: "Izz al-Din Masud ibn Mawdud, atabeg de Mossoul, mourut après une marche en territoire al-Adil, maladie qui le contraignit à rechuter. Il fut le dernier Mawdudid à maintenir Mossoul en quasi-indépendance; après lui, la ville passa aux mains des Artuqid Baktimur, puis sous l’influence de Saladin (voir: Kamil ibn al-Athir, p. 228-229)."
   ur: "عزالدین مسعود ابن مودود، موصل کے عتبیگ، کا انتقال ہو گیا - العدل ملک میں مارچ کے بعد کہ بیماری واپس آگئی۔ موصل کو موثر آزادی میں رکھنے والا آخری مودود؛ اس کے بعد یہ شہر ارطقید بکتیمور اور صلاح الدین کے مدار میں چلا گیا۔ 228-229}۔"
+  tr: "Musul hükümdarı Atabeg İzz el-Din Mesud bin Kutb el-Din Mevdud, Adil topraklarına yaptığı yolculuktan sonra hastalığı nedeniyle vefat etti. Musul'u gerçek anlamda bağımsız olarak yöneten Mevdud ailesinin son üyesiydi; ondan sonra şehir Baktamur el-Artaqi ve daha sonra Atabeglerin yönetimine geçti. {Kaynak: Kamil İbn el-Athir, s. 228-229}"
+  id: "Atabeg Izz al-Din Masoud bin Qutb al-Din Mawdud, penguasa Mosul, meninggal setelah perjalanannya ke negeri al-Adil dan kembali karena sakit. Beliau adalah penguasa terakhir dari keluarga Mawdud yang memerintah Mosul dengan kemerdekaan sejati, karena setelahnya Mosul berada di bawah pemerintahan Baktamur al-Artaqi dan kemudian di bawah kekuasaan Atabeg {cite:kamil-ibn-al-athir hlm. 228-229}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/mosul, sources: [source/kamil-ibn-al-athir] }

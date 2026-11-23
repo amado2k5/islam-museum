@@ -1,0 +1,12 @@
+---
+id: work/tahdhib-al-kamal
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/work/tahdhib-al-kamal.md}
+---
+
+## Abu Ishaq al-Huwaini'nin 'İnci Kabukları'nda
+Ebu İshaq el-Huveyni [[person/abu-ishaq-al-heweny|]], insanlarla ilgili kitap serisini açıklar: "El-Kemal fi Esma' el-Rijal", ardından el-Mizzi'nin "Tahdhib el-Kâmal" ve ardından İbn Hacer'in "Tahdhib el-Tahdhib"i. El-Mizzi'nin anlatıcıların münzeviler ve sınavlarıyla ilgili biyografileri uzattığını, bunları kendi aktarım zincirleriyle anlattığını ve birçok eleştiri ve eleştiriyi atladığını belirtir. İbn Hacer raporları atlamış ve eleştiriyi bırakmıştır. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep03 00:05:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep03 00:06:30} Babürtay'ın el-Mizzi'ye birçok ifade eklediğini ve İbn Hacer'in kitabından büyük fayda sağladığını ve hatalarından kaçındığını söyler. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep04 00:01:00} Dr. Beşar Awad'ın baskısından sonra 'Tahdhib al-Tahdhib'e dönüşünün, ekibinin İbn Hajar'ın eklemelerini el-Mizzi'nin kenarlarına eklediği ve Dr. Beşar'ı ziyaret ettiğinde kitapta Dr. Beşar'ın el yazısıyla yazdığı düzeltmeler olduğu belirtilir. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep04 00:02:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep04 00:06:00}
+
+Kitabın kopyasıyla birlikte "büyük bir hikaye" olduğunu söylüyor: kenarlarına yaptığı faydaları tek bir kitaba yazmış, faydaları her cildin ilk sayfasına indekslemiş, özellikle Rijal al-Nasa'i'deki Al-Mizzi'ye yapılan düzeltmeler ve eklemeler ile edebi haberleri içermektedir. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep05 00:04:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep05 00:04:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep05 00:05:30} Yanında Iraklı araştırmacı Abdul Haq al-Turkmani tarafından yazılmış bir makale bulunduruyor; bu makale, Almanya'daki otelini ziyaret eden Dr. Bashar ile iki yıl boyunca çalışmıştı; Al-Huwaini bu makaleyi 15 Temmuz 2010 Perşembe tarihinde tarihlendirdi. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep05 00:01:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep05 00:01:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep05 00:03:30}

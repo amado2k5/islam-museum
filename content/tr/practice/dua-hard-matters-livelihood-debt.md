@@ -1,0 +1,12 @@
+---
+id: practice/dua-hard-matters-livelihood-debt
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/practice/dua-hard-matters-livelihood-debt.md}
+---
+## Özet
+Al-Nawawi'nin sıkıntılı bölümlerden topladıkları: bir mesele onu ele geçirdiğinde veya zorlaştırdığında ya da yaşamak zorlaştığında, sıkıntıları, felaketleri, dini ve yalnızlığı önlemek için zor olduğunda ne söylenir. {cite:al-adhkar-nawawi-arnaut-1994 p. 125}
+
+## Al-Nawawi'nin 'Al-Adhkar'da topladıkları
+Burada El-Nevevi zorluk zamanları {cite:al-adhkar-nawawi-arnaut-1994 p. 125} üzerine bölümler derler. Söyledikleriyle ilgili olarak, bir şey onu ele geçirdiğinde, Ebu Hureyre'den Sahih Müslim [[person/muhammad|'den Peygamber']] in güçlü bir müminin zayıftan daha iyi ve Allah tarafından daha sevilen olduğunu söylediğini rivayet eder. 'Keşke ben yapsaydım' dememeli, bunun yerine 'Allah buyurdu ve ne isterse yapar.' {cite:al-adhkar-nawawi-arnaut-1994 p. 125}. Sünan Ebu Davud'dan Awf ibn Malik'ten bir adamın öldürüldüğü ve 'Allah'a güvenin' dediği rivayet edilir. Peygamber, 'Gerçekten Allah beceriksizliği suçlar.' dedi. El-Nawavi bunun iyi bir hadis olduğunu söyler. {cite:al-adhkar-nawawi-arnaut-1994 p. 125}. Ve onun için bir işin zorluğu hakkında Anas'tan İbn al-Sünni kitabından şöyle geçer: "Ey Allah, kolaylık yoktur, sadece Senin kolaylaştırmandır" {cite:al-adhkar-nawawi-arnaut-1994 p. 125}. Geçim sıkıntısında, İbn Ömer'den evden çıkarken söylenen bir dua ayet eder {cite:al-adhkar-nawawi-arnaut-1994 p. 126}. Trajedi durumunda, [[passage/quran-2-155|El-Bekarah Suresi 155]], [[passage/quran-2-156|Bakkara Suresi 156]] ve Ebu Hureyre'nin hadisini anar: İnsanın sandaletlerinin genişliğinde bile iyileşmesi gerekir {cite:al-adhkar-nawawi-arnaut-1994 p. 126}. Dinde ise Ali'den Tirmizhi'den şöyle der: "Ey Allah, yasak olanı bana yedinle yeter ve Senin dışındakilerden lütfunla beni zenginleştir," ve El-Tirmidi iyi bir hadis {cite:al-adhkar-nawawi-arnaut-1994 p. 127} söyler. El-Vehşa'da El-Velid bin Velid'den şöyle der: "Allah'ın gazabından, cezasından ve kullarının kötülüğünden kafil sözlerinde sığınırım" {cite:al-adhkar-nawawi-arnaut-1994 p. 127}.

@@ -1,0 +1,12 @@
+---
+id: practice/dua-on-entering-and-leaving-the-toilet
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/dua-on-entering-and-leaving-the-toilet.md}
+---
+## Ringkasan
+Apa yang dikatakan saat masuk dan keluar kamar mandi, seperti yang disusun oleh An-Nawawi dalam "Al-Adhkar": mencari perlindungan dari kejahatan dan hal-hal yang tidak murni dalam dua Sahih, "Pengampunanmu" saat keluar dalam Sunnah, dan ketidaksukaan mengenang serta berbicara saat melepaskan diri. {cite:al-adhkar-nawawi-arnaut-1994 p. 25}
+
+## Apa yang dikumpulkan al-Nawawi dalam 'Al-Adhkar'
+Al-Nawawi melaporkan bahwa telah ditetapkan dalam dua Sahih dari Anas bahwa [[person/muhammad|Nabi biasa]] berkata saat memasuki toilet: "Ya Allah, aku mencari perlindungan kepada-Mu dari kemurnian dan kemurnian," dan ia menyebutkan huruf 'ba' yang benar dengan damma dan sukun {cite:al-adhkar-nawawi-arnaut-1994 p. 25}. Ia menceritakan dari Al-Tirmidhi dari Ali bahwa 'Atas nama Allah' menyembunyikan apa yang ada di antara mata jin dan kesalahan anak-anak Adam saat memasuki tengkorak. Ia mengutip Al-Tirmidhi bahwa rantai transmisinya tidak kuat, lalu mengatakan bahwa kebajikan dipraktikkan dengan narasi yang lemah, dan para sahabatnya merekomendasikan nama Allah lalu mencari perlindungan di bangunan dan gurun {cite:al-adhkar-nawawi-arnaut-1994 p. 26}. Ia mendedikasikan sebuah bab tentang Larangan untuk mengenang dan berbicara di tempat pribadi dilarang, dan ia mengatakan itu adalah ketidaksukaan terhadap penyucian, bukan larangan. Ia mengutip hadis Ibn Umar dalam Sahih Muslim dan hadis Al-Muhajir ibn Qunfudh dalam Sunan bahwa ia tidak menginginkan salam itu sampai ia melakukan wudhu {cite:al-adhkar-nawawi-arnaut-1994 p. 26}. Saat keluar, ia berkata: "Ampunanmu, puji Allah yang telah menghapus luka dariku dan menyembuhkanku." Ia menyebutkan bahwa "Pengampunanmu" telah ditetapkan dalam hadis otentik Sunan Abi Dawood dan Al-Tirmidhi {cite:al-adhkar-nawawi-arnaut-1994 p. 27}. Ia menceritakan dari Ibn Umar dari Ibn al-Sunni dan Al-Tabarani: "Puji Allah yang membuatku merasakan kersa-Nya, menjaga aku dalam kekuatan-Nya, dan melindungiku dari bahaya-Nya" {cite:al-adhkar-nawawi-arnaut-1994 p. 27}.

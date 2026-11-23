@@ -1,0 +1,18 @@
+---
+id: concept/al-makr-al-sayyi
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/al-makr-al-sayyi.md}
+---
+## Özet
+Şeyh, kötü aldatmanın sadece kendi halkını etkilediğini, bunu evrensel bir yaşam yasası olarak kabul ettiğini iddia eder. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:02:00} Birçok insanın başkalarına karşı komplo kurmak ve zarar vermek, kendilerine iyilik edenlere zarar vermek ve özellikle akrabalarıyla bağlarını koparmak için yaşadığını söyler. [[person/tarafa-ibn-al-abd|Tarafa ibn al-Abd'den gelen]] ayetin anlamını aktarır; akrabaları ezmek, kılıçtan daha ağır bir zahmettir. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:03:00}
+
+## Hizmetkârın kurnazlığı ve Tanrı'nın kurnazlığı
+Bir hizmetkârın kurnazlığını, ki bu onun için karanlıkta komploları büküp çevirmek ve örmektir, Tanrı'nın kurnazlığı ise kapsayıcı ve kapsamlıdır. Bir yaratığa karşı komplo kurmadığına, ancak bir komplo tersine döndüğüne inanır. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:04:00} Kurnazlık ve kurnazlığın zekanın işaretleri olduğunu reddeder ve kurnazın kalbine iyilik tohumu yerine kurnazlık tohumu ektiğine inanır, bu yüzden kendisine zarar vereni biçmekten başka bir şey biçmez. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:05:00}
+
+## Kurnazlık Çalışması
+Kurumun müdürüne hakaret eden ve yerine kötü raporlar sunan meslektaşını eleştirir; bunun karar vericilere çok yakın olduğunu düşünür ve kurnazlık olmadan aynı pozisyonu verebilecek Tanrı'nın kaderinden şüphe eder. Bu onun görüşüdür. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30} Rivayete göre Müminler Komutanı, mürekkep kalemini Abu Hazim adında bir adamdan istemiş, ancak Ebu Hazim reddetmiş, çünkü bir Müslüman'a haksız yere yazıp ortak olmaktan korkmuştur ⁦(needs_source: الاسم والقصة من رواية الشيخ)⁩. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:06:30}
+
+## Kurnazlığın sonuçları
+[[person/firawn|Firavun'un]] boğulduğu, Karun [[person/qarun|'un]] onunla ve eviyle birlikte yutulduğu, Nimrod'un yok olduğu, bebek Musa'nın denize atılıp hayatta kaldığı, güçlü Firavun'un ise denize inip boğulduğu anılır. Bu, evrende Allah'ın kanunu olarak kabul edilir. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:09:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:09:30} Bir Müslümanın şeytanla savaşmaktan başka bir savaşı olmadığına inanır, bu yüzden kurnazlık kalbini bilir. Kardeşinin ağzına hurma koyan ve onun ağzında tatlı bulan yoldaşından bahseder. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:07:30}

@@ -1,0 +1,12 @@
+---
+id: practice/dua-friday-dawn-and-sunrise
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/practice/dua-friday-dawn-and-sunrise.md}
+---
+## Özet
+El-Nawawi'nin Cuma sabahı ve gün doğumu bölümlerinde derlediği şey: Cuma günü sık sık anma ve Peygamber'e bereket göndermek, şafaktan önce af dilemek, cevap saati ve güneş doğduğunda ne söylendiği. {cite:al-adhkar-nawawi-arnaut-1994 p. 85}
+
+## Al-Nawawi'nin 'Al-Adhkar'da topladıkları
+El-Nevavi, Cuma dışında söylenen her şeyin orada söylendiğini, Cuma günü sık anmanın artırılması ve [[person/muhammad|Peygamber'e {cite:al-adhkar-nawawi-arnaut-1994 p. 85} bereket gönderme sıklığının artırılması tavsiye]] edildiğini söyler. İbn Sünni kitabındaki Anas'tan rivayet edilir ki, Cuma sabahı şafak namazından önce "Allah'tan af diliyorum, O'ndan başka bir ilah yoktur, Ebedi Yaşayan, Sürdüren ve O'na tövbe ederim" deseyse, Allah günahlarını deniz köpüğü gibi olsa bile affeder {cite:al-adhkar-nawawi-arnaut-1994 p. 85}. Ayrıca, tüm Cuma boyunca dua sayısının artırılmasının tavsiye edildiğini, cevap saatine denk gelmesini umduğunu belirtir. Alimler bu konuda birçok görüşle farklı görüşe sahiptir ve doğru görüş, Ebu Musa el-Eş'ari'den Sahih Müslüman'da belirtildiği gibi, imam kürsüde otururken namazdan selamlaması arasında yer alır {cite:al-adhkar-nawawi-arnaut-1994 p. 85}. Güneş doğduğunda söyledikleriyle ilgili bölümde, İbn al-Sunni'de Ebu Seyid-el-Hudri'den zayıf bir zincirle Peygamber'in şöyle dediği "Bugün bize sağlık veren ve güneşi doğuşundan getiren Allah'a hamdolsun," sonra Allah'ın birliğine şahitlik edip dininin, dünyevi yaşamın ve ahiret {cite:al-adhkar-nawawi-arnaut-1994 p. 86} doğruluğunu dilediğini anlatır. İbn Mes'ud'dan, yetkisini askıya alarak, doğuşunu duyduğunda şöyle demiştir: "Bize bu günü veren ve bu günde engellerimizden kurtaran Allah'a şükürler olsun" {cite:al-adhkar-nawawi-arnaut-1994 p. 86}. Güneş doğduğunda anlatılan bölümde, Amr bin Absa'dan Peygamber'in şöyle dediği rivayet edilir: Güneş doğmaz, Allah'ın yarattığı şeyden sadece yüceltme ve övgü bırakır, sadece Şeytan ve Adem'in inatçıları (yaratılışın en kötüsüdür) {cite:al-adhkar-nawawi-arnaut-1994 p. 86}.

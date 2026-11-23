@@ -1,16 +1,96 @@
 slug: la-yajtami-al-shaqa
-title: { ar: "لا يجتمع الشقاء مع ستة", en: "Misery never meets six states", fr: "Six états associés à l’éloignement du malheur" }
+title:
+  ar: لا يجتمع الشقاء مع ستة
+  en: Misery never meets six states
+  fr: Six états associés à l’éloignement du malheur
+  tr: Sefalet altı kişiyle buluşmaz
+  id: Kemiskinan tidak bertemu dengan enam orang
 lede:
-  ar: "ستة أحوال من لازمها لم يجتمع عليه الشقاء — بأدلة من القرآن."
-  en: "Six states whose keeper misery never meets — with Quranic proofs."
+  ar: ستة أحوال من لازمها لم يجتمع عليه الشقاء — بأدلة من القرآن.
+  en: Six states whose keeper misery never meets — with Quranic proofs.
   fr: Six attitudes que cette fiche rapproche de l’absence de malheur, à partir de passages coraniques.
+  tr: Altı devlet ise mutsuzlukla birlikte değildir — Kur'an'dan alınan kanıtlarla.
+  id: Enam negara yang tidak disertai penderitaan — dengan bukti dari Al-Qur'an.
 source_card: d1589817
-status: { review: draft }
+status:
+  review: draft
 quiz: true
 items:
-  - { title: { ar: "بر الوالدة", en: "Honoring one's mother", fr: "La bonté envers sa mère" }, body: { ar: "قال عيسى: وبرًّا بوالدتي ولم يجعلني جبارًا شقيًّا.", en: "'Isa said: dutiful to my mother; He did not make me a wretched tyrant.", fr: "Le verset évoque la bonté de Jésus envers sa mère et l’absence de tyrannie et de malheur dans son caractère." }, ref: "مريم 32" }
-  - { title: { ar: "الدعاء", en: "Supplication", fr: "L’invocation" }, body: { ar: "قال زكريا: ولم أكن بدعائك رب شقيًّا.", en: "Zakariyya said: never have I been wretched in my supplication to You.", fr: "Le verset évoque la confiance de Zacharie, qui se souvient de ses invocations à Dieu." }, ref: "مريم 4" }
-  - { title: { ar: "القرآن", en: "The Quran", fr: "Le Coran" }, body: { ar: "ما أنزلنا عليك القرآن لتشقى.", en: "We did not send down the Quran upon you to distress you.", fr: "Le verset précise que la révélation du Coran n’a pas pour but de causer la détresse." }, ref: "طه 2" }
-  - { title: { ar: "اتباع الهدى", en: "Following guidance", fr: "Suivre la guidance" }, body: { ar: "فمن اتبع هداي فلا يضل ولا يشقى.", en: "Whoever follows My guidance shall neither stray nor be wretched.", fr: "Le verset associe le suivi de la guidance divine à l’éloignement de l’égarement et du malheur." }, ref: "طه 123" }
-  - { title: { ar: "خشية الله", en: "Fear of God", fr: "La crainte de Dieu" }, body: { ar: "سيذكر من يخشى ويتجنبها الأشقى.", en: "The God-fearing will remember; the most wretched will avoid it.", fr: "Les versets opposent l’accueil du rappel par celui qui craint Dieu à son rejet par le plus malheureux." }, ref: "الأعلى 10–11" }
-  - { title: { ar: "التقوى", en: "Taqwa", fr: "La conscience de Dieu" }, body: { ar: "لا يصلاها إلا الأشقى الذي كذب وتولى.", en: "None burns in it but the most wretched, who denied and turned away.", fr: "Les versets évoquent le sort de celui qui dément et se détourne." }, ref: "الليل 14–16" }
+- title:
+    ar: بر الوالدة
+    en: Honoring one's mother
+    fr: La bonté envers sa mère
+    tr: Anneyi onurlandırmak
+    id: Menghormati ibu
+  body:
+    ar: 'قال عيسى: وبرًّا بوالدتي ولم يجعلني جبارًا شقيًّا.'
+    en: '''Isa said: dutiful to my mother; He did not make me a wretched tyrant.'
+    fr: Le verset évoque la bonté de Jésus envers sa mère et l’absence de tyrannie et de malheur dans son caractère.
+    tr: 'İsa şöyle dedi: Anneme karşı görevini gördü ve beni zalim ya da mutsuz yapmadı.'
+    id: 'Yesus berkata: Dia setia kepada ibuku dan tidak menjadikanku tiran atau sengsara.'
+  ref: مريم 32
+- title:
+    ar: الدعاء
+    en: Supplication
+    fr: L’invocation
+    tr: Dua
+    id: Doa
+  body:
+    ar: 'قال زكريا: ولم أكن بدعائك رب شقيًّا.'
+    en: 'Zakariyya said: never have I been wretched in my supplication to You.'
+    fr: Le verset évoque la confiance de Zacharie, qui se souvient de ses invocations à Dieu.
+    tr: 'Zekeriya dedi ki: Duanda mutsuz değildim, Rabbim.'
+    id: 'Zakharia berkata: Aku tidak sengsara dalam doa-Mu, Tuhanku.'
+  ref: مريم 4
+- title:
+    ar: القرآن
+    en: The Quran
+    fr: Le Coran
+    tr: Kur'an
+    id: Al-Qur'an
+  body:
+    ar: ما أنزلنا عليك القرآن لتشقى.
+    en: We did not send down the Quran upon you to distress you.
+    fr: Le verset précise que la révélation du Coran n’a pas pour but de causer la détresse.
+    tr: Kur'an'ı sana acı çekmen için indirmedik.
+    id: Kami tidak mengirimkan Al-Qur'an kepadamu agar engkau menderita.
+  ref: طه 2
+- title:
+    ar: اتباع الهدى
+    en: Following guidance
+    fr: Suivre la guidance
+    tr: Rehberliğe uygun
+    id: Mengikuti panduan
+  body:
+    ar: فمن اتبع هداي فلا يضل ولا يشقى.
+    en: Whoever follows My guidance shall neither stray nor be wretched.
+    fr: Le verset associe le suivi de la guidance divine à l’éloignement de l’égarement et du malheur.
+    tr: Yani benim rehberliğimi takip eden ne sapır ne de acı çeker.
+    id: Jadi siapa pun yang mengikuti petunjuk-Ku tidak akan sesat atau menderita.
+  ref: طه 123
+- title:
+    ar: خشية الله
+    en: Fear of God
+    fr: La crainte de Dieu
+    tr: Tanrı korkusu
+    id: Takut Akan Tuhan
+  body:
+    ar: سيذكر من يخشى ويتجنبها الأشقى.
+    en: The God-fearing will remember; the most wretched will avoid it.
+    fr: Les versets opposent l’accueil du rappel par celui qui craint Dieu à son rejet par le plus malheureux.
+    tr: Korkanları hatırlayacak ve ondan kaçınacak.
+    id: Dia akan mengingat mereka yang takut dan menghindarinya.
+  ref: الأعلى 10–11
+- title:
+    ar: التقوى
+    en: Taqwa
+    fr: La conscience de Dieu
+    tr: dindarlık
+    id: kesalehan
+  body:
+    ar: لا يصلاها إلا الأشقى الذي كذب وتولى.
+    en: None burns in it but the most wretched, who denied and turned away.
+    fr: Les versets évoquent le sort de celui qui dément et se détourne.
+    tr: Sadece yalan söyleyip yüz çeviren zavallı kişi bunu dua eder.
+    id: Hanya yang malang yang berbohong dan berpaling akan berdoa.
+  ref: الليل 14–16

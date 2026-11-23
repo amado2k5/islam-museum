@@ -1,7 +1,7 @@
 id: event/ildigiz-rayy-566
 class: event
 kind: conquest
-label: { ar: "ملك إيلدكز الري", en: "Īldigiz takes al-Rayy", es: "Īldigiz toma al-Rayy", fr: "Īldigiz prend al-Rayy", ur: "الدجیز الرائے لیتا ہے۔" }
+label: { ar: "ملك إيلدكز الري", en: "Īldigiz takes al-Rayy", es: "Īldigiz toma al-Rayy", fr: "Īldigiz prend al-Rayy", ur: "الدجیز الرائے لیتا ہے۔", tr: "Ildekz Sulama Kralı", id: "Raja Irigasi Ildekz" }
 date:
   start: { edtf: "1170~", hijri: "0566", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Shams al-Dīn Īldigiz, atabeg de Azerbaiyán, tomó al-Rayy (ganado a través del visir Ibn ʿArabshāh al-Ibrāhīmī) y luego mantuvo Azerbaiyán y el Jibāl como una potencia independiente {citar:kamil-ibn-al-athir p. 20}."
   fr: "Shams al-Dīn Īldigiz, atabeg d'Azerbaïdjan, prit al-Rayy — gagné par l'intermédiaire du vizir Ibn ʿArabshāh al-Ibrāhīmī — puis détena l'Azerbaïdjan et le Jibāl comme puissance indépendante {cite:kamil-ibn-al-athir p. 20}."
   ur: "آذربائیجان کے اتابیگ شمس الدین الدجیز نے الرائے پر قبضہ کیا - وزیر ابن عربشاہ الابراہیمی کے ذریعے جیت لیا - پھر آذربائیجان اور جبل کو ایک آزاد طاقت کے طور پر تھام لیا۔ 20}۔"
+  tr: "Azerbaycan'ın Rey şehrinin hükümdarı Malik Şems el-Din İldegiz Atabeg, Sultan Arslan bin Tuğrul'un veziri İbn Arabşah el-İbrahimi aracılığıyla bu şehri yönetti ve daha sonra Azerbaycan ve dağlık bölge üzerinde bağımsızlığını kazandı. {Kaynak: Kamil İbn el-Athir, s. 20}"
+  id: "Malik Shams al-Din Ildegiz Atabeg dari Azerbaijan, kota Rayy, dan kekuasaannya atas kota itu melalui Ibn Arabshah al-Ibrahimi, menteri Sultan Arslan bin Tughrul, kemudian ia menjadi merdeka atas Azerbaijan dan pegunungan {cite:kamil-ibn-al-athir p. 20}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/rayy, sources: [source/kamil-ibn-al-athir] }

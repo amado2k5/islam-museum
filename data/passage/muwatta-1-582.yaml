@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.582"
-label: { ar: "الموطأ 582 — بلاغ: ابن عمر يدعو: اللهم اجعلني من أئمة المتقين", en: "Muwatta 582", es: "Muwatta 582", fr: "Muwatta 582", ur: "موطا 582" }
+label: { ar: "الموطأ 582 — بلاغ: ابن عمر يدعو: اللهم اجعلني من أئمة المتقين", en: "Muwatta 582", es: "Muwatta 582", fr: "Muwatta 582", ur: "موطا 582", tr: "El-Muvatta 582 — Rivayet: İbn Ömer şöyle dua etti: Ey Allah'ım, beni takva sahiplerinin önderlerinden eyle.", id: "Al-Muwatta 582 — Riwayat: Ibnu Umar berdoa: Ya Allah, jadikanlah aku salah satu pemimpin orang-orang yang bertakwa." }
 text: "اللهم اجعلني من أئمة المتقين"
 summary:
   ar: "بلاغ يرويه مالك أنه بلغه أن عبد الله بن عمر كان يقول في دعائه: اللهم اجعلني من أئمة المتقين. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.300}"
+  tr: "Malik, Abdullah ibn Umar'ın duasında şöyle dediğini duyduğunu bildirmiştir: \"Ey Allah'ım, beni takva sahiplerinin önderlerinden eyle.\" Araştırmacı, bunu Ebu Musab ve Suveyd'in Malik'ten rivayet ettiğini belirtmektedir. {cite:muwatta-maruf-1997 s.300}"
+  id: "Malik meriwayatkan bahwa ia mendengar Abdullah ibn Umar biasa mengucapkan dalam doanya: \"Ya Allah, jadikanlah aku salah satu pemimpin orang-orang yang bertakwa.\" Peneliti menyebutkan bahwa Abu Musab dan Suwaid meriwayatkannya dari Malik. {cite:muwatta-maruf-1997 p.300}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
   - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }

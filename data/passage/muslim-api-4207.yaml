@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "4207"
-label: { ar: "صحيح مسلم 4207 — وصية أو عهد أخير", en: "Sahih Muslim 4207 — a testament or parting counsel", ur: "صحیح مسلم 4207 — وصیت یا آخری نصیحت", es: "Sahih Muslim 4207 — un testamento o consejo de despedida", fr: "Sahih Muslim 4207 — un testament ou un conseil d'adieu" }
+label: { ar: "صحيح مسلم 4207 — وصية أو عهد أخير", en: "Sahih Muslim 4207 — a testament or parting counsel", ur: "صحیح مسلم 4207 — وصیت یا آخری نصیحت", es: "Sahih Muslim 4207 — un testamento o consejo de despedida", fr: "Sahih Muslim 4207 — un testament ou un conseil d'adieu", tr: "Sahih Muslim 4207 — Son vasiyet veya ahit", id: "Sahih Muslim 4207 — Wasiat atau perjanjian terakhir" }
 text: "… وَهْبٍ، أَخْبَرَنِي عَمْرٌو، - وَهْوَ ابْنُ الْحَارِثِ - عَنِ ابْنِ شِهَابٍ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، أَنَّهُ سَمِعَ رَسُولَ اللَّهِ قَالَ \" مَا حَقُّ امْرِئٍ مُسْلِمٍ لَهُ شَىْءٌ يُوصِي فِيهِ يَبِيتُ ثَلاَثَ لَيَالٍ إِلاَّ وَوَصِيَّتُهُ عِنْدَهُ مَكْتُوبَةٌ \". قَالَ عَبْدُ اللَّهِ بْنُ عُمَرَ مَا مَرَّتْ عَلَىَّ لَيْلَةٌ مُنْذُ سَمِعْتُ رَسُولَ اللَّهِ قَالَ ذَلِكَ إِلاَّ وَعِنْدِي وَصِيَّتِي."
 summary:
   ar: "حديث في صحيح مسلم، رقم 4207، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 4207، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 4207 (El Libro de los Testamentos), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sahih Muslim, n° 4207 (Le Livre des Testaments), mentionne un testament ou des dernières volontés. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Sahih Müslim'de 4207 numaralı hadis, vasiyet veya son bir ahitten bahsetmektedir. Bu hadis, vasiyet, miras, kutsal emanetler ve türbeler konusunda uzmanlaşmış araştırmacılar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 4207, menyebutkan tentang wasiat atau perjanjian terakhir. Hadits ini disusun oleh para peneliti yang ahli dalam wasiat, warisan, relik, dan makam, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4207 (book 25 hadith 4); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

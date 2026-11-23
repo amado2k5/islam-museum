@@ -1,50 +1,110 @@
 slug: salat-al-duha
-title: { ar: "صلاة الضحى", en: "Duha prayer", fr: "La prière du duha" }
+title:
+  ar: صلاة الضحى
+  en: Duha prayer
+  fr: La prière du duha
+  tr: Duha namazı
+  id: Doa Dua
 lede:
-  ar: "صلاة الأوابين — وقتها وفضلها وكيفيتها سؤالًا وجوابًا."
-  en: "The prayer of the oft-returning — its time, virtue and method, Q&A."
-  fr: "La prière de ceux qui reviennent à Dieu : horaire, mérite et déroulement en questions-réponses."
+  ar: صلاة الأوابين — وقتها وفضلها وكيفيتها سؤالًا وجوابًا.
+  en: The prayer of the oft-returning — its time, virtue and method, Q&A.
+  fr: 'La prière de ceux qui reviennent à Dieu : horaire, mérite et déroulement en questions-réponses.'
+  tr: Tövbe edenlerin duası — zamanı, erdemi ve soru-cevap şekli.
+  id: Doa Orang yang Bertaubat — Waktu, Kebajikan, dan Cara Tanya Jawab.
 source_card: 2fc1002d
-status: { review: draft }
+status:
+  review: draft
 widget: stepper
 steps:
-  - q: { ar: "ما هي صلاة الضحى؟", en: "What is Duha prayer?", fr: "Qu’est-ce que la prière du duha ?" }
-    a:
-      ar: "صلاة نافلة تُصلَّى في وقت الضحى، وتُسمَّى صلاة الأوابين."
-      en: "A voluntary prayer performed in the forenoon, called the prayer of the oft-returning."
-      fr: Une prière surérogatoire de la matinée, également appelée prière de ceux qui reviennent à Dieu.
-  - q: { ar: "متى وقتها؟", en: "When is its time?", fr: "À quel moment se pratique-t-elle ?" }
-    a:
-      ar: "من ارتفاع الشمس قدر رمح (نحو ربع ساعة بعد الشروق) إلى قبيل الظهر؛ وأفضلها حين ترمض الفصال أي اشتداد الحر في وسط النهار."
-      en: "From sunrise plus ~15 minutes until just before Dhuhr; best in the mid-morning heat."
-      fr: Lorsque le soleil s’est élevé d’environ une lance, soit près d’un quart d’heure après son lever, jusqu’un peu avant le dhuhr ; son moment privilégié est celui où la chaleur de la matinée s’intensifie.
-  - q: { ar: "ما فضلها؟", en: "What is its virtue?", fr: "Quel mérite lui est associé ?" }
-    a:
-      ar: "تجزئ عن صدقة كل مفصل من مفاصل الجسم، وهي وصية نبوية جامعة."
-      en: "It suffices as charity for every joint of the body; a comprehensive prophetic counsel."
-      fr: Elle tient lieu d’aumône pour chaque articulation du corps et fait partie d’un conseil prophétique général.
-    evidence:
-      - { source: "رواه مسلم", note: "مراجعة اللفظ" }
-      - { source: "متفق عليه (الوصية)", note: "مراجعة اللفظ" }
-  - q: { ar: "كم عدد ركعاتها؟", en: "How many rak'ahs?", fr: "Combien comporte-t-elle d’unités ?" }
-    a:
-      ar: "أقلها ركعتان، وأفضلها أربع، وأكثر ما ورد ثمان؛ ولا حد لأكثرها عند جمهور العلماء."
-      en: "Minimum two, best four, most narrated eight; no maximum per the majority."
-      fr: Deux au minimum, quatre de préférence ; huit est le plus grand nombre rapporté. Selon la majorité des savants, aucun maximum n’est fixé.
-    evidence:
-      - { source: "رواه أبو داود والترمذي (الأربع)", note: "مراجعة اللفظ والتخريج" }
-  - q: { ar: "كيف تُصلَّى؟", en: "How is it performed?", fr: "Comment se déroule-t-elle ?" }
-    a:
-      ar: "ركعتين ركعتين: تكبيرة الإحرام، الفاتحة وسورة، الركوع والسجود كسائر الصلوات، ثم التشهد والسلام."
-      en: "Two by two: opening takbir, Fatiha and a surah, bowing and prostration as in other prayers, then tashahhud and salam."
-      fr: "Par groupes de deux unités : takbir d’entrée, Fatiha et une sourate, inclinaison et prosternation comme dans les autres prières, puis tachahhoud et salut final."
-  - q: { ar: "هل لها سور مخصوصة؟", en: "Are there specific surahs for it?", fr: "Des sourates particulières lui sont-elles réservées ?" }
-    a:
-      ar: "لا؛ يُقرأ فيها بما تيسر من القرآن."
-      en: "No; recite whatever is easy from the Quran."
-      fr: Non ; la récitation porte sur ce qui est accessible du Coran.
-  - q: { ar: "هل لها أذكار مخصوصة؟", en: "Are there specific adhkar for it?", fr: "Des formules de rappel particulières lui sont-elles réservées ?" }
-    a:
-      ar: "لا أذكار مخصوصة ثبتت لها؛ الذكر العام بعد الصلاة كغيرها."
-      en: "No specific adhkar are established for it; the general post-prayer dhikr as usual."
-      fr: Aucune n’est établie spécifiquement ; le rappel général après la prière reste le même.
+- q:
+    ar: ما هي صلاة الضحى؟
+    en: What is Duha prayer?
+    fr: Qu’est-ce que la prière du duha ?
+    tr: Duha duası nedir?
+    id: Apa itu doa Dua?
+  a:
+    ar: صلاة نافلة تُصلَّى في وقت الضحى، وتُسمَّى صلاة الأوابين.
+    en: A voluntary prayer performed in the forenoon, called the prayer of the oft-returning.
+    fr: Une prière surérogatoire de la matinée, également appelée prière de ceux qui reviennent à Dieu.
+    tr: Duh zamanında yapılan gönüllü bir dua olan Awabeen duasıdır.
+    id: Doa sukarela yang dilakukan pada masa Duha, disebut doa Awabeen.
+- q:
+    ar: متى وقتها؟
+    en: When is its time?
+    fr: À quel moment se pratique-t-elle ?
+    tr: Saat ne zaman?
+    id: Kapan waktunya?
+  a:
+    ar: من ارتفاع الشمس قدر رمح (نحو ربع ساعة بعد الشروق) إلى قبيل الظهر؛ وأفضلها حين ترمض الفصال أي اشتداد الحر في وسط النهار.
+    en: From sunrise plus ~15 minutes until just before Dhuhr; best in the mid-morning heat.
+    fr: Lorsque le soleil s’est élevé d’environ une lance, soit près d’un quart d’heure après son lever, jusqu’un peu avant le dhuhr ; son moment privilégié est celui où la chaleur de la matinée s’intensifie.
+    tr: Güneşin en yüksek noktasından gün doğumundan yaklaşık on beş dakika sonra öğlene kadar sürer; en iyi zaman, gün ortasında sıcaklığın arttığı zamandır.
+    id: Dari puncak matahari sekitar lima belas menit setelah matahari terbit hingga tepat sebelum tengah hari; waktu terbaik adalah saat panas meningkat di tengah hari.
+- q:
+    ar: ما فضلها؟
+    en: What is its virtue?
+    fr: Quel mérite lui est associé ?
+    tr: Onun lütfu nedir?
+    id: Apa itu keuntungannya?
+  a:
+    ar: تجزئ عن صدقة كل مفصل من مفاصل الجسم، وهي وصية نبوية جامعة.
+    en: It suffices as charity for every joint of the body; a comprehensive prophetic counsel.
+    fr: Elle tient lieu d’aumône pour chaque articulation du corps et fait partie d’un conseil prophétique général.
+    tr: Bedenin her parçasına sadaka vermek yeterlidir ve kapsamlı bir peygamberlik buyruğudur.
+    id: Cukup memberikan kasih kepada setiap bagian tubuh, dan itu adalah perintah kenabian yang komprehensif.
+  evidence:
+  - source: رواه مسلم
+    note: مراجعة اللفظ
+  - source: متفق عليه (الوصية)
+    note: مراجعة اللفظ
+- q:
+    ar: كم عدد ركعاتها؟
+    en: How many rak'ahs?
+    fr: Combien comporte-t-elle d’unités ?
+    tr: Kaç rak'ah var?
+    id: Berapa banyak rak'ah yang ada?
+  a:
+    ar: أقلها ركعتان، وأفضلها أربع، وأكثر ما ورد ثمان؛ ولا حد لأكثرها عند جمهور العلماء.
+    en: Minimum two, best four, most narrated eight; no maximum per the majority.
+    fr: Deux au minimum, quatre de préférence ; huit est le plus grand nombre rapporté. Selon la majorité des savants, aucun maximum n’est fixé.
+    tr: Minimum iki rekat, en iyisi dört, en çok bildirilen ise sekizdir; çoğunluk için bir sınır yoktur, çoğu alimin görüşüne göre bir sınır yoktur.
+    id: Minimum adalah dua rak'ah, yang terbaik empat, dan yang paling banyak dilaporkan adalah delapan; menurut mayoritas cendekiawan, tidak ada batasan untuk mayoritas.
+  evidence:
+  - source: رواه أبو داود والترمذي (الأربع)
+    note: مراجعة اللفظ والتخريج
+- q:
+    ar: كيف تُصلَّى؟
+    en: How is it performed?
+    fr: Comment se déroule-t-elle ?
+    tr: Nasıl dua edilir?
+    id: Bagaimana cara berdoa?
+  a:
+    ar: 'ركعتين ركعتين: تكبيرة الإحرام، الفاتحة وسورة، الركوع والسجود كسائر الصلوات، ثم التشهد والسلام.'
+    en: 'Two by two: opening takbir, Fatiha and a surah, bowing and prostration as in other prayers, then tashahhud and salam.'
+    fr: 'Par groupes de deux unités : takbir d’entrée, Fatiha et une sourate, inclinaison et prosternation comme dans les autres prières, puis tachahhoud et salut final.'
+    tr: 'Her biri iki rekat: Tekbir-i İhram, El-Fatiha ve diğer namazlar gibi eğilip secde edilen bir sure, ardından teshehud ve selam.'
+    id: 'Dua rak''ah masing-masing: Takbir al-Ihram, Al-Fatiha dan surat, membungkuk dan sujud seperti doa lainnya, lalu tashahhud dan salam.'
+- q:
+    ar: هل لها سور مخصوصة؟
+    en: Are there specific surahs for it?
+    fr: Des sourates particulières lui sont-elles réservées ?
+    tr: Özel bir çiti var mı?
+    id: Apakah ada pagar khusus?
+  a:
+    ar: لا؛ يُقرأ فيها بما تيسر من القرآن.
+    en: No; recite whatever is easy from the Quran.
+    fr: Non ; la récitation porte sur ce qui est accessible du Coran.
+    tr: Hayır; Kur'an'dan olabildiğince çok şey okumalıdır.
+    id: Tidak; dia harus membaca dari Al-Quran sebanyak mungkin di dalamnya.
+- q:
+    ar: هل لها أذكار مخصوصة؟
+    en: Are there specific adhkar for it?
+    fr: Des formules de rappel particulières lui sont-elles réservées ?
+    tr: Özel anıları var mı?
+    id: Apakah mereka memiliki kenangan khusus?
+  a:
+    ar: لا أذكار مخصوصة ثبتت لها؛ الذكر العام بعد الصلاة كغيرها.
+    en: No specific adhkar are established for it; the general post-prayer dhikr as usual.
+    fr: Aucune n’est établie spécifiquement ; le rappel général après la prière reste le même.
+    tr: Onlar için özel anma törenleri belirlenmemiştir; dua sonrası genel anma diğerleri gibidir.
+    id: Tidak ada peringatan khusus yang ditetapkan untuk mereka; peringatan umum setelah doa sama seperti yang lain.

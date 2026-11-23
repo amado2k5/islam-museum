@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani, person/abdullah-ibn-umar]
 work: work/muwatta-malik
 ref: "840"
-label: { ar: "الموطأ 840 — ابن عمر: من استقاء وهو صائم فعليه القضاء، ومن ذرعه القيء فليس عليه قضاء", en: "Muwatta 840", es: "Muwatta 840", fr: "Muwatta 840", ur: "موطا 840" }
+label: { ar: "الموطأ 840 — ابن عمر: من استقاء وهو صائم فعليه القضاء، ومن ذرعه القيء فليس عليه قضاء", en: "Muwatta 840", es: "Muwatta 840", fr: "Muwatta 840", ur: "موطا 840", tr: "El-Muvatta 840 — İbn Ömer: Oruçluyken kusan kimsenin orucunu kaza etmesi gerekir, fakat istemsizce kusan kimsenin orucunu kaza etmesi gerekmez.", id: "Al-Muwatta 840 — Ibn Umar: Barangsiapa muntah saat berpuasa wajib menggubah puasanya, tetapi barangsiapa muntah tanpa disengaja tidak wajib menggubah puasanya." }
 summary:
   ar: "يرويه مالك عن نافع عن عبد الله بن عمر، أنه كان يقول: من استقاء وهو صائم فعليه القضاء، ومن ذرعه القيء فليس عليه القضاء. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد والشافعي في مسنده. {cite:muwatta-maruf-1997 p.408}"
+  tr: "Malik, Nafi'den, o da Abdullah ibn Umar'dan rivayet ederek şöyle buyurmuştur: \"Oruçluyken kusan kimse orucunu kaza etmelidir, fakat istemsizce kusan kimsenin orucunu kaza etmesi gerekmez.\" Araştırmacı, bu rivayetin Malik'ten Ebu Mus'ab, Suveyd ve Şafiî tarafından Musned'inde nakledildiğini belirtmektedir. {cite:muwatta-maruf-1997 s.408}"
+  id: "Malik meriwayatkan hadits ini dari Nafi’ yang juga meriwayatkan dari Abdullah ibn Umar, yang berkata: “Barangsiapa muntah saat berpuasa wajib mengqadha puasanya, tetapi barangsiapa muntah tanpa sengaja tidak wajib mengqadha puasanya.” Peneliti menyebutkan bahwa hadits ini diriwayatkan dari Malik oleh Abu Mus’ab, Suwaid, dan al-Shafi’i dalam Musnadnya. {cite:muwatta-maruf-1997 p.408}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
   - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }

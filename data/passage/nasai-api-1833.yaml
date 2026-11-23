@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "1833"
-label: { ar: "سنن النسائي 1833 — ساعة الاحتضار والوفاة", en: "Sunan al-Nasa'i 1833 — a deathbed and last hours", ur: "سنن نسائی 1833 — وقتِ وفات اور آخری لمحات", es: "Sunan al-Nasa'i 1833 — lecho de muerte y últimas horas", fr: "Sunan al-Nasa'i 1833 — Un lit de mort et les dernières heures" }
+label: { ar: "سنن النسائي 1833 — ساعة الاحتضار والوفاة", en: "Sunan al-Nasa'i 1833 — a deathbed and last hours", ur: "سنن نسائی 1833 — وقتِ وفات اور آخری لمحات", es: "Sunan al-Nasa'i 1833 — lecho de muerte y últimas horas", fr: "Sunan al-Nasa'i 1833 — Un lit de mort et les dernières heures", tr: "Sunan an-Nasa'i 1833 — Ölüm ve Ölme Saati", id: "Sunan an-Nasa'i 1833 — Saat-saat Sakaratul Maut dan Kematian" }
 text: "… فُلاَنٌ فَيَقُولُونَ دَعُوهُ فَإِنَّهُ كَانَ فِي غَمِّ الدُّنْيَا فَإِذَا قَالَ أَمَا أَتَاكُمْ قَالُوا ذُهِبَ بِهِ إِلَى أُمِّهِ الْهَاوِيَةِ وَإِنَّ الْكَافِرَ إِذَا احْتُضِرَ أَتَتْهُ مَلاَئِكَةُ الْعَذَابِ بِمِسْحٍ فَيَقُولُونَ اخْرُجِي سَاخِطَةً مَسْخُوطًا $$عَلَيْكِ إِلَى عَذَابِ اللَّهِ عَزَّ وَجَلَّ. فَتَخْرُجُ كَأَنْتَنِ رِيحِ جِيفَةٍ حَتَّى يَأْتُونَ بِهِ بَابَ الأَرْضِ فَيَقُولُونَ مَا أَنْتَنَ هَذِهِ الرِّيحَ حَتَّى يَأْتُونَ بِهِ أَرْوَاحَ الْكُفَّارِ."
 summary:
   ar: "حديث في سنن النسائي، رقم 1833، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 1833، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 1833 (El Libro de los Funerales), menciona un lecho de muerte y las últimas horas. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un récit du Sunan al-Nasa'i, n° 1833 (Le Livre des Funérailles), évoque un lit de mort et les dernières heures. Le Navigateur des Testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, des dernières heures, des biens, des reliques et des tombes."
+  tr: "Sunan-ı Nesai'de yer alan 1833 numaralı hadis, ölüm anını ve ölüm sürecini konu almaktadır. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler üzerine araştırmalar yapan uzmanlar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, no. 1833, menyebutkan saat kematian dan saat sekarat. Hadits ini dikumpulkan oleh para peneliti wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ihtidar, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1833 (book 21 hadith 16); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1353"
-label: { ar: "الموطأ 1353 — مالك: لا يمشي أحد عن أحد", en: "Muwatta 1353", es: "Muwatta 1353", fr: "Muwatta 1353", ur: "موطا 1353" }
+label: { ar: "الموطأ 1353 — مالك: لا يمشي أحد عن أحد", en: "Muwatta 1353", es: "Muwatta 1353", fr: "Muwatta 1353", ur: "موطا 1353", tr: "Al-Muwatta 1353 — Malik: Hiç kimse başkası adına yürümemelidir.", id: "Al-Muwatta 1353 — Malik: Tidak seorang pun boleh berjalan untuk orang lain." }
 summary:
   ar: "يقول يحيى سمعت مالكا يقول لا يمشي أحد عن أحد. {cite:muwatta-maruf-1997 p.606}"
+  tr: "Yahya, \"Malik'in 'Kimse başkası adına yürümemeli' dediğini duydum.\" dedi. {cite:muwatta-maruf-1997 s.606}"
+  id: "Yahya berkata, \"Aku mendengar Malik berkata, 'Tidak seorang pun boleh berjalan mewakili orang lain.'\" {cite:muwatta-maruf-1997 p.606}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-08-nudhur }
   - { type: basis_for, target: concept/nadhr, sources: [source/muwatta-maruf-1997] }

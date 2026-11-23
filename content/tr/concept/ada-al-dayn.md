@@ -1,0 +1,25 @@
+---
+id: concept/ada-al-dayn
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/ada-al-dayn.md}
+---
+## Din Kavramı
+Borç, borçta sabit bir niteliktir veya borçlunun parayla ilgilenmesi zorunludur: satış, garanti, uzlaşma veya khul' gibi bir sözleşme ya da buna bağlı nafaka gibi bir sözleşme ya da gasp, zekat ve zararlar için sorumluluk gibi başka bir sözleşme. 'Borçlu zorunlu mülk' terimi mecazi anlamda ona devredildiği için kullanılır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1990}
+## Borç Ödemesi Kararı
+Borç, El-Amana'daki 283. ayete dayanan uzlaşma yoluyla zorunlu olan tarife göre ödenmelidir. Bazı hukukçular bunun temel ihtiyaçlardan biri olduğunu söylemiştir. Borç hemen yapılmışsa, zengin kişinin ödemesinin haksız olduğunu söylediği için, borçlunun mümkün olduğu sürece hemen ödenmelidir. Ertelenmiş borç için ise, vadesinden önce ödenmesi zorunlu değildir; eğer borç öncesinde ödenmişse geçerlidir ve borçlunun yükümlülüğünden muaf tutulur. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1990}
+Ertelenmiş madde hemen uygulanabilir ve dinden dönme, ölüm veya iflas yoluyla derhal yapılmalıdır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1991}
+## Borcu nasıl ödeyeceğiniz
+Ödeme, hakkın gerçek sahibine teslim edilmesidir ve borç hakkının teslimi benzer tutarlarla yapılır, çünkü başka bir ödeme yolu yoktur. Bu nedenle, alınan mal karşılığında ve teslim hakkı kendisi olarak kabul eder ve borç sahibi tahsis etmek zorundadır. Eşdeğer olmayan durumlarda, değer zorunludur, örneğin gasp ve tazminatlarda. Kredi durumunda, eşdeğer imkânsızsa, eşdeğerin biçim ve görünüm olarak iade edilmesi gerektiği söylenir; tıpkı Peygamber'in erken borçlanması hakkında Ebu Rafi'nin dediği gibi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1991}
+En iyi seçenekle ödeme yapmak koşulsuz olsa da kabul edilebilir, tıpkı Peygamber'in bir bakireyi ödünç alıp daha iyi bir seçenek sunması gibi, insanların en iyisinin kanunu uydurmada en iyisidir demesi gibi. Başka bir ülkede yük veya malzeme olmayan bir şey için ödeme yapmak zorunda kalırsa, o da ödemekle yükümlüdür. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1991} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1992}
+## Performansın yerini ne alır
+Borçlu, kendisine yükümlülüğünü öderse, borç kaybedilir ve sorumluluğu serbest bırakılır. Borç feragat töreninde ödeme yeri, borçlunun tahsilatı kendisine vermesi veya onun adına hayır olarak vermesi, ayrıca devretme, mahsuplaşma, vade süresinin sona ermesi, uzlaşma ve hizmetlinin yazılı tazminat yetersizliği durumunda, her durum için hukukçular tarafından belirlenen koşullar altındadır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1991}
+## Ödeme Gücüne Sahip Borçlunun Temerrüdü
+Borçlu ve zenginse, borcunu ödemek zorundadır; geciktirip ödemezse, haklı alacaklının talebine göre hakim onu yükümlüdür. Haksızlığı nedeniyle hakkını gereksiz yere geciktirerek hapse atmayı reddederse, onu onurlandırma ve cezalandırma hakkı olan kişinin hadis yüzünden gerçekleşir. Görünürde serveti varsa, hakim onu satmıştır. Peygamber'in Muadh'ın servetini sattığı ve borçlarını kapattığı, Umar'ın ise Al-Asifa'nın servetini satıp alacaklıları arasında paylaştığı rivayet edilir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1992}
+Eğer serveti borçlarını karşılamıyorsa ve borçlular kefil tahvilini talep ederse, hakim bunlara uymalı, onun onu elden çıkarmasını engellemeli, malını satmalı ve borçlular arasında hisseler halinde paylaştırmalıdır; bu, Şafiiler, Hanbaliler, Malikiler, Ebu Yusuf ve Muhammed'in görüşüdür. Ebu Hanifa buna katılmadı ve bu onurunu boşa harcamak olacağı için elinde olduğu sürece onu hapse atar. Eğer serveti dirhem veya borç türünde dinar ise, hakim emri olmadan borcu ödeyebilir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1992}
+## iflas edemez
+Borçlu iflas etmişse ve bu kanıtlanırsa, serbest bırakılır ve 280. ayete göre muayene edilir. İflas eden kişi borcunu ödemek için elde etmek zorundadır, ancak hediye ve sadaka kazanmak veya kabul etmek zorunda değildir. Kazandığı para borçluların hakkıdır. Kendisi için günahsız bir borç alan borçlu, zekattan borç ödemek zorundadır, çünkü bu da harcamaları arasındadır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1992}
+## Borç ölülerin üzerindedir
+Borçla ölen kişi mal varlığına bağlıdır ve vasiyetname imzalamadan ve hisselerini almadan önce borç ödemek zorundadır, çünkü borç haklı bir borçtur, sorumluluktan kurtulmak en önemli ihtiyaçlardan biridir ve zorunlu görevleri yerine getirmek bağışlardan daha önemlidir. Tanrı, An-Nisa 11 ayetinde borcu bölüşümden önceliklendirmiştir. Hadiste, bir müminin ruhu borcuna bağlıdır ve borcu onun adına ödenene kadar bağlıdır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1992} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1993}
+Yukarıda bahsedilenler insan borçlarıyla ilgilidir; Allah'ın borçları olan zekat, kefaret ve yeminler ise ansiklopedide doğru yerinde yer alır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1993}

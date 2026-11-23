@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani, person/abdullah-ibn-umar]
 work: work/muwatta-malik
 ref: "1208"
-label: { ar: "الموطأ 1208 — ابن عمر عن عمر بن الخطاب: لا يبيتن أحد من الحاج ليالي منى من وراء العقبة", en: "Muwatta 1208", es: "Muwatta 1208", fr: "Muwatta 1208", ur: "موطا 1208" }
+label: { ar: "الموطأ 1208 — ابن عمر عن عمر بن الخطاب: لا يبيتن أحد من الحاج ليالي منى من وراء العقبة", en: "Muwatta 1208", es: "Muwatta 1208", fr: "Muwatta 1208", ur: "موطا 1208", tr: "El-Muvatta 1208 — İbn Ömer, Ömer ibn el-Hattab'ın rivayetine göre: Hiçbir hacı, Mina gecelerini Akabe'nin ötesinde geçirmemelidir.", id: "Al-Muwatta 1208 — Ibnu Umar berdasarkan riwayat Umar bin al-Khattab: Tidak seorang pun jamaah haji boleh bermalam di Mina di luar Aqaba." }
 summary:
   ar: "يروي مالك عن نافع عن عبد الله بن عمر أن عمر بن الخطاب قال لا يبيتن أحد من الحاج ليالي منى من وراء العقبة. {cite:muwatta-maruf-1997 p.542}"
+  tr: "Malik, Nafi'den, o da Abdullah ibn Umar'dan rivayetle Ömer ibn el-Hattab'ın şöyle dediğini aktarır: \"Hiçbir hacı Mina gecelerini Akabe'nin ötesinde geçirmemelidir.\" {cite:muwatta-maruf-1997 s.542}"
+  id: "Malik meriwayatkan dari Nafi’ dari Abdullah ibn Umar bahwa Umar ibn al-Khattab berkata: “Tidak seorang pun jamaah haji boleh bermalam di Mina di luar Aqaba.” {cite:muwatta-maruf-1997 p.542}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
   - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }

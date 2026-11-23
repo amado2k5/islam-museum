@@ -1,0 +1,23 @@
+---
+id: concept/dhurriyyat-adam-fi-zahrih
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/dhurriyyat-adam-fi-zahrih.md}
+---
+## Ringkasan
+Al-Shaarawi percaya bahwa bentuk jamak dalam ayat ciptaan menunjukkan bahwa keturunan Adam dikuburkan di belakangnya di antara ciptaan, dan semua keturunan diciptakan dalam dirinya {cite:tafsir-sharawi-khawatir-scan p.239}.
+
+## Hubungan hidup
+Al-Shaarawi menggambarkan hidup sebagai lingkaran yang berkelanjutan, di mana setiap orang mengambil dari apa yang terjadi sebelumnya dan memberi kepada apa yang terjadi setelahnya, dan jika ikatan itu terputus, kehidupan akan berhenti {cite:tafsir-sharawi-khawatir-scan p.240}. Ia mengatakan bahwa ada atom Adam di dalamnya, dan bahwa kehidupan mereka yang hidup sekarang terhubung dengan Adam {cite:tafsir-sharawi-khawatir-scan p.240}.
+
+## Sujud pada keturunan
+Ia percaya bahwa para malaikat sujud kepada Adam dan keturunannya sampai Jam ditetapkan, karena keturunan dikuburkan di belakangnya, dan ayat tersebut membawa aspek baru dalam kisah penciptaan {cite:tafsir-sharawi-khawatir-scan p.240}.
+
+## Apa yang belum ditinjau
+Ini adalah bacaan Al-Shaarawi, yang berisi pernyataan tentang sel dan molekul yang belum didukung secara ilmiah sebelum ditinjau dengan referensi spesifik. Tidak ada bacaan akademik atau tradisi interpretatif lain yang disajikan di sini, dan belum juga ditinjau.
+
+## Tentang program Shaarawi "Di Alam Hadis Suci"
+Episode ketujuh belas, delapan belas, dan kesembilan belas menjelaskan hal-hal [[work/fi-rihab-al-hadith-al-qudsiyyah|dalam hadits suci tentang]] pengambilan perjanjian dari punggung Adam bin Numan. Pembawa acara menyebutkan bahwa Ahmad menceritakannya dari Ibn Abbas. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep17 00:00:00} Penyampai membandingkannya dengan ayat perjanjian dalam [[passage/quran-7-172|Al-A'raf 172]], dan menyebutkan pertanyaan Fakhr al-Razi: Bagaimana seseorang bisa melupakan perjanjian yang diambil dari orang bijak? Ia menjawab bahwa melupakan tidak berarti itu tidak akan terjadi, karena seseorang melupakan seluruh masa kecilnya. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep18 00:00:30} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep18 00:01:30} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep18 00:02:00} Penyebutan dua kematian dan dua kehidupan dalam [[passage/quran-40-11|Ghafir 11]] dibaca sebagai kehidupan pertama pada hari perjanjian. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep18 00:04:00} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep18 00:04:30} Disebutkan bahwa para ulama berbeda pendapat mengenai tempat perjanjian: India, atau antara Taif dan Mekah, atau Batn Nu'man di samping Arafat, dan program terakhir dipilih karena hadits secara eksplisit menyatakannya. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep18 00:05:30} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep18 00:06:00}
+
+Al-Shaarawi [[person/muhammad-mutawalli-al-shaarawi|mengatakan]] bahwa Hari Perjanjian, ketika kita seperti atom, berbeda dengan hari penciptaan ketika Tuhan menciptakan tanah liat dalam wujud manusia. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep17 00:17:00} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep17 00:17:30} Dia percaya bahwa tidak ada yang menyebut Hari Perjanjian karena seseorang mengingat sesuatu saat dia membutuhkannya. Jika dia sendirian dalam kegelapan darat dan laut, dia berkata, "Ya Tuhan," dan itulah perjanjian yang mereka hayang. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep17 00:19:00} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep17 00:19:30} Dan menurutnya, jika orang yang dalam kesusahan tidak punya apa pun selain Tuhan, dia berkata "Ya Dia," yang bagi dia berarti Tuhan menjawab mereka yang sangat membutuhkan. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep17 00:21:00} Dia memberi contoh seorang pria yang kehilangan uangnya di jalan lalu mengingat sepuluh pound di rumahnya, dan kesedihannya mereda. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep17 00:21:30}

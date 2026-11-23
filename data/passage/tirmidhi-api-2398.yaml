@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "2398"
-label: { ar: "جامع الترمذي 2398 — الأب والأبوة", en: "Jami' al-Tirmidhi 2398 — the father and fatherhood", ur: "جامع ترمذی 2398 — باپ اور والدیت", es: "Jami' al-Tirmidhi 2398 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 2398 — le père et la paternité" }
+label: { ar: "جامع الترمذي 2398 — الأب والأبوة", en: "Jami' al-Tirmidhi 2398 — the father and fatherhood", ur: "جامع ترمذی 2398 — باپ اور والدیت", es: "Jami' al-Tirmidhi 2398 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 2398 — le père et la paternité", tr: "Cami' el-Tirmizi 2398 — Baba ve Babalık", id: "Jami' al-Tirmidhi 2398 — Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ عَاصِمِ بْنِ بَهْدَلَةَ، عَنْ مُصْعَبِ بْنِ سَعْدٍ، عَنْ أَبِيهِ، قَالَ قُلْتُ يَا رَسُولَ اللَّهِ أَىُّ النَّاسِ أَشَدُّ بَلاَءً قَالَ \" الأَنْبِيَاءُ ثُمَّ الأَمْثَلُ فَالأَمْثَلُ فَيُبْتَلَى الرَّجُلُ عَلَى حَسَبِ دِينِهِ فَإِنْ كَانَ دِينُهُ صُلْبًا اشْتَدَّ بَلاَؤُهُ وَإِنْ كَانَ فِي دِينِهِ رِقَّةٌ ابْتُلِيَ عَلَى حَسَبِ دِينِهِ فَمَا يَبْرَحُ الْبَلاَءُ بِالْعَبْدِ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 2398، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 2398، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe de Jami' al-Tirmidhi, n.º 2398 (Capítulos sobre el Zuhd), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 2398 (Chapitres sur le Zuhd), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Cami' el-Tirmizi'de 2398 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve konuyla ilgili diğer kitaplardan metinlerle birleştirir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 2398, menyebutkan tentang ayah dan peran ayah. Fitur \"Peran Ayah dalam Islam\" menggabungkan hadits ini dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang subjek tersebut."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2398 (book 36 hadith 96); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

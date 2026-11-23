@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/abdallah-ibn-dinar, person/muhammad]
 work: work/muwatta-malik
 ref: "1.458"
-label: { ar: "الموطأ 458 — ابن عمر يقف على قبر النبي فيصلي عليه وعلى أبي بكر وعمر", en: "Muwatta 458", es: "Muwatta 458", fr: "Muwatta 458", ur: "موطا 458" }
+label: { ar: "الموطأ 458 — ابن عمر يقف على قبر النبي فيصلي عليه وعلى أبي بكر وعمر", en: "Muwatta 458", es: "Muwatta 458", fr: "Muwatta 458", ur: "موطا 458", tr: "El-Muvatta 458 — İbn Ömer, Peygamberin kabri başında durarak onun, Ebu Bekir'in ve Ömer'in dualarını okuyor.", id: "Al-Muwatta 458 — Ibnu Umar berdiri di makam Nabi dan berdoa untuk beliau, Abu Bakar, dan Umar." }
 summary:
   ar: "أثر يرويه مالك عن عبد الله بن دينار، في باب ما جاء في الصلاة على النبي: رأى عبد الله بن عمر يقف على قبر النبي فيصلي على النبي ويدعو لأبي بكر وعمر. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.235}"
+  tr: "Malik'in Abdullah ibn Dinar'dan rivayet ettiği, Peygamber'e yapılan dualarla ilgili rivayetler bölümünde yer alan bir rivayette şöyle denmektedir: Abdullah ibn Umar'ın Peygamber'in kabri başında durup, Peygamber'e dua ettiği ve Ebu Bekir ile Ömer için yalvardığı görülmüştür. Editör, bu rivayetin Malik'ten Ebu Musab ve Suveyd tarafından nakledildiğini belirtmektedir. {cite:muwatta-maruf-1997 s.235}"
+  id: "Sebuah riwayat yang dinarasikan oleh Malik atas otoritas Abdullah ibn Dinar, dalam bab tentang apa yang telah diriwayatkan mengenai salat kepada Nabi: Abdullah ibn Umar terlihat berdiri di makam Nabi, salat kepada Nabi dan berdoa untuk Abu Bakar dan Umar. Editor menyebutkan bahwa riwayat ini dinarasikan atas otoritas Malik oleh Abu Musab dan Suwaid. {cite:muwatta-maruf-1997 p.235}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
   - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }

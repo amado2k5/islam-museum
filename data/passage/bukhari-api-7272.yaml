@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "7272"
-label: { ar: "صحيح البخاري — حديث 7272", en: "Sahih al-Bukhari 7272 — Holding Fast to the Qur'an and Sunnah", ur: "صحیح بخاری — حدیث 7272", es: "Sahih al-Bukhari 7272 — Aferrarse al Corán y la Sunnah", fr: "Sahih al-Bukhari 7272 — S'attacher fermement au Coran et à la Sunna" }
+label: { ar: "صحيح البخاري — حديث 7272", en: "Sahih al-Bukhari 7272 — Holding Fast to the Qur'an and Sunnah", ur: "صحیح بخاری — حدیث 7272", es: "Sahih al-Bukhari 7272 — Aferrarse al Corán y la Sunnah", fr: "Sahih al-Bukhari 7272 — S'attacher fermement au Coran et à la Sunna", tr: "Sahih el-Buhari — Hadis 7272", id: "Sahih al-Bukhari — Hadits 7272" }
 text: "عَبْدِ اللَّهِ بْنِ دِينَارٍ، أَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ، كَتَبَ إِلَى عَبْدِ الْمَلِكِ بْنِ مَرْوَانَ يُبَايِعُهُ، وَأُقِرُّ لَكَ بِالسَّمْعِ وَالطَّاعَةِ عَلَى سُنَّةِ اللَّهِ وَسُنَّةِ رَسُولِهِ، فِيمَا اسْتَطَعْتُ‏.‏"
 summary:
   ar: "في صحيح البخاري؛ إرسال كتاب أو رسالة إلى طرف."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری میں؛ کسی فریق کو خط یا پیغام بھیجنا."
   es: "En Sahih al-Bukhari; enviar una carta o mensaje a una parte."
   fr: "Dans Sahih al-Bukhari; l'envoi d'une lettre ou d'un message à une personne."
+  tr: "Sahih el-Buhari'de; bir tarafa kitap veya mektup göndermek."
+  id: "Dalam Sahih al-Bukhari; mengirim buku atau surat kepada suatu pihak."
 relations:
   - { type: part_of, target: passage/bukhari-kitab-96 }
   - { type: mentions, target: person/abd-al-malik-ibn-marwan, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }

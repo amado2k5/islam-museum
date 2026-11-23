@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1387"
-label: { ar: "جامع الترمذي 1387 — الأب والأبوة", en: "Jami' al-Tirmidhi 1387 — the father and fatherhood", ur: "جامع ترمذی 1387 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1387 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 1387 — le père et la paternité" }
+label: { ar: "جامع الترمذي 1387 — الأب والأبوة", en: "Jami' al-Tirmidhi 1387 — the father and fatherhood", ur: "جامع ترمذی 1387 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1387 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 1387 — le père et la paternité", tr: "Cami' el-Tirmizi 1387 — Baba ve Babalık", id: "Jami' al-Tirmidhi 1387 — Sang Ayah dan Peran Ayah" }
 text: "… أَخْبَرَنَا حَبَّانُ، وَهُوَ ابْنُ هِلاَلٍ حَدَّثَنَا مُحَمَّدُ بْنُ رَاشِدٍ، أَخْبَرَنَا سُلَيْمَانُ بْنُ مُوسَى، عَنْ عَمْرِو بْنِ شُعَيْبٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، أَنَّ رَسُولَ اللَّهِ قَالَ \" مَنْ قَتَلَ مُؤْمِنًا مُتَعَمِّدًا دُفِعَ إِلَى أَوْلِيَاءِ الْمَقْتُولِ فَإِنْ شَاءُوا قَتَلُوا وَإِنْ شَاءُوا أَخَذُوا الدِّيَةَ وَهِيَ ثَلاَثُونَ حِقَّةً وَثَلاَثُونَ جَذَعَةً وَأَرْبَعُونَ خَلِفَةً وَمَا صَالَحُوا عَلَيْهِ فَهُوَ لَهُمْ \". وَذَلِكَ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 1387، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 1387، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe de Jami' al-Tirmidhi, n.º 1387 (El Libro del Dinero Sangriento), menciona al padre y la paternidad. El Navegador de la Paternidad en el Islam lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 1387 (Le Livre sur l'argent du sang), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce rapport avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant du père."
+  tr: "Cami' el-Tirmizi'nin 1387 numaralı hadisinde baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı bunu Kur'an, Sünnet, biyografi ve konuyla ilgili diğer kitaplardan alınan metinlerle birleştirir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 1387, menyebutkan tentang ayah dan peran ayah. Fitur \"Peran Ayah dalam Islam\" menggabungkan hal ini dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang subjek tersebut."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1387 (book 16 hadith 2); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

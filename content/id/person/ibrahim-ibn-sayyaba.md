@@ -1,0 +1,21 @@
+---
+id: person/ibrahim-ibn-sayyaba
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/ibrahim-ibn-sayyaba.md}
+---
+## Ikhtisar
+Ibrahim ibn Siyabah, Abu Ishaq sang Juru Tulis, adalah seorang penyair cerdas yang menemani Mahdi dan Al-Rashid. Al-Safadi memiliki dua terjemahan tentang dirinya dalam Al-Wafi bil-Wafayat: yang pertama berjudul Abu Ishaq sang Penulis, dan yang kedua berjudul Ibn Siyabah. Al-Safadi mengutip Ibn Al-Najjar dalam yang pertama mengatakan bahwa ia meninggal pada tahun 198 H, sekitar tahun 814 M menurut transformasi turunan {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 6 p. 11}.
+
+## Terjemahan pertama
+Al-Safadi mengatakan bahwa ia adalah mantan Thaqif, berasal dari Hijaz dan Kufa, dan merupakan penyair terampil yang menemani al-Mahdi dan al-Rashid. Al-'Awfi menyebutkan bahwa ayahnya adalah seorang Cupidian, dan dalam hal ini, Utbah al-A'war menyindir dirinya dengan ayat-ayat yang dikutip oleh al-Safadi {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 6 p. 10}. Al-Safadi berkomentar bahwa ia tidak dikenal lebih baik oleh para satiris sebelumnya daripada Utbah Safadi, karena itu adalah satir yang dilebih-lebihkan dan disorot oleh penyair dalam bentuk pujian {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 6 p. 11}.
+
+Ibrahim dituduh melakukan ajaran sesat, sehingga al-Mahdi membawanya dan membawa buku-bukunya, tidak menemukan apa pun di dalamnya, sehingga dia mengamankannya. Dia menulis di hadapannya di istananya, dan dia termasuk di antara orang yang paling fasih dan fasih. Kemudian al-Mahdi mengonfirmasi bahwa ada sesuatu yang dituduhkan kepadanya, sehingga dia menolak dan mengecualikannya, sehingga kondisinya memburuk dan dia harus menginterogasi orang-orang. Salah satu buku cetak adalah argumen logis. Al-Safadi mengutip bait-bait puisinya ketika dia dituduh bidah, bait-bait yang ditujukan kepada beberapa saudaranya ketika kondisinya memburuk, meminta satu dirham, dua, atau tiga dirham, dan bait-bait tentang kesabaran dan ketidaktahuan {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 6 p. 11}.
+
+Al-Safadi mengutip Al-Marzubani yang mengatakan bahwa ia berpikir dirinya masih hidup kepada Al-Ma'mun, dan dari Ibn Al-Najjar bahwa ia meninggal pada tahun 198 H. Kemudian nama Siyabah dicatat dengan sin dan ya, diikuti oleh alif, ba, dan ha, dan ia mengatakan bahwa nama itu berasal dari kata 'balha' dan bahwa pria itu dinamai menurut kata itu {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 6 p. 11}.
+
+## Terjemahan Kedua
+Dalam biografi kedua, Al-Safadi mengutip penulis Al-Aghani sebagai budak bebas Banu Hashim dan tidak memiliki puisi atau kecerdasan yang mulia. Sebaliknya, ia sangat menyayangi Ibrahim al-Mawsili dan putranya, sehingga ia menjadi kaya akan puisi dan kenangan di antara para khalifah dan menteri. Ia adalah seorang pria yang rendah hati dan langka. Dikatakan bahwa ia jatuh cinta pada seorang wanita kulit hitam, sehingga keluarganya menceritakan tentang wanita itu, dan ia membacakan dua bait di mana ia melihat pamannya, dengan wajah jeleknya, mengenakan kecantikan dan navigasi {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 6 p. 11}.
+
+Di antara cerita langkanya adalah bahwa dia menulis kepada seorang teman tentang meminjam sesuatu darinya. Teman itu meminta maaf dan bersumpah bahwa dia tidak memiliki apa-apa. Dia menulis kepadanya: Jika kamu berbohong, semoga Allah menjadikanmu jujur, dan jika kamu disalahkan, Tuhan akan memaafkanmu. Dia datang kepada Bashar ibn Bard dan berkata bahwa dia belum pernah melihat orang buta kecuali Tuhan telah menggantinya dengan penglihatan, ingatan, kecerdasan, atau suara yang baik. Dia bertanya apa yang memberinya kompensasi; Bashar menjawab bahwa dia tidak melihat sesuatu seperti dia, lalu bertanya siapa dia. Ibn Siyabah menjawab, dan Bashar membalas dengan ayat-ayat sarkastik yang tajam yang disebutkan oleh al-Safadi. Al-Safadi mengakhiri biografi dengan laporan dari Ibn al-Qadi Ibn Sura dan ayat-ayat yang Ibrahim ucapkan dalam permintaan maaf {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 6 p. 12}.

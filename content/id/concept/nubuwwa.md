@@ -1,0 +1,12 @@
+---
+id: concept/nubuwwa
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/nubuwwa.md}
+---
+## Ringkasan
+Kenabian dalam bahasa berasal dari kenabian, dan kenabian berarti pengangkatan, atau dari 'nababa' yang berarti berita, dan nabi berasal dari keduanya. Dalam terminologi, kenabian adalah atribut afirmatif dan atribut tambahan yang menghubungkan wacana ilahi kepada-Nya. Pesan lebih spesifik daripada kenabian; pesan adalah bahwa seseorang dikirim oleh Allah kepada umat untuk menyampaikan keputusan. Kenabian didirikan melalui mukjizat luar biasa yang dikombinasikan dengan tantangan, seperti Al-Qur'an. Apa yang diceritakan Al-Qur'an atau Sunnah dari hukum-hukum para nabi sebelumnya Dasar-dasar agama ditetapkan secara bulat di hak kita, dan di cabang-cabang, mayoritas ulama berpendapat bahwa agama membuat undang-undang untuk kita kecuali apa yang ditolak, sementara syafi'i berpendapat bahwa itu bukan hukum kita. Siapa pun yang mengklaim kenabian untuk dirinya sendiri atau orang lain adalah pembohong, murtad, dan kafir berdasarkan konsensus, karena Nabi adalah Segel Para Nabi, dan siapa pun yang mengklaim kenabian itu benar, menjadi murtad. Ada perbedaan pendapat tentang pertobatan dari pengklaim dhimmi (dhimmi). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15458} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15459} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15460} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15461} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15462}
+
+## Dalam pelajaran Yusuf al-Qaradawi: 'Refleksi Al-Qur'an'
+Yusuf al-Qaradawi [[person/yusuf-al-qaradawi|mengatakan]] bahwa para ulama mengatakan kenabian adalah bentuk seleksi, bukan perolehan, sehingga seseorang tidak mencapainya melalui usaha, ibadah, atau perbuatan baik. Ia menyebutkan bahwa mereka menjadikan karakteristik nabi sebagai kebenaran, kepercayaan, penyampaian, dan wawasan. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep01 00:11:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep01 00:12:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep01 00:12:30} Ia mengatakan bahwa visi para nabi itu benar dan terungkap, meskipun merupakan tingkat wahyu yang paling rendah. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep15 00:20:00}

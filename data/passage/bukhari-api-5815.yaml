@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "5815"
-label: { ar: "صحيح البخاري 5815 — ساعة الاحتضار والوفاة", en: "Sahih al-Bukhari 5815 — a deathbed and last hours", ur: "صحیح بخاری 5815 — وقتِ وفات اور آخری لمحات", es: "Sahih al-Bukhari 5815 — lecho de muerte y últimas horas", fr: "Sahih al-Bukhari 5815 — Un lit de mort et les dernières heures" }
+label: { ar: "صحيح البخاري 5815 — ساعة الاحتضار والوفاة", en: "Sahih al-Bukhari 5815 — a deathbed and last hours", ur: "صحیح بخاری 5815 — وقتِ وفات اور آخری لمحات", es: "Sahih al-Bukhari 5815 — lecho de muerte y últimas horas", fr: "Sahih al-Bukhari 5815 — Un lit de mort et les dernières heures", tr: "Sahih el-Buhari 5815 — Ölüm Vakti ve Vefat", id: "Sahih al-Bukhari 5815 — Saat-saat Sakaratul Maut dan Kematian" }
 text: "… حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، قَالَ أَخْبَرَنِي عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ، أَنَّ عَائِشَةَ، وَعَبْدَ اللَّهِ بْنَ عَبَّاسٍ،م قَالاَ لَمَّا نَزَلَ بِرَسُولِ اللَّهِ طَفِقَ يَطْرَحُ خَمِيصَةً لَهُ عَلَى وَجْهِهِ، فَإِذَا اغْتَمَّ كَشَفَهَا عَنْ وَجْهِهِ، فَقَالَ وَهْوَ كَذَلِكَ \" لَعْنَةُ اللَّهِ عَلَى الْيَهُودِ وَالنَّصَارَى اتَّخَذُوا قُبُورَ أَنْبِيَائِهِمْ مَسَاجِدَ \". يُحَذِّرُ مَا صَنَعُوا."
 summary:
   ar: "حديث في صحيح البخاري، رقم 5815، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 5815، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 5815, menciona un lecho de muerte y las últimas horas. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Le Sahih al-Bukhari, n° 5815, mentionne un lit de mort et les dernières heures. Le navigateur de textes sacrés le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, des dernières heures, des biens, des reliques et des tombes."
+  tr: "Sahih el-Buhari'de 5815 numaralı hadis, ölüm anını ve ölüm sürecini konu almaktadır. Bu hadis, vasiyetnameler, miras, antikalar ve türbeler üzerine araştırmalar yapan uzmanlar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 5815, menyebutkan tentang saat kematian dan proses sekarat. Hadits ini dikumpulkan oleh para peneliti wasiat, warisan, barang antik, dan makam suci, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ihtidar, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5815 (book 0 hadith 0); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

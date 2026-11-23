@@ -47,7 +47,7 @@ const re = (...alts: string[]) => new RegExp(alts.join("|"));
  * verb does not; «الروم» matches, «روميه» the cloth does not; «قيصر» matches, «قيصريه» does not.
  * Order inside the list does not matter; a passage matching several names gets all their sections.
  */
-export const UMAM_NAMES: ReadonlyArray<readonly [string, string]> = [
+export const UMAM_NAMES: ReadonlyArray<readonly [string, RegExp]> = [
   // — the nations the Qur'an recounts
   ["group/aad", re(`${B}قوم عاد${E}`, `${B}عاد الاولي${E}`, `${B}عادا الاولي${E}`, `${B}عادا? (?:قوم هود|بني|بنو)`, `${B}ارم${E}`, `${B}الاحقاف${E}`, `اصحاب الاحقاف`)],
   ["group/thamud", re(`${B}ثمود${E}`, `${B}ثمودا${E}`, `قوم صالح`, `${B}الحجر${E}`)],

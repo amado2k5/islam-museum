@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "272"
-label: { ar: "صحيح البخاري 272 — الأب والأبوة", en: "Sahih al-Bukhari 272 — the father and fatherhood", ur: "صحیح بخاری 272 — باپ اور والدیت", es: "Sahih al-Bukhari 272 — El padre y la paternidad", fr: "Sahih al-Bukhari 272 — le père et la paternité" }
+label: { ar: "صحيح البخاري 272 — الأب والأبوة", en: "Sahih al-Bukhari 272 — the father and fatherhood", ur: "صحیح بخاری 272 — باپ اور والدیت", es: "Sahih al-Bukhari 272 — El padre y la paternidad", fr: "Sahih al-Bukhari 272 — le père et la paternité", tr: "Sahih el-Buhari 272 — Baba ve Babalık", id: "Sahih al-Bukhari 272 — Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ، قَالَ أَخْبَرَنَا هِشَامُ بْنُ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ كَانَ رَسُولُ اللَّهِ إِذَا اغْتَسَلَ مِنَ الْجَنَابَةِ غَسَلَ يَدَيْهِ، وَتَوَضَّأَ وُضُوءَهُ لِلصَّلاَةِ ثُمَّ اغْتَسَلَ، ثُمَّ يُخَلِّلُ بِيَدِهِ شَعَرَهُ، حَتَّى إِذَا ظَنَّ أَنْ قَدْ أَرْوَى بَشَرَتَهُ، أَفَاضَ عَلَيْهِ الْمَاءَ ثَلاَثَ مَرَّاتٍ، ثُمَّ غَسَلَ سَائِرَ جَسَدِهِ. وَقَالَتْ كُنْتُ أَغْتَسِلُ أَنَا وَرَسُولُ …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 272، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 272، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 272 (El baño ritual (Ghusl)), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Sahih al-Bukhari, n° 272 (Le bain rituel (Ghusl)), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les versets du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih el-Buhari'nin 272. hadisinde baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 272, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 272 (book 5 hadith 25); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

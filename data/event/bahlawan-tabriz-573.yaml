@@ -1,7 +1,7 @@
 id: event/bahlawan-tabriz-573
 class: event
 kind: conquest
-label: { ar: "ملك البهلوان مدينة تبريز", en: "al-Bahlawān takes Tabrīz", fr: "Al-Bahlawān prend Tabrīz", es: "al-Bahlawān toma Tabrīz", ur: "البہلوان نے تبریز لے لیا۔" }
+label: { ar: "ملك البهلوان مدينة تبريز", en: "al-Bahlawān takes Tabrīz", fr: "Al-Bahlawān prend Tabrīz", es: "al-Bahlawān toma Tabrīz", ur: "البہلوان نے تبریز لے لیا۔", tr: "Akrobatların Kralı, Tebriz Şehri", id: "Raja Akrobat, Kota Tabriz" }
 date:
   start: { edtf: "1177~", hijri: "0573", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   fr: "Muḥammad al-Bahlawān ibn Īldigiz prit Tabrīz, en Azerbaïdjan, succédant à l'emprise de son père sur la ville et ses dépendances {cite:kamil-ibn-al-athir p. 70}."
   es: "Muḥammad al-Bahlawān ibn Īldigiz tomó Tabrīz en Azerbaiyán, sucediendo a su padre en el control de la ciudad y sus dependencias {cite:kamil-ibn-al-athir p. 70}."
   ur: "محمد الباہلوان ابن الدجیز نے آذربائیجان میں تبریز لے لیا، اور اس پر اپنے والد کی گرفت اور اس کے انحصار کے بعد۔ 70}۔"
+  tr: "Azerbaycan'ın ilçelerinden biri olan Tebriz şehrinin kralı Pahlawan bin İldegiz, babasının ardından bu şehri ve çevresindeki bölgeleri yönetti. {Kaynak: Kamil ibn al-athir s. 70}"
+  id: "Raja Pahlawan bin Ildegiz dari kota Tabriz, yang merupakan salah satu distrik Azerbaijan, setelah ayahnya memerintah kota itu dan wilayah yang berdekatan dengannya {cite:kamil-ibn-al-athir p. 70}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/tabriz, sources: [source/kamil-ibn-al-athir] }

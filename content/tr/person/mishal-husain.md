@@ -1,0 +1,18 @@
+---
+id: person/mishal-husain
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/mishal-husain.md}
+---
+## Özet
+Mishal Hussein (d. 12 Mart 1973), Britanyalı bir gazeteci, yayıncı ve yazardır. Irak Savaşı'na hazırlık sürecinde Washington'da BBC muhabiri olarak görev yaptı, 2013'ten itibaren on bir yıl boyunca BBC Radio 4'te Today programını sundu ve 2025'te Bloomberg'de programını sunmaya başladı. Kitapları arasında "Skills" (2018) ve aile anı kitabı "Threads Split" (2024) bulunmaktadır. {cite:wikipedia-mishal-husain-en}
+
+## Hayatı
+Hussain, İngiltere'nin Northampton kentinde Pakistanlı ebeveynlerin çocuğu olarak doğdu: babası Imtiaz, Lahor'dan, ürolog ve çocuk doktoru; annesi Shama, Pakistan Televizyonu'nda eski öğretmen ve yapımcı, ve Pakistan İstihbarat Teşkilatı'nın ilk Genel Müdürü Syed Shahid Hamid'in kızı. İngilizce ve Wiki makalelerinde doğum verileri 12 Mart 1973 olarak belirtilirken, Urduca makalede aynı referanslara dayanarak 11 Şubat 1973 belirtildiği için tarih farklı şekilde kaydedilmiştir. {cite:wikipedia-mishal-husain-en} {cite:wikipedia-mishal-husain-ur} {cite:wikidata-mishal-husain} Abu Dabi'deki British School'da eğitim gördü, ailesi bir süre Suudi Arabistan'da kaldı, ardından on iki yaşında İngiltere'ye dönerek Cobham Hall Okulu'na gitti, Cambridge Üniversitesi'nde New Hall'da hukuk okudu ve Floransa'daki Avrupa Üniversitesi Enstitüsü'nden Uluslararası ve Karşılaştırmalı Hukuk alanında yüksek lisans derecesi aldı. {cite:wikipedia-mishal-husain-en} Today programındaki ilk Müslüman sunucu oldu ve 2014'te Radio Times dergisine verdiği röportajda, Müslüman akademisyenleri aşırılık propagandasına karşı sosyal medyayı kullanmaya teşvik etti. {cite:wikipedia-mishal-husain-en} Temmuz 2003'te Michael Hashmi ile evlendi, üç çocukları var ve Kuzey Londra'nın Camden kentinde yaşıyorlar. {cite:wikipedia-mishal-husain-en}
+
+## Eserleri
+Hussein, 1996'da Londra'daki Bloomberg Television'da gazeteciliğe başladı, 1998'de BBC'ye katıldı, ardından birkaç ay içinde kamera karşısına geçti ve 'Breakfast', 'Asia Business Report' ve Business News'te çalıştı. {cite:wikipedia-mishal-husain-en} Eylül 2002'den beri, Irak işgali ve savaş öncesinde istasyonun Washington'daki muhabiri olarak görev yaptı ve 2004'te 'BBC Breakfast'ın ana sunucularından biri oldu. {cite:wikipedia-mishal-husain-en} Sonrasında BBC World News, Weekend News ve 'Impact', 'Hard Talk' ve 'The Andrew Marr Show' programlarını sundu. 27 Kasım 2017'de Prens Harry ve Meghan Markle'ın nişan röportajını kaydetti. {cite:wikipedia-mishal-husain-en} Today programının ilk bölümünü 7 Ekim 2013'te sundu, on bir yıl boyunca sunucu olarak kaldı, 2015'te Londra Basın Kulübü'nün Yılın Yayıncısı ödülünü kazandı ve 2024 seçimlerinde BBC Televizyon Liderleri Tartışmaları'nı yönetti. {cite:wikipedia-mishal-husain-en} Son Today bölümü 17 Aralık 2024'te yayınlandı; BBC'den ayrılarak Bloomberg'de gezici editör oldu ve Ekim 2025'te haftalık röportaj programına başladı. {cite:wikipedia-mishal-husain-en} Anı kitabı "Broken Threads: My Family from Empire to Independence" (2024), dört büyükbabasını imparatorluk, II. Dünya Savaşı ve Hindistan'ın bölünmesi boyunca takip ediyor ve Sunday Times çok satanlar listesine girdi. {cite:wikipedia-mishal-husain-en}
+
+## Kaynaklar
+- Yukarıda belirtilen kaynaklar `data/source/` altında listelenmiştir.

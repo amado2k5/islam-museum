@@ -65,7 +65,7 @@ const bump = (m: Map<string, MiracleItem[]>, key: string, item: MiracleItem) => 
 for (const n of realNodes) {
   if (n.class === "passage") {
     const corpus = passageSection(n);
-    const detected = miracleTopicsOf(n, corpus);
+    const detected = miracleTopicsOf(n, corpus === "curated" ? undefined : corpus);
     const edges = edgeSubjects.get(n.id) ?? new Set<string>();
     // A bare mentions edge into a miracle subject marks the passage as evidence for that subject;
     // the feed always shows it beside its detected miracle topics.

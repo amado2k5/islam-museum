@@ -1,7 +1,7 @@
 id: event/mungli-killed-aghlamish-610
 class: event
 kind: death
-label: { ar: "قتل منكلي وولاية أغلمش", en: "Mungli killed; Aghlamish inherits his domains", es: "Mungli fue asesinado; Aghlamish hereda sus dominios.", fr: "Mungli tué; Aghlamish hérite de ses domaines", ur: "منگلی ہلاک اغلامش کو اس کے ڈومینز وراثت میں ملے" }
+label: { ar: "قتل منكلي وولاية أغلمش", en: "Mungli killed; Aghlamish inherits his domains", es: "Mungli fue asesinado; Aghlamish hereda sus dominios.", fr: "Mungli tué; Aghlamish hérite de ses domaines", ur: "منگلی ہلاک اغلامش کو اس کے ڈومینز وراثت میں ملے", tr: "Mankali'nin öldürülmesi ve Aghlamish devleti", id: "Pembunuhan Mankali dan keadaan Aghlamish" }
 date:
   start: { edtf: "1213~", hijri: "0610", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Mungli fue asesinado y Aghlamish se apoderó de sus dominios en Jibal e Isfahán {cite:kamil-ibn-al-athir p. 364}."
   fr: "Mungli fut tué et Aghlamish prit possession de ses domaines dans le Jibal et l'Ispahan {cite:kamil-ibn-al-athir p. 364}."
   ur: "منگلی مارا گیا اور اغلامش نے جبل اور اصفہان میں اپنے علاقوں پر قبضہ کرلیا۔ 364}۔"
+  tr: "Dağ ve İsfahan hükümdarı Mankali öldürüldü ve Ağlamiş onun yerine elinde bulunan krallıkların başına geçti. {Kaynak: Kamil ibn el-Athir, s. 364}"
+  id: "Mankali, penguasa pegunungan dan Isfahan, terbunuh, dan Aghlamish menggantikannya sebagai penguasa kerajaan-kerajaan yang berada di bawah kekuasaannya {cite:kamil-ibn-al-athir p. 364}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/isfahan, sources: [source/kamil-ibn-al-athir] }

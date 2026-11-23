@@ -50,7 +50,7 @@ def sas(container, perms, days=2):
     f = lambda d: d.strftime("%Y-%m-%dT%H:%M:%SZ")
     sv, sr = "2020-12-06", "c"
     canonical = f"/blob/{acct}/{container}"
-    tosign = "\n".join([perms, f(st), f(se), canonical, "", "", "https", sv, sr, "", "", "", "", "", ""])
+    tosign = "\n".join([perms, f(st), f(se), canonical, "", "", "https", sv, sr, "", "", "", "", "", "", ""])
     sig = base64.b64encode(hmac.new(base64.b64decode(key), tosign.encode(), hashlib.sha256).digest()).decode()
     q = urllib.parse.urlencode({"sp": perms, "st": f(st), "se": f(se), "spr": "https", "sv": sv, "sr": sr, "sig": sig})
     return f"https://{acct}.blob.core.windows.net/{container}?{q}"
@@ -108,8 +108,8 @@ def list_blobs(container, prefix=""):
     out, marker = [], ""
     while True:
         q = f"?restype=container&comp=list&prefix={urllib.parse.quote(prefix)}" + (f"&marker={urllib.parse.quote(marker)}" if marker else "")
-        res = ["comp:list", f"marker:{marker}" if marker else "marker:", f"prefix:{prefix}", "restype:container"]
-        text, _ = signed_blob("GET", f"/{container}{q}", extra_res=[r for r in res if not r.endswith(":")])
+        res = ["comp:list", f"prefix:{prefix}", "restype:container"] + ([f"marker:{marker}"] if marker else [])
+        text, _ = signed_blob("GET", f"/{container}{q}", extra_res=res)
         out += re.findall(r"<Name>(.*?)</Name>", text)
         m = re.search(r"<NextMarker>(.*?)</NextMarker>", text)
         if not m or not m.group(1): return out
@@ -180,8 +180,8 @@ def main():
             if a.glossary:
                 t["glossaries"] = [{"glossaryUrl": sas("trans-gloss", "rl").replace("?", f"/{urllib.parse.quote(a.glossary)}?", 1).replace("/trans-gloss", "/trans-gloss"), "format": "TSV", "version": "1"}]
             targets.append(t)
-        body = {"inputs": [{"source": {"sourceUrl": sas("trans-src", "rl"), "language": a.src_lang, "storageSource": "AzureBlob"},
-                            "targets": targets, "storageType": "File"}]}
+        body = {"inputs": [{"source": {"sourceUrl": sas("trans-src", "rl"), "language": a.src_lang, "storageSource": "AzureBlob", "prefix": a.batch_prefix + "/"},
+                            "targets": targets, "storageType": "Folder"}]}
         text, h = req("POST", turl("/translator/text/batch/v1.1/batches"), json.dumps(body).encode(), theaders())
         op = h.get("Operation-Location") or h.get("operation-location")
         bid = (op or "").rstrip("/").split("/")[-1]
@@ -211,37 +211,46 @@ def main():
         save_ledger(a, l); return
 
     if a.cmd == "round":
-        l = ledger(a)
+        l = ledger(a); l.setdefault("timing", [])
+        t_run = time.time(); times = {}
         files = sorted(globmod.glob(os.path.join(a.dir, a.glob)))
         if not files: sys.exit("no files match --glob")
         print(f"{len(files)} files")
+        t0 = time.time()
         for f in files:
             dest = f"{a.batch_prefix}/{os.path.basename(f)}"
             if not l["uploads"].get(dest): upload("trans-src", f, dest); l["uploads"][dest] = os.path.getsize(f)
-        save_ledger(a, l)
+        save_ledger(a, l); times["upload_s"] = round(time.time() - t0, 1)
         # submit
         targets = [{"targetUrl": sas(f"trans-{lang}", "rwl"), "language": lang} for lang in a.target_langs.split(",")]
-        body = {"inputs": [{"source": {"sourceUrl": sas("trans-src", "rl"), "language": a.src_lang, "storageSource": "AzureBlob"},
-                            "targets": targets, "storageType": "File"}]}
+        body = {"inputs": [{"source": {"sourceUrl": sas("trans-src", "rl"), "language": a.src_lang, "storageSource": "AzureBlob", "prefix": a.batch_prefix + "/"},
+                            "targets": targets, "storageType": "Folder"}]}
         text, h = req("POST", turl("/translator/text/batch/v1.1/batches"), json.dumps(body).encode(), theaders())
         op = h.get("Operation-Location") or h.get("operation-location")
         bid = (op or "").rstrip("/").split("/")[-1]
+        t_submit = time.time()
         l["batches"].append({"id": bid, "op": op, "submitted": time.strftime("%Y-%m-%dT%H:%M:%S"), "files": a.glob})
         save_ledger(a, l); print("batch", bid)
         # poll until done
+        st = "Submitted"
         for _ in range(240):
             time.sleep(30)
             text, _ = req("GET", turl(f"/translator/text/batch/v1.1/batches/{bid}"), headers=theaders(False))
             d = json.loads(text); st = d.get("status")
             print("status", st, json.dumps(d.get("summary", {}), ensure_ascii=False)[:200])
             if st in ("Succeeded", "Failed", "Cancelled", "ValidationFailed"): break
+        times["translate_s"] = round(time.time() - t_submit, 1)
+        l["batches"][-1].update({"final_status": st, "elapsed_s": times["translate_s"], "charged_chars": d.get("summary", {}).get("totalCharacterCharged")})
         # download what landed
+        t0 = time.time()
         for lang in a.target_langs.split(","):
             for name in list_blobs(f"trans-{lang}", f"{a.batch_prefix}/"):
                 dst = os.path.join(a.dir, f"{lang}", os.path.basename(name))
                 if not l["downloads"].get(dst):
                     n = download_blob(f"trans-{lang}", name, dst); l["downloads"][dst] = n; print("downloaded", lang, os.path.basename(name))
-        save_ledger(a, l); return
+        times["download_s"] = round(time.time() - t0, 1); times["total_s"] = round(time.time() - t_run, 1)
+        l["timing"].append(times); save_ledger(a, l)
+        print("timing", json.dumps(times)); return
 
     if a.cmd == "clean":  # delete source + target blobs for the prefix (after import succeeded)
         for c in ("trans-src", "trans-tr", "trans-id"):

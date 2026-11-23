@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "4171"
-label: { ar: "سنن النسائي 4171 — ساعة الاحتضار والوفاة", en: "Sunan al-Nasa'i 4171 — a deathbed and last hours", ur: "سنن نسائی 4171 — وقتِ وفات اور آخری لمحات", es: "Sunan al-Nasa'i 4171 — lecho de muerte y últimas horas", fr: "Sunan al-Nasa'i 4171 — Le lit de mort et les dernières heures" }
+label: { ar: "سنن النسائي 4171 — ساعة الاحتضار والوفاة", en: "Sunan al-Nasa'i 4171 — a deathbed and last hours", ur: "سنن نسائی 4171 — وقتِ وفات اور آخری لمحات", es: "Sunan al-Nasa'i 4171 — lecho de muerte y últimas horas", fr: "Sunan al-Nasa'i 4171 — Le lit de mort et les dernières heures", tr: "Sunan an-Nasa'i 4171 — Ölüm ve Ölme Saati", id: "Sunan an-Nasa'i 4171 — Saat-saat Sakaratul Maut dan Kematian" }
 text: "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، عَنْ عَبْدِ الرَّحْمَنِ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ يَحْيَى بْنِ هَانِئٍ، عَنْ نُعَيْمِ بْنِ دِجَاجَةَ، قَالَ سَمِعْتُ عُمَرَ بْنَ الْخَطَّابِ، يَقُولُ لاَ هِجْرَةَ بَعْدَ وَفَاةِ رَسُولِ اللَّهِ."
 summary:
   ar: "حديث في سنن النسائي، رقم 4171، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 4171، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 4171 (El Libro de al-Bay'ah), menciona un lecho de muerte y las últimas horas. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sunan al-Nasa'i, n° 4171 (Le Livre d'al-Bay'ah), évoque un lit de mort et les dernières heures. Le navigateur de textes religieux le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, des dernières heures, des biens, des reliques et des tombes."
+  tr: "Sunan-ı Nesai'de yer alan 4171 numaralı hadis, ölüm anını ve ölüm sürecini konu almaktadır. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler üzerine araştırmalar yapan uzmanlar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, nomor 4171, menyebutkan tentang saat kematian dan proses sekarat. Hadits ini dikumpulkan oleh para peneliti wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ihtidar, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4171 (book 39 hadith 23); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

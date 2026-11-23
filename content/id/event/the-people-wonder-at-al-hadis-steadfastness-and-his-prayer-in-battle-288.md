@@ -1,0 +1,12 @@
+---
+id: event/the-people-wonder-at-al-hadis-steadfastness-and-his-prayer-in-battle-288
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/the-people-wonder-at-al-hadis-steadfastness-and-his-prayer-in-battle-288.md}
+---
+## Ringkasan
+Di sini berakhir kalimat yang terputus di akhir halaman 225 [[event/al-hadi-enters-sanaa-a-second-time-after-leaving-shibam-288|dari berita masuknya kedua ke Sana'a]]: Pria al-Aqili, yang ditusuk perut {cite:sira-hadi-ila-al-haqq p.226}, tewas. Orang-orang terkejut dengan [[person/al-hadi-yahya-al-rassi|kesabaran al-Hadi]] dan teman-temannya, meskipun jumlahnya sedikit, menghadapi kavaleri besar dan pasukan lawan mereka. Ketika mereka mendengar ini, mereka berkata, menurut narator: Apa yang membuat mereka heran? Jika aku memiliki dua ribu orang dan lima ratus penunggang kuda yang setia dan sabar bersamaku, seluruh bumi akan pusing {cite:sira-hadi-ila-al-haqq p.226}. Dia mengutip apa yang disebutkan dalam [[passage/quran-2-249|Surah Al-Baqarah 2:249]] tentang kelompok kecil yang mengalahkan banyak orang, jika InsyaAllah, diwakili oleh sebuah ayat dari 'Al-Tawil,' yang berarti pintu kesulitan terbuka dengan kesabaran {cite:sira-hadi-ila-al-haqq p.226}.
+
+## Detail
+Narator menceritakan permohonannya saat medan perang: Ia memohon kepada Allah agar mengilhamnya dengan kesabaran, membesarkan ganjaran, dan menerima perbuatan itu dengan tulus untuk-Nya. Kemudian ia berkata, "Sudah cukuplah Allah, dan Dialah yang terbaik dalam mengatur urusan." Ketika orang yang telah meninggal dibunuh oleh tangannya sendiri, ia akan mengatakan bahwa mereka hanya bertarung demi Tuhan dan untuk menolak apa yang ditolak lawan dari Kitab-Nya dan setelah panggilan kepada kebenaran. Ia meminta Allah untuk menilai antara dirinya dan mereka {cite:sira-hadi-ila-al-haqq p.226}. Catatan kaki asli memuat judul kedua perkataan tersebut, yang berasal dari salinan, yang jelas bahwa kata-kata dan permohonan tersebut dikaitkan dengan Al-Hadi menurut narator. Museum menggambarkan tetapi tidak menghakimi, juga tidak menggambarkan ulang lawan Al-Hadi sebagai kafir. Kemudian Al-Hadi, yang mengikuti orang-orang, kembali ke Sana'a dan masuk ke sana pada hari Jumat, tahun 288 H, tempat ia tinggal {cite:sira-hadi-ila-al-haqq p.226}.

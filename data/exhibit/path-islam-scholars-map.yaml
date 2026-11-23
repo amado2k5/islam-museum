@@ -7,12 +7,16 @@ label:
   es: "Mapa de los académicos"
   fr: "Carte des érudits"
   ur: "علماء کا نقشہ"
+  tr: "Bilim insanlarının haritası"
+  id: "Peta ilmuwan"
 summary:
   ar: 'مسار في جغرافيا العلم: المدينة للفقه، والبصرة للنحو، وبغداد للترجمة، وبخارى للحديث، وقرطبة للفلسفة.'
   en: A trail through the geography of learning.
   es: "Un recorrido por la geografía del aprendizaje."
   fr: "Un parcours à travers la géographie de l'apprentissage."
   ur: "سیکھنے کے جغرافیہ کے ذریعے ایک ٹریل."
+  tr: "Bilim coğrafyasında bir yolculuk: Medine fıkıh için, Basra dil bilgisi için, Bağdat tercüme için, Buhara hadis için ve Kurtuba felsefe için."
+  id: "Jalur dalam geografi ilmu pengetahuan: Madinah untuk yurisprudensi, Basra untuk tata bahasa, Baghdad untuk penerjemahan, Bukhara untuk hadits, dan Cordoba untuk filsafat."
 audience:
 - newcomer
 - student
@@ -27,12 +31,16 @@ rooms:
     es: "Medina"
     fr: "Médine"
     ur: "مدینہ"
+    tr: "Şehir"
+    id: "Kota"
   body:
     ar: 'فقه المدينة وحديثها: مدرسة الحجاز.'
     en: 'فقه المدينة وحديثها: مدرسة الحجاز.'
     es: "La jurisprudencia y los hadices de Medina: La escuela del Hiyaz."
     fr: "La jurisprudence et les hadiths de Médine: l'école du Hedjaz."
     ur: "مدینہ کی فقہ و حدیث: مکتب حجاز۔"
+    tr: "Medine fıkıhı ve hadisleri: Hicaz mezhebi."
+    id: "Fiqih dan hadits Madinah: Mazhab Hijaz."
   features:
   - place/medina
   - person/malik-ibn-anas
@@ -42,12 +50,16 @@ rooms:
     es: "Basora y Kufa"
     fr: "Bassora et Koufa"
     ur: "بصرہ اور کوفہ"
+    tr: "Basra ve Kufa"
+    id: "Basra dan Kufa"
   body:
     ar: 'نحو البصرة وفقه الكوفة: مدينتا العراق.'
     en: 'نحو البصرة وفقه الكوفة: مدينتا العراق.'
     es: "Hacia Basora y la jurisprudencia de Kufa: las dos ciudades de Irak."
     fr: "Vers Bassora et la jurisprudence de Koufa: les deux villes d'Irak."
     ur: "بصرہ اور فقہ کوفہ کی طرف: عراق کے دو شہر۔"
+    tr: "Basra'ya ve Kufa'nın fıkıhına doğru: Irak'ın iki şehri."
+    id: "Menuju Basra dan yurisprudensi Kufa: dua kota di Irak."
   features:
   - place/basra
   - place/kufa
@@ -59,12 +71,16 @@ rooms:
     es: "Bagdad"
     fr: "Bagdad"
     ur: "بغداد"
+    tr: "Bağdat"
+    id: "Bagdad"
   body:
     ar: 'الترجمة والكلام: عاصمة العلم ثلاثة قرون.'
     en: 'الترجمة والكلام: عاصمة العلم ثلاثة قرون.'
     es: "Traducción y oratoria: la capital de la ciencia durante tres siglos."
     fr: "Traduction et discours: La capitale de la science depuis trois siècles."
     ur: "ترجمہ اور تقریر: تین صدیوں سے سائنس کا سرمایہ۔"
+    tr: "Çeviri ve konuşma: Üç yüzyıl boyunca bilimin başkenti."
+    id: "Penerjemahan dan pidato: Ibu kota ilmu pengetahuan selama tiga abad."
   features:
   - place/baghdad
   - building/bayt-al-hikma
@@ -74,12 +90,16 @@ rooms:
     es: "Khorasan"
     fr: "Khorasan"
     ur: "خراسان"
+    tr: "Horasan"
+    id: "Khorasan"
   body:
     ar: حديث بخارى ونيسابور وسمرقند.
     en: حديث بخارى ونيسابور وسمرقند.
     es: "Hadices de Bujará, Nishapur y Samarcanda."
     fr: "Hadith de Boukhara, Nishapur et Samarcande."
     ur: "بخارا، نیشاپور اور سمرقند کی حدیث۔"
+    tr: "Buhara, Nişapur ve Semerkant Hadisleri."
+    id: "Hadits Bukhara, Nishapur dan Samarkand."
   features:
   - place/bukhara
   - place/nishapur
@@ -90,12 +110,16 @@ rooms:
     es: "Al-Ándalus"
     fr: "Al-Andalus"
     ur: "الاندلس"
+    tr: "Endülüs"
+    id: "Andalusia"
   body:
     ar: فلسفة قرطبة ولغة إشبيلية.
     en: فلسفة قرطبة ولغة إشبيلية.
     es: "La filosofía de Córdoba y la lengua de Sevilla."
     fr: "La philosophie de Cordoue et la langue de Séville."
     ur: "قرطبہ کا فلسفہ اور سیویل کی زبان۔"
+    tr: "Kurtuba felsefesi ve Sevilla dili."
+    id: "Filsafat Cordoba dan bahasa Sevilla."
   features:
   - place/cordoba
   - person/ibn-rushd

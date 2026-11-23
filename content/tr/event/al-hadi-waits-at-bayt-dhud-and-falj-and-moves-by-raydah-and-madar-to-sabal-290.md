@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-waits-at-bayt-dhud-and-falj-and-moves-by-raydah-and-madar-to-sabal-290
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/al-hadi-waits-at-bayt-dhud-and-falj-and-moves-by-raydah-and-madar-to-sabal-290.md}
+---
+## Özet
+Al-Ghayl ile görüştükten sonra [[group/banu-hamdan|Hamdan]], birkaç gün El-Hadi'yi bekledi, onlarla kaldı ve [[place/bayt-dhud-yemen|Beyt Hu'ud'da kaldı]]. Su yerinde kıtlık yaşandı, bu yüzden Cumedül-Akhirah'ın başına kadar kaldığı El-Dhir'deki Falaj adlı bir yere taşındı {cite:sira-hadi-ila-al-haqq p.246}. Sonra [[place/raydah-yemen|Rayde'ye]] gidip birkaç gün orada kaldı, ardından [[place/madar-yemen|Madar]]'a giderek günlerce kaldı. Sonra [[group/khawlan-tribe|Khawlan'ın doğusuna]] gitti, burada bazı Khawlanilerle karşılaştı ve Sabal adlı bir köyde yerleşip orada ordu konuşlandırdı ve iki gün {cite:sira-hadi-ila-al-haqq p.246} orada kaldı.
+
+## Detaylar
+Sonra [[person/ibrahim-ibn-khalaf-ibn-tarif|İbn Halaf'ın]] Bayt Aqab adlı bir köyde kamp kurduğunu öğrendi. Ordusunu Sabbal'de uyardı, bu yüzden gece yola çıktı ve Bayt Hadir'de kaldı ve bir süre kalarak el-Ca'fari ile el-Ruvey'in oğullarından bekledi. Onlar onun üzerinde kaldılar ve ağır yük oldular, ordunun bulunduğu kasabanın yakınındaki bölge ise çok sayıda kişi geride kaldı. Askar Sana'a'dan ayrıldı ve Sabal halkıyla karşılaştı, bir saat boyunca savaştılar, aralarında yaralar oldu ve kimse bağışlanmadı {cite:sira-hadi-ila-al-haqq p.246}. Bundan önce [[event/al-hadi-halts-at-khiwan-and-meets-the-sons-of-yafur-at-al-ghayl-290|ghil ile]] karşılaştılar, ardından [[event/the-fights-near-bayt-hadir-and-the-withdrawal-by-matara-and-madar-to-atwa-290|Bayt Hadir savaşı ve geri çekilme gerçekleşti Atwa]]'ya. Editör, dipnotta 'Sabal'ın orijinal olarak ve Ghayat al-Amani 188/1'de 'Salil' olduğunu, yani toprakların adını aldığı Yemen'deki bir kabile olduğunu belirtir; yer, [[place/sabal-sanaa-yemen|Abdullah ibn al-Huseyn'in 289 Hicri yılında yerleştiği Sabal olabilir ve müze bunu doğrulamamaktadır. Görünüşe göre editör, Ülkeler Sözlüğü'ne yaptığı girişte bahsetmektedir. Anlatıcı, el-Ceferi'yi ya da el-Rubeyye'nin iki oğlunu isimlendirmemiştir, ancak bunlar Abu el-Aşira ve el-Rabi' olabilir]].

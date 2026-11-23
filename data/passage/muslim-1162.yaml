@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1162"
-label: { ar: "مسلم 1162 — صيام يوم عرفة يكفر سنتين", en: "Muslim 1162 — The fast of Arafah expiates two years", es: "Muslim 1162 — El ayuno de Arafah expía dos años", fr: "Muslim 1162 — Le jeûne d'Arafat expie deux années", ur: "مسلم 1162 - عرفہ کا روزہ دو سال کا کفارہ ہے۔" }
+label: { ar: "مسلم 1162 — صيام يوم عرفة يكفر سنتين", en: "Muslim 1162 — The fast of Arafah expiates two years", es: "Muslim 1162 — El ayuno de Arafah expía dos años", fr: "Muslim 1162 — Le jeûne d'Arafat expie deux années", ur: "مسلم 1162 - عرفہ کا روزہ دو سال کا کفارہ ہے۔", tr: "Müslim 1162 — Arafat Günü orucu, iki yıllık günahları affettirir.", id: "Muslim 1162 — Berpuasa pada Hari Arafah menghapus dosa selama dua tahun." }
 text: "قال أبو قتادة: سئل النبي عن صومه فأنكره ثم قال: ثلاث من كل شهر ورمضان إلى رمضان فهذا صيام الدهر كله، صيام يوم عرفة أحتسب على الله أن يكفر السنة التي قبله والسنة التي بعده، وصيام يوم عاشوراء أحتسب على الله أن يكفر السنة التي قبله"
 summary:
   ar: "رواية أبي قتادة الأنصاري في باب فضل صيام ثلاثة أيام من كل شهر ويوم عرفة وعاشوراء ويوم الاثنين من كتاب الصيام في صحيح مسلم؛ وفي لفظ شعبة الإجابة عن صوم الاثنين «ذاك يوم ولدت فيه وبعثت أو أنزل علي فيه»."
+  tr: "Sahih Müslim'in Oruç Kitabı'nda, her ayın üç günü, Arafat, Aşura ve Pazartesi günleri oruç tutmanın faziletini anlatan bölümde Ebu Katade el-Ensari'nin rivayeti; ve Şube'nin Pazartesi günü oruç tutmaya ilişkin cevabı: \"Bu, benim doğduğum ve gönderildiğim veya bana vahyin indirildiği gündür.\""
+  id: "Riwayat Abu Qatada al-Ansari dalam bab tentang keutamaan puasa tiga hari setiap bulan, hari Arafah, Asyura, dan Senin dari Kitab Puasa dalam Sahih Muslim; dan dalam redaksi Shu’bah, jawaban mengenai puasa pada hari Senin: “Itulah hari di mana aku dilahirkan dan diutus atau hari di mana wahyu diturunkan kepadaku.”"
 relations:
   - { type: part_of, target: passage/muslim-kitab-13 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

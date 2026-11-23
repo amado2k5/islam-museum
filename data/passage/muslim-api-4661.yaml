@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "4661"
-label: { ar: "صحيح مسلم 4661 — الأب والأبوة", en: "Sahih Muslim 4661 — the father and fatherhood", ur: "صحیح مسلم 4661 — باپ اور والدیت", es: "Sahih Muslim 4661 — El padre y la paternidad", fr: "Sahih Muslim 4661 — Le père et la paternité" }
+label: { ar: "صحيح مسلم 4661 — الأب والأبوة", en: "Sahih Muslim 4661 — the father and fatherhood", ur: "صحیح مسلم 4661 — باپ اور والدیت", es: "Sahih Muslim 4661 — El padre y la paternidad", fr: "Sahih Muslim 4661 — Le père et la paternité", tr: "Sahih Muslim 4661 — Baba ve Babalık", id: "Sahih Muslim 4661 — Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى الْقَيْسِيُّ، حَدَّثَنَا الْمُعْتَمِرُ، عَنْ أَبِيهِ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ قِيلَ لِلنَّبِيِّ لَوْ أَتَيْتَ عَبْدَ اللَّهِ بْنَ أُبَىٍّ قَالَ فَانْطَلَقَ إِلَيْهِ وَرَكِبَ حِمَارًا وَانْطَلَقَ الْمُسْلِمُونَ وَهِيَ أَرْضٌ سَبِخَةٌ فَلَمَّا أَتَاهُ النَّبِيُّ قَالَ إِلَيْكَ عَنِّي فَوَاللَّهِ لَقَدْ آذَانِي نَتْنُ حِمَارِكَ. قَالَ فَقَالَ رَجُلٌ مِنَ الأَنْصَارِ وَاللَّهِ لَحِمَارُ رَسُولِ اللَّهِ أَطْيَبُ رِيحًا …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 4661، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 4661، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe del Sahih Muslim, n.º 4661 (El Libro de la Yihad y las Expediciones), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sahih Muslim, n° 4661 (Livre du Jihad et des Expéditions), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih Müslim'de 4661 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 4661, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4661 (book 32 hadith 143); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

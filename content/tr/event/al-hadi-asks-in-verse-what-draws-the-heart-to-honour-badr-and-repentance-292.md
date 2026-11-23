@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-asks-in-verse-what-draws-the-heart-to-honour-badr-and-repentance-292
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/al-hadi-asks-in-verse-what-draws-the-heart-to-honour-badr-and-repentance-292.md}
+---
+## Özet
+Al-Saree'nin "Ve Ona da" adlı şiiri, "Var mı" ifadesi sekiz kez tekrarlanır: asla solmayan onurla, Bedr'de Tanrı'nın korumasını koruyanların yerinde, niyetli bir kişinin kararlılığında, güçlü bir temelin yeniden doğuşunda, Cennette, Merhametli'de, ruhun diyarı önünde tövbede ve diriliş korkusunu güvence altına alan bir meselede. {cite:sira-hadi-ila-al-haqq p.308}
+
+## Detaylar
+308. sayfada "Ve O da Var" başlığından sonra başlar ve 309. sayfada El-Saree'den bir şiiri, "İlk onurda zamanla aşınmayan bir yapıştırıcı var mı?" ve "Bedr'de Allah'ın korumasını koruyan gibi bir yeriniz [[event/battle-of-badr|var]] mı?", "Düşünceden daha açık bir niyetle kararlılığınız var mı?" ve "Kader üzerinde etkisini artıran güçlü bir üne sahip bir rönesansınız mı" {cite:sira-hadi-ila-al-haqq p.308} ifadesiyle sona erer. Sonra ona Cennet'te bir ihtiyaç olduğu sorulur, çünkü sakladığı en iyi şeydir ve En Merhametli arzu hakkında, çünkü O'nun emri konuyla tutarlıdır {cite:sira-hadi-ila-al-haqq p.308}. 309. sayfada, 'meşgul' olana hitap eder ve ruh sandığa girmeden önce tövbe etmesi, ateş ve közlerin sıcaklığından tövbe eden kişinin dönüşü ve eğer korkarsa, diriliş ve dirilişin dehşetleri hakkında sorular {cite:sira-hadi-ila-al-haqq p.309}. Bu, soru şeklinde şiirsel bir uyarıdır ve kitap bunu isimlendirilmiş bir muhatabo ya da olay olmadan sunar, dizelerinde savaş ya da rakipten bahsetmez. Ve Bedr, Tanrı'nın korumasını koruyanlara örnek olarak anılır; bu ima Zeydi kitabında şaire atfedilmiştir. Şiir [[event/al-hadi-offers-his-judgment-or-war-and-names-his-descent-in-verse-292|, yönetimini veya savaşını anlatan dizeleri]] ile başlar, ardından [[event/al-hadi-sends-word-to-banu-kab-qushayr-and-banu-qurra-in-verse-292|Banu Ka'b, Quşair ve Banu Qurra'ya yazdığı şiirsel mektup]] gelir. Şiir, İmam takipçilerinin dilinde bir Zeydi kitabındadır ve içinde bulunan iddialar, tanımlamalar ve muhaliflere karşı şaire veya anlatıcıya atfedilen hükümler vardır; müze tarafından benimsenmemiş veya yargılanmamıştır, burada da tekrarlanan bir eleştiri yoktur.

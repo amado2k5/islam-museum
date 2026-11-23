@@ -1,0 +1,13 @@
+---
+id: passage/arbaun-23
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/passage/arbaun-23.md}
+---
+
+## Ringkasan
+Hadis Abu Malik al-Ash'ari berkata: Rasulullah berkata: "Penyucian adalah setengah dari iman, dan puji Allah memenuhi timbangan. Kemuliaan bagi Allah dan puji bagi Allah, mereka mengisi — atau mengisi — jarak antara langit dan bumi. Doa adalah cahaya, sembah adalah bukti, kesabaran adalah cahaya, dan Al-Qur'an adalah bukti bagi kamu atau melawanmu. Setiap orang keluar di pagi hari dan menjual jiwanya serta membebaskannya atau mengambilnya." Ini adalah hadis kedua puluh tiga dalam Empat Puluh An-Nawawiyyah dan dalam tafsiran Ibn Rajab; ini diceritakan oleh Muslim (223) dari riwayat Yahya ibn Abi Kathir dari Zayd ibn Salam dari Abu Salam daripadanya, dan ada perbedaan pendapat mengenai Yahya ibn Abi Kathir mendengar dari Zayd ibn Salam, tetapi Yahya ibn Ma'in menyangkalnya, dan Imam Ahmad mengonfirmasinya. Dalam riwayat Muslim, secara eksplisit dinyatakan bahwa ia mendengar darinya; dan al-Nasa'i serta Ibn Majah menceritakannya dari riwayat Muawiyah ibn Salam dari saudaranya Zayd ibn Salam dari kakeknya Abu Salam dari Abd al-Rahman ibn Ghanam dari Abu Malik, sehingga Abdul Rahman ibn Ghanm menambahkan pada rantai riwayatnya. Beberapa ulama hadis lebih menyukai narasi ini, mengatakan bahwa Muawiyah ibn Salam lebih memahami hadits saudaranya Zayd daripada Yahya ibn Abi Kathir, jadi memang demikian Rantai Muslim terputus. Al-Nawawi menanggapi dalam komentarnya tentang Muslim bahwa tampaknya Abu Salam mendengarnya dari Abu Malik dan juga dari Abdur Rahman ibn Ghanam dari Abu Malik, yang menceritakannya sekali dari dirinya dan sekali darinya. Dalam kata-kata hadits Muawiyah menurut Ibn Majah: "Melakukan wudhu adalah setengah dari iman, puji bagi Allah adalah kepenuhan timbangan, kemuliaan dan takbir adalah kepenuhan langit dan bumi, shalat adalah cahaya, dan zakat adalah bukti," dan dalam kata-kata Al-Tirmidhi (3517) "Wudhu adalah setengah dari iman," dan dalam sebagian besar salinan Sahih Muslim adalah "kesabaran adalah cahaya," dan dalam beberapa di antaranya "puasa adalah cahaya" (Jami' al-Ulum wal-Hikam hlm. 489–490). {cite:ibn-rajab-jami-ulum-hikam}
+
+## Lokasinya di museum
+Sumbernya [[work/arbaun-nawawi|adalah Empat Puluh Nawawiyyah]]. Buku ini menyebutkan [[person/abu-malik-al-ashari|Abu Malik al-Ash'ari]]. Buku ini juga didasarkan pada [[concept/tahara|bab-bab kesucian]] dan [[concept/sabr|kesabaran]].

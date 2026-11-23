@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/yahya-ibn-said-al-ansari, person/said-ibn-al-musayyab]
 work: work/muwatta-malik
 ref: "2502"
-label: { ar: "الموطأ 2502 — يحيى بن سعيد عن سعيد بن المسيب: ثلث عقل كل عضو نافذ فيه", en: "Muwatta 2502", es: "Muwatta 2502", fr: "Muwatta 2502", ur: "موطا 2502" }
+label: { ar: "الموطأ 2502 — يحيى بن سعيد عن سعيد بن المسيب: ثلث عقل كل عضو نافذ فيه", en: "Muwatta 2502", es: "Muwatta 2502", fr: "Muwatta 2502", ur: "موطا 2502", tr: "El-Muvatta 2502 — Yahya bin Said, Said bin el-Musayyab'ın rivayetine göre: Her organın aklının üçte biri, içine nüfuz eden", id: "Al-Muwatta 2502 — Yahya bin Saeed berdasarkan riwayat Saeed bin Al-Musayyab: Sepertiga dari kecerdasan setiap organ yang menembusnya" }
 summary:
   ar: "يروي يحيى عن مالك عن يحيى بن سعيد عن سعيد بن المسيب أنه قال: كل نافذة في عضو من الأعضاء ففيها ثلث عقل ذلك العضو. {cite:muwatta-maruf-1997 p.429}"
+  tr: "Yahya, Malik'ten, o da Yahya ibn Sa'id'den, o da Sa'id ibn al-Musayyab'dan rivayetle şöyle buyurduğunu nakletmiştir: Her bir uzuvdaki açıklık, o uzvun aklının üçte birini içerir. {cite:muwatta-maruf-1997 s.429}"
+  id: "Yahya meriwayatkan dari Malik, dari Yahya bin Sa'id, dari Sa'id bin al-Musayyab, bahwa beliau berkata: Setiap lubang di anggota tubuh mengandung sepertiga dari kecerdasan anggota tubuh tersebut. {cite:muwatta-maruf-1997 p.429}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

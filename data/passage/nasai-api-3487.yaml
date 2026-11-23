@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "3487"
-label: { ar: "سنن النسائي 3487 — وصية أو عهد أخير", en: "Sunan al-Nasa'i 3487 — a testament or parting counsel", ur: "سنن نسائی 3487 — وصیت یا آخری نصیحت", es: "Sunan al-Nasa'i 3487 — un testamento o consejo de despedida", fr: "Sunan al-Nasa'i 3487 — un testament ou un conseil d'adieu" }
+label: { ar: "سنن النسائي 3487 — وصية أو عهد أخير", en: "Sunan al-Nasa'i 3487 — a testament or parting counsel", ur: "سنن نسائی 3487 — وصیت یا آخری نصیحت", es: "Sunan al-Nasa'i 3487 — un testamento o consejo de despedida", fr: "Sunan al-Nasa'i 3487 — un testament ou un conseil d'adieu", tr: "Sunan an-Nasa'i 3487 — Son vasiyetname veya antlaşma", id: "Sunan an-Nasa'i 3487 — Wasiat atau perjanjian terakhir" }
 text: "… عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، قَالَتِ اخْتَصَمَ سَعْدُ بْنُ أَبِي وَقَّاصٍ وَعَبْدُ بْنُ زَمْعَةَ فِي ابْنِ زَمْعَةَ قَالَ سَعْدٌ أَوْصَانِي أَخِي عُتْبَةُ إِذَا قَدِمْتَ مَكَّةَ فَانْظُرِ ابْنَ وَلِيدَةِ زَمْعَةَ فَهُوَ ابْنِي. فَقَالَ عَبْدُ بْنُ زَمْعَةَ هُوَ ابْنُ أَمَةِ أَبِي وُلِدَ عَلَى فِرَاشِ أَبِي. فَرَأَى رَسُولُ اللَّهِ شَبَهًا بَيِّنًا بِعُتْبَةَ فَقَالَ رَسُولُ اللَّهِ \" الْوَلَدُ لِلْفِرَاشِ وَاحْتَجِبِي …"
 summary:
   ar: "حديث في سنن النسائي، رقم 3487، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 3487، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 3487 (El Libro del Divorcio), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sunan al-Nasa'i, n° 3487 (Le Livre du Divorce), mentionne un testament ou des conseils de séparation. Le Navigateur de Testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "Sunan-ı Nesai'de yer alan 3487 numaralı hadis, vasiyet veya son bir ahitten bahsetmektedir. Bu hadis, vasiyet, miras, kutsal emanetler ve türbeler konusunda uzmanlaşmış araştırmacılar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, nomor 3487, menyebutkan tentang wasiat atau perjanjian terakhir. Hadits ini disusun oleh para peneliti yang ahli dalam wasiat, warisan, relik, dan makam, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3487 (book 27 hadith 99); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

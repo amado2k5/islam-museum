@@ -1,0 +1,24 @@
+---
+id: concept/mudawat-al-jarha
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/mudawat-al-jarha.md}
+---
+## Ikhtisar
+Kitab hadits menyimpan laporan singkat tentang penyembuhan para korban luka dalam ekspedisi dan rumah Nabi. Catatan ini mengumpulkan apa yang kita temukan dari mereka dalam teks Sahih al-Bukhari dan Sahih Muslim yang tercatat di museum, menyajikannya sebagai cerita tanpa mengambil keputusan medis atau hukum, dan bersamaan dengan catatan tersebut adalah apa yang ditulis Ibn Sina tentang kerajinan tangan, sehingga pembaca dapat memahami bagaimana ia berbicara tentang luka dan pendarahan di kedua bidang tersebut. Apa pun yang tidak disebutkan dalam riwayat tidak dianggap sebagai bagian dari kitab ini.
+
+## Wanita menyiram dan menyembuhkan
+Al-Rabi' bint Mu'awwidh berkata: "Kami bersama Nabi menyiram, merawat yang terluka, dan membawa yang mati ke Madinah" {cite:sahih-al-bukhari 2882}. Lihat [[passage/bukhari-api-2882|Al-Bukhari 2882]] dan [[person/al-rubayyi-bint-muawwidh|Al-Rabi' bint Mu'awwadh]]. Museum ini memiliki catatan independen tentang apa yang diceritakan tentang tenda Rufaydah al-Aslamiyah, tempat para terluka dirawat. Museum ini didasarkan pada Ibn Hajar dalam "Al-Isaba" dan ensiklopedia TDV, dan namanya tidak muncul dalam hadits yang kami sebutkan di sini: [[invention/rufayda-medical-tent|tenda Rufaydah]] dan [[person/rufayda-al-aslamiyya|Rufaydah al-Aslamiya]].
+
+## Luka Nabi pada hari Minggu
+Sahl ibn Sa'd ditanya tentang luka Nabi, dan ia berkata ia tahu siapa yang membasuhnya dan siapa yang menuangkan air itu serta apa maksudnya: Fatimah, putri Rasulullah, biasa membasuhnya, dan Ali sedang menuangkan air dengan seorang majin. "Ketika Fatimah melihat air hanya menambah banyak darah, ia mengambil sepotong tikar, membakarnya, menempelkannya, dan darahnya tersumbat." Shalat segi empat itu dibatalkan hari itu, wajahnya terluka, dan telur di kepalanya pecah {cite:sahih-al-bukhari 4075}. Lihat [[passage/bukhari-api-4075|Al-Bukhari 4075]]. Dalam riwayat Muslim, ia membakar tikar hingga menjadi abu, lalu menempelkannya ke luka Jadi ia mempertahankan darah {cite:hadith-api-fawazahmed0 Muslim 4642}, lihat [[passage/muslim-api-4642|Muslim 4642]]. Sebagai perbandingan, Ibn Sina menyebutkan dalam obat untuk retensi darah, bulu kelinci, menenun laba-laba, dan putih telur {cite:canon-ibn-sina-print-v1 p.306}, dan museum tidak mengklaim adanya hubungan antara keduanya. Lihat [[person/fatima|Fatimah bint Muhammad]] dan [[event/battle-of-uhud|Pertempuran Uhud]].
+
+## Saad bin Muadh: Tenda dan putih
+Aisha menceritakan bahwa Sa'd terluka pada hari parit di Al-Akhal, sehingga Nabi mendirikan tenda di masjid untuk membawanya kembali dari dekatnya, dan bahwa ada tenda Banu Ghafar yang datang kepada mereka dalam keadaan berdarah. Ketika Sa'd terluka, dia berdarah dan meninggal di sana {cite:sahih-al-bukhari 463}, lihat [[passage/bukhari-api-463|al-Bukhari 463]]. Dalam sebuah riwayat oleh Muslim, pelempar itu adalah seorang pria dari Quraisy bernama Ibn al-'Arqah {cite:hadith-api-fawazahmed0 Muslim 4598}. Jabir menceritakan: "Sa'd ibn Mu'adh dilemparkan ke pergelangan kakinya, dan Nabi memukulnya dengan tombak, kemudian membengkak, dan dia menelannya lagi" {cite:hadith-api-fawazahmed0 Muslim 5748}. Lihat [[passage/muslim-api-5748|Muslim 5748]]. Dan ketegasan pada titik ini, seperti yang diklasifikasikan oleh museum dalam novel ini, adalah menahan darah. Ibn Sina menyebutkan kauterisasi untuk menghentikan pendarahan, dan diwajibkan agar keraknya memiliki kedalaman dan ketebalan agar tidak cepat terlepas {cite:canon-ibn-sina-print-v1 p.309}. Lihat [[person/sad-ibn-muadh|Sa'd ibn Muadh]] dan [[event/battle-of-the-trench|Pertempuran Parit]].
+
+## Dokter, keringat, dan setrika
+Jabir juga menceritakan bahwa Nabi mengirim seorang dokter kepada Abu ibn Ka'b, memotong pembuluh darahnya, lalu memkauterisasinya {cite:hadith-api-fawazahmed0 Muslim 5745}. Lihat [[passage/muslim-api-5745|Muslim 5745]] dan [[person/ubayy-ibn-kab|Ubayy ibn Ka'b]]. Kisah ini menggambarkan pemotongan pembuluh darah dan kemudian kauterisasi, yang merupakan beberapa praktik yang dibahas Ibn Sina dalam [[concept/al-fasd|phlebitoma]], bedah, [[concept/al-jiraha|dan kerja kasar]].
+
+## Catatan
+Narasi ini adalah laporan sejarah tentang penyembuhan pada zamannya, bukan aturan terapeutik atau putusan yurisprudensi. Apa pun yang ditanyakan tentang putusan dan batasan pengobatan adalah tempat [[concept/tadawi|pengobatan]], dan dalam hal ini pendapat para ahli hukum disajikan.

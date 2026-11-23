@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "199"
-label: { ar: "مسلم 199 — لكل نبي دعوة واختبأت دعوتي شفاعة لأمتي", en: "Muslim 199 — Every prophet has a prayer; mine is saved as intercession for my ummah", es: "Musulmán 199 — Cada profeta tiene una oración; la mía está guardada como intercesión por mi ummah.", fr: "Muslim 199 — Chaque prophète a une prière; la mienne est conservée comme intercession pour ma communauté.", ur: "مسلم 199 - ہر نبی کی ایک نماز ہوتی ہے۔ میری امت کے لیے شفاعت کے طور پر محفوظ کیا گیا ہے۔" }
+label: { ar: "مسلم 199 — لكل نبي دعوة واختبأت دعوتي شفاعة لأمتي", en: "Muslim 199 — Every prophet has a prayer; mine is saved as intercession for my ummah", es: "Musulmán 199 — Cada profeta tiene una oración; la mía está guardada como intercesión por mi ummah.", fr: "Muslim 199 — Chaque prophète a une prière; la mienne est conservée comme intercession pour ma communauté.", ur: "مسلم 199 - ہر نبی کی ایک نماز ہوتی ہے۔ میری امت کے لیے شفاعت کے طور پر محفوظ کیا گیا ہے۔", tr: "Müslim 199 — Her peygamberin bir mesajı vardır ve benim mesajım da ümmetim için şefaat olarak gizlidir.", id: "Muslim 199 — Setiap nabi mempunyai pesan, dan pesanku tersembunyi sebagai syafaat bagi umatku." }
 text: "قال أبو هريرة: قال رسول الله: لكل نبي دعوة دعا بها في أمته فاستجيب له، وإني أريد إن شاء الله أن أؤخر دعوتي شفاعة لأمتي يوم القيامة"
 summary:
   ar: "رواية أبي هريرة في باب دعاء النبي لأمته واستبكاره من ذلك من كتاب الإيمان في صحيح مسلم؛ لكل نبي دعوة مستجابة، ودعوة محمد ادُّخرت شفاعةً لأمته يوم القيامة."
+  tr: "Sahih Müslim'deki İman Kitabı'nda, Peygamberin ümmeti için yaptığı dua ve buna olan özlemi bölümünde Ebu Hurayra'nın rivayetine göre: Her peygamberin kabul edilen bir duası vardır ve Muhammed'in duası, kıyamet gününde ümmeti için şefaat olarak saklı tutulmuştur."
+  id: "Riwayat Abu Hurairah dalam bab tentang doa Nabi untuk umatnya dan kerinduannya akan hal itu dari Kitab Iman dalam Sahih Muslim: Setiap nabi memiliki doa yang dikabulkan, dan doa Muhammad dikhususkan sebagai syafaat bagi umatnya pada Hari Kiamat."
 relations:
   - { type: part_of, target: passage/muslim-kitab-01 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

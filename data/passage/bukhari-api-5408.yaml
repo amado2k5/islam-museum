@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "5408"
-label: { ar: "صحيح البخاري 5408 — النسب والانتساب", en: "Sahih al-Bukhari 5408 — paternity and lineage", ur: "صحیح بخاری 5408 — نسب اور انتساب", es: "Sahih al-Bukhari 5408 — paternidad y linaje", fr: "Sahih al-Bukhari 5408 — paternité et lignée" }
+label: { ar: "صحيح البخاري 5408 — النسب والانتساب", en: "Sahih al-Bukhari 5408 — paternity and lineage", ur: "صحیح بخاری 5408 — نسب اور انتساب", es: "Sahih al-Bukhari 5408 — paternidad y linaje", fr: "Sahih al-Bukhari 5408 — paternité et lignée", tr: "Sahih el-Buhari 5408 — Soy ve Bağlantı", id: "Sahih al-Bukhari 5408 — Silsilah dan Afiliasi" }
 text: "حَدَّثَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، قَالَ أَخْبَرَنِي جَعْفَرُ بْنُ عَمْرِو بْنِ أُمَيَّةَ، أَنَّ أَبَاهُ، عَمْرَو بْنَ أُمَيَّةَ أَخْبَرَهُ أَنَّهُ، رَأَى النَّبِيَّ يَحْتَزُّ مِنْ كَتِفِ شَاةٍ فِي يَدِهِ، فَدُعِيَ إِلَى الصَّلاَةِ فَأَلْقَاهَا وَالسِّكِّينَ الَّتِي يَحْتَزُّ بِهَا، ثُمَّ قَامَ فَصَلَّى، وَلَمْ يَتَوَضَّأْ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 5408، يذكر النسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 5408، جس میں نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 5408 (Comida, Comidas), menciona la paternidad y el linaje. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sahih al-Bukhari, n° 5408 (Nourriture, Repas), mentionne la paternité et la lignée. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant du père."
+  tr: "Sahih el-Buhari'de 5408 numaralı hadis, soy ve atalardan bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 5408, menyebutkan tentang garis keturunan dan leluhur. Peramban \"Kebapakan dalam Islam\" mengumpulkannya dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/intisab, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5408 (book 70 hadith 36); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

@@ -1,0 +1,13 @@
+---
+id: passage/muwatta-1-066
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/passage/muwatta-1-066.md}
+---
+
+## Ringkasan
+Malik menceritakannya dari Zayd ibn Aslam dari Ata ibn Yasar dari Abdullah al-Sanabahi dalam bab tentang wudhu komprehensif: Ketika seorang mukmin melakukan wudhu, dosanya dihapus bersama setiap anggota tubuh yang dicucinya: beberapa dengan membilas hidung, dari hidung dengan menyiram, dari wajah hingga bawah labia mata, dari tangan hingga bawah kuku, dari kepala ke telinga, dari kakinya bahkan di bawah kuku. Kemudian berjalan ke masjid dan berdoanya dianggap sukarela baginya. Cerita ini juga diceritakan oleh verifiator oleh al-Nasa'i (1/74), al-Hakim (1/129), al-Bayhaqi, dan Ahmad (4/349), dan mereka melaporkan perbedaan dalam naratif: al-Bukhari, seperti yang ditanyakan oleh al-Tirmidhi, percaya bahwa Malik keliru dalam pernyataannya 'Abdullah al-Sanabihi' dan bahwa ia adalah Abu Abdullah Abd al-Rahman ibn 'Asilah, yang tidak mendengar kabar dari Nabi dan dengan demikian menceritakan hadits sebagai mursal. Ibn Abd al-Barr mendukung pandangan Ibn Ma'in bahwa hadit-haditnya adalah mursal dan tidak memiliki teman; para verifik percaya bahwa lebih memilih Ibn Abd al-Barr adalah masalah pendapat, dan bahwa pernyataan Ibn Ma'in sebelumnya 'tampaknya dia memiliki teman' lebih otentik. Dia juga melaporkan dari Ya'qub ibn Shaybah dan Ibn al-Madini bahwa mereka adalah dua pria, satu yang bertemu Nabi dan yang lain tidak, dan dari Abu Hatim bahwa mereka bertiga. Dia juga mendukung keaslian persahabatannya dengan Abdullah al-Sanabihi dalam hadits lain dengan Ahmad, dan bahwa Ibn Hajar menyebutkannya dalam bagian pertama riwayat. {cite:muwatta-maruf-1997 p.67} {cite:muwatta-maruf-1997 p.68} {cite:muwatta-maruf-1997 p.69}
+
+## Lokasinya di museum
+Buku ini termasuk dalam [[passage/muwatta-kitab-01-salat|Muwatta, Kitab Doa]]. Sumbernya [[work/muwatta-malik|adalah Muwatta]]. Buku ini menyebutkan [[person/muhammad|Muhammad]], [[person/abd-al-rahman-ibn-usayla-al-sunabihi|Abd al-Rahman ibn Asaylah al-Sanabahi]], [[person/zayd-ibn-aslam|Zayd ibn Aslam]], [[person/ata-ibn-yasar|Ata ibn Yasar]], [[person/al-bukhari|Muhammad ibn Ismail al-Bukhari]], [[person/yahya-ibn-main|Yahya ibn Ma'in]], [[person/ibn-abd-al-barr|Ibn Abd al-Barr]], dan [[person/ibn-hajar-al-asqalani|Shaykh al-Islam Ibn Hajar al-Asqalani]]. Kitab ini juga dibangun dalam bab [[practice/wudu|wudu]] dan [[concept/maghfira|pengampunan]]..

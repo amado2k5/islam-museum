@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "3485"
-label: { ar: "سنن النسائي 3485 — النسب والانتساب", en: "Sunan al-Nasa'i 3485 — paternity and lineage", ur: "سنن نسائی 3485 — نسب اور انتساب", es: "Sunan al-Nasa'i 3485 - paternidad y linaje", fr: "Sunan al-Nasa'i 3485 — paternité et lignée" }
+label: { ar: "سنن النسائي 3485 — النسب والانتساب", en: "Sunan al-Nasa'i 3485 — paternity and lineage", ur: "سنن نسائی 3485 — نسب اور انتساب", es: "Sunan al-Nasa'i 3485 - paternidad y linaje", fr: "Sunan al-Nasa'i 3485 — paternité et lignée", tr: "Sunen an-Nesa'i 3485 — Nesil ve Bağlılık", id: "Sunan an-Nasa'i 3485 — Silsilah dan Afiliasi" }
 text: "… مُجَاهِدٍ، عَنْ يُوسُفَ بْنِ الزُّبَيْرِ، - مَوْلًى لَهُمْ - عَنْ عَبْدِ اللَّهِ بْنِ الزُّبَيْرِ، قَالَ كَانَتْ لِزَمْعَةَ جَارِيَةٌ يَطَؤُهَا هُوَ وَكَانَ يَظُنُّ بِآخَرَ يَقَعُ عَلَيْهَا فَجَاءَتْ بِوَلَدٍ شِبْهِ الَّذِي كَانَ يَظُنُّ بِهِ فَمَاتَ زَمْعَةُ وَهِيَ حُبْلَى فَذَكَرَتْ ذَلِكَ سَوْدَةُ لِرَسُولِ اللَّهِ فَقَالَ رَسُولُ اللَّهِ \" الْوَلَدُ لِلْفِرَاشِ وَاحْتَجِبِي مِنْهُ يَا سَوْدَةُ فَلَيْسَ لَكِ بِأَخٍ \""
 summary:
   ar: "حديث في سنن النسائي، رقم 3485، يذكر النسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 3485، جس میں نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 3485 (El Libro del Divorcio), menciona la paternidad y el linaje. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sunan al-Nasa'i, n° 3485 (Le Livre du Divorce), mentionne la paternité et la filiation. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant du père."
+  tr: "Sunan-ı Nesai'de yer alan 3485 numaralı hadis, soy ve atalardan bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, nomor 3485, menyebutkan tentang garis keturunan dan leluhur. Peramban \"Kebapakan dalam Islam\" mengumpulkannya dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/intisab, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3485 (book 27 hadith 97); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

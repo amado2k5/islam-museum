@@ -1,7 +1,7 @@
 id: event/alduz-lahore-killed-611
 class: event
 kind: death
-label: { ar: "استيلاء الدز على لهاوور وقتله", en: "al-Duz takes Lahore and is killed", es: "Al-Duz toma Lahore y muere.", fr: "al-Duz prend Lahore et est tué", ur: "الدوز لاہور لے جاتا ہے اور مارا جاتا ہے۔" }
+label: { ar: "استيلاء الدز على لهاوور وقتله", en: "al-Duz takes Lahore and is killed", es: "Al-Duz toma Lahore y muere.", fr: "al-Duz prend Lahore et est tué", ur: "الدوز لاہور لے جاتا ہے اور مارا جاتا ہے۔", tr: "Lahavur'un Dazlar tarafından yakalanması ve öldürülmesi", id: "Penangkapan Lahavur oleh Dazs dan pembunuhannya" }
 date:
   start: { edtf: "1214~", hijri: "0611", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Taj al-Din al-Duz tomó Lahore después de perder Ghazna, luego fue asesinado allí y su reino se disolvió {cite:kamil-ibn-al-athir p. 367}."
   fr: "Taj al-Din al-Duz s'empara de Lahore après avoir perdu Ghazna, puis y fut tué et son royaume dissous {cite:kamil-ibn-al-athir p. 367}."
   ur: "تاج الدین الدوز نے غزہ کو کھونے کے بعد لاہور پر قبضہ کیا، پھر وہیں مارا گیا اور اس کی سلطنت تحلیل ہو گئی۔ 367}۔"
+  tr: "Taj al-Din al-Diz, Gazne'den ayrıldıktan sonra Lahawar'ı ele geçirdi, orada öldürüldü ve krallığı dağıtıldı {kaynak: Kamil ibn al-athir s. 367}."
+  id: "Taj al-Din al-Diz merebut Lahawar setelah meninggalkan Ghazna, kemudian ia terbunuh di sana dan kerajaannya tercerai-berai {cite:kamil-ibn-al-athir p. 367}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/lahore, sources: [source/kamil-ibn-al-athir] }

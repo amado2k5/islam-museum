@@ -1,0 +1,32 @@
+---
+id: person/salif-keita
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/salif-keita.md}
+---
+## Ringkasan
+Salif Keita (lahir 25 Agustus 1949) adalah seorang penyanyi dan penulis lagu asal Mali, lahir di desa Joliba dari keluarga kerajaan Keita, yang berasal dari Sundiata Keita, pendiri Kekaisaran Mali, dan dijuluki "Suara Emas Afrika." {cite:wikipedia-salif-keita-en} {cite:wikipedia-salif-keita-fr} Ia dikucilkan oleh keluarga dan komunitasnya sejak usia muda karena albinisme dan minatnya pada bernyanyi, sebuah karya yang diperuntukkan bagi kelas Griot. Ia pergi ke Bamako, lalu Abidjan, dan kemudian Paris, menjadi salah satu suara Afrika paling terkenal di dunia. Ia mendedikasikan sebagian dari karyanya di kemudian hari untuk memperjuangkan mereka yang terdampak albinisme. {cite:wikipedia-salif-keita-en} {cite:wikipedia-salif-keita-ar}
+
+## Perjalanan
+Salif Keita lahir di Joleba pada 25 Agustus 1949, dan artikel Prancis menganggapnya sebagai keturunan langsung Sundiata Keita. {cite:wikipedia-salif-keita-en} {cite:wikipedia-salif-keita-fr} Ia bercita-cita menjadi guru, tetapi penglihatannya yang buruk terkait albinisme menghalangi hal itu, dan keputusannya untuk menjadi penyanyi menimbulkan skandal di keluarganya. Musik dalam budaya Mandinka diperuntukkan bagi kelas Griot, dan Keita adalah keluarga bangsawan, sehingga ia menolak dan meninggalkan Joleba — artikel bahasa Inggris menyatakan kepergiannya pada tahun 1967, dan artikel Arab menyatakan kepindahannya ke Bamako pada tahun 1968. {cite:wikipedia-salif-keita-en} {cite:wikipedia-salif-keita-ar} {cite:wikipedia-salif-keita-fr}
+
+Di Bamako, ia bernyanyi di klub malam, lalu bergabung dengan 'Super Rail Band' yang didukung pemerintah. Pada tahun 1973, ia bergabung dengan band 'Les Ambassadeurs,' lalu melarikan diri bersama bandnya dari gejolak politik di Mali pada pertengahan 1970-an ke Abidjan di Pantai Gading, di mana band tersebut menjadi 'The International Ambassadors.' {cite:wikipedia-salif-keita-en} {cite:wikipedia-salif-keita-ar} Pada tahun 1976, Presiden Guinea Sekou Touré menganugerahinya Guinean National Order of Merit, pangkat perwira. Keita merespons dengan lagu 'Mango' (1978), memuji Touré dan masyarakat Manding. Album tersebut langsung sukses di Afrika Barat. {cite:wikipedia-salif-keita-en} {cite:wikipedia-salif-keita-fr}
+
+Ia pindah ke Paris pada tahun 1984 untuk mencari audiens yang lebih luas dan karier solo, dan tinggal di Montreuil, di mana ia tampil konser untuk komunitas keuangan. {cite:wikipedia-salif-keita-en} {cite:wikipedia-salif-keita-fr} Setelah pergantian milenium, ia kembali ke Bamako untuk tinggal dan merekam di sana, dan mendirikan studio rekaman yang ia gunakan dalam albumnya 'Mbemba' (2005). {cite:wikipedia-salif-keita-en} Ia adalah ayah dari pelari Paralimpiade Nantinen Keita, dan ia menjalankan—seperti yang disebutkan dalam artikel Arab—sebuah desa anak-anak untuk penderita albinisme dan tunawisma, mendukung dan mengajar musik di sana. {cite:wikipedia-salif-keita-en} {cite:wikipedia-salif-keita-ar}
+
+## Karya
+Albumnya "Soro" adalah terobosan internasionalnya; artikel Prancis mencatatnya pada tahun 1986 dan menyebutkan bahwa album tersebut direkam di bawah pengawasan produser Senegal Ibrahima Silla, sementara artikel berbahasa Inggris mencantumkannya pada tahun 1987. {cite:wikipedia-salif-keita-fr} {cite:wikipedia-salif-keita-en} Ia bernyanyi pada tahun 1988 di sebuah konser di London bertepatan dengan ulang tahun ke-70 Nelson Mandela, menuntut pembebasannya, dan pada tahun 1990 ia berkontribusi pada album amal "Red Hot + Blue" untuk melawan AIDS. {cite:wikipedia-salif-keita-en} {cite:wikipedia-salif-keita-fr}
+
+Ia menggambarkan albumnya "" (2002), karya pertamanya setelah kembali ke Mali, sebagai album terbaiknya dalam beberapa tahun, diikuti oleh "Mpemba" (2005), yang direkam sebagian antara Bamako, Beirut, Paris, dan Los Angeles, lalu "La Différence" pada akhir 2009, yang didedikasikan untuk perjuangan orang dengan albinisme di seluruh dunia. Dalam salah satu laginya, ia menyapa orang dengan mengatakan bahwa "perbedaan" tidak berarti buruk dan bahwa setiap orang berhak mendapatkan cinta dan martabat. Album tersebut memenangkan penghargaan Musik Dunia Terbaik di Victoire de la Musique Awards tahun 2010. {cite:wikipedia-salif-keita-en} Di antara tamu di albumnya adalah Joe Zafinol, Wayne Shorter, Carlos Santana, dan pemain terompet Lebanon Ibrahim Maalouf. {cite:wikipedia-salif-keita-en}
+
+## Posisi dan Kritik
+Bagian ini harus dibaca sebagai presentasi berbagai posisi yang dikutip dari sumber, bukan sebagai penilaian oleh museum.
+
+**Albinisme adalah Tujuannya.** Artikel berbahasa Inggris menyebutkan bahwa Keita mendedikasikan hidupnya untuk memperjuangkan komunitas penderita albinisme di seluruh dunia, dan album "Al-Farq" dibuat untuk tujuan ini. Artikel berbahasa Arab menyebutkan bahwa ia mengelola sebuah desa anak-anak untuk albinisme di mana ia mengajar musik. {cite:wikipedia-salif-keita-en} {cite:wikipedia-salif-keita-ar} Beberapa karyanya kadang-kadang dikritik—seperti yang dikatakan artikel bahasa Inggris—karena kecerdasan produksinya dan tingkat kualitas yang tidak konsisten. Artikel berbahasa Arab menyoroti kritik karena kurangnya kualitas di masa awalnya. {cite:wikipedia-salif-keita-en} {cite:wikipedia-salif-keita-ar}
+
+**Agamanya.** Satu-satunya frasa agama dalam sumber mana pun adalah pernyataan artikel berbahasa Inggris bahwa "dia tumbuh dalam keluarga Muslim dan bersekolah di sekolah Islam di mana dia dipengaruhi oleh nyanyian guru Al-Qur'an"; ini adalah latar belakang keluarga dan pendidikan masa kecil, tanpa sertifikat sekolah pribadinya. Artikel Prancis, Arab, dan Wikidata sama sekali tidak menyebutkan agamanya, karena tidak ada satu sumber kecuali dua yang menyebutkan sebuah sekolah untuk Kita sendiri, sehingga museum mencatat agamanya sebagai "tidak dikenal." {cite:wikipedia-salif-keita-en} {cite:wikipedia-salif-keita-fr} {cite:wikidata-salif-keita}
+
+## Referensi
+- Sumber-sumber terkenal yang disebutkan di atas, tercatat dalam `data/source/`.
+- Setiap ulasan artikel ini harus bertanggal dan menyebutkan sumber yang mengubah setiap insiden.

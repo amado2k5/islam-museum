@@ -1,0 +1,21 @@
+---
+id: person/edulji-dinshaw
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/edulji-dinshaw.md}
+---
+## Ikhtisar
+Seth Edulji Dinsha (18 Mei 1842 – 8 Mei 1914) adalah seorang dermawan Parsi dari Karachi pada era India Britania. Ia tumbuh dalam kemiskinan dan menjadi pemilik tanah terbesar di kota itu, dan donasinya — untuk rumah sakit, klinik, dan sekolah yang melayani seluruh komunitas Karachi — menjadikannya dermawan sipil paling terkemuka di pelabuhan kolonial tersebut. Museum yang merupakan seorang Zoroaster ini memasukkannya sebagai bagian dari preseden dalam mencantumkan dermawan non-Muslim yang karya publiknya telah membentuk kota-kota mayoritas Muslim. {cite:wikipedia-edulji-dinshaw-en} {cite:dawn-dinshaws-of-karachi-2015}
+
+## Kenaikannya
+Ia lahir di Karachi pada 18 Mei 1842, setahun sebelum Sindh dianeksasi ke Kepresidenan Bombay. Ia adalah anggota komunitas Parsi, setelah mengumpulkan kekayaan pertamanya sebagai kontraktor untuk Tentara Inggris selama Perang Afghanistan Kedua (1878–1881), kemudian berinvestasi di tanah dan pabrik—termasuk pabrik pemerasan kapas dan wol untuk ekspor serta pabrik es. Pada akhir abad kesembilan belas, ia memiliki sekitar setengah wilayah Karachi, dan diyakini pemerintah lokal memberlakukan larangan tidak resmi untuk membeli lebih banyak wilayah tersebut. Ia adalah direktur Land and Shipping Company, delegasi di Pengadilan Status Parsi, wali Karachi Port Trust, dan anggota kotamadya. {cite:wikipedia-edulji-dinshaw-en} {cite:wikidata-edulji-dinshaw}
+
+## Karya Amalnya
+Donasinya melayani komunitas dan masyarakat umum. Ketika Lady Davrene, istri Viceroy, menggalang dana pada tahun 1884 untuk membangun rumah sakit wanita di Karachi, ia mengumpulkan 10.000 rupee dari seluruh penduduk kota; Dinshaw saja memberikan 85.000 rupee. Laporan dari surat kabar 'Don' menambahkan bahwa donasi 50.000 rupee pada tahun 1894 memungkinkan pendirian Rumah Sakit Lady Dafresne. Pada tahun 1882, insinyur James Strakhan ditugaskan membangun klinik amal bergaya Italia di Sadr, yang masih menggunakan namanya dan masih beroperasi hingga kini; klinik kedua dinamai menurut putranya Nadirsha. Ia disumbangkan ke Sindh College of Art Fund pada tahun 1885 dan 1887, menghadiahkan patung dada Raja Edward VII dan air mancur marmer dari tahun 1890 yang berdiri di Frere Hall, dan pada dekade kedua abad kedua puluh, ia menyumbangkan 75.000 rupee kepada Mama Parsi School for Girls dan mendirikan asramanya. Dua dana amal—Bajubai Edulji Dinsha Nirashrit Fund dan Sonabai Eduluji Dinsha Charitable Fund—mendukung pemberian keluarga tersebut. {cite:wikipedia-edulji-dinshaw-en} {cite:dawn-dinshaws-of-karachi-2015}
+
+## Penghargaan dan Kematian
+Sebagai pengakuan atas pengabdiannya pada publik, ia adalah orang pertama di Karachi yang diangkat sebagai companion dalam Order of the Empire of India: medali tersebut diumumkan pada Penghargaan Tahun Baru 1899 pada 2 Januari 1899, dan diberikan oleh Ratu Victoria sendiri di Kastil Windsor pada 1 Maret 1900. Pada 8 Mei 1914, dalam perjalanan ke Inggris, ia meninggal di laut dekat Port Said, Mesir. {cite:wikipedia-edulji-dinshaw-en}
+
+## Warisannya
+Pada tahun 1930-an, sebuah patung Dinsha dan putra sulungnya Nadirsha ditempatkan di persimpangan jalan utama Karachi; Sir Frederick Sykes, Gubernur Bombay, mengatakan pada peresmian patungnya bahwa kota ini dipilih dengan baik karena Dinsha "memiliki visi yang sepenuhnya mengakui kehebatan kota ini dan secara pribadi memberikan kontribusi besar bagi perkembangannya." Setelah pemisahan, kedua patung tersebut dihapus, dan kini berada di halaman Institut Parsi di Karachi. Putra-putranya Nadarsha dan Vramrooz (dikenal sebagai F.E. Dinsha) melanjutkan bisnis keluarga, dan cucunya Hoshang N.E. Dinsha menjadi ketua Bank Nasional Pakistan. Keluarga ini tetap terkenal karena sumbangan amalnya, terutama kepada non-Parsi. {cite:wikipedia-edulji-dinshaw-en} {cite:dawn-dinshaws-of-karachi-2015}

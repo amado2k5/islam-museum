@@ -1,13 +1,15 @@
 id: event/plague-of-basra-258
 class: event
 kind: other
-label: { ar: "وباء البصرة الكبير", en: "The Great Plague of Basra", es: "La Gran Plaga de Basora", fr: "La grande peste de Bassorah", ur: "بصرہ کا عظیم طاعون" }
+label: { ar: "وباء البصرة الكبير", en: "The Great Plague of Basra", es: "La Gran Plaga de Basora", fr: "La grande peste de Bassorah", ur: "بصرہ کا عظیم طاعون", tr: "Basra'nın Büyük Vebası", id: "Wabah Besar Basra" }
 summary:
   ar: "في سنة 258هـ ظهر بالأهواز والعراق وباء وانتشر إلى حدود فيد وكان كل يوم يموت ببغداد خمسمائة إلى ستمائة، وكانت هدة كثيرة بالبصرة تساقط منها أكثر المدينة ومات فيها أكثر من عشرين ألف إنسان {cite:muntazam-ibn-al-jawzi p. 100}."
   en: "In 258 plague spread from Ahwaz through Iraq to the gates of Fars: five to six hundred dead a day in Baghdad, and in Basra — already Zanj-besieged — the falls of sickness took more than twenty thousand {cite:muntazam-ibn-al-jawzi p. 100}."
   es: "En 258, la peste se extendió desde Ahwaz a través de Irak hasta las puertas de Fars: entre quinientos y seiscientos muertos al día en Bagdad, y en Basora —ya sitiada por Zanj— la enfermedad se cobró más de veinte mil vidas {cite:muntazam-ibn-al-jawzi p. 100}."
   fr: "En 258, la peste se propagea d'Ahwaz à travers l'Irak jusqu'aux portes du Fars: cinq à six cents morts par jour à Bagdad, et à Bassora — déjà assiégée par Zanj — les chutes de la maladie firent plus de vingt mille victimes {cite:muntazam-ibn-al-jawzi p. 100}."
   ur: "258 میں طاعون اہواز سے عراق کے راستے فارس کے دروازوں تک پھیل گیا: بغداد میں ایک دن میں پانچ سے چھ سو افراد ہلاک ہوئے، اور بصرہ میں - پہلے ہی زنج کا محاصرہ تھا - بیماری کے زوال نے بیس ہزار سے زیادہ لوگوں کو اپنی لپیٹ میں لے لیا۔ 100}۔"
+  tr: "Hicri 258 yılında Ahvaz ve Irak'ta bir veba salgını çıktı ve Fayd sınırlarına kadar yayıldı. Bağdat'ta her gün beş yüz ila altı yüz kişi ölüyordu. Basra'da büyük bir felaket oldu, şehrin büyük bir kısmı yıkıldı ve yirmi binden fazla insan öldü. {cite:muntazam-ibn-al-jawzi s. 100}"
+  id: "Pada tahun 258 Hijriah, wabah penyakit muncul di Ahwaz dan Irak dan menyebar hingga perbatasan Fayd. Setiap hari, lima ratus hingga enam ratus orang meninggal di Baghdad. Terjadi bencana besar di Basra, yang menyebabkan sebagian besar kota runtuh, dan lebih dari dua puluh ribu orang meninggal di dalamnya. {cite:muntazam-ibn-al-jawzi p. 100}."
 relations:
   - { type: occurred_at, target: place/basra, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }

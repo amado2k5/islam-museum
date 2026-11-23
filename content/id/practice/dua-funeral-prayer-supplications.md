@@ -1,0 +1,12 @@
+---
+id: practice/dua-funeral-prayer-supplications
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/dua-funeral-prayer-supplications.md}
+---
+## Ringkasan
+Apa yang dikumpulkan al-Nawawi dari doa takbir ketiga dan keempat dalam doa pemakaman, doa anak, salam, dan putusan pada doa sebelumnya. {cite:al-adhkar-nawawi-arnaut-1994 p. 157}
+
+## Apa yang dikumpulkan al-Nawawi dalam 'Al-Adhkar'
+Al-Nawawi menyebutkan bahwa kewajiban dalam takbir ketiga adalah setidaknya berdoa untuk almarhum, lalu ia mencantumkan doa yang direkomendasikan. Yang paling otentik adalah apa yang diceritakan Muslim dari Awf ibn Malik bahwa [[person/muhammad|Nabi]] berdoa saat pemakaman dan menghafal dari doanya: "Ya Allah, ampunilah dia, kasihanilah dia, kurniakan kesejahteraan, ampunilah dia, hormati tempat tinggalnya, dan perluangkan pintu masuknya" {cite:al-adhkar-nawawi-arnaut-1994 p. 157}. Ia diceritakan dalam Abu Dawood, Al-Tirmidhi, dan Al-Bayhaqi dari Abu Huraira: "Ya Allah, ampunilah keras kepala kami, almarhum, muda dan tua kami," dan Al-Hakim mengatakan itu otentik, dan ia melaporkan dari Al-Bukhari bahwa narasi paling otentik tentang hal ini adalah hadits Awf bin Malik {cite:al-adhkar-nawawi-arnaut-1994 p. 157}. Ia juga menceritakan Dalam Abu Dawood dan Ibn Majah dari Abu Huraira: "Ketika kamu berdoa untuk almarhum, buatlah doa yang tulus untuknya" {cite:al-adhkar-nawawi-arnaut-1994 p. 158}. Ia menyebutkan doa yang dipilih oleh Al-Shafi'i, dan doa untuk anak di mana ia meminta orang tuanya memberikan hadiah, pinjaman, dan harta {cite:al-adhkar-nawawi-arnaut-1994 p. 158} {cite:al-adhkar-nawawi-arnaut-1994 p. 159}. Setelah shalat keempat, tidak wajib menyebutkannya, dan direkomendasikan apa yang dikatakan Al-Shafi'i: "Ya Allah, janganlah mencabut ganjaran-Nya dan janganlah menyebabkan kami diderita setelahnya" {cite:al-adhkar-nawawi-arnaut-1994 p. 159}. Dinawayatkan dari Ibn Abi Awfa dalam Al-Bayhaqi bahwa ia berdiri setelah shalat keempat memohon pengampunan dan memohon serta berkata bahwa Nabi biasa melakukan ini {cite:al-adhkar-nawawi-arnaut-1994 p. 159}. Kemudian ia memberikan dua pengiriman {cite:al-adhkar-nawawi-arnaut-1994 p. 159}, dan masalah yang disebutkan sebelumnya {cite:al-adhkar-nawawi-arnaut-1994 p. 160} selesai.

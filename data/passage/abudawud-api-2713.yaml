@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "2713"
-label: { ar: "سنن أبي داود 2713 — جمع القرآن والمصاحف", en: "Sunan Abi Dawud 2713 — the collection of the Qur'an and the codices", ur: "سنن ابی داؤد 2713 — جمعِ قرآن اور مصاحف", es: "Sunan Abi Dawud 2713 — la colección del Corán y los códices", fr: "Sunan Abi Dawud 2713 — le recueil du Coran et des codex" }
+label: { ar: "سنن أبي داود 2713 — جمع القرآن والمصاحف", en: "Sunan Abi Dawud 2713 — the collection of the Qur'an and the codices", ur: "سنن ابی داؤد 2713 — جمعِ قرآن اور مصاحف", es: "Sunan Abi Dawud 2713 — la colección del Corán y los códices", fr: "Sunan Abi Dawud 2713 — le recueil du Coran et des codex", tr: "Sunan Abi Davud 2713 — Kur'an'ın Derlenmesi ve Kur'an'ın Kopyaları", id: "Sunan Abi Dawud 2713 — Kompilasi Al-Qur'an dan Salinan-salinan Al-Qur'an" }
 text: "… - قَالَ أَبُو دَاوُدَ وَصَالِحٌ هَذَا أَبُو وَاقِدٍ - قَالَ دَخَلْتُ مَعَ مَسْلَمَةَ أَرْضَ الرُّومِ فَأُتِيَ بِرَجُلٍ قَدْ غَلَّ فَسَأَلَ سَالِمًا عَنْهُ فَقَالَ سَمِعْتُ أَبِي يُحَدِّثُ عَنْ عُمَرَ بْنِ الْخَطَّابِ عَنِ النَّبِيِّ قَالَ \" إِذَا وَجَدْتُمُ الرَّجُلَ قَدْ غَلَّ فَأَحْرِقُوا مَتَاعَهُ وَاضْرِبُوهُ \". قَالَ فَوَجَدْنَا فِي مَتَاعِهِ مُصْحَفًا فَسَأَلَ سَالِمًا عَنْهُ فَقَالَ بِعْهُ وَتَصَدَّقْ بِثَمَنِهِ."
 summary:
   ar: "حديث في سنن أبي داود، رقم 2713، يذكر جمع القرآن والمصاحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابی داؤد کی حدیث نمبر 2713، جس میں جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sunan Abi Dawud, n.° 2713 (Yihad (Kitab Al-Jihad)), menciona la colección del Corán y los códices. El catálogo del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
   fr: "Un rapport du Sunan Abi Dawud, n° 2713 (Jihad (Kitab Al-Jihad)), mentionne la collecte du Coran et des codex. Le catalogue du musée consacré à la lecture et à l'écriture du Coran répertorie ces documents avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Sunan Ebu Davud'da yer alan 2713 numaralı hadiste, Kur'an'ın ve el yazmalarının derlenmesinden bahsedilir. Bu hadis, Kur'an okunuşları, yazısı, hat sanatı ve diyakritik işaretleri konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan Abi Dawud, no. 2713, menyebutkan penyusunan Al-Quran dan manuskrip-manuskripnya. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/mushaf, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2713 (book 15 hadith 237); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

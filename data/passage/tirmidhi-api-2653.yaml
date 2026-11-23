@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "2653"
-label: { ar: "جامع الترمذي 2653 — الأب والأبوة", en: "Jami' al-Tirmidhi 2653 — the father and fatherhood", ur: "جامع ترمذی 2653 — باپ اور والدیت", es: "Jami' al-Tirmidhi 2653 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 2653 — le père et la paternité" }
+label: { ar: "جامع الترمذي 2653 — الأب والأبوة", en: "Jami' al-Tirmidhi 2653 — the father and fatherhood", ur: "جامع ترمذی 2653 — باپ اور والدیت", es: "Jami' al-Tirmidhi 2653 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 2653 — le père et la paternité", tr: "Cami' el-Tirmizi 2653 — Baba ve Babalık", id: "Jami' al-Tirmidhi 2653 — Sang Ayah dan Peran Ayah" }
 text: "… الرَّحْمَنِ، أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ صَالِحٍ، حَدَّثَنِي مُعَاوِيَةُ بْنُ صَالِحٍ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ جُبَيْرِ بْنِ نُفَيْرٍ، عَنْ أَبِيهِ، جُبَيْرِ بْنِ نُفَيْرٍ عَنْ أَبِي الدَّرْدَاءِ، قَالَ كُنَّا مَعَ رَسُولِ اللَّهِ فَشَخَصَ بِبَصَرِهِ إِلَى السَّمَاءِ ثُمَّ قَالَ \" هَذَا أَوَانٌ يُخْتَلَسُ الْعِلْمُ مِنَ النَّاسِ حَتَّى لاَ يَقْدِرُوا مِنْهُ عَلَى شَيْءٍ \". فَقَالَ زِيَادُ بْنُ لَبِيدٍ الأَنْصَارِيُّ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 2653، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 2653، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe de Jami' al-Tirmidhi, n.º 2653 (Capítulos sobre el conocimiento), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 2653 (Chapitres sur la science), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Cami' el-Tirmizi'de yer alan 2653 numaralı hadiste baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı bu hadisi Kur'an, Sünnet, biyografi ve konuyla ilgili diğer kitaplardan metinlerle birleştirir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 2653, menyebutkan tentang ayah dan peran ayah. Fitur \"Peran Ayah dalam Islam\" menggabungkan hal ini dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2653 (book 41 hadith 9); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

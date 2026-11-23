@@ -1,0 +1,9 @@
+---
+id: concept/rikaz-fiqh
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/rikaz-fiqh.md}
+---
+## Özet
+'rakaz' terimi, saklandığında 'toprağa gömülü' anlamına gelir. Teknik olarak, çoğu hukukçu arasında, İslam öncesi dönemde halk tarafından gömülen her şeyi ifade eder. Şafi'ler bunu özellikle altın ve gümüşe uygular. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8944} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8945} Çoğunluğa göre 'min' terimi 'rakaz' değildir, Hanafiler ise 'rakaz'ı mineral ve hazine için kullanır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8945} Beşinci terim üzerinde mutabakat yoluyla zorunludur, şöyle der: 'Hums rakazda zorunludur ve çoğunluk için zorunludur, fahillerin çoğunluğu tarafından zorunlu değildir, çoğu hukukçu tarafından da zorunlu değildir. Şafiiler bunu okul mezhebine göre zorunlu kılar. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8949} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8950} Hums, mezhebe göre Müslümanlar, zimmiler, reşit olmayanlar ve akıl hastaları için zorunludur. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8950} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8951} Rakaz çölde veya sahibi olmayan topraklarda bulunursa, humslardan sonra sahibine aittir; eğer mülkiyette bulunursa, çoğunluğa göre toprak sahibine aittir. Ahmed ve Ebu Yusuf bulana şöyle dediler: {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8951} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8952} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8953} Hums, Hanefi, Maliki ve Haneli'ye göre vergidir, zekat ganimet, Şafii'lere göre zekat zekattır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8954} Savaş diyarında mezhebler rekaz üzerindeki hüküm konusunda farklılık gösterir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8953}

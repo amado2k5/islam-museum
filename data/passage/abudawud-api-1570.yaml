@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "1570"
-label: { ar: "سنن أبي داود 1570 — قراءات القرآن", en: "Sunan Abi Dawud 1570 — the readings of the Qur'an", ur: "سنن ابی داؤد 1570 — قرآن کی قراءتیں", es: "Sunan Abi Dawud 1570 — las lecturas del Corán", fr: "Sunan Abi Dawud 1570 — les lectures du Coran" }
+label: { ar: "سنن أبي داود 1570 — قراءات القرآن", en: "Sunan Abi Dawud 1570 — the readings of the Qur'an", ur: "سنن ابی داؤد 1570 — قرآن کی قراءتیں", es: "Sunan Abi Dawud 1570 — las lecturas del Corán", fr: "Sunan Abi Dawud 1570 — les lectures du Coran", tr: "Sünen Ebi Davud 1570 - Kur'an Okumaları", id: "Sunan Abi Dawud 1570 — Bacaan Al-Qur'an" }
 text: "… هَذِهِ نُسْخَةُ كِتَابِ رَسُولِ اللَّهِ الَّذِي كَتَبَهُ فِي الصَّدَقَةِ وَهِيَ عِنْدَ آلِ عُمَرَ بْنِ الْخَطَّابِ قَالَ ابْنُ شِهَابٍ أَقْرَأَنِيهَا سَالِمُ بْنُ عَبْدِ اللَّهِ بْنِ عُمَرَ فَوَعَيْتُهَا عَلَى وَجْهِهَا وَهِيَ الَّتِي انْتَسَخَ عُمَرُ بْنُ عَبْدِ الْعَزِيزِ مِنْ عَبْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ بْنِ عُمَرَ وَسَالِمِ بْنِ عَبْدِ اللَّهِ بْنِ عُمَرَ فَذَكَرَ الْحَدِيثَ قَالَ \" فَإِذَا كَانَتْ …"
 summary:
   ar: "حديث في سنن أبي داود، رقم 1570، يذكر قراءات القرآن. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابی داؤد کی حدیث نمبر 1570، جس میں قرآن کی قراءتیں کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sunan Abi Dawud, n.° 1570 (Zakat (Kitab Al-Zakat)), menciona las lecturas del Corán. El explorador del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
   fr: "Un rapport du Sunan Abi Dawud, n° 1570 (Zakat (Kitab Al-Zakat)), mentionne les lectures du Coran. Le catalogue du musée consacré à la lecture et à la transcription du Coran répertorie ce rapport avec les textes du Coran, la Sunna, la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Sunan Abi Davud'da yer alan 1570 numaralı hadis, Kur'an'ın farklı okunuşlarından bahsetmektedir. Bu hadis, Kur'an okunuşları, yazısı, hat sanatı ve diyakritik işaretleri konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan Abi Dawud, no. 1570, menyebutkan berbagai macam bacaan Al-Quran. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1570 (book 9 hadith 15); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

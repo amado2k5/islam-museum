@@ -1,109 +1,211 @@
 slug: the-house-of-wisdom
 title:
-  ar: "بيت الحكمة"
-  en: "The House of Wisdom"
-  ur: "بیت الحکمت"
-  fr: "La Maison de la sagesse"
+  ar: بيت الحكمة
+  en: The House of Wisdom
+  ur: بیت الحکمت
+  fr: La Maison de la sagesse
+  tr: Bilgelik Evi
+  id: Rumah Kebijaksanaan
 lede:
-  ar: "في بغداد بُنيت أكبر مكتبة ومركز ترجمة في عصرها — في اثنتي عشرة بطاقة."
-  en: "In Baghdad rose the greatest library and translation centre of its age — in twelve cards."
-  ur: "بغداد میں اپنے عہد کی سب سے بڑی لائبریری اور مرکزِ ترجمہ بنا — بارہ کارڈز میں۔"
-  fr: "À Bagdad s’éleva la plus grande bibliothèque et le plus grand centre de traduction de son époque. Son histoire en douze cartes."
-status: { review: published }
-sources: [source/fihrist-ibn-al-nadim, source/tarikh-baghdad-khatib]
-
+  ar: في بغداد بُنيت أكبر مكتبة ومركز ترجمة في عصرها — في اثنتي عشرة بطاقة.
+  en: In Baghdad rose the greatest library and translation centre of its age — in twelve cards.
+  ur: بغداد میں اپنے عہد کی سب سے بڑی لائبریری اور مرکزِ ترجمہ بنا — بارہ کارڈز میں۔
+  fr: À Bagdad s’éleva la plus grande bibliothèque et le plus grand centre de traduction de son époque. Son histoire en douze cartes.
+  tr: Bağdat'ta, dönemin en büyük kütüphanesi ve çeviri merkezi on iki kartta inşa edildi.
+  id: Di Baghdad, perpustakaan dan pusat terjemahan terbesar pada masanya dibangun—dalam dua belas kartu.
+status:
+  review: published
+sources:
+- source/fihrist-ibn-al-nadim
+- source/tarikh-baghdad-khatib
 provenance:
-  generated_by: "Devin"
-  model: "Devin (Cognition)"
-  run: "education-E5-story-cards"
-  source: "تاريخ بغداد للخطيب البغدادي؛ كتب حركة الترجمة — إعادة صياغة بأمانة."
+  generated_by: Devin
+  model: Devin (Cognition)
+  run: education-E5-story-cards
+  source: تاريخ بغداد للخطيب البغدادي؛ كتب حركة الترجمة — إعادة صياغة بأمانة.
   fr:
-    generated_by: "Devin"
-    model: "unknown"
-    run: "devin-a7ba389df57d4bdb9b7515fa59f40242"
-    source: "Existing English text in this activity, with Arabic consulted for religious material."
+    generated_by: Devin
+    model: unknown
+    run: devin-a7ba389df57d4bdb9b7515fa59f40242
+    source: Existing English text in this activity, with Arabic consulted for religious material.
 cards:
-  - title: { ar: "هارون", en: "Harun", ur: "ہارون", fr: "Haroun" }
-    motif: city
-    narration:
-      ar: "بدأ بيت الحكمة في عصر هارون الرشيد خزانة كتب للدولة العباسية."
-      en: "The House of Wisdom began under Harun al-Rashid as the Abbasid state's library."
-      ur: "بیت الحکمت ہارون الرشید کے زمانے میں عباسی حکومت کی کتب خانہ بنا۔"
-      fr: "La Maison de la sagesse vit le jour sous Haroun al-Rachid comme bibliothèque de l’État abbasside."
-  - title: { ar: "المأمون", en: "Al-Ma'mun", ur: "المامون", fr: "Al-Mamoun" }
-    motif: star
-    narration:
-      ar: "في عهد المأمون صار أكبر مركز للعلم والترجمة في الدنيا."
-      en: "Under al-Ma'mun it became the world's greatest centre of learning and translation."
-      ur: "المامون کے زمانے میں یہ دنیا کا سب سے بڑا علم و ترجمہ مرکز بنا۔"
-      fr: "Sous al-Mamoun, elle devint le plus grand centre de savoir et de traduction du monde."
-  - title: { ar: "الرؤيا", en: "The dream", ur: "خواب", fr: "Le rêve" }
-    motif: moon
-    narration:
-      ar: "يُروى أن المأمون رأى شيخاً أرسطو في المنام فأقبل على الفلسفة."
-      en: "It is told that al-Ma'mun saw Aristotle in a dream and turned to philosophy."
-      ur: "کہا جاتا ہے کہ مامون نے خواب میں ارسطو دیکھا اور فلسفہ کی طرف مائل ہوا۔"
-      fr: "On raconte qu’al-Mamoun vit Aristote en rêve et se tourna vers la philosophie."
-  - title: { ar: "الترجمة", en: "The translation", ur: "ترجمہ", fr: "Les traductions" }
-    motif: book
-    narration:
-      ar: "أمر بترجمة كتب اليونان والفرس والهند إلى العربية."
-      en: "He ordered the books of the Greeks, Persians and Indians translated into Arabic."
-      ur: "انہوں نے یونانی، فارسی اور ہندوستانی کتابوں کا عربی میں ترجمہ کرایا۔"
-      fr: "Il ordonna de faire traduire en arabe les livres des Grecs, des Persans et des Indiens."
-  - title: { ar: "حنين", en: "Hunayn", ur: "حنین", fr: "Hounayn" }
-    motif: pen
-    narration:
-      ar: "حنين بن إسحاق أعظم المترجمين: يقرأ اليونانية ويكتبها عربية بلا خطأ."
-      en: "Hunayn ibn Ishaq was the greatest translator — he read Greek and wrote flawless Arabic."
-      ur: "حنین بن اسحاق عظیم ترین مترجم تھے — یونانی پڑھتے اور بے خطا عربی لکھتے۔"
-      fr: "Hounayn ibn Ishaq était le plus grand des traducteurs : il lisait le grec et écrivait un arabe impeccable."
-  - title: { ar: "الذهب", en: "The gold", ur: "سونہ", fr: "L’or" }
-    motif: coin
-    narration:
-      ar: "يُروى أنه كان يعطى وزن الكتب ذهباً أجراً للترجمة."
-      en: "It is told that he was paid the weight of his books in gold for translations."
-      ur: "کہا جاتا ہے کہ ترجمہ کے عوض کتابوں کے وزن برابر سونہ دیا جاتا۔"
-      fr: "On raconte qu’en échange de ses traductions, il recevait le poids de ses livres en or."
-  - title: { ar: "القانون", en: "The Canon", ur: "قانون", fr: "Les grands textes" }
-    motif: manuscript
-    narration:
-      ar: "ترجم أعمال جالينوس وأبقراط وأرسطو، فصار الطب والفلسفة عربية."
-      en: "He translated Galen, Hippocrates and Aristotle, so medicine and philosophy became Arabic."
-      ur: "انہوں نے جالینوس، بقراط اور ارسطو ترجمہ کیے تو طب اور فلسفہ عربی ہو گئے۔"
-      fr: "Il traduisit Galien, Hippocrate et Aristote, rendant ainsi la médecine et la philosophie accessibles en arabe."
-  - title: { ar: "الفلك", en: "The stars", ur: "فلکیات", fr: "Les étoiles" }
-    motif: compass
-    narration:
-      ar: "في بيت الحكمة قيسوا السماوات ورصدوا النجوم وصنعوا الأسطرلابات."
-      en: "In the House they measured the heavens, observed the stars and built astrolabes."
-      ur: "بیت الحکمت میں آسمان ناپے گئے، ستارے دیکھے گئے اور اسطرلاب بنے۔"
-      fr: "À la Maison de la sagesse, on mesurait le ciel, on observait les étoiles et on construisait des astrolabes."
-  - title: { ar: "الزيج", en: "The tables", ur: "زیج", fr: "Les tables" }
-    motif: book
-    narration:
-      ar: "كتب الخوارزمي الزيج الأول العربي: جداول السماوات."
-      en: "Al-Khwarizmi wrote the first Arabic zij — tables of the heavens."
-      ur: "خوارزمی نے پہلا عربی زیج لکھا — آسمانوں کی جدول۔"
-      fr: "Al-Khwarizmi écrivit le premier zij en arabe, un ensemble de tables astronomiques."
-  - title: { ar: "الدار", en: "The open house", ur: "کھلا گھر", fr: "Une maison ouverte" }
-    motif: mosque
-    narration:
-      ar: "لم تكن مكتبة حكومية فقط؛ كانت دار علم لمن جاء يتعلم ويترجم."
-      en: "It was not only a state library — it was a house of learning open to every scholar."
-      ur: "یہ صرف سرکاری کتب خانہ نہ تھا بلکہ ہر طالبِ علم کے لیے کھلا مرکز تھا۔"
-      fr: "Plus qu’une bibliothèque d’État, c’était un lieu d’étude ouvert à tous les savants."
-  - title: { ar: "النار", en: "The burning", ur: "آگ", fr: "La destruction" }
-    motif: mountain
-    narration:
-      ar: "في عام 1258م دخل هولاكو بغداد فألقيت الكتب في دجلة فسودّ الماء بالحبر."
-      en: "In 1258 Hulagu took Baghdad; the books were thrown into the Tigris until its water ran black with ink."
-      ur: "1258ء میں ہلاکو بغداد میں داخل ہوا؛ کتابیں دجلہ میں ڈالی گئیں یہاں تک پانی سیاہ ہو گیا۔"
-      fr: "En 1258, Houlagou prit Bagdad. Les livres furent jetés dans le Tigre, dont l’eau devint noire d’encre, raconte-t-on."
-  - title: { ar: "الإرث", en: "The legacy", ur: "میراث", fr: "L’héritage" }
-    motif: star
-    narration:
-      ar: "بقي نتاجها: مئات الكتب ترجمت وحرّكت علوم أوروبا قروناً بعدها."
-      en: "Its legacy remains: hundreds of translated books that moved Europe's sciences for centuries."
-      ur: "اس کی میراث باقی ہے: سیکڑوں ترجمہ کتابیں جنہوں نے صدیوں یورپ کے علوم چلائے۔"
-      fr: "Des centaines d’ouvrages traduits nous en restent : pendant des siècles, ils ont fait avancer les sciences en Europe."
+- title:
+    ar: هارون
+    en: Harun
+    ur: ہارون
+    fr: Haroun
+    tr: Aaron
+    id: Aaron
+  motif: city
+  narration:
+    ar: بدأ بيت الحكمة في عصر هارون الرشيد خزانة كتب للدولة العباسية.
+    en: The House of Wisdom began under Harun al-Rashid as the Abbasid state's library.
+    ur: بیت الحکمت ہارون الرشید کے زمانے میں عباسی حکومت کی کتب خانہ بنا۔
+    fr: La Maison de la sagesse vit le jour sous Haroun al-Rachid comme bibliothèque de l’État abbasside.
+    tr: Bilgelik Evi, Abbasi devleti için kitap kütüphanesi olan Harun el-Raşid döneminde başladı.
+    id: Rumah Kebijaksanaan dimulai pada era Harun al-Rashid, sebuah perpustakaan buku untuk negara Abbasiyah.
+- title:
+    ar: المأمون
+    en: Al-Ma'mun
+    ur: المامون
+    fr: Al-Mamoun
+    tr: Al-Ma'mun
+    id: Al-Ma'mun
+  motif: star
+  narration:
+    ar: في عهد المأمون صار أكبر مركز للعلم والترجمة في الدنيا.
+    en: Under al-Ma'mun it became the world's greatest centre of learning and translation.
+    ur: المامون کے زمانے میں یہ دنیا کا سب سے بڑا علم و ترجمہ مرکز بنا۔
+    fr: Sous al-Mamoun, elle devint le plus grand centre de savoir et de traduction du monde.
+    tr: Al-Ma'mun döneminde, dünyanın en büyük bilgi ve çeviri merkezi haline geldi.
+    id: Selama masa pemerintahan al-Ma'mun, kota ini menjadi pusat pengetahuan dan terjemahan terbesar di dunia.
+- title:
+    ar: الرؤيا
+    en: The dream
+    ur: خواب
+    fr: Le rêve
+    tr: Vizyon
+    id: Visi
+  motif: moon
+  narration:
+    ar: يُروى أن المأمون رأى شيخاً أرسطو في المنام فأقبل على الفلسفة.
+    en: It is told that al-Ma'mun saw Aristotle in a dream and turned to philosophy.
+    ur: کہا جاتا ہے کہ مامون نے خواب میں ارسطو دیکھا اور فلسفہ کی طرف مائل ہوا۔
+    fr: On raconte qu’al-Mamoun vit Aristote en rêve et se tourna vers la philosophie.
+    tr: Al-Ma'mun'un bir rüyada Aristoteles adında yaşlı bir adamı gördüğü ve felsefeye yöneldiği anlatılır.
+    id: Diceritakan bahwa Al-Ma'mun melihat seorang pria tua bernama Aristoteles dalam mimpi dan beralih ke filsafat.
+- title:
+    ar: الترجمة
+    en: The translation
+    ur: ترجمہ
+    fr: Les traductions
+    tr: Çeviri
+    id: Terjemahan
+  motif: book
+  narration:
+    ar: أمر بترجمة كتب اليونان والفرس والهند إلى العربية.
+    en: He ordered the books of the Greeks, Persians and Indians translated into Arabic.
+    ur: انہوں نے یونانی، فارسی اور ہندوستانی کتابوں کا عربی میں ترجمہ کرایا۔
+    fr: Il ordonna de faire traduire en arabe les livres des Grecs, des Persans et des Indiens.
+    tr: Yunanistan, İran ve Hindistan'dan kitapların Arapçaya çevrilmesini emretti.
+    id: Ia memerintahkan penerjemahan buku-buku dari Yunani, Persia, dan India ke dalam bahasa Arab.
+- title:
+    ar: حنين
+    en: Hunayn
+    ur: حنین
+    fr: Hounayn
+    tr: nostalji
+    id: nostalgia
+  motif: pen
+  narration:
+    ar: 'حنين بن إسحاق أعظم المترجمين: يقرأ اليونانية ويكتبها عربية بلا خطأ.'
+    en: Hunayn ibn Ishaq was the greatest translator — he read Greek and wrote flawless Arabic.
+    ur: حنین بن اسحاق عظیم ترین مترجم تھے — یونانی پڑھتے اور بے خطا عربی لکھتے۔
+    fr: 'Hounayn ibn Ishaq était le plus grand des traducteurs : il lisait le grec et écrivait un arabe impeccable.'
+    tr: 'Hunayn ibn İshaq, en büyük çevirmen: Yunanca''yı Arapça hatasız okur ve yazar.'
+    id: 'Hunayn ibn Ishaq, penerjemah terbesar: Ia membaca dan menulis bahasa Yunani dalam bahasa Arab tanpa kesalahan.'
+- title:
+    ar: الذهب
+    en: The gold
+    ur: سونہ
+    fr: L’or
+    tr: Altın
+    id: Emas
+  motif: coin
+  narration:
+    ar: يُروى أنه كان يعطى وزن الكتب ذهباً أجراً للترجمة.
+    en: It is told that he was paid the weight of his books in gold for translations.
+    ur: کہا جاتا ہے کہ ترجمہ کے عوض کتابوں کے وزن برابر سونہ دیا جاتا۔
+    fr: On raconte qu’en échange de ses traductions, il recevait le poids de ses livres en or.
+    tr: Kitapların ağırlığına çeviri ücreti olarak altın verildiği söylenir.
+    id: Dikatakan bahwa berat buku diberikan emas sebagai upah untuk terjemahan.
+- title:
+    ar: القانون
+    en: The Canon
+    ur: قانون
+    fr: Les grands textes
+    tr: Hukuk
+    id: Hukum
+  motif: manuscript
+  narration:
+    ar: ترجم أعمال جالينوس وأبقراط وأرسطو، فصار الطب والفلسفة عربية.
+    en: He translated Galen, Hippocrates and Aristotle, so medicine and philosophy became Arabic.
+    ur: انہوں نے جالینوس، بقراط اور ارسطو ترجمہ کیے تو طب اور فلسفہ عربی ہو گئے۔
+    fr: Il traduisit Galien, Hippocrate et Aristote, rendant ainsi la médecine et la philosophie accessibles en arabe.
+    tr: Galen, Hipokrat ve Aristoteles'in eserlerini çevirerek tıbbı ve felsefeyi Arapçaya dönüştürdü.
+    id: Ia menerjemahkan karya Galen, Hippocrates, dan Aristoteles, sehingga mengubah kedokteran dan filsafat menjadi bahasa Arab.
+- title:
+    ar: الفلك
+    en: The stars
+    ur: فلکیات
+    fr: Les étoiles
+    tr: Astronomi
+    id: Astronomi
+  motif: compass
+  narration:
+    ar: في بيت الحكمة قيسوا السماوات ورصدوا النجوم وصنعوا الأسطرلابات.
+    en: In the House they measured the heavens, observed the stars and built astrolabes.
+    ur: بیت الحکمت میں آسمان ناپے گئے، ستارے دیکھے گئے اور اسطرلاب بنے۔
+    fr: À la Maison de la sagesse, on mesurait le ciel, on observait les étoiles et on construisait des astrolabes.
+    tr: Bilgelik Evi'nde gökyüzünü ölçtüler, yıldızları gözlemlediler ve astrolabları yaptılar.
+    id: Di Rumah Kebijaksanaan, mereka mengukur langit, mengamati bintang-bintang, dan membuat astrolabe.
+- title:
+    ar: الزيج
+    en: The tables
+    ur: زیج
+    fr: Les tables
+    tr: Azij
+    id: Azij
+  motif: book
+  narration:
+    ar: 'كتب الخوارزمي الزيج الأول العربي: جداول السماوات.'
+    en: Al-Khwarizmi wrote the first Arabic zij — tables of the heavens.
+    ur: خوارزمی نے پہلا عربی زیج لکھا — آسمانوں کی جدول۔
+    fr: Al-Khwarizmi écrivit le premier zij en arabe, un ensemble de tables astronomiques.
+    tr: 'Al-Khwarizmi, ilk Arapça Zij: Gökyüzü Tabloları''nı yazdı.'
+    id: 'Al-Khwarizmi menulis Zij Arab pertama: Tabel Langit.'
+- title:
+    ar: الدار
+    en: The open house
+    ur: کھلا گھر
+    fr: Une maison ouverte
+    tr: Ev
+    id: Rumah
+  motif: mosque
+  narration:
+    ar: لم تكن مكتبة حكومية فقط؛ كانت دار علم لمن جاء يتعلم ويترجم.
+    en: It was not only a state library — it was a house of learning open to every scholar.
+    ur: یہ صرف سرکاری کتب خانہ نہ تھا بلکہ ہر طالبِ علم کے لیے کھلا مرکز تھا۔
+    fr: Plus qu’une bibliothèque d’État, c’était un lieu d’étude ouvert à tous les savants.
+    tr: Sadece bir devlet kütüphanesi değildi; öğrenmeye ve çeviri yapmaya gelenler için bilgi yeriydi.
+    id: Itu bukan hanya perpustakaan pemerintah; itu adalah tempat pengetahuan bagi mereka yang datang untuk belajar dan menerjemahkan.
+- title:
+    ar: النار
+    en: The burning
+    ur: آگ
+    fr: La destruction
+    tr: Ateş
+    id: Kebakaran
+  motif: mountain
+  narration:
+    ar: في عام 1258م دخل هولاكو بغداد فألقيت الكتب في دجلة فسودّ الماء بالحبر.
+    en: In 1258 Hulagu took Baghdad; the books were thrown into the Tigris until its water ran black with ink.
+    ur: 1258ء میں ہلاکو بغداد میں داخل ہوا؛ کتابیں دجلہ میں ڈالی گئیں یہاں تک پانی سیاہ ہو گیا۔
+    fr: En 1258, Houlagou prit Bagdad. Les livres furent jetés dans le Tigre, dont l’eau devint noire d’encre, raconte-t-on.
+    tr: 1258 yılında Hulagu Bağdat'a girdi ve kitaplar Dicle'e atıldı, su mürekkeple karardı.
+    id: Pada tahun 1258 M, Hulagu memasuki Baghdad, dan buku-buku dilemparkan ke Sungai Tigris, menyebabkan airnya menjadi hitam karena tinta.
+- title:
+    ar: الإرث
+    en: The legacy
+    ur: میراث
+    fr: L’héritage
+    tr: Miras
+    id: Warisan
+  motif: star
+  narration:
+    ar: 'بقي نتاجها: مئات الكتب ترجمت وحرّكت علوم أوروبا قروناً بعدها.'
+    en: 'Its legacy remains: hundreds of translated books that moved Europe''s sciences for centuries.'
+    ur: 'اس کی میراث باقی ہے: سیکڑوں ترجمہ کتابیں جنہوں نے صدیوں یورپ کے علوم چلائے۔'
+    fr: 'Des centaines d’ouvrages traduits nous en restent : pendant des siècles, ils ont fait avancer les sciences en Europe.'
+    tr: 'Eserleri devam etti: yüzlerce kitap çevrildi ve yüzyıllar boyunca Avrupa bilimlerini taşıdı.'
+    id: 'Karyanya tetap ada: ratusan buku diterjemahkan dan menggerakkan ilmu pengetahuan Eropa selama berabad-abad setelahnya.'

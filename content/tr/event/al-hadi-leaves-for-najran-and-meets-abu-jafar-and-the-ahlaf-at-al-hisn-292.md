@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-leaves-for-najran-and-meets-abu-jafar-and-the-ahlaf-at-al-hisn-292
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/al-hadi-leaves-for-najran-and-meets-abu-jafar-and-the-ahlaf-at-al-hisn-292.md}
+---
+## Özet
+Anlatıcı, Vadi'ah'ın Muhammed bin Ubeyd Allah ile toplandığını, onlarla birlikte kaleye yürüdüğünü, burada Şakir, Thakvif ile karşılaştığını ve Vadi'ah ile ittifak kurarak ona destek olduğunu ve yanında durduğunu söyler. Sonra Vadi'i ile birlikte yerine döndü. Banu el-Haris bunu duyunca, umduklarından koptu ve beklediklerini geride bıraktı {cite:sira-hadi-ila-al-haqq p.290}. Sonra, "Pazar günü, Recep'ten dört gün önce," el-Hadi Necran'a doğru yola çıktı {cite:sira-hadi-ila-al-haqq p.290}.
+
+## Detaylar
+Bu pasajın başlığı "Hakikatın Rehberinin Necran Yolculuğu"dur: Vadinin zirvesine ulaştığında, Vadi'iyyin grubunda Muhammed bin Ubeyd Allah ile karşılaştı, sonra kaleye ulaşana kadar yürüdü ve geceyi orada geçirdi {cite:sira-hadi-ila-al-haqq p.290}. Sabah saatlerinde, müttefikler ve Necran'da yaşayanlar ona gelip Muhammed bin Ubeydallah'a karşı Banu el-Haris ve Yam çölü ile birlikte toplandıkları için özür dilediler ve onları korkuttuklarını bildirdiler. Onları affetti, hatalarını affetti ve o gün kaldı ve çöl ona şükretti {cite:sira-hadi-ila-al-haqq p.290}. Tarih tablo takviminden alınmıştır: 292 Hicri yılının Rajab'ının dördüncüsü, Jülyen takvimine göre 12 Mayıs 905'e karşılık gelir ve metinde belirtildiği gibi Pazar gününe karşılık gelir. Burada, önceki bazı partilerin aksine iki takvim arasında bir fark yoktur; 292 yılı, Cumada-elvel Savaşı'ndan sonraki anlatım bağlamından alınmıştır. Buradaki anlatım, İmam destekçilerinin sözleriyle yazılmış olup, bu bir Zeydi kitabıdır ve müze bunu yargılamadan anlatır. El-Hüsn, Thakif, Şakir ve Vadi'ah'ın önceki sıralaması [[event/the-abd-al-madan-march-on-minas-and-the-fight-at-its-two-gates-292|, önceki grup]] ve [[event/ali-and-al-qasim-sons-of-muhammad-ibn-ubaydallah-ask-shakir-thaqif-and-wadia-for-aid-292|oğulları Şakir, Thaqif ve Wadi'ah'ın davetiyle]] sunulmaktadır. El-Hüsn'ün yeri bu sayfaların metinlerinde belirtilmemiştir ve coğrafi kaynak talep edildiğinde kayıtlara geçmektedir.

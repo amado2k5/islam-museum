@@ -4,10 +4,12 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani]
 work: work/muwatta-malik
 ref: "1146"
-label: { ar: "الموطأ 1146 — نافع عن ابن عمر: المرأة المحرمة إذا حلت لا تمتشط حتى تأخذ من قرون رأسها", en: "Muwatta 1146", es: "Muwatta 1146", fr: "Muwatta 1146", ur: "موطا 1146" }
+label: { ar: "الموطأ 1146 — نافع عن ابن عمر: المرأة المحرمة إذا حلت لا تمتشط حتى تأخذ من قرون رأسها", en: "Muwatta 1146", es: "Muwatta 1146", fr: "Muwatta 1146", ur: "موطا 1146", tr: "El-Muvatta 1146 — İbn Ömer'den rivayet edildiğine göre Nafi': İhramlı bir kadın, ihramdan kurtulduktan sonra saçının bir kısmını kesmeden saçını taramamalıdır.", id: "Al-Muwatta 1146 — Diriwayatkan oleh Nafi’ dari Ibnu Umar: Seorang wanita yang sedang ihram, setelah selesai ihram, tidak boleh menyisir rambutnya sampai ia memotong sebagian helai rambutnya." }
 text: "لم تَمْتَشِطْ، حتَّى تأخُذَ من قُرونِ رأسِها"
 summary:
   ar: "يروي مالك عن نافع أن ابن عمر كان يقول إن المرأة المحرمة إذا حلت لا تمتشط حتى تأخذ من قرون رأسها، وإن كان معها هدي فلا تأخذ من شعرها شيئا حتى تنحر هديها. {cite:muwatta-maruf-1997 p.519}"
+  tr: "Malik, Nafi'den rivayetle İbn Ömer'in şöyle dediğini aktarır: İhramda olan bir kadın, ihramdan çıktıktan sonra saçının bir kısmını kesmeden taramamalıdır. Yanında kurbanlık hayvan varsa, kurbanını kesmeden saçının hiçbir kısmını kesmemelidir. {cite:muwatta-maruf-1997 s.519}"
+  id: "Malik meriwayatkan dari Nafi’ bahwa Ibnu Umar biasa berkata bahwa seorang wanita yang sedang ihram, setelah keluar dari ihram, tidak boleh menyisir rambutnya sampai ia memotong sebagian rambutnya. Dan jika ia membawa hewan kurban, ia tidak boleh memotong rambutnya sampai ia menyembelih hewan kurbannya. {cite:muwatta-maruf-1997 p.519}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
   - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }

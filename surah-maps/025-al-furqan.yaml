@@ -1,37 +1,90 @@
 surah: 25
 slug: al-furqan
 sources_consulted:
-  - "kuttab.com — Surah Al-Furqan mind map (4 blocks: 1-20, 21-44, 45-62, 63-77)"
-  - "Standard thematic divisions (cross-checked)"
+- 'kuttab.com — Surah Al-Furqan mind map (4 blocks: 1-20, 21-44, 45-62, 63-77)'
+- Standard thematic divisions (cross-checked)
 map:
-  - title: { ar: "اعتراضات المشركين", en: "The Polytheists' Objections" }
-    range: [1, 20]
-    family: faith
-    summary:
-      ar: "تبارك الذي نزل الفرقان، واعتراضاتهم: يأكل الطعام ويمشي في الأسواق، والرد بأن الرسل قبلهم كذلك."
-      en: "Blessed who sent the Criterion; their objections — he eats, walks markets — answered: messengers before were the same."
-    children: []
-  - title: { ar: "يوم يرون الملائكة", en: "The Day They See the Angels" }
-    range: [21, 44]
-    family: faith
-    summary:
-      ar: "طلبهم رؤية الملائكة، وندم من اتخذ خليلا مضلا، وهجر القرآن، ومن اتخذ إلهه هواه."
-      en: "Their demand to see angels; the regret of whoever took a misleading friend; abandoning the Quran; desire as god."
-    children:
-      - { title: { ar: "ندم الخليل المضل", en: "Regretting the Misleading Friend" }, range: [27, 29] }
-  - title: { ar: "آيات الكون", en: "The Cosmic Signs" }
-    range: [45, 62]
-    family: faith
-    summary:
-      ar: "الظل والليل لباسا والنوم سباتا، والرياح والماء الطهور، ومرج البحرين، والسماء ببروجها."
-      en: "The shade, night as garment, sleep as rest, winds, pure water, the two seas met, the sky with constellations."
-    children:
-      - { title: { ar: "الظل", en: "The Shade" }, range: [45, 46] }
-      - { title: { ar: "مرج البحرين", en: "The Two Seas Met" }, range: [53, 53] }
-  - title: { ar: "عباد الرحمن", en: "The Servants of the Merciful" }
-    range: [63, 77]
-    family: faith
-    summary:
-      ar: "صفات عباد الرحمن: التواضع، والاقتصاد في الإنفاق، وقيام الليل، واجتناب الكبائر، ودعاؤهم الخاتم."
-      en: "The Merciful's servants: humility, balanced spending, night prayer, shunning grave sins, their closing supplication."
-    children: []
+- title:
+    ar: اعتراضات المشركين
+    en: The Polytheists' Objections
+    tr: Çoktanrılıların itirazları
+    id: Keberatan para politeis
+  range:
+  - 1
+  - 20
+  family: faith
+  summary:
+    ar: 'تبارك الذي نزل الفرقان، واعتراضاتهم: يأكل الطعام ويمشي في الأسواق، والرد بأن الرسل قبلهم كذلك.'
+    en: 'Blessed who sent the Criterion; their objections — he eats, walks markets — answered: messengers before were the same.'
+    tr: 'Furqan''ı indiren ve onların itirazlarını indiren kutsanmıştır: Yemek yer, pazarlarda yürür ve karşılık olarak, önlerindeki elçilerin de böyle olduğu söylenir.'
+    id: 'Berbahagialah Dia yang mengutus Furqan, dan keberatan mereka: Dia makan dan berjalan di pasar, dan jawabannya adalah utusan di hadapan mereka seperti itu.'
+  children: []
+- title:
+    ar: يوم يرون الملائكة
+    en: The Day They See the Angels
+    tr: Melekleri gördükleri gün
+    id: Hari mereka melihat para malaikat
+  range:
+  - 21
+  - 44
+  family: faith
+  summary:
+    ar: طلبهم رؤية الملائكة، وندم من اتخذ خليلا مضلا، وهجر القرآن، ومن اتخذ إلهه هواه.
+    en: Their demand to see angels; the regret of whoever took a misleading friend; abandoning the Quran; desire as god.
+    tr: Melekleri görme arzuları, yanlış yola sapmış bir dost alıp Kur'an'ı terk edenlerin ve arzularını tanrı olarak görenlerin pişmanlığı.
+    id: Keinginan mereka untuk bertemu malaikat, penyesalan mereka yang mengambil teman yang tersesat, meninggalkan Al-Qur'an, dan mereka yang menganggap keinginan itu sebagai dewa.
+  children:
+  - title:
+      ar: ندم الخليل المضل
+      en: Regretting the Misleading Friend
+      tr: Yanlış Yönlendirilmiş Hebron'un Pişmanlığı
+      id: Penyesalan Hebron yang Tersesat
+    range:
+    - 27
+    - 29
+- title:
+    ar: آيات الكون
+    en: The Cosmic Signs
+    tr: Evrenin Dizeleri
+    id: Ayat-ayat Alam Semesta
+  range:
+  - 45
+  - 62
+  family: faith
+  summary:
+    ar: الظل والليل لباسا والنوم سباتا، والرياح والماء الطهور، ومرج البحرين، والسماء ببروجها.
+    en: The shade, night as garment, sleep as rest, winds, pure water, the two seas met, the sky with constellations.
+    tr: Gölge ve gece giysi, uyku uykudur, rüzgar ve su saftır, Bahreyn'in çayırı ve gökyüzü kuleleriyle.
+    id: Naungan dan malam adalah pakaian, tidur adalah tidur, angin dan air murni, padang rumput Bahrain, dan langit dengan menara-menaranya.
+  children:
+  - title:
+      ar: الظل
+      en: The Shade
+      tr: Gölge
+      id: Bayangan
+    range:
+    - 45
+    - 46
+  - title:
+      ar: مرج البحرين
+      en: The Two Seas Met
+      tr: Marj Al Bahreyn
+      id: Marj Al Bahrain
+    range:
+    - 53
+    - 53
+- title:
+    ar: عباد الرحمن
+    en: The Servants of the Merciful
+    tr: Abdurrahman
+    id: Abdurrahman
+  range:
+  - 63
+  - 77
+  family: faith
+  summary:
+    ar: 'صفات عباد الرحمن: التواضع، والاقتصاد في الإنفاق، وقيام الليل، واجتناب الكبائر، ودعاؤهم الخاتم.'
+    en: 'The Merciful''s servants: humility, balanced spending, night prayer, shunning grave sins, their closing supplication.'
+    tr: 'En Merhametli''nin hizmetkârlarının özellikleri: alçakgönüllülük, harcamada tutumluluk, gece namazları, büyük günahlardan kaçınma ve son dilekleri.'
+    id: 'Kualitas hamba Yang Maha Penyayang: rendah hati, hemat dalam pengeluaran, doa malam, menghindari dosa besar, dan permohonan terakhir mereka.'
+  children: []

@@ -4,10 +4,12 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/abdallah-ibn-dinar, person/abdullah-ibn-umar, person/muhammad]
 work: work/muwatta-malik
 ref: "1999"
-label: { ar: "الموطأ 1999 — يحيى عن مالك عن عبد الله بن دينار عن ابن عمر: ذكر رجل للنبي أنه يخدع في البيوع، فقال: إذا بايعت فقل لا خلابة", en: "Muwatta 1999", es: "Muwatta 1999", fr: "Muwatta 1999", ur: "موطا 1999" }
+label: { ar: "الموطأ 1999 — يحيى عن مالك عن عبد الله بن دينار عن ابن عمر: ذكر رجل للنبي أنه يخدع في البيوع، فقال: إذا بايعت فقل لا خلابة", en: "Muwatta 1999", es: "Muwatta 1999", fr: "Muwatta 1999", ur: "موطا 1999", tr: "El-Muvatta 1999 — Yahya, Malik'ten, o da Abdullah bin Dinar'dan, o da İbn Ömer'den rivayetle: Bir adam Peygamberimize satışlarda aldatıldığını söyledi. Bunun üzerine Peygamberimiz şöyle buyurdu: \"Satış yaparken, 'Aldatma yok' deyin.\"", id: "Al-Muwatta 1999 — Yahya berdasarkan riwayat Malik berdasarkan riwayat Abdullah bin Dinar berdasarkan riwayat Ibnu Umar: Seorang pria bercerita kepada Nabi bahwa ia ditipu dalam jual beli, lalu beliau bersabda: Ketika kamu melakukan jual beli, ucapkanlah: Tidak ada penipuan" }
 text: "إذا بَايَعْتَ فَقُلْ لَاَ خِلَابةَ"
 summary:
   ar: "يروي يحيى عن مالك عن عبد الله بن دينار عن عبد الله بن عمر أن رجلا ذكر لرسول الله أنه يخدع في البيوع، فقال رسول الله: إذا بايعت فقل: لا خلابة. فكان الرجل إذا بايع يقول: لا خلابة. {cite:muwatta-maruf-1997 p.218}"
+  tr: "Yahya, Malik'ten, o da Abdullah ibn Dinar'dan, o da Abdullah ibn Ömer'den rivayet eder ki, bir adam Allah'ın Resulü'ne satış işlemlerinde aldatıldığını söylemiştir. Allah'ın Resulü şöyle buyurmuştur: \"Satış yaparken, 'Aldatma yok' de.\" Bunun üzerine adam, her satış yaptığında \"Aldatma yok\" demeye başlamıştır. {cite:muwatta-maruf-1997 s.218}"
+  id: "Yahya meriwayatkan dari Malik, dari Abdullah ibn Dinar, dari Abdullah ibn Umar, bahwa seorang pria bercerita kepada Rasulullah bahwa ia ditipu dalam transaksi jual beli. Rasulullah SAW bersabda: \"Ketika kamu melakukan jual beli, ucapkanlah: 'Tidak ada penipuan.'\" Maka pria itu pun mengucapkan, setiap kali ia melakukan jual beli: \"Tidak ada penipuan.\" {cite:muwatta-maruf-1997 p.218}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
   - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }

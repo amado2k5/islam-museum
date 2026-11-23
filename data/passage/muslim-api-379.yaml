@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "379"
-label: { ar: "صحيح مسلم 379 — ما خلّفه من تركة وميراث", en: "Sahih Muslim 379 — what was left behind: estate and inheritance", ur: "صحیح مسلم 379 — ترکہ اور میراث", es: "Sahih Muslim 379 — Lo que quedó: patrimonio y herencia", fr: "Sahih Muslim 379 — Ce qui a été laissé derrière: biens et héritage" }
+label: { ar: "صحيح مسلم 379 — ما خلّفه من تركة وميراث", en: "Sahih Muslim 379 — what was left behind: estate and inheritance", ur: "صحیح مسلم 379 — ترکہ اور میراث", es: "Sahih Muslim 379 — Lo que quedó: patrimonio y herencia", fr: "Sahih Muslim 379 — Ce qui a été laissé derrière: biens et héritage", tr: "Sahih Muslim 379 — Ardında bıraktığı miras ve vasiyet", id: "Sahih Muslim 379 — Apa yang ditinggalkan olehnya berupa warisan dan peninggalan" }
 text: "… بْنُ سَعْدِ بْنِ أَبِي وَقَّاصٍ، عَنْ أَبِيهِ، سَعْدٍ أَنَّ رَسُولَ اللَّهِ أَعْطَى رَهْطًا وَسَعْدٌ جَالِسٌ فِيهِمْ قَالَ سَعْدٌ فَتَرَكَ رَسُولُ اللَّهِ مِنْهُمْ مَنْ لَمْ يُعْطِهِ وَهُوَ أَعْجَبُهُمْ إِلَىَّ فَقُلْتُ يَا رَسُولَ اللَّهِ مَا لَكَ عَنْ فُلاَنٍ فَوَاللَّهِ إِنِّي لأَرَاهُ مُؤْمِنًا. فَقَالَ رَسُولُ اللَّهِ \" أَوْ مُسْلِمًا \". قَالَ فَسَكَتُّ قَلِيلاً ثُمَّ غَلَبَنِي مَا أَعْلَمُ مِنْهُ …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 379، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 379، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.º 379 (El Libro de la Fe), menciona lo que quedó tras de sí: bienes y herencia. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
   fr: "Un hadith du Sahih Muslim, n° 379 (Le Livre de la Foi), mentionne les biens et l'héritage laissés après la mort. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Sahih Müslim'de 379 numaralı hadis, Peygamberin geride bıraktığı mal varlığı ve miras hakkında bilgi vermektedir. Bu derleme, vasiyetnameler, miras, kutsal emanetler ve türbeler konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birlikte hazırlanmıştır."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 379, menyebutkan apa yang ditinggalkan beliau berupa harta warisan. Informasi ini disusun oleh seorang peneliti yang ahli dalam wasiat, warisan, peninggalan, dan makam suci, beserta teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 379 (book 1 hadith 286); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

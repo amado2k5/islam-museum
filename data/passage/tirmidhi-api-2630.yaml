@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "2630"
-label: { ar: "جامع الترمذي 2630 — الأب والأبوة", en: "Jami' al-Tirmidhi 2630 — the father and fatherhood", ur: "جامع ترمذی 2630 — باپ اور والدیت", es: "Jami' al-Tirmidhi 2630 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 2630 — le père et la paternité" }
+label: { ar: "جامع الترمذي 2630 — الأب والأبوة", en: "Jami' al-Tirmidhi 2630 — the father and fatherhood", ur: "جامع ترمذی 2630 — باپ اور والدیت", es: "Jami' al-Tirmidhi 2630 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 2630 — le père et la paternité", tr: "Cami' el-Tirmizi 2630 — Baba ve Babalık", id: "Jami' al-Tirmidhi 2630 — Sang Ayah dan Peran Ayah" }
 text: "… إِسْمَاعِيلُ بْنُ أَبِي أُوَيْسٍ، حَدَّثَنِي كَثِيرُ بْنُ عَبْدِ اللَّهِ بْنِ عَمْرِو بْنِ عَوْفِ بْنِ زَيْدِ بْنِ مِلْحَةَ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، أَنَّ رَسُولَ اللَّهِ قَالَ \" إِنَّ الدِّينَ لَيَأْرِزُ إِلَى الْحِجَازِ كَمَا تَأْرِزُ الْحَيَّةُ إِلَى جُحْرِهَا وَلَيَعْقِلَنَّ الدِّينُ مِنَ الْحِجَازِ مَعْقِلَ الأُرْوِيَّةِ مِنْ رَأْسِ الْجَبَلِ إِنَّ الدِّينَ بَدَأَ غَرِيبًا وَيَرْجِعُ غَرِيبًا فَطُوبَى لِلْغُرَبَاءِ الَّذِينَ يُصْلِحُونَ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 2630، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 2630، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 2630 (El Libro de la Fe), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 2630 (Le Livre de la Foi), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Cami' el-Tirmizi'de yer alan 2630 numaralı hadiste baba ve babalık kavramından bahsedilir. Araştırmacı, bu hadisi, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alıntılarla birlikte derlemiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 2630, menyebutkan tentang ayah dan peran ayah. Peneliti mengumpulkan hadits tentang peran ayah dalam Islam ini bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2630 (book 40 hadith 25); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

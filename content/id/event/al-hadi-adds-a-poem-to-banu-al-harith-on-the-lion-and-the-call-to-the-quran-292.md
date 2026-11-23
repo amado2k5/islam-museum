@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-adds-a-poem-to-banu-al-harith-on-the-lion-and-the-call-to-the-quran-292
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/al-hadi-adds-a-poem-to-banu-al-harith-on-the-lion-and-the-call-to-the-quran-292.md}
+---
+## Ringkasan
+Al-Hadi juga membacakan ayat-ayat yang dimulai dengan kata-kata: 'Kalian melemparkan, wahai anak-anak Har ibn Ka'b, dengan Qurm yang berarti seorang guru {cite:sira-hadi-ila-al-haqq p.285}. Dalam kitab Zaydi ini, ayat tersebut dikaitkan dengan al-Hadi, dan museum merangkum maknanya.
+
+## Detail
+Penyair menggambarkan dirinya, seperti yang dinyatakan dalam ayat-ayat, bukan sebagai orang yang ceroboh atau malas, tetapi berani ketika tombak berbeda, dan bahwa ia memanggil mereka untuk membimbing, mereka mengingatkannya, memanggil hukuman Al-Qur'an, dan berjalan di jalan lurus, melindungi Islam mengikuti jejak kakek-neneknya. Mereka berdiri teguh di sisinya sambil tetap memegang pedang tajamnya, dan membalas mereka dengan berkatnya berupa keburukan, lalu pengkhianatan demi pengkhianatan, karena pengkhianatan adalah sifat penindas {cite:sira-hadi-ila-al-haqq p.285}. Ia mengatakan ia mengangkat kematian dari mereka pada hari mereka dikepung, dan menyarungkan pedangnya dengan kemurahan hati dan kesabaran yang tidak terukur oleh orang yang sabar, bahkan dari pembunuhan yang mereka saksikan dan saksikan dalam kengerian yang dahsyat {cite:sira-hadi-ila-al-haqq p.285}. Halaman berakhir pada titik ini dalam puisi dan diikuti pada halaman 286 dengan bait-bait yang menyatakan bahwa topeng telah dibuka dan pedang-pedang kebenaran akan jatuh menimpa mereka, diikuti oleh kisah dampaknya terhadap Banu al-Harith dalam [[event/ibn-bustam-writes-to-both-sides-and-banu-al-harith-resolve-to-march-on-wadia-292|peristiwa pertama dari kelompok berikutnya] {cite:sira-hadi-ila-al-haqq p.286}; topeng ini muncul setelah puisi "The Most Eloquent Banu Harith" yang disebutkan dalam [[event/al-hadi-answers-and-sends-a-poem-to-banu-al-harith-292]]. Garis pemindaian otomatis menjadi kabur, sehingga museum mengikuti urutan halaman yang dibaca dari gambar. Museum tidak memindahkan kata-kata bait-bait, tidak mengulangi kesalahan di dalamnya, dan tidak menghakimi klaim atau menentang klaim tersebut.

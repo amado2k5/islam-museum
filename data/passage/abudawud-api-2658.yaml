@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "2658"
-label: { ar: "سنن أبي داود 2658 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Abi Dawud 2658 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابی داؤد 2658 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sunan Abi Dawud 2658 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sunan Abi Dawud 2658 — mentions de nations, de religions et de peuples non musulmans" }
+label: { ar: "سنن أبي داود 2658 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Abi Dawud 2658 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابی داؤد 2658 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sunan Abi Dawud 2658 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sunan Abi Dawud 2658 — mentions de nations, de religions et de peuples non musulmans", tr: "Sunan Abi Davud 2658 — Gayrimüslim milletlerin, dinlerin ve halkların anılması", id: "Sunan Abi Dawud 2658 — Penyebutan bangsa, agama, dan masyarakat non-Muslim" }
 text: "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، عَنْ إِسْرَائِيلَ، عَنْ أَبِي إِسْحَاقَ، عَنِ الْبَرَاءِ، قَالَ لَمَّا لَقِيَ النَّبِيُّ الْمُشْرِكِينَ يَوْمَ حُنَيْنٍ فَانْكَشَفُوا نَزَلَ عَنْ بَغْلَتِهِ فَتَرَجَّلَ."
 summary:
   ar: "حديث في سنن أبي داود، رقم 2658، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابی داؤد کی حدیث نمبر 2658، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sunan Abi Dawud, n.° 2658 (Yihad (Kitab Al-Jihad)), con menciones de naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
   fr: "Un rapport du Sunan Abi Dawud, n° 2658 (Jihad (Kitab Al-Jihad)), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages relatifs aux nations, religions, sectes et peuples non musulmans."
+  tr: "Sünen Ebu Davud'da yer alan 2658 numaralı hadiste, gayrimüslim milletler, dinler ve halklardan bahsedilmektedir. Bu hadis, gayrimüslim milletler, dinler, mezhepler ve halklar konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, Peygamberin biyografisi ve konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sunan Abi Dawud, nomor 2658, menyebutkan bangsa-bangsa, agama-agama, dan kaum-kaum non-Muslim. Hadits ini disusun oleh seorang peneliti yang ahli dalam bangsa-bangsa, agama-agama, sekte-sekte, dan kaum-kaum non-Muslim, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi Nabi, dan buku-buku lain tentang subjek tersebut."
 relations:
   - { type: mentions, target: group/al-mushrikun, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2658 (book 15 hadith 182); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

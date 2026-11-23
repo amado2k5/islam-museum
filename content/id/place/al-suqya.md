@@ -1,0 +1,15 @@
+---
+id: place/al-suqya
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/place/al-suqya.md}
+---
+## Ringkasan
+Al-Saqiya adalah sebuah tempat di jalur ziarah, sekitar dua puluh tujuh mil dari Al-Abwa. Kota ini memiliki kebun buah dan kebun palem, serta terdapat orang-orang dari Tayy dan suku Arab lainnya. {cite:nuzhat-al-mushtaq-2002 p.142}
+
+## Dalam kamus negara
+Yaqut menyebutkan tempat-tempat dengan nama ini. Pasokan air pertama adalah desa komprehensif dari pekerjaan cabang, dengan jarak sembilan belas mil di luar Al-Juhfa, dan dalam buku Al-Khwarizmi dua puluh sembilan mil. Menurut Ibn al-Faqih, ini adalah salah satu lembah terendah di Tihama. Menurut Ibn al-Kalbi, Tub'a menetap di sana setelah haus, dan hujan melanda, sehingga ia menamainya 'Al-Saqya'. Menurut Al-Khwarizmi, ini adalah desa besar dekat laut dalam perjalanan sehari dan malam. Dalam kitab Abu Ubaid al-Sakuni, itu adalah kolam dan dasar air tebal tanpa Samira, yang mengarah ke Mekah dan berjarak empat mil. {cite:mujam-al-buldan-sader-1995 3 p.228} Di pintu masuk 'A'and,' terdapat lembah antara Mekah dan Madinah sebelum pasokan air satu mil, dan pasokan air berada di antara Mekah dan Madinah. {cite:mujam-al-buldan-sader-1995 4 p.72} Sumber air kedua adalah sebuah desa di gerbang Manbij dengan kebun buah dan air mengalir, dan merupakan tanah yang didedikasikan untuk putra Abu Ubadah al-Buhturi, yang disebutkan oleh Abu Firas dalam puisinya. Yang ketiga adalah sebuah sumur di Madinah yang dari mana air diambil untuk Nabi, menurut Abu Bakr ibn Musa. Di pintu masuk 'Madinah,' disebutkan rumah minuman. {cite:mujam-al-buldan-sader-1995 3 p.228; 5 p.83} Yang keempat adalah sumber air besar dari tanah Udhrah dekat Wadi al-Qura, tempat Tuys al-Mughni wafat. {cite:mujam-al-buldan-sader-1995 3 p.228} Buku ini juga mencantumkan 'Rawdat al-Saqya' di rumah Laus ibn Mughra. {cite:mujam-al-buldan-sader-1995 3 p.91}
+
+## Definisi Museum
+Al-Baqaqa, menurut al-Idrisi (hlm. 142), menempatkan Al-Siqiya sebagai tempat di jalur ziarah sekitar dua puluh tujuh mil dari Al-Abwa, dengan kebun kebun dan kebun kelapa serta orang-orang dari Tayy dan suku lain. Tempat yang sama di Yaqut adalah pasokan air pertama antara Mekah dan Madinah (vol. 3, hlm. 228; vol. 4, hlm. 72), sementara pasokan air Manbij, sumur Madinah, dan air Jazl adalah tempat lain yang dipisahkan oleh pintu masuk yang sama. Pintu masuk ke Yaqut tidak disebutkan oleh penduduknya dari Tay atau pohon palemnya; jaraknya berbeda, sembilan belas atau dua puluh sembilan mil ke Al-Juhfa di Ruby dan dua puluh tujuh mil ke orang tua pada kartu, dan museum tidak berpindah dari satu ke yang lain; titik kartu (23.45, 39.1) berjarak 38,2 km dari titik museum untuk orang tua. Lihat [[place/al-abwa|orang tua]].

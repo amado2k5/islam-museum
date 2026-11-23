@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1667"
-label: { ar: "صحيح مسلم 1667 — اليتيم وفقد الأب", en: "Sahih Muslim 1667 — the orphan and the father lost", ur: "صحیح مسلم 1667 — یتیم اور باپ کی موت", es: "Sahih Muslim 1667 — El huérfano y el padre perdido", fr: "Sahih Muslim 1667 — L'orphelin et le père perdus" }
+label: { ar: "صحيح مسلم 1667 — اليتيم وفقد الأب", en: "Sahih Muslim 1667 — the orphan and the father lost", ur: "صحیح مسلم 1667 — یتیم اور باپ کی موت", es: "Sahih Muslim 1667 — El huérfano y el padre perdido", fr: "Sahih Muslim 1667 — L'orphelin et le père perdus", tr: "Sahih Muslim 1667 — Yetim ve Babayı Kaybetme", id: "Sahih Muslim 1667 — Anak Yatim dan Kehilangan Ayah" }
 text: "… عَنْ عَمْرِو بْنِ مُرَّةَ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي لَيْلَى، قَالَ مَا أَخْبَرَنِي أَحَدٌ، أَنَّهُ رَأَى النَّبِيَّ يُصَلِّي الضُّحَى إِلاَّ أُمُّ هَانِئٍ فَإِنَّهَا حَدَّثَتْ أَنَّ النَّبِيَّ دَخَلَ بَيْتَهَا يَوْمَ فَتْحِ مَكَّةَ فَصَلَّى ثَمَانِيَ رَكَعَاتٍ مَا رَأَيْتُهُ صَلَّى صَلاَةً قَطُّ أَخَفَّ مِنْهَا غَيْرَ أَنَّهُ كَانَ يُتِمُّ الرُّكُوعَ وَالسُّجُودَ. وَلَمْ يَذْكُرِ ابْنُ بَشَّارٍ فِي حَدِيثِهِ قَوْلَهُ قَطُّ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 1667، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 1667، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 1667 (El Libro de la Oración - Viajeros), menciona al huérfano y al padre desaparecido. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre la figura paterna."
   fr: "Un hadith du Sahih Muslim, n° 1667 (Le Livre de la prière – Les voyageurs), mentionne l'orphelin et le père disparu. Le site « Paternité en Islam » répertorie ce hadith avec les versets du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la figure paternelle."
+  tr: "Sahih Müslim'de 1667 numaralı hadis, yetimlerden ve babasızlık durumundan bahseder. \"İslam'da Babalık\" bölümü, bu hadisi Kur'an, Sünnet, Peygamberin biyografisi ve bu konuyla ilgili diğer kitaplardan alıntılarla birlikte derlemektedir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 1667, menyebutkan tentang anak yatim dan kehilangan seorang ayah. Bagian \"Kebapakan dalam Islam\" mengumpulkan hadits ini bersama dengan teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/yatim-fiqh, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1667 (book 6 hadith 97); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

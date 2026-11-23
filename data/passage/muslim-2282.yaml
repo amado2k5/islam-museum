@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2282"
-label: { ar: "مسلم 2282 — مثل الهدى والعلم كمثل الغيث", en: "Muslim 2282 — The rain parable of guidance and knowledge", es: "Muslim 2282 — La parábola de la lluvia sobre la guía y el conocimiento.", fr: "Muslim 2282 — La parabole de la pluie, symbole de guidance et de connaissance", ur: "مسلم 2282 - ہدایت اور علم کی بارش کی مثال" }
+label: { ar: "مسلم 2282 — مثل الهدى والعلم كمثل الغيث", en: "Muslim 2282 — The rain parable of guidance and knowledge", es: "Muslim 2282 — La parábola de la lluvia sobre la guía y el conocimiento.", fr: "Muslim 2282 — La parabole de la pluie, symbole de guidance et de connaissance", ur: "مسلم 2282 - ہدایت اور علم کی بارش کی مثال", tr: "Müslim 2282 — Hidayet ve bilginin örneği yağmur gibidir.", id: "Muslim 2282 — Perumpamaan petunjuk dan ilmu adalah seperti hujan." }
 text: "قال النبي: إن مثل ما بعثني الله به من الهدى والعلم كمثل غيث أصاب أرضاً، فكان منها طائفة طيبة قبلت الماء فأنبتت الكلأ والعشب الكثير، وكان منها أجادب أمسكت الماء فنفع الله بها الناس، وأصاب طائفة منها أخرى إنما هي قيعان لا تمسك ماء ولا تنبت كلأ"
 summary:
   ar: "رواية أبي موسى الأشعري في باب مثل ما بعث به النبي من الهدى والعلم من كتاب الفضائل في صحيح مسلم؛ الأرض الطيبة والأجادب والقيعان صور لثلاثة أصناف من الناس مع الوحي."
+  tr: "Sahih Müslim'in Faziletler Kitabı'nda, Peygamberin hidayet ve bilgiyle gönderildiği örnekler bölümünde Ebu Musa el-Eş'ari'nin rivayetine göre; bereketli topraklar, verimsiz topraklar ve ovalar, vahiy ile gelen üç insan tipinin tasvirleridir."
+  id: "Riwayat Abu Musa al-Ash’ari dalam bab tentang contoh petunjuk dan ilmu yang dibawa Nabi dari Kitab Keutamaan dalam Sahih Muslim; tanah yang subur, tanah yang tandus, dan dataran rendah adalah gambaran dari tiga jenis orang yang menerima wahyu."
 relations:
   - { type: part_of, target: passage/muslim-kitab-43 }
   - { type: mentions, target: concept/rain, sources: [source/sahih-muslim] }

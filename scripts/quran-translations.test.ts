@@ -5,11 +5,11 @@ import { p } from "./lib";
 // The French and Spanish verse translations are third-party content from QuranEnc.com, kept apart from the frozen
 // records (docs/data/quran-translations.md). These tests guard their shape and the conditions of re-publication that
 // a file or a page can break by accident; they do not, and cannot, judge the translations.
-const EDITIONS = [["french_rashid", "fr"], ["spanish_garcia", "es"]] as const;
+const EDITIONS = [["french_rashid", "fr"], ["spanish_garcia", "es"], ["turkish_rwwad", "tr"], ["indonesian_affairs", "id"]] as const;
 const frozen = new Set(readdirSync(p("data", "passage")).filter((f) => /^quran-\d+-\d+\.yaml$/.test(f)).map((f) => f.slice(6, -5).replace("-", ":")));
 const load = (key: string) => JSON.parse(readFileSync(p("site", "src", "data", "quran-translations", `${key}.json`), "utf8"));
 
-describe("QuranEnc.com verse translations (French, Spanish)", () => {
+describe("QuranEnc.com verse translations (French, Spanish, Turkish, Indonesian)", () => {
   it("the frozen records have 6,236 verses", () => expect(frozen.size).toBe(6236));
   for (const [key, lang] of EDITIONS) {
     const e = load(key);

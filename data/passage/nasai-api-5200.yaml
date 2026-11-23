@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "5200"
-label: { ar: "سنن النسائي 5200 — أثر من الآثار المحفوظة", en: "Sunan al-Nasa'i 5200 — a relic kept after its owner", ur: "سنن نسائی 5200 — محفوظ آثار و تبرکات", es: "Sunan al-Nasa'i 5200 — una reliquia conservada después de su dueño.", fr: "Sunan al-Nasa'i 5200 — une relique conservée après son propriétaire" }
+label: { ar: "سنن النسائي 5200 — أثر من الآثار المحفوظة", en: "Sunan al-Nasa'i 5200 — a relic kept after its owner", ur: "سنن نسائی 5200 — محفوظ آثار و تبرکات", es: "Sunan al-Nasa'i 5200 — una reliquia conservada después de su dueño.", fr: "Sunan al-Nasa'i 5200 — une relique conservée après son propriétaire", tr: "Sünen el-Nesa'i 5200 - korunmuş bir hadis", id: "Sunan al-Nasa'i 5200 — sebuah hadits yang diawetkan" }
 text: "أَخْبَرَنَا أَحْمَدُ بْنُ سُلَيْمَانَ، قَالَ حَدَّثَنَا مُوسَى بْنُ دَاوُدَ، قَالَ حَدَّثَنَا زُهَيْرُ بْنُ مُعَاوِيَةَ، عَنْ حُمَيْدٍ، عَنْ أَنَسٍ، قَالَ كَانَ خَاتَمُ النَّبِيِّ مِنْ فِضَّةٍ فَصُّهُ مِنْهُ."
 summary:
   ar: "حديث في سنن النسائي، رقم 5200، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 5200، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 5200 (El Libro de los Adornos), menciona una reliquia conservada tras la muerte de su dueño. El Navegador de Testamentos la incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sunan al-Nasa'i, n° 5200 (Le Livre de la parure), mentionne une relique conservée après son propriétaire. Le navigateur de testaments la répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "Sunan-ı Nesai'de 5200 numaralı hadis, korunmuş bir rivayetten bahsetmektedir. Bu hadis, vasiyetnameler, miras, gelenekler ve türbeler konusunda uzmanlaşmış araştırmacılar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, nomor 5200, menyebutkan sebuah tradisi yang lestari. Hadits ini disusun oleh para peneliti yang ahli dalam wasiat, warisan, tradisi, dan makam suci, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tabarruk, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 5200 (book 48 hadith 161); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

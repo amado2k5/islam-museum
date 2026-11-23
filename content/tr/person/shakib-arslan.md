@@ -1,0 +1,19 @@
+---
+id: person/shakib-arslan
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/shakib-arslan.md}
+---
+# Shakib Arslan
+
+## Özet
+Shakib bin Hamoud bin Hasan bin Younis Arslan (1869–1946), Lübnanlı bir yazar, şair, tarihçi ve siyasetçiydi; Arslan ailesinden bir prens; üretken bir yapıtla yaklaşık yirmi kitap, iki bin makale, şiir koleksiyonu ve kapsamlı yazışmalar bıraktı ve "Dilamet Prensi" unvanını aldı. Cemaleddin el-Afghani ve Muhammed Abduh'un fikirlerinden etkilendi ve İslam Birliği ile Arap birliğinin en önde gelen savunucularından biri oldu. Savaşlar arası yılların çoğunu Cenevre'de sürgünde geçirdi ve Suriye ile Filistin'in Milletler Cemiyeti'ne gayri resmi temsilcisi olarak hizmet etti. {cite:wikipedia-shakib-arslan-en} {cite:wikipedia-shakib-arslan-ar}
+
+## Erken yaşamı ve kariyeri
+25 Aralık 1869'da Beyrut yakınlarındaki Choueifat'ta doğdu ve Arapça makale doğumunu 1286 Hicri Ramazan'ın birinci ayına bağlar. Osmanlı İmparatorluğu'nun hayatta kalmasını ulusun bölünmesine ve Avrupa güçleri tarafından işgaline karşı tek garanti olarak savundu; Osmanlılık ile İslam'ın ayrılmaz olduğuna ve İslam'ın reformunun doğal olarak devletin yeniden canlanmasına yol açtığına inandı. Fransız Manda yetkilileri tarafından memleketinden sürgün edildi, savaşlar arası yılların çoğunu Cenevre'de geçirdi; burada "Al-Umma Al-Arabiya" gazetesinin kuruluşuna ve editörlüğüne katıldı, Arap ülkelerinin basınına bir dizi makale yazdı ve Berlin'de yayımlanan "Bareed al-Sharq" gazetesine katkıda bulundu, ancak Nazizm'e katıldığını ima etmedi; 1939'da ise Almanlar Araplar için diğerlerinden daha iyi olmasaydı, Araplar sadece efendilerini efendilerine değiştirirdi. {cite:wikipedia-shakib-arslan-en}
+
+Siyasi güç ve ahlaki cesaret ruhuyla dolu bir İslam yorumu önerdi, İslami birliğin bağlarını canlandırmaya çalıştı, Fas'tan Irak'a kadar Müslümanları farklılıklarına rağmen İslam'a ortak bağlılıklarını hatırlamaya çağırdı ve İslam'ı sosyal etiğin temel bir bileşeni olarak savundu. Bu dönemde en ünlü eseri "Neden Müslümanlar Geride Kaldı, Diğerleri İlerledi?" adlı eseri yazdı. Muhib el-Din el-Hatib için Kahire merkezli "Al-Fath" dergisine katkıda bulundu. Çerkes kökenli Ürdünlü Salima Khas Hatouk ile evlendi ve bir oğulları ile iki kızları oldu. Kızı Mai, Kamal Jumblatt ile evlendi ve böylece Walid Jumblatt torunu oldu. Ölümünden üç ay önce Lübnan'a döndü ve 9 Aralık 1946'da vefat etti. Arapça makale ölümünü 15 Muharrem 1366 Hicri'ye bağlar; kaynaklar ölüm yeri konusunda farklılık gösterir; İngilizce makalede Beyrut ve Wikidata'dan bahsedilirken, Arapça makale bilgi kutusunda Choueifat'tan bahsedilir. {cite:wikipedia-shakib-arslan-en} {cite:wikipedia-shakib-arslan-ar} {cite:wikidata-shakib-arslan}
+
+## Dini hakkında bir not
+Shakib Arslan, Dürzî bir ailede doğdu. William Cleveland'ın "İslam Batıya Karşı" (1985) adlı kitabına dayanan İngilizce makale, inancını genel İslam ile birleştirmeye çalıştığını, daha sonra Sünni İslam'a geçip Sünni İslam'ın çıkarlarına hizmet eden köktendinci bir Müslüman olarak kendini kanıtladığını belirtir; Arap biyografisine dayanan Urduca makalede ise Sünni geleneğine göre ibadet ettiğini belirtir. Bu nedenle, kendi bağlılığını belirten bu iki bağımsız kaynaktan "Sünni" olarak kaydında mevcut dinini belirlemiş ve Dürzî doğumu, biyografisinde dini değeri olmayan bir arka plan olarak yer almıştır; özellikle bu müzedeki dini değerler listesinde "Dürzî" değeri yer almadığı için. {cite:wikipedia-shakib-arslan-en} {cite:wikipedia-shakib-arslan-ur} {cite:wikipedia-shakib-arslan-ar}

@@ -1,0 +1,12 @@
+---
+id: event/muhammad-ibn-ubaydallah-leaves-minas-for-wadia-and-writes-to-al-hadi-292
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/muhammad-ibn-ubaydallah-leaves-minas-for-wadia-and-writes-to-al-hadi-292.md}
+---
+## Ringkasan
+Ketika pagi tiba, Wadi'a berkumpul dan mereka berjalan tidak jauh. Mereka bertemu Muhammad ibn Ubayd Allah yang telah meninggalkan Minas. Kedua putranya menanyakan kabar itu {cite:sira-hadi-ila-al-haqq p.283}.
+
+## Detail
+Ia memberitahu mereka bahwa Ibn Bastam telah mengirim surat kepadanya dan memberitahunya bahwa ia khawatir akan dirinya dan nyawanya bersamanya, dan mengatakan bahwa ia adalah pelindung dan hambanya dan tidak akan ragu melakukan apa yang ia lakukan kepada mereka. Jika ia memutuskan untuk berbaris ke Hamdan, ia akan mengawasi Banu al-Harith dan mendengar surat untuk menyampaikan kabar mereka. Jika ia melihat sebaliknya, ia harus melakukannya {cite:sira-hadi-ila-al-haqq p.283}. Muhammad ibn Ubayd Allah berkata: Saya menyadari bahwa pria itu tidak menginginkan tempat saya bersamanya, jadi saya keluar dan ingin tinggal di benteng, tetapi saya takut Banu al-Harith akan berkumpul dan memimpin sekutu melawan mereka jika saya bersama mereka. Jadi saya melihat nasib Wadi'ah yang setuju dengan kami, maka saya menafsirkan Wadi'ah dan pergi bersamanya sampai saya menempatkannya di rumahnya dan menghormatinya dengan kehormatan tertinggi {cite:sira-hadi-ila-al-haqq p.283} {cite:sira-hadi-ila-al-haqq p.284}. Ia menulis kepada Al-Hadi kepada Kebenaran, memberitahukan tentang orang-orang, sehingga Al-Hadi menulis kepadanya mengidentifikasi dirinya sebagai "datang kepadanya," dan buku itu tidak secara eksplisit menyatakan pelaku perbuatan tersebut, sehingga ia tidak sedih atas apa yang berasal dari Banu Al-Harith. Ia menulis ayat-ayat kepadanya dan memerintahkannya untuk mengarahkannya kepada Banu Al-Harith {cite:sira-hadi-ila-al-haqq p.284}. Pernyataan Ibn Bastam dalam buku ini berasal dari narasi Abu Ja'far, dan museum tidak menilai niatnya. Pembicara dalam kalimat ini menggunakan kata ganti orang pertama adalah Muhammad ibn Ubayd Allah, dan ia membaca margin naskah "dari malam mereka" dalam kalimat sebelumnya. Buku tersebut tidak menyebutkan lokasi benteng atau tempat simpanannya.

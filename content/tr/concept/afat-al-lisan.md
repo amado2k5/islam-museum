@@ -1,0 +1,28 @@
+---
+id: concept/afat-al-lisan
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/afat-al-lisan.md}
+---
+## Özet
+"Dilin Sıkıntıları", Omar Abdul Kafi tarafından Ramazan İlhamları'nda sunulan dizinin başlığıdır ve her bölüm tek bir sıkıntıya odaklanır. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep05 00:00:00} Son bölümde ise bahsedilen sıkıntıları sıralar: sırt iğneme, dedikodu, tartışma, nimetlere nankörlük, zarar, yalan, alay etme, Sahabelere hakaret ve Allah'tan başkalarına yönelme. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:00:00} Son olarak, bölüm otuz bölümden oluştuğunu, bunların önemli bir konu ⁦(needs_source: الأرشيف يضم ست حلقات فقط من هذه السلسلة)⁩ için hızlı başlıklar olduğunu söyler. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:10:30}
+
+## Korunan Bölümlerde Sergilenen Zararlılar
+- [[concept/mann|Veren cömerttir]] ve bunu dilin büyük sıkıntılarından biri olarak adlandırır. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep01 00:00:00}
+- Allah dışında herkese dua etmek için bunu çoktanrıcılık biçimi olarak görmek. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep02 00:00:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep02 00:12:00}
+- [[concept/al-dua-ala-al-nafs-wal-awlad|Kendisi ve çocukları için dua]] etmek. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep03 00:00:00}
+- [[concept/sabb-al-sahaba|Yoldaşlara hakaret]] etmek. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep04 00:00:30}
+- [[concept/satr|Müslümanların gizlendiği]] yerden ayrılıyor. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep05 00:00:30}
+
+## Görülen tedavi
+Bu sıkıntıların çoğunun büyük olduğuna inanır ve ilk çarenin Allah'ın kutsallıklarına saygı göstermek, ardından Kur'an'da anılanları övmek ve dili iyilikle kullanmak üzerine düşünmek olduğuna inanır. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:01:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:01:30} Tedavi yöntemleri arasında: ölümü hatırlamak ve [[concept/tul-al-amal|umudu kısaltmak]], {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:02:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:02:30}, sık sık namaz, gece namazı ve şafakta dua etmek, {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:03:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:04:30}, ruhun bilinen saatlerde sessizliğe alıştırılması, {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:05:00} bilgi ve dindar insanlarla arkadaşlık etmek, {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:05:30} Şeytan'dan sığınmak, {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:07:00} ruhun ve başkalarının kusurlarıyla meşgul olmak, {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:07:30} Pazartesi ve Perşembe oruç tutmak, Kur'an okumak ve her gün bir insana diliyle hitap edip Allah'tan korkmasını emretmek gibi sık sık itaat eylemleri yapmak. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:09:00}
+
+## Benliğin Kusurlarını Belirlemek
+Bir kişinin kendi kusurlarını dört şekilde bildiğini belirtmek gerekir: Kitap, Sünnet ve hizmetkârların kalpleri konusunda eğitilmiş bir âlime, Allah Kitabı'na, onu uyaran doğru kardeşe ve düşmanlarının dillerine sunmak; insanlarda kötü gördüğünü kendisinin yapmadığını ekler. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:07:30} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:08:00} {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:08:30}
+
+## Dili korumanın meyvesi
+İnsanlar susarsa toplumların yeniden şekilleneceğine ve ruhların arınacağına inanıyor ve serinin sonunda bu görüşü de bu. {cite:assabile-omar-abdelkafy nafahat-ramadaneya-1436-h/ep06 00:10:30}
+
+## Mostafa Hosni'nin "Cennet İnsanları" programında
+Mustafa Hosni [[person/mustafa-hosny|, "Cennet Şehri"]] programının beşinci ve altıncı bölümlerinde sırtüstü laf ve müstehcenlikten [[work/ahl-al-jannah|bahseder]]. Peygamber'in kimseye laf atmadığını ve günahtan bahsettiğinde sahibi adını vermediğini anlatır. Malik [[person/malik-ibn-al-dukhshum|ibn al-Dakhsham hakkında sorduğunda]] bir adamın onu münafık olarak nitelendirdiğini, onu yasakladığını ve Allah'tan başka bir ilah olmadığını, Muhammed'in Allah'ın Elçisi olduğunu söylediğini anlatır. {cite:assabile-mustafa-hosny ahl-al-jannah/ep05 00:04:30} {cite:assabile-mustafa-hosny ahl-al-jannah/ep05 00:05:00} Sırtüstü ifade, kardeşinin hoşlanmadığı bir şekilde, onun dürüst olduğu halde ya konuşma ya da öneri yoluyla anılması olarak tanımlanır. {cite:assabile-mustafa-hosny ahl-al-jannah/ep05 00:07:00} İbn Ebi Dunya'nın 'Dham al-Ghaybah' adlı kitabında, Anas ibn Malik'ten İsra gecesi [[person/muadh-ibn-jabal|hakkında bir şey geçer ve Mu'adh ibn Jabal']] in Ka'b ibn Malik'i [[person/kaab-ibn-malik|eleştirenlere Tabuk'ta yanıt verdiği anlatılır]]. {cite:assabile-mustafa-hosny ahl-al-jannah/ep05 00:23:30} {cite:assabile-mustafa-hosny ahl-al-jannah/ep05 00:27:00} Altıncı bölümde, gençliğinde yoldaşlarının annesini cinsel dille aşağılamasına izin vermediği, ancak onlar buna alışana kadar anlatılır. {cite:assabile-mustafa-hosny ahl-al-jannah/ep06 00:16:00}

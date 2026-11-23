@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1006"
-label: { ar: "جامع الترمذي 1006 — دفن وقبر ومرقد", en: "Jami' al-Tirmidhi 1006 — a burial, grave or resting place", ur: "جامع ترمذی 1006 — تدفین، قبر اور مرقد", es: "Jami' al-Tirmidhi 1006 — un lugar de entierro, tumba o descanso.", fr: "Jami' al-Tirmidhi 1006 — un lieu de sépulture, une tombe ou un lieu de repos" }
+label: { ar: "جامع الترمذي 1006 — دفن وقبر ومرقد", en: "Jami' al-Tirmidhi 1006 — a burial, grave or resting place", ur: "جامع ترمذی 1006 — تدفین، قبر اور مرقد", es: "Jami' al-Tirmidhi 1006 — un lugar de entierro, tumba o descanso.", fr: "Jami' al-Tirmidhi 1006 — un lieu de sépulture, une tombe ou un lieu de repos", tr: "Cami' el-Tirmizi 1006 — Defin, mezar ve türbe", id: "Jami' al-Tirmidhi 1006 — Pemakaman, kuburan, dan tempat suci" }
 text: "… أَخْبَرَتْهُ أَنَّهَا، سَمِعَتْ عَائِشَةَ، وَذُكِرَ، لَهَا أَنَّ ابْنَ عُمَرَ، يَقُولُ إِنَّ الْمَيِّتَ لَيُعَذَّبُ بِبُكَاءِ الْحَىِّ عَلَيْهِ. فَقَالَتْ عَائِشَةُ غَفَرَ اللَّهُ لأَبِي عَبْدِ الرَّحْمَنِ أَمَا إِنَّهُ لَمْ يَكْذِبْ وَلَكِنَّهُ نَسِيَ أَوْ أَخْطَأَ إِنَّمَا مَرَّ رَسُولُ اللَّهِ عَلَى يَهُودِيَّةٍ يُبْكَى عَلَيْهَا فَقَالَ \" إِنَّهُمْ لَيَبْكُونَ عَلَيْهَا وَإِنَّهَا لَتُعَذَّبُ فِي قَبْرِهَا \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ صَحِيحٌ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 1006، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 1006، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 1006 (El Libro de los Funerales), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 1006 (Livre des funérailles), mentionne une sépulture, une tombe ou un lieu de repos. Le Navigateur des Testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Cami' el-Tirmizi'nin 1006 numaralı hadisinde defin, mezar ve türbeden bahsedilir. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler üzerine çalışan araştırmacılar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 1006, menyebutkan tentang penguburan, kuburan, dan makam. Hadits ini dikumpulkan oleh para peneliti wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1006 (book 10 hadith 42); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

@@ -1,0 +1,19 @@
+---
+id: building/tomb-of-muhammad-ghawth-gwalior
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/building/tomb-of-muhammad-ghawth-gwalior.md}
+---
+## Ikhtisar
+Makam Sheikh [[person/muhammad-ghawth-gwaliori|Muhammad Ghaus]] di Gwalior adalah struktur persegi biasa tanpa sudut miring, dengan menara enam tingkat di sudutnya, dan di tengah setiap sisi terdapat tonjolan persegi yang di atasnya terdapat kitrik persegi, dikelilingi oleh kanopi lebar yang menunduk di atas kabel-kabel ukiran besar. {cite:nath-history-of-mughal-architecture-1-1982 p. 218} {cite:nath-history-of-mughal-architecture-1-1982 p. 224} Kubah tunggal yang lebar bertumpu pada leher oktagonal di atas platform persegi tinggi, dikelilingi oleh empat kitrik heksagonal, yang menurut Nath menyerupai merak di antara ayamnya. {cite:nath-history-of-mughal-architecture-1-1982 p. 218}
+
+## Inside dan jaringannya
+Aula persegi memiliki sisi sepanjang 13,11 meter, kubahnya menopang ceruk sudut, dan di tengahnya terdapat ceruk marmer persegi panjang yang dikelilingi oleh kisi-kisi halus berbentuk kanopi, berisi batu nisan Sheikh. {cite:nath-history-of-mughal-architecture-1-1982 p. 218} {cite:nath-history-of-mughal-architecture-1-1982 p. 219} Di sekitar aula terdapat portiko tinggi selebar 5,87 meter, dengan kolom setinggi 8,53 meter, dan lengkungan setengah lingkaran yang dipenuhi sisik di sisi utara dan timur: sekitar seratus panel dalam lebih dari dua puluh desain, sebagian besar bersifat geometris. {cite:nath-history-of-mughal-architecture-1-1982 p. 219} Nath menganggapnya sebagai bangunan Mongol pertama yang menggunakan timbangan sebesar ini, sekitar satu dekade sebelum bengkel Fathapur Sikri, dan mausoleum yang lebih besar di Alexander sekitar empat dekade. {cite:nath-history-of-mughal-architecture-1-1982 p. 219} Pada sebuah pilar di sudut barat daya, terdapat prasasti Persia yang mencatat kampanye besar di Deccan pada tahun 1008 H/1599 M, dan tidak ada prasasti lain sampai pendirian itu disaksikan. {cite:nath-history-of-mughal-architecture-1-1982 p. 219}
+
+## Siapa yang membangunnya?
+Sumber tidak menyebutkan siapa yang membangun mausoleum: Al-Badauni menyebutkan bahwa sheikh membangun khanqahnya di Gwalior, sementara Abu al-Fadl tetap diam. {cite:nath-history-of-mughal-architecture-1-1982 p. 220} Nath tidak menyukai kemungkinan bahwa sheikh pertapa atau putra-putranya atau Akbar membiayainya, dan diyakini bahwa Baneh Tansen, musisi terbesar pada masa itu, adalah putra Gwalior dan murid sheikh, yang datang ke istana Akbar pada tahun 970 H/1562 M, tahun kematian sheikh-nya, dan dimakamkan di kakinya di Gwalior sekitar tahun 1590. {cite:nath-history-of-mughal-architecture-1-1982 p. 221} {cite:nath-history-of-mughal-architecture-1-1982 p. 222} {cite:nath-history-of-mughal-architecture-1-1982 p. 223} Nath mengakui bahwa tidak ada bukti langsung atau dokumen untuk hal ini. {cite:nath-history-of-mughal-architecture-1-1982 p. 223}
+
+## Dampaknya
+Nath percaya bahwa bayangan dan bayangan pada kawbil dan chhatriyat adalah unsur lokal yang digunakan secara menentukan di sini, bahwa pengaruh terbesar ada di Fatehpur Sikri dan tempat sucinya di Sikandra, bahwa kubahnya dekat dengan kubah 'Bathani' di Delhi, dan inspirasi untuk mashakh serta kawbil berasal dari Gujarat melalui Rajasthan dan Istana Man Mandir di Gwalior. {cite:nath-history-of-mughal-architecture-1-1982 p. 224} {cite:nath-history-of-mughal-architecture-1-1982 p. 225} Ia membandingkannya dengan makam Sheikh Ahmad Khattu di Sarkhahej dekat Ahmedabad (antara 1416 dan 1451), dan kemungkinan Sheikh melihatnya selama tinggal di Gujarat. {cite:nath-history-of-mughal-architecture-1-1982 p. 226}

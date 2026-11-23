@@ -4,10 +4,12 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/muhammad-ibn-shihab-al-zuhri]
 work: work/muwatta-malik
 ref: "1029"
-label: { ar: "الموطأ 1029 — ابن شهاب: أن عمر بن الخطاب أمر بقتل الحيات في الحرم", en: "Muwatta 1029", es: "Muwatta 1029", fr: "Muwatta 1029", ur: "موطا 1029" }
+label: { ar: "الموطأ 1029 — ابن شهاب: أن عمر بن الخطاب أمر بقتل الحيات في الحرم", en: "Muwatta 1029", es: "Muwatta 1029", fr: "Muwatta 1029", ur: "موطا 1029", tr: "El-Muvatta 1029 — İbn Şihab: Ömer ibn el-Hattab, kutsal alanda yılanların öldürülmesini emretti.", id: "Al-Muwatta 1029 — Ibn Shihab: Umar ibn al-Khattab memerintahkan pembunuhan ular di tempat suci" }
 text: "أمر بقتل الحيات في الحرم"
 summary:
   ar: "يرويه مالك عن ابن شهاب أن عمر بن الخطاب أمر بقتل الحيات في الحرم. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1186) وسويد (628) والشيباني (429)، وأن المطبوع من الموطأ وقع فيه «ابن عمر» وهو غلط. {cite:muwatta-maruf-1997 p.480}"
+  tr: "Malik, İbn Şihab'dan rivayet eder ki, Ömer ibn el-Hattab kutsal alanda yılanların öldürülmesini emretmiştir. Editör, bunun Malik'ten Ebu Mus'ab (1186), Suveyd (628) ve el-Şeybani (429) tarafından da rivayet edildiğini ve el-Muvatta'nın basılı baskısında yanlışlıkla \"İbn Ömer\"den bahsedildiğini belirtmektedir. {cite:muwatta-maruf-1997 s.480}"
+  id: "Malik meriwayatkan dari Ibn Shihab bahwa Umar ibn al-Khattab memerintahkan pembunuhan ular di tempat suci. Editor mencatat bahwa riwayat ini disampaikan dari Malik oleh Abu Mus'ab (1186), Suwaid (628), dan al-Shaybani (429), dan bahwa edisi cetak al-Muwatta' secara keliru menyebutkan \"Ibn Umar.\" {cite:muwatta-maruf-1997 p.480}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
   - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }

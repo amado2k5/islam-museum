@@ -1,0 +1,39 @@
+---
+id: concept/kadhib
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/kadhib.md}
+---
+## Özet
+Dilde yalan söylemek, bir şeyi olduğu gibi olduğu gibi kasıtlı ya da tesadüfi olarak bildirmek anlamına gelir ve hukukçuların terminolojisi bundan sapmaz {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13221}. Bu, bir şeyi iyileştirmek ve niteliğine aykırı şekilde tanımlamak olan sahtecilikten ayrılır ve konuşma ve eylemde ve konuşmada {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13221} gerçekleşir. Ve iftiradan, yani yalan ve uydurmadır; bu da ancak yozlaşmada gerçekleşebilir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13222}.
+
+## Bilgelik
+Yalanın temel ilkesi, Kur'an, Sünnet ve ümmet mutabakatının yasaklamasıdır ve en büyük günahlar arasındadır. Bunlar arasında İbn Mes'ud'un hadisi vardır: Doğruluk doğruya, yalan ise ahlaksızlığa yol açar {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13222}. Yalan söylemek amaca bağlı olarak mücaiz veya zorunlu olabilir: yalan söylemeden ulaşılabilen her övgüye değer amaç yasaklanır; mümkünse caizdir; niyet mücaizse yalan kabul edilir; zorunluysa yalan söylemek zorunludur, örneğin bir Müslümanın kanını korumak gibi, bir zalimden saklanan bir Müslümanın kanını korumak gibi, yalan söylemek de zorunludur {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13222}.
+
+## İzin verilen yalan söyleme
+Yalan söylemek, savaş, uzlaşma veya mağdurun kalbini kazanmak amacına ancak bu amaçla ulaşılıyorsa ve mümkün olduğunca kaçınarak gerçekleşir; çünkü yalan kapısı açıldığında, kişinin onsuz kalma korkusu vardır; istisna, Ümmü Kultum'un savaş ve uzlaşma hadislerinde ve bir adamın karısıyla hadislerinde bulunur {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13223}. Bunlar arasında, bir zalimin onu alıp mal-mülkü hakkında sorması ve böylece inkar etmesi ya da hükümdar kendisiyle Allah arasında bir ahlaksızlık olduğunu sorarsa, reddedebilir; örneğin "Acı çeken Allah'ın gizlenmesiyle saklanmalıdır" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13223} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13224}. Doğruluk ve yalan söyleme bir ölçekte çatışıyorsa, Şeriat'ta doğruluk yasağı daha sıkıysa, yalan söylemek caizdir; ancak ihtiyacın önemi konusunda şüphe varsa, varsayılan yasaktır {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13223}. Bir grup, yalan söylemenin kesinlikle izin verilmediğini söyledi ve bildirilenleri bir çarpıtma ve nakarat olarak yorumladılar {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13224}.
+
+## Tanrı ve Elçisi hakkında yalan söylemek
+Allah ve Ressulü hakkında yalan söylemek, hiçbir şeyin karşı koyamayacağı en büyük günahlardan biridir. Fıskimler, Ebu Hureyre'nin hadisinden kanıt olarak El-An've Z-Zumar surelerinden ayetler alıntılamışlardır: "Kim bilerek benim hakkımda yalan söylüyorsa, ateşe otursun" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13224} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13225}. Bazı sonraki alimler, Allah ve Elçisi hakkında kasıtlı olarak yasak olanı kabul etmek ya da yasak olanı yasaklamak saf kâfirlik {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13224} olduğunu belirtmiştir. El-Nevavi, uydurma bir hadisi rivayet etmenin, bilinen statü yasak olan birine yasak olduğunu ve bir hadis anlatmak isteyenin derecesini netleştirmesi gerektiğini söyledi: doğru mu iyi mi olduğunu belirtti. Dedi ki: Allah'ın Resuli buyurdu ve zayıfsa, kesinlik biçimiyle doğrulanamaz {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13225}.
+
+## Bir Vizyonda Yatmak
+Kanunlaştıran rüyalarda yalan söylememesi konusunda uyardı ve El-Kurtubi, rüyada yalan söylemenin Allah'a karşı yalan söylemek olduğunu, Allah'a karşı yalan söylemenin ise daha da ağır olduğunu söyledi {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13226}. Bu hadis şu hadisi içerir: "Rüya gören yalancı, Diriliş Günü'nde iki saç arasına düğüm bağlamakla görevlendirilir" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13226}.
+
+## Baba dışında biriyle ilişki kurma ve çocuğun reddi
+En büyük günahlardan biri, yalanlarını bilerek babasından başka birine kendini atfetmek ya da oğlunu oğlu olmayan bir oğul olarak kabul etmektir; bu hadise dayanarak: "Babalarınızı arzulamayın, çünkü babasını isteyen kâfirdir." El-Nawawi bu konuda inançsızlığı inkar veya mücaizlik yoluyla başlatmıştır {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13227}. Benzer şekilde, bir çocuğun soyunu yalanını bilerek inkâr etmek bir uyarıdır {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13227}.
+
+## Satmak, hile yapmak ve konulara yalan söylemek
+Murabe'de yalan söylemek ve kusurlarını yaygın kötülüklerden gizlemek. Kim şu mal için mal aldığını ve yalan söyleyerek bundan kazanç sağladığını söyleyen günahkardır. Bunu bilen alıcıya bildirmelidir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13227}. Valinin tebaasını aldatması ve onlara yalan söylemesi, Ebu Huraira'nın sahte sahip hakkındaki hadisi ve Mu'qil bin Yasar'ın tebaaları için aldatarak ölenler hakkındaki hadislerine dayanarak büyük günahlardır {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13227} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13228}. Kadi İyad, eğer prens taklit ettiği şeyi ihanete uğratır, dinlerinde ve dünyevi işlerde onlara öğüt vermezse ya da sınırlarını ve haklarını ihmal ederse, onları aldatmıştır {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13228}.
+
+## Duyulan her şeyle konuşuyor
+Kanunlaştırıcı, bir kişinin duyduğu her şeyi anlatmasını yasakladı; hadise dayanarak: "Bir kişinin duyduğu her şey hakkında yalan söylemesi yeterlidir," çünkü hem doğruluğu hem de yalanı duyar. Duyduğu her şeyi söylerse, sahip olmadığı şeyleri bildirmiş olur. Kasıtlı yalan söylemek zorunlu değildir, ancak kasıtlı yalan günah olması için bir koşuldur {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13228} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13229}.
+
+## İtirazlarda yalan söylemeyi bırakmak
+Bazı erken nesillerden, el-Ma'aridh'de yalan söylemenin yasak olduğu ve sadece zorunlu durumlarda niyetli oldukları bildirilmiştir. Gereksiz konulara gelince, bunu açıkça ortaya çıkarmak veya açıkça ifşa etmek caiz değildir, ancak daha kolaydır {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13229}. Bir örnek, Mu'adh ibn Jabal'ın karısıyla birlikte 'baskıcı' yani gözcüsü olduğunu ve Allah'ı kastettiğini söylediği hikayedir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13229}. Ma'arid, başkalarının kalbini şakalarla yatıştırmak gibi küçük bir amaç için izin verilir; örneğin yaşlı bir kadından bahsetmek ve Anas'ın dişi devenin yavrusuyla ilgili hadisleri {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13229} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13230}.
+
+## Şakalarda yalan söylemek ve erkeklerle oynamak
+Şaka yapmak, başkalarında yalan söylemek gibi yasaktır; bu hadise dayanır: "Bir hizmetkar, şaka yaparak yalan söylemeyi bırakana kadar tüm iman sahibi olmaz" ve şöyle denir: "Gerçekten şaka yaparım, sadece doğruyu söylerim" {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13225}. Çocuklarla flört ederken yalan söylememeleri konusunda Abdullah ibn Amir'in hadislerine dayanarak, bir annenin bir çocuğa 'Gel, sana vereceğim' dediği ama ona vermediği hakkında uyarır. Peygamber şöyle dedi: 'Ona hiçbir şey vermezsen, sana bir yalan yazılır.' {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13225}.
+
+## Omar Abdelkafi'nin "Wanafs wa wa Othera" programından
+Şeyh, İslam'ın arabulucuya veya tartışmacının her tarafa iyi sözlerle yalan söylemesine izin verdiğini, kocanın ise karısına annesi ve kız kardeşinin onu iyi hatırladığını söylemesine izin verdiğini, karının da ailesi için de aynı şeyi söylediğini belirtir; çünkü onlar söylemese bile, çünkü hayat şöyle bir şeyle doludur. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep08 00:04:00} Bkz: [[concept/iftira|İnsanlara karşı iftira]].

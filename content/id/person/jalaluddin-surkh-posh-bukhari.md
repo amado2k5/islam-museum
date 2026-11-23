@@ -1,0 +1,14 @@
+---
+id: person/jalaluddin-surkh-posh-bukhari
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/jalaluddin-surkh-posh-bukhari.md}
+---
+## Ringkasan
+
+Sayyid Jalal al-Din Hussein al-Naqawi al-Bukhari, yang dikenal sebagai Sarkh Bush, yang berarti 'yang mengenakan merah,' karena ia mengenakan jubah merah, adalah seorang pangeran Sufi yang lahir di Bukhara pada tahun 595 H. Garis keturunan keluarganya berasal dari Bukhara, dari mana ia mendapatkan gelar Bukhari. {cite:wikipedia-jalaluddin-surkh-posh-bukhari-en} Ketika bangsa Mongol menyerbu wilayah Muslim, Jalal al-Din bermigrasi dari Bukhara, melewati Multan pada tahun 1237 M, di mana ia diterima dalam tarekat Suhrawardi dan diangkat sebagai khalifah untuk Baha al-Din Zakariya, kemudian mengirim seorang misionaris ke Bakr dan dari sana ke Ouj. {cite:khan-constructing-islam-on-the-indus-2016} Sumber-sumber berbeda mengenai tahun kelahirannya: terjemahan keluarga menempatkannya sebagai 595 H, sesuai dengan Wikidata sebagai 1199 M, Khan sebagai 1198 M, dan referensi sebelumnya menyebutkan 1192 M. Tanggal yang disebutkan dalam beberapa daftar (1244–1350) tidak sesuai dengan terjemahan yang diketahui, dan tahun 1244 sebenarnya adalah tahun dia menetap pada puncaknya. {cite:wikidata-jalaluddin-surkh-posh-bukhari} {cite:khan-constructing-islam-on-the-indus-2016}
+
+Jalaluddin menetap di Oj pada tahun 1244 M, menjadikannya pusat Suhrawardiyya di Sindh dan Punjab selatan. Ia dianggap sebagai salah satu pelopor ordo di anak benua dan pendiri cabang Jalali yang dikaitkan dengannya. {cite:wikipedia-jalaluddin-surkh-posh-bukhari-en} Ia menghabiskan hidupnya dengan bepergian dan berkhotbah, dan di bawah bimbingannya, suku-suku seperti Sumeru, Sama, Chadhar, Siyal, dan suku lain di Sindh dan Punjab memeluk Islam. {cite:wikipedia-jalaluddin-surkh-posh-bukhari-en} Setelah beliau, Ouj tetap menjadi kediaman keturunannya dari Bukhari Sayyids, dan mencakup makam serta masjidnya, yang telah terdaftar sejak 2004 dalam Daftar Warisan Dunia Persiapan UNESCO. {cite:wikipedia-jalaluddin-surkh-posh-bukhari-en}
+
+Putranya, Ahmad Kabir, adalah yang bungsu dari putranya dan khalifah pilihannya, dan dari Ahmad Kabir lahir cucunya Makhdoom Jahanian Jahangesht, yang menjadi sheikh paling terkenal dalam aksara Suhrawardi Awj pada abad kedelapan H. {cite:wikipedia-jahaniyan-jahangasht-en} Jalal al-Din meninggal di Awj, dan biografi keluarga menempatkan kematiannya pada 19 Jumada al-Awwal tahun 690 H, yang bertepatan dengan 20 Mei 1291 M, dan Wikidata bertepatan dengan tahun 1291 M. {cite:wikidata-jalaluddin-surkh-posh-bukhari}

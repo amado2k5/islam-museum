@@ -1,0 +1,12 @@
+---
+id: event/ibn-musbih-congratulates-al-hadi-and-the-spoils-of-al-numays-287
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/ibn-musbih-congratulates-al-hadi-and-the-spoils-of-al-numays-287.md}
+---
+## Özet
+[[person/muhammad-ibn-musbih-al-yarsami|Muhammed bin Musbah el-Yarsmi]] [[person/al-hadi-yahya-al-rassi|el-Hadi]] 'Alaf'a [[place/allaf-yemen|geldi ve anlatıcıya]] göre: 'Ben sizin fidyeniz olayım.' Düşmanınıza karşı zafer veren Allah'a şükürler olsun. Ondan kazandıklarınızı elde edeceğinizi hiç düşünmemiştik. Gerçekten de onların savaşında bir görüş gördüm; o fikrin yanlış olduğunu gördük, siz de o görüşün yanlış olduğunu görüyorsunuz, bu yüzden Allah sizi bu görüşte sağlam tutacak ve işler sizin seçtiğiniz {cite:sira-hadi-ila-al-haqq p.195} {cite:sira-hadi-ila-al-haqq p.196} yerine dönecektir. Sonra rivayetçi, bazı Akililerin kalelerinden yenilgiye uğrattıklarında [[person/ahmad-ibn-abbad-al-akili|Ahmed bin Abbad el-Akili]]'ye şöyle dediği bir haber anlatır Onları tehdit eder, ardından çatışma çıktığında kadınlarla otururdu ve o gün evlerde kadınlarla birlikte olduğunu bildirirdi. Bu, imamın takipçileri tarafından bildirilen sözlü bir rapordur ve müze hakkında herhangi bir karar yoktur {cite:sira-hadi-ila-al-haqq p.196}.
+
+## Detaylar
+Halk Alaf'tan ayrıldığında, el-Hadi orayı ele geçirdi, yıktı ve yaktı, yağmalanmasını emretti, yoldaşları Al-Numay'dan büyük mobilyalar, silahlar ve mallar aldı ve üzümlerin kesilmesini emretti. Orijinalin kenarında şöyle yazıyor: "Ona üzümleri yağmalamasını ve kesmesini emretti" {cite:sira-hadi-ila-al-haqq p.196}. İmam o gün öğleden sonraya kadar Alaf'ta kaldı, ardından sağ salim ayrıldı, Allah'a şükürler olsun, anlatıcının ifadesine göre {cite:sira-hadi-ila-al-haqq p.196}. Anlatıcı, Akilis ve Kulaibis'i zırhında taşırken yirmi ok isabet ettiğini ve halkın onlardan aldığı şeylerin yanı sıra kuruduğunu ekler, çünkü [[group/banu-kulayb-saada|Banu Kulayb]] Yemen halkının en asil ve en vahşi olanı kim {cite:sira-hadi-ila-al-haqq p.196}. Rapor, imamın takipçileri tarafından anlatıcıyı öven bir Zeydi rivayetidir. Önce [[event/the-ascent-of-allaf-and-the-fall-of-al-numays-287]], ardından [[event/banu-kulayb-ask-al-hadi-for-safety-and-the-akili-crops-are-cut-287]] gelir.

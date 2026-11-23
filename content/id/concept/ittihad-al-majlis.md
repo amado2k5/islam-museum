@@ -1,0 +1,27 @@
+---
+id: concept/ittihad-al-majlis
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/ittihad-al-majlis.md}
+---
+## Ringkasan
+Kesatuan dewan adalah kesatuan sidang di mana ucapan atau tindakan berlangsung, yang lebih luas daripada tempat sidang; dapat terjadi dengan berdiri dan perubahan tempat serta bentuk. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1475} Hanafi dalam dewan membedakan antara dewan yang sebenarnya, yang bergerak dari satu tempat ke tempat lain dalam lebih dari dua langkah, dan dewan arbitrase, yang merupakan tindakan langsung yang dianggap sebagai penentu sidang oleh kebiasaan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1477}
+
+## Dalam Kontrak
+Hanafi, Shafi'i, dan Hanbal mensyaratkan kesatuan majelis dalam penandatanganan kontrak, sehingga pemisahan singkat tidak merugikan non-Shafi'i kecuali ada rasa ditinggalkan, sedangkan perpisahan yang lama menurut Shafi'i merugikan mereka. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1478} Perkumpulan terganggu oleh penarikan diri dari tawaran untuk semua orang, kemudian mereka berbeda pendapat mengenai tindakan yang dibantah. Syafi'i menganggapnya sebagai perlakuan non-mahram, sementara Malik dan Hanbal menjadikannya adat, sementara Hanafi menjadikannya masalah perselisihan dalam pertemuan dengan berdiri, berjalan, atau makan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1479}
+
+## Riba, perdamaian, dan pernikahan
+Jika seorang ribalis dijual dengan harga yang sama, persatuan dewan dan kepemilikan bersama ditentukan, baik barang itu bersatu atau berbeda, seperti yang disebutkan dalam hadis tentang kategori riba. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1479} Hanafi, Shafi'i, dan Hanbal sepakat dengan syarat menyerahkan ibu kota perdamaian pada sesi kontrak, dan Malikis mengizinkan menundanya selama tiga hari. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1480} Ada tiga pendapat mengenai pernikahan: syarat persatuan dewan tanpa syarat segera, syarat segera, atau keabsahan kontrak meskipun ada perbedaan dewan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1481}
+
+## Ibadah
+Ada tiga pendapat mengenai perbaruan wudhu dengan kesatuan jemaat: tidak suka jika diulang dalam satu pertemuan karena boros, atau rekomendasi untuk memperbaruinya sekali saja, atau tidak suka jika pengulangan cukup sekali. Sebagian besar ahli hukum mengikuti Sunnah untuk memperbarui setiap shalat tanpa mempertimbangkan kesatuan pertemuan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1476} Wudhu dibatalkan oleh muntah tersebar, yang jika digabungkan, akan membuat mulut penuh menurut Hanafi berdasarkan perbedaan antara persatuan jemaat dan doa. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1476} Dalam sujud pembacaan, sujud diulang sesuai Malikis dan Hanbalis dengan mengulang ayat, tetapi tidak lagi menurut Hanafi jika pertemuan dan ayat digabungkan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1476} Mengenai mengirimkan berkat kepada Nabi ketika diulang dalam pertemuan, ada tiga pendapat: yang pertama adalah kewajiban pada setiap peringatan, yang kedua sekali dalam pertemuan, dan yang ketiga adalah rekomendasi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1477}
+
+## Perceraian, Ilaa, dan Zihar
+Jika seseorang berkata kepada konsumator: 'Anda bercerai tiga kali dalam satu sesi dan berniat mengulang kejadian itu,' maka tiga kejadian terjadi menurut empat imam. Jika niat pengakuan sesuai dengan Hanafi dan Shafi'i, maka tidak diterima, tetapi diterima oleh Malik dan Hanbali. Jika cerai, dianggap tiga menurut Hanafi, Maliki, dan Hanbali, yang merupakan pendapat paling jelas menurut para Shafi'i. Ibn Abbas dan para sahabatnya berpendapat bahwa tiga perceraian tersebut selama masa Nabi, Abu Bakr, dan kekhalifahan awal Umar adalah hal yang sama. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1483} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1484} Mengenai pengulangan perceraian yang tidak dikonsumasi olehnya, ada tiga pendapat: satu kejadian jika terjadi secara mutlak, atau tiga jika disempurnakan, atau tiga jika terjadi dalam satu sesi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1485} Dalam perceraian berulang dalam satu sidang dengan niat penekanan, menurut Hanafi, perceraian dianggap sebagai satu perceraian, sedangkan menurut syafi'i, perceraian dengan niat penekanan tidak diulang. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1486} Kesatuan dewan tidak berpengaruh pada zihar kecuali menurut mazhab Hanafi dalam kasus konfirmasi, dan penebusan untuk mayoritas tidak dikalikan dengan pengulangan zihar kecuali ada niat untuk mengajukan banding. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1486}
+
+## Ihram dan tebusan
+Fidya tidak tumpang tindih dalam tindakan terlarang dengan kesatuan kumpulan kecuali jenisnya bersatu, dan kompensasi atas kehancuran tetap berlipat ganda sesuai dengan jumlah perusak. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1477} Jika orang di ihram mengharumkan dirinya dengan berbagai parfum atau mengenakan berbagai jenis pakaian di satu tempat dan satu secara berurutan, maka menurut mayoritas ahli hukum, ada satu fidya, dan jika ini terjadi di dua tempat menurut beberapa orang, maka akan berkali. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1483}
+
+## Lokasi Pencarian
+Putusan rinci dewan dibahas di setiap bab, dan persatuan sebab diperiksa di pintu masuk persatuan perkara. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1475}

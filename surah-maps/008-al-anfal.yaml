@@ -1,48 +1,178 @@
 surah: 8
 slug: al-anfal
 sources_consulted:
-  - "kuttab.com — Surah Al-Anfal mind map (4 blocks: 1-19, 20-40, 41-64, 65-75)"
-  - "Qurtubi vol.8 description (Mecca Books) — Anfal: Badr and the division of spoils"
+- 'kuttab.com — Surah Al-Anfal mind map (4 blocks: 1-19, 20-40, 41-64, 65-75)'
+- 'Qurtubi vol.8 description (Mecca Books) — Anfal: Badr and the division of spoils'
 map:
-  - title: { ar: "يسألونك عن الأنفال", en: "They Ask You About the Spoils" }
-    range: [1, 19]
-    family: law
-    summary:
-      ar: "حكم الغنائم لله والرسول، وصفات المؤمنين حقا، وتأييد بدر بالملائكة — وما رميت إذ رميت."
-      en: "Spoils belong to Allah and the Messenger; traits of true believers; Badr reinforced by angels — you did not throw when you threw."
-    children:
-      - { title: { ar: "صفات المؤمنين حقا", en: "Traits of True Believers" }, range: [2, 4] }
-      - { title: { ar: "إمداد الملائكة ببدر", en: "Angels Reinforcing at Badr" }, range: [9, 12] }
-      - { title: { ar: "وما رميت إذ رميت", en: "You Did Not Throw When You Threw" }, range: [17, 17] }
-  - title: { ar: "لا تكونوا كالذين قالوا سمعنا", en: "Don't Be Like Those Who Said 'We Hear'" }
-    range: [20, 40]
-    family: faith
-    summary:
-      ar: "الأمر بالطاعة والاستجابة لله والرسول، والتحذير من التولي يوم الزحف، وأن الله لا يعذبهم وأنت فيهم."
-      en: "Obedience and answering Allah and the Messenger; warning against turning away in battle; Allah would not punish them while you are among them."
-    children:
-      - { title: { ar: "استجيبوا لله وللرسول", en: "Answer Allah and the Messenger" }, range: [24, 24] }
-      - { title: { ar: "أموالكم وأولادكم فتنة", en: "Wealth and Children Are a Trial" }, range: [28, 28] }
-      - { title: { ar: "الفرقان", en: "The Criterion" }, range: [29, 29] }
-      - { title: { ar: "وما كان الله ليعذبهم", en: "Allah Would Not Punish Them" }, range: [33, 33] }
-  - title: { ar: "الخمس والإعداد", en: "The Fifth and Preparation" }
-    range: [41, 64]
-    family: law
-    summary:
-      ar: "خمس الغنائم ومصارفه، والإعداد للقوة، والجنوح للسلم، والنهي عن التنازع المذهب للريح."
-      en: "The fifth of spoils and its shares; preparing strength; inclining to peace; no disputing, which saps resolve."
-    children:
-      - { title: { ar: "خمس الغنائم", en: "The Fifth of the Spoils" }, range: [41, 41] }
-      - { title: { ar: "لا تنازعوا", en: "Do Not Dispute" }, range: [46, 46] }
-      - { title: { ar: "وأعدوا لهم ما استطعتم", en: "Prepare Whatever Strength You Can" }, range: [60, 60] }
-      - { title: { ar: "الجنوح للسلم", en: "Inclining to Peace" }, range: [61, 61] }
-  - title: { ar: "حرض المؤمنين", en: "Urge the Believers" }
-    range: [65, 75]
-    family: law
-    summary:
-      ar: "تحريض النبي للمؤمنين على القتال، وتخفيف نسبة المواجهة، وحكم الأسرى، وولاية المهاجرين والأنصار."
-      en: "The Prophet urging believers to fight; the combat ratio lightened; rulings on captives; the alliance of emigrants and helpers."
-    children:
-      - { title: { ar: "تخفيف النسبة", en: "The Ratio Lightened" }, range: [65, 66] }
-      - { title: { ar: "حكم الأسرى", en: "Rulings on Captives" }, range: [70, 71] }
-      - { title: { ar: "المهاجرون والأنصار أولياء", en: "Emigrants and Helpers Are Allies" }, range: [72, 75] }
+- title:
+    ar: يسألونك عن الأنفال
+    en: They Ask You About the Spoils
+    tr: Size Anfal hakkında sorular soruyorlar
+    id: Mereka menanyakan tentang Anfal
+  range:
+  - 1
+  - 19
+  family: law
+  summary:
+    ar: حكم الغنائم لله والرسول، وصفات المؤمنين حقا، وتأييد بدر بالملائكة — وما رميت إذ رميت.
+    en: Spoils belong to Allah and the Messenger; traits of true believers; Badr reinforced by angels — you did not throw when you threw.
+    tr: Ganimet hakkı Allah'a ve Resef'e, müminlerin gerçek niteliklerine ve Badr'ın meleklerle desteğine — ve attığınızda attığınız şeye — aittir.
+    id: Keputusan atas rampasan adalah milik Allah dan Rasulullah, sifat-sifat sejati orang beriman, dan dukungan Badr dengan malaikat — dan apa yang kamu lempar saat kamu melempar.
+  children:
+  - title:
+      ar: صفات المؤمنين حقا
+      en: Traits of True Believers
+      tr: İnananların Gerçek Nitelikleri
+      id: Kualitas Sejati Para Percaya
+    range:
+    - 2
+    - 4
+  - title:
+      ar: إمداد الملائكة ببدر
+      en: Angels Reinforcing at Badr
+      tr: Meleklere Badr'ı sağlamak
+      id: Memberikan Badr kepada para malaikat
+    range:
+    - 9
+    - 12
+  - title:
+      ar: وما رميت إذ رميت
+      en: You Did Not Throw When You Threw
+      tr: Ve attığında atmadın
+      id: Dan kamu tidak melempar saat melempar
+    range:
+    - 17
+    - 17
+- title:
+    ar: لا تكونوا كالذين قالوا سمعنا
+    en: Don't Be Like Those Who Said 'We Hear'
+    tr: Duyduğumuzu söyleyenler gibi olmayın
+    id: Jangan seperti yang bilang kami mendengar
+  range:
+  - 20
+  - 40
+  family: faith
+  summary:
+    ar: الأمر بالطاعة والاستجابة لله والرسول، والتحذير من التولي يوم الزحف، وأن الله لا يعذبهم وأنت فيهم.
+    en: Obedience and answering Allah and the Messenger; warning against turning away in battle; Allah would not punish them while you are among them.
+    tr: Allah'a ve Elçi'ye itaat etme ve cevap verme, yürüyüş günü geri dönmemek konusunda uyarma ve Tanrı'nın sen onların arasındayken onları cezalandırmaması emri.
+    id: Perintah untuk taat dan menjawab Tuhan dan Rasulullah, serta memperingatkan agar tidak berpaling pada hari perjalanan, dan bahwa Tuhan tidak menghukum mereka saat kamu berada di antara mereka.
+  children:
+  - title:
+      ar: استجيبوا لله وللرسول
+      en: Answer Allah and the Messenger
+      tr: Tanrı'ya ve Elçi'ye Cevap Ver
+      id: Tanggapi Tuhan dan Rasul
+    range:
+    - 24
+    - 24
+  - title:
+      ar: أموالكم وأولادكم فتنة
+      en: Wealth and Children Are a Trial
+      tr: Paranız ve çocuklarınız bir isyandır
+      id: Uang dan anak-anakmu adalah hasutan
+    range:
+    - 28
+    - 28
+  - title:
+      ar: الفرقان
+      en: The Criterion
+      tr: Al-Furqan
+      id: Al-Furqan
+    range:
+    - 29
+    - 29
+  - title:
+      ar: وما كان الله ليعذبهم
+      en: Allah Would Not Punish Them
+      tr: Ve Tanrı onları cezalandırmazdı
+      id: Dan Tuhan tidak akan menghukum mereka
+    range:
+    - 33
+    - 33
+- title:
+    ar: الخمس والإعداد
+    en: The Fifth and Preparation
+    tr: Al-Khums ve Hazırlık
+    id: Al-Khums dan Persiapan
+  range:
+  - 41
+  - 64
+  family: law
+  summary:
+    ar: خمس الغنائم ومصارفه، والإعداد للقوة، والجنوح للسلم، والنهي عن التنازع المذهب للريح.
+    en: The fifth of spoils and its shares; preparing strength; inclining to peace; no disputing, which saps resolve.
+    tr: Ganimetlerin beşte beşi ve harcamaları, güç için hazırlık, barış için çaba ve rüzgara dayalı anlaşmazlıkları yasaklamak.
+    id: Lima per lima dari rampasan dan pengeluarannya, mempersiapkan kekuatan, berjuang untuk perdamaian, dan melarang perselisihan yang didasarkan pada angin.
+  children:
+  - title:
+      ar: خمس الغنائم
+      en: The Fifth of the Spoils
+      tr: Beşinci ganimet
+      id: Kelima dari hasil rampasan
+    range:
+    - 41
+    - 41
+  - title:
+      ar: لا تنازعوا
+      en: Do Not Dispute
+      tr: Tartışma
+      id: Jangan berdebat
+    range:
+    - 46
+    - 46
+  - title:
+      ar: وأعدوا لهم ما استطعتم
+      en: Prepare Whatever Strength You Can
+      tr: Ve onlara elinizden geldiğince hazırlanın
+      id: Dan persiapkan sebisa mungkin untuk mereka
+    range:
+    - 60
+    - 60
+  - title:
+      ar: الجنوح للسلم
+      en: Inclining to Peace
+      tr: Barışa Eğilim
+      id: Condong ke arah perdamaian
+    range:
+    - 61
+    - 61
+- title:
+    ar: حرض المؤمنين
+    en: Urge the Believers
+    tr: inananları kışkırtmak
+    id: menghasut orang beriman
+  range:
+  - 65
+  - 75
+  family: law
+  summary:
+    ar: تحريض النبي للمؤمنين على القتال، وتخفيف نسبة المواجهة، وحكم الأسرى، وولاية المهاجرين والأنصار.
+    en: The Prophet urging believers to fight; the combat ratio lightened; rulings on captives; the alliance of emigrants and helpers.
+    tr: Peygamber'in müminleri savaşmaya, çatışma seviyesini azaltmaya, mahkumları yönetmeye ve Muhacirun ile Ensar'ın vesayetini vermeye teşvik etmesi.
+    id: Ajakan Nabi kepada umat untuk berjuang, mengurangi tingkat konfrontasi, memerintah para tawanan, dan memberikan hak asuh kepada Muhajirun dan Ansar.
+  children:
+  - title:
+      ar: تخفيف النسبة
+      en: The Ratio Lightened
+      tr: Oranın azaltılması
+      id: Mengurangi rasio
+    range:
+    - 65
+    - 66
+  - title:
+      ar: حكم الأسرى
+      en: Rulings on Captives
+      tr: Mahkumların Yönetimi
+      id: Aturan Narapidana
+    range:
+    - 70
+    - 71
+  - title:
+      ar: المهاجرون والأنصار أولياء
+      en: Emigrants and Helpers Are Allies
+      tr: Muhacirun ve Ansar azizlerdir
+      id: Muhajirun dan Ansar adalah para wali
+    range:
+    - 72
+    - 75

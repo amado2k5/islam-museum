@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "2049"
-label: { ar: "سنن النسائي 2049 — دفن وقبر ومرقد", en: "Sunan al-Nasa'i 2049 — a burial, grave or resting place", ur: "سنن نسائی 2049 — تدفین، قبر اور مرقد", es: "Sunan al-Nasa'i 2049 — un lugar de entierro, tumba o descanso.", fr: "Sunan al-Nasa'i 2049 — un lieu de sépulture, une tombe ou un lieu de repos" }
+label: { ar: "سنن النسائي 2049 — دفن وقبر ومرقد", en: "Sunan al-Nasa'i 2049 — a burial, grave or resting place", ur: "سنن نسائی 2049 — تدفین، قبر اور مرقد", es: "Sunan al-Nasa'i 2049 — un lugar de entierro, tumba o descanso.", fr: "Sunan al-Nasa'i 2049 — un lieu de sépulture, une tombe ou un lieu de repos", tr: "Sunan an-Nasa'i 2049 — Defin, Mezar ve Türbe", id: "Sunan an-Nasa'i 2049 — Pemakaman, Kuburan, dan Tempat Suci" }
 text: "أَخْبَرَنَا أَحْمَدُ بْنُ أَبِي عُبَيْدِ اللَّهِ الْوَرَّاقُ، قَالَ حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، عَنْ سَعِيدٍ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، أَنَّ النَّبِيَّ قَالَ \" إِنَّ الْعَبْدَ إِذَا وُضِعَ فِي قَبْرِهِ وَتَوَلَّى عَنْهُ أَصْحَابُهُ إِنَّهُ لَيَسْمَعُ قَرْعَ نِعَالِهِمْ \"."
 summary:
   ar: "حديث في سنن النسائي، رقم 2049، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 2049، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 2049 (El Libro de los Funerales), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un verset du Sunan al-Nasa'i, n° 2049 (Le Livre des Funérailles), mentionne un lieu de sépulture, une tombe ou un lieu de repos. Le Navigateur des Testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Sunan-ı Nesai'de 2049 numaralı hadis, defin, mezar ve türbeden bahsetmektedir. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler üzerine araştırmalar yapan bir uzman tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, no. 2049, menyebutkan tentang penguburan, kuburan, dan makam. Hadits ini disusun oleh peneliti wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2049 (book 21 hadith 232); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

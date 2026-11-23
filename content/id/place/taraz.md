@@ -1,0 +1,27 @@
+---
+id: place/taraz
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/place/taraz.md}
+---
+## Ringkasan
+Artikel "Taraz" dalam Ensiklopedia Islam membahas kota menengah Taraz, juga disebut Talas, di provinsi Sihun, Asia Tengah; kota saat ini berada, yang dulu disebut Uli Ata dan Jambol pada saat artikel ini dibuat, sekarang berada di Kazakhstan, sementara nama kuno Talas dihidupkan kembali untuk tempat yang lebih modern sedikit di timur dalam Kyrgyzstan. {cite:encyclopaedia-of-islam-2 vol. 10 p. 237} Talas asli berada di lembah antara dua jajaran pegunungan yang membentang ke barat dan berakhir di gurun Aq Kum. {cite:encyclopaedia-of-islam-2 vol. 10 p. 237}
+
+## Kota tua di jalan komersial
+Lembah ini membawa jalur perdagangan penting ke timur menuju Lembah Chu dan wilayah Smyrche. {cite:encyclopaedia-of-islam-2 vol. 10 p. 237} Talas adalah kota kuno yang disebutkan oleh utusan Bizantium Zemarchhus, yang melakukan perjalanan ke kamp Khagan Turkik Barat pada tahun 568 M. Peziarah Buddha Tionghoa Xuanzang mengenalinya sekitar tahun 630 M sebagai pusat perdagangan; mungkin berasal dari Sogdia. Mahmoud al-Kashgari menyebutkan pada abad ke-5 H/abad ke-11 M bahwa baik bahasa Sogdian maupun Turkik digunakan di sana. {cite:encyclopaedia-of-islam-2 vol. 10 p. 237} Penggalian menunjukkan bahwa Zoroastrianisme, Kristen, dan Buddhisme dipraktikkan di wilayah ini pada masa awal. {cite:encyclopaedia-of-islam-2 vol. 10 p. 237}
+
+## Pertempuran Tlass dan Samanid
+Tlass pertama kali muncul dalam sejarah Islam sebagai lokasi umum pertempuran yang terjadi di Dhu al-Hijjah 133 H / Juli 751 M antara penguasa Tiongkok Kucha, Cao Xianqi, sekutu Turkinya, dan komandan Arab Ziyad ibn Salih al-Khuza'i. Pertempuran ini membatasi ambisi Tiongkok untuk menguasai langsung Asia Tengah. {cite:encyclopaedia-of-islam-2 vol. 10 p. 237} Pada tahun 280 H/893 M, pangeran Samanid Ismail ibn Ahmad Tlass menyerbu dan mengubah gereja Kristennya menjadi masjid. {cite:encyclopaedia-of-islam-2 vol. 10 p. 237} Pada abad ke-4 H/abad ke-10 M, Ibn Hawqal dan al-Maqdisi menggambarkannya sebagai daerah benteng dan berpenghuni, pusat perdagangan dengan Turki Karluk di stepa belakangnya. Di antara produknya adalah kulit kambing. 'Bhut al-Alam' menyatakan bahwa Turki Muslim dan non-Muslim menghuninya. {cite:encyclopaedia-of-islam-2 vol. 10 p. 237}
+
+## Karakhanid dan Mongol
+Tlas menjadi sangat penting selama era Karakhanid: merupakan bagian dari warisan Qadr Khan Yusuf, yang meninggal pada tahun 423 atau 424 H/1032 M, dan kemudian kepada putranya Yagan Tekin Muhammad, yang meninggal pada tahun 449 H/1057 M. Artikel tersebut menyebutkan koin Karakhanid yang dicetak dalam Talas. {cite:encyclopaedia-of-islam-2 vol. 10 pp. 237-238} Pada tahun 607 H/1210 M, terjadi pertempuran di Tlas antara Khwarezm Shah Ala al-Din Muhammad dan sekutu Qarakhanid-nya Uthman ibn Ibrahim serta suku Kara-Khitay. Pertempuran ini tidak menentukan tetapi menguras sumber daya Kara-Khitay. {cite:encyclopaedia-of-islam-2 vol. 10 p. 238} Pada era Mongol, kota ini diperintah oleh gubernur yang mencetak koin di sana; William dari Robruke melewatinya pada tahun 1253 M, dan di tepi Sungai Talas, Mongol Guriltai pertama di Asia Tengah mendapat kontrak pada musim semi tahun 1269 M ketika Kido dan Baraq menyetujui tanah mereka. {cite:encyclopaedia-of-islam-2 vol. 10 p. 238} Pada era Mongol, nama Yinki muncul, yang berarti baru, bersama Tlas, kadang dalam bentuk gaya Yinki, dan kemudian Tlas hampir menghilang dari sumber sejarah. {cite:encyclopaedia-of-islam-2 vol. 10 p. 238}
+
+## Dalam katalog Nomisma
+Sebuah model dicatat di Numisma dengan pengenal 'taraz' sebagai konsep pabrik uang (mint), dan setelah penyelidikan pada 14 November 2026, tidak ada koin atau jenis mint yang terkait dengannya, meskipun artikel Ensiklopedia Islam mencatat koin yang dicetak di tallas. {cite:nomisma taraz}
+
+## Dalam kamus negara
+Yaqut menyebut 'Taraz' di akhir wilayah kelima, panjangnya seratus lima puluh derajat dan lebarnya empat puluh derajat dua puluh lima menit, seperti yang dilaporkan; Abu Sa'd mengatakan itu dengan fatha, dan yang lain menceritakannya dengan kasra dan diakhiri dengan 'zay' secara konsensus; itu adalah sebuah kota dekat Isbijab di perbatasan Turki, dekat dengan tempat sebelumnya. Beberapa ulama mengaitkan dengan kota ini, termasuk Mahmoud ibn Ali al-Tarazi, ahli hukum dan al-Manzir yang meninggal pada tahun 530 H. Disebutkan bahwa Taraz juga merupakan distrik di Isfahan, yang dikaitkan dengan penduduk Taraz. Dalam bab yang sama, sebelumnya, 'Taraband' adalah sebuah kota di luar Sihun, dari bagian terjauh wilayah Shash setelah Turkestan, yang dianggapnya sebagai tanah Islam terakhir di seberang sungai. Penduduk tanah itu menghilangkan bagian nama dan mengatakan 'Tarar' dan 'Atarar'. {cite:mujam-al-buldan-sader-1995 4 p.27}
+
+## Definisi Museum
+Taraz al-Balqa adalah kota perbatasan Turkik yang disebutkan oleh Yaqut dekat Ispijab, dan sesuai dengan bacaan yang sama dengan Bab Taraband, yang menyatakan bahwa penduduknya memendekkan namanya menjadi Taraar dan Atara; serta lingkungan Asfahan yang disebut Taraz, tempat lain di mana Yaqut menulis perbedaannya, sehingga materi kartu ini tidak dipertimbangkan di dalamnya.

@@ -1,0 +1,25 @@
+---
+id: concept/luhuq-nasab-fiqh
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/luhuq-nasab-fiqh.md}
+---
+## Ringkasan
+Dalam bahasa, 'hawwq' berarti persepsi, dan apa pun yang dirasakan diikuti olehnya. Para ahli hukum menggunakan akar kata tersebut untuk menetapkan garis keturunan, yaitu penggabungan dhimmi dan murtad dengan tanah perang, penempelannya janin perempuan dengan ibunya dalam status hukum, keterikatan wanita muda pada zakat, dan penggabungan kerabat yang menjualnya. Menurut para ahli usul, ini berarti analogi {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13589}.
+
+## Alasan Pembentukan Garis Keturunan
+Hubungan dalam garis keturunan adalah pembentukan garis keturunan anak karena salah satu alasan; salah satunya adalah pernikahan yang sah. Anak yang dibawa oleh wanita yang sudah menikah terkait dengan suaminya, menurut hadits: Anak itu untuk tempat tidur, dengan syarat: suami biasanya dikandung karena hamil, sehingga anak tidak dikonsumasi secara konsensus, dan tidak diterima oleh sebagian pihak bahwa anak itu telah dikonsumasikan. Dia harus memilikinya lebih lama dari masa kehamilan minimum dan maksimum, dan maksimum menurut Hanafi dan narasi Ahmad adalah dua tahun. Menurut Syafi'i dan Hanbali, empat tahun di sekolah, dan lima tahun menurut Maliki dalam pandangan yang terkenal. Muhammad ibn Abd al-Hakam berkata sembilan bulan {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13589}, dan bahwa persatuan mungkin terjadi setelah kontrak {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13589}.
+
+## Pernikahan korup dan hubungan seksual yang dicurigai
+Pernikahan tidak sah adalah pandangan yang benar mengenai pencapaian garis keturunan dalam kondisi yang disebutkan {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13589}. Hubungan seks dengan keraguan: jika seorang wanita tanpa suami memiliki anak setelah enam bulan atau lebih, garis tersebut sah menurut mayoritas ahli hukum. Hakim Abu Ya'la mengatakan garis keturunan itu tidak sah karena garis keturunan hanya berlaku dalam pernikahan, kepemilikan, atau kecurigaan kepemilikan; Ahmad berkata: Siapa pun yang dilindungi oleh hukuman hadd atas hubungan seksual, saya akan menempelkan anak itu padanya {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13590}.
+
+## Deklarasi dan Lampiran
+Mengakui garis keturunan wajib dengan kebenaran, dan dilarang dengan kebohongan. Ada dua jenis: pengakuan akan hal yang sama, seperti mengatakan, 'Ini anakku,' dan pengakuan terhadap orang lain, seperti mengatakan, 'Ini saudaraku.' Dalam kasus pertama, diwajibkan bahwa orang yang mengakui adalah orang yang terpilih dan bertanggung jawab, tidak disangkal oleh akal atau Syariah, dan bahwa orang yang berkerabat harus percaya jika dia layak percaya; dan jika dia bergabung dengan anak di bawah umur atau orang gila, dia memenuhi syarat kecuali untuk konfirmasi {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13590} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13591}. Diperbolehkan bergabung dengan almarhum jika dia tidak dituduh mencari warisan atau kehilangan kepemilikan {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13591}. Menurut syafi'i, tidak diperbolehkan mengaitkan orang yang diasingkan dengan la'an {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13591}. Hanafi tidak mengakui hak keturunan dengan mengakui melalui orang lain, karena pengakuan adalah bukti terhadap diri sendiri, bukan orang lain {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13591}.
+
+## Al-Qiyafa, Shahada, dan Istifrash dengan tangan kanan
+Jika dua anak kecil dengan asal usul tidak diketahui dan tidak ada bukti, ia akan dibawa ke Qafah dan diikuti oleh mereka yang mengikutinya; jika ia dewasa waras, ia ditugaskan kepada orang yang percaya; jika ia diam, ia akan disajikan kepada Qafah {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13591}. Garis keturunan melekat pada kesaksian dengan syarat-syaratnya {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13592}. Dan istifrash dengan tangan kanan: Jika ia tinggal bersama dengan hartanya dan wanita itu memiliki anak selama masa kehamilan sejak hari berhubungan seks, ia mengikutinya. Malik, Al-Shafi'i, dan Ahmad mengatakan demikian; Abu Hanifa dan Al-Thawri mengatakan bahwa dia tidak menjadi tempat tidur sampai dia mengakui anak itu {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13592}.
+
+## Dhimmi dan murtad di tanah perang
+Perjanjian dhimmi dibatalkan dengan bergabung dengan dhimmi di tanah perang, karena telah menjadi perang melawan kita {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13592}. Menurut Hanafi, jika murtad bergabung dengan murtad selama masa opsi dan hakim memutuskan untuk bergabung dengannya, penjualan menjadi mengikat, dan keuntungan, kemitraan, serta agensi menjadi tidak sah setelah hak murtad. Spekulasi masih ada apakah murtad adalah murtad, dan tindakan murtad ditangguhkan {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13592} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13593}.
+

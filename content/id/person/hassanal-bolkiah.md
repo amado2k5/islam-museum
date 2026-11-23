@@ -1,0 +1,25 @@
+---
+id: person/hassanal-bolkiah
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/hassanal-bolkiah.md}
+---
+## Abstrak
+Hassan Al-Bolkiah (lahir 1946) telah menjabat sebagai Sultan Brunei sejak 1967 dan Perdana Menteri sejak kemerdekaannya pada 1984. Ia diproklamasikan sebagai Sultan pada tahun ke-21 setelah pengunduran diri ayahnya, Omar Ali Saifuddin III, dan memimpin Brunei menuju kemerdekaan penuh dari Inggris pada 1 Januari 1984, sebagai salah satu raja absolut terakhir di dunia dengan filosofi 'Melayu, Islam, dan Monarki.' Ia adalah raja terlama di dunia dan merayakan ulang tahun kelima puluh di tahta pada 2017. {cite:wikipedia-hassanal-bolkiah-ar} {cite:wikidata-hassanal-bolkiah}
+
+## Kehidupan Awal dan Pendidikan
+Pangeran Hassan Al-Bolkiah lahir pada 15 Juli 1946 di Istana Dar es Salaam di kota Brunei, putra sulung Bandhara Omar Ali Saifuddin, pewaris takhta, dari istrinya Benghiran Anq Damit. Ia pertama kali belajar di Surao Dar Al Hana Palace dan Jamal Alam Malawi School, kemudian di Kuala Lumpur di Victoria Foundation (1961–1963), di mana ia dinobatkan sebagai Best Recruit in the Student Corps, dan kemudian di Sultan Umar Ali Saifuddin College setelah kembali. Ia diangkat menjadi Putra Mahkota pada 14 Juli 1961, dan pada Desember 1962, ia diselamatkan oleh tentara Gorka bersama ayahnya dari istana selama Revolusi Brunei. Pada tahun 1965, ia menikah dengan Benghiran Anq Salha, masuk Royal Military Academy Sandhurst pada tahun 1966 sebagai perwira magang, dan dianugerahi pangkat kapten kehormatan di Coldstream Guard pada tahun 1968. {cite:wikipedia-hassanal-bolkiah-en} {cite:wikipedia-hassanal-bolkiah-ar}
+
+## Promosi dan Penobatan
+Pada malam 4 Oktober 1967, Omar Ali Saif al-Din III mengumumkan pengunduran dirinya, dan Hassan al-Bolkiya kembali dari Inggris dan diproklamasikan sebagai Sultan Brunei ke-29 keesokan harinya, berjanji untuk mengikuti kebijakan ayahnya. Penobatannya terjadi pada 1 Agustus 1968, ketika ayahnya meletakkan mahkota di kepalanya, diserahkan oleh Chris C. Naga, dan ia melepas pedang resminya sebagai tanda kesetiaan kepadanya sebagai kepala negara dan agama. Sultan lama tetap menjadi penguasa di balik tahta selama bertahun-tahun, memberikan nasihat dalam setiap keputusan besar. Berdasarkan konstitusi 1959, sultan menikmati kekuasaan eksekutif penuh, status yang ditetapkan oleh keadaan darurat yang diumumkan sejak revolusi 1962. {cite:wikipedia-hassanal-bolkiah-en}
+
+## Kemerdekaan dan Pemerintahan Mutlak
+Sultan bernegosiasi dengan Inggris mengenai masa depan Brunei sepanjang tahun 1970-an: Perjanjian Persahabatan 1971 memberikan kemerdekaan internal penuh, dan Perjanjian Persahabatan dan Kerja Sama memberikan kedaulatan penuh pada 1 Januari 1984, mendeklarasikan kemerdekaan pada tengah malam dan mengambil alih jabatan perdana menteri serta kementerian keuangan dan dalam negeri, dengan menyatakan filosofi 'Melayu, Islam, dan Monarki' sebagai doktrin nasional. Rencana pembangunan yang didanai oleh minyak dan gas meningkatkan standar hidup; dewan legislatif dibentuk kembali dalam bentuk yang dimodifikasi pada 2004 setelah dibubarkan sejak 1962, dan pada 2006 dinyatakan bahwa dewan ini mengubah konstitusi agar menjadi tak pernah salah menurut hukum Brunei. Di luar negeri, ia memimpin KTT APEC pada 2000 dan KTT ASEAN pada 2013 dan 2021. {cite:wikipedia-hassanal-bolkiah-en} {cite:wikipedia-hassanal-bolkiah-ur}
+
+## Kode Pidana Syariah dan Tahun-Tahun Terbaru
+Pada tahun 2014, Sultan mulai menegakkan Kitab Undang-Undang Pidana Syariah, yang mulai berlaku pada tahap akhir pada 3 April 2019, menetapkan pelemparan batu karena perselingkuhan, hubungan sesama jenis, dan amputasi tangan dalam pencurian. Undang-undang tersebut memicu protes global dan boikot terhadap hotel-hotel Grup Dorchester milik keluarga kerajaan, sehingga Sultan memperpanjang moratorium hukuman mati selama beberapa minggu dan mengumumkan ratifikasi Konvensi Perserikatan Bangsa-Bangsa Menentang Penyiksaan. Pada peringatan emasnya di Oktober 2017, puluhan ribu orang berkumpul di ibu kota untuk prosesi kereta kerajaannya. Selama pandemi COVID, pembatasan perjalanan awal diberlakukan dan ia menerima vaksin secara terbuka pada April 2021. Putrinya tercatat sekali dalam daftar ayahnya; tidak ada sumber yang terbaca dalam daftar ini yang menyebutkan Hasan al-Balkiya sebagai sekte agama — kepemimpinannya dalam Islam di Brunei adalah posisi yang melekat pada tahtanya — sehingga daftar ini tidak mencatat doktrinnya. {cite:wikipedia-hassanal-bolkiah-en} {cite:wikidata-hassanal-bolkiah}
+
+## Sumber
+- Entitas dari sumber yang disebutkan di atas, terdaftar pada `data/source/`.
+- Ulasan artikel ini harus diberi tanggal dan disebutkan sumber yang mengubah setiap insiden.

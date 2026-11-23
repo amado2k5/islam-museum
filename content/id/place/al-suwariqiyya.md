@@ -1,0 +1,12 @@
+---
+id: place/al-suwariqiyya
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/place/al-suwariqiyya.md}
+---
+## Ringkasan
+Al-Suwarqiyah adalah sebuah desa yang dicapai oleh [[person/al-hadi-yahya-al-rassi|al-Hadi]] dan rekan-rekannya dalam perjalanan mereka ke Yaman, dan mereka bertekad untuk mengambil rute menuju Turbah dan Bisha, tetapi jalan yang mereka harapkan menjadi sulit, sehingga mereka berbalik {cite:sira-hadi-ila-al-haqq p.38} {cite:sira-hadi-ila-al-haqq p.39}. Catatan pinggir merujuk pada 'Sifat al-Jazira' dan 'Mu'jam al-Buldan' {cite:sira-hadi-ila-al-haqq p.38}. Teks tidak menyebutkan lokasinya lebih lanjut, sehingga tidak ada koordinat yang diberikan. Lihat [[event/al-hadi-road-to-saada-well-and-zubayd]].
+
+## Dalam kamus negara Yaqut
+Yaqut menyebut nama tersebut dengan 'qaf' setelah 'r' dan ya' dalam nisba (nisbah), dan mengatakan bahwa nama ini juga disebut 'al-Suwayriqiyah' dengan bentuk kecil, dan bahwa itu adalah desa Abu Bakr antara Mekah dan Madinah, dialek Najdi yang dimiliki oleh Banu Sulaym. {cite:mujam-al-buldan-sader-1995 3 p.276} Ia melaporkan bahwa Nabi ditanya tentang namanya dan menjawab bahwa namanya adalah Mu'aysim, dan hanya sedikit pohon palem serta hasil panen yang bisa dirusak karenanya. {cite:mujam-al-buldan-sader-1995 3 p.276} 3) Dilaporkan dari 'Aram' bahwa desa ini besar dan makmur dengan banyak penduduk lokal, mimbar, masjid, dan pasar yang sering dikunjungi oleh para pedagang terutama dari Banu Sulaym. Airnya mengandung sedikit salinitas, sehingga mereka minum dari sumur di Wadi Suwariq dan Wadi al-Abtan. Mereka memiliki pertanian dan kebun kelapa sawit yang berupa pisang, ara, anggur, delima, quince, persik, unta, kuda, dan domba. Mereka melewati jalan Hijaz dan Najd menuju Haji hingga Dhuraiyah. {cite:mujam-al-buldan-sader-1995 3 p.276} Di antara yang dikaitkan dengan karya ini adalah Abu Bakr Muhammad ibn Atiq ibn Najm al-Suwarqi al-Bakri, seorang ahli hukum dan penyair bangsawan, yang melakukan perjalanan ke Khurasan dan meninggal di Tus pada tahun 538 H. Abu Sa'd menceritakan beberapa puisinya darinya. {cite:mujam-al-buldan-sader-1995 3 p.276}

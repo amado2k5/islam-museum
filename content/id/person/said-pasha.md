@@ -1,0 +1,33 @@
+---
+id: person/said-pasha
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/said-pasha.md}
+---
+## Ringkasan
+Muhammad Said Pasha adalah putra bungsu [[person/muhammad-ali-pasha|Muhammad Ali Pasha]], dan ia adalah gubernur turun-temurun Mesir dari tahun 1854 hingga 1863, dan secara teori kedaulatan Ottoman atas wilayah itu ada. Ensiklopedia Islam menyatakan bahwa gelar resminya adalah Pasha, tetapi ia secara tidak resmi disebut Khedive sebelum gelar ini secara resmi diadopsi setelah kematiannya. {cite:encyclopaedia-of-islam-2 vol. 8 p. 924} Catatan ini mengikuti artikel tersebut, dengan dua rincian dari artikel tentang Suez dan Mesir.
+
+## Masa kecilnya dan Asumsi Kekuasaan
+Ia lahir pada tahun 1822. Artikel tersebut menyebutkan bahwa ayahnya menghargai kompetensinya, sehingga ia mengirimnya ke Istanbul pada usia sembilan belas tahun untuk menegosiasikan upeti yang akan dibayarkan Mesir kepada Sublime Porte. {cite:encyclopaedia-of-islam-2 vol. 8 p. 924} Pamannya dan pendahulunya, Abbas Helmy I, telah mencoba mengubah aturan warisan yang ditetapkan oleh firman Ottoman pada tahun 1841, yaitu cucu sulung Muhammad Ali akan mengambil alih tahta, menjadikan jabatan gubernur kepada putranya Ilhami Pasha. Berita kematian Abbas disembunyikan untuk waktu singkat, tetapi Saeed mengambil alih kekuasaan tanpa kesulitan pada Juli 1854. {cite:encyclopaedia-of-islam-2 vol. 8 p. 924}
+
+Artikel ini membedakan kedua pria tersebut. Abbas Helmi sangat menekankan haknya terhadap Sultan Ottoman dan waspada terhadap tekanan Eropa, sementara Said, yang memiliki beberapa pendidik Eropa, kurang curiga terhadap Barat dan metode barunya, serta memiliki kecenderungan khusus terhadap budaya Prancis. Ia menggambarkan Helmi sebagai penguasa yang lembut dan dermawan, lebih dicintai rakyat dibandingkan pendahulunya yang pendiam dan konservatif, namun agak lemah dan dipengaruhi oleh nasihat kepentingan tertentu. {cite:encyclopaedia-of-islam-2 vol. 8 p. 924}
+
+## Perbaikan, transportasi, dan keuangan
+Artikel tersebut menyatakan bahwa Said, mungkin dipengaruhi oleh penasihat asing, menghidupkan kembali banyak kebijakan ekonomi, sosial, dan hukum ayahnya, serta melonggarkan sentralisasi ekstrem yang menjadi ciri era Muhammad Ali. Ia mengeluarkan undang-undang komprehensif pertama Mesir yang memberikan pengelolaan bebas atas tanah dan properti, dan pada tahun 1858 menghapus monopoli negara atas produk pertanian. Artikel tersebut membandingkan langkah-langkah ini dengan reformasi regulasi kontemporer di Turki. {cite:encyclopaedia-of-islam-2 vol. 8 p. 924}
+
+Ia juga memperhatikan jalur kereta api dan sarana transportasi lainnya. Selama masa pemerintahannya [[place/cairo|]], jalur kereta [[place/alexandria|Kairo-Alexandria selesai dibangun]], konsesi diberikan kepada Eastern Telegraph Company, dan pada tahun 1854 perusahaan navigasi dan transportasi sungai pertama didirikan di Mesir, dan pada tahun 1857, sebuah perusahaan pelayaran komersial didirikan untuk melayani perdagangan luar negeri. {cite:encyclopaedia-of-islam-2 vol. 8 p. 924} Banque Misr didirikan pada tahun 1854, dan artikel tersebut menceritakan selama masa pemerintahannya awal proses pengaruh keuangan dan komersial Eropa. Biaya petualangan militer dan pekerjaan publiknya membuatnya meminta pinjaman sebesar tiga juta pound dari sebuah bank di London, dan artikel tersebut menganggapnya sebagai tanda peringatan kebijakan keuangan yang bencana yang [[person/khedive-ismail|menyeret Ismail]] ke jurang. {cite:encyclopaedia-of-islam-2 vol. 8 p. 925}
+
+## Konsesi Terusan Suez
+Artikel tersebut menempatkan Terusan Suez di atas segalanya, menyatakan bahwa Said terpengaruh oleh Ferdinand de Lesseps, bahwa De Lesseps menerima konsesi pertamanya pada tahun 1854, dan Pasha mengonfirmasinya pada tahun 1856. {cite:encyclopaedia-of-islam-2 vol. 8 p. 924} {cite:encyclopaedia-of-islam-2 vol. 8 p. 925} Artikel Mesir menyebutkan bahwa pemberian tersebut terjadi pada 30 November 1854. {cite:encyclopaedia-of-islam-2 vol. 7 p. 206} Artikel Suez menyebutkan bahwa Said menandatangani konsesi pada 5 Januari 1856, dengan harapan bahwa kanal tersebut akan meningkatkan kemerdekaan Mesir dari Kekaisaran Ottoman. {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} Tampaknya kedua tanggal tersebut berasal dari pemberian pertama dan penandatanganan yang dikonfirmasi, tetapi sumber tidak secara eksplisit menyatakan hal ini.
+
+Artikel Said Pasha menyatakan bahwa awalnya Prancis dan Inggris mencoba menghalangi proyek secara diplomatik, tetapi pekerjaan dimulai pada tahun 1859 dengan kerja paksa petani dan berlangsung selama sepuluh tahun. Pelabuhan di ujung utara [[place/port-said|kanal dinamai Port Said]] sesuai nama Pasha. {cite:encyclopaedia-of-islam-2 vol. 8 p. 925} Artikel Suez menambahkan bahwa Said awalnya membeli 21 persen saham [[group/suez-canal-company|Perusahaan Terusan Suez]] dan terpaksa menjual sebagian saham tersebut pada tahun 1860. {cite:encyclopaedia-of-islam-2 vol. 9 p. 938} Untuk kanal itu sendiri, lihat [[place/suez-canal|Terusan Suez]] dan [[person/ferdinand-de-lesseps|Ferdinand de Lesseps]].
+
+## Sudan dan Proyek Luar Negeri
+Said tidak condong pada kebijakan ekspansionis di Sudan, sehingga ia menyerahkan jabatan gubernurnya kepada Pangeran Halim. Selama kunjungan ke Khartoum pada tahun 1857, ia memulai upaya pertamanya untuk menghapus perdagangan budak kulit hitam di sana. Ia mempertahankan divisi Mesir yang berjumlah delapan ribu orang yang dikirim oleh Abbas Helmy bersama Ottoman saat pecahnya Perang Krimea, dan juga mengirim resimen untuk membantu Napoleon III mempertahankan Adipati Agung Maximilian di tahtanya di Meksiko. {cite:encyclopaedia-of-islam-2 vol. 8 p. 925}
+
+## Kematiannya
+Said meninggal di Alexandria pada 17 Januari 1863, dan dimakamkan di sana. Ia dengan mudah digantikan oleh keponakannya Ismail bin Ibrahim Pasha, yang selama masa pemerintahannya menonjol dalam misi diplomatik termasuk mengunjungi Paris pada tahun 1855, dan menjabat sebagai wakil di Mesir serta komandan tentara pada tahun 1861. {cite:encyclopaedia-of-islam-2 vol. 8 p. 925}
+
+## Apa yang dibiarkan terbuka oleh sumber
+Artikel tersebut tidak menyebutkan tempat lahir atau tanggal lahirnya. Sumber yang dikutip di sini adalah tiga artikel dari Ensiklopedia Islam, dan museum belum membandingkannya dengan buku-buku lain tentang sejarah era tersebut.

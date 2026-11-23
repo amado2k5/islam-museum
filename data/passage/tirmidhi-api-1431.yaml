@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1431"
-label: { ar: "جامع الترمذي 1431 — جمع القرآن والمصاحف", en: "Jami' al-Tirmidhi 1431 — the collection of the Qur'an and the codices", ur: "جامع ترمذی 1431 — جمعِ قرآن اور مصاحف", es: "Jami' al-Tirmidhi 1431 — la colección del Corán y los códices", fr: "Jami' al-Tirmidhi 1431 — le recueil du Coran et des codex" }
+label: { ar: "جامع الترمذي 1431 — جمع القرآن والمصاحف", en: "Jami' al-Tirmidhi 1431 — the collection of the Qur'an and the codices", ur: "جامع ترمذی 1431 — جمعِ قرآن اور مصاحف", es: "Jami' al-Tirmidhi 1431 — la colección del Corán y los códices", fr: "Jami' al-Tirmidhi 1431 — le recueil du Coran et des codex", tr: "Cami' el-Tirmizi 1431 — Kur'an ve Kur'an Kıyametleri Derlemesi", id: "Jami' al-Tirmidhi 1431 — Kumpulan Al-Qur'an dan Salinan Al-Qur'an" }
 text: "… عَنْ عُمَرَ بْنِ الْخَطَّابِ، قَالَ رَجَمَ رَسُولُ اللَّهِ وَرَجَمَ أَبُو بَكْرٍ وَرَجَمْتُ وَلَوْلاَ أَنِّي أَكْرَهُ أَنْ أَزِيدَ فِي كِتَابِ اللَّهِ لَكَتَبْتُهُ فِي الْمُصْحَفِ فَإِنِّي قَدْ خَشِيتُ أَنْ تَجِيءَ أَقْوَامٌ فَلاَ يَجِدُونَهُ فِي كِتَابِ اللَّهِ فَيَكْفُرُونَ بِهِ. قَالَ وَفِي الْبَابِ عَنْ عَلِيٍّ. قَالَ أَبُو عِيسَى حَدِيثُ عُمَرَ حَدِيثٌ حَسَنٌ صَحِيحٌ وَرُوِيَ مِنْ غَيْرِ وَجْهٍ عَنْ عُمَرَ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 1431، يذكر جمع القرآن والمصاحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 1431، جس میں جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 1431 (El Libro de los Castigos Legales (Al-Hudud)), menciona la colección del Corán y los códices. El navegador del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 1431 (Livre des peines légales (Al-Hudud)), mentionne la collection du Coran et des codex. Le catalogue du musée consacré à la lecture et à l'écriture du Coran répertorie ces documents avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Cami' el-Tirmizi'de 1431 numaralı hadis, Kur'an'ın ve el yazmalarının derlenmesinden bahsetmektedir. Bu hadis, Kur'an okunuşları, yazısı, hat sanatı ve diyakritik işaretleri konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 1431, menyebutkan penyusunan Al-Quran dan manuskrip-manuskripnya. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/mushaf, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1431 (book 17 hadith 11); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

@@ -1,0 +1,11 @@
+---
+id: concept/tashrih-al-fam-wa-al-lisan
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/tashrih-al-fam-wa-al-lisan.md}
+---
+## Posisi Lisan dan Manfaatnya
+Mulut adalah organ penting untuk mengantarkan makanan ke rongga bawah, berpartisipasi dalam mengalirkan udara ke rongga atas, dan berguna untuk mengeluarkan rasa ingin tahu yang terkumpul ke mulut lambung jika sulit atau sulit untuk mendorongnya ke bawah. Mulut adalah pembuluh utama bagi organ bicara pada manusia, dan vokalisasi pada hewan vokal lain seperti meniup {cite:canon-ibn-sina-print-v2 p.253}.
+## Struktur Lidah
+Lidah adalah organ yang mengaduk swab, memotong suara, dan menghasilkan huruf, serta dibedakan oleh rasa. Kulit permukaan bawahnya terhubung dengan kulit esofagus dan bagian dalam perut, dan kulit kantung dibagi secara adil oleh satin sambungan panah dengan sambungan dan koneksi di antara keduanya. Lidah paling baik dalam menguasai kualitas bicara sedang dalam panjang dan lebar meruncing di tepinya. Jika lidah sangat besar, lebar, atau kecil seperti kejang, pemiliknya tidak mampu berbicara. Esensi lidah adalah daging putih lembut yang ditutupi pembuluh darah kecil, anyaman berdarah yang berubah warna bersamanya. Beberapa memiliki pembuluh darah dan beberapa adalah arteri, serta memiliki banyak saraf bercabang, termasuk empat saraf menonjol yang disebutkan dalam anatomi saraf tersebut. Ada pembuluh darah dan saraf yang melebihi yang diharapkan dalam kasus seperti ini, dan di bawahnya terdapat dua nosel yang masuk oleh air liur, yang merupakan sumber air liur yang mengarah ke daging kelenjar yang awalnya disebut generator air liur. Kedua sumber ini disebut tumpahan air liur, yang menjaga kesegaran lidah. Membran yang mengalir di atasnya terhubung ke membran mulut serta ke esofagus dan perut. Di bawah lidah, terdapat dua pembuluh darah hijau besar dari mana banyak pembuluh darah tersebar, disebut 'sardin' (langit-langit sarden). Tenggorokan dan tenggorokan adalah keringat di bagian bawah lidah oleh para transkripsi) {cite:canon-ibn-sina-print-v2 p.253}

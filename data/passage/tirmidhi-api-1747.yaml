@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1747"
-label: { ar: "جامع الترمذي 1747 — أثر من الآثار المحفوظة", en: "Jami' al-Tirmidhi 1747 — a relic kept after its owner", ur: "جامع ترمذی 1747 — محفوظ آثار و تبرکات", es: "Jami' al-Tirmidhi 1747 — una reliquia conservada después de su propietario.", fr: "Jami' al-Tirmidhi 1747 — une relique conservée après son propriétaire" }
+label: { ar: "جامع الترمذي 1747 — أثر من الآثار المحفوظة", en: "Jami' al-Tirmidhi 1747 — a relic kept after its owner", ur: "جامع ترمذی 1747 — محفوظ آثار و تبرکات", es: "Jami' al-Tirmidhi 1747 — una reliquia conservada después de su propietario.", fr: "Jami' al-Tirmidhi 1747 — une relique conservée après son propriétaire", tr: "Cami' el-Tirmizi 1747 — Korunmuş bir tarihi eser", id: "Jami' al-Tirmidhi 1747 — Sebuah peninggalan yang terpelihara" }
 text: "حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى، حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ الأَنْصَارِيُّ، حَدَّثَنَا أَبِي، عَنْ ثُمَامَةَ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ كَانَ نَقْشُ خَاتَمِ النَّبِيِّ مُحَمَّدٌ سَطْرٌ وَرَسُولُ سَطْرٌ وَاللَّهِ سَطْرٌ. قَالَ أَبُو عِيسَى حَدِيثُ أَنَسٍ حَدِيثٌ حَسَنٌ صَحِيحٌ غَرِيبٌ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 1747، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 1747، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 1747 (El Libro de la Vestimenta), menciona una reliquia conservada tras la muerte de su dueño. El Navegador de Testamentos la incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 1747 (Livre des vêtements), mentionne une relique conservée après son propriétaire. Le Navigateur des Testaments la répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "Cami' el-Tirmizi'nin 1747 numaralı hadisinde, günümüze kadar korunmuş bir rivayetten bahsedilmektedir. Bu hadis, vasiyetnameler, miras, gelenekler ve türbeler konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 1747, menyebutkan sebuah tradisi yang terpelihara. Hadits ini disusun oleh seorang peneliti yang ahli dalam wasiat, warisan, tradisi, dan makam suci, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tabarruk, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1747 (book 24 hadith 28); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

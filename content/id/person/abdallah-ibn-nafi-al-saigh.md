@@ -1,0 +1,21 @@
+---
+id: person/abdallah-ibn-nafi-al-saigh
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/abdallah-ibn-nafi-al-saigh.md}
+---
+## Ikhtisar
+Abdullah ibn Nafi' al-Saigh, salah satu mantan Banu Makhzum, digambarkan oleh al-Dhahabi sebagai salah satu ahli hukum terkemuka di Madinah {cite:siyar-alam-nubala-ideas-house ص2538}. Ia mengatakan bahwa Hakim Iyad sangat memuji dan menyebutnya di awal buku Al-Madarik {cite:siyar-alam-nubala-ideas-house ص2538}. Al-Dhahabi mengatakan ia lahir pada tahun 122 H {cite:siyar-alam-nubala-ideas-house ص2539}. Ia berbeda dengan Abdullah ibn Nafi' al-Zubayri. Al-Dhahabi menyebutkan bahwa Abdullah lebih tua, lebih tua, dan lebih mapan di Malik karena kebersamaannya yang lama, dan ia menggantikannya di istana setelah Ibn Kinana {cite:siyar-alam-nubala-ideas-house ص2538}.
+
+## Perbedaan antara dia dan Al-Zubairi
+Al-Dhahabi mengutip Qadi Iyad bahwa Sahnoon mengirim utusan kepada Muhammad ibn Razin dan ia mendengar bahwa ia sedang menceritakan dari Abdullah ibn Nafi'. Muhammad mengatakan bahwa ia adalah Al-Zubayri, bukan tukang emas. Sahnoun bertanya kepadanya, 'Mengapa kau menjadi penipu?' Lalu ia berkata, 'Apa yang akan datang setelah aku dari kalajengking?' {cite:siyar-alam-nubala-ideas-house ص2538}. Sahnun percaya perlu memperjelas masing-masing agar naratifnya tidak tercampur, meskipun dapat dipercaya, dan mereka adalah imam {cite:siyar-alam-nubala-ideas-house ص2538}. Al-Dhahabi melaporkan bahwa Al-Zubayri meninggal pada tahun 216 H, dan bahwa ia adalah syekh Ibn Habib dan Sa'id ibn Hassan {cite:siyar-alam-nubala-ideas-house ص2538}.
+
+## Guru dan muridnya
+Ia menceritakan dari Muhammad ibn Abdullah ibn Hasan, yang memimpin dan membunuh di Madinah, Usama ibn Zayd al-Laythi, Malik ibn Anas, Ibn Abi Dhi'b, Sulayman ibn Yazid al-Ka'bi, sahabat Anas, Kathir ibn Abdullah ibn Awf, Dawud ibn Qays al-Farra', dan lainnya {cite:siyar-alam-nubala-ideas-house ص2539}. Ia mengatakan bahwa ia tidak terlalu mendalam dalam hadis, tetapi ia mahir dalam hukum kebijaksanaan {cite:siyar-alam-nubala-ideas-house ص2539}. Muhammad ibn Abdullah ibn Numayr, Ahmad ibn Salih, Sahnun ibn Sa'id, Salamah ibn Shabib, Al-Hasan ibn Ali Al-Khallal, Yunus ibn Abd al-A'la, Muhammad ibn Abdullah ibn Abd al-Hakam, al-Zubayr ibn Bakkar, Ahmad ibn al-Hasan al-Tirmidhi, dan beberapa lainnya {cite:siyar-alam-nubala-ideas-house ص2539}.
+
+## Apa yang dikatakan para kritikus
+Abu Talib menceritakan dari Ahmad ibn Hanbal bahwa ia adalah pengikut pendapat Malik dan mengeluarkan fatwa kepada rakyat Madinah, tetapi ia bukan pencerita hadits dan sangat tegas {cite:siyar-alam-nubala-ideas-house ص2539}. Yahya ibn Ma'in mengatakan ia dapat dipercaya, Al-Bukhari mengatakan ia mengenali dan menyangkalnya, Abu Hatim mengatakan ia lembut dalam menghafal dan bukunya lebih otentik, An-Nasa'i mengatakan tidak ada bahaya dalam dirinya, dan Ibn 'Adi mengatakan ia menceritakan hal-hal langka dari Malik {cite:siyar-alam-nubala-ideas-house ص2539}. Ibn Sa'd mengatakan bahwa ia sangat setia kepada Malik dan bahwa ia berada di bawah Ma'n {cite:siyar-alam-nubala-ideas-house ص2539}. Al-Dhahabi menyebutkan bahwa Ibn 'Adi melakukan kesalahan yang tidak dapat diterima dalam biografinya ketika ia menceritakan hadits yang diceritakan oleh Abd al-Wahhab dari Hisham ibn Urwah, yang menjelaskan bahwa al-Saigh tidak mengambil dari siapa pun sampai Hisham meninggal dan bahwa ia lahir bertahun-tahun setelah kematian Abd al-Wahhab {cite:siyar-alam-nubala-ideas-house ص2539}. Museum mengaitkan setiap penilaian kepada penulisnya dan tidak memihak kepada mereka.
+
+## Kematiannya
+Ia meninggal pada bulan Ramadan tahun 206 menurut Ibn Sa'd. Al-Dhahabi mengatakan ini adalah pandangan yang benar tentang kematiannya, sementara yang lain hanyalah kesalahpahaman dan distorsi {cite:siyar-alam-nubala-ideas-house ص2539}. Ia menyebutkan dalam biografinya bahwa ia meninggal pada tahun 186 H, dan Al-Dhahabi berkomentar bahwa pandangan yang paling benar bukanlah {cite:siyar-alam-nubala-ideas-house ص2538}.

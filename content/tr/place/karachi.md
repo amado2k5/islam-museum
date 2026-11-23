@@ -1,0 +1,28 @@
+---
+id: place/karachi
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/place/karachi.md}
+---
+## Özet
+Karaçi, modern Arap tarih kitaplarının Sindh'in Emevi fetihleri sırasında tekrar eden Sindhi limanı Al-Dibal'ın yeriyle ilişkilendirdiği bir isimdir. Hasan İbrahim Hassan, 'Khor Al-Dibal'ın bugün Karaçi olarak bilindiğini söylerken, Muhammad Qabbani Al-Dibal'in günümüz Karaçi'sine yakın olduğunu belirtir. Bu sayfada okunan kitaplarda Karaçi'nin kendisi hakkında veya modern şehrin tarihine dair bir anlatım yoktur; sayfa, Al-Dibal ve bu yerle bağlantısı hakkında söylediklerini sunar ve şehrin bugünkü tanımına bir yer kartı olarak atıfta bulunur. Bkz. [[place/daybul|Al-Dibal]], [[place/sind|Sindh]] ve [[place/pakistan|Pakistan]].
+
+## Al-Dibal, Al-Fateh Al-Oula News'te
+Hasan İbrahim Hasan, Al-Baladhuri'den Ömer bin El-Hattab'ın Hicra'dan sonraki on beşinci yılda Osman bin Abi Al-As El-Tekafi'yi Bahreyn ve Umman'a atadığını anlatır. Kardeşi valiyi Bahreyn'e gönderdi, sonra Umman'a gidip Tanna'ya bir ordu gönderdi. Ordu döndüğünde, Ömer ona yazarak yaptıklarını kınaydı ve ordu vurulursa halkından da aynı şeyi alacağına yemin etti. Sonra Osman yönetimi Brus'a yönlendirdi ve kardeşi [[person/al-mughira-ibn-abi-al-as|El-Mugira bin Ebi El-As'ı]] Hindistan'ın batı kıyısındaki Hor el-Dibal'a gönderdi. Yazar, buranın artık Karaçi olarak bilindiğini ve bu yüzden El-Mugira'nın düşmanla karşılaşıp onu esir aldığını belirtir. {cite:tarikh-islam-hasan-ibrahim 1 p.250} Bkz [[place/tana-india|. Tana]].
+
+Yazar daha sonra, otuz dokuzuncu Hicri yılına kadar kimsenin bu topraklara saldırmadığını belirtir; o yıl Ali ibn Ebi Talib, el-Harit bin Murrah liderliğinde bir sefer göndermiştir. Muaviye ibn Abi Sufyan'ın saltanatı [[person/al-muhallab-ibn-abi-sufra|sırasında, kırk dördüncü yılda el-Muhallab bin Ebi Sufrah]] tarafından işgal edilmiş ve fetihler Kukan, Kaykan ve Dibal'i de kapsayacak şekilde genişletilmiştir. {cite:tarikh-islam-hasan-ibrahim 1 p.250} {cite:tarikh-islam-hasan-ibrahim 1 p.251}
+
+## Feth al-Dibal 89 Hicri yılında
+Hasan İbrahim Hasan'ın 86-96 H. döneminde el-Velid bin Abdül-Malik'in halifeliği sırasında, [[person/al-hajjaj-ibn-yusuf|el-Haccac ibn Yusuf el-Takafi]], Hindistan'ın işgali [[person/muhammad-ibn-al-qasim|için Muhammed bin el-Kasim'i]] emanet etti. 89 Hicri'de oraya yürüdü, Dibal sınırını kuşattı, zorla ele geçirdi ve orada bir cami inşa etti. Sonra Birun'a gitti, halk onu sıcak karşıladı, şehirlerine kabul etti ve barış yaptı. {cite:tarikh-islam-hasan-ibrahim 1 p.251} Sonra İndus Nehri'ne, o zamanlar Mehran Nehri olarak bilinirken, [[person/dahir|Sindh kralı Dahir ile karşılaştı]]. Çatışma, onun ölümü ve yoldaşlarının yenilgisiyle sona erdi. {cite:tarikh-islam-hasan-ibrahim 1 p.251} Bkz. [[event/conquest-of-sind-89|Feth al-Sanad]].
+
+Muhammed Kabbani, Emevi devleti üzerine yazdığı kitapçıkta fetih planını detaylandırır: Muhammed ibn el-Kasim, başlangıç yaptığı üs olarak güney İran'daki Mehran eyaletini aldı ve el-Hacc ona Levant'tan altı bin asker sağladı; bazı tarihçilere göre onun komutası altında yaklaşık yirmi bin asker vardı. Ordusunu ikiye böldü; biri kara diğeri donanması, ve yazarın belirttiğine göre günümüz Pakistan'ın Karaçi şehrine yakın olan Deybal şehrine yöneldi. Sonra yol boyunca adam ve ekipman taşıyan gemileri ele geçirdi. Sonra adam ve ekipman taşıyan gemileri kaybetti, üç gün süren çatışmanın ardından Deybal'ı kuşatıp ele geçirdi, orada dört bin kişilik bir garnizon bıraktı ve onlar için bir cami inşa etti. {cite:umayyad-birth-to-fall-2006 p.51} Deybal'ın fethi Sindh halkı üzerinde büyük bir etki yarattı, bu yüzden hızla barış aradılar, bu yüzden onlarla barıştı ve onlara karşı nazik davrandı. Sonra bugün Sindh'in Haydarabad olarak adlandırdığı Al-Birun'a yürüdü. {cite:umayyad-birth-to-fall-2006 p.51} [[place/hyderabad-sindh|Haydarabad]]'a bakınız.
+
+## Dibel, Yaqut ve Al-Qazwini ile birlikte
+Yaqut al-Hamavi, Mu'jam al-Buldan'da al-Dibal için bir giriş derlemiş, buranın Hint Okyanusu kıyısında, ikinci bölgede yer alan ünlü bir şehir olduğunu, uzunluğunu, genişliğini derecelerle ve detaylarla belirtmiş, ayrıca Hur ve Multan sularının akıp tuzlu denize aktığı bir ferdah (liman) olduğunu belirtmiştir. Bir grup rivayetçinin ona atfedildiği belirtilir; bunlar arasında Mekke yakınlarında yaşayan ve Ebu Abdullah Saeed ibn Abd al-Rahman al-Makhzumi'den, Hüseyin ibn Hasan el-Mervazi'den rivayet eden Ebu Ca'far Muhammed bin İbrahim el-Daybli de vardır. {cite:mujam-al-buldan-sader-1995 2 p.495} Bkz. [[place/multan|Multan]] ve [[place/lahore|Lahor]].
+
+Al-Qazwini, 'Sindh ülkenin antikalarından biridir' adlı makalede, Al-Istakhri'yi alıntılayarak, Mehran Nehri'nin Daybal'ın doğusundaki denizde olduğunu söylüyor. {cite:athar-al-bilad-qazwini p.94}
+
+## Bu kaynakların söylemediği şey
+Ne Yaqut ne de Al-Qazwini Karaçi adında bir giriş derlememiştir ve Al-Daybal'ı ona bağlamazlar; bu sayfadaki iki isim arasındaki bağlantı yalnızca yirminci yüzyıldan Hassan İbrahim Hasan ve Muhammed Qabbani'nin ifadesidir ve bu ifadeler aynı değildir: ilki Khor Al-Daybal'ı bugün Karaçi'de bilinen yer olarak kabul ederken, ikincisi Al-Daybal'ın ona yakın olduğunu belirtir. Modern şehrin tarihi, sakinleri ve Pakistan'daki statüsü ise iki başka kaynağa dayanan aynı yer kartıyla tanımlanır ve bu eser bahsedilen kitaplarda bu yer okumamıştır.

@@ -1,7 +1,7 @@
 id: event/ali-muawiya-truce-40
 class: event
 kind: treaty
-label: { ar: "المهادنة بين علي ومعاوية", en: "the truce between ʿAli and Muʿāwiya (40 AH)", es: "La tregua entre ʿAli y Muʿāwiya (40 AH)", fr: "la trêve entre ʿAli et Muʿāwiya (40 AH)", ur: "علی اور معاویہ کے درمیان صلح ⁦(40ھ)⁩" }
+label: { ar: "المهادنة بين علي ومعاوية", en: "the truce between ʿAli and Muʿāwiya (40 AH)", es: "La tregua entre ʿAli y Muʿāwiya (40 AH)", fr: "la trêve entre ʿAli et Muʿāwiya (40 AH)", ur: "علی اور معاویہ کے درمیان صلح ⁦(40ھ)⁩", tr: "Ali ile Muaviye arasındaki ateşkes", id: "Gencatan senjata antara Ali dan Muawiyah" }
 date:
   start: { edtf: "0660", hijri: "0040", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 40؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 735}." }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Después de un largo intercambio de cartas, una tregua puso fin a la guerra: Irak a ʿAli, Siria a Muʿāwiya, sin que ninguno saqueara el país del otro {cite:kamil-ibn-al-athir p. 735}."
   fr: "Après un long échange de lettres, une trêve mit fin à la guerre: l'Irak à ʿAli, la Syrie à Muʿāwiya, aucun des deux ne pillant le pays de l'autre {cite:kamil-ibn-al-athir p. 735}."
   ur: "خطوط کے لمبے تبادلے کے بعد جنگ بندی ہوئی: عراق سے علی، شام سے معاویہ، نہ دوسرے کے ملک پر چڑھائی۔ 735}۔"
+  tr: "Bu belgede, savaşın durumuyla ilgili uzun yazışmaların ardından Ali ile Muaviye arasında bir ateşkes yapılmış ve Ali Irak'ı, Muaviye ise Suriye'yi alacak, ikisi de diğerinin ülkesine baskın düzenlemeyecekti. {Kaynak: Kamil İbn el-Atir s. 735}"
+  id: "Dalam perjanjian itu, gencatan senjata disepakati antara Ali dan Muawiya setelah korespondensi panjang mengenai status perang, dan Ali akan mendapatkan Irak dan Muawiya akan mendapatkan Suriah, dan tidak satu pun dari mereka akan memasuki negara pihak lain dengan serangan mendadak. {cite:kamil-ibn-al-athir p. 735}."
 wings: [time]
 relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib, sources: [source/kamil-ibn-al-athir] }

@@ -1,0 +1,17 @@
+---
+id: work/tafsir-ibn-kathir
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/work/tafsir-ibn-kathir.md}
+---
+## Genel Bakış
+İsmail bin Ömer ibn Kathir al-Dimashqi'nin Büyük Kur'an Yorumu; aktarılan geleneklere dayanan en ünlü tefsirlerden biridir; ayetleri ayetler, hadisler ve sahabelerin ve takipçilerin sözleri şeklinde yorumlar.
+
+## Abu Ishaq al-Huwaini'nin 'İnci Kabukları'nda
+Ebu İshaq el-Huveyi, [[person/abu-ishaq-al-heweny|İbn Ketir'in tefsirleri üzerine bir eseri olduğunu ve Musnad tefsirlerine dayandığını söyler. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep28 00:03:00} Bu, El-Fetiha'nın başından Bakarah Suresi'nin 173. ayetine kadar uzanan bir tefsir hadisidir. Eğer tamamlasaydı yaklaşık elli cilt olurdu, bu yüzden duraklamış ve uzun çalışmalarını İbn Ebi Hatim'in 'El-İlal' eserine aktarmıştır. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:13:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:13:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:14:00} Bu eserden, El-Buhari'ye göre eksiklik üzerine kitabı fikri doğmuştur. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep23 00:30:00} El-Vasi'nin 'El-Vesit' adlı eserinin yalnız olduğu belirtilir çünkü o bir Musnaddır ve İbn Kefir üzerine yaptığı eserde buna ihtiyacı vardır. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep30 00:05:00}]]
+
+İbn Ketir'in tefsirinin başka bir projenin kıvılcımı olduğunu söyler: her ayetin yorumunda ilk nesillerden bildirilen her şeyi ciltlere toplamak, her birinin Musnad kitabında bahsedilen her yerin numaralandırıldığı bir sayfa ile birleştirmek ve ardından İbn Kathir'in anlatılardan kaçırdıklarıyla karşılaştırmak. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:18:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:19:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:20:30} Kitaba "Cimri Hazinesi, Salaf'tan bildirilen vahiy ayetlerinin yorumu" adını verdi ve sadece on beş ciltlik atıflara ulaştı, üç yıldan fazla süre verdi ve yaklaşık yüz cilde ulaşması bekleniyor. Oğullarını ve eşlerini topladı ve tamamlanmadan ölürse tamamlama planını onlara açıkladı. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:17:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:18:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:22:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:23:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:26:30} İnanç sağlamlığı için, İbn Kathir'in Tefsir'i gibi alimlerin dayandığı yorumları takip etmek tavsiye edilir. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:07:00}
+
+## Sure Uygulama Sürümü
+Kuran Araştırmaları Tefsir Merkezi tarafından yayımlanan sure, İbn Kathir'in Tafsirini Suudi Arabistan'daki Dar İbn al-Jawzi baskısına göre sunar. Bu baskı, Ebu İshaq el-Huwaini tarafından düzenlenmiş, hadisleri çıkarılmış ve yorumlanmış, Hikmet bin Beşîr ibn Yasin tarafından kısaltılmış ve Saad ibn Fawaz al-Sumail tarafından denetlenmiştir. Başvuru, tefsirleri her ayete ayrı ayrı bağlar, böylece metne suresi numarası ve ayet numarası üzerinden erişilebilir. {cite:surah-app tafsir-katheer}

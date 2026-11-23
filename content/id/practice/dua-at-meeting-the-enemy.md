@@ -1,0 +1,12 @@
+---
+id: practice/dua-at-meeting-the-enemy
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/dua-at-meeting-the-enemy.md}
+---
+## Ringkasan
+Apa yang disebutkan al-Nawawi dalam "Kitab Kenangan Jihad" mengenai permohonan dan permohonan yang disampaikan pada pertemuan dua baris serta ketakutan terhadap kelompok, dan ketidaksukaan meninggikan suara saat pertempuran. {cite:al-adhkar-nawawi-arnaut-1994 p. 209}
+
+## Apa yang dikumpulkan al-Nawawi dalam 'Al-Adhkar'
+Al-Nawawi mengumpulkan dalam konteks ini apa yang dikatakan saat bertemu musuh. Ia memulai dengan laporan di akhir halaman sebelumnya, [[person/muhammad|di mana Nabi memberitahu]] orang untuk tidak ingin bertemu musuh, memohon kepada Allah demi keselamatan, dan bersabar ketika bertemu musuh, lalu memohon: "Ya Allah, Penurunan Kitab, aliran awan, dan Peneduh sekutu" {cite:al-adhkar-nawawi-arnaut-1994 p. 209}. Dari Abu Dawood, Al-Tirmidhi, dan Al-Nasa'i dari Anas diceritakan bahwa ketika ia pergi berperang, ia berkata: "Ya Allah, Engkau adalah penopang dan penopangku. Bersama-Mu aku akan berbalik, dengan Engkau fondasiku, dan bersama-Mu aku bertempur." Al-Tirmidhi juga mengucapkan hadits yang baik {cite:al-adhkar-nawawi-arnaut-1994 p. 209}. Dari Abu Dawood dan An-Nasa'i dengan rantai asli dari Abu Musa al-Ash'ari bahwa ketika ia takut pada suatu bangsa, ia berkata: "Ya Allah, kami akan menempatkan-Engkau di antara leher mereka dan berlindung kepada-Mu dari kejahatan mereka" {cite:al-adhkar-nawawi-arnaut-1994 p. 210}. Ia juga menceritakan dari Al-Shafi'i dalam Al-um dengan rantai menenangkan yang memohon agar permohonan diterima ketika pasukan berkumpul, dan ia mengatakan bahwa disarankan dengan pasti untuk mengucapkan apa pun yang tersedia dari Al-Qur'an dan mengucapkan doa kesusahan {cite:al-adhkar-nawawi-arnaut-1994 p. 210}. Kemudian ia menyebutkan kenangan lain dan mengatakan bahwa semuanya mengandung dorongan yang jelas dan diuji {cite:al-adhkar-nawawi-arnaut-1994 p. 211}. Pada bab berikutnya, diceritakan dari Qays ibn Abbad bahwa para sahabat Rasulullah dulu tidak menyukai suara itu saat medan perang {cite:al-adhkar-nawawi-arnaut-1994 p. 211}.

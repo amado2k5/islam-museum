@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani, person/abdullah-ibn-umar, person/muhammad]
 work: work/muwatta-malik
 ref: "1994"
-label: { ar: "الموطأ 1994 — يحيى عن مالك عن نافع عن ابن عمر: قال رسول الله لا يبع بعضكم على بيع بعض", en: "Muwatta 1994", es: "Muwatta 1994", fr: "Muwatta 1994", ur: "موطا 1994" }
+label: { ar: "الموطأ 1994 — يحيى عن مالك عن نافع عن ابن عمر: قال رسول الله لا يبع بعضكم على بيع بعض", en: "Muwatta 1994", es: "Muwatta 1994", fr: "Muwatta 1994", ur: "موطا 1994", tr: "El-Muvatta 1994 — Yahya, Malik'ten, o da Nafi'den, o da İbn Ömer'den rivayetle: Allah Resulü şöyle buyurdu: \"Birbirinizle rekabet etmeyin.\"", id: "Al-Muwatta 1994 — Yahya berdasarkan riwayat Malik berdasarkan riwayat Nafi’ berdasarkan riwayat Ibn Umar: Rasulullah SAW bersabda: “Janganlah kalian saling menawar.”" }
 summary:
   ar: "يروي يحيى عن مالك عن نافع عن عبد الله بن عمر أن رسول الله قال: لا يبع بعضكم على بيع بعض. ويذكر المحقق أن ابن عبد البر قال إن زيادة «ولا تلقوا السلع حتى يهبط بها الأسواق» محفوظة من حديث أبي الزناد، لا من رواية يحيى. {cite:muwatta-maruf-1997 p.216}"
+  tr: "Yahya, Malik'ten, o da Nafi'den, o da Abdullah ibn Umar'dan rivayetle, Allah Resulü'nün şöyle buyurduğunu nakletmiştir: \"Birbirinizle rekabet etmeyin.\" Araştırmacı, İbn Abd al-Barr'ın, \"Mallar pazarlara ulaşana kadar onları engellemeyin\" ekinin Yahya'nın rivayetinden değil, Ebu el-Zinad'ın hadisinden geldiğini söylediğini belirtmektedir. {cite:muwatta-maruf-1997 s.216}"
+  id: "Yahya meriwayatkan dari Malik, dari Nafi', dari Abdullah ibn Umar, bahwa Rasulullah SAW bersabda: \"Jangan saling menawar harga.\" Peneliti menyebutkan bahwa Ibnu Abd al-Barr mengatakan bahwa tambahan, \"Jangan mencegat barang sebelum sampai di pasar,\" terdapat dalam hadits Abu al-Zinad, bukan dari riwayat Yahya. {cite:muwatta-maruf-1997 p.216}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
   - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }

@@ -1,0 +1,12 @@
+---
+id: practice/dua-talqin-closing-eyes-bereaved
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/dua-talqin-closing-eyes-bereaved.md}
+---
+## Ringkasan
+Apa yang disusun al-Nawawi mengenai mengajarkan orang yang sekarat tentang firman monoteisme, menutup mata almarhum, apa yang dikatakan kepadanya, dan apa yang dikatakan oleh orang yang telah mati untuknya atau yang telah meninggal atau yang telah mencapai kematian sahabatnya. {cite:al-adhkar-nawawi-arnaut-1994 p. 143}
+
+## Apa yang dikumpulkan al-Nawawi dalam 'Al-Adhkar'
+Al-Nawawi menasihati orang yang sekarat untuk sering berkata 'Tidak ada tuhan selain Allah' agar itu menjadi kata-kata terakhirnya {cite:al-adhkar-nawawi-arnaut-1994 p. 143}. Ia menceritakan dari Mu'adh ibn Jabal dalam Sunan Abi Dawood bahwa siapa pun yang berkata 'Tidak ada tuhan selain Allah' di akhir pidatonya akan masuk ke Surga {cite:al-adhkar-nawawi-arnaut-1994 p. 143}. Ia menceritakan dari Abu Sa'id: 'Ajarkanlah orang yang telah mati bahwa tidak ada tuhan selain Allah' dalam Muslim, Abu Dawood, Al-Tirmidhi, dan Al-Nasa'i. Al-Tirmidhi mengatakan hadis ini baik dan otentik, dan ia menyebutkan pendapat para ulama bahwa ajaran itu lembut dan tidak diulang jika ia mengatakannya {cite:al-adhkar-nawawi-arnaut-1994 p. 143}. Dalam 'Menutup Penutupan Orang Mati,' ia menceritakan dari Sahih Muslim Dari um Salama bahwa [[person/muhammad|Nabi menutup]] matanya kepada Abu Salama dan berdoa untuknya {cite:al-adhkar-nawawi-arnaut-1994 p. 143} {cite:al-adhkar-nawawi-arnaut-1994 p. 144}. Mengenai apa yang dikatakan tentang almarhum, diceritakan dari Sahih Muslim bahwa itu dianggap lebih baik karena para malaikat percaya. Doa um Salama adalah: "Ya Allah, ampunilah aku dan dia, dan berikanlah aku hasil yang baik dari-Nya" {cite:al-adhkar-nawawi-arnaut-1994 p. 144}. Mengenai mereka yang meninggal karena orang yang telah meninggal, diceritakan dari Muslim dari um Salamah tentang pencarian pembalasan dan memohon ganjaran serta suksesi {cite:al-adhkar-nawawi-arnaut-1994 p. 145}. Dan dari Abu Musa dalam Al-Tirmidhi bahwa Allah memerintahkan Rumah Puji bagi mereka yang memuji dan mencari pembalasan. Al-Tirmidhi juga mengucapkan hadis yang baik {cite:al-adhkar-nawawi-arnaut-1994 p. 145}.

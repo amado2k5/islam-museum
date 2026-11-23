@@ -1,0 +1,12 @@
+---
+id: person/al-qasim-ibn-thalaba
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/al-qasim-ibn-thalaba.md}
+---
+
+## Özet
+El-Kasım ibn Teybe ibn Abdullah ibn Hisn el-Tai. İbn el-Kalbi'nin anlatımında, Sindh kralı Dahir'in katili olarak tasvir edilir. {cite:futuh-buldan-maarif-1407}
+
+Ek bir kaynak gerekir: Haber tek bir hesaba atfedilmiştir ve verilerde başka bir hesap veya tarih yoktur.

@@ -4,10 +4,12 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani]
 work: work/muwatta-malik
 ref: "613"
-label: { ar: "الموطأ 613 — ابن عمر: يصلى على الجنازة بعد العصر وبعد الصبح إذا صليتا لوقتهما", en: "Muwatta 613", es: "Muwatta 613", fr: "Muwatta 613", ur: "موطا 613" }
+label: { ar: "الموطأ 613 — ابن عمر: يصلى على الجنازة بعد العصر وبعد الصبح إذا صليتا لوقتهما", en: "Muwatta 613", es: "Muwatta 613", fr: "Muwatta 613", ur: "موطا 613", tr: "El-Muvatta 613 — İbn Umar: Cenaze namazı, eğer vakitlerinde kılınırlarsa, ikindi namazından sonra ve sabah namazından sonra kılınır.", id: "Al-Muwatta 613 — Ibn Umar: Shalat jenazah dilakukan setelah shalat Ashar dan setelah shalat Subuh jika keduanya dilakukan pada waktu yang telah ditentukan." }
 text: "يصلى على الجنازة بعد العصر، وبعد الصبح، إذا صليتا لوقتهما"
 summary:
   ar: "يرويه مالك عن نافع، أن عبد الله بن عمر قال: يُصلى على الجنازة بعد العصر وبعد الصبح إذا صُليتا لوقتهما. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.314}"
+  tr: "Malik, Nafi’den rivayetle Abdullah ibn Umar’ın şöyle dediğini aktarmıştır: Cenaze namazı, ikindi namazından sonra ve sabah namazından sonra kılınır, yeter ki bu iki namaz vakitlerinde kılınmış olsun. Araştırmacı, bunu Malik’ten rivayetle Ebu Mus’ab ve Suwaid’in de aktardığını belirtmektedir. {cite:muwatta-maruf-1997 s.314}"
+  id: "Malik meriwayatkannya dari Nafi’, bahwa Abdullah ibn Umar berkata: Shalat jenazah dilakukan setelah shalat Ashar dan setelah shalat Subuh, dengan syarat keduanya dilakukan pada waktu yang telah ditentukan. Peneliti menyebutkan bahwa Abu Mus’ab dan Suwaid meriwayatkannya dari Malik. {cite:muwatta-maruf-1997 p.314}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
   - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }

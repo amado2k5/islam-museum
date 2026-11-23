@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1729"
-label: { ar: "جامع الترمذي 1729 — ما خلّفه من تركة وميراث", en: "Jami' al-Tirmidhi 1729 — what was left behind: estate and inheritance", ur: "جامع ترمذی 1729 — ترکہ اور میراث", es: "Jami' al-Tirmidhi 1729 — lo que dejó: patrimonio y herencia", fr: "Jami' al-Tirmidhi 1729 — Ce qui a été laissé derrière: biens et héritage" }
+label: { ar: "جامع الترمذي 1729 — ما خلّفه من تركة وميراث", en: "Jami' al-Tirmidhi 1729 — what was left behind: estate and inheritance", ur: "جامع ترمذی 1729 — ترکہ اور میراث", es: "Jami' al-Tirmidhi 1729 — lo que dejó: patrimonio y herencia", fr: "Jami' al-Tirmidhi 1729 — Ce qui a été laissé derrière: biens et héritage", tr: "Cami' el-Tirmizi 1729 — Miras ve vasiyet olarak geride bıraktıkları", id: "Jami' al-Tirmidhi 1729 — Apa yang ditinggalkannya berupa warisan dan peninggalan" }
 text: "… قَبْلَ وَفَاتِهِ بِشَهْرَيْنِ. قَالَ وَسَمِعْتُ أَحْمَدَ بْنَ الْحَسَنِ يَقُولُ كَانَ أَحْمَدُ بْنُ حَنْبَلٍ يَذْهَبُ إِلَى هَذَا الْحَدِيثِ لِمَا ذُكِرَ فِيهِ قَبْلَ وَفَاتِهِ بِشَهْرَيْنِ وَكَانَ يَقُولُ كَانَ هَذَا آخِرَ أَمْرِ النَّبِيِّ. ثُمَّ تَرَكَ أَحْمَدُ بْنُ حَنْبَلٍ هَذَا الْحَدِيثَ لَمَّا اضْطَرَبُوا فِي إِسْنَادِهِ حَيْثُ رَوَى بَعْضُهُمْ فَقَالَ عَنْ عَبْدِ اللَّهِ بْنِ عُكَيْمٍ عَنْ أَشْيَاخٍ لَهُمْ مِنْ جُهَيْنَةَ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 1729، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 1729، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 1729 (El Libro de la Vestimenta), menciona lo que quedó: bienes y herencia. El Navegador de Testamentos lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 1729 (Livre des vêtements), mentionne ce qui a été laissé derrière soi: biens et héritage. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Cami' el-Tirmizi'nin 1729 numaralı hadisinde, geride bıraktığı mal varlığı ve miras hakkında bilgi verilmektedir. Bu derleme, vasiyetnameler, miras, eski eserler ve türbeler konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birlikte hazırlanmıştır."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 1729, menyebutkan apa yang ditinggalkannya berupa harta warisan. Ini disusun oleh seorang peneliti yang ahli dalam wasiat, warisan, barang antik, dan makam suci, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1729 (book 24 hadith 10); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

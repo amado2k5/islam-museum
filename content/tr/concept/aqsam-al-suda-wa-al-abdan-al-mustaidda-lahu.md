@@ -1,0 +1,22 @@
+---
+id: concept/aqsam-al-suda-wa-al-abdan-al-mustaidda-lahu
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/aqsam-al-suda-wa-al-abdan-al-mustaidda-lahu.md}
+---
+
+## Sebebe göre
+Baş ağrıları arasında, khimardan kaynaklanan baş ağrıları ve sarımsak gibi acılı bir şey yemekten kaynaklanan baş ağrıları gibi görünür nedenler de vardır. Dipnotta, khimar baş ağrısı içicinin uyandıktan sonra etkilenen baş ağrısı olarak açıklanır {cite:canon-ibn-sina-print-v2 p.45}. Bazı nedenler zaten yüzeye çıkmıştır, bu yüzden baş ağrısı onun için devam eder. Kazara olabilir ve sonra hastalığa dönüşebilir {cite:canon-ibn-sina-print-v2 p.45}. Sıcak diyetlerden sonra hastalık olarak kalırsa, beyin hastalıklarını işaret eder ve doğanın merhametle ya da başka bir şekilde maddeyi tamamen püskürtemediğini gösterir. Uykusuzluk uyarısı veren hastalıklar arasında sessizlik, delilik, rahatlama ve sağırlık maddeye ve hareketlerine bağlıdır {cite:canon-ibn-sina-print-v2 p.45}
+
+## Konuma ve yoğunluğa bağlı olarak
+Baş ağrıları konumlarına göre ayrılır: başın bir tarafında, bazen 'saqqah' olarak adlandırılan, bazen başın önünde, bazen arkasında veya bazen tüm başın etrafında olabilir. Genellikle 'yumurta' veya 'khoda' olarak adlandırılan şey, tüm başı {cite:canon-ibn-sina-print-v2 p.45} kapsayan bir silahın yumurtasına benzetilir. Baş ağrıları şiddet, ölçülülük ve zayıflık açısından değişir. Bazıları o kadar şiddetlidir ki, bir çocuk yumuşak bir kemik piramidine rastlarsa, dikişlerini yırtır ve çatlatır, bazıları ise zayıftır En çok Lithrghus'ta görülür ve zayıflıktan kaynaklanan gereklidir, bazıları gereksizdir {cite:canon-ibn-sina-print-v2 p.45}. Bazen zayıflıktan kaynaklanan baş ağrıları bazılarını etkiler ama bazılarını etkilemez; bu nedenle beyni zayıf olanları etkiler, beyni zayıf olanları değil {cite:canon-ibn-sina-print-v2 p.45}. Beyin baş ağrılarına hızlı duyarlıdır: ya zayıflıktan kaynaklanır ve böbreklerde zayıflığın kötü mizaçtan ya da güçlü hislerden kaynaklandığı bilinir, bu yüzden hafif olsa bile herhangi bir nedenle zarar görür {cite:canon-ibn-sina-print-v2 p.45}.
+
+## Baş ağrılarına ne sebep olur
+Bazı baş ağrılarında hiç belirti yoktur, bazıları baş bölgelerinde şiddetli ağrı nedeniyle baş çevresinde tümörlere yol açan baş ağrılarına yol açar; bazıları ise sinir köklerinde hasar spazmlara yol açar veya mideye iştah kaybı, hıçkırık, bulantı, zayıf sindirim gibi belirtiler gösterir {cite:canon-ibn-sina-print-v2 pp.45-46}.
+
+## Kronik baş ağrısı
+Kronik baş ağrılarının balgam, siyahlık, baş zayıflığı, başlangıçta sertleşmiş bir tümör veya yaygın ve şiddetli sıcak ve sertleşmiş {cite:canon-ibn-sina-print-v2 p.46} baş ağrısından kaynaklanabileceğini bilin. Tüm hastalıklar farklı olabilir. Bazen hastalık, gerekli olanlara göre yönetilir, bazıları Müslüman değildir ama bir bağlamı vardır, bazen ise zorunlu olarak yönetilmesi engellenir, örneğin baş ağrısı veya soğuk algınlığı gibi, bu nedenle soğuk yönetim karşısında baş ağrısına ters düşer {cite:canon-ibn-sina-print-v2 p.46}.
+
+## Hazırlanmış gövdeler, mevsimler ve tütsü ocakları
+Baş ağrılarının başka bir sınıflandırması vardır: bazen sağlıklılarda sebepsiz görülür, bazıları ise tümör ve yaralanma olanlar içindir. Çoğul ve 'sabb' dipnota {cite:canon-ibn-sina-print-v2 p.46} göre hastalık ve acıyı ifade eder. Vücutlar arasında, baş ağrısına hazır olanlar vardır; bunlar zayıf kafalar ve zayıf sindirim organları olup, midelerinde buhar üretir ve safra sıvısı biriktirerek çatlaklara neden olur {cite:canon-ibn-sina-print-v2 p.46}. Girişlerde, bireysel ilaç tablolarında belirtilen baş ağrısı yapan maddeler bulunur. Tüm tütsü inhalerleri baş ağrısıdır, ister sıcak ister soğuk olsun, ancak ardı ardına ortaya çıkarlarsa sertleşirler, yani bir şey buharının ısısıyla zarar görürse Ardından soğuk buharı buharlaştıran ya da tam tersi gelir. Ancak zarar sadece miktar değil, miktar ise, cezalandırmak faydalı değil, zararlıdır {cite:canon-ibn-sina-print-v2 p.46}. Kışın tıkanıklık nedeniyle soğuk baş ağrıları artabilir. Yaz kuzeyde az yağışlı, sonbahar ise güneyde yağmurluysa, baş ağrıları kışın daha sık görülür. Baş ağrıları genellikle atardamarın başa zararlı buharlar göndermesinden kaynaklanır {cite:canon-ibn-sina-print-v2 p.46}.

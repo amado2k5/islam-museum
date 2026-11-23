@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "556"
-label: { ar: "موطأ مالك 556 — دفن وقبر ومرقد", en: "Muwatta Malik 556 — a burial, grave or resting place", ur: "موطأ مالک 556 — تدفین، قبر اور مرقد", es: "Muwatta Malik 556 — un lugar de entierro, tumba o descanso.", fr: "Muwatta Malik 556 — un lieu de sépulture, une tombe ou un lieu de repos" }
+label: { ar: "موطأ مالك 556 — دفن وقبر ومرقد", en: "Muwatta Malik 556 — a burial, grave or resting place", ur: "موطأ مالک 556 — تدفین، قبر اور مرقد", es: "Muwatta Malik 556 — un lugar de entierro, tumba o descanso.", fr: "Muwatta Malik 556 — un lieu de sépulture, une tombe ou un lieu de repos", tr: "Muwatta Malik 556 — Defin, mezar ve istirahat yeri", id: "Muwatta Malik 556 — Pemakaman, kuburan, dan tempat peristirahatan" }
 text: "… الرَّحْمَنِ، أَنَّهَا أَخْبَرَتْهُ أَنَّهَا، سَمِعَتْ عَائِشَةَ أُمَّ الْمُؤْمِنِينَ، تَقُولُ وَذُكِرَ لَهَا أَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ يَقُولُ إِنَّ الْمَيِّتَ لَيُعَذَّبُ بِبُكَاءِ الْحَىِّ. فَقَالَتْ عَائِشَةُ يَغْفِرُ اللَّهُ لأَبِي عَبْدِ الرَّحْمَنِ أَمَا إِنَّهُ لَمْ يَكْذِبْ وَلَكِنَّهُ نَسِيَ أَوْ أَخْطَأَ إِنَّمَا مَرَّ رَسُولُ اللَّهِ بِيَهُودِيَّةٍ يَبْكِي عَلَيْهَا أَهْلُهَا فَقَالَ \" إِنَّكُمْ لَتَبْكُونَ عَلَيْهَا وَإِنَّهَا لَتُعَذَّبُ فِي قَبْرِهَا \"."
 summary:
   ar: "حديث في موطأ مالك، رقم 556، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 556، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "En el Muwatta Malik, n.º 556 (Sepulturas), se menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, propiedades, reliquias y tumbas."
   fr: "Un rapport du Muwatta Malik, n° 556 (Sépultures), mentionne une sépulture, une tombe ou un lieu de repos. Le navigateur de textes sacrés le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Malik'in Muwatta adlı eserinde 556 numaralı hadis, defin, mezar ve türbeden bahsetmektedir. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler üzerine araştırmalar yapan bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 556, menyebutkan tentang penguburan, kuburan, dan makam. Hadits ini dikumpulkan oleh peneliti wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 556 (book 16 hadith 37); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

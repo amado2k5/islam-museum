@@ -1,0 +1,31 @@
+---
+id: person/ferdinand-ii-of-aragon
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/ferdinand-ii-of-aragon.md}
+---
+## Özet
+Aragon Kralı Ferdinand, İslam Ansiklopedisi'nin Endülüs makalesinde Allegonlu Ferdinand, Nasr makalesinde ise Ferdinand V olarak adlandırılan kişidir. {cite:encyclopaedia-of-islam-2 vol. 1 p. 520} {cite:encyclopaedia-of-islam-2 vol. 7 p. 1081} Müzenin adının ardından Aragon numaralandırması gelir, yani Ferdinand II. Kastilya [[person/isabella-i-of-castile|Kraliçesi Isabella'nın eşiydi]] ve her ikisi de Katolik krallar olarak bilinir. {cite:encyclopaedia-of-islam-2 vol. 1 p. 520} Burada okunan makaleler, onu Granada'daki İslami yönetimin sona ermesi bağlamında kabaca ele alır ve hayatı hakkında çok az bilgi verilir, bu yüzden bu kayıt kasıtlı olarak kısadır. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1081}
+
+## Aragon Tacı ve Kastilya ile Birlik
+Nasrid makalesi, [[polity/crown-of-aragon|Aragon tacının]] 1479 yılında II. John'un ölümüyle Ferdinand'a geçtiğini belirtir. Isabel, Kastilya Kraliçesi Isabel'in eşiydi; Isabel'in tahtı 1474 sonlarında tahta çıktığından beri başkaları tarafından mücadele ediliyordu. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1081} Konumu, 4 Eylül 1479 tarihli Alcasovas Antlaşması ile kesin olarak pekiştirildi; bu antlaşma Kastilya'daki iç savaşı sona erdirdi [[polity/castile|]], Portekiz ile barışı sağladı ve Extremadura'nın barışını tamamladı. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1081} Yazar, iki Katolik kralın dikkatlerini Granada ve Yeniden Fetih Savaşı'na yöneltebildiklerini sonucuna varıyor. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1081}
+
+## Granada Savaşı
+Al-Andalus hakkındaki makalede, iki Katolik kralın gelişiyle Hristiyan saldırısının koordineli ve geniş bir hale geldiği belirtilir. 1486'da Locha'nın düşüşünden, ertesi yıl Malaga, Malaga ve Almería'nın düşüşünden, 1489'da ise Baza'nın düşüşünden bahsedilir. {cite:encyclopaedia-of-islam-2 vol. 1 p. 520} Makale, Şubat 1482'de Hamma'nın ele geçirilmesini nihai Hristiyan zaferine giden ilk büyük adım olarak tanımlar ve Sultan Abu al-Hasan Ali'nin geri alma girişimlerinin başarısız olduğunu ekler. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1081} Hamma hakkındaki makalede, iki Katolik kralın kasabayı elinde tutmaya ve oradan tüm Granada Krallığı'nı kontrol etmeye kararlı oldukları belirtilir; bu yüzden çok sayıda kuvvetle desteklediklerini belirtir; bkz. [[event/fall-of-alhama-887|Hamma'nın Düşüşü]]. {cite:encyclopaedia-of-islam-2 vol. 3 p. 145}
+
+Banu Nasr hakkındaki makale, Hristiyan kontrolüne geçen diğer şehirleri listeler: 1487'de zorlukla fethedilen Malaga; 1488'de Bira; ve 1489'da Baza ve Ash Vadisi. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1082} [[person/al-zaghal|Zaghl'ın]], Almería ve Ash Vadisi'ni Al-Bishraat'ta küçük yarı bağımsız bir prenslik karşılığında teslim ettiği, ardından 1490'da tüm topraklarını satıp Oran'a yelken açtığı belirtilir. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1082} 1491 yılında Granada kuşatması sırasında, iki Katolik kral, kuşatma maddelerinden biri olan Santa Fe kasabasını inşa etti; burası kuşatma maddelerinden biri olan Mansoura ile birlikte Tlemcen yakınlarındaki Mansoura ile birlikte tahkim edildi. {cite:encyclopaedia-of-islam-2 vol. 3 p. 500}
+
+Nasr makalesi sonucu Müslümanların zayıflığı ve Kastilyalıların üslubu olarak açıklar. 1486'da Granada'yı acımasız bir savaş alanı haline getiren Abu Abdullah ile Zaghl arasındaki ayrım; Kastilya'nın Nasıralı kampının tümenlerini sömürmesi, artan topçu kullanımı ve ekin arazilerini yok ederek morali tükendirmesi; ve Fas'ın takviye gönderememesi gibi konulara işaret eder. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1082} {cite:encyclopaedia-of-islam-2 vol. 7 p. 1083} Eklenir ki, Memlük Mısır 1487'de yardım istediğinde sadece diplomatik müdahale ve iyi niyet sağlamıştır. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1083} Bunlar makalenin yazarının yargılarıdır ve müze bunları kendisine atfetmez.
+
+## Granada Teslimatı
+Abu Abdullah [[person/boabdil-muhammad-xii|Muhammad XII, Granada'yı]] resmen 2 Ocak 1492'de Katolik krallara teslim etti. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1082} Granada hakkındaki makale, kalenin tesliminin Rabi'al-Awwal 897 Hicri'nin birinde, yani 2 Ocak 1492'ye denk geldiğini belirtir ve Fernando ile Isabella'nın 6 Ocak'ta Alhambra'ya girdiğini belirtir. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1059} Al-Endülüs hakkındaki makaleye gelince, devri 2 Rabi'al-Awwal 897 Hile tarihlendirir, yani 3 Ocak 1492'ye denk gelir; iki kaynak bir gün fark gösterir; bkz. [[event/fall-of-granada-897|Granada'nın teslimi]]. {cite:encyclopaedia-of-islam-2 vol. 1 p. 520} Banu Nasr hakkındaki makale, Abu Abdullah'ın Granada koşulları altında evcilleştirilmiş haklara sahip olduğunu belirtir. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1082}
+
+## Fetih sonrası
+Granada hakkındaki makalede, Alhambra'nın duvarları ve sarayları krallığın çöküşü sırasında zarar görmediği ve iki Katolik kralın sarayların güçlendirilip restore edilmesini emrettiği belirtilir. {cite:encyclopaedia-of-islam-2 vol. 2 p. 1059} {cite:encyclopaedia-of-islam-2 vol. 2 p. 1061} Almadjanin hakkındaki makale, iki Katolik kralın 1502 yılında Kastilya topraklarında zorunlu bir dönüştürme kararnamesi çıkardığını, bu kararın orada sert şekilde kınandığını ve bilinen Mühtyonlar olarak bilinen Moriskoların ortaya çıktığını kaydeder. {cite:encyclopaedia-of-islam-2 vol. 7 p. 316}
+
+## Ölüm
+Cezayir makalesi, Kral Ferdinand Katolik'in 22 Ocak 1516'daki ölümünden bahseder ve Cezayir halkının bunu duyunca Benyon'daki İspanyol kalesinden kurtulmaya çalıştıklarını, gemileri ve topları olan Aruj'dan yardım istediklerini ancak boşuna bombaladıklarını belirtir. {cite:encyclopaedia-of-islam-2 vol. 1 p. 727}
+
+## Kaynakların söylemediği
+Burada okunan makalelerde doğum tarihi, ailesi veya kişisel görüşleri belirtilmemiş, ayrıca Granada Savaşı dışındaki politikaları ve sonrasındaki politikaları hakkında da hiçbir şey söylenmiyor. Bu noktalar, kaynak dışından doldurulmak yerine boş bırakılmıştır.

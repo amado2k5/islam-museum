@@ -1,0 +1,13 @@
+---
+id: passage/muwatta-3-697
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/passage/muwatta-3-697.md}
+---
+
+## Ringkasan
+Hadits pertama dalam bab tentang amal ternak. Malik menceritakan bahwa ia membaca kitab Umar ibn Al-Khattab tentang amal dan menemukan di dalamnya, setelah Basmala: dalam dua puluh empat unta, ada domba untuk setiap lima domba; dan di atas itu hingga tiga puluh lima anak perempuan yang sedang hamil; jika tidak, maka Ibn Laboon adalah laki-laki; hingga empat puluh lima putri Laboon; hingga enam puluh unta Tarooqa al-Fah; hingga tujuh puluh lima batang belalai; hingga sembilan puluh putri Laboon; dan hingga dua puluh dua puluh haqqa; dan jika tidak bertambah, maka setiap empat puluh putri Laboon, dan setiap lima puluh domba. Dalam kasus domba penggembalaan, jika mencapai empat puluh hingga dua ratus domba, dan hingga dua ratus domba, dan hingga tiga ratus tiga domba. Jika melebihi jumlah setiap seratus domba. Kambing, orang tua, atau orang cacat tidak boleh diberikan sebagai amal kecuali sesuai keinginan pemotong kambing. Ia tidak boleh menggabungkan belah atau terpisah karena takut akan amal. Apa yang dicampur antara dua orang sama terbaliknya. Dalam Raqqa, jika mencapai lima ons seperempat sepersepuluh tahun. Peneliti menjelaskan gigi unta dan kelembutannya, menyebutkan bahwa ia menceritakannya dari Malik Abu Mus'ab, dan bahwa buku ini dinarasikan oleh Ahmad, Abu Dawood (1568 dan 1569), Ibn Mn M'ab ajah (1798), Al-Tirmidhi (621), dan lainnya melalui Al-Zuhri dari Salim dari ayahnya bahwa Nabi menulis kitab amal dan tidak membagikannya kepada pejabatnya sampai ia wafat, sehingga Abu Bakr mengikutinya dan kemudian Umar bertindak atasnya. Ia percaya pandangan yang benar adalah 'shil' (mengirim pesan), dan hadis Anas dalam kitab Abu Bakr diceritakan oleh Al-Bukhari, Abu Dawood (1567), dan Al-Nasa'i. {cite:muwatta-maruf-1997 p.349} {cite:muwatta-maruf-1997 p.350}
+
+## Lokasinya di museum
+Kitab ini termasuk dalam [[passage/muwatta-kitab-03-zakat|Muwatta, Kitab Zakat]]. Sumbernya [[work/muwatta-malik|adalah Al-Muwatta]]. Buku ini menyebutkan [[person/umar-ibn-al-khattab|Umar ibn Al-Khattab]], [[person/malik-ibn-anas|Malik ibn]] Anas, [[person/muhammad|Muhammad]], [[person/abu-bakr|Abu Bakr Al-Siddiq]], [[person/anas-ibn-malik|Anas ibn Malik]], dan [[person/salim-ibn-abd-allah-ibn-umar|Salim ibn Abdullah ibn Umar ibn Al-Khattab]]. Buku ini juga didasarkan pada bab-bab [[practice/zakat|Zakat]] dan [[concept/nisab|Nisab]].

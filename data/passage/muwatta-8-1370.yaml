@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani, person/abdullah-ibn-umar]
 work: work/muwatta-malik
 ref: "1370"
-label: { ar: "الموطأ 1370 — نافع عن ابن عمر: من قال والله ثم قال إن شاء الله ثم لم يفعل الذي حلف عليه لم يحنث", en: "Muwatta 1370", es: "Muwatta 1370", fr: "Muwatta 1370", ur: "موطا 1370" }
+label: { ar: "الموطأ 1370 — نافع عن ابن عمر: من قال والله ثم قال إن شاء الله ثم لم يفعل الذي حلف عليه لم يحنث", en: "Muwatta 1370", es: "Muwatta 1370", fr: "Muwatta 1370", ur: "موطا 1370", tr: "El-Muvatta 1370 — İbn Ömer'den rivayet edildiğine göre Nafi': \"Allah'a yemin ederim ki\" der, sonra \"Allah dilerse\" der ve sonra yemin ettiği şeyi yapmazsa, yeminini bozmamış olur.", id: "Al-Muwatta 1370 — Diriwayatkan oleh Nafi’ dari Ibnu Umar: Barang siapa yang mengucapkan, “Demi Allah,” kemudian mengucapkan, “Jika Allah menghendaki,” dan kemudian tidak melakukan apa yang telah diikrarkannya, maka ia tidak melanggar sumpahnya." }
 summary:
   ar: "يروي مالك عن نافع عن عبد الله بن عمر أنه كان يقول من قال والله، ثم قال إن شاء الله، ثم لم يفعل الذي حلف عليه، لم يحنث. {cite:muwatta-maruf-1997 p.613}"
+  tr: "Malik, Nafi'den, o da Abdullah ibn Umar'dan naklederek şöyle der: \"Kim 'Allah'a yemin olsun' der, sonra 'Allah'ın izniyle' der ve sonra yemin ettiği şeyi yapmazsa, yeminini bozmamış olur.\" {cite:muwatta-maruf-1997 s.613}"
+  id: "Malik meriwayatkan dari Nafi’ dari Abdullah ibn Umar bahwa beliau biasa berkata: “Barang siapa yang mengucapkan ‘Demi Allah,’ kemudian mengucapkan ‘Insya Allah,’ dan kemudian tidak melakukan apa yang telah diikrarkannya, maka ia belum melanggar sumpahnya.” {cite:muwatta-maruf-1997 p.613}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-08-nudhur }
   - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }

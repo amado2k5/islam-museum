@@ -1,13 +1,15 @@
 id: event/ramhurmuz-betrayal
 class: event
 kind: conquest
-label: { ar: "نقض رامهرمز وفتحها", en: "Ramhurmuz's Breach and Reconquest", es: "La brecha y reconquista de Ramhurmuz", fr: "La brèche et la reconquête de Ramhurmuz", ur: "رامہرمز کی خلاف ورزی اور دوبارہ فتح" }
+label: { ar: "نقض رامهرمز وفتحها", en: "Ramhurmuz's Breach and Reconquest", es: "La brecha y reconquista de Ramhurmuz", fr: "La brèche et la reconquête de Ramhurmuz", ur: "رامہرمز کی خلاف ورزی اور دوبارہ فتح", tr: "Ramhurmaz onu devirdi ve açtı.", id: "Ramhurmaz membalikkannya dan membukanya" }
 summary:
   ar: "هادن أبو موسى أهل رامهرمز ثم انقضت هدنتهم فوجه إليهم أبا مريم الحنفي فصالحهم على ثمانمائة ألف درهم أو تسعمائة ألف ثم إنهم غدروا ففتحت بعد عنوة فتحها أبو موسى في آخر أيامه."
   en: "Abu Musa truced Ramhurmuz; they broke it, so Abu Maryam al-Hanafi re-truced them for eight hundred — or nine hundred — thousand dirhams; they betrayed again and it was taken by force in Abu Musa's last days."
   es: "Abu Musa hizo una tregua a Ramhurmuz; ellos la rompieron, así que Abu Maryam al-Hanafi les hizo una nueva tregua por ochocientos —o novecientos— mil dirhams; ellos volvieron a traicionar y fue tomada por la fuerza en los últimos días de Abu Musa."
   fr: "Abou Moussa conclut une trêve à Ramhurmuz; ils la rompirent, alors Abou Maryam al-Hanafi leur fit une nouvelle trêve pour huit cents — ou neuf cents — mille dirhams; ils trahirent à nouveau et la ville fut prise par la force dans les derniers jours d'Abou Moussa."
   ur: "ابو موسٰی نے رامہرمز پر فتح پائی۔ انہوں نے اسے توڑ دیا، چنانچہ ابو مریم الحنفی نے انہیں آٹھ سو یا نو لاکھ ہزار درہم میں دوبارہ صلح کر لی۔ انہوں نے دوبارہ غداری کی اور ابو موسیٰ کے آخری دنوں میں اسے زبردستی چھین لیا گیا۔"
+  tr: "Ebu Musa, Ramhormoz halkıyla barış yaptı, ancak ateşkes bozulunca Ebu Meryem el-Hanafi'yi onlara gönderdi ve sekiz yüz bin veya dokuz yüz bin dirhem karşılığında onlarla barış yaptı. Sonra ona ihanet ettiler, bu yüzden Ebu Musa ömrünün sonlarında şehri zorla ele geçirdi."
+  id: "Abu Musa berdamai dengan penduduk Ramhormoz, kemudian gencatan senjata mereka berakhir, lalu ia mengutus Abu Maryam al-Hanafi kepada mereka dan berdamai dengan mereka dengan imbalan delapan ratus ribu atau sembilan ratus ribu dirham. Kemudian mereka mengkhianatinya, sehingga wilayah itu ditaklukkan dengan kekerasan oleh Abu Musa di akhir hayatnya."
 periods: [period/rashidun]
 relations:
   - { type: had_participant, target: person/abu-maryam-al-hanafi, role: "المصالح", sources: [source/futuh-buldan-maarif-1407] }

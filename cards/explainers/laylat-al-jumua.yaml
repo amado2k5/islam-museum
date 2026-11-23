@@ -1,54 +1,112 @@
 slug: laylat-al-jumua
-title: { ar: "ليلة الجمعة ويوم الجمعة", en: "Friday night and day", fr: "La nuit et la journée du vendredi" }
+title:
+  ar: ليلة الجمعة ويوم الجمعة
+  en: Friday night and day
+  fr: La nuit et la journée du vendredi
+  tr: Cuma gecesi ve cuma
+  id: Jumat malam dan Jumat
 lede:
-  ar: "ست محطات من مغرب الخميس إلى مغرب الجمعة — خير يوم طلعت عليه الشمس."
-  en: "Six stations from Thursday sunset to Friday sunset — the best day the sun rose upon."
+  ar: ست محطات من مغرب الخميس إلى مغرب الجمعة — خير يوم طلعت عليه الشمس.
+  en: Six stations from Thursday sunset to Friday sunset — the best day the sun rose upon.
   fr: Six étapes, du coucher du soleil le jeudi à celui du vendredi, jour présenté comme le meilleur sur lequel le soleil se lève.
+  tr: Perşembe gün batımından Cuma gün batımına kadar altı istasyon — güneşin şimdiye kadar doğuduğu en iyi gün.
+  id: Enam stasiun dari matahari terbenam Kamis hingga matahari terbenam Jumat — hari terbaik yang pernah terbit matahari.
 source_card: c68015e0
-status: { review: draft }
+status:
+  review: draft
 widget: stepper
 steps:
-  - q: { ar: "متى تبدأ ليلة الجمعة؟", en: "When does Friday night begin?", fr: "Quand commence la nuit du vendredi ?" }
-    a:
-      ar: "من غروب شمس الخميس — فالليل يسبق النهار في التقويم الهجري."
-      en: "At Thursday sunset — night precedes day in the Hijri calendar."
-      fr: "Au coucher du soleil le jeudi : dans le calendrier hégirien, la nuit précède la journée."
-  - q: { ar: "ما أول المحطات؟", en: "What are the first stations?", fr: "Quelles sont les premières étapes ?" }
-    a:
-      ar: "من مغرب الخميس: الذكر والدعاء والإكثار من الصلاة على النبي وقراءة القرآن."
-      en: "From Thursday Maghrib: dhikr, du'a, abundant salawat upon the Prophet, Quran recitation."
-      fr: "Dès le maghrib du jeudi : rappel de Dieu, invocations, prières abondantes sur le Prophète et lecture du Coran."
-  - q: { ar: "ما فضل الصلاة على النبي يوم الجمعة؟", en: "What is the virtue of salawat on Friday?", fr: "Quel mérite est associé aux prières sur le Prophète le vendredi ?" }
-    a:
-      ar: "فأكثروا عليَّ من الصلاة فيه — تُعرض عليه صلاتنا."
-      en: "Increase salawat upon him on this day — our salawat are presented to him."
-      fr: La tradition invite à les multiplier ce jour-là et indique qu’elles lui sont présentées.
-    evidence:
-      - { source: "رواه أبو داود", note: "مراجعة اللفظ والتخريج" }
-  - q: { ar: "وما فضل سورة الكهف؟", en: "And Surah al-Kahf?", fr: "Et la sourate al-Kahf ?" }
-    a:
-      ar: "من قرأها يوم الجمعة أضاء له من النور ما بين الجمعتين."
-      en: "Whoever recites it on Friday is lit with light between the two Fridays."
-      fr: Selon le récit, sa lecture le vendredi apporte une lumière entre deux vendredis.
-    evidence:
-      - { source: "رواه الحاكم والبيهقي", note: "مراجعة التخريج" }
-  - q: { ar: "كيف أستعد لصلاة الجمعة؟", en: "How do I prepare for Jumu'ah?", fr: "Comment se préparer à la prière du vendredi ?" }
-    a:
-      ar: "الغسل، والسواك، والتطيب، ولبس أحسن الثياب، والتبكير إلى المسجد."
-      en: "Ghusl, siwak, perfume, finest clothes, and arriving early."
-      fr: Le bain rituel, le siwak, le parfum, de beaux vêtements et l’arrivée matinale à la mosquée.
-  - q: { ar: "وما ساعة الإجابة؟", en: "And the hour of response?", fr: "Et l’heure de l’exaucement ?" }
-    a:
-      ar: "ساعة في يوم الجمعة لا يوافقها عبد مسلم يدعو بخير إلا استُجيب له — وأرجاها آخر ساعة بعد العصر."
-      en: "An hour on Friday when no Muslim servant asks for good but is answered — likeliest the last hour after 'Asr."
-      fr: Une heure du vendredi est associée à l’exaucement de l’invocation du croyant qui demande un bien ; la dernière heure après l’asr est particulièrement espérée.
+- q:
+    ar: متى تبدأ ليلة الجمعة؟
+    en: When does Friday night begin?
+    fr: Quand commence la nuit du vendredi ?
+    tr: Cuma gecesi ne zaman başlıyor?
+    id: Kapan Jumat malam dimulai?
+  a:
+    ar: من غروب شمس الخميس — فالليل يسبق النهار في التقويم الهجري.
+    en: At Thursday sunset — night precedes day in the Hijri calendar.
+    fr: 'Au coucher du soleil le jeudi : dans le calendrier hégirien, la nuit précède la journée.'
+    tr: Perşembe günü gün batımından itibaren — Hicri takviminde gece gündüzden önce gelir.
+    id: Dari matahari terbenam pada hari Kamis — malam mendahului hari dalam kalender Hijriah.
+- q:
+    ar: ما أول المحطات؟
+    en: What are the first stations?
+    fr: Quelles sont les premières étapes ?
+    tr: İlk duraklar nelerdir?
+    id: Apa saja pemberhentian pertama?
+  a:
+    ar: 'من مغرب الخميس: الذكر والدعاء والإكثار من الصلاة على النبي وقراءة القرآن.'
+    en: 'From Thursday Maghrib: dhikr, du''a, abundant salawat upon the Prophet, Quran recitation.'
+    fr: 'Dès le maghrib du jeudi : rappel de Dieu, invocations, prières abondantes sur le Prophète et lecture du Coran.'
+    tr: 'Perşembe günü Magrip''ten: anma, dua, Peygamber''e artan bereket ve Kur''an okuma.'
+    id: 'Dari Maghrib pada hari Kamis: peringatan, memohon, berkat yang semakin besar kepada Nabi, dan membaca Al-Qur''an.'
+- q:
+    ar: ما فضل الصلاة على النبي يوم الجمعة؟
+    en: What is the virtue of salawat on Friday?
+    fr: Quel mérite est associé aux prières sur le Prophète le vendredi ?
+    tr: Cuma günü Peygamber'e bereket göndermenin erdemi nedir?
+    id: Apa kebajikan mengirimkan berkat kepada Nabi pada hari Jumat?
+  a:
+    ar: فأكثروا عليَّ من الصلاة فيه — تُعرض عليه صلاتنا.
+    en: Increase salawat upon him on this day — our salawat are presented to him.
+    fr: La tradition invite à les multiplier ce jour-là et indique qu’elles lui sont présentées.
+    tr: O yüzden benim için daha çok dua edin — dualarımızı O'na sunun.
+    id: Jadi doakan saya lebih dalam — sampaikan doa kita kepada-Nya.
+  evidence:
+  - source: رواه أبو داود
+    note: مراجعة اللفظ والتخريج
+- q:
+    ar: وما فضل سورة الكهف؟
+    en: And Surah al-Kahf?
+    fr: Et la sourate al-Kahf ?
+    tr: Peki Kahf Suresi'nin erdemi nedir?
+    id: Dan apa kebajikan Surah Al-Kahf?
+  a:
+    ar: من قرأها يوم الجمعة أضاء له من النور ما بين الجمعتين.
+    en: Whoever recites it on Friday is lit with light between the two Fridays.
+    fr: Selon le récit, sa lecture le vendredi apporte une lumière entre deux vendredis.
+    tr: Cuma günü kim okursa, iki Cuma arasında ışıkla aydınlanacaktır.
+    id: Siapa pun yang membacanya pada hari Jumat, akan diterangi oleh cahaya di antara dua hari Jumat.
+  evidence:
+  - source: رواه الحاكم والبيهقي
+    note: مراجعة التخريج
+- q:
+    ar: كيف أستعد لصلاة الجمعة؟
+    en: How do I prepare for Jumu'ah?
+    fr: Comment se préparer à la prière du vendredi ?
+    tr: Cuma namazına nasıl hazırlanırım?
+    id: Bagaimana saya mempersiapkan diri untuk salat Jumat?
+  a:
+    ar: الغسل، والسواك، والتطيب، ولبس أحسن الثياب، والتبكير إلى المسجد.
+    en: Ghusl, siwak, perfume, finest clothes, and arriving early.
+    fr: Le bain rituel, le siwak, le parfum, de beaux vêtements et l’arrivée matinale à la mosquée.
+    tr: Ghusl, miswak, parfüm, en güzel kıyafetleri giymek ve camiye erken varmak.
+    id: Ghusl, miswak, parfum, mengenakan pakaian terbaik, dan datang lebih awal ke masjid.
+- q:
+    ar: وما ساعة الإجابة؟
+    en: And the hour of response?
+    fr: Et l’heure de l’exaucement ?
+    tr: Peki cevabın saati nedir?
+    id: Dan kapan jawabannya?
+  a:
+    ar: ساعة في يوم الجمعة لا يوافقها عبد مسلم يدعو بخير إلا استُجيب له — وأرجاها آخر ساعة بعد العصر.
+    en: An hour on Friday when no Muslim servant asks for good but is answered — likeliest the last hour after 'Asr.
+    fr: Une heure du vendredi est associée à l’exaucement de l’invocation du croyant qui demande un bien ; la dernière heure après l’asr est particulièrement espérée.
+    tr: Cuma günü, hiçbir Müslüman iyilik duasının onaylamayacağı bir saat—ve bunu Asr namazı sonrası son saate erteleyecekti.
+    id: Satu jam pada hari Jumat yang tidak akan disetujui oleh doa Muslim mana pun—dan ia menundanya hingga satu jam terakhir setelah salat Asar.
 cautions:
-  - ar: "لم يثبت تخصيص ليلة الجمعة بقيام دون سائر الليالي."
-    en: "Singling out Friday night for qiyam is not established."
-    fr: Réserver la nuit du vendredi à une prière nocturne particulière n’est pas établi.
-  - ar: "لم يثبت تخصيص يوم الجمعة بصيام دون سائر الأيام."
-    en: "Singling out Friday for fasting is not established."
-    fr: Réserver le vendredi au jeûne, à l’exclusion des autres jours, n’est pas établi.
-  - ar: "لا يجوز الكلام أثناء الخطبة."
-    en: "Talking during the khutbah is not permitted."
-    fr: Parler pendant le sermon n’est pas permis.
+- ar: لم يثبت تخصيص ليلة الجمعة بقيام دون سائر الليالي.
+  en: Singling out Friday night for qiyam is not established.
+  fr: Réserver la nuit du vendredi à une prière nocturne particulière n’est pas établi.
+  tr: Cuma gecesinin başka geceler olmadan namaz olarak belirlendiği kanıtlanmamıştır.
+  id: Belum terbukti bahwa Jumat malam ditetapkan sebagai shalat tanpa malam lain.
+- ar: لم يثبت تخصيص يوم الجمعة بصيام دون سائر الأيام.
+  en: Singling out Friday for fasting is not established.
+  fr: Réserver le vendredi au jeûne, à l’exclusion des autres jours, n’est pas établi.
+  tr: Cuma gününün diğer günlerde oruç tutmak için ayrıldığı kanıtlanmamıştır.
+  id: Tidak terbukti bahwa hari Jumat ditetapkan untuk puasa di hari-hari lain.
+- ar: لا يجوز الكلام أثناء الخطبة.
+  en: Talking during the khutbah is not permitted.
+  fr: Parler pendant le sermon n’est pas permis.
+  tr: Vaaz sırasında konuşmak yasaktır.
+  id: Tidak diperbolehkan berbicara selama khotbah.

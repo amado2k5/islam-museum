@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1175"
-label: { ar: "الموطأ 1175 — مالك: التفث هو حلاق الشعر ولبس الثياب وما يتبع ذلك", en: "Muwatta 1175", es: "Muwatta 1175", fr: "Muwatta 1175", ur: "موطا 1175" }
+label: { ar: "الموطأ 1175 — مالك: التفث هو حلاق الشعر ولبس الثياب وما يتبع ذلك", en: "Muwatta 1175", es: "Muwatta 1175", fr: "Muwatta 1175", ur: "موطا 1175", tr: "El-Muvatta 1175 — Malik: “Tafat”, saçın tıraş edilmesi, elbise giyilmesi ve bunun ardından gelen işlemleri ifade eder.", id: "Al-Muwatta 1175 — Malik: “Tafath” merujuk pada mencukur rambut, mengenakan pakaian, dan apa yang mengikutinya." }
 summary:
   ar: "يقول مالك إن التفث هو حلاق الشعر، ولبس الثياب، وما يتبع ذلك. {cite:muwatta-maruf-1997 p.530}"
+  tr: "Malik, \"tafat\"ın saç tıraşı, giyinme ve bunun ardından gelen işlemleri ifade ettiğini söylüyor. {cite:muwatta-maruf-1997 s.530}"
+  id: "Malik mengatakan bahwa \"tafath\" mengacu pada mencukur rambut, mengenakan pakaian, dan apa yang mengikutinya. {cite:muwatta-maruf-1997 p.530}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
   - { type: basis_for, target: practice/halq, sources: [source/muwatta-maruf-1997] }

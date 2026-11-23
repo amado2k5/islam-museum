@@ -1,0 +1,34 @@
+---
+id: question/must-reason-be-preferred-when-it-conflicts-with-revelation
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/question/must-reason-be-preferred-when-it-conflicts-with-revelation.md}
+---
+## Ringkasan
+Jika ada konflik antara bukti rasional dan bukti auditori dalam hal kepercayaan, mana yang harus diprioritaskan? Ini adalah isu 'hukum universal' di mana [[person/ibn-taymiyya|Ibn Taymiyyah]] [[work/dar-taarud-al-aql-wal-naql|menulis untuk menghindari konflik antara akal dan transmisi]]. Editornya, Muhammad Rashad Salim, menyajikan dalam pengantarnya teks-teks teolog dan filsuf yang memegang hukum. {cite:dar-taarud-salim-v1-1411 p. 10} {cite:dar-taarud-salim-v1-1411 p. 19}
+
+## Teks Undang-Undang
+Seperti yang disebutkan Ibn Taymiyyah di awal buku: Jika bukti auditori dan rasional bertentangan, maka keduanya berdamai, yang mustahil karena menggabungkan dua hal yang berlawanan, atau ditolak, atau pendengaran, yang mustahil, karena akal adalah dasar transmisi. Jika akal diterapkan padanya, itu akan menjadi penghinaan terhadap asalnya, jadi akal harus diprioritaskan. Maka transmisi dapat ditafsirkan atau didelegasikan. {cite:dar-taarud-salim-v1-1411 p. 96} Ia mengatakan ini adalah 'hukum universal' menurut [[person/fakhr-al-din-al-razi|al-Razi]] dan para pengikutnya, didahului [[person/al-ghazali-abu-hamid|oleh al-Ghazali]], Qadi Abu Bakr ibn al-Arabi, [[person/imam-al-haramayn-al-juwayni|al-Juwayni]], dan [[person/al-baqillani|al-Baqillani]]. {cite:dar-taarud-salim-v1-1411 p. 10}
+
+## Mereka yang mendukung kemajuan akal sehat
+- **Al-Razi**: Dalam 'Asas al-Taqdis,' ia membagi kasus jika bukti rasional tersebut meyakinkan dan ada bukti yang ditransmisikan yang kontradiksinya tampak terasa, dan ia membatalkan tiga bukti. Ia menyimpulkan bahwa bukti yang disampaikan itu salah atau makna yang dimaksudkan tidak jelas. Kemudian, jika interpretasi diperbolehkan, ia menanganinya; jika tidak, ia mendelegasikan pengetahuan kepada Tuhan, menyebut ini 'hukum universal yang dirujuk dalam segala ambiguitas.' {cite:dar-taarud-salim-v1-1411 p. 11} {cite:dar-taarud-salim-v1-1411 p. 12} Dalam 'Ringkasan Gagasan Awal dan Akhir,' ia mengatakan bahwa bukti verbal hanya mengonfirmasi kepastian ketika sepuluh hal ditetapkan, termasuk ketiadaan kontradiksi rasional. {cite:dar-taarud-salim-v1-1411 p. 13}
+- **Al-Ghazali**: Dalam 'Hukum Penafsiran,' ia merekomendasikan untuk tidak membantah bukti akal sama sekali karena akal adalah apa yang kita ketahui dalam Syariah. Ia memberikan contoh apa yang ditafsirkan, lalu merekomendasikan untuk tidak menentukan penafsiran ketika kemungkinan bertentangan, dan menganggap berhenti lebih aman. {cite:dar-taarud-salim-v1-1411 p. 14} {cite:dar-taarud-salim-v1-1411 p. 15}
+- **Al-Juwayni**: Dalam 'Al-Irshad,' dasar-dasar kepercayaan dibagi menjadi apa yang hanya bisa dirasakan oleh akal, apa yang hanya bisa dirasakan dengan mendengar, dan apa yang boleh diperbolehkan oleh keduanya. {cite:dar-taarud-salim-v1-1411 p. 15}
+
+## Filsuf
+Ibn Taymiyyah mengatakan bahwa para teolog ini lebih rendah dibandingkan filsuf yang mengklaim bahwa teks para nabi tidak sesuai dengan kebenaran tetapi lebih kepada rakyat biasa dengan cara yang sesuai dengan alasan mereka, seperti hukum yang disebutkan oleh [[person/ibn-sina|Ibn Sina]] dalam "Al-Risalah al-Adhhawiyya." {cite:dar-taarud-salim-v1-1411 p. 11} Editor mengutip teks Ibn Sina bahwa monoteisme murni, jika disajikan kepada mayoritas dalam bentuknya, akan cepat menjadi keras kepala, sehingga hukum agama merespons dengan wacana analogi dan analogi mereka; [[person/ibn-rushd|Ibn Rushd]] menyatakan dalam "Manahij al-Adilla" bahwa makna yang tampak adalah mayoritas dan yang ditafsirkan adalah asumsi para ulama, dan dalam "Fasl al-Maqal" dinyatakan bahwa apa yang dibuktikan dan bertentangan dengan makna nyata Syariah tunduk pada interpretasi menurut hukum penafsiran Arab. {cite:dar-taarud-salim-v1-1411 p. 17} {cite:dar-taarud-salim-v1-1411 p. 18} {cite:dar-taarud-salim-v1-1411 p. 19}
+
+## Jawaban Ibn Taymiyyah
+Setelah jawaban singkat, Ibn Taymiyyah mengatakan bahwa membuktikan kontradiksi antara bukti rasional dan auditori serta menegaskan yang rasional diberi prioritas oleh 'ketidakabsahan pasti diketahui.' Ia kemudian menguraikan dua aspek: pertama, jika dua kontradiktor yang bertentangan itu definitif, kemungkinan kontradiksi mereka tidak diterima; jika dua dugaan itu dimaksudkan, yang pertama adalah mutlak; jika satu definitif, yang definitif adalah yang pertama; dan jika yang rasional definitif, maka didahului karena definitif, bukan rasional. {cite:dar-taarud-salim-v1-1411 p. 178} {cite:dar-taarud-salim-v1-1411 p. 179} Kedua: Pembagian tidak terbatas pada empat kategori, karena rasional kadang dapat dipilih dan auditori pada waktu lain sesuai dengan kepastian dan preferensi. {cite:dar-taarud-salim-v1-1411 p. 179} Ketiga: Pernyataan mereka "akal adalah dasar transmisi," jika dimaksudkan sebagai dasar penetapannya dalam materi itu sendiri, maka tidak seharusnya dikatakan oleh orang rasional, karena apa yang diberitahukan Rasul telah ditetapkan dalam dirinya sendiri, entah kita mengetahuinya atau tidak, tetapi akal adalah dasar pengetahuan kita tentang keasliannya. {cite:dar-taarud-salim-v1-1411 p. 179} {cite:dar-taarud-salim-v1-1411 p. 180} Dan akal mencapai empat puluh empat interpretasi dengan berbagai cara. {cite:dar-taarud-salim-v1-1411 p. 19}
+
+:::perspectives
+**Ahl al-Sunnah (Hanbali): Ibn Taymiyyah.** Dua prinsip definitif tidak bertentangan; yang definitif atau yang lebih disukai lebih disukai karena memang demikian, bukan secara rasional; akal adalah dasar pengetahuan kita tentang Syariah, bukan penegasannya. {cite:dar-taarud-salim-v1-1411 p. 178} {cite:dar-taarud-salim-v1-1411 p. 179} {cite:dar-taarud-salim-v1-1411 p. 180}
+
+**Ahl al-Sunnah (Ash'ari): Al-Razi, di hadapannya Al-Ghazali dan Al-Juwayni.** Ia menyajikan bukti rasional yang menentukan, lalu menafsirkan transmisi atau delegasi. {cite:dar-taarud-salim-v1-1411 p. 11} {cite:dar-taarud-salim-v1-1411 p. 12} {cite:dar-taarud-salim-v1-1411 p. 14}
+
+**Filsuf: Ibn Sina dan Ibn Rushd, seperti yang disajikan oleh editor.** Makna Syariah yang tampak ditujukan kepada mayoritas, dan ditafsirkan jika bertentangan dengan bukti. {cite:dar-taarud-salim-v1-1411 p. 17} {cite:dar-taarud-salim-v1-1411 p. 18}
+:::
+
+## Apa yang tidak disebutkan di sini
+Teks Al-Razi, Al-Ghazali, Al-Juwayni, Ibn Sina, dan Ibn Rushd di sini, sebagaimana dilaporkan oleh Muhammad Rashad Salem dalam Muqaddimah-nya, bukan berasal dari edisi mereka; begitu pula tanggapan Ash'aris terhadap Ibn Taymiyyah atau studi akademis tentang isu ini belum ditambahkan.

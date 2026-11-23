@@ -1,0 +1,20 @@
+---
+id: group/ahl-i-haqq
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/group/ahl-i-haqq.md}
+---
+## Ringkasan
+Ahl al-Haqq, yang berarti "orang-orang Tuhan," adalah sekte rahasia yang terutama tersebar di Persia barat, wilayah Kurdi, dan Azerbaijan. Kepercayaan mereka menggabungkan ekstremisme Syiah, praktik Sufi, dan gagasan kuno tentang inkarnasi dan reinkarnasi, dan doktrin mereka dalam "Furqan al-Akhbar" menyajikan berkat Tuhan. {cite:encyclopaedia-of-islam-2 vol. 1 p. 284}
+
+## Catatan Ensiklopedia Islam
+Nama Ahl al-Haq tidak akurat, karena hurufi dan beberapa Sufi menggunakan kata yang sama, dan pengikut mereka menyebut agama mereka 'agama kebenaran.' Tetangga mereka mengenal mereka sebagai 'Ali Tuhanku,' dan artikel tersebut menganggap nama ini tidak tepat karena Ali bukan tokoh dominan dalam agama mereka. Kelompok ini bukan gereja dengan kesatuan hukum, melainkan menyerupai gabungan gerakan terkait dengan dua belas khanqah atau rantai utama. Artikel ini terutama mengandalkan dokumen 'Ataş Beki,' yang melengkapinya dengan Furqan. {cite:encyclopaedia-of-islam-2 vol. 1 p. 284}
+
+Inti dari kredo ini adalah kepercayaan pada manifestasi ketuhanan yang berurutan, berjumlah tujuh, di mana ketuhanan mengenakan pakaian, dan bersamanya muncul empat atau lima malaikat. Ketuhanan sebelumnya terbatas pada mutiara, dengan penampilan pertamanya pada Khawandkar, Pencipta dunia, dan yang kedua pada Ali. Empat tingkat pertama sesuai dengan tingkat pengetahuan: hukum, jalan, dan realitas, dan yang tertinggi di antaranya adalah otoritas Sahak. Para malaikat saling bertukar peran; mereka adalah manifestasi satu sama lain, termasuk Benjamin, Daud, Musa, dan Razbar, malaikat kelima yang mengawasi penyembahan. Inkarnasi jiwa sangat banyak, dan kelompok ini menunggu kedatangan Tuhan Waktu untuk memenuhi kehendak para sahabat. {cite:encyclopaedia-of-islam-2 vol. 1 p. 284}
+
+Mereka mengadakan pertemuan kelompok (pertemuan) yang diadakan pada waktu tertentu dan pada acara penting, di mana 'pidato' dibacakan dengan musik, dan beberapa dervish disebutkan sebagai kenangan ketika mereka menemukannya. Fokus pertemuan adalah janji dan pengorbanan, dan makanan dimasak serta dibagikan. Setiap individu dipersembahkan kepada pemandu (yang lebih tua) dalam upacara 'Sabz Namuden'. Sebuah persatuan saudara laki-laki dan perempuan dibentuk antara pria dan wanita (syarat pengakuan) untuk mencapai kesempurnaan moral. Puasa berlangsung selama tiga hari di musim dingin, kecuali Atash Beikyun, yang tidak berpuasa selama itu. {cite:encyclopaedia-of-islam-2 vol. 1 p. 285}
+
+Haji Nimatullah, dari Diahunabad dekat Dinavar (1871–1920 M), menulis 'Furqan al-Akhbar' dari kelompok 'Khamoushi', dan setelah 1324 H / 1906 M, ia mengambil peran sebagai Rasul Tuhan pada Masa Itu. Putranya Noor Ali Shah, lahir pada 1313 H / 1895 M, menulis biografi ayahnya dan pengantar Furqan berjudul 'Kashf al-Haqa'iq.' Furqan terdiri dari empat jilid dan didedikasikan khusus untuk Khawandkar dan Sultan Sahak di tempat khusus, tanpa menyebutkan tujuh era. {cite:encyclopaedia-of-islam-2 vol. 1 p. 285}
+
+Ahl al-Haq terkonsentrasi di Lorestan, di daerah Kurdi (antara Goran timur Zahab dan Karand sebagai kota mereka), dan di Azerbaijan sekitar Tabriz dan Maku dengan cabang di Kaukasus. Ada kelompok kecil di Hamadan, Teheran, Mazandaran, Fars, dan Khorasan, serta di antara suku Kurdi dan Turkmen di Kirkuk, Sulaymaniyah, dan mungkin Mosul. Agama mereka mirip dengan Druze dan Nusayri dalam penyembahan kepada Ali, tetapi Sultan Suhak mendominasi Ali. Rawlinson mengumpulkan informasi pertama yang dapat dipercaya tentang sekte ini dan mendirikan studi Minorsky, termasuk manuskripnya dan kunjungan ke makam Baba Yadiger dan Bardur, yang membentuk garis besar utama novel ini. {cite:encyclopaedia-of-islam-2 vol. 1 p. 285}

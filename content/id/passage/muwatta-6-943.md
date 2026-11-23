@@ -1,0 +1,13 @@
+---
+id: passage/muwatta-6-943
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/passage/muwatta-6-943.md}
+---
+
+## Ringkasan
+Malik menceritakannya dari Abd al-Rahman ibn al-Qasim dari ayahnya dari Aisha, Ibu para Muna, bahwa Rasulullah memilih Haji. Verifier menyebutkan bahwa ia menceritakannya dari Malik, Abu Mus'ab (1076), Isma'il ibn Abi Uways, menurut Muslim, al-Jawhari, al-Bayhaqi, dan banyak lainnya. {cite:muwatta-maruf-1997 p.451}
+
+## Lokasinya di museum
+Kitab ini termasuk dalam [[passage/muwatta-kitab-06-hajj|Muwatta, Kitab Haji]]. Sumbernya [[work/muwatta-malik|adalah Al-Muwatta]]. Buku ini menyebutkan [[person/muhammad|Muhammad]], [[person/aisha|Aisha bint Abi Bakr]], [[person/al-qasim-ibn-muhammad|Al-Qasim ibn Muhammad]], dan [[person/abd-al-rahman-ibn-al-qasim|Abd al-Rahman ibn al-Qasim]]. Buku ini juga dibangun di atasnya dalam bab-bab [[practice/ifrad|Ifarat]].

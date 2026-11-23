@@ -1,0 +1,14 @@
+---
+id: concept/nahariyyat
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/nahariyyat.md}
+---
+## Ringkasan
+Jamak dari 'nahariyat' adalah 'nahariyyah,' menurut mazhab Hanafi, adalah seorang wanita yang dinikahi oleh seorang pria dengan syarat ia tinggal bersamanya pada siang hari dan bukan pada malam hari. Kontrak pernikahan berlaku tetapi syaratnya tidak sah menurut mereka, yang merupakan contoh efek kondisi yang tidak sah terhadap kontrak pernikahan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16205} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16206}
+
+## Definisi dan penilaian keseluruhan
+Jamak dari 'nahariyat' berasal dari istilah 'siang,' dan dalam terminologi, ini adalah wanita yang dinikahi oleh pria, asalkan ia memiliki siang hari daripada malam. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16205}
+Hanafi mengatakan tidak ada salahnya menikah di siang hari, dan kontrak berlaku dengan syarat ini, meskipun syarat tersebut tidak mengikat. Bentuk pastinya adalah bahwa dalam kontrak ditetapkan bahwa dia harus bersamanya pada siang hari, bukan pada malam hari. Penulis Al-Bahr mengatakan dia tidak boleh terikat oleh syarat ini, dan dia dapat meminta untuk menginap di malam hari, karena malam adalah default dalam sumpah dan siang bergantung padanya. Ini berlaku jika dia memiliki istri bersama dan syarat bahwa dia memiliki istri bersama siang dan malam; tetapi jika dia tidak memiliki istri bersama, tampaknya dia tidak meminta untuk menginap di malam hari, terutama jika tugasnya adalah malam hari sebagai penjaga. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16205} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16206}
+**Makna di sekolah.** Meskipun nama tidak diketahui di sekolah lain, makna tetap di dalamnya, yang merupakan efek dari syarat yang tidak sah dalam kontrak pernikahan: jika syarat sesuai dengan persyaratan pernikahan, seperti tunjangan dan pembagian makanan, atau jika tidak sesuai dan tidak memiliki tujuan yang sah, seperti syarat bahwa dia hanya akan makan ini dan itu, syarat tersebut dibatalkan dan kontrak menjadi sah. Jika bertentangan dengan persyaratannya dan tidak mempengaruhi tujuan aslinya, seperti syarat bahwa dia tidak boleh menikahinya atau menyediakan nafkah untuknya, kontrak itu sah dan syarat itu tidak sah, termasuk syarat bahwa dia hadir pada siang hari dan tidak pada malam hari. Mereka menjelaskan bahwa syarat-syarat ini memiliki makna tambahan yang tidak perlu disebutkan, sehingga kontrak tidak dibatalkan olehnya, sama seperti pernikahan sah jika tidak mengetahui kompensasi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16206}

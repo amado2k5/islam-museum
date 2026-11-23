@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "854"
-label: { ar: "مسلم 854 — خير يوم طلعت عليه الشمس يوم الجمعة", en: "Muslim 854 — The best day the sun rose on is Friday", es: "Musulmán 854 — El mejor día en que salió el sol es el viernes.", fr: "Muslim 854 — Le meilleur jour où le soleil se lève est le vendredi", ur: "مسلم 854 - سورج طلوع ہونے کا بہترین دن جمعہ کا دن ہے۔" }
+label: { ar: "مسلم 854 — خير يوم طلعت عليه الشمس يوم الجمعة", en: "Muslim 854 — The best day the sun rose on is Friday", es: "Musulmán 854 — El mejor día en que salió el sol es el viernes.", fr: "Muslim 854 — Le meilleur jour où le soleil se lève est le vendredi", ur: "مسلم 854 - سورج طلوع ہونے کا بہترین دن جمعہ کا دن ہے۔", tr: "Müslim 854 — Güneşin doğduğu en hayırlı gün Cuma günüdür.", id: "Muslim 854 — Hari terbaik di mana matahari terbit adalah hari Jumat" }
 text: "قال رسول الله: خير يوم طلعت عليه الشمس يوم الجمعة، فيه خلق آدم، وفيه أدخل الجنة، وفيه أخرج منها، ولا تقوم الساعة إلا في يوم الجمعة"
 summary:
   ar: "رواية أبي هريرة في كتاب الجمعة من صحيح مسلم؛ يوم الجمعة محطة الخلق والجنة والساعة."
+  tr: "Sahih Müslim'de yer alan Cuma Kitabı'nda Ebu Hurayra tarafından rivayet edildiğine göre: Cuma, yaratılışın, cennetin ve kıyametin makamıdır."
+  id: "Diriwayatkan oleh Abu Hurairah dalam Kitab Jumat di Sahih Muslim: Hari Jumat adalah tempat penciptaan, Surga, dan Hari Kiamat."
 relations:
   - { type: part_of, target: passage/muslim-kitab-07 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

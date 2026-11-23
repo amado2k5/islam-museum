@@ -1,0 +1,12 @@
+---
+id: person/ahmad-muhammad-shakir
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/ahmad-muhammad-shakir.md}
+---
+
+## Abu Ishaq al-Huwaini'nin 'İnci Kabukları'nda
+Ebu İshaq el-Huveyni [[person/abu-ishaq-al-heweny|]], Ahmed Şakir tarafından düzenlenen 'Musnad al-İmam Ahmed'in, kardeşinin kütüphanesindeki iki Şeriat kitabından biri olduğunu söyler. 1974'te bu kitaba gelmiş, ancak o dönemde aktarım zincirlerini anlamamış, ardından kütüphanesindeki ilk baskıdan kopyalamıştır. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep02 00:21:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep02 00:22:30} Eski bir kitapçı olan Kharbush'un ona Ahmed Şakir'in bir kitabının bir kopyasını sattığı ve bu kitabın Ahmed Şakir [[person/abbas-mahmoud-al-aqqad|'in Abbas Mahmud al-Aqqad'a hediye ettiği]] anlatılır; bu da adağın kendi zamanında statüsünü azaltmış olabileceğini ve ondan sonra büyütüldüğünü gösterir. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep07 00:03:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep07 00:03:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep07 00:04:00}
+
+Ahmed Şakir, "Mısır'daki son önemli hadis âlimi" olarak tanımlanır ve alimlerin kendisine anlatıcı ismiyle ilgili bir hata atfettiği [[person/shuba-ibn-al-hajjaj|için Şube]]'yi savunduğunu belirtir; bu konuda Şakir'in doğru olmadığını söyler. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep23 00:24:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep23 00:25:30} El-Şafii'nin [[work/al-risala-shafii|"El-Risale"sine girişini över]]. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep24 00:03:00} El-Taberi'nin Tafsir'inin Ahmed Şakir tarafından doğrulandığını, kardeşi Mahmud'un tamamlanmadığını, Ar-Ra'd veya İbrahim Suresinde durduğunu ve bunların Dar al-Ma'arif ile farklı olduğunu düşündüğünü belirtir. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep28 00:03:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep28 00:04:00} Mısır'da Dar Al-Ma'arif'in Ahmed Shaker ve Muhammad Fouad Abdel Baki'nin kitaplarını mükemmel baskı ile bastığı belirtilir. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep12 00:27:00} Mahmud Muhammed Şaker'in Arap bilimlerinde 'dünyayı doldurduğunu' söyler. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep27 00:02:00}

@@ -1,7 +1,7 @@
 id: event/death-qatada-618
 class: event
 kind: death
-label: { ar: "وفاة قتادة أمير مكة وملك ابنه الحسن وقتل أمير الحاج", en: "Death of Qatada amir of Mecca; al-Hasan succeeds; the hajj commander killed", es: "Muerte del emir Qatada de La Meca; al-Hasan le sucede; el comandante del Hajj muere.", fr: "Mort de Qatada, émir de La Mecque; al-Hasan lui succède; le commandant du hajj est tué.", ur: "مکہ کے امیر قتادہ کی موت الحسن کامیاب حج کمانڈر مارا گیا۔" }
+label: { ar: "وفاة قتادة أمير مكة وملك ابنه الحسن وقتل أمير الحاج", en: "Death of Qatada amir of Mecca; al-Hasan succeeds; the hajj commander killed", es: "Muerte del emir Qatada de La Meca; al-Hasan le sucede; el comandante del Hajj muere.", fr: "Mort de Qatada, émir de La Mecque; al-Hasan lui succède; le commandant du hajj est tué.", ur: "مکہ کے امیر قتادہ کی موت الحسن کامیاب حج کمانڈر مارا گیا۔", tr: "Mekke Emiri Katada'nın ölümü, oğlu Hasan'ın tahta geçmesi ve Hac Emiri'nin öldürülmesi.", id: "Kematian Qatada, Emir Mekah, dan naiknya putranya, Al-Hasan, ke tahta, serta pembunuhan Emir Haji." }
 date:
   start: { edtf: "1221~", hijri: "0618", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Qatada ibn Idris, emir de La Meca, murió; su hijo al-Hasan le sucedió, y el comandante del Hajj fue asesinado ese año {cite:kamil-ibn-al-athir p. 426}."
   fr: "Qatada ibn Idris, émir de La Mecque, mourut; son fils al-Hasan lui succéda, et le commandant du hajj fut tué cette année-là {cite:kamil-ibn-al-athir p. 426}."
   ur: "مکہ کے امیر قتادہ بن ادریس فوت ہوئے۔ اس کا بیٹا الحسن کامیاب ہوا، اور حج کمانڈر اسی سال مارا گیا۔ 426}۔"
+  tr: "Mekke Emiri Katade bin İdris öldü ve yerine oğlu Hasan geçti. Hac Emiri de o yıl öldürüldü. {kaynak: Kamil ibn el-Atir s. 426}"
+  id: "Qatada bin Idris, Amir Mekah, meninggal dunia dan putranya, Al-Hasan, menggantikannya. Amir Haji terbunuh pada tahun itu. {cite:kamil-ibn-al-athir p. 426}"
 wings: [time]
 relations:
   - { type: occurred_at, target: place/mecca, sources: [source/kamil-ibn-al-athir] }

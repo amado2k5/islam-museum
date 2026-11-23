@@ -1,7 +1,7 @@
 id: event/death-muazzam-624
 class: event
 kind: death
-label: { ar: "وفاة الملك المعظم صاحب دمشق وملك ولده", en: "Death of al-Malik al-Mu'azzam of Damascus", es: "Muerte de al-Malik al-Mu'azzam de Damasco", fr: "Mort d'al-Malik al-Mu'azzam de Damas", ur: "دمشق کے المالک المعظم کی وفات" }
+label: { ar: "وفاة الملك المعظم صاحب دمشق وملك ولده", en: "Death of al-Malik al-Mu'azzam of Damascus", es: "Muerte de al-Malik al-Mu'azzam de Damasco", fr: "Mort d'al-Malik al-Mu'azzam de Damas", ur: "دمشق کے المالک المعظم کی وفات", tr: "Şam Hükümdarı Büyük Kral'ın Ölümü ve Oğlunun Hükümranlığı", id: "Kematian Raja Agung, Penguasa Damaskus, dan pemerintahan putranya" }
 date:
   start: { edtf: "1227~", hijri: "0624", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Al-Mu'azzam Isa de Damasco murió; le sucedió su hijo Al-Nasir Dawud, y el equilibrio ayubí cambió {cite:kamil-ibn-al-athir p. 473}."
   fr: "al-Mu'azzam Isa de Damas mourut; son fils al-Nasir Dawud lui succéda, et l'équilibre ayyoubide changea {cite:kamil-ibn-al-athir p. 473}."
   ur: "دمشق کے المعظم عیسیٰ کا انتقال ہو گیا۔ اس کا بیٹا ناصر داؤد کامیاب ہوا، اور ایوبی کا توازن بدل گیا۔ 473}۔"
+  tr: "Şam hükümdarı Kral Mu'azzam İsa bin Adil öldü ve yerine oğlu Nasır Davud geçti, böylece Eyyubi hanedanlığının koşulları değişti. {Kaynak: Kamil ibn el-Atir s. 473}"
+  id: "Raja Al-Mu'azzam Isa bin Al-Adil, penguasa Damaskus, wafat, dan putranya Al-Nasir Dawud menggantikannya, sehingga kondisi dinasti Ayyubiyah berubah. {cite:kamil-ibn-al-athir p. 473}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/damascus, sources: [source/kamil-ibn-al-athir] }

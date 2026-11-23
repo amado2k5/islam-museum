@@ -1,0 +1,27 @@
+---
+id: person/azzan-bin-qais
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/azzan-bin-qais.md}
+---
+## Ringkasan
+Azan bin Qais bin Azzan Al-Busaidi (tidak ada tahun kelahiran dalam sumber mana pun – dibunuh di Muttrah pada Januari 1871), Imam Oman dari 1868 hingga 1871: menggulingkan sepupunya Salem bin Thuwaini dan dipilih oleh orang-orang yang berwenang dan berkontrak yang dipimpin oleh Saeed bin Khalfan Al-Khalili. Ia kemudian dikalahkan oleh Turki bin Saeed di Dhank pada tahun 1869 dan dibunuh di Muttrah, membuka jalan bagi pendirian Kesultanan Turki. {cite:wikipedia-azzan-bin-qais-en} {cite:wikipedia-azzan-bin-qais-ar}
+
+## Asal Usul
+Tidak ada sumber yang dapat dipercaya yang menyebutkan tahun kelahiran Azzan: artikel bahasa Inggris mengatakan bahwa tahun kelahiran tidak diketahui dan menempatkannya di abad kesembilan belas, artikel Arab mengatakan "abad kesembilan belas" di kotaknya dan menyebutkan Muscat sebagai tempat kelahirannya, dan hanya klasifikasi Urdu yang menyatakan kelahiran pada tahun 1836 tanpa sumber dalam teks apa pun, dan nilai kelahiran dalam Wikipedia adalah 1900 tepat abad sebagai elemen pengganti untuk "abad kesembilan belas," bukan tahun kelahiran. {cite:wikipedia-azzan-bin-qais-en} {cite:wikipedia-azzan-bin-qais-ar} {cite:wikipedia-azzan-bin-qais-ur} {cite:wikidata-azzan-bin-qais} dan ayahnya Qais bin Ahmad seperti dalam kotak bahasa Inggris. {cite:wikipedia-azzan-bin-qais-en} Azzan menikahi putri Saeed bin Khalfan Al-Khalili, yang memimpin rakyat resolusi dan kontrak dalam memilihnya sebagai imam. {cite:wikipedia-azzan-bin-qais-en}
+
+## Perjalanan
+Pada tahun 1868, Azzan menggulingkan sepupunya Salem bin Thuwaini sebagai gubernur Muscat dan terpilih sebagai Imam oleh rakyat Solusi dan Kontrak yang dipimpin oleh Saeed bin Khalfan Al-Khalili. Ia masuk Muscat dengan bantuan Saleh bin Ali Al-Harthi dan mendeklarasikan Imamat. {cite:wikipedia-azzan-bin-qais-en} {cite:wikipedia-azzan-bin-qais-ar} Programnya, sebagaimana disajikan dalam artikel Arab, adalah: mengembalikan kekuasaan Dewan Syura dalam memilih penguasa, mengakhiri intervensi Inggris di Oman, dan menyatukan kembali Oman dan Zanzibar. {cite:wikipedia-azzan-bin-qais-ar} Artikel dalam bahasa Urdu menggambarkan pengusiran Wahhabi dari Oasis Al-Buraimi sebagai pencapaian terbesarnya, karena ia menentang intervensi Saudi di sana. {cite:wikipedia-azzan-bin-qais-ur} Pada Oktober 1869, Turki bin Said mengalahkannya dalam Pertempuran Dank, kemudian Azzan tewas dalam Pertempuran Muttrah pada Januari 1871, mengakhiri imamatenya dan Turki memasuki Muscat sebagai sultan. {cite:wikipedia-azzan-bin-qais-en}
+
+## Kematian dan warisan
+Azzan dibunuh di Muttrah pada Januari 1871, seperti yang tercantum dalam teks kedua artikel tersebut. Kotak Arab mengaitkan tanggal tersebut dengan Lorimer's Guide to the Gulf (1915), dan kotak bahasa Inggris memberikan tanggal: 30 Januari 1871. {cite:wikipedia-azzan-bin-qais-en} {cite:wikipedia-azzan-bin-qais-ar} Sementara kotak Arab mencantumkan tahun 1870 dan klasifikasinya sebagai 1870 dan 1871 bersama, dan Wikipedia memberikan 1870 sebagai tahun pasti; kartu tersebut mengikuti pembacaan teks yang dikaitkan dengan Lorimer, dan pembacaan tahun 1870 dicatat seperti sekarang. {cite:wikipedia-azzan-bin-qais-ar} {cite:wikidata-azzan-bin-qais} Dengan kematiannya, imamate terpilih terakhir di Oman dari generasi itu berakhir, dan Kesultanan Turki bin Said yang diwariskan oleh putra-putranya didirikan. {cite:wikipedia-azzan-bin-qais-en}
+
+## Posisi dan Kritik
+Bagian ini dibaca sebagai penyajian posisi yang dikutip dari sumber, bukan sebagai penilaian dari museum.
+
+Kartu di sini menyajikan isu agamanya karena ini adalah isu terdekat dari kelompok ini ke batas: artikel bahasa Inggris menyebutnya sebagai 'Imam Oman al-Ibadi,' teks Arab menggambarkan Imamate yang ia nyatakan sebagai Ibadi, kotak bahasa Inggris mencantumkan agamanya sebagai 'Ibadi' tanpa atribusi, dan Wikidata tidak memiliki nilai untuk agama tersebut. {cite:wikipedia-azzan-bin-qais-en} {cite:wikipedia-azzan-bin-qais-ar} {cite:wikidata-azzan-bin-qais} Namun, kedua pasal tersebut saling bertentangan dan bergantung pada literatur yang sama (Lorimer 1915 dan Hooper 2019). Mereka berasal dari keluarga sumber yang sama, dan yang mereka buktikan adalah karakter Ibadi dari posisi imamate yang menjadikannya alasan terpilih. Prinsip kedua sumber — dengan standar yang sama diterapkan pada Turki ibn Said — tidak membentuk cap posisi atau deskripsi satu keluarga sebagai sumber independen yang menyebut aliran pemikiran untuk orang yang sama, sehingga nilainya tetap tidak diketahui, dan semua pembacaan menghilangkan pengamatan iman pada kartu. {cite:wikipedia-azzan-bin-qais-en} {cite:wikidata-azzan-bin-qais} Perselisihan dokumen lain disajikan sebagai gantinya: tahun kelahiran kosong lengkap (daftar tambahan dibuat pada tahun 1840 tanpa sumber yang mendukungnya, sehingga dihilangkan), dan tahun kematian diperdebatkan antara 1870 dan 1871. {cite:wikipedia-azzan-bin-qais-en} {cite:wikidata-azzan-bin-qais} {cite:wikidata-azzan-bin-qais}
+
+## Referensi
+- Sumber yang disebutkan di atas, terdaftar di `data/source/`.
+- Terjemahan dan suntingan selanjutnya pada artikel ini memerlukan tinjauan berkala dengan tanggal pembaruan yang jelas.

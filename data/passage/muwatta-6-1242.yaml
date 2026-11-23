@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/yahya-ibn-said-al-ansari, person/said-ibn-al-musayyab]
 work: work/muwatta-malik
 ref: "1242"
-label: { ar: "الموطأ 1242 — سعيد بن المسيب: في حمام مكة إذا قتل شاة", en: "Muwatta 1242", es: "Muwatta 1242", fr: "Muwatta 1242", ur: "موطا 1242" }
+label: { ar: "الموطأ 1242 — سعيد بن المسيب: في حمام مكة إذا قتل شاة", en: "Muwatta 1242", es: "Muwatta 1242", fr: "Muwatta 1242", ur: "موطا 1242", tr: "El-Muvatta 1242 — Sa’id ibn al-Musayyab: Mekke hamamında bir koyun kesilirse...", id: "Al-Muwatta 1242 — Sa’id ibn al-Musayyab: Di pemandian umum Mekah, jika seekor domba disembelih" }
 summary:
   ar: "يروي مالك عن يحيى بن سعيد عن سعيد بن المسيب أنه كان يقول في حمام مكة إذا قتل شاة. {cite:muwatta-maruf-1997 p.554}"
+  tr: "Malik, Yahya ibn Sa'id'den, o da Sa'id ibn al-Musayyab'dan rivayetle, Mekke'deki hamamda bir koyun kestiğinde şöyle dediğini aktarır. {cite:muwatta-maruf-1997 s.554}"
+  id: "Malik meriwayatkan dari Yahya ibn Sa'id, dari Sa'id ibn al-Musayyab, bahwa ia biasa berkata di pemandian umum Mekah, jika ia membunuh seekor domba. {cite:muwatta-maruf-1997 p.554}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
   - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }

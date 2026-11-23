@@ -45,7 +45,7 @@ function languagesOf(d: Record<string, any>): string[] {
   const out = new Set<string>();
   const langs = d.languages;
   if (Array.isArray(langs)) for (const v of langs) if (isLang(v)) out.add(v);
-  else if (langs && typeof langs === "object") for (const v of langs.original ?? []) if (isLang(v)) out.add(v);
+  else if (langs && typeof langs === "object") for (const v of (langs as { original?: unknown[] }).original ?? []) if (isLang(v)) out.add(v);
   if (typeof d.language === "string" && d.language.startsWith("language/")) {
     const code = byId.get(d.language)?.data?.iso639_1 ?? byId.get(d.language)?.data?.code;
     if (isLang(code)) out.add(code);

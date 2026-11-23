@@ -1,0 +1,12 @@
+---
+id: practice/dua-on-entering-the-house
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/dua-on-entering-the-house.md}
+---
+## Ringkasan
+Apa yang dikatakan saat memasuki rumah, seperti yang disusun oleh al-Nawawi dalam "Al-Adhkar": nama dan damai bagi keluarganya, dan doa "Ya Allah, aku memohon yang terbaik dari yang berkuasa dan jalan keluar terbaik" dari Sunan Abu Dawood, dan apa yang dikatakan saat memasuki rumah yang kosong dari Muwatta. {cite:al-adhkar-nawawi-arnaut-1994 p. 23}
+
+## Apa yang dikumpulkan al-Nawawi dalam 'Al-Adhkar'
+Al-Nawawi mengatakan bahwa disarankan untuk mengucapkan 'Atas nama Allah,' untuk sering mengingat Allah, dan menyapa Allah, baik ada orang di rumah maupun tidak, dengan mengutip ayat dari [[passage/quran-24-61|Surah An-Nur]] {cite:al-adhkar-nawawi-arnaut-1994 p. 23}. Dinawayatkan dari kitab At-Tirmidhi dari Anas bahwa [[person/muhammad|Nabi]] memerintahkan dia untuk menyapa keluarganya saat masuk sebagai berkah bagi dia dan keluarganya. Dia juga menyampaikan pernyataan At-Tirmidhi sebagai hadits yang baik dan otentik {cite:al-adhkar-nawawi-arnaut-1994 p. 23}. Dari Sunan Abu Dawood dari Abu Malik al-Ash'ari: "Ya Allah, aku memohon petunjuk terbaik dan jalan keluar terbaik. Atas nama Allah kami telah keluar, dan atas nama Allah kami telah keluar, dan kami bersandar kepada Allah Tuhan kami." Kemudian dia mengirimkan damai kepada keluarganya dan berkata bahwa Abu Dawood tidak melemahkannya {cite:al-adhkar-nawawi-arnaut-1994 p. 23}. Disebutkan dari Sahih Muslim dari Jabir bahwa menyebut Allah saat masuk dan makan melarang Setan menginap dan makan malam {cite:al-adhkar-nawawi-arnaut-1994 p. 24}. Dari kitab Ibn al-Sunni dari Abdullah ibn Amr, yang naratornya lemah: "Segala puji kepada Allah yang telah menyediakan dan melindungiku, dan puji Allah yang telah memberiku makan dan minum, dan puji Allah yang telah memberiku makan dan minum, dan puji Allah yang telah memberiku makan. Aku memohon Engkau menyelamatkanku dari api" {cite:al-adhkar-nawawi-arnaut-1994 p. 24}. Dilaporkan dari Muwatta Malik bahwa disarankan agar ketika memasuki rumah yang tidak berpenghuni, ia menyapa dirinya sendiri dan hamba-hamba Allah yang berhak {cite:al-adhkar-nawawi-arnaut-1994 p. 25}.

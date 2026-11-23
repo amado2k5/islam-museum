@@ -1,7 +1,7 @@
 id: event/death-ibn-mardanish-568
 class: event
 kind: death
-label: { ar: "وفاة ابن مردنيش وملك يوسف بن عبد المؤمن بلاده", en: "death of Ibn Mardanīsh — Yūsuf ibn ʿAbd al-Muʾmin takes his lands", es: "Muerte de Ibn Mardanīsh: Yūsuf ibn ʿAbd al-Muʾmin toma posesión de sus tierras.", fr: "Mort d'Ibn Mardanīsh — Yūsuf ibn ʿAbd al-Muʾmin s'empare de ses terres", ur: "ابن مردانیش کی موت - یوسف بن عبد المومن نے اس کی زمینیں لے لی" }
+label: { ar: "وفاة ابن مردنيش وملك يوسف بن عبد المؤمن بلاده", en: "death of Ibn Mardanīsh — Yūsuf ibn ʿAbd al-Muʾmin takes his lands", es: "Muerte de Ibn Mardanīsh: Yūsuf ibn ʿAbd al-Muʾmin toma posesión de sus tierras.", fr: "Mort d'Ibn Mardanīsh — Yūsuf ibn ʿAbd al-Muʾmin s'empare de ses terres", ur: "ابن مردانیش کی موت - یوسف بن عبد المومن نے اس کی زمینیں لے لی", tr: "İbn Mardaniş'in ölümü ve Yusuf ibn Abdülmümin'in onun toprakları üzerindeki yönetimi.", id: "Kematian Ibn Mardanish dan pemerintahan Yusuf ibn Abd al-Mu'min atas tanah miliknya." }
 date:
   start: { edtf: "1172~", hijri: "0568", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Ibn Mardanīsh, señor del oriente español, murió y el almohade Yūsuf ibn ʿAbd al-Muʾmin tomó sus tierras: las provincias orientales y Qafsa cayeron en sus manos, unidas a su reino del Magreb {cite:kamil-ibn-al-athir p. 37}."
   fr: "Ibn Mardanīsh, seigneur de l'est espagnol, mourut et l'Almohade Yūsuf ibn ʿAbd al-Muʾmin prit ses terres — les provinces orientales et Qafsa lui tombèrent dessus, rattachées à son royaume du Maghreb {cite:kamil-ibn-al-athir p. 37}."
   ur: "ابن مردانیش، ہسپانوی مشرق کا آقا، وفات پا گیا اور المحدث یوسف بن عبدالمومن نے اس کی زمینیں لے لیں - مشرقی صوبے اور قفس اس کے قبضے میں آگئے، اس کے مغرب میں شامل ہوگئے۔ 37}۔"
+  tr: "Doğu Endülüs hükümdarı İbn Mardaniş öldü ve Yusuf ibn Abdülmümin el-Muvahhid onun topraklarının kontrolünü ele aldı. Böylece, Doğu Endülüs, Kafsa ve toprakları onun yönetimi altında kuruldu ve Fas'taki mülklerine eklendi. {Kaynak: Kamil ibn el-Athir s. 37}"
+  id: "Ibn Mardanish, penguasa Andalusia timur, meninggal dunia, dan Yusuf ibn Abd al-Mu’min al-Muwahhid mengambil alih wilayahnya. Dengan demikian, Andalusia timur, Qafsa, dan wilayah-wilayahnya berada di bawah kekuasaannya dan ditambahkan ke wilayah yang dimilikinya di Maroko {cite:kamil-ibn-al-athir p. 37}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/al-andalus, sources: [source/kamil-ibn-al-athir] }

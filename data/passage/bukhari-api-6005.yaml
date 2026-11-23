@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "6005"
-label: { ar: "صحيح البخاري 6005 — اليتيم وفقد الأب", en: "Sahih al-Bukhari 6005 — the orphan and the father lost", ur: "صحیح بخاری 6005 — یتیم اور باپ کی موت", es: "Sahih al-Bukhari 6005 — El huérfano y el padre perdido", fr: "Sahih al-Bukhari 6005 — L'orphelin et le père perdus" }
+label: { ar: "صحيح البخاري 6005 — اليتيم وفقد الأب", en: "Sahih al-Bukhari 6005 — the orphan and the father lost", ur: "صحیح بخاری 6005 — یتیم اور باپ کی موت", es: "Sahih al-Bukhari 6005 — El huérfano y el padre perdido", fr: "Sahih al-Bukhari 6005 — L'orphelin et le père perdus", tr: "Sahih el-Buhari 6005 — Yetim ve Babayı Kaybetme", id: "Sahih al-Bukhari 6005 — Anak Yatim dan Kehilangan Ayah" }
 text: "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عَبْدِ الْوَهَّابِ، قَالَ حَدَّثَنِي عَبْدُ الْعَزِيزِ بْنُ أَبِي حَازِمٍ، قَالَ حَدَّثَنِي أَبِي قَالَ، سَمِعْتُ سَهْلَ بْنَ سَعْدٍ، عَنِ النَّبِيِّ قَالَ \" أَنَا وَكَافِلُ الْيَتِيمِ، فِي الْجَنَّةِ هَكَذَا \". وَقَالَ بِإِصْبَعَيْهِ السَّبَّابَةِ وَالْوُسْطَى."
 summary:
   ar: "حديث في صحيح البخاري، رقم 6005، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 6005، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.º 6005 (Buenas costumbres y modales (Al-Adab)), menciona al huérfano y al padre ausente. El navegador \"La paternidad en el Islam\" lo incluye en su lista de textos del Corán, la Sunnah, la sirah y libros sobre la paternidad."
   fr: "Un hadith du Sahih al-Bukhari, n° 6005 (Les bonnes manières et la bienséance), évoque l'orphelin et le père disparu. Le site « Paternité en Islam » répertorie ce hadith avec les versets du Coran, la Sunna, la Sîra et les ouvrages consacrés à la figure paternelle."
+  tr: "Sahih el-Buhari'de 6005 numaralı hadis, yetimlerden ve babasızlık durumundan bahseder. \"İslam'da Babalık\" bölümü, bu hadisi Kur'an, Sünnet, Peygamberin biyografisi ve bu konuyla ilgili diğer kitaplardan alıntılarla birlikte derlemektedir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 6005, menyebutkan tentang anak yatim dan kehilangan seorang ayah. Bagian \"Kebapakan dalam Islam\" mengumpulkan hadits ini bersama dengan teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/yatim-fiqh, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6005 (book 78 hadith 36); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

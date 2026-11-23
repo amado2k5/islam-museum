@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "649"
-label: { ar: "صحيح البخاري 649 — رفع الدرجات", en: "Sahih al-Bukhari 649 — ranks raised", ur: "صحیح بخاری 649 — درجات کی بلندی", es: "Sahih al-Bukhari 649 - rangos elevados", fr: "Sahih al-Bukhari 649 — rangs relevés" }
+label: { ar: "صحيح البخاري 649 — رفع الدرجات", en: "Sahih al-Bukhari 649 — ranks raised", ur: "صحیح بخاری 649 — درجات کی بلندی", es: "Sahih al-Bukhari 649 - rangos elevados", fr: "Sahih al-Bukhari 649 — rangs relevés", tr: "Sahih el-Buhari 649 — Rütbeleri Yükseltmek", id: "Sahih al-Bukhari 649 — Menaikkan Barisan" }
 text: "قَالَ شُعَيْبٌ وَحَدَّثَنِي نَافِعٌ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، قَالَ تَفْضُلُهَا بِسَبْعٍ وَعِشْرِينَ دَرَجَةً."
 summary:
   ar: "حديث في صحيح البخاري، رقم 649، يذكر رفع الدرجات. تجمعه قائمة الحسنات والسيئات مع النصوص التي تعدّ العمل أو تكتبه أو تمحوه أو تزنه."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 649، جس میں درجات کی بلندی کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
   es: "Un relato en Sahih al-Bukhari, n.º 649 (Llamada a la oración (Adhan)), que habla de rangos elevados. El Libro Mayor de Hasanat y Sayyi'at lo incluye entre los textos que cuentan, escriben, borran o sopesan una acción."
   fr: "Un hadith du Sahih al-Bukhari, n° 649 (Appel à la prière (Adhan)), évoque l'élévation de grade. Le Livre des Hasanat et Sayyi'at le mentionne parmi les textes relatifs au décompte, à l'inscription, à l'effacement ou à la pesée d'un acte."
+  tr: "Sahih el-Buhari'de 649 numaralı hadis, derecelerin yükseltilmesinden bahseder. Bu hadis, iyi ve kötü amellerin listesini, eylemleri sayan, kaydeden, silen veya tartan metinlerle birleştirir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 649, menyebutkan tentang menaikkan derajat. Hadits ini menggabungkan daftar amal baik dan buruk dengan teks-teks yang menghitung, mencatat, menghapus, atau menimbang perbuatan."
 relations:
   - { type: part_of, target: passage/bukhari-kitab-10 }
   - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }

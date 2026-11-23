@@ -1,0 +1,13 @@
+---
+id: concept/khalq-al-quran
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/khalq-al-quran.md}
+---
+
+## Ringkasan
+Imam Ahmad mengatakan dalam risalahnya bahwa Al-Qur'an adalah ucapan Allah, dan apa yang Allah katakan bukanlah ciptaan, dan apa yang ada dalam Mushaf serta pembacaan orang adalah firman Allah, bukan ciptaan {cite:madkhal-ibn-badran-turki p.53}. Ia menambahkan bahwa siapa pun yang mengatakan Al-Qur'an diciptakan adalah orang kafir, dan siapa pun yang tidak berkhidmat, adalah kafir {cite:madkhal-ibn-badran-turki p.53}. Penulis menyebutkan bahwa para ulama sepakat bahwa Jahmiyyah berbeda menjadi tiga sekte terkait isu Al-Qur'an {cite:madkhal-ibn-badran-turki p.54}. Satu kelompok mengatakan Al-Qur'an adalah firman Allah dan diciptakan, kelompok lain mengatakan Al-Qur'an adalah firman Allah dan tetap diam apakah Al-Qur'an diciptakan atau tidak, dan kelompok ketiga mengatakan bahwa firman dalam Al-Qur'an diciptakan {cite:madkhal-ibn-badran-turki p.54}.
+
+## Dalam 'Sharh Usul I'tiqad Ahl al-Sunnah' oleh Al-Kai
+[[person/al-lalakai|Al-Lalakai]] mencantumkan dalam "[[work/sharh-usul-itiqad-lalakai|Sharh Usul Itiqad Ahl al-Sunnah]]" nama-nama mereka yang mengatakan Al-Qur'an adalah firman Tuhan, bukan ciptaan, dan bahwa siapa pun yang mengatakan Al-Qur'an diciptakan adalah orang kafir. Ia kemudian mengatakan bahwa mereka adalah lima ratus lima puluh jiwa atau lebih dari Tabi'un, pengikut mereka, dan imam, kecuali para Sahabat, di antara mereka sekitar seratus Imam, dan ia secara singkat menghilangkan rantai transmisi. {cite:sharh-usul-itiqad-basira p. 256} Ia menyatakan bahwa tidak ada perselisihan di antara umat bahwa orang pertama yang mengucapkan Al-Qur'an diciptakan [[person/jad-ibn-dirham|oleh al-Ja'd ibn Dirham]] 'pada usia lebih dari dua puluh tahun,' seperti yang ia katakan, kemudian [[person/jahm-ibn-safwan|al-Ja'd ibn Safwan]], dan bahwa al-Ja'd dibunuh oleh Khalid ibn Abdullah al-Qasri, dan al-Jahm dibunuh di Marw selama kekhalifahan Hisham ibn Abd al-Malik. {cite:sharh-usul-itiqad-basira p. 256} Kemudian diadakan bab tentang para ahli hukum yang mengeluarkan fatwa mengenai pendapat ciptaan-Nya, seperti Malik ibn Anas, Ibn Abi Layla, Sufyan ibn Uyaynah, dan di antara para khalifah seperti Abu Ja'far al-Mansur, serta sekelompok ulama hadis. {cite:sharh-usul-itiqad-basira p. 257}
