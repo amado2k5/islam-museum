@@ -1,8 +1,8 @@
-# 63. Translating prose in bulk through Google Translate document files
+# 63. Translating prose and strings in bulk through document files
 
 Founder's instruction, 19 November 2026 (done on branch `release/spanish`, merged into `main` the same day; pull requests go to `main` only from then on): the remaining Spanish and French prose is
 translated by uploading Word files to Google Translate's document translation in a browser, not by a local model and
-not by a cloud AI model. This page records how it is done and what was measured, so no session has to find it out again.
+not by a cloud AI model. This page records how it is done and what was measured, so no session has to find it out again. The same pipeline later ran with Microsoft Word for Mac's Translate Document for Turkish and Indonesian — see "Engines used so far" below.
 
 Status of what this produces: machine translation, checked by script against its English source, **not read by a
 human**. Every file names Google Translate in `translators` and `provenance` (`model: google-translate`).
@@ -102,3 +102,55 @@ contain a blocked term, as one Urdu name did.
 The Word files are uploaded by a person in an ordinary browser. On 19 and 20 November 2026 Google refused every upload
 from the browser the agent drives ("Can't translate this file right now. Try again later") and accepted the same files
 at once when the founder uploaded them by hand.
+
+## Engines used so far, and when each is picked
+
+Updated 23 November 2026 for the Turkish–Indonesian lane (`release/turki-indo`, merged to `main` by PR #8022 and the gap PRs #8025/#8029).
+
+Three document-translation engines have run the same build/import pipeline (`build_gt.py` → browser/Word → `import_gt.py`):
+
+| Engine | `--engine` | How the file is translated | Notes |
+|---|---|---|---|
+| Google Translate, document tab | `google` | translate.google.com, Documents, upload → Translate → Download | The original lane (es/fr). Best recovery on the hard records when the tags scheme is used (below). ~1.1M words in ~2 min. |
+| Microsoft Word for Mac | `word` | Review → Translate → "Translate Document"; opens a new window, saved as `<name>-<lang>.docx` | The tr/id lane (founder instruction, 22–23 November 2026; replaces Azure). Caps at ~380,000 source characters per file (a record whose lines exceed ~40% of that is set aside: `too long for one Word file`). Word sometimes merges or drops the `#### n ####` marker paragraphs — every such record is retried later. |
+| Azure AI Document Translation | `azure` | async batch API | Discontinued for this work (founder instruction). |
+
+The `translators`/`provenance` line in every imported file names the engine used.
+
+## Source-language pivots
+
+- **Turkish and Indonesian: always from Arabic** (`--src ar`, every class; founder instruction 22 November 2026).
+- **French and Spanish: from English** for general classes, **from Arabic** for the sacred classes `passage`, `practice`, `question` (and leveled records: see below).
+
+## The tr/id lane, end to end
+
+Working folders under `local-mt-work/word-tr-id/` (gitignored): `prose/` (100 files), `data/` (75 `gtd` files), `ys/` (15 files), `gaps/` and `retry2/`/`retry3/` (recovery rounds). Import logs in `local-mt-work/import-logs/` as JSON lines, one record per event (`written`/`failed`/`skipped` + reason).
+
+1. **Prose** — `build_gt.py --lang <tr|id> --src ar …`, then Word Translate Document, then `import_gt.py --lang tr --src ar --engine word --map <map>.json --docx <file>-tr.docx --log <log> --out .`
+2. **Data strings** — `scripts/local-mt/data_strings.py` (the `gtd` files: `label`, `summary` and other language blocks inside `data/*.yaml`).
+3. **UI strings and datasets** — `scripts/local-mt/yaml_strings.py` (the `ys` files): `i18n/<lang>.yaml`, `edu/`, `kids/`, `tour/`, `cards/`, `datasets/`, `wt3/`, `surah-maps/` — every `ar:`/`en:` scalar in a language block that lacks the target language. `--lang` accepts `tr`, `id`, `fr`, `es` (fr/es added 23 November 2026 for the fr-i18n gap). The import writes `<lang>:` siblings next to the source key and mirrors the `ar.yaml` structure into `i18n/<lang>.yaml`, creating missing intermediate keys and list items (`set_nested`, fixed 23 November 2026: it now looks ahead one path segment to create a list vs a dict, and `parent["key[0]"]` terminal paths write the list element or a `{ar: …, <lang>: …}` dict in place).
+
+## Marker schemes, and why there is a second and third round
+
+`build_gt.py --scheme` controls how links/citations travel through the translator:
+
+- `link` (default): citations as `[[N]]`, link labels as real Word hyperlinks (`w:anchor`). Best for Google (the measurement table above).
+- `num`: everything as 10-digit numbers (`8000000001`, `8100000001`, `8200000001`).
+- `tags`: literal `<xN>label</xN>` text and `[[N]]` in plain text.
+
+Word's Translate Document drops `w:anchor` ids and merges `#### n ####` paragraphs on hard records (long tafsir pages, dense link text): the importer then reports `markers lost` and the record is retried. Round two repackages only the failed ids (`--ids-file`); round three rebuilt the same ids with `--scheme tags` for Google, which recovered roughly two-thirds of what Word had lost. Both importers log per-record results so the failed-ids files can be rebuilt at any point.
+
+## Reading-level records (`--leveled`)
+
+Files containing `## For Sprouts` / `## For Explorers` / `## For Scholars` were held from translation until 23 November 2026 (`LEVELED` in `translate.py`). They now ship with `--leveled` on both `build_gt.py` and `import_gt.py`; the importer rewrites the three headings from `FIXED_HEADINGS` in `translate.py` (fr: Pour les Petits / Pour les Explorateurs / Pour les Chercheurs; es: Para los Brotes / Para los Exploradores / Para los Estudiosos; tr/id: the `edu/levels.yaml` strings). Translated level sections tend to run over the `max_words` caps in `edu/levels.yaml` (80/160/300) because MT expands the text; the cleanup pass trims trailing sentences until the section fits (`levelWordCount` counts exactly as `scripts/validate.ts` does). The fr/es leveled packages were built from English, the single sacred files from Arabic.
+
+## Damage found in delivered files, and the repairs
+
+- **Corrupt `.docx`** (`unreadable content` on open): three causes seen — a truncated write, a `sectPr`/`w:p` structure Word dislikes, and a wrong `_rels/.rels` relationship URI (the `…/relationships/officeDocument` suffix is required; a bare `…/relationships` fails). All repo builders write the correct minimal package (`[Content_Types].xml`, `_rels/.rels`, `word/document.xml`); a damaged file is regenerated from its `.json` map, never hand-edited. Also seen: Word in a bad state rejects *every* file including known-good ones — force-quit it and clear recovery dialogs before concluding a file is corrupt.
+- **U+FFFD** in imported prose/data: mojibake inside transliterated names and non-Latin script (Bengali titles, Amharic, Arabic fragments). Fixed by comparing the ar/en source line; `check-encoding` and `npm run validate` must report zero.
+- **Level sections over `max_words`**: trimmed to fit (see above).
+- **Extremism-firewall false-positives**: MT mis-transliterations — «الحُمْس» (the Hums) → "Hamas", «الطالبيين» → "Taliban", «الرومية» (Greek) → "Rumiyah", «القاعدة» (a rule/principle) → "al-Qaeda", «أولياء الله» → "Ansar Allah", «حماسة»/«منهاج الطالبين» book titles, and a map label "before the Taliban" reworded "before 2001". Every one is fixed by correcting the translation to the proper term; `check-extremism` must report zero before commit.
+
+## Merge/branch rules for this lane
+
+`main` is protected (PRs only). Each import round is committed on a `feat/` branch, PR'd to `main`, merged; `release/turki-indo` is retired (no new PRs against it after #8022). A stale-branch push is recovered by merging `origin/main` first — for `i18n/<lang>.yaml` conflicts, resolve as a deep union of keys (both sides' leaves kept), never one side wholesale: a `yaml.safe_dump` on an OrderedDict mid-merge once truncated the file; verify leaf counts on both sides after resolving.
