@@ -1,0 +1,18 @@
+---
+id: event/al-hadi-applies-the-wine-penalty-at-saada-286
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/al-hadi-applies-the-wine-penalty-at-saada-286.md}
+---
+## Ringkasan
+Ali ibn Muhammad [[person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi|berkata]]: Abu [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Muhammad ibn Ubayd Allah berkata kepadaku]] : Aku melihat Yahya ibn al-Husayn membawa seorang pria, dan dikatakan kepadanya, 'Dia mabuk' {cite:sira-hadi-ila-al-haqq p.119}. Di pinggir dokumen asli terdapat judul 'Eksekusi Hududu' {cite:sira-hadi-ila-al-haqq p.119}. Laporan ini ditambahkan dengan suara para pengikut Imam, dan putusan serta angka-angka di dalamnya berasal dari riwayat Muhammad ibn Ubayd Allah. Ensiklopedia ini menjelaskan apa yang dilaporkan tanpa perbandingan atau keputusan; subjek umum firisprudensi mencakup catatan [[concept/khamr]] dan [[concept/hudud-penalties]].
+
+## mabuk
+Al-Hadi [[person/al-hadi-yahya-al-rassi|memerintahkan]] dua orang yang dapat dipercaya untuk mengujinya, dan mereka bersaksi bahwa dia adalah peminum. Dia memenjarakannya sampai hari berikutnya sampai dia pulih dari mabuknya. Kemudian dia memerintahkan agar dia dipukul di antara dua belenggu dan memukul delapan puluh cambuk dengan cambuk {cite:sira-hadi-ila-al-haqq p.119}. Dia sendiri memilih cambuk sedang, tidak tipis maupun kasar, memerintahkan kepala cambuk, memukul batu, dan memukulnya tanpa pakaian yang dilepaskan. Dia memerintahkan algojo untuk memisahkan pukulan di bahu dan tidak melebihi itu, dan memerintahkan seorang pria menghitung di hadapan algojo {cite:sira-hadi-ila-al-haqq p.119}.
+
+## Empat pria dan dua wanita
+Muhammad ibn Ubayd Allah melihat Yahya ibn al-Husayn membawa empat pria dan dua wanita. Beberapa orang bersaksi bahwa dua dari empat pria itu mabuk. Dia memerintahkan mereka, sehingga dia mengambil mereka dan menemukan aroma anggur dari mereka, sehingga masing-masing memukul delapan puluh {cite:sira-hadi-ila-al-haqq p.119}. Mereka bersaksi melawan dua pria lainnya, yang merupakan tentara dan sahabatnya, bahwa mereka menemukan mereka sedang berbicara dengan kedua wanita itu, sehingga dia memerintahkan mereka dipukul tujuh puluh, kurang dari hukuman yang ditetapkan, sebagai bentuk kesopanan {cite:sira-hadi-ila-al-haqq p.119}.
+
+## Kedua wanita itu
+Ia memerintahkan kedua wanita itu untuk melihat apakah salah satunya hamil. Salah satu dari mereka mendapati dirinya hamil, sehingga ia memerintahkan wanita itu dikurung sendirian di rumah sampai ia melahirkan, kecuali dua pria terbukti dapat dipercaya dan meminta pertanggungjawaban hingga ia melahirkan. Kemudian ia membawa dua pria dan mengikatnya {cite:sira-hadi-ila-al-haqq p.119}. Ia memerintahkan yang lain duduk di dalam keranjang berisi jerami dan dipukul dengan enam puluh cambukan; ia mengatakan ia tidak menemukannya karena curiga. Ia mengirim beberapa pelayannya untuk memberitahu bahwa jika mereka menemukan ia terlibat dalam hal itu dan mereka bersaksi melawan Anda, ia akan memerintahkan agar ia digali dan dilempari batu. Kemudian ia bertanya apakah ia bebas atau miliknya, dan ia berkata bebas, dan ia diberikan enam puluh cambukan sebagai langkah sopan {cite:sira-hadi-ila-al-haqq p.119}. Teks tersebut tidak menyebutkan hari, Sunnah, atau tempatnya. Lihat [[event/al-daam-swears-to-al-hadi-and-a-governor-is-placed-in-his-land-286]] untuk batasan lain dalam kitab ini.

@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/yahya-ibn-said-al-ansari]
 work: work/muwatta-malik
 ref: "2463"
-label: { ar: "الموطأ 2463 — يحيى بن سعيد: مروان يكتب إلى معاوية في المجنون الذي قتل رجلا", en: "Muwatta 2463", es: "Muwatta 2463", fr: "Muwatta 2463", ur: "موطا 2463" }
+label: { ar: "الموطأ 2463 — يحيى بن سعيد: مروان يكتب إلى معاوية في المجنون الذي قتل رجلا", en: "Muwatta 2463", es: "Muwatta 2463", fr: "Muwatta 2463", ur: "موطا 2463", tr: "El-Muvatta 2463 — Yahya ibn Said: Mervan, bir adamı öldüren deli adam hakkında Muaviye'ye yazıyor.", id: "Al-Muwatta 2463 — Yahya ibn Saeed: Marwan menulis kepada Muawiyah tentang orang gila yang membunuh seorang pria" }
 summary:
   ar: "يروي مالك عن يحيى بن سعيد أن مروان بن الحكم كتب إلى معاوية بن أبي سفيان أنه أُتي بمجنون قتل رجلا، فكتب إليه معاوية: أن اعقله ولا تُقِد منه، فإنه ليس على مجنون قود. {cite:muwatta-maruf-1997 p.419}"
+  tr: "Malik, Yahya ibn Sa'id'den rivayetle, Mervan ibn el-Hakam'ın Muaviye ibn Ebu Sufyan'a, bir adamı öldüren bir delinin kendisine getirildiğini yazdığını aktarır. Muaviye ona şöyle cevap yazmıştır: \"Onu zapt et ve ondan intikam alma, çünkü deliden intikam alınmaz.\" {cite:muwatta-maruf-1997 s.419}"
+  id: "Malik meriwayatkan dari Yahya ibn Sa'id bahwa Marwan ibn al-Hakam menulis kepada Mu'awiya ibn Abi Sufyan bahwa seorang pria gila telah dibawa ke hadapannya karena telah membunuh seseorang. Mu'awiya membalas suratnya: \"Tahan dia dan jangan balas dendam padanya, karena tidak ada pembalasan bagi orang gila.\" {cite:muwatta-maruf-1997 p.419}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

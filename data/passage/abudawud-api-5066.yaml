@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "5066"
-label: { ar: "سنن أبي داود 5066 — اليتيم وفقد الأب", en: "Sunan Abi Dawud 5066 — the orphan and the father lost", ur: "سنن ابی داؤد 5066 — یتیم اور باپ کی موت", es: "Sunan Abi Dawud 5066 — El huérfano y el padre perdido", fr: "Sunan Abi Dawud 5066 — L'orphelin et le père perdus" }
+label: { ar: "سنن أبي داود 5066 — اليتيم وفقد الأب", en: "Sunan Abi Dawud 5066 — the orphan and the father lost", ur: "سنن ابی داؤد 5066 — یتیم اور باپ کی موت", es: "Sunan Abi Dawud 5066 — El huérfano y el padre perdido", fr: "Sunan Abi Dawud 5066 — L'orphelin et le père perdus", tr: "Sunan Abi Davud 5066 — Yetim ve Babanın Kaybı", id: "Sunan Abi Dawud 5066 — Anak Yatim dan Kehilangan Ayah" }
 text: "… أُمِّ الْحَكَمِ، أَوْ ضُبَاعَةَ ابْنَتَىِ الزُّبَيْرِ حَدَّثَهُ عَنْ إِحْدَاهُمَا، أَنَّهَا قَالَتْ أَصَابَ رَسُولُ اللَّهِ سَبْيًا فَذَهَبْتُ أَنَا وَأُخْتِي وَفَاطِمَةُ بِنْتُ النَّبِيِّ إِلَى النَّبِيِّ فَشَكَوْنَا إِلَيْهِ مَا نَحْنُ فِيهِ وَسَأَلْنَاهُ أَنْ يَأْمُرَ لَنَا بِشَىْءٍ مِنَ السَّبْىِ. فَقَالَ رَسُولُ اللَّهِ \" سَبَقَكُنَّ يَتَامَى بَدْرٍ \". ثُمَّ ذَكَرَ قِصَّةَ التَّسْبِيحِ قَالَ عَلَى أَثَرِ كُلِّ صَلاَةٍ لَمْ يَذْكُرِ النَّوْمَ."
 summary:
   ar: "حديث في سنن أبي داود، رقم 5066، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابی داؤد کی حدیث نمبر 5066، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Abi Dawud, n.° 5066 (Conducta General (Kitab Al-Adab)), menciona al huérfano y al padre ausente. El navegador \"La paternidad en el Islam\" lo incluye en su lista de textos del Corán, la Sunnah, la sirah y libros sobre la figura paterna."
   fr: "Un hadith du Sunan Abi Dawud, n° 5066 (Guide des mœurs), mentionne l'orphelin et le père disparu. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la figure paternelle."
+  tr: "Sünen Ebu Davud'da yer alan 5066 numaralı hadiste yetimler ve babasızlık konusu geçmektedir. Bu hadis, Kur'an, Sünnet, Peygamberimizin hayatı ve konuyla ilgili diğer kitaplardan ilgili metinleri içeren \"İslam'da Babalık\" bölümü tarafından derlenmiştir."
+  id: "Sebuah hadits dalam Sunan Abi Dawud, nomor 5066, menyebutkan tentang anak yatim dan kehilangan seorang ayah. Hadits ini dikompilasi oleh bagian \"Kebapakan dalam Islam\", yang mencakup teks-teks terkait dari Al-Quran, Sunnah, biografi Nabi, dan buku-buku lain tentang subjek tersebut."
 relations:
   - { type: mentions, target: concept/yatim-fiqh, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 5066 (book 43 hadith 294); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

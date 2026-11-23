@@ -1,0 +1,25 @@
+---
+id: concept/qiraat-al-sahaba-fi-al-hadith
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/qiraat-al-sahaba-fi-al-hadith.md}
+---
+## Özet
+Kur'an Peygamber'den Sahabelere geçtiğinde, rivayetlerde okumanın başka bir yönü ortaya çıkar: Sahabeler ayeti bir şekilde okur, bazıları başka bir şekilde okur ve her ikisi de Peygamber'den rivayet eder. Bu rivayetler, yedi mektup fikrinin orijinal temelidir; bazıları mutevatir okumalarında kalmış, bazıları ise sadece anormal okumalar veya hadis kitaplarında kalmıştır. Ebu Ubeyd'in okumalar üzerine ilk kitabında, Sahabelerden bazı okuma unsurlarını aktaran kişi olarak belirtilir. İbn el-Cezeri bunu şöyle anlatır: Göç edenler arasında Ebu Bekir, Ömer, Osman, Ali, Talha, Sa'd, İbn Mes'ud, Hudhayfe, Salim, Ebu Hureyre, İbn Ömer, İbn Abbas, Amr ibn al-As, oğlu Abdullah, Muaviye, İbn el-Zubeyr, Abdullah ibn el-Sa'ib, Aişe, Hafsa ve Üm Selame vardı. Ensarlar arasında Ebu bin Ka'b, Mu'ad bin Cebel, Ebu el-Derda, Zeyd bin Tebit, Ebu Zayd, Majma ibn Jariyah ve Anas ibn Malik vardı. {cite:nashr-dahman-damascus-1345-v1 p. 16}
+
+## Peygamberle anlaşmazlık hikayeleri
+**Abi:** Müslüman, [[person/ubayy-ibn-kab|Ubeyy ibn Ka'b'dan]] rivayet eder ki, Cebrail Banu Ghaffar'ın aydınlanmasıyla Peygamber'e gelmiş ve şöyle demiştir: Allah sana Kur'an'ı bir harf, sonra iki, sonra üç, sonra yedi harf halinde okumanı emreder. Her seferinde Peygamber iyilik ve af diler ve kendi milletinin buna dayanamayacağını söyler. {cite:manahil-irfan-sabt p. 157} El-Tirmidi'nin rivayetinde, Peygamber Cebrail'e, yaşlı, yaşlı ve genç adam dahil olmak üzere okuma yazma bilmeyenler bir ulusa gönderdiğini söylemiştir. {cite:manahil-irfan-sabt p. 157}
+**Amr ibn al-As:** Ahmed bir adamın bir ayet okuduğunu ve Amr'in ona, 'Sadece şu ve şöyledir' dediğini rivayet eder. Bunu Peygamber'e söyledi, o da şöyle dedi: Bu Kur'an yedi harfle indirilmiştir. Hangisini okudun, haklısın, o yüzden suç etme. {cite:manahil-irfan-sabt p. 157}
+**İbn Mesud:** Hadis kitapları, Peygamber'in Ham ailesinden bir sureyi okuduğundan sonra camiye gittiğini ve bir adamın bunu okuyamadığı harflerle okuduğunu duyduğunu rivayet eder. Peygamber'e gittiler, yüzü değişti ve dedi ki, 'Sizden önce olanlar sadece anlaşmazlığı yok etti.' Ali, Peygamber'in her insana bildiği gibi okumasını emrettiğini bildirdi. El-Buhari'nin rivayetinde Peygamber şöyle dedi: İkiniz de iyisiniz ve okudunuz, çünkü sizden öncekiler anlaşmazlık yaşadı ve yok edildi. {cite:manahil-irfan-sabt p. 158}
+**Ebu Hureyre:** El-Tabari ondan Peygamber'in sözünü rivayet eder: 'Zarar vermeden oku, ama merhametin sözünü cezayla bitirmeyin, cezayı merhametle söylemeyin.' {cite:manahil-irfan-sabt p. 158}
+
+## Yoldaşlardan anlatılan yüzler
+Mektuplardaki farklılıklar nedeniyle yapılan benzetmede, Halid el-Sabt, Sahabelerden anlatılan unsurları belirtir; bunlar arasında [[person/abdullah-ibn-masud|]] gece 3 [[person/abu-al-darda|'te İbn Mes'ud]] ve [[passage/quran-92-3|Ebu el-Derde'nin]] göreceli zaman harfini atlamaması, 19. yüzyılda Ebu Bekir [[passage/quran-50-19|'e]] atfedilen ve ölümün üzerine 'gerçek' kelimesi eklenmesi ve Ebu ibn Ka'b'ın [[passage/quran-2-20|El-Bekarah 20]] ve [[passage/quran-57-13|El-Hadid 13]]'te eşanlamlısı yerine bir kelimeyi okuması yer alır. {cite:manahil-irfan-sabt p. 175} {cite:manahil-irfan-sabt p. 189} İbn Abbas [[passage/quran-18-79|'tan Al-Kahf 79]] ve [[passage/quran-18-80|Al-Kahf 80'de bir okuma olduğu ve]] her iki yerde ek açıklamalar olduğu belirtilir. İbn al-Jazari, Makki'nin bahsettiği yemin örneklerini verir; bunlar özgündür ve yazıdan farklıdır, bu yüzden yazı metiniyle birlikte okunmamalıdır. {cite:nashr-dahman-damascus-1345-v1 p. 24}
+
+## Aişe ve Hafsa'nın Kur'an'ı
+Malik, El-Muvatta'da Aisha'nın efendisi Ebu Yunus'a kendisi için bir Kur'an yazmasını emrettiğini ve eğer Al-Baqarah'da namaz kılma ayetine ulaşırsa onu çağırmasını söylediğini anlatır. Ebu Yunus, 'orta namaz'dan sonra Asr namazından bahsederek ona bir cümle dikte etti ve bunu Allah'ın Resulef'inden duyduğunu söyledi; [[passage/muwatta-1-367|El-Muvatta 367]]. O da [[person/hafsa|benzer şekilde Hafsa'dan]] Muşaf'ı yazanlarla birlikte rivayet eder, [[passage/muwatta-1-368|El-Muvatta 368]]. {cite:muwatta-maruf-1997 p.200} {cite:muwatta-maruf-1997 p.201} Bu, ortadaki okumanın onlar için 'Asr' olduğunu ve Osmanik Muşaf'a girmediğini gösteren yorumlayıcı bir okumadır.
+
+## Othman onunla ne yaptı
+Osman Kur'an'ı yazdıktan sonra, Kur'an olmayan her şeyi onlardan aldı; tıpkı bazı sahabelerin kendi Kur'anlarında anlamını açıklamak veya açıklamak için yazdıkları gibi. {cite:manahil-irfan-sabt p. 239} [[concept/masahif-al-sahaba|Sahabelerin]], İbn Mes'ud'un ve Osmani Muşaf [[event/ibn-masud-and-the-uthmani-codex|'ın Müşaflarına]] bakınız.

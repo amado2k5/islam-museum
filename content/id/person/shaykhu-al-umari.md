@@ -1,0 +1,25 @@
+---
+id: person/shaykhu-al-umari
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/shaykhu-al-umari.md}
+---
+## Ringkasan
+Saif al-Din Shaykhu al-Umari al-Nasiri (juga ditulis sebagai Shaykhun) adalah seorang Mamluk Turki yang menjadi atabeg para tentara di Mesir dan pangeran paling berkuasa pada awal pemerintahan [[person/al-nasir-hasan|al-Nasir Hasan]]. {cite:nujum-zahira 10/324-325} Ensiklopedia Islam menyebutnya sebagai salah satu dari tiga tetua rumah tangga al-Nasir Muhammad yang memegang kekuasaan nyata selama masa pemerintahan tahun 748 H / 1347 M. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1047}
+
+## Asal Usul
+Ibn Taghribirdi mengatakan bahwa ia berasal dari Turki, dibawa oleh Khawaja Umar dari tanah airnya dan dijual kepada Sultan [[person/al-nasir-muhammad-ibn-qalawun|Al-Nasir Muhammad ibn Qalawun]]. {cite:nujum-zahira 10/324} Ia dipromosikan setelah kematian sultan tersebut dan meninggal tak lama setelah usianya melebihi lima puluh tahun. {cite:nujum-zahira 10/324-325}
+
+## Mendaki ke puncak
+Ibn Hajar mengatakan bahwa ia adalah seorang peziarah pada masa al-Muzaffar, dan pada masa awal Hasan, ia adalah salah satu kepala dewan, dengan cerita yang dibacakan kepadanya dan kendali kekuasaan di tangannya. {cite:durar-kamina-jil-1993 2/196} Ibn Taghri Burdi mengatakan bahwa ketika Hasan naik takhta, ia menjadi kepala Nuba dan ikut mengelola kerajaan. {cite:nujum-zahira 10/188} Ibn Hajar menceritakan bahwa pada Shawwal 751 H, sebuah surat ditulis kepadanya oleh wakil Tripoli saat ia berburu, dan mereka membawanya ke Damaskus, dan perintah diberikan untuk menangkapnya. Kemudian ia ditangkap dan dipenjara di Alexandria hingga al-Salih membebaskannya pada Rajab 752. {cite:durar-kamina-jil-1993 2/196} Setelah Hasan digulingkan, ia membentuk trilogi bersama [[person/sarghitmish|Sarghtamish]] dan [[person/taz-al-nasiri|Taz serta mengambil alih kepercayaan]] sultan. {cite:encyclopaedia-of-islam-2 vol. 8 p. 1058} Ibn Taghribirdi menggambarkannya sebagai seseorang yang membenci hasutan, berusaha menenangkan para pangeran, dan menahan teman-temannya jika mereka mencoba saling menyerang. {cite:nujum-zahira 10/286}
+
+Ia menggulingkan bersama al-Salih Serghtamish dan mengembalikan Hasan pada Shawwal tahun 755. {cite:nujum-zahira 10/302} Ia bercampur tangan di Taz tetapi tidak diadili, melainkan dikirim ke Aleppo. {cite:nujum-zahira 10/302} {cite:encyclopaedia-of-islam-2 vol. 3 p. 259} Ibn Taghribirdi mengatakan bahwa ia adalah Atabeg pertama yang disebut Emir Agung dan mengambil jabatan tersebut oleh kekhalifahan, dan sebelumnya, setiap pangeran tua memegang gelar tersebut, dan setelahnya, Atabeg menjadi fungsi. {cite:nujum-zahira 10/303} Ensiklopedia Islam setuju bahwa gelar itu muncul pada masa Shaykhun al-Umari, yang bertanggal 752 H / 1352 M, terbatas pada komandan jenderal. {cite:encyclopaedia-of-islam-2 vol. 1 p. 466}
+
+## Masjid dan khanqah
+Shaykho membangun masjid dan khanqah dengan aksara Saliba di Kairo. Ibn Taghribirdi menyebutkan bahwa khanqah selesai dibangun pada tahun 756 H bersama dengan dua pemandian dan seperempat untuk disewa, dan ulama Akmal al-Din al-Babarti al-Hanafi mengangkatnya sebagai sheikh. {cite:nujum-zahira 10/303-304} Ibn Hajar mengatakan bahwa ia membangun masjid dan khanqah di Salibah. {cite:durar-kamina-jil-1993 2/197} Catatan pinggir dari editor Al-Nujum Al-Zahira mencatat bahwa kedua bangunan tersebut masih digunakan dan masih digunakan. {cite:nujum-zahira 10/303} Lihat [[building/shaykhu-complex-cairo|masjid dan khanqah karya Sheikho di Kairo]].
+
+## Serangan dan kematiannya
+Pada hari Senin, Sha'ban 758, saat Sultan duduk di Rumah Keadilan, seorang sultan bernama Katalunga melompat ke arah Sheikh-nya, memukulnya tiga kali dengan pedang di wajah, kepala, dan lengannya. {cite:nujum-zahira 10/305} Mamluk-nya membawanya ke rumahnya dan merawatnya dari luka-luka. {cite:nujum-zahira 10/305} Sultan kembali keesokan harinya dan bersumpah tidak tahu apa yang terjadi. Penyerang mengatakan dia telah meminta Sheikh-nya untuk sebuah wilayah, tetapi dia mencegahnya. {cite:nujum-zahira 10/305} Penyerangnya dieksekusi. {cite:nujum-zahira 10/305} Sheikh-nya terbaring di tempat tidur hingga meninggal. {cite:nujum-zahira 10/305}
+
+Tanggal kematiannya masih diperdebatkan. Ibn Taghribirdi menyebutkan tanggal ketujuh Dhu al-Hijjah, dan beberapa menyebutkan bahwa beberapa orang menempatkannya pada masa awal Dhu al-Qi'dah. Catatan pinggir editor mencatat bahwa Al-Manhal al-Safi oleh penulisnya sendiri menyebutkan 16 Dhu al-Qi'dah, sementara Ibn Hajar menyebutkan Dhu al-Qi'dah ke-26. {cite:nujum-zahira 10/324} {cite:durar-kamina-jil-1993 2/197} Ensiklopedia Islam hanya menyebutkan akhir 758 H / 1357 M. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1047} Ia dimakamkan di khanqah-nya. {cite:nujum-zahira 10/325}

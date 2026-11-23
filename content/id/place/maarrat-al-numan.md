@@ -1,0 +1,9 @@
+---
+id: place/maarrat-al-numan
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/place/maarrat-al-numan.md}
+---
+## Dalam kamus negara Yaqut
+Yaqut mengatakan bahwa al-Nu'man dengan nama 'Ma'arrat al-Nu'man' adalah al-Nu'man ibn Bashir al-Sahabi, dan ia melewati sana, meninggal di sana, dan memiliki seorang putra di sana, sehingga ia menguburkannya dan menetap di sana, sehingga makam itu dinamai menurut namanya. Ia menyebutkan bahwa di sisi temboknya di sisi kota terdapat makam yang dikatakan sebagai makam Yusha' ibn Nun, dan pandangan yang benar adalah makam itu berada di tanah Nablus, dan di al-Ma'arrat terdapat makam Nun. Abdullah ibn Ammar ibn Yasir al-Sahabi. Hal ini dilaporkan oleh al-Baladhuri dalam karyanya 'Penaklukan Kota-kota.' Ia kemudian menganggap alasan ini lemah dan tidak bisa disebut kota seperti itu, dan ia berpikir kota ini dinamai menurut al-Nu'man, yang dijuluki Al-Sati', yang berasal dari garis keturunan Tanukh dalam Quda'a. Ia menggambarkannya sebagai kota kuno besar dan terkenal di wilayah Homs antara Aleppo dan Hama. Air mereka berasal dari sumur, dan mereka memiliki banyak zaitun dan buah ara. Di antara mereka adalah Abu al-'Ala' Ahmad ibn Abdullah ibn Sulayman al-Ma'arri, yang disebutkan dalam dua ayat. Di antara al-Ma'arrit, hakim Abu al-Qasim al-Hasan ibn Abdullah al-Tanukhi al-Ma'arri al-Hanafi, lahir di Rabi' al-Awwal tahun 349 H, melaksanakan Haji pada tahun 419 H, meninggal di lembah Mir dalam Dhu al-Qi'dah tahun itu, dipindahkan ke Madinah, dan dimakamkan di al-Baqi'. Ia menulis karya-karya, wasiat, dan puisi. {cite:mujam-al-buldan-sader-1995 5 p.156}

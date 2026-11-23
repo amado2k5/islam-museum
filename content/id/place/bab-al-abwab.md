@@ -1,0 +1,23 @@
+---
+id: place/bab-al-abwab
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/place/bab-al-abwab.md}
+---
+## Ringkasan
+Gerbang dan gerbang tersebut adalah sebuah kota yang dibangun oleh Anushirwan Khosrow ibn Qubadh, menurut al-Baladhuri. Gerbang ini disebut gerbang karena dibangun di atas jurang. {cite:futuh-buldan-maarif-1407 p.273}
+
+## Bendungan dan tembok
+Ayahnya, Qobad, membangun Bendungan Liban di antara tanah Shirwan dan Bab al-Lan, di mana tiga ratus enam puluh kota dihancurkan setelah gerbang dan gerbang dibangun. Adapun Tembok Anushirwan, dibangun dari batu dan timah dari laut, selebar tiga ratus hasta, dan terhubung ke puncak gunung. Ia berlayar tiga mil di laut dengan batu-batu yang tenggelam di kapal. Di pintu masuknya terdapat gerbang besi, dan ia ditugaskan untuk seratus penunggang kuda setelah lima puluh ribu prajurit. {cite:futuh-buldan-maarif-1407 p.273}
+
+Tempat ini menjadi sumber berita dari [[event/khosrow-derbent-wall|Tembok Khosrow di Derbend]].
+
+## Artikel tentang Ensiklopedia Islam
+Artikel tentang Ensiklopedia Islam (Bagian 1, hlm. 892-893) menyebut tempat ini Bab al-Abwab—dalam teks kuno, gerbang dan gerbang, yang sering disebut sebagai gerbang saja—nama Arab untuk sebuah lorong dan benteng di tepi timur Kaukasus, dalam bahasa Persia Darband, kemudian dalam bahasa Turki 'Gerbang Besi,' yang sekarang adalah Darbent. Gerbang-gerbang tersebut adalah gerbang menuju lembah-lembah di Kaukasus timur. Benteng tempat ini melawan penjajah dari utara tidak diketahui pada tanggal yang tidak ditentukan, secara tradisional dikaitkan dengan Anushirwan (abad ke-6 M), yang dikatakan membangun tembok tujuh liga dari pegunungan ke laut. Ketika Muslim awal mencapai Darbend pada tahun 22/643, wilayah ini berada di bawah kendali garnisun Persia. Dalam pertempuran antara Arab dan Khazar, Bab al-Abwab sering disebut: Muslimah ibn Abd al-Malik sampai kepadanya saat penarikannya yang terkenal dari Khazar pada tahun 113/731, dan Marwan ibn Muhammad (kemudian Marwan II) menyerang Khazar melalui Bab al-Abwab dan Daryal (Bab al-Lan) bersama-sama pada tahun 119/737, dan memerintah negeri hingga Volga untuk waktu singkat. Serangan besar terakhir Khazar melalui Bab al-Abwab terjadi pada tahun 183/799. {cite:encyclopaedia-of-islam-2 vol. 1 p. 892}
+
+## Pelabuhan, Perdagangan, dan Hashemites
+Al-Istakhri (sekitar 340/951) menggambarkan sebuah pelabuhan untuk kapal Kaspia di dalam kota, pintu masuk miring di antara dua tembok laut sempit dan dilindungi oleh rantai — susunan yang sebagian besar berasal dari era Sasanian dan keindahannya oleh orang Arab, seperti pada masa wazir Ali ibn al-Furat (setelah 296/908). Bab al-Abwab adalah salah satu pelabuhan terpenting bagi bangsa Khazar pada masanya dan lebih besar dari Ardabil, mengekspor pakaian linen yang hampir ia monopoli di daerah tersebut, yaitu saffron, dan budak dari tanah utara kaum kafir; al-Mas'udi menyebutkan dalam impornya bulu rubah hitam dari tanah Bartas. Penelitian terbaru telah mengungkap garis keturunan lokal yang disebut Hashemites yang memiliki hubungan dengan Shirwan Shah yang berdekatan sejak abad ke-4 H/abad ke-10 M. Sumber utamanya adalah tanggal abad ke-11 yang tidak diketahui yang dilaporkan oleh Ahmad ibn Lutfullah Monjem Bashi dalam Jami' al-Dawla, yang menyatakan bahwa penjajah Bab menghancurkan detasemen penjajah Rusia pada tahun 423/1032. Dominasi Turki dimulai dengan Seljuk, dan ia bertempur melawan Jibeh (Jiba) di sekitar pada tahun 1222, begitu juga Timur, mengkonsolidasikan era Mongol dan kendali Turkik atas provinsi barat laut. {cite:encyclopaedia-of-islam-2 vol. 1 p. 893}
+
+## Deskripsi Al-Qazwini dan Seterusnya
+Deskripsi paling lengkap berasal dari al-Qazwini (674/1275): sebuah kota Islam yang berkembang dan dibangun dari batu, temboknya tersapu oleh Laut Kaspia, sekitar dua pertiga panjang farsakh dan sebuah salib panah, dengan menara di setiap menara masjid di dinding, penjaga permanen, api sinyal di puncak terdekat sebagai persiapan invasi, jimat untuk mengusir Turki (kemungkinan sisa-sisa patung Islam), sebuah sumur, sebuah sumur bertingkat di luar kota, dan sebuah masjid yang dikatakan menyimpan pedang Muslim ibn Abd al-Malik. Kemudian Bab al-Abwab berhenti menjadi pelabuhan kekaisaran, sehingga biografinya mirip dengan kerajaan Kaukasus semi-merdeka; biografi ini bergantung pada Persia hingga menjadi Rusia pada tahun 1806, dan pentingnya relatif menurun sejak abad lalu. {cite:encyclopaedia-of-islam-2 vol. 1 p. 893}

@@ -1,0 +1,22 @@
+---
+id: person/abu-nasr-al-sarraj
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/abu-nasr-al-sarraj.md}
+---
+## Ringkasan
+Abu Nasr Abdullah ibn Ali ibn Muhammad ibn Yahya al-Sarraj al-Tusi, seorang Sufi, penulis [[work/kitab-al-luma-fi-al-tasawwuf|buku Al-Luma' fi al-Tasawwuf]], berasal dari [[place/tus|Tus]]. {cite:luma-sarraj-nicholson-1914 p. 489} Nicholson mengatakan dalam pengantar publikasinya bahwa materi yang tersedia untuk biografinya terbatas, dan bahwa buku-buku tertua dari kelas Sufi tetap diam tentang hal itu, sehingga ia mengutip biografinya dari 'Sejarah Islam' karya al-Dhahabi dalam bentuk manuskrip. {cite:luma-sarraj-nicholson-1914 p. 488} {cite:luma-sarraj-nicholson-1914 p. 489}
+
+## Terjemahannya bersama Al-Dhahabi
+Dalam teks tersebut Nicholson mengutip dari al-Dhahabi, al-Sarraj menulis buku 'Al-Luma' fi al-Tasawwuf, dan mendengar [[person/jafar-al-khuldi|Ja'fara al-Khaldi]], Abu Bakr Muhammad ibn Dawud al-Duqqi, Ahmad ibn Muhammad al-Sayih, dan Abu Sa'id Muhammad ibn Ali al-Naqqash, Abd al-Rahman ibn Muhammad al-Sarraj, dan lainnya menceritakan darinya. {cite:luma-sarraj-nicholson-1914 p. 489} Dilaporkan dari [[person/al-sulami|al-Sulami]] bahwa ia termasuk di antara putra-putra pertapa, dan ia dianggap sebagai 'orang bijaksana dan 'bahasa umat yang mengetahui Syariah,' dan bahwa ia meninggal di Rajab, sementara ayahnya meninggal dalam sujud. {cite:luma-sarraj-nicholson-1914 p. 489} Nicholson juga melaporkan dari al-Sakhawi bahwa 'ia mengikuti metode Sunnah.' {cite:luma-sarraj-nicholson-1914 p. 489} Ini dapat dirangkum sebagai seorang Sunni yang taat, berdasarkan ilmu Syariah, dan dianggap sebagai referensi di antara para Sufi dalam menjelaskan doktrin mereka. {cite:luma-sarraj-nicholson-1914 p. 489}
+
+## Kematian dan Kabarnya
+Ia meninggal pada Rajab 378 H, sesuai dengan catatan Nicholson tentang Oktober atau tahun kedua 988 M. {cite:luma-sarraj-nicholson-1914 p. 490} Nicholson melaporkan berbagai sumber mengenai tempat kematiannya: dalam "Al-Nujum Al-Zahira" ia meninggal di Nishapur saat berdoa, dan dalam "Nafahat Al-Uns" ia dimakamkan di Tus. {cite:luma-sarraj-nicholson-1914 p. 490} Di antara laporan yang disebutkan dalam biografi Persia, seperti yang diceritakan oleh Nicholson, adalah bahwa ia dijuluki "Merak Orang Miskin," dan bahwa ia tiba di Baghdad pada Ramadan dan meresmikan sebuah rumah untuknya di Masjid Shuniziyya, di mana ia menyelesaikan Al-Quran lima kali selama shalat Taraweeh tanpa menyentuh tiga puluh roti yang dibawanya. {cite:luma-sarraj-nicholson-1914 p. 490} Nicholson membantah klaim bahwa ia melihat Al-Safi al-Saqati dan Sahlan al-Tustri karena ia tidak hadir dalam sejarah, dan mengatakan bahwa buku tersebut tidak mendukung klaim bahwa ia adalah murid Abu Muhammad al-Murta'ash. {cite:luma-sarraj-nicholson-1914 p. 490}
+
+## Perjalanan dan Murid-muridnya
+Nicholson menyimpulkan dari 'Al-Luma' bahwa al-Sarraj melakukan perjalanan luas, menyebutkan pertemuannya dengan para Sufi di Basra, Baghdad, Damaskus, Ramla, Antiokhia, Tyre, Tripoli, Rahba, Kairo, Damietta, Bastam, Settar, dan Tabriz. {cite:luma-sarraj-nicholson-1914 p. 491} Ia mengatakan bahwa murid paling menonjolnya adalah Abu al-Fadl ibn al-Hasan al-Sarakhsi, yang menjadi sheikh Abu Sa'id ibn Abi al-Khayr. {cite:luma-sarraj-nicholson-1914 p. 491}
+
+## Dari sikapnya di bawah sinar
+Al-Sarraj menulis "Al-Luma" sebagai tanggapan kepada seorang penanya untuk memperjelas bahwa dasar-dasar Sufisme bergantung pada mengikuti Kitab dan mengikuti teladan Nabi serta para sahabat. {cite:luma-sarraj-jadir-dar-al-fath p. 7} Di antara yang ia ceritakan tentang dirinya adalah perdebatan di Basra dengan Ibn Salim, yang biasa menyatakan [[person/bayazid-al-bistami|Abu Yazid al-Bastami sebagai kafir]] dengan berkata "Kemuliaan bagiku." Al-Sarraj berargumen bahwa kata itu mungkin merupakan narasi tentang Tuhan, menyebutkan bahwa ia bermaksud untuk Bastam dan bertanya kepada Ahl al-Bayt Abu Yazid, yang menyangkal cerita tersebut. {cite:luma-sarraj-jadir-dar-al-fath p. 525} {cite:luma-sarraj-jadir-dar-al-fath p. 526} Ini adalah posisi Sufi yang diceritakan oleh al-Sarraj tentang hal yang berbeda pendapat para ulama.

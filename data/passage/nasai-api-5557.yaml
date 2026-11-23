@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "5557"
-label: { ar: "السنن النسائي — حديث 5557", en: "Sunan al-Nasa'i 5557 — The Book of Drinks", ur: "سنن النسائی — حدیث 5557", es: "Sunan al-Nasa'i 5557 — El Libro de las Bebidas", fr: "Sunan al-Nasa'i 5557 — Le Livre des Boissons" }
+label: { ar: "السنن النسائي — حديث 5557", en: "Sunan al-Nasa'i 5557 — The Book of Drinks", ur: "سنن النسائی — حدیث 5557", es: "Sunan al-Nasa'i 5557 — El Libro de las Bebidas", fr: "Sunan al-Nasa'i 5557 — Le Livre des Boissons", tr: "Sünen-i Nesa'i - Hadis 5557", id: "Sunan an-Nasa'i — Hadits 5557" }
 text: "الدُّبَّاءِ وَالْحَنْتَمِ وَالْمُزَفَّتِ وَالنَّقِيرِ وَعَنِ الْبُسْرِ وَالتَّمْرِ أَنْ يُخْلَطَا وَعَنِ الزَّبِيبِ وَالتَّمْرِ أَنْ يُخْلَطَا وَكَتَبَ إِلَى أَهْلِ هَجَرَ ‏ \"‏ أَنْ لاَ تَخْلِطُوا الزَّبِيبَ وَالتَّمْرَ جَمِيعًا ‏\"‏‏.‏"
 summary:
   ar: "في السنن النسائي؛ إرسال كتاب أو رسالة إلى طرف."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن النسائی میں؛ کسی فریق کو خط یا پیغام بھیجنا."
   es: "En Sunan al-Nasa'i; enviar una carta o mensaje a una parte."
   fr: "Dans Sunan al-Nasa'i; l'envoi d'une lettre ou d'un message à une personne."
+  tr: "Sunan al-Nisa’i’de; bir tarafa kitap veya mektup göndermek."
+  id: "Dalam Sunan al-Nisa’i; mengirim buku atau surat kepada suatu pihak."
 relations:
   - { type: part_of, target: passage/nasai-kitab-51 }
   - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }

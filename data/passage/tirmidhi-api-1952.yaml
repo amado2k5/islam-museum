@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1952"
-label: { ar: "جامع الترمذي 1952 — الأب والأبوة", en: "Jami' al-Tirmidhi 1952 — the father and fatherhood", ur: "جامع ترمذی 1952 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1952 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 1952 — le père et la paternité" }
+label: { ar: "جامع الترمذي 1952 — الأب والأبوة", en: "Jami' al-Tirmidhi 1952 — the father and fatherhood", ur: "جامع ترمذی 1952 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1952 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 1952 — le père et la paternité", tr: "Cami' el-Tirmizi 1952 — Baba ve Babalık", id: "Jami' al-Tirmidhi 1952 — Sang Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا نَصْرُ بْنُ عَلِيٍّ الْجَهْضَمِيُّ، حَدَّثَنَا عَامِرُ بْنُ أَبِي عَامِرٍ الْخَزَّازُ، حَدَّثَنَا أَيُّوبُ بْنُ مُوسَى، عَنْ أَبِيهِ، عَنْ جَدِّهِ، أَنَّ رَسُولَ اللَّهِ قَالَ \" مَا نَحَلَ وَالِدٌ وَلَدًا مِنْ نَحْلٍ أَفْضَلَ مِنْ أَدَبٍ حَسَنٍ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ غَرِيبٌ لاَ نَعْرِفُهُ إِلاَّ مِنْ حَدِيثِ عَامِرِ بْنِ أَبِي عَامِرٍ الْخَزَّازِ وَهُوَ عَامِرُ بْنُ صَالِحِ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 1952، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 1952، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe de Jami' al-Tirmidhi, n.º 1952 (Capítulos sobre la rectitud y el mantenimiento de buenas relaciones con los familiares), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 1952 (chapitres sur la piété et les bonnes relations familiales), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce sujet parmi les textes du Coran, de la Sunna, de la Sîra et les ouvrages consacrés à la paternité."
+  tr: "Cami' el-Tirmizi'nin 1952 numaralı hadisinde baba ve babalık kavramından bahsedilir. İslam'da babalık üzerine araştırma yapanlar, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birleştirirler."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 1952, menyebutkan tentang ayah dan peran ayah. Peneliti tentang peran ayah dalam Islam menggabungkannya dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1952 (book 27 hadith 58); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani]
 work: work/muwatta-malik
 ref: "1991"
-label: { ar: "الموطأ 1991 — مالك عن نافع: سمع ابن عمر يقول: من أسلف سلفا فلا يشترط إلا قضاءه", en: "Muwatta 1991", es: "Muwatta 1991", fr: "Muwatta 1991", ur: "موطا 1991" }
+label: { ar: "الموطأ 1991 — مالك عن نافع: سمع ابن عمر يقول: من أسلف سلفا فلا يشترط إلا قضاءه", en: "Muwatta 1991", es: "Muwatta 1991", fr: "Muwatta 1991", ur: "موطا 1991", tr: "El-Muvatta 1991 — Malik, Nafi’den rivayetle: İbn Ömer’in şöyle dediğini işitti: “Kim borç verirse, geri ödenmesinden başka bir şey şart koşmamalıdır.”", id: "Al-Muwatta 1991 — Malik berdasarkan riwayat Nafi’: Dia mendengar Ibnu Umar berkata: Barangsiapa meminjamkan uang, hendaknya tidak mensyaratkan apa pun kecuali pengembaliannya." }
 summary:
   ar: "يروي مالك عن نافع أنه سمع عبد الله بن عمر يقول: من أسلف سلفا فلا يشترط إلا قضاءه. {cite:muwatta-maruf-1997 p.215}"
+  tr: "Malik, Nafi'den rivayetle Abdullah ibn Umar'ın şöyle dediğini işittiğini aktarır: \"Kim borç verirse, geri ödeme dışında hiçbir şey şart koşmamalıdır.\" {cite:muwatta-maruf-1997 s.215}"
+  id: "Malik meriwayatkan dari Nafi’ bahwa ia mendengar Abdullah ibn Umar berkata: “Barangsiapa meminjamkan uang, hendaknya ia tidak mensyaratkan apa pun kecuali pengembaliannya.” {cite:muwatta-maruf-1997 p.215}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

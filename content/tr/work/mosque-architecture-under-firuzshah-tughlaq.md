@@ -1,0 +1,13 @@
+---
+id: work/mosque-architecture-under-firuzshah-tughlaq
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/work/mosque-architecture-under-firuzshah-tughlaq.md}
+---
+## Genel Bakış
+"Firuz Şah Döneminde Cami Mimarisi" 2011 yılında Alikara İslam Üniversitesi Tarih Bölümü İleri Araştırmalar Merkezi'nde Sima Khan tarafından sunulan felsefe alanında yüksek lisans tezidir ve Dr. Gulfshan Khan danışmanlığında çalışmaktadır. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 title page} Tez, Doğu'daki cami mimarisinin gelişiminden Sultanlık dönemindeki cami mimarisine geçer, ardından Firoz Şah'ın camilerindeki inşaat tekniklerini, malzemelerini ve dekorasyonunu inceler ve dördüncü bölümü camileri tek tek tanımlamaya ayırır. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 contents}
+
+## Ne diyorsun?
+Yazar, Shams Siraj Afif'in 'Firoz Şahi Tarihi' adlı eserinde romanlarını ve Syed Ahmed Khan, Zafar Hassan, Carr Stephen, Percy Brown ve R. Nath ve Abha Rani'nin tanımlarını birleştirerek, alanların saha incelemesinde gördüklerini de ekler. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 59} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 85} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 92} Bu dönemin camilerinin, başkent Daulatabad'a taşındıktan sonra kalifiye taş işçilerinin azlığı ve mali kısıtlamalar nedeniyle kauçuk, harç ve sıva ile inşa edildiğini, sabit özelliklerinin ise eğimli duvarlar ve köşelerdeki konik kuleler, kapılardaki küçük daralan minareler ve kemer meydanlarının üzerindeki küçük kubbeler olduğunu belirtir. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 81} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 84} Vezir Han Jahan Maqbool al-Telgani'ye atfedilir; caminin Muskat'ı ve dört avlusu Kara Camii ile Harki Camii'nde yer alır; bunun güneş ve yağmurdan alevlenmesine bağlanır, ancak Firuz Şah tarafından henüz tekrarlanmamıştır. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 53} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 54} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 73} Firuz Şah'ın geniş yapısı açısından Babür imparatoru Şah Cihan ile karşılaştırılabileceği sonucuna varılır. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 96}

@@ -1,13 +1,15 @@
 id: event/fall-of-tlemcen-1518
 class: event
 kind: conquest
-label: { ar: "سقوط تلمسان ⁦(١٥١٨)⁩", en: "Fall of Tlemcen", es: "Caída de Tlemcen", fr: "Chute de Tlemcen", ur: "Tlemcen کا زوال" }
+label: { ar: "سقوط تلمسان ⁦(١٥١٨)⁩", en: "Fall of Tlemcen", es: "Caída de Tlemcen", fr: "Chute de Tlemcen", ur: "Tlemcen کا زوال", tr: "Tlemcen'in düşüşü (1518)", id: "Kejatuhan Tlemcen (1518)" }
 summary:
   ar: "بطاقة أولية لسقوط تلمسان سنة ١٥١٨م، احتلال عروج بربروسا لعاصمة بني زيان ومقتله في المنسر؛ لم تُراجع مصادره على الصفحة بعد."
   en: "Draft card for the Fall of Tlemcen in 1518, Aruj Barbarossa's capture of the Zayyanid capital and his death that year; its sources are not yet checked on the page."
   es: "Boceto de ficha para la caída de Tremecén en 1518, la captura de la capital zayyaní por Aruj Barbarroja y su muerte ese mismo año; sus fuentes aún no han sido verificadas en la página."
   fr: "Carte de projet pour la chute de Tlemcen en 1518, la prise de la capitale zayyanide par Aruj Barberousse et sa mort cette année-là; ses sources ne sont pas encore vérifiées sur la page."
   ur: "1518 میں Tlemcen کے زوال کے لیے ڈرافٹ کارڈ، Aruj Barbarossa کی طرف سے Zyyanid دارالحکومت پر قبضہ اور اسی سال اس کی موت؛ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
+  tr: "1518 yılında Tlemcen'in düşüşü, Banu Zayyan'ın başkentinin Aruj Barbarossa tarafından işgali ve Al-Mansar'da ölümüyle ilgili ön bilgiler; kaynakları henüz bu sayfada incelenmemiştir."
+  id: "Catatan pendahuluan tentang jatuhnya Tlemcen pada tahun 1518 M, pendudukan ibu kota Banu Zayyan oleh Aruj Barbarossa dan kematiannya di Al-Mansar; sumber-sumbernya belum ditinjau di halaman ini."
 relations:
   - { type: occurred_at, target: place/tlemcen, sources: [source/tarikh-ibn-khaldun-ibar] }
   - { type: during_reign, target: person/selim-i-uthmani, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }

@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "700"
-label: { ar: "الموطأ 700 — مالك: الضأن والمعز تجمع على صاحبها في الصدقة، إنما هي غنم كلها", en: "Muwatta 700", es: "700 palabras", fr: "700 mots", ur: "700 الفاظ" }
+label: { ar: "الموطأ 700 — مالك: الضأن والمعز تجمع على صاحبها في الصدقة، إنما هي غنم كلها", en: "Muwatta 700", es: "700 palabras", fr: "700 mots", ur: "700 الفاظ", tr: "Al-Muwatta 700 — Malik: Koyunlar ve keçiler sahiplerinden sadaka olarak alınır, ancak hepsi çiftlik hayvanı sayılır.", id: "Al-Muwatta 700 — Malik: Domba dan kambing dikumpulkan dari pemiliknya sebagai sedekah, tetapi semuanya dianggap sebagai hewan ternak." }
 summary:
   ar: "قول لمالك في الرجل يكون له الضأن والمعز: أنها تُجمع عليه في الصدقة، فإن كان فيها ما تجب فيه الصدقة صُدّقت، لأنها غنم كلها، ويستشهد بكتاب عمر بن الخطاب: وفي سائمة الغنم إذا بلغت أربعين شاة شاة. {cite:muwatta-maruf-1997 p.351}"
+  tr: "Malik, koyun ve keçi sahibi olan bir kişi hakkında şöyle demiştir: \"Bunların hepsi zekâta dahildir ve eğer zekâta konulacak kadar çok sayıda iseler, zekât olarak verilirler, çünkü hepsi hayvancılık ürünü sayılır.\" Ömer ibn el-Hattab'ın mektubundan alıntı yaparak şöyle der: \"Otlatılan koyunlara gelince, kırk koyuna ulaştıklarında, bir koyun zekât olarak verilir.\" {cite:muwatta-maruf-1997 s.351}"
+  id: "Malik berkata mengenai seorang pria yang memiliki domba dan kambing: bahwa semuanya termasuk dalam zakat (sedekah wajib), dan jika jumlahnya cukup untuk dikenakan zakat, maka diberikan sebagai zakat, karena semuanya dianggap sebagai ternak. Ia mengutip surat Umar ibn al-Khattab: “Dan mengenai domba yang merumput, jika jumlahnya mencapai empat puluh ekor, maka satu ekor domba wajib dizakati.” {cite:muwatta-maruf-1997 p.351}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

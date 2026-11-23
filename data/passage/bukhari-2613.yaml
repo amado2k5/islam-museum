@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "2613"
-label: { ar: "البخاري 2613 — ستر باب فاطمة", en: "Bukhari 2613 — Fatima's door-curtain", es: "Bujari 2613 — La cortina de la puerta de Fátima", fr: "Bukhari 2613 — Le rideau de porte de Fatima", ur: "بخاری 2613 - فاطمہ کے دروازے کا پردہ" }
+label: { ar: "البخاري 2613 — ستر باب فاطمة", en: "Bukhari 2613 — Fatima's door-curtain", es: "Bujari 2613 — La cortina de la puerta de Fátima", fr: "Bukhari 2613 — Le rideau de porte de Fatima", ur: "بخاری 2613 - فاطمہ کے دروازے کا پردہ", tr: "Buhari 2613 — Fatıma'nın kapısının perdesi", id: "Bukhari 2613 — Tirai pintu Fatimah" }
 text: "أتى النبي يتبع فاطمة بنته فلم يدخل عليها، وجاء علي فذكرت له ذلك، فذكره للنبي فقال: إني رأيت على بابها ستراً موشياً، فقال: ما لي وللدنيا؟ فأتاها علي فذكر ذلك لها، فقالت: ليأمرني فيه بما شاء، قال: ترسل به إلى فلان أهل بيت بهم حاجة"
 summary:
   ar: "في كتاب البيوع بعد الحلة؛ مشهد بيتي صغير يرسم حدود الدنيا في بيت النبوة — الستر الموشى وحده زينة زائدة — ووجهته الصدقة لا الرفض."
+  tr: "Dönemin bitiminden sonraki satış kayıtlarında; kehanet evindeki küçük bir ev içi sahne, dünyanın sınırlarını tasvir ediyor - işlemeli perde tek başına ek bir süsleme - ve amacı reddetmek değil, hayırseverliktir."
+  id: "Dalam buku penjualan setelah berakhirnya periode tersebut; sebuah adegan domestik kecil menggambarkan batas-batas dunia di rumah nubuat — tirai bersulam hanyalah hiasan tambahan — dan tujuannya adalah amal, bukan penolakan."
 relations:
   - { type: part_of, target: passage/bukhari-kitab-51 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }

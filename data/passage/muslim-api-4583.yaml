@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "4583"
-label: { ar: "صحيح مسلم 4583 — ما خلّفه من تركة وميراث", en: "Sahih Muslim 4583 — what was left behind: estate and inheritance", ur: "صحیح مسلم 4583 — ترکہ اور میراث", es: "Sahih Muslim 4583 — Lo que quedó: patrimonio y herencia", fr: "Sahih Muslim 4583 — Ce qui a été laissé derrière: biens et héritage" }
+label: { ar: "صحيح مسلم 4583 — ما خلّفه من تركة وميراث", en: "Sahih Muslim 4583 — what was left behind: estate and inheritance", ur: "صحیح مسلم 4583 — ترکہ اور میراث", es: "Sahih Muslim 4583 — Lo que quedó: patrimonio y herencia", fr: "Sahih Muslim 4583 — Ce qui a été laissé derrière: biens et héritage", tr: "Sahih Muslim 4583 — Miras ve vasiyet olarak geride bıraktıkları", id: "Sahih Muslim 4583 — Apa yang ditinggalkan olehnya berupa warisan dan peninggalan" }
 text: "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" لاَ يَقْتَسِمُ وَرَثَتِي دِيِنَارًا مَا تَرَكْتُ بَعْدَ نَفَقَةِ نِسَائِي وَمَئُونَةِ عَامِلِي فَهُوَ صَدَقَةٌ \"."
 summary:
   ar: "حديث في صحيح مسلم، رقم 4583، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 4583، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe del Sahih Muslim, n.º 4583 (El Libro de la Yihad y las Expediciones), menciona lo que quedó: bienes y herencia. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
   fr: "Un hadith du Sahih Muslim, n° 4583 (Livre du Jihad et des Expéditions), mentionne les biens et l'héritage laissés après la mort. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "Sahih Müslim'de 4583 numaralı hadis, Peygamberin geride bıraktığı mal varlığı ve miras hakkında bilgi vermektedir. Bu derleme, vasiyetnameler, miras, kutsal emanetler ve türbeler konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birlikte hazırlanmıştır."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 4583, menyebutkan apa yang ditinggalkan beliau berupa harta warisan. Hadits ini disusun oleh seorang peneliti yang ahli dalam wasiat, warisan, peninggalan, dan makam suci, beserta teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4583 (book 32 hadith 64); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

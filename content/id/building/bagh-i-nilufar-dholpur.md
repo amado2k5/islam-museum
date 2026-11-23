@@ -1,0 +1,16 @@
+---
+id: building/bagh-i-nilufar-dholpur
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/building/bagh-i-nilufar-dholpur.md}
+---
+## Ikhtisar
+Taman Nilofar, atau 'Kebun Teratai,' adalah kebun buah yang didirikan oleh [[person/babur-mughal|Babur]] di lereng bukit di Bendungan Sikandar Lodi, dua mil sebelah barat kota Dholpur, dan saat ini disebut 'Shahi Bagh' di desa Jhor di jalan Dholpur–Bari. {cite:nath-history-of-mughal-architecture-1-1982 p. 96} {cite:nath-history-of-mughal-architecture-1-1982 p. 98} Babur membangun beberapa cekungan, sumur, dan kebun buah di daerah yang membentang sekitar empat puluh mil dari Acre hingga Dholpur di Sungai Chambal, mengubah wajah tanah panas dan kering di tepi gurun ini. {cite:nath-history-of-mughal-architecture-1-1982 p. 95} {cite:nath-history-of-mughal-architecture-1-1982 p. 96}
+
+## Dalam Memoar Babur
+Babur menceritakan bahwa ia mengunjungi Dholpur pada 24 Dhu al-Qi'dah 933 H (24 Agustus 1527), dan memerintahkan Ustad Shah Muhammad Qati al-Hijr untuk mengukir sebuah rumah dari satu potong batu jika batu itu cukup tinggi; jika tidak, ia akan meratakan dan mengukir baskom dari satu batu; karena tidak cukup tinggi, ia memerintahkan agar sebuah baskom tertutup berbentuk segi delapan diukir. {cite:nath-history-of-mughal-architecture-1-1982 p. 96} Ia memerintahkan sebuah bangku dan platform dengan empat kolom yang dipahat di batu, sebuah masjid di sisi barat, dan sebuah ruang air yang dipahat di batu yang berisi sebuah baskom kecil. {cite:nath-history-of-mughal-architecture-1-1982 p. 96} {cite:nath-history-of-mughal-architecture-1-1982 p. 97} Pada 23 Desember 1528, sumur batu, dua puluh enam talang ukir, kolom batu, dan kanal ukiran di lereng selesai dibangun. Babur kemudian menamainya 'Kebun Teratai' dan memerintahkan pemandian di sana. {cite:nath-history-of-mughal-architecture-1-1982 p. 97} {cite:nath-history-of-mughal-architecture-1-1982 p. 98}
+
+## Tidak ada yang tersisa darinya
+Nath mengatakan bahwa Bendungan Sikandar Lodi, yang kemungkinan dibangun antara tahun 1500 dan 1505 untuk mengumpulkan air hujan, masih ada dan masih beroperasi, dan bahwa Babur menggali saluran dangkal di batu di ujung timur yang membawa air ke kebunnya. {cite:nath-history-of-mughal-architecture-1-1982 p. 99} Sebuah ruangan tertutup masih ada dengan baskom kecil berbentuk segi delapan yang dipahat di batu, sebuah baskom besar di luarnya, saluran menuju sekelompok ruangan di platform bawah, lalu air terjun ke platform ketiga di mana kolam segi delapan berbentuk bunga teratai yang diukir di batu. {cite:nath-history-of-mughal-architecture-1-1982 p. 99} Teratai masih tumbuh melimpah di bendungan, yang membuat nama itu pantas. {cite:nath-history-of-mughal-architecture-1-1982 p. 100} Nath percaya bahwa Babur menemukan di sini sendirian kaki bukit tempat ia menemukan contohnya di kebun bertingkat, dan ini adalah contoh pertama arsitektur batu di India Islam, serta bangku, masjid, ruang air, dan talang air tidak bertahan. {cite:nath-history-of-mughal-architecture-1-1982 p. 100}

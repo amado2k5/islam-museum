@@ -1,0 +1,12 @@
+---
+id: practice/dua-on-entering-and-leaving-the-mosque
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/dua-on-entering-and-leaving-the-mosque.md}
+---
+## Ringkasan
+Apa yang dikatakan saat masuk dan keluar masjid, sebagaimana disusun oleh al-Nawawi dalam 'Al-Adhkar': Memohon bab belas kasihan saat masuk dan kebajikan saat keluar dari Sahih Muslim dan Sunan, serta mencari perlindungan seperti yang diceritakan oleh Abu Dawood. {cite:al-adhkar-nawawi-arnaut-1994 p. 31}
+
+## Apa yang dikumpulkan al-Nawawi dalam 'Al-Adhkar'
+Al-Nawawi menyebutkan bahwa disarankan untuk mencari perlindungan, memuji, mengirimkan berkat kepada Nabi, memohon pengampunan, dan memohon pintu rahmat dibuka, lalu mengucapkan "Bismillah" dan meletakkan tangan kanan sebelum masuk dan tangan kiri saat keluar, dan saat keluar, mengucapkan "pintu rahmat-Mu" alih-alih "Rahmat-Mu" {cite:al-adhkar-nawawi-arnaut-1994 p. 31}. Dinawayatkan dari Abu Humayd atau Abu Asid bahwa [[person/muhammad|Nabi]] berkata: Ketika salah satu dari kalian memasuki masjid, ia harus berkata: "Ya Allah, bukakan pintu rahmat-Mu untukku," dan ketika ia pergi, ia harus berkata: "Ya Allah, aku memohon dari rahmat-Mu." Ia juga mengatakan bahwa cerita itu diceritakan oleh Muslim, Abu Dawood, Al-Nasa'i, dan Ibn Majah dengan rantai transmisi yang otentik {cite:al-adhkar-nawawi-arnaut-1994 p. 31}. Di antara Sunan Abu Dawood terdapat riwayat Abdullah ibn Amr ibn al-As, dan ia menceritakan hadits yang baik dengan rangkaian transmisi yang baik: "Aku berlindung kepada Allah Yang Maha Kuasa, Wajah Yang Mulia, dan otoritas-Nya yang kuno dari Setan yang terkutuk," dan bahwa orang yang mengatakannya melindungi dari Setan sepanjang hari {cite:al-adhkar-nawawi-arnaut-1994 p. 31}. Dari kitab Ibn al-Sunni dari Abu Umamah, apa yang dikatakan saat keluar: "Ya Allah, aku memohon perlindungan kepada-Mu dari Setan dan tentaranya" {cite:al-adhkar-nawawi-arnaut-1994 p. 32}. Kemudian sebuah bab ditetapkan untuk apa yang dikatakan di masjid, yang menyarankan peningkatan ingatan, membaca Al-Qur'an, dan mempelajari hadits serta fiqhdemen {cite:al-adhkar-nawawi-arnaut-1994 p. 32}.

@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-at-mankath-the-witnessed-case-and-the-man-put-to-death-288
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/al-hadi-at-mankath-the-witnessed-case-and-the-man-put-to-death-288.md}
+---
+## Ringkasan
+Al-Hadi [[person/al-hadi-yahya-al-rassi|turun]] [[place/mankath-yemen|dari desa]], dan setelah dua hari, ia mendengar bahwa beberapa pria tidak bermoral muncul dalam [[place/al-akhtut-yemen|sketsa-sketsa tersebut]], menunjukkan alkohol dan korupsi menurut narator. Ia mengirim sekelompok orang untuk mengumpulkan orang-orang yang ada di kota, tetapi mereka hanya menemukan dua {cite:sira-hadi-ila-al-haqq p.213}. Ketika mereka tiba di Al-Hadi, sekelompok orang bersaksi melawan salah satu dari mereka tentang ketidakbermoralan seksual, bahwa ia melakukan hubungan seks antara pria dan wanita dan mereka terlibat dalam tindakan tidak bermoral. Al-Hadi memerintahkan agar ia dieksekusi, dan ia dipukul dan disalib, tetapi tidak ada kesaksian yang berlaku terhadap yang lain, sehingga ia memerintahkan hukuman penjara {cite:sira-hadi-ila-al-haqq p.213}. Seorang pria dari bangsa Manusia berkata, Menurut narator: Seberapa jauh antara seseorang yang mengumpulkan orang dengan disabilitas untuk dirinya sendiri dan seseorang yang memukul leher mereka, memerintahkan kebaikan, dan melarang kejahatan! Al-Hadi tinggal di Mankath selama berhari-hari {cite:sira-hadi-ila-al-haqq p.213}.
+
+## Detail
+Dalam catatan kaki verifikator, terdapat judul samping di margin dokumen asli yang merangkum tindakan tersebut sebagai tamparan di leher seseorang yang digambarkan sebagai dipukul. Laporan di sini adalah insiden yang disampaikan oleh narator melalui para pengikut al-Hadi, menghitungnya sebagai salah satu tindakan dan hukumannya. Museum hanya secara singkat menyebutkan apa yang disaksikan saksi, tidak menggambarkan insiden tersebut, tidak menilai hukuman, maupun membandingkannya dengan pandangan sekolah. Bagian pertama dari kata-kata pria itu, "Dia yang mengumpulkan orang-orang yang cacat," tidak jelas, sehingga museum tidak menafsirkannya dan hanya mengomentari laporan tersebut. Narator tidak menyebutkan nama kedua pria itu.

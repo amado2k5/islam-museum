@@ -1,0 +1,12 @@
+---
+id: event/abu-al-qasim-ends-the-poem-of-the-lances-and-adds-the-courier-verse-290
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/abu-al-qasim-ends-the-poem-of-the-lances-and-adds-the-courier-verse-290.md}
+---
+## Ringkasan
+Dalam kelanjutan puisi, penyair mengatakan bahwa ia tidak seperti orang yang beristirahat di ranjang, dan bahwa tombaknya yakin akan disiram oleh darah yang memercik ke tulang, bahwa penanya pada malam Harir melihat bagaimana ia menyerahkan diri pada keburukan, bahwa ia adalah Ahmadi, suci, Fatimiyah Qasimi, jauh dari kecacatan, bahwa ia cukup menjadi dilema yang merampas tidur pasien, dan bahwa ia tidak seperti orang bodoh yang sembrono {cite:sira-hadi-ila-al-haqq p.266}. Ia juga mengatakan bahwa surat itu datang sendirian dengan kabar baik, bahwa ia ingin menyaksikan kejadian itu, bahwa ia menebus Ibn Muhammad dengan lehernya sendiri, berkeliaran dengan kuda, dan memukul dengan pedang saat bertemu, dan bahwa menumpahkan darah para pemberontak adalah kewajiban baginya seperti warisan {cite:sira-hadi-ila-al-haqq p.266}.
+
+## Detail
+Catatan kaki pertama di halaman 266 menyebutkan bahwa puisi "sebelumnya disebutkan dan Abu al-Qasim adalah pengemis," dan catatan kaki lain menyebutkan pembacaan "dalam novel sebelumnya"; bait-bait pos ini adalah yang ditemukan di halaman 181 dalam [[event/al-hadi-writes-to-abu-al-qasim-of-the-victory-and-his-verse-reply-286|buku Al-Hadi kepada Abu al-Qasim dengan berita kemenangan dan tanggapannya sebagai puisi]] {cite:sira-hadi-ila-al-haqq p.181}, sehingga menyelesaikan referensi yang masih tertunda dalam kumpulan sebelumnya. Editor mengonfirmasi pembacaan salinan 's' dalam catatan kaki. Karya ini didahului [[event/abu-al-qasim-ibn-al-hadi-verses-on-the-lance-and-the-lions-of-war-290|oleh bait-bait 'Tombak' dan 'Singa Perang]].' Puisi dalam buku tersebut dikaitkan dengan Abu al-Qasim, dan museum belum memverifikasi atribusinya, dan kebanggaan serta pujian, menurut penyair, tidak memiliki otoritas atas museum. Museum tidak mentransfer bait-bait dalam teks atau kata-kata kritik dan cukup dengan maknanya seperti yang diceritakan dalam buku.

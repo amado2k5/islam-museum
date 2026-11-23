@@ -1,48 +1,137 @@
 surah: 17
 slug: al-isra
 sources_consulted:
-  - "kuttab.com — Surah Al-Isra mind map (5 blocks: 1-8, 9-40, 41-70, 71-100, 101-111)"
-  - "Standard thematic divisions (cross-checked)"
+- 'kuttab.com — Surah Al-Isra mind map (5 blocks: 1-8, 9-40, 41-70, 71-100, 101-111)'
+- Standard thematic divisions (cross-checked)
 map:
-  - title: { ar: "الإسراء وبنو إسرائيل", en: "The Night Journey and the Israelites" }
-    range: [1, 8]
-    family: faith
-    summary:
-      ar: "الإسراء بالنبي ليلا إلى المسجد الأقصى، ثم إخبار بني إسرائيل بإفسادهم في الأرض مرتين."
-      en: "The night journey to the Furthest Mosque, then the Israelites told of their two corruptions in the land."
-    children:
-      - { title: { ar: "المسجد الأقصى", en: "The Furthest Mosque" }, range: [1, 1] }
-  - title: { ar: "الوصايا", en: "The Commandments" }
-    range: [9, 40]
-    family: law
-    summary:
-      ar: "وصايا المجتمع المسلم: التوحيد، وبر الوالدين، وإيتاء ذي القربى، وتحريم التبذير وقتل الأولاد والزنا."
-      en: "The Muslim community's commandments: pure faith, parents' rights, kin's due, no waste, no killing children, no adultery."
-    children:
-      - { title: { ar: "بر الوالدين", en: "Dutifulness to Parents" }, range: [23, 24] }
-      - { title: { ar: "تحريم الزنا", en: "Forbidding Adultery" }, range: [32, 32] }
-  - title: { ar: "الحجاب المستور", en: "The Concealed Barrier" }
-    range: [41, 70]
-    family: faith
-    summary:
-      ar: "جحود المشركين للبعث، وتكريم بني آدم، وتسخير البحر، وحجاب مستور بين القرآن والكافرين."
-      en: "Deniers of resurrection; the honoring of Adam's children; the sea subdued; a hidden barrier against disbelievers."
-    children:
-      - { title: { ar: "تكريم بني آدم", en: "Honoring Adam's Children" }, range: [70, 70] }
-  - title: { ar: "يوم القيامة والروح", en: "The Day and the Spirit" }
-    range: [71, 100]
-    family: faith
-    summary:
-      ar: "يوم ندعو كل أناس بإمامهم، وإقام الصلاة وقرآن الفجر وقيام الليل، وسؤالهم عن الروح."
-      en: "The day each people is called by its leader; prayer, dawn recitation, night vigil; their question about the Spirit."
-    children:
-      - { title: { ar: "قرآن الفجر", en: "The Dawn Recitation" }, range: [78, 78] }
-      - { title: { ar: "الروح", en: "The Spirit" }, range: [85, 85] }
-  - title: { ar: "الآيات التسع والخاتمة", en: "The Nine Signs and the Closing" }
-    range: [101, 111]
-    family: faith
-    summary:
-      ar: "الآيات التسع لموسى، ونزول القرآن بالحق مفرقا، وخاتمة السورة بأسماء الله الحسنى."
-      en: "Moses's nine clear signs; the Quran sent in truth in stages; the close with Allah's most beautiful names."
-    children:
-      - { title: { ar: "الآيات التسع", en: "The Nine Signs" }, range: [101, 101] }
+- title:
+    ar: الإسراء وبنو إسرائيل
+    en: The Night Journey and the Israelites
+    tr: İsra ve İsrail Çocukları
+    id: Isra dan Anak-anak Israel
+  range:
+  - 1
+  - 8
+  family: faith
+  summary:
+    ar: الإسراء بالنبي ليلا إلى المسجد الأقصى، ثم إخبار بني إسرائيل بإفسادهم في الأرض مرتين.
+    en: The night journey to the Furthest Mosque, then the Israelites told of their two corruptions in the land.
+    tr: Gece Peygamber ile birlikte İsra'yı Mescid-i Aksa'ya götürür, ardından İsrailoğulları'na yeryüzündeki yozlaşmalarını iki kez bildirir.
+    id: Isra bersama Nabi di malam hari ke Masjid Al-Aqsa, lalu dua kali memberitahu Anak-anak Israel tentang korupsi mereka di bumi.
+  children:
+  - title:
+      ar: المسجد الأقصى
+      en: The Furthest Mosque
+      tr: Mescid-i Aksa Camii
+      id: Masjid Al-Aqsa
+    range:
+    - 1
+    - 1
+- title:
+    ar: الوصايا
+    en: The Commandments
+    tr: Emirler
+    id: Perintah
+  range:
+  - 9
+  - 40
+  family: law
+  summary:
+    ar: 'وصايا المجتمع المسلم: التوحيد، وبر الوالدين، وإيتاء ذي القربى، وتحريم التبذير وقتل الأولاد والزنا.'
+    en: 'The Muslim community''s commandments: pure faith, parents'' rights, kin''s due, no waste, no killing children, no adultery.'
+    tr: 'Müslüman topluluğun emirleri: tek tanrıcılık, ebeveynlere saygı göstermek, akrabalara vermek, israfı yasaklamak, çocukları öldürmek ve zina.'
+    id: 'Perintah komunitas Muslim: monoteisme, menghormati orang tua, memberi kepada kerabat, melarang pemborosan, membunuh anak, dan perselingkuhan.'
+  children:
+  - title:
+      ar: بر الوالدين
+      en: Dutifulness to Parents
+      tr: Ebeveynlerine saygı göstermek
+      id: Menghormati orang tua
+    range:
+    - 23
+    - 24
+  - title:
+      ar: تحريم الزنا
+      en: Forbidding Adultery
+      tr: Zina yasağı
+      id: Larangan perselingkuhan
+    range:
+    - 32
+    - 32
+- title:
+    ar: الحجاب المستور
+    en: The Concealed Barrier
+    tr: Gizli Perde
+    id: Tirai Tersembunyi
+  range:
+  - 41
+  - 70
+  family: faith
+  summary:
+    ar: جحود المشركين للبعث، وتكريم بني آدم، وتسخير البحر، وحجاب مستور بين القرآن والكافرين.
+    en: Deniers of resurrection; the honoring of Adam's children; the sea subdued; a hidden barrier against disbelievers.
+    tr: Putperestlerin dirilişi reddetmesi, Adem'in çocuklarını onurlandırması, denizi boyun eğdirmesi ve Kur'an ile kâfirler arasında gizli bir perde koyması.
+    id: Penolakan kebangkitan oleh para musyrik, menghormati anak-anak Adam, menundukkan laut, dan menutup tabir antara Al-Qur'an dan orang-orang kafir.
+  children:
+  - title:
+      ar: تكريم بني آدم
+      en: Honoring Adam's Children
+      tr: İnsanları Onurlandırmak
+      id: Menghormati Manusia
+    range:
+    - 70
+    - 70
+- title:
+    ar: يوم القيامة والروح
+    en: The Day and the Spirit
+    tr: Kıyamet Günü ve Ruh
+    id: Hari Penghakiman dan Jiwa
+  range:
+  - 71
+  - 100
+  family: faith
+  summary:
+    ar: يوم ندعو كل أناس بإمامهم، وإقام الصلاة وقرآن الفجر وقيام الليل، وسؤالهم عن الروح.
+    en: The day each people is called by its leader; prayer, dawn recitation, night vigil; their question about the Spirit.
+    tr: O gün tüm insanları imamlarına çağırır, namaz kılar, şafakta Kur'an okururuz, gece namaz kılır ve ruh hakkında sorarız.
+    id: Hari kita memanggil semua orang kepada imam mereka, menetapkan doa, membaca Al-Qur'an saat fajar, berdoa di malam hari, dan bertanya tentang jiwa.
+  children:
+  - title:
+      ar: قرآن الفجر
+      en: The Dawn Recitation
+      tr: Kur'an el-Fajr
+      id: Al-Quran al-Fajr
+    range:
+    - 78
+    - 78
+  - title:
+      ar: الروح
+      en: The Spirit
+      tr: Ruh
+      id: Jiwa
+    range:
+    - 85
+    - 85
+- title:
+    ar: الآيات التسع والخاتمة
+    en: The Nine Signs and the Closing
+    tr: Dokuz Ayet ve Sonuç
+    id: Sembilan Ayat dan Kesimpulan
+  range:
+  - 101
+  - 111
+  family: faith
+  summary:
+    ar: الآيات التسع لموسى، ونزول القرآن بالحق مفرقا، وخاتمة السورة بأسماء الله الحسنى.
+    en: Moses's nine clear signs; the Quran sent in truth in stages; the close with Allah's most beautiful names.
+    tr: Musa'nın dokuz ayeti, Kur'an'ın kısmen hakikatle indirilmesi ve Allah'ın güzel isimleriyle surenin sonu.
+    id: Sembilan ayat Musa, wahyu Al-Qur'an dengan kebenaran di bagian-bagian, dan penutup surah dengan nama-nama indah Allah.
+  children:
+  - title:
+      ar: الآيات التسع
+      en: The Nine Signs
+      tr: Dokuz kıta
+      id: Sembilan ayat
+    range:
+    - 101
+    - 101

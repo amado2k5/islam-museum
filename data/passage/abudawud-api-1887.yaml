@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "1887"
-label: { ar: "سنن أبي داود 1887 — الأب والأبوة", en: "Sunan Abi Dawud 1887 — the father and fatherhood", ur: "سنن ابی داؤد 1887 — باپ اور والدیت", es: "Sunan Abi Dawud 1887 — El padre y la paternidad", fr: "Sunan Abi Dawud 1887 — le père et la paternité" }
+label: { ar: "سنن أبي داود 1887 — الأب والأبوة", en: "Sunan Abi Dawud 1887 — the father and fatherhood", ur: "سنن ابی داؤد 1887 — باپ اور والدیت", es: "Sunan Abi Dawud 1887 — El padre y la paternidad", fr: "Sunan Abi Dawud 1887 — le père et la paternité", tr: "Sunan Abi Davud 1887 — Baba ve Babalık", id: "Sunan Abi Dawud 1887 — Sang Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا أَحْمَدُ بْنُ حَنْبَلٍ، حَدَّثَنَا عَبْدُ الْمَلِكِ بْنُ عَمْرٍو، حَدَّثَنَا هِشَامُ بْنُ سَعْدٍ، عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ أَبِيهِ، قَالَ سَمِعْتُ عُمَرَ بْنَ الْخَطَّابِ، يَقُولُ فِيمَ الرَّمَلاَنُ الْيَوْمَ وَالْكَشْفُ عَنِ الْمَنَاكِبِ، وَقَدْ أَطَّأَ اللَّهُ الإِسْلاَمَ وَنَفَى الْكُفْرَ وَأَهْلَهُ مَعَ ذَلِكَ لاَ نَدَعُ شَيْئًا كُنَّا نَفْعَلُهُ عَلَى عَهْدِ رَسُولِ اللَّهِ."
 summary:
   ar: "حديث في سنن أبي داود، رقم 1887، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابی داؤد کی حدیث نمبر 1887، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sunan Abi Dawud, n.° 1887 (Los ritos del Hajj (Kitab Al-Manasik Wa'l-Hajj)), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sunan Abi Dawud n° 1887 (Les Rites du Hajj [Kitab Al-Manasik Wa'l-Hajj]) mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sünen Ebu Davud'da yer alan 1887 numaralı hadiste baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derler."
+  id: "Sebuah hadits dalam Sunan Abi Dawud, no. 1887, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1887 (book 11 hadith 167); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

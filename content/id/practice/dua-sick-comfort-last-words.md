@@ -1,0 +1,12 @@
+---
+id: practice/dua-sick-comfort-last-words
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/dua-sick-comfort-last-words.md}
+---
+## Ringkasan
+Apa yang dikumpulkan al-Nawawi tentang menyembuhkan jiwa orang sakit, apa yang dikatakan kepadanya setelah pemulihan, apa yang dia katakan tentang keputusasaan dalam hidupnya, dan apa yang dia sarankan keluarganya untuk lakukan. {cite:al-adhkar-nawawi-arnaut-1994 p. 139}
+
+## Apa yang dikumpulkan al-Nawawi dalam 'Al-Adhkar'
+Al-Nawawi mengumpulkan apa yang berkaitan dengan orang sakit dan kemudian orang yang sekarat. Ia menceritakan dalam Al-Tirmidhi dan Ibn Majah dengan rantai lemah dari Abu Sa'id Al-Khudri bahwa [[person/muhammad|Nabi]] memerintahkan siapa pun yang mengunjungi orang sakit untuk memberikan waktu yang lama untuknya karena itu menenangkan jiwa {cite:al-adhkar-nawawi-arnaut-1994 p. 139}. Ia menyebutkan pujian Ibn Abbas kepada Umar ketika ia ditikam dan kepada Aisha saat sakit {cite:al-adhkar-nawawi-arnaut-1994 p. 139}. Ia menceritakan dalam Al-Tirmidhi dan Ibn Majah dari Uqbah ibn Amir larangan memaksa orang sakit makan, dan Al-Tirmidhi mengucapkan hadits yang baik {cite:al-adhkar-nawawi-arnaut-1994 p. 140}. Ia mengalamatkan dalam Ibn Majah dan Ibn Al-Sunni dari Umar memerintahkan orang sakit yang kembali untuk berdoa karena permohonannya seperti doa malaikat {cite:al-adhkar-nawawi-arnaut-1994 p. 140}. Mengenai apa yang dia katakan tentang keputusasaan dalam hidupnya, dia menceritakan dari Aisha: "Ya Allah, tolonglah aku dengan kedalaman kematian dan mabuk maut," dan dalam dua Syait: "Ya Allah, ampunilah aku, kasihanilah aku, dan satukan aku dengan sahabat tertinggi" {cite:al-adhkar-nawawi-arnaut-1994 p. 141}. Dia berkata bahwa disarankan baginya untuk menambah Al-Qur'an dan mengingat, membalas ketidakadilan, dan memandang baik Allah {cite:al-adhkar-nawawi-arnaut-1994 p. 141} {cite:al-adhkar-nawawi-arnaut-1994 p. 142}. Disarankan untuk menyarankan keluarganya agar bersabar dan menahan diri untuk tidak menangis karenanya, dan dia mengatakan bahwa wafat disiksa oleh tangisan keluarganya {cite:al-adhkar-nawawi-arnaut-1994 p. 142}.

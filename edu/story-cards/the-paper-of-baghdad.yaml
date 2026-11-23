@@ -1,109 +1,211 @@
 slug: the-paper-of-baghdad
 title:
-  ar: "ورق بغداد"
-  en: "The Paper of Baghdad"
-  ur: "بغداد کا کاغذ"
-  fr: "Le papier de Bagdad"
+  ar: ورق بغداد
+  en: The Paper of Baghdad
+  ur: بغداد کا کاغذ
+  fr: Le papier de Bagdad
+  tr: Bağdat Kağıdı
+  id: Baghdad Paper
 lede:
-  ar: "من سمرقند إلى بغداد — كيف وصل الكاغد إلى العالم الإسلامي وغيّره — في اثنتي عشرة بطاقة."
-  en: "From Samarqand to Baghdad — how paper reached the Islamic world and changed it — in twelve cards."
-  ur: "سمرقند سے بغداد تک — کاغذ اسلامی دنیا میں کیسے آیا اور اسے بدل دیا — بارہ کارڈز میں۔"
-  fr: "De Samarcande à Bagdad, découvre en douze cartes comment le papier est arrivé dans le monde islamique et l’a transformé."
-status: { review: published }
-sources: [source/tarikh-baghdad-khatib, source/fihrist-ibn-al-nadim]
-
+  ar: من سمرقند إلى بغداد — كيف وصل الكاغد إلى العالم الإسلامي وغيّره — في اثنتي عشرة بطاقة.
+  en: From Samarqand to Baghdad — how paper reached the Islamic world and changed it — in twelve cards.
+  ur: سمرقند سے بغداد تک — کاغذ اسلامی دنیا میں کیسے آیا اور اسے بدل دیا — بارہ کارڈز میں۔
+  fr: De Samarcande à Bagdad, découvre en douze cartes comment le papier est arrivé dans le monde islamique et l’a transformé.
+  tr: Semerkant'tan Bağdat'a—Kağıt İslam Dünyasına ve Ötesine Nasıl Ulaştı—on iki kartta.
+  id: Dari Samarkand ke Baghdad—Bagaimana Kertas Sampai ke Dunia Islam dan Lebih Lagi—dalam dua belas kartu.
+status:
+  review: published
+sources:
+- source/tarikh-baghdad-khatib
+- source/fihrist-ibn-al-nadim
 provenance:
-  generated_by: "Devin"
-  model: "Devin (Cognition)"
-  run: "education-E5-story-cards"
-  source: "تاريخ الطبري؛ الجهشياري، الوزراء والكتاب؛ تاريخ صناعة الورق — إعادة صياغة."
+  generated_by: Devin
+  model: Devin (Cognition)
+  run: education-E5-story-cards
+  source: تاريخ الطبري؛ الجهشياري، الوزراء والكتاب؛ تاريخ صناعة الورق — إعادة صياغة.
   fr:
-    generated_by: "Devin"
-    model: "unknown"
-    run: "devin-a7ba389df57d4bdb9b7515fa59f40242"
-    source: "Existing English text in this activity, with Arabic consulted for religious material."
+    generated_by: Devin
+    model: unknown
+    run: devin-a7ba389df57d4bdb9b7515fa59f40242
+    source: Existing English text in this activity, with Arabic consulted for religious material.
 cards:
-  - title: { ar: "قبل الورق", en: "Before paper", ur: "کاغذ سے پہلے", fr: "Avant le papier" }
-    motif: manuscript
-    narration:
-      ar: "كان الناس يكتبون على الرّق والعظام والخزف، وكلها ثقيلة وغالية."
-      en: "People wrote on parchment, bones and potsherds — all heavy and costly."
-      ur: "لوگ چمڑے، ہڈیوں اور سفالینہ پر لکھتے تھے — سب بھاری اور مہنگے۔"
-      fr: "On écrivait sur du parchemin, des os ou des tessons de poterie : des supports lourds et coûteux."
-  - title: { ar: "معركة طلاس", en: "The battle of Talas", ur: "تلاس کی لڑائی", fr: "La bataille de Talas" }
-    motif: mountain
-    narration:
-      ar: "في عام 751م التقى الجيش العباسي مع الصين عند نهر طلاس، وأسروا صُنّاعاً."
-      en: "In 751 CE the Abbasid army met the Chinese at the Talas river, and captured craftsmen."
-      ur: "751ء میں عباسی فوج چینیوں سے دریاۓ تلاس پر ملی اور کاریگر قیدی آئے۔"
-      fr: "En 751, l’armée abbasside affronta l’armée chinoise au bord de la rivière Talas et fit prisonniers des artisans."
-  - title: { ar: "سمرقند", en: "Samarqand", ur: "سمرقند", fr: "Samarcande" }
-    motif: city
-    narration:
-      ar: "في سمرقند علّم الأسرى أهلها صناعة الكاغد من خرق الكتان والقماش."
-      en: "In Samarqand the captives taught its people to make paper from linen rags."
-      ur: "سمرقند میں قیدیوں نے لوگوں کو کتان کے چیتھڑوں سے کاغذ بنانا سکھایا۔"
-      fr: "À Samarcande, les prisonniers apprirent aux habitants à fabriquer du papier avec des chiffons de lin."
-  - title: { ar: "الخرق", en: "The rags", ur: "چیتھڑے", fr: "Les chiffons" }
-    motif: book
-    narration:
-      ar: "تدق الخرق وتهرى بالماء حتى تصير لباً يبسط ويُجفَّف."
-      en: "The rags are pounded and mashed in water into pulp, then spread and dried."
-      ur: "چیتھڑے کُٹے اور پانی میں ملیے جاتے ہیں تا لُب بنے، پھر بچھا کر سوکھایا۔"
-      fr: "Les chiffons sont pilés et délayés dans l’eau pour former une pâte, qu’on étale puis qu’on laisse sécher."
-  - title: { ar: "أول سوق", en: "The first market", ur: "پہلا بازار", fr: "Le premier marché" }
-    motif: city
-    narration:
-      ar: "صار لسمرقند سوق للكاغد يُباع فيه ويُرحَّل إلى المشرق والمغرب."
-      en: "Samarqand gained a paper market selling west and east."
-      ur: "سمرقند کا کاغذ کا بازار بنا جو مشرق و مغرب بھیجتا تھا۔"
-      fr: "Samarcande se dota d’un marché du papier qui vendait à l’ouest comme à l’est."
-  - title: { ar: "بغداد", en: "Baghdad", ur: "بغداد", fr: "Bagdad" }
-    motif: city
-    narration:
-      ar: "في عهد هارون الرشيد وصل الكاغد إلى بغداد وفتحت الوراقين سوقهم."
-      en: "Under Harun al-Rashid paper reached Baghdad, and the warraqin opened their book-market."
-      ur: "ہارون الرشید کے زمانے میں کاغذ بغداد آیا اور وراقین نے بازار کھولا۔"
-      fr: "Sous Haroun al-Rachid, le papier arriva à Bagdad et les warraqs y ouvrirent leur marché du livre."
-  - title: { ar: "الوراق", en: "The warraq", ur: "وراق", fr: "Le warraq" }
-    motif: pen
-    narration:
-      ar: "الوراق مهنة: بائع الورق، ونساخ الكتب، وجامع المخطوطات."
-      en: "The warraq was a trade: paper seller, book copier and manuscript collector in one."
-      ur: "وراق ایک پیشہ تھا: کاغذ بیچنا، کتابیں نقل کرنا اور مخطوطات جمع کرنا۔"
-      fr: "Le warraq exerçait trois métiers en un : vendeur de papier, copiste et collectionneur de manuscrits."
-  - title: { ar: "المكتبات", en: "The libraries", ur: "کتاب خانے", fr: "Les bibliothèques" }
-    motif: book
-    narration:
-      ar: "كثرت الكتب الرخيصة، فملأت المكتبات الخاصة والعامة."
-      en: "Cheap books multiplied and filled private and public libraries."
-      ur: "سستی کتابیں کثرت سے بھر گئیں نجی اور عام کتاب خانے۔"
-      fr: "Les livres bon marché se multiplièrent et remplirent les bibliothèques privées et publiques."
-  - title: { ar: "بيت الحكمة", en: "The House of Wisdom", ur: "بیت الحکمت", fr: "La Maison de la sagesse" }
-    motif: star
-    narration:
-      ar: "أثّر الورق في بيت الحكمة: الترجمة والنسخ أصبحتا صناعة مدينة."
-      en: "Paper powered the House of Wisdom: translation and copying became a city industry."
-      ur: "کاغذ نے بیت الحکمت کو چلایا: ترجمہ اور نقل شہر کی صنعت بن گئے۔"
-      fr: "Le papier donna son essor à la Maison de la sagesse : la traduction et la copie devinrent des métiers à l’échelle de la ville."
-  - title: { ar: "مصر", en: "Egypt", ur: "مصر", fr: "L’Égypte" }
-    motif: city
-    narration:
-      ar: "في مصر بنيت مطاحن الكاغد وصارت صناعة عربية لا صينية."
-      en: "In Egypt paper mills rose; it became an Arab craft, no longer Chinese."
-      ur: "مصر میں کاغذ کی چکیاں لگیں؛ یہ عرب صنعت بن گئی، چینی نہیں رہی۔"
-      fr: "Des ateliers de fabrication du papier ouvrirent en Égypte. Le papier n’était plus un artisanat propre à la Chine : il se fabriquait aussi dans le monde arabe."
-  - title: { ar: "الأندلس", en: "Al-Andalus", ur: "اندلس", fr: "Al-Andalus" }
-    motif: sea
-    narration:
-      ar: "في الأندلس صارت مدينة شاطبة أعظم ميناء للكاغد، يصدر إلى أوروبا."
-      en: "In al-Andalus the city of Shatiba became paper's greatest port, exporting to Europe."
-      ur: "اندلس میں شاطبہ شہر کاغذ کی سب سے بڑی بندرگاہ بنا، یورپ برآمد کرتا۔"
-      fr: "En al-Andalus, la ville de Xàtiva devint le principal centre du commerce du papier et en exportait vers l’Europe."
-  - title: { ar: "الثورة", en: "The revolution", ur: "انقلاب", fr: "La révolution" }
-    motif: star
-    narration:
-      ar: "قال المؤرخون: الكاغد غيّر العالم كما غيّرت الطباعة بعده — كتاب في كل بيت."
-      en: "Historians say paper changed the world as printing did later — a book in every home."
-      ur: "مؤرخین کہتے ہیں: کاغذ نے دنیا بدلی جیسے بعد میں چھاپہ نے — ہر گھر میں کتاب۔"
-      fr: "Selon les historiens, le papier a changé le monde comme le ferait plus tard l’imprimerie : un livre pouvait entrer dans chaque foyer."
+- title:
+    ar: قبل الورق
+    en: Before paper
+    ur: کاغذ سے پہلے
+    fr: Avant le papier
+    tr: Makaleden önce
+    id: Sebelum koran
+  motif: manuscript
+  narration:
+    ar: كان الناس يكتبون على الرّق والعظام والخزف، وكلها ثقيلة وغالية.
+    en: People wrote on parchment, bones and potsherds — all heavy and costly.
+    ur: لوگ چمڑے، ہڈیوں اور سفالینہ پر لکھتے تھے — سب بھاری اور مہنگے۔
+    fr: 'On écrivait sur du parchemin, des os ou des tessons de poterie : des supports lourds et coûteux.'
+    tr: İnsanlar parşömen, kemik ve porselen üzerine yazıyordu; bunların hepsi ağır ve pahalıydı.
+    id: Orang-orang menulis di atas perkamen, tulang, dan porselen, semuanya berat dan mahal.
+- title:
+    ar: معركة طلاس
+    en: The battle of Talas
+    ur: تلاس کی لڑائی
+    fr: La bataille de Talas
+    tr: Tlass Muharebesi
+    id: Pertempuran Tlass
+  motif: mountain
+  narration:
+    ar: في عام 751م التقى الجيش العباسي مع الصين عند نهر طلاس، وأسروا صُنّاعاً.
+    en: In 751 CE the Abbasid army met the Chinese at the Talas river, and captured craftsmen.
+    ur: 751ء میں عباسی فوج چینیوں سے دریاۓ تلاس پر ملی اور کاریگر قیدی آئے۔
+    fr: En 751, l’armée abbasside affronta l’armée chinoise au bord de la rivière Talas et fit prisonniers des artisans.
+    tr: MS 751 yılında, Abbasi ordusu Çin ile Tlass Nehri'nde karşılaştı ve Sana'a'yı ele geçirdi.
+    id: Pada tahun 751 M, tentara Abbasiyah bertemu Tiongkok di Sungai Tlass dan merebut Sana'a.
+- title:
+    ar: سمرقند
+    en: Samarqand
+    ur: سمرقند
+    fr: Samarcande
+    tr: Semerkant
+    id: Samarkand
+  motif: city
+  narration:
+    ar: في سمرقند علّم الأسرى أهلها صناعة الكاغد من خرق الكتان والقماش.
+    en: In Samarqand the captives taught its people to make paper from linen rags.
+    ur: سمرقند میں قیدیوں نے لوگوں کو کتان کے چیتھڑوں سے کاغذ بنانا سکھایا۔
+    fr: À Samarcande, les prisonniers apprirent aux habitants à fabriquer du papier avec des chiffons de lin.
+    tr: Semerkand'da mahkumlar, halkına keten ve bez bezlerden kağıt yapmayı öğrettiler.
+    id: Di Samarkand, para tahanan mengajarkan penduduknya membuat kertas dari linen dan kain kain.
+- title:
+    ar: الخرق
+    en: The rags
+    ur: چیتھڑے
+    fr: Les chiffons
+    tr: ihlal
+    id: pelanggaran
+  motif: book
+  narration:
+    ar: تدق الخرق وتهرى بالماء حتى تصير لباً يبسط ويُجفَّف.
+    en: The rags are pounded and mashed in water into pulp, then spread and dried.
+    ur: چیتھڑے کُٹے اور پانی میں ملیے جاتے ہیں تا لُب بنے، پھر بچھا کر سوکھایا۔
+    fr: Les chiffons sont pilés et délayés dans l’eau pour former une pâte, qu’on étale puis qu’on laisse sécher.
+    tr: Bezleri ezip suyla ıslat, böylece yayılıp kuruyan bir pos haline gelsin.
+    id: Hancurkan kain lap dan rendam dengan air hingga menjadi bubur yang menyebar dan mengering.
+- title:
+    ar: أول سوق
+    en: The first market
+    ur: پہلا بازار
+    fr: Le premier marché
+    tr: İlk pazar
+    id: Pasar pertama
+  motif: city
+  narration:
+    ar: صار لسمرقند سوق للكاغد يُباع فيه ويُرحَّل إلى المشرق والمغرب.
+    en: Samarqand gained a paper market selling west and east.
+    ur: سمرقند کا کاغذ کا بازار بنا جو مشرق و مغرب بھیجتا تھا۔
+    fr: Samarcande se dota d’un marché du papier qui vendait à l’ouest comme à l’est.
+    tr: Semerkand'ın kağıt pazarı vardı, burada satılıyor ve Doğu ile Batı'ya seyahat ediliyordu.
+    id: Samarkand memiliki pasar kertas tempat produk ini dijual dan berkeliling ke Timur dan Barat.
+- title:
+    ar: بغداد
+    en: Baghdad
+    ur: بغداد
+    fr: Bagdad
+    tr: Bağdat
+    id: Baghdad
+  motif: city
+  narration:
+    ar: في عهد هارون الرشيد وصل الكاغد إلى بغداد وفتحت الوراقين سوقهم.
+    en: Under Harun al-Rashid paper reached Baghdad, and the warraqin opened their book-market.
+    ur: ہارون الرشید کے زمانے میں کاغذ بغداد آیا اور وراقین نے بازار کھولا۔
+    fr: Sous Haroun al-Rachid, le papier arriva à Bagdad et les warraqs y ouvrirent leur marché du livre.
+    tr: Harun el-Reşid'in saltanatı sırasında gazete Bağdat'a ulaştı ve Waraqinler pazarlarını açtı.
+    id: Selama masa pemerintahan Harun al-Rashid, surat kabar ini mencapai Baghdad dan Waraqeen membuka pasar mereka.
+- title:
+    ar: الوراق
+    en: The warraq
+    ur: وراق
+    fr: Le warraq
+    tr: Al Warraq
+    id: Al Warraq
+  motif: pen
+  narration:
+    ar: 'الوراق مهنة: بائع الورق، ونساخ الكتب، وجامع المخطوطات.'
+    en: 'The warraq was a trade: paper seller, book copier and manuscript collector in one.'
+    ur: 'وراق ایک پیشہ تھا: کاغذ بیچنا، کتابیں نقل کرنا اور مخطوطات جمع کرنا۔'
+    fr: 'Le warraq exerçait trois métiers en un : vendeur de papier, copiste et collectionneur de manuscrits.'
+    tr: 'Evrak işçiliği mesleği: kağıt satıcısı, kitap kopyalayıcı ve el yazması koleksiyonculuğu.'
+    id: 'Profesi pekerja kertas: penjual kertas, penyalin buku, dan kolektor naskah.'
+- title:
+    ar: المكتبات
+    en: The libraries
+    ur: کتاب خانے
+    fr: Les bibliothèques
+    tr: Kütüphaneler
+    id: Perpustakaan
+  motif: book
+  narration:
+    ar: كثرت الكتب الرخيصة، فملأت المكتبات الخاصة والعامة.
+    en: Cheap books multiplied and filled private and public libraries.
+    ur: سستی کتابیں کثرت سے بھر گئیں نجی اور عام کتاب خانے۔
+    fr: Les livres bon marché se multiplièrent et remplirent les bibliothèques privées et publiques.
+    tr: Ucuz kitaplar çoğaldı, hem özel hem de kamu kütüphanelerini doldurdu.
+    id: Buku-buku murah bertambah, memenuhi perpustakaan pribadi maupun umum.
+- title:
+    ar: بيت الحكمة
+    en: The House of Wisdom
+    ur: بیت الحکمت
+    fr: La Maison de la sagesse
+    tr: Bilgelik Evi
+    id: Rumah Kebijaksanaan
+  motif: star
+  narration:
+    ar: 'أثّر الورق في بيت الحكمة: الترجمة والنسخ أصبحتا صناعة مدينة.'
+    en: 'Paper powered the House of Wisdom: translation and copying became a city industry.'
+    ur: 'کاغذ نے بیت الحکمت کو چلایا: ترجمہ اور نقل شہر کی صنعت بن گئے۔'
+    fr: 'Le papier donna son essor à la Maison de la sagesse : la traduction et la copie devinrent des métiers à l’échelle de la ville.'
+    tr: 'Beyt el-Hikma''da kağıdın etkisi: çeviri ve kopyalama kentsel el sanatları haline gelmiştir.'
+    id: 'Dampak Kertas di Bayt al-Hikma: Penerjemahan dan penyalinan telah menjadi kerajinan perkotaan.'
+- title:
+    ar: مصر
+    en: Egypt
+    ur: مصر
+    fr: L’Égypte
+    tr: Mısır
+    id: Mesir
+  motif: city
+  narration:
+    ar: في مصر بنيت مطاحن الكاغد وصارت صناعة عربية لا صينية.
+    en: In Egypt paper mills rose; it became an Arab craft, no longer Chinese.
+    ur: مصر میں کاغذ کی چکیاں لگیں؛ یہ عرب صنعت بن گئی، چینی نہیں رہی۔
+    fr: 'Des ateliers de fabrication du papier ouvrirent en Égypte. Le papier n’était plus un artisanat propre à la Chine : il se fabriquait aussi dans le monde arabe.'
+    tr: Mısır'da kağıt fabrikaları inşa edildi ve Çin değil, Arap endüstrisi haline geldi.
+    id: Di Mesir, pabrik kertas dibangun dan menjadi industri Arab, bukan Tionghoa.
+- title:
+    ar: الأندلس
+    en: Al-Andalus
+    ur: اندلس
+    fr: Al-Andalus
+    tr: Endülüs
+    id: Al-Andalus
+  motif: sea
+  narration:
+    ar: في الأندلس صارت مدينة شاطبة أعظم ميناء للكاغد، يصدر إلى أوروبا.
+    en: In al-Andalus the city of Shatiba became paper's greatest port, exporting to Europe.
+    ur: اندلس میں شاطبہ شہر کاغذ کی سب سے بڑی بندرگاہ بنا، یورپ برآمد کرتا۔
+    fr: En al-Andalus, la ville de Xàtiva devint le principal centre du commerce du papier et en exportait vers l’Europe.
+    tr: Endülüs'te Chatiba şehri, Avrupa'ya ihraç edilen kağıtların en büyük limanı haline geldi.
+    id: Di al-Andalus, kota Chatiba menjadi pelabuhan terbesar untuk kertas, diekspor ke Eropa.
+- title:
+    ar: الثورة
+    en: The revolution
+    ur: انقلاب
+    fr: La révolution
+    tr: Devrim
+    id: Revolusi
+  motif: star
+  narration:
+    ar: 'قال المؤرخون: الكاغد غيّر العالم كما غيّرت الطباعة بعده — كتاب في كل بيت.'
+    en: Historians say paper changed the world as printing did later — a book in every home.
+    ur: 'مؤرخین کہتے ہیں: کاغذ نے دنیا بدلی جیسے بعد میں چھاپہ نے — ہر گھر میں کتاب۔'
+    fr: 'Selon les historiens, le papier a changé le monde comme le ferait plus tard l’imprimerie : un livre pouvait entrer dans chaque foyer.'
+    tr: 'Tarihçiler şöyle dedi: Kağıt, dünyayı değiştirdi, tıpkı matbaanın ondan sonra değiştiği gibi — her evde bir kitap.'
+    id: 'Para sejarawan berkata: Kertas mengubah dunia seperti percetakan berubah setelahnya — sebuah buku di setiap rumah.'

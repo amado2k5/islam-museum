@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "3135"
-label: { ar: "سنن النسائي 3135 — النسب والانتساب", en: "Sunan al-Nasa'i 3135 — paternity and lineage", ur: "سنن نسائی 3135 — نسب اور انتساب", es: "Sunan al-Nasa'i 3135 - paternidad y linaje", fr: "Sunan al-Nasa'i 3135 — paternité et lignée" }
+label: { ar: "سنن النسائي 3135 — النسب والانتساب", en: "Sunan al-Nasa'i 3135 — paternity and lineage", ur: "سنن نسائی 3135 — نسب اور انتساب", es: "Sunan al-Nasa'i 3135 - paternidad y linaje", fr: "Sunan al-Nasa'i 3135 — paternité et lignée", tr: "Sünen an-Nesa'i 3135 — Nesil ve Bağlılık", id: "Sunan an-Nasa'i 3135 — Silsilah dan Afiliasi" }
 text: "… قَالَ \" مَنْ أَنْفَقَ زَوْجَيْنِ فِي سَبِيلِ اللَّهِ نُودِيَ فِي الْجَنَّةِ يَا عَبْدَ اللَّهِ هَذَا خَيْرٌ فَمَنْ كَانَ مِنْ أَهْلِ الصَّلاَةِ دُعِيَ مِنْ بَابِ الصَّلاَةِ وَمَنْ كَانَ مِنْ أَهْلِ الْجِهَادِ دُعِيَ مِنْ بَابِ الْجِهَادِ وَمَنْ كَانَ مِنْ أَهْلِ الصَّدَقَةِ دُعِيَ مِنْ بَابِ الصَّدَقَةِ وَمَنْ كَانَ مِنْ أَهْلِ الصِّيَامِ دُعِيَ مِنْ بَابِ الرَّيَّانِ \". فَقَالَ أَبُو"
 summary:
   ar: "حديث في سنن النسائي، رقم 3135، يذكر النسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 3135، جس میں نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 3135 (El Libro de la Yihad), menciona la paternidad y el linaje. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sunan al-Nasa'i, n° 3135 (Le Livre du Jihad), mentionne la paternité et la lignée. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la figure paternelle."
+  tr: "Sunan-ı Nesai'de yer alan 3135 numaralı hadis, soy ve atalardan bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle derlemektedir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, nomor 3135, menyebutkan tentang garis keturunan dan leluhur. Peramban \"Kebapakan dalam Islam\" mengumpulkannya dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/intisab, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3135 (book 25 hadith 51); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

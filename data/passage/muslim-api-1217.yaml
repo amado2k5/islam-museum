@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1217"
-label: { ar: "صحيح مسلم 1217 — أثر من الآثار المحفوظة", en: "Sahih Muslim 1217 — a relic kept after its owner", ur: "صحیح مسلم 1217 — محفوظ آثار و تبرکات", es: "Sahih Muslim 1217 — una reliquia conservada después de su dueño.", fr: "Sahih Muslim 1217 — une relique conservée après son propriétaire" }
+label: { ar: "صحيح مسلم 1217 — أثر من الآثار المحفوظة", en: "Sahih Muslim 1217 — a relic kept after its owner", ur: "صحیح مسلم 1217 — محفوظ آثار و تبرکات", es: "Sahih Muslim 1217 — una reliquia conservada después de su dueño.", fr: "Sahih Muslim 1217 — une relique conservée après son propriétaire", tr: "Sahih Muslim 1217 — Korunmuş bir gelenek", id: "Sahih Muslim 1217 — Sebuah hadis yang terpelihara" }
 text: "… عَبْدِ اللَّهِ بْنِ عَبْدٍ الْقَارِيُّ الْقُرَشِيُّ، حَدَّثَنِي أَبُو حَازِمٍ، أَنَّ رِجَالاً، أَتَوْا سَهْلَ بْنَ سَعْدٍ ح قَالَ وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَزُهَيْرُ بْنُ حَرْبٍ، وَابْنُ أَبِي عُمَرَ، قَالُوا حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ أَبِي حَازِمٍ، قَالَ أَتَوْا سَهْلَ بْنَ سَعْدٍ فَسَأَلُوهُ مِنْ أَىِّ شَىْءٍ مِنْبَرُ النَّبِيِّ وَسَاقُوا الْحَدِيثَ نَحْوَ حَدِيثِ ابْنِ أَبِي حَازِمٍ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 1217، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 1217، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe del Sahih Muslim, n.º 1217 (El Libro de las Mezquitas y los Lugares de Oración), menciona una reliquia conservada tras la muerte de su propietario. El Navegador de Testamentos la incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sahih Muslim, n° 1217 (Livre des mosquées et des lieux de prière), mentionne une relique conservée après son propriétaire. Le navigateur de testaments la répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "Sahih Müslim'de 1217 numaralı hadiste, korunmuş bir kutsal emanetten bahsedilir. Bu derleme, vasiyetnameler, miras, kutsal emanetler ve türbeler konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birlikte hazırlanmıştır."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 1217, menyebutkan sebuah relik yang terpelihara. Ini disusun oleh seorang peneliti yang ahli dalam wasiat, warisan, relik, dan makam suci, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tabarruk, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1217 (book 5 hadith 57); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

@@ -1,13 +1,15 @@
 id: event/timur-delhi-801
 class: event
 kind: conquest
-label: { ar: "أخذ تيمور دلهي سنة 801هـ", en: "Timur Takes Delhi in 801 AH", es: "Timur toma Delhi en el año 801 de la Hégira.", fr: "Timour prend Delhi en 801 AH", ur: "تیمور نے 801ھ میں دہلی پر قبضہ کیا۔" }
+label: { ar: "أخذ تيمور دلهي سنة 801هـ", en: "Timur Takes Delhi in 801 AH", es: "Timur toma Delhi en el año 801 de la Hégira.", fr: "Timour prend Delhi en 801 AH", ur: "تیمور نے 801ھ میں دہلی پر قبضہ کیا۔", tr: "Timur, Hicri 801 yılında Delhi'yi ele geçirdi.", id: "Timur merebut Delhi pada tahun 801 Hijriah." }
 summary:
   ar: "وفيها غزا اللنك بلاد الهند واستولى على دلهي وسبى منها خلقاً كثيراً ولما رجع إلى سمرقند بيع السبي الهندي برخص عظيم لكثرته {cite:shadharat-dhahab p. 3}."
   en: "In 801 Timur raided India, took Delhi and carried off multitudes — on his return to Samarqand the Indian captives sold at the cheapest prices for their numbers {cite:shadharat-dhahab p. 3}."
   ur: "801ھ میں تیمور نے ہندوستان پر حملہ کیا، دہلی پر قبضہ کیا اور بے شمار لوگوں کو قیدی بنایا — سمرقند لوٹتے ہوئے ہندوستانی قیدی کثرت کی وجہ سے سستے داموں بکے {cite:shadharat-dhahab p. 3}."
   es: "En 801, Timur saqueó la India, tomó Delhi y se llevó multitudes; a su regreso a Samarcanda, los cautivos indios fueron vendidos a los precios más bajos por su número {cita: shadharat-dhahab p. 3}."
   fr: "En 801, Timur a pillé l'Inde, pris Delhi et emmené des multitudes — à son retour à Samarcande, les captifs indiens ont été vendus aux prix les plus bas pour leur nombre {cite:shadharat-dhahab p. 3}."
+  tr: "Bu metinde, Lenk Hindistan'ı işgal edip Delhi'yi ele geçirdi ve oradan birçok esir aldı. Semerkant'a döndüğünde, esirlerin çok sayıda olması nedeniyle çok düşük bir fiyata satıldı. {cite:shadharat-dhahab s. 3}"
+  id: "Dalam peristiwa itu, Lenk menginvasi India dan merebut Delhi, serta menawan banyak orang. Ketika ia kembali ke Samarkand, tawanan India dijual dengan harga sangat murah karena jumlah mereka yang banyak. {cite:shadharat-dhahab p. 3}"
 relations:
   - { type: occurred_at, target: place/delhi, sources: [source/shadharat-dhahab] }
   - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }

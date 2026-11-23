@@ -1,13 +1,15 @@
 id: event/fez-calamity-813
 class: event
 kind: civil-war
-label: { ar: "حادثة فاس الكبرى سنة 813هـ", en: "The great calamity of Fez, 813 AH", es: "La gran calamidad de Fez, 813 d. C.", fr: "La grande calamité de Fès, 813 AH", ur: "813ھ کی عظیم آفت فیض" }
+label: { ar: "حادثة فاس الكبرى سنة 813هـ", en: "The great calamity of Fez, 813 AH", es: "La gran calamidad de Fez, 813 d. C.", fr: "La grande calamité de Fès, 813 AH", ur: "813ھ کی عظیم آفت فیض", tr: "813 Hicri Yılındaki Büyük Fez Olayı", id: "Peristiwa Fez Besar tahun 813 Hijriah" }
 summary:
   ar: "في سنة ثلاث عشرة وثمان مئة كانت الحادثة العظيمة بفاس من بلاد المغرب حتى خربت {cite:shadharat-dhahab p. 100}."
   en: "In 813 came the great calamity of Fez in the Maghreb, until the city was ruined {cite:shadharat-dhahab p. 100}."
   es: "En 813 sobrevino la gran calamidad de Fez en el Magreb, hasta que la ciudad quedó en ruinas {cite:shadharat-dhahab p. 100}."
   fr: "En 813 survint la grande calamité de Fès au Maghreb, jusqu'à ce que la ville soit ruinée {cite:shadharat-dhahab p. 100}."
   ur: "813 میں مغرب میں فیز کی بڑی آفت آئی، یہاں تک کہ شہر برباد ہو گیا۔ 100}۔"
+  tr: "813 yılında Fas topraklarındaki Fez şehrinde büyük bir olay meydana geldi ve şehir yıkıldı. {kaynak:şadharat-dhahab s. 100}"
+  id: "Pada tahun 813, terjadi peristiwa besar di Fez, di tanah Maroko, hingga kota itu hancur {cite:shadharat-dhahab p. 100}."
 relations:
   - { type: occurred_at, target: place/fes, sources: [source/shadharat-dhahab] }
   - { type: during_reign, target: person/al-mustain-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }

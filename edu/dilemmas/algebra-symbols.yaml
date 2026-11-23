@@ -4,31 +4,43 @@ decision:
   ar: الكلمات أم الرموز للجبر؟
   en: Words or symbols for algebra?
   ur: الجبر کے لیے الفاظ یا علامات؟
-  fr: "Des mots ou des symboles pour l’algèbre ?"
+  fr: Des mots ou des symboles pour l’algèbre ?
+  tr: Cebir için kelimeler veya semboller var mı?
+  id: Kata atau simbol untuk aljabar?
 context:
-  ar: 'عالم يعرف أن الأفكار الدقيقة تحتاج اختصارًا، لكن قرّاءه تعلّموا النثر. القرار: كتابة معادلاته بالجمل الكاملة الواضحة التي يفهمها الجميع، أم اختراع رموز مختصرة
-    تقصّر العمل لكنها تحتاج تعلمًا جديدًا؟'
-  en: 'A scholar knows precise ideas need abbreviation, but his readers learned prose. The decision: write his equations in the full clear sentences everyone understands,
-    or invent shortened symbols that cut the work but need new learning?'
-  ur: 'ایک عالم جانتا ہے کہ درست خیالات کو اختصار چاہیے، مگر اس کے قارئین نثر سیکھے ہوئے ہیں۔ فیصلہ: مساوات مکمل واضح جملوں میں لکھنا جو سب سمجھیں یا ایسی مختصر علامتیں
-    ایجاد کرنا جو کام کم کریں مگر نیا سیکھنا چاہیں؟'
-  fr: "Un savant sait qu’abréger peut rendre ses idées précises plus faciles à manipuler, mais ses lecteurs sont habitués à la prose. Écrira-t-il ses équations en phrases complètes que tout le monde comprend, ou inventera-t-il des symboles qui font gagner du temps mais qu’il faudra apprendre ?"
+  ar: 'عالم يعرف أن الأفكار الدقيقة تحتاج اختصارًا، لكن قرّاءه تعلّموا النثر. القرار: كتابة معادلاته بالجمل الكاملة الواضحة التي يفهمها الجميع، أم اختراع رموز مختصرة تقصّر العمل لكنها تحتاج تعلمًا جديدًا؟'
+  en: 'A scholar knows precise ideas need abbreviation, but his readers learned prose. The decision: write his equations in the full clear sentences everyone understands, or invent shortened symbols that
+    cut the work but need new learning?'
+  ur: 'ایک عالم جانتا ہے کہ درست خیالات کو اختصار چاہیے، مگر اس کے قارئین نثر سیکھے ہوئے ہیں۔ فیصلہ: مساوات مکمل واضح جملوں میں لکھنا جو سب سمجھیں یا ایسی مختصر علامتیں ایجاد کرنا جو کام کم کریں مگر نیا
+    سیکھنا چاہیں؟'
+  fr: Un savant sait qu’abréger peut rendre ses idées précises plus faciles à manipuler, mais ses lecteurs sont habitués à la prose. Écrira-t-il ses équations en phrases complètes que tout le monde comprend,
+    ou inventera-t-il des symboles qui font gagner du temps mais qu’il faudra apprendre ?
+  tr: 'Kesin fikirlerin kısalık gerektirdiğini bilen bir akademisyen, ama okuyucuları düzyazıyı öğrenmişti. Karar: Denklemlerini herkesin anlayacağı tam, net cümlelerle mi yazacak, yoksa eseri kısaltan
+    ama yeni öğrenme gerektiren kısa semboller mi icat edecek?'
+  id: 'Seorang cendekiawan yang tahu bahwa ide yang tepat membutuhkan singkatan, tetapi pembacanya belajar prosa. Keputusannya: Menulis persamaannya dalam kalimat lengkap dan jelas yang dipahami semua orang,
+    atau menciptakan simbol pendek yang memperpendek karya tetapi membutuhkan pembelajaran baru?'
 positions:
 - holder:
     ar: أهل النثر
     en: the prose party
     ur: نثر کے حامی
-    fr: "Les partisans de la prose"
+    fr: Les partisans de la prose
+    tr: Düzyazı Yazarları
+    id: Penulis Prosa
   stance:
     ar: الكتابة بالكلام تُقرأ في كل مكان بلا مفتاح
     en: writing in words is read everywhere with no key
     ur: الفاظ میں لکھنا ہر جگہ بغیر کنجی پڑھا جاتا ہے
-    fr: "Un texte rédigé en toutes lettres peut se lire partout, sans avoir à déchiffrer un code."
+    fr: Un texte rédigé en toutes lettres peut se lire partout, sans avoir à déchiffrer un code.
+    tr: Kelimelerle yazmak her yerde anahtarsız okunur
+    id: Menulis dengan kata-kata bisa dibaca di mana saja tanpa kunci
   evidence:
     ar: كتب الخوارزمي بالجمل فتعلم منه كل قارئ
     en: al-Khwarizmi wrote in sentences and every reader learned
     ur: الخوارزمی نے جملوں میں لکھا اور ہر قاری نے سیکھا
-    fr: "Al-Khwarizmi écrivait en phrases, et chaque lecteur pouvait apprendre en le lisant."
+    fr: Al-Khwarizmi écrivait en phrases, et chaque lecteur pouvait apprendre en le lisant.
+    tr: El-Horizmi, her okuyucunun ondan öğrenmesi için cümlelerle yazdı
+    id: Al-Khwarizmi menulis dalam kalimat agar setiap pembaca belajar darinya
   sources:
   - concept/algebra
   - person/al-khwarizmi
@@ -36,27 +48,35 @@ positions:
     ar: أهل الرموز
     en: the symbolers
     ur: علامات کے حامی
-    fr: "Les partisans des symboles"
+    fr: Les partisans des symboles
+    tr: Sembollerin insanları
+    id: Orang-orang simbol
   stance:
     ar: الرمز يختصر صفحة في سطر ويكشف البنية
     en: the symbol shortens a page to a line and shows the structure
     ur: علامت صفحہ کو سطر میں سمیٹتی اور ساخت دکھاتی ہے
-    fr: "Les symboles ramènent une page à une ligne et font ressortir la structure de l’équation."
+    fr: Les symboles ramènent une page à une ligne et font ressortir la structure de l’équation.
+    tr: Sembol bir sayfayı tek bir satırda özetler ve yapıyı ortaya çıkarır
+    id: Simbol ini merangkum halaman dalam satu baris dan memperlihatkan strukturnya
   evidence:
     ar: تطورت الرموز لاحقًا حتى صارت لغة الرياضيات
     en: symbols later grew until they became mathematics' language
     ur: علامات بعد میں بڑھیں یہاں تک کہ ریاضی کی زبان بنیں
-    fr: "L’usage des symboles s’est ensuite répandu jusqu’à en faire le langage des mathématiques."
+    fr: L’usage des symboles s’est ensuite répandu jusqu’à en faire le langage des mathématiques.
+    tr: Semboller daha sonra gelişerek matematiğin dili haline geldiler.
+    id: Simbol kemudian berkembang hingga menjadi bahasa matematika.
   sources:
   - concept/algebra
 reflection:
   ar: أيّ الطريقتين كنت ستكتب بها لو اخترعت علمًا جديدًا؟ اكتب سببك.
   en: Which way would you have written had you invented a new science? Write your reason.
   ur: اگر آپ نیا علم ایجاد کرتے تو کس طریقے سے لکھتے؟ وجہ لکھیں۔
-  fr: "Si tu avais inventé une nouvelle science, comment l’aurais-tu mise par écrit ? Explique ton choix."
+  fr: Si tu avais inventé une nouvelle science, comment l’aurais-tu mise par écrit ? Explique ton choix.
+  tr: Yeni bir bilim icat etseniz hangi yöntemi yazardınız? Gerekçenizi yazın.
+  id: Metode mana dari dua metode yang akan Anda gunakan jika Anda menemukan ilmu baru? Tuliskan alasan Anda.
 provenance:
   fr:
-    generated_by: "Devin"
-    model: "unknown"
-    run: "devin-a7ba389df57d4bdb9b7515fa59f40242"
-    source: "Existing English text in this activity, with Arabic consulted for religious material."
+    generated_by: Devin
+    model: unknown
+    run: devin-a7ba389df57d4bdb9b7515fa59f40242
+    source: Existing English text in this activity, with Arabic consulted for religious material.

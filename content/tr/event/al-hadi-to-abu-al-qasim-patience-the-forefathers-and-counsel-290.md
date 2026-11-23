@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-to-abu-al-qasim-patience-the-forefathers-and-counsel-290
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/al-hadi-to-abu-al-qasim-patience-the-forefathers-and-counsel-290.md}
+---
+## Özet
+"Kardeşler etrafımda toplandığında ve Muhammed lütufunu görmediğimde," sevinci azalır ve hayatı keyif alınmadığında, dediği gibi, o kararlı, deneyimli, sabırlı ve zamanın karşısında asla sarsılmaz, "ama tüm işlerimi Kaya'nın Yaratıcısına emanet ederim" {cite:sira-hadi-ila-al-haqq p.299}.
+
+## Detaylar
+Oğlu için kendini feda ettiğini ve uzun ömür dilediğini, eğer ona yakın olsaydı, hain ve hain olanların onu savunup kılıç ve mızraklarla savaşacağını söyler. Atalarının bir rol modeli vardır ve aralarındaki doğru olanlar Taff'ta ölüm ve zorlukla karşılaşmış, Tanrı onlara ayırdığı bilgelik yüzünden zaferini ertelemiştir {cite:sira-hadi-ila-al-haqq p.299}. Sonra 299. sayfanın son ayetleri ve 300. sayfanın başı, Peygamber'in saf oğulların katillerine hitap ettiği ve ahiretteki cezalarını şairin sözleriyle anlattığı bir diriliş sahnesini tasvir eder; müze bu sözleri aktarmaz ve belirli rakipler için uyarıyı yargılamaz. Bu, şairin Zaydi kitabındaki {cite:sira-hadi-ila-al-haqq p.300} ifadesidir. Sonra oğluna dindar olmasını, sadık olmasını, rehberlik etmesini, Allah'ın emrini gizli ve kamuya açık şekilde tercih etmesini, zamana boyun eğmemesini, sabırlı kalmasını ve huzuru ile bereketli, bereketli bir yaşam için dua etmesini öğütler. İki dipnotta, 'Sad' (ondan) ve 'idh' {cite:sira-hadi-ila-al-haqq p.300} el yazmasından okumalar vardır. Ve dizelerdeki 'Muhammed'in oğlun kendi adı olduğuna inanılır çünkü Ebu el-Kasim onun kunyahıdır, ancak metinde bu açıkça belirtilmediği için müzenin bununla bağlantısı yoktur. Şiirden sonra, [[event/al-hadi-to-his-cousins-of-the-prophets-family-on-wakefulness-and-their-division-292|Peygamber'in ailesinden kuzenlerine yazılmış başka bir şiir vardır; bu şiir]], oğluna övgü [[event/al-hadi-writes-verses-to-his-imprisoned-son-abu-al-qasim-and-praises-him-290|dizeleriyle başlar]]. Zaydi kitabındaki İmam takipçilerinin dilinde anlatım ve karşıtlar hakkında içerdiği tanımlar ve yargılar rivayetçi veya şaire atfedilir ve müze tarafından benimsenmez veya yargılanır.

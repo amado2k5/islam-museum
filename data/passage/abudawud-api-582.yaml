@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "582"
-label: { ar: "سنن أبي داود 582 — القراء", en: "Sunan Abi Dawud 582 — the readers", ur: "سنن ابی داؤد 582 — قراء", es: "Sunan Abi Dawud 582 - los lectores", fr: "Sunan Abi Dawud 582 — les lecteurs" }
+label: { ar: "سنن أبي داود 582 — القراء", en: "Sunan Abi Dawud 582 — the readers", ur: "سنن ابی داؤد 582 — قراء", es: "Sunan Abi Dawud 582 - los lectores", fr: "Sunan Abi Dawud 582 — les lecteurs", tr: "Sünen Ebu Davud 582 — Okuyanlar", id: "Sunan Abi Dawud 582 — Pembaca" }
 text: "… بْنُ رَجَاءٍ، سَمِعْتُ أَوْسَ بْنَ ضَمْعَجٍ، يُحَدِّثُ عَنْ أَبِي مَسْعُودٍ الْبَدْرِيِّ، قَالَ قَالَ رَسُولُ اللَّهِ \" يَؤُمُّ الْقَوْمَ أَقْرَؤُهُمْ لِكِتَابِ اللَّهِ وَأَقْدَمُهُمْ قِرَاءَةً فَإِنْ كَانُوا فِي الْقِرَاءَةِ سَوَاءً فَلْيَؤُمَّهُمْ أَقْدَمُهُمْ هِجْرَةً فَإِنْ كَانُوا فِي الْهِجْرَةِ سَوَاءً فَلْيَؤُمَّهُمْ أَكْبَرُهُمْ سِنًّا وَلاَ يُؤَمُّ الرَّجُلُ فِي بَيْتِهِ وَلاَ فِي سُلْطَانِهِ وَلاَ يُجْلَسُ عَلَى تَكْرِمَتِهِ إِلاَّ بِإِذْنِهِ \". قَالَ …"
 summary:
   ar: "حديث في سنن أبي داود، رقم 582، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابی داؤد کی حدیث نمبر 582، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Abi Dawud, n.° 582 (La oración (Kitab Al-Salat)), menciona a los lectores. El catálogo del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
   fr: "Un rapport du Sunan Abi Dawud, n° 582 (Prière), mentionne les lecteurs. Le catalogue du musée consacré à la lecture et à l'écriture du Coran le répertorie avec les textes du Coran, la Sunna, la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Sunan Abi Davud'da yer alan 582 numaralı hadiste, Kur'an okuyucularından bahsedilir. Bu hadis, Kur'an okunuşları, yazısı, hat sanatı ve diyakritik işaretleri konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan Abi Dawud, no. 582, menyebutkan para pembaca Al-Quran. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, tulisan, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 582 (book 2 hadith 192); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

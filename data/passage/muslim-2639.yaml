@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2639"
-label: { ar: "مسلم 2639 — فإنك مع من أحببت", en: "Muslim 2639 — You will be with whom you love", es: "Musulmán 2639 — Estarás con quien ames", fr: "Muslim 2639 — Tu seras avec celui que tu aimes", ur: "مسلم 2639 - آپ اس کے ساتھ ہوں گے جس سے آپ محبت کرتے ہیں۔" }
+label: { ar: "مسلم 2639 — فإنك مع من أحببت", en: "Muslim 2639 — You will be with whom you love", es: "Musulmán 2639 — Estarás con quien ames", fr: "Muslim 2639 — Tu seras avec celui que tu aimes", ur: "مسلم 2639 - آپ اس کے ساتھ ہوں گے جس سے آپ محبت کرتے ہیں۔", tr: "Müslim 2639 — Sevdiklerinizle birlikte olacaksınız.", id: "Muslim 2639 — Kamu akan bersama orang-orang yang kamu cintai" }
 text: "قال أعرابي لرسول الله: متى الساعة؟ قال: ما أعددت لها؟ قال: حب الله ورسوله، قال: فإنك مع من أحببت، قال أنس: فما فرحنا بعد الإسلام فرحاً أشد من قول النبي: فإنك مع من أحببت"
 summary:
   ar: "رواية أنس بن مالك في باب المرء مع من أحب من كتاب البر والصلة والآداب في صحيح مسلم؛ وفيها قول أنس: أنا أحب الله ورسوله وأبا بكر وعمر فأرجو أن أكون معهم وإن لم أعمل بأعمالهم."
+  tr: "Sahih Müslim'in \"Doğruluk, Akrabalık ve Ahlak\" kitabındaki \"Bir Kişinin Sevdiğiyle Birlikte Olması\" bölümünde Enes bin Malik'in rivayetinde Enes şöyle buyurmuştur: \"Allah'ı, Resulünü, Ebu Bekir'i ve Ömer'i seviyorum; bu yüzden onların amellerini yapmasam bile onlarla birlikte olmayı umuyorum.\""
+  id: "Riwayat Anas bin Malik dalam bab tentang seseorang yang berada di sisi orang yang dicintainya dari Kitab Kebajikan, Kekerabatan dan Adab dalam Sahih Muslim; dan di dalamnya terdapat pernyataan Anas: Aku mencintai Allah dan Rasul-Nya serta Abu Bakar dan Umar, maka aku berharap dapat bersama mereka meskipun aku tidak melakukan amal perbuatan mereka."
 relations:
   - { type: part_of, target: passage/muslim-kitab-45 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

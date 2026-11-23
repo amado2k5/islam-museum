@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1827"
-label: { ar: "موطأ مالك 1827 — تربية الأب ووصيته", en: "Muwatta Malik 1827 — the father raising and counselling", ur: "موطأ مالک 1827 — باپ کی تربیت اور نصیحت", es: "Muwatta Malik 1827 — el padre que crió y aconsejó", fr: "Muwatta Malik 1827 — l'éducation et les conseils du père" }
+label: { ar: "موطأ مالك 1827 — تربية الأب ووصيته", en: "Muwatta Malik 1827 — the father raising and counselling", ur: "موطأ مالک 1827 — باپ کی تربیت اور نصیحت", es: "Muwatta Malik 1827 — el padre que crió y aconsejó", fr: "Muwatta Malik 1827 — l'éducation et les conseils du père", tr: "Muwatta Malik 1827 — Babanın Yetiştirilme Tarzı ve Vasiyeti", id: "Muwatta Malik 1827 — Didikan dan Wasiat Sang Ayah" }
 text: "وَحَدَّثَنِي مَالِكٌ، أَنَّهُ بَلَغَهُ أَنَّهُ قِيلَ لِلُقْمَانَ مَا بَلَغَ بِكَ مَا نَرَى يُرِيدُونَ الْفَضْلَ. فَقَالَ لُقْمَانُ صِدْقُ الْحَدِيثِ وَأَدَاءُ الأَمَانَةِ وَتَرْكُ مَا لاَ يَعْنِينِي."
 summary:
   ar: "حديث في موطأ مالك، رقم 1827، يذكر تربية الأب ووصيته. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 1827، جس میں باپ کی تربیت اور نصیحت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Muwatta Malik, n.° 1827 (Discurso), menciona la crianza y el consejo paternos. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un rapport du Muwatta Malik, n° 1827 (Discours), mentionne l'éducation et les conseils du père. Le site Web « Paternité en Islam » répertorie ce rapport avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages consacrés au père."
+  tr: "Malik'in Muwatta adlı eserinde 1827 numaralı hadis, babanın çocuk yetiştirmedeki rolünü ve tavsiyelerini ele almaktadır. Bu hadis, İslam'da babalık üzerine araştırmalar yapan bir kişi tarafından, Kur'an, Sünnet, Peygamberin biyografisi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 1827, menyebutkan peran seorang ayah dalam membesarkan anak dan nasihatnya. Hadits ini dikumpulkan oleh peneliti tentang peran ayah dalam Islam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1827 (book 56 hadith 17); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

@@ -8,6 +8,7 @@ export const NON_MATCHES: RegExp[] = [
   /Taf[sś]ir al-Manar/gi,
   /تفسير المنار/g,
   /\bIbn[- ]Hamas\b/gi,
+  /İbn[- ]Hamas\b/g,
   /ابن حماس/g,
   /\bIsis Copia\b/g,
   /Islamic State of Afghanistan/g,

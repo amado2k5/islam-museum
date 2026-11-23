@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani, person/abdullah-ibn-umar, person/muhammad]
 work: work/muwatta-malik
 ref: "2266"
-label: { ar: "الموطأ 2266 — نافع عن ابن عمر: عائشة تشتري جارية لتعتقها", en: "Muwatta 2266", es: "Muwatta 2266", fr: "Muwatta 2266", ur: "موطا 2266" }
+label: { ar: "الموطأ 2266 — نافع عن ابن عمر: عائشة تشتري جارية لتعتقها", en: "Muwatta 2266", es: "Muwatta 2266", fr: "Muwatta 2266", ur: "موطا 2266", tr: "El-Muvatta 2266 — İbn Ömer'den rivayet edildiğine göre Nafi': Ayşe, kendisini azat etmek için bir cariye satın aldı.", id: "Al-Muwatta 2266 — Diriwayatkan oleh Nafi’ dari Ibnu Umar: Aisyah membeli seorang budak perempuan untuk membebaskannya" }
 summary:
   ar: "يروي مالك عن نافع عن عبد الله بن عمر أن عائشة أرادت شراء جارية لتعتقها، فاشترط أهلها أن يكون ولاؤها لهم، فأخبرت النبي، فقال: لا يمنعك ذلك، فإنما الولاء لمن أعتق. {cite:muwatta-maruf-1997 p.335}"
+  tr: "Malik, Nafi'den, o da Abdullah ibn Umar'dan rivayet ettiğine göre, Ayşe bir cariyeyi azat etmek için satın almak istemiş, ancak sahipleri onun bağlılığının kendilerine kalması gerektiğini şart koşmuşlardır. Bunun üzerine Ayşe durumu Peygamberimize bildirmiş ve Peygamberimiz şöyle buyurmuştur: \"Bu seni engellemesin, çünkü bağlılık azat edene aittir.\" {cite:muwatta-maruf-1997 s.335}"
+  id: "Malik meriwayatkan dari Nafi’ yang juga meriwayatkan dari Abdullah ibn Umar bahwa Aisyah ingin membeli seorang budak perempuan untuk membebaskannya, tetapi pemiliknya menetapkan syarat bahwa baiatnya harus tetap kepada mereka. Maka ia memberitahukan kepada Nabi, dan beliau bersabda: “Hal itu tidak menghalangimu, karena baiat adalah milik orang yang membebaskan.” {cite:muwatta-maruf-1997 p.335}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-24-itq }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

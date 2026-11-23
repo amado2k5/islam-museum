@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "944"
-label: { ar: "صحيح مسلم 944 — جمع القرآن والمصاحف", en: "Sahih Muslim 944 — the collection of the Qur'an and the codices", ur: "صحیح مسلم 944 — جمعِ قرآن اور مصاحف", es: "Sahih Muslim 944 — la colección del Corán y los códices", fr: "Sahih Muslim 944 — le recueil du Coran et des codex" }
+label: { ar: "صحيح مسلم 944 — جمع القرآن والمصاحف", en: "Sahih Muslim 944 — the collection of the Qur'an and the codices", ur: "صحیح مسلم 944 — جمعِ قرآن اور مصاحف", es: "Sahih Muslim 944 — la colección del Corán y los códices", fr: "Sahih Muslim 944 — le recueil du Coran et des codex", tr: "Sahih Muslim 944 — Kur'an'ın Derlenmesi ve Kur'an'ın Kopyaları", id: "Sahih Muslim 944 — Kompilasi Al-Qur'an dan Salinan Al-Qur'an" }
 text: "… - وَهُمْ صُفُوفٌ فِي الصَّلاَةِ - كَشَفَ رَسُولُ اللَّهِ سِتْرَ الْحُجْرَةِ فَنَظَرَ إِلَيْنَا وَهُوَ قَائِمٌ كَأَنَّ وَجْهَهُ وَرَقَةُ مُصْحَفٍ. ثُمَّ تَبَسَّمَ رَسُولُ اللَّهِ ضَاحِكًا - قَالَ - فَبُهِتْنَا وَنَحْنُ فِي الصَّلاَةِ مِنْ فَرَحٍ بِخُرُوجِ رَسُولِ اللَّهِ وَنَكَصَ أَبُو بَكْرٍ عَلَى عَقِبَيْهِ لِيَصِلَ الصَّفَّ وَظَنَّ أَنَّ رَسُولَ اللَّهِ خَارِجٌ لِلصَّلاَةِ فَأَشَارَ إِلَيْهِمْ رَسُولُ اللَّهِ بِيَدِهِ أَنْ …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 944، يذكر جمع القرآن والمصاحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 944، جس میں جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sahih Muslim, n.° 944 (El Libro de las Oraciones), menciona la colección del Corán y los códices. El catálogo del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
   fr: "Un hadith du Sahih Muslim, n° 944 (Le Livre des prières), mentionne la compilation du Coran et des codex. Le catalogue du musée, consacré à la lecture et à l'écriture du Coran, répertorie ces documents avec les textes coraniques, la Sunna, la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Sahih Müslim'de 944 numaralı hadis, Kur'an'ın ve el yazmalarının derlenmesinden bahsetmektedir. Bu hadis, Kur'an okunuşları, yazı, hat sanatı ve diyakritikler konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 944, menyebutkan penyusunan Al-Quran dan manuskripnya. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/mushaf, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 944 (book 4 hadith 106); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

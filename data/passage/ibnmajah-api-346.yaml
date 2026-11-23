@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "346"
-label: { ar: "سنن ابن ماجه 346 — دفن وقبر ومرقد", en: "Sunan Ibn Majah 346 — a burial, grave or resting place", ur: "سنن ابن ماجہ 346 — تدفین، قبر اور مرقد", es: "Sunan Ibn Majah 346 — un entierro, tumba o lugar de descanso", fr: "Sunan Ibn Majah 346 — un lieu de sépulture, une tombe ou un lieu de repos" }
+label: { ar: "سنن ابن ماجه 346 — دفن وقبر ومرقد", en: "Sunan Ibn Majah 346 — a burial, grave or resting place", ur: "سنن ابن ماجہ 346 — تدفین، قبر اور مرقد", es: "Sunan Ibn Majah 346 — un entierro, tumba o lugar de descanso", fr: "Sunan Ibn Majah 346 — un lieu de sépulture, une tombe ou un lieu de repos", tr: "Sunan ibn Majah 346 — Defin, mezar ve dinlenme yeri", id: "Sunan Ibnu Majah 346 — Pemakaman, kuburan, dan tempat peristirahatan" }
 text: "… ثُمَّ جَلَسَ فَبَالَ إِلَيْهَا فَقَالَ بَعْضُهُمُ انْظُرُوا إِلَيْهِ يَبُولُ كَمَا تَبُولُ الْمَرْأَةُ. فَسَمِعَهُ النَّبِيُّ ـ فَقَالَ \" وَيْحَكَ أَمَا عَلِمْتَ مَا أَصَابَ صَاحِبَ بَنِي إِسْرَائِيلَ كَانُوا إِذَا أَصَابَهُمُ الْبَوْلُ قَرَضُوهُ بِالْمَقَارِيضِ فَنَهَاهُمْ عَنْ ذَلِكَ فَعُذِّبَ فِي قَبْرِهِ \". قَالَ أَبُو الْحَسَنِ بْنُ سَلَمَةَ حَدَّثَنَا أَبُو حَاتِمٍ، حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى، أَنْبَأَنَا الأَعْمَشُ، فَذَكَرَ نَحْوَهُ."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 346، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابن ماجہ کی حدیث نمبر 346، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Ibn Majah, n.º 346 (El Libro de la Purificación y su Sunnah), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, propiedades, reliquias y tumbas."
   fr: "Un hadith du Sunan Ibn Majah, n° 346 (Le Livre de la Purification et sa Sunna), mentionne un lieu de sépulture, une tombe ou un lieu de repos. Le Navigateur des Testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "İbn Majah'ın Sünen'inde yer alan 346 numaralı hadiste, defin, mezar ve türbeden bahsedilir. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler üzerine araştırmalar yapan bir uzman tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan Ibn Majah, no. 346, menyebutkan tentang penguburan, kuburan, dan makam. Hadits ini disusun oleh peneliti wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 346 (book 1 hadith 80); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

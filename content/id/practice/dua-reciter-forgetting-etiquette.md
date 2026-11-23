@@ -1,0 +1,12 @@
+---
+id: practice/dua-reciter-forgetting-etiquette
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/dua-reciter-forgetting-etiquette.md}
+---
+## Ringkasan
+Kesimpulan Al-Nawawi adalah bab tentang kebajikan Al-Qur'an dari hadits yang memperingatkan agar tidak melupakannya, lalu bab tentang etiket pembaca: ketulusan, kesalahpahaman, kerendahan hati, Al-Qur'an dengan lantang, dan memperbaiki suara. {cite:al-adhkar-nawawi-arnaut-1994 p. 106}
+
+## Apa yang dikumpulkan al-Nawawi dalam 'Al-Adhkar'
+Al-Nawawi menutup bab tentang kebajikan Al-Qur'an dengan tiga hadis yang memperingatkan agar tidak melupakannya. Diceritakan dalam dua Syahid dari Ibn Umar bahwa [[person/muhammad|Nabi]] berkata: 'Teladan orang yang memiliki Al-Qur'an seperti unta dengan senyum.' Jika dia membuat perjanjian dengannya, dia memeluknya, dan jika dia melepaskan, dia pergi {cite:al-adhkar-nawawi-arnaut-1994 p. 106}. Dinawalisahkan dalam Abu Dawood dan Al-Tirmidhi dari Anas bahwa dosa terbesar adalah surah atau ayat yang diberikan kepada seseorang tetapi kemudian dilupakan, dan dia mengatakan bahwa Al-Tirmidhi membicarakannya {cite:al-adhkar-nawawi-arnaut-1994 p. 106}. Dia mengalamatkan dalam Sunan Abi Dawood dan Musnad al-Darimi dari Sa'd ibn Ubadah bahwa siapa pun yang membaca Al-Qur'an lalu melupakannya bertemu Tuhan pada Hari Kebangkitan akan menjadi yang paling kusta {cite:al-adhkar-nawawi-arnaut-1994 p. 106}. Kemudian ia memulai bab-bab tentang etiket pembaca, menyebutkan tepi tanpa bukti, yang pertama adalah ketulusan dan bahwa seseorang harus mengucapkan seolah-olah melihat Tuhan {cite:al-adhkar-nawawi-arnaut-1994 p. 106}, lalu membersihkan mulut dengan {cite:al-adhkar-nawawi-arnaut-1994 p. 106}. Ia menyarankan kerendahan hati, kontemplasi, dan menangis, mengutip [[passage/quran-17-109|ayat 109 (]]{cite:al-adhkar-nawawi-arnaut-1994 p. 107}. Suara keras lebih baik jika tidak menyembunyikan pamer dan tidak merugikan siapa pun {cite:al-adhkar-nawawi-arnaut-1994 p. 107} {cite:al-adhkar-nawawi-arnaut-1994 p. 108}, dan disarankan untuk meningkatkan suara tanpa pemanjangan {cite:al-adhkar-nawawi-arnaut-1994 p. 108}.

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "1234"
-label: { ar: "سنن أبي داود 1234 — الأب والأبوة", en: "Sunan Abi Dawud 1234 — the father and fatherhood", ur: "سنن ابی داؤد 1234 — باپ اور والدیت", es: "Sunan Abi Dawud 1234 — El padre y la paternidad", fr: "Sunan Abi Dawud 1234 — le père et la paternité" }
+label: { ar: "سنن أبي داود 1234 — الأب والأبوة", en: "Sunan Abi Dawud 1234 — the father and fatherhood", ur: "سنن ابی داؤد 1234 — باپ اور والدیت", es: "Sunan Abi Dawud 1234 — El padre y la paternidad", fr: "Sunan Abi Dawud 1234 — le père et la paternité", tr: "Sunan Abi Davud 1234 — Baba ve Babalık", id: "Sunan Abi Dawud 1234 — Sang Ayah dan Peran Ayah" }
 text: "… قَالَ ابْنُ الْمُثَنَّى - قَالَ أَخْبَرَنِي عَبْدُ اللَّهِ بْنُ مُحَمَّدِ بْنِ عُمَرَ بْنِ عَلِيِّ بْنِ أَبِي طَالِبٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، أَنَّ عَلِيًّا، - - كَانَ إِذَا سَافَرَ سَارَ بَعْدَ مَا تَغْرُبُ الشَّمْسُ حَتَّى تَكَادَ أَنْ تُظْلِمَ ثُمَّ يَنْزِلُ فَيُصَلِّي الْمَغْرِبَ ثُمَّ يَدْعُو بِعَشَائِهِ فَيَتَعَشَّى ثُمَّ يُصَلِّي الْعِشَاءَ ثُمَّ يَرْتَحِلُ وَيَقُولُ هَكَذَا كَانَ رَسُولُ اللَّهِ …"
 summary:
   ar: "حديث في سنن أبي داود، رقم 1234، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابی داؤد کی حدیث نمبر 1234، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sunan Abi Dawud, n.° 1234 (Oración (Kitab Al-Salat): Reglas detalladas sobre la oración durante el viaje), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sunan Abi Dawud, n° 1234 (La Prière (Kitab Al-Salat): Règles détaillées concernant la prière en voyage), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sünen Ebu Davud'da yer alan 1234 numaralı hadiste baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Sunan Abi Dawud, nomor 1234, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1234 (book 4 hadith 37); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

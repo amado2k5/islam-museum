@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2283"
-label: { ar: "مسلم 2283 — مثلي كمثل النذير العريان", en: "Muslim 2283 — The likeness of the plain warner", es: "Musulmán 2283 — La semejanza del avisador simple", fr: "Muslim 2283 — La ressemblance du clairavernier", ur: "مسلم 2283 - صاف صاف ڈرانے والے کی مثال" }
+label: { ar: "مسلم 2283 — مثلي كمثل النذير العريان", en: "Muslim 2283 — The likeness of the plain warner", es: "Musulmán 2283 — La semejanza del avisador simple", fr: "Muslim 2283 — La ressemblance du clairavernier", ur: "مسلم 2283 - صاف صاف ڈرانے والے کی مثال", tr: "Müslim 2283 — Benim örneğim, çıplak uyarıcının örneğine benzer.", id: "Muslim 2283 — Perumpamaanku seperti orang yang telanjang" }
 text: "قال النبي: إن مثلي ومثل ما بعثني الله به كمثل رجل أتى قومه فقال: يا قوم إني رأيت الجيش بعيني وإني أنا النذير العريان فالنجاء، فأطاعه طائفة من قومه فأدلجوا فنجوا، وكذبت طائفة منهم فأصبحوا مكانهم فصبحهم الجيش فأهلكهم واجتاحهم"
 summary:
   ar: "رواية أبي موسى الأشعري في باب مثل ما بعث به النبي من الهدى والعلم من كتاب الفضائل في صحيح مسلم؛ مثل من أطاع النبي واتبع ما جاء به ومثل من عصاه وكذبه."
+  tr: "Sahih Müslim'in Faziletler Kitabı'ndaki \"Peygamberin hidayet ve ilim olarak gönderildiği şeyin örneği\" bölümünde Ebu Musa el-Eş'ari'nin rivayetine göre; Peygambere itaat eden ve getirdiği şeyleri takip edenin örneği ile ona isyan eden ve onu inkar edenin örneği."
+  id: "Riwayat Abu Musa al-Ash’ari dalam bab tentang contoh petunjuk dan ilmu yang dibawa Nabi dari Kitab Keutamaan dalam Sahih Muslim; contoh orang yang taat kepada Nabi dan mengikuti apa yang beliau bawa dan contoh orang yang durhaka kepada beliau dan mengingkari beliau."
 relations:
   - { type: part_of, target: passage/muslim-kitab-43 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

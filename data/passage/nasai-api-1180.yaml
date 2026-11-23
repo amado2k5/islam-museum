@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "1180"
-label: { ar: "سنن النسائي 1180 — اليتيم وفقد الأب", en: "Sunan al-Nasa'i 1180 — the orphan and the father lost", ur: "سنن نسائی 1180 — یتیم اور باپ کی موت", es: "Sunan al-Nasa'i 1180 — El huérfano y el padre perdido", fr: "Sunan al-Nasa'i 1180 — L'orphelin et le père perdus" }
+label: { ar: "سنن النسائي 1180 — اليتيم وفقد الأب", en: "Sunan al-Nasa'i 1180 — the orphan and the father lost", ur: "سنن نسائی 1180 — یتیم اور باپ کی موت", es: "Sunan al-Nasa'i 1180 — El huérfano y el padre perdido", fr: "Sunan al-Nasa'i 1180 — L'orphelin et le père perdus", tr: "Sunan an-Nasa'i 1180 — Yetim ve Babasının Kaybı", id: "Sunan an-Nasa'i 1180 — Anak Yatim dan Kehilangan Ayah" }
 text: "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، قَالَ حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، قَالَ حَدَّثَنَا غَيْلاَنُ بْنُ جَرِيرٍ، عَنْ مُطَرِّفِ بْنِ عَبْدِ اللَّهِ، قَالَ صَلَّى عَلِيُّ بْنُ أَبِي طَالِبٍ فَكَانَ يُكَبِّرُ فِي كُلِّ خَفْضٍ وَرَفْعٍ يُتِمُّ التَّكْبِيرَ. فَقَالَ عِمْرَانُ بْنُ حُصَيْنٍ لَقَدْ ذَكَّرَنِي هَذَا صَلاَةَ رَسُولِ اللَّهِ."
 summary:
   ar: "حديث في سنن النسائي، رقم 1180، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 1180، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 1180 (El Libro del Olvido (En la Oración)), menciona al huérfano y al padre desaparecido. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre la paternidad."
   fr: "Un hadith du Sunan an-Nasa'i, n° 1180 (Le Livre de l'oubli (dans la prière)), évoque l'orphelin et le père disparu. Le site « Paternité en Islam » répertorie ce hadith avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la figure paternelle."
+  tr: "Sunan-ı Nesai'de yer alan 1180 numaralı hadiste yetimlerden ve babasızlık durumundan bahsedilir. \"İslam'da Babalık\" bölümü, bu hadisi Kur'an, Sünnet, Peygamberin biyografisi ve bu konuyla ilgili diğer kitaplardan alıntılarla birlikte derlemektedir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, nomor 1180, menyebutkan tentang anak yatim dan kehilangan seorang ayah. Bagian \"Kebapakan dalam Islam\" mengumpulkan hadits ini bersama dengan teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/yatim-fiqh, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1180 (book 13 hadith 2); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1823"
-label: { ar: "جامع الترمذي 1823 — الأب والأبوة", en: "Jami' al-Tirmidhi 1823 — the father and fatherhood", ur: "جامع ترمذی 1823 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1823 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 1823 — le père et la paternité" }
+label: { ar: "جامع الترمذي 1823 — الأب والأبوة", en: "Jami' al-Tirmidhi 1823 — the father and fatherhood", ur: "جامع ترمذی 1823 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1823 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 1823 — le père et la paternité", tr: "Cami' el-Tirmizi 1823 — Baba ve Babalık", id: "Jami' al-Tirmidhi 1823 — Sang Ayah dan Peran Ayah" }
 text: "… بْنُ الْقَاسِمِ قَالَ حَدَّثَنَا زِيَادُ بْنُ عَبْدِ اللَّهِ بْنِ عُلاَثَةَ، عَنْ مُوسَى بْنِ مُحَمَّدِ بْنِ إِبْرَاهِيمَ التَّيْمِيِّ، عَنْ أَبِيهِ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، وَأَنَسِ بْنِ مَالِكٍ، قَالاَ كَانَ رَسُولُ اللَّهِ إِذَا دَعَا عَلَى الْجَرَادِ قَالَ \" اللَّهُمَّ أَهْلِكِ الْجَرَادَ اقْتُلْ كِبَارَهُ وَأَهْلِكْ صِغَارَهُ وَأَفْسِدْ بَيْضَهُ وَاقْطَعْ دَابِرَهُ وَخُذْ بِأَفْوَاهِهِمْ عَنْ مَعَاشِنَا وَأَرْزَاقِنَا إِنَّكَ سَمِيعُ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 1823، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 1823، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 1823 (El Libro de la Alimentación), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 1823 (Le Livre de la nourriture), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce rapport avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant du père."
+  tr: "Cami' el-Tirmizi'nin 1823 numaralı hadisinde baba ve babalık kavramından bahsedilir. Araştırmacı, bu hadisi İslam'da babalık bölümünde, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan metinlerle birlikte derlemiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 1823, menyebutkan tentang ayah dan peran ayah. Peneliti mengumpulkan hadits ini dalam bagian tentang peran ayah dalam Islam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1823 (book 25 hadith 38); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

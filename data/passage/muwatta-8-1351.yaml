@@ -4,10 +4,12 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/muhammad-ibn-shihab-al-zuhri, person/ubaydallah-ibn-abdallah-ibn-utba, person/abdullah-ibn-abbas, person/muhammad]
 work: work/muwatta-malik
 ref: "1351"
-label: { ar: "الموطأ 1351 — ابن عباس: سعد بن عبادة استفتى النبي عن أمه التي مات وعليها نذر لم تقضه، فقال اقضه عنها", en: "Muwatta 1351", es: "Muwatta 1351", fr: "Muwatta 1351", ur: "موطا 1351" }
+label: { ar: "الموطأ 1351 — ابن عباس: سعد بن عبادة استفتى النبي عن أمه التي مات وعليها نذر لم تقضه، فقال اقضه عنها", en: "Muwatta 1351", es: "Muwatta 1351", fr: "Muwatta 1351", ur: "موطا 1351", tr: "El-Muvatta 1351 — İbn Abbas: Sa'd ibn Ubadah, vefat eden ve yerine getirilmemiş bir adak bırakan annesi hakkında Peygamberimizden bir hüküm istedi. Peygamberimiz şöyle buyurdu: \"Onun için adakını yerine getir.\"", id: "Al-Muwatta 1351 — Ibn Abbas: Sa’d ibn Ubadah meminta fatwa kepada Nabi tentang ibunya yang telah meninggal dan memiliki nazar yang belum terpenuhi, lalu beliau bersabda: Penuhilah nazar itu untuknya." }
 text: "اقْضِهِ عَنْها"
 summary:
   ar: "يروي مالك عن ابن شهاب عن عبيد الله بن عبد الله بن عتبة عن عبد الله بن عباس أن سعد بن عبادة استفتى رسول الله، فقال إن أمي ماتت وعليها نذر ولم تقضه، فقال رسول الله اقضه عنها. {cite:muwatta-maruf-1997 p.605}"
+  tr: "Malik, İbn Şihab'dan, o da Ubeydullah ibn Abdullah ibn Utbe'den, o da Abdullah ibn Abbas'tan rivayet eder ki, Saad ibn Ubadah, Allah'ın Resulü'nden fetva isteyerek, \"Annem vefat etti ve yerine getirmediği bir adak vardı\" dedi. Allah'ın Resulü, \"Onun adına yerine getir\" dedi. {cite:muwatta-maruf-1997 s.605}"
+  id: "Malik meriwayatkan dari Ibnu Shihab, dari Ubayd Allah ibn Abdullah ibn Utbah, dari Abdullah ibn Abbas, bahwa Saad ibn Ubadah meminta fatwa dari Rasulullah, dengan berkata, “Ibuku meninggal dan beliau mempunyai nazar yang belum beliau tepati.” Rasulullah SAW bersabda, “Tetaplah nazar itu untuknya.” {cite:muwatta-maruf-1997 p.605}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-08-nudhur }
   - { type: mentions, target: person/sad-ibn-ubada, sources: [source/muwatta-maruf-1997] }

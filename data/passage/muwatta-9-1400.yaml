@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1400"
-label: { ar: "الموطأ 1400 — مالك: بلغه عن علي بن أبي طالب مثل ذلك", en: "Muwatta 1400", es: "Muwatta 1400", fr: "Muwatta 1400", ur: "موطا 1400" }
+label: { ar: "الموطأ 1400 — مالك: بلغه عن علي بن أبي طالب مثل ذلك", en: "Muwatta 1400", es: "Muwatta 1400", fr: "Muwatta 1400", ur: "موطا 1400", tr: "El-Muvatta 1400 — Malik: Ali ibn Abi Talib'den de benzer bir şey kendisine bildirilmişti.", id: "Al-Muwatta 1400 — Malik: Dia mendapat informasi serupa dari Ali ibn Abi Talib." }
 summary:
   ar: "بلغ مالكا عن علي بن أبي طالب مثل ذلك، أي أن الأضحى يومان بعد يوم الأضحى. {cite:muwatta-maruf-1997 p.626}"
+  tr: "Malik, Ali ibn Abi Talib'den de benzer bir şey rivayet etmiş ve bunun da Kurban Bayramı kutlamalarının Kurban Bayramı'ndan iki gün sonra olduğu anlamına geldiğini belirtmiştir. {cite:muwatta-maruf-1997 s.626}"
+  id: "Malik meriwayatkan hal serupa dari Ali ibn Abi Talib, yang berarti bahwa perayaan Idul Adha berlangsung dua hari setelah Idul Adha. {cite:muwatta-maruf-1997 p.626}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-09-dahaya }
   - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/muwatta-maruf-1997] }

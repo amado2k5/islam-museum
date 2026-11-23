@@ -1,7 +1,7 @@
 name: Build islam.museum by language
 
 # A trial beside the one build (build.yml), which is unchanged (founder, 18 November 2026, in chat). The one build
-# writes every language in a single job; with five languages it writes more than a hosted runner's documented 14 GB of
+# writes every language in a single job; with seven languages it writes more than a hosted runner's documented 14 GB of
 # disk, and run 44362983867 on release/spanish ended with the runner lost. Here each language is built by its own job on
 # its own runner, in parallel: five jobs, each writing about a fifth of the site.
 #
@@ -14,7 +14,7 @@ name: Build islam.museum by language
 # - `build (shared)`, beside the language jobs: the API, the root page, the feed, llms.txt, the shared data (media, edu,
 #   timeline-data, gift-shop, brand, openapi), the search synonyms, the favicons and the scripts, styles and fonts.
 #   It writes no language's pages. Artifact `dist-shared`.
-# - `sitemap`, after the language jobs: the whole site's sitemap, made from the five languages' sitemaps
+# - `sitemap`, after the language jobs: the whole site's sitemap, made from the seven languages' sitemaps
 #   (scripts/merge-sitemaps.mjs). Artifact `dist-sitemap`, only when every language of the branch was built in this run.
 # Both are published by "Deploy shared parts to UAT / production" (deploy-shared-env.yml), and
 # "Deploy all parts to UAT / production" runs the shared deploy and the five language deploys one after another.
@@ -23,13 +23,13 @@ name: Build islam.museum by language
 # sitemap), so they stay with the one build. Validation, the graph, the unit tests and the no-runtime-AI guard run here.
 #
 # Manual only: nothing starts it on a push, so it adds no cost until it is started by hand. A branch that does not have
-# a language yet (main has no fr or es) skips that job's work and keeps no artifact for it.
+# a language yet (a branch may not have every language yet) skips that job's work and keeps no artifact for it.
 # Nothing here touches Cloudflare: no Worker, no R2, no Pages.
 on:
   workflow_dispatch:
     inputs:
       languages:
-        description: "Parts to build, separated by spaces: ar en ur fr es shared. Empty: all of them."
+        description: "Parts to build, separated by spaces: ar en ur fr es tr id shared. Empty: all of them."
         required: false
         type: string
         default: ""
@@ -84,7 +84,7 @@ jobs:
       # One language failing does not stop the others: each keeps its own artifact.
       fail-fast: false
       matrix:
-        lang: [ar, en, ur, fr, es]
+        lang: [ar, en, ur, fr, es, tr, id]
     env:
       BUILD_LANG: ${{ matrix.lang }}
     steps:

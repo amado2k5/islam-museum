@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani, person/abdullah-ibn-umar, person/muhammad]
 work: work/muwatta-malik
 ref: "1490"
-label: { ar: "الموطأ 1490 — نافع عن ابن عمر: لا يخطب أحدكم على خطبة أخيه", en: "Muwatta 1490", es: "Muwatta 1490", fr: "Muwatta 1490", ur: "موطا 1490" }
+label: { ar: "الموطأ 1490 — نافع عن ابن عمر: لا يخطب أحدكم على خطبة أخيه", en: "Muwatta 1490", es: "Muwatta 1490", fr: "Muwatta 1490", ur: "موطا 1490", tr: "El-Muvatta 1490 — Nafi'nin İbn Umar'dan rivayetine göre: Hiçbiriniz, erkek kardeşiyle nişanlı olan bir kadına evlilik teklifinde bulunmamalıdır." }
 summary:
   ar: "يروي مالك عن نافع عن عبد الله بن عمر أن رسول الله قال لا يخطب أحدكم على خطبة أخيه. {cite:muwatta-maruf-1997 p.27}"
+  tr: "Malik, Nafi'den, o da Abdullah ibn Umar'dan rivayetle, Allah Resulü'nün şöyle buyurduğunu nakletmiştir: \"Sizden hiç kimse, erkek kardeşi tarafından kendisine teklif edilmiş bir kadına teklif etmesin.\" {cite:muwatta-maruf-1997 s.27}"
+  id: "Malik meriwayatkan dari Nafi’ yang juga meriwayatkan dari Abdullah ibn Umar bahwa Rasulullah SAW bersabda: “Janganlah seorang pun di antara kalian melamar seorang wanita yang sudah dilamar oleh saudaranya.” {cite:muwatta-maruf-1997 p.27}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
   - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }

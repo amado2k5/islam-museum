@@ -1,0 +1,13 @@
+---
+id: concept/ilaj-al-dawi-wa-al-tanin
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/ilaj-al-dawi-wa-al-tanin.md}
+---
+## Menghindari dan memperkuat organ
+Semua ini harus menghindari sinar matahari, mandi, gerakan kasar, teriakan, dan muntah. Mereka harus melihat organ aktif, terutama perut, untuk memurnikannya. Mereka harus merujuk pada otak dan telinga, yang kuat, sementara otak seperti yang dikenal, dan telinga seperti yang dikenal. Dalam hal ini, suasana hati pertama dipertimbangkan, dan dimaksudkan untuk membantunya sesuai dengan dua pendapat yang sudah dikenal: (Nama nama lidah tidak memilikinya) {cite:canon-ibn-sina-print-v2 p.226}
+## Setiap penyebab dan pengobatannya
+Demikian pula, makhluk yang penuh harus memurnikan tubuh atau kepala dengan apa yang diketahui dan lembut dalam pengendalian. Sedangkan yang penuh nanah, nanah tidak boleh digerakkan, karena nanah itu hilang seiring demamnya mereda. Adapun makhluk kecerdasan sensorik, beberapa orang diperintahkan untuk menggunakan obat, dan yang terbaik dari apa yang diperintahkan adalah yang diketahui. Adapun yang bebas nanah, nanah itu diobati dengan pengobatan tumor dan nanah (nama obat dan nanah tidak digunakan) {cite:canon-ibn-sina-print-v2 p.226}
+## Makhluk para penyembuh, kurcaci, dan lengket
+Adapun mereka yang sakit dan suasana hatinya kering, jika penyebabnya adalah kekeringan, beri nutrisi dan melembapkan dengan minyak sedang yang cenderung dingin atau panas sesuai kebutuhan. Jika penyebabnya adalah kelemahan, gunakan zat yang mengubah suasana hati zat yang disebutkan sebelumnya. Jika penyebabnya adalah zat yang terburu-buru dimasukkan selama ruam dingin atau campuran kental dan lengket, maka semua bahan yang disebutkan termasuk dalam kondisi sakit dan tuli. Adapun campuran lengket dingin, tablet yang telah diuji khusus untuk hal ini, dan makan malam harus dihindari di semua bahan tersebut. Beberapa sarjana awal mengatakan bahwa tidak ada yang lebih bermanfaat untuk mengi daripada obat yang diresepkan Fotang untuk pengawetan (pendapat ini disebarkan seperti yang diberikan kepada para sarjana sebelumnya, dan nama serta dosis obat serta tablet tidak diterima). Perlu dipertimbangkan apa yang telah dikatakan tentang pengobatan sendi dalam bab tuli dan nyeri, terutama dingin {cite:canon-ibn-sina-print-v2 p.227}.

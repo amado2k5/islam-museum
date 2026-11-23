@@ -1,0 +1,28 @@
+---
+id: person/al-baghdadi-abd-al-qahir-ibn-tahir
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/al-baghdadi-abd-al-qahir-ibn-tahir.md}
+---
+
+## Özet
+Abd al-Qahir ibn Tahir ibn Muhammed ibn Abdullah al-Tamimi, Ebu Mansur el-Bağdadi (ö. yaklaşık 429 Hicri / 1037 M.S.), Şafii bir hukukçu, ilke ilahiyatçısı, edebi figür, şair, dilbilgisi uzmanı ve muhasebeciydi; 'bilimlerle mükemmel bir imam' olarak tanımlanır {cite:mawsuat-a3lam-ulama-adaba pp. 634-635} {cite:tarikh-islam-dhahabi pp. 265-266}.
+
+## Bağdat'tan Nişapur'a Yetiştirilme Dönemi
+Bağdat'ta doğup büyüdü, ardından zengin, varlıklı ve onurlu babası Ebu Abdullah Tahir ile birlikte Horasan'a giderek Nişapur'a yerleştiler. Abdül-Kahir, babasının servetini alimlere ve hadis alimlerine harcadı ancak bilgisinden servet kazanmadı {cite:mawsuat-a3lam-ulama-adaba p. 634} {cite:tabaqat-shafiiyya-subki p. 238}.
+
+## Öğretmenleri ve öğrencileri
+Ebu İshaq İbrahim ibn Muhammed el-İsfarayini'n, Aş'ari hukukçusu, Şafii hukukçusu ve Nişapur'daki ünlü okulun sahibinin yanında eğitim aldı. Onun yanında dinin temellerini öğrendi ve özellikle aritmetiği birçok alanda çalıştı. Ayrıca Ebu Emr ibn Nucaid, Ebu Emr Muhammed ibn Ca'far ibn Matar, Ebu Bekir el-İsmaîlî ve Ebu Ahmed ibn Adi'den de {cite:mawsuat-a3lam-ulama-adaba p. 634} {cite:tarikh-islam-dhahabi p. 265}. Öğretmeninin 418 Hicri yılındaki ölümünden sonra, camide oturup onun yerine dikte etti ve yıllarca dikte etti. İmamlar buna karşı çıktı ve ona okundular; bunlar arasında Ebu el-Kasım el-Kuşayri ve Nasır el-Mervazi de vardı. Ebu Bekir el-Bayhaqi onun yanında eğitim aldı ve Abdül-Ghaffar bin Muhammed bin Şiruvey {cite:mawsuat-a3lam-ulama-adaba pp. 634-635} ondan rivayet etti {cite:tarikh-islam-dhahabi p. 265}.
+
+## Statüsü
+On yedi sanat öğretti, mütevazı ve varlıklı; Ebu Osman el-Sabuni şöyle dedi: Profesör Ebu Mansur, İslam'ın ilkeleri ve erdem ve çalışma halkı arasında uzlaşıyla önde gelen alimler ve önde gelen otoritelerden biriydi, son derece organize edilmiş ve yazı ile incelikte {cite:tarikh-islam-dhahabi p. 265}. Fahr el-Din el-Razi, muhaliflerine çöldeki ceylanlar gibi karşılık verdiğini ve sadece 'Aritmetik Ek' kitabı olsaydı yeterli olacağını söyledi {cite:tabaqat-shafiiyya-subki p. 238}.
+
+## Eserleri
+Tafsir kitabı, Mu'tazillerin skandalları, mezhepler arasındaki fark, fıkıh ilkelerine ilişkin hükm, sabırlı yoksulların minnettar zenginlere tercih edilmesi, Karamiyye'nin skandalları, belirsiz haberlerin yorumu, mezhepler ve inançlar bu türde eşsiz bir şekilde yorumlanması, Kur'an'ın, sıfatların, inancın ve ilkelerinin yaratılışının inkârı, rehberlik ilkelerinin sınırına ulaşılması, doğum iddiasının çürütülmesi, insanların mirasının temeli, aritmetikte tamamlanma ve Ebu Abdullah el-Jurcani'nin Ebu Hanife'nin okulunu desteklemek için atfettiği şeylerin çürütülmesi {cite:tabaqat-shafiiyya-subki p. 239}. 'Dinin Temelleri' adlı kitap, Aş'ari inancını on beş ilke ile açıklar; bunlar arasında tek tanrılık, peygamberlik, imalık ve mezheplerin hükümleri {cite:mawsuat-a3lam-ulama-adaba p. 635}.
+
+## Son günleri
+Türkmen isyanı onu 429 Hicri Nişapur'dan ayrılmaya zorladı — ve denir ki, "Nişapur'un harabelerinden biri, onun gibi birinin zorla ayrılmasıdır" — bu yüzden İsfarayin'e gitti; burada halkı selefine tarif edilemez bir sevinçle sevindi, sadece az bir süre orada kaldı, ta ki 429 Hicri'de orada ölene kadar. Âlimler oybirliğiyle onu Ustad Abu İshaq'ın yanına gömmek konusunda hemfikir oldular, böylece mezarları bitişik oldu {cite:tabaqat-shafiiyya-subki pp. 238-239} {cite:mawsuat-a3lam-ulama-adaba p. 635}. İbn el-Necjar'ın tarihinde 427 Hicri'de kaydedilmiştir ve {cite:tabaqat-shafiiyya-subki p. 239}'in bir tezidir; İbn Şakir ise 420 H {cite:mawsuat-a3lam-ulama-adaba p. 635} yılında rapor edilmiştir.
+
+## 'Farklılıklar Arasındaki Fark' editörünün çalışmasında
+Muhammed Osman el-Hoşt, '[[work/al-farq-bayna-al-firaq|Al-Faraq bayn al-Firaq' adlı doğrulamasının girişinde]], Abd al-Qahir ibn Tahir al-Baghdadi'nin Bağdat'ta doğup büyüdüğünü, ardından genç yaşta babasıyla birlikte Horasan'a gidip Nişapur'a yerleştiğini belirtir. Ebu İshaq el-İsfarayini'ye eşlik etti ve ondan dinin temellerini öğrendi. Ebu İshaq, Ebu el-Hasan el-Beşi'den Ebu [[person/al-ashari|el-Hasan el-Eş'ari']] den öğrendi, böylece onun alim soyu el-Eşari'ye kadar uzanır. {cite:farq-bayn-al-firaq-khisht-ibn-sina p.7} Öğretmeninin 411 Hicri'deki ölümünden sonra, Nişapur'daki Akil Camii'nde öğretmenlik yaptı ve etrafında toplanan öğrenciler, aralarında Nasir el-Mervazi ve Ebu el-Kasım el-Kuşayri'nin de bulunduğu kişiler, babasının bıraktığı paraya kendini adamasına yardımcı oldu. {cite:farq-bayn-al-firaq-khisht-ibn-sina p.7} 429 Hicri Türkmen isyanına kadar Nişapur'da öğretmenlik ve yazmaya devam etti; o yıl İsfarayin'e gitmek zorunda kaldı ve aynı yıl orada öldü. Editör Al-Subki'den alıntı yapar: Nişapur'un üzüntülerinden biri, onun gibi ayrılmak zorunda kalma zorunluluğuydu. {cite:farq-bayn-al-firaq-khisht-ibn-sina p.7} {cite:farq-bayn-al-firaq-khisht-ibn-sina p.8} Bahsettiği eserler arasında şunlar vardır: "Usul al-Din", "Kadariye'nin Skandalları," "İnanç ve İlkeleri," "Mezhebler ve İnançlar," "Nitelikler", "Kur'an'ın yaratılışının inkârı", "Karamiyye'nin skandalları", "Doğum iddiasının geçersizliği" ve "Allah'ın güzel isimlerinin tafsiri." {cite:farq-bayn-al-firaq-khisht-ibn-sina p.8}

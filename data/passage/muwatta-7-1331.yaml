@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/zayd-ibn-aslam]
 work: work/muwatta-malik
 ref: "1331"
-label: { ar: "الموطأ 1331 — زيد بن أسلم عن عمر بن الخطاب: اللهم إني أسألك شهادة في سبيلك ووفاة ببلد رسولك", en: "Muwatta 1331", es: "Muwatta 1331", fr: "Muwatta 1331", ur: "موطا 1331" }
+label: { ar: "الموطأ 1331 — زيد بن أسلم عن عمر بن الخطاب: اللهم إني أسألك شهادة في سبيلك ووفاة ببلد رسولك", en: "Muwatta 1331", es: "Muwatta 1331", fr: "Muwatta 1331", ur: "موطا 1331", tr: "El-Muvatta 1331 — Zeyd ibn Aslam, Ömer ibn el-Hattab'dan rivayetle: Ey Allah'ım, senden senin yolunda şehit olmayı ve Resulünün ülkesinde ölmeyi diliyorum.", id: "Al-Muwatta 1331 — Zayd ibn Aslam berdasarkan riwayat Umar ibn al-Khattab: Ya Allah, aku memohon kepada-Mu kesyahidan di jalan-Mu dan kematian di negeri Rasul-Mu" }
 summary:
   ar: "يروي مالك عن زيد بن أسلم أن عمر بن الخطاب كان يقول اللهم إني أسألك شهادة في سبيلك، ووفاة ببلد رسولك. ويذكر المحقق أن إسناده منقطع، لأن زيد بن أسلم لم يدرك عمر، وأن البخاري وصله. {cite:muwatta-maruf-1997 p.595}"
+  tr: "Malik, Zeyd ibn Aslam'dan rivayetle Ömer ibn el-Hattab'ın şöyle dediğini aktarır: \"Ey Allah'ım, senden senin yolunda şehit olmayı ve Resulünün topraklarında ölmeyi diliyorum.\" Araştırmacı, Zeyd ibn Aslam'ın Ömer ile görüşmediği için rivayet zincirinin koptuğunu ve Buhari'nin bunu birleştirdiğini belirtiyor. {cite:muwatta-maruf-1997 s.595}"
+  id: "Malik meriwayatkan dari Zayd ibn Aslam bahwa Umar ibn al-Khattab biasa berkata, \"Ya Allah, aku memohon kepada-Mu kesyahidan di jalan-Mu dan kematian di negeri Rasul-Mu.\" Peneliti mencatat bahwa sanadnya terputus karena Zayd ibn Aslam tidak bertemu Umar, dan al-Bukhari yang menghubungkannya. {cite:muwatta-maruf-1997 p.595}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
   - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }

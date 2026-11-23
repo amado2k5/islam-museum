@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "1897"
-label: { ar: "صحيح البخاري 1897 — النسب والانتساب", en: "Sahih al-Bukhari 1897 — paternity and lineage", ur: "صحیح بخاری 1897 — نسب اور انتساب", es: "Sahih al-Bukhari 1897 — paternidad y linaje", fr: "Sahih al-Bukhari 1897 — paternité et lignée" }
+label: { ar: "صحيح البخاري 1897 — النسب والانتساب", en: "Sahih al-Bukhari 1897 — paternity and lineage", ur: "صحیح بخاری 1897 — نسب اور انتساب", es: "Sahih al-Bukhari 1897 — paternidad y linaje", fr: "Sahih al-Bukhari 1897 — paternité et lignée", tr: "Sahih el-Buhari 1897 — Soy ve Bağlantı", id: "Sahih al-Bukhari 1897 — Silsilah dan Afiliasi" }
 text: "… باب الْجِهَادِ، وَمَنْ كَانَ مِنْ أَهْلِ الصِّيَامِ دُعِيَ مِنْ باب الرَّيَّانِ، وَمَنْ كَانَ مِنْ أَهْلِ الصَّدَقَةِ دُعِيَ مِنْ باب الصَّدَقَةِ \". فَقَالَ أَبُو بَكْرٍ ـ بِأَبِي أَنْتَ وَأُمِّي يَا رَسُولَ اللَّهِ، مَا عَلَى مَنْ دُعِيَ مِنْ تِلْكَ الأَبْوَابِ مِنْ ضَرُورَةٍ، فَهَلْ يُدْعَى أَحَدٌ مِنْ تِلْكَ الأَبْوَابِ كُلِّهَا قَالَ \" نَعَمْ. وَأَرْجُو أَنْ تَكُونَ مِنْهُمْ \"."
 summary:
   ar: "حديث في صحيح البخاري، رقم 1897، يذكر النسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 1897، جس میں نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 1897 (El ayuno), menciona la paternidad y el linaje. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sahih al-Bukhari, n° 1897 (Le jeûne), mentionne la paternité et la filiation. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la figure paternelle."
+  tr: "Sahih el-Buhari'nin 1897 numaralı hadisinde soy ve kökenden bahsedilir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derler."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 1897, menyebutkan tentang garis keturunan dan leluhur. Peramban \"Kebapakan dalam Islam\" mengumpulkannya dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/intisab, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1897 (book 30 hadith 7); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "2949"
-label: { ar: "جامع الترمذي 2949 — كتاب القراءات، قراءات القرآن", en: "Jami' al-Tirmidhi 2949 — the Book of the Readings; the readings of the Qur'an", ur: "جامع ترمذی 2949 — کتاب القراءات، قرآن کی قراءتیں", es: "Jami' al-Tirmidhi 2949 — El Libro de las Lecturas; las lecturas del Corán", fr: "Jami' al-Tirmidhi 2949 — le Livre des lectures; les lectures du Coran" }
+label: { ar: "جامع الترمذي 2949 — كتاب القراءات، قراءات القرآن", en: "Jami' al-Tirmidhi 2949 — the Book of the Readings; the readings of the Qur'an", ur: "جامع ترمذی 2949 — کتاب القراءات، قرآن کی قراءتیں", es: "Jami' al-Tirmidhi 2949 — El Libro de las Lecturas; las lecturas del Corán", fr: "Jami' al-Tirmidhi 2949 — le Livre des lectures; les lectures du Coran", tr: "Cami' el-Tirmizi 2949 — Kur'an Okumaları Kitabı", id: "Jami' al-Tirmidhi 2949 — Kitab Bacaan, Bacaan Al-Qur'an" }
 text: "… بْنُ شُمَيْلٍ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، عَنْ يَزِيدَ بْنِ عَبْدِ اللَّهِ بْنِ الشِّخِّيرِ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، أَنَّ النَّبِيَّ قَالَ \" لَمْ يَفْقَهْ مَنْ قَرَأَ الْقُرْآنَ فِي أَقَلَّ مِنْ ثَلاَثٍ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ. حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، قَالَ حَدَّثَنَا شُعْبَةُ، بِهَذَا الإِسْنَادِ نَحْوَهُ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 2949، يذكر قراءات القرآن. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 2949، جس میں قرآن کی قراءتیں کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 2949 (Capítulos sobre la recitación), menciona las lecturas del Corán. El navegador del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 2949 (Chapitres sur la récitation), mentionne les lectures du Coran. Le catalogue du musée consacré à la lecture et à la transcription du Coran répertorie ce rapport avec les textes du Coran, la Sunna, la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Cami' el-Tirmizi'de yer alan 2949 numaralı hadis, Kur'an'ın farklı okunuşlarından bahsetmektedir. Bu hadis, Kur'an okunuşları, yazısı, hat sanatı ve diyakritik işaretleri konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 2949, menyebutkan berbagai macam bacaan Al-Quran. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2949 (book 46 hadith 23); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts); the whole chapter is taken, honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/abdallah-ibn-dinar, person/muhammad]
 work: work/muwatta-malik
 ref: "2811"
-label: { ar: "الموطأ 2811 — ابن عمر: كنا نبايع النبي على السمع والطاعة فيقول لنا فيما استطعتم", en: "Muwatta 2811", es: "Muwatta 2811", fr: "Muwatta 2811", ur: "موطا 2811" }
+label: { ar: "الموطأ 2811 — ابن عمر: كنا نبايع النبي على السمع والطاعة فيقول لنا فيما استطعتم", en: "Muwatta 2811", es: "Muwatta 2811", fr: "Muwatta 2811", ur: "موطا 2811", tr: "El-Muvatta 2811 — İbn Ömer: Biz, Peygamber'i işitip itaat edince ona biat ederdik ve o da bize, \"Gücünüz yettiğince\" derdi.", id: "Al-Muwatta 2811 — Ibn Umar: Kami biasa berbaiat kepada Nabi setelah mendengar dan menaati perintah-Nya, dan beliau berkata kepada kami, “Sebanyak yang kalian mampu.”" }
 summary:
   ar: "يروي مالك عن عبد الله بن دينار أن عبد الله بن عمر قال: كنا إذا بايعنا رسول الله على السمع والطاعة، يقول لنا: فيما استطعتم. {cite:muwatta-maruf-1997 p.578}"
+  tr: "Malik, Abdullah ibn Dinar'dan rivayetle Abdullah ibn Umar'ın şöyle dediğini aktarır: \"Allah'ın Resulü'ne biat ettiğimizde, O bize şöyle derdi: 'Elinden geldiğince.'\" {cite:muwatta-maruf-1997 s.578}"
+  id: "Malik meriwayatkan dari Abdullah ibn Dinar bahwa Abdullah ibn Umar berkata: Ketika kami berbaiat kepada Rasulullah untuk mendengarkan dan taat, beliau berkata kepada kami: Sebaik kemampuan kalian. {cite:muwatta-maruf-1997 p.578}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

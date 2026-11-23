@@ -1,0 +1,11 @@
+---
+id: person/thuwayba
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/thuwayba.md}
+---
+Ebu Lahab'ın özgür kadını Thuwaybah, annesinden sonra Peygamber'i oğlu Masruh'un sütüyle ilk emziren kişiydi. Hamza [[person/hamza|ibn Abdül-Muttalyp'i ondan]] önce emsinen ve ondan sonra Ebu Selame ibn Abdül-Esad el-Makhzumi'yi emziren aynı kişiydi — böylece iki kardeşi birlikte sütten kesildi. {cite:mubarakpuri-raheeq}
+
+## Abla Al-Kahlawi'nin "Seçilmişe Aşk" programında
+Abla al-Kahlawi [[person/abla-al-kahlawi|, "Seçilmişe Aşk"]] programında Thuwaybah'ı Peygamber'in Amina'dan sonra "ikinci annesi [[work/fi-hub-al-mustapha|" olarak kabul]] eder. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:07:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:09:00} Peygamber'in amcasının, kardeşi Abdullah için derin üzüntü duyduğu rivayet edilir; Abdullah ölmüş ve oğlunu görmemiştir. Eviyeti Thuwaybah, Amina'nın Muhammed'i doğurduğunu bildirdiğinde çok sevinmiş ve onu özgür bırakmış, dedesi Abdul Muttalib ise onun için sevinmiştir. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:07:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:07:30} Thuwaybah'ın bebeğin yüzüne bakmaya gittiğini ve ona bağlandığını söylüyor. Yeni doğmuştu, bu yüzden kendi oğlunu emzirirken onu kucaklayıp emzirdi ve emzirme onurunu ve bereketini kazandı. Amina ya da Muhammed'den hiç ayrılmadı ve onun için tüm sevgiyle sevdiği ikinci anne olarak yaşadı. {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:07:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:08:00} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:08:30} {cite:assabile-abla-al-kahlawi fi-hub-al-mustapha/ep06 00:09:00} Bu amcanın kaydında duyulan isim yukarıda belirtilen kaynakla uyuşmaz, bu da Thuwaybah'ı Abu Lahab'ın özgür bırakılmış bir adamı yapar, bu yüzden burada adı yazılmamıştır. {cite:mubarakpuri-raheeq}

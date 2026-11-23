@@ -1,0 +1,33 @@
+---
+id: work/rihla-ibn-battuta
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/work/rihla-ibn-battuta.md}
+---
+## Özet
+"Tuhfat al-Nuzar fi Ghara'ib al-Amsar wa Aja'ib al-Asfar," İbn Battuta'nın Rihlah'ı olarak bilinir ve gezgin [[person/ibn-battuta-muhammad|Ebu Abdullah Muhammed bin Abdullah el-Lawati el-Tanji]]'nin gözlemlerinden dikte ettiği şeydir ve [[person/ibn-juzayy-muhammad|Marinid Sultanı]] Ebu 'Anan'ın [[person/abu-inan-faris|emriyle Muhammed bin Muhammed ibn Cüzey el-Kalbi]] tarafından kaydedilmiştir. {cite:rihla-ibn-battuta-khayriyya-1904 p.14} Kaydı 756 Hicce ayının üçüncüsünde tamamlanmıştır. {cite:rihla-ibn-battuta-khayriyya-1904 p.566}
+
+## Nasıl yazdın
+İbn Cayey, kitabın vaazında, İbn Battuta'nın toprakları ve bölgeleri dolaştıktan sonra, Fez'in huzurunda yolculuk asasını fırlattığını söyler. Sultan, bölgelerde gezdiği yerlerde gördüklerini, ezberlediği nadir raporları ve karşılaştığı kralları, alimleri ve azizleri dikte etmesini emretti. İbn Cayey'e, eserinde dikte ettiği parçaları derlemesini emretti. {cite:rihla-ibn-battuta-khayriyya-1904 p.14} İbn Cayzeyi eserini şöyle tanımlar: Şeyh'in sözlerinin anlamlarını kendi otoritesinden alıntıladı, bazen yazarken kendi ifadesini aktardı ve bahsettiği tüm hikaye ve raporları dahil etti: "Bunun doğruluğunu araştırmadım ve test etmedim," zor yerlerin ve insanların isimlerini biçimsel olarak açıkladı ve mümkün olduğunca çok yabancı ismi açıkladı. {cite:rihla-ibn-battuta-khayriyya-1904 p.14} {cite:rihla-ibn-battuta-khayriyya-1904 p.15} Metin, "İbn Juzay söyledi" ifadesiyle başlayan paragraflarla serpiştirilmiş, haber, şiir veya yorum eklenmiştir. {cite:rihla-ibn-battuta-khayriyya-1904 p.15} {cite:rihla-ibn-battuta-khayriyya-1904 p.21}
+
+## Yolculuk iki bölüme ayrılmıştır
+Metin, İbn Battuta'nın, 725 Hicri yılının ikinci Recep ayının Perşembe günü doğduğu yer Tanca'dan ayrıldığını, hac yapmak ve Peygamber'in mezarını ziyaret etmek ve bir rehibatle yalnız olmak üzere ayrıldığını ve o zamanlar yirmi iki yaşında olduğunu söylemesiyle başlar. {cite:rihla-ibn-battuta-khayriyya-1904 p.15}
+
+**Birinci Bölüm** Tunus, İskenderiye, Mısır, Levant, Medine, Mekke, ardından Irak, İran, Yemen ve Doğu Afrika kıyılarından Suakin'den Mogadişu ve Kulua'ya, Umman, Hürmüz, Körfez'e, ardından Anadolu ve sultanlarına, ardından Sultan Muhammed Özbek'in toprakları, Konstantinopolis, Harezm, Transoksiana ve Horasan'dan geçerek İndus Nehri'nin 734 Hicri'de başladığı 'Panj Ab'de sona erer. {cite:rihla-ibn-battuta-khayriyya-1904 p.7} {cite:rihla-ibn-battuta-khayriyya-1904 p.9} {cite:rihla-ibn-battuta-khayriyya-1904 p.10} {cite:rihla-ibn-battuta-khayriyya-1904 p.312}
+
+**İkinci Bölüm**, İndus Nehri ve Hindistan topraklarında yapılan bir yolculukla başlar; Delhi'yi, surlarını ve camilerini ve kralları arasında dolaşanların tarihini anlatır. Daha sonra Sultan [[person/muhammad-ibn-tughluq|Muhammed Şah bin Tughlaq]] 'ın biyografisini detaylandırır; onu Delhi valisi olarak atadı, ardından Dhibat al-Mahal, Seylan ve Çin adalarını atadı, ardından Fas'a, ardından Endülüs'e, ardından Sudan ve Mali'ye yolculuk yaptı ve Fez'e varışıyla sona erdi. {cite:rihla-ibn-battuta-khayriyya-1904 p.568} {cite:rihla-ibn-battuta-khayriyya-1904 p.572} {cite:rihla-ibn-battuta-khayriyya-1904 p.15} {cite:rihla-ibn-battuta-khayriyya-1904 p.354} {cite:rihla-ibn-battuta-khayriyya-1904 p.412} {cite:rihla-ibn-battuta-khayriyya-1904 p.566}
+
+## Görüntüleme yöntemi
+Kitap, materyalini "bahsetmek" ile başlayan başlıklara ayırır: ülkenin sultanı, yargıçları, alimleri, camileri ve türbeleri ile halkının geleneklerinden bahseder. {cite:rihla-ibn-battuta-khayriyya-1904 p.7} {cite:rihla-ibn-battuta-khayriyya-1904 p.8} İbn Battuta, ziyaret tarihiyle kendi gözleriyle gördüklerini zaman zaman anlatır; örneğin [[place/al-manara-iskandariyya|, İskenderiye Minaresi'ni]] ilk kez bir tarafı harap halde gördüğünü, sonra 750 Hicri'de geri döndüğünü ve harabe olduğunu gördüğünü belirtir. {cite:rihla-ibn-battuta-khayriyya-1904 p.20} Gördükleriyle rapor ettiklerini ayırır; Hindistan kralları hakkında, statüleriyle ilgili bahsettiklerinin ya da çoğunun Gaznevi'nin baş yargıcı Kamal al-Din ibn al-Burhan'dan alındığını söyler; Muhammed Şah'ın haberlerinin çoğu ise gördüklerinden gelir ve Allah adına cömertliğini ilettiklerinin "kesin gerçektir" olduğunu söyler. {cite:rihla-ibn-battuta-khayriyya-1904 p.354} {cite:rihla-ibn-battuta-khayriyya-1904 p.355}
+
+## Materyallerinden örnekler
+- **İskenderiye**: Minare, sawar'ın sütunu ve ok ve ip ile sütunun tepesine tırmanan bir koçun hilesi, İbn Juzay'ın bazı öğretmenlerinden anlattığı gibi. {cite:rihla-ibn-battuta-khayriyya-1904 p.20} {cite:rihla-ibn-battuta-khayriyya-1904 p.21}
+- **Delhi**: Sultan'ın evinin ve üç kapısının unvanı, Muhammed Şah'ın onuru ve yoğunluğu ile Delhi halkını Abad eyaletine tahliye etmesi. {cite:rihla-ibn-battuta-khayriyya-1904 p.355} {cite:rihla-ibn-battuta-khayriyya-1904 p.378} {cite:rihla-ibn-battuta-khayriyya-1904 p.385}
+- **Sudan Toprağı**: [[place/iwalatan|Sudan'ın ilk valiliği]], Mali Sultanı Mansi Süleyman [[person/mansa-sulayman|'ın başkenti ve]] bakır madeni [[place/takedda|Iwalaten]]. {cite:rihla-ibn-battuta-khayriyya-1904 p.547} {cite:rihla-ibn-battuta-khayriyya-1904 p.551} {cite:rihla-ibn-battuta-khayriyya-1904 p.564}
+
+## İbn Juzayy'nin Sonu ve Kitabın Teslim Oluşu
+İbn Cayey, ulaştığı şeyhinin Şeyh'i kaydederken özetlediği şey olduğunu, İbn Battuta'nın 'dönemin gezgini' olduğunu ve 'bu milletin yolcuları' diyenin çok uzaklaşmadığını, yirmi beş yıllık yolculuktan sonra Fes'i yerleşim yeri olarak seçtiğini sonucuna varır. {cite:rihla-ibn-battuta-khayriyya-1904 p.566} Birinci cildin sonunda, baskı editörü, İbn Battuta'nın Hindistan'ın mucizeleri ve halkın onu reddetme talebi hakkındaki hadisleri hakkında İbn Haldun'un girişindeki sözlerini alıntılar. [[question/credibility-of-ibn-battuta|İbn Battuta'nın raporlarına inanma meselesine]] bakınız. {cite:rihla-ibn-battuta-khayriyya-1904 p.313} {cite:rihla-ibn-battuta-khayriyya-1904 p.314}
+
+## Basılı baskı
+İlk baskı, Omar Hüseyin El-Khashab'a ait Kahire'deki Charity Press'te, iki sayfalık 1322 Hicri başlıklı iki cilt halinde okundu. 1323 Hicri Sefer'inde basıldı ve Abdel Jawad Khalaf tarafından düzeltildi. {cite:rihla-ibn-battuta-khayriyya-1904 p.11} {cite:rihla-ibn-battuta-khayriyya-1904 p.315} {cite:rihla-ibn-battuta-khayriyya-1904 p.567}

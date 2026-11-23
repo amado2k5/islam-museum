@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "1103"
-label: { ar: "صحيح البخاري 1103 — اليتيم وفقد الأب", en: "Sahih al-Bukhari 1103 — the orphan and the father lost", ur: "صحیح بخاری 1103 — یتیم اور باپ کی موت", es: "Sahih al-Bukhari 1103 — El huérfano y el padre perdido", fr: "Sahih al-Bukhari 1103 — L'orphelin et le père perdus" }
+label: { ar: "صحيح البخاري 1103 — اليتيم وفقد الأب", en: "Sahih al-Bukhari 1103 — the orphan and the father lost", ur: "صحیح بخاری 1103 — یتیم اور باپ کی موت", es: "Sahih al-Bukhari 1103 — El huérfano y el padre perdido", fr: "Sahih al-Bukhari 1103 — L'orphelin et le père perdus", tr: "Sahih el-Buhari 1103 — Yetim ve Babayı Kaybetme", id: "Sahih al-Bukhari 1103 — Anak Yatim dan Kehilangan Ayah" }
 text: "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ عَمْرٍو، عَنِ ابْنِ أَبِي لَيْلَى، قَالَ مَا أَنْبَأَ أَحَدٌ، أَنَّهُ رَأَى النَّبِيَّ صَلَّى الضُّحَى غَيْرُ أُمِّ هَانِئٍ ذَكَرَتْ أَنَّ النَّبِيَّ يَوْمَ فَتْحِ مَكَّةَ اغْتَسَلَ فِي بَيْتِهَا، فَصَلَّى ثَمَانِ رَكَعَاتٍ، فَمَا رَأَيْتُهُ صَلَّى صَلاَةً أَخَفَّ مِنْهَا، غَيْرَ أَنَّهُ يُتِمُّ الرُّكُوعَ وَالسُّجُودَ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 1103، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 1103، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 1103 (Abreviación de las oraciones (At-Taqseer)), menciona al huérfano y al padre fallecido. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre la figura paterna."
   fr: "Un hadith du Sahih al-Bukhari, n° 1103 (Réduire la durée des prières (At-Taqsir)), mentionne l'orphelin et le père disparu. Le site « Paternité en Islam » répertorie ce hadith avec les versets du Coran, la Sunna, la Sîra et les ouvrages traitant de la figure paternelle."
+  tr: "Sahih el-Buhari'nin 1103 numaralı hadisinde yetimlerden ve babasızlık durumundan bahsedilir. \"İslam'da Babalık\" bölümü, bu hadisi Kur'an, Sünnet, Peygamberin biyografisi ve bu konuyla ilgili diğer kitaplardan alıntılarla birlikte derlemektedir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 1103, menyebutkan tentang anak yatim dan kehilangan seorang ayah. Bagian \"Kebapakan dalam Islam\" mengumpulkan hadits ini bersama dengan teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/yatim-fiqh, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1103 (book 18 hadith 23); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

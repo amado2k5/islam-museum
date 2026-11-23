@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "4837"
-label: { ar: "صحيح مسلم — حديث 4837", en: "Sahih Muslim 4837 — The Book on Government", ur: "صحیح مسلم — حدیث 4837", es: "Sahih Muslim 4837 — El libro sobre el gobierno", fr: "Sahih Muslim 4837 — Le Livre du Gouvernement" }
+label: { ar: "صحيح مسلم — حديث 4837", en: "Sahih Muslim 4837 — The Book on Government", ur: "صحیح مسلم — حدیث 4837", es: "Sahih Muslim 4837 — El libro sobre el gobierno", fr: "Sahih Muslim 4837 — Le Livre du Gouvernement", tr: "Sahih Müslim — Hadis 4837", id: "Sahih Muslim — Hadits 4837" }
 text: "نَافِعٌ فَقَدِمْتُ عَلَى عُمَرَ بْنِ عَبْدِ الْعَزِيزِ وَهُوَ يَوْمَئِذٍ خَلِيفَةٌ فَحَدَّثْتُهُ هَذَا الْحَدِيثَ فَقَالَ إِنَّ هَذَا لَحَدٌّ بَيْنَ الصَّغِيرِ وَالْكَبِيرِ ‏.‏ فَكَتَبَ إِلَى عُمَّالِهِ أَنْ يَفْرِضُوا لِمَنْ كَانَ ابْنَ خَمْسَ عَشْرَةَ سَنَةً وَمَنْ كَانَ دُونَ ذَلِكَ فَاجْعَلُوهُ فِي الْعِيَالِ ‏.‏"
 summary:
   ar: "في صحيح مسلم؛ إرسال كتاب أو رسالة إلى طرف."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم میں؛ کسی فریق کو خط یا پیغام بھیجنا."
   es: "En Sahih Muslim; enviar una carta o mensaje a un partido."
   fr: "Dans Sahih Muslim; l'envoi d'une lettre ou d'un message à une personne."
+  tr: "Sahih Müslim'de; bir tarafa kitap veya mektup göndermek."
+  id: "Dalam Sahih Muslim; mengirim buku atau surat kepada suatu pihak."
 relations:
   - { type: part_of, target: passage/muslim-kitab-33 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }

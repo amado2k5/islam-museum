@@ -1,0 +1,11 @@
+---
+id: place/c-rdoba
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/place/c-rdoba.md}
+---
+## Dalam kamus negara Yaqut
+Yaqut mengoreksi nama itu dengan damma pada qaf, sukun pada ra, dan damma pada taa. Ia percaya kata itu adalah bahasa asing Romawi, dan ia menyebutkan bahwa kata itu memiliki tempat dalam bahasa Arab, seperti yang mungkin berasal dari Cordoba, yang merupakan musuh sengit. Ia mengutip Al-Asma'i yang mengatakan 'qardaba'. {cite:mujam-al-buldan-sader-1995 4 p.324} Ia menggambarkannya sebagai kota besar di al-Andalus di tengah tanahnya, yang merupakan takhta kerajaan dan kasbahnya, tempat para raja Umayyah tinggal. Kota ini adalah sumber orang berbudi luhur dan sumber kebangsawanan di iklim dingin itu, dan jaraknya lima hari dari laut. {cite:mujam-al-buldan-sader-1995 4 p.324}
+
+Dilaporkan dari Ibn Hawqal, yang menaklukkan tanah itu sekitar tahun 350 H, bahwa kota ini adalah kota terbesar di al-Andalus, tak tertandingi di Maroko dalam hal populasi besar dan luas wilayahnya, diperkuat oleh tembok batu, dengan perumahan umum di sekitarnya, dan orang-orang kaya. {cite:mujam-al-buldan-sader-1995 4 p.324} Kemudian Yaqut mengatakan bahwa statusnya tetap demikian hingga sekitar tahun 440 H. Ketika era Umayyah dan Ibn Abi Amir berakhir, para pemenang muncul, dan pengaruh Banu Abbad semakin kuat, setiap pangeran merebut sebuah wilayah, meninggalkan Cordoba tanpa sultan untuk kembali. Sevilla dibangun dan menjadi kediaman raja al-Andalus, dan Cordoba dihancurkan dan menjadi seperti salah satu kota tengah. {cite:mujam-al-buldan-sader-1995 4 p.324} Disebutkan bahwa para penyair memujinya, dan ia mengutip ayat-ayat tentang kerinduannya oleh Hakim Muhammad ibn Abi Isa al-Laythi. {cite:mujam-al-buldan-sader-1995 4 p.324} Banyak ulama dikaitkan dengan karya ini, termasuk Abu Bakr Yahya ibn Sa'dun al-Azdi al-Qurtubi, tokoh sastra, pembaca, dan ahli tata bahasa, yang menetap di Mosul, mengajar rakyatnya, dan meninggal di sana pada tahun 567 H. {cite:mujam-al-buldan-sader-1995 4 p.324}

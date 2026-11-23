@@ -1,49 +1,145 @@
 surah: 21
 slug: al-anbiya
 sources_consulted:
-  - "kuttab.com — Surah Al-Anbiya mind map (5 blocks: 1-29, 30-50, 51-73, 74-91, 92-112)"
-  - "Standard thematic divisions (cross-checked)"
+- 'kuttab.com — Surah Al-Anbiya mind map (5 blocks: 1-29, 30-50, 51-73, 74-91, 92-112)'
+- Standard thematic divisions (cross-checked)
 map:
-  - title: { ar: "اقتراب الحساب", en: "The Reckoning Draws Near" }
-    range: [1, 29]
-    family: faith
-    summary:
-      ar: "الناس في غفلة والحساب يقترب، واتهامات المشركين للوحي، وملائكة لا يسبقونه بالقول."
-      en: "People heedless as reckoning nears; the polytheists' charges against revelation; angels who never precede Him in speech."
-    children: []
-  - title: { ar: "آيات الخلق", en: "The Signs of Creation" }
-    range: [30, 50]
-    family: faith
-    summary:
-      ar: "السماوات والأرض كانتا رتقا ففُتقنا، وكل شيء حي من الماء، والجبال والأفلاك، وكل نفس ذائقة الموت."
-      en: "Heavens and earth once joined then parted; every living thing from water; mountains, orbits; every soul tastes death."
-    children:
-      - { title: { ar: "كل شيء من الماء", en: "All Life from Water" }, range: [30, 30] }
-      - { title: { ar: "كل نفس ذائقة الموت", en: "Every Soul Tastes Death" }, range: [35, 35] }
-  - title: { ar: "إبراهيم والأصنام", en: "Abraham and the Idols" }
-    range: [51, 73]
-    family: stories
-    summary:
-      ar: "تحطيم إبراهيم للأصنام وإبقاؤه كبيرها، ومساءلتهم لأنفسهم، والنار بردا وسلاما عليه."
-      en: "Abraham smashing the idols, sparing the largest; their self-questioning; the fire made coolness and safety."
-    children:
-      - { title: { ar: "تحطيم الأصنام", en: "Smashing the Idols" }, range: [57, 63] }
-      - { title: { ar: "النار بردا وسلاما", en: "Fire: Coolness and Safety" }, range: [69, 69] }
-  - title: { ar: "مواكب الأنبياء", en: "The Procession of Prophets" }
-    range: [74, 91]
-    family: stories
-    summary:
-      ar: "لوط ونوح وداود وسليمان وأيوب وإسماعيل وذو النون وزكريا ومريم: كلٌّ أُجيب دعاؤه ونُجّي."
-      en: "Lot, Noah, David, Solomon, Job, Ishmael, Dhun-Nun, Zachariah, Mary — each answered and delivered."
-    children:
-      - { title: { ar: "أيوب", en: "Job" }, range: [83, 84] }
-      - { title: { ar: "ذو النون", en: "Dhun-Nun" }, range: [87, 88] }
-      - { title: { ar: "زكريا", en: "Zachariah" }, range: [89, 90] }
-  - title: { ar: "أمة واحدة", en: "One Nation" }
-    range: [92, 112]
-    family: faith
-    summary:
-      ar: "إن هذه أمتكم أمة واحدة، وخروج يأجوج ومأجوج، وطي السماء، ووراثة الأرض للصالحين."
-      en: "This nation of yours is one nation; Gog and Magog released; the sky rolled up; the righteous inherit the earth."
-    children:
-      - { title: { ar: "يأجوج ومأجوج", en: "Gog and Magog" }, range: [96, 97] }
+- title:
+    ar: اقتراب الحساب
+    en: The Reckoning Draws Near
+    tr: Hesaba yaklaşmak
+    id: Mendekati akun
+  range:
+  - 1
+  - 29
+  family: faith
+  summary:
+    ar: الناس في غفلة والحساب يقترب، واتهامات المشركين للوحي، وملائكة لا يسبقونه بالقول.
+    en: People heedless as reckoning nears; the polytheists' charges against revelation; angels who never precede Him in speech.
+    tr: İnsanlar hesaplaşma yaklaşırken dikkatsizdir, çürkperestler vahiyle suçlanır ve melekler konuşmada O'ndan önce gelmezler.
+    id: Orang-orang tidak peduli saat perhitungan mendekat, dan para politeis menuduh wahyu, dan malaikat tidak mendahului-Nya dalam ucapan.
+  children: []
+- title:
+    ar: آيات الخلق
+    en: The Signs of Creation
+    tr: Yaratılış Dizeleri
+    id: Ayat-ayat Penciptaan
+  range:
+  - 30
+  - 50
+  family: faith
+  summary:
+    ar: السماوات والأرض كانتا رتقا ففُتقنا، وكل شيء حي من الماء، والجبال والأفلاك، وكل نفس ذائقة الموت.
+    en: Heavens and earth once joined then parted; every living thing from water; mountains, orbits; every soul tastes death.
+    tr: Gökyüzü ve yer birleşmiş, bölünmüştü, su, dağlar ve göklerden yaşayan her şey ve her ruh ölümü tattı.
+    id: Langit dan bumi bersatu dan terbelah, dan segala sesuatu yang hidup dari air, gunung, dan langit, dan setiap jiwa merasakan kematian.
+  children:
+  - title:
+      ar: كل شيء من الماء
+      en: All Life from Water
+      tr: Sudan her şey
+      id: Segala sesuatu mulai dari air
+    range:
+    - 30
+    - 30
+  - title:
+      ar: كل نفس ذائقة الموت
+      en: Every Soul Tastes Death
+      tr: Her ruh ölümü tadar
+      id: Setiap jiwa merasakan kematian
+    range:
+    - 35
+    - 35
+- title:
+    ar: إبراهيم والأصنام
+    en: Abraham and the Idols
+    tr: İbrahim ve Putlar
+    id: Abraham dan para berhala
+  range:
+  - 51
+  - 73
+  family: stories
+  summary:
+    ar: تحطيم إبراهيم للأصنام وإبقاؤه كبيرها، ومساءلتهم لأنفسهم، والنار بردا وسلاما عليه.
+    en: Abraham smashing the idols, sparing the largest; their self-questioning; the fire made coolness and safety.
+    tr: İbrahim'in putları yok etmesi, onları en büyükleri olarak tutması, kendilerine hesap vermesi ve ateşi onun için serinlik ve huzur olarak görmesi.
+    id: Penghancuran berhala oleh Abraham dan menjaga mereka sebagai yang terbesar, menuntut pertanggungjawaban mereka pada diri sendiri, dan api sebagai kesejukan dan kedamaian bagi-Nya.
+  children:
+  - title:
+      ar: تحطيم الأصنام
+      en: Smashing the Idols
+      tr: İdolü kırmak
+      id: Memecahkan patung
+    range:
+    - 57
+    - 63
+  - title:
+      ar: النار بردا وسلاما
+      en: 'Fire: Coolness and Safety'
+      tr: Ateş soğuk ve huzurlu
+      id: Api itu dingin dan damai
+    range:
+    - 69
+    - 69
+- title:
+    ar: مواكب الأنبياء
+    en: The Procession of Prophets
+    tr: Peygamberlerin Alayları
+    id: Prosesi Para Nabi
+  range:
+  - 74
+  - 91
+  family: stories
+  summary:
+    ar: 'لوط ونوح وداود وسليمان وأيوب وإسماعيل وذو النون وزكريا ومريم: كلٌّ أُجيب دعاؤه ونُجّي.'
+    en: Lot, Noah, David, Solomon, Job, Ishmael, Dhun-Nun, Zachariah, Mary — each answered and delivered.
+    tr: 'Lut, Nuh, Davut, Süleyman, Eyüp, İsmail, Dhu al-Nun, Zekeriya ve Meryem: her biri duasını kabul edecek ve kurtulacak.'
+    id: 'Lot, Nuh, Daud, Salomo, Ayub, Ismael, Dhu al-Nun, Zakharia, dan Maria: masing-masing akan dijawab doanya dan akan diselamatkan.'
+  children:
+  - title:
+      ar: أيوب
+      en: Job
+      tr: Eeb
+      id: Ayoub
+    range:
+    - 83
+    - 84
+  - title:
+      ar: ذو النون
+      en: Dhun-Nun
+      tr: Dhu al-Nun
+      id: Dhu al-Nun
+    range:
+    - 87
+    - 88
+  - title:
+      ar: زكريا
+      en: Zachariah
+      tr: Zakaria
+      id: Zakaria
+    range:
+    - 89
+    - 90
+- title:
+    ar: أمة واحدة
+    en: One Nation
+    tr: Tek Ulus
+    id: Satu Bangsa
+  range:
+  - 92
+  - 112
+  family: faith
+  summary:
+    ar: إن هذه أمتكم أمة واحدة، وخروج يأجوج ومأجوج، وطي السماء، ووراثة الأرض للصالحين.
+    en: This nation of yours is one nation; Gog and Magog released; the sky rolled up; the righteous inherit the earth.
+    tr: Gerçekten de, bu ulusun tek bir ulustur; Gog ve Magog'un dirilişi, göklerin katlanması ve yeryüzünün doğrulara mirası.
+    id: Memang, bangsamu ini adalah satu bangsa, kebangkitan Gog dan Magog, pelipatan langit, dan warisan bumi bagi orang benar.
+  children:
+  - title:
+      ar: يأجوج ومأجوج
+      en: Gog and Magog
+      tr: Gog ve Magog
+      id: Gog dan Magog
+    range:
+    - 96
+    - 97

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "38"
-label: { ar: "سنن النسائي 38 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 38 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 38 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sunan al-Nasa'i 38 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sunan al-Nasa'i 38 — mentions de nations, de religions et de peuples non musulmans" }
+label: { ar: "سنن النسائي 38 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 38 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 38 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sunan al-Nasa'i 38 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sunan al-Nasa'i 38 — mentions de nations, de religions et de peuples non musulmans", tr: "Sunan an-Nasa'i 38 — Gayrimüslim milletlerin, dinlerin ve halkların anılması", id: "Sunan an-Nasa'i 38 — Penyebutan bangsa, agama, dan masyarakat non-Muslim" }
 text: "أَخْبَرَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا مُعَاذُ بْنُ مُعَاذٍ، قَالَ أَنْبَأَنَا سَعِيدٌ، عَنْ قَتَادَةَ، عَنِ الْحَسَنِ، عَنْ حُضَيْنٍ أَبِي سَاسَانَ، عَنِ الْمُهَاجِرِ بْنِ قُنْفُذٍ، أَنَّهُ سَلَّمَ عَلَى النَّبِيِّ وَهُوَ يَبُولُ فَلَمْ يَرُدَّ حَتَّى تَوَضَّأَ فَلَمَّا تَوَضَّأَ رَدَّ عَلَيْهِ."
 summary:
   ar: "حديث في سنن النسائي، رقم 38، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 38، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato del Sunan al-Nasa'i, n.º 38 (El Libro de la Purificación), con menciones a naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
   fr: "Un rapport du Sunan al-Nasa'i, n° 38 (Le Livre de la Purification), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages relatifs aux nations, religions, sectes et peuples non musulmans."
+  tr: "Sunan-ı Nesai'nin 38. hadisinde gayrimüslim milletler, dinler ve halklardan bahsedilmektedir. Bu hadis, gayrimüslim milletler, dinler, mezhepler ve halklar konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, nomor 38, menyebutkan bangsa-bangsa, agama-agama, dan kaum-kaum non-Muslim. Hadits ini disusun oleh seorang peneliti yang ahli dalam bangsa-bangsa, agama-agama, sekte-sekte, dan kaum-kaum non-Muslim, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: group/al-sasan, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 38 (book 1 hadith 38); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

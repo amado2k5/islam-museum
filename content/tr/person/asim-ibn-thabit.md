@@ -1,0 +1,14 @@
+---
+id: person/asim-ibn-thabit
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/asim-ibn-thabit.md}
+---
+Asim ibn Thabit ibn Abi al-Aqlah al-Ansari al-Awsi, Badr ve Uhud'a tanıklık eden soylu bir yoldaş ve bir Badr şövalyesiydi, Ensar'ın ünlü okçularından biriydi. {cite:mubarakpuri-raheeq}
+
+Peygamber, onu Hicra'nın dördüncü yılında Sefer'deki Rajee' birliğinin valisi olarak atadı. Hudhail onları Rajee'nin suyunda sattığında ve onlara güvenlik sunduklarında, şöyle dedi: "Ben ise bir kâfirin sorumluluğuna girmeyeceğim. Ey Allah, Peygamberine bizden bahset." Şehit olana kadar savaştı; Rabbine hayatında hiçbir çok müşriklərine ya da hiçbir putpereste zarar vermeyeceğine yemin etmişti. Kureyş, başını kesip Sulafah bint Sa'd'a satmak istediğinde, Allah onu aralarında duran büyük bir eşek arısı sürüsüyle korudu. Sonra Allah, vadiye bir sel gönderdi, onu taşıdı ve "Hami al-Dabr" olarak anılmaya başladı. {cite:sahih-al-bukhari}
+
+## Paşa'nın "Sahabelerin Hayatlarından Resimler" adlı eserinde
+[[person/abd-al-rahman-rafat-al-basha|Abdulrahman Raafat al-Paşa]], Peygamber'e atfedilen bir söz ile suretini verir: "Kim savaşırsa, Asim ibn Thabit gibi savaşsın." {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.377} Sulafah bint Sa'd'ın, Uhud Günü'nde kocası Talha ve üç oğlu Musaf, al-Celas ve Kalab ile birlikte Kureyşle birlikte çıktığı rivayet edilir. Savaştan sonra iki oğlunu ölü buldu, üçüncüsü ise kendi hayatını feda etti. Oğlu ona, Asim ibn Thabit'in kendisini ve kardeşini vurduğunu söyledi, bu yüzden Asim'in kafasına alkol içmeyeceğine yemin etti ve başıyla gelenlere ödül verdi. {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.377} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.378} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.379} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.380} Müslümanların Uhud'dan sonra Asim yargılanmasını tartıştıkları ve onlardan birinin onları Badr öncesi Peygamber olarak nasıl savaştıklarını tarif ettiği belirtilir: önce yüz arşin okla, sonra mızraklarla delinene kadar, sonra kılıçla. {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.380} Sonra [[event/incident-of-al-raji|Al-Raji'nin haberi anlatır]]: Hudhaylılar Asim ve yoldaşlarını kuşattı ve onlara güvenlik sundular. Asim dedi ki: Ben ise bir putpereste boyun eğmeyeceğim. Tanrı'ya etini ve kemiklerini koruması için dua etti ve öldürülene kadar savaştı. Hudhayl başını Kureyş'e satmak istediğinde, arı ve eşek arısı sürüleri onu engelledi. Geceyi beklediler, bir sel geldi ve cesedi geldi, ancak iz bulunamadı. {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.381} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.382} {cite:suwar-min-hayat-al-sahaba-nafais-1992 p.383}
+

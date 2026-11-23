@@ -1,0 +1,21 @@
+---
+id: person/muadha-al-adawiyya
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/muadha-al-adawiyya.md}
+---
+## Ringkasan
+Muadha bint Abdullah al-'Adawiya, yang dikenal sebagai um al-Sahba, seorang pemuja dari Banu 'Adi di antara masyarakat [[place/basra|Basra, dibuka dengan lagu ini oleh]] Ibn al-Jawzi "Penyebutan Orang Terpilih di antara para penyembah Basra" dalam [[work/sifat-al-safwa|deskripsi kaum elit]] (biografi 584). {cite:sifat-al-safwa-tartusi-2012 p.704} Dia bertemu [[person/aisha|Aisha]] dan menceritakan darinya, dan [[person/al-hasan-al-basri|al-Hasan al-Basri]], [[person/abu-qilaba-abd-allah-ibn-zayd|Abu Qilabah]], dan Yazid al-Rishk menceritakan darinya. {cite:sifat-al-safwa-tartusi-2012 p.706}
+
+## Yang Mulia
+Diceritakan dari Muhammad ibn Fudayl dari ayahnya bahwa ketika siang tiba, dia berkata: Ini adalah hari saya ketika saya mati, jadi jangan tidur sampai malam. Ketika malam tiba, dia berkata: Ini adalah malam di mana saya akan mati, jadi jangan tidur sampai pagi. Ketika dingin datang, dia mengenakan pakaian tipis agar dingin menghalanginya untuk tidur. {cite:sifat-al-safwa-tartusi-2012 p.704} {cite:sifat-al-safwa-tartusi-2012 p.705} Menurut seorang hambanya, dia biasa menghabiskan malam berdoa, dan ketika tidur menguasainya, dia akan berkeliling rumah dan berkata pada dirinya sendiri bahwa tidurnya di kubur akan lebih lama. Asiya bint Amr al-Adawiyah melaporkan bahwa dia biasa berdoa enam ratus rak'ah siang dan malam, dan dia berkata: "Saya takjub pada mata yang bisa tidur ketika dia tahu betapa lama tidur di dalam gelapnya kubur." {cite:sifat-al-safwa-tartusi-2012 p.705} Abu al-Suwar al-Adawi mengatakan bahwa Banu Adi adalah yang paling rajin di antara rakyat Basra: Abu al-Sahba tidak tidur malam maupun berbuka puasa di siang hari, dan istrinya Mu'adh tidak mengangkat kepalanya ke langit selama empat puluh tahun. {cite:sifat-al-safwa-tartusi-2012 p.705}
+
+## Hari ketika suami dan putranya dibunuh
+Suaminya [[person/sila-ibn-ashyam|adalah Sila ibn]] Ashima, Abu al-Sahba. Ibn al-Jawzi menceritakan dari Thabit al-Banani bahwa Silah berada di Maghzi bersama putranya, jadi ia datang dan bertempur sampai terbunuh, lalu ia maju dan dibunuh; para wanita berkumpul di tempat Muadha dan berkata: Jika kalian datang untuk memberi selamat kepada saya, selamat datang, dan jika kalian datang untuk alasan lain, maka kembalilah. {cite:sifat-al-safwa-tartusi-2012 p.705} Al-Baladhuri menyebutkan dalam 'Futuh al-Buldan' bahwa Silah menjadi martir bersama Yazid ibn Ziyad dalam sebuah pertempuran di Kabul. {cite:futuh-buldan-maarif-1407} Al-Hasan menceritakan bahwa ia tidak berbaring di tempat tidur setelah Abu al-Sahba sampai ia meninggal, dan dari um al-Aswad bint Zayd al-Adawiya—yang dirawat Mu'adh—mengatakan ia tidak suka tinggal di dunia ini demi kesenangan hidup, melainkan untuk mendekatkan diri kepada Tuhannya, berharap Ia akan menyatukannya dengan Abu al-Sahba dan putranya di Surga. {cite:sifat-al-safwa-tartusi-2012 p.705}
+
+## Kehendak dan Kematiannya
+Seorang wanita yang menyusui menasihatinya untuk bertemu Tuhan dengan hati-hati dan harapan, lalu dia menangis hingga dipenuhi air mata. {cite:sifat-al-safwa-tartusi-2012 p.705} Diceritakan tentang Afirah al-'Abida bahwa dia menangis karena kematian lalu tertawa. Ketika ditanya, dia berkata dia menangis untuk berpisah dari puasa, doa, dan mengenang, dan tertawa karena melihat Abu al-Sahba mendekati halaman rumah dengan mengenakan dua pakaian hijau, dan dia tidak menyangka akan menangkapnya sebagai kewajiban; dia meninggal sebelum waktu salat dimulai. {cite:sifat-al-safwa-tartusi-2012 p.705} Editor dalam biografinya merujuk pada 'Al-Muntazam' karya Ibn al-Jawzi pada tahun 83 H, dan Tabaqat Ibn Sa'd, Al-Kashif, dan Tahdhib al-Tahdhib. {cite:sifat-al-safwa-tartusi-2012 p.704}
+
+## Untuk pengunjung muda
+Muadha, seorang wanita dari Basra, biasa menghabiskan malam dengan shalat, dan ketika suami serta putranya gugur dalam jihad, dia sabar dan mengatakan bahwa dia mencintai hidup untuk lebih menyembah Tuhan.

@@ -1,0 +1,18 @@
+---
+id: polity/muhammad-ali-dynasty
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/polity/muhammad-ali-dynasty.md}
+---
+## Ringkasan
+Artikel 'Muhammad Ali Pasha' dalam Ensiklopedia Islam menyatakan bahwa Muhammad Ali lahir pada akhir tahun 1860-an, dan tanggal pastinya masih diperdebatkan, di pelabuhan Qula si Makedonia; ayahnya adalah tentara Ottoman keturunan Albania yang memimpin tentara lokal tidak teratur dan berdagang tembakau. {cite:encyclopaedia-of-islam-2 vol. 7 p. 475} Ia melakukan perjalanan ke Mesir pada tahun 1801 sebagai wakil komandan divisi yang direkrut di Qula untuk bergabung dengan pasukan Ottoman dalam melawan Prancis. Artikel tersebut menceritakan bagaimana ia menyatakan gubernur Mesir bersekongkol dengan tokoh-tokoh penting Kairo, dan bagaimana Sublime Porte dengan enggan menyetujui pengangkatannya ketika menyadari kekuatan posisinya, pada tahun 1805. {cite:encyclopaedia-of-islam-2 vol. 7 p. 475}
+
+## Konsolidasi tata kelola
+Antara tahun 1805 dan 1811, ia mencari dominasi dengan menyingkirkan mereka yang menantang otoritasnya, terutama pakwat Mamluk; pada Maret 1811, ia mengkhianati para pemimpin mereka dalam sebuah upacara di benteng, yang menurut artikel menandai berakhirnya kekuasaan Mamluk di Mesir, meskipun beberapa dari mereka bergabung dengan elit Ottoman Mesir. {cite:encyclopaedia-of-islam-2 vol. 7 p. 476} Era berikutnya digambarkan memiliki fase-fase, termasuk membangun kekuatan darat dan laut, basis administratif dan ekonomi, serta mengirim putra-putranya dalam kampanye ke Hijaz, Sudan, Kreta, dan Al-Mura. {cite:encyclopaedia-of-islam-2 vol. 7 p. 476}
+
+## pemerintahan turun-temurun
+Setelah kekalahan Ottoman di Nisibis, Sultan Abdul Majid menawarkan Muhammad Ali pemerintahan turun-temurun di Mesir, tetapi ia menuntut hal yang sama di Levant dan Adana; pada Juli 1840, Inggris, Austria, Prusia, dan Rusia menandatangani Perjanjian London, menawarkan pemerintahan turun-temurun di Mesir dan provinsi Acre seumur hidup sebagai imbalan penarikan diri dari Levant. Sebuah dekret kerajaan mengonfirmasi ia pada Juni 1841 sebagai gubernur warisan Mesir, dengan tentaranya didefinisikan dan undang-undang Ottoman diterapkan. {cite:encyclopaedia-of-islam-2 vol. 7 p. 480} Pada tahun 1847, ia menderita ketidakmampuan mental, sehingga putranya Ibrahim mengambil alih urusan pemerintahan, mengambil alih jabatan gubernur pada Juli 1848, dan meninggal beberapa bulan kemudian. {cite:encyclopaedia-of-islam-2 vol. 7 p. 481} Ia digantikan oleh Abbas Pasha, 1848-1854, yang menurut artikel tersebut mendirikan pemerintahan turun-temurun keluarga Muhammad Ali di Mesir setelah konfrontasi dengan Sublime Porte; kemudian Saeed datang pada 1854-1863, diikuti oleh Ismail. {cite:encyclopaedia-of-islam-2 vol. 7 p. 480} {cite:encyclopaedia-of-islam-2 vol. 7 p. 482} Muhammad Ali meninggal di Alexandria pada 2 Agustus 1849, dan dimakamkan di Masjid Benteng, yang telah dimulai dan diselesaikan oleh Abbas. {cite:encyclopaedia-of-islam-2 vol. 7 p. 482}
+
+## Dalam katalog Nomisma
+Keluarga ini didefinisikan di Numisma dengan pengenal "muhammad_ali_dynasty," dan setelah penyelidikan pada 14 November 2026, tujuh daftar keanggotaan terhubung melalui hubungan organisasi, dan tidak ada mata uang atau jenis mata uang yang terdaftar atas namanya oleh penerbit atau otoritas. {cite:nomisma muhammad_ali_dynasty}

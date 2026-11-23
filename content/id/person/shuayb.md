@@ -1,0 +1,18 @@
+---
+id: person/shuayb
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/shuayb.md}
+---
+## Ringkasan
+Shu'ayb adalah Shu'ayb ibn Nu'il ibn Ra'wil ibn Murr ibn Anqa ibn Midian ibn Ibrahim, nabi Midian yang menikahkan Musa dengan putrinya, seperti yang disebutkan Al-Mas'udi. Ia memanggil kaumnya dan mereka menolaknya, menjanjikan hukuman Hari Bayangan di kerajaan Kalman, dan ia berpihak pada mereka yang percaya bersamanya ke sarang, yang merupakan lembah besar dekat Midian. Ketika panas memuncak terhadap para penyangkal, mereka mencarinya dan mengusirnya dari tempat mereka, sehingga Tuhan menjadikan awan bayangan di atas mereka sebagai api. {cite:muruj-al-dhahab p.459}
+
+## Perbedaan dari Shu'ayb ibn Mahdam
+Al-Mas'udi membedakan dirinya dari [[person/shuayb-ibn-mihdam|Shu'ayb ibn Mahdam]], seorang nabi, dan menempatkan ratusan tahun di antara mereka. Ia mengatakan bahwa antara Musa dan Mesias, seribu nabi hadir. {cite:muruj-al-dhahab p.464}
+
+## Catatan untuk Peneliti
+- Semua berita dikaitkan dengan Al-Masoudi; sumber tambahan diperlukan.
+
+## Dalam program Al-Shaarawi "Pertemuan Iman"
+Dalam episode kedelapan '[[work/likaa-al-iman|Meeting Faith']], pembawa acara mengatakan bahwa surat Shu'ayb mendorong keadilan sosial dan pemenuhan langkah. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:00:30} [[person/muhammad-mutawalli-al-shaarawi|Al-Shaarawi mengatakan]] bahwa ia adalah yang pertama mengambil dari kisah Shu'ayb 'keturunan wanita,' karena Tuhan tidak menceritakan kisah untuk menghibur tetapi untuk mengetahui. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:01:00} Ia melihat bahwa dua wanita di tepi air [[place/madyan|Midian]], bahwa mereka tidak diberi air sampai para gembala pergi, dan bahwa ayah mereka sudah tua, menanggung seluruh masalah: sang ayah tumbuh karena mereka tidak memiliki pencari nafkah, dan menunggu para gembala pergi adalah bukti bahwa keluar karena kebutuhan adalah sebatas itu. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:01:30} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:02:00} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:02:30} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:03:00} Ia percaya bahwa posisi komunitas iman adalah membantu wanita yang pergi mencari kebutuhan, sama seperti Musa memberikan air kepada mereka. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:03:00} Ia menceritakan bahwa ketika ia mengunjungi Mekah pada tahun 1950, biasanya ia melihat rumah tanpa pria meletakkan papan adonan di depan pintunya, dan setiap pria yang lewat akan mengambilnya, memanggangnya, lalu mengembalikannya tanpa membuka pintu, melihat ini sebagai bentuk penyiraman bagi mereka. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:03:00} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:04:00} Kemudian ia mengatakan bahwa permintaan putri itu kepada ayahnya untuk mempekerjakan Musa adalah permintaan untuk mengakhiri kebutuhan untuk pergi. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:04:30} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:05:00} Ia mendefinisikan kebutuhan sebagai kebutuhan yang jika tidak dilakukan, akan kelaparan. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep08 00:05:00}

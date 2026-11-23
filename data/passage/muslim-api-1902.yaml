@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1902"
-label: { ar: "صحيح مسلم 1902 — الحلال، الحرام", en: "Sahih Muslim 1902 — the lawful; the unlawful", ur: "صحیح مسلم 1902 — حلال، حرام", es: "Sahih Muslim 1902 — lo lícito; lo ilícito", fr: "Sahih Muslim 1902 — le licite; l'illicite" }
+label: { ar: "صحيح مسلم 1902 — الحلال، الحرام", en: "Sahih Muslim 1902 — the lawful; the unlawful", ur: "صحیح مسلم 1902 — حلال، حرام", es: "Sahih Muslim 1902 — lo lícito; lo ilícito", fr: "Sahih Muslim 1902 — le licite; l'illicite", tr: "Sahih Muslim 1902 — Helal, Haram", id: "Sahih Muslim 1902 — Halal, Haram" }
 text: "… حَدَّثَنِي عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ، أَنَّ ابْنَ عَبَّاسٍ، حَدَّثَهُ أَنَّ رَسُولَ اللَّهِ قَالَ \" أَقْرَأَنِي جِبْرِيلُ - - عَلَى حَرْفٍ فَرَاجَعْتُهُ فَلَمْ أَزَلْ أَسْتَزِيدُهُ فَيَزِيدُنِي حَتَّى انْتَهَى إِلَى سَبْعَةِ أَحْرُفٍ \". قَالَ ابْنُ شِهَابٍ بَلَغَنِي أَنَّ تِلْكَ السَّبْعَةَ الأَحْرُفَ إِنَّمَا هِيَ فِي الأَمْرِ الَّذِي يَكُونُ وَاحِدًا لاَ يَخْتَلِفُ فِي حَلاَلٍ وَلاَ حَرَامٍ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 1902، يذكر الحلال، والحرام. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 1902، جس میں حلال، حرام کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
   es: "Un informe del Sahih Muslim, n.º 1902 (El Libro de la Oración - Viajeros), menciona lo lícito y lo ilícito. El Navegador Halal y Haram lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los relatos de los Compañeros y Sucesores sobre lo que es lícito e ilícito."
   fr: "Un hadith du Sahih Muslim n° 1902 (Le Livre de la prière – Guide du voyageur) mentionne ce qui est licite et ce qui est illicite. Le Halal and Haram Browser le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les hadiths des Compagnons et des Successeurs concernant ce qui est licite et ce qui est illicite."
+  tr: "Sahih Müslim'de 1902 numaralı hadis, helal ve haram olanı belirtmektedir. \"Helal ve Haram\" adlı kitabın bu bölümü, helal ve haram olanla ilgili olarak Kur'an, Sünnet, Peygamberimizin hayatı ve Sahabeler ile onların haleflerinin sözlerinden derlenmiştir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 1902, menyebutkan apa yang diperbolehkan dan apa yang diharamkan. Bagian buku \"Halal dan Haram\" ini menyusunnya dengan teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan ucapan para Sahabat dan Penerus mereka mengenai apa yang diperbolehkan dan apa yang diharamkan."
 relations:
   - { type: part_of, target: passage/muslim-kitab-06 }
   - { type: mentions, target: concept/halal-haram, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }

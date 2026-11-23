@@ -1,0 +1,12 @@
+---
+id: concept/al-hawal
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/al-hawal.md}
+---
+## Penyebab
+Strabismus mungkin disebabkan oleh relaksasi beberapa otot yang menggerakkan bola mata, miring dari sisi itu ke sisi berlawanan, atau mungkin disebabkan oleh kejang beberapa otot yang menyebabkan bola mata miring ke sisi tersebut; dan bisa juga disebabkan oleh kelembapan atau rentan kekeringan, seperti pada penyakit akut. Penyebab kejang otot adalah kejang otak seperti epilepsi atau kejang otot di bawahnya, sehingga tidak ada lesi yang muncul tetapi sangat bermanfaat. Strabismus sering terpapar setelah gangguan otak seperti Qaranitis, Sidr, dan sejenisnya, terhadap rasa terbakar, kekeringan, atau penuh juga. Ketahuilah bahwa hilangnya mata ke atas dan ke bawah adalah yang menyebabkan sesuatu melihat, dan sisi tidak menyebabkan kerusakan penglihatan yang signifikan {cite:canon-ibn-sina-print-v2 p.189}.
+
+## Pemrosesan
+Adapun bayi baru lahir, tidak sembuh, kecuali pada masa kecil yang sangat basah. Mungkin diharapkan sembuh, terutama jika terjadi secara tidak sengaja. Demikian pula, buaian harus diratakan dan lampu ditempatkan di sisi berlawanan usia agar selalu memperhatikannya. Demikian pula, benang harus diikat pada sesuatu yang berwarna merah berlawanan arah usia atau benda merah dipasang di pelipis atau telinga yang berlawanan, semua ini membantu merenung dan melihat dengan biaya serendah mungkin. Mungkin kewajiban ini akan membantu menghaluskan mata dan mengeluarkan darah, sehingga penglihatan menjadi lebih jelas. Adapun mereka yang mengalami hal ini setelah usia tua dan para sheikh, dan alasannya adalah relaksasi atau kejang lembap, mereka harus menggunakan pembersihan otak dengan muntah yang disebutkan oleh para tetua dan yang serupa, serta menggunakan mandi yang merendahkan. Jika gejala menunjukkan kram akibat yang kering, mereka harus menggunakan produk pelembap. Jika tidak ada demam, mereka harus memberikan susu dengan minyak yang sangat melembapkan. Secara umum, pengobatan harus dilakukan dengan pelembap (nama obat, darah, dan produk susu yang disebutkan tidak dilakukan, dan catatan kaki pada susu adalah kata-kata editor) {cite:canon-ibn-sina-print-v2 p.189} {cite:canon-ibn-sina-print-v2 p.190}

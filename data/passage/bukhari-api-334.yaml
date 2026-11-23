@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "334"
-label: { ar: "صحيح البخاري 334 — الأب والأبوة", en: "Sahih al-Bukhari 334 — the father and fatherhood", ur: "صحیح بخاری 334 — باپ اور والدیت", es: "Sahih al-Bukhari 334 — El padre y la paternidad", fr: "Sahih al-Bukhari 334 — le père et la paternité" }
+label: { ar: "صحيح البخاري 334 — الأب والأبوة", en: "Sahih al-Bukhari 334 — the father and fatherhood", ur: "صحیح بخاری 334 — باپ اور والدیت", es: "Sahih al-Bukhari 334 — El padre y la paternidad", fr: "Sahih al-Bukhari 334 — le père et la paternité", tr: "Sahih el-Buhari 334 — Baba ve Babalık", id: "Sahih al-Bukhari 334 — Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ أَخْبَرَنَا مَالِكٌ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ الْقَاسِمِ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، زَوْجِ النَّبِيِّ قَالَتْ خَرَجْنَا مَعَ رَسُولِ اللَّهِ فِي بَعْضِ أَسْفَارِهِ، حَتَّى إِذَا كُنَّا بِالْبَيْدَاءِ ـ أَوْ بِذَاتِ الْجَيْشِ ـ انْقَطَعَ عِقْدٌ لِي، فَأَقَامَ رَسُولُ اللَّهِ عَلَى الْتِمَاسِهِ، وَأَقَامَ النَّاسُ مَعَهُ، وَلَيْسُوا عَلَى مَاءٍ، فَأَتَى النَّاسُ إِلَى أَبِي بَكْرٍ …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 334، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 334، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 334 (Frotarse las manos y los pies con polvo (Tayammum)), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Le Sahih al-Bukhari, n° 334 (Se frotter les mains et les pieds avec de la poussière (Tayammum)), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce passage avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih el-Buhari'nin 334 numaralı hadisinde baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derler."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 334, menyebutkan tentang ayah dan peran ayah. Situs web \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 334 (book 7 hadith 1); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

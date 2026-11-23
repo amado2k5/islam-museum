@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "3978"
-label: { ar: "صحيح البخاري 3978 — دفن وقبر ومرقد", en: "Sahih al-Bukhari 3978 — a burial, grave or resting place", ur: "صحیح بخاری 3978 — تدفین، قبر اور مرقد", es: "Sahih al-Bukhari 3978 — un entierro, tumba o lugar de descanso", fr: "Sahih al-Bukhari 3978 — un lieu de sépulture, une tombe ou un lieu de repos" }
+label: { ar: "صحيح البخاري 3978 — دفن وقبر ومرقد", en: "Sahih al-Bukhari 3978 — a burial, grave or resting place", ur: "صحیح بخاری 3978 — تدفین، قبر اور مرقد", es: "Sahih al-Bukhari 3978 — un entierro, tumba o lugar de descanso", fr: "Sahih al-Bukhari 3978 — un lieu de sépulture, une tombe ou un lieu de repos", tr: "Sahih el-Buhari 3978 — Defin, mezar ve istirahat yeri", id: "Sahih al-Bukhari 3978 — Pemakaman, kuburan, dan tempat peristirahatan" }
 text: "… عَنْ هِشَامٍ، عَنْ أَبِيهِ، قَالَ ذُكِرَ عِنْدَ عَائِشَةَا ـ أَنَّ ابْنَ عُمَرَ رَفَعَ إِلَى النَّبِيِّ \" إِنَّ الْمَيِّتَ يُعَذَّبُ فِي قَبْرِهِ بِبُكَاءِ أَهْلِهِ \". فَقَالَتْ إِنَّمَا قَالَ رَسُولُ اللَّهِ \" إِنَّهُ لَيُعَذَّبُ بِخَطِيئَتِهِ وَذَنْبِهِ، وَإِنَّ أَهْلَهُ لَيَبْكُونَ عَلَيْهِ الآنَ \". قَالَتْ وَذَاكَ مِثْلُ قَوْلِهِ إِنَّ رَسُولَ اللَّهِ قَامَ عَلَى الْقَلِيبِ وَفِيهِ قَتْلَى بَدْرٍ مِنَ الْمُشْرِكِينَ، …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 3978، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 3978، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 3978, menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, propiedades, reliquias y tumbas."
   fr: "Un hadith du Sahih al-Bukhari (n° 3978) mentionne un lieu de sépulture, une tombe ou un lieu de repos. Le navigateur de textes sacrés le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Sahih el-Buhari'de 3978 numaralı hadis, defin, mezar ve türbeden bahsetmektedir. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler konusunda uzmanlaşmış araştırmacılar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 3978, menyebutkan tentang penguburan, kuburan, dan makam. Hadits ini disusun oleh para peneliti yang ahli dalam wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3978 (book 0 hadith 0); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

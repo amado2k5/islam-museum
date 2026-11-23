@@ -1,0 +1,11 @@
+---
+id: concept/badawa-wa-hadara
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/badawa-wa-hadara.md}
+---
+## Ringkasan
+Ibn Khaldun memutuskan bahwa generasi Badui dan penduduk perkotaan adalah alami dan diperlukan karena perbedaan mata pencaharian mereka, dan bahwa gurun adalah asal mula pembangunan perkotaan dan wilayah yang luas karena yang diperlukan mendahului peziarah dan yang sempurna. Generasi Arab secara alami bersifat alami dan paling liar karena mereka mengkhususkan diri berdiri di atas unta daripada domba dan sapi, sehingga mereka tenggelam dalam alam liar. Badui lebih dekat dengan kebaikan daripada penghuni kota karena jiwa mereka, melalui naluri asli, siap menerima apa yang tertanam dalam diri mereka, sementara penduduk perkotaan telah mewarnai diri mereka dengan kecaman karakter akibat kelimpahan mereka Mereka menderita perlindungan, dan mereka lebih dekat dengan keberanian karena penduduk daerah perkotaan mempercayakan urusan mereka untuk mempertahankan gubernur, garnisun, dan tembok, sehingga menurunkan status perempuan dan anak-anak {cite:muqaddima-ibn-khaldun p.114-122}. Orang Arab hanya mengatasi yang sederhana karena secara alami mereka adalah orang-orang yang suka menjarah dan berbuat nakal, yang hanya melakukan penindasan jika mereka membela diri dan suku-suku yang menahan diri dari masalah mereka demi menghindari kesengsaraan. Jika mereka menaklukkan tanah yang cepat hancur, mereka hanya memperoleh kedaulatan melalui aspek keagamaan seperti kenabian, perwalian, atau pengaruh besar dari Agama, karena sifatnya yang liar, adalah bangsa yang paling sulit untuk saling menaklukkan. Jika mereka memiliki nabi atau santo, mereka akan ditahan dari diri mereka sendiri. Sifat kesombongan dan persaingan menghilang, membuat penyerahan mereka lebih mudah, pengumpulan, dan meraih kemenangan serta kedaulatan. Mereka adalah yang paling cepat menerima kebenaran karena suara sifat mereka. {cite:muqaddima-ibn-khaldun p.146-150}
+
+Kecuali disebutkan di sini, sumber tambahan diperlukan.

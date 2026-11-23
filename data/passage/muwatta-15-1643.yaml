@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani, person/abdullah-ibn-umar, person/muhammad]
 work: work/muwatta-malik
 ref: "1643"
-label: { ar: "الموطأ 1643 — نافع عن ابن عمر: لاعن رجل امرأته في زمان رسول الله، وانتفى من ولدها، ففرق النبي بينهما وألحق الولد بالمرأة", en: "Muwatta 1643", es: "Muwatta 1643", fr: "Muwatta 1643", ur: "موطا 1643" }
+label: { ar: "الموطأ 1643 — نافع عن ابن عمر: لاعن رجل امرأته في زمان رسول الله، وانتفى من ولدها، ففرق النبي بينهما وألحق الولد بالمرأة", en: "Muwatta 1643", es: "Muwatta 1643", fr: "Muwatta 1643", ur: "موطا 1643", tr: "El-Muvatta 1643 — İbn Ömer'den rivayet edildiğine göre, Nafi'nin naklettiğine göre: Allah Resulü zamanında bir adam karısına lanet etti ve çocuğunu reddetti. Bunun üzerine Peygamber onları ayırdı ve çocuğu kadına verdi.", id: "Al-Muwatta 1643 — Diriwayatkan oleh Nafi’ dari Ibnu Umar: Seorang pria mengutuk istrinya pada zaman Rasulullah dan mengingkari anaknya, lalu Nabi memisahkan mereka dan memberikan anak itu kepada wanita tersebut." }
 summary:
   ar: "يروي مالك عن نافع عن عبد الله بن عمر أن رجلا لاعن امرأته في زمان رسول الله، وانتفى من ولدها، ففرق رسول الله بينهما وألحق الولد بالمرأة. {cite:muwatta-maruf-1997 p.78}"
+  tr: "Malik, Nafi'den, o da Abdullah ibn Umar'dan rivayet ettiğine göre, Allah'ın Resulü zamanında bir adam karısına Allah'ın lanetini yağdırmış ve çocuğunu reddetmiştir. Bunun üzerine Allah'ın Resulü onları ayırmış ve çocuğu kadına vermiştir. {cite:muwatta-maruf-1997 s.78}"
+  id: "Malik meriwayatkan dari Nafi’ yang juga meriwayatkan dari Abdullah ibn Umar bahwa seorang laki-laki memohon laknat Allah kepada istrinya pada zaman Rasulullah SAW, dan mengingkari anaknya. Maka Rasulullah SAW memisahkan mereka dan memberikan anak itu kepada perempuan tersebut. {cite:muwatta-maruf-1997 p.78}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
   - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }

@@ -1,0 +1,97 @@
+---
+id: concept/walad-fiqh
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: draft
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/walad-fiqh.md}
+---
+## Ringkasan
+
+Dalam bahasa ini, 'laki-laki' berarti 'maulad' (lahir), dan merujuk pada tunggal, jamak, muda, tua, laki-laki, dan perempuan. Menurut Al-Jurjani, 'anak laki-laki' adalah hewan jantan yang lahir dari sperma seseorang sejenisnya. Ia mendefinisikan anak laki-laki sebagai laki-laki, dan anak laki-laki sebagai laki-laki dan perempuan; putri adalah bentuk feminin dari anak laki-laki; cucu laki-laki adalah putra laki-laki; cucu laki-laki adalah putra laki-laki; dan putri menurut ahli bahasa; di antara umat Syafi'i, itu khusus untuk putra dari putri; dan di antara Hanbali, merujuk pada keduanya; dan 'keturunan' digunakan oleh mayoritas untuk merujuk pada putra, putri, dan anak-anak mereka. Di antara Hanbali, keturunan adalah yang paling umum di antara kedua putra. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17905} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17906} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17907}
+
+Anak mengikuti yang terbaik dari kedua orang tua secara agama, menurut konsensus para ahli hukum. Jika salah satu pasangan adalah Muslim, maka anak itu adalah Muslim. Jika salah satu orang tua memeluk agama dan memiliki anak kecil, anak tersebut menjadi Muslim berdasarkan anak tersebut. Menurut Hanafi, jika salah satu adalah Booker dan yang lain seorang Majus, maka anak itu adalah Kitab Suci, karena Zoroastrianisme adalah jahat. Agar seorang anak berafiliasi dengan orang tua terbaik, adalah syarat bahwa rumah tangga harus bersatu. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17907}
+
+Seorang anak mengikuti orang tuanya dalam agama, dan keputusan tentang ketergantungan adalah antara agama atau rumah Islam. Jika anak di bawah umur berada di rumah kita dan ayah berada di tanah ketidakpercayaan, dia bergabung dengan Muslim dengan memerintah, dan ayah tidak dianggap mengikuti jika ayah berada di rumah Islam dan anak di rumah kafir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17908}
+
+Murtad anak laki-laki terhormat. Pernyataan Abu Yusuf, Zafar, Al-Shafi'i, dan Ahmad mengatakan pernyataan itu tidak sah, karena pernyataan anak itu tidak dianggap berbahaya (berbahaya); Abu Hanifa, Muhammad, Maliki, dan narator terkenal dari Ahmad memerintah sesuai dengan itu, karena Islam menegaskan kecerdasan penuh kepadanya sebelum mencapai masa pubertas. Jika murtadnya terbukti, maka aturan murtad berlaku untuknya: ia tidak mewarisi atau mewarisi, istrinya diidentifikasi, ia tidak boleh dipimpin untuk berdoa, ia dipaksa memeluk Islam, dan ia tidak dibunuh karena pembunuhan adalah hukuman dan bukan dari pemilik yang sah. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17908} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17909}
+
+Sunnah adalah memanggil adhan ke telinga kanan bayi yang baru lahir, dan ke kiri mereka. Dalam shalat pemakaman, ayah adalah yang pertama diperhitungkan, kemudian putranya, kemudian cucunya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17909}
+
+Imamate anak perzinaan dan anak li'an dirinci di tempatnya masing-masing; Hanbal menganggap diperbolehkan memimpin imamate anak yang diasingkan oleh li'an jika ia telah menerima agamanya dan layak untuk imamat. Aisha berkata tentang anak perzinahan: 'Ia tidak ada hubungannya dengan dosa orang tuanya.' {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17909} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17910}
+
+Tidak diperbolehkan berdasarkan kesepakatan untuk membayar zakat kepada anak dari pembayar zakat karena adanya hubungan antara manfaat harta di antara mereka. Zakat al-Fitr dibayarkan oleh seseorang atas nama dirinya sendiri dan mereka yang berkewajiban untuk mendukungnya, termasuk anak-anak. Ada perbedaan pendapat mengenai pembayarannya atas nama anak yang meninggal atau lahir setelah kewajiban. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17910}
+
+Menurut mayoritas ahli hukum, diperbolehkan bagi seorang anak untuk melakukan Haji atas nama orang tuanya, berdasarkan hadits seorang wanita dari Khath'am. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17910}
+
+Garis keturunan anak ditentukan dari ibu melalui kelahiran, dan dari ayah melalui tempat tidur, pengakuan, dan bukti, dan hanya dapat disingkirkan oleh li'an. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17910}
+
+Pengorbanan atas nama anak. Jika anak sudah tua, itu tidak wajib bagi ayah, meskipun ia masih muda dan tidak memiliki kekayaan. Menurut Hanafi, Al-Hasan menceritakan dari Abu Hanifa bahwa itu wajib, tetapi dari dia, itu bukan kewajiban atau direkomendasikan dari kekayaan ayah; dan jika anak memiliki kekayaan, ayah atau walinya mengorbankan atas namanya menurut Abu Hanifa dan Abu Yusuf, bertentangan dengan Muhammad dan Zafar. Umat Malik merekomendasikan pengorbanan demi orang tua miskin dan anak kecil sampai ia dewasa, sementara para Syafi'i hanya mengizinkannya untuk ayah dan kakek dari kekayaannya sendiri. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17910} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17911}
+
+Aqiqah, yang disembelih untuk bayi baru lahir sebagai tanda syukur kepada Allah, adalah Sunnah menurut Syafi'i dan Hanbali, direkomendasikan oleh Maliki, dan diperbolehkan menurut Hanafi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17911}
+
+Di antara aturan yang berkaitan dengan anak adalah sunat (memotong kulup inti laki-laki dan perempuan, yang wajib dan diabaikan), penamaan nama, hak asuh, menyusui, pemeliharaan, pendidikan, dan disiplin, kewajiban anak untuk taat pada orang tua dalam hal selain dosa dan menghormati mereka, doa anak untuk ayahnya, larangan ayah berdoa untuk anaknya, dan ketidaksukaan anak memanggil ayahnya dengan nama sendiri menurut Hanafi. Ini disarankan oleh Syafi'ah agar anak tidak menamai ayahnya dengan namanya; keputusan-putusan ini dirinci di tempatnya masing-masing. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17912} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17913}
+
+Preferensi untuk beberapa anak dalam hadiah. Hanafi, Maliki, dan Shafi'i merekomendasikan penyamaan, sementara Hanbal dan Abu Yusuf menjadikannya wajib. Preferensi mereka dalam cinta diperbolehkan menurut Hanafi karena itu adalah karya hati. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17913} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17914}
+
+Hadiah rumah yang ditempati. Menurut Hanafi, tidak diperbolehkan memberikan rumah yang ditempati oleh barang-barang pemberi sumbangan, dan hadiah rumah pinjaman sah. Ayah dapat mencabut hadiah putranya menurut Maliki, Shafi'i, dan Hanbali dalam aliran pemikiran, tetapi Hanafi dan Ahmad dilarang menceritakan hal ini. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17914}
+
+Wakaf untuk anak-anak: Anak-anak penyaliban, baik laki-laki maupun perempuan, termasuk dalam kesepakatan, dan ada perselisihan mengenai anak-anak. Dalam wasiat untuk kerabat: sekolah Hanafi tidak memasukkan orang tua dan anak sesuai narasi yang jelas, sedangkan pandangan Hanbalis dan Syafi'i memasukkan mereka. Pandangan Syafi'i adalah bahwa baik orang tua maupun anak tidak termasuk, melainkan kakek dan cucu yang masuk. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17914} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17915}
+
+Disarankan agar anak bersikap adil dalam memberikan hadiah kepada orang tuanya, dan jika dia mau, dia harus lebih memilih ibunya, seperti yang dikatakan Al-Darimi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17915}
+
+Meminta izin dari orang tua untuk bepergian: Setiap perjalanan di mana bahaya besar, anak tidak boleh keluar tanpa izin mereka, menurut Hanafi. Setiap perjalanan di mana bahaya tidak berat diperbolehkan jika anak tidak kehilangan mereka. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17915}
+
+Jihad tidak diperbolehkan kecuali dengan izin orang tua, seperti yang tercantum di halaman berikutnya artikel. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17915}
+
+Jihad tidak diperbolehkan kecuali dengan izin orang tua Muslim, atau dengan izin salah satu jika yang lain adalah kafir, kecuali jihad diperlukan, seperti ketika musuh turun bersama sekelompok Muslim. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17916}
+
+Orang tua mengambil dari kekayaan anak mereka. Mayoritas ahli hukum: Seorang ayah tidak mengambil apa pun dari uang anaknya kecuali jika diperlukan; Hanafi membedakan antara berada di Mesir dan orang tua miskin makan tanpa apa-apa, atau berada di tempat makan dengan harga yang mahal. Hanbal mengizinkan ayah mengambil dari kekayaan anaknya sebanyak yang dia inginkan, dengan dua syarat: tidak menyakiti anak dan tidak memberikannya kepada anak lain. Mereka mengutip hadits 'Kamu dan harta milikmu milik ayahmu,' dan bahwa Tuhan memberikan anak itu kepada ayahnya. Ibn Hani melaporkan dari Ahmad bahwa ayah tidak akan mengembalikan jika mengambil dari kekayaan anaknya, dan bahwa seorang wanita tidak memberi amal dari uang putranya kecuali dengan izinnya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17916} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17917}
+
+Khula' atas pemeliharaan dan menyusui anak. Anak yang nasib: Khula' tidak berlaku atas biaya sendiri kecuali untuk jangka waktu tertentu, karena pemeliharaannya memperpanjang hidupnya. Dan bayi: Khula' sah untuk menyusui dan mendukungnya, meskipun belum jatuh tempo, ibu akan menyusui selama dua tahun penuh, seperti yang dikatakan Allah: "Ibu boleh menyusui anaknya selama dua tahun penuh bagi siapa pun yang ingin menyelesaikan menyusui," dan juga dalam pepatah, "Tidak ada menyusui setelah menyapih." Jika suami kembali atau istri atau anak meninggal sebelum masa itu selesai, suami mengembalikan sisa tunjangan menurut Hanafi dan Hanbali; Syafi'i tidak mengesahkan khul' tanpa waktu yang tepat. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17917} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17918}
+
+Khula berlaku untuk hak asuh anak. Hanafi mengesahkan khul' dan membatalkan syarat tersebut, karena anak berhak mendapatkan apa yang dibutuhkan ibu; Maliki mengizinkan khul' setelah hak asuh ibu dicabut, sehingga ayah lebih berhak atas ibu, kecuali ada ketakutan akan bahaya atau keterikatan hati terhadap ibu. Syafi'i tidak melepaskan hak asuh ibu melalui pernikahan selain ayah jika dia bercerai melalui hak asuh untuk jangka waktu yang diketahui, karena itu adalah sewa yang mengikat. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17918} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17919}
+
+Pewarisan anak ditetapkan antara anak dan orang tuanya dengan syarat tertentu. Anak yang berzina dikaitkan dengan ibunya dan hanya diwariskan dari sisi ibunya, dan anak dari 'li'an' tidak mewarisi darinya karena tidak memiliki garis keturunan; rincian ada di tempat masing-masing. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17919}
+
+Sumpah untuk menyembelih anak. Hanafi: Analogi ini tidak berlaku, dan istihsan berlaku untuk domba, meskipun domba itu memiliki keturunan untuk setiap keturunan. Ini adalah pandangan Abu Hanifa, Muhammad, dan Hanbalis dalam satu narasi. Umat Malik tidak keberatan, dan Syafi'i tidak menganggap sumpahnya sah karena bukan kerabat dekat. Cerita ini diceritakan oleh Ahmad tentang seorang wanita yang bersumpah akan menyembelih anaknya untuk menyembelih seekor domba jantan untuk setiap anak. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17919}
+
+Lahir dari orang mati. Siapa pun yang memulai atau memiliki apa yang dikenal sebagai hidupnya telah dimulai atau telah lahir darinya, ia menerima kekuasaan orang hidup dalam keputusan, dan siapa pun yang lahir mati telah lahir dari orang lain, dengan masa tunggu berakhir, dan darah setelahnya dianggap pasca melahirkan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17919}
+
+Adapun keputusan tentang anak mengenai dirinya sendiri, termasuk mencucinya, berdoa untuknya, warisan, dan mewariskan, hal itu dirinci dalam konteks spesifiknya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17920}
+
+Seorang ayah menjual properti anaknya yang masih di bawah umur: Berdasarkan kesepakatan umum, diperbolehkan menghindari tuduhan dan menunjukkan belas kasihan; menurut Hanafi dan Shafi'i diperbolehkan bagi kakek karena ia memiliki hak asuh atas harta tersebut, tetapi tidak menurut Malikis dan Hanbali. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17920}
+
+Agen menjual properti prinsipal kepada anaknya atau membelinya untuknya. Hanafi, Maliki, Shafi'i, dan Hanbal dalam satu narasi melarang menjual properti tersebut kepada anaknya yang masih di bawah umur karena itu seperti menjual sendiri, dan kedua pihak dalam kontrak tidak berdamai. Mengenai anak tertua: Hanafi dan Shafi'i berbeda dari pandangan yang lebih benar; Hanbalis dalam satu narasi melarangnya; Maliki, Abu Yusuf, dan Muhammad mengizinkannya dengan nilai yang sama; Shafi'i dalam pandangan yang lebih benar mengizinkannya; Hanbalis dalam narasi kedua mengizinkannya dengan dua syarat: agen meningkatkan panggilan dan orang lain mengambil alih panggilan; dan Hanafi mengizinkannya jika agensi berdasarkan kehendak umum. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17920} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17921}
+
+Seorang pria membeli untuk dirinya sendiri dari uang anaknya, dan membeli untuk dirinya sendiri dari dirinya sendiri: menurut para ahli hukum, ayah diperbolehkan melakukannya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17921}
+
+Ayah menerima uang yang dibelinya dari putranya: Menurut Hanafi, ayah tidak menjadi penerima untuk penjualan yang sama, juga tidak dibebaskan dari harga sampai hakim menunjuk agen untuk anak di bawah umur dan mengambil alih kepemilikan; menurut Maliki, jika tangan pemilik dan penerima bersatu, kepemilikan terjadi dengan niat; dan Hanbalis mengizinkan ayah mewarisi, menerima, dan mengambil kepemilikan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17921} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17922}
+
+Perwalian anak untuk memenuhi pembalasan: Hukum ini ditetapkan untuk semua ahli waris yang dibunuh, baik muda maupun tua, dan dirinci sebagai pembalasan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17922}
+
+Membunuh anak. Dilarang bagi seorang ayah untuk membunuh anaknya, berdasarkan ayat: "Dan jangan membunuh anakmu karena kemiskinan," dan hadis Ibn Mas'ud: "Jika kamu membunuh anakmu karena takut dia akan diberi makan darimu." Jika seorang ayah membunuh anaknya, menurut mayoritas ahli hukum, dia tidak diwajibkan untuk membalas dendam darinya. Kakek tidak diwajibkan membalas atas anak anaknya; para Malik menegaskan, dan jika dia menidurkannya, dia akan membantai atau menyembelih perutnya, tetapi jika dia membunuhnya dengan pedang atau tongkat, dia tidak akan membalas dendam. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17922} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17923}
+
+Membunuh anak oleh orang tuanya: Menurut mayoritas ahli hukum, anak dibunuh oleh salah satu orang tua, karena aturan umum ayat dan hadit, karena kebutuhan akan pencegahan berada di pihak anak, dan karena ayah lebih tidak dapat diganggu ganggu daripada non-mahram, sehingga pembalasan tidak diabaikan dalam kasusnya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17923}
+
+Seorang ayah yang membunuh anaknya tidak dikenakan pembalasan menurut mayoritas ahli hukum, karena kejahatannya sia-sia bagi jiwa anak itu sendiri. Ahmad menceritakan bahwa seorang anak tidak dibunuh oleh ayahnya karena kesaksian ayahnya tidak diterima. Siapa pun yang membunuh pemberontak atau hanya salah satu orang tua atau anaknya dalam pertempuran karena kebutuhan, tidak ada tanggung jawab, dan dalam kasus lain, dia bertanggung jawab. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17924}
+
+Kesaksian anak kepada ayahnya dan sebaliknya tidak diperbolehkan, dan diperbolehkan salah satu dari mereka bersaksi melawan yang lain. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17924}
+
+Inklusi anak dalam 'aqilah: Malikis dan Hanafi menyatakan satu pendapat, sementara Hanbalis dalam salah satu narasi memasukkan orang tua dan anak dalam membawa uang darah, sementara Shafi'i dan Hanafi memiliki pendapat lain, dan Hanbalis dalam narasi kedua tidak memasukkan mereka. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17924} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17925}
+
+Orang tua mencuri dari harta anaknya, dan sebaliknya. Mayoritas ahli hukum tidak menganggap seorang ayah mencuri dari harta anaknya, berdasarkan hadits: 'Kamu dan harta bendamu milik ayahmu' dan 'Memang, anak-anakmu yang membuatmu berhasil,' dan karena hukuman hudud dihindari oleh keraguan. Abu Thawr dan Ibn al-Mundhir memutuskan hubungan dengan ayah, karena makna ayat pencurian yang jelas. Adapun anak, jika dia mencuri dari harta ayahnya, mayoritas tidak memutusnya. Maliki, Ahmad, dan Al-Khurqi dalam satu riwayat mengatakan bahwa itu terputus. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17925} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17926}
+
+Seorang ayah memfitnah anaknya. Hanafi dan Malik di sekolah Shafi'i dan Hanbali tidak membatasi ayah dengan mencemarkan nama baik putranya, berdasarkan larangan membunuhnya dengan itu, dan dianggap 'azar' menurut Shafi'i dan Hanafi; siapa pun yang memfitnah wanita yang diwariskan anaknya tidak dihukum kecuali ia membagikannya kepada orang lain. Pandangan Maliki menuntut hukuman atas pencemaran nama baik terhadap orang tuanya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17926}
+
+Hukuman atas perang dihapuskan bagi anak. Hanafi menghapus hukuman berperang jika anak itu adalah anak dari pria yang terputus dari jalan atau memiliki hubungan keluarga yang dilarangnya, karena kecurigaan izin berhubungan seks, dan hukuman hudud dihindari dengan keraguan. Syafi'i dan Hanbal mengatakan ini berlaku ketika anak mengambil uang ayahnya sebagai bentuk pernikahan terlarang, tetapi membunuh anak memerlukan pembalasan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17926} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17927}
+
+Anak dari pengorbanan: Beberapa ahli hukum mengharuskan penyembelihan bersamaan dengan pengorbanan, sementara yang lain tidak, dan detailnya ada dalam pengorbanan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17927}
+
+Jika domba lahir dalam bentuk anjing: Hanafi membedakan melalui ujian (minum, makan, penampilan usus atau perut) mengenai izin dan larangan, sedangkan Shafi'i membiarkannya sebagai saleh kecuali secara alami lebih disukai. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17927}
+
+Anak bergabung dengan ibu setelah cacat muncul: Para ahli hukum setuju bahwa kehamilan mengikuti penjualan. Jika hewan hamil dibeli atau hamil oleh pembeli dan cacat muncul setelah kelahiran, anak tersebut dikembalikan bersamanya. Pembeli tidak ada urusan dengan anak kecuali jika ibu menurunkan kondisi anak, dan anak mengembalikan apa yang hilang kecuali anak mengganti kompensasinya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17928}
+
+Zakat pada anak yang lahir antara liar dan domestik: Hanbalis dan Malikus berpendapat bahwa zakat wajib pada keturunan ini, secara analogi dengan anak yang lahir di antara anak abu-abu dan ternak, sehingga sisi kewajiban lebih disukai dan termasuk dalam bentuk domestik. Abu Hanifa, yang merupakan pandangan Maliki, berpendapat bahwa zakat wajib jika ibu menikah secara sah, karena pihak ibu adalah pandangan yang diutamakan. Mazhab Shafi'i dan aliran Maliki yang terkenal sama sekali menolak zakat, karena defaultnya adalah zakat tidak wajib. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17928}
+
+Jika anak terpisah hidup-hidup setelah kematian ibu, matanya dianggap murni menurut Syafi'i tanpa perselisihan, dan wajib mencuci penampilannya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17928}

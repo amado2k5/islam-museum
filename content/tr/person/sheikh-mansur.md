@@ -1,0 +1,39 @@
+---
+id: person/sheikh-mansur
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/sheikh-mansur.md}
+---
+
+## Özet
+
+Şeyh Mansur (yaklaşık 1760 – 13 Nisan 1794), Oshurma olarak doğmuş, 1785'ten 1791'de {cite:wikipedia-sheikh-mansur-en} yakalanana kadar Kafkasya'daki Rus yayılmasına karşı direniş hareketine liderlik eden Çeçen imamı ve askeri komutanıydı. Kuzey Kafkasya'nın Rus emperyalizmine karşı direnişinin ilk lideriydi ve Çeçenistan ile Kuzey Kafkasya halklarının kahramanı olarak kalmıştır {cite:wikipedia-sheikh-mansur-en}.
+
+## Erken Yaşamı
+
+Çeçenistan'da, günümüz Grozni yakınlarındaki Songa Nehri üzerindeki küçük bir köy olan Aldi'de, Ilistanji klanına mensup yoksul bir Çeçen köylü ailesinde doğdu; babasının adı Shibise veya Shahbaz'dı ve aile daha önce Khatuni'de {cite:wikipedia-sheikh-mansur-en} yaşamıştı. Doğum adı Usharma veya Utchermak'tı — Din Vakıfları Ansiklopedisi'nde Rusların Ushurma {cite:tdv-seyh-mansur} olarak değiştirdiği Uchermak formu verilmiştir. Çağdaş Rus ve Osmanlı kaynakları onun okuma yazma bilmediğini belirtir, ancak temel eğitimini yerel bir molladan veya İslami bilginin önemli merkezi olan Dağıstan'dan {cite:wikipedia-sheikh-mansur-en} aliflerden almıştır. Çocukluğunda komşularının sürülerini güderdi {cite:wikipedia-sheikh-mansur-en}. Chicha adında bir kadınla evlendi; kaynaklar bir oğul, iki kız ve iki çocuk arasında farklılık gösterir {cite:wikipedia-sheikh-mansur-en}.
+
+## Davet
+
+Yirmi altı yaşına geldiğinde sıradan hayatı bıraktı, eşinden boşandı ve emekli oldu; bir vizyonda, Peygamber Muhammed'den iki elçiyi at sırtında gördüğünü ve Çeçenistan'ı ve komşu halkları İslam'a davet etmesini emin etti {cite:wikipedia-sheikh-mansur-en}. 1784'te Mansur adını aldı ve dağ halklarının şeyhi ve imamı olarak kendini sunmaya başladı; onları şeriata sıkı sıkıya bağlı kalmaya ve geleneksel hukuk (gelenek), şarap ve tütün {cite:wikipedia-sheikh-mansur-en} gibi İslami olmayan uygulamalardan vazgeçmeye teşvik etti. Bencil mesajının tonu, yoksul ve marjinalleşmiş köylüler arasında popülaritesini pekiştirdi; bu dönemde Rusya'nın yayılması, sıradan halk ile Ruslarla sık sık işbirliği yapan soylular arasındaki uçurumu derinleştiriyordu {cite:wikipedia-sheikh-mansur-en}. Kendisinden önceki doğaüstü güçlere sahip olduğunu iddia eden liderler gibi, sık sık öğrencilerinin önünde yüzünü kapatırdı; bazı Rus kaynakları yanlışlıkla kendisini peygamber olarak adlandırdığını iddia etti {cite:wikipedia-sheikh-mansur-en}.
+
+## 1785 Savaşı
+
+Mart 1785'te, uyarı işaretleri olabilecek iki deprem meydana geldi {cite:wikipedia-sheikh-mansur-en}. Rusya, Albay Pierre liderliğindeki bir kuvveti onu tutuklamak için gönderdi; Aldi'ye saldırdılar ve yok ettiler, dönüş yolunda Mansur'un takipçileri onu yok etti, aralarında Pierre'in de bulunduğu yaklaşık 600 Rus asker ve subayı öldürdü {cite:wikipedia-sheikh-mansur-en}. Zafer ilahi bir destek kanıtı olarak okundu ve Kıbrıs ile Dağıstan'ın {cite:wikipedia-sheikh-mansur-en} tereddütlü soyluları ona katıldı. 1785 yazında, büyük ordusuyla 10.000 Qizlar askerini kuşattı—anlatıldığı üzere—ancak toplar tarafından püskürtüldü, Gregoriopolis'te başarısız oldu ve Ağustos'ta Qizlar'a yapılan ikinci saldırıda da başarısız oldu; Kasım 1785'te Albay Nagel'in kuvvetlerine karşı yenilgisi, soylu müttefiklerine karşı bir kayıptı {cite:wikipedia-sheikh-mansur-en}.
+
+## Çerkesya, Anapa ve Aileler
+
+Mansur ateşkes istedi, ancak sadece koşulsuz teslimiyet kabul edildi, bu yüzden savaşı batıya, Anaba ve Sogöjak Osmanlı garnizonlarını kabileleri birleştirmek için bir araç olarak gören Çerkeslere kaydırdı {cite:wikipedia-sheikh-mansur-en}. Rus-Türk Savaşı'ndan önce Küba boyunca başarılı bir baskın düzenledi, ancak savaşın başında Rus seferi onu defalarca yenilgiye uğrattı. 20 Eylül 1787'de Europ Nehri'ndeki son savaşından sonra Anapa'ya {cite:wikipedia-sheikh-mansur-en} kaçtı. Annapa 1791'de düştüğünde yakalandı ve Saint Petersburg'a götürüldü; burada Büyük Katerina tarafından sorgulandı; önce Peter ve Paul Kalesi'nde gözaltına alındı, ardından sorgu sırasında bir muhafızı bıçakladıktan sonra Schlesburg Kalesi'ne nakledildi ve burada 13 Nisan 1794'te {cite:wikipedia-sheikh-mansur-en} {cite:tdv-seyh-mansur} öldü.
+
+## Görünüşü ve mirası
+
+Mansur'un ölümünden üç yıl sonra doğan İmam Şamil, onu şahsen tanıyanlardan Mansur'un büyüleyici bir erkeksi görünümüne sahip olduğunu, okuryazarlık eksikliğine rağmen olağanüstü hitabet yeteneğine sahip olduğunu ve kalabalık içinde at sürüyormuş gibi görünecek kadar uzun olduğunu bildirmiştir {cite:wikipedia-sheikh-mansur-en}. Tarihçi John F. Badley, Mansura'nın Kafkasya'da Ruslara karşı Kutsal Savaş'ı ilk vaaz eden ve yöneten kişi olduğunu, dini reformun özgürlüklerini korumanın tek yolu olduğunu ilk bildiğini belirtmiştir {cite:wikipedia-sheikh-mansur-en}. Şamil, saygısıyla Kuzey Kafkasya'da İslam'ın yeniden canlanmasını vaat etti {cite:wikipedia-sheikh-mansur-en}. 1990'larda Çeçen milliyetçiliğinin merkezi bir simgesi haline geldi: Grozni Havalimanı bir zamanlar onun adını taşıyordu, ana havalimanı da aynı şekilde adlandırıldı ve Rusya-Ukrayna savaşında Çeçen birliği olan Şeyh Mansur Taburu'nu {cite:wikipedia-sheikh-mansur-en} taşıyordu.
+
+## İnanç
+
+Mansur'un belgelenmiş çağrısı katı bir Şeriat programıydı — ilhamlı Şeriata bağlılık, geleneksel hukuk, alkol ve tütünü terk etmek {cite:wikipedia-sheikh-mansur-en}. Biyografisinde Sufi tarikatıyla bağlantısı tartışmalı bir konudur ve tanıklığı burada tam olarak kaydedilmiştir. Mustafa Aydın'ın İslami Vakfı Ansiklopedisi'ndeki kaydı kişisel bağlılığını açıkça belirtir: "Dağıstan'da Nakşibendi tarikatına katıldı" {cite:tdv-seyh-mansur}. Arapça makale ayrıca Nakşibendi tarikatına bağlı olduğunu belirtir {cite:wikipedia-sheikh-mansur-ar} ve Urduca makale onu Dağıstan'da bir Nakşibendi okulunda koyar, Şeyfer'in tarihine atıfta bulunur {cite:wikipedia-sheikh-mansur-ur}; Wikidata onu iki yapısal dine göre sınıflandırır: Sünni İslam ve Nakşibendi {cite:wikidata-sheikh-mansur}. Buna karşılık, İngilizce makale, Michael Kember'ın 'Üçüncü İslam Ansiklopedisi'ndeki maddesine atıfta bulunarak, aidiyetin yüksek oranda varsayıldığı ancak doğrulanmadığı belirtilir. Alexander Knesch'in 'İslam Ansiklopedisi'ndeki kaydı, Mansura'nın sonraki Kafkasya liderlerinin sahip olduğu Sufi güveninden yoksun olduğunu belirtir {cite:wikipedia-sheikh-mansur-en}. Bu kayıtta okunan hiçbir metin, bağlılık, lisans veya tarihli bir bağlılık olayı belirten bir şeyh belirtilmemektedir. Müze düzenlemelerine göre, tartışmalı hiçbir gelenek bu şekilde çözülmemiştir, bu nedenle inancı bilinmeyen olarak kaydedilmiş ve tam tanıklık korunmuştur.
+
+## Araştırmacılar İçin Notlar
+
+Doğum yılı hayatının en tartışmalı olayıdır. Yaklaşık 1760 tarihli İngilizce makale, onun otuz yaşından büyük olduğunu belirten kendi ifadesinden {cite:wikipedia-sheikh-mansur-en}; Wikidata 1760 ve Haziran 1762'yi birlikte taşır, ikincisini Urduca makalesinin girişi {cite:wikidata-sheikh-mansur} {cite:wikipedia-sheikh-mansur-ur}; Encument of Religion Ansiklopedisi araştırmacıların 1722 ve 1748 {cite:tdv-seyh-mansur} tarihlerini kaydeder; Arapça makalenin bilgi kutusu 1732'yi verirken, içeriği 1748'i {cite:wikipedia-sheikh-mansur-ar}; ve daha eski tarihler, eski bir Dominiken keşiş olan Giovanni Battista Boiti tarafından 18. yüzyılda Sauteh'de Floransa aldatmacası olan bir aldatmacaya kadar uzanır {cite:wikipedia-sheikh-mansur-en}. Ölümüne gelince, şu kararlar kabul edilir: Schlesburg, 13 Nisan 1794 {cite:wikipedia-sheikh-mansur-en} {cite:wikipedia-sheikh-mansur-ar} {cite:tdv-seyh-mansur} {cite:wikidata-sheikh-mansur}.

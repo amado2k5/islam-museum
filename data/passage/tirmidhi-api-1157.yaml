@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1157"
-label: { ar: "جامع الترمذي 1157 — النسب والانتساب", en: "Jami' al-Tirmidhi 1157 — paternity and lineage", ur: "جامع ترمذی 1157 — نسب اور انتساب", es: "Jami' al-Tirmidhi 1157 — paternidad y linaje", fr: "Jami' al-Tirmidhi 1157 — paternité et lignée" }
+label: { ar: "جامع الترمذي 1157 — النسب والانتساب", en: "Jami' al-Tirmidhi 1157 — paternity and lineage", ur: "جامع ترمذی 1157 — نسب اور انتساب", es: "Jami' al-Tirmidhi 1157 — paternidad y linaje", fr: "Jami' al-Tirmidhi 1157 — paternité et lignée", tr: "Cami' el-Tirmizi 1157 — Soy ve Bağlantı", id: "Jami' al-Tirmidhi 1157 — Silsilah dan Afiliasi" }
 text: "… \" الْوَلَدُ لِلْفِرَاشِ وَلِلْعَاهِرِ الْحَجَرُ \". قَالَ وَفِي الْبَابِ عَنْ عُمَرَ وَعُثْمَانَ وَعَائِشَةَ وَأَبِي أُمَامَةَ وَعَمْرِو بْنِ خَارِجَةَ وَعَبْدِ اللَّهِ بْنِ عَمْرٍو وَالْبَرَاءِ بْنِ عَازِبٍ وَزَيْدِ بْنِ أَرْقَمَ. قَالَ أَبُو عِيسَى حَدِيثُ أَبِي هُرَيْرَةَ حَدِيثٌ حَسَنٌ صَحِيحٌ. وَالْعَمَلُ عَلَى هَذَا عِنْدَ أَهْلِ الْعِلْمِ. وَقَدْ رَوَاهُ الزُّهْرِيُّ عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ وَأَبِي سَلَمَةَ عَنْ أَبِي هُرَيْرَةَ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 1157، يذكر النسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 1157، جس میں نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 1157 (El Libro de la Lactancia Materna), menciona la paternidad y el linaje. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 1157 (Livre sur l'allaitement), mentionne la paternité et la filiation. Le site The Fatherhood in Islam Browser le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant du père."
+  tr: "Cami' el-Tirmizi'nin 1157 numaralı hadisinde soy ve kökenden bahsedilir. \"İslam'da Babalık\" bölümü, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derler."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 1157, menyebutkan tentang garis keturunan dan leluhur. Bagian \"Kebapakan dalam Islam\" mengumpulkannya dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/intisab, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1157 (book 12 hadith 12); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

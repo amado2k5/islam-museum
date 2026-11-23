@@ -1,7 +1,7 @@
 id: event/shii-rising-egypt-586
 class: event
 kind: revolt
-label: { ar: "ظهور طائفة من الشيعة بمصر", en: "a Shia rising shows itself in Egypt", es: "En Egipto se observa un auge chiíta.", fr: "Un soulèvement chiite se manifeste en Égypte", ur: "ایک شیعہ ابھرتا ہوا مصر میں خود کو ظاہر کرتا ہے۔" }
+label: { ar: "ظهور طائفة من الشيعة بمصر", en: "a Shia rising shows itself in Egypt", es: "En Egipto se observa un auge chiíta.", fr: "Un soulèvement chiite se manifeste en Égypte", ur: "ایک شیعہ ابھرتا ہوا مصر میں خود کو ظاہر کرتا ہے۔", tr: "Mısır'da Şii bir mezhepin ortaya çıkışı", id: "Munculnya sekte Syiah di Mesir" }
 date:
   start: { edtf: "1190~", hijri: "0586", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Un partido chií surgió en Egipto conspirando para revivir el estado fatimí, escribiendo a aquellos que consideraban suyos; al ser descubiertos, fueron apresados {cite:kamil-ibn-al-athir p. 177}."
   fr: "Un parti chiite a fait surface en Égypte, conspirant pour faire revivre l'État fatimide, écrivant à ceux qu'ils pensaient être les leurs; découverts, ils ont été arrêtés {cite:kamil-ibn-al-athir p. 177}."
   ur: "مصر میں ایک شیعہ جماعت منظر عام پر آئی جو فاطمی ریاست کے احیاء کی سازش کر رہی تھی، ان لوگوں کو لکھا جو وہ اپنا سمجھتے تھے۔ دریافت کیا، انہیں پکڑ لیا گیا {حوالہ: کامل ابن الاثیر صفحہ 177}۔"
+  tr: "Mısır'da Fatımi devletini yeniden canlandırmak için komplo kuran ve kendilerine ait olduğunu düşündükleri kişilerle yazışan bir grup Şii ortaya çıktı, ancak ilişkileri açığa çıktı ve tutuklandılar. {Kaynak: Kamil ibn el-Athir, s. 177}"
+  id: "Sekelompok Syiah muncul di Mesir yang berkonspirasi untuk menghidupkan kembali negara Fatimiyah dan berkorespondensi dengan orang-orang yang mereka anggap sebagai bagian dari mereka, tetapi urusan mereka terbongkar dan mereka ditangkap {cite:kamil-ibn-al-athir p. 177}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/misr, sources: [source/kamil-ibn-al-athir] }

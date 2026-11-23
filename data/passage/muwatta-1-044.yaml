@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani]
 work: work/muwatta-malik
 ref: "1.44"
-label: { ar: "الموطأ 44 — ابن عمر ينام جالساً ثم يصلي ولا يتوضأ", en: "Muwatta 44", es: "Muwatta 44", fr: "Muwatta 44", ur: "موطا 44" }
+label: { ar: "الموطأ 44 — ابن عمر ينام جالساً ثم يصلي ولا يتوضأ", en: "Muwatta 44", es: "Muwatta 44", fr: "Muwatta 44", ur: "موطا 44", tr: "El-Muvatta 44 — İbn Ömer oturarak uyur, sonra abdest almadan namaz kılar.", id: "Al-Muwatta 44 — Ibnu Umar tidur dalam posisi duduk, kemudian shalat tanpa berwudhu." }
 summary:
   ar: "أثر يرويه مالك عن نافع، في باب وضوء النائم إذا قام إلى الصلاة: كان عبد الله بن عمر ينام جالساً ثم يقوم فيصلي ولا يتوضأ. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد وابن وهب عند البيهقي ومحمد بن الحسن. {cite:muwatta-maruf-1997 p.55}"
+  tr: "Malik'in Nafi'den rivayet ettiği bir hadiste, uyuduktan sonra namaz kılmak için kalkanın abdesti bölümünde şöyle denmektedir: Abdullah ibn Umar, oturarak uyur, sonra abdest almadan kalkar ve namaz kılardı. Editör, bu hadisin Malik'ten Ebu Mus'ab, Suwaid ve İbn Wahb tarafından rivayet edildiğini, el-Bayhaqi ve Muhammed ibn al-Hasan tarafından da kaydedildiğini belirtmektedir. {cite:muwatta-maruf-1997 s.55}"
+  id: "Sebuah riwayat yang dinarasikan oleh Malik dari Nafi’, dalam bab tentang wudhu orang yang tidur lalu bangun untuk shalat: Abdullah ibn Umar biasa tidur dalam posisi duduk, kemudian bangun dan shalat tanpa berwudhu. Editor menyebutkan bahwa riwayat ini dinarasikan dari Malik oleh Abu Mus’ab, Suwaid, dan Ibn Wahb, sebagaimana dicatat oleh al-Bayhaqi dan Muhammad ibn al-Hasan. {cite:muwatta-maruf-1997 p.55}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
   - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }

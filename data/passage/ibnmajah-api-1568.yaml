@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "1568"
-label: { ar: "سنن ابن ماجه 1568 — دفن وقبر ومرقد", en: "Sunan Ibn Majah 1568 — a burial, grave or resting place", ur: "سنن ابن ماجہ 1568 — تدفین، قبر اور مرقد", es: "Sunan Ibn Majah 1568 — un lugar de entierro, tumba o descanso.", fr: "Sunan Ibn Majah 1568 — un lieu de sépulture, une tombe ou un lieu de repos" }
+label: { ar: "سنن ابن ماجه 1568 — دفن وقبر ومرقد", en: "Sunan Ibn Majah 1568 — a burial, grave or resting place", ur: "سنن ابن ماجہ 1568 — تدفین، قبر اور مرقد", es: "Sunan Ibn Majah 1568 — un lugar de entierro, tumba o descanso.", fr: "Sunan Ibn Majah 1568 — un lieu de sépulture, une tombe ou un lieu de repos", tr: "Sunan İbn Majah 1568 - Defin, mezar ve dinlenme yeri", id: "Sunan Ibnu Majah 1568 — Pemakaman, kuburan, dan tempat peristirahatan" }
 text: "… رَسُولَ اللَّهِ \". فَقُلْتُ يَا رَسُولَ اللَّهِ مَا أَنْقِمُ عَلَى اللَّهِ شَيْئًا كُلُّ خَيْرٍ قَدْ أَتَانِيهِ اللَّهُ. فَمَرَّ عَلَى مَقَابِرِ الْمُسْلِمِينَ فَقَالَ \" أَدْرَكَ هَؤُلاَءِ خَيْرًا كَثِيرًا \". ثُمَّ مَرَّ عَلَى مَقَابِرِ الْمُشْرِكِينَ فَقَالَ \" سَبَقَ هَؤُلاَءِ خَيْرٌ كَثِيرٌ \". قَالَ فَالْتَفَتَ فَرَأَى رَجُلاً يَمْشِي بَيْنَ الْمَقَابِرِ فِي نَعْلَيْهِ فَقَالَ \" يَا صَاحِبَ السِّبْتِيَّتَيْنِ أَلْقِهِمَا …"
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 1568، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابن ماجہ کی حدیث نمبر 1568، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Ibn Majah, n.° 1568 (Capítulos sobre los funerales), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sunan Ibn Majah, n° 1568 (Chapitres relatifs aux funérailles), mentionne un lieu de sépulture, une tombe ou un lieu de repos. Le navigateur de textes sacrés le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "İbn Majah'ın Sünen'inde yer alan 1568 numaralı hadiste, defin, mezar ve türbeden bahsedilir. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler üzerine araştırmalar yapan bir uzman tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan Ibn Majah, no. 1568, menyebutkan tentang penguburan, kuburan, dan makam. Hadits ini disusun oleh peneliti wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1568 (book 6 hadith 136); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

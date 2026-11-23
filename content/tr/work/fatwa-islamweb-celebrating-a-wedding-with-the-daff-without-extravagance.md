@@ -1,0 +1,25 @@
+---
+id: work/fatwa-islamweb-celebrating-a-wedding-with-the-daff-without-extravagance
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/work/fatwa-islamweb-celebrating-a-wedding-with-the-daff-without-extravagance.md}
+---
+
+## Özet
+
+Tef ve şarkılarla karıştırılmamış bir düğünden bahseden birinin, katılımcıların ihlallerinden endişe duyduğunu ifade eden bir soruya karşılık, IslamWeb'deki Fetva Merkezi [[group/islamweb|]], evliliği duyurmak için tefleri kutlamanın ve çalınmasının zararı olmadığını, ihlallerin sorumluluğunun failler memnun kalmazsa ve onları yasakladığında sorumlu olduğunu, ayrıca savurganlık ve gösterişten kaçınılmasını tavsiye etti. {cite:islamweb fatwa 539261}
+
+## Soru
+
+Soru soran kişi, nişanlısının resmi bir düğünü bir salonda yapmak istediğini, kadınların düğünlerinde uyarılar olsa bile mütevazı kıyafetler giymemelerinin gelenek olduğunu, düğünün karma cinsiyetli olmadığını, eğer uyurlarsa bu toplantılarda dedikodu ve dedikodu yapıldığını ve nişanlısının sevinç göstermenin tavsiye edildiğini savunduğunu belirtti. {cite:islamweb fatwa 539261} Şöyle sordu: Müzik aletleri olmadan, tef ve şarkı kullanarak düğün istiyorlarsa, dini ihlallerden kim sorumludur ve özel bölgeleri kapatmamaları ve arkadan iğnemekten kaçınmamaları konusunda uyardılar. Geçimini para gerektiren ve günah taşıyan bir partiye harcama korkusundan bahsetti. {cite:islamweb fatwa 539261}
+
+## Cevap
+
+Merkez, soru soran kişinin evliliğinde bereket diledi ve nişanlısının karışık olmayan ve müzik aletleri içermeyen meşru bir düğün istemesi için Allah'a şükretti. Kutlamanın salonda yapılmasının zararı olmadığını, eğlence veya [[person/abdullah-ibn-al-zubayr|tef çalma olsa da zarar görmediğini, Abdullah ibn al-Zubayr]]'ın bu evliliği ilan eden Ahmed ile hadisini ve Ahmad, al-Tirmidi, el-Nasa'i, İbn Macah'in rivayet ettiği ve Qarza'dan al-Nasa'i tarafından rivayet edilen tef ile evlilik sesiyle ayıran hadisleri aktardı. İbn Ka'b ve Ebu Mesud el-Ensari, düğünlerde eğlenmelerine izin verildiğini söylediler. [[person/aisha|]] Sahih al-Buhari [[work/sahih-al-bukhari|'deki Aişe]]'nin hadislerine göre, kadın bir kadını Ensar'dan bir erkekle evlendirdi ve Peygamber ona, 'Sahip olduğun şey eğlence içindir, Ensar için eğlence gibi.' {cite:islamweb fatwa 539261} Ahmed [[work/al-sharh-al-kabir-ala-al-muqni|, Büyük Teâhyet]][[person/ahmad-ibn-hanbal|'in yazarı İbn Kudəm'den]] alıntı yaptı; kendisi, evliliğin ünlü ve tanınmış olması için gösteriş yapmanın ve tefin çalmanın tavsiye edildiğini ve düğünlerde flört etmenin yanlış olmadığını söyledi; Peygamber'in Ensar'a şöyle dediği gibi: 'Sana geldik, sana geldik, o halde selam ver, biz de seni selamlayalım.' {cite:islamweb fatwa 539261}
+
+Sırtından ısıran veya suç işleyenlere gelince, merkez, soran kişinin bundan memnun değilse üzerinde hiçbir şey olmadığını söyledi ve onları suça karşı uyardı. [[person/ibn-taymiyya|İbn Teymiyye'den rivayet]] edilmiştir ki, inkar etmeyen, yalan söyleyen, arkadan söylenen ve yanlışlıkla şarkı söyleyen kişi Müslümanların mutabakatıyla günahkar değildir. Kalbiyle, diliyle ya da eliyle inkar etmeden oturup dinleyen kişi, anlaşmalarına göre günahkardır, [[passage/quran-6-68|El-An'ayetleriyle: 68-69]] ve [[passage/quran-4-140|An-Nisa: 140]]; dinleyenin inkâr etmeden yapanı aynı şekilde yaptığını belirtir. Bu nedenle, dinleyicinin sırt saçan kişinin ortağı olduğu söylenir. Raporda, günahı gören ve ondan nefret eden kişi, günahtan uzak olan gibidir; ondan uzaklaşan ve memnun olan ise, onu gören kişi gibidir. Eğer bir ihtiyaçtan tanıklık ederse, kalbinde inkar eder çünkü aranızda bir kötülük gören kişinin hadisi sayesinde eliyle değiştirsin; yapamazsa diliyle; yapamazsa kalbiyle değiştirsin. {cite:islamweb fatwa 539261} Merkez, [[passage/quran-17-26|Al-Tabzir'deki El-İsra: 26-27]] ayetleri ve Savurgaklık [[passage/quran-6-141|üzerine 141]] ayetleri ile s. [[passage/quran-38-86|86]] ayeti ile Buhari'nin [[person/umar-ibn-al-khattab|Ömer'den anlattıkları]] gösterişli davranışları yasaklayan ayetler ve El-Teberni, El-Hakim ve El-Bayhaki [[person/salman-al-farisi|'nin Selman'dan Peygamber'in misafirler için gösterişli olmalarını yasakladığını anlattıkları ile savurganlık, savurganlık ve gösterişten kaçınılmasını]] önerdi. Soru soranın düğününü düzenlemeye çalışması ve yükünü yükleyen borçlara yol açabilecek masrafları azaltması, gösterişten kaçınmanın ise geçim harcamalarına yol açmayacağını söyledi. {cite:islamweb fatwa 539261}
+
+## Bu albüm hakkında
+
+IslamWeb'deki Fetva Merkezi, bu fetvayı web sitesinde 16 Cumedül-Avvel 1448 tarihli islamweb.net No. 539261 yayımlamıştır ve bu tarih 27 Ekim 2026'ya karşılık gelmektedir. {cite:islamweb fatwa 539261} Müze, bu metni yayıncısına atfedilen tarihi bir belge olarak kaydetmekte ve herhangi bir fetva yayımlanmamıştır.

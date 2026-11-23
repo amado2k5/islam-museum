@@ -1,0 +1,12 @@
+---
+id: event/abu-al-qasim-addresses-the-covenant-breakers-and-the-sky-of-tyranny-in-verse-290
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/abu-al-qasim-addresses-the-covenant-breakers-and-the-sky-of-tyranny-in-verse-290.md}
+---
+## Özet
+Ebu el-Kasim ayrıca s. 267'de şöyle der: Ahini tutmayan, reform sözünü bozan, her yanlış yolculuğa uyan ve Aflahidlerin halinden nefret edenlere, el-Kasimi'den mızrakların akışıyla bulutlanacak bir bulut yağdıracaklar ve yıldırım kılıçlar gibi parlayacaktır. Haşim'den bir adam, 'Yesha'sında, Merhametli'nin zevkini arayan, kader onu yakalarsa umduğu şeyi elde edecektir. Yeryüzünü kâfirlerden arındıracak, büyükbabasının yolunu hoşgörüyle yönetecek ve her sabah onlara ölüm kadehini verecektir {cite:sira-hadi-ila-al-haqq p.267}. Ayrıca "adaletsizlik gökyüzü"ne hitap ederek, onların zorluklarla dolu olduklarını, bu kötülüklerin ulusun büyükbabasına karşı zulmü nedeniyle başlarına geldiğini, adaletsizlik ve yeniliklerle Allah'ın Kitabı'nı ihmal ettiklerini ve hadisleri {cite:sira-hadi-ila-al-haqq p.267} {cite:sira-hadi-ila-al-haqq p.268} sahte etmeye eğilimli olduklarını söyler.
+
+## Detaylar
+S. 268'de dine karşı öfkesinin sözlerinin büyümesine izin vermediğini, belki de dinden ölümünü yeniden canlandırdığını ve zayıfları baskıdan desteklediğini, düşmanların aptallıktan barış beklediğini, Tanrı Kitabı'nı mağara ve cenneti yaptığını ve Allah'ın hükmüyle yargısından sapanları tespit ettiğini, peygamberlik dalından bir rehberin oğlu olduğunu, mızrağını at ve kılıcıyla kullanıp kendini yıkıma atacağını ve düşmanlara Himyarit ve Qana {cite:sira-hadi-ila-al-haqq p.268} ile atıfta bulunduğunu belirtir. Kitaptaki şiir Ebu el-Kasım'a atfedilir ve müze bunun atfedilmesini doğrulamamıştır; dipnotta belirtildiği gibi sayfa kopyasından bir satır çıkarılmıştır. Tehditler, övünme ve muhalifleri yanlış yönlendirilmiş olarak nitelendirmek, şairin imamın takipçileri adına bir Zeydi kitabında söylediği sözler arasındadır ve müze için bu konuda herhangi bir karar yoktur. Müze, ayetleri açıkça iletmez veya suçlayıcı sözler içermez, sadece kitapta anlatılan anlamlarına dayanır. Öncesinde [[event/abu-al-qasim-ends-the-poem-of-the-lances-and-adds-the-courier-verse-290|'El-Rimah' şiirinin devamı ve yazının dizeleri yer almıştır]].

@@ -1,0 +1,15 @@
+---
+id: concept/zij-sabi-pole-altitude-and-longest-day-each-from-the-other
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/zij-sabi-pole-altitude-and-longest-day-each-from-the-other.md}
+---
+## Ringkasan
+Al-Battani mendedikasikan bab kedelapan dan kesembilan untuk transisi antara peningkatan hari yang lebih panjang dan elevasi tiang, yaitu lebar negara. Bab kedelapan memberikan elevasi peningkatan dengan rangkaian string yang dibangun di setengah busur hari, bab kesembilan memberikan setengah peningkatan lebar, lalu mengalikannya, dengan setiap lima belas derajat menjadi jam sedang, dan dua belas jam dijumlahkan untuk hari yang lebih panjang dan dikurangi untuk hari yang lebih pendek. {cite:zij-sabi-nallino-byblion pp.34-35}.
+
+## Bab Delapan: Peningkatan dari Peningkatan
+Ia berkata: Jika Anda ingin cakrawala hari utara naik di atas cakrawala, yaitu lebar negara, dari penambahan hari yang lebih panjang di atas ekuinoks, maka ambil setengah peningkatan, yaitu hari pertama Cancer, dan tambah dengan sembilan puluh, sehingga setengah busur cahaya siang menjadi yang terpanjang, atau kurangi sehingga setengah busur siang menjadi lebih pendek. Kemudian kurangi seluruh mil dari sembilan puluh dan tentukan tali sisanya, kalikan tendon setengah busur hari, dan bagi dengan jari-jari, sehingga busur yang diperoleh setelah awal hari pertama Cancer berasal dari titik utara. Kemudian dibuat rasio antara peluang kenaikan setengah hari dan jarak kenaikan dari titik utara dan jaraknya dari awal kehamilan pertama, diakhiri dengan membagi dengan tendon setengah busur hari dan busur tinggi tiang yang dihasilkan. Penjelasan rinci tentang pukulan dalam survei terganggu, dan yang disebutkan adalah struktur karya, bukan bentuk hurufnya. {cite:zij-sabi-nallino-byblion p.34}.
+
+## Bab Sembilan: Naik dari Ketinggian
+Ia mengatakan pada kesembilan: Jika Anda ingin panjang hari bertambah dan hari lebih pendek dari hari sedang dari tinggi kutub, ambil lintang dan tentukan ganjil dari lebar penuhnya hingga sembilan puluh, seluruh mil dan seluruh tali, lalu kalikan tendon lebar dengan seluruh mil, bagi dengan kemiringan sempurna, kalikan hasilnya dengan jari-jari, bagi dengan lebar sempurna, dan bagi dengan lebar penuh, dan busur hasilnya setengah dari peningkatan hari yang lebih panjang, yang juga setengah dari penurunan hari yang lebih pendek. Jumlahkan dua derajatnya sama, dan setiap lima belas derajat adalah jam sedang, kalikan dengan dua belas jam untuk hari yang lebih panjang, dan kurangi dari dua belas jam untuk hari yang lebih pendek. Dan untuk derajat lain, kemiringannya diterapkan alih-alih seluruh mil: jika di utara, maka kenaikan hari, dan jika di selatan, maka penurunan hari. {cite:zij-sabi-nallino-byblion p.35}.

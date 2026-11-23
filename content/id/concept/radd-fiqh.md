@@ -1,0 +1,13 @@
+---
+id: concept/radd-fiqh
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/radd-fiqh.md}
+---
+
+## Ringkasan
+Dalam linguistik, penolakan berarti morfologi, pengembalian, dan larangan. Dalam yurisprudensi, penolakan merujuk pada pengembalian sesuatu kepada pemilik atau pemilik sahnya, dan pembatalan kontrak dalam berbagai kasus. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8698} Wajib mengembalikan barang yang menjadi hak kepada orang lain, dan barang yang diambil alih atau dicuri harus segera dikembalikan. Dalam kontrak yang tidak diperlukan, penolakan diperbolehkan, dan dalam kontrak yang tidak sah, hal tersebut batal, dan menurut Hanafi, yang tidak sah dibatalkan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8698} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8699} Pemulihan batal jika kontrak dikoreksi, diperpanjang, atau hilangnya opsi. Para ahli hukum berbeda pendapat dalam memperbaiki kontrak yang cacat. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8700} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8701} Hanafi membedakan antara penolakan dengan putusan dan penolakan atas kesepakatan bersama, dan mayoritas tidak berbeda. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8701} Properti orang yang tidak mampu harus dikembalikan setelah mencapai masa pubertas. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8701} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8702} Dalam kesaksian, aturan asli adalah mengembalikannya dalam kasus kecurigaan dan tuduhan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8702} Dalam kasus sumpah, jika terdakwa gagal, ahli hukum berbeda pendapat apakah hakim memutuskan penolakan atau mengembalikan sumpah terhadap penggugat. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8702} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8703} Siapa pun yang mengambil properti orang lain tanpa hak, harus mengembalikannya; jika meninggal, kompensasi atau nilai yang setara wajib dibayar. Menurut aliran Hanafi, barang yang dicuri tidak bertanggung jawab. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8702} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8703} Beban pengembalian barang ada pada orang yang berutang pengembalian. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8703} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8704}
+
+## Lokasi Pencarian
+Sebutkan aturan refitulation dalam penjualan, sewa, kesaksian, dan sumpah di tempat yang tepat. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8703}

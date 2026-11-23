@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "564"
-label: { ar: "جامع الترمذي 564 — الأب والأبوة", en: "Jami' al-Tirmidhi 564 — the father and fatherhood", ur: "جامع ترمذی 564 — باپ اور والدیت", es: "Jami' al-Tirmidhi 564 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 564 — le père et la paternité" }
+label: { ar: "جامع الترمذي 564 — الأب والأبوة", en: "Jami' al-Tirmidhi 564 — the father and fatherhood", ur: "جامع ترمذی 564 — باپ اور والدیت", es: "Jami' al-Tirmidhi 564 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 564 — le père et la paternité", tr: "Cami' el-Tirmizi 564 — Baba ve Babalık", id: "Jami' al-Tirmidhi 564 — Sang Ayah dan Peran Ayah" }
 text: "… مُحَمَّدُ بْنُ عَبْدِ الْمَلِكِ بْنِ أَبِي الشَّوَارِبِ، حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، حَدَّثَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، أَنَّ النَّبِيَّ صَلَّى صَلاَةَ الْخَوْفِ بِإِحْدَى الطَّائِفَتَيْنِ رَكْعَةً وَالطَّائِفَةُ الأُخْرَى مُوَاجِهَةُ الْعَدُوِّ ثُمَّ انْصَرَفُوا فَقَامُوا فِي مَقَامِ أُولَئِكَ وَجَاءَ أُولَئِكَ فَصَلَّى بِهِمْ رَكْعَةً أُخْرَى ثُمَّ سَلَّمَ عَلَيْهِمْ فَقَامَ هَؤُلاَءِ فَقَضَوْا رَكْعَتَهُمْ وَقَامَ هَؤُلاَءِ فَقَضَوْا رَكْعَتَهُمْ. قَالَ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 564، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 564، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 564 (El Libro de los Viajes), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 564 (Le Livre du Voyage), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Cami' el-Tirmizi'nin 564 numaralı hadisinde baba ve babalık konusu ele alınmaktadır. Araştırmacı, bu hadisi, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alıntılarla birlikte derlemiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 564, menyebutkan tentang ayah dan peran ayah. Peneliti mengumpulkan hadits tentang peran ayah dalam Islam ini bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 564 (book 6 hadith 21); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

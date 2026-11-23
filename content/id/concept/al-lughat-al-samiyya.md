@@ -1,0 +1,24 @@
+---
+id: concept/al-lughat-al-samiyya
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/al-lughat-al-samiyya.md}
+---
+## Ringkasan
+Halaman ini menyajikan apa yang dikatakan Ensiklopedia Inggris tentang posisi [[language/arabic|bahasa Arab]] dalam keluarga Semit: afiliasinya dengan Afroasiatik, cabang-cabang yang disepakati para peneliti, perbedaan pendapat mengenai klasifikasinya, dan apa yang dibagikan dengan saudara-saudaranya, yaitu bahasa Malta. Segala sesuatu di dalamnya dikaitkan dengan artikel ensiklopedia yang dibaca, sebuah klasifikasi yang masih dalam perdebatan menurut ensiklopedia itu sendiri.
+
+## Keluarga Tinggi
+Ensiklopedia tersebut menyatakan dalam artikel tentang bahasa Semit bahwa bahasa ini adalah cabang dari keluarga Afroasiatik, yang menyebar di Afrika Utara dan Asia Barat Daya lebih dari empat ribu tahun yang lalu, dan bahwa bahasa terpenting dalam hal jumlah penutur pada awal abad kedua puluh satu adalah Arab {cite:britannica-semitic-languages}. Bahasa modern lainnya termasuk Ibrani dengan sekitar enam hingga tujuh juta penutur, Amharik dengan sekitar tujuh belas juta, dan Tigrinya dengan sekitar lima juta delapan ratus ribu menurut halaman tersebut. Untuk angka yang terkait dengan bahasa Arab, lihat [[concept/al-arabiyya-fi-al-alam-al-yawm|Arab di Perserikatan Bangsa-Bangsa dan UNESCO serta jumlah penuturnya]].
+
+## Klasifikasi Arab
+Dalam bagian klasifikasi, ensiklopedia menyatakan bahwa klasifikasi bahasa Semit masih dalam perdebatan, dan para peneliti sebagian besar sepakat pada kelompok yang merupakan Akkadia, Semitik Barat Laut (yang mencakup Kanaan dan Aram dengan Ugaritik dan Amoritik, Arab Kuno, Arab Selatan, dan Arab Selatan Modern yang tidak berasal dari Zaman Kuno, serta Abyssinia). Akkadia dianggap sebagai cabang timur independen dari Semitik Barat dan Semitik Barat. Banyak peneliti mengaitkan bahasa Arab dengan Semitik Barat Laut dalam cabang yang disebut Semitik Tengah, sementara yang lain melihatnya sebagai cabang independen atau cabang dalam Semitik Selatan {cite:britannica-semitic-languages}. Dalam artikel tentang bahasa Arab, hubungannya dengan bahasa Semit lain diperdebatkan, dan teori yang paling banyak diterima menempatkannya dalam bahasa Semitik Tengah sebagai yang paling dekat dengan Aram dan Kanaan berdasarkan struktur kata kerja {cite:britannica-arabic-language}. Mengenai [[place/arabian-peninsula|Semenanjung Arab]], artikel tentang bahasa Semitik menyatakan bahwa bahasa Arab sangat terkait dengan bahasa Semitik utara, yaitu Lihyanite, Safa'i, dan Thamudic {cite:britannica-semitic-languages}.
+
+## Apa yang dimiliki Arab dengan saudara-saudaranya
+Ensiklopedia menyebutkan bahwa jamak pecah umum ditemukan pada Arab, Abyssinian, dan Arab selatan, baik yang kuno maupun modern, dan bahwa bunyi 'fa' yang berasal dari bunyi 'p' dalam Semitik Pertama juga digunakan oleh Arab, Abyssinia, dan Arab Selatan modern {cite:britannica-semitic-languages}. Dalam artikel bahasa Arab, terdapat huruf cincin, identitas frikatif, dan huruf penekanan, tiga vokal pendek dan tiga vokal panjang, serta akar khas terdiri dari tiga huruf bisu dengan pola: kaf, ta, dan ba dengan meter yang menghasilkan huruf dan penulis. Isinya berisi waktu, tiga orang, tiga angka—tunggal, ganda, jamak, dan dua gram, serta tiga kasus tata bahasa yang sebagian besar hilang dalam dialek lisan {cite:britannica-arabic-language}. Untuk akar dan meter di antara orang kuno, lihat [[concept/khasais-al-arabiyya|karakteristik bahasa Arab menurut Ibn Faris dan Ibn Jinni]].
+
+## bahasa Malta
+Artikel tentang bahasa Malta menyatakan bahwa bahasa ini adalah bahasa Semitik dari Kelompok Tengah Selatan yang digunakan di pulau [[place/malta|Malta]], berasal dari dialek Arab dan sangat terkait dengan dialek Arab Barat di Aljazair dan Tunisia. Bahasa Sisilia sangat memengaruhinya, dan merupakan satu-satunya bentuk bahasa Arab yang ditulis dengan huruf Latin {cite:britannica-maltese-language}. Artikel tentang bahasa Semit menyatakan bahwa bahasa ini berasal dari dialek Arab dan penuturnya sekitar 370.000 {cite:britannica-semitic-languages}.
+
+## kecuali halaman ini memberitahunya
+Saya hanya membaca artikel dari Encyclopaedia Britannica, yang merupakan referensi tersier, dan belum membaca studi tentang perselisihan mengenai klasifikasi asal Semit itu sendiri atau buku khusus tentang Lihyanisme, Safaiyya, dan Thamudisme. Halaman ini tidak merinci argumen yang menjadi dasar para peneliti berdasarkan klasifikasi tersebut. Halaman ini belum membaca apa yang dikatakan ahli bahasa Arab kuno tentang hubungan antara Arab, Suryani, dan Ibrani.

@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-leaves-his-son-at-sada-and-goes-down-to-najran-where-banu-al-harith-ask-pardon-289
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/al-hadi-leaves-his-son-at-sada-and-goes-down-to-najran-where-banu-al-harith-ask-pardon-289.md}
+---
+## Ringkasan
+Ketika [[person/al-hadi-yahya-al-rassi|al-Hadi]] tiba [[place/saada|di Sa'dah]] pada hari-hari terakhir Jumada al-Akhirah, ia menggantikan putranya [[person/al-murtada-muhammad|Abu al-Qasim]] (semoga Allah menghormatinya, menurut narator) sebagai gubernur Sa'dah. Ia turun ke [[place/najran|Najran]], di mana [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Muhammad ibn Ubayd Allah]], putra-putranya, dan sekelompok dari Hamdan menemuinya di dekat benteng. Ia menghabiskan malam itu {cite:sira-hadi-ila-al-haqq p.242}.
+
+## Detail
+Ketika [[group/banu-al-harith-ibn-kab|Banu al-Harith mengetahui]] kedatangannya di kota, mereka takut akan keselamatan mereka. Sekelompok dari mereka datang kepadanya dan meminta agar dia mengampuni mereka serta menerima apa yang mereka bawa. Dia menjawab permintaan mereka dan memberikan apa yang mereka kumpulkan dari pajak dengan syarat mereka membayar iuran kepada rakyat. Mereka mengumpulkan dia bersama, dan dia mengampuni mereka, mengamankan mereka, dan berjalan bersama pasukannya sampai dia memasuki desa [[place/al-hajar-najran|Hajr]] dan tinggal di sana selama beberapa hari {cite:sira-hadi-ila-al-haqq p.242}. Narator mengatakan bahwa jiwa mereka senang dengan apa yang mereka lihat darinya karena dia tidak melakukan pengkhianatan atau pelanggaran kepercayaannya, dan mereka tetap bersyukur dan berjanji kepada Tuhan Mereka tidak boleh terburu-buru berdosa terhadapnya atau bersekutu dengan musuhnya {cite:sira-hadi-ila-al-haqq p.242}; ini berasal dari deskripsi narator tentang pengikut Imam, bukan dari pemerintahan museum. Akan disebutkan di halaman-halaman berikutnya bahwa masalah ini tidak bertahan lama. Di sini, 'Abu al-Qasim,' putra al-Hadi, kemungkinan adalah al-Murtada, sehingga ia menyampaikannya tanpa kepastian. Laporan ini terkait dengan [[event/al-hadi-leaves-sanaa-for-sada-with-no-funds-and-al-daam-declines-to-help-289]].

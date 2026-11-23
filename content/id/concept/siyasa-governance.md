@@ -1,0 +1,56 @@
+---
+id: concept/siyasa-governance
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/siyasa-governance.md}
+---
+## Definisi
+Dalam bahasa, politik berarti melakukan sesuatu dengan cara yang sesuai, dan dari situ menjadi 'sāsā' (sāṣāḥ al-daaba) ketika diinginkan, dan 'sāṣā' (gubernur) rakyat ketika ia memerintahkan dan melarang mereka. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9867}
+Dalam terminologi, ada dua makna: yang pertama adalah istilah umum yang berkaitan dengan negara dan otoritas, yaitu reformasi rakyat dengan membimbing mereka ke jalan keselamatan dan mengelola urusan mereka. Para sarjana menyebutnya sebagai pemerintahan sultan, politik hukum, atau politik sipil. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9868} Yang kedua berkaitan dengan hukuman, yaitu tindakan sesuatu oleh penguasa untuk manfaat yang dianggap pantas, meskipun tindakan tersebut tidak dianggap sebagai bukti parsial. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9869}
+Ta'zir lebih spesifik daripada politik, dan tujuannya adalah kepentingan pribadi, yaitu menjaga tujuan Syariah dengan menjaga agama, kehidupan, intelek, garis keturunan, dan kekayaan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9869}
+
+## Putusan yang Diwajibkan
+Hanafi, Maliki, dan Hanbal berpendapat bahwa penguasa memiliki kewenangan untuk menjalankan politik dalam mengelola urusan rakyat dan memperbaiki kecurangan sesuai standar dan peraturan, dan hal itu tidak bergantung pada apa yang dinyatakan Syariah. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9870}
+Hanafi mengatakan bahwa politik berada di bawah aturan Syariah, meskipun tidak secara eksplisit dinyatakan mengenainya. Al-Qarafi dari Malikis mengatakan bahwa memperluas penguasa dalam aturan politik tidak bertentangan dengan Syariah. Ibn al-Qayyim menyebutkan bahwa Khalifah yang Dipandu dengan Tepat melakukan apa yang tidak secara eksplisit dinyatakan dan memperingatkan agar tidak melarang politik secara berlebihan dengan membatasi diri pada teks, dan kelalaian oleh mereka yang mengira hal itu memungkinkan penguasa melakukan apa pun yang diinginkan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9870}
+Adapun para Syariah, mereka berpendapat bahwa politik harus berada dalam batas Syariah dan tidak melebihinya, sampai mereka mengatakan tidak ada politik kecuali yang sesuai dengan Syariah. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9871}
+
+## Bagian Kebijakan
+Politik terbagi menjadi penindas yang dilarang oleh Syariah, dan yang hanya mengungkapkan kebenaran, mencegah ketidakadilan, mencegah orang korup, dan mencapai tujuan yang sah, yang menjadi kewajiban Syariah. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9871}
+Pemerintahan dan politik adalah satu dan sama pada masa Nabi dan Khalifah yang Dibimbing dengan Benar, tetapi kemudian pemisahan antara Syariah dan politik menjadi jelas ketika mereka yang berkuasa mulai memerintah berdasarkan keinginan. Ibn al-Qayyim berkata bahwa membagi jalan menjadi Syariah dan politik adalah pembagian palsu, karena politik terbagi menjadi benar dan korup; Sahiha adalah bagian dari Syariah. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9871}
+
+## Kebijakan baik Imam untuk para subjek
+Politik yang baik menyebarkan keamanan dan meyakinkan orang tentang kepentingan dan kekayaan mereka, sehingga kekayaan tumbuh, kemakmuran menyebar, dan agama menjadi lebih kuat. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9872}
+Kebijakan tegas adalah kebijakan di mana Imam berada di antara kelembutan dan kekerasan, mengutamakan kelembutan dan panggilan baik daripada hukuman, serta fokus pada reformasi agama masyarakat. Bantuan terbesar untuk ini adalah tiga: kesungguhan kepada Allah dan ketergantungan kepada-Nya, kebaikan kepada sesama manusia, dan kesabaran menghadapi bahaya mereka. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9872} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9873}
+
+## Aturan Kebijakan Syariah
+Dasar pertama adalah supremasi Syariah: Al-Qur'an menegaskannya di beberapa tempat, menyatakan bahwa penghakiman hanya milik Allah, dan pertanggungjawaban di akhirat didasarkan pada Syariah ini. Al-Qur'an didukung oleh perintah untuk mengikuti Syariah dan meninggalkan keinginan, serta memerintahkan untuk mengikuti apa yang Allah wahyukan, termasuk Sunnah. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9873} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9874}
+Ini tidak berarti menghilangkan Imam dari mengadopsi peraturan yang diperlukan bagi negara, karena peristiwa tidak berakhir, tetapi hak ini terbatas pada tidak bertentangan dengan teks atau prinsip Islam, dan melayani kepentingan bangsa, setelah berkonsultasi dengan para ahli di antara ahli hukum dan lainnya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9874}
+Dasar kedua adalah konsultasi, karena pemerintahan adalah sebuah kepercayaan, dan Imam harus berkonsultasi dengan ulama yang berpraktek dan tulus. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9875}
+Dasar ketiga adalah keadilan, yang merupakan atribut pemersatu dari pesan-pesan tersebut. Umar mengatakan tidak ada konsesi dalam hal ini, baik dekat maupun jauh, dan Ibn Taymiyyah mengatakan bahwa ini wajib bagi semua orang dan segala sesuatu. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9875}
+
+## Sumber Otoritas
+Penunjukan seorang imam adalah kewajiban agama dan wajib bagi mereka yang sah dan kontrak untuk bersumpah setia. Ia bertanggung jawab atas putusan Syariah, berkewajiban mematuhi apa yang sah dan tidak sah, serta bertanggung jawab menerapkannya dalam urusan negara. Para ahli hukum telah mendukung kewajiban imam dengan mengucapkan dalam Surah Al-Baqarah (30), hadis tentang kewajiban salah satu dari tiga imam untuk bepergian, dan kelemahan beberapa naratornya menurut Al-Haythami. Al-Shawkani mengatakan ini menunjukkan kewajiban untuk mengangkat imam dan gubernur, dan ini adalah kewajiban bulat. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9875} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9876}
+
+## Hak dan kewajiban Imam
+Al-Mawardi dan Abu Ya'la berpendapat bahwa Imam memiliki dua hak: ketaatan dan dukungan, dan Ibn Jama'ah menganggapnya sepuluh, termasuk nasihat, kehormatan, bimbingan jika terjadi kesalahan, peringatan musuh, dan bantuan. Hak-hak ini hanya ada jika ia taat kepada Tuhan dan memenuhi hak-hak bangsa. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9876} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9877}
+Tugas Imam dikelompokkan menjadi sepuluh kali: menjaga agama dan menyebarkan pengetahuan, menjaga negara dan menjaga keamanan, menangani perselisihan dan menegakkan keputusan, menegakkan keadilan, menegakkan hukuman hudud, menetapkan kewajiban jihad, membangun negara, mengumpulkan kekayaan tanpa kekerasan dan menggunakannya untuk kepentingan sendiri, mengangkat wali berpengalaman, serta mengawasi urusan negara. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9877} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9878}
+
+## Merekrut dan memberhentikan pekerja
+Imam tidak bisa memerintah sendirian; ia menunjuk para gubernur. Nabi melakukan ini di Madinah, mengangkat Attab ibn Asid sebagai gubernur Mekah, dan mengirim Muadh serta Abu Musa ke Yaman. Para khalifah mengikuti, dan para ahli hukum mengakui bahwa mengangkat gubernur adalah tugas Imam. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9878}
+Imam menunjuk orang-orang yang beragama, suci, berakal, jujur, dapat dipercaya, tegas, dan kompeten sesuai dengan sifat pekerjaan. Ia memilih yang terbaik satu per satu, bukan diangkat sesuai keinginannya sendiri, dan pilihan hanya dibuat setelah ujian dan ujian. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9879}
+Imam harus memastikan bahwa pekerjanya tidak dirugikan, bahwa mereka yang berhak dipromosikan, bahwa pelaku bertanggung jawab, bahwa ia tidak mengampuni hukuman atau pelanggaran hak subjek, memecat mereka yang mengabaikan tugasnya jika tidak mungkin untuk mengoreksinya, dan bahwa ia harus mencari bantuan dari kantor staf yang memberinya informasi tentang urusan negara. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9879} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9880}
+
+## Politik dalam Keuangan dan Negara Bagian
+Di sini, dana merujuk pada dana kepentingan publik yang disetorkan ke kas negara, dan jenisnya dirinci dalam istilah "Bayt al-Mal." {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9880}
+Imam bertanggung jawab merawat tentara, mempersiapkannya, mengamankan dana yang diperlukan, memeriksa kondisi hakim, menanyakan perilaku individu yang dapat dipercaya, dan memberikan zakat kepada mereka yang hanya Muslim yang mengetahui keputusannya. Kewenangannya dapat berupa pajak tanpa pembagian. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9880} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9881}
+Pemberontak bersenjata terorganisir dianggap murtad jika mereka memberontak terhadap agama, dan provokator jika mereka memberontak terhadap Imam. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9881}
+
+## Hukuman adalah kebijakan
+Hukuman ini dibagi menjadi hukuman tetap menurut hukum Islam, yaitu hudud dan qisa, serta hukuman non-tetap, yang merupakan hukuman diskresioner. Adapun hukuman dalam politik, hukuman ini berlaku untuk kejahatan atau ketidaktaatan dan setara dengan hukuman diskresioner; ulama Hanafi menyatakan bahwa menggali tidak membatasi pencurian, dan tangan penggali biasa dapat dipotong karena alasan politik. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9881}
+Hanafi dan Malikis menyatakan bahwa Imam diperbolehkan memenjarakan siapa pun yang diketahui melakukan kejahatan terhadap orang atau harta benda, meskipun ia tidak melakukan hal baru, sampai ia bertobat, sama seperti Utsman memenjarakan mereka yang dikenal mencuri hingga ia meninggal. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9881} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9882}
+
+## Kebijakan Imigrasi dan Pembunuhan
+Sudah ditetapkan bahwa Nabi memaafkan orang yang feminin dan memerintahkan pengusiran serta pengasingan mereka, mengasingkan Umar, si peminum, ke Khaybar, dan mengasingkan Nasr ibn Hajjaj ketika ia takut godaan wanita karena kecantikannya. Oleh karena itu, diperbolehkan mengasingkan orang-orang seperti itu ke negara yang dipercaya korupsi, dan jika mereka takut akan mereka, mereka akan dipenjara. Ahmad mengadopsi ini karena sebelum itu terjadi karena takut akan kebejatan, bukan sebagai hukuman. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9882}
+Pengasingan seorang pezina yang belum menikah setelah dicambuk disebutkan dalam hadits Zayd ibn Khalid, yang menurut sebagian besar ahli hukum adalah bagian dari hudud. Hanafi mengatakan itu bukan hudud dan diperbolehkan memenjarakannya secara politik sesuai dengan apa yang dianggap tepat oleh Imam. Hanbal berpendapat bahwa penahanan setelah hudud dilarang; jika dia tidak bertobat, diperbolehkan memenjarakannya sampai dia bertobat. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9882} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9883}
+Beberapa ahli hukum mengizinkan pembunuhan karena alasan politik dalam kejahatan tertentu, dan menetapkan istilah "ta'zir." Para ulama berbeda pendapat mengenai siapa yang berhak menjatuhkan hukuman secara politik: apakah itu imam dan wakilnya atau hakim. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9883}

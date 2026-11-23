@@ -1,0 +1,35 @@
+---
+id: person/dey-hussein
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/dey-hussein.md}
+---
+
+## Ringkasan
+
+Dey Hussein, lahir dengan nama Hussein bin Hussein, adalah Dey kedua puluh tujuh dan terakhir dari Eyalet Aljir, memerintah dari 1 Maret 1818 hingga invasi Prancis pada tahun 1830 {cite:wikipedia-dey-hussein-en}. Ia terutama diingat tentang Insiden Fan tahun 1827, yang merupakan penghinaan diplomatik yang digunakan Prancis sebagai dalih untuk mengepung dan kemudian menyerbu Aljir {cite:wikipedia-dey-hussein-en}.
+
+## Asal-usul dan kebangkitannya
+
+Hussein lahir di İzmir atau di Orla di Kekaisaran Ottoman {cite:wikipedia-dey-hussein-en}. Artikel Arab menambahkan bahwa ayahnya adalah perwira di korps artileri, menerima pelatihan khusus dan dikirim ke Istanbul untuk belajar di sekolah swasta sebagai prajurit biasa, dan bahwa dia berdagang tembakau di masa mudanya hingga dijuluki 'Khoja' {cite:wikipedia-dey-hussein-ar}. Artikel berbahasa Inggris menyebutkan bahwa dia bergabung dengan korps artileri di Istanbul dan dengan cepat naik pangkat menjadi Odabashi, tetapi persaingan memaksanya melarikan diri, sehingga dia pergi ke Eyalet Algiers — sebuah negara yang dikenal menerima buronan — bergabung dengan Ojaks dan menjadi Janissary {cite:wikipedia-dey-hussein-en}. Pada tahun 1815, Khoja al-Khail diangkat sebagai menteri yang bertanggung jawab untuk menggerakkan komando ksatria Dey dan memungut pajak, serta memimpin pasukan pendukung kavaleri selama pengeboman Inggris di Aljazair pada tahun 1816 {cite:wikipedia-dey-hussein-en}. Pada tahun 1818, setelah kematian Dey sebelumnya, Diwan Algiers memilihnya sebagai penguasa {cite:wikipedia-dey-hussein-en}; artikel Arab menambahkan bahwa Omar Pasha yang sekarat telah merekomendasinya dalam surat wasiatnya, dan bahwa Sublime Porte mengonfirmasi pengangkatan tersebut melalui dekret dari Sultan Mahmud II {cite:wikipedia-dey-hussein-ar}.
+
+## Kebijaksanaan
+
+Dey Hussein mengambil alih pemerintahan Aljazair pada Maret 1818 {cite:wikipedia-dey-hussein-en}. Ia mengambil langkah-langkah termasuk menjamin kebebasan beragama bagi orang Yahudi, dan di bawah ancaman aksi militer Inggris yang diperbarui, ia membebaskan budak Kristen Eropa {cite:wikipedia-dey-hussein-en}. Pada tahun 1824, konsul Inggris yang menekannya untuk memperbarui perjanjian tahun 1816 melawan perbudakan Kristen Eropa, diusir; armada Inggris mundur dan kembali setelah dua minggu, dan perjanjian tersebut diperbarui dengan ancaman pengeboman {cite:wikipedia-dey-hussein-en}. Artikel berbahasa Arab menyebutkan bahwa ia mengorganisasi administrasi dan mereformasi tentara, terutama armada, membangun dan melengkapi galangan kapal, dan kehidupan ekonomi meningkat secara signifikan selama masa pemerintahannya {cite:wikipedia-dey-hussein-ar}.
+
+## Insiden Kipas dan Invasi
+
+Pada tahun 1890-an, Prancis mengontrak pembelian gandum untuk tentaranya dari dua pedagang Yahudi di Aljazair, Bakri dan Bosnakh, tetapi menunda pembayaran; para pedagang itu sendiri berutang uang kepada Dey dan gagal membayar sampai Prancis membayar mereka {cite:wikipedia-dey-hussein-en}. Setelah pertemuan yang penuh gejolak pada 29 April 1827, di mana Konsul Prancis Pierre Duval menolak memberikan jawaban meyakinkan, Dey memukulnya dengan baling-balingnya {cite:wikipedia-dey-hussein-en}. Charles X menuntut permintaan maaf dan kemudian memberlakukan pengepungan ke Aljazair; ketika Dey menanggapi permintaan untuk mengirim duta besar membombardir salah satu kapal blokade dengan meriam, Prancis memutuskan untuk mengambil tindakan lebih tegas {cite:wikipedia-dey-hussein-en}. Pada 14 Juni 1830, 34.000 tentara Prancis mendarat di Sidi Faraj, barat Aljir, dan memasuki kota pada 5 Juli setelah kampanye tiga minggu {cite:wikipedia-dey-hussein-en}. Dey Hussein setuju untuk menyerah sebagai imbalan atas kebebasannya dan mempertahankan kekayaan pribadinya; dengan demikian era Dey berakhir dan kekuasaan Prancis dimulai di Aljazair {cite:wikipedia-dey-hussein-en}. Artikel berbahasa Arab merinci perlawanan yang ia organisir selama dua puluh satu hari, melalui Pertempuran Stauuli dan pertahanan Kasbah {cite:wikipedia-dey-hussein-ar}.
+
+## Pengasingan dan Kematiannya
+
+Pada 15 Juli 1830, Dey Hussein meninggalkan Aljazair bersama keluarga, wanita, dan harta pribadinya dengan kapal Prancis 'Joan of Arc' {cite:wikipedia-dey-hussein-en}. Charles X menolak permintaannya untuk tinggal di Prancis, sehingga ia menetap di Italia — Napoli dalam novel esai Inggris, dan Livorno dalam novel esai Arab, yang menambahkan bahwa ia tinggal selama tiga tahun dari 1830 hingga 1833 sebelum akhirnya menetap di Alexandria pada September 1833 {cite:wikipedia-dey-hussein-en} {cite:wikipedia-dey-hussein-ar}. Ia meninggal di Alexandria pada tahun 1838 {cite:wikipedia-dey-hussein-en}. Salah satu lingkungan di Algiers dinamai namanya, dan tim sepak bola 'Nasr Hussein Dey' berbasis di sana {cite:wikipedia-dey-hussein-en}.
+
+## Keyakinan
+
+Tidak ada sumber yang membaca aliran yurisprudensi dari orang yang sama yang menyebutkan agamanya; bagian informasi artikel Inggris dan Arab mencantumkan agamanya sebagai "Islam Sunni," dan Wikidata hanya memuat entri umum "Islam" {cite:wikipedia-dey-hussein-en} {cite:wikipedia-dey-hussein-ar} {cite:wikidata-dey-hussein}. Karya terdokumentasinya sepenuhnya disebutkan dalam catatannya: artikel Arab menyebutkan bahwa ia menghafal Al-Qur'an, dikenal sejak muda karena budaya dan komitmen keagamaannya, melayani sebagai imam, dihormati oleh rakyat Aljazair karena kesalehannya, dan hanya mengeluarkan putusan dengan merujuk pada ulama {cite:wikipedia-dey-hussein-ar}. Provinsi yang ia pimpin adalah provinsi Ottoman yang didirikan oleh Awjak menurut mazhab Hanafi, sementara sebagian besar subjeknya adalah Maliki Aljazair; ini adalah kerangka kelembagaan tanpa menyebutkan sekolah Dey itu sendiri, sehingga kepercayaannya dicatat secara anonim.
+
+## Catatan untuk Peneliti
+
+Tahun kelahirannya diperdebatkan: artikel bahasa Inggris menempatkannya sebagai 1764/65, sementara artikel Arab, Urdu, dan Wikidata menempatkannya sekitar 1773 {cite:wikipedia-dey-hussein-ur} {cite:wikidata-dey-hussein}; catatannya didasarkan pada 1765 sambil mempertahankan perselisihan, dan İzmir diikuti terkait tempat kelahiran sesuai kesepakatan artikel Arab dan Wikidata tentang itu dengan salah satu opsi artikel bahasa Inggris. Tiga tahun Italia-nya menjadikannya artikel bahasa Inggris di Napoli dan artikel Arab di Livorno {cite:wikipedia-dey-hussein-ar}. Tanggal kematiannya di Wikidata, 30 Oktober 1838, diulang dalam kolom informasi artikel Arab dan Urdu dari sumber daring yang sama, karena itu adalah nilai struktural tunggal yang tidak diadopsi; teks artikel hanya mendukung tahun 1838 di Alexandria {cite:wikidata-dey-hussein}.

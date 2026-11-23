@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "3795"
-label: { ar: "سنن ابن ماجه 3795 — ساعة الاحتضار والوفاة", en: "Sunan Ibn Majah 3795 — a deathbed and last hours", ur: "سنن ابن ماجہ 3795 — وقتِ وفات اور آخری لمحات", es: "Sunan Ibn Majah 3795 — lecho de muerte y últimas horas", fr: "Sunan Ibn Majah 3795 — Le lit de mort et les dernières heures" }
+label: { ar: "سنن ابن ماجه 3795 — ساعة الاحتضار والوفاة", en: "Sunan Ibn Majah 3795 — a deathbed and last hours", ur: "سنن ابن ماجہ 3795 — وقتِ وفات اور آخری لمحات", es: "Sunan Ibn Majah 3795 — lecho de muerte y últimas horas", fr: "Sunan Ibn Majah 3795 — Le lit de mort et les dernières heures", tr: "Sunan İbn Majah 3795 — Ölüm Vakti ve Vefat", id: "Sunan Ibn Majah 3795 — Hari Sabat dan Kematian" }
 text: "… بْنِ أَبِي خَالِدٍ، عَنِ الشَّعْبِيِّ، عَنْ يَحْيَى بْنِ طَلْحَةَ، عَنْ أُمِّهِ، سُعْدَى الْمُرِّيَّةِ قَالَتْ مَرَّ عُمَرُ بِطَلْحَةَ بَعْدَ وَفَاةِ رَسُولِ اللَّهِ ـ فَقَالَ مَا لَكَ مُكْتَئِبًا أَسَاءَتْكَ إِمْرَةُ ابْنِ عَمِّكَ قَالَ لاَ وَلَكِنْ سَمِعْتُ رَسُولَ اللَّهِ ـ يَقُولُ \" إِنِّي لأَعْلَمُ كَلِمَةً لاَ يَقُولُهَا أَحَدٌ عِنْدَ مَوْتِهِ إِلاَّ كَانَتْ نُورًا لِصَحِيفَتِهِ وَإِنَّ جَسَدَهُ وَرُوحَهُ لَيَجِدَانِ …"
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 3795، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابن ماجہ کی حدیث نمبر 3795، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Ibn Majah, n.° 3795 (Etiqueta), menciona el lecho de muerte y las últimas horas. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sunan Ibn Majah, n° 3795 (Étiquette), évoque le lit de mort et les dernières heures. Le navigateur de textes sacrés le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, des dernières heures, des biens, des reliques et des tombes."
+  tr: "İbn Majah'ın Sünen'inde yer alan 3795 numaralı hadis, ölüm anını ve ölüm sürecini konu almaktadır. Bu hadis, vasiyetnameler, miras, tarihi yerler ve türbeler üzerine araştırmalar yapan uzmanlar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan Ibn Majah, no. 3795, menyebutkan tentang saat kematian dan proses sekarat. Hadits ini dikumpulkan oleh para peneliti wasiat, warisan, situs bersejarah, dan tempat-tempat suci, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ihtidar, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3795 (book 33 hadith 139); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

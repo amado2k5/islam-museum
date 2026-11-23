@@ -1,8 +1,8 @@
 name: Deploy all parts to production
 
 # PRODUCTION: every part of one "Build islam.museum by language" run, in one start. It runs the shared deploy
-# (deploy-shared-env.yml) first, then the five language deploys (deploy-lang-env.yml) one after another: ar, en, ur,
-# fr, es. Together they publish what the one deploy publishes. Manual only, and the founder's alone (AGENTS.md). Production takes builds of main only.
+# (deploy-shared-env.yml) first, then the seven language deploys (deploy-lang-env.yml) one after another: ar, en, ur,
+# fr, es, tr, id. Together they publish what the one deploy publishes. Manual only, and the founder's alone (AGENTS.md). Production takes builds of main only.
 # A trial beside the one deploy, which is unchanged. A language that fails, or that the build does not have, is
 # reported and the others still run; if the shared parts fail, no language is deployed.
 on:
@@ -87,13 +87,35 @@ jobs:
       language: es
       build_run_id: ${{ inputs.build_run_id }}
     secrets: inherit
+  tr:
+    needs: [shared, es]
+    # After the one before it, whatever its result: a language that failed, or that this branch does not have, does
+    # not stop the next. Nothing runs when the shared parts failed.
+    if: ${{ !cancelled() && needs.shared.result == 'success' }}
+    uses: ./.github/workflows/deploy-lang-env.yml
+    with:
+      environment: production
+      language: tr
+      build_run_id: ${{ inputs.build_run_id }}
+    secrets: inherit
+  id:
+    needs: [shared, tr]
+    # After the one before it, whatever its result: a language that failed, or that this branch does not have, does
+    # not stop the next. Nothing runs when the shared parts failed.
+    if: ${{ !cancelled() && needs.shared.result == 'success' }}
+    uses: ./.github/workflows/deploy-lang-env.yml
+    with:
+      environment: production
+      language: id
+      build_run_id: ${{ inputs.build_run_id }}
+    secrets: inherit
   # Production only (this workflow is): pings IndexNow with the URLs changed in the deployed commit (scripts/indexnow.mjs),
   # so Bing and Yandex pick up new and updated pages without waiting for a crawl. It was a job of the one deploy
   # (deploy-env.yml, notify-indexnow) and is repeated here, after every part has been published, because the shared
   # and language deploys do not have it. Not sent when any part failed (the pages would not all be there yet). Set the
   # repository variable INDEXNOW to "off" to skip it.
   notify-indexnow:
-    needs: [shared, ar, en, ur, fr, es]
+    needs: [shared, ar, en, ur, fr, es, tr, id]
     if: ${{ !cancelled() && needs.shared.result == 'success' && !contains(needs.*.result, 'failure') && vars.INDEXNOW != 'off' }}
     runs-on: ubuntu-latest
     permissions:

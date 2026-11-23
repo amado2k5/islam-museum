@@ -1,0 +1,34 @@
+---
+id: event/persecution-of-mustadafin
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/persecution-of-mustadafin.md}
+---
+
+## Ringkasan
+Quraisy menyiksa mereka yang memeluk Islam di antara yang lemah di Mekah setelah mereka kelelahan dengan metode pertama. Setiap suku menyiksa mereka yang memeluk Islam, dan mereka yang tidak memiliki suku mengalami berbagai bentuk penganiayaan oleh penjahat dan Sadat {cite:mubarakpuri-raheeq p.89} {cite:mubarakpuri-raheeq p.90}. Di antara penyiksa paling terkenal [[person/bilal-ibn-rabah|adalah Bilal]], [[person/ammar-ibn-yasir|Ammar]], [[person/yasir-ibn-amir|Yasser]], [[person/sumayya-bint-khayyat|Sumayyah]], dan [[person/khabbab-ibn-al-aratt|Khabbab]] {cite:mubarakpuri-raheeq p.90} {cite:mubarakpuri-raheeq p.91}.
+
+## Abu Jahl dan prosedurnya
+Setiap kali Abu [[person/abu-jahl|Jahl]] mendengar tentang seseorang yang memeluk Islam, ia akan memperingatkan dan menegurnya, meskipun lemah, memukulnya, dan menggoda {cite:mubarakpuri-raheeq p.89} {cite:ibn-hisham-sira 1/320}. [[person/uthman-ibn-affan|Paman Uthman ibn Affan]] membungkusnya dengan tikar dari daun palem lalu merokok dari bawahnya. Ketika um [[person/musab-ibn-umayr|Mus'ab ibn Umair mengetahui]] Islamnya, ia membuat Umair kelaparan dan mengusirnya dari rumah {cite:mubarakpuri-raheeq p.89} {cite:rahma-lil-alamin 1/57}.
+
+## Penyiksaan terhadap Bilal, Ammar, Somaya, dan Yasser
+[[person/umayya-ibn-khalaf|Umayyah ibn Khalaf]] akan memasang tali di leher [[person/bilal-ibn-rabah|Bilal]] untuk diberikan kepada anak-anak laki-laki yang berkeliaran di pegunungan Mekah, lalu melemparkannya ke Batha Mekah pada tengah hari, dengan batu diletakkan di dadanya, sambil berkata: 'Ahad Ahad,' sampai [[person/abu-bakr|Abu Bakr]] melewatinya, membelinya, dan membebaskannya {cite:mubarakpuri-raheeq p.90} {cite:ibn-hisham-sira 1/317-318}. Para musyrik biasa mengusir [[person/yasir-ibn-amir|Yasir]] dan keluarganya [[person/ammar-ibn-yasir|, Ammar]] dan [[person/sumayya-bint-khayyat|Sumayyah]]. kepada Al-Abtah ketika panas membara. Nabi melewati mereka dan berkata: Bersabarlah, wahai umat Yasir, karena tujuan kalian adalah Surga. Yasir meninggal dalam penderitaan, dan Abu Jahl menusuk wajah Sumayya dengan tombak, dan dia meninggal. Dia adalah syahid pertama dalam Islam {cite:mubarakpuri-raheeq p.90}.
+
+## Khabbab, Abu Fakiha dan lainnya
+Para musyrik menyiksa [[person/khabbab-ibn-al-aratt|Khabab]] dengan menarik rambutnya dan meletakkannya di atas bara api, lalu meletakkan batu di atasnya {cite:mubarakpuri-raheeq p.90} {cite:ibn-hisham-sira 1/319-320}. [[person/abu-fakiha|Abu Fukiha]] adalah mantan Banu Abd al-Dar, yang akan mengikat tali dengan kakinya lalu menyeretnya ke tanah {cite:mubarakpuri-raheeq p.90}. [[person/zinnira|Zunairah]], [[person/al-nahdiya|Al-Nahdiyya]], putrinya, dan [[person/umm-ubays|um Ubays]] adalah budak yang memeluk Islam, dan para musyrik biasa mengekspos mereka pada hukuman semacam itu {cite:mubarakpuri-raheeq p.91}. Seorang gadis budak Banu Mu'ammal memeluk Islam, sehingga [[person/umar-ibn-al-khattab|Umar ibn Al-Khattab]] Pada masa itu, ia adalah seorang politeis yang memukuli gadis itu hingga bosan {cite:mubarakpuri-raheeq p.91}. Abu Bakr membeli para budak perempuan ini dan membebaskan mereka, sama seperti ia membebaskan Bilal dan Amir ibn Fuhayrah {cite:mubarakpuri-raheeq p.91}.
+
+## Catatan untuk Peneliti
+- Buku tersebut menyebutkan daftar korban penderitaan dan memperingatkan bahwa daftar tersebut panjang dan menyakitkan, merujuk pada sumber daripada merinci setiap kasus.
+- Apa yang dikaitkan dengan Uthman mengenai tikar dan merokok diceritakan dalam buku sebagai belas kasihan kepada dunia, dan museum menyampaikannya apa adanya.
+
+## Untuk pengunjung muda
+Kaum musyriks menyiksa mereka yang memeluk Islam di antara orang miskin dan budak. Bilal disiksa dengan batu di padang pasir, dan Ammar serta keluarganya disiksa hingga Sumayyah, syahid Islam pertama, meninggal. Abu Bakr membeli dan membebaskan mereka.
+
+## Untuk kuncup
+Di Mekah, Quraisy menyakiti mereka yang beriman di antara yang tertindas, yang paling terkenal adalah Bilal, Ammar, Yasir, Sumayyah, dan Khabbab. Nabi melewati keluarga Yasir dan berkata: "Bersabarlah, wahai keluarga Yasir, karena tujuanmu adalah Surga." Abu Bakr membeli Bilal dan mereka yang menyiksa budak perempuan dan membebaskan mereka.
+
+## Untuk penjelajah
+Quraisy menyakiti mereka yang memeluk Islam di Mekah setelah mereka kelelahan dengan metode pertama. Setiap suku menyakiti mereka yang memeluk Islam dan yang tidak, dan para penjahat melakukan berbagai bentuk penganiayaan terhadap mereka. Setiap kali Abu Jahl mendengar tentang mereka yang telah memeluk Islam, dia akan memperingatkan dan mempermalukannya, meskipun dia lemah; Umayyah ibn Khalaf akan membawa Bilal ke padang gurun dalam panas sambil mengucapkan 'Ahad Ahad' sampai Abu Bakr membelinya dan membebaskannya. Mereka biasa membawa Yasir, Ammar, dan Sumayyah ke Al-Abtah, dan Nabi melewati mereka dan berkata, 'Bersabarlah, keluarga Yasir, karena tujuan kalian adalah Surga.' Khabbab terluka parah, dan Abu Bakr membebaskan budak Muslim seperti Zunayrah, Al-Nahdiyya, dan um Ubays. Sumayyah adalah syahid pertama dalam Islam.
+## Untuk Pembelajar
+Quraisy menyiksa mereka yang memeluk Islam di antara yang lemah di Mekah setelah mereka kelelahan dengan metode pertama: setiap suku menyiksa mereka yang memeluk Islam; dan siapa pun yang tidak memiliki suku, para penjahat dan Sadat mengalami berbagai bentuk penganiayaan. Di antara tindakan Abu Jahl adalah siapa pun yang menerima Islam dihormati, diperingatkan, dan dipermalukan, meskipun lemah, dipukuli dan digoda; paman Uthman ibn Affan membungkusnya dengan tikar dan merokok di bawahnya; dan um Mus'ab ibn Umair membubarkannya dan mengusirnya. Cerita ini merinci: Umayyah ibn Khalaf melemparkan Bilal ke panas siang hari Mekah dengan batu di dadanya sambil mengucapkan 'Ahad Uhud' sampai Abu Bakr membelinya; keluarga Yasir pergi ke Al-Abtah dalam panas, dan Nabi melewati mereka: 'Bersabarlah, wahai keluarga Yasir, karena penunjukanmu adalah Surga.' — Yasser meninggal dalam siksaan itu, dan Sumayyah ditusuk dengan tombak, menyebabkan dia mati sebagai syahid pertama dalam Islam; Khabbab dengan rambut yang dicabut, bara api, dan batu; Abu Faikiha diseret di tanah; Zunaira, al-Nahdiyya, putrinya, um Ubays, seorang wanita budak yang digemukkan oleh siksaan; dan seorang gadis budak dari Banu Mu'ammal yang dipukul oleh Umar, yang saat itu adalah seorang politeis hingga kelelahan. Abu Bakr membeli ini dan membebaskannya seperti dia membebaskan Bilal dan Amir ibn Fuhayrah.

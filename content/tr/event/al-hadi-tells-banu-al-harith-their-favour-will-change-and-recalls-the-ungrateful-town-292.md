@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-tells-banu-al-harith-their-favour-will-change-and-recalls-the-ungrateful-town-292
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/al-hadi-tells-banu-al-harith-their-favour-will-change-and-recalls-the-ungrateful-town-292.md}
+---
+## Özet
+El-Hadi'nin kitabı, [[event/banu-al-harith-swear-against-muhammad-ibn-ubaydallah-and-al-hadi-writes-to-them-292]]'de başlayan Banu el-Harit'e kadar devam eder; s. 276'da, gerçeğe ve inanca duydukları nefret ve Şeytan'ın takipçileri nedeniyle birçok başarısızlığa rağmen, gerçeğe karşı çıkanların mahkum ve haksızlığa uğramış kişiler olduğunu belirtir. Allah, onların lütfunu değiştirmek ve başladığı iyiliği hiçbir eylem yapmadan kaldırmak istedi ve kendilerine verileni hak ettiler {cite:sira-hadi-ila-al-haqq p.276}.
+
+## Detaylar
+Kutsal kitap, onların nimetlerinde dalgalandığını, böylece kendi kendine yetmeye başladıklarında bereketi reddetme ve itaatsizlik başlattıklarını gösterir. Al [[passage/quran-96-6|-'Alaq 6:96]] ve [[passage/quran-96-7|Al-''Alaq 7:96'da belirtilen şöyle atıfta bulunur]]: 'Kendini zengin gördüğünde kendini ezen' ve durumu kendisine benzeyenleri anar, Rabbinin nimetini reddeder ve bu kutsama ondan ayrılır, ayrıca Allah'ın nimetlerini bir şekilde reddeden güvenli ve sağlam kasabadan [[passage/quran-16-112|bahsederler. An-Nahl 16:112]]'de {cite:sira-hadi-ila-al-haqq p.276}. Sonra onların haberlerinin kendi diline ulaştığını ve her zaman Allah'ın dostlarına karşı aldatıcı ve ihanet eden kişiler olduklarını, onlara karşı komplo kuranın sadece kendine karşı komplo kurduğunu söyler. Onlardan önceki din kardeşleri de benzer şekilde denedi, ancak bu onlara karşıydı, onlara karşı değil. Sonra [[passage/quran-35-43|Fatir 35:43'te olanları]] aktarmaya başlar ve sayfa 277 {cite:sira-hadi-ila-al-haqq p.276}'de devam eder. Sayfanın kenarında, Sad versiyonundan "wafikum" eklendiği ve Ṣ kopyasının "aşrakum" yerine "basakum" olarak okunduğu belirtilir. Tüm bu sözler, al-Hadi'nin kitabındaki sözlerinden alınmıştır ve bir Zeydi kitabı tarafından aktarılmıştır, ancak o kitabı benimsemez Müze içinde kınama sözlerini tekrarlamıyor.

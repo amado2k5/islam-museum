@@ -1,40 +1,325 @@
 slug: tartib-al-anbiya
-title: { ar: "تسلسل الأنبياء", en: "The sequence of the prophets", fr: "La succession des prophètes" }
+title:
+  ar: تسلسل الأنبياء
+  en: The sequence of the prophets
+  fr: La succession des prophètes
+  tr: Peygamberlerin Dizisi
+  id: Urutan Para Nabi
 lede:
-  ar: "خمسة وعشرون نبيًا ذُكروا في القرآن — رسالة واحدة عبر التاريخ."
-  en: "Twenty-five prophets named in the Quran — one message across history."
-  fr: "Vingt-cinq prophètes nommés dans le Coran : un même message à travers l’histoire."
+  ar: خمسة وعشرون نبيًا ذُكروا في القرآن — رسالة واحدة عبر التاريخ.
+  en: Twenty-five prophets named in the Quran — one message across history.
+  fr: 'Vingt-cinq prophètes nommés dans le Coran : un même message à travers l’histoire.'
+  tr: Kur'an'da adı geçen yirmi beş peygamber — tarih boyunca tek bir mesaj.
+  id: Dua puluh lima nabi yang disebutkan dalam Al-Qur'an — satu pesan sepanjang sejarah.
 source_card: 11c112d4
-status: { review: draft }
+status:
+  review: draft
 quiz: true
-kids: true # opted into the Kids' Wing reading shelf (docs/agents/kids-content.md §4: gating is opt-in)
+kids: true
 note:
-  ar: "ترتيب بعض الأنبياء (كإلياس وإليسع) محل خلاف بين العلماء."
-  en: "The order of some prophets (e.g. Ilyas and al-Yasa') is debated among scholars."
+  ar: ترتيب بعض الأنبياء (كإلياس وإليسع) محل خلاف بين العلماء.
+  en: The order of some prophets (e.g. Ilyas and al-Yasa') is debated among scholars.
   fr: L’ordre de certains prophètes, comme Élie et Élisée, fait l’objet de divergences entre les savants.
+  tr: Bazı peygamberlerin (örneğin İlyas ve Elişa) sıralaması bilginler arasında tartışmalı bir konudur.
+  id: Peringkat beberapa nabi (seperti Elia dan Elisa) menjadi bahan perdebatan di antara para sarjana.
 items:
-  - { title: { ar: "آدم", en: "Adam", fr: "Adam" }, body: { ar: "أبو البشر وأول الأنبياء.", en: "Father of humanity and the first prophet.", fr: "Le père de l’humanité et le premier des prophètes." } }
-  - { title: { ar: "إدريس", en: "Idris", fr: "Idris" }, body: { ar: "نبي رفعه الله مكانًا عليًّا.", en: "A prophet God raised to a high station.", fr: "Un prophète que Dieu élève à un rang éminent." } }
-  - { title: { ar: "نوح", en: "Nuh (Noah)", fr: "Noé" }, body: { ar: "دعا قومه 950 سنة، ونجا بالسفينة.", en: "Called his people for 950 years; saved by the Ark.", fr: "Il appelle son peuple pendant 950 ans et est sauvé par l’arche." } }
-  - { title: { ar: "هود", en: "Hud", fr: "Houd" }, body: { ar: "أُرسل إلى قوم عاد.", en: "Sent to the people of 'Ad.", fr: "Il est envoyé au peuple de Ad." } }
-  - { title: { ar: "صالح", en: "Salih", fr: "Salih" }, body: { ar: "أُرسل إلى ثمود، وآيته الناقة.", en: "Sent to Thamud; his sign was the she-camel.", fr: "Il est envoyé aux Thamoud ; la chamelle constitue son signe." } }
-  - { title: { ar: "إبراهيم", en: "Ibrahim (Abraham)", fr: "Abraham" }, body: { ar: "خليل الله وأبو الأنبياء.", en: "The Friend of God and father of the prophets.", fr: "L’ami intime de Dieu et le père des prophètes." } }
-  - { title: { ar: "لوط", en: "Lut (Lot)", fr: "Loth" }, body: { ar: "أُرسل إلى قومه لينهاهم عن الفاحشة.", en: "Sent to his people to forbid indecency.", fr: "Il est envoyé à son peuple pour le détourner de l’inconduite." } }
-  - { title: { ar: "إسماعيل", en: "Isma'il (Ishmael)", fr: "Ismaël" }, body: { ar: "الذبيح، وجدّ العرب.", en: "The intended sacrifice; forefather of the Arabs.", fr: "Associé au récit du sacrifice et ancêtre des Arabes." } }
-  - { title: { ar: "إسحاق", en: "Ishaq (Isaac)", fr: "Isaac" }, body: { ar: "نبي من ذرية إبراهيم.", en: "A prophet from Ibrahim's progeny.", fr: "Un prophète de la descendance d’Abraham." } }
-  - { title: { ar: "يعقوب", en: "Ya'qub (Jacob)", fr: "Jacob" }, body: { ar: "أبو الأسباط، ولُقّب بإسرائيل.", en: "Father of the tribes; called Isra'il.", fr: "Le père des tribus, également appelé Israël." } }
-  - { title: { ar: "يوسف", en: "Yusuf (Joseph)", fr: "Joseph" }, body: { ar: "الصدّيق، وقصته أحسن القصص.", en: "The truthful one; his story is the best of stories.", fr: "Le véridique, dont le récit occupe une place particulière dans le Coran." } }
-  - { title: { ar: "شعيب", en: "Shu'ayb", fr: "Chouayb" }, body: { ar: "أُرسل إلى مدين لينهاهم عن التطفيف.", en: "Sent to Midian against cheating in measure.", fr: "Il est envoyé à Madyan pour dénoncer la fraude dans les mesures." } }
-  - { title: { ar: "أيوب", en: "Ayyub (Job)", fr: "Job" }, body: { ar: "نبي الصبر على البلاء.", en: "The prophet of patience in affliction.", fr: "Le prophète de la patience dans l’épreuve." } }
-  - { title: { ar: "ذو الكفل", en: "Dhu al-Kifl", fr: "Dhou al-Kifl" }, body: { ar: "من الصالحين المذكورين في القرآن.", en: "Among the righteous named in the Quran.", fr: "L’un des justes mentionnés dans le Coran." } }
-  - { title: { ar: "موسى", en: "Musa (Moses)", fr: "Moïse" }, body: { ar: "كليم الله، أُرسل إلى فرعون وبني إسرائيل.", en: "The one God spoke to; sent to Pharaoh and Bani Isra'il.", fr: "Dieu lui parle ; il est envoyé à Pharaon et aux fils d’Israël." } }
-  - { title: { ar: "هارون", en: "Harun (Aaron)", fr: "Aaron" }, body: { ar: "أخو موسى ووزيره.", en: "Musa's brother and minister.", fr: "Le frère et l’auxiliaire de Moïse." } }
-  - { title: { ar: "داود", en: "Dawud (David)", fr: "David" }, body: { ar: "آتاه الله الملك والحكمة والزبور.", en: "Given kingship, wisdom, and the Psalms.", fr: "Dieu lui accorde la royauté, la sagesse et les Psaumes." } }
-  - { title: { ar: "سليمان", en: "Sulayman (Solomon)", fr: "Salomon" }, body: { ar: "ملك لا ينبغي لأحد من بعده.", en: "A kingdom granted to none after him.", fr: "Il reçoit une royauté sans équivalent après lui." } }
-  - { title: { ar: "إلياس", en: "Ilyas (Elijah)", fr: "Élie" }, body: { ar: "دعا قومه إلى ترك عبادة بعل.", en: "Called his people to abandon Baal worship.", fr: "Il appelle son peuple à abandonner le culte de Baal." } }
-  - { title: { ar: "إليسع", en: "Al-Yasa' (Elisha)", fr: "Élisée" }, body: { ar: "من المرسلين الأخيار.", en: "Among the excellent messengers.", fr: "L’un des messagers vertueux." } }
-  - { title: { ar: "يونس", en: "Yunus (Jonah)", fr: "Jonas" }, body: { ar: "ذو النون، نجا بدعائه في بطن الحوت.", en: "Dhu al-Nun; saved by his du'a in the whale's belly.", fr: "L’homme au poisson, sauvé après son invocation dans le ventre du poisson." } }
-  - { title: { ar: "زكريا", en: "Zakariyya (Zechariah)", fr: "Zacharie" }, body: { ar: "كفل مريم ودعا فرزق بيحيى.", en: "Guardian of Maryam; granted Yahya in old age.", fr: "Il prend soin de Marie ; après son invocation, Jean lui est accordé." } }
-  - { title: { ar: "يحيى", en: "Yahya (John)", fr: "Jean" }, body: { ar: "سيدًا وحصورًا ونبيًا من الصالحين.", en: "Noble, chaste, a prophet among the righteous.", fr: "Un prophète juste, noble et chaste." } }
-  - { title: { ar: "عيسى", en: "'Isa (Jesus)", fr: "Jésus" }, body: { ar: "كلمة الله وروحه، أُيّد بالمعجزات.", en: "God's word and spirit; aided with miracles.", fr: "Parole et esprit venant de Dieu, soutenu par des miracles." } }
-  - { title: { ar: "محمد", en: "Muhammad", fr: "Muhammad" }, body: { ar: "خاتم النبيين ورحمة للعالمين.", en: "The seal of the prophets; a mercy to the worlds.", fr: "Le sceau des prophètes, présenté comme une miséricorde pour les mondes." } }
+- title:
+    ar: آدم
+    en: Adam
+    fr: Adam
+    tr: Adam
+    id: Adam
+  body:
+    ar: أبو البشر وأول الأنبياء.
+    en: Father of humanity and the first prophet.
+    fr: Le père de l’humanité et le premier des prophètes.
+    tr: İnsanlığın babası ve peygamberlerin ilki.
+    id: Bapa umat manusia dan nabi pertama.
+- title:
+    ar: إدريس
+    en: Idris
+    fr: Idris
+    tr: İdris
+    id: Idris
+  body:
+    ar: نبي رفعه الله مكانًا عليًّا.
+    en: A prophet God raised to a high station.
+    fr: Un prophète que Dieu élève à un rang éminent.
+    tr: Tanrı'nın onu yüksek bir mevkeye yükseltmesini istiyorum.
+    id: Saya ingin Tuhan membesarkannya di tempat yang tinggi.
+- title:
+    ar: نوح
+    en: Nuh (Noah)
+    fr: Noé
+    tr: Noah
+    id: Nuh
+  body:
+    ar: دعا قومه 950 سنة، ونجا بالسفينة.
+    en: Called his people for 950 years; saved by the Ark.
+    fr: Il appelle son peuple pendant 950 ans et est sauvé par l’arche.
+    tr: Halkını 950 yaşında olarak nitelendirdi ve gemiyle hayatta kaldı.
+    id: Ia menyebut bangsanya berusia 950 tahun dan selamat dengan kapal.
+- title:
+    ar: هود
+    en: Hud
+    fr: Houd
+    tr: başlık
+    id: tudung
+  body:
+    ar: أُرسل إلى قوم عاد.
+    en: Sent to the people of 'Ad.
+    fr: Il est envoyé au peuple de Ad.
+    tr: '''Ad'' halkına gönderdi.'
+    id: Ia mengirim surat kepada rakyat 'Ad.
+- title:
+    ar: صالح
+    en: Salih
+    fr: Salih
+    tr: Salih
+    id: Saleh
+  body:
+    ar: أُرسل إلى ثمود، وآيته الناقة.
+    en: Sent to Thamud; his sign was the she-camel.
+    fr: Il est envoyé aux Thamoud ; la chamelle constitue son signe.
+    tr: Thamud'a gönderildi ve işareti dişi deveydi.
+    id: Ia dikirim ke Thamud, dan tandanya adalah unta betina.
+- title:
+    ar: إبراهيم
+    en: Ibrahim (Abraham)
+    fr: Abraham
+    tr: İbrahim
+    id: Ibrahim
+  body:
+    ar: خليل الله وأبو الأنبياء.
+    en: The Friend of God and father of the prophets.
+    fr: L’ami intime de Dieu et le père des prophètes.
+    tr: Halilallah ve Peygamberlerin Babası.
+    id: Khalil Allah dan Bapa para Nabi.
+- title:
+    ar: لوط
+    en: Lut (Lot)
+    fr: Loth
+    tr: Lot
+    id: Lot
+  body:
+    ar: أُرسل إلى قومه لينهاهم عن الفاحشة.
+    en: Sent to his people to forbid indecency.
+    fr: Il est envoyé à son peuple pour le détourner de l’inconduite.
+    tr: Halkına ahlaksızlık yapmasını yasaklamak için gönderme yaptı.
+    id: Dia mengirim kepada bangsa-Nya untuk melarang mereka melakukan tindakan tidak bermoral.
+- title:
+    ar: إسماعيل
+    en: Isma'il (Ishmael)
+    fr: Ismaël
+    tr: İsmail
+    id: Ismail
+  body:
+    ar: الذبيح، وجدّ العرب.
+    en: The intended sacrifice; forefather of the Arabs.
+    fr: Associé au récit du sacrifice et ancêtre des Arabes.
+    tr: Kesilen hayvan Arapların atasıdır.
+    id: Hewan yang disembelih adalah leluhur bangsa Arab.
+- title:
+    ar: إسحاق
+    en: Ishaq (Isaac)
+    fr: Isaac
+    tr: Isaac
+    id: Isaac
+  body:
+    ar: نبي من ذرية إبراهيم.
+    en: A prophet from Ibrahim's progeny.
+    fr: Un prophète de la descendance d’Abraham.
+    tr: İbrahim'in soyundan gelen bir peygamber.
+    id: Seorang nabi dari keturunan Abraham.
+- title:
+    ar: يعقوب
+    en: Ya'qub (Jacob)
+    fr: Jacob
+    tr: Jacob
+    id: Jacob
+  body:
+    ar: أبو الأسباط، ولُقّب بإسرائيل.
+    en: Father of the tribes; called Isra'il.
+    fr: Le père des tribus, également appelé Israël.
+    tr: İsrail lakabıyla Abu al-Asbat.
+    id: Abu al-Asbat, dijuluki Israel.
+- title:
+    ar: يوسف
+    en: Yusuf (Joseph)
+    fr: Joseph
+    tr: Yousef
+    id: Yousef
+  body:
+    ar: الصدّيق، وقصته أحسن القصص.
+    en: The truthful one; his story is the best of stories.
+    fr: Le véridique, dont le récit occupe une place particulière dans le Coran.
+    tr: Arkadaş ve onun hikayesi en iyi hikayedir.
+    id: Teman, dan ceritanya adalah cerita terbaik.
+- title:
+    ar: شعيب
+    en: Shu'ayb
+    fr: Chouayb
+    tr: Şuaib
+    id: Shuaib
+  body:
+    ar: أُرسل إلى مدين لينهاهم عن التطفيف.
+    en: Sent to Midian against cheating in measure.
+    fr: Il est envoyé à Madyan pour dénoncer la fraude dans les mesures.
+    tr: Bir borçluya gönderdi, onları seyreltmesini engellemek için.
+    id: Dia mengirim kepada seorang debitur untuk menghentikan pengenceran.
+- title:
+    ar: أيوب
+    en: Ayyub (Job)
+    fr: Job
+    tr: Eeb
+    id: Ayoub
+  body:
+    ar: نبي الصبر على البلاء.
+    en: The prophet of patience in affliction.
+    fr: Le prophète de la patience dans l’épreuve.
+    tr: Sıkıntı karşısında sabır istiyorum.
+    id: Saya ingin kesabaran menghadapi penderitaan.
+- title:
+    ar: ذو الكفل
+    en: Dhu al-Kifl
+    fr: Dhou al-Kifl
+    tr: Dhu al-Kifl
+    id: Dhu al-Kifl
+  body:
+    ar: من الصالحين المذكورين في القرآن.
+    en: Among the righteous named in the Quran.
+    fr: L’un des justes mentionnés dans le Coran.
+    tr: Kur'an'da adı geçen sahiller arasında.
+    id: Di antara orang-orang benar yang disebutkan dalam Al-Qur'an.
+- title:
+    ar: موسى
+    en: Musa (Moses)
+    fr: Moïse
+    tr: Musa
+    id: Musa
+  body:
+    ar: كليم الله، أُرسل إلى فرعون وبني إسرائيل.
+    en: The one God spoke to; sent to Pharaoh and Bani Isra'il.
+    fr: Dieu lui parle ; il est envoyé à Pharaon et aux fils d’Israël.
+    tr: Tanrı'nın sözü, Firavun'a ve İsrailoğulları'na gönderilmiştir.
+    id: Firman Allah, yang dikirim kepada Firaun dan anak-anak Israel.
+- title:
+    ar: هارون
+    en: Harun (Aaron)
+    fr: Aaron
+    tr: Aaron
+    id: Aaron
+  body:
+    ar: أخو موسى ووزيره.
+    en: Musa's brother and minister.
+    fr: Le frère et l’auxiliaire de Moïse.
+    tr: Musa'nın kardeşi ve papazı.
+    id: Saudara Moses dan pendeta.
+- title:
+    ar: داود
+    en: Dawud (David)
+    fr: David
+    tr: David
+    id: David
+  body:
+    ar: آتاه الله الملك والحكمة والزبور.
+    en: Given kingship, wisdom, and the Psalms.
+    fr: Dieu lui accorde la royauté, la sagesse et les Psaumes.
+    tr: Tanrı ona krallık, bilgelik ve Mezmurlar verdi.
+    id: Tuhan memberinya kerajaan, hikmat, dan Mazmur.
+- title:
+    ar: سليمان
+    en: Sulayman (Solomon)
+    fr: Salomon
+    tr: Süleyman
+    id: Solomon
+  body:
+    ar: ملك لا ينبغي لأحد من بعده.
+    en: A kingdom granted to none after him.
+    fr: Il reçoit une royauté sans équivalent après lui.
+    tr: Kendisinden sonra kimseye ait olmaması gereken bir kral.
+    id: Seorang raja yang seharusnya tidak dimiliki oleh siapa pun setelahnya.
+- title:
+    ar: إلياس
+    en: Ilyas (Elijah)
+    fr: Élie
+    tr: Elias
+    id: Elias
+  body:
+    ar: دعا قومه إلى ترك عبادة بعل.
+    en: Called his people to abandon Baal worship.
+    fr: Il appelle son peuple à abandonner le culte de Baal.
+    tr: Halkını Baal'a tapınmayı bırakmaya çağırdı.
+    id: Ia menyerukan kepada kaumnya untuk meninggalkan ibadah Baal.
+- title:
+    ar: إليسع
+    en: Al-Yasa' (Elisha)
+    fr: Élisée
+    tr: Elisa
+    id: Elisa
+  body:
+    ar: من المرسلين الأخيار.
+    en: Among the excellent messengers.
+    fr: L’un des messagers vertueux.
+    tr: Doğru elçiler arasında.
+    id: Di antara utusan yang benar.
+- title:
+    ar: يونس
+    en: Yunus (Jonah)
+    fr: Jonas
+    tr: Yunus
+    id: Yunus
+  body:
+    ar: ذو النون، نجا بدعائه في بطن الحوت.
+    en: Dhu al-Nun; saved by his du'a in the whale's belly.
+    fr: L’homme au poisson, sauvé après son invocation dans le ventre du poisson.
+    tr: Dhu al-Nun, balinanın karnında yaptığı dua sayesinde hayatta kaldı.
+    id: Dhu al-Nun, selamat dari doanya di perut paus.
+- title:
+    ar: زكريا
+    en: Zakariyya (Zechariah)
+    fr: Zacharie
+    tr: Zakaria
+    id: Zakaria
+  body:
+    ar: كفل مريم ودعا فرزق بيحيى.
+    en: Guardian of Maryam; granted Yahya in old age.
+    fr: Il prend soin de Marie ; après son invocation, Jean lui est accordé.
+    tr: Mary'ye sponsor oldu ve bir hayat sağlanması için dua etti.
+    id: Ia mensponsori Maria dan berdoa agar kehidupan dipenuhi.
+- title:
+    ar: يحيى
+    en: Yahya (John)
+    fr: Jean
+    tr: Yahya
+    id: Yahya
+  body:
+    ar: سيدًا وحصورًا ونبيًا من الصالحين.
+    en: Noble, chaste, a prophet among the righteous.
+    fr: Un prophète juste, noble et chaste.
+    tr: Bir usta, bir kale ve doğrular arasında bir peygamber.
+    id: Seorang tuan, benteng, dan nabi di antara orang benar.
+- title:
+    ar: عيسى
+    en: '''Isa (Jesus)'
+    fr: Jésus
+    tr: Isa
+    id: Isa
+  body:
+    ar: كلمة الله وروحه، أُيّد بالمعجزات.
+    en: God's word and spirit; aided with miracles.
+    fr: Parole et esprit venant de Dieu, soutenu par des miracles.
+    tr: Tanrı'nın Sözü ve Ruhu mucizelerle desteklenir.
+    id: Firman dan Roh Allah didukung oleh mukjizat.
+- title:
+    ar: محمد
+    en: Muhammad
+    fr: Muhammad
+    tr: Muhammed
+    id: Muhammad
+  body:
+    ar: خاتم النبيين ورحمة للعالمين.
+    en: The seal of the prophets; a mercy to the worlds.
+    fr: Le sceau des prophètes, présenté comme une miséricorde pour les mondes.
+    tr: Peygamberlerin Mührü ve dünyalara bir merhamet.
+    id: Segel Para Nabi dan belas kasihan bagi dunia.

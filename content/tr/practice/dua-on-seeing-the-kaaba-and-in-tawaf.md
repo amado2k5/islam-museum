@@ -1,0 +1,12 @@
+---
+id: practice/dua-on-seeing-the-kaaba-and-in-tawaf
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/practice/dua-on-seeing-the-kaaba-and-in-tawaf.md}
+---
+## Özet
+El-Nawavi'nin Kabe'yi gördükten sonra derlediği dua, Tevaf'ın ayrı anmaları ve namaz kılan için yapılan dua. {cite:al-adhkar-nawawi-arnaut-1994 p. 194}
+
+## Al-Nawawi'nin 'Al-Adhkar'da topladıkları
+El-Nawavi, bir Müslümanın Mekke'ye girip kabe'ye bakıp camiye ulaştığında, ellerini kaldırıp dua etmesi tavsiye edilir, çünkü duasının Kabe'yi görünce kabul edildiği söylenir. "Ey Allah, bu evi onur, saygı, onur ve korku ile artır," sonra "Ey Allah, Sen selamsın ve Senden selam. Rabbimiz, bize selam ver" demesi ve dilediği gibi dua etmesi tavsiye edilir {cite:al-adhkar-nawawi-arnaut-1994 p. 194}. Tevaf anma bölümünde, Kara Taş'a dokunup Tevaf'a başlarken şöyle demesi tavsiye edilir: "Allah'ın ve Allahu Ekber'in adıyla. Ey Allah, Sana iman ederek, Kitabına inanarak, ahdinı yerine getirerek ve Peygamberinin Sünnetini takip ederim," ve bunu taşın her Tevaf {cite:al-adhkar-nawawi-arnaut-1994 p. 194} hizasında tekrarlar. El-Raml'da üç turda şöyle der: "Ey Allah, bunu kabul edilen bir hac, affedilmiş bir günah ve övgüye değer bir çaba yap," ve kalan dört turda ise, "Ey Allah, bildiğini affet, merhamet et ve affet; Sen En Yüce, En Cömertsin," ardından bunu anan bir ayetten bir dua ekler {cite:al-adhkar-nawawi-arnaut-1994 p. 194}. Şafii'den rivayet edilir ki, Tevaf sırasında en sevilen dua o ayetin duasıdır ve Tavaf'ın din ve dünyevi yaşamdan sevdiği şeylerle dilemesi tavsiye edilir {cite:al-adhkar-nawawi-arnaut-1994 p. 195}. Al-Hasan'dan rivayet edilir ki, dua on beş yerde cevaplanır; bunlar arasında Tevaf (amaç eden) ve Zemzem {cite:al-adhkar-nawawi-arnaut-1994 p. 195} bulunur. El-Şafi'i ve çoğu sahabesinin görüşünün, Tevif sırasında Kur'an okunmasını önerdiği, ancak El-Halimi'nin tam tersini seçtiği ve doğru görüşün ilk {cite:al-adhkar-nawawi-arnaut-1994 p. 195} olduğu belirtilir. Kabe ile Kara Taş arasında yer alan taahhüt edilen bölümde, duanın cevaplandığı ve ilk duanın da yer aldığı söylenir: "Ey Allah, nimetlerine ve artışına karşılık gelen tüm övgüler Sana aittir" {cite:al-adhkar-nawawi-arnaut-1994 p. 195}.

@@ -1,0 +1,13 @@
+---
+id: passage/muwatta-2-629
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/passage/muwatta-2-629.md}
+---
+
+## Özet
+Ölen için ağlamanın yasaklanmasıyla ilgili bölümdeki ilk hadis. Malik, Abdullah ibn Abdullah ibn Jabir ibn Atik'ten, annesinin babası Atik ibn Harith ibn Atik'ten, Peygamber'in Abdullah ibn Tebit'in yanında onu ezilmiş halde bulduğunu, ona bağırdığını ama cevap vermediğini anlatır. Sonra geri döndü ve dedi ki: Seni yendik, Ebu el-Rabi'. Kadınlar bağırdı ve ağladı, Cabir onları susturdu. Peygamber dedi ki: Bırakın onları, eğer zorunluysa, ağlamayın ve ağlamayın. Sordular: Görev nedir? O dedi: Eğer ölürse. Kızı dedi ki: Allah yemin ederim, eğer şehit olmanı umuyorum, o zaman namazını çoktan tamamlamışsındır. Peygamber, Allah'ın kendisini niyetine göre ödüllendirdiğini öğrendi ve onlara şehitlik olarak gördüklerini sordu. Onlar da şöyle dediler: Allah yolunda öldürmek. Allah yolunda öldürülenler dışında yedi şehit saydı: bıçaklananlar, boğulanlar, cesedin yanındaki kişi, yanan kişi, enkaz altında ölen ve çoğul olarak ölen kadın. Editör, Al-Baghawi'nin Al-Shafi'i'den Malik'in 'Jabir ibn Atik' hakkında yazdığını ve bunun 'Jabr' olduğunu anlattığını belirtir. İbn Qani' şöyle demiştir: Doğru görüş 'Jabr'dır. Doğrulayıcı, Malik'in yanlış anlamasının dikkate alınması gerektiğine inanır çünkü Cabir ibn 'Atik ile Jabr ibn 'Atik aynı kişilerdir, bunu Tahdhib al-Kemal üzerine yaptığı tefhitte açıklamıştır. Bunu Malik Ebu Mus'ab'dan ve zinciri aracılığıyla İbn Hibben, El-Bağavi, Ruh ibn Ubadah ile Ahmed (5/446), El-Ka'nabi ile Ebu Davud (3111), El-Hakim (1/351), Utbah ile El-Nasai (4/13), Al-Şafi'i ve Muhammed ile Al-Hasan Al-Şeybani (302) anlatmıştır. {cite:muwatta-maruf-1997 p.320} {cite:muwatta-maruf-1997 p.321}
+
+## Müzedeki konumu
+Muwatta, yani Cenaze Kitabı [[passage/muwatta-kitab-02-janaza|'nda yer]] almaktadır. Kaynağı [[work/muwatta-malik|Al-Muwatta]]'dır. [[person/muhammad|Muhammed]], [[person/abdallah-ibn-thabit-al-ansari|Abdullah ibn Thabit Al Ansari]], [[person/jabir-ibn-atik|Jabir ibn Atik]], [[person/atik-ibn-al-harith|Atik ibn Al Harith]], [[person/abdallah-ibn-abdallah-ibn-jabir-ibn-atik|Abdullah ibn Abdullah ibn Jabir ibn Atik]] ve [[person/al-shafii|Muhammed ibn İdris Al-Shafi'i]] gibi isimlerden bahseder. Ayrıca Şahadet Şehitliği [[concept/shahada-martyrdom|bölümleri altında da bu kitap üzerine inşa edilmiştir]].

@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/abdallah-ibn-dinar, person/abdullah-ibn-umar]
 work: work/muwatta-malik
 ref: "1850"
-label: { ar: "الموطأ 1850 — مالك عن عبد الله بن دينار عن عبد الله بن عمر عن عمر: مثله، والرماء هو الربا", en: "Muwatta 1850", es: "Muwatta 1850", fr: "Muwatta 1850", ur: "موطا 1850" }
+label: { ar: "الموطأ 1850 — مالك عن عبد الله بن دينار عن عبد الله بن عمر عن عمر: مثله، والرماء هو الربا", en: "Muwatta 1850", es: "Muwatta 1850", fr: "Muwatta 1850", ur: "موطا 1850", tr: "El-Muvatta 1850 — Malik, Abdullah bin Dinar'dan, o da Abdullah bin Ömer'den, o da Ömer'den rivayetle: aynı şey ve \"el-rima\" faizdir.", id: "Al-Muwatta 1850 — Malik, berdasarkan riwayat Abdullah bin Dinar, berdasarkan riwayat Abdullah bin Umar, berdasarkan riwayat Umar: sama, dan “al-rima’” adalah riba." }
 summary:
   ar: "يروي مالك عن عبد الله بن دينار عن عبد الله بن عمر أن عمر بن الخطاب قال مثل ذلك: لا تبيعوا الذهب بالذهب إلا مثلا بمثل، ولا تشفوا بعضها على بعض، ولا تبيعوا شيئا منها غائبا بناجز، وإن استنظرك إلى أن يلج بيته فلا تنظره، إني أخاف عليكم الرماء. والرماء هو الربا. {cite:muwatta-maruf-1997 p.160}"
+  tr: "Malik, Abdullah ibn Dinar'dan, o da Abdullah ibn Ömer'den rivayet ettiğine göre, Ömer ibn el-Hattab şöyle buyurmuştur: “Altını altınla satmayın, ancak aynı miktarda altın karşılığında satabilirsiniz; birini diğerine tercih etmeyin; yok olanı var olanla takas etmeyin. Eğer sizden evine girene kadar beklemenizi isterse, ona bu gecikmeyi tanımayın; çünkü ben sizin için faizcilik riskinden korkuyorum.” Ve faizcilik, “al-rima’a” uygulamasıdır. {cite:muwatta-maruf-1997 s.160}"
+  id: "Malik meriwayatkan dari Abdullah ibn Dinar, dari Abdullah ibn Umar, bahwa Umar ibn al-Khattab mengatakan hal serupa: “Jangan menjual emas dengan emas kecuali dengan cara yang sama, dan jangan mengutamakan satu di atas yang lain, dan jangan menjual sesuatu yang tidak ada dengan sesuatu yang ada. Dan jika dia meminta Anda untuk menunggu sampai dia masuk ke rumahnya, jangan berikan penundaan itu, karena saya khawatir Anda akan terkena riba.” Dan riba adalah praktik “al-rima’a.” {cite:muwatta-maruf-1997 p.160}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

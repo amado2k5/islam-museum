@@ -1,0 +1,14 @@
+---
+id: place/arjan
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/place/arjan.md}
+---
+## Özet
+El-İdrisi'ye göre İran'da bir şehir. Arcan'dan [[place/asak-khuzistan|Ask köyüne]] iki aşama vardır, bir kademe, sonra Basyanlara. {cite:nuzhat-al-mushtaq-2002 p.401}
+
+Al-Baladhuri'nin bahsettiği [[place/arrajan|Arjan]] ile bağlantısını belirlemek için ek bir kaynak gereklidir.
+
+## Yaqut'un ülkeler sözlüğünde
+Yaqut, 'Arjan' ismini ilk harfte fetha ve vurgulu 'r' ile düzeltir ve çoğu Arap olmayanların buna 'Argan' dediğini söyler, ve Al-Mutanabbi'nin içindeki 'r' harfini hafiflettiği anlatılır. {cite:mujam-al-buldan-sader-1995 1 p.142} Al-Istakhri'den bildirildiğine göre, burası iyiliklerle dolu büyük bir şehirdir; palmiye, zeytin, ağaç ve kavak meyveleri, deniz ile arasında dağlık bir ova, Şiraz ile arasında altı farsakha, Ahvaz pazarı ile arasında altmış farsakha vardır. {cite:mujam-al-buldan-sader-1995 1 p.143} Raporlara göre, Persler burayı ilk kuranın Anuşirvan'ın babası Qubad ibn Fairuz olduğunu, krallığı kardeşi Jamasp'tan geri aldıktan sonra Bizanslıları ve Mayafariqin ile Amad'ı fethettikten sonra yaptığını iddia ederler. Fars ile Ahvaz sınırı arasında Abz Qubad adında Arjan adlı bir şehir inşa etmiş, iki şehrin esiri olarak yerleşmiş ve şehir yapmıştır. Yaqut, Arcan'ın fetihlerde bahsedildiğini ve bunun başka bir şey mi yoksa iki rivayetten biri mi olduğundan emin olmadığını söyler; bu yanlıştır. Bazı salkımlarının İsfahan'a, bazılarının İstahra'ya, bazılarının Ramhormoz'a ait olduğu söylenir, ancak İslam'da bu küme Pers'in bir kümesi olmuştur. {cite:mujam-al-buldan-sader-1995 1 p.143} Ahmed ibn Muhammed bin el-Fekih'ten rivayet edilir; dağında suyun taşlardan kemik gibi aktığı ve beyaz mumya oluşturduğu bir mağara vardır. Demir kapısı ve Sultan mührü ile mühürlenmiş koruyucuları vardır ve yılda sadece bir gün yargıç ve kasaba yaşlılarının huzurunda açılır. Ayrıca el-Beşeri ve el-İstahri'nin köyü Darabjerd köyüne yerleştirdiği de belirtilir. {cite:mujam-al-buldan-sader-1995 1 p.143} Şiraz yakınlarındaki Nubandjanlarla arasında yirmi altı farsakh olduğu ve aralarında Bawan kabilesi olduğu belirtilir. {cite:mujam-al-buldan-sader-1995 1 p.143} Kendisine bir grup âlim atfedilir; bunlar arasında Ebu Sahl Ahmed bin Sahl al-Arjani, Rabi'al-Awwal 606 H.'de ölen Ebu Sa'd Ahmed ibn Muhammed el-Darir el-Arcani el-İsfahani ve yaklaşık 460 Hicri doğumlu ve 544 Hicri yılında ölen Tustar'ın şairi ve yargıcı Ebu Bekir Ahmed bin Muhammed ibn el-Hüseyin el-Arcani bulunmaktadır. {cite:mujam-al-buldan-sader-1995 1 p.143} {cite:mujam-al-buldan-sader-1995 1 p.144}

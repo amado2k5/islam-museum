@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "4165"
-label: { ar: "سنن النسائي 4165 — النسب والانتساب", en: "Sunan al-Nasa'i 4165 — paternity and lineage", ur: "سنن نسائی 4165 — نسب اور انتساب", es: "Sunan al-Nasa'i 4165 - paternidad y linaje", fr: "Sunan al-Nasa'i 4165 — paternité et lignée" }
+label: { ar: "سنن النسائي 4165 — النسب والانتساب", en: "Sunan al-Nasa'i 4165 — paternity and lineage", ur: "سنن نسائی 4165 — نسب اور انتساب", es: "Sunan al-Nasa'i 4165 - paternidad y linaje", fr: "Sunan al-Nasa'i 4165 — paternité et lignée", tr: "Sunen an-Nesa'i 4165 — Nesil ve Bağlılık", id: "Sunan an-Nasa'i 4165 — Silsilah dan Afiliasi" }
 text: "… بْنِ الْحَارِثِ، عَنْ أَبِي كَثِيرٍ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، قَالَ قَالَ رَجُلٌ يَا رَسُولَ اللَّهِ أَىُّ الْهِجْرَةِ أَفْضَلُ قَالَ \" أَنْ تَهْجُرَ مَا كَرِهَ رَبُّكَ عَزَّ وَجَلَّ \". وَقَالَ رَسُولُ اللَّهِ \" الْهِجْرَةُ هِجْرَتَانِ هِجْرَةُ الْحَاضِرِ وَهِجْرَةُ الْبَادِي فَأَمَّا الْبَادِي فَيُجِيبُ إِذَا دُعِيَ وَيُطِيعُ إِذَا أُمِرَ وَأَمَّا الْحَاضِرُ فَهُوَ أَعْظَمُهُمَا بَلِيَّةً وَأَعْظَمُهُمَا أَجْرًا \"."
 summary:
   ar: "حديث في سنن النسائي، رقم 4165، يذكر النسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 4165، جس میں نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 4165 (El Libro de al-Bay'ah), menciona la paternidad y el linaje. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sunan al-Nasa'i, n° 4165 (Le Livre d'al-Bay'ah), mentionne la paternité et la lignée. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la figure paternelle."
+  tr: "Sunan-ı Nesai'de yer alan 4165 numaralı hadis, soy ve atalardan bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, nomor 4165, menyebutkan tentang garis keturunan dan leluhur. Peramban \"Kebapakan dalam Islam\" mengumpulkannya dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/intisab, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4165 (book 39 hadith 17); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

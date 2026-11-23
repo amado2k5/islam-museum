@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "183"
-label: { ar: "سنن ابن ماجه — حديث 183", en: "Sunan Ibn Majah 183 — The Book of the Sunnah", ur: "سنن ابن ماجہ — حدیث 183", es: "Sunan Ibn Majah 183 — El Libro de la Sunnah", fr: "Sunan Ibn Majah 183 – Le Livre de la Sunna" }
+label: { ar: "سنن ابن ماجه — حديث 183", en: "Sunan Ibn Majah 183 — The Book of the Sunnah", ur: "سنن ابن ماجہ — حدیث 183", es: "Sunan Ibn Majah 183 — El Libro de la Sunnah", fr: "Sunan Ibn Majah 183 – Le Livre de la Sunna", tr: "Sünen İbn Mâce – Hadis 183", id: "Sunan Ibnu Majah — Hadits 183" }
 text: "… إِذَا بَلَغَ مِنْهُ مَا شَاءَ اللَّهُ أَنْ يَبْلُغَ قَالَ إِنِّي سَتَرْتُهَا عَلَيْكَ فِي الدُّنْيَا وَأَنَا أَغْفِرُهَا لَكَ الْيَوْمَ ‏.‏ قَالَ ثُمَّ يُعْطَى صَحِيفَةَ حَسَنَاتِهِ أَوْ كِتَابَهُ بِيَمِينِهِ ‏.‏ قَالَ وَأَمَّا الْكَافِرُ أَوِ الْمُنَافِقُ فَيُنَادَى عَلَى رُءُوسِ الأَشْهَادِ ‏\"‏ ‏.‏ قَالَ خَالِدٌ فِي ‏\"‏ الأَشْهَادِ ‏\"‏ ‏.‏ شَىْءٌ مِنِ انْقِطَاعٍ ‏.‏ ‏{هَؤُلاَءِ الَّذِينَ كَذَبُوا عَلَى رَبِّهِم …"
 summary:
   ar: "في سنن ابن ماجه؛ ذكر كتابة كتاب أو إرساله."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابن ماجہ میں؛ خط لکھنے یا بھیجنے کا ذکر."
   es: "En Sunan Ibn Majah; se menciona la escritura o el envío de una carta."
   fr: "Dans les Sunan d'Ibn Majah; mention de la rédaction ou de l'envoi d'une lettre."
+  tr: "Sunan İbn Majah'ta bir kitap yazmaktan veya göndermekten bahsedilir."
+  id: "Dalam Sunan Ibn Majah, terdapat penyebutan tentang menulis atau mengirim sebuah buku."
 relations:
   - { type: part_of, target: passage/ibnmajah-kitab-00 }
   - { type: mentions, target: person/muhammad, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }

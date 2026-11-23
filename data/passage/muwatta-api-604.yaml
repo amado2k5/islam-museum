@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "604"
-label: { ar: "موطأ مالك 604 — ما لا يحل", en: "Muwatta Malik 604 — what is not lawful", ur: "موطأ مالک 604 — جو حلال نہیں", es: "Muwatta Malik 604 — lo que no es lícito", fr: "Muwatta Malik 604 — ce qui n'est pas licite" }
+label: { ar: "موطأ مالك 604 — ما لا يحل", en: "Muwatta Malik 604 — what is not lawful", ur: "موطأ مالک 604 — جو حلال نہیں", es: "Muwatta Malik 604 — lo que no es lícito", fr: "Muwatta Malik 604 — ce qui n'est pas licite", tr: "Muwatta Malik 604 — İzin verilmeyen şeyler", id: "Muwatta Malik 604 — Apa yang tidak diperbolehkan" }
 text: "حَدَّثَنِي يَحْيَى، عَنْ مَالِكٍ، عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ عَطَاءِ بْنِ يَسَارٍ، أَنَّ رَسُولَ اللَّهِ قَالَ \" لاَ تَحِلُّ الصَّدَقَةُ لِغَنِيٍّ إِلاَّ لِخَمْسَةٍ لِغَازٍ فِي سَبِيلِ اللَّهِ أَوْ لِعَامِلٍ عَلَيْهَا أَوْ لِغَارِمٍ أَوْ لِرَجُلٍ اشْتَرَاهَا بِمَالِهِ أَوْ لِرَجُلٍ لَهُ جَارٌ مِسْكِينٌ فَتُصُدِّقَ عَلَى الْمِسْكِينِ فَأَهْدَى الْمِسْكِينُ لِلْغَنِيِّ \". قَالَ مَالِكٌ الأَمْرُ عِنْدَنَا فِي قَسْمِ الصَّدَقَاتِ …"
 summary:
   ar: "حديث في موطأ مالك، رقم 604، يذكر ما لا يحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 604، جس میں جو حلال نہیں کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
   es: "Un informe en Muwatta Malik, n.° 604 (Zakat), menciona lo que no es lícito. El Navegador Halal y Haram lo incluye junto con los textos del Corán, la Sunnah, la sirah y los relatos de los Compañeros y Sucesores sobre lo que es lícito e ilícito."
   fr: "Un hadith du Muwatta Malik, n° 604 (Zakat), mentionne ce qui est illicite. Le Halal and Haram Browser le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les hadiths des Compagnons et des Successeurs concernant ce qui est licite et ce qui est illicite."
+  tr: "Malik'in Muwatta'sında yer alan 604 numaralı hadis, haram olan şeylerden bahsetmektedir. Bu hadis, helal ve haram konularında Kur'an, Sünnet, Peygamberin hayatı ve Sahabeler ile onların haleflerinden rivayetleri içeren Helal ve Haram Tarayıcısı tarafından derlenmiştir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 604, menyebutkan apa yang dilarang. Hadits ini dikompilasi oleh Halal and Haram Browser, yang mencakup teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan riwayat dari para Sahabat dan Penerus mereka mengenai apa yang diperbolehkan dan apa yang dilarang."
 relations:
   - { type: mentions, target: concept/halal-haram, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 604 (book 17 hadith 27); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }

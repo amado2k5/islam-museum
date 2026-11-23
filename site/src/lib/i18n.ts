@@ -2,9 +2,9 @@ import { readFileSync } from "node:fs";
 import { repoPath } from "./paths";
 import { parse } from "yaml";
 
-// Arabic canonical, English, Urdu, French and Spanish published beside it (docs/language.md): /ar/, /en/, /ur/, /fr/ and /es/ ship together.
-export const ALL_LANGS = ["ar", "en", "ur", "fr", "es"] as const;
-export type Lang = "ar" | "en" | "ur" | "fr" | "es";
+// Arabic canonical, English, Urdu, French, Spanish, Turkish and Indonesian published beside it (docs/language.md): /ar/, /en/, /ur/, /fr/, /es/, /tr/ and /id/ ship together.
+export const ALL_LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
+export type Lang = "ar" | "en" | "ur" | "fr" | "es" | "tr" | "id";
 // The languages this build writes pages for: all of them, unless BUILD_LANG names one (the by-language build,
 // .github/workflows/build-lang.yml, docs/engineering/06-deployment.md section 9). Page files build their paths from
 // LANGS. Whatever a page says about the other languages (hreflang alternates, the language switcher, counts) reads
@@ -15,14 +15,14 @@ const only = process.env.BUILD_LANG || "";
 export const SHARED_BUILD = only === "shared";
 if (only && !SHARED_BUILD && !(ALL_LANGS as readonly string[]).includes(only)) throw new Error(`BUILD_LANG="${only}" is not a language of the site (${ALL_LANGS.join(", ")}) and is not "shared"`);
 export const LANGS: readonly Lang[] = SHARED_BUILD ? [] : only ? [only as Lang] : ALL_LANGS;
-/** The next language in the switcher cycle: ar → en → ur → fr → es → ar. */
+/** The next language in the switcher cycle: ar → en → ur → fr → es → tr → id → ar. */
 export const nextLang = (l: Lang): Lang => ALL_LANGS[(ALL_LANGS.indexOf(l) + 1) % ALL_LANGS.length];
 /** Languages whose UI and prose share the Arabic script and the Naskh faces. */
 export const ARABIC_SCRIPT: readonly Lang[] = ["ar", "ur"];
 /** Open Graph locale per language. */
-export const OG_LOCALE: Record<Lang, string> = { ar: "ar_AR", en: "en_US", ur: "ur_PK", fr: "fr_FR", es: "es_ES" };
+export const OG_LOCALE: Record<Lang, string> = { ar: "ar_AR", en: "en_US", ur: "ur_PK", fr: "fr_FR", es: "es_ES", tr: "tr_TR", id: "id_ID" };
 /** Intl locale for numbers: Western digits everywhere (docs/language.md), grouping per language. */
-export const NUM_LOCALE: Record<Lang, string> = { ar: "ar-EG-u-nu-latn", en: "en-GB", ur: "ur-PK-u-nu-latn", fr: "fr-FR", es: "es-ES" };
+export const NUM_LOCALE: Record<Lang, string> = { ar: "ar-EG-u-nu-latn", en: "en-GB", ur: "ur-PK-u-nu-latn", fr: "fr-FR", es: "es-ES", tr: "tr-TR", id: "id-ID" };
 
 const cache = new Map<string, any>();
 /** Fill keys a language has not translated yet from English, so a page renders instead of crashing. */

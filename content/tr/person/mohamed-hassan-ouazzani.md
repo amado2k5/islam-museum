@@ -1,0 +1,14 @@
+---
+id: person/mohamed-hassan-ouazzani
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/mohamed-hassan-ouazzani.md}
+---
+## Özet
+
+Mohamed bin Hassan Al-Wazzani (1910–1978), 17 Ocak 1910'da Fes'te doğan Faslı gazeteci ve siyasetçiydi; soylu Wazzani ailesinde doğdu. Modern eğitime başlamadan önce Kur'an'ı ezberledi ve Fare'deki Sidi Ghiar camisinde Arapça öğrendi. Daha sonra, 1927'de Paris'e taşınarak Özgür Siyaset Bilimi Okulu'nda siyaset bilimi okudu ve Doğu Dilleri Enstitüsü ile Gazetecilik Enstitüsü'nde eğitim aldı. {cite:wikipedia-mohamed-hassan-ouazzani-ar} {cite:wikipedia-mohamed-hassan-ouazzani-fr} {cite:wikidata-mohamed-hassan-ouazzani}
+
+Ulusal aktivizmin erken döneminde ortaya çıktı: 1930'da El-Karaviyin Camii'nden Berberi kararnamesine karşı bir protesto düzenledi, tutuklandı, dövüldü ve Taza'da hapsedildi. Paris, Cenevre ve Madrid'de Mağrip gazeteciliğinde yer aldı ve Çakib Arslan ile birlikte çalıştı. {cite:wikipedia-mohamed-hassan-ouazzani-fr} 4 Ağustos 1933'te Fes'te "Halkın Eylemi" (L'Action du Peuple) gazetesini kurdu; bu, kendi dilinde sömürgeciye hitap eden ilk ulusal Fas gazetesi Fransızca'ydı. {cite:wikipedia-mohamed-hassan-ouazzani-en} {cite:wikipedia-mohamed-hassan-ouazzani-fr} 1934 [[person/allal-al-fassi|'te Allal El Fassi ile birlikte Ulusal Eylem Bloğu'nu]] kurdu, ardından 1937'de onunla anlaşmazlığa düştü ve kendi hareketlerine ayrıldı. El Wazzani, Meknes'teki olayların ardından tutuklandı ve 1946'ya kadar güney Fas'a—Ghoulmima, Assa, Tata, Taghounit ve ardından Itzer'e—sürgün edildi. {cite:wikipedia-mohamed-hassan-ouazzani-en}{cite:wikipedia-mohamed-hassan-ouazzani-fr}
+
+Dönüşünün ardından Marakeş-Kazablanka'da tam bağımsızlık ve anayasal monarşi talep ederek Şura ve İstiqlal Partisi'ni (Demokratik İstiqlal Partisi) kurdu. 'Al-Ra'i Al-Aam', 'Al-Siyasa' ve 'Al-Siha' gazetelerini yayımladı. Yıllarca Kahire'de ve sürgünde Birleşmiş Milletler ve Bandung Konferansı'nda Fas'ın davasını savundu. {cite:wikipedia-mohamed-hassan-ouazzani-fr} Bağımsızlıktan sonra, 1961'de Hassan II hükümetinde Devlet Bakanı oldu, ardından 1962 anayasasına karşı çıktı, hükümetten ayrıldı ve 1963'te Ouezzane milletvekili seçildi. {cite:wikipedia-mohamed-hassan-ouazzani-en} {cite:wikipedia-mohamed-hassan-ouazzani-fr} 1971 darbe girişiminde sağ elini kaybetti, sol eliyle yazmayı öğrendi ve demokratik reform çağrısında bulunan siyasi faaliyetlerine devam etti. {cite:wikipedia-mohamed-hassan-ouazzani-en} 9 Eylül 1978'de Fez'de vefat etti ve eşi ile büyükanne ve büyükbabasının yanına defnedildi. {cite:wikipedia-mohamed-hassan-ouazzani-fr} {cite:wikidata-mohamed-hassan-ouazzani}

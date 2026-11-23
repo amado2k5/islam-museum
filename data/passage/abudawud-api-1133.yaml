@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "1133"
-label: { ar: "سنن أبي داود 1133 — اليتيم وفقد الأب", en: "Sunan Abi Dawud 1133 — the orphan and the father lost", ur: "سنن ابی داؤد 1133 — یتیم اور باپ کی موت", es: "Sunan Abi Dawud 1133 — El huérfano y el padre perdido", fr: "Sunan Abi Dawud 1133 — L'orphelin et le père perdus" }
+label: { ar: "سنن أبي داود 1133 — اليتيم وفقد الأب", en: "Sunan Abi Dawud 1133 — the orphan and the father lost", ur: "سنن ابی داؤد 1133 — یتیم اور باپ کی موت", es: "Sunan Abi Dawud 1133 — El huérfano y el padre perdido", fr: "Sunan Abi Dawud 1133 — L'orphelin et le père perdus", tr: "Sunan Abi Davud 1133 — Yetim ve Babasının Kaybı", id: "Sunan Abi Dawud 1133 — Anak Yatim dan Kehilangan Ayah" }
 text: "… عَنِ ابْنِ جُرَيْجٍ، أَخْبَرَنِي عَطَاءٌ، أَنَّهُ رَأَى ابْنَ عُمَرَ يُصَلِّي بَعْدَ الْجُمُعَةِ فَيَنْمَازُ عَنْ مُصَلاَّهُ الَّذِي، صَلَّى فِيهِ الْجُمُعَةَ قَلِيلاً غَيْرَ كَثِيرٍ قَالَ فَيَرْكَعُ رَكْعَتَيْنِ قَالَ ثُمَّ يَمْشِي أَنْفَسَ مِنْ ذَلِكَ فَيَرْكَعُ أَرْبَعَ رَكَعَاتٍ قُلْتُ لِعَطَاءٍ كَمْ رَأَيْتَ ابْنَ عُمَرَ يَصْنَعُ ذَلِكَ قَالَ مِرَارًا قَالَ أَبُو دَاوُدَ وَرَوَاهُ عَبْدُ الْمَلِكِ بْنُ أَبِي سُلَيْمَانَ وَلَمْ يُتِمَّهُ."
 summary:
   ar: "حديث في سنن أبي داود، رقم 1133، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابی داؤد کی حدیث نمبر 1133، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Abi Dawud, n.° 1133 (Oración (Kitab Al-Salat)), menciona al huérfano y al padre fallecido. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre la paternidad."
   fr: "Un hadith du Sunan Abi Dawud, n° 1133 (La Prière), évoque l'orphelin et le père disparu. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages consacrés à la figure paternelle."
+  tr: "Sünen Ebu Davud'da yer alan 1133 numaralı hadis, yetimlerden ve babasızlık durumundan bahsetmektedir. Bu hadis, İslam'da babalık üzerine araştırmalar yapan bir kişi tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan Abi Dawud, nomor 1133, menyebutkan tentang anak yatim dan kehilangan seorang ayah. Hadits ini dikumpulkan oleh peneliti tentang peran ayah dalam Islam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/yatim-fiqh, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1133 (book 2 hadith 744); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

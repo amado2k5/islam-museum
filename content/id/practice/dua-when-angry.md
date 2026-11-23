@@ -1,0 +1,12 @@
+---
+id: practice/dua-when-angry
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/dua-when-angry.md}
+---
+## Ringkasan
+Apa yang disebutkan al-Nawawi dalam "Kitab Kenangan Lain-lain" dalam bab tentang apa yang harus dikatakan saat marah: dua ayat yang ia sebutkan, hadits tentang pengendalian diri dalam kemarahan, mencari perlindungan, permohonan, dan wudhu. {cite:al-adhkar-nawawi-arnaut-1994 p. 300}
+
+## Apa yang dikumpulkan al-Nawawi dalam 'Al-Adhkar'
+Al-Nawawi membuka bab tentang apa yang harus dikatakan ketika dia marah dengan dua ayat: [[passage/quran-3-134|Surah Al-Imran 134]] dan [[passage/quran-7-199|Surah Al-A'raf 199]] {cite:al-adhkar-nawawi-arnaut-1994 p. 300}. Kemudian dia menceritakan dari dua Shahid Abu Huraira bahwa [[person/muhammad|Nabi]] berkata: "Yang berat bukan karena perselisihan, tetapi yang keras adalah yang mengendalikan dirinya dalam kemarahan" {cite:al-adhkar-nawawi-arnaut-1994 p. 300}. Dari Abu Dawood, Al-Tirmidhi, dan Ibn Majah dari Mu'adh ibn Anas Al-Juhani bahwa siapa pun yang menahan amarah dan mampu melakukannya, Allah akan memanggilnya di atas kepala semua makhluk sampai Dia memberinya pilihan dari houri sesuai kehendak-Nya. Al-Tirmidhi mengucapkan hadits yang baik {cite:al-adhkar-nawawi-arnaut-1994 p. 301}. Dan dari Kedua Shahih itu menceritakan dari Sulayman ibn Surad bahwa dua orang menjadi sombong, dan Nabi berkata, 'Aku tahu satu kata bahwa jika dia mengucapkannya, dia akan kehilangan apa yang ditemukannya: 'Aku mencari perlindungan kepada Allah dari Iblis yang terkutuk' {cite:al-adhkar-nawawi-arnaut-1994 p. 301}. Maknanya diceritakan dari Mu'adh ibn Jabal dalam Abu Dawood dan al-Tirmidhi, dan al-Tirmidhi mengatakan itu adalah mursal {cite:al-adhkar-nawawi-arnaut-1994 p. 301}. Dari kitab Ibn al-Sunni dari Aisha bahwa Nabi berkata kepadanya: 'Ya Allah, ampunilah aku dosaku, hilangkan murka hatiku, dan lindungilah aku dari Setan' {cite:al-adhkar-nawawi-arnaut-1994 p. 301}. Dan dari Abu Dawud dari Atiyah al-Sa'di bahwa amarah berasal dari Setan dan bahwa Setan diciptakan dari api, dan api hanya padam oleh air. Jadi jika salah satu dari kalian marah, biarkan dia melakukan wudhu {cite:al-adhkar-nawawi-arnaut-1994 p. 301}.

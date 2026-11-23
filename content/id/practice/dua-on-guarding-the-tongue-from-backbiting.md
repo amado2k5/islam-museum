@@ -1,0 +1,12 @@
+---
+id: practice/dua-on-guarding-the-tongue-from-backbiting
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/dua-on-guarding-the-tongue-from-backbiting.md}
+---
+## Ringkasan
+Apa yang disebutkan al-Nawawi di akhir bab tentang keutamaan diam dari tradisi generasi awal, dan dalam bab tentang larangan fitnah dan gosip, termasuk definisi, keputusan, dan hadits tentang mereka. {cite:al-adhkar-nawawi-arnaut-1994 p. 335}
+
+## Apa yang dikumpulkan al-Nawawi dalam 'Al-Adhkar'
+Al-Nawawi menutup bab tentang keheningan dengan tradisi, mengatakan bahwa pepatah mereka 'Barangsiapa yang diam akan diselamatkan' memiliki rantai transmisi yang lemah; ia hanya menyebutkannya untuk memperjelas ketenarannya {cite:al-adhkar-nawawi-arnaut-1994 p. 335}. Ia juga menyebutkan bahwa Qas ibn Sa'idah dan Aktham ibn Saifi menyebutkan kesalahan putra Adam, dan satu sifat yang menyembunyikan semua kesalahan adalah menjaga lidah {cite:al-adhkar-nawawi-arnaut-1994 p. 335}. Apa yang dilaporkan al-Qushayri dari Abu Ali al-Daqqaq adalah: Siapa pun yang diam tentang kebenaran adalah iblis bisu {cite:al-adhkar-nawawi-arnaut-1994 p. 335}. Kemudian bab tentang larangan mengumpat dan bergosip, mendefinisikan fitnah sebagai mengingatkan seseorang akan apa yang tidak disukainya, baik dalam tubuh maupun agamanya atau duniawi atau lainnya, baik melalui kata-kata, buku, atau gestur Anda, dan gosip adalah transmisi kata-kata orang satu sama lain dengan cara yang menyebabkan korupsi, dan dia mengatakan bahwa kata-kata itu dilarang oleh konsensus Muslim {cite:al-adhkar-nawawi-arnaut-1994 p. 336}. Ia juga mengutip ayat-ayat seperti [[passage/quran-49-12|Surah Al-Hujurat 12]], [[passage/quran-104-1|Surah Al-Hamza 1]], dan [[passage/quran-68-11|Surah Al-Qalam 11]] {cite:al-adhkar-nawawi-arnaut-1994 p. 337}. Di antara dua Shahi dari Hudhayfah yang [[person/muhammad|dikatakan Nabi]]: "Tidak seorang pun akan masuk surga dalam gosip {cite:al-adhkar-nawawi-arnaut-1994 p. 337}." Dari Sahih Muslim, Abu Dawood, Al-Tirmidhi, dan Al-Nasa'i, dari Abu Huraira, cacian adalah "untuk mengingatkan Anda pada saudaramu dalam apa yang tidak disukainya." Al-Tirmidhi berkata hadis itu baik dan otentik {cite:al-adhkar-nawawi-arnaut-1994 p. 337}.

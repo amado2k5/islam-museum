@@ -1,7 +1,7 @@
 id: event/conquest-of-kerman
 class: event
 kind: conquest
-label: { ar: "فتح كرمان", en: "the conquest of Kirman (24 AH)", es: "La conquista de Kirman (24 AH)", fr: "la conquête de Kirman (24 AH)", ur: "کرمان کی فتح ⁦(24ھ)⁩" }
+label: { ar: "فتح كرمان", en: "the conquest of Kirman (24 AH)", es: "La conquista de Kirman (24 AH)", fr: "la conquête de Kirman (24 AH)", ur: "کرمان کی فتح ⁦(24ھ)⁩", tr: "Fatah Kerman", id: "Fatah Kerman" }
 date:
   start: { edtf: "0644", hijri: "0024", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 24؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 428}." }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Kirman se inauguró en el año 24; cuando su gente rompió la fe, Ibn 'Amir puso al Compañero Mujashi' ibn Mas'ud al mando para que les hiciera la guerra {cite:kamil-ibn-al-athir p. 428}."
   fr: "Kirman s'ouvrit en l'an 24; lorsque ses habitants rompirent plus tard la foi, Ibn 'Amir chargea le Compagnon Mujashi' ibn Mas'ud de leur faire la guerre {cite:kamil-ibn-al-athir p. 428}."
   ur: "کرمان سال 24 میں کھولا گیا۔ جب اس کے لوگوں نے بعد میں ایمان توڑ دیا تو ابن عامر نے صحابی مجاشی ابن مسعود کو ان سے جنگ کرنے کے لیے اس پر مقرر کیا۔ 428}۔"
+  tr: "Kerman yirmi dördüncü yılda fethedildi, sonra halkı isyan etti. Bunun üzerine İbn Amir, Peygamberimizle yakınlığı olan Mücaşi bin Mes'ud el-Sulami'yi onların başına atadı ve onlarla savaşmasını emretti. {Kaynak: Kamil ibn el-Atir s. 428}"
+  id: "Kerman ditaklukkan pada tahun 24, kemudian penduduknya memberontak, sehingga Ibnu Amir menunjuk Mujashi’ bin Mas’ud al-Sulami, yang bersahabat dengan Nabi, untuk memimpin mereka dan memerintahkannya untuk memerangi mereka. {cite:kamil-ibn-al-athir p. 428}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/kirman, sources: [source/kamil-ibn-al-athir] }

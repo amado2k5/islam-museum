@@ -1,0 +1,17 @@
+---
+id: place/zuwayla
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/place/zuwayla.md}
+---
+## Özet
+Zuweila, kuzey Ouedane'de bir şehirdir. Al-Idrisi, burayı kuzenleriyle birlikte orada inşa eden ve yaşayan bir adama atfeder; bunun 306 Hicri yılında olduğunu ve onun döneminde zengin olduğunu belirtir. {cite:nuzhat-al-mushtaq-2002 p. 115} {cite:nuzhat-al-mushtaq-2002 p. 116}
+
+## Ülkeler sözlüğünde
+Yaqut, 'Zuweila' adında iki kasabadan bahseder; bu, aynı isimle Kahire'de bir bölge ve bir kapıya atıfta bulunur. İlki, Sudan'ın Ajdabiya açıklarında, Sudan ile İfriqiyye arasında yer alan Zuweila'dır. {cite:mujam-al-buldan-sader-1995 3 p.159-160} Al-Bakri'ye atfedilen bir pasajda, giriş, duvarsız bir kasabanın betimlemesinin çölün ortasında nerede sona erdiğini göstermemektedir; burası Sudan'ın ilk sınırıdır; burada bir cami, bir hamam ve yoldaşların buluşup ayrıldığı pazarlar, küçük bir palmiye ağacı ve develerle sulanan bir paspas bulunur. Ömer Kireneyka'yı fethettiğinde, Uqba ibn Nafi'nin Zuwayla'ya ulaşmak için gönderdiğini, böylece Barqa ile Zuwayla arasındaki bölgenin Müslümanlar için olduğunu söyler. Şair Da'bal al-Khuza'i'nin mezarı oradadır, Bakr ibn Hammad öldüğünde orada bir evi vardı ve Acdabiyya ile arasında on dört evre vardır. Halkı kasabalarını palmiye yaprakları çekerek ve oradan çıkan her izi takip ederek korurlar. {cite:mujam-al-buldan-sader-1995 3 p.160} Ayetten sonraki girişte, tarihçilerin Da'bala'nın 220 Hicri yılında Tus'a kaçtıktan sonra öldürüldüğünü ve bunun gömülmesiyle uzlaşmadığını belirttiği eklenir. {cite:mujam-al-buldan-sader-1995 3 p.160} İkinci kasaba Zuwayla al-Mahdiyya'dır, Mahdiyya'nın hedefindedir. Ubayd Allah al-Mahdi oraya yerleşti ve askerleriyle birlikte Mahdiyya'ya yerleşti. {cite:mujam-al-buldan-sader-1995 3 p.160}
+
+Diğer girişlerde: Fezzan, batıda Fayoum ile Trablus arasında geniş bir eyalet ve şehri Sudan'ın Zuweila kentidir. {cite:mujam-al-buldan-sader-1995 4 p.260} Batıda Zuweila ile on bir gün, doğuda Waddan ile arasında ise on bir gün ticaret yaptı. {cite:mujam-al-buldan-sader-1995 2 p.5} Al-Bakri'ye göre Zuweila ile arasındaki Waddan on gündü. {cite:mujam-al-buldan-sader-1995 5 p.366}
+
+## Müzenin Tanımı
+Kart, al-Idrisi'ye göre, s. 115-116'ya göre, Zuweila'yı Ouedan'ın kuzeyinde, bir adam tarafından inşa edilmiş ve kuzenleriyle birlikte 306 Hicri yılında buraya yerleşmiş bir şehir olarak gösterir. Dört okunabilir girişte, cilt 3 s. 159-160, cilt 4, cilt 2, s. 5 ve folio 5 s. 366'da, Yaqut Zuweila'nın Sudan'daki kuruluş tarihini veya kuruluş yılını belirtmez ve Tajarat Zuweila'nın girişini Ouedan'ın batısında, kuzeyinde değil olarak gösterir. Girişler, Fezzan'da Ouedan yakınlarında Zuweila adlı bir kasabanın varlığını destekler; ancak Zuweila al-Idrisi o kasaba olduğu için burası bir müze okumasıdır. Kart 26.1667 ve 15.1167 işaretleri 113,1 km uzaklıktadır Müze noktası Fezzan'dır ve Oudan'ın güneyinde yer alan Ludan noktasından 348,0 km uzaklıktadır, ancak kartın metni kuzeyinde olduğunu belirtir ve gün sayısına uymaz. Zuweila al-Mahdia ve Bab al-Qahir diğer iki yerdir. Bkz [[place/fazzan|. Fezzan]], [[place/wadan|Oudan]] ve [[place/ajdabiyya|Ajdabiya]].

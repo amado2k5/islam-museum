@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "7300"
-label: { ar: "صحيح البخاري — حديث 7300", en: "Sahih al-Bukhari 7300 — Holding Fast to the Qur'an and Sunnah", ur: "صحیح بخاری — حدیث 7300", es: "Sahih al-Bukhari 7300 — Aferrarse al Corán y la Sunnah", fr: "Sahih al-Bukhari 7300 — S'attacher fermement au Coran et à la Sunna" }
+label: { ar: "صحيح البخاري — حديث 7300", en: "Sahih al-Bukhari 7300 — Holding Fast to the Qur'an and Sunnah", ur: "صحیح بخاری — حدیث 7300", es: "Sahih al-Bukhari 7300 — Aferrarse al Corán y la Sunnah", fr: "Sahih al-Bukhari 7300 — S'attacher fermement au Coran et à la Sunna", tr: "Sahih el-Buhari - Hadis 7300", id: "Sahih al-Bukhari — Hadits 7300" }
 text: "… حَدَّثَنَا الأَعْمَشُ، حَدَّثَنِي إِبْرَاهِيمُ التَّيْمِيُّ، حَدَّثَنِي أَبِي قَالَ، خَطَبَنَا عَلِيٌّ ـ رضى الله عنه ـ عَلَى مِنْبَرٍ مِنْ آجُرٍّ، وَعَلَيْهِ سَيْفٌ فِيهِ صَحِيفَةٌ مُعَلَّقَةٌ فَقَالَ وَاللَّهِ مَا عِنْدَنَا مِنْ كِتَابٍ يُقْرَأُ إِلاَّ كِتَابُ اللَّهِ وَمَا فِي هَذِهِ الصَّحِيفَةِ‏.‏ فَنَشَرَهَا فَإِذَا فِيهَا أَسْنَانُ الإِبِلِ وَإِذَا فِيهَا ‏\"‏ الْمَدِينَةُ حَرَمٌ مِنْ عَيْرٍ إِلَى كَذَا، فَمَنْ أَحْدَثَ فِيهَا حَدَثًا فَعَلَيْهِ لَعْنَةُ اللَّهِ وَالْمَلاَئِكَةِ وَالنَّاسِ أَجْمَعِينَ، …"
 summary:
   ar: "في صحيح البخاري؛ ذكر كتابة كتاب أو إرساله."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری میں؛ خط لکھنے یا بھیجنے کا ذکر."
   es: "En Sahih al-Bukhari; mención de escribir o enviar una carta."
   fr: "Dans Sahih al-Bukhari; mention de la rédaction ou de l'envoi d'une lettre."
+  tr: "Sahih el-Buhari'de onun bir kitap yazdığı veya gönderdiği belirtilmektedir."
+  id: "Dalam Sahih al-Bukhari, disebutkan bahwa beliau menulis sebuah buku atau mengirimkannya."
 relations:
   - { type: mentions, target: concept/ilaf, sources: [source/sahih-al-bukhari] }
   - { type: part_of, target: passage/bukhari-kitab-96 }

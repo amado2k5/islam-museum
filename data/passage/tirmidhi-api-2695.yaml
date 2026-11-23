@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "2695"
-label: { ar: "جامع الترمذي 2695 — الأب والأبوة", en: "Jami' al-Tirmidhi 2695 — the father and fatherhood", ur: "جامع ترمذی 2695 — باپ اور والدیت", es: "Jami' al-Tirmidhi 2695 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 2695 — le père et la paternité" }
+label: { ar: "جامع الترمذي 2695 — الأب والأبوة", en: "Jami' al-Tirmidhi 2695 — the father and fatherhood", ur: "جامع ترمذی 2695 — باپ اور والدیت", es: "Jami' al-Tirmidhi 2695 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 2695 — le père et la paternité", tr: "Cami' el-Tirmizi 2695 — Baba ve Babalık", id: "Jami' al-Tirmidhi 2695 — Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا ابْنُ لَهِيعَةَ، عَنْ عَمْرِو بْنِ شُعَيْبٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، أَنَّ رَسُولَ اللَّهِ قَالَ \" لَيْسَ مِنَّا مَنْ تَشَبَّهَ بِغَيْرِنَا لاَ تَشَبَّهُوا بِالْيَهُودِ وَلاَ بِالنَّصَارَى فَإِنَّ تَسْلِيمَ الْيَهُودِ الإِشَارَةُ بِالأَصَابِعِ وَتَسْلِيمَ النَّصَارَى الإِشَارَةُ بِالأَكُفِّ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ إِسْنَادُهُ ضَعِيفٌ. وَرَوَى ابْنُ الْمُبَارَكِ هَذَا الْحَدِيثَ عَنِ ابْنِ لَهِيعَةَ فَلَمْ يَرْفَعْهُ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 2695، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 2695، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe de Jami' al-Tirmidhi, n.º 2695 (Capítulos sobre la búsqueda de permiso), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 2695 (Chapitres sur la demande de permission), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Cami' el-Tirmizi'de 2695 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bunu Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birleştirir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 2695, menyebutkan tentang ayah dan peran ayah. Fitur \"Peran Ayah dalam Islam\" menggabungkan hal ini dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2695 (book 42 hadith 8); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

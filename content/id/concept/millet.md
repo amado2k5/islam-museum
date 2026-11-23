@@ -1,0 +1,30 @@
+---
+id: concept/millet
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/millet.md}
+---
+## Ringkasan
+Milt adalah bentuk Turki dari kata Arab 'milah'. Ensiklopedia Islam menyatakan bahwa kata ini merujuk pada agama, komunitas agama, dan bangsa, dan ketiga makna dasar ini digunakan bersama di Kekaisaran Ottoman hingga era Tanzimit dan setelahnya. {cite:encyclopaedia-of-islam-2 vol. 7 p. 81}
+
+## Makna pertama: Agama, doktrin, dan ritual
+Artikel tersebut menyatakan bahwa agama dalam Al-Qur'an hampir sama dengan agama dan harus diterjemahkan sebagai 'agama,' yang paling banyak ditemukan dalam frasa 'agama Abraham,' dan lebih jarang ditemukan dalam agama para politeis. {cite:encyclopaedia-of-islam-2 vol. 7 p. 81} Tidak ada contoh dalam Al-Qur'an yang menunjukkan terjemahannya sebagai komunitas atau bangsa. {cite:encyclopaedia-of-islam-2 vol. 7 p. 81} Dalam penggunaan selanjutnya, makna ini tetap ada, dan artikel ini menemukannya bahkan dalam dokumen abad kesembilan belas, terutama dalam korespondensi resmi dan paten dari istana Ottoman, Mamluk, dan Safavid yang ditujukan kepada tokoh Kristen terkemuka. {cite:encyclopaedia-of-islam-2 vol. 7 p. 81} Contohnya termasuk surat Sultan Mamluk Qaitbay kepada Duge Venesia pada tahun 877 H/1473 M, dan izin Shah Abbas II kepada Karmelit di Isfahan pada tahun 1052 H/1642 M. {cite:encyclopaedia-of-islam-2 vol. 7 p. 81} Sebuah dokumen Ottoman dari tahun 1108 H/1697 M membahas mereka yang bergabung dengan sekte Paus, dan kata ini digunakan bersamaan dengan doktrin Latin. {cite:encyclopaedia-of-islam-2 vol. 7 p. 81} {cite:encyclopaedia-of-islam-2 vol. 7 p. 82}
+
+## Makna kedua: Kelompok agama
+Ketika 'mullah' berarti kelompok dari satu sekte, artikel tersebut menanyakan apakah makna yang dimaksud merujuk pada subjek Ottoman non-Muslim di bawah kontrak dhimma, dan lihat [[concept/dhimma|'dhimmis']] serta [[concept/ahl-al-dhimma|'orang dhimmi]].' {cite:encyclopaedia-of-islam-2 vol. 7 p. 82} Ini mencatat perdebatan ilmiah. Benjamin Braud percaya bahwa kata tersebut telah lama merujuk pada orang Kristen di luar negara dan tidak umum digunakan untuk dhimmi sebelum abad kesembilan belas. Penulis artikel ini sebagian tidak setuju, karena setiap penggunaan 'millah' dalam istilah kelompok sektarian dalam dokumen Humayun Diwan yang diterbitkan oleh Rafiq dari tahun 1689 hingga 1839 merujuk pada subjek Ottoman non-Muslim, termasuk Ortodoks Yunani, Armenia, Katolik, dan Yahudi. {cite:encyclopaedia-of-islam-2 vol. 7 p. 82}
+
+Artikel tersebut memberikan tonggak sejarah. Sebuah dokumen dari tahun 1697 memperlakukan komunitas Romawi dan Armenia sebagai agama yang diakui. Sebuah dokumen dari tahun 1591 menyebut komunitas Armenia sebagai kelompok agama di tingkat kekaisaran. Sekte Ortodoks Yunani muncul sebagai milt rum dalam dokumen dari tahun 1170 H/1757 M, dan sekte Yahudi serta Katolik hanya disebutkan pada tahun 1255 H/1839 M. Pada akhir abad kedelapan belas, administrasi keuangan bahkan menyebutkan tiga sekte non-Muslim. {cite:encyclopaedia-of-islam-2 vol. 7 p. 82} Tampaknya pedagang asing yang tinggal di bawah hak istimewa disebut sekte dan sekte secara analogi. {cite:encyclopaedia-of-islam-2 vol. 7 p. 82}
+
+## Makna ketiga: bangsa atau bagian dari suatu bangsa
+Dalam arti ketiga, bangsa berarti negara berdaulat atau bagian dari suatu bangsa. Contoh artikel ini termasuk tiga sekte di Transylvania—Hungaria, Skithia, dan Saxon—antara tahun 1652 dan 1687, yang perwakilannya biasa duduk bersama pangeran kerajaan vasal dan negara-negara Eropa yang disebutkan dalam Perjanjian Küçük Kayanarce pada tahun 1774, dan dari perspektif Islam, tempat ini dianggap sebagai rumah perang. {cite:encyclopaedia-of-islam-2 vol. 7 p. 83}
+
+Ia menambahkan bahwa Sublime Porte tidak mulai menyebut Serbia dan Romawi yang memberontak sebagai sekte, yang berarti bangsa merdeka, sampai mereka melihat bahwa perjanjian dhimma dengan mereka telah dicabut, sehingga makna kedua dan ketiga bertentangan. Pihak Ottoman terus berargumen pada tahun 1827 bahwa semua orang Romawi berasal dari satu sekte karena doktrin dan patriark mereka adalah satu. {cite:encyclopaedia-of-islam-2 vol. 7 p. 83}
+
+## Sistem kebosanan itu kontroversial
+Artikel ini menyampaikan pandangan bahwa tidak ada sistem administrasi umum untuk menangani non-Muslim, melainkan serangkaian pengaturan sosial, yang sebagian besar berbeda menurut waktu dan tempat. Artikel ini menerima bahwa hal ini sama sekali tidak benar, tetapi menyimpulkan bahwa istilah 'millah' ('millah'), yang berarti komunitas non-Muslim, tidak digunakan secara eksklusif atau konsisten sebelum abad kesembilan belas. {cite:encyclopaedia-of-islam-2 vol. 7 p. 83} Penggunaan reguler hanya dapat dibuktikan di beberapa biro pusat, bukan di administrasi regional atau lokal di mana kata 'ta'ifah' umum. Kepala juru tulis di diwan dapat menggunakan istilah 'mullah' (kelompok agama), sedangkan Wazir Agung menggunakan istilah 'ta'ifah' (sekte). {cite:encyclopaedia-of-islam-2 vol. 7 p. 83}
+
+Penulis menjelaskan bahwa kelompok-kelompok tersebut melihat pusat ini sebagai badan keagamaan dan yudisial di bawah kepala gerejawi mereka, dengan perluasan yang pada prinsipnya meluas ke kekaisaran. Ia menyarankan bahwa gagasan ini mungkin muncul pada abad ketujuh belas ketika Sublime Porte, penjamin ordo yang ada, merasa terdorong untuk melindungi kelompok tradisional dari misi Barat. {cite:encyclopaedia-of-islam-2 vol. 7 p. 83} {cite:encyclopaedia-of-islam-2 vol. 7 p. 84} Ini adalah pembacaan artikel dan penyajiannya sebisa mungkin, dan museum mencatatnya sebagai satu suara dalam debat terbuka. {cite:encyclopaedia-of-islam-2 vol. 7 p. 84}
+
+## Lihat juga
+Untuk lingkungan yang menjadi markas Patriark Ortodoks Yunani, lihat [[place/fener|Fener]]. Lihat juga [[polity/ottoman-empire|Kekaisaran Ottoman]].

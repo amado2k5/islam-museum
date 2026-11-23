@@ -1,0 +1,15 @@
+---
+id: event/al-hadi-falls-with-his-horse-into-a-pit-at-minas-286
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/al-hadi-falls-with-his-horse-into-a-pit-at-minas-286.md}
+---
+## Ringkasan
+Sebelum Pertempuran Suhan [[person/al-hadi-yahya-al-rassi|, al-Hadi]] pergi ke [[place/minas-najran|Minas]] untuk menebang beberapa pohon palem [[person/abdullah-ibn-bustam|milik Ibn Bastam]], sehingga harinya dipersingkat. Ketika tiba waktu shalat tengah hari, ia memerintahkan teman-temannya untuk pergi {cite:sira-hadi-ila-al-haqq p.175}. Ia telah menunggang kuda yang lemah selain yang sedang ia perjuangkan, seorang pria pirang bernama Abu al-Hamahim, karena [[group/banu-al-harith-ibn-kab|Banu al-Harith]] mengenal kudanya dan ketika ia menungganginya, mereka tahu ia sedang bertarung dengan mereka, dan ketika orang lain menungganginya, mereka tahu ia tidak akan melawan mereka hari itu {cite:sira-hadi-ila-al-haqq p.175}.
+
+## Jatuh
+Ketika orang-orang Minas melihat al-Hadi menunggang kuda selain kudanya, mereka meninggalkan benteng dan mendahului pasukannya ke gerbang benteng untuk mencegah masuk. Di dekat jalan setapak, terdapat lubang yang tidak mereka ketahui, sehingga ia membawa kuda itu ke gerbang jalan, jatuh ke dalam lubang, dan kuda itu jatuh bersamanya {cite:sira-hadi-ila-al-haqq p.175}. Pada saat yang sama, ia meraih pedangnya, menghunusnya, mengambil tombaknya, melompat tegak di depan wajah mereka, dan berteriak kepada mereka. Tidak ada yang mendekatinya setelah teriakannya. Sebelumnya mereka berharap dan melawannya tetapi tidak menemukan tanda-tanda kehadirannya. Banyak luka terjadi di antara orang-orang hari itu, dan sekelompok orang tewas saat ia jatuh {cite:sira-hadi-ila-al-haqq p.175} {cite:sira-hadi-ila-al-haqq p.176}.
+
+## Wajah kuda
+Narator menyebutkan bahwa wajah kuda al-Hadi jatuh ke dalam lubang, sehingga ia mengulurkan tangan kirinya dan mengambilnya dari bawah gagang genderang. Semoga Allah melindunginya dari kejahatan hari itu, menurut narator {cite:sira-hadi-ila-al-haqq p.176}. Beberapa temannya bertanya mengapa ia mengambil wajah kuda dan tidak meninggalkannya, dan ia mengatakan bahwa yang mencegahnya pergi adalah mereka akan mengambilnya, dan mereka berkata, 'Kami mengambil wajah kudanya,' jadi ia mengambilnya meskipun {cite:sira-hadi-ila-al-haqq p.176}. Margin salinan pada kata 'wajah kuda' membingungkan dalam edisi dan tidak dapat dijelaskan oleh ensiklopedia. Kemudian kuda lain dibawa, ditungganginya, dan malam mendekat {cite:sira-hadi-ila-al-haqq p.176}. Narasi adalah cerita para pengikut Imam, dan pernyataannya adalah bahwa Tuhan melindunginya dari kata-kata narator, bukan dari keputusan ensiklopedia. Dan itu mengikuti [[event/al-hadi-has-the-people-of-the-fort-make-room-for-his-men-before-adha-286]].

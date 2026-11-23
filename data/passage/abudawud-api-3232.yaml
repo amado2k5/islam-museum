@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "3232"
-label: { ar: "سنن أبي داود 3232 — دفن وقبر ومرقد", en: "Sunan Abi Dawud 3232 — a burial, grave or resting place", ur: "سنن ابی داؤد 3232 — تدفین، قبر اور مرقد", es: "Sunan Abi Dawud 3232 — un lugar de entierro, tumba o descanso.", fr: "Sunan Abi Dawud 3232 — un lieu de sépulture, une tombe ou un lieu de repos" }
+label: { ar: "سنن أبي داود 3232 — دفن وقبر ومرقد", en: "Sunan Abi Dawud 3232 — a burial, grave or resting place", ur: "سنن ابی داؤد 3232 — تدفین، قبر اور مرقد", es: "Sunan Abi Dawud 3232 — un lugar de entierro, tumba o descanso.", fr: "Sunan Abi Dawud 3232 — un lieu de sépulture, une tombe ou un lieu de repos", tr: "Sunan Abi Dawud 3232 - Defin, Mezar ve Türbe", id: "Sunan Abi Dawud 3232 — Pemakaman, Kuburan, dan Tempat Suci" }
 text: "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ سَعِيدِ بْنِ يَزِيدَ أَبِي مَسْلَمَةَ، عَنْ أَبِي نَضْرَةَ، عَنْ جَابِرٍ، قَالَ دُفِنَ مَعَ أَبِي رَجُلٌ فَكَانَ فِي نَفْسِي مِنْ ذَلِكَ حَاجَةٌ فَأَخْرَجْتُهُ بَعْدَ سِتَّةِ أَشْهُرٍ فَمَا أَنْكَرْتُ مِنْهُ شَيْئًا إِلاَّ شُعَيْرَاتٍ كُنَّ فِي لِحْيَتِهِ مِمَّا يَلِي الأَرْضَ."
 summary:
   ar: "حديث في سنن أبي داود، رقم 3232، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابی داؤد کی حدیث نمبر 3232، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Abi Dawud, n.° 3232 (Funerales (Kitab Al-Jana'iz)), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sunan Abi Dawud, n° 3232 (Les Funérailles (Kitab Al-Jana'iz)), mentionne un lieu de sépulture, une tombe ou un lieu de repos. Le navigateur de textes sacrés le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Sunan Ebu Davud'da yer alan 3232 numaralı hadiste, defin, mezar ve türbeden bahsedilmektedir. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler üzerine araştırmalar yapan bir uzman tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan Abi Dawud, no. 3232, menyebutkan tentang penguburan, kuburan, dan makam. Hadits ini disusun oleh peneliti wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3232 (book 21 hadith 144); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

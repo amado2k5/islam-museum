@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/muhammad-ibn-shihab-al-zuhri]
 work: work/muwatta-malik
 ref: "1685"
-label: { ar: "الموطأ 1685 — ابن شهاب عن أبي بكر بن عبد الرحمن: ما أدركت أحدا من فقهائنا إلا وهو يقول قول عائشة في الأقراء", en: "Muwatta 1685", es: "Muwatta 1685", fr: "Muwatta 1685", ur: "موطا 1685" }
+label: { ar: "الموطأ 1685 — ابن شهاب عن أبي بكر بن عبد الرحمن: ما أدركت أحدا من فقهائنا إلا وهو يقول قول عائشة في الأقراء", en: "Muwatta 1685", es: "Muwatta 1685", fr: "Muwatta 1685", ur: "موطا 1685", tr: "El-Muvatta 1685 — İbn Şihab, Ebu Bekr ibn Abdül-Rahman'dan rivayetle: Aişe'nin adet döngüleri hakkında söylediklerini söylemeyen hiçbir fıkıhçıya rastlamadım.", id: "Al-Muwatta 1685 — Ibn Shihab, berdasarkan riwayat Abu Bakr ibn Abd al-Rahman: Aku tidak menemukan seorang pun dari para ahli fiqih kita yang tidak mengatakan apa yang dikatakan Aisyah tentang siklus menstruasi." }
 summary:
   ar: "يروي مالك عن ابن شهاب أنه سمع أبا بكر بن عبد الرحمن يقول ما أدركت أحدا من فقهائنا إلا وهو يقول هذا، يريد قول عائشة. {cite:muwatta-maruf-1997 p.90}"
+  tr: "Malik, İbn Şihab'dan rivayetle, Ebu Bekir ibn Abdülrahman'ın şöyle dediğini işittiğini aktarır: \"Bizim hukukçularımızdan bunu söylemeyen birine rastlamadım,\" yani Ayşe'nin sözünü kastediyor. {cite:muwatta-maruf-1997 s.90}"
+  id: "Malik meriwayatkan dari Ibnu Shihab bahwa ia mendengar Abu Bakar bin Abd al-Rahman berkata, \"Aku belum pernah menjumpai seorang pun dari para ahli fiqih kita yang tidak mengatakan hal ini,\" yang berarti pernyataan Aisyah. {cite:muwatta-maruf-1997 p.90}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
   - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }

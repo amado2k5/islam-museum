@@ -1,0 +1,12 @@
+---
+id: practice/dua-after-the-prayer
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/practice/dua-after-the-prayer.md}
+---
+## Özet
+El-Nawavi'nin 'Namazdan Sonra Anma Bölümü'nün başında derlediği şey: Namaz, tekbir ve sesi yükseltme, af arama, tahliel, yüceltme, övgü, otuz üç kez tekbir ve sığınak arama önerisi konusunda alimlerin uzlaşması. {cite:al-adhkar-nawawi-arnaut-1994 p. 70}
+
+## Al-Nawawi'nin 'Al-Adhkar'da topladıkları
+El-Nevavi, alimlerin oybirliğiyle namazdan sonra anmayı tavsiye ettiğini, birçok gerçek hadis olduğunu ve bunların en önemlilerinden bazılarını andığını {cite:al-adhkar-nawawi-arnaut-1994 p. 70} belirterek bölümü açar. El-Tirmidi'nin Ebu Umame'den kitabından, Peygamber'e şöyle denir: 'Namazı dinle,' ve o da 'Son gece sondur ve navaların okunmasıdır.' El-Tirmidi iyi bir hadis {cite:al-adhkar-nawawi-arnaut-1994 p. 70} anlatmıştır. İbn Abbas'ın iki sahihinden biri, namazın sonunu tekibi okuyarak bildiği ve zilkür sırasında insanların ayrıldığında sesi [[person/muhammad|yükseltmesinin Peygamber'in zamanında gerçekleştiğidir]] {cite:al-adhkar-nawawi-arnaut-1994 p. 70}. Sahih Müslim Thawban'dan ayrılırken üç kez af dileyip şöyle der: "Ey Allah, Sen barıllısın, Senden selam. Şunu kutsan, ey Görkem ve Şeref Sahibi" {cite:al-adhkar-nawawi-arnaut-1994 p. 71}. El-Muğira bin Şube'den iki Sahih'ten şu cümleyle bitirir: "Ey Allah, verdiğin şeyden ne saklanan ne de verdiğin şeye veren yoktur" {cite:al-adhkar-nawawi-arnaut-1994 p. 71}. Ve Abdullah ibn Al-Zubayr'den Müslüman'dan daha uzun bir tahleh "Her namazı oku" {cite:al-adhkar-nawawi-arnaut-1994 p. 71} ifadesini okur. Sonra Ebu Hureyre'den fakir göçmenlerin iki sahih halinde hadisleri, her namazdan sonra otuz üç kez {cite:al-adhkar-nawawi-arnaut-1994 p. 72} övgü, övgü ve tekibi içerir. Ve Müslüman'dan, Ka'b ibn Ujrah'tan: 'Konuşmacı ya da uygulayıcısı asla yetmez' diye söyler; Ebu Hureyre'den, otuz üç ve yüz kişinin Taleh ile tamamlanması {cite:al-adhkar-nawawi-arnaut-1994 p. 72}. Ve El Buhari'den, Sad bin Ebi Vakqas'tan, korkaklıktan, en kötü yaşamdan, bu dünyanın sınavlarından ve mezar ıstırabından ona sığınan {cite:al-adhkar-nawawi-arnaut-1994 p. 72}.

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "3656"
-label: { ar: "جامع الترمذي 3656 — الأب والأبوة", en: "Jami' al-Tirmidhi 3656 — the father and fatherhood", ur: "جامع ترمذی 3656 — باپ اور والدیت", es: "Jami' al-Tirmidhi 3656 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 3656 — le père et la paternité" }
+label: { ar: "جامع الترمذي 3656 — الأب والأبوة", en: "Jami' al-Tirmidhi 3656 — the father and fatherhood", ur: "جامع ترمذی 3656 — باپ اور والدیت", es: "Jami' al-Tirmidhi 3656 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 3656 — le père et la paternité", tr: "Cami' el-Tirmizi 3656 — Baba ve Babalık", id: "Jami' al-Tirmidhi 3656 — Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعِيدٍ الْجَوْهَرِيُّ، قَالَ حَدَّثَنَا إِسْمَاعِيلُ بْنُ أَبِي أُوَيْسٍ، عَنْ سُلَيْمَانَ بْنِ بِلاَلٍ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، عَنْ عُمَرَ بْنِ الْخَطَّابِ، قَالَ أَبُو بَكْرٍ سَيِّدُنَا وَخَيْرُنَا وَأَحَبُّنَا إِلَى رَسُولِ اللَّهِ. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ صَحِيحٌ غَرِيبٌ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 3656، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 3656، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe de Jami' al-Tirmidhi, n.º 3656 (Capítulos sobre las virtudes), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 3656 (Chapitres sur les vertus), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Cami' el-Tirmizi'de 3656 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 3656, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3656 (book 49 hadith 52); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

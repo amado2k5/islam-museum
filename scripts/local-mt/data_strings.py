@@ -21,11 +21,12 @@ import yaml
 Loader = getattr(yaml, "CSafeLoader", yaml.SafeLoader)
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 ap = argparse.ArgumentParser(); ap.add_argument("cmd", choices=["build", "import", "names"]); ap.add_argument("--cls", default="all")
-ap.add_argument("--name"); ap.add_argument("--lang", choices=["ur", "fr", "es"]); ap.add_argument("--docx"); ap.add_argument("--words", type=int, default=950000)
+ap.add_argument("--name"); ap.add_argument("--lang", choices=["ur", "fr", "es", "tr", "id"]); ap.add_argument("--docx"); ap.add_argument("--words", type=int, default=950000)
+ap.add_argument("--src", default="en", choices=["en", "ar"], help="language block the strings are taken from (ar: Turkish and Indonesian lanes)")
 ap.add_argument("--ids-file", default=""); ap.add_argument("--prefix", default="gtd"); ap.add_argument("--dir", default="/Volumes/exmicroSD/islam-museum-local-mt/gt"); ap.add_argument("--fields", default="label,summary,rooms[].title,rooms[].body")
 a = ap.parse_args(); FIELDS = a.fields.split(",")
 ARABIC = re.compile(r"[؀-ۿ]")
-HONORIFIC = re.compile(r"ﷺ|صلی اللہ علیہ|علیہ السلام|رضی اللہ عن|رحمۃ اللہ علیہ|رحمہ اللہ|paix (soit )?sur lui|que Dieu l['’]agrée|que la paz sea con|la paz sea con él|bendiciones de (?:Dios|Al[áa]h?) sean con|que Dios esté complacido con|(?:Dios|Al[áa]h?) esté complacido con él|bénédictions (?:de Dieu|d['’]Allah) (?:soient )?sur lui", re.I)
+HONORIFIC = re.compile(r"ﷺ|صلی اللہ علیہ|علیہ السلام|رضی اللہ عن|رحمۃ اللہ علیہ|رحمہ اللہ|paix (soit )?sur lui|que Dieu l['’]agrée|que la paz sea con|la paz sea con él|bendiciones de (?:Dios|Al[áa]h?) sean con|que Dios esté complacido con|(?:Dios|Al[áa]h?) esté complacido con él|bénédictions (?:de Dieu|d['’]Allah) (?:soient )?sur lui|sallallahu|aleyhi ve sellem|aleyhisselam|kendisine sel[âa]m|shallallahu|alaihissalam|alaihis salam|semoga keselamatan", re.I)
 STRIP = re.compile(r"[\(（]?\s*(?:ﷺ|صلی اللہ علیہ و(?:آلہ و)?سلم|علیہ(?:ما|م)? السلام|رضی اللہ (?:تعالیٰ )?عن(?:ہ|ہا|ہم|ہما)|رحمۃ اللہ علیہ|رحمہ اللہ)\s*[\)）]?")
 
 
@@ -56,7 +57,7 @@ def blocks(d):
 def wanted(cls, path, lang):
     """Whether this field of this class is machine-translated into this language."""
     if path == "label" and cls == "source": return False
-    if path == "label" and cls == "person" and lang in ("fr", "es"): return False
+    if path == "label" and cls == "person" and lang in ("fr", "es", "tr", "id"): return False
     return True
 
 
@@ -121,7 +122,7 @@ def apply(L, value_for):
         if not isinstance(old, dict): continue
         adds = []
         for path, m in blocks(old):
-            en = m.get("en")
+            en = m.get(a.src)
             if m.get(L) or not isinstance(en, str) or not en.strip(): continue
             v = value_for(cls_of(f), re.sub(r"\[\d+\]", "[]", path), en)
             if v: adds.append((path, v))
@@ -144,7 +145,7 @@ if a.cmd == "build":
         except Exception: continue
         if not isinstance(d, dict): continue
         for path, m in blocks(d):
-            en = m.get("en")
+            en = m.get(a.src)
             if isinstance(en, str) and en.strip() and not m.get(L) and wanted(cls_of(f), re.sub(r"\[\d+\]", "[]", path), L) and en not in seen:
                 seen.add(en); strings.append(en)
     parts, cur, w = [], [], 0
@@ -155,9 +156,9 @@ if a.cmd == "build":
     if cur: parts.append(cur)
     for k, part in enumerate(parts, 1):
         name = f"{a.prefix}-{L}-{k:02d}"
-        docx([p for n, s in enumerate(part, 1) for p in (f"#### {n} ####", " ".join(s.split()))], f"{a.dir}/{name}-en.docx")
+        docx([p for n, s in enumerate(part, 1) for p in (f"#### {n} ####", " ".join(s.split()))], f"{a.dir}/{name}-{a.src}.docx")
         json.dump({"lang": L, "strings": part}, open(f"{a.dir}/{name}.json", "w", encoding="utf-8"), ensure_ascii=False)
-        print(f"{name}\ttexts {len(part)}\twords {sum(len(s.split()) for s in part)}\tbytes {os.path.getsize(f'{a.dir}/{name}-en.docx')}")
+        print(f"{name}\ttexts {len(part)}\twords {sum(len(s.split()) for s in part)}\tbytes {os.path.getsize(f'{a.dir}/{name}-{a.src}.docx')}")
     print(f"{L}: {len(strings)} distinct texts in {len(parts)} files"); sys.exit(0)
 
 mp = json.load(open(f"{a.dir}/{a.name}.json", encoding="utf-8")); L, strings = mp["lang"], mp["strings"]
@@ -177,6 +178,8 @@ for n, en in enumerate(strings, 1):
     t = re.sub(r"\s+([،۔؛:])", r"\1", re.sub(r"\s{2,}", " ", STRIP.sub(" ", t))).strip()
     # the same in Spanish and French: "(la paz sea con él)", ", que la paz y las bendiciones de Alá sean con él", "(paix sur lui)"
     if L == "es": t = re.sub(r"\s*\((?:que )?la paz(?: y las bendiciones(?: de (?:Dios|Al[áa]h?))?)? sean? con (?:él|ella|ellos|ambos)\)|,\s*(?:que )?la paz(?: y las bendiciones(?: de (?:Dios|Al[áa]h?))?)? sean? con (?:él|ella|ellos|ambos)", "", t, flags=re.I)
+    if L == "tr": t = re.sub(r"\s*[\(,]?\s*(?:kendisine|ona|onun (?:üzerine|uğruna))\s+sel[âa]m(?:lar)?\s+olsun\s*\)?|,\s*ve\s+ona\s+sel[âa]m\s+olsun|\s*\(\s*s\.?\s*a\.?\s*v\.?\s*\)", "", t, flags=re.I)
+    if L == "id": t = re.sub(r"\s*\(\s*(?:semoga )?keselamatan(?: dan (?:kesejahteraan|berkah))?(?: semoga)? (?:terlimpah )?(?:atas|kepada)(?:nya| mereka)\s*\)|,\s*semoga\s+keselamatan\s+(?:terlimpah )?atas(?:nya| mereka)|\s*\(\s*s\.?\s*a\.?\s*w\.?\s*\)", "", t, flags=re.I)
     if L == "fr": t = re.sub(r"\s*\((?:que )?(?:la )?paix(?: et (?:les )?bénédictions(?: (?:de Dieu|d['’]Allah))?)? (?:soi(?:en)?t )?sur (?:lui|elle|eux)\)|,\s*(?:que )?(?:la )?paix(?: et (?:les )?bénédictions(?: (?:de Dieu|d['’]Allah))?)? (?:soi(?:en)?t )?sur (?:lui|elle|eux)", "", t, flags=re.I)
     t = re.sub(r"\s+([,.;:)])", r"\1", t) if L != "ur" else t
     if not t: why = "missing"
@@ -184,8 +187,9 @@ for n, en in enumerate(strings, 1):
     elif "﴿" in t or "﴾" in t: why = "Qur'an brackets"
     elif "####" in t: why = "marker inside the text"
     elif L == "ur" and not ARABIC.search(t): why = "not in Urdu script"
+    elif a.src == "ar" and L in ("tr", "id") and len(ARABIC.findall(t)) > max(4, len(t) * 0.5): why = "still in Arabic"
     elif L != "ur" and ARABIC.search(t) and not ARABIC.search(en): why = "Arabic script in a Latin-script language"
-    elif len(en.split()) >= 6 and t == " ".join(en.split()): why = "left in English"
+    elif len(en.split()) >= 6 and t == " ".join(en.split()): why = "left untranslated"
     elif len(en) > 40 and not (0.4 <= len(t) / len(en) <= 2.6): why = "length ratio"
     if why: bad[why] += 1; continue
     if True:  # a parenthetical that holds Arabic script is wrapped in direction isolates, in every language (AGENTS.md, rule of 6 Nov 2026)

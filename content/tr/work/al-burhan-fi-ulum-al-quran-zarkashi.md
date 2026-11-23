@@ -1,0 +1,21 @@
+---
+id: work/al-burhan-fi-ulum-al-quran-zarkashi
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/work/al-burhan-fi-ulum-al-quran-zarkashi.md}
+---
+## Özet
+"El-Burhan fi Ulum al-Kur'an", [[person/badr-al-din-al-zarkashi|Bedreddin el-Zerkaşi]]'nin (745–794 H) Kur [[concept/ulum-al-quran|'an illeri üzerine]] yazdığı ve kırk yedi tür ilimleri topladığı kitaptır. {cite:burhan-dar-al-hadith-2006 p.2}, {cite:burhan-dar-al-hadith-2006 p.19}, {cite:burhan-dar-al-hadith-2006 p.21} Dar al-Hadis'in editörü, onu "İtqan" ve "Manahil-irfan"dan daha geniş ve kapsamlı olarak tanımlar; kendisinden sonra yazılan her şeyin ondan alındığını ve onun yöntemini takip ettiğini belirtir. {cite:burhan-dar-al-hadith-2006 p.5}
+
+## Bileşim nedeni
+El-Zerkaşi, giriş bölümünde Kur'an bilimlerinin sınırlı olmadığını ve anlamlarının tükenemeyeceğini, bu yüzden mümkün olduğunca özen gösterildiğini söyler. Önceki alimler arasında, insanların hadis biliminde olduğu gibi çeşitli bilimleri içeren bir kitap yaratmak da vardı; bu yüzden Allah, insanların kendi alanlarında tartıştıklarını derleyerek kapılarının anahtarı ve yorumcuya gerçekliklerinde yardımcı olmak için kapsamlı bir kitap derlerek rehberlik aradı ve ona 'Al-Burhan fi Uloom al-Qur'an' adını verdi. {cite:burhan-dar-al-hadith-2006 p.18} {cite:burhan-dar-al-hadith-2006 p.19} Bir kişinin onu incelemek istediğinde hayatını geçireceği dışında bir tür olmadığını söyler; bu yüzden her türü temelleriyle sınırladı ve bazı bölümlerini simgeledi. {cite:burhan-dar-al-hadith-2006 p.21} Kitabı, Muhammed Rizq Satur'un girişinde belirttiği Kur'an ilminlerinin sayısında Hakim Ebu Bekir bin el-Arabi'nin sözleriyle başlar; bkz [[question/does-the-quran-contain-every-science|: Kur'an tüm illerin temellerini kapsıyor muydu]]?. {cite:burhan-dar-al-hadith-2006 p.11}
+
+## Türler
+El-Zarkaşi, kitabın başında türlerini sıralar. İlki, vahiy nedenini bilmek, sonra ayetler arasındaki olayları, duraklamaları, karşılıkları ve benzerlikleri, belirsiz ve belirsizliği, açılışların sırlarını, surelerin sonlarını, Mekke ve Medinan'ları, ilk vahiyi, nasıl vahyedildiğini, sahabelerin toplanması ve ezberlenmesini, nadir olanlarını, okuma rehberliğini, duraklama ve başlangıçları, hat yazımı hakkını, erdemlerini, okuma görgü kurallarını, atasözlerini, lehçesini, kaldırılması ve kaldırılmasını, açık ve belirsizliğini, sıfatlarda bahsedilen muğlak ayetlerin hükmünü ve mucizevliğini, mutevatirin (mutevifin) yükümlülüğünü, Sünnet'in Kitap'a desteğini, gerçekliği ve metaforu, metafor ve göndermeleri, Kur'an'ın yöntemlerini ve nihayetinde araçların bilgisini içerir. {cite:burhan-dar-al-hadith-2006 p.19} {cite:burhan-dar-al-hadith-2006 p.20} {cite:burhan-dar-al-hadith-2006 p.21}
+
+## 'Mükemmellik' Üzerindeki Etkisi
+İskenderiye Üniversitesi'ndeki yüksek lisans tezi, Al-Suyuti'nin ustalığında Al-Suyuti [[work/al-itqan-fi-ulum-al-quran|]] [[person/al-suyuti|'nin etkisinin]] açıkça görüldüğünü ve bölümlerinin çoğunu bu üzerine inşa ettiğini göstermektedir. Al-Zarkashi, "tefsirci kültürü üzerine ilk tam eserin yazarı" olarak kabul edilir. {cite:thaqafat-al-mufassir-zarkashi-alexandria p.3} {cite:thaqafat-al-mufassir-zarkashi-alexandria p.142} {cite:thaqafat-al-mufassir-zarkashi-alexandria p.143} Bu bağlantıyı tanımlamakta insanlar farklılık gösterir; bkz. [[question/is-al-itqan-an-abridgement-of-al-burhan|Al-Suyuti'nin 'Itqan'ı bir kanıt özeti midir]]?.
+
+## Kullanılmış baskı
+Müze, Ebu el-Fadl Dimyati Ahmed ibn Ali tarafından düzenlenen tek ciltlik Dar Al-Hadis Kahire baskısına (1427 Hicri / 2006 M.S.) dayanıyordu; bu baskı Arap Devletleri Birliği El Yazmaları Enstitüsü'nün tam el yazması kopyasına ve Muhammed Ebu el-Fadl İbrahim tarafından düzenlenen Dar al-Turath baskısından eklemeler içeriyordu. {cite:burhan-dar-al-hadith-2006 p.4} {cite:burhan-dar-al-hadith-2006 p.6} {cite:burhan-dar-al-hadith-2006 p.7} Editör, önceki baskıların bozulmalarla takip ettiğini ve bazen tam sayfaya ulaştığını, yirmi üçüncü ve yirmi dördüncü önsözlerin ise bu baskılarda dönüşümlü olarak yer aldığını belirtiyor. {cite:burhan-dar-al-hadith-2006 p.6}

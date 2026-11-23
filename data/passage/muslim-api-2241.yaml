@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2241"
-label: { ar: "صحيح مسلم 2241 — دفن وقبر ومرقد", en: "Sahih Muslim 2241 — a burial, grave or resting place", ur: "صحیح مسلم 2241 — تدفین، قبر اور مرقد", es: "Sahih Muslim 2241 — un entierro, tumba o lugar de descanso", fr: "Sahih Muslim 2241 — un lieu de sépulture, une tombe ou un lieu de repos" }
+label: { ar: "صحيح مسلم 2241 — دفن وقبر ومرقد", en: "Sahih Muslim 2241 — a burial, grave or resting place", ur: "صحیح مسلم 2241 — تدفین، قبر اور مرقد", es: "Sahih Muslim 2241 — un entierro, tumba o lugar de descanso", fr: "Sahih Muslim 2241 — un lieu de sépulture, une tombe ou un lieu de repos", tr: "Sahih Muslim 2241 — Defin, mezar ve istirahat yeri", id: "Sahih Muslim 2241 — Pemakaman, kuburan, dan tempat peristirahatan" }
 text: "… بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا غُنْدَرٌ، وَوَكِيعٌ، جَمِيعًا عَنْ شُعْبَةَ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، - وَاللَّفْظُ لَهُ - قَالَ حَدَّثَنَا يَحْيَى، بْنُ سَعِيدٍ حَدَّثَنَا شُعْبَةُ، حَدَّثَنَا أَبُو جَمْرَةَ، عَنِ ابْنِ عَبَّاسٍ، قَالَ جُعِلَ فِي قَبْرِ رَسُولِ اللَّهِ قَطِيفَةٌ حَمْرَاءُ. قَالَ مُسْلِمٌ أَبُو جَمْرَةَ اسْمُهُ نَصْرُ بْنُ عِمْرَانَ وَأَبُو التَّيَّاحِ اسْمُهُ يَزِيدُ بْنُ حُمَيْدٍ مَاتَا بِسَرَخْسَ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 2241، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 2241، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 2241 (El Libro de la Oración - Funerales), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sahih Muslim, n° 2241 (Le Livre de la prière – Funérailles), mentionne un lieu de sépulture, une tombe ou un lieu de repos. Le navigateur de textes sacrés le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Sahih Müslim'de 2241 numaralı hadis, defin, mezar ve türbeden bahsetmektedir. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler üzerine araştırmalar yapan bir uzman tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 2241, menyebutkan tentang penguburan, kuburan, dan makam. Hadits ini disusun oleh peneliti wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2241 (book 11 hadith 118); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

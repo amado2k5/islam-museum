@@ -1,0 +1,9 @@
+---
+id: concept/rish-fiqh
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/rish-fiqh.md}
+---
+## Özet
+Tüyler, bir kuşun örtülmesi dilidir, tekil ise tüydür. Rayash, giysi ve mobilyaya atıfta bulunur. Terminolojide, kuşun tüy, yün ve tüyle uyumlu kıyafetlerini ifade eder. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9048} Hukukçular, tüylerin tüylerle kıl arasında ölçülmesi konusunda hemfikirdir ve yaşamı boyunca ona bağlı yenilebilir kuşun tüyleri oybirliğiyle saftır. Ayrılmış ve koparılan kısımlar çoğunluğa göre saf olan kısımlar konusunda farklı görüşteydiler; Malikiler ise tuşlu ve kamış arasında ayrım yapmışlardır; bu ise saf değildir. Şafii okulu ise ayrılan kısmın yaşayanlardan kirli olduğu konusunda en doğru görüşü savunur. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9049} Ölü yenmiş bir kuşun tüyleri Hanafiler ve Hanelilere göre saf sayılır çünkü yaşam buna izin vermez. Şafiilere göre tüy kirlidir ve Malikilere göre tüyler kamışla değil, budamakla arındırılır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9050} Tabaklama derisi, Şafi'lere göre tüylerini arındırmaz çünkü tabaklama onu etkilemez. İhramda olan kişinin av tüylerini koparması yasaktır ve tüylerin uçmasını engellerse fidye vardır. Temiz, saygısız tüylerle arındırma işlemi de mümkündür. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9051} Tüyleri kaynatmak, tanım ve ağırlık açısından geçerlidir. Bir kuş sıcak suda haşlanırsa, tüyleri bağırsakları çıkarılmadan önce koparılır ve kirlenme ısıyla giderilirse eti içi kirlenir; aksi takdirde, sadece etkilenen bölgeleri yumuşatıyorsa yıkama ile arındırılır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9052}

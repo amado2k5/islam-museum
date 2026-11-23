@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/yahya-ibn-said-al-ansari, person/ata-ibn-abi-rabah]
 work: work/muwatta-malik
 ref: "1221"
-label: { ar: "الموطأ 1221 — عطاء بن أبي رباح: أرخص لرعاء الإبل أن يرموا بالليل في الزمان الأول", en: "Muwatta 1221", es: "Muwatta 1221", fr: "Muwatta 1221", ur: "موطا 1221" }
+label: { ar: "الموطأ 1221 — عطاء بن أبي رباح: أرخص لرعاء الإبل أن يرموا بالليل في الزمان الأول", en: "Muwatta 1221", es: "Muwatta 1221", fr: "Muwatta 1221", ur: "موطا 1221", tr: "El-Muvatta 1221 — Ata’ ibn Abi Rabah: Eski zamanlarda deve çobanlarının gece avlanmaları caizdi.", id: "Al-Muwatta 1221 — Ata’ ibn Abi Rabah: Dahulu, para penggembala unta diperbolehkan berburu di malam hari." }
 summary:
   ar: "يروي مالك عن يحيى بن سعيد عن عطاء بن أبي رباح أنه سمعه يذكر أنه أرخص لرعاء الإبل أن يرموا بالليل، يقول في الزمان الأول. {cite:muwatta-maruf-1997 p.545}"
+  tr: "Malik, Yahya ibn Sa'id'den, o da Ata' ibn Abi Rabah'tan naklederek, deve çobanlarının gece avlanmasının caiz olduğunu söylediğini işittiğini aktarır ve şöyle dediğini belirtir: \"Eski zamanlarda.\" {cite:muwatta-maruf-1997 s.545}"
+  id: "Malik meriwayatkan dari Yahya ibn Sa'id, dari 'Ata' ibn Abi Rabah, bahwa ia mendengar beliau menyebutkan bahwa diperbolehkan bagi penggembala unta untuk berburu di malam hari, dengan mengatakan, \"Pada zaman dahulu.\" {cite:muwatta-maruf-1997 p.545}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
   - { type: mentions, target: person/ata-ibn-abi-rabah, sources: [source/muwatta-maruf-1997] }

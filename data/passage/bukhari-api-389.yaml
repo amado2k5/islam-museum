@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "389"
-label: { ar: "صحيح البخاري 389 — اليتيم وفقد الأب", en: "Sahih al-Bukhari 389 — the orphan and the father lost", ur: "صحیح بخاری 389 — یتیم اور باپ کی موت", es: "Sahih al-Bukhari 389 — El huérfano y el padre perdido", fr: "Sahih al-Bukhari 389 — L'orphelin et le père perdus" }
+label: { ar: "صحيح البخاري 389 — اليتيم وفقد الأب", en: "Sahih al-Bukhari 389 — the orphan and the father lost", ur: "صحیح بخاری 389 — یتیم اور باپ کی موت", es: "Sahih al-Bukhari 389 — El huérfano y el padre perdido", fr: "Sahih al-Bukhari 389 — L'orphelin et le père perdus", tr: "Sahih el-Buhari 389 — Yetim ve Babayı Kaybetme", id: "Sahih al-Bukhari 389 — Anak Yatim dan Kehilangan Ayah" }
 text: "أَخْبَرَنَا الصَّلْتُ بْنُ مُحَمَّدٍ، أَخْبَرَنَا مَهْدِيٌّ، عَنْ وَاصِلٍ، عَنْ أَبِي وَائِلٍ، عَنْ حُذَيْفَةَ، رَأَى رَجُلاً لاَ يُتِمُّ رُكُوعَهُ وَلاَ سُجُودَهُ، فَلَمَّا قَضَى صَلاَتَهُ قَالَ لَهُ حُذَيْفَةُ مَا صَلَّيْتَ ـ قَالَ وَأَحْسِبُهُ قَالَ ـ لَوْ مُتَّ مُتَّ عَلَى غَيْرِ سُنَّةِ مُحَمَّدٍ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 389، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 389، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 389 (Oraciones (Salat)), menciona al huérfano y al padre fallecido. El navegador \"La paternidad en el Islam\" lo incluye en su lista de textos del Corán, la Sunnah, la sirah y libros sobre la paternidad."
   fr: "Un hadith du Sahih al-Bukhari, n° 389 (Prière), évoque l'orphelin et le père disparu. Le site « Paternité en Islam » le répertorie avec les versets du Coran, la Sunna, la Sîra et les ouvrages consacrés à la figure paternelle."
+  tr: "Sahih el-Buhari'nin 389 numaralı hadisinde yetimler ve babasızlık konusu ele alınmaktadır. \"İslam'da Babalık\" bölümü, bu hadisi Kur'an, Sünnet, Peygamberin biyografisi ve bu konuyla ilgili diğer kitaplardan alıntılarla birlikte derlemektedir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 389, menyebutkan tentang anak yatim dan kehilangan seorang ayah. Bagian \"Kebapakan dalam Islam\" mengumpulkan hadits ini bersama dengan teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/yatim-fiqh, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 389 (book 8 hadith 41); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

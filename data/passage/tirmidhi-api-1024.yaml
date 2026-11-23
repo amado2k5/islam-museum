@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1024"
-label: { ar: "جامع الترمذي 1024 — الأب والأبوة", en: "Jami' al-Tirmidhi 1024 — the father and fatherhood", ur: "جامع ترمذی 1024 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1024 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 1024 — le père et la paternité" }
+label: { ar: "جامع الترمذي 1024 — الأب والأبوة", en: "Jami' al-Tirmidhi 1024 — the father and fatherhood", ur: "جامع ترمذی 1024 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1024 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 1024 — le père et la paternité", tr: "Cami' el-Tirmizi 1024 — Baba ve Babalık", id: "Jami' al-Tirmidhi 1024 — Sang Ayah dan Peran Ayah" }
 text: "… بْنُ حُجْرٍ، أَخْبَرَنَا هِقْلُ بْنُ زِيَادٍ، حَدَّثَنَا الأَوْزَاعِيُّ، عَنْ يَحْيَى بْنِ أَبِي كَثِيرٍ، حَدَّثَنِي أَبُو إِبْرَاهِيمَ الأَشْهَلِيُّ، عَنْ أَبِيهِ، قَالَ كَانَ رَسُولُ اللَّهِ إِذَا صَلَّى عَلَى الْجَنَازَةِ قَالَ \" اللَّهُمَّ اغْفِرْ لِحَيِّنَا وَمَيِّتِنَا وَشَاهِدِنَا وَغَائِبِنَا وَصَغِيرِنَا وَكَبِيرِنَا وَذَكَرِنَا وَأُنْثَانَا \". قَالَ يَحْيَى وَحَدَّثَنِي أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ مِثْلَ ذَلِكَ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 1024، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 1024، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 1024 (El Libro de los Funerales), menciona al padre y la paternidad. El Navegador de la Paternidad en el Islam lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 1024 (Livre des funérailles), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce rapport avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant du père."
+  tr: "Cami' el-Tirmizi'nin 1024 numaralı hadisinde baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan metinlerle birleştirir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 1024, menyebutkan tentang ayah dan peran ayah. Fitur \"Peran Ayah dalam Islam\" menggabungkan hadits ini dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1024 (book 10 hadith 60); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

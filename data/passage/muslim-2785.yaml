@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2785"
-label: { ar: "مسلم 2785 — لا يزن عند الله جناح بعوضة", en: "Muslim 2785 — Weighing less than a gnat's wing", es: "Musulmán 2785 — Pesaba menos que el ala de un mosquito", fr: "Muslim 2785 — Pesant moins que l'aile d'un moucheron", ur: "مسلم 2785 - مچھر کے پر سے کم وزن" }
+label: { ar: "مسلم 2785 — لا يزن عند الله جناح بعوضة", en: "Muslim 2785 — Weighing less than a gnat's wing", es: "Musulmán 2785 — Pesaba menos que el ala de un mosquito", fr: "Muslim 2785 — Pesant moins que l'aile d'un moucheron", ur: "مسلم 2785 - مچھر کے پر سے کم وزن", tr: "Müslim 2785 — Allah katında sivrisineğin kanadı kadar bile ağırlığı yoktur.", id: "Muslim 2785 — Di sisi Allah, beratnya tidak seberat sayap nyamuk." }
 text: "قال أبو هريرة عن رسول الله: إنه ليأتي الرجل العظيم السمين يوم القيامة لا يزن عند الله جناح بعوضة، اقرءوا: «فلا نقيم لهم يوم القيامة وزناً»"
 summary:
   ar: "رواية أبي هريرة في كتاب صفة القيامة والجنة والنار في صحيح مسلم؛ ثقل الإنسان الحقيقي عند الله لا في جسمه، مقروناً بقوله تعالى «فلا نقيم لهم يوم القيامة وزناً» ⁦(الكهف 105)⁩."
+  tr: "Ebu Hurayra'nın Sahih Müslim'deki \"Kıyamet, Cennet ve Cehennemin Tanımı\" kitabındaki rivayetine göre: Bir insanın gerçek ağırlığı bedeninde değil, Allah katındadır. Buna ek olarak Allah şöyle buyurmuştur: \"Kıyamet günü onlara hiçbir ağırlık yüklemeyeceğiz.\" (El-Kehf 105)."
+  id: "Riwayat Abu Hurairah dalam kitab “Deskripsi Kebangkitan, Surga dan Neraka” dalam Sahih Muslim: Bobot sejati seseorang ada di sisi Allah, bukan di tubuhnya, ditambah dengan firman Allah, “Kami tidak akan memberikan bobot apa pun kepada mereka pada Hari Kiamat” (Al-Kahf 105)."
 relations:
   - { type: part_of, target: passage/muslim-kitab-52 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

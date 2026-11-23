@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1421"
-label: { ar: "الموطأ 1421 — نافع: قال عبد الله بن عمر وإن أكل وإن لم يأكل", en: "Muwatta 1421", es: "Muwatta 1421", fr: "Muwatta 1421", ur: "موطا 1421" }
+label: { ar: "الموطأ 1421 — نافع: قال عبد الله بن عمر وإن أكل وإن لم يأكل", en: "Muwatta 1421", es: "Muwatta 1421", fr: "Muwatta 1421", ur: "موطا 1421", tr: "El-Muvatta 1421 — Nafi’: Abdullah bin Umar dedi ki: “Yese de yese de yemese de.”", id: "Al-Muwatta 1421 — Nafi’: Abdullah bin Umar berkata, “Meskipun dia makan, meskipun dia tidak makan.”" }
 summary:
   ar: "يقول مالك إنه سمع نافعا يقول قال عبد الله بن عمر وإن أكل وإن لم يأكل. {cite:muwatta-maruf-1997 p.637}"
+  tr: "Malik, Nafi'nin Abdullah ibn Umar'dan şöyle bir söz işittiğini aktarıyor: \"Yese de yese de, yemese de.\" {cite:muwatta-maruf-1997 s.637}"
+  id: "Malik mengatakan bahwa ia mendengar Nafi’ berkata bahwa Abdullah ibn Umar berkata, “Baik jika dia makan maupun jika dia tidak makan.” {cite:muwatta-maruf-1997 p.637}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-11-sayd }
   - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }

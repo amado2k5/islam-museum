@@ -1,0 +1,13 @@
+---
+id: concept/nuzul-al-ma
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/nuzul-al-ma.md}
+---
+## Dalam jumlah
+Adapun perbedaan jumlah, mungkin terlalu besar dibandingkan lubang untuk menutup semuanya, sehingga mata tidak melihat apa-apa, atau mungkin sedikit yang menghalangi satu sisi dan meninggalkan sisi yang terbuka. Apa yang terlihat dengan sepatu yang terhalang tidak dipersepsikan oleh penglihatan, dan apa yang terlihat pada sepatu yang terbuka juga dipersepsikan. Mungkin setengah atau sebagian darinya dipersepsikan, tetapi sisanya hanya dirasakan dengan memindahkan pupil. Kadang terlihat sepenuhnya dan kadang tidak tergantung pada posisinya dalam penghalang dan pembukaan. Blok yang hilang ini bisa terletak di atas, atas, bawah, atau tepat di tengah lubang dan apa yang mengelilinginya terbuka, sehingga dia bisa melihat sisi segalanya kecuali bagian tengahnya, melainkan melihat di tengahnya seperti ceruk atau celah. Ini berarti dia tidak bisa melihat dan membayangkan kegelapan {cite:canon-ibn-sina-print-v2 p.213}
+## Sedang dalam suasana hati
+Adapun variasi kualitasnya, kadang tekstur—beberapa tipis dan bening serta tidak melindungi dari cahaya atau sinar matahari, dan beberapa sangat tebal—dan kadang warnanya: ringan, putih plester, putih mutiara, putih hingga biru atau turquoise dan emas, kuning, hitam, berdebu; saya lebih suka untuk perlakuan dengan putih yang ringan dan mutiara, sedikit kebiruan dan turquoise. Sedangkan gipsum, hijau, kusam, sangat hitam, dan kuning, tidak diterima sebagai cangkir. Di antara jenis tebal, bisa sangat sulit menjadi cair dan tidak diolah {cite:canon-ibn-sina-print-v2 p.213}.
+## Ujian penerimaan mug
+Saya menerimanya untuk pengobatan dari perspektif tekstur tipisnya, yang jika Anda melihatnya dalam cahaya terang dan mengedipkan jari, Anda akan menemukan tekstur itu cepat menyebar lalu kembali dan berkumpul. Hal ini diharapkan hilang bersama cangkir. Melanjutkan tes ini dapat menyebabkan air menjadi keruh dan membuat cangkir menjadi sulit. Mereka mungkin mencoba dengan cara lain, yaitu meletakkan bola kapas di atas mata dan meniupnya dengan keras, lalu menyingkir dan dengan cepat melihat apakah dia melihat gerakan di air, dan jika dia melihatnya, dia akan dikritik. Juga, jika menutup satu mata menyebabkan mata lainnya melebar (cangkir adalah ukuran manual yang ditransfer di sini sebagai deskripsi apa yang dilakukan, bukan sebagai proses) {cite:canon-ibn-sina-print-v2 p.213}

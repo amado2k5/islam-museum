@@ -1,0 +1,12 @@
+---
+id: person/mohamed-ennakhli
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/mohamed-ennakhli.md}
+---
+## Ringkasan
+
+Muhammad al-Nakhli (1869–1924) adalah seorang sarjana zaitun dan reformis asal Tunisia, lahir di Kairouan. {cite:wikipedia-mohamed-ennakhli-fr} {cite:wikidata-mohamed-ennakhli} Ia bergabung dengan Universitas Zaytuna pada tahun 1304 AH dan belajar di bawah bimbingan Salem Bouhajeb, Mahmoud bin Mahmoud, Muhammad Al-Najjar, dan lainnya. Ia mengambil posisi mengajar kelas satu dan menghabiskan sekitar tiga puluh lima tahun melatih generasi cendekiawan yang memegang posisi sipil dan keagamaan tertinggi di Tunisia. {cite:wikipedia-mohamed-ennakhli-ar} {cite:wikipedia-mohamed-ennakhli-fr} Gagasan libertariannya dipengaruhi oleh para reformis terkemuka Muslim pada abad kesembilan belas, terutama Muhammad Abduh dan Jamal al-Din al-Afghani. Ia juga belajar di Khalduniya, sekolah yang didirikan pada tahun 1896 untuk mengajarkan mata pelajaran yang sebelumnya tidak diajarkan di Zaytuna, seperti matematika dan ilmu fisika. Ia aktif menjadi anggota Dewan Peningkatan Pendidikan di Sekolah Sadiqiyya, yang didirikan pada tahun 1906. {cite:wikipedia-mohamed-ennakhli-fr}
+
+Al-Nakhli adalah seorang ahli tafsir, ahli hukum, sejarawan, tokoh sastra, dan penyair, dan dalam pelajaran, kuliah, serta tulisan-tulisannya, ia menyerukan pentingnya mendamaikan pengetahuan dan agama. {cite:wikipedia-mohamed-ennakhli-fr} Di antara murid-muridnya adalah Muhammad Tahir bin Ashur, Hakim Muhammad Al-Sadiq Al-Nifar, dan reformis Aljazair Abdelhamid bin Badis, presiden Asosiasi Ulama Muslim Aljazair. {cite:wikipedia-mohamed-ennakhli-ar} {cite:wikipedia-mohamed-ennakhli-fr} Muhammad Makhlouf menggambarkannya dalam "Shajarat al-Nur al-Zakiyya" sebagai kritikus ahli yang dikenal karena kecerdasan dan keterusterangannya; selama hidupnya, ia hanya menerbitkan sebuah publikasi dua belas halaman berjudul "Kehidupan Bahasa Arab," dan studinya tentang perempuan Muslim, geografi, prosodi, serta tafsiran Al-Qur'an tetap menjadi naskah. {cite:wikipedia-mohamed-ennakhli-ar} Ia meninggal di Tunisia pada tahun 1924, dan pemakamannya sangat berkesan. Jenazahnya dibawa ke Kairouan dan dimakamkan di Green Wing. {cite:wikipedia-mohamed-ennakhli-ar}

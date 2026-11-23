@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1655"
-label: { ar: "موطأ مالك 1655 — الحرام", en: "Muwatta Malik 1655 — the unlawful", ur: "موطأ مالک 1655 — حرام", es: "Muwatta Malik 1655: lo ilegal", fr: "Muwatta Malik 1655 — l'illégal" }
+label: { ar: "موطأ مالك 1655 — الحرام", en: "Muwatta Malik 1655 — the unlawful", ur: "موطأ مالک 1655 — حرام", es: "Muwatta Malik 1655: lo ilegal", fr: "Muwatta Malik 1655 — l'illégal", tr: "Muwatta Malik 1655 - El-Haram", id: "Muwatta Malik 1655 — Al-Haram" }
 text: "قَالَ يَحْيَى وَسَمِعْتُ مَالِكًا، يَقُولُ وَأَنَا أَكْرَهُ، أَنْ يَلْبَسَ الْغِلْمَانُ، شَيْئًا مِنَ الذَّهَبِ لأَنَّهُ بَلَغَنِي أَنَّ رَسُولَ اللَّهِ نَهَى عَنْ تَخَتُّمِ الذَّهَبِ فَأَنَا أَكْرَهُهُ لِلرِّجَالِ الْكَبِيرِ مِنْهُمْ وَالصَّغِيرِ. قَالَ يَحْيَى وَسَمِعْتُ مَالِكًا يَقُولُ فِي الْمَلاَحِفِ الْمُعَصْفَرَةِ فِي الْبُيُوتِ لِلرِّجَالِ وَفِي الأَفْنِيَةِ قَالَ لاَ أَعْلَمُ مِنْ ذَلِكَ شَيْئًا حَرَامًا وَغَيْرُ ذَلِكَ مِنَ اللِّبَاسِ أَحَبُّ إِلَىَّ."
 summary:
   ar: "حديث في موطأ مالك، رقم 1655، يذكر الحرام. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک کی حدیث نمبر 1655، جس میں حرام کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
   es: "Un informe en Muwatta Malik, n.° 1655 (Vestimenta), menciona lo ilícito. El Navegador Halal y Haram lo incluye junto con los textos del Corán, la Sunnah, la sirah y los relatos de los Compañeros y Sucesores sobre lo que es lícito e ilícito."
   fr: "Un hadith du Muwatta Malik, n° 1655 (Vêtements), mentionne ce qui est illicite. Le Halal and Haram Browser le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les hadiths des Compagnons et des Successeurs concernant ce qui est licite et ce qui est illicite."
+  tr: "Malik'in Muwatta'sında yer alan 1655 numaralı hadis, haram olan şeylerden bahsetmektedir. Bu hadis, helal ve haram konularında Kur'an, Sünnet, Peygamberin hayatı ve Sahabeler ile onların haleflerinden rivayetleri içeren Helal ve Haram Tarayıcısı tarafından derlenmiştir."
+  id: "Sebuah hadits dalam Muwatta Malik, nomor 1655, menyebutkan apa yang diharamkan. Hadits ini dikompilasi oleh Halal and Haram Browser, yang mencakup teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan riwayat dari para Sahabat dan Penerus mereka mengenai apa yang diperbolehkan dan apa yang diharamkan."
 relations:
   - { type: mentions, target: concept/halal-haram, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1655 (book 48 hadith 5); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }

@@ -11,7 +11,7 @@ const idPatterns: Record<string, { url: string }> = parse(readFileSync(repoPath(
 const traditions: any[] = parse(readFileSync(repoPath("schema", "enums", "traditions.yaml"), "utf8"));
 const regions: any[] = parse(readFileSync(repoPath("schema", "enums", "regions.yaml"), "utf8"));
 
-export const traditionLabel = (id: string, lang: Lang) => (lang === "fr" || lang === "es" ? (traditions.find((t) => t.id === id)?.label as Record<string, string> | undefined)?.[lang] ?? traditions.find((t) => t.id === id)?.label.en : traditions.find((t) => t.id === id)?.label[lang]) ?? id;
+export const traditionLabel = (id: string, lang: Lang) => (lang === "fr" || lang === "es" || lang === "tr" || lang === "id" ? (traditions.find((t) => t.id === id)?.label as Record<string, string> | undefined)?.[lang] ?? traditions.find((t) => t.id === id)?.label.en : traditions.find((t) => t.id === id)?.label[lang]) ?? id;
 export const regionLabel = (id: string, lang: Lang) => { const l = regions.find((r) => r.id === id)?.label; return l?.[lang] ?? l?.en ?? l?.ar ?? id; };
 export const externalUrl = (key: string, id: string) => idPatterns[key]?.url.replace("{id}", id);
 
@@ -59,7 +59,7 @@ export function connectionsOf(id: string, lang: Lang): Group[] {
     const label = forward ? forward.label[lang] ?? forward.label.en : base?.inverse_label[lang] ?? base?.inverse_label.en ?? e.type;
     const n = byId.get(e.to);
     if (!n) continue;
-    const g = groups.get(e.type) ?? { type: e.type, label, items: [] };
+    const g = groups.get(e.type) ?? { type: e.type, label, items: [] as Group["items"] };
     g.items.push({ node: n, edge: e });
     groups.set(e.type, g);
   }
@@ -156,7 +156,7 @@ export function jsonLd(n: Node, lang: Lang, path: string) {
     if (!place && n.class === "journey") {
       const wp = (Array.isArray(d.waypoints) ? d.waypoints : []).map((w: any) => byId.get(w?.place)).find(Boolean);
       const lg = (Array.isArray(d.legs) ? d.legs : []).map((l: any) => byId.get(l?.from)).find(Boolean);
-      place = wp ?? lg;
+      place = (wp ?? lg) ?? place;
     }
     if (place) {
       ld.location = { "@type": "Place", name: labelOf(place, lang), address: postalAddressOf(place, lang), ...(place.coordinates ? { geo: { "@type": "GeoCoordinates", latitude: place.coordinates[0], longitude: place.coordinates[1] } } : {}) };
@@ -189,7 +189,7 @@ export interface ThemeFamily { id: string; label: { en: string; ar: string; ur?:
 export const themes: Theme[] = parse(readFileSync(repoPath("schema", "enums", "themes.yaml"), "utf8"));
 export const themeFamilies: ThemeFamily[] = parse(readFileSync(repoPath("schema", "enums", "theme-families.yaml"), "utf8"));
 export const themeById = new Map(themes.map((t) => [t.id, t]));
-export const themeLabel = (id: string, lang: Lang) => { const l = themeById.get(id)?.label; return (lang === "fr" || lang === "es" ? (l as Record<string, string> | undefined)?.[lang] ?? l?.en : l?.[lang]) ?? id; };
+export const themeLabel = (id: string, lang: Lang) => { const l = themeById.get(id)?.label; return (lang === "fr" || lang === "es" || lang === "tr" || lang === "id" ? (l as Record<string, string> | undefined)?.[lang] ?? l?.en : l?.[lang]) ?? id; };
 
 /** Screen titles about / set in an entity (edges computed as subject_of / setting_of). */
 export function onScreen(id: string): { node: Node; how: "about" | "set_in" }[] {

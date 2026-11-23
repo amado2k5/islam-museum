@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani, person/abdullah-ibn-umar]
 work: work/muwatta-malik
 ref: "1668"
-label: { ar: "الموطأ 1668 — نافع عن ابن عمر: لكل مطلقة متعة، إلا التي فرض لها صداق ولم تمس فحسبها نصف ما فرض لها", en: "Muwatta 1668", es: "Muwatta 1668", fr: "Muwatta 1668", ur: "موطا 1668" }
+label: { ar: "الموطأ 1668 — نافع عن ابن عمر: لكل مطلقة متعة، إلا التي فرض لها صداق ولم تمس فحسبها نصف ما فرض لها", en: "Muwatta 1668", es: "Muwatta 1668", fr: "Muwatta 1668", ur: "موطا 1668", tr: "El-Muvatta 1668 — İbn Ömer'den rivayet edildiğine göre Nafi': Boşanmış her kadın hediye almaya hak kazanır; ancak mehir belirlenmiş olup da evliliği tamamlamamış olan kadın için belirlenen mehirin yarısı yeterlidir.", id: "Al-Muwatta 1668 — Diriwayatkan oleh Nafi’ dari Ibnu Umar: Setiap wanita yang bercerai berhak atas hadiah, kecuali wanita yang telah dinikahkan tetapi tidak melakukan hubungan suami istri; baginya, setengah dari mahar yang telah disepakati sudah cukup." }
 summary:
   ar: "يروي مالك عن نافع عن عبد الله بن عمر أنه كان يقول لكل مطلقة متعة، إلا التي تطلق وقد فرض لها صداق ولم تمس، فحسبها نصف ما فرض لها. {cite:muwatta-maruf-1997 p.85}"
+  tr: "Malik, Nafi'den, o da Abdullah ibn Umar'dan naklederek şöyle buyurduğunu aktarır: \"Boşanan her kadının bir hediyeye hakkı vardır; ancak mehir belirlenmiş olup da evliliği henüz tamamlamamış olan kadın hariç. Bu durumda, mehirin yarısına hakkı vardır.\" {cite:muwatta-maruf-1997 s.85}"
+  id: "Malik meriwayatkan dari Nafi’ yang juga dari Abdullah ibn Umar bahwa beliau biasa mengatakan bahwa setiap wanita yang bercerai berhak atas hadiah, kecuali wanita yang dicerai setelah mahar ditetapkan untuknya dan ia belum melakukan hubungan suami istri; dalam hal ini, ia berhak atas setengah dari mahar yang telah ditetapkan untuknya. {cite:muwatta-maruf-1997 p.85}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
   - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }

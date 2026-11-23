@@ -1,0 +1,12 @@
+---
+id: person/mustafa-ceric
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/mustafa-ceric.md}
+---
+## Ringkasan
+
+Mustafa Siric adalah seorang ulama Bosnia yang memimpin pemerintahan sheikh Islam di negaranya selama perang tahun 1990-an dan setelahnya sebagai Grand Mufti. Ia lahir pada 5 Februari 1952 di desa Veliko Čaino dekat Vesoko. Ia belajar di Sekolah Ghazi Khosrow Bey di Sarajevo, lulus pada tahun 1972, kemudian di Al-Azhar di Kairo, dan lulus pada tahun 1978 {cite:wikipedia-ceric-bs}{cite:wikidata-ceric}. Setelah memimpin Masjid Putih di Gračanica, ia menjadi imam di Islamic Cultural Center di Greater Chicago di Northbrook pada tahun 1981. Ia meraih gelar PhD dalam Studi Islam dari University of Chicago di bawah bimbingan Fazl-your-Rahman, dengan tesis tentang teologi Abu Mansur al-Maturidi tertanggal 24 September 1986; buku hasilnya "Akar Teologi Sintetik dalam Islam" diterbitkan di Kuala Lumpur pada tahun 1995 {cite:wikipedia-ceric-bs}{cite:wikipedia-ceric-en}.
+
+Siric kembali ke Yugoslavia sebagai imam dan presiden Masjid Zagreb pada tahun 1987 dan mulai mengajar di Fakultas Teologi Islam di Sarajevo; ia terpilih sebagai kepala Sheikhdom Islam di Bosnia dan Herzegovina pada 28 April 1993, dan mempertahankan posisi fatwa umum hingga 19 November 2012{cite:wikipedia-ceric-en}. Dalam wawancara yang diterbitkan, ia ditanya tentang aliran pemikiran yang diikuti oleh Islam Bosnia, dan ia menjawab dengan kata-katanya: "Pada dasarnya kami hanya memiliki satu sekolah Hanafi di Bosnia... Hanafi adalah sekolah resmi. Ini adalah sekolah dalam shalat dan fatwa kami"{cite:islamskazajednica-ceric-interview-2012}. Setelah menjabat posisi tersebut, ia berpartisipasi dalam pendirian Akademi Ilmu Pengetahuan dan Seni Bosnia (2011) dan Kongres Dunia Bosnia (2012), yang ia pimpin; ia adalah salah satu pendiri "A Common Word Between Us and You" (2007), berbagi Penghargaan Perdamaian UNESCO Felix Hovoje Boanij pada tahun 2003, mencalonkan diri untuk kursi kepala negara Bosnia pada tahun 2014, dan diberikan kewarganegaraan Saudi melalui dekret kerajaan pada November 2021 {cite:wikipedia-ceric-en}{cite:wikipedia-ceric-ar}.

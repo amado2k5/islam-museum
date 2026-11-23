@@ -1,0 +1,23 @@
+---
+id: concept/shudhudh-irregularity
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/shudhudh-irregularity.md}
+---
+## Definisi
+Dalam bahasa, 'shadhudh' adalah kata benda verbal 'shadh' yang berarti 'yadh' jika terpisah dari yang lain, dan 'shadh' adalah kata benda yang terisolasi dari orang lain atau di luar kelompok, dan segala sesuatu dianggap 'shadh'. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9930}
+Dalam terminologi aliran Hanafi dan Maliki, 'shadh' adalah yang sesuai dengan pendapat yang dikenal, disukai, atau otentik, yang berarti pendapat yang lemah, lemah, atau tidak biasa. Pendapat yang lebih benar mungkin sesuai dengan narasi anomali. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9930} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9931}
+Peneliti tidak menemukan definisi 'shadh' menurut para Shafi'i, begitu pula Hanbal tidak mengungkapkannya dalam kata-katanya, sehingga kata-kata mereka tentang yang lemah dan larangan mereka bertindak tanpa preferensi termasuk definisi tersebut. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9931}
+Di antara para ulama hadis, ada perbedaan pendapat tentang hal ini: Al-Shafi'i mengatakan bahwa seorang narator yang dapat dipercaya adalah menceritakan hadis yang bertentangan dengan apa yang telah diceritakan oleh orang-orang. Yang harus dipatuhi oleh para penjaga hadis adalah bahwa narator yang menyimpang hanya memiliki satu rantai narator, yang digunakan untuk menyimpang dari narasi yang dapat dipercaya atau tidak dapat dipercaya, sehingga ia menghentikan apa yang telah diimbunyikan dan tidak diandalkan oleh yang terpercaya, dan ia menolak apa yang menyimpang kecuali kepercayaan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9931}
+Dan detailnya ada di lampiran Usuli. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9931}
+
+## bertindak dengan kata menyimpang
+Putusan atas tindakan, fatwa, atau putusan berdasarkan pendapat anomali bervariasi menurut mujtahid, peniru, dan awam. Mujtahid tidak diizinkan mengikuti tiruan umum; sebaliknya, ia harus mempertimbangkan bukti dan menimbangnya di antara mereka, baik dalam kasusnya sendiri maupun dalam mengeluarkan fatwa dan menilai. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9931}
+Mujtahid dalam aliran bertindak sesuai dengan apa yang dianggapnya paling kuat karena kekuatan buktinya, meskipun pendapat itu menyimpang dan ditolak, seperti pendapat lama dan baru Al-Shafi'i, dan seperti sahabat Abu Hanifa yang mengambil bukti yang kuat dari mereka. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9932} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9933}
+Adapun peniru, prinsip yang disepakati secara umum adalah bahwa tindakan, mengeluarkan fatwa, atau putusan pengadilan harus didasarkan pada pendapat yang sudah dikenal, berlaku, atau benar di sekolah, bukan pendapat yang tidak teratur. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9933}
+Ibn Abi Zayd mengatakan bahwa tidak sah memilih peniru; sebaliknya, pendapat yang berlaku diperlukan, dan mengikuti orang yang dangkal ketika orang yang berbudi luhur hadir dilarang. Al-Shatibi mengatakan bahwa pengikut atau mufti tidak diperbolehkan mengeluarkan fatwa kecuali menurut pendapat yang sudah dikenal. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9933} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9934}
+Abu al-Fadl al-'Uqbani mengatakan bahwa putusan hakim tentang anomali dibatalkan jika ia menganggap itu adalah anomali yang terkenal, dan jika ia memutuskan dengan mengetahui bahwa itu anomali dan ia lebih memilih, putusannya dibatalkan jika ia termasuk di antara orang-orang yang berwawasan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9934}
+Al-Subki mengatakan bahwa hakim yang memenuhi syarat dapat memutuskan dengan pernyataan yang disampaikan dan didukung oleh bukti yang kuat, meskipun menurut sebagian besar cendekiawan lebih menguntungkan, selama tidak menyimpang dari sekolahnya sendiri. Ia tidak berhak menilai pendapat anomali yang jarang terjadi sebagai bagian dari sekolahnya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9934}
+Para Hanbal mengatakan bahwa tidak diperbolehkan bagi seseorang yang berafiliasi dengan mazhab imam tertentu untuk memilih dalam suatu perkara dengan dua pendapat untuk imamnya atau dua pendapat untuk salah satu sahabatnya, dan ia dapat mengeluarkan fatwa atau aturan sesuai dengan pilihan mana di antara mereka. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9934}
+Teori ini dianggap dalam istilah 'ijtihad,' 'peniruan,' 'yudikatif,' dan 'fatwa.' {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.9933}

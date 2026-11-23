@@ -1,0 +1,18 @@
+---
+id: person/daniyal-mueenuddin
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/daniyal-mueenuddin.md}
+---
+## Özet
+Daniel Moinuddin (1963 doğumlu), Los Angeles'ta doğmuş, Pakistanlı bir baba olan ve üst düzey bir devlet memuru olan bir baba ile Norveç-Amerikalı bir annenin çocuğu olarak doğmuştur. Lahor'da büyüdü, Dartmouth ve Yale Hukuk Fakültesi'nde eğitim aldı, New York'ta kurumsal avukat olarak çalıştı ve ardından Pakistan'a dönerek Pencap'taki aile çiftliğini yönetmeye ve sabahları erken saatlerde yazmaya başladı. "In Other Rooms, Other Wonders" adlı koleksiyonu on altı dile çevrildi ve Kısa Hikaye Ödülü ile Commonwealth Kitap Ödülü'nü kazandı. Zamanını Oslo ile Pakistan'daki çiftliği arasında geçiriyor. {cite:wikipedia-daniyal-mueenuddin-en}
+
+## Hayatı
+Moinuddin, Nisan 1963'te Los Angeles'ta doğdu. {cite:wikipedia-daniyal-mueenuddin-en} {cite:wikidata-daniyal-mueenuddin} Babası Ghulam Moinuddin, Hintli bir devlet memuruydu, ardından Pakistan'daki Kurucu Bölüm Genel Sekreteri oldu; 1950'lerin sonlarında Washington'a İndus Suları Antlaşması'nın baş müzakerecisi olarak gönderildi, burada The Washington Post'ta gazeteci olan Barbara ile tanıştı, onunla evlendi ve 1960'ta Pakistan'a taşındılar. Bebek Daniel, büyükbabasının ısrarıyla Los Angeles'a götürüldü ve orada doğdu, ardından iki ay sonra Pakistan'a döndü; aile Lahor'da yerleşti, burada Amerikan Lahor Okulu'nda eğitim aldı ve gençliğini avcılık ve at binme ile büyülü bir dönem olarak hatırlıyor. {cite:wikipedia-daniyal-mueenuddin-en} On üç yaşında, ebeveynleri ayrıldıktan sonra annesi ve kardeşiyle birlikte Amerika Birleşik Devletleri'ne taşındı, Groton Okulu'nda okudu ve Dartmouth'tan en yüksek onur derecesiyle mezun oldu. Mezuniyet yazında Pakistan'a döndü ve seksen yaşını geçmiş babasının ailenin gelişen mango plantasyonunun kontrolünü kaybettiğini gördü; babasının isteğiyle mango plantasyonunu kurtarmak için kaldı, iyi ücretli yöneticilerle bir iş yürüttü ve sabahları erken saatlerde şiir yazarak geçirdi. {cite:wikipedia-daniyal-mueenuddin-en} 1993'te çiftliğe yerleştikten sonra Amerika Birleşik Devletleri'ne dönerek Yale Hukuk Fakültesi'nde eğitim aldı; burada uluslararası hukuk dergisini düzenledi, ardından kısa bir süre Human Rights Watch'ta ve 1998-2001 yılları arasında New York'ta kurumsal avukat olarak çalıştı. O hayattan memnun kalmayan Sherlock istifa etti ve Pakistan'a döndü, 2004 yılında Arizona Üniversitesi'nden güzel sanatlar alanında yüksek lisans derecesi aldı ve çiftlik hikayeleri yazmaya başladı; bu kitap onun kitabı oldu. {cite:wikipedia-daniyal-mueenuddin-en}
+
+## Eserleri
+"In Other Rooms, Other Wonders" adlı koleksiyonu, Pencap'taki aile çiftliğinde yaşadığı yıllardan esas alınan çiftlik ve şehir hakkında bağlantılı hikayeleri bir araya getiriyor—hizmetçiler, şoförler, aşçılar, toprak sahipleri ve eriyen feodal sistemde yeni iş insanları. {cite:wikipedia-daniyal-mueenuddin-en} Koleksiyon on altı dile çevrildi ve Hikaye Ödülü ile Commonwealth Kitap Ödülü'nü kazandı; ayrıca başka ödüller ve geniş çapta eleştirel beğeni topladı. {cite:wikipedia-daniyal-mueenuddin-en} Manhattan'da bir gökdelen ofisinde otururken, bu hikayeleri Batılı bir okuyucu kitlesi için yazma konusunda benzersiz bir konumda olduğunu fark ettiğini söyledi—eski feodal yollar ve gelecek yeni yolun hikayeleri. {cite:wikipedia-daniyal-mueenuddin-en}
+
+## Kaynaklar
+- Yukarıda belirtilen kaynaklar `data/source/` altında listelenmiştir.

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "3118"
-label: { ar: "سنن أبي داود 3118 — دفن وقبر ومرقد", en: "Sunan Abi Dawud 3118 — a burial, grave or resting place", ur: "سنن ابی داؤد 3118 — تدفین، قبر اور مرقد", es: "Sunan Abi Dawud 3118 — un lugar de entierro, tumba o descanso.", fr: "Sunan Abi Dawud 3118 — un lieu de sépulture, une tombe ou un lieu de repos" }
+label: { ar: "سنن أبي داود 3118 — دفن وقبر ومرقد", en: "Sunan Abi Dawud 3118 — a burial, grave or resting place", ur: "سنن ابی داؤد 3118 — تدفین، قبر اور مرقد", es: "Sunan Abi Dawud 3118 — un lugar de entierro, tumba o descanso.", fr: "Sunan Abi Dawud 3118 — un lieu de sépulture, une tombe ou un lieu de repos", tr: "Sunan Abi Dawud 3118 - Defin, Mezar ve Türbe", id: "Sunan Abi Dawud 3118 — Pemakaman, Kuburan, dan Tempat Suci" }
 text: "… سَلَمَةَ وَارْفَعْ دَرَجَتَهُ فِي الْمَهْدِيِّينَ وَاخْلُفْهُ فِي عَقِبِهِ فِي الْغَابِرِينَ وَاغْفِرْ لَنَا وَلَهُ رَبَّ الْعَالَمِينَ اللَّهُمَّ افْسَحْ لَهُ فِي قَبْرِهِ وَنَوِّرْ لَهُ فِيهِ \". قَالَ أَبُو دَاوُدَ وَتَغْمِيضُ الْمَيِّتِ بَعْدَ خُرُوجِ الرُّوحِ سَمِعْتُ مُحَمَّدَ بْنَ مُحَمَّدِ بْنِ النُّعْمَانِ الْمُقْرِئَ قَالَ سَمِعْتُ أَبَا مَيْسَرَةَ رَجُلاً عَابِدًا يَقُولُ غَمَّضْتُ جَعْفَرًا الْمُعَلِّمَ وَكَانَ رَجُلاً عَابِدًا فِي حَالَةِ الْمَوْتِ …"
 summary:
   ar: "حديث في سنن أبي داود، رقم 3118، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابی داؤد کی حدیث نمبر 3118، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Abi Dawud, n.° 3118 (Funerales (Kitab Al-Jana'iz)), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sunan Abi Dawud, n° 3118 (Les Funérailles (Kitab Al-Jana'iz)), mentionne un lieu de sépulture, une tombe ou un lieu de repos. Le navigateur de textes sacrés le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Sunan Ebu Davud'da yer alan 3118 numaralı hadiste, defin, mezar ve türbeden bahsedilir. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler üzerine araştırmalar yapan bir uzman tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan Abi Dawud, no. 3118, menyebutkan tentang penguburan, kuburan, dan makam. Hadits ini disusun oleh peneliti wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3118 (book 21 hadith 30); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

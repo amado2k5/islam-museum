@@ -240,7 +240,7 @@ test("a shared-parts publish touches no language's pages or search index", () =>
   // With the plain scope a build without sitemaps would delete them: that is why the publish keeps them out.
   assert.ok(diff(desired, scoped).some((o) => o.op === "DELETE" && o.dst === "sitemap-index.xml"));
   // The five language scopes and the shared scope together are the whole record, with nothing in two of them.
-  const all = [...["ar", "en", "ur", "fr", "es"].flatMap((l) => Object.keys(scopeTo(previous, langPrefixes(l)))), ...Object.keys(scoped)];
+  const all = [...["ar", "en", "ur", "fr", "es", "tr", "id"].flatMap((l) => Object.keys(scopeTo(previous, langPrefixes(l)))), ...Object.keys(scoped)];
   assert.deepEqual(all.sort(), Object.keys(previous).sort());
 });
 

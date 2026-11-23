@@ -1,0 +1,15 @@
+---
+id: place/al-karkh
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/place/al-karkh.md}
+---
+## Ringkasan
+Al-Karkh adalah sebuah distrik dekat [[place/baghdad|Baghdad]]. Al-Baladhuri menceritakan bahwa Al-Mansur mendirikan kompleks pasar di Al-Karkh, memerintahkan para pedagang untuk membangun toko, dan mewajibkan mereka untuk memproduksi hasil panen. {cite:futuh-buldan-maarif-1407 p. 415}
+
+## Detail
+Al-Baladhuri menyebutkan kota Baghdad dan perkembangannya sehingga al-Mansur mendirikan kompleks pasar di Karkh, memerintahkan para pedagang untuk membangun toko, dan mewajibkan mereka untuk menanam tanaman {cite:futuh-buldan-maarif-1407 p. 415}. Ini merupakan bagian dari manajemen al-Mansur dalam mengatur kota dan pasarnya serta mengatur mata pencaharian dan kekayaan penduduknya. Setelah itu, Karkh menjadi salah satu distrik terbesar, paling berpasar, dan paling menonjol di Baghdad {cite:futuh-buldan-maarif-1407 p. 415}. Di pinggiran Baghdad juga disebutkan bahwa ia mengirimkan sebuah istana di dekat al-Qatil kepada Ashnas al-Turki, tuannya, dan bahwa al-Mansur memutuskan hubungan dengan para komandan, teman, dan juru tulisnya di Baghdad {cite:futuh-buldan-maarif-1407 p. 415}. Di antara nama-nama wilayah kota ini menurutnya adalah bahwa al-Mukharram disebut Baghdad Mukhram karena Mukhram ibn Shurayh ibn Hazn al-Harithi menetap di sana {cite:futuh-buldan-maarif-1407 p. 415}.
+
+## Dalam kamus negara Yaqut
+Yaqut membuka akar Karkh dengan fatha, lalu sukun, dan kha-kha, yang menunjukkan bahwa itu bukan bahasa Arab melainkan Nabataean. Ia menyebutkan bahwa penduduknya mengucapkan 'karkhat al-ma'a' saat berkumpul di satu tempat. {cite:mujam-al-buldan-sader-1995 4 p.447} Ia kemudian mendedikasikan sebuah bagian untuk Karkh Baghdad di mana ia menceritakan bahwa ketika al-Mansur membangun Baghdad, ia mendirikan pasar di gerbang kota. Ketika utusan raja Romawi mengunjunginya dan memperingatkan bahwa pedagang mungkin mengintipnya, ia memerintahkan agar pasar itu dipindahkan dari kota dan dibangun pasar yang rapi untuk mereka di antara Sarrats dan Sungai Isa. {cite:mujam-al-buldan-sader-1995 4 p.448} Dilaporkan dari al-Khatib bahwa al-Mansur tidak menanam di pasar sampai ia meninggal, dan bahwa al-Mahdi mengenakan pajak pada toko-toko. Ia juga melaporkan pendapat lain bahwa alasan pemindahan mereka ke al-Karkh adalah asap dari toko-toko mereka yang menghitamkan tembok kota. {cite:mujam-al-buldan-sader-1995 4 p.448} Ia menambahkan bahwa Karkh awalnya berada di pusat Baghdad dan lingkungan sekitarnya berada, dan pada masanya itu adalah satu lingkungan di tengah reruntuhan. Ia menggambarkan lingkungan sekitar dan mengatakan bahwa semua penduduk Karkh adalah Syiah Imami, sedangkan penduduk Bab al-Basra, Nahr al-Qalayn, dan Bab al-Muhawal adalah Sunni. {cite:mujam-al-buldan-sader-1995 4 p.448}

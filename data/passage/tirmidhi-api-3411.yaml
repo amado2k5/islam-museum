@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "3411"
-label: { ar: "جامع الترمذي 3411 — الأب والأبوة", en: "Jami' al-Tirmidhi 3411 — the father and fatherhood", ur: "جامع ترمذی 3411 — باپ اور والدیت", es: "Jami' al-Tirmidhi 3411 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 3411 — le père et la paternité" }
+label: { ar: "جامع الترمذي 3411 — الأب والأبوة", en: "Jami' al-Tirmidhi 3411 — the father and fatherhood", ur: "جامع ترمذی 3411 — باپ اور والدیت", es: "Jami' al-Tirmidhi 3411 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 3411 — le père et la paternité", tr: "Cami' el-Tirmizi 3411 — Baba ve Babalık", id: "Jami' al-Tirmidhi 3411 — Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى الصَّنْعَانِيُّ، حَدَّثَنَا عَثَّامُ بْنُ عَلِيٍّ، عَنِ الأَعْمَشِ، عَنْ عَطَاءِ بْنِ السَّائِبِ، عَنْ أَبِيهِ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو،ما قَالَ رَأَيْتُ رَسُولَ اللَّهِ يَعْقِدُ التَّسْبِيحَ. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ مِنْ حَدِيثِ الأَعْمَشِ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 3411، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 3411، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 3411 (Capítulos sobre la súplica), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 3411 (Chapitres sur l'invocation), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Cami' el-Tirmizi'de yer alan 3411 numaralı hadiste baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 3411, menyebutkan tentang ayah dan peran ayah. Fitur \"Peran Ayah dalam Islam\" menggabungkan hal ini dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3411 (book 48 hadith 42); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

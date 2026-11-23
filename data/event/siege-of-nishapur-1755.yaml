@@ -1,13 +1,15 @@
 id: event/siege-of-nishapur-1755
 class: event
 kind: siege
-label: { ar: "حصار نيسابور", en: "Siege of Nishapur", es: "Sitio de Nishapur", fr: "Siège de Nishapur", ur: "نیشاپور کا محاصرہ" }
+label: { ar: "حصار نيسابور", en: "Siege of Nishapur", es: "Sitio de Nishapur", fr: "Siège de Nishapur", ur: "نیشاپور کا محاصرہ", tr: "Nişapur Kuşatması", id: "Pengepungan Nishapur" }
 summary:
   ar: "بطاقة أولية لحصار نيسابور سنة ١٧٥٥م، حصار أحمد شاه الدراني للمدينة الخراسانية؛ لم تُراجع مصادره على الصفحة بعد."
   en: "Draft card for the Siege of Nishapur in 1755, Ahmad Shah Durrani's siege of the Khorasan city; its sources are not yet checked on the page."
   es: "Boceto de ficha para el asedio de Nishapur en 1755, el asedio de la ciudad de Khorasan por Ahmad Shah Durrani; sus fuentes aún no han sido verificadas en la página."
   fr: "Carte de projet pour le siège de Nishapur en 1755, siège de la ville du Khorasan par Ahmad Shah Durrani; ses sources ne sont pas encore vérifiées sur la page."
   ur: "1755 میں نیشاپور کے محاصرے کے لیے ڈرافٹ کارڈ، احمد شاہ درانی کا خراسان شہر کا محاصرہ؛ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
+  tr: "Ahmed Şah Durrani'nin 1755 yılında Horasan şehrini kuşatmasıyla ilgili ön bilgiler; kaynaklar henüz bu sayfada incelenmemiştir."
+  id: "Catatan pendahuluan tentang pengepungan Nishapur pada tahun 1755 M, pengepungan kota Khorasani oleh Ahmad Shah Durrani; sumber-sumbernya belum ditinjau di halaman ini."
 relations:
   - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-hasan-ibrahim] }
   - { type: during_reign, target: person/uthman-iii-uthmani, sources: [source/sicill-i-osmani] }

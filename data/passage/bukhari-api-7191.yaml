@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "7191"
-label: { ar: "صحيح البخاري 7191 — جمع القرآن والمصاحف", en: "Sahih al-Bukhari 7191 — the collection of the Qur'an and the codices", ur: "صحیح بخاری 7191 — جمعِ قرآن اور مصاحف", es: "Sahih al-Bukhari 7191 — la colección del Corán y los códices", fr: "Sahih al-Bukhari 7191 — le recueil du Coran et des codex" }
+label: { ar: "صحيح البخاري 7191 — جمع القرآن والمصاحف", en: "Sahih al-Bukhari 7191 — the collection of the Qur'an and the codices", ur: "صحیح بخاری 7191 — جمعِ قرآن اور مصاحف", es: "Sahih al-Bukhari 7191 — la colección del Corán y los códices", fr: "Sahih al-Bukhari 7191 — le recueil du Coran et des codex", tr: "Sahih el-Buhari 7191 — Kur'an ve Kur'an Reçeteleri Koleksiyonu", id: "Sahih al-Bukhari 7191 — Kumpulan Al-Qur'an dan Salinan Al-Qur'an" }
 text: "… الْقُرْآنِ، وَإِنِّي أَخْشَى أَنْ يَسْتَحِرَّ الْقَتْلُ بِقُرَّاءِ الْقُرْآنِ فِي الْمَوَاطِنِ كُلِّهَا، فَيَذْهَبَ قُرْآنٌ كَثِيرٌ، وَإِنِّي أَرَى أَنْ تَأْمُرَ بِجَمْعِ الْقُرْآنِ. قُلْتُ كَيْفَ أَفْعَلُ شَيْئًا لَمْ يَفْعَلْهُ رَسُولُ اللَّهِ فَقَالَ عُمَرُ هُوَ وَاللَّهِ خَيْرٌ. فَلَمْ يَزَلْ عُمَرُ يُرَاجِعُنِي فِي ذَلِكَ حَتَّى شَرَحَ اللَّهُ صَدْرِي لِلَّذِي شَرَحَ لَهُ صَدْرَ عُمَرَ، وَرَأَيْتُ فِي ذَلِكَ الَّذِي رَأَى عُمَرُ. قَالَ …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 7191، يذكر جمع القرآن والمصاحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 7191، جس میں جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 7191 (Juicios (Ahkaam)), menciona la colección del Corán y los códices. El catálogo del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
   fr: "Un hadith du Sahih al-Bukhari, n° 7191 (Jugements), mentionne la collection du Coran et des codex. Le catalogue du musée consacré à la lecture et à l'écriture du Coran répertorie ces documents avec les textes coraniques, la Sunna, la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Sahih el-Buhari'de 7191 numaralı hadis, Kur'an'ın ve el yazmalarının derlenmesinden bahsetmektedir. Bu hadis, Kur'an okunuşları, yazı, hat sanatı ve diyakritikler konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 7191, menyebutkan penyusunan Al-Quran dan manuskripnya. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/mushaf, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 7191 (book 93 hadith 53); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

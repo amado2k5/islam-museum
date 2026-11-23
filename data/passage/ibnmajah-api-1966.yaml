@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "1966"
-label: { ar: "سنن ابن ماجه 1966 — الأب والأبوة", en: "Sunan Ibn Majah 1966 — the father and fatherhood", ur: "سنن ابن ماجہ 1966 — باپ اور والدیت", es: "Sunan Ibn Majah 1966 — El padre y la paternidad", fr: "Sunan Ibn Majah 1966 — Le père et la paternité" }
+label: { ar: "سنن ابن ماجه 1966 — الأب والأبوة", en: "Sunan Ibn Majah 1966 — the father and fatherhood", ur: "سنن ابن ماجہ 1966 — باپ اور والدیت", es: "Sunan Ibn Majah 1966 — El padre y la paternidad", fr: "Sunan Ibn Majah 1966 — Le père et la paternité", tr: "Sunan İbn Majah 1966 — Baba ve Babalık", id: "Sunan Ibn Majah 1966 — Sang Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا مُحَمَّدُ بْنُ الصَّبَّاحِ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ رَجَاءٍ الْمَكِّيُّ، عَنْ مَالِكِ بْنِ أَنَسٍ، عَنْ نَافِعٍ، عَنْ نُبَيْهِ بْنِ وَهْبٍ، عَنْ أَبَانَ بْنِ عُثْمَانَ بْنِ عَفَّانَ، عَنْ أَبِيهِ، قَالَ قَالَ رَسُولُ اللَّهِ ـ \" الْمُحْرِمُ لاَ يَنْكِحُ وَلاَ يُنْكِحُ وَلاَ يَخْطُبُ \"."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 1966، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابن ماجہ کی حدیث نمبر 1966، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Ibn Majah, n.° 1966 (Los capítulos sobre el matrimonio), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sunan Ibn Majah, n° 1966 (Les chapitres sur le mariage), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "İbn Majah'ın Sünen'inde yer alan 1966 numaralı hadiste baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derler."
+  id: "Sebuah hadits dalam Sunan Ibn Majah, no. 1966, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1966 (book 9 hadith 122); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

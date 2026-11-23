@@ -76,11 +76,11 @@ async function urlsFromGit() {
     if (dm) {
       const [, cls, slug] = dm;
       // An entity's page exists in every language of the site, whatever its prose.
-      for (const lang of ['ar', 'en', 'ur', 'fr', 'es']) urls.add(`${siteUrl}/${lang}/${cls}/${slug}/`);
+      for (const lang of ['ar', 'en', 'ur', 'fr', 'es', 'tr', 'id']) urls.add(`${siteUrl}/${lang}/${cls}/${slug}/`);
       entityChanges++;
       continue;
     }
-    dm = f.match(/^content\/(ar|en|ur|fr|es)\/([^/]+)\/([^/]+)\.md$/);
+    dm = f.match(/^content\/(ar|en|ur|fr|es|tr|id)\/([^/]+)\/([^/]+)\.md$/);
     if (dm) {
       const [, lang, cls, slug] = dm;
       urls.add(`${siteUrl}/${lang}/${cls}/${slug}/`);

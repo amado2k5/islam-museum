@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-al-nasai
 ref: "2856"
-label: { ar: "سنن النسائي 2856 — دفن وقبر ومرقد", en: "Sunan al-Nasa'i 2856 — a burial, grave or resting place", ur: "سنن نسائی 2856 — تدفین، قبر اور مرقد", es: "Sunan al-Nasa'i 2856 — un lugar de entierro, tumba o descanso.", fr: "Sunan al-Nasa'i 2856 — un lieu de sépulture, une tombe ou un lieu de repos" }
+label: { ar: "سنن النسائي 2856 — دفن وقبر ومرقد", en: "Sunan al-Nasa'i 2856 — a burial, grave or resting place", ur: "سنن نسائی 2856 — تدفین، قبر اور مرقد", es: "Sunan al-Nasa'i 2856 — un lugar de entierro, tumba o descanso.", fr: "Sunan al-Nasa'i 2856 — un lieu de sépulture, une tombe ou un lieu de repos", tr: "Sunan an-Nasa'i 2856 — Defin, mezar ve istirahat yeri", id: "Sunan an-Nasa'i 2856 — Pemakaman, kuburan, dan tempat peristirahatan" }
 text: "أَخْبَرَنِي مُحَمَّدُ بْنُ قُدَامَةَ، قَالَ حَدَّثَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، عَنِ الْحَكَمِ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ وَقَصَتْ رَجُلاً مُحْرِمًا نَاقَتُهُ فَقَتَلَتْهُ فَأُتِيَ رَسُولُ اللَّهِ فَقَالَ \" اغْسِلُوهُ وَكَفِّنُوهُ وَلاَ تُغَطُّوا رَأْسَهُ وَلاَ تُقَرِّبُوهُ طِيبًا فَإِنَّهُ يُبْعَثُ يُهِلُّ \"."
 summary:
   ar: "حديث في سنن النسائي، رقم 2856، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن نسائی کی حدیث نمبر 2856، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan al-Nasa'i, n.º 2856 (El Libro del Hajj), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, propiedades, reliquias y tumbas."
   fr: "Un hadith du Sunan an-Nasa'i, n° 2856 (Le Livre du Hajj), mentionne un lieu de sépulture, une tombe ou un lieu de repos. Le navigateur de textes sacrés le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Sunan-ı Nesai'de 2856 numaralı hadis, defin, mezar ve türbeden bahsetmektedir. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler üzerine araştırmalar yapan uzmanlar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sunan an-Nasa'i, no. 2856, menyebutkan tentang penguburan, kuburan, dan makam. Hadits ini disusun oleh para peneliti wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2856 (book 24 hadith 239); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

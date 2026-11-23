@@ -21,7 +21,7 @@ const API_DIR = process.argv[2];
 const OUT_DIR = "data/passage";
 const DRY = process.argv.includes("--dry");
 if (!API_DIR || API_DIR.startsWith("--")) throw new Error("usage: harvest-juha-hadithapi.ts <dir> [--dry]");
-const LANGS = ["ar", "en", "ur", "fr", "es"] as const;
+const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
 type Lang = (typeof LANGS)[number];
 type L5 = Record<Lang, string>;
 interface Hadith { hadithnumber: number; arabicnumber?: number | string; text: string; reference?: { book?: number; hadith?: number } }

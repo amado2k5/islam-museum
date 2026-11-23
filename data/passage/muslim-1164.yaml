@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1164"
-label: { ar: "مسلم 1164 — من صام رمضان ثم أتبعه ستاً من شوال", en: "Muslim 1164 — Ramadan plus six of Shawwal", es: "Musulmán 1164: Ramadán más seis de Shawwal", fr: "Musulman 1164 — Ramadan plus six de Shawwal", ur: "مسلم 1164 - رمضان جمع چھ شوال" }
+label: { ar: "مسلم 1164 — من صام رمضان ثم أتبعه ستاً من شوال", en: "Muslim 1164 — Ramadan plus six of Shawwal", es: "Musulmán 1164: Ramadán más seis de Shawwal", fr: "Musulman 1164 — Ramadan plus six de Shawwal", ur: "مسلم 1164 - رمضان جمع چھ شوال", tr: "Müslim 1164 — Ramazan ayında oruç tutan ve ardından Şevval ayında altı gün oruç tutan kimse...", id: "Muslim 1164 — Barangsiapa berpuasa Ramadan dan kemudian melanjutkannya dengan enam hari puasa Syawal" }
 text: "قال أبو أيوب الأنصاري: قال رسول الله: من صام رمضان ثم أتبعه ستاً من شوال كان كصيام الدهر"
 summary:
   ar: "رواية أبي أيوب الأنصاري في باب إتباع رمضان بصيام ستة أيام من شوال من كتاب الصيام في صحيح مسلم؛ ستة أيام من شوال كصيام الدهر."
+  tr: "Sahih Müslim'deki Oruç Kitabı'nda, Ramazan'a ek olarak Şevval ayının altı gününü oruç tutarak geçirmekle ilgili bölümde Ebu Eyyub el-Ensari'nin rivayetine göre: Şevval ayının altı günü oruç tutmak, bir yıl boyunca oruç tutmak gibidir."
+  id: "Riwayat Abu Ayyub al-Ansari dalam bab tentang berpuasa enam hari di bulan Syawal setelah Ramadan dari Kitab Puasa dalam Sahih Muslim: enam hari di bulan Syawal sama seperti berpuasa selama setahun penuh."
 relations:
   - { type: part_of, target: passage/muslim-kitab-13 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

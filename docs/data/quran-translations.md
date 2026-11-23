@@ -1,6 +1,6 @@
 # Verse translations of the Qur'an
 
-What a visitor sees beside a verse, by language, and where it comes from. Checked on 20 November 2026.
+What a visitor sees beside a verse, by language, and where it comes from. Checked on 20 November 2026; Turkish and Indonesian checked 22 November 2026.
 
 | Language | Translation | Where it is stored | Licence |
 |---|---|---|---|
@@ -9,10 +9,13 @@ What a visitor sees beside a verse, by language, and where it comes from. Checke
 | Urdu | Fateh Muhammad Jalandhari | same records, `translations.ur` | public domain |
 | French | Rachid Maach, QuranEnc.com version 1.0.3 | `site/src/data/quran-translations/french_rashid.json` | QuranEnc.com terms |
 | Spanish | Muhammad Isa García, QuranEnc.com version 1.0.2 | `site/src/data/quran-translations/spanish_garcia.json` | QuranEnc.com terms |
+| Turkish | Rowwad Translation Center team, QuranEnc.com version 1.0.4 | `site/src/data/quran-translations/turkish_rwwad.json` | QuranEnc.com terms |
+| Indonesian | Ministry of Religious Affairs (Kemenag), QuranEnc.com version 1.0.1 | `site/src/data/quran-translations/indonesian_affairs.json` | QuranEnc.com terms |
 
-## Why French and Spanish are stored apart
+## Why these translations are stored apart
 
-Decision of the founder, 20 November 2026 (in chat). No French or Spanish translation accepted among Sunni
+Decision of the founder, 20 November 2026 (in chat); Turkish and Indonesian added 22 November 2026 on the same basis.
+No French, Spanish, Turkish or Indonesian translation accepted among Sunni
 institutions is in the public domain; the one public-domain French text (Kazimirski, 1869) is an orientalist work
 with a different verse numbering. QuranEnc.com (Encyclopedia of the Noble Quran) allows its translations to be
 downloaded and re-published under seven conditions, read on the translation pages on 20 November 2026:
@@ -27,11 +30,11 @@ downloaded and re-published under seven conditions, read on the translation page
 
 "No modification" cannot live under CC0, so these two translations are **third-party content, not CC0 and not public
 domain**. They are therefore kept out of `data/` (CC0), out of the frozen Qur'an records, out of the graph and out of
-the static API. The two files carry the terms, the version, the source address and the retrieval date inside them.
+the static API. The four files carry the terms, the version, the source address and the retrieval date inside them.
 
 ## What the site does with them
 
-- `site/src/lib/quran-translations.ts` reads the two files. Only two places call it, and both show the translator,
+- `site/src/lib/quran-translations.ts` reads the four files. Only two places call it, and both show the translator,
   the publisher, the version and a link to QuranEnc.com: the verse page (`site/src/components/Extras.astro`) and the
   sura reader (`site/src/pages/[lang]/words/quran/[n].astro`).
 - The text is shown exactly as served: verse text with its footnote marks, and the footnotes under it. Nothing is
@@ -43,7 +46,7 @@ the static API. The two files carry the terms, the version, the source address a
 
 ## Updating (condition 6)
 
-1. Read the current version: `https://quranenc.com/api/v1/translations/list/fr` and `.../list/es` (field `version`).
+1. Read the current version: `https://quranenc.com/api/v1/translations/list/fr`, `.../list/es`, `.../list/tr` and `.../list/id` (field `version`).
 2. If it is newer than the file's `version`, fetch all 114 suras from
    `https://quranenc.com/api/v1/translation/sura/<key>/<n>` and rebuild the file whole: same shape, `t` for the
    translation and `f` for the footnotes, nothing changed.

@@ -1,13 +1,15 @@
 id: event/capture-of-muscat-1552
 class: event
 kind: conquest
-label: { ar: "فتح مسقط ⁦(١٥٥٢)⁩", en: "Capture of Muscat", es: "Captura de Mascate", fr: "Prise de Mascate", ur: "مسقط پر قبضہ" }
+label: { ar: "فتح مسقط ⁦(١٥٥٢)⁩", en: "Capture of Muscat", es: "Captura de Mascate", fr: "Prise de Mascate", ur: "مسقط پر قبضہ", tr: "Maskat'ın Fethi (1552)", id: "Penaklukan Muscat (1552)" }
 summary:
   ar: "بطاقة أولية لأخذ مسقط سنة ١٥٥٢م، احتلال بيري ريس العثماني لميناء عمان من البرتغاليين؛ لم تُراجع مصادره على الصفحة بعد."
   en: "Draft card for the capture of Muscat in 1552, Piri Reis's Ottoman seizure of the Omani port from the Portuguese; its sources are not yet checked on the page."
   es: "Borrador del plan para la captura de Mascate en 1552, la toma del puerto omaní por parte de Piri Reis a los portugueses; sus fuentes aún no han sido verificadas en la página."
   fr: "Projet de fiche relative à la prise de Mascate en 1552, la conquête ottomane du port omanais par Piri Reis aux dépens des Portugais; ses sources ne sont pas encore vérifiées sur la page."
   ur: "1552 میں مسقط پر قبضے کے لیے ڈرافٹ کارڈ، پیری رئیس کا پرتگالیوں سے عمانی بندرگاہ کا عثمانی قبضہ؛ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
+  tr: "1552 yılında Umman limanının Osmanlılar tarafından Portekizlilerden alınmasını konu alan, Muskat'ın ele geçirilmesine dair ön hazırlık kartı; sayfadaki kaynaklar henüz incelenmemiştir."
+  id: "Kartu pendahuluan untuk penaklukan Muscat pada tahun 1552 M, pendudukan pelabuhan Oman oleh pasukan Ottoman Piri Reis dari Portugis; sumber-sumber di halaman ini belum ditinjau."
 relations:
   - { type: occurred_at, target: place/muscat, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }

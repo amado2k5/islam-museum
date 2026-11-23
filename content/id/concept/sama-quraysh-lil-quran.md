@@ -1,0 +1,34 @@
+---
+id: concept/sama-quraysh-lil-quran
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/sama-quraysh-lil-quran.md}
+---
+## Ringkasan
+Al-Qur'an dibacakan kepada orang-orang yang keahliannya adalah berbicara. Buku-buku tafsir menyimpan laporan tentang apa yang dikatakan beberapa orang ketika mendengarnya, dan apa yang mereka lakukan untuk mencegah orang lain mendengarnya. Halaman ini menyampaikan laporan-laporan tersebut sebagaimana tercantum dalam tafsir al-Tabari, Ibn Kathir, al-Qurtubi, dan al-Baghawi, beserta nama-nama mereka yang menjadi sumber cerita tersebut.
+
+## Al-Walid ibn al-Mughira
+Ayat-ayat Surah Al-Muddathir diwahyukan di dalamnya, dari [[passage/quran-74-11|Al-Muddathir 11]] hingga [[passage/quran-74-25|Al-Muddathir 25]], yaitu [[person/al-walid-ibn-al-mughira|Al-Walid ibn Al-Mughira]] Al-Makhzumi, salah satu pemimpin besar Quraisy.
+
+**Kisah Ikrimah.** Al-Tabari menceritakan dari Ikrimah bahwa al-Walid datang kepada Nabi, dan ia membacakan Al-Qur'an kepadanya, seolah-olah ia adalah seorang bangsawan baginya. Abu Jahl mendengar hal itu, lalu ia datang dan berkata: Wahai paman, umatmu ingin mengumpulkan harta untukmu, karena engkau datang kepada Muhammad untuk mengenal apa yang telah terjadi sebelumnya. Ia berkata: Quraisy tahu bahwa aku termasuk yang terkaya di antara mereka. Ia berkata: Katakanlah sesuatu tentang hal itu sehingga kau menyangkalnya. Ia berkata: Apa yang bisa aku katakan? Demi Allah, tidak ada orang di antara kalian yang lebih berpengetahuan tentang puisi, ayatnya, puisinya, atau puisi jin, dan demi Allah, dia tidak seperti orang yang mengatakan sesuatu tentang ini. Kemudian dia menggambarkan apa yang didengarnya: "Kata-katanya manis, dan dia menghancurkan apa yang ada di bawahnya, dan dia bangkit tetapi tidak bangkit." Abu Jahl berkata: Kaummu tidak akan senang padamu sampai kamu berbicara tentang dia. Dia berkata: Tinggalkan aku sendiri sementara aku berpikir. Ketika dia berpikir, dia berkata: Ini adalah sihir yang memengaruhinya dari orang lain {cite:tafsir-tabari-quran-com on 74:17}.
+
+**Narasi Ibn Abbas.** Dalam riwayat lain oleh al-Tabari dari Ibn Abbas, al-Walid mendekati Abu Bakr untuk menanyakan tentang Al-Qur'an, lalu pergi kepada Quraisy dan berkata: Betapa menakjubkannya apa yang dia katakan! Demi Tuhan, dia bukan puisi, sihir, atau kegilaan. Quraisy datang dan berkata: Jika al-Walid adalah anak-anak, Quraisy akan dihukum. Abu Jahl berkata: Aku akan cukupkan untukmu. Dia dikritik karena umatnya mengatakan dia hanya masuk ke Ibn Abi Quhafa untuk mendapatkan makanannya. Al-Walid marah dan berkata: Kata-katanya hanyalah sihir yang memengaruhi {cite:tafsir-tabari-quran-com on 74:17}.
+
+**Cerita lain.** Al-Tabari menceritakan dari Ibn Zayd bahwa al-Walid mendengar Nabi berdoa dan kembali untuk menggambarkan kata-kata manis yang memikat hati, menyangkal bahwa itu puisi atau ramal, lalu berkata: Mungkin itu adalah sihir {cite:tafsir-tabari-quran-com on 74:24}. Mujahid melaporkan bahwa pertemuan mereka terjadi di tempat pertemuan {cite:tafsir-tabari-quran-com on 74:18}. Menurut al-Qurtubi dan al-Baghawi, tanpa menyebut narator, al-Walid mendengar Nabi membaca Surah Ghafir pertama di masjid, dan bahwa dia menyampaikan kepada umatnya apa yang mereka katakan tentang Nabi: orang gila, imam, penyair, pembohong; maka mereka menyangkal masing-masing berdasarkan apa yang mereka ketahui tentangnya, sampai dia menetapkan kata-katanya: seorang penyihir {cite:tafsir-qurtubi-quran-com on 74:18} {cite:tafsir-baghawi-quran-com on 74:18}.
+
+## Saran tentang Lidah
+Ayat [[passage/quran-41-26|Fussilat 26]] menceritakan kata-kata orang kafir: Jangan dengarkan Al-Qur'an ini dan pergi untuk membicarakannya secara kosong. Al-Tabari mengatakan bahwa mereka yang mengucapkannya adalah musyrik Quraisy, dan dilaporkan dari Mujahid bahwa omongan kosong dilakukan dengan menekan, bersiul, dan membingungkan berbicara melawan Nabi saat ia mengucapkan, dan Qur'an biasa melakukan hal itu {cite:tafsir-tabari-quran-com on 41:26}. Menurut al-Baghawi, dari Ibn Abbas, beberapa dari mereka memberi nasihat kepada yang lain: 'Jika kamu melihat Muhammad mengucapkan, lawanlah dia dengan rajaz, puisi, dan omongan kosong' {cite:tafsir-baghawi-quran-com on 41:26}. Al-Qurtubi menyebutkan bahwa mereka melakukan ini karena Qur'an membuat mereka tidak mampu {cite:tafsir-qurtubi-quran-com on 41:26}.
+
+## Islam Omar ibn Al-Khattab
+Al-Qurtubi menyebutkan di awal Surah Taha bahwa surah itu diwahyukan di Mekah sebelum [[person/umar-ibn-al-khattab|Islam Umar]]. Ia menceritakan kisah ini melalui Al-Daraqutni dari Anas ibn Malik, dan dalam riwayat panjang dari Ibn Ishaq: Umar keluar membawa pedangnya kepada Nabi. Nu'aym ibn Abdullah bertemu dengannya dan memberitahukan bahwa saudarinya Fatimah bint Al-Khattab dan suaminya Sa'id ibn Zayd telah memeluk Islam. Ia datang kepada mereka saat Khabbab ibn Al-Arta membacakan gulungan yang berisi [[passage/quran-20-1|Taha]]. Ia memukul Sa'id, memukul saudarinya, dan memutar darah kepadanya. Ketika melihat darah itu, ia menyesal dan meminta gulungan itu, tetapi saudara perempuannya menolak melakukan ghusl. Ketika ia membaca dada ibunya, ia berkata: Betapa indah dan terhormatnya ini. Kemudian ia meminta Khabbab untuk membimbingnya kepada Nabi agar dapat menyambutnya {cite:tafsir-qurtubi-quran-com on 20:1}.
+
+Al-Tabari, Ibn Kathir, dan Al-Baghawi tidak menyebutkan kisah ini dalam ayat ini dalam teks.
+
+## Musaylimah dan Amr ibn al-As
+Ibn Kathir menceritakan dalam [[passage/quran-2-24|Al-Baqarah 24]] bahwa Amr ibn al-As pernah mengunjungi Musaylimah sebelum ia memeluk Islam. Musaylimah menanyakan apa yang telah diwahyukan kepada sahabatnya di Mekah, maka ia membacakan Surah Al-Asr kepadanya. Musaylimah memikirkannya, lalu mengklaim bahwa sesuatu yang serupa telah diwahyukan kepadanya, dan ia berbicara tentang wol. Amr menjawab bahwa ia tahu bahwa ia adalah pembohong {cite:tafsir-ibn-kathir-quran-com on 2:24}.
+
+## Cara membaca berita ini
+Para komentator mengutipnya sebagai bukti bahwa umat lidah tahu bahwa Al-Qur'an bukanlah jenis yang sama dengan ucapan mereka. Ibn Kathir berkata mengenai ayat Yunus bahwa siapa pun di antara mereka yang percaya hanya percaya pada apa yang diketahui tentang kefasihannya, kelembutan, dan kemurahan hatinya, dan mereka adalah orang yang paling berpengetahuan tentang hal itu, sama seperti para penyihir tahu bahwa apa yang dibawa Musa bukanlah sihir {cite:tafsir-ibn-kathir-quran-com on 10:38}.
+
+Buku-buku biografi itu sendiri tidak dibaca di halaman ini, begitu pula referensi komentar sesuai dengan bait.

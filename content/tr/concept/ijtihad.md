@@ -1,0 +1,17 @@
+---
+id: concept/ijtihad
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/ijtihad.md}
+---
+## Genel Bakış
+Hukukçu, hukuki kararları hukuki delillerden çıkarmak için tüm çabasını ve çabasını harcadı {cite:nashat-al-fiqh-al-ijtihadi-azhar p. 11}. Al-Sais, vahiy çağında başladığına ve amacının Tanrı'nın gerçek konudaki hükmünü ortaya çıkarmak olduğunu, yasa yaratmak olmadığını düşünür; bu hüküm müjtahid ve onun taklitçisi için bağlayıcıdır ve Şeriat'ın genel kurallarına bağlıdır {cite:nashat-al-fiqh-al-ijtihadi-azhar p. 24, 26}. Yöntemleri farklılık gösterir: hükümleri metinlerin görünür veya rasyonel anlamlarından çıkarır.
+
+## Al-Shawkani'nin 'Irshad al-Fuhul' adlı eserindeki İctihad
+
+Al-Shawkani [[person/al-shawkani|, ijtihad ve taklitte ']] İrşad el-Fuhul'un [[work/irshad-al-fuhul|altıncı amacını]] ele alır ve ijtihadın dilsel olarak çabadan, yani zorluk ve enerjiden kaynaklandığını belirtir. Teknik sınırında tanımlar sunar; örneğin: çıkarım yoluyla pratik bir hukuki karar alma kapasitesini kullanma ve el-Amidi tanımı: belirli hukuki kararlara karşı şüphe aramak için her yolu kullanmak, böylece daha fazlasını elde edemeyeceğinizi hissetmek. {cite:irshad-al-fuhul-dar-al-fikr p.252} Muctahid, onun için hukuki bir karar varsayımını elde etmek için tükenmiş bir hukukçudur; kaynaklarından karar çıkarma yeteneğini kanıtlamış yetişkin ve mantıklı bir kişidir. {cite:irshad-al-fuhul-dar-al-fikr p.252}
+
+Bunun için koşulları belirtir: birincisi, Kur'an ve Sünnet metinlerinin hükümlerle ilgili bilgisi; El-Gazali ve İbn Arapi'den hüküm ayetlerinin yaklaşık beş yüz ayet olduğunu aktarır; hükümlerin kendisinden çok daha fazla alındığına inanır; ve fihrüslin, altı anne ve ilgili konular gibi Sünnet derlemeleri hakkında bilgi sahibi olması gerektiğine, hadisleri yerinden çıkarıp hasil, iyi ve zayıf ayırt edebilmesi gerektiğine inanır, ezberleme gerekmezliğine ihtiyaç duymaz. {cite:irshad-al-fuhul-dar-al-fikr p.252} {cite:irshad-al-fuhul-dar-al-fikr p.253} İkincisi, uzlaşma meselelerinin bilinmesidir; üçüncüsü Arapça'nın dilbilgisi, morfolojisi, anlamları ve açıklaması açısından ustalık sağlanana kadar bilgidir; dördüncüsü ise 'ictihadın direği' olarak adlandırdığı fıkıh ilkelerini bilmektir; beşincisi ise iptal eden ve kaldırılmış atıkları bilmektir. {cite:irshad-al-fuhul-dar-al-fikr p.253} {cite:irshad-al-fuhul-dar-al-fikr p.254} İlahiyat ve dal bilgisi gereklilikleri konusundaki anlaşmazlığı anlatır ve eleştiri ile doğrulamanın Sünnet bilgisi kapsamında olduğunu, benzetmenin ise fıkıh ilkelerine dahil olduğunu düşünür. {cite:irshad-al-fuhul-dar-al-fikr p.254}
+
+Bu durumda müjtahid, kesin kanıt bulunmayan pratik hukuki hükmü verir; bu nedenle beş günlük namaz, zekat ve Şeriat'ın açık hükümlerinde üzerinde anlaşılan oybirliği zorunluluğu hariç tutulur. {cite:irshad-al-fuhul-dar-al-fikr p.254} Çağın hukukçulardan arınmış olması meselesine gelince, bu dönemi savunanları çürütür ve daha sonraki alimler için ictihadın daha kolay olduğunu düşünür; [[question/can-an-age-be-without-a-mujtahid|bir dönemin müjtahiden arınmış]] olması caiz mi?. {cite:irshad-al-fuhul-dar-al-fikr p.255} {cite:irshad-al-fuhul-dar-al-fikr p.256}

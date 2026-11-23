@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "2101"
-label: { ar: "جامع الترمذي 2101 — ما خلّفه من تركة وميراث", en: "Jami' al-Tirmidhi 2101 — what was left behind: estate and inheritance", ur: "جامع ترمذی 2101 — ترکہ اور میراث", es: "Jami' al-Tirmidhi 2101 — lo que quedó: patrimonio y herencia", fr: "Jami' al-Tirmidhi 2101 — ce qui a été laissé derrière: patrimoine et héritage" }
+label: { ar: "جامع الترمذي 2101 — ما خلّفه من تركة وميراث", en: "Jami' al-Tirmidhi 2101 — what was left behind: estate and inheritance", ur: "جامع ترمذی 2101 — ترکہ اور میراث", es: "Jami' al-Tirmidhi 2101 — lo que quedó: patrimonio y herencia", fr: "Jami' al-Tirmidhi 2101 — ce qui a été laissé derrière: patrimoine et héritage", tr: "Cami' el-Tirmizi 2101 — Miras ve vasiyet olarak geride bıraktıkları", id: "Jami' al-Tirmidhi 2101 — Apa yang ditinggalkannya berupa warisan dan peninggalan" }
 text: "… ابْنِ شِهَابٍ، عَنْ عُثْمَانَ بْنِ إِسْحَاقَ بْنِ خَرَشَةَ، عَنْ قَبِيصَةَ بْنِ ذُؤَيْبٍ، قَالَ جَاءَتِ الْجَدَّةُ إِلَى أَبِي بَكْرٍ تَسْأَلُهُ مِيرَاثَهَا. قَالَ فَقَالَ لَهَا مَا لَكِ فِي كِتَابِ اللَّهِ شَيْءٌ وَمَا لَكِ فِي سُنَّةِ رَسُولِ اللَّهِ شَيْءٌ فَارْجِعِي حَتَّى أَسْأَلَ النَّاسَ. فَسَأَلَ النَّاسَ فَقَالَ الْمُغِيرَةُ بْنُ شُعْبَةَ حَضَرْتُ رَسُولَ اللَّهِ فَأَعْطَاهَا السُّدُسَ. فَقَالَ أَبُو بَكْرٍ هَلْ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 2101، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 2101، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe de Jami' al-Tirmidhi, n.º 2101 (Capítulos sobre la herencia), menciona lo que se dejó como legado: bienes y herencia. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 2101 (Chapitres sur l'héritage), mentionne ce qui a été laissé: les biens et l'héritage. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "Cami' el-Tirmizi'nin 2101 numaralı hadisinde, Peygamberin geride bıraktığı mal varlığı ve miras hakkında bilgi verilmektedir. Bu derleme, vasiyetnameler, miras, eski eserler ve türbeler konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birlikte hazırlanmıştır."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 2101, menyebutkan apa yang ditinggalkannya berupa harta warisan. Ini disusun oleh seorang peneliti yang ahli dalam wasiat, warisan, barang antik, dan makam suci, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2101 (book 29 hadith 12); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

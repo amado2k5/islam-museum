@@ -69,7 +69,7 @@ landing:
   - Open data and open text
   - Every claim sourced
   - All traditions, fairly
-  - Arabic and English first, more languages to come
+  - Seven languages live: Arabic, English, Urdu, French, Spanish, Turkish and Indonesian
   - Written for the curious stranger
   entrances: Five ways in
   learn_title: Tour / Learn, in the making
@@ -94,7 +94,7 @@ landing:
   widget_none: No entry in the museum is dated to this day yet.
   widget_fail: This browser could not do the conversion.
   widget_or: 'Or start with the most famous journey in the story:'
-  stats: '{items} entries · {pages} record pages, one for each entry in Arabic, English and Urdu · {pathways} pathways'
+  stats: '{items} entries · {pages} record pages, one for each entry in Arabic, English, Urdu, French, Spanish, Turkish and Indonesian · {pathways} pathways'
   honest: We show the gaps rather than hide them
   honest_link: see the coverage
   give_title: Donate and support us
@@ -2289,8 +2289,8 @@ method:
   lede: 'How this museum decides what enters it, how every entry is classified, and what it refuses — the rules its builders actually work under, stated plainly.'
   charter_title: 'The founder''s charter: the graph comes first'
   charter_body: 'The museum exists to build one knowledge graph of the whole Islamic umma, and this site — its wings, timelines, maps and explorers — is an application for displaying that graph, not the foundation. The raw material is the content of one to two thousand of the mother books of Islam, read page by page by artificial intelligence: is a person mentioned here, and who is he? Do we already have him from another book — then his record grows — or is he new? Where was he, who was he with, what did he say (his words kept exactly), what happened, in what context, under which theme? Only then do the classification rules apply, among them whether the person, the account or the book is Sunni or not. So far, barely one to one and a half percent of the first thousand books has been mined, and that alone yielded over 160,000 pages carrying people, places, events and exact quotations — progress is measured against the books, not against page counts. The AI images follow the same order: the model is told what the graph knows and asked to draw its imagining of it, so an image is the model''s reading of the graph, never a depiction of its subject, and it shows how far that reading stands from reality. The charter itself, in the founder''s words of 8 November 2026, opens the museum''s plan documents in its public repository. Its goal, in the founder''s words, is that Islam — everything it contains, its people, its events, its places — be available to everyone in a form the old and the young, Arab and non-Arab, Muslim and non-Muslim can read, and that anyone may reshape the graph in any form or application that suits their own people, above all schools, universities and study circles: the graph is the bridge to a knowledge that once took many books and a lifetime to reach, a revival of the religious sciences for this age and the future.'
-  goal_title: 'The goal, in three languages'
-  goal_body: 'The goal, in three languages — Its goal, in the founder''s words, is that Islam — everything it contains, its people, its events, its places — be available to everyone in a form the old and the young, Arab and non-Arab, Muslim and non-Muslim can read, and that anyone may reshape the graph in any form or application that suits their own people, above all schools, universities and study circles: the graph is the bridge to a knowledge that once took many books and a lifetime to reach, a revival of the religious sciences for this age and the future.'
+  goal_title: 'The goal, in seven languages'
+  goal_body: 'The goal, in seven languages — Its goal, in the founder''s words, is that Islam — everything it contains, its people, its events, its places — be available to everyone in a form the old and the young, Arab and non-Arab, Muslim and non-Muslim can read, and that anyone may reshape the graph in any form or application that suits their own people, above all schools, universities and study circles: the graph is the bridge to a knowledge that once took many books and a lifetime to reach, a revival of the religious sciences for this age and the future.'
   updated: 'These rules are gathered from the museum''s editorial policy, scope note, sources policy, publication standard and lane documents in its public repository. This page was added on 6 November 2026.'
   holds_title: What the museum holds
   holds_body: 'The museum is one knowledge graph of the Islamic world, from the world of 610 to today — including the modern era, 1976 to the present, which has its own browser. Its records fall into twenty-four classes: people, places, events, buildings, objects, works, passages, concepts, practices, groups, polities, periods, journeys, inventions, awards and the sources every claim is tied to, among others. They are shelved in nine wings: Time, Place, People, Ideas, Objects, Words, Living, Today and Made. The same museum serves a child in the children''s wing and a scholar checking a citation, and entries are written rich-first, with as much sourced detail as the sources allow. The live counts — and the gaps — are on the Coverage page; this page is about the rules, not the numbers.'
@@ -2374,7 +2374,7 @@ privacy:
   'affiliation_title': 'Affiliated with no one'
   'affiliation_body': 'The website and its owner are not affiliated with, sponsored by, managed by, owned by, or under the jurisdiction or control of any government or government organisation, any corporation or business, or any organisation of any type whatsoever.'
   'purpose_title': 'Educational purpose'
-  'purpose_body': 'The museum is offered for education, culture and general interest: it presents the history and heritage of Islam from published sources, in Arabic, English and Urdu. It is not a school, university or accredited course, and it awards no certificates or qualifications.'
+  'purpose_body': 'The museum is offered for education, culture and general interest: it presents the history and heritage of Islam from published sources, in Arabic, English, Urdu, French, Spanish, Turkish and Indonesian. It is not a school, university or accredited course, and it awards no certificates or qualifications.'
   'accuracy_title': 'Accuracy, and its limits'
   'accuracy_1': 'Every entry in the museum is tied to the sources cited on its page, the coverage page shows openly where the record is thin, and errors are corrected when they are found or reported. We work to check facts before publication and to say, on the page, where a claim rests on a single source or is debated.'
   'accuracy_2': 'Even so, no guarantee is given that every statement on the site is complete, current or free of error. History contains genuinely contested matters — dates, attributions and narratives differ between sources and traditions — and Hijri–Gregorian date conversions follow standard methods and are approximate for early periods. Treat every page as a sourced starting point, not as the last word.'
@@ -2420,7 +2420,7 @@ backstage:
   intro_1: 'islam.museum is made by one person — Ahmed Abdel Aal, in Oakville, Ontario, Canada — directing a fleet of AI coding agents, with Muse, Meta''s personal AI agent, as the orchestrator: the one that holds the project''s memory, writes the briefs, checks the results and handles the correspondence. There is no office, no staff and no runtime server: the museum is a knowledge graph kept in a public git repository and published as a static site.'
   intro_2a: 'As this page is written, the museum holds '
   intro_2b: ' entries generating '
-  intro_2c: ' pages in Arabic, English and Urdu, with '
+  intro_2c: ' pages in Arabic, English, Urdu, French, Spanish, Turkish and Indonesian, with '
   repo_stats: 'The open repository behind it has been built through {commits} commits and {pulls} merged pull requests. '
   intro_2d: ' guided pathways. {repo}The museum''s data is published under CC0 and its prose under CC BY-SA 4.0, everything is served through a public API, and a snapshot of the dataset is archived at Zenodo under a permanent identifier (DOI: 10.5281/zenodo.23692511) — so anyone can download the whole museum and check every number on this page.'
   repo_cta: The open repository on GitHub
@@ -2481,7 +2481,7 @@ accessibility:
   lede: 'The museum is for everyone. This statement explains how the site is built to be used by people who are blind or have low vision, who are Deaf or hard of hearing, who do not speak, and who use a keyboard or other assistive technology, and how to tell us when something does not work.'
   updated: 'Last updated: 25 October 2026'
   commit_title: 'Our commitment'
-  commit_body: 'Access to culture is a right of every person, including persons with disabilities (UN Convention on the Rights of Persons with Disabilities, articles 9 and 30). islam.museum is free, has no accounts and no paywall, and is built so that the same pages can be read with the eyes, by ear through a screen reader, and by touch on a refreshable braille display, in Arabic, English and Urdu. We welcome every visitor, of every ability, language and background.'
+  commit_body: 'Access to culture is a right of every person, including persons with disabilities (UN Convention on the Rights of Persons with Disabilities, articles 9 and 30). islam.museum is free, has no accounts and no paywall, and is built so that the same pages can be read with the eyes, by ear through a screen reader, and by touch on a refreshable braille display, in Arabic, English, Urdu, French, Spanish, Turkish and Indonesian. We welcome every visitor, of every ability, language and background.'
   status_title: 'Conformance status'
   status_1: 'The museum''s target is the Web Content Accessibility Guidelines (WCAG) 2.2, level AA, published by the World Wide Web Consortium (W3C) and adopted as the international standard ISO/IEC 40500. The site is partially conformant: most pages meet the target, and the known gaps are listed below with the work under way to close them.'
   status_2: 'This assessment is our own (a self-assessment), made with automated checks on every change and with manual testing. An independent audit is planned, and its report will be published on this page.'
@@ -2492,7 +2492,7 @@ accessibility:
   standards_4: 'European Union and United Kingdom: the European Accessibility Act (Directive 2019/882), the Web Accessibility Directive (2016/2102) and the harmonised standard EN 301 549; the UK Equality Act 2010. This statement follows the European Commission''s model accessibility statement.'
   blind_title: 'Blind and low-vision visitors, screen readers and braille'
   blind_1: 'Every page is real text in a clear structure: one main heading, headings in order, landmarks (header, navigation, main content, footer), a "Skip to content" link as the first item, and lists and tables marked up as such. Screen readers such as NVDA, JAWS, VoiceOver, TalkBack and Orca can read and navigate it.'
-  blind_2: 'Braille: the website does not draw braille itself. A screen reader sends the page text to a refreshable braille display, which shows it in braille. For this to work in three languages, every page declares its language and direction, so the screen reader and the braille display switch to Arabic braille, English braille (Unified English Braille) or Urdu braille.'
+  blind_2: 'Braille: the website does not draw braille itself. A screen reader sends the page text to a refreshable braille display, which shows it in braille. For this to work in seven languages, every page declares its language and direction, so the screen reader and the braille display switch to Arabic braille, English braille (Unified English Braille) or Urdu braille.'
   blind_3: 'Images carry a text alternative (alt text); decorative patterns and icons are hidden from screen readers so that they do not interrupt reading.'
   blind_4: 'Every page can be read with JavaScript turned off. Interactive features are added on top of the text and never hide it.'
   vision_title: 'Low vision, colour and reading comfort'
@@ -2500,7 +2500,7 @@ accessibility:
   vision_2: 'From the header you can switch between a light and a dark theme and between two typefaces, and the "Accessibility" menu lets you enlarge the text, widen the line spacing, raise the contrast, stop motion and underline every link. These choices are kept on your device only. The site also follows your device''s light or dark setting, high-contrast (forced colours) mode and reduced-motion setting.'
   deaf_title: 'Deaf and hard-of-hearing visitors'
   deaf_1: 'The museum is written, not spoken: nothing on the site is available only as sound. Where a children''s story offers narration, the full text of the story is printed on the same page above the player, and audio never plays by itself.'
-  deaf_2: 'Any audio or video added to the museum must come with captions or a full transcript in Arabic, English and Urdu.'
+  deaf_2: 'Any audio or video added to the museum must come with captions or a full transcript in Arabic, English, Urdu, French, Spanish, Turkish and Indonesian.'
   deaf_3: 'Sign-language versions of the welcome, the guide to the museum and this statement are planned, signed by Deaf signers in American Sign Language, Quebec Sign Language (LSQ), British Sign Language, International Sign, Arabic sign language and Pakistan Sign Language. They will be added to this page as they are made.'
   speech_title: 'Visitors who do not speak'
   speech_1: 'Nothing on the site needs your voice: there is no voice input, no microphone, no phone line and no spoken test. Every way to reach us is written (email or a form on GitHub).'
@@ -2540,7 +2540,7 @@ volunteer:
   development_title: "Development"
   development_body: "Help build and maintain the site itself: the open-source codebase, new features, fixes, performance, accessibility and testing — in the open, on GitHub, alongside the founder and the museum's tooling."
   review_title: "Reviewing content"
-  review_body: "Help check the museum's entries before and after they are published: facts, dates, sources and translations. Reviewers keep the museum honest — if you read carefully in Arabic, English or Urdu, this is the heart of the work."
+  review_body: "Help check the museum's entries before and after they are published: facts, dates, sources and translations. Reviewers keep the museum honest — if you read carefully in Arabic, English, Urdu, French, Spanish, Turkish or Indonesian, this is the heart of the work."
   planning_title: "Proposals"
   planning_body: "Suggest what the museum builds next: new wings and features, partnerships, programmes and priorities. Proposals are read and credited; final decisions rest with the founder, as the museum's charter provides."
   education_title: "Education"
@@ -2589,11 +2589,11 @@ why:
   diff_alive: "Alive, not a cabinet. A children's wing, interactive journeys, a timeline explorer, a 3D tour and Hijri calendar tools sit inside the same museum as its scholarship — a seven-year-old and a professor enter through the same door."
   diff_founder: "Built by one person, in the open. islam.museum was founded by Ahmed Abdel Aal, a Canadian of Egyptian origin, and is built with AI assistance at build time under strict sourcing rules — every fact tied to a published source before it ships. The method is not hidden; it is part of the difference, and the whole build happens in a public repository."
   built_title: "How it is built"
-  built_1: "The museum is a knowledge graph kept in plain files in a public repository: language-neutral facts in data files, with prose in Arabic, English and Urdu beside them. An entry is published when its claims cite defined sources and its provenance is recorded — that is the museum's whole publication standard, and it applies to the founder and to every contributor alike."
+  built_1: "The museum is a knowledge graph kept in plain files in a public repository: language-neutral facts in data files, with prose in Arabic, English, Urdu, French, Spanish, Turkish and Indonesian beside them. An entry is published when its claims cite defined sources and its provenance is recorded — that is the museum's whole publication standard, and it applies to the founder and to every contributor alike."
   built_2: "Nothing on the published site is generated when you visit: the pages are static, there is no account system and no tracking, and corrections are made in the open, where the change history is public. The museum's disclaimer explains what it is and is not; its volunteers review, translate and extend it; and its supporters keep it free for everyone else."
   built_repo: "The museum's repository on GitHub"
   forward_title: "Where it goes next"
-  forward_1: "The plan is to make the museum permanent and public infrastructure. The project intends to incorporate as a non-profit organisation in Ontario, Canada. Its dataset is deposited under a permanent identifier — the Zenodo DOI below — and its application to the Digital Public Goods Alliance has been submitted and is under review. More languages will join Arabic, English and Urdu, and partnerships with libraries, schools and museums will carry the museum into classrooms and reading rooms."
+  forward_1: "The plan is to make the museum permanent and public infrastructure. The project intends to incorporate as a non-profit organisation in Ontario, Canada. Its dataset is deposited under a permanent identifier — the Zenodo DOI below — and its application to the Digital Public Goods Alliance has been submitted and is under review. More languages will join Arabic, English, Urdu, French, Spanish, Turkish and Indonesian, and partnerships with libraries, schools and museums will carry the museum into classrooms and reading rooms."
   forward_2: "The build itself is a template: because the code and the data are open, another community can fork the same machinery to tell the story of its own heritage in the same way. And one commitment does not change with growth: the museum stays free — no paywall, no account wall, no advertising — for the next reader, whoever and wherever they are."
   forward_doi: "10.5281/zenodo.23692511"
   matters_title: "Why it matters"
@@ -2620,9 +2620,9 @@ developers:
   quickstart_title: 'Three ways in, from an afternoon to a platform'
   quickstart_intro: 'Choose the depth that suits your institution. Each level includes everything above it.'
   level1_title: 'Level 1 — Link it'
-  level1_body: 'Add the museum to your catalogue and e-resources list, and deep-link to any record: every page address is permanent, in Arabic, English and Urdu. The British Library''s Asian and African collections team is in touch with the museum about this step. Zero development work.'
+  level1_body: 'Add the museum to your catalogue and e-resources list, and deep-link to any record: every page address is permanent, in Arabic, English, Urdu, French, Spanish, Turkish and Indonesian. The British Library''s Asian and African collections team is in touch with the museum about this step. Zero development work.'
   level2_title: 'Level 2 — Embed it'
-  level2_body: 'Drop a living piece of the museum into your own pages with one snippet of HTML: a fact card and a guided trail of the week, in any of the three languages. The content updates on our side; your page simply frames it.'
+  level2_body: 'Drop a living piece of the museum into your own pages with one snippet of HTML: a fact card and a guided trail of the week, in any of the seven languages. The content updates on our side; your page simply frames it.'
   level3_title: 'Level 3 — Build on the data'
   level3_body: 'Download the graph itself — every record and every sourced connection as plain JSON files — and build your own search, exhibits, school resources or research tools on top. CC0 means the copy is yours outright; the living source keeps growing and correcting, and you can re-sync whenever you like.'
   endpoints_title: 'Endpoints'
@@ -2632,11 +2632,11 @@ developers:
   ep1: 'The API index: version, the 22 record classes, and the licences in machine-readable form.'
   ep2: 'Live totals: how many records exist, and how many per class.'
   ep3: 'Every record of one class in a single JSON array — for example all 10,884 people.'
-  ep4: 'One complete record: labels and summaries in three languages, its structured data, its sources, and its precomputed connections.'
+  ep4: 'One complete record: labels and summaries in seven languages, its structured data, its sources, and its precomputed connections.'
   ep0: "The front door: what this API holds, its files and folders, and where its OpenAPI description is."
   ep5: 'The whole graph''s records and stubs, one JSON object per line ({nodeLines} lines).'
   ep6: 'Every connection between records, one per line ({edgeLines}) — each carries the sources it rests on.'
-  ep7: 'Embeddable widgets for your own pages: a fact card and the trail of the week, in Arabic, English or Urdu.'
+  ep7: 'Embeddable widgets for your own pages: a fact card and the trail of the week, in Arabic, English, Urdu, French, Spanish, Turkish or Indonesian.'
   ep8: 'The archived dataset on Zenodo, with a permanent DOI for citation: 10.5281/zenodo.23692511.'
   examples_title: 'Example queries, with real results'
   examples_intro: 'Everything below was returned by the live API in November 2026, trimmed only for length.'
@@ -2657,8 +2657,8 @@ developers:
   col_meaning: 'Meaning'
   f_id: 'The record''s permanent identifier, class/slug.'
   f_class: 'One of the 24 classes: person, place, building, work, event, passage, source, invention, award…'
-  f_label: 'The record''s name in Arabic, English and Urdu, as available.'
-  f_summary: 'A short sourced summary in up to three languages.'
+  f_label: 'The record''s name in Arabic, English, Urdu, French, Spanish, Turkish and Indonesian, as available.'
+  f_summary: 'A short sourced summary in up to seven languages.'
   f_wings: 'Which of the museum''s nine wings the record belongs to (a record may sit in several).'
   f_regions: 'Geographic regions the record belongs to.'
   f_status: 'published, or draft (ingested, still being enriched). Stubs carry no status.'
@@ -2736,7 +2736,7 @@ support:
   title: Support the museum
   lede: This museum is free and open, with no ads and no tracking. If it is useful to you, your support keeps it that way and helps it grow faster.
   why_title: Why support us?
-  why_body: "Free for everyone — not free for the founder. islam.museum charges its visitors nothing: no accounts, no ads, no tracking, no paywall — and its costs are paid, month by month, by its founder. In a recent month running costs came to roughly CA$1,900. The largest share, roughly CA$900, was AI assistants — Claude, ChatGPT, Devin, Grok, Google AI and Muse, the personal agent that orchestrates the fleet's work — used to research, draft, translate and check entries against their cited sources. Video generation (Runway, Artlist and Veo) makes the museum's films; ElevenLabs narrates them in Arabic, English and Urdu; GitHub hosts the code. Cloudflare (about CA$90 a month) keeps {pages} record pages fast and safe, alongside hosting and storage, and domain registrations keep the museum's names its own. Even the top tiers — Claude Ultra, Devin Max — run out before the month does: in October and early November, overages and top-ups alone added roughly CA$730 on top of the subscriptions. The usage is metered, not guessed: Copilot Max used 18,525 of its 20,000 monthly AI credits in five days, Devin's weekly quota ran at 100% two weeks running, and Claude Ultra stood at 84% of its week with days still to go. These are monthly running costs, not annual figures. Every contribution goes directly to them — and buys nothing: no access, no goods, no say over content. And the museum itself is free to take: anyone can download its data (CC0) and code (MIT), run it locally, build on it as a template, or use its public API — free, for anyone."
+  why_body: "Free for everyone — not free for the founder. islam.museum charges its visitors nothing: no accounts, no ads, no tracking, no paywall — and its costs are paid, month by month, by its founder. In a recent month running costs came to roughly CA$1,900. The largest share, roughly CA$900, was AI assistants — Claude, ChatGPT, Devin, Grok, Google AI and Muse, the personal agent that orchestrates the fleet's work — used to research, draft, translate and check entries against their cited sources. Video generation (Runway, Artlist and Veo) makes the museum's films; ElevenLabs narrates them in Arabic, English, Urdu, French, Spanish, Turkish and Indonesian; GitHub hosts the code. Cloudflare (about CA$90 a month) keeps {pages} record pages fast and safe, alongside hosting and storage, and domain registrations keep the museum's names its own. Even the top tiers — Claude Ultra, Devin Max — run out before the month does: in October and early November, overages and top-ups alone added roughly CA$730 on top of the subscriptions. The usage is metered, not guessed: Copilot Max used 18,525 of its 20,000 monthly AI credits in five days, Devin's weekly quota ran at 100% two weeks running, and Claude Ultra stood at 84% of its week with days still to go. These are monthly running costs, not annual figures. Every contribution goes directly to them — and buys nothing: no access, no goods, no say over content. And the museum itself is free to take: anyone can download its data (CC0) and code (MIT), run it locally, build on it as a template, or use its public API — free, for anyone."
   ways_title: Ways to support
   patreon_title: Join on Patreon
   patreon_body: An optional monthly membership that helps keep this work going and lets you follow its progress.

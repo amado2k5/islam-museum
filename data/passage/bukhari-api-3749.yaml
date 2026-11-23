@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "3749"
-label: { ar: "صحيح البخاري 3749 — تربية الأب ووصيته", en: "Sahih al-Bukhari 3749 — the father raising and counselling", ur: "صحیح بخاری 3749 — باپ کی تربیت اور نصیحت", es: "Sahih al-Bukhari 3749 — El padre que cría y aconseja", fr: "Sahih al-Bukhari 3749 — l'éducation et les conseils du père" }
+label: { ar: "صحيح البخاري 3749 — تربية الأب ووصيته", en: "Sahih al-Bukhari 3749 — the father raising and counselling", ur: "صحیح بخاری 3749 — باپ کی تربیت اور نصیحت", es: "Sahih al-Bukhari 3749 — El padre que cría y aconseja", fr: "Sahih al-Bukhari 3749 — l'éducation et les conseils du père", tr: "Sahih el-Buhari 3749 — Babanın Terbiyesi ve Vasiyeti", id: "Sahih al-Bukhari 3749 — Didikan dan Wasiat Ayah" }
 text: "حَدَّثَنَا حَجَّاجُ بْنُ الْمِنْهَالِ، حَدَّثَنَا شُعْبَةُ، قَالَ أَخْبَرَنِي عَدِيٌّ، قَالَ سَمِعْتُ الْبَرَاءَ ـ قَالَ رَأَيْتُ النَّبِيَّ وَالْحَسَنُ عَلَى عَاتِقِهِ يَقُولُ \" اللَّهُمَّ إِنِّي أُحِبُّهُ فَأَحِبَّهُ \"."
 summary:
   ar: "حديث في صحيح البخاري، رقم 3749، يذكر تربية الأب ووصيته. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 3749، جس میں باپ کی تربیت اور نصیحت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 3749 (Compañeros del Profeta), menciona la crianza y el consejo paternos. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el papel del padre."
   fr: "Un hadith du Sahih al-Bukhari, n° 3749 (Compagnons du Prophète), mentionne le rôle du père dans l'éducation et le soutien des enfants. Le site « Paternité en Islam » le répertorie avec les versets du Coran, la Sunna, la Sîra et les ouvrages traitant de la figure paternelle."
+  tr: "Sahih el-Buhari'de 3749 numaralı hadis, babanın yetiştirilmesi ve öğütlerinden bahseder. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derler."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 3749, menyebutkan tentang didikan dan nasihat seorang ayah. Situs web \"Kebapakan dalam Islam\" mengumpulkan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3749 (book 62 hadith 94); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

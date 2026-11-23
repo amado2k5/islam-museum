@@ -1,0 +1,28 @@
+---
+id: person/anwar-ibrahim
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/anwar-ibrahim.md}
+---
+## Abstrak
+Anwar Ibrahim (lahir 1947) adalah seorang politikus Malaysia yang menjabat sebagai Perdana Menteri kesepuluh negaranya sejak 24 November 2022. Ia adalah seorang pemimpin Islam mahasiswa dan pemuda yang berpartisipasi dalam pendirian Gerakan Pemuda Islam Malaysia (APIEM), kemudian bergabung dengan Partai Amno pada tahun 1982 dan naik pangkat di bidang Pendidikan dan Keuangan hingga menjadi Wakil Perdana Menteri pada tahun 1993. Ia diberhentikan dan dipenjara pada tahun 1998, dibebaskan pada tahun 2004 setelah Pengadilan Federal membatalkan vonis sodominya, dipenjara lagi pada tahun 2015, menerima pengampunan kerajaan pada tahun 2018, dan kemudian menjadi Perdana Menteri setelah pemilihan tahun 2022 memimpin koalisi 'Piagam Harapan'. {cite:wikipedia-anwar-ibrahim-ar} {cite:wikidata-anwar-ibrahim}
+
+## Kehidupan Awal dan Pendidikan
+Anwar bin Ibrahim lahir pada 10 Agustus 1947 di Cherok Tuk Kun, Phuket Murtagam, di Koloni Tajong Penang; ia sendiri menyatakan pada tahun 2023 bahwa ia lahir di Sungai Bakap, Sipirang Perai, dan kedua posisi tersebut tercantum dalam catatan tersebut. Ayahnya, Ibrahim bin Abdul Rahman, sedang hamil di rumah sakit, saat itu menjadi wakil keamanan dan sekretaris parlemen Kementerian Kesehatan, dan ibunya, Che Yan bint Hussein, adalah aktivis di sayap perempuan partai. Anwar belajar di Sekolah Menengah Phuket Mirtagam dan Malawi College di Kuala Kangsar, serta meraih gelar Studi Malawi dari Universitas Malaya. {cite:wikipedia-anwar-ibrahim-en} {cite:wikipedia-anwar-ibrahim-ar}
+
+## Aktivitas dan keterlibatan dalam pemerintahan
+Di universitas, Anwar memimpin Persatuan Nasional Mahasiswa Muslim Malaysia dan merupakan salah satu pendiri serta pemimpin awal gerakan Apam. Pada tahun 1974, ia ditangkap tanpa persidangan berdasarkan Undang-Undang Keamanan Dalam Negeri dan menghabiskan dua puluh bulan di Kaomanteng, kemudian mewakili kawasan Asia-Pasifik dalam Persatuan Pemuda Muslim Dunia (1975–1982), dan pada tahun 1981 berpartisipasi dalam pendirian World Institute of Islamic Thought di Amerika Serikat. Pada tahun 1982, ia bergabung dengan Amno di bawah kepemimpinan Mahathir Mohamad dan terpilih sebagai deputi untuk Permatang Bau. {cite:wikipedia-anwar-ibrahim-en}
+
+## Menteri Keuangan dan Wakil Perdana Menteri
+Anwar masuk pemerintahan pada tahun 1982 dan mengambil alih kebudayaan, pemuda, dan olahraga (1983), pertanian (1984), kemudian pendidikan (1986), kemudian mengembalikan bahasa nasional menjadi 'Bahasa Malayao' dan terpilih sebagai presiden Konferensi Umum UNESCO. Sejak 1991, ia menjabat sebagai Menteri Keuangan, mendapat pengakuan internasional dan dipilih oleh majalah Asiamoni sebagai Menteri Keuangan pada tahun 1996. Selama krisis keuangan Asia 1997, ia menerapkan penghematan, menolak menyelamatkan perusahaan, dan mendukung pendekatan IMF yang bertentangan dengan naluri Mahathir. Ia menjadi Wakil Perdana Menteri pada tahun 1993 dan menjabat sebagai Perdana Menteri sementara selama liburan Mahathir pada tahun 1997, namun pandangan mereka tentang tata kelola berbeda. {cite:wikipedia-anwar-ibrahim-en} {cite:wikipedia-anwar-ibrahim-ar}
+
+## Kejatuhan, Reformasi, dan Penahanan
+Pada 2 September 1998, Mahathir Anwar diberhentikan dari pemerintahan, dikeluarkan dari kantor keamanannya keesokan harinya, dan ditangkap pada 20 September berdasarkan Undang-Undang Keamanan Dalam Negeri. Inspektur Jenderal Polisi memukulinya selama penahanan dan muncul di pengadilan dengan mata bengkak. Pada April 1999, ia dijatuhi hukuman enam tahun penjara karena korupsi dan kemudian sembilan tahun karena sodomi, dan Amnesty International menyatakan dirinya sebagai tahanan hati nurani. Pemecatannya dipicu oleh gerakan Reformis dan partai yang kemudian menjadi Partai Keadilan Rakyat. Pada 2 September 2004, Pengadilan Federal membatalkan vonis sodomi dan membebaskannya. {cite:wikipedia-anwar-ibrahim-en}
+
+## Oposisi, amnesti, dan Kantor Perdana Menteri
+Anwar memimpin oposisi sejak 2008, menyatukan partai-partainya dalam koalisi yang memecah mayoritas dua pertiga partai penguasa. Persidangan sodomi kedua berakhir dengan dia dipenjara lima tahun pada 2015; dia masih dipenjara ketika 'Piagam Harapan,' yang bersekutu dengan Mahathir, memenangkan pemilihan 2018, memberinya pengampunan penuh beberapa hari kemudian. Setelah runtuhnya koalisi itu pada 2020, dia kembali sebagai pemimpin oposisi hingga pemilihan November 2022 yang akan datang, ketika raja mengangkatnya sebagai Perdana Menteri pemerintahan persatuan dan mempertahankan Kementerian Keuangan untuk dirinya sendiri. Selama masa jasinya, dia mendorong reformasi subsidi dan hukuman mati, dan sebagai ketua ASEAN pada 2025, dia membantu memediasi gencatan senjata antara Thailand dan Kamboja. Putrinya hanya tercantum dalam teks, karena tidak ada catatan tentang ayahnya dalam kumpulan ini; tidak ada sumber yang dibaca dalam catatan ini yang menyebutkan Anwar Ibrahim sebagai aliran keagamaan—aktivitas Islamnya yang panjang adalah sejarah organisasi, bukan kesaksian sekolah—jadi catatan ini tidak mencatat doktrinnya. {cite:wikipedia-anwar-ibrahim-en} {cite:wikidata-anwar-ibrahim}
+
+## Sumber
+- Entitas dari sumber yang disebutkan di atas, terdaftar pada `data/source/`.
+- Ulasan artikel ini harus diberi tanggal dan disebutkan sumber yang mengubah setiap insiden.

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "16"
-label: { ar: "جامع الترمذي 16 — الأب والأبوة", en: "Jami' al-Tirmidhi 16 — the father and fatherhood", ur: "جامع ترمذی 16 — باپ اور والدیت", es: "Jami' al-Tirmidhi 16 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 16 — le père et la paternité" }
+label: { ar: "جامع الترمذي 16 — الأب والأبوة", en: "Jami' al-Tirmidhi 16 — the father and fatherhood", ur: "جامع ترمذی 16 — باپ اور والدیت", es: "Jami' al-Tirmidhi 16 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 16 — le père et la paternité", tr: "Cami' el-Tirmizi 16 — Baba ve Babalık", id: "Jami' al-Tirmidhi 16 — Sang Ayah dan Peran Ayah" }
 text: "… بِرَجِيعٍ أَوْ بِعَظْمٍ. قَالَ أَبُو عِيسَى وَفِي الْبَابِ عَنْ عَائِشَةَ وَخُزَيْمَةَ بْنِ ثَابِتٍ وَجَابِرٍ وَخَلاَّدِ بْنِ السَّائِبِ عَنْ أَبِيهِ. قَالَ أَبُو عِيسَى وَحَدِيثُ سَلْمَانَ فِي هَذَا الْبَابِ حَدِيثٌ حَسَنٌ صَحِيحٌ. وَهُوَ قَوْلُ أَكْثَرِ أَهْلِ الْعِلْمِ مِنْ أَصْحَابِ النَّبِيِّ وَمَنْ بَعْدَهُمْ رَأَوْا أَنَّ الاِسْتِنْجَاءَ بِالْحِجَارَةِ يُجْزِئُ وَإِنْ لَمْ يَسْتَنْجِ بِالْمَاءِ إِذَا أَنْقَى أَثَرَ الْغَائِطِ وَالْبَوْلِ وَبِهِ …"
 summary:
   ar: "حديث في جامع الترمذي، رقم 16، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 16، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Jami' al-Tirmidhi, n.º 16 (El Libro de la Purificación), menciona al padre y la paternidad. El navegador \"La Paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 16 (Le Livre de la Purification), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Cami' el-Tirmizi'nin 16. hadisinde baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan metinlerle birleştirir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 16, menyebutkan tentang ayah dan peran ayah. Fitur \"Peran Ayah dalam Islam\" menggabungkan hadits ini dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 16 (book 1 hadith 16); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

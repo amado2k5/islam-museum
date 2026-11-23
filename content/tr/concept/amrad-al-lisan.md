@@ -1,0 +1,15 @@
+---
+id: concept/amrad-al-lisan
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/amrad-al-lisan.md}
+---
+## Zararlı Çeşitleri
+Dilde hareketinde lezyona neden olan hastalıklar etkisiz hale gelebilir, zayıflayabilir veya değiştirilebilir; dokunma ve tat duyusunda lezyona neden olan hastalıklar ise etkisiz hale getirebilir, zayıflatabilir veya değiştirebilir. Bir hasta, dokunmadan tat alma gibi bir başkasına karşı duyusunu kaybedebilir; çünkü hastalık lezyonu en zayıf kuvvetle yerine koyabiliyor. Hastalık, kemikten kaynaklanan kötü bir mizaç veya mekanik bir durum, küçük boyut, deforme bir şekil ya da genişlemeyen ya da büzülmeyen bir yer olabilir; ya da tümör {cite:canon-ibn-sina-print-v2 p.253} gibi karmaşık bir hastalık olabilir () {cite:canon-ibn-sina-print-v2 p.254}.
+## Katılım ve Kanıt Kaynakları
+Lezyon kişiye özgü olabilir ya da beyni ilgilendirebilir. Böyle durumlarda, çoğu durumda yanaklar ve dudaklar etkilenir, belki de diğer tüm duyular da etkilenir. Mide ağrısı ve bazen akciğer ile göğüs ağrıları yaşayabilirler. Duygu durum kalıpları, beyaz, sarı, kırmızı ve siyah renklerden, dokunmadan ve yarı asidiklik, tatlılık, donukluk, acılık veya koku nedeniyle oluşan çirkinlik gibi baskın tattan çıkarılabilir. Rengi ve tadından diğer organlara da yayılabilir. Kızarıklığı, özellikle pürüzlülük, baş çevresindeki kan tümörlerini gösterebilir ve tadı çoğunlukla tüm vücut veya midede {cite:canon-ibn-sina-print-v2 p.254} oluşan humorları gösterir.
+## İki taraflı kurulukluk
+Nemi ve kurulukluğundan çıkarılabilir. Kuruluk, iki şekilde hissedilir: biri dilin yüzeyinin berraklığıyla, ki bu gerçek kuruluktur, diğeri ise özünde soğuk algınlığından ya da kalın, kalın buharlardan biriken yapışkan bir nem akıntısıyla hissedilir. Bu, doktorların bir hastada ağız kuruluğu olduğunu tespit edip önceki darbe ile önceki darbeyi ayırt edemediklerinde yanlışlıkla yaptıkları bir şeydir. Pürüzlülük kuruluktan sonra, pürüzsüzlük ise nemden sonra gelir {cite:canon-ibn-sina-print-v2 p.254}
+## Hareket ve sinirden çıkarım
+Dil, konuşma sırasında hareketinden, atrofi ve hafifliğinden, kaba olmasından da sürekli seğirip hareketinin ağırlaşmasına ve kan veya nemin doluluğunu gösteren şekilde anlaşılabilir. Ayrıca içinde oluşan tümörler ve su toplamasından da anlaşılabilir. Dil yalnızken zarar görebilir veya beyin ya da mide devreye girdiğinde ağrı hissedebilir. Dil siniri birden fazla sinire bağlı olduğundan, bu sinirlerin hareket sırasında ona uygun olması ve engellememesi gerekmez; bu da onu sağlıklı konuşma gibi yapar, ya da onu tıkayıp kolayca uyum sağlayamaması (mırıldanma ve benzeri durumlar) vardır. Afaziden kaynaklanan uğultu, sinirin başka bir siirden güç alması nedeniyle tıkanmasına neden olabilir ve sonunda döner {cite:canon-ibn-sina-print-v2 p.254} {cite:canon-ibn-sina-print-v2 p.255}

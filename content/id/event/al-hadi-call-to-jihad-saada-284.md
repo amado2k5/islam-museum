@@ -1,0 +1,18 @@
+---
+id: event/al-hadi-call-to-jihad-saada-284
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/al-hadi-call-to-jihad-saada-284.md}
+---
+## Ringkasan
+Ali ibn Muhammad menceritakan dari ayahnya [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Muhammad ibn Ubayd Allah]] bahwa [[person/al-hadi-yahya-al-rassi|al-Hadi]] tinggal di [[place/saada|Sa'dah]] di Safar, dan pada bulan-bulan Rabi' dan Jumada, orang-orang dari Yaman akan menulis surat kepadanya setiap saat. Setibanya di kota itu, ia menulis surat undangan kepada seluruh rakyat Yaman yang mendesak mereka untuk berjuang bersamanya {cite:sira-hadi-ila-al-haqq p.48}. Buku ini bersifat Zaydi, dan seruannya disampaikan sesuai dengan narator. Halaman tersebut tidak secara eksplisit menyebutkan tahun, yaitu 284 H dalam konteks akses.
+
+## Teks Undangan
+Narator mengatakan bahwa al-Hadi biasa memanggil orang untuk berjihad, mendesak mereka, dan mendorong mereka untuk melakukannya. Seruannya adalah: "Wahai umat manusia, aku mengundang kalian pada apa yang Allah perintahkan untuk aku panggil kalian, kepada Kitab Allah, Sunnah Rasul-Nya, dan untuk memerintahkan kebaikan serta melarang kejahatan." Jadi ikutilah apa yang dibawa oleh Kitab itu, dan hindari apa yang dilarang, dan agar dia dan umat memerintahkan yang benar, lakukanlah, melarang kejahatan, dan tinggalkan {cite:sira-hadi-ila-al-haqq p.48}. Lihat [[concept/dawa]], [[concept/jihad]], dan [[concept/amr-bil-maruf]].
+
+## Enam Kondisi
+Pembimbing menetapkan empat syarat untuk dirinya sendiri: menilai berdasarkan Kitab Allah dan Sunnah Nabi-Nya; memilih mereka daripada dirinya sendiri dalam apa yang Allah tempatkan antara dia dan mereka, sehingga dia tidak menguntungkan mereka; memberikannya di hadapan-Nya; dan menjadi lebih maju dari mereka sendiri saat menghadapi musuh dan musuh {cite:sira-hadi-ila-al-haqq p.48}. Dia menetapkan dua syarat untuk dirinya: nasihat tulus kepada Allah dan kepada-Nya secara pribadi maupun di depan umum; dan taatan pada perintah-Nya dalam segala keadaan selama Allah ditaati. Jika dia tidak taat kepada Allah, maka tidak ada ketaatan kepada mereka; dan jika dia menyimpang atau menyimpang dari Kitab Allah dan Sunnah Rasul-Nya, dia tidak memiliki wewenang atas mereka {cite:sira-hadi-ila-al-haqq p.48} {cite:sira-hadi-ila-al-haqq p.49}. Dia mengutip ayat dari Surah Yusuf [[passage/quran-12-108|dalam Al-Qur'an 12:108]] {cite:sira-hadi-ila-al-haqq p.49}. Lihat [[concept/bayah]].
+
+## Kata-katanya dalam pertemuan rakyat
+Narator menceritakan bahwa suatu hari ia mendengar Muhammad bersama sekelompok orang mengatakan bahwa panggilan mereka adalah 'misalnya, misalnya.' Muhammad memanggil Kitab Allah dan Sunnah serta panggilan mereka, lalu ia bertanya: Apa yang mencegah orang kaya berdiri bersama mereka jika mereka mengambil apa yang menjadi haknya, dan apa yang mencegah orang miskin jika mereka tidak memonopoli kekayaan tanpa mereka? Ia berkata bahwa tidak ada yang menghalangi mereka kecuali apa yang mencegah mereka di hadapan mereka berdiri bersama Rasulullah dan Ali ibn Abi Talib {cite:sira-hadi-ila-al-haqq p.49}. Ini berasal dari kata-kata Imam seperti yang diceritakan oleh naratornya, dan perbandingan dengan Nabi berasal dari ucapannya, bukan dari putusan ensiklopedia. Di pinggir edisi, versi lain bertuliskan 'pemilik kekayaan' bukan 'orang kaya' dan menambahkan sebutan orang kaya {cite:sira-hadi-ila-al-haqq p.49}.

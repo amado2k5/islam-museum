@@ -1,0 +1,18 @@
+---
+id: concept/qanun-tadbir-al-ramad
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/qanun-tadbir-al-ramad.md}
+---
+## Genel Yönetim
+Fiziksel konjonktivit ve diğer tüm fiziksel göz hastalıklarının yönetiminde yaygın hukuk, yiyecekleri azaltmak ve seyreltmek, takdire şayan bir karışım üreten ürünleri seçmek, tüm tütsü ocaklarından kaçınmak, tüm hazımsızlıklardan kaçınmak, hareketten kaçınmak, başı yağlamak ve içmek, asit, tuz ve acı maddelerden kaçınmak, yumuşaklığı ve flebitomu korumak (yeri katlanılmazdır) tüm türlerde geçerli olduğu için geçerlidir {cite:canon-ibn-sina-print-v2 p.170}
+
+## Görme, ev, uyku ve şiir
+Göz doktorunun gözü beyazlık veya ışınlara düşmemeli; bunun yerine yayılan ve sarılan siyah ve yeşil olmalı, göze görünen yüze siyah bir bez asılmalıdır. Hasta olduğunda siyah, sağlıklıyken asmanjuni giyilmelidir. Saçın bulunduğu ev karanlık olmalı ve uyku getirməlidir, çünkü iyi bir ilaçtır. Saç, baştan saç telleri bırakılmamalıdır, çünkü nemi kurutarak besin çeker. Vücut temiz ise ve konjonktivitin etkili karışımı damarlar ve kanda oluşuyorsa (içeceğin içeriği ve detayları kabul edilmez), kusma sonrası banyo, özellikle bandaj ağrıyı hafifletiyorsa {cite:canon-ibn-sina-print-v2 p.170} en iyi tedavi yöntemidir.
+
+## Taşıma yöntemi, kusma ve erken flebitoma
+Madde bir organdan atılırsa, o organdan atılmalı ve karşı tarafa herhangi bir yöntemle (arteri tıkayarak, askıya almak, diş ipi kullanmak, kupa kullanmak ve yerlerini yerleştirmek—bunların tümü izin verilmeyen işlemlerdir) yapılmalıdır. Eğer hastalık devam ederse (devam ederse), belirtilen işlemler geçerli değildir. Eğer ilke iç tıkanıklık ise, tedavi şiddetli kusma için başı güçlendiren bandajlar kullanılır (isimlerinde bu tür bandajlar yoktur). Gözdeki kitlelerin uzun süre bırakılması uygun değildir; aksine, tüm yumruklar dökülüp yenilenmelidir Yumurta akı dahil bir süre olmalı ve yenilenmesi gerekmez; bunun yerine, zarar vermeyen, süt karışımı olan bir saat bekletilmelidir. Gözenekleri yalamadan veya tıkamadan yumuşatma ve düzleştirme ile birleştirilmelidir. Genel olarak, özellikle göz sağlığı için kullanılan ilaçlar pürüzlülük veya kamar, asit veya frenk soğanı gibi tat taşımamalı ve pürüzlülüğü gidermek için iyi öğütülmelidir. Öksürük ve gargara göze çekilmediğinde kullanılmalı ve molozların göze zarar vermemesi için nazikçe arıtılması dikkat edilmelidir {cite:canon-ibn-sina-print-v2 p.171} {cite:canon-ibn-sina-print-v2 p.172}
+
+## Konjonktivit sıkılaştırıcı, tıraş gecikmesi ve kondansatörlerden kaçınma
+Konjonktivit şiddetliyse, bayılma önlenene kadar durdurulmalıdır; çünkü o anda çok miktarda kan verilmesi iyileşir. Fitillerin kullanımı mümkün olduğunca üç gün geciktirilmeli, kusma ve maddenin uçlara çekilmesi ile belirtilen durum ve koşullar sınırlandırılmalıdır. Doğal yumuşaklık açısından gereklidir; aslında flebitomdan sonra kanın kontrolünü ele geçiren kanın ishali gereklidir. Arıtmadan önce bandajlama ya da banyo yapmanın faydası yoktur, çünkü bu neden olabilir Göz katmanlarını keserek büyük miktarda maddeyi çekmek için başlangıçta güçlü ve sert büzülenler kullanılmamalıdır; çünkü bunlar tabakayı kalınlaştırır, bozulmayı önler ve ağrıyı artırır. Zayıf tutuş da başlangıçta maddeyi önlemez ve görünür tabakanın yoğuşmasına zarar verir. Bunlardan herhangi biri olursa, her zaman sıcak suda ıslatılmalıdır. Çözücüler için ise başlangıçta kesinlikle kaçının {cite:canon-ibn-sina-print-v2 p.172} {cite:canon-ibn-sina-print-v2 p.172}.

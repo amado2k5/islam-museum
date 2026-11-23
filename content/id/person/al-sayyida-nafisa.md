@@ -1,0 +1,15 @@
+---
+id: person/al-sayyida-nafisa
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/al-sayyida-nafisa.md}
+---
+## Ringkasan
+Nafisa, putri Abu Muhammad al-Hasan ibn Zayd ibn al-Hasan ibn Ali ibn Abi Talib, yang dikenal sebagai Lady Nafisa, adalah salah satu wanita yang benar dan saleh di Ahl al-Bayt; ia tinggal di Mesir di kampung halamannya di Darb al-Siba'a antara Kairo dan Mesir. {cite:wafayat-ayan}
+
+## Alshafie bersamanya dan menguburkannya
+Diceritakan bahwa ketika Imam al-Shafi'i memasuki Mesir, ia datang dan mendengar hadits tentang Isha. Ketika ia meninggal, pemakamannya dibawa ke sana dan ia berdoa untuknya di rumahnya. Suami kepercayaannya, Ishaq ibn Ja'far al-Sadiq, memutuskan untuk membawanya ke Madinah untuk dimakamkan. Orang Mesir meminta Imam agar ia diizinkan tinggal, dan ia dimakamkan di Mesir. Makamnya dikenal karena doa yang dijawab saat dikunjungi. {cite:wafayat-ayan}
+
+## Dalam program Al-Shaarawi "Pertemuan Iman"
+Dalam episode keenam The [[work/likaa-al-iman|Encounter of Faith]], Al-Shaarawi [[person/muhammad-mutawalli-al-shaarawi|bertanya]]: Mengapa Lady Nafisa dijuluki 'Nafisa Al-Uloom'? {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:00:00} Pengetahuan dibagi menjadi dua jenis: ilmu kosmik yang melayani kepentingan ciptaan dalam perkembangan bumi, dan pengetahuan surgawi yang dikenal sebagai sah dan tidak sah. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:00:30} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:01:30} Ia mengatakan pengetahuan itu telah mencapai jiwa dua ilmu, pengetahuan tentang apa yang sah dan tidak sah, karena inti kosmologi adalah bahwa seseorang harus bahagia dalam kehidupan jangka pendek, sedangkan pengetahuan tentang apa yang sah mengarah pada kehidupan abadi di mana kebahagiaan tidak dirindukan. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:08:30} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:09:00} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:09:30} Secara linguistik, ia menghubungkan jiwa, jiwa, dan napas, mengatakan bahwa seseorang bisa sabar dengan makanan selama sebulan dan minum selama sepuluh hari, dan tidak bisa sabar dengan udara dengan menghirup atau menghembuskan napas. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:09:30} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:10:00} Ia percaya bahwa seberapa pun seseorang menikmati dunia ini, ada dua hal yang mengancamnya: mati dan merindukan kebahagiaan, atau merindukan kebahagiaan saat hidup. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:10:30} Ia menggambarkan apa yang diceritakan tentang mukjizat-mukjizat itu sebagai pengalaman pribadi. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep06 00:11:30}

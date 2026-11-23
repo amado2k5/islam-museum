@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "2578"
-label: { ar: "جامع الترمذي 2578 — الأب والأبوة", en: "Jami' al-Tirmidhi 2578 — the father and fatherhood", ur: "جامع ترمذی 2578 — باپ اور والدیت", es: "Jami' al-Tirmidhi 2578 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 2578 — le père et la paternité" }
+label: { ar: "جامع الترمذي 2578 — الأب والأبوة", en: "Jami' al-Tirmidhi 2578 — the father and fatherhood", ur: "جامع ترمذی 2578 — باپ اور والدیت", es: "Jami' al-Tirmidhi 2578 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 2578 — le père et la paternité", tr: "Cami' el-Tirmizi 2578 — Baba ve Babalık", id: "Jami' al-Tirmidhi 2578 — Ayah dan Peran Ayah" }
 text: "… مُحَمَّدُ بْنُ عَمَّارٍ، حَدَّثَنِي جَدِّي، مُحَمَّدُ بْنُ عَمَّارٍ وَصَالِحٌ مَوْلَى التَّوْأَمَةِ عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ \" ضِرْسُ الْكَافِرِ يَوْمَ الْقِيَامَةِ مِثْلُ أُحُدٍ وَفَخِذُهُ مِثْلُ الْبَيْضَاءِ وَمَقْعَدُهُ مِنَ النَّارِ مَسِيرَةَ ثَلاَثٍ مِثْلُ الرَّبَذَةِ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ. \" وَمِثْلُ الرَّبَذَةِ \" كَمَا بَيْنَ الْمَدِينَةِ وَالرَّبَذَةِ. وَالْبَيْضَاءُ جَبَلٌ مِثْلُ أُحُدٍ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 2578، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 2578، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 2578 (El Libro sobre la Descripción del Fuego del Infierno), menciona al padre y la paternidad. El Navegador de la Paternidad en el Islam lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 2578 (Livre de la description de l'Enfer), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Cami' el-Tirmizi'de yer alan 2578 numaralı hadiste baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı bu hadisi Kur'an, Sünnet, biyografi ve konuyla ilgili diğer kitaplardan metinlerle birleştirir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 2578, menyebutkan tentang ayah dan peran ayah. Fitur \"Peran Ayah dalam Islam\" menggabungkan hadits ini dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang subjek tersebut."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2578 (book 39 hadith 6); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

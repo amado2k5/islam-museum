@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "4405"
-label: { ar: "صحيح البخاري 4405 — وصية أو عهد أخير", en: "Sahih al-Bukhari 4405 — a testament or parting counsel", ur: "صحیح بخاری 4405 — وصیت یا آخری نصیحت", es: "Sahih al-Bukhari 4405 — un testamento o consejo de despedida", fr: "Sahih al-Bukhari 4405 — un testament ou un conseil d'adieu" }
+label: { ar: "صحيح البخاري 4405 — وصية أو عهد أخير", en: "Sahih al-Bukhari 4405 — a testament or parting counsel", ur: "صحیح بخاری 4405 — وصیت یا آخری نصیحت", es: "Sahih al-Bukhari 4405 — un testamento o consejo de despedida", fr: "Sahih al-Bukhari 4405 — un testament ou un conseil d'adieu", tr: "Sahih el-Buhari 4405 — Son bir vasiyet veya antlaşma", id: "Sahih al-Bukhari 4405 — Sebuah wasiat atau perjanjian terakhir" }
 text: "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، حَدَّثَنَا شُعْبَةُ، عَنْ عَلِيِّ بْنِ مُدْرِكٍ، عَنْ أَبِي زُرْعَةَ بْنِ عَمْرِو بْنِ جَرِيرٍ، عَنْ جَرِيرٍ، أَنَّ النَّبِيَّ قَالَ فِي حَجَّةِ الْوَدَاعِ لِجَرِيرٍ \" اسْتَنْصِتِ النَّاسَ \" فَقَالَ \" لاَ تَرْجِعُوا بَعْدِي كُفَّارًا، يَضْرِبُ بَعْضُكُمْ رِقَابَ بَعْضٍ \"."
 summary:
   ar: "حديث في صحيح البخاري، رقم 4405، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 4405، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 4405 (Expediciones militares dirigidas por el Profeta (Al-Maghaazi)), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un récit du Sahih al-Bukhari, n° 4405 (Expéditions militaires menées par le Prophète (Al-Maghaazi)), mentionne un testament ou des dernières volontés. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "Sahih el-Buhari'de 4405 numaralı hadis, vasiyet veya son miras hakkında bilgi vermektedir. Bu hadis, vasiyetler, miras, kutsal emanetler ve türbeler konusunda uzmanlaşmış araştırmacılar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 4405, menyebutkan tentang wasiat atau surat wasiat terakhir. Hadits ini disusun oleh para peneliti yang ahli dalam wasiat, warisan, relik, dan makam suci, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4405 (book 64 hadith 427); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

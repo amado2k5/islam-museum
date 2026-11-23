@@ -1,0 +1,24 @@
+---
+id: person/sheikh-jamaludin-osman
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/sheikh-jamaludin-osman.md}
+---
+## Ringkasan
+Sheikh Jamal al-Din Osman Haji adalah seorang penceramah Kenya dan Imam Masjid Agung (Masjid Jamia) di Nairobi sejak Mei 2024. {cite:eastleigh-voice-jamaludin-imam-2024} {cite:jamaludinosman-website} Lahir pada 20 Juli 1986, ia tumbuh dan belajar di Mombasa. Ia meraih gelar Sarjana Hadis dari Universitas Islam Madinah pada tahun 2014 setelah meraih diploma dalam Studi Arab. {cite:eastleigh-voice-jamaludin-imam-2024} dan akun Instagram utamanya (@sheikhjamaludinosman), yang mencapai 150.000 pengikut menurut pembacaan Wave 196 Harvest dari data publikasi pada 8 November 2026 — angka yang sudah usang berdasarkan pembacaan panen tersebut, bukan langsung dari penulis ini, karena tidak ada pembacaan ulang langsung dari struktur ini yang memberikan angka bertanggal alternatif. {cite:instagram-sheikhjamaludinosman}
+
+## Platform dan Karya
+Situs resminya menampilkan pemiliknya sebagai seorang pengkhotbah, imam, dan guru. Disebutkan bahwa ia belajar di Universitas Islam di Madinah dan meraih gelar sarjana Hadis. Saat ini, ia adalah imam Masjid Agung di Nairobi, mendedikasikan hidupnya untuk pendidikan Islam, kepemimpinan komunitas, dan dakwah. {cite:jamaludinosman-website} Situs ini mempublikasikan khotbah, kuliah, dan tulisannya secara daring. Akun Instagram-nya adalah saluran yang diukur oleh Hussad Al-Mujah, sementara akun X-nya (@JamaludinSheikh) berisi Al-Hasad dengan 62.000 pengikut. Ia berada di bawah batas sekolah ini, dan tidak ada sumber yang terdaftar untuknya di sini. {cite:instagram-sheikhjamaludinosman} Ia melakukan tur khotbah ke Kenya atas nama masjid, termasuk tur ke Kenya tengah antara 7 dan 10 Mei 2026, yang mencakup Niyire, Miro, Mpu, dan Sagana, yang dibuka di Niyire dengan kuliah untuk perempuan dan khotbah Jumat di Masjid Quba. {cite:sahifa-jamaludin-central-kenya-tour-2026}
+
+## Masa Kanak-kanak Dini, Pendidikan, dan Jalan Menuju Imasi
+Ia memulai pendidikannya di St. Augustine Preparatory School di Mombasa dan menyelesaikan sertifikat pendidikan dasar Kenya pada tahun 2000. Ia termasuk siswa pertama Abu Huraira Academy di Mombasa, menyelesaikan pendidikan menengah pada tahun 2004, dan kemudian menghafal Al-Quran bersama pembaca Hussein di Bayt Al-Mal, Eastleigh antara tahun 2005 dan 2006. {cite:eastleigh-voice-jamaludin-imam-2024} Pada tahun 2007, ia pergi ke Universitas Islam di Madinah, di mana ia meraih diploma Studi Arab dan kemudian gelar Sarjana Hadis pada tahun 2014. Setelah kembali, ia bekerja sebagai kepala sekolah Noor Center School di Mombasa pada tahun 2015 dan sebagai supervisor di RAF International University, cabang Mombasa, pada tahun 2018–2019. {cite:eastleigh-voice-jamaludin-imam-2024} Pada Oktober 2019, ia menjadi wakil imam Masjid Agung Nairobi, kemudian diangkat sebagai imam pada Mei 2024, menggantikan almarhum Imam Muhammad Swalihu. {cite:eastleigh-voice-jamaludin-imam-2024}
+
+## Dampak dan Audiens
+Akun Instagram Sheikh Jamal al-Din Othman mencapai 150.000 pengikut yang membaca "Panen Gelombang" pada 8 November 2026, yang merupakan bacaan yang menjadi dasar rekaman ini, disertai dengan shalat utama di masjid-masjid paling terkenal di Kenya dan tur khotbah yang terdokumentasi di pers Kenya hingga Mei 2026. {cite:instagram-sheikhjamaludinosman} {cite:sahifa-jamaludin-central-kenya-tour-2026} Catatan ini sengaja akurat: tidak ada artikel Wikipedia dalam bahasa atau elemen Wikidata apa pun yang ditemukan untuk meneliti struktur ini, dan tidak ada sumber yang membuktikannya sebagai aliran atau metode yurisprudensi — kesaksian hadits dari Madinah adalah formasi ilmiah, bukan aliran sekte — sehingga nilai aliran pemikirannya tetap tidak diketahui dan tidak ada yang tercatat untuknya. {cite:jamaludinosman-website} {cite:eastleigh-voice-jamaludin-imam-2024}
+
+## Referensi
+- Akun Instagram-nya (@sheikhjamaludinosman), nomor dari pembacaan gelombang 196 data publikasinya tertanggal 11 Juli 2026, dan 4 September 2026, tanggal 8 November 2026; upaya pembacaan ulang langsung tidak memberikan nomor pengganti. {cite:instagram-sheikhjamaludinosman}
+- Situs resmi (jamaludinosman.com), dibaca secara lengkap pada 8 November 2026. {cite:jamaludinosman-website}
+- Surat kabar Eastleigh Voice, "Pengangkatan Sheikh Jamal al-Din Osman Haji sebagai Imam Masjid Agung di Nairobi," 8 Mei 2024, dibaca secara lengkap pada 8 November 2026. {cite:eastleigh-voice-jamaludin-imam-2024}
+- Yahya Mahinda, "Kenya Tengah Menunggu Tur Kuliah Sheikh Jamal al-Din," surat kabar Media, dibacakan lengkap pada 8 November 2026. {cite:sahifa-jamaludin-central-kenya-tour-2026}

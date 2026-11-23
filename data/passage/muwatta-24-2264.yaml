@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani, person/abdullah-ibn-umar]
 work: work/muwatta-malik
 ref: "2264"
-label: { ar: "الموطأ 2264 — نافع عن ابن عمر: عتق ولد الزنا وأمه", en: "Muwatta 2264", es: "Muwatta 2264", fr: "Muwatta 2264", ur: "موطا 2264" }
+label: { ar: "الموطأ 2264 — نافع عن ابن عمر: عتق ولد الزنا وأمه", en: "Muwatta 2264", es: "Muwatta 2264", fr: "Muwatta 2264", ur: "موطا 2264", tr: "El-Muvatta 2264 — İbn Ömer'den rivayet edildiğine göre Nafi': Zina sonucu doğan çocuk ve annesi azat edilir.", id: "Al-Muwatta 2264 — Diriwayatkan oleh Nafi’ dari Ibnu Umar: Anak hasil zina dan ibunya dibebaskan" }
 summary:
   ar: "يروي مالك عن نافع عن عبد الله بن عمر أنه أعتق ولد زنا وأمه. {cite:muwatta-maruf-1997 p.333} {cite:muwatta-maruf-1997 p.334}"
+  tr: "Malik, Nafi'nin, Abdullah ibn Umar'dan rivayet ettiğine göre, nikahsız doğmuş bir çocuğu ve annesini azat ettiğini nakletmiştir. {cite:muwatta-maruf-1997 s.333} {cite:muwatta-maruf-1997 s.334}"
+  id: "Malik meriwayatkan dari Nafi’ dari Abdullah ibn Umar bahwa ia membebaskan seorang anak yang lahir di luar nikah dan ibunya. {cite:muwatta-maruf-1997 p.333} {cite:muwatta-maruf-1997 p.334}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-24-itq }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

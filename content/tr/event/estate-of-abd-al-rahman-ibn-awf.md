@@ -1,0 +1,31 @@
+---
+id: event/estate-of-abd-al-rahman-ibn-awf
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/event/estate-of-abd-al-rahman-ibn-awf.md}
+---
+## Özet
+[[person/abd-al-rahman-ibn-awf|Abdulrahman bin Awf]], Peygamber'in cennette tanıklık ettiği on kişiden biriydi ve sahabeler arasında en zenginlerden biriydi. Bu kart, ölümünden sonra vasiyetleri, geride bıraktığı servet, eşlerinin paylarının nasıl bölüştüğü, ardından Osman Usman'ın cenaze namazı ve El-Baki'deki defniyle ilgili biyografiler ve tarihsel kitaplar tarafından aktarılan bilgileri toplar. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 163}
+
+## Bağlam
+El-Dahabbi der ki, Medine'ye göç ettiğinde fakir ve hiçbir şeyi yoktu. Peygamber, kendisi ile Said ibn Rabi arasında bir kardeşlik kurdu ve servetini paylaşıp en iyi eşiyle evlenmeyi teklif etti. Ona dedi ki: Allah aileni ve servetini korusun, ama beni pazara götür, böylece gitti, sattı, aldı ve kazanç sağladı. {cite:siyar-alam-nubala scan vol. 2 p. 147} El-Dahabi, İbn Abdülbar'dan ticarette yetenekli olduğunu rivayet eder. {cite:siyar-alam-nubala scan vol. 2 p. 147} Talhah ibn Abdullah ibn Avf, Medine halkının Abd al-Rahman'a bağımlı olduğunu rivayet eder: üçte birini onlara parasını ödünç verdi, üçte birini borçlarını ödemek için, üçte birini borcunu ödemek için. {cite:siyar-alam-nubala scan vol. 2 p. 145}
+
+## Son hastalığı
+El-Dahabi, İbrahim bin Abdurrahman'dan Al-Zuhri'den hastalığı sırasında bayıldığını, öldüğünü sandıklarını ve ona saygı gösterdiklerini, bunun üzerine Tekbir dediğini ve Ehl-Beyt'in Tekbir dediğini anlatır. Dedi ki: Benimle birlikte sert ve kaba iki adam geldi. Dediler ki: Seni Yüce ve Güvenilir Olan'a yargılayacağız. Bir adamla karşılaştılar ve dediler: Geri dön, çünkü o, Allah'ın annelerinin rahmindeyken mutluluk ve bağışlama verdiği kişilerden biridir ve çocukları Allah'ın istediği sürece onunla keyif alacaklar. Rivayetçi, bundan sonra bir ay yaşadığını ekler. {cite:siyar-alam-nubala scan vol. 2 p. 146} El-Dahabi, İbn Lahi'ah aracılığıyla Osman'ın döküntü geçirdiğini belirtir, bu yüzden Humran, Abdülrahman'a kendisinden sonra Abdülrahman'a bir yemin yazmasını emretti. Bunu duyunca, mezar ile kürsü arasında durup dua etti: Ey Allah, eğer Osman beni bu konuda görevlendirdiyse, o zaman ondan önce öldür. Allah onu alana kadar sadece altı ay kaldı. {cite:siyar-alam-nubala scan vol. 2 p. 145}
+
+## Emirler
+El-Dahabi, Urve'den İbn Lahi'ah'tan rivayet eder ki, Abdurrahman Allah uğruna elli bin dinar miras bırakmış ve adamın bundan bin dinar almıştır. {cite:siyar-alam-nubala scan vol. 2 p. 146} Ve el-Zuhri'den Badrilere vasiyet ettiği ve yüz dinar bulduklarını anlatır; böylece her birine dört yüz dinar verilmiştir ve Osman da aralarındaydı ve dinar almıştır. {cite:siyar-alam-nubala scan vol. 2 p. 146} Ve el-Züri'den bir zincirle Zuhri, Allah uğruna bin at bağışladı. {cite:siyar-alam-nubala scan vol. 2 p. 146} İbn Kathir, her bir müminlerin annesine büyük bir miktar miras bıraktığını anlatır; öyle ki Aişe şöyle derdi: Allah ona su zincirinden su verdi ve Memlükler arasından bir kişiyi özgür bıraktı. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 163} El-Dahabi, Cafer bin Barkan'dan otuz bin evi özgürleştirdiğini duyduğunu anlatır. {cite:siyar-alam-nubala scan vol. 2 p. 147} Ali öldüğü gün şöyle dedi: Git, ey Awf oğlu, çünkü sen onun huzuruna ulaştın ve şişkinliğinden önce geldin, ve o şişme sıkıntıdır. {cite:siyar-alam-nubala scan vol. 2 p. 146}
+
+## Geride bıraktıkları ve kadın sınıfları
+İbn Kethir, tüm bunlardan sonra büyük miktarda para bıraktığını söyler; baltalarla kesilmiş altın, elleri silinene kadar, bin deve, yüz at ve üç bin koyun Al-Baqi'de otlamış, eşleri ise dört kişiydi. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 164} El-Dahabi aynı rakamları İbn Abdülbarr'dan alıntılar ve onun Al-Jurf'ta yirmi olgun hayvan üzerinde yetiştirdiğini ekler. {cite:siyar-alam-nubala scan vol. 2 p. 147} Kadınların payları üzerinde: Muhammed'den Ayyub'dan seçkinlerin tarifini anlatır; aralarından bir kadının fiyatından otuz bin dolara çıkarıldığını anlatır. {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 130} İbn Kethir, birinin fiyatın dörtte birini seksen bin için ödediğini söyler. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 164} El-Dhahabi, Anas'tan her bir eşinin ölümünden sonra yüz bin, İbn Sirin'den ise üç yüz yirmi bin kişinin bölündüğünü anlatır. {cite:siyar-alam-nubala scan vol. 2 p. 147}
+
+## Dövme, Dua ve Defin
+İbn Kethir, öldüğünde Osman ibn Affan'ın onun için dua ettiğini, Sa'd bin Ebi Vakkas'ın cenazesinde taşındığını ve yetmiş beş yaşında Al-Baqi'de gömüldüğünü söyler. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 164} El-Dahabi, babasından Sa'd ibn İbrahim'e Abd al-Rahman'ın cenazesinde yatağın başında olduğunu ve 'Onu yatırın' dediğini anlatır. {cite:siyar-alam-nubala scan vol. 2 p. 146} Al-Mada'ini, onun Al-Baqi'de gömüldüğünü söyler. {cite:siyar-alam-nubala scan vol. 2 p. 147} Ve yıkanırken okunan kitaplardan bahsedilmez.
+
+## Anlatılar ve Farklılıkları
+El-Medeyni, El-Heytem bin Ali ve bir grup onun ölümünü otuz iki yıla tarihler ve Ya'qub bin el-Muğira onun yetmiş beş yıl yaşadığını belirtir. {cite:siyar-alam-nubala scan vol. 2 p. 147} Elit tanımında otuz iki yılda, yetmiş iki yaşında öldüğü belirtilir ve yetmiş beş olarak denir. {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 130} Kadının payının elit niteliğinde otuz bin ile başlangıç ve sonunda seksen bin arasında değişir; bunlar kader açısından iki farklı anlatıdır ve burada uzlaştırmazlar. Badris'in vasiyeti ise, el-Dhahabi ve İbn Kathir tarafından her biri dört yüz dinar olarak anlatılır ve İbn Kathir Osman ile Ali'nin bunu aldığını, Ali'nin de söz verdiğini ekler. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 163}
+
+## Kaynaklar ve Dokümantasyon
+Al-Dhahabi'nin Siyar A'lam al-Nubala', İbn Kathir'in al-Bidaya wa al-Nihaya ve İbn al-Jawzi'nin Sifat al-Safwa'sına dayandı. Sayfa numaraları, okunabilir metinde olduğu gibi anketin sayfalarıdır. Anketteki İbn Sa'd'ın Tabaqat metni mevcut olmadığından, anlattığı paylaşımların detayları burada yer almamaktadır.

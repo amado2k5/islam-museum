@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1764"
-label: { ar: "جامع الترمذي — حديث 1764", en: "Jami' al-Tirmidhi 1764 — The Book on Clothing", ur: "جامع ترمذی — حدیث 1764", es: "Jami' al-Tirmidhi 1764 — El libro sobre la vestimenta", fr: "Jami' al-Tirmidhi 1764 — Le Livre sur les vêtements" }
+label: { ar: "جامع الترمذي — حديث 1764", en: "Jami' al-Tirmidhi 1764 — The Book on Clothing", ur: "جامع ترمذی — حدیث 1764", es: "Jami' al-Tirmidhi 1764 — El libro sobre la vestimenta", fr: "Jami' al-Tirmidhi 1764 — Le Livre sur les vêtements", tr: "Cami' el-Tirmizi - Hadis 1764", id: "Jami' al-Tirmidzi - Hadits 1764" }
 text: "حَدَّثَنَا عَلِيُّ بْنُ حُجْرٍ، أَخْبَرَنَا الْفَضْلُ بْنُ مُوسَى، عَنْ عَبْدِ الْمُؤْمِنِ بْنِ خَالِدٍ، عَنْ عَبْدِ اللَّهِ بْنِ بُرَيْدَةَ، عَنْ أُمِّ سَلَمَةَ، قَالَتْ كَانَ أَحَبَّ الثِّيَابِ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم الْقَمِيصُ ‏.‏"
 summary:
   ar: "في جامع الترمذي؛ ذكر ديوان أو بريد المراسلات."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی میں؛ دیوآن یا بریڈ کا ذکر."
   es: "En Jami' al-Tirmidhi; mención de la cancillería o del puesto de barid."
   fr: "Dans Jami' al-Tirmidhi; mention de la chancellerie ou du poste de barid."
+  tr: "Cami'ül-Tirmizi'de Divan veya postane zikredilmiştir."
+  id: "Dalam Jami’ al-Tirmidhi, Diwan atau kantor pos disebutkan."
 relations:
   - { type: part_of, target: passage/tirmidhi-kitab-24 }
   - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }

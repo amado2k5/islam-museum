@@ -1,0 +1,13 @@
+---
+id: passage/muwatta-15-1612
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/passage/muwatta-15-1612.md}
+---
+
+## Ringkasan
+Malik menceritakan dari Hisham ibn Urwah dari ayahnya bahwa ia berkata tentang seorang pria yang memiliki empat istri hanya dengan satu kata, dan bahwa ia hanya berhutang satu penebusan. {cite:muwatta-maruf-1997 p.68}
+
+## Lokasinya di museum
+Buku ini termasuk dalam [[passage/muwatta-kitab-15-talaq|Muwatta, Kitab Perceraian]]. Sumbernya [[work/muwatta-malik|adalah Al-Muwatta]]. Buku ini menyebutkan [[person/hisham-ibn-urwa|Hisham ibn Urwa]] dan [[person/urwa-ibn-al-zubayr|Urwah ibn al-Zubayr]]. Buku ini juga dibangun di atasnya dalam bab-bab [[concept/zihar|Zihar]].

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "4688"
-label: { ar: "صحيح مسلم 4688 — اليتيم وفقد الأب", en: "Sahih Muslim 4688 — the orphan and the father lost", ur: "صحیح مسلم 4688 — یتیم اور باپ کی موت", es: "Sahih Muslim 4688 — El huérfano y el padre perdido", fr: "Sahih Muslim 4688 — L'orphelin et le père perdus" }
+label: { ar: "صحيح مسلم 4688 — اليتيم وفقد الأب", en: "Sahih Muslim 4688 — the orphan and the father lost", ur: "صحیح مسلم 4688 — یتیم اور باپ کی موت", es: "Sahih Muslim 4688 — El huérfano y el padre perdido", fr: "Sahih Muslim 4688 — L'orphelin et le père perdus", tr: "Sahih Muslim 4688 — Yetim ve Babayı Kaybetme", id: "Sahih Muslim 4688 — Anak Yatim dan Kehilangan Ayah" }
 text: "… اللَّهُ مَنْ هُمْ وَإِنَّا كُنَّا نَرَى أَنَّ قَرَابَةَ رَسُولِ اللَّهِ هُمْ نَحْنُ فَأَبَى ذَلِكَ عَلَيْنَا قَوْمُنَا وَسَأَلْتَ عَنِ الْيَتِيمِ مَتَى يَنْقَضِي يُتْمُهُ وَإِنَّهُ إِذَا بَلَغَ النِّكَاحَ وَأُونِسَ مِنْهُ رُشْدٌ وَدُفِعَ إِلَيْهِ مَالُهُ فَقَدِ انْقَضَى يُتْمُهُ وَسَأَلْتَ هَلْ كَانَ رَسُولُ اللَّهِ يَقْتُلُ مِنْ صِبْيَانِ الْمُشْرِكِينَ أَحَدًا فَإِنَّ رَسُولَ اللَّهِ لَمْ يَكُنْ يَقْتُلُ مِنْهُمْ أَحَدًا وَأَنْتَ فَلاَ …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 4688، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 4688، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 4688 (El Libro de la Yihad y las Expediciones), menciona al huérfano y al padre desaparecido. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre la figura paterna."
   fr: "Un hadith du Sahih Muslim, n° 4688 (Livre du Jihad et des Expéditions), mentionne l'orphelin et le père disparu. Le site « Paternité en Islam » répertorie ce hadith avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la figure paternelle."
+  tr: "Sahih Müslim'de 4688 numaralı hadis, yetimlerden ve babasızlık durumundan bahseder. \"İslam'da Babalık\" bölümü, bu hadisi Kur'an, Sünnet, Peygamberin biyografisi ve bu konuyla ilgili diğer kitaplardan alıntılarla birlikte derlemektedir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 4688, menyebutkan tentang anak yatim dan kehilangan seorang ayah. Bagian \"Kebapakan dalam Islam\" mengumpulkan hadits ini bersama dengan teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/yatim-fiqh, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4688 (book 32 hadith 170); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

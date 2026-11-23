@@ -1,13 +1,15 @@
 id: event/siege-of-delhi-1857
 class: event
 kind: siege
-label: { ar: "حصار دلهي ⁦(١٨٥٧)⁩", en: "Siege of Delhi", es: "El asedio de Delhi", fr: "Siège de Delhi", ur: "دہلی کا محاصرہ" }
+label: { ar: "حصار دلهي ⁦(١٨٥٧)⁩", en: "Siege of Delhi", es: "El asedio de Delhi", fr: "Siège de Delhi", ur: "دہلی کا محاصرہ", tr: "Delhi Kuşatması (1857)", id: "Pengepungan Delhi (1857)" }
 summary:
   ar: "في ثورة 1857م سيطر الثوار على دلهي وأعلنوا بهادر شاه ظفر سلطاناً، فحاصر الإنجليز المدينة شهوراً ثم اقتحموها، وكان ذلك آخر عهد دلهي بالحكم المغولي {cite:tarikh-islam-hasan-ibrahim}."
   en: "In the 1857 rising the rebels held Delhi and proclaimed Bahadur Shah Zafar emperor; the British besieged the city for months, then stormed it — the end of Mughal rule in Delhi {cite:tarikh-islam-hasan-ibrahim}."
   ur: "1857ء کی بغاوت میں باغیوں نے دہلی پر قبضہ کیا اور بہادر شاہ ظفر کو بادشاہ قرار دیا؛ انگریزوں نے مہینوں محاصرے کے بعد شہر پر قبضہ کیا — دہلی میں مغل راج کا خاتمہ {cite:tarikh-islam-hasan-ibrahim}."
   es: "En el levantamiento de 1857, los rebeldes tomaron Delhi y proclamaron emperador a Bahadur Shah Zafar; los británicos sitiaron la ciudad durante meses y luego la asaltaron, poniendo fin al dominio mogol en Delhi {cite:tarikh-islam-hasan-ibrahim}."
   fr: "Lors du soulèvement de 1857, les rebelles ont tenu Delhi et ont proclamé Bahadur Shah Zafar empereur; les Britanniques ont assiégé la ville pendant des mois, puis l'ont prise d'assaut — la fin du règne moghol à Delhi {cite:tarikh-islam-hasan-ibrahim}."
+  tr: "1857 devriminde isyancılar Delhi'yi ele geçirdi ve Bahadur Şah Zafar'ı Sultan ilan etti. İngilizler şehri aylarca kuşattıktan sonra ele geçirdi ve böylece Delhi'nin Babür yönetimi sona erdi."
+  id: "Dalam revolusi tahun 1857, para pemberontak merebut Delhi dan menyatakan Bahadur Shah Zafar sebagai Sultan. Inggris mengepung kota itu selama berbulan-bulan dan kemudian menyerbunya, dan itulah akhir dari pemerintahan Mughal di Delhi."
 relations:
   - { type: occurred_at, target: place/delhi, sources: [source/tarikh-islam-hasan-ibrahim] }
   - { type: had_participant, target: person/bahadur-shah-zafar, role: "السلطان الاسمي", sources: [source/tarikh-islam-hasan-ibrahim] }

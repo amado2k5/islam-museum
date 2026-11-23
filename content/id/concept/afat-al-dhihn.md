@@ -1,0 +1,13 @@
+---
+id: concept/afat-al-dhihn
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/afat-al-dhihn.md}
+---
+
+## Tiga Wajah
+Jenis bahaya yang terjadi pada fungsi otak disebabkan oleh dua alasan dan dikenali dari tiga aspek. Jika indera seseorang sehat, dan ia membayangkan hantu sesuatu saat terjaga dan tidur, maka hal-hal dan keadaan yang ia lihat saat terjaga atau tidur adalah hal-hal yang seharusnya ia ungkapkan dan telah hilang, dan jika ia mendengar atau melihatnya, mereka tidak lagi memilikinya, maka itu adalah wabah dalam ingatan dan di belakang otak {cite:canon-ibn-sina-print-v2 p.96}. Jika tidak ada penderitaan dalam hal ini, tetapi ia mengatakan apa yang tidak boleh diucapkan, memuji apa yang tidak seharusnya dipuji, berharap pada apa yang tidak boleh diharapkan, dan meminta apa Seseorang tidak boleh mencari, melakukan sesuatu yang tidak seharusnya dilakukan, dan berhati-hati terhadap apa yang tidak boleh diperingatkan, dan tidak dapat menceritakan apa yang diceritakan di dalamnya. Penyakit itu ada di pikiran dan bagian tengah otak {cite:canon-ibn-sina-print-v2 p.96}. Jika ingatan dan ucapannya tetap seperti semula, dan tidak terjadi apa pun dalam apa yang mereka lakukan atau katakan bertentangan dengan pendekatan yang benar, dan jika mereka membayangkan hal-hal nyata untuk mereka, mengambil kutu, melihat orang palsu dan air serta air mereka, atau jika mereka memiliki imajinasi yang lemah karena hantu sesuatu saat tidur dan terjaga, penyakit itu terletak pada imajinasi dan perut di depan otak {cite:canon-ibn-sina-print-v2 p.96}
+
+## Komposisi dan arahan
+Jika dua atau tiga dari ini digabungkan, luka berada di dua atau tiga perut {cite:canon-ibn-sina-print-v2 p.96}. Bagi pikiran untuk sakit dan gagal karena berbagi lesi pada pria yang mendahuluinya lebih mudah daripada pikiran sakit lalu diikuti oleh penyakit pria. Frasa ini diartikan seperti yang dicetak, dan mengandung kata 'pikiran' di kedua bagian dan tidak dijelaskan sebagai {cite:canon-ibn-sina-print-v2 p.96}. Yang cenderung berkurang berasal dari dingin, dan yang cenderung menimbulkan kebingungan dan ketidakteraturan adalah karena panas {cite:canon-ibn-sina-print-v2 p.96}. Beberapa orang mengklaim bahwa kemungkinan besar berkurang karena kekurangan pada inti otak, yang tidak mustahil; semua ini disebabkan oleh cedera otak internal atau organ lain, atau bisa juga eksternal seperti benturan atau jatuh {cite:canon-ibn-sina-print-v2 p.96}.

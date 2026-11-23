@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2465"
-label: { ar: "الموطأ 2465 — مالك: الحر والعبد يقتلان العبد عمدا", en: "Muwatta 2465", es: "Muwatta 2465", fr: "Muwatta 2465", ur: "موطا 2465" }
+label: { ar: "الموطأ 2465 — مالك: الحر والعبد يقتلان العبد عمدا", en: "Muwatta 2465", es: "Muwatta 2465", fr: "Muwatta 2465", ur: "موطا 2465", tr: "El-Muvatta 2465 — Malik: Özgür bir adam ve bir köle, kasten bir köleyi öldürebilir.", id: "Al-Muwatta 2465 — Malik: Orang merdeka dan seorang budak boleh dengan sengaja membunuh seorang budak." }
 summary:
   ar: "قال مالك: وكذلك الحر والعبد يقتلان العبد عمدا: فيُقتل العبد، ويكون على الحر نصف قيمة العبد. {cite:muwatta-maruf-1997 p.419}"
+  tr: "Malik şöyle dedi: Benzer şekilde, eğer özgür bir adam ve bir köle kasten bir köleyi öldürürse, köle öldürülmüş sayılır ve özgür adam kölenin değerinin yarısını ödemek zorundadır. {cite:muwatta-maruf-1997 s.419}"
+  id: "Malik berkata: Demikian pula, jika seorang pria merdeka dan seorang budak dengan sengaja membunuh seorang budak, budak itu terbunuh, dan pria merdeka itu harus membayar setengah dari nilai budak tersebut. {cite:muwatta-maruf-1997 p.419}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

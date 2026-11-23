@@ -1,0 +1,13 @@
+---
+id: work/mosque-architecture-under-firuzshah-tughlaq
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/work/mosque-architecture-under-firuzshah-tughlaq.md}
+---
+## Ikhtisar
+"Arsitektur Masjid di Era Firuz Shah Ditutup" adalah tesis magister filsafat yang disampaikan oleh Sima Khan pada tahun 2011 di Pusat Studi Lanjutan di Departemen Sejarah Universitas Islam Alikara, dibimbing oleh Dr. Gulfshan Khan. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 title page} Tesis ini beralih dari perkembangan arsitektur masjid di Timur ke arsitektur masjid selama era Kesultanan, kemudian mengkaji teknik konstruksi, bahan, dan dekorasi di masjid-masjid Firoz Shah, dan mendedikasikan bab empat untuk mendeskripsikan masjid satu per satu. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 contents}
+
+## Apa maksudmu?
+Penulis menggabungkan novel-novel Shams Siraj Afif dalam 'The History of Firoz Shahi' dan deskripsi Syed Ahmed Khan, Zafar Hassan, Carr Stephen, Percy Brown, dan R. Nath dan Abha Rani, menambahkan apa yang ia lihat dalam survei lapangannya terhadap situs-situs tersebut. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 59} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 85} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 92} Ia mencatat bahwa masjid-masjid pada era ini dibangun dengan karet, semen, dan plester karena kelangkaan pekerja batu terampil setelah ibu kota dipindahkan ke Daulatabad dan keterbatasan keuangan, serta fitur tetapnya adalah dinding miring dan menara kerucut di sudut-sudutnya, serta menara kecil meruncing di gerbang dan kubah kecil di atas alun-alun arcade. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 81} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 84} Dikaitkan dengan Wazir Khan Jahan Maqbool al-Telgani bahwa Muscat masjid dengan empat halaman di Masjid Hitam dan Masjid Kharki dikaitkan dengan wudhu dari sinar matahari dan hujan, dengan catatan bahwa hal ini belum pernah diulang oleh Firuz Shah. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 53} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 54} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 73} Kesimpulan ini dapat dibandingkan dengan konstruksinya yang luas dengan kaisar Mughal Shah Jahan. {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 96}

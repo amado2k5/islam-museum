@@ -1,0 +1,9 @@
+---
+id: concept/rukn-fiqh
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/rukn-fiqh.md}
+---
+## Özet
+Dilde sütun daha güçlü yön ve büyük emirdir; terminolojide, sadece onun aracılığıyla var olan, özün bir parçası olan şeydir. Bu, ismin dışında olan durumdan ve zorunlu ile zorunlu olandan ayırt edilir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8955} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8956} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8957} Hukukçular Hac ve Umre sütunlarını ayırır: bir sütunu terk eden tamamlanmamış olur, bir yükümlülüğü ihmal eden ise kanla telafi edilir. Aynı durum Hanafi ve Hanefilere göre namaz için de geçerlidir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8957} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8958} Abdest, kuru abdest, namaz, oruç, ikifif ve Hac sütunları okullar arasında farklılık gösterir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8958} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8959} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8960} Sözleşmelerde çoğunluk, her sözleşmenin üç sütunu olduğuna inanır: biçim, sözleşmeli ve üzerine sözleşme yapılan. Hanefi mezhebi, sütununun sadece biçim olduğunu ve sütunu ihmal etmenin geçersizliğe yol açtığını savunur. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8960} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8961} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8962} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8963} Kara Taş ve Yemen Köşesi'nin kabul edilmesi ve kalabalık sırasında işaretle selamlanması tavsiye edilir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8963} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8964} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8965} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8966}

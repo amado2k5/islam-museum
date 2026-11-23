@@ -7,6 +7,8 @@ label:
   es: "La batalla de Badr"
   fr: "La bataille de Badr"
   ur: "بدر کی جنگ"
+  tr: "Badr el-Kubra"
+  id: "Badr al-Kubra"
 summary:
   ar: 'مسار في أول معارك الإسلام: الشورى قبل القتال، والمبارزة والوقعة، والأسرى وعاقبة الفرقان — يوم بدر
     بالتفصيل.'
@@ -14,6 +16,8 @@ summary:
   es: "Un recorrido por la primera gran batalla."
   fr: "Un sentier à travers la première grande bataille."
   ur: "پہلی عظیم جنگ کے ذریعے ایک پگڈنڈی."
+  tr: "İslam tarihinin ilk savaşlarına bir yolculuk: savaş öncesi istişare, düello ve savaş, esirler ve Kriter Günü'nün sonucu - Bedir Günü'nün ayrıntılarıyla."
+  id: "Menelusuri pertempuran-pertempuran pertama Islam: musyawarah sebelum berperang, duel dan pertempuran, tawanan dan hasil dari Kriteria — peristiwa Badar secara detail."
 audience:
 - newcomer
 - student
@@ -28,12 +32,16 @@ rooms:
     es: "La configuración"
     fr: "La configuration"
     ur: "سیٹ اپ"
+    tr: "hazırlık"
+    id: "persiapan"
   body:
     ar: ثلاثمائة وثلاثة عشر يخرجون للعير.
     en: ثلاثمائة وثلاثة عشر يخرجون للعير.
     es: "Trescientos trece salen hacia la caravana."
     fr: "Trois cent treize hommes partent pour la caravane."
     ur: "تین سو تیرہ کا قافلہ نکلتا ہے۔"
+    tr: "Üç yüz on üç kişi kervana doğru yola çıktı."
+    id: "Tiga ratus tiga belas orang pergi ke kafilah."
   features:
   - event/badr-expedition-setup
   - event/badr-council
@@ -43,12 +51,16 @@ rooms:
     es: "El duelo"
     fr: "Le duel"
     ur: "دوندویودق"
+    tr: "eskrim"
+    id: "pagar"
   body:
     ar: علي وحمزة وعبيدة يفتتحون القتال.
     en: علي وحمزة وعبيدة يفتتحون القتال.
     es: "Ali, Hamza y Ubaida comienzan la pelea."
     fr: "Ali, Hamza et Ubaida commencent le combat."
     ur: "علی، حمزہ اور عبیدہ لڑائی شروع کرتے ہیں۔"
+    tr: "Ali, Hamza ve Ubaida kavgaya başlar."
+    id: "Ali, Hamzah, dan Ubaida memulai pertarungan."
   features:
   - event/badr-duel
   - event/badr-duel
@@ -58,12 +70,16 @@ rooms:
     es: "La batalla"
     fr: "La bataille"
     ur: "لڑائی"
+    tr: "Olay"
+    id: "Insiden tersebut"
   body:
     ar: 'يوم الفرقان: قريش تُهزم في أول لقاء.'
     en: 'يوم الفرقان: قريش تُهزم في أول لقاء.'
     es: "El Día de la Distinción: Los Quraysh son derrotados en el primer encuentro."
     fr: "Le Jour de la Distinction: Les Quraysh sont vaincus lors de la première rencontre."
     ur: "یوم امتیاز: پہلی معرکہ میں قریش کو شکست ہوئی۔"
+    tr: "Ayrılık Günü: Kureyş ilk karşılaşmada mağlup oldu."
+    id: "Hari Kehormatan: Suku Quraisy dikalahkan dalam pertempuran pertama."
   features:
   - event/battle-of-badr
   - event/badr-battle-day
@@ -73,12 +89,16 @@ rooms:
     es: "Los prisioneros"
     fr: "Les prisonniers"
     ur: "قیدی۔"
+    tr: "mahkumlar"
+    id: "tahanan"
   body:
     ar: 'سبعون أسيرًا: الفداء والتعليم.'
     en: 'سبعون أسيرًا: الفداء والتعليم.'
     es: "Setenta prisioneros: redención y educación."
     fr: "Soixante-dix prisonniers: Rédemption et éducation."
     ur: "ستر قیدی: فدیہ اور تعلیم۔"
+    tr: "Yetmiş Mahkum: Kurtuluş ve Eğitim."
+    id: "Tujuh Puluh Narapidana: Penebusan dan Pendidikan."
   features:
   - event/badr-prisoners
   - event/badr-aftermath
@@ -88,12 +108,16 @@ rooms:
     es: "El legado"
     fr: "L'héritage"
     ur: "میراث"
+    tr: "Etki"
+    id: "Dampaknya"
   body:
     ar: 'بدر وعدًا آخر: غزوة بدر الموعد.'
     en: 'بدر وعدًا آخر: غزوة بدر الموعد.'
     es: "Badr hizo otra promesa: la batalla de Badr al-Maw'id."
     fr: "Badr fit une autre promesse: la bataille de Badr al-Maw'id."
     ur: "بدر نے ایک اور وعدہ کیا: جنگ بدر المعید۔"
+    tr: "Bedir başka bir söz daha verdi: Bedir el-Mev'id Muharebesi."
+    id: "Badr membuat janji lain: Pertempuran Badr al-Maw'id."
   features:
   - event/expedition-of-badr-al-mawida
   - place/medina

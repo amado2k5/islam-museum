@@ -44,7 +44,7 @@ describe("the Prophets' Tree", () => {
   });
 
   it("keeps the leaves apart and inside the drawing in Arabic, English and Urdu", () => {
-    for (const lang of ["ar", "en", "ur", "fr", "es"] as const) {
+    for (const lang of ["ar", "en", "ur", "fr", "es", "tr", "id"] as const) {
       const boxes = MESSENGERS_TREE.map((n) => {
         const e = byId.get(n.id);
         const label = String(e.label[lang] ?? e.label.ar).replace(/\s*⁦?\(.*$/, "").trim();

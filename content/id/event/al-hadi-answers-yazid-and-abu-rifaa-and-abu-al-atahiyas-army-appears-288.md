@@ -1,0 +1,12 @@
+---
+id: event/al-hadi-answers-yazid-and-abu-rifaa-and-abu-al-atahiyas-army-appears-288
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/al-hadi-answers-yazid-and-abu-rifaa-and-abu-al-atahiyas-army-appears-288.md}
+---
+## Ringkasan
+Pada halaman 206 halaman cetak, pertanyaan ini dilengkapi oleh Yazid ibn Ali ibn Jamil al-Shakiri dan Abu Rifa'ah al-Khath'ami, yang datang [[person/al-hadi-yahya-al-rassi|kepada al-Hadi]] di [[place/hadaqan-sanaa-yemen|Hadqan]], dan al-Hadi sebelumnya [[event/al-hadi-draws-up-his-ranks-at-hadaqan-and-two-men-ask-about-the-odds-288|telah mengisi pasukannya dengan daqqan]]: Mereka mengatakan mereka melihatnya bertekad melawan pria ini dan tidak memiliki pasukan, dan dia menyebutkan kepada mereka bahwa dia membawa pasukan besar bersamanya {cite:sira-hadi-ila-al-haqq p.206}. Menurut narator, al-Hadi berkata kepada mereka: Bersukacitalah, karena dia akan bertemu denganku. Jika dia memberikan perintah ini kepadaku, jika tidak aku akan memukul lehernya. Besok kalian akan masuk ke Sana'a, jika insya Allah, dan berdoa Jumat di sana {cite:sira-hadi-ila-al-haqq p.206}. Kemudian Ia memerintahkan [[group/tabari-emigrants-with-al-hadi|orang Tiberia]] untuk berada di tangan tentara {cite:sira-hadi-ila-al-haqq p.206}.
+
+## Detail
+Panji itu ada bersama [[person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi|Ali ibn Muhammad]] hari itu, dan al-Hadi memberikannya kepadanya di [[place/al-haira-hamdan-yemen|al-Ha'ira]], sehingga ia terus membawanya sampai Shibam {cite:sira-hadi-ila-al-haqq p.206} masuk. Kemudian ia mengawasi pasukan Abu al-Atahiya, yang saat itu berjumlah empat ratus penunggang kuda dan sepuluh ribu infanteri menurut narator. Ketika [[person/abu-al-atahiya-ibn-bishr|Abu al-Atahiyah melihat]] pasukan al-Hadi, ia memuat pasukannya ke kanan, kiri, dan hati {cite:sira-hadi-ila-al-haqq p.206}. Kata-kata al-Hadi di sini adalah kata-kata perang yang disampaikan oleh narator, dan museum tidak menghakimi apa pun tentangnya. Dengan demikian, apa yang ditunda dari laporan panji yang diberikan di al-Ha'irah telah selesai, dan Ali ibn Muhammad di sini ditafsirkan sebagai narator itu sendiri, berdasarkan preferensi, bukan kepastian.

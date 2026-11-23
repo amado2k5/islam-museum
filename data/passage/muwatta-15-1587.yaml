@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani]
 work: work/muwatta-malik
 ref: "1587"
-label: { ar: "الموطأ 1587 — نافع عن ابن عمر: كان يقول في الخلية والبرية إنها ثلاث تطليقات، كل واحدة منهما", en: "Muwatta 1587", es: "Muwatta 1587", fr: "Muwatta 1587", ur: "موطا 1587" }
+label: { ar: "الموطأ 1587 — نافع عن ابن عمر: كان يقول في الخلية والبرية إنها ثلاث تطليقات، كل واحدة منهما", en: "Muwatta 1587", es: "Muwatta 1587", fr: "Muwatta 1587", ur: "موطا 1587", tr: "El-Muvatta 1587 — İbn Ömer'den rivayetle Nafi': Hula ve bariya hakkında şöyle derdi: Her biri üç ayrı boşanmadır.", id: "Al-Muwatta 1587 — Nafi’ berdasarkan riwayat Ibnu Umar: Beliau biasa berkata mengenai khula dan bariya bahwa keduanya adalah tiga kali perceraian, masing-masingnya" }
 summary:
   ar: "يروي مالك عن نافع أن عبد الله بن عمر كان يقول في الخلية والبرية إنها ثلاث تطليقات، كل واحدة منهما. {cite:muwatta-maruf-1997 p.61}"
+  tr: "Malik, Nafi'den rivayetle Abdullah ibn Umar'ın, tenha bir yerde bulunan bir kadın ile ıssız bir yerde bulunan başka bir kadının durumu hakkında, bunun her biri ayrı birer boşanma olan üç boşanma anlamına geldiğini söylediğini aktarır. {cite:muwatta-maruf-1997 s.61}"
+  id: "Malik meriwayatkan dari Nafi’ bahwa Abdullah ibn Umar biasa berkata mengenai kasus seorang wanita di tempat terpencil dan wanita lain di tempat tandus bahwa itu merupakan tiga kali talak, masing-masing merupakan talak. {cite:muwatta-maruf-1997 p.61}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
   - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }

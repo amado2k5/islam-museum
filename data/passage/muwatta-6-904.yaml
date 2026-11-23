@@ -4,10 +4,12 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani]
 work: work/muwatta-malik
 ref: "904"
-label: { ar: "الموطأ 904 — ابن عمر لا يغسل رأسه وهو محرم إلا من الاحتلام", en: "Muwatta 904", es: "Muwatta 904", fr: "Muwatta 904", ur: "موطا 904" }
+label: { ar: "الموطأ 904 — ابن عمر لا يغسل رأسه وهو محرم إلا من الاحتلام", en: "Muwatta 904", es: "Muwatta 904", fr: "Muwatta 904", ur: "موطا 904", tr: "El-Muvatta 904 — İbn Ömer, ihramlı haldeyken gece boşalması durumu dışında başını yıkamaz.", id: "Al-Muwatta 904 — Ibnu Umar tidak mencuci kepalanya ketika dalam keadaan ihram kecuali dalam kasus keluarnya cairan saat tidur." }
 text: "لا يغسل رأسه وهو محرم إلا من الاحتلام"
 summary:
   ar: "يرويه مالك عن نافع أن عبد الله بن عمر كان لا يغسل رأسه وهو محرم إلا من الاحتلام. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومحمد بن الحسن الشيباني (472). {cite:muwatta-maruf-1997 p.436}"
+  tr: "Malik, Nafi’den rivayet ettiğine göre, Abdullah ibn Umar, ihramlı haldeyken ancak ıslak bir rüya gördükten sonra başını yıkardı. Araştırmacı, bunun Malik’ten rivayetle Ebu Mus’ab ve Muhammed ibn al-Hasan al-Şeybani (472) tarafından nakledildiğini belirtiyor. {cite:muwatta-maruf-1997 s.436}"
+  id: "Malik meriwayatkan dari Nafi’ bahwa Abdullah ibn Umar tidak mencuci kepalanya ketika dalam keadaan ihram kecuali setelah mimpi basah. Peneliti menyebutkan bahwa riwayat ini disampaikan dari Malik oleh Abu Mus’ab dan Muhammad ibn al-Hasan al-Shaybani (472). {cite:muwatta-maruf-1997 p.436}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
   - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }

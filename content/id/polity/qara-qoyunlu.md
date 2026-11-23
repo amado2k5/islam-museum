@@ -1,0 +1,24 @@
+---
+id: polity/qara-qoyunlu
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/polity/qara-qoyunlu.md}
+---
+## Ringkasan
+Ensiklopedia Islam menggambarkan Kara Qoyunlu sebagai dinasti Turki yang memerintah sebagian Anatolia timur, Irak, Jazira, dan sebagian besar Iran, dan mereka juga dikenal sebagai Barani. Artikel tersebut menyatakan bahwa alasan nama tersebut tidak diketahui. {cite:encyclopaedia-of-islam-2 vol. 4 p. 621} Suku Qara Qoyunlu tidak diragukan lagi merupakan cabang dari Oghuz, dan artikel tersebut mendukung klaim Minorski bahwa mereka berasal dari Yuwa. {cite:encyclopaedia-of-islam-2 vol. 4 p. 621}
+
+## Kebangkitan di era Bayram Khoja dan Qara Muhammad
+Pada era Mongol, Qara Qoyunlu terletak di wilayah Mosul dan merumput di wilayah Van, kemudian menjadi bawahan Sutail ketika mereka menduduki wilayah timur dan tenggara Anatolia pada tahun 737 H / 1337 M. {cite:encyclopaedia-of-islam-2 vol. 4 p. 621} Bayram Khoja, yang membunuh Husayn Bey pada 752 H / 1351 M dan mengambil alih kepemimpinan, merebut Mosul; Sultan Uways al-Jalayiri mengalahkannya di dataran Mush pada 767 H / 1366 M dan menjadikannya vasal untuk membayar pajak, tetapi tanah dari Mosul hingga Erzurum menjadi sangat bergantung pada Qara Qoyunlu setelah kematiannya pada 782 H/1380 M. {cite:encyclopaedia-of-islam-2 vol. 4 p. 621} keponakannya Qara Muhammad mengalahkan tentara Jalayiri di dekat Nakhchivan pada tahun 784 H / 1382 M. Artikel tersebut menyebutkan bahwa Bir Hassan membunuhnya pada Rabi' al-Thani 791 H / April 1389 M. {cite:encyclopaedia-of-islam-2 vol. 4 p. 621}
+
+## Qara Yusuf, Timur, dan Iskandar
+Qara Yusuf, putra Qara Muhammad, menentang Timur seperti ayahnya: ia mencari perlindungan kepada Bayezid I Ottoman pada tahun 802 H/1400 M, dipenjara bersama al-Jalayiri Ahmad di Damaskus atas perintah Sultan Mamluk, lalu membebaskannya sebagai gubernur Damaskus pada tahun 807 H/1405 M. {cite:encyclopaedia-of-islam-2 vol. 4 pp. 623-624} Setelah kembali ke Anatolia timur, Abu Bakr Mirza, cucu Timur, dikalahkan pada tahun 809 H/1406 M dan mengamankan Azerbaijan; di desa Asad dekat Tabriz pada 28 Rabi' al-Thani 813 H / 30 Agustus 1410 M, Sultan Ahmad dikalahkan, ditangkap, lalu dibunuh, dan wilayah Arab dianeksasi ke tanah Qara Qoyunlu. {cite:encyclopaedia-of-islam-2 vol. 4 p. 623} Ia meninggal pada 7 Dhu al-Qi'dah 823 H / 13 November 1420 M saat dalam perjalanan menemui Timurid Shah Rukh, meninggalkan sebuah wilayah luas dari Erzincan ke Qazvin dan dari Shirwan ke Basra. {cite:encyclopaedia-of-islam-2 vol. 4 p. 624} Putranya Iskander bertempur melawan Shah Rukh di Alashkard pada 29 dan 30 Rajab dan 1 Sha'ban 824 H / 30 dan 31 Juli serta 1 Agustus 1421 M. Shah Rukh menang dengan pasukannya yang besar lalu mundur; Iskandar membunuh putranya Shah Qubad pada 841 H / 1438 M. {cite:encyclopaedia-of-islam-2 vol. 4 pp. 624-625}
+
+## Jahan Shah dan Akhir Dinasti
+Artikel tersebut menyatakan bahwa wilayah Qara Qoyunlu pada masa pemerintahan Jahan Shah (843-872 H / 1439-1467 M) menjadi sebuah kekaisaran besar dan mencapai tahap paling mulia: menganeksasi Arab Irak, Rayy, Isfahan, Fars, dan Kerman, serta memperoleh pengakuan dari Timurid Abu Sa'id atas kepemilikannya, memegang gelar Khan, Khagan, dan Sultan, serta mempromosikan budaya dan pengetahuan. {cite:encyclopaedia-of-islam-2 vol. 4 p. 625} Ia tewas bersama putranya Muhammadi pada tahun 872 H/1467 M selama kampanye melawan Ozun Hasan dari Aq Qoyunlu; putranya Hasan Ali, yang naik takhta, bunuh diri pada Shawwal 873 H / April 1469 M ketika ia tidak bisa melarikan diri dari penahanan, dan pada tahun 874 H/1469 M, seluruh tanah Qara Qoyunlu menjadi bagian dari Ak Qoyunlu. {cite:encyclopaedia-of-islam-2 vol. 4 p. 625}
+
+## Kecenderungan Denominasi
+Artikel tersebut menunjukkan bahwa nama-nama beberapa anggota keluarga, seperti Yar Ali, Bir Ali, dan Hassan Ali, menunjukkan kecenderungan ke arah Syiah, dan dikatakan bahwa Isfahan, keturunan Qara Yusuf, mencetak koin atas nama Dua Belas Imam; sebaliknya, nama keempat khalifah muncul pada koin dari era Jahan Shah, dan tidak ada sejarawan kontemporer yang mencatat kecenderungan ke Syiah di pihaknya. {cite:encyclopaedia-of-islam-2 vol. 4 p. 625}
+
+## Dalam katalog Nomisma
+Keluarga ini didefinisikan di Numisma dengan pengenal "qara_qoyunlu" dan memiliki dua nama alternatif: Kara Koyunlu dan Black Sheep Turkomans. Setelah penyelidikan pada 14 November 2026, keluarga ini dikaitkan dengan satu catatan keanggotaan melalui hubungan organisasi, dan tidak ada mata uang atau jenis mata uang yang terdaftar. {cite:nomisma qara_qoyunlu}

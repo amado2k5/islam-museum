@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1234"
-label: { ar: "الموطأ 1234 — هشام بن عروة عن أبيه عن عائشة: ذكر النبي صفية، فقيل حاضت، فقال لعلها حابستنا، فقالوا قد طافت، فقال فلا إذا", en: "Muwatta 1234", es: "Muwatta 1234", fr: "Muwatta 1234", ur: "موطا 1234" }
+label: { ar: "الموطأ 1234 — هشام بن عروة عن أبيه عن عائشة: ذكر النبي صفية، فقيل حاضت، فقال لعلها حابستنا، فقالوا قد طافت، فقال فلا إذا", en: "Muwatta 1234", es: "Muwatta 1234", fr: "Muwatta 1234", ur: "موطا 1234", tr: "El-Muvatta 1234 — Hişam ibn Urve, babasından, o da Aişe'den rivayetle: Peygamberimiz Safiyye'den bahsetti ve onun adet gördüğü söylendi. Peygamberimiz, \"Belki de bizi geciktiriyor\" dedi. Onlar, \"O zaten tavaf yaptı\" dediler. Peygamberimiz, \"Öyleyse hayır\" dedi.", id: "Al-Muwatta 1234 — Hisham ibn Urwah, dari ayahnya, dari Aisyah: Nabi menyebutkan Safiyyah, dan dikatakan bahwa dia telah haid. Beliau berkata, \"Mungkin dia menunda kita.\" Mereka berkata, \"Dia sudah melaksanakan Tawaf.\" Beliau berkata, \"Kalau begitu tidak.\"" }
 text: "فلا إذًا"
 summary:
   ar: "يروي مالك عن هشام بن عروة عن أبيه عن عائشة أن رسول الله ذكر صفية بنت حيي، فقيل له إنها قد حاضت، فقال لعلها حابستنا، فقالوا يا رسول الله إنها قد طافت، فقال فلا إذا. {cite:muwatta-maruf-1997 p.551}"
+  tr: "Malik, Hişam ibn Urva'dan, o da babasından, o da Aişe'den rivayet eder ki, Allah Resulü Safiyye bint Huyayy'den bahsetmiş ve ona onun adet gördüğü söylenmiştir. Resulullah, \"Belki bizi geciktiriyor\" demiştir. Onlar da, \"Ey Allah Resulü, o zaten tavafı tamamlamıştır\" demişlerdir. Resulullah, \"Öyleyse hayır\" demiştir. {cite:muwatta-maruf-1997 s.551}"
+  id: "Malik meriwayatkan dari Hisham ibn Urwah, dari ayahnya, dari Aisyah, bahwa Rasulullah menyebutkan Safiyyah binti Huyayy, dan dikatakan kepadanya bahwa dia telah haid. Beliau berkata, \"Mungkin dia menunda kita.\" Mereka berkata, \"Wahai Rasulullah, dia sudah melaksanakan tawaf.\" Beliau berkata, \"Kalau begitu tidak.\" {cite:muwatta-maruf-1997 p.551}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
   - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }

@@ -1,61 +1,203 @@
 surah: 51
 slug: adh-dhariyat
 sources_consulted:
-  - "islamicstudies.info — Tafheem ul Quran: Ayat Themes of Surah Adh-Dhariyat (1-23, 24-30, 31-37, 38-46, 47-60)"
-  - "en.wikipedia.org — Adh-Dhariyat: Structure (Neuwirth tripartite 1-23 / 24-46 / 47-60)"
-  - "nurulquran.com — Flow Chart Macro Structure, Surah Adh-Dhariyat (8 paragraphs)"
+- 'islamicstudies.info — Tafheem ul Quran: Ayat Themes of Surah Adh-Dhariyat (1-23, 24-30, 31-37, 38-46, 47-60)'
+- 'en.wikipedia.org — Adh-Dhariyat: Structure (Neuwirth tripartite 1-23 / 24-46 / 47-60)'
+- nurulquran.com — Flow Chart Macro Structure, Surah Adh-Dhariyat (8 paragraphs)
 map:
-  - title: { ar: "القسم ووقوع الدين", en: "The Oaths and the Inevitable Recompense" }
-    range: [1, 14]
-    family: faith
-    summary:
-      ar: "قسم بالذاريات والحاملات والجاريات والمقسمات على أن ما توعدون لصادق وأن الدين لواقع، ثم وعيد المكذبين الخراصين بيوم الدين."
-      en: "Oaths by the scatterers, the bearers, the runners, and the distributors that what you are promised is true and the Recompense will occur, then a warning to the lying deniers of the Day of Recompense."
-    children:
-      - { title: { ar: "الأقسام الأربعة", en: "The Four Oaths" }, range: [1, 6] }
-      - { title: { ar: "وعيد المكذبين بيوم الدين", en: "Warning the Deniers of the Day" }, range: [7, 14] }
-  - title: { ar: "صفات المتقين", en: "Traits of the God-conscious" }
-    range: [15, 23]
-    family: faith
-    summary:
-      ar: "المتقون في جنات وعيون: كانوا قبل ذلك محسنين، قليلا من الليل ما يهجعون، وفي أموالهم حق للسائل والمحروم، وفي الأرض والأنفس والسماء آيات للموقنين."
-      en: "The God-conscious in gardens and springs: before that they did good, sleeping little at night, with a due in their wealth for the asker and the deprived; in the earth, in themselves, and in the sky are signs for the certain."
-    children:
-      - { title: { ar: "نعيمهم وإحسانهم", en: "Their Bliss and Their Goodness" }, range: [15, 19] }
-      - { title: { ar: "آيات الله في الكون", en: "Allah's Signs in the Cosmos" }, range: [20, 23] }
-  - title: { ar: "ضيف إبراهيم", en: "Abraham's Guests" }
-    range: [24, 30]
-    family: stories
-    summary:
-      ar: "ضيف إبراهيم المكرمون: العجل السمين، والخوف منهم، وبشراهم بغلام عليم، وعجب امرأته العجوز العقيم."
-      en: "Abraham's honored guests: the fat calf, his fear of them, their glad tidings of a knowledgeable boy, and his old barren wife's amazement."
-    children: []
-  - title: { ar: "هلاك قوم لوط", en: "The Destruction of Lot's People" }
-    range: [31, 37]
-    family: stories
-    summary:
-      ar: "الملائكة أرسلوا إلى قوم مجرمين بحجارة من طين مسومة، فأخرجوا المؤمنين، وتركوا فيها آية للذين يخافون العذاب الأليم."
-      en: "The angels were sent to a criminal people with marked stones of clay, the believers were brought out, and a sign was left for those who fear the painful punishment."
-    children: []
-  - title: { ar: "عبر من الأمم الغابرة", en: "Lessons from Perished Nations" }
-    range: [38, 46]
-    family: stories
-    summary:
-      ar: "آية في موسى وفرعون، وفي عاد إذ أرسل عليهم الريح العقيم، وفي ثمود إذ أخذتهم الصاعقة، وقوم نوح من قبل: كل كذب رسله فأخذه الله."
-      en: "A sign in Moses and Pharaoh, in 'Ad when the barren wind was sent, in Thamud when the thunderbolt seized them, and Noah's people before: each denied its messengers and Allah seized them."
-    children:
-      - { title: { ar: "موسى وفرعون", en: "Moses and Pharaoh" }, range: [38, 40] }
-      - { title: { ar: "عاد وثمود", en: "'Ad and Thamud" }, range: [41, 45] }
-      - { title: { ar: "قوم نوح", en: "Noah's People" }, range: [46, 46] }
-  - title: { ar: "أدلة القدرة والدعوة إلى التوحيد", en: "Proofs of Power and the Call to Tawhid" }
-    range: [47, 60]
-    family: faith
-    summary:
-      ar: "السماء بناها الله بأيد، والأرض فرشها، ومن كل شيء خلق زوجين، ففروا إلى الله ولا تجعلوا معه إلها آخر؛ وخلق الجن والإنس إلا ليعبدوه، وخاتمة بوعيد الظالمين."
-      en: "Allah built the sky with might and spread the earth, creating pairs of everything — so flee to Allah and set no other god with Him; jinn and mankind were created only to worship Him; the surah closes warning the wrongdoers."
-    children:
-      - { title: { ar: "بناء السماء ومد الأرض", en: "Building the Sky, Spreading the Earth" }, range: [47, 49] }
-      - { title: { ar: "فروا إلى الله", en: "Flee to Allah" }, range: [50, 51] }
-      - { title: { ar: "تكذيب الأمم لرسلها", en: "Nations Denying Their Messengers" }, range: [52, 55] }
-      - { title: { ar: "خلق الجن والإنس للعبادة", en: "Jinn and Men Created for Worship" }, range: [56, 58] }
-      - { title: { ar: "وعيد الظالمين", en: "Warning the Wrongdoers" }, range: [59, 60] }
+- title:
+    ar: القسم ووقوع الدين
+    en: The Oaths and the Inevitable Recompense
+    tr: Yemin ve borcun oluşması
+    id: Sumpah dan terjadinya utang
+  range:
+  - 1
+  - 14
+  family: faith
+  summary:
+    ar: قسم بالذاريات والحاملات والجاريات والمقسمات على أن ما توعدون لصادق وأن الدين لواقع، ثم وعيد المكذبين الخراصين بيوم الدين.
+    en: Oaths by the scatterers, the bearers, the runners, and the distributors that what you are promised is true and the Recompense will occur, then a warning to the lying deniers of the Day of Recompense.
+    tr: Dhariyat, taşıyıcılar, köleler ve bölünmüşler adına yemin etti, vaat ettiğinizin doğru olduğunu ve dinin gerçek olduğunu söyledi, ardından Kıyamet Günü'nün inkârcıları ve inkârcıları uyardı.
+    id: Dia bersumpah demi Dhariyat, para pembawa, para budak, dan yang terpecah, menyatakan bahwa apa yang kamu janjikan adalah benar dan agama adalah kenyataan, lalu peringatan dari para penyangkal dan
+      penyangkal Hari Penghakiman.
+  children:
+  - title:
+      ar: الأقسام الأربعة
+      en: The Four Oaths
+      tr: Dört Bölüm
+      id: Empat Bagian
+    range:
+    - 1
+    - 6
+  - title:
+      ar: وعيد المكذبين بيوم الدين
+      en: Warning the Deniers of the Day
+      tr: Ve Kıyamet Günü'nde inkârcıların bayramı
+      id: Dan pesta para penyangkal pada Hari Penghakiman
+    range:
+    - 7
+    - 14
+- title:
+    ar: صفات المتقين
+    en: Traits of the God-conscious
+    tr: Tanrı korkusunun özellikleri
+    id: Kualitas Orang yang Takut Tuhan
+  range:
+  - 15
+  - 23
+  family: faith
+  summary:
+    ar: 'المتقون في جنات وعيون: كانوا قبل ذلك محسنين، قليلا من الليل ما يهجعون، وفي أموالهم حق للسائل والمحروم، وفي الأرض والأنفس والسماء آيات للموقنين.'
+    en: 'The God-conscious in gardens and springs: before that they did good, sleeping little at night, with a due in their wealth for the asker and the deprived; in the earth, in themselves, and in the
+      sky are signs for the certain.'
+    tr: 'Bahçelerde ve kaynaklarda doğru olanlar: ondan önce iyilik yapanlardı; geceleri bir süre uyumazlardı, servetlerinde dilenciler ve yoksullar için, yeryüzünde ise yaşamlar ve gökler için bir hak
+      vardır—kesin işaretlerdir.'
+    id: 'Orang benar di taman dan mata air: sebelumnya, mereka adalah pelaku kebaikan; mereka tidak mau tidur malam sebentar, dan dalam kekayaan mereka ada hak bagi pengemis dan yang miskin, dan di bumi,
+      hidup, dan langit—tanda bagi yang pasti.'
+  children:
+  - title:
+      ar: نعيمهم وإحسانهم
+      en: Their Bliss and Their Goodness
+      tr: Onların mutluluğu ve nezaketi
+      id: Kebahagiaan dan kebaikan mereka
+    range:
+    - 15
+    - 19
+  - title:
+      ar: آيات الله في الكون
+      en: Allah's Signs in the Cosmos
+      tr: Evrendeki Tanrı'nın işaretleri
+      id: Tanda-tanda Tuhan di alam semesta
+    range:
+    - 20
+    - 23
+- title:
+    ar: ضيف إبراهيم
+    en: Abraham's Guests
+    tr: İbrahim Guest
+    id: Ibrahim Guest
+  range:
+  - 24
+  - 30
+  family: stories
+  summary:
+    ar: 'ضيف إبراهيم المكرمون: العجل السمين، والخوف منهم، وبشراهم بغلام عليم، وعجب امرأته العجوز العقيم.'
+    en: 'Abraham''s honored guests: the fat calf, his fear of them, their glad tidings of a knowledgeable boy, and his old barren wife''s amazement.'
+    tr: 'İbrahim''in onurlu misafiri: şişman buzağı, onlardan duyduğu korku, bilgili bir çocuğun haberciliği ve kısır yaşlı eşinin hayranlığı.'
+    id: 'Tamu kehormatan Ibrahim: anak sapi gemuk, ketakutan akan mereka, kabar gembira seorang anak yang berpengetahuan, dan keajaiban istrinya yang mandul.'
+  children: []
+- title:
+    ar: هلاك قوم لوط
+    en: The Destruction of Lot's People
+    tr: Lut'un halkının yıkımı
+    id: Kehancuran umat Lot
+  range:
+  - 31
+  - 37
+  family: stories
+  summary:
+    ar: الملائكة أرسلوا إلى قوم مجرمين بحجارة من طين مسومة، فأخرجوا المؤمنين، وتركوا فيها آية للذين يخافون العذاب الأليم.
+    en: The angels were sent to a criminal people with marked stones of clay, the believers were brought out, and a sign was left for those who fear the painful punishment.
+    tr: Melekler, işaretli kilden taşlarla bir halka suçlular gönderdiler, bu yüzden inananları kovdular ve acı cezadan korkanlar için onlara bir işaret bıraktılar.
+    id: Para malaikat mengirim penjahat kepada sebuah bangsa dengan batu tanah liat yang ditandai, sehingga mereka mengusir para penganut dan meninggalkan tanda di dalamnya bagi mereka yang takut akan hukuman
+      yang menyakitkan.
+  children: []
+- title:
+    ar: عبر من الأمم الغابرة
+    en: Lessons from Perished Nations
+    tr: Geçmiş Uluslardan Dersler
+    id: Pelajaran dari Negara-negara Masa Lalu
+  range:
+  - 38
+  - 46
+  family: stories
+  summary:
+    ar: 'آية في موسى وفرعون، وفي عاد إذ أرسل عليهم الريح العقيم، وفي ثمود إذ أخذتهم الصاعقة، وقوم نوح من قبل: كل كذب رسله فأخذه الله.'
+    en: 'A sign in Moses and Pharaoh, in ''Ad when the barren wind was sent, in Thamud when the thunderbolt seized them, and Noah''s people before: each denied its messengers and Allah seized them.'
+    tr: 'Musa ve Firavun hakkında, Aad''ın üzerlerine issız rüzgarı gönderdiğinde, Semud''un yıldırım onları yakaladığında ve Nuh''un komünde olduğu bir ayet: Elçilerinin her biri yalan söyledi, böylece
+      Allah onu yakaladı.'
+    id: 'Sebuah ayat tentang Musa dan Firaun, dan tentang ''Aad ketika Dia mengirim angin tandus ke atas mereka, dan tentang Thamud ketika petir menyambar mereka, dan umat Nuh sebelumnya: Setiap utusannya
+      berbohong, maka Allah menangkapnya.'
+  children:
+  - title:
+      ar: موسى وفرعون
+      en: Moses and Pharaoh
+      tr: Musa ve Firavun
+      id: Musa dan Firaun
+    range:
+    - 38
+    - 40
+  - title:
+      ar: عاد وثمود
+      en: '''Ad and Thamud'
+      tr: Dönüş ve Thamud
+      id: Kembali dan Thamud
+    range:
+    - 41
+    - 45
+  - title:
+      ar: قوم نوح
+      en: Noah's People
+      tr: Nuh'un halkı
+      id: Bangsa Nuh
+    range:
+    - 46
+    - 46
+- title:
+    ar: أدلة القدرة والدعوة إلى التوحيد
+    en: Proofs of Power and the Call to Tawhid
+    tr: Yetenek Kanıtı ve Tektanrıcılığa Çağrı
+    id: Bukti Kemampuan dan Seruan untuk Monoteisme
+  range:
+  - 47
+  - 60
+  family: faith
+  summary:
+    ar: السماء بناها الله بأيد، والأرض فرشها، ومن كل شيء خلق زوجين، ففروا إلى الله ولا تجعلوا معه إلها آخر؛ وخلق الجن والإنس إلا ليعبدوه، وخاتمة بوعيد الظالمين.
+    en: Allah built the sky with might and spread the earth, creating pairs of everything — so flee to Allah and set no other god with Him; jinn and mankind were created only to worship Him; the surah closes
+      warning the wrongdoers.
+    tr: Gökler Allah tarafından ellerle inşa edildi, yer onları yaydı ve her şeyden çiftler yarattı, bu yüzden Allah'a kaçın ve başka hiçbir tanrıyı yanında götürmeyin; cinleri ve insanları sadece O'na
+      ibadet etmek için yarattı ve sonu suçluların uyarısıdır.
+    id: Langit dibangun oleh Allah dengan tangan, bumi membentangkannya, dan dari segala sesuatu Dia menciptakan pasangan, maka larilah kepada Allah dan jangan bawa dewa lain bersama-Nya; Dia menciptakan
+      jin dan manusia kecuali untuk menyembah-Nya, dan akhirnya adalah peringatan tentang para pelaku kesalahan.
+  children:
+  - title:
+      ar: بناء السماء ومد الأرض
+      en: Building the Sky, Spreading the Earth
+      tr: Gökyüzünü ve dünyanın gelgitini inşa etmek
+      id: Membangun langit dan pasang surut bumi
+    range:
+    - 47
+    - 49
+  - title:
+      ar: فروا إلى الله
+      en: Flee to Allah
+      tr: Tanrı'ya kaç
+      id: Larilah kepada Tuhan
+    range:
+    - 50
+    - 51
+  - title:
+      ar: تكذيب الأمم لرسلها
+      en: Nations Denying Their Messengers
+      tr: Ulusların elçilerine inkar edilmesi
+      id: Penolakan bangsa-bangsa kepada utusan mereka
+    range:
+    - 52
+    - 55
+  - title:
+      ar: خلق الجن والإنس للعبادة
+      en: Jinn and Men Created for Worship
+      tr: Ibadet için cinlerin ve insanların yaratılması
+      id: Penciptaan jin dan manusia untuk disembah
+    range:
+    - 56
+    - 58
+  - title:
+      ar: وعيد الظالمين
+      en: Warning the Wrongdoers
+      tr: Ve zalimlerin bayramı
+      id: Dan pesta para penindas
+    range:
+    - 59
+    - 60

@@ -1,7 +1,7 @@
 id: event/death-tekish-596
 class: event
 kind: death
-label: { ar: "وفاة خوارزم شاه تكش", en: "death of Khwarazmshah Tekish", es: "Muerte de Khwarazmshah Tekish", fr: "mort du Khwarezmshah Tekish", ur: "خوارزمشاہ تکیش کی موت" }
+label: { ar: "وفاة خوارزم شاه تكش", en: "death of Khwarazmshah Tekish", es: "Muerte de Khwarazmshah Tekish", fr: "mort du Khwarezmshah Tekish", ur: "خوارزمشاہ تکیش کی موت", tr: "Harezm Şah Tekiş'in Ölümü", id: "Kematian Khwarazm Shah Tekish" }
 date:
   start: { edtf: "1199~", hijri: "0596", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Ala al-Din Tekish ibn Il-Arslan murió siendo para entonces señor de la mayor parte de Jorasán, las tierras más allá, Isfahán y Jibal — la mitad oriental del mundo islámico—. Su hijo Qutb al-Din Muhammad, ya laqabed Ala al-Din, le sucedió {cite:kamil-ibn-al-athir p. 266}."
   fr: "Ala al-Din Tekish ibn Il-Arslan mourut, seigneur de la majeure partie du Khorasan, des terres au-delà, d'Ispahan et du Jibal — soit la moitié orientale du monde islamique. Son fils Qutb al-Din Muhammad, déjà nommé Ala al-Din, lui succéda (voir Kamil ibn al-Athir, p. 266)."
   ur: "علاء الدین تکیش ابن الارسلان کا انتقال ہوگیا، اس وقت تک خراسان کے بیشتر علاقوں، اس سے آگے کی سرزمین، اصفہان اور جبل - اسلامی دنیا کا مشرقی نصف حصہ۔ اس کا بیٹا قطب الدین محمد، جو پہلے ہی مقبوض علاء الدین تھا، اس کا جانشین بنا۔ 266}۔"
+  tr: "Ala ad-Din Tekiş bin İl Arslan Harezm Şah öldü ve Sultan Şah'ı yendikten sonra Horasan'ın büyük bir bölümünü, İsfahan'ı ve dağları yönetti; ta ki Pers topraklarının çoğu ona boyun eğene kadar. Ondan sonra, Ala ad-Din lakaplı oğlu Kutub ad-Din Muhammed hüküm sürdü ve babasının ölümünden önce kral olarak anıldı. {cite:kamil-ibn-al-athir s. 266}"
+  id: "Ala ad-Din Tekish bin Il Arslan Khwarazm Shah wafat, dan setelah kemenangannya atas Sultan Shah, ia memerintah sebagian besar Khorasan dan sekitarnya, Isfahan dan pegunungan, hingga sebagian besar wilayah Persia tunduk kepadanya. Setelahnya, putranya Qutb ad-Din Muhammad, yang dijuluki Ala ad-Din, memerintah, dan ia disebut sebagai raja sebelum kematian ayahnya. {cite:kamil-ibn-al-athir p. 266}"
 wings: [time]
 relations:
   - { type: occurred_at, target: place/khwarizm, sources: [source/kamil-ibn-al-athir] }

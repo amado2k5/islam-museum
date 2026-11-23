@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "7231"
-label: { ar: "صحيح مسلم 7231 — ساعة الاحتضار والوفاة", en: "Sahih Muslim 7231 — a deathbed and last hours", ur: "صحیح مسلم 7231 — وقتِ وفات اور آخری لمحات", es: "Sahih Muslim 7231 — un lecho de muerte y últimas horas", fr: "Sahih Muslim 7231 — Un lit de mort et les dernières heures" }
+label: { ar: "صحيح مسلم 7231 — ساعة الاحتضار والوفاة", en: "Sahih Muslim 7231 — a deathbed and last hours", ur: "صحیح مسلم 7231 — وقتِ وفات اور آخری لمحات", es: "Sahih Muslim 7231 — un lecho de muerte y últimas horas", fr: "Sahih Muslim 7231 — Un lit de mort et les dernières heures", tr: "Sahih Muslim 7231 — Ölüm Vakti ve Vefat", id: "Sahih Muslim 7231 — Saat-saat Sakaratul Maut dan Kematian" }
 text: "وَحَدَّثَنِي أَبُو دَاوُدَ، سُلَيْمَانُ بْنُ مَعْبَدٍ حَدَّثَنَا أَبُو النُّعْمَانِ، عَارِمٌ حَدَّثَنَا مَهْدِيُّ بْنُ، مَيْمُونٍ حَدَّثَنَا وَاصِلٌ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ الأَنْصَارِيِّ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ قَبْلَ مَوْتِهِ بِثَلاَثَةِ أَيَّامٍ يَقُولُ \" لاَ يَمُوتَنَّ أَحَدُكُمْ إِلاَّ وَهُوَ يُحْسِنُ الظَّنَّ بِاللَّهِ عَزَّ وَجَلَّ \"."
 summary:
   ar: "حديث في صحيح مسلم، رقم 7231، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 7231، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 7231 (El Libro del Paraíso, su Descripción, sus Bendiciones y sus Habitantes), menciona un lecho de muerte y las últimas horas. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sahih Muslim, n° 7231 (Le Livre du Paradis, sa description, ses bienfaits et ses habitants), mentionne un lit de mort et les dernières heures. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, des dernières heures, des biens, des reliques et des tombes."
+  tr: "Sahih Müslim'de 7231 numaralı hadis, ölüm anını ve ölüm sürecini konu almaktadır. Bu hadis, vasiyetnameler, miras, antikalar ve türbeler üzerine çalışan kişiler tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 7231, menyebutkan saat kematian dan proses sekarat. Hadits ini dikumpulkan oleh para ahli wasiat, warisan, barang antik, dan makam suci, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ihtidar, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 7231 (book 53 hadith 100); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

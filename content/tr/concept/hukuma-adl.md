@@ -1,0 +1,9 @@
+---
+id: concept/hukuma-adl
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/concept/hukuma-adl.md}
+---
+## Özet
+Hükümet, bir kararın dilsel kaynağıdır ve anlamlarından biri, zalimi adaletsizliğinden uzaklaştırmaktır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7235} Fıkıhatta 'adalet hükümeti' terimi, belirli bir para miktarı içermeyen bir suçta adil bir kişinin tahmin ettiği zorunlu içtihadı ifade eder ve değerlendirme hakim veya hakemin kararına dayanır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7235} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7236} Varsayılan durum, intikam veya tahmini rüşvet olmadan bir kişiye karşı işlenen herhangi bir suçun adalet hükümetine tabi olmasıdır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7236} Koşullarından biri, suçun İslam hukukuna göre sabit bir rüşvet olmaması, hükümetin tahmini organ üyesini bilgilendirmemesi, yara iyileştikten sonra yapılması ve hakim veya hakemin karar vermesidir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7237} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7238} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7239} Nasıl değerlendirileceğine göre: mağdur köle gibi durur ve suçun yol açtığı eksikliği değerlendirir. Diğerleri ise Ali'den iletilen bir rapora dayanarak en yakın tahmini suça atfeder ve dil ucunun kesilmesiyle ilgili bir rapora dayanır. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7238} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7239} Çoğunluk görüşüne göre, utanmadan iyileşen bir yara bununla ilgili değildir, ancak Malikilere göre yüz ve başın netleştirilmesi konusundaki anlaşmazlık devam etmektedir. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7240}

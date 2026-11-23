@@ -1,0 +1,25 @@
+---
+id: work/fatwa-islamweb-repaying-a-wifes-gold-sold-for-the-husband
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/work/fatwa-islamweb-repaying-a-wifes-gold-sold-for-the-husband.md}
+---
+
+## Ringkasan
+
+Sebuah pertanyaan dari seorang istri yang menjual mas kawin emasnya demi kebutuhan suaminya dan membangun rumah dengan janji pengembalian, namun harganya digandakan. Pusat Fatwa di [[group/islamweb|IslamWeb]] menjawab bahwa apa yang dipinjam suami dari barang emas itu dikembalikan dalam bentuk barang, bukan nilainya, dan apa yang dipinjamkan tunai dikembalikan dalam bentuk tunai. Jaring itu milik istri dan merupakan utang seperti sisa emas tersebut. Ada perbedaan terkait biaya medis, dan pandangan bahwa itu wajib adalah valid. {cite:islamweb fatwa 539349}
+
+## Pertanyaannya
+
+Penanya menyebutkan bahwa dia menikah empat belas tahun lalu dengan mas kawin yang diperkirakan dinar, dan kebiasaan di negaranya adalah membeli emas untuk istri dengan jumlah ini, yang telah dilakukan. Kemudian suaminya memintanya menjual sebagian emasnya untuk kebutuhan tertentu dengan janji mengembalikannya, dan bertahun-tahun berlalu tanpa dia melakukannya. Dia menjual sisa emas dengan sukarela untuk menyelesaikan pembangunan rumah dengan kesepakatan untuk mengembalikannya juga. Nilai emas berubah dan berlipat ganda, jadi dia bertanya: Haruskah dia mengembalikan nilai mas kawin dalam dinar atau nilai emasnya? Apakah hadiah pertunangan dihitung sebagai bagian dari mas kawin dan apakah dia berhak mengambilnya kembali saat membutuhkan uang untuk pengobatan? Haruskah suami menanggung biaya pengobatannya, atau apakah ini sudah tidak disukai? {cite:islamweb fatwa 539349}
+
+## Jawabannya
+
+Pusat tersebut menjawab bahwa jika suami meminjam emas dari dia dalam kedua kasus dan kemudian memerintahkan untuk dijual demi memenuhi kebutuhannya, maka emas itu adalah utang yang terhutang kepadanya, dan tidak relevan bahwa suami memberinya nilai, karena dia bertindak sebagai agennya dalam menjualnya. Dia wajib mengembalikan nilai yang sama, bukan nilainya, terlepas dari apakah harganya naik atau turun selama bertahun-tahun. Mengutip keputusan [[group/international-islamic-fiqh-academy|Akademi Fiqh Islam]] dalam sesi yang diadakan di Kuwait pada Desember 1988, kuncinya adalah membayar utang tetap dalam bentuk mata uang dalam bentuk barang, bukan dalam nilai, karena utang diselesaikan dengan jumlah yang serupa, kecuali mereka setuju membayar nilainya, dalam hal ini tidak ada kerugian di antara mereka. Hari pembayaran dilakukan, bukan hari pinjaman, berdasarkan hadits [[person/abdullah-ibn-umar|Abdullah ibn Umar]] dalam Musnad [[person/ahmad-ibn-hanbal|Ahmad]] bahwa tidak ada salahnya mengambil utang tersebut pada harga saat ini kecuali mereka berpisah dan tidak ada apa-apa di antara mereka. {cite:islamweb fatwa 539349} Ia mengatakan bahwa dinar yang disebut mas kawin tidak ada hubungannya; dinar itu ditukar dengan emas dan menjadi miliknya, yang bisa ia jual sesuka hati, dan suami akan meminjam dan menebus. {cite:islamweb fatwa 539349}
+
+Namun jika kenyataannya dia menjual emas itu dan kemudian membayar harganya secara tunai dengan syarat dia mengembalikannya, maka dia tidak meminjamkan emas tetapi sejumlah uang. Utang tetap adalah jumlah tunai yang diambil pada hari penjualan. Nilainya dalam emas atau selisih antara nilainya pada saat pinjaman dan sekarang tidak diperhitungkan. Dilaporkan dari [[work/al-mawsua-al-fiqhiyya-al-kuwaitiyya|Ensiklopedia Islam bahwa jika]] utang tetap adalah koin emas atau perak yang bernama yang menjadi mahal atau murah pada saat pembayaran, debitur tidak wajib membayar apa pun karena itu secara alami adalah uang tunai. {cite:islamweb fatwa 539349} Mengenai perhiasan pertunangan, ia mengatakan bahwa apakah hadiah pertunangan dianggap bagian dari mas kawin sesuai adat atau hadiah mandiri, setelah kontrak pernikahan selesai dan penyempurnaan, maka perhiasan itu menjadi milik penuh dan eksklusif istri, dan suami tidak berhak mengambilnya tanpa persetujuannya. Jika perhiasan itu dijual untuk kebutuhan suami atau untuk bangunan dengan janji pengembalian, maka itu adalah utang seperti sisa emas dan ia berhak mengklaimnya menurut hukum Islam. {cite:islamweb fatwa 539349} Adapun suami yang menanggung biaya medis istrinya, disebutkan bahwa terdapat perbedaan pendapat di antara para ulama mengenai fatwa 166893-nya. Salah satu yang ia sebutkan adalah klaim bahwa fatwa itu wajib bagi suami tidak tersembunyi dalam keabsahannya pada masa ini. {cite:islamweb fatwa 539349}
+
+## Tentang rekaman ini
+
+Fatwa Center di IslamWeb menerbitkan fatwa ini di situs webnya islamweb.net No. 539349 tertanggal 17 Jumada al-Awwal 1448 yang sesuai dengan 28 Oktober 2026. {cite:islamweb fatwa 539349} Museum mencatat teks ini sebagai dokumen sejarah yang dikaitkan dengan penerbitnya, dan tidak mengeluarkan fatwa.

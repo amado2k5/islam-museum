@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "1587"
-label: { ar: "صحيح البخاري 1587 — ما حُرّم", en: "Sahih al-Bukhari 1587 — what was made unlawful", ur: "صحیح بخاری 1587 — جو حرام کیا گیا", es: "Sahih al-Bukhari 1587 — lo que se declaró ilícito", fr: "Sahih al-Bukhari 1587 — ce qui a été déclaré illicite" }
+label: { ar: "صحيح البخاري 1587 — ما حُرّم", en: "Sahih al-Bukhari 1587 — what was made unlawful", ur: "صحیح بخاری 1587 — جو حرام کیا گیا", es: "Sahih al-Bukhari 1587 — lo que se declaró ilícito", fr: "Sahih al-Bukhari 1587 — ce qui a été déclaré illicite", tr: "Sahih el-Buhari 1587 — Haram Olan Şeyler", id: "Sahih al-Bukhari 1587 — Apa yang dilarang" }
 text: "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا جَرِيرُ بْنُ عَبْدِ الْحَمِيدِ، عَنْ مَنْصُورٍ، عَنْ مُجَاهِدٍ، عَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍما ـ قَالَ قَالَ رَسُولُ اللَّهِ يَوْمَ فَتْحِ مَكَّةَ \" إِنَّ هَذَا الْبَلَدَ حَرَّمَهُ اللَّهُ، لاَ يُعْضَدُ شَوْكُهُ، وَلاَ يُنَفَّرُ صَيْدُهُ، وَلاَ يَلْتَقِطُ لُقَطَتَهُ إِلاَّ مَنْ عَرَّفَهَا \"."
 summary:
   ar: "حديث في صحيح البخاري، رقم 1587، يذكر ما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 1587، جس میں جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
   es: "Un relato en Sahih al-Bukhari, n.° 1587 (Hajj (Peregrinación)), menciona lo que se considera ilícito. El Navegador Halal y Haram lo incluye junto con los textos del Corán, la Sunnah, la sirah y los relatos de los Compañeros y Sucesores sobre lo que es lícito e ilícito."
   fr: "Un hadith du Sahih al-Bukhari, n° 1587 (Hajj (Pèlerinage)), mentionne ce qui a été déclaré illicite. Le Halal and Haram Browser le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les hadiths des Compagnons et des Successeurs concernant ce qui est licite et ce qui est illicite."
+  tr: "Sahih el-Buhari'de 1587 numaralı hadis, haram olan şeylerden bahsetmektedir. \"Helal ve Haram\" kitabının bu bölümü, helal ve haram olan şeylerle ilgili olarak Kur'an, Sünnet, Peygamberimizin hayatı ve Sahabeler ile onların haleflerinin sözlerinden derlenmiştir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 1587, menyebutkan apa yang diharamkan. Bagian buku \"Halal dan Haram\" ini menyusunnya dengan teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan ucapan para Sahabat dan Penerus mereka mengenai apa yang diperbolehkan dan apa yang diharamkan."
 relations:
   - { type: part_of, target: passage/bukhari-kitab-25 }
   - { type: mentions, target: concept/halal-haram, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }

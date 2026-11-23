@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2481"
-label: { ar: "الموطأ 2481 — مالك: لا تكون الغرة في الجنين حتى يسقط ميتا", en: "Muwatta 2481", es: "Muwatta 2481", fr: "Muwatta 2481", ur: "موطا 2481" }
+label: { ar: "الموطأ 2481 — مالك: لا تكون الغرة في الجنين حتى يسقط ميتا", en: "Muwatta 2481", es: "Muwatta 2481", fr: "Muwatta 2481", ur: "موطا 2481", tr: "Al-Muwatta 2481 — Malik: Bir cenin için ceza, ancak ölü doğduğunda kesilir.", id: "Al-Muwatta 2481 — Malik: Denda untuk janin tidak dikenakan sampai janin tersebut lahir mati." }
 summary:
   ar: "قال مالك: ولم أسمع أحدا يخالف في أن الجنين لا تكون فيه الغرة حتى يزايل بطن أمه ويسقط من بطنها ميتا. {cite:muwatta-maruf-1997 p.425}"
+  tr: "Malik şöyle dedi: \"Cenînin anne karnından çıkıp ölene kadar kan parasına (gurrah) tabi olmadığı konusunda kimsenin itiraz ettiğini duymadım.\" {cite:muwatta-maruf-1997 s.425}"
+  id: "Malik berkata: Saya belum pernah mendengar ada yang membantah bahwa janin tidak dikenakan uang darah (ghurrah) sampai ia keluar dari rahim ibunya dan meninggal dunia. {cite:muwatta-maruf-1997 p.425}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

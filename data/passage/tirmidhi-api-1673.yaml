@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1673"
-label: { ar: "جامع الترمذي 1673 — الأب والأبوة", en: "Jami' al-Tirmidhi 1673 — the father and fatherhood", ur: "جامع ترمذی 1673 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1673 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 1673 — le père et la paternité" }
+label: { ar: "جامع الترمذي 1673 — الأب والأبوة", en: "Jami' al-Tirmidhi 1673 — the father and fatherhood", ur: "جامع ترمذی 1673 — باپ اور والدیت", es: "Jami' al-Tirmidhi 1673 — El padre y la paternidad", fr: "Jami' al-Tirmidhi 1673 — le père et la paternité", tr: "Cami' el-Tirmizi 1673 — Baba ve Babalık", id: "Jami' al-Tirmidhi 1673 — Sang Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا أَحْمَدُ بْنُ عَبْدَةَ الضَّبِّيُّ الْبَصْرِيُّ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ عَاصِمِ بْنِ مُحَمَّدٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" لَوْ أَنَّ النَّاسَ يَعْلَمُونَ مَا أَعْلَمُ مِنَ الْوَحْدَةِ مَا سَرَى رَاكِبٌ بِلَيْلٍ \". يَعْنِي وَحْدَهُ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 1673، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 1673، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe de Jami' al-Tirmidhi, n.º 1673 (El Libro de la Yihad), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Jami' al-Tirmidhi, n° 1673 (Le Livre du Jihad), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Cami' el-Tirmizi'nin 1673 numaralı hadisinde baba ve babalık kavramından bahsedilir. Araştırmacı, bu hadisi İslam'da babalık bölümünde, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan metinlerle birlikte derlemiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 1673, menyebutkan tentang ayah dan peran ayah. Peneliti mengumpulkan hadits ini dalam bagian tentang peran ayah dalam Islam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1673 (book 23 hadith 4); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

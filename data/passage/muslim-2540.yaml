@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2540"
-label: { ar: "مسلم 2540 — لا تسبوا أصحابي", en: "Muslim 2540 — Do not revile my Companions", es: "Musulmán 2540 — No insultéis a mis Compañeros", fr: "Muslim 2540 — Ne maudissez pas mes Compagnons", ur: "مسلم 2540 - میرے صحابہ کو برا نہ کہو" }
+label: { ar: "مسلم 2540 — لا تسبوا أصحابي", en: "Muslim 2540 — Do not revile my Companions", es: "Musulmán 2540 — No insultéis a mis Compañeros", fr: "Muslim 2540 — Ne maudissez pas mes Compagnons", ur: "مسلم 2540 - میرے صحابہ کو برا نہ کہو", tr: "Müslim 2540 — Arkadaşlarıma hakaret etmeyin.", id: "Muslim 2540 — Jangan menghina teman-temanku" }
 text: "قال أبو هريرة: قال رسول الله: لا تسبوا أصحابي لا تسبوا أصحابي، فوالذي نفسي بيده لو أن أحدكم أنفق مثل أحد ذهباً ما أدرك مد أحدهم ولا نصيفه"
 summary:
   ar: "رواية أبي هريرة في باب تحريم سب الصحابة من كتاب فضائل الصحابة في صحيح مسلم؛ إنفاق مثل أحد ذهباً لا يبلغ مد صاحب ولا نصيفه."
+  tr: "Sahih Müslim'deki Sahabelerin Faziletleri kitabında, Sahabelere Hakaret Etmenin Yasaklanması bölümünde Ebu Hurayra'nın rivayetine göre: Uhud Dağı'nın değerine denk altın harcamak bile bir sahabenin mudd'una veya yarısına bile ulaşmaz."
+  id: "Riwayat Abu Hurairah dalam bab tentang larangan menghina para Sahabat dari kitab keutamaan para Sahabat dalam Sahih Muslim: Mengeluarkan uang senilai Gunung Uhud dalam bentuk emas tidak akan mencapai jumlah mudd seorang sahabat atau setengahnya."
 relations:
   - { type: mentions, target: concept/trade-in-islam, sources: [source/sahih-muslim] }
   - { type: part_of, target: passage/muslim-kitab-44 }

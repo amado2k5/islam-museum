@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "202"
-label: { ar: "مسلم 202 — اللهم أمتي أمتي", en: "Muslim 202 — O God, my ummah, my ummah", es: "Musulmán 202 — Oh Dios, mi ummah, mi ummah", fr: "Muslim 202 — Ô Dieu, ma communauté, ma communauté", ur: "مسلم 202 - اے اللہ، میری امت، میری امت" }
+label: { ar: "مسلم 202 — اللهم أمتي أمتي", en: "Muslim 202 — O God, my ummah, my ummah", es: "Musulmán 202 — Oh Dios, mi ummah, mi ummah", fr: "Muslim 202 — Ô Dieu, ma communauté, ma communauté", ur: "مسلم 202 - اے اللہ، میری امت، میری امت", tr: "Müslim 202 — Ey Allah'ım, ümmetim, ümmetim", id: "Muslim 202 — Ya Allah, umatku, umatku" }
 text: "قال عبد الله بن عمرو بن العاص: تلا النبي قول إبراهيم: رب إنهن أضللن كثيراً من الناس، وقال عيسى الكلمة: إن تعذبهم فإنهم عبادك، فرفع يديه وقال: اللهم أمتي أمتي وبكى، فقال الله: يا جبريل اذهب إلى محمد فسله ما يبكيك... فقال: يا محمد إنا سنرضيك في أمتك ولا نسوءك"
 summary:
   ar: "رواية عبد الله بن عمرو بن العاص في باب دعاء النبي لأمته من كتاب الإيمان في صحيح مسلم؛ دعاء الشفاعة بعد تلاوة قول إبراهيم وقول عيسى، ووعد الإرضاء في الأمة."
+  tr: "Sahih Müslim'de yer alan İman Kitabı'ndaki Peygamberin ümmeti için duası bölümünde Abdullah bin Amr bin Al-Aas tarafından rivayet edilmiştir; İbrahim ve İsa'nın sözleri okunduktan sonra yapılan şefaat duası ve ümmetin kurtuluşu vaadi."
+  id: "Diriwayatkan oleh Abdullah bin Amr bin Al-Aas dalam surah tentang doa Nabi untuk umatnya dari Kitab Iman dalam Sahih Muslim; doa memohon syafaat setelah membaca sabda Ibrahim dan sabda Isa, serta janji penebusan bagi umat."
 relations:
   - { type: part_of, target: passage/muslim-kitab-01 }
   - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }

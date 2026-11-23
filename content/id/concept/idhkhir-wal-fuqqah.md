@@ -1,0 +1,18 @@
+---
+id: concept/idhkhir-wal-fuqqah
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/concept/idhkhir-wal-fuqqah.md}
+---
+## Alam dan Pilihan
+Ada jenis Idhkhār: beberapa Bedouin yang harum, beberapa Ajamī, beberapa flourish yang lebih keras, dan beberapa tebal, lebih longgar dan tidak berbau {cite:canon-ibn-sina-print-v1 p.348}. Dioscorides melaporkan bahwa İzkhār memiliki dua jenis: satu tidak berbuah dan yang lain berbuah hitam {cite:canon-ibn-sina-print-v1 p.348}. Yang terbaik adalah merah dengan aroma paling harum, sementara flakhahnya berwarna kemerahan; jika retak, menjadi verfiria. Ia subur, mirip dengan aroma mawar saat dipetik tangan; yang paling bermanfaat adalah pada bunga, kuncup, akar, dan batangnya, dan menyengat lidah lalu mencabutnya {cite:canon-ibn-sina-print-v1 p.349}. Dalam catatan kaki peneliti, dinyatakan bahwa fākah berasal dari setiap tanaman bunga {cite:canon-ibn-sina-print-v1 p.349}.
+
+## Temperamen dan Tindakan
+Di Ajamis, ia memiliki kekuatan pendinginan, dan menurut Ibn Jurayj, semuanya dingin, awalnya lebih kencang. 'Faqah' sedikit memanas dan cengkeramannya kurang panas dari panasnya, dan Bedouin hampir panas dan kering pada yang kedua {cite:canon-ibn-sina-print-v1 p.349}. Faqah memiliki ketat, sehingga 'Faqah'-nya bermanfaat untuk meniupkan darah ke mana pun ia berada. Lemaknya larut dan mengerut, dan asalnya lebih kuat dalam hal itu. Faqah mengencangkan alam, matang dan melunak, membuka mulut pembuluh darah, menenangkan rasa sakit internal, dan melarutkan angin {cite:canon-ibn-sina-print-v1 p.349}.
+
+## Manfaat oleh Anggota
+Minyaknya bermanfaat untuk rasa gatal bahkan pada hewan, cara memasaknya bermanfaat untuk tumor panas, kekerasan internal saat minum, memasak, dan memasak, serta tumor dingin di usus {cite:canon-ibn-sina-print-v1 p.349}. Minyak ini bermanfaat bagi otot dan kejang, serta minyaknya meredakan kelelahan {cite:canon-ibn-sina-print-v1 p.349}. Minyak ini berat di kepala, terutama yang parah, tetapi yang lebih halus menyebabkan retakan, yang tebal menyebabkan tidur, dan biji mati rasa. Semua ini memperkuat otot dan mengeringkan kelembapannya. Kekasarannya memurnikan kepala {cite:canon-ibn-sina-print-v1 p.349}. Membantu mengurangi nyeri paru-paru, dan kekasarannya bermanfaat untuk pembengkakan darah {cite:canon-ibn-sina-print-v1 p.349}. Asalnya memperkuat lambung, merangsang nafsu makan, dan meredakan mual. Kekasarannya meredakan sakit perut dan bermanfaat bagi tumor lambung serta tumor hati {cite:canon-ibn-sina-print-v1 p.349}. Bijinya memecah batu dan memperkuat alam, terutama dua agamen. Kekasarannya bermanfaat untuk nyeri ginjal, perdarahan, dan ascites, serta bermanfaat untuk menenangkan tumor {cite:canon-ibn-sina-print-v1 p.349}. Jenis kasar, jika dibalut dengan daun yang lembut setelah asalnya, bermanfaat terhadap sengatan hama {cite:canon-ibn-sina-print-v1 p.349}. Jumlah tidak dipindahkan.
+
+## Rahim, menstruasi, janin, dan bah (transfer berjudul, ditangguhkan atas penilaian pendiri)
+Buku tersebut menyebutkan bahwa obat ini meredakan nyeri internal "terutama di dalam rahim" {cite:canon-ibn-sina-print-v1 p.349}; bahwa ini sangat bermanfaat untuk nyeri rahim; bahwa duduk di dalam proses memasaknya bermanfaat untuk tumor rahim panas, serta jika menetes atau merasakan airnya {cite:canon-ibn-sina-print-v1 p.349}; dan bahwa bijinya menghentikan pendarahan pada wanita {cite:canon-ibn-sina-print-v1 p.349}. Ini adalah penularan yang dikaitkan dengan buku tanpa rekomendasi.

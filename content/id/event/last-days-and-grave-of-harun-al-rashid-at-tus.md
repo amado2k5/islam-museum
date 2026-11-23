@@ -1,0 +1,31 @@
+---
+id: event/last-days-and-grave-of-harun-al-rashid-at-tus
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/event/last-days-and-grave-of-harun-al-rashid-at-tus.md}
+---
+## Ringkasan
+Khalifah [[person/harun-al-rashid|Harun al-Rashid]] meninggal di [[place/tus|Tus]] pada tahun 193 AH saat sakit dalam perjalanan ke Tus. Sejarah mencatat bahwa ia memerintahkan makamnya digali saat masih hidup, dibawa dalam bungkus hingga ia melihatnya, dan sebuah segel dibacakan di sana. {cite:tarikh-islam-dhahabi scan vol. 16 p. 14} Kemudian putranya Salih berdoa untuknya dan ia dimakamkan di sebuah desa di Tus bernama Sanabadh. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613} Museum menyimpan kartu pendahuluan untuk [[building/harun-al-rashid-mausoleum-tus|makam Harun al-Rashid di Tus]], yang sumbernya belum ditinjau. Catatan ini melengkapi [[event/death-of-harun-al-rashid|catatan kematian al-Rashid]].
+
+## Penyakit
+Ibn Kathir menceritakan bahwa penyakitnya berkaitan dengan darah, dan dikatakan tuberkulosis, serta tabib [[person/jibril-ibn-bukhtishu|Jibril ibn Bakhtishu]] yang menyembunyikan penyakitnya. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613} Al-Rashid memerintahkan seorang pria untuk mengambil airnya dalam botol dan membawakannya kepada Gabriel, tanpa menyebutkan urinnya. Ketika Gabriel melihatnya, ia mengatakan itu adalah air pria itu. Ia mengenali pemilik botol itu dan bertanya, mengatakan bahwa ia hanya akan hidup beberapa hari. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613} Ketika Al-Rashid memberitahunya, ia memanggil Gabriel, tetapi Gabriel menghilang hingga Al-Rashid meninggal. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613} Dalam riwayat lain yang disampaikan oleh Al-Dhahabi, Gabriel melakukan kesalahan dalam merawatnya, yang menjadi penyebab kematiannya. Al-Rashid memahami untuk memutusnya dan berkata, 'Tunggu sampai besok agar kau bangun dengan sehat.' Ia meninggal pada hari itu. {cite:tarikh-islam-dhahabi scan vol. 16 p. 14}
+
+## Makam yang ia perintahkan untuk digali
+Al-Dhahabi menceritakan bahwa Al-Rashid melihat dalam mimpi bahwa dia memimpin doa di hari Tus, maka dia menangis dan berkata, 'Gali kubur untukku.' Mereka menggalinya, lalu dia dibawa ke kubah di atas unta dan dibawa sampai melihat ke makam itu, berkata: 'Wahai putra Adam, engkau akan sampai ke sini.' Dia memerintahkan sekelompok orang turun dan menyegel kuburnya saat kubur itu disegel di tepi makam. {cite:tarikh-islam-dhahabi scan vol. 16 p. 14} Ibn Kathir menyebutkan bahwa dia memerintahkan makamnya digali selama hidupnya dan agar segel lengkap dibacakan di sana. Dia membawanya sampai menatapnya dan mulai berkata: 'Kamu datang, putra Adam,' lalu dia menangis, dan memerintahkan agar dadanya diperluas. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613} Ibn Kathir juga menyebutkan mimpi tentang pohon palem dan tanah merah, mengatakan: Ini adalah tanah Panglima Orang Beriman. Ia juga mengatakan bahwa Ibn Asakir menceritakan bahwa al-Rashid melihat dalam mimpi mengatakan sesuatu tentang hal itu, dan sebelumnya telah disebutkan bahwa saudaranya Musa al-Hadi dan ayah mereka Muhammad al-Mahdi melihatnya, jadi Allah yang paling tahu. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613}
+
+## Kata-kata terakhirnya
+Ibn Kathir menceritakan bahwa ia berkata saat kematiannya: Ya Allah, berikanlah kami kebaikan dan ampunilah kerugian kami. Wahai Engkau yang tidak pernah mati, kasihanilah mereka yang mati. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613} Ia membacakan dua ayat di mana penulis Kitab mengatakan bahwa kekayaannya tidak berguna dan kekuasaannya telah punah [[passage/quran-69-28|, Al-Haqqa 28]] [[passage/quran-69-29|, Al-Haqqa 29]], dan membacakan ayat-ayat yang menyebutkan bahwa ia tinggal di Tus dan tidak memiliki sahabat dekat di sana, dan bahwa ia berharap atas rahmat Tuhan-nya serta tunduk pada takdir dan kesabaran. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613}
+
+## Kematian, Doa, dan Pemakaman
+Ia meninggal di Tus pada hari Sabtu, tiga hari setelah Jumada al-Akhirah pada tahun seratus sembilan puluh tiga, dan beberapa mengatakan di Jumada al-Awwal, dan beberapa mengatakan di Rabi' al-Awwal. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613} Ia berusia empat puluh lima tahun, dan beberapa mengatakan enam, tujuh, atau empat puluh delapan, dan khalifahnya berlangsung dua puluh tiga tahun, bulan, dan delapan belas hari. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613} Putranya Salih berdoa untuknya dan dimakamkan di sebuah desa di Tus bernama Sanabadh. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613} Ibn Kathir menyebutkan bahwa beberapa ayat eleginya dibacakan di tenda al-Rashid di Sanabadh, dan orang-orang meninggalkan Tus setelah kematiannya. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613}
+
+## Apa yang dikatakan tentang kematiannya
+Ibn Kathir menceritakan dari al-Fudayl ibn Iyad bahwa ia biasa berkata bahwa tidak ada kematian yang lebih berharga baginya daripada kematian al-Rashid, karena peristiwa yang ia takutkan setelahnya, dan ia berdoa kepada Tuhan agar memperpanjang umurnya. Ketika ia meninggal, berbagai ujian dan perselisihan muncul, dan kepercayaan akan penciptaan Al-Qur'an menjadi jelas, mereka menyadari apa yang ia takutkan. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 612} Al-Dhahabi mengatakan bahwa al-Rashid mengikuti moral al-Mansur kecuali dalam membelanjakan kekayaan. {cite:tarikh-islam-dhahabi scan vol. 16 p. 15}
+
+## Narasi dan Perbedaannya
+Cerita berbeda mengenai bulan kematiannya, usianya, dan penyebab penyakitnya: tuberkulosis, darah, atau perlakuan buruk. {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613} Al-Dhahabi menceritakan bahwa makam itu digali setelah mimpi dalam mimpi, dan Ibn Kathir juga menceritakan bahwa mimpi itu dilihat oleh orang-orang yang tidak rasional. {cite:tarikh-islam-dhahabi scan vol. 16 p. 14}
+
+## Sumber dan Dokumentasi
+Ia mengandalkan Ibn Kathir dan al-Dhahabi. Jilid-jilid al-Tabari untuk tahun 193 H tidak termasuk dalam halaman yang dibaca. Kami tidak menemukan surat wasiat tertulis dari Harun al-Rashid kepada putra-putranya setelah kematian.

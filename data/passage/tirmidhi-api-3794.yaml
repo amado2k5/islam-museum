@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "3794"
-label: { ar: "جامع الترمذي 3794 — جمع القرآن والمصاحف", en: "Jami' al-Tirmidhi 3794 — the collection of the Qur'an and the codices", ur: "جامع ترمذی 3794 — جمعِ قرآن اور مصاحف", es: "Jami' al-Tirmidhi 3794 — la colección del Corán y los códices", fr: "Jami' al-Tirmidhi 3794 — le recueil du Coran et des codex" }
+label: { ar: "جامع الترمذي 3794 — جمع القرآن والمصاحف", en: "Jami' al-Tirmidhi 3794 — the collection of the Qur'an and the codices", ur: "جامع ترمذی 3794 — جمعِ قرآن اور مصاحف", es: "Jami' al-Tirmidhi 3794 — la colección del Corán y los códices", fr: "Jami' al-Tirmidhi 3794 — le recueil du Coran et des codex", tr: "Cami' el-Tirmizi 3794 — Kur'an ve Kur'an Reçeteleri Koleksiyonu", id: "Jami' al-Tirmidhi 3794 — Kumpulan Al-Qur'an dan Salinan Al-Qur'an" }
 text: "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ جَمَعَ الْقُرْآنَ عَلَى عَهْدِ رَسُولِ اللَّهِ أَرْبَعَةٌ كُلُّهُمْ مِنَ الأَنْصَارِ أُبَىُّ بْنُ كَعْبٍ وَمُعَاذُ بْنُ جَبَلٍ وَزَيْدُ بْنُ ثَابِتٍ وَأَبُو زَيْدٍ. قُلْتُ لأَنَسٍ مَنْ أَبُو زَيْدٍ قَالَ أَحَدُ عُمُومَتِي. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 3794، يذكر جمع القرآن والمصاحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 3794، جس میں جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 3794 (Capítulos sobre las virtudes), menciona la colección del Corán y los códices. El catálogo del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 3794 (Chapitres sur les vertus), mentionne la collection du Coran et des codex. Le catalogue du musée, consacré à la lecture et à l'écriture du Coran, répertorie ces documents avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Cami' el-Tirmizi'de 3794 numaralı hadis, Kur'an'ın ve el yazmalarının derlenmesinden bahsetmektedir. Bu hadis, Kur'an okunuşları, yazısı, hat sanatı ve diyakritik işaretleri konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 3794, menyebutkan penyusunan Al-Quran dan manuskrip-manuskripnya. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/mushaf, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3794 (book 49 hadith 193); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

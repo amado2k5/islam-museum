@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "8"
-label: { ar: "موطأ مالك — حديث 8", en: "Muwatta Malik 8 — The Times of Prayer", ur: "موطأ مالک — حدیث 8", es: "Muwatta Malik 8 — Los tiempos de oración", fr: "Muwatta Malik 8 — Les Heures de la Prière" }
+label: { ar: "موطأ مالك — حديث 8", en: "Muwatta Malik 8 — The Times of Prayer", ur: "موطأ مالک — حدیث 8", es: "Muwatta Malik 8 — Los tiempos de oración", fr: "Muwatta Malik 8 — Les Heures de la Prière", tr: "Muwatta Malik — Hadis 8", id: "Muwatta Malik — Hadits 8" }
 text: "أَبِيهِ، أَنَّ عُمَرَ بْنَ الْخَطَّابِ، كَتَبَ إِلَى أَبِي مُوسَى الأَشْعَرِيِّ أَنْ صَلِّ الْعَصْرَ، وَالشَّمْسُ، بَيْضَاءُ نَقِيَّةٌ قَدْرَ مَا يَسِيرُ الرَّاكِبُ ثَلاَثَةَ فَرَاسِخَ وَأَنْ صَلِّ الْعِشَاءَ مَا بَيْنَكَ وَبَيْنَ ثُلُثِ اللَّيْلِ فَإِنْ أَخَّرْتَ فَإِلَى شَطْرِ اللَّيْلِ وَلاَ تَكُنْ مِنَ الْغَافِلِينَ ‏.‏"
 summary:
   ar: "في موطأ مالك؛ إرسال كتاب أو رسالة إلى طرف."
@@ -11,6 +11,8 @@ summary:
   ur: "موطأ مالک میں؛ کسی فریق کو خط یا پیغام بھیجنا."
   es: "En Muwatta Malik; enviar una carta o mensaje a un partido."
   fr: "En muwatta malik; envoyer une lettre ou un message à une partie."
+  tr: "Malik'in Muwatta'sında; bir kişiye kitap veya mektup göndermek."
+  id: "Dalam Muwatta Malik; mengirim buku atau surat ke suatu pihak."
 relations:
   - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
   - { type: mentions, target: concept/al-mukatabat, sources: [source/muwatta-malik] }

@@ -1,0 +1,27 @@
+---
+id: person/abbas-i-safavi
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/person/abbas-i-safavi.md}
+---
+## Ringkasan
+Abbas I (27 Januari 1571 – 19 Januari 1629), dikenal sebagai Abbas yang Agung, adalah Shah kelima dari negara Safawiyah di Iran, memerintah dari tahun 1587/1588 hingga 1629. Ia adalah putra ketiga Muhammad Khodabandeh dan dianggap sebagai penguasa terbesar keluarga Safawi. Ia membangun kembali tentara dan negara, merebut kembali wilayah yang hilang dari Uzbek dan Ottoman, menjadikan Isfahan sebagai ibu kotanya dan salah satu kota utama dunia Islam, serta membawa Safawiyah Iran ke puncak kekuasaannya. {cite:wikipedia-abbas-the-great-en} {cite:iranica-abbas-i}
+
+## Masa kecilnya dan Asumsi Kekuasaan
+Ia lahir di Herat pada 27 Januari 1571 — Ensiklopedia Sejarah Iran terkait dengan 1 Ramadan 978 — ia adalah putra ketiga Mohammad Khodabandeh dan wanita terbaik Begum, Mahd Alia. Ia tumbuh besar di Khorasan di bawah pengawasan para pemimpin Qizilbash dan merupakan tokoh kunci dalam konflik faksi pada masa ayahnya: ibunya tewas dalam konspirasi Qizilbashi pada tahun 1579, dan kakak laki-lakinya, Putra Mahkota Hamza Mirza, dibunuh pada tahun 1586. Pada Oktober 1587, walinya, Murshid Quli Khan Astagli, membawanya ke Qazvin dan bersumpah setia kepadanya sebagai Shah menggantikan ayahnya yang digulingkan; Ensiklopedia Iran mencatat penyerahan lambang kerajaan resmi pada 1 Oktober 1588. {cite:wikipedia-abbas-the-great-en} {cite:iranica-abbas-i} {cite:wikidata-abbas-the-great}
+
+## Rekonstruksi Negara
+Shah pertama kali menyingkirkan pembuat rajanya: Murshid Quli Khan dibunuh pada tahun 1589 dengan kolusi budak Georgia, Lahordi Khan. Untuk menyingkirkan ksatria suku Qizilbash, ia membentuk tentara reguler pemuda — mualaf Islam dari orang Georgia, Armenia, dan Circassia yang ditangkap — bersama dengan korps senapan dan artileri dengan bantuan saudara Shirley dari Inggris, yang didanai dengan mengubah wilayah negara menjadi wilayah Mahkota. Pada tahun 1590, karena terlalu lemah untuk bertempur di dua front, ia menandatangani Perjanjian Istanbul, menyerahkan Azerbaijan, Georgia, dan wilayah barat lainnya kepada Ottoman, mendedikasikan dirinya kepada Uzbek. {cite:wikipedia-abbas-the-great-en} {cite:iranica-abbas-i}
+
+## Penebusan
+Ia mengarahkan pasukan barunya ke timur terlebih dahulu: mengalahkan Uzbek pada tahun 1598 dan merebut kembali Herat serta Mashhad setelah sepuluh tahun pendudukan. Ia kemudian beralih ke Ottoman, merebut kembali Tabriz pada tahun 1603, lalu merebut kembali kampanye demi kampanye semua yang telah ia akui pada tahun 1590; mengonfirmasi perdamaian tahun 1612 dan pemukiman Sarab pada tahun 1618, merebut kembali perbatasan yang dipulihkan. Perang dilanjutkan pada tahun 1623, dan Baghdad direbut. Kandahar direbut kembali dari Mongol pada tahun 1622, dan pada tahun yang sama, Portugis diusir dari Hormuz—dengan bantuan kapal-kapal dari Perusahaan Hindia Timur Inggris—pulau yang menguasai perdagangan Teluk. {cite:wikipedia-abbas-the-great-en} {cite:iranica-abbas-i}
+
+## Isfahan dan Seni
+Pada tahun 1598, ibu kota dipindahkan dari Qazvin ke Isfahan dan dibangun kembali di sekitar Alun-Alun Shah Agung, dikelilingi oleh Masjid Shah, Masjid Sheikh Lutfollah, Istana Ali Qabo, dan Pasar Caesarea. Dari sana, Jalan Jahar Bagh melintasi Sungai Zayandeh. Ribuan pengrajin Armenia yang dipindahkan dari Julva menetap di distrik Jolva yang baru, di mana perdagangan sutra berkembang pesat—yang merupakan monopoli kerajaan—dan karpet, tekstil, Qashani, serta seni buku mencapai puncak yang terkenal. Duta besar, pedagang, dan pelancong Eropa mengunjungi istananya. {cite:wikipedia-abbas-the-great-en} {cite:iranica-abbas-i}
+
+## Agamanya
+Seperti hampir semua raja Safawi, Abbas adalah Muslim Syiah Dua Belas yang sangat menghormati Imam Husayn. Ia melestarikan ritual para sheikh Safavid di Ardabil, dengan murah hati mendukung makam Imam Reza di Mashhad, dan melakukan ziarah berjalan kaki pada tahun 1601 dari Isfahan ke Mashhad, melakukan perbuatan sederhana di makam tersebut untuk menunjukkan kesalehannya. Tindakan ini memperkuat klaim Shah Safavid bahwa mereka adalah wakil Imam Kedua Belas di bumi, menyimpan dana ziarah di Iran saat Karbala dan Najaf berada di bawah kendali Ottoman. Artikel dalam bahasa Inggris dan Arab menyebut agamanya sebagai Syiah Dua Belas; Ensiklopedia Iran mendokumentasikan religiusitas yang sama. {cite:wikipedia-abbas-the-great-en} {cite:wikipedia-abbas-the-great-ar} {cite:iranica-abbas-i}
+
+## Kematian dan warisannya
+Kesehatannya memburuk sejak tahun 1621. Karena takut putra-putranya akan digunakan melawannya seperti yang ia lakukan terhadap ayahnya, ia memenjarakan mereka di harem; salah satu putranya dan dua pamannya dieksekusi atas dugaan, dan dua lainnya meninggal sebelum dia. Ia meninggal di istananya di Farahabad di pesisir Laut Kaspia — dan Wikidata menyebut tempat itu Behshahr, kota tetangga — pada 19 Januari 1629 (Jumada al-Awwal 1038 dalam konteks Ensiklopedia Iran), dan dimakamkan di makamnya di Kashan. Ia digantikan oleh cucunya, Safi. {cite:wikipedia-abbas-the-great-en} {cite:wikidata-abbas-the-great} {cite:iranica-abbas-i}

@@ -3,7 +3,7 @@ class: passage
 unit: chapter
 work: work/tafsir-ibn-kathir
 ref: "1:10"
-label: { ar: "تفسير ابن كثير، المجلد المصوَّر 1، ص 10 — قراءات القرآن، القراء", en: "Ibn Kathir's Tafsir, scan volume 1, p. 10 — the readings of the Qur'an; the readers", ur: "تفسیر ابن کثیر، اسکین جلد 1، ص 10 — قرآن کی قراءتیں، قراء", es: "Tafsir de Ibn Kathir, escaneo del volumen 1, pág. 10 - las lecturas del Corán; los lectores", fr: "Tafsir d'Ibn Kathir, scan volume 1, p. 10 — les lectures du Coran; les lecteurs" }
+label: { ar: "تفسير ابن كثير، المجلد المصوَّر 1، ص 10 — قراءات القرآن، القراء", en: "Ibn Kathir's Tafsir, scan volume 1, p. 10 — the readings of the Qur'an; the readers", ur: "تفسیر ابن کثیر، اسکین جلد 1، ص 10 — قرآن کی قراءتیں، قراء", es: "Tafsir de Ibn Kathir, escaneo del volumen 1, pág. 10 - las lecturas del Corán; los lectores", fr: "Tafsir d'Ibn Kathir, scan volume 1, p. 10 — les lectures du Coran; les lecteurs", tr: "İbn Kathir'in Tefsiri, Resimli Cilt 1, s. 10 — Kur'an Okumaları, Okuyucular", id: "Tafsir Ibn Kathir, Jilid 1 Bergambar, hlm. 10 — Bacaan Al-Qur'an, Para Qari" }
 text: "… بهاء الدين القاسم بن عساكر زَحَمّ الله. - محمد بن جعفر اللباد، شيخ القراءات زحَمّ اللهُ. وغيرهم من الأعلام الكثير والكثير."
 summary:
   ar: "مقطع من تفسير ابن كثير، المجلد المصوَّر 1، ص 10، يذكر قراءات القرآن، والقراء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط."
@@ -11,6 +11,8 @@ summary:
   ur: "تفسیر ابن کثیر، اسکین جلد 1، ص 10 کا اقتباس جس میں قرآن کی قراءتیں، قراء کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے درج کرتا ہے۔"
   es: "Un extracto del Tafsir de Ibn Kathir, volumen 1, pág. 10, que menciona las lecturas del Corán y sus lectores; tomado de la lectura automática, citado con un máximo de cuarenta palabras según la política de fuentes. El navegador del museo sobre cómo se leía y escribía el Corán lo incluye."
   fr: "Un extrait du Tafsir d'Ibn Kathir (tome 1, p. 10) mentionne les lectures du Coran et les lecteurs; extrait de la numérisation automatique, cité en quarante mots conformément à la politique relative aux sources. Ce passage figure dans le catalogue du musée consacré à la lecture et à la transcription du Coran."
+  tr: "İbn Kathir'in Tefsir'inin 1. cildinin 10. sayfasından, Kur'an'ın farklı okunuşlarını ve okuyucularını anlatan bir bölüm; makineyle okunabilir taranmış versiyondan alınmıştır. Metin, kaynak yönergelerine uygun olarak yaklaşık kırk kelimeden oluşmaktadır. Kur'an okunuşları, yazı, hat sanatı ve diyakritikler konusunda uzmanlaşmış bir araştırmacı tarafından derlenmiştir."
+  id: "Cuplikan dari Tafsir Ibn Kathir, Jilid 1, halaman 10, yang menyebutkan berbagai bacaan Al-Quran dan para qarinya; diambil dari versi hasil pemindaian yang dapat dibaca mesin. Teks tersebut diringkas sekitar empat puluh kata, sesuai dengan pedoman sumber. Teks ini disusun oleh seorang peneliti yang berspesialisasi dalam bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/tafsir-ibn-kathir] }
 provenance: { layer: own-research, source: "Apple Vision OCR of the scan tafsir/tafsir-ibn-kathir/0012994, page 10; a window of at most 40 words chosen by the qira'at detector (scripts/qiraat.ts); OCR text not corrected", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-ocr-1" }

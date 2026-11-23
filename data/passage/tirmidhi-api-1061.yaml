@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1061"
-label: { ar: "جامع الترمذي 1061 — القراء", en: "Jami' al-Tirmidhi 1061 — the readers", ur: "جامع ترمذی 1061 — قراء", es: "Jami' al-Tirmidhi 1061 — los lectores", fr: "Jami' al-Tirmidhi 1061 — les lecteurs" }
+label: { ar: "جامع الترمذي 1061 — القراء", en: "Jami' al-Tirmidhi 1061 — the readers", ur: "جامع ترمذی 1061 — قراء", es: "Jami' al-Tirmidhi 1061 — los lectores", fr: "Jami' al-Tirmidhi 1061 — les lecteurs", tr: "Cami' el-Tirmizi 1061 — Okuyucular", id: "Jami' al-Tirmidhi 1061 — Pembaca" }
 text: "… رَسُولُ اللَّهِ \" مَنْ قَدَّمَ ثَلاَثَةً لَمْ يَبْلُغُوا الْحُلُمَ كَانُوا لَهُ حِصْنًا حَصِينًا مِنَ النَّارِ \". قَالَ أَبُو ذَرٍّ قَدَّمْتُ اثْنَيْنِ. قَالَ \" وَاثْنَيْنِ \". فَقَالَ أُبَىُّ بْنُ كَعْبٍ سَيِّدُ الْقُرَّاءِ قَدَّمْتُ وَاحِدًا قَالَ \" وَوَاحِدًا وَلَكِنْ إِنَّمَا ذَاكَ عِنْدَ الصَّدْمَةِ الأُولَى \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ غَرِيبٌ. وَأَبُو عُبَيْدَةَ لَمْ يَسْمَعْ مِنْ أَبِيهِ."
 summary:
   ar: "حديث في جامع الترمذي، رقم 1061، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "جامع ترمذی کی حدیث نمبر 1061، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Jami' al-Tirmidhi, n.° 1061 (El Libro de los Funerales), menciona a los lectores. El navegador del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el tema."
   fr: "Un rapport du Jami' al-Tirmidhi, n° 1061 (Livre sur les funérailles), mentionne les lecteurs. Le catalogue du musée consacré à la lecture et à la transcription du Coran le répertorie avec les textes du Coran, la Sunna, la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Cami' el-Tirmizi'de 1061 numaralı hadis, Kur'an okuyucularından bahsetmektedir. Bu hadis, Kur'an okunuşları, yazısı, hat sanatı ve diyakritik işaretleri konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Jami' al-Tirmidhi, no. 1061, menyebutkan para pembaca Al-Quran. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1061 (book 10 hadith 97); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

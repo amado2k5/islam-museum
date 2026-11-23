@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani]
 work: work/muwatta-malik
 ref: "6.1165"
-label: { ar: "الموطأ 1165 — ابن عمر كان يحرك راحلته في بطن محسر قدر رمية بحجر", en: "Muwatta 1165", es: "Muwatta 1165", fr: "Muwatta 1165", ur: "موطا 1165" }
+label: { ar: "الموطأ 1165 — ابن عمر كان يحرك راحلته في بطن محسر قدر رمية بحجر", en: "Muwatta 1165", es: "Muwatta 1165", fr: "Muwatta 1165", ur: "موطا 1165", tr: "El-Muvatta 1165 — İbn Ömer, Muhassar vadisinde bineğini bir taş atımı mesafeye kadar hareket ettirirdi.", id: "Al-Muwatta 1165 — Ibnu Umar biasa menggerakkan tunggangannya di lembah Muhassar sejauh lemparan batu." }
 summary:
   ar: "يروي مالك عن نافع أن عبد الله بن عمر كان يحرك راحلته في بطن محسر قدر رمية بحجر. {cite:muwatta-maruf-1997 p.526}"
+  tr: "Malik, Nafi’den rivayetle Abdullah ibn Umar’ın Muhassar vadisinde bineğini bir taş atımı mesafeye kadar hareket ettirdiğini nakletmiştir. {cite:muwatta-maruf-1997 s.526}"
+  id: "Malik meriwayatkan dari Nafi’ bahwa Abdullah ibn Umar biasa menggerakkan kendaraannya di lembah Muhassar sejauh lemparan batu. {cite:muwatta-maruf-1997 p.526}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
   - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "2318"
-label: { ar: "صحيح البخاري — حديث 2318", en: "Sahih al-Bukhari 2318 — Representation, Authorization, Business by Proxy", ur: "صحیح بخاری — حدیث 2318", es: "Sahih al-Bukhari 2318 — Representación, autorización y negocios por poder", fr: "Sahih al-Bukhari 2318 — Représentation, autorisation, commerce par procuration" }
+label: { ar: "صحيح البخاري — حديث 2318", en: "Sahih al-Bukhari 2318 — Representation, Authorization, Business by Proxy", ur: "صحیح بخاری — حدیث 2318", es: "Sahih al-Bukhari 2318 — Representación, autorización y negocios por poder", fr: "Sahih al-Bukhari 2318 — Représentation, autorisation, commerce par procuration", tr: "Sahih el-Buhari — Hadis 2318", id: "Sahih al-Bukhari — Hadits 2318" }
 text: "يَا رَسُولَ اللَّهِ، إِنَّ اللَّهَ تَعَالَى يَقُولُ فِي كِتَابِهِ ‏{‏لَنْ تَنَالُوا الْبِرَّ حَتَّى تُنْفِقُوا مِمَّا تُحِبُّونَ‏}‏ وَإِنَّ أَحَبَّ أَمْوَالِي إِلَىَّ بِيْرُ حَاءَ، وَإِنَّهَا صَدَقَةٌ لِلَّهِ أَرْجُو بِرَّهَا وَذُخْرَهَا عِنْدَ اللَّهِ فَضَعْهَا يَا رَسُولَ اللَّهِ حَيْثُ شِئْتَ، فَقَالَ ‏\"‏ بَخٍ، ذَلِكَ مَالٌ رَائِحٌ، ذَلِكَ مَالٌ رَائِحٌ‏.‏ قَدْ سَمِعْتُ مَا قُلْتَ فِيهَا، وَأَرَى أَنْ تَجْعَلَهَا فِي الأَقْرَبِين …"
 summary:
   ar: "في صحيح البخاري؛ ذكر متعلق بالمكاتبات."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری میں؛ مکاتبات سے متعلق ذکر."
   es: "En Sahih al-Bukhari; una mención relacionada con la correspondencia."
   fr: "Dans Sahih al-Bukhari; une mention relative à la correspondance."
+  tr: "Sahih el-Buhari'de yazışmalara ilişkin bir zikir bulunmaktadır."
+  id: "Dalam Sahih al-Bukhari, terdapat penyebutan yang berkaitan dengan korespondensi."
 relations:
   - { type: part_of, target: passage/bukhari-kitab-40 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }

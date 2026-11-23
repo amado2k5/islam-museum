@@ -1,0 +1,12 @@
+---
+id: practice/dua-morning-evening-wellbeing
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/practice/dua-morning-evening-wellbeing.md}
+---
+## Özet
+El-Nawavi'nin sabah ve akşam bölümünde bahsettiği şeyler: Allah'ın Rab olarak huzuru, şükran anıları, iyi haller dilemek ve günün en iyisini dilemek, ayrıca her birinin zinciri hakkında söyledikleri. {cite:al-adhkar-nawawi-arnaut-1994 p. 79}
+
+## Al-Nawawi'nin 'Al-Adhkar'da topladıkları
+El-Nevevi, Thawban'dan Al-Tirmidhi adlı kitabında akşam 'Allah'tan Rabbim, dinim İslam'dan razıyım' diyen ve sonra Muhammed'in peygamberliğinden bahseden kişinin Allah'ın onu memnun etmesi gerektiğini anlatır. Zincirinde Hafiz'e göre zayıf olan Seyid bin Marzuban'ın olduğunu ve Tirmidi'nin bunun iyi, gerçek ve garip olduğunu söylediğini söyler. Ebu Davud ve En-Nasa'i bunu iyi bir aktarım zinciriyle anlatmışlardır, böylece orijinal hadis kurulmuştur {cite:al-adhkar-nawawi-arnaut-1994 p. 79}. Sünen Abi Davud'da Abdullah ibn Ghannam'dan zayıflatmadığı iyi bir zincirle rivayet eder: "Ey Allah, bu sabah ne bereketim var..." Çünkü yalnızca Senden eş yoktur." Ve sabah söyleyen günü için şükretmiştir, akşam söyleyen gecesi için şükrendir {cite:al-adhkar-nawawi-arnaut-1994 p. 79}. Sünen Abi Davud, El-Nesai ve İbn Majah'ta İbn Ömer tarafından rivayet edilir ki, [[person/muhammad|Peygamber]] "Ey Allah, bu dünyada ve ahirette selam diledim" diye terk etmeyecek ve El-Hakim rivayet zincirinin doğru olduğunu söylemiştir {cite:al-adhkar-nawawi-arnaut-1994 p. 80}. Sünen Abi Davud'da Ebu Malik Eş'ari'den şöyle rivayet eder: "Sabaha girdik ve egemenlik dünyaların Rabbi Allah'a aittir," sonra günün en iyisini dilemiştir; başlangıcını, zaferini, ışığını, bereketini, rehberliğini ve kötülüğünden sığınmasını {cite:al-adhkar-nawawi-arnaut-1994 p. 81}. İbn Abbas'tan Sünan Abi Davud'da rivayet edilir ki, kim okursa, ne zaman Rum Suresi'nden iki ayet aldı: [[passage/quran-30-17|Rum Suresi 17]] ve [[passage/quran-30-18|Ar-Rum Suresi 18]]. Zamanında neyi kaçırdığını fark etti ve Ebu Davud'un onu zayıflatmadığı, El-Buhari'nin zayıflattığı belirtilir {cite:al-adhkar-nawawi-arnaut-1994 p. 81}.

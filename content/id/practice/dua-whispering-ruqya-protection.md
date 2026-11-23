@@ -1,0 +1,12 @@
+---
+id: practice/dua-whispering-ruqya-protection
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-22, source: content/ar/practice/dua-whispering-ruqya-protection.md}
+---
+## Ringkasan
+Apa yang disusun al-Nawawi dalam bentuk bisikan, ruqyah (ruqyah) bersama Al-Fatiha, apa yang dibacakan di atas orang gila, yang digigit, mantra Hasan dan Husayn, serta permohonan pada masa pajak. {cite:al-adhkar-nawawi-arnaut-1994 p. 127}
+
+## Apa yang dikumpulkan al-Nawawi dalam 'Al-Adhkar'
+Dalam hal bisikan, Al-Nawawi menyebutkan [[passage/quran-41-36|Surah Fussilat 36]], dan menceritakan dalam dua Sahih dari Abu Huraira bahwa Iblis bertanya kepada seseorang siapa yang menciptakan ini dan yang itu sampai dia berkata, 'Siapa yang menciptakan Tuhanmu? Ketika dia mencapai itu, biarlah dia berlindung kepada Allah, dan aku berharap Dia membuatnya lebih lembut.' {cite:al-adhkar-nawawi-arnaut-1994 p. 127} Dinawayatkan dari Sahih Muslim dari Utsman ibn Abi al-As bahwa [[person/muhammad|Nabi]] memerintahkannya untuk mencari perlindungan dan meludah dari kirinya tiga kali {cite:al-adhkar-nawawi-arnaut-1994 p. 128}. Dalam apa yang dibacakan kepada yang mental dan yang tergigit, dia menceritakan dalam dua Sahih dari Abu Sa'id al-Khudri sebuah kisah tentang sekelompok sahabat yang berdoa kepada seorang guru hidup untuk membaca Pembukaan Kitab itu, dan dia berkata Nabi, 'Dan kamu tidak tahu bahwa itu adalah Ruqyah,' dan dia memerintahkan mereka untuk membagi ciptaan {cite:al-adhkar-nawawi-arnaut-1994 p. 129}. Dia menceritakan dari Sunan Abu Dawood, dengan rantai narasi yang dia gambarkan asli, dari Kharijah ibn al-Salt dari pamannya, bahwa dia melakukan ruqyah (Ruqyah) saat gila dengan Al-Fatiha dan dibebaskan {cite:al-adhkar-nawawi-arnaut-1994 p. 130}. Dalam jimat anak-anak, diceritakan dari Sahih al-Bukhari dari Ibn Abbas bahwa Nabi biasa mencari perlindungan kepada Hasan dan Husayn: 'Aku memohon perlindungan kepadamu dengan firman Allah yang sempurna dari setiap iblis, kejahatan, dan mata jahat' {cite:al-adhkar-nawawi-arnaut-1994 p. 131}. Dalam al-Kharaj, diceritakan dari kitab Ibn al-Sunni tentang beberapa istri Nabi doa untuk mengurangi apa yang ada di dalam mereka {cite:al-adhkar-nawawi-arnaut-1994 p. 131}.

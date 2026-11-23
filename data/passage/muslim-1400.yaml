@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1400"
-label: { ar: "مسلم 1400 — يا معشر الشباب من استطاع منكم الباءة فليتزوج", en: "Muslim 1400 — Young men, whoever can afford marriage should marry", es: "Musulmán 1400 — Jóvenes, quienes puedan costearse el matrimonio deben casarse.", fr: "Muslim 1400 — Jeunes hommes, que ceux qui en ont les moyens se marient", ur: "مسلم 1400 - نوجوان مرد، جو شادی کرنے کی استطاعت رکھتا ہو وہ شادی کر لے" }
+label: { ar: "مسلم 1400 — يا معشر الشباب من استطاع منكم الباءة فليتزوج", en: "Muslim 1400 — Young men, whoever can afford marriage should marry", es: "Musulmán 1400 — Jóvenes, quienes puedan costearse el matrimonio deben casarse.", fr: "Muslim 1400 — Jeunes hommes, que ceux qui en ont les moyens se marient", ur: "مسلم 1400 - نوجوان مرد، جو شادی کرنے کی استطاعت رکھتا ہو وہ شادی کر لے", tr: "Müslim 1400 — Ey gençler! Aranızda evlenmeye gücü yeten herkes evlensin.", id: "Muslim 1400 — Wahai para pemuda, siapa di antara kalian yang mampu menikah, maka menikahlah dengan siapa pun." }
 text: "قال رسول الله: «يا معشر الشباب، من استطاع منكم الباءة فليتزوج؛ فإنه أغض للبصر وأحصن للفرج، ومن لم يستطع فعليه بالصوم؛ فإنه له وجاء»"
 summary:
   ar: "رواية عبد الله بن مسعود في كتاب النكاح من صحيح مسلم، يرويها علقمة لما عرض عثمان تزويج ابن مسعود جارية شابة؛ أصل الترغيب في المبادرة إلى الزواج."
+  tr: "Alkame'nin rivayet ettiği, Sahih Müslim'deki Evlilik Kitabı'nda Abdullah bin Mesud'un anlattığına göre, Osman, İbn Mesud'a genç bir cariye ile nikah teklif etmiştir; bu da evliliğe acele etme teşvikinin kaynağıdır."
+  id: "Riwayat Abdullah bin Masoud dalam Kitab Pernikahan di Sahih Muslim, yang diriwayatkan oleh Alqama, ketika Utsman menawarkan untuk menikahkan Ibnu Masoud dengan seorang budak perempuan muda; asal mula anjuran untuk segera menikah."
 relations:
   - { type: part_of, target: passage/muslim-kitab-16 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

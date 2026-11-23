@@ -16,7 +16,7 @@ import { SITEMAP_CONFIG_DEFAULTS } from "../site/node_modules/@astrojs/sitemap/d
 
 // Keep in step with site/astro.config.mjs (`site` and the sitemap integration's i18n block).
 const SITE = "https://islam.museum/";
-const I18N = { defaultLocale: "ar", locales: { ar: "ar", en: "en", ur: "ur", fr: "fr", es: "es" } };
+const I18N = { defaultLocale: "ar", locales: { ar: "ar", en: "en", ur: "ur", fr: "fr", es: "es", tr: "tr", id: "id" } };
 
 const unescape = (s) => s.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&amp;/g, "&");
 

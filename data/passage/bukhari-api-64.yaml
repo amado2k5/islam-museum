@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "64"
-label: { ar: "صحيح البخاري — حديث 64", en: "Sahih al-Bukhari 64 — Knowledge", ur: "صحیح بخاری — حدیث 64", es: "Sahih al-Bukhari 64 — Conocimiento", fr: "Sahih al-Bukhari 64 — Connaissance" }
+label: { ar: "صحيح البخاري — حديث 64", en: "Sahih al-Bukhari 64 — Knowledge", ur: "صحیح بخاری — حدیث 64", es: "Sahih al-Bukhari 64 — Conocimiento", fr: "Sahih al-Bukhari 64 — Connaissance", tr: "Sahih el-Buhari — Hadis 64", id: "Sahih al-Bukhari — Hadits 64" }
 text: "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم بَعَثَ بِكِتَابِهِ رَجُلاً، وَأَمَرَهُ أَنْ يَدْفَعَهُ إِلَى عَظِيمِ الْبَحْرَيْنِ، فَدَفَعَهُ عَظِيمُ الْبَحْرَيْنِ إِلَى كِسْرَى، فَلَمَّا قَرَأَهُ مَزَّقَهُ‏.‏ فَحَسِبْتُ أَنَّ ابْنَ الْمُسَيَّبِ قَالَ فَدَعَا عَلَيْهِمْ رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ يُمَزَّقُوا كُلَّ مُمَزَّقٍ‏.‏"
 summary:
   ar: "في صحيح البخاري؛ ذكر كتابة كتاب أو إرساله."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری میں؛ خط لکھنے یا بھیجنے کا ذکر."
   es: "En Sahih al-Bukhari; mención de escribir o enviar una carta."
   fr: "Dans Sahih al-Bukhari; mention de la rédaction ou de l'envoi d'une lettre."
+  tr: "Sahih el-Buhari'de onun bir kitap yazdığı veya gönderdiği belirtilmektedir."
+  id: "Dalam Sahih al-Bukhari, disebutkan bahwa beliau menulis sebuah buku atau mengirimkannya."
 relations:
   - { type: part_of, target: passage/bukhari-kitab-03 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }

@@ -1,7 +1,7 @@
 id: event/conquest-of-dinawar
 class: event
 kind: conquest
-label: { ar: "فتح الدينور والصيمرة", en: "Conquest of Dinawar and al-Saymara (21 AH)", es: "Conquista de Dinawar y al-Saymara (21 AH)", fr: "Conquête de Dinawar et d'al-Saymara (21 AH)", ur: "دیناور اور الصیمارہ کی فتح ⁦(21 ہجری)⁩" }
+label: { ar: "فتح الدينور والصيمرة", en: "Conquest of Dinawar and al-Saymara (21 AH)", es: "Conquista de Dinawar y al-Saymara (21 AH)", fr: "Conquête de Dinawar et d'al-Saymara (21 AH)", ur: "دیناور اور الصیمارہ کی فتح ⁦(21 ہجری)⁩", tr: "Dinur ve Simra'nın açılışı", id: "Pembukaan Dinur dan Simra" }
 date:
   start: { edtf: "0641", hijri: "0021", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 21 بعد نهاوند؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 399}." }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Dinawar y al-Saymara fueron tomadas en la incursión posterior a Nahavand, cuando 'Umar ordenó a los musulmanes recorrer las tierras persas {cite:kamil-ibn-al-athir p. 399}."
   fr: "Dinawar et al-Saymara pris lors du balayage après Nahavand, lorsque 'Umar ordonna aux musulmans de parcourir les terres perses {cite:kamil-ibn-al-athir p. 399}."
   ur: "دیناور اور الصیمارہ کو نہاوند کے بعد جھاڑو میں لے لیا گیا، جب عمر نے مسلمانوں کو فارس کی سرزمین سے نکلنے کا حکم دیا تھا۔ 399}۔"
+  tr: "Nahavand Savaşı'nın ardından Dinar, Simera ve ötesinin fethi, Ömer'in emriyle Müslümanların Pers topraklarına doğru genişlemesinin bir parçasıydı. {Kaynak: Kamil ibn al-athir, s. 399}"
+  id: "Penaklukan Dinawar, Simera dan sekitarnya, setelah Pertempuran Nahavand, merupakan bagian dari perluasan wilayah Muslim ke tanah Persia atas perintah Umar {cite:kamil-ibn-al-athir p. 399}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/dinawar, sources: [source/kamil-ibn-al-athir] }
