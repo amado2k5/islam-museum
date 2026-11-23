@@ -1299,4 +1299,495 @@ sources:
       note: 'object/monument records + materials-techniques notes across Mediterranean; cite by catalogue record'
     status: enabled
 
+  # Founder-directed additions, 22 November 2026: the two shelves catalogued in
+  # docs/agents/source-families.md (the Naskh reference shelf and the Qur'an,
+  # animals and hadith web shelf). Registered with terms unconfirmed and a
+  # facts-only posture; each family's licence and robots.txt are read and its
+  # data/source entity and attribution row land before its first harvest.
+  saudipedia:
+    name: Saudipedia
+    url: https://saudipedia.com
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, record text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'Saudi national encyclopedia; founder example: the King Fahd Glorious Quran Printing Complex entry (Naskh shelf ref 64)'
+    status: enabled
+  ancient-arabia:
+    name: Ancient Arabia (CNRS)
+    url: https://ancientarabia.huma-num.fr
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, record text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'archaeology and epigraphy of pre-Islamic Arabia (Naskh shelf ref 13, the Namara epitaph)'
+    status: enabled
+  quran-archive-project:
+    name: Quran Archive Project
+    url: https://qrnr.org
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, record text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'Qur''an manuscripts and printed editions, copy by copy (Naskh shelf ref 17, the King Fu''ad mushaf)'
+    status: enabled
+  smarthistory:
+    name: Smarthistory
+    url: https://smarthistory.org
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, record text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'open-access art-history essays (Naskh shelf ref 31, "Adorning the Qur''an")'
+    status: enabled
+  isac-chicago:
+    name: ISAC — Institute for the Study of Ancient Cultures, University of Chicago
+    url: https://isac.uchicago.edu
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, publication text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; open-access PDFs read in place, never stored in git
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'open-access Oriental Institute publications (Naskh shelf ref 11, Abbott 1939 on the North Arabic script)'
+    status: enabled
+  library-of-congress:
+    name: Library of Congress
+    url: https://www.loc.gov
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, record text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'collection records and Law Library essays on early Arabic printing (Naskh shelf refs 48 and 51)'
+    status: enabled
+  bibliotheca-alexandrina:
+    name: Bibliotheca Alexandrina
+    url: https://www.bibalex.org
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, record text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'Egyptian printing and book history (Naskh shelf ref 52, the Bulaq Press)'
+    status: enabled
+  aub-exhibitions:
+    name: AUB Libraries online exhibitions (American University of Beirut)
+    url: https://online-exhibit.aub.edu.lb
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, exhibition text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no image fetches
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'curated collection exhibitions (Naskh shelf ref 46, Early Arabic Printing in Europe)'
+    status: enabled
+  university-of-birmingham:
+    name: University of Birmingham — Mingana Collection pages
+    url: https://www.birmingham.ac.uk
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, page text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'the university''s own pages for its manuscripts (Naskh shelf ref 16, the Birmingham Qur''an manuscript)'
+    status: enabled
+  soas:
+    name: SOAS University of London — library special collections
+    url: https://www.soas.ac.uk
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, page text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'special-collections writing on early printed books (Naskh shelf ref 53, early Egyptian printed books)'
+    status: enabled
+  reed-iranian-calligraphy:
+    name: Anthology of Iranian Masters of Calligraphy (Reed College)
+    url: https://www.reed.edu
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, anthology text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no image fetches
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'Persian calligraphers with works and biographies (Naskh shelf ref 38, Ahmad Neyrizi)'
+    status: enabled
+  institute-for-advanced-study:
+    name: Institute for Advanced Study — Ideas magazine
+    url: https://www.ias.edu
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, essay text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'scholarly essays in the open (Naskh shelf ref 47, Tottoli on editing the Qur''an in Europe)'
+    status: enabled
+  al-furqan-foundation:
+    name: Al-Furqan Islamic Heritage Foundation
+    url: https://al-furqan.com
+    licence: publisher catalogue — link-only; cite the book itself, never the shop page
+    layer: link-only
+    method: catalogue pages only, to identify editions; no text harvest
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'the London foundation''s manuscript and codicology publications (Naskh shelf ref 18, Islamic Codicology, 2006)'
+    status: enabled
+  ideo-cairo:
+    name: IDEO Cairo and MIDÉO (OpenEdition)
+    url: https://www.ideo-cairo.org
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, article text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; journal at journals.openedition.org
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'Dominican Institute for Oriental Studies, Cairo — Qur''an printing history (Naskh shelf refs 56 and 57)'
+    status: enabled
+  aramco-world:
+    name: Saudi Aramco World archive
+    url: https://archive.aramcoworld.com
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, article text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'the magazine''s back archive (Naskh shelf ref 3, Bloom, "Revolution by the Ream", 1999)'
+    status: enabled
+  jstor:
+    name: JSTOR
+    url: https://www.jstor.org
+    licence: journal archive — cite the article itself; access through a library; no text harvest
+    layer: copyrighted-reference
+    method: stable article pages only, to identify and cite articles; no downloads into git
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'Naskh shelf refs 7 (Roxburgh, Studia Islamica 96) and 23 (Tabbaa, Ars Orientalis 21)'
+    status: enabled
+  brill:
+    name: Brill
+    url: https://brill.com
+    licence: publisher catalogue — link-only; cite the book itself, never the shop page
+    layer: link-only
+    method: catalogue pages only, to identify editions; no text harvest
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'Naskh shelf ref 8 (Nemeth, Arabic Type-Making in the Machine Age)'
+    status: enabled
+  degruyter-brill:
+    name: De Gruyter Brill
+    url: https://www.degruyterbrill.com
+    licence: publisher catalogue — link-only; cite the book itself, never the shop page
+    layer: link-only
+    method: catalogue pages only, to identify editions; no text harvest
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'Naskh shelf ref 37 (Blair, Islamic Calligraphy)'
+    status: enabled
+  yale-university-press:
+    name: Yale University Press
+    url: https://yalebooks.yale.edu
+    licence: publisher catalogue — link-only; cite the book itself, never the shop page
+    layer: link-only
+    method: catalogue pages only, to identify editions; no text harvest
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'Naskh shelf ref 21 (Bloom, Paper Before Print, 2001)'
+    status: enabled
+  tugboat:
+    name: TUGboat (TeX Users Group)
+    url: https://tug.org
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, article text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; journal PDFs read in place, never stored in git
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'Arabic typesetting research (Naskh shelf refs 2 and 55, the Amiri typeface; Milo on Unicode)'
+    status: enabled
+  typography-papers:
+    name: Typography Papers
+    url: https://typography.network
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, paper text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'Naskh shelf ref 54 (Nemeth, "Simplified Arabic")'
+    status: enabled
+  alif-type:
+    name: Alif Type
+    url: https://aliftype.com
+    licence: foundry site — link-only for the typefaces themselves; documentation read for facts
+    layer: link-only
+    method: catalogue and documentation pages only; font files follow their own licences and are never vendored without one being read
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'Khaled Hosny''s foundry — the Amiri typeface (Naskh shelf ref 62)'
+    status: enabled
+  decotype:
+    name: DecoType
+    url: https://www.decotype.com
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, page text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'the ACE composition engine and Tasmeem (Naskh shelf ref 60)'
+    status: enabled
+  tib-av-portal:
+    name: TIB AV-Portal
+    url: https://av.tib.eu
+    licence: lecture recordings — link-only; cite the lecture, never transcribe into git
+    layer: link-only
+    method: catalogue pages only, to identify recordings
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'Naskh shelf ref 61 (Milo, DecoType/ACE/Tasmeem lecture, 2009)'
+    status: enabled
+  unicode-consortium:
+    name: The Unicode Consortium — The Unicode Standard
+    url: https://www.unicode.org
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, standard text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; the standard''s chapter PDFs read in place, never stored in git
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'chapter 9, "Middle East-I", is the authority for Arabic script encoding (Naskh shelf ref 58)'
+    status: enabled
+  microsoft-learn:
+    name: Microsoft Learn — Microsoft Typography documentation
+    url: https://learn.microsoft.com
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, documentation text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'Naskh shelf ref 59 (Developing OpenType Fonts for Arabic Script)'
+    status: enabled
+  google-fonts:
+    name: Google Fonts
+    url: https://fonts.google.com
+    licence: specimen and catalogue pages — link-only; the fonts themselves carry their own open licences, read per family before any use
+    layer: link-only
+    method: catalogue pages only, to identify families and designers
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'Naskh shelf ref 63 (Noto Naskh Arabic specimen)'
+    status: enabled
+  sunnah-com:
+    name: Sunnah.com
+    url: https://sunnah.com
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only; cite the collection and number, translation wording never republished beyond short quotation
+    layer: copyrighted-reference
+    method: 'polite page reads only (mirror: portainer.sunnah.com); no bulk download without the founder''s separate permission'
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'the searchable hadith database; founder examples: Al-Adab al-Mufrad 379; Sahih al-Bukhari, book 4'
+    status: enabled
+  quran-com:
+    name: Quran.com
+    url: https://quran.com
+    licence: terms unconfirmed at registration (22 Nov 2026) — verse text is referenced from the frozen Tanzil files, never taken from the site; translations facts-only
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'the Qur''an reader — text, translations and tafsir per verse; founder example: Saba 12-14'
+    status: enabled
+  quranic-arabic-corpus:
+    name: Quranic Arabic Corpus
+    url: https://corpus.quran.com
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, corpus text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'word-by-word morphology, treebank and translation comparison; founder example: chapter 34, verse 14'
+    status: enabled
+  legacy-quran-com:
+    name: Legacy Quran.com
+    url: https://legacy.quran.com
+    licence: terms unconfirmed at registration (22 Nov 2026) — verse text is referenced from the frozen Tanzil files, never taken from the site; translations facts-only
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'the older Quran.com interface, the linkable form for verse ranges; founder example: 34:3-27'
+    status: enabled
+  islamquest:
+    name: IslamQuest
+    url: https://islamquest.net
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only; answers are the Qom seminary tradition''s own and are harvested attributed, never as the museum''s ruling
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'scholarly question-and-answer; founder example: archive fa6674'
+    status: enabled
+  islamic-fatwa:
+    name: Islamic Fatwa
+    url: https://www.islamicfatwa.net
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only; answers are their office''s own and are harvested attributed, never as the museum''s ruling
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'a fatwa question-and-answer collection'
+    status: enabled
+  the-truth-is-quran:
+    name: The Truth Is Quran
+    url: https://www.thetruthisquran.com
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, article text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'thematic Qur''an articles; founder example: "Animals in the Quran"'
+    status: enabled
+  myislam:
+    name: MyIslam
+    url: https://myislam.org
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only; verse text is referenced from the frozen Tanzil files, never taken from the site
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'Qur''an verses organised by topic; founder example: verses about animals'
+    status: enabled
+  sunnah-daily:
+    name: Sunnah Daily
+    url: https://sunnahdaily.com
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, article text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'everyday halal guidance; founder example: the animals page'
+    status: enabled
+  quran-central:
+    name: Quran Central
+    url: https://qurancentral.net
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, page text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'thematic Qur''an pages; founder example: "Natural World in the Quran"'
+    status: enabled
+  the-last-dialogue:
+    name: The Last Dialogue
+    url: https://www.thelastdialogue.org
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, article text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'thematic articles on the Qur''an and science; founder example: "List of All Animals Mentioned in Quran"'
+    status: enabled
+  anwaar-e-islam:
+    name: Anwaar-e-Islam
+    url: https://anwaareislam.com
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, article and book text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'an Islamic articles and books library'
+    status: enabled
+  easyquran:
+    name: EasyQuran
+    url: https://www.easyquran.ai
+    licence: 'terms unconfirmed at registration (22 Nov 2026) — an AI layer: pointers to verses by theme only; every verse it surfaces is verified against the frozen Tanzil text before use'
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'AI-assisted thematic browsing of the Qur''an; founder example: the thematic index'
+    status: enabled
+  academia-edu:
+    name: Academia.edu
+    url: https://www.academia.edu
+    licence: paper-hosting platform — the harvest target is a named paper, cited as itself; platform text never republished
+    layer: link-only
+    method: paper pages only, to identify and cite the paper; no downloads into git
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'founder example: "Animal care: an Islamic perspective, with particular reference to unwanted pets, stray dogs and cats"'
+    status: enabled
+  nekud:
+    name: Nekud
+    url: https://nekud.click
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, essay text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'the journal that published "Naskh and the Proportioned Pen" — the origin of the Naskh reference shelf in docs/agents/source-families.md'
+    status: enabled
+
+  wikiislam:
+    name: WikiIslam
+    url: https://wikiislam.net
+    licence: 'terms unconfirmed at registration (22 Nov 2026) — a site written by critics of Islam: harvested only for what the criticism says, attributed as a critical source in a perspectives block, never as an authority on Islam and never for facts about Islam itself'
+    layer: copyrighted-reference
+    method: polite page reads only; no bulk download without the founder's separate permission
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'founder-directed addition, 22 Nov 2026 — the criticism record on contested topics'
+    status: enabled
+  binzaid:
+    name: Sheikh Abdulla bin Zaid Al Mahmoud Islamic Cultural Center (Fanar), Qatar
+    url: https://www.binzaid.gov.qa
+    licence: terms unconfirmed at registration (22 Nov 2026) — facts-only, booklet text never republished
+    layer: copyrighted-reference
+    method: polite page reads only; booklet PDFs read in place, never stored in git
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before first harvest
+      note: 'publisher of free Islamic booklets; founder example: "The Rights of Animals in Islam" (2nd edition), from the "animals in islam" search results, 22 Nov 2026'
+    status: enabled
+
 workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museum-harvest)
