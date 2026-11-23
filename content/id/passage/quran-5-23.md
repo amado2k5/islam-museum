@@ -1,0 +1,49 @@
+---
+id: passage/quran-5-23
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-5-23.md}
+---
+
+## Ringkasan
+Ayat 23 [[passage/quran-5|Surah Al-Ma'idah]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: Ayat 23 dari 120 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujmad dan tidak ditulis ulang di sini.
+
+**Penafsiran ayat 23: Dua orang dari mereka yang takut kepada Allah telah memberikan kasih kepada mereka hlm. 176-179**
+
+Al-Tabari mengatakan ini adalah laporan dari Allah tentang dua orang benar dari umat Musa, Yosua putra Biarawati dan Kaleb putra Yophna, yang setia kepada Musa dalam apa yang ia percayakan kepada mereka dengan mengabaikan pemberitahuan kepada umatnya tentang tirani keras para tiran dan kebesaran karakter mereka, dan Allah menggambarkan mereka sebagai mereka yang takut kepada Allah dan mengawasi perintah serta larangan-Nya. {cite:tafsir-tabari-shakir-v10 p. 176}
+
+Narasi tahun 11664 dan 11665 menceritakan Mujahid bahwa mereka adalah Kalb dan Yosua, dan dalam cerita kedua bahwa mereka termasuk di antara para pemimpin. Dan narasi 11666 dari Mujahid menyatakan bahwa semua pemimpin kembali untuk melarang sukunya berperang melawan mereka, kecuali Yosua dan Kaleb, karena mereka memerintahkan suku-suku itu untuk melawan dua tiran dan melawan mereka, tetapi mereka tidak mematuhi dan mematuhi yang lain, yaitu dua orang yang telah diberkati Tuhan. Pemberi verifikasi menetapkan perbedaan ejaan nama Kalb antara versi cetak dan manuskrip. {cite:tafsir-tabari-shakir-v10 p. 176}
+
+Narasi 11667 menceritakan kisah serupa dari Mujahid, menyatakan bahwa mereka termasuk di antara dua belas kapten. Narasi 11668 menceritakan dari Ibn Abbas bahwa para kapten kembali kepada Musa dan memberitahunya apa yang mereka lihat, dan ia menyuruh mereka merahasiakan urusan mereka dan tidak memberitahu prajurit, karena jika diceritakan, mereka akan gagal dan tidak akan masuk ke Madinah; setiap orang pergi dan memberitahu kerabat dan sepupunya, kecuali Yosua dan Kaleb, karena mereka merahasiakannya. Dan narasi tahun 11669 dari Al-Suddi mengatakan bahwa para penyembunyi adalah Yosua putra Nun, putra Musa, dan Caleb putra Yophnah, yang telah menyunat Musa. Dan narasi tahun 11670 dari Atiyah menceritakan bahwa Caleb dan Yosua adalah pemuda Musa. {cite:tafsir-tabari-shakir-v10 p. 177}
+
+Narasi 11671 dari Ibn Abbas menceritakan bahwa mereka berasal dari Anak-anak Israel, Yosua dan Kaleb, dan narasi 11672 dari Qatadah bahwa ia menyebutkan kepada mereka bahwa mereka adalah Yosua dan Kaleb. Dan narasi 11673 dari Al-Rabi' yang Musa sampaikan kepada para kapten ketika mereka kembali, dan mereka berbicara dengan takjub: jangan beritahu siapa pun tentang apa yang telah kau lihat, karena Allah akan membukakannya untukmu. Namun orang-orang menyebarkan kisah itu di antara Anak-anak Israel, sehingga dua orang berdiri, satu yang, seperti yang mereka dengar, Yosua, adalah pemuda Musa dan yang lain Kaleb, dan berkata, 'Bawa mereka masuk ke 'Jika kalian beriman.' {cite:tafsir-tabari-shakir-v10 p. 178}
+
+Kemudian Al-Tabari menyebutkan bahwa para pembaca berbeda dalam mengucapkan 'Yakhafoon': para pembaca dari Hijaz, Irak, dan Levant membacanya dengan fatha pada ya, tetapi kedua pria itu berasal dari umat Musa yang takut kepada Allah, dan Dia memberikan mereka keberhasilan. Disebutkan bahwa Qatadah mengatakan bahwa dalam beberapa bacaan 'mereka takut kepada Allah, Allah telah memberkati mereka,' dan narasi tahun 11674 darinya menceritakan hal ini, dan Al-Tabari menganggap ini menunjukkan kebenaran penafsiran tersebut. {cite:tafsir-tabari-shakir-v10 p. 179}
+
+Disebutkan bahwa Sa'id ibn Jubayr biasa membacanya dengan 'damma' pada ya, dan narasi ini diceritakan pada tahun 11675, dengan keraguan mendengar salah satu naratornya dari gurunya. Al-Tabari percaya bahwa dua pria dari suku dua tiran itu memeluk Islam dan mengikuti Musa, sehingga mereka adalah putra dari dua tiran yang ditakuti oleh Anak-anak Israel, meskipun mereka berbeda agama. Disebutkan bahwa interpretasi serupa juga diceritakan oleh Ibn Abbas. {cite:tafsir-tabari-shakir-v10 p. 179}
+
+Narasi tahun 11676 dari Ibn Abbas menceritakan bahwa Tanah Suci adalah kota para tiran, dan ketika Musa menetap di sana, ia mengirim dua belas orang yang menjadi pemimpin untuk menyampaikan kabar kepadanya. Seorang pria dari para tiran menemui mereka, mengenakan jubahnya, membawa mereka ke Madinah, dan memanggil kaumnya. Mereka bertanya, "Kami adalah umat Musa; kami telah mengirim surat kepadamu." Mereka memberikan anggur yang membawa beban seorang pria. Mereka berkata, "Pergilah kepada Musa dan suruh mereka ukur berapa banyak buah mereka." Ketika mereka kembali, orang-orang itu berkata kepada Musa, "Pergilah, engkau dan Tuhanmu, dan berperanglah." Menurut kisah ini, kedua pria itu berasal dari bangsa Madinah yang telah memeluk Islam dan mengikuti Musa dan Harun, berkata, "Masuklah ke gerbang melawan mereka." {cite:tafsir-tabari-shakir-v10 p. 180}
+
+Al-Tabari berkomentar bahwa para pemimpin dalam pembacaan dan penafsiran ini tidak menyembunyikan apa yang diperintahkan Musa untuk mereka sembunyikan, melainkan mengungkapkannya sepenuhnya, dan bahwa yang mengatakan bahwa dua orang dari putra tiran yang memeluk Islam dan mengikuti Nabi dibawa masuk ke gerbang. Ia kemudian memilih bahwa pembacaan yang paling benar dari kedua pembacaan adalah pembacaan dengan fatha pada ya, karena konsensus para pembaca di daerah-daerah. Apa yang terkandung dalam pembacaan adalah argumen yang tidak dapat disangkal, dan apa yang unik diperbolehkan untuk kesalahan dan pelupaan. Argumen tersebut sepakat secara bulat bahwa mereka adalah dua orang dari sahabat Musa, Yosua dan Kalib, dan ini adalah interpretasi yang benar menurutnya. {cite:tafsir-tabari-shakir-v10 p. 180}
+
+Al-Tabari menjelaskan 'Tuhan memberkati mereka' sebagai pemberian ketaatan kepada Allah dalam menaati nabi-Nya Musa, mengakhiri perintah-Nya, dan menahan diri untuk tidak mengungkapkan apa yang mereka alami tentang para tiran kepada Anak-anak Israel, seperti yang dilaporkan oleh pemimpin lain; ia menyebutkan beberapa kata yang artinya adalah 'Ia memberikan mereka ketakutan,' dan narasi tahun 11677 dari Sahl ibn Ali menceritakan hal ini. Editor menerjemahkan beberapa narator rantai tersebut dan mengatakan ia tidak menemukan Ishaq ibn al-Qasim. {cite:tafsir-tabari-shakir-v10 p. 181}
+
+Narasi tahun 11678 dari Al-Dahhak menceritakan bahwa maknanya adalah bahwa Allah memberkati mereka dengan bimbingan dan membimbing mereka, sehingga mereka mengikuti agama Musa dan kota para perkasa. {cite:tafsir-tabari-shakir-v10 p. 182}
+
+**Penafsiran ayat 23, lanjutan: Masuklah pintu di atas mereka, dan ketika kamu masuk, kamu akan menang, hlm. 182-183**
+
+Al-Tabari mengatakan ini adalah laporan tentang kata-kata dua orang yang takut kepada Tuhan demi Anak-anak Israel, ketika mereka pengecut untuk melawan para tiran ketika mereka mendengar laporan dari para pemimpin yang mengungkapkan apa yang telah mereka saksikan. Mereka berkata kepada mereka, 'Masuklah melalui gerbang kota mereka, karena Allah menyertai kalian dan penolongmu. Dan ketika kalian masuk ke gerbang, kalian mengalahkan mereka.' {cite:tafsir-tabari-shakir-v10 p. 182}
+
+Narasi tahun 11679 dari Ibn Ishaq, dari beberapa sarjana Kitab Pertama, menceritakan bahwa ketika Anak-anak Israel hendak pergi ke Mesir ketika para pemimpin memberitahu mereka, Musa dan Harun jatuh dengan tunduk di hadapan jemaat, merobek Yosua, mengenakan pakaian mereka, dan mengatakan kepada jemaat bahwa tanah yang mereka lewati itu baik, yang telah disetujui dan diberikan oleh Tuhan mereka, dan bahwa tanah itu meluap dengan susu dan madu. Mereka meminta agar tidak membangkang Tuhan atau takut kepada manusia bumi, karena mereka adalah makanan bagi mereka, kesombongan mereka telah hilang, dan Tuhan menyertai mereka. Kelompok itu ingin melempari mereka dengan batu lempar. Pemberi verifikasi membandingkan ini dengan teks Taurat yang beredar dalam Kitab Bilangan dan menyerukan untuk membandingkan narasi Ibn Ishak dengan terjemahan lama itu. {cite:tafsir-tabari-shakir-v10 p. 183}
+
+Narasi tahun 11680 menceritakan dari Qatadah bahwa mereka mengirim dua belas orang 'Uyun, tetapi sepuluh di antaranya pengecut dan tidak suka masuk ke sana. Kedua pria itu memerintahkan rakyatnya untuk masuk dan mengikuti perintah Tuhan, mengatakan bahwa mereka akan menang. Dan narasi tahun 11681 dari Mujahid mengatakan bahwa 'gerbang di atas mereka' adalah desa para perkasa. {cite:tafsir-tabari-shakir-v10 p. 183}
+
+**Tafsir ayat 23, melanjutkan: Dan kepada Allah, jika kalian beriman, hlm. 184**
+
+Al-Tabari mengatakan ini juga merupakan laporan tentang kata-kata dua orang yang takut kepada Tuhan kepada umat Musa, yang mendorong dan mendorong mereka untuk melanjutkan perintah Tuhan untuk memasuki para tiran di kota mereka: Percayalah kepada Tuhan ketika kamu memasuki mereka dan percayalah kepada-Nya, karena Dia menyertai kamu jika kamu taat pada-Nya dalam apa yang Dia perintahkan untuk melawan musuhmu. Dia menjelaskan "jika kamu percaya" seolah-olah kamu percaya pada apa yang Nabi kamu beritahu tentang Tuhan kamu tentang kemenangan dan kemenangan, dan percaya bahwa Tuhan kamu mampu memenuhi janji-Nya dengan memfasilitasimu di tanah musuh dan musuhmu. Editor merujuk pada makna ketergantungan kepada Tuhan sesuai dengan apa yang telah disebutkan sebelumnya di halaman 108. {cite:tafsir-tabari-shakir-v10 p. 184}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

@@ -1,0 +1,27 @@
+---
+id: passage/quran-8-36
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-8-36.md}
+---
+
+## Özet
+Medine suresi olan Enfal Suresi [[passage/quran-8|'nin 36. ayeti]]. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Suredeki 75 ayetten 36. ayet. Metin Mushaf Tazil al-Mujadd'dan korunmuş olup burada yeniden yazılmamıştır.
+
+**36. ayetin yorumu (s. 529-534)**
+
+El-Tabari şöyle der: "Gerçekten kafirler, mal-mülklerini Allah'ın yolundan sapmak için harcarlar, ama harcarlar, sonra üzerler ve sonra zafer ederler. Kâfir olanlar cehenneme toplanır [[passage/quran-8-36|." 8:36]]: Allah'a ve O'nun Resulu'na inkar edenler, mallarını harcar, Allah'ın Resanti ve ona inananlara karşı güçlenmeleri için müttefiklere verirler; böylece müminleri imandan saparlar. Servetlerini buna harcayacaklar ve harcamaları onlar için pişmanlık olacak, yani pişmanlık çünkü malları kaybolacak ve Allah'ın ışığını söndürmek ve infir sözünü sözün üstüne yükseltmek istedikleri şeyde başarılı olamaz Allah, Allah sözünü yücelttiği ve inkar sözünü en düşük yaptığı için, müminler onları yenecek ve Allah inkar edenleri ve Resulunu cehenneme toplayacak ve orada cezalandırılacaklarını söyler. Yaşayanlar ve ölenler için büyük bir pişmanlık ve pişmanlık olduğunu söyler: Yaşayanlar için ise malları boşuna harcandı, boşuna kaybedildi ve mağlup ve ezilmiş olarak geri döndü; mahkumlar öldürüldü, soyuldu ve Allah'ın ateşine hızla gönderildi. İnceleyici, 'harcama', 'geri püskürtme', 'pişmanlık' ve 'toplama' yorumlarına atıfta bulunuyor. {cite:tafsir-tabari-shakir-v13 p. 529}
+
+Allah'ın bu ayette bahsettiği masraflardan sorumlu olan kişi Ebu Sufyan'dı. Ve 16056 tarihli Said ibn Jubeyr'den rivayet: Ebu Sufyan ibn Harb hakkında, Uhud gününde Banu Kinana'dan iki bin Ahabişi tuttuğu ve onlarla savaştığı vahyedilmiştir. Bunlar, Ka'b bin Malik'in Al-Muwaj gibi üç bin kişilik müşriklərin ordusunu anlatan iki ayetinde söylediği gibidir; ve 16057'de İbn Abza'dan rivayet: Uhud gününde Araplardan sığınanlar hariç iki bin kiralık tuttu; ve 16058'de Al-Hakam ibn Utaybah'den rivayet edilenlerdir: Uhud gününde müşriklere kırk ons altın harcadı; Katadah'tan 16059 rivayeti: Ebu Sufyan bir deve ile Mekke'ye geldiğinde, halkı topladı ve onları savaşmaya çağırdı, ta ki Peygamber ertesi yıl savaş başlatana kadar. Ramazan'da Bedr, o ayın on yedinci sabahı Cuma günü, Uhud ise Cumartesi günü Şevval'de dördüncü yılın on bir günü boyunca gerçekleşti; 16060 Al-Suddi'den rivayet: Kıyamet Günü'nde pişmanlık ve keder; ve Mucahid'den 16061 ve 16062 rivayetleri: Ebu Sufyan'ın Uhud gününde kâfirlere yaptığı harcamalar hakkında. Editör, Kureyş ile ittifak halinde olan mahalleler olan 'Ahabish'leri, ayrıca 'Al-Hasir', 'Al-Muqni' ve 'Nasiyah'ları açıklar, ayetin anlatımını düzeltir ve 'İsticeş' ile 'Al-Tashib'i açıklar. El-Esferi'nin konuşmasının biyografisini sadece İbn Ebi Hatim ile buluşturdu. {cite:tafsir-tabari-shakir-v13 p. 530} {cite:tafsir-tabari-shakir-v13 p. 531} {cite:tafsir-tabari-shakir-v13 p. 532}
+
+Ve 16063 tarihli rivayet El-Zuhri'den İbn İshak, Muhammed bin Yahya ibn Hibban, Asim ibn Ömer ibn Katadah, El-Hüseyin ibn Abdülrahman ve diğer alimlerden: Kudreyş halkından Kareyş kâfirleri Bedr gününde vurulduğunda Mekke'ye döndüler ve Ebu Sufyan devesiyle geri döndü. Abdullah ibn Ebi Rabi'ah, İkrime ibn Ebi Cehl ve Safvan ibn Umeyye, babaları, oğulları ve kardeşleri Badr'da yaralanan Kurayşlı adamlarla birlikte yürüdüler. Ebu Sufyan ve o develeri takas edenlerle konuşarak, 'Ey Kureyş halkı, Muhammed sizi terk etti ve en iyilerinizi öldürdü, bu yüzden bu parayla savaşında bize yardım edin ki aramızda yaralananların intikamını alalım.' Yaptılar; Allah onlar hakkında bu ayeti indirdi. 16064 yılında İbn İshaq'tan Ebu Sufyan'a giden insanlarla ilgili rivayet; ve 16065 tarihli Ata ibn Dinar'dan rivayet: Ebu Sufyan ibn Harb hakkında açıklanmıştır. Editör, İbn Hişam'ın biyografisiyle ilgili basılı ve el yazması versiyonlar arasındaki farkları, aktarım zincirinde ve "İbn Abbas'tan bahsedilen" ifadesinde, biyografide ise "bazı alimlerin bana belirttiği gibi" olduğunu belirtir; kendisi Sa'id ibn Ebi Eyyub ve Ata ibn Dinar olarak bilinir. {cite:tafsir-tabari-shakir-v13 p. 532} {cite:tafsir-tabari-shakir-v13 p. 533}
+
+Ve bazıları şöyle dedi: Bu, Bedr halkından olan müşrikləri ifade eder ve 16066 tarihli Al-Dahhak rivayetine göre onlar Bedr halkıdır. {cite:tafsir-tabari-shakir-v13 p. 533}
+
+Ebu Ca'fer şöyle dedi: Benim görüşümde doğru görüş, söylediğimizdir; Allah, Kurayş'taki kafirler arasında kendisine inatsız olanları, mallarını Allah'ın yolundan saptırmak için harcadıklarını bildirdi ve bize bunlardan hangisini bildirmedi, sadece kâfirlerin haberlerini dahil etti. Harcayanların mallarını Resam ve sahabeleriyle biriyle savaşmak için niyetlemiş olmaları mümkündür; harcayanların bunu Bedr'de kastetmiş olması da mümkündür, her iki grup da bunu kastetmiş olabilir. Eğer durum buysa, doğru görüş genellemektir; çünkü Allah Kureyşlileri kâfir etmiş. {cite:tafsir-tabari-shakir-v13 p. 534}
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.

@@ -1,0 +1,67 @@
+---
+id: passage/quran-6-99
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-6-99.md}
+---
+
+## Özet
+Mekke suresi olan An'Suresi [[passage/quran-6|'nin 99]]. ayeti. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Suredeki 165 ayetten 99. ayet. Metin Mushaf Tazil al-Mujjad'dan korunmuş olup burada yeniden yazılmamıştır.
+
+El-Taberi şöyle der: "Gökyüzünden suyu indiren O'dur, Biz de onunla birlikte her şeyin bitkilerini indirdik, ondan yeşillik ve tahıl taneleri çıkardık." Ve ibadet edilen, başka hiçbir şeye ortak olmayan Allah'tır. O, gökten su indiren Allah'tır ve biz her şeyin bitkisini indirdik. Böylece, gökten indirdiğimiz suyla, hayvanların, sığırların, kuşların ve hayvanların yiyeceğini, Adem'in çocuklarının beslenip yeter, üzerinde büyüyüp büyüyen yiyeceklerini getirdik. "Böylece her şeyin bitkisini çıkardık" anlamı, her şeyin büyüdüğü, büyüdüğü ve iyiliğe uygun olduğu şeydir. Ve anlamı "Her türlü bitkinin bitkisini getirdik" denirse, "her şey" bitki türlerini ifade eder, ancak doğru görüş ilk görüştür. {cite:tafsir-tabari-shakir-v11 p. 573}
+
+(Editör, basılı baskıda "başka hiçbir şey için ortaklık olmadığını" belirtiyor; sadece el yazmasında olanlar yanlış değerlendirilmiş ve Al-Farra'nın Kur'an anlamlarına atıfta bulunuyor).
+
+Ve 'Ondan yeşil getirdik' demesi, 'Ondan çıkardık' anlamına gelir, yani gökyüzünden taze yeşil olarak indirdiğimiz sudan gelir. Ve 'al-khidr' Arapların dediği gibi 'yeşil'dir: 'Bana yağmurlu bir kaplan gibi göster.' Ayrıca şöyle denir: toprak yeşil ve yeşil, 'khidr' ise taze baklagillerdir. Ayrıca, olgunlaşmadan önce gizli yeşilliğini gören bir palmiye ağacı da 'khidhir' olarak adlandırılır. Bir adam genç yaşta öldüğünde 'akhdar' ve 'isthadar' der, 'O senin için khudair, mudhir'dir, yani mutlu ve bakımlı. {cite:tafsir-tabari-shakir-v11 p. 574}
+
+(Editör, "Arniha Namrah, yağmur yağdır" ifadesini belirtir; örneğin Sahib al-Lisan'ın (Ghamr) eserinde Ebu Dhu'ayb al-Hudhali'ye atfedilmesi ama (Khidr)'de ona atfedilmemesi gibi; ve bu anlatım Al-Amthal'da Al-Maydani, Jamharat al-Amthal'da ise Abu Hilal tarafından anlatılmıştır, ancak ona atfedilmemiştir. Anlatıcı, siyah-beyaz bir buluttur ve bir şeyin hayal gücünün geçerliliğini ve göstergesinin geçerliliğini doğrulamak için örnek teşkil eder; "al-khadara"nın dil kitaplarındaki girişinde adı olmayan 'ghadara' gibi bir fiil isimidir; zararlı olanın ise nazik, çıplak olanıdır.)
+
+Ve 'Ondan bir küme halinde tahıl üretiriz' sözü, 'yeşilliklerden tahıl çıkarırız' anlamına gelir, yani tahıl başağında buğday, arpa, pirinç ve benzeri tahıllar bulunur ve bunların taneleri birlikte tanelidir. Ve 13661'de Al-Suddi'den: 'Ondan yeşil taneler üretiriz ve bunlardan kümelenmiş bir tahıl üretiriz.' İşte bu diken. {cite:tafsir-tabari-shakir-v11 p. 574}
+
+(Editör, "Love" bölümündeki 550. sayfaya atıfta bulunuyor).
+
+Ve 'Ve palmiye ağaçlarının filizlerinden' 'filizleri yakın yılan olan palmiye ağaçlarından gelir' der: ve filizleri yakında olan palmiye ağaçlarından 'qanwan' yükselmiştir. {cite:tafsir-tabari-shakir-v11 p. 574}
+
+(Editör, basılı ve el yazması versiyonlarda "Ve palmiye ağaçlarından filizlerinden yakın dalların dalları vardır" ifadesinin metni olduğunu belirtir; bu güvenilir bir açıklama değildir, ancak doğru olan, Al-Farra'nın Kur'an anlamlarından türetilmiş olduğu kanıtıdır).
+
+Ve 'al-qunan' kelimesi 'qunun'un çoğuludur, tıpkı 'sanwan' gibi, yani 'sau' yani dal anlamına gelir. Tekil olanlar 'qunun', 'qunun' ve 'qunan'dır, çoğulu ise 'qunan' ve 'qunwan'dır. Çoğul 'qalawan'da üç 'qunan' olduğu söylenir. 'al-qunuan' Hicaz dilinden, 'qunuan' ise Qays'tan gelir. Al-Tabari, Imru' al-Qais'in ağır palmiye ağaçlarının kırmızı levrek kümeleriyle birlikte eğildiğini anlatan bir dizesini aktarır; başka bir dizede ise yazarı bilinmeyen bir dize, 'qunu' gibi bir dişi devenin kuyruğu anlatılır. Ve 'tamim' 'ya' ile 'qunyan' anlamına gelir. 'Yakın' derken 'yakın' ve 'yakın' anlamına gelir. {cite:tafsir-tabari-shakir-v11 p. 575}
+
+(Araştırmacı, tatın palmiye bahçelerinde kasra ve sukun ve topallıkları olduğunu, Diwan'ında İmru'el-Kais'in diwanında ve Lisan şiirinde Al-Mujaddah şiirinin başından itibaren yaşayan vadiyi anlattığını ve palmiye ağaçlarına benzettiğini, önceki dizelerin ise yaşayan vadileri, çünkü bunların Tamra yakınlarındaki aflaj kenarında yaşandığını ve onları Dum veya Safin Muqir bahçelerine benzettiğini belirtir. Bu, Ebu Ca'far ve diğerlerinin anlattıklarından farklı bir rivayettir; "yükünün ağırlığından yükselip yükseldiği" ve "alışkanlıkla" iki katına çıkıp eğildiği; ikinci ayetin ise Ebu Zayd tarafından anlatıldığı Anekdotlarında tek bir ayet yazmış ve 'taştar'ı, dişi deve döllendiğinde günahını düğümlediğini ve bunu yetersizliğine bağladığını, aşağılayıcı olanın ise günahının hareket etmemesi olduğunu söyleyerek açıklamıştır. 'Aşham' ifadesinin anlamı bilinmemekle birlikte, Abu Zayd'in rivayetindeki doğru anlatım 've izin ver'dir; 'takhtar' ise dil sözlüklerinde bahsedilmediği için aygırın tehlikesinin kaynağıdır.
+
+13662'de İbn Abbas'tan 'Daniyah Qanewan', 'yakın Qanewan' ile dalları yere tutturulmuş kısa palmiye ağaçları anlamına gelir; 13663 ve 13664'te Katadah'dan: gevşek dallar; 13665 ve 13666'da Al-Bara'dan: yakın; ve 13667'de İbn Abbas'tan dalların polenden düştüğü yakın dallar; ve 13668'de Al-Dahhak'tan alıntı: yere tutunan kısa palmiye ağaçları anlamına gelir ve dalları onların büyümesidir. {cite:tafsir-tabari-shakir-v11 p. 576}
+
+'Gardens of Grapes, olive, and pomegranates, both muggleous and nongueous' adlı eserinde şöyle der: 'Gardens' 'Anab'dan da türemiştir, yani üzüm bahçeleri. Okuyucular bunu farklı şekilde okumuştur. Çoğu okuyucu bunu akuzatif olarak 'wajanat' olarak okur, ancak 'ta' dişil çoğul 'ta' olduğu için ve accusative pozisyonunda alçaltılmış olduğu için kırılır. 13669'da Al-A'mash, 'wajanat min anab' okuduğunu söylemiştir Nominatif harfte, cennet de aynı türden olmasa bile, dilbilgisel dilbilgisi kurallarına uymak için nominatiftir; şairin bir kılıç ve mızrak tutan çifti anlattığı bir dizede söylediği gibi. Abu Ca'far şöyle dedi: Bunu yalnızca akuzatif durumda okunmasına izin verdiğim okuma, okuyucular arasında doğruluğu konusunda uzlaşması ve başka hiçbir şeyi reddetmeleri nedeniyle 'jannat min anaban'dır. Bundan sonra, nominatif biçimde okunması doğrudur. {cite:tafsir-tabari-shakir-v11 p. 577}
+
+('Al-Jannat' gazetesinde editör önceki bir yere atıfta bulunur ve basılı baskının konuşmadaki 'f' harfinin yanlışlıkla çıkarıldığını, ayetin defalarca atıfta bulunulduğunu belirtir.)
+
+Ve "zeytin ve nar" sözü zeytin ile nar arasındaki bağlılıktır, yani şöyle demektir: Zeytin ve narları belirsiz ve belirsiz olarak türettik. Qatadah derdi (13670): Karışık ve yapraklı, farklı meyveli. Belki de karakteri belirsiz ama tadı farklı olabilir. Ebu Ca'far şöyle demiştir: Konuşmanın anlamı zeytin ve nar ağaçlarıdır, bu yüzden ağaçtan bahseden kişi meyvesini anmalıdır, çünkü [[passage/quran-12-82|12:82]] 'de şöyle der: "Ve köye sor," bu yüzden köyü halkından anmakla yeter ki anlamı bilinsin. {cite:tafsir-tabari-shakir-v11 p. 578}
+
+(Araştırmacı "Mutashabih"de önceki yerlere atıfta bulunuyor).
+
+"Meyvesine bak, meyve verirken ve yas tutulurken" adlı eserinde şöyle der: Okunanlar bunu farklı şekilde okumuştur. Medine'nin çoğu okuyan ve bazı Basralılar bunu thā ve mīm üzerine bir fetha ile "ila thamaru" olarak okurken, Mekke'den bazı okucular ve Kufan okurlarının çoğu "ila thārhu" olarak okuyor ve thām üzerinde ḍamma harfi harfleri harfler. Görünüşe göre thā ve mīm üzerindeki fatha, konuşmanın anlamının, bu ağaçların meyve verirken meyvelerine bakmaya yönelik olduğu ve thār'ın meyvenin çoğulu olduğu gibi, al-thār'ın 'taḥāb'ın (katır meyvesi) çoğulu olduğu ve 'jarab' kelimesinin çoğulunun bir torbanın çoğulu olduğu anlaşılıyor. 13671'de Yahya ibn Wathab, 'ila thamaru'yu (meyvesine) okuduğunu söyler; bu da zenginlik türlerine işaret eder; 13672'de ise Mujahid'den: 'Meyve zenginliktir, meyve ise palmiye ağacının meyvesidir.' {cite:tafsir-tabari-shakir-v11 p. 578}
+
+Bu konuda ilk iki okuma bana göre doğrudur; 'ila thmaruhu'yu thā' ve 'mīm' üzerine damma ile okuyanların okuması, çünkü Allah'ın yüceltilmiş ve yüceltilmiş olması, Yahya ibn Wathāb'ın dediği gibi, karma ürün tahılı, palmiye salkımları, üzüm, zeytin ve nar bahçelerini tanımlamıştır. Bunlar meyve türleriydi. Meyve meyve olarak toplandı, sonra meyve olarak toplandı, sonra meyve toplandı ve 'Meyvesine bak' denildi, yani meyve toplanıyordu, 'al-thāmar' meyveyi toplamak anlamına gelir ve meyvesi 'meyve düğümdür'dür. 'Ve lanetleyecek' ifadesi ise olgunlaştığında olgunluk ve olgunluk anlamına gelir. {cite:tafsir-tabari-shakir-v11 p. 579}
+
+(Araştırmacı, Mücahit Abyan'dan bunun altın ve gümüş olduğunu, el-Farisi'nin anlattığına göre anlattığını belirtir).
+
+Basra'dan bazı Arap konuşma bilginleri, 'ya' kelimesinin yaa ile açılmasının 'yan'a'nın çoğulu olduğunu, tıpkı 'tajr'un tüccar ve yoldaşların (sahabelerin) çoğulu olması gibi olduğunu söylerdi. Kufa'dan bazı kişiler bunu reddetmiş ve ifadelerinin fiil isimi olarak kabul etmiş, yani 'yan'a' (yana' anlamında), 'yana' anlamına gelir. Araplardan üç dilde 'yana', 'yan'a', 'yan'a', 'ya'a', 'na'a' ve 'na'a' olarak anlatılır. Benzer şekilde, 'olgunluk', 'na'a', 'na'a' ve 'na'a' kelimelerinde de geçerlidir. 'wain'a' okuyanlara gelince, bu kelime 'yana'a' anlamına gelir ve Arapça'da 'ayna'a' (ya'a'a') olarak duyulur; bu kelime zeytinlerle çevrili bir daskra etrafında kubbeleri tanımlar; bu da 'yana' olabilir. {cite:tafsir-tabari-shakir-v11 p. 580}
+
+(Editör, Kur'an'daki ilk konuşmacının Ebu Ubeyde olduğunu, aynı zamanda İbn Kaysan'a atfedildiğini ve Ebu Ca'fer'in Yana' ve 'Nadec'te sözlüklerde belirtilen kaynaktan farklı üçüncü bir kaynak olduğunu belirtir; bu kaynak da ona eklenmiştir. Ayrıca Yana'da 'ya' ve 'rahibe' üzerine bir fetha, 'Nadaj'da ise rahibe ve baba üzerine bir fetha ile yazılışını not etmiştir; ayetin Yazid ibn Muawiya'ya atfedilen tartışmalı bir ayetten alındığını ve el-Mubarred'ın bunu el-Ahva'ya, el-Cahiz'in Ebu Dahbal'a ve yanlışlıkla el-Akhtal'a atfettiğini, bunun el-Hayawan, el-Kamil, Enseb al-Ashraf ve metaforda olduğunu belirtmiştir Kur'an, İbn Kethir'in Tarihi, Kütüphane, Lisan ve diğerleri, Yazid tarafından yazıldığı söylenen şiirler arasındadır; bu şiirler, yağmurcuların harap ettiği bir manastırda, Levant'ta bir yerde korkan bir Hristiyan kadın hakkındadır. Kitapta endişe, uyku, karınca yeme, bahardan sonra ve Şam köyü hakkında ayetler yer alır ve 'Bi' Yahudiler veya Hristiyanlar Kilisesi'ne bağlılık yemini anlamına gelir. Daskra, Arap olmayanların içki içmek ve eğlence için kullandığı bir saray benzeri yapıdır.
+
+Ve 13673'te İbn Abbas'tan: 've onu över' ifadesi, olgunlaştığında anlam verir. Ve 13674'te de İbn Abbas'tan, 'Meyvesine bak meyve verdiğinde ve över' bölümünde: olgunluğunu adlandırır. Ve 13675'te Katadah'dan, metni 582. sayfanın başına bağlanır: olgunluğu anlamındadır. (Editör, 581. sayfadaki dipnotta şiirsel dizelere atıfta bulunur, sözlerini açıklar ve El-Baladhuri'nin bir ayetin anlatımından bahseder, dizeler burada alıntılanmamıştır). {cite:tafsir-tabari-shakir-v11 p. 581}
+
+Yukarıda belirtilen 13675 tarihli Katadah raporunda belirtilen şöyle bir deyim: "Meyvesini verdiğinde ona bak ve yumuşatır," yani olgunluğu anlamındadır; ve 13676'da Katadah'dan: "ve yumuşatır" olgunluğu anlamına gelir; 13677'de Al-Suddi'den: olgunluğu; 13678'de El-Dahhak'tan: olgunluğu anlamına gelir; ve 13679'da İbn Abbas'tan "ve övülür" olgunluğu anlamına gelir. {cite:tafsir-tabari-shakir-v11 p. 582}
+
+"Gerçekten de iman eden bir halk için işaretler vardır" diyor ki: Allah'ın gökten indirdiği su, her şeyin bitkilerini çıkardığı su, üst üste binen tahılları ve bu ayette "işaretler" olarak bahsedilen diğer tüm yaratım türlerini indirdiğini belirtir. Bununla ilgili şöyle der: Ey insanlar, meyvesinin meyvesini verdiğinde, olgunlaştığında ve bittiğinde bakarsanız, koşullarındaki, yönetimindeki, büyüme ve büyüme farkını görürseniz, onun bir Yönetici benzersizdir ve ibadet sadece tanrılar ve eşitler dışında O'na uygundur ve içinde kanıtlar, kanıtlar ve açıklamalar vardır. "İnanan bir halk için" demek, Allah'ın birliğine ve O'nun istediği her şey üzerindeki gücüne inanan bir halk için demektir. Özellikle Allah'ın delillerinin faydalanıcıları oldukları için iman edenleri ve onları ciddiye alanlardan bahsetti; Allah kalbini mühürlemiş olanlardan farklı olarak, bu yüzden hiçbir gerçek yalandan ayırt edilemez, yol yol saptırmaktan ayırt edilemez. {cite:tafsir-tabari-shakir-v11 p. 583}
+
+(Araştırmacı 'Ayah'ta önceki yerlere atıfta bulunuyor).
+
+Bu sayfanın sonunda, aberci, el-Tabari'nin tefsirinin on birinci bölümünün tamamlandığını, on ikinci kısmının ise O'nun sözünün yorumuyla başladığını ve şu sözünün yorumuyla başladığını belirtir: "Ve onlar Allah ile cinleri ortak yaptılar, onları yarattılar ve bilgisi olmadan O'nu oğul ve kız olarak bozdular." {cite:tafsir-tabari-shakir-v11 p. 583}
+
+Bununla birlikte, 99. ayet sona erer ve on birinci bölümün metni 583. sayfada tamamlanır.
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.

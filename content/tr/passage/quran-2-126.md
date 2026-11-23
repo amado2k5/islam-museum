@@ -1,0 +1,39 @@
+---
+id: passage/quran-2-126
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-2-126.md}
+---
+
+## Özet
+Medine suresi olan Bekarah Suresi [[passage/quran-2|'nin 126]]. ayeti. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Suredeki 286 ayetten 126. ayet. Metin Mushaf Tazil al-Mujmad'dan korunmuş olup burada yeniden yazılmamıştır.
+
+## El-Taberi'nin Tafsir'inde
+
+Ve 2:126 [[passage/quran-2-126|' da]] El-Taberi şöyle der: İbrahim'in 'Rabbim, bu şehri güvenli bir toprak yap' dediğini hatırla. Onun için 'güvenli' kelimesinin anlamı, zalimlerden ve onu egemenlikten koruyan diğerlerinden korunmaktır. Ve Allah'ın cezasından da budur ki, bu da diğer topraklarda kayma, boğulma ve benzeri şeylerden etkilendiği gibi ona da gelecektir. Ve Katada'dan: Bize sığınağın mızraklarıyla tahta onaylandığı, evin Adem ile birlikte indiği, Adem ve ondan sonraki müminlerin etrafında döndüğü, tufan zamanı geldiğinde Allah onu diriltip arındırdığı ve yeryüzü ahlakının cezasını çekmediği belirtilir. İbrahim ondan bir miras bıraktı ve eski bir temel üzerine inşa etti. {cite:tafsir-tabari-shakir-v03 p. 44} {cite:tafsir-tabari-shakir-v03 p. 45}
+
+Sonra sorar: İbrahim Rabbinden güvenlik istemeden sonra kutsal yer güvenli miydi? Bu konuda farklı görüşler ayrıldıklarını söyler: Bazıları, kutsal alanın göklerin ve yerin yaratılışından beri Allah'ın ve O'nun kudretli yaratıklarının cezasından her zaman güvende olduğunu söyler. Ebu Şuray'el-Huza'i'nin Peygamber'in Mekke fethedildiğinde bir vaaz verdiğine dair rivayetini aktarırlar; Tanrı Mekke'yi gökleri ve yeryüzü yarattığı gün kutsal ettiğini söyler. İbn Abbas'ın bir rivayetine göre, Peygamber Mekke'yi fethettiğinde onun kutsal olduğunu söylemiştir; Allah gökleri ve yeri yaratırken onu yasaklamış, kendisinden önce ya da sonra hiç kimse için yasal değildi, kendisi için ise günün bir saati için yasaldır. Araştırmacının dipnotlarında bu iki haber çıkarılmış ve ikinci haberin zinciri hakkında tartışma vardır. {cite:tafsir-tabari-shakir-v03 p. 45} {cite:tafsir-tabari-shakir-v03 p. 46}
+
+El-Taberi, kutsal alanın her zaman güvenli olduğunu söyleyenlerin argümanını sunmaya devam ediyor: Mekke'nin kuruluşundan beri Allah'ın cezasından ve zalimlerin cezasından korunan bir kutsal yer olduğunu söylüyorlar. İbrahim, Rabbi'nden kendisini bundan korumasını istemedi, bunun yerine ailesini kuraklıktan ve kuraklıktan korumasını ve sakinlerine meyve sağlamasını istedi; bu [[passage/quran-2-126|, 2:126]] ve [[passage/quran-14-37|14:37 ayetlerinde]] belirtildiği gibi. Varışında kutsal olarak tanımlamış, yani öncesinde yasak olduğunu belirtmiştir. {cite:tafsir-tabari-shakir-v03 p. 47} {cite:tafsir-tabari-shakir-v03 p. 48}
+
+Diğerleri şöyle dedi: Türbe, İbrahim'in daveti öncesinde diğer topraklar gibi geçerliydi, ancak İbrahim'in yasaklamasıyla yasak oldu, tıpkı Peygamber'in yasaklamadan önce Medine'nin yasal olması gibi. Peygamber'den Cabir'den alınan rivayetleri aktardılar: İbrahim Allah'ın evini kutsayıp güvence altına aldı, ben Medine'yi iki kıyısı arasına attım, Ebu Huraira'yı ise Peygamber'den kutsallaştırdım: İbrahim Allah'ın hizmetkarı ve yakın dostuydu, o Mekke'yi kutsallaştırdı, ben Medine'yi ve Rafi'bin Khadij'i aynı anlamda kutsallaştırdım. El-Muhakkiq'in kenar notlarında bu rivayetlerin doğruluğu ve riayet zincirlerinin değerlendirilmesi verilmiştir. {cite:tafsir-tabari-shakir-v03 p. 48} {cite:tafsir-tabari-shakir-v03 p. 49}
+
+Onlara, Allah'ın İbrahim'in 2:126 [[passage/quran-2-126|'yı söylediğini bildirdiği, bazı şeyleri O'ndan]] istediğini ama bazılarını istemediğini bildirdiği ve Ebu Şurayh ile İbn Abbas'ın haberlerinin onların aktarım zincirlerine kanıt olarak desteklenmediği belirtilmiştir. {cite:tafsir-tabari-shakir-v03 p. 50}
+
+Sonra El-Taberi seçimini şöyle açıklar: Allah Mekke'yi yarattığında kutsal yaptı, tıpkı Peygamber'in gökleri ve yeryüzü yarattığı gün, peygamberlerinin diliyle hiçbir yasak olmadan kutsal kıldığını bildirdiği gibi. Bunun yerine, zarar vermek isteyenleri ve oradan ve sakinlerinden başkalarına gelen sıkıntılardan ve cezalardan uzaklaştırarak. Bu, Allah İbrahim'e verip Hacer ve İsmael'i yerleştirene kadar devam etti. O noktada, Rabbi'den, bu yasağı kullarına dilinde koymasını istedi ki, kendisinden sonralar için sünnet olsun. O da cevap verdi ve böylece yasak İbrahim'in diline göre yaratılış için zorunlu hale geldi, böylece yasak ona da eklendi. {cite:tafsir-tabari-shakir-v03 p. 50} {cite:tafsir-tabari-shakir-v03 p. 51}
+
+El-Taberi, iki haberin — Ebu Şurayh ve İbn Abbas'ın (Allah gökleri ve yeryüzü yarattığı gün Mekke'yi yasakladı) ve Cebir, Ebu Hureyre ve Rafi' bin Hatic'in ("Gerçekten İbrahim Mekke'yi yasakladı") haberlerinin anlamları doğrudur ve hiçbiri diğerini desteklemez, çünkü Allah'ın onu koruyup muhafaza ederek yasaklaması, İbrahim'in diliyle yaratılışa yasağı getirmez. [[passage/quran-14-37|İbrahim 14:37'nin sözüne gelince]], eğer Allah dilinde yasakladığı zaman söylediyse, Allah'ın onu korumasıyla yasakladığını kasteder, eğer ondan sonra olursa sorun yoktur. {cite:tafsir-tabari-shakir-v03 p. 51}
+
+Ve 2:126 [[passage/quran-2-126|' da, Mekke'nin müminlerine meyve vermek, Mekke'nin müminlerine]] kâfirlerinden değil, Rabbi İbrahim'den bir iş olduğu söylenir ve bu konuda onları belirtmiştir çünkü Allah, soyundan imamlara, aralarında ahini yerine getirmeyecek kâfir olduğunu sorduğunda onu tanımıştır. Ve "Kim onunla iman ederse" ifadesi, 2 [[passage/quran-2-217|:217]] ve [[passage/quran-3-97|3:97'de olduğu gibi "ailesinin" yerine geçen ve açıklayıcı bir şeydir]]. Ve Muhammed bin Müslim'den der, İbrahim kutsal alana çağırdığında, Allah Taif'i Filistin'den uzaklaştırmıştır. {cite:tafsir-tabari-shakir-v03 p. 52}
+
+2:126 [[passage/quran-2-126|' da]], konuşmacı ile okuma konusunda tercümanlar arasındaki fark sunulur: Bazıları, 'Kendisini Allah' diyen, yani 'İnkar edene, ona ömrü boyunca bu dünyada sağlayacağım' demiştir. O, Ubeyy ibn Ka'b'den Ebu al-'Aliyah'tan ve İbn İshaq'tan vurgulu bir 'ta' ile 'fa amta'ahu'yu okudu; İbrahim, Allah'ın vasilik atamayı reddettiği kişilere çağrıyı akladığında, 'Allah'a ve kâfir olanlara, doğruları ve kötüleri sağlayacağımdır.' dedi. {cite:tafsir-tabari-shakir-v03 p. 53}
+
+Diğerleri şöyle dedi: İbrahim bunu meselenin bağlamında söyledi; kâfire meyve verilmesi, biraz da tatılması ve ardından ateşin işkencesine zorlanması gerektiği söylendi. İbn Abbas'tan Abu al-'Aliyah'dan 'fa amta'huhu'yu daha çakmak 'ta' ve 'sonra adhaduruhu' dua şeklinde okudu. {cite:tafsir-tabari-shakir-v03 p. 53} {cite:tafsir-tabari-shakir-v03 p. 54}
+
+El-Taberi, Ebu bin Ka'b'ın söylediklerini ve okumasını seçer, çünkü argüman geniş bir aktarım ve ayetin yorumuna dayanır: Allah şöyle dedi: 'Ey İbrahim, duanı kabul ettim ve bu toprakların müminlerine meyve ve kâfirlerine belirlenen zamanlarına kadar verdim, sonra kâfirleri ateşe gitmek zorunda bırakıldı; çünkü Allah bunu İbrahim'in sorusuna cevap olarak söyledi.' Amacının bu dünyada kalarak onu eğlendirmek olduğunu, başka bir sözü ise bunun Mekke'de kaldığı sürece biraz sevinmek olduğunu, Muhammed'i öldürmeye ya da kovmaya gönderene kadar kaldığını belirtiyor ve bunun bu ifadeyle tolere edilebilecek bir sebep olduğunu, ancak görünürdeki anlamının zıt olduğunu söylüyor. {cite:tafsir-tabari-shakir-v03 p. 54} {cite:tafsir-tabari-shakir-v03 p. 55}
+
+Ve 2:126 [[passage/quran-2-126|' da]] şöyle der: 'Onu ona iterim ve oraya sürerim.' Zorlama demektir, onun için 'zorla itmek ve yüzüne çekmektir'. Ve 'Ve varış yeridir' kelimesinde 've en kötüsü, dünyevi zevklerden sonra Ateş'in cezasıdır' anlamına gelir. Ve 'Masir', kâfirin Ateşin cezasına maruz kalacağı yerdir. {cite:tafsir-tabari-shakir-v03 p. 55} {cite:tafsir-tabari-shakir-v03 p. 56}

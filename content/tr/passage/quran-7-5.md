@@ -1,0 +1,21 @@
+---
+id: passage/quran-7-5
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-7-5.md}
+---
+
+## Özet
+Mekke suresi olan Âraf Suresi [[passage/quran-7|'nin 5. ayeti]]. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Suredeki 206 ayetten 5. ayet. Metin Mushaf Tazil al-Mujmad'dan korunmuş olup burada yeniden yazılmamıştır.
+
+Sonra şöyle der: "Peki onlara ne hak iddia etti...": Allah der ki, Yüce Olan, kudretimiz ve kudretimiz üzerine ayetlerle geldiğinde kasaba halkının yok ettiğimiz iddiasından bahsetmedi, yoksa kendilerine suçlu olduklarını, Rablerine günahkar olduklarını ve O'nun emrini ve yasağını dinlemediklerini kabul ettiler mi? Ve "onların iddiası" ifadesiyle burada onların duasını kastediyor. Arapların konuşmasındaki "iddia" iki yönlüdür: biri dua, diğeri gerçeğin iddiasıdır. Yalvarma anlamına gelen iddialar arasında [[passage/quran-21-15|21:15']] teki 'Zaten onların iddiası budur' sözü vardır ve şair Kathir Azza'nın sözünden gelir. Kenar notunda daha önce bahsedilen "Rableri ile günahkarlar" ifadesine atıfta bulunur. {cite:tafsir-tabari-shakir-v12 p. 303}
+
+El-Taberi, "çağrı" kelimesinin anlamıyla ilgili olarak, Kathir Azza'nın bir ayetinde, bacağı uyuştuğunda sevgilisini çağırdığını ve duasında onlardaki uyuşukluktan şifa bulduğunu belirtir. Dipnot, Diwan'ı ve Arap'ın Sonu ile Dil'e atıfta bulunur. Daha önce "el-bas" ve "al-asa"nın ağır olduğunu açıkladığını belirtir. Bu ayet, Allah'ın Resulü'nün "Hiçbir halk kendini affettirmeden yok olmaz" rivayetinin doğruluğunu açıkça gösterir ve bazıları bunu da yorumlamıştır; örneğin (14323), Abdullah ibn Mas'ud'dan Peygamber'in bu haberi rivayet eder ve Abdülmelik bin Maysarah al-Zarrad'a bunun nasıl olabileceği sorulmuş ve bu ayeti okuymuştur. Kenar notları, aktarım zincirinin kesildiğini, çünkü Abdülmelik'in İbn Mes'ud ile görüşmediğini, İbn Kathir'in bunu el-Tabari'den andığını ve el-Suyuti'nin bunu İbn Ebu Hatim'e atfettiğini açıklar. 'Kendinden affedilmek' ifadesi, günahlarının cezalandırılabileceği anlamına gelir; yani günahları artana kadar yok olmazlar, böylece cezayı hak ederler ve onları cezalandıranların ceza vermek için bir bahanesi vardır. {cite:tafsir-tabari-shakir-v12 p. 304}
+
+Birisi şöyle derse: "Onlara ne hak etti..." Ve Allah'ın gazabı yıkımla üzerlerine geldiğinde bunu nasıl iddia edebilir? Bunu yıkımdan önce mi söylediler? Eğer yıkımdan önce söyledilerse, kudretin gelişinden önce söylediler ve Tanrı onlara bunun kendilerine geldiğinde söylediklerini, öncesinde değil; ya da sonrasında söylediklerini bildirir, bu yüzden öldükleri bir durumdur. Peki, Allah'ın gücünü ve elçilerin Allah'ın kaderini vaat ettiklerinin gerçeğini gördüklerinde nasıl tanımlanabilirler? Şöyle denirdi: Tüm uluslar, başlangıç ile son arasında bir gecikme olmadan bir anda yok olmaz; aksine, bazıları selde boğuldu ve davanın ilk ortaya çıkışı ile yıkımlarının yayıldığı zamanın sonu, akıl sahibinden gizlenmedi; bazıları ise yıkım işareti gözlerine göründükten sonra üç gün boyunca hayat sürdü, Salih halkı ve benzerleri gibi. O zamanlar, elçilerinin kendilerini tehdit ettiği Allah'ın kudretinin ilk işaretlerini görmediler ve Allah'ın gücünün gerçek inişinden emindiler. "Vay bize vay canına! Biz suçluyduk!" diye bağırdılar. Allah'ın bayramı geldiğinde ve cezası üzerlerine geldiğinde inançları onlara fayda sağlamadı. Bu yüzden Rabbimiz, peygamberi Muhammed'in gönderildiği kişileri, O'na inanmadıkları ve uluslar arasında kendilerinden öncekilere başlarına gelenleri reddettikleri için O'nun kudretinden ve cezasından uyardı; çünkü onlar elçilerine itaatsizlik ettiler ve her inatçı zorbanın emrini takip ettiler. Kenar notları, el yazmasındaki bağlantının tutarsızlığını ve sözde bir yanlış anlaşılma olduğu varsayımını gösterir. {cite:tafsir-tabari-shakir-v12 p. 305}
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.

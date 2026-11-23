@@ -1,0 +1,24 @@
+---
+id: passage/quran-2-71
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-2-71.md}
+---
+
+## Ringkasan
+Ayat 71 Surah [[passage/quran-2|Al-Baqarah]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: Ayat 71 dari 286 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujmad dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari mengatakan bahwa Musa berkata: Tuhan berkata itu adalah sapi "tidak ditaklukkan," artinya ia tidak ditaklukkan oleh perbuatan, juga tidak ditundukkan dengan mengaduk bumi dengan kukunya atau menyiramnya. Ini diceritakan dari Qatadah, Al-Suddi, Abu Al-'Aliyah, Al-Rabi', dan Mujahid. Dan "bumi bergerak" mengubahnya menjadi bajak, dan ia menggambarkannya seperti itu karena, katanya, liar, dan ini diceritakan dari Al-Hasan. {cite:tafsir-tabari-shakir-v02 p. 212} {cite:tafsir-tabari-shakir-v02 p. 213}
+Dalam 'Muslimah,' mereka berbeda: Mujahid mengatakan Muslimah berasal dari shiya yang tidak memiliki kulit putih maupun kehitaman, sementara Qatadah, Abu al-'Aliyah, Al-Rabi', dan Ibn Abbas mengatakan Muslimah adalah salah satu cacatnya. Al-Tabari lebih memilih pendapat Ibn Abbas dan Abu Al-'Aliyah daripada Mujahid, karena jika integritasnya berasal dari warna, ia cukup dengan pernyataannya [[passage/quran-2-71|2:71]], yang menunjukkan perbedaan makna. {cite:tafsir-tabari-shakir-v02 p. 213} {cite:tafsir-tabari-shakir-v02 p. 214}
+
+Al-Tabari melanjutkan dengan 'Muslimah,' yang berarti menurutnya, ayat tersebut adalah seekor sapi yang belum dilumpuhkan oleh diaduk tanah atau diirigasi oleh irigasi, namun tetap sehat dan bebas dari [[passage/quran-2-71|cacat. Dan 2:71]] Ia tidak memiliki warna yang berbeda dari warna kulitnya. Asal kata itu adalah 'washi' ('washi' pakaian), dan dari situ lahir 'washi' (washi), yang pandai berbohong. Ia mengutip pernyataan Ka'b ibn Zuhayr, tetapi pendapat mereka yang menjadikan 'washi' sebagai tanda tidak diterima. Ia menceritakan dari Qatadah, al-Rabi', Abu al-'Aliyah, Atiyyah, Mujahid, al-Suddi, dan Ibn Zayd bahwa ia tidak memiliki warna putih, kegelapan, atau kemerahan, dan warnanya sama. {cite:tafsir-tabari-shakir-v02 p. 214} {cite:tafsir-tabari-shakir-v02 p. 215} {cite:tafsir-tabari-shakir-v02 p. 216}
+Dan dalam [[passage/quran-2-71|2:71]] ada dua pendapat: pernyataan Qatadah bahwa maknanya kini telah dijelaskan kepada kita sehingga kita tahu maksud sapi mana; dan riwayat lain dari Ibn Zayd yang mereka atribusikan kepada Musa bahwa dia tidak pernah menyampaikan kebenaran kepada mereka sebelumnya. Al-Tabari lebih memilih pandangan Qatadah, karena Musa jelas bagi mereka dalam segala hal, sehingga tidak dikatakan kepadanya [[passage/quran-2-71|2:71]] seolah-olah dia tidak pernah membawanya kepada mereka sebelumnya. Disebutkan bahwa beberapa orang yang sebelumnya mengaku murtad dan tidak percaya pada pernyataan ini, tetapi Al-Tabari tidak melihat ini karena mereka menyerah pada ketaatan dengan menyembelihnya, meskipun pernyataan mereka adalah ketidaktahuan dan kesalahan di antara kesalahan mereka. {cite:tafsir-tabari-shakir-v02 p. 217} {cite:tafsir-tabari-shakir-v02 p. 218}
+Dan dalam [[passage/quran-2-71|2:71]] dikatakan bahwa mereka hampir meninggalkan kewajiban Allah. Mereka berbeda pendapat tentang alasannya: Muhammad ibn Ka'b al-Quradhi dan Mujahid mengatakan itu mahal, sehingga mereka membelinya dengan kulit penuh emas dari uang yang terbunuh. Dinawayatkan dari Ibn Abbas melalui al-Dahhak bahwa mereka tidak ingin membantai makhluk itu. Pernyataan lain adalah bahwa itu karena takut akan aib. {cite:tafsir-tabari-shakir-v02 p. 218} {cite:tafsir-tabari-shakir-v02 p. 219}
+
+Al-Tabari, berdasarkan penilaiannya sendiri, berpendapat bahwa rakyat hampir tidak melakukannya karena dua alasan: harga yang tinggi meskipun ada bahaya kecil yang disebutkan, dan ketakutan akan skandal dengan mengungkap Tuhan si pembunuh. Ada banyak cerita tentang harga itu: dari Al-Suddi bahwa mereka membelinya sepuluh kali lipat dari berat emas, dari Ubayda dengan kulitnya penuh dinar, dari Mujahid, Wahb, dan Ibn Zayd tentang kulit penuh emasnya, dari Abu Al-'Aliyah bahwa seorang wanita tua meminta mereka berkali-kali lipat harganya, dan dari Ikrimah bahwa harganya hanya tiga dinar. Karena takut akan skandal itu, diceritakan dari Wahb ibn Munabbih bahwa mereka berkata, "Apakah kamu menganggapnya sebagai ejekan?" mengetahui bahwa mereka akan dipermalukan; dan dari Ibn Abbas bahwa para pembunuh menyangkal membunuh setelah Tuhan menghidupkan orang mati dan memberitahu mereka tentang pembunuhnya. {cite:tafsir-tabari-shakir-v02 p. 220} {cite:tafsir-tabari-shakir-v02 p. 221} {cite:tafsir-tabari-shakir-v02 p. 222}

@@ -1,0 +1,29 @@
+---
+id: passage/quran-9-110
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-9-110.md}
+---
+
+## Ringkasan
+Ayat 110 Surah [[passage/quran-9|At-Tawbah]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: Ayat 110 dari 129 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujjad dan tidak ditulis ulang di sini.
+
+**Interpretasi ayat 110 (hlm. 494-498)**
+
+Al-Tabari berkata: Pembangunan mereka yang menganggapnya sebagai masjid yang penuh bahaya dan ketidakpercayaan tetap menjadi kecurigaan. Ia mengatakan masjid mereka, yang mereka bangun, tetap menjadi keraguan di hati mereka, artinya keraguan dan kemunafikan di hati mereka. Mereka pikir mereka telah berbuat baik dalam pembangunannya, kecuali hati mereka dipotong, artinya hati mereka hancur dan mereka mati. Dan Allah tahu apa yang dipikirkan oleh para munafik yang membangun masjid yang penuh bahaya itu mengenai keraguan mereka terhadap agama mereka, apa yang mereka maksudkan dalam membangunnya, apa yang mereka maksudkan dalam pembangunannya, dan apa hasil dari urusan mereka di akhirat dan dalam hidup selama mereka hidup, serta hal-hal lain yang berkaitan dengan diri mereka sendiri dan orang lain. Dia bijaksana dalam mengelola mereka dan seluruh ciptaan-Nya. Peneliti dalam kecurigaan, pengetahuan, dan hikmat merujuk pada apa yang telah disebutkan. {cite:tafsir-tabari-shakir-v14 p. 495}
+
+Dan seperti yang kami katakan, para ulama penafsiran berkata. Dan narasi 17251 dari Ibn Abbas, dari rantai Al-Muthanna, Abdullah, Muawiyah, dan Ali: Struktur mereka, yang mereka bangun keraguan di hati mereka, berarti keraguan, akan tetap ada, kecuali hati mereka dipotong, yang berarti kematian. Dan narasi 17252 dari Qatadah, melalui Muhammad ibn Abd al-A'la, Muhammad ibn Thawr, dan Mu'ammar: keraguan di hati mereka, dia berkata: keraguan di hati mereka, kecuali hati mereka dipotong sampai mereka mati; dan narasi 17253 dari Qatadah, melalui Bishr, Yazid, dan Sa'id: sampai mereka mati. Dan riwayat tahun 17254, 17255, 17256, dan 17257 dari Mujahid, dari rantai Matar ibn Muhammad al-Dhabi, Abu Qutaybah, Shu'bah, al-Hakam, Muhammad ibn Amr, Abu Asim, Isa, al-Muthanna, Abu Hudhayfa, Shibl, Abdullah, dan Warqa': kecuali hati mereka dipotong, artinya kecuali mereka mati. {cite:tafsir-tabari-shakir-v14 p. 495}
+
+Dan riwayat 17258 dari Qatadah dan Hasan, melalui Suwayd, Ibn al-Mubarak, dan Mu'ammar: Struktur mereka, yang mereka tanamkan keraguan di hati mereka, masih ada; mereka berkata keraguan di hati mereka. Dan narasi 17259 dari Habib, melalui Ibn Waki', Ishaq al-Razi, dan Abu Sinan: keraguan di hati mereka, katanya amarah di hati mereka; dan narasi 17260 dan 17261 dari Mujahid dan Habib, seperti yang disebutkan sebelumnya mengenai kematian. Dan narasi 17262 dari al-Suddi, melalui Qabisa dan Sufyan: keraguan di dalam hati mereka, dia berkata tidak percaya, aku berkata aku tidak percaya Majma' ibn Jariya, dia berkata, tidak, tapi itu kecurigaan; dan narasi 17263 darinya melalui Ahmad ibn Ishaq, Abu Ahmad, dan Sufyan: keraguan di hati mereka. {cite:tafsir-tabari-shakir-v14 p. 496}
+
+Dan riwayat 17264 dari Ibn Zayd, melalui rantai Yunus dan Ibn Wahb: Struktur mereka, yang mereka bangun dengan keraguan di hati mereka, tetap meragukan di hati mereka, puas dengan apa yang telah mereka lakukan, seperti anak sapi itu mencintai hati sahabat Musa, dan mereka melafalkan dan meminum anak sapi di hati mereka karena ketidakpercayaan mereka, yaitu [[passage/quran-2-93|ayat 2:93]]. Dia berkata: Kasih-Nya adalah jika hati mereka tidak dipotong. Dia berkata: Itu akan tetap ada di hati mereka sampai mereka mati, maksudnya para munafik. Dan riwayat 17265 dari Ibrahim, melalui rantai Al-Harith, Abdul Aziz, Qais, dan Al-Suddi: keraguan di hati mereka. Dia berkata ragu, dia berkata: Aku berkata, wahai Abu Imran, kamu katakan ini saat kamu membaca Al-Qur'an. Dia berkata: Itu hanyalah seekor kadal. {cite:tafsir-tabari-shakir-v14 p. 497}
+
+Para pembaca berbeda dalam mengucapkan frasanya 'kecuali hati mereka dipotong.' Beberapa pembaca dari Hijaz, Madinah, Basra, dan Kufa membaca ini sebagai 'kecuali melukai hati mereka' dengan damma pada 'ta' dari 'taqata', yang berarti 'kecuali Allah memotong hati mereka.' Beberapa pembaca Madinah dan Kufa membaca ini sebagai 'kecuali melukai hati mereka' dengan fatha pada ta, yang berarti 'taqata', tetapi kata kerja untuk hati berarti 'kecuali hati mereka dipotong' dan kemudian salah satu dari dua ta dihilangkan. Ia menyebutkan bahwa Al-Hasan biasa mengucapkan 'sampai hati mereka dipotong' yang berarti 'sampai hati mereka dipotong.' Ia menyebutkan bahwa dalam bacaan Abdullah: 'Meskipun hati mereka dipotong,' dan sesuai dengan itu, mereka yang membaca 'kecuali dipotong' dibaca dengan 'damma pada ta'. Peneliti merujuk pada makna Al-Qur'an untuk Al-Farra'. {cite:tafsir-tabari-shakir-v14 p. 497}
+
+Al-Tabari percaya bahwa fatha dalam 'ta' dan 'damma' memiliki makna yang mirip, karena hati tidak hancur jika diputus kecuali oleh Allah memotongnya, dan Allah tidak memotongnya kecuali ketika mereka diputuskan. Ini adalah dua bacaan yang terkenal, masing-masing dibacakan oleh sekelompok pembaca, jadi apapun yang dibaca pembaca, maka bacaan yang benar adalah benar. Adapun membaca itu sampai diputus, membaca Al-Qur'an Muslim adalah bertentangan, dan ia tidak menganggap membaca apa pun selain apa yang ada dalam Al-Qur'an mereka diperbolehkan. {cite:tafsir-tabari-shakir-v14 p. 498}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

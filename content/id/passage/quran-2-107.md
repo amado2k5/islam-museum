@@ -1,0 +1,21 @@
+---
+id: passage/quran-2-107
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-2-107.md}
+---
+
+## Ringkasan
+Ayat 107 Surah [[passage/quran-2|Al-Baqarah]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: Ayat 107 dari 286 dalam surat. Teks ini disimpan dari Mushaf Tazl al-Majmad dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Dan dalam [[passage/quran-2-106|2:106]] tertulis: Tidakkah engkau tahu, wahai Muhammad, bahwa Aku mampu mengganti kepadamu atas apa yang Kucabut dari keputusanku dan apa yang telah kuubah dari kewajibanku sesuka hatiku, demi apa yang lebih baik untukmu dan hamba-Ku yang beriman, cepat atau lambat di dunia ini atau di akhirat, atau dengan menggantikannya untukmu dengan yang sama? Ketahuilah bahwa Aku mampu melakukan itu dan segala hal. Dan 'Qadeer' di sini berarti kuat, menyebutkan bahasa 'qudrud 'alayh' dan bahwa Banu Murrah dari Ghatafan melanggar 'dal', dan bahwa 'al-taqdir' dari 'qadrat al-shay' memiliki sumber yang berbeda. {cite:tafsir-tabari-shakir-v02 p. 484}
+
+Dalam [[passage/quran-2-107|2:107]], Al-Tabari menyebutkan sebuah pertanyaan: Atau apakah Nabi tidak mengetahui hal itu? Ia menceritakan bahwa beberapa orang mengatakan pidato itu adalah artikulasi dari laporan, seperti pepatah orang Arab, "Bukankah aku menghormatimu?" yang berarti "Aku menghormatimu." Ia menjawab bahwa jika pertanyaan ditempatkan dengan huruf 'negasi,' itu tidak berarti adanya penegasan dalam bahasa Arab. Ia percaya bahwa meskipun pidato itu muncul kepada Nabi, itu merujuk pada sahabat-sahabatnya yang Allah berfirman [[passage/quran-2-104|2:104]], dan ia berargumen bahwa ayat terakhir merujuk pada mereka semua ([[passage/quran-2-107|2:107]]). Ia mengatakan bahwa di antara ucapan Arab yang fasih, pembicara mengungkapkan pidatonya kepada beberapa orang sambil merujuk pada orang lain, atau kepada satu orang yang berarti sebuah kelompok, atau kepada kelompok dan salah satu dari mereka. Ia diwakili oleh Surah Al-Ahzab (ucapan Nabi saat itu kelompok), ayat-ayat Al-Kumayt ibn Zayd yang memuji Nabi seperti ia merujuk pada keluarganya, dan dalam ayat Jamil ibn Muammar ('Sesungguhnya, tetanggaku di sore hari harum,' dan ayat lain di mana ia menggambarkan seorang wanita dalam bentuk maskulin. Demikian pula, ayat ini, meskipun tampak sebagai alamat kepada Nabi, merujuk pada sahabat-sahabatnya. {cite:tafsir-tabari-shakir-v02 p. 484} {cite:tafsir-tabari-shakir-v02 p. 485} {cite:tafsir-tabari-shakir-v02 p. 486} {cite:tafsir-tabari-shakir-v02 p. 487}
+
+Al-Tabari membedakan dalam [[passage/quran-2-107|2:107]] antara 'al-malik' yang berarti otoritas dan kekuasaan dan 'al-malik' yang berarti kepemilikan. Ia mengatakan makna ayat tersebut adalah: 'Tidakkah engkau tahu, wahai Muhammad, bahwa Aku tidak memiliki kekuasaan atas langit dan bumi dan kekuasaan mereka atas siapa pun? Aku mengadili di antara keduanya sesuai kehendakku, memerintahkan mereka, melarang, membatalkannya, dan mengubah penilaianku terhadap hamba-Ku sesuai kehendak-Nya.' Ia percaya bahwa meskipun laporan itu adalah pidato kepada Nabi tentang kebesaran Allah, itu adalah penyangkalan terhadap orang Yahudi yang menyangkal pembatalan putusan Taurat dan kenabian Yesus dan Muhammad, serta bahwa Allah memberitahu mereka bahwa Dia memiliki kekuasaan atas langit dan bumi serta bahwa Dia telah Untuk memerintah, melarang, membatalkan, menyetujui, dan melupakan, lalu berkata kepada Nabi dan umat beriman, 'Talah pada perintah-Ku dan jangan takut oleh perselisihan yang bertentangan, karena tidak ada yang dapat menopang urusan kalian kecuali Aku, dan tidak ada yang dapat mendukungmu kecuali Aku.' Dan 'al-Wali' adalah 'fa'il' dari 'Aku telah menjadi penjaga si anu' jika kamu menjadi penjaganya, dan 'al-Nasir' adalah 'fa'il' dari 'pendukungmu,' yang berarti [[passage/quran-2-107|']] selain Allah dan setelah Allah,' dan dia mengutip rumah Umayyah ibn Abi al-Salt. {cite:tafsir-tabari-shakir-v02 p. 487} {cite:tafsir-tabari-shakir-v02 p. 488} {cite:tafsir-tabari-shakir-v02 p. 489}

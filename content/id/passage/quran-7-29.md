@@ -1,0 +1,23 @@
+---
+id: passage/quran-7-29
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-7-29.md}
+---
+
+## Ringkasan
+Ayat 29 Surah [[passage/quran-7|Al-A'raf]], yang merupakan surah Mekah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: ayat 29 dari 206 dalam surat. Teks ini dilestarikan dari Mushaf Wahyu Beku dan tidak ditulis ulang di sini.
+
+Kemudian Dia berkata dalam "Katakanlah, 'Tuhanku memerintahkan keadilan dan menegakkan keadilan...': Allah berkata kepada Nabi-Nya, 'Katakanlah, wahai Muhammad,' kepada mereka yang mengaku bahwa Allah memerintahkan mereka untuk bermoral dan berbohong tentang Allah: Tuhanku tidak memerintahkan apa yang kamu katakan, melainkan Tuhanku yang memerintahkan keadilan, yang berarti keadilan." Dengan demikian, (14469) dari Mujahid dan (14470) dari Al-Suddi bahwa "keadilan" berarti keadilan. {cite:tafsir-tabari-shakir-v12 p. 379}
+
+Adapun ungkapan "dan berdirilah di setiap masjid," para penafsir berbeda penafsirannya. Beberapa berkata: Maknanya adalah menghadap Ka'bah di mana pun kamu sedang berdoa. (14471) dan (14472) menceritakan dari Mujahid bahwa ke Ka'bah di mana pun kamu berdoa di gereja dan di tempat lain; (14473) dari Al-Suddi bahwa "masjid" adalah Ka'bah; (14474) dari Mujahid bahwa itu adalah Ka'bah di mana pun ia berada; dan (14475) dari Ibn Zayd bahwa maknanya adalah berdiri di hadapan kiblah yang Allah perintahkan untuk kamu lakukan. {cite:tafsir-tabari-shakir-v12 p. 380}
+
+Yang lain berkata: Maksud saya adalah sujud kepada Allah adalah tulus, mengecualikan dewa lain dan yang setara. Dinawayatkan (14476) dari Al-Rabi' bahwa ketulusan berarti tidak memanggil orang lain tetapi tulus dalam agama kepada-Nya. Al-Tabari berkata: Tafsir yang paling tepat dari dua ini adalah apa yang dikatakan Al-Rabi', yaitu bahwa umat diperintahkan untuk mengarahkan doa mereka kepada Tuhan mereka, bukan kepada berhala dan berhala, dan memohon kepada Allah dengan tulus, bukan kepada penindasan atau pembalasan. Penafsiran ayat yang paling tepat adalah bahwa Allah dengan ayat ini berbicara kepada umat di antara para politeis Arab yang bukan orang gereja dan penjualan, melainkan gereja dan penjualan untuk umat Dua Kitab Suci. Tidak masuk akal mengatakan kepada seseorang yang tidak berdoa di gereja atau berjanji untuk memalingkan wajah ke Ka'bah di gereja atau lelang. Catatan di pinggir menunjukkan bahwa "al-maka" berarti bersiul dan "tasdiyah" berarti tepuk tangan. Mereka biasa mengelilingi rumah dalam keadaan telanjang, bersiul dengan mulut dan bertepuk tangan. Adapun ungkapan "Dan panggillah kepada-Nya dengan tulus dalam agama," tertulis: "Dan bekerjalah untuk Tuhanmu, dengan tulus kepada-Nya dalam agama dan ketaatan. Jangan campur dengan bergaul dengan mitra dengan-Nya maupun mengaitkan apa pun yang kamu lakukan dengan-Nya." (14477) menceritakan dari Al-Rabi' bahwa maknanya adalah mendedikasikan agama, panggilan, dan perbuatanmu kepada-Nya, lalu melanjutkan ke Rumah Suci. {cite:tafsir-tabari-shakir-v12 p. 381}
+
+Kemudian Dia berkata dalam "Seperti Dia memulai kamu, kamu akan kembali": Para penafsir berbeda dalam penafsirannya. Beberapa berkata: Penafsirannya seperti yang dimulai, sengsara dan bahagia, maka kamu akan bangkit pada Hari Kebangkitan. (14478) menceritakan dari Ibn Abbas bahwa Allah mulai menciptakan anak Adam, seorang yang beriman dan seorang kafir, seperti yang Dia katakan dalam [[passage/quran-64-2|2:64]]: Dialah yang menciptakan kamu; di antara kamu ada orang kafir dan beberapa dari kalian seorang beriman, maka Dia akan mengembalikan mereka pada Hari Kebangkitan seperti Dia memulai penciptaan mereka, baik yang beriman maupun yang kafir; dan (14479) dari dia bahwa Dia membangkitkan orang beriman sebagai orang beriman dan orang kafir sebagai orang kafir; dan (14480) dari Jabir bahwa mereka bangkit seperti dulu, orang beriman karena imannya dan kemunafikannya atas kemunafikannya. Catatan di pinggir menyebutkan bahwa Yahya ibn al-Durays dapat dipercaya; dan (14481) dari Abu al-'Aliyah bahwa mereka kembali kepada pengetahuan-Nya tentang mereka. Apakah kamu belum mendengar firman Allah tentang mereka saat kamu mulai kembali? Apakah kamu belum mendengar firman-Nya: sebuah kelompok adalah petunjuk dan sebuah kelompok benar-benar tersesat? {cite:tafsir-tabari-shakir-v12 p. 382}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

@@ -1,0 +1,24 @@
+---
+id: concept/quranic-inscriptions-on-coins
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/concept/quranic-inscriptions-on-coins.md}
+---
+## Ringkasan
+Faraj Allah Ahmad Yusuf percaya bahwa [[person/abd-al-malik-ibn-marwan|Abd al-Malik ibn Marwan]] adalah orang pertama yang mencatat ayat-ayat Al-Qur'an pada koin Islam untuk mengekspresikan karakter independen negara, ketika ia menerbitkan dinar Arab murni pada tahun 77 H dari biaya apa pun. {cite:yusuf-ayat-quraniyya-maskukat-2003 p. 24} Menurut [[passage/quran-112-1|pendapatnya, Surah Al-Ikhlas]] diukir pada ayat-ayat tersebut sebagai tanggapan terhadap frasa-frasa triangulasi koin Bizantium, dan [[passage/quran-9-33|ayat 33 Surah At-Tawbah]] untuk menegaskan keluasan pesan dan munculnya Islam dalam agama, menjadikan ayat ini salah satu ayat yang paling banyak beredar tentang koin Islam. {cite:yusuf-ayat-quraniyya-maskukat-2003 p. 24} {cite:yusuf-ayat-quraniyya-maskukat-2003 p. 25} Kemudian dirham Arab murni diterbitkan pada tahun 78 H. {cite:yusuf-ayat-quraniyya-maskukat-2003 p. 24}
+
+## Alat politik
+Penulis mengatakan bahwa Abd al-Malik dengan demikian menginstitusikan Muslim untuk menulis ayat-ayat pada koin, yang digunakan untuk mengekspresikan orientasi politik, doktrin, serta ekonomi dan sosial banyak negara. {cite:yusuf-ayat-quraniyya-maskukat-2003 p. 25} Di antara contoh-contohnya adalah:
+- Abdul Rahman ibn Muhammad ibn al-Ash'ath [[person/abd-al-rahman-ibn-muhammad-ibn-al-ashath|menuliskan ayat]] 139 Surah An-Nisa, dalam [[passage/quran-4-139|kemunculannya melawan Abd al-Malik]], sebagai protes, menurut penulis, terhadap kewajiban jizya bagi para peziarah kepada umat Islam. {cite:yusuf-ayat-quraniyya-maskukat-2003 p. 25}
+- Seruan Abbasiyah, [[passage/quran-42-23|ayat 23 Surah Ash-Shura]], mengibarkan panji pada koinnya mulai tahun 127 H, dan berlanjut pada koin Abbasiyah hingga tahun 136 H. Kemudian Hasan ibn Zayd menuliskannya di negara Alawite dalam bahasa Tabaristan, diikuti oleh Hasan ibn al-Qasim. {cite:yusuf-ayat-quraniyya-maskukat-2003 p. 25} {cite:yusuf-ayat-quraniyya-maskukat-2003 p. 26}
+- Ibrahim ibn Abdullah ibn al-Hasan menuliskan ayat 81 Surah Al-Isra pada koinnya yang dicetak di Basra pada tahun 145 H, [[passage/quran-17-81|]] yang kemudian menjadi simbol Alawit setelahnya. Para penguasa Alawit di Tabaristan menuliskan [[passage/quran-22-39|ayat 39 Surah Al-Hajj]] dan [[passage/quran-33-33|ayat 33 Surah Al-Ahzab]]. Ayat ini juga muncul pada koin bangsawan Sa'adid di Maroko. {cite:yusuf-ayat-quraniyya-maskukat-2003 p. 26} {cite:yusuf-ayat-quraniyya-maskukat-2003 p. 27}
+- Setelah konflik dengan saudaranya Al-Amin, [[person/abd-allah-al-mamun|Al-Ma'mun]] menuliskan [[passage/quran-30-4|ayat 4 dan 5 Surah Ar-Rum]], yang menjadi standar dalam koin Abbasiyah hingga tahun 656 H. Tulisan ini juga ditulis oleh Abd al-Rahman al-Nasir dalam al-Andalus setelah disebut sebagai Panglima Orang Beriman pada tahun 316 H. {cite:yusuf-ayat-quraniyya-maskukat-2003 p. 27} {cite:yusuf-ayat-quraniyya-maskukat-2003 p. 28}
+- Prasasti Ahmad ibn Abdullah al-Khujastani [[passage/quran-3-26|adalah ayat 26 Surah Al-Imran]], yang kemudian muncul pada koin Hulagu dan putranya Abaqa. Penulis menyebutkan bahwa mereka adalah penganut Buddha dan bahwa alamat mereka ditujukan kepada subjek Muslim mereka, yang saat itu pada koin suku Nasr di Granada. {cite:yusuf-ayat-quraniyya-maskukat-2003 p. 28}
+- Prasasti penulis Zanj [[passage/quran-9-111|adalah ayat 111 Surah At-Tawbah]] dan [[passage/quran-5-44|ayat 44 Surah Al-Ma'idah]]; penulis percaya ia tidak berhasil memilih yang kedua karena telah diwahyukan tentang orang Yahudi dan karena seorang Muslim tidak dianggap sebagai kafir dalam dosa besar. {cite:yusuf-ayat-quraniyya-maskukat-2003 p. 29}
+- [[passage/quran-61-13|Ayat 13 Surah As-Saff]] muncul pada dirham irigasi tahun 329 H oleh Nasr ibn Ahmad al-Samani, kemudian pada koin al-Mustansir dan al-Musta'sim selama invasi Mongol. Ayat [[passage/quran-3-126|126 Surah Al-Imran muncul]] pada koin Marinid dan kemudian pada koin Mamluk dari al-Nasir Muhammad ibn Qalawun hingga tahun 923 H. {cite:yusuf-ayat-quraniyya-maskukat-2003 p. 29} {cite:yusuf-ayat-quraniyya-maskukat-2003 p. 30}
+- Al-Radi Billah menuliskan [[passage/quran-35-34|ayat 34 Surah Fatir]] ketika Muhammad ibn Ra'iq diangkat sebagai komandan para pangeran. {cite:yusuf-ayat-quraniyya-maskukat-2003 p. 30}
+
+## Catatan
+Pembacaan alasan ini merupakan interpretasi penulis dalam memilih setiap ayat dalam konteks sejarahnya, seperti yang disajikan dalam pengantarnya. {cite:yusuf-ayat-quraniyya-maskukat-2003 p. 25}

@@ -1,0 +1,27 @@
+---
+id: passage/quran-3-120
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-3-120.md}
+---
+
+## Özet
+Medine suresi olan İmran Suresi [[passage/quran-3|'nin 120. ayeti]]. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Surede 200 ayetten 120. ayet. Metin Mushaf Tazil al-Majmad'dan korunmuş olup burada yeniden yazılmamıştır.
+
+**Hakaret ve sevincin anlamı (s. 155).** El-Taberi şöyle der: İyi bir eylemin anlamı, inananların düşmanlarına karşı görünerek, dinlerine katılarak, peygamberlerine inanarak ve düşmanlarına yardım ederek sevinç kazanmasıdır; ve başlarına kötü bir iş gelirse, sırlarının kaybı, düşmana zarar verme veya grupları arasında bir anlaşmazlık onları sevindirir. Doğrulayıcı, kitabın daha önce bahsedilen eylemin yorumuna atıfta bulunur. {cite:tafsir-tabari-shakir-v07 p. 155}
+
+- Yezid'den Bişr'den, Seyid'den Qatadah'tan (7705): İslam halkı arasında birlik ve birlik gördüklerinde, düşmanlarına karşı bir varlık gördüklerinde, bu onları kızdırır ve hoşnutsuzlaştırır. Ve bölünme, anlaşmazlık ya da Müslümanlar arasında bir grup sıkıntı gördüğünde, sevinir, hayranlık duyar ve sevinirler. Bir yoldaşlarından biri çıktığında, Allah hadisini reddeder, Onun kanıtını geçersiz kılar ve kusurlarını ortaya çıkarır. Bu, Kıyamet gününe kadar kalanlar ve vefat edenler için verdiği fermandır. {cite:tafsir-tabari-shakir-v07 p. 155} {cite:tafsir-tabari-shakir-v07 p. 156}
+- Ammar'dan, İbn Abi Ca'far'dan babasından El-Rabi'den (7706): Onlar münafıklardır, Müslümanlar arasında bir grup ve görünüş gördüklerinde son derece öfkelenirler ve anlaşmazlık ile Müslümanlardan birinin yaralanmasından memnundurlar. {cite:tafsir-tabari-shakir-v07 p. 156}
+- El-Kasım'dan, El-Hüseyin'den, İbn Jureyc'den Hacąc'dan (7707, taranmış baskının metninde sayısı belirgin değildir ancak sayıların sırasıyla kanıtlanır): İnananlar arasında bir grup ve birlik gördüklerinde üzülürler, bölünme ve anlaşmazlık gördüklerinde sevinirler. {cite:tafsir-tabari-shakir-v07 p. 156}
+
+**Sabır, takva ve entrikaları (s. 156).** El-Tabari şöyle der: İnananların Allah'a itaat etmede ve O'nun emrini takip etmede sabrı, yasakladıkları şeylerden kaçınmaları, bu Yahudilerden yakın müttefik almaları da dahil olmak üzere, müminler dışında, Rablerinden korkmuşlar ve O'nun hakkından ve Elçisinin hakkından ne sorumlu oldukları konusunda O'nun yargısından önce gelmemişlerdir. Kurnazlıkları onlara en ufak bir zarar vermemiştir. Onun için komplo yapmanın anlamı, Müslümanları aldatmak ve onları rehberden ve hakikat yolundan saptırmak için yaptıkları komplolardır. {cite:tafsir-tabari-shakir-v07 p. 156}
+
+**Zarar fiilinin okunması ve yönlendirilmesi (s. 157-158).** El-Taberi, okunanların farklı olduğunu belirtir. Hicaz halkından ve bazı Basralılardan bir grup, 'dhira di'arhu dirhu di'arhu dhira' daira deyimini hafifçe telaffuz edip dhadın üzerine bir kasra ile okur. Araplardan bana fayda sağlayan ve zarar vermeyenlerin anlatılmasıyla anlatılmıştır, ancak el-Taberi, o yönü ne gerektiğini okuyan kimseyi tanımadığını söyler ve doğrulayıcı el-Farra ile Ma'ani al-Qur'an'a atıfta bulunur (1:232). Medine halkından bir grup ve genel Kufe ovetçileri, dād üzerine bir damma ve rā üzerine şada ile okudukları zararın ona zarar vermesidir. 'Damma'da ona göre iki iki yol vardır: birincisi, 'ra'nın ünlüsünü 'dad' ünlüsünün ardından takip etmesidir çünkü orijinali yargılıdır ve shaddah için kullanılamaz; bu yüzden en yakın ünlüleri takip eder, dedikleri gibi, 'Madd, ya ha'; ikincisi ise gerçek biçimiyle nominatif olmasıdır ve 'la' 'lays' anlamına gelir; 'fa'yı, yani durumun cevabını, dinleyicinin yerini bilmesine bırakmıştır; yani onların kurnazlığı size hiçbir şekilde zarar vermek değildir. Suwar ibn al-Mu'drib al-Sa'di al-Tamimi'nin bir dizesini alıntılar ve araştırmacı onun kaynaklarını gösterir (Nawadir Abi Zayd 45, Al-Kamil 1::) 300, Hamāsa İbn el-Şajari 54-55 ve Ma'ani al-Farra' 1:232). Sonra el-Taberi, 'ra' ünlüsünün fetha veya kasra ile yapılmasının izin olduğunu, çünkü uzunluk ve uzunluk ile söylendiğini ekler ve editör, yukarıda bahsedilenin el-Farra'nın ifadesi olduğunu belirtir. {cite:tafsir-tabari-shakir-v07 p. 157} {cite:tafsir-tabari-shakir-v07 p. 158}
+
+**Editörün Beit Suwar üzerine kenar notu (s. 158).** Editör, Suwara'nın, Banu Tamim'e Haricilere karşı savaşmak için bir görev göndermesini yazdığında el-Haccac bin Yusuf el-Thaqafi'nin yüzüne dokunan ayetleri okuduğunu ve kaçtığını anlatır. Drabjerd, el-Muhallab'ın Katarlı bin el-Fece'ah'ın liderliğindeki Haricilerle savaştığı İran'da bir kasabadır. Ayetin anlamı, el-Hacc onu sadece Katar savaşına göndermekten başka bir şey yapmazsa, tatmin olmaz; izin verenlerin rehberinin, izni olmayanları engelleyen şehir ve sınır kapılarında yaşayanlardır; ve el-Taberi'ye göre kanıt, 'la'nın 'la' anlamına geldiği (değil) anlamına geldiğidir. Ayetler burada alıntılanmamıştır. {cite:tafsir-tabari-shakir-v07 p. 158}
+
+**El-İhata (s. 158).** El-Taberi şöyle der: Allah, bu kâfirlerin kullarına ve topraklarına yaptıklarını, yozlaşma, engelleme, takipçilerine karşı düşmanlık ve diğer günahları kapsar. O, bunun koruyucusudur ve cezalarını yerine getirene ve cezasını tattırana kadar hiçbir şeyi gözden kaçırmaz. Editör, beşinci ve ikinci ciltlerde Tafsir'i İhata'ya atıfta bulunmaktadır. {cite:tafsir-tabari-shakir-v07 p. 158}

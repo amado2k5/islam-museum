@@ -1,0 +1,23 @@
+---
+id: passage/quran-3-30
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-3-30.md}
+---
+
+## Özet
+Medine suresi olan İmran Suresi [[passage/quran-3|'nin 30. ayeti]]. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Surede 200 ayetten 30. ayet. Metin Mushaf Tazil al-Mujmad'dan korunmuş olup burada yeniden yazılmamıştır.
+
+## Al-Taberi'nin Tafsir'inde 30. ayet (Şakir Baskısı, Cilt 6, ss. 319-321)
+
+**Ruhun yaptığı günü bulur.** El-Taberi ([[passage/quran-3-30|3:30]]) bunun anlamının, Allah'ın her ruhun iyiliğini mevcut ve bol bulduğu bir günde cezasını sizi uyarmasıdır ve onu O'ndan ayırmak için uzak bir son dilediğidir, çünkü o gün sizin kaderiniz O'nundur, bu yüzden günahlarınızdan kendinize karşı O'ndan sakının. (6840) Bişr, Qatadah'tan Yazid'den Sa'id'den "mahmar"ın cifade anlamına geldiğini rivayet eder ve doğrulayıcı bu anlamın dil kitaplarında nadiren geçtiğini ve doğruladığını belirtir. El-Taberi, bazı Arapların anlamının "bir günü hatırla" olduğunu iddia ettiğini, çünkü Kur'an'ın emretmek ve anmak için indirildiğini ve bazı yerlerde böyle bir gün için takvayı emrettiğini belirtir. Doğrulayıcı, "bazıları" kelimesinin bağlam gereği eklenen bir ek olduğunu ekler. {cite:tafsir-tabari-shakir-v06 p. 319}
+
+**Göreceli ismi ayrıştırmak.** El-Tabari, birinci fiille gelen 'ma'nın 'o' anlamına geldiğini ve üzerinde 'tajd' harfinin bulunmasına bağlı olamayacağını, ikinci birleşik ve bağlantılı cümlenin ise 'dilek' fiilinden sonra nominatif konumda olduğunu belirtir. Doğrulayıcı, hem basılı hem de el yazmasının yanlış ifadelerle yazıldığını ve doğru yorumu 'Ma'ani al-Qur'an' (1:206) sözlerinden Al-Farra'nın çıkardığını, cümlenin 'tajd'ın ikinci nesnesi olduğunu, 'majharran'ın ikinci nesne olduğu gibi ve 'al-waqu'nun daha önce Terminoloji Dizini'nde açıklanan bir ihlal anlamına geldiğini belirtir. Al-Tabari'ye göre ifadenin anlamı şudur: 'Her ruh yaptığı iyiliği ve yaptığı kötülüğü bulduğu gün, onu ondan ayırmak ister.' {cite:tafsir-tabari-shakir-v06 p. 320}
+
+**'Al-Amd'ın anlamı ve El-Tarmah'ın tanıklığı. ** El-Taberi, ulaştığı nihai hedefin 'El-Amd' olduğunu söyler ve El-Terme'nin bir ayetinden alıntı yapar; bu ayet, yaşayan her insanın ömrünü tamamlayıp süresi bittiğinde öldüğünü anlatır; yani nihai yaşam süresini anlatır. Doğrulayıcı, ayetin El-Tarmah'ın Divanı'nda (s. 112) olduğunu ve bunun El-Tabari'nin rivayeti olduğunu, çünkü El-Terme Divanı'nı anlattığını, Mısır'daki Mescid'de okuduğunu, insanlara dikte ettiğini ve garip anlamlarını açıkladığını belirtir. Doğrulayıcı bunun bir hata mı yoksa El-Taberi'nin başka bir anlatısı mı olduğunu bilmez; sonra şiirin bağlamını açıklar; bu şiir, sevgilinin evini halkı vefat ettikten sonra anlatır ve 'şa'ba' dağınık, 'la Yalithan' 'gecikmezler' ve 'Mawd' 'mahkum anlamına gelir' gibi terimleri açıklar. (6841) Musa ibn Harun, Amr'dan Asbat'tan Al-Suddi'den uzak bir zamanın uzak bir yer olduğunu, (6842) Al-Huseyn'den Al-Huseyn'in İbn Jurayj'den ise bunun uzak bir yer olduğunu rivayet eder. (6843) Muhammed ibn Sinan, Ebu Bekir El-Hanefi'den Abbad bin Mansur'dan bir kişinin yaptığı işi hiç gerçekleştirmemekten memnun olduğunu, bunun onun arzusu olacağını ve bu dünyada zevk alacağı bir günah olduğunu anlatır; araştırmacı ise basılı ile el yazması arasındaki son kelimenin doğruluğundaki farkı işaret eder. {cite:tafsir-tabari-shakir-v06 p. 321}
+
+**Korku merhametle birleşir.** El-Tabari, amaçlarının onları yaptıkları için O'nun gazabını onlara indirmemeleri için uyarmak olduğunu söyler; böylece her ruh kendi işini bulup onlara kızar ve gücünün ötesinde acı bir ceza alırlar. Sonra Allah'a kullarına merhametli ve merhametli olduğunu, onlara merhamet eden herkesin onları uyarmak ve korkutmak, cezası ve günahlarını reddetmek olduğunu bildirir. (6844) Al--Muthanna, İshak'tan Abdul Razzaq'tan, İbn Uyaynah'dan Amr'dan Al-Hasan'dan rivayet eder; merhamet gösterenin kendisinden onları uyarmak olduğunu anlatır. Doğrulayıcı, Al-Hasan'ın kesinlikle Al-Basri olduğunu ve rivayetin ona İbn Kathir'in Tafsir'inde, Al-Suyuti ise 'Al-Durr Al-Manthur'da atfettiğini belirtir. Basılı ve el yazması versiyonlarda 'Amr ibn al-Hasan' yazılır, ki bu bir hata ve 'Amr'ın kim olduğuna o karar vermedi. Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir. {cite:tafsir-tabari-shakir-v06 p. 321}

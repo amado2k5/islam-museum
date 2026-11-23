@@ -1,0 +1,12 @@
+---
+id: concept/ihdad
+lang: es
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-es-2026-11-23, source: content/en/concept/ihdad.md}
+---
+## Resumen
+Ihdad en el léxico es renunciar al adorno para mostrar dolor; como término es la abstención de una mujer de adornar y cosas similares durante un periodo determinado y en determinadas circunstancias, y de dormir lejos de su propia casa. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1753} Es obligatorio para una viuda en el periodo de espera tras un matrimonio válido, por acuerdo, según el dicho de que una mujer que cree en Dios y en el último día no puede llorar a un hombre muerto durante más de tres noches, salvo por un marido, cuatro meses y diez días. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1753} La mujer en duelo evita lo que es adorno por ley o costumbre, incluyendo el olor, el kohl y la ropa teñida; el informe nombra tintes de cártamo y azafrán, que llevan olor. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1756} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1757} Puede salir por sus necesidades; si está lejos de su hogar conyugal, debe regresar a él, y viajar de peregrinación o de largo viaje se detalla en detalle. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1759} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1761} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1762}
+
+## Para los Estudiosos
+Ihdad, en el idioma, está omitiendo el adorno como signo de dolor; en el sentido técnico, la abstención de una mujer de adornar y lo que se entiende por ello por un plazo determinado en circunstancias determinadas, y también de alojarse fuera de su hogar. Es obligatorio para la mujer en el periodo de espera de la viuda para un matrimonio válido por consenso, según su dicho: no es lícito que una mujer que cree en Dios y en el Último Día mantenga el duelo por los muertos más allá de tres noches — salvo un marido, cuatro meses y diez. El doliente evita lo que cuenta como adorno por ley o costumbre — perfume, kohl, tela teñida — y el hadiz nombra a las guerras, teñidas de azafrán y cualquier cosa perfumada. Puede salir por sus necesidades; si está lejos de su hogar debe regresar a la casa de matrimonio, mientras que el viaje para el Hajj o un largo viaje se trata en detalle.

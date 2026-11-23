@@ -1,0 +1,29 @@
+---
+id: passage/quran-9-12
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-9-12.md}
+---
+
+## Ringkasan
+Ayat 12 Surah [[passage/quran-9|At-Tawbah]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: Ayat 12 dari 129 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujmad dan tidak ditulis ulang di sini.
+
+**Penafsiran Ayat 12 (hlm. 153-158)**
+
+Al-Tabari berkata: Para politeis yang kamu buat perjanjian demi keamanan Quraisy melanggar perjanjian mereka setelah mereka berjanji tidak akan melawan atau memamerkan musuhmu melawanmu, dan mereka menyerang agamamu, artinya mereka mencemarkan dan mempermalukan agamamu, sehingga mereka melawan para pemimpin ketidakpercayaan, yaitu pemimpin ketidakpercayaan kepada Tuhan. Mereka tidak beriman, artinya mereka tidak punya perjanjian, berharap mereka akan menahan diri untuk tidak menyerang agamamu dan berdemo melawanmu. {cite:tafsir-tabari-shakir-v14 p. 153}
+
+Para penafsir berbeda pendapat mengenai siapa yang merujuk pada Imam kafir. Beberapa berkata: Mereka adalah Abu Jahl ibn Hisham, Utbah ibn Rabi'ah, Abu Sufyan ibn Harb, dan rekan-rekan mereka. Hudhayfah biasa mengatakan bahwa umatnya belum datang. Dan riwayat tahun 16520 dari Ibn Abbas, melalui Muhammad ibn Sa'd: Artinya, umat perjanjian di antara para musyrik disebut Imam kafir, dan memang demikian. Allah berfirman kepada Nabi-Nya: Jika mereka melanggar perjanjian antara kamu dan mereka, maka lawanlah mereka, Imam kafir tidak beriman. Pemberi verifikasi menjelaskan bahwa dia mengesahkan apa yang ada dalam naskah dan versi cetak mengubah kata-kata. Dan narasi tahun 16521 dari Qatadah, melalui Bishr, Yazid, dan Sa'id: Di antara para imam kafir adalah Abu Jahl ibn Hisham, Umayyah ibn Khalaf, Utbah ibn Rabi'ah, Abu Sufyan, dan Suhail ibn Amr, yang berusaha menceritakannya; dan narasi tahun 16522 juga melalui Muhammad ibn Abd al-A'la, Muhammad ibn Thawr, dan Mu'ammar. {cite:tafsir-tabari-shakir-v14 p. 154}
+
+Dan narasi 16523 dari Mujahid, melalui Ibn Waki', Ibn Bashar, Ghandar, Shu'bah, dan Abu Bishr: Abu Sufyan termasuk di antara mereka. Dan narasi 16524 dari Al-Suddi, melalui Al-Qasim, Al-Husayn, Hajjaj, dan suku-suku Quraisy: Mereka adalah Quraisy, jika mereka melanggar perjanjian dengan Islam dan menantangnya, maka lawanlah mereka. Dan narasi 16525 dari Al-Dahhak, melalui Al-Husayn bin Al-Faraj, Abu Mu'adh, dan Ubayd: yang berarti para pemimpin para politeis dari masyarakat Mekah. Dan riwayat tahun 16526 dari Qatadah, melalui Al-Hasan bin Yahya, Abdul Razzaq, dan Muammar: Abu Sufyan bin Harb, Umayyah bin Khalaf, Utbah bin Rabi'ah, Abu Jahl bin Hisham, dan Suhail bin Amr, yang melanggar perjanjian Allah dan bertugas membawa Rasulullah, bukan seperti yang ditafsirkan oleh orang-orang yang ragu, berinovasi, dan berbohong terhadap Allah dan Kitab-Nya. Peneliti menjelaskan bahwa ini merujuk pada Khawarij karena mereka menggunakan ayat ini sebagai bukti untuk melawan mereka yang menentang mereka di antara umat qibla. {cite:tafsir-tabari-shakir-v14 p. 155}
+
+Dan narasi tahun 16527 dari Hudhayfah, melalui Ibn Waki', Abu Mu'awiyah, Al-A'mash, dan Zayd ibn Wahb: Orang-orang dalam ayat ini belum dibunuh; dan riwayat tahun 16528 dan 16529 serupa melalui Ahmad ibn Ishaq, Abu Ahmad, dan Habib ibn Hassan, serta melalui rantai Abu al-Sa'ib dan al-A'mash. Pemberi verifikasi menyebutkan bahwa al-Bukhari menceritakannya secara panjang lebar dengan kata-kata yang berbeda, dan bahwa Habib ibn Hassan adalah Habib ibn Abi al-Ashras, yang menyangkal hadits dan diabaikan. Dan narasi 16530 dari Silah ibn Zafar, dari rantai Ibn Waki', ayahnya, Sufyan, Isra'il, dan Abu Ishaq: Mereka tidak beriman, artinya mereka tidak memiliki perjanjian; dan narasi 16531 dari Mujahid: Tangan kanan mereka adalah perjanjian mereka; narasi 16532 dari Al-Suddi: Perjanjian mereka adalah yang mereka buat tentang Islam; dan narasi 16533 dari Ammar ibn Yasir: Mereka tidak memiliki perjanjian; dan narasi 16534 dari Hudhayfah, melalui Muhammad ibn Ubayd al-Muharibi, Abu al-Ahwas, dan Abu Ishaq: Mereka tidak memiliki perjanjian. {cite:tafsir-tabari-shakir-v14 p. 156}
+
+Al-Tabari mengatakan akar penolakan adalah penolakan; dikatakan: si anu memutus talinya saat memutuskannya, dan sumpah adalah bentuk jamak dari sumpah tersebut. Para pembaca berbeda pendapat mengenai 'La Iman lihum': Para pembaca dari Hijaz, Irak, dan lainnya membacanya dengan fatha pada alif, yang berarti mereka tidak memiliki perjanjian. Disebutkan dari Al-Hasan al-Basri bahwa dia melafalkan dengan kasra pada alif yang berarti mereka tidak memiliki Islam. Interpretasi lain mungkin merujuk padanya: 'Mereka tidak beriman,' yang berarti 'jangan percaya mereka' tetapi bunuh mereka di mana pun kamu menemukannya, seolah-olah dia bermaksud kata benda verbal 'Imantu' sebagai iman. Kemudian dia mengatakan bahwa pembacaan yang benar adalah yang tidak mengizinkan pembacaan dengan apa pun selain itu adalah pembacaan mereka yang membaca dengan fatha pada alif, karena konsensus bukti. {cite:tafsir-tabari-shakir-v14 p. 157}
+
+Al-Tabari menambahkan bahwa argumennya juga merupakan konsensus para penafsir bahwa penafsirannya tidak memiliki perjanjian, dan bahwa sumpah yang berarti perjanjian hanya muncul dengan fatha pada alif karena merupakan bentuk jamak dari sumpah yang tercantum dalam kontrak antara muttawaddin. {cite:tafsir-tabari-shakir-v14 p. 158}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

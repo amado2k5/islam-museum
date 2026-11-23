@@ -1,0 +1,29 @@
+---
+id: passage/quran-6-95
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-6-95.md}
+---
+
+## Ringkasan
+Ayat 95 Surah [[passage/quran-6|Al-An'am]], yang merupakan surah Mekah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: ayat 95 dari 165 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujjard dan tidak ditulis ulang di sini.
+
+Al-Tabari berkata dalam "Sesungguhnya, Allah membelah biji-bijian dan benih": Ini adalah peringatan dari Allah kepada para dewa dan berhala yang adil ini mengenai tempat bukti-Nya terhadap mereka, dan klarifikasi dari-Nya bagi mereka sebagai kesalahan dalam keyakinan mereka mengaitkan berhala dalam ibadah mereka. Dia berkata: Dia yang disembah, wahai umat, adalah Allah, terpisah dari semua dewa dan berhala yang kalian sembah, artinya Dia membelah gandum dari segala sesuatu yang tumbuh dari tanaman dan menghasilkan biji, dan "benih" dari segala sesuatu yang ditanam dan menghasilkan pohon-pohon. Kasih adalah jamak dari benih, dan benih adalah jamak dari benih. Dan pada tahun 13581 dari Al-Suddi: Biji terbelah dari bulir dan biji terbelah dari pohon palem; dan pada tahun 13582 dari Qatadah: Biji dan biji terbelah dari tanaman; dan pada tahun 13583 dari Ibn Zayd: Allah membelah itu dan membuat apa yang tumbuh tumbuh, membelah biji dan menghasilkan pohon palem dan membelah bijinya dan melahirkan tanaman Yang menciptakan. {cite:tafsir-tabari-shakir-v11 p. 551}
+
+Yang lain berkata: Makna 'Faliq' adalah pencipta. Pada tahun 13584 dan 13585, dari Al-Dahhak: Pencipta biji-bijian dan biji-bijian; dan pada tahun 13586 dari Ibn Abbas: Pencipta biji-bijian dan biji-bijian. Yang lain berkata: Maknanya adalah pemisahan antara biji-bijian dan biji-bijian. Pada tahun 13587 dan 13588 dari Mujahid: dua belah di antaranya; pada tahun 13589 dari Abu Malik: pemisahan yang ada di biji dan gandum; pada tahun 13590 dari Mujahid: dua belah di dalamnya; dan pada tahun 13591 dari Al-Dahhak: pencipta biji-bijian dan biji berarti setiap biji-bijian. {cite:tafsir-tabari-shakir-v11 p. 552}
+
+Abu Ja'far berkata: Pendapat yang paling benar menurut saya adalah apa yang telah kami katakan sebelumnya, karena Allah melanjutkan dengan memberitahukan tentang mengeluarkan orang hidup dari orang mati dan orang mati dari orang hidup. Dengan demikian, jelas bahwa dengan memberitahukan diri-Nya, Dia bermaksud bahwa Dia memisahkan biji-bijian dari tumbuhan dan biji dari tanaman dan pohon, sama seperti Dia mengeluarkan yang hidup dari yang mati dan yang mati dari yang hidup. Adapun pernyataan yang diceritakan dari Al-Dahhak mengenai makna 'Falaq' bahwa Dia adalah pencipta, pernyataan bahwa jika dia tidak bermaksud bahwa Dia menciptakan tumbuhan dan tanaman dari-Nya dengan membelahnya, saya tidak tahu alasannya, karena dalam bahasa Arab tidak diketahui bahwa Allah membagi sesuatu dalam arti penciptaan. {cite:tafsir-tabari-shakir-v11 p. 552}
+
+Dan dalam 'Orang hidup keluar dari kematian, dan orang mati muncul dari yang hidup—itulah Allah, jadi bagaimana kamu bisa berpaling?': Dia berkata: Telinga hidup keluar dari biji mati, butir mati keluar dari duri hidup, pohon hidup berasal dari biji mati, dan biji mati dari pohon hidup. Selama pohon berdiri di akarnya, ia tidak mengering, dan tanaman di batangnya tidak kering, karena orang Arab menyebutnya hidup. Jika ia kering, kering, atau terpotong dari akarnya, mereka menyebutnya mati. Dan pada tahun 13592 dari Al-Suddi: Telinga hidup keluar dari biji mati, biji mati keluar dari telinga hidup, pohon palem hidup keluar dari biji mati, dan biji mati keluar dari pohon palem hidup; dan pada 13593, dari Abu Malik: Pohon palem berasal dari biji, biji dari pohon palem, biji dari telinga, dan bulir dari biji. Yang lain berkata: Dan pada tahun 13594, dari Ibn Abbas: "Memang, Allah membelah gandum dan inti; Dia mengeluarkan yang hidup dari orang mati dan mengeluarkan orang mati dari orang hidup." Dia berkata: Dia mengeluarkan sperma mati dari yang hidup, lalu mengeluarkan manusia hidup dari sperma. {cite:tafsir-tabari-shakir-v11 p. 554}
+
+Abu Ja'far berkata: Kami memilih interpretasi yang kami pilih karena mengikuti ungkapan "Sesungguhnya, Allah membelah biji dan biji," sedangkan perkataan-Nya, "Dia mengeluarkan orang hidup dari orang mati dan mengeluarkan orang mati dari orang hidup," meskipun ini adalah laporan dari Allah tentang Dia mengeluarkan dari butir gandum dan butir gandum dari butir dan butir gandum dari butir dan butir gandum dari gandum, maka makna umum termasuk apa yang diceritakan dari Ibn Abbas dalam penafsirannya: 'Setiap orang mati yang Allah keluarkan dari tubuh hidup, dan setiap orang hidup yang Allah keluarkan dari tubuh mati.' Adapun 'Itulah Allah,' ia berkata, 'Allah, Yang Mulia dan Tertinggi, adalah pelaku semua ini.' 'Jadi bagaimana kamu bisa berpaling?' Dia berkata: Jadi, apa cara-cara untuk menjauh dari kebenaran, wahai yang tidak tahu? Tidakkah kamu merenung, dan tahu bahwa tidak pantas untuk Dia yang memberkati kamu dengan membelah biji dan biji, dan menghasilkan untuk kalian dari biji-bijian kering dan biji, tanaman, bajak, dan buah, yang dipelihara oleh sebagian dan dihancurkan oleh yang lain, mitra dalam penyembahan-Nya yang tidak merugikan, tidak mendengar, tidak melihat? {cite:tafsir-tabari-shakir-v11 p. 554}
+
+(Penyelidik merujuk pada tempat sebelumnya di 'Al-Ifk').
+
+Dengan ini, ayat 95 diakhiri di halaman 554, dan Al-Tabari melanjutkan penafsirannya [[passage/quran-6-96|6:96]].
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

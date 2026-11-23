@@ -1,0 +1,19 @@
+---
+id: journey/hijra-route
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/journey/hijra-route.md}
+---
+
+## Özet
+درب الهجرة: من بيت النبي بمكة إلى [[place/ghar-thawr|غار ثور]] ثم بطريق الساحل غير المعهود إلى [[place/quba|قباء]] فالمدينة، بقيادة الدليل المستأجر [[person/abdullah-ibn-urayqit|عبد الله بن أريقط]] {cite:mubarakpuri-raheeq pp.163-167}.
+
+## Yol
+خرج النبي و [[person/abu-bakr|أبو بكر]] من خوخة في دار أبي بكر ليلاً فلحقا بغار ثور في اتجاه اليمن — عكس طريق المدينة الذي تتجه إليه الأنظار {cite:mubarakpuri-raheeq pp.163-164}. وبعد ثلاث ليالٍ جاءهما الدليل بالراحلتين ليلة الإثنين غرة ربيع الأول 1هـ، فأمعن بهم جنوباً ثم اتجه غرباً نحو الساحل فشمالاً قرب شاطئ البحر الأحمر في طريق لم يكن يسلكه أحد إلا نادراً {cite:mubarakpuri-raheeq pp.166-167}.
+
+ويروي ابن إسحاق المواضع بترتيبها: أسفل مكة، فالساحل إلى أسفل عسفان، فأسفل أمج، فبعد قديد، فالخرار، فثنية المرة، فلقف، فمدلجة لقف، فمدلجة مجاح، فمرجح محاج، فمرجح ذي الغضوين، فبطن ذي كشر، فالجداجد، فالأجرد، فذا سلم، فالعبابيد، فالفاجة، فالعرج، فثنية العائر عن يمين ركوبة، فبطن رئم، فقباء {cite:mubarakpuri-raheeq p.167} {cite:ibn-hisham-sira}.
+
+## في الطريق
+لحق بهما [[person/suraqa-ibn-malik|سراقة بن مالك]] فساخت يدا فرسه فاستأمنهم ورجع يصرف عنهم الطلب {cite:mubarakpuri-raheeq pp.168-169}. ومرّوا بخيمة [[person/umm-maabad|أم معبد]] فحلب النبي شاتها العاجزة {cite:mubarakpuri-raheeq p.169}. ولقيهما [[person/abu-burayda-al-aslami|أبو بريدة]] فأسلم مع سبعين من قومه {cite:mubarakpuri-raheeq p.170}. ولقيهما [[person/zubayr-ibn-al-awwam|الزبير]] في ركب تجار قافلين من الشام فكساهما ثياباً بيضاء {cite:mubarakpuri-raheeq p.170}.
+

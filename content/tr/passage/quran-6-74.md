@@ -1,0 +1,39 @@
+---
+id: passage/quran-6-74
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-6-74.md}
+---
+
+## Özet
+Mekke suresi olan En'suresinin [[passage/quran-6|74]]. ayeti. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Suredeki 165 ayetten 74. ayet. Metin Muşaf Tazl'ül-Müjmed'den korunmuş olup burada yeniden yazılmamıştır.
+
+El-Taberi, Peygamberi Muhammed'e şöyle der: "İbrahim babası Azar'a, 'Putları tanrı mı kabul ediyorsun? Gerçekten seni ve halkını açık bir yanılgıda görüyorum'" dediğinde: Ey Muhammed, halkının tartıştığı hacılarını ve onların tanrıları konusunda onlarla tartıştığını unutma, biz onlardan çekinip ona halkının üzerinde durduğu yalanların kanıtlarını ve işaretlerini, dinin sakini olduklarının doğruluğunu ve doğruluğunu öğrettiğimizi unutma Onlara karşı tartışıyorsunuz. Hajcaj İbrahim, halkının dostu ve onların yaptıkları putperestlik, Allah'tan kopması ve O'nu put yerine koruyucu ve yardımcısı olarak kabul etmesi gibi yaptıklarının yalanlığına karşı onlara başvurması. O halde onu bir İmam olarak kabul edin, onu takip edin ve halkı arasındaki davranışlarını kendinize örnek edin. Babasına şöyle dedi: Ey Azar, dinini terk ederek ve Yaratıcısı olmadan putperestliğini eleştirerek: Ey Azar. {cite:tafsir-tabari-shakir-v11 p. 465}
+
+(Editör, basılı baskı ve el yazmasında, 'and the reality of what you are with' bölümünde, basılı baskının yayıncısının yaptığı bir çarpıtma olduğunu ve en muhtemel görüşün kopyacının iki kelimeyi birleştirerek bağlamı netleştirdiğidir: 'Ve unutma, ey Muhammed, İbrahim'in babasına, ey Azar' dediği hacılar.)
+
+Sonra alimler 'Azar'ın anlamı ve ne olduğu, isim mi yoksa bir özellik mi olduğu konusunda farklı görüşler yapmışlardır; eğer isimse, isim kimdir. Bazıları şöyle demiştir: Bu babasının adı; ve 13434'te Al-Suddi'den: babasının adı Azar'dır; 13435'te ise Muhammed bin İshaq'tan: Azar, İbrahim'in babasıdır ve bize en iyi bilinen, Allah bilir, Kutha halkından siyahların olduğu bir köyden bir adamdır Kufa'nın karanlığı; ve 13436'da Said ibn Abdülaziz'den: O Azar'dır ve İsrail ile Yakup gibi bir Tarah'tır. Diğerleri şöyle der: İbrahim'in babası değildir; 13437'de Mücahid'den: Azar, İbrahim'in babası değildir; ve 13438 ile 13439'da ondan: Azar babasıyla değildi; daha çok bir puttur, bir putun adıdır. {cite:tafsir-tabari-shakir-v11 p. 466}
+
+Ve 13440'ta Al-Suddi'den: Babasının adı Al-Suddi'dir ve 'La' denir, daha doğrusu adı Tarah ve putun adı Azar'dır, der ki: Azar'ı tanrı olarak mı görüyorsunuz? Diğerleri şöyle der: Bu bir hakaret ve konuşmalarında bir kusurdur, yani çarpık, sanki bunu sapması ve gerçeğinden sapması için bir sitem olarak yorumlamıştır. {cite:tafsir-tabari-shakir-v11 p. 467}
+
+(Editör, "Putları Tanrı Olarak Kabul Ediyor Muyum?" adlı el yazmasında hiçbir destek olmadığını ve basılı baskıda olanların neredeyse doğru olduğunu, Abu Ja'far'ın Al-Suddi'nin makalesine yönelik eleştirisinde tartışılacağını ve Kur'an'ın Al-Farra'nın Kur'an anlamlarına atıfta bulunduğunu belirtiyor).
+
+Okunuş yapanlar okuma konusunda farklılık göstermiştir. Bölgelerin çoğu okur, "babası Azar için" olarak okuyor ve babanın alt harfde kullandığı fetha üzerine bir fetha ile birlikte okuyordu, ancak yabancı bir isim olduğu için açtılar ve çekmediler, alçaltılmış pozisyonda olmasına rağmen; Abu Yazid al-Madani ve al-Hasan al-Basri'den, "Azar" kelimesini nominatif halde, yani 'Ey Azar' anlamında telaffuz ettiklerini belirttiler. Al-Suddi hakkında 'Azar bir puttur' ve 'Azar'ın putları tanrı olarak kabul etmesi' anlamında akuzatif olduğu söylendiği konusuna gelince, bu Arap perspektifinden çok uzaktır, çünkü Araplar şüpheli bir parçacıktan sonra fiil içeren bir isim atama yapmazlar. 'Kardeşinle konuştum' demeyin, 'kardeşinle konuştum' demek istemezsiniz. {cite:tafsir-tabari-shakir-v11 p. 467}
+
+Abu Ja'far şöyle demiştir: Bence doğru okuma, 'ra' üzerinde fetha ile okuyup babanın dilbilgisel dilbilgisine uyan birinin okunmasıdır ve bunun küçültülmüş bir durumda olduğu, yani fethadır, çünkü düzenli bir biçim değildir çünkü ana dili olmayan bir isimdir, ancak ben bunu alimlerin uzlaşması nedeniyle seçtim. Bu doğru görüş olduğu ve soru parçacığından sonraki akuzatif fiilde yer alması izin verilmediği için, bunu sizin için bir isimde düzeltebilirsiniz İki şekilde: ya Ebu İbrahim için bir isimdir, yani babaya yanıt olarak küçültülmüş bir konumdadır, fakat fethadır çünkü Arapların Arap olmayan isimlere yaptığı gibi yabancı bir isimdir, ya da onun için bir sıfattır ve aynı zamanda bir fethadır, fakat kırmızı ve siyah bir eklem noktası ortaya çıktığında usulünü terk eder. Böylece bu ifadenin yorumu şöyledir: İbrahim, sapkın babasına, 'Putları tanrı olarak mı kabul ediyorsun?' dediğinde {cite:tafsir-tabari-shakir-v11 p. 468}
+
+(Editör, basılı baskıda "ve sadece bunu okunmasına izin verildi" ifadesinin geçersiz bir ifade olduğunu belirtir ve doğru görüş, el yazmasında noktasız olarak kabul edilen ve yer alan şeydir; "Arapların açılışı gibi" ifadesinin doğru anlamı el yazmasından kaynaklanan bir hata olduğunu; el yazmasında "emri tekrar etmek" ifadesinin basılı baskıda olduğu gibi doğru olduğunu; ve sıfatın yorumunun daha önce bahsettiği şey olduğu için belirlendiğini belirtir).
+
+Bu iki görüşten biri dışında doğru bir dayanağı olmadığından, benim görüşümde en doğru görüş, onun babasının adı olduğunu söyleyenlerin ifadesidir; çünkü Tanrı, onun babası olduğunu bildirmiştir; bu, bilginlerin aktardığı görüştür, konuşanın bir tanım olduğunu iddia ettiği diğer görüş değil. Birisi şöyle derse: Soy ağacı uzmanları İbrahim'i sadece Terah'a atfediyorsa, o zaman Azar nasıl onun adı olabilir? Ona şöyle denildi: Çağımızda birçok insanın sahip olduğu iki isme sahip olması imkansız, geçmişte birçoğu için böyleydi ve belki de bu unvan onun tarafından verilmelidir. {cite:tafsir-tabari-shakir-v11 p. 469}
+
+Ve "Putları tanrı olarak mı kabul ediyorsunuz? Gerçekten de sizi ve halkınızı açık bir yanılgıda görüyorum"da: Bu, İbrahim'in babası Azar'a yaptığı bir haberdir: "Putları tapındığınız tanrılar olarak mı kabul ediyorsunuz ve sizi yaratan, dengeleyen ve size bakan Allah yerine efendi olarak mı kabul ediyorsunuz?" demesiyle ilgili bir haberdir. Putlar putların çoğuludur ve put, taş, ahşap ya da insan putu şeklinde başka bir şeyden yapılmış bir heykeldir; bu heykel bir puttur. Duvarlarda ve başka yerlerde insan olarak tasvir edilen heykele put veya put denebilir. "Gerçekten de seni ve halkını açık bir yanılgıda görüyorum," anlamında: Seni görüyorum, ey Az, ve seninle birlikte putlara tapan ve onları yanlış tanrı olarak kabul eden halkını görüyorum, yani onlar gerçeğin kanıtından sapıyor ve doğru yoldan sapıyorlar. "Açık" ifadesi, doğru yolun niyetinde adaletsiz olduğunu ve doğru yoldan sapmanın doğru yoldan saptığını görenlere açıkça gösterir; yani kendisi ve yanılsaması, Tanrı'nın ve Onun ibadetinin birliğinden sapmış ve bu da onları diğer tanrılara ve putlara değil, kendisine olan ibadet ile kendisine ibadet etmelerini gerektiren bir yoldur. {cite:tafsir-tabari-shakir-v11 p. 469}
+
+(Editör, basılı baskıda "ve unvan olmak mümkündür, Yüce Allah en iyisini bilir" ifadesinin el yazmasında yer alan ve içinde olmayan eklenen "bihu" ifadesinin çıkarıldığını, "El-Dalal" ve "Mubin" ifadelerinde ise önceki yerlere atıfta bulunulduğunu belirtir).
+
+Bununla birlikte, 74. ayet sayfa 469'da sona erer ve Al-Tabari [[passage/quran-6-75|yorumu devam ettirir 6:75]].
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.

@@ -1,0 +1,43 @@
+---
+id: passage/quran-12-19
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-12-19.md}
+---
+
+## Özet
+Mekke suresi olan Yusuf suresinin [[passage/quran-12|19. ayeti]]. {cite:tanzil-quran}
+
+## Konumu
+Yeri: Surede 111 ayetten 19. ayet. Metin Mushaf Tazil al-Mujmad'dan korunmuş olup burada yeniden yazılmamıştır.
+
+**19. Ayetin Yorumu (s. 1-7)**
+
+El-Tabari şöyle der: Bir grup yolcu geldi; ve 'Waradhum' kaynağı ve konutu geri getiren kişidir, gelişi onun kaderi ve girişidir; ve 'kovasını düşürdü' demek, kovasını kuyuya gönderdiği anlamına gelir, 'Kovayı gönderirken verdim' der, sulandığında 'Dalut' dedim. İfadede, bahsedilenlere göre atlanmış ve sonuç olarak kovasını düşürdüğü, bu yüzden Yusuf ona tutunup dışarı çıktığı yönündedir. Kovayı veren kişi dedi ki: 'Ey halkım, bu bir çocuk.' Doğrulayıcı, 'araba' ve 'al-wurud' yorumuna atıfta bulunur. {cite:tafsir-tabari-shakir-v16 p. 1}
+
+Ve 18880 yılındaki rivayet El-Suddi'den, İbn Vaki, Amr ibn Muhammed ve Asbat aracılığıyla: Yusuf ipe tutundu ve dışarı çıktı, ipin sahibi onu görünce yoldaşlarından 'Buşra' adında bir adamı çağırdı. Ve 18881 Qatadah'tan rivayet, Muhammed bin Abdül-A'la, Muhammed ibn Tevr ve Muammer aracılığıyla: Çocuk kovaya tutundu ve dışarı çıktığında söylediklerini söyledi. Ve 18882 rivayeti Qatada'dan, Bişr, Yezîd ve Seyid aracılığıyla: Elçilerini gönderdiler ve kovasını düşürdüğünde çocuk ona tutundu. {cite:tafsir-tabari-shakir-v16 p. 2}
+
+'Ey iyi haber, bu bir çocuk' ifasının anlamı konusunda farklı görüşlere vardılar. Bazıları şöyle dedi: Yoldaşlarına bir köle ulaştığı iyi haberdir. 18883 yılında Qatadah'tan anlatım: 'Onu çıkardıklarında ona iyi haber verdiler,' ki bu Kudüs diyarında yeri bilinen bir kuyudur; ve 18884'te Muhammed ibn Thawr ve Mu'ammar aracılığıyla ondan gelen rivayet: 'Yusuf'u bulduğunda yoldaşlarına müjdeler verdi.' Doğrulayıcı, 'iyi müjden'in yorumuna atıfta bulunur. {cite:tafsir-tabari-shakir-v16 p. 2}
+
+Diğerleri şöyle dedi: Yusuf ipe tutunarak çıktığında arabadan seslenen belirli bir adamın adı bu. Ve 18885 yılında Al-Suddi'den İbn Waki, Amr ibn Muhammed ve Asbat aracılığıyla: Yoldaşlarından bir adama 'Bushra' dedi; ve 18886'da Al-Suddi'den Hasan ibn Muhammed, Khalaf ibn Hisham, Yahya ibn Adam ve Qays ibn Al-Rabi'ye ait rivayet: yoldaşının adı 'Bushra'ydı; ve 18887'de ondan Al-Muthanna, İshaq, Abd al-Rahman ibn Ebi Hammad ve Al-Hakam ibn Zuhair aracılığıyla rivayet edilmiştir: çocuğun adı 'Bushra'dır, ona dediğin gibi 'Ey Zayd' der. {cite:tafsir-tabari-shakir-v16 p. 3}
+
+Okunanlar okuma konusunda farklılık göstermiştir. Medine'nin genel halkı, ilhak ya'yı onaylayarak alifi içine dahil ederek ve konuşmacının ilk yaasından önce gelen kasrayı arayarak, 'ghulami' ve 'jariti' gibi okuyordu. Bu, Tayy'in dili olduğu kadar Hudhayl'in dilidir, Al-Asma'i'nin dediği gibi. Al-Tabari, Ebu Dhu'ayb al-Hudhali'nin beş yaşındayken bir yıl içinde vebadan ölen oğullarını yas tuttuğu bir ayeti aktarır. Araştırmacı, ayeti ve diwandaki yerini, ayrıca el-Mufedadiyat'ı açıklar. {cite:tafsir-tabari-shakir-v16 p. 3}
+
+Kufanlıların çoğu, ilhakı atlayıp yaa göndererek okudu; bu iki şekilde olabilir: Birincisi, al-Suddi'nin adını kendisine atan bir adam olduğunu söylemesi, 'Ya Zayd' gibi, Çağrı ile isimli durumda da böyledir; diğeri ise kendine hoş müjde eklemek istemesi, bu yüzden Arapların dediği gibi, 'Ey ruh, sabırlı ol,' 'Ey ruhum, sabırlı ol,' 'Ey canım, sabırlı ol,' 'Ey oğlum' ve 'Ey oğlum.' El-Taberi şöyle dedi: Bana en etkileyici okuma, 'ya' gönderenlerin ve sukukat edenlerin okumasıdır, çünkü eğer bir adamın adı biliniyorsa, el-Suddi'nin dediği gibi, şüphesiz doğrudur ve eğer iyi haberden geliyorsa, bilginlerin aksi yönündeki uzlaşması nedeniyle bilinen bir dil olsa bile anormal bir okuma olarak yorumlanabilir. Doğrulayıcı, orijinal ve basılı metinlerde tek bir ifadenin noktalama işaretinin yapılmasında hata olduğunu ve en iyisinin onun belirlediği şey olduğunu açıklar. {cite:tafsir-tabari-shakir-v16 p. 4}
+
+Ve 'onu mal olarak sakladılar' konusunda tercümanlar farklı görüşe girdi. Bazıları şöyle dedi: El-Mustaq ve onunla birlikte olan tüccarlar onu yakaladılar, onlara şöyle dediler: Mısırlıların bazıları, satın aldıkları fiyatı öğrenirlerse pay isteyebileceklerinden korktukları için aldıkları maldır. Ve 18888 yılında Mucahid'den, Muhammed bin Amr, Ebu Asim, İsa ve İbn Ebi Necih aracılığıyla rivayet: Kovanın sahibi ve yanındakiler yoldaşlarına şöyle dedi: 'Onu aldık çünkü fiyatını bilirlerse onlarla paylaşacaklarından korktuk.' Kardeşleri onları takip etti ve El-Madali ile yoldaşlarına: 'Ona güvenin ki kaçmasın,' dediler ki Mısır'da durdurana kadar. O dedi ki: Beni kim satacak ve iyi haber verecek? Kral onu satın aldı ve kral Müslümandı. {cite:tafsir-tabari-shakir-v16 p. 5}
+
+Mücahitlerin 18889, 18890, 18891 ve 18892 yıllarındaki rivayetleri benzerdir; El-Hasan bin Muhammed, Şababa ve Ruka'nın zincirlerinden, sonra El-Müthanna, Ebu Hudhayfa, Şibl, sonra İshaq, Abdullah, sonra El-Kısım, El-Hüseyin, Hacc ve İbn Jureyc'in zincirlerinden, bazı ifadelerde farklılıklar vardır. Editör, el yazmasındaki "onu durdurana kadar" ifadesini düzeltir ve 18892 riayetine atıfta bulunur. Ve Al-Suddi'den 18893 tarihli anlatı: İki adam satın aldığında, yoldaşların satın aldıklarını söyleyip ortaklık isteyeceklerinden korktular. "Bize sorarlarsa, deriz ki, bunlar su halkının bizim için satın aldığı mallardır." {cite:tafsir-tabari-shakir-v16 p. 5}
+
+Diğerleri şöyle dedi: Tüccarların birbirlerinden aldığı anlamına gelir; 18894 ve 18895 yıllarındaki iki rivayet Mucahidden: ilki Ebu Kurayb, Waki' ve Sufyan aracılığıyla bir adamdan, ikincisi ise El-Müthanna, Ebu Nu'aym el-Fadl ve Sufyan aracılığıyla. Diğerleri ise şöyle dedi: Satışını gizlediler; 18896'da Katadah'tan Al-Hasan ibn Yahya, Abdul Razzak ve Mu'ammar aracılığıyla rivayet, 18897'de Mücahid'den Al-Harith, Abdulaziz, Qays ve Jabir'e kadar anlatım: Su halkına dediler: Bu sadece maldır. {cite:tafsir-tabari-shakir-v16 p. 6}
+
+Diğerleri şöyle dedi: Sırlarla kastettiğim şey Yusuf'un kardeşleriydi; onlar onun işlerini gizlediler ve onun kardeşleri olduğunu gizlediler, 'O bizim hizmetkarımızdır.' dediler. Ve 18898 yılında İbn Abbas'tan, babası, amcası ve babası Muhammed bin Sad aracılığıyla: Onun işlerini gizlediler ve onun kardeşleri olacağını gizlediler. Yusuf, kardeşlerinin onu öldüreceğinden korktuğu için işlerini gizledi ve satmayı seçti. Kardeşleri onu halka anlattı ve yoldaşları bağırdı: Ey iyi haber, bu satılacak bir çocuk! Kardeşleri onu sattı. {cite:tafsir-tabari-shakir-v16 p. 6}
+
+El-Tabari şöyle dedi: Bu görüşlerin en doğrusu, onu getiren ve yanında olanların, Yusuf'un meselesini saklayıp, kendileriyle danışmaktan korktuğu için satın aldıkları ve onlara 'Bu, su halkının bizimle satın aldığı bir maldır' dediklerini söyleyenlerin görüşüdür; çünkü haber ondan gelir. Çünkü onun kendisi hakkında bir rapor olarak atadığı şey, hakkında bilgi sahibi olduğu birinden gelen bir rapor gibidir, bağlantılı değil. Doğrulayıcı, 'sırlar' yorumuna atıfta bulunur. {cite:tafsir-tabari-shakir-v16 p. 7}
+
+Ve 'Ve Allah onların yaptıklarını bilir' bölümünde, Şöyle der: Ve Allah, Yusuf'un satıcılarının ve alıcılarının onun işinde ne yaptığını bilir; O'ndan hiçbir şey gizlenmemiştir, ancak bu değişimi kendisiyle ve onlarla önceki yargısına bıraktı ve Yusuf'un kardeşlerine, Yusuf'a ve babasına gücünü gösterdi. Bunun Yusuf hakkında bir haber olmasına rağmen, bunun Allah'tan Peygamberi Muhammed'e bir hatırlatıcı ve çok tanrılı akrabalarından aldığı zararlar hakkında bir teselli olduğunu ekler; sanki der ki: Sabretli olun, çünkü size olanları değiştirebiliyorum, tıpkı Joseph'in kardeşlerinden aldığını değiştirebildiğim gibi. Bunu terk etmem Joseph'in aşağılanması için değil, onu ve kardeşlerini önceden tanıdığım için oldu. O zaman sizin komutlarınız ve onların emri onlara ve size boyun eğmelerine bağlı hale gelir, tıpkı Yusuf'un kardeşlerinin meselesinin ona üstünlükle boyun eğmesi gibi. Editör, kenar notunda el yazmalarının on ikinci kısmının bu noktada bittiğini belirtir. {cite:tafsir-tabari-shakir-v16 p. 7}
+
+Burada s. 7'nin en altında duruyoruz; yorum 19. ayette tamamlanır; sayfa 8'in sonraki bölümü [[passage/quran-12-20|ise 12:20]]'deki yorumla başlar. {cite:tafsir-tabari-shakir-v16 p. 7}
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.

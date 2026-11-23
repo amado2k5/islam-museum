@@ -1,0 +1,23 @@
+---
+id: passage/quran-7-18
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-7-18.md}
+---
+
+## Ringkasan
+Ayat 18 Surah [[passage/quran-7|Al-A'raf]], yang merupakan surah Mekah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: Ayat ke-18 dari 206 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujaddad dan tidak ditulis ulang di sini.
+
+Kemudian ia berkata dalam "Ia berkata, 'Keluarkan dia dari itu dengan tercelaan dan kehinaan': Ini adalah laporan dari Allah tentang penggantian-Nya dengan orang jahat, hukuman dan kutukan yang Ia berikan kepadanya, dan Ia mengusirnya dari Surga-Nya ketika ia membangkang, melanggar perintah-Nya, dan menarik kembali jawabannya atas apa yang tidak bisa ia lakukan kembali. Ia berkata, 'Allah berkata kepada-Nya pada waktu itu, usirnya dari Surga,' yang berarti 'tersalah dan tercela,' yang berarti patut dipersalahkan. Dan 'menyalahkan' adalah cacat; dikatakan 'dari dia untuk menyalahkannya,' jadi ia patut dipersalahkan. Mereka meninggalkan hamza dan berkata, 'Dhammah, aku menyalahkan dia,' dan 'menyalahkan' lebih jelas diucapkan sebagai rasa malu daripada 'menyalahkan.' Beberapa orang membacakan ayat Al-Harith ibn Khalid Al-Makhzumi tentang hal ini. {cite:tafsir-tabari-shakir-v12 p. 342}
+
+Sebagian besar narator membaca ayat Al-Harith sebagai "Aku menyalahkannya" bukan "Aku adhimha," dan catatan kaki merujuk pada tempatnya seperti yang telah disebutkan sebelumnya. Adapun "al-mudhur," artinya orang yang dikecualikan; dikatakan: 'kekalahannya adalah kekalahannya dan kekalahannya' ketika dia mengusir dan mengusirnya, sehingga mereka berkata: usir iblis darimu, dan catatan kaki merujuk pada metafora Al-Qur'an oleh Abu Ubaidah. Demikian pula, penafsir mengatakan: (14384) menceritakan dari Qatadah bahwa maknanya adalah menghilangkan pengasingan yang terkutuk darinya; (14385) dari Ibn Abbas bahwa "dihukum" dibenci; (14386) dari dia bahwa dia adalah anak di bawah umur yang diasingkan; (14387) dari Al-Suddi bahwa "tercemar" diasingkan dan "diusir" diusir; dan (14388) dari Mujahid seperti dirinya, {cite:tafsir-tabari-shakir-v12 p. 343}
+
+Dan (14389) dari Al-Rabi' bahwa "Madhuma" diasingkan dan "Al-Madhur" adalah bentuk diminutif; (14390) dari Ibn Abbas bahwa ia diasingkan; dan (14391) bahwa Al-Tamimi menanyakan kepada Ibn Abbas tentang "dipermalukan dan ditolak," dan ia mengatakan itu menjijikkan. Marginalia menyebutkan bahwa tidak menemukan biografi Uthman ibn Yahya Al-Qarqasani dan membahas apa yang ada dalam Al-Tab Ari; dan (14392) dari Ibn Zayd bahwa ia berkata kita tidak tahu siapa yang disalahkan dan yang disalahkan kecuali satu, tetapi itu adalah huruf yang diperkecil. Penyair berkata kepada Amir, 'O tahun,' dan 'Harith, oh Harith,' dan Al-Qur'an diwahyukan ke dalam bahasa orang Arab. Pinggir catatan dua ayat yang menunjukkan arketipe, satu dalam 'Amir' dan satu lagi oleh Zuhayr dalam 'Al-Harith,' dan frasa cetak serta manuskrip adalah benar. {cite:tafsir-tabari-shakir-v12 p. 344}
+
+Kemudian Dia berkata dalam "Bagi mereka yang mengikuti kamu, Aku pasti akan memenuhi Neraka..." dan ini adalah sumpah dari Allah, yang dimuliakan dan dimuliakan. Dia bersumpah bahwa siapa pun di antara anak-anak Adam mengikuti musuh Allah, Iblis, taat dan percaya pada kepercayaannya, dia akan dipenuhi dengan semua itu, artinya di antara orang-orang kafir dari anak-anak Adam, pengikut Iblis, dan dari Iblis beserta keturunannya, Neraka. Jadi Allah berbelas kasihan kepada seseorang yang menolak kecurigaan musuh terhadap dirinya sendiri dan mengecewakan harapannya dan Dia tidak membiarkan musuh yang serakah menginginkannya, mencari perlindungan kepada-Nya, dan meminta nasihat-Nya. Allah hanya memperingatkan hamba-hamba-Nya dengan ayat-ayat ini tentang permusuhan musuh dan musuh mereka, Iblis, dan iri hati ayah mereka sebelumnya dan penindasan terhadap mereka dan mereka, dan memberitahu mereka akan tempatnya berkat-Nya atas mereka dalam diri mereka dan leluhur mereka agar mereka merenungkan tanda-tanda-Nya dan agar mereka yang berakal mengingat dan menahan diri dari menaati musuh dan musuh mereka untuk taat dan berbalik kepada mereka. {cite:tafsir-tabari-shakir-v12 p. 345}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

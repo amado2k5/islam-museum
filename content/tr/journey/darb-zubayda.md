@@ -1,0 +1,19 @@
+---
+id: journey/darb-zubayda
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/journey/darb-zubayda.md}
+---
+## Özet
+طريق الحج من الكوفة إلى مكة، سجله قدامة بن جعفر في منزلة البريد بسككه ومنازله ومسافاته بالأميال، وما في كل منزل من البرك والآبار والمنابر. {cite:masalik-mamalik-ibn-khurdadhbih pp.193-194}
+
+## من بغداد إلى الكوفة
+يبدأ من مدينة السلام ⁦([[place/baghdad|بغداد]])⁩ إلى [[place/kufa|الكوفة]]، مروراً بجسر كوثى وقصر ابن هبيرة وسوق أسد وساي. ومن الكوفة إلى القادسية خمسة عشر ميلاً. {cite:masalik-mamalik-ibn-khurdadhbih pp.193-194}
+
+## المنازل
+ثم العذيب، وكانت مسلحة بين العرب وفارس في حد البرية بها حائطان. ثم المغيثة والقرعاء وواقصة والعقبة والقاع وزبالة العامرة والشقوق وقبر العبادي والثعلبية. {cite:masalik-mamalik-ibn-khurdadhbih pp.193-194}
+
+الخزيمية مسورة، فيها منبر وحمام، وكانت تسمى زرود ورملها أحمر. وفي فيد منزل العامل وقناة وزروع ومنبر. ثم توز والحاجر ومعدن النقرة، والربذة كثيرة الماء والمنبر، ومعدن بني سليم. {cite:masalik-mamalik-ibn-khurdadhbih pp.193-194}
+
+ثم طريق الحجاز إلى [[place/mecca|مكة]]. {cite:masalik-mamalik-ibn-khurdadhbih pp.193-194}

@@ -1,0 +1,21 @@
+---
+id: passage/quran-2-190
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-2-190.md}
+---
+
+## Ringkasan
+Ayat 190 Surah [[passage/quran-2|Al-Baqarah]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasi: Ayat 190 dari 286 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujmad dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Dalam Ta'wil [[passage/quran-2-190|2:190]], Al-Tabari mengatakan bahwa para penafsir berbeda. Beberapa berkata: Ini adalah ayat pertama yang memerintahkan Muslim untuk melawan para musyrik; dalam ayat itu, mereka diperintahkan untuk melawan mereka yang melawan mereka di antara para musyrik dan menahan diri dari mereka yang menahan diri dari mereka. Kemudian ayat itu dibatalkan dengan kepolosan. {cite:tafsir-tabari-shakir-v03 p. 561} Menurut Al-Rabi', itu adalah ayat pertama yang diwahyukan mengenai pertempuran di Madinah. Nabi akan melawan mereka yang melawannya dan menahan diri dari mereka yang menahan diri sampai Barah diwahyukan, dan Abd al-Rahman tidak menyebut "Madinah." {cite:tafsir-tabari-shakir-v03 p. 561} {cite:tafsir-tabari-shakir-v03 p. 562} Dan dari Ibn Zayd: Ini dibatalkan, dan ia membaca [[passage/quran-9-36|9:36]] Surah At-Tawbah dan mengucapkan ayat yang dibatalkan ini, dan membaca penolakan pertama ayat [[passage/quran-9-5|9:5]]. {cite:tafsir-tabari-shakir-v03 p. 562}
+
+Yang lain berkata: Sebaliknya, ini adalah perintah dari Allah kepada umat Muslim untuk melawan kafir, bukan dibatalkan. Sebaliknya, tindakan yang dilarang Allah adalah larangan membunuh wanita dan keturunan. Aturan yang melarang membunuh mereka sudah ditegaskan hari ini, dan tidak ada satu pun dari ketentuan ayat ini yang dicabut. {cite:tafsir-tabari-shakir-v03 p. 562} Yahya ibn Yahya al-Ghassani berkata: Saya menulis kepada Umar ibn Abd al-Aziz menanyakan tentang ayat itu, dan dia menulis kepada saya: Ini berlaku untuk wanita, keturunan, dan mereka yang tidak menunjuk perang terhadap Anda. {cite:tafsir-tabari-shakir-v03 p. 562} Dan dari Mujahid: [[passage/quran-2-190|2:190]] kepada sahabat Muhammad, mereka diperintahkan untuk melawan orang kafir. {cite:tafsir-tabari-shakir-v03 p. 562} Dan dari Ibn Abbas: Jangan bunuh wanita, anak-anak, orang tua, atau siapa pun yang memberi damai dan menahan tangannya. Jika Anda melakukan ini, Anda telah melanggar. {cite:tafsir-tabari-shakir-v03 p. 563} Sa'id ibn Abd al-Aziz melaporkan bahwa Umar ibn Abd al-Aziz menulis kepada 'Adi ibn Arta': Saya menemukan sebuah ayat dalam Kitab Allah [[passage/quran-2-190|2:190]], yang berarti jangan melawan mereka yang tidak melawan Anda, yaitu wanita, anak-anak, dan biksu. {cite:tafsir-tabari-shakir-v03 p. 563}
+
+Kemudian Al-Tabari berkata, dan inilah pilihannya: Pendapat yang paling benar dari kedua pendapat adalah yang dikatakan oleh Umar ibn Abd al-Aziz, karena klaim penuntut adalah pembatalan ayat yang tidak boleh dibatalkan tanpa menunjukkan keabsahan klaimnya yang memutuskan, dan dia merujuk pada apa yang dijelaskannya mengenai makna pembatalan. {cite:tafsir-tabari-shakir-v03 p. 563} Dia menafsirkan ayat itu sebagai berikut: Berjuanglah, wahai orang beriman, di jalan Allah, dan jalan-Nya yang telah Dia jelaskan serta agama-Nya yang telah Dia tetapkan untuk hamba-hamba-Nya. Dan undanglah mereka yang setia kepada-Nya dan sombong dengan tangan dan lidah sampai mereka kembali taat kepada-Nya atau memberi jizya kepada kalian sebagai anak-anak jika mereka adalah Umat Kitab, dan Dia memerintahkan mereka untuk melawan siapa pun di antara mereka yang melawan orang yang tidak beriman tetapi bukan mereka yang bukan di antara wanita dan anak-anak mereka. {cite:tafsir-tabari-shakir-v03 p. 563} {cite:tafsir-tabari-shakir-v03 p. 564} Dia berkata arti 'jangan melanggar' adalah: jangan bunuh seorang anak, atau seorang wanita, atau mereka yang memberimu jizya dari antara Umat Dua Kitab Suci atau Orang Majus, dan [[passage/quran-2-190|2:190]] Mereka yang melampaui batasnya dan dengan demikian mengizinkan apa yang telah Dia larang untuk mereka bunuh mereka. {cite:tafsir-tabari-shakir-v03 p. 564}

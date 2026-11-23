@@ -23683,6 +23683,100 @@ audio_series:
       - { n: 10, title: null, page_url: "https://www.assabile.com/muhammad-salih-al-munajjid/lessons/zad-al-hajej/episode-10", file: "raw/assabile/muhammad-salih-al-munajjid/zad-al-hajej/ep10.mp3", format: mp3, duration: null, bytes: 2349832, sha256: "fa029139b7e1294de767b7a692e76cd7de612e5f555619ab6fb23a68d9214e9b", on_drive: true, from: null, downloaded: "2026-11-21", transcript: null, mining: null }
     completion: downloaded
     unverified: ["page_url and series_page_url follow the assabile URL pattern, not individually re-checked", "lecturer name taken from the pipeline lecturer list or the register", "downloaded and transcript dates are the queue times of the pipeline steps", "media URL recorded only for tombstoned episodes (deleted.tsv); null otherwise", "episodes_total counts the episode lines queued so far, not the series total stated by the site", "duration null: not measured for audio downloads"]
+  # BEGIN audio_series:ahmed-el-sayed
+  - id: soundcloud-alsayyed-ah-seerah-2026
+    title: "seerah-2026"
+    media_type: audio
+    site_url: https://soundcloud.com
+    lecturer: { name: "Ahmed Elsayed", page_url: "https://soundcloud.com/alsayyed_ah" }
+    series_page_url: "https://soundcloud.com/alsayyed_ah"
+    episodes_total: 32
+    episodes_audio: 32
+    episodes_transcribed: 32
+    transcript: { pass: pass1-whisper, model: "mlx-community/whisper-large-v3-mlx", state: complete, run_dates: "2026-11-23..2026-11-23" }
+    mining: { state: mined, episodes_mined: 32, ranges: ["1-27", "29-33"], held: null, basis: "claims files, one per episode, outside git" }
+    ingestion: { state: ingested, prs: [8026], ranges: ["1-27", "29-33"], held: null, ledger: "harvest/ahmed-el-sayed/ledger.tsv", work_id: "work/ahmed-el-sayed-seerah-2026" }
+    completion: ingested
+    unverified: ["wave 1 of the ahmed-el-sayed lane; nothing downloaded yet; episode list is harvest/ahmed-el-sayed/ledger.tsv (one row per episode, read from the public feed on 2026-11-23)", "numbered 1 to 33; number 28 is not in the feed"]
+  - id: soundcloud-alsayyed-ah-seerah-lilmuslihin
+    title: "seerah-lilmuslihin"
+    media_type: audio
+    site_url: https://soundcloud.com
+    lecturer: { name: "Ahmed Elsayed", page_url: "https://soundcloud.com/alsayyed_ah" }
+    series_page_url: "https://soundcloud.com/alsayyed_ah"
+    episodes_total: 32
+    episodes_audio: 0
+    episodes_transcribed: 0
+    mining: { state: none }
+    ingestion: { state: none, ledger: "harvest/ahmed-el-sayed/ledger.tsv" }
+    completion: claimed
+    unverified: ["wave 2 of the ahmed-el-sayed lane; nothing downloaded yet; episode list is harvest/ahmed-el-sayed/ledger.tsv (one row per episode, read from the public feed on 2026-11-23)"]
+  - id: soundcloud-alsayyed-ah-khayr-al-qurun
+    title: "khayr-al-qurun"
+    media_type: audio
+    site_url: https://soundcloud.com
+    lecturer: { name: "Ahmed Elsayed", page_url: "https://soundcloud.com/alsayyed_ah" }
+    series_page_url: "https://soundcloud.com/alsayyed_ah"
+    episodes_total: 40
+    episodes_audio: 0
+    episodes_transcribed: 0
+    mining: { state: none }
+    ingestion: { state: none, ledger: "harvest/ahmed-el-sayed/ledger.tsv" }
+    completion: claimed
+    unverified: ["wave 3 of the ahmed-el-sayed lane; nothing downloaded yet; episode list is harvest/ahmed-el-sayed/ledger.tsv (one row per episode, read from the public feed on 2026-11-23)"]
+  - id: soundcloud-alsayyed-ah-tariq-ila-bayt-al-maqdis
+    title: "tariq-ila-bayt-al-maqdis"
+    media_type: audio
+    site_url: https://soundcloud.com
+    lecturer: { name: "Ahmed Elsayed", page_url: "https://soundcloud.com/alsayyed_ah" }
+    series_page_url: "https://soundcloud.com/alsayyed_ah"
+    episodes_total: 23
+    episodes_audio: 0
+    episodes_transcribed: 0
+    mining: { state: none }
+    ingestion: { state: none, ledger: "harvest/ahmed-el-sayed/ledger.tsv" }
+    completion: claimed
+    unverified: ["wave 3 of the ahmed-el-sayed lane; nothing downloaded yet; episode list is harvest/ahmed-el-sayed/ledger.tsv (one row per episode, read from the public feed on 2026-11-23)"]
+  - id: soundcloud-alsayyed-ah-umma-bayna-ihtilalayn
+    title: "umma-bayna-ihtilalayn"
+    media_type: audio
+    site_url: https://soundcloud.com
+    lecturer: { name: "Ahmed Elsayed", page_url: "https://soundcloud.com/alsayyed_ah" }
+    series_page_url: "https://soundcloud.com/alsayyed_ah"
+    episodes_total: 18
+    episodes_audio: 0
+    episodes_transcribed: 0
+    mining: { state: none }
+    ingestion: { state: none, ledger: "harvest/ahmed-el-sayed/ledger.tsv" }
+    completion: claimed
+    unverified: ["wave 4 of the ahmed-el-sayed lane; nothing downloaded yet; episode list is harvest/ahmed-el-sayed/ledger.tsv (one row per episode, read from the public feed on 2026-11-23)"]
+  - id: soundcloud-alsayyed-ah-yawm-al-furqan
+    title: "yawm-al-furqan"
+    media_type: audio
+    site_url: https://soundcloud.com
+    lecturer: { name: "Ahmed Elsayed", page_url: "https://soundcloud.com/alsayyed_ah" }
+    series_page_url: "https://soundcloud.com/alsayyed_ah"
+    episodes_total: 12
+    episodes_audio: 0
+    episodes_transcribed: 0
+    mining: { state: none }
+    ingestion: { state: none, ledger: "harvest/ahmed-el-sayed/ledger.tsv" }
+    completion: claimed
+    unverified: ["wave 4 of the ahmed-el-sayed lane; nothing downloaded yet; episode list is harvest/ahmed-el-sayed/ledger.tsv (one row per episode, read from the public feed on 2026-11-23)"]
+  - id: soundcloud-alsayyed-ah-sham-bayt-al-maqdis
+    title: "sham-bayt-al-maqdis"
+    media_type: audio
+    site_url: https://soundcloud.com
+    lecturer: { name: "Ahmed Elsayed", page_url: "https://soundcloud.com/alsayyed_ah" }
+    series_page_url: "https://soundcloud.com/alsayyed_ah"
+    episodes_total: 14
+    episodes_audio: 0
+    episodes_transcribed: 0
+    mining: { state: none }
+    ingestion: { state: none, ledger: "harvest/ahmed-el-sayed/ledger.tsv" }
+    completion: claimed
+    unverified: ["wave 4 of the ahmed-el-sayed lane; nothing downloaded yet; episode list is harvest/ahmed-el-sayed/ledger.tsv (one row per episode, read from the public feed on 2026-11-23)", "grouping inferred from episode titles; confirm against a playlist"]
+  # END audio_series:ahmed-el-sayed
   # END audio_series
 
 video_series:
@@ -31730,6 +31824,24 @@ websites:
     - licence
     - site_url
   # END websites:cited-hosts
+  # BEGIN websites:ahmed-el-sayed
+  - id: web-soundcloud-alsayyed-ah-feed
+    title: Ahmed Elsayed's podcast on SoundCloud (public feed, 835 episodes read on 2026-11-23)
+    site_url: https://soundcloud.com/alsayyed_ah
+    licence: "the feed states All rights reserved; lectures published openly by the author; facts extracted with citation to the whole episode, audio and transcripts never republished"
+    lane: ahmed-el-sayed
+    completion: claimed
+    state: "feed metadata read in full (two pages, 835 episodes) on 2026-11-23 with scripts/harvest/ahmed-el-sayed/fetch_feed.py; no audio downloaded; the feed's owner contact address is not stored"
+    notes: "Ledger: harvest/ahmed-el-sayed/ledger.tsv. Source record: source/podcast-ahmed-el-sayed. Citations name the whole episode (series/epNN), no timestamps. The brief estimated about 1,400 SoundCloud items; the public feed lists 835, so any further items are not in the feed and are not counted."
+    pages:
+    - {url: 'https://feeds.soundcloud.com/users/soundcloud:users:72673970/sounds.rss', taken: 'feed metadata: titles, upload dates, durations, episode page and audio links, 835 episodes over two pages', date: '2026-11-23', lane: ahmed-el-sayed, state: read}
+    - {url: 'https://soundcloud.com/alsayyed_ah', taken: 'the account page; each episode page is its canonical citation URL', date: '2026-11-23', lane: ahmed-el-sayed, state: cited}
+    - {url: 'https://podcasts.apple.com/us/podcast/%D8%A7%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%B3%D9%8A%D8%AF/id1498368917', taken: 'same feed on Apple Podcasts; used for the also_on column of the ledger', date: '2026-11-23', lane: ahmed-el-sayed, state: listed}
+    - {url: 'https://baheth.ieasybooks.com', taken: 'written transcripts of the Prophetic Biography for Reformers and the ABCs of Culture; to be read in wave 2', date: '2026-11-23', lane: ahmed-el-sayed, state: listed}
+    - {url: 'https://ahmadalsayed.net', taken: 'the official site; identity anchors', date: '2026-11-23', lane: ahmed-el-sayed, state: listed}
+    unverified:
+    - also_on_matching_across_platforms
+  # END websites:ahmed-el-sayed
   # END websites
 
 datasets:

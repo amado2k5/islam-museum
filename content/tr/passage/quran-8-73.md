@@ -1,0 +1,29 @@
+---
+id: passage/quran-8-73
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-8-73.md}
+---
+
+## Özet
+Medine suresi olan Enfal Suresi [[passage/quran-8|'nin 73. ayeti]]. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Surede 75 ayetten 73. ayet. Metin Donmuş Vahiy'in Muşaf'ından korunmuş olup burada yeniden yazılmamıştır.
+
+**73. Ayetin Yorumu (s. 84-87)**
+
+El-Taberi şöyle der: Allah'a ve Elçi'ne inanmayanlar birbirinin müttefikidir, yani bazıları birbirinin yardımcısı ve destekçisidir ve Allah'a ve Elçi'ne inananlardan daha fazla Ona hak sahibidir; anlamı, bazılarının müminler arasındaki akrabalarından daha fazla birbirinden miras alma hakkına sahip olduğu ve katıldıkları diğer şeylerin de belirtileceği söylenmiştir. Ve 16343 yılındaki rivayet, Muhammed bin Beşer aracılığıyla Abdurrahman aracılığıyla, Sufyan ve Al-Suddi: Bir adam dedi ki: Akrabalık bağlarımızı çok tanrılılardan mı miras almalıyız? Böylece ayet vahyedildi. Ve 16344 yılında İbn Abbas'tan Muhammed bin Sa'd aracılığıyla rivayet: Ahl al-Ahd'in (ahit halkı) müşriklərinin mirası hakkında vahyedilmiştir. Editör, hem basılı hem de el yazması baskılarda bozuk bir ifadeyi dipnotta düzeltir. {cite:tafsir-tabari-shakir-v14 p. 84}
+
+Ve 16345 yılında İbn Zayd'den, Yunus ve İbn Vahb aracılığıyla, "Ve iman eden, göç etmeyenler"den "ve büyük yozlaşma" ayetlerinde: Göç eden ve göç etmeyen, iman eden kardeş olsalar bile vatanından miras almazlardı, çünkü bu din bu topraklarda fetih gününe kadar sınırlıydı. Fetih ve göç günü sona erdiğinde, akrabalık içinde oldukları her yeri miras aldılar; Peygamber bu fetihten sonra göç olmayacağını söyledi ve akrabalığı olanların ayetini okudu. {cite:tafsir-tabari-shakir-v14 p. 85}
+
+Diğerleri ise bunun anlamının, kâfirlerin birbirinin destekçisi olduğu ve savaş diyarında kalıp göç etmeyenin inanan sayılmadığı olduğunu söylediler. Ve 16346 Qatada'dan, Bişr, Yezid ve Said aracılığıyla rivayet: Bir adam Müslümanlar ile müşriklərin arasına inerdi ve şöyle derdi: Eğer bu insanlar görünürse, sen onlarla birliktesin, eğer bunlar ortaya çıkarsa, sen de onlarla birliktesin. Allah bunu reddetti ve onun hakkında vahiy etti. Ayrıca bir Müslümanın ateşi ile bir tekrikçinin ateşi de denir İst, cizye ödeyen ve vergiyi kabul eden kişi tarafından görülmez; doğrulayıcı, ateşin atfedilmesinin komşuluk için bir metafor olduğunu açıklar. Ve 16347 rivayeti, İbn İshaq'tan İbn Hümayd ve Selama aracılığıyla: Allah, müminleri iletişimi sürdürmeye teşvik etti, Muhacirun ve Ensar'ı dinin koruyucuları yaptı ve kâfirleri birbirlerinin müttefiki yaptı; araştırmacı İbn Hisham'ın biyografisine atıfta bulunuyor. {cite:tafsir-tabari-shakir-v14 p. 85}
+
+Sonra, "Yapmazsanız bu bir sınav olur" ve ilgili konularda tercümenler farklı görüşte bulundu. Bazıları şöyle dedi: "Ey müminler, göçmenlerin birbirlerinden göç etmesini, Ensar'ın iman etmesini emrettiğiniz şeyi yapmayın; akrabaları Müslüman bedeviler ve kâfirler olmadan, bu bir sınav olur, yani yeryüzünde büyük bir yozlaşma ve Allah'a karşı günah anlamına gelir." Ve İbn Zeyd'den, Yunus ve İbn Vahb aracılığıyla 16348 riayeti: "Bunu yapmazsanız, onları olduğu gibi mirasa bırakırsınız ve Allah'ın Elçisi iman kabul etmez, ancak göç yoluyla olur." Ve İbn Abbas'tan Al-Muthanna, Abdullah ibn Salih, Muaviye ve Ali aracılığıyla 16349 rivayeti: miras anlamına gelir, eğer size emrettiğimi kabul etmezseniz. {cite:tafsir-tabari-shakir-v14 p. 86}
+
+Diğerleri şöyle dedi: Ey müminler, birbirinizi dinde desteklemezseniz, yeryüzünde anlaşmazlık ve büyük yozlaşma olur. Ve 16350 tarihli rivayet İbn İshaq'tan, İbn Hümayd ve Selma aracılığıyla: Göçmenleri ve Ensar halkını din açısından diğerlerinin üzerinde otorite yaptı, kâfirleri ise birbirlerinin müttefiki yaptı. Sonra dedi ki, 'Bunu yapmayın,', yani inanan, inananla akrabalık bağı olsa bile inanana sadık değildir. Bu, yeryüzünde anlaşmazlığa yol açar; yani gerçek ve yalan konusunda şüpheye ve yeryüzünde yozlaşmanın ortaya çıkmasına yol açar; çünkü inançsız, inançsızı inanan üzerinde ele geçirip mirası akrabalarına geri verir. Doğrulayıcı, hem basılı hem de el yazması versiyonların 'mümin' kelimesinin tekrar tekrar kullanılması nedeniyle karışık olduğunu ve metni İbn Hişam'ın biyografisine dayanarak kurduğunu belirtir. Ve 16351 tarihli rivayet İbn Jureyc'den, el-Kasım, Hüseyin ve Hacc aracılığıyla: Eğer onlar dinde işbirliği yapmaz ve birbirlerini desteklemezlerse, yeryüzünde anlaşmazlık ve büyük yozlaşma olur. {cite:tafsir-tabari-shakir-v14 p. 87}
+
+Sonra el-Taberi, iki yorumdan ilkinin "Ve kâfirler birbirinin müttefikidir" ifadesi olduğunu seçer; bu, bazılarının inanan değil birbirini destekleyen kişilerin görüşüdür. Bu, Allah'ın müminin savaş diyarında kalmasını ve göçü terk etmesini yasakladığını gösterir, çünkü Arapça dilinde bilinen anlam 'el-vali' (koruyucu) olup, onun yardımcısı ve yardımcısı ya da kuzeni ve akrabası olduğu anlamına gelir. Varis ise bilinmez ancak Yani kendisinden sonra miras alan halef olduğu anlamında, bu uzak bir anlamdır, ancak konuşma bunu taşıyabilir ve Allah'ın sözlerini en belirgin ve daha ünlü olana yönlendirmek tercih edilir. Buna göre, "Yapmazsan bu bir sınav olur" ifadesinin en uygun yorumu, "Dine destek ve işbirliği yapmanı emrettiğim şeyi yapmayın" diyenlerin yorumudur; çünkü ayetin başlangıcı dine bağlılık ve destek teşvik ederdi, bu yüzden sonunun onunla birlikte olması gerekir. {cite:tafsir-tabari-shakir-v14 p. 87}
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.

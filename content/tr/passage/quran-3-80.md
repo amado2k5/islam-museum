@@ -1,0 +1,19 @@
+---
+id: passage/quran-3-80
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-3-80.md}
+---
+
+## Özet
+Medine suresi olan İmran Suresi [[passage/quran-3|'nin 80. ayeti]]. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Suredeki 200 ayetten 80. ayet. Metin Mushaf Tazil al-Mujaddad'dan korunmuş olup burada yeniden yazılmamıştır.
+
+**80. ayet: Emir fiilinde iki okuma.** El-Taberi, şiircilerin fiilin telaffuzunda farklı olduğunu söyler. Hicaz ve Medine'nin çoğu okuyan, bunu Peygamber'in öncül raporu olarak okurlar; Peygamber, insanlara melek ve peygamberleri efendi yapmalarını emretmez. İbn Mes'ud'dan bahsettikleri, parçacık olumsuzlamasının yenilenmeyi gösterdiği bir okumayı alıntılamışlar ve parçacık olumsuzlamasını okumamızda yerine isimatif nominatif (nominative) gerektiğini belirtmişlerdir. Doğrulayıcı, bu yönün Kur'an anlamlarında Al-Farra' tarafından belirtildiğini belirtir. Bazı Küfanlar ve Basranlılar, daha önce bahsedilen fiille birlikte bunu akuzatif olarak okurlar, bu yüzden anlamları insanların bunu yapmasının uygun olmadığı ya da melekler ve peygamberleri tanrı yapmanızı istemelerinin uygun olmadığıdır.
+
+**El-Tabari'nin Seçimi ve Aklını.** El-Tabari, akuzativin doğru okunmasının öncesiyle bağlantısından kaynaklandığına inanır; çünkü ayet, Peygamber'e 'Sana ibadet etmemizi mi istiyorsun?' diyenlerle ilgili olarak indirilmiştir. Allah onlara, Peygamberi'nin insanları kendisine ibadet etmeye çağırmasının ya da melek ve peygamberleri efendiler olarak kabul etmesinin değil, onları ilahi varlıklar olarak çağırmasının kendisi olduğunu bildirdi. Rafi'nin savunucularının Abdullah ibn Mas'ud'un ayetinin onaylanmış bir inkar mektubu içerdiği iddiasına gelince, El-Taberi bunun Harun el-A'war'dan Hacc tarafından rivayet edilen yanlış bir rivayet zinciri olduğunu ve zincirinin gerçek olması halinde kanıt sayılmayacağını, çünkü Müslümanların Peygamberlerinden miras kalan Mushaf'ında bulunanların bazı sahabelere atfedildiği ve yanlış ya da gözden kaçanlar tarafından aktarıldığı için bırakılmayacağını ekler. Editör, kenar notunda Hacac'ın Bağdat'ta yaşamış, ardından el-Musaya'da yaşamış ve 206 yılında Bağdat'ta ölmüş Hacı ibn Muhammed el-Musaysi el-A'war olduğunu belirtir. Ahmed, mektupların doğruluğunu övmüştür. Güvenilir ve dürüsttü, ancak daha sonra değişip kafası karıştı, bu yüzden Yahya ibn Ma'in oğlunun kendisine girmesini yasakladı. Sunayd ibn Dawood'ın biyografisinde hafizin Hacąc'ın karışıklık içinde konuştuğunu belirttiği belirtilir ve el-Taberi'nin Sunid'in anlatımına ondan atıfta bulunduğundan korkulur. Harun el-A'var, Harun ibn Musa Ebu Abdullah el-Ataki'dir; tanınmış bir okumaya sahip güvenilir bir bilgindir. Editör ayrıca basılı ve el yazması kopyalardaki bozulmaların yerlerini ve nasıl düzeltildiğini açıklar, bazılarını yazıcının çok sayıda yazıcısına atfeder.
+
+**El-Taberi'ye göre anlam.** El-Taberi şu anlamı açıklar: Peygamber, ey insanlar, sizden melek ve peygamberleri Allah'tan başka tapılan tanrılar yapmanızı istemedi, ayrıca onları kendisine ibadet etmeye davet etmesine de izin verilmedi. Sonra Allah, Peygamberi'nin insanlara inkar etmelerini, yani Allah'ın birliğini inkâr etmesini, yani Allah'a itaat edip kendilerini köleliğe alçalttıktan sonra inkâr ettiğini reddeder; bu asla O'ndan mümkün değildir. El-Kasim, İbn Jureyc'den Hacâc'tan El-Hüseyin'den rivayet eder; bu anlam Peygamberdir (7322). Doğrulayıcı, el yazmasındaki "kölelik" teriminin, basılı baskının yayıncısının bahsedilen her şeyde "kölelik" olarak kullandığı için olduğu gibi yerleştiğini belirtir. {cite:tafsir-tabari-shakir-v06 p. 549}

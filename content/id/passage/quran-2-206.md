@@ -1,0 +1,17 @@
+---
+id: passage/quran-2-206
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-2-206.md}
+---
+
+## Ringkasan
+Ayat 206 Surah [[passage/quran-2|Al-Baqarah]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: ayat 206 dari 286 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujjard dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Pernyataan dalam [[passage/quran-2-206|2:206]]: Al-Tabari berkata makna: Dan ketika dikatakan kepada munafik yang Allah atribusikan kepada Nabi-Nya, 'Takutlah Allah dan takutlah Dia dengan merusak tanah-Nya dan berjuang di dalamnya atas apa yang Dia larang, dan kehancuranmu adalah bajak umat Islam dan keturunan mereka,' dia menjadi sombong, dan dia masuk dengan kehormatan dan semangat atas apa yang Allah larang, dan dia terus berjuang dalam kesalahan dan kesalahan; maka dia cukup dengan hukuman 'Doalah Api Neraka,' dan betapa sengsaranya tungku bagi para penyembahnya. {cite:tafsir-tabari-shakir-v04 p. 244} Para ulama penafsiran berbeda pendapat tentang siapa yang merujuk pada ayat itu. Beberapa berkata: Maksudnya setiap pendosa dan munafik; dan dari Abu Raja' al-Atardi yang ia dengar Ali berkata dalam ayat 2 [[passage/quran-2-204|:204]] hingga [[passage/quran-2-207|2:207]] : Mereka berperang di bawah Tuhan Ka'bah (3998). {cite:tafsir-tabari-shakir-v04 p. 244} Dan dari Ibn Zayd: Ketika Umar ibn Al-Khattab berdoa rosario dan selesai mengucapkannya, ia masuk ke halaman dan memanggil anak-anak laki-laki yang membaca Al-Qur'an, termasuk Ibn Abbas dan keponakan Uyaynah, untuk mempelajarinya sampai perkataan itu; mereka melewati ayat ini dan apa yang berikutnya mengenai mereka yang menjual diri demi kehendak-Nya, dan inilah para pejuang di jalan Allah. Ibn Abbas berkata kepada mereka yang di sebelahnya: Apakah kedua pria itu bertarung? Umar mendengar dan bertanya kepadanya, berkata: Tidak ada, wahai Panglima Orang Beriman. Dia bersikeras. Ibn Abbas berkata: Saya lihat, ketika dia diperintahkan untuk takut kepada Allah, kehormatannya diambil oleh dosa, dan saya melihat seseorang yang menjual dirinya demi kesendikan Allah, dan orang ini berdiri dan memerintahkan takut kepada Allah. Tetapi jika dia tidak menerima dan kehormatan mengambilnya melalui dosa, dia berkata: 'Aku mempersembahkan diri.' Jadi dia melawannya, dan kedua pria itu bertarung. Umar berkata: Bagi Allah adalah tanahmu, wahai Ibn Abbas (3999). {cite:tafsir-tabari-shakir-v04 p. 245} Peneliti menjelaskan Al-Subha dan Al-Murbad, mengidentifikasi Al-Hurr ibn Qays, putra keponakanku 'Uyaynah, dan mengoreksi 'Kepada Allah tanahmu' atau 'Semoga Allah melindungimu.' {cite:tafsir-tabari-shakir-v04 p. 245} Yang lain berkata: Sebaliknya, itu dimaksud oleh Al-Akhnas ibn Shurayq, dan seseorang pernah mengatakan ini sebelumnya (3961). {cite:tafsir-tabari-shakir-v04 p. 245} Adapun [[passage/quran-2-206|2:206]], itu berarti betapa malangnya tempat tidur dan jejak kaki Neraka, yang telah dijanjikan oleh munafik ini dan telah diinjak-injak untuk dirinya sendiri melalui kemunafikan, kejahatan, dan pemberontakannya terhadap Tuhan-Nya. {cite:tafsir-tabari-shakir-v04 p. 246}

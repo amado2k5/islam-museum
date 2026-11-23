@@ -1,0 +1,24 @@
+---
+id: passage/quran-3-139
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-3-139.md}
+---
+
+## Ringkasan
+Ayat 139 Surah [[passage/quran-3|Al-Imran]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: ayat 139 dari 200 ayat dalam surat. Teks ini disimpan dari Mushaf Tazil Mushaf yang dibekukan dan tidak ditulis ulang di sini.
+
+**Makna (hal. 234).** Abu Ja'far berkata: Ini adalah penghiburan dari Allah kepada para sahabat Rasulullah atas luka dan pembunuhan yang menimpa mereka. Makna melarang kelemahan bukanlah melemah karena pembunuhan dan luka yang mereka alami dari musuh dalam jihad dan perang. Dari kata mereka bahwa si anu lemah dalam hal ini, maka lemah dan lemah; makna melarang kesedihan bukanlah putus asa atau panik atas bencana yang menimpa mereka hari itu. Mereka adalah yang unggul, yaitu mereka yang muncul di hadapan mereka, dan mereka akan mendapatkan hasil akhir dalam kemenangan dan dukungan, jika mereka percaya kepada Nabi-Nya Muhammad atas apa yang dijanjikan dan apa yang Dia beritahu mereka tentang berita tentang apa yang akan terjadi pada urusan mereka dan urusan musuh mereka. {cite:tafsir-tabari-shakir-v07 p. 234}
+- Dari Al-Muthanna dari Suwayd ibn Nasr dari Ibn Al-Mubarak dari Yunus dari Al-Zuhri (7884): Pembunuhan dan luka terhadap sahabat Muhammad meningkat begitu banyak sehingga masing-masing dari mereka diserang dengan kekuatan. Kemudian Allah mewahyukan Al-Qur'an, dan para mukmin berduka di dalamnya dengan segala yang telah mereka lakukan kepada umat Muslim yang sebelumnya berasal dari bangsa-bangsa sebelumnya, dari ayat ini hingga [[passage/quran-3-154|ayat 3:154]]. {cite:tafsir-tabari-shakir-v07 p. 234}
+- Dari Bishr dari Yazid dari Sa'id dari Qatadah (7885): Ia menghibur para sahabat Muhammad seperti yang didengar dan mendesak mereka untuk melawan musuh serta melarang mereka dari kelemahan dan kelemahan dalam mencari musuh di jalan Allah. {cite:tafsir-tabari-shakir-v07 p. 234}
+- Dari Muhammad ibn Sinan dari Abu Bakr al-Hanafi dari 'Abbad dari al-Hasan (7886): Ia memerintahkan Muhammad, memberitahu mereka agar tidak melemah dalam melangkah maju di jalan Allah. Editor menyebutkan bahwa naskah itu ditulis sebagai 'wa' dengan tambahan waw, dan apa yang ada dalam edisi cetak lebih jelas. {cite:tafsir-tabari-shakir-v07 p. 235}
+- Dari Muhammad ibn Amr dari Abu Asim dari Isa dari Ibn Abi Najih dari Mujahid (7887): Jangan menjadi lemah. Dan dari Al-Muthanna dari Abu Hudhayfah dari Shibl dari Ibn Abi Najih dari Mujahid yang sama (7888). Dan dari Al-Muthanna dari Ishaq dari Abdullah ibn Abi Ja'far dari ayahnya dari Al-Rabi' (7889): Jangan menjadi lemah. {cite:tafsir-tabari-shakir-v07 p. 235}
+- Dari Al-Qasim dari Al-Husayn dari Hajjaj dari Ibn Jurayj (7890): Janganlah kamu lemah dalam urusan musuhmu; dan dia berkata tentang makna pengangkatan: Para sahabat Rasulullah kalah di lembah dan berkata, 'Apa yang dilakukan si anu?' Mereka saling berduka dan berkata bahwa Rasulullah telah dibunuh, maka mereka merasa cemas dan sedih. Saat mereka seperti itu, Khalid ibn al-Walid mendaki gunung bersama para pelit para musyrik di atas mereka saat mereka berada di lembah. Ketika mereka melihat Nabi, mereka bersukacita dan berkata: Ya Allah, kami tidak punya kekuatan kecuali dengan Engkau, dan tidak ada yang menyembah-Mu di kota ini kecuali orang-orang ini. Sekelompok Muslim melompat sebagai pemanah dan menaiki kuda para musyrik sampai Allah mengalahkan mereka dan umat Muslim naik ke gunung. Itulah arti dari ketinggian mereka. {cite:tafsir-tabari-shakir-v07 p. 235}
+- Dari Ibn Humayd dari Salamah dari Ibn Ishaq (7891): Janganlah melemahkan atau berduka atas apa yang telah menimpa Anda (dan sang pemberi menyebutkan itu dalam Ibn Hisham, 'dan jangan putus asa'), karena Anda akan mendapatkan hasil dan manifestasi jika Anda percaya kepada Nabi saya atas apa yang Dia sampaikan tentang saya. Ia merujuk pada biografi Ibn Hisham (3:116) dan bahwa itu adalah kelanjutan dari laporan sebelumnya (dan nomornya dicetak secara buram). {cite:tafsir-tabari-shakir-v07 p. 236}
+- Dari Muhammad ibn Sa'd, dari ayahnya, dari pamannya, dari ayahnya, dari kakeknya, dari Ibn Abbas (7892): Khalid ibn al-Walid datang dengan niat agar gunung itu menjulang di atas mereka, dan Nabi berkata: Ya Allah, janganlah kamu menjulang di atas kami. Maka Allah mewahyukan ayat ini. {cite:tafsir-tabari-shakir-v07 p. 236}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri. {cite:tafsir-tabari-shakir-v07 p. 236}

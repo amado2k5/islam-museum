@@ -1,0 +1,23 @@
+---
+id: passage/quran-9-48
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-9-48.md}
+---
+
+## Özet
+Medine suresi olan Tevbe Suresi [[passage/quran-9|'nin 48. ayeti]]. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Suredeki 129 ayetten 48. ayet. Metin Mushaf Tazil al-Mujjard'dan korunmuş olup burada yeniden yazılmamıştır.
+
+**48. Ayetin Yorumu (s. 283-286)**
+
+El-Tabari şöyle der: Bu münafıklar senin sahabelerin için fitne yaratmaya çalıştılar, ey Muhammed. Onları dinlerinden uzaklaştırmak ve dinlerini terk ederek kandine geri döndürmek istediler, tıpkı Abdullah ibn Ebu Bey ve senin yoldaşlarının Uhud gününde senden ve takipçileriyle birlikte yüz çevirdiğinde yaptığı gibi. Bu, daha önce İsyandan Allah'ın Resulu'nun sahabeleri için aradıkları şeyin peşindeydi. O'nun 'bundan önce' demesiyle, 'Bundan önce' demek ister; ve onlar işleri sizin etrafınızda çevirdiler. Der ki, 'Ve sizi ve Allah'ın sizi gönderdiği dinin geçersiz kılınmasını değiştirdiler,' sizi terk etmek, getirdiğiniz şeyi inkar etmek ve gerçeği size geri vermek için. Der ki, Allah'ın yardımı gelene kadar; Allah'ın emri ortaya çıktı, Allah'ın emri ortaya çıktı. Der ki, 'Ve Allah'ın yarattığı ve yarattığı İslam'a dayattığı Allah'ın dini ortaya çıktı.' Der ki, 'Ve münafıklar, Allah'ın emrini ve size desteğini sevmezler.' Ve şimdi Allah sizi ve dinini Romalılar arasında kafir olanlara ve diğerlerine gösterdi, onlar da karşıttır. Ve 16782 tarihli rivayet İbn İshaq'tan, İbn Hümayd ve Salama aracılığıyla: Ve onlar işleri senin için tersine çevirdiler, yani sahabelerini terk edip işlerini geri çevirdiler, ta ki gerçek ortaya çıkana ve Allah'ın emri ortaya çıkana kadar. {cite:tafsir-tabari-shakir-v14 p. 284}
+
+Bu ayetin, onların ileri gelenlerinin adını taşıyan bir grup hakkında vahy edildiği belirtilmiştir. Ve 16783 tarihli al-Hasan'dan, İbn Humayd, Salamah, İbn İshaq ve Amr aracılığıyla rivayet edilmiştir: 'Ve işleri sizin için düzeltin.' Aralarında Abdullah ibn Ebi ibn Salul, Banu Amr ibn Awf'un kardeşi Abdullah ibn Nabat, Rifa ibn Rafi' ve Zayd ibn al-Tabut al-Qaynaqa'i vardı. Abdullah ibn Ebi Aqaba'nın sahabelerinin bu seferlerdeki terk edilmesi, 16784 yılında Zuhri'den İbn İshak, Yezid bin Roman, Abdullah ibn Ebu Bekir, Asim ibn Ömer bin Katadah ve diğerlerinin rivayetinde anlatıldı. Her biri Tabük Savaşı hakkında duyduklarını anlattı, bazıları ise diğerlerinin anlatmadığını anlattı. Bu hadiste herkesin kendi rivayeti vardı: Allah'ın Elçisi, sahabelerine Roma istilasına hazırlanmalarını emretti; bu zamanlar halk için zorluk, şiddetli sıcaklık ve kuraklık zamanlarında, meyveler hoş ve gölge isteniyordu. İnsanlar meyve ve gölgede kalmayı sever, mevcut halleriyle ise sevmezlerdi. {cite:tafsir-tabari-shakir-v14 p. 284}
+
+Allah'ın Elçisi nadiren bir sefere metafor olmadan çıkardı ve kendisi için sağlam olan şeyden başka bir şey kastettiğini bildirdi; Tabük Savaşı hariç, büyük zorluklar, zamanın sıkıntıları ve onları hazırlamak için karşı karşıya kaldığı çok sayıda düşman nedeniyle halka bunu açıkladı, bu yüzden onu hazırladı. Halkı savaşmaya emretti ve Romalıları amaçladığını bildirdi, böylece halk, Romalıları ve istilalarını büyük hatırlamalarına rağmen bu tiksintiye hazırlandı. Sonra Allah'ın Elçisi yolculuğuna ciddi yaklaştı, halkı hazırlanmaya ve geri çekilmeye emretti, zenginleri Allah yolunda koyun harcamaya ve taşımaya teşvik etti. Allah'ın Elçisi yola çıktığında, kampına Veda Dönüşü'nde vurdu ve Abdullah ibn Ebi ibn Salul kampını ayrı olarak, Veda Dönüşü'nün altındaki mezarlıktaki bir dağa, uçan botlarla vurdu. Onların iddiasına göre, o iki askerin en küçüğü değildi; Allah'ın Elçisi yola çıktığında, Abdullah ibn Ubeyy onu münafıklar ve şüpheciler arasında takip etti. Abdullah ibn Abi, Banu Avf bin el-Hazraj'ın kardeşi, Abdullah ibn Nabat'ın kardeşiydi Banu Amr ibn Awf ve Banu Qaynuqa'nın kardeşi Rifa'ah ibn Zayd ibn al-Tabut. Onlar büyük münafıklar arasındaydı ve İslam ile halkına karşı komplo kurmuşlardır. Aralarında Allah tarafından vahyedilmiştir; çünkü önceden anlaşmazlık aramışlardır; İbn İshaq el-Hasan el-Basri'den anlatmıştır. Doğrulayıcı, bu raporun İbn Hişam'ın biyografisinde ayrıntılı bir kaynak olduğunu ve el-Tabari'nin tarihinde tam olduğunu açıklar. {cite:tafsir-tabari-shakir-v14 p. 286}
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.

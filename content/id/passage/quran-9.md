@@ -1,0 +1,23 @@
+---
+id: passage/quran-9
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-9.md}
+---
+
+## Ringkasan
+Surah At-Tawbah: Surah ke-9 yang diatur dalam Al-Qur'an, Madinah, dengan 129 ayat dan 113 di antara surah. {cite:tanzil-quran}
+
+## Isi
+Ayat-ayatnya didokumentasikan ayat demi ayat di museum berdasarkan catatan passage/quran-9-<رقم الآية>.
+
+## Dalam "Al-Tafsir al-Waseet" karya Tantawi
+[[person/muhammad-sayyid-tantawi|Tantawi]] mengatakan dalam pengantar surah dalam [[work/al-tafsir-al-wasit|tafsir menengah]] bahwa itu adalah ayat kesembilan dalam urutan Mushaf, dengan ayat 129 menurut Kufan dan 130 menurut mayoritas ulama. {cite:tafsir-tantawi-wasit p.2498} Sejak era kenabian, surat ini dikenal dengan nama, yang paling terkenal adalah "Tawbah" karena berulang kali membahas pertobatan dan orang yang bertobat, dan "Bara'ah" karena dibuka dengan penolakan terhadap para musyrik; dan di antaranya adalah "Al-Fadhahah" karena diskusinya yang luas tentang munafik. Al-Bukhari menceritakan dari Sa'id ibn Jubayr bahwa [[person/abdullah-ibn-abbas|Ibn Abbas]] berkata: Tawbah adalah yang terang-terangan, dan terus turun "dan dari mereka dan dari mereka" sampai mereka berpikir ia tidak akan meninggalkan siapa pun dari mereka. {cite:tafsir-tantawi-wasit p.2498} {cite:tafsir-tantawi-wasit p.2499} Di antara nama-namanya adalah al-munqarqa, al-'stir', 'al-mu'dhara', 'al-muddimma', dan 'al-muddamma'. Tantawi mengatakan tidak ada surah Al-Qur'an yang memiliki lebih banyak nama daripada 'al-Fatiha'. {cite:tafsir-tantawi-wasit p.2499}
+
+Pada saat wahyunya, dilaporkan dari [[person/ibn-kathir|Ibn Kathir bahwa]] itu termasuk yang terakhir diwahyukan, dan dari penulis Al-Manar, disepakati sebagai Madinah, dengan beberapa pendapat kecuali beberapa ayat yang ia bantah. {cite:tafsir-tantawi-wasit p.2499} {cite:tafsir-tantawi-wasit p.2500} Kemudian dilaporkan dari 'Fi Zilal al-Quran' oleh Sayyid Qutb bahwa ia diwahyukan secara keseluruhan pada tahun kesembilan dalam tiga tahap: sebelum [[event/expedition-to-tabuk|Pertempuran Tabuk]] di Rajab, selama persiapan dan di dalam lingkarannya, dan setelah kembali, dan bahwa awal ayat 28 diwahyukan pada akhir tahun sebelum musim Haji; Tantawi mengatakan ini adalah pernyataan yang 'jiwa menemukan damai dengan.' {cite:tafsir-tantawi-wasit p.2500} Ia percaya bahwa ayat ini menggambarkan hubungan antara orang beriman dan musyrik, Umat Kitab, dan munafik setelah penaklukan Mekah, dan membahas secara luas peristiwa Pertempuran Tabuk. {cite:tafsir-tantawi-wasit p.2500}
+
+Dalam penafsiran awal ceritanya, diceritakan dari Ibn Kathir dan Ibn Ishaq bahwa Nabi mengutus [[person/abu-bakr|Abu Bakr]] sebagai gubernur Haji tahun itu, kemudian [[person/ali-ibn-abi-talib|Ali ibn Abi Talib]] mengikutinya untuk melaporkan deklarasi pembebasan dan mengumumkan panggilan shalat di antara umat pada Hari Kurban di Mina, menyatakan bahwa setelah tahun tidak ada musyrik yang boleh melakukan Haji setelah tahun tersebut dan tidak mengelilingi rumah dalam keadaan telanjang, dan siapa pun yang memiliki perjanjian akan diberikan seumur hidupnya. {cite:tafsir-tantawi-wasit p.2515} {cite:tafsir-tantawi-wasit p.2516} Mengenai alasan perjanjian itu tidak memiliki Basmala, tercatat mengapa [[question/why-no-basmala-in-surat-al-tawba|Surah At-Tawbah tidak dimulai dengan Basmala]]?. {cite:tafsir-tantawi-wasit p.2501}
+
+## Dalam 'Fath al-Qadeer' karya Shawkani
+[[person/al-shawkani|Al-Shawkani]] menyatakan dalam [[work/fath-al-qadir|Fath al-Qadeer]] bahwa Surah At-Tawbah adalah Madinah, dan dilaporkan dari Al-Qurtubi bahwa ini secara bulat. {cite:fath-al-qadir-dar-al-marifa p.552} Dilaporkan dari Ibn Abbas bahwa Bara'ah diwahyukan setelah penaklukan Mekah dan Surah At-Tawbah diwahyukan di Madinah, dan dari Abdullah ibn al-Zubayr dan Qatadah laporan serupa, dan dari Al-Bara' menurut Al-Bukhari, An-Nasa'i, dan lainnya bahwa surah terakhir diwahyukan dalam Bara'ah lengkap. {cite:fath-al-qadir-dar-al-marifa p.552} Kemudian ia menyebutkan pendapat para ulama mengenai pengguguran Basmala sejak awal, dan menceritakan dari Abu Raja' bahwa ia bertanya kepada Al-Hasan al-Basri: Apakah Al-Anfal dan Bara'ah dua surah atau surah? Ia berkata: Dua surah; dan dari Hudhayfah mereka menyebutnya Surah At-Tawbah, yang merupakan Surah hukuman. {cite:fath-al-qadir-dar-al-marifa p.552} {cite:fath-al-qadir-dar-al-marifa p.553}

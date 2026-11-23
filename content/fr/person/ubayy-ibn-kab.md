@@ -1,0 +1,41 @@
+---
+id: person/ubayy-ibn-kab
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-fr-2026-11-23, source: content/en/person/ubayy-ibn-kab.md}
+---
+
+## Résumé
+[[person/ubayy-ibn-kab|Ubayy ibn Ka'b]] ibn Qays de Banu al-Najjar al-Ansari, kunya Abu al-Mundhir et Abu al-Tufayl ; Ibn Hajar l'appelle « maître des récitateurs » {cite:ibn-hajar-isaba p. 26}. Il faisait partie du peuple du [[event/pledges-of-aqaba|second Aqaba]], et fut témoin [[event/battle-of-badr|de Badr]] et de toutes les campagnes {cite:ibn-hajar-isaba p. 26}.
+
+## Sa position auprès du Prophète et d'Umar
+Ibn Hajar raconte que le Prophète lui dit : « Que la connaissance t'ait douce, Abu al-Mundhir », et lui dit : « Dieu m'a ordonné de te réciter » {cite:ibn-hajar-isaba p. 26}. [[person/umar-ibn-al-khattab|Umar]] l'appelait « maître des musulmans » et lui disait : « récite, Ubayy » ; il lui posait des questions sur les affaires et se tournait vers lui pour des questions difficiles {cite:ibn-hajar-isaba p. 26}. Masruq le comptait parmi les six hommes de la fatwa {cite:ibn-hajar-isaba p. 26}.
+
+## Écriture et apparence
+Al-Waqidi a déclaré qu'il avait été le premier à écrire pour le Prophète et le premier à écrire à la fin d'un document « a écrit Untel fils de Untel » ; il était de taille moyenne, barbe blanche, sa grisaille était visible {cite:ibn-hajar-isaba p. 26}.
+
+## Ceux qui ont fait l'expérience de lui
+Parmi les Compagnons, Umar, Abu Ayyub, Ubada ibn al-Samit, Sahl ibn Sa'd, Abu Musa, Ibn Abbas, Abu Hurayra, Anas, Sulayman ibn Surad et d'autres liés à lui, et les imams apportèrent ses hadiths dans leurs Sahihs {cite:ibn-hajar-isaba p. 26}.
+
+## Sa maladie
+Ahmad, Abu Ya'la et Ibn Abi al-Dunya racontent — Ibn Hibban l'a authentifié — d'après Abu Sa'id al-Khudri, que le Prophète a été interrogé sur les maladies et a dit : « expiations » — Ubayy a dit : Messager de Dieu, même quand il était petit ? Il a dit : « même une épine et ce qui la surpasse » — Ubayy pria donc de ne jamais être exempt de fièvre avant sa mort, tant que cela ne l'empêchait pas de faire le hajj, l'umra, le jihad ou la prière congrégationnelle {cite:ibn-hajar-isaba p. 27}.
+
+## Sa mort : les différentes expressions
+Ibn Hajar transmet d'Ibn Ma'in qu'il est mort en vingt ou dix-neuf ans, et d'al-Waqidi que la famille et compagnons d'Ubayy disent vingt-deux ans, et qu'Umar a dit : « aujourd'hui le maître des musulmans est mort » — al-Waqidi mentionne alors ceux qui disent qu'il est mort dans le califat d'Uthman en l'an trente et qualifie cela de « le plus ferme des dictons » {cite:ibn-hajar-isaba p. 26}. Ibn Abd al-Barr affirme que la majorité estime qu'il est mort dans le califat d'Umar ; Abu Nu'aym a authentifié qu'il est mort dans le califat d'Uthman en l'an trente, en argumentant à partir de la rencontre de Zar ibn Hubaysh dans le califat d'Uthman ; Ibn Hibban a dit an vingt-deux ; al-Baghawi rapporte d'al-Hasan qu'il est mort une semaine avant le meurtre d'Uthman {cite:ibn-hajar-isaba p. 26} {cite:ibn-hajar-isaba p. 27}.
+
+## Pour les Petits
+Ubayy ibn Ka'b ibn Qays des Banu al-Najjar l'Ansari, kunya Abu al-Mundhir et Abu al-Tufayl, qu'Ibn Hajar appelle « le maître des récitateurs » ; il était au second Aqaba et vit Badr et tous les témoins en scène.
+
+## Pour les Explorateurs
+Ubayy ibn Ka'b ibn Qays de Banu al-Najjar l'Ansari, kunya Abu al-Mundhir et Abu al-Tufayl, qu'Ibn Hajar appelle « le maître des récitateurs ». Il était au deuxième Aqaba et vit Badr et tous les témoins sur le terrain. Ibn Hajar raconte que le Prophète lui dit « réjouis-toi de la connaissance » et « Dieu m'ordonna de te réciter » ; Umar l'appela « le seigneur des musulmans », disant « récite, Ubayy », et se tourna vers lui dans des cas complexes — Masruq le comptait parmi les six qui prononcèrent les décisions. Al-Waqidi dit qu'il fut le premier à écrire pour le Prophète et le premier à écrire à la fin d'une lettre « tel ou tel » ; il était petit et la barbe blanche. Umar, Ibn Abbas, Abu Hurayra, Anas et d'autres liés à lui, et les imams incluaient ses hadiths dans leurs sahihs.
+
+## Pour les Chercheurs
+Ubayy ibn Ka'b ibn Qays de Banu al-Najjar l'Ansari, kunya Abu al-Mundhir et Abu al-Tufayl, qu'Ibn Hajar appelle « le maître des récitateurs ». Il était au deuxième Aqaba et vit Badr et tous les témoins en scène. Ibn Hajar raconte que le Prophète lui dit « réjouis-toi de la connaissance, Abu al-Mundhir » et « Dieu m'a ordonné de te réciter » ; Umar l'appela « le seigneur des musulmans », disant « récite, Ubayy », lui posa des questions sur de nouvelles affaires et se tourna vers lui dans celles compliquées, et Masruq le compta parmi les six qui prononcèrent les jugements. Al-Waqidi dit qu'il fut le premier à écrire pour le Prophète et le premier à écrire à la fin d'une lettre « tel fils de tel et tel » ; C'était un homme de petite taille, à la barbe blanche, dont le gris ne mourut jamais. Parmi les Compagnons, Umar, Abu Ayyub, Ubada ibn al-Samit, Sahl ibn Sa'd, Abu Musa, Ibn Abbas, Abu Hurayra, Anas et Sulayman ibn Surad ainsi que d'autres liés à lui, et les imams incluaient son hadith dans leurs sahihs.
+
+## Dans le programme d'Ahmed Abdussalam « Osalli Alayh »
+[[person/ahmed-abdussalam|Ahmed Abdussalam]] donne le quatrième épisode de son émission «[[work/ossali-alayh|Osalli Alayh]]» au hadith d'Ubayy ibn Ka'b, qui dit au Prophète qu'il priait souvent pour lui et lui demanda combien de sa prière il devait lui donner ; il proposa un quart, puis un demi, puis deux tiers, et à chaque fois le Prophète lui disait ce qu'il voulait, et que plus serait mieux pour lui, jusqu'à ce qu'il dise qu'il donnerait tout, et que le Prophète lui répondit que son inquiétude serait suffisante et son péché pardonné. {cite:assabile-ahmed-abdussalam ossali-alayh/ep04 00:00:30} {cite:assabile-ahmed-abdussalam ossali-alayh/ep04 00:01:30} {cite:assabile-ahmed-abdussalam ossali-alayh/ep04 00:02:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep04 00:02:30} {cite:assabile-ahmed-abdussalam ossali-alayh/ep04 00:03:00} Il rend les partages concrets pour les téléspectateurs en quelques minutes d'une heure : quinze, puis trente, puis quarante à titre d'illustration. {cite:assabile-ahmed-abdussalam ossali-alayh/ep04 00:01:30} {cite:assabile-ahmed-abdussalam ossali-alayh/ep04 00:02:00} {cite:assabile-ahmed-abdussalam ossali-alayh/ep04 00:03:00} Il décrit Ubayy comme l'homme à la douce voix et à la belle récitation du Coran. {cite:assabile-ahmed-abdussalam ossali-alayh/ep04 00:05:30}
+
+## Dans les livres des lectures et des sciences coraniques
+
+Al-Suyuti, citant al-Bukhari, raconte que Qatada demanda à Anas ibn Malik qui avait recueilli le Coran de son vivant du Messager de Dieu, et Anas répondit : quatre, tous des Ansar : Ubayy ibn Ka'b, Mu'adh ibn Jabal, Zayd ibn Thabit et Abu Zayd. {cite:itqan-suyuti-calcutta-1852 p. 167} Il donne un second rapport d'Anas qui nomme Abu al-Darda' à la place d'Ubayy, note que plusieurs imams rejetèrent la limite à quatre, et cite al-Mazari selon lequel les paroles d'Anas ne signifient pas que ce soit le cas, seulement que c'était ce qu'il savait. {cite:itqan-suyuti-calcutta-1852 p. 167} Dans le Tabaqat al-Qurra d'al-Dhahabi, il cite que les Compagnons célèbres pour enseigner le Coran étaient sept : « Uthman, Ali, Ubayy, Zayd ibn Thabit, Ibn Mas'ud, Abu al-Darda » et Abu Musa al-Ash'ari, et qu'un groupe de Compagnons lisent sur Ubayy, parmi lesquels Abu Hurayra, Ibn 'Abbas et 'Abd Allah ibn al-Sa'ib. {cite:itqan-suyuti-calcutta-1852 p. 172} Ubayy est aussi l'un des vingt-et-un Compagnons que al-Suyuti considère comme narrateurs du hadith selon lequel le Coran fut envoyé en sept ahruf. {cite:itqan-suyuti-calcutta-1852 p. 106} Les chaînes des lectures de [[person/nafi-al-madani|Nafi']], [[person/abdallah-ibn-kathir|Ibn Kathir]], [[person/asim-ibn-abi-al-najud|'Asim]] et [[person/abu-jafar-al-qari|Abu Ja'far]] passent à travers lui dans la présentation d'Ibn al-Jazari. {cite:nashr-dahman-damascus-1345-v1 p. 121} {cite:nashr-dahman-damascus-1345-v1 p. 130} {cite:nashr-dahman-damascus-1345-v1 p. 166} {cite:nashr-dahman-damascus-1345-v1 p. 188}

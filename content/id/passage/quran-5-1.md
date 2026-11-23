@@ -1,0 +1,57 @@
+---
+id: passage/quran-5-1
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-5-1.md}
+---
+
+## Ringkasan
+Ayat 1 [[passage/quran-5|Surah Al-Ma'idah]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: Ayat 1 dari 120 ayat dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujjard dan tidak ditulis ulang di sini.
+
+**Tafsir Surah Al-Ma'idah, ayat 1: Pemenuhan kontrak (hlm. 449-451)**
+
+Al-Tabari menjelaskan maksud dari firman-Nya: Wahai yang telah beriman, penuhilah imanmu, yaitu, wahai yang mengakui keesaan Allah, tunduklah kepada-Nya dalam perbudakan, dan percayalah kepada Rasul-Nya Muhammad dalam kenabian-Nya dan apa yang Dia bawa dari hukum agama-Nya: penuhilah perjanjian, yaitu perjanjian yang telah dibuat Tuhanmu, perjanjian yang telah kamu buat, dan yang telah kamu letakkan hak-hak pada diri sendiri, dan kamu telah menyerahkan diri kepada Allah sebagai kewajiban. Maka penuhilah dengan penuh dan janganlah melanggarnya setelah dikonfirmasi. {cite:tafsir-tabari-shakir-v09 p. 449}
+
+Para penafsir berbeda pendapat mengenai kontrak yang diperintahkan Allah untuk dipenuhi, setelah sepakat bahwa makna kontrak adalah perjanjian. Beberapa berkata: Ini adalah kontrak yang dulu dibuat oleh orang-orang yang tidak tahu untuk mendukung, mendukung, dan membuktikan diri melawan mereka yang mencoba menindas mereka, yang merupakan makna sumpah yang mereka buat di antara mereka; yang lain berkata: Itu adalah perjanjian. Narasi tahun 10893 dari Ibn Abbas, melalui rantai Muawiyah ibn Salih dan Ali ibn Abi Talhah, menyatakan bahwa makna memenuhi kontrak adalah melalui perjanjian. {cite:tafsir-tabari-shakir-v09 p. 449}
+
+Dan narasi 10894 dari Mujahid, melalui Ibn Abi Najih dan Shibl: perjanjian; dan narasi 10896 dari Mujahid hingga Sufyan: serupa. Dan narasi 10897 diceritakan oleh Al-Rabi ibn Anas, yang berkata: Kami duduk bersama Mutarrif ibn Al-Shakhir dan seorang pria memberitahu mereka, dan dia berkata: Inilah perjanjian. Dan narasi 10899 dari Al-Dhak, melalui Juwaybir: inilah perjanjian. {cite:tafsir-tabari-shakir-v09 p. 450}
+
+Narasi 10900 dari Al-Dhahhak menceritakan makna yang sama, narasi 10901 dari Qatadah hingga Muammar mengatakan itu adalah perjanjian, dan narasi 10902 dari Al-Suddi mengatakan itu adalah perjanjian, dan narasi 10903 dari Al-Thawri bahwa itu adalah perjanjian, dan narasi 10904 dari Mujahid hingga Ibn Jurayj mengatakan itu adalah perjanjian. {cite:tafsir-tabari-shakir-v09 p. 451}
+
+Al-Tabari menjelaskan bahwa 'al-'aqud' adalah bentuk jamak dari 'aqd,' dan akar dari 'aqd' adalah menghubungkan sesuatu dengan yang lain, sama seperti tali diikat dengan tali ketika diikat erat; ia mengutip pepatah al-Hutay'ah tentang mereka yang, ketika membuat kontrak untuk sesamanya, membuat kontrak itu tegas pada diri mereka sendiri, sehingga dia yakin akan dukungan mereka. {cite:tafsir-tabari-shakir-v09 p. 451}
+
+Narasi 10905 dari Qatadah menceritakan: Kontrak adalah kontrak dari era pra-Islam; disebutkan bahwa Nabi biasa berkata: Penuhi perjanjian era pra-Islam dan jangan menciptakan kontrak apa pun dalam Islam; dan disebutkan bahwa Furat ibn Hayyan al-Ajli bertanya kepada Nabi tentang perjanjian Jahiliyyah, dan dia berkata: Mungkin kamu harus bertanya tentang perjanjian daging dan tamam (daging dan tamaam Allah)? Dia berkata: Ya. Dia berkata: Islam hanya menambah kesulitannya. Dan riwayat 10906 dari Qatadah, melalui Muammar: kontrak-kontrak era pra-Islam, sumpah. {cite:tafsir-tabari-shakir-v09 p. 452}
+
+Narasi 10907 dari Ibn Abbas, melalui Muawiyah ibn Salih dan Ali ibn Abi Talhah, menyatakan: Kontrak adalah apa yang telah diizinkan, dilarang, dan dipaksakan kesatuan di seluruh Al-Qur'an, jadi jangan mengkhianati atau melanggarnya; hal ini ditekankan oleh ayat yang menyebutkan mereka yang melanggar perjanjian Allah. Narasi 10908 dari Mujahid, melalui Shibl: Apa yang Allah buat sah dan larang bagi para hamba adalah apa yang Dia buat sah dan terlarang bagi mereka. {cite:tafsir-tabari-shakir-v09 p. 453}
+
+Yang lain berkata: Ini adalah kontrak yang dibuat orang antara mereka dan apa yang dibuat seseorang untuk dirinya sendiri. Narasi 10909 dari Abdullah ibn Ubaidah menyatakan: Ada lima kontrak: kontrak sumpah, kontrak pernikahan, kontrak perjanjian, kontrak jual, dan kontrak sumpah; narasi 10910 diceritakan serupa dari Musa ibn Ubaidah, narasi 10911 diceritakan dengan cara serupa dari Ibn Zayd, dan narasi 10912 diceritakan dari Aslam dari ayahnya dengan makna yang sama. {cite:tafsir-tabari-shakir-v09 p. 453}
+
+Yang lain berkata: Ayat ini adalah perintah dari Allah kepada umat Kitab untuk memenuhi perjanjian yang diambil dari mereka. Narasi 10913 dari Ibn Jurayj menceritakan bahwa itu adalah perjanjian yang Allah ambil dari Umat Kitab untuk bertindak sesuai dengan apa yang diberikan kepada mereka. Dan narasi 10914 dari Muhammad ibn Muslim al-Zuhri menceritakan bahwa dia membacakan kitab Nabi kepada Amr ibn Hazm ketika dia mengirimnya ke Najran, dan tertulis: Ini adalah pernyataan dari Allah dan Rasul-Nya, dan berisi ayat-ayat termasuk ayat ini. {cite:tafsir-tabari-shakir-v09 p. 454}
+
+Al-Tabari mendukung pandangan Ibn Abbas bahwa maknanya: penuhi kontrak Allah yang telah Dia tetapkan sebagai kewajiban dan mengikat Anda dalam apa yang telah Dia izinkan dan larang, karena Allah mengikuti itu dengan memperjelas apa yang telah dan dilarang untuk hamba-hamba-Nya dan apa yang telah Dia tetapkan wajib kepada mereka; jadi perintah untuk memenuhi setiap kontrak yang Allah izinkan tidak diperbolehkan, dan tidak diperbolehkan untuk menentukan apa pun darinya tanpa bukti. Dia menjelaskan bahwa orang Arab memiliki dua ungkapan untuk 'Awwa' (terpenuhi): memenuhi perjanjian-Nya dan Dia memenuhi perjanjian-Nya. {cite:tafsir-tabari-shakir-v09 p. 455}
+
+Adapun 'ternak ternak', al-Tabari menyampaikan pandangan para penerjemah: beberapa berkata: Mereka adalah semua ternak: narasi 10915 dari al-Hasan menceritakan semua ternak; narasi 10916 dari Qatadah hingga Muammar menceritakan semua ternak; narasi 10917 dari Al-Suddi menceritakan semua ternak; narasi 10918 dari Al-Rabi' ibn Anas menceritakan semua ternak; dan narasi 10920 dari Al-Dahhak mengatakan: itu adalah ternak. {cite:tafsir-tabari-shakir-v09 p. 455}
+
+Yang lain berkata: Yang dimaksud adalah janin ternak yang ditemukan di perut induknya saat disembelih atau disembelih dan sudah mati; narasi 10921 dari Ibn Umar: Apa yang ada di perut mereka, dia berkata: Jika ada hewan mati keluar, haruskah saya memakannya? Dia berkata: Ya. Dan narasi 10922 menceritakan hal serupa, dan dia menambahkan: Ini seperti paru-paru dan hati mereka. Dan narasi 10923 dari Ibn Abbas mengatakan: Janin berasal dari ternak ternak, jadi mereka memakannya. {cite:tafsir-tabari-shakir-v09 p. 456}
+
+Narasi tahun 10924 hingga 10926 menceritakan dari Ibn Abbas, melalui Qabus dari ayahnya: bahwa seekor sapi disembelih dan janin ditemukan di dalam perutnya. Ibn Abbas bertanggung jawab atas dosanya dan berkata: Ini adalah salah satu ternak yang telah disahkan untukmu. {cite:tafsir-tabari-shakir-v09 p. 456}
+
+Al-Tabari mendukung pandangan yang benar dari mereka yang mengatakan bahwa makna yang dimaksud dari semua ternak adalah janin, kemurahan hati, dan yang besar, karena orang Arab tidak menahan diri untuk menyebut semua itu sebagai binatang dan binatang, dan Tuhan tidak menyebutkan apa pun secara eksklusif dari mereka, sehingga hal itu tetap umum sampai ada argumen khusus mengenai hal itu. Ia menjelaskan bahwa unta di antara orang Arab meliputi unta, sapi, dan domba khususnya, dan bahwa hewan tersebut mencakup baik orang dewasa maupun anak-anak, karena keturunan ternak tetap menjadi anak setelah dewasa, dan istilah 'binatang' tidak hilang darinya. {cite:tafsir-tabari-shakir-v09 p. 457}
+
+Adapun 'kecuali apa yang dibacakan kepadamu': ada yang berkata: itu adalah mayat dan apa yang disebutkan bersamanya. Dan narasi 10927 dari Mujahid: kecuali orang mati dan apa yang disebutkan bersamanya. Dan narasi 10928 dari Qatadah: dari orang mati yang Allah larang dan bangkitkan di dalamnya. Dan narasi 10929 dari Qatadah dari Muammar: orang mati dan apa yang tidak disebut dengan nama Allah. Dan narasi 10930 dari Al-Suddi: bangkai, darah, dan babi. {cite:tafsir-tabari-shakir-v09 p. 458}
+
+Cerita tahun 10931 dan 10932 dari Ibn Abbas hingga Ali ibn Abi Talhah mengatakan: bangkai dan daging babi, dan apa yang layak untuk siapa pun selain Allah. Yang lain berkata: Pengecualian adalah daging babi, dan narasi 10933 dari Ibn Abbas diceritakan dengan makna yang sama, dan narasi 10934 dari Al-Dahhak berarti babi. {cite:tafsir-tabari-shakir-v09 p. 458}
+
+Dan narasi 10935 menceritakan dari Al-Rabi ibn Anas, melalui Abu Ja'far Al-Razi: Kami duduk bersama Mutarrif ibn Al-Shakhir dan dia memiliki seorang pria yang memberitahu mereka, dan dia berkata: Ternak ternak adalah sah untuk kalian berburu, tetapi tidak layak berburu selama kalian dilarang, maka dilarang bagi kalian, yaitu sapi liar, kijang, dan sejenisnya. Dan riwayat 10936 mirip dengan ini, di mana dikatakan: Semua ternak dibenarkan kecuali yang liar, yang merupakan perburuan, jadi tidak diperbolehkan jika dilarang. {cite:tafsir-tabari-shakir-v09 p. 459}
+
+Al-Tabari menjelaskan bahwa interpretasi paling awal dari frasa: 'Ternak dari ternak telah disahkan bagi kalian' adalah klaim para penafsir—bahwa mereka adalah ternak, janin, dan hewan liar mereka. Menurut makna wahyu yang jelas, makna: penuhi kontrak, karena ternak atau ternak telah diizinkan untuk kalian selama masa Ihram atau lainnya, kecuali apa yang dibacakan sebagai bangkai, darah, dan apa yang ditetapkan untuk siapa pun selain Allah. Beliau percaya bahwa pengecualian dalam 'kecuali apa yang dibacakan kepadamu' adalah hal yang terbatas, dan bahwa 'tidak diizinkan berburu' terpisah darinya, karena Allah menjelaskan bahwa larangan berburu selama Ihram tidak terkait dengan apa yang sebelumnya. {cite:tafsir-tabari-shakir-v09 p. 460}
+
+Ia menjelaskan bahwa maknanya adalah: Wahai kalian yang telah beriman, penuhilah perjanjian Allah yang telah Dia buat kepada kalian atas apa yang telah Dia larang dan izinkan, bukan bahwa berburu diperbolehkan selama masa Ihram kalian. Karena di antara hewan ternak yang disembelih, yang belum mati diizinkan untuk kalian dan bebas dari perburuan selama masa Ihram. {cite:tafsir-tabari-shakir-v09 p. 461}
+
+Adapun perkataan-Nya: 'Sesungguhnya, Allah memerintah apa yang Dia kehendaki,' artinya Allah menetapkan dalam ciptaan-Nya apa pun yang Dia kehendaki mengenai diperbolehkannya apa yang Dia niatkan untuk diizinkan, melarang apa yang Dia niatkan untuk dilarang, dan menjadikan apa yang Dia kehendaki menjadi kewajiban. Jadi penuhilah kepada-Nya apa yang telah Dia persetujui atas hal itu, jadi jangan melanggar atau membatalkannya. Narasi 10937 dari Qatadah menceritakan: Sesungguhnya, Allah menghakimi apa yang Dia kehendaki ciptaan-Nya, menjelaskan kepada hamba-Nya, mewajibkan kewajiban-Nya, menetapkan batas-Nya, memerintahkan ketaatan-Nya, dan melarang ketidaktataatan. {cite:tafsir-tabari-shakir-v09 p. 462}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

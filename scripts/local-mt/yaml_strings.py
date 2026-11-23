@@ -155,7 +155,7 @@ def main():
     global a
     ap = argparse.ArgumentParser()
     ap.add_argument("cmd", choices=["build", "import"])
-    ap.add_argument("--lang", required=True, choices=["tr", "id"])
+    ap.add_argument("--lang", required=True, choices=["tr", "id", "fr", "es"])
     ap.add_argument("--dir", required=True)
     ap.add_argument("--roots", default="edu kids tour cards datasets wt3 surah-maps")
     ap.add_argument("--docx", default="")

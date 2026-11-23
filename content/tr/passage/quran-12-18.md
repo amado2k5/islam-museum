@@ -1,0 +1,35 @@
+---
+id: passage/quran-12-18
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-12-18.md}
+---
+
+## Özet
+Mekke suresi olan Yusuf suresinin [[passage/quran-12|18. ayeti]]. {cite:tanzil-quran}
+
+## Konumu
+Konum: Suranın 111 ayetinden 18. ayet. Metin Mushaf Tazil al-Mujaddim'den korunmuş olup burada yeniden yazılmamıştır.
+
+**18. ayetin yorumu (s. 579-586)**
+
+Ve 12:18 [[passage/quran-12-18|' de]] el-Taberi şöyle der: "Ve gömleğine sahte kanla kan getirdiler," ve Allah buna yalan dedi çünkü gömleği içindeyken getirenler yalan söylediler ve Yakup'a bunun Yusuf'un kanı olduğunu, onun kanı olmadığını, söylendiği gibi Sakhlah'ın kanı olduğunu söylediler. Ve 18843 Mücahid'den rivayet: Sakhla'nın kanı, ve doğrulayıcı zincirin anlatıcılarından birini çevirir; 18844, 18845 ve 18846 rivayetleri Mücahidden: Sakhlah'ın kanı bir koyundur. {cite:tafsir-tabari-shakir-v15 p. 579}
+
+Ve 18847 tarihli Mucahid rivayeti: O kan sahteydi, Yusuf'un kanı değil; ve İbn Cureyc'in 18848 tarihli iki rivayeti, Mücahid'den ve 18849'da İbn Abbas'tan: Sakhla'nın kanı; ve 18850 tarihli Al-Suddi'den rivayet: Çok sayıda koyun kesildi, sonra gömleği kanıyla lekelediler, sonra babalarına geldiler. Yakup dedi ki, Eğer bu kurt merhametliyse, nasıl oldu Etini ye, gömleğini yırtma? Ey oğlum, ey Yusuf, köle kızların oğulları sana ne yaptı? Ve İbn Abbas'tan 18851, 18852 ve 18853 rivayetleri: Aslan yeseydi, gömlek yanardı; ve Hasan'dan 18854 rivayeti: Yusuf'un gömleği Ya'qub'a getirildi, ona baktı ve kan izini gördü {cite:tafsir-tabari-shakir-v15 p. 580}
+
+Hiçbir ayrılık görmedi. Dedi ki, 'Ey oğlum, kurdun sabırlı olduğunu bilmiyordum.' Anlamıyla Al-Hasan'dan 18855 ve 18856 yıllarındaki iki rivayet onları çevirmeye başladı ve şöyle dedi: 'Kurdun hiç nazik olduğunu görmedim; oğlum yedi ve gömleğini giydi.' Ve 18857 tarihli Katadah'tan rivayet: Allah'ın Peygamberi'ni gömleğiyle Yakup'a getirdiklerinde, 'Aslan izi yok, bıçak ve bir yarık göremiyorum' dedi; ve 18858 Qatada'dan rivayet: Sahte kan Yusuf'un kanı değildi; ve 18859 yılında Al-Sha'bi'den rivayet: Bir çakal kesip kanıyla lekelediler. Yakup gömleği sağlam görünce halkın ona yalan söylediğini anladı. Dedi ki, 'Eğer bu kurt sabırlıysa, çünkü gömlek oğluma merhamet gösterdi ve oğluma merhamet göstermedi.' Ve İbn Abbas'tan 18860 tarihli anlatı: Yakup Yusuf'un gömleğini getirdiğinde yırtık görmediğinde, 'Yalan söyledin. Yedi kişi yeseydi, gömleği yakardı.' dedi. {cite:tafsir-tabari-shakir-v15 p. 581}
+
+Ve 18861 Amir'den anlatım: Yusuf'un gömleğinde üç ayet vardı: kanla gömleğine geldiklerinde yalan oldu ve Yakup şöyle dedi: Kurt onu yeseydi, gömleğini yakardı; ve 18862 Amir'den anlatım: babasının yüzüne atıldığı ve geri döndüğünde üç ayet; sırtını dönüp yalanların kanıyla gömleğine geldiğinde; ve 18863'te Amir'den anlatı: yarık ve kan babasının yüzüne döktü ve o da görünerek döndü; ve Hasan'dan 18864 ve 18865 anlatıları: Yusuf'un gömleği Yakup'a getirildiğinde kanı gördü ama yarığı görmedi, dedi ki: Hiç sabırlı bir kurt görmedim. Birisi, 'Yalan kanıyla nasıl söylenebilir?' derse, ben bunun kesinlikle kan olduğunu biliyorum, Yusuf'un kanı olmasa bile? Bunun iki yorumu vardır: biri, hilal gecesi hakkında [[passage/quran-2-16|söylendiği gibi, yalan kanıyla söylendiği ve 2:16]]'da olduğu gibi, 'Böylece ticaretleri kâr etmedi,' ve bu Basra'nın bazı dilbilgicilerinin görüşüdür. {cite:tafsir-tabari-shakir-v15 p. 582}
+
+Diğer yol ise, bunun nesne ve yorumu anlamına gelen fiil isim olduğunu ve gömleğine uydurma kanla geldiğini söylemektir; denildiği gibi: Sebep yok, sebep yok, derisi yok ve bağlanması yok. Araplar bunu sıkça yapar; fiil isiminde bir nesne, nesne yerine ise bir mastar koyar, çoban evini belirtirler. Bu, bazı Kufe dilbilgicileri tarafından da söylenmiştir. Doğrulayıcı, Kur'an'ın anlamlarında şiirin sebebini anlatırken 'El-Ferra' olduğunu belirtir. Ve 'Aksine, siz size bir mesele bildirdiniz,' demiştir Şöyle der: Yakup, oğullarına dedi ki, onlar da ona kurdun Yusuf'u yediğini söylediler, onların hikayesini onlara yalanladılar. Sorun nedir, siz de 'Aslında kendiniz bir işi güzelleştirdiniz' dediğiniz gibi, yani 'Aslında kendiniz bir işi güzelleştirdiniz', yani 'Kendiniz bir işi süslediniz', yani 'Aslında kendiniz bir işi güzelleştirdiniz', yani 'Aslında kendiniz bir işi güzelleştirdiniz', yani 'Aslında kendiniz bir işi güzelleştirdiniz' anlamına gelir, yani 'Aslında kendiniz bir işi süslediniz' ve bunu yaptınız; 18866 Qatada'dan rivayet: 'Yerine, kendiniz kendiniz için bir şeyle süslediniz.' {cite:tafsir-tabari-shakir-v15 p. 583}
+
+Ve O'nun sözü, 'Sabır güzeldir,' der, 'Yusuf için bana yaptıkların için sabrım da güzel sabırdır, ya da güzel sabırdır.' Ve O'nun sözü, 'Ve Allah'a, anlattıklarınızda yardım dilen' der, 'Allah aşkına, yalanlar olarak tarif ettiğin kötülüğüne karşı bana yeterli yardım diliyorum.' der. Ayrıca güzel sabırın, panik olmayan sabır olduğu söylenir; ve Mujahid'den 18867, 18868, 18869, 18870 ve 18871 rivayetleri: Panik yoktur; ve 18872 tarihli rivayet Hibban bin Ebi Cebla'dan: Peygamber'e 'Sabır güzeldir' {cite:tafsir-tabari-shakir-v15 p. 584} sözü sorulmuştur.
+
+Dedi ki: Şikayet etmeden sabır. Dedi ki: Yayan ama sabırlı olmayan; anlamında 18873 riayeti; Mucahid'den 18874, 18875, 18876 ve 18877 rivayetleri: panik yoktur; ve 18878 Al-Thawri tarafından bazı yoldaşlarından rivayet: Üç sabır biçiminin acını veya felaketini anlatmamak ve kendini arındırmamak olduğu söylenir. Araştırmacı, Luhban ibn Ebi Ciblah'ı çevirir ve aktarım zincirinde Abd al-Rahman ibn Yahya'yı tanımadığını açıklar. {cite:tafsir-tabari-shakir-v15 p. 585}
+
+Habib bin Ebi Sebit, Peygamber Yakup'un kaşlarını kaybettiğini ve bir bezle kaldırdığını rivayet etti. Kendisine, 'Bu nedir?' diye soruldu. Dedi ki: 'Uzun zaman ve çok acı.' Allah ona vahyetti: 'Ey Yakup, benden şikayetçi misin?' O dedi ki: 'Ey Rabbim, günah işledim, o yüzden benim için affet.' Ve şöyle dedi: 'Ve Allah, senin anlattıklarına karşı yardım dilenen kişidir'; ve 18879'da Katadah'tan rivayet eder: 'Neyi inkâr ediyorsun?' Bu sayfanın sonunda, el-Tabari'nin tefsirinin on beşinci kısmı tamamlanır, ardından on altıncı kısmı gelir ve O'nun sözünün yorumuyla başlar: 'Bir araba geldi, geldiler, o da kovasını verdi. Dedi ki, 'Ey iyi haber, bu bir çocuk, onu mal olarak saklamışlardır, Allah onların yaptıklarını bilir.' {cite:tafsir-tabari-shakir-v15 p. 586}
+
+Böylece, Şakir baskısındaki el-Tabari'nin Tafsir'inin on beşinci bölümü, Yusuf Suresi'nin 18. ayetine yapılan son tefsir olan 586. sayfada sona erer; ve on altıncı bölüm 19. ayetin yorumuyla başlar. {cite:tafsir-tabari-shakir-v15 p. 586}
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.
