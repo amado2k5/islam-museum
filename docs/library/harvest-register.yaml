@@ -23705,11 +23705,12 @@ audio_series:
     lecturer: { name: "Ahmed Elsayed", page_url: "https://soundcloud.com/alsayyed_ah" }
     series_page_url: "https://soundcloud.com/alsayyed_ah"
     episodes_total: 32
-    episodes_audio: 0
-    episodes_transcribed: 0
-    mining: { state: none }
-    ingestion: { state: none, ledger: "harvest/ahmed-el-sayed/ledger.tsv" }
-    completion: claimed
+    episodes_audio: 32
+    episodes_transcribed: 32
+    transcript: { pass: pass1-whisper, model: "mlx-community/whisper-large-v3-mlx", state: complete, run_dates: "2026-11-23..2026-11-23" }
+    mining: { state: mined, episodes_mined: 32, ranges: ["1-32"], held: null, basis: "claims files, one per episode, outside git" }
+    ingestion: { state: partial, ranges: ["1-24"], held: "25-32: second batch (25 entities per batch)", ledger: "harvest/ahmed-el-sayed/ledger.tsv", work_id: "work/ahmed-el-sayed-seerah-lilmuslihin" }
+    completion: mined
     unverified: ["wave 2 of the ahmed-el-sayed lane; nothing downloaded yet; episode list is harvest/ahmed-el-sayed/ledger.tsv (one row per episode, read from the public feed on 2026-11-23)"]
   - id: soundcloud-alsayyed-ah-khayr-al-qurun
     title: "khayr-al-qurun"

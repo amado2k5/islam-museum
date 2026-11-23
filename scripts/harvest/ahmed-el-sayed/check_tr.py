@@ -10,7 +10,7 @@ for k, langs in (("title", ("en", "ur", "fr", "es")), ("summary", ("ar", "ur", "
         if not str(t.get(k, {}).get(l, "")).strip(): bad.append(f"{k}.{l} empty")
 secs = t.get("sections", [])
 if len(secs) != len(c["sections"]): bad.append(f"{len(secs)} sections, claims file has {len(c['sections'])}")
-HON = re.compile(r"ﷺ|صلى الله عليه وسلم|صلي الله عليه وسلم|عليه السلام|رضي الله عن|رحمه الله|صلی اللہ علیہ|علیہ السلام|peace be upon|PBUH|paz sea con|que la paix|sallallah", re.I)
+HON = re.compile(r"رض[يى] ا*لل?ه|رضوان ا+لله|صل[يى] ا*لل?ه|عليه وسلم|عليه السلام|عليهم السلام|عليها السلام|عليه الصلاة|رحمه الله|رحمهم الله|رحمة الله عليه|قدس الله|كرم الله وجهه|ﷺ|ﷻ|رضی اللہ|صلی اللہ|علیہ السلام|علیہا السلام|علیہم السلام|رحمۃ اللہ|peace be upon|PBUH|paz sea con|que la paix|sallallah", re.I)
 texts = [t.get("title", {}), t.get("summary", {})]
 for i, (s, cs) in enumerate(zip(secs, c["sections"])):
     for l in ("ur", "fr", "es"):
