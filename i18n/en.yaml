@@ -1854,6 +1854,10 @@ explore:
       title: "Mukatabat Browser"
       desc: "Every mention of correspondence in the Qur'an, the Sunnah, the seerah and every harvested book — the Prophet's letters to kings and emperors, the caliphs' letters and the reports written back, Sulayman's letter to the Queen of Sheba — with every verse and report cited."
       menu: "Browse letters and correspondence in the Qur'an and books"
+    nuzul:
+      title: "Asbab al-Nuzul Browser"
+      desc: "Every report of why a verse or sura was revealed in the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors and every harvested book — the first revelation in the cave, the occasions of the hijab, wine, ifk, li'an and zihar verses — with every report cited."
+      menu: "Browse the occasions of revelation in the Qur'an and books"
     munazarat:
       title: "Munazarat Browser"
       desc: "Every mention of debates and disputations in the Qur'an, the Sunnah, the seerah and every harvested book — Ibrahim's arguments with his people and Nimrod, the mubahala with the Christians of Najran, the exchange before the Negus, Ibn Abbas's debate with the Khawarij — with every verse and report cited."
@@ -7877,3 +7881,50 @@ personas:
       - title: "Argue with the data"
         body: "The graph, the open data and search, so you can test any claim for yourself."
     note: "The museum is written from the Sunni tradition and says so. That is a labelled starting frame, and other views are labelled when they are shown. A claim with no citation is a flaw to report, not a hidden doctrine. The museum is not a debate platform and has no comments."
+
+nuzul:
+  title: "Asbab al-Nuzul Browser"
+  lede: "Every report of an occasion of revelation the museum's sources carry — the event or question behind a verse or sura: the first revelation in the cave of Hira, the occasions of the hijab, wine, ifk, li'an and zihar verses and the change of the qibla — as the Companions, the Successors and the books of tafsir, hadith and seerah report them, and every occasion in every harvested book — sourced records that grow as new texts land."
+  badge: Occasions-of-revelation explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its prose. Occasions are found at build time by a guarded detector over the passage texts — the explicit occasion formulae («سبب نزول», «أسباب النزول») and the revelation formulae tied to a verse context («نزلت هذه الآية», «فأنزل الله», «نزلت في فلان», «نزل جبريل»), which must sit beside an ayah, sura or Qur'an word; the other descent senses stay out — rain, hail, flood, calamity, guests, the descent of Isa and the medical senses — verified false positives are excluded by id, and every book harvested later brings its occasions here automatically once its passages land in the graph; curated records join through the nuzul-browser tag. Each passage is marked occasion when it reports an actual occasion and mention when it is about the science of asbab al-nuzul, and narrator chips class the report prophetic, companion, tabi'i or later."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  narrators_title: Report generation
+  all_narrators: "All generations"
+  filter_label: Filter the occasions
+  filter_none: No results.
+  empty: No occasion-of-revelation records in this build yet.
+  kinds:
+    occasion: "reports an occasion"
+    mention: "about the science"
+  narrators:
+    prophetic: "Prophetic"
+    companion: "Companion"
+    tabii: "Tabi'i"
+    later: "Later"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "What the Qur'an itself says about the circumstances of its descent — the verses that name the event or the question they answer, and the passages of the frozen corpus that report an occasion."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The occasion reports of the hadith collections — what the Prophet explained when a verse came down, the questions put to him and the incidents the verses answered, in Sahih al-Bukhari, Sahih Muslim, the Muwatta and the Sunan."
+    seerah:
+      title: "In the Seerah"
+      desc: "The occasions the seerah and history books carry — the revelation episodes inside the biography's events — filling itself as new seerah passages land."
+    books:
+      title: "In the other books"
+      desc: "The occasion reports of every other harvested work — the asbab and tafsir books, history, adab — classed by work genre as their passages arrive."
+    curated:
+      title: "The records about the occasions"
+      desc: "The museum's curated records about the occasions themselves: the famous occasions of revelation as named records, the asbab works and their editions, and the science's concepts."
+  viz:
+    title: "Where the occasions stand"
+    caption: "The beams descend from the sky line to the surahs that carry an occasion report here — {n} records on their surahs; {e} more, with no surah number, are in the lists below."
+    how: "Choose a generation to colour the beams by its reports only; choose it again to see them all."
+    hint: "Hover, focus or tap a beam to see where it lands."
+    sky_title: "The surahs, in Mushaf order"
+    sky_note: "{n} of the {total} surahs carry an occasion report; the rest are faint."
+    count_in: "{n} records"

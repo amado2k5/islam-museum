@@ -1958,6 +1958,10 @@ explore:
       desc: Chaque mention de la correspondance dans le Coran, la Sunna, la sira et chaque livre récolté — les lettres du Prophète aux rois et empereurs, les lettres des califes et les réponses écrites,
         la lettre de Sulayman à la reine de Saba — avec chaque verset et récit cité.
       menu: Parcourir lettres et correspondance dans le Coran et les livres
+    nuzul:
+      title: "Navigateur des asbab al-nuzul"
+      desc: "Chaque récit expliquant pourquoi un verset ou une sourate a été révélé dans le Coran, la Sunna, la sira, les récits des Compagnons et des Successeurs et chaque livre récolté — la première révélation dans la grotte, les occasions des versets du hijab, du vin, de l'ifk, du li'an et du zihar — avec chaque récit cité."
+      menu: "Parcourir les occasions de révélation dans le Coran et les livres"
     munazarat:
       title: Navigateur des munazarat
       desc: Chaque mention des débats et disputes dans le Coran, la Sunna, la sira et chaque livre récolté — les arguments d''Ibrahim avec son peuple et Nimrod, la mubahala avec les chrétiens de Najran,
@@ -8979,3 +8983,50 @@ world:
   top10_lede: Des millions — y compris en Inde, où les musulmans constituent une minorité plus importante que la plupart des nations.
   top10_title: Les dix plus grands groupes musulmans
   trivia_title: Le saviez-vous ?
+
+nuzul:
+  title: "Navigateur des asbab al-nuzul"
+  lede: "Chaque récit d'une occasion de révélation porté par les sources du musée — l'événement ou la question derrière un verset ou une sourate : la première révélation dans la grotte de Hira, les occasions des versets du hijab, du vin, de l'ifk, du li'an, du zihar et du changement de qibla — tels que les rapportent les Compagnons, les Successeurs et les livres de tafsir, de hadith et de sira, et chaque occasion dans chaque livre récolté — des notices sourcées qui s'enrichissent à chaque nouveau texte."
+  badge: "Explorateur des occasions de révélation"
+  status: "Cette version contient {n} notices dans {s} sections ; les textes sont des brouillons tant qu'un humain ne les a pas lus."
+  method_title: "La méthode du navigateur"
+  method_note: "Chaque notice ici est une notice ordinaire du musée — avec ses sources et sa prose. Les occasions sont détectées à la compilation par un détecteur encadré sur les textes des passages — les formules d'occasion explicites («سبب نزول», «أسباب النزول») et les formules de révélation liées à un contexte de verset («نزلت هذه الآية», «فأنزل الله», «نزلت في فلان», «نزل جبريل»), qui doivent voisiner un mot d'ayah, de sourate ou de Coran ; les autres sens de descente restent dehors — pluie, grêle, inondation, calamité, hôtes, descente d'Issa et sens médicaux — les faux positifs vérifiés sont exclus par identifiant, et chaque livre récolté plus tard apporte ses occasions ici automatiquement dès que ses passages atterrissent dans le graphe ; les notices choisies rejoignent par l'étiquette nuzul-browser. Chaque passage est marqué occasion quand il rapporte une occasion réelle et mention quand il porte sur la science des asbab al-nuzul, et les pastilles de narrateur classent le récit prophétique, compagnon, tabi'i ou tardif."
+  api: "L'ensemble complet est disponible sur"
+  sections_title: "Les sections du navigateur"
+  narrators_title: "Génération du récit"
+  all_narrators: "Toutes les générations"
+  filter_label: "Filtrer les occasions"
+  filter_none: "Aucun résultat."
+  empty: "Aucune notice d'occasion de révélation dans cette version pour l'instant."
+  kinds:
+    occasion: "rapporte une occasion"
+    mention: "sur la science"
+  narrators:
+    prophetic: "Prophétique"
+    companion: "Compagnon"
+    tabii: "Tabi'i"
+    later: "Tardif"
+  sections:
+    quran:
+      title: "Dans le Coran"
+      desc: "Ce que le Coran dit lui-même des circonstances de sa descente — les versets qui nomment l'événement ou la question auxquels ils répondent, et les passages du corpus figé qui rapportent une occasion."
+    sunnah:
+      title: "Dans la Sunna"
+      desc: "Les récits d'occasions des recueils de hadith — ce que le Prophète expliqua quand un verset descendit, les questions qui lui furent posées et les incidents auxquels les versets répondirent, dans le Sahih d'al-Bukhari, le Sahih de Muslim, le Muwatta et les Sunan."
+    seerah:
+      title: "Dans la sira"
+      desc: "Les occasions que portent la sira et les livres d'histoire — les épisodes de révélation à l'intérieur des événements de la biographie — se remplissant d'elle-même à mesure que de nouveaux passages de sira atterrissent."
+    books:
+      title: "Dans les autres livres"
+      desc: "Les récits d'occasions de tout autre ouvrage récolté — les livres d'asbab et de tafsir, l'histoire, l'adab — classés par genre de l'ouvrage à l'arrivée de ses passages."
+    curated:
+      title: "Les notices sur les occasions"
+      desc: "Les notices choisies du musée sur les occasions elles-mêmes : les occasions célèbres de révélation en notices nommées, les ouvrages d'asbab et leurs éditions, et les concepts de cette science."
+  viz:
+    title: "Où se tiennent les occasions"
+    caption: "Les rayons descendent de la ligne du ciel vers les sourates qui portent un récit d'occasion ici — {n} notices sur leurs sourates ; {e} autres, sans numéro de sourate, sont dans les listes ci-dessous."
+    how: "Choisissez une génération pour colorer les rayons par ses récits seuls ; choisissez-la de nouveau pour tout voir."
+    hint: "Survolez, focalisez ou touchez un rayon pour voir où il aboutit."
+    sky_title: "Les sourates, dans l'ordre du mushaf"
+    sky_note: "{n} des {total} sourates portent un récit d'occasion ; les autres sont pâles."
+    count_in: "{n} notices"

@@ -11,6 +11,7 @@ import { ahkamHitsOfText, ahkamFold, ahkamSignalsOf, ahkamTopicsOf, AHKAM_QURAN,
 import { hasanatKindOf, hasanatSignalsOf } from "./hasanat.js";
 import { hisabFold, hisabKindsOfSignals, hisabSignalsOfText } from "./hisab.js";
 import { mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf } from "./mukatabat.js";
+import { nuzulKindOf, nuzulNarratorOf, nuzulSignalsOf } from "./nuzul.js";
 import { juhaKindOf, juhaSignalsOf } from "./juha.js";
 import { rithaKindOf, rithaSignalsOf } from "./ritha.js";
 import { munazaratKindOf, munazaratOpponentOf, munazaratSignalsOf } from "./munazarat.js";
@@ -622,6 +623,40 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(mukatabatSignalsOf(fiqhFp as any)).toEqual([]);
     expect(mukatabatSignalsOf(divineFp as any)).toEqual([]);
     expect(mukatabatSignalsOf(bookRefFp as any)).toEqual([]);
+  });
+
+  it("exports nuzul: detected occasions by corpus, kind and narrator generation, gated false positives, future-book inclusion", () => {
+    const occasionHadith = makeNode("passage/bukhari-7770x", "passage", { unit: "hadith", work: "work/sahih-bukhari", ref: "7770x", text: "قالت خولة بنت ثعلبة: والله لقد أنزل الله في صدر سورة المجادلة، قالت: كنت عند عثمان بن مظعون فنزلت فيها هذه الآية" });
+    const sababPassage = makeNode("passage/wahidi-999x", "passage", { unit: "chapter", work: "work/asbab-al-nuzul-wahidi", ref: "9", text: "قوله تعالى: اليوم أكملت لكم دينكم، قال عكرمة عن ابن عباس: نزلت هذه الآية يوم عرفة في حجة الوداع، وهذا سبب نزولها" });
+    const scienceMention = makeNode("passage/uloom-999x", "passage", { unit: "chapter", work: "work/al-itqan", ref: "1", text: "ومن أمهات هذا الفن كتاب أسباب النزول للواحدي، وفيه روايات معرفة أسباب النزول" });
+    const futureBook = makeNode("passage/future-nuzul-1", "passage", { unit: "chapter", work: "work/future-tafsir", ref: "1", text: "وسألوا النبي عن ذلك فنزل جبريل بهذه الآية يبينها" });
+    const futureWork = makeNode("work/future-tafsir", "work", { genre: ["tafsir"] });
+    const rainFp = makeNode("passage/muslim-8881x", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "8881x", text: "فنزل المطر فابلغوا الناس" });
+    const guestFp = makeNode("passage/muwatta-8882x", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "8882x", text: "نزل الضيف بأهله فأكرموه" });
+    const isaFp = makeNode("passage/bukhari-8883x", "passage", { unit: "hadith", work: "work/sahih-bukhari", ref: "8883x", text: "وينزل عيسى بن مريم فيقول أميركم منكم" });
+    const curatedEvent = { ...makeNode("event/first-revelation-hira", "event", { kind: "other" }), tags: ["nuzul-browser", "nuzul-prophetic"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, occasionHadith, sababPassage, scienceMention, futureBook, futureWork, rainFp, guestFp, isaFp, curatedEvent] });
+    const items = data["nuzul.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(ids).toContain("passage/bukhari-7770x");
+    expect(ids).toContain("passage/wahidi-999x");
+    expect(ids).toContain("passage/uloom-999x");
+    expect(ids).toContain("passage/future-nuzul-1"); // a book harvested later lands automatically
+    expect(ids).toContain("event/first-revelation-hira");
+    expect(ids).not.toContain("passage/muslim-8881x"); // نزل المطر is weather, not revelation
+    expect(ids).not.toContain("passage/muwatta-8882x"); // نزل الضيف is the guest sense
+    expect(ids).not.toContain("passage/bukhari-8883x"); // نزول عيسى is eschatology
+    expect(items.find((i) => i.id === "passage/bukhari-7770x")).toMatchObject({ section: "sunnah", nuzul_kind: "occasion" });
+    expect(items.find((i) => i.id === "passage/wahidi-999x")).toMatchObject({ section: "books", nuzul_kind: "occasion" });
+    expect(items.find((i) => i.id === "passage/uloom-999x")).toMatchObject({ nuzul_kind: "mention" });
+    expect(items.find((i) => i.id === "passage/future-nuzul-1")).toMatchObject({ section: "books", nuzul_kind: "occasion" });
+    expect(items.find((i) => i.id === "event/first-revelation-hira")).toMatchObject({ section: "curated", narrator: "prophetic" });
+    expect(featureApiData(compiled)["nuzul.json"].feature).toBe("nuzul-browser");
+    expect(nuzulKindOf(occasionHadith as any)).toBe("occasion");
+    expect(nuzulKindOf(scienceMention as any)).toBe("mention");
+    expect(nuzulSignalsOf(rainFp as any)).toEqual([]);
+    expect(nuzulSignalsOf(guestFp as any)).toEqual([]);
+    expect(nuzulSignalsOf(isaFp as any)).toEqual([]);
   });
 
 
