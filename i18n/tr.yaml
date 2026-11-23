@@ -6073,6 +6073,10 @@ explore:
       desc: Kur'an, Sünnet ve biyografideki yazışmalara dair her bahs, ortaya çıkan her kitap — Peygamber'in krallara ve imparatorlara yazdığı mektuplar, halifelerin mektupları ve onlara yazılanlar, Süleyman'ın
         Bilkis'e mektubu — ve kaynağıyla birlikte her ayet ve rapor.
       menu: Kur'an'daki kitapları ve yazışmaları inceleyin ve kitaplar
+    nuzul:
+      title: "Nüzul Sebepleri Tarayıcısı"
+      desc: "Kur'an, Sünnet, siyer, sahabe ve tabiin haberleri ve derlenen her kitapta bir ayetin veya surenin neden indirildiğine dair her rivayet — mağaradaki ilk vahiy, hicap, içki, ifk, li'an ve zihar ayetlerinin sebepleri — her rivayet kaynağıyla."
+      menu: "Kur'an ve kitaplardaki vahiy sebeplerini gezin"
     munazarat:
       title: Tartışma Tarayıcısı
       desc: Kur'an'da, Sünnet'te ve biyografide bahsedilen her tartışma ve münazara, yayımlanan her kitap — İbrahim'in halkı ve Nemrüt ile tartışmaları, Necran Hristiyanlarının Mubahalası, Negus'a göre
@@ -8719,3 +8723,50 @@ personas:
       - title: "Verilerle tartışın"
         body: "Grafik, açık veri ve arama; böylece herhangi bir iddiayı kendiniz sınayabilirsiniz."
     note: "Müze Sünnî gelenekten yazılmıştır ve bunu açıkça söyler. Bu, etiketli bir başlangıç çerçevesidir; diğer görüşler gösterildiklerinde etiketlenir. Atıfsız bir iddia, gizli bir öğreti değil, bildirilmesi gereken bir kusurdur. Müze bir tartışma platformu değildir ve yorum özelliği yoktur."
+
+nuzul:
+  title: "Nüzul Sebepleri Tarayıcısı"
+  lede: "Müzenin kaynaklarındaki her nüzul sebebi rivayeti — bir ayet veya surenin ardındaki olay ya da soru: Hira mağarasındaki ilk vahiy, hicap, içki, ifk, li'an ve zihar ayetleri ile kıblenin değişmesinin sebepleri — sahabe, tabiin ve tefsir, hadis, siyer kitaplarının aktardığı gibi ve derlenen her kitaptaki her sebep — yeni metinler geldikçe büyüyen kaynaklı kayıtlar."
+  badge: "Nüzul sebepleri gezgini"
+  status: "Bu yapı {s} bölümde {n} kayıt içerir; metinler bir insan okuyana kadar taslaktır."
+  method_title: "Tarayıcının yöntemi"
+  method_note: "Buradaki her kayıt, kaynakları ve nesriyle sıradan bir müze kaydıdır. Sebepler, derleme sırasında pasaj metinleri üzerinde korunan bir dedektörle bulunur — açık sebep kalıpları («سبب نزول», «أسباب النزول») ve ayet bağlamına bağlı vahiy kalıpları («نزلت هذه الآية», «فأنزل الله», «نزلت في فلان», «نزل جبريل»); bunlar bir ayet, sure veya Kur'an kelimesinin yanında durmalıdır; diğer iniş anlamları dışarıda kalır — yağmur, dolu, sel, felaket, konuklar, İsa'nın inişi ve tıbbi anlamlar — doğrulanmış yanlış pozitifler kimliğe göre hariç tutulur ve daha sonra derlenen her kitap, pasajları grafiğe indiğinde sebeplerini otomatik olarak buraya getirir; seçilmiş kayıtlar nuzul-browser etiketiyle katılır. Her pasaj gerçek bir sebep bildirdiğinde sebep, nüzul ilmi hakkında olduğunda zikir olarak işaretlenir ve ravi rozetleri rivayeti peygamber, sahabe, tabi'i veya sonraki olarak sınıflandırır."
+  api: "Tüm küme şu adreste mevcuttur"
+  sections_title: "Tarayıcının bölümleri"
+  narrators_title: "Rivayet kuşağı"
+  all_narrators: "Tüm kuşaklar"
+  filter_label: "Sebepleri süz"
+  filter_none: "Sonuç yok."
+  empty: "Bu yapıda henüz nüzul sebebi kaydı yok."
+  kinds:
+    occasion: "bir sebep bildirir"
+    mention: "ilim hakkında"
+  narrators:
+    prophetic: "Peygamber"
+    companion: "Sahabe"
+    tabii: "Tabi'i"
+    later: "Sonraki"
+  sections:
+    quran:
+      title: "Kur'an'da"
+      desc: "Kur'an'ın kendi iniş koşulları hakkında söyledikleri — cevap verdikleri olayı veya soruyu adlandıran ayetler ve donmuş külliyatın bir sebep bildiren pasajları."
+    sunnah:
+      title: "Sünnette"
+      desc: "Hadis külliyatının sebep rivayetleri — bir ayet indiğinde Peygamber'in açıkladıkları, kendisine sorulan sorular ve ayetlerin cevap verdiği olaylar; Sahih-i Buhari, Sahih-i Müslim, Muvatta ve Sünen'de."
+    seerah:
+      title: "Siyerde"
+      desc: "Siyer ve tarih kitaplarının taşıdığı sebepler — biyografinin olayları içindeki vahiy sahneleri — yeni siyer pasajları indikçe kendini doldurur."
+    books:
+      title: "Diğer kitaplarda"
+      desc: "Derlenen her diğer eserin sebep rivayetleri — esbab ve tefsir kitapları, tarih, edeb — pasajları ulaştıkça eserin türüne göre sınıflandırılır."
+    curated:
+      title: "Sebepler hakkındaki kayıtlar"
+      desc: "Müzenin sebeplerin kendisi hakkındaki seçilmiş kayıtları: adlı kayıtlar olarak meşhur nüzul sebepleri, esbab eserleri ve baskıları ve bu ilmin kavramları."
+  viz:
+    title: "Sebepler nerede durur"
+    caption: "Işınlar gök çizgisinden burada sebep rivayeti taşıyan surelere iner — {n} kayıt surelerinin üzerinde; sure numarası olmayan {e} kayıt aşağıdaki listelerdedir."
+    how: "Işınları yalnızca o kuşağın rivayetleriyle renklendirmek için bir kuşak seçin; hepsini görmek için tekrar seçin."
+    hint: "Nereye indiğini görmek için bir ışının üzerine gelin, odaklanın veya dokunun."
+    sky_title: "Sureler, mushaf sırasıyla"
+    sky_note: "{total} surenin {n} tanesinde sebep rivayeti vardır; gerisi soluktur."
+    count_in: "{n} kayıt"

@@ -39,6 +39,7 @@ import { HISAB_TAG, hisabCorpusOf, hisabKindsOf, hisabSignalsOf, isHisabPassage,
 import { HASANAT_TAG, hasanatCorpusOf, hasanatKindOf, hasanatSignalsOf, hasanatTagSection, isHasanatPassage, type HasanatKind } from "./hasanat.js";
 import { JANNA_TAG, jannaCorpusOf, jannaKindOf, jannaSignalsOf, jannaTagSection, isJannaPassage, type JannaKind } from "./janna.js";
 import { MUKATABAT_TAG, mukatabatCorpusOf, mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf, mukatabatTagSection, mukatabatTagSender, isMukatabatPassage } from "./mukatabat.js";
+import { NUZUL_TAG, nuzulCorpusOf, nuzulKindOf, nuzulNarratorOf, nuzulSignalsOf, nuzulTagSection, nuzulTagNarrator, isNuzulPassage } from "./nuzul.js";
 import { RITHA_TAG, rithaCorpusOf, rithaKindOf, rithaSignalsOf, rithaTagKind, rithaTagSection, isRithaPassage } from "./ritha.js";
 import { JUHA_TAG, isJuhaPassage, juhaCorpusOf, juhaKindOf, juhaSignalsOf, juhaTagKind, juhaTagSection } from "./juha.js";
 import { MUNAZARAT_TAG, munazaratCorpusOf, munazaratKindOf, munazaratOpponentOf, munazaratSignalsOf, munazaratTagSection, munazaratTagOpponent, isMunazaratPassage } from "./munazarat.js";
@@ -635,6 +636,17 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       mukatabat_kind: n.class === "passage" ? mukatabatKindOf(n) : null,
       sender: n.class === "passage" ? mukatabatSenderOf(n) : mukatabatTagSender(n),
       signals: n.class === "passage" ? mukatabatSignalsOf(n) : [],
+    }) },
+  { file: "nuzul.json", feature: "nuzul-browser",
+    pick: (n) => n.tags.includes(NUZUL_TAG) || isNuzulPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? nuzulCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : nuzulTagSection(n),
+      nuzul_kind: n.class === "passage" ? nuzulKindOf(n) : null,
+      narrator: n.class === "passage" ? nuzulNarratorOf(n) : nuzulTagNarrator(n),
+      signals: n.class === "passage" ? nuzulSignalsOf(n) : [],
     }) },
   { file: "juha.json", feature: "juha-browser",
     pick: (n) => n.tags.includes(JUHA_TAG) || isJuhaPassage(n),

@@ -707,6 +707,21 @@
         }
       }
     },
+    "/nuzul.json": {
+      "get": {
+        "operationId": "getNuzul",
+        "summary": "Asbab al-Nuzul Browser dataset",
+        "description": "The Asbab al-Nuzul Browser dataset (متصفح أسباب النزول): every report of an occasion of revelation — the event or question behind a verse or sura — in the Qur'an, Sunnah, seerah, Companion and Tabi'i reports and every harvested book, detected at build time by a guarded lexicon plus the curated records tagged nuzul-browser, each with its corpus section (quran, sunnah, seerah, books, curated), nuzul_kind (occasion, mention), narrator generation (prophetic, companion, tabii, later), matched signals, work, ref, sura, aya, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every occasion-of-revelation record with corpus section, nuzul kind, narrator generation, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/mukatabat.json": {
       "get": {
         "operationId": "getMukatabat",

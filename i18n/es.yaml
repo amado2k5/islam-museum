@@ -1840,6 +1840,10 @@ explore:
       title: "Explorador de las mukatabat"
       desc: "Cada mención de la correspondencia en el Corán, la Sunna, la sira y cada libro recopilado (las cartas del Profeta a reyes y emperadores, las cartas de los califas y los relatos escritos como respuesta, la carta de Sulayman a la Reina de Saba), con cada aleya y relato citado."
       menu: "Explorar las cartas y la correspondencia en el Corán y los libros"
+    nuzul:
+      title: "Explorador de los asbab al-nuzul"
+      desc: "Cada relato sobre por qué se reveló una aleya o una sura en el Corán, la Sunna, la sira, los relatos de los Compañeros y los Sucesores y cada libro recopilado — la primera revelación en la cueva, las ocasiones de las aleyas del hiyab, el vino, el ifk, el li'an y el zihar — con cada relato citado."
+      menu: "Explorar las ocasiones de revelación en el Corán y los libros"
     munazarat:
       title: "Explorador de las munazarat"
       desc: "Cada mención de debates y disputas en el Corán, la Sunna, la sira y cada libro recopilado (las discusiones de Ibrahim con su pueblo y con Nemrod, la mubahala con los cristianos de Najran, el intercambio ante el Negus, el debate de Ibn Abbas con los Jawarech), con cada aleya y relato citado."
@@ -7812,3 +7816,50 @@ personas:
       - title: "Discute con los datos"
         body: "El grafo, los datos abiertos y la búsqueda, para que puedas poner a prueba cualquier afirmación por ti mismo."
     note: "El museo está escrito desde la tradición sunita y lo dice. Es un marco de partida etiquetado, y las demás opiniones se etiquetan cuando se muestran. Una afirmación sin cita es un defecto que hay que señalar, no una doctrina oculta. El museo no es una plataforma de debate y no tiene comentarios."
+
+nuzul:
+  title: "Explorador de los asbab al-nuzul"
+  lede: "Cada relato de una ocasión de revelación que recogen las fuentes del museo — el acontecimiento o la pregunta detrás de una aleya o una sura: la primera revelación en la cueva de Hira, las ocasiones de las aleyas del hiyab, el vino, el ifk, el li'an, el zihar y el cambio de la qibla — tal como lo transmiten los Compañeros, los Sucesores y los libros de tafsir, hadiz y sira, y cada ocasión en cada libro recopilado — fichas con fuentes que crecen a medida que llegan nuevos textos."
+  badge: "Explorador de ocasiones de revelación"
+  status: "Esta compilación contiene {n} fichas en {s} secciones; los textos son borradores hasta que una persona los lea."
+  method_title: "El método del explorador"
+  method_note: "Cada ficha aquí es una ficha ordinaria del museo — con sus fuentes y su prosa. Las ocasiones se detectan en la compilación mediante un detector vigilado sobre los textos de los pasajes — las fórmulas de ocasión explícitas («سبب نزول», «أسباب النزول») y las fórmulas de revelación ligadas a un contexto de aleya («نزلت هذه الآية», «فأنزل الله», «نزلت في فلان», «نزل جبريل»), que deben estar junto a una palabra de aleya, sura o Corán; los demás sentidos de descenso quedan fuera — lluvia, granizo, inundación, calamidad, huéspedes, el descenso de Isa y los sentidos médicos — los falsos positivos verificados se excluyen por identificador, y cada libro recopilado más adelante trae sus ocasiones aquí automáticamente cuando sus pasajes aterrizan en el grafo; las fichas seleccionadas se unen mediante la etiqueta nuzul-browser. Cada pasaje se marca ocasión cuando relata una ocasión real y mención cuando trata de la ciencia de los asbab al-nuzul, y las insignias de narrador clasifican el relato como profético, de compañero, de tabi'i o tardío."
+  api: "El conjunto completo está disponible en"
+  sections_title: "Las secciones del explorador"
+  narrators_title: "Generación del relato"
+  all_narrators: "Todas las generaciones"
+  filter_label: "Filtrar las ocasiones"
+  filter_none: "Sin resultados."
+  empty: "Aún no hay fichas de ocasiones de revelación en esta compilación."
+  kinds:
+    occasion: "relata una ocasión"
+    mention: "sobre la ciencia"
+  narrators:
+    prophetic: "Profético"
+    companion: "Compañero"
+    tabii: "Tabi'i"
+    later: "Tardío"
+  sections:
+    quran:
+      title: "En el Corán"
+      desc: "Lo que el propio Corán dice sobre las circunstancias de su descenso — las aleyas que nombran el acontecimiento o la pregunta a la que responden, y los pasajes del corpus congelado que relatan una ocasión."
+    sunnah:
+      title: "En la Sunna"
+      desc: "Los relatos de ocasiones de las colecciones de hadiz — lo que el Profeta explicó cuando descendió una aleya, las preguntas que le hicieron y los incidentes a los que respondieron las aleyas, en el Sahih de al-Bujari, el Sahih de Muslim, el Muwatta y los Sunan."
+    seerah:
+      title: "En la sira"
+      desc: "Las ocasiones que llevan la sira y los libros de historia — los episodios de revelación dentro de los acontecimientos de la biografía — llenándose a sí misma a medida que aterrizan nuevos pasajes de sira."
+    books:
+      title: "En los demás libros"
+      desc: "Los relatos de ocasiones de cualquier otra obra recopilada — los libros de asbab y de tafsir, historia, adab — clasificados por el género de la obra al llegar sus pasajes."
+    curated:
+      title: "Las fichas sobre las ocasiones"
+      desc: "Las fichas seleccionadas del museo sobre las ocasiones mismas: las ocasiones célebres de revelación como fichas nombradas, las obras de asbab y sus ediciones, y los conceptos de esta ciencia."
+  viz:
+    title: "Dónde se encuentran las ocasiones"
+    caption: "Los rayos descienden de la línea del cielo hacia las suras que aquí llevan un relato de ocasión — {n} fichas sobre sus suras; {e} más, sin número de sura, están en las listas de abajo."
+    how: "Elija una generación para colorear los rayos solo por sus relatos; elíjala de nuevo para verlos todos."
+    hint: "Pase el cursor, enfoque o toque un rayo para ver a dónde llega."
+    sky_title: "Las suras, en el orden del mushaf"
+    sky_note: "{n} de las {total} suras llevan un relato de ocasión; las demás aparecen pálidas."
+    count_in: "{n} fichas"
